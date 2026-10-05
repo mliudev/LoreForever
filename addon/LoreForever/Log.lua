@@ -110,6 +110,9 @@ local function addonVersion()
   return (ok and type(v) == "string" and v ~= "") and field(v) or "-"
 end
 
+-- This add-on's version, from its .toc ("-" when the client doesn't say).
+function Log.Version() return addonVersion() end
+
 function Log.ReportCode(entry)
   if not entry then return nil end
   local ctx, top = entry.ctx or {}, (entry.results or {})[1] or {}
@@ -170,6 +173,73 @@ function Log.ReportLink(entry)
   return link
 end
 
+-- Clip reports (LOR-232) --------------------------------------------------------------------------------------------
+-- "Report a problem with this narration" (ClipReport.lua) turns the recording that played into a link to
+-- loreforeverwow.com/clip-report, which sends it in one click, no sign-in. site/public/clip-report-code.js decodes it;
+-- keep the two in step. Fields, split by ~:
+--   LCR1 ~ add-on version.locale ~ voice pack (without LoreForever_Voice_) ~ clip id@hash ~ reason ~ name
+--        ~ how the name should sound ~ note ~ checksum
+-- Name, sound and note are percent-encoded (%, ~ and control characters) and cut to Log.CLIP_MAX characters; name and
+-- sound only go with the "name" reason. The checksum is 6 hex digits of a djb2 hash of everything before it, so a copy
+-- that lost its end is caught. Never the character's name: it's taken out of the note.
+Log.CLIP_REASONS = { "name", "voice", "cut", "quality", "stage", "text", "other" }
+Log.CLIP_MAX = { name = 60, sayAs = 80, note = 300 }
+local CLIP_REASON = {}
+for _, r in ipairs(Log.CLIP_REASONS) do CLIP_REASON[r] = true end
+local VOICE_PREFIX = "LoreForever_Voice_"
+
+-- The first n characters (not bytes) of a UTF-8 string.
+local function chars(s, n)
+  local count, i = 0, 1
+  while i <= #s do
+    count = count + 1
+    if count > n then return s:sub(1, i - 1) end
+    local b = s:byte(i)
+    i = i + ((b >= 240 and 4) or (b >= 224 and 3) or (b >= 192 and 2) or 1)
+  end
+  return s
+end
+
+local function freeText(s, n, scrubName)
+  s = tostring(s or ""):gsub("|c%x%x%x%x%x%x%x%x", ""):gsub("|r", "")
+  if scrubName then
+    local me = UnitName and UnitName("player")
+    if type(me) == "string" and me ~= "" then s = s:gsub(me:gsub("%W", "%%%0"), "[me]") end
+  end
+  s = chars(s:gsub("%s+", " "):match("^%s*(.-)%s*$"), n)
+  return (s:gsub("[%%~%c]", function(c) return string.format("%%%02X", c:byte()) end))
+end
+
+-- 6 hex digits: djb2 over the bytes, kept to 32 bits (site/public/clip-report-code.js checksum does the same).
+function Log.ClipChecksum(s)
+  local h = 5381
+  for i = 1, #s do h = (h * 33 + s:byte(i)) % 4294967296 end
+  return string.format("%06x", h % 16777216)
+end
+
+-- r = { clip = "zone:stormwind#faq3", hash = "1a2b3c", voice = "LoreForever_Voice_Default", reason = "name",
+--       name = "Teldrassil", sayAs = "tel-DRASS-il", note = "..." }
+function Log.ClipReportCode(r)
+  if not (r and type(r.clip) == "string" and r.clip ~= "") then return nil end
+  local locale = tostring(ns.readingLocale or (ns.lang and ns.lang.locale) or "enUS"):gsub("[^%a]", "")
+  local voice = tostring(r.voice or "")
+  if voice:sub(1, #VOICE_PREFIX) == VOICE_PREFIX then voice = voice:sub(#VOICE_PREFIX + 1) end
+  voice = voice:gsub("[^%w_]", "")
+  local reason = CLIP_REASON[r.reason or ""] and r.reason or "other"
+  local named = reason == "name"
+  local fields = { "LCR1", addonVersion() .. "." .. (locale ~= "" and locale or "enUS"), voice ~= "" and voice or "-",
+    r.clip:gsub("[^%w:#%-]", "") .. "@" .. tostring(r.hash or ""):gsub("[^%x]", ""):lower(), reason,
+    named and freeText(r.name, Log.CLIP_MAX.name) or "", named and freeText(r.sayAs, Log.CLIP_MAX.sayAs) or "",
+    freeText(r.note, Log.CLIP_MAX.note, true) }
+  local body = table.concat(fields, "~")
+  return body .. "~" .. Log.ClipChecksum(body)
+end
+
+function Log.ClipReportLink(r)
+  local code = Log.ClipReportCode(r)
+  return code and ("https://loreforeverwow.com/clip-report#c=" .. urlEncode(code)) or nil
+end
+
 function Log.Map(ctx)
   if not ctx.mapID then return end
   local m = LoreForeverDB.maps[ctx.mapID] or { zone = ctx.zone, subzones = {} }
@@ -179,20 +249,37 @@ function Log.Map(ctx)
 end
 
 -- Quest text as the NPC offers it (QUEST_DETAIL), and progress/completion text later.
--- The game writes the character's name into quest text; keep it out of anything that feeds the lore pipeline.
-local function scrub(text)
+-- The game writes the character's name, class and race into quest text; they're kept as $N, $C and $R
+-- (Capture.Placeholders), so nothing that feeds the lore pipeline or is shared at /contribute carries the name.
+local function nameOut(text, token)
   if type(text) ~= "string" then return text end
   local me = UnitName and UnitName("player")
   if type(me) == "string" and me ~= "" then
-    text = text:gsub(me:gsub("%W", "%%%0"), "<name>")
+    text = text:gsub(me:gsub("%W", "%%%0"), token)
   end
   return text
 end
+local function scrub(text)
+  if type(text) == "string" and ns.Capture then return ns.Capture.Placeholders(text) end
+  return nameOut(text, "$N")
+end
 Log.Scrub = scrub   -- gossip and book text too (Journey.lua)
 
+-- Titles (a book's, a letter's) keep the form 0.7.0 gave them, the name only, as <name>: they're keys (texts.books,
+-- the journey's seen.book and its events), so they stay the same across versions and characters.
+function Log.ScrubName(text) return nameOut(text, "<name>") end
+
+-- Options › Keep the quest text you see (Capture.lua): off keeps no new quest text.
+local function keeping() return not ns.Capture or ns.Capture.On() end
+
+local PARTS = { detail = { "title", "detail", "objectives" }, progress = { "title", "progress" },
+  complete = { "title", "complete" } }
+
 function Log.QuestText(kind)
+  if not keeping() then return end
   local id = GetQuestID and GetQuestID()
   if not id or id == 0 then return end
+  if not LoreForeverDB.quests[id] and ns.Capture and not ns.Capture.Room("quest") then return end
   local q = LoreForeverDB.quests[id] or { id = id }
   q.title = (GetTitleText and GetTitleText()) or q.title
   if kind == "detail" then
@@ -204,20 +291,32 @@ function Log.QuestText(kind)
   elseif kind == "complete" then
     q.completion = scrub(GetRewardText and GetRewardText()) or q.completion
   end
+  -- Who gives the quest (detail) and who takes it (progress, complete): the NPC's or object's id, name, sex and model
+  -- (Giver.lua, LOR-224). Never a player: a quest shared by another player, or started from an item, records nobody.
+  local ok, who = pcall(function() return ns.Giver and ns.Giver.Identify("npc") end)
+  if ok and who then
+    if kind == "detail" then q.starter = who else q.ender = who end
+  end
   q.known = ns.DB and ns.DB.index.quest[id] ~= nil
   LoreForeverDB.quests[id] = q
+  if ns.Capture then pcall(ns.Capture.NoteQuest, id, q, PARTS[kind] or {}) end
 end
 
 -- Quest text read from the quest log (the panel shows it for quests without lore); keeps what QuestText missed.
 function Log.QuestFromLog(q, text, objectives)
-  if not (q and q.id) then return end
+  if not (q and q.id) or not keeping() then return end
+  if not LoreForeverDB.quests[q.id] and ns.Capture and not ns.Capture.Room("quest") then return end
   local rec = LoreForeverDB.quests[q.id] or { id = q.id }
+  local had = { title = rec.title, detail = rec.text, objectives = rec.objectives }
   rec.title = rec.title or q.title
   rec.text = rec.text or scrub(text)
   rec.objectives = rec.objectives or scrub(objectives)
   rec.zone = rec.zone or (GetRealZoneText and GetRealZoneText())
   rec.known = ns.DB and ns.DB.index.quest[q.id] ~= nil
   LoreForeverDB.quests[q.id] = rec
+  local new = {}
+  for part, v in pairs(had) do if v == nil then new[#new + 1] = part end end
+  if ns.Capture and #new > 0 then pcall(ns.Capture.NoteQuest, q.id, rec, new) end
 end
 
 -- Zone visits with the level on arrival, so playtests show where people wander (often above their level).

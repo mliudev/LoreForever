@@ -1,0 +1,35 @@
+# Uploads the narration of a published release to its own CurseForge projects (release/curseforge.json): the projects
+# whose narration changed since their last upload. The Release workflow does this for every new version (its
+# curseforge-voices job). Run this one by hand for a new project's first file (CurseForge reviews a new project once it
+# has one) or to retry, without rebuilding anything: it takes the zips from the GitHub release. Narration only uploads
+# with the newest release.
+name: CurseForge voices
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release whose voices to upload, e.g. v0.7.0 (empty: the newest)"
+        required: false
+
+permissions:
+  contents: write   # the upload record on the "curseforge" release
+
+jobs:
+  curseforge-voices:
+    runs-on: ubuntu-latest
+    env:
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      TAG: ${{ inputs.tag }}
+    steps:
+      # scripts/curseforge_voices.py, release/curseforge.json and the core's .toc (for the game version), from main
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts
+            release
+            addon/LoreForever
+      - name: Upload the voices
+        run: python3 scripts/curseforge_voices.py upload --from-release

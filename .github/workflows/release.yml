@@ -1,8 +1,9 @@
 # Builds the download zip (the add-on with every default narration and the language packs) and the Windows
 # installer, publishes them as a GitHub release with that version's notes from CHANGELOG.md, and uploads the zip to
-# CurseForge. Also builds the optional narration packs (the female narrator) and adds them to the GitHub release
-# only: CurseForge refuses additional files for this project (errorCode 1011), and as normal files the CurseForge
-# app would install a pack in place of the add-on. The site's /voices links follow releases/latest.
+# CurseForge. Also builds the optional narration packs (the female narrator) and adds them to the GitHub release.
+# CurseForge refuses additional files for this project (errorCode 1011), and as normal files the CurseForge app would
+# install a pack in place of the add-on, so a voice goes to CurseForge only as its own project (release/curseforge.json,
+# the curseforge-voices job). The site's /voices links follow releases/latest.
 # Runs when a version tag is pushed; the maintainer's scripts/release.sh does that. The tag must match
 # "## Version" in addon/LoreForever/LoreForever.toc. Run it by hand (Actions > Release > Run workflow) to
 # rebuild the assets of an existing tag; that only uploads to CurseForge if you tick the box.
@@ -42,10 +43,23 @@ jobs:
           version=$(sed -n 's/^## Version: *//p' addon/LoreForever/LoreForever.toc | tr -d '\r')
           echo "version=$version" >> "$GITHUB_OUTPUT"
           [ "v$version" = "$TAG" ] || { echo "::error::tag $TAG doesn't match .toc version $version"; exit 1; }
+      # The recordings aren't in git (LOR-133): put back the ones the tag's release/audio.json names, from the "audio"
+      # release. Tags from before that kept them in git (and have no scripts/audio_assets.py), so those build as they are.
+      - name: Fetch the recordings
+        run: |
+          if [ -f scripts/audio_assets.py ]; then python3 scripts/audio_assets.py fetch; fi
+      # The zip QA tested is the one that ships: scripts/release.sh puts its sha256 in the tag's message.
       - name: Build the zip
         run: |
           bash scripts/build-release.sh
           mv "dist/LoreForever-${{ steps.version.outputs.version }}.zip" dist/LoreForever.zip
+          want=$(git for-each-ref "refs/tags/$TAG" --format='%(contents)' | sed -n 's/^zip-sha256: *//p' | head -1)
+          got=$(sha256sum dist/LoreForever.zip | cut -d' ' -f1)
+          if [ -n "$want" ] && [ "$want" != "$got" ]; then
+            echo "::error::The zip came out as sha256 $got, not $want, the zip scripts/release.sh built and QA tested."
+            exit 1
+          fi
+          echo "zip sha256 $got${want:+, the one QA tested}"
       # dist/extra/manifest.tsv: file, display name, version (one line per extra zip).
       - name: Build the narration packs
         run: |
@@ -91,20 +105,9 @@ jobs:
         shell: pwsh
         run: |
           if (-not (Test-Path "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe")) { choco install innosetup -y --no-progress }
-      # Windows' own tar unzips the ~5,000 files in seconds; Expand-Archive took 5 times as long. By full path: Git's GNU
-      # tar comes first on the runner's PATH, and it can't read zips.
-      - name: Build the installer
-        shell: pwsh
-        run: |
-          New-Item -ItemType Directory dist\stage | Out-Null
-          & "$env:SystemRoot\System32\tar.exe" -xf dist\LoreForever.zip -C dist\stage
-          if ($LASTEXITCODE) { exit $LASTEXITCODE }
-          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /Q "/DAppVersion=${{ needs.zip.outputs.version }}" `
-            "/DSourceDir=$PWD\dist\stage" "/DOutputDir=$PWD\dist" release\installer\LoreForever.iss
-          if ($LASTEXITCODE) { exit $LASTEXITCODE }
       # Code signing (Azure Artifact Signing). Skipped until SIGNING_PROFILE is set (after identity validation), so unsigned
       # releases keep working: AZURE_CLIENT_ID, AZURE_TENANT_ID, AZURE_SUBSCRIPTION_ID, SIGNING_ENDPOINT,
-      # SIGNING_ACCOUNT, SIGNING_PROFILE.
+      # SIGNING_ACCOUNT, SIGNING_PROFILE. Logged in up front: the companion app and the installer are both signed.
       - name: Azure login
         if: vars.SIGNING_PROFILE != ''
         uses: azure/login@v3
@@ -112,6 +115,83 @@ jobs:
           client-id: ${{ vars.AZURE_CLIENT_ID }}
           tenant-id: ${{ vars.AZURE_TENANT_ID }}
           subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+      # The companion app (LOR-132), an optional part of Setup.exe. Its source stays in the private repo; the release
+      # recorded which commit in release/companion.ref (publish-public.sh), and the release environment's secret
+      # COMPANION_SOURCE_TOKEN reads it (read-only). Without the secret, or if anything here fails, Setup.exe ships
+      # without the companion as before, with a warning on the run, so the release never stops over it.
+      - id: companion
+        name: Which companion commit
+        shell: pwsh
+        env:
+          COMPANION_SOURCE_TOKEN: ${{ secrets.COMPANION_SOURCE_TOKEN }}
+        run: |
+          $ref = if (Test-Path release\companion.ref) { (Get-Content release\companion.ref -Raw).Trim() } else { "" }
+          if (-not $ref) { "No release\companion.ref: Setup.exe without the companion" }
+          elseif (-not $env:COMPANION_SOURCE_TOKEN) {
+            "::warning::COMPANION_SOURCE_TOKEN isn't set in the release environment, so this Setup.exe ships without the companion app."
+            $ref = ""
+          } else { "Companion source: mliudev/lore-forever at $ref" }
+          "ref=$ref" >> $env:GITHUB_OUTPUT
+      - id: companion_src
+        name: Check out the companion source (private, read-only)
+        if: steps.companion.outputs.ref != ''
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          repository: mliudev/lore-forever
+          ref: ${{ steps.companion.outputs.ref }}
+          token: ${{ secrets.COMPANION_SOURCE_TOKEN }}
+          path: companion-src
+          sparse-checkout: |
+            companion
+            data/pronunciation.json
+          sparse-checkout-cone-mode: false
+      - uses: astral-sh/setup-uv@v6
+        if: steps.companion_src.outcome == 'success'
+      - id: companion_build
+        name: Build the companion
+        if: steps.companion_src.outcome == 'success'
+        continue-on-error: true
+        shell: pwsh
+        run: companion-src\companion\packaging\build.ps1 -Out "$env:RUNNER_TEMP\companion" -Work "$env:RUNNER_TEMP\companion-build"
+      - id: companion_sign
+        name: Sign the companion
+        if: steps.companion_build.outcome == 'success' && vars.SIGNING_PROFILE != ''
+        continue-on-error: true
+        uses: azure/artifact-signing-action@v2
+        with:
+          endpoint: ${{ vars.SIGNING_ENDPOINT }}
+          signing-account-name: ${{ vars.SIGNING_ACCOUNT }}
+          certificate-profile-name: ${{ vars.SIGNING_PROFILE }}
+          files: ${{ runner.temp }}\companion\LoreForeverCompanion\LoreForeverCompanion.exe
+          file-digest: SHA256
+          timestamp-rfc3161: http://timestamp.acs.microsoft.com
+          timestamp-digest: SHA256
+      # Windows' own tar unzips the ~5,000 files in seconds; Expand-Archive took 5 times as long. By full path: Git's GNU
+      # tar comes first on the runner's PATH, and it can't read zips.
+      - id: build
+        name: Build the installer
+        shell: pwsh
+        env:
+          # The companion goes in only when it built, and (when this release signs) was signed.
+          WITH_COMPANION: ${{ steps.companion_build.outcome == 'success' && (vars.SIGNING_PROFILE == '' || steps.companion_sign.outcome == 'success') }}
+        run: |
+          New-Item -ItemType Directory dist\stage | Out-Null
+          & "$env:SystemRoot\System32\tar.exe" -xf dist\LoreForever.zip -C dist\stage
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          $companion = @()
+          $exe = "$env:RUNNER_TEMP\companion\LoreForeverCompanion\LoreForeverCompanion.exe"
+          if ($env:WITH_COMPANION -eq 'true' -and (Test-Path $exe)) {
+            $companion = "/DCompanionDir=$(Split-Path $exe)", "/DCompanionIss=$PWD\companion-src\companion\packaging\companion.iss"
+            "### Setup.exe includes the companion app (mliudev/lore-forever@${{ steps.companion.outputs.ref }})" >> $env:GITHUB_STEP_SUMMARY
+          } elseif ('${{ steps.companion.outputs.ref }}') {
+            "::warning::The companion app didn't check out, build or sign (see the steps above), so this Setup.exe ships without it."
+            "### Setup.exe ships without the companion app: it didn't check out, build or sign" >> $env:GITHUB_STEP_SUMMARY
+          }
+          "with_companion=$([int]($companion.Count -gt 0))" >> $env:GITHUB_OUTPUT
+          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /Q "/DAppVersion=${{ needs.zip.outputs.version }}" `
+            "/DSourceDir=$PWD\dist\stage" "/DOutputDir=$PWD\dist" @companion release\installer\LoreForever.iss
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
       - name: Sign the installer
         if: vars.SIGNING_PROFILE != ''
         uses: azure/artifact-signing-action@v2
@@ -142,6 +222,24 @@ jobs:
             if (-not (Test-Path $toc)) { Write-Error "installer didn't place $toc"; exit 1 }
             "installed $($folder.Name): $((Get-ChildItem (Split-Path $toc) -Recurse -File).Count) files"
           }
+      # A plain silent install leaves the companion out (it's opt-in); asking for it installs it, signed. Its narration
+      # voice (a 190 MB download from upstream) is left out here; the private repo's Companion workflow tests that.
+      - name: Smoke test (the companion app)
+        if: steps.build.outputs.with_companion == '1'
+        shell: pwsh
+        run: |
+          $wow = "$env:RUNNER_TEMP\wow"
+          $app = "$env:LOCALAPPDATA\Programs\Lore Forever Companion\LoreForeverCompanion.exe"
+          if (Test-Path $app) { Write-Error "a plain silent install shouldn't add the companion"; exit 1 }
+          Start-Process dist\LoreForever-Setup.exe -Wait -ArgumentList "/VERYSILENT", "/SUPPRESSMSGBOXES", "/DIR=$wow",
+            "/COMPONENTS=addon,companion", "/LOG=$env:RUNNER_TEMP\companion.log"
+          if (-not (Test-Path $app)) { Get-Content "$env:RUNNER_TEMP\companion.log" -Tail 40; Write-Error "the companion didn't install"; exit 1 }
+          if ('${{ vars.SIGNING_PROFILE }}') {
+            $sig = Get-AuthenticodeSignature $app
+            "companion signature: $($sig.Status); signer: $($sig.SignerCertificate.Subject)"
+            if ($sig.Status -ne 'Valid') { exit 1 }
+          }
+          "installed the companion: $((Get-ChildItem (Split-Path $app) -Recurse -File).Count) files"
       # The optional voice page's silent path: /VOICES=female downloads the female narrator's all-in-one zip and
       # unzips it next to the add-on. This version's release isn't published yet, so it fetches the latest one's.
       # Then the uninstaller must remove the add-on and the voice it added.
@@ -208,8 +306,9 @@ jobs:
           fi
 
   # CurseForge is the main download channel. Needs the repo secret CF_API_TOKEN (CurseForge > Account > API tokens);
-  # without it this job skips with a warning. The project ID and game version come from the .toc
-  # (## X-Curse-Project-ID, and ## Interface 16001 -> Forever 1.60.1), so nothing else is configured here.
+  # without it this job fails. The project ID and game version come from the .toc (## X-Curse-Project-ID, and
+  # ## Interface 16001 -> Forever 1.60.1); the narration that has CurseForge projects of its own, from
+  # release/curseforge.json.
   curseforge:
     needs: [zip, release]
     if: github.event_name == 'push' || inputs.curseforge
@@ -225,6 +324,14 @@ jobs:
           sparse-checkout: |
             scripts
             addon/LoreForever
+      # scripts/curseforge_voices.py and release/curseforge.json from this run's own commit, like this file: the tag on
+      # a push, main on Run workflow, so a rerun for an older tag goes by today's narration projects.
+      - uses: actions/checkout@v4
+        with:
+          path: ci
+          sparse-checkout: |
+            scripts
+            release
       - uses: actions/download-artifact@v4
         with:
           name: zip
@@ -249,27 +356,60 @@ jobs:
             echo "::warning::CurseForge has no Forever version $game; tagging the newest one, $(jq -r .name <<<"$newest")"
           fi
           python3 scripts/changelog.py notes "$VERSION" > notes.md
-          # CurseForge's upload refuses files over about 500 MB (HTTP 413 for 0.7.0's 701 MB zip; 0.6.0's 388 MB went
-          # through). Over that, CurseForge gets the zip without the default narrator's quest dialogue pack, the
-          # biggest one, and its notes say where the full download is.
-          zip=dist/LoreForever.zip
-          if [ "$(stat -c %s "$zip")" -gt $((480 * 1024 * 1024)) ]; then
-            mkdir -p dist/curseforge && cp "$zip" dist/curseforge/LoreForever.zip
-            zip -q -d dist/curseforge/LoreForever.zip 'LoreForever_Voice_Default_Quests/*' || [ $? -eq 12 ]   # 12: nothing to remove
-            echo "::warning::$(( $(stat -c %s "$zip") / 1048576 )) MB is over CurseForge's limit: uploading $(( $(stat -c %s dist/curseforge/LoreForever.zip) / 1048576 )) MB, without the quest dialogue voices"
-            zip=dist/curseforge/LoreForever.zip
-            [ "$(stat -c %s "$zip")" -le $((480 * 1024 * 1024)) ] \
-              || { echo "::error::Still $(( $(stat -c %s "$zip") / 1048576 )) MB without the quest dialogue pack: over CurseForge's limit"; exit 1; }
-            printf '\n%s\n' "Quest givers' voices are too big for CurseForge's file limit, so this download leaves them out. Get the full download, with them, at https://loreforeverwow.com" >> notes.md
+          # CurseForge's copy of the zip (release/curseforge.json): without the narration that's live as a CurseForge
+          # project of its own, which this file then lists as a dependency, so the app installs it along with the
+          # add-on. And under CurseForge's upload limit of about 500 MB (HTTP 413 for 0.7.0's 701 MB zip; 0.6.0's
+          # 388 MB went through): over it, also without the packs whose projects aren't live yet, and its notes say
+          # where the full download is. Every file in it is byte for byte the release zip's.
+          python3 ci/scripts/curseforge_voices.py core dist/LoreForever.zip dist/curseforge
+          if [ -f dist/curseforge/manual ]; then
+            # One package by hand (release/curseforge.json, core_upload: manual): the website takes up to 2 GB.
+            { echo "CurseForge: upload by hand. One package with nothing cut down: this release's LoreForever.zip ($(cat dist/curseforge/manual) MB) and LoreForever_Voice_Female-complete.zip merged into one (python3 scripts/curseforge_voices.py package DIR OUT, DIR holding the release's zips; without her only if that's over 2 GB). The upload API refuses files over about 500 MB, the website takes up to 2 GB."
+              echo
+              echo "At https://authors.curseforge.com/#/projects/$project/files upload it as \"Lore Forever $VERSION\", game version Forever $game, release type Release, with this changelog (Markdown):"
+              echo
+              cat notes.md; } >> "$GITHUB_STEP_SUMMARY"
+            echo "Not uploaded: CurseForge gets this release's zip by hand (core_upload: manual)"
+            exit 0
           fi
+          cat dist/curseforge/notes.md >> notes.md
           jq -n --rawfile log notes.md --arg name "Lore Forever $VERSION" --argjson id "$id" \
-            '{displayName: $name, gameVersions: [$id], releaseType: "release", changelog: $log, changelogType: "markdown"}' \
+            --slurpfile rel dist/curseforge/relations.json \
+            '{displayName: $name, gameVersions: [$id], releaseType: "release", changelog: $log, changelogType: "markdown"}
+             + (if ($rel[0].projects | length) > 0 then {relations: $rel[0]} else {} end)' \
             > metadata.json
           code=$(curl -sS --retry 3 --retry-delay 10 -o result.json -w '%{http_code}' \
-            -H "X-Api-Token: $CF_API_TOKEN" -F "metadata=<metadata.json" -F "file=@$zip" \
+            -H "X-Api-Token: $CF_API_TOKEN" -F "metadata=<metadata.json" -F "file=@dist/curseforge/LoreForever.zip" \
             "https://wow.curseforge.com/api/projects/$project/upload-file")
           cat result.json; echo
           [ "$code" = 200 ] || { echo "::error::CurseForge upload failed (HTTP $code)"; exit 1; }
           main=$(jq -r .id result.json)
           echo "Uploaded Lore Forever $VERSION to CurseForge project $project (file $main); it goes live after moderation." \
             >> "$GITHUB_STEP_SUMMARY"
+
+  # The narration with CurseForge projects of its own (release/curseforge.json; each narrator's stories and its quest
+  # dialogue): each project's folders, from the release just published, go to it as requiring Lore Forever whenever
+  # the narration in them changed since its last upload (scripts/curseforge_voices.py records those on the
+  # "curseforge" release; CurseForge refuses an unchanged re-upload). A project with no id yet is skipped, so this does
+  # nothing until one exists. A job of its own, so narration can't hold up the add-on's upload. The same upload
+  # without a release: the "CurseForge voices" workflow (voices.yml).
+  curseforge-voices:
+    needs: [zip, release]
+    if: github.event_name == 'push' || inputs.curseforge
+    runs-on: ubuntu-latest
+    env:
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      VERSION: ${{ needs.zip.outputs.version }}
+    steps:
+      # scripts/curseforge_voices.py, release/curseforge.json and the core's .toc (for the game version). From the commit
+      # this run is for: the tag on a push, main on Run workflow, so a project id added since the tag counts.
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts
+            release
+            addon/LoreForever
+      - name: Upload the voices
+        run: python3 scripts/curseforge_voices.py upload --from-release

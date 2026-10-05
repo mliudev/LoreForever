@@ -8,6 +8,11 @@
 --   isn't a voice of its own, and does nothing without its base; see Voice.Refresh)
 --   ## X-LoreForever-Races: orc, troll       (voice packs, optional: the races whose stories this voice suits, for
 --   "Prefer voices that suit the race"; see Voice.Races)
+--   ## X-LoreForever-Gender: male | female   (voice packs, optional: for matching quest givers; see Voice.Gender)
+--   A voice pack whose name ends in a locale (LoreForever_Voice_Female_deDE) is that voice in that language: it plays
+--   in its place while the add-on shows the language (see Voice.KeyOf, Voice.InLanguage). A quest dialogue pack in
+--   another language (LoreForever_Voice_Female_Quests_deDE) also writes P.questVoice: the fingerprints of the game's
+--   own quest text in that language, which the add-on's data doesn't have (see Voice.QuestClip).
 -- Add-ons can't discover files at runtime, so packs are found through the game's add-on list and load when chosen.
 -- A pack's only code is `local P = LoreForeverPacks.Begin(...)` followed by writes into P (e.g. P.clips[id] = hash).
 
@@ -58,8 +63,11 @@ local function describe(rec)
   local n = rec.name
   rec.kind = kindOf(n) or rec.kind
   local prefix = (rec.kind == "lang" or rec.kind == "lang-overlay") and PREFIX[rec.kind]
+  -- Before its .toc can be read: a language pack's locale ends its name, and so does a voice pack's in another
+  -- language (LoreForever_Voice_Female_deDE, see Voice.KeyOf).
   rec.locale = meta(n, "X-LoreForever-Locale") or rec.locale
-    or (prefix and n:sub(1, #prefix) == prefix and n:sub(#prefix + 1)) or nil
+    or (prefix and n:sub(1, #prefix) == prefix and n:sub(#prefix + 1))
+    or (rec.kind == "voice" and n:match("_(%l%l%u%u)$")) or nil
   rec.format = tonumber(meta(n, "X-LoreForever-Format") or "") or rec.format
   rec.dataVersion = meta(n, "X-LoreForever-DataVersion") or rec.dataVersion
   rec.languageName = meta(n, "X-LoreForever-LanguageName") or rec.languageName

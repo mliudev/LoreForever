@@ -11,7 +11,18 @@
     [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
     $ZipUrl = 'https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip'
+    $SumsUrl = $ZipUrl -replace '[^/]+$', 'SHA256SUMS.txt'   # the release's checksums, published next to the zip
     $Flavor = '_classic_beta_'
+
+    # The zip's SHA-256 from the release's SHA256SUMS.txt (sha256sum's format), or $null when the release has none.
+    function Get-ZipSha256 {
+        try { $sums = (Invoke-WebRequest -Uri $SumsUrl -UseBasicParsing).Content } catch { return $null }
+        if ($sums -is [byte[]]) { $sums = [Text.Encoding]::UTF8.GetString($sums) }   # served as a binary download
+        foreach ($line in ($sums -split "`n")) {
+            if ($line -match '^([0-9a-fA-F]{64}) [ *]LoreForever\.zip\s*$') { return $Matches[1] }
+        }
+        return $null
+    }
 
     function Find-WoW {
         if ($env:LOREFOREVER_WOW) { return $env:LOREFOREVER_WOW }
@@ -57,7 +68,16 @@
     try {
         $zip = Join-Path $tmp 'LoreForever.zip'
         Write-Host 'Downloading the latest version (about 50 MB)...'
+        $want = Get-ZipSha256
         Invoke-WebRequest -Uri $ZipUrl -OutFile $zip -UseBasicParsing
+        $got = (Get-FileHash -Path $zip -Algorithm SHA256).Hash
+        # A release published between the two downloads comes with new checksums: read them once more.
+        if ($want -and $got -ne $want) { $again = Get-ZipSha256; if ($again) { $want = $again } }
+        if (-not $want) {
+            Write-Host "Couldn't check the download: this release has no checksum file. Installing anyway." -ForegroundColor Yellow
+        } elseif ($got -ne $want) {
+            throw "The download is damaged: its checksum doesn't match the release's. Nothing was changed; run this again."
+        }
         $unpacked = Join-Path $tmp 'zip'
         Expand-Archive -Path $zip -DestinationPath $unpacked -Force
         if (-not (Test-Path (Join-Path $unpacked 'LoreForever\LoreForever.toc'))) { throw 'The download looks broken (no LoreForever.toc).' }

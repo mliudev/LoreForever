@@ -22,7 +22,7 @@
   },
   {
    "title": "Old Tales and Sea Monsters",
-   "body": "Before settling in Kalimdor, Nat spent his earlier years fishing the docks of Southshore in the Hillsbrad Foothills, where he frequently baffled his angling partners with vivid, prophetic dreams of historical upheavals. Pagle has also ventured into far more perilous waters, including an excursion into the ruins of Zul'Gurub where he misplaced his favorite measuring tape and tackle box near the waters prowled by the monstrous hydra Gahz'ranka.",
+   "body": "Pagle has ventured into perilous waters, including an excursion into the ruins of Zul'Gurub where he misplaced his favorite measuring tape and tackle box near the waters prowled by the monstrous hydra Gahz'ranka.",
    "spoiler": 0
   }
  ],
@@ -71,21 +71,12 @@
     "nat pagle zul gurub"
    ],
    "answer": "Nat once fished within the ancient troll city of Zul'Gurub, leaving behind his tackle box and prized measuring tape near the waters harboring the great hydra Gahz'ranka."
-  },
-  {
-   "q": "Where did Nat Pagle come from originally?",
-   "aliases": [
-    "nat pagle southshore",
-    "nat origin",
-    "nat pagle hillsbrad"
-   ],
-   "answer": "Years ago, Nat fished the southern docks of Southshore in the Hillsbrad Foothills alongside fellow locals, long before he decided to cross the Great Sea to Kalimdor."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Lumak, the fishing trainer in the Valley of Honor in Orgrimmar, counts Nat Pagle as a trusted friend and sends promising Horde fishermen across the sea to train with him."
+   "text": "Lumak, the fishing trainer in the Valley of Honor in Orgrimmar, counts Nat Pagle as a trusted friend and sends promising Horde fishermen south to train with him."
   },
   {
    "target": "faction:Alliance",
@@ -100,13 +91,10 @@
   "lumak",
   "nat pagle",
   "pagle",
-  "pagle's pointe",
-  "southshore"
+  "pagle's pointe"
  ],
  "related": [
   "zone:dustwallow",
-  "subzone:southshore",
-  "zone:hillsbrad",
   "quest:6608",
   "subzone:zul-gurub",
   "zone:ironforge",

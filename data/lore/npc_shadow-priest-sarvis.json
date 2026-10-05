@@ -17,7 +17,7 @@
   },
   {
    "title": "Securing Deathknell",
-   "body": "Beyond acclimating new recruits, Sarvis oversees crucial local defenses against lingering threats in Tirisfal Glades. He monitors the rogue mindless undead gathering at the Rotbrain Encampment and coordinates the containment of Scourge forces probing Deathknell's perimeter. By directing novices toward vital intelligence and martial trials, Sarvis ensures that the town remains a fortified bastion for the Forsaken.",
+   "body": "Beyond acclimating new recruits, Sarvis oversees crucial local defenses against lingering threats in Tirisfal Glades. He coordinates the containment of Scourge forces probing Deathknell's perimeter. By directing novices toward vital intelligence and martial trials, Sarvis ensures that the town remains a fortified bastion for the Forsaken.",
    "spoiler": 0
   }
  ],
@@ -44,18 +44,9 @@
    "q": "Why is Sarvis having players kill mindless zombies?",
    "aliases": [
     "why kill mindless ones",
-    "rotbrains",
     "the mindless ones"
    ],
    "answer": "Not every corpse raised from the grave retains their free will and sanity. Those who succumb to madness are deemed a hazard to the settlement and must be destroyed before they endanger the living dead."
-  },
-  {
-   "q": "What is the Rotbrain Encampment?",
-   "aliases": [
-    "rotbrain camp",
-    "rotbrains deathknell"
-   ],
-   "answer": "The Rotbrain Encampment is a nearby pocket where mindless, feral undead gather. Sarvis orders assaults against it to prevent these rogue ghouls and zombies from overrunning Deathknell."
   }
  ],
  "angles": [
@@ -72,7 +63,6 @@
   "deathknell",
   "forsaken",
   "novice elreth",
-  "rotbrain",
   "sarvis",
   "shadow priest sarvis",
   "tirisfal glades"
@@ -81,8 +71,7 @@
   "subzone:deathknell",
   "zone:tirisfal",
   "topic:forsaken",
-  "topic:scourge",
-  "subzone:rotbrain-encampment"
+  "topic:scourge"
  ],
  "attribution": [
   "Shadow Priest Sarvis"

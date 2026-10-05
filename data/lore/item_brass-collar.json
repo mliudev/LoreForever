@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Brass Collar",
   "quests": [
-   "quest:330"
+   "quest:88"
   ]
  },
  "summary": "The Brass Collar is a sturdy neckpiece worn by Princess, a prize-winning sow owned by the Brackwell family. It serves as tangible proof for Ma Stonefield that the gluttonous beast has been put down before ruining her farm's crops.",
@@ -69,7 +69,7 @@
   "stonefield farm"
  ],
  "related": [
-  "quest:330",
+  "quest:88",
   "npc:ma-stonefield",
   "subzone:brackwell-pumpkin-patch",
   "subzone:stonefield-farm",

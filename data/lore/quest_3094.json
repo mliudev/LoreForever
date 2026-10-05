@@ -10,18 +10,18 @@
   ],
   "level": "3",
   "faction": "Horde",
-  "start": "Rohaku Stonehoof",
+  "start": "Grull Hawkwind",
   "end": "Gart Mistrunner",
   "previous": null,
-  "next": "Moonfire (tauren)",
+  "next": null,
   "wiki": "Verdant Note (quest)",
   "chain": []
  },
- "summary": "The Verdant Note is a formal summons delivered to promising young tauren in the Red Cloud Mesa. Entrusted by the elder Rohaku Stonehoof, the message bids budding protectors of the wilds to seek out the druidic mentor Gart Mistrunner at Camp Narache.",
+ "summary": "The Verdant Note is a formal summons delivered to promising young tauren in the Red Cloud Mesa. Entrusted by Grull Hawkwind, the message bids budding protectors of the wilds to seek out the druidic mentor Gart Mistrunner at Camp Narache.",
  "sections": [
   {
    "title": "A Summons to the Path",
-   "body": "Young tauren stepping into their responsibilities on the Red Cloud Mesa are quickly singled out for their natural gifts. Rohaku Stonehoof passes along this missive on behalf of a messenger sent by Gart Mistrunner. The note acts as an invitation into the ancient fold of tauren druidism, calling the initiate away from basic village errands to heed the whispering balance of the plains.",
+   "body": "Young tauren stepping into their responsibilities on the Red Cloud Mesa are quickly singled out for their natural gifts. Grull Hawkwind passes along this missive on behalf of a messenger sent by Gart Mistrunner. The note acts as an invitation into the ancient fold of tauren druidism, calling the initiate away from basic village errands to heed the whispering balance of the plains.",
    "spoiler": 0
   },
   {
@@ -46,7 +46,7 @@
     "who gives verdant note",
     "verdant note quest starter"
    ],
-   "answer": "Rohaku Stonehoof hands the note to the young druid, mentioning that a messenger sent by Gart Mistrunner was recently searching for them."
+   "answer": "Grull Hawkwind hands the note to the young druid, mentioning that a messenger sent by Gart Mistrunner was recently searching for them."
   },
   {
    "q": "Where can Gart Mistrunner be found?",
@@ -78,7 +78,7 @@
     "what comes after verdant note",
     "druid quest follow up"
    ],
-   "answer": "After reporting to Gart Mistrunner, he directs the initiate toward learning Moonfire, beginning their mastery over primal celestial and natural magic."
+   "answer": "After reporting to Gart Mistrunner, he becomes the initiate's trainer, promising to teach the Earthmother's gifts as they grow in wisdom."
   }
  ],
  "angles": [
@@ -100,14 +100,14 @@
   "druid",
   "earthmother",
   "gart mistrunner",
+  "grull hawkwind",
   "mulgore",
   "red cloud mesa",
-  "rohaku stonehoof",
   "verdant note"
  ],
  "related": [
   "npc:gart-mistrunner",
-  "npc:rohaku-stonehoof",
+  "npc:grull-hawkwind",
   "subzone:camp-narache",
   "zone:mulgore",
   "topic:druid"

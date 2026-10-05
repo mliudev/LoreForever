@@ -8,7 +8,7 @@
 -- voice and language packs (their versions against the core's), the UI strings, the minimap button and the saved
 -- settings. Each step runs in xpcall, so a Lua error fails that check with its stack and the rest still run. At the
 -- end everything goes back the way it was: the panel and its pages, the conversation, the playlist, the settings, what
--- this character has heard, the logged questions.
+-- this character has heard, the logged questions, and what of this version's What's new is still to see.
 --
 -- The summary goes to chat ("Lore Forever QA 0.7.0: 23/24 passed, 1 skipped. FAIL: ..."); the full results go to
 -- LoreForeverDB.qa = { version, time, date, locale, client, build, zone, seconds, summary, passed, failed, skipped,
@@ -324,6 +324,58 @@ check("saved", {
   end,
 })
 
+-- Shared Forever text (Capture.lua, LOR-228/234): the capture's bookkeeping, and a Contribute code that reads back
+-- whole (what loreforeverwow.com/contribute decodes).
+check("contribute", {
+  function(c)
+    local C, cap = ns.Capture, LoreForeverDB.capture
+    if not C.On() then
+      skip("captured text: bookkeeping", "Options › Keep the quest text you see is off")
+    else
+      local ok = type(cap) == "table" and cap.v == 1 and type(cap.sent) == "table" and type(cap.missing) == "table"
+        and type(cap.by) == "table" and type(cap.install) == "string" and type(LoreForeverDB.texts.say) == "table"
+      local lines = 0
+      C.EachLine(function() lines = lines + 1 end)
+      expect("captured text: bookkeeping", ok, ok and string.format("%d lines kept, %d marked as sent, client %s %s",
+        lines, count(cap.sent), tostring(cap.build), tostring(cap.locale)) or "LoreForeverDB.capture is missing or malformed")
+    end
+    local line = { kind = "quest", id = 99999, part = "detail", text = "Line one\nwith ~ and 100% $N", player = C.PlayerTag(),
+      speaker = { kind = "npc", id = 197, name = "Test Npc", sex = 2, ctype = "Humanoid" } }
+    local code = C.Code(line)
+    local back = C.Decode(code)
+    expect("contribute code reads back", back ~= nil and back.text == line.text and back.kind == "quest" and back.id == "99999"
+      and back.speaker == "197.2.Humanoid.Test Npc", cut(code, 80))
+    local link, whole = C.Link(line)
+    expect("contribute link", whole and link:find("^https://loreforeverwow%.com/contribute#c=LFC1~") ~= nil
+      and not link:find("%s"), cut(link, 80))
+  end,
+  -- The quest window's button and its share window, whatever Options › Contribute buttons says (off by default).
+  function(c)
+    local C = ns.Capture
+    c.contributeLine = { kind = "quest", id = 99999, part = "detail", text = "A quest text for the self-test.",
+      key = "qa:contribute", label = "Lore Forever QA" }
+    local b = C.TestButton("quest", c.contributeLine)
+    if not b then return skip("contribute button opens the share window", "this client has no quest window") end
+    local shown = b:IsShown()
+    press(b)
+    local w = C.window
+    local text = w and w.linkBox and textOf(w.linkBox) or ""
+    expect("contribute button opens the share window", shown and w ~= nil and w:IsShown()
+      and text:find("^https://loreforeverwow%.com/contribute#c=LFC1~") ~= nil,
+      string.format("button %s, Options › Contribute buttons %s; %s", shown and "on show" or "hidden",
+        C.ButtonsOn() and "on" or "off", text ~= "" and cut(text, 60) or "no link"))
+  end,
+}, function(c)
+  local C = ns.Capture
+  if c.contributeLine then
+    C.TestButton("quest", nil)
+    if C.window then C.window:Hide() end
+    if LoreForeverDB.capture and LoreForeverDB.capture.copied then LoreForeverDB.capture.copied["qa:contribute"] = nil end
+    C.UpdateAll()
+    c.contributeLine = nil
+  end
+end)
+
 -- Voice and language packs: what's installed and loaded, and that our own packs match the core's version.
 check("packs", {
   function(c)
@@ -477,6 +529,53 @@ check("Journey page", {
   end,
 })
 
+-- The journey map (LOR-242): + zooms it, the circular arrow shows all of it again, Bigger map opens the large map
+-- on screen and its close button closes it, after which Escape closes the panel again. Skipped when the page has no map
+-- (no moment with a spot yet, or a narrow panel).
+local function panelEscapes()
+  for _, name in ipairs(UISpecialFrames or {}) do
+    if name == "LoreForeverFrame" then return true end
+  end
+  return false
+end
+
+check("journey map", {
+  function(c)
+    if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
+    ns.Journey.Show()
+  end,
+  function(c)
+    local m = ns.Journey.map
+    if not (m and m:IsShown() and m.target and m.zoomIn) then
+      skip("journey map: zoom and Bigger map", "no map on the page (no moment with a spot yet, or the panel is narrow)")
+      return false
+    end
+    press(m.zoomIn)
+    c.zoomTo = (m.anim and m.anim.z1) or m.zoom
+    ns.JourneyMap.ResetZoom(m)
+    expect("journey map: zoom in, and back", c.zoomTo > 1.001 and m.zoom <= 1.001,
+      string.format("+ zooms to %.2f; the circular arrow back to %.2f", c.zoomTo, m.zoom))
+    press(m.expandButton)
+  end,
+  function(c)
+    local win = ns.Journey.bigWin
+    local ok = widgets("journey map: Bigger map opens", { { "large map", win }, { "its map", win and win.map },
+      { "its close button", win and win.closeButton } }, rect(UIParent))
+    if not ok then return false end
+    c.escapes = panelEscapes()
+    press(win.closeButton)
+  end,
+  function(c)   -- a step later: the panel takes Escape again a frame after the large map closes
+    local win = ns.Journey.bigWin
+    expect("journey map: Esc closes only the large map", not c.escapes and not win:IsShown() and panelEscapes(),
+      (c.escapes and "the panel would close with it") or (win:IsShown() and "still open after its close button")
+        or (not panelEscapes() and "Escape no longer closes the panel") or "closed; Escape closes the panel again")
+  end,
+}, function()
+  ns.Journey.HideBigMap()
+  ns.Journey.Hide()
+end)
+
 -- An answer, a lore link in it, then Back and Forward (their buttons' own handlers).
 check("lore links", {
   function(c)
@@ -605,9 +704,9 @@ check("buttons", {
       end
       expect("minimap button: where Options put it", not why, why or where)
     end
-    -- The buttons on the quest, quest log and book windows (hidden until those open).
+    -- The buttons on the quest, quest log and book windows (hidden until those open): Lore, and play on the quest window.
     local missing, H = {}, ns.Hooks
-    if _G.QuestFrame and not H.questDialogButton then missing[#missing + 1] = "quest window" end
+    if _G.QuestFrame and not (H.questDialogButton and H.questDialogPlay) then missing[#missing + 1] = "quest window" end
     if (_G.QuestMapFrame or _G.QuestLogFrame) and not H.questLogButton then missing[#missing + 1] = "quest log" end
     if _G.ItemTextFrame and not H.bookButton then missing[#missing + 1] = "book" end
     expect("buttons on the quest, quest log and book windows", #missing == 0,
@@ -629,6 +728,8 @@ check("buttons", {
     if mini and mini.GetPoint then p, _, _, x, y = mini:GetPoint(1) end
     if not mini then
       fail("floating player: where it was left", "missing")
+    elseif mini.aside then
+      skip("floating player: where it was left", "beside the quest window while it's open")
     elseif type(x) ~= "number" then
       skip("floating player: where it was left", "no positions here")
     else
@@ -669,7 +770,8 @@ check("narration", {
     c.clip, c.target, c.handle = id, target, V.handle
     local ok = UI.speaking and UI.playingId == target.id and V.handle ~= nil
     expect("narration plays", ok and true or false, ok and string.format("%s (%s), sound %s", target.label, id,
-      tostring(V.handle)) or ("PlaySoundFile didn't start " .. tostring(path)))
+      tostring(V.handle)) or ("PlaySoundFile didn't start " .. tostring(path)
+      .. (V.SoundOff() and (" (game sound off: " .. V.SoundOff() .. ")") or "")))
     if not ok then return false end
   end,
   function(c)
@@ -693,6 +795,31 @@ check("narration", {
         string.format("%s player%s: %s", p == UI.mini and "floating" or "docked", shown and "" or " (hidden)",
           tostring(title)))
     end
+    -- What plays can be reported (LOR-232): the report box opens for it (from the player's right-click menu, or its
+    -- cross when Options shows it), the cross follows that option, and the link carries the clip, its hash, the pack
+    -- and a checksum the site accepts.
+    local clip = UI.ReportableClip()
+    local code = clip and ns.Log.ClipReportCode({ clip = clip.id, hash = clip.hash, voice = clip.pack, reason = "cut" })
+    local fields, start = {}, 1
+    while code do
+      local i = code:find("~", start, true)
+      fields[#fields + 1] = code:sub(start, i and i - 1 or nil)
+      if not i then break end
+      start = i + 1
+    end
+    local body = code and code:match("^(.*)~%x+$")
+    local want = S().reportCross == true
+    local shown = (UI.dock and UI.dock.report and UI.dock.report:IsShown()) and true or false
+    local open = (_G.LoreForeverClipReport and LoreForeverClipReport:IsShown()) and true or false
+    local box = clip and UI.ShowClipReport(clip)
+    local opened = box and box:IsShown() and box.r and box.r.clip == clip.id and true or false
+    if box and not open then box:Hide() end
+    local good = clip and clip.id == c.clip and #fields == 9 and body and fields[9] == ns.Log.ClipChecksum(body)
+      and fields[4] == clip.id .. "@" .. tostring(clip.hash)
+    expect("narration: it can be reported", (good and opened and shown == want) and true or false,
+      string.format("%s from %s: %s; report box %s; cross %s (Options: %s)", tostring(clip and clip.id),
+        tostring(clip and clip.pack), tostring(code), opened and "opens" or "didn't open", shown and "on" or "off",
+        want and "on" or "off"))
     local b = _G.LoreForeverMinimapButton
     if b and S().minimap ~= false and b.glow then
       expect("narration: the minimap button glows", b.glow:IsShown() and true or false,
@@ -733,6 +860,38 @@ check("narration", {
   if c.readAloud ~= nil then S().readAloud = c.readAloud end
   if ns.UI.speaking and ns.UI.playingId == (c.target and c.target.id) then ns.UI.StopAll() end
 end)
+
+-- Quest givers (Giver.lua, LOR-224): the model -> race table, and this client reading a model's file id, checked on
+-- your own character (its model's race and gender should be yours).
+check("quest givers", {
+  function(c)
+    local G, n = ns.Giver, count(ns.MODEL_RACES)
+    local f = next(ns.MODEL_RACES or {})
+    local race, gender = G.RaceOf(f)
+    local kind, id = G.ParseGUID("Creature-0-1-0-1-197-0000000001")
+    expect("quest givers: model races", n > 0 and race ~= nil and gender ~= nil and kind == "npc" and id == 197,
+      string.format("%d player-race models; %s is %s %s", n, tostring(f), tostring(race), tostring(gender)))
+    c.giverModel = nil
+    G.ModelOf("player", function(fileID) c.giverModel = fileID end)
+  end,
+  function(c)
+    local name = "quest givers: your model's race and gender"
+    if not c.giverModel then
+      skip(name, "this client gave no model file id for your character (PlayerModel:GetModelFileID)")
+      return
+    end
+    local race, gender = ns.Giver.RaceOf(c.giverModel)
+    if not race then   -- shapeshifted, or a model the table doesn't know: say which, for the next table build
+      skip(name, string.format("model %d isn't in the player-race table (shapeshifted?)", c.giverModel))
+      return
+    end
+    local _, want = UnitRace("player")
+    local sex = UnitSex and UnitSex("player")
+    local wantG = sex == 2 and "male" or sex == 3 and "female" or nil
+    expect(name, race == want and gender == wantG, string.format("model %d: %s %s (you: %s %s)", c.giverModel,
+      tostring(race), tostring(gender), tostring(want), tostring(wantG)))
+  end,
+})
 
 -- UI strings: the language in use translates without breaking a format; in English, every string has text.
 check("strings", {
@@ -850,6 +1009,11 @@ local function putBack()
   if ch then ch.recapped, ch.lastRead = st.recapped, st.lastRead end
   LoreForeverDB.questions = list(st.questions)
   local s = LoreForeverDB.settings
+  -- Opening the panel and its pages marks this version's What's new seen (its card, the "New" marks; WhatsNew.lua).
+  -- That's the run's doing, like the narration it played: it goes back without counting as a change, so a player who
+  -- hasn't looked yet still gets the card and the marks.
+  s.news = copy(st.settings.news)
+  UI.UpdateNewMarks()
   for k in pairs(s) do
     if st.settings[k] == nil then changed[#changed + 1] = "settings." .. k end
   end

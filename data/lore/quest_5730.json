@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Cult Unveiled",
-   "body": "Following the disruption of the Searing Blade deep within Ragefire Chasm, Warchief Thrall sent agents to discover who commanded the sect from within the city walls. The trail pointed directly to Neeru Fireblade, a warlock dwelling openly in the Cleft of Shadows. By playing the role of a willing recruit and bearing the insignias of fallen cultists, the operative earns Fireblade's trust, leading the warlock to inadvertently reveal the broader network backing his operations.",
+   "body": "At Warchief Thrall's request, an operative carried a Lieutenant's Insignia taken at Skull Rock to Neeru Fireblade, a warlock dwelling openly in the Cleft of Shadow, and later struck at the Searing Blade's leaders deep within Ragefire Chasm. By playing the role of a willing recruit and bearing the insignias of fallen cultists, the operative earns Fireblade's trust, leading the warlock to inadvertently reveal the broader network backing his operations.",
    "spoiler": 1
   },
   {
@@ -43,7 +43,7 @@
     "what to do hidden enemies 5",
     "thrall turn in"
    ],
-   "answer": "You must travel from the Cleft of Shadows to the Valley of Wisdom in Orgrimmar and speak with Warchief Thrall, reporting what Neeru Fireblade disclosed about the Shadow Council's plans."
+   "answer": "You must travel from the Cleft of Shadow to the Valley of Wisdom in Orgrimmar and speak with Warchief Thrall, reporting what Neeru Fireblade disclosed about the Shadow Council's plans."
   },
   {
    "q": "Why does Neeru Fireblade trust me?",

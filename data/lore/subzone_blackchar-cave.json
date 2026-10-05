@@ -7,16 +7,11 @@
  "meta": {
   "wiki": "Blackchar Cave"
  },
- "summary": "Blackchar Cave is a mysterious, sealed-off cavern tucked into the southwestern crags of Searing Gorge, close to the base of Blackrock Mountain. Though its entrance is impassable rubble and rock, travelers often seek out the shadowy crevice to pay respects to the elder who meditates outside during the Lunar Festival.",
+ "summary": "Blackchar Cave is a mysterious, sealed-off cavern tucked into the southwestern crags of Searing Gorge, close to the base of Blackrock Mountain. Its entrance is choked with impassable rubble and rock.",
  "sections": [
   {
    "title": "A Sealed Threshold",
    "body": "Tucked away against the scorching crags near the approaches to Blackrock Mountain, Blackchar Cave presents a solid wall of stone where a deep cavern entrance might once have been. Heavy rubble and scorched slag choke the opening, preventing anyone from exploring whatever tunnels lie deeper within the mountain roots. The desolate terrain around it is scorched by ash and magma, offering little comfort to wanderers.",
-   "spoiler": 0
-  },
-  {
-   "title": "A Place of Gathering",
-   "body": "Despite having no traversable interior, the mouth of the cavern serves as a notable landmark in southwestern Searing Gorge. During the Lunar Festival, the revered dwarven spirit Ironband the Elder takes his post here to honor the ancestors and offer blessings to pilgrims brave enough to cross the blasted wasteland. Keen-eyed explorers also whisper of an eerie, face-like formation visible when surveying the cave's rocky mouth from overhead cartography.",
    "spoiler": 0
   }
  ],
@@ -37,36 +32,12 @@
     "where is blackchar cave"
    ],
    "answer": "It is located in the southwestern corner of Searing Gorge, situated along the rocky foothills near the passage toward Blackrock Mountain."
-  },
-  {
-   "q": "Who is found at Blackchar Cave?",
-   "aliases": [
-    "npc at blackchar cave",
-    "ironband location",
-    "who is here"
-   ],
-   "answer": "During the Lunar Festival, Ironband the Elder appears right outside the sealed cavern entrance to greet travelers and bestow ancestral coin honors."
-  },
-  {
-   "q": "Why does the map look strange near the cave?",
-   "aliases": [
-    "minimap face blackchar",
-    "cave face map"
-   ],
-   "answer": "Cartographers and travelers standing outside the cave have noted that the terrain outlines on a regional minimap resemble the distinct contours of a face."
   }
  ],
- "angles": [
-  {
-   "target": "race:Dwarf",
-   "text": "For dwarves journeying across Searing Gorge, the cave is best known as the gathering spot of Ironband the Elder during the Lunar Festival celebrations."
-  }
- ],
+ "angles": [],
  "keywords": [
   "blackchar cave",
   "blackrock mountain",
-  "ironband the elder",
-  "lunar festival",
   "sealed cave",
   "searing gorge"
  ],

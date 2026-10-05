@@ -11,8 +11,11 @@
   <Script file="Lang.lua"/>
   <Script file="Engine.lua"/>
   <Script file="Context.lua"/>
+  <Script file="ModelRaces.lua"/>
+  <Script file="Giver.lua"/>
   <Script file="Log.lua"/>
   <Script file="Journey.lua"/>
+  <Script file="Capture.lua"/>
   <Script file="JourneyMap.lua"/>
   <Script file="JourneyRecord.lua"/>
   <Script file="Companion.lua"/>
@@ -20,7 +23,10 @@
   <Script file="Voice.lua"/>
   <Script file="Hooks.lua"/>
   <Script file="Storyline.lua"/>
+  <Script file="Notes.lua"/>
+  <Script file="WhatsNew.lua"/>
   <Script file="UI.lua"/>
+  <Script file="ClipReport.lua"/>
   <Script file="SelfTest.lua"/>
   <Script file="Core.lua"/>
 </Ui>

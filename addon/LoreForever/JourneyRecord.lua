@@ -2,8 +2,12 @@
 -- with Ctrl+C (a highlighted edit box copies out up to 256 KB on these clients). The record is built from what
 -- Journey.lua keeps (Journey.Char()): the character sheet, new places in order, quests done, people met, bosses and
 -- notable kills, loot and quest rewards, level-ups, spells, mounts, profession milestones, reputation, deaths, books
--- read and screenshots. Not the map trail. Kept under LIMIT; when it's longer, the oldest entries go.
--- Journey.CreateView puts the button above "Update my journey" (JourneyRecord.Attach).
+-- read and screenshots, and first the journey in numbers ("Journey stats": yards walked by land, foes slain by kind and
+-- rank, deaths, hours played; Journey.lua's tally, LOR-246). Not the map trail. Kept under LIMIT; when it's longer,
+-- the oldest entries go.
+-- Journey.CreateView puts the button beside "Update my journey" (JourneyRecord.Attach) and, above them, the line to
+-- the record's page on loreforeverwow.com (JourneyRecord.WebLine): pasted at /account, the record becomes a page about
+-- the character (LOR-181, LOR-222).
 
 local _, ns = ...
 local JR = {}
@@ -12,6 +16,7 @@ local L = ns.L
 
 local LIMIT = 30000              -- bytes of text: comfortable to paste anywhere
 local MOST_FOUGHT = 10
+local MOST_WALKED, MOST_KINDS = 30, 12   -- lands and creature types in the Journey stats lists
 local NOTABLE = { elite = true, rare = true, rareelite = true, worldboss = true }
 
 local function say(msg) DEFAULT_CHAT_FRAME:AddMessage(ns.Theme.CHAT_PREFIX .. msg) end
@@ -115,6 +120,73 @@ end
 
 local function count(t) local n = 0 for _ in pairs(t or {}) do n = n + 1 end return n end
 
+-- Distance walked is shown as steps (Mike, 2026-10-04): a step of 2.5 feet, 1.2 to the yard. The website counts them
+-- the same way (site/lib/profile-stats.js STEPS).
+local STEPS = 1.2
+function JR.Steps(yards) return math.floor((tonumber(yards) or 0) * STEPS + 0.5) end
+
+-- { name = n } as a list { { name, n }, ... }, the biggest first, without the empty ones.
+local function ranked(t)
+  local out = {}
+  for name, n in pairs(type(t) == "table" and t or {}) do
+    n = math.floor((tonumber(n) or 0) + 0.5)
+    if type(name) == "string" and name ~= "" and n > 0 then out[#out + 1] = { name = name, n = n } end
+  end
+  table.sort(out, function(a, b) if a.n ~= b.n then return a.n > b.n end return a.name < b.name end)
+  return out
+end
+
+-- The journey in numbers (Journey.lua's tally, LOR-246), from the character's record alone: the desktop app's profile
+-- sync makes the record too, without the game (LOR-148). { yards, lands = { { name, n = yards }, ... },
+-- slain, kinds = { { name, n }, ... }, elites, rares, deaths, online, played } (seconds; played only after a /played).
+function JR.Numbers(char)
+  local t = type(char.tally) == "table" and char.tally or {}
+  local out = { yards = 0, lands = ranked(t.walk), slain = 0, kinds = ranked(t.kinds), elites = 0, rares = 0 }
+  for _, l in ipairs(out.lands) do out.yards = out.yards + l.n end
+  for _, n in pairs(type(char.kills) == "table" and char.kills or {}) do out.slain = out.slain + (tonumber(n) or 0) end
+  local r = type(t.ranks) == "table" and t.ranks or {}
+  local function rk(k) return tonumber(r[k]) or 0 end
+  out.elites = rk("elite") + rk("rareelite") + rk("worldboss")
+  out.rares = rk("rare") + rk("rareelite")
+  out.deaths = tonumber(t.deaths)
+  if not out.deaths then   -- a record from before the tally: the deaths it kept
+    out.deaths = 0
+    for _, e in ipairs(type(char.events) == "table" and char.events or {}) do
+      if type(e) == "table" and e.k == "death" then out.deaths = out.deaths + 1 end
+    end
+  end
+  local J = ns.Journey
+  local live = J and J.Char and J.Online and J.Char() == char   -- in the game: this session so far counts too
+  out.online = live and J.Online() or tonumber(t.online) or 0
+  if tonumber(t.played) then out.played = t.played + math.max(0, out.online - (tonumber(t.playedAt) or out.online)) end
+  return out
+end
+
+-- The record's "Journey stats": its lines, and the walk by land and foes by kind as "Name: n" lists. The lines are
+-- always these, in this order (hours played last, after a /played), so the website can read them by place when a
+-- language pack words them in a way it doesn't know yet (site/lib/journey.js).
+local function numbers(char)
+  local s = JR.Numbers(char)
+  local lines = {}
+  local function add(fmt, v) lines[#lines + 1] = "- " .. string.format(fmt, v) end
+  local function hours(sec) return string.format("%.1f", sec / 3600) end
+  if s.yards > 0 or s.slain > 0 or s.deaths > 0 or s.online >= 360 or s.played then
+    add(L["Yards walked: %d"], s.yards)
+    add(L["Foes slain: %d"], s.slain)
+    add(L["Elites slain: %d"], s.elites)
+    add(L["Rares slain: %d"], s.rares)
+    add(L["Deaths: %d"], s.deaths)
+    add(L["Hours recorded: %s"], hours(s.online))
+    if s.played then add(L["Hours played: %s"], hours(s.played)) end
+  end
+  local function list(items, most)
+    local out = {}
+    for i = 1, math.min(most, #items) do out[i] = string.format("%s: %d", items[i].name, items[i].n) end
+    return table.concat(out, ", ")
+  end
+  return lines, list(s.lands, MOST_WALKED), list(s.kinds, MOST_KINDS)
+end
+
 -- The record as text, at most `limit` bytes (default LIMIT), and whether older entries were left out.
 function JR.Text(char, limit)
   limit = limit or LIMIT
@@ -167,9 +239,14 @@ function JR.Text(char, limit)
   for i = 1, math.min(MOST_FOUGHT, #foes) do fought[i] = string.format("%s: %d", foes[i].name, foes[i].n) end
 
   local TITLES = titles(whole)
+  local stats, walked, kinds = numbers(char)
   local function render(keep, cut)
     local out = { table.concat(head, "\n") }
-    if #keep == 0 and #fought == 0 then out[#out + 1] = "\n" .. L["Nothing recorded yet."] end
+    if #keep == 0 and #fought == 0 and #stats == 0 then out[#out + 1] = "\n" .. L["Nothing recorded yet."] end
+    -- The journey in numbers first (LOR-246). A site from before them skips these lines.
+    if #stats > 0 then out[#out + 1] = "\n" .. L["Journey stats"] .. "\n" .. table.concat(stats, "\n") end
+    if walked ~= "" then out[#out + 1] = "\n" .. L["Yards walked, by land"] .. "\n" .. walked end
+    if kinds ~= "" then out[#out + 1] = "\n" .. L["Foes slain, by kind"] .. "\n" .. kinds end
     for _, sec in ipairs(SECTIONS) do
       local lines = {}
       for _, en in ipairs(keep) do if en.sec == sec then lines[#lines + 1] = en.line end end
@@ -218,7 +295,7 @@ local function createBox()
   hint:SetPoint("TOPLEFT", 16, -32)
   hint:SetPoint("RIGHT", f, "RIGHT", -16, 0)
   hint:SetJustifyH("LEFT")
-  hint:SetText(L["Press Ctrl+C to copy it, then paste it anywhere with Ctrl+V."])
+  hint:SetText(L["Press Ctrl+C to copy it, then paste it at loreforeverwow.com/account to see your page."])
   local sf = CreateFrame("ScrollFrame", nil, f, "UIPanelScrollFrameTemplate")
   sf:SetPoint("TOPLEFT", 14, -56)
   sf:SetPoint("BOTTOMRIGHT", -34, 42)
@@ -240,14 +317,14 @@ local function createBox()
   eb:SetScript("OnTextChanged", function(_, userInput) if userInput then fill() end end)
   eb:SetScript("OnEditFocusGained", function(self) self:HighlightText() end)
   eb:SetScript("OnEscapePressed", function() f:Hide() end)
-  -- Ctrl+C copies the selection; then the box closes by itself and the chat says where it makes a profile page
-  -- (loreforeverwow.com/account, LOR-181).
+  -- Ctrl+C copies the selection; then the box closes by itself and the chat says where it makes a page, with what's
+  -- on it (loreforeverwow.com/account, LOR-181).
   eb:SetScript("OnKeyDown", function(_, key)
     if key == "C" and IsControlKeyDown() then
       C_Timer.After(0.2, function()
         if f:IsShown() then
           f:Hide()
-          say(L["Journey record copied. Paste it at loreforeverwow.com/account to get your profile page."])
+          JR.Copied()
         end
       end)
     end
@@ -278,9 +355,66 @@ function JR.Copy()
   return f
 end
 
--- Called by Journey.CreateView: the button, as wide as Update my journey and just above it.
+-- The record was copied: say where it becomes a page, and what the page will show ("166 quests done, 5 bosses and
+-- the road you took"). Remembered, so the web line then talks about updating the page.
+function JR.Copied()
+  if LoreForeverDB and LoreForeverDB.settings then LoreForeverDB.settings.recordCopied = true end
+  local s = ns.Journey and ns.Journey.Stats and ns.Journey.Stats() or {}
+  local function n(count, one, many) return string.format(count == 1 and one or many, count) end
+  local quests, bosses = tonumber(s.quests) or 0, tonumber(s.bosses) or 0
+  if quests > 0 and bosses > 0 then
+    say(string.format(L["Journey record copied. Paste it at loreforeverwow.com/account to see your page: %s, %s and the road you took."],
+      n(quests, L["%d quest done"], L["%d quests done"]), n(bosses, L["%d boss"], L["%d bosses"])))
+  elseif quests > 0 then
+    say(string.format(L["Journey record copied. Paste it at loreforeverwow.com/account to see your page: %s and the road you took."],
+      n(quests, L["%d quest done"], L["%d quests done"])))
+  else
+    say(L["Journey record copied. Paste it at loreforeverwow.com/account to see your page: your stats, the road you took and your story."])
+  end
+  if ns.Journey and ns.Journey.webLine then ns.Journey.webLine:Update(true) end
+end
+
+-- Called by Journey.CreateView: the line above the footer's buttons that leads to the record's page on the website.
+-- Clicking it opens the copy box, as Copy my journey record does. Update(shown) sets its text: once a record has been
+-- copied, it's about pasting a newer one.
+function JR.WebLine(view)
+  local T = ns.Theme
+  local b = CreateFrame("Button", "LoreForeverJourneyWeb", view)
+  b:SetHeight(18)
+  local icon = b:CreateTexture(nil, "ARTWORK")
+  icon:SetSize(14, 14)
+  icon:SetPoint("LEFT", 4, 0)
+  local tex = "Interface\\Icons\\INV_Misc_Note_01"
+  if T.HasTexture(tex) then icon:SetTexture(tex) else icon:Hide() end
+  local text = b:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+  text:SetPoint("LEFT", icon, "RIGHT", 6, 0)
+  text:SetPoint("RIGHT", -2, 0)
+  text:SetJustifyH("LEFT")
+  if text.SetWordWrap then text:SetWordWrap(false) end
+  b.text = text
+  b:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+  b:SetScript("OnClick", function() JR.Copy() end)
+  b:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_TOP")
+    GameTooltip:AddLine(L["Your page on loreforeverwow.com"])
+    T.Tip(L["Copy your journey record, then paste it at loreforeverwow.com/account: your stats, the road you took, the bosses you beat and your story, on a page you can share. It stays private until you make it public."], "tipText", true)
+    GameTooltip:Show()
+  end)
+  b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  function b:Update(shown)
+    local again = LoreForeverDB and LoreForeverDB.settings and LoreForeverDB.settings.recordCopied
+    text:SetText(again and (T.code.gold .. L["Played some more?"] .. "|r " .. L["Paste a newer record at loreforeverwow.com/account to update your page."])
+      or (T.code.gold .. L["Your page on loreforeverwow.com:"] .. "|r " .. L["your stats, the road you took and your story"]))
+    self:SetShown(shown ~= false)
+  end
+  b:Update()
+  return b
+end
+
+-- Called by Journey.CreateView: the button, as wide as Update my journey and just above it. It's the page's main
+-- action, so it wears the primary look.
 function JR.Attach(view, sync, width)
-  local b = ns.Theme.SkinButton(CreateFrame("Button", "LoreForeverJourneyRecord", view, "UIPanelButtonTemplate"))
+  local b = ns.Theme.SkinButton(CreateFrame("Button", "LoreForeverJourneyRecord", view, "UIPanelButtonTemplate"), "primary")
   b:SetSize(width, 24)
   b:SetPoint("BOTTOMLEFT", sync, "TOPLEFT", 0, 4)
   b:SetText(L["Copy my journey record"])

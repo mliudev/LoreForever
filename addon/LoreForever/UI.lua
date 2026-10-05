@@ -359,6 +359,22 @@ function UI.ApplyScale(scale)
   end
 end
 
+-- The screen in UIParent units, or nil when the client can't say (saved places are then used as they are).
+local function screenSize()
+  local w = UIParent.GetWidth and tonumber(UIParent:GetWidth())
+  local h = UIParent.GetHeight and tonumber(UIParent:GetHeight())
+  if w and h and w > 0 and h > 0 then return w, h end
+end
+
+-- A w x h box's left and bottom (UIParent units), moved just enough to sit wholly on the screen; one bigger than the
+-- screen keeps its top left corner on it. Saved places go through this at login (LOR-241): one saved at another
+-- resolution or UI scale could leave a window off the screen for good, and reinstalling keeps SavedVariables.
+function UI.ClampToScreen(left, bottom, w, h)
+  local sw, sh = screenSize()
+  if not sw then return left, bottom end
+  return math.max(0, math.min(left, sw - w)), math.min(math.max(bottom, 0), sh - h)
+end
+
 function UI.RestoreWindow()
   local f = UI.frame
   local scale = tonumber(settings().panelScale) or 1
@@ -369,6 +385,12 @@ function UI.RestoreWindow()
   if w and h then f:SetSize(math.max(MIN_W, math.min(1500, w)), math.max(560, math.min(1100, h))) end
   local x, y = tonumber(win.x), tonumber(win.y)
   if x and y then
+    local fw, fh = (tonumber(f:GetWidth()) or W) * scale, (tonumber(f:GetHeight()) or H) * scale
+    local left, bottom = UI.ClampToScreen(x, y - fh, fw, fh)
+    if left ~= x or bottom + fh ~= y then
+      x, y = left, bottom + fh
+      win.x, win.y = x, y
+    end
     f:ClearAllPoints()
     f:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", x / scale, y / scale)
   end
@@ -493,6 +515,13 @@ function UI.Create(engine)
     tab:SetScript("OnClick", function(self) UI.ShowTab(self.view) end)
     UI.tabs[#UI.tabs + 1] = tab
   end
+  -- After an update, a green "New" over Journey and History and a dot on the Library tab when the headline changes
+  -- mention them, each until that page has been opened (WhatsNew.lua; UI.UpdateNewMarks shows them).
+  UI.newMarks = {
+    journey = ns.WhatsNew.Tag(f, UI.journeyButton, "BOTTOMRIGHT", "TOPRIGHT", -2, 2),
+    history = ns.WhatsNew.Tag(f, UI.historyButton, "BOTTOMRIGHT", "TOPRIGHT", -2, 2),
+    narrations = ns.WhatsNew.Dot(UI.tabs[2]),
+  }
   local hereView = CreateFrame("Frame", nil, f)
   hereView:SetAllPoints(f)
   UI.hereView = hereView
@@ -779,7 +808,20 @@ function UI.Create(engine)
   UI.mini = UI.CreatePlayer(UIParent, true)
   UI.ShowTab("here")
   UI.SetNext({})
+  UI.UpdateNewMarks()
   return f
+end
+
+-- The "New" marks: shown while the page they sit on has news it hasn't been opened for (WhatsNew.PageIsNew).
+function UI.UpdateNewMarks()
+  for page, mark in pairs(UI.newMarks or {}) do mark:SetShown(ns.WhatsNew.PageIsNew(page)) end
+end
+
+-- A page with a "New" mark was opened: its news is seen.
+function UI.SeenPage(page)
+  if not ns.WhatsNew.Pending(page) then return end
+  ns.WhatsNew.Seen(page)
+  UI.UpdateNewMarks()
 end
 
 -- Type-ahead ---------------------------------------------------------------------------------------------------
@@ -861,17 +903,19 @@ end
 -- key picks a recorded narration when there is one (overviews and primers), text is read aloud otherwise.
 
 -- An entry's overview as something to play: its recording if it has one, else its summary and first section.
--- The id is the entry key, so the sidebar, the header and an answer bubble all agree on what's playing.
+-- The id is the entry key, so the sidebar, the header and an answer bubble all agree on what's playing. A quest with
+-- no recording of its own plays its quest giver's recorded words (UI.QuestDialogueClip). story: the entry the
+-- player's title opens (UI.PlayerOpenStory).
 function UI.EntryTarget(key)
   local e = key and UI.engine.db.entries[key]
   if not e then return nil end
-  local first = e.sec and e.sec[1]
   local parts = { e.n .. ".", e.s }
   local open = UI.Unlocked(key)
   for _, sec in ipairs(e.sec or {}) do
     if (sec.sp or 0) == 0 or open then parts[#parts + 1] = sec.t .. ". " .. sec.b end
   end
-  return { id = key, key = key, label = e.n, text = table.concat(parts, " ") }
+  local clip = e.t == "quest" and not ns.Voice.HasAudio(key) and UI.QuestDialogueClip(e) or nil
+  return { id = key, key = clip or key, label = e.n, text = table.concat(parts, " "), story = key }
 end
 
 -- A FAQ answer as something to play; the starting zones and capitals have these recorded ("zone:elwynn#faq2").
@@ -887,7 +931,7 @@ function UI.ZoneTarget()
   local ctx = (UI.frame and UI.frame:IsShown() and UI.ctx) or ns.Context.Snapshot()
   local db = UI.engine.db
   local zk = UI.engine:ZoneKey(ctx.zone)
-  local sub = ctx.subzone and db.index.name[ns.Engine.lower(ctx.subzone)]
+  local sub = UI.engine:SubzoneKey(ctx.subzone, ctx.zone)
   -- The zone when it's narrated; otherwise the most specific place with lore.
   local key = (zk and ns.Voice.HasAudio("zone:" .. zk) and "zone:" .. zk)
     or (sub and db.entries[sub] and db.entries[sub].t == "subzone" and sub) or (zk and "zone:" .. zk)
@@ -923,9 +967,20 @@ local function startTarget(target, fromPlaylist)
   local started = target and (fromPlaylist and ns.Voice.Play(target.key) or ns.Voice.Narrate(target.key, target.text))
   if not started then return false end
   UI.speaking, UI.playingId, UI.playingLabel = true, target.id, target.label
+  UI.playingKey, UI.playingStory = target.key, target.story
+  local clip = ns.Voice.lastClip   -- a recording started: name it in its report box (ClipReport.lua)
+  if clip and clip.id == target.key then clip.label = target.label end
   if UI.historyFrame and not fromPlaylist then UI.historyFrame:Hide() end
   watchPlayback(#ns.Voice.Plain(target.text) / 15 + 3)
   return true
+end
+
+-- Whether a target is what plays now: the same item, or the same recording started from somewhere else (a quest
+-- giver's words play from the quest window and from the quest's Lore entry alike).
+function UI.IsPlayingTarget(t)
+  if not (UI.speaking and t) then return false end
+  if UI.playingId == t.id then return true end
+  return t.key ~= t.id and UI.playingKey == t.key and ns.Voice.HasAudio(t.key)
 end
 
 -- Play a target. Pressing the one that's playing stops it; pressing anything else switches to it. Playing
@@ -933,7 +988,7 @@ end
 function UI.ListenTo(target)
   if not target then return end
   local pl = UI.pl
-  if UI.speaking and UI.playingId == target.id then return UI.StopAll() end
+  if UI.IsPlayingTarget(target) then return UI.StopAll() end
   local cur = pl.items[pl.pos]
   if cur and cur.id == target.id then
     pl.state = "playing"
@@ -963,7 +1018,7 @@ end
 function UI.PlayEntry(key, asked)
   local t = UI.EntryTarget(key)
   if not t then return end
-  if UI.speaking and UI.playingId == t.id then return UI.ListenTo(t) end
+  if UI.IsPlayingTarget(t) then return UI.ListenTo(t) end
   UI.ShowEntry(key, "listen", asked)
   UI.ListenTo(t)
 end
@@ -992,7 +1047,7 @@ function UI.UpdateListen()
     local t = b.listen.target
     if b.frame:IsShown() and t and not b.isHero then
       local recorded = ns.Voice.HasAudio(t.key)
-      local playing = UI.speaking and UI.playingId == t.id
+      local playing = UI.IsPlayingTarget(t)
       b.listen:SetText(playing and L["Stop"] or (recorded and L["Listen"] or L["Read aloud"]))
       local lw = b.listen.GetTextWidth and tonumber(b.listen:GetTextWidth())
       b.listen:SetWidth(math.max(84, (lw or 64) + 20))   -- "Ler em voz alta" runs wider than the English
@@ -1014,7 +1069,7 @@ function UI.UpdateListen()
       b.queue:Hide()
     end
     if b.isHero and b.action.target then
-      local playing = UI.speaking and UI.playingId == b.action.target.id
+      local playing = UI.IsPlayingTarget(b.action.target)
       b.action:SetText(playing and L["Stop"] or b.action.label)
     end
   end
@@ -1179,7 +1234,7 @@ local function bubbleAt(i)
         T.Tip(L["A recorded narration of this answer."], "tipText", true)
       else
         T.Tip(L["Read aloud"])
-        GameTooltip:AddLine(L["Uses your game's text-to-speech voice. Change it in Options > Accessibility > Text to Speech."], "tipText", true)
+        T.Tip(L["Uses your game's text-to-speech voice. Change it in Options > Accessibility > Text to Speech."], "tipText", true)
       end
       GameTooltip:Show()
     end)
@@ -1200,16 +1255,30 @@ local function bubbleAt(i)
     end)
     queue:SetScript("OnLeave", function() GameTooltip:Hide() end)
     queue:Hide()
-    -- The welcome card's big "hear the story" button.
+    -- The welcome card's big "hear the story" button; on a card from UI.AddCard, its own action.
     local action = PanelButton(f, "primary")
     action:SetSize(300, 26)
     action:SetPoint("BOTTOMLEFT", PAD, 8)
     action:SetScript("OnClick", function(self)
-      if self.target then UI.PlayEntry(self.target.key, self.label) end
+      if self.onAction then self.onAction()
+      elseif self.target then UI.PlayEntry(self.target.key, self.label) end
     end)
     action:Hide()
+    -- A card that can be put away (the What's new card): × at its top right.
+    local close = PanelButton(f)
+    close:SetSize(22, 22)
+    close:SetPoint("TOPRIGHT", -6, -6)
+    close:SetText("\195\151")   -- ×
+    close:SetScript("OnClick", function() UI.RemoveMessage(f.msg) end)
+    close:SetScript("OnEnter", function(self)
+      GameTooltip:SetOwner(self, "ANCHOR_TOP")
+      GameTooltip:AddLine(L["Close"])
+      GameTooltip:Show()
+    end)
+    close:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    close:Hide()
     b = { frame = f, bg = bg, edge = edge, head = head, chips = chips, fs = fs, listen = listen, queue = queue, action = action,
-      rows = {} }
+      close = close, rows = {} }
     b.up, b.down, b.rated = RateButtons(f)
     UI.bubbles[i] = b
   end
@@ -1356,8 +1425,9 @@ function UI.Render(keepScroll)
     m.y = y
     b.listen.target = m.target
     b.isHero = m.role == "hero"
-    b.action.target, b.action.label = nil, nil
+    b.action.target, b.action.label, b.action.onAction = nil, nil, nil
     b.action:Hide()
+    b.close:SetShown(m.closable and true or false)
     b.queue:Hide()   -- UpdateListen shows it on recorded answers
     -- Only reserve room for Listen when there's something to play (a recording, or Read aloud turned on).
     local canPlay = m.target and (ns.Voice.HasAudio(m.target.key) or ns.Voice.Available())
@@ -1365,10 +1435,10 @@ function UI.Render(keepScroll)
       h = h + 22
       b.listen:Show()
       latestListen = b.listen
-    elseif b.isHero and m.target then
+    elseif b.isHero and (m.target or m.onAction) then
       h = h + 36
       b.listen:Hide()
-      b.action.target, b.action.label = m.target, m.actionLabel
+      b.action.target, b.action.label, b.action.onAction = m.target, m.actionLabel, m.onAction
       b.action:SetText(m.actionLabel)
       b.action:Show()
     else
@@ -1433,6 +1503,28 @@ function UI.AddMessage(role, text, target, actionLabel, rows, log, subject, link
     table.remove(UI.blocks, 1)
   end
   UI.Render()
+end
+
+-- A card in the conversation, like the welcome card but with its own button (actionLabel, onAction) and a × that puts
+-- it away: the What's new card (WhatsNew.lua). Its text is a gold first line, then the body.
+function UI.AddCard(text, actionLabel, onAction)
+  UI.AddMessage("hero", text, nil, actionLabel)
+  local m = UI.msgs[#UI.msgs]
+  m.onAction, m.closable, m.news = onAction, true, true
+  UI.Render()
+end
+
+-- Take one message out of the conversation (the × on a card).
+function UI.RemoveMessage(m)
+  for i, x in ipairs(UI.msgs) do
+    if x == m then
+      table.remove(UI.msgs, i)
+      table.remove(UI.blocks, i)
+      GameTooltip:Hide()
+      if #UI.msgs == 0 then return UI.Refresh() end   -- nothing left: the welcome card comes back
+      return UI.Render(true)
+    end
+  end
 end
 
 -- A grey note in the conversation (kept for callers from before the chat layout).
@@ -1617,7 +1709,10 @@ function UI.Refresh()
   if #UI.msgs == 0 then
     UI.ShowWelcome(ctx, placeName, here)
   elseif UI.welcomeFor and UI.welcomeFor ~= where and UI.WelcomeOnly() then
+    -- The What's new card above it stays.
+    local card = UI.msgs[1].news and { UI.msgs[1], UI.blocks[1] }
     UI.msgs, UI.blocks = {}, {}
+    if card then UI.msgs[1], UI.blocks[1] = card[1], card[2] end
     UI.ShowWelcome(ctx, placeName, here)
   end
   UI.welcomeFor = UI.WelcomeOnly() and where or nil
@@ -1649,6 +1744,8 @@ local RACE_START = { Human = "zone:elwynn", Dwarf = "zone:dunmorogh", Gnome = "z
 -- the add-on does best (voiced lore and answering questions) instead of an empty chat.
 -- Back for another session, the card is what you did last time instead (Journey.Recap), once per session.
 function UI.ShowWelcome(ctx, placeName, here)
+  -- After an update, the first time the panel opens: the What's new card, above the welcome (WhatsNew.lua).
+  if ns.WhatsNew.Pending("card") then ns.WhatsNew.AddCard() end
   local recap = ns.Journey.Recap()
   local target, yours = UI.ZoneTarget(), false
   if not (target and ns.Voice.HasAudio(target.key)) then
@@ -1693,7 +1790,7 @@ local function herePlace(ctx)
   local zk = UI.engine:ZoneKey(ctx.zone)
   local z = zk and db.zones and db.zones[zk]
   local zkey = zk and db.entries["zone:" .. zk] and "zone:" .. zk
-  local sub = ctx.subzone and ctx.subzone ~= ctx.zone and db.index.name[ns.Engine.lower(ctx.subzone)]
+  local sub = ctx.subzone and ctx.subzone ~= ctx.zone and UI.engine:SubzoneKey(ctx.subzone, ctx.zone)
   if sub and not (db.entries[sub] and db.entries[sub].t ~= "quest") then sub = nil end
   local place = (sub and db.entries[sub].n) or (zkey and db.entries[zkey].n) or ctx.subzone or ctx.zone
   if sub and zkey then place = db.entries[sub].n .. ", " .. db.entries[zkey].n end
@@ -2197,7 +2294,10 @@ function UI.ShowTab(view)
   UI.hereView:SetShown(view == "here")
   UI.narrView:SetShown(view == "narrations")
   for _, t in ipairs(UI.tabs) do T.SetTabSelected(t, t.view == view) end
-  if view == "narrations" then UI.RefreshNarrations() end
+  if view == "narrations" then
+    UI.RefreshNarrations()
+    if UI.frame:IsShown() then UI.SeenPage("narrations") end
+  end
 end
 
 -- Playlist ---------------------------------------------------------------------------------------------------------
@@ -2751,7 +2851,7 @@ function UI.PlayerOpenStory()
   local cur = pl.items[pl.pos]
   local key, idx
   if UI.speaking and pl.state ~= "playing" then
-    key, idx = UI.QueueRef({ key = UI.playingId })
+    key, idx = UI.QueueRef({ key = UI.playingStory or UI.playingId })   -- a quest page: its quest's story
   elseif cur then
     key, idx = cur.key, cur.idx
   end
@@ -2761,12 +2861,22 @@ function UI.PlayerOpenStory()
   end
 end
 
--- Right-click on a player: Clear queue, and whether the floating player shows while the panel is closed.
+-- The recording a player can report (ClipReport.lua, LOR-232): the one playing, or the last one if nothing plays now.
+-- nil while read-aloud speaks, or before any recording has played this session.
+function UI.ReportableClip()
+  local c = ns.Voice.lastClip
+  if not (c and type(c.pack) == "string" and c.pack:find("^LoreForever_Voice_")) then return nil end
+  if UI.speaking and UI.playingKey ~= c.id then return nil end
+  return c
+end
+
+-- Right-click on a player: Clear queue, whether the floating player shows while the panel is closed, and reporting
+-- the narration.
 local function playerMenu(p)
   local m = p.menu
   if not m then
     m = T.Backdrop(CreateFrame("Frame", nil, p, T.BACKDROP_TEMPLATE), "popup")
-    m:SetSize(SIDE_W - 8, 2 * 24 + 12)
+    m:SetSize(SIDE_W - 8, 3 * 24 + 12)
     m:SetFrameStrata("DIALOG")
     local function item(i, onClick)
       local b = TextButton(m, SIDE_W - 20, 24, T.font.small)
@@ -2782,8 +2892,18 @@ local function playerMenu(p)
         LoreForeverDB.settings.floatPlayer = not (settings().floatPlayer ~= false)
       end
       UI.UpdateNowPlaying()
+      -- Unticked, the player is gone until it's ticked again, and reinstalling keeps that (LOR-241): say how.
+      if settings().floatPlayer == false then
+        DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX
+          .. L["floating player off. Turn it back on in /lore options (Floating player), or type /lore reset."])
+      end
+    end)
+    m.report = item(3, function()
+      if UI.ReportableClip() then return UI.ShowClipReport() end
+      showToast(GREY .. L["Play a narration first, then report it from the player."] .. "|r")
     end)
     m:SetScript("OnHide", nil)
+    m:Hide()   -- a new frame starts shown, which made the first right-click only close it
     p.menu = m
   end
   if m:IsShown() then return m:Hide() end
@@ -2791,7 +2911,117 @@ local function playerMenu(p)
   m:SetPoint("BOTTOMLEFT", p, "TOPLEFT", 0, 2)
   local on = settings().floatPlayer ~= false
   m.float.text:SetText((on and "|TInterface\\Buttons\\UI-CheckBox-Check:14|t " or "") .. L["Show the player when the panel is closed"])
+  m.report.text:SetText((UI.ReportableClip() and "" or GREY) .. L["Report a problem with this narration"]
+    .. (UI.ReportableClip() and "" or "|r"))
   m:Show()
+end
+
+-- Right-click on the minimap button (LOR-138): "Narration: only when I press Play" and Options. Escape or a second
+-- right-click closes it.
+local BUTTON_MENU_W = 260
+function UI.ButtonMenu(owner)
+  local m = UI.buttonMenu
+  if not m then
+    m = T.Backdrop(CreateFrame("Frame", "LoreForeverButtonMenu", UIParent, T.BACKDROP_TEMPLATE), "popup")
+    m:SetSize(BUTTON_MENU_W, 2 * 24 + 12)
+    m:SetFrameStrata("DIALOG")
+    m:SetClampedToScreen(true)
+    local function item(i, onClick)
+      local b = TextButton(m, BUTTON_MENU_W - 12, 24, T.font.small)
+      b:SetPoint("TOPLEFT", 6, -6 - (i - 1) * 24)
+      if b.text.SetWordWrap then b.text:SetWordWrap(false) end
+      b:SetScript("OnClick", function() m:Hide(); onClick() end)
+      return b
+    end
+    m.onDemand = item(1, function()
+      local on = ns.Voice.SetOnDemand(not ns.Voice.OnDemand())
+      showToast((on and GREEN or GREY) .. (on and L["Narration plays only when you press Play."]
+        or L["Narration plays by itself again, as your options say."]) .. "|r")
+    end)
+    m.options = item(2, function() ns.Options.Toggle() end)
+    m.options.text:SetText(L["Options"])
+    m:Hide()
+    table.insert(UISpecialFrames, "LoreForeverButtonMenu")
+    UI.buttonMenu = m
+  end
+  if m:IsShown() then return m:Hide() end
+  m:ClearAllPoints()
+  m:SetPoint("TOPRIGHT", owner, "BOTTOMLEFT", 8, 4)
+  m.onDemand.text:SetText((ns.Voice.OnDemand() and "|TInterface\\Buttons\\UI-CheckBox-Check:14|t " or "")
+    .. L["Narration: only when I press Play"])
+  m:Show()
+end
+
+-- Where an anchor point sits across and up a box: 0 its left or bottom edge, 0.5 the middle, 1 its right or top.
+local function pointFraction(point)
+  point = tostring(point or "CENTER")
+  return point:find("LEFT") and 0 or point:find("RIGHT") and 1 or 0.5,
+    point:find("BOTTOM") and 0 or point:find("TOP") and 1 or 0.5
+end
+
+-- The floating player's own place: where it was dragged to, or its first one, above the default chat window. A
+-- saved place that's off the screen now is moved back onto it (and saved there).
+local function placeMini(p)
+  p:ClearAllPoints()
+  local pos = settings().miniPlayerPos
+  if type(pos) == "table" and pos[1] then
+    local point, rel, x, y = pos[1], pos[2] or pos[1], tonumber(pos[3]) or 0, tonumber(pos[4]) or 0
+    local sw, sh = screenSize()
+    if sw then
+      local w, h = tonumber(p:GetWidth()) or SIDE_W - 8, tonumber(p:GetHeight()) or PLAYER_H
+      local rx, ry = pointFraction(rel)
+      local px, py = pointFraction(point)
+      local left, bottom = rx * sw + x - px * w, ry * sh + y - py * h
+      local cl, cb = UI.ClampToScreen(left, bottom, w, h)
+      if math.abs(cl - left) > 0.5 or math.abs(cb - bottom) > 0.5 then
+        point, rel, x, y = "BOTTOMLEFT", "BOTTOMLEFT", cl, cb
+        settings().miniPlayerPos = { point, rel, x, y }
+      end
+    end
+    p:SetPoint(point, UIParent, rel, x, y)
+  else
+    p:SetPoint("BOTTOMLEFT", UIParent, "BOTTOMLEFT", 24, 260)
+  end
+end
+
+-- A frame's left, right, top and bottom on screen, or nil before it has a place. inset: only the part its hit rect
+-- covers (the quest window's art has see-through edges).
+local function screenRect(f, inset)
+  local l, r, t, b = f:GetLeft(), f:GetRight(), f:GetTop(), f:GetBottom()
+  if not (l and r and t and b) then return nil end
+  local il, ir, it, ib = 0, 0, 0, 0
+  if inset and f.GetHitRectInsets then il, ir, it, ib = f:GetHitRectInsets() end
+  local s = (f.GetEffectiveScale and f:GetEffectiveScale()) or 1
+  return (l + (il or 0)) * s, (r - (ir or 0)) * s, (t - (it or 0)) * s, (b + (ib or 0)) * s
+end
+
+-- The quest window opens on the left of the screen, in the floating player's layer and over it, which is where the
+-- player sits by default at the default UI scale: the quest giver's words played with the player's Stop hidden. While
+-- the open quest window covers the player, the player waits beside it, and goes back when the window closes (unless
+-- you drag it somewhere meanwhile). Called when the player shows and when the quest window opens or closes.
+function UI.KeepPlayerClear()
+  local p, qf = UI.mini, _G.QuestFrame
+  if not p then return end
+  if not (qf and qf:IsShown()) then p.stay = nil end
+  if not (qf and qf:IsShown() and p:IsShown()) then
+    if p.aside then
+      p.aside = nil
+      placeMini(p)
+    end
+    return
+  end
+  if p.aside or p.stay then return end
+  local pl, pr, pt, pb = screenRect(p)
+  local ql, qr, qt, qb = screenRect(qf, true)
+  if not (pl and ql) or not (pl < qr and ql < pr and pb < qt and qb < pt) then return end
+  local ir, it = 0, 0
+  if qf.GetHitRectInsets then
+    local _, r, t = qf:GetHitRectInsets()
+    ir, it = r or 0, t or 0
+  end
+  p.aside = true
+  p:ClearAllPoints()
+  p:SetPoint("TOPLEFT", qf, "TOPRIGHT", 4 - ir, -it)
 end
 
 function UI.CreatePlayer(parent, floating)
@@ -2818,15 +3048,12 @@ function UI.CreatePlayer(parent, floating)
     p:SetScript("OnDragStart", p.StartMoving)
     p:SetScript("OnDragStop", function(self)
       self:StopMovingOrSizing()
+      -- Dragged while the quest window is open: it stays where you put it, even over the window.
+      self.aside, self.stay = nil, (_G.QuestFrame and QuestFrame:IsShown()) or nil
       local point, _, rel, x, y = self:GetPoint()
       if LoreForeverDB and LoreForeverDB.settings then LoreForeverDB.settings.miniPlayerPos = { point, rel, x, y } end
     end)
-    local pos = settings().miniPlayerPos
-    if type(pos) == "table" and pos[1] then
-      p:SetPoint(pos[1], UIParent, pos[2] or pos[1], tonumber(pos[3]) or 0, tonumber(pos[4]) or 0)
-    else
-      p:SetPoint("BOTTOMLEFT", UIParent, "BOTTOMLEFT", 24, 260)   -- above the default chat window
-    end
+    placeMini(p)
     p:Hide()
   else
     p:SetPoint("BOTTOMLEFT", parent, "BOTTOMLEFT", 8, 8)
@@ -2917,9 +3144,32 @@ function UI.CreatePlayer(parent, floating)
   p.play:SetPoint("LEFT", p.prev, "RIGHT", 4, 0)
   p.next = arrowButton(p, "Next", L["Next narration"], function() UI.PlayerNext() end)
   p.next:SetPoint("LEFT", p.play, "RIGHT", 4, 0)
+  -- Bottom right: a small cross, like the one under answers, to report the recording (ClipReport.lua, LOR-232). With
+  -- Options > Show the report button on the narration player (reportCross, off by default), it shows while a
+  -- recording plays, or after one played (UI.ReportableClip). The right-click menu offers the same box either way.
+  local report = CreateFrame("Button", nil, p)
+  report:SetSize(14, 14)
+  report:SetHitRectInsets(-4, -4, -5, -5)
+  report:SetPoint("BOTTOMRIGHT", -7, 11)
+  local cross = report:CreateTexture(nil, "ARTWORK")
+  cross:SetAllPoints()
+  cross:SetTexture("Interface\\RaidFrame\\ReadyCheck-NotReady")
+  cross:SetAlpha(0.75)
+  report.icon = cross
+  report:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+  report:SetScript("OnClick", function() UI.ShowClipReport() end)
+  report:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_TOP")
+    GameTooltip:AddLine(L["Problem with this narration?"])
+    T.Tip(L["A name said wrong, the wrong voice, cut off: tell us, and it's recorded again."], "tipText", true)
+    GameTooltip:Show()
+  end)
+  report:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  report:Hide()
+  p.report = report
   p.state = Muted(p:CreateFontString(nil, "OVERLAY", T.font.small))
   p.state:SetPoint("LEFT", p.next, "RIGHT", 6, 0)
-  p.state:SetPoint("RIGHT", -8, 0)
+  p.state:SetPoint("RIGHT", report, "LEFT", -4, 0)
   p.state:SetJustifyH("RIGHT")
   if p.state.SetWordWrap then p.state:SetWordWrap(false) end
 
@@ -2982,6 +3232,7 @@ local function updatePlayer(p)
   end
   if p.prev.SetEnabled then p.prev:SetEnabled(list) end
   if p.next.SetEnabled then p.next:SetEnabled(list) end
+  p.report:SetShown(settings().reportCross == true and UI.ReportableClip() ~= nil)
   local w = (tonumber(p:GetWidth()) or SIDE_W - 8) - 18
   p.fill:SetShown(list and not oneOff)
   if list then p.fill:SetWidth(math.max(1, w * pl.pos / n)) end
@@ -3027,9 +3278,48 @@ function UI.UpdateNowPlaying()
       and (UI.IsBusy() or #pl.items > 0)
     mini:SetShown(want and true or false)
     if want then updatePlayer(mini) elseif mini.menu then mini.menu:Hide() end
+    UI.KeepPlayerClear()
   end
   if ns.SetButtonsPlaying then ns.SetButtonsPlaying(UI.IsBusy()) end
+  if ns.Hooks and ns.Hooks.UpdateQuestPlayButton then ns.Hooks.UpdateQuestPlayButton() end
   if UI.plView and UI.plView:IsShown() then UI.RefreshPlaylist() end
+end
+
+-- Options > Reset windows and /lore reset (LOR-241): every window back to where it starts, and the floating player and
+-- the minimap button shown again. What's saved about them goes (the panel's place and size, the player's place, the
+-- button's angle); the journey, history and every other setting, Panel size included, stay. Reinstalling the add-on
+-- keeps SavedVariables, so this is the way back from a window hidden or moved out of reach.
+local OTHER_WINDOWS = { "LoreForeverExport", "LoreForeverReport", "LoreForeverClipReport", "LoreForeverShare",
+  "LoreForeverJourneyRecordBox", "LoreForeverLiveAnswers", "LoreForeverKeyPrompt" }
+
+local function recentre(f, w, h)
+  if not f then return end
+  if f.SetUserPlaced then f:SetUserPlaced(false) end   -- the game's own layout cache mustn't put it back
+  if w then f:SetSize(w, h) end
+  f:ClearAllPoints()
+  f:SetPoint("CENTER")
+end
+
+function UI.ResetWindows()
+  local s = LoreForeverDB and LoreForeverDB.settings
+  if not s then return end
+  LoreForeverDB.window = nil
+  s.miniPlayerPos, s.floatPlayer = nil, true
+  s.minimap, s.minimapAngle = true, nil
+  recentre(UI.frame, W, H)
+  for _, name in ipairs(OTHER_WINDOWS) do recentre(_G[name]) end
+  local p = UI.mini
+  if p then
+    if p.SetUserPlaced then p:SetUserPlaced(false) end
+    p.aside, p.stay = nil, nil
+    placeMini(p)
+  end
+  if ns.MinimapButton then ns.MinimapButton() end
+  if UI.buttonMenu then UI.buttonMenu:Hide() end   -- it hangs off the minimap button, which may have moved
+  UI.UpdateNowPlaying()
+  local op = ns.Options and ns.Options.panel   -- open on our page: its ticks follow
+  if op and op:IsVisible() and op:GetScript("OnShow") then op:GetScript("OnShow")(op) end
+  DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. L["windows reset: the panel, the floating player and the minimap button are back where they started. The player shows while the panel is closed and something plays or is queued."])
 end
 
 -- History ----------------------------------------------------------------------------------------------------------
@@ -3160,6 +3450,7 @@ function UI.ToggleHistory()
   UI.RefreshHistory()
   if UI.journeyPage then UI.journeyPage:Hide() end
   h:Show()
+  UI.SeenPage("history")
 end
 
 -- Reopen a past chat. The one you were in is saved first, so nothing is lost.
@@ -3568,13 +3859,14 @@ function UI.ShowEntry(key, via, asked)
     end
   end
   if asked then UI.AddMessage("user", WHITE .. esc(asked) .. "|r") end
-  local narrated = ns.Voice.HasAudio(key) and narratedTag() or ""
+  local target = UI.EntryTarget(key)
+  local narrated = ns.Voice.HasAudio(target.key) and narratedTag() or ""
   -- A quest in a storyline: where it sits, first (Storyline.Line; nothing for other quests).
   local story = e.t == "quest" and e.m and e.m.id and ns.Storyline.Line(e.m.id)
   story = story and (GOLD .. esc(story) .. "|r\n") or ""
   local text = GOLD .. esc(e.n) .. "|r" .. narrated .. "\n" .. story .. youText(key) .. table.concat(parts, "\n\n")
   UI.lastLog = ns.Log.Question("[open] " .. e.n, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "summary", title = e.n } }, via)
-  UI.AddMessage("lore", text, UI.EntryTarget(key), nil, nil, UI.lastLog, key, linked)
+  UI.AddMessage("lore", text, target, nil, nil, UI.lastLog, key, linked)
   UI.SetNext(followUps(key, nil))
 end
 
@@ -3630,21 +3922,43 @@ function UI.ShowPrimer(zk, via)
   UI.SetNext(#items > 0 and items or followUps("zone:" .. zk, nil))
 end
 
+-- The quest log's description and objectives for a quest in your log, as the game shows them; nil if it isn't there.
+-- The third value says the log had that quest selected while it was read, so the text is surely that quest's (a
+-- client whose GetQuestLogQuestText ignores the index reads the selected one).
+local function logText(id)
+  local QL = _G.C_QuestLog
+  if not (QL and QL.GetLogIndexForQuestID and _G.GetQuestLogQuestText) then return nil end
+  local ok, idx = pcall(QL.GetLogIndexForQuestID, id)
+  if not (ok and idx) then return nil end
+  local selected = QL.GetSelectedQuest or function() end
+  local okSel, prev = pcall(selected)
+  if QL.SetSelectedQuest then pcall(QL.SetSelectedQuest, id) end
+  UI.restoreQuest = okSel and prev or nil
+  local okNow, now = pcall(selected)
+  local ok2, d, o = pcall(GetQuestLogQuestText, idx)
+  if UI.restoreQuest and QL.SetSelectedQuest then pcall(QL.SetSelectedQuest, UI.restoreQuest) end
+  if ok2 then return d, o, okNow and now == id end
+end
+
+-- The quest giver's recorded words for a quest's Lore entry that has no narration of its own: what they say when they
+-- offer it (Voice.QuestClip), checked against the quest window when it shows that offer, else against the quest log;
+-- a quest in neither plays the recording as it is. nil if no voice recorded it, or the words differ (a quest Forever
+-- rewrote is read aloud instead, as in the quest window).
+function UI.QuestDialogueClip(e)
+  local V, qid = ns.Voice, e and e.m and tonumber(e.m.id)
+  if not qid or V.Current() == "none" then return nil end
+  local QF = _G.QuestFrame
+  if QF and QF:IsShown() and V.questKind == "detail" and GetQuestID and GetQuestID() == qid then
+    return V.QuestClip(qid, "detail")
+  end
+  local desc, _, sure = logText(qid)
+  if sure and type(desc) == "string" and desc:find("%S") then return V.QuestClip(qid, "detail", desc) end
+  return V.QuestClip(qid, "detail", nil, true)
+end
+
 -- The quest log's own text for a quest (and remember it for the harvest, so it can become lore later).
 local function questLogText(q)
-  local QL = _G.C_QuestLog
-  local desc, obj
-  if QL and QL.GetLogIndexForQuestID and _G.GetQuestLogQuestText then
-    local ok, idx = pcall(QL.GetLogIndexForQuestID, q.id)
-    if ok and idx then
-      local okSel, prev = pcall(QL.GetSelectedQuest or function() end)
-      if QL.SetSelectedQuest then pcall(QL.SetSelectedQuest, q.id) end
-      UI.restoreQuest = okSel and prev or nil
-      local ok2, d, o = pcall(GetQuestLogQuestText, idx)
-      if ok2 then desc, obj = d, o end
-      if UI.restoreQuest and QL.SetSelectedQuest then pcall(QL.SetSelectedQuest, UI.restoreQuest) end
-    end
-  end
+  local desc, obj = logText(q.id)
   local saved = LoreForeverDB and LoreForeverDB.quests and LoreForeverDB.quests[q.id]
   desc = (desc and desc ~= "" and desc) or (saved and saved.text)
   obj = (obj and obj ~= "" and obj) or (saved and saved.objectives) or table.concat(q.objectives or {}, "\n")

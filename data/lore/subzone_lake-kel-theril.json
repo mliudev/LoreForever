@@ -13,11 +13,6 @@
    "title": "A Frozen Tomb of the Highborne",
    "body": "Lake Kel'Theril is shrouded in eternal cold, its waters sealed under thick sheets of ice. Scattered across its surface and snowy banks are the shattered pillars and arches of ancient elven architecture. These are the remnants of Kel'Theril, once an outpost of the ancient Highborne civilization before the Great Sundering shattered Kalimdor. Rather than finding rest in death, the spirits of the fallen aristocracy wander the ice as tormented ghosts and specters, forever tethered to the tragic remnants of their former glory.",
    "spoiler": 0
-  },
-  {
-   "title": "Restless Magic",
-   "body": "The concentration of lingering arcane energy and restless ectoplasm makes the frozen lake a draw for occult researchers and adventurers alike.",
-   "spoiler": 0
   }
  ],
  "faq": [
@@ -37,28 +32,15 @@
     "what are the keltheril ruins"
    ],
    "answer": "The crumbling pillars and stonework belong to the Ruins of Kel'Theril, an ancient kaldorei settlement that thrived during the reign of the Highborne prior to the War of the Ancients."
-  },
-  {
-   "q": "Why do adventurers seek out the spirits here?",
-   "aliases": [
-    "lake ectoplasm",
-    "why hunt spirits in winterspring"
-   ],
-   "answer": "Scholars, arcanists, and armor crafters frequently seek the potent ectoplasm left behind by the restless Highborne phantoms to empower enchanted gear and magical relics."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
    "text": "The tragic specters walking Lake Kel'Theril serve as a chilling reminder of the ruin brought about by the reckless arrogance of the ancient Highborne."
-  },
-  {
-   "target": "class:Mage",
-   "text": "The ethereal ectoplasm harvested from the lingering Highborne spirits here holds remarkable residual arcane resonance, ideal for advanced magical attunements."
   }
  ],
  "keywords": [
-  "ectoplasm",
   "highborne",
   "kel'theril",
   "lake kel'theril",

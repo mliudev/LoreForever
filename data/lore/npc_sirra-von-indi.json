@@ -64,15 +64,6 @@
    "answer": "Sirra is one of the few residents in Darkshire who knows the full history of Morgan Ladimore, the fallen paladin buried in the Weathered Grave. He helps recount Ladimore's descent into madness and tragedy after the Third War."
   },
   {
-   "q": "Is Sirra related to anyone in Karazhan?",
-   "aliases": [
-    "lady catriona von'indi",
-    "von'indi family",
-    "karazhan connection"
-   ],
-   "answer": "Sirra shares his uncommon surname with Lady Catriona Von'Indi, a spectral noblewoman haunting the nearby tower of Karazhan in Deadwind Pass, suggesting his family has longstanding ties to the nobility of the region."
-  },
-  {
    "q": "Why does Sirra make travelers wait while translating?",
    "aliases": [
     "why is sirra busy",
@@ -111,8 +102,7 @@
   "quest:251",
   "quest:401",
   "quest:252",
-  "npc:abercrombie",
-  "subzone:karazhan"
+  "npc:abercrombie"
  ],
  "attribution": [
   "Sirra Von'Indi"

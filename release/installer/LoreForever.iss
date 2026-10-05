@@ -20,6 +20,9 @@
 ;
 ; Built by .github/workflows/release.yml from the unzipped release zip:
 ;   iscc /DAppVersion=0.3.0 /DSourceDir=<folder holding the zip's add-on folders> /DOutputDir=dist release\installer\LoreForever.iss
+; With the companion app (LOR-132), when the release build made one, add
+;   /DCompanionDir=<the built LoreForeverCompanion folder> /DCompanionIss=<companion\packaging\companion.iss>
+; which adds a components page (the add-on; the companion; its narration voice). Without them, Setup is as before.
 
 #ifndef AppVersion
   #define AppVersion "0.0.0"
@@ -423,3 +426,10 @@ begin
       WizardForm.DirEdit.Text := Dir;
   end;
 end;
+
+// The companion app's part of Setup (LOR-132; see the header). It goes last: its [Setup] header ends this [Code]
+// section, its event handlers run alongside the ones above, and its #defines (it has its own VoiceBase) come after
+// every use of this file's.
+#ifdef CompanionIss
+  #include CompanionIss
+#endif

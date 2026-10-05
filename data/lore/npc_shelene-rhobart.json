@@ -8,11 +8,11 @@
   "wiki": "Shelene Rhobart",
   "refs": 1
  },
- "summary": "Shelene Rhobart is a Forsaken leatherworking trainer stationed along the road in Tirisfal Glades. Operating out of Death's Watch Waystation, she supplies cured hides and leathercraft training to support the Forsaken's military and logistical efforts across the blighted lands.",
+ "summary": "Shelene Rhobart is a Forsaken leatherworking trainer stationed along the road in Tirisfal Glades. Operating out of a Deathguard waystation, she supplies cured hides and leathercraft training to support the Forsaken's military and logistical efforts across the blighted lands.",
  "sections": [
   {
    "title": "Crafting for the Forsaken",
-   "body": "Shelene Rhobart plies her trade at Death's Watch Waystation, an outpost situated southeast of Brill along the main road toward the ruins of Lordaeron. Even in undeath, practical crafts remain essential for survival and war. Shelene works with animal pelts collected from the prowling beasts of Tirisfal, refining tough hides into armor, straps, and field gear to supply local Forsaken patrols contending with both the Scourge and Scarlet crusaders.",
+   "body": "Shelene Rhobart plies her trade at a Deathguard waystation, an outpost situated southeast of Brill along the main road toward the ruins of Lordaeron. Even in undeath, practical crafts remain essential for survival and war. Shelene works with animal pelts collected from the prowling beasts of Tirisfal, refining tough hides into armor, straps, and field gear to supply local Forsaken patrols contending with both the Scourge and Scarlet crusaders.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is shelene rhobart",
     "shelene rhobart map"
    ],
-   "answer": "Shelene Rhobart is stationed at Death's Watch Waystation, a small Forsaken post located southeast of Brill in Tirisfal Glades, along the road leading toward the Undercity."
+   "answer": "Shelene Rhobart is stationed at a small Forsaken post located southeast of Brill in Tirisfal Glades, along the road leading toward the Undercity."
   },
   {
    "q": "What role does Shelene Rhobart serve?",
@@ -52,14 +52,12 @@
  ],
  "keywords": [
   "brill",
-  "death's watch waystation",
   "hides for the forsaken",
   "leatherworking",
   "shelene rhobart",
   "tirisfal glades"
  ],
  "related": [
-  "subzone:death-s-watch-waystation",
   "zone:tirisfal",
   "subzone:brill",
   "topic:forsaken",

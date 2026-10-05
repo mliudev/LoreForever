@@ -6,6 +6,107 @@ One `- ` bullet per change; wrap long bullets with an indented continuation line
 
 ## Unreleased
 
+## 0.8.0 (2026-10-04)
+
+- **Your journey in numbers:** Lore Forever now counts the steps you walk in each land, the foes you've slain (by
+  kind, and the elites and rares among them), your deaths and your time played. The Journey page's stats line shows
+  your steps; hover it for the rest, and click it to switch distances between miles and kilometres. Your journey
+  record carries them too, and your page on loreforeverwow.com shows them as "The journey in numbers", with lines like
+  "That's the road from Goldshire to Booty Bay 3 times over" and a miles/kilometres switch. Type `/played` once to add
+  your time played. Steps count from this update on.
+- **Your profile, moment by moment:** your page on loreforeverwow.com now tells your journey as it happened, newest
+  first: places reached, quests finished, people met, bosses beaten, finds, deaths and more, with filters. Follow a
+  trail from any moment: a finished quest leads back to meeting whoever gave it and on through your other chapters
+  of its storyline, "Last time here" takes you to your previous visit, a quest reward to its quest, and a death to
+  the foe you beat later. Update your profile (paste your record again, or let the companion app do it) to see it.
+- **A better journey map:** your road now follows where you actually walked, as a smooth line that fades with age,
+  dashed where you flew, hearthed or were away. Moments are round beads in their filter's colour, the one you're
+  looking at glows and pulses softly instead of blinking, and moments too close together share one bead with a count.
+  Zoom in with the mouse wheel or + and - (drag to look around), step through your moments with the arrows under the
+  map, and Bigger map opens it large over the panel, with the filters (Esc closes it). Hover a bead to see what
+  happened and when; a quest you finished shows where you took it.
+- **Every moment opens its story:** clicking a moment on the Journey page or the map opens its lore: the quest, the
+  person, the foe (or the story of its kind), the book or item, the faction, where you set your hearthstone or flew
+  to, and otherwise the place it happened. Shift-click adds its narration to your playlist. The moment the map shows
+  is marked in the list.
+- **Narration: only when I press Play:** a new switch in Options and in the minimap book's right-click menu (or
+  `/lore ondemand`) turns off everything that plays by itself, from arriving somewhere and flights to quest givers
+  and books, for players who want narration only when they ask. Play, Listen, the Narrate key and your playlist still
+  work, and your other narration options stay as you set them. Lore Forever also no longer talks over the game's own
+  cinematics: nothing starts by itself during one, and what started by itself stops when one begins.
+- **Reset windows:** lost the floating player, the panel or the minimap button? Options › Reset windows (or
+  `/lore reset`) puts them all back where they started and shows them again; your journey and settings stay.
+  Reinstalling never did this, since the game keeps your settings. Windows saved off the screen now come back onto it
+  at login, and turning the floating player off from its right-click menu says how to get it back.
+- **Fix:** on a German, French, Spanish or Portuguese game client, Lore Forever shows your language, and the English
+  narrators then stayed silent without saying why. Lore Forever now tells you in chat and in Options that your
+  voices are recorded in English, and that choosing English in Options › Language brings them back. The default
+  voice no longer shows as "Not installed" there, and Sample says why it can't play instead of "Nothing to preview".
+- **Every quest you've completed, and its text again:** the Journey page has a Completed list (or type
+  `/lore quests`): every quest your character has finished, newest first and grouped by zone, even the ones done
+  before you installed Lore Forever. Click one to read its quest text again, just as the quest giver told it, then
+  its story. Quests from before Lore Forever was installed show their story alone.
+- **Fix:** a place that shares its name with one in another zone now shows your zone's story: the Undercity's Canals
+  no longer pop up Stormwind's.
+- **Share the Forever quests you find:** Lore Forever keeps the quest, gossip and book text Forever shows you, and
+  what NPCs call out, so you can drop your LoreForever.lua at loreforeverwow.com/contribute and those stories go into
+  a coming update for every player. Your character's name never leaves your PC. Tick Options › Contribute buttons
+  (off for now) for a small note button on quest, gossip and book windows Lore Forever doesn't know yet, which gives
+  you a link to share just that page. Options › Keep the quest text you see turns keeping it off, and Mark all as sent
+  starts your next upload fresh.
+- **Narration plays with the game's Dialog sound off:** recorded narrations used to stay silent (or fall back to the
+  game's text-to-speech) when System › Sound › Dialog was unticked; they now play anyway. With all game sound off,
+  Lore Forever says so in chat and in Options instead of staying silent, and a recording that can't be found is named
+  in chat.
+- **Read aloud fits its label:** the book window's Read aloud button grows to fit its text, which ran past the button
+  in French.
+- **Tell us when a narration sounds wrong:** right-click the narration player and pick Report a problem with this
+  narration: a name said wrong (type how it should sound), the wrong voice, cut off or garbled, a stage direction read
+  out loud. Copy the link, open it in your browser and press Send report, no sign-in needed. Once two players report a
+  narration it's recorded again, and the right sound for a name fixes every narration that says it. Options › Show
+  the report button on the narration player adds a small cross to the player for it. The player's right-click menu
+  also opens on the first click now.
+
+- **Quest givers speak every time you ask:** a quest giver's words play each time you open their quest, not only the
+  first time, even with Options › Skip what you've heard on (it now covers narrations and books). With it off, books
+  read aloud again each time you open them.
+- **Stop a quest giver mid-sentence:** their words show in the player like any narration, with Stop, and clicking
+  the title opens the quest's story. The floating player no longer hides under the quest window: while the window
+  would cover it, it waits beside it and goes back when the quest closes.
+- **Hear a quest giver again:** a round play button beside the quest window's Lore button plays what they say on
+  that page again, or stops it. It works with Options › Narrate quest dialogue off too.
+- **Quest givers aren't drowned out by arrivals:** if a place's story started by itself as you walked up, the quest
+  giver's words now take over, and the story plays again once you close their window. Before, a quest you opened
+  again could stay silent while the story played.
+- **A quest's story plays the quest giver's voice:** Listen on a quest's story (its Lore button) now plays the
+  recorded quest giver instead of reading the quest with the game's voice. Quests nobody has recorded yet, or whose
+  words Forever changed, still use Read aloud, and hovering Read aloud now says it's your game's text-to-speech
+  voice. With Options › Match the quest giver's voice, a woman's words play in the female narrator's voice (where
+  she's recorded them) even when you open the story from your quest log, away from the quest window.
+- **What's new, right in game:** after an update, the first login says in one chat line what the new version brings,
+  with a link, and the panel opens once on a card with the headline changes. Everything new in it is one click away,
+  and the card closes with its ×. Options and pages that changed wear a green "New" until you've looked at them.
+  Nothing comes back once seen, and Options › Tips at login turns the line off too.
+- **Your journey on loreforeverwow.com:** the Journey page now leads to your page on the website, just above its
+  buttons. Copy your journey record and paste it at loreforeverwow.com/account; chat tells you what the page will
+  show, like "12 quests done, 2 bosses and the road you took".
+- **loreforeverwow.com is easier to get around:** Download, What's new and Community sit at the top of every page,
+  with Make your profile on the right, and the changelog has its own page, What's new.
+- **Everyone who helps, on one page:** loreforeverwow.com/contributors (Community › Contributors) now thanks the
+  translators next to the narrators, with what each of them added, in alphabetical order. Your profile page shows a
+  small Narrator or Translator badge once your work is in.
+- **Princess Must Die! and Protect Kanati Greycloud find their stories:** both were filed under the wrong quest, so
+  their Lore button and recorded quest giver turned up on Patrol Schedules and Assassination Plot instead.
+  Assassination Plot, the note that warns Kanati of the centaur ambush, now has a story of its own.
+- **Running Chronicle too?** It also answers to /lore, so /lore opens only one of the two. Lore Forever now answers
+  to /loreforever as well as /lf, and the first login with Chronicle says in chat which command opens which.
+- **Your language, said up front:** on a German, Spanish, French or Brazilian Portuguese game client, the first login
+  now says in chat that Lore Forever follows your client's language, and how to pick another (`/lore lang`, or
+  Options › Language). `/lore help` names all five languages.
+- **Thank you, translators!** German and Spanish players reworked about 250 lines of Lore Forever's stories and menus
+  at loreforeverwow.com/translate, and their versions are in this update, on top of the French fixes already in.
+  Everyone who helps is on loreforeverwow.com/contributors. Want Lore Forever better in your language? Join them.
+
 ## 0.7.0 (2026-10-03)
 
 - **See which quests belong together:** a quest that's part of a storyline now says so under its Lore button, in
@@ -34,7 +135,7 @@ One `- ` bullet per change; wrap long bullets with an indented continuation line
 - **Translated labels fit:** in Deutsch, Português, Français and Español, the Library's and the queue's hints,
   the French Library tab, "Nothing playing" in the player and the Journey page's two buttons were cut off or ran
   past their edges. They now fit, and "Update my journey" no longer sits under the resize corner.
-- **Corrected lore in 85 entries,** and removed 73 entries about places, people and rewards that don't belong
+- **Corrected lore in 205 entries,** and removed 97 entries about places, people and rewards that don't belong
   in this era.
 
 ## 0.6.0 (2026-10-02)

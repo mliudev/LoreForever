@@ -30,9 +30,20 @@ CORE = "LoreForever"
 PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "LoreForever_Voice_Default_Horde",
          "LoreForever_Voice_Default_Quests", "LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR"]
 # Not in the zip, but released with every version as their own zips (scripts/build-voice-packs.sh), so
-# scripts/release.sh stamps the core's version into them too.
+# scripts/release.sh stamps the core's version into them too. One not in addon/ yet is skipped by both: the quest
+# givers' voices until their recordings land, and the narrators in the language packs' languages (LOR-177,
+# LoreForever_Voice_<Default|Female>_<locale>) and their quest dialogue in those languages (LOR-226,
+# LoreForever_Voice_<Default|Female>_Quests_<locale>) until they're recorded.
 RELEASE_PACKS = ["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde",
-                 "LoreForever_Voice_Female_Quests"]
+                 "LoreForever_Voice_Female_Quests", "LoreForever_Voice_QuestGivers",
+                 "LoreForever_Voice_Default_deDE", "LoreForever_Voice_Female_deDE",
+                 "LoreForever_Voice_Default_esES", "LoreForever_Voice_Female_esES",
+                 "LoreForever_Voice_Default_frFR", "LoreForever_Voice_Female_frFR",
+                 "LoreForever_Voice_Default_ptBR", "LoreForever_Voice_Female_ptBR",
+                 "LoreForever_Voice_Default_Quests_deDE", "LoreForever_Voice_Female_Quests_deDE",
+                 "LoreForever_Voice_Default_Quests_esES", "LoreForever_Voice_Female_Quests_esES",
+                 "LoreForever_Voice_Default_Quests_frFR", "LoreForever_Voice_Female_Quests_frFR",
+                 "LoreForever_Voice_Default_Quests_ptBR", "LoreForever_Voice_Female_Quests_ptBR"]
 if sys.argv[2:]:
     sys.exit(f"build-release: unknown arguments: {' '.join(sys.argv[2:])} (the one zip carries every bundled pack; "
              "there's no --complete build any more)")
