@@ -73,7 +73,7 @@ async function save({ request, env, waitUntil }, json) {
   if (r.email && !EMAIL.test(r.email)) return { status: 400, error: "That email address doesn't look right." };
 
   const now = new Date().toISOString();
-  const sender = await senderHash(request.headers.get("CF-Connecting-IP") || "", now.slice(0, 10));
+  const sender = await senderHash(env, request.headers.get("CF-Connecting-IP") || "", now.slice(0, 10));
   await env.DB.prepare(SETUP).run();
   const sent = await env.DB.prepare("SELECT COUNT(*) AS n FROM translation_reports WHERE sender = ? AND created >= ?")
     .bind(sender, now.slice(0, 10)).first("n");

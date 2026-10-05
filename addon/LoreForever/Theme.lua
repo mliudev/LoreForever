@@ -78,7 +78,12 @@ T.color = {
   tipGood = { 0.5, 0.87, 0.5, 1 },       -- narrated, heard, playing
   -- Elsewhere.
   playing = { 0.35, 1, 0.35, 1 },        -- the minimap ring while something plays
-  mapMark = { 1, 0.92, 0.7, 0.9 },       -- marks on the journey map
+  mapMark = { 1, 0.92, 0.7, 0.9 },       -- marks on the journey map: the road
+  mapEdge = { 0, 0, 0, 0.75 },           -- the road's soft dark edge
+  mapBead = { 0, 0, 0, 0.65 },           -- the dark ring around a moment's bead
+  mapShine = { 1, 1, 1, 0.55 },          -- the light on a bead, and its glow under the mouse
+  mapRing = { 1, 1, 1, 0.9 },            -- the ring around the moment the map shows
+  mapCount = { 0.08, 0.06, 0.02, 1 },    -- how many moments a bead stands for, on the bead
   url = { 1, 1, 1, 1 },                  -- addresses to copy (Options)
 }
 

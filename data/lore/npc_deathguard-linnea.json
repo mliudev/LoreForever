@@ -8,11 +8,11 @@
   "wiki": "Deathguard Linnea",
   "refs": 2
  },
- "summary": "Deathguard Linnea is a Forsaken soldier stationed at Death's Watch Waystation in southeastern Tirisfal Glades. She helps secure the roads between Brill and the eastern borders, watching for threats posed by the Scarlet Crusade and lingering Scourge. Adventurers passing along the main thoroughfares often assist her unit with patrol duties.",
+ "summary": "Deathguard Linnea is a Forsaken soldier stationed at a Deathguard waystation in southeastern Tirisfal Glades. She helps secure the roads between Brill and the eastern borders, watching for threats posed by the Scarlet Crusade and lingering Scourge. Adventurers passing along the main thoroughfares often assist her unit with patrol duties.",
  "sections": [
   {
    "title": "A Vigil on the Roadside",
-   "body": "Deathguard Linnea stands sentinel at Death's Watch Waystation, a small fortified post southeast of Brill. Life\u2014or unlife\u2014on patrol in Tirisfal Glades is treacherous, as the Forsaken must vigilantly defend their fledgling realm against Scarlet Crusade infiltrators and mindless Scourge prowling the wilderness. Stationed alongside her fellow guards, Linnea oversees patrol efforts along the roadway, coordinating reports with local authorities such as Magistrate Sevren in Brill to keep the realm's southern approach secure.",
+   "body": "Deathguard Linnea stands sentinel at a small fortified post southeast of Brill. Life\u2014or unlife\u2014on patrol in Tirisfal Glades is treacherous, as the Forsaken must vigilantly defend their fledgling realm against Scarlet Crusade infiltrators and mindless Scourge prowling the wilderness. Stationed alongside her fellow guards, Linnea oversees patrol efforts along the roadway, coordinating reports with local authorities such as Magistrate Sevren in Brill to keep the realm's southern approach secure.",
    "spoiler": 0
   }
  ],
@@ -24,16 +24,7 @@
     "deathguard linnea lore",
     "who is linnea"
    ],
-   "answer": "Linnea is an undead soldier serving in the Deathguard, the military force charged with defending Forsaken territory. She is posted at Death's Watch Waystation along the road southeast of Brill in Tirisfal Glades."
-  },
-  {
-   "q": "What is Death's Watch Waystation?",
-   "aliases": [
-    "deaths watch",
-    "deaths watch waystation",
-    "waystation tirisfal"
-   ],
-   "answer": "It is an outpost established by the Forsaken to monitor and secure the eastern and southern thoroughfares of Tirisfal Glades. The station provides a forward staging ground against Scarlet Crusade scouts and roaming undead."
+   "answer": "Linnea is an undead soldier serving in the Deathguard, the military force charged with defending Forsaken territory. She is posted at a Deathguard waystation along the road southeast of Brill in Tirisfal Glades."
   },
   {
    "q": "Why does she need help patrolling?",
@@ -56,7 +47,6 @@
  ],
  "keywords": [
   "brill",
-  "death's watch waystation",
   "deathguard linnea",
   "forsaken",
   "magistrate sevren",
@@ -64,7 +54,6 @@
   "tirisfal glades"
  ],
  "related": [
-  "subzone:death-s-watch-waystation",
   "subzone:brill",
   "zone:tirisfal",
   "topic:forsaken",

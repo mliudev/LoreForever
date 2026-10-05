@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Watch on the Bridge",
-   "body": "While trade and military shipments flow through Menethil Harbor, Tarrel Rockweaver keeps an anxious vigil at the bridge on the edge of town. His wife, Merrin Rockweaver, joined Prospector Whelgar's prestigious archaeological expedition deeper into the Wetlands. When violent raptors overran the excavation site and cut off regular communication, Tarrel was left stranded in town, begging passing travelers to scout east toward Whelgar's Retreat to ensure she survived the disaster.",
+   "body": "While trade and military shipments flow through Menethil Harbor, Tarrel Rockweaver keeps an anxious vigil at the bridge on the edge of town. His wife, Merrin Rockweaver, joined Prospector Whelgar's prestigious archaeological expedition deeper into the Wetlands. When violent raptors overran the excavation site and cut off regular communication, Tarrel was left stranded in town, begging passing travelers to scout east toward Whelgar's Excavation Site to ensure she survived the disaster.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "in search of the excavation team",
     "tarrel rockweaver mission"
    ],
-   "answer": "He lost contact with his wife Merrin after her archaeological team encountered danger at their dig site. Unable to leave his post, he asks passing adventurers to head east toward Whelgar's Retreat to find her."
+   "answer": "He lost contact with his wife Merrin after her archaeological team encountered danger at their dig site. Unable to leave his post, he asks passing adventurers to head east toward Whelgar's Excavation Site to find her."
   },
   {
    "q": "Who is Merrin Rockweaver?",
@@ -42,7 +42,7 @@
     "tarrel wife",
     "who is merrin"
    ],
-   "answer": "Merrin Rockweaver is Tarrel's wife and an archaeologist attached to Prospector Whelgar's excavation team. She survived an attack on their camp and took refuge with the survivors at Whelgar's Retreat."
+   "answer": "Merrin Rockweaver is Tarrel's wife and an archaeologist attached to Prospector Whelgar's excavation team. She survived an attack on their camp and took shelter with the survivors in a cave overlooking the dig site."
   },
   {
    "q": "Where did Tarrel's wife go?",
@@ -51,7 +51,7 @@
     "excavation team location",
     "whelgar's retreat"
    ],
-   "answer": "Merrin traveled eastward into the Wetlands to study ancient titan and dwarven relics. After their main dig site was attacked, she and the surviving excavators fell back to a ridge known as Whelgar's Retreat."
+   "answer": "Merrin traveled eastward into the Wetlands to study ancient titan and dwarven relics. After their main dig site was attacked, she and the surviving excavators took shelter in a cave overlooking the ruined dig."
   }
  ],
  "angles": [
@@ -70,13 +70,11 @@
   "menethil harbor",
   "merrin rockweaver",
   "tarrel rockweaver",
-  "wetlands",
-  "whelgar's retreat"
+  "wetlands"
  ],
  "related": [
   "npc:merrin-rockweaver",
   "quest:305",
-  "subzone:whelgar-s-retreat",
   "subzone:menethil-harbor",
   "zone:wetlands",
   "topic:dwarf"

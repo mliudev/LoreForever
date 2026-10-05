@@ -1,3 +1,5 @@
 dist/
 .env
 __pycache__/
+# The recordings come from the "audio" release (scripts/audio_assets.py fetch), never from git (LOR-133).
+addon/*/Audio/

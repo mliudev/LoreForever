@@ -60,3 +60,10 @@ test("a failed source comes back null, so the page asks it itself", async () => 
   fake({ "releases?per_page=100": 403, "api.cfwidget.com": 500, "img.shields.io": 500 });
   assert.deepEqual(await get({}), { total: 0, github: null, curseforge: null, curseforgeSource: null });
 });
+
+test("the audio release (the recordings each release build fetches, LOR-133) isn't counted", async () => {
+  const audio = { tag_name: "audio", assets: [{ name: "LoreForever_Voice_Default-0123456789abcdef.zip", download_count: 50 }] };
+  fake({ "page=2": [], "releases?per_page=100": [audio, release(["LoreForever.zip", 7])],
+    "api.cfwidget.com/1715510": { downloads: { total: 0 } } });
+  assert.equal((await get({})).github, 7);
+});

@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FAQ - Lore Forever</title>
+<meta name="description" content="Answers to what players ask most about Lore Forever, the WoW Forever lore add-on: the narrators, Mac and Linux, where the lore comes from, journey tracking and more.">
+<link rel="canonical" href="https://loreforeverwow.com/faq">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lore Forever FAQ">
+<meta property="og:description" content="Answers to what players ask most about Lore Forever, the WoW Forever lore add-on.">
+<meta property="og:url" content="https://loreforeverwow.com/faq">
+<meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+</header>
+
+<!-- FAQ (LOR-42): the questions viewers keep asking under the videos and on Discord, answered once. Linked from the
+     Community menu (header.js), the home page and Downloads. Each answer has an anchor (/faq#mac) to paste in replies.
+     Numbers come from the repo: clip counts and hours from the voice packs' audio, journey sizes from Journey.lua. -->
+<main class="wrap faq-page">
+  <h1>Questions players ask</h1>
+  <p class="pitch">Lore Forever is an in-game lore companion for WoW Forever: the story of every zone, quest and
+    NPC around you, narrated as you play. Here's what people ask most.</p>
+
+  <nav class="faq-toc" aria-label="Questions">
+    <ul>
+      <li><a href="#what">Is it a website or an app?</a></li>
+      <li><a href="#beta">Does it work in the beta?</a></li>
+      <li><a href="#addons-allowed">Does WoW Forever allow add-ons like this?</a></li>
+      <li><a href="#mac">Mac? Linux?</a></li>
+      <li><a href="#retail">Will there be a retail version?</a></li>
+      <li><a href="#timeline">When is WoW Forever set?</a></li>
+      <li><a href="#retail-lore">Does it undo the retail-era writing, or work with add-ons that do?</a></li>
+      <li><a href="#lore-source">Where does the lore come from?</a></li>
+      <li><a href="#narrators">Are the narrators voice actors or text-to-speech?</a></li>
+      <li><a href="#hours">How many hours of narration is it?</a></li>
+      <li><a href="#pick-voice">Can I choose which voice I hear?</a></li>
+      <li><a href="#journey-cost">Does journey tracking cost CPU, memory or disk?</a></li>
+      <li><a href="#companion">Why is there a companion app? Can't it all work in game?</a></li>
+      <li><a href="#feedback">Where can I leave feedback?</a></li>
+      <li><a href="#donate">How can I donate?</a></li>
+    </ul>
+  </nav>
+
+  <section class="faq-q" id="what">
+    <h2>Is it a website or an app?</h2>
+    <p>It's an add-on: you play with it inside WoW Forever. Open it with the key you pick on first login, the minimap
+      book or <code>/lore</code>. This site is where you <a href="/downloads">download it</a>, get extra narrator
+      voices and make a page about your character.</p>
+  </section>
+
+  <section class="faq-q" id="beta">
+    <h2>Does it work in the beta?</h2>
+    <p>Yes. It's built for the WoW Forever beta and tested there every day. It installs into
+      <code>World of Warcraft\_classic_beta_\Interface\AddOns</code>; the Windows installer finds that folder for
+      you.</p>
+  </section>
+
+  <section class="faq-q" id="addons-allowed">
+    <h2>Does WoW Forever allow add-ons like this?</h2>
+    <p>Yes. Forever loads add-ons from its AddOns folder like any WoW client, and Lore Forever only uses the game's
+      normal add-on interface. It's free, like every add-on has to be, and it's
+      <a href="https://www.curseforge.com/wow/addons/lore-forever">on CurseForge</a> too.</p>
+  </section>
+
+  <section class="faq-q" id="mac">
+    <h2>Mac? Linux?</h2>
+    <p>The add-on itself works anywhere the game runs: it's plain add-on code, nothing Windows-only. Only the
+      installer (Setup.exe) is for Windows. On a Mac or Linux, take the <a href="/downloads">Zip</a> and unzip it into
+      <code>_classic_beta_/Interface/AddOns</code>, or use CurseForge.</p>
+    <p>Recorded narrations play on every system. Read aloud, which covers lines that have no recording, uses your
+      system's text-to-speech voices. Linux setups usually have none, so there Read aloud says so once and stays
+      quiet.</p>
+  </section>
+
+  <section class="faq-q" id="retail">
+    <h2>Will there be a retail version?</h2>
+    <p>Not planned. Everything in Lore Forever is written for WoW Forever's world and its point in the story, and
+      the narrations follow its zones, quests and dungeons. Forever is where we're putting all our time.</p>
+  </section>
+
+  <section class="faq-q" id="timeline">
+    <h2>When is WoW Forever set? After Warcraft III?</h2>
+    <p>Yes: after Warcraft III and The Frozen Throne, in the first year of World of Warcraft, 25 years after the
+      Dark Portal opened (25 ADP). Forever is its own continuity from there, so Lore Forever tells the story as it
+      stands in that year. Big twists you'd only learn by playing on are marked as spoilers.</p>
+  </section>
+
+  <section class="faq-q" id="retail-lore">
+    <h2>Does it undo the retail-era writing in Forever, or work with add-ons that do?</h2>
+    <p>Lore Forever keeps its lore to the first year of WoW (25 ADP). Lore from later expansions is left out of
+      every entry and narration, so what it tells you never jumps ahead of where Forever's story stands. It doesn't
+      change the game's own quest text: it adds its own panel and narration next to it.</p>
+    <p>It runs alongside other add-ons, including ones that change quest text or voice quests. If you run another
+      quest-voicing add-on, Lore Forever's quest dialogue starts off so no page is voiced twice
+      (<code>/lore autoplay</code> turns it back on).</p>
+  </section>
+
+  <section class="faq-q" id="lore-source">
+    <h2>Where does the lore come from? Is it reputable?</h2>
+    <p>From the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> (under CC BY-SA 4.0) and from Forever's own game
+      text: its quests, books and what its NPCs say. Where they disagree, Forever's own text wins. Sections about
+      later expansions, and side material like the tabletop RPG books, are dropped before anything is written.</p>
+    <p>How much is AI-written? The entries are drafted with AI from those sources, then checked: a canon check flags
+      anything from after 25 ADP and has it rewritten, and players' reports of a wrong answer (the cross under any
+      answer, or <code>/lore report</code>) get it fixed. They aren't hand-written, and we don't claim they are.</p>
+  </section>
+
+  <section class="faq-q" id="narrators">
+    <h2>Are the narrators voice actors or text-to-speech?</h2>
+    <p>The two narrators that come with Lore Forever, male and female, are generated voices, not voice actors:
+      synthetic narration rendered from the text, tuned until names and places sound right. The voices other players
+      record and share on <a href="/downloads">Downloads</a> are real people. Want to be one?
+      <a href="/voices/studio">Record your voice</a>.</p>
+  </section>
+
+  <section class="faq-q" id="hours">
+    <h2>How many hours of narration is it?</h2>
+    <p>About 28 hours per narrator. The stories of every zone, capital and dungeon, the bosses, and the places and
+      people in them are 915 recordings, about 12 hours. Quest dialogue, what quest givers say when you open, work on
+      and turn in a quest, adds 3,743 more, about 16 hours. The male narrator's stories and quest dialogue are all in
+      the main download.</p>
+  </section>
+
+  <section class="faq-q" id="pick-voice">
+    <h2>Can I choose which voice I hear?</h2>
+    <p>Yes. Install any voices you like from <a href="/downloads">Downloads</a>, then pick in game under
+      Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration voices, or type <code>/lore voice</code>. Put
+      them in your order: a voice that hasn't recorded a story hands it to the next one.</p>
+  </section>
+
+  <section class="faq-q" id="journey-cost">
+    <h2>Does journey tracking cost CPU, memory or disk? How big is a year of play?</h2>
+    <p>Hardly any. Your journey is recorded when the game tells the add-on something happened: you enter a zone,
+      turn in a quest, earn XP from a kill, loot, level up. Each of those is a quick note, and nothing runs every
+      frame. The one timer marks a point on your map trail every 15 seconds, and it skips combat, dungeons and
+      flights.</p>
+    <p>On disk, an hour of questing adds about 30 KB to your saved settings. It doesn't grow forever: the journey
+      keeps its newest 3,600 moments and the map trail of your last 5 sessions, so a character levels off around
+      1 MB, about the size of a full run from 1 to 60. A year of play is still about 1 MB per character, and about
+      2&ndash;3 MB of memory in game. The game writes it to disk only when you log out or <code>/reload</code>.</p>
+    <p>Don't want it? Untick Options &rsaquo; Remember my journey.</p>
+  </section>
+
+  <section class="faq-q" id="companion">
+    <h2>Why is there a companion app? Can't it all work in game?</h2>
+    <p>The add-on works fully in game on its own: the lore, the narration and your journey need no app.</p>
+    <p>WoW doesn't let add-ons reach the internet, so the add-on can only tell what it brought with it. The optional
+      companion app is for the things that have to be made on the spot: live answers to questions the add-on doesn't
+      cover yet, and your journey retold as narrated chapters. It's still in testing.</p>
+  </section>
+
+  <section class="faq-q" id="feedback">
+    <h2>Where can I leave feedback?</h2>
+    <p>On the <a href="/feedback">feedback page</a> (Community &rsaquo; Send feedback, Request a feature or Report a
+      bug), or chat with us on <a href="/discord">Discord</a>. Spot a wrong answer in game? Click the cross
+      under it, or type <code>/lore report</code>.</p>
+  </section>
+
+  <section class="faq-q" id="donate">
+    <h2>How can I donate?</h2>
+    <p>There's no way to donate, and Lore Forever stays free: Blizzard's add-on rules don't allow selling add-ons or
+      asking for donations in them. The best support is sharing it with a friend, <a href="/voices/studio">lending
+      your voice</a>, <a href="/translate">helping translate</a> or <a href="/feedback">telling us</a> what to make
+      better.</p>
+  </section>
+
+  <p class="faq-more">Something else? Ask on <a href="/discord">Discord</a> or <a href="/feedback">send us a
+    note</a>.</p>
+</main>
+
+<footer class="wrap foot">
+  <p>Get the newest version on the <a href="/downloads">Downloads page</a>. Spotted a problem? <a href="/feedback?kind=bug">Tell us</a>.</p>
+  <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+</body>
+</html>

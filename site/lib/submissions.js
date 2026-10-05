@@ -8,8 +8,11 @@
 
 import { postWebhook } from "./form.js";
 
-export const RELEASE_VERSION = "2026-09-29";
+// 2026-10-03: 18 or older only (no more guardian signing), no synthetic copies or voice models from the recordings,
+// and the release record is kept even after the account is deleted.
+export const RELEASE_VERSION = "2026-10-03";
 
+// adult_or_guardian is the age box: "18 or older" since release 2026-10-03, "18 or older, or a guardian signs" before.
 const SETUP = `CREATE TABLE IF NOT EXISTS voice_submissions (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   created TEXT NOT NULL,

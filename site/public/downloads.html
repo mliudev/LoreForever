@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Downloads - Lore Forever</title>
+<meta name="description" content="Download Lore Forever, the WoW Forever lore add-on, plus its narrator voices and languages: hear a sample, like your favourites, download in one click.">
+<link rel="canonical" href="https://loreforeverwow.com/downloads">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lore Forever downloads">
+<meta property="og:description" content="Lore Forever, every narrator voice and every language: hear it, like it, download it in one click.">
+<meta property="og:url" content="https://loreforeverwow.com/downloads">
+<meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+</header>
+
+<!-- Downloads (LOR-222): the page the nav's Download goes to, and the one players come to for voices. Until
+     2026-10-03 it was /voices; /voices now redirects here (functions/voices/index.js), as the add-on's in-game links,
+     old videos and the CurseForge description may still say either. The add-on comes first, then the narrators as a
+     section, then languages. The voice cards and the language line come from voices/voices.json and
+     translate/packs.json through functions/downloads/index.js (lib/downloads.js); /voices-page.js fills in file
+     sizes and plays the samples, and /voices/player.js handles the likes. Keep the #addon, #voices, #install,
+     #languages and #record anchors and each voice's #<id>. No "Calling all narrators" box here: this is the player
+     path. Narrators get the footer line (#record), and /narrate redirects to the studio. Copy rule: never say how a
+     voice or a translation is made. -->
+<main class="wrap dl-page">
+  <h1>Downloads</h1>
+  <p class="pitch">Lore Forever, its narrator voices and its <a href="#languages">languages</a>. All free, and none of
+    it needs an account.</p>
+  <p class="dl-intro dl-langs-top">In English, Deutsch, Español, Français and Português, all in the one download:
+    it follows your WoW client's language. Recorded voices are in English, with German on the way. <a href="#languages">More</a></p>
+
+  <section class="dl-section dl-section-first" id="addon" aria-labelledby="addon-title">
+    <h2 id="addon-title">Lore Forever</h2>
+    <p class="dl-intro"><!-- dl-included --></p>
+    <ul class="dl-files dl-files-tight dl-card">
+      <li class="dl-file" id="installer">
+        <div class="dl-file-main">
+          <p class="dl-file-name">Windows installer</p>
+          <p class="dl-file-meta">Finds your WoW folder for you<span class="dl-dot" aria-hidden="true"> &middot; </span><span class="dl-size" data-asset="latest:LoreForever-Setup.exe"></span></p>
+        </div>
+        <a class="btn-small dl-get dl-link" href="/download/installer" aria-label="Download the Windows installer">Download</a>
+      </li>
+      <li class="dl-file" id="zip">
+        <div class="dl-file-main">
+          <p class="dl-file-name">Zip</p>
+          <p class="dl-file-meta">Unzip it into your AddOns folder yourself<span class="dl-dot" aria-hidden="true"> &middot; </span><span class="dl-size" data-asset="latest:LoreForever.zip"></span></p>
+        </div>
+        <a class="btn-small dl-get dl-link" href="/download/zip" aria-label="Download the zip">Download</a>
+      </li>
+      <li class="dl-file" id="curseforge">
+        <div class="dl-file-main">
+          <p class="dl-file-name">CurseForge</p>
+          <p class="dl-file-meta">Updates itself in the CurseForge app. It has the add-on only: extra voices come from
+            this page.</p>
+        </div>
+        <a class="btn-small btn-small-alt dl-get dl-link" href="https://www.curseforge.com/wow/addons/lore-forever"
+          aria-label="Get Lore Forever on CurseForge">CurseForge</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="dl-section" id="voices" aria-labelledby="voices-title">
+    <h2 id="voices-title">Narrator voices</h2>
+    <p class="dl-intro">Lore Forever comes with the male narrator. Every other voice is one more download: hear it,
+      get it, unzip it next to Lore Forever and type <code>/reload</code> in game. <a href="#install">How</a></p>
+    <div class="dl-voices">
+    <!-- dl-voices -->
+    </div>
+    <p class="dl-intro">Pick a voice in game under Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration
+      voices, or type <code>/lore voice</code>. Install as many as you like and put them in your order.</p>
+  </section>
+
+  <details class="dl-section dl-howto" id="install">
+    <summary><h2>How to install a voice</h2></summary>
+    <ol class="steps dl-steps">
+      <li><strong>Unzip it into your AddOns folder</strong>,
+        <code>World of Warcraft\_classic_beta_\Interface\AddOns</code>, so it sits next to the
+        <code>LoreForever</code> folder, not inside it.</li>
+      <li><strong>Type <code>/reload</code> in game</strong>, or start the game if it's closed.</li>
+      <li><strong>Pick the voice</strong> under Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration
+        voices. Alliance and Horde lands play by themselves.</li>
+    </ol>
+    <p class="dl-intro">Not showing up? Watch for a doubled folder like
+      <code>AddOns\LoreForever_Voice_Female\LoreForever_Voice_Female\</code>, and on the character screen tick
+      AddOns &rsaquo; <strong>Load out of date AddOns</strong>. A voice that hasn't recorded a story hands it to the
+      next voice in your order. Still stuck? <a href="/discord?src=voices">Ask on Discord</a>.</p>
+  </details>
+
+  <section class="dl-section" id="languages" aria-labelledby="languages-title">
+    <h2 id="languages-title">Languages</h2>
+    <!-- dl-languages -->
+    <p class="dl-intro">Missing yours? <a href="/translate">Help translate</a>.</p>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p id="record">Want to narrate Lore Forever? <a href="/voices/studio">Open the narrator dashboard</a>
+    &middot; <a href="/voices/guide">How it works</a> &middot; <a href="/contributors#narrators">Everyone who has lent a
+    voice</a></p>
+  <p>Spotted a wrong answer? <a href="/feedback">Tell us</a>.</p>
+  <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Voice packs are shared under
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<script src="/voices-page.js" defer></script>
+<script src="/voices/player.js" defer></script>
+</body>
+</html>

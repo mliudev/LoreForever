@@ -373,7 +373,6 @@
  "item:flagongut-s-fossil": {},
  "item:flatland-cougar-femur": {},
  "item:flatland-prowler-claw": {},
- "item:foam-sword-rack-common": {},
  "item:foreman-s-blackjack": {},
  "item:forged-steel-bars": {},
  "item:fragments-of-rok-alim": {},
@@ -738,7 +737,6 @@
  "item:prowler-claws": {},
  "item:pure-hearts": {},
  "item:purified-kor-gem": {},
- "item:purifying-earth": {},
  "item:putrid-claw": {},
  "item:pyrewood-shackle": {},
  "item:quinn-s-potion": {},
@@ -764,7 +762,6 @@
  "item:restabilization-cog": {},
  "item:ring-of-zoram": {},
  "item:robo-mechanical-guts": {},
- "item:robotron-control-unit": {},
  "item:rocket-car-parts": {},
  "item:rod-of-channeling": {},
  "item:rolf-and-malakai-s-medallions": {
@@ -837,7 +834,6 @@
  "item:sealed-envelope": {},
  "item:sealed-note-to-elling": {},
  "item:sealed-note-to-watcher-backus": {},
- "item:sealed-sin-dorei-orders": {},
  "item:searing-collar": {},
  "item:searing-coral": {},
  "item:secure-crate": {},
@@ -846,7 +842,6 @@
    "3": 1
   }
  },
- "item:sentinel-luciel-s-report": {},
  "item:serena-s-head": {},
  "item:serpentbloom": {},
  "item:sethir-s-journal": {},
@@ -860,7 +855,6 @@
  "item:shindrell-s-note": {},
  "item:shipment-of-boots": {},
  "item:shipment-of-iron": {},
- "item:shipment-of-rare-crystals": {},
  "item:shipping-schedule": {},
  "item:sida-s-bag": {},
  "item:signed-recruitment-letter": {},
@@ -972,8 +966,6 @@
  },
  "item:techbot-s-memory-core": {},
  "item:telescopic-lens": {},
- "item:tender-boar-meat": {},
- "item:tender-boar-ribs": {},
  "item:teronis-journal": {},
  "item:tharil-zun-s-head": {},
  "item:tharnariun-s-hope": {
@@ -1149,7 +1141,6 @@
    "stitches"
   ]
  },
- "npc:advisor-sunsworn": {},
  "npc:aelthalyste": {},
  "npc:agathelos-the-raging": {},
  "npc:aggem-thorncurse": {},
@@ -1164,11 +1155,8 @@
  },
  "npc:altsoba-ragetotem": {},
  "npc:alyissia": {},
- "npc:ambassador-dawnsinger": {},
- "npc:ambassador-sunsorrow": {},
  "npc:amber-kearnen": {},
  "npc:anastasia-hartwell": {},
- "npc:anchorite-delan": {},
  "npc:andron-gant": {
   "faq": {
    "3": 1,
@@ -1417,8 +1405,8 @@
  "npc:deathstalker-vincent": {},
  "npc:deathwing": {
   "faq": {
-   "5": 2,
-   "3": 1
+   "3": 1,
+   "5": 2
   }
  },
  "npc:deino": {},
@@ -1658,7 +1646,6 @@
  "npc:houndmaster-loksey": {},
  "npc:huldar": {},
  "npc:huntress-kella-nightbow": {},
- "npc:huraan": {},
  "npc:illiyana": {},
  "npc:illiyana-moonblaze": {},
  "npc:ilthalaine": {},
@@ -1730,7 +1717,6 @@
  "npc:keeper-bel-varil": {},
  "npc:keldran": {},
  "npc:kelm-hargunth": {},
- "npc:kelnir-leafsong": {},
  "npc:kerlonian-evershade": {},
  "npc:kernobee": {},
  "npc:keryn-sylvius": {},
@@ -1749,7 +1735,6 @@
    "6": 1
   }
  },
- "npc:knight-lord-bloodvalor": {},
  "npc:koltira-deathweaver": {},
  "npc:kor-ghan": {},
  "npc:korran": {},
@@ -3797,7 +3782,6 @@
  "quest:3261": {},
  "quest:3281": {},
  "quest:33": {},
- "quest:330": {},
  "quest:3301": {},
  "quest:332": {},
  "quest:333": {},
@@ -4368,7 +4352,7 @@
  },
  "quest:4881": {
   "faq": {
-   "5": 1
+   "6": 1
   }
  },
  "quest:489": {
@@ -4392,6 +4376,11 @@
  "quest:496": {
   "faq": {
    "3": 1
+  }
+ },
+ "quest:4966": {
+  "faq": {
+   "5": 1
   }
  },
  "quest:498": {
@@ -4999,7 +4988,6 @@
    "5": 1
   }
  },
- "quest:8026": {},
  "quest:804": {
   "faq": {
    "4": 1
@@ -5216,6 +5204,7 @@
   }
  },
  "quest:879": {},
+ "quest:88": {},
  "quest:880": {
   "faq": {
    "5": 1
@@ -5831,7 +5820,6 @@
  "subzone:crusader-outpost": {},
  "subzone:crusader-s-armory": {},
  "subzone:crusader-s-outpost": {},
- "subzone:crushcog-s-arsenal": {},
  "subzone:crypt-badlands": {},
  "subzone:crypt-light-s-hope-chapel": {},
  "subzone:crypt-of-remembrance": {},
@@ -5882,7 +5870,6 @@
  "subzone:deadwood-village": {},
  "subzone:death-cultist-base-camp": {},
  "subzone:death-s-breach": {},
- "subzone:death-s-watch-waystation": {},
  "subzone:deathknell": {},
  "subzone:decrepit-ferry": {},
  "subzone:decrepit-fields": {},
@@ -5899,7 +5886,6 @@
  "subzone:deserted-workshop": {},
  "subzone:dire-maul": {},
  "subzone:direforge-hill": {},
- "subzone:direhorn-post": {},
  "subzone:dolanaar": {},
  "subzone:dor-danil-barrow-den": {},
  "subzone:dormitory": {},
@@ -6376,7 +6362,6 @@
  "subzone:pyrewood-village": {},
  "subzone:quagmire": {},
  "subzone:quel-lithien-lodge": {},
- "subzone:raceway-ruins": {},
  "subzone:rage-scar-hold": {},
  "subzone:ragefire-chasm": {},
  "subzone:ragefire-chasm-classic": {},
@@ -6432,8 +6417,6 @@
   "summary": "Roland's Doom is an abandoned, shadow-drenched mine tucked into the southeastern hills of Duskwood, just east of the Rotting Orchard. Once an ordinary delve, it has become infamous as a dangerous den overrun by savage worgen."
  },
  "subzone:rolling-plains": {},
- "subzone:room-of-hidden-secrets": {},
- "subzone:rotbrain-encampment": {},
  "subzone:rotting-orchard": {},
  "subzone:royal-gallery": {},
  "subzone:royal-library": {},
@@ -6447,7 +6430,6 @@
  "subzone:ruins-of-auberdine": {},
  "subzone:ruins-of-constellas": {},
  "subzone:ruins-of-eldarath": {},
- "subzone:ruins-of-feathermoon": {},
  "subzone:ruins-of-isildien": {},
  "subzone:ruins-of-jubuwal": {},
  "subzone:ruins-of-kel-theril": {},
@@ -6526,7 +6508,6 @@
  "subzone:shaper-s-terrace": {},
  "subzone:shatter-scar-vale": {},
  "subzone:shattered-strand": {},
- "subzone:shattershore": {},
  "subzone:shatterspear-vale": {},
  "subzone:shatterspear-war-camp": {},
  "subzone:shifting-mire": {},

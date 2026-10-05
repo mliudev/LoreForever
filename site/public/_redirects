@@ -1,8 +1,4 @@
 # Cloudflare Pages redirects (applied to paths no Function handles; see _routes.json).
-# /downloads merged into /voices on 2026-10-02. The add-on (missing-voice notice, Options › Get more voices), the
-# CurseForge description and old links still say /downloads, so this must stay. Browsers keep #anchors.
-/downloads  /voices  301
-/downloads/  /voices  301
 # A short link Mike can share with would-be narrators.
 /narrate  /voices/studio  302
 /narrate/  /voices/studio  302

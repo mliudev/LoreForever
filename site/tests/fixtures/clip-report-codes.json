@@ -1,0 +1,50 @@
+{
+ "note": "Clip report codes (LOR-232): the add-on's Log.ClipReportCode / ClipReportLink (checked by pipeline/tests/wow_sim.py with the add-on version 9.9.9) and site/public/clip-report-code.js (site/tests/clip-report.test.mjs) must agree on these.",
+ "cases": [
+  {
+   "input": {
+    "version": "9.9.9",
+    "locale": "enUS",
+    "voice": "LoreForever_Voice_Default",
+    "clip": "zone:stormwind#faq3",
+    "hash": "1a2b3c",
+    "reason": "name",
+    "name": "Teldrassil",
+    "say_as": "tel-DRASS-il",
+    "note": "he says Tell-drassle ~ 100% of the time"
+   },
+   "code": "LCR1~9.9.9.enUS~Default~zone:stormwind#faq3@1a2b3c~name~Teldrassil~tel-DRASS-il~he says Tell-drassle %7E 100%25 of the time~e659ea",
+   "link": "https://loreforeverwow.com/clip-report#c=LCR1~9.9.9.enUS~Default~zone:stormwind%23faq3%401a2b3c~name~Teldrassil~tel-DRASS-il~he%20says%20Tell-drassle%20%257E%20100%2525%20of%20the%20time~e659ea"
+  },
+  {
+   "input": {
+    "version": "9.9.9",
+    "locale": "deDE",
+    "voice": "LoreForever_Voice_Female_Horde",
+    "clip": "quest:176#detail",
+    "hash": "abcdef",
+    "reason": "cut",
+    "name": "ignored",
+    "say_as": "ignored",
+    "note": "Grüße — stops mid-sentence, then   silence"
+   },
+   "code": "LCR1~9.9.9.deDE~Female_Horde~quest:176#detail@abcdef~cut~~~Grüße — stops mid-sentence, then silence~932774",
+   "link": "https://loreforeverwow.com/clip-report#c=LCR1~9.9.9.deDE~Female_Horde~quest:176%23detail%40abcdef~cut~~~Gr%C3%BC%C3%9Fe%20%E2%80%94%20stops%20mid-sentence,%20then%20silence~932774"
+  },
+  {
+   "input": {
+    "version": "9.9.9",
+    "locale": "enUS",
+    "voice": "LoreForever_Voice_Default_Quests",
+    "clip": "npc:edwin-vancleef",
+    "hash": "",
+    "reason": "stage",
+    "name": "",
+    "say_as": "",
+    "note": ""
+   },
+   "code": "LCR1~9.9.9.enUS~Default_Quests~npc:edwin-vancleef@~stage~~~~01b5d9",
+   "link": "https://loreforeverwow.com/clip-report#c=LCR1~9.9.9.enUS~Default_Quests~npc:edwin-vancleef%40~stage~~~~01b5d9"
+  }
+ ]
+}

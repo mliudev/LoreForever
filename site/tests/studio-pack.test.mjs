@@ -151,6 +151,23 @@ test("a narrator says which races their voice suits; it goes in the test pack an
   assert.doesNotMatch(new TextDecoder().decode(plain[0].data), /X-LoreForever-Races/);
 });
 
+test("the release needs its own 18-or-older box, and an older version is asked for again", async () => {
+  const me = await signIn("age-check");
+  const agree = body => call("POST", "release", { cookie: me.cookie,
+    body: { agree: true, signature: "Age Check", release: RELEASE_VERSION, ...body } });
+  const young = await agree({ adult: false });
+  assert.equal(young.status, 400);
+  assert.match((await young.json()).error, /18 or older/);
+  assert.equal(await env.DB.prepare("SELECT COUNT(*) AS n FROM studio_release WHERE user_id = ?").bind(me.user.id).first("n"), 0);
+  assert.equal((await agree({ agree: false, adult: true })).status, 400, "the age box doesn't stand in for the agreement");
+  assert.equal((await agree({ adult: true })).status, 200);
+  assert.equal((await (await call("GET", "state", { cookie: me.cookie })).json()).release.agreed, true);
+
+  // Agreed to the release before 2026-10-03 (when a guardian could sign): the send form asks again.
+  await env.DB.prepare("UPDATE studio_release SET version = '2026-09-29' WHERE user_id = ?").bind(me.user.id).run();
+  assert.equal((await (await call("GET", "state", { cookie: me.cookie })).json()).release.agreed, false);
+});
+
 test("a narrator uploads before agreeing to the release, which is asked for when sending", async () => {
   const me = await signIn("late-signer");
   const made = await (await call("POST", "voice", { cookie: me.cookie, body: { name: "Late Signer's voice", locale: "enUS" } })).json();

@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Sanctuary of Purity",
-   "body": "Tucked away beneath the canopy of central Ashenvale, this moonwell serves as a spiritual anchor for the kaldorei. Tended by wardens like Felore Moonray, its luminescent waters tap into nature's latent magic and the light of the Moon Goddess. As the surrounding forest suffers from satyr corruption, fel taint, and logging incursions, pure shrines like this one become vital lifelines for those trying to heal the woods.",
+   "body": "Tucked away beneath the canopy of central Ashenvale, this moonwell serves as a spiritual anchor for the kaldorei. Its luminescent waters tap into nature's latent magic and the light of the Moon Goddess. As the surrounding forest suffers from satyr corruption, fel taint, and logging incursions, pure shrines like this one become vital lifelines for those trying to heal the woods.",
    "spoiler": 0
   },
   {
@@ -40,14 +40,6 @@
    "answer": "Moonwells are sacred basins consecrated to Elune that blend lunar power with natural magic. Night elves use them to sustain the land, replenish their spiritual strength, and purify items tainted by dark or demonic influences."
   },
   {
-   "q": "Who tends this moonwell?",
-   "aliases": [
-    "who is felore moonray",
-    "moonwell keeper"
-   ],
-   "answer": "Felore Moonray watches over the Moonwell of Purity, tending to its sacred waters and offering guidance to those seeking Elune's aid in the forest."
-  },
-  {
    "q": "Why do Alliance adventurers visit this moonwell?",
    "aliases": [
     "raene's cleansing moonwell",
@@ -71,7 +63,6 @@
   "ashenvale",
   "cleansing",
   "elune",
-  "felore moonray",
   "iris lake",
   "moonwell",
   "moonwell of purity",

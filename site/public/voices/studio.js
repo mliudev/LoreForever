@@ -1,6 +1,9 @@
 // The upload page (/voices/studio.html). Contributors upload one recording per line, made in a recording app, and send
 // their voice for review. Server: functions/api/studio/[action].js. Lines: /voices/lines.json (voicepack clips).
-// There's deliberately no recording in the browser: takes come from a proper setup (Mike, 2026-10-02).
+// Line takes come from a proper setup (Mike, 2026-10-02), so this page takes files. Recording in the browser came back
+// on 2026-10-03 for "Lend your voice" (/voices/lend, lend.js): one 3-minute reading we make a narrator voice from.
+// "Claim a zone" (LOR-231, zone-claims.js) sits above the next-line box, and the next line comes from your zone first;
+// it's behind the "zones" feature (site/lib/features.js; ?zones=1 shows it while that's off).
 //
 // Signed out, the lines can be browsed in any language and Upload and Send lead to sign-in. Signed in with no voice
 // yet, the first upload starts one (named after the account, in the language picked; rename it any time). The narrator
@@ -18,7 +21,9 @@ import { planPack, packFolder } from "/voices/testpack.js";
 import { crc32, crcHex } from "/voices/crc32.js";
 import { toMp3 } from "/voices/mp3.js";
 import { measure, verdict, BAR } from "/voices/quality.js";
+import { headerInfo, CONVERT } from "/voices/takecheck.js";
 import { voiceUpload } from "/js/bulk-upload.js";
+import { zonesHtml, bindZones, loadZones, activeClaim, zonesVisible } from "/voices/zone-claims.js";
 
 const app = document.getElementById("st-app");
 const player = document.getElementById("st-audio");
@@ -32,7 +37,7 @@ const VOICES = { human: "Human", dwarf: "Dwarf", gnome: "Gnome", nightelf: "Nigh
 let lines = null;       // lines.json
 let st = null;          // /api/studio/state
 let items = [];         // every line, flattened, for the current voice's language
-let view = { q: "", group: "", voice: "", show: "", mine: false };
+let view = { q: "", group: "", voice: "", show: "", mine: false, zone: "" };
 let nextPos = 0;
 let mine = new Set();   // story keys this person picked, per voice (kept in this browser)
 const open = new Set(), busy = new Set(), errors = {};
@@ -83,6 +88,8 @@ async function load(voiceId) {
   if (lines && !lines.languages.some(l => l.locale === browseLocale && l.lines > 0)) browseLocale = "enUS";
   buildItems();
   render();
+  // Claim a zone (zone-claims.js): drawn once the list comes back, so the lines never wait for it.
+  if (st.ok && lines) { await loadZones(st.voice, locale()); render(); }
 }
 
 function currentVoice() { return st.voices?.find(v => v.id === st.voice) || null; }
@@ -118,44 +125,8 @@ const isDone = it => ["ok", "warn"].includes(stateOf(it));
 
 // ---- Checks (the narrator guide) ----
 
-// Kinds the game can't play, turned into .mp3 here before they go up. m4a is what phone and Windows voice recorders
-// save; webm and Opus are what browsers and chat apps record; aac is a bare AAC stream.
-const CONVERT = new Set(["wav", "flac", "m4a", "webm", "aac", "opus"]);
-
-// Kind, sample rate and channels from the file header, before any browser resampling. null: not audio we know.
-function headerInfo(b) {
-  const ascii = (i, n) => String.fromCharCode(...b.slice(i, i + n));
-  const u16 = i => b[i] | (b[i + 1] << 8), u32 = i => (b[i] | (b[i + 1] << 8) | (b[i + 2] << 16) | (b[i + 3] << 24)) >>> 0;
-  if (ascii(0, 4) === "RIFF" && ascii(8, 4) === "WAVE") {
-    for (let o = 12; o + 8 < b.length;) {
-      const size = u32(o + 4);
-      if (ascii(o, 4) === "fmt ") return { kind: "wav", channels: u16(o + 10), rate: u32(o + 12) };
-      o += 8 + size + (size & 1);
-    }
-    return { kind: "wav" };
-  }
-  if (ascii(0, 4) === "fLaC") return { kind: "flac", rate: (b[18] << 12) | (b[19] << 4) | (b[20] >> 4), channels: ((b[20] >> 1) & 7) + 1 };
-  if (ascii(0, 4) === "OggS") {   // the game plays Ogg Vorbis only; Opus (or anything else) in Ogg is converted
-    const p = 27 + b[26];
-    return ascii(p + 1, 6) === "vorbis" ? { kind: "ogg", channels: b[p + 11], rate: u32(p + 12) } : { kind: "opus" };
-  }
-  if (ascii(4, 4) === "ftyp") return { kind: "m4a" };
-  if (b[0] === 0x1a && b[1] === 0x45 && b[2] === 0xdf && b[3] === 0xa3) return { kind: "webm" };
-  if (b[0] === 0xff && (b[1] & 0xf6) === 0xf0) return { kind: "aac" };   // ADTS: an MPEG sync word with layer 0
-  const frame = o => b[o] === 0xff && (b[o + 1] & 0xe0) === 0xe0 && (b[o + 1] & 0x06) !== 0;   // layer 0 is AAC
-  let o = 0;
-  if (ascii(0, 3) === "ID3") o = 10 + ((b[6] << 21) | (b[7] << 14) | (b[8] << 7) | b[9]);
-  for (; o + 4 < b.length; o++) {
-    if (frame(o)) {
-      const ver = (b[o + 1] >> 3) & 3, idx = (b[o + 2] >> 2) & 3;
-      const table = { 3: [44100, 48000, 32000], 2: [22050, 24000, 16000], 0: [11025, 12000, 8000] }[ver];
-      if (!table || idx === 3) continue;
-      return { kind: "mp3", rate: table[idx], channels: (b[o + 3] >> 6) === 3 ? 1 : 2 };
-    }
-    if (o > 8192 && ascii(0, 3) !== "ID3") break;
-  }
-  return ascii(0, 3) === "ID3" || frame(0) ? { kind: "mp3" } : null;
-}
+// The file's kind, rate and channels from its header (headerInfo), and the kinds the game can't play, which become
+// .mp3 here before they go up (CONVERT): takecheck.js, shared with "Lend your voice".
 
 async function analyze(file, it) {
   const buf = await file.arrayBuffer();
@@ -320,6 +291,17 @@ function intro() {
       line: anything you leave out plays in the default voice. Come back any time, then send your voice to us for review.</p>`;
 }
 
+// "Lend your voice" (LOR-230, /voices/lend): read a short script for about 3 minutes and we make a narrator voice from
+// it. Hidden until the first lent voice has been made end to end on the GPU (the page itself works at its address):
+// set LEND_VOICE to true to show this card to everyone; /voices/studio?lend=1 shows it now.
+const LEND_VOICE = false;
+function lendHtml() {
+  if (!LEND_VOICE && !new URLSearchParams(location.search).has("lend")) return "";
+  return `<aside class="st-lend"><p><strong>No time to record every line?</strong> Lend us your voice instead: read a short
+    script for about 3 minutes, on your phone if you like, and we'll make a narrator voice from it, credited to you.</p>
+    <a class="btn-small" href="/voices/lend">Lend your voice</a></aside>`;
+}
+
 // How to make a take we can use, where the file goes in.
 function howToRecordHtml() {
   return `<p class="st-howto">Record in a proper app (<a href="https://www.audacityteam.org/" target="_blank" rel="noopener">Audacity</a>
@@ -360,6 +342,7 @@ function filtered() {
   const q = view.q.trim().toLowerCase();
   return items.filter(it => {
     if (view.group && it.group !== view.group) return false;
+    if (view.zone && it.story.zone !== view.zone) return false;
     if (view.voice && it.story.voice !== view.voice) return false;
     if (view.mine && !mine.has(it.story.key)) return false;
     const s = stateOf(it);
@@ -375,9 +358,13 @@ function filtered() {
 const STARTER_GROUPS = ["Starting zones", "Capitals"];
 const isStarter = it => STARTER_GROUPS.includes(it.group) && !it.child && it.text;
 
-// The next-line box goes through your picked stories first, then the starter set, then everything else.
+// The next-line box goes through your claimed zone first (zone-claims.js), then your picked stories, then the starter
+// set, then everything else.
 function queue() {
   const todo = items.filter(it => ["missing", "stale"].includes(stateOf(it)));
+  const claim = activeClaim();
+  const zoned = claim && claim.voice === st.voice ? todo.filter(it => it.story.zone === claim.zone) : [];
+  if (zoned.length) return { list: zoned, zone: claim.name };
   const picked = todo.filter(it => mine.has(it.story.key));
   if (picked.length) return { list: picked, mine: true };
   const starter = todo.filter(isStarter);
@@ -390,7 +377,7 @@ function hintsHtml(it) {
 }
 
 function nextHtml() {
-  const { list, mine: fromMine, starter } = queue();
+  const { list, mine: fromMine, starter, zone } = queue();
   if (!list.length) return `<section class="st-next"><p class="st-done-all">Every line with text in this language has a recording.
     Send your voice below whenever you're ready.</p></section>`;
   nextPos = Math.max(0, Math.min(nextPos, list.length - 1));
@@ -399,6 +386,7 @@ function nextHtml() {
   return `<section class="st-next" data-line="${esc(it.id)}">
     <div class="st-next-h"><span class="st-eyebrow">${starter
       ? `Starter set · ${starter - list.length} of ${starter} recorded`
+      : zone ? `Your zone, ${esc(zone)} · ${lines_(list.length)} still to record`
       : `Next ${fromMine ? "of your lines" : "line to record"} · ${lines_(list.length)} still to record`}</span>
       <span><button class="st-b ghost" type="button" data-next="-1"${nextPos ? "" : " disabled"}>‹ Previous</button>
       <button class="st-b ghost" type="button" data-next="1"${nextPos < list.length - 1 ? "" : " disabled"}>Skip ›</button></span></div>
@@ -516,9 +504,11 @@ function renderWorkspace() {
   }
 
   app.innerHTML = `${intro()}
+    ${lendHtml()}
     ${voiceBarHtml(v, lang)}
     <ul class="st-spec"><li><b>.mp3</b>, <b>.m4a</b>, <b>.ogg</b>, <b>.wav</b>, <b>.flac</b> or <b>.webm</b></li><li><b>Mono</b>, 44.1 or 48 kHz</li>
       <li>About <b>−16 LUFS</b>, peaks ≤ −1 dB</li><li>Short silence at each end</li></ul>
+    ${zonesHtml({ lines, takes: st.takes, signedIn: st.signedIn, signIn: SIGN_IN, displayName: st.user?.display_name })}
     ${nextHtml()}
     <section id="st-bulkup"></section>
     <div class="st-bar">
@@ -535,6 +525,8 @@ function renderWorkspace() {
       <div class="st-field grow"><label for="st-q">Find a zone or line</label><input id="st-q" type="search" value="${esc(view.q)}" placeholder="Stormwind, Deadmines, Brotherhood..."></div>
       <div class="st-field"><label for="st-group">Group</label><select id="st-group"><option value="">All groups</option>
         ${lines.groups.map(g => `<option${view.group === g.name ? " selected" : ""}>${esc(g.name)}</option>`).join("")}</select></div>
+      ${lines.zones?.length && zonesVisible() ? `<div class="st-field"><label for="st-zone">Zone</label><select id="st-zone"><option value="">All zones</option>
+        ${lines.zones.map(z => `<option value="${esc(z.key)}"${view.zone === z.key ? " selected" : ""}>${esc(z.name[locale()] || z.name.enUS)}</option>`).join("")}</select></div>` : ""}
       <div class="st-field"><label for="st-svoice">Suggested voice</label><select id="st-svoice"><option value="">Any</option>
         ${[...new Set(items.map(i => i.story.voice).filter(Boolean))].map(k => `<option value="${esc(k)}"${view.voice === k ? " selected" : ""}>${esc(VOICES[k] || k)}</option>`).join("")}</select></div>
       <div class="st-field"><label for="st-show">Show</label><select id="st-show">
@@ -547,6 +539,17 @@ function renderWorkspace() {
     ${v ? testPackHtml(v) : ""}
     ${sendHtml(done, withText.length, counts)}`;
   bindWorkspace();
+  bindZones({
+    voiceId: () => st.voice, locale,
+    startVoice: async () => ((await ensureVoice({ id: "zone" })) ? st.voice : null),
+    voiceError: () => errors.zone,
+    onZoneOnly: key => {
+      view.zone = key;
+      render();
+      document.querySelector(".st-picker")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    },
+    rerender: render,
+  });
   const bulk = document.getElementById("st-bulkup");
   if (v) bulkBox.mount(bulk);
   else if (st.signedIn) {   // the zip box needs a voice to match files against: start one on request
@@ -591,7 +594,8 @@ function testPackHtml(v) {
   </section>`;
 }
 
-// The narrator release, on the send form the first time (and again after it changes).
+// The narrator release, on the send form the first time (and again after it changes). The age box is its own
+// required box, checked again by /api/studio/release: sending a voice is 18+ only.
 function releaseHtml() {
   if (st.release.agreed) return "";
   return `<fieldset class="st-release"><legend>The narrator release</legend>
@@ -600,11 +604,11 @@ function releaseHtml() {
     <label class="fb-check"><input type="checkbox" name="agree" required>
       <span>I've read and agree to the <a href="/voices/release" target="_blank">narrator release</a> (version ${esc(st.release.version)}).</span></label>
     <label class="fb-check"><input type="checkbox" name="adult" required>
-      <span>I'm 18 or older. Or I'm under 18, and my parent or guardian has read the release, agrees to it, and signs below.</span></label>
+      <span>I'm 18 or older.</span></label>
     <label class="fb-field"><span>Signature</span>
       <input type="text" name="signature" maxlength="100" required autocomplete="name" placeholder="Your full name">
-      <small>Typing your full name here signs the release. If you're under 18, your parent or guardian types theirs. We keep
-        it with your agreement and never publish it.</small></label></fieldset>`;
+      <small>Typing your full name here signs the release. We keep it with your agreement as proof of it and never
+        publish it (<a href="/privacy" target="_blank">privacy</a>).</small></label></fieldset>`;
 }
 
 function sendHtml(done, total, counts) {
@@ -665,6 +669,7 @@ function bindWorkspace() {
   });
   on("st-q", "input", e => { view.q = e.target.value; renderKeepFocus("st-q"); });
   on("st-group", "change", e => { view.group = e.target.value; render(); });
+  on("st-zone", "change", e => { view.zone = e.target.value; render(); });
   on("st-svoice", "change", e => { view.voice = e.target.value; render(); });
   on("st-show", "change", e => { view.show = e.target.value; render(); });
   on("st-mine", "change", e => { view.mine = e.target.checked; render(); });
@@ -684,7 +689,11 @@ function bindWorkspace() {
     if (res.ok) { sent = res.lines; currentVoice().status = "pending"; render(); document.getElementById("st-send")?.scrollIntoView(); return; }
     say(res.error);
   });
-  on("st-locale", "change", e => { browseLocale = e.target.value; store.set("lf-studio-locale", browseLocale); nextPos = 0; buildItems(); render(); });
+  on("st-locale", "change", async e => {
+    browseLocale = e.target.value; store.set("lf-studio-locale", browseLocale); nextPos = 0; buildItems(); render();
+    await loadZones(null, browseLocale);   // the zone list in that language
+    render();
+  });
   for (const box of document.querySelectorAll("[data-race]")) {
     box.addEventListener("change", async () => {
       const races = [...document.querySelectorAll("[data-race]:checked")].map(b => b.dataset.race);

@@ -13,11 +13,17 @@
 //                    {"action": "status-translation", "id": 3, "status": "done" | "new"}  and "delete-translation"
 //                    {"action": "status-translation-report", "id": 3, ...}      and "delete-translation-report"
 //                    {"action": "delete-subscriber", "email": "a@b.co"}        remove an address (unsubscribe)
+//                    {"action": "contrib-reject", "uploader": "h:..."}          shared Forever text (LOR-236): every
+//                    {"action": "contrib-restore", "uploader": "h:..."}         line one sender sent stops counting, or
+//                                                                               counts again (lib/contribute.js)
+// GET also returns "contributions": {counts: {status: n}, accepted, batches: [...]} for the Contributions panel, and
+// "signups": {accounts, profiles, public, today, week, month, days: [{day, n}]} for the Profiles one.
 
 import { authorized } from "../../lib/auth.js";
 import { setup as setupAccounts } from "../../lib/accounts.js";
 import { storySpend, STORY_BUDGET_USD } from "../../lib/profiles.js";
 import { decodeReport, describeReport } from "../../public/report-code.js";
+import { setup as setupContrib, adminView, setUploaderRejected, loadKnown } from "../../lib/contribute.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
 const json = (body, status = 200) => Response.json(body, { status, headers: NO_STORE });
@@ -38,7 +44,8 @@ export async function onRequestGet({ request, env }) {
   await addStatusColumn(env.DB);
   await safe(setupAccounts(env));
   const all = async q => (await safe(env.DB.prepare(q).all()))?.results || [];
-  const [subscribers, feedback, downloads, clicks, voices, translations, translationReports, users] = await Promise.all([
+  const [subscribers, feedback, downloads, clicks, voices, translations, translationReports, users, signupCounts,
+         signupDays] = await Promise.all([
     all("SELECT email, source, created_at FROM subscribers ORDER BY created_at DESC LIMIT 5000"),
     all("SELECT f.id, f.created, f.kind, f.rating, f.message, f.code, COALESCE(f.email, u.email) AS email, f.name, " +
         "f.quote_ok, f.country, f.user_id, f.report, COALESCE(f.status, 'new') AS status " +
@@ -62,7 +69,21 @@ export async function onRequestGet({ request, env }) {
         "p.handle, p.public AS profile_public, json_extract(p.data, '$.name') AS character, " +
         "json_extract(p.data, '$.level') AS char_level, json_extract(p.data, '$.className') AS char_class " +
         "FROM users u LEFT JOIN profiles p ON p.user_id = u.id ORDER BY u.created DESC LIMIT 5000"),
+    // Sign-ups, counted here since the list above stops at 5000: every account, those with a player profile and a
+    // public one, and the accounts made today and in the last 7 and 30 days. `created` is an ISO time; days are UTC,
+    // like the dashboard's charts, so the last 30 days are today and the 29 before it.
+    safe(env.DB.prepare(
+      "SELECT COUNT(*) AS accounts, COUNT(p.user_id) AS profiles, COALESCE(SUM(p.public = 1), 0) AS public, " +
+      "COALESCE(SUM(u.created >= date('now')), 0) AS today, " +
+      "COALESCE(SUM(u.created >= date('now', '-6 days')), 0) AS week, " +
+      "COALESCE(SUM(u.created >= date('now', '-29 days')), 0) AS month " +
+      "FROM users u LEFT JOIN profiles p ON p.user_id = u.id"
+    ).first()),
+    all("SELECT substr(created, 1, 10) AS day, COUNT(*) AS n FROM users WHERE created >= date('now', '-29 days') " +
+        "GROUP BY day ORDER BY day"),
   ]);
+  const signups = { ...(signupCounts || { accounts: 0, profiles: 0, public: 0, today: 0, week: 0, month: 0 }),
+                    days: signupDays };
   // Profile stories (lib/profiles.js): what this month's cost so far against the monthly budget.
   const spend = (await safe(storySpend(env))) || { micro_usd: 0, calls: 0, stories: 0 };
   const stories = { month: new Date().toISOString().slice(0, 7), usd: spend.micro_usd / 1e6, calls: spend.calls,
@@ -74,7 +95,11 @@ export async function onRequestGet({ request, env }) {
     try { r = f.report ? JSON.parse(f.report) : decodeReport(f.code); } catch (e) {}
     f.report = describeReport(r);
   }
-  return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users, stories });
+  // Shared Forever text (LOR-236): counts by status and the latest uploads, to spot and reject spam.
+  await safe(setupContrib(env));
+  const contributions = (await safe(adminView(env))) || { counts: {}, accepted: 0, batches: [] };
+  return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users,
+                stories, contributions, signups });
 }
 
 export async function onRequestPost({ request, env }) {
@@ -112,6 +137,13 @@ export async function onRequestPost({ request, env }) {
   if (table && verb === "delete" && id > 0) {
     await env.DB.prepare(`DELETE FROM ${table} WHERE id = ?`).bind(id).run();
     return json({ ok: true });
+  }
+  if ((body.action === "contrib-reject" || body.action === "contrib-restore") && typeof body.uploader === "string"
+      && /^[uihx]:[\w-]{1,64}$/.test(body.uploader)) {
+    await setupContrib(env);
+    const lines = await setUploaderRejected(env, body.uploader, body.action === "contrib-reject",
+                                            await loadKnown(env, request));
+    return json({ ok: true, lines });
   }
   if (body.action === "delete-subscriber"&& typeof body.email === "string" && body.email) {
     await env.DB.prepare("DELETE FROM subscribers WHERE email = ?").bind(body.email.trim().toLowerCase()).run();

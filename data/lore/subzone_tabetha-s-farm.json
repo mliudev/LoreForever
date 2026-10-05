@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Tabetha's Farm"
  },
- "summary": "Deep in the murkiest reaches of the Quagmire lies Tabetha's Farm, an isolated homestead centered around a small wooden hut, a modest garden, and a private dock. Despite the treacherous marsh surroundings, this sanctuary serves as a hidden redoubt for the hermit mage Tabetha and her eager apprentices.",
+ "summary": "Deep in the murkiest reaches of the Quagmire lies Tabetha's Farm, an isolated homestead centered around a small wooden hut, a modest garden, and a private dock. Despite the treacherous marsh surroundings, this sanctuary serves as a hidden redoubt for the hermit mage Tabetha.",
  "sections": [
   {
    "title": "A Hermit's Sanctuary",
-   "body": "Tucked away in the western wetlands of Dustwallow Marsh, Tabetha's Farm defies its unforgiving environment. Consisting of a weather-worn hut, small vegetable plots, and a dock for navigating the swamp's murky waterways, the homestead offers a quiet refuge far from the political rivalries of Theramore and Brackenwall Village. Here, the reclusive human sorceress Tabetha lives in near-total seclusion alongside two aspiring apprentices, Garion and Morlann, pursuing esoteric studies of arcane and fel power without interference from Dalaran or local authorities.",
+   "body": "Tucked away in the western wetlands of Dustwallow Marsh, Tabetha's Farm defies its unforgiving environment. Consisting of a weather-worn hut, small vegetable plots, and a dock for navigating the swamp's murky waterways, the homestead offers a quiet refuge far from the political rivalries of Theramore and Brackenwall Village. Here, the reclusive human sorceress Tabetha lives in near-total seclusion, pursuing esoteric studies of arcane and fel power without interference from Dalaran or local authorities.",
    "spoiler": 0
   },
   {
    "title": "A Waypoint of Arcane Power",
-   "body": "Despite its remote location, the farm attracts practitioners of the magical arts from across Kalimdor and the Eastern Kingdoms. Mages seeking mastery over raw arcane surges and warlocks seeking aid to cleanse volatile artifacts like the Orb of Orahil are directed to Tabetha's doorstep. The presence of discrete travelers\u2014including Andello Porter, an operative of Stormwind's SI:7\u2014indicates that while Tabetha seeks solitude, the powers that be keep a watchful eye on the powerful magic practiced in this quiet corner of the swamp.",
+   "body": "Despite its remote location, the farm attracts practitioners of the magical arts from across Kalimdor and the Eastern Kingdoms. Mages seeking mastery over raw arcane surges and warlocks seeking aid to cleanse volatile artifacts like the Orb of Orahil are directed to Tabetha's doorstep.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who lives here",
     "inhabitants of tabetha's farm"
    ],
-   "answer": "The farm is home to the eccentric mage Tabetha and her two human apprentices, Garion and Morlann. They maintain the small garden, dock, and homestead amidst the perilous swamp creatures of the Quagmire."
+   "answer": "The farm is home to the eccentric mage Tabetha, who keeps the small garden, dock, and homestead amidst the perilous swamp creatures of the Quagmire."
   },
   {
    "q": "Why do mages travel all the way to this farm?",
@@ -56,15 +56,6 @@
     "is tabetha neutral"
    ],
    "answer": "Tabetha maintains a neutral stance, offering her wisdom to travelers regardless of their political allegiance. Her farm remains independent of both Jaina Proudmoore's Theramore and the Horde forces at Brackenwall Village."
-  },
-  {
-   "q": "Why is an SI:7 operative stationed at the farm?",
-   "aliases": [
-    "andello porter",
-    "why is si:7 here",
-    "stormwind spy dustwallow"
-   ],
-   "answer": "Andello Porter of Stormwind's intelligence service, SI:7, keeps a presence at the farm. Given the dangerous magical research conducted by Tabetha and the volatile political climate of Dustwallow Marsh, Stormwind intelligence closely monitors events in the area."
   }
  ],
  "angles": [
@@ -78,11 +69,8 @@
   }
  ],
  "keywords": [
-  "andello porter",
   "dustwallow",
   "dustwallow marsh",
-  "garion",
-  "morlann",
   "quagmire",
   "tabetha",
   "tabetha's farm",
@@ -94,8 +82,6 @@
   "zone:dustwallow",
   "quest:2300",
   "subzone:brackenwall-village",
-  "subzone:mudsprocket",
-  "subzone:direhorn-post",
   "subzone:uldaman"
  ],
  "attribution": [

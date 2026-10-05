@@ -229,6 +229,36 @@ local function loreButton(parent, name, anchor)
   return b
 end
 
+-- The play button beside the quest window's Lore button (Voice.PlayQuestPage): the gold play sign plays what the quest
+-- giver says on this page again, a stop square stops it. Its tooltip says what plays: the quest giver's recorded words,
+-- or the game's voice reading the page. Hooks.UpdateQuestPlayButton keeps it current.
+local function questPlayButton(parent)
+  local T = ns.Theme
+  local b = T.RoundButton(parent, 20)
+  b:SetFrameLevel((parent:GetFrameLevel() or 1) + 5)
+  b:SetScript("OnClick", function()
+    ns.Voice.PlayQuestPage()
+    Hooks.UpdateQuestPlayButton()
+  end)
+  b:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    local state = ns.Voice.QuestPageState()
+    if state == "stop" then
+      GameTooltip:AddLine(L["Stop narration"])
+    elseif state == "read" then
+      GameTooltip:AddLine(L["Read aloud"])
+      T.Tip(L["Uses your game's text-to-speech voice. Change it in Options > Accessibility > Text to Speech."], "tipText", true)
+    else
+      GameTooltip:AddLine(L["Play narration"])
+      if state == "listen" then T.Tip(L["What the quest giver says, in the narrator's voice."], "tipText", true) end
+    end
+    GameTooltip:Show()
+  end)
+  b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  b:Hide()
+  return b
+end
+
 -- The storyline line under a Lore button (Storyline.Line): one line on a dark strip, so it reads on the parchment
 -- too, cut to fit with the whole line in its tooltip.
 local STORY_MAX_W = 340
@@ -282,6 +312,13 @@ function Hooks.QuestFrames()
       { "TOPRIGHT", QuestFrame, "TOPRIGHT", -28, -30 })
     Hooks.questDialogButton.via = "questdialog"
     Hooks.questDialogStory = storyLine(QuestFrame, "LoreForeverQuestDialogStory", Hooks.questDialogButton)
+    Hooks.questDialogPlay = questPlayButton(QuestFrame)
+    -- The floating player steps out from under the quest window while it's open (UI.KeepPlayerClear).
+    if QuestFrame.HookScript then
+      local function clear() if ns.UI.KeepPlayerClear then ns.UI.KeepPlayerClear() end end
+      QuestFrame:HookScript("OnShow", clear)
+      QuestFrame:HookScript("OnHide", clear)
+    end
   end
   -- The quest log: modern map-side details panel, or the classic standalone log.
   local details = _G.QuestMapFrame and QuestMapFrame.DetailsFrame
@@ -348,6 +385,10 @@ function Hooks.UpdateBookButton()
   local UI = ns.UI
   local reading = UI and UI.speaking and ns.Voice.IsBookText(UI.playingId)
   b:SetText(reading and L["Stop"] or L["Read aloud"])
+  -- As wide as its label needs ("Lecture à voix haute" runs past 96), growing leftward from the corner.
+  local fs = b.GetFontString and b:GetFontString()
+  local w = fs and ns.Theme.TextWidth(fs)
+  if type(w) == "number" and w > 0 then b:SetWidth(math.max(96, w + 24)) end
   b:SetShown(reading or ns.Voice.Available())
 end
 
@@ -358,6 +399,24 @@ function Hooks.UpdateQuestDialogButton()
   b.key = questKeyFor(id ~= 0 and id or nil, GetTitleText and GetTitleText())
   b:SetShown(b.key ~= nil)
   setStoryLine(Hooks.questDialogStory, buttonQuest(b, id))
+end
+
+-- The play button follows the page and what plays (UI.UpdateNowPlaying calls this): beside Lore, or in its place when
+-- the quest has no story; hidden when nothing can play.
+function Hooks.UpdateQuestPlayButton()
+  local b, lore = Hooks.questDialogPlay, Hooks.questDialogButton
+  if not b then return end
+  local state = _G.QuestFrame and QuestFrame:IsShown() and ns.Voice.QuestPageState() or nil
+  b:SetShown(state ~= nil)
+  if not state then return end
+  ns.Theme.SetIcon(b, state == "stop" and "stop" or "play")
+  b:SetText(state == "stop" and L["Stop"] or (state == "read" and L["Read aloud"] or L["Listen"]))   -- hidden; the sign shows it
+  b:ClearAllPoints()
+  if lore and lore:IsShown() then
+    b:SetPoint("RIGHT", lore, "LEFT", -4, 0)
+  else
+    b:SetPoint("TOPRIGHT", QuestFrame, "TOPRIGHT", -28, -30)
+  end
 end
 
 function Hooks.UpdateQuestLogButton(questID)
@@ -392,7 +451,8 @@ function Hooks.HandleLink(link)
   elseif kind == "primer" then ns.UI.ShowPrimer(key, "chatlink")
   elseif kind == "listen" then ns.UI.ListenTo(ns.UI.EntryTarget(key))
   elseif kind == "journey" or kind == "journeylisten" then ns.Journey.Open(key, kind == "journeylisten")
-  elseif kind == "open" then ns.UI.Open(nil, nil, "chatlink") end
+  elseif kind == "open" then ns.UI.Open(nil, nil, "chatlink")
+  elseif kind == "whatsnew" then ns.WhatsNew.Show() end
   return true
 end
 

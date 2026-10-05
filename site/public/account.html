@@ -18,29 +18,43 @@
 <body>
 
 <header class="top">
-  <div class="wrap top-row">
-    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; Your account</span>
-    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
-  </div>
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
 </header>
 
 <!-- The one Lore Forever account page: a player's profile (LOR-181) first, then every kind of contributor (voices,
      translations; each feature adds its own section). Talks to functions/api/auth/[action].js and
      functions/api/profile/[action].js. Needs JavaScript (Sign in with Google does too). -->
-<main class="wrap fb-page">
-  <h1>Your Lore Forever account</h1>
-  <p class="pitch">Make a profile from your character's journey, send feedback, or help with narration and translations.
-    The add-on, its downloads and the rest of the site all work without an account.</p>
+<main class="wrap fb-page" id="ac-main">
+  <h1 id="ac-title">Your Lore Forever account</h1>
+  <p class="pitch" id="ac-pitch">Make a profile from your character's journey, send feedback, or help with narration and
+    translations. The add-on, its downloads and the rest of the site all work without an account.</p>
   <noscript><p class="fb-status">This page needs JavaScript to sign you in.</p></noscript>
   <p class="fb-status" id="ac-status" role="status" hidden></p>
 
-  <section class="fb-done" id="ac-out" hidden>
-    <h2>Sign in to make your profile</h2>
-    <p>Your profile is a page about your character: your stats, the road you took, the bosses you beat and your
-      story, to keep or share with friends. Sign in with your Google account; the first time creates your account.</p>
-    <div id="ac-google" class="ac-google"></div>
-    <p class="vp-note" id="ac-none" hidden>Sign-in isn't switched on yet. Please check back soon, or
-      <a href="/discord">ask on Discord</a>.</p>
+  <!-- Signed out (the sign-in pull, LOR-222): three steps with Google's button in the first, and beside them the
+       example profile the home page shows. -->
+  <div class="ac-out" id="ac-out" hidden>
+  <section class="fb-done ac-card" aria-labelledby="ac-out-title">
+    <h2 id="ac-out-title">Sign in to see your journey</h2>
+    <ol class="ac-steps">
+      <li class="ac-now"><strong>Sign in with Google</strong>
+        <span>The first time makes your account.</span>
+        <div id="ac-google" class="ac-google"></div>
+        <p class="vp-note" id="ac-none" hidden>Sign-in isn't switched on yet. Please check back soon, or
+          <a href="/discord">ask on Discord</a>.</p></li>
+      <li><strong>Copy your journey in game</strong>
+        <span>Open Journey (<code>/lore journey</code>), click <em>Copy my journey record</em> and press Ctrl+C.</span></li>
+      <li><strong>Paste it here</strong>
+        <span>Your page is ready in seconds. Only you can see it until you make it public.</span></li>
+    </ol>
     <details class="ac-privacy">
       <summary>What we keep, and how to delete it</summary>
       <p>From Google: your account ID, email address and name (to create your account and reach you about your
@@ -51,14 +65,42 @@
         level, race and class, and the places, quests, people, foes, bosses, dungeons, deaths, level-ups, spells,
         mounts, professions, finds, reputation and books it lists. We don't keep the record itself, or anyone else's
         name. Those facts about your character (never your email or name) also go to the service that writes your
-        story. Your profile stays private until you make it public.</p>
+        story. Your profile stays private until you make it public. If you connect the companion app, it sends the
+        same record after each <code>/reload</code> or logout, and we keep when it last did.</p>
       <p>Delete my account (on this page once you're signed in) removes all of that at once, along with what's
-        listed under your name on the site and the recordings you uploaded here. Recordings you sent us for review,
-        and the <a href="/voices/release">narrator release</a> you agreed to for them, are kept as the release
-        describes; <a href="/discord">ask us</a> if you want them removed too. Feedback you sent is kept, without
+        listed under your name on the site and the recordings you uploaded here. If you sent us a voice for review,
+        the record of the <a href="/voices/release">narrator release</a> you signed for it is kept as proof of the
+        license; <a href="/discord">ask us</a> if you want your pack taken down. If you lent us your voice, its
+        recording goes, and the record of the <a href="/voices/lend-terms">terms</a> you signed stays, without a link
+        to your account. Feedback you sent is kept, without
         your email. Translations already added to a language stay in it, under CC BY-SA, without your name.</p>
+      <p>The whole story, including who else handles your data: <a href="/privacy">privacy</a>.</p>
     </details>
   </section>
+  <div class="ac-sample">
+    <p class="ac-sample-note">Your page will look something like this</p>
+    <figure class="sample-sheet" aria-label="An example profile">
+      <span class="sample-tag">Example</span>
+      <div class="ss-head">
+        <span class="vpr-avatar vpr-initial pf-alliance ss-avatar" aria-hidden="true">A</span>
+        <div>
+          <p class="ss-name">Aelric</p>
+          <p class="ss-sub">Level 24 Night Elf Druid &middot; Alliance</p>
+          <p class="ss-sub">Favorite spec: <strong>Feral Combat</strong></p>
+        </div>
+      </div>
+      <ul class="ss-stats">
+        <li><strong>186</strong><span>Quests done</span></li><li><strong>142</strong><span>Places</span></li>
+        <li><strong>311</strong><span>People met</span></li><li><strong>1,204</strong><span>Foes</span></li>
+        <li><strong>9</strong><span>Bosses</span></li><li><strong>3</strong><span>Dungeons</span></li>
+        <li><strong>14</strong><span>Deaths</span></li><li><strong>24</strong><span>Level</span></li>
+      </ul>
+      <ol class="pf-road ss-road"><li>Teldrassil</li><li>Darkshore</li><li>Ashenvale</li><li>The Barrens</li></ol>
+      <figcaption class="ss-story">&ldquo;Aelric's road began beneath the boughs of Teldrassil, where the young druid
+        learned the old ways before taking ship for the mainland&hellip;&rdquo;</figcaption>
+    </figure>
+  </div>
+  </div>
 
   <div id="ac-in" hidden>
     <section class="fb-done">
@@ -102,6 +144,8 @@
           <select id="pf-spec"><option value="">Not saying</option></select>
         </label>
       </div>
+      <!-- The companion app (LOR-148): connected, it updates the profile by itself; the paste below still works. -->
+      <p class="pf-auto" id="pf-auto" hidden></p>
       <form id="pf-import">
         <label class="fb-field">
           <span id="pf-record-label">Your journey record</span>
@@ -116,6 +160,17 @@
       <p class="fb-status" id="pf-status" role="status" hidden></p>
     </section>
 
+    <!-- Connected apps (LOR-148): the companion apps that keep the profile up to date, each with Disconnect.
+         functions/api/device/[action].js; they connect on /link. Shown once there's one (or with the companion
+         feature on, lib/features.js). -->
+    <section class="fb-form" id="apps" hidden>
+      <h2>Connected apps</h2>
+      <p class="vp-note" id="ac-noapps">None yet. The Lore Forever companion app can keep your profile up to date by
+        itself: in its Settings, click <strong>Connect to my profile</strong>.</p>
+      <div id="ac-app-list"></div>
+      <p class="fb-status" id="ac-apps-status" role="status" hidden></p>
+    </section>
+
     <form class="fb-form" id="ac-profile">
       <h2>Your name and links</h2>
       <label class="fb-field">
@@ -128,7 +183,7 @@
         <small>Your Twitch, YouTube or socials. They show on your profile once it's public.</small>
       </label>
       <label class="fb-check"><input type="checkbox" name="show_public"> <span>Show my name and links on
-        <a href="/voices/contributors">Contributors</a>, my voices' pages, and as a translator of my languages on
+        <a href="/contributors">Contributors</a>, my voices' pages, and as a translator of my languages on
         <a href="/translate">Translate</a>. Otherwise only each voice's credit line shows.</span></label>
       <button class="btn-small" type="submit">Save</button>
     </form>
@@ -152,8 +207,8 @@
 
     <form class="fb-form" id="ac-delete">
       <h2>Delete my account</h2>
-      <p class="vp-note">Removes your account, profile and everything listed under your name right away. Type <strong>delete</strong>
-        to confirm.</p>
+      <p class="vp-note">Removes your account, profile and everything listed under your name right away
+        (<a href="/privacy">what stays, and why</a>). Type <strong>delete</strong> to confirm.</p>
       <label class="fb-field">
         <input type="text" name="confirm" autocomplete="off" spellcheck="false" placeholder="delete">
       </label>
@@ -164,6 +219,7 @@
 
 <footer class="wrap foot">
   <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>
@@ -248,6 +304,14 @@
     if (!me || !me.ok) { status((me && me.error) || "Couldn't reach the server. Please reload."); return; }
     $("ac-out").hidden = Boolean(me.user);
     $("ac-in").hidden = !me.user;
+    $("ac-main").classList.toggle("ac-wide", !me.user);   // signed out: the steps and the example side by side
+    // Signed out, the page is about making your profile; signed in, it's your account.
+    $("ac-title").textContent = me.user ? "Your Lore Forever account" : "Make your profile";
+    $("ac-pitch").textContent = me.user
+      ? "Make a profile from your character's journey, send feedback, or help with narration and translations. " +
+        "The add-on, its downloads and the rest of the site all work without an account."
+      : "A page about your character, from the journal Lore Forever keeps while you play. The add-on and its " +
+        "downloads never need an account.";
     if (!me.user) {
       const clientId = me.signIn.google;
       $("ac-google").hidden = !clientId;
@@ -263,8 +327,63 @@
     f.show_public.checked = u.show_public;
     $("ac-novoices").hidden = me.voices.length > 0;
     $("ac-voice-list").replaceChildren(...me.voices.map(voiceRow));
+    features = me.features || {};
     loadTranslations();
     loadProfile();
+    loadApps();
+  }
+
+  // Connected apps (LOR-148): the companion keeps the profile up to date once it's connected (on /link).
+  let features = {};
+  const when = iso => {
+    const t = new Date(iso);
+    return isNaN(t) ? "" : t.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+  };
+  const appsStatus = (msg, good) => {
+    $("ac-apps-status").hidden = !msg;
+    $("ac-apps-status").textContent = msg || "";
+    $("ac-apps-status").classList.toggle("fb-good", Boolean(good));
+  };
+
+  function appRow(d) {
+    const row = document.createElement("div");
+    row.className = "ac-app";
+    row.innerHTML = `<p><strong></strong><br><span class="vp-note"></span></p>
+      <button class="btn-small btn-small-alt" type="button">Disconnect</button>`;
+    row.querySelector("strong").textContent = d.label || "Lore Forever companion";
+    row.querySelector(".vp-note").textContent = "Connected " + when(d.created) +
+      (d.last_sync ? " · last updated your profile " + when(d.last_sync) : " · hasn't updated your profile yet");
+    row.querySelector("button").addEventListener("click", async () => {
+      if (!confirm("Disconnect this app? It stops updating your profile. You can connect it again from the companion.")) return;
+      const res = await send("/api/device/revoke", { id: d.id });
+      if (res.ok) { showApps(res.devices); appsStatus("Disconnected.", true); } else appsStatus(res.error);
+    });
+    return row;
+  }
+
+  function showApps(devices) {
+    $("apps").hidden = !devices.length && !features.companion;
+    $("ac-noapps").hidden = devices.length > 0;
+    $("ac-app-list").replaceChildren(...devices.map(appRow));
+    // The profile section says what keeps it up to date.
+    const synced = devices.map(d => d.last_sync).filter(Boolean).sort().pop();
+    const auto = $("pf-auto");
+    if (devices.length) {
+      auto.hidden = false;
+      auto.textContent = "Your companion app keeps this up to date by itself after each /reload or logout" +
+        (synced ? ` (last update ${when(synced)}).` : ". Its first update comes after your next /reload or logout.");
+    } else if (features.companion) {
+      auto.hidden = false;
+      auto.textContent = "Have the Lore Forever companion on your PC? It can keep this up to date for you, with no " +
+        "copying and pasting: in its Settings, click Connect to my profile.";
+    } else auto.hidden = true;
+    if (location.hash === "#apps" && !$("apps").hidden) $("apps").scrollIntoView();
+  }
+
+  async function loadApps() {
+    let res;
+    try { res = await (await fetch("/api/device/list", { cache: "no-store" })).json(); } catch (e) { res = null; }
+    showApps(res && res.ok ? res.devices : []);
   }
 
   // Your profile (LOR-181).
@@ -356,9 +475,10 @@
     catch (e) { pfStatus("Your link: " + url, true); }
   });
   $("pf-delete").addEventListener("click", async () => {
-    if (!confirm("Delete your profile? Your account stays, and you can make a new one any time.")) return;
+    const apps = $("ac-app-list").children.length ? " Your companion app is disconnected too." : "";
+    if (!confirm("Delete your profile? Your account stays, and you can make a new one any time." + apps)) return;
     const res = await send("/api/profile/delete");
-    if (res.ok) { showProfile(null); pfStatus("Your profile is deleted.", true); } else pfStatus(res.error);
+    if (res.ok) { showProfile(null); pfStatus("Your profile is deleted.", true); loadApps(); } else pfStatus(res.error);
   });
 
   // Your translations: a tick per language (saved as you tick) and what happened to your edits.

@@ -53,7 +53,7 @@ export async function likeCounts(env) {
 // Adds today's like from this sender, if there isn't one yet. Returns the language's new total.
 export async function addLike(env, request, locale) {
   const day = new Date().toISOString().slice(0, 10);
-  const hash = await senderHash(request.headers.get("CF-Connecting-IP") || "", day);
+  const hash = await senderHash(env, request.headers.get("CF-Connecting-IP") || "", day);
   await env.DB.batch([
     env.DB.prepare(SETUP),
     env.DB.prepare("INSERT OR IGNORE INTO translation_likes (locale, day, ip_hash) VALUES (?, ?, ?)").bind(locale, day, hash),
@@ -78,15 +78,21 @@ ${status === 401
   return new Response(html, { status, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" } });
 }
 
-// {locale: [display names]} of translators with accepted edits who chose to be shown (lib/accounts.js show_public),
-// most edits first. Empty when nobody has been accepted yet or the tables don't exist.
+// The translation_edits (alias e) a translator is credited for: every saved edit that wasn't rejected as spam. There's
+// no approval step (functions/api/translations/[action].js), so a new edit counts from the moment it's saved, not only
+// once lore.kit has pulled it into a language pack: most edits wait days for that.
+export const CREDITED_EDIT = "e.status IN ('new', 'accepted', 'pulled')";
+
+// {locale: [display names]} of translators with credited edits who chose to be shown (lib/accounts.js show_public),
+// in the order they started on that language: credit never ranks people by how much they sent (LOR-239). Empty when
+// nobody has translated yet or the tables don't exist.
 export async function translatorCredits(env) {
   if (!env.DB) return {};
   try {
     const { results } = await env.DB.prepare(
-      "SELECT e.locale, u.display_name AS name, COUNT(*) AS n FROM translation_edits e JOIN users u ON u.id = e.user_id " +
-      "WHERE e.status IN ('accepted', 'pulled') AND u.show_public = 1 AND u.display_name IS NOT NULL " +
-      "GROUP BY e.locale, u.id ORDER BY n DESC"
+      "SELECT e.locale, u.display_name AS name, MIN(e.created) AS first FROM translation_edits e JOIN users u ON u.id = e.user_id " +
+      `WHERE ${CREDITED_EDIT} AND u.show_public = 1 AND u.display_name IS NOT NULL ` +
+      "GROUP BY e.locale, u.id ORDER BY first, u.display_name"
     ).all();
     const out = {};
     for (const r of results) (out[r.locale] ||= []).push(r.name);

@@ -9,105 +9,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="style.css">
-<style>
-/* Dashboard-only styles, kept here so the public stylesheet stays lean. */
-.ad { padding-top: 22px; padding-bottom: 20px; }
-.ad[hidden], .ad-login[hidden] { display: none; }
-.ad-bar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: baseline; justify-content: space-between; }
-.ad-bar h1 { font-size: 2rem; }
-.ad-meta { color: var(--muted); font-size: 0.85rem; }
-.ad-meta button, .ad-link {
-  background: none; border: 0; padding: 0; color: var(--link); font: inherit; cursor: pointer; text-decoration: underline;
-}
-.ad-panel {
-  background: var(--panel); border: 1px solid var(--panel-line); border-radius: 5px; padding: 14px 16px;
-  box-shadow: inset 0 0 0 1px #000, 0 4px 14px rgba(0, 0, 0, 0.5); min-width: 0;
-}
-.ad h2 { font-family: var(--heading); color: var(--gold); font-size: 1.2rem; margin: 28px 0 10px; }
-.ad-panel h3 { margin: 0 0 8px; color: var(--gold-soft); font: 600 0.95rem var(--heading); letter-spacing: 0.02em; }
-
-/* Stat tiles */
-.ad-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-top: 16px; }
-.ad-tile .ad-label { color: var(--muted); font-size: 0.85rem; }
-.ad-tile .ad-num { font: 700 2rem/1.2 var(--heading); color: var(--text); }
-.ad-tile .ad-sub { color: var(--muted); font-size: 0.82rem; }
-
-/* Charts */
-.ad-charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin-top: 12px; }
-.ad-chart { position: relative; }
-.ad-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
-.ad-chart .grid { stroke: #2a2a36; stroke-width: 1; }
-.ad-chart .axis { fill: var(--muted); font-size: 11px; font-family: system-ui, sans-serif; }
-.ad-chart .bar { fill: var(--gold-soft); pointer-events: none; }
-.ad-chart .hit { fill: transparent; cursor: default; }
-.ad-chart .hit:hover + .bar, .ad-chart .bar.on { fill: var(--gold); }
-.ad-tip {
-  position: absolute; pointer-events: none; transform: translate(-50%, -100%); white-space: nowrap;
-  background: #000; border: 1px solid var(--panel-line); border-radius: 4px; padding: 4px 8px; font-size: 0.82rem;
-}
-.ad-tip strong { color: var(--text); }
-.ad-chart details { margin-top: 6px; font-size: 0.82rem; }
-.ad-chart summary { cursor: pointer; color: var(--link); }
-.ad-chart details table { font-size: 0.82rem; margin-top: 6px; }
-
-/* Filters, lists and tables */
-.ad-filters { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; margin-bottom: 10px; }
-.ad-filters button, .ad-filters select, .ad-filters input {
-  font: inherit; font-size: 0.88rem; color: var(--text); background: #00000088; border: 1px solid var(--panel-line);
-  border-radius: 4px; padding: 5px 10px;
-}
-.ad-filters button { cursor: pointer; }
-.ad-filters button[aria-pressed="true"] { border-color: var(--gold); color: var(--gold); }
-.ad-filters input { flex: 1 1 200px; min-width: 0; }
-.ad-count { color: var(--muted); font-size: 0.85rem; }
-.ad-report { border-top: 1px solid var(--line); padding: 12px 0; }
-.ad-report:first-child { border-top: 0; padding-top: 0; }
-.ad-report.done { opacity: 0.6; }
-.ad-report-head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; font-size: 0.85rem; color: var(--muted); }
-.ad-kind { font-weight: 600; color: var(--gold-soft); }
-.ad-stars { color: var(--gold); letter-spacing: 1px; }
-.ad-msg { margin: 6px 0; white-space: pre-wrap; overflow-wrap: anywhere; }
-.ad-ctx { color: var(--muted); font-size: 0.88rem; border-left: 2px solid var(--line, #3a3326); padding-left: 10px; }
-.ad-report-foot { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.85rem; color: var(--muted); }
-.ad-report-foot code { overflow-wrap: anywhere; }
-.ad-actions { margin-left: auto; display: flex; gap: 14px; }
-.ad-danger { color: #ff8a7a !important; }
-.ad-table-wrap { overflow-x: auto; }
-.ad table td, .ad table th { padding: 6px 10px 6px 0; border-top: 1px solid var(--line); text-align: left; font-size: 0.9rem; }
-.ad table th { color: var(--muted); font-weight: 600; border-top: 0; }
-.ad-empty { color: var(--muted); margin: 0; }
-.ad-test { color: var(--muted); font-size: 0.78rem; border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; }
-
-/* Section bar: sticks to the top, shows what's open in each section, marks the one in view. */
-.ad-nav {
-  position: sticky; top: 0; z-index: 10; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
-  margin: 14px -16px 0; padding: 8px 16px; background: var(--bg); border-bottom: 1px solid var(--line);
-}
-.ad-nav::-webkit-scrollbar { display: none; }
-.ad-nav a {
-  flex: none; display: flex; gap: 6px; align-items: center; padding: 5px 10px; border: 1px solid var(--panel-line);
-  border-radius: 4px; color: var(--text); font-size: 0.88rem; text-decoration: none; background: #00000088;
-}
-.ad-nav a:hover { border-color: var(--gold-soft); }
-.ad-nav a[aria-current="true"] { border-color: var(--gold); color: var(--gold); }
-.ad-badge { min-width: 1.4em; padding: 0 5px; border-radius: 9px; background: var(--gold); color: #000; font-size: 0.75rem; font-weight: 700; text-align: center; }
-.ad-badge:empty { display: none; }
-.ad-badge.quiet { background: var(--line); color: var(--muted); }
-.ad h2[id], #overview { scroll-margin-top: 64px; }
-a.ad-tile { color: inherit; text-decoration: none; }
-a.ad-tile:hover { border-color: var(--gold-soft); }
-
-/* Sign-in */
-.ad-login { max-width: 460px; margin: 60px auto; }
-.ad-login form { display: flex; flex-direction: column; gap: 10px; }
-.ad-login input[type="password"] {
-  padding: 8px 10px; font: inherit; color: var(--text); background: #000000aa; border: 1px solid var(--panel-line); border-radius: 4px;
-}
-.ad-login label.ad-check { display: flex; gap: 8px; align-items: center; color: var(--muted); font-size: 0.9rem; }
-.ad-login .btn-small { align-self: flex-start; cursor: pointer; }
-.ad-error { color: #ff7b6b; margin: 0; }
-</style>
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/admin.css">
 </head>
 <body>
 
@@ -139,10 +42,13 @@ a.ad-tile:hover { border-color: var(--gold-soft); }
   <!-- Gold badges count what's waiting on you (open or saved items); grey ones are plain totals. -->
   <nav class="ad-nav" id="nav" aria-label="Dashboard sections">
     <a href="#overview">Overview</a>
+    <a href="#profiles">Profiles</a>
     <a href="#feedback">Feedback <span class="ad-badge" id="n-feedback"></span></a>
     <a href="#voices">Voices <span class="ad-badge" id="n-voices"></span></a>
+    <a href="#clip-reports">Clip reports <span class="ad-badge quiet" id="n-clip-reports"></span></a>
     <a href="#translations">Translations <span class="ad-badge" id="n-translations"></span></a>
     <a href="#edits">Edits <span class="ad-badge" id="n-edits"></span></a>
+    <a href="#contributions">Shared text <span class="ad-badge quiet" id="n-contrib"></span></a>
     <a href="#contributors">Contributors <span class="ad-badge quiet" id="n-contributors"></span></a>
     <a href="#emails">Emails <span class="ad-badge quiet" id="n-emails"></span></a>
   </nav>
@@ -159,8 +65,23 @@ a.ad-tile:hover { border-color: var(--gold-soft); }
   </div>
 
   <div class="ad-charts">
-    <figure class="ad-panel ad-chart" id="c-signups" style="margin:0"><h3>Sign-ups per day, last 30 days</h3></figure>
+    <figure class="ad-panel ad-chart" id="c-signups" style="margin:0"><h3>Email sign-ups per day, last 30 days</h3></figure>
     <figure class="ad-panel ad-chart" id="c-downloads" style="margin:0"><h3>Site downloads per day, last 30 days</h3></figure>
+  </div>
+
+  <!-- Accounts (Google sign-in, lib/accounts.js) and player profiles (lib/profiles.js). The API counts them, so they
+       aren't capped like the Contributors list. Days are UTC, like the charts above. -->
+  <h2 id="profiles">Profiles</h2>
+  <div class="ad-charts" style="margin-top:0">
+    <div class="ad-panel"><div class="ad-stats">
+      <div class="ad-tile"><div class="ad-label">Accounts</div><div class="ad-num" id="p-accounts">-</div><div class="ad-sub">Google sign-ins</div></div>
+      <div class="ad-tile"><div class="ad-label">Player profiles</div><div class="ad-num" id="p-profiles">-</div><div class="ad-sub" id="p-profiles-sub"></div></div>
+      <div class="ad-tile"><div class="ad-label">Public profiles</div><div class="ad-num" id="p-public">-</div><div class="ad-sub" id="p-public-sub"></div></div>
+      <div class="ad-tile"><div class="ad-label">New today</div><div class="ad-num" id="p-today">-</div><div class="ad-sub">since 00:00 UTC</div></div>
+      <div class="ad-tile"><div class="ad-label">Last 7 days</div><div class="ad-num" id="p-week">-</div><div class="ad-sub">new accounts</div></div>
+      <div class="ad-tile"><div class="ad-label">Last 30 days</div><div class="ad-num" id="p-month">-</div><div class="ad-sub">new accounts</div></div>
+    </div></div>
+    <figure class="ad-panel ad-chart" id="c-accounts" style="margin:0"><h3>New accounts per day, last 30 days</h3></figure>
   </div>
 
   <h2 id="feedback">Feedback</h2>
@@ -192,6 +113,24 @@ a.ad-tile:hover { border-color: var(--gold-soft); }
     <div id="vo-list"></div>
   </div>
 
+  <!-- Reports on recordings (LOR-232, functions/api/clip-report/[action].js). Nothing waits on you: the nightly
+       narration job records a clip again once it has 2+ reports (or 1 signed in) and resolves them. Here you only
+       reject spam, all of one uploader's open reports at once; Restore undoes it. Grey badge: open reports. -->
+  <h2 id="clip-reports">Clip reports</h2>
+  <div class="ad-panel">
+    <div class="ad-filters" role="group" aria-label="Filter clip reports">
+      <button type="button" data-crstatus="open" aria-pressed="true">Open</button>
+      <button type="button" data-crstatus="all" aria-pressed="false">All</button>
+      <button type="button" data-crstatus="rejected" aria-pressed="false">Rejected</button>
+      <span class="ad-count" id="cr-count"></span>
+    </div>
+    <div class="ad-table-wrap">
+      <table><thead><tr><th>Narration</th><th>Voice</th><th>Reports</th><th>What's wrong</th><th>Names</th></tr></thead><tbody id="cr-clips"></tbody></table>
+    </div>
+    <h3 style="margin-top:14px">Latest reports</h3>
+    <div id="cr-list"></div>
+  </div>
+
   <h2 id="translations">Translations</h2>
   <div class="ad-panel">
     <div class="ad-filters" role="group" aria-label="Filter translations">
@@ -209,18 +148,29 @@ a.ad-tile:hover { border-color: var(--gold-soft); }
   </div>
 
   <!-- Edits from /translate/dashboard (functions/api/translations/[action].js). No approval step: every saved edit goes
-       into data/i18n with `uv run python -m lore.kit pull <locale>` unless it is rejected here (spam, vandalism, a
-       native speaker's report on Discord). "Restore" undoes a reject. -->
+       into data/i18n with `uv run python -m lore.kit pull <locale>` unless it is rejected (spam, vandalism, a native
+       speaker's report on Discord). There are thousands, so they have their own page, /admin/edits; this is the count
+       per language. Gold badge: saved edits waiting for a pull. -->
   <h2 id="edits">Translation edits</h2>
   <div class="ad-panel">
-    <div class="ad-filters" role="group" aria-label="Filter translation edits">
-      <button type="button" data-estatus="new" aria-pressed="true">Saved</button>
-      <button type="button" data-estatus="pulled" aria-pressed="false">Pulled</button>
-      <button type="button" data-estatus="rejected" aria-pressed="false">Rejected</button>
-      <select id="elocale" aria-label="Language"><option value="">Every language</option></select>
+    <div class="ad-filters">
       <span class="ad-count" id="ed-count"></span>
+      <a class="btn-small" href="/admin/edits" style="margin-left:auto">Open the edits page</a>
     </div>
-    <div id="ed-list"></div>
+    <div class="ad-table-wrap">
+      <table><thead><tr><th>Language</th><th>Saved</th><th>Pulled</th><th>Rejected</th><th>Last edit</th></tr></thead><tbody id="ed-list"></tbody></table>
+    </div>
+  </div>
+
+  <!-- Forever text players shared from /contribute (lib/contribute.js, LOR-236). No approval step: lines are accepted
+       by the rules there (two senders, or 48 hours on one). This is only for spam and vandalism: "Reject all" takes
+       out every line one sender sent (a line someone else also sent stays), "Restore" undoes it. -->
+  <h2 id="contributions">Shared Forever text</h2>
+  <div class="ad-panel">
+    <p class="ad-count" style="margin:0 0 8px" id="cb-counts"></p>
+    <div class="ad-table-wrap">
+      <table><thead><tr><th>When</th><th>Who</th><th>From</th><th>New</th><th>Confirmed</th><th>Known</th><th>Add-on</th><th></th></tr></thead><tbody id="cb-list"></tbody></table>
+    </div>
   </div>
 
   <!-- Google sign-in accounts. /account promises we email them only about their feedback and what they contribute,
@@ -310,6 +260,7 @@ async function load() {
     render();
     markSection();
     loadEdits();
+    loadClipReports();
     $("updated").textContent = "Updated " + new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
   } catch (e) {
     if (e.message !== "unauthorized") alert("Couldn't load the dashboard: " + e.message);
@@ -376,9 +327,18 @@ function render() {
   barChart($("c-signups"), days, signupsPerDay, n => n + (n === 1 ? " sign-up" : " sign-ups"));
   barChart($("c-downloads"), days, downloadsPerDay, n => n + (n === 1 ? " download" : " downloads"));
 
+  // Accounts and player profiles, counted by the API (data.users stops at 5000).
+  const su = data.signups || { accounts: 0, profiles: 0, public: 0, today: 0, week: 0, month: 0, days: [] };
+  for (const k of ["accounts", "profiles", "public", "today", "week", "month"]) $("p-" + k).textContent = su[k].toLocaleString();
+  $("p-profiles-sub").textContent = su.accounts ? Math.round(100 * su.profiles / su.accounts) + "% of accounts" : "";
+  $("p-public-sub").textContent = (su.profiles - su.public).toLocaleString() + " private";
+  barChart($("c-accounts"), days, days.map(d => su.days.find(x => x.day === d)?.n || 0),
+    n => n + (n === 1 ? " new account" : " new accounts"));
+
   renderFeedback();
   renderVoices();
   renderTranslations();
+  renderContributions();
   renderContributors();
   renderEmails();
 
@@ -507,7 +467,7 @@ function renderVoices() {
       el("div", { class: "ad-report-foot" },
         v.email ? el("a", { href: "mailto:" + encodeURIComponent(v.email).replace("%40", "@"), text: v.email }) : null,
         v.discord ? el("span", { text: "Discord: " + v.discord }) : null,
-        el("span", { text: "Signed " + v.signature + " · release " + v.release_version + (v.adult_or_guardian ? " · 18+ or guardian OK" : "") }),
+        el("span", { text: "Signed " + v.signature + " · release " + v.release_version + (v.adult_or_guardian ? (v.release_version < "2026-10-03" ? " · 18+ or guardian OK" : " · 18+") : "") }),
         el("span", { class: "ad-actions" }, toggle, del)));
   }));
 }
@@ -560,11 +520,68 @@ function renderTranslations() {
   }));
 }
 
-// ---- translation edits (their own endpoint, loaded separately so a big queue doesn't slow the dashboard) ----
-let edStatus = "new";
-let edits = [];
-async function edApi(method, action, body) {
-  const r = await fetch("/api/translations/" + action, {
+// ---- shared Forever text (LOR-236): counts by status and the latest uploads ----
+const CB_STATUS = ["single", "verified", "conflict", "flagged", "rejected", "shipped"];
+function renderContributions() {
+  const c = data.contributions || { counts: {}, accepted: 0, batches: [] };
+  const total = CB_STATUS.reduce((a, s) => a + (c.counts[s] || 0), 0);
+  $("cb-counts").textContent = total
+    ? `${total.toLocaleString()} lines: ` + CB_STATUS.filter(s => c.counts[s]).map(s => `${c.counts[s].toLocaleString()} ${s}`).join(" · ")
+      + ` · ${c.accepted.toLocaleString()} accepted (verified, or single for 48 hours)`
+    : "Nothing shared yet.";
+  badge("n-contrib", total);
+  const box = $("cb-list");
+  if (!c.batches.length) { box.replaceChildren(el("tr", {}, el("td", { colspan: "8", class: "ad-empty", text: "No uploads yet." }))); return; }
+  box.replaceChildren(...c.batches.map(b => {
+    const who = b.display_name ? b.display_name + (b.email ? " (" + b.email + ")" : "")
+      : b.nick ? b.nick + " (nickname)" : "anonymous " + (b.uploader || "").slice(0, 10);
+    const btn = el("button", { type: "button", class: "ad-link" + (b.rejected ? "" : " ad-danger"),
+      text: b.rejected ? "Restore" : "Reject all from this sender" });
+    btn.addEventListener("click", () => {
+      if (!b.rejected && !confirm(`Reject every line ${who} sent (${b.batches_from} upload${b.batches_from === 1 ? "" : "s"})? Lines someone else also sent stay.`)) return;
+      // The counts by status change on the server: load the dashboard again.
+      act({ action: b.rejected ? "contrib-restore" : "contrib-reject", uploader: b.uploader }, () => load());
+    });
+    return el("tr", { class: b.rejected ? "done" : "" },
+      el("td", {}, el("a", { href: "/contribute/r/" + b.upload_id, target: "_blank", rel: "noopener", text: fmtDate(b.created_at * 1000) })),
+      el("td", { text: who }), el("td", { text: b.source }), el("td", { text: String(b.n_new) }),
+      el("td", { text: String(b.n_confirmed) }), el("td", { text: String(b.n_known) + (b.n_invalid ? ` (+${b.n_invalid} unreadable)` : "") }),
+      el("td", { text: [b.version, b.locale].filter(Boolean).join(" ") }), el("td", {}, btn));
+  }));
+}
+
+// ---- translation edits: counts per language here; the edits themselves are on /admin/edits ----
+async function loadEdits() {
+  const box = $("ed-list");
+  let res;
+  try {
+    const r = await fetch("/api/translations/summary", { cache: "no-store", headers: { Authorization: "Bearer " + key() } });
+    res = await r.json().catch(() => ({}));
+    if (!r.ok || !res.ok) throw new Error(res.error || "Request failed (" + r.status + ")");
+  } catch (e) {
+    box.replaceChildren(el("tr", {}, el("td", { colspan: "5", class: "ad-empty", text: "Couldn't load edits: " + e.message })));
+    return;
+  }
+  const sum = k => res.locales.reduce((a, l) => a + l[k], 0);
+  badge("n-edits", sum("saved"));   // gold: saved edits waiting for a pull
+  const people = res.translators.length;
+  $("ed-count").textContent = res.locales.length
+    ? `${sum("saved").toLocaleString()} saved · ${sum("pulled").toLocaleString()} pulled · ${sum("rejected").toLocaleString()} rejected` +
+      ` · ${people} translator${people === 1 ? "" : "s"}`
+    : "";
+  if (!res.locales.length) { box.replaceChildren(el("tr", {}, el("td", { colspan: "5", class: "ad-empty", text: "No edits yet." }))); return; }
+  const n = v => (v || 0).toLocaleString();
+  box.replaceChildren(...res.locales.map(l => el("tr", {},
+    el("td", {}, el("a", { href: "/admin/edits?locale=" + l.locale, text: l.locale })),
+    el("td", { text: n(l.saved) }), el("td", { text: n(l.pulled) }), el("td", { text: n(l.rejected) }),
+    el("td", { text: fmtDate(l.last) }))));
+}
+
+// ---- clip reports (their own endpoint, like the edits) ----
+let crStatus = "open";
+let clipReports = [];
+async function crApi(method, action, body) {
+  const r = await fetch("/api/clip-report/" + action, {
     method, cache: "no-store",
     headers: { Authorization: "Bearer " + key(), ...(body ? { "Content-Type": "application/json" } : {}) },
     body: body ? JSON.stringify(body) : undefined,
@@ -573,53 +590,76 @@ async function edApi(method, action, body) {
   if (!r.ok || !res.ok) throw new Error(res.error || "Request failed (" + r.status + ")");
   return res;
 }
-async function loadEdits() {
-  const locale = $("elocale").value;
+async function loadClipReports() {
   try {
-    edits = (await edApi("GET", "review?status=" + edStatus + (locale ? "&locale=" + locale : ""))).edits;
-  } catch (e) { edits = []; $("ed-list").replaceChildren(el("p", { class: "ad-empty", text: "Couldn't load edits: " + e.message })); return; }
-  const seen = new Set([...$("elocale").options].map(o => o.value));
-  for (const l of new Set(edits.map(e => e.locale))) if (!seen.has(l)) $("elocale").append(el("option", { value: l, text: l }));
-  renderEdits();
+    clipReports = (await crApi("GET", "export?status=" + crStatus)).reports;
+  } catch (e) {
+    clipReports = [];
+    $("cr-list").replaceChildren(el("p", { class: "ad-empty", text: "Couldn't load clip reports: " + e.message }));
+    return;
+  }
+  renderClipReports();
 }
-async function decide(ids, status) {
-  try { await edApi("POST", "decide", { ids, status }); } catch (e) { alert("That didn't work: " + e.message); return; }
-  edits = edits.filter(e => !ids.includes(e.id));
-  renderEdits();
+async function rejectUploader(uploader, restore) {
+  try { await crApi("POST", "reject", { uploader, restore }); } catch (e) { alert("That didn't work: " + e.message); return; }
+  loadClipReports();
 }
-function renderEdits() {
-  if (edStatus === "new" && !$("elocale").value) badge("n-edits", edits.length);   // the badge counts saved edits
-  $("ed-count").textContent = edits.length + (edits.length === 1 ? " edit" : " edits") + (edits.length === 2000 ? " (first 2000)" : "");
-  const box = $("ed-list");
-  if (!edits.length) { box.replaceChildren(el("p", { class: "ad-empty", text: "Nothing here." })); return; }
-  box.replaceChildren(...edits.map(e => {
-    const actions = el("span", { class: "ad-actions" });
-    const button = (text, status, danger) => {
-      const b = el("button", { type: "button", class: "ad-link" + (danger ? " ad-danger" : ""), text });
-      b.addEventListener("click", () => decide([e.id], status));
-      actions.append(b);
-    };
-    if (e.status === "new" || e.status === "accepted") button("Reject", "rejected", true);
-    if (e.status === "rejected") button("Restore", "new");
-    return el("article", { class: "ad-report" },
+const clipWords = id => {
+  const m = String(id).match(/^([a-z]+):([a-z0-9-]+)(?:#faq(\d+)|#(\w+))?$/);
+  return m ? m[2].replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase()) + (m[3] ? " · answer " + m[3] : m[4] ? " · " + m[4] : "") : id;
+};
+const voiceWords = v => String(v || "").replace("LoreForever_Voice_", "").replace(/_/g, " ");
+function renderClipReports() {
+  const open = clipReports.filter(r => r.status === "open");
+  if (crStatus === "open") badge("n-clip-reports", open.length);
+  $("cr-count").textContent = clipReports.length + (clipReports.length === 1 ? " report" : " reports");
+  // Per clip and voice: how many, why, which names (with how they should sound).
+  const groups = new Map();
+  for (const r of clipReports) {
+    const k = r.clip + "|" + r.voice;
+    const g = groups.get(k) || { clip: r.clip, voice: r.voice, n: 0, people: new Set(), reasons: {}, names: new Set() };
+    g.n++;
+    g.people.add(r.uploader);
+    g.reasons[r.reason] = (g.reasons[r.reason] || 0) + 1;
+    if (r.name) g.names.add(r.name + (r.say_as ? " → " + r.say_as : ""));
+    groups.set(k, g);
+  }
+  const rows = [...groups.values()].sort((a, b) => b.people.size - a.people.size || b.n - a.n);
+  $("cr-clips").replaceChildren(...(rows.length ? rows.map(g => el("tr", {},
+    el("td", {}, clipWords(g.clip), " ", el("code", { text: g.clip })),
+    el("td", { text: voiceWords(g.voice) }),
+    el("td", { text: g.people.size + (g.people.size === 1 ? " person" : " people") }),
+    el("td", { text: Object.entries(g.reasons).map(([k, n]) => k + (n > 1 ? " ×" + n : "")).join(", ") }),
+    el("td", { text: [...g.names].join("; ") })))
+    : [el("tr", {}, el("td", { colspan: "5", class: "ad-empty", text: "No reports here." }))]));
+  const box = $("cr-list");
+  if (!clipReports.length) { box.replaceChildren(el("p", { class: "ad-empty", text: "Nothing here." })); return; }
+  box.replaceChildren(...clipReports.slice(0, 200).map(r => {
+    const rejected = r.status === "rejected";
+    const act = el("button", { type: "button", class: "ad-link" + (rejected ? "" : " ad-danger"),
+      text: rejected ? "Restore this uploader" : "Reject all from this uploader" });
+    act.addEventListener("click", () => {
+      const n = clipReports.filter(x => x.uploader === r.uploader && x.status === (rejected ? "rejected" : "open")).length;
+      if (rejected || confirm("Reject every open report from this uploader (" + n + " in this list)?")) rejectUploader(r.uploader, rejected);
+    });
+    return el("article", { class: "ad-report" + (r.status === "open" ? "" : " done") },
       el("div", { class: "ad-report-head" },
-        el("span", { class: "ad-kind", text: e.locale }),
-        el("code", { text: e.string_id }),
-        el("span", { text: "#" + e.id + " · " + fmtDate(e.updated) })),
-      el("p", { class: "ad-msg" }, el("strong", { text: "English: " }), e.en),
-      el("p", { class: "ad-msg", lang: e.locale.slice(0, 2) }, el("strong", { text: "New: " }), e.text),
+        el("span", { class: "ad-kind", text: r.reason }),
+        el("span", { text: clipWords(r.clip) + " · " + voiceWords(r.voice) }),
+        el("span", { text: "#" + r.id + " · " + fmtDate(r.created) + (r.country ? " · " + r.country : "") + " · " + r.status })),
+      r.name || r.say_as ? el("p", { class: "ad-msg" }, el("strong", { text: "Name: " }), (r.name || "?") + (r.say_as ? " → " + r.say_as : "")) : null,
+      r.note ? el("p", { class: "ad-msg", text: r.note }) : null,
       el("div", { class: "ad-report-foot" },
-        el("span", { text: "By " + (e.display_name || "(no name)") }),
-        e.email ? el("a", { href: "mailto:" + encodeURIComponent(e.email).replace("%40", "@"), text: e.email }) : null,
-        actions));
+        el("code", { text: r.clip + (r.hash ? "@" + r.hash : "") }),
+        el("span", { text: (r.signed_in ? "signed in · " : "") + r.uploader.slice(0, 14) + (r.version ? " · " + r.version : "") + (r.locale ? " " + r.locale : "") }),
+        el("span", { class: "ad-actions" }, act)));
   }));
 }
-document.querySelectorAll("[data-estatus]").forEach(b => b.addEventListener("click", () => {
-  edStatus = b.dataset.estatus;
-  document.querySelectorAll("[data-estatus]").forEach(x => x.setAttribute("aria-pressed", x === b));
-  loadEdits();
+document.querySelectorAll("[data-crstatus]").forEach(b => b.addEventListener("click", () => {
+  crStatus = b.dataset.crstatus;
+  document.querySelectorAll("[data-crstatus]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  loadClipReports();
 }));
-$("elocale").addEventListener("change", loadEdits);
 
 const ROLES = { player: u => u.handle, voice: u => u.voices, translator: u => u.languages,
                 feedback: u => !u.voices && !u.languages && !u.handle };
@@ -648,7 +688,9 @@ function renderContributors() {
     el("td", {}, ...linkHosts(u).flatMap((x, i) => [i ? " · " : "", el("a", { href: x, target: "_blank", rel: "noopener nofollow", text: new URL(x).hostname.replace(/^www\./, "") })])),
     el("td", { text: u.voices || "" }),
     el("td", { text: u.languages || "" }),
-    el("td", { text: [u.takes && plural(u.takes, "take"), u.edits && plural(u.edits, "edit"), u.feedback && plural(u.feedback, "report")].filter(Boolean).join(" · ") }),
+    el("td", {}, ...[u.takes && plural(u.takes, "take"),
+                     u.edits && el("a", { href: "/admin/edits?status=all&user=" + encodeURIComponent(u.id), text: plural(u.edits, "edit") }),
+                     u.feedback && plural(u.feedback, "report")].filter(Boolean).flatMap((x, i) => i ? [" · ", x] : [x])),
     el("td", { text: fmtDate(u.created) }))));
 }
 

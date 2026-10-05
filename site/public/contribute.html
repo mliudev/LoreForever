@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Share Forever text - Lore Forever</title>
+<meta name="description" content="Share the quest, gossip and book text WoW Forever showed you, so Lore Forever can tell those stories too.">
+<meta name="robots" content="noindex"><!-- dropped by functions/contribute/index.js once the "contribute" feature is on (lib/features.js) -->
+<link rel="canonical" href="https://loreforeverwow.com/contribute">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Share Forever text with Lore Forever">
+<meta property="og:description" content="Share the quest, gossip and book text WoW Forever showed you, so Lore Forever can tell those stories too.">
+<meta property="og:url" content="https://loreforeverwow.com/contribute">
+<meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+</header>
+
+<!-- /contribute (LOR-235): players share the Forever text the add-on kept (LOR-228), either one line from the
+     add-on's Contribute button (#c=<code>, public/contribute-code.js) or a whole LoreForever.lua, read right here in
+     the browser (public/contribute/svparse.js): only the lines are sent, to POST /api/contribute
+     (functions/api/contribute.js). Noindex and out of the Community menu until the "contribute" feature is on
+     (lib/features.js: functions/contribute/index.js serves this page, header.js adds the menu link). -->
+<main class="wrap fb-page cb-page">
+  <h1>Share the Forever text you've seen</h1>
+  <p class="pitch">Forever rewrote old quests and added new ones, and Lore Forever learns them from players. The
+    add-on keeps the quest, gossip and book text you see in game. Share it here and it goes into a coming update,
+    so every player gets those stories too.</p>
+  <p class="cb-stats" id="cb-stats" hidden></p>
+  <p class="vp-note">Which zones and quests still need text: <a href="/contribute/progress">see the progress so far</a>.
+    Everyone who helps is on <a href="/contributors">the contributors page</a>.</p>
+
+  <noscript>
+    <section class="fb-done">
+      <h2>This page needs JavaScript</h2>
+      <p>Your file is read right here in your browser, which needs JavaScript. Turn it on and reload the page.</p>
+    </section>
+  </noscript>
+
+  <!-- One line from the add-on's Contribute button: arrived as #c=<code> (stripped from the address at once), or
+       pasted below. -->
+  <section class="fb-form" id="cb-code" hidden>
+    <h2>A line from your game</h2>
+    <p class="vp-note">This is exactly what will be sent. Check it, then press Send. $N, $C and $R stand for your
+      character's name, class and race: the add-on takes them out, so every player's copy reads the same.</p>
+    <dl class="cb-fields" id="cb-fields"></dl>
+    <div class="cb-text" id="cb-code-text"></div>
+    <label class="fb-field">
+      <span>Your name for the credits <span class="fb-optional">(optional)</span></span>
+      <input type="text" id="cb-code-nick" maxlength="24" autocomplete="nickname" placeholder="e.g. Thaelric">
+    </label>
+    <label class="fb-trap" aria-hidden="true">Website <input type="text" id="cb-code-website" tabindex="-1" autocomplete="off"></label>
+    <div class="fb-actions">
+      <button type="button" class="btn-download" id="cb-code-send">Send</button>
+      <button type="button" class="btn-small" id="cb-code-cancel">Not this one</button>
+      <p class="fb-status" id="cb-code-status" role="status" hidden></p>
+    </div>
+  </section>
+
+  <section class="fb-form" id="cb-file">
+    <h2>Share everything at once</h2>
+    <ol class="cb-steps">
+      <li>In game, type <code>/reload</code> or log out first, so the game writes the file.</li>
+      <li>Drop your <code>LoreForever.lua</code> below. It's in your game folder:
+        <code class="cb-path">World of Warcraft\_classic_beta_\WTF\Account\<i>your account</i>\SavedVariables\LoreForever.lua</code>
+        (WTF/Account/&lt;account&gt;/SavedVariables/LoreForever.lua). Pick the one named LoreForever.lua, not
+        LoreForever.lua.bak.</li>
+    </ol>
+    <label class="cb-drop" id="cb-drop">
+      <input type="file" id="cb-input" accept=".lua,text/plain">
+      <strong>Drop LoreForever.lua here</strong>
+      <span>or click to pick it. It's read on your PC: only the game text in it is sent.</span>
+    </label>
+    <p class="fb-status" id="cb-file-status" role="status" hidden></p>
+
+    <div class="cb-preview" id="cb-preview" hidden>
+      <p class="cb-summary" id="cb-summary"></p>
+      <ul class="cb-kinds" id="cb-kinds"></ul>
+      <label class="fb-field" id="cb-locale-row" hidden>
+        <span>Your game's language</span>
+        <select id="cb-locale">
+          <option value="enUS">English</option><option value="deDE">Deutsch</option><option value="frFR">Français</option>
+          <option value="esES">Español (España)</option><option value="esMX">Español (México)</option>
+          <option value="ptBR">Português (Brasil)</option><option value="ruRU">Русский</option>
+          <option value="itIT">Italiano</option><option value="koKR">한국어</option><option value="zhCN">简体中文</option>
+          <option value="zhTW">繁體中文</option>
+        </select>
+        <small>Your Lore Forever is older than the version that records this, so pick it here.</small>
+      </label>
+      <label class="fb-field">
+        <span>Your name for the credits <span class="fb-optional">(optional)</span></span>
+        <input type="text" id="cb-nick" maxlength="24" autocomplete="nickname" placeholder="e.g. Thaelric">
+        <small>Shown with the lines you found once they're accepted. Leave it empty to share without a name.</small>
+      </label>
+      <label class="fb-trap" aria-hidden="true">Website <input type="text" id="cb-website" tabindex="-1" autocomplete="off"></label>
+      <details class="cb-peek">
+        <summary>See the lines that will be sent</summary>
+        <ol class="cb-peek-list" id="cb-peek"></ol>
+      </details>
+      <div class="fb-actions">
+        <button type="button" class="btn-download" id="cb-send">Send</button>
+        <p class="fb-status" id="cb-send-status" role="status" hidden></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="fb-done" id="cb-done" hidden>
+    <h2>Thank you!</h2>
+    <p id="cb-done-text"></p>
+    <p id="cb-receipts"></p>
+    <p id="cb-mark" hidden>Next time, only new lines need to go: in game, open Options &rsaquo; AddOns &rsaquo; Lore
+      Forever and click <strong>Mark all as sent</strong>.</p>
+    <p><a href="/contribute" id="cb-again">Share more</a> &middot; <a href="/">Back to Lore Forever</a> &middot;
+      <a href="/discord?src=contribute">Chat on Discord</a></p>
+  </section>
+
+  <section class="fb-form cb-paste" id="cb-paste">
+    <h2>Got a link or code from the game?</h2>
+    <p class="vp-note">The Contribute button on a quest, gossip or book window gives you a link. Opening it brings you
+      here; you can also paste it.</p>
+    <label class="fb-field">
+      <span>Link or code</span>
+      <input type="text" id="cb-paste-input" autocomplete="off" spellcheck="false" placeholder="https://loreforeverwow.com/contribute#c=LFC1~...">
+    </label>
+    <p class="fb-status" id="cb-paste-status" role="status" hidden></p>
+  </section>
+
+  <section class="vp-section" id="stored">
+    <h2>What's sent and kept</h2>
+    <ul>
+      <li><strong>The text itself</strong>, with which quest, NPC or book it's from, the game's language and build, and
+        the race, class and gender of the character who saw it (some lines change with them). Your character's name
+        is taken out in the add-on before anything is saved, and again here.</li>
+      <li><strong>Your name for the credits</strong>, only if you give one, or your Lore Forever account's name if
+        you're signed in and show it.</li>
+      <li><strong>Never your file.</strong> It's read in your browser; only the lines are sent.</li>
+      <li><strong>Your IP address is never stored.</strong> A one-way hash of it, salted and changed every day, stops
+        floods (10 uploads an hour). Upload records drop even that after 30 days.</li>
+      <li>Lines become part of Lore Forever's text, which is free for every player. Each upload gets a receipt page
+        showing what happened to its lines.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Shared text helps every Lore Forever player. Spam is removed; nothing else is reviewed by hand.</p>
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<script type="module" src="/contribute/page.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Report a narration - Lore Forever</title>
+<meta name="description" content="Tell us what's wrong with a Lore Forever narration, and it's recorded again.">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+</header>
+
+<!-- LOR-232. The add-on's "Report a problem with this narration" gives a link here with the report in the fragment
+     (#c=LCR1~..., public/clip-report-code.js), so it never reaches a server log. The page reads it, takes it out of the
+     address bar, shows what it says and sends it with one click to functions/api/clip-report.js. No sign-in needed;
+     a signed-in report counts for more. Not linked from the nav. -->
+<main class="wrap fb-page">
+  <h1>Report a narration</h1>
+  <p class="pitch">Thanks for telling us. Once a narration has two reports, or one from a signed-in player, it's
+    recorded again overnight, and a name's sound you give us fixes it in every narration that says it.</p>
+
+  <noscript>
+    <section class="fb-done">
+      <h2>This page needs JavaScript</h2>
+      <p>It reads the report from the link. Turn JavaScript on, or post the link on <a href="/discord?src=feedback">Discord</a>.</p>
+    </section>
+  </noscript>
+
+  <!-- No report in the address: paste the link from the game. -->
+  <section class="fb-form" id="cr-paste" hidden>
+    <label class="fb-field">
+      <span>Paste the link from the game</span>
+      <input type="text" id="cr-link" autocomplete="off" spellcheck="false"
+        placeholder="https://loreforeverwow.com/clip-report#c=LCR1~...">
+      <small>In game, right-click the narration player and pick Report a problem with this narration, then pick
+        what's wrong and press Copy report link.</small>
+    </label>
+    <p class="fb-status" id="cr-paste-status" role="status" hidden></p>
+  </section>
+
+  <form class="fb-form" id="cr-form" hidden>
+    <div class="fb-report" id="cr-preview"></div>
+    <div class="fb-pair" id="cr-name-row" hidden>
+      <label class="fb-field">
+        <span>Which name</span>
+        <input type="text" name="name" id="cr-name" maxlength="60" autocomplete="off" spellcheck="false">
+      </label>
+      <label class="fb-field">
+        <span>How it should sound</span>
+        <input type="text" name="say_as" id="cr-say" maxlength="80" autocomplete="off" spellcheck="false"
+          placeholder="e.g. tel-DRASS-il">
+      </label>
+    </div>
+    <label class="fb-field">
+      <span>Anything to add? <span class="fb-optional">(optional)</span></span>
+      <textarea name="note" id="cr-note" rows="3" maxlength="300"></textarea>
+    </label>
+    <!-- Honeypot: hidden from people, filled in by bots. -->
+    <label class="fb-trap" aria-hidden="true">Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+    <div class="fb-actions">
+      <button type="submit" class="btn-download" id="cr-send">Send report</button>
+      <span class="fb-optional" id="cr-who"></span>
+      <p class="fb-status" id="cr-status" role="status" hidden></p>
+    </div>
+  </form>
+
+  <section class="fb-done" id="cr-done" hidden>
+    <h2>Thank you!</h2>
+    <p id="cr-done-text">Got it.</p>
+    <p><a href="/">Back to Lore Forever</a> &middot; <a href="/discord?src=feedback">Chat on Discord</a></p>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Reports say which narration and voice, what's wrong and your note: never your character's name. How many reports
+    a narration has may be shown on the site; what they say isn't.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<script type="module">
+import { decodeClipReport, describeClip, describeVoice, REASONS } from "/clip-report-code.js";
+
+const $ = id => document.getElementById(id);
+const STASH = "lf-clip-report";   // the code, kept across a sign-in round trip (the fragment is gone by then)
+const stash = {
+  get() { try { return sessionStorage.getItem(STASH); } catch (e) { return null; } },
+  set(v) { try { v ? sessionStorage.setItem(STASH, v) : sessionStorage.removeItem(STASH); } catch (e) {} },
+};
+let report = null;
+
+function status(id, text) { $(id).textContent = text || ""; $(id).hidden = !text; }
+
+function row(name, value) {
+  const p = document.createElement("p");
+  const b = document.createElement("strong");
+  b.textContent = name + ": ";
+  p.append(b, value);
+  return p;
+}
+
+const PROBLEMS = { cut: "The link looks cut short. Copy the whole link from the game again.",
+                   checksum: "The link looks cut short. Copy the whole link from the game again.",
+                   fields: "That report link isn't one we can read. Is your Lore Forever up to date?" };
+
+function show(r) {
+  report = r;
+  $("cr-paste").hidden = true;
+  $("cr-form").hidden = false;
+  $("cr-preview").replaceChildren(
+    row("Narration", describeClip(r.clip)),
+    row("Voice", describeVoice(r.voice)),
+    row("What's wrong", REASONS[r.reason]),
+    Object.assign(document.createElement("small"), {
+      textContent: "Also sent: which recording it was and your add-on version" + (r.locale ? " and language (" + r.locale + ")" : "") + ".",
+    }));
+  $("cr-name-row").hidden = r.reason !== "name";
+  $("cr-name").value = r.name || "";
+  $("cr-say").value = r.say_as || "";
+  $("cr-note").value = r.note || "";
+  stash.set(r.code);
+}
+
+function read(text) {
+  const r = decodeClipReport(text);
+  if (r && r.ok) { show(r); return true; }
+  $("cr-form").hidden = true;
+  $("cr-paste").hidden = false;
+  status("cr-paste-status", r ? PROBLEMS[r.error] : text ? "There's no report in that link." : "");
+  return false;
+}
+
+// The report from the address (then out of the address bar, so it isn't kept in history or shared by accident),
+// else the one kept before a sign-in.
+const fromUrl = location.href.includes("c=LCR1") || /c=LCR1%7E/i.test(location.href);
+if (fromUrl) {
+  read(location.href);
+  history.replaceState(null, "", location.pathname);
+} else if (!stash.get() || !read(stash.get())) {
+  read("");
+}
+$("cr-link").addEventListener("input", e => read(e.target.value));
+
+// Signed in: say so (it counts for more). Signed out: an optional sign-in that comes back here.
+fetch("/api/auth/me", { cache: "no-store" }).then(r => r.json()).then(me => {
+  if (me.user) {
+    $("cr-who").textContent = "Sending as " + (me.user.display_name || "you") + ".";
+  } else if (me.ok) {
+    const a = Object.assign(document.createElement("a"), { href: "/account?next=/clip-report", textContent: "Sign in" });
+    $("cr-who").replaceChildren("Optional: ", a, " and your report counts double.");
+  }
+}).catch(() => {});
+
+$("cr-form").addEventListener("submit", async e => {
+  e.preventDefault();
+  if (!report) return;
+  status("cr-status", "");
+  const send = $("cr-send");
+  send.disabled = true;
+  send.textContent = "Sending...";
+  const form = Object.fromEntries(new FormData($("cr-form")));
+  const body = { code: report.code, note: form.note, website: form.website };
+  if (report.reason === "name") Object.assign(body, { name: form.name, say_as: form.say_as });
+  try {
+    const r = await fetch("/api/clip-report", {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
+    });
+    const res = await r.json().catch(() => ({}));
+    if (res.ok) {
+      stash.set(null);
+      $("cr-form").hidden = true;
+      $("cr-done").hidden = false;
+      $("cr-done-text").textContent = res.open > 1
+        ? `${res.open} players have reported this narration now, so it's in line to be recorded again.`
+        : res.signedIn ? "Your report puts it in line to be recorded again."
+        : "Once another player reports it too, it's recorded again.";
+      return;
+    }
+    status("cr-status", res.error || "Something went wrong. Please try again in a minute.");
+  } catch (err) {
+    status("cr-status", "Couldn't reach the server. Check your connection and try again.");
+  }
+  send.disabled = false;
+  send.textContent = "Send report";
+});
+</script>
+</body>
+</html>

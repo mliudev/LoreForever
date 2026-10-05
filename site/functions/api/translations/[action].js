@@ -1,7 +1,9 @@
 // The translation dashboard's API (/translate/dashboard, /account). Translators sign in with their Lore Forever account
 // (lib/accounts.js); each saved edit goes into D1 (translation_edits) and, unless it is rejected as spam or
 // vandalism, into the language with the next `python -m lore.kit pull`. There is no approval step: Mike doesn't
-// speak these languages, and native speakers review on Discord. The checks in public/translate/check.js guard the form.
+// speak these languages, and native speakers review on Discord. The checks in public/translate/check.js guard the form
+// and every save here, among them a slur blocklist (public/translate/blocklist.js) and a length check against the
+// English; lore.kit checks again on pull and when it builds a language pack.
 // like.js and report.js next to this file take their own paths first.
 //
 // Signed in (session cookie):
@@ -15,8 +17,12 @@
 //   POST /api/translations/save       {locale, id, en, text}: saves your edit of one string (empty text withdraws it)
 //   POST /api/translations/import     {locale, edits: [{id, en, text}]}: an uploaded kit, up to 200 strings a call
 // Admin key (lib/auth.js), for /admin and lore.kit:
-//   GET  /api/translations/review?status=new&locale=deDE   recent edits (new = saved, not pulled yet), with who made them
-//   POST /api/translations/decide     {ids: [...], status: "rejected" | "new"}: reject spam, or restore
+//   GET  /api/translations/review?status=new&locale=deDE   edits, newest first, with who made them: {edits, total, offset}
+//                                     (status new = saved, not pulled yet; or rejected, pulled, all); &user=<id> one
+//                                     translator, &q= search, &offset= and &limit= (up to 2000) a page (/admin/edits)
+//   GET  /api/translations/summary    {locales, translators}: saved, pulled and rejected per language and per translator
+//   POST /api/translations/decide     {ids: [...], status: "rejected" | "new"}: reject spam, or restore; or
+//                                     {user: "<id>", locale?, status}: all of one translator's saved (or rejected) edits
 //   GET  /api/translations/export?locale=deDE             saved edits not pulled or rejected, and the language's likes,
 //                                                         for lore.kit pull and lore.kit community
 //   POST /api/translations/pulled     {ids: [...]}: lore.kit pull marks what it imported (lore.kit community: what
@@ -166,7 +172,7 @@ async function save({ env }, input, user) {
     if (mine) await env.DB.prepare("DELETE FROM translation_edits WHERE id = ?").bind(mine.id).run();
     return ok({ status: null });
   }
-  const why = problem(id, en, text);
+  const why = problem(id, en, text, locale);
   if (why) return fail(400, why);
   if (mine) {
     await env.DB.prepare("UPDATE translation_edits SET text = ?, en = ?, updated = ?, status = 'new' WHERE id = ?").bind(text, en, now, mine.id).run();
@@ -215,7 +221,7 @@ async function importEdits({ env }, input, user) {
     if (!ID.test(id) || !en || en.length > MAX_TEXT) why = "That string isn't one of ours.";
     else if (!text) why = "Empty.";
     else if (text.length > MAX_TEXT) why = "That's too long to save.";
-    else why = problem(id, en, text);
+    else why = problem(id, en, text, locale);
     if (why) { results.push({ id, error: why }); continue; }
     if (mine.has(id)) {
       writes.push(env.DB.prepare("UPDATE translation_edits SET text = ?, en = ?, updated = ?, status = 'new' WHERE id = ?")
@@ -240,25 +246,84 @@ async function importEdits({ env }, input, user) {
 
 const idList = input => (Array.isArray(input.ids) ? input.ids : []).map(n => Number.parseInt(n, 10)).filter(n => n > 0).slice(0, 5000);
 
-async function review({ env, request }) {
-  const url = new URL(request.url);
-  const status = ["new", "accepted", "rejected", "pulled"].includes(url.searchParams.get("status")) ? url.searchParams.get("status") : "new";
-  const locale = localeParam(request);
-  const { results } = await env.DB.prepare(
-    "SELECT e.id, e.locale, e.string_id, e.en, e.text, e.status, e.created, e.updated, e.reviewed, " +
-    "u.display_name, u.email FROM translation_edits e LEFT JOIN users u ON u.id = e.user_id " +
-    "WHERE e.status = ?" + (locale ? " AND e.locale = ?" : "") + " ORDER BY e.id DESC LIMIT 2000"
-  ).bind(...(locale ? [status, locale] : [status])).all();
-  return ok({ edits: results });
+// What ?status= shows in review: new is every saved edit still waiting for lore.kit pull (accepted counts as new).
+const REVIEW_STATUS = { new: ["new", "accepted"], accepted: ["accepted"], rejected: ["rejected"], pulled: ["pulled"], all: null };
+const USER_ID = /^[\w-]{1,64}$/;
+
+// review's WHERE: status, language, one translator (?user=<id>) and ?q=, a search through the string id, both texts
+// and the translator's name and email.
+function reviewFilter(url, locale) {
+  const where = [], args = [];
+  const status = url.searchParams.get("status");
+  const statuses = Object.hasOwn(REVIEW_STATUS, status) ? REVIEW_STATUS[status] : REVIEW_STATUS.new;
+  if (statuses) { where.push(`e.status IN (${statuses.map(() => "?").join(", ")})`); args.push(...statuses); }
+  if (locale) { where.push("e.locale = ?"); args.push(locale); }
+  const user = url.searchParams.get("user") || "";
+  if (USER_ID.test(user)) { where.push("e.user_id = ?"); args.push(user); }
+  const q = (url.searchParams.get("q") || "").trim().slice(0, 100);
+  if (q) {
+    const like = "%" + q.replace(/[\\%_]/g, c => "\\" + c) + "%";
+    where.push("(" + ["e.string_id", "e.text", "e.en", "u.display_name", "u.email"].map(c => `${c} LIKE ? ESCAPE '\\'`).join(" OR ") + ")");
+    args.push(like, like, like, like, like);
+  }
+  return { sql: where.length ? " WHERE " + where.join(" AND ") : "", args };
 }
 
+// Newest first, a page at a time (?offset=, ?limit= up to 2000, the default), with the total that match.
+async function review({ env, request }) {
+  const url = new URL(request.url);
+  const { sql, args } = reviewFilter(url, localeParam(request));
+  const limit = Math.min(Math.max(Number.parseInt(url.searchParams.get("limit"), 10) || 2000, 1), 2000);
+  const offset = Math.max(Number.parseInt(url.searchParams.get("offset"), 10) || 0, 0);
+  const from = " FROM translation_edits e LEFT JOIN users u ON u.id = e.user_id" + sql;
+  const [{ results }, total] = await Promise.all([
+    env.DB.prepare(
+      "SELECT e.id, e.user_id, e.locale, e.string_id, e.en, e.text, e.status, e.created, e.updated, e.reviewed, " +
+      "u.display_name, u.email" + from + " ORDER BY e.id DESC LIMIT ? OFFSET ?"
+    ).bind(...args, limit, offset).all(),
+    env.DB.prepare("SELECT COUNT(*) AS n" + from).bind(...args).first("n"),
+  ]);
+  return ok({ edits: results, total, offset });
+}
+
+// Counts for /admin and /admin/edits: per language, and per translator (most edits waiting first), each with saved
+// (new or accepted: waiting for lore.kit pull), pulled and rejected, and the translators' edits in the last 7 days.
+async function summary({ env }) {
+  const week = new Date(Date.now() - 7 * 864e5).toISOString();
+  const counts = "SUM(e.status IN ('new', 'accepted')) AS saved, SUM(e.status = 'pulled') AS pulled, " +
+                 "SUM(e.status = 'rejected') AS rejected, MAX(e.updated) AS last";
+  const [{ results: locales }, { results: translators }] = await Promise.all([
+    env.DB.prepare(`SELECT e.locale, ${counts} FROM translation_edits e GROUP BY e.locale ORDER BY saved DESC, e.locale`).all(),
+    env.DB.prepare(
+      `SELECT e.user_id, u.display_name, u.email, group_concat(DISTINCT e.locale) AS locales, ${counts}, ` +
+      "SUM(e.updated >= ?) AS week FROM translation_edits e LEFT JOIN users u ON u.id = e.user_id " +
+      "GROUP BY e.user_id ORDER BY saved DESC, last DESC LIMIT 1000"
+    ).bind(week).all(),
+  ]);
+  return ok({ locales, translators });
+}
+
+// {ids: [...], status}, or {user: "<id>", locale?, status}: all of one translator's edits (in one language) at once.
+// For a translator, "rejected" takes every saved edit and "new" restores every rejected one. Pulled edits never change.
 async function decide({ env }, input) {
+  if (!["accepted", "rejected", "new"].includes(input.status)) return fail(400, "Needs ids and a status.");
+  const reviewed = input.status === "new" ? null : new Date().toISOString();
+  if (input.user !== undefined) {
+    if (typeof input.user !== "string" || !USER_ID.test(input.user) || input.status === "accepted") {
+      return fail(400, "Needs a user and a status of rejected or new.");
+    }
+    const locale = LOCALE.test(input.locale || "") ? input.locale : null;
+    const from = input.status === "rejected" ? "('new', 'accepted')" : "('rejected')";
+    const res = await env.DB.prepare(
+      `UPDATE translation_edits SET status = ?, reviewed = ? WHERE user_id = ?${locale ? " AND locale = ?" : ""} AND status IN ${from}`
+    ).bind(input.status, reviewed, input.user, ...(locale ? [locale] : [])).run();
+    return ok({ updated: res.meta?.changes ?? 0 });
+  }
   const ids = idList(input);
-  if (!["accepted", "rejected", "new"].includes(input.status) || !ids.length) return fail(400, "Needs ids and a status.");
-  const now = new Date().toISOString();
+  if (!ids.length) return fail(400, "Needs ids and a status.");
   await env.DB.batch(ids.map(id => env.DB.prepare(
     "UPDATE translation_edits SET status = ?, reviewed = ? WHERE id = ? AND status != 'pulled'"
-  ).bind(input.status, input.status === "new" ? null : now, id)));
+  ).bind(input.status, reviewed, id)));
   return ok({ updated: ids.length });
 }
 
@@ -284,7 +349,7 @@ async function pulled({ env }, input) {
 
 const USER_GETS = { edits, reports, pack };
 const USER_POSTS = { languages, save, import: importEdits };
-const ADMIN_GETS = { review, export: exportAccepted };
+const ADMIN_GETS = { review, summary, export: exportAccepted };
 const ADMIN_POSTS = { decide, pulled };
 
 export async function onRequest(context) {

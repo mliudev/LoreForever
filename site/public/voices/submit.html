@@ -23,10 +23,16 @@
 <body>
 
 <header class="top">
-  <div class="wrap top-row">
-    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/voices">Voices</a> &rsaquo; Send your recordings</span>
-    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
-  </div>
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+  <div class="wrap subcrumb"><span class="crumb"><a href="/voices/studio">Record your voice</a> &rsaquo; Send your recordings</span></div>
 </header>
 
 <main class="wrap fb-page">
@@ -103,23 +109,22 @@
       <p class="vp-note">So we can ship your recordings, you give us permission to share them in Lore Forever voice
         packs under CC BY-SA 4.0. It's one page in plain language:
         <a href="/voices/release" target="_blank">read the narrator release</a>.</p>
-      <!-- The version must match RELEASE_VERSION in functions/api/voices.js and the one on /voices/release. -->
-      <input type="hidden" name="release" value="2026-09-29">
+      <!-- The version must match RELEASE_VERSION in lib/submissions.js and the one on /voices/release. -->
+      <input type="hidden" name="release" value="2026-10-03">
       <label class="fb-check">
         <input type="checkbox" name="agree" value="on" required>
         <span>I've read and agree to the <a href="/voices/release" target="_blank">narrator release</a>
-          (version 2026-09-29).</span>
+          (version 2026-10-03).</span>
       </label>
       <label class="fb-check">
         <input type="checkbox" name="adult" value="on" required>
-        <span>I'm 18 or older. Or I'm under 18, and my parent or guardian has read the release, agrees to it, and
-          signs below.</span>
+        <span>I'm 18 or older.</span>
       </label>
       <label class="fb-field">
         <span>Signature</span>
         <input type="text" name="signature" maxlength="100" required autocomplete="name" placeholder="Your full name">
-        <small>Typing your full name here signs the release. If you're under 18, your parent or guardian types
-          theirs. We keep it with your agreement and never publish it: only your credit line is shown.</small>
+        <small>Typing your full name here signs the release. We keep it with your agreement as proof of it and never
+          publish it: only your credit line is shown (<a href="/privacy" target="_blank">privacy</a>).</small>
       </label>
     </fieldset>
 
@@ -136,6 +141,7 @@
 <footer class="wrap foot">
   <p>Your email or Discord handle is used only to talk with you about your recordings.</p>
   <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>

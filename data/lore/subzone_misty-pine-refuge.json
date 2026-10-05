@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Misty Pine Refuge"
  },
- "summary": "Misty Pine Refuge is a small haven tucked amidst the frigid snows of central Dun Morogh. Maintained with the aid of the Argent Dawn and local volunteers, it provides warmth and shelter to displaced travelers and refugees.",
+ "summary": "Misty Pine Refuge is a small outpost building of the Argent Dawn tucked amidst the frigid snows of central Dun Morogh.",
  "sections": [
   {
    "title": "Shelter in the Snow",
-   "body": "Situated amid the windswept hills of Dun Morogh, Misty Pine Refuge serves as an unassuming sanctuary for those enduring hardship in the dwarven realm. While the surrounding crags are patrolled by Ironforge mountaineers, this small outpost relies heavily on the compassionate presence of Father Gavin, an agent of the Argent Dawn, alongside dedicated volunteers like Buin 'Phloppy' Freehand. Displaced dwarves and gnomes frequently seek rest by its hearth, finding temporary reprieve from the bitter elements and the perils that threaten the mountain roads.",
+   "body": "Situated amid the windswept hills of Dun Morogh, Misty Pine Refuge is an unassuming outpost of the Argent Dawn in the dwarven realm. While the surrounding crags are patrolled by Ironforge mountaineers, the refuge is home to Father Gavin, the order's lone agent here, who offers a quiet hearth amid the bitter elements and the perils that threaten the mountain roads.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "misty pine",
     "misty pine refuge overview"
    ],
-   "answer": "It is an outpost building in central Dun Morogh that provides lodging and aid to displaced refugees, overseen in part by an Argent Dawn priest and local helpers."
+   "answer": "It is an outpost building of the Argent Dawn in central Dun Morogh, kept by a single agent of the order, Father Gavin."
   },
   {
    "q": "Why is the Argent Dawn here in Dun Morogh?",
@@ -32,35 +32,28 @@
     "father gavin argent dawn",
     "argent dawn dwarf lands"
    ],
-   "answer": "While the Argent Dawn focuses primarily on the undead menace in the north, agents like Father Gavin travel across Alliance territories to offer spiritual solace, heal the wounded, and extend charitable aid wherever refugees gather."
+   "answer": "While the Argent Dawn focuses primarily on the undead menace in the north, agents like Father Gavin keep watch from quieter corners of the Alliance's lands as well."
   },
   {
    "q": "Who stays at the refuge?",
    "aliases": [
     "who is at misty pine",
-    "refugees in misty pine",
     "misty pine npcs"
    ],
-   "answer": "The outpost primarily shelters displaced dwarven and gnomish travelers seeking protection from the harsh mountain wilderness. It is staffed by Father Gavin and a generous volunteer named Buin 'Phloppy' Freehand."
+   "answer": "Father Gavin, an agent of the Argent Dawn, is the only member of the order stationed at the refuge."
   }
  ],
  "angles": [
   {
-   "target": "race:Dwarf",
-   "text": "Even within the heartland of Khaz Modan, unfortunate travelers sometimes lose their way or their livelihood to the wilderness; Misty Pine Refuge offers kinship and shelter to kin in need."
-  },
-  {
    "target": "class:Priest",
-   "text": "Father Gavin's humble ministry demonstrates that the Light's greatest service often lies in offering simple warmth and comfort to weary travelers far from the battlefields."
+   "text": "Father Gavin's humble post demonstrates that the Light's service often lies in quiet vigilance far from the battlefields."
   }
  ],
  "keywords": [
   "argent dawn",
   "dun morogh",
   "father gavin",
-  "misty pine refuge",
-  "phloppy",
-  "refugees"
+  "misty pine refuge"
  ],
  "related": [
   "zone:dunmorogh",

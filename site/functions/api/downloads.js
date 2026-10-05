@@ -28,6 +28,7 @@ export async function githubDownloads(env) {
   for (let page = 0; url && page < 10; page++) {
     const r = await getJson(url, { Accept: "application/vnd.github+json", ...auth });
     for (const rel of await r.json()) {
+      if (rel.tag_name === "audio") continue;   // the release build's recordings (LOR-133), not a player download
       for (const a of rel.assets || []) if (/\.(zip|exe)$/i.test(a.name)) n += a.download_count || 0;
     }
     url = /<([^>]+)>;\s*rel="next"/.exec(r.headers.get("link") || "")?.[1];

@@ -27,6 +27,9 @@ A static landing page and feedback page (`public/`) plus small Cloudflare Pages 
 `functions/_middleware.js` redirects old addresses once the site has its own domain; see [DOMAIN.md](DOMAIN.md).
 **`public/_routes.json` lists which paths run Functions: a new function outside `/api/*` and `/download/*` needs
 its path added there**, or Pages serves a 404 instead.
+Every page is sent with `X-Frame-Options: DENY` (nothing frames our pages, so nobody can overlay the account page's
+buttons) and `Referrer-Policy: strict-origin-when-cross-origin`: `/*` in `public/_headers` for files, and
+`functions/_middleware.js` for Function responses, which Pages doesn't apply `_headers` to. There's no CSP.
 
 ## Fill in before going live
 
@@ -84,13 +87,32 @@ Left out: `171159` (item tooltip) shows a "Keep: wanted for the quest" line that
   clicks (counts only, no addresses). Both `GET /api/stats` and `GET /api/click` need the admin key (see
   Private dashboard below):
   `curl -s -H "Authorization: Bearer $FEEDBACK_KEY" https://loreforeverwow.com/api/stats`
+- **The daily IP hash** (`senderHash` in `lib/form.js`) is how every form and like counts "one sender per day" without
+  keeping addresses: SHA-256 of that day's random salt, the day and the IP, cut to 24 hex characters. The salts are in
+  D1 `daily_salts` (created on first use). The request that makes a new day's salt also deletes the salts from
+  before yesterday and replaces earlier days' stored hashes (`ip_hash` in `voice_likes` and `translation_likes`,
+  `sender` in the form tables) with random values, so like counts stay the same and an old hash can't be turned back
+  into an address, even by trying every IPv4 address. The unsalted hashes from before 2026-10-03 go the same way.
 - **Emails:** the optional sign-up box at the bottom of the page saves straight into the same D1 database, table
   `subscribers` (email, source, created_at), through `functions/api/subscribe.js`. Its source is `landing-page`;
   rows with `download-popup` came from the email pop-up before downloads, removed in LOR-77.
   No confirmation email. To see them: Cloudflare dashboard > Storage & databases > D1 > `loreforever` > Console,
   then run `SELECT email, source, created_at FROM subscribers ORDER BY created_at DESC;`
-  There's no public way to list them. When you email this list, include an unsubscribe link.
+  There's no public way to list them. **Unsubscribing is self-serve:** `/unsubscribe` (`public/unsubscribe.html`)
+  posts to `functions/api/unsubscribe.js`, which deletes the address and always answers "Done", so it never says
+  whether an address was on the list. When you email this list, link https://loreforeverwow.com/unsubscribe.
+  Both endpoints only take posts from our own pages (Origin check) and cap each sender per day (20 sign-ups, 10
+  unsubscribes; `PER_DAY` in `lib/subscribers.js`), counted by the daily IP hash in `rate_limits`
+  (`perDayFromIp` in `lib/ratelimit.js`).
 - **Visits:** Cloudflare Web Analytics, turned on in the dashboard on 2026-09-27 (no code, no cookies, no cookie banner). See it under the Pages project > Metrics.
+
+## Privacy page
+
+`public/privacy.html` (https://loreforeverwow.com/privacy) says in plain language what the site keeps, why, who else
+handles it (Cloudflare, Google, Discord, GitHub/CurseForge), what "Delete my account" removes and what stays. Every
+footer links it (`page()` in `lib/voices.js` and each static page; `site/tests/privacy.test.mjs` fails if one doesn't),
+and so do the account page's "What we keep", the sign-up box, the voice studio's release box and the narrator release.
+It must stay true to the code: a feature that stores something new about people updates it and its date.
 
 ## Feedback form
 
@@ -140,16 +162,54 @@ curl -s -H "Authorization: Bearer $FEEDBACK_KEY" "https://loreforeverwow.com/api
 
 Or in the Cloudflare dashboard: D1 > `loreforever` > Console, `SELECT * FROM feedback ORDER BY id DESC`.
 
-## Voice list and likes
+## Clip reports (LOR-232)
 
-`/voices` puts the **list of voices** first: one compact row per voice (▶ sample, name and credit, tagline, 👍,
-Download), with language filters (once there's more than one language) and Featured / Most liked sorting.
-**Make a voice** is a small side card (below the list on phones). The rows come from
-**`public/voices/voices.json`**: `functions/voices/index.js` reads it (through `env.ASSETS`) and renders `voiceRow()`
-(`lib/voices.js`) per entry into the `<!-- voice-list -->` mark in `public/voices.html`, and the buttons into
-`<!-- voice-filters -->`, with each voice's like count, so the list works without JavaScript (`public/voices/player.js`
-adds play-in-place, filtering and sorting; Featured is voices.json order). The house narrators are ordinary entries, listed like any community
-voice.
+Players report a recording that's wrong (a name said wrong, the wrong voice, cut off, a stage direction read out...)
+from the add-on's narration player: right-click > Report a problem with this narration (or its small cross, off by
+default: Options > Show the report button on the narration player) gives a link to `/clip-report#c=LCR1~...`. `public/clip-report.html` reads the report from the fragment, takes it out of the
+address bar, shows it and sends it with one click; no sign-in (a signed-in report counts for more). Any other page
+can post the same report (the narration browser's report button does). API, fields and the code's format:
+[CLIP_REPORT_API.md](CLIP_REPORT_API.md).
+
+- **Nothing waits on Mike:** `uv run python -m lore.clipreports pull` (the nightly narration routine runs it) queues a
+  clip for re-recording once 2+ people report it, or 1 signed-in player, and adds a name's sound to the pronunciation
+  lexicon once 2+ people (or 1 signed in) give it. `/admin` > Clip reports only rejects spam, all of one uploader's
+  open reports at once (Restore undoes it).
+- **Public:** each clip's open-report count (`GET /api/clip-report/counts`). The reports' text stays private.
+- **Spam:** honeypot, at most 30 new reports per sender per day (daily IP hash), one open report per person, clip and
+  voice (sending again updates it), text capped at 60 / 80 / 300 characters. Table `clip_reports` (in `lib/accounts.js`
+  `SETUP`; "Delete my account" removes a user's reports).
+- Tests: `site/tests/clip-report.test.mjs`; `site/tests/fixtures/clip-report-codes.json` pins the add-on's codes
+  (`pipeline/tests/wow_sim.py` checks the add-on against it).
+
+## Site header and What's new (LOR-222)
+
+Every page has the same header: the brand, **Download** (`/downloads`), **What's new** (`/whats-new`) and
+**Community** (`/feedback` without JavaScript), and on the right **Make your profile** (`/account#profile`; **Your
+profile**, `/u/me`, once signed in) next to **Sign in** or the account chip. The markup is `SITE_NAV` in `lib/voices.js`; each static page in
+`public/` carries a copy and `site/tests/nav.test.mjs` fails if one differs, so change them together. Deeper pages add
+a breadcrumb row under it (`.subcrumb`). `public/header.js` marks the link for the section you're on, turns Community
+into its menu (Discord, Send feedback, Request a feature, Report a bug, then Record your voice, Translate and Contributors), switches
+the profile link and adds the chip from `GET /api/auth/me`. Phones get two rows: the brand, the profile link and the account,
+then the other three links.
+
+**What's new** is `public/whats-new.html`: every version's notes, newest first, its headline changes as cards (the
+first three with a bold lead-in). The home page's **"New in X.Y" strip** (`#newbar`, under the header) links to it,
+and the What's new link gets a green dot while there's a version the visitor hasn't seen. "Seen" is `lf-seen` in
+localStorage, set by opening What's new, following the strip or closing it; a first visit gets no dot, and the strip
+stays until it's closed. **All three come from `CHANGELOG.md`**: `scripts/changelog.py site` writes the page, the strip
+and `LATEST` in `header.js` along with the Changelog tab, and `scripts/release.sh` runs it at the stamp
+(`pipeline/tests/test_changelog_site.py` checks the copies are current).
+
+## Downloads, voice list and likes
+
+`/downloads` (`public/downloads.html`, filled in by `functions/downloads/index.js`) has every file a player might
+want: Lore Forever itself (installer, zip, CurseForge), then the narrator voices as a section, then the languages.
+It was `/voices` until 2026-10-03; `functions/voices/index.js` now sends `/voices` there with a 301 (the add-on, old
+videos and the CurseForge description may say either), and the voice pages under `/voices/` stay where they are.
+The voice rows come from **`public/voices/voices.json`** through `lib/downloads.js`, with each voice's like count, so
+the list works without JavaScript (`public/voices/player.js` plays samples in place and handles the likes). The house
+narrators are ordinary entries, listed like any community voice.
 
 - **Adding a voice:** add one entry to `voices.json` (id, name, credit, language, clips, coverage, tagline, sample,
   download) and put its sample under `public/audio/voices/`. `status: "soon"` lists it with a placeholder and no
@@ -169,8 +229,9 @@ voice.
 
 - **Profiles:** `/voices/<id>` (`functions/voices/[id].js`) is built from the same `voices.json` entry for every voice,
   house narrators included: name, bio, avatar, all samples, like button, download. Any other `/voices/<name>`
-  falls through to the static page. `/voices/contributors` (`functions/voices/contributors.js`) groups the voices
-  by who made them. Page templates are in `lib/voices.js`.
+  falls through to the static page. `/contributors` groups the voices by who made them, next to the translators and
+  text finders (see "Contributors and credit" below); its old address `/voices/contributors` redirects there. Page
+  templates are in `lib/voices.js`.
 - **Accounts** (`lib/accounts.js`, API in `functions/api/auth/[action].js`, page `/account`): one Lore Forever
   account for every kind of contributor (per-user tables go in `SETUP` and `USER_DATA` there, so "Delete my
   account" removes them). Sending a voice from `/voices/submit` or feedback from `/feedback` requires it; playing,
@@ -217,6 +278,41 @@ to `/account#profile` when there's none yet).
   class, faction, realm, favorite spec), stat tiles, the story, the road so far (lands in the order first reached),
   then cards for bosses, dungeons, notable kills, most fought, best finds, mounts, professions, reputation and books,
   and a "Make your own" box (Download for Windows, Make your profile). OG and Twitter tags for link previews.
+- **The journey in numbers (LOR-246):** since LOR-246 the add-on keeps a small tally per character (`Journey.lua`, "The
+  tally": yards walked per zone from a running count, a look every 2.5 seconds from the update on, kills by creature
+  type and rank, deaths, time online, the last `/played`) and prints it first in the record as "Journey stats", always
+  the same lines in the same order, then
+  "Yards walked, by land" and "Foes slain, by kind" as `Name: n` lists. `lib/journey.js` reads them into `data.stats`
+  (by their words in the record's language or English, else by their place, so a newer translation still reads;
+  `null` for an older add-on's record, which imports as before), and `lib/profile-stats.js` shows them under the stat
+  tiles: steps walked (1.2 to the yard, `STEPS`, as the add-on counts them; Mike's call), foes slain, elites, rares and
+  time played, a few lines told for fun ("the road from Goldshire to Booty Bay 3 times over") and where the steps went
+  and foes by kind. Distances beside the steps are in miles; **Distances in miles / kilometres** (`public/js/units.js`,
+  shown only with the script) switches them all and is remembered in the browser. It's the character's journey, not
+  combat detail: no ranks or comparisons with other players. With stats, the Deaths tile counts every death.
+- **The journey, moment by moment (LOR-248,** `lib/trails.js`, `public/js/journey.js`**):** the site's take on the
+  add-on's Journey tab (LOR-242). `lib/journey.js` keeps the record's moments in time order (`timeline`:
+  `[section, index, day]`, the day only, never the hour; the record's times have no year, so it's the latest one
+  that isn't in the future). The page lists them newest first by day, the latest 25 open and the rest folded, with
+  filter chips (Places, Quests, People, Foes, Finds, Deaths, More). Each moment has its **trails**, in-page links
+  (`#m-<n>`, dotted) that only ever lead to other moments of the same record, so nothing goes past what the player
+  did: a quest to meeting whoever gave it, a person to their quests, a quest to the player's earlier and later
+  chapters of its storyline (shown only as "Storyline · <zone>: <name>", no step numbers), "Last time here" / "Next
+  time here" to the previous and next visit to the same place (moments in the same zone that name only the zone don't
+  end a visit), a quest reward to its quest, and a death to the foe beaten later. `public/js/journey.js` unfolds and
+  unfilters a moment a trail leads to, marks it and moves focus there; Back walks the trail back. Without JavaScript
+  every moment is still there and the trails are plain anchors.
+  - *Lore links* follow the **`lore` feature** (the lore pages are noindex and linked from nowhere until it's on):
+    then each moment's name links its page (quest, character, boss, place, zone or dungeon), and the road and the
+    cards link theirs. Items, books, mounts and factions have no lore pages yet: those moments link the place they
+    happened. Names are matched through `public/lore/data/links.json` (`pipeline/lore/site_lore.py`
+    `profile_links`: the pages by name, each quest's giver and storyline, a storyline's same-titled chapters in
+    chapter order so the nth one done never links a later chapter). The lore pages are in English, so a record in
+    another language links only the names that read the same.
+  - *No map:* the in-game map draws positions the record doesn't carry, and the site has no map art. The road so far
+    stays a list of lands.
+  - Profiles saved before this have no `timeline`: they show as before, and their owner gets a line asking to update
+    (the companion's next sync or a paste brings it).
 - **The story:** with the Pages secret **`GEMINI_API_KEY`** (Production and Preview; optional; use a paid-tier key,
   whose prompts Google doesn't use for training), each import writes one with `gemini-3.1-flash-lite` (a
   `STORY_MODEL` variable can name another model, but only one with a price in `STORY_PRICES` is ever called): third
@@ -237,8 +333,108 @@ to `/account#profile` when there's none yet).
   Contributors lists each account's profile (character, level, class, public or private, link) and links, with a
   "Players" filter and CSV columns. The account page promises email only about feedback and contributions, so
   reach players through their public links.
+- **Kept up to date by the companion (LOR-148):** the companion app can update the profile by itself after every
+  `/reload` or logout, so nobody pastes again (`companion/README.md`, "Your profile on loreforeverwow.com").
+  - *Connecting* is a device code, as a TV signs in (`lib/devices.js`, API `functions/api/device/[action].js`): the
+    companion asks `POST /api/device/start` and opens **`/link?code=XXXX-XXXX`** (`public/link.html`, noindex); the
+    player signs in there (Google) and clicks **Connect** (`POST /api/device/approve`; Not now: `deny`); the companion,
+    asking `POST /api/device/token` every 3 seconds, then gets its own token, once. Codes last 10 minutes, are 8
+    characters without vowels or look-alikes, and are typed any way. D1 keeps only SHA-256 hashes, of the link's
+    secret device code (`device_links`) and of each app's token (`devices`), like sessions. Rate limits: 20 links an
+    hour and 60 polls a minute per sender (daily IP hash), 10 approvals a minute per account.
+  - *A token* (`Authorization: Bearer`) can only update its account's profile (`POST /api/profile/sync`) and read
+    which character it shows (`GET /api/device/status`). It's revoked by **Connected apps › Disconnect** on
+    `/account`, by the companion's Disconnect (`POST /api/device/disconnect`), by Delete my profile (a companion
+    still connected would make it again), after a year unused, and with the account (`devices` and `device_links` are
+    in `SETUP` and `USER_DATA`).
+  - *An update* is a paste, read the same way, with three differences: it never switches the profile to another
+    character (409 with the profile's `{name, realm}`, and the companion sends that character instead; switching is
+    still a paste on `/account`); a record whose facts haven't changed writes nothing (`{unchanged: true}`); and the
+    story isn't rewritten on every `/reload` (below). 6 a minute and 60 an hour per account.
+  - *Stories from updates* (`lib/profiles.js` `storyDue`): the game fires the same event for `/reload` and logout, so
+    "on logout" can't be told apart. An update writes a new story only when there's **something new to tell** since
+    the last written one (a level, a new land, dungeon, boss or mount, or 5 more quests: `movedOn` against
+    `profiles.story_basis`) **and at least 6 hours since the last try** (`profiles.story_at`, failed tries included),
+    within the same 3 a day and $100 a month as pastes. A profile with no written story gets one on its first update.
+    So an evening's play costs at most one story (about $0.0006), not one per `/reload`. A paste still writes one each
+    time (within the daily allowance).
+  - `/account` lists **Connected apps** (when it last updated the profile, Disconnect) and says in the profile section
+    that the companion keeps it up to date. Until the companion ships in Setup.exe (LOR-132), the invitation to
+    connect it waits for the `companion` feature (below); connecting, updates and the list work either way.
 - Tests: `site/tests/journey.test.mjs` (the parser, including records the add-on itself makes, in
-  `tests/fixtures/journey/`) and `site/tests/profiles.test.mjs` (the API and the page end to end).
+  `tests/fixtures/journey/`), `site/tests/profiles.test.mjs` (the API and the page end to end),
+  `site/tests/devices.test.mjs` (connecting, tokens, Disconnect, updates and when they write a story) and
+  `site/tests/trails.test.mjs` (the timeline, names to lore pages, the trails and the journey on the page).
+
+## Contributors and credit (LOR-239)
+
+`/contributors` (`functions/contributors.js`, page and queries in `lib/credits.js`) thanks everyone who helps, in
+three sections: **Narrators** (the voices in `voices.json`, grouped by who made them, with each voice's narration
+count; a narrator's card keeps the `#c-<name>` anchor the voice pages link to), **Translators** (accepted or pulled
+`translation_edits`, each string counted once per language) and **Text finders** (accepted or shipped lines from the
+text intake at `/contribute`, LOR-235: the very list `GET /api/contribute/contributors` gives, `lib/contribute.js`
+`contributors()`, so the two always agree; "accepted" is defined there and in `site/CONTRIBUTE_API.md`). The old
+address `/voices/contributors` redirects there (301), and it's in the header's Community menu under Help out.
+
+- **No ranks:** translators and text finders are listed alphabetically, never by how much they sent; counts show
+  accepted work only. Narrators keep `voices.json` order (the house voices first). `/translate`'s "Translated by"
+  lines list people in the order they started.
+- **Only names people chose to show:** an account is listed by its display name, with its links, only when it ticked
+  "Show my name and links" on `/account` (`users.show_public`); otherwise it isn't listed at all, even under a nickname
+  it typed on an upload. A nickname typed without an account is listed as typed (the same name in any case counts
+  once). Anonymous uploads aren't listed; their lines still count in totals. "Delete my account" unlinks that
+  account's lines (`lib/contribute.js` `forgetUser`).
+- **The Text finders section** appears once someone has an accepted line, or, with the `contribute` feature on (see
+  "Unreleased features" below), as an invitation to send text. Until then the page doesn't link to `/contribute`.
+- **`GET /api/credits`** (public, cached a minute): the same lists as JSON. `GET /api/credits?release=0.8.0` gives
+  `{ok, release, lines, names}`: the community lines that shipped in that release (`status = 'shipped'`,
+  `shipped_in` set by `lore.contrib mark-shipped`) and the shown finders. `scripts/post-release.sh` reads it for the
+  announcement draft's "Thanks to this release's contributors: ..." line (Mike posts it; nothing posts automatically).
+  If the site can't be reached, the draft goes without that line and says why; the step never fails over it.
+- **Profile badges:** `/u/<handle>` shows small badges under the character for the account's accepted work:
+  **Narrator** (a released voice in `voices.json` with `"owner"` = the account), **Translator** (accepted or pulled
+  edits) and **Contributed N lines** (accepted lines it found first). They link to the sections of `/contributors`
+  and never carry the account's name; they show on the owner's own public profile even if they keep their name off
+  `/contributors`.
+- Every query survives missing tables (`contrib_lines` is made by the first upload): no rows, no section, no badge.
+- Tests: `site/tests/credits.test.mjs` (lines sent through the real `POST /api/contribute`, plus rows set to each
+  status; checks `/contributors` against `/api/contribute/contributors`).
+
+## Forever text progress (LOR-238)
+
+`/contribute/progress` (`functions/contribute/progress.js`, page in `lib/progress.js`, counters in
+`public/js/contribute-progress.js`) shows how much of what's new in WoW Forever we have: "Forever's new content: N
+quests captured, M narrated" (of the Forever-only quests we know of), a bar per zone (text captured, narrated drawn
+over it), live counters and a **Wanted** list of Forever quests and NPCs we know exist but have no text for, grouped by
+zone (lowest level first) and by level within each zone, with "pick it up in game and press Contribute". It leads with
+Forever's own content and shows counts, never global percentages. Phone first.
+
+- **Data:** `public/data/coverage.json`, written nightly by the ingest (`uv run python -m lore.contrib pull`, LOR-237):
+  `{generated, forever_only: {quests_known, quests_with_text, narrated}, zones: [{zone, quests, with_text, narrated}],
+  wanted: [{kind, id, name, zone, level}]}`. Read defensively (counts capped at their totals, names as plain text,
+  unknown kinds as quests, at most 40 wanted per zone on the page). Without the file the page says the first count
+  comes with the next nightly update, and still links to `/contribute`.
+- **Live counters:** lines sent in, accepted, contributors and the last upload, from `GET /api/contribute/stats` in the
+  browser, refreshed every five minutes while the tab is open. Without that API they stay hidden.
+- **Unreleased:** noindex (meta tag and `X-Robots-Tag`) until the `contribute` feature is on, like `/contribute`, which
+  links to it (and to `/contributors`); nothing else links to it. Its breadcrumb and buttons lead back to `/contribute`.
+- Tests: `site/tests/progress.test.mjs` (fixture `site/tests/fixtures/coverage.json`).
+
+## Unreleased features (the site flag)
+
+`lib/features.js` holds the site's switches for features that wait for an add-on release:
+`FEATURES = { contribute: false, zones: false, lore: false, companion: false }`. While a feature is off its pages still open by address (so previews and the
+develop site can test them) but are noindex, and nothing players see links to them. **Turn one on by setting it to
+`true` in the release that ships what it needs** (for `contribute`: the add-on release with the Contribute button,
+LOR-234); the pages then drop noindex and get their links. Code reads it with `featureOn(env, "contribute")`. The
+Pages variable `SITE_FEATURES` overrides the file without a code change (comma-separated; `contribute` turns it on,
+`-contribute` off), e.g. on Preview to test the "on" state.
+
+| Feature | Off | On |
+| --- | --- | --- |
+| `contribute` | `/contribute` and `/contribute/progress` are noindex; no Community menu link; `/contributors` doesn't link to `/contribute` | indexable; "Share Forever text" in the Community menu; `/contributors` invites text finders |
+| `zones` | "Claim a zone" (LOR-231) hidden; `/voices/zones` noindex and unlinked | the zone box, Zone filter and "Zones narrated" show |
+| `companion` | `/account` doesn't invite players to connect the companion (LOR-148); `/link`, updates and Connected apps still work | the profile section and an empty Connected apps say the companion can keep the profile up to date. On once Setup.exe ships the companion (LOR-132) |
 
 ## Volunteer narrators
 
@@ -252,11 +448,14 @@ The "Make a voice" card on `/voices` leads to four pages under `public/voices/`:
 | `/voices/lines.json` | The clip list as the upload page shows it: grouped like the add-on's Narrations tab, with the question, text, hash and pronunciation hints of each line in English and in every language that has a current translation of it. Written by `voicepack clips` next to `clips.csv` (so `scripts/release.sh` refreshes both). Excluded from Functions. |
 | `/voices/submit` | The folder-link form (below), kept for people who'd rather share a folder. Sends the narrator to `/voices/thanks`. |
 | `/voices/release` | The narrator release, a plain-language agreement with a version date (see "Changing the release" below). |
+| `/voices/zones` | Who narrates which zone ("Claim a zone", below): `functions/voices/zones.js`, built on the server. Noindex and unlinked while the `zones` feature is off. |
+| `/voices/lend`, `/voices/lend-terms` | "Lend your voice" and its terms (below). Not linked yet. |
 
 **Submissions** post to `functions/api/voices.js`, which saves each one in the `loreforever` D1 database, table
 `voice_submissions` (created on the first submission): credit line, email and/or Discord handle, pack name, a
 Google Drive / Dropbox / OneDrive folder link (other links are turned away; there are no file uploads), which
-clips, a note, the release version agreed to, the 18+-or-guardian box, the typed signature, country and time.
+clips, a note, the release version agreed to, the age box (18 or older; before release 2026-10-03 it allowed a
+guardian to sign instead), the typed signature, country and time.
 Same protections as feedback: a honeypot field, at most 5 submissions per sender per day (daily IP hash), and it
 works without JavaScript (success goes to `/voices/thanks`, an error comes back as a small page of its own). They
 show in the dashboard under Voice submissions (mark done, delete), or with the admin key:
@@ -284,8 +483,27 @@ own setup; the page only takes files. `public/voices/studio.html` + `studio.js` 
   time (D1 `studio_release`; uploading doesn't need it, since takes stay private until sent) and makes a
   `voice_submissions` row with the link `studio:<voice id>`, status `pending`, webhook as for the form. They can keep
   uploading and send again.
-- **No recording in the browser** (Mike, 2026-10-02: browser takes are low quality). People record in their own
-  app; the page says how (Audacity, a decent mic, a quiet room, 44.1/48 kHz, MP3 or WAV) under each drop box.
+- **Line takes come from a recording app** (Mike, 2026-10-02: browser takes are low quality). People record in their
+  own app; the page says how (Audacity, a decent mic, a quiet room, 44.1/48 kHz, MP3 or WAV) under each drop box.
+  Recording in the browser came back on 2026-10-03 for one thing only: "Lend your voice" (below).
+- **Claim a zone** (LOR-231): **off for now**, behind the `zones` feature in `lib/features.js` (`FEATURES.zones`; the
+  Pages variable `SITE_FEATURES=zones` turns it on without a code change, `-zones` off). While it's off the upload page
+  shows no zone box or Zone filter (`/voices/studio?zones=1` shows them anyway, for previews), `/voices/zones` opens by
+  address but is noindex and unlinked, and voice profiles don't list zones; the claims API works either way. To turn it
+  on for everyone: `zones: true` in `lib/features.js` (and a CHANGELOG line, since players see it then).
+  (`public/voices/zone-claims.js` on the page, `public/voices/zone-list.js` shared with the
+  server, API `functions/api/studio/zones/[action].js`, rules in `lib/claims.js`.) A box above the next line suggests a
+  zone (starting zones and capitals first) and lists every zone with its lines and who has it. A zone is every story
+  whose entry has that `zone` (lines.json `stories[].zone` and `zones`, written by `voicepack clips`): the zone's own
+  story and the places and people in it, the same grouping the add-on's "zone" voice mode keeps together. One active
+  claim per narrator, one active or done claim per zone and language (D1 unique indexes on `studio_claims`). A claim is
+  done once the voice has a take of the current text of every line, and expires 14 days after it was made or after the
+  newest upload in the zone; both are worked out from `studio_takes` whenever claims are read, so uploads need no
+  change. The next-line box goes through the claimed zone first; "Show only this zone" filters the list (there's a
+  Zone filter too). The credit typed when claiming (default: the account's name) is what the public list shows;
+  `/voices/zones` and each voice's profile ("Zones narrated") show done zones. A partial pack plays wherever it has a
+  line: `Voice.Refresh` ranks, per clip, only the voices with a current recording of it, so the rest falls through to
+  the next voice in the list (the default narrator). Tests: `site/tests/zones.test.mjs`.
 - **The quality bar** (`public/voices/quality.js`, run in `analyze()` for single files and zips alike, and so for
   the phone formats too): refused, with what to change, when the source rate is under 44.1 kHz, there's no sound
   above 10.5 kHz (phone calls, voice messages, MP3s under ~48 kbps), the noise floor is within 30 dB of the speech,
@@ -364,6 +582,60 @@ own setup; the page only takes files. `public/voices/studio.html` + `studio.js` 
   (a `voices.json` entry with `"id": <voice id>` and `"owner": <user id>`).
 - Without the `STUDIO` binding the page says uploads aren't switched on yet and points to the folder-link form.
 
+## Lend your voice (/voices/lend, LOR-230)
+
+A player reads our short script for about 2.5 minutes and we make a narrator voice from it with our own Qwen3 voice
+clone, credited "voice by <their credit>". Never from game audio or anyone else's recordings (the competitors who
+cloned Blizzard's actors got the worst backlash): only a donor's own reading of our script, which the render tooling
+checks.
+
+- **Hidden for now:** the page works at its address, but nothing links to it until the first lent voice has been made
+  end to end on the GPU. Then set `LEND_VOICE = true` in `public/voices/studio.js` (a card on the upload page);
+  `/voices/studio?lend=1` shows the card meanwhile.
+- **The page** (`public/voices/lend.html` + `lend.js` + `lend.css`, phones first): sign in → a 6-second room check →
+  the script (`public/voices/lend-script.json`: versions kept, each donation stores the one read) → **record in the
+  browser** (MediaRecorder, mono, no echo cancelling, noise suppression or auto gain; the screen kept awake; a level
+  meter; stops at 5 minutes) or upload a file → the studio's quality bar (`quality.js`, the same thresholds;
+  `quality.test.mjs` checks it on a whole 2.5-minute reading), worded as fix-it hints (too quiet, noisy
+  room, clipping, phone-call sound), and 1-5 minutes long → converted to MP3 (`mp3.js`, as for studio takes) → the
+  terms → send. Afterwards the page is the donor's donation page: status, their recording, the test pack once it's
+  ready, the credit, and **Withdraw my voice**.
+- **The terms** (`public/voices/lend-terms.html`, `CONSENT_VERSION` 2026-10-04 in `lib/donate.js`; change both
+  together): your own voice; used as a reference voice for AI speech synthesis (said plainly: legal consent, not
+  marketing) in a free, non-commercial fan add-on; the narration given to players free; 18+ only; withdraw any time
+  from the page, which deletes the sample and keeps it out of the next pack build, but copies players already
+  downloaded can't be recalled. Stored like `studio_release`, in `donation_release`; each donation keeps the version
+  and signature too.
+- **API** (`functions/api/studio/donate/[action].js`, header lists every route): donor routes need the session and
+  our Origin; `export`, `status` and `PUT pack` take the admin key (for `lore.donation`). One donation that isn't
+  withdrawn per account; a new recording replaces it while it's still waiting (status `donated`), 10 sends a day.
+  `VOICES_WEBHOOK` gets each donation and each withdrawal (never the email or the signature).
+- **Storage:** R2 `STUDIO` at `studio/<user id>/_donation/<id>/sample.<ext>` and `.../pack.zip` (so Delete my account's
+  sweep of `studio/<user id>/` removes them), D1 `voice_donations` (status donated → rendering → ready → published, or
+  withdrawn) and `donation_release`, both in `lib/accounts.js` SETUP and USER_DATA.
+- **Withdrawal** deletes the donation's R2 folder, sets status `withdrawn` and, for a published voice, deletes its
+  `voices` row so its voices.json entry stops showing at once; the webhook says to remove the entry. The render
+  tooling's next `sync` deletes the local copy. The row stays as the record of the agreement, the proof of the
+  license (like a sent voice's narrator release in `voice_submissions`): the donation id, terms version, typed
+  signature, age box, when they agreed (`consented`), sent and withdrew, the script version and the voice id it was
+  published as. Everything else is cleared (`RECORD_ONLY` in `lib/donate.js`: the files' details, the test pack and the
+  credit). **Delete my account** does the same to every donation of the account and also drops the link to it (owner
+  `""`) and the per-account `donation_release` row, since each donation keeps its own copy of what was signed.
+- **Making the voice** (Mike's machine; GPU job 8 in `~/lore-voice-renders/gpu-queue.md`):
+  `bash experiments/voices/local/donation.sh <id>` runs `lore.donation sync` (downloads new samples to
+  `~/lore-voice-renders/donations/<id>/`, deletes withdrawn ones), `donation_prep.py` (CPU: trim, -20 LUFS, Whisper;
+  refuses a recording that doesn't read the script; `refpick.py` picks the best three 10-20 s references),
+  `donation_render.py` (GPU, render_pack.py's text and chunking; the starter set first; stops for gpu-hold, WowB.exe
+  or another runner's gpu-busy, exit 75, resumable; a job the GPU runner starts itself, `LORE_GPU_RUNNER_JOB=1`, never
+  waits on gpu-busy, as with locale_guard.sh; `donation.sh --gpu-check` is a dry run), `pack_check.py --pack <dir> --cpu --trim donor`, one round of
+  retakes, then `lore.donation pack <id> --upload` (a test pack, starter set first, under 90 MB, onto the donor's page:
+  status ready), and the same again for the rest. Publishing is the usual manual flow: `lore.donation publish <id>
+  --voice-id <id>` builds the full pack in `dist/`, sets status published (the `voices` row with the donor as owner)
+  and prints the voices.json entry (`"donated": true` makes its pages say "voice by"). Its CREDITS never claim CC BY-SA:
+  a lent voice is for Lore Forever's narration only.
+- Tests: `site/tests/donate.test.mjs` (the lifecycle end to end), `pipeline/tests/test_donation.py` (sync, order, pack,
+  the GPU rule, the reference picker, the script).
+
 ## Translations
 
 `/translate` (`public/translate.html`) invites players to translate: how to help, one card per language (coverage,
@@ -428,7 +700,8 @@ browser; the kit and `/translate/submit` stay for people who'd rather work offli
 | `/translate/data/` | The editor's text, written by `lore.kit site`: `en/index.json` (sections), `en/<section>.json` (entry names and `[id, English]` pairs, at most ~700 KB) and `en/entries.json` (every entry and its section, in Needs-work order), `<locale>/<section>.json` (`{id: text}` for the strings that have text) and `<locale>/status.json` (what still needs a person). Excluded from Functions. |
 | `/translate/fp.json` | For test packs (LOR-119), written by `lore.kit site`: `{english, interface, version, languages: {locale: {name, ttsVoices}}, entries: {key: [fp, section]}}`, where fp is the English entry's `Lang.Fingerprint` and section the `en/<section>.json` holding its current English. Excluded from Functions. |
 | `GET /api/translations/pack?locale=` | **Download my test pack** on the dashboard (and `/translate#in-game`): a zip of `LoreForever_LangTest_<locale>/` (same folder every time) with the signed-in translator's edits that are `new`/`accepted` (not withdrawn, rejected or pulled), latest per string. An edit whose saved English differs from today's (`en/<section>.json`) is stale and left out; headers `X-Strings-Included` / `X-Strings-Stale` give the counts. Built by `lib/langtest.js` (a TOC that lists only `Lang.xml`, which loads `UI.lua` + `Strings_N.lua`, so a re-download with more files works after a `/reload`; kind `lang-overlay`); the add-on lays it over the language pack, string by string, while each entry's fp matches (`addon/LoreForever/Lang.lua`). Tests: `node --test site/tests/langtest.test.mjs`, `pipeline/tests/test_langtest.py`, `pipeline/tests/lang_sim.py`. |
-| `/translate/check.js` | The checks every edit must pass (`%` codes in order, no new `\|` codes, length, control characters), used by the editor as you type and by the API on save. Same rules as `problem()` in `pipeline/lore/kit.py`: change both together. |
+| `/translate/check.js` | The checks every edit must pass (`%` codes in order, no new `\|` codes, not under 30% or over 300% of the English's length give or take 20 characters, no blocklisted word, no control characters), used by the editor as you type and by the API on save. Same rules as `problem()` in `pipeline/lore/kit.py`: change both together. |
+| `/translate/blocklist.js` | Slurs and hate terms per language (en, de, fr, es, pt) that no edit may contain: whole words, ignoring case and accents. An edit is checked against its language's list and the English one. `kit.py` reads the same file (its object is plain JSON), refuses such strings on import and pull, and leaves them out of a language pack it builds, with a warning. Its header says where the words come from. |
 | `/account` | Gains "Your translations": the languages you translate (ticked boxes, saved at once) and what happened to your edits. |
 
 **API:** `functions/api/translations/[action].js` (`like.js` and `report.js` beside it keep their own paths).
@@ -439,15 +712,16 @@ minute). The dashboard reads the kit in the browser (`public/js/bulk-core.js` `r
 `reference/` skipped, a returned LangTest pack recognized and not read) and applies `kit.py apply_strings`' rule
 before anything is sent: empty strings, strings equal to the current text or your waiting edit, and strings whose
 English changed since the kit (or that the add-on no longer has) are left out and listed; `lore.kit pull` checks the
-English again. Admin key: `GET review?status=&locale=`, `POST decide`,
-`GET export?locale=`, `POST pulled`. **Tables** (in `SETUP` of `lib/accounts.js`, deleted with the account):
+English again. Admin key: `GET review?status=&locale=&user=&q=&offset=&limit=` (a page of edits and the total),
+`GET summary` (counts per language and translator), `POST decide` (by ids, or `{user, locale?}` for all of one
+translator's), `GET export?locale=`, `POST pulled`. **Tables** (in `SETUP` of `lib/accounts.js`, deleted with the account):
 `translator_languages` and `translation_edits` (status `new` when saved, `rejected` from `/admin`, `pulled` once imported).
 `translation_submissions` gets a `user_id` column.
 
 **Shipping edits.** There is no approval step: Mike doesn't speak these languages, and native-speaker review comes
 from Discord (and bad-translation reports), not from a gate. The automatic checks, the account requirement and the daily
-cap guard the form; `/admin` → Translation edits lists recent edits so spam or vandalism can be **Rejected** (and
-**Restored**).
+cap guard the form; `/admin/edits` lists every edit so spam or vandalism can be **Rejected** (and **Restored**):
+one at a time, a page at a time, or all of one translator's at once.
 
 1. `cd pipeline && ADMIN_KEY=... uv run python -m lore.kit pull deDE --dry-run` shows what the saved edits change;
    without `--dry-run` it imports them into `data/i18n/deDE/` (same checks as a kit: a string whose English changed
@@ -466,16 +740,65 @@ nothing: the next run imports it again. Imported text is marked reviewed (`"revi
 `nightly-translation-catchup` routine runs it before the machine pass. Likes and reports don't gate anything.
 
 Each language card on `/translate` credits the translators whose edits are in the language and who ticked "show my name" on their
-account, most edits first. Languages in the main download (`"included": true` in `public/translate/packs.json`) say
+account, in the order they started (never by how much they sent; LOR-239). Languages in the main download (`"included": true` in `public/translate/packs.json`) say
 so on their card instead of offering the pack zip.
+
+## Shared Forever text (/contribute, LOR-235/236)
+
+Players share the quest, gossip and book text Forever showed them, so Lore Forever can tell those stories too. The
+add-on keeps it (`addon/LoreForever/Capture.lua`, Options › Keep the quest text you see) and offers a small
+Contribute button on windows whose text it lacks; the full contract (what's kept, the code, tables, statuses, API) is
+**[CONTRIBUTE_API.md](CONTRIBUTE_API.md)**.
+
+- **`/contribute`** (`public/contribute.html`, `public/contribute/page.js`): drop LoreForever.lua (read in the browser
+  by `public/contribute/svparse.js`, a strict Lua-table reader; only the lines are sent), see what's new, optional
+  name for the credits, Send; or arrive from a Contribute link (`#c=`, decoded by `public/contribute-code.js` and taken
+  out of the address bar) and send that one line. No sign-in; signed in, the account gets the credit.
+- **API:** `POST /api/contribute` (`functions/api/contribute.js`), `GET /api/contribute/stats|contributors|receipt|export`
+  and `POST /api/contribute/shipped` (`functions/api/contribute/[action].js`), the receipt page `/contribute/r/<id>`
+  (`functions/contribute/r/[id].js`). Logic and tables in `lib/contribute.js`.
+- **Nobody reviews lines.** Two independent senders, or one sender and 48 hours, accept a line; spam is held; a
+  different text for the same part is a conflict until one is confirmed. `/admin` › Shared text only rejects a
+  sender's spam (and restores it).
+- **What's kept:** the text, its quest/NPC/book, build, language, the race/class/gender of who saw it, an optional
+  nickname; never the file, never the IP (a daily salted hash for rate limits, dropped from upload rows after 30 days).
+- **Known text:** `public/contribute/known.json` (hashes of what the add-on ships and what the Forever client gave our
+  harvest; `cd pipeline && uv run python -m lore.known_text`, also run by `scripts/rebuild-generated.sh`). A stale copy
+  only means fewer lines count as known.
+- **Unreleased until the add-on ships the button:** the page is noindex and out of the Community menu while the
+  `contribute` feature is off (`lib/features.js`; `SITE_FEATURES=contribute` on Preview turns it on). Flip
+  `FEATURES.contribute` to `true` in the release that ships Capture.lua.
+- Tests: `node --test site/tests/contribute.test.mjs` (the parser against a realistic file and hostile ones, codes,
+  statuses, rate limits, honeypot, receipt, export, admin); `pipeline/tests/contribute_sim.py` (the add-on side, and
+  its codes and SavedVariables through the site's decoder and parser when Node is around).
+
+## Lore pages (LOR-233)
+
+`/lore` lists every narration we ship (filters, search, a player) and `/lore/<type>/<id>` is one page per entry,
+built by Functions from `public/lore/data/` (generated by `pipeline/lore/site_lore.py`, which
+`scripts/rebuild-generated.sh` runs). The recordings are in R2 under `narration/`, uploaded with
+`scripts/upload-narration-r2.sh`. **Switched off for now** (noindex, no sitemap entries, no links) until the
+recordings are uploaded and the `lore` feature in `lib/features.js` is on. Everything about it, including the address
+scheme the add-on will link to, is in [LORE_PAGES.md](LORE_PAGES.md).
 
 ## Private dashboard
 
 https://loreforeverwow.com/admin shows sign-up emails, feedback reports, voice submissions and site downloads in one
-place: totals, sign-ups and downloads per day for the last 30 days, the feedback list (mark reports done, delete
+place: totals, email sign-ups and downloads per day for the last 30 days, the feedback list (mark reports done, delete
 spam), voice submissions (folder link, clips, contact, signature and release version; mark done, delete), and the
-email list (search, copy, CSV export, remove an address when someone asks to unsubscribe).
+email list (search, copy, CSV export, remove an address when someone asks to unsubscribe; people can also do it
+themselves at `/unsubscribe`).
 
+- **Profiles:** how many people signed up (accounts, i.e. Google sign-ins), how many made a player profile and how
+  many made it public, new accounts today and in the last 7 and 30 days, and new accounts per day. `GET /api/admin`
+  counts them in SQL (`signups`), so they aren't capped like the Contributors list. Days are UTC, like the charts.
+- **Clip reports:** reports on recordings per clip and voice (how many people, why, which names), the latest reports,
+  and "Reject all from this uploader" / Restore for spam (see "Clip reports" above). Nothing to approve.
+- **Translation edits:** saved, pulled and rejected per language; the edits have their own page, **/admin/edits**
+  (`public/admin/edits.html`, same key): totals, translators (most edits waiting first, with Reject all saved /
+  Restore rejected), and the edits 100 at a time, filtered by status, language, translator and search, with Reject /
+  Restore per edit or for the selected ones. The filters stay in the address, so `/admin` links to a language
+  (`?locale=deDE`) and a contributor's edit count to their edits (`?status=all&user=<id>`).
 - **Contributors:** every Google sign-in account (`users`) with its voices, translator languages, uploaded takes,
   translation edits and feedback count; search, filter by role, copy addresses, CSV export. /account promises these
   people are emailed only about their feedback and contributions, so they aren't a release-news list.

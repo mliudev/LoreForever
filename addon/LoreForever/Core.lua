@@ -121,9 +121,11 @@ local function arrive()
 end
 
 -- A tip at login for features players ask for without knowing they exist (LOR-41): one per login, each shown once,
--- until they run out. Options › Tips at login turns them off.
+-- until they run out. Options › Tips at login turns them off. The first login after an update says what's new instead
+-- (WhatsNew.lua), so it's still one line.
 local function loginTip()
   if not S().tips then return end
+  if ns.WhatsNew.LoginLine(say) then return end
   local key = ns.Hooks.CurrentKey()
   local tips = {
     key and string.format(L["Tip: hover over an NPC and press %s to read their story."], GOLD .. key .. "|r")
@@ -131,11 +133,87 @@ local function loginTip()
     L["Tip: entering a dungeon links its primer: who you'll face and why it matters. /lore primer brings it back."],
     L["Tip: the lore lines on NPC and item tooltips can be turned off in /lore options."],
     L["Tip: press + on any narration in the Library to build a playlist; the player at the bottom left plays it."],
+    L["Tip: your journey can become a page about your character. Open Journey, click Copy my journey record and paste it at loreforeverwow.com/account."],
   }
   local i = (tonumber(S().tipNext) or 1)
   if i > #tips then return end
   S().tipNext = i + 1
   say(tips[i])
+end
+
+-- Another add-on can claim /lore too (Chronicle does, since its 1.0.0 betas). The chat then sends /lore to only one
+-- of them, whichever its command list happens to hold first, so /lf and /loreforever stay ours alone. The first login
+-- with such an add-on says in chat which command opens which, once per add-on.
+local OWN_COMMANDS = { "/lf", "/loreforever" }
+
+-- A SlashCmdList entry's commands in lower case: SLASH_<key>1, 2, ... up to the first missing one, as the chat reads them.
+local function slashCommands(key)
+  local out, i = {}, 1
+  while type(_G["SLASH_" .. key .. i]) == "string" do
+    out[#out + 1] = _G["SLASH_" .. key .. i]:lower()
+    i = i + 1
+  end
+  return out
+end
+
+-- The title of the loaded add-on whose folder or title is a SlashCmdList key (CHRONICLE: "Chronicle"), if any.
+local function addOnTitle(key)
+  local C = _G.C_AddOns
+  local count = (C and C.GetNumAddOns) or _G.GetNumAddOns
+  local info = (C and C.GetAddOnInfo) or _G.GetAddOnInfo
+  local loaded = (C and C.IsAddOnLoaded) or _G.IsAddOnLoaded
+  if not (count and info and loaded) then return nil end
+  local function bare(s) return (s:gsub("|c%x%x%x%x%x%x%x%x", ""):gsub("|r", "")) end
+  local function letters(s) return (s:upper():gsub("[^%w]", "")) end
+  local want = letters(key)
+  local okN, n = pcall(count)
+  for i = 1, (okN and n) or 0 do
+    local ok, name, title = pcall(info, i)
+    if ok and type(name) == "string" then
+      title = bare(type(title) == "string" and title ~= "" and title or name)
+      local okL, isLoaded = pcall(loaded, name)
+      if okL and isLoaded and (letters(name) == want or letters(title) == want) then return title end
+    end
+  end
+end
+
+local function checkSlashRivals()
+  local ours, taken, rivals = {}, {}, {}
+  for _, c in ipairs(slashCommands("LOREFOREVER")) do ours[c] = true end
+  for key in pairs(SlashCmdList) do
+    if type(key) == "string" and key ~= "LOREFOREVER" then
+      local cmds = slashCommands(key)
+      for _, c in ipairs(cmds) do
+        taken[c] = true
+        if c == "/lore" then rivals[#rivals + 1] = { key = key, cmds = cmds } end
+      end
+    end
+  end
+  if #rivals == 0 then return end
+  local own
+  for _, c in ipairs(OWN_COMMANDS) do
+    if not own and not taken[c] then own = c end
+  end
+  own = own or OWN_COMMANDS[#OWN_COMMANDS]
+  local s = S()
+  local told = type(s.slashRivals) == "table" and s.slashRivals or {}
+  for _, r in ipairs(rivals) do
+    if not told[r.key] then
+      told[r.key] = true
+      s.slashRivals = told
+      local title, theirs = addOnTitle(r.key), nil
+      for _, c in ipairs(r.cmds) do
+        if not theirs and c ~= "/lore" and not ours[c] then theirs = c end
+      end
+      if theirs then
+        say(string.format(L["%s also uses /lore, so /lore reaches only one of the two. Type %s for Lore Forever and %s for %s."],
+          title or L["Another add-on"], own, theirs, title or L["the other one"]))
+      else
+        say(string.format(L["%s also uses /lore, so /lore reaches only one of the two. Type %s for Lore Forever."],
+          title or L["Another add-on"], own))
+      end
+    end
+  end
 end
 
 local refreshPending = false
@@ -195,7 +273,7 @@ end
 -- Clicks on the minimap button (Mike, 2026-09-30): each click always does the same thing. Plain clicks
 -- open things, Shift-clicks are the playlist. Ctrl and Alt are left free.
 --   click              open/close Lore Forever
---   right-click        open/close Options
+--   right-click        a small menu: "Narration: only when I press Play" (LOR-138) and Options
 --   shift-click        play/pause: stop whatever plays (a playlist keeps its place), else play the playlist, or with
 --                      an empty playlist everything narrated where you are
 --   shift-right-click  next narration in the playlist
@@ -206,7 +284,10 @@ local function buttonClick(button)
     if button == "RightButton" then return UI.PlaylistNext() end
     return playlistPlayPause()
   end
-  if button == "RightButton" then return ns.Options.Toggle() end
+  if button == "RightButton" then
+    if UI.ButtonMenu and UI.frame then return UI.ButtonMenu(_G.LoreForeverMinimapButton) end
+    return ns.Options.Toggle()
+  end
   LoreForever_Toggle()
 end
 
@@ -217,6 +298,9 @@ local function buttonTooltip(self, anchor)
   local n, cur = #pl.items, pl.items[pl.pos]
   GameTooltip:SetOwner(self, anchor)
   GameTooltip:AddLine("Lore Forever")
+  if ns.WhatsNew.Pending("card") then
+    T.Tip(string.format(L["New in %s: open Lore Forever to see what's new."], ns.WhatsNew.Version()), "tipGood")
+  end
   if busy then
     local ours = pl.state == "playing" and cur
     T.Tip(ours and string.format(L["Now playing: %s (%d of %d)"], cur.label, pl.pos, n)
@@ -229,6 +313,7 @@ local function buttonTooltip(self, anchor)
   local key = ns.Hooks.CurrentKey()
   T.Tip(key and string.format(L["Click to open (or press %s). Right-click for options."], key)
     or L["Click to open. Right-click for options."], "tipText")
+  if ns.Voice.OnDemand() then T.Tip(L["Narration plays only when you press Play."], "tipDim") end
   T.Tip(L["Shift-click: play/pause your playlist"], "tipText")
   T.Tip(L["Shift-right-click: next narration"], "tipText")
   if n == 0 then
@@ -298,7 +383,10 @@ local MINIMAP_SHAPES = {
 function ns.MinimapButton()
   if not Minimap then return end
   local b = LoreForeverMinimapButton
-  if b then return b:SetShown(S().minimap) end
+  if b then
+    if b.place then b.place() end   -- the angle may have changed (UI.ResetWindows)
+    return b:SetShown(S().minimap)
+  end
   if not S().minimap then return end
   -- Laid out like every other add-on's minimap button (LibDBIcon's Classic layout), so it sits on the ring with the
   -- rest: a 31px button, the tracking ring at its top left, a dark disc and a 17px icon inside it.
@@ -344,6 +432,7 @@ function ns.MinimapButton()
     b:SetPoint("CENTER", Minimap, "CENTER", x, y)
   end
   place()
+  b.place = place
   if Minimap.HookScript then Minimap:HookScript("OnSizeChanged", place) end
   b:RegisterForDrag("LeftButton")
   b:RegisterForClicks("LeftButtonUp", "RightButtonUp")
@@ -382,6 +471,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     local ok, err = pcall(ns.Journey.Init)
     if not ok and geterrorhandler then geterrorhandler()(err) end
     ns.Voice.Init()
+    ns.WhatsNew.Init()   -- the first login of a new version: what's new in it (WhatsNew.lua)
     ns.UI.Create(ns.engine)
     ns.Hooks.Init()
     ns.Options.Create()
@@ -397,6 +487,14 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
         or string.format(L["%d lore entries ready. Type /lore to open them."], n))
     end
     for _, note in ipairs(ns.lang.notes) do say(note) end
+    -- Automatic picked up the client's language (LOR-35): say so once per language, with the way back to English.
+    local _, auto = ns.Lang.Wanted()
+    if auto and ns.lang.locale ~= "enUS" and S().langNoted ~= ns.lang.locale then
+      S().langNoted = ns.lang.locale
+      say(string.format(L["Lore Forever is in %s, your WoW client's language. To pick another language: /lore lang, or Language in /lore options."],
+        ns.lang.name or ns.lang.locale))
+    end
+    checkSlashRivals()
     C_Timer.After(6, ns.Hooks.MaybeOnboard)
     C_Timer.After(3, ns.Journey.Announce)
     C_Timer.After(12, loginTip)   -- after the key prompt (6 s), once the login chat has settled
@@ -437,11 +535,13 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Hooks.UpdateQuestDialogButton()
     local b = ns.Hooks.questDialogButton
     ns.Voice.OnQuestFrame(kind, b and b.key)
+    ns.Hooks.UpdateQuestPlayButton()
   elseif event == "QUEST_FINISHED" then
     -- Also fires between a quest's pages; only a window that stays closed stops its page.
     C_Timer.After(0.2, function()
       if not (_G.QuestFrame and QuestFrame:IsShown()) then
         ns.Voice.OnQuestClosed()
+        ns.Hooks.UpdateQuestPlayButton()
         ns.Voice.OnTalkOver()
       end
     end)
@@ -452,6 +552,10 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Hooks.UpdateBookButton()
   elseif event == "ITEM_TEXT_CLOSED" then
     ns.Voice.OnBookClosed()
+  elseif event == "CINEMATIC_START" or event == "PLAY_MOVIE" or event == "TALKINGHEAD_REQUESTED" then
+    ns.Voice.OnGameTalk()   -- the game's own cutscene or voiced dialog: what started by itself stops
+  elseif event == "CINEMATIC_STOP" or event == "STOP_MOVIE" or event == "TALKINGHEAD_CLOSE" then
+    C_Timer.After(0.5, ns.Voice.OnGameTalkOver)
   end
 end)
 
@@ -460,7 +564,8 @@ for _, e in ipairs({ "ADDON_LOADED", "PLAYER_LOGIN", "PLAYER_ENTERING_WORLD", "Z
   "QUEST_PROGRESS", "QUEST_COMPLETE", "QUEST_FINISHED", "GOSSIP_CLOSED", "ITEM_TEXT_READY", "ITEM_TEXT_CLOSED",
   "PLAYER_TARGET_CHANGED", "PLAYER_CONTROL_LOST",
   "VOICE_CHAT_TTS_PLAYBACK_STARTED", "VOICE_CHAT_TTS_PLAYBACK_FINISHED", "VOICE_CHAT_TTS_PLAYBACK_FAILED",
-  "PLAYER_REGEN_DISABLED", "PLAYER_REGEN_ENABLED", "PLAYER_LOGOUT" }) do
+  "PLAYER_REGEN_DISABLED", "PLAYER_REGEN_ENABLED", "PLAYER_LOGOUT",
+  "CINEMATIC_START", "CINEMATIC_STOP", "PLAY_MOVIE", "STOP_MOVIE", "TALKINGHEAD_REQUESTED", "TALKINGHEAD_CLOSE" }) do
   listen(e)
 end
 
@@ -526,6 +631,7 @@ end
 
 SLASH_LOREFOREVER1 = "/lore"
 SLASH_LOREFOREVER2 = "/lf"
+SLASH_LOREFOREVER3 = "/loreforever"   -- ours alone, for players whose /lore goes to another add-on (checkSlashRivals)
 SlashCmdList.LOREFOREVER = function(msg)
   msg = (msg or ""):match("^%s*(.-)%s*$")
   local cmd = msg:lower()
@@ -537,14 +643,17 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore key - choose the key that opens the panel; /lore key narrate - a key that plays narration"])
     say(L["/lore library - every recorded narration, grouped (your starting area first)"])
     say(L["/lore journey - what your character has done so far; /lore sync - save it now (reloads)"])
+    say(L["/lore quests - every quest you've completed, by zone; click one to read its quest text again"])
     if ns.Companion.Installed() then
       say(L["/lore ask <question> - ask live answers (the answer appears on your screen)"])
     end
     say(L["/lore options - settings (tooltips, hints, flight narration)"])
-    say(L["/lore lang - choose the language (language packs are separate add-ons)"])
+    say(L["/lore lang - choose the language: English, Deutsch, Español, Français or Português (Automatic follows your WoW client)"])
+    say(L["/lore reset - bring back the panel, the floating player and the minimap button (keeps your journey and settings)"])
     say(L["/lore primer - dungeon primer for where you are"])
     say(L["/lore listen - read the last answer aloud; /lore narrate - narrate flights on/off"])
     say(L["/lore autoplay - narrations as you arrive and quest dialogue on/off"])
+    say(L["/lore ondemand - narration only when you press Play on/off"])
     say(L["/lore voice - list narration voices; /lore voice <number or name> - switch (auto: default, none: game voice)"])
     say(L["/lore report - tell us the last answer was wrong (or click the cross under any answer)"])
     say(L["/lore ctx | export | visits | stats - what Lore Forever sees, for bug reports and playtests"])
@@ -556,6 +665,10 @@ SlashCmdList.LOREFOREVER = function(msg)
     ns.UI.ShowTab("narrations")
   elseif cmd == "journey" then
     if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
+    ns.Journey.Show()
+  elseif cmd == "quests" or cmd == "completed" then
+    if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
+    ns.Journey.SetFilter("done")
     ns.Journey.Show()
   elseif cmd == "sync" then
     ns.Journey.AskSync()
@@ -572,6 +685,8 @@ SlashCmdList.LOREFOREVER = function(msg)
     voiceCommand(msg:match("^%S+%s+(.-)$"))
   elseif cmd == "options" or cmd == "config" or cmd == "settings" then
     ns.Options.Open()
+  elseif cmd == "reset" or cmd == "reset windows" then
+    ns.UI.ResetWindows()
   elseif cmd == "primer" then
     local zk = ns.engine:ZoneKey(GetRealZoneText and GetRealZoneText())
     local z = zk and ns.DB.zones[zk]
@@ -589,6 +704,9 @@ SlashCmdList.LOREFOREVER = function(msg)
   elseif cmd == "autoplay" then
     say(string.format(ns.Voice.ToggleAutoplay() and L["%s on"] or L["%s off"],
       L["narrations as you arrive and quest dialogue"]))
+  elseif cmd == "ondemand" then
+    say(ns.Voice.SetOnDemand(not ns.Voice.OnDemand()) and L["Narration plays only when you press Play."]
+      or L["Narration plays by itself again, as your options say."])
   elseif cmd == "nudge" then
     toggleSetting("zoneNudge", L["zone hints"])
   elseif cmd == "tooltips" then

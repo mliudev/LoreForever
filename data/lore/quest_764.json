@@ -17,7 +17,7 @@
   "wiki": "The Venture Co. (Classic)",
   "chain": []
  },
- "summary": "Investigating the raided trade caravans of Mulgore uncovers an aggressive buildup of Venture Company goblins digging into the eastern hills. Having had their formal requests for mining permits flatly rejected, the company chose to quarry the Earth Mother's soil anyway, prompting Morin Cloudstalker to commission a lethal response.",
+ "summary": "Investigating a ravaged Venture Company caravan in Mulgore uncovers an aggressive buildup of Venture Company goblins digging into the eastern hills. Having had their formal requests for mining permits flatly rejected, the company chose to quarry the Earth Mother's soil anyway, prompting Morin Cloudstalker to commission a lethal response.",
  "sections": [
   {
    "title": "Industrial Intrusion",
@@ -26,7 +26,7 @@
   },
   {
    "title": "An Unmistakable Message",
-   "body": "Tauren scouts like Morin Cloudstalker recognize that corporate greed cannot be reasoned with through diplomatic appeals once picks hit the stone. With evidence mounting that the company's presence is linked to local disruptions and attacks on trade routes, Morin dispatches Horde champions to cut down both the taskmasters cracking the whips and the laborers driving the drills. The bloody reprisal is intended to ensure the Venture Company calculates the cost of trespassing as far too steep.",
+   "body": "Tauren scouts like Morin Cloudstalker recognize that corporate greed cannot be reasoned with through diplomatic appeals once picks hit the stone. With documents recovered from a ravaged Venture Co. caravan confirming the company's mining operation, Morin dispatches Horde champions to cut down both the taskmasters cracking the whips and the laborers driving the drills. The bloody reprisal is intended to ensure the Venture Company calculates the cost of trespassing as far too steep.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "morin cloudstalker role",
     "quest giver"
    ],
-   "answer": "Morin Cloudstalker, a tauren scout keeping watch over the southern road and trade caravans, issues the order. He views the cartel's refusal to accept tribal refusal as a direct violation that demands physical force rather than further talk."
+   "answer": "Morin Cloudstalker, a tauren keeping watch near Bloodhoof Village, issues the order. He views the cartel's refusal to accept tribal refusal as a direct violation that demands physical force rather than further talk."
   },
   {
    "q": "Where is the Venture Company mine located?",

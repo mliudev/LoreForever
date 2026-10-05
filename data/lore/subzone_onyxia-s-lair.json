@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Onyxia's Lair"
  },
- "summary": "Onyxia's Lair is a subterranean cavern located deep within the Dragonmurk of Dustwallow Marsh. It serves as the nesting sanctuary and stronghold for Onyxia, broodmother of the black dragonflight. Inside its sweltering, magma-filled chambers, the great dragon watches over clutches of black dragon eggs.",
+ "summary": "Onyxia's Lair is a subterranean cavern located deep within the Wyrmbog of Dustwallow Marsh. It serves as the nesting sanctuary and stronghold for Onyxia, broodmother of the black dragonflight. Inside its sweltering, magma-filled chambers, the great dragon watches over clutches of black dragon eggs.",
  "sections": [
   {
    "title": "A Den of Magma and Ruin",
-   "body": "Carved into the treacherous mud and petrified wood of the Dragonmurk, the cavern entrance resembles the yawning maw of a dragon. Within, the cool rot of the marsh gives way to intense volcanic heat. Magma seeps from cracks in the obsidian stone, while subterranean tremors routinely shake the ceilings. The central chamber opens into a vast incubator where hundreds of black dragon eggs lie nested amid ash and embers, overseen by flightkin, dragonspawn guards, and Onyxia herself.",
+   "body": "Carved into the treacherous mud and petrified wood of the Wyrmbog, the cavern entrance resembles the yawning maw of a dragon. Within, the cool rot of the marsh gives way to intense volcanic heat. Magma seeps from cracks in the obsidian stone, while subterranean tremors routinely shake the ceilings. The central chamber opens into a vast incubator where hundreds of black dragon eggs lie nested amid ash and embers, overseen by flightkin, dragonspawn guards, and Onyxia herself.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "how to find onyxia lair",
     "dragonmurk cave"
    ],
-   "answer": "The lair is situated in southern Dustwallow Marsh within the Dragonmurk, just beyond the Wyrmbog. The entrance is marked by massive dragon bones, smoldering terrain, and black dragonkin sentries guarding a stony fissure shaped like an open jaw."
+   "answer": "The lair is situated in southern Dustwallow Marsh within the Wyrmbog, just south of the Dragonmurk. The entrance is marked by massive dragon bones, smoldering terrain, and black dragonkin sentries guarding a stony fissure shaped like an open jaw."
   },
   {
    "q": "What creatures dwell inside the lair?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions uncovering corruption in Stormwind, this cavern represents the heart of the conspiracy threatening the kingdom from afar."
+   "text": "For Alliance champions, this cavern is the den of a black broodmother whose growing brood threatens Theramore and every settlement around the marsh."
   },
   {
    "target": "faction:Horde",

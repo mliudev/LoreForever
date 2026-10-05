@@ -40,6 +40,29 @@ test("every narration pack excerpt passes with no warning at all", { skip: !ffmp
   }
 });
 
+// "Lend your voice" (LOR-230) checks one 2-3 minute reading with the same bar: our own narration, end to end with
+// pauses between the excerpts, must still pass, and the check must stay quick enough for a phone.
+test("a single 2.5-minute reading is measured like a short take, and quickly", { skip: !ffmpeg && "ffmpeg isn't installed" }, () => {
+  const parts = files.filter(f => f.startsWith("pass-")).map(f => decode(f).x);
+  const gap = new Float32Array(FS * 0.6);
+  const out = [];
+  let n = 0;
+  for (let i = 0; n < FS * 150; i++) { const p = parts[i % parts.length]; out.push(p, gap); n += p.length + gap.length; }
+  const long = new Float32Array(n);
+  let o = 0;
+  for (const p of out) { long.set(p, o); o += p.length; }
+  const started = performance.now(), m = measure([long], FS), took = performance.now() - started;
+  assert.ok(m.duration >= 150, `duration ${m.duration}`);
+  assert.deepEqual(verdict(m, { sourceRate: 48000, channels: 1 }).refuse, [],
+    `bandwidth ${m.bandwidth}, snr ${m.snr.toFixed(1)}, lufs ${m.lufs.toFixed(1)}, clipped ${m.clipped}`);
+  assert.ok(took < 4000, `measure took ${Math.round(took)} ms`);
+  // Noise, quiet and clipping are still caught over the whole reading.
+  const noisy = long.map((v, i) => v + Math.sin(i * 12.9898) * 0.05);
+  assert.ok(verdict(measure([noisy], FS)).refuse.includes("noisy"));
+  assert.ok(verdict(measure([long.map(v => v * 0.02)], FS)).refuse.includes("tooquiet"));
+  assert.ok(verdict(measure([long.map(v => Math.max(-1, Math.min(1, v * 8)))], FS)).refuse.includes("clipping"));
+});
+
 test("phone, voice-note, 16 kHz and clipped files are refused", { skip: !ffmpeg && "ffmpeg isn't installed" }, () => {
   const expect = { "refuse-recorded-16k.wav": "lowrate", "refuse-phone-band.m4a": "narrow", "refuse-voice-note.ogg": "narrow",
                    "refuse-clipped.mp3": "clipping" };

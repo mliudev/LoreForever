@@ -303,8 +303,9 @@ function Engine.new(db)
     if e.z and e.t ~= "zone" and e.t ~= "city" and e.t ~= "dungeon" then
       local name = Engine.lower((e.n:gsub("%b()", ""))):match("^%s*(.-)%s*$")
       local g = groups[name]
-      if not g then g = { name = name, zones = {}, n = 0 }; groups[name] = g end
+      if not g then g = { name = name, zones = {}, keys = {}, n = 0 }; groups[name] = g end
       if not g.zones[e.z] then g.zones[e.z], g.n = true, g.n + 1 end
+      g.keys[#g.keys + 1] = key
       groupOf[key] = g
     end
   end
@@ -431,6 +432,21 @@ function Engine:ZoneKey(zoneName)
   return zoneName and self.db.index.zone and self.db.index.zone[Engine.lower(zoneName)] or nil
 end
 
+-- Entry key for the subzone you're in. A name shared across zones resolves to your zone's entry: "Canals" in the
+-- Undercity is the Undercity's, not Stormwind's, and none when no namesake is in your zone.
+function Engine:SubzoneKey(subzone, zone)
+  if not subzone then return nil end
+  local idx, sub = self.db.index, Engine.lower(subzone)
+  local key = idx.name[sub] or idx.name[(sub:gsub("^the ", ""))]   -- "The Crossroads" is "Crossroads"
+  local g = key and self.namesakes and self.namesakes[key]
+  local zk = g and self:ZoneKey(zone)
+  if not zk or self.db.entries[key].z == zk then return key end
+  for _, k in ipairs(g.keys) do
+    if self.db.entries[k].z == zk then return k end
+  end
+  return nil
+end
+
 -- Zones a question names by their in-game names or short forms ("stormwind", "the barrens"): {name, zone key} each.
 function Engine:ZonesNamed(raw)
   if not self.zoneNames then
@@ -463,8 +479,7 @@ function Engine:ContextKeys(ctx)
   if ctx.targetName then add(self:KeyForName(ctx.targetName), 1.1) end
   for _, q in ipairs(ctx.quests or {}) do add(questKey(q), 1.0) end
   if ctx.subzone then
-    local sub = Engine.lower(ctx.subzone)
-    add(db.index.name[sub] or db.index.name[(sub:gsub("^the ", ""))], 0.9)   -- "The Crossroads" is "Crossroads"
+    add(self:SubzoneKey(ctx.subzone, ctx.zone), 0.9)
     add(db.index.area and db.index.area[Engine.lower(ctx.subzone)], 0.85)   -- Northshire Abbey -> Northshire Valley
   end
   local zk = self:ZoneKey(ctx.zone)

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy - Lore Forever</title>
+<meta name="description" content="What loreforeverwow.com keeps about you, why, who else handles it, and how to delete it, in plain language.">
+<link rel="canonical" href="https://loreforeverwow.com/privacy">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lore Forever privacy">
+<meta property="og:description" content="What loreforeverwow.com keeps about you, why, who else handles it, and how to delete it, in plain language.">
+<meta property="og:url" content="https://loreforeverwow.com/privacy">
+<meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+</header>
+
+<!-- Keep this page true to the code: what each table keeps is in lib/accounts.js (SETUP, and USER_DATA for what
+     "Delete my account" removes), lib/submissions.js, functions/api/feedback.js, functions/api/translations*.js,
+     lib/subscribers.js, lib/donate.js (lent voices), lib/contribute.js (shared game text) and lib/clipreports.js. When something here changes, change the date below. -->
+<main class="wrap vp-page vp-doc">
+  <h1>Privacy</h1>
+  <p class="vp-version">Updated 2026-10-04</p>
+  <p class="pitch">What this site keeps about you, why, who else handles it, and how to get rid of it. The add-on
+    itself can't send anything anywhere: it runs inside your game, and you only share what you copy out of it.</p>
+
+  <h2>Who runs it</h2>
+  <p>Lore Forever is a free fan project by Mike Liu. It isn't a company, and it doesn't sell anything or show ads.
+    Questions about your data? Ask on <a href="/discord">Discord</a>. You can also delete your account yourself, any
+    time, from <a href="/account">your account page</a>.</p>
+  <!-- A contact email goes here once there is one, e.g. "or email ...". -->
+
+  <h2>What we keep, and why</h2>
+  <p>Downloading, playing, listening and liking need no account. If you only do those, we keep almost nothing.</p>
+  <ul>
+    <li><strong>Your account</strong>, if you sign in: your Google account ID, email address and name, from Google
+      sign-in. We use them to sign you in and to reach you about your feedback and what you contribute. A cookie
+      keeps you signed in for 30 days.</li>
+    <li><strong>Your profile</strong>: the facts about your character in the journey record you paste (its name,
+      realm, level, the places, quests, bosses and so on it lists), plus the name and links you add. Never the record
+      itself, or other players' names. It stays private until you make it public. If you connect the companion app to
+      keep it up to date, the companion sends that same record after each <code>/reload</code> or logout, and we
+      keep when it connected and last updated your profile, and a scrambled (hashed) copy of its key.</li>
+    <li><strong>Voice recordings</strong>: the files you upload to the voice studio. When you send a voice, also the
+      narrator release form: the name you sign, your email, your Discord handle if you give one, and your country.</li>
+    <li><strong>A voice you lend</strong>: the recording you send on <a href="/voices/lend">Lend your voice</a>, the
+      credit you choose, the name you sign, and the version and date of the <a href="/voices/lend-terms">terms</a> you
+      agreed to. The recording is kept private and used only to make your voice, on our own computer.</li>
+    <li><strong>Shared game text</strong>: the quest, gossip and book text you share from the add-on, on the
+      <a href="/contribute">Contribute</a> page or from the companion if you turn that on, with the race, class and
+      gender of the character who saw it (never its name) and the credit name you give, if any.</li>
+    <li><strong>Narration reports</strong>: which narration and voice, what's wrong and your note, when you report a
+      recording.</li>
+    <li><strong>Translations</strong>: the languages you pick, the edits you make on the translation dashboard, and
+      what you send through the translation forms.</li>
+    <li><strong>Feedback</strong>: what you write, the name you give and your country.</li>
+    <li><strong>The email list</strong>: your address, if you sign up to hear about new versions. We only use it for
+      that.</li>
+    <li><strong>A daily hash of your IP address</strong>, never the address itself. It's salted with a random value
+      that's thrown away after a day or two, so it can't be turned back into the address. It caps how many forms,
+      likes and reports one person can send in a day, and tells apart the people sharing game text.</li>
+  </ul>
+  <p>Your country comes from your connection; we don't ask for it. Downloads and clicks on the download and Discord
+    links are counted per day as plain numbers, with nothing about who clicked. Your browser also remembers a few
+    small things, like which version's news you've seen, but those stay on your device.</p>
+
+  <h2>Who else handles it</h2>
+  <ul>
+    <li><strong>Cloudflare</strong> hosts the site and stores everything above (its database and file storage). It
+      also counts visits, without cookies, and runs Turnstile, a spam check, when we switch it on.</li>
+    <li><strong>Google</strong> handles sign-in, serves the site's fonts, and writes profile stories: Google's API
+      writes the story from your character's facts, never your email or name.</li>
+    <li><strong>Discord</strong>: feedback, voice and translation submissions are posted to a private channel so we
+      see them quickly. Never your email address or your signature.</li>
+    <li><strong>GitHub</strong> and <strong>CurseForge</strong> host the downloads, so they see it when you
+      download.</li>
+  </ul>
+
+  <h2>How long we keep it</h2>
+  <p>Your account, profile, recordings and translation edits stay until you delete them or your account. Your email
+    stays on the list until you unsubscribe. Feedback is kept to make Lore Forever better.</p>
+  <p><strong>Delete my account</strong> removes, right away: your account (Google ID, email, name and links), your
+    sign-in, your profile and connected apps, your voices and every recording you uploaded, the release you agreed to
+    in the voice studio, a voice you lent (its recording, test pack and credit), the narration reports you sent while
+    signed in, and the languages and edits on your translation dashboard.</p>
+  <p>Some things stay, and here's why:</p>
+  <ul>
+    <li><strong>The record of a voice you sent</strong> (the name you signed, email, Discord, country, the release
+      version and the date) stays as proof of the license you granted. You can still ask for your pack to be taken
+      down, as the <a href="/voices/release">narrator release</a> says.</li>
+    <li><strong>The record of a voice you lent</strong> (the name you signed, that you confirmed you're 18 or older,
+      the <a href="/voices/lend-terms">terms</a> version, and when you agreed and withdrew) stays as proof of what you
+      agreed to, with no link to your account. Withdrawing a lent voice keeps the same record.</li>
+    <li><strong>Feedback</strong> you sent stays, without your email.</li>
+    <li><strong>Shared game text</strong> stays, since it's the game's own words, with the credit name you gave, if
+      any.</li>
+    <li><strong>Translation submissions and bad-translation reports</strong> stay, with what you typed in them.</li>
+    <li><strong>Text and recordings already in a released version</strong> of Lore Forever stay in it, under
+      CC BY-SA, with no link to your account.</li>
+    <li><strong>Your email list sign-up</strong> isn't tied to your account: <a href="/unsubscribe">unsubscribe</a>
+      to leave.</li>
+  </ul>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Delete your account, or only your profile, on <a href="/account">your account page</a>. Remove single
+      recordings in the <a href="/voices/studio">voice studio</a>.</li>
+    <li>Make your profile private again: untick Public on your account page.</li>
+    <li>Stop the companion app updating your profile: Disconnect it under Connected apps on your account page, or in
+      the companion.</li>
+    <li>Leave the email list: <a href="/unsubscribe">unsubscribe</a>.</li>
+    <li>Anything else, like seeing what we hold about you or removing a voice you sent: ask on
+      <a href="/discord">Discord</a>.</li>
+  </ul>
+
+  <h2>Age</h2>
+  <p>Lore Forever is made for World of Warcraft players, so it's meant for the same ages as the game. The voice
+    studio and Lend your voice are for adults: you must be 18 or older to send recordings or lend your voice.</p>
+
+  <h2>Changes</h2>
+  <p>If this page changes, the date at the top changes too.</p>
+</main>
+
+<footer class="wrap foot">
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+</body>
+</html>

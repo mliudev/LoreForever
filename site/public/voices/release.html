@@ -23,18 +23,24 @@
 <body>
 
 <header class="top">
-  <div class="wrap top-row">
-    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/voices">Voices</a> &rsaquo; Narrator release</span>
-    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
-  </div>
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+  <div class="wrap subcrumb"><span class="crumb"><a href="/voices/studio">Record your voice</a> &rsaquo; Narrator release</span></div>
 </header>
 
-<!-- Changing the terms? Give it a new version below, in RELEASE_VERSION in functions/api/voices.js and in
+<!-- Changing the terms? Give it a new version below, in RELEASE_VERSION in lib/submissions.js and in
      public/voices/submit.html. Each submission records the version its narrator agreed to, so keep a copy of every
      version that was ever live (git history does that). -->
 <main class="wrap vp-page vp-doc">
   <h1>Narrator release</h1>
-  <p class="vp-version">Version 2026-09-29</p>
+  <p class="vp-version">Version 2026-10-03</p>
   <p class="pitch">This is what you agree to when you send us recordings for a Lore Forever voice pack. It's short
     on purpose. If anything is unclear, <a href="/discord?src=voices">ask on Discord</a> before you send.</p>
   <p>"We" means the Lore Forever project and the people who run it. "Your recordings" means the audio files you
@@ -44,7 +50,7 @@
   <h2>1. We can share your recordings</h2>
   <p>You let us include your recordings in Lore Forever voice packs and share those packs for free: on
     loreforeverwow.com, on GitHub, on CurseForge, and in later versions of the packs in those places. That includes
-    a short sample of your pack on the <a href="/voices">Voices page</a> so players can hear it before they
+    a short sample of your pack on the <a href="/downloads#voices">Downloads page</a> so players can hear it before they
     download.</p>
   <p>We don't have to publish everything you send. We may use some recordings and not others, for example when a
     file doesn't match the current text or has a sound problem. We'll tell you when that happens.</p>
@@ -55,6 +61,9 @@
     (CC BY-SA 4.0). Your recordings are released under the same license. That means anyone, not only us, may copy,
     share and adapt them, including for commercial use, as long as they credit you and share their version under the
     same license. You keep the copyright in your recordings.</p>
+  <p>Adapting includes making a synthetic copy of a voice from recordings. Lore Forever itself won't make one from
+    your recordings, or use them to train a voice model. Lending your voice is a separate choice, with
+    <a href="/voices/lend-terms">its own terms</a>.</p>
 
   <h2>3. The edits we may make</h2>
   <p>To make your files work in the game, we may:</p>
@@ -78,8 +87,7 @@
     voice: no music, sound effects or other people's material.</p>
 
   <h2>6. Age</h2>
-  <p>You're 18 or older. If you're under 18, a parent or guardian must read this release, agree to it, and sign it
-    on the form for you.</p>
+  <p>You must be 18 or older to send us recordings.</p>
 
   <h2>7. It's volunteer work</h2>
   <p>You're lending your voice as a volunteer. Lore Forever is free, and there is no payment, fee or royalty for
@@ -92,13 +100,16 @@
   <p>Copies already released stay out there. A CC BY-SA license can't be taken back, so anyone who already has your
     recordings may keep using and sharing them under that license, and older versions may still be available to
     download where they were published.</p>
+  <p>We keep the record of this release (the name you sign, your email, your Discord handle and your country) as
+    proof of the license, even if you delete your Lore Forever account; your recordings can still be taken down as
+    described above. See <a href="/privacy">privacy</a> for the rest.</p>
 
   <h2>9. If this release changes</h2>
   <p>If we update this page, it gets a new version date. A new version only applies to recordings you send after
     agreeing to it; recordings you already sent stay under the version you agreed to.</p>
 
   <p class="vp-note">When you send your recordings, the form records your agreement, the version you agreed to
-    (2026-09-29) and the date. <a href="/voices/submit">Send your recordings</a> &middot;
+    (2026-10-03) and the date. <a href="/voices/submit">Send your recordings</a> &middot;
     <a href="/voices/guide">Narrator guide</a></p>
 </main>
 
@@ -106,6 +117,7 @@
   <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
   <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>

@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Vessel for Pure Water",
-   "body": "Given by the hermit Brine in the Barrens, this plain red skin serves a vital spiritual purpose in the Call of Water trials. Initiates are tasked with carrying it far across the sea to the Hillsbrad Foothills, seeking out the town of Tarren Mill. Though the town is occupied by the Forsaken and steeped in undeath, a lone well in its center continues to draw sweet, pristine spring water. Filling the red waterskin captures a vital sample of life persevering amidst blight, which Brine uses to distill the Water Sapta.",
+   "body": "Given by the hermit Brine in the Barrens, this plain red skin serves a vital spiritual purpose in the Call of Water trials. Initiates are tasked with carrying it far across the sea to the Hillsbrad Foothills, seeking out the town of Tarren Mill. Though the town is occupied by the Forsaken and steeped in undeath, a lone well in its center continues to draw sweet, pristine spring water. Filling the red waterskin captures a vital sample of life persevering amidst blight, which Brine blends into a vial of purest water for the initiate's trial.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "what next red waterskin",
     "filled red waterskin turn in"
    ],
-   "answer": "Once filled at the well, the skin must be brought back to Brine in the Barrens, who combines the water with other rare samples to brew the Water Sapta."
+   "answer": "Once filled at the well, the skin must be brought back to Brine in the Barrens, who combines the water with other rare samples into a vial of purest water, from which Islen Waterseer creates the Water Sapta."
   }
  ],
  "angles": [

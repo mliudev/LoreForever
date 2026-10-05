@@ -95,6 +95,7 @@ test("pasting a record makes a private profile with the record's summary as its 
   assert.equal(mine.status, 200);
   assert.match(mine.html, /Only you can see this page/);
   assert.match(mine.html, /Make it public/);
+  assert.ok(!mine.html.includes("This could be your page"), "no 'make your own' on your own page");
   assert.match(mine.headers.get("Cache-Control"), /no-store/);
 });
 
@@ -121,7 +122,7 @@ test("a public profile: everything on the page, the account's links but never it
   for (const bit of ["Aelric's story", "The road so far", "<li>Teldrassil</li><li>Darnassus</li><li>Darkshore</li>",
     "Bosses defeated", "Edwin VanCleef", "Dungeons", "The Deadmines", "Notable kills", "Mother Fang", "Most fought",
     "Murloc Forager", "Best finds", '<span class="q3">Cruel Barb</span>', "Honored with Darnassus", "Herbalism",
-    "<cite>The Seven Dragons</cite>", "Make your own", 'href="/download/installer"', 'href="/account#profile"']) {
+    "<cite>The Seven Dragons</cite>", "This could be your page", 'href="/download/installer"', 'href="/account#profile"']) {
     assert.ok(html.includes(bit), bit);
   }
   assert.ok(!html.includes("Only you can see this page"), "no owner bar for visitors");
@@ -420,10 +421,100 @@ test("the admin dashboard lists players with their profile and links", async () 
   }
 });
 
+test("the admin dashboard counts sign-ups: accounts, profiles, public ones and new accounts by UTC day", async () => {
+  const ago = days => new Date(Date.now() - days * 864e5).toISOString();
+  const aelric = await signIn("aelric");
+  await api("import", { cookie: aelric.cookie, body: { record: RECORD } });
+  await api("settings", { cookie: aelric.cookie, body: { public: true } });
+  const other = await signIn("other");
+  await api("import", { cookie: other.cookie, body: { record: RECORD } });   // a second profile, still private
+  await signIn("lurker");                                                     // an account without one
+  // Older accounts: 3 days ago (in the last 7 days), 10 (in the last 30) and 40 (in neither).
+  const older = { week: ago(3), month: ago(10), old: ago(40) };
+  for (const [sub, created] of Object.entries(older)) {
+    const { user } = await signIn(sub);
+    await env.DB.prepare("UPDATE users SET created = ? WHERE id = ?").bind(created, user.id).run();
+  }
+  // More accounts than the users list holds (5000): the counts still see every one.
+  env.DB.sqlite.exec("WITH RECURSIVE n(i) AS (SELECT 1 UNION ALL SELECT i + 1 FROM n WHERE i < 5000) " +
+                     "INSERT INTO users (id, created) SELECT 'bulk-' || i, '2020-01-01T00:00:00.000Z' FROM n");
+  env.DB.sqlite.exec("CREATE TABLE IF NOT EXISTS feedback (id INTEGER PRIMARY KEY, user_id TEXT)");   // functions/api/feedback.js makes it
+  env.ADMIN_KEY = "admin-test-key";
+  try {
+    const res = await adminGet({ request: new Request(`${ORIGIN}/api/admin`, { headers: { Authorization: "Bearer admin-test-key" } }), env });
+    const { users, signups: { days, ...counts } } = await res.json();
+    assert.equal(users.length, 5000);
+    assert.deepEqual(counts, { accounts: 5006, profiles: 2, public: 1, today: 3, week: 4, month: 5 });
+    const day = iso => iso.slice(0, 10);
+    assert.deepEqual(days, [{ day: day(older.month), n: 1 }, { day: day(older.week), n: 1 },
+                            { day: day(new Date().toISOString()), n: 3 }]);
+  } finally {
+    delete env.ADMIN_KEY;
+  }
+});
+
 test("voice pages keep their own breadcrumb, footer and player", () => {
   const html = voicePage({ id: "x", name: "X Voice", credit: "Someone", tagline: "Hi." }, 0);
-  assert.match(html, /<a href="\/voices">Voices<\/a> &rsaquo; X Voice/);
+  assert.match(html, /<a href="\/downloads">Downloads<\/a> &rsaquo; X Voice/);
   assert.match(html, /Open the narrator dashboard/);
   assert.match(html, /<script src="\/voices\/player\.js" defer><\/script>/);
   assert.ok(!html.includes('name="robots"'));
+});
+
+test("the journey in numbers: miles walked, foes slain, time played and a few lines told for fun (LOR-246)", async () => {
+  const { readFileSync, existsSync } = await import("node:fs");
+  const { SITE } = await import("./helpers.mjs");
+  const file = `${SITE}tests/fixtures/journey/en.txt`;
+  const record = existsSync(file) ? readFileSync(file, "utf8") : "";
+  if (!record.includes("Journey stats")) return;   // fixtures not made yet
+  const me = await signIn("aelric");
+  assert.equal((await api("import", { cookie: me.cookie, body: { record } })).status, 200);
+  await api("settings", { cookie: me.cookie, body: { public: true } });
+  const { html } = await view("aelric");
+  const text = html.replace(/<[^>]+>/g, " ").replace(/&#0?39;|&#x27;|&apos;/g, "'").replace(/\s+/g, " ");
+  for (const bit of ["The journey in numbers", "71,184 Steps walked 33.7 mi", "192 Foes slain", "7 Elites slain", "3 Rares slain",
+    "26 hours Time played", "That's the road from Goldshire to Booty Bay 9.5 times over.", "More than a marathon on foot.",
+    "Walked the most in Teldrassil: 25,680 steps.", "192 foes slain, 21 different ones.",
+    "The most common kind of foe: Beast (98).", "3 deaths along the way, each one a lesson for Aelric.",
+    "1.1 days in Azeroth, all told.", "Where the steps went", "Teldrassil 25,680 steps 12.2 mi", "Distances in miles kilometres", "Foes by kind", "Beast 98"]) {
+    assert.ok(text.includes(bit), bit);
+  }
+  assert.match(html, /<li><strong>3<\/strong><span>Deaths<\/span><\/li>/, "the Deaths tile counts every death");
+  assert.match(html, /data-mi="33\.7 mi" data-km="54\.2 km">33\.7 mi</, "miles, and kilometres for the switch");
+  assert.match(html, /<p class="pf-units" hidden>[\s\S]*<script src="\/js\/units\.js" defer><\/script>/,
+    "the switch shows only with its script");
+  assert.ok(!/better than|rank(ed|ing)|top \d|leaderboard/i.test(text), "no comparing with other players");
+});
+
+test("the journey in numbers: none for a record from an older add-on, and the page is as before", async () => {
+  const me = await signIn("aelric");
+  await api("import", { cookie: me.cookie, body: { record: RECORD } });
+  const { html } = await view("aelric", me.cookie);
+  assert.ok(!html.includes("The journey in numbers") && !html.includes("Steps walked") && !html.includes("units.js"));
+  assert.match(html, /<li><strong>3<\/strong><span>Deaths<\/span><\/li>/);
+});
+
+test("the journey in numbers: small and edge cases read well", async () => {
+  const { funLines, numbersSection, duration } = await import("../lib/profile-stats.js");
+  const base = { name: "Brakka", factionKey: "horde", totals: { foes: 3 }, cut: false,
+    deaths: [{ zone: "The Barrens" }, { zone: "The Barrens" }, { zone: "The Barrens" }, { zone: "Durotar" }],
+    stats: { yards: 4000, slain: 40, elites: 0, rares: 0, deaths: 4, recorded: 0.5, played: null,
+      walk: [{ zone: "Durotar", yards: 3000 }, { zone: "The Barrens", yards: 1000 }], kinds: [{ kind: "Beast", n: 30 }] } };
+  assert.deepEqual(funLines(base), [
+    "That's the whole of the road from Orgrimmar to the Crossroads, and then some.",
+    "Walked the most in Durotar: 3,600 steps.",
+    "40 foes slain, 3 different ones.",
+    "The most common kind of foe: Beast (30).",
+    "4 deaths along the way, each one a lesson for Brakka.",
+    "The Barrens claimed Brakka 3 times.",
+  ]);
+  const html = numbersSection(base);
+  assert.match(html, /<strong>30 minutes<\/strong><span>Time recorded<\/span>/);
+  assert.ok(!html.includes("Elites slain") && !html.includes("Rares slain"), "no empty tiles");
+  assert.deepEqual(funLines({ ...base, deaths: [], stats: { ...base.stats, yards: 50, deaths: 0, walk: [] } }),
+    ["40 foes slain, 3 different ones.", "The most common kind of foe: Beast (30).", "Not a single death yet."]);
+  assert.equal(numbersSection({ ...base, stats: null }), "");
+  assert.equal(numbersSection({ ...base, stats: { ...base.stats, yards: 0, slain: 0, recorded: 0 } }), "");
+  assert.deepEqual([duration(0.2), duration(1), duration(30), duration(50), duration(72)],
+    ["12 minutes", "1 hour", "30 hours", "2 days 2 hours", "3 days"]);
 });

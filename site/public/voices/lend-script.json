@@ -1,0 +1,18 @@
+{
+  "_readme": "The script donors read on /voices/lend (LOR-230): about 2.5 minutes aloud, every common English sound (th, zh as in measure, ng, ch, j, v, w, y), a question and an exclamation, and lore from Forever's era only (after the Third War, before anything beyond it). The page shows 'current'; each donation stores the version read, and the render tooling (experiments/voices/local/donation_prep.py) checks the recording against that version's text, so keep old versions here when you change it.",
+  "current": "2026-10-04",
+  "scripts": {
+    "2026-10-04": {
+      "title": "A traveler's welcome",
+      "paragraphs": [
+        "Welcome, traveler. Pull up a chair by the hearth, and I'll tell you how things stand in the world these days. The Third War is over, but nobody who lived through it would call this peace. Not yet, anyway.",
+        "Across the Great Sea, the orcs have built a new home in the red canyons of Durotar. Their warchief, Thrall, named the city Orgrimmar, after the old hero Orgrim Doomhammer. The tauren of Mulgore roam the golden plains beside them, and the Darkspear trolls keep watch over the Echo Isles.",
+        "In the east, Stormwind has risen again behind white walls, though its king has gone missing and a boy sits on the throne. The dwarves of Ironforge dig ever deeper beneath the snows of Dun Morogh, and the gnomes, driven out of Gnomeregan, measure and tinker and argue about how to take their city back.",
+        "Far to the north, the night elves tend their great tree, Teldrassil, quietly mourning the immortality they gave up on Mount Hyjal. And on an island in Dustwallow Marsh, Lady Jaina Proudmoore keeps the lanterns of Theramore burning, hoping the truce between orc and human holds.",
+        "But beware the north. The Scourge still haunts the Plaguelands, where farms lie empty and the wind smells of ash. Beneath the ruins of Lordaeron, the Forsaken have made the Undercity their home. Are they free at last, or just another kind of cursed? Ask three travelers and you'll hear four answers.",
+        "Coin is tight and the roads are dangerous, so folk have learned to trade in favors. A fisherman in Auberdine might pay you in fresh bread and a warm bed. A dwarf in Thelsamar will pour you a frothy ale and swear on his beard that every word of his story is true. Believe about half of it.",
+        "So, where will your road take you? Maybe to the Barrens, chasing quilboar and kodo. Maybe to Westfall, where the Defias Brotherhood hides in the hills. Maybe somewhere nobody has written a song about yet! Wherever you go, keep your blade sharp, your boots dry, and your wits about you. Now, finish your drink. The night is young, and the road is long."
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+[
+ {
+  "link": "https://loreforeverwow.com/contribute#c=LFC1~0.8.0.enUS~quest~99001~detail~197001.2.Humanoid.Warden%20Halvar~Human.ROGUE.2~You%20came%20back,%20%24N.%20A%20%24R%20%24C%20is%20rare%20here.~c98fb6b3",
+  "expect": {
+   "kind": "quest",
+   "ref_id": "99001",
+   "part": "detail",
+   "locale": "enUS",
+   "text": "You came back, $N. A $R $C is rare here.",
+   "player": "Human.ROGUE.2"
+  }
+ },
+ {
+  "link": "https://loreforeverwow.com/contribute#c=LFC1~0.8.0.enUS~gossip~197~c23284b7~197.2.Humanoid.Marshal%20McBride~Human.ROGUE.2~Hey%20%24N,%20the%20Defias%20are%20trouble%20for%20a%20%24R.~5bb1adfa",
+  "expect": {
+   "kind": "gossip",
+   "ref_id": "197",
+   "part": "c23284b7",
+   "locale": "enUS",
+   "text": "Hey $N, the Defias are trouble for a $R.",
+   "player": "Human.ROGUE.2"
+  }
+ },
+ {
+  "link": "https://loreforeverwow.com/contribute#c=LFC1~0.8.0.enUS~book~The%20Battle%20of%20Grim%20Batol~1~~Human.ROGUE.2~For%20%24N:%20page%20one.~a591bf72",
+  "expect": {
+   "kind": "book",
+   "ref_id": "The Battle of Grim Batol",
+   "part": "1",
+   "locale": "enUS",
+   "text": "For $N: page one.",
+   "player": "Human.ROGUE.2"
+  }
+ },
+ {
+  "link": "https://loreforeverwow.com/contribute#c=LFC1~0.8.0.enUS~quest~5~complete~o300077~Dwarf.WARRIOR.3~Line%20one%250D%250Awith%20%257E%20tildes,%20100%2525%20sure%3B%20%22quotes%22,%20%C3%9Cn%C3%AFc%C3%B6d%C3%A9%20%E2%80%94%20and%20%24N.~bec63526",
+  "expect": {
+   "kind": "quest",
+   "ref_id": "5",
+   "part": "complete",
+   "locale": "enUS",
+   "text": "Line one\r\nwith ~ tildes, 100% sure; \"quotes\", Ünïcödé — and $N.",
+   "player": "Dwarf.WARRIOR.3"
+  }
+ }
+]

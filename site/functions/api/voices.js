@@ -36,7 +36,7 @@ function errorPage(status, error) {
 <meta name="robots" content="noindex"><title>Not sent yet - Lore Forever</title>
 <link rel="icon" href="/img/logo.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css"></head>
 <body><header class="top"><div class="wrap"><span class="crumb"><a href="/">Lore Forever</a> &rsaquo;
-<a href="/voices">Voices</a> &rsaquo; Send your recordings</span></div></header>
+<a href="/voices/studio">Record your voice</a> &rsaquo; Send your recordings</span></div></header>
 <main class="wrap fb-page"><h1>Not sent yet</h1>
 <div class="fb-done"><p>${escape(error)}</p>
 ${status === 401
@@ -95,12 +95,12 @@ async function save({ request, env, waitUntil }, json) {
   if (s.release_version !== RELEASE_VERSION) {
     return { status: 409, error: "The narrator release was updated since this page loaded. Reload the page, read the new version, and agree again." };
   }
-  if (!s.adult_or_guardian) return { status: 400, error: "Please confirm you're 18 or older, or that a parent or guardian agrees." };
+  if (!s.adult_or_guardian) return { status: 400, error: "Please confirm you're 18 or older. Sending a voice is for adults only." };
   if (s.signature.length < 2) return { status: 400, error: "Type your full name as your signature." };
 
   const ip = request.headers.get("CF-Connecting-IP") || "";
   const now = new Date().toISOString();
-  const sender = await senderHash(ip, now.slice(0, 10));
+  const sender = await senderHash(env, ip, now.slice(0, 10));
   await setupSubmissions(env);
   const sent = await sentToday(env, sender, now.slice(0, 10));
   if (sent >= PER_DAY) return { status: 429, error: "That's a lot of submissions for one day. Please try again tomorrow, or ask on Discord." };
