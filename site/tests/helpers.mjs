@@ -29,8 +29,10 @@ export function d1() {
   };
 }
 
-// R2: put/head/get/delete/list. get() streams the body in small chunks, like R2 does. put() checks a `sha256` option
-// like R2 (throws on a mismatch), and each put is uploaded a second after the one before.
+// R2: put/head/get/delete/list. get() streams the body in small chunks, like R2 does, and takes a `range` option
+// ({offset, length} or {suffix}; the body is then that part, size stays the whole object's, and a range past the end
+// throws, as R2 does). put() checks a `sha256` option like R2 (throws on a mismatch), and each put is uploaded a
+// second after the one before.
 export function r2(chunk = 7) {
   const objects = new Map();
   let clock = Date.parse("2026-01-01T00:00:00Z");
@@ -48,16 +50,24 @@ export function r2(chunk = 7) {
       const o = objects.get(key);
       return o ? meta(key, o) : null;
     },
-    async get(key) {
+    async get(key, opts = {}) {
       const o = objects.get(key);
       if (!o) return null;
+      let bytes = o.bytes;
+      if (opts.range) {
+        const r = opts.range;
+        const start = r.suffix != null ? Math.max(0, bytes.length - r.suffix) : r.offset;
+        if (start >= bytes.length) throw new Error("get: The requested range is not satisfiable.");
+        bytes = bytes.slice(start, r.length != null ? start + r.length : undefined);
+      }
       let i = 0;
       return {
         ...meta(key, o),
+        range: opts.range,
         body: new ReadableStream({
           pull(ctl) {
-            if (i >= o.bytes.length) return ctl.close();
-            ctl.enqueue(o.bytes.slice(i, i + chunk));
+            if (i >= bytes.length) return ctl.close();
+            ctl.enqueue(bytes.slice(i, i + chunk));
             i += chunk;
           },
         }),

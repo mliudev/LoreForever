@@ -1,0 +1,42 @@
+[
+ {
+  "input": "Hello, <name>! The <race> <class> awaits.",
+  "normalized": "Hello, $N! The $R $C awaits.",
+  "hash": "d9f387f12fc2c9d2"
+ },
+ {
+  "input": "Hello, $N! The $R $C awaits.",
+  "normalized": "Hello, $N! The $R $C awaits.",
+  "hash": "d9f387f12fc2c9d2"
+ },
+ {
+  "input": "  Multiple   spaces\r\nand lines\n\nhere  ",
+  "normalized": "Multiple   spaces\nand lines\n\nhere",
+  "hash": "873f7c7db3013038"
+ },
+ {
+  "input": "Grüße, $n. ¡Hola, <NAME>!",
+  "normalized": "Grüße, $N. ¡Hola, $N!",
+  "hash": "78716c9dfa658e17"
+ },
+ {
+  "input": "Tabs\tand no-break space",
+  "normalized": "Tabs\tand no-break space",
+  "hash": "3ecb9b6331fcb693"
+ },
+ {
+  "input": "$c is not $Class, and $race stays",
+  "normalized": "$C is not $Class, and $race stays",
+  "hash": "4158b10fa4bb866f"
+ },
+ {
+  "input": "Line one\n\nLine two",
+  "normalized": "Line one\n\nLine two",
+  "hash": "c2f82367a1f05db8"
+ },
+ {
+  "input": "Line one Line two",
+  "normalized": "Line one Line two",
+  "hash": "c2f82367a1f05db8"
+ }
+]

@@ -74,12 +74,28 @@ function playButton(v) {
         <audio class="dl-audio" preload="none" src="${escape(s.src)}"></audio>`;
 }
 
+// A voice with its own CurseForge project (voices.json "curseforge", its project page): the CurseForge app installs
+// it with the add-on and keeps both updated, so it's offered under the Download for players who use the app.
+function curseforgeLine(v) {
+  if (!/^https:\/\/www\.curseforge\.com\/wow\/addons\/[a-z0-9-]+\/?$/.test(v.curseforge || "")) return "";
+  return `\n        <p class="dl-file-meta dl-cf">Use the CurseForge app? <a href="${escape(v.curseforge)}">Get it on CurseForge</a></p>`;
+}
+
+// A file as a small link: its name (and faction), then its narrations and size.
+function smallLink(v, f) {
+  return `<a id="${escape(f.id)}" data-pack="${escape(f.pack)}" href="${escape(f.href)}" aria-label="Download ${escape(v.name)}, ${escape(f.name)}">${escape(f.name)}</a>${f.faction ? ` <span class="dl-faction dl-${f.faction}">${FACTION_LABEL[f.faction]}</span>` : ""} <span class="dl-file-meta">(${[f.clips ? f.clips.toLocaleString("en-US") : "", sizeCell(f.item, f.href)].filter(Boolean).join('<span class="dl-dot" aria-hidden="true">, </span>')})</span>`;
+}
+
 // One voice. A voice that comes with the add-on just says so. Any other voice gets one big Download: its
 // all-in-one zip when it has one ("Download everything"), else its own pack. Its other packs (the core, Alliance and
-// Horde lands) follow as small links. Every file keeps its id as an anchor, and data-pack is the id a later
+// Horde lands) follow as small links. The voice in other languages (packs with a "language", LOR-177) gets its own
+// line, the included voice's too. Every file keeps its id as an anchor, and data-pack is the id a later
 // "download several" checkbox would send.
 export function voiceBlock(v, likes) {
-  const packs = (v.packs || []).filter(p => p.download && p.status !== "soon");
+  const released = (v.packs || []).filter(p => p.download && p.status !== "soon");
+  const packs = released.filter(p => !p.language);
+  const languages = released.filter(p => p.language)
+    .map(p => ({ id: p.id, name: p.name, href: packHref(p), item: p, pack: p.id, clips: p.clips }));
   const files = [];
   if (!v.included && v.download) {
     files.push({ id: packs.length ? `${v.id}-core` : `${v.id}-file`, name: packs.length ? "Core" : v.name,
@@ -97,14 +113,18 @@ export function voiceBlock(v, likes) {
   } else if (main) {
     get = `<a class="btn-download dl-big" id="${escape(main.id)}" data-pack="${escape(main.pack)}" href="${escape(main.href)}"
           aria-label="Download ${escape(v.name)}${main.all ? ", everything" : ""}">${main.all ? "Download everything" : "Download"}</a>
-        <p class="dl-file-meta">${[amount(main.clips, main.item), sizeCell(main.item, main.href)].filter(Boolean).join(DOT)}</p>`;
+        <p class="dl-file-meta">${[amount(main.clips, main.item), sizeCell(main.item, main.href)].filter(Boolean).join(DOT)}</p>` +
+      curseforgeLine(v);
   } else {
     get = `<p class="dl-included">Download coming soon</p>`;
   }
-  const small = rest.length
+  const small = (rest.length
     ? `<p class="dl-parts">Or just one part:
-          ${rest.map(f => `<a id="${escape(f.id)}" data-pack="${escape(f.pack)}" href="${escape(f.href)}" aria-label="Download ${escape(v.name)}, ${escape(f.name)}">${escape(f.name)}</a>${f.faction ? ` <span class="dl-faction dl-${f.faction}">${FACTION_LABEL[f.faction]}</span>` : ""} <span class="dl-file-meta">(${[f.clips ? f.clips.toLocaleString("en-US") : "", sizeCell(f.item, f.href)].filter(Boolean).join('<span class="dl-dot" aria-hidden="true">, </span>')})</span>`).join(DOT)}</p>`
-    : "";
+          ${rest.map(f => smallLink(v, f)).join(DOT)}</p>`
+    : "") + (languages.length
+    ? `<p class="dl-parts dl-other-langs">In other languages:
+          ${languages.map(f => smallLink(v, f)).join(DOT)}</p>`
+    : "");
   // The voice's own coverage line describes its core pack, so a voice with an all-in-one zip leaves it to the parts.
   const cover = v.coverage && !(main && main.all) ? `<p class="dl-cover">${escape(sentence(v.coverage))}</p>` : "";
   const most = Math.max(v.clips || 0, ...packs.map(p => p.clips || 0));
@@ -153,7 +173,14 @@ export function languagesSection(packs) {
   const list = arr => arr.length > 1 ? arr.slice(0, -1).join(", ") + " and " + arr[arr.length - 1] : arr[0] || "";
   const included = ["English", ...packs.filter(p => p.locale && p.included).map(p => escape(p.name))];
   const separate = packs.filter(p => p.locale && !p.included && p.download);
-  return `<p class="dl-langs">${list(included)} come with the add-on. Pick one in Options &rsaquo; Language.</p>` +
+  // LOR-35: players kept asking for languages that already ship, so say plainly how a language is picked, and that
+  // the recorded voices are English, with German next (LOR-177; until then other languages read aloud with the
+  // game's own text-to-speech voice). Update this when the German voices go live.
+  return `<p class="dl-langs"><strong>${list(included)}</strong> come with the add-on, nothing extra to download.</p>
+      <p class="dl-intro">Lore Forever follows your WoW client's language. To read in another one, pick it in Options
+        &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Language, or type <code>/lore lang</code>.</p>
+      <p class="dl-intro">The recorded narrator voices are in English, with German on the way. Until your language has
+        its own, Read aloud uses the game's text-to-speech voice; pick English to hear the English recordings.</p>` +
     (separate.length ? `\n      <ul class="dl-files">\n        ${separate.map(languageRow).join("\n        ")}\n      </ul>` : "");
 }
 

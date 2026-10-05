@@ -1,0 +1,114 @@
+/* Styles for the private dashboard pages (/admin and /admin/edits), kept out of style.css so the public stylesheet stays lean. */
+.ad { padding-top: 22px; padding-bottom: 20px; }
+.ad[hidden], .ad-login[hidden] { display: none; }
+.ad-bar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: baseline; justify-content: space-between; }
+.ad-bar h1 { font-size: 2rem; }
+.ad-meta { color: var(--muted); font-size: 0.85rem; }
+.ad-meta button, .ad-link {
+  background: none; border: 0; padding: 0; color: var(--link); font: inherit; cursor: pointer; text-decoration: underline;
+}
+.ad-panel {
+  background: var(--panel); border: 1px solid var(--panel-line); border-radius: 5px; padding: 14px 16px;
+  box-shadow: inset 0 0 0 1px #000, 0 4px 14px rgba(0, 0, 0, 0.5); min-width: 0;
+}
+.ad h2 { font-family: var(--heading); color: var(--gold); font-size: 1.2rem; margin: 28px 0 10px; }
+.ad-panel h3 { margin: 0 0 8px; color: var(--gold-soft); font: 600 0.95rem var(--heading); letter-spacing: 0.02em; }
+
+/* Stat tiles */
+.ad-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-top: 16px; }
+.ad-tile .ad-label { color: var(--muted); font-size: 0.85rem; }
+.ad-tile .ad-num { font: 700 2rem/1.2 var(--heading); color: var(--text); }
+.ad-tile .ad-sub { color: var(--muted); font-size: 0.82rem; }
+/* Profiles: the sign-up counts in one panel, three to a row (two when the panel is narrow) */
+.ad-stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(max(120px, 30%), 1fr)); gap: 14px 12px; }
+
+/* Charts */
+.ad-charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin-top: 12px; }
+.ad-chart { position: relative; }
+.ad-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.ad-chart .grid { stroke: #2a2a36; stroke-width: 1; }
+.ad-chart .axis { fill: var(--muted); font-size: 11px; font-family: system-ui, sans-serif; }
+.ad-chart .bar { fill: var(--gold-soft); pointer-events: none; }
+.ad-chart .hit { fill: transparent; cursor: default; }
+.ad-chart .hit:hover + .bar, .ad-chart .bar.on { fill: var(--gold); }
+.ad-tip {
+  position: absolute; pointer-events: none; transform: translate(-50%, -100%); white-space: nowrap;
+  background: #000; border: 1px solid var(--panel-line); border-radius: 4px; padding: 4px 8px; font-size: 0.82rem;
+}
+.ad-tip strong { color: var(--text); }
+.ad-chart details { margin-top: 6px; font-size: 0.82rem; }
+.ad-chart summary { cursor: pointer; color: var(--link); }
+.ad-chart details table { font-size: 0.82rem; margin-top: 6px; }
+
+/* Filters, lists and tables */
+.ad-filters { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; margin-bottom: 10px; }
+.ad-filters button, .ad-filters select, .ad-filters input {
+  font: inherit; font-size: 0.88rem; color: var(--text); background: #00000088; border: 1px solid var(--panel-line);
+  border-radius: 4px; padding: 5px 10px;
+}
+.ad-filters button { cursor: pointer; }
+.ad-filters button[aria-pressed="true"] { border-color: var(--gold); color: var(--gold); }
+.ad-filters input { flex: 1 1 200px; min-width: 0; }
+.ad-count { color: var(--muted); font-size: 0.85rem; }
+.ad-report { border-top: 1px solid var(--line); padding: 12px 0; }
+.ad-report:first-child { border-top: 0; padding-top: 0; }
+.ad-report.done { opacity: 0.6; }
+.ad-report-head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; font-size: 0.85rem; color: var(--muted); }
+.ad-kind { font-weight: 600; color: var(--gold-soft); }
+.ad-stars { color: var(--gold); letter-spacing: 1px; }
+.ad-msg { margin: 6px 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.ad-ctx { color: var(--muted); font-size: 0.88rem; border-left: 2px solid var(--line, #3a3326); padding-left: 10px; }
+.ad-report-foot { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.85rem; color: var(--muted); }
+.ad-report-foot code { overflow-wrap: anywhere; }
+.ad-actions { margin-left: auto; display: flex; gap: 14px; }
+.ad-danger { color: #ff8a7a !important; }
+.ad-table-wrap { overflow-x: auto; }
+.ad table td, .ad table th { padding: 6px 10px 6px 0; border-top: 1px solid var(--line); text-align: left; font-size: 0.9rem; }
+.ad table th { color: var(--muted); font-weight: 600; border-top: 0; }
+.ad-empty { color: var(--muted); margin: 0; }
+.ad-test { color: var(--muted); font-size: 0.78rem; border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; }
+
+/* Section bar: sticks to the top, shows what's open in each section, marks the one in view. */
+.ad-nav {
+  position: sticky; top: 0; z-index: 10; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
+  margin: 14px -16px 0; padding: 8px 16px; background: var(--bg); border-bottom: 1px solid var(--line);
+}
+.ad-nav::-webkit-scrollbar { display: none; }
+.ad-nav a {
+  flex: none; display: flex; gap: 6px; align-items: center; padding: 5px 10px; border: 1px solid var(--panel-line);
+  border-radius: 4px; color: var(--text); font-size: 0.88rem; text-decoration: none; background: #00000088;
+}
+.ad-nav a:hover { border-color: var(--gold-soft); }
+.ad-nav a[aria-current="true"] { border-color: var(--gold); color: var(--gold); }
+.ad-badge { min-width: 1.4em; padding: 0 5px; border-radius: 9px; background: var(--gold); color: #000; font-size: 0.75rem; font-weight: 700; text-align: center; }
+.ad-badge:empty { display: none; }
+.ad-badge.quiet { background: var(--line); color: var(--muted); }
+.ad h2[id], #overview { scroll-margin-top: 64px; }
+a.ad-tile { color: inherit; text-decoration: none; }
+a.ad-tile:hover { border-color: var(--gold-soft); }
+
+/* Sign-in */
+.ad-login { max-width: 460px; margin: 60px auto; }
+.ad-login form { display: flex; flex-direction: column; gap: 10px; }
+.ad-login input[type="password"] {
+  padding: 8px 10px; font: inherit; color: var(--text); background: #000000aa; border: 1px solid var(--panel-line); border-radius: 4px;
+}
+.ad-login label.ad-check { display: flex; gap: 8px; align-items: center; color: var(--muted); font-size: 0.9rem; }
+.ad-login .btn-small { align-self: flex-start; cursor: pointer; }
+.ad-error { color: #ff7b6b; margin: 0; }
+
+/* /admin/edits: a wider page, a long table of edits, translator actions */
+.ad-wide { max-width: 1400px; }
+.ad-check { display: inline-flex; gap: 6px; align-items: center; color: var(--muted); font-size: 0.88rem; white-space: nowrap; }
+.ad-filters .ad-check input { flex: none; padding: 0; }
+.ad-filters button:disabled { opacity: 0.5; cursor: default; }
+.ad table td { vertical-align: top; }
+.ad tr.done td { opacity: 0.6; }
+.ae code { font-size: 0.8rem; overflow-wrap: anywhere; word-break: normal; }
+.ae td:nth-child(3) { max-width: 14em; }
+.ae td:nth-child(6) { min-width: 10em; }
+.ae-text { white-space: pre-wrap; overflow-wrap: anywhere; min-width: 14em; max-height: 9em; overflow: auto; }
+.ae-sub { display: block; color: var(--muted); font-size: 0.8rem; overflow-wrap: anywhere; }
+.ae-when { white-space: nowrap; color: var(--muted); }
+.ae-actions { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.ae-pager { justify-content: center; margin: 10px 0 0; }

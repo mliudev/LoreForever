@@ -1,0 +1,170 @@
+/* Lore pages (/lore and /lore/<type>/<id>, site/lib/lore.js): the site's palette and type from /style.css. */
+
+/* ---- An entry ---- */
+.lp { max-width: 760px; }
+.lp-where { margin: 0 0 4px; color: var(--muted); font-size: 0.92rem; }
+.lp-where a { color: var(--gold-soft); }
+.lp-tag { margin-left: 0; color: var(--gold-soft); border-color: #d8b25a88; }
+.lp h1 { margin: 0 0 12px; font-family: var(--heading); color: var(--gold); font-size: 2.1rem; line-height: 1.2; }
+.lp h2 { font-family: var(--heading); color: var(--gold); font-size: 1.3rem; margin: 26px 0 10px; }
+.lp h3 { font-family: var(--heading); color: var(--gold-soft); font-size: 1.05rem; margin: 0 0 8px; }
+.lp-intro p, .lp-text p { margin: 0 0 12px; line-height: 1.7; }
+.lp-speed { display: flex; align-items: center; gap: 6px; margin: 14px 0 0; color: var(--muted); font-size: 0.88rem; }
+.lp-speed[hidden] { display: none; }
+.lp-speed button, .lx-chips button, .lx-pctl button {
+  min-height: 32px; padding: 4px 11px; cursor: pointer; border-radius: 16px; font: 600 0.84rem system-ui, sans-serif;
+  background: #00000066; border: 1px solid var(--panel-line); color: var(--text);
+}
+.lp-speed button:hover, .lx-chips button:hover, .lx-pctl button:hover,
+.lp-speed button:focus-visible, .lx-chips button:focus-visible, .lx-pctl button:focus-visible { border-color: var(--gold-soft); }
+.lp-speed button[aria-pressed="true"], .lx-chips button[aria-pressed="true"] { border-color: var(--gold); color: var(--gold); }
+
+.lp-clip { margin: 18px 0 0; padding: 14px 16px 6px; background: var(--panel); border: 1px solid var(--panel-line); border-radius: 6px; }
+.lp-clip > h2 { margin-top: 0; }
+.lp-faq { margin-top: 12px; }
+.lp-faqs { margin-bottom: 0; }
+.lp-play { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
+.lp-btn {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 6px 14px 6px 8px; border-radius: 20px;
+  border: 1px solid var(--gold-soft); background: #000000aa; color: var(--text); text-decoration: none; font-size: 0.92rem;
+}
+.lp-btn:hover, .lp-btn:focus-visible { border-color: var(--gold); background: #1b1408; }
+.lp-btn.lp-on { border-color: var(--gold); box-shadow: inset 0 0 0 1px var(--gold); }
+.lp-btn.lp-bad { opacity: 0.5; }
+.lp-ic {
+  display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: #1b1408;
+  color: var(--gold); font-size: 0.8rem; line-height: 1;
+}
+.lp-len { color: var(--muted); font-variant-numeric: tabular-nums; }
+.lp-ingame { margin: 0 0 12px; color: var(--muted); font-size: 0.9rem; }
+.rl-s { border-radius: 3px; transition: background-color 0.2s, color 0.2s; }
+.lp-clip .rl-s { cursor: default; }
+.rl-on { background: #ffd10022; color: #fff4c8; }
+.lp-fold summary { cursor: pointer; color: var(--link); margin: 0 0 10px; }
+.lp-tools { margin: 0 0 8px; }
+.lp-rep {
+  padding: 0; border: 0; background: none; cursor: pointer; color: var(--muted); font: 0.85rem system-ui, sans-serif;
+  text-decoration: underline; text-underline-offset: 2px;
+}
+.lp-rep:hover, .lp-rep:focus-visible { color: var(--link); }
+.lp-rep[hidden] { display: none; }
+.lp-open { margin-left: 10px; color: var(--muted); font-size: 0.82rem; white-space: nowrap; }
+.lp-open[hidden] { display: none; }
+
+.lp-src ul { margin: 0; padding: 0; list-style: none; }
+.lp-src li { margin: 0 0 6px; font-size: 0.92rem; }
+.src {
+  display: inline-block; min-width: 76px; margin-right: 6px; padding: 1px 6px; border: 1px solid; border-radius: 3px;
+  text-align: center; font: 600 0.72rem system-ui, sans-serif; letter-spacing: 0.04em; text-transform: uppercase;
+}
+.src-wiki { color: #4a9eff; border-color: #4a9eff88; }          /* the game's "rare" blue */
+.src-forever { color: #1eff00; border-color: #1eff0077; }       /* uncommon green: Forever's own text */
+.src-community { color: #ff8000; border-color: #ff800088; }     /* legendary orange */
+.src-game { color: var(--parchment); border-color: #e9d8ad66; }
+.src-note { color: var(--muted); font-size: 0.85rem; }
+.lp-links { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 0 0 14px; padding: 0; list-style: none; }
+.lp-links li { font-size: 0.95rem; }
+.lp-count { color: var(--muted); font: 0.8rem system-ui, sans-serif; }
+
+.lp-cta {
+  max-width: 760px; margin: 30px 0 10px; padding: 18px 20px; border: 1px solid #c9a24b88; border-radius: 6px;
+  background: linear-gradient(180deg, #1b1408cc, #0d0b09cc);
+}
+.lp-cta h2 { margin: 0 0 6px; font-family: var(--heading); color: var(--gold); font-size: 1.25rem; }
+.lp-cta p { margin: 0 0 12px; }
+
+/* ---- The report form ---- */
+.lp-dlg {
+  width: min(460px, calc(100vw - 32px)); padding: 0; border: 1px solid var(--panel-line); border-radius: 6px;
+  background: #080a16; color: var(--text); box-shadow: 0 10px 40px #000;
+}
+.lp-dlg::backdrop { background: #000000aa; }
+.lp-form { display: flex; flex-direction: column; gap: 10px; padding: 16px 18px; }
+.lp-form h2 { margin: 0; font-family: var(--heading); color: var(--gold); font-size: 1.15rem; }
+.lp-what { margin: 0; color: var(--muted); font-size: 0.9rem; }
+.lp-form fieldset { margin: 0; padding: 0; border: 0; display: flex; flex-direction: column; gap: 4px; }
+.lp-form legend { margin-bottom: 4px; font-weight: 600; }
+.lp-form label { font-size: 0.92rem; }
+.lp-form input[type="text"], .lp-form input:not([type]), .lp-form textarea {
+  display: block; width: 100%; margin-top: 3px; padding: 7px 9px; border: 1px solid var(--panel-line); border-radius: 4px;
+  background: #00000088; color: var(--text); font: inherit;
+}
+.lp-name { display: flex; flex-direction: column; gap: 8px; }
+.lp-name[hidden] { display: none; }
+.lp-msg { margin: 0; min-height: 1.2em; color: var(--gold-soft); font-size: 0.9rem; }
+.lp-actions { display: flex; gap: 10px; align-items: center; }
+.lp-actions button { cursor: pointer; }
+.lp-cancel { padding: 7px 14px; border: 1px solid var(--panel-line); border-radius: 4px; background: none; color: var(--text); }
+
+/* ---- /lore: the list ---- */
+.lx-stats { margin: 0 0 12px; color: var(--muted); }
+.lx-soon { padding: 10px 14px; border: 1px dashed var(--gold-soft); border-radius: 6px; background: #1b140888; }
+.lx-soon[hidden], .lx-bar[hidden], .lx-keys[hidden], .lx-more[hidden], .lx-player[hidden] { display: none; }
+.lx-bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 14px 0 6px; }
+.lx-search { flex: 1 1 280px; }
+.lx-search input, .lx-zone select {
+  width: 100%; min-height: 40px; padding: 8px 12px; border: 1px solid var(--panel-line); border-radius: 4px;
+  background: #00000088; color: var(--text); font: inherit;
+}
+.lx-search input:focus, .lx-zone select:focus { outline: 2px solid var(--gold-soft); outline-offset: 1px; }
+.lx-zone { flex: 0 1 220px; }
+.lx-chips { display: flex; flex-wrap: wrap; gap: 6px; flex-basis: 100%; }
+.lx-chips[hidden] { display: none; }
+.lx-check { font-size: 0.9rem; color: var(--muted); }
+.lx-check[hidden] { display: none; }
+.lx-count { margin: 6px 0; color: var(--muted); font-size: 0.88rem; }
+.lx-list { display: flex; flex-direction: column; gap: 6px; }
+.lx-row {
+  display: grid; grid-template-columns: 40px minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 8px 12px;
+  background: var(--panel); border: 1px solid var(--panel-line); border-radius: 6px;
+}
+.lx-row.lx-sel { border-color: var(--gold-soft); }
+.lx-row.lx-on { border-color: var(--gold); box-shadow: inset 0 0 0 1px var(--gold); }
+.lx-play, .lx-pp {
+  width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 0.9rem; line-height: 1;
+  border: 1px solid var(--gold-soft); background: #000000aa; color: var(--gold);
+}
+.lx-play:hover, .lx-play:focus-visible, .lx-pp:hover, .lx-pp:focus-visible { border-color: var(--gold); background: #1b1408; }
+.lx-ingame { color: var(--muted); font-size: 0.72rem; text-align: center; line-height: 1.1; }
+.lx-main { min-width: 0; display: flex; flex-direction: column; }
+.lx-main a { color: var(--gold-soft); font-weight: 600; text-decoration: none; overflow-wrap: anywhere; }
+.lx-main a:hover { text-decoration: underline; }
+.lx-sub { color: var(--muted); font-size: 0.82rem; }
+.lx-len { color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+.lx-keys { color: var(--muted); font-size: 0.82rem; }
+kbd {
+  padding: 0 5px; border: 1px solid var(--panel-line); border-bottom-width: 2px; border-radius: 3px; background: #00000066;
+  font: 0.78rem ui-monospace, monospace; color: var(--text);
+}
+.lx-zones { max-width: 900px; }
+.lx-zones h2 { font-family: var(--heading); color: var(--gold); font-size: 1.3rem; margin: 30px 0 6px; }
+.lx-zones h3 { font-family: var(--heading); color: var(--gold-soft); font-size: 1rem; margin: 14px 0 6px; }
+
+/* The player bar, fixed to the bottom while something plays. */
+.lx-player {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 4; display: grid; grid-template-columns: 44px minmax(0, 1fr) auto auto;
+  gap: 12px; align-items: center; padding: 10px max(16px, calc((100vw - 1100px) / 2 + 16px));
+  background: #070605f2; border-top: 1px solid var(--gold-soft); box-shadow: 0 -6px 20px #000c;
+}
+.lx-pp { width: 44px; height: 44px; }
+.lx-now { min-width: 0; display: flex; flex-direction: column; }
+.lx-title { color: var(--gold); font-weight: 600; text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lx-now .lx-sub { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lx-seek { width: 100%; margin: 4px 0 0; accent-color: var(--gold); }
+.lx-time { color: var(--muted); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+.lx-pctl { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; justify-content: flex-end; }
+.lx-pctl button[hidden] { display: none; }
+.lx-auto { color: var(--muted); font-size: 0.82rem; white-space: nowrap; }
+.lx-pctl .lp-rep { border: 0; background: none; padding: 0 4px; }
+body.lx-has-player { padding-bottom: 96px; }
+
+@media (max-width: 640px) {
+  .lp h1 { font-size: 1.7rem; }
+  .lp-clip { padding: 12px 12px 4px; }
+  .lx-zone { flex: 1 1 100%; }
+  .lx-row { grid-template-columns: 40px minmax(0, 1fr); }
+  .lx-len { display: none; }
+  .lx-player { grid-template-columns: 44px minmax(0, 1fr) auto; padding: 8px 12px; gap: 8px; }
+  .lx-pctl { grid-column: 1 / -1; justify-content: flex-start; }
+  body.lx-has-player { padding-bottom: 150px; }
+}

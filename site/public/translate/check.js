@@ -2,6 +2,26 @@
 // functions/api/translations/[action].js (on save). Same rules as problem() in pipeline/lore/kit.py, which checks
 // again on import: keep them in step.
 
+import { BLOCKLIST } from "./blocklist.js";
+
+// Lowercase without accents ("Nègre" -> "negre"), as kit.py's fold.
+export const fold = s => s.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+const escapeRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+// Whole words over folded text. No lookbehind, which older Safari can't parse.
+const BLOCKED = Object.fromEntries(Object.entries(BLOCKLIST).map(([lang, words]) => [lang,
+  new RegExp(`(?:^|[^\\p{L}\\p{N}_])(?:${words.map(w => escapeRe(fold(w))).join("|")})(?![\\p{L}\\p{N}_])`, "u")]));
+
+// Whether text has a word from the blocklist: its language's ("deDE" -> de) or the English one; any with no locale.
+export function blocked(text, locale) {
+  const lists = locale ? [BLOCKED.en, BLOCKED[locale.slice(0, 2).toLowerCase()]] : Object.values(BLOCKED);
+  const t = fold(text);
+  return lists.some(re => re && re.test(t));
+}
+
+// Under 30% or over 300% of the English, give or take this many characters (kit.py LENGTH_SLACK: tuned on every
+// translation in data/i18n, none of which falls outside).
+const LENGTH_SLACK = 20;
+
 const FMT = /%(?:%|[-+ #0]*\d{0,2}(?:\.\d{0,2})?[cdeEfgGioqsuxX])/y;   // Lua 5.1 string.format specifiers
 const PIPE = /\|(?:c[0-9a-fA-F]{8}|[rnTtHh|])/g;                     // WoW escapes: colour, reset, texture, link...
 
@@ -23,9 +43,12 @@ const count = list => list.reduce((m, x) => m.set(x, (m.get(x) || 0) + 1), new M
 
 export const isList = id => /\/(kw|faq\/\d+\/al)$/.test(id);
 
-// Why a translation can't be used as it stands, or null. `id` is the string's id ("ui/..." or "<key>/<path>").
-export function problem(id, en, text) {
-  if (text.length > 4 * en.length + 400) return "Much longer than the English. Is something pasted twice?";
+// Why a translation can't be used as it stands, or null. `id` is the string's id ("ui/..." or "<key>/<path>"),
+// `locale` the language it's in ("deDE"), for the blocklist.
+export function problem(id, en, text, locale) {
+  if (text.length > 3 * en.length + LENGTH_SLACK) return "Much longer than the English. Is something pasted twice?";
+  if (text.length < 0.3 * en.length - LENGTH_SLACK) return "Much shorter than the English. Is part of it missing?";
+  if (blocked(text, locale)) return "That has a word we don't allow in translations. Please reword it.";
   if (!isList(id)) {
     const have = count(en.match(PIPE) || []);
     for (const [code, n] of count(text.match(PIPE) || [])) {

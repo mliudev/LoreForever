@@ -1,6 +1,7 @@
-// The voice list (public/voices/voices.json), its likes, and the pages built from it: the cards on /voices, each
-// voice's profile at /voices/<id>, and /voices/contributors. Shared by those Functions, /api/voices/like(s) and
-// /download/voice/<id>. Kept outside functions/ so Pages doesn't route it.
+// The voice list (public/voices/voices.json), its likes, and the pages built from it: the cards on /voices and each
+// voice's profile at /voices/<id> (/contributors, which groups the voices by who made them, is lib/credits.js).
+// Shared by those Functions, /api/voices/like(s) and /download/voice/<id>. Kept outside functions/ so Pages doesn't
+// route it.
 //
 // House voices and community voices are the same kind of entry. A community voice has "owner": the id of the
 // contributor's account (lib/accounts.js); its bio and the contributor's name and links then come from their
@@ -72,7 +73,7 @@ export async function likeCounts(env) {
 // Adds today's like from this sender, if there isn't one yet. Returns the voice's new total.
 export async function addLike(env, request, id) {
   const day = new Date().toISOString().slice(0, 10);
-  const hash = await senderHash(request.headers.get("CF-Connecting-IP") || "", day);
+  const hash = await senderHash(env, request.headers.get("CF-Connecting-IP") || "", day);
   await env.DB.batch([
     env.DB.prepare(SETUP),
     env.DB.prepare("INSERT OR IGNORE INTO voice_likes (voice_id, day, ip_hash) VALUES (?, ?, ?)").bind(id, day, hash),
@@ -84,10 +85,11 @@ const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 const creditName = v => v.contributor?.name || v.credit;
 export const contributorAnchor = name => "c-" + (String(name).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "x");
 
+// "by Jane", or "voice by Jane" for a voice made from a lent recording (voices.json "donated": true, LOR-230).
 function facts(v, linkCredit) {
   const who = escape(creditName(v));
   return [
-    `by ${linkCredit ? `<a href="/voices/contributors#${contributorAnchor(creditName(v))}">${who}</a>` : who}`,
+    `${v.donated ? "voice by" : "by"} ${linkCredit ? `<a href="/contributors#${contributorAnchor(creditName(v))}">${who}</a>` : who}`,
     escape(v.language),
     v.clips ? plural(v.clips, "narration", "narrations") : "",
   ].filter(Boolean).join(" &middot; ");
@@ -118,14 +120,14 @@ function getMain(v) {
 // contested zones in both) and an all-in-one zip. Each downloads through /download/voice/<pack id>, or straight from
 // its own link when that's one of the site's. /voices (lib/downloads.js) lists the same packs with sizes.
 function getPacks(v) {
-  const packs = (v.packs || []).filter(p => p.download);
+  const packs = (v.packs || []).filter(p => p.download && p.status !== "soon");   // soon: not released yet
   if (!packs.length) return "";
   const links = packs.map(p => {
     const href = p.download.startsWith("/") ? p.download : `/download/voice/${p.id}`;
     return `<a href="${escape(href)}">${escape(p.name)}</a>${p.clips ? ` (${plural(p.clips, "narration", "narrations")})` : ""}`;
   }).join(" &middot; ");
   return `<p class="vc-packs">More narration, optional: ${links}. Unzip into <code>Interface\\AddOns</code> next to
-          Lore Forever. <a href="/voices#${escape(v.id)}">Which one do I need?</a></p>`;
+          Lore Forever. <a href="/downloads#${escape(v.id)}">Which one do I need?</a></p>`;
 }
 
 // The voice or pack with this id (a pack takes its voice's status unless it has its own), or undefined.
@@ -210,10 +212,23 @@ export function voiceFilters(voices) {
 
 // ---- Whole pages (profile, contributors; player profiles in lib/profiles.js) ----
 
-// crumbs, foot and scripts replace the voice pages' breadcrumb, footer line and player script; robots adds a
-// robots meta tag.
-export function page({ title, description, path, crumb, body, image, crumbs, foot, scripts, robots }) {
+// The site header (LOR-222), the same on every page: the static pages carry a copy of it, and
+// site/tests/nav.test.mjs checks they all match this one. public/header.js brings it to life.
+export const SITE_NAV = `  <nav class="wrap nav" aria-label="Lore Forever">
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>`;
+
+// crumbs, foot and scripts replace the voice pages' breadcrumb (under the header; "" for none), footer line and player
+// script; robots adds a robots meta tag; head adds tags after the site stylesheet (a page's own stylesheet).
+export function page({ title, description, path, crumb, body, image, crumbs, foot, scripts, robots, head }) {
   const url = "https://loreforeverwow.com" + path;
+  const trail = crumbs ?? `<a href="/downloads">Downloads</a> &rsaquo; ${escape(crumb)}`;
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -236,15 +251,13 @@ ${robots ? `<meta name="robots" content="${escape(robots)}">\n` : ""}<link rel="
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <link rel="stylesheet" href="/style.css">
-<script src="/header.js" defer></script>
+${head ? head + "\n" : ""}<script src="/header.js" defer></script>
 </head>
 <body>
 
 <header class="top">
-  <div class="wrap top-row">
-    <span class="crumb">${crumbs ?? `<a href="/">Lore Forever</a> &rsaquo; <a href="/voices">Voices</a> &rsaquo; ${escape(crumb)}`}</span>
-    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
-  </div>
+${SITE_NAV}${trail ? `
+  <div class="wrap subcrumb"><span class="crumb">${trail}</span></div>` : ""}
 </header>
 
 <main class="wrap vp-page">
@@ -254,6 +267,7 @@ ${body}
 <footer class="wrap foot">
   ${foot ?? `<p>Want a page like this for your own voice? <a href="/voices/studio">Open the narrator dashboard</a>.</p>`}
   <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>
@@ -270,8 +284,9 @@ function avatar(v) {
   return `<span class="vpr-avatar vpr-initial" aria-hidden="true">${escape((v.name || "?").replace(/^Lore Forever /, "").charAt(0).toUpperCase())}</span>`;
 }
 
-// /voices/<id>: everything about one voice. Built the same way for house and community voices.
-export function profilePage(v, likes) {
+// /voices/<id>: everything about one voice. Built the same way for house and community voices. zones: the names of the
+// zones this voice narrated on the upload page ("Claim a zone", LOR-231), if any.
+export function profilePage(v, likes, { zones = [] } = {}) {
   const samples = v.samples?.length ? v.samples : v.sample ? [v.sample] : [];
   const links = v.contributor?.links?.length
     ? `<p class="vpr-links">${v.contributor.links.map(u => `<a href="${escape(u)}" rel="nofollow ugc noopener">${escape(new URL(u).hostname.replace(/^www\./, ""))}</a>`).join(" &middot; ")}</p>`
@@ -287,6 +302,7 @@ export function profilePage(v, likes) {
   <section class="vpr-bio">
     ${paragraphs(v.bio || v.tagline)}
     ${v.coverage ? `<p class="vc-coverage">Covers: ${escape(v.coverage)}</p>` : ""}
+    ${zones.length ? `<p class="vc-coverage">Zones narrated: ${zones.map(escape).join(", ")}. <a href="/voices/zones">Every zone's narrators</a></p>` : ""}
   </section>
   <div class="vpr-actions vc">
     ${likeButton(v, likes)}
@@ -299,7 +315,7 @@ export function profilePage(v, likes) {
         : `<figure class="audio-sample vc">${noSample}</figure>`}
     </div>
   </section>
-  <p class="vp-note"><a href="/voices">&larr; All voices</a> &middot; <a href="/voices#install">Installing a voice</a></p>`;
+  <p class="vp-note"><a href="/downloads#voices">&larr; All voices</a> &middot; <a href="/downloads#install">Installing a voice</a></p>`;
   return page({
     title: v.name,
     description: `${v.name}, a narration voice for Lore Forever. ${v.tagline || ""}`.trim(),
@@ -309,35 +325,4 @@ export function profilePage(v, likes) {
   });
 }
 
-// /voices/contributors: everyone whose voice is listed, grouped by who they are, linking to each profile.
-export function contributorsPage(voices) {
-  const groups = new Map();
-  for (const v of voices) {
-    const name = creditName(v);
-    if (!groups.has(name)) groups.set(name, { name, links: v.contributor?.links || [], voices: [] });
-    groups.get(name).voices.push(v);
-  }
-  const cards = [...groups.values()].map(g => `<article class="zone vc" id="${contributorAnchor(g.name)}">
-      <div class="zone-body">
-        <h3>${escape(g.name)}</h3>
-        ${g.links.length ? `<p class="vpr-links">${g.links.map(u => `<a href="${escape(u)}" rel="nofollow ugc noopener">${escape(new URL(u).hostname.replace(/^www\./, ""))}</a>`).join(" &middot; ")}</p>` : ""}
-        <ul class="vcon-voices">
-          ${g.voices.map(v => `<li><a href="/voices/${escape(v.id)}">${escape(v.name)}</a> ${tag(v)}</li>`).join("\n          ")}
-        </ul>
-      </div>
-    </article>`).join("\n    ");
-  const body = `  <h1>Contributors</h1>
-  <p class="pitch">The voices behind Lore Forever's narration. Each one links to its profile, samples and download.</p>
-  <div class="zone-grid vc-grid">
-    ${cards}
-  </div>
-  <p class="vp-note">Want to be on this page? <a href="/voices/studio">Open the narrator dashboard</a>. Contributors choose what
-    shows here from their <a href="/account">account</a>.</p>`;
-  return page({
-    title: "Voice contributors",
-    description: "Everyone who lent Lore Forever a narration voice.",
-    path: "/voices/contributors",
-    crumb: "Contributors",
-    body,
-  });
-}
+// /contributors (narrators, translators and text finders) is in lib/credits.js.

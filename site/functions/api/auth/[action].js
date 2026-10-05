@@ -1,9 +1,11 @@
 // Lore Forever accounts (lib/accounts.js), used by /account, /voices/submit and /feedback. Contributors and anyone
 // sending feedback need one; playing, listening and liking don't.
-//   GET  /api/auth/me       {user, voices, signIn: {google: client id or null}}; user is null when signed out
+//   GET  /api/auth/me       {user, voices, signIn: {google: client id or null}, features: {contribute, zones, lore,
+//                           companion}};
+//                           user is null when signed out
 //   POST /api/auth/google   {credential}: a Google ID token from the Sign in with Google button -> session cookie
 //   POST /api/auth/logout   ends this session
-//   POST /api/auth/profile  {display_name, links, show_public}: what /voices/contributors shows
+//   POST /api/auth/profile  {display_name, links, show_public}: what /contributors shows
 //   POST /api/auth/voice    {id, bio}: the bio on one of your voices' profile pages
 //   POST /api/auth/delete   {confirm: "delete"}: deletes the account and everything tied to it
 // Every POST must come from our own pages (Origin check) and sends JSON.
@@ -14,6 +16,7 @@ import {
 import { loadVoices, linkList } from "../../../lib/voices.js";
 import { clean } from "../../../lib/form.js";
 import { setupStudio } from "../../../lib/studio.js";
+import { featureOn } from "../../../lib/features.js";
 
 const ok = (body = {}, cookie) => {
   const headers = new Headers(noStore);
@@ -22,10 +25,15 @@ const ok = (body = {}, cookie) => {
 };
 
 const signInOptions = env => ({ google: env.GOOGLE_CLIENT_ID || null });
+// Site features waiting for an add-on release (lib/features.js), for links header.js adds on every page.
+const features = env => ({
+  contribute: featureOn(env, "contribute"), zones: featureOn(env, "zones"), lore: featureOn(env, "lore"),
+  companion: featureOn(env, "companion"),
+});
 
 async function me({ request, env }) {
   const user = await currentUser(env, request);
-  if (!user) return ok({ user: null, voices: [], signIn: signInOptions(env) });
+  if (!user) return ok({ user: null, voices: [], signIn: signInOptions(env), features: features(env) });
   await setupStudio(env);   // the voices.locale column
   const { results } = await env.DB.prepare(
     "SELECT v.id, v.name, v.status, v.bio, v.locale, v.created, (SELECT COUNT(*) FROM studio_takes t WHERE t.voice_id = v.id) AS files " +
@@ -39,6 +47,7 @@ async function me({ request, env }) {
     },
     voices: results.map(v => ({ ...v, status: listed.has(v.id) ? "published" : v.status })),
     signIn: signInOptions(env),
+    features: features(env),
   });
 }
 

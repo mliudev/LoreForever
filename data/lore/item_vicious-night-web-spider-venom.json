@@ -58,13 +58,13 @@
     "new plague component",
     "forsaken spider venom"
    ],
-   "answer": "It serves as the final stabilizing catalyst in Johaan's recipe for the New Plague, allowing him to combine the lethality of local flora with an ancient, self-sustaining biological pathogen."
+   "answer": "It serves as the final stabilizing catalyst in Johaan's recipe for the New Plague, allowing him to combine the darkhound blood and murloc scales already boiled into his concoction with an ancient, self-sustaining biological pathogen."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, harvesting this venom is a direct contribution to Lady Sylvanas's supreme mandate: developing a weapon powerful enough to secure their future against the living and the Scourge alike."
+   "text": "For the Forsaken, harvesting this venom is a direct contribution to Lady Sylvanas's supreme mandate: developing a plague powerful enough to bring down Arthas and his Scourge."
   },
   {
    "target": "class:Rogue",

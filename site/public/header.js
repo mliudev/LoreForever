@@ -1,22 +1,47 @@
-// Site header, on every public page: a Voices link, the "Send feedback" menu and, once signed in, the account chip
-// (Your profile, Your account, Sign out); signed out, a Sign in link.
-// Each page's header ends with
-//   <div class="head-actions"><a class="btn-head" href="/feedback">...</a></div>
-// and loads this with <script src="/header.js" defer>. Without JavaScript that stays a plain link to /feedback.
-// Here it becomes a button opening a small menu of the three kinds of feedback (the kinds feedback.html accepts in
-// ?kind=). Signing in happens on /feedback itself. GET /api/auth/me (functions/api/auth/[action].js) says whether
-// someone is signed in; if so, a chip next to the button links to /account and signs out.
+// Site header, on every public page (LOR-222): the brand, then Download, What's new and Community, and on the right
+// Make your profile next to Sign in or the account chip. Each page's <header class="top"> carries the links itself
+// (SITE_NAV in lib/voices.js; site/tests/nav.test.mjs keeps the copies equal), so they work without JavaScript. This
+// script:
+//   - marks the link for the part of the site you're on;
+//   - turns Community into a menu: the Discord, the three kinds of feedback (the kinds feedback.html accepts in
+//     ?kind=), the FAQ, then Record your voice, Translate and Contributors;
+//   - asks GET /api/auth/me (functions/api/auth/[action].js) whether you're signed in. Signed in, Make your profile
+//     becomes Your profile (/u/me, your page or else making one) and the account chip appears (Your profile, Your
+//     account, Sign out); signed out, a Sign in link to /account. The same answer says which site features are on
+//     (lib/features.js): their links join the header;
+//   - puts a dot on What's new while there's a version you haven't looked at, and runs the home page's "New in"
+//     strip (#newbar, written by scripts/changelog.py; an inline script there shows it before this one runs).
+// "Looked at" is lf-seen in localStorage: the newest version you've seen the news of, set when you open What's new,
+// follow the strip or close it. A first visit gets no dot (everything is new); the strip shows until it's closed.
 (() => {
-  const box = document.querySelector(".top .head-actions");
-  const link = box && box.querySelector("a.btn-head");
-  if (!box || !link) return;
+  const LATEST = "0.8.0";   // changelog: the newest version in CHANGELOG.md (scripts/changelog.py site keeps it)
+  const header = document.querySelector("header.top");
+  const box = header && header.querySelector(".head-actions");
+  if (!box) return;
+  const path = location.pathname.replace(/\/+$/, "") || "/";
 
-  const FEEDBACK = [
-    ["/feedback", "Send feedback", "What you like and what's off"],
-    ["/feedback?kind=idea", "Request a feature", "A zone or something new for the panel"],
-    ["/feedback?kind=bug", "Report a bug", "Something broke or won't load"],
+  const store = {
+    get: k => { try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set: (k, v) => { try { localStorage.setItem(k, v); } catch (e) { /* private mode: nothing remembered */ } },
+  };
+  // Whether version a is newer than b ("0.10.0" > "0.9.2"); a missing b counts as older than everything.
+  const newer = (a, b) => {
+    const x = String(a).split(".").map(Number), y = String(b || "0").split(".").map(Number);
+    for (let i = 0; i < 3; i++) if ((x[i] || 0) !== (y[i] || 0)) return (x[i] || 0) > (y[i] || 0);
+    return false;
+  };
+
+  // ---- Where you are ----
+  const VOICE_TOOLS = "studio|guide|release|submit|thanks|lend|lend-terms|zones";
+  const SECTIONS = [
+    ["nav-download", new RegExp(`^/(downloads|voices)(/(?!(${VOICE_TOOLS})$)[^/]+)?$`)],
+    ["nav-new", /^\/whats-new$/],
+    ["nav-profile", /^\/(account|u\/[^/]+)$/],
+    ["nav-community", new RegExp(`^/(feedback|faq|translate(/.*)?|voices/(${VOICE_TOOLS})|contributors|contribute(/.*)?)$`)],
   ];
+  const here = (SECTIONS.find(([, re]) => re.test(path)) || [])[0];
 
+  // ---- Menus ----
   let current = null;   // the open menu: { button, menu }
   const entries = menu => [...menu.querySelectorAll("a, button")].filter(x => !x.disabled);
 
@@ -67,40 +92,103 @@
   document.addEventListener("click", e => {
     if (current && !current.menu.contains(e.target) && !current.button.contains(e.target)) close(false);
   });
-  box.addEventListener("focusout", e => {
+  header.addEventListener("focusout", e => {
     const to = e.relatedTarget;
     if (current && to && !current.menu.contains(to) && to !== current.button) close(false);
   });
 
-  // Voices: a link to /voices (the narrator voices and every download) before the feedback button, on every page
-  // but that one.
-  if (location.pathname.replace(/\/$/, "") !== "/voices") {
-    const dl = document.createElement("a");
-    dl.className = "btn-head btn-head-dl";
-    dl.href = "/voices";
-    dl.textContent = "Voices";
-    box.prepend(dl);
+  const caret = '<span class="caret" aria-hidden="true">&#9662;</span>';
+  const item = ([href, title, hint]) => `<a href="${href}">${title}<small>${hint}</small></a>`;
+
+  // Community: the link (to /feedback) becomes the menu's button.
+  const COMMUNITY = [
+    ["/discord?src=nav", "Join the Discord", "Chat with other players; news lands there first"],
+    ["/feedback", "Send feedback", "What you like and what's off"],
+    ["/feedback?kind=idea", "Request a feature", "A zone or something new for the panel"],
+    ["/feedback?kind=bug", "Report a bug", "Something broke or won't load"],
+    ["/faq", "FAQ", "What players ask most, answered"],
+  ];
+  const HELP = [
+    ["/voices/studio", "Record your voice", "Narrate a few lines, hear yourself in game"],
+    ["/translate", "Translate", "Lore Forever in your language"],
+    ["/contributors", "Contributors", "Everyone who narrates, translates and sends in text"],
+  ];
+  // Share Forever text (/contribute, LOR-235) joins the menu once the "contribute" feature is on (lib/features.js;
+  // GET /api/auth/me says), i.e. once the add-on release with its Contribute button is out.
+  const CONTRIBUTE = ["/contribute", "Share Forever text", "The quests and gossip you've seen in game"];
+  let communityMenu = null;
+  let feedbackNote = null;
+  const community = document.getElementById("nav-community");
+  if (community) {
+    const button = document.createElement("button");
+    button.className = community.className;
+    button.id = community.id;
+    button.innerHTML = community.innerHTML + caret;
+    if (here === "nav-community") button.classList.add("nl-on");
+    const menu = document.createElement("div");
+    menu.className = "head-menu";
+    menu.innerHTML = COMMUNITY.map(item).join("") +
+      '<p class="menu-note" hidden>Feedback asks you to sign in with Google first.</p><hr>' +
+      '<p class="menu-head">Help out</p>' + HELP.map(item).join("");
+    feedbackNote = menu.querySelector(".menu-note");
+    communityMenu = menu;
+    const wrap = document.createElement("div");
+    wrap.className = "nav-dd";
+    community.replaceWith(wrap);
+    wrap.append(button, menu);
+    dropdown(button, menu, "hd-community-menu");
+  }
+  if (here && here !== "nav-community") {
+    const link = document.getElementById(here);
+    if (link) link.setAttribute("aria-current", "page");
   }
 
-  // Send feedback: the link becomes the menu's button.
-  const fbButton = document.createElement("button");
-  fbButton.className = "btn-head";
-  fbButton.innerHTML = link.innerHTML + '<span class="caret" aria-hidden="true">&#9662;</span>';
-  const fbMenu = document.createElement("div");
-  fbMenu.className = "head-menu";
-  fbMenu.innerHTML = FEEDBACK.map(([href, title, hint]) => `<a href="${href}">${title}<small>${hint}</small></a>`).join("") +
-    '<div class="menu-foot" hidden><hr><p class="menu-note">You\'ll sign in with Google first.</p></div>';
-  link.replaceWith(fbButton);
-  fbButton.after(fbMenu);
-  dropdown(fbButton, fbMenu, "hd-feedback-menu");
+  // ---- What's new ----
+  const seen = store.get("lf-seen");
+  const newLink = document.getElementById("nav-new");
+  const bar = document.getElementById("newbar");
+  let dot = null;
+  function caughtUp() {
+    store.set("lf-seen", LATEST);
+    if (dot) { dot.remove(); dot = null; }
+    if (bar) bar.hidden = true;
+  }
+  if (path === "/whats-new") {
+    // Tag what's come out since your last look, then count it as seen.
+    if (seen) {
+      document.querySelectorAll("[data-version]").forEach(v => {
+        if (!newer(v.dataset.version, seen)) return;
+        const tag = document.createElement("span");
+        tag.className = "tag tag-new";
+        tag.textContent = "New since your last visit";
+        const head = v.querySelector(".wn-head, summary") || v;
+        head.insertBefore(tag, head.querySelector(".wn-n"));   // before an older version's count; else at the end
+      });
+    }
+    caughtUp();
+  } else if (newLink && seen && newer(LATEST, seen)) {
+    dot = document.createElement("span");
+    dot.className = "new-dot";
+    dot.title = "New since your last visit";
+    newLink.append(dot);
+    newLink.setAttribute("aria-label", "What's new (something new since your last visit)");
+  }
+  if (newLink) newLink.addEventListener("click", caughtUp);
+  if (bar) {
+    bar.querySelectorAll("a").forEach(a => a.addEventListener("click", caughtUp));
+    const x = bar.querySelector(".newbar-x");
+    if (x) x.addEventListener("click", caughtUp);
+  }
+
+  // ---- Signed in or not ----
+  const profile = document.getElementById("nav-profile");
 
   function accountChip(user) {
     const name = user.display_name || (user.email || "").split("@")[0] || "Your account";
     const chip = document.createElement("button");
     chip.className = "head-chip";
     chip.setAttribute("aria-label", "Account: " + name);
-    chip.innerHTML = '<span class="mini-avatar" aria-hidden="true"></span><span class="chip-name"></span>' +
-      '<span class="caret" aria-hidden="true">&#9662;</span>';
+    chip.innerHTML = '<span class="mini-avatar" aria-hidden="true"></span><span class="chip-name"></span>' + caret;
     chip.querySelector(".mini-avatar").textContent = name.charAt(0).toUpperCase();
     chip.querySelector(".chip-name").textContent = name;
     const menu = document.createElement("div");
@@ -120,12 +208,13 @@
     dropdown(chip, menu, "hd-account-menu");
   }
 
-  // Signed out: a "Sign in" link to /account, where signing in leads to making your profile (LOR-181).
+  // Signed out: a Sign in link to /account, where signing in leads to making your profile (LOR-181). Not on /account
+  // itself, which is the sign-in page.
   function signInLink() {
-    if (location.pathname.replace(/\/$/, "") === "/account") return;
+    if (path === "/account") return;
     const a = document.createElement("a");
-    a.className = "btn-head btn-head-in";
-    a.href = "/account#profile";
+    a.className = "btn-in";
+    a.href = "/account";
     a.textContent = "Sign in";
     box.append(a);
   }
@@ -134,11 +223,32 @@
     .then(r => r.json())
     .then(me => {
       if (!me || !me.ok) return;
-      if (me.user) accountChip(me.user);
-      else if (me.signIn && me.signIn.google) {
-        fbMenu.querySelector(".menu-foot").hidden = false;
+      if (me.features && me.features.contribute && communityMenu) {
+        communityMenu.insertAdjacentHTML("beforeend", item(CONTRIBUTE));
+      }
+      // Lore (/lore, LOR-233) joins the links after Download once the "lore" feature is on (lib/features.js), i.e.
+      // once the narration recordings are on the site.
+      const download = document.getElementById("nav-download");
+      if (me.features && me.features.lore && download && !document.getElementById("nav-lore")) {
+        const lore = document.createElement("a");
+        lore.className = "nl";
+        lore.id = "nav-lore";
+        lore.href = "/lore";
+        lore.textContent = "Lore";
+        if (/^\/lore(\/|$)/.test(path)) lore.setAttribute("aria-current", "page");
+        download.after(lore);
+      }
+      if (me.user) {
+        if (profile) {
+          profile.href = "/u/me";
+          const wide = profile.querySelector(".hd-wide");
+          if (wide) wide.textContent = "Your profile";
+        }
+        accountChip(me.user);
+      } else if (me.signIn && me.signIn.google) {
+        if (feedbackNote) feedbackNote.hidden = false;
         signInLink();
       }
     })
-    .catch(() => { /* no account info: the menu works the same */ });
+    .catch(() => { /* no account info: the links work the same */ });
 })();

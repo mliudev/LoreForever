@@ -7,6 +7,10 @@
 // so another player's name never is. Records in the bundled languages (deDE, frFR, esES, ptBR) are read through
 // their strings (LOCALES, from data/i18n/<locale>/ui.json); a string a pack lacks shows in English, so English is
 // always tried too. Kept outside functions/ so Pages doesn't route it.
+//
+// The moments in time order (LOR-248): each entry line starts with when it happened ("Oct 01 14:23"). The sections
+// split them up, so `timeline` puts them back in order, as [section, index in it, day] with only the day
+// ("2026-10-01"): the profile shows the journey moment by moment, never the hour someone played.
 
 export const MAX_BYTES = 64 * 1024;   // the add-on keeps a record under 30 KB
 
@@ -19,11 +23,16 @@ const LOCALES = {
     rep: "%s with %s", rewardFor: "reward for %s", questReward: "Quest reward", died: "Died", dungeon: "dungeon",
     fought: "Most fought", cut: "Older entries were left out to keep this record short.",
     ranks: { "elite": "elite", "rare": "rare", "rare elite": "rareelite", "world boss": "worldboss" },
+    stats: {
+      yards: "Yards walked: %d", slain: "Foes slain: %d", elites: "Elites slain: %d", rares: "Rares slain: %d",
+      deaths: "Deaths: %d", recorded: "Hours recorded: %s", played: "Hours played: %s",
+    },
     sections: {
       "New places, in order": "places", "Places recorded, in order": "places", "Quests done": "quests",
       "People met": "people", "Bosses defeated": "bosses", "Notable kills": "kills", "Loot and quest rewards": "loot",
       "Level-ups": "levels", "Spells learned": "spells", "Mounts": "mounts", "Profession milestones": "profs",
       "Reputation": "rep", "Deaths": "deaths", "Books read": "books", "Screenshots": "shots",
+      "Journey stats": "stats", "Yards walked, by land": "walk", "Foes slain, by kind": "kinds",
     },
   },
   de: {
@@ -33,7 +42,13 @@ const LOCALES = {
     died: "Gestorben", dungeon: "Dungeon", fought: "Am meisten bekämpft",
     cut: "Ältere Einträge wurden weggelassen, um diese Aufzeichnung kurz zu halten.",
     ranks: { "Elite": "elite", "selten": "rare", "Seltener Elite": "rareelite", "Weltboss": "worldboss" },
+    stats: {   // the German client calls yards "Meter"
+      yards: "Gelaufene Meter: %d", slain: "Feinde getötet: %d", elites: "Elitegegner getötet: %d",
+      rares: "Seltene Gegner getötet: %d", deaths: "Tode: %d", recorded: "Aufgezeichnete Stunden: %s",
+      played: "Gespielte Stunden: %s",
+    },
     sections: {
+      "Reisestatistiken": "stats", "Gelaufene Meter, nach Land": "walk", "Getötete Feinde, nach Art": "kinds",
       "Neue Orte, der Reihe nach": "places", "Aufgezeichnete Orte, in Reihenfolge": "places",
       "Abgeschlossene Quests": "quests", "Getroffene Personen": "people", "Bosse besiegt": "bosses",
       "Bemerkenswerte Siege": "kills", "Beute- und Questbelohnungen": "loot", "Stufenaufstiege": "levels",
@@ -48,7 +63,12 @@ const LOCALES = {
     died: "Mort", dungeon: "donjon", fought: "Les plus combattus",
     cut: "Les entrées plus anciennes ont été ignorées pour garder cet historique court.",
     ranks: { "élite": "elite", "rare": "rare", "rare élite": "rareelite", "boss mondial": "worldboss" },
+    stats: {   // the French client calls yards "mètres"
+      yards: "Mètres parcourus à pied : %d", slain: "Ennemis tués : %d", elites: "Élites tués : %d",
+      rares: "Rares tués : %d", deaths: "Morts : %d", recorded: "Heures enregistrées : %s", played: "Heures jouées : %s",
+    },
     sections: {
+      "Statistiques de voyage": "stats", "Mètres parcourus à pied, par région": "walk", "Ennemis tués, par type": "kinds",
       "Nouveaux lieux, dans l'ordre": "places", "Lieux enregistrés, dans l'ordre": "places",
       "Quêtes terminées": "quests", "Personnes rencontrées": "people", "Boss vaincus": "bosses",
       "Victoires notables": "kills", "Butin et récompenses de quête": "loot", "Montées de niveau": "levels",
@@ -63,7 +83,13 @@ const LOCALES = {
     died: "Ha muerto", dungeon: "mazmorra", fought: "Más combatidos",
     cut: "Se omitieron las entradas más antiguas para mantener este registro breve.",
     ranks: { "élite": "elite", "raro": "rare", "élite raro": "rareelite", "jefe del mundo": "worldboss" },
+    stats: {
+      yards: "Yardas recorridas: %d", slain: "Enemigos abatidos: %d", elites: "Élites abatidos: %d",
+      rares: "Raros abatidos: %d", deaths: "Muertes: %d", recorded: "Horas registradas: %s", played: "Horas jugadas: %s",
+    },
     sections: {
+      "Estadísticas del viaje": "stats", "Yardas recorridas, por territorio": "walk",
+      "Enemigos abatidos, por tipo": "kinds",
       "Nuevos lugares, en orden": "places", "Lugares grabados, en orden": "places", "Misiones completadas": "quests",
       "Personas conocidas": "people", "Jefes derrotados": "bosses", "Muertes destacadas": "kills",
       "Botín y recompensas de misión": "loot", "Subidas de nivel": "levels", "Hechizos aprendidos": "spells",
@@ -78,7 +104,13 @@ const LOCALES = {
     died: "Morreu", dungeon: "masmorra", fought: "Mais enfrentados",
     cut: "Entradas mais antigas foram omitidas para manter este registro curto.",
     ranks: { "elite": "elite", "raro": "rare", "raro elite": "rareelite", "chefe mundial": "worldboss" },
+    stats: {
+      yards: "Jardas caminhadas: %d", slain: "Inimigos derrotados: %d", elites: "Elites derrotados: %d",
+      rares: "Raros derrotados: %d", deaths: "Mortes: %d", recorded: "Horas registradas: %s", played: "Horas jogadas: %s",
+    },
     sections: {
+      "Estatísticas da jornada": "stats", "Jardas caminhadas, por território": "walk",
+      "Inimigos derrotados, por tipo": "kinds",
       "Novos locais, em ordem": "places", "Lugares registrados, em ordem": "places", "Missões concluídas": "quests",
       "Pessoas encontradas": "people", "Chefes derrotados": "bosses", "Abates notáveis": "kills",
       "Saques e recompensas de missões": "loot", "Subidas de nível": "levels", "Feitiços aprendidos": "spells",
@@ -126,7 +158,27 @@ const QUALITY = new Map(Object.entries({
 // How much of each list is kept (newest entries win when a list is longer).
 const CAP = { places: 300, quests: 400, people: 300, bosses: 100, kills: 150, loot: 150, levels: 80, spells: 80,
               mounts: 30, profs: 20, rep: 60, deaths: 150, books: 80, fought: 10 };
+const STAT_CAP = { walk: 40, kinds: 20 };   // the journey stats' lists (the add-on prints at most 30 and 12)
 const MAX_TEXT = 80;   // characters in any one name
+
+// The sections that are moments on the profile's timeline, in the order moments of the same minute go (you reach a
+// place, meet someone there, finish their quest, get its reward).
+export const TIMELINE = ["places", "people", "quests", "bosses", "kills", "loot", "levels", "mounts", "rep", "books", "deaths"];
+
+// The game's date() prints English month names whatever the client's language ("Oct 01 14:23").
+const MONTHS = new Map(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"].map((m, i) => [m, i]));
+const AHEAD = 2 * 86400e3;   // a player's clock can be this far ahead of the server's
+
+// "Oct 01 14:23" as minutes (the player's own clock, kept as if UTC), or null. The record has no year: it's the latest
+// one that doesn't put the moment in the future.
+function stamp(text, now) {
+  const m = /^([A-Z][a-z]{2}) (\d{1,2}) (\d{1,2}):(\d{2})$/.exec(text || "");
+  if (!m || !MONTHS.has(m[1])) return null;
+  const at = y => Date.UTC(y, MONTHS.get(m[1]), Number(m[2]), Number(m[3]), Number(m[4]));
+  const year = now.getUTCFullYear();
+  const t = at(year) > now.getTime() + AHEAD ? at(year - 1) : at(year);
+  return Number.isFinite(t) ? t / 60000 : null;
+}
 
 export class RecordError extends Error {}
 
@@ -155,7 +207,12 @@ function match(c, s) {
 
 const FORMATS = ["header", "level", "since", "sinceFrom", "with", "reached", "slain", "rep", "rewardFor"];
 const COMPILED = Object.fromEntries(Object.entries(LOCALES).map(([code, L]) => [code,
-  { code, ...Object.fromEntries(FORMATS.map(k => [k, compile(L[k])])) }]));
+  { code, ...Object.fromEntries(FORMATS.map(k => [k, compile(L[k])])),
+    stats: Object.entries(L.stats).map(([k, f]) => [k, compile(f)]) }]));
+// "Journey stats" (LOR-246): the add-on always prints these lines in this order (JourneyRecord.lua numbers), so one
+// worded in a way this file doesn't know yet (a newer translation) is still read by its place.
+const STAT_ORDER = ["yards", "slain", "elites", "rares", "deaths", "recorded", "played"];
+const STAT_LINE = /^-\s*[^:]{1,60}:\s*[\d.,]+$/;
 // Maps, not objects: a pasted "constructor" or "__proto__" must not find anything.
 const merged = key => new Map(Object.values(LOCALES).flatMap(L => Object.entries(L[key])));
 const anyOf = key => new Set(Object.values(LOCALES).map(L => L[key]));
@@ -179,9 +236,9 @@ const tidy = s => {
   const t = String(s ?? "").replace(INVISIBLE, "").replace(/\s+/g, " ").trim();
   return t.length <= MAX_TEXT ? t : Array.from(t).slice(0, MAX_TEXT).join("");   // cut by characters, not halves
 };
-const num = s => {
+const num = (s, max = 1e7) => {
   const n = parseInt(s, 10);
-  return Number.isFinite(n) && n >= 0 && n < 1e7 ? n : 0;
+  return Number.isFinite(n) && n >= 0 && n < max ? n : 0;
 };
 
 // "Sentinel Hill, Westfall" or "Westfall".
@@ -193,20 +250,21 @@ function place(text) {
 const at = text => text ? place(text) : {};
 
 // An entry line, "- Oct 01 14:23  The Deadmines · dungeon" (two spaces after the time; "-   text" without one), as
-// its " · " parts without the group part, and whether it had one.
+// its " · " parts without the group part, whether it had one, and its time.
 function entry(line, T) {
   const m = /^-\s(.*?)\s\s(.*)$/s.exec(line);
-  // A paste that squeezed the double space: drop what looks like the time ("Oct 01 14:23").
-  const text = m ? m[2] : line.replace(/^-\s*/, "").replace(/^\S{2,6} \d{1,2} \d{1,2}:\d{2} /, "");
+  // A paste that squeezed the double space: take what looks like the time ("Oct 01 14:23") off the front.
+  const squeezed = m ? null : /^(\S{2,6} \d{1,2} \d{1,2}:\d{2}) /.exec(line.replace(/^-\s*/, ""));
+  const text = m ? m[2] : line.replace(/^-\s*/, "").slice(squeezed ? squeezed[0].length : 0);
   const parts = text.split(" · ").map(s => s.trim()).filter(Boolean);
   const grouped = parts.length > 1 && Boolean(matchIn(T, "with", parts[parts.length - 1]));
   if (grouped) parts.pop();
-  return { parts, grouped };
+  return { parts, grouped, time: m ? m[1].trim() : squeezed?.[1] };
 }
 
 // Reads a pasted record. Returns the profile's facts (plain JSON), or throws RecordError with a code: "empty",
-// "too-big" or "not-a-record".
-export function parseRecord(input) {
+// "too-big" or "not-a-record". now: when it's read (the record's times have no year).
+export function parseRecord(input, now = new Date()) {
   const raw = typeof input === "string" ? input : "";
   if (!raw.trim()) throw new RecordError(input == null || input === "" || typeof input === "string" ? "empty" : "not-a-record");
   if (new TextEncoder().encode(raw).length > MAX_BYTES) throw new RecordError("too-big");
@@ -230,7 +288,8 @@ export function parseRecord(input) {
     level: null, race: null, className: null, classKey: null, faction: null, factionKey: null,
     since: null, fromLevel: null, cut: false, totals: null,
     places: [], quests: [], people: [], bosses: [], kills: [], loot: [], levels: [], spells: [], mounts: [],
-    profs: [], rep: [], deaths: [], books: [], shots: 0, fought: [], grouped: 0,
+    profs: [], rep: [], deaths: [], books: [], shots: 0, fought: [], grouped: 0, timeline: [],
+    stats: null,   // the journey in numbers (statsOf), when the record has them (add-ons from LOR-246 on)
   };
   if (!data.name) throw new RecordError("not-a-record");
 
@@ -250,33 +309,94 @@ export function parseRecord(input) {
     }
   }
 
-  // The sections: a title line, then its "- " entries. "Most fought" is one comma-separated line.
-  let section = null;
+  // The sections: a title line, then its "- " entries. "Most fought" is one comma-separated line, and so are the
+  // journey stats' walk by land and foes by kind.
+  let section = null, statAt = 0, known = false;
+  const when = new Map();   // entry -> its time in minutes (null: the line had none we could read)
+  const pairs = line => Array.from(line.matchAll(/(?:^|, )([^,]+?): (\d+)(?=, |$)/g), m => [tidy(m[1]), m[2]]);
   for (; i < lines.length; i++) {
     const line = lines[i];
     if (!line) { section = null; continue; }
     if (CUT.has(line)) { data.cut = true; continue; }
-    if (SECTIONS.has(line)) { section = SECTIONS.get(line); continue; }
-    if (FOUGHT.has(line)) { section = "fought"; continue; }
+    if (SECTIONS.has(line)) { section = SECTIONS.get(line); known = true; statAt = 0; continue; }
+    if (FOUGHT.has(line)) { section = "fought"; known = true; continue; }
+    // The journey stats come first: a title this file doesn't know yet, before any it does, over "- Name: 12" lines.
+    if (!section && !known && !line.startsWith("-") && STAT_LINE.test(lines[i + 1] || "")) {
+      section = "stats"; known = true; statAt = 0; continue;
+    }
     if (section === "fought") {
-      for (const m of line.matchAll(/(?:^|, )([^,]+?): (\d+)(?=, |$)/g)) data.fought.push({ name: tidy(m[1]), n: num(m[2]) });
+      for (const [name, n] of pairs(line)) data.fought.push({ name, n: num(n) });
+      continue;
+    }
+    if (section === "stats") {
+      if (line.startsWith("-")) stat(line, data, T, statAt++);
+      continue;
+    }
+    if (section === "walk" || section === "kinds") {
+      const s = data.stats ||= statsOf();
+      for (const [name, n] of pairs(line)) {
+        if (s[section].length < STAT_CAP[section]) s[section].push(section === "walk" ? { zone: name, yards: num(n, 1e9) } : { kind: name, n: num(n) });
+      }
       continue;
     }
     if (!section || !line.startsWith("-")) continue;
-    const { parts, grouped } = entry(line, T);
+    const { parts, grouped, time } = entry(line, T);
     if (!parts.length) continue;
     if (grouped) data.grouped++;
-    read(section, parts, data, T);
+    const e = read(section, parts, data, T);
+    if (e) when.set(e, stamp(time, now));
   }
 
   // A killer the record doesn't also list as a foe is dropped: "slain by" could name another player.
   const foes = new Set([...data.fought, ...data.kills, ...data.bosses].map(f => f.name));
   for (const d of data.deaths) if (d.by && !foes.has(d.by)) delete d.by;
   for (const [k, n] of Object.entries(CAP)) if (data[k].length > n) data[k] = data[k].slice(-n);
+  data.timeline = timeline(data, when);
   if (!data.level) data.level = data.levels.reduce((a, l) => Math.max(a, l.level), 0) || null;
   data.totals ||= { quests: data.quests.length, places: data.places.length, people: data.people.length,
                     foes: data.fought.length, bosses: data.bosses.length };
   return data;
+}
+
+// The journey in numbers (LOR-246), as a profile keeps them: yards walked, foes slain (and of them elites and rares),
+// deaths, hours recorded (played with the add-on's journey on) and played (the game's /played, when the player has
+// asked it), then yards walked per land and kills per creature type, the biggest first. null in a record without them.
+const statsOf = () => ({ yards: 0, slain: 0, elites: 0, rares: 0, deaths: 0, recorded: 0, played: null, walk: [], kinds: [] });
+
+// One "- Yards walked: 41203" line of the journey stats, the at-th: by its words in the record's language or English,
+// else by its place.
+function stat(line, data, T, at) {
+  const text = line.replace(/^-\s*/, "");
+  let key = null, value = null;
+  for (const C of T.code === "en" ? [T] : [T, COMPILED.en]) {
+    const hit = C.stats.find(([, c]) => match(c, text));
+    if (hit) { key = hit[0]; value = match(hit[1], text)[0]; break; }
+  }
+  if (!key) {
+    const m = /:\s*([\d.,]+)$/.exec(text);
+    key = m ? STAT_ORDER[at] : null;
+    value = m && m[1];
+  }
+  if (!key) return;
+  const s = data.stats ||= statsOf();
+  if (key === "recorded" || key === "played") {
+    const h = parseFloat(String(value).replace(",", "."));
+    s[key] = Number.isFinite(h) && h >= 0 && h < 1e5 ? Math.round(h * 10) / 10 : (key === "played" ? null : 0);
+  } else {
+    s[key] = num(String(value).replace(/[.,]/g, ""), key === "yards" ? 1e9 : 1e7);
+  }
+}
+
+// The kept moments in time order, as [section, index, day ("2026-10-01", or null when the line had no time)]. Moments
+// of the same minute go in TIMELINE's order, then the record's. A line without a time sorts first.
+function timeline(data, when) {
+  const out = [];
+  TIMELINE.forEach((k, s) => data[k].forEach((e, i) => {
+    const t = when.get(e) ?? null;
+    out.push({ t, s, i, k });
+  }));
+  out.sort((a, b) => (a.t ?? -Infinity) - (b.t ?? -Infinity) || a.s - b.s || a.i - b.i);
+  return out.map(({ t, i, k }) => [k, i, t === null ? null : new Date(t * 60000).toISOString().slice(0, 10)]);
 }
 
 // "Level 24 Night Elf Druid, Alliance": the level, race and class, then the faction after the last comma.
@@ -300,63 +420,59 @@ function sheet(line, T) {
   return { ...out, race: tidy(rest) || null };
 }
 
-// One entry into its section's list.
+// One entry into its section's list. Returns the entry a moment section added (for its time), else nothing.
 function read(section, parts, data, T) {
   const [first, ...rest] = parts;
   const name = tidy(first);
+  const add = e => { data[section].push(e); return e; };
   switch (section) {
-    case "places":
-      data.places.push({ ...place(first), ...(rest.some(p => DUNGEON.has(p)) ? { dungeon: true } : {}) });
-      break;
-    case "quests": data.quests.push({ title: name, ...at(rest[0]) }); break;
-    case "people": data.people.push({ name, ...at(rest[0]) }); break;
-    case "bosses": data.bosses.push({ name, ...at(rest[0]) }); break;
+    case "places": return add({ ...place(first), ...(rest.some(p => DUNGEON.has(p)) ? { dungeon: true } : {}) });
+    case "quests": return add({ title: name, ...at(rest[0]) });
+    case "people": return add({ name, ...at(rest[0]) });
+    case "bosses": return add({ name, ...at(rest[0]) });
     case "kills": {
       const rank = RANKS.get(rest[0]);
-      data.kills.push({ name, rank: rank || null, ...at(rank ? rest[1] : rest[0]) });
-      break;
+      return add({ name, rank: rank || null, ...at(rank ? rest[1] : rest[0]) });
     }
     case "loot": {
       // The item, its quality, "reward for <quest>" (or "Quest reward"), then the place; each after the item optional.
       let j = 0;
       const quality = QUALITY.get(rest[j]);
       if (quality !== undefined) j++;
-      const reward = rest[j] !== undefined && (QUEST_REWARD.has(rest[j]) || Boolean(matchIn(T, "rewardFor", rest[j])));
+      const rewardFor = rest[j] !== undefined ? matchIn(T, "rewardFor", rest[j]) : null;
+      const reward = rewardFor !== null || (rest[j] !== undefined && QUEST_REWARD.has(rest[j]));
       if (reward) j++;
-      data.loot.push({ name, quality: quality ?? null, ...(reward ? { reward: true } : {}), ...at(rest[j]) });
-      break;
+      return add({ name, quality: quality ?? null, ...(reward ? { reward: true } : {}),
+                   ...(rewardFor && tidy(rewardFor[0]) ? { quest: tidy(rewardFor[0]) } : {}), ...at(rest[j]) });
     }
     case "levels": {
       const m = matchIn(T, "reached", first);
-      if (m) data.levels.push({ level: num(m[0]), ...at(rest[0]) });
-      break;
+      return m ? add({ level: num(m[0]), ...at(rest[0]) }) : undefined;
     }
-    case "spells": data.spells.push({ name }); break;
-    case "mounts": data.mounts.push({ name, ...at(rest[0]) }); break;
+    case "spells": data.spells.push({ name }); return;
+    case "mounts": return add({ name, ...at(rest[0]) });
     case "profs": {
       const m = /^(.*\S)\s+(\d+)$/.exec(first);
-      if (!m) break;
+      if (!m) return;
       const prof = tidy(m[1]), rank = num(m[2]);
       const had = data.profs.find(p => p.name === prof);
       if (had) had.rank = Math.max(had.rank, rank); else data.profs.push({ name: prof, rank });
-      break;
+      return;
     }
     case "rep": {
       const m = matchIn(T, "rep", first);
-      if (!m) break;
+      if (!m) return;
       const faction = tidy(m[1]);
       data.rep = data.rep.filter(r => r.faction !== faction);   // the latest standing wins
-      data.rep.push({ faction, standing: tidy(m[0]) });
-      break;
+      return add({ faction, standing: tidy(m[0]), ...at(rest[0]) });
     }
     case "deaths": {
       // Where (or "Died" when the game didn't say), then "slain by X" when it did.
       const slain = parts.map(p => matchIn(T, "slain", p)).find(Boolean);
       const where = !DIED.has(first) && !matchIn(T, "slain", first);
-      data.deaths.push({ ...(where ? place(first) : {}), ...(slain ? { by: tidy(slain[0]) } : {}) });
-      break;
+      return add({ ...(where ? place(first) : {}), ...(slain ? { by: tidy(slain[0]) } : {}) });
     }
-    case "books": data.books.push({ title: tidy(first.replace(/^"(.*)"$/s, "$1")), ...at(rest[0]) }); break;
-    case "shots": data.shots++; break;
+    case "books": return add({ title: tidy(first.replace(/^"(.*)"$/s, "$1")), ...at(rest[0]) });
+    case "shots": data.shots++; return;
   }
 }

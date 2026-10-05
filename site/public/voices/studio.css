@@ -144,6 +144,38 @@
 .st-howto { font-size: 0.82rem; color: var(--muted); max-width: 62ch; }
 .st-voicebar select#st-locale { margin-left: 4px; }
 
+/* Claim a zone (zone-claims.js, LOR-231): the claim box above the next line, and the zone list */
+.st-zones { margin-bottom: 14px; }
+.st-claim { border: 1px solid var(--panel-line); border-radius: 8px; background: var(--st-panel); padding: 14px 16px; display: grid; gap: 8px; }
+.st-claim h2 { margin: 0; font-family: var(--heading); color: var(--text); font-size: 1.3rem; text-wrap: balance; }
+.st-claim p { margin: 0; font-size: 0.92rem; max-width: 68ch; }
+.st-claim .st-track { margin-top: 0; }
+.st-claim-acts { display: flex; flex-wrap: wrap; gap: 6px; }
+.st-suggest { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 14px;
+  border: 1px dashed #6b5a3a; border-radius: 6px; padding: 10px 12px; background: #120f0a; }
+.st-suggest .st-b, .st-zact .st-b { min-height: 40px; }
+.st-credit { display: grid; gap: 3px; font-size: 0.82rem; color: var(--muted); max-width: 360px; }
+.st-credit input { background: #080a14; color: var(--text); border: 1px solid var(--panel-line); border-radius: 4px; padding: 8px; font: inherit; font-size: 0.95rem; }
+.st-zdone { margin: 8px 0 0; font-size: 0.88rem; color: var(--st-ok); }
+.st-zlist { margin-top: 8px; border: 1px solid var(--line); border-radius: 6px; padding: 6px 12px; }
+.st-zlist summary { cursor: pointer; padding: 6px 0; font-weight: 600; min-height: 32px; }
+.st-zlist ul { list-style: none; margin: 0; padding: 0; }
+.st-zrow { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; align-items: center; padding: 8px 0;
+  border-top: 1px solid var(--st-row-line); }
+.st-zname { font-weight: 600; }
+.st-zname em { font-style: normal; font-weight: 400; font-size: 0.72rem; color: var(--gold-soft); border: 1px solid #6b5a2c; border-radius: 3px; padding: 0 4px; }
+.st-zmeta { grid-column: 1; color: var(--muted); font-size: 0.8rem; }
+.st-zact { grid-column: 2; grid-row: 1 / span 2; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 6px; }
+.st-zstatus { font-size: 0.82rem; color: var(--muted); }
+.st-zstatus.done { color: var(--st-ok); }
+.st-zstatus.taken { color: var(--st-warn); }
+@media (max-width: 560px) { .st-zrow { grid-template-columns: minmax(0, 1fr); } .st-zact { grid-column: 1; grid-row: auto; justify-content: flex-start; } }
+
+/* "Lend your voice" card (LOR-230; hidden until LEND_VOICE in studio.js) */
+.st-lend { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin: 0 0 14px;
+  border: 1px solid #c9a24b; border-radius: 8px; padding: 12px 16px; background: linear-gradient(180deg, #19140b, #0f0c08); }
+.st-lend p { margin: 0; max-width: 62ch; font-size: 0.92rem; }
+
 /* The narrator release on the send form (the first send only) */
 .st-release { border: 1px solid var(--line); border-radius: 6px; padding: 10px 14px 4px; margin: 4px 0 12px; max-width: 640px; }
 .st-release legend { font-family: var(--heading); color: var(--gold-soft); padding: 0 6px; }

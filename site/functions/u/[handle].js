@@ -4,6 +4,9 @@
 
 import { setup, currentUser } from "../../lib/accounts.js";
 import { profileOf, profileByHandle, profilePage, missingPage, publicLinks } from "../../lib/profiles.js";
+import { contributionBadges } from "../../lib/credits.js";
+import { loadLinks } from "../../lib/trails.js";
+import { featureOn } from "../../lib/features.js";
 
 const html = (body, status, cache) => new Response(body, {
   status, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": cache, "Vary": "Cookie" },
@@ -22,5 +25,9 @@ export async function onRequestGet({ request, env, params }) {
   const owner = Boolean(p && viewer && viewer.id === p.user_id);
   if (!p || (!p.public && !owner)) return html(missingPage(handle), 404, "no-store");
   const user = await env.DB.prepare("SELECT links FROM users WHERE id = ?").bind(p.user_id).first();
-  return html(profilePage(p, { links: publicLinks(user), owner }), 200, owner ? "private, no-store" : "no-cache");
+  const badges = await contributionBadges(env, request, p.user_id);   // Narrator, Translator, Contributed N lines (LOR-239)
+  // The journey's trails and lore links (LOR-248); names link to lore pages once those are on (the "lore" feature).
+  const names = await loadLinks(env, request);
+  return html(profilePage(p, { links: publicLinks(user), owner, badges, names, lore: featureOn(env, "lore") }), 200,
+    owner ? "private, no-store" : "no-cache");
 }

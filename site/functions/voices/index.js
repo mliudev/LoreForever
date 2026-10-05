@@ -1,25 +1,8 @@
-// /voices: fills public/voices.html with the narration voices (public/voices/voices.json, with each one's like
-// count) and the languages (public/translate/packs.json), so the page shows without JavaScript and follows those
-// files. lib/downloads.js builds the parts. /downloads redirects here (public/_redirects), and the add-on's
-// missing-voice notice points players there.
+// /voices: the Downloads page's old address (it was the voices page until LOR-222, 2026-10-03). Old links, videos and
+// earlier versions of the add-on still say /voices, so it sends them to /downloads for good, keeping any query; the
+// browser keeps the #anchor (#install, a voice's #<id>). The voice pages under /voices/ stay where they are.
 
-import { publicVoices, likeCounts } from "../../lib/voices.js";
-import { loadPacks } from "../../lib/translations.js";
-import { voicesSection, languagesSection, includedLine } from "../../lib/downloads.js";
-
-export async function onRequestGet({ request, env }) {
-  // A plain fetch of the page (no If-None-Match), so it never comes back as an empty 304.
-  const page = await env.ASSETS.fetch(new URL("/voices", request.url));
-  const html = await page.text();
-  if (!html.includes("<!-- dl-voices -->")) return new Response(html, page);
-  const [voices, likes, packs] = await Promise.all([publicVoices(env, request), likeCounts(env), loadPacks(env, request)]);
-  const headers = new Headers(page.headers);
-  headers.set("Cache-Control", "no-cache");
-  headers.delete("Content-Length");
-  headers.delete("ETag");
-  const out = html
-    .replace("<!-- dl-included -->", includedLine(voices, packs))
-    .replace("<!-- dl-voices -->", voicesSection(voices, likes))
-    .replace("<!-- dl-languages -->", languagesSection(packs));
-  return new Response(out, { status: page.status, headers });
+export function onRequestGet({ request }) {
+  const url = new URL(request.url);
+  return Response.redirect(new URL("/downloads" + url.search, url).toString(), 301);
 }

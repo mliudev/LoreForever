@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# The lore pages' sitemap (site/LORE_PAGES.md). Empty until they're switched on.
+Sitemap: https://loreforeverwow.com/lore/sitemap.xml

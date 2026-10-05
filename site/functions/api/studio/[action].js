@@ -1,8 +1,9 @@
 // The upload page, /voices/studio (lib/studio.js). Anyone can browse the lines (public/voices/lines.json); uploading
 // and sending need a signed-in account (lib/accounts.js), and sending needs the narrator release.
 //   GET  /api/studio/state?voice=ID     {signedIn, release, voices, voice, takes, limits}; takes are for voice ID (or the first voice)
-//   POST /api/studio/release            {agree, adult, signature, release}: the narrator release, agreed once per account,
-//                                       asked for on the send form
+//   POST /api/studio/release            {agree, adult, signature, release}: the narrator release, agreed once per account
+//                                       (and again when RELEASE_VERSION changes), asked for on the send form; adult is
+//                                       its own box, "I'm 18 or older", and required
 //   POST /api/studio/voice              {name, locale}: a new draft voice; {id, name}: rename one; {id, races}: the
 //                                       races its voice suits (lib/studio.js RACES; goes in its packs' .toc)
 //   PUT  /api/studio/take?voice=&line=  the file itself as the body (.mp3 or Ogg Vorbis: the page converts anything else,
@@ -139,7 +140,7 @@ async function agree({ env }, user, input) {
   if (clean(input.release, 20) !== RELEASE_VERSION) {
     return fail(409, "The narrator release was updated since this page loaded. Reload the page, read the new version, and agree again.");
   }
-  if (!ticked(input.adult)) return fail(400, "Please confirm you're 18 or older, or that a parent or guardian agrees.");
+  if (!ticked(input.adult)) return fail(400, "Please confirm you're 18 or older. Sending a voice is for adults only.");
   const signature = clean(input.signature, 100);
   if (signature.length < 2) return fail(400, "Type your full name as your signature.");
   await env.DB.prepare(
@@ -265,7 +266,7 @@ async function send({ request, env, waitUntil }, user, input) {
   if (!credit) return fail(400, "Tell us how to credit you (a name, a handle, or Anonymous).");
 
   const now = new Date().toISOString();
-  const sender = await senderHash(request.headers.get("CF-Connecting-IP") || "", now.slice(0, 10));
+  const sender = await senderHash(env, request.headers.get("CF-Connecting-IP") || "", now.slice(0, 10));
   await setupSubmissions(env);
   if ((await sentToday(env, sender, now.slice(0, 10))) >= PER_DAY) {
     return fail(429, "That's a lot of submissions for one day. Please try again tomorrow, or ask on Discord.");

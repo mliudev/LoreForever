@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Translation edits - Lore Forever</title>
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/admin.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/admin">Dashboard</a> &rsaquo; Translation edits</span>
+  </div>
+</header>
+
+<!-- Sign-in, as on /admin: the same key, kept the same way, so signing in on one page signs in the other. -->
+<main class="wrap ad-login ad-panel" id="login" hidden>
+  <h1 style="font-size:1.6rem">Translation edits</h1>
+  <form id="login-form">
+    <label for="key">Admin key</label>
+    <input type="password" id="key" autocomplete="current-password" required>
+    <label class="ad-check"><input type="checkbox" id="remember"> Remember on this device</label>
+    <button type="submit" class="btn-small">Open</button>
+    <p class="ad-error" id="login-error" role="alert" hidden></p>
+  </form>
+</main>
+
+<!-- Every edit from /translate/dashboard (functions/api/translations/[action].js: summary, review, decide), a page at a
+     time. No approval step: a saved edit goes into the language with the next `lore.kit pull` unless it's rejected
+     here. The filters live in the address (?status=&locale=&user=&q=&page=), so /admin links straight to a language
+     or a translator and Refresh keeps the view. -->
+<main class="wrap ad ad-wide" id="dash" hidden>
+  <div class="ad-bar">
+    <h1>Translation edits</h1>
+    <span class="ad-meta"><span id="updated"></span> &middot; <button type="button" id="refresh">Refresh</button>
+      &middot; <button type="button" id="signout">Sign out</button></span>
+  </div>
+  <p class="ad-count" style="margin:6px 0 0">No approval step: every saved edit goes into its language with the next
+    <code>lore.kit pull</code> unless it's rejected here (spam, vandalism, a native speaker's report on Discord).
+    Restore undoes a reject. Pulled edits are already in <code>data/i18n</code> and don't change here.</p>
+
+  <div class="ad-tiles">
+    <div class="ad-panel ad-tile"><div class="ad-label">Saved</div><div class="ad-num" id="t-saved">-</div><div class="ad-sub">waiting for a pull</div></div>
+    <div class="ad-panel ad-tile"><div class="ad-label">Pulled</div><div class="ad-num" id="t-pulled">-</div><div class="ad-sub">in data/i18n</div></div>
+    <div class="ad-panel ad-tile"><div class="ad-label">Rejected</div><div class="ad-num" id="t-rejected">-</div><div class="ad-sub">left out of pulls</div></div>
+    <div class="ad-panel ad-tile"><div class="ad-label">Translators</div><div class="ad-num" id="t-people">-</div><div class="ad-sub" id="t-people-sub"></div></div>
+  </div>
+
+  <h2 id="translators">Translators</h2>
+  <div class="ad-panel">
+    <div class="ad-filters">
+      <input type="search" id="tq" placeholder="Search name or email" aria-label="Search translators">
+      <span class="ad-count" id="tr-count"></span>
+    </div>
+    <div class="ad-table-wrap">
+      <table><thead><tr><th>Translator</th><th>Languages</th><th>Saved</th><th>Pulled</th><th>Rejected</th><th>Last 7 days</th><th>Last edit</th><th></th></tr></thead><tbody id="tr-list"></tbody></table>
+    </div>
+  </div>
+
+  <h2 id="list">Edits</h2>
+  <div class="ad-panel">
+    <div class="ad-filters" role="group" aria-label="Filter edits">
+      <button type="button" data-status="new" aria-pressed="true">Saved</button>
+      <button type="button" data-status="pulled" aria-pressed="false">Pulled</button>
+      <button type="button" data-status="rejected" aria-pressed="false">Rejected</button>
+      <button type="button" data-status="all" aria-pressed="false">All</button>
+      <select id="locale" aria-label="Language"><option value="">Every language</option></select>
+      <input type="search" id="q" placeholder="Search string, text or translator" aria-label="Search edits">
+    </div>
+    <div class="ad-filters" id="who" hidden></div>
+    <div class="ad-filters">
+      <label class="ad-check"><input type="checkbox" id="all-on-page"> Select this page</label>
+      <button type="button" id="reject-sel" class="ad-danger" disabled>Reject selected</button>
+      <button type="button" id="restore-sel" disabled>Restore selected</button>
+    </div>
+    <div class="ad-table-wrap">
+      <table class="ae"><thead><tr><th></th><th>Language</th><th>String</th><th>English</th><th>Translation</th><th>By</th><th>Saved</th><th></th></tr></thead><tbody id="ed-list"></tbody></table>
+    </div>
+    <div class="ad-filters ae-pager">
+      <button type="button" id="newer">&lsaquo; Newer</button>
+      <span class="ad-count" id="page"></span>
+      <button type="button" id="older">Older &rsaquo;</button>
+    </div>
+  </div>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+const PAGE = 100;
+
+// ---- the admin key, kept as /admin keeps it: sessionStorage, or localStorage when "Remember" is ticked ----
+function getKey() {
+  try { return sessionStorage.getItem("lf-admin") || localStorage.getItem("lf-admin"); } catch (e) { return null; }
+}
+let memoryKey = null;   // used when storage is blocked
+function setKey(k, remember) {
+  memoryKey = k;
+  try { sessionStorage.removeItem("lf-admin"); localStorage.removeItem("lf-admin"); } catch (e) {}
+  if (k) try { (remember ? localStorage : sessionStorage).setItem("lf-admin", k); } catch (e) {}
+}
+const key = () => memoryKey || getKey();
+
+function signOut(message) {
+  setKey(null);
+  $("dash").hidden = true;
+  $("login").hidden = false;
+  $("login-error").textContent = message || "";
+  $("login-error").hidden = !message;
+}
+
+async function api(path, body) {
+  const r = await fetch("/api/translations/" + path, {
+    method: body ? "POST" : "GET", cache: "no-store",
+    headers: { Authorization: "Bearer " + key(), ...(body ? { "Content-Type": "application/json" } : {}) },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  if (r.status === 401) { signOut("That key didn't work."); throw new Error("unauthorized"); }
+  const res = await r.json().catch(() => ({}));
+  if (!r.ok || !res.ok) throw new Error(res.error || "Request failed (" + r.status + ")");
+  return res;
+}
+const failed = e => { if (e.message !== "unauthorized") alert("That didn't work: " + e.message); };
+
+// ---- helpers ----
+const el = (tag, props = {}, ...kids) => {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(props)) {
+    if (k === "class") n.className = v; else if (k === "text") n.textContent = v; else n.setAttribute(k, v);
+  }
+  n.append(...kids.filter(k => k != null && k !== false));
+  return n;
+};
+const button = (text, onClick, cls = "ad-link") => {
+  const b = el("button", { type: "button", class: cls, text });
+  b.addEventListener("click", onClick);
+  return b;
+};
+const fmtDate = iso => iso ? new Date(iso).toLocaleString([], { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) : "";
+const num = v => (v || 0).toLocaleString();
+const plural = (n, word) => num(n) + " " + word + (n === 1 ? "" : "s");
+const mailto = email => el("a", { class: "ae-sub", href: "mailto:" + encodeURIComponent(email).replace("%40", "@"), text: email });
+const nameOf = t => t.display_name || t.email || "(no name)";
+
+// ---- the view, kept in the address ----
+const params = new URLSearchParams(location.search);
+const view = {
+  status: ["new", "pulled", "rejected", "all"].includes(params.get("status")) ? params.get("status") : "new",
+  locale: /^[a-z]{2}[A-Z]{2}$/.test(params.get("locale") || "") ? params.get("locale") : "",
+  user: params.get("user") || "",
+  q: params.get("q") || "",
+  page: Math.max(0, (Number.parseInt(params.get("page"), 10) || 1) - 1),
+};
+function saveView() {
+  const p = new URLSearchParams();
+  if (view.status !== "new") p.set("status", view.status);
+  for (const k of ["locale", "user", "q"]) if (view[k]) p.set(k, view[k]);
+  if (view.page) p.set("page", view.page + 1);
+  const qs = p.toString();
+  history.replaceState(null, "", location.pathname + (qs ? "?" + qs : "") + location.hash);
+}
+function showView() {
+  document.querySelectorAll("[data-status]").forEach(b => b.setAttribute("aria-pressed", b.dataset.status === view.status));
+  $("q").value = view.q;
+  $("locale").value = view.locale;
+}
+
+// ---- counts and translators (GET summary) ----
+let summary = { locales: [], translators: [] };
+async function loadSummary() {
+  summary = await api("summary");
+  const sum = k => summary.locales.reduce((a, l) => a + (l[k] || 0), 0);
+  for (const k of ["saved", "pulled", "rejected"]) $("t-" + k).textContent = num(sum(k));
+  $("t-people").textContent = num(summary.translators.length);
+  $("t-people-sub").textContent = plural(summary.translators.reduce((a, t) => a + (t.week || 0), 0), "edit") + " in the last 7 days";
+  const locales = summary.locales.map(l => [l.locale, `${l.locale} (${num(l.saved)} saved)`]);
+  if (view.locale && !locales.some(([l]) => l === view.locale)) locales.push([view.locale, view.locale]);
+  $("locale").replaceChildren(el("option", { value: "", text: "Every language" }),
+    ...locales.map(([value, text]) => el("option", { value, text })));
+  $("locale").value = view.locale;
+  renderTranslators();
+  renderWho();
+}
+
+// The first 10 (most edits waiting first) unless searching or "Show all", so the edits stay near the top.
+const FEW = 10;
+let allTranslators = false;
+function renderTranslators() {
+  const q = $("tq").value.trim().toLowerCase();
+  const list = summary.translators.filter(t => !q || (t.display_name || "").toLowerCase().includes(q) || (t.email || "").toLowerCase().includes(q));
+  const shown = q || allTranslators ? list : list.slice(0, FEW);
+  $("tr-count").replaceChildren(plural(list.length, "translator"), shown.length < list.length ? " · " : "",
+    shown.length < list.length ? button("Show all", () => { allTranslators = true; renderTranslators(); }) : "");
+  const body = $("tr-list");
+  if (!list.length) { body.replaceChildren(el("tr", {}, el("td", { colspan: "8", class: "ad-empty", text: "Nobody here." }))); return; }
+  body.replaceChildren(...shown.map(t => el("tr", {},
+    el("td", {}, el("div", { text: t.display_name || "(no name)" }), t.email ? mailto(t.email) : null),
+    el("td", { text: (t.locales || "").split(",").join(", ") }),
+    el("td", { text: num(t.saved) }), el("td", { text: num(t.pulled) }), el("td", { text: num(t.rejected) }),
+    el("td", { text: num(t.week) }),
+    el("td", { class: "ae-when", text: fmtDate(t.last) }),
+    el("td", {}, el("span", { class: "ae-actions" },
+      button("Show edits", () => { showTranslator(t.user_id); $("list").scrollIntoView(); }),
+      t.saved ? button("Reject all saved", () => decideUser(t, "rejected"), "ad-link ad-danger") : null,
+      t.rejected ? button("Restore rejected", () => decideUser(t, "new")) : null)))));
+}
+
+// "Show edits": everything of one translator's, in every status and language, newest first.
+function showTranslator(user) {
+  Object.assign(view, { user, status: "all", locale: "", q: "", page: 0 });
+  showView();
+  renderWho();
+  loadEdits();
+}
+function renderWho() {
+  const box = $("who");
+  box.hidden = !view.user;
+  if (!view.user) return;
+  const t = summary.translators.find(x => x.user_id === view.user);
+  box.replaceChildren(el("span", { class: "ad-count", text: "Only the edits of " + (t ? nameOf(t) : "one translator") }),
+    button("Show everyone's", () => { view.user = ""; view.page = 0; renderWho(); loadEdits(); }));
+}
+
+async function decideUser(t, status) {
+  const n = status === "rejected" ? t.saved : t.rejected;
+  const ask = status === "rejected"
+    ? `Reject all ${plural(n, "saved edit")} from ${nameOf(t)}, in every language? They stay out of pulls; Restore brings them back.`
+    : `Restore all ${plural(n, "rejected edit")} from ${nameOf(t)}? They go into the next pull.`;
+  if (!confirm(ask)) return;
+  try { await api("decide", { user: t.user_id, status }); } catch (e) { failed(e); return; }
+  refresh();
+}
+
+// ---- the edits, a page at a time (GET review) ----
+let edits = [], total = 0, loading = 0;
+const selected = new Set();
+async function loadEdits() {
+  saveView();
+  const mine = ++loading;
+  const p = new URLSearchParams({ status: view.status, offset: view.page * PAGE, limit: PAGE });
+  for (const k of ["locale", "user", "q"]) if (view[k]) p.set(k, view[k]);
+  let res;
+  try { res = await api("review?" + p); }
+  catch (e) {
+    if (mine === loading && e.message !== "unauthorized") {
+      $("ed-list").replaceChildren(el("tr", {}, el("td", { colspan: "8", class: "ad-empty", text: "Couldn't load edits: " + e.message })));
+    }
+    return;
+  }
+  if (mine !== loading) return;   // the filters changed while this one loaded
+  if (!res.edits.length && res.total && view.page) {   // past the end, after a reject emptied the last page
+    view.page = Math.floor((res.total - 1) / PAGE);
+    return loadEdits();
+  }
+  edits = res.edits;
+  total = res.total;
+  selected.clear();
+  renderEdits();
+}
+
+const STATUS_WORDS = { new: "saved", accepted: "saved", pulled: "pulled", rejected: "rejected" };
+const canChange = e => e.status !== "pulled";
+function renderEdits() {
+  const from = view.page * PAGE;
+  $("page").textContent = total ? `${num(from + 1)}–${num(from + edits.length)} of ${num(total)}` : "";
+  $("newer").disabled = view.page === 0;
+  $("older").disabled = from + edits.length >= total;
+  const body = $("ed-list");
+  if (!edits.length) {
+    body.replaceChildren(el("tr", {}, el("td", { colspan: "8", class: "ad-empty", text: "Nothing here." })));
+    updateSelection();
+    return;
+  }
+  body.replaceChildren(...edits.map(e => {
+    let box = null;
+    if (canChange(e)) {
+      box = el("input", { type: "checkbox", "aria-label": "Select edit #" + e.id });
+      box.checked = selected.has(e.id);
+      box.addEventListener("change", () => { box.checked ? selected.add(e.id) : selected.delete(e.id); updateSelection(); });
+    }
+    const saved = e.status === "new" || e.status === "accepted";
+    return el("tr", { class: e.status === "rejected" ? "done" : "" },
+      el("td", {}, box),
+      el("td", { text: e.locale }),
+      el("td", {}, el("code", { text: e.string_id }), el("span", { class: "ae-sub", text: "#" + e.id })),
+      el("td", {}, el("div", { class: "ae-text", text: e.en })),
+      el("td", {}, el("div", { class: "ae-text", lang: e.locale.slice(0, 2), text: e.text })),
+      el("td", {}, view.user ? el("span", { text: e.display_name || "(no name)" })
+                             : button(e.display_name || "(no name)", () => showTranslator(e.user_id)),
+        e.email ? mailto(e.email) : null),
+      el("td", { class: "ae-when", text: fmtDate(e.updated) }),
+      el("td", {}, el("span", { class: "ae-actions" },
+        view.status === "all" ? el("span", { class: "ad-count", text: STATUS_WORDS[e.status] || e.status }) : null,
+        saved ? button("Reject", () => decideIds([e.id], "rejected"), "ad-link ad-danger") : null,
+        e.status === "rejected" ? button("Restore", () => decideIds([e.id], "new")) : null)));
+  }));
+  updateSelection();
+}
+
+function updateSelection() {
+  const picked = edits.filter(e => selected.has(e.id));
+  const reject = picked.filter(e => e.status !== "rejected").length, restore = picked.length - reject;
+  $("reject-sel").disabled = !reject;
+  $("reject-sel").textContent = "Reject selected" + (reject ? ` (${reject})` : "");
+  $("restore-sel").disabled = !restore;
+  $("restore-sel").textContent = "Restore selected" + (restore ? ` (${restore})` : "");
+  const changeable = edits.filter(canChange);
+  $("all-on-page").disabled = !changeable.length;
+  $("all-on-page").checked = changeable.length > 0 && changeable.every(e => selected.has(e.id));
+}
+
+async function decideIds(ids, status) {
+  if (!ids.length) return;
+  try { await api("decide", { ids, status }); } catch (e) { failed(e); return; }
+  refresh();
+}
+
+// After a reject or restore: the page and the counts again, without the sign-in check of a full load.
+async function refresh() {
+  try { await Promise.all([loadSummary(), loadEdits()]); } catch (e) { failed(e); }
+}
+
+async function load() {
+  $("refresh").disabled = true;
+  try {
+    await loadSummary();   // also checks the key
+    $("login").hidden = true;
+    $("dash").hidden = false;
+    showView();
+    await loadEdits();
+    $("updated").textContent = "Updated " + new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+  } catch (e) {
+    if (e.message !== "unauthorized") alert("Couldn't load the edits: " + e.message);
+  }
+  $("refresh").disabled = false;
+}
+
+// ---- wiring ----
+$("login-form").addEventListener("submit", e => {
+  e.preventDefault();
+  setKey($("key").value.trim(), $("remember").checked);
+  $("key").value = "";
+  load();
+});
+$("signout").addEventListener("click", () => signOut());
+$("refresh").addEventListener("click", load);
+$("tq").addEventListener("input", renderTranslators);
+document.querySelectorAll("[data-status]").forEach(b => b.addEventListener("click", () => {
+  view.status = b.dataset.status;
+  view.page = 0;
+  showView();
+  loadEdits();
+}));
+$("locale").addEventListener("change", () => { view.locale = $("locale").value; view.page = 0; loadEdits(); });
+let typing;
+$("q").addEventListener("input", () => {
+  clearTimeout(typing);
+  typing = setTimeout(() => { view.q = $("q").value.trim(); view.page = 0; loadEdits(); }, 300);
+});
+$("newer").addEventListener("click", () => { view.page = Math.max(0, view.page - 1); loadEdits(); });
+$("older").addEventListener("click", () => { view.page++; loadEdits(); });
+$("all-on-page").addEventListener("change", () => {
+  for (const e of edits.filter(canChange)) $("all-on-page").checked ? selected.add(e.id) : selected.delete(e.id);
+  renderEdits();
+});
+$("reject-sel").addEventListener("click", () => {
+  const ids = edits.filter(e => selected.has(e.id) && e.status !== "rejected").map(e => e.id);
+  if (ids.length > 1 && !confirm(`Reject ${plural(ids.length, "edit")}?`)) return;
+  decideIds(ids, "rejected");
+});
+$("restore-sel").addEventListener("click", () => decideIds(edits.filter(e => selected.has(e.id) && e.status === "rejected").map(e => e.id), "new"));
+
+if (key()) load(); else signOut();
+</script>
+</body>
+</html>

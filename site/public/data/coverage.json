@@ -1,0 +1,882 @@
+{
+ "generated": "2026-10-04",
+ "forever_only": {
+  "quests_known": 133,
+  "quests_with_text": 114,
+  "narrated": 114,
+  "npcs_known": 223,
+  "npcs_with_text": 0
+ },
+ "zones": [
+  {
+   "zone": "Tirisfal Glades",
+   "key": "tirisfal",
+   "quests": 30,
+   "with_text": 14,
+   "narrated": 14
+  },
+  {
+   "zone": "Zephras Isle",
+   "key": "zephras",
+   "quests": 25,
+   "with_text": 25,
+   "narrated": 25
+  },
+  {
+   "zone": "Westfall",
+   "key": "westfall",
+   "quests": 12,
+   "with_text": 12,
+   "narrated": 12
+  },
+  {
+   "zone": "Wetlands",
+   "key": "wetlands",
+   "quests": 11,
+   "with_text": 11,
+   "narrated": 11
+  },
+  {
+   "zone": "Other",
+   "key": "general",
+   "quests": 9,
+   "with_text": 9,
+   "narrated": 9
+  },
+  {
+   "zone": "Dun Morogh",
+   "key": "dunmorogh",
+   "quests": 8,
+   "with_text": 8,
+   "narrated": 8
+  },
+  {
+   "zone": "Stormwind City",
+   "key": "stormwind",
+   "quests": 7,
+   "with_text": 7,
+   "narrated": 7
+  },
+  {
+   "zone": "Elwynn Forest",
+   "key": "elwynn",
+   "quests": 6,
+   "with_text": 6,
+   "narrated": 6
+  },
+  {
+   "zone": "Redridge Mountains",
+   "key": "redridge",
+   "quests": 4,
+   "with_text": 4,
+   "narrated": 4
+  },
+  {
+   "zone": "Durotar",
+   "key": "durotar",
+   "quests": 3,
+   "with_text": 3,
+   "narrated": 3
+  },
+  {
+   "zone": "Ruins of Lordaeron",
+   "key": "ruinsoflordaeron",
+   "quests": 3,
+   "with_text": 3,
+   "narrated": 3
+  },
+  {
+   "zone": "The Barrens",
+   "key": "barrens",
+   "quests": 3,
+   "with_text": 3,
+   "narrated": 3
+  },
+  {
+   "zone": "Undercity",
+   "key": "undercity",
+   "quests": 3,
+   "with_text": 0,
+   "narrated": 0
+  },
+  {
+   "zone": "Darkshore",
+   "key": "darkshore",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
+  },
+  {
+   "zone": "Darnassus",
+   "key": "darnassus",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
+  },
+  {
+   "zone": "Duskwood",
+   "key": "duskwood",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
+  },
+  {
+   "zone": "Hall of Thanes",
+   "key": "hallofthanes",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
+  },
+  {
+   "zone": "Hillsbrad Foothills",
+   "key": "hillsbrad",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
+  },
+  {
+   "zone": "Mulgore",
+   "key": "mulgore",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
+  },
+  {
+   "zone": "Silverpine Forest",
+   "key": "silverpine",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
+  },
+  {
+   "zone": "Teldrassil",
+   "key": "teldrassil",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
+  },
+  {
+   "zone": "Thunder Bluff",
+   "key": "thunderbluff",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
+  }
+ ],
+ "wanted": [
+  {
+   "kind": "quest",
+   "id": 99144,
+   "name": "Seeking Refuge",
+   "zone": "Tirisfal Glades",
+   "level": 7
+  },
+  {
+   "kind": "quest",
+   "id": 91282,
+   "name": "A Second Home",
+   "zone": "Tirisfal Glades",
+   "level": 11
+  },
+  {
+   "kind": "quest",
+   "id": 91316,
+   "name": "Making Repairs",
+   "zone": "Tirisfal Glades",
+   "level": 11
+  },
+  {
+   "kind": "quest",
+   "id": 91285,
+   "name": "Murlocs at the Gates",
+   "zone": "Tirisfal Glades",
+   "level": 11
+  },
+  {
+   "kind": "quest",
+   "id": 91294,
+   "name": "Touring the Grounds",
+   "zone": "Tirisfal Glades",
+   "level": 11
+  },
+  {
+   "kind": "quest",
+   "id": 94427,
+   "name": "A Lesson in Divinity",
+   "zone": "Tirisfal Glades",
+   "level": 12
+  },
+  {
+   "kind": "quest",
+   "id": 94435,
+   "name": "A Lesson in Divinity",
+   "zone": "Tirisfal Glades",
+   "level": 12
+  },
+  {
+   "kind": "quest",
+   "id": 94436,
+   "name": "A Lesson in Divinity",
+   "zone": "Tirisfal Glades",
+   "level": 12
+  },
+  {
+   "kind": "quest",
+   "id": 94438,
+   "name": "A Lesson in Divinity",
+   "zone": "Tirisfal Glades",
+   "level": 12
+  },
+  {
+   "kind": "quest",
+   "id": 94440,
+   "name": "A Lesson in Divinity",
+   "zone": "Tirisfal Glades",
+   "level": 12
+  },
+  {
+   "kind": "quest",
+   "id": 94441,
+   "name": "A Lesson in Divinity",
+   "zone": "Tirisfal Glades",
+   "level": 12
+  },
+  {
+   "kind": "quest",
+   "id": 95803,
+   "name": "A Token of Good Faith",
+   "zone": "Tirisfal Glades",
+   "level": 12
+  },
+  {
+   "kind": "quest",
+   "id": 91317,
+   "name": "The Tarnished",
+   "zone": "Tirisfal Glades",
+   "level": 12
+  },
+  {
+   "kind": "quest",
+   "id": 94434,
+   "name": "A Lesson in Divinity",
+   "zone": "Undercity",
+   "level": 12
+  },
+  {
+   "kind": "quest",
+   "id": 96898,
+   "name": "Remnants of War",
+   "zone": "Tirisfal Glades",
+   "level": 13
+  },
+  {
+   "kind": "quest",
+   "id": 96895,
+   "name": "The Argent Emissary",
+   "zone": "Tirisfal Glades",
+   "level": 13
+  },
+  {
+   "kind": "quest",
+   "id": 96897,
+   "name": "The Cult of the Damned",
+   "zone": "Tirisfal Glades",
+   "level": 13
+  },
+  {
+   "kind": "quest",
+   "id": 97891,
+   "name": "Prompt Potion Runner",
+   "zone": "Undercity",
+   "level": 16
+  },
+  {
+   "kind": "quest",
+   "id": 97985,
+   "name": "Thundering Hearts",
+   "zone": "Undercity",
+   "level": 33
+  },
+  {
+   "kind": "npc",
+   "id": 251362,
+   "name": "Ailee Farheart",
+   "zone": "Zephras Isle",
+   "level": 1
+  },
+  {
+   "kind": "npc",
+   "id": 251361,
+   "name": "Rorian the Dayseeker",
+   "zone": "Zephras Isle",
+   "level": 1
+  },
+  {
+   "kind": "npc",
+   "id": 247229,
+   "name": "Daniel",
+   "zone": "Elwynn Forest",
+   "level": 2
+  },
+  {
+   "kind": "npc",
+   "id": 251389,
+   "name": "Akeri Duskblade",
+   "zone": "Zephras Isle",
+   "level": 2
+  },
+  {
+   "kind": "npc",
+   "id": 251964,
+   "name": "Blademaster Ren",
+   "zone": "Zephras Isle",
+   "level": 2
+  },
+  {
+   "kind": "npc",
+   "id": 251379,
+   "name": "Dorii Brightwhisper",
+   "zone": "Zephras Isle",
+   "level": 2
+  },
+  {
+   "kind": "npc",
+   "id": 251368,
+   "name": "Elatrell Featherlight",
+   "zone": "Zephras Isle",
+   "level": 2
+  },
+  {
+   "kind": "npc",
+   "id": 257554,
+   "name": "Halaan Hawk-Eye",
+   "zone": "Zephras Isle",
+   "level": 2
+  },
+  {
+   "kind": "npc",
+   "id": 263113,
+   "name": "Myriaal Mistwake",
+   "zone": "Zephras Isle",
+   "level": 2
+  },
+  {
+   "kind": "npc",
+   "id": 251376,
+   "name": "Tai'ree Farsight",
+   "zone": "Zephras Isle",
+   "level": 2
+  },
+  {
+   "kind": "npc",
+   "id": 251374,
+   "name": "Windshaper Boro",
+   "zone": "Zephras Isle",
+   "level": 2
+  },
+  {
+   "kind": "npc",
+   "id": 251373,
+   "name": "Xyton Silverwind",
+   "zone": "Zephras Isle",
+   "level": 2
+  },
+  {
+   "kind": "npc",
+   "id": 246152,
+   "name": "Shari Stilwell",
+   "zone": "Tirisfal Glades",
+   "level": 4
+  },
+  {
+   "kind": "npc",
+   "id": 251363,
+   "name": "Dalia the Collector",
+   "zone": "Zephras Isle",
+   "level": 4
+  },
+  {
+   "kind": "npc",
+   "id": 251371,
+   "name": "Falorne Fallwind",
+   "zone": "Zephras Isle",
+   "level": 4
+  },
+  {
+   "kind": "npc",
+   "id": 257551,
+   "name": "Valreaa Valewind",
+   "zone": "Zephras Isle",
+   "level": 4
+  },
+  {
+   "kind": "npc",
+   "id": 251487,
+   "name": "Ventaari Brightwish",
+   "zone": "Zephras Isle",
+   "level": 4
+  },
+  {
+   "kind": "npc",
+   "id": 251366,
+   "name": "Aetheen of the Gales",
+   "zone": "Zephras Isle",
+   "level": 5
+  },
+  {
+   "kind": "npc",
+   "id": 251523,
+   "name": "Constable Aonda",
+   "zone": "Zephras Isle",
+   "level": 5
+  },
+  {
+   "kind": "npc",
+   "id": 265813,
+   "name": "Eric Brighthammer",
+   "zone": "Dun Morogh",
+   "level": 6
+  },
+  {
+   "kind": "npc",
+   "id": 263399,
+   "name": "Sam Sarsaparilla",
+   "zone": "Elwynn Forest",
+   "level": 6
+  },
+  {
+   "kind": "npc",
+   "id": 263664,
+   "name": "Raan Wildwind",
+   "zone": "Zephras Isle",
+   "level": 6
+  },
+  {
+   "kind": "npc",
+   "id": 265812,
+   "name": "Eleanor Shackleton",
+   "zone": "Tirisfal Glades",
+   "level": 7
+  },
+  {
+   "kind": "npc",
+   "id": 254082,
+   "name": "Aarnor Galestrike",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 251913,
+   "name": "Aedi Thriceforged",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 264943,
+   "name": "Afadra Dunwall",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 258568,
+   "name": "Antonio Bolero",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 270269,
+   "name": "Arbal",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 254360,
+   "name": "Belandiel Farflight",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 277042,
+   "name": "Bezza Shearshave",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 228610,
+   "name": "Blackrock Bootlegger",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 267336,
+   "name": "Brighid Stormflayer",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 267279,
+   "name": "Cadoc Winterheart",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 254089,
+   "name": "Coriella Calmbreeze",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 254088,
+   "name": "Corsan Earthrazer",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 185403,
+   "name": "Cyriden Farseeker",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 252172,
+   "name": "Danarii Bellowveil",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 258572,
+   "name": "Dani'ill",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 251364,
+   "name": "Destin Thriceforged",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 254084,
+   "name": "Elayaa Easewind",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 258098,
+   "name": "Eldrun Stormbreaker",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 258548,
+   "name": "Ellie Stonebrow",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 251965,
+   "name": "Fevrath Skyhammer",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 270581,
+   "name": "Fyrenz Vishonar",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 211033,
+   "name": "Garion Wendell",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 258306,
+   "name": "Granny Finespindle",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 257021,
+   "name": "Halassa Fernbreeze",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 251902,
+   "name": "Illaya Amberwind",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 251993,
+   "name": "Indari Sunseam",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 258113,
+   "name": "Ingrid Dunwald",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 258930,
+   "name": "Isaac Chan",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 277024,
+   "name": "Jelinek Sharpshear",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 251365,
+   "name": "Jolee Brightmeadows",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 251507,
+   "name": "Josephine Carson",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 257024,
+   "name": "Mendalass Tattermend",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 257022,
+   "name": "Messana Crestwind",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 254087,
+   "name": "Miriaan Mistblade",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 254081,
+   "name": "Naeluna Swiftmend",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 257018,
+   "name": "Naleeia Tattermend",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 247223,
+   "name": "Nancy Songflower",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 257020,
+   "name": "Nasalanna Windsinger",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 268238,
+   "name": "Nordun Steadysight",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 257019,
+   "name": "Nyassa Swiftdraught",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 263644,
+   "name": "Pherry Leftee",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 275491,
+   "name": "Randal Emerson",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 251903,
+   "name": "Rathiril Sunlance",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 258934,
+   "name": "Reason",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 185404,
+   "name": "Relathor Moonsong",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 247227,
+   "name": "Riley Peltskinner",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 255002,
+   "name": "Ryff",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 270112,
+   "name": "Saera Wirraway",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 267337,
+   "name": "Sally Swiftwrench",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 251904,
+   "name": "Sania Silverstream",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 254086,
+   "name": "Shenaan Spellwind",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 228609,
+   "name": "Sulfuron Smuggler",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 251991,
+   "name": "Taleen Shimmerthread",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 257421,
+   "name": "Tephri Thriceforged",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 248415,
+   "name": "Tordrin Sternblade",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 251537,
+   "name": "Uualia Suncrest",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 254358,
+   "name": "Veena Vericloud",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 265944,
+   "name": "William Pickman",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 265574,
+   "name": "Winklespark",
+   "zone": null,
+   "level": null
+  },
+  {
+   "kind": "npc",
+   "id": 251905,
+   "name": "Zerril Softbreeze",
+   "zone": null,
+   "level": null
+  }
+ ]
+}

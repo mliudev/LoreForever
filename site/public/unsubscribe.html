@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unsubscribe - Lore Forever</title>
+<meta name="description" content="Take your email address off the Lore Forever release list.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+</header>
+
+<!-- Posts to functions/api/unsubscribe.js, which always answers "Done" so nobody can use it to see who's on the
+     list. With JavaScript the answer shows in place; without it, the function answers with a short page. -->
+<main class="wrap fb-page">
+  <h1>Unsubscribe</h1>
+  <p class="pitch">Type the address you signed up with and we'll take it off the list. You won't get any more emails
+    about new versions.</p>
+
+  <form class="fb-form" id="us-form" action="/api/unsubscribe" method="post">
+    <label class="fb-field">
+      <span>Email address</span>
+      <input type="email" name="email" id="us-email" required maxlength="254" autocomplete="email" placeholder="you@example.com">
+    </label>
+    <!-- Honeypot: hidden from people, filled in by bots. -->
+    <label class="fb-trap" aria-hidden="true">Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+    <div class="fb-actions">
+      <button type="submit" class="btn-small" id="us-send">Unsubscribe</button>
+      <p class="fb-status" id="us-status" role="status" hidden></p>
+    </div>
+  </form>
+  <p class="vp-note">Changed your mind? Sign up again at the bottom of the <a href="/">home page</a>. News goes to the
+    <a href="/discord?src=site">Discord</a> too.</p>
+</main>
+
+<footer class="wrap foot">
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<script>
+const form = document.getElementById("us-form");
+const status = document.getElementById("us-status");
+const send = document.getElementById("us-send");
+const say = text => { status.textContent = text; status.hidden = !text; };
+
+form.addEventListener("submit", async e => {
+  e.preventDefault();
+  say("");
+  send.disabled = true;
+  try {
+    const r = await fetch("/api/unsubscribe", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email: form.email.value, website: form.website.value }),
+    });
+    const res = await r.json().catch(() => ({}));
+    if (res.ok) { say(res.message); form.reset(); }
+    else say(res.error || "Something went wrong. Please try again in a minute.");
+  } catch (err) {
+    say("Couldn't reach the server. Check your connection and try again.");
+  }
+  send.disabled = false;
+});
+</script>
+</body>
+</html>

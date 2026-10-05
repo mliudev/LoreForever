@@ -418,7 +418,7 @@ class KitBox extends Box {
     }));
     const mine = {};
     for (const [id, e] of Object.entries(this.ctx.mine())) if (e.status === "new" || e.status === "accepted") mine[id] = e.text;
-    this.p = { ...planKit(kit.rows, { english, published, mine, entrySection: this.ctx.entrySection }),
+    this.p = { ...planKit(kit.rows, { english, published, mine, entrySection: this.ctx.entrySection, locale }),
                problems: kit.problems, other: kit.other + ignored.length, langtest: kit.langtest };
   }
 

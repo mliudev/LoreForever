@@ -23,10 +23,16 @@
 <body>
 
 <header class="top">
-  <div class="wrap top-row">
-    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/voices">Voices</a> &rsaquo; Narrator guide</span>
-    <div class="head-actions"><a class="btn-head" href="/feedback"><span class="hd-wide">Send feedback</span><span class="hd-narrow">Feedback</span></a></div>
-  </div>
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+  <div class="wrap subcrumb"><span class="crumb"><a href="/voices/studio">Record your voice</a> &rsaquo; Narrator guide</span></div>
 </header>
 
 <!-- Moved here from release/public/VOICE_PACKS.md, which now points to this page. -->
@@ -122,7 +128,8 @@
   <h2 id="rights">Rights and credit</h2>
   <ul>
     <li>When you send your recordings, you agree to the <a href="/voices/release">narrator release</a>: a short,
-      plain-language page that lets us ship your recordings in Lore Forever voice packs.</li>
+      plain-language page that lets us ship your recordings in Lore Forever voice packs. You must be 18 or older to
+      send them.</li>
     <li>The lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
       <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. A recording of it is an adaptation
       of that text, so voice packs are released under CC BY-SA 4.0 as well.</li>
@@ -165,12 +172,12 @@
     <li>Press <strong>Send for review</strong> with your credit line. The first time, you agree to the
       <a href="/voices/release">narrator release</a> there. You can come back, add lines and send again.</li>
     <li>We build the pack, listen to every file and get back to you if anything needs another take.</li>
-    <li>The finished pack is published on the <a href="/voices">Voices page</a> with your name on it.</li>
+    <li>The finished pack is published on the <a href="/downloads#voices">Downloads page</a> with your name on it.</li>
   </ol>
   <p class="vp-note">Can't upload here? Put the files, <a href="#naming">named as above</a>, in one Google Drive,
     Dropbox or OneDrive folder anyone with the link can view, and send the link with the
     <a href="/voices/submit">submission form</a> instead.</p>
-  <p class="vp-note">Players: installing a voice pack is covered on the <a href="/voices#install">Voices page</a>.</p>
+  <p class="vp-note">Players: installing a voice pack is covered on the <a href="/downloads#install">Downloads page</a>.</p>
 </main>
 
 <footer class="wrap foot">
@@ -178,6 +185,7 @@
   <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
   <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>

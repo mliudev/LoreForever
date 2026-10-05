@@ -129,7 +129,7 @@ async function save({ request, env, waitUntil }, json) {
 
   const ip = request.headers.get("CF-Connecting-IP") || "";
   const now = new Date().toISOString();
-  const sender = await senderHash(ip, now.slice(0, 10));
+  const sender = await senderHash(env, ip, now.slice(0, 10));
   await setupTable(env);
   const sent = await env.DB.prepare("SELECT COUNT(*) AS n FROM translation_submissions WHERE sender = ? AND created >= ?")
     .bind(sender, now.slice(0, 10)).first("n");

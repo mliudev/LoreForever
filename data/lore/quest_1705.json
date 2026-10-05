@@ -73,7 +73,7 @@
     "grimand and furen",
     "who is furen longbeard"
    ],
-   "answer": "Furen Longbeard and Grimand Elmore are rival dwarven master smiths. Grimand is usually skeptical of outside ideas, but Furen's latest innovations in armorcrafting proved compelling enough for Grimand to test them firsthand."
+   "answer": "Furen Longbeard is Grimand Elmore's former student. Grimand is usually skeptical of outside ideas, but Furen's latest innovations in armorcrafting proved compelling enough for Grimand to test them firsthand."
   },
   {
    "q": "What happens after returning the blood and rock?",
@@ -92,7 +92,7 @@
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Blacksmiths will appreciate the professional rivalry between Grimand and Furen, highlighting the lengths master smiths will go to test rare metallurgy and quenching agents."
+   "text": "Blacksmiths will appreciate the professional pride between Grimand and his former student Furen, highlighting the lengths master smiths will go to test rare metallurgy and quenching agents."
   },
   {
    "target": "faction:Alliance",

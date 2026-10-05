@@ -10,6 +10,9 @@
 // Pages setting (Settings > Variables and Secrets):
 //   GOOGLE_CLIENT_ID  the OAuth web client ID (public; GCP project under mike.liu.dev@gmail.com). Without it sign-in is off.
 
+import { forgetUser as forgetContributor } from "./contribute.js";
+import { RECORD_ONLY } from "./donate.js";
+
 const SETUP = [
   `CREATE TABLE IF NOT EXISTS users (
     id TEXT PRIMARY KEY, email TEXT UNIQUE, google_sub TEXT UNIQUE, display_name TEXT, links TEXT,
@@ -41,18 +44,61 @@ const SETUP = [
   `CREATE TABLE IF NOT EXISTS studio_release (
     user_id TEXT PRIMARY KEY, version TEXT NOT NULL, signature TEXT NOT NULL, adult_or_guardian INTEGER NOT NULL, created TEXT NOT NULL)`,
   `CREATE TABLE IF NOT EXISTS studio_uploads (owner TEXT NOT NULL, day TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (owner, day))`,
+  // "Claim a zone" (LOR-231, lib/claims.js): a narrator's claim on one zone, for one of their voices, in its language.
+  // status: active (one per narrator), done (every line of the zone recorded; kept, with its credit, for the zone
+  // list), expired (no upload for 14 days) or released (let go). One active or done claim per zone and language.
+  `CREATE TABLE IF NOT EXISTS studio_claims (
+    id INTEGER PRIMARY KEY AUTOINCREMENT, zone TEXT NOT NULL, locale TEXT NOT NULL, voice_id TEXT NOT NULL, owner TEXT NOT NULL,
+    credit TEXT, status TEXT NOT NULL DEFAULT 'active', created TEXT NOT NULL, updated TEXT NOT NULL, finished TEXT)`,
+  "CREATE UNIQUE INDEX IF NOT EXISTS studio_claims_zone ON studio_claims (zone, locale) WHERE status IN ('active', 'done')",
+  "CREATE UNIQUE INDEX IF NOT EXISTS studio_claims_owner ON studio_claims (owner) WHERE status = 'active'",
+  // "Lend your voice" (LOR-230, lib/donate.js): a donated sample (in R2 under studio/<user id>/_donation/<id>/) that we
+  // make a narrator voice from. status: donated, rendering, ready (a test pack is up), published or withdrawn (the
+  // sample, test pack and credit gone; the row stays as the record of the agreement and its withdrawal, and after
+  // "Delete my account" without the account: owner ""). One donation that isn't withdrawn per account.
+  // donation_release: the donation terms each donor agreed to, like studio_release; each donation copies it
+  // (consent_version, signature, adult, consented). consented and adult also come from lib/donate.js MIGRATE.
+  `CREATE TABLE IF NOT EXISTS voice_donations (
+    id TEXT PRIMARY KEY, owner TEXT NOT NULL, status TEXT NOT NULL, credit TEXT, r2_key TEXT, ext TEXT, bytes INTEGER,
+    duration_ms INTEGER, checks TEXT, crc32 TEXT, script TEXT, consent_version TEXT NOT NULL, signature TEXT NOT NULL,
+    pack_key TEXT, pack_bytes INTEGER, pack_lines INTEGER, pack_title TEXT, voice_id TEXT, created TEXT NOT NULL,
+    updated TEXT NOT NULL, withdrawn TEXT, consented TEXT, adult INTEGER)`,
+  "CREATE UNIQUE INDEX IF NOT EXISTS voice_donations_owner ON voice_donations (owner) WHERE status != 'withdrawn'",
+  `CREATE TABLE IF NOT EXISTS donation_release (
+    user_id TEXT PRIMARY KEY, version TEXT NOT NULL, signature TEXT NOT NULL, adult INTEGER NOT NULL, created TEXT NOT NULL)`,
   // Requests per account per minute for zip and kit uploads (lib/ratelimit.js); bucket is "<scope>:<minute>".
   `CREATE TABLE IF NOT EXISTS rate_limits (user_id TEXT NOT NULL, bucket TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (user_id, bucket))`,
   // A player's profile (lib/profiles.js): the page /u/<handle>, built from their pasted journey record (data: what
   // lib/journey.js read from it, never the text itself). public: 0 until they make it public. story_source: written
-  // or template; story_count: stories written for this account so far (today's tries are in rate_limits).
+  // or template; story_count: stories written for this account so far (today's tries are in rate_limits). story_at:
+  // when a story was last tried; story_basis: what the written one covered (lib/profiles.js storyBasis), so the
+  // companion's updates write a new one only now and then (storyDue). Both also come from lib/profiles.js MIGRATE.
   `CREATE TABLE IF NOT EXISTS profiles (
     user_id TEXT PRIMARY KEY, handle TEXT NOT NULL UNIQUE, public INTEGER NOT NULL DEFAULT 0, spec TEXT, data TEXT NOT NULL,
-    story TEXT, story_source TEXT, story_count INTEGER NOT NULL DEFAULT 0, created TEXT NOT NULL, updated TEXT NOT NULL)`,
+    story TEXT, story_source TEXT, story_count INTEGER NOT NULL DEFAULT 0, created TEXT NOT NULL, updated TEXT NOT NULL,
+    story_at TEXT, story_basis TEXT)`,
+  // Connected apps (lib/devices.js, LOR-148): the companion on a player's PC, which keeps their profile up to date.
+  // device_links: a link waiting for the player's Connect on /link (code_hash: SHA-256 of the companion's secret
+  // device code; user_code: what the player sees); devices: each connected app, with the SHA-256 of its token.
+  `CREATE TABLE IF NOT EXISTS device_links (
+    code_hash TEXT PRIMARY KEY, user_code TEXT NOT NULL UNIQUE, label TEXT, user_id TEXT, status TEXT NOT NULL DEFAULT 'pending',
+    created TEXT NOT NULL, expires TEXT NOT NULL)`,
+  `CREATE TABLE IF NOT EXISTS devices (
+    id TEXT PRIMARY KEY, token_hash TEXT NOT NULL UNIQUE, user_id TEXT NOT NULL, label TEXT, created TEXT NOT NULL,
+    last_used TEXT, last_sync TEXT)`,
+  "CREATE INDEX IF NOT EXISTS devices_user ON devices (user_id)",
   // What writing profile stories cost, per calendar month (UTC, "2026-10"): micro_usd in millionths of a dollar,
   // calls made and stories kept. Site-wide, not per account. lib/profiles.js stops writing at the monthly budget.
   `CREATE TABLE IF NOT EXISTS story_spend (
     month TEXT PRIMARY KEY, micro_usd INTEGER NOT NULL DEFAULT 0, calls INTEGER NOT NULL DEFAULT 0, stories INTEGER NOT NULL DEFAULT 0)`,
+  // Reports on recordings (lib/clipreports.js, LOR-232). Anyone can send one; user_id is set when signed in.
+  `CREATE TABLE IF NOT EXISTS clip_reports (
+    id INTEGER PRIMARY KEY AUTOINCREMENT, created TEXT NOT NULL, updated TEXT NOT NULL, clip TEXT NOT NULL, hash TEXT,
+    voice TEXT NOT NULL, reason TEXT NOT NULL, name TEXT, say_as TEXT, note TEXT, version TEXT, locale TEXT, source TEXT,
+    user_id TEXT, sender TEXT NOT NULL, uploader TEXT NOT NULL, country TEXT, status TEXT NOT NULL DEFAULT 'open',
+    resolved TEXT)`,
+  "CREATE INDEX IF NOT EXISTS clip_reports_clip ON clip_reports (clip, voice, status)",
+  "CREATE INDEX IF NOT EXISTS clip_reports_uploader ON clip_reports (uploader, status)",
 ];
 
 let ready = false;
@@ -139,9 +185,10 @@ export async function findOrCreateUser(env, { email, googleSub, name }) {
   return env.DB.prepare("SELECT * FROM users WHERE id = ?").bind(id).first();
 }
 
-// Everything we hold about a user, deleted in one batch by "Delete my account". A feature that stores per-user rows
-// adds its CREATE TABLE to SETUP above (so the table exists here) and a line here. `users` must stay last.
-// A published voice whose owner is gone drops off the site (lib/voices.js).
+// Everything we hold about a user, deleted (or, for a record we must keep, stripped of the account) in one batch by
+// "Delete my account". A feature that stores per-user rows adds its CREATE TABLE to SETUP above (so the table exists
+// here) and a line here. `users` must stay last. A published voice whose owner is gone drops off the site
+// (lib/voices.js). What stays is listed on public/privacy.html.
 const USER_DATA = [
   ["DELETE FROM sessions WHERE user_id = ?", u => u.id],
   ["DELETE FROM voices WHERE owner = ?", u => u.id],
@@ -151,8 +198,20 @@ const USER_DATA = [
   ["DELETE FROM studio_takes WHERE owner = ?", u => u.id],
   ["DELETE FROM studio_release WHERE user_id = ?", u => u.id],
   ["DELETE FROM studio_uploads WHERE owner = ?", u => u.id],
+  ["DELETE FROM studio_claims WHERE owner = ?", u => u.id],
+  // A lent voice (lib/donate.js): the sample and test pack are R2 files under studio/<user id>/, deleted below. The
+  // record of the terms the donor signed stays as proof of the license, like a sent voice's narrator release in
+  // voice_submissions: withdrawn, without the account (owner ""), the credit or the files' details (RECORD_ONLY). Each
+  // donation keeps its own copy of what was signed, so the per-account donation_release row goes.
+  [`UPDATE voice_donations SET owner = '', status = 'withdrawn', ${RECORD_ONLY}, ` +
+   "withdrawn = COALESCE(withdrawn, strftime('%Y-%m-%dT%H:%M:%fZ', 'now')), updated = strftime('%Y-%m-%dT%H:%M:%fZ', 'now') " +
+   "WHERE owner = ?", u => u.id],
+  ["DELETE FROM donation_release WHERE user_id = ?", u => u.id],
   ["DELETE FROM rate_limits WHERE user_id = ?", u => u.id],
   ["DELETE FROM profiles WHERE user_id = ?", u => u.id],
+  ["DELETE FROM devices WHERE user_id = ?", u => u.id],
+  ["DELETE FROM device_links WHERE user_id = ?", u => u.id],
+  ["DELETE FROM clip_reports WHERE user_id = ?", u => u.id],
   ["DELETE FROM users WHERE id = ?", u => u.id],
 ];
 
@@ -167,6 +226,9 @@ export async function deleteUser(env, user) {
       cursor = page.truncated ? page.cursor : null;
     } while (cursor);
   }
+  // Forever text they shared (lib/contribute.js) stays, without a link to the account. Its tables only exist after
+  // the first upload, so this may have nothing to do.
+  try { await forgetContributor(env, user.id); } catch (e) { /* no shared text yet */ }
   await env.DB.batch(USER_DATA.map(([sql, arg]) => env.DB.prepare(sql).bind(arg(user))));
 }
 
@@ -212,7 +274,7 @@ export async function verifyGoogle(env, credential) {
 // ---- Voices owned by contributors ----
 
 export const RESERVED = new Set(["guide", "submit", "release", "thanks", "contributors", "account", "voices", "clips",
-                                  "studio", "lines"]);
+                                  "studio", "lines", "lend", "lend-terms", "zones", "donation"]);
 
 export function slug(name) {
   return String(name || "").toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "")

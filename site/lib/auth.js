@@ -10,8 +10,20 @@ async function sameKey(a, b) {
   return diff === 0;
 }
 
-export async function authorized(request, env) {
-  const key = env.ADMIN_KEY || env.FEEDBACK_KEY;
+// True when the request carries "Authorization: Bearer <key>"; never for an empty key. For a check against one
+// particular key (GET /api/feedback takes FEEDBACK_KEY itself).
+export async function hasBearer(request, key) {
   const auth = request.headers.get("Authorization") || "";
   return Boolean(key) && auth.startsWith("Bearer ") && await sameKey(auth.slice(7), key);
+}
+
+// The key comes as "Authorization: Bearer <key>", or as "X-Admin-Key: <key>" (the pipeline's community text pull,
+// /api/contribute/export and /shipped, LOR-236).
+export async function authorized(request, env) {
+  const key = env.ADMIN_KEY || env.FEEDBACK_KEY;
+  if (!key) return false;
+  const auth = request.headers.get("Authorization") || "";
+  if (auth.startsWith("Bearer ")) return sameKey(auth.slice(7), key);
+  const header = request.headers.get("X-Admin-Key");
+  return Boolean(header) && sameKey(header, key);
 }

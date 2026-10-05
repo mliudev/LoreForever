@@ -1,3 +1,9 @@
+# Every page: never shown inside another site's frame (nothing frames ours), and links to other sites get only our
+# origin. These don't reach responses from Functions, so functions/_middleware.js sets the same two there.
+/*
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+
 /install.ps1
   Content-Type: text/plain; charset=utf-8
   Cache-Control: no-cache
@@ -15,13 +21,28 @@
   X-Robots-Tag: noindex, nofollow
   Cache-Control: no-store
 
+/link
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
+
+/clip-report
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-cache
+
 /translate/dashboard
   X-Robots-Tag: noindex, nofollow
   Cache-Control: no-store
+
+/translate/blocklist.js
+  X-Robots-Tag: noindex
 
 /voices/studio
   X-Robots-Tag: noindex, nofollow
   Cache-Control: no-cache
 
 /voices/lines.json
+  Cache-Control: no-cache
+
+/lore/data/*
+  X-Robots-Tag: noindex
   Cache-Control: no-cache

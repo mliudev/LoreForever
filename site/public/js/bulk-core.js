@@ -176,8 +176,9 @@ export function kitSections(rows, entrySection) {
 // What importing the kit would do, string by string, with kit.py apply_strings' rule: a string whose English changed
 // since the kit was made (or that the add-on no longer has) is skipped and stays English.
 //   english: {id: today's English}   published: {id: the language's current text}   mine: {id: your saved edit's text}
+//   locale: the kit's language, for the blocklist (check.js)
 // Returns lists of {id, en, text, file, why?}: new, replaced, unchanged, unknown, stale, failed; and empty (a count).
-export function planKit(rows, { english, published, mine, entrySection }) {
+export function planKit(rows, { english, published, mine, entrySection, locale }) {
   const out = { new: [], replaced: [], unchanged: [], unknown: [], stale: [], failed: [], empty: 0 };
   for (const [id, r] of rows) {
     const t = normalize(id, r.text);
@@ -186,7 +187,7 @@ export function planKit(rows, { english, published, mine, entrySection }) {
     if (!STRING_ID.test(id)) { out.unknown.push(row); continue; }
     const now = sectionOf(id, entrySection) ? english[id] : undefined;
     if (now === undefined || now !== r.en) { out.stale.push(row); continue; }
-    const why = problem(id, now, t);
+    const why = problem(id, now, t, locale);
     if (why) { out.failed.push({ ...row, why }); continue; }
     const pub = normalize(id, published[id]), saved = mine[id] != null ? normalize(id, mine[id]) : null;
     if (t === pub || t === saved) out.unchanged.push(row);

@@ -1,10 +1,14 @@
 """Journey record fixtures for the site's tests: the "Copy my journey record" text of one made-up character, made by
 the add-on's own code (JourneyRecord.lua, JR.Text) under the Lua 5.1 WoW mock (pipeline/tests/wow_sim.py, lang_sim.py).
 
-  en.txt           Aelric - Forever, a level 24 Night Elf Druid recorded from level 1 (his whole life)
+  en.txt           Aelric - Forever, a level 24 Night Elf Druid recorded from level 1 (his whole life), with his journey
+                   in numbers (LOR-246)
   en-tricky.txt    the same, plus an NPC and an item whose names have ', ", <, > and &
   en-cut.txt       the same, cut to 3,000 bytes: the oldest entries go and a note says so
-  en-midlife.txt   a record that began at level 12 ("from level 12", "Places recorded, in order")
+  en-midlife.txt   a record that began at level 12 ("from level 12", "Places recorded, in order"), kept before the
+                   add-on had a tally: its numbers are only its kills and deaths
+  en-0.8.txt       en.txt as the add-on made it before the journey in numbers (not made here: kept, so older add-ons'
+                   records are still tested)
   de, fr, es, pt   en.txt read in German, French, Spanish and Brazilian Portuguese: an English client with Options ›
                    Language set to the bundled pack. The add-on's words are translated; the game's own (names of places,
                    quests and items, item quality, standing, month names) stay as the English client gives them.
@@ -171,10 +175,22 @@ KILLS = [
 # en-midlife: the add-on was installed at level 12, logged in at Auberdine.
 MIDLIFE = ev(2, "21:00", 12, "zone", **AUBERDINE, new=True)
 
+# The journey in numbers (Journey.lua's tally, LOR-246): yards walked per land, kills by creature type and rank,
+# deaths, time online with the journey on, and a /played he typed (90,000 seconds, at 81,000 of online). en-midlife
+# has none: a record from before the tally, whose numbers come from its kills and deaths.
+TALLY = {
+    "walk": {"Teldrassil": 21400, "Darkshore": 18250, "Ashenvale": 9100, "Westfall": 6420, "Darnassus": 2210,
+             "Wetlands": 1300, "Moonglade": 640},
+    "kinds": {"Beast": 98, "Humanoid": 61, "Elemental": 21, "Undead": 4},
+    "ranks": {"elite": 6, "rare": 2, "rareelite": 1},
+    "deaths": 3, "online": 84600, "played": 90000, "playedAt": 81000,
+}
 
-def record(events, kills, start=1):
+
+def record(events, kills, start=1, tally=None):
     """His record as Journey.lua keeps it (LoreForeverDB.journey.chars["Aelric-Forever"]), from these events on.
-    start: his level when it began; from level 1 with no quest done before, it's his whole life (Journey.Whole)."""
+    start: his level when it began; from level 1 with no quest done before, it's his whole life (Journey.Whole).
+    tally: the journey in numbers, if it has them."""
     first = events[0]["t"]
     quests = [e["id"] for e in EVENTS if e["k"] == "qt"]   # the server's list has every quest he ever did
     seen = {"place": {}, "npc": {}, "book": {}, "boss": {}, "mob": {name: first for name, _, _ in kills}}
@@ -183,10 +199,13 @@ def record(events, kills, start=1):
             seen["place"][e["z"] + "|" + e.get("s", "")] = e["t"]
         elif e["k"] in ("npc", "book", "boss"):
             seen[e["k"]][e["n"]] = e["t"]
-    return {"name": "Aelric", "realm": "Forever", "race": "NightElf", "raceName": "Night Elf", "class": "Druid",
-            "className": "Druid", "faction": "Alliance", "sex": 2, "level": 24, "first": first, "startLevel": start,
-            "startCompleted": sum(1 for e in EVENTS if e["k"] == "qt" and e["t"] < first),
-            "completed": sorted(quests), "events": events, "seen": seen, "kills": {name: n for name, n, _ in kills}}
+    out = {"name": "Aelric", "realm": "Forever", "race": "NightElf", "raceName": "Night Elf", "class": "Druid",
+           "className": "Druid", "faction": "Alliance", "sex": 2, "level": 24, "first": first, "startLevel": start,
+           "startCompleted": sum(1 for e in EVENTS if e["k"] == "qt" and e["t"] < first),
+           "completed": sorted(quests), "events": events, "seen": seen, "kills": {name: n for name, n, _ in kills}}
+    if tally:
+        out["tally"] = {k: dict(v) if isinstance(v, dict) else v for k, v in tally.items()}   # its own tables
+    return out
 
 
 def texts(locale, records):
@@ -204,10 +223,10 @@ def texts(locale, records):
 
 
 def main():
-    whole = record(EVENTS, KILLS)
+    whole = record(EVENTS, KILLS, tally=TALLY)
     files = texts(None, {
         "en": (whole, None),
-        "en-tricky": (record(sorted(EVENTS + TRICKY, key=lambda e: e["t"]), KILLS), None),
+        "en-tricky": (record(sorted(EVENTS + TRICKY, key=lambda e: e["t"]), KILLS, tally=TALLY), None),
         "en-cut": (whole, 3000),
         "en-midlife": (record([MIDLIFE] + [e for e in EVENTS if e["t"] > MIDLIFE["t"]],
                               [k for k in KILLS if k[2] >= 12], start=12), None),

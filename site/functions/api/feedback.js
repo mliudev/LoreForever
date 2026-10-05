@@ -16,6 +16,7 @@
 // optional (it defaults to the reason).
 
 import { clean, ticked, senderHash, postWebhook } from "../../lib/form.js";
+import { hasBearer } from "../../lib/auth.js";
 import { currentUser, sameOrigin, setup as setupAccounts } from "../../lib/accounts.js";
 import { decodeReport, describeReport, REASONS } from "../../public/report-code.js";
 
@@ -131,7 +132,7 @@ async function save({ request, env, waitUntil }, json) {
   }
 
   const now = new Date().toISOString();
-  const sender = await senderHash(ip, now.slice(0, 10));
+  const sender = await senderHash(env, ip, now.slice(0, 10));
   await setupTable(env);
   const sent = await env.DB.prepare("SELECT COUNT(*) AS n FROM feedback WHERE user_id = ? AND created >= ?")
     .bind(user.id, now.slice(0, 10)).first("n");
@@ -148,8 +149,7 @@ async function save({ request, env, waitUntil }, json) {
 }
 
 export async function onRequestGet({ request, env }) {
-  const auth = request.headers.get("Authorization") || "";
-  if (!env.FEEDBACK_KEY || auth !== "Bearer " + env.FEEDBACK_KEY) return fail(401, "Needs the feedback key.");
+  if (!(await hasBearer(request, env.FEEDBACK_KEY))) return fail(401, "Needs the feedback key.");   // constant time
   if (!env.DB) return Response.json({ reports: [] });
   await setupTable(env);
   await setupAccounts(env);

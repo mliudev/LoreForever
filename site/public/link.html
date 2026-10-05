@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Connect the companion - Lore Forever</title>
+<meta name="description" content="Connect the Lore Forever companion app to your account, so it keeps your profile up to date by itself.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+</header>
+
+<!-- Connecting the companion app (LOR-148, lib/devices.js): the companion opens /link?code=XXXX-XXXX; the player signs
+     in (Google, as on /account) and clicks Connect; the companion, which keeps asking the site, then gets its own
+     token and keeps the profile up to date by itself. Talks to functions/api/device/[action].js. -->
+<main class="wrap fb-page">
+  <h1>Connect the companion</h1>
+  <p class="pitch">The Lore Forever companion on your PC can keep your profile up to date by itself, after every
+    <code>/reload</code> or logout. No more copying and pasting your journey record.</p>
+  <noscript><p class="fb-status">This page needs JavaScript.</p></noscript>
+  <p class="fb-status" id="lk-status" role="status" hidden></p>
+
+  <section class="fb-done" id="lk-out" hidden>
+    <h2>Sign in first</h2>
+    <p>Sign in to the account your profile is on. The first time makes your account.</p>
+    <div id="lk-google" class="ac-google"></div>
+    <p class="vp-note" id="lk-none" hidden>Sign-in isn't switched on yet. Please check back soon, or
+      <a href="/discord">ask on Discord</a>.</p>
+  </section>
+
+  <form class="fb-form lk-enter" id="lk-enter" hidden>
+    <h2>Type the code</h2>
+    <label class="pf-addr-label" for="lk-code-input">The code the companion shows</label>
+    <div class="pf-addr-row"><input id="lk-code-input" name="code" maxlength="9" autocomplete="off" spellcheck="false"
+      placeholder="XXXX-XXXX" required> <button class="btn-small" type="submit">Next</button></div>
+    <p class="vp-note">In the companion: Settings, then <strong>Connect to my profile</strong>.</p>
+  </form>
+
+  <section class="fb-done" id="lk-ask" hidden>
+    <h2>Connect it to your account?</h2>
+    <p>Signed in as <strong id="lk-who"></strong>. The companion shows this code:</p>
+    <p class="lk-code" id="lk-code"></p>
+    <p>Check it matches. Connect only if you just clicked <strong>Connect to my profile</strong> in the companion on
+      your own PC.</p>
+    <p class="vp-note">Once connected, the companion sends your character's journey record (the same text
+      <em>Copy my journey record</em> gives you) after each <code>/reload</code> or logout, and your profile follows.
+      It can't see or change anything else on your account. Disconnect it any time on
+      <a href="/account#apps">your account page</a> or in the companion.</p>
+    <p class="vp-actions">
+      <button class="btn-small" type="button" id="lk-yes">Connect</button>
+      <button class="btn-small btn-small-alt" type="button" id="lk-no">Not now</button>
+    </p>
+  </section>
+
+  <section class="fb-done" id="lk-done" hidden>
+    <h2 id="lk-done-title">Connected</h2>
+    <p id="lk-done-text">Go back to the companion: it finishes by itself in a few seconds, and your profile follows
+      your journey from now on. You can close this tab.</p>
+    <p class="vp-actions"><a class="btn-small" href="/u/me">See your profile</a>
+      <a class="btn-small btn-small-alt" href="/account#apps">Your account</a></p>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const CODE = /^[BCDFGHJKMNPQRSTVWXZ2-9]{8}$/;
+  const tidy = s => { const c = String(s || "").toUpperCase().replace(/[\s-]+/g, ""); return CODE.test(c) ? c.slice(0, 4) + "-" + c.slice(4) : null; };
+  let code = tidy(new URLSearchParams(location.search).get("code"));
+  let me = null;
+
+  const status = (msg, good) => {
+    $("lk-status").hidden = !msg;
+    $("lk-status").textContent = msg || "";
+    $("lk-status").classList.toggle("fb-good", Boolean(good));
+  };
+  const show = id => { for (const s of ["lk-out", "lk-enter", "lk-ask", "lk-done"]) $(s).hidden = s !== id; };
+  const call = async (url, body) => {
+    try {
+      const r = await fetch(url, body ? { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }
+                                      : { cache: "no-store" });
+      return await r.json().catch(() => ({ ok: false, error: "Something went wrong. Please try again." }));
+    } catch (e) {
+      return { ok: false, error: "Couldn't reach the server. Check your connection and try again." };
+    }
+  };
+
+  function googleButton(clientId) {
+    const s = document.createElement("script");
+    s.src = "https://accounts.google.com/gsi/client";
+    s.async = true;
+    s.onload = () => {
+      google.accounts.id.initialize({
+        client_id: clientId,
+        ux_mode: "popup",
+        callback: async ({ credential }) => {
+          const res = await call("/api/auth/google", { credential });
+          if (res.ok) { status(""); load(); } else status(res.error);
+        },
+      });
+      google.accounts.id.renderButton($("lk-google"), { theme: "filled_black", size: "large", text: "continue_with", shape: "pill" });
+    };
+    document.head.appendChild(s);
+  }
+
+  async function ask() {
+    if (!code) { show("lk-enter"); return; }
+    const res = await call("/api/device/link?code=" + encodeURIComponent(code));
+    if (!res.ok) { status(res.error); show("lk-enter"); return; }
+    status("");
+    $("lk-code").textContent = res.link.code;
+    $("lk-who").textContent = me.user.email || "your account";
+    show("lk-ask");
+  }
+
+  async function load() {
+    me = await call("/api/auth/me");
+    if (!me.ok) { status(me.error || "Couldn't reach the server. Please reload."); return; }
+    if (!me.user) {
+      show("lk-out");
+      const clientId = me.signIn && me.signIn.google;
+      $("lk-google").hidden = !clientId;
+      $("lk-none").hidden = Boolean(clientId);
+      if (clientId) googleButton(clientId);
+      return;
+    }
+    ask();
+  }
+
+  $("lk-enter").addEventListener("submit", e => {
+    e.preventDefault();
+    code = tidy($("lk-code-input").value);
+    if (!code) { status("Type the 8-letter code the companion shows, like BCDF-GHJK."); return; }
+    history.replaceState(null, "", "/link?code=" + code);
+    ask();
+  });
+  $("lk-yes").addEventListener("click", async () => {
+    $("lk-yes").disabled = true;
+    const res = await call("/api/device/approve", { code });
+    $("lk-yes").disabled = false;
+    if (!res.ok) { status(res.error); return; }
+    status("");
+    show("lk-done");
+  });
+  $("lk-no").addEventListener("click", async () => {
+    await call("/api/device/deny", { code });
+    $("lk-done-title").textContent = "Not connected";
+    $("lk-done-text").textContent = "The companion won't be connected. You can close this tab, or connect it later from the companion's Settings.";
+    status("");
+    show("lk-done");
+  });
+
+  load();
+})();
+</script>
+</body>
+</html>

@@ -12,12 +12,15 @@ Options.DEFAULTS = {
   storylines = true,       -- say a quest is part of a storyline, under its Lore button and on its entry (Storyline.lua)
   storylineChat = true,    -- turning in a storyline quest names who gives the next one (Storyline.OnTurnIn)
   floatPlayer = true,      -- the narration player floats on screen while the panel is closed (UI.UpdateNowPlaying)
+  reportCross = false,     -- a cross on the narration player that reports the recording (ClipReport.lua, LOR-232);
+                           -- the player's right-click menu offers it either way. Off until Mike has seen it in game.
   minimap = true,          -- minimap button (turned on once for installs from before it was the default: Log.Init)
   typing = true,           -- answers type in quickly instead of appearing at once
   chatLinks = true,        -- names of other entries in answers are links (UI.Linker), Back / Forward above the chat
   showSpoilers = false,    -- show answers marked as spoilers without asking first
   readAloud = true,        -- "Read aloud" (the game's text-to-speech) for answers without a recorded narration
   narrateFlights = false,  -- read zone lore aloud on taxi flights
+  onDemand = false,        -- "Narration: only when I press Play" (LOR-138): nothing plays by itself (Voice.OnDemand)
   autoZone = true,         -- play a zone's or place's recorded narration on arriving there (Voice.OnArrive)
   autoQuest = true,        -- narrate the quest giver's window: its recording, else Read aloud (Voice.OnQuestFrame)
   readBooks = true,        -- read book, letter and plaque pages aloud as they open (Voice.ReadBookPage)
@@ -25,6 +28,11 @@ Options.DEFAULTS = {
   packHints = true,        -- say (once a session per zone) when its places and people are in a lands pack you lack
   tips = true,             -- one tip at login about a feature (Core.lua loginTip), until they run out
   journey = true,          -- "Remember my journey": record places, people, quests and foes for Journey
+  capture = true,          -- keep the quest, gossip and book text Forever shows, to share at /contribute (Capture.lua)
+  -- The small Contribute button on quest, gossip and book windows (Capture.lua). Off until Mike has seen it in game
+  -- (0.8.0). Defaults are written into SavedVariables, so turning it on for everyone later takes a one-time switch in
+  -- Log.Init (like minimapOn), not just changing this.
+  contributeButtons = false,
   language = "auto",       -- "auto" (the game client's language), "enUS" or a language pack's locale
   -- Narration voices: voiceOrder (pack add-on names, "auto" = the default pack) and voiceOff (unticked ones) are
   -- set up by Voice.lua, which also moves the old one-voice setting (voicePack) into them.
@@ -206,6 +214,9 @@ function Options.VoiceSection(c, anchor)
   gender:SetScript("OnClick", function(self)
     LoreForeverDB.settings.voiceMatchGender = self:GetChecked() and true or false
   end)
+  -- "New" after an update, when this version's notes name one of the two (WhatsNew.lua; section.ShowNew).
+  local raceNew = ns.WhatsNew.Tag(c, raceText, "LEFT", "RIGHT", 8, 0)
+  local genderNew = ns.WhatsNew.Tag(c, genderText, "LEFT", "RIGHT", 8, 0)
   local status = note(c, "", genderNote, 8, "GameFontHighlightSmall")
   status:SetPoint("TOPLEFT", genderNote, "BOTTOMLEFT", -26, -8)   -- back under the tick box, not its indented note
   local moreLabel, url, fillUrl = urlRow(c, L["Get more voices:"], VOICES_URL, status, 14)
@@ -213,6 +224,10 @@ function Options.VoiceSection(c, anchor)
     moreLabel, 10)
 
   local section, rows = {}, {}
+  function section.ShowNew()
+    raceNew:SetShown(ns.WhatsNew.OptionIsNew("Prefer voices that suit the race"))
+    genderNew:SetShown(ns.WhatsNew.OptionIsNew("Match the quest giver's voice"))
+  end
   local modeNames = { story = L["Keep one voice per story"], line = L["Use the first voice for each narration"],
     zone = L["Keep one voice per zone"] }
 
@@ -273,8 +288,14 @@ function Options.VoiceSection(c, anchor)
     -- button reads Stop and stops it (Voice.previewing, kept up to date through Options.OnPreviewChanged).
     r.sample:SetScript("OnClick", function()
       if ns.Voice.previewing == r.item.key then return ns.Voice.StopPreview() end
-      if not ns.Voice.Preview(r.item.key) then
-        status:SetText(ns.Voice.Status() .. " " .. T.code.warn .. L["(Nothing to preview.)"] .. "|r")
+      local ok, why = ns.Voice.Preview(r.item.key)
+      if not ok then   -- say why (LOR-136), unless the status line already does
+        local st = ns.Voice.Status()
+        if why and st:find(why, 1, true) then
+          status:SetText(st)
+        else
+          status:SetText(st .. " " .. T.code.warn .. (why or L["(Nothing to preview.)"]) .. "|r")
+        end
       end
     end)
     r.forget = button(r, L["Forget"])
@@ -375,17 +396,21 @@ local function rows()
     { "storylineChat", L["Storyline hints in chat"], L["When you turn in a quest that's part of a storyline, say in chat who to see next."] },
     { "minimap", L["Minimap button"], L["Also show a book button on the minimap."] },
     { "floatPlayer", L["Floating player"], L["While the panel is closed, show the narration player on screen when something plays or is queued. Drag it to move it."] },
+    { "reportCross", L["Show the report button on the narration player"], L["A small cross on the player to tell us a narration sounds wrong: a name said wrong, the wrong voice, cut off. Right-clicking the player offers it too."] },
     { "typing", L["Typing animation"], L["Answers type in quickly. Click an answer to show it all at once."] },
     { "chatLinks", L["Clickable names in answers"], L["Names of places, people and events in an answer open their own story. Shift-click one to add it to your playlist."] },
     { "showSpoilers", L["Show spoilers without asking"], L["Answers that give away a quest's twist or ending normally ask before revealing. Tick this to always show them."] },
     { "readAloud", L["Read aloud"], L["Offer \"Read aloud\" with the game's own voice for answers without a recorded narration. Pick its voice and speed in Options > Accessibility > Text to Speech."] },
+    { "onDemand", L["Narration: only when I press Play"], L["Nothing plays by itself: not as you arrive, on flights, at quest givers or in books. Play buttons, the Narrate key and your playlist still work. Also in the minimap button's right-click menu."] },
     { "narrateFlights", L["Narrate flights"], L["Read the story of each zone aloud while on a flight path."] },
     { "autoZone", L["Play narrations as you arrive"], L["When you reach a zone or place with a recorded narration, play it. Never during combat or a flight, and never over something already playing."] },
     { "autoQuest", L["Narrate quest dialogue"], L["When a quest giver's window opens, play the quest's narration, or read the quest text aloud if Read aloud is on. It stops when the window closes."] },
     { "readBooks", L["Read books aloud"], L["When you open a book, letter or plaque, read the page aloud with the game's voice if Read aloud is on. Turning the page reads the next one; closing it stops."] },
-    { "skipHeard", L["Skip what you've heard"], L["Don't play a narration or quest text by itself again once this character has heard it. You can still play it any time; the Library ticks the ones you've heard."] },
+    { "skipHeard", L["Skip what you've heard"], L["Don't play a narration by itself again once this character has heard it. You can still play it any time; the Library ticks the ones you've heard."] },
     { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
     { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC."] },
+    { "capture", L["Keep the quest text you see"], L["Keep the quest, gossip and book text Forever shows you, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it."] },
+    { "contributeButtons", L["Contribute buttons"], L["A small button on quest, gossip and book windows whose text Lore Forever doesn't have yet. Click it for a link to share that text."] },
     { "tips", L["Tips at login"], L["Now and then at login, a tip in chat about something Lore Forever can do."] },
   }
 end
@@ -410,7 +435,7 @@ local function languageSection(c, p, anchor)
   end
   reload:RegisterForClicks("AnyUp", "AnyDown")   -- secure buttons act on key-down or key-up depending on a CVar
   reload:Hide()
-  local hint = note(c, L["Language packs are separate add-ons. After choosing a language, reload to switch."], btn, 6)
+  local hint = note(c, L["Automatic follows your WoW client's language. After choosing a language, reload to switch."], btn, 6)
   local moreLabel, _, fillUrl = urlRow(c, L["Get more languages:"], LANGUAGES_URL, hint, 10)
   local function items()
     local out, id = {}, LoreForeverDB.settings.language or "auto"
@@ -497,6 +522,14 @@ function Options.Create()
   local sub = note(c, L["Offline lore for the zones, quests and people around you. Lore adapted from warcraft.wiki.gg (CC BY-SA 4.0)."], title, 6, "GameFontHighlightSmall")
   local last = heading(c, L["General"], languageSection(c, p, sub), 22)
   p.checks = {}
+  -- The English label of a translated one, to look for in the notes (WhatsNew.OptionIsNew): ns.L maps English to
+  -- the language in use.
+  local function english(label)
+    for en, tr in pairs(L) do
+      if tr == label then return en end
+    end
+    return label
+  end
   for i, row in ipairs(rows()) do
     local key, label, tip = row[1], row[2], row[3]
     local cb = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
@@ -507,6 +540,9 @@ function Options.Create()
       text:SetPoint("LEFT", cb, "RIGHT", 4, 0)
     end
     text:SetText(label)
+    -- "New" after an update, for an option this version's notes mention (WhatsNew.lua), until Options is next opened.
+    cb.newTag = ns.WhatsNew.Tag(c, text, "LEFT", "RIGHT", 8, 0)
+    cb.english = english(label)
     local desc = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
     desc:SetTextColor(T.rgba(T.color.muted))
     desc:SetPoint("TOPLEFT", cb, "BOTTOMLEFT", 30, 4)
@@ -516,10 +552,12 @@ function Options.Create()
     cb:SetScript("OnClick", function(self)
       LoreForeverDB.settings[key] = self:GetChecked() and true or false
       if key == "minimap" and ns.MinimapButton then ns.MinimapButton() end
-      if key == "floatPlayer" and ns.UI.UpdateNowPlaying then ns.UI.UpdateNowPlaying() end
+      if (key == "floatPlayer" or key == "reportCross") and ns.UI.UpdateNowPlaying then ns.UI.UpdateNowPlaying() end
       if key == "readAloud" and p.voice then p.voice.Update() end
+      if key == "onDemand" then ns.Voice.SetOnDemand(self:GetChecked()) end
       if key == "journey" and ns.Journey then ns.Journey.OnToggle() end
       if key == "storylines" and ns.UI and ns.UI.Refresh then ns.UI.Refresh() end
+      if key == "contributeButtons" and ns.Capture then ns.Capture.UpdateAll() end
     end)
     cb.key = key
     p.checks[#p.checks + 1] = cb
@@ -551,12 +589,54 @@ function Options.Create()
     if ns.UI and ns.UI.UpdateListen and ns.UI.frame then ns.UI.UpdateListen() end
   end)
   p.resetHeard = resetBtn
-  local sizeBtn = sizeSection(c, resetBtn)
+  -- After sharing your LoreForever.lua at loreforeverwow.com/contribute: what's kept so far counts as shared, so the
+  -- next upload only carries new lines (Capture.MarkAllSent). The text itself stays.
+  local sentBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
+  sentBtn:SetSize(160, 24)
+  sentBtn:SetPoint("LEFT", resetBtn, "RIGHT", 10, 0)
+  sentBtn:SetText(L["Mark all as sent"])
+  fit(sentBtn, 160)
+  sentBtn:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(L["Mark all as sent"])
+    T.Tip(L["After you share your LoreForever.lua at loreforeverwow.com/contribute, click this so your next upload only carries new lines. The text stays for Lore Forever."], "tipText", true)
+    GameTooltip:Show()
+  end)
+  sentBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  sentBtn:SetScript("OnClick", function()
+    local n = ns.Capture and ns.Capture.MarkAllSent() or 0
+    DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. string.format(n == 1
+      and L["%d line marked as sent; your next upload only carries what's new."]
+      or L["%d lines marked as sent; your next upload only carries what's new."], n))
+  end)
+  p.markSent = sentBtn
+  -- Every window back where it starts, the floating player and the minimap button shown again (UI.ResetWindows,
+  -- LOR-241). Same as /lore reset.
+  local windowsBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
+  windowsBtn:SetSize(160, 24)
+  windowsBtn:SetPoint("TOPLEFT", resetBtn, "BOTTOMLEFT", 0, -8)
+  windowsBtn:SetText(L["Reset windows"])
+  fit(windowsBtn, 160)
+  windowsBtn:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(L["Reset windows"])
+    T.Tip(L["Put the panel, the floating player and the minimap button back where they started, and show them again. Your journey and settings stay. Same as /lore reset."], "tipText", true)
+    GameTooltip:Show()
+  end)
+  windowsBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  windowsBtn:SetScript("OnClick", function() ns.UI.ResetWindows() end)
+  p.resetWindows = windowsBtn
+  local sizeBtn = sizeSection(c, windowsBtn)
   p.updateSize = sizeBtn.Update
   local bottom
   p.voice, bottom = Options.VoiceSection(c, sizeBtn)
   p:SetScript("OnShow", function(self)
-    for _, cb in ipairs(self.checks) do cb:SetChecked(LoreForeverDB.settings[cb.key] and true or false) end
+    for _, cb in ipairs(self.checks) do
+      cb:SetChecked(LoreForeverDB.settings[cb.key] and true or false)
+      cb.newTag:SetShown(ns.WhatsNew.OptionIsNew(cb.english))
+    end
+    self.voice.ShowNew()
+    ns.WhatsNew.Seen("options")   -- shown this once; gone the next time Options opens
     self.updateLanguage()
     self.updateSize()
     self.voice.Update()
