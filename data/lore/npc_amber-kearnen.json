@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "Eyes on the Tower",
-   "body": "Ranked as a Ground Level Operative within SI:7, Amber Kearnen serves as one of Stormwind's most trusted field scouts. Rather than walking the halls of Stormwind Keep, she operates under the open skies of Westfall, watching over an abandoned watchtower commandeered by the Defias Brotherhood. Under the direct leadership of Master Mathias Shaw, Kearnen provides critical oversight and briefing for covert operatives sent to neutralize Defias threats and gather intelligence across the contested countryside.",
+   "body": "An agent of SI:7, Amber Kearnen serves as one of Stormwind's field scouts. Rather than walking the halls of Stormwind Keep, she operates under the open skies of Westfall, watching over an abandoned watchtower commandeered by the Defias Brotherhood. Under the direct leadership of Master Mathias Shaw, Kearnen provides critical oversight and briefing for covert operatives sent to neutralize Defias threats and gather intelligence across the contested countryside.",
    "spoiler": 0
   },
   {
    "title": "A Deadly Assignment",
-   "body": "Her vigilance is concentrated on Klaven Mortwake, an operative of the Defias Brotherhood who has fortified himself in the coastal watchtower. Kearnen aids infiltrating rogues with reconnaissance and sniper support, guiding them past patrolling sentries to reach Klaven's sanctum and secure his clandestine journal. Her sharp marksmanship and steady hand make her indispensable to the Crown's shadow operations against the rebellion.",
+   "body": "Her vigilance is concentrated on Klaven Mortwake, a Defias who has holed up in the watchtower southeast of Sentinel Hill. After weeks of staking out the tower, Kearnen briefs infiltrating rogues on the strange, inhuman guards that arrived with a shipment from Duskwood, sending them to steal the tower key, break inside and uncover the contents of the Duskwood chest, including Klaven's journal. Her patience and careful notes make her indispensable to the Crown's shadow operations against the Defias.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is kearnen",
     "agent kearnen"
    ],
-   "answer": "Amber Kearnen is an operative of SI:7, Stormwind's elite intelligence division. She serves as a ground-level scout and sniper, currently tasked with tracking Defias operations in Westfall."
+   "answer": "Amber Kearnen is an operative of SI:7, Stormwind's elite intelligence division. She serves as a field agent and scout, currently tasked with tracking Defias operations in Westfall."
   },
   {
    "q": "Where can Amber Kearnen be found?",
@@ -46,7 +46,7 @@
     "kearnen mathias shaw",
     "who does kearnen work for"
    ],
-   "answer": "She answers directly to Master Mathias Shaw, the leader of SI:7. Shaw holds her abilities in the highest regard, trusting her to guide high-priority covert missions in the field."
+   "answer": "She answers directly to Master Mathias Shaw, the leader of SI:7. Shaw sends fellow agents to her in Westfall for debriefing on Defias activity there."
   },
   {
    "q": "What role does she play in Klaven's Tower?",
@@ -77,7 +77,6 @@
   "mathias shaw",
   "rogue",
   "si:7",
-  "sniper",
   "westfall"
  ],
  "related": [

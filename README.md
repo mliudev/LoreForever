@@ -6,6 +6,13 @@ Narrated intros for every starting zone, capital and early dungeon, and answers 
 **[Download the installer (Windows)](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever-Setup.exe)**
 · [Zip](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip) · [Website](https://loreforeverwow.com) · [CurseForge](https://www.curseforge.com/wow/addons/lore-forever)
 
+Lore Forever comes with the male narrator. On CurseForge you can also add the
+[female narrator](https://www.curseforge.com/wow/addons/lore-forever-female-narrator), quest dialogue in the
+[male](https://www.curseforge.com/wow/addons/lore-forever-quest-dialogue-male-narrator) or
+[female](https://www.curseforge.com/wow/addons/lore-forever-quest-dialogue-female-narrator) narrator's voice, and
+male and female narration in German and Portuguese (Brasil). See all the packs on the
+[Downloads page](https://loreforeverwow.com/downloads#voices).
+
 ![Lore Forever in Stormwind](site/public/screenshots/01-stormwind-panel.jpg)
 
 ## Install
@@ -46,19 +53,20 @@ which also explains how to record one.
 
 ## What it does
 
-- **Narrated stories.** Every starting zone, capital and early dungeon has a narrated intro, and the questions new
-  players ask most have narrated answers. Anything else can be read aloud in the game voice.
+- **Narrated stories.** Hear zone, capital and dungeon stories and answers in Lore Forever's recorded voices.
 - **Ask in plain English.** "Who is Edwin VanCleef?", "Why is Westfall so poor?" Suggestions appear as you type,
   and every answer offers follow-up questions.
 - **Knows where you are.** The panel follows your zone, subzone, target and quest log.
 - **Lore on tooltips.** NPCs and mobs get a one-line story; items tell you when one of your quests needs them.
+- **Quest givers speak.** With a Quest Dialogue pack installed, hear recorded quest text, progress and thanks in
+  the male or female narrator's voice. Recording coverage varies; more recordings arrive with updates.
 - **Quest backstory.** A Lore button on the quest dialog and quest log.
 - **Dungeon primers.** Walk into a dungeon and get a short briefing: why you're there and who you'll face.
 - **Spoiler-safe.** Answers that give away a twist ask first, and tooltips never mention quests you don't have yet.
 - **Offline.** Everything is inside the add-on. Nothing to sign up for.
 
 Covers every zone, city and dungeon up to level 30, Zephras Isle, the Hall of Thanes and the Ruins of Lordaeron,
-plus place lore for the rest of the world: about 3,460 entries, 43 narrated intros and 109 narrated answers.
+plus place lore for the rest of the world, with recorded zone stories and answers.
 
 | Command | What it does |
 | --- | --- |

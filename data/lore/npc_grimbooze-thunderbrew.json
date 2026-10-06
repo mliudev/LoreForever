@@ -8,16 +8,11 @@
   "wiki": "Grimbooze Thunderbrew",
   "refs": 1
  },
- "summary": "Grimbooze Thunderbrew is an eccentric dwarven brewmaster camped out in the Dagger Hills of Westfall. Renowned across Dun Morogh as one of the founders of the great dwarven brewing traditions, he currently spends his days concocting potent spirits and speaking almost entirely in verse.",
+ "summary": "Grimbooze Thunderbrew is an eccentric dwarven brewer of the Thunderbrew clan, camped out in the Dagger Hills of Westfall. He spends his days concocting potent spirits and speaking almost entirely in verse.",
  "sections": [
   {
    "title": "A Brewer in Exile",
-   "body": "Hailing from the renowned Thunderbrew brewing dynasty of Kharanos, Grimbooze once oversaw the Thunderbrew Distillery in Dun Morogh. Known for his jovial disposition and an unyielding passion for potent spirits, Grimbooze left the snowy mountain peaks for the windswept hills of Westfall. His relatives quietly attribute his wanderlust\u2014and his bizarre habit of speaking strictly in rhymes\u2014to consuming far too much legendary drink over the years. Travelers passing through the dangerous Dagger Hills can find him tending to his private casks, always eager to test a thirsty traveler's palate.",
-   "spoiler": 0
-  },
-  {
-   "title": "The Contest of Brews",
-   "body": "Before settling in Westfall, Grimbooze played a pivotal role in brewing history. Years ago, the distillery welcomed an enigmatic wandering pandaren brewmaster named Chen Stormstout. The two engaged in an epic drinking bout, matching Grimbooze's finest recipes against Chen's enchanted Jug of a Thousand Cups. Unable to agree on whose craft reigned supreme, they arranged a massive public tasting contest in Dun Morogh\u2014an event that laid the groundwork for modern dwarven drinking festivals. While his kin manage the distillery back in Kharanos, Grimbooze remains out in the field, refining his family's signature ale.",
+   "body": "Hailing from the renowned Thunderbrew brewing family of Kharanos, Grimbooze left the snowy mountain peaks of Dun Morogh for the windswept hills of Westfall. Known for his jovial disposition and an unyielding passion for potent spirits, he has a peculiar habit of speaking strictly in rhymes, and he answers a traveler's questions only once they have completed a simple task for him. Travelers passing through the dangerous Dagger Hills can find him tending to his private casks, always eager to test a thirsty traveler's palate.",
    "spoiler": 0
   }
  ],
@@ -38,7 +33,7 @@
     "grimbooze rhyming",
     "why is he talking in verse"
    ],
-   "answer": "His eccentric rhyming speech is an idiosyncrasy developed after decades of sampling incredibly potent spirits, notably Chen Stormstout's enchanted brew, which his family claims slightly pickled his mind."
+   "answer": "No one can say for certain. Grimbooze simply delights in verse, and he insists that anyone with a question for him must first complete a simple task."
   },
   {
    "q": "What is his connection to the Thunderbrew Distillery?",
@@ -47,16 +42,7 @@
     "is grimbooze related to ragnar",
     "thunderbrew family"
    ],
-   "answer": "Grimbooze is a patriarch of the famous Thunderbrew clan of Kharanos in Dun Morogh. He once ran the Thunderbrew Distillery before heading out into the wider world, leaving family members like Ragnar Thunderbrew to manage operations at home."
-  },
-  {
-   "q": "Did Grimbooze really drink with a pandaren?",
-   "aliases": [
-    "grimbooze and chen",
-    "chen stormstout grimbooze",
-    "who did grimbooze drink with"
-   ],
-   "answer": "Yes. Grimbooze hosted the wandering brewmaster Chen Stormstout in Kharanos. Their spirited contest to see who brewed the finest ale led directly to a legendary tasting competition in the snow of Dun Morogh."
+   "answer": "Grimbooze is a member of the famous Thunderbrew clan of Kharanos in Dun Morogh. While kin like Ragnar Thunderbrew tend the family's distillery at home, Grimbooze brews on his own in the hills of Westfall."
   }
  ],
  "angles": [
@@ -72,7 +58,6 @@
  "keywords": [
   "ale",
   "brewer",
-  "chen stormstout",
   "dagger hills",
   "distillery",
   "grimbooze",

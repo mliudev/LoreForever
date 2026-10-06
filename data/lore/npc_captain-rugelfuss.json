@@ -53,14 +53,6 @@
    "answer": "A recent trogg uprising poses a severe hazard to dwarven settlements and supply lines. The troggs have encroached directly on the southern gateway and attacked Ironforge patrols, threatening to overrun the King's territory if left unchecked."
   },
   {
-   "q": "What is his relationship with Thelsamar?",
-   "aliases": [
-    "rugelfuss thelsamar",
-    "south gate status report"
-   ],
-   "answer": "Rugelfuss communicates regularly with the garrison and leadership in Thelsamar, exchanging status reports to coordinate the overall military defense of Loch Modan."
-  },
-  {
    "q": "Why does Rugelfuss brush off military formalities?",
    "aliases": [
     "rugelfuss personality",
@@ -89,7 +81,6 @@
   "loch modan",
   "mountaineer",
   "rugelfuss",
-  "thelsamar",
   "trogg threat",
   "valley of kings"
  ],
@@ -98,8 +89,6 @@
   "zone:lochmodan",
   "quest:217",
   "quest:267",
-  "npc:captured-mountaineer",
-  "subzone:thelsamar",
   "topic:trogg",
   "topic:dwarf"
  ],

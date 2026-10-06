@@ -10,11 +10,11 @@
    "quest:332"
   ]
  },
- "summary": "A Wine Ticket is a promotional voucher distributed in Stormwind to drum up business for the Gallina Winery. Presenting it to Suzetta Gallina at the family shop earns the bearer a complimentary bottle of Dalaran Noir.",
+ "summary": "A Wine Ticket is a promotional voucher distributed in Stormwind to drum up business for the Gallina Winery. Presenting it to Suzetta Gallina at the family shop earns the bearer a complimentary bottle of Pinot Noir.",
  "sections": [
   {
    "title": "Promoting the Family Vintage",
-   "body": "Running a boutique vintage shop in a bustling metropolis like Stormwind requires savvy marketing. Renato Gallina hands out these printed tickets near the Trade District to draw thirsty patrons toward the Gallina Winery, which rests along the nearby canals. By promising a complimentary sample of their famous Dalaran Noir, the Gallina family hopes to turn curious passersby and newly arrived adventurers into loyal lifelong customers.",
+   "body": "Running a boutique vintage shop in a bustling metropolis like Stormwind requires savvy marketing. Renato Gallina hands out these printed tickets near the Trade District to draw thirsty patrons toward the Gallina Winery, which rests along the nearby canals. By promising a complimentary sample of their famous Pinot Noir, the Gallina family hopes to turn curious passersby and newly arrived adventurers into loyal lifelong customers.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "how to use wine ticket",
     "where do i bring wine ticket"
    ],
-   "answer": "Take the ticket to Suzetta Gallina at the Gallina Winery, situated along the canals in Stormwind's Trade District. She will gladly redeem it for a complimentary bottle of Dalaran Noir."
+   "answer": "Take the ticket to Suzetta Gallina at the Gallina Winery, situated along the canals in Stormwind's Trade District. She will gladly redeem it for a complimentary bottle of Pinot Noir."
   },
   {
    "q": "Who hands out these tickets?",
@@ -42,18 +42,18 @@
     "wine ticket reward",
     "what wine do i get"
    ],
-   "answer": "Redeeming the voucher yields a bottle of Dalaran Noir, a celebrated vintage that the Gallina family proudly sells as one of the finest wines available in the kingdom."
+   "answer": "Redeeming the voucher yields a bottle of Pinot Noir, a celebrated vintage that the Gallina family proudly sells as one of the finest wines available in the kingdom."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "A good bottle of Dalaran Noir acquired with this ticket pairs well with hearty meats and cheeses gathered throughout the Eastern Kingdoms."
+   "text": "A good bottle of Pinot Noir acquired with this ticket pairs well with hearty meats and cheeses gathered throughout the Eastern Kingdoms."
   }
  ],
  "keywords": [
-  "dalaran noir",
   "gallina winery",
+  "pinot noir",
   "renato gallina",
   "stormwind canals",
   "suzetta gallina",
@@ -65,7 +65,6 @@
   "npc:suzetta-gallina",
   "subzone:trade-district",
   "subzone:canals-stormwind-city",
-  "subzone:dalaran",
   "topic:stormwind-kingdom"
  ],
  "attribution": [

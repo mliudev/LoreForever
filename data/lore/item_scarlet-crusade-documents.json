@@ -11,16 +11,16 @@
    "quest:383"
   ]
  },
- "summary": "These intercepted papers were carried by a Scarlet Crusade messenger dispatched from the Scarlet Monastery to the camps near Deathknell. Containing tactical maps and orders for field commanders across Tirisfal Glades, they provide the Forsaken with the exact military intelligence needed to target the Crusade's regional leadership.",
+ "summary": "These intercepted papers were carried by a Scarlet Crusade messenger dispatched from the Scarlet Monastery to the camps near Deathknell. Containing orders for the Crusade's field commanders across Tirisfal Glades, they provide the Forsaken with the exact military intelligence needed to target the Crusade's regional leadership.",
  "sections": [
   {
    "title": "Intercepted Orders",
-   "body": "Dispatched straight from the Scarlet Monastery, the courier Meven Korgal carried these documents toward the Crusade's southern encampment outside Deathknell. While the papers contain ordinary scouting dispatches and standard orders urging zealots to fortify positions near the ruined Capital City, their true value lies in detailed strategic maps. The documents reveal the names, locations, and dispositions of Scarlet field officers stationed across Tirisfal Glades, turning an otherwise routine courier run into a catastrophic intelligence breach for the zealots.",
+   "body": "Dispatched straight from the Scarlet Monastery, the courier Meven Korgal carried these documents toward the Crusade's southern encampment outside Deathknell. Issued by order of the Highlord, the directives are addressed to the captains of the Crusade's Tirisfal Regional Command: Captain Perrine is to further fortify the southwest tower and gather information on the undead in Brill, Captain Vachon to crush undead movement near the northern tower, and Captain Melrose to watch the borders of the Plaguelands. The documents reveal the names, posts, and orders of Scarlet field officers stationed across Tirisfal Glades, turning an otherwise routine courier run into a catastrophic intelligence breach for the zealots.",
    "spoiler": 0
   },
   {
    "title": "Delivery to Brill",
-   "body": "Executor Arren swiftly recognized that local forces in Deathknell could not exploit the full breadth of the intelligence. Instead, the captured dossier serves as a newly awakened Forsaken's passport out of the starter valley. Carried northeast past Cold Hearth Manor into Brill, the documents are handed directly to Executor Zygand outside the Brill Town Hall. With these maps in hand, the Forsaken military leadership plans swift decapitation strikes against Scarlet commanders entrenched across the Glades.",
+   "body": "Executor Arren swiftly recognized that local forces in Deathknell could not exploit the full breadth of the intelligence. Instead, the captured dossier serves as a newly awakened Forsaken's passport out of Deathknell. Carried northeast past Cold Hearth Manor into Brill, the documents are handed directly to Executor Zygand outside the Brill Town Hall. With these orders in hand, the Forsaken military leadership plans swift decapitation strikes against Scarlet commanders entrenched across the Glades.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "what do the papers say",
     "document contents"
    ],
-   "answer": "The bundle includes scouting reports, orders to fortify positions near Lordaeron's ruined capital, and a detailed map laying out the names and locations of Scarlet Crusade field commanders across Tirisfal Glades."
+   "answer": "The bundle holds directives, by order of the Highlord, to the captains of the Crusade's Tirisfal Regional Command: Captain Perrine is to fortify the southwest tower and scout the undead in Brill, Captain Vachon to deal with undead movement near the northern tower, and Captain Melrose to watch the borders of the Plaguelands."
   },
   {
    "q": "Who needs to see these documents?",
@@ -56,7 +56,7 @@
     "why do forsaken want them",
     "scarlet documents importance"
    ],
-   "answer": "The captured maps pinpoint Crusade officer deployments throughout Tirisfal Glades, giving the Forsaken the upper hand to eliminate enemy leadership and shatter the zealots' regional morale."
+   "answer": "The captured orders pinpoint Crusade officer deployments throughout Tirisfal Glades, giving the Forsaken the upper hand to eliminate enemy leadership and shatter the zealots' regional morale."
   }
  ],
  "angles": [

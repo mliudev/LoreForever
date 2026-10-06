@@ -666,8 +666,22 @@ check("Options", {
         .. ((#wrong + #unknown == 0) and (#p.checks .. " tick boxes") or ""))
     local v = p.voice
     local row = v and v.rows and v.rows[1]
-    widgets("Options: narration voices", { { "first voice", row }, { "its name", row and row.name, true } }, nil,
+    widgets("Options: narration voices", { { "first voice", row }, { "its name", row and row.name, true },
+      { "Play voices on", v and v.channel, true }, { "Voice volume", v and v.volume } }, nil,
       (v and v.items and #v.items > 0) and {} or { "no voices listed" })
+    -- Play voices on (LOR-315): the saved channel is one of the game's, and the drop-down names it. Voice volume
+    -- (LOR-295) is that channel's own volume: its slider shows what the game has. Only read here.
+    local V = ns.Voice
+    local key, saved = V.ChannelChoice(), S().voiceChannel
+    local named = v and v.channel and v.channel.GetText and v.channel:GetText()
+    expect("Options: Play voices on", saved == key and named == V.ChannelName(key),
+      string.format("saved %s, shows %s; recordings play on %s%s", tostring(saved), tostring(named), V.Channel(),
+        V.SoundOff() == "channel" and " (the game has " .. key .. " switched off)" or ""))
+    local pct, known = V.Volume()
+    local shown = v and v.volume and v.volume.GetValue and tonumber(v.volume:GetValue())
+    expect("Options: Voice volume is that channel's volume", known and shown ~= nil and math.floor(shown + 0.5) == pct,
+      known and string.format("slider at %s%%, the game's %s %d%%", tostring(shown), tostring(named), pct)
+        or ("the game doesn't say its " .. key .. " volume"))
   end,
 }, function(c)
   local win = _G.SettingsPanel or _G.InterfaceOptionsFrame
@@ -704,15 +718,15 @@ check("buttons", {
       end
       expect("minimap button: where Options put it", not why, why or where)
     end
-    -- The buttons on the quest, quest log and book windows (hidden until those open): Lore, and play on the quest window.
+    -- The buttons on the quest, quest log and book windows (hidden until those open): Lore and play on both quest windows.
     local missing, H = {}, ns.Hooks
     if _G.QuestFrame and not (H.questDialogButton and H.questDialogPlay) then missing[#missing + 1] = "quest window" end
-    if (_G.QuestMapFrame or _G.QuestLogFrame) and not H.questLogButton then missing[#missing + 1] = "quest log" end
+    if (_G.QuestMapFrame or _G.QuestLogFrame) and not (H.questLogButton and H.questLogPlay) then missing[#missing + 1] = "quest log" end
     if _G.ItemTextFrame and not H.bookButton then missing[#missing + 1] = "book" end
     expect("buttons on the quest, quest log and book windows", #missing == 0,
       #missing == 0 and "made" or ("missing on: " .. table.concat(missing, ", ")))
-    -- Storylines (Storyline.lua): the data, its line under the quest window's Lore button, and the line for the first
-    -- chapter of a storyline this character's faction sees, in id order.
+    -- Storylines (Storyline.lua): the data, its line in the quest's text (hooked on the game's QuestInfo_Display), and
+    -- the line for the first chapter of a storyline this character's faction sees, in id order.
     local sls, ids, line = ns.DB.storylines or {}, {}, nil
     for id in pairs(sls) do ids[#ids + 1] = id end
     table.sort(ids)
@@ -720,7 +734,7 @@ check("buttons", {
       line = ns.Storyline.Line(sls[id].c[1], true)
       if line then break end
     end
-    expect("storylines", #ids > 0 and line ~= nil and (not _G.QuestFrame or H.questDialogStory ~= nil),
+    expect("storylines", #ids > 0 and line ~= nil and (not _G.QuestInfo_Display or H.storyHooked == true),
       string.format("%d storylines; %s", #ids, line or "no line for a first chapter"))
     -- The floating player: where it was dragged to (or its first place, above the chat window).
     local mini, pos = ns.UI.mini, s.miniPlayerPos
@@ -739,8 +753,11 @@ check("buttons", {
         string.format("%s %d,%d (saved: %s %d,%d)", tostring(p), x, y, want[1], want[2], want[3]))
     end
     local key = ns.Hooks.CurrentKey()
-    expect("key bindings", type(_G.BINDING_NAME_LOREFOREVER_TOGGLE) == "string" and BINDING_NAME_LOREFOREVER_TOGGLE ~= "",
-      "panel key: " .. (key or "not bound") .. ", narration key: " .. (ns.Hooks.CurrentKey("narrate") or "not bound"))
+    local picture = _G.GetBindingKey and GetBindingKey("LOREFOREVER_PICTURE")
+    expect("key bindings", type(_G.BINDING_NAME_LOREFOREVER_TOGGLE) == "string" and BINDING_NAME_LOREFOREVER_TOGGLE ~= ""
+      and type(_G.BINDING_NAME_LOREFOREVER_PICTURE) == "string",
+      "panel key: " .. (key or "not bound") .. ", narration key: " .. (ns.Hooks.CurrentKey("narrate") or "not bound")
+        .. ", picture key: " .. (picture or "not bound"))
   end,
 })
 
@@ -761,16 +778,14 @@ check("narration", {
     local pack = path and path:match("^Interface\\AddOns\\([^\\]+)\\")
     expect("narration: its file is in a loaded voice pack", pack and ns.Packs.IsLoaded(pack) or false,
       string.format("%s (%s): %s, from %s", id, where, tostring(path), tostring(voice)))
-    -- Recordings only: with Read aloud off for the moment, a file that won't play can't fall back to speech.
-    c.readAloud = S().readAloud
-    S().readAloud = false
+    -- Recordings only (nothing else plays): a file that won't play leaves nothing playing.
     if UI.IsBusy() then UI.StopAll() end
     local target = targetOf(id)
     UI.ListenTo(target)
     c.clip, c.target, c.handle = id, target, V.handle
     local ok = UI.speaking and UI.playingId == target.id and V.handle ~= nil
-    expect("narration plays", ok and true or false, ok and string.format("%s (%s), sound %s", target.label, id,
-      tostring(V.handle)) or ("PlaySoundFile didn't start " .. tostring(path)
+    expect("narration plays", ok and true or false, ok and string.format("%s (%s), sound %s on %s", target.label, id,
+      tostring(V.handle), V.Channel()) or ("PlaySoundFile didn't start " .. tostring(path)
       .. (V.SoundOff() and (" (game sound off: " .. V.SoundOff() .. ")") or "")))
     if not ok then return false end
   end,
@@ -857,7 +872,6 @@ check("narration", {
         or "stopped")
   end,
 }, function(c)
-  if c.readAloud ~= nil then S().readAloud = c.readAloud end
   if ns.UI.speaking and ns.UI.playingId == (c.target and c.target.id) then ns.UI.StopAll() end
 end)
 

@@ -98,8 +98,9 @@ local function entry(e, quests)
   elseif k == "lvl" then
     return "levels", join(" · ", string.format(L["Reached level %d"], e.lv or 0), place(e))
   elseif k == "death" then
+    local cause = e.how == "drown" and L["drowned"] or e.how == "fatigue" and L["lost in deep water"] or nil
     return "deaths", join(" · ", place(e) ~= "" and place(e) or L["Died"],
-      e.by and string.format(L["slain by %s"], e.by) or nil, party(e))
+      e.by and string.format(L["slain by %s"], e.by) or cause, party(e))
   elseif k == "book" and e.n then
     return "books", join(" · ", "\"" .. e.n .. "\"", place(e))
   elseif k == "loot" and e.n then
@@ -159,16 +160,34 @@ function JR.Numbers(char)
   local live = J and J.Char and J.Online and J.Char() == char   -- in the game: this session so far counts too
   out.online = live and J.Online() or tonumber(t.online) or 0
   if tonumber(t.played) then out.played = t.played + math.max(0, out.online - (tonumber(t.playedAt) or out.online)) end
+  -- LOR-262: how you traveled, your patrons, homes and flights, time per zone, fish, days played, your story's length.
+  local function num(k) return math.floor((tonumber(t[k]) or 0) + 0.5) end
+  out.ride, out.swim, out.flown, out.boats, out.fish = num("ride"), num("swim"), num("flown"), num("boats"), num("fish")
+  out.days, out.best, out.words, out.heard = num("days"), num("best"), num("words"), num("heard")
+  out.patrons, out.inns, out.flights, out.time = ranked(t.patrons), ranked(t.inns), ranked(t.flights), ranked(t.time)
+  out.flown_n = 0
+  for _, f in ipairs(out.flights) do out.flown_n = out.flown_n + f.n end
+  -- What slew you, from the deaths kept: only creatures you've slain too (Journey.lua records only creatures, and this
+  -- keeps any other name out of the list the website trusts).
+  local killers, kills = {}, type(char.kills) == "table" and char.kills or {}
+  for _, e in ipairs(type(char.events) == "table" and char.events or {}) do
+    if type(e) == "table" and e.k == "death" and type(e.by) == "string" and kills[e.by] then
+      killers[e.by] = (killers[e.by] or 0) + 1
+    end
+  end
+  out.killers = ranked(killers)
   return out
 end
 
--- The record's "Journey stats": its lines, and the walk by land and foes by kind as "Name: n" lists. The lines are
--- always these, in this order (hours played last, after a /played), so the website can read them by place when a
--- language pack words them in a way it doesn't know yet (site/lib/journey.js).
+-- The record's "Journey stats": its lines, then its "Name: n" lists, each { title, line }. The first six lines are
+-- always there, in this order, so the website can read them by place when a language pack words them in a way it
+-- doesn't know yet (site/lib/journey.js); the others (hours played after a /played, and LOR-262's) only when they
+-- have something, read by their words.
 local function numbers(char)
   local s = JR.Numbers(char)
   local lines = {}
   local function add(fmt, v) lines[#lines + 1] = "- " .. string.format(fmt, v) end
+  local function some(fmt, v) if v and v > 0 then add(fmt, v) end end
   local function hours(sec) return string.format("%.1f", sec / 3600) end
   if s.yards > 0 or s.slain > 0 or s.deaths > 0 or s.online >= 360 or s.played then
     add(L["Yards walked: %d"], s.yards)
@@ -178,13 +197,38 @@ local function numbers(char)
     add(L["Deaths: %d"], s.deaths)
     add(L["Hours recorded: %s"], hours(s.online))
     if s.played then add(L["Hours played: %s"], hours(s.played)) end
+    some(L["Yards ridden: %d"], s.ride)
+    some(L["Yards swum: %d"], s.swim)
+    some(L["Yards flown: %d"], s.flown)
+    some(L["Flights taken: %d"], s.flown_n)
+    some(L["Places flown to: %d"], #s.flights)
+    some(L["Boat trips: %d"], s.boats)
+    some(L["Fish caught: %d"], s.fish)
+    some(L["Days played: %d"], s.days)
+    some(L["Longest play streak: %d"], s.best)
+    some(L["Words of lore: %d"], s.words)
+    some(L["Narrations heard: %d"], s.heard)
   end
-  local function list(items, most)
+  local function list(items, most, scale)
     local out = {}
-    for i = 1, math.min(most, #items) do out[i] = string.format("%s: %d", items[i].name, items[i].n) end
+    for i = 1, math.min(most, #items) do
+      out[i] = string.format("%s: %d", items[i].name, math.floor(items[i].n / (scale or 1) + 0.5))
+    end
     return table.concat(out, ", ")
   end
-  return lines, list(s.lands, MOST_WALKED), list(s.kinds, MOST_KINDS)
+  local lists = {}
+  for _, l in ipairs({
+    { L["Yards walked, by land"], list(s.lands, MOST_WALKED) },
+    { L["Foes slain, by kind"], list(s.kinds, MOST_KINDS) },
+    { L["Slain by"], list(s.killers, 10) },
+    { L["Most loyal patrons"], list(s.patrons, 10) },
+    { L["Inns you've called home"], list(s.inns, 10) },
+    { L["Flights, by destination"], list(s.flights, 10) },
+    { L["Minutes spent, by land"], list(s.time, MOST_WALKED, 60) },
+  }) do
+    if l[2] ~= "" then lists[#lists + 1] = l end
+  end
+  return lines, lists
 end
 
 -- The record as text, at most `limit` bytes (default LIMIT), and whether older entries were left out.
@@ -239,14 +283,13 @@ function JR.Text(char, limit)
   for i = 1, math.min(MOST_FOUGHT, #foes) do fought[i] = string.format("%s: %d", foes[i].name, foes[i].n) end
 
   local TITLES = titles(whole)
-  local stats, walked, kinds = numbers(char)
+  local stats, lists = numbers(char)
   local function render(keep, cut)
     local out = { table.concat(head, "\n") }
     if #keep == 0 and #fought == 0 and #stats == 0 then out[#out + 1] = "\n" .. L["Nothing recorded yet."] end
     -- The journey in numbers first (LOR-246). A site from before them skips these lines.
     if #stats > 0 then out[#out + 1] = "\n" .. L["Journey stats"] .. "\n" .. table.concat(stats, "\n") end
-    if walked ~= "" then out[#out + 1] = "\n" .. L["Yards walked, by land"] .. "\n" .. walked end
-    if kinds ~= "" then out[#out + 1] = "\n" .. L["Foes slain, by kind"] .. "\n" .. kinds end
+    for _, l in ipairs(lists) do out[#out + 1] = "\n" .. l[1] .. "\n" .. l[2] end
     for _, sec in ipairs(SECTIONS) do
       local lines = {}
       for _, en in ipairs(keep) do if en.sec == sec then lines[#lines + 1] = en.line end end

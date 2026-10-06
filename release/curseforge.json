@@ -1,5 +1,5 @@
 {
-  "_readme": "The narration that goes to CurseForge as projects of its own (scripts/curseforge_voices.py, run by the public repo's release workflow). CurseForge's WoW site takes one file per project (additional files are refused, errorCode 1011), and its upload API refuses files over about 500 MB (Cloudflare answers 413), so each narrator is two projects, its stories and its quest dialogue, and every other optional pack (a narrator in another language, the quest givers' voices) is one of its own. Each project's file is the folders listed here, taken byte for byte from the release zip named in 'from' (or the zips, when it's a list: a project gets the folders the release has so far), and it goes up whenever the narration in it changed since that project's last upload. Every project requires Lore Forever (lore-forever, 1715510), so the CurseForge app installs the add-on along with it. key: a short name for logs and 'requires'. name: the project's name on CurseForge. about: what it is, for players (changelogs). file: each upload's display name, {v} = the release version. core: how the add-on's own file lists the project once it's live, as a required or an optional dependency; from then on the add-on's file leaves its folders out. requires: other projects here it needs installed to play (none so far: since #249 a quest pack plays without its narrator's other packs). suggests: other projects here it goes well with, which CurseForge lists as optional dependencies (not installed with it). id and slug: the project's number and address (curseforge.com/wow/addons/<slug>), null until Mike creates it; a project without an id is skipped, so nothing uploads until it exists. Create a project only once its pack ships (CurseForge reviews a new project once it has a file); a release that doesn't have a project's zip yet just skips it. live: true once CurseForge has approved the project, since a file can only name an approved project as a dependency. Until then the add-on's file keeps its folders, unless that would put it over the limit (then its notes say so and point to the full download). core_upload: how the add-on's own file gets to CurseForge. 'auto': the release workflow uploads it, leaving out what doesn't fit under the API's limit. 'manual': one package with nothing cut down, the release's LoreForever.zip and the female narrator's complete zip merged (curseforge_voices.py package; without her only if that's over 2 GB), uploaded by hand on the website, which takes up to 2 GB; the workflow then uploads nothing for the add-on and its summary says what to upload (since 2026-10-04, while the narration projects wait for CurseForge's approval).",
+  "_readme": "The narration that goes to CurseForge as projects of its own (scripts/curseforge_voices.py, run by the public repo's release workflow). CurseForge's WoW site takes one file per project (additional files are refused, errorCode 1011), and its upload API refuses files over about 500 MB (Cloudflare answers 413), so each narrator is two projects, its stories and its quest dialogue, and every other optional pack (a narrator in another language, the quest givers' voices) is one of its own. Each project's file is the folders listed here, taken byte for byte from the release zip named in 'from' (or the zips, when it's a list: a project gets the folders the release has so far), and it goes up whenever the narration in it changed since that project's last upload. Every project requires Lore Forever (lore-forever, 1715510), so the CurseForge app installs the add-on along with it. key: a short name for logs and 'requires'. name: the project's name on CurseForge. about: what it is, for players (changelogs). file: each upload's display name, {v} = the release version. core: how the add-on's own file lists the project once it's live, as a required or an optional dependency; from then on the add-on's file leaves its folders out. requires: other projects here it needs installed to play (none so far: since #249 a quest pack plays without its narrator's other packs). suggests: other projects here it goes well with, which CurseForge lists as optional dependencies (not installed with it). id and slug: the project's number and address (curseforge.com/wow/addons/<slug>), null until Mike creates it; a project without an id is skipped, so nothing uploads until it exists. Create a project only once its pack ships (CurseForge reviews a new project once it has a file); a release that doesn't have a project's zip yet just skips it. live: true once CurseForge has approved the project, since a file can only name an approved project as a dependency. Until then the add-on's file keeps its folders, unless that would put it over the limit (then its notes say so and point to the full download). core_upload: how the add-on's own file gets to CurseForge. 'auto': the release workflow uploads it, leaving out what doesn't fit under the API's limit. 'manual': one package with nothing cut down, the release's LoreForever.zip and the female narrator's complete zip merged (curseforge_voices.py package; without her only if that's over 2 GB), uploaded by hand on the website, which takes up to 2 GB; the workflow then uploads nothing for the add-on and its summary says what to upload (tried 2026-10-04 for 0.8.0: the website refused the 1.45 GB package as \"too large for this game class\", so it's 'auto' again).",
   "core_upload": "auto",
   "projects": [
     {
@@ -13,7 +13,7 @@
       "requires": [],
       "id": 1727331,
       "slug": "lore-forever-quest-dialogue-male-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "female-narrator",
@@ -26,7 +26,7 @@
       "requires": [],
       "id": 1727332,
       "slug": "lore-forever-female-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "female-quests",
@@ -40,7 +40,7 @@
       "suggests": ["female-narrator"],
       "id": 1727333,
       "slug": "lore-forever-quest-dialogue-female-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "quest-givers",
@@ -66,7 +66,7 @@
       "requires": [],
       "id": 1727666,
       "slug": "lore-forever-german-narration-male-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "female-dede",
@@ -79,7 +79,7 @@
       "requires": [],
       "id": 1727667,
       "slug": "lore-forever-german-narration-female-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "male-frfr",
@@ -144,7 +144,7 @@
       "requires": [],
       "id": 1727668,
       "slug": "lore-forever-portuguese-narration-male-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "female-ptbr",
@@ -157,7 +157,7 @@
       "requires": [],
       "id": 1727669,
       "slug": "lore-forever-portuguese-narration-female-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "male-quests-dede",

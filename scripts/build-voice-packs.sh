@@ -10,6 +10,9 @@
 #                                                         pack each, once recorded
 #   LoreForever_Voice_<Default|Female>_Quests_<locale>.zip  either narrator's quest dialogue in one of those languages
 #                                                         (LOR-226, the game's own quest text), once recorded
+#   LoreForever_Voice_<Default|Female>_Answers_<Part>[_<locale>].zip  every other question and answer (LOR-227,
+#                                                         lore.answers: Places, Lore, People, Quests1-3), in English or
+#                                                         one of those languages, once its renders land
 # They all follow the core's version (scripts/release.sh stamps it into their .toc files, like the default pack's).
 # A pack whose folder isn't in addon/ is skipped with a note.
 # The main download comes from scripts/build-release.sh; it carries the default (male) narrator's core and lands packs.
@@ -66,10 +69,20 @@ DOWNLOADS = {
     "LoreForever_Voice_Female_Quests_ptBR": (["LoreForever_Voice_Female_Quests_ptBR"],
                                              "Female narrator: quest dialogue, Português {v}"),
 }
+# Every other question and answer (LOR-227, lore.answers PARTS): one zip per narrator, part and language (each under
+# 470 MB at 48 kbps; lore.voicepack answers refuses one over). Skipped until rendered.
+ANSWER_PARTS = {"Places": "zones and places", "Lore": "lore and items", "People": "people",
+                "Quests1": "quests, levels 1-13", "Quests2": "quests, levels 14-22", "Quests3": "quests, level 23 and up"}
+LANGUAGES = {"": "", "_deDE": ", Deutsch", "_esES": ", Español", "_frFR": ", Français", "_ptBR": ", Português"}
+for loc, lang in LANGUAGES.items():
+    for voice, who in (("Default", "Male"), ("Female", "Female")):
+        for part, what in ANSWER_PARTS.items():
+            folder = f"LoreForever_Voice_{voice}_Answers_{part}{loc}"
+            DOWNLOADS[folder] = ([folder], f"{who} narrator: answers about {what}{lang} {{v}}")
 # zips a CurseForge project of their own takes as they are (the quest givers' voices, and each narrator and its quest
-# dialogue in each language pack's language: release/curseforge.json)
+# dialogue in each language pack's language: release/curseforge.json), and the answers packs, sized for one
 CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers"} | {n for n in DOWNLOADS if re.fullmatch(
-    r"LoreForever_Voice_(Default|Female)(_Quests)?_[a-z]{2}[A-Z]{2}", n)}
+    r"LoreForever_Voice_(Default|Female)((_Quests)?_[a-z]{2}[A-Z]{2}|_Answers_\w+)", n)}
 CURSEFORGE_MB = 480                                  # its upload API refuses bigger files
 
 def version(folder):
@@ -112,6 +125,7 @@ for name, (folders, display) in DOWNLOADS.items():
     print(f"built {path.relative_to(root)} ({path.stat().st_size / 1024**2:.1f} MB)")
     if name in CURSEFORGE_OWN and path.stat().st_size > CURSEFORGE_MB * 1024**2:
         print(f"warning: {path.name} is over CurseForge's {CURSEFORGE_MB} MB upload limit; rebuild the pack at a lower "
-              "bitrate (lore.voicepack quests --bitrate, or locale --bitrate for a narrator in another language)")
+              "bitrate (lore.voicepack quests --bitrate, or locale --bitrate for a narrator in another language), or "
+              "split an answers part (lore.answers PARTS)")
 (out / "manifest.tsv").write_text("".join("\t".join(r) + "\n" for r in rows), encoding="utf-8")
 PY

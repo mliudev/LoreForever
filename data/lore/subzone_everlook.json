@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Commerce at the Edge of the World",
-   "body": "Everlook represents the Steamwheedle Cartel's northernmost endeavor, mirroring outposts like Gadgetzan and Booty Bay under a blanket of permafrost. The walled settlement perches at the intersection of Winterspring's snowdrifts, operating under strictly enforced neutrality. It hosts the only operational bank and shared auction house services in the region, drawing both Alliance and Horde travelers in search of warmth and shelter. Guarded by hired bruisers, the town offers refuge from ferocious frostsabers and yetis, though High Overlord Saurfang has noted that much of the town's lucrative inventory actually relies on unsanctioned smuggler runs routed through corrupted Felwood.",
+   "body": "Everlook represents the Steamwheedle Cartel's northernmost endeavor, mirroring outposts like Gadgetzan and Booty Bay under a blanket of permafrost. The walled settlement perches at the intersection of Winterspring's snowdrifts, operating under strictly enforced neutrality. It hosts the only operational bank and shared auction house services in the region, drawing both Alliance and Horde travelers in search of warmth and shelter. Guarded by hired bruisers, the town offers refuge from ferocious frostsabers and yetis.",
    "spoiler": 0
   },
   {
@@ -28,7 +28,7 @@
     "everlook leader",
     "who is in charge of everlook"
    ],
-   "answer": "Everlook is owned and operated by the Steamwheedle Cartel. Unlike other goblin hubs governed by a solitary baron, local governance is informally handled by prominent merchants and workshop masters residing within the walls."
+   "answer": "Everlook is owned and operated by the Steamwheedle Cartel, whose local governance runs the town. It is to them that the Argent Dawn sent Gregor Greystone as its representative."
   },
   {
    "q": "Why is Everlook safe for both Alliance and Horde?",
@@ -55,13 +55,13 @@
     "winterspring trade goods",
     "where do everlook goods come from"
    ],
-   "answer": "Beyond standard trade flights and surface caravans, town inventory is partly supplied through illicit smuggling routes winding out of the corrupted forests of Felwood, a fact known to veteran military observers like Varok Saurfang."
+   "answer": "Everlook sits at the crossroads of Winterspring's main trade routes, so its goods arrive by trade flights and surface caravans along those roads."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Everlook is a major hub for high-level engineers, particularly those specializing in goblin engineering, who can learn to calibrate an ultra-safe transporter directly to the settlement."
+   "text": "Everlook is a major hub for high-level engineers, particularly those specializing in goblin engineering, who can learn to build a dimensional ripper keyed directly to the settlement."
   }
  ],
  "keywords": [
@@ -79,7 +79,6 @@
   "topic:goblin",
   "zone:felwood",
   "subzone:gadgetzan",
-  "npc:varok-saurfang",
   "topic:argent-dawn"
  ],
  "attribution": [

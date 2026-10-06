@@ -302,7 +302,7 @@ function Lang.ApplyOverlay(db, ow, ok)
 end
 
 -- Login: find and load the packs the settings call for, before the engine is built. Leaves ns.lang = {locale, name,
--- client, ttsVoices, notes}; notes are chat lines for Core to print.
+-- client, notes}; notes are chat lines for Core to print.
 local function init(lang)
   local Packs, db = ns.Packs, ns.DB
   Packs.Scan()
@@ -383,14 +383,12 @@ local function init(lang)
     lang.overlay = orec.name
   end
   -- Voice packs match recordings to the text by clipHash: the pack's hashes (for recordings in this language) replace
-  -- the English ones, and Voice only picks packs in the reading language. Voice.Init runs after this.
+  -- the English ones, and Voice only picks packs in the reading language. Voice.Init runs after this. The answers
+  -- packs' hashes (answerHash, LOR-227) too.
   db.clipHash = (tw and tw.clipHash) or {}
+  db.answerHash = (tw and tw.answerHash) or {}
   lang.locale, lang.name, lang.pack = rec.locale, rec.languageName or rec.locale, rec.name
   ns.readingLocale = rec.locale
-  lang.ttsVoices = {}
-  for hint in ((tw and trec.ttsVoices) or (tw and tw.ttsVoices) or (orec and orec.ttsVoices) or ""):gmatch("[^|,]+") do
-    lang.ttsVoices[#lang.ttsVoices + 1] = lower(hint:match("^%s*(.-)%s*$"))
-  end
 end
 
 function Lang.Init()

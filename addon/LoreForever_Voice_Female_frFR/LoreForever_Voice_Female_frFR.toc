@@ -1,0 +1,13 @@
+## Interface: 16001
+## Title: Lore Forever female narrator - Français
+## Notes: Recorded narration for Lore Forever.
+## Author: Mike
+## Version: 0.9.0
+## Dependencies: LoreForever
+## LoadOnDemand: 1
+## X-LoreForever-Pack: voice
+## X-LoreForever-Locale: frFR
+## X-LoreForever-Format: 1
+## X-LoreForever-Gender: female
+## X-LoreForever-Sample: zone:stormwind
+Clips.lua

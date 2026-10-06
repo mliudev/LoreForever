@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Fray Island"
  },
- "summary": "Fray Island is a windswept, rocky islet lying just off the Merchant Coast of the Barrens. Dominated by privateers and a rough-and-tumble training ring, it is famous as a neutral haven where warriors from across Azeroth come to test their mettle.",
+ "summary": "Fray Island is a windswept, rocky islet lying just off the Merchant Coast of the Barrens. Home to a rough-and-tumble training ring, it is famous as a neutral haven where warriors from across Azeroth come to test their mettle.",
  "sections": [
   {
    "title": "A Proving Ground for Brawlers",
-   "body": "Situated off the eastern bluffs of the Barrens, Fray Island is far removed from the watchful eyes of both Orgrimmar and Theramore. The island serves primarily as an outpost for the notorious Southsea Freebooters, who maintain encampments, docks, and drilling grounds across the crags. Amidst the rowdy pirate crews sits a fighting arena overseen by Klannoc Macleod, where seasoned fighters and raw recruits gather to compete in brutal brawls.",
+   "body": "Situated off the eastern bluffs of the Barrens, Fray Island is far removed from the watchful eyes of both Orgrimmar and Theramore. The island serves as a training place for warriors of all races and creeds. At its heart sits a fighting arena overseen by Klannoc Macleod, where seasoned fighters and raw recruits gather to compete in brutal brawls.",
    "spoiler": 0
   },
   {
    "title": "The Trial of the Affray",
-   "body": "Despite the hostility of the surrounding waters and pirate garrisons, the island's central ring adheres to a simple code of martial combat. Warriors journey here on the instructions of their trainers to take part in 'The Affray'\u2014a grueling gauntlet against waves of challengers culminating in a bout against the champion Big Will. Here, allegiance to Horde or Alliance is set aside in favor of raw strength and martial discipline.",
+   "body": "Despite the hostility of the surrounding waters, the island's central ring adheres to a simple code of martial combat. Warriors journey here on the instructions of their trainers to take part in 'The Affray'\u2014a grueling gauntlet against waves of challengers culminating in a bout against the champion Big Will. Here, allegiance to Horde or Alliance is set aside in favor of raw strength and martial discipline.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "fray island purpose",
     "what is on fray island"
    ],
-   "answer": "The island serves as an outpost for the Southsea Freebooters and the site of a brutal combat trial known as The Affray. Warriors of both factions travel here to prove their endurance and master advanced stances."
+   "answer": "The island serves as a training ground for warriors and the site of a brutal combat trial known as The Affray. Warriors of both factions travel here to prove their endurance and master advanced stances."
   },
   {
    "q": "Who controls Fray Island?",
@@ -37,7 +37,7 @@
     "who lives on fray island",
     "fray island faction"
    ],
-   "answer": "The island is overrun by the Southsea Freebooters, a cutthroat syndicate of pirates and privateers. However, the combat ring on the island operates under the watchful eye of warrior trainer Klannoc Macleod."
+   "answer": "No kingdom or faction rules it. The island is a training place for warriors of all races and creeds, and its combat ring operates under the watchful eye of warrior trainer Klannoc Macleod."
   },
   {
    "q": "How do I reach Fray Island?",
@@ -65,7 +65,7 @@
   },
   {
    "target": "race:Human",
-   "text": "While many humans associate the Southsea Freebooters with villainy and brigandage, the warriors who gather in Klannoc's ring share a bond of combat that crosses racial lines."
+   "text": "Klannoc Macleod is a human, yet the warriors who gather in his ring share a bond of combat that crosses racial lines."
   }
  ],
  "keywords": [
@@ -74,17 +74,13 @@
   "berserker stance",
   "big will",
   "fray island",
-  "freebooters",
-  "klannoc macleod",
-  "southsea"
+  "klannoc macleod"
  ],
  "related": [
   "npc:klannoc-macleod",
   "quest:887",
   "zone:barrens",
-  "zone:orgrimmar",
-  "npc:thrall",
-  "npc:jaina-proudmoore"
+  "zone:orgrimmar"
  ],
  "attribution": [
   "Fray Island"

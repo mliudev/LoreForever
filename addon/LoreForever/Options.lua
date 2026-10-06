@@ -9,7 +9,7 @@ Options.DEFAULTS = {
   dungeonPrimer = true,    -- chat link to the dungeon primer when entering a dungeon
   unitTooltips = true,     -- one-line lore on NPC and mob tooltips
   itemTooltips = true,     -- quest notes on item tooltips
-  storylines = true,       -- say a quest is part of a storyline, under its Lore button and on its entry (Storyline.lua)
+  storylines = true,       -- say a quest is part of a storyline, under its title and on its entry (Storyline.lua)
   storylineChat = true,    -- turning in a storyline quest names who gives the next one (Storyline.OnTurnIn)
   floatPlayer = true,      -- the narration player floats on screen while the panel is closed (UI.UpdateNowPlaying)
   reportCross = false,     -- a cross on the narration player that reports the recording (ClipReport.lua, LOR-232);
@@ -18,16 +18,19 @@ Options.DEFAULTS = {
   typing = true,           -- answers type in quickly instead of appearing at once
   chatLinks = true,        -- names of other entries in answers are links (UI.Linker), Back / Forward above the chat
   showSpoilers = false,    -- show answers marked as spoilers without asking first
-  readAloud = true,        -- "Read aloud" (the game's text-to-speech) for answers without a recorded narration
-  narrateFlights = false,  -- read zone lore aloud on taxi flights
+  -- (No "Read aloud": only recordings play, never the game's text-to-speech. Log.Init forgets the old setting.)
+  narrateFlights = false,  -- play each zone's recorded story on taxi flights (Voice.OnTaxiCheck)
   onDemand = false,        -- "Narration: only when I press Play" (LOR-138): nothing plays by itself (Voice.OnDemand)
   autoZone = true,         -- play a zone's or place's recorded narration on arriving there (Voice.OnArrive)
-  autoQuest = true,        -- narrate the quest giver's window: its recording, else Read aloud (Voice.OnQuestFrame)
-  readBooks = true,        -- read book, letter and plaque pages aloud as they open (Voice.ReadBookPage)
+  autoQuest = true,        -- a quest giver's window plays its recording, recordings only (Voice.OnQuestFrame)
+  -- A book, letter or plaque page's recording as it opens (Voice.ReadBookPage). No book has one yet, so Options has no
+  -- switch for it; another add-on that reads books turns it off (Voice.CheckSpoken, Voice.CheckQuestVoices).
+  readBooks = true,
   skipHeard = true,        -- don't play automatically what this character has heard (LoreForeverDB.heard)
   packHints = true,        -- say (once a session per zone) when its places and people are in a lands pack you lack
   tips = true,             -- one tip at login about a feature (Core.lua loginTip), until they run out
   journey = true,          -- "Remember my journey": record places, people, quests and foes for Journey
+  pictureHideUI = true,    -- the journey picture key hides the interface for its picture, out of combat (Journey.lua)
   capture = true,          -- keep the quest, gossip and book text Forever shows, to share at /contribute (Capture.lua)
   -- The small Contribute button on quest, gossip and book windows (Capture.lua). Off until Mike has seen it in game
   -- (0.8.0). Defaults are written into SavedVariables, so turning it on for everyone later takes a one-time switch in
@@ -39,6 +42,9 @@ Options.DEFAULTS = {
   voiceGroup = "story",    -- keep one voice per "story" (a story and its questions), per "zone", or pick per "line"
   voiceMatchRace = false,  -- prefer voices that suit the race of the lore (orc lore in an orc voice)
   voiceMatchGender = true, -- quest dialogue: prefer a voice of the quest giver's gender (Voice.QuestClip)
+  -- The game's sound channel recordings play on (Play voices on, LOR-315): Dialog, SFX, Music, Ambience or Master.
+  -- Voice volume is that channel's own volume in the game's settings, which Lore Forever never keeps a copy of.
+  voiceChannel = "Dialog",
   panelScale = 1,          -- Panel size: 0.9, 1, 1.15 or 1.3 (UI.SCALES); scales the whole panel
 }
 
@@ -172,14 +178,134 @@ local function urlRow(c, label, address, anchor, gap)
   return text, url, fill
 end
 
--- The Narration voices section: the player's voices in order, each with a tick box, its counts, Sample, and arrows
--- to move it (plain clicks only); a voice that isn't installed any more can be forgotten. Then how voices share a
--- story, a status line and where to get more voices. Placed under `anchor`; returns the section and its last line.
+-- At the top of Narration voices: which of the game's sound channels the narrators and quest dialogue play on (Play
+-- voices on, LOR-315: Dialog unless the player picks Effects, Music, Ambience or Master Volume, named as the game's
+-- Sound settings name them), then how loud they are (Voice volume, LOR-295). The slider is the chosen channel's own
+-- volume (Voice.Volume), never a copy of it: it shows what the game has whenever the page opens, the game says a
+-- setting changed (Options.OnCVarUpdate) or another channel is picked, and moving it sets the game's setting there and
+-- then, as that channel's slider in System > Sound does. So whatever else the game plays on that channel follows it
+-- too (the note under it says what), nothing changes while something plays, and only the channel choice is saved. A
+-- new channel applies from the next recording: the one playing carries on where it is. Moved with nothing playing,
+-- the slider plays the first voice's sample to hear the level by (the sample follows the slider while it plays). With
+-- the chosen channel switched off in the game our recordings play on Master, which this leaves alone: the note says
+-- so, and no sample plays. Under `anchor`; returns the rows.
+local function volumeRow(c, anchor)
+  local row = {}
+  local pick = c:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
+  pick:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", 0, -10)
+  pick:SetText(L["Play voices on"])
+  local channel, channelList = dropDown("LoreForeverVoiceChannel", c, 220)
+  channel:SetPoint("TOPLEFT", pick, "BOTTOMLEFT", 2, -4)
+  channel:HookScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(L["Play voices on"])
+    T.Tip(L["Which of the game's sound channels the narrators and quest dialogue play on. Voice volume below is that channel's volume."],
+      "tipText", true)
+    GameTooltip:Show()
+  end)
+  channel:HookScript("OnLeave", function() GameTooltip:Hide() end)
+  local label = c:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
+  label:SetPoint("TOPLEFT", channel, "BOTTOMLEFT", -2, -12)
+  label:SetText(L["Voice volume"])
+  local slider = CreateFrame("Slider", "LoreForeverVoiceVolume", c, T.BACKDROP_TEMPLATE)
+  slider:SetOrientation("HORIZONTAL")
+  slider:SetSize(220, 17)
+  slider:SetPoint("TOPLEFT", label, "BOTTOMLEFT", 2, -8)
+  slider:SetHitRectInsets(0, 0, -4, -4)
+  if slider.SetBackdrop then   -- the game's own slider look, without its template
+    slider:SetBackdrop({ bgFile = "Interface\\Buttons\\UI-SliderBar-Background",
+      edgeFile = "Interface\\Buttons\\UI-SliderBar-Border", tile = true, tileSize = 8, edgeSize = 8,
+      insets = { left = 3, right = 3, top = 6, bottom = 6 } })
+  end
+  slider:SetThumbTexture("Interface\\Buttons\\UI-SliderBar-Button-Horizontal")
+  local thumb = slider.GetThumbTexture and slider:GetThumbTexture()
+  if thumb and thumb.SetSize then thumb:SetSize(32, 32) end
+  slider:SetMinMaxValues(0, 100)
+  slider:SetValueStep(1)
+  if slider.SetObeyStepOnDrag then slider:SetObeyStepOnDrag(true) end
+  local value = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+  value:SetPoint("LEFT", slider, "RIGHT", 10, 0)
+  local text = note(c, "", slider, 8)
+  text:SetPoint("TOPLEFT", slider, "BOTTOMLEFT", -2, -8)   -- under the label, not the slider's inset
+
+  -- What else the game plays on the chosen channel; or that the game has it switched off, so our voices play on Master.
+  local function about()
+    local V = ns.Voice
+    local key = V.ChannelChoice()
+    if V.SoundOff() == "channel" then
+      return T.code.warn .. string.format(L["The game's %s option is off (System > Sound), so Lore Forever's voices play at your Master volume. Turn it on to use this slider."],
+        V.ChannelName(key, true)) .. "|r"
+    elseif key == "SFX" then
+      return L["How loud the narrators and quest dialogue are. It's the game's own Effects volume, so the game's sound effects follow it too."]
+    elseif key == "Music" then
+      return L["How loud the narrators and quest dialogue are. It's the game's own Music volume: the game's music plays on it too."]
+    elseif key == "Ambience" then
+      return L["How loud the narrators and quest dialogue are. It's the game's own Ambience volume: the game's ambient sounds play on it too."]
+    elseif key == "Master" then
+      return L["How loud the narrators and quest dialogue are. It's the game's Master volume, so every game sound follows it too."]
+    end
+    return L["How loud the narrators and quest dialogue are. It's the game's own Dialog volume, so NPC voices follow it too."]
+  end
+  -- The chosen channel by its game name, and its volume on the slider; nothing is written back.
+  local syncing = false
+  function row.Sync()
+    local V = ns.Voice
+    channel:SetText(V.ChannelName(V.ChannelChoice()))
+    local pct = V.Volume()
+    syncing = true
+    slider:SetValue(pct)
+    syncing = false
+    value:SetText(string.format("%d%%", pct))
+    text:SetText(about())
+  end
+  -- Another channel: from the next recording on (the one playing carries on), with its own volume on the slider.
+  channel:SetScript("OnClick", function()
+    local items = {}
+    for _, key in ipairs(ns.Voice.CHANNELS) do items[#items + 1] = { value = key, label = ns.Voice.ChannelName(key) } end
+    channelList.Toggle(items, ns.Voice.ChannelChoice(), function(ch)
+      LoreForeverDB.settings.voiceChannel = ch.value
+      row.Sync()
+    end)
+  end)
+  -- With nothing playing, the first voice's sample (which plays on as the slider moves).
+  local function hear()
+    local V, UI = ns.Voice, ns.UI
+    if V.previewing or V.SoundOff() then return end
+    if UI and ((UI.IsBusy and UI.IsBusy()) or (UI.pl and UI.pl.state == "waiting")) then return end
+    V.Preview(V.Current())
+  end
+  slider:SetScript("OnValueChanged", function(_, v)
+    local pct = math.max(0, math.min(100, math.floor((tonumber(v) or 0) + 0.5)))
+    value:SetText(string.format("%d%%", pct))
+    if syncing or pct == ns.Voice.Volume() then return end
+    if not ns.Voice.SetVolume(pct) then return row.Sync() end   -- the game didn't take it: show what it has
+    hear()
+  end)
+  slider:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(L["Voice volume"])
+    T.Tip(about(), "tipText", true)
+    GameTooltip:Show()
+  end)
+  slider:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  -- "New" after an update whose notes name Options > ... Voice volume or Play voices on (WhatsNew.lua; ShowNew).
+  row.new = ns.WhatsNew.Tag(c, label, "LEFT", "RIGHT", 8, 0)
+  row.channelNew = ns.WhatsNew.Tag(c, pick, "LEFT", "RIGHT", 8, 0)
+  row.label, row.slider, row.value, row.note = label, slider, value, text
+  row.pick, row.channel, row.channelList = pick, channel, channelList
+  return row
+end
+
+-- The Narration voices section: the channel the voices play on and its volume, then the player's voices in order,
+-- each with a tick box, its counts, Sample, and arrows to move it (plain clicks only); a voice that isn't installed any
+-- more can be forgotten. Then how voices share a story, a status line and where to get more voices. Placed under
+-- `anchor`; returns the section and its last line.
 local VROW = 38
 local MODES = { "story", "line", "zone" }
 function Options.VoiceSection(c, anchor)
   local head = heading(c, L["Narration voices"], anchor, 24)
-  local intro = note(c, L["Each narration plays from the first voice in this list that has it. Use the arrows to change the order; untick a voice to stop using it."], head, 6)
+  local volume = volumeRow(c, head)
+  local intro = note(c, L["Each narration plays from the first voice in this list that has it. Use the arrows to change the order; untick a voice to stop using it."], volume.note, 14)
   local box = CreateFrame("Frame", nil, c)
   box:SetPoint("TOPLEFT", intro, "BOTTOMLEFT", 0, -6)
   box:SetPoint("RIGHT", c, "RIGHT", -24, 0)
@@ -225,6 +351,8 @@ function Options.VoiceSection(c, anchor)
 
   local section, rows = {}, {}
   function section.ShowNew()
+    volume.new:SetShown(ns.WhatsNew.OptionIsNew("Voice volume"))
+    volume.channelNew:SetShown(ns.WhatsNew.OptionIsNew("Play voices on"))
     raceNew:SetShown(ns.WhatsNew.OptionIsNew("Prefer voices that suit the race"))
     genderNew:SetShown(ns.WhatsNew.OptionIsNew("Match the quest giver's voice"))
   end
@@ -352,6 +480,7 @@ function Options.VoiceSection(c, anchor)
   end
 
   function section.Update()
+    volume.Sync()
     local items = ns.Voice.List()
     for i, it in ipairs(items) do fill(row(i), it, i, #items) end
     for i = #items + 1, #rows do rows[i]:Hide() end
@@ -382,6 +511,10 @@ function Options.VoiceSection(c, anchor)
   end)
   section.rows, section.box, section.mode, section.modeList = rows, box, mode, modeList
   section.status, section.url, section.race = status, url, race
+  section.volume, section.volumeValue, section.volumeNote = volume.slider, volume.value, volume.note
+  section.volumeLabel, section.volumeNew, section.SyncVolume = volume.label, volume.new, volume.Sync
+  section.channel, section.channelList, section.channelLabel = volume.channel, volume.channelList, volume.pick
+  section.channelNew = volume.channelNew
   return section, hint
 end
 
@@ -392,7 +525,7 @@ local function rows()
     { "dungeonPrimer", L["Dungeon primer prompt"], L["When you enter a dungeon, link its primer in chat, and each boss's story once you beat them."] },
     { "unitTooltips", L["Lore on NPC tooltips"], L["Add a one-line story to the tooltip of NPCs and mobs."] },
     { "itemTooltips", L["Notes on item tooltips"], L["Say when an item is wanted for a quest or starts one."] },
-    { "storylines", L["Show storylines on quests"], L["When a quest is part of a storyline, say so under its Lore button and at the top of its story."] },
+    { "storylines", L["Show storylines on quests"], L["When a quest is part of a storyline, say so under its title and at the top of its story."] },
     { "storylineChat", L["Storyline hints in chat"], L["When you turn in a quest that's part of a storyline, say in chat who to see next."] },
     { "minimap", L["Minimap button"], L["Also show a book button on the minimap."] },
     { "floatPlayer", L["Floating player"], L["While the panel is closed, show the narration player on screen when something plays or is queued. Drag it to move it."] },
@@ -400,15 +533,14 @@ local function rows()
     { "typing", L["Typing animation"], L["Answers type in quickly. Click an answer to show it all at once."] },
     { "chatLinks", L["Clickable names in answers"], L["Names of places, people and events in an answer open their own story. Shift-click one to add it to your playlist."] },
     { "showSpoilers", L["Show spoilers without asking"], L["Answers that give away a quest's twist or ending normally ask before revealing. Tick this to always show them."] },
-    { "readAloud", L["Read aloud"], L["Offer \"Read aloud\" with the game's own voice for answers without a recorded narration. Pick its voice and speed in Options > Accessibility > Text to Speech."] },
     { "onDemand", L["Narration: only when I press Play"], L["Nothing plays by itself: not as you arrive, on flights, at quest givers or in books. Play buttons, the Narrate key and your playlist still work. Also in the minimap button's right-click menu."] },
     { "narrateFlights", L["Narrate flights"], L["Read the story of each zone aloud while on a flight path."] },
     { "autoZone", L["Play narrations as you arrive"], L["When you reach a zone or place with a recorded narration, play it. Never during combat or a flight, and never over something already playing."] },
-    { "autoQuest", L["Narrate quest dialogue"], L["When a quest giver's window opens, play the quest's narration, or read the quest text aloud if Read aloud is on. It stops when the window closes."] },
-    { "readBooks", L["Read books aloud"], L["When you open a book, letter or plaque, read the page aloud with the game's voice if Read aloud is on. Turning the page reads the next one; closing it stops."] },
+    { "autoQuest", L["Narrate quest dialogue"], L["When a quest giver's window opens, play their recorded words or the quest's recorded story. A page with no recording stays as text. It stops when the window closes."] },
     { "skipHeard", L["Skip what you've heard"], L["Don't play a narration by itself again once this character has heard it. You can still play it any time; the Library ticks the ones you've heard."] },
     { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
     { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC."] },
+    { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["The Take a journey picture key (Key Bindings, AddOns) hides your interface for a moment, so the picture shows only the world. Not in combat: then the picture has your interface."] },
     { "capture", L["Keep the quest text you see"], L["Keep the quest, gossip and book text Forever shows you, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it."] },
     { "contributeButtons", L["Contribute buttons"], L["A small button on quest, gossip and book windows whose text Lore Forever doesn't have yet. Click it for a link to share that text."] },
     { "tips", L["Tips at login"], L["Now and then at login, a tip in chat about something Lore Forever can do."] },
@@ -553,10 +685,10 @@ function Options.Create()
       LoreForeverDB.settings[key] = self:GetChecked() and true or false
       if key == "minimap" and ns.MinimapButton then ns.MinimapButton() end
       if (key == "floatPlayer" or key == "reportCross") and ns.UI.UpdateNowPlaying then ns.UI.UpdateNowPlaying() end
-      if key == "readAloud" and p.voice then p.voice.Update() end
       if key == "onDemand" then ns.Voice.SetOnDemand(self:GetChecked()) end
       if key == "journey" and ns.Journey then ns.Journey.OnToggle() end
       if key == "storylines" and ns.UI and ns.UI.Refresh then ns.UI.Refresh() end
+      if key == "storylines" and ns.Hooks and ns.Hooks.RefreshQuestStory then ns.Hooks.RefreshQuestStory() end
       if key == "contributeButtons" and ns.Capture then ns.Capture.UpdateAll() end
     end)
     cb.key = key
@@ -664,6 +796,14 @@ end
 function Options.OnPreviewChanged()
   local voice = Options.panel and Options.panel.voice
   if voice and voice.UpdateSamples then voice.UpdateSamples() end
+end
+
+-- The game changed one of its settings (CVAR_UPDATE: System > Sound, a /console command, another add-on, or our own
+-- slider). Which one isn't read, since clients pass different arguments: the Voice volume slider shows the chosen
+-- channel's volume again, and whether the game has that channel switched on.
+function Options.OnCVarUpdate()
+  local voice = Options.panel and Options.panel.voice
+  if voice and voice.SyncVolume then voice.SyncVolume() end
 end
 
 function Options.Open()

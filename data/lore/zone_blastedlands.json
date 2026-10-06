@@ -16,7 +16,7 @@
  "sections": [
   {
    "title": "A Scarred Wasteland",
-   "body": "Before the First War, this region was a continuation of the dense fenlands known as the Black Morass. That lush swamp was utterly eradicated when the warlock Gul'dan and the possessed Medivh tore open the Dark Portal to unleash the orcish Horde. Chaotic fel energies bled through the dimensional breach, stripping all moisture and baking the earth into cracked red clay. When the portal frame was later destroyed at the end of the Second War, catastrophic shockwaves scorched the terrain further, transmuting the native stone into its unearthly crimson hue.",
+   "body": "Before the First War, this region was a continuation of the dense fenlands known as the Black Morass. That lush swamp was utterly eradicated when the warlock Gul'dan and the possessed Medivh tore open the Dark Portal to unleash the orcish Horde. Chaotic fel energies bled through the dimensional breach, stripping all moisture and baking the earth into cracked red clay. When the Dark Portal was later destroyed at the end of the Second War, catastrophic shockwaves scorched the terrain further, transmuting the native stone into its unearthly crimson hue.",
    "spoiler": 0
   },
   {
@@ -43,7 +43,7 @@
     "why is it dead",
     "what happened to the swamp"
    ],
-   "answer": "The Blasted Lands were once part of the marshy Black Morass. When the Dark Portal opened, raw demonic magic drained the region of life and moisture. When Khadgar later destroyed the portal's stone framework with the Skull of Gul'dan, the resulting catastrophic explosion seared the clay into hard crimson earth."
+   "answer": "The Blasted Lands were once part of the marshy Black Morass. When the Dark Portal opened, raw demonic magic drained the region of life and moisture. When the Dark Portal was later destroyed, the searing heat and chaotic energies of its destruction turned the clay into hard crimson earth."
   },
   {
    "q": "What is the Dark Portal?",
@@ -52,7 +52,7 @@
     "is the portal open",
     "what is the gateway"
    ],
-   "answer": "The Dark Portal is a massive dimensional gateway constructed to link Azeroth to Draenor, the sundered homeworld of the orcs now known as Outland. Though its stone frame was shattered to sever the bridge between worlds, the focal rift remains, guarded perpetually by Nethergarde Keep."
+   "answer": "The Dark Portal is a massive dimensional gateway constructed to link Azeroth to Draenor, the sundered homeworld of the orcs now known as Outland. Though the portal was destroyed to sever the bridge between worlds, its great stone frame still stands, watched perpetually by Nethergarde Keep."
   },
   {
    "q": "Who controls Nethergarde Keep?",

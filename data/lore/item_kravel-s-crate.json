@@ -7,7 +7,6 @@
  "meta": {
   "wiki": "Kravel's Crate",
   "quests": [
-   "quest:788",
    "quest:5762"
   ]
  },
@@ -81,7 +80,6 @@
  ],
  "related": [
   "npc:kravel-koalbeard",
-  "quest:788",
   "quest:5762",
   "subzone:shimmering-flats",
   "subzone:mirage-raceway",

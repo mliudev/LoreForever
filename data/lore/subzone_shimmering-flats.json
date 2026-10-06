@@ -46,7 +46,7 @@
     "what happened to rustmaul",
     "bugs in salt flats"
    ],
-   "answer": "The Rustmaul Dig Site was initially established by dwarven archaeologists and soon raided by a Horde strike force that slew them. However, the fighting stirred up a subterranean silithid nest, releasing swarms of insectoid horrors that drove off the surviving raiders and overran the southern flats."
+   "answer": "The Rustmaul Dig Site was established by dwarven archaeologists, who were soon attacked by a Horde raiding party led by Moktar Krin. Then the diggers inadvertently broke into a subterranean silithid hive, releasing swarms of insectoid horrors that drove everyone out and overran the southern flats."
   },
   {
    "q": "Where does the road through the Shimmering Flats lead?",
@@ -65,7 +65,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "Out on the Mirage Raceway, gnomish pilots and mechanostriders boldly defend gnomish engineering pride against the volatile, explosive designs of the Bilgewater and Steamwheedle cartels."
+   "text": "Out on the Mirage Raceway, gnomish pilots and mechanostriders boldly defend gnomish engineering pride against the volatile, explosive designs of their goblin rivals."
   }
  ],
  "keywords": [
@@ -85,7 +85,7 @@
   "subzone:rustmaul-dig-site",
   "npc:pozzik",
   "quest:1179",
-  "quest:788"
+  "quest:5762"
  ],
  "attribution": [
   "Shimmering Flats"

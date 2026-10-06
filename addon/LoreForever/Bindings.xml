@@ -11,4 +11,7 @@
   <Binding name="LOREFOREVER_PLAYLIST_NEXT" category="ADDONS">
     LoreForever_PlaylistNext()
   </Binding>
+  <Binding name="LOREFOREVER_PICTURE" category="ADDONS">
+    LoreForever_Picture()
+  </Binding>
 </Bindings>

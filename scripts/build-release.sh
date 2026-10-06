@@ -33,7 +33,8 @@ PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "Lor
 # scripts/release.sh stamps the core's version into them too. One not in addon/ yet is skipped by both: the quest
 # givers' voices until their recordings land, and the narrators in the language packs' languages (LOR-177,
 # LoreForever_Voice_<Default|Female>_<locale>) and their quest dialogue in those languages (LOR-226,
-# LoreForever_Voice_<Default|Female>_Quests_<locale>) until they're recorded.
+# LoreForever_Voice_<Default|Female>_Quests_<locale>) until they're recorded, and every other question and answer
+# (LOR-227, lore.answers: LoreForever_Voice_<Default|Female>_Answers_<Part>[_<locale>]) until its renders land.
 RELEASE_PACKS = ["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde",
                  "LoreForever_Voice_Female_Quests", "LoreForever_Voice_QuestGivers",
                  "LoreForever_Voice_Default_deDE", "LoreForever_Voice_Female_deDE",
@@ -43,7 +44,37 @@ RELEASE_PACKS = ["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance"
                  "LoreForever_Voice_Default_Quests_deDE", "LoreForever_Voice_Female_Quests_deDE",
                  "LoreForever_Voice_Default_Quests_esES", "LoreForever_Voice_Female_Quests_esES",
                  "LoreForever_Voice_Default_Quests_frFR", "LoreForever_Voice_Female_Quests_frFR",
-                 "LoreForever_Voice_Default_Quests_ptBR", "LoreForever_Voice_Female_Quests_ptBR"]
+                 "LoreForever_Voice_Default_Quests_ptBR", "LoreForever_Voice_Female_Quests_ptBR",
+                 "LoreForever_Voice_Default_Answers_Places", "LoreForever_Voice_Default_Answers_Lore",
+                 "LoreForever_Voice_Default_Answers_People", "LoreForever_Voice_Default_Answers_Quests1",
+                 "LoreForever_Voice_Default_Answers_Quests2", "LoreForever_Voice_Default_Answers_Quests3",
+                 "LoreForever_Voice_Female_Answers_Places", "LoreForever_Voice_Female_Answers_Lore",
+                 "LoreForever_Voice_Female_Answers_People", "LoreForever_Voice_Female_Answers_Quests1",
+                 "LoreForever_Voice_Female_Answers_Quests2", "LoreForever_Voice_Female_Answers_Quests3",
+                 "LoreForever_Voice_Default_Answers_Places_deDE", "LoreForever_Voice_Default_Answers_Lore_deDE",
+                 "LoreForever_Voice_Default_Answers_People_deDE", "LoreForever_Voice_Default_Answers_Quests1_deDE",
+                 "LoreForever_Voice_Default_Answers_Quests2_deDE", "LoreForever_Voice_Default_Answers_Quests3_deDE",
+                 "LoreForever_Voice_Female_Answers_Places_deDE", "LoreForever_Voice_Female_Answers_Lore_deDE",
+                 "LoreForever_Voice_Female_Answers_People_deDE", "LoreForever_Voice_Female_Answers_Quests1_deDE",
+                 "LoreForever_Voice_Female_Answers_Quests2_deDE", "LoreForever_Voice_Female_Answers_Quests3_deDE",
+                 "LoreForever_Voice_Default_Answers_Places_esES", "LoreForever_Voice_Default_Answers_Lore_esES",
+                 "LoreForever_Voice_Default_Answers_People_esES", "LoreForever_Voice_Default_Answers_Quests1_esES",
+                 "LoreForever_Voice_Default_Answers_Quests2_esES", "LoreForever_Voice_Default_Answers_Quests3_esES",
+                 "LoreForever_Voice_Female_Answers_Places_esES", "LoreForever_Voice_Female_Answers_Lore_esES",
+                 "LoreForever_Voice_Female_Answers_People_esES", "LoreForever_Voice_Female_Answers_Quests1_esES",
+                 "LoreForever_Voice_Female_Answers_Quests2_esES", "LoreForever_Voice_Female_Answers_Quests3_esES",
+                 "LoreForever_Voice_Default_Answers_Places_frFR", "LoreForever_Voice_Default_Answers_Lore_frFR",
+                 "LoreForever_Voice_Default_Answers_People_frFR", "LoreForever_Voice_Default_Answers_Quests1_frFR",
+                 "LoreForever_Voice_Default_Answers_Quests2_frFR", "LoreForever_Voice_Default_Answers_Quests3_frFR",
+                 "LoreForever_Voice_Female_Answers_Places_frFR", "LoreForever_Voice_Female_Answers_Lore_frFR",
+                 "LoreForever_Voice_Female_Answers_People_frFR", "LoreForever_Voice_Female_Answers_Quests1_frFR",
+                 "LoreForever_Voice_Female_Answers_Quests2_frFR", "LoreForever_Voice_Female_Answers_Quests3_frFR",
+                 "LoreForever_Voice_Default_Answers_Places_ptBR", "LoreForever_Voice_Default_Answers_Lore_ptBR",
+                 "LoreForever_Voice_Default_Answers_People_ptBR", "LoreForever_Voice_Default_Answers_Quests1_ptBR",
+                 "LoreForever_Voice_Default_Answers_Quests2_ptBR", "LoreForever_Voice_Default_Answers_Quests3_ptBR",
+                 "LoreForever_Voice_Female_Answers_Places_ptBR", "LoreForever_Voice_Female_Answers_Lore_ptBR",
+                 "LoreForever_Voice_Female_Answers_People_ptBR", "LoreForever_Voice_Female_Answers_Quests1_ptBR",
+                 "LoreForever_Voice_Female_Answers_Quests2_ptBR", "LoreForever_Voice_Female_Answers_Quests3_ptBR"]
 if sys.argv[2:]:
     sys.exit(f"build-release: unknown arguments: {' '.join(sys.argv[2:])} (the one zip carries every bundled pack; "
              "there's no --complete build any more)")

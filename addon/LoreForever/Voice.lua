@@ -1,6 +1,6 @@
--- Read lore aloud: narrated MP3 intros for the most-visited places, the game's text-to-speech for everything else,
--- and optional narration of each zone while on a flight.
--- The TTS API has changed shape across client versions, so every call is tried defensively.
+-- Read lore aloud with the recorded narration in the voice packs: as you arrive, at quest givers, on flights and
+-- whenever you press play. Recordings only: what no voice has recorded stays as text. The game's own text-to-speech is
+-- never used (Mike, 2026-10-05: now that the narrators have recorded everything, players found it jarring).
 
 local _, ns = ...
 local Voice = {}
@@ -9,88 +9,25 @@ local L = ns.L
 
 local function S() return (LoreForeverDB and LoreForeverDB.settings) or {} end
 
--- /lore debug: log every speech call and speech event to chat, for diagnosing TTS on a new client.
+-- /lore debug: log a recording that won't play to chat, for diagnosing narration on a new client.
 local function dbg(...)
   if not ns.debug then return end
   local parts = {}
   for i = 1, select("#", ...) do parts[#parts + 1] = tostring((select(i, ...))) end
-  DEFAULT_CHAT_FRAME:AddMessage("|cff88ccffLore Forever TTS:|r " .. table.concat(parts, " "))
+  DEFAULT_CHAT_FRAME:AddMessage("|cff88ccffLore Forever voice:|r " .. table.concat(parts, " "))
 end
 Voice.dbg = dbg
 
--- Colour codes, hyperlinks and escaped pipes shouldn't be read out.
+-- Text without colour codes, hyperlinks and escaped pipes (labels, and the length a narration's text runs).
 function Voice.Plain(text)
   return (tostring(text or ""):gsub("|c%x%x%x%x%x%x%x%x", ""):gsub("|r", ""):gsub("|H.-|h(.-)|h", "%1")
     :gsub("||", "|"):gsub("%s+", " "))
 end
 
--- Reading another language, an English voice mangles the text. The language pack names voices that speak it
--- (X-LoreForever-TTSVoices: "German|Deutsch|Hedda"): keep the player's voice if it's one of them, else take the
--- first installed one that is, else keep theirs and say once how to get one.
-local function speaks(v, hints)
-  local name = ns.Engine.lower(v and v.name or "")
-  for _, h in ipairs(hints) do
-    if name:find(h, 1, true) then return true end
-  end
-end
-function Voice.ForLanguage(voice, voices)
-  local hints = ns.lang and ns.lang.ttsVoices
-  if not (hints and hints[1]) or speaks(voice, hints) then return voice end
-  for _, v in ipairs(voices or {}) do
-    if speaks(v, hints) then return v end
-  end
-  if not Voice.warnedVoice then
-    Voice.warnedVoice = true
-    DEFAULT_CHAT_FRAME:AddMessage("|cffffd100Lore Forever:|r " .. string.format(
-      ns.L["no %s voice is installed for Read aloud, so your game voice reads the text. Add one in your system's speech settings."],
-      ns.lang.name or ""))
-  end
-  return voice
-end
-
--- The voice, speed and volume the player picked in Options > Accessibility > Text to Speech, falling back to the
--- first installed voice at normal speed. Returns voiceID, voice table, rate, volume.
-local function voiceSettings()
-  local VC, TS = _G.C_VoiceChat, _G.C_TTSSettings
-  local voices
-  if VC and VC.GetTtsVoices then
-    local ok, v = pcall(VC.GetTtsVoices)
-    if ok and type(v) == "table" then voices = v end
-  end
-  local id
-  if TS and TS.GetVoiceOptionID and _G.Enum and Enum.TtsVoiceType then
-    local ok, v = pcall(TS.GetVoiceOptionID, Enum.TtsVoiceType.Standard)
-    if ok then id = v end
-  end
-  local voice
-  for _, v in ipairs(voices or {}) do
-    if v.voiceID == id then voice = v end
-  end
-  voice = voice or (voices and voices[1])
-  voice = Voice.ForLanguage(voice, voices)
-  local rate, volume = 0, 100
-  if TS and TS.GetSpeechRate then
-    local ok, r = pcall(TS.GetSpeechRate)
-    if ok and r then rate = r end
-  end
-  if TS and TS.GetSpeechVolume then
-    local ok, v = pcall(TS.GetSpeechVolume)
-    if ok and v then volume = v end
-  end
-  return voice and voice.voiceID, voice, rate, volume
-end
-
--- The game's text-to-speech exists and the player hasn't turned "Read aloud" off.
-function Voice.Available()
-  if S().readAloud == false then return false end
-  local VC = _G.C_VoiceChat
-  return (_G.TextToSpeech_Speak ~= nil) or (VC ~= nil and VC.SpeakText ~= nil)
-end
-
 -- Recorded narration comes from voice packs (see Packs.lua). The player keeps an ordered list of voices (voiceOrder,
 -- with "auto" standing for the default pack of the reading language) and can untick some (voiceOff). Each clip plays
--- from the first ticked voice that has a current recording of it, then nothing (the caller falls back to
--- text-to-speech). A pack's clip is used only while it was recorded from the current text (its hash matches
+-- from the first ticked voice that has a current recording of it, then nothing (what no voice recorded stays as
+-- text). A pack's clip is used only while it was recorded from the current text (its hash matches
 -- ns.DB.clipHash), so a recording never contradicts the page. Packs are partial: most cover only some clips.
 local DEFAULT_PACK = "LoreForever_Voice_Default"
 local QUEST_GIVERS = "LoreForever_Voice_QuestGivers"   -- the quest givers' voices (LOR-225, see giverClip)
@@ -106,26 +43,87 @@ local function readingLocale() return ns.readingLocale or "enUS" end
 local function sameLanguage(a, b) return (a or "enUS"):sub(1, 2) == (b or "enUS"):sub(1, 2) end
 local function say(msg) DEFAULT_CHAT_FRAME:AddMessage("|cffffd100Lore Forever:|r " .. msg) end
 
--- The game's sound switches (System > Sound). With Enable Sound off nothing plays, and with Dialog off the game
--- refuses sounds on the Dialog channel: PlaySoundFile fails, so narration fell back to Read aloud (or silence) without
--- a word (Discord #general, 2026-10-04). Returns "all", "dialog" or nil.
 local function cvar(name)
   local get = (_G.C_CVar and C_CVar.GetCVar) or _G.GetCVar
   if not get then return nil end
   local ok, v = pcall(get, name)
   return ok and v or nil
 end
-function Voice.SoundOff()
-  if cvar("Sound_EnableAllSound") == "0" then return "all" end
-  if cvar("Sound_EnableDialog") == "0" then return "dialog" end
+
+-- The game's sound channels a recording can play on (Options > Narration voices > Play voices on, LOR-315; a player on
+-- Discord, 2026-10-05: "having the VO come out of the SFX or Music channel ... we can control gain better"), in
+-- Options' order. Each has its volume and its switch in System > Sound (Master has no switch of its own: Enable Sound
+-- is everything's), and the GlobalStrings its sliders and tick boxes are labelled with there.
+local CHANNELS = {
+  Dialog = { volume = "Sound_DialogVolume", switch = "Sound_EnableDialog", name = "DIALOG_VOLUME", switchName = "ENABLE_DIALOG" },
+  SFX = { volume = "Sound_SFXVolume", switch = "Sound_EnableSFX", name = "FX_VOLUME", switchName = "ENABLE_SOUNDFX" },
+  Music = { volume = "Sound_MusicVolume", switch = "Sound_EnableMusic", name = "MUSIC_VOLUME", switchName = "ENABLE_MUSIC" },
+  Ambience = { volume = "Sound_AmbienceVolume", switch = "Sound_EnableAmbience", name = "AMBIENCE_VOLUME",
+    switchName = "ENABLE_AMBIENCE" },
+  Master = { volume = "Sound_MasterVolume", name = "MASTER_VOLUME" },
+}
+Voice.CHANNELS = { "Dialog", "SFX", "Music", "Ambience", "Master" }
+
+-- The channel recordings are set to play on: a CHANNELS key, Dialog (as before LOR-315) unless Options says another.
+function Voice.ChannelChoice()
+  local key = S().voiceChannel
+  return CHANNELS[key] and key or "Dialog"
 end
 
--- Recordings play on the Dialog channel (its volume slider), or on Master while Dialog is off: the player installed a
--- narrator, and muting the game's NPC chatter shouldn't silence it.
-local function channel() return Voice.SoundOff() == "dialog" and "Master" or "Dialog" end
+-- A channel's name as the game's Sound settings show it, in the game's language (its volume slider's label; with
+-- `switch`, its on/off tick box's), or ours where the client has none.
+function Voice.ChannelName(key, switch)
+  local ch = CHANNELS[key] or CHANNELS.Dialog
+  local game = _G[switch and ch.switchName or ch.name]
+  if type(game) == "string" and game ~= "" then return game end
+  local ours = switch and { Dialog = L["Dialog"], SFX = L["Sound Effects"], Music = L["Music"], Ambience = L["Ambient Sounds"] }
+    or { Dialog = L["Dialog"], SFX = L["Effects"], Music = L["Music"], Ambience = L["Ambience"], Master = L["Master Volume"] }
+  return ours[key] or ours.Dialog
+end
+
+-- The game's sound switches (System > Sound): "all" with Enable Sound off (nothing plays), "channel" with the chosen
+-- channel's own switch off (the game refuses sounds on it: PlaySoundFile fails, so with Dialog off narration fell back
+-- to Read aloud, or silence, without a word: Discord #general, 2026-10-04), else nil.
+function Voice.SoundOff()
+  if cvar("Sound_EnableAllSound") == "0" then return "all" end
+  local switch = CHANNELS[Voice.ChannelChoice()].switch
+  if switch and cvar(switch) == "0" then return "channel" end
+end
+
+-- The channel a recording plays on: the chosen one, or Master while the game has it switched off (the player
+-- installed a narrator, and muting the game's NPC chatter, say, shouldn't silence it). Read as each one starts, so a
+-- new choice applies from the next recording and never restarts the one playing.
+function Voice.Channel() return Voice.SoundOff() == "channel" and "Master" or Voice.ChannelChoice() end
+local function channel() return Voice.Channel() end
+
+-- Options > Voice volume (LOR-295) is the chosen channel's own volume in System > Sound, read and set directly:
+-- our recordings follow it, and so does everything else the game plays on that channel. Nothing changes it while a
+-- recording plays and only the channel choice is saved, so whatever happens to the add-on (a crash, uninstalling it)
+-- the player's settings are the ones they chose. With the chosen channel switched off our recordings play on Master
+-- (Voice.Channel), whose volume Lore Forever leaves alone unless Master is the channel chosen.
+
+-- The chosen channel's volume (or `key`'s) as a whole percent, and whether the client said (100, its default, when
+-- it doesn't).
+function Voice.Volume(key)
+  local v = tonumber(cvar((CHANNELS[key or Voice.ChannelChoice()] or CHANNELS.Dialog).volume))
+  if not v then return 100, false end
+  return math.max(0, math.min(100, math.floor(v * 100 + 0.5))), true
+end
+
+-- Set the chosen channel's volume to `pct` percent, for good, as the game's own slider for it does. Returns true if
+-- the game took it.
+function Voice.SetVolume(pct)
+  pct = tonumber(pct)
+  local set = (_G.C_CVar and C_CVar.SetCVar) or _G.SetCVar
+  if not (pct and set) then return false end
+  pct = math.max(0, math.min(100, math.floor(pct + 0.5)))
+  local ok, done = pcall(set, CHANNELS[Voice.ChannelChoice()].volume, tostring(pct / 100))
+  return ok and done ~= false
+end
 
 Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.provided, Voice.servedBy = {}, {}, {}, 0, {}, {}
 Voice.questPaths, Voice.questServed = {}, {}   -- quest dialogue picked for an open quest window (Voice.QuestClip)
+Voice.answerPaths, Voice.answerServed = {}, {}   -- the answers packs' questions and answers (LOR-227, Refresh)
 
 -- Put a voice first in the list and tick it, along with the default voice (what choosing a voice always meant: that
 -- voice, then the default for the rest). "none" unticks every voice.
@@ -282,7 +280,7 @@ function Voice.LanguageGap()
   if not recorded then return nil end
   local shown = (ns.lang and ns.lang.locale == readingLocale() and ns.lang.name) or LANGUAGES[readingLocale()]
     or readingLocale()
-  return string.format(L["Your narration voices are recorded in %s and Lore Forever shows %s, so they can't play and the game's voice reads instead. To hear them, choose %s in Options > Language and reload."],
+  return string.format(L["Your narration voices are recorded in %s and Lore Forever shows %s, so they can't play. To hear them, choose %s in Options > Language and reload."],
     recorded, shown, recorded)
 end
 
@@ -473,6 +471,44 @@ function Voice.Refresh()
     end
   end
   Voice.questRanked = questRanked
+  -- Every other question and answer (LOR-227): the answers packs (LoreForever_Voice_<voice>_Answers_<Part>, and
+  -- _<locale> in another language) extend a voice like a lands pack, with <entry>#faqN clips ns.DB.clipHash doesn't
+  -- list. Their current hashes are ns.DB.answerHash[entry], one string with #faqN's at 6N-5..6N (a language pack's
+  -- replaces it: Lang.lua). Each voice with a current recording, in list order, the voice that plays the clip's anchor
+  -- first (anchorOf: a story's questions keep its narrator); a voice whose packs in the language shown are only ones
+  -- that extend it plays them too, as with quest dialogue. Kept apart from Voice.active / servedBy, so the Listen tab,
+  -- the counts and the lands hint stay the lore narrations'.
+  local answerHash, answerRanked = (ns.DB and ns.DB.answerHash) or {}, {}
+  for _, name in ipairs(questChain) do
+    for _, pack in ipairs(packsOf[name]) do
+      local data = ns.Packs.data[pack]
+      if data and data.clips and pack:find("_Answers_", 1, true) then
+        for id, h in pairs(data.clips) do
+          local base, n = id:match("^(.-)#faq(%d+)$")
+          local all = base and answerHash[base]
+          n = tonumber(n)
+          if type(all) == "string" and n and all:sub(6 * n - 5, 6 * n) == h then
+            answerRanked[id] = answerRanked[id] or {}
+            table.insert(answerRanked[id], { name, Voice.ClipPath(pack, id, data.ext) })
+          end
+        end
+      end
+    end
+  end
+  local answerPaths, answerServed = {}, {}
+  for id, list in pairs(answerRanked) do
+    local anchor = anchorOf(id, mode)
+    local keep = anchor and servedBy[anchor]
+    if keep and keep ~= list[1][1] then
+      for i = 2, #list do
+        if list[i][1] == keep then table.insert(list, 1, table.remove(list, i)) break end
+      end
+    end
+    local paths = {}
+    for _, voice in ipairs(list) do paths[#paths + 1] = voice[2] end
+    answerPaths[id], answerServed[id] = paths, list[1][1]
+  end
+  Voice.answerPaths, Voice.answerServed = answerPaths, answerServed
   -- Recordings outside the voice packs (journey chapters the companion app narrated: Journey.LoadChapters).
   for id, paths in pairs(Voice.extra or {}) do active[id], servedBy[id] = paths, nil end
   Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.ready = active, chain, stats, total, true
@@ -482,8 +518,8 @@ end
 -- The voice (its pack name) that plays a clip and the file it plays first, or nil if no voice has the clip.
 function Voice.Resolve(id)
   if not Voice.ready then Voice.Refresh() end
-  local paths = Voice.active[id] or Voice.questPaths[id]
-  return Voice.servedBy[id] or Voice.questServed[id], paths and paths[1]
+  local paths = Voice.active[id] or Voice.questPaths[id] or Voice.answerPaths[id]
+  return Voice.servedBy[id] or Voice.questServed[id] or Voice.answerServed[id], paths and paths[1]
 end
 
 -- Voices installed since the last login go to the top of the list (installing one means you want to hear it; a
@@ -594,24 +630,21 @@ local function noticeMissing()
   local why, code = Voice.Unusable(choice)
   if code == "LANGUAGE" and Voice.LanguageGap() then return end   -- (noticeLanguage says why, and how to hear it)
   local title = Voice.PackName(choice)
-  -- What plays instead: the default voice, Read aloud, nothing, or the next voice in the list (named).
+  -- What plays instead: the default voice, nothing, or the next voice in the list (named).
   local nextVoice = Voice.chain[1]
-  local fallback = (nextVoice and isDefault(nextVoice) and 1) or (nextVoice and 4) or (Voice.Available() and 2) or 3
+  local fallback = (nextVoice and isDefault(nextVoice) and 1) or (nextVoice and 3) or 2
   local nextTitle = nextVoice and Voice.PackName(nextVoice)
   if code == "MISSING" then
     say(string.format(({ L["voice pack %s isn't installed; using the default voice."],
-      L["voice pack %s isn't installed; using Read aloud."],
       L["voice pack %s isn't installed; using no narration."],
       L["voice pack %s isn't installed; using %s."] })[fallback], title, nextTitle))
     say(string.format(L["Get it again at %s, then type /reload."], Voice.DOWNLOADS))
   elseif why then
     say(string.format(({ L["voice pack %s can't be used: %s; using the default voice."],
-      L["voice pack %s can't be used: %s; using Read aloud."],
       L["voice pack %s can't be used: %s; using no narration."],
       L["voice pack %s can't be used: %s; using %s."] })[fallback], title, why, nextTitle))
   else
     say(string.format(({ L["voice pack %s didn't load; using the default voice."],
-      L["voice pack %s didn't load; using Read aloud."],
       L["voice pack %s didn't load; using no narration."],
       L["voice pack %s didn't load; using %s."] })[fallback], title, nextTitle))
   end
@@ -650,10 +683,11 @@ function Voice.OnCombatEnded()
   if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
 end
 
--- A recorded narration exists for this entry with the current voice (or quest dialogue Voice.QuestClip picked).
+-- A recorded narration exists for this entry with the current voice (or quest dialogue Voice.QuestClip picked, or a
+-- question and answer from an answers pack).
 function Voice.HasAudio(key)
   if not Voice.ready then Voice.Refresh() end
-  return key ~= nil and (Voice.active[key] or Voice.questPaths[key]) ~= nil
+  return key ~= nil and (Voice.active[key] or Voice.questPaths[key] or Voice.answerPaths[key]) ~= nil
 end
 
 -- Every clip id the current voice can play (id -> paths), for the Listen tab.
@@ -662,15 +696,16 @@ function Voice.Clips()
   return Voice.active
 end
 
--- The choices for Options and /lore voice: Default, each installed voice pack, Game voice only.
+-- The choices for the one-voice picker: Default, each installed voice pack, No narration ("none": every voice off; it
+-- was "Game voice only" while the game's text-to-speech read what had no recording).
 -- Loading a voice pack only reads its list of clips, so all of them are loaded here to show their counts.
 function Voice.Choices()
   local def = Voice.DefaultPack()
   local defRec = def and ns.Packs.Get(def)
-  local defWhy, defCode
-  if not def then defWhy, defCode = defaultWhy() end
+  local defWhy
+  if not def then defWhy = defaultWhy() end
   local out = { { value = "auto", label = defRec and string.format(L["Default (%s)"], defRec.title) or L["Default"],
-    note = defCode == "MISSING" and L["No default voice installed: Read aloud only"] or defWhy } }
+    note = defWhy } }
   local listed, voices = {}, ns.Packs.List("voice")
   for _, r in ipairs(voices) do
     -- One choice per voice (Voice.KeyOf), shown by its pack in the language the add-on shows.
@@ -688,29 +723,25 @@ function Voice.Choices()
           or rec.title }
     end
   end
-  out[#out + 1] = { value = "none", label = L["Game voice only"] }
+  out[#out + 1] = { value = "none", label = L["No narration"] }
   return out
 end
 
--- The line under the voice list: how many narrations your voices cover together and what fills the gaps, with the
--- first voice's credit. (Each voice's own counts are on its row: Voice.List.)
+-- The line under the voice list: how many narrations your voices cover together (the rest show as text only), with
+-- the first voice's credit. (Each voice's own counts are on its row: Voice.List.)
 function Voice.Status()
-  if Voice.Current() == "none" then
-    if S().readAloud == false then return L["Recorded narrations are off, and so is Read aloud."] end
-    return L["Recorded narrations are off. Read aloud uses the game's voice (Options > Accessibility > Text to Speech)."]
-  end
+  if Voice.Current() == "none" then return L["Recorded narrations are off: tick a voice to hear them."] end
   local lines, first = {}, Voice.chain[1]
   if Voice.deferred then lines[#lines + 1] = L["Some voices load after combat."] end
   if not first then
-    lines[#lines + 1] = Voice.LanguageGap() or L["No recorded narrations installed. Read aloud uses the game's voice."]
+    lines[#lines + 1] = Voice.LanguageGap()
+      or string.format(L["No recorded narrations installed. Get a voice at %s, then type /reload."], Voice.DOWNLOADS)
     return table.concat(lines, " ")
   end
   if Voice.SoundOff() == "all" then lines[#lines + 1] = L["The game's sound is off, so recorded narrations can't play (System > Sound)."] end
   local covered = 0
   for _ in pairs(Voice.servedBy) do covered = covered + 1 end
-  local count = (covered >= Voice.total and L["%d of %d narrations."])
-    or (Voice.Available() and L["%d of %d narrations; the rest use Read aloud."])
-    or L["%d of %d narrations; the rest show as text only."]
+  local count = covered >= Voice.total and L["%d of %d narrations."] or L["%d of %d narrations; the rest show as text only."]
   local rec = ns.Packs.Get(first)
   lines[#lines + 1] = (rec and rec.credit and (rec.credit:gsub("%.$", "") .. ". ") or "")
     .. string.format(count, covered, Voice.total)
@@ -844,13 +875,11 @@ function Voice.StopPreview()
   if Voice.previewing then Voice.Stop() end
 end
 
--- Play a voice's sample (its X-LoreForever-Sample clip, else its first clip), or a line of the game's voice. Returns
--- true, or false and why not in words for Options (LOR-136: it said only "Nothing to preview").
+-- Play a voice's sample (its X-LoreForever-Sample clip, else its first clip). Returns true, or false and why not in
+-- words for Options (LOR-136: it said only "Nothing to preview"). "none" (no narration) has nothing to play.
 function Voice.Preview(value)
   if ns.UI and ns.UI.StopAll then ns.UI.StopAll() else Voice.Stop() end
-  if value == "none" then
-    return Voice.Speak(L["This is the game's own voice, from Options, Accessibility, Text to Speech."])
-  end
+  if value == "none" then return false end
   if Voice.SoundOff() == "all" then
     return false, L["The game's sound is off, so recorded narrations can't play (System > Sound)."]
   end
@@ -890,7 +919,7 @@ function Voice.Preview(value)
     Voice.ClipPath(name, ids[1], data.ext))
 end
 
--- Say once a session why a recording didn't play, so the player isn't left with Read aloud (or silence) and no reason.
+-- Say once a session why a recording didn't play, so the player isn't left with silence and no reason.
 local function warnCantPlay(path)
   if Voice.warnedCantPlay then return end
   Voice.warnedCantPlay = true
@@ -906,16 +935,6 @@ local function now() return GetTime and GetTime() or 0 end
 function Voice.Stop()
   if Voice.handle and _G.StopSound then pcall(StopSound, Voice.handle) end
   Voice.handle = nil
-  local hadSpeech = Voice.ttsActive or Voice.pending
-  Voice.pending = nil
-  -- Only stop speech that's actually ours and running: stopping idle TTS has been seen to swallow what comes next.
-  local VC = _G.C_VoiceChat
-  if hadSpeech and VC and VC.StopSpeakingText then
-    local ok, err = pcall(VC.StopSpeakingText)
-    dbg("StopSpeakingText", ok, err)
-    Voice.stoppedAt = now()
-  end
-  Voice.ttsActive = false
   setPreview(nil)
 end
 
@@ -975,17 +994,19 @@ end
 
 -- Play an entry's recorded narration: the chosen voice's file, or the next voice's if the game can't play it (e.g.
 -- the file is missing from the pack). Returns true if it started. Narrations are marked heard; quest dialogue isn't.
+-- An arrival story waiting for its turn that plays some other way (you play it, or your playlist does) stops waiting.
 -- Voice.lastClip keeps the recording that played last, after it ends too: its clip id, the pack whose file played
 -- and the hash that file was recorded from, for "Report a problem with this narration" (ClipReport.lua, LOR-232).
 function Voice.Play(key)
-  local paths = Voice.HasAudio(key) and (Voice.active[key] or Voice.questPaths[key])
+  local paths = Voice.HasAudio(key) and (Voice.active[key] or Voice.questPaths[key] or Voice.answerPaths[key])
   if not paths or not _G.PlaySoundFile then return false end
   Voice.Stop()
   for _, path in ipairs(paths) do
     local ok, willPlay, handle = pcall(PlaySoundFile, path, channel())
     if ok and willPlay then
       Voice.handle = handle
-      if Voice.active[key] then Voice.MarkHeard(key) end
+      if Voice.active[key] or Voice.answerPaths[key] then Voice.MarkHeard(key) end
+      if Voice.autoWaiting and Voice.autoWaiting.key == key then Voice.autoWaiting = nil end
       local pack = Voice.PackOf(path)
       local data = pack and ns.Packs.data[pack]
       Voice.lastClip = { id = key, pack = pack, path = path, hash = data and data.clips and data.clips[key] or nil }
@@ -997,120 +1018,21 @@ function Voice.Play(key)
   return false
 end
 
+-- Whether the recording that started plays on: true or false when the client can tell (C_Sound.IsPlaying), nil when
+-- it can't (UI's watchPlayback then goes by the length of its text).
 function Voice.IsPlaying()
   if Voice.handle and _G.C_Sound and C_Sound.IsPlaying then
     local ok, playing = pcall(C_Sound.IsPlaying, Voice.handle)
     return ok and playing
   end
-  if Voice.pending then return true end
-  if Voice.finishedSeen then return Voice.ttsActive end   -- the client reports TTS endings: trust them
   return nil   -- unknown
 end
 
--- The ways to start speech, in order of preference. Blizzard's TextToSpeech_Speak helper queues speech, and after a
--- manual stop that queue can stay blocked, so later answers never play; calling SpeakText directly with immediate
--- playback avoids the queue. The signature changed in 11.x: older clients take a destination (and have
--- Enum.VoiceTtsDestination), newer ones take (voice, text, rate, volume, overlap).
-local METHODS = {
-  direct = function(id, _, text, rate, volume)
-    local VC = _G.C_VoiceChat
-    if not (VC and VC.SpeakText and id) then return false, "no SpeakText" end
-    local dests = _G.Enum and Enum.VoiceTtsDestination
-    if dests then
-      return pcall(VC.SpeakText, id, text, dests.LocalPlayback or 1, rate, volume)
-    end
-    return pcall(VC.SpeakText, id, text, rate, volume, true)
-  end,
-  helper = function(_, voice, text)
-    if not (_G.TextToSpeech_Speak and voice) then return false, "no TextToSpeech_Speak" end
-    return pcall(TextToSpeech_Speak, text, voice)
-  end,
-  legacy = function(id, _, text, rate, volume)
-    local VC = _G.C_VoiceChat
-    if not (VC and VC.SpeakText and id) then return false, "no SpeakText" end
-    return pcall(VC.SpeakText, id, text, 1, rate, volume)
-  end,
-}
-Voice.METHOD_ORDER = { "direct", "helper", "legacy" }
-
-local function speakNow(text, only)
-  local id, voice, rate, volume = voiceSettings()
-  -- No speech voices at all: the game's text-to-speech uses the system's, and Mac, Linux and Wine setups often have
-  -- none. Say so once instead of staying silent (LOR-43); recorded narrations don't need them.
-  if not id then
-    if not Voice.warnedNoVoices then
-      Voice.warnedNoVoices = true
-      say(L["Read aloud can't speak: your system has no text-to-speech voices (common on Mac and Linux). Recorded narrations still play."])
-    end
-    return false
-  end
-  for _, name in ipairs(only and { only } or Voice.METHOD_ORDER) do
-    local ok, err = METHODS[name](id, voice, text, rate, volume)
-    dbg("speak via", name, "voice", id, "rate", rate, "volume", volume, "->", ok, err)
-    if ok then
-      Voice.ttsActive, Voice.spokeAt, Voice.method = true, now(), name
-      return true
-    end
-  end
-  return false
-end
-
--- /lore ttstest: say "one", "two", "three" through each method a few seconds apart, so a player can report which
--- they heard (and on which client the helper or the direct call is the one that works).
-function Voice.Test()
-  local say = function(m) DEFAULT_CHAT_FRAME:AddMessage("|cffffd100Lore Forever:|r " .. m) end
-  say("speech test: listen for \"one\", \"two\" and \"three\" and tell us which you heard.")
-  for i, name in ipairs(Voice.METHOD_ORDER) do
-    C_Timer.After((i - 1) * 4, function()
-      Voice.Stop()
-      local word = ({ "one", "two", "three" })[i]
-      local ok = speakNow("Test " .. word, name)
-      say(string.format("  %s = method %s (%s)", word, name, ok and "sent" or "not available"))
-    end)
-  end
-end
-
--- Text-to-speech stops asynchronously: a new utterance started right after StopSpeakingText gets cancelled along
--- with the old one (which is why only the first Listen used to work). So after a stop, wait a moment first.
-local RESTART_DELAY = 0.35
-function Voice.Speak(text)
-  text = Voice.Plain(text)
-  if text == "" or not Voice.Available() then return false end
-  local wasSpeaking = Voice.ttsActive
-  Voice.Stop()
-  if wasSpeaking or (Voice.stoppedAt and now() - Voice.stoppedAt < RESTART_DELAY) then
-    local token = {}
-    Voice.pending = token
-    C_Timer.After(RESTART_DELAY, function()
-      if Voice.pending == token then
-        Voice.pending = nil
-        if not speakNow(text) and ns.UI and ns.UI.StopAll then ns.UI.StopAll() end
-      end
-    end)
-    return true
-  end
-  return speakNow(text)
-end
-
--- VOICE_CHAT_TTS_PLAYBACK_FINISHED fires for stopped utterances too, sometimes after the next one has started, so
--- only trust it once the current one has had time to begin.
-function Voice.OnTTSStarted(...)
-  dbg("event STARTED", ...)
-  Voice.ttsActive = true
-end
-
-function Voice.OnTTSFinished(...)
-  dbg("event FINISHED/FAILED", ...)
-  Voice.finishedSeen = true
-  if Voice.pending or (Voice.spokeAt and now() - Voice.spokeAt < 1) then return false end
-  Voice.ttsActive = false
-  return true
-end
-
--- The recorded narration if there is one, otherwise text-to-speech of `text`. When that's because every installed
--- voice is in another language (Voice.LanguageGap), the first Listen of the session says so in chat as well: the
--- login line is easy to miss, and with Read aloud off nothing else would show why nothing plays (LOR-136).
-function Voice.Narrate(key, text)
+-- Play `key`'s recorded narration (Voice.Play): there's no other way to hear it, so what no voice recorded stays as
+-- text. When nothing can play because every installed voice is in another language (Voice.LanguageGap), the first try
+-- of the session says so in chat: the login line is easy to miss, and nothing else would show why nothing plays
+-- (LOR-136). Returns true if it started.
+function Voice.Narrate(key)
   if Voice.Play(key) then return true end
   if not Voice.toldLanguageOnPlay then
     local gap = Voice.LanguageGap()
@@ -1119,7 +1041,7 @@ function Voice.Narrate(key, text)
       say(gap)
     end
   end
-  return Voice.Speak(text)
+  return false
 end
 
 -- Narration: only when I press Play (Options, the minimap button's right-click menu, /lore ondemand; LOR-138): nothing
@@ -1153,11 +1075,14 @@ local function autoPlayingNow()
   return cur and cur.flight and UI.playingId == cur.id or false
 end
 
--- Flight narration: when a taxi flight starts, and each time it crosses into a new zone, tell that zone's story.
+-- Flight narration: when a taxi flight starts, and each time it crosses into a new zone, play that zone's recorded
+-- story (a zone no voice recorded passes in silence). Voice.flying notes a flight with flight narration off too:
+-- landing is arriving (Voice.OnLanded).
 local narrated = {}
 function Voice.OnTaxiCheck()
-  if not S().narrateFlights or Voice.OnDemand() then return end
   local onTaxi = UnitOnTaxi and UnitOnTaxi("player")
+  if onTaxi then Voice.flying = true end
+  if not S().narrateFlights or Voice.OnDemand() then return end
   if not onTaxi then
     narrated = {}
     return
@@ -1170,30 +1095,52 @@ function Voice.OnTaxiCheck()
   if not e or narrated[zk] then return end
   if ns.UI and ns.UI.speaking and ns.UI.playingId == key then narrated[zk] = true return end
   narrated[zk] = true
-  local first = e.sec and e.sec[1]
   local UI = ns.UI
   if UI and UI.PlaylistAddFlight and UI.CanQueue(key) then
     -- Recorded zone stories go through the playlist, so crossing zones quickly queues them one after another
     -- instead of cutting off the one playing.
     local i = UI.PlaylistAddFlight(key) and UI.PlaylistIndex(key)
     if i then UI.pl.items[i].flight = true end
-  elseif UI and UI.ListenTo and UI.EntryTarget then
-    -- Read aloud (no recording): only when nothing else is playing, never over it.
-    if not UI.IsBusy() then
-      UI.ListenTo(UI.EntryTarget(key))
-      markAuto()
-    end
-  else
-    Voice.Narrate(key, e.n .. ". " .. e.s .. ((first and (first.sp or 0) == 0) and (" " .. first.b) or ""))
   end
 end
 
 -- Playing on arrival (Options > Play narrations as you arrive): reaching a zone or a place with a recorded narration
 -- plays it, once per character (or once a session with "Skip what you've heard" off). Arrivals settle for a moment
--- first, so a loading screen or hopping back and forth across a zone line plays only where you end up. Nothing starts
--- in combat (it waits for combat to end), on a flight (flight narration has those) or over anything already playing.
+-- first, so a loading screen or hopping back and forth across a zone line plays only where you end up.
+--
+-- What plays by itself, and when (Mike on stream, 2026-10-04: "the behavior needs to be better specified"). The
+-- tests follow these rules one by one: wow_sim.py's arrival_queue_tests and arrival_once_tests.
+--   What can cut off what
+--   - Whatever you play yourself (a play button, Listen, the Narrate key, your playlist's Play or Next) replaces what
+--     plays. Adding to the playlist queues behind it.
+--   - A quest giver's page cuts off an arrival story or the last quest's page (Voice.OnQuestFrame). The game's own
+--     cutscenes, movies and talking heads stop whatever started by itself (Voice.OnGameTalk).
+--   - An arrival story cuts off nothing. Neither does a book page or a flight's zone story (it joins the playlist).
+--   What waits
+--   - An arrival story waits its turn while anything else plays (or the playlist is between two stories), in combat,
+--     while a quest giver's or gossip window is open, during the game's cutscenes and on a flight. One waits at a
+--     time: arriving somewhere else replaces it, while a zone's story keeps its place as you cross the zone.
+--   - Its turn comes when that ends by itself: what played finishes, the fight ends, the window closes, the cutscene
+--     ends, you land (landing is arriving; the zones flown over aren't). Stopping narration yourself never starts it.
+--   - Cut off by a quest giver or a cutscene, it waits again and gets one more go from the top, never a second.
+--   What expires
+--   - When its turn comes, it's dropped if you've left its place (its zone, for a zone's story) or if more than
+--     ARRIVAL_WAIT seconds have passed since you arrived.
+--   - One that never started can start later: dropped because you left, it plays when you come back; out of time,
+--     it doesn't start by itself again this session, but plays next session (it isn't kept as heard).
+--   Once
+--   - One that started never starts by itself again, whether it played to the end or was cut off (LOR-285: a player
+--     heard stories start over each time they came back). It's kept as heard from the moment it starts (Voice.Play),
+--     per character, and Voice.autoSession keeps it off for the session with "Skip what you've heard" off. The one
+--     more go above is the only second start. Listen, the Narrate key, Shift-click and the playlist play it any time.
 local AUTO_SETTLE = 3
-Voice.autoSession = {}   -- clip ids played automatically this session
+-- 90 s: the longest arrival story runs 72 s (median 51 s; the default voice's zone and place stories, 2026-10-05), so
+-- one that arrives just as another starts can wait it out, or a fight or a quest giver's page, and still play. Later
+-- than that it's out of step with where you are: on stream Duskwood's story started two minutes after Mike landed in
+-- Darkshire, and he called it "very much desynced".
+local ARRIVAL_WAIT = 90
+local TURN_GAP = 1.5   -- from the end of what played to a waiting arrival story (the playlist's gap between two)
+Voice.autoSession = {}   -- arrival stories that started by themselves (or ran out of time) this session
 
 local function inCombat()
   return (InCombatLockdown and InCombatLockdown()) or (UnitAffectingCombat and UnitAffectingCombat("player")) or false
@@ -1231,44 +1178,72 @@ local function closePages(prefix)
   end
 end
 
--- What to play where you are: the zone's story the first time you're there, then the place's.
-local function arrivalKey()
-  local db = ns.DB or {}
+-- Where you are: the zone's key ("duskwood"), the places you're in (a set of subzone entry keys) and the subzone's.
+-- Inside some buildings Forever names the building as the zone and gives no subzone ("Darkshire Town Hall"): that's
+-- one of the places you're in, and its entry says the zone.
+local function where()
+  local db, places = ns.DB or {}, {}
+  local function place(name)
+    local k = type(name) == "string" and name ~= "" and db.index and db.index.name[ns.Engine.lower(name)]
+    local e = k and db.entries[k]
+    if e and e.t == "subzone" then return k, e end
+  end
   local zone = GetRealZoneText and GetRealZoneText()
-  local zk = zone and zone ~= "" and ns.engine and ns.engine:ZoneKey(zone)
-  local sub = GetSubZoneText and GetSubZoneText()
-  local sk = sub and sub ~= "" and db.index and db.index.name[ns.Engine.lower(sub)]
-  if sk and not (db.entries[sk] and db.entries[sk].t == "subzone") then sk = nil end
+  local zk = type(zone) == "string" and zone ~= "" and ns.engine and ns.engine:ZoneKey(zone) or nil
+  if not zk then
+    local k, e = place(zone)
+    if k then zk, places[k] = e.z, true end
+  end
+  local sk = place(GetSubZoneText and GetSubZoneText())
+  if sk then places[sk] = true end
+  return zk, places, sk
+end
+
+-- What to play where you are: the zone's story the first time you're there, then the place's. The one waiting its
+-- turn keeps its place in line while you're there.
+local function arrivalKey()
+  local zk, _, sk = where()
+  local w = Voice.autoWaiting
   for _, key in ipairs({ zk and ("zone:" .. zk) or false, sk or false }) do
-    if key and Voice.HasAudio(key) and fresh(key) then return key end
+    if key and Voice.HasAudio(key) and ((w and w.key == key) or fresh(key)) then return key end
   end
 end
 
-local function autoPlay()
-  Voice.autoWaiting = nil
+-- Whether you're still in (or over) what an arrival story is about: its zone, for a zone's story. A zone the data
+-- doesn't know (a building it has no entry for) doesn't count as leaving.
+local function stillThere(key)
+  local zk, places = where()
+  local zone = key:match("^zone:(.+)$")
+  if zone then return zk == nil or zk == zone end
+  return places[key] == true
+end
+
+local function onTaxi() return (UnitOnTaxi and UnitOnTaxi("player")) and true or false end
+
+-- Something plays, or the playlist is between two stories or waiting for one to end.
+local function busy()
   local UI = ns.UI
-  if S().autoZone == false or Voice.OnDemand() or Voice.Current() == "none" or not (UI and UI.frame) then return end
-  if inCombat() or talking() or Voice.GameTalking() then
-    Voice.autoWaiting = true
-    return
-  end
-  if (UnitOnTaxi and UnitOnTaxi("player")) or UI.IsBusy() then return end
-  local key = arrivalKey()
-  local target = key and UI.EntryTarget(key)
-  if not target then return end
+  return UI.IsBusy() or UI.pl.state == "waiting"
+end
+
+-- Start the arrival story that waited (w: { key, at = when you arrived, again = it was cut off once }). Returns true
+-- if it started.
+local function startArrival(w)
+  local UI, key = ns.UI, w.key
+  local target = UI.EntryTarget(key)
+  if not target then return false end
   Voice.autoSession[key] = true
-  local heard = Voice.Heard(key)
   if UI.frame:IsShown() then
     -- Panel open: the story goes in the chat too, as when you press play yourself.
     UI.PlayEntry(key, string.format(L["Tell me the story of %s"], target.label))
   else
     UI.ListenTo(target)
   end
-  if not (UI.speaking and UI.playingId == key) then return end
+  if not (UI.speaking and UI.playingId == key) then return false end
   -- It started by itself, so a quest giver may take over from it (Voice.OnQuestFrame).
-  Voice.autoPlaying = { key = key, token = UI.playToken, heard = heard }
+  Voice.autoPlaying = { key = key, token = UI.playToken, at = w.at, again = w.again }
   markAuto()
-  if UI.frame:IsShown() then return end
+  if UI.frame:IsShown() then return true end
   local line = string.format(L["now playing: %s. %s"], target.label, ns.Hooks.Link(L["Read along"], "entry", key))
     .. " " .. ns.Hooks.Link(L["Stop"], "listen", key)
   if not S().autoZoneTold then
@@ -1276,6 +1251,49 @@ local function autoPlay()
     line = line .. " " .. L["(Narrations play as you arrive; Options > Play narrations as you arrive turns this off.)"]
   end
   say(line)
+  return true
+end
+
+-- Arrival stories are off: Options, "only when I press Play", no recorded voice, or no panel yet.
+local function arrivalsOff()
+  return S().autoZone == false or Voice.OnDemand() or Voice.Current() == "none" or not (ns.UI and ns.UI.frame)
+end
+
+-- The waiting arrival story's turn (the rules above): it starts if nothing stands in its way, keeps waiting if
+-- something does, and is dropped once it's out of step. Returns true if it started.
+function Voice.ArrivalTurn()
+  local w = Voice.autoWaiting
+  if not w then return false end
+  if arrivalsOff() then
+    Voice.autoWaiting = nil
+    return false
+  end
+  if now() - w.at > ARRIVAL_WAIT then
+    Voice.autoWaiting, Voice.autoSession[w.key] = nil, true
+    return false
+  end
+  if not (stillThere(w.key) and Voice.HasAudio(w.key)) then   -- (or the voice now playing has no recording of it)
+    Voice.autoWaiting = nil
+    return false
+  end
+  if inCombat() or talking() or Voice.GameTalking() or onTaxi() or busy() then return false end
+  Voice.autoWaiting = nil
+  return startArrival(w)
+end
+
+-- You've settled somewhere: what's narrated here becomes the arrival story that waits (unless it already is), then
+-- it's that story's turn. On a flight nothing does: flight narration has the zones you fly over, and where you land
+-- is an arrival of its own (Voice.OnLanded).
+local function autoPlay()
+  if arrivalsOff() then
+    Voice.autoWaiting = nil
+    return
+  end
+  if onTaxi() then return end
+  Voice.flying = nil   -- (landed, if PLAYER_CONTROL_GAINED didn't come)
+  local key, w = arrivalKey(), Voice.autoWaiting
+  if key and not (w and w.key == key) then Voice.autoWaiting = { key = key, at = now() } end
+  Voice.ArrivalTurn()
 end
 
 -- Called on every zone or subzone change, and at login.
@@ -1288,18 +1306,34 @@ function Voice.OnArrive()
   end)
 end
 
--- Combat ended, or you stopped talking to someone: an arrival that came meanwhile plays now (if you're still there
--- and nothing else plays). It settles first, so walking from one quest giver to the next doesn't start it.
+-- Combat ended, or you stopped talking to someone: the waiting arrival story's turn (if you're still there). It settles
+-- first, so walking from one quest giver to the next doesn't start it.
 function Voice.OnCombatOver()
   if Voice.autoWaiting then Voice.OnArrive() end
 end
 Voice.OnTalkOver = Voice.OnCombatOver
 
+-- What played ended by itself (UI's watchPlayback): the waiting arrival story's turn, after the playlist's gap. The
+-- playlist going on to its next story keeps it waiting.
+function Voice.OnNarrationEnded()
+  if not Voice.autoWaiting then return end
+  C_Timer.After(TURN_GAP, function() Voice.ArrivalTurn() end)
+end
+
+-- PLAYER_CONTROL_GAINED: off a flight, landing is arriving where you land. Nothing marked it before, so a zone's story
+-- waited for the next zone line: on stream (2026-10-04) Duskwood's came two minutes after Mike landed in Darkshire, as
+-- he walked out of its town hall.
+function Voice.OnLanded()
+  if not Voice.flying or onTaxi() then return end
+  Voice.flying = nil
+  Voice.OnArrive()
+end
+
 -- Quest dialogue (Options > Narrate quest dialogue): when a quest giver's window opens a page, the quest giver's
--- recorded words play (Voice.QuestClip), else the page is read aloud with the game's voice when Read aloud is on. It
--- plays each time the window opens on the page, heard or not, and once per opening (Voice.openPages). Closing the
--- window or opening another quest stops it, and the play button beside the window's Lore button
--- (Hooks.questDialogPlay) plays it again or stops it.
+-- recorded words play (Voice.QuestClip); a page no voice recorded stays as text. It plays each time the window opens
+-- on the page, heard or not, and once per opening
+-- (Voice.openPages). Closing the window or opening another quest stops it, and the play button beside the window's
+-- Lore button (Hooks.questDialogPlay) plays it again or stops it.
 local QUEST_PREFIX = "questtext:"
 
 local function isQuestText(id) return type(id) == "string" and id:sub(1, #QUEST_PREFIX) == QUEST_PREFIX end
@@ -1452,18 +1486,19 @@ end
 -- The recorded quest dialogue for the open quest window, if a voice has one and its text is exactly what's on screen
 -- (ns.DB.questVoice[questID] = { quest the clip is named after, fingerprints of its quest text, progress text and
 -- completion text, and who says each when the data knows: "f", "m" or "-", so "fmm" }); nil otherwise, so a quest
--- Forever changed is read aloud instead. With "Match the quest giver's voice" on, the quest givers' voice that fits
+-- Forever changed stays as text. With "Match the quest giver's voice" on, the quest givers' voice that fits
 -- goes first, then a voice of the quest giver's gender: the NPC you're talking to (UnitSex("npc")) on the quest
 -- window's own page when it can tell, else the data's. Fills Voice.questPaths[id] for Voice.Play. Away from the quest
--- window (a quest's Lore entry, UI.QuestDialogueClip): text is the quest log's words to check instead, and unchecked
+-- window (the quest log and playlist, UI.QuestPageClip): text is the quest log's words to check instead, and unchecked
 -- trusts the recording when there are none to check; the quest givers' voice plays there when the data knows the
--- page's speaker is of the clip's gender (no model to look at, so no race check).
+-- page's speaker is of the clip's gender (no model to look at, so no race check). peek: only whether one would play,
+-- leaving Voice.questPaths as it is (a tooltip or the playlist's + asking, UI.QuestPageClip).
 local GENDER_CODE = { f = "female", m = "male" }
 -- Each recording is checked against the fingerprints of the words it reads: ns.DB.questVoice's for English, a quest
 -- pack's own in another language (LOR-226), so an English recording never plays over German text, nor a German one
 -- over English. The quest's row in the add-on's data names its clip and who says each page; a quest only a pack in
 -- another language has (its English left the data since) goes by its quest ID.
-function Voice.QuestClip(qid, kind, text, unchecked)
+function Voice.QuestClip(qid, kind, text, unchecked, peek)
   local part = QUEST_PART[kind]
   if not (qid and part) then return nil end
   if not Voice.ready then Voice.Refresh() end
@@ -1513,6 +1548,7 @@ function Voice.QuestClip(qid, kind, text, unchecked)
     if reads(v[3]) then fits[#fits + 1] = v end
   end
   if not fits[1] and not giver then return nil end
+  if peek then return id end
   local order = fits
   if want and #fits > 1 then
     local yes, no = {}, {}
@@ -1528,17 +1564,15 @@ function Voice.QuestClip(qid, kind, text, unchecked)
 end
 
 -- The page on screen as something to play ({id, key, label, text, story}): the quest giver's own words when a voice
--- recorded them (Voice.QuestClip), else on the first page the quest's lore narration, else its text read aloud; nil if
--- none of those can play. kind: "detail", "progress" or "complete"; recorded: the quest's lore entry, if it has one
--- (story: what the player's title opens, UI.PlayerOpenStory).
+-- recorded them (Voice.QuestClip); nil when the page has no matching recording (the page stays as text).
+-- kind: "detail", "progress" or "complete"; recorded: the quest's lore entry, if it has one (story: what
+-- the player's title opens, UI.PlayerOpenStory).
 local function questTarget(qid, kind, recorded)
   local voiced = Voice.Current() ~= "none"
   local key = voiced and Voice.QuestClip(qid, kind) or nil
-  key = key or (kind == "detail" and recorded and voiced and Voice.HasAudio(recorded) and recorded or nil)
-  local text = questPage(kind)
-  if not (key or (text ~= "" and Voice.Available())) then return nil end
+  if not key then return nil end
   local id = QUEST_PREFIX .. qid .. ":" .. kind
-  return { id = id, key = key or id, label = (GetTitleText and GetTitleText()) or L["Quest"], text = text,
+  return { id = id, key = key, label = (GetTitleText and GetTitleText()) or L["Quest"], text = questPage(kind),
     story = recorded }
 end
 
@@ -1553,16 +1587,19 @@ local function arrivalPlaying()
   if a and UI.speaking and UI.playingId == a.key and UI.playToken == a.token then return a end
 end
 
--- An arrival's story makes way (for a quest giver, or the game's own cutscene): it counts as not played yet, so it
--- plays again once that's over (Voice.OnTalkOver).
+-- An arrival's story makes way (for a quest giver, or the game's own cutscene). The first time it waits for its turn
+-- again, its clock still running from when you arrived (unless a newer arrival already waits); cut off again, it's
+-- dropped, never started over in a loop. It started, so it stays heard (and in Voice.autoSession): coming back to its
+-- place never starts it again by itself (LOR-285; 0.8.0 forgot it here, so every return started it over).
 local function yieldArrival(arrival)
-  Voice.autoPlaying, Voice.autoSession[arrival.key], Voice.autoWaiting = nil, nil, true
-  local t = not arrival.heard and heardStore()
-  if t then t[arrival.key] = nil end
+  Voice.autoPlaying = nil
+  if not (arrival.again or Voice.autoWaiting) then
+    Voice.autoWaiting = { key = arrival.key, at = arrival.at or now(), again = true }
+  end
 end
 
 -- A quest giver's window shows a page (QUEST_DETAIL, QUEST_PROGRESS, QUEST_COMPLETE). Voice.questKind remembers which,
--- for the play button and UI.QuestDialogueClip.
+-- for the play button and UI.QuestPageClip.
 function Voice.OnQuestFrame(kind, recorded)
   Voice.questKind, Voice.questRecorded = kind, recorded
   local UI = ns.UI
@@ -1578,16 +1615,16 @@ function Voice.OnQuestFrame(kind, recorded)
     if ours then UI.StopAll() end   -- the last quest's page stops all the same
     return
   end
-  -- The place's story gives way to the quest giver, and plays again once you're done talking (Voice.OnTalkOver),
-  -- as it would have if it had waited.
+  -- The place's story gives way to the quest giver, and waits to play again once you're done talking (once, and only
+  -- while it's still in step: the rules above AUTO_SETTLE).
   if arrival then yieldArrival(arrival) end
   Voice.openPages[id] = true
   UI.ListenTo(target)
   markAuto()
 end
 
--- The game started a cinematic, a movie or a talking head: what started by itself stops (an arrival plays again
--- afterwards, as if it had waited; Voice.OnGameTalkOver). What you started yourself plays on.
+-- The game started a cinematic, a movie or a talking head: what started by itself stops (an arrival waits to play
+-- again afterwards, once: Voice.OnGameTalkOver). What you started yourself plays on.
 function Voice.OnGameTalk()
   local UI = ns.UI
   if not (UI and UI.frame) or not autoPlayingNow() then return end
@@ -1597,7 +1634,7 @@ function Voice.OnGameTalk()
   UI.StopAll()
 end
 
--- It ended: an arrival that waited plays now (after settling, as after combat), unless another one still shows.
+-- It ended: the waiting arrival story's turn (after settling, as after combat), unless another one still shows.
 function Voice.OnGameTalkOver()
   if not Voice.GameTalking() then Voice.OnCombatOver() end
 end
@@ -1613,9 +1650,8 @@ function Voice.PlayQuestPage()
   return true
 end
 
--- What the play button does now: "stop" (its page plays, or the same recording from the quest's story), "listen" (the
--- quest giver's recorded words), "story" (the quest's lore narration), "read" (Read aloud), or nil when nothing can
--- play.
+-- What the play button does now: "stop" (its page plays, here or from the playlist), "listen" (the quest giver's
+-- recorded words), or nil when nothing can play (no recording: the button hides).
 function Voice.QuestPageState()
   local UI, qid = ns.UI, openQuest()
   if not (UI and qid) then return nil end
@@ -1623,8 +1659,7 @@ function Voice.QuestPageState()
   local t = questTarget(qid, Voice.questKind, Voice.questRecorded)
   if not t then return nil end
   if UI.IsPlayingTarget and UI.IsPlayingTarget(t) then return "stop" end
-  if t.key == t.id then return "read" end
-  return t.key:find("#", 1, true) and "listen" or "story"
+  return "listen"
 end
 
 local function stopQuestPage()
@@ -1639,12 +1674,12 @@ function Voice.OnQuestClosed()
   stopQuestPage()
 end
 
--- Books, letters and plaques (Options > Read books aloud, LOR-49): opening one reads its page with the game's voice
--- when Read aloud is on, turning the page reads the next, closing it stops. Like quest dialogue, a page reads once
--- each time the book opens (pageFresh), one this character has heard isn't read again by itself while "Skip what
--- you've heard" is on, and nothing cuts off something you started. The Read aloud button
--- on the book reads the page on demand (Voice.ReadBookPage(true)). Books have no recordings yet: if one ever has a
--- clip under its page id, that plays instead.
+-- Books, letters and plaques (LOR-49): a page a voice has recorded (a clip under its page id) plays as the book opens
+-- (unless the readBooks setting is off), turning the page plays the next, closing it stops. No book has a recording
+-- yet, so for now books stay text: nothing plays and the book's button stays hidden (Voice.BookPageClip). Like quest
+-- dialogue, a page plays once each time the book opens (pageFresh), one this character has heard doesn't play again
+-- by itself while "Skip what you've heard" is on, and nothing cuts off something you started. The book's button plays
+-- the page on demand (Voice.ReadBookPage(true)).
 local BOOK_PREFIX = "booktext:"
 
 local function isBookText(id) return type(id) == "string" and id:sub(1, #BOOK_PREFIX) == BOOK_PREFIX end
@@ -1667,7 +1702,14 @@ local function bookPage()
   return id, title, text
 end
 
--- A page is showing. byHand: the book's Read aloud button (plays even if heard, stops it if it's this page).
+-- The recording of the page on screen (its page id), or nil when no voice recorded it: the book's button shows only for
+-- a page that can play.
+function Voice.BookPageClip()
+  local id = bookPage()
+  return id and Voice.HasAudio(id) and id or nil
+end
+
+-- A page is showing. byHand: the book's button (plays even if heard, stops it if it's this page).
 function Voice.ReadBookPage(byHand)
   local UI = ns.UI
   if not (UI and UI.frame) then return end
@@ -1680,8 +1722,7 @@ function Voice.ReadBookPage(byHand)
     if UI.IsBusy() and not ours then return end   -- never over something you started
     if UI.playingId == id then return end
   end
-  local key = Voice.HasAudio(id) and id or nil
-  if not (key or Voice.Available()) or (not byHand and not pageFresh(id)) then
+  if not Voice.HasAudio(id) or (not byHand and not pageFresh(id)) then
     if ours then UI.StopAll() end   -- the last page stops all the same
     return
   end
@@ -1718,19 +1759,16 @@ end
 
 -- Players who run the Spoken add-ons (zones, quests and books read aloud) would hear both. The first time Lore
 -- Forever finds one loaded, it leaves arrivals and quest dialogue to Spoken and says how to turn them back on; after
--- that the player's choice in Options stands (LOR-138).
+-- that the player's choice in Options stands (LOR-138). Books are left to Spoken too, without a word: no book has a
+-- recording yet, so Lore Forever plays none and Options has no switch for them.
 function Voice.CheckSpoken()
   local s = S()
   if s.spokenChecked and s.spokenBooks then return end
   if not addOnLoaded(function(name) return name:find("^spoken") end) then return end
   -- Books came later (LOR-49): players already past the first check have them left to Spoken on their own.
-  local booksOff = not s.spokenBooks and s.readBooks ~= false
+  if not s.spokenBooks and s.readBooks ~= false then s.readBooks = false end
   s.spokenBooks = true
-  if booksOff then s.readBooks = false end
-  if s.spokenChecked then
-    if booksOff then say(L["Spoken is running, so Lore Forever won't read books aloud by itself. Options > Read books aloud turns that back on."]) end
-    return
-  end
+  if s.spokenChecked then return end
   s.spokenChecked = true
   if s.autoZone == false and s.autoQuest == false then return end
   s.autoZone, s.autoQuest = false, false
@@ -1751,8 +1789,9 @@ local QUEST_VOICES = {
 }
 
 -- Players who run one of those would hear a quest page twice. The first time Lore Forever finds one loaded, it leaves
--- quest dialogue (and books, if that add-on reads them) to it and says how to turn that back on; after that the
--- player's choice in Options stands. Each add-on is checked once, so one installed later gets the same.
+-- quest dialogue to it and says how to turn that back on; after that the player's choice in Options stands. Each
+-- add-on is checked once, so one installed later gets the same. Books, if that add-on reads them, are left to it
+-- without a word (as with Spoken: no book has a recording yet).
 function Voice.CheckQuestVoices()
   local s = S()
   local checked = type(s.questVoicesChecked) == "table" and s.questVoicesChecked or {}
@@ -1760,15 +1799,10 @@ function Voice.CheckQuestVoices()
     if not checked[v.id] and addOnLoaded(function(name) return v.folders[name] end) then
       checked[v.id] = true
       s.questVoicesChecked = checked
-      local quests, books = s.autoQuest ~= false, v.books and s.readBooks ~= false
-      if quests then s.autoQuest = false end
-      if books then s.readBooks = false end
-      if quests and books then
-        say(string.format(L["%s is running, so quest dialogue and books won't play by themselves. Type /lore autoplay (or use Options) to turn quest dialogue back on, and Options > Read books aloud for books."], v.title))
-      elseif quests then
+      if v.books and s.readBooks ~= false then s.readBooks = false end
+      if s.autoQuest ~= false then
+        s.autoQuest = false
         say(string.format(L["%s is running, so quest dialogue won't play by itself when you talk to a quest giver. Type /lore autoplay (or use Options) to turn that back on."], v.title))
-      elseif books then
-        say(string.format(L["%s is running, so Lore Forever won't read books aloud by itself. Options > Read books aloud turns that back on."], v.title))
       end
     end
   end
@@ -1782,7 +1816,7 @@ function Voice.ToggleAutoplay()
   s.autoZone, s.autoQuest = on, on
   if on and Voice.OnDemand() then Voice.SetOnDemand(false) end
   if not on then
-    Voice.autoToken = nil
+    Voice.autoToken, Voice.autoWaiting = nil, nil
     stopQuestPage()
   end
   return on

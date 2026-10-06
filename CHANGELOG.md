@@ -6,6 +6,81 @@ One `- ` bullet per change; wrap long bullets with an indented continuation line
 
 ## Unreleased
 
+## 0.9.0 (2026-10-05)
+
+- **Quest givers in their own voices:** the first optional pack adds 1,526 recorded lines for male human,
+  dwarf, Forsaken and orc quest givers. It covers part of their dialogue; other lines use your narrator's recording
+  where available, or stay as text.
+- **Spanish questions and answers:** both Spanish narrator packs now read 109 questions before their answers,
+  with a short pause between them. They also include selected stories; entries without a recording stay as text.
+- **Play the quest's words:** the map's quest log now has a Play button beside Lore for recorded quest text.
+  Listen on a lore answer plays that answer's recording; answers without one stay as text. Quest windows also play
+  only recordings of the page they show, and quest dialogue still goes in your playlist.
+- **French questions and answers:** both narrators now read the question before the answer in their French FAQ
+  recordings.
+- **More answers to listen to:** a new optional female voice pack reads 641 answers about zones and places,
+  with each question followed by its answer. Answers without a recording still appear as text.
+- **Lore corrections:** 134 entries now use the right Classic and Forever people, places and quest history, with
+  quest twists kept behind spoilers. Removed 12 later-era locations from the lore library.
+- **Clearer place names:** both narrators now pronounce Redridge and Stonetalon consistently in zone stories,
+  places, people and quest dialogue.
+- **Voice volume:** set how loud the narrators and quest dialogue are with Options > Narration voices > Voice volume.
+  It's the game's own Dialog volume, so NPC voices follow it too.
+- **Play voices on any sound channel:** Options > Narration voices > Play voices on lets the narrators and quest
+  dialogue play on the game's Effects, Music, Ambience or Master Volume instead of Dialog. Voice volume then sets that
+  channel's volume, so you can balance the voices against NPC chatter, the music or the world around you.
+- **Quest text stays clear:** a quest's storyline is now part of its text, in full right under its title, like
+  "Storyline · Tirisfal Glades: At War With The Scarlet Crusade", in the quest window and the map's quest log alike.
+  It scrolls with the text, so nothing covers or cuts it. The quest window's Lore and play buttons sit in the dark band
+  under its title, off the first line of the quest's text, and in the map's quest log the Lore button (hidden behind
+  the map's title bar until now) sits on the bar with Back.
+- **Fix:** the story of a zone or place you arrive in no longer starts over when you come back, even if a quest giver
+  or a cutscene cut it off: it plays by itself once per character. Listen, the Narrate key and your playlist still
+  play it whenever you like.
+- **Only our recorded voices:** Lore Forever now reads aloud only with its own recorded voices, and your game's robot
+  voice is gone. Anything nobody has recorded yet (most chat answers, books, a few quest pages) stays as text, with no
+  button to read it out. If you played with Game voice only, tick a voice in Options to hear the narrators. The
+  welcome back at login is never read out, and starting a new chat no longer stops the story that's playing.
+- **More of your story in numbers:** Lore Forever now also keeps how you traveled (on foot, riding, swimming,
+  flying and by boat), the quest givers you've done the most for, the inns you've called home, where you've spent your
+  time, the fish you've caught, the days you've played and your longest run of days in a row, what killed you
+  (including the sea), and how long your story's lore would take to read aloud. Hover the Journey page's stats line
+  for them, with a moment from a week, a month or a year ago today. Your page on loreforeverwow.com shows them too,
+  with your nemesis, the famous figures you've met and "on this day".
+- **Your road on a chart:** your profile now opens on your trek, as a Map and a Timeline right under your name. The
+  map draws the lands you've reached on our own chart of Kalimdor and the Eastern Kingdoms, with the road between
+  them in the order you travelled; zoom, drag, and pick a land to see your moments there. Share a link that opens
+  straight on either one (Copy map link, Copy timeline link).
+  With the companion app connected, flights, boats and hearthstones show dashed, every quest you took links to where
+  you turned it in, and each moment shows on your own day.
+- **Look it up on Wowhead:** every moment on your profile now links what it names on Wowhead's WoW Forever
+  database (the quest, the person or boss, the zone), or the Warcraft Wiki when Wowhead has no page for it.
+- **Hear the lore on the website:** every narration Lore Forever ships has its own page at loreforeverwow.com/lore,
+  with a player for each voice, the text to read along and where the story comes from. Moments on your profile page
+  link to them.
+- **Hear your story:** a story written for your character's profile can now be read aloud by our campfire narrator.
+  Choose Listen and follow the highlighted paragraphs as it plays.
+- **Arrival stories in step with you:** the story of a zone or place you arrive in now waits for the story that's
+  playing to finish, as it already did for a fight or a quest giver, instead of being skipped. If you've moved on by
+  then, or more than a minute and a half has passed since you arrived, it's left for another time, so it never plays
+  minutes late. Landing from a flight now counts as arriving, so the zone's story plays as you land instead of at the
+  next zone line, and a story a quest giver interrupts starts over only once. Shift-clicking the minimap book with an
+  empty playlist no longer stops the story you're listening to: everything else narrated where you are queues after
+  it.
+- **Quests in your playlist:** Shift-click a quest to queue it, as you would a place's story: its Lore button in the
+  quest log or the quest window, a quest on the Journey page (Completed too) or under Your quests, or the player while
+  a quest giver talks. A quest's story in the chat now has Add to playlist too. You hear what the quest giver said when
+  they gave you the quest and, once you've handed it in, what they said then; a quest with no recording yet says so.
+- **Fix:** an item you take from your mailbox, buy from a vendor, get in a trade or take out of the bank no longer
+  shows up on your Journey page as a find where you picked it up. Drops and quest rewards still count.
+- **Quest givers finish their sentences:** every recorded quest giver's line used to stop a little early, cutting off
+  its last few words. They now play to the end, in both narrators' voices.
+- **Cutting Teeth tells its own story:** its page at loreforeverwow.com/lore showed Hemet Nesingwary's, which was
+  filed under the wrong quest. That story now belongs to Kravel Koalbeard's delivery to Hemet, in the add-on too, and
+  the other first quests in the Valley of Trials now show their stories on their pages.
+- **Voice packs on CurseForge:** add the female narrator, male or female quest dialogue, and male or female
+  narration in German and Portuguese (Brasil) as separate CurseForge packs. The Downloads page links to them.
+
 ## 0.8.0 (2026-10-04)
 
 - **Your journey in numbers:** Lore Forever now counts the steps you walk in each land, the foes you've slain (by
