@@ -10,6 +10,7 @@ local function setBindingNames()
   BINDING_NAME_LOREFOREVER_NARRATE = L["Play narration (what you hover, or where you are)"]
   BINDING_NAME_LOREFOREVER_PLAYLIST = L["Play/pause narration playlist"]
   BINDING_NAME_LOREFOREVER_PLAYLIST_NEXT = L["Next narration"]
+  BINDING_NAME_LOREFOREVER_PICTURE = L["Take a journey picture"]
 end
 setBindingNames()
 
@@ -43,10 +44,14 @@ function LoreForever_Toggle()
 end
 
 -- Play/pause for the key binding and Shift-click: stop whatever plays, otherwise play the playlist. With nothing
--- queued, queue and play everything narrated where you are; if there's none, say how to fill the playlist.
+-- queued, queue and play everything narrated where you are; if there's none, say how to fill the playlist. A story
+-- playing with nothing queued plays on, and the rest of what's narrated here queues after it, as the button's
+-- tooltip says: on stream (2026-10-04) Shift-click stopped Redridge's story instead, and the next one played Lake
+-- Everstill's and then Redridge's again from the top. With nothing else here, it stops what plays.
 local function playlistPlayPause()
   local UI = ns.UI
   if not UI.frame then return end
+  if UI.speaking and #UI.pl.items == 0 and UI.QueueHere() > 0 then return end
   if UI.IsBusy() then return UI.StopAll() end
   if not UI.PlaylistToggle() and UI.QueueHere() == 0 then
     say(L["nothing here is narrated, and your playlist is empty. Press + on any narration in the Library to add it."])
@@ -63,8 +68,15 @@ function LoreForever_PlaylistNext()
   end
 end
 
+-- The journey picture key (and /lore picture): a screenshot without the interface, kept as a moment of your journey
+-- for the picture book (Journey.TakePicture).
+function LoreForever_Picture()
+  ns.Journey.TakePicture()
+end
+
 -- The narration key: the NPC you're hovering if it has lore, otherwise the place you're in. Pressing it again while
--- it plays stops it. With the panel open the story also appears in the chat; closed, a chat line says what's playing.
+-- it plays stops it. With the panel open the story also appears in the chat; closed, a chat line says what's playing,
+-- or that it isn't narrated (only recordings play: the rest stays as text).
 function LoreForever_Narrate()
   local UI = ns.UI
   if not UI.frame then return end
@@ -83,6 +95,8 @@ function LoreForever_Narrate()
       local link = ns.Hooks.Link(L["Read along"], "entry", target.key)
       say(k and string.format(L["now playing: %s. %s (%s again to stop)"], name, link, k)
         or string.format(L["now playing: %s. %s"], name, link))
+    else
+      say(string.format(L["%s isn't narrated yet."], name))
     end
   end
 end
@@ -275,7 +289,7 @@ end
 --   click              open/close Lore Forever
 --   right-click        a small menu: "Narration: only when I press Play" (LOR-138) and Options
 --   shift-click        play/pause: stop whatever plays (a playlist keeps its place), else play the playlist, or with
---                      an empty playlist everything narrated where you are
+--                      an empty playlist everything narrated where you are (after the story playing, if one is)
 --   shift-right-click  next narration in the playlist
 local function buttonClick(button)
   local UI = ns.UI
@@ -523,12 +537,10 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Voice.OnCombatOver()
   elseif event == "PLAYER_LOGOUT" then
     if ns.UI.msgs then ns.UI.Archive() end   -- keep the last chat of the session in History
-  elseif event == "VOICE_CHAT_TTS_PLAYBACK_STARTED" then
-    ns.Voice.OnTTSStarted(arg1, ...)
-  elseif event == "VOICE_CHAT_TTS_PLAYBACK_FINISHED" or event == "VOICE_CHAT_TTS_PLAYBACK_FAILED" then
-    if ns.Voice.OnTTSFinished(event, arg1, ...) then ns.UI.UpdateListen() end
   elseif event == "PLAYER_CONTROL_LOST" then
     C_Timer.After(1, ns.Voice.OnTaxiCheck)
+  elseif event == "PLAYER_CONTROL_GAINED" then
+    C_Timer.After(1, ns.Voice.OnLanded)   -- off a flight: landing is arriving
   elseif event == "QUEST_DETAIL" or event == "QUEST_PROGRESS" or event == "QUEST_COMPLETE" then
     local kind = event == "QUEST_DETAIL" and "detail" or event == "QUEST_PROGRESS" and "progress" or "complete"
     ns.Log.QuestText(kind)
@@ -556,16 +568,18 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Voice.OnGameTalk()   -- the game's own cutscene or voiced dialog: what started by itself stops
   elseif event == "CINEMATIC_STOP" or event == "STOP_MOVIE" or event == "TALKINGHEAD_CLOSE" then
     C_Timer.After(0.5, ns.Voice.OnGameTalkOver)
+  elseif event == "CVAR_UPDATE" then
+    ns.Options.OnCVarUpdate()   -- a game setting changed: Options > Voice volume shows the game's Dialog volume again
   end
 end)
 
 for _, e in ipairs({ "ADDON_LOADED", "PLAYER_LOGIN", "PLAYER_ENTERING_WORLD", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS",
   "ZONE_CHANGED_NEW_AREA", "QUEST_LOG_UPDATE", "BAG_UPDATE_DELAYED", "SKILL_LINES_CHANGED", "QUEST_DETAIL",
   "QUEST_PROGRESS", "QUEST_COMPLETE", "QUEST_FINISHED", "GOSSIP_CLOSED", "ITEM_TEXT_READY", "ITEM_TEXT_CLOSED",
-  "PLAYER_TARGET_CHANGED", "PLAYER_CONTROL_LOST",
-  "VOICE_CHAT_TTS_PLAYBACK_STARTED", "VOICE_CHAT_TTS_PLAYBACK_FINISHED", "VOICE_CHAT_TTS_PLAYBACK_FAILED",
+  "PLAYER_TARGET_CHANGED", "PLAYER_CONTROL_LOST", "PLAYER_CONTROL_GAINED",
   "PLAYER_REGEN_DISABLED", "PLAYER_REGEN_ENABLED", "PLAYER_LOGOUT",
-  "CINEMATIC_START", "CINEMATIC_STOP", "PLAY_MOVIE", "STOP_MOVIE", "TALKINGHEAD_REQUESTED", "TALKINGHEAD_CLOSE" }) do
+  "CINEMATIC_START", "CINEMATIC_STOP", "PLAY_MOVIE", "STOP_MOVIE", "TALKINGHEAD_REQUESTED", "TALKINGHEAD_CLOSE",
+  "CVAR_UPDATE" }) do
   listen(e)
 end
 
@@ -575,14 +589,14 @@ local function toggleSetting(key, label)
 end
 
 -- /lore voice: list the narration voices in their order (numbered, unticked ones marked), or put one first by
--- number or name ("default" for the default voice), or "none" for the game's voice only.
+-- number or name ("default" for the default voice), or "none" for no narration (every voice off).
 local function voiceChoices()
   local out = {}
   for _, it in ipairs(ns.Voice.List()) do
     out[#out + 1] = { value = it.key, item = it, why = it.why, rec = it.name and ns.Packs.Get(it.name),
       label = it.label }
   end
-  out[#out + 1] = { value = "none", label = L["Game voice only"] }
+  out[#out + 1] = { value = "none", label = L["No narration"] }
   return out
 end
 
@@ -651,10 +665,10 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore lang - choose the language: English, Deutsch, Español, Français or Português (Automatic follows your WoW client)"])
     say(L["/lore reset - bring back the panel, the floating player and the minimap button (keeps your journey and settings)"])
     say(L["/lore primer - dungeon primer for where you are"])
-    say(L["/lore listen - read the last answer aloud; /lore narrate - narrate flights on/off"])
+    say(L["/lore listen - play the last narrated answer (or where you are); /lore narrate - narrate flights on/off"])
     say(L["/lore autoplay - narrations as you arrive and quest dialogue on/off"])
     say(L["/lore ondemand - narration only when you press Play on/off"])
-    say(L["/lore voice - list narration voices; /lore voice <number or name> - switch (auto: default, none: game voice)"])
+    say(L["/lore voice - list narration voices; /lore voice <number or name> - switch (auto: default, none: off)"])
     say(L["/lore report - tell us the last answer was wrong (or click the cross under any answer)"])
     say(L["/lore ctx | export | visits | stats - what Lore Forever sees, for bug reports and playtests"])
     say(string.format(L["Questions, requests and bug reports: %s"], DISCORD_URL))
@@ -672,6 +686,8 @@ SlashCmdList.LOREFOREVER = function(msg)
     ns.Journey.Show()
   elseif cmd == "sync" then
     ns.Journey.AskSync()
+  elseif cmd == "picture" then
+    LoreForever_Picture()
   elseif cmd == "ask" or cmd:match("^ask%s") then
     -- Live answers once the companion app is installed; until then it's an ordinary question.
     local question = msg:match("^%S+%s*(.-)$")
@@ -692,11 +708,14 @@ SlashCmdList.LOREFOREVER = function(msg)
     local z = zk and ns.DB.zones[zk]
     if z and z.t == "dungeon" then ns.UI.ShowPrimer(zk, "slash") else say(L["you're not in a dungeon I know yet."]) end
   elseif cmd == "listen" then
-    -- The newest answer if there is one, otherwise the area you're in.
-    local b = ns.UI.listenButton
-    ns.UI.ListenTo((b and b.target) or ns.UI.ZoneTarget())
-  elseif cmd == "ttstest" then
-    ns.Voice.Test()
+    -- The newest answer a voice recorded if there is one, otherwise where you are (its story, if it's narrated): only
+    -- recordings play. Again while it plays stops it.
+    local UI, b = ns.UI, ns.UI.listenButton
+    local t = b and b.target
+    if not (t and ns.Voice.HasAudio(t.key)) then t = UI.ZoneTarget() end
+    if t and UI.IsPlayingTarget(t) then return UI.ListenTo(t) end
+    UI.ListenTo(t)
+    if not UI.speaking then say(L["there's no narration for this place yet."]) end
   elseif cmd == "stop" then
     ns.UI.StopAll()
   elseif cmd == "narrate" then

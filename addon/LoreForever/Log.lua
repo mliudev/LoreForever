@@ -22,6 +22,10 @@ function Log.Init()
     db.settings.minimap = true
     db.settings.minimapOn = 1
   end
+  -- Read aloud, the game's text-to-speech for what had no recording, is gone (Mike, 2026-10-05: only the narrators'
+  -- recordings play). Forget its setting and the one-time switch that turned it off (readAloudOff). Narration set to
+  -- "Game voice only" (every voice unticked, or the old voicePack = "none") loads as it was: no narration.
+  db.settings.readAloud, db.settings.readAloudOff = nil, nil
   -- The book button beside the menu bar is gone (Mike, 2026-10-02: the key, the minimap button and /lore all open the
   -- panel, and the floating player stops narration). Forget its settings.
   db.settings.launcher, db.settings.launcherPos, db.settings.launcherOff = nil, nil, nil

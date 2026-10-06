@@ -23,6 +23,16 @@ export const MANIFEST_KEY = "narration/manifest.json";
 // <voice>/<clip file stem>-<first 10 hex of the recording's SHA-256>.<ext>, as site_lore.py audio_key writes them.
 export const AUDIO_KEY = /^[a-z0-9-]{1,40}\/[A-Za-z0-9_-]{1,160}-[0-9a-f]{10}\.(mp3|ogg)$/;
 export const DOWNLOAD = "/downloads?src=lore";
+
+// Links out (LOR-263): plain links to Wowhead's WoW Forever database by game ID ("quest=176", from the language packs'
+// client names: pipeline/lore/site_lore.py game_refs; nothing on the site comes from Wowhead) and to the Warcraft
+// Wiki, which our lore is adapted from. A name with no ID or article gets the wiki's search, which goes straight to
+// the article when one has that title.
+export const WOWHEAD = "https://www.wowhead.com/forever/";
+export const WIKI_SEARCH = "https://warcraft.wiki.gg/wiki/Special:Search?go=Go&search=";
+const WOWHEAD_REF = /^(quest|npc|item|zone|faction|spell|object)=\d{1,9}$/;
+export const wowheadUrl = ref => (WOWHEAD_REF.test(String(ref || "")) ? WOWHEAD + ref : null);
+export const wikiSearch = name => (String(name || "").trim() ? WIKI_SEARCH + encodeURIComponent(String(name).trim()) : null);
 const LIVE_TTL = 60 * 1000;
 
 export const KIND_GROUPS = { zone: "Zones", dungeon: "Dungeons", subzone: "Places", npc: "Characters", boss: "Bosses",
@@ -262,6 +272,17 @@ export function entryPage(entry, { live = new Set(), names = {}, env } = {}) {
       <h2 id="rel-title">Related</h2>
       ${linkList(entry.related)}
     </section>` : "";
+  // Look it up (LOR-263): its Wowhead page and its wiki article (the first one it was adapted from, else a search).
+  const wowhead = wowheadUrl(entry.wowhead);
+  const wiki = (entry.sources || []).find(s => s.kind === "wiki" && /^https:\/\/warcraft\.wiki\.gg\//.test(s.url || ""))?.url
+    || wikiSearch(entry.name);
+  const lookup = `<section class="lp-out" aria-labelledby="out-title">
+      <h2 id="out-title">Look it up</h2>
+      <ul class="lp-links">
+        ${wowhead ? `<li><a href="${escape(wowhead)}" rel="noopener">${escape(entry.name)} on Wowhead</a> <span class="lp-count">WoW Forever database</span></li>` : ""}
+        <li><a href="${escape(wiki)}" rel="noopener">${escape(entry.name)} on the Warcraft Wiki</a></li>
+      </ul>
+    </section>`;
   const body = `  <article class="lp" data-key="${escape(entry.key)}">
     <p class="lp-where">${where}</p>
     <h1>${escape(entry.name)}</h1>
@@ -269,6 +290,7 @@ export function entryPage(entry, { live = new Set(), names = {}, env } = {}) {
     ${speed}
     ${clipsHtml.join("\n    ")}
     ${sources}
+    ${lookup}
     ${children}
     ${related}
   </article>

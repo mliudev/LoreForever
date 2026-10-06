@@ -25,8 +25,8 @@
    "spoiler": 0
   },
   {
-   "title": "The Dalaran Noir Vintage",
-   "body": "The prize offered by the Gallina family is a sample of Dalaran Noir, a famous northern red vintage prized across human settlements. Following the ticket to the winery entrance near the canal waterways, patrons find Suzetta Gallina ready to hand over the bottle, confident that one sip of their signature stock will turn any newcomer into a loyal regular.",
+   "title": "The Pinot Noir Vintage",
+   "body": "The prize offered by the Gallina family is a bottle of their famous pinot noir. Following the ticket to the winery entrance near the canal waterways, patrons find Suzetta Gallina ready to hand over the bottle, confident that one sip of their signature stock will turn any newcomer into a loyal regular.",
    "spoiler": 0
   }
  ],
@@ -50,13 +50,13 @@
    "answer": "Renato and Suzetta Gallina are siblings running an independent vintner shop in Stormwind. Renato wanders the streets promoting their trade with flyers, while Suzetta tends the shop counter and pours the wine."
   },
   {
-   "q": "What is Dalaran Noir?",
+   "q": "What wine does the ticket earn?",
    "aliases": [
-    "dalaran noir wine",
+    "pinot noir wine",
     "what wine do you get",
     "pinot noir stormwind"
    ],
-   "answer": "Dalaran Noir is a celebrated vintage of red wine styled after the traditional spirits of Dalaran. Even with the northern magocracy shielded behind an impenetrable dome, their cultural vintages remain legendary across the southern kingdoms."
+   "answer": "A bottle of the Gallinas' famous pinot noir, the shop's signature red that Renato hopes will turn newcomers into loyal regulars."
   },
   {
    "q": "Why does Renato give out free wine tickets?",
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Fine wines like the Dalaran Noir distributed by the Gallinas are prized companions for hearty meals prepared across the taverns of the Eastern Kingdoms."
+   "text": "Fine wines like the pinot noir distributed by the Gallinas are prized companions for hearty meals prepared across the taverns of the Eastern Kingdoms."
   },
   {
    "target": "race:Human",
@@ -99,8 +99,8 @@
  ],
  "keywords": [
   "canals",
-  "dalaran noir",
   "gallina winery",
+  "pinot noir",
   "renato gallina",
   "suzetta gallina",
   "trade district",
@@ -112,7 +112,6 @@
   "npc:suzetta-gallina",
   "subzone:trade-district",
   "subzone:canals-stormwind-city",
-  "subzone:dalaran",
   "topic:stormwind-kingdom"
  ],
  "attribution": [

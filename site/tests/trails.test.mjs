@@ -146,7 +146,7 @@ test("trails: who gave a quest and when they were met, a storyline, a place visi
 test("the journey section: newest first by day, every trail link lands on a moment, lore links only when asked", () => {
   const ms = moments(parseRecord(LONGER, NOW), SMALL);
   const off = journeySection(ms);
-  assert.match(off, /<section class="vp-section pf-journey" id="journey"/);
+  assert.match(off, /<section class="vp-section pf-journey pf-view" id="timeline"/);
   assert.ok(off.indexOf("Oct 3, 2026") < off.indexOf("Oct 1, 2026"), "newest day first");
   const ids = new Set([...off.matchAll(/ id="(m-\d+)"/g)].map(m => m[1]));
   assert.equal(ids.size, ms.length);
@@ -167,7 +167,37 @@ test("the journey section: newest first by day, every trail link lands on a mome
     assert.ok(on.includes(`href="${p}"`), p);
   }
   // An item, a book, a mount and a faction have no page: their moment links the place it happened.
-  assert.match(on, /New mount: <strong>Striped Nightsaber<\/strong><\/p>\s*<p class="pf-m-where"><a href="\/lore\/zone\/darnassus">Darnassus<\/a>/);
+  assert.match(on, /New mount: <strong>Striped Nightsaber<\/strong> <a class="pf-out" [^>]+>Wiki<\/a><\/p>\s*<p class="pf-m-where"><a href="\/lore\/zone\/darnassus">Darnassus<\/a>/);
+});
+
+test("links out (LOR-263): Wowhead by game ID where links.json has one, else the wiki's search", () => {
+  // links.json's IDs: real ones, ints, and zones only for zone pages (Wowhead has no subzone pages).
+  assert.ok(DATA.refs.npc.length > 1000 && DATA.refs.zone.length >= 50);
+  for (const kind of ["npc", "item", "zone", "faction"]) for (const [n, id] of DATA.refs[kind]) assert.ok(n && Number.isInteger(id) && id > 0, `${kind} ${n}`);
+  assert.equal(NAMES.ref("npc", "Edwin VanCleef"), "npc=639");
+  assert.equal(NAMES.ref("zone", "Westfall"), "zone=40");
+  assert.equal(NAMES.ref("zone", "Goldshire"), null);
+  assert.equal(NAMES.ref("npc", "Nobody At All"), null);
+
+  const ms = moments(parseRecord(LONGER, NOW), NAMES);
+  const find = (k, f) => ms.find(m => m.k === k && f(m.e));
+  assert.deepEqual(find("quests", e => e.title === "The Balance of Nature").out,
+    { site: "Wowhead", url: "https://www.wowhead.com/forever/quest=456", name: "The Balance of Nature" });
+  assert.equal(find("people", e => e.name === "Gryan Stoutmantle").out.url, "https://www.wowhead.com/forever/npc=234");
+  assert.equal(find("bosses", e => e.name === "Edwin VanCleef").out.url, "https://www.wowhead.com/forever/npc=639");
+  assert.equal(find("places", e => e.zone === "The Deadmines").out.url, "https://www.wowhead.com/forever/zone=1581");
+  assert.deepEqual(find("loot", e => e.name === "Cruel Barb").out,
+    { site: "Warcraft Wiki", url: "https://warcraft.wiki.gg/wiki/Special:Search?go=Go&search=Cruel%20Barb", name: "Cruel Barb" });
+  assert.equal(find("places", e => e.sub === "Shadowglen").out.site, "Warcraft Wiki", "a subzone: the wiki");
+  assert.equal(find("levels", () => true).out, null);
+
+  const html = journeySection(ms);
+  assert.ok(html.includes('<a class="pf-out" href="https://www.wowhead.com/forever/quest=456" rel="noopener" aria-label="The Balance of Nature on Wowhead">Wowhead</a>'));
+  assert.ok(html.includes('aria-label="Cruel Barb on the Warcraft Wiki">Wiki</a>'));
+  // A name from the record goes into the URL encoded and onto the page escaped.
+  const odd = moments(parseRecord(RECORD.replace("Cruel Barb", 'Blade & <b>"x"</b>'), NOW), NAMES);
+  const row = journeySection(odd);
+  assert.ok(row.includes("search=Blade%20%26%20%3Cb%3E%22x%22%3C%2Fb%3E") && !row.includes("<b>"));
 });
 
 test("a long journey folds all but the latest moments; a profile from before keeps its old page", () => {
@@ -208,6 +238,7 @@ async function view(handle, cookie) {
 }
 
 test("/u/<handle>: the journey with its trails; lore links once the lore pages are on; private stays private", async () => {
+  env.SITE_FEATURES = "-lore";
   const me = await signIn("aelric");
   await api("import", me.cookie, { record: RECORD });
   assert.equal((await view("aelric")).status, 404, "private: nobody else sees the journey");
@@ -234,25 +265,40 @@ test("/u/<handle>: the journey with its trails; lore links once the lore pages a
   assert.ok(lore.includes('<a href="/lore/npc/edwin-vancleef">Edwin VanCleef</a> <span class="pf-where">'));
 });
 
-test("a profile saved before the timeline: the page as it was, and a nudge for its owner only", async () => {
+test("a profile saved before the timeline: the page as it was, and how to add the map and timeline for its owner only", async () => {
   const me = await signIn("brakka");
   await api("import", me.cookie, { record: RECORD });
+  assert.ok(!(await view("aelric", me.cookie)).html.includes("pf-behind"), "a paste of today has its timeline: no note");
   const r = await env.DB.prepare("SELECT data FROM profiles WHERE user_id = ?").bind(me.user.id).first();
   const old = JSON.parse(r.data);
   delete old.timeline;
   await env.DB.prepare("UPDATE profiles SET data = ?, public = 1 WHERE user_id = ?").bind(JSON.stringify(old), me.user.id).run();
   const mine = (await view("aelric", me.cookie)).html;
-  assert.ok(!mine.includes('id="journey"') && !mine.includes("/js/journey.js"));
-  assert.match(mine, /to see\s+your journey here moment by moment/);
+  assert.ok(!mine.includes('id="timeline"') && !mine.includes('id="map"') && !mine.includes("/js/journey.js"));
+  // Where the Map and Timeline would be: right under the head, before the stats. The two steps, and the way there.
+  assert.match(mine, /<section class="pf-behind" aria-labelledby="behind-title">\s*<h2 id="behind-title">Add your map and timeline<\/h2>/);
+  const [head, note, stats] = ['class="vpr-head', 'class="pf-behind"', 'class="pf-stats"'].map(s => mine.indexOf(s));
+  assert.ok(head < note && note < stats, [head, note, stats].join());
+  assert.match(mine, /<ol class="pf-steps">\s*<li>In game, open Journey \(<code>\/lore journey<\/code>\), click <strong>Copy my journey record<\/strong>/);
+  assert.match(mine, /<li>On your account page, paste it and click <strong>Update my profile<\/strong>\.<\/li>/);
+  assert.match(mine, /<a class="btn-small" href="\/account#profile">Update my profile<\/a>/);
+  // Visitors never see it, and neither does its owner viewing it as one (LOR-302).
   const theirs = (await view("aelric")).html;
-  assert.ok(theirs.includes("The road so far") && !theirs.includes("moment by moment"));
+  assert.ok(theirs.includes("The road so far") && !theirs.includes("pf-behind") && !theirs.includes("map and timeline"));
+  const res = await profileGet({ request: new Request(`${ORIGIN}/u/aelric?as=visitor`, { headers: { Cookie: me.cookie } }),
+    env, params: { handle: "aelric" } });
+  assert.ok(!(await res.text()).includes("pf-behind"));
+  // The companion's journey brings the moments too: no note then.
+  await env.DB.prepare("UPDATE profiles SET journey = ? WHERE user_id = ?")
+    .bind(JSON.stringify({ v: 1, tz: 0, moments: [{ t: 1790000000, k: "zone", z: "Westfall", new: 1 }] }), me.user.id).run();
+  assert.ok(!(await view("aelric", me.cookie)).html.includes("pf-behind"));
 });
 
 test("without links.json the journey still shows, its trails between moments too, with nothing linked", () => {
   const p = { handle: "aelric", public: 1, story: "A story.", story_source: "template", updated: "2026-10-04T00:00:00Z",
     data: parseRecord(RECORD, NOW) };
   const html = profilePage(p, { lore: true });
-  assert.match(html, /id="journey"/);
+  assert.match(html, /id="timeline"/);
   assert.ok(html.includes("&larr; Last time here") || html.includes("Next time here &rarr;") || html.includes("Their quests"), "some trail");
   assert.ok(!html.includes('href="/lore/'));
 });

@@ -24,9 +24,11 @@
 
 <header class="top">
   <nav class="wrap nav" aria-label="Lore Forever">
+    <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
       <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
       <a class="nl" id="nav-community" href="/feedback">Community</a>
     </div>
@@ -48,7 +50,8 @@
   <p class="pitch">Lore Forever, its narrator voices and its <a href="#languages">languages</a>. All free, and none of
     it needs an account.</p>
   <p class="dl-intro dl-langs-top">In English, Deutsch, Español, Français and Português, all in the one download:
-    it follows your WoW client's language. Recorded voices are in English, with German on the way. <a href="#languages">More</a></p>
+    it follows your WoW client's language. Recorded narrator packs have selected stories and answers in all five languages; entries without a recording stay as text.
+    <a href="#languages">More</a></p>
 
   <section class="dl-section dl-section-first" id="addon" aria-labelledby="addon-title">
     <h2 id="addon-title">Lore Forever</h2>
@@ -71,8 +74,8 @@
       <li class="dl-file" id="curseforge">
         <div class="dl-file-main">
           <p class="dl-file-name">CurseForge</p>
-          <p class="dl-file-meta">Updates itself in the CurseForge app. It has the add-on only: extra voices come from
-            this page.</p>
+          <p class="dl-file-meta">Updates itself in the CurseForge app. Extra narrator voices and quest dialogue are
+            separate CurseForge packs, listed below.</p>
         </div>
         <a class="btn-small btn-small-alt dl-get dl-link" href="https://www.curseforge.com/wow/addons/lore-forever"
           aria-label="Get Lore Forever on CurseForge">CurseForge</a>
@@ -82,8 +85,18 @@
 
   <section class="dl-section" id="voices" aria-labelledby="voices-title">
     <h2 id="voices-title">Narrator voices</h2>
-    <p class="dl-intro">Lore Forever comes with the male narrator. Every other voice is one more download: hear it,
-      get it, unzip it next to Lore Forever and type <code>/reload</code> in game. <a href="#install">How</a></p>
+    <p class="dl-intro">Lore Forever comes with the male narrator. Install the extra voices you want, then type
+      <code>/reload</code> in game. For manual installs, unzip the pack next to Lore Forever. <a href="#install">How</a></p>
+    <p class="dl-intro">On CurseForge: the
+      <a href="https://www.curseforge.com/wow/addons/lore-forever-female-narrator">female narrator</a>, Quest Dialogue in the
+      <a href="https://www.curseforge.com/wow/addons/lore-forever-quest-dialogue-male-narrator">male</a> or
+      <a href="https://www.curseforge.com/wow/addons/lore-forever-quest-dialogue-female-narrator">female</a> narrator's voice,
+      German narration with the
+      <a href="https://www.curseforge.com/wow/addons/lore-forever-german-narration-male-narrator">male</a> or
+      <a href="https://www.curseforge.com/wow/addons/lore-forever-german-narration-female-narrator">female</a> narrator, and
+      Portuguese (Brasil) narration with the
+      <a href="https://www.curseforge.com/wow/addons/lore-forever-portuguese-narration-male-narrator">male</a> or
+      <a href="https://www.curseforge.com/wow/addons/lore-forever-portuguese-narration-female-narrator">female</a> narrator.</p>
     <div class="dl-voices">
     <!-- dl-voices -->
     </div>

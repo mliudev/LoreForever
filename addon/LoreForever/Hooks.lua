@@ -204,25 +204,65 @@ end
 
 -- Quest frames ---------------------------------------------------------------------------------------------------
 
+-- Nothing of ours covers the quest's text (LOR-284). In WoW Forever's client the quest giver's window (QuestFrame) has
+-- a dark band between its title bar (its edge reaches about 25 down) and the parchment the text is on (from 62 down):
+-- one row there with the Lore button at its right end and the play and Contribute buttons to its left. The map's quest
+-- log (QuestMapFrame.DetailsFrame) has a bar above the quest's text with the game's Back button at its left end
+-- (BackFrame): the Lore button at its right end level with Back, play and Contribute beside it. The map's title bar
+-- above that bar draws over anything of ours. The storyline is part of the quest's text (Hooks.QuestInfoStory).
+local QUEST_END, QUEST_MID = -28, -35   -- the quest window's row: its right end and middle, from the top right corner
+local LOG_END = -11                     -- the log's bar: our row ends as far in as Back starts (LEFT 11, 4)
+
+-- The bar the map's quest log shows the game's Back button on, and the details frame; nil without one.
+local function logBar()
+  local details = _G.QuestMapFrame and QuestMapFrame.DetailsFrame
+  local bar = type(details) == "table" and details.BackFrame
+  return type(bar) == "table" and bar or nil, details
+end
+
+-- `b` at the right end of the quest window's row, or of the quest log's bar: where the Lore button goes, and the play
+-- or Contribute button when the quest has no lore.
+function Hooks.AtQuestRow(b)
+  b:ClearAllPoints()
+  b:SetPoint("RIGHT", QuestFrame, "TOPRIGHT", QUEST_END, QUEST_MID)
+end
+
+function Hooks.AtLogRow(b)
+  local bar, details = logBar()
+  b:ClearAllPoints()
+  if bar then
+    b:SetPoint("RIGHT", bar, "RIGHT", LOG_END, 4)
+  elseif type(details) == "table" then
+    b:SetPoint("TOPRIGHT", details, "TOPRIGHT", LOG_END, -12)
+  elseif _G.QuestLogFrame then
+    b:SetPoint("TOPRIGHT", QuestLogFrame, "TOPRIGHT", -40, -44)
+  end
+end
+
 local function questKeyFor(id, title)
   local idx = ns.DB.index
   return (id and idx.quest[id]) or (title and idx.questTitle[ns.Engine.lower(title)])
 end
 
-local function loreButton(parent, name, anchor)
+-- A quest's Lore button: a click opens its story; Shift-click adds its narration to your playlist (UI.QueueQuest).
+-- key: its entry, quest: its quest ID, title: its name on screen (UpdateQuestDialogButton, UpdateQuestLogButton).
+local function loreButton(parent, name)
   local b = CreateFrame("Button", name, parent, "UIPanelButtonTemplate")
   b:SetSize(60, 20)
   b:SetText(L["Lore"])
-  b:SetPoint(unpack(anchor))
   b:SetFrameLevel((parent:GetFrameLevel() or 1) + 5)
   b:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     GameTooltip:AddLine("Lore Forever")
     GameTooltip:AddLine(L["The story behind this quest."], 1, 1, 1)
+    if ns.UI.CanQueueQuest(self.quest) then
+      ns.Theme.Tip(L["Click to open. Shift-click adds it to your playlist."], "tipDim", true)
+    end
     GameTooltip:Show()
   end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
   b:SetScript("OnClick", function(self)
+    if IsShiftKeyDown and IsShiftKeyDown() then return ns.UI.QueueQuest(self.quest, self.title) end
     if self.key then ns.UI.Open(self.key, nil, self.via) end
   end)
   b:Hide()
@@ -231,23 +271,22 @@ end
 
 -- The play button beside the quest window's Lore button (Voice.PlayQuestPage): the gold play sign plays what the quest
 -- giver says on this page again, a stop square stops it. Its tooltip says what plays: the quest giver's recorded words,
--- or the game's voice reading the page. Hooks.UpdateQuestPlayButton keeps it current.
-local function questPlayButton(parent)
+-- checked against this page's words. A page no voice recorded has no button. The quest log uses the same control.
+local function questPlayButton(parent, fromLog)
   local T = ns.Theme
   local b = T.RoundButton(parent, 20)
   b:SetFrameLevel((parent:GetFrameLevel() or 1) + 5)
   b:SetScript("OnClick", function()
-    ns.Voice.PlayQuestPage()
+    if fromLog then ns.UI.ListenTo(ns.UI.QuestLogTarget(Hooks.questLogButton.quest))
+    else ns.Voice.PlayQuestPage() end
     Hooks.UpdateQuestPlayButton()
   end)
   b:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    local state = ns.Voice.QuestPageState()
+    local state
+    if fromLog then state = Hooks.QuestLogPageState() else state = ns.Voice.QuestPageState() end
     if state == "stop" then
       GameTooltip:AddLine(L["Stop narration"])
-    elseif state == "read" then
-      GameTooltip:AddLine(L["Read aloud"])
-      T.Tip(L["Uses your game's text-to-speech voice. Change it in Options > Accessibility > Text to Speech."], "tipText", true)
     else
       GameTooltip:AddLine(L["Play narration"])
       if state == "listen" then T.Tip(L["What the quest giver says, in the narrator's voice."], "tipText", true) end
@@ -259,59 +298,138 @@ local function questPlayButton(parent)
   return b
 end
 
--- The storyline line under a Lore button (Storyline.Line): one line on a dark strip, so it reads on the parchment
--- too, cut to fit with the whole line in its tooltip.
-local STORY_MAX_W = 340
-local function storyLine(parent, name, button)
-  local f = CreateFrame("Button", name, parent)
-  f:SetSize(STORY_MAX_W, 16)
-  f:SetPoint("TOPRIGHT", button, "BOTTOMRIGHT", 0, -3)
-  f:SetFrameLevel((parent:GetFrameLevel() or 1) + 5)
-  local bg = f:CreateTexture(nil, "BACKGROUND")
-  bg:SetAllPoints()
-  bg:SetColorTexture(0, 0, 0, 0.6)
-  local text = f:CreateFontString(nil, "OVERLAY", ns.Theme.font.label)
-  text:SetPoint("LEFT", 5, 0)
-  text:SetPoint("RIGHT", -5, 0)
-  text:SetJustifyH("RIGHT")
-  if text.SetWordWrap then text:SetWordWrap(false) end
-  f.text = text
-  f:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    if self.questID and ns.Storyline.AddTooltip(self.questID) then GameTooltip:Show() end
-  end)
-  f:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  f:SetScript("OnClick", function() if button.key then ns.UI.Open(button.key, nil, button.via) end end)
-  f:Hide()
-  return f
+-- The storyline in the quest's own text (LOR-198, LOR-284): "Storyline · Tirisfal Glades: At War With The Scarlet
+-- Crusade" in gold right under the quest's title, at full length and wrapped as needed, the rest of the quest's text
+-- moved down under it: it scrolls with the text, and nothing covers or cuts it. The game lays a quest's text out in
+-- QuestInfo_Display (the quest giver's offer and turn-in, the map's quest log, the quest log's pop-up): each block
+-- anchored under the one before, the title first. After it runs, the line goes under the title and the block that was
+-- under the title under the line, with the gap it had there; the game's next QuestInfo_Display lays the blocks out
+-- afresh. The progress page has a title and text of its own (QuestFrameProgressPanel): the same there, as it shows. A
+-- quest in no storyline (or Options › Show storylines on quests off) has no line, and the block goes back under the
+-- title. Nothing of the game's is replaced: the line is our own font string, and only that one block moves.
+local STORY_GAP = 2
+local story = {}   -- frame the quest's text is in -> { fs = its line, title = the title, quest = ID, moved = {...} }
+
+-- The line's gold, readable on the page: dark gold on the parchment (its title is dark), the game's gold on a dark page
+-- (Quest Text Contrast, a dark material).
+local function storyGold(title)
+  local r, g, b = 0, 0, 0
+  if title.GetTextColor then r, g, b = title:GetTextColor() end
+  if 0.3 * (r or 0) + 0.59 * (g or 0) + 0.11 * (b or 0) > 0.5 then return 1, 0.82, 0 end
+  return 0.36, 0.24, 0
 end
 
--- Show quest `id`'s storyline on `line`, as wide as it needs up to the most the frame leaves room for. When the
--- whole line doesn't fit, it leaves out the zone (Storyline.Line).
-local function setStoryLine(line, id)
-  if not line then return end
-  local text = id and ns.Storyline and ns.Storyline.Line(id)
-  line.questID = text and id or nil
-  if not text then line:Hide() return end
-  local pw = tonumber(line:GetParent() and line:GetParent():GetWidth()) or 0
-  local max = pw > 120 and math.min(STORY_MAX_W, pw - 44) or STORY_MAX_W
-  line.text:SetText(text)
-  local w = ns.Theme.TextWidth(line.text)
-  if w and w + 12 > max then
-    line.text:SetText(ns.Storyline.Line(id, false, true))
-    w = ns.Theme.TextWidth(line.text)
-  end
-  line:SetWidth(math.min(max, (w and w > 0) and (w + 12) or max))
-  line:Show()
+-- The block the line moved down goes back to where the game had it, if it's still under the line.
+local function restoreBlock(s)
+  local m = s.moved
+  s.moved = nil
+  if not (m and m[1].GetNumPoints and m[1]:GetNumPoints() > 0) then return end
+  local _, rel = m[1]:GetPoint(1)
+  if rel == s.fs then m[1]:SetPoint(m[2], m[3], m[4], m[5], m[6]) end
 end
+
+-- The block the game anchored right under `title` in `parent` (its top left to the title's bottom left), not our line.
+local function blockUnder(parent, title, fs)
+  local function find(...)
+    for i = 1, select("#", ...) do
+      local o = select(i, ...)
+      if type(o) == "table" and o ~= fs and o.GetNumPoints and (o:GetNumPoints() or 0) > 0 then
+        local point, rel, relPoint = o:GetPoint(1)
+        if rel == title and point == "TOPLEFT" and relPoint == "BOTTOMLEFT" then return o end
+      end
+    end
+  end
+  return find(parent:GetRegions()) or find(parent:GetChildren())
+end
+
+-- Quest `id`'s storyline under `title` in `parent`, the frame the quest's text is in; none for a quest in no storyline.
+local function placeStory(parent, title, id)
+  for p, o in pairs(story) do   -- the game moved this title here: a line left under it elsewhere goes
+    if p ~= parent and o.title == title and o.fs then
+      restoreBlock(o)
+      o.fs:Hide()
+    end
+  end
+  local s = story[parent] or {}
+  story[parent] = s
+  s.title, s.quest = title, id
+  restoreBlock(s)   -- (a page that lays its text out once, like the progress page, may still have it under the line)
+  local text = id and ns.Storyline and ns.Storyline.Line(id)
+  if not text then
+    if s.fs then s.fs:Hide() end
+    return
+  end
+  if not s.fs then
+    s.fs = parent:CreateFontString(nil, "ARTWORK", _G.QuestFontNormalSmall and "QuestFontNormalSmall" or "QuestFont")
+    s.fs:SetJustifyH("LEFT")
+    if s.fs.SetWordWrap then s.fs:SetWordWrap(true) end
+  end
+  local fs = s.fs
+  fs:SetTextColor(storyGold(title))
+  fs:SetWidth(tonumber(title:GetWidth()) or 285)
+  fs:SetText(text)
+  fs:ClearAllPoints()
+  fs:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -STORY_GAP)
+  fs:Show()
+  local block = blockUnder(parent, title, fs)
+  if block then
+    local point, rel, relPoint, x, y = block:GetPoint(1)
+    s.moved = { block, point, rel, relPoint, x, y }
+    block:SetPoint("TOPLEFT", fs, "BOTTOMLEFT", x, y)
+  end
+end
+
+-- The quest on the quest giver's window: the game's ID, else its title's entry's (a client that reports 0).
+local function giverQuest()
+  local id = GetQuestID and GetQuestID()
+  if type(id) == "number" and id > 0 then return id end
+  local key = questKeyFor(nil, GetTitleText and GetTitleText())
+  local e = key and ns.DB.entries[key]
+  return e and e.m and e.m.id
+end
+
+-- After QuestInfo_Display(template, parent): the storyline under the title, when the template showed it in `parent`.
+-- A template that shows a quest log's quest (questLog) shows the selected one, as the game's QuestInfo does.
+function Hooks.QuestInfoStory(template, parent)
+  local title = _G.QuestInfoTitleHeader
+  if type(template) ~= "table" or not (title and parent and parent.CreateFontString) then return end
+  if not title.GetParent or title:GetParent() ~= parent then return end
+  local id
+  if template.questLog then
+    local QL = _G.C_QuestLog
+    if QL and QL.GetSelectedQuest then
+      local ok, q = pcall(QL.GetSelectedQuest)
+      id = ok and q or nil
+    end
+  else
+    id = giverQuest()
+  end
+  placeStory(parent, title, id)
+end
+
+-- The quest giver's progress page, as it shows.
+function Hooks.ProgressStory()
+  local title = _G.QuestProgressTitleText
+  local parent = title and title.GetParent and title:GetParent()
+  if parent and parent.CreateFontString then placeStory(parent, title, giverQuest()) end
+end
+
+-- After Options › Show storylines on quests: the line in each quest's text the game still shows, again.
+function Hooks.RefreshQuestStory()
+  for parent, s in pairs(story) do
+    if s.title and s.title:GetParent() == parent then placeStory(parent, s.title, s.quest) end
+  end
+end
+
+-- For tests: the line in the frame `parent` (QuestDetailScrollChildFrame, the map's details), if one was made there.
+function Hooks.StoryLine(parent) return story[parent] and story[parent].fs end
 
 function Hooks.QuestFrames()
   -- The NPC quest dialog (accept / progress / complete).
   if _G.QuestFrame and not Hooks.questDialogButton then
-    Hooks.questDialogButton = loreButton(QuestFrame, "LoreForeverQuestDialogButton",
-      { "TOPRIGHT", QuestFrame, "TOPRIGHT", -28, -30 })
+    Hooks.questDialogButton = loreButton(QuestFrame, "LoreForeverQuestDialogButton")
+    Hooks.AtQuestRow(Hooks.questDialogButton)
     Hooks.questDialogButton.via = "questdialog"
-    Hooks.questDialogStory = storyLine(QuestFrame, "LoreForeverQuestDialogStory", Hooks.questDialogButton)
     Hooks.questDialogPlay = questPlayButton(QuestFrame)
     -- The floating player steps out from under the quest window while it's open (UI.KeepPlayerClear).
     if QuestFrame.HookScript then
@@ -323,20 +441,32 @@ function Hooks.QuestFrames()
   -- The quest log: modern map-side details panel, or the classic standalone log.
   local details = _G.QuestMapFrame and QuestMapFrame.DetailsFrame
   if details and not Hooks.questLogButton then
-    Hooks.questLogButton = loreButton(details, "LoreForeverQuestLogButton", { "TOPRIGHT", details, "TOPRIGHT", -8, 28 })
+    Hooks.questLogButton = loreButton(details, "LoreForeverQuestLogButton")
+    Hooks.AtLogRow(Hooks.questLogButton)
     Hooks.questLogButton.via = "questlog"
-    Hooks.questLogStory = storyLine(details, "LoreForeverQuestLogStory", Hooks.questLogButton)
+    Hooks.questLogPlay = questPlayButton(details, true)
     if hooksecurefunc and _G.QuestMapFrame_ShowQuestDetails then
       hooksecurefunc("QuestMapFrame_ShowQuestDetails", function(questID) Hooks.UpdateQuestLogButton(questID) end)
     end
   elseif _G.QuestLogFrame and not Hooks.questLogButton then
-    Hooks.questLogButton = loreButton(QuestLogFrame, "LoreForeverQuestLogButton",
-      { "TOPRIGHT", QuestLogFrame, "TOPRIGHT", -40, -44 })
+    Hooks.questLogButton = loreButton(QuestLogFrame, "LoreForeverQuestLogButton")
+    Hooks.questLogButton:SetPoint("TOPRIGHT", QuestLogFrame, "TOPRIGHT", -40, -44)
     Hooks.questLogButton.via = "questlog"
-    Hooks.questLogStory = storyLine(QuestLogFrame, "LoreForeverQuestLogStory", Hooks.questLogButton)
+    Hooks.questLogPlay = questPlayButton(QuestLogFrame, true)
     if hooksecurefunc and _G.SelectQuestLogEntry then
       hooksecurefunc("SelectQuestLogEntry", function() Hooks.UpdateQuestLogButton() end)
     end
+  end
+  -- The storyline in the quest's text (Hooks.QuestInfoStory): after the game lays a quest's text out, and as the
+  -- progress page shows (its OnShow is bound in the game's XML, so it's hooked on the frame, not by name).
+  if hooksecurefunc and _G.QuestInfo_Display and _G.QuestInfoTitleHeader and not Hooks.storyHooked then
+    hooksecurefunc("QuestInfo_Display", function(template, parent) Hooks.QuestInfoStory(template, parent) end)
+    Hooks.storyHooked = true
+  end
+  local progress = _G.QuestFrameProgressPanel
+  if progress and progress.HookScript and _G.QuestProgressTitleText and not Hooks.progressHooked then
+    progress:HookScript("OnShow", function() Hooks.ProgressStory() end)
+    Hooks.progressHooked = true
   end
 end
 
@@ -347,25 +477,28 @@ local function buttonQuest(b, id)
   return e and e.m and e.m.id
 end
 
--- The book reader (books, letters, plaques): a Read aloud button that reads the page shown, or stops it (LOR-49).
--- Shown only while Read aloud can speak; its label follows what's playing.
+-- The book reader (books, letters, plaques): a Listen button that plays the page's recording, or stops it (LOR-49).
+-- Shown only for a page a voice recorded (Voice.BookPageClip; none has one yet, so books stay text); its label follows
+-- what's playing.
 function Hooks.BookFrame()
   local f = _G.ItemTextFrame
   if not f or Hooks.bookButton then return end
   local T = ns.Theme
-  local b = (T and T.Button) and T.Button(f, L["Read aloud"])
+  local b = (T and T.Button) and T.Button(f, L["Listen"])
     or CreateFrame("Button", "LoreForeverBookButton", f, "UIPanelButtonTemplate")
   b:SetSize(96, 20)
   b:SetPoint("TOPRIGHT", f, "TOPRIGHT", -28, -30)
   b:SetFrameLevel((f:GetFrameLevel() or 1) + 5)
-  b:SetText(L["Read aloud"])
+  b:SetText(L["Listen"])
   b:SetScript("OnClick", function()
     ns.Voice.ReadBookPage(true)
     Hooks.UpdateBookButton()
   end)
   b:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Read this page aloud with the game's voice. Click again to stop."], 1, 1, 1, true)
+    local UI = ns.UI
+    local reading = UI and UI.speaking and ns.Voice.IsBookText(UI.playingId)
+    GameTooltip:AddLine(reading and L["Stop narration"] or L["Play narration"])
     GameTooltip:Show()
   end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -384,38 +517,65 @@ function Hooks.UpdateBookButton()
   if not b then return end
   local UI = ns.UI
   local reading = UI and UI.speaking and ns.Voice.IsBookText(UI.playingId)
-  b:SetText(reading and L["Stop"] or L["Read aloud"])
-  -- As wide as its label needs ("Lecture à voix haute" runs past 96), growing leftward from the corner.
+  b:SetText(reading and L["Stop"] or L["Listen"])
+  -- As wide as its label needs (a translation can run past 96), growing leftward from the corner.
   local fs = b.GetFontString and b:GetFontString()
   local w = fs and ns.Theme.TextWidth(fs)
   if type(w) == "number" and w > 0 then b:SetWidth(math.max(96, w + 24)) end
-  b:SetShown(reading or ns.Voice.Available())
+  b:SetShown((reading or ns.Voice.BookPageClip() ~= nil) and true or false)
 end
 
 function Hooks.UpdateQuestDialogButton()
   local b = Hooks.questDialogButton
   if not b then return end
   local id = GetQuestID and GetQuestID()
-  b.key = questKeyFor(id ~= 0 and id or nil, GetTitleText and GetTitleText())
+  local title = GetTitleText and GetTitleText()
+  b.key = questKeyFor(id ~= 0 and id or nil, title)
+  b.quest, b.title = buttonQuest(b, id), type(title) == "string" and title ~= "" and title or nil
   b:SetShown(b.key ~= nil)
-  setStoryLine(Hooks.questDialogStory, buttonQuest(b, id))
 end
 
 -- The play button follows the page and what plays (UI.UpdateNowPlaying calls this): beside Lore, or in its place when
 -- the quest has no story; hidden when nothing can play.
 function Hooks.UpdateQuestPlayButton()
+  Hooks.UpdateQuestLogPlayButton()
   local b, lore = Hooks.questDialogPlay, Hooks.questDialogButton
   if not b then return end
   local state = _G.QuestFrame and QuestFrame:IsShown() and ns.Voice.QuestPageState() or nil
   b:SetShown(state ~= nil)
   if not state then return end
   ns.Theme.SetIcon(b, state == "stop" and "stop" or "play")
-  b:SetText(state == "stop" and L["Stop"] or (state == "read" and L["Read aloud"] or L["Listen"]))   -- hidden; the sign shows it
-  b:ClearAllPoints()
+  b:SetText(state == "stop" and L["Stop"] or L["Listen"])   -- hidden; the sign shows it
   if lore and lore:IsShown() then
+    b:ClearAllPoints()
     b:SetPoint("RIGHT", lore, "LEFT", -4, 0)
   else
-    b:SetPoint("TOPRIGHT", QuestFrame, "TOPRIGHT", -28, -30)
+    Hooks.AtQuestRow(b)
+  end
+end
+
+-- Play/Stop for the page currently selected in the quest log. The target rechecks selection and words on every click,
+-- so an old button never reads another quest or a recording of text Forever changed.
+function Hooks.QuestLogPageState()
+  local lore = Hooks.questLogButton
+  local target = lore and ns.UI.QuestLogTarget(lore.quest)
+  if target then return ns.UI.IsPlayingTarget(target) and "stop" or "listen" end
+end
+
+function Hooks.UpdateQuestLogPlayButton()
+  local b, lore = Hooks.questLogPlay, Hooks.questLogButton
+  if not b then return end
+  local parent = (_G.QuestMapFrame and QuestMapFrame.DetailsFrame) or _G.QuestLogFrame
+  local state = parent and parent:IsShown() and Hooks.QuestLogPageState() or nil
+  b:SetShown(state ~= nil)
+  if not state then return end
+  ns.Theme.SetIcon(b, state == "stop" and "stop" or "play")
+  b:SetText(state == "stop" and L["Stop"] or L["Listen"])
+  if lore and lore:IsShown() then
+    b:ClearAllPoints()
+    b:SetPoint("RIGHT", lore, "LEFT", -4, 0)
+  else
+    Hooks.AtLogRow(b)
   end
 end
 
@@ -427,8 +587,9 @@ function Hooks.UpdateQuestLogButton(questID)
     questID = ok and id or nil
   end
   b.key = questKeyFor(questID)
+  b.quest = buttonQuest(b, questID)
   b:SetShown(b.key ~= nil)
-  setStoryLine(Hooks.questLogStory, buttonQuest(b, questID))
+  Hooks.UpdateQuestLogPlayButton()
 end
 
 -- Chat links -------------------------------------------------------------------------------------------------------

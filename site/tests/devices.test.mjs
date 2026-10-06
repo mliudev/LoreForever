@@ -356,6 +356,8 @@ test("the pages: /link connects, /account lists connected apps and says the comp
   assert.match(link, /<meta name="robots" content="noindex">/);
   assert.match(link, /\/api\/device\/approve/);
   assert.match(link, /\/api\/device\/link\?code=/);
+  assert.match(link, /<img src="\/img\/harold\.svg" alt="Harold, the Lore Forever herald"/);   // LOR-266
+  assert.match(read("img/harold.svg"), /^<svg xmlns="http:\/\/www\.w3\.org\/2000\/svg"/);
   const account = read("account.html");
   assert.match(account, /id="apps"/);
   assert.match(account, /\/api\/device\/list/);

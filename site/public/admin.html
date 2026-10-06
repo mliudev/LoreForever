@@ -317,9 +317,10 @@ function render() {
     " voices · " + users.filter(u => u.languages).length + " translators";
   const st = data.stories || { usd: 0, calls: 0, written: 0, budget: 100, on: false };
   $("t-stories").textContent = "$" + st.usd.toFixed(st.usd < 10 ? 4 : 2);   // a story costs about $0.0006
-  $("t-stories-sub").textContent = st.on
+  // Reading them aloud (LOR-316) shares the budget: about $0.09 a story a narrator.
+  $("t-stories-sub").textContent = (st.on
     ? `of $${st.budget} · ${st.written} written in ${st.calls} ${st.calls === 1 ? "try" : "tries"}`
-    : "No GEMINI_API_KEY: summaries only";
+    : "No GEMINI_API_KEY: summaries only") + (st.voiceUsd ? ` · read aloud $${st.voiceUsd.toFixed(2)}` : "");
 
   const days = lastDays(30);
   const signupsPerDay = days.map(d => subs.filter(s => (s.created_at || "").slice(0, 10) === d).length);

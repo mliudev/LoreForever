@@ -63,20 +63,12 @@
     "is turtle corrupted"
    ],
    "answer": "While not inherently a creature of the Void, Ghamoo-ra's mind was warped by Twilight's Hammer cultists who worship the Old Gods. They twisted the ancient creature into an unwitting protector of their dark ritual grounds."
-  },
-  {
-   "q": "Is Ghamoo-ra related to other giant turtles?",
-   "aliases": [
-    "ghamoo-ra relatives",
-    "ghamoo-raja"
-   ],
-   "answer": "He shares an unmistakable resemblance and naming convention with Ghamoo-Raja, suggesting a common species or lineage of giant shelled ancients native to Kalimdor's waters."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Hunters venturing into Blackfathom Deeps may pity Ghamoo-ra, a noble, ancient beast broken by dark captivity, though he cannot be tamed."
+   "text": "Hunters venturing into Blackfathom Deeps may pity Ghamoo-ra, a noble, ancient beast broken by dark captivity, though a patient hunter may yet tame him."
   },
   {
    "target": "race:NightElf",

@@ -2,7 +2,7 @@
 // sending feedback need one; playing, listening and liking don't.
 //   GET  /api/auth/me       {user, voices, signIn: {google: client id or null}, features: {contribute, zones, lore,
 //                           companion}};
-//                           user is null when signed out
+//                           user is null when signed out; user.session_expires: when this sign-in ends
 //   POST /api/auth/google   {credential}: a Google ID token from the Sign in with Google button -> session cookie
 //   POST /api/auth/logout   ends this session
 //   POST /api/auth/profile  {display_name, links, show_public}: what /contributors shows
@@ -43,7 +43,7 @@ async function me({ request, env }) {
   return ok({
     user: {
       email: user.email, display_name: user.display_name, links: user.links || "", show_public: Boolean(user.show_public),
-      google: Boolean(user.google_sub), created: user.created,
+      google: Boolean(user.google_sub), created: user.created, session_expires: user.session_expires,
     },
     voices: results.map(v => ({ ...v, status: listed.has(v.id) ? "published" : v.status })),
     signIn: signInOptions(env),

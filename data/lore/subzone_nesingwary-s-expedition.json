@@ -28,7 +28,7 @@
     "nesingwary camp leader",
     "who is in charge here"
    ],
-   "answer": "The camp was founded and is led by the legendary dwarven big game hunter Hemet Nesingwary, alongside his son Hemet Nesingwary Jr. and a circle of veteran marksmen."
+   "answer": "The camp was founded and is led by the legendary dwarven big game hunter Hemet Nesingwary, alongside a circle of veteran marksmen."
   },
   {
    "q": "Why is the expedition here in Stranglethorn Vale?",
@@ -79,7 +79,6 @@
   "stranglethorn"
  ],
  "related": [
-  "quest:788",
   "quest:5762",
   "zone:stranglethorn",
   "subzone:lake-nazferiti"

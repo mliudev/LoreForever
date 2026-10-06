@@ -130,7 +130,7 @@ EVENTS = [
     ev(6, "17:41", 21, "lvl", **BFD),
     ev(6, "17:55", 21, "boss", n="Ghamoo-ra", **BFD, pt=PT),
     ev(6, "17:56", 21, "loot", n="Tortoise Armor", ql=3, **BFD),
-    ev(6, "18:30", 21, "death", **BFD, pt=PT),
+    ev(6, "18:30", 21, "death", **BFD, pt=PT, how="drown"),   # his breath ran out (LOR-262)
     ev(6, "18:36", 21, "zone", **BFD, inst="party", how="instance"),   # back in after the corpse run
     ev(6, "18:58", 21, "qt", id=1198, q="In Search of Thaelrid", **BFD, pt=PT),
     ev(6, "19:40", 22, "lvl", **BFD),
@@ -184,6 +184,13 @@ TALLY = {
     "kinds": {"Beast": 98, "Humanoid": 61, "Elemental": 21, "Undead": 4},
     "ranks": {"elite": 6, "rare": 2, "rareelite": 1},
     "deaths": 3, "online": 84600, "played": 90000, "playedAt": 81000,
+    # LOR-262: how he traveled, his patrons, homes and flights, time per zone, fish, days, his story's length.
+    "v": 2, "ride": 14200, "swim": 1880, "flown": 41300, "boats": 2, "fish": 17,
+    "days": 9, "best": 6, "streak": 2, "lastDay": "2026-09-22", "words": 21400, "heard": 64,
+    "flights": {"Auberdine": 3, "Astranaar": 2, "Rut'theran Village": 2},
+    "inns": {"Dolanaar": 1, "Auberdine": 2, "Astranaar": 1},
+    "patrons": {"Conservator Ilthalaine": 3, "Gershala Nightwhisper": 4, "Raene Wolfrunner": 2, "Gryan Stoutmantle": 2},
+    "time": {"Teldrassil": 50400, "Darkshore": 39600, "Ashenvale": 25200, "Westfall": 12600, "Darnassus": 7200},
 }
 
 

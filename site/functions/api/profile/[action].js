@@ -3,8 +3,10 @@
 //   POST /api/profile/import    {record}: a pasted journey record -> creates or updates your profile, writes its story.
 //                               Another character's record replaces the profile, private again at a new address
 //                               ({switched: {from, to}} says so).
-//   POST /api/profile/sync      {record}: the same record, sent by the companion app after a /reload or logout
-//                               (LOR-148), with its token as "Authorization: Bearer <token>" (lib/devices.js) instead
+//   POST /api/profile/sync      {record, journey?}: the same record, sent by the companion app after a /reload or logout
+//                               (LOR-148), and its journey data (lib/journey.js readJourney, LOR-248: when each moment
+//                               happened, with game IDs; kept in its own column, and a paste of the same character
+//                               keeps it), with its token as "Authorization: Bearer <token>" (lib/devices.js) instead
 //                               of a session. Creates or updates the profile like an import, except: it never switches
 //                               to another character (409 with {profile: {name, realm}}, the character the companion
 //                               should send instead), a record that hasn't changed changes nothing ({unchanged: true}),
@@ -12,25 +14,31 @@
 //                               "later" when it wasn't due).
 //   POST /api/profile/settings  {public?, spec?, handle?}: whether anyone with the link can see it, your favorite
 //                               spec, its address (/u/<handle>)
-//   POST /api/profile/delete    removes your profile and disconnects your connected apps (your account stays)
+//   POST /api/profile/delete    removes your profile and its pictures, and disconnects your connected apps (your account
+//                               stays)
+// The picture book has its own API: functions/api/profile/pictures/ (lib/pictures.js).
 // Every POST from a page must come from our own pages (Origin check), sends JSON and needs a session; sync comes from
 // the companion (X-LF-Client: companion/<version>, no Origin) with its token.
 
 import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/accounts.js";
-import { parseRecord, RecordError } from "../../../lib/journey.js";
+import { parseRecord, readJourney, RecordError } from "../../../lib/journey.js";
 import {
   profileOf, profileByHandle, newHandle, validHandle, specsFor, templateStory, writeStory, storyBudgetLeft, sheetLine,
   setupProfiles, storyBasis, storyDue, sameCharacter, STORIES_PER_DAY,
 } from "../../../lib/profiles.js";
 import { currentDevice, markSynced } from "../../../lib/devices.js";
 import { perMinute, perHour, perDay, slowDown } from "../../../lib/ratelimit.js";
+import { forgetPictures } from "../../../lib/pictures.js";
+import { forgetStoryVoice } from "../../../lib/storyvoice.js";
 
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
 
 const IMPORTS_PER_MINUTE = 10;
 const SYNCS_PER_MINUTE = 6;    // the companion sends only after a save, and only when the record changed
 const SYNCS_PER_HOUR = 60;
-const MAX_BODY = 160 * 1024;   // a record is at most 64 KB (lib/journey.js); its JSON can't be much more than twice that
+// A record is at most 64 KB (lib/journey.js), its JSON not much more than twice that; the companion keeps its journey
+// data under 96 KB (companion/lore_companion/profile.py JOURNEY_BYTES).
+const MAX_BODY = 256 * 1024;
 const RECORD_ERRORS = {
   "empty": "Paste your journey record first: in game, open Journey, click Copy my journey record and press Ctrl+C.",
   "too-big": "That's longer than a journey record. Copy it again in game and paste just that.",
@@ -64,14 +72,19 @@ function readRecord(input) {
 
 // Creates or updates the account's profile from a record's facts, and writes its story when it should. From the
 // companion (sync), returns {other} for another character's record and {unchanged} for the same facts, saving nothing.
-async function saveRecord(env, user, data, { sync = false } = {}) {
+// journey: the companion's journey data (readJourney), or undefined to keep what the profile has (a paste, or a
+// companion too old to send it); another character's record drops it.
+async function saveRecord(env, user, data, { sync = false, journey } = {}) {
   const old = await profileOf(env, user.id);
   const now = new Date();
   // Another character: the profile becomes theirs, private again and at their own address, so a page the player
   // shared never turns into a different character's. Only a paste does that.
   const switched = Boolean(old) && !sameCharacter(old.data, data);
   if (sync && switched) return { other: old };
-  if (sync && old && JSON.stringify(old.data) === JSON.stringify(data)) return { unchanged: old };
+  if (sync && old && JSON.stringify(old.data) === JSON.stringify(data) &&
+      (journey === undefined || JSON.stringify(old.journey) === JSON.stringify(journey))) return { unchanged: old };
+  const keptJourney = journey !== undefined ? journey : (old && !switched ? old.journey : null);
+  const journeyText = keptJourney ? JSON.stringify(keptJourney) : null;
   // A favorite spec stays while it's the same character and still fits the class.
   const spec = old && !switched && old.spec && specsFor(data).includes(old.spec) ? old.spec : null;
   const kept = old && !switched ? old : null;   // what carries over: the same character's profile
@@ -97,8 +110,9 @@ async function saveRecord(env, user, data, { sync = false } = {}) {
 
   const update = (handle, isPublic) => env.DB.prepare(
     "UPDATE profiles SET handle = ?, public = ?, data = ?, spec = ?, story = ?, story_source = ?, story_count = ?, " +
-    "story_at = ?, story_basis = ?, updated = ? WHERE user_id = ?"
-  ).bind(handle, isPublic, JSON.stringify(data), spec, story, source, storyCount, storyAt, basis, stamp, user.id).run();
+    "story_at = ?, story_basis = ?, journey = ?, updated = ? WHERE user_id = ?"
+  ).bind(handle, isPublic, JSON.stringify(data), spec, story, source, storyCount, storyAt, basis, journeyText, stamp,
+         user.id).run();
 
   if (old) {
     await update(switched ? await newHandle(env, data.name) : old.handle, switched ? 0 : old.public);
@@ -108,9 +122,9 @@ async function saveRecord(env, user, data, { sync = false } = {}) {
       try {
         await env.DB.prepare(
           "INSERT INTO profiles (user_id, handle, public, spec, data, story, story_source, story_count, story_at, " +
-          "story_basis, created, updated) VALUES (?, ?, 0, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+          "story_basis, journey, created, updated) VALUES (?, ?, 0, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
         ).bind(user.id, await newHandle(env, data.name), spec, JSON.stringify(data), story, source, storyCount, storyAt,
-               basis, stamp, stamp).run();
+               basis, journeyText, stamp, stamp).run();
         break;
       } catch (e) {
         const theirs = await profileOf(env, user.id);
@@ -143,7 +157,10 @@ async function sync({ env }, input, { user, device }) {
   }
   const { data, error } = readRecord(input);
   if (error) return error;
-  const out = await saveRecord(env, user, data, { sync: true });
+  // The journey data (LOR-248): kept as sent when it reads; an older companion (none) or one that doesn't read keeps
+  // what the profile has.
+  const journey = readJourney(input.journey, data) ?? undefined;
+  const out = await saveRecord(env, user, data, { sync: true, journey });
   if (out.other) {
     const d = out.other.data;
     return Response.json({ ok: false, error: `Your profile shows ${d.name}${d.realm ? ` (${d.realm})` : ""}, not ` +
@@ -180,8 +197,11 @@ async function settings({ env }, input, user) {
   return ok({ profile: summary(await profileOf(env, user.id)) });
 }
 
-// Connected apps go too: a companion still connected would make the profile again after the next /reload.
+// Connected apps go too: a companion still connected would make the profile again after the next /reload. So do the
+// pictures of its picture book (lib/pictures.js) and its story's recordings (lib/storyvoice.js), files and all.
 async function remove({ env }, input, user) {
+  await forgetPictures(env, user.id);
+  await forgetStoryVoice(env, user.id);
   await env.DB.batch([
     env.DB.prepare("DELETE FROM profiles WHERE user_id = ?").bind(user.id),
     env.DB.prepare("DELETE FROM devices WHERE user_id = ?").bind(user.id),

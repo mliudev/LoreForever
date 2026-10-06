@@ -560,5 +560,5 @@ test("/contribute: noindex until the contribute feature is on; the menu link fol
   assert.ok(!html.includes('name="robots"') && html.includes("Share the Forever text you've seen"));
   assert.equal((await me()).features.contribute, true);
   const header = readFileSync(new URL("../public/header.js", import.meta.url), "utf8");
-  assert.match(header, /me\.features && me\.features\.contribute/);
+  assert.match(header, /contribute: Boolean\(me\.features\.contribute\)/);   // site/tests/header.test.mjs runs it
 });

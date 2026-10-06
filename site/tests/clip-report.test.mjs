@@ -79,6 +79,8 @@ test("voices fold into their narrator, so the add-on's packs and the site's voic
   }
   assert.equal(normalizeVoice("female-narrator"), "LoreForever_Voice_Female");
   assert.equal(normalizeVoice("LoreForever_Voice_Female_Quests_deDE"), "LoreForever_Voice_Female_deDE");
+  assert.equal(normalizeVoice("LoreForever_Voice_Female_Answers_Quests2_deDE"), "LoreForever_Voice_Female_deDE");
+  assert.equal(normalizeVoice("LoreForever_Voice_Default_Answers_Places"), "LoreForever_Voice_Default");
   assert.equal(normalizeVoice("QuestGivers"), "LoreForever_Voice_QuestGivers");
   assert.equal(normalizeVoice("Ashen_Horde"), "LoreForever_Voice_Ashen_Horde", "a community voice keeps its name");
   assert.equal(normalizeVoice("../etc"), null);

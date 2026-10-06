@@ -60,15 +60,6 @@
    "answer": "The pilot holds the Workshop Key, an essential device that unlocks the back door entrance into Gnomeregan's deeper engineering sectors, allowing strike teams a faster route through the reclaimed facilities."
   },
   {
-   "q": "What happens to the machine after it is destroyed?",
-   "aliases": [
-    "electrocutioner leg",
-    "salvage electrocutioner",
-    "ironforge trophy"
-   ],
-   "answer": "Following its defeat, Alliance scavengers and tinkerers have retrieved components of the ruined chassis\u2014including the celebrated Electrocutioner Leg\u2014and brought them back to Tinker Town in Ironforge for study and safekeeping."
-  },
-  {
    "q": "Is the Electrocutioner an automaton or a vehicle?",
    "aliases": [
     "is electrocutioner a robot",
@@ -105,7 +96,6 @@
   "zone:gnomeregan",
   "subzone:launch-bay",
   "topic:leper-gnome",
-  "subzone:tinker-town",
   "topic:gnome",
   "zone:ironforge"
  ],

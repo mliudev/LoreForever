@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Discreet Introduction",
-   "body": "While newcomer gnomes assist the mountaineers of Coldridge Valley with local trogg threats, Mountaineer Sten Stoutarm delivers a folded piece of parchment passed to him in confidence. Posing superficially as an official memorandum, the note is an invitation to meet Solm Hargrin, the resident rogue trainer stationed inside Anvilmar.",
+   "body": "While newcomer gnomes assist the mountaineers of Coldridge Valley with local trogg threats, Sten Stoutarm delivers a folded piece of parchment passed to him in confidence. Posing superficially as an official memorandum, the note is an invitation to meet Solm Hargrin, the resident rogue trainer stationed inside Anvilmar.",
    "spoiler": 0
   },
   {
@@ -62,7 +62,7 @@
     "sten stoutarm delivery",
     "who hands note"
    ],
-   "answer": "Mountaineer Sten Stoutarm hands the document over after you assist him in Coldridge Valley, assuming it came from Solm Hargrin for your training."
+   "answer": "Sten Stoutarm hands the document over after you assist him in Coldridge Valley, assuming it came from Solm Hargrin for your training."
   },
   {
    "q": "What role does Solm Hargrin serve?",

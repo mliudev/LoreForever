@@ -26,6 +26,9 @@ const LOCALES = {
     stats: {
       yards: "Yards walked: %d", slain: "Foes slain: %d", elites: "Elites slain: %d", rares: "Rares slain: %d",
       deaths: "Deaths: %d", recorded: "Hours recorded: %s", played: "Hours played: %s",
+      ride: "Yards ridden: %d", swim: "Yards swum: %d", flown: "Yards flown: %d", flights: "Flights taken: %d",
+      flownTo: "Places flown to: %d", boats: "Boat trips: %d", fish: "Fish caught: %d", days: "Days played: %d",
+      best: "Longest play streak: %d", words: "Words of lore: %d", heard: "Narrations heard: %d",
     },
     sections: {
       "New places, in order": "places", "Places recorded, in order": "places", "Quests done": "quests",
@@ -33,7 +36,10 @@ const LOCALES = {
       "Level-ups": "levels", "Spells learned": "spells", "Mounts": "mounts", "Profession milestones": "profs",
       "Reputation": "rep", "Deaths": "deaths", "Books read": "books", "Screenshots": "shots",
       "Journey stats": "stats", "Yards walked, by land": "walk", "Foes slain, by kind": "kinds",
+      "Slain by": "killers", "Most loyal patrons": "patrons", "Inns you've called home": "inns",
+      "Flights, by destination": "destinations", "Minutes spent, by land": "time",
     },
+    causes: { "drowned": "drown", "lost in deep water": "fatigue" },
   },
   de: {
     header: "Reiseaufzeichnung: %s", level: "Stufe %d", since: "Aufgezeichnet seit %s.",
@@ -46,9 +52,17 @@ const LOCALES = {
       yards: "Gelaufene Meter: %d", slain: "Feinde getötet: %d", elites: "Elitegegner getötet: %d",
       rares: "Seltene Gegner getötet: %d", deaths: "Tode: %d", recorded: "Aufgezeichnete Stunden: %s",
       played: "Gespielte Stunden: %s",
+      ride: "Gerittene Meter: %d", swim: "Geschwommene Meter: %d", flown: "Geflogene Meter: %d",
+      flights: "Flüge angetreten: %d", flownTo: "Angeflogene Orte: %d", boats: "Bootsfahrten: %d",
+      fish: "Gefangene Fische: %d", days: "Gespielte Tage: %d", best: "Längste Spielserie: %d",
+      words: "Lore-Wörter: %d", heard: "Erzählungen gehört: %d",
     },
+    causes: { "ertrunken": "drown", "in tiefem Wasser verschollen": "fatigue" },
     sections: {
       "Reisestatistiken": "stats", "Gelaufene Meter, nach Land": "walk", "Getötete Feinde, nach Art": "kinds",
+      "Getötet von": "killers", "Treueste Auftraggeber": "patrons",
+      "Gasthäuser, die Ihr Euer Zuhause genannt habt": "inns", "Flüge, nach Zielort": "destinations",
+      "Verbrachte Minuten, nach Land": "time",
       "Neue Orte, der Reihe nach": "places", "Aufgezeichnete Orte, in Reihenfolge": "places",
       "Abgeschlossene Quests": "quests", "Getroffene Personen": "people", "Bosse besiegt": "bosses",
       "Bemerkenswerte Siege": "kills", "Beute- und Questbelohnungen": "loot", "Stufenaufstiege": "levels",
@@ -66,9 +80,16 @@ const LOCALES = {
     stats: {   // the French client calls yards "mètres"
       yards: "Mètres parcourus à pied : %d", slain: "Ennemis tués : %d", elites: "Élites tués : %d",
       rares: "Rares tués : %d", deaths: "Morts : %d", recorded: "Heures enregistrées : %s", played: "Heures jouées : %s",
+      ride: "Mètres parcourus à monture : %d", swim: "Mètres parcourus à la nage : %d",
+      flown: "Mètres parcourus en vol : %d", flights: "Vols effectués : %d", flownTo: "Destinations de vol atteintes : %d",
+      boats: "Trajets en bateau : %d", fish: "Poissons pêchés : %d", days: "Jours joués : %d",
+      best: "Plus longue série de jeu : %d", words: "Mots d'histoire : %d", heard: "Récits écoutés : %d",
     },
+    causes: { "noyé": "drown", "perdu en eaux profondes": "fatigue" },
     sections: {
       "Statistiques de voyage": "stats", "Mètres parcourus à pied, par région": "walk", "Ennemis tués, par type": "kinds",
+      "Tué par": "killers", "Commanditaires les plus fidèles": "patrons", "Auberges qui ont été votre foyer": "inns",
+      "Vols, par destination": "destinations", "Minutes passées, par région": "time",
       "Nouveaux lieux, dans l'ordre": "places", "Lieux enregistrés, dans l'ordre": "places",
       "Quêtes terminées": "quests", "Personnes rencontrées": "people", "Boss vaincus": "bosses",
       "Victoires notables": "kills", "Butin et récompenses de quête": "loot", "Montées de niveau": "levels",
@@ -86,10 +107,17 @@ const LOCALES = {
     stats: {
       yards: "Yardas recorridas: %d", slain: "Enemigos abatidos: %d", elites: "Élites abatidos: %d",
       rares: "Raros abatidos: %d", deaths: "Muertes: %d", recorded: "Horas registradas: %s", played: "Horas jugadas: %s",
+      ride: "Yardas montado: %d", swim: "Yardas nadadas: %d", flown: "Yardas voladas: %d", flights: "Vuelos tomados: %d",
+      flownTo: "Lugares a los que has volado: %d", boats: "Viajes en barco: %d", fish: "Peces pescados: %d",
+      days: "Días jugados: %d", best: "Racha de juego más larga: %d", words: "Palabras de historia: %d",
+      heard: "Narraciones escuchadas: %d",
     },
+    causes: { "ahogado": "drown", "perdido en aguas profundas": "fatigue" },
     sections: {
       "Estadísticas del viaje": "stats", "Yardas recorridas, por territorio": "walk",
       "Enemigos abatidos, por tipo": "kinds",
+      "Asesinado por": "killers", "Mecenas más fieles": "patrons", "Posadas que has considerado tu hogar": "inns",
+      "Vuelos, por destino": "destinations", "Minutos pasados, por territorio": "time",
       "Nuevos lugares, en orden": "places", "Lugares grabados, en orden": "places", "Misiones completadas": "quests",
       "Personas conocidas": "people", "Jefes derrotados": "bosses", "Muertes destacadas": "kills",
       "Botín y recompensas de misión": "loot", "Subidas de nivel": "levels", "Hechizos aprendidos": "spells",
@@ -107,10 +135,17 @@ const LOCALES = {
     stats: {
       yards: "Jardas caminhadas: %d", slain: "Inimigos derrotados: %d", elites: "Elites derrotados: %d",
       rares: "Raros derrotados: %d", deaths: "Mortes: %d", recorded: "Horas registradas: %s", played: "Horas jogadas: %s",
+      ride: "Jardas cavalgadas: %d", swim: "Jardas nadadas: %d", flown: "Jardas voadas: %d",
+      flights: "Voos realizados: %d", flownTo: "Lugares para onde voou: %d", boats: "Viagens de barco: %d",
+      fish: "Peixes pescados: %d", days: "Dias jogados: %d", best: "Maior sequência de jogo: %d",
+      words: "Palavras de história: %d", heard: "Narrações ouvidas: %d",
     },
+    causes: { "afogado": "drown", "perdido em águas profundas": "fatigue" },
     sections: {
       "Estatísticas da jornada": "stats", "Jardas caminhadas, por território": "walk",
       "Inimigos derrotados, por tipo": "kinds",
+      "Abatido por": "killers", "Patronos mais fiéis": "patrons", "Estalagens que você chamou de lar": "inns",
+      "Voos, por destino": "destinations", "Minutos gastos, por terra": "time",
       "Novos locais, em ordem": "places", "Lugares registrados, em ordem": "places", "Missões concluídas": "quests",
       "Pessoas encontradas": "people", "Chefes derrotados": "bosses", "Abates notáveis": "kills",
       "Saques e recompensas de missões": "loot", "Subidas de nível": "levels", "Feitiços aprendidos": "spells",
@@ -158,7 +193,8 @@ const QUALITY = new Map(Object.entries({
 // How much of each list is kept (newest entries win when a list is longer).
 const CAP = { places: 300, quests: 400, people: 300, bosses: 100, kills: 150, loot: 150, levels: 80, spells: 80,
               mounts: 30, profs: 20, rep: 60, deaths: 150, books: 80, fought: 10 };
-const STAT_CAP = { walk: 40, kinds: 20 };   // the journey stats' lists (the add-on prints at most 30 and 12)
+// The journey stats' lists (the add-on prints at most 30 lands, 12 kinds and 10 of the others).
+const STAT_CAP = { walk: 40, kinds: 20, time: 40, killers: 10, patrons: 10, inns: 10, destinations: 10 };
 const MAX_TEXT = 80;   // characters in any one name
 
 // The sections that are moments on the profile's timeline, in the order moments of the same minute go (you reach a
@@ -209,15 +245,23 @@ const FORMATS = ["header", "level", "since", "sinceFrom", "with", "reached", "sl
 const COMPILED = Object.fromEntries(Object.entries(LOCALES).map(([code, L]) => [code,
   { code, ...Object.fromEntries(FORMATS.map(k => [k, compile(L[k])])),
     stats: Object.entries(L.stats).map(([k, f]) => [k, compile(f)]) }]));
-// "Journey stats" (LOR-246): the add-on always prints these lines in this order (JourneyRecord.lua numbers), so one
-// worded in a way this file doesn't know yet (a newer translation) is still read by its place.
-const STAT_ORDER = ["yards", "slain", "elites", "rares", "deaths", "recorded", "played"];
+// "Journey stats" (LOR-246): the add-on always prints these six lines first, in this order (JourneyRecord.lua numbers),
+// so one worded in a way this file doesn't know yet (a newer translation) is still read by its place. The lines after
+// them (hours played, LOR-262's) come only when they have something, so they're read by their words.
+const STAT_ORDER = ["yards", "slain", "elites", "rares", "deaths", "recorded"];
+const STAT_HOURS = new Set(["recorded", "played"]);
+// The journey stats' "Name: n" lists, each item's shape ({ name, n } unless said).
+const STAT_LISTS = {
+  walk: (name, n) => ({ zone: name, yards: num(n, 1e9) }), kinds: (name, n) => ({ kind: name, n: num(n) }),
+  time: (name, n) => ({ zone: name, minutes: num(n) }), killers: null, patrons: null, inns: null, destinations: null,
+};
 const STAT_LINE = /^-\s*[^:]{1,60}:\s*[\d.,]+$/;
 // Maps, not objects: a pasted "constructor" or "__proto__" must not find anything.
 const merged = key => new Map(Object.values(LOCALES).flatMap(L => Object.entries(L[key])));
 const anyOf = key => new Set(Object.values(LOCALES).map(L => L[key]));
 const SECTIONS = merged("sections");
 const RANKS = merged("ranks");
+const CAUSES = merged("causes");
 const FOUGHT = anyOf("fought"), CUT = anyOf("cut"), DUNGEON = anyOf("dungeon"), DIED = anyOf("died");
 const QUEST_REWARD = anyOf("questReward");
 const CLASS_OF = new Map(Object.entries(CLASSES).flatMap(([key, names]) => names.map(n => [n, key])));
@@ -332,11 +376,10 @@ export function parseRecord(input, now = new Date()) {
       if (line.startsWith("-")) stat(line, data, T, statAt++);
       continue;
     }
-    if (section === "walk" || section === "kinds") {
+    if (Object.hasOwn(STAT_LISTS, section)) {
       const s = data.stats ||= statsOf();
-      for (const [name, n] of pairs(line)) {
-        if (s[section].length < STAT_CAP[section]) s[section].push(section === "walk" ? { zone: name, yards: num(n, 1e9) } : { kind: name, n: num(n) });
-      }
+      const item = STAT_LISTS[section] || ((name, n) => ({ name, n: num(n) }));
+      for (const [name, n] of pairs(line)) if (s[section].length < STAT_CAP[section]) s[section].push(item(name, n));
       continue;
     }
     if (!section || !line.startsWith("-")) continue;
@@ -347,8 +390,9 @@ export function parseRecord(input, now = new Date()) {
     if (e) when.set(e, stamp(time, now));
   }
 
-  // A killer the record doesn't also list as a foe is dropped: "slain by" could name another player.
-  const foes = new Set([...data.fought, ...data.kills, ...data.bosses].map(f => f.name));
+  // A killer the record doesn't also list as a foe (or among the creatures that slew them, which the add-on keeps
+  // without players) is dropped: "slain by" could name another player.
+  const foes = new Set([...data.fought, ...data.kills, ...data.bosses, ...(data.stats?.killers || [])].map(f => f.name));
   for (const d of data.deaths) if (d.by && !foes.has(d.by)) delete d.by;
   for (const [k, n] of Object.entries(CAP)) if (data[k].length > n) data[k] = data[k].slice(-n);
   data.timeline = timeline(data, when);
@@ -361,7 +405,12 @@ export function parseRecord(input, now = new Date()) {
 // The journey in numbers (LOR-246), as a profile keeps them: yards walked, foes slain (and of them elites and rares),
 // deaths, hours recorded (played with the add-on's journey on) and played (the game's /played, when the player has
 // asked it), then yards walked per land and kills per creature type, the biggest first. null in a record without them.
-const statsOf = () => ({ yards: 0, slain: 0, elites: 0, rares: 0, deaths: 0, recorded: 0, played: null, walk: [], kinds: [] });
+// LOR-262 adds yards ridden, swum and flown, flights, places flown to, boat trips, fish, days played, the longest run
+// of days in a row, words of the lore of their journey and narrations heard (0 when the record doesn't say), and the
+// lists of what slew them, their patrons, inns, flights by destination and minutes per land.
+const statsOf = () => ({ yards: 0, slain: 0, elites: 0, rares: 0, deaths: 0, recorded: 0, played: null, walk: [], kinds: [],
+  ride: 0, swim: 0, flown: 0, flights: 0, flownTo: 0, boats: 0, fish: 0, days: 0, best: 0, words: 0, heard: 0,
+  time: [], killers: [], patrons: [], inns: [], destinations: [] });
 
 // One "- Yards walked: 41203" line of the journey stats, the at-th: by its words in the record's language or English,
 // else by its place.
@@ -374,12 +423,12 @@ function stat(line, data, T, at) {
   }
   if (!key) {
     const m = /:\s*([\d.,]+)$/.exec(text);
-    key = m ? STAT_ORDER[at] : null;
+    key = m ? STAT_ORDER[at] ?? null : null;
     value = m && m[1];
   }
   if (!key) return;
   const s = data.stats ||= statsOf();
-  if (key === "recorded" || key === "played") {
+  if (STAT_HOURS.has(key)) {
     const h = parseFloat(String(value).replace(",", "."));
     s[key] = Number.isFinite(h) && h >= 0 && h < 1e5 ? Math.round(h * 10) / 10 : (key === "played" ? null : 0);
   } else {
@@ -418,6 +467,83 @@ function sheet(line, T) {
   const cls = w[w.length - 1];
   if (cls && CLASS_OF.has(cls)) return { ...out, className: tidy(cls), classKey: CLASS_OF.get(cls), race: tidy(w.slice(0, -1).join(" ")) || null };
   return { ...out, race: tidy(rest) || null };
+}
+
+// ---- The companion's journey data (LOR-248, the companion scope's item 5) ----
+//
+// Next to the record, the companion app sends `journey: {v: 1, tz, moments: [{t, k, ...}]}`, built from its journal on
+// the player's PC (every event, not the add-on's trimmed copy): when each moment happened (t, seconds), what it was
+// (k: Journey.lua's event kinds) and its game IDs, so the page can follow a quest from where it was taken to where it
+// was turned in and draw the road between lands. Pastes stay text only. tz: the PC's offset from UTC in minutes, only
+// so a moment shows on the player's own day. Like the record, it's untrusted: only these kinds and fields are kept,
+// names are tidied and capped, there's no party (other players), and a killer is kept only when the journey or the
+// record lists it as a foe.
+
+export const JOURNEY_V = 1;
+export const MAX_MOMENTS = 2000;
+const JOURNEY_KINDS = new Set(["zone", "qa", "qt", "npc", "boss", "kill", "lvl", "death", "book", "loot", "mount", "rep"]);
+const HOW = new Set(["walk", "flight", "hearth", "boat", "corpse", "portal", "instance"]);
+const NOTABLE = new Set(["elite", "rare", "rareelite", "worldboss"]);
+const EARLIEST = Date.UTC(2004, 10, 23) / 1000;   // nothing in WoW happened before launch day
+const int = (v, lo, hi) => (Number.isInteger(v) && v >= lo && v <= hi ? v : null);
+
+// The journey as stored ({v, tz, moments} in time order), or null when there's none worth keeping. data: the record's
+// facts, for which killers are foes.
+export function readJourney(input, data = null, now = new Date()) {
+  if (!input || typeof input !== "object" || input.v !== JOURNEY_V || !Array.isArray(input.moments)) return null;
+  const latest = (now.getTime() + AHEAD) / 1000;
+  const out = [];
+  for (const m of input.moments.slice(-MAX_MOMENTS)) {
+    if (!m || typeof m !== "object" || !JOURNEY_KINDS.has(m.k)) continue;
+    const t = int(m.t, EARLIEST, latest);
+    if (t === null) continue;
+    const e = { t, k: m.k };
+    for (const key of ["z", "s", "n"]) {
+      const v = typeof m[key] === "string" ? tidy(m[key]) : "";
+      if (v) e[key] = v;
+    }
+    switch (m.k) {
+      case "zone":
+        if (!e.z || !(m.new || m.inst)) continue;
+        if (m.new) e.new = 1;
+        if (m.inst) e.inst = 1;
+        if (HOW.has(m.how)) e.how = m.how;
+        break;
+      case "qa": case "qt":
+        if (!(e.id = int(m.id, 1, 9999999))) continue;
+        break;
+      case "kill":
+        if (!e.n || !NOTABLE.has(m.cls)) continue;
+        e.cls = m.cls;
+        break;
+      case "lvl":
+        if (!(e.lv = int(m.lv, 2, 100))) continue;
+        break;
+      case "death":
+        if (typeof m.by === "string" && tidy(m.by)) e.by = tidy(m.by);
+        break;
+      case "loot": {
+        if (!e.n) continue;
+        const ql = int(m.ql, 0, 7), qid = int(m.qid, 1, 9999999);
+        if (ql !== null) e.ql = ql;
+        if (qid) e.qid = qid;
+        break;
+      }
+      case "rep":
+        if (!e.n || !(e.st = int(m.st, 1, 8))) continue;
+        break;
+      default:   // npc, boss, book, mount: a name
+        if (!e.n) continue;
+    }
+    out.push(e);
+  }
+  // "Slain by" could name another player: kept only for a foe the journey or the record lists.
+  const foes = new Set([...out.filter(e => e.k === "kill" || e.k === "boss").map(e => e.n),
+    ...[...(data?.fought || []), ...(data?.kills || []), ...(data?.bosses || [])].map(f => f.name)]);
+  for (const e of out) if (e.by && !foes.has(e.by)) delete e.by;
+  if (!out.length) return null;
+  out.sort((a, b) => a.t - b.t);
+  return { v: JOURNEY_V, tz: int(input.tz, -840, 840) ?? 0, moments: out };
 }
 
 // One entry into its section's list. Returns the entry a moment section added (for its time), else nothing.
@@ -467,10 +593,11 @@ function read(section, parts, data, T) {
       return add({ faction, standing: tidy(m[0]), ...at(rest[0]) });
     }
     case "deaths": {
-      // Where (or "Died" when the game didn't say), then "slain by X" when it did.
+      // Where (or "Died" when the game didn't say), then "slain by X" when it did, or how (drowned, LOR-262).
       const slain = parts.map(p => matchIn(T, "slain", p)).find(Boolean);
+      const cause = parts.map(p => CAUSES.get(p)).find(Boolean);
       const where = !DIED.has(first) && !matchIn(T, "slain", first);
-      return add({ ...(where ? place(first) : {}), ...(slain ? { by: tidy(slain[0]) } : {}) });
+      return add({ ...(where ? place(first) : {}), ...(slain ? { by: tidy(slain[0]) } : {}), ...(cause ? { cause } : {}) });
     }
     case "books": return add({ title: tidy(first.replace(/^"(.*)"$/s, "$1")), ...at(rest[0]) });
     case "shots": data.shots++; return;

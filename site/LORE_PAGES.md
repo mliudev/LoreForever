@@ -6,8 +6,8 @@ narration script, a player per voice (1×/1.25×/1.5×, read-along), "Report a p
 and a "Get Lore Forever" button. It's the start of LOR-20 (lore entry pages) and LOR-22 (SEO); the add-on's future
 "Read more on the site" (LOR-23) links here.
 
-**It's switched off:** the pages are served, but noindex, out of the sitemap and linked from nowhere, until the
-recordings are uploaded and Mike flips the flag (below).
+**It's on (Mike, 2026-10-04):** the recordings are in R2 and the `lore` feature is on, so the pages are indexable, in
+the sitemap and linked from the header and from player profiles. How it was turned on, for reference (below).
 
 ## Turning it on
 
@@ -21,15 +21,17 @@ recordings are uploaded and Mike flips the flag (below).
    https://loreforeverwow.com/lore/zone/stormwind shows play buttons.
 2. Turn on the **`lore` site feature**: `FEATURES = { ..., lore: true }` in `site/lib/features.js` (the site's one
    switch for unreleased features). The pages become indexable, `/lore/sitemap.xml` fills, the
-   `X-Robots-Tag: noindex` goes, `header.js` adds a **Lore** link after Download (it learns the feature from
-   `GET /api/auth/me`), and player profiles link their moments to these pages (LOR-248). `site/tests/lore.test.mjs` asserts the feature is off: flip that line too. Add a CHANGELOG
-   line ("Hear every narration on the site...").
+   `X-Robots-Tag: noindex` goes, the header shows a **Lore** link after Download, and player profiles link their
+   moments to these pages (LOR-248). `site/tests/lore.test.mjs` asserts the feature is off: flip that line too. Add a
+   CHANGELOG line ("Hear every narration on the site...").
 3. Merge, then publish the site as usual (`git push origin origin/main:site-live`).
 
 The Pages variable **`SITE_FEATURES=lore`** turns it on without a code change, e.g. on Preview to look at it as it
 will be (`-lore` turns it off). Don't use it as the switch for production: a variable needs a redeploy and isn't in
-git. If the Lore link should also show without JavaScript, add it to `SITE_NAV` in `lib/voices.js` and every static
-page's copy later (`site/tests/nav.test.mjs` lists any that differ).
+git. The Lore link is in the header's markup (`SITE_NAV` in `lib/voices.js` and every static page's copy) while the
+feature is on, so it's there from the first paint and without JavaScript; `header.js` hides it when
+`GET /api/auth/me` says the feature is off (and remembers that for the next page, `lf-features`). Turning the feature
+off in `lib/features.js` means taking the link out of `SITE_NAV` and the copies too (`site/tests/nav.test.mjs` says so).
 
 ## Addresses (the slug scheme)
 
@@ -83,7 +85,14 @@ attributions and quest dialogue with `src: forever`), "Classic quest text" or "a
 other quest dialogue, with "Quest text © Blizzard Entertainment", and **Community** for quest dialogue with
 `src: community` (text one player sent in through lore.contrib, LOR-237, not confirmed by a second yet; a confirmed
 line goes into the harvest as the client's text and shows as Forever's) or a `Community: ...` attribution. Nothing
-ever links to Wowhead.
+on a page comes from Wowhead, so Sources never name it.
+
+**Look it up** (LOR-263), under the sources: the entry on Wowhead's WoW Forever database
+(`https://www.wowhead.com/forever/quest=176`, `npc=`, `zone=`) and its Warcraft Wiki article (the first one it was
+adapted from, else the wiki's search). Plain links by game ID: the page's `wowhead` field, which `site_lore.py build`
+takes from the language packs' `client_names.json` (Forever's own client tables and the community server databases,
+`lore.client_names`; quests by their own ID), never from Wowhead. Wowhead has no pages for subzones (they 404), so
+those link only the wiki. Profiles link their moments out the same way (site/README.md, "Player profiles").
 
 ## The recordings: R2, not git
 

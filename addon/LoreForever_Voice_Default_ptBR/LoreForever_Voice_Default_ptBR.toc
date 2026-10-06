@@ -2,11 +2,12 @@
 ## Title: Lore Forever male narrator - Português (Brasil)
 ## Notes: Recorded narration for Lore Forever.
 ## Author: Mike
-## Version: 0.8.0
+## Version: 0.9.0
 ## Dependencies: LoreForever
 ## LoadOnDemand: 1
 ## X-LoreForever-Pack: voice
 ## X-LoreForever-Locale: ptBR
 ## X-LoreForever-Format: 1
 ## X-LoreForever-Gender: male
+## X-LoreForever-Sample: zone:stormwind
 Clips.lua

@@ -67,16 +67,86 @@ export function funLines(d) {
   const where = {};
   for (const x of d.deaths || []) if (x.zone) where[x.zone] = (where[x.zone] || 0) + 1;
   const [land, n] = Object.entries(where).sort((a, b) => b[1] - a[1])[0] || [];
-  if (n > 1) out.push(`${land} claimed ${name} ${n === 2 ? "twice" : `${count(n)} times`}${d.cut ? " (at least)" : ""}.`);
+  const often = k => k === 1 ? "once" : k === 2 ? "twice" : `${count(k)} times`;
+  if (n > 1) out.push(`${land} claimed ${name} ${often(n)}${d.cut ? " (at least)" : ""}.`);
+  // LOR-262: a nemesis, the sea, famous company, patrons, homes, fish, days, the story's length.
+  const nemesis = s.killers?.[0];
+  if (nemesis && nemesis.n > 1) out.push(`Nemesis: ${nemesis.name}, who slew ${name} ${often(nemesis.n)}.`);
+  const drowned = (d.deaths || []).filter(x => x.cause === "drown" || x.cause === "fatigue").length;
+  if (drowned) out.push(`The sea took ${name} ${often(drowned)}.`);
+  const met = famous(d.people || []);
+  if (met.length) out.push(`Has met ${listOf(met.slice(0, 4))}${met.length > 4 ? " and others of renown" : ""}.`);
+  const patron = s.patrons?.[0];
+  if (patron && patron.n > 1) out.push(`Most loyal patron: ${patron.name}, with ${times(patron.n, "quest")} done for them.`);
+  const home = s.time?.[0];
+  if (home && home.minutes >= 60) out.push(`Home is ${home.zone}: ${duration(home.minutes / 60)} spent there.`);
+  if (s.inns?.length) out.push(`Has called ${listOf(s.inns.slice(0, 4).map(i => i.name))} home.`);
+  if (s.fish > 0) out.push(`Caught ${times(s.fish, "fish", "fish")}.`);
+  if (s.days > 1) out.push(`Played on ${times(s.days, "day")}${s.best > 1 ? `, ${count(s.best)} of them in a row at best` : ""}.`);
   if (s.played >= 24) out.push(`${tenths(s.played / 24)} days in Azeroth, all told.`);
+  if (s.words >= 150) out.push(`${name}'s story so far would take about ${duration(s.words / 150 / 60)} to read aloud.`);
+  if (s.heard > 0) out.push(`${times(s.heard, "narration")} heard along the way.`);
   return out;
 }
 
-// The section, or "" when the record has no journey stats.
-export function numbersSection(d) {
+const listOf = items => items.length < 2 ? items.join("") : `${items.slice(0, -1).join(", ")} and ${items[items.length - 1]}`;
+
+// Figures of renown of WoW Forever's time (after Warcraft III), as their names appear in the people a record met.
+const FAMOUS = ["Thrall", "Cairne Bloodhoof", "Vol'jin", "Sylvanas Windrunner", "Varimathras", "Saurfang", "Eitrigg",
+  "Rexxar", "Drek'Thar", "Jaina Proudmoore", "Bolvar Fordragon", "Katrana Prestor", "Anduin Wrynn", "Magni Bronzebeard",
+  "Mekkatorque", "Tyrande Whisperwind", "Fandral Staghelm", "Vanndar Stormpike", "Mankrik"];
+const FAMOUS_RE = new RegExp(`(^|\\s)(${FAMOUS.map(n => n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})$`);
+function famous(people) {
+  const out = [];
+  for (const p of people) if (FAMOUS_RE.test(p.name) && !out.includes(p.name)) out.push(p.name);
+  return out;
+}
+
+// "On this day" (LOR-262): what the character did a week, a month or a year ago today (the record's moments by day,
+// lib/journey.js timeline), the most notable of that day. now: the page's time (UTC).
+const AGO_ORDER = ["bosses", "levels", "mounts", "places", "kills", "quests", "people", "loot", "rep", "books", "deaths"];
+function didThis(k, e) {
+  switch (k) {
+    case "bosses": return `defeated ${e.name}`;
+    case "levels": return `reached level ${e.level}`;
+    case "mounts": return `got the ${e.name}`;
+    case "places": return e.dungeon ? `entered ${e.zone}` : `reached ${e.sub ? `${e.sub}, ${e.zone}` : e.zone}`;
+    case "kills": return `defeated ${e.name}`;
+    case "quests": return `finished "${e.title}"`;
+    case "people": return `met ${e.name}`;
+    case "loot": return `found ${e.name}`;
+    case "rep": return `became ${e.standing} with ${e.faction}`;
+    case "books": return `read "${e.title}"`;
+    case "deaths": return e.zone ? `fell in ${e.zone}` : "fell";
+  }
+  return null;
+}
+export function onThisDay(d, now = new Date()) {
+  if (!Array.isArray(d.timeline)) return null;
+  const iso = t => t.toISOString().slice(0, 10);
+  const back = (days, months, years) => {
+    const t = new Date(Date.UTC(now.getUTCFullYear() - years, now.getUTCMonth() - months, now.getUTCDate() - days, 12));
+    return days || t.getUTCDate() === now.getUTCDate() ? iso(t) : null;   // no "a month ago today" from the 31st
+  };
+  for (const [day, when] of [[back(7, 0, 0), "A week ago today"], [back(0, 1, 0), "A month ago today"],
+                             [back(0, 0, 1), "A year ago today"]]) {
+    if (!day) continue;
+    let best = null;
+    for (const [k, i, at] of d.timeline) {
+      const rank = AGO_ORDER.indexOf(k), e = d[k]?.[i];
+      if (at === day && rank >= 0 && e && (!best || rank <= best.rank)) best = { rank, k, e };   // the day's latest
+    }
+    const did = best && didThis(best.k, best.e);
+    if (did) return `${when}, ${d.name} ${did}.`;
+  }
+  return null;
+}
+
+// The section, or "" when the record has no journey stats. now: the page's time, for "on this day".
+export function numbersSection(d, now = new Date()) {
   const s = d?.stats;
   if (!s || !(s.yards > 0 || s.slain > 0 || s.recorded > 0 || s.played)) return "";
-  const walking = s.yards >= 1;
+  const walking = s.yards >= 1, distances = walking || s.flown >= 1;
   const tiles = [
     walking && [steps(s.yards), "Steps walked", null, dist(s.yards)],
     [count(s.slain), "Foes slain"],
@@ -84,15 +154,31 @@ export function numbersSection(d) {
     s.rares > 0 && [count(s.rares), "Rares slain"],
     s.played ? [duration(s.played), "Time played"] : s.recorded > 0 && [duration(s.recorded), "Time recorded",
       "Time played while Lore Forever kept the journey"],
+    s.days > 0 && [count(s.days), "Days played"],
+    s.fish > 0 && [count(s.fish), "Fish caught"],
   ].filter(Boolean).map(([n, label, title, more]) =>
     `<li${title ? ` title="${escape(title)}"` : ""}><strong>${escape(n)}</strong><span>${label}</span>${more ? `<span class="pf-sub">${more}</span>` : ""}</li>`).join("");
-  const fun = funLines(d);
+  const today = onThisDay(d, now);
+  const fun = [...(today ? [today] : []), ...funLines(d)];
   const walked = s.walk.slice(0, 6).map(w => `${escape(w.zone)} <span class="pf-n">${steps(w.yards)} steps</span> <span class="pf-where">${dist(w.yards)}</span>`);
   const kinds = s.kinds.slice(0, 6).map(k => `${escape(k.kind)} <span class="pf-n">${count(k.n)}</span>`);
+  // How they traveled (LOR-262): on foot is the walk less what was ridden or swum.
+  const foot = Math.max(0, s.yards - (s.ride || 0) - (s.swim || 0));
+  const flights = s.flights ? ` <span class="pf-where">${times(s.flights, "flight")}</span>` : "";
+  const travel = s.ride || s.swim || s.flown || s.boats ? [
+    foot >= 1 && `On foot <span class="pf-n">${steps(foot)} steps</span> <span class="pf-where">${dist(foot)}</span>`,
+    s.ride >= 1 && `Riding <span class="pf-n">${dist(s.ride)}</span>`,
+    s.swim >= 1 && `Swimming <span class="pf-n">${dist(s.swim)}</span>`,
+    s.flown >= 1 && `Flying <span class="pf-n">${dist(s.flown)}</span>${flights}`,
+    s.boats > 0 && `By boat <span class="pf-n">${times(s.boats, "crossing")}</span>`,
+  ].filter(Boolean) : [];
+  const time = (s.time || []).slice(0, 6).map(t => `${escape(t.zone)} <span class="pf-n">${duration(t.minutes / 60)}</span>`);
+  const patrons = (s.patrons || []).slice(0, 6).map(p => `${escape(p.name)} <span class="pf-n">${times(p.n, "quest")}</span>`);
   const list = (title, items) => items.length ? `<div><h3>${title}</h3><ul>${items.map(i => `<li>${i}</li>`).join("")}</ul></div>` : "";
-  const lists = list("Where the steps went", walked) + list("Foes by kind", kinds);
+  const lists = list("Where the steps went", walked) + list("How they traveled", travel) + list("Where the time went", time) +
+    list("Foes by kind", kinds) + list("Most loyal patrons", patrons);
   // Miles or kilometres: shown once the script is there to switch them.
-  const units = walking ? `<p class="pf-units" hidden>Distances in <button class="btn-small" type="button" data-units="mi" aria-pressed="true">miles</button>
+  const units = distances ? `<p class="pf-units" hidden>Distances in <button class="btn-small" type="button" data-units="mi" aria-pressed="true">miles</button>
       <button class="btn-small btn-small-alt" type="button" data-units="km" aria-pressed="false">kilometres</button></p>
     <script src="/js/units.js" defer></script>` : "";
   return `<section class="vp-section pf-nums" aria-labelledby="nums-title">

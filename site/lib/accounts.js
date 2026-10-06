@@ -76,7 +76,7 @@ const SETUP = [
   `CREATE TABLE IF NOT EXISTS profiles (
     user_id TEXT PRIMARY KEY, handle TEXT NOT NULL UNIQUE, public INTEGER NOT NULL DEFAULT 0, spec TEXT, data TEXT NOT NULL,
     story TEXT, story_source TEXT, story_count INTEGER NOT NULL DEFAULT 0, created TEXT NOT NULL, updated TEXT NOT NULL,
-    story_at TEXT, story_basis TEXT)`,
+    story_at TEXT, story_basis TEXT, journey TEXT, card_sha TEXT, card_key TEXT)`,
   // Connected apps (lib/devices.js, LOR-148): the companion on a player's PC, which keeps their profile up to date.
   // device_links: a link waiting for the player's Connect on /link (code_hash: SHA-256 of the companion's secret
   // device code; user_code: what the player sees); devices: each connected app, with the SHA-256 of its token.
@@ -99,6 +99,29 @@ const SETUP = [
     resolved TEXT)`,
   "CREATE INDEX IF NOT EXISTS clip_reports_clip ON clip_reports (clip, voice, status)",
   "CREATE INDEX IF NOT EXISTS clip_reports_uploader ON clip_reports (uploader, status)",
+  // The picture book (lib/pictures.js): pictures the companion took in game and put on the player's profile, in R2
+  // (binding STUDIO) at pictures/<user id>/<id>.jpg. cid: the companion's own id for it (sending it again updates the
+  // row); sha: the first 10 hex of the image's SHA-256, part of its address (/pictures/<id>-<sha>.jpg); clean: taken
+  // with the picture key (the interface hidden). realm, map, x, y (thousandths of the map) and t (when it was taken,
+  // Unix seconds) are for a later realm chronicle, pictures of one live event by many players: hence the two indexes.
+  // reports: how many independent senders reported it; at lib/pictures.js REPORTS_TO_HIDE it's hidden for good.
+  // report_salt: a random salt for this picture's reports' IP hashes (made by the first report).
+  `CREATE TABLE IF NOT EXISTS profile_pictures (
+    id TEXT PRIMARY KEY, user_id TEXT NOT NULL, cid TEXT NOT NULL, realm TEXT, faction TEXT, race TEXT, class TEXT,
+    lv INTEGER, zone TEXT, subzone TEXT, map INTEGER, x INTEGER, y INTEGER, t INTEGER NOT NULL, w INTEGER, h INTEGER,
+    bytes INTEGER NOT NULL, sha TEXT NOT NULL, clean INTEGER NOT NULL DEFAULT 0, caption TEXT, created TEXT NOT NULL,
+    reports INTEGER NOT NULL DEFAULT 0, hidden INTEGER NOT NULL DEFAULT 0, report_salt TEXT, UNIQUE (user_id, cid))`,
+  "CREATE INDEX IF NOT EXISTS profile_pictures_realm ON profile_pictures (realm, t)",
+  "CREATE INDEX IF NOT EXISTS profile_pictures_map ON profile_pictures (map, t)",
+  // Reports on pictures: the account when signed in, and a hash of the sender's IP with the picture's report_salt.
+  // Unlike the forms' daily hashes it doesn't change from day to day, so one person counts once, any day.
+  `CREATE TABLE IF NOT EXISTS picture_reports (
+    id INTEGER PRIMARY KEY AUTOINCREMENT, picture_id TEXT NOT NULL, user_id TEXT, ip_hash TEXT NOT NULL, created TEXT NOT NULL)`,
+  "CREATE INDEX IF NOT EXISTS picture_reports_picture ON picture_reports (picture_id)",
+  // The companion's ids (cid) of pictures their owner removed on the page, so the companion sending one again doesn't
+  // bring it back (410), unless the player turns it on again there (restore).
+  `CREATE TABLE IF NOT EXISTS picture_tombstones (
+    user_id TEXT NOT NULL, cid TEXT NOT NULL, created TEXT NOT NULL, PRIMARY KEY (user_id, cid))`,
 ];
 
 let ready = false;
@@ -136,13 +159,14 @@ const cookie = (request, value, maxAge) =>
   `${COOKIE}=${value}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${maxAge}` +
   (new URL(request.url).protocol === "https:" ? "; Secure" : "");
 
-// The signed-in user for this request, or null.
+// The signed-in user for this request, or null. session_expires: when this sign-in ends (the site header stops
+// trusting what it remembers then, public/header.js).
 export async function currentUser(env, request) {
   const token = cookieValue(request, COOKIE);
   if (!env.DB || !/^[0-9a-f]{64}$/.test(token)) return null;
   await setup(env);
   return env.DB.prepare(
-    "SELECT u.* FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ? AND s.expires > ?"
+    "SELECT u.*, s.expires AS session_expires FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ? AND s.expires > ?"
   ).bind(await sha256(token), new Date().toISOString()).first();
 }
 
@@ -208,6 +232,12 @@ const USER_DATA = [
    "WHERE owner = ?", u => u.id],
   ["DELETE FROM donation_release WHERE user_id = ?", u => u.id],
   ["DELETE FROM rate_limits WHERE user_id = ?", u => u.id],
+  // Their pictures (the files under pictures/<user id>/, deleted below) and the reports on them, and the reports they
+  // sent (a picture those helped hide stays hidden).
+  ["DELETE FROM picture_reports WHERE picture_id IN (SELECT id FROM profile_pictures WHERE user_id = ?)", u => u.id],
+  ["DELETE FROM picture_reports WHERE user_id = ?", u => u.id],
+  ["DELETE FROM profile_pictures WHERE user_id = ?", u => u.id],
+  ["DELETE FROM picture_tombstones WHERE user_id = ?", u => u.id],
   ["DELETE FROM profiles WHERE user_id = ?", u => u.id],
   ["DELETE FROM devices WHERE user_id = ?", u => u.id],
   ["DELETE FROM device_links WHERE user_id = ?", u => u.id],
@@ -217,18 +247,23 @@ const USER_DATA = [
 
 export async function deleteUser(env, user) {
   await setup(env);
-  // Their uploaded recordings (R2 keys studio/<user id>/...) go first, so no file outlives its row.
+  // Their uploaded recordings (R2 keys studio/<user id>/...), pictures (pictures/<user id>/...) and their story's
+  // recordings (story-voice/<user id>/..., lib/storyvoice.js) go first, so no file outlives its row.
   if (env.STUDIO) {
-    let cursor;
-    do {
-      const page = await env.STUDIO.list({ prefix: `studio/${user.id}/`, cursor });
-      if (page.objects.length) await env.STUDIO.delete(page.objects.map(o => o.key));
-      cursor = page.truncated ? page.cursor : null;
-    } while (cursor);
+    for (const prefix of [`studio/${user.id}/`, `pictures/${user.id}/`, `story-voice/${user.id}/`]) {
+      let cursor;
+      do {
+        const page = await env.STUDIO.list({ prefix, cursor });
+        if (page.objects.length) await env.STUDIO.delete(page.objects.map(o => o.key));
+        cursor = page.truncated ? page.cursor : null;
+      } while (cursor);
+    }
   }
   // Forever text they shared (lib/contribute.js) stays, without a link to the account. Its tables only exist after
   // the first upload, so this may have nothing to do.
   try { await forgetContributor(env, user.id); } catch (e) { /* no shared text yet */ }
+  // The story recordings' rows (lib/storyvoice.js makes that table the first time it runs).
+  try { await env.DB.prepare("DELETE FROM story_audio WHERE user_id = ?").bind(user.id).run(); } catch (e) { /* none yet */ }
   await env.DB.batch(USER_DATA.map(([sql, arg]) => env.DB.prepare(sql).bind(arg(user))));
 }
 

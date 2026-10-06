@@ -24,9 +24,11 @@
 
 <header class="top">
   <nav class="wrap nav" aria-label="Lore Forever">
+    <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
       <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
       <a class="nl" id="nav-community" href="/feedback">Community</a>
     </div>
@@ -36,7 +38,11 @@
 
 <!-- FAQ (LOR-42): the questions viewers keep asking under the videos and on Discord, answered once. Linked from the
      Community menu (header.js), the home page and Downloads. Each answer has an anchor (/faq#mac) to paste in replies.
-     Numbers come from the repo: clip counts and hours from the voice packs' audio, journey sizes from Journey.lua. -->
+     Numbers come from the repo: clip counts and hours from the voice packs' audio. Journey sizes (LOR-290, 2026-10-05)
+     were measured in the format the Forever client writes (no indentation, CRLF): 5-10 KB per hour of play in real
+     saved files (besides the map trail, which stops at 5 sessions), about 0.8 MB for a full record (wow_sim's level
+     1-60 run) and about 2 MB of Lua memory for it.
+     site/tests/faq.test.mjs keeps the caps, settings and claims quoted here in step with the add-on. -->
 <main class="wrap faq-page">
   <h1>Questions players ask</h1>
   <p class="pitch">Lore Forever is an in-game lore companion for WoW Forever: the story of every zone, quest and
@@ -48,13 +54,14 @@
       <li><a href="#beta">Does it work in the beta?</a></li>
       <li><a href="#addons-allowed">Does WoW Forever allow add-ons like this?</a></li>
       <li><a href="#mac">Mac? Linux?</a></li>
-      <li><a href="#retail">Will there be a retail version?</a></li>
+      <li><a href="#retail">Does it work on Classic or Retail?</a></li>
       <li><a href="#timeline">When is WoW Forever set?</a></li>
       <li><a href="#retail-lore">Does it undo the retail-era writing, or work with add-ons that do?</a></li>
       <li><a href="#lore-source">Where does the lore come from?</a></li>
       <li><a href="#narrators">Are the narrators voice actors or text-to-speech?</a></li>
       <li><a href="#hours">How many hours of narration is it?</a></li>
       <li><a href="#pick-voice">Can I choose which voice I hear?</a></li>
+      <li><a href="#privacy">Does the journey track me or send my data anywhere?</a></li>
       <li><a href="#journey-cost">Does journey tracking cost CPU, memory or disk?</a></li>
       <li><a href="#companion">Why is there a companion app? Can't it all work in game?</a></li>
       <li><a href="#feedback">Where can I leave feedback?</a></li>
@@ -88,15 +95,15 @@
     <p>The add-on itself works anywhere the game runs: it's plain add-on code, nothing Windows-only. Only the
       installer (Setup.exe) is for Windows. On a Mac or Linux, take the <a href="/downloads">Zip</a> and unzip it into
       <code>_classic_beta_/Interface/AddOns</code>, or use CurseForge.</p>
-    <p>Recorded narrations play on every system. Read aloud, which covers lines that have no recording, uses your
-      system's text-to-speech voices. Linux setups usually have none, so there Read aloud says so once and stays
-      quiet.</p>
+    <p>Narration plays the same on every system: it's all recordings, so it never needs your system's
+      text-to-speech voices.</p>
   </section>
 
   <section class="faq-q" id="retail">
-    <h2>Will there be a retail version?</h2>
-    <p>Not planned. Everything in Lore Forever is written for WoW Forever's world and its point in the story, and
-      the narrations follow its zones, quests and dungeons. Forever is where we're putting all our time.</p>
+    <h2>Does it work on Classic or Retail?</h2>
+    <p>It's made for WoW Forever only. Lore Forever is built and tested on Forever's own client, and its lore,
+      narration and quest data follow Forever's zones, quests and point in the story. Classic Era and Retail aren't
+      supported, and no version for them is planned. Forever is where we're putting all our time.</p>
   </section>
 
   <section class="faq-q" id="timeline">
@@ -149,16 +156,32 @@
       them in your order: a voice that hasn't recorded a story hands it to the next one.</p>
   </section>
 
+  <section class="faq-q" id="privacy">
+    <h2>Does the journey track me or send my data anywhere?</h2>
+    <p>Your journey stays on your own PC, for you alone. It's saved in the game's saved-variables file for Lore
+      Forever: <code>World of Warcraft\_classic_beta_\WTF\Account\&lt;account&gt;\SavedVariables\LoreForever.lua</code>.
+      WoW doesn't let add-ons reach the internet, so Lore Forever can't send it anywhere, and your journey never
+      includes other players' names.</p>
+    <p>It leaves your PC only if you choose to share it. To make a profile, open Journey (<code>/lore journey</code>),
+      click Copy my journey record and paste it on <a href="/account">your account page</a>. Your profile stays
+      private until you make it public, and you can delete it any time. The optional companion app sends your journey
+      only if you connect it to your profile or set up its live answers. <a href="/privacy">Privacy</a> says what the
+      site keeps.</p>
+    <p>Don't want it recorded at all? Untick Options &rsaquo; Remember my journey.</p>
+  </section>
+
   <section class="faq-q" id="journey-cost">
     <h2>Does journey tracking cost CPU, memory or disk? How big is a year of play?</h2>
-    <p>Hardly any. Your journey is recorded when the game tells the add-on something happened: you enter a zone,
-      turn in a quest, earn XP from a kill, loot, level up. Each of those is a quick note, and nothing runs every
-      frame. The one timer marks a point on your map trail every 15 seconds, and it skips combat, dungeons and
-      flights.</p>
-    <p>On disk, an hour of questing adds about 30 KB to your saved settings. It doesn't grow forever: the journey
-      keeps its newest 3,600 moments and the map trail of your last 5 sessions, so a character levels off around
-      1 MB, about the size of a full run from 1 to 60. A year of play is still about 1 MB per character, and about
-      2&ndash;3 MB of memory in game. The game writes it to disk only when you log out or <code>/reload</code>.</p>
+    <p>Hardly any. It's event-driven: when the game tells the add-on something happened (you enter a new place, turn
+      in a quest, earn XP from a kill, loot something rare, level up), it writes a quick note, well under a
+      millisecond of work. Nothing runs every frame. Between events, a light timer checks where you are every few
+      seconds for your map trail and step count.</p>
+    <p>On disk, an hour of play adds about 5&ndash;10 KB to Lore Forever's saved file. The journey keeps its newest
+      3,600 moments and the map trail of your last 5 sessions, so it stops growing after roughly 100 hours of play: a
+      year of play is still under 1 MB per character. A full journey takes about 2 MB of memory in game. Everything
+      else Lore Forever saves (your recent questions and chats, and the game text it keeps so you can share it) is
+      capped too, so the whole file stays at a few MB. The game writes it to disk only when you log out or
+      <code>/reload</code>.</p>
     <p>Don't want it? Untick Options &rsaquo; Remember my journey.</p>
   </section>
 

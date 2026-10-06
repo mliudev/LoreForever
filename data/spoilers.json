@@ -4969,7 +4969,6 @@
  },
  "quest:786": {},
  "quest:787": {},
- "quest:788": {},
  "quest:79": {},
  "quest:791": {},
  "quest:792": {
@@ -5777,7 +5776,6 @@
  "subzone:canals-undercity": {},
  "subzone:cape-of-stranglethorn": {},
  "subzone:capital-gardens": {},
- "subzone:cask-n-anvil": {},
  "subzone:cathedral-of-light": {},
  "subzone:cathedral-square": {},
  "subzone:cauldron": {},
@@ -5845,7 +5843,6 @@
  "subzone:darkmist-cavern": {},
  "subzone:darkshire": {},
  "subzone:darkshire-town-hall": {},
- "subzone:darkspear-isle": {},
  "subzone:darkspear-shore": {},
  "subzone:darkspear-strand": {},
  "subzone:darkspear-training-grounds": {},
@@ -5868,7 +5865,6 @@
   }
  },
  "subzone:deadwood-village": {},
- "subzone:death-cultist-base-camp": {},
  "subzone:death-s-breach": {},
  "subzone:deathknell": {},
  "subzone:decrepit-ferry": {},
@@ -5883,7 +5879,6 @@
  "subzone:demon-fall-ridge": {},
  "subzone:demont-s-place": {},
  "subzone:den-of-flame": {},
- "subzone:deserted-workshop": {},
  "subzone:dire-maul": {},
  "subzone:direforge-hill": {},
  "subzone:dolanaar": {},
@@ -5996,7 +5991,6 @@
  "subzone:forsaken-front": {},
  "subzone:forsaken-high-command": {},
  "subzone:fortune-s-fist": {},
- "subzone:foulspore-pools": {},
  "subzone:fray-island": {},
  "subzone:frayfeather-highlands": {},
  "subzone:freewind-post": {},
@@ -6287,7 +6281,6 @@
  "subzone:mosh-ogg-ogre-mound": {},
  "subzone:mosshide-fen": {},
  "subzone:mossy-pile": {},
- "subzone:mountain-den": {},
  "subzone:mountainfoot-strip-mine": {},
  "subzone:mudsprocket": {},
  "subzone:mystic-ward": {},
@@ -6407,7 +6400,6 @@
  "subzone:rocktusk-farm": {},
  "subzone:roguefeather-den": {},
  "subzone:rogues-quarter": {},
- "subzone:roiling-gardens": {},
  "subzone:roland-s-doom": {
   "faq": {
    "2": 1,
@@ -6508,7 +6500,6 @@
  "subzone:shaper-s-terrace": {},
  "subzone:shatter-scar-vale": {},
  "subzone:shattered-strand": {},
- "subzone:shatterspear-vale": {},
  "subzone:shatterspear-war-camp": {},
  "subzone:shifting-mire": {},
  "subzone:shimmer-ridge": {},
@@ -6527,7 +6518,6 @@
  "subzone:sishir-canyon": {},
  "subzone:skittering-dark": {},
  "subzone:skull-rock": {},
- "subzone:skull-warren": {},
  "subzone:skunkworks": {},
  "subzone:slag-pit": {},
  "subzone:slaughter-hollow": {},
@@ -6633,11 +6623,6 @@
  "subzone:swarming-pillar": {},
  "subzone:swiftgear-station": {},
  "subzone:tabetha-s-farm": {},
- "subzone:taelan-s-tower": {
-  "faq": {
-   "2": 1
-  }
- },
  "subzone:tahonda-ruins": {},
  "subzone:tainted-scar": {},
  "subzone:talonbranch-glade": {},
@@ -6805,7 +6790,6 @@
  "subzone:whispering-shore": {},
  "subzone:whisperwind-grove": {},
  "subzone:whitereach-post": {},
- "subzone:wicked-tunnels": {},
  "subzone:wild-shore": {},
  "subzone:wildbend-river": {},
  "subzone:wildmane-water-well": {},
@@ -6836,7 +6820,6 @@
  "subzone:xavian": {},
  "subzone:yojamba-isle": {},
  "subzone:yorgen-farmstead": {},
- "subzone:zaetar-s-choice": {},
  "subzone:zalashji-s-den": {},
  "subzone:zalazane-s-fall-subzone": {},
  "subzone:zoram-gar-outpost": {},
@@ -6858,9 +6841,7 @@
  "topic:brotherhood-of-northshire": {},
  "topic:burning-blade-clan": {
   "faq": {
-   "2": 2,
-   "3": 2,
-   "5": 1
+   "4": 1
   },
   "remove_keywords": [
    "neeru fireblade"
@@ -6922,8 +6903,7 @@
  },
  "topic:grimtotem-tribe": {
   "faq": {
-   "5": 1,
-   "6": 1
+   "5": 1
   }
  },
  "topic:grommash-hellscream": {},

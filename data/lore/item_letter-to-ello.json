@@ -11,7 +11,7 @@
    "quest:251"
   ]
  },
- "summary": "The Letter to Ello is a sealed, unreadable missive penned by Abercrombie, the eccentric hermit dwelling near the Beggar's Haunt cemetery in Duskwood. Addressed to Mayor Ello Ebonlocke of Darkshire under the pretense of old friendship, the mysterious text hides a far more sinister message written in an ancient tongue.",
+ "summary": "The Letter to Ello is a sealed, unreadable missive penned by Abercrombie, the eccentric hermit dwelling near Raven Hill Cemetery in Duskwood. Addressed to Mayor Ello Ebonlocke of Darkshire under the pretense of old friendship, the mysterious text hides a far more sinister message written in an ancient tongue.",
  "sections": [
   {
    "title": "A Bizarre Greeting",
@@ -20,7 +20,7 @@
   },
   {
    "title": "Dark Omens",
-   "body": "The seemingly innocent errand conceals the hermit's true, macabre intentions. Far from an amicable exchange between old town acquaintances, the ancient runes scribed by Abercrombie foretell mockery and peril aimed squarely at Darkshire's town leadership.",
+   "body": "The seemingly innocent errand conceals the hermit's true, macabre intentions. Far from an amicable exchange between old town acquaintances, the ancient runes scribed by Abercrombie spell doom for the whole town of Darkshire.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "letter to ello author",
     "who sent the letter"
    ],
-   "answer": "The letter was written by Abercrombie, a hermit living in a ramshackle hut near the cemetery in northern Duskwood."
+   "answer": "The letter was written by Abercrombie, a hermit living in a ramshackle hut near Raven Hill Cemetery in western Duskwood."
   },
   {
    "q": "Can Mayor Ello Ebonlocke read the letter?",

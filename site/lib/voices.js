@@ -213,20 +213,40 @@ export function voiceFilters(voices) {
 // ---- Whole pages (profile, contributors; player profiles in lib/profiles.js) ----
 
 // The site header (LOR-222), the same on every page: the static pages carry a copy of it, and
-// site/tests/nav.test.mjs checks they all match this one. public/header.js brings it to life.
+// site/tests/nav.test.mjs checks they all match this one. public/header.js brings it to life. The inline script runs
+// before any of it is drawn, so nothing in it changes afterwards: it puts hd-wait on <html> (with JavaScript on, the
+// profile link's spot keeps its place but stays blank until header.js knows whether you're signed in), and hd-nolore
+// when the site features header.js remembers (lf-features) say the Lore link is off (style.css). Lore is in the
+// markup while the "lore" feature is on (lib/features.js; nav.test.mjs keeps them in step).
 export const SITE_NAV = `  <nav class="wrap nav" aria-label="Lore Forever">
+    <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
       <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
       <a class="nl" id="nav-community" href="/feedback">Community</a>
     </div>
     <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
   </nav>`;
 
+// The name on the header's account chip: the account's name, else the start of its email (public/header.js does the
+// same with GET /api/auth/me's answer).
+const chipName = user => user.display_name || String(user.email || "").split("@")[0] || "Your account";
+
+// The header for a page rendered for whoever asked: a Function that knows they're signed in (/u/<handle>) passes them
+// (lib/accounts.js currentUser) as viewer, and header.js shows them signed in at once, without waiting for GET
+// /api/auth/me: the chip's name, and when this sign-in ends. Never the email; such a page must not be cached for anyone
+// else (Cache-Control: private, no-store).
+export const siteNav = viewer => viewer
+  ? SITE_NAV.replace('<div class="head-actions">', `<div class="head-actions" data-auth="in" data-name="${escape(chipName(viewer))}"` +
+      (viewer.session_expires ? ` data-until="${escape(viewer.session_expires)}">` : ">"))
+  : SITE_NAV;
+
 // crumbs, foot and scripts replace the voice pages' breadcrumb (under the header; "" for none), footer line and player
-// script; robots adds a robots meta tag; head adds tags after the site stylesheet (a page's own stylesheet).
-export function page({ title, description, path, crumb, body, image, crumbs, foot, scripts, robots, head }) {
+// script; robots adds a robots meta tag; head adds tags after the site stylesheet (a page's own stylesheet). viewer:
+// the signed-in user the page is for (siteNav), if the Function knows.
+export function page({ title, description, path, crumb, body, image, crumbs, foot, scripts, robots, head, viewer }) {
   const url = "https://loreforeverwow.com" + path;
   const trail = crumbs ?? `<a href="/downloads">Downloads</a> &rsaquo; ${escape(crumb)}`;
   return `<!doctype html>
@@ -256,7 +276,7 @@ ${head ? head + "\n" : ""}<script src="/header.js" defer></script>
 <body>
 
 <header class="top">
-${SITE_NAV}${trail ? `
+${siteNav(viewer)}${trail ? `
   <div class="wrap subcrumb"><span class="crumb">${trail}</span></div>` : ""}
 </header>
 
