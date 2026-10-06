@@ -582,8 +582,9 @@ local function button(parent, name)
   return b
 end
 
--- Beside what the add-on already put in that frame's top right corner, or in the corner itself.
-local function place(b, parent, ...)
+-- Beside what the add-on already put in that frame's top right corner, or in the corner itself (`corner` puts it
+-- there: on the quest window, the right end of the row above the quest's text, Hooks.AtQuestRow).
+local function place(b, corner, ...)
   local beside
   for i = 1, select("#", ...) do
     local o = select(i, ...)
@@ -592,7 +593,7 @@ local function place(b, parent, ...)
   if b.placed and b.beside == beside then return end   -- the book button relabels twice a second: no need to move
   b.placed, b.beside = true, beside
   b:ClearAllPoints()
-  if beside then b:SetPoint("RIGHT", beside, "LEFT", -4, 0) else b:SetPoint("TOPRIGHT", parent, "TOPRIGHT", -30, -32) end
+  if beside then b:SetPoint("RIGHT", beside, "LEFT", -4, 0) else corner(b) end
 end
 
 local function show(key, line, force)
@@ -604,12 +605,19 @@ end
 
 function Capture.PlaceQuest()
   local b = buttons.quest
-  if b then place(b, QuestFrame, ns.Hooks.questDialogPlay, ns.Hooks.questDialogButton) end
+  if b then place(b, ns.Hooks.AtQuestRow, ns.Hooks.questDialogPlay, ns.Hooks.questDialogButton) end
+end
+
+function Capture.PlaceLog()
+  local b = buttons.log
+  if b then place(b, ns.Hooks.AtLogRow, ns.Hooks.questLogPlay, ns.Hooks.questLogButton) end
 end
 
 function Capture.PlaceBook()
   local b = buttons.book
-  if b then place(b, ItemTextFrame, ns.Hooks.bookButton) end
+  if b then
+    place(b, function(x) x:SetPoint("TOPRIGHT", ItemTextFrame, "TOPRIGHT", -30, -32) end, ns.Hooks.bookButton)
+  end
 end
 
 -- The buttons, made the first time they're needed; their places follow the Lore and play buttons (Hooks.lua).
@@ -627,7 +635,7 @@ function Capture.Hook()
       return unpack(r)
     end
   end
-  after("UpdateQuestPlayButton", Capture.PlaceQuest)
+  after("UpdateQuestPlayButton", function() Capture.PlaceQuest(); Capture.PlaceLog() end)
   after("UpdateBookButton", Capture.PlaceBook)
   after("UpdateQuestLogButton", function(questID) Capture.UpdateQuestLog(questID) end)
 end
@@ -673,20 +681,14 @@ function Capture.UpdateBook()
   Capture.PlaceBook()
 end
 
+-- On the map's quest log: beside play and Lore at the right end of the bar above the quest's text, or there itself
+-- (Hooks.AtLogRow).
 function Capture.UpdateQuestLog(questID)
   local b = make("log")
   if not b then return end
   if not (b.parent.IsShown and b.parent:IsShown()) then return show("log", nil) end   -- the log is closed
   show("log", Capture.QuestLogLine(questID))
-  local lore = ns.Hooks.questLogButton
-  b:ClearAllPoints()
-  if lore and lore:IsShown() then
-    b:SetPoint("RIGHT", lore, "LEFT", -4, 0)
-  elseif _G.QuestMapFrame and b.parent == QuestMapFrame.DetailsFrame then
-    b:SetPoint("TOPRIGHT", b.parent, "TOPRIGHT", -8, 26)
-  else
-    b:SetPoint("TOPRIGHT", b.parent, "TOPRIGHT", -40, -46)
-  end
+  Capture.PlaceLog()
 end
 
 -- For /lf qa (and previews): a frame's button ("quest", "gossip", "book", "log") on show for `line` whatever Options

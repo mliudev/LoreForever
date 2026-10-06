@@ -5,11 +5,12 @@ import assert from "node:assert/strict";
 import { onRequest as profileApi } from "../functions/api/profile/[action].js";
 import { onRequestGet as profileGet } from "../functions/u/[handle].js";
 import { onRequestGet as adminGet } from "../functions/api/admin.js";
+import { onRequest as authApi } from "../functions/api/auth/[action].js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { templateStory, offCanon, storyCost, splitParagraphs, STORY_MODEL } from "../lib/profiles.js";
 import { parseRecord } from "../lib/journey.js";
 import { profilePage as voicePage } from "../lib/voices.js";
-import { d1 } from "./helpers.mjs";
+import { d1, assets } from "./helpers.mjs";
 import { RECORD } from "./fixtures/journey/record.mjs";
 
 const ORIGIN = "https://preview.example";
@@ -37,10 +38,10 @@ async function api(action, { cookie, body, method = "POST", origin = ORIGIN } = 
   return { status: res.status, body: await res.json() };
 }
 
-async function view(handle, cookie) {
+async function view(handle, cookie, query = "") {
   const headers = new Headers();
   if (cookie) headers.set("Cookie", cookie);
-  const res = await profileGet({ request: new Request(`${ORIGIN}/u/${handle}`, { headers }), env, params: { handle } });
+  const res = await profileGet({ request: new Request(`${ORIGIN}/u/${handle}${query}`, { headers }), env, params: { handle } });
   return { status: res.status, html: await res.text(), headers: res.headers };
 }
 
@@ -132,6 +133,148 @@ test("a public profile: everything on the page, the account's links but never it
   // Private again: gone for visitors.
   await api("settings", { cookie: me.cookie, body: { public: false } });
   assert.equal((await view("aelric")).status, 404);
+});
+
+test("signed in, a profile page's header shows you so from the start, and the page is private to you", async () => {
+  const me = await signIn("aelric");
+  await api("import", { cookie: me.cookie, body: { record: RECORD } });
+  await api("settings", { cookie: me.cookie, body: { public: true } });
+  const other = await signIn("brakka");
+  for (const [who, handle, status] of [[me, "aelric", 200], [other, "aelric", 200], [other, "nobody", 404]]) {
+    const { html, headers, ...res } = await view(handle, who.cookie);
+    assert.equal(res.status, status, handle);
+    // When the sign-in ends: header.js stops trusting what it remembers then. GET /api/auth/me says it too.
+    const until = (await env.DB.prepare("SELECT expires FROM sessions WHERE user_id = ?").bind(who.user.id).first()).expires;
+    assert.ok(html.includes(`<div class="head-actions" data-auth="in" data-name="Real Name ${who.user.google_sub}" ` +
+      `data-until="${until}">`), handle);
+    assert.ok(!html.includes(who.user.email), "never the email");
+    assert.match(headers.get("Cache-Control"), /no-store/);
+    const request = new Request(`${ORIGIN}/api/auth/me`, { headers: { Cookie: who.cookie } });
+    const withVoices = { ...env, ASSETS: assets({ "/voices/voices.json": { voices: [] } }) };
+    assert.equal((await (await authApi({ request, env: withVoices, params: { action: "me" } })).json()).user.session_expires, until);
+  }
+  const anon = await view("aelric");
+  assert.ok(!anon.html.includes("data-auth"), "signed out: the page's own header; header.js remembers or asks");
+  assert.equal(anon.headers.get("Cache-Control"), "no-cache");
+});
+
+const SHARE ='<button class="btn-small" type="button" data-share data-share-text="Aelric&#39;s journey in WoW Forever">Share</button>';
+const SCRIPTS = /<script src="\/js\/share\.js" defer><\/script>\s*<script src="\/js\/profile\.js" defer><\/script>/;
+
+test("Share at the top: visitors in the head, the owner in their bar with View as a visitor and the switch (LOR-150, LOR-302)", async () => {
+  const me = await signIn("aelric");
+  await api("import", { cookie: me.cookie, body: { record: RECORD } });
+  // Private: the three together in the owner's bar (Share there says to make it public first, public/js/profile.js).
+  let mine = (await view("aelric", me.cookie)).html;
+  let bar = mine.split('id="pf-owner"')[1].split("</div>")[0];
+  assert.match(bar, /^ data-bar data-public="0">/);
+  assert.ok(bar.includes(`${SHARE}
+      <a class="btn-small" href="/u/aelric?as=visitor" data-keep-view>View as a visitor</a>
+      <button class="btn-small" type="button" data-set-public="1">Make it public</button>`), bar);
+  assert.ok(!mine.includes(">Copy link<"), "Share, not Copy link");
+  assert.ok(!mine.includes("pf-head-share"), "the owner shares from their bar");
+  assert.match(mine, SCRIPTS);
+
+  // Public: the same three with Make it private.
+  await api("settings", { cookie: me.cookie, body: { public: true } });
+  mine = (await view("aelric", me.cookie)).html;
+  bar = mine.split('id="pf-owner"')[1].split("</div>")[0];
+  assert.ok(bar.includes(`${SHARE}
+      <a class="btn-small" href="/u/aelric?as=visitor" data-keep-view>View as a visitor</a>
+      <button class="btn-small" type="button" data-set-public="0">Make it private</button>`), bar);
+  assert.ok(!mine.includes(">Copy link<"));
+
+  // Visitors: Share in the head, above everything else, and nothing of the owner's bar.
+  const { html } = await view("aelric");
+  const head = html.split('class="vpr-head pf-head"')[1].split('class="pf-stats"')[0];
+  assert.ok(head.includes(`<div class="pf-head-share" data-bar>\n      ${SHARE}\n      <p class="fb-status" role="status" hidden></p>`), head);
+  assert.ok(html.indexOf("data-share") < html.indexOf('id="story-title"'));
+  for (const owners of ['id="pf-owner"', "View as a visitor", "data-set-public", "Copy link"]) assert.ok(!html.includes(owners), owners);
+  assert.match(html, SCRIPTS);
+});
+
+// A page's <main>, and the same without the visitor-view bar, whitespace evened out.
+const main = html => html.split("<main")[1].split("</main>")[0];
+const withoutBar = html => main(html).replace(/<div class="pf-owner pf-visitor"[\s\S]*?hidden><\/p>\s*<\/div>/, "").replace(/\s+/g, " ");
+// A page as a signed-out visitor gets it: for someone signed in, only the header differs (it shows them signed in,
+// lib/voices.js siteNav).
+const signedOut = html => html.replace(/ data-auth="in" data-name="[^"]*"(?: data-until="[^"]*")?/, "");
+
+test("View as a visitor: the owner gets exactly the visitor's page, plus a bar back; a private one is No profile here (LOR-302)", async () => {
+  const me = await signIn("aelric"), other = await signIn("someone");
+  await api("import", { cookie: me.cookie, body: { record: RECORD } });
+  await api("settings", { cookie: me.cookie, body: { public: true } });
+  const visitor = await view("aelric");
+  const preview = await view("aelric", me.cookie, "?as=visitor");
+  assert.equal(preview.status, 200);
+  assert.equal(preview.headers.get("Cache-Control"), "private, no-store");
+  const bar = preview.html.split('id="pf-visitor"')[1].split("</div>")[0];
+  assert.match(bar, /You're viewing your profile as a visitor\. This is what anyone with the link sees\./);
+  assert.match(bar, /<a class="btn-small" href="\/u\/aelric" data-keep-view>Back to my view<\/a>/);
+  assert.ok(!bar.includes("data-set-public"), "nothing to switch on a public one");
+  // The page is the visitor's: the same <main> once the bar is gone, and the same everything else.
+  assert.equal(withoutBar(preview.html), main(visitor.html).replace(/\s+/g, " "));
+  assert.equal(signedOut(preview.html).replace(main(preview.html), ""), visitor.html.replace(main(visitor.html), ""));
+  assert.ok(preview.html.includes("This could be your page") && preview.html.includes("pf-head-share"));
+  assert.ok(!preview.html.includes('id="pf-owner"'));
+
+  // ?pictures=1 stays on both ways.
+  assert.match((await view("aelric", me.cookie, "?pictures=1")).html,
+    /<a class="btn-small" href="\/u\/aelric\?pictures=1&amp;as=visitor" data-keep-view>View as a visitor<\/a>/);
+  assert.match((await view("aelric", me.cookie, "?pictures=1&as=visitor")).html,
+    /<a class="btn-small" href="\/u\/aelric\?pictures=1" data-keep-view>Back to my view<\/a>/);
+
+  // Anyone else is a visitor already: ?as=visitor changes nothing for them.
+  assert.equal(signedOut((await view("aelric", other.cookie, "?as=visitor")).html), visitor.html);
+  assert.equal((await view("aelric", undefined, "?as=visitor")).html, visitor.html);
+
+  // Private: visitors get "No profile here", and so does the owner's visitor view, with Make it public and the way back.
+  await api("settings", { cookie: me.cookie, body: { public: false } });
+  const gone = await view("aelric");
+  assert.equal(gone.status, 404);
+  const hidden = await view("aelric", me.cookie, "?as=visitor");
+  assert.equal(hidden.status, 200);
+  assert.equal(hidden.headers.get("Cache-Control"), "private, no-store");
+  const pbar = hidden.html.split('id="pf-visitor"')[1].split("</div>")[0];
+  assert.match(pbar, /^ data-bar data-public="0">/);
+  assert.match(pbar, /Your profile is private, so visitors see what's below: No profile here\./);
+  assert.match(pbar, /href="\/u\/aelric" data-keep-view>Back to my view<\/a>\s*<button class="btn-small btn-small-alt" type="button" data-set-public="1">Make it public<\/button>/);
+  assert.equal(withoutBar(hidden.html), main(gone.html).replace(/\s+/g, " "));
+  assert.match(hidden.html, /<title>No profile here - Lore Forever<\/title>/);
+  assert.ok(!hidden.html.includes("Night Elf"), "nothing of the profile");
+  assert.match(hidden.html, /<script src="\/js\/profile\.js" defer><\/script>/);
+  assert.equal((await view("aelric", other.cookie, "?as=visitor")).status, 404);
+  assert.ok(!(await view("aelric", other.cookie, "?as=visitor")).html.includes("pf-visitor"));
+});
+
+test("/account shares the profile's link with Share, not Copy link (LOR-150)", async () => {
+  const { readFileSync } = await import("node:fs");
+  const account = readFileSync(new URL("../public/account.html", import.meta.url), "utf8");
+  assert.match(account, /Your link: <a id="pf-url" href="\/u\/me"><\/a>\s*<button class="btn-small" type="button" id="pf-share-btn">Share<\/button>/);
+  assert.ok(!account.includes("Copy link"));
+  assert.match(account, /<script src="\/js\/share\.js" defer><\/script>/);
+  assert.match(account, /window\.lfShare\(\{ url, text: /);
+});
+
+test("share.js: the share sheet where there is one, else the link copied; a closed sheet is left alone (LOR-150)", async () => {
+  const { readFileSync } = await import("node:fs");
+  const source = readFileSync(new URL("../public/js/share.js", import.meta.url), "utf8");
+  // Runs share.js against a stand-in navigator; returns what it said and what it did.
+  const run = async nav => {
+    const window = {}, did = [];
+    new Function("window", "navigator", source)(window, {
+      share: nav.share && (async data => { did.push(["share", data]); if (nav.share !== true) throw nav.share; }),
+      clipboard: { writeText: async url => { did.push(["copy", url]); if (nav.copy === false) throw new Error("denied"); } },
+    });
+    return [await window.lfShare({ url: "https://loreforeverwow.com/u/aelric", text: "Aelric's journey in WoW Forever" }), did];
+  };
+  const data = { title: "Aelric's journey in WoW Forever", text: "Aelric's journey in WoW Forever", url: "https://loreforeverwow.com/u/aelric" };
+  assert.deepEqual(await run({ share: true }), ["shared", [["share", data]]]);
+  assert.deepEqual(await run({ share: Object.assign(new Error("closed"), { name: "AbortError" }) }), ["cancelled", [["share", data]]]);
+  assert.deepEqual(await run({ share: Object.assign(new Error("no target"), { name: "NotAllowedError" }) }),
+    ["copied", [["share", data], ["copy", data.url]]]);
+  assert.deepEqual(await run({}), ["copied", [["copy", data.url]]]);
+  assert.deepEqual(await run({ copy: false }), ["failed", [["copy", data.url]]]);
 });
 
 test("favorite spec: only the character's class's specs", async () => {
@@ -354,9 +497,9 @@ test("bad pastes and bad requests get plain answers", async () => {
     assert.equal(res.status, status, JSON.stringify(res.body));
     assert.match(res.body.error, error);
   }
-  assert.equal((await api("import", { cookie: me.cookie, body: { record: "x".repeat(200000) } })).status, 413);
+  assert.equal((await api("import", { cookie: me.cookie, body: { record: "x".repeat(300000) } })).status, 413);
   // The same without a Content-Length (a streamed body): reading stops at the cap.
-  const big = new TextEncoder().encode(JSON.stringify({ record: "x".repeat(200000) }));
+  const big = new TextEncoder().encode(JSON.stringify({ record: "x".repeat(300000) }));
   const stream = new ReadableStream({ start(c) { for (let i = 0; i < big.length; i += 16384) c.enqueue(big.slice(i, i + 16384)); c.close(); } });
   const streamed = await profileApi({ env, params: { action: "import" }, request: new Request(`${ORIGIN}/api/profile/import`,
     { method: "POST", body: stream, duplex: "half", headers: { Cookie: me.cookie, Origin: ORIGIN, "Content-Type": "application/json" } }) });
@@ -411,7 +554,8 @@ test("the admin dashboard lists players with their profile and links", async () 
   try {
     const res = await adminGet({ request: new Request(`${ORIGIN}/api/admin`, { headers: { Authorization: "Bearer admin-test-key" } }), env });
     const { users, stories } = await res.json();
-    assert.deepEqual(stories, { month: new Date().toISOString().slice(0, 7), usd: 0, calls: 0, written: 0, budget: 100, on: false });
+    assert.deepEqual(stories, { month: new Date().toISOString().slice(0, 7), usd: 0, calls: 0, written: 0, budget: 100, on: false,
+                                voiceUsd: 0, voiceOn: false });
     const u = users.find(x => x.email === "aelric@example.com");
     assert.deepEqual([u.handle, u.profile_public, u.character, u.char_level, u.char_class, u.links],
       ["aelric", 0, "Aelric", 24, "Druid", "https://twitch.tv/aelric"]);
@@ -517,4 +661,35 @@ test("the journey in numbers: small and edge cases read well", async () => {
   assert.equal(numbersSection({ ...base, stats: { ...base.stats, yards: 0, slain: 0, recorded: 0 } }), "");
   assert.deepEqual([duration(0.2), duration(1), duration(30), duration(50), duration(72)],
     ["12 minutes", "1 hour", "30 hours", "2 days 2 hours", "3 days"]);
+});
+
+test("the journey in numbers, LOR-262: how they traveled, patrons, homes, fish, days, the story's length, on this day", async () => {
+  const { readFileSync, existsSync } = await import("node:fs");
+  const { SITE } = await import("./helpers.mjs");
+  const { numbersSection, onThisDay, funLines } = await import("../lib/profile-stats.js");
+  const file = `${SITE}tests/fixtures/journey/en.txt`;
+  if (!existsSync(file) || !readFileSync(file, "utf8").includes("Most loyal patrons")) return;   // fixtures not made yet
+  const d = parseRecord(readFileSync(file, "utf8"), new Date("2026-10-04T12:00:00Z"));
+  const html = numbersSection(d, new Date("2026-09-29T12:00:00Z"));
+  const text = html.replace(/<[^>]+>/g, " ").replace(/&#0?39;|&#x27;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/\s+/g, " ");
+  for (const bit of ["A week ago today, Aelric defeated Edwin VanCleef.", "The sea took Aelric once.",
+    "Most loyal patron: Gershala Nightwhisper, with 4 quests done for them.", "Home is Teldrassil: 14 hours spent there.",
+    "Has called Auberdine, Astranaar and Dolanaar home.", "Caught 17 fish.", "Played on 9 days, 6 of them in a row at best.",
+    "Aelric's story so far would take about 2 hours to read aloud.", "64 narrations heard along the way.",
+    "9 Days played", "17 Fish caught", "How they traveled", "On foot 51,888 steps", "Riding 8.1 mi", "Swimming 1.1 mi",
+    "Flying 23.5 mi 7 flights", "By boat 2 crossings", "Where the time went Teldrassil 14 hours",
+    "Most loyal patrons Gershala Nightwhisper 4 quests"]) {
+    assert.ok(text.includes(bit), bit);
+  }
+  assert.ok(!text.includes("Nemesis"), "one death to a foe is no nemesis");
+  // A month ago and a year ago; nothing on a day without a moment; not from the 31st to a month without one.
+  assert.equal(onThisDay(d, new Date("2026-10-22T08:00:00Z")), "A month ago today, Aelric defeated Edwin VanCleef.");
+  assert.equal(onThisDay(d, new Date("2027-09-14T20:00:00Z")), "A year ago today, Aelric reached level 6.");
+  assert.equal(onThisDay(d, new Date("2026-12-25T12:00:00Z")), null);
+  // Famous company and a nemesis.
+  const lines = funLines({ name: "Brakka", factionKey: "horde", totals: {}, deaths: [],
+    people: [{ name: "Thrall" }, { name: "Lady Jaina Proudmoore" }, { name: "Thrallmar Scout" }, { name: "Gamon" }],
+    stats: { yards: 0, slain: 9, kinds: [], walk: [], deaths: 2, killers: [{ name: "Hogger", n: 2 }] } });
+  assert.ok(lines.includes("Has met Thrall and Lady Jaina Proudmoore."), lines.join(" | "));
+  assert.ok(lines.includes("Nemesis: Hogger, who slew Brakka twice."), lines.join(" | "));
 });

@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "Eyes on the Eastern Crossing",
-   "body": "While central Elwynn Forest struggles under the weight of banditry and vermin, alarming rumors have begun circulating about aquatic creatures creeping along the riverbanks. Marshal Dughan, commanding the garrison at Goldshire, refuses to dismiss the panic outright. Rather than pulling guards away from town, he sends travelers eastward aboard a fresh mount to consult Guard Thomas, the sentry posted at the bridge spanning the eastern river toward Redridge.",
+   "body": "While central Elwynn Forest struggles under the weight of banditry and vermin, alarming rumors have begun circulating about aquatic creatures creeping along the riverbanks. Marshal Dughan, commanding the garrison at Goldshire, refuses to dismiss the panic outright. Rather than pulling guards away from town, he sends travelers eastward to consult Guard Thomas, the sentry posted at the bridge spanning the eastern river toward Redridge.",
    "spoiler": 0
   },
   {
@@ -65,7 +65,7 @@
     "horse ride dughan",
     "charger to bridge"
    ],
-   "answer": "Marshal Dughan offers the use of a Stormwind charger right outside the Goldshire inn, providing a quick ride down the eastern road straight to Guard Thomas at the bridge."
+   "answer": "Follow the road east from Goldshire across Elwynn Forest to the bridge over the eastern river, where Guard Thomas keeps watch."
   },
   {
    "q": "Why doesn't Stormwind send an army to help eastern Elwynn?",
@@ -103,8 +103,7 @@
   "goldshire",
   "guard thomas",
   "marshal dughan",
-  "murloc",
-  "stormwind charger"
+  "murloc"
  ],
  "related": [
   "npc:marshal-dughan",

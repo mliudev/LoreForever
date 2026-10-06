@@ -47,7 +47,7 @@ It stays on the player's PC until they share it.
 ## 2. The Contribute button and code (LOR-234)
 
 A 16px button (a note icon) at the top right of the quest window (beside its Lore and play buttons), the gossip
-window, the book window (beside Read aloud) and the quest log's details, shown only for a page whose text Lore Forever
+window, the book window (top right; beside Listen on a page with a recording) and the quest log's details, shown only for a page whose text Lore Forever
 doesn't ship and whose line wasn't sent or copied before. Options › **Contribute buttons** turns them on: **off by default** in 0.8.0 until Mike has seen them (`/lf qa` exercises one either way, `Capture.TestButton`). No nagging: it
 never asks per quest. Clicking opens a share window with the link selected for Ctrl+C.
 

@@ -41,13 +41,13 @@
    "answer": "His daughter, Catelyn, grew bored of magical study and chose a life of piracy instead, sailing with the Blackwater Raiders in Stranglethorn Vale. Although Ansirem wishes she had chosen a more conventional career, he continues to support her from afar and pays contacts in Booty Bay to keep him updated on her safety."
   },
   {
-   "q": "What is his role at Dalaran Crater?",
+   "q": "What is his role in Dalaran?",
    "aliases": [
     "why is ansirem in alterac",
-    "ansirem dalaran crater",
+    "ansirem dalaran",
     "what is he doing here"
    ],
-   "answer": "Ansirem serves as a key Kirin Tor presence managing the perimeter of Dalaran in the Alterac Mountains, coordinating research, magical defense, and communication with allies while the city recovers from the destruction wrought during the Third War."
+   "answer": "Ansirem serves as a key Kirin Tor presence in the Violet Citadel, coordinating research, magical defense, and communication with allies while the city is rebuilt after the destruction wrought during the Third War."
   },
   {
    "q": "Did Ansirem fight in the Third War?",
@@ -55,13 +55,13 @@
     "ansirem scourge",
     "did ansirem fight arthas"
    ],
-   "answer": "He lived through it. When Arthas and the Scourge besieged Dalaran to enable Kel'Thuzad's summoning of Archimonde, Ansirem survived the city's destruction, though the details of his part in the battle are not recorded."
+   "answer": "Yes. When Arthas and the Scourge besieged Dalaran to enable Kel'Thuzad's summoning of Archimonde, Ansirem was among the mages who fought them outside the city, and he survived its destruction."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Ansirem is a revered member of the Council of Six and the author of several core Kirin Tor texts, making him an enduring authority on disciplined arcane study."
+   "text": "Ansirem is a revered member of the Council of Six, making him an enduring authority on disciplined arcane study."
   },
   {
    "target": "faction:Alliance",
@@ -74,7 +74,7 @@
   "catelyn",
   "council of six",
   "dalaran",
-  "dalaran crater",
+  "violet citadel",
   "kirin tor",
   "revilgaz",
   "runeweaver"

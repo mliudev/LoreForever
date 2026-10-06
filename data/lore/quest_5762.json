@@ -1,7 +1,7 @@
 {
  "key": "quest:5762",
  "type": "quest",
- "name": "Hemet Nesingwary Jr.",
+ "name": "Hemet Nesingwary",
  "era": "classic",
  "zone": "thousandneedles",
  "meta": {
@@ -9,119 +9,105 @@
    5762
   ],
   "level": "31",
-  "faction": "Neutral",
+  "faction": null,
   "start": "Kravel Koalbeard",
-  "end": "Hemet Nesingwary Jr.",
+  "end": "Hemet Nesingwary",
   "previous": null,
   "next": "",
-  "wiki": "Hemet Nesingwary Jr. (quest)",
+  "wiki": "Hemet Nesingwary (quest)",
   "chain": []
  },
- "summary": "At the Mirage Raceway in the Shimmering Flats, the merchant dwarf Kravel Koalbeard seeks a courier to carry an overdue shipment of specialized munitions across the seas. The recipient is Hemet Nesingwary Jr., a wealthy dwarven marksman who has set up an expedition deep in the perilous jungles of Stranglethorn Vale.",
+ "summary": "This errand sends travelers across the sea from the salt pans of Kalimdor to the steaming jungles of Stranglethorn Vale. Kravel Koalbeard, an opportunistic merchant at the Mirage Raceway, tasks adventurers with delivering a long-overdue package of specialty supplies to the renowned big-game hunter Hemet Nesingwary.",
  "sections": [
   {
-   "title": "A Courier Across Continents",
-   "body": "Amid the roar of rocket engines and the dust of the Shimmering Flats, the opportunistic merchant Kravel Koalbeard often finds himself juggling unorthodox shipments. One delayed delivery belongs to Hemet Nesingwary Jr., a wealthy dwarf who had already departed Kalimdor weeks prior. Ever eager to remain in good standing with prosperous clients, Kravel enlists travelers to carry the heavy crate all the way east to the untamed jungles of Stranglethorn Vale.",
+   "title": "A Transcontinental Delivery",
+   "body": "Out in the blinding expanse of the Shimmering Flats, commerce moves fast, but shipments sometimes lag behind. Kravel Koalbeard eventually receives a delayed crate earmarked for one of his wealthy patrons, Hemet Nesingwary. Having departed the Thousand Needles long before the parcel arrived, Hemet paid in advance to have it forwarded along to his wilderness hunting camp in Stranglethorn Vale. Rather than make the arduous trek himself, Kravel enlists roving adventurers willing to bridge the ocean divide.",
    "spoiler": 0
   },
   {
    "title": "Ammunition for the Hunt",
-   "body": "Upon reaching the hunting camp nestled along the northern riverways of Stranglethorn Vale, Nesingwary Jr. welcomes the package with open arms. The crate holds custom, special-gauge ammunition favoured by his legendary father. Out in the dense wilderness where raptors, panthers, and crocolisks stalk the undergrowth, regular powder and shot simply will not suffice for the dangerous safari the expedition has begun.",
+   "body": "Tracking down Nesingwary's expedition north of Grom'gol Base Camp reveals the contents of the heavy crate: specialized heavy-gauge ammunition vital for bringing down the dangerous predators prowling the jungle. Hemet immediately recognizes the distinctive white crust of the salt flats clinging to the courier's gear, pleased that his old ties with the wily Kravel yielded the firepower his safari desperately needed.",
    "spoiler": 0
   }
  ],
  "faq": [
   {
-   "q": "Who is Hemet Nesingwary Jr.?",
+   "q": "Where does this delivery begin and end?",
    "aliases": [
-    "hemet jr",
-    "who is hemet jr",
-    "junior nesingwary"
+    "quest start and end",
+    "where is hemet",
+    "where do i go"
    ],
-   "answer": "Hemet Nesingwary Jr. is a wealthy dwarven hunter and the son of the famous big game huntsman Hemet Nesingwary. He travels to Stranglethorn Vale to hunt dangerous beasts and lead a camp of fellow marksmen."
+   "answer": "The delivery begins with Kravel Koalbeard at the Mirage Raceway in the Shimmering Flats, located in southern Thousand Needles. It finishes halfway across the world at Hemet Nesingwary's expedition camp, nestled in northern Stranglethorn Vale just north of Grom'gol."
   },
   {
    "q": "What is inside Kravel's Crate?",
    "aliases": [
-    "kravel crate contents",
-    "what is in the package",
-    "kravel cargo"
+    "whats in the crate",
+    "crate contents",
+    "kravel package"
    ],
-   "answer": "The crate contains special-gauge ammunition that Hemet Nesingwary Jr. and his father swear by, designed specifically for bringing down the massive and ferocious beasts of the wild."
+   "answer": "The crate contains special-gauge ammunition tailored for big-game firearms. Hemet Nesingwary ordered the bespoke shot to pierce the thick hides of Stranglethorn's fiercest beasts."
   },
   {
-   "q": "Why is Kravel Koalbeard sending a package so far away?",
+   "q": "Why didn't Kravel deliver the crate himself?",
    "aliases": [
-    "why kravel delivers",
-    "kravel motivation"
+    "why kravel hire someone",
+    "why does kravel need help"
    ],
-   "answer": "The crate arrived weeks late after Hemet had already left the Mirage Raceway. Because Nesingwary Jr. is a wealthy customer who prepaid handsomely, Kravel is eager to protect his business reputation by ensuring it reaches him."
+   "answer": "Kravel is an enterprising dwarven merchant busy overseeing his investments and schemes at the Mirage Raceway. He prefers to hire passing adventurers with the coin Nesingwary provided in advance rather than abandon his post to cross the seas."
   },
   {
-   "q": "Where is Hemet Nesingwary Jr. located?",
+   "q": "How does Hemet know where the courier came from?",
    "aliases": [
-    "nesingwary camp location",
-    "where is junior",
-    "stranglethorn camp"
+    "desert salt",
+    "hemet dialogue salt"
    ],
-   "answer": "He can be found at an expedition camp in northern Stranglethorn Vale, situated along the river just west of the main road, north of Grom'gol Base Camp."
+   "answer": "Upon receiving the parcel, Hemet immediately smells and identifies the distinct salt crust clinging to the courier's garments, noting it came straight off the Shimmering Flats rather than standard desert dust."
   },
   {
-   "q": "Why is Nesingwary in Stranglethorn Vale?",
+   "q": "What kind of relationship do Kravel and Hemet have?",
    "aliases": [
-    "why nesingwary stranglethorn",
-    "hemet expedition purpose"
+    "kravel and hemet history",
+    "do they know each other"
    ],
-   "answer": "He traveled to Stranglethorn Vale to follow in his father's footsteps, hunting the ferocious predators that prowl the southern jungle and testing his expedition's skill against the wilderness."
+   "answer": "Hemet is an old, lucrative customer of Kravel's. While Kravel respects Hemet's deep pockets, Hemet fondly regards Kravel as a 'crusty old' rogue who is perpetually up to no good."
   },
   {
-   "q": "How does Nesingwary Jr. recognize where you have arrived from?",
+   "q": "Who is Hemet Nesingwary?",
    "aliases": [
-    "desert salt dialogue",
-    "shimmering flats smell"
+    "who is hemet",
+    "nesingwary lore"
    ],
-   "answer": "When you deliver the crate to Nesingwary Jr., he catches the scent of desert salt clinging to your clothes from your time spent crossing the Shimmering Flats."
+   "answer": "Hemet Nesingwary is a celebrated dwarven marksman, author, and big-game hunter who leads an ongoing safari through the perilous depths of Stranglethorn Vale."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Delivering this crate introduces you directly to the Nesingwary expedition, a renowned gathering of big game trackers who make their living hunting the world's most dangerous fauna."
+   "text": "Carrying specialized ammunition directly to Hemet Nesingwary introduces trackers to Azeroth's most famous big-game safari."
   },
   {
    "target": "race:Dwarf",
-   "text": "This task connects you to two very different dwarves: Kravel, an industrious and slightly shady desert swindler, and Nesingwary Jr., heir to a famed lineage of dwarven riflemen."
-  },
-  {
-   "target": "faction:Alliance",
-   "text": "For Alliance pathfinders, reaching Nesingwary's camp means traveling south into Stranglethorn past the Rebel Camp in Duskwood's shadow, stepping right into hostile frontier territory."
-  },
-  {
-   "target": "faction:Horde",
-   "text": "Horde adventurers can access the remote jungle easily by taking a zeppelin to Grom'gol Base Camp and heading north into the wild river valley to deliver the goods."
+   "text": "Delivering custom munitions between two roguish dwarven acquaintances shows how far Ironforge expatriates scatter to pursue coin and quarry."
   }
  ],
  "keywords": [
   "ammunition",
-  "hemet",
-  "koalbeard",
-  "kravel",
+  "hemet nesingwary",
+  "kravel koalbeard",
+  "kravel's crate",
   "mirage raceway",
-  "nesingwary",
   "shimmering flats",
-  "stranglethorn"
+  "stranglethorn vale"
  ],
  "related": [
   "npc:kravel-koalbeard",
-  "quest:788",
-  "zone:stranglethorn",
   "subzone:shimmering-flats",
-  "subzone:mirage-raceway",
   "zone:thousandneedles",
-  "quest:1110",
-  "subzone:rebel-camp"
+  "topic:dwarf"
  ],
  "attribution": [
-  "Hemet Nesingwary Jr. (quest)"
+  "Hemet Nesingwary (quest)"
  ]
 }

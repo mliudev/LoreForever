@@ -17,7 +17,7 @@
   "wiki": "Return to Sven",
   "chain": []
  },
- "summary": "This quest marks the moment Sven Yorgen finally learns the truth behind the brutal massacre of his family and workers at the Yorgen Farmstead. After tracking down the runaway Jitters, you return to Sven's isolated camp on the edge of Westfall carrying the vagrant's completed journal. The grim revelations inside pivot Sven's grief toward cold vengeance against the mysterious Dark Riders and the necromancer Morbent Fel.",
+ "summary": "This quest marks the moment Sven Yorgen finally learns the truth behind the brutal massacre of his family at the Yorgen Farmstead. After tracking down the runaway Jitters, you return to Sven's isolated camp on the edge of Westfall carrying the vagrant's completed journal. The grim revelations inside pivot Sven's grief toward cold vengeance against the mysterious Dark Riders and the necromancer Morbent Fel.",
  "sections": [
   {
    "title": "A Coward's Confession",
@@ -38,7 +38,7 @@
     "jitters afraid of sven",
     "what did jitters do"
    ],
-   "answer": "Jitters was staying at Sven's farmstead when the Dark Riders descended upon it. Instead of standing to fight alongside the family or sounding an alarm, Jitters ran for his life and abandoned everyone to their deaths. He knows Sven holds him partly responsible and fears Sven would kill him on sight."
+   "answer": "Jitters had been hiding unseen in Sven's barn when the Dark Riders descended upon the farm. He stayed hidden while Sven's family was slaughtered, then fled, and he dreads having to face Sven's wrath in person."
   },
   {
    "q": "What is in Jitters' completed journal?",

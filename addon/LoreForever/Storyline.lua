@@ -1,6 +1,6 @@
 -- Storylines (LOR-198, LOR-199): whether a quest is part of a storyline, from the pipeline's quest chains
--- (lore.storylines; ns.DB.storylines and ns.DB.index.story, see compile_lua). The quest dialog and quest log say so
--- under the Lore button (Hooks), and so does the top of the quest's Lore entry (UI):
+-- (lore.storylines; ns.DB.storylines and ns.DB.index.story, see compile_lua). The quest window and the quest log say
+-- so under the quest's title, in its text (Hooks.QuestInfoStory), and so does the top of the quest's Lore entry (UI):
 --   "Storyline · Westfall: The Defias Brotherhood"
 -- Turning in one of its quests names who gives the next, when the game has already sent you to them.
 -- It never says which step a quest is, how many there are, or where the storyline starts or ends. Wording:
@@ -89,14 +89,6 @@ function Storyline.Line(id, force, short)
   if name and short then zone = nil end
   local what = (name and zone and zone ~= name and (zone .. ": " .. name)) or name or zone
   return what and (L["Storyline"] .. " · " .. what) or L["Storyline"], sl
-end
-
--- The tooltip on the line: the line in full.
-function Storyline.AddTooltip(id)
-  local text = Storyline.Line(id, true)
-  if not text then return false end
-  T.Tip(text, "gold", true)
-  return true
 end
 
 -- Turning in a storyline quest -----------------------------------------------------------------------------------------

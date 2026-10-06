@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-04",
+ "generated": "2026-10-05",
  "forever_only": {
   "quests_known": 133,
   "quests_with_text": 114,
-  "narrated": 114,
+  "narrated": 113,
   "npcs_known": 223,
   "npcs_with_text": 0
  },
@@ -146,7 +146,7 @@
    "key": "silverpine",
    "quests": 1,
    "with_text": 1,
-   "narrated": 1
+   "narrated": 0
   },
   {
    "zone": "Teldrassil",

@@ -14,14 +14,17 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <link rel="stylesheet" href="/style.css">
 <script src="/header.js" defer></script>
+<script src="/js/share.js" defer></script>
 </head>
 <body>
 
 <header class="top">
   <nav class="wrap nav" aria-label="Lore Forever">
+    <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
       <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
       <a class="nl" id="nav-community" href="/feedback">Community</a>
     </div>
@@ -131,7 +134,7 @@
         <label class="fb-check"><input type="checkbox" id="pf-public"> <span>Public: anyone with the link can see it,
           with your links from "Your name and links" below. Otherwise only you can.</span></label>
         <p class="pf-link" id="pf-link" hidden>Your link: <a id="pf-url" href="/u/me"></a>
-          <button class="btn-small" type="button" id="pf-copy">Copy link</button></p>
+          <button class="btn-small" type="button" id="pf-share-btn">Share</button></p>
         <form class="pf-address" id="pf-address">
           <label class="pf-addr-label" for="pf-handle">Profile address <span class="fb-optional">(change it to your
             streamer name, say; old links then stop working)</span></label>
@@ -246,7 +249,10 @@
       return { ok: false, error: "Couldn't reach the server. Check your connection and try again." };
     }
   };
-  const signedIn = () => { if (next) location.assign(next); else load(); };
+  // The header (header.js) follows along: each GET /api/auth/me answer, or none when signing in sends you on to next,
+  // so it forgets that you were signed out.
+  const tellHeader = me => document.dispatchEvent(new CustomEvent("lf-auth", { detail: me }));
+  const signedIn = () => { if (next) { tellHeader(null); location.assign(next); } else load(); };
 
   function googleButton(clientId) {
     const s = document.createElement("script");
@@ -302,6 +308,7 @@
     let me;
     try { me = await (await fetch("/api/auth/me", { cache: "no-store" })).json(); } catch (e) { me = null; }
     if (!me || !me.ok) { status((me && me.error) || "Couldn't reach the server. Please reload."); return; }
+    tellHeader(me);
     $("ac-out").hidden = Boolean(me.user);
     $("ac-in").hidden = !me.user;
     $("ac-main").classList.toggle("ac-wide", !me.user);   // signed out: the steps and the example side by side
@@ -469,10 +476,11 @@
     const res = await send("/api/profile/settings", { spec: e.target.value });
     pfStatus(res.ok ? "Saved." : res.error, res.ok);
   });
-  $("pf-copy").addEventListener("click", async () => {
+  // Share (LOR-150): the share sheet, or the link copied (/js/share.js).
+  $("pf-share-btn").addEventListener("click", async () => {
     const url = location.origin + $("pf-url").getAttribute("href");
-    try { await navigator.clipboard.writeText(url); pfStatus("Link copied.", true); }
-    catch (e) { pfStatus("Your link: " + url, true); }
+    const done = await window.lfShare({ url, text: $("pf-name").textContent + "'s journey in WoW Forever" });
+    pfStatus(done === "copied" ? "Link copied." : done === "failed" ? "Your link: " + url : "", true);
   });
   $("pf-delete").addEventListener("click", async () => {
     const apps = $("ac-app-list").children.length ? " Your companion app is disconnected too." : "";

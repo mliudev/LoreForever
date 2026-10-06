@@ -67,9 +67,9 @@ test("addresses, file stems and the read-along split", () => {
   assert.equal(audioKey("male-narrator", "zone:stormwind#faq1", { sha: "0123456789" }), "male-narrator/zone_stormwind__faq1-0123456789.mp3");
 });
 
-test("the flag: the \"lore\" site feature, off by default; SITE_FEATURES overrides it", () => {
-  assert.equal(FEATURES.lore, false, "turn the lore feature on only once the recordings are in R2 (site/LORE_PAGES.md)");
-  assert.equal(isPublic({}), false);
+test("the flag: the \"lore\" site feature, on since the recordings are in R2; SITE_FEATURES overrides it", () => {
+  assert.equal(FEATURES.lore, true, "the lore pages are public (site/LORE_PAGES.md, Mike 2026-10-04)");
+  assert.equal(isPublic({}), true);
   assert.equal(isPublic({ SITE_FEATURES: "lore" }), true);
   assert.equal(isPublic({ SITE_FEATURES: "contribute,-lore" }), false);
 });
@@ -77,15 +77,17 @@ test("the flag: the \"lore\" site feature, off by default; SITE_FEATURES overrid
 test("the header's Lore link follows the feature (GET /api/auth/me)", async () => {
   const me = async e => (await authApi({ request: new Request(HOME + "/api/auth/me"), env: { DB: d1(), ...e },
     params: { action: "me" } })).json();
-  assert.equal((await me({})).features.lore, false);
-  assert.equal((await me({ SITE_FEATURES: "lore" })).features.lore, true);
+  assert.equal((await me({})).features.lore, true);
+  assert.equal((await me({ SITE_FEATURES: "-lore" })).features.lore, false);
+  // In the markup while it's on (site/tests/nav.test.mjs); header.js hides it when the answer says off
+  // (site/tests/header.test.mjs).
+  assert.ok(SITE_NAV.includes('<a class="nl" id="nav-lore" href="/lore">Lore</a>'));
   const header = readFileSync(join(PUBLIC, "header.js"), "utf8");
-  assert.match(header, /me\.features && me\.features\.lore/);
-  assert.match(header, /lore\.href = "\/lore"/);
+  assert.match(header, /lore: Boolean\(me\.features\.lore\)/);
 });
 
-test("an entry page before any upload: text, sources, links, no players, noindex", async () => {
-  const res = await entry("/lore/zone/stormwind");
+test("an entry page before any upload: text, sources, links, no players, noindex while the feature is off", async () => {
+  const res = await entry("/lore/zone/stormwind", env({ SITE_FEATURES: "-lore" }));
   assert.equal(res.status, 200);
   assert.equal(res.headers.get("X-Robots-Tag"), "noindex");
   const html = await res.text();
@@ -103,6 +105,27 @@ test("an entry page before any upload: text, sources, links, no players, noindex
   assert.ok(!html.includes('id="lp-report"'), "no report form without anything to report");
   assert.match(html, /<span class="rl-s">/);
   assert.match(html, /<link rel="stylesheet" href="\/lore\/lore.css">/);
+});
+
+test("look it up (LOR-263): Wowhead's Forever page by game ID and the wiki article; a subzone only the wiki", async () => {
+  const quest = await (await entry("/lore/quest/176-wanted-hogger")).text();
+  assert.match(quest, /<h2 id="out-title">Look it up<\/h2>/);
+  assert.ok(quest.includes('<a href="https://www.wowhead.com/forever/quest=176" rel="noopener">Wanted: &quot;Hogger&quot; on Wowhead</a>'));
+  const boss = await (await entry("/lore/npc/edwin-vancleef")).text();
+  assert.ok(boss.includes('href="https://www.wowhead.com/forever/npc=639"'));
+  assert.ok(boss.includes('href="https://warcraft.wiki.gg/wiki/Edwin_VanCleef" rel="noopener">Edwin VanCleef on the Warcraft Wiki'));
+  const zone = await (await entry("/lore/zone/westfall")).text();
+  assert.ok(zone.includes('href="https://www.wowhead.com/forever/zone=40"'));
+  const sub = await (await entry("/lore/subzone/goldshire")).text();
+  assert.ok(sub.includes('<h2 id="out-title">Look it up</h2>') && !sub.includes("wowhead.com"), "Wowhead has no subzone pages");
+  // Every page's Wowhead reference is one of the kinds the site links, and quest pages carry their own ID.
+  const index = JSON.parse(readFileSync(join(PUBLIC, "lore/data/index.json"), "utf8"));
+  for (const p of index.pages.slice(0, 400)) {
+    const e = entryJson(p.p.replace(/^\/lore\//, "").replace("/", ":").replace(/^quest:(\d+).*/, "quest:$1"));
+    if (e.kind === "quest") assert.equal(e.wowhead, `quest=${e.key.split(":")[1]}`);
+    if (e.wowhead) assert.match(e.wowhead, /^(quest|npc|zone)=\d+$/, e.key);
+    if (e.kind === "subzone" || e.kind === "topic") assert.equal(e.wowhead, undefined, e.key);
+  }
 });
 
 test("with recordings in R2: a player per voice and the report form; only what the manifest lists plays", async () => {
@@ -127,7 +150,8 @@ test("public: indexable pages and a sitemap of them", async () => {
   const res = await entry("/lore/zone/stormwind", pub);
   assert.equal(res.headers.get("X-Robots-Tag"), null);
   assert.ok(!(await res.text()).includes('name="robots"'));
-  const hidden = await (await sitemapGet({ request: new Request(HOME + "/lore/sitemap.xml"), env: env() })).text();
+  const hidden = await (await sitemapGet({ request: new Request(HOME + "/lore/sitemap.xml"),
+    env: env({ SITE_FEATURES: "-lore" }) })).text();
   assert.ok(!hidden.includes("<loc>"), "no URLs while hidden");
   assert.match(hidden, /<urlset xmlns="http:\/\/www.sitemaps.org\/schemas\/sitemap\/0.9">/);
   const shown = await (await sitemapGet({ request: new Request(HOME + "/lore/sitemap.xml"), env: pub })).text();
@@ -174,8 +198,8 @@ test("spoilers: a narration whose summary gives a story away plays nothing and s
   assert.ok(!html.includes('class="lp-clip'), "no narration");
 });
 
-test("/lore: the list's frame, the zones without JavaScript, noindex", async () => {
-  const res = await indexGet({ request: new Request(HOME + "/lore"), env: env() });
+test("/lore: the list's frame, the zones without JavaScript, noindex while the feature is off", async () => {
+  const res = await indexGet({ request: new Request(HOME + "/lore"), env: env({ SITE_FEATURES: "-lore" }) });
   assert.equal(res.status, 200);
   assert.equal(res.headers.get("X-Robots-Tag"), "noindex");
   const html = await res.text();

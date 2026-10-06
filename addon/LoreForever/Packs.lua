@@ -26,7 +26,7 @@ local PREFIX = { voice = "LoreForever_Voice_", lang = "LoreForever_Lang_", ["lan
 -- What each kind of pack can write. Unknown kinds get nothing.
 local WRITERS = {
   voice = function() return { clips = {} } end,
-  lang = function() return { ui = {}, entries = {}, names = {}, quests = {}, items = {}, clipHash = {} } end,   -- see Lang.lua
+  lang = function() return { ui = {}, entries = {}, names = {}, quests = {}, items = {}, clipHash = {}, answerHash = {} } end,   -- see Lang.lua
   ["lang-overlay"] = function() return { ui = {}, strings = {}, fp = {} } end,
 }
 
@@ -71,7 +71,6 @@ local function describe(rec)
   rec.format = tonumber(meta(n, "X-LoreForever-Format") or "") or rec.format
   rec.dataVersion = meta(n, "X-LoreForever-DataVersion") or rec.dataVersion
   rec.languageName = meta(n, "X-LoreForever-LanguageName") or rec.languageName
-  rec.ttsVoices = meta(n, "X-LoreForever-TTSVoices") or rec.ttsVoices
   rec.credit = meta(n, "X-LoreForever-Credit") or rec.credit
   rec.sample = meta(n, "X-LoreForever-Sample") or rec.sample
   rec.extends = meta(n, "X-LoreForever-Extends") or rec.extends

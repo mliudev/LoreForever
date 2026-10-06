@@ -76,7 +76,7 @@ end
 function UI.DoQueueAction(key, idx)
   local id = idx and (key .. "#faq" .. idx) or key
   local action = UI.QueueAction(id)
-  if action == "add" then UI.PlaylistAdd(key, idx)
+  if action == "add" then UI.QueueLink(key, idx)   -- (a note if it can't go in after all: a quest Forever rewrote)
   elseif action == "stop" then UI.StopAll()
   else UI.PlaylistRemove(UI.PlaylistIndex(id)) end
 end
@@ -644,6 +644,8 @@ function UI.Create(engine)
     local b = hereRow()
     b:SetPoint("TOPLEFT", 12, -112 - 5 * HERE_STEP - 28 - (i - 1) * HERE_STEP)
     b:SetScript("OnClick", function(self)
+      -- Shift-click: the quest's narration joins the playlist (UI.QueueQuest).
+      if IsShiftKeyDown() and self.quest then return UI.QueueQuest(self.quest.id, self.quest.title) end
       if self.key then UI.ShowEntry(self.key, "quest", self.quest and self.quest.title)
       elseif self.quest then UI.ShowQuestText(self.quest) end
     end)
@@ -657,6 +659,9 @@ function UI.Create(engine)
         T.Tip(L["Shows the quest's own text and the story of the area."], "tipText", true)
       end
       if self.play:IsShown() then T.Tip(L["Narrated: press the arrow to listen"], "tipText") end
+      if self.quest and UI.CanQueueQuest(self.quest.id) then
+        T.Tip(L["Click to open. Shift-click adds it to your playlist."], "tipDim", true)
+      end
       GameTooltip:Show()
     end)
     UI.questButtons[i] = b
@@ -899,13 +904,14 @@ function UI.MoveCompletion(delta)
 end
 
 -- Listening ------------------------------------------------------------------------------------------------------
--- Every answer bubble has its own Listen button, and the header narrates the area. A target is {id, key, text}:
--- key picks a recorded narration when there is one (overviews and primers), text is read aloud otherwise.
+-- An answer bubble whose story a voice recorded has its own Listen button, and the header narrates the area. A target
+-- is {id, key, text}: key picks the recorded narration (overviews, primers, FAQ answers, quest pages); what no voice
+-- recorded has nothing to play and stays as text. text is what plays, for its length.
 
 -- An entry's overview as something to play: its recording if it has one, else its summary and first section.
--- The id is the entry key, so the sidebar, the header and an answer bubble all agree on what's playing. A quest with
--- no recording of its own plays its quest giver's recorded words (UI.QuestDialogueClip). story: the entry the
--- player's title opens (UI.PlayerOpenStory).
+-- The id is the entry key, so the sidebar, the header and an answer bubble all agree on what's playing. A quest's
+-- lore answer and its quest giver's words are separate recordings. story: the entry the player's title opens
+-- (UI.PlayerOpenStory).
 function UI.EntryTarget(key)
   local e = key and UI.engine.db.entries[key]
   if not e then return nil end
@@ -914,8 +920,7 @@ function UI.EntryTarget(key)
   for _, sec in ipairs(e.sec or {}) do
     if (sec.sp or 0) == 0 or open then parts[#parts + 1] = sec.t .. ". " .. sec.b end
   end
-  local clip = e.t == "quest" and not ns.Voice.HasAudio(key) and UI.QuestDialogueClip(e) or nil
-  return { id = key, key = clip or key, label = e.n, text = table.concat(parts, " "), story = key }
+  return { id = key, key = key, label = e.n, text = table.concat(parts, " "), story = key }
 end
 
 -- A FAQ answer as something to play; the starting zones and capitals have these recorded ("zone:elwynn#faq2").
@@ -938,8 +943,9 @@ function UI.ZoneTarget()
   return UI.EntryTarget(key)
 end
 
--- Reset the buttons once playback ends, checked each second. Recordings report when they stop; text-to-speech
--- doesn't, so estimate its length from the text (about 15 characters a second).
+-- Reset the buttons once playback ends, checked each second. Recordings report when they stop (Voice.IsPlaying); on a
+-- client that can't tell, estimate the length from the text (about 15 characters a second). Ending by itself moves
+-- the playlist on, then gives an arrival story waiting for it its turn (Voice.OnNarrationEnded).
 local function watchPlayback(estimate)
   local started = GetTime and GetTime() or 0
   local token = {}
@@ -952,6 +958,7 @@ local function watchPlayback(estimate)
       UI.speaking, UI.playingId = false, nil
       UI.UpdateListen()
       UI.OnClipEnded()
+      ns.Voice.OnNarrationEnded()
     else
       C_Timer.After(1, check)
     end
@@ -959,12 +966,13 @@ local function watchPlayback(estimate)
   C_Timer.After(1, check)
 end
 
--- Start a target playing, replacing whatever plays now. Returns true if it started. The playlist plays recordings
--- only and leaves an open History list alone (it moves on by itself; you didn't just press anything).
+-- Start a target's recording, replacing whatever plays now. Returns true if it started; without a recording nothing
+-- plays (Voice.Narrate). The playlist leaves an open History list alone (it moves on by itself; you didn't just press
+-- anything).
 local function startTarget(target, fromPlaylist)
   ns.Voice.Stop()
   UI.speaking, UI.playingId = false, nil
-  local started = target and (fromPlaylist and ns.Voice.Play(target.key) or ns.Voice.Narrate(target.key, target.text))
+  local started = target and (fromPlaylist and ns.Voice.Play(target.key) or ns.Voice.Narrate(target.key))
   if not started then return false end
   UI.speaking, UI.playingId, UI.playingLabel = true, target.id, target.label
   UI.playingKey, UI.playingStory = target.key, target.story
@@ -975,10 +983,11 @@ local function startTarget(target, fromPlaylist)
   return true
 end
 
--- Whether a target is what plays now: the same item, or the same recording started from somewhere else (a quest
--- giver's words play from the quest window and from the quest's Lore entry alike).
+-- Whether a target is what plays now: the same recording, started here or somewhere else. A quest's playlist item
+-- shares its lore entry's id, but plays the quest giver's words: those must not turn the lore answer's Listen to Stop.
 function UI.IsPlayingTarget(t)
   if not (UI.speaking and t) then return false end
+  if UI.playingKey and UI.playingKey ~= t.key then return false end
   if UI.playingId == t.id then return true end
   return t.key ~= t.id and UI.playingKey == t.key and ns.Voice.HasAudio(t.key)
 end
@@ -990,7 +999,8 @@ function UI.ListenTo(target)
   local pl = UI.pl
   if UI.IsPlayingTarget(target) then return UI.StopAll() end
   local cur = pl.items[pl.pos]
-  if cur and cur.id == target.id then
+  -- A quest page's playlist item has its lore entry's id, but pressing Listen on that lore starts another recording.
+  if cur and cur.id == target.id and not cur.pages then
     pl.state = "playing"
     if not startTarget(target) then pl.state = "paused" end
   else
@@ -1000,7 +1010,7 @@ function UI.ListenTo(target)
   UI.UpdateListen()
 end
 
--- Stop any narration or read-aloud, whatever started it. A playlist pauses at the item it was on.
+-- Stop any narration, whatever started it. A playlist pauses at the item it was on.
 function UI.StopAll()
   ns.Voice.Stop()
   UI.speaking, UI.playingId = false, nil
@@ -1025,7 +1035,6 @@ end
 
 function UI.UpdateListen()
   UI.UpdateNowPlaying()
-  local canTTS = ns.Voice.Available()
   if UI.tab == "narrations" and UI.narrRows then UI.RefreshNarrations() end
   -- The Here tab's playlist buttons follow the playlist (+, then -, or a stop square while it plays).
   for _, b in ipairs(UI.bossButtons or {}) do
@@ -1042,17 +1051,16 @@ function UI.UpdateListen()
     end
   end
   for _, b in ipairs(UI.bubbles or {}) do
-    -- Recorded narrations say "Listen"; everything else says "Read aloud" (the game's own voice), so the two are
-    -- never confused. Heroes (the welcome card) use their big action button instead.
+    -- Listen only where a voice recorded the answer: the rest stays as text (no game voice, Mike 2026-10-05). Heroes
+    -- (the welcome card) use their big action button instead.
     local t = b.listen.target
     if b.frame:IsShown() and t and not b.isHero then
       local recorded = ns.Voice.HasAudio(t.key)
       local playing = UI.IsPlayingTarget(t)
-      b.listen:SetText(playing and L["Stop"] or (recorded and L["Listen"] or L["Read aloud"]))
+      b.listen:SetText(playing and L["Stop"] or L["Listen"])
       local lw = b.listen.GetTextWidth and tonumber(b.listen:GetTextWidth())
-      b.listen:SetWidth(math.max(84, (lw or 64) + 20))   -- "Ler em voz alta" runs wider than the English
-      b.listen.recorded = recorded
-      b.listen:SetShown(recorded or canTTS)
+      b.listen:SetWidth(math.max(84, (lw or 64) + 20))   -- a translation can run wider than the English
+      b.listen:SetShown(recorded)
       -- "Add to playlist" beside Listen on recorded stories and answers.
       local qk, qi = UI.QueueRef(t)
       local can = recorded and qk and UI.CanQueue(qk, qi)
@@ -1229,13 +1237,8 @@ local function bubbleAt(i)
     listen:SetScript("OnClick", function(self) UI.ListenTo(self.target) end)
     listen:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_TOP")
-      if self.recorded then
-        GameTooltip:AddLine(L["Narrated"])
-        T.Tip(L["A recorded narration of this answer."], "tipText", true)
-      else
-        T.Tip(L["Read aloud"])
-        T.Tip(L["Uses your game's text-to-speech voice. Change it in Options > Accessibility > Text to Speech."], "tipText", true)
-      end
+      GameTooltip:AddLine(L["Narrated"])
+      T.Tip(L["A recorded narration of this answer."], "tipText", true)
       GameTooltip:Show()
     end)
     listen:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -1429,8 +1432,8 @@ function UI.Render(keepScroll)
     b.action:Hide()
     b.close:SetShown(m.closable and true or false)
     b.queue:Hide()   -- UpdateListen shows it on recorded answers
-    -- Only reserve room for Listen when there's something to play (a recording, or Read aloud turned on).
-    local canPlay = m.target and (ns.Voice.HasAudio(m.target.key) or ns.Voice.Available())
+    -- Only reserve room for Listen when a voice recorded the answer (the rest stays as text).
+    local canPlay = m.target and ns.Voice.HasAudio(m.target.key)
     if m.role == "lore" and canPlay then
       h = h + 22
       b.listen:Show()
@@ -1475,22 +1478,17 @@ function UI.Render(keepScroll)
   end)
 end
 
--- Add a message. role: "user" | "lore" | "note". target: what its Listen button plays (lore only).
-local msgSeq = 0
+-- Add a message. role: "user" | "lore" | "note". target: what its Listen button plays (lore only: a story's, an
+-- answer's or a chapter's recording), shown only when a voice recorded it. Left out (or false: the welcome back), the
+-- message has none: what no voice recorded stays as text, never read out by the game's voice (Mike, 2026-10-05).
 -- rows (lore only): clickable boss rows under the text, { {key, name, hook}, ... } (the dungeon primer).
 -- log: the logged question this message answers (Log.Question), so it can be rated and reported.
 -- subject: the entry key the message is about (Back goes to it); linked: the keys its lore links point to, in order,
 -- for the "In this answer" line (UI.Linker).
 function UI.AddMessage(role, text, target, actionLabel, rows, log, subject, linked)
-  msgSeq = msgSeq + 1
   if UI.historyFrame then UI.historyFrame:Hide() end
   if UI.journeyPage then UI.journeyPage:Hide() end
-  if role == "lore" and not target then
-    -- Read the body, not the heading line (the title or question is already on screen).
-    local heading = text:match("^([^\n]*)\n")
-    target = { id = "msg" .. time() .. "-" .. msgSeq, text = text:match("^[^\n]*\n(.+)$") or text,
-      label = heading and ns.Voice.Plain(heading):gsub("%s*" .. L["(narrated)"]:gsub("%p", "%%%0"), "") or nil }
-  end
+  if target == false then target = nil end
   finishTyping()
   local animate = role == "lore" and settings().typing ~= false
   table.insert(UI.msgs, { role = role, text = text, target = target, actionLabel = actionLabel, animate = animate,
@@ -1757,8 +1755,9 @@ function UI.ShowWelcome(ctx, placeName, here)
   local text = GOLD .. L["Welcome to Lore Forever"] .. "|r\n" .. WHITE
     .. L["The story behind the places, people and quests around you, told by narrators and ready for your questions."] .. "|r"
   if recap then
-    UI.AddMessage("lore", recap.text, recap.target)
-  elseif target and (recorded or ns.Voice.Available()) then
+    -- Never read aloud: its Listen is there only for a new chapter with a recording, which plays that chapter.
+    UI.AddMessage("lore", recap.text, recap.target or false)
+  elseif target and recorded then
     local label = yours and string.format(L["Hear your people's story: %s"], name)
       or string.format(L["Hear the story of %s"], name)
     UI.AddMessage("hero", text, target, label)
@@ -2304,24 +2303,30 @@ end
 -- A queue of recorded narrations you build with + (Library) or "Add to playlist" (chat). It plays them in
 -- order with a short gap between. Stop anywhere pauses it at the current item; playing something by hand pauses it;
 -- flight narration waits for it. State is in UI.pl (top of the file).
+-- A quest is one item (UI.QueueQuest; on Mike's stream, 2026-10-04, only place stories would go in): its quest giver's
+-- recorded pages one after another (it.quest, it.pages, and it.page, the one it's on), else its story's recording.
 
 local GAP = 1.5   -- seconds between two items
 
 -- The entry key and FAQ index behind a play target ("zone:elwynn#faq2" -> "zone:elwynn", 2), or nil for targets
--- that aren't a recorded story or answer (read-aloud answers have no key).
+-- that aren't a recorded story or answer (read-aloud answers have no key). A story's target names its entry (story):
+-- a quest's plays its quest giver's words, under another key.
 function UI.QueueRef(t)
-  local key = t and t.key
+  local key = t and (t.story or t.key)
   if not key then return nil end
   local base, fi = key:match("^(.-)#faq(%d+)$")
   if base then return base, tonumber(fi) end
   return key, nil
 end
 
--- Whether a story or answer can go in the playlist: it's recorded, and not a spoiler you haven't chosen to see.
+-- Whether a story or answer can go in the playlist: it's recorded, and not a spoiler you haven't chosen to see. A
+-- quest's story can when its quest giver's words are recorded, too (UI.CanQueueQuest).
 function UI.CanQueue(key, idx)
   if not key then return false end
   local e = UI.engine and UI.engine.db.entries[key]
-  if not e or not ns.Voice.HasAudio(idx and (key .. "#faq" .. idx) or key) then return false end
+  if not e then return false end
+  if not idx and e.t == "quest" and e.m and UI.CanQueueQuest(tonumber(e.m.id)) then return true end
+  if not ns.Voice.HasAudio(idx and (key .. "#faq" .. idx) or key) then return false end
   local f = idx and e.faq and e.faq[idx]
   if idx and not f then return false end
   return not (f and f.sp and not settings().showSpoilers and not UI.Unlocked(key))
@@ -2333,37 +2338,78 @@ function UI.PlaylistIndex(id)
   end
 end
 
+-- What item `it` plays now, as a target, or nil when nothing of it can (the voice changed since it was queued, say): a
+-- story's or answer's recording, or a quest's page it.page (else the next one that plays: it.page moves on to it).
+local function itemTarget(it)
+  if not it.pages then
+    if not ns.Voice.HasAudio(it.id) then return nil end
+    return it.idx and UI.FaqTarget(it.key, it.idx) or UI.EntryTarget(it.key)
+  end
+  for p = it.page or 1, #it.pages do
+    local clip = UI.QuestPageClip(it.quest, it.pages[p])
+    if clip then
+      it.page = p
+      local e = it.key and UI.engine.db.entries[it.key]
+      return { id = it.id, key = clip, label = it.label, text = e and e.s or "", story = it.key }
+    end
+  end
+end
+
+-- Whether item `it` can still play with the voices you have (UI.PlaylistVoiceChanged): a quest one of its pages.
+local function playable(it)
+  if not it.pages then return ns.Voice.HasAudio(it.id) end
+  for _, kind in ipairs(it.pages) do
+    if UI.QuestPageClip(it.quest, kind, true) then return true end
+  end
+  return false
+end
+
+-- Go to item i, from its start (a quest from its first page).
+local function goTo(i)
+  local pl = UI.pl
+  pl.pos = i
+  if pl.items[i] then pl.items[i].page = nil end
+end
+
 -- Play items[pos], posting its story or Q&A in the chat when the panel is open (read along); closed, nothing is posted.
 local function playCurrent()
   local pl = UI.pl
   local it = pl.items[pl.pos]
   if not it then return end
   pl.token = nil
-  -- Recorded narrations only: never the game's text-to-speech (the voice may have changed since it was queued).
-  if not ns.Voice.HasAudio(it.id) then
+  -- Recorded narrations only (the voice may have changed since it was queued: then it has nothing to play).
+  local start = (it.page or 1) == 1
+  local target = itemTarget(it)
+  if not target then
     pl.state = "paused"
     return UI.UpdateListen()
   end
-  -- Read along in the chat, unless you're looking through past chats or your journey.
-  if UI.frame and UI.frame:IsShown() and not (UI.historyFrame and UI.historyFrame:IsShown())
+  -- Read along in the chat, unless you're looking through past chats or your journey: a quest's story once, as it
+  -- starts (a quest without one has nothing to post).
+  if start and it.key and UI.frame and UI.frame:IsShown() and not (UI.historyFrame and UI.historyFrame:IsShown())
       and not (UI.journeyPage and UI.journeyPage:IsShown()) then
     if it.idx then UI.ShowFaq(it.key, it.idx, "playlist")
     else UI.ShowEntry(it.key, "playlist", string.format(L["Tell me the story of %s"], it.label)) end
   end
-  local target = it.idx and UI.FaqTarget(it.key, it.idx) or UI.EntryTarget(it.key)
   -- State first: if the clip ends at once, its end handler must see the playlist as playing.
   pl.state = "playing"
   if not startTarget(target, true) then pl.state = "paused" end
   UI.UpdateListen()
 end
 
--- A clip ended on its own (watchPlayback). Move the playlist on after a short gap, unless something else starts first.
+-- A clip ended on its own (watchPlayback). Move the playlist on after a short gap, unless something else starts first:
+-- to a quest's next page, else the next item.
 function UI.OnClipEnded()
   local pl = UI.pl
   if pl.state ~= "playing" and pl.state ~= "waiting" then return end
   if pl.state == "playing" then
-    if pl.pos >= #pl.items then return UI.PlaylistClear() end   -- that was the last one: the playlist is done
-    pl.pos = pl.pos + 1
+    local it = pl.items[pl.pos]
+    if it and it.pages and (it.page or 1) < #it.pages then
+      it.page = (it.page or 1) + 1
+    else
+      if pl.pos >= #pl.items then return UI.PlaylistClear() end   -- that was the last one: the playlist is done
+      goTo(pl.pos + 1)
+    end
     UI.UpdateListen()
   end
   local token = {}
@@ -2384,14 +2430,57 @@ local function showToast(text)
   C_Timer.After(3, function() if t.token == token then t:Hide() end end)
 end
 
--- Add a story (idx nil) or narrated answer to the end. The first item starts right away, or when what's playing
--- now ends. Returns true if it was added. quiet: no flash or note (the caller adds several and says so once).
-function UI.PlaylistAdd(key, idx, quiet)
+-- A short note about the playlist: over the conversation while the panel is open, else in the chat window (the quest
+-- log's Lore button, the floating player).
+local function note(text)
+  if UI.frame and UI.frame:IsShown() then return showToast(GREY .. text .. "|r") end
+  DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. text)
+end
+
+-- A quest's name when the caller has none: its story's, the one you read, the game's, else "Quest 123".
+local function questName(qid, key)
+  local e = key and UI.engine.db.entries[key]
+  if e then return e.n end
+  local kept = LoreForeverDB and type(LoreForeverDB.quests) == "table" and LoreForeverDB.quests[qid]
+  if type(kept) == "table" and type(kept.title) == "string" and kept.title ~= "" then return kept.title end
+  local QL = _G.C_QuestLog
+  local ok, t = false, nil
+  if QL and QL.GetTitleForQuestID then ok, t = pcall(QL.GetTitleForQuestID, qid) end
+  if ok and type(t) == "string" and t ~= "" then return t end
+  return string.format(L["Quest %d"], qid)
+end
+
+-- The playlist item for quest qid, or nil when nothing of it is recorded: its quest giver's pages (UI.QuestPages) when
+-- a voice has them, else its story when that's narrated. key: its lore entry (by default the quest's); title: its name
+-- as the game shows it.
+local function questItem(qid, title, key)
+  local db = UI.engine.db
+  key = key or db.index.quest[qid]
+  if not (key and db.entries[key]) then key = nil end
+  local it = { id = key or ("quest:" .. qid), key = key, quest = qid, label = title or questName(qid, key) }
+  local pages = UI.QuestPages(qid)
+  if #pages > 0 then
+    it.pages = pages
+    return it
+  end
+  if key and ns.Voice.HasAudio(key) then return it end
+end
+
+-- A new item for a story (idx nil) or narrated answer, or nil when it can't be queued (a quest's story is its quest).
+local function newItem(key, idx)
+  local e = key and UI.engine.db.entries[key]
+  if not e then return nil end
+  local qid = not idx and e.t == "quest" and e.m and tonumber(e.m.id)
+  if qid then return questItem(qid, nil, key) end
+  if not UI.CanQueue(key, idx) then return nil end
+  return { id = idx and (key .. "#faq" .. idx) or key, key = key, idx = idx, label = idx and e.faq[idx].q or e.n }
+end
+
+-- Add item `it` to the end. The first item starts right away, or when what's playing now ends. Returns true if it was
+-- added. quiet: no flash or note (the caller adds several and says so once).
+local function addItem(it, quiet)
   local pl = UI.pl
-  if not UI.CanQueue(key, idx) then return false end
-  local e = UI.engine.db.entries[key]
-  local it = { id = idx and (key .. "#faq" .. idx) or key, key = key, idx = idx, label = idx and e.faq[idx].q or e.n }
-  if UI.PlaylistIndex(it.id) then return false end
+  if not it or UI.PlaylistIndex(it.id) then return false end
   pl.items[#pl.items + 1] = it
   if not quiet then
     UI.FlashPlayer()
@@ -2404,6 +2493,49 @@ function UI.PlaylistAdd(key, idx, quiet)
   end
   UI.UpdateListen()
   return true
+end
+
+-- Add a story (idx nil) or narrated answer to the end (addItem). Returns true if it was added.
+function UI.PlaylistAdd(key, idx, quiet)
+  if not key or UI.PlaylistIndex(idx and (key .. "#faq" .. idx) or key) then return false end
+  return addItem(newItem(key, idx), quiet)
+end
+
+-- Shift-click on a quest wherever the add-on lists one (its Lore button in the quest log and the quest window, Your
+-- quests, the Journey page and its Completed list, the player while its quest giver speaks): its narration joins the
+-- playlist (questItem), or a short note says it's there already, or that nothing of it is recorded: never a silent
+-- item, since the playlist plays recordings only. title: its name as the game shows it. Returns true if it was added.
+function UI.QueueQuest(qid, title)
+  qid = tonumber(qid)
+  if not (qid and UI.engine) then return false end
+  local key = UI.engine.db.index.quest[qid]
+  if not UI.engine.db.entries[key or ""] then key = nil end
+  local label = title or questName(qid, key)
+  if UI.PlaylistIndex(key or ("quest:" .. qid)) then
+    note(string.format(L["%s is already in your playlist."], esc(label)))
+    return false
+  end
+  local it = questItem(qid, title, key)
+  if not (it and addItem(it)) then
+    note(string.format(L["%s isn't narrated yet."], esc(label)))
+    return false
+  end
+  -- With the panel closed the note over the conversation can't show: the chat says it.
+  if not (UI.frame and UI.frame:IsShown()) then
+    DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. L["Added to your playlist:"] .. " " .. WHITE .. esc(it.label)
+      .. "|r")
+  end
+  return true
+end
+
+-- Whether quest qid can go in the playlist, at a quick look (tooltips and the +; adding checks its words against the
+-- game's too, UI.QueueQuest): a voice recorded its quest giver's words, or its story.
+function UI.CanQueueQuest(qid)
+  qid = tonumber(qid)
+  if not (qid and UI.engine) then return false end
+  if #UI.QuestPages(qid, true) > 0 then return true end
+  local key = UI.engine.db.index.quest[qid]
+  return key ~= nil and ns.Voice.HasAudio(key) or false
 end
 
 -- Flight narration: a zone's recorded story joins the playlist instead of cutting into what's playing, so zones
@@ -2423,11 +2555,13 @@ end
 
 -- Shift-click or the play key with an empty playlist (Mike, 2026-09-30): queue everything narrated where you are
 -- and start it. The area's story, then its answers; the zone's story, then its answers; in a dungeon, its bosses in
--- encounter order. Returns how many were queued (0: nothing here is narrated).
+-- encounter order. A story playing already isn't queued again: the rest waits for it to end (Core's
+-- playlistPlayPause). Returns how many were queued (0: nothing else here is narrated).
 function UI.QueueHere()
   local db, n = UI.engine.db, 0
   local _, z, zkey, sub, place = herePlace(ns.Context.Snapshot())
   local function add(key, idx)
+    if UI.speaking and UI.playingId == (idx and (key .. "#faq" .. idx) or key) then return end
     if UI.PlaylistAdd(key, idx, true) then n = n + 1 end
   end
   for _, k in ipairs({ sub or false, zkey or false }) do
@@ -2445,8 +2579,8 @@ function UI.QueueHere()
   return n
 end
 
--- Play or pause the playlist. Pausing stops its clip; Play starts the current item again (replacing anything played
--- by hand). Returns false with nothing queued.
+-- Play or pause the playlist. Pausing stops its clip; Play starts the current item again (a quest the page it was on),
+-- replacing anything played by hand. Returns false with nothing queued.
 function UI.PlaylistToggle()
   if #UI.pl.items == 0 then return false end
   if UI.pl.state == "playing" then UI.StopAll() else playCurrent() end
@@ -2460,7 +2594,7 @@ function UI.PlaylistNext()
   if pl.pos >= #pl.items then
     UI.PlaylistClear()
   else
-    pl.pos = pl.pos + 1
+    goTo(pl.pos + 1)
     playCurrent()
   end
   return true
@@ -2470,7 +2604,7 @@ end
 function UI.PlaylistPrev()
   local pl = UI.pl
   if #pl.items == 0 then return false end
-  pl.pos = math.max(1, pl.pos - 1)
+  goTo(math.max(1, pl.pos - 1))
   playCurrent()
   return true
 end
@@ -2478,7 +2612,7 @@ end
 function UI.PlaylistJump(i)
   local pl = UI.pl
   if not pl.items[i] then return end
-  pl.pos = i
+  goTo(i)
   playCurrent()
 end
 
@@ -2503,19 +2637,20 @@ function UI.PlaylistRemove(i)
   table.remove(pl.items, i)
   if i < pl.pos then
     pl.pos = pl.pos - 1
-  elseif i == pl.pos and wasPlaying then
-    return playCurrent()
+  elseif i == pl.pos then
+    goTo(pl.pos)   -- the next one takes its place, from its start
+    if wasPlaying then return playCurrent() end
   end
   UI.UpdateListen()
 end
 
 -- The voice changed (Options or /lore voice): drop what the new voice has no recording of, so the playlist never
--- falls back to the game's text-to-speech.
+-- holds something it can't play.
 function UI.PlaylistVoiceChanged()
   local pl = UI.pl
   local kept, pos, dropped, curDropped = {}, nil, 0, false
   for i, it in ipairs(pl.items) do
-    if ns.Voice.HasAudio(it.id) then
+    if playable(it) then
       kept[#kept + 1] = it
       if i >= pl.pos and not pos then pos = #kept end
     else
@@ -2529,6 +2664,7 @@ function UI.PlaylistVoiceChanged()
     UI.PlaylistClear()
   else
     pl.items, pl.pos = kept, pos
+    if curDropped then goTo(pos) end
   end
   showToast(GREY .. string.format(L["%d left your playlist: this voice has no recording of them."], dropped) .. "|r")
 end
@@ -2772,7 +2908,8 @@ end
 -- The player -------------------------------------------------------------------------------------------------------
 -- Narration has its own player: docked at the bottom of the sidebar while the panel is open, and floating on screen
 -- while it's closed (when something plays or is queued; Options can turn the floating one off). Both show the same:
---   title           what plays, what the playlist stopped at, or "Nothing playing"; click to open its story
+--   title           what plays, what the playlist stopped at, or "Nothing playing"; click to open its story,
+--                   Shift-click to add what you're hearing to the playlist (UI.PlayerQueue)
 --   Queue           opens the playlist above the docked player (from the floating one: opens the panel on it)
 --   a thin line     how far through the playlist you are
 --   Prev · Play/Pause/Stop · Next, and "2 of 4"
@@ -2820,14 +2957,14 @@ end
 -- Play/Pause/Stop: what the middle button does right now.
 --   something played by hand   Stop it (a waiting playlist stays where it is)
 --   a playlist                 Pause it, or Play it from its current item
---   nothing queued             play everything narrated where you are, else read the area aloud
+--   nothing queued             play everything narrated where you are, else the area's story if it's narrated
 function UI.PlayerPlay()
   local pl = UI.pl
   if UI.speaking and pl.state ~= "playing" then return UI.StopAll() end
   if UI.PlaylistToggle() then return end
   if UI.QueueHere() > 0 then return end
   local zt = UI.ZoneTarget()
-  if zt and (ns.Voice.HasAudio(zt.key) or ns.Voice.Available()) then
+  if zt and ns.Voice.HasAudio(zt.key) then
     if UI.frame and UI.frame:IsShown() then
       UI.PlayEntry(zt.key, string.format(L["Tell me the story of %s"], zt.label))
     else
@@ -2859,6 +2996,26 @@ function UI.PlayerOpenStory()
   if key and UI.engine.db.entries[key] then
     if idx then UI.ShowFaq(key, idx, "player") else UI.ShowEntry(key, "player") end
   end
+end
+
+-- What a player shows that Shift-click on its title adds (UI.PlayerQueue), or nil: the quest whose quest giver
+-- speaks ({ quest = id }), or a story or answer played by hand ({ key, idx }). The playlist's own item is in it.
+local function playerShows()
+  if not (UI.speaking and UI.pl.state ~= "playing") then return nil end
+  local qid = tonumber(tostring(UI.playingId or ""):match("^questtext:(%d+):"))
+  if qid then return { quest = qid } end
+  local key, idx = UI.QueueRef({ key = UI.playingId, story = UI.playingStory })
+  if key and UI.engine.db.entries[key] then return { key = key, idx = idx } end
+end
+
+-- Shift-click on a player's title: what it shows joins the playlist, a quest giver's words as their quest
+-- (UI.QueueQuest), or a note says why not.
+function UI.PlayerQueue()
+  local s = playerShows()
+  if s and s.quest then return UI.QueueQuest(s.quest, UI.playingLabel) end
+  if s then return UI.QueueLink(s.key, s.idx) end
+  local cur = UI.pl.items[UI.pl.pos]
+  if cur then note(string.format(L["%s is already in your playlist."], esc(cur.label))) end
 end
 
 -- The recording a player can report (ClipReport.lua, LOR-232): the one playing, or the last one if nothing plays now.
@@ -3091,6 +3248,7 @@ function UI.CreatePlayer(parent, floating)
   title:RegisterForClicks("LeftButtonUp", "RightButtonUp")
   title:SetScript("OnClick", function(self, button)
     if button == "RightButton" then return playerMenu(p) end
+    if IsShiftKeyDown() then return UI.PlayerQueue() end
     UI.PlayerOpenStory()
   end)
   if floating then
@@ -3101,7 +3259,12 @@ function UI.CreatePlayer(parent, floating)
   title:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_TOP")
     T.Tip(self.full or L["Nothing playing"], "tipText", true)
-    if self.full then T.Tip(L["Click to open its story"], "tipDim") end
+    local s = self.full and playerShows()
+    if s and (s.quest and UI.CanQueueQuest(s.quest) or (s.key and UI.CanQueue(s.key, s.idx))) then
+      T.Tip(L["Click to open. Shift-click adds it to your playlist."], "tipDim", true)
+    elseif self.full then
+      T.Tip(L["Click to open its story"], "tipDim")
+    end
     T.Tip(floating and L["Drag to move. Right-click for options."] or L["Right-click for options."], "tipDim")
     GameTooltip:Show()
   end)
@@ -3453,14 +3616,13 @@ function UI.ToggleHistory()
   UI.SeenPage("history")
 end
 
--- Reopen a past chat. The one you were in is saved first, so nothing is lost.
+-- Reopen a past chat. The one you were in is saved first, so nothing is lost. What plays carries on (UI.Clear).
 function UI.RestoreHistory(i)
   local store = historyStore()
   local c = store[i]
   if not c then return end
   UI.Archive()   -- save (or update) the chat you're leaving
   UI.historyId = c.id
-  if UI.pl.state ~= "playing" then UI.StopAll() end   -- a playing playlist carries on
   UI.msgs, UI.blocks = {}, {}
   for _, m in ipairs(c.msgs) do
     UI.msgs[#UI.msgs + 1] = { role = m.role, text = m.text, target = m.target, rows = m.rows, subject = m.subject,
@@ -3473,14 +3635,15 @@ function UI.RestoreHistory(i)
   UI.Render()
 end
 
--- New chat: save this one to history, then clear the conversation, follow-up state, and anything playing.
+-- New chat: save this one to history, then clear the conversation and follow-up state. What plays carries on, with
+-- its Stop on the player: it used to stop, and on stream (2026-10-04) a quest giver's words went quiet mid-sentence
+-- when Mike started a new chat to look up the next quest.
 function UI.Clear()
   finishTyping()
   UI.Archive()
   UI.historyId = nil
   if UI.historyFrame then UI.historyFrame:Hide() end
   if UI.journeyPage then UI.journeyPage:Hide() end
-  if UI.pl.state ~= "playing" then UI.StopAll() end   -- a playing playlist carries on
   UI.msgs, UI.blocks = {}, {}
   for _, b in ipairs(UI.bubbles) do b.frame:Hide() end
   UI.content:SetHeight(100)
@@ -3789,8 +3952,8 @@ function UI.Ask(question, via)
     local note = isGameplay(question) and (GREY
       .. string.format(L["I only know the story side, not mechanics or drops. Here's the lore of %s:"], esc(top.name)) .. "|r\n")
       or ""
-    local target = top.kind == "faq" and UI.FaqTarget(top.key, top.idx)
-      or { id = "ans" .. time() .. "-" .. UI.turn, text = top.text, label = top.name }   -- the answer, not the heading
+    -- A FAQ answer can have its own recording; any other answer stays as text.
+    local target = top.kind == "faq" and UI.FaqTarget(top.key, top.idx) or nil
     local tag = (target and ns.Voice.HasAudio(target.key)) and narratedTag() or nil
     local text, linked = loreText(heading, top.text, top.angle, tag, top.key)
     UI.AddMessage("lore", note .. text, target, nil, nil, log, top.key, linked)
@@ -3932,28 +4095,82 @@ local function logText(id)
   if not (ok and idx) then return nil end
   local selected = QL.GetSelectedQuest or function() end
   local okSel, prev = pcall(selected)
-  if QL.SetSelectedQuest then pcall(QL.SetSelectedQuest, id) end
-  UI.restoreQuest = okSel and prev or nil
+  local change = not (okSel and prev == id)
+  if change and QL.SetSelectedQuest then pcall(QL.SetSelectedQuest, id) end
+  UI.restoreQuest = change and okSel and prev or nil
   local okNow, now = pcall(selected)
   local ok2, d, o = pcall(GetQuestLogQuestText, idx)
   if UI.restoreQuest and QL.SetSelectedQuest then pcall(QL.SetSelectedQuest, UI.restoreQuest) end
   if ok2 then return d, o, okNow and now == id end
 end
 
--- The quest giver's recorded words for a quest's Lore entry that has no narration of its own: what they say when they
--- offer it (Voice.QuestClip), checked against the quest window when it shows that offer, else against the quest log;
--- a quest in neither plays the recording as it is. nil if no voice recorded it, or the words differ (a quest Forever
--- rewrote is read aloud instead, as in the quest window).
-function UI.QuestDialogueClip(e)
-  local V, qid = ns.Voice, e and e.m and tonumber(e.m.id)
-  if not qid or V.Current() == "none" then return nil end
-  local QF = _G.QuestFrame
-  if QF and QF:IsShown() and V.questKind == "detail" and GetQuestID and GetQuestID() == qid then
-    return V.QuestClip(qid, "detail")
+-- The quest log's selected page as something to play. Check the words it actually shows, without selecting another
+-- quest or using an unchecked recording. A stale button or missing/rewritten page has nothing to play.
+function UI.QuestLogTarget(qid)
+  local QL, V = _G.C_QuestLog, ns.Voice
+  if not (qid and QL and QL.GetSelectedQuest) or V.Current() == "none" then return nil end
+  local ok, selected = pcall(QL.GetSelectedQuest)
+  if not (ok and selected == qid) then return nil end
+  local desc, obj, sure = logText(qid)
+  if not (sure and type(desc) == "string" and desc:find("%S")) then return nil end
+  local clip = V.QuestClip(qid, "detail", desc)
+  if not clip then return nil end
+  local key = UI.engine.db.index.quest[qid]
+  local e = key and UI.engine.db.entries[key]
+  local title
+  if QL.GetTitleForQuestID then
+    local got, name = pcall(QL.GetTitleForQuestID, qid)
+    if got and type(name) == "string" and name ~= "" then title = name end
   end
-  local desc, _, sure = logText(qid)
-  if sure and type(desc) == "string" and desc:find("%S") then return V.QuestClip(qid, "detail", desc) end
-  return V.QuestClip(qid, "detail", nil, true)
+  title = title or (e and e.n) or string.format(L["Quest %d"], qid)
+  return { id = "questlog:" .. qid .. ":detail", key = clip, label = title,
+    text = title .. ". " .. desc .. " " .. (type(obj) == "string" and obj or ""), story = key }
+end
+
+-- A quest giver's recorded page of quest qid ("detail": what they say when they offer it, "complete": when you hand it
+-- in; Voice.QuestClip), checked against the quest window when it shows that page, else (the offer) against the quest
+-- log; a quest in neither plays the recording as it is. nil if no voice recorded it, or the words differ (a quest
+-- Forever rewrote is read aloud instead, as in the quest window). peek: whether one would play, at a quick look that
+-- checks no words (tooltips and the +, UI.CanQueueQuest).
+function UI.QuestPageClip(qid, kind, peek)
+  local V = ns.Voice
+  if not qid or V.Current() == "none" then return nil end
+  if peek then return V.QuestClip(qid, kind, nil, true, true) end
+  local QF = _G.QuestFrame
+  if QF and QF:IsShown() and V.questKind == kind and GetQuestID and GetQuestID() == qid then
+    return V.QuestClip(qid, kind)
+  end
+  if kind == "detail" then
+    local desc, _, sure = logText(qid)
+    if sure and type(desc) == "string" and desc:find("%S") then return V.QuestClip(qid, kind, desc) end
+  end
+  return V.QuestClip(qid, kind, nil, true)
+end
+
+-- Whether you've handed quest qid in (the server's list, or this character's), or have its reward page open now.
+local function handedIn(qid)
+  local QL = _G.C_QuestLog
+  if QL and QL.IsQuestFlaggedCompleted then
+    local ok, done = pcall(QL.IsQuestFlaggedCompleted, qid)
+    if ok and done == true then return true end
+  end
+  local c = ns.Journey.Char()
+  for _, id in ipairs(c and type(c.completed) == "table" and c.completed or {}) do
+    if id == qid then return true end
+  end
+  local QF = _G.QuestFrame
+  return (QF and QF:IsShown() and ns.Voice.questKind == "complete" and GetQuestID and GetQuestID() == qid) or false
+end
+
+-- The quest giver's pages of quest qid the playlist plays, in order (UI.QueueQuest): the offer, then what they said
+-- when you handed it in, once you have (before, it would give the end away; their "have you done it yet?" never).
+-- Only the pages a voice recorded (UI.QuestPageClip; peek as there).
+function UI.QuestPages(qid, peek)
+  local out = {}
+  for _, kind in ipairs({ "detail", "complete" }) do
+    if (kind == "detail" or handedIn(qid)) and UI.QuestPageClip(qid, kind, peek) then out[#out + 1] = kind end
+  end
+  return out
 end
 
 -- The quest log's own text for a quest (and remember it for the harvest, so it can become lore later).
@@ -4174,15 +4391,15 @@ function UI.OnLoreLink(frame, link, button)
   UI.FollowLink(key, frame and frame.msg)
 end
 
--- Shift-click: the entry's narration joins the playlist, or a note says why it can't.
-function UI.QueueLink(key)
-  local e = UI.engine.db.entries[key]
-  if UI.PlaylistIndex(key) then
-    return showToast(GREY .. string.format(L["%s is already in your playlist."], esc(e.n)) .. "|r")
+-- Shift-click: the entry's narration (or answer idx's) joins the playlist, or a note says why it can't.
+function UI.QueueLink(key, idx)
+  local e = key and UI.engine.db.entries[key]
+  if not e then return end
+  local label = idx and e.faq and e.faq[idx] and e.faq[idx].q or e.n
+  if UI.PlaylistIndex(idx and (key .. "#faq" .. idx) or key) then
+    return note(string.format(L["%s is already in your playlist."], esc(label)))
   end
-  if not UI.PlaylistAdd(key) then
-    showToast(GREY .. string.format(L["%s isn't narrated yet."], esc(e.n)) .. "|r")
-  end
+  if not UI.PlaylistAdd(key, idx) then note(string.format(L["%s isn't narrated yet."], esc(label))) end
 end
 
 -- Back and Forward: the entries you opened through links in this chat, like a browser's history. They open that

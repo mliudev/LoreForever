@@ -20,6 +20,9 @@ import { slug } from "./accounts.js";
 import { SPECS } from "./journey.js";
 import { numbersSection } from "./profile-stats.js";
 import { linker, moments, journeySection } from "./trails.js";
+import { roadChart } from "./roadchart.js";
+import { picturesSection, pictureUrl } from "./pictures.js";
+import { cardKey, cardUrl } from "./sharecard.js";
 
 export const STORIES_PER_DAY = 3;
 export const STORY_MODEL = "gemini-3.1-flash-lite";
@@ -32,9 +35,10 @@ const RESERVED = new Set(["me", "new", "edit", "settings", "admin", "account", "
 
 const fromRow = row => {
   if (!row) return null;
-  let data = null;
+  let data = null, journey = null;
   try { data = JSON.parse(row.data); } catch (e) {}
-  return data ? { ...row, data } : null;
+  try { journey = row.journey ? JSON.parse(row.journey) : null; } catch (e) {}
+  return data ? { ...row, data, journey } : null;
 };
 
 export async function profileOf(env, userId) {
@@ -262,7 +266,7 @@ export const STORY_BUDGET_USD = 100;   // a month, all accounts together; the ST
 
 const month = (now = new Date()) => now.toISOString().slice(0, 7);
 const storyModel = env => env.STORY_MODEL || STORY_MODEL;
-const budgetMicro = env => {
+export const budgetMicro = env => {
   const usd = Number(env.STORY_BUDGET_USD ?? STORY_BUDGET_USD);
   return Math.round((Number.isFinite(usd) && usd >= 0 ? usd : STORY_BUDGET_USD) * 1e6);
 };
@@ -281,10 +285,12 @@ export async function storySpend(env, now = new Date()) {
   return row || { month: month(now), micro_usd: 0, calls: 0, stories: 0 };
 }
 
-// Whether a story may be written now: a priced model, and this month's spend under the budget.
+// Whether a story may be written now: a priced model, and this month's spend under the budget. The spend includes
+// the stories' recordings (lib/storyvoice.js, voice_micro_usd: a column that exists once that feature has run).
 export async function storyBudgetLeft(env, now = new Date()) {
   if (!STORY_PRICES[storyModel(env)]) return false;
-  return (await storySpend(env, now)).micro_usd < budgetMicro(env);
+  const s = await storySpend(env, now);
+  return s.micro_usd + (s.voice_micro_usd || 0) < budgetMicro(env);
 }
 
 async function addSpend(env, micro, kept) {
@@ -354,6 +360,9 @@ export const STORY_SYNC_QUESTS = 5;   // this many more quests done is something
 const MIGRATE = [
   "ALTER TABLE profiles ADD COLUMN story_at TEXT",      // when a story was last tried (written or not)
   "ALTER TABLE profiles ADD COLUMN story_basis TEXT",   // storyBasis of the record the written story was told from
+  "ALTER TABLE profiles ADD COLUMN journey TEXT",       // the companion's journey data (lib/journey.js readJourney)
+  "ALTER TABLE profiles ADD COLUMN card_sha TEXT",      // the share card's address (lib/sharecard.js, LOR-150)
+  "ALTER TABLE profiles ADD COLUMN card_key TEXT",      // which version of the profile it was drawn from (cardKey)
 ];
 let migrated = false;
 export async function setupProfiles(env) {
@@ -398,8 +407,9 @@ export const sameCharacter = (a, b) => a?.name === b?.name && a?.realm === b?.re
 // ---- The page ----
 
 const host =u => new URL(u).hostname.replace(/^www\./, "");
+// data-para: the paragraph's place, for the Listen box's read-along (lib/storyvoice.js storyParts counts the same way).
 const paragraphs = text => String(text || "").split(/\n\s*\n/).map(p => p.trim()).filter(Boolean)
-  .map(p => `<p>${escape(p)}</p>`).join("\n      ");
+  .map((p, i) => `<p data-para="${i}">${escape(p)}</p>`).join("\n      ");
 const firstSentence = text => {
   const s = String(text || "").replace(/\s+/g, " ").trim();
   const m = /^.{20,200}?[.!?](?=\s|$)/.exec(s);
@@ -456,17 +466,50 @@ function cards(d, lore) {
   return out.filter(Boolean).join("\n      ");
 }
 
-// The bar only the owner sees: whether others can, and the buttons to change it (public/js/profile.js).
-function ownerBar(p) {
+// The profile's own address with `params` ("as=visitor", "pictures=1"; empty ones left out).
+const selfPath = (handle, ...params) => {
+  const q = params.filter(Boolean).join("&");
+  return escape(`/u/${handle}${q ? "?" + q : ""}`);
+};
+
+// Share (LOR-150): the share sheet, or the link copied (public/js/profile.js and share.js).
+const shareButton = name => `<button class="btn-small" type="button" data-share data-share-text="${escape(`${name}'s journey in WoW Forever`)}">Share</button>`;
+
+// The bar only the owner sees: whether others can, then Share, View as a visitor (LOR-302) and the switch together,
+// the links that open on a view, and Update it (public/js/profile.js). Share on a private page says to make it public
+// first. views: which of the journey's views the page has (Map, Timeline), to copy a link that opens on one of them.
+// query: what to keep in the visitor view's address ("pictures=1").
+function ownerBar(p, views = {}, query = "") {
   const msg = p.public
     ? "This is your profile. Anyone with the link can see it."
     : "Only you can see this page. Make it public to share it.";
-  return `<div class="pf-owner" id="pf-owner" data-public="${p.public ? 1 : 0}">
+  const copy = p.public ? [
+    views.map && '<button class="btn-small btn-small-alt" type="button" data-copy="map">Copy map link</button>',
+    views.timeline && '<button class="btn-small btn-small-alt" type="button" data-copy="timeline">Copy timeline link</button>']
+    .filter(Boolean).map(b => "\n      " + b).join("") : "";
+  return `<div class="pf-owner" id="pf-owner" data-bar data-public="${p.public ? 1 : 0}">
     <p>${msg}</p>
     <p class="vp-actions">
-      ${p.public ? '<button class="btn-small" type="button" data-copy>Copy link</button>' : ""}
-      <button class="btn-small" type="button" data-set-public="${p.public ? 0 : 1}">${p.public ? "Make it private" : "Make it public"}</button>
-      <a class="btn-small" href="/account#profile">Update it</a>
+      ${shareButton(p.data.name)}
+      <a class="btn-small" href="${selfPath(p.handle, query, "as=visitor")}" data-keep-view>View as a visitor</a>
+      <button class="btn-small" type="button" data-set-public="${p.public ? 0 : 1}">${p.public ? "Make it private" : "Make it public"}</button>${copy}
+      <a class="btn-small btn-small-alt" href="/account#profile">Update it</a>
+    </p>
+    <p class="fb-status" role="status" hidden></p>
+  </div>`;
+}
+
+// View as a visitor (LOR-302): the owner gets the page exactly as everyone else does (profilePage without owner, or
+// missingPage while it's private), and this bar on top is the only thing added. It stays in view while they scroll.
+export function visitorBar(p, query = "") {
+  const msg = p.public
+    ? "You're viewing your profile as a visitor. This is what anyone with the link sees."
+    : "Your profile is private, so visitors see what's below: No profile here.";
+  return `<div class="pf-owner pf-visitor" id="pf-visitor" data-bar data-public="${p.public ? 1 : 0}">
+    <p>${msg}</p>
+    <p class="vp-actions">
+      <a class="btn-small" href="${selfPath(p.handle, query)}" data-keep-view>Back to my view</a>${p.public ? "" : `
+      <button class="btn-small btn-small-alt" type="button" data-set-public="1">Make it public</button>`}
     </p>
     <p class="fb-status" role="status" hidden></p>
   </div>`;
@@ -493,6 +536,24 @@ function makeYourOwn() {
   </section>`;
 }
 
+// For the owner of a profile saved before the record kept its moments in order (LOR-248, 10/4), where the Map and
+// Timeline would be. Only the record's facts are stored, not its times, so nothing on our side can rebuild them: a new
+// paste does (and so does the companion's first update). Shown where the two views would be, with the steps, because
+// a quiet note there went unnoticed (Mike, 10/5).
+function updateNote() {
+  return `<section class="pf-behind" aria-labelledby="behind-title">
+    <h2 id="behind-title">Add your map and timeline</h2>
+    <p>Your profile was made before it could show your road on a map and your journey moment by moment. Paste your
+      journey record again and both appear here. Only you see this note.</p>
+    <ol class="pf-steps">
+      <li>In game, open Journey (<code>/lore journey</code>), click <strong>Copy my journey record</strong> and press
+        <strong>Ctrl+C</strong>.</li>
+      <li>On your account page, paste it and click <strong>Update my profile</strong>.</li>
+    </ol>
+    <p class="vp-actions"><a class="btn-small" href="/account#profile">Update my profile</a></p>
+  </section>`;
+}
+
 // Small badges under the head for the account's accepted contributions (lib/credits.js contributionBadges, LOR-239):
 // Narrator, Translator, Contributed N lines. Nothing when there are none.
 function badgeLine(badges) {
@@ -501,78 +562,134 @@ function badgeLine(badges) {
 }
 
 // /u/<handle>. links: the owner's account links (https only). owner: the viewer owns it (shows ownerBar, and no
-// "This could be your page"). badges: their contribution badges. names: lib/trails.js lookups (loadLinks), for the
-// journey's trails; lore: whether the lore pages are on (the "lore" feature), so names link to them (LOR-248).
-export function profilePage(p, { links = [], owner = false, badges = [], names = linker(null), lore = false } = {}) {
+// "This could be your page" or Share in the head). badges: their contribution badges. names: lib/trails.js lookups
+// (loadLinks), for the journey's trails; lore: whether the lore pages are on (the "lore" feature), so names link to
+// them (LOR-248). pictures: the picture book's pictures (lib/pictures.js listPictures) while it's shown (the
+// "pictures" feature, or ?pictures=1), else null. asVisitor: the owner is viewing it as a visitor (LOR-302; pass
+// owner false): the visitor's page with visitorBar on top. query: what the owner's links keep ("pictures=1").
+// viewer: whoever is signed in, for the header (lib/voices.js siteNav); still the owner when viewing as a visitor.
+// herald: Harold, the Lore Forever herald (LOR-266), signs the story (the "companion" feature).
+// listen: the Listen box over the story (lib/storyvoice.js listenBox, LOR-316), or "".
+export function profilePage(p, { links = [], owner = false, badges = [], names = linker(null), lore = false,
+                                 pictures = null, asVisitor = false, query = "", viewer = null, herald = false,
+                                 listen = "" } = {}) {
   const d = p.data;
   const { zones } = road(d);
   const L = lore ? names : null;
-  const journey = journeySection(moments(d, names), { lore: L });
-  // A profile saved before the record kept its moments' order: the next paste or companion update brings them.
-  const behind = owner && !journey && !Array.isArray(d.timeline)
-    ? `<p class="vp-note pf-behind">Update your profile (paste your record again, or let the companion app do it) to see
-    your journey here moment by moment.</p>` : "";
+  // The moments: the companion's journey when it has sent one (LOR-248), else the record's.
+  const list = moments(d, names, p.journey);
+  const journey = journeySection(list, { lore: L });
+  const chart = roadChart(list, { name: d.name });
+  // A profile saved before the record kept its moments' order (before 10/4): its owner is told how to get them.
+  const behind = owner && !journey && !Array.isArray(d.timeline) ? updateNote() : "";
   const title = `${d.name}${sheetLine(d) ? ", " + sheetLine(d).replace(/^Level/, "level") : ""}`;
   const facts = [sheetLine(d), d.faction, d.realm].filter(Boolean).map(escape).join(" &middot; ");
   const linkLine = links.length
     ? `<p class="vpr-links">${links.map(u => `<a href="${escape(u)}" rel="nofollow ugc noopener">${escape(host(u))}</a>`).join(" &middot; ")}</p>`
     : "";
   const updated = shortDate(p.updated);
-  const body = `  ${owner ? ownerBar(p) : ""}
+  // The trek first (Mike, 10/4: whoever a player shares their page with follows the journey): two views right under
+  // the head, Map (the road chart) and Timeline (the moments), each with its own link (/u/<handle>#map, #timeline).
+  // public/js/journey.js shows one at a time; without it both are there, one after the other.
+  const views = journey ? `<nav class="pf-views" aria-label="Follow the journey" hidden>
+    ${chart ? '<a href="#map" data-view="map">Map</a>' : ""}<a href="#timeline" data-view="timeline">Timeline</a>
+  </nav>
+  ${chart ? `<section class="vp-section pf-view pf-map" id="map" aria-labelledby="map-title">
+    <h2 id="map-title">The road on a chart</h2>
+    ${chart}
+  </section>` : ""}
+  ${journey}` : "";
+  // The picture book, right after the trek (Mike, 10/5): the pictures the companion put on the profile.
+  const book = pictures ? picturesSection(pictures, { owner, tz: p.journey?.tz ?? 0 }) : "";
+  // Visitors share from the head (LOR-150); the owner from their bar.
+  const share = owner ? "" : `
+    <div class="pf-head-share" data-bar>
+      ${shareButton(d.name)}
+      <p class="fb-status" role="status" hidden></p>
+    </div>`;
+  const bar = owner ? ownerBar(p, { map: Boolean(chart), timeline: Boolean(journey) }, query)
+    : asVisitor ? visitorBar(p, query) : "";
+  const body = `  ${bar}
   <div class="vpr-head pf-head">
     <span class="vpr-avatar vpr-initial pf-${escape(d.factionKey || "none")}" aria-hidden="true">${escape(Array.from(d.name)[0] || "?")}</span>
-    <div>
+    <div class="pf-head-main">
       <h1>${escape(d.name)}</h1>
       <p class="zone-where">${facts}</p>
       ${p.spec ? `<p class="pf-spec">Favorite spec: <strong>${escape(p.spec)}</strong></p>` : ""}
       ${badgeLine(badges)}
       ${linkLine}
-    </div>
+    </div>${share}
   </div>
+  ${views}${behind}${book}
   <ul class="pf-stats">${tiles(d)}</ul>
   ${numbersSection(d)}
   <section class="vp-section pf-story" aria-labelledby="story-title">
-    <h2 id="story-title">${escape(d.name)}'s story</h2>
-    <div lang="${d.locale === "en" || p.story_source !== "written" ? "en" : escape(d.locale)}">
+    <h2 id="story-title">${escape(d.name)}'s story</h2>${listen ? `\n    ${listen}` : ""}
+    <div class="pf-story-text" lang="${d.locale === "en" || p.story_source !== "written" ? "en" : escape(d.locale)}">
       ${paragraphs(p.story)}
-    </div>
+    </div>${herald ? `
+    <p class="pf-signed"><img src="/img/harold-head.svg" alt="" width="48" height="48"><span>Written by Harold, the Lore Forever herald</span></p>` : ""}
   </section>
   ${zones.length ? `<section class="vp-section" aria-labelledby="road-title">
     <h2 id="road-title">The road so far</h2>
     <ol class="pf-road">${zones.map(z => `<li>${loreLink(z, L?.zone(z))}</li>`).join("")}</ol>
   </section>` : ""}
-  ${journey}${behind}
   <div class="zone-grid pf-grid">
       ${cards(d, L)}
   </div>
   ${owner ? "" : makeYourOwn()}
   <p class="vp-note">${d.since ? `Journey recorded since ${escape(d.since)}. ` : ""}${updated ? `Updated ${escape(updated)}.` : ""}</p>`;
+  // The share card (lib/sharecard.js): the owner's page draws it again when the public profile has changed since.
+  const redraw = owner && p.public && p.card_key !== cardKey(p, herald);
   return page({
     title,
     description: firstSentence(p.story) || `${d.name}'s journey in WoW Forever, on Lore Forever.`,
     path: "/u/" + p.handle,
     crumbs: "",
-    body,
+    body: body + (redraw ? `\n  <script type="application/json" id="pf-sharecard">${cardJson(p, herald)}</script>` : ""),
+    // A link to the profile shows its share card, or before it has one, its newest picture (or the site's card).
+    image: cardUrl(p) || (pictures?.length ? "https://loreforeverwow.com" + pictureUrl(pictures[0]) : undefined),
     robots: "noindex",
     foot: `<p>Played WoW Forever with Lore Forever? <a href="/account#profile">Make your own profile</a>.</p>`,
-    scripts: [owner && '<script src="/js/profile.js" defer></script>', journey && '<script src="/js/journey.js" defer></script>']
-      .filter(Boolean).join("\n"),
+    scripts: ['<script src="/js/share.js" defer></script>', '<script src="/js/profile.js" defer></script>',
+      journey && '<script src="/js/journey.js" defer></script>',
+      chart && '<script src="/js/roadchart.js" defer></script>',
+      pictures?.length && '<script src="/js/pictures.js" defer></script>',
+      redraw && '<script src="/js/card.js" defer></script>',
+      listen && '<script src="/js/storyvoice.js" defer></script>'].filter(Boolean).join("\n"),
+    viewer,
   });
 }
 
-// /u/<handle> when there's no such profile, or it's private.
-export function missingPage(handle) {
+// What public/js/card.js draws the share card from (lib/sharecard.js), as JSON safe inside a <script> element.
+export function cardFacts(p, herald = false) {
+  const d = p.data;
+  const deaths = d.stats ? d.stats.deaths : d.deaths.length;
+  return {
+    key: cardKey(p, herald), name: d.name, sheet: sheetLine(d), faction: d.faction || "", realm: d.realm || "",
+    factionKey: d.factionKey || "none", line: firstSentence(p.story), address: `loreforeverwow.com/u/${p.handle}`,
+    tiles: [["Quests done", d.totals?.quests], ["Places", d.totals?.places], ["Bosses", d.totals?.bosses], ["Deaths", deaths]]
+      .map(([label, n]) => [label, Number(n) || 0]),
+    herald: Boolean(herald),
+  };
+}
+const cardJson = (p, herald) => JSON.stringify(cardFacts(p, herald)).replace(/</g, "\\u003c");
+
+// /u/<handle> when there's no such profile, or it's private. bar: visitorBar on top, when its owner views their private
+// profile as a visitor (LOR-302). viewer: as for profilePage.
+export function missingPage(handle, { bar = "", viewer = null } = {}) {
   return page({
     title: "No profile here",
     description: "This Lore Forever profile doesn't exist, or its owner keeps it private.",
     path: "/u/" + slug(handle),
     crumbs: "",
-    body: `  <h1>No profile here</h1>
+    body: `  ${bar ? bar + "\n  " : ""}<h1>No profile here</h1>
   <p class="pitch">This profile doesn't exist, or its owner keeps it private.</p>
   <p class="vp-actions"><a class="btn-small" href="/account#profile">Make your own profile</a> <a class="btn-small" href="/">What's Lore Forever?</a></p>`,
     robots: "noindex",
     foot: "",
-    scripts: "",
+    scripts: bar ? '<script src="/js/profile.js" defer></script>' : "",
+    viewer,
   });
 }
 

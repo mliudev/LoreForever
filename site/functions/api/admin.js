@@ -5,7 +5,8 @@
 // itself holds no data, and lore-forever.pages.dev serves the same functions as the custom domain.
 //   GET  /api/admin  -> {"subscribers": [...], "feedback": [...], "downloads": [...], "clicks": N, "voices": [...],
 //                        "translations": [...], "translationReports": [...], "users": [...],
-//                        "stories": {month, usd, calls, written, budget, on}}   profile stories this month (LOR-181)
+//                        "stories": {month, usd, calls, written, budget, on, voiceUsd, voiceOn}}   profile stories
+//                                   this month (LOR-181) and what reading them aloud cost (LOR-316)
 //   POST /api/admin  {"action": "status", "id": 3, "status": "done" | "new"}   mark a report handled or not
 //                    {"action": "delete-feedback", "id": 3}                     remove a report (spam, tests)
 //                    {"action": "voice-status", "id": 3, "status": "done" | "new"}   mark a voice submission handled
@@ -86,9 +87,11 @@ export async function onRequestGet({ request, env }) {
                     days: signupDays };
   // Profile stories (lib/profiles.js): what this month's cost so far against the monthly budget.
   const spend = (await safe(storySpend(env))) || { micro_usd: 0, calls: 0, stories: 0 };
+  // voiceUsd: recording them (lib/storyvoice.js, LOR-316), in the same budget.
   const stories = { month: new Date().toISOString().slice(0, 7), usd: spend.micro_usd / 1e6, calls: spend.calls,
                     written: spend.stories, budget: Number(env.STORY_BUDGET_USD ?? STORY_BUDGET_USD),
-                    on: Boolean(env.GEMINI_API_KEY) };
+                    on: Boolean(env.GEMINI_API_KEY), voiceUsd: (spend.voice_micro_usd || 0) / 1e6,
+                    voiceOn: Boolean(env.FAL_KEY) };
   // Add-on report codes (LOR-120) spelled out, for the report card.
   for (const f of feedback) {
     let r = null;

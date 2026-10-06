@@ -25,7 +25,7 @@ const HASHED = [
   ["clip_reports", "sender", "created"],
 ];
 // Shared-text uploads (lib/contribute.js) keep theirs HASH_DAYS days to tell senders apart, then drop them
-// (expireHashes).
+// (expireHashes). Picture reports (lib/pictures.js) don't use these: theirs are per picture and never change.
 
 // Run by the request that makes a new day's salt: drops old salts and replaces earlier days' hashes. Tables are made on
 // first use, so one that doesn't exist yet is skipped.

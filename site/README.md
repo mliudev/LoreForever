@@ -184,14 +184,32 @@ can post the same report (the narration browser's report button does). API, fiel
 
 ## Site header and What's new (LOR-222)
 
-Every page has the same header: the brand, **Download** (`/downloads`), **What's new** (`/whats-new`) and
-**Community** (`/feedback` without JavaScript), and on the right **Make your profile** (`/account#profile`; **Your
-profile**, `/u/me`, once signed in) next to **Sign in** or the account chip. The markup is `SITE_NAV` in `lib/voices.js`; each static page in
-`public/` carries a copy and `site/tests/nav.test.mjs` fails if one differs, so change them together. Deeper pages add
-a breadcrumb row under it (`.subcrumb`). `public/header.js` marks the link for the section you're on, turns Community
-into its menu (Discord, Send feedback, Request a feature, Report a bug, then Record your voice, Translate and Contributors), switches
-the profile link and adds the chip from `GET /api/auth/me`. Phones get two rows: the brand, the profile link and the account,
-then the other three links.
+Every page has the same header: the brand, **Download** (`/downloads`), **Lore** (`/lore`, while the `lore` feature is
+on), **What's new** (`/whats-new`) and **Community** (`/feedback` without JavaScript), and on the right **Make your
+profile** (`/account#profile`; **Your profile**, `/u/me`, once signed in) next to **Sign in** or the account chip. The
+markup is `SITE_NAV` in `lib/voices.js`; each static page in `public/` carries a copy and `site/tests/nav.test.mjs`
+fails if one differs, so change them together. Deeper pages add a breadcrumb row under it (`.subcrumb`).
+`public/header.js` marks the link for the section you're on, turns Community into its menu (Discord, Send feedback,
+Request a feature, Report a bug, then Record your voice, Translate and Contributors), switches the profile link and adds
+the chip from `GET /api/auth/me`. It fits every width from 320 px: up to 840 px it's two rows (the brand, the profile
+link and the account, then the four links), the short labels (Profile) go up to 960 px, and a long account name
+shortens in the chip rather than push the header wider.
+
+**Site features in the header:** the same answer says which features are on (`lib/features.js`). The Lore link is in
+the markup while `lore` is on (`nav.test.mjs` keeps the two in step) and hidden while the answer says it's off;
+**Share Forever text** joins the Community menu while `contribute` is on. `header.js` keeps the last answer's flags in
+localStorage (`lf-features`) and shows them at once on the next page (the nav's inline script hides a Lore link that
+was off before anything is drawn), so a returning visitor's header is complete from the start.
+
+**Signed in or not, without a flash:** the answer from `GET /api/auth/me` takes a moment, so `header.js` keeps the
+last one in localStorage (`lf-auth`: signed in with the chip's name and when that sign-in ends, or signed out and
+whether sign-in is on; never the email) and shows it at once on the next page, correcting it if the answer differs.
+With nothing kept (a first visit, private mode, a sign-in that has ended) the profile link's spot stays blank but keeps
+its place until the answer: the nav's inline script sets `hd-wait` on `<html>` and `style.css` hides `.head-actions`
+until `header.js` takes it off (shown anyway after 3 s; without JavaScript there's no `hd-wait`). `/u/<handle>` knows
+who's signed in and puts it in the page (`siteNav` in `lib/voices.js`, so the page is `private, no-store` for them);
+`/account` and `/link` tell the header when you sign in or out there (an `lf-auth` event).
+`site/tests/header.test.mjs` runs `header.js` on a small DOM double.
 
 **What's new** is `public/whats-new.html`: every version's notes, newest first, its headline changes as cards (the
 first three with a bold lead-in). The home page's **"New in X.Y" strip** (`#newbar`, under the header) links to it,
@@ -278,6 +296,20 @@ to `/account#profile` when there's none yet).
   class, faction, realm, favorite spec), stat tiles, the story, the road so far (lands in the order first reached),
   then cards for bosses, dungeons, notable kills, most fought, best finds, mounts, professions, reputation and books,
   and a "Make your own" box (Download for Windows, Make your profile). OG and Twitter tags for link previews.
+- **Share and View as a visitor (LOR-150, LOR-302):** every profile has a **Share** button at the top
+  (`public/js/share.js`): the device's share sheet where there is one, else the link copied with "Link copied" and
+  links to post it on X, Bluesky or Reddit. Visitors find it at the right of the head; the owner in their bar, next to
+  **View as a visitor** and Make it public / private. On a private profile Share says to make it public first.
+  **View as a visitor** (`?as=visitor`, owner only; anyone else is a visitor already) renders exactly the visitor's
+  page, with one sticky bar on top saying so and **Back to my view**; for a private profile that's "No profile here"
+  plus Make it public. `/account`'s link to the profile has the same Share button.
+- **The share card (LOR-150, `lib/sharecard.js`):** the picture a link to a public profile shows (`og:image`), 1200x630:
+  the name, race and class, four tiles (quests done, places, bosses, deaths), the story's first sentence and the
+  address, with Harold (LOR-266) while the `companion` feature is on. The site draws no images itself: the owner's own
+  page draws it in a canvas (`public/js/card.js`) whenever the profile changed since its card, and sends it to
+  `POST /api/profile/card`. It's kept in R2 with the picture book (`pictures/<user id>/share-card.jpg`, so deleting
+  the profile or the account takes it along) and served at `/share/<handle>-<sha>.jpg`. Before a profile has one,
+  links show its newest picture, or the site's own card.
 - **The journey in numbers (LOR-246):** since LOR-246 the add-on keeps a small tally per character (`Journey.lua`, "The
   tally": yards walked per zone from a running count, a look every 2.5 seconds from the update on, kills by creature
   type and rank, deaths, time online, the last `/played`) and prints it first in the record as "Journey stats", always
@@ -290,6 +322,15 @@ to `/account#profile` when there's none yet).
   and foes by kind. Distances beside the steps are in miles; **Distances in miles / kilometres** (`public/js/units.js`,
   shown only with the script) switches them all and is remembered in the browser. It's the character's journey, not
   combat detail: no ranks or comparisons with other players. With stats, the Deaths tile counts every death.
+  - *LOR-262* adds, after the six fixed lines (read by their words only): yards ridden, swum and flown, flights,
+    places flown to, boat trips, fish, days played, the longest run of days in a row, words of the lore of the journey
+    and narrations heard; and the lists "Slain by" (only creatures the character also killed, so the site trusts them
+    as foes for "slain by"), "Most loyal patrons" (quests handed in per NPC), "Inns you've called home", "Flights, by
+    destination" and "Minutes spent, by land". Deaths can say "drowned" (`cause`). The page adds Days played and Fish
+    caught tiles, a line for "on this day" (a week, a month or a year ago, from `timeline`), a nemesis (a creature that
+    slew them twice or more), the sea, famous figures met (`FAMOUS`, era leaders found in People met), the patron, the
+    home zone, inns, fish, days in a row and how long the story's lore takes to read aloud (150 words a minute), and
+    cards for how they traveled, where the time went and their patrons.
 - **The journey, moment by moment (LOR-248,** `lib/trails.js`, `public/js/journey.js`**):** the site's take on the
   add-on's Journey tab (LOR-242). `lib/journey.js` keeps the record's moments in time order (`timeline`:
   `[section, index, day]`, the day only, never the hour; the record's times have no year, so it's the latest one
@@ -309,8 +350,45 @@ to `/account#profile` when there's none yet).
     `profile_links`: the pages by name, each quest's giver and storyline, a storyline's same-titled chapters in
     chapter order so the nth one done never links a later chapter). The lore pages are in English, so a record in
     another language links only the names that read the same.
-  - *No map:* the in-game map draws positions the record doesn't carry, and the site has no map art. The road so far
-    stays a list of lands.
+  - *Links out (LOR-263):* each moment ends in a small **Wowhead** link to what it names on Wowhead's WoW Forever
+    database (`https://www.wowhead.com/forever/quest=176`; `npc=`, `zone=`, `item=`, `faction=`) when `links.json`
+    has its game ID (`refs`, from the language packs' client names: never Wowhead's data), else **Wiki**, the
+    Warcraft Wiki's search for the name (it opens the article when one has that title). Quests, the people and
+    bosses we know, zones and dungeons mostly have IDs; loot, books, mounts and subzones mostly go to the wiki (Wowhead
+    has no subzone pages). They're other sites, so they don't wait for the `lore` feature.
+  - *The character's Blizzard page:* none to link yet. Forever has no realms (one world per region and game mode,
+    two-part names), and Blizzard's armory doesn't list Forever characters (checked 2026-10-04; third-party armories
+    wait for API access). When it does, link it from the head, as the player's choice. Until then a player can add
+    any page under "Your name and links" on `/account`.
+  - *From the companion's journey data* (`profiles.journey`, below): when the profile has it, the moments come from
+    it instead of the record: the player's own day for each (its `tz`), quests by ID (their lore page, giver and
+    storyline by ID; Wowhead by ID even without a page), and quests taken as moments of their own ("Took on"), with
+    **Taken at** / **Turned in at** trails between the two by quest ID, and a reward to its quest by ID. The page shows
+    the newest 600 moments (`SHOWN`); a trail to an older one is just its name. A paste keeps the record's moments.
+  - **Two views, right under the head** (Mike, 10/4: whoever a player shares the page with follows the trek):
+    **Map** (the road chart, `#map`) and **Timeline** (the moments, `#timeline`; the old `#journey` opens it too),
+    before the stats and the story. `public/js/journey.js` shows one at a time (Map first when there is one); a link
+    to either view, or to a moment (`#m-<n>`), opens on it; Share passes on the page's link, and the owner bar also
+    copies its map link or its timeline link. Without JavaScript both are there, one after the other.
+  - **The road chart** (`lib/roadchart.js`, `public/js/roadchart.js`), the Map view: the lands reached as
+    stops on **our own schematic chart** (Mike, 10/4: no map art from the game), each land at a hand-placed spot
+    (`LANDS`: Kalimdor left, the Eastern Kingdoms right, Forever's own lands where their lore puts them), with the road
+    drawn between them in the order travelled (one leg each time the next moment is in another land; thicker for a
+    road taken often; the latest leg gold). With the companion's data a leg knows how it was travelled, and flights,
+    boats, hearthstones and portals are dashed; from a paste every leg is a road. Only lands reached have names
+    (the rest are faint dots), capitals and dungeons label on the other side from their zone (a name that would run off the
+    chart moves to the other side), and names that match
+    no land are listed under it. It opens fitted to the lands reached; wheel, pinch, + and − zoom, drag or arrow keys
+    pan, ⤢ (or 0) shows it all again, and stops and names keep their size at any zoom. A stop shows that land's
+    moments in the journey (`pf-land` → `public/js/journey.js`); without JavaScript it jumps to the first one there.
+  - **The coasts behind it** (LOR-303, `lib/coasts.js`): our own drawing of Kalimdor and the Eastern Kingdoms in the
+    chart's units, so the stops sit on land instead of an empty dark box (the "black box" on the 10/5 coaching call).
+    No Blizzard art: each landmass is a ring of points placed one by one around where `LANDS` puts its lands (not
+    traced from any map), with a fixed-seed wiggle between them and a smooth curve through it all, inline in the chart
+    behind the roads. The world before the Dark Portal reopens: Teldrassil and a few isles (Echo, Theramore, Sardor), Lordamere
+    Lake, Gilneas behind its wall, no Quel'Thalas and nothing later; Zephras Isle floats in Skywall, dashed. Moving a
+    land in `LANDS` may need its coast moved too: `site/tests/coasts.test.mjs` checks every land is on its own
+    continent, at least 15 units inside the coast.
   - Profiles saved before this have no `timeline`: they show as before, and their owner gets a line asking to update
     (the companion's next sync or a paste brings it).
 - **The story:** with the Pages secret **`GEMINI_API_KEY`** (Production and Preview; optional; use a paid-tier key,
@@ -329,6 +407,23 @@ to `/account#profile` when there's none yet).
   Each account also gets 3 tries a day (`STORIES_PER_DAY`, counted in `rate_limits`
   before each try, so deleting the profile doesn't reset it). `story_count` keeps an account's total, so writing it
   again can be gated later.
+- **Listen (LOR-316; `lib/storyvoice.js`, behind the `storyvoice` feature, below):** a written story read aloud by
+  the male campfire narrator, with a Listen button over it (`public/js/storyvoice.js`: plays the parts in order,
+  lights up the paragraph being read, never starts by itself). A narrator choice in profile settings comes later.
+  - *Recording:* the first time a page with a new written story opens, each part (a paragraph, split between sentences
+    at 500 characters) goes to fal.ai's queue for its hosted Qwen3-TTS 1.7B, in the male narrator's voice: the packs'
+    model and voices, respelled like them (`/lore/data/respell.json`, from `data/pronunciation.json`), no GPU of
+    ours. fal posts each take to `POST /api/profile/voice/hook` (an HMAC of the part made with `FAL_KEY` in its
+    address); it's stored in R2 at `story-voice/<user id>/<story>/<voice>-<part>.mp3` and served at
+    `/audio/story/<story>-<voice>-<part>-<sha>.mp3`, like the picture book's files (a private profile's only to its
+    owner). A failed part is sent again once. A new story's recordings replace the old one's; Delete my profile and
+    Delete my account remove them. Template stories aren't recorded.
+  - *Setup:* the Pages secret `FAL_KEY`, and the male narrator's speaker embedding in R2 (`story-voice/_narrators/`), sent
+    once per site with `experiments/voices/local/story_voice_embed.py` (`PUT /api/profile/voice?narrator=`, admin key).
+    The uploader prepares only the male narrator by default; `--narrator female-narrator` explicitly prepares another.
+  - *Cost:* $0.09 per 1,000 characters, so about $0.09 per story (1,000 characters, a minute of audio),
+    added to `story_spend.voice_micro_usd` and inside the stories' $100 monthly budget. The owner's page says the story
+    is on its way while it's recorded (`GET /api/profile/voice?handle=`); visitors see Listen once it's ready.
 - **Mike's view:** `/admin` shows "Profile stories this month" (spend against the budget, stories written, tries).
   Contributors lists each account's profile (character, level, class, public or private, link) and links, with a
   "Players" filter and CSV columns. The account page promises email only about feedback and contributions, so
@@ -351,6 +446,13 @@ to `/account#profile` when there's none yet).
     character (409 with the profile's `{name, realm}`, and the companion sends that character instead; switching is
     still a paste on `/account`); a record whose facts haven't changed writes nothing (`{unchanged: true}`); and the
     story isn't rewritten on every `/reload` (below). 6 a minute and 60 an hour per account.
+  - *The journey data* (LOR-248): an update can carry `journey: {v: 1, tz, moments: [{t, k, ...}]}` next to the
+    record (`companion/README.md`), built from the companion's journal: every story moment with its time and game IDs.
+    `lib/journey.js` `readJourney` keeps only Journey.lua's moment kinds and the fields the page uses, tidies and caps
+    names (2,000 moments at most, the newest), keeps no group and no positions, and keeps a killer only when the
+    journey or the record lists it as a foe. It's stored in `profiles.journey` (a column added by `setupProfiles`)
+    and counts in the "unchanged" check. An update without it (an older companion) or with data that doesn't read,
+    and a paste of the same character, keep what's there; another character's paste drops it. Requests may be 256 KB.
   - *Stories from updates* (`lib/profiles.js` `storyDue`): the game fires the same event for `/reload` and logout, so
     "on logout" can't be told apart. An update writes a new story only when there's **something new to tell** since
     the last written one (a level, a new land, dungeon, boss or mount, or 5 more quests: `movedOn` against
@@ -361,10 +463,43 @@ to `/account#profile` when there's none yet).
   - `/account` lists **Connected apps** (when it last updated the profile, Disconnect) and says in the profile section
     that the companion keeps it up to date. Until the companion ships in Setup.exe (LOR-132), the invitation to
     connect it waits for the `companion` feature (below); connecting, updates and the list work either way.
+- **The picture book** (Mike, 2026-10-05; `lib/pictures.js`, behind the **`pictures` feature**, below): pictures a
+  player takes in game with the picture key, which the companion app puts on the profile, newest first, under the
+  Map and Timeline views, each with its place, day (the player's own, from the journey data's `tz`), level and the
+  caption the companion wrote; a picture opens large (`public/js/pictures.js`; without it, a link to the image).
+  - *Uploads* (`functions/api/profile/pictures/index.js`): `POST /api/profile/pictures` from the companion with its
+    token (as `/api/profile/sync`) or from our pages signed in, multipart `meta` (JSON: `cid, t, realm, faction, race,
+    class, lv, z, s, at, clean, caption`) and `image`. JPEG only, told by its bytes (and its size read from them, not
+    the meta), at most 1 MB, 500 per account (409 `{full}`), 30 a minute and 600 an hour (429 with Retry-After). The
+    same `cid` again updates that picture; without `image` only its meta (a caption written later; 404 `{missing}` for
+    a picture the site never got). Captions are capped at 600 characters and escaped on the page. `DELETE
+    ?cid=` (or `?id=`) removes one, file and all. Removed with Remove on the page, its cid is remembered
+    (`picture_tombstones`): a later POST of it from the companion, a late caption or the whole picture, gets 410
+    `{removed}`, unless it's the whole picture with `restore: true` in its meta (the player turned "On my profile" on
+    again by hand). The companion's own DELETE remembers nothing: it won't send that picture again by itself. Delete
+    my profile or account forgets them with the rest. `GET ?handle=` lists a public profile's
+    pictures while the feature is on (or with `&pictures=1`); the owner always gets theirs.
+  - *The files* are in R2 (`STUDIO`) at `pictures/<user id>/<id>.jpg`, served by `functions/pictures/[file].js` at
+    `/pictures/<id>-<sha>.jpg` (`/pictures/*` is in `_routes.json`): the address names the content, so it's cached for
+    a year; a hidden or removed picture, an old address, or one on a private profile (but for its owner) is a 404.
+  - *For later:* realm, faction, map position (`map`, `x`, `y` in thousandths) and when it was taken (`t`) are kept,
+    with indexes on `(realm, t)` and `(map, t)`, for a realm chronicle that gathers many players' pictures of one live
+    event. Nothing reads them yet.
+  - *Reports:* anyone on the page can report a picture (`POST /api/profile/pictures/report {id}`, our Origin only, 30
+    a day per sender; no account needed). Nobody reviews them: 3 from independent senders hide it for good. Senders
+    are told apart by account when signed in, else by IP, on any day: the IP's hash is salted per picture
+    (`report_salt`), not per day like the forms' hashes, so nobody can hide a picture alone by coming back the next
+    day; an account and the IP it reported from count as one (`lib/contribute.js` `independentSenders`). Its owner
+    can remove any picture.
+  - Tables `profile_pictures` and `picture_reports` (`lib/accounts.js` SETUP, made on first use like the others; no
+    migration step). Delete my profile and Delete my account remove the pictures and their files.
 - Tests: `site/tests/journey.test.mjs` (the parser, including records the add-on itself makes, in
   `tests/fixtures/journey/`), `site/tests/profiles.test.mjs` (the API and the page end to end),
-  `site/tests/devices.test.mjs` (connecting, tokens, Disconnect, updates and when they write a story) and
-  `site/tests/trails.test.mjs` (the timeline, names to lore pages, the trails and the journey on the page).
+  `site/tests/pictures.test.mjs` (the picture book: uploads, updates, the cap, Remove, reports, the images, the feature),
+  `site/tests/devices.test.mjs` (connecting, tokens, Disconnect, updates and when they write a story),
+  `site/tests/trails.test.mjs` (the timeline, names to lore pages, the trails and the journey on the page),
+  `site/tests/journeydata.test.mjs` (the companion's journey data, its moments and trails, and the road chart) and
+  `site/tests/coasts.test.mjs` (the coasts behind the chart).
 
 ## Contributors and credit (LOR-239)
 
@@ -423,7 +558,7 @@ Forever's own content and shows counts, never global percentages. Phone first.
 ## Unreleased features (the site flag)
 
 `lib/features.js` holds the site's switches for features that wait for an add-on release:
-`FEATURES = { contribute: false, zones: false, lore: false, companion: false }`. While a feature is off its pages still open by address (so previews and the
+`FEATURES = { contribute: false, zones: false, lore: true, companion: false, pictures: false }`. While a feature is off its pages still open by address (so previews and the
 develop site can test them) but are noindex, and nothing players see links to them. **Turn one on by setting it to
 `true` in the release that ships what it needs** (for `contribute`: the add-on release with the Contribute button,
 LOR-234); the pages then drop noindex and get their links. Code reads it with `featureOn(env, "contribute")`. The
@@ -435,6 +570,8 @@ Pages variable `SITE_FEATURES` overrides the file without a code change (comma-s
 | `contribute` | `/contribute` and `/contribute/progress` are noindex; no Community menu link; `/contributors` doesn't link to `/contribute` | indexable; "Share Forever text" in the Community menu; `/contributors` invites text finders |
 | `zones` | "Claim a zone" (LOR-231) hidden; `/voices/zones` noindex and unlinked | the zone box, Zone filter and "Zones narrated" show |
 | `companion` | `/account` doesn't invite players to connect the companion (LOR-148); `/link`, updates and Connected apps still work | the profile section and an empty Connected apps say the companion can keep the profile up to date. On once Setup.exe ships the companion (LOR-132) |
+| `pictures` | No "Picture book" on profiles, and `GET /api/profile/pictures?handle=` is a 404 for visitors; `/u/<handle>?pictures=1` (and `&pictures=1` on the API) shows it. Uploads, Remove, reports and the images work either way | every public profile with pictures shows its picture book (and its newest picture in link previews). On once Mike has seen it, with the companion's Picture book setting |
+| `storyvoice` | No Listen on profiles and nothing is recorded | a written story is recorded in the male narrator the first time its page opens (needs the `FAL_KEY` secret and his embedding in R2), and Listen shows once every part is ready |
 
 ## Volunteer narrators
 
@@ -777,8 +914,8 @@ Contribute button on windows whose text it lacks; the full contract (what's kept
 `/lore` lists every narration we ship (filters, search, a player) and `/lore/<type>/<id>` is one page per entry,
 built by Functions from `public/lore/data/` (generated by `pipeline/lore/site_lore.py`, which
 `scripts/rebuild-generated.sh` runs). The recordings are in R2 under `narration/`, uploaded with
-`scripts/upload-narration-r2.sh`. **Switched off for now** (noindex, no sitemap entries, no links) until the
-recordings are uploaded and the `lore` feature in `lib/features.js` is on. Everything about it, including the address
+`scripts/upload-narration-r2.sh`. **Public since 2026-10-04:** the `lore` feature in `lib/features.js` is on, so the
+pages are indexable, in the sitemap and linked from the header. Everything about it, including the address
 scheme the add-on will link to, is in [LORE_PAGES.md](LORE_PAGES.md).
 
 ## Private dashboard

@@ -197,6 +197,16 @@ const STATS = {
     { zone: "Westfall", yards: 6420 }, { zone: "Darnassus", yards: 2210 }, { zone: "Wetlands", yards: 1300 },
     { zone: "Moonglade", yards: 640 }],
   kinds: [{ kind: "Beast", n: 98 }, { kind: "Humanoid", n: 61 }, { kind: "Elemental", n: 21 }, { kind: "Undead", n: 4 }],
+  // LOR-262
+  ride: 14200, swim: 1880, flown: 41300, flights: 7, flownTo: 3, boats: 2, fish: 17, days: 9, best: 6, words: 21400,
+  heard: 64,
+  time: [{ zone: "Teldrassil", minutes: 840 }, { zone: "Darkshore", minutes: 660 }, { zone: "Ashenvale", minutes: 420 },
+    { zone: "Westfall", minutes: 210 }, { zone: "Darnassus", minutes: 120 }],
+  killers: [{ name: "Murloc Forager", n: 1 }],
+  patrons: [{ name: "Gershala Nightwhisper", n: 4 }, { name: "Conservator Ilthalaine", n: 3 },
+    { name: "Gryan Stoutmantle", n: 2 }, { name: "Raene Wolfrunner", n: 2 }],
+  inns: [{ name: "Auberdine", n: 2 }, { name: "Astranaar", n: 1 }, { name: "Dolanaar", n: 1 }],
+  destinations: [{ name: "Auberdine", n: 3 }, { name: "Astranaar", n: 2 }, { name: "Rut'theran Village", n: 2 }],
 };
 const fixture = file => readFileSync(FIXTURES + file, "utf8");
 const hasFixtures = existsSync(FIXTURES + "en.txt") && fixture("en.txt").includes("Journey stats");
@@ -219,7 +229,9 @@ test("journey stats: a record from an add-on before them still reads in full, wi
   if (!hasFixtures) return;
   const now = parseRecord(fixture("en.txt"));
   const { stats, ...rest } = now;
-  assert.deepEqual({ ...rest, stats: null }, old, "everything else is the same as before");
+  const deaths = rest.deaths.map(({ cause, ...d }) => d);   // LOR-262 says how one happened
+  assert.deepEqual({ ...rest, deaths, stats: null }, old, "everything else is the same as before");
+  assert.deepEqual(now.deaths.map(d => d.cause ?? null), [null, "drown", null]);
   assert.equal(parseRecord(RECORD).stats, null);
 });
 
@@ -241,7 +253,7 @@ New places, in order
 `.replace("Registro di viaggio", "Journey record");
   const d = parseRecord(record);
   assert.deepEqual([d.stats.yards, d.stats.slain, d.stats.elites, d.stats.rares, d.stats.deaths, d.stats.recorded, d.stats.played],
-    [41203, 2345, 31, 12, 9, 75.3, 80.5]);
+    [41203, 2345, 31, 12, 9, 75.3, null]);   // the six by their place; hours played only by its words
   assert.deepEqual(d.places, [{ sub: "Shadowglen", zone: "Teldrassil" }]);
   // Known words in any order win over the place; an English line in a German record is read too.
   const de = parseRecord(`Reiseaufzeichnung: Brakka - Forever
@@ -258,9 +270,32 @@ Durotar: 600, Die Brachlande: 300
 Getötete Feinde, nach Art
 Wildtier: 9, Humanoid: 3
 `);
-  assert.deepEqual(de.stats, { yards: 900, slain: 12, elites: 0, rares: 0, deaths: 4, recorded: 0, played: null,
-    walk: [{ zone: "Durotar", yards: 600 }, { zone: "Die Brachlande", yards: 300 }],
-    kinds: [{ kind: "Wildtier", n: 9 }, { kind: "Humanoid", n: 3 }] });
+  assert.deepEqual({ ...de.stats, time: [], killers: [], patrons: [], inns: [], destinations: [] },
+    { yards: 900, slain: 12, elites: 0, rares: 0, deaths: 4, recorded: 0, played: null,
+      walk: [{ zone: "Durotar", yards: 600 }, { zone: "Die Brachlande", yards: 300 }],
+      kinds: [{ kind: "Wildtier", n: 9 }, { kind: "Humanoid", n: 3 }],
+      ride: 0, swim: 0, flown: 0, flights: 0, flownTo: 0, boats: 0, fish: 0, days: 0, best: 0, words: 0, heard: 0,
+      time: [], killers: [], patrons: [], inns: [], destinations: [] });
+  // LOR-262's lines come after the six, read by their words only: an unknown one after them is skipped.
+  const late = parseRecord("Journey record: Aelric - Forever\n\nJourney stats\n- Yards walked: 10\n- Foes slain: 2\n" +
+    "- Elites slain: 0\n- Rares slain: 0\n- Deaths: 0\n- Hours recorded: 1.0\n- Yards ridden: 7\n- Something new: 3\n" +
+    "- Fish caught: 4\n");
+  assert.deepEqual([late.stats.ride, late.stats.fish, late.stats.played], [7, 4, null]);
+});
+
+test("journey stats: a killer is kept when the record lists it among the creatures that slew them", () => {
+  const d = parseRecord(`Journey record: Aelric - Forever
+
+Slain by
+Hogger: 2
+
+Deaths
+- Oct 01 14:30  Elwynn Forest · slain by Hogger
+- Oct 01 15:30  Elwynn Forest · slain by Somebody
+- Oct 01 16:30  Loch Modan · drowned
+`);
+  assert.deepEqual(d.deaths, [{ zone: "Elwynn Forest", by: "Hogger" }, { zone: "Elwynn Forest" }, { zone: "Loch Modan", cause: "drown" }]);
+  assert.deepEqual(d.stats.killers, [{ name: "Hogger", n: 2 }]);
 });
 
 test("journey stats: odd values are capped, never trusted", () => {

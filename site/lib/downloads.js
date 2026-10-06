@@ -83,13 +83,17 @@ function curseforgeLine(v) {
 
 // A file as a small link: its name (and faction), then its narrations and size.
 function smallLink(v, f) {
-  return `<a id="${escape(f.id)}" data-pack="${escape(f.pack)}" href="${escape(f.href)}" aria-label="Download ${escape(v.name)}, ${escape(f.name)}">${escape(f.name)}</a>${f.faction ? ` <span class="dl-faction dl-${f.faction}">${FACTION_LABEL[f.faction]}</span>` : ""} <span class="dl-file-meta">(${[f.clips ? f.clips.toLocaleString("en-US") : "", sizeCell(f.item, f.href)].filter(Boolean).join('<span class="dl-dot" aria-hidden="true">, </span>')})</span>`;
+  const cover = f.item.included === false && f.item.coverage
+    ? ` <span class="dl-file-meta">${escape(sentence(f.item.coverage))}</span>` : "";
+  return `<a id="${escape(f.id)}" data-pack="${escape(f.pack)}" href="${escape(f.href)}" aria-label="Download ${escape(v.name)}, ${escape(f.name)}">${escape(f.name)}</a>${f.faction ? ` <span class="dl-faction dl-${f.faction}">${FACTION_LABEL[f.faction]}</span>` : ""} <span class="dl-file-meta">(${[f.clips ? f.clips.toLocaleString("en-US") : "", sizeCell(f.item, f.href)].filter(Boolean).join('<span class="dl-dot" aria-hidden="true">, </span>')})</span>${cover}`;
 }
 
 // One voice. A voice that comes with the add-on just says so. Any other voice gets one big Download: its
 // all-in-one zip when it has one ("Download everything"), else its own pack. Its other packs (the core, Alliance and
 // Horde lands) follow as small links. The voice in other languages (packs with a "language", LOR-177) gets its own
-// line, the included voice's too. Every file keeps its id as an anchor, and data-pack is the id a later
+// line, the included voice's too. An explicitly optional pack (included: false) also stays available under an
+// included voice; its bundled English packs stay hidden. Every file keeps its id as an anchor, and data-pack is
+// the id a later
 // "download several" checkbox would send.
 export function voiceBlock(v, likes) {
   const released = (v.packs || []).filter(p => p.download && p.status !== "soon");
@@ -104,7 +108,7 @@ export function voiceBlock(v, likes) {
   for (const p of packs) files.push({ id: p.id, name: p.name, href: packHref(p), item: p, pack: p.id, clips: p.clips,
     faction: packFaction(p), all: isAll(p) });
   const main = v.included ? null : files.find(f => f.all) || files[0];
-  const rest = files.filter(f => f !== main && !v.included);
+  const rest = files.filter(f => f !== main && (!v.included || f.item.included === false));
   const who = [`by ${escape(v.contributor?.name || v.credit)}`, escape(v.language),
     escape(races(v).join(", "))].filter(Boolean).join(" &middot; ");
   let get;
@@ -119,7 +123,7 @@ export function voiceBlock(v, likes) {
     get = `<p class="dl-included">Download coming soon</p>`;
   }
   const small = (rest.length
-    ? `<p class="dl-parts">Or just one part:
+    ? `<p class="dl-parts">${v.included ? "Optional packs:" : "Or just one part:"}
           ${rest.map(f => smallLink(v, f)).join(DOT)}</p>`
     : "") + (languages.length
     ? `<p class="dl-parts dl-other-langs">In other languages:
@@ -173,14 +177,14 @@ export function languagesSection(packs) {
   const list = arr => arr.length > 1 ? arr.slice(0, -1).join(", ") + " and " + arr[arr.length - 1] : arr[0] || "";
   const included = ["English", ...packs.filter(p => p.locale && p.included).map(p => escape(p.name))];
   const separate = packs.filter(p => p.locale && !p.included && p.download);
-  // LOR-35: players kept asking for languages that already ship, so say plainly how a language is picked, and that
-  // the recorded voices are English, with German next (LOR-177; until then other languages read aloud with the
-  // game's own text-to-speech voice). Update this when the German voices go live.
+  // LOR-35: say plainly how players pick a language and which recordings are available.
+  // Narration coverage remains partial in each language; unrecorded entries stay as text.
   return `<p class="dl-langs"><strong>${list(included)}</strong> come with the add-on, nothing extra to download.</p>
       <p class="dl-intro">Lore Forever follows your WoW client's language. To read in another one, pick it in Options
         &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Language, or type <code>/lore lang</code>.</p>
-      <p class="dl-intro">The recorded narrator voices are in English, with German on the way. Until your language has
-        its own, Read aloud uses the game's text-to-speech voice; pick English to hear the English recordings.</p>` +
+      <p class="dl-intro">Recorded narrator packs have selected stories and answers in English, German, Spanish,
+        French and Portuguese (Brasil). Recorded quest dialogue is currently in English and German. Coverage varies
+        by voice and language; entries without a recording stay available as text.</p>` +
     (separate.length ? `\n      <ul class="dl-files">\n        ${separate.map(languageRow).join("\n        ")}\n      </ul>` : "");
 }
 

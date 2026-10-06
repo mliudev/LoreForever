@@ -24,9 +24,11 @@
 
 <header class="top">
   <nav class="wrap nav" aria-label="Lore Forever">
+    <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
       <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
       <a class="nl" id="nav-community" href="/feedback">Community</a>
     </div>
@@ -60,6 +62,11 @@
       itself, or other players' names. It stays private until you make it public. If you connect the companion app to
       keep it up to date, the companion sends that same record after each <code>/reload</code> or logout, and we
       keep when it connected and last updated your profile, and a scrambled (hashed) copy of its key.</li>
+    <li><strong>Your pictures</strong>, if you let the companion app put the pictures you take in game on your profile:
+      the pictures, their captions, and where and when you took them (realm, zone, spot on the map, time). They show
+      on your profile, and only while it's public. Anyone can report one; a picture several people report is
+      hidden. A report keeps a scrambled (hashed) copy of the sender's IP address, salted for that picture alone, so
+      each person counts once; it goes when the picture does.</li>
     <li><strong>Voice recordings</strong>: the files you upload to the voice studio. When you send a voice, also the
       narrator release form: the name you sign, your email, your Discord handle if you give one, and your country.</li>
     <li><strong>A voice you lend</strong>: the recording you send on <a href="/voices/lend">Lend your voice</a>, the
@@ -81,7 +88,8 @@
   </ul>
   <p>Your country comes from your connection; we don't ask for it. Downloads and clicks on the download and Discord
     links are counted per day as plain numbers, with nothing about who clicked. Your browser also remembers a few
-    small things, like which version's news you've seen, but those stay on your device.</p>
+    small things, like which version's news you've seen and, while you're signed in, the name at the top of the page,
+    but those stay on your device.</p>
 
   <h2>Who else handles it</h2>
   <ul>
@@ -89,6 +97,8 @@
       also counts visits, without cookies, and runs Turnstile, a spam check, when we switch it on.</li>
     <li><strong>Google</strong> handles sign-in, serves the site's fonts, and writes profile stories: Google's API
       writes the story from your character's facts, never your email or name.</li>
+    <li><strong>fal.ai</strong> records your profile's story in our narrators' voices, for the Listen button on your
+      profile: it gets the story's text and nothing else.</li>
     <li><strong>Discord</strong>: feedback, voice and translation submissions are posted to a private channel so we
       see them quickly. Never your email address or your signature.</li>
     <li><strong>GitHub</strong> and <strong>CurseForge</strong> host the downloads, so they see it when you
@@ -99,9 +109,9 @@
   <p>Your account, profile, recordings and translation edits stay until you delete them or your account. Your email
     stays on the list until you unsubscribe. Feedback is kept to make Lore Forever better.</p>
   <p><strong>Delete my account</strong> removes, right away: your account (Google ID, email, name and links), your
-    sign-in, your profile and connected apps, your voices and every recording you uploaded, the release you agreed to
-    in the voice studio, a voice you lent (its recording, test pack and credit), the narration reports you sent while
-    signed in, and the languages and edits on your translation dashboard.</p>
+    sign-in, your profile, its pictures and connected apps, your voices and every recording you uploaded, the release
+    you agreed to in the voice studio, a voice you lent (its recording, test pack and credit), the narration and
+    picture reports you sent while signed in, and the languages and edits on your translation dashboard.</p>
   <p>Some things stay, and here's why:</p>
   <ul>
     <li><strong>The record of a voice you sent</strong> (the name you signed, email, Discord, country, the release
@@ -123,7 +133,8 @@
   <h2>Your choices</h2>
   <ul>
     <li>Delete your account, or only your profile, on <a href="/account">your account page</a>. Remove single
-      recordings in the <a href="/voices/studio">voice studio</a>.</li>
+      recordings in the <a href="/voices/studio">voice studio</a>, and single pictures on your profile or in the
+      companion.</li>
     <li>Make your profile private again: untick Public on your account page.</li>
     <li>Stop the companion app updating your profile: Disconnect it under Connected apps on your account page, or in
       the companion.</li>

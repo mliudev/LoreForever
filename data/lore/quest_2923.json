@@ -20,7 +20,7 @@
    "Save Techbot's Brain!"
   ]
  },
- "summary": "This errand directs Alliance adventurers in Stormwind to Tinker Town in Ironforge, where Chief Architect Tinkmaster Overspark is mourning a tragic malfunction. Brother Sarno sends word that Overspark's mechanical creation, Techbot, has gone rogue amidst the irradiated ruins of Gnomeregan. Reaching the Tinkmaster is the first step toward recovering the wayward construct's memory core.",
+ "summary": "This errand directs Alliance adventurers in Stormwind to Tinker Town in Ironforge, where Tinkmaster Overspark is mourning a tragic malfunction. Brother Sarno sends word that Overspark's mechanical creation, Techbot, has gone rogue amidst the irradiated ruins of Gnomeregan. Reaching the Tinkmaster is the first step toward recovering the wayward construct's memory core.",
  "sections": [
   {
    "title": "A Plea from the Cathedral",
@@ -41,7 +41,7 @@
     "who is overspark",
     "tinkmaster overspark"
    ],
-   "answer": "Tinkmaster Overspark is the Chief Architect of Gnomish Engineering and High Tinker Gelbin Mekkatorque's foremost inventor. Currently stationed in Tinker Town within Ironforge, he works tirelessly to coordinate reclaim efforts and rescue stray gnomish technology from their ruined capital."
+   "answer": "Tinkmaster Overspark is a gnome engineer and the trainer of gnomish engineering. Currently stationed in Tinker Town within Ironforge, he works tirelessly to coordinate reclaim efforts and rescue stray gnomish technology from their ruined capital."
   },
   {
    "q": "Who starts this quest?",

@@ -19,9 +19,11 @@
 
 <header class="top">
   <nav class="wrap nav" aria-label="Lore Forever">
+    <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
       <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
       <a class="nl" id="nav-community" href="/feedback">Community</a>
     </div>
@@ -34,8 +36,12 @@
      token and keeps the profile up to date by itself. Talks to functions/api/device/[action].js. -->
 <main class="wrap fb-page">
   <h1>Connect the companion</h1>
-  <p class="pitch">The Lore Forever companion on your PC can keep your profile up to date by itself, after every
-    <code>/reload</code> or logout. No more copying and pasting your journey record.</p>
+  <!-- Harold, the Lore Forever herald (LOR-266): the companion's own character says what connecting does. -->
+  <div class="lk-herald">
+    <img src="/img/harold.svg" alt="Harold, the Lore Forever herald" width="96" height="96">
+    <p class="herald-says">Connect me to your account, friend, and I'll keep your profile up to date after every
+      <code>/reload</code> or logout. No more copying and pasting your journey record.</p>
+  </div>
   <noscript><p class="fb-status">This page needs JavaScript.</p></noscript>
   <p class="fb-status" id="lk-status" role="status" hidden></p>
 
@@ -142,6 +148,7 @@
   async function load() {
     me = await call("/api/auth/me");
     if (!me.ok) { status(me.error || "Couldn't reach the server. Please reload."); return; }
+    document.dispatchEvent(new CustomEvent("lf-auth", { detail: me }));   // the header (header.js) follows along
     if (!me.user) {
       show("lk-out");
       const clientId = me.signIn && me.signIn.google;

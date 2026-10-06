@@ -8,16 +8,16 @@
   "wiki": "Wizzlecrank's Shredder",
   "refs": 2
  },
- "summary": "Wizzlecrank's Shredder is a lumber machine stranded in the foul depths of Sludge Fen in the northern Barrens. Operated by the goblin Pilot Wizzlecrank, the battered mechanical walker sits disabled amidst hostile Venture Company operators. Helping fire up its engine is the only way the trapped pilot can make a desperate bid for freedom.",
+ "summary": "Wizzlecrank's Shredder is a Venture Company shredder stuck in the foul depths of Sludge Fen in the northern Barrens. The goblin Pilot Wizzlecrank has climbed inside to steal it, but without its key the machine will not move, and it sits amidst hostile Venture Company operators. Helping fire up its engine is the only way the trapped pilot can make a desperate bid for freedom.",
  "sections": [
   {
    "title": "Trapped in the Sludge",
-   "body": "Deep within the oil-slicked, heavily polluted basin of Sludge Fen sits Wizzlecrank's Shredder, immobile and surrounded by hostile Venture Company mercenaries. The pilot inside, a goblin named Wizzlecrank, found himself cut off and trapped when the machine stalled out during his excursion into the drilling compound. Unable to open the cockpit safely amid hostile guards and mechanical overseers, the pilot remains sealed inside, frantically trying to bypass the ignition systems before the Venture Company decides to scrap the machine with him in it.",
+   "body": "Deep within the oil-slicked, heavily polluted basin of Sludge Fen sits Wizzlecrank's Shredder, immobile and surrounded by hostile Venture Company mercenaries. The goblin inside, Wizzlecrank, hopped into the Venture Co. machine to steal it, only to discover he needed a key to unlock its movement column. When another shredder operator asked if everything was all right, he panicked and blamed a mechanical problem. Now he sits sealed inside amid hostile guards and overseers, hoping someone can fetch the key before the Venture Company grows suspicious.",
    "spoiler": 0
   },
   {
    "title": "A Clattering Breakout",
-   "body": "Once provided with an alternate ignition key salvaged from the Venture Company supervisors patrolling the oil pools, the shredder clatters violently back to life. With its whirling blades and heavy metal plating, Pilot Wizzlecrank uses the lumbering contraption to batter through the enclosing mercenary defenses, relying on sympathetic passersby to escort the vulnerable contraption up out of the basin to safety.",
+   "body": "Once provided with the ignition key taken from the supervisor in the control room atop the derrick, the shredder clatters violently back to life. With its whirling blades and heavy metal plating, Pilot Wizzlecrank uses the lumbering contraption to batter through the enclosing mercenary defenses, relying on sympathetic passersby to escort the vulnerable contraption up out of the basin to safety.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "pilot wizzlecrank",
     "who is in wizzlecranks shredder"
    ],
-   "answer": "The mechanical walker is piloted by Pilot Wizzlecrank, an intrepid goblin engineer who ended up stranded right in the middle of Venture Company territory when his machine broke down."
+   "answer": "The mechanical walker is piloted by Pilot Wizzlecrank, a goblin who climbed into the Venture Company's machine to steal it and found himself stuck in the middle of Venture Company territory without its key."
   },
   {
    "q": "Why is the shredder stranded at Sludge Fen?",
@@ -38,7 +38,7 @@
     "wizzlecrank stuck",
     "what happened to the shredder"
    ],
-   "answer": "The shredder's ignition gave out while deep inside the Sludge Fen basin. Surrounded by hostile Venture Company laborers, drillers, and guards, the pilot cannot step out without being attacked, leaving him completely trapped inside his stalled contraption."
+   "answer": "Wizzlecrank hopped into the shredder without realizing he needed a key to unlock its movement column. Surrounded by hostile Venture Company laborers, drillers, and guards, he told a suspicious operator it had a mechanical problem and now waits inside for someone to fetch the key from the supervisor atop the derrick."
   },
   {
    "q": "Why is the shredder sometimes missing?",

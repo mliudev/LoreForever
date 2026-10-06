@@ -2,7 +2,7 @@
   "version": 1,
   "include": ["/", "/feedback", "/downloads", "/voices", "/voices/*", "/translate", "/translate/*", "/discord", "/api/*", "/download/*", "/u/*",
               "/contributors", "/contribute/progress", "/contribute", "/contribute/r/*",
-              "/lore", "/lore/*", "/audio/clip/*"],
+              "/lore", "/lore/*", "/audio/clip/*", "/audio/story/*", "/pictures/*", "/share/*"],
   "exclude": ["/voices/clips.csv", "/voices/voices.json", "/voices/player.js", "/voices/lines.json", "/voices/studio.js", "/voices/studio.css",
               "/voices/testpack.js", "/voices/crc32.js", "/voices/mp3.js", "/voices/vendor/*",
               "/voices/takecheck.js", "/voices/zone-list.js", "/voices/zone-claims.js", "/voices/lend.js", "/voices/lend.css",

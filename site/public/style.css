@@ -30,11 +30,11 @@ code { background: #00000066; padding: 1px 5px; border-radius: 3px; font-size: 0
 
 .wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
 
-/* Site header, on every page (LOR-222): the brand, then Download, What's new and Community; on the right, Make your
-   profile (Your profile once signed in) next to Sign in or the account chip. The links are in each page's own
+/* Site header, on every page (LOR-222): the brand, then Download, Lore, What's new and Community; on the right, Make
+   your profile (Your profile once signed in) next to Sign in or the account chip. The links are in each page's own
    markup, so they work without JavaScript; header.js marks the one you're on, turns Community into a menu, switches
-   the profile link once you're signed in and adds the What's new dot. Phones get two rows: the brand, the profile
-   link and the account, then the other three links. Deeper pages add a breadcrumb under it (.subcrumb). */
+   the profile link once you're signed in and adds the What's new dot. Up to 840px it's two rows: the brand, the
+   profile link and the account, then the four links. Deeper pages add a breadcrumb under it (.subcrumb). */
 .top { position: relative; z-index: 5; border-bottom: 1px solid var(--line); background: #070605; }   /* menus over the hero */
 .crumb { display: block; padding: 10px 0; color: var(--muted); font-size: 0.85rem; }
 .subcrumb { border-top: 1px solid #ffffff0d; }
@@ -58,7 +58,15 @@ code { background: #00000066; padding: 1px 5px; border-radius: 3px; font-size: 0
 .nl-pf:hover { background: #1b1408; }
 .nl-icon { flex: none; width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
 .new-dot { flex: none; width: 8px; height: 8px; border-radius: 50%; background: #1eff00; box-shadow: 0 0 8px #1eff0099; }
-.head-actions { position: relative; display: flex; align-items: center; gap: 8px; margin-left: auto; }
+.head-actions { position: relative; display: flex; align-items: center; gap: 8px; min-width: 0; margin-left: auto; }
+/* Until header.js knows whether you're signed in (what it remembers from the last page, or GET /api/auth/me), the
+   profile link and account keep their place but show nothing, so a signed-in player never sees Sign in first and the
+   header doesn't jump. The nav's inline script sets hd-wait; header.js takes it off. Shown anyway after 3s should
+   header.js never run; without JavaScript there's no hd-wait. */
+.hd-wait .head-actions { visibility: hidden; animation: hd-late 0s 3s forwards; }
+@keyframes hd-late { to { visibility: visible; } }
+/* The Lore link while the "lore" feature is off (the inline script, from what header.js remembers, or the answer). */
+.hd-nolore #nav-lore { display: none; }
 .btn-in {
   display: inline-flex; align-items: center; min-height: 38px; padding: 0 14px; border: 1px solid var(--panel-line);
   border-radius: 4px; background: #00000066; color: var(--text); text-decoration: none; white-space: nowrap;
@@ -67,8 +75,8 @@ code { background: #00000066; padding: 1px 5px; border-radius: 3px; font-size: 0
 .btn-in:hover { background: #1b1408; color: var(--gold); }
 .hd-narrow { display: none; }
 .caret { font-size: 0.72em; line-height: 1; }
-.head-chip {
-  display: inline-flex; align-items: center; gap: 7px; max-width: 190px; min-height: 34px; padding: 2px 10px 2px 3px;
+.head-chip {   /* min-width 0: a long name shortens (…) rather than push the header wider */
+  display: inline-flex; align-items: center; gap: 7px; min-width: 0; max-width: 190px; min-height: 34px; padding: 2px 10px 2px 3px;
   cursor: pointer; border: 1px solid var(--panel-line); border-radius: 17px; background: #00000066; color: var(--text);
   font: 0.88rem/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
@@ -99,17 +107,24 @@ code { background: #00000066; padding: 1px 5px; border-radius: 3px; font-size: 0
 .menu-head { margin: 6px 10px 2px; color: var(--gold-soft); font: 600 0.68rem/1.4 var(--heading); letter-spacing: 0.12em; text-transform: uppercase; }
 .menu-note, .menu-who { margin: 2px 10px 4px; font-size: 0.78rem; color: var(--muted); }
 .menu-who strong { color: var(--text); font-weight: 600; word-break: break-all; }
-@media (max-width: 880px) {
+/* Sized for the four links, signed in or out, with nothing wider than the screen from 320px up: the short labels
+   (Profile) to 960px, two rows to 840px, phone sizes to 600px. */
+@media (max-width: 960px) {
   .nav { gap: 6px 8px; }
   .nl { padding: 0 9px; }
   .nav .hd-wide { display: none; }
   .nav .hd-narrow { display: inline; }
 }
-@media (max-width: 600px) {
+@media (max-width: 840px) {
   .nav { flex-wrap: wrap; min-height: 0; }
-  .brand { min-height: 52px; font-size: 1rem; }
-  .nav-links { order: 3; flex: 1 0 100%; justify-content: space-between; gap: 4px; margin: 0 0 8px; }
+  .brand { min-height: 52px; }
+  .nav-links { order: 3; flex: 1 0 100%; margin: 0 0 8px; }
+}
+@media (max-width: 600px) {
+  .brand { font-size: 1rem; }
+  .nav-links { justify-content: space-between; gap: 0; }
   .nl { min-height: 42px; padding: 0 8px; font-size: 0.78rem; letter-spacing: 0.02em; gap: 5px; }
+  .nav-links .nl { padding: 0 4px; letter-spacing: 0; }
   .head-actions .nl, .btn-in { min-height: 36px; padding: 0 9px; font-size: 0.72rem; }
   .nl-icon { display: none; }
   .new-dot { width: 7px; height: 7px; }
@@ -117,6 +132,9 @@ code { background: #00000066; padding: 1px 5px; border-radius: 3px; font-size: 0
   .nav-dd .head-menu { left: 8px; right: 8px; top: calc(100% + 6px); width: auto; max-width: none; }
   .chip-name, .head-chip .caret { display: none; }
   .head-chip { padding: 2px; }
+}
+@media (max-width: 359px) {
+  .nav-links .nl { font-size: 0.7rem; }
 }
 
 /* Fading gold rule under the hero and section headings */
@@ -819,6 +837,16 @@ dd { margin: 0; }
 .pf-owner p { margin: 0 0 6px; }
 .pf-owner .vp-actions { margin: 0; }
 .pf-owner button.btn-small { cursor: pointer; }
+.pf-owner .fb-status { margin-top: 6px; }
+/* View as a visitor (LOR-302): the bar over the visitor's page stays in view, so Back to my view is always there. */
+.pf-visitor { position: sticky; top: 0; z-index: 4; border-style: solid; background: #1b1408; box-shadow: 0 6px 14px #00000080; }
+/* Share for visitors (LOR-150), at the head's right; under it on a phone. */
+.pf-head { flex-wrap: wrap; }
+.pf-head-main { flex: 1 1 260px; min-width: 0; }
+.pf-head-share { align-self: flex-start; margin-left: auto; max-width: 340px; text-align: right; }
+.pf-head-share .btn-small { margin: 0; cursor: pointer; }
+.pf-head-share .fb-status { margin-top: 6px; font-size: 0.9rem; text-align: left; }
+@media (max-width: 520px) { .pf-head-share { margin-left: 0; max-width: none; text-align: left; } }
 .pf-head { margin-bottom: 14px; }
 .pf-head .zone-where { margin: 0 0 4px; font-size: 0.95rem; }
 .pf-alliance { border-color: #3f7fe0; }
@@ -836,7 +864,36 @@ dd { margin: 0; }
 .pf-stats span { color: var(--muted); font-size: 0.8rem; }
 .pf-story { max-width: 760px; }
 .pf-story p { margin: 0 0 12px; font-size: 1.05rem; }
-.pf-story div > p:first-child::first-letter { font: 700 1.6em/1 var(--heading); color: var(--gold); }
+.pf-story-text > p:first-child::first-letter { font: 700 1.6em/1 var(--heading); color: var(--gold); }
+/* Listen (LOR-316, public/js/storyvoice.js): the story read aloud; the paragraph being read lights up. */
+.pf-listen { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 14px; }
+.pf-listen[hidden] { display: none; }
+.pf-listen-play {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 6px 14px 6px 8px; border-radius: 20px;
+  border: 1px solid var(--gold-soft); background: #000000aa; color: var(--text); font: inherit; font-size: 0.92rem; cursor: pointer;
+}
+.pf-listen-play:hover, .pf-listen-play:focus-visible { border-color: var(--gold); background: #1b1408; }
+.pf-listen-play.pf-on { border-color: var(--gold); box-shadow: inset 0 0 0 1px var(--gold); }
+.pf-listen-ic {
+  display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: #1b1408;
+  color: var(--gold); font-size: 0.8rem; line-height: 1;
+}
+.pf-listen-len { color: var(--muted); font-variant-numeric: tabular-nums; }
+.pf-listen-wait { color: var(--muted); font-size: 0.92rem; }
+.pf-story-text p { transition: color 0.3s; }
+.pf-story-text.pf-playing p { color: var(--muted); }
+.pf-story-text p.pf-reading { color: var(--text); }
+/* Harold, the Lore Forever herald (LOR-266): his signature under the story, and his line on /link. */
+.pf-signed { display: flex; align-items: center; gap: 10px; margin: 4px 0 0; color: var(--parchment); font: italic 1rem Georgia, "Times New Roman", serif; }
+.pf-signed img { flex: none; padding: 4px; border-radius: 50%; border: 2px solid var(--gold-soft); background: #2a2014; }
+.lk-herald { display: flex; align-items: flex-end; gap: 12px; margin: 8px 0 18px; }
+.lk-herald img { flex: none; }
+.herald-says {
+  margin: 0 0 18px; max-width: 560px; padding: 12px 16px; border-radius: 16px 16px 16px 4px; background: var(--parchment);
+  color: var(--ink); font: italic 1.08rem/1.4 Georgia, "Times New Roman", serif; box-shadow: 0 6px 18px #0008;
+}
+.herald-says code { background: #2a1c0d1a; color: var(--ink); }
+@media (max-width: 560px) { .lk-herald img { width: 72px; height: 72px; } }
 .pf-road { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 0; padding: 0 0 0 4px; list-style: none; }
 .pf-road li {
   position: relative; padding: 3px 10px; border: 1px solid var(--panel-line); border-radius: 14px; background: #00000066; font-size: 0.9rem;
@@ -876,6 +933,9 @@ dd { margin: 0; }
 .pf-trail { color: var(--muted); font-size: 0.88rem; }
 .pf-sl { color: var(--gold-soft); }
 .pf-go { white-space: nowrap; text-decoration-style: dotted; text-underline-offset: 3px; }   /* stays on this page */
+.pf-out { margin-left: 6px; color: var(--muted); font-size: 0.78rem; white-space: nowrap; text-underline-offset: 3px; }
+.pf-out::after { content: " \2197"; }   /* leaves the site (LOR-263) */
+.pf-out:hover, .pf-out:focus-visible { color: var(--link); }
 .pf-m:focus { outline: none; }
 .pf-m:focus-visible, .pf-m.pf-hit { background: rgba(216, 178, 90, 0.1); box-shadow: inset 0 0 0 1px rgba(216, 178, 90, 0.55); }
 @media (prefers-reduced-motion: no-preference) {
@@ -894,7 +954,75 @@ dd { margin: 0; }
 .pf-older > summary:hover, .pf-older > summary:focus-visible { border-color: var(--gold-soft); }
 .pf-older > summary:focus-visible { outline: 2px solid var(--gold-soft); outline-offset: 1px; }
 .pf-older[open] > summary { margin-bottom: 4px; }
-.pf-behind { margin: 4px 0 14px; }
+/* A profile from before the timeline: its owner's note on how to add the map and timeline (lib/profiles.js updateNote). */
+.pf-behind {
+  margin: 4px 0 18px; padding: 12px 16px; border: 1px solid var(--gold-soft); border-radius: 5px; background: rgba(216, 178, 90, 0.07);
+}
+.pf-behind h2 { font-family: var(--heading); color: var(--gold); font-size: 1.2rem; margin: 0 0 6px; }
+.pf-behind p { margin: 0 0 8px; }
+.pf-behind .pf-steps { margin-bottom: 10px; }
+.pf-behind .vp-actions { margin: 0; }
+.pf-k-taken { --k: var(--gold-soft); }
+/* The journey's two views, right under the head (LOR-248): Map and Timeline, one at a time with public/js/journey.js. */
+.pf-views { display: inline-flex; gap: 4px; margin: 4px 0 0; padding: 4px; border: 1px solid var(--panel-line); border-radius: 22px; background: #00000066; }
+.pf-views[hidden] { display: none; }
+.pf-views a {
+  min-height: 34px; padding: 6px 18px; border-radius: 17px; color: var(--text); text-decoration: none;
+  font: 600 0.95rem var(--heading); letter-spacing: 0.03em;
+}
+.pf-views a:hover { color: var(--gold); }
+.pf-views a:focus-visible { outline: 2px solid var(--gold-soft); outline-offset: 1px; }
+.pf-views a[aria-current] { background: linear-gradient(180deg, #3a2c12, #1b1408); color: var(--gold); box-shadow: inset 0 0 0 1px #c9a24b; }
+.pf-view[hidden] { display: none; }
+.pf-map { padding-top: 12px; }
+/* The road chart (LOR-248, lib/roadchart.js, public/js/roadchart.js): our own chart, not the game's map. Stops and
+   names keep one size at every zoom (--z is chart units per screen pixel); roads keep their width. */
+.pf-chart { position: relative; max-width: 820px; margin: 0 0 12px; }
+.pf-chart-svg {
+  display: block; width: 100%; height: auto; aspect-ratio: 1000 / 640; touch-action: none; cursor: grab;
+  background: radial-gradient(ellipse at 30% 40%, #1b2236 0, transparent 60%), radial-gradient(ellipse at 75% 50%, #1b2236 0, transparent 60%), #0a0d18;
+  border: 1px solid var(--panel-line); border-radius: 8px;
+}
+.pf-chart-svg:active { cursor: grabbing; }
+.pf-chart-svg:focus-visible { outline: 2px solid var(--gold-soft); outline-offset: 2px; }
+.pf-ch-s { transform: scale(var(--z, 1)); }
+/* The coasts under it all (LOR-303, lib/coasts.js): our own drawing of the lands, dark enough that the roads stay on
+   top. The shallows are a soft line of water around each coast; Zephras Isle floats in the sky, so it's dashed. */
+.pf-ch-shallows { fill: none; stroke: #9fb7e017; stroke-width: 6px; stroke-linejoin: round; }
+.pf-ch-coast {
+  fill: #23201a; fill: color-mix(in srgb, var(--parchment) 10%, var(--bg)); fill-rule: evenodd;
+  stroke: #e9d8ad4d; stroke-width: 1px; stroke-linejoin: round;
+}
+.pf-ch-sky { fill: #9fb7e00f; stroke: #9fb7e059; stroke-dasharray: 3 3; }
+/* The continents' names, in the sea off their coasts: 15px on screen, but no more than 30 chart units, so on a phone
+   showing the whole chart they stay in their strip of sea. */
+.pf-ch-sea { fill: #ffffff26; font: 600 calc(var(--z, 1) * 15px) var(--heading); font-size: min(calc(var(--z, 1) * 15px), 30px); letter-spacing: 0.2em; text-anchor: middle; text-transform: uppercase; }
+.pf-ch-dot { fill: #ffffff2e; }
+.pf-ch-road { fill: none; stroke: #e9d8adb3; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.pf-ch-travel { stroke-dasharray: 2 6; stroke: #9fb7e0b3; }
+.pf-ch-latest { stroke: var(--gold); }
+.pf-ch-stop circle { fill: var(--gold-soft); stroke: var(--bg); stroke-width: 2.5px; }
+.pf-ch-c circle { fill: var(--parchment); }
+.pf-ch-d circle { fill: #c17bff; }
+.pf-ch-stop text { fill: var(--text); font: 600 12px system-ui, sans-serif; paint-order: stroke; stroke: #0a0d18; stroke-width: 3px; }
+.pf-ch-stop:hover circle, .pf-ch-stop:focus-visible circle { fill: var(--gold); }
+.pf-ch-stop:hover text, .pf-ch-stop:focus-visible text { fill: var(--gold); }
+.pf-ch-stop:focus { outline: none; }
+.pf-ch-stop:focus-visible circle { stroke: var(--gold); stroke-width: 3px; }
+.pf-ch-now circle { fill: var(--gold); }
+@media (prefers-reduced-motion: no-preference) {
+  .pf-ch-now circle { animation: pf-now 2.4s ease-in-out infinite; }
+}
+@keyframes pf-now { 50% { stroke: var(--gold); stroke-width: 5px; } }
+.pf-chart-tools { position: absolute; top: 8px; right: 8px; display: flex; gap: 4px; z-index: 1; }
+.pf-chart-tools[hidden] { display: none; }
+.pf-chart-tools button {
+  width: 34px; height: 34px; cursor: pointer; border-radius: 6px; border: 1px solid var(--panel-line);
+  background: #000000b3; color: var(--text); font: 600 1.05rem system-ui, sans-serif;
+}
+.pf-chart-tools button:hover, .pf-chart-tools button:focus-visible { border-color: var(--gold-soft); color: var(--gold); }
+.pf-chart figcaption { margin-top: 6px; color: var(--muted); font-size: 0.85rem; }
+.pf-chart-how[hidden] { display: none; }
 @media (max-width: 520px) { .pf-m { gap: 0 10px; padding: 6px 4px; } }
 .pf-grid { margin: 18px 0 6px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); }
 .pf-card ul { margin: 0 0 6px; padding-left: 18px; }
@@ -954,6 +1082,7 @@ dd { margin: 0; }
 .pf-fun { margin: 0 0 10px; padding-left: 20px; }
 .pf-fun li { margin-bottom: 3px; }
 .pf-fun li::marker { color: var(--gold-soft); }
+@media (min-width: 900px) { .pf-fun { columns: 2; column-gap: 32px; } .pf-fun li { break-inside: avoid; } }
 .pf-nums-lists { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 4px 24px; }
 .pf-nums-lists h3 { margin: 0 0 4px; font: 600 0.95rem var(--heading); color: var(--gold-soft); }
 .pf-nums-lists ul { margin: 0 0 6px; padding-left: 18px; }
@@ -962,6 +1091,46 @@ dd { margin: 0; }
 .pf-units { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 4px 0 0; color: var(--muted); font-size: 0.9rem; }
 .pf-units[hidden] { display: none; }
 .pf-units .btn-small { margin: 0; cursor: pointer; }
+/* The picture book (lib/pictures.js): the pictures the companion put on the profile, newest first, two across on a
+   phone; public/js/pictures.js opens one large in .pb-dlg. */
+.pb-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 1fr)); gap: 16px 14px;
+  margin: 0 0 10px; padding: 0; list-style: none;
+}
+@media (min-width: 720px) { .pb-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); } }
+.pb-item { min-width: 0; }
+.pb-item p { margin: 0; overflow-wrap: anywhere; }
+.pb-shot {
+  display: block; overflow: hidden; aspect-ratio: 16 / 10; margin-bottom: 6px; border: 1px solid var(--panel-line);
+  border-radius: 6px; background: #000;
+}
+.pb-shot img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.pb-shot:hover { border-color: var(--gold-soft); }
+.pb-shot:focus-visible { outline: 2px solid var(--gold-soft); outline-offset: 2px; }
+.pb-where { color: var(--text); font-weight: 600; font-size: 0.92rem; }
+.pb-when { color: var(--muted); font-size: 0.85rem; }
+.pb-cap { color: var(--parchment); font-size: 0.88rem; }
+.pb-item .pb-cap { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.pb-older .pb-grid { margin-top: 10px; }
+.pb-dlg {
+  width: min(1100px, calc(100vw - 32px)); max-height: calc(100vh - 32px); padding: 0; overflow: auto;
+  border: 1px solid var(--panel-line); border-radius: 6px; background: #080a16; color: var(--text); box-shadow: 0 10px 40px #000;
+}
+.pb-dlg::backdrop { background: #000000cc; }
+.pb-dlg figure { margin: 0; }
+.pb-big { display: block; width: 100%; height: auto; max-height: calc(100vh - 220px); object-fit: contain; background: #000; }
+.pb-dlg figcaption { padding: 10px 16px 0; }
+.pb-dlg figcaption p { margin: 0 0 4px; overflow-wrap: anywhere; }
+.pb-dlg figcaption p:empty { display: none; }
+.pb-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 6px 16px 14px; }
+.pb-bar .btn-small { margin: 0; min-width: 44px; cursor: pointer; }
+.pb-bar .btn-small[hidden] { display: none; }
+.pb-x {
+  display: grid; place-items: center; width: 40px; height: 40px; margin-left: auto; border: 0; border-radius: 4px;
+  background: none; color: var(--muted); cursor: pointer; font: 400 1.6rem/1 system-ui, sans-serif;
+}
+.pb-x:hover, .pb-x:focus-visible { color: var(--gold); background: #ffffff10; }
+.pb-status { margin: 0; padding: 0 16px 14px; }
 
 /* What's new (LOR-222): the home page's "New in" strip under the header and the What's new page (whats-new.html),
    both written by scripts/changelog.py from CHANGELOG.md. header.js hides the strip once you've closed it or seen

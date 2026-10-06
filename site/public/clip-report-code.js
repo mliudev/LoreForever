@@ -28,13 +28,14 @@ const SITE_VOICES = { "male-narrator": "LoreForever_Voice_Default", "female-narr
 // A voice as the folder name of its narrator's pack, so reports from the add-on (which names the pack that played,
 // lands and quest dialogue packs included) and from the site (voices.json ids) group together:
 // "male-narrator", "Default", "Default_Horde", "LoreForever_Voice_Default_Quests" -> "LoreForever_Voice_Default";
-// "LoreForever_Voice_Female_Quests_deDE" -> "LoreForever_Voice_Female_deDE". Other packs keep their name (the quest
-// givers' voices, a community voice). null if it isn't a voice pack name.
+// "LoreForever_Voice_Female_Quests_deDE", "LoreForever_Voice_Female_Answers_Places_deDE" (LOR-227) ->
+// "LoreForever_Voice_Female_deDE". Other packs keep their name (the quest givers' voices, a community voice). null if
+// it isn't a voice pack name.
 export function normalizeVoice(v) {
   let s = String(v ?? "").trim();
   if (SITE_VOICES[s]) return SITE_VOICES[s];
   if (!s.startsWith(PREFIX)) s = PREFIX + s;
-  s = s.replace(/^(LoreForever_Voice_(?:Default|Female))(?:_(?:Alliance|Horde|Quests))+(_[a-z]{2}[A-Z]{2})?$/, "$1$2");
+  s = s.replace(/^(LoreForever_Voice_(?:Default|Female))(?:_(?:Alliance|Horde|Quests|Answers_[A-Z][a-z]+\d?))+(_[a-z]{2}[A-Z]{2})?$/, "$1$2");
   return VOICE.test(s) ? s : null;
 }
 

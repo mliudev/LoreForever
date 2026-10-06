@@ -1,20 +1,22 @@
-// Site header, on every public page (LOR-222): the brand, then Download, What's new and Community, and on the right
-// Make your profile next to Sign in or the account chip. Each page's <header class="top"> carries the links itself
-// (SITE_NAV in lib/voices.js; site/tests/nav.test.mjs keeps the copies equal), so they work without JavaScript. This
-// script:
+// Site header, on every public page (LOR-222): the brand, then Download, Lore, What's new and Community, and on the
+// right Make your profile next to Sign in or the account chip. Each page's <header class="top"> carries the links
+// itself (SITE_NAV in lib/voices.js; site/tests/nav.test.mjs keeps the copies equal), so they work without
+// JavaScript. This script:
 //   - marks the link for the part of the site you're on;
 //   - turns Community into a menu: the Discord, the three kinds of feedback (the kinds feedback.html accepts in
 //     ?kind=), the FAQ, then Record your voice, Translate and Contributors;
 //   - asks GET /api/auth/me (functions/api/auth/[action].js) whether you're signed in. Signed in, Make your profile
 //     becomes Your profile (/u/me, your page or else making one) and the account chip appears (Your profile, Your
 //     account, Sign out); signed out, a Sign in link to /account. The same answer says which site features are on
-//     (lib/features.js): their links join the header;
+//     (lib/features.js), which the header follows: the Lore link, and Share Forever text in Community. The answer
+//     takes a moment, so the header shows the last one it got (lf-auth and lf-features in localStorage) right away,
+//     and the answer corrects it (see "Site features" and "Signed in or not");
 //   - puts a dot on What's new while there's a version you haven't looked at, and runs the home page's "New in"
 //     strip (#newbar, written by scripts/changelog.py; an inline script there shows it before this one runs).
 // "Looked at" is lf-seen in localStorage: the newest version you've seen the news of, set when you open What's new,
 // follow the strip or close it. A first visit gets no dot (everything is new); the strip shows until it's closed.
 (() => {
-  const LATEST = "0.8.0";   // changelog: the newest version in CHANGELOG.md (scripts/changelog.py site keeps it)
+  const LATEST = "0.9.0";   // changelog: the newest version in CHANGELOG.md (scripts/changelog.py site keeps it)
   const header = document.querySelector("header.top");
   const box = header && header.querySelector(".head-actions");
   if (!box) return;
@@ -23,6 +25,7 @@
   const store = {
     get: k => { try { return localStorage.getItem(k); } catch (e) { return null; } },
     set: (k, v) => { try { localStorage.setItem(k, v); } catch (e) { /* private mode: nothing remembered */ } },
+    drop: k => { try { localStorage.removeItem(k); } catch (e) { /* nothing to forget */ } },
   };
   // Whether version a is newer than b ("0.10.0" > "0.9.2"); a missing b counts as older than everything.
   const newer = (a, b) => {
@@ -35,6 +38,7 @@
   const VOICE_TOOLS = "studio|guide|release|submit|thanks|lend|lend-terms|zones";
   const SECTIONS = [
     ["nav-download", new RegExp(`^/(downloads|voices)(/(?!(${VOICE_TOOLS})$)[^/]+)?$`)],
+    ["nav-lore", /^\/lore(\/.*)?$/],
     ["nav-new", /^\/whats-new$/],
     ["nav-profile", /^\/(account|u\/[^/]+)$/],
     ["nav-community", new RegExp(`^/(feedback|faq|translate(/.*)?|voices/(${VOICE_TOOLS})|contributors|contribute(/.*)?)$`)],
@@ -114,7 +118,7 @@
     ["/contributors", "Contributors", "Everyone who narrates, translates and sends in text"],
   ];
   // Share Forever text (/contribute, LOR-235) joins the menu once the "contribute" feature is on (lib/features.js;
-  // GET /api/auth/me says), i.e. once the add-on release with its Contribute button is out.
+  // see "Site features"), i.e. once the add-on release with its Contribute button is out.
   const CONTRIBUTE = ["/contribute", "Share Forever text", "The quests and gossip you've seen in game"];
   let communityMenu = null;
   let feedbackNote = null;
@@ -180,75 +184,148 @@
     if (x) x.addEventListener("click", caughtUp);
   }
 
-  // ---- Signed in or not ----
-  const profile = document.getElementById("nav-profile");
+  // ---- Site features ----
+  // GET /api/auth/me also says which site features are on (lib/features.js), and the header follows two of them. The
+  // Lore link (/lore, LOR-233) is in every page's markup while "lore" is on, and hidden while it's off (hd-nolore on
+  // <html>, style.css); Share Forever text joins the Community menu while "contribute" is on. The last answer is kept
+  // in localStorage (lf-features: {lore, contribute}) and shown at once on the next page, the Lore link by the nav's
+  // inline script before the links are drawn; the answer corrects it if it changed.
+  const FEATURES = "lf-features";
+  let contributeItem = null;
+  function features(f) {
+    document.documentElement.classList.toggle("hd-nolore", !f.lore);
+    if (f.contribute && !contributeItem && communityMenu) {
+      communityMenu.insertAdjacentHTML("beforeend", item(CONTRIBUTE));
+      contributeItem = communityMenu.lastElementChild;
+    } else if (!f.contribute && contributeItem) {
+      contributeItem.remove();
+      contributeItem = null;
+    }
+  }
+  try {
+    const f = JSON.parse(store.get(FEATURES));
+    if (f && typeof f === "object") features({ lore: f.lore !== false, contribute: f.contribute === true });
+  } catch (e) { /* nothing remembered: the markup as it is (Lore shown, nothing added) */ }
 
-  function accountChip(user) {
-    const name = user.display_name || (user.email || "").split("@")[0] || "Your account";
-    const chip = document.createElement("button");
+  // ---- Signed in or not ----
+  // The right of the header: signed in, Your profile and the account chip ({in: true, name, until: when that sign-in
+  // ends}); signed out, Make your profile and, where sign-in is on, Sign in ({in: false, signIn}). GET /api/auth/me
+  // says which, but only after a moment, so the last answer is kept in localStorage (lf-auth: only that, never the
+  // email) and shown at once on the next page, and the answer corrects it if it changed. A page a Function made for
+  // someone it knows is signed in (/u/<handle>) says so itself: data-auth, data-name and data-until on .head-actions
+  // (lib/voices.js siteNav). Until one of them is there the spot stays blank but keeps its place: the nav's inline
+  // script set hd-wait on <html> (style.css), and show(), or an answer that never comes, takes it off.
+  const AUTH = "lf-auth";
+  const profile = document.getElementById("nav-profile");
+  const profileText = profile && profile.querySelector(".hd-wide");
+  let chip = null, chipMenu = null, signIn = null;   // what show() put in the header
+
+  const known = () => document.documentElement.classList.remove("hd-wait");
+  const chipName = user => user.display_name || (user.email || "").split("@")[0] || "Your account";
+  // What's remembered; null when there's nothing (a first visit, private mode), it can't be read, or the sign-in it
+  // remembers has ended by now (then the answer decides).
+  function remembered() {
+    let s = null;
+    try { s = JSON.parse(store.get(AUTH)); } catch (e) { /* not ours: as if there were nothing */ }
+    if (!s || typeof s !== "object") return null;
+    if (!s.in) return { in: false, signIn: Boolean(s.signIn) };
+    if (s.until && !(Date.parse(s.until) > Date.now())) return null;
+    return { in: true, name: String(s.name || "Your account"), until: s.until };
+  }
+  const remember = s => (s ? store.set(AUTH, JSON.stringify(s)) : store.drop(AUTH));
+
+  // Signed in: the account chip and its menu, made once.
+  function accountChip() {
+    chip = document.createElement("button");
     chip.className = "head-chip";
-    chip.setAttribute("aria-label", "Account: " + name);
     chip.innerHTML = '<span class="mini-avatar" aria-hidden="true"></span><span class="chip-name"></span>' + caret;
-    chip.querySelector(".mini-avatar").textContent = name.charAt(0).toUpperCase();
-    chip.querySelector(".chip-name").textContent = name;
-    const menu = document.createElement("div");
-    menu.className = "head-menu head-menu-account";
-    menu.innerHTML = '<p class="menu-who">Signed in as <strong></strong></p><a href="/u/me">Your profile</a>' +
+    chipMenu = document.createElement("div");
+    chipMenu.className = "head-menu head-menu-account";
+    chipMenu.innerHTML = '<p class="menu-who">Signed in as <strong></strong></p><a href="/u/me">Your profile</a>' +
       '<a href="/account">Your account</a><hr><button type="button">Sign out</button>';
-    menu.querySelector("strong").textContent = user.email || name;
-    const signOut = menu.querySelector("button");
+    const signOut = chipMenu.querySelector("button");
     signOut.addEventListener("click", async () => {
       signOut.disabled = true;
       try {
-        await fetch("/api/auth/logout", { method: "POST", headers: { "Content-Type": "application/json" }, body: "{}" });
-      } catch (e) { /* reloading shows whether it worked */ }
+        const r = await fetch("/api/auth/logout",
+          { method: "POST", headers: { "Content-Type": "application/json" }, body: "{}" });
+        remember(r.ok ? { in: false, signIn: true } : null);
+      } catch (e) { remember(null); /* reloading shows whether it worked */ }
       location.reload();
     });
-    box.append(chip, menu);
-    dropdown(chip, menu, "hd-account-menu");
+    box.append(chip, chipMenu);
+    dropdown(chip, chipMenu, "hd-account-menu");
   }
 
-  // Signed out: a Sign in link to /account, where signing in leads to making your profile (LOR-181). Not on /account
-  // itself, which is the sign-in page.
-  function signInLink() {
-    if (path === "/account") return;
-    const a = document.createElement("a");
-    a.className = "btn-in";
-    a.href = "/account";
-    a.textContent = "Sign in";
-    box.append(a);
+  // Puts state s in the header and shows it. email: the account's, for "Signed in as" (until GET /api/auth/me brings
+  // it, the chip's name).
+  function show(s, email) {
+    if (profile) {
+      profile.href = s.in ? "/u/me" : "/account#profile";
+      if (profileText) profileText.textContent = s.in ? "Your profile" : "Make your profile";
+    }
+    if (feedbackNote) feedbackNote.hidden = s.in || !s.signIn;
+    if (s.in) {
+      if (signIn) { signIn.remove(); signIn = null; }
+      if (!chip) accountChip();
+      chip.setAttribute("aria-label", "Account: " + s.name);
+      chip.querySelector(".mini-avatar").textContent = s.name.charAt(0).toUpperCase();
+      chip.querySelector(".chip-name").textContent = s.name;
+      chipMenu.querySelector("strong").textContent = email || s.name;
+    } else {
+      if (chip) {
+        if (current && current.menu === chipMenu) close(false);
+        chip.remove();
+        chipMenu.remove();
+        chip = chipMenu = null;
+      }
+      // Signed out: a Sign in link to /account, where signing in leads to making your profile (LOR-181). Not on
+      // /account itself, which is the sign-in page.
+      if (s.signIn && path !== "/account") {
+        if (!signIn) {
+          signIn = document.createElement("a");
+          signIn.className = "btn-in";
+          signIn.href = "/account";
+          signIn.textContent = "Sign in";
+          box.append(signIn);
+        }
+      } else if (signIn) { signIn.remove(); signIn = null; }
+    }
+    known();
   }
+
+  // GET /api/auth/me's answer: show it, and remember it for the next page.
+  function answered(me) {
+    if (me.features) {
+      const f = { lore: Boolean(me.features.lore), contribute: Boolean(me.features.contribute) };
+      store.set(FEATURES, JSON.stringify(f));
+      features(f);
+    }
+    const s = me.user ? { in: true, name: chipName(me.user), until: me.user.session_expires }
+      : { in: false, signIn: Boolean(me.signIn && me.signIn.google) };
+    remember(s);
+    show(s, me.user && me.user.email);
+  }
+
+  const served = box.dataset.auth === "in"
+    ? { in: true, name: box.dataset.name || "Your account", until: box.dataset.until } : null;
+  if (served) remember(served);
+  const first = served || remembered();
+  if (first) show(first);
+
+  // /account and /link sign you in and out without leaving the page. They pass on GET /api/auth/me's new answer in an
+  // "lf-auth" event (detail: the answer), or send one without it when they leave the page before asking again: the
+  // header then forgets what it remembered, and the next page waits for the answer.
+  document.addEventListener("lf-auth", e => {
+    if (e.detail && e.detail.ok) answered(e.detail);
+    else remember(null);
+  });
 
   fetch("/api/auth/me", { cache: "no-store" })
     .then(r => r.json())
     .then(me => {
-      if (!me || !me.ok) return;
-      if (me.features && me.features.contribute && communityMenu) {
-        communityMenu.insertAdjacentHTML("beforeend", item(CONTRIBUTE));
-      }
-      // Lore (/lore, LOR-233) joins the links after Download once the "lore" feature is on (lib/features.js), i.e.
-      // once the narration recordings are on the site.
-      const download = document.getElementById("nav-download");
-      if (me.features && me.features.lore && download && !document.getElementById("nav-lore")) {
-        const lore = document.createElement("a");
-        lore.className = "nl";
-        lore.id = "nav-lore";
-        lore.href = "/lore";
-        lore.textContent = "Lore";
-        if (/^\/lore(\/|$)/.test(path)) lore.setAttribute("aria-current", "page");
-        download.after(lore);
-      }
-      if (me.user) {
-        if (profile) {
-          profile.href = "/u/me";
-          const wide = profile.querySelector(".hd-wide");
-          if (wide) wide.textContent = "Your profile";
-        }
-        accountChip(me.user);
-      } else if (me.signIn && me.signIn.google) {
-        if (feedbackNote) feedbackNote.hidden = false;
-        signInLink();
-      }
+      if (me && me.ok) answered(me);
+      else known();
     })
-    .catch(() => { /* no account info: the links work the same */ });
+    .catch(known);   // no account info: the links work the same (what was remembered stays)
 })();
