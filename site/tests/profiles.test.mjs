@@ -338,7 +338,7 @@ test("with GEMINI_API_KEY the story is written; every try counts against 3 a day
     assert.match(prompt, /Foes fought most: Murloc Forager \(30 times\), Defias Pillager \(12 times\)\./);
     assert.ok(!prompt.includes("Dwarf Priest") && !prompt.includes("Gravenx"));
     assert.match(calls[0].body.systemInstruction.parts[0].text, /Never mention, hint at or foreshadow anything later/);
-    assert.deepEqual(await spend(), { month: new Date().toISOString().slice(0, 7), micro_usd: 1100, calls: 1, stories: 1 });
+    assert.deepEqual(await spend(), { month: new Date().toISOString().slice(0, 7), micro_usd: 1100, calls: 1, stories: 1, voice_micro_usd: 0, reserved_micro: 0 });
 
     // An error (not billed), then a story that strays past the era (billed, thrown away): the first story stays.
     gemini(null, 500);
@@ -348,7 +348,11 @@ test("with GEMINI_API_KEY the story is written; every try counts against 3 a day
     gemini(STORY + " One day Aelric would sail for Outland.");
     assert.equal((await api("import", { cookie: me.cookie, body: { record: RECORD } })).body.story.why, "era");
     assert.equal((await row(me.user.id)).story, STORY);
-    assert.deepEqual(await spend(), { month: new Date().toISOString().slice(0, 7), micro_usd: 2200, calls: 3, stories: 1 });
+    const spent = await spend();
+    assert.deepEqual({ month: spent.month, micro_usd: spent.micro_usd, calls: spent.calls,
+      stories: spent.stories, voice_micro_usd: spent.voice_micro_usd },
+      { month: new Date().toISOString().slice(0, 7), micro_usd: 2200, calls: 3, stories: 1, voice_micro_usd: 0 });
+    assert.ok(spent.reserved_micro > 0, "a failed Gemini request keeps its safety reservation");
 
     // Three tries today: no more calls, and deleting the profile doesn't reset that.
     const later = gemini(STORY.replace("stubborn", "quiet"));
@@ -369,13 +373,14 @@ test("the monthly budget: at STORY_BUDGET_USD (default $100) no story is written
   env.GEMINI_API_KEY = "test-key";
   const a = await signIn("aelric"), b = await signIn("brakka");
   try {
-    // $99.9989 spent: one more call fits, and takes the month to the budget.
+    // Enough headroom for one call's worst-case cost, then no call once the shared budget is reached.
     const month = new Date().toISOString().slice(0, 7);
-    env.DB.sqlite.prepare("INSERT INTO story_spend (month, micro_usd, calls, stories) VALUES (?, ?, 5, 5)").run(month, 100e6 - 1100);
+    env.DB.sqlite.prepare("INSERT INTO story_spend (month, micro_usd, calls, stories) VALUES (?, ?, 5, 5)").run(month, 100e6 - 20000);
     const calls = gemini(STORY);
     await api("import", { cookie: a.cookie, body: { record: RECORD } });
     assert.equal(calls.length, 1);
-    assert.equal((await spend()).micro_usd, 100e6);
+    assert.equal((await spend()).micro_usd, 100e6 - 20000 + 1100);
+    env.DB.sqlite.prepare("UPDATE story_spend SET micro_usd = ? WHERE month = ?").run(100e6, month);
     // At the budget: no call, the summary instead; the other account's allowance isn't touched.
     const capped = await api("import", { cookie: b.cookie, body: { record: RECORD.replace("Aelric - Forever", "Brakka - Forever") } });
     assert.deepEqual(capped.body.story, { source: "template", why: "budget" });
@@ -384,12 +389,13 @@ test("the monthly budget: at STORY_BUDGET_USD (default $100) no story is written
     assert.equal(await env.DB.prepare("SELECT n FROM rate_limits WHERE user_id = ? AND bucket LIKE 'story:%'").bind(b.user.id).first("n"), null);
     // A lower budget from the variable; and last month's spend doesn't count.
     env.DB.sqlite.exec("DELETE FROM story_spend");
-    env.STORY_BUDGET_USD = "0.001";
+    env.STORY_BUDGET_USD = "0.02";
     env.DB.sqlite.prepare("INSERT INTO story_spend (month, micro_usd) VALUES ('2020-01', 999999999)").run();
     await api("import", { cookie: b.cookie, body: { record: RECORD.replace("Aelric - Forever", "Brakka - Forever") } });
-    assert.equal(calls.length, 2);   // $0 this month < $0.001
+    assert.equal(calls.length, 2);   // last month's spend does not use this month's headroom
+    env.DB.sqlite.prepare("UPDATE story_spend SET micro_usd = ? WHERE month = ?").run(20000, month);
     await api("import", { cookie: b.cookie, body: { record: RECORD.replace("Aelric - Forever", "Brakka - Forever") } });
-    assert.equal(calls.length, 2);   // $0.0011 >= $0.001
+    assert.equal(calls.length, 2);   // custom $0.02 budget is now full
     // A model without a known price is never called.
     env.STORY_BUDGET_USD = "100";
     env.STORY_MODEL = "gemini-unknown";
@@ -399,6 +405,23 @@ test("the monthly budget: at STORY_BUDGET_USD (default $100) no story is written
     globalThis.fetch = realFetch;
     delete env.STORY_BUDGET_USD;
     delete env.STORY_MODEL;
+  }
+});
+
+test("a written story without measured usage keeps its budget reservation", async () => {
+  env.GEMINI_API_KEY = "test-key";
+  const me = await signIn("aelric");
+  try {
+    globalThis.fetch = async () => Response.json({ candidates: [{ content: { parts: [
+      { text: JSON.stringify({ story: STORY }) },
+    ] } }], usageMetadata: {} });
+    const result = await api("import", { cookie: me.cookie, body: { record: RECORD } });
+    assert.equal(result.status, 200);
+    assert.equal(result.body.story.why, "written");
+    assert.equal((await spend()).micro_usd, 0);
+    assert.ok((await spend()).reserved_micro > 0);
+  } finally {
+    globalThis.fetch = realFetch;
   }
 });
 
@@ -553,9 +576,10 @@ test("the admin dashboard lists players with their profile and links", async () 
   env.ADMIN_KEY = "admin-test-key";
   try {
     const res = await adminGet({ request: new Request(`${ORIGIN}/api/admin`, { headers: { Authorization: "Bearer admin-test-key" } }), env });
-    const { users, stories } = await res.json();
+    const { users, stories, answers } = await res.json();
     assert.deepEqual(stories, { month: new Date().toISOString().slice(0, 7), usd: 0, calls: 0, written: 0, budget: 100, on: false,
-                                voiceUsd: 0, voiceOn: false });
+                                voiceUsd: 0, reservedUsd: 0, voiceOn: false });
+    assert.deepEqual(answers, { month: new Date().toISOString().slice(0, 7), usd: 0, budgetUsedUsd: 0, calls: 0 });
     const u = users.find(x => x.email === "aelric@example.com");
     assert.deepEqual([u.handle, u.profile_public, u.character, u.char_level, u.char_class, u.links],
       ["aelric", 0, "Aelric", 24, "Druid", "https://twitch.tv/aelric"]);

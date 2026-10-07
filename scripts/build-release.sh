@@ -5,7 +5,6 @@
 #   LoreForever_Voice_Default/   the default narration voice pack: its .toc, the files that .toc loads, CREDITS.txt
 #                                and the recordings under Audio/ (WoW plays those by path, so they're never in a .toc)
 #   LoreForever_Voice_Default_Alliance/, _Horde/    the default voice's lands packs (every subzone and NPC narration)
-#   LoreForever_Lang_deDE/, _esES/, _frFR/, _ptBR/  the language packs (they load only when that language is in use)
 # Packs that ship in the main download are listed in PACKS below. Nothing else goes in, so pipeline code,
 # eval data and key helpers can never slip into the zip. Every folder gets the same checks: Interface 16001, no
 # missing files, notes for files left out, audio paths named in the code exist, and a secret scan. Shipped packs
@@ -27,15 +26,16 @@ addons = root / "addon"
 dist = root / "dist"
 CORE = "LoreForever"
 # Packs bundled with the core download, in zip order (voice or language).
-PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "LoreForever_Voice_Default_Horde",
-         "LoreForever_Voice_Default_Quests", "LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR"]
+PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "LoreForever_Voice_Default_Horde"]
 # Not in the zip, but released with every version as their own zips (scripts/build-voice-packs.sh), so
 # scripts/release.sh stamps the core's version into them too. One not in addon/ yet is skipped by both: the quest
 # givers' voices until their recordings land, and the narrators in the language packs' languages (LOR-177,
 # LoreForever_Voice_<Default|Female>_<locale>) and their quest dialogue in those languages (LOR-226,
 # LoreForever_Voice_<Default|Female>_Quests_<locale>) until they're recorded, and every other question and answer
 # (LOR-227, lore.answers: LoreForever_Voice_<Default|Female>_Answers_<Part>[_<locale>]) until its renders land.
-RELEASE_PACKS = ["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde",
+RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR",
+                 "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female",
+                 "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde",
                  "LoreForever_Voice_Female_Quests", "LoreForever_Voice_QuestGivers",
                  "LoreForever_Voice_Default_deDE", "LoreForever_Voice_Female_deDE",
                  "LoreForever_Voice_Default_esES", "LoreForever_Voice_Female_esES",

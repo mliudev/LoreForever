@@ -13,6 +13,7 @@
   <Script file="Context.lua"/>
   <Script file="ModelRaces.lua"/>
   <Script file="Giver.lua"/>
+  <Script file="HistoryArchive.lua"/>
   <Script file="Log.lua"/>
   <Script file="Journey.lua"/>
   <Script file="Capture.lua"/>

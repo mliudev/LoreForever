@@ -17,7 +17,7 @@
   },
   {
    "title": "A Myth Hatched",
-   "body": "When an adventurer finally recovers the egg and brings it to Freewind Post, it hatches directly in front of Hagar, revealing a young wind serpent resembling the legendary Arikara\u2014a revered spirit known in tauren folklore as the embodiment of vengeance. Realizing the grave cultural and spiritual significance of the creature's return, Hagar wastes no time dispatching the traveler to consult with the elder Motega Firemane.",
+   "body": "When an adventurer finally recovers the egg and brings it to Freewind Post, it hatches directly in front of Hagar, revealing a young wind serpent resembling the legendary Arikara—a revered spirit known in tauren folklore as the embodiment of vengeance. Realizing the grave cultural and spiritual significance of the creature's return, Hagar wastes no time dispatching the traveler to consult with the elder Motega Firemane.",
    "spoiler": 1
   }
  ],
@@ -47,16 +47,16 @@
     "what is the egg",
     "wind serpent egg"
    ],
-   "answer": "The alien egg is an unusual clutch guarded by wind serpents in a subterranean den. Upon being delivered to Hagar, it immediately hatches into Young Arikara, revealing it to be the brood of a legendary wind serpent."
+   "answer": "The alien egg is an unusual egg guarded by wind serpents in a subterranean den. Hagar asks adventurers to retrieve it so he can investigate its nature."
   },
   {
-   "q": "Who does Hagar send you to after the egg hatches?",
+   "q": "Who does Hagar consult about the egg?",
    "aliases": [
     "who do i turn serpent wild into",
     "hagar follow up quest",
     "where to go after hagar"
    ],
-   "answer": "Recognizing the hatchling as Arikara from tauren legend, Hagar sends the adventurer to speak with Motega Firemane, an elder at Freewind Post who possesses deeper wisdom regarding the spirit of vengeance."
+   "answer": "Hagar sends the adventurer to speak with Motega Firemane, an elder at Freewind Post who possesses deeper wisdom regarding tauren traditions."
   }
  ],
  "angles": [

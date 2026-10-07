@@ -285,7 +285,7 @@ local function showExport(text)
 end
 
 -- Clicks on the minimap button (Mike, 2026-09-30): each click always does the same thing. Plain clicks
--- open things, Shift-clicks are the playlist. Ctrl and Alt are left free.
+-- open things, Shift-clicks are the playlist. Ctrl-left-click takes a picture when picture shortcuts are enabled.
 --   click              open/close Lore Forever
 --   right-click        a small menu: "Narration: only when I press Play" (LOR-138) and Options
 --   shift-click        play/pause: stop whatever plays (a playlist keeps its place), else play the playlist, or with
@@ -293,6 +293,9 @@ end
 --   shift-right-click  next narration in the playlist
 local function buttonClick(button)
   local UI = ns.UI
+  if button == "LeftButton" and IsControlKeyDown and IsControlKeyDown() and ns.Journey.PictureShortcutsOn() then
+    return LoreForever_Picture()
+  end
   if IsShiftKeyDown and IsShiftKeyDown() then
     if not UI.frame then return end
     if button == "RightButton" then return UI.PlaylistNext() end
@@ -330,6 +333,9 @@ local function buttonTooltip(self, anchor)
   if ns.Voice.OnDemand() then T.Tip(L["Narration plays only when you press Play."], "tipDim") end
   T.Tip(L["Shift-click: play/pause your playlist"], "tipText")
   T.Tip(L["Shift-right-click: next narration"], "tipText")
+  if ns.Journey.PictureShortcutsOn() then
+    T.Tip(L["Ctrl-click: take a journey picture"], "tipText")
+  end
   if n == 0 then
     T.Tip(L["Your playlist is empty: Shift-click plays everything narrated here."], "tipDim", true)
   end
@@ -657,6 +663,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore key - choose the key that opens the panel; /lore key narrate - a key that plays narration"])
     say(L["/lore library - every recorded narration, grouped (your starting area first)"])
     say(L["/lore journey - what your character has done so far; /lore sync - save it now (reloads)"])
+    say(L["/lore picture - take a journey picture"])
     say(L["/lore quests - every quest you've completed, by zone; click one to read its quest text again"])
     if ns.Companion.Installed() then
       say(L["/lore ask <question> - ask live answers (the answer appears on your screen)"])
@@ -666,7 +673,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore reset - bring back the panel, the floating player and the minimap button (keeps your journey and settings)"])
     say(L["/lore primer - dungeon primer for where you are"])
     say(L["/lore listen - play the last narrated answer (or where you are); /lore narrate - narrate flights on/off"])
-    say(L["/lore autoplay - narrations as you arrive and quest dialogue on/off"])
+    say(L["/lore autoplay - narrations as you arrive on/off"])
     say(L["/lore ondemand - narration only when you press Play on/off"])
     say(L["/lore voice - list narration voices; /lore voice <number or name> - switch (auto: default, none: off)"])
     say(L["/lore report - tell us the last answer was wrong (or click the cross under any answer)"])
@@ -722,7 +729,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     toggleSetting("narrateFlights", L["flight narration"])
   elseif cmd == "autoplay" then
     say(string.format(ns.Voice.ToggleAutoplay() and L["%s on"] or L["%s off"],
-      L["narrations as you arrive and quest dialogue"]))
+      L["narrations as you arrive"]))
   elseif cmd == "ondemand" then
     say(ns.Voice.SetOnDemand(not ns.Voice.OnDemand()) and L["Narration plays only when you press Play."]
       or L["Narration plays by itself again, as your options say."])

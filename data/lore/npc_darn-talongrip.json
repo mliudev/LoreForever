@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "Frontier Scout of Stonetalon",
-   "body": "Darn Talongrip watches the rugged ascents leading into Stonetalon from the southern Barrens. Perched near the settlement of Malaka'jin and the perilous Webwinder Path, Darn contends with regional dangers such as the aggressive local spiders that choke the ravine paths. His post serves as an early line of contact for travelers winding upward into contested peaks.",
+   "body": "Darn Talongrip watches the rugged ascents leading into Stonetalon from the southern Barrens. Stationed in the settlement of Malaka'jin, Darn directs recruits toward the Horde's new fronts in Ashenvale. His post serves as an early line of contact for travelers winding upward into contested peaks.",
    "spoiler": 0
   },
   {
    "title": "Eyes for the Command",
-   "body": "Beyond monitoring venomous beasts in the nearby crags, Darn ensures messages and frontline reports reach key commanders like Kadrak at the watch tower in the northern Barrens. Outlying encampments in these mountains operate under constant pressure, making Darn's role as a sentry and courier essential to keeping the Horde vanguard informed.",
+   "body": "From his post in Malaka'jin, Darn ensures messages and frontline reports reach key commanders like Kadrak at the watch tower in the northern Barrens. Outlying encampments in these mountains operate under constant pressure, making Darn's role as a sentry and courier essential to keeping the Horde vanguard informed.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "darn talongrip identity",
     "who is this orc"
    ],
-   "answer": "Darn Talongrip is an orc scout stationed along Webwinder Path near Malaka'jin in the southern reaches of the Stonetalon Mountains."
+   "answer": "Darn Talongrip is an orc scout stationed in Malaka'jin in the southern reaches of the Stonetalon Mountains."
   },
   {
    "q": "Where can Darn Talongrip be found?",
@@ -38,7 +38,7 @@
     "where is darn talongrip",
     "darn talongrip coordinates"
    ],
-   "answer": "He can be found watching the trails near the troll settlement of Malaka'jin, along Webwinder Path in the Stonetalon Mountains."
+   "answer": "He can be found in the troll settlement of Malaka'jin in the Stonetalon Mountains."
   },
   {
    "q": "What is his role in Stonetalon?",
@@ -46,7 +46,7 @@
     "what does darn talongrip do",
     "darn talongrip purpose"
    ],
-   "answer": "Darn serves as an outpost scout, warning travelers of dangerous predators like local spider broods and passing messages to military liaisons such as Kadrak."
+   "answer": "Darn directs new recruits to Kadrak in the northern Barrens to help defend the Horde's outposts in Ashenvale."
   },
   {
    "q": "Who is Kadrak, and why does Darn send travelers to him?",
@@ -72,12 +72,10 @@
   "kadrak",
   "malakajin",
   "orc scout",
-  "stonetalon",
-  "webwinder path"
+  "stonetalon"
  ],
  "related": [
   "subzone:malaka-jin",
-  "subzone:webwinder-path",
   "npc:kadrak",
   "quest:6541",
   "zone:stonetalon"

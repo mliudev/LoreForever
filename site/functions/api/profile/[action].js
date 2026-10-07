@@ -30,6 +30,7 @@ import { currentDevice, markSynced } from "../../../lib/devices.js";
 import { perMinute, perHour, perDay, slowDown } from "../../../lib/ratelimit.js";
 import { forgetPictures } from "../../../lib/pictures.js";
 import { forgetStoryVoice } from "../../../lib/storyvoice.js";
+import { historyRequest, forgetHistoryStatements } from "../../../lib/history.js";
 
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
 
@@ -203,6 +204,7 @@ async function remove({ env }, input, user) {
   await forgetPictures(env, user.id);
   await forgetStoryVoice(env, user.id);
   await env.DB.batch([
+    ...forgetHistoryStatements(env, user.id),
     env.DB.prepare("DELETE FROM profiles WHERE user_id = ?").bind(user.id),
     env.DB.prepare("DELETE FROM devices WHERE user_id = ?").bind(user.id),
   ]);
@@ -247,6 +249,7 @@ export async function onRequest(context) {
   const action = String(params.action);
   if (!env.DB) return fail(503, "Profiles aren't set up yet.");
   await setup(env);
+  if (action === "history") return historyRequest(context);
   await setupProfiles(env);
   if (request.method === "GET") {
     if (action !== "me") return fail(404, "Not found.");

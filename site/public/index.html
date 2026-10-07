@@ -43,10 +43,10 @@
 </header>
 
 <!-- newbar:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
-<aside class="newbar" id="newbar" data-version="0.9.0" aria-label="New in 0.9.0" hidden>
+<aside class="newbar" id="newbar" data-version="0.10.0" aria-label="New in 0.10.0" hidden>
   <div class="wrap newbar-in">
-    <span class="tag tag-new">New in 0.9.0</span>
-    <a href="/whats-new#v0-9-0">Quest givers in their own voices</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-9-0">Spanish questions and answers</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-9-0">Play the quest's words</a>
+    <span class="tag tag-new">New in 0.10.0</span>
+    <a href="/whats-new#v0-10-0">A companion for your adventure</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-10-0">More answers to listen to</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-10-0">Quest dialogue when you want it</a>
     <a class="newbar-all" href="/whats-new">See what's new</a>
   </div>
   <button class="newbar-x" type="button" aria-label="Hide until the next version">&times;</button>
@@ -65,7 +65,7 @@
       <ul class="stats">
         <li>by <strong>Mike</strong></li>
         <li id="downloads"><strong>New release</strong></li>
-        <li>Version <strong>0.9.0</strong></li>
+        <li>Version <strong>0.10.0</strong></li>
         <li>Game <strong>WoW Forever 1.60.1</strong></li>
       </ul>
       <!-- Downloads, no email step. Since 2026-10-02 (Mike) the site's own download comes first: the Windows installer
@@ -173,16 +173,13 @@
   <section class="feature" aria-labelledby="listen-title">
     <div class="feature-text">
       <h2 id="listen-title">Hear the story of where you are</h2>
-      <!-- Counts from data/clips.json (840 clips: 528 zones and subzones, 202 people and bosses, 109 first-question
-           answers, 1 topic). Recheck when narrations are added. -->
-      <p>Every zone is narrated, and so are the places and people inside it, Alliance and Horde alike: 840
-        narrations in the main download, from 528 places and 202 people and dungeon bosses to 109 answers to the
-        questions new players ask first.</p>
+      <p>Every zone is narrated, and so are the places and people inside it, Alliance and Horde alike. The main
+        download includes their stories, dungeon bosses and recorded answers to the questions new players ask first.</p>
       <ul>
         <li><strong>Plays as you arrive.</strong> Reach a zone or place and its story starts by itself. It waits
           for the fight to end and never cuts off what you're listening to.</li>
-        <li><strong>Quest givers speak.</strong> Open a quest giver's window and their words play in the narrator's
-          voice, every time you open it.</li>
+        <li><strong>Your quest's backstory.</strong> Open its Lore button to hear Lore Forever's recorded story.
+          Quest dialogue is a separate optional download, off by default.</li>
         <li><strong>A player with a queue.</strong> What's playing, Back, Play and Next sit at the bottom of the
           panel. Queue up stories with +, and the player floats on screen when you close the panel.</li>
         <li><strong>On flights, too.</strong> Turn on flight narration and each zone's story plays as you fly over
@@ -427,7 +424,7 @@
           <tr><td><code>/lore library</code></td><td>The Library: every recorded narration by zone, your starting area first</td></tr>
           <tr><td><code>/lore journey</code></td><td>Your journey: the timeline and the map (<code>/lore sync</code> saves it now)</td></tr>
           <tr><td><code>/lore voice</code></td><td>List your narration voices in order; <code>/lore voice &lt;number or name&gt;</code> puts one first</td></tr>
-          <tr><td><code>/lore autoplay</code></td><td>Narrations as you arrive and quest dialogue on or off</td></tr>
+          <tr><td><code>/lore autoplay</code></td><td>Narrations as you arrive on or off</td></tr>
           <tr><td><code>/lore narrate</code></td><td>Flight narration on or off</td></tr>
           <tr><td><code>/lore listen</code></td><td>Read the last answer aloud</td></tr>
           <tr><td><code>/lore stop</code></td><td>Stop what's playing</td></tr>
@@ -476,6 +473,10 @@
           <a href="/downloads#voices">Downloads page</a>, with CurseForge packs or zips for manual installs. Install the
           packs you want, type <code>/reload</code> in game and choose your voice order in Options.
           <a href="/downloads#install">Step by step</a>.</p>
+        <p>Quest Dialogue packs are separate optional downloads, outside the main download and story bundles.
+          Quest dialogue stays off until you turn on <strong>Speak quest dialogue</strong> in Options;
+          this also enables its play button on the quest window. Skip these packs if Spoken, Chatty Little NPC or
+          another add-on already speaks your quests. Lore Forever still narrates its own stories and recorded answers.</p>
 
         <p>On your first login it asks you to pick a key for the panel. You can change it later with <code>/lore key</code>.</p>
         <p>Not showing up? On the character screen, click <strong>AddOns</strong> and tick
@@ -499,6 +500,19 @@
       <section class="tab-panel" id="changelog" role="tabpanel">
         <h2>Changelog</h2>
         <!-- changelog:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
+        <h3>0.10.0</h3>
+        <ul>
+          <li><strong>A companion for your adventure:</strong> Setup.exe can now install the optional Windows companion. It keeps your profile up to date after <code>/reload</code> or logout and gives short live answers over the game when you ask with <code>/lore ask</code> and Ctrl+C. Connect your account for up to 20 free answers a day while the shared monthly budget lasts, or add your own key for more.</li>
+          <li><strong>More answers to listen to:</strong> the optional English female packs now include 8,376 recordings about people, places, lore and early quests, with each question before its answer.</li>
+          <li><strong>Quest dialogue when you want it:</strong> Speak quest dialogue is off by default in <code>/lore options</code>. Its voice packs are separate downloads; stories and lore answers keep playing as before.</li>
+          <li><strong>NPC tooltips:</strong> wild nightsabers no longer show unrelated Sentinel lore.</li>
+          <li><strong>Clearer downloads:</strong> a simple table helps you find a voice in your language, with recording counts and download sizes clearly labelled. The main add-on includes English male narration; other language and voice downloads include their translated text, with any separate files listed together in the download details.</li>
+          <li>Corrected lore in 150 entries</li>
+          <li><strong>Spanish lore:</strong> restores community wording in 27 entries that had fallen back to English after lore corrections.</li>
+          <li><strong>A clearer companion:</strong> game detection, profile updates and your picture book are together on the main page. Profiles and pictures work without a live answers key. Interrupted profile updates retry by themselves, and Sync now checks your saved journey whenever you need it.</li>
+          <li><strong>Pictures you can follow:</strong> the companion shows when a picture is waiting for a game save, uploading, retrying or on your profile. Matching waits when a picture's journey moment is uncertain, and pausing or disconnecting stops further uploads. Taking a picture off your profile still works when its picture book is full.</li>
+          <li><strong>Clearer Journey status:</strong> a new picture that needs another reload shows guidance instead of a blank image. Chapter dates now belong to the character you are viewing.</li>
+        </ul>
         <h3>0.9.0</h3>
         <ul>
           <li><strong>Quest givers in their own voices:</strong> the first optional pack adds 1,526 recorded lines for male human, dwarf, Forsaken and orc quest givers. It covers part of their dialogue; other lines use your narrator's recording where available, or stay as text.</li>

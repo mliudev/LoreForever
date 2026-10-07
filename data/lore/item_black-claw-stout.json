@@ -10,12 +10,12 @@
    "quest:336"
   ]
  },
- "summary": "Black Claw Stout is a lethal drink prepared by Zardeth of the Black Claw beneath the streets of Stormwind. Concocted under the guise of an ordinary tavern beverage, it serves as an assassination tool directed against an meddlesome nobleman.",
+ "summary": "Black Claw Stout is a special drink prepared by Zardeth of the Black Claw beneath the streets of Stormwind. Concocted for a meddlesome nobleman, it is delivered under the guise of an ordinary tavern beverage.",
  "sections": [
   {
    "title": "A Toxic Draught",
    "body": "Behind the shadowy taprooms of the Slaughtered Lamb, warlocks and conspirators lurk just beneath the notice of the Stormwind city guard. When a noble named Lord Wishock repeatedly threatens to shut down their underground operation while hypocritically running up unpaid bar tabs upstairs, Zardeth of the Black Claw decides to settle the score. The Black Claw Stout is crafted specifically to exploit Wishock's weakness for strong drink, carrying a lethal dose disguised as a common tavern refreshment.",
-   "spoiler": 0
+   "spoiler": 1
   },
   {
    "title": "Quiet Assassination",
@@ -31,7 +31,7 @@
     "black claw stout lore",
     "poison brew"
    ],
-   "answer": "It is a deadly, poisoned brew concocted by Zardeth of the Black Claw in the catacombs beneath the Slaughtered Lamb in Stormwind's Mage Quarter."
+   "answer": "It is a special brew concocted by Zardeth of the Black Claw in the catacombs beneath the Slaughtered Lamb in Stormwind's Mage Quarter, intended for Lord Wishock."
   },
   {
    "q": "Who is the target of the stout?",
@@ -57,7 +57,7 @@
     "does wishock die",
     "black claw stout effect"
    ],
-   "answer": "The brew is instantly fatal. Once Lord Wishock drinks the provided stout, the poison takes immediate effect and kills him where he stands in the Hall of Petitioners."
+   "answer": "Zardeth sends the stout to Lord Wishock in the Hall of Petitioners, asking the courier to see how the noble likes his special brew."
   }
  ],
  "angles": [

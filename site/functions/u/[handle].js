@@ -10,6 +10,8 @@ import { loadLinks } from "../../lib/trails.js";
 import { featureOn } from "../../lib/features.js";
 import { listPictures } from "../../lib/pictures.js";
 import { storyVoice, listenBox } from "../../lib/storyvoice.js";
+import { historyEnabled, historyPage } from "../../lib/history.js";
+import { escape } from "../../lib/voices.js";
 
 const html = (body, status, cache) => new Response(body, {
   status, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": cache, "Vary": "Cookie" },
@@ -47,7 +49,26 @@ export async function onRequestGet({ request, env, params, waitUntil }) {
   // new story in the background.
   const voice = await storyVoice(env, p, { kick: true, origin: url.origin, waitUntil });
   const listen = listenBox(voice, { owner: owner && !asVisitor, name: p.data.name, handle: p.handle });
+  let historyJourney = null, historyLinks = "";
+  if (historyEnabled(env)) {
+    const archived = url.searchParams.get("history") === "1";
+    const page = await historyPage(env, p, { before: archived ? url.searchParams.get("before") || "" : "",
+      limit: archived ? 250 : 1 });
+    if (!page) return html(missingPage(handle, { viewer }), 400, "no-store");
+    if (page.records.length) {
+      const base = `/u/${encodeURIComponent(p.handle)}`;
+      if (archived) historyJourney = { v: 1, tz: 0, moments: page.records.map(r => ({
+        ...r.moment, tz: r.tz,
+      })).sort((a, b) => a.t - b.t) };
+      historyLinks = `<nav class="pf-history" aria-label="Saved history">
+        <a href="${base}?history=1#timeline">${archived ? "Newest saved moments" : "Browse saved history"}</a>
+        ${archived && page.next ? `<a rel="next" href="${base}?history=1&amp;before=${escape(encodeURIComponent(page.next))}#timeline">Older saved moments</a>` : ""}
+        ${archived ? `<a href="${base}#timeline">Back to profile</a>` : ""}
+        ${owner && !asVisitor ? '<a href="/api/profile/history?export=1" data-history-export>Download history page</a><span data-history-export-status role="status" aria-live="polite"></span>' : ""}
+      </nav>`;
+    }
+  }
   return html(profilePage(p, { links: publicLinks(user), owner: owner && !asVisitor, asVisitor, query, badges, names,
-    lore: featureOn(env, "lore"), pictures, viewer, herald: featureOn(env, "companion"), listen }), 200,
+    lore: featureOn(env, "lore"), pictures, viewer, herald: featureOn(env, "companion"), listen, historyLinks, historyJourney }), 200,
     viewer ? "private, no-store" : "no-cache");
 }

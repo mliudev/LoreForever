@@ -105,7 +105,7 @@ test("/downloads fills the Downloads page", async () => {
   const out = await res.text();
   assert.equal(res.status, 200);
   assert.ok(!out.includes("<!-- dl-voices -->") && !out.includes("<!-- dl-included -->"));
-  assert.match(out, /Comes with the whole lore library in English/);
+  assert.match(out, /English text and English male narration come with the main add-on/);
 });
 
 test("What's new: the dot, the strip and the page agree on the newest version", () => {

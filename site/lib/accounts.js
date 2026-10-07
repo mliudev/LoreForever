@@ -12,8 +12,10 @@
 
 import { forgetUser as forgetContributor } from "./contribute.js";
 import { RECORD_ONLY } from "./donate.js";
+import { HISTORY_SETUP, HISTORY_BASE_SETUP } from "./history-schema.js";
 
 const SETUP = [
+  ...HISTORY_BASE_SETUP,
   `CREATE TABLE IF NOT EXISTS users (
     id TEXT PRIMARY KEY, email TEXT UNIQUE, google_sub TEXT UNIQUE, display_name TEXT, links TEXT,
     show_public INTEGER NOT NULL DEFAULT 1, created TEXT NOT NULL)`,
@@ -68,6 +70,8 @@ const SETUP = [
     user_id TEXT PRIMARY KEY, version TEXT NOT NULL, signature TEXT NOT NULL, adult INTEGER NOT NULL, created TEXT NOT NULL)`,
   // Requests per account per minute for zip and kit uploads (lib/ratelimit.js); bucket is "<scope>:<minute>".
   `CREATE TABLE IF NOT EXISTS rate_limits (user_id TEXT NOT NULL, bucket TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (user_id, bucket))`,
+  `CREATE TABLE IF NOT EXISTS answer_spend (month TEXT PRIMARY KEY, reserved_micro INTEGER NOT NULL DEFAULT 0,
+    actual_micro INTEGER NOT NULL DEFAULT 0, calls INTEGER NOT NULL DEFAULT 0)`,
   // A player's profile (lib/profiles.js): the page /u/<handle>, built from their pasted journey record (data: what
   // lib/journey.js read from it, never the text itself). public: 0 until they make it public. story_source: written
   // or template; story_count: stories written for this account so far (today's tries are in rate_limits). story_at:
@@ -90,7 +94,9 @@ const SETUP = [
   // What writing profile stories cost, per calendar month (UTC, "2026-10"): micro_usd in millionths of a dollar,
   // calls made and stories kept. Site-wide, not per account. lib/profiles.js stops writing at the monthly budget.
   `CREATE TABLE IF NOT EXISTS story_spend (
-    month TEXT PRIMARY KEY, micro_usd INTEGER NOT NULL DEFAULT 0, calls INTEGER NOT NULL DEFAULT 0, stories INTEGER NOT NULL DEFAULT 0)`,
+    month TEXT PRIMARY KEY, micro_usd INTEGER NOT NULL DEFAULT 0, calls INTEGER NOT NULL DEFAULT 0,
+    stories INTEGER NOT NULL DEFAULT 0, voice_micro_usd INTEGER NOT NULL DEFAULT 0,
+    reserved_micro INTEGER NOT NULL DEFAULT 0)`,
   // Reports on recordings (lib/clipreports.js, LOR-232). Anyone can send one; user_id is set when signed in.
   `CREATE TABLE IF NOT EXISTS clip_reports (
     id INTEGER PRIMARY KEY AUTOINCREMENT, created TEXT NOT NULL, updated TEXT NOT NULL, clip TEXT NOT NULL, hash TEXT,
@@ -124,11 +130,50 @@ const SETUP = [
     user_id TEXT NOT NULL, cid TEXT NOT NULL, created TEXT NOT NULL, PRIMARY KEY (user_id, cid))`,
 ];
 
-let ready = false;
+const ready = new WeakMap();
+const preparing = new WeakMap();
+export const historyReady = env => ready.get(env.DB)?.history === true;
 export async function setup(env) {
-  if (ready) return;
-  await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
-  ready = true;
+  if (ready.has(env.DB)) return;
+  if (preparing.has(env.DB)) return preparing.get(env.DB);
+  const preparation = (async () => {
+    // Cold Workers share an existing DB. Avoid spending D1's per-request query quota on no-op DDL.
+    const objects = await env.DB.prepare(
+      "SELECT name FROM sqlite_master WHERE type IN ('table', 'index', 'trigger')").all();
+    const existing = new Set(objects.results.map(row => row.name));
+    const missing = SETUP.filter(sql => {
+      const name = sql.match(/^CREATE\s+(?:UNIQUE\s+)?(?:TABLE|INDEX|TRIGGER)\s+IF\s+NOT\s+EXISTS\s+([a-z_][a-z0-9_]*)/i)?.[1];
+      if (!name) throw new Error("Unrecognized account schema statement");
+      return !existing.has(name);
+    });
+    if (missing.length) await env.DB.batch(missing.map(sql => env.DB.prepare(sql)));
+    if (existing.has("story_spend")) {
+      let columns = new Set((await env.DB.prepare("PRAGMA table_info(story_spend)").all()).results.map(row => row.name));
+      for (const column of ["voice_micro_usd", "reserved_micro"]) {
+        if (columns.has(column)) continue;
+        try { await env.DB.prepare(`ALTER TABLE story_spend ADD COLUMN ${column} INTEGER NOT NULL DEFAULT 0`).run(); }
+        catch (error) {
+          // Another cold Worker may have added it. A real failure must leave setup retryable.
+          columns = new Set((await env.DB.prepare("PRAGMA table_info(story_spend)").all()).results.map(row => row.name));
+          if (!columns.has(column)) throw error;
+        }
+        columns.add(column);
+      }
+    }
+    const version = await env.DB.prepare('SELECT version FROM history_schema WHERE version = 3').first();
+    ready.set(env.DB, { history: version?.version === 3 });
+  })();
+  preparing.set(env.DB, preparation);
+  try { await preparation; }
+  finally { preparing.delete(env.DB); }
+}
+
+// Explicit schema preparation for controlled migration and synthetic fixtures, never a request-path upgrade.
+// Production applies site/migrations/history-v3.sql before setting HISTORY_ARCHIVE_ENABLED.
+export async function setupHistory(env) {
+  await setup(env);
+  await env.DB.batch(HISTORY_SETUP.map(s => env.DB.prepare(s)));
+  ready.set(env.DB, { history: true });
 }
 
 const COOKIE = "lf_session";
@@ -239,6 +284,9 @@ const USER_DATA = [
   ["DELETE FROM profile_pictures WHERE user_id = ?", u => u.id],
   ["DELETE FROM picture_tombstones WHERE user_id = ?", u => u.id],
   ["DELETE FROM profiles WHERE user_id = ?", u => u.id],
+  ["DELETE FROM history_records WHERE user_id = ?", u => u.id],
+  ["DELETE FROM history_receipts WHERE user_id = ?", u => u.id],
+  ["DELETE FROM history_tombstones WHERE user_id = ?", u => u.id],
   ["DELETE FROM devices WHERE user_id = ?", u => u.id],
   ["DELETE FROM device_links WHERE user_id = ?", u => u.id],
   ["DELETE FROM clip_reports WHERE user_id = ?", u => u.id],

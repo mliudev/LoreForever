@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Guardian Outside Deathknell",
-   "body": "Posted just outside Deathknell, Deathguard Simmer represents the Forsaken military line holding the border between the safe haven of Deathknell and the wider perils of Tirisfal Glades. The region crawls with living humans\u2014most notably the fanatical Scarlet Crusade\u2014who view all undead as abominations to be purged with fire and blade. Simmer tests fledgling Forsaken by sending them west to the Solliden Farmstead, where the Scarlet Crusade patrols from its nearby tower, to steal ten pumpkins and carry them to Apothecary Johaan in Brill.",
+   "body": "Posted just outside Deathknell, Deathguard Simmer represents the Forsaken military line holding the border between the safe haven of Deathknell and the wider perils of Tirisfal Glades. The region crawls with living humans—most notably the fanatical Scarlet Crusade—who view all undead as abominations to be purged with fire and blade. Simmer tests fledgling Forsaken by sending them west to the Solliden Farmstead, where the Scarlet Crusade patrols from its nearby tower, to steal ten pumpkins and carry them to Apothecary Johaan in Brill.",
    "spoiler": 0
   }
  ],
@@ -52,15 +52,12 @@
   }
  ],
  "keywords": [
-  "calston estate",
   "deathguard",
   "deathguard simmer",
   "deathknell",
-  "scarlet palisade",
   "tirisfal glades"
  ],
  "related": [
-  "subzone:calston-estate",
   "subzone:deathknell",
   "zone:tirisfal",
   "topic:forsaken",

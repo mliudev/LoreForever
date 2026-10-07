@@ -16,7 +16,7 @@
   },
   {
    "title": "The Threat to the Wetlands",
-   "body": "The presence of Balgaras and his followers atop Direforge Hill extends far beyond normal border skirmishes. Dark Iron warlock magic defiles the natural balance of the Wetlands, drawing the ire of protectors such as Rethiel the Greenwarden down in the marsh. Left unchecked, the defilement and burning camps upon the hillside could spread unchecked into the Green Belt and down toward Raptor Ridge.",
+   "body": "The presence of Balgaras and his followers atop Direforge Hill extends far beyond normal border skirmishes. Dark Iron warlock magic defiles the natural balance of the Wetlands. Left unchecked, the defilement and burning camps upon the hillside could spread unchecked into the Green Belt and down toward Raptor Ridge.",
    "spoiler": 0
   }
  ],
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For the Bronzebeard dwarves of Ironforge, seeing the treachery of the Dark Iron clan creep into the Wetlands\u2014especially under warlocks like Balgaras\u2014is an outrage that must be answered with cold steel."
+   "text": "For the Bronzebeard dwarves of Ironforge, seeing the treachery of the Dark Iron clan creep into the Wetlands—especially under warlocks like Balgaras—is an outrage that must be answered with cold steel."
   },
   {
    "target": "class:Druid",
-   "text": "The dark, burning magic wielded by the warlocks of Direforge Hill threatens the primordial balance of the Wetlands, directly disturbing guardians like Rethiel the Greenwarden."
+   "text": "The dark, burning magic wielded by the warlocks of Direforge Hill threatens the primordial balance of the Wetlands."
   }
  ],
  "keywords": [
@@ -83,7 +83,6 @@
   "subzone:dun-modr",
   "subzone:green-belt",
   "subzone:raptor-ridge",
-  "npc:rethiel-the-greenwarden",
   "quest:463"
  ],
  "attribution": [

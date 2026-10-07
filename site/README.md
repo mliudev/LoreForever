@@ -229,6 +229,20 @@ The voice rows come from **`public/voices/voices.json`** through `lib/downloads.
 the list works without JavaScript (`public/voices/player.js` plays samples in place and handles the likes). The house
 narrators are ordinary entries, listed like any community voice.
 
+- **Download choices (LOR-320):** the main add-on includes English male narration. A simple table has one choice per
+  language and narrator, plus the optional quest-giver recordings. Language and voice filters narrow the choices;
+  without JavaScript every released choice and its installation details remain available. Recording counts and
+  compressed download sizes have separate labels. Details group every available component and the matching
+  translation, while keeping CurseForge's actual coverage clear. Full manual bundles are used only after the release
+  metadata confirms that exact version's file exists; older releases keep their working component downloads.
+- **File sizes and version:** `GET /api/download-files` reads the official public GitHub release metadata through
+  `lib/download-files.js` and caches complete answers at the edge for five minutes. `public/voices-page.js` uses one
+  same-origin request to show each exact asset's size and the latest tag. Latest-release failure returns 503;
+  recent-list failure keeps latest usable. Both return `no-store` to visitors; a separate internal cooldown avoids
+  repeated upstream requests (one minute normally, five minutes for rate limits, up to one hour for retry/reset
+  hints). The page keeps working download
+  links while details are loading or unavailable. MB and GB are decimal units, and never an installed-size estimate.
+
 - **Adding a voice:** add one entry to `voices.json` (id, name, credit, language, clips, coverage, tagline, sample,
   download) and put its sample under `public/audio/voices/`. `status: "soon"` lists it with a placeholder and no
   download. `download` is the zip on a GitHub release of the public repo; `/download/voice/<id>`
@@ -240,7 +254,7 @@ narrators are ordinary entries, listed like any community voice.
   `voice_likes` (voice_id, day, ip_hash; created on the first like), at most one per voice, per sender, per day
   (the same daily IP hash as the forms). The total is every row for that voice. `GET /api/voices/likes` returns
   all totals (public). Without JavaScript the button is a form post that comes back to the page.
-- **Locally**, a plain static server shows an empty list; use `npx wrangler pages dev site/public` to run the
+- **Locally**, a plain static server shows an empty list; run `cd site && npx wrangler pages dev public` to run the
   Functions.
 
 ## Voice profiles and contributor accounts
@@ -399,11 +413,13 @@ to `/account#profile` when there's none yet).
   story (`offCanon`) keeps the previous one, or falls back to a summary built from the record (`templateStory`),
   which is also what every profile gets without the key. Each failure's reason goes to the Functions log
   ("profile story: ..."). Players only ever see "story".
-- **What stories may cost:** at most **$100 a calendar month** (UTC) for all accounts together (`STORY_BUDGET_USD`
-  variable to change it). After each call its cost is added to D1 `story_spend` from the reply's `usageMetadata`
+- **What paid calls may cost:** at most **$100 a calendar month** (UTC) for profile stories, their voices, and
+  companion live answers together (`STORY_BUDGET_USD` variable to change it). After each story call its cost is
+  added to D1 `story_spend` from the reply's `usageMetadata`
   at Google's published paid-tier rates (`STORY_PRICES`: $0.25 per million input tokens, $1.50 per million output
   tokens including thinking, checked 2026-10-03), and at the budget no more calls are made until the next month.
-  A story costs about $0.0006 and takes 2-4 seconds (measured 2026-10-03), so $100 is roughly 150,000 stories.
+  A story costs about $0.0006 and takes 2-4 seconds (measured 2026-10-03). Live answers reserve their maximum
+  possible cost before calling Gemini and reconcile to the measured cost afterward (`answer_spend`).
   Each account also gets 3 tries a day (`STORIES_PER_DAY`, counted in `rate_limits`
   before each try, so deleting the profile doesn't reset it). `story_count` keeps an account's total, so writing it
   again can be gated later.
@@ -463,6 +479,11 @@ to `/account#profile` when there's none yet).
   - `/account` lists **Connected apps** (when it last updated the profile, Disconnect) and says in the profile section
     that the companion keeps it up to date. Until the companion ships in Setup.exe (LOR-132), the invitation to
     connect it waits for the `companion` feature (below); connecting, updates and the list work either way.
+- **Companion live answers:** `POST /api/companion/answer` takes the same linked-device token as profile sync and a
+  capped lore/context prompt. The site uses its Gemini 3.1 Flash-Lite key, returns a short answer, and counts one
+  of 20 free answers per account per UTC day. A successful call's input and output tokens go into `answer_spend`;
+  its reserved cost and profile story/voice spend share the $100 monthly budget. The admin dashboard shows all
+  three costs. Players can add their own provider key in the companion when the free allowance is used up.
 - **The picture book** (Mike, 2026-10-05; `lib/pictures.js`, behind the **`pictures` feature**, below): pictures a
   player takes in game with the picture key, which the companion app puts on the profile, newest first, under the
   Map and Timeline views, each with its place, day (the player's own, from the journey data's `tz`), level and the
@@ -817,8 +838,10 @@ links to it, so one from an unmerged branch is never offered. Each upload remove
 - **Turning a submission into a pack:** download the translator's files, then
   `cd pipeline && uv run python -m lore.kit check <locale> <files>` to see what they change, and
   `uv run python -m lore.kit build <locale> <files>` to import them into `data/i18n/<locale>/` and compile
-  `addon/LoreForever_Lang_<locale>/`. A language is in the players' download once it's in `PACKS` in
-  `scripts/build-release.sh` (deDE, esES, frFR and ptBR are); a new one goes in when Mike decides it ships.
+  `addon/LoreForever_Lang_<locale>/`. Released languages are listed in `PACKS` or `RELEASE_PACKS` in
+  `scripts/build-release.sh`. The main ZIP keeps English male narration; the other languages travel with their voice
+  packs. Standalone translation assets remain available for the translator tools. A new language ships when Mike
+  decides it is ready.
 - **Automated check:** `check`, `build` and `pull` send every string that would change, with its English, through an
   automated language check (`pipeline/lore/kit_review.py`, its key from `.env`), which flags wrong meanings, the wrong
   language, spam and gibberish. Flagged strings are left out and listed with the reason (`--keep-flagged` takes them

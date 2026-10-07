@@ -17,7 +17,7 @@
   },
   {
    "title": "Dartol's Legacy",
-   "body": "Through the magical enchantment of Dartol's Rod of Transformation, Alliance travelers are able to cloak themselves in the guise of a furbolg. Upon seeing what appears to be a friendly kindred spirit, Krolg opens up and reveals crucial insights into cleansing the land. He assists in completing Dartol's ancient rod and directs heroes against Chief Murgut, the self-proclaimed King of the Foulweald whose corrupt leadership threatens the region.",
+   "body": "Through the magical enchantment of Dartol's Rod of Transformation, Alliance travelers are able to cloak themselves in the guise of a furbolg. Upon seeing what appears to be a friendly kindred spirit, Krolg opens up and reveals crucial insights into cleansing the land. He directs heroes against Ran Bloodtooth and his guards, whose corruption and hatred threaten the forest.",
    "spoiler": 1
   }
  ],
@@ -54,23 +54,23 @@
     "does krolg attack",
     "is krolg an enemy"
    ],
-   "answer": "No, Krolg is non-hostile to Alliance travelers. However, he remains entirely silent and unwilling to offer quests until approached in furbolg form."
+   "answer": "Krolg attacks outsiders who approach him without using the furbolg transformation. Adventurers must use Dartol's Rod of Transformation before approaching him."
   },
   {
-   "q": "Why does Krolg want Chief Murgut dead?",
+   "q": "Why does Krolg want Ran Bloodtooth dead?",
    "aliases": [
-    "king of the foulweald quest",
-    "why kill murgut"
+    "krolg ran bloodtooth",
+    "why kill ran bloodtooth"
    ],
-   "answer": "Chief Murgut leads the corrupted Foulweald tribe as their self-proclaimed king. To protect what remains of the woodland and stop the spread of feral corruption, Krolg tasks transformed adventurers with slaying the chief."
+   "answer": "Krolg sees Ran Bloodtooth as power-hungry and made stronger by corruption. Although Krolg blames the night elves for his kin's suffering, he will not let Ran threaten their children or the forest's other creatures."
   },
   {
-   "q": "Who was Dartol, whose rod Krolg helps restore?",
+   "q": "Who was Dartol, whose rod lets adventurers speak with Krolg?",
    "aliases": [
     "who is dartol",
     "dartols rod backstory"
    ],
-   "answer": "Dartol was a human wizard who created the rod, an enchanted item that lets its bearer take the form of a furbolg. Krolg helps players assemble the final pieces required to awaken its true power."
+   "answer": "Dartol created the enchanted Rod of Transformation, which lets its bearer take furbolg form. Adventurers use the already-restored rod to approach Krolg during Raene's Cleansing."
   }
  ],
  "angles": [

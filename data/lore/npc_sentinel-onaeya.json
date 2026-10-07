@@ -3,12 +3,12 @@
  "type": "npc",
  "name": "Sentinel Onaeya",
  "era": "classic",
- "zone": "darkshore",
+ "zone": "ashenvale",
  "meta": {
   "wiki": "Sentinel Onaeya",
   "refs": 3
  },
- "summary": "Sentinel Onaeya is a night elf guardian stationed at Maestra's Post in northwestern Ashenvale, near the border with Darkshore. Tasked with holding the line against encroaching perils, she rallies capable Alliance adventurers to safeguard the forest and honor fallen defenders.",
+ "summary": "Sentinel Onaeya is a night elf guardian stationed at Maestra's Post in northwestern Ashenvale, near the border with Darkshore. Tasked with holding the line against encroaching perils, she rallies capable Alliance adventurers to safeguard the forest and aid fellow sentinels.",
  "sections": [
   {
    "title": "A Guard on the Frontier",
@@ -17,7 +17,7 @@
   },
   {
    "title": "Holding the Post",
-   "body": "When hostilities flare and the perimeter falls under pressure, Onaeya remains squarely focused on the battle at hand. She coordinates strikes against nearby threats and works to recover and honor fallen comrades, relying on capable adventurers arriving from Darkshore to reinforce the outpost's beleaguered defenders.",
+   "body": "Onaeya receives news of Sentinel Aynasha, who is attacked by furbolgs while carrying an important message through Darkshore. She rewards adventurers who protect the poisoned sentinel until her antidote takes effect.",
    "spoiler": 0
   }
  ],
@@ -50,13 +50,12 @@
    "answer": "She is a member of the Night Elf Sentinels and is loyal to the Alliance. Horde adventurers will find her hostile on sight."
   },
   {
-   "q": "Why is Sentinel Onaeya too busy to talk sometimes?",
+   "q": "How is Onaeya connected to Sentinel Aynasha?",
    "aliases": [
-    "cant talk",
-    "onaeya in combat",
-    "were in a bit of a fight here"
+    "onaeya aynasha",
+    "sentinel aynasha reward"
    ],
-   "answer": "When Maestra's Post comes under attack or is actively threatened, Onaeya focuses entirely on defense, warning passersby that the post is in the middle of a skirmish."
+   "answer": "Sentinel Aynasha asks adventurers to report to Onaeya at Maestra's Post after they protect her from attacking furbolgs. Onaeya rewards their bravery and is glad to hear Aynasha survived."
   },
   {
    "q": "What kind of tasks does Sentinel Onaeya give?",
@@ -64,7 +63,7 @@
     "onaeya quests",
     "what quests does onaeya have"
    ],
-   "answer": "Onaeya recruits capable scouts and fighters to strike at nearby dangers, honor fallen defenders, and help keep the roads through northwestern Ashenvale clear for travelers."
+   "answer": "Onaeya rewards adventurers who protect Sentinel Aynasha from attacking furbolgs in Darkshore and bring word of her safety to Maestra's Post."
   },
   {
    "q": "Why is Maestra's Post important to the Sentinels?",

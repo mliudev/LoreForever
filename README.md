@@ -6,7 +6,8 @@ Narrated intros for every starting zone, capital and early dungeon, and answers 
 **[Download the installer (Windows)](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever-Setup.exe)**
 · [Zip](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip) · [Website](https://loreforeverwow.com) · [CurseForge](https://www.curseforge.com/wow/addons/lore-forever)
 
-Lore Forever comes with the male narrator. On CurseForge you can also add the
+Lore Forever comes with English male narration. Other language and voice downloads include their matching
+translated text. On CurseForge you can also add the
 [female narrator](https://www.curseforge.com/wow/addons/lore-forever-female-narrator), quest dialogue in the
 [male](https://www.curseforge.com/wow/addons/lore-forever-quest-dialogue-male-narrator) or
 [female](https://www.curseforge.com/wow/addons/lore-forever-quest-dialogue-female-narrator) narrator's voice, and
@@ -38,9 +39,9 @@ It finds your World of Warcraft folder, downloads the latest release from this r
 
 1. Download [LoreForever.zip](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip).
 2. Open your WoW folder, then `_classic_beta_\Interface\AddOns` (create `Interface\AddOns` if it isn't there).
-3. Unzip it there, so you end up with two folders side by side: `...\AddOns\LoreForever\LoreForever.toc` and
-   `...\AddOns\LoreForever_Voice_Default\LoreForever_Voice_Default.toc` (the narration). Watch out for a doubled
-   folder like `AddOns\LoreForever\LoreForever\`: that won't load.
+3. Unzip all its folders there, with `LoreForever` and the `LoreForever_Voice_*` folders side by side. For example,
+   `...\AddOns\LoreForever\LoreForever.toc` and `...\AddOns\LoreForever_Voice_Default\LoreForever_Voice_Default.toc`.
+   Watch out for a doubled folder like `AddOns\LoreForever\LoreForever\`: that won't load.
 4. Start the game and pick a key when it asks, or type `/lore`.
 
 If it doesn't show up: on the character screen, click **AddOns** and tick **Load out of date AddOns**.
@@ -48,8 +49,10 @@ If it doesn't show up: on the character screen, click **AddOns** and tick **Load
 To update, download the new zip, unzip it over the old folders and type `/reload` in game. If an older version left a
 `LoreForever\Audio` folder behind, you can delete it: the narration now lives in `LoreForever_Voice_Default`.
 
-Other narration voices can be installed the same way; see [loreforeverwow.com/voices](https://loreforeverwow.com/voices),
-which also explains how to record one.
+Other narration voices can be installed the same way. Choose your language and voice on the
+[Downloads page](https://loreforeverwow.com/downloads#voices), then unzip every folder from its download into
+`AddOns`, including any `LoreForever_Lang_*` folder. To contribute recordings, see the
+[narrator guide](https://loreforeverwow.com/voices/guide).
 
 ## What it does
 

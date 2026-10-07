@@ -17,12 +17,12 @@
   },
   {
    "title": "The Vessel of Rebirth",
-   "body": "Demitrian's purpose is tied entirely to Thunderaan's resurrection. Should an adventurer present him with the Bindings of the Windseeker\u2014relics torn from fire elementals within the Molten Core\u2014Demitrian provides the Vessel of Rebirth. He demands rare elemental reagents, including vast quantities of enchanted elementium and the essence of the Firelord, to reconstitute his prince's physical form.",
+   "body": "Demitrian's purpose is tied entirely to Thunderaan's resurrection. Should an adventurer present him with the Bindings of the Windseeker—relics torn from fire elementals within the Molten Core—Demitrian provides the Vessel of Rebirth. He demands rare elemental reagents, including vast quantities of enchanted elementium and the essence of the Firelord, to reconstitute his prince's physical form.",
    "spoiler": 1
   },
   {
    "title": "Betrayal of the Windseeker",
-   "body": "Demitrian's devotion is repaid swiftly with treachery. Upon gathering the required components and summoning Thunderaan forth into the Crystal Vale, the Windseeker attacks rather than rewards his mortal servant. Once adventurers vanquish the furious elemental lord, Demitrian cowers in terror, surrendering the Dormant Wind Kissed Blade from which the legendary sword Thunderfury is forged.",
+   "body": "Demitrian's ritual brings Prince Thunderaan into the Crystal Vale, where adventurers must face the restored Windseeker in battle. Once they vanquish the elemental lord, they recover the Dormant Wind Kissed Blade and bring it to the terrified Demitrian, who awakens Thunderfury in exchange.",
    "spoiler": 2
   }
  ],
@@ -79,7 +79,7 @@
     "thunderfury quest finish",
     "demitrian blade"
    ],
-   "answer": "Once Prince Thunderaan has been called forth in the Crystal Vale and the ordeal there is over, Demitrian hands over the Dormant Wind Kissed Blade, which can be formed into Thunderfury, Blessed Blade of the Windseeker."
+   "answer": "After Prince Thunderaan is defeated, adventurers recover the Dormant Wind Kissed Blade and present it to Demitrian. He awakens the blade and grants Thunderfury, Blessed Blade of the Windseeker."
   }
  ],
  "angles": [

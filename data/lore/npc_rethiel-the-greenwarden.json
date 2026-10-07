@@ -8,11 +8,11 @@
   "wiki": "Rethiel the Greenwarden",
   "refs": 6
  },
- "summary": "Rethiel the Greenwarden is an ancient, sentient bog beast residing in Greenwarden's Grove within the Wetlands. Deeply attuned to the natural balance of the marsh, he watches over the land and enlists travelers to cull threats that disrupt its harmony.",
+ "summary": "Rethiel the Greenwarden is an ancient, sentient bog beast residing in the Green Belt within the Wetlands. Deeply attuned to the natural balance of the marsh, he watches over the land and enlists travelers to cull threats that disrupt its harmony.",
  "sections": [
   {
    "title": "Guardian of the Marsh",
-   "body": "Standing amidst the damp thickets of Greenwarden's Grove, Rethiel is a towering creature of moss, peat, and primal plant life. While many bog beasts in the marshlands wander aimlessly as aggressive predators, Rethiel possesses a rare, conscious awareness and a sorrowful voice. He perceives the wetlands not merely as murky terrain, but as a living ecosystem that currently cries out under the weight of foreign predation and corruption.",
+   "body": "Standing amidst the damp thickets of the Green Belt, Rethiel is a towering creature of moss, peat, and primal plant life. While many bog beasts in the marshlands wander aimlessly as aggressive predators, Rethiel possesses a rare, conscious awareness and a sorrowful voice. He perceives the wetlands not merely as murky terrain, but as a living ecosystem that currently cries out under the weight of foreign predation and corruption.",
    "spoiler": 0
   },
   {
@@ -29,16 +29,15 @@
     "rethiel lore",
     "bog beast npc wetlands"
    ],
-   "answer": "Rethiel is a sentient bog beast residing at Greenwarden's Grove in the Wetlands. Unlike the mindless creatures of his kind, he can communicate with mortals and acts as a protector of the marsh."
+   "answer": "Rethiel is a sentient bog beast residing at the Green Belt in the Wetlands. Unlike the mindless creatures of his kind, he can communicate with mortals and acts as a protector of the marsh."
   },
   {
    "q": "Where can I find Rethiel?",
    "aliases": [
     "rethiel location",
-    "where is rethiel",
-    "greenwardens grove location"
+    "where is rethiel"
    ],
-   "answer": "He can be found at Greenwarden's Grove, situated along the road in the eastern portion of the Wetlands, east of the main marsh crossroads and west of Dun Algaz."
+   "answer": "He can be found in the Green Belt in the eastern Wetlands, northeast of Dun Algaz."
   },
   {
    "q": "Why does Rethiel want travelers to help him?",
@@ -47,7 +46,7 @@
     "rethiel goal",
     "what does rethiel want"
    ],
-   "answer": "Rethiel senses that the marsh is actively suffering. He seeks adventurers to purge invasive threats\u2014specifically destructive Mosshide gnoll bands, the crude flints they use to set the marsh's trees ablaze, and diseased fen creepers\u2014to bring relief to the land."
+   "answer": "Rethiel senses that the marsh is actively suffering. He seeks adventurers to purge invasive threats—specifically destructive Mosshide gnoll bands, the crude flints they use to set the marsh's trees ablaze, and diseased fen creepers—to bring relief to the land."
   },
   {
    "q": "Are all bog beasts sentient like Rethiel?",
@@ -90,14 +89,12 @@
  "keywords": [
   "bog beast",
   "greenwarden",
-  "greenwarden's grove",
   "mosshide",
   "nature",
   "rethiel",
   "wetlands"
  ],
  "related": [
-  "subzone:greenwarden-s-grove",
   "zone:wetlands",
   "quest:463",
   "quest:275",

@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Dalaran"
  },
- "summary": "Dalaran was once the shining magocratic capital of the Kirin Tor, nestled on the southern shore of Lordamere Lake. Shattered by the Scourge and the demon lord Archimonde during the Third War, its ruins now lie sealed beneath an immense, opaque dome of crackling violet energy as surviving magi labor in secrecy to rebuild.",
+ "summary": "Dalaran was once the shining magocratic capital of the Kirin Tor, nestled on the southern shore of Lordamere Lake. Shattered by the Scourge and the demon lord Archimonde during the Third War, its surviving magi are rebuilding the city, having removed its protective violet shield early in the reconstruction.",
  "sections": [
   {
    "title": "Fall of the Magocracy",
@@ -15,21 +15,21 @@
    "spoiler": 0
   },
   {
-   "title": "Behind the Violet Shield",
-   "body": "In the aftermath of the Legion's defeat, the surviving wizards of the Kirin Tor returned to their devastated homeland. Refusing to surrender their ancestral ground to the Scourge or scavengers, they erected an impassable, shimmering violet barrier over the city's heart. Today, the dome blankets the ruins completely, blocking all sight and entry. From within, arcane hums and pulses echo out toward the surrounding hills, confirming that the sorcerers remain hard at work reconstructing their fallen sanctuary away from the eyes of a hostile world.",
+   "title": "Rebuilding the Magocracy",
+   "body": "In the aftermath of the Legion's defeat, the surviving wizards of the Kirin Tor returned to their devastated homeland. Refusing to surrender their ancestral ground to the Scourge or scavengers, they erected an impassable, shimmering violet barrier over the city's heart. In Forever, they removed the shield early, while the city was still under reconstruction. The magi continue rebuilding their fallen sanctuary, and Archmage Ansirem Runeweaver can be found in the Violet Citadel.",
    "spoiler": 0
   }
  ],
  "faq": [
   {
-   "q": "What is the giant purple bubble in the Alterac Mountains?",
+   "q": "What became of Dalaran's protective shield?",
    "aliases": [
     "purple bubble",
     "purple shield alterac",
     "what is the dome",
     "dalaran dome"
    ],
-   "answer": "It is a massive, impenetrable magical shield erected by the Kirin Tor. It seals off the ruins of Dalaran to protect the surviving magi while they secretly rebuild their city after its destruction in the Third War."
+   "answer": "The Kirin Tor erected a magical shield over Dalaran after its destruction in the Third War. In Forever, they removed it early while the city was still being rebuilt."
   },
   {
    "q": "Can players enter Dalaran?",
@@ -38,7 +38,7 @@
     "how to enter dalaran",
     "get past dalaran shield"
    ],
-   "answer": "No. The shimmering barrier is entirely impassable, repelling all physical and magical intrusion. The Kirin Tor allows no outsiders into the reconstruction zone."
+   "answer": "Yes. In Forever, Dalaran is accessible while reconstruction is still underway. Archmage Ansirem Runeweaver resides in the Violet Citadel."
   },
   {
    "q": "Who destroyed Dalaran?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Dalaran is the historical cradle of human and high elven wizardry. Seeing its legendary spires concealed beneath a defensive shield serves as a solemn reminder of the devastating losses mages suffered in the Third War."
+   "text": "Dalaran is the historical cradle of human and high elven wizardry. Seeing its legendary spires still being rebuilt serves as a solemn reminder of the devastating losses mages suffered in the Third War."
   },
   {
    "target": "faction:Alliance",
-   "text": "Dalaran was one of the seven founding kingdoms of the original Alliance of Lordaeron, and loyalists hope the secretive Kirin Tor will eventually emerge to aid the fight against the Scourge."
+   "text": "Dalaran was one of the seven founding kingdoms of the original Alliance of Lordaeron, and the Kirin Tor is rebuilding its devastated capital."
   }
  ],
  "keywords": [

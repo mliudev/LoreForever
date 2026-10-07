@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Dangerous Watering Hole",
-   "body": "Tucked away southwest of Sentinel Hill, Stendel's Pond offers a quiet break from Westfall's dusty plains, though danger is never far. Gnolls roam the muddy banks, while scattered skeletons and a pair of lone graves suggest that either the waters or the beasts around it are fatal to careless travelers. Anglers still risk the trek for schools of sagefish and the elusive prize known locally as Stendel's Bane.",
+   "body": "Tucked away southwest of Sentinel Hill, Stendel's Pond offers a quiet break from Westfall's dusty plains, though danger is never far. Gnolls roam the muddy banks, while scattered skeletons and a pair of lone graves suggest that either the waters or the beasts around it are fatal to careless travelers. Anglers still risk the trek for schools of sagefish.",
    "spoiler": 0
   }
  ],
@@ -42,15 +42,6 @@
     "grave at pond"
    ],
    "answer": "The skeletons and two unnamed graves point to the area's deadly perils. Whether travelers fell prey to the gnolls or were poisoned by foul pond water remains an ominous mystery."
-  },
-  {
-   "q": "Can you catch anything special while fishing here?",
-   "aliases": [
-    "stendel pond fishing",
-    "fish in stendel's pond",
-    "stendel's bane"
-   ],
-   "answer": "Yes. Beyond schools of sagefish, fishermen have been known to hook an exceptionally rare catch called Stendel's Bane."
   }
  ],
  "angles": [
@@ -70,7 +61,6 @@
   "sagefish",
   "sentinel hill",
   "stendel",
-  "stendel's bane",
   "westfall"
  ],
  "related": [

@@ -10,7 +10,7 @@
    "quest:252"
   ]
  },
- "summary": "The Translated Letter is the deciphered message penned by the hermit Abercrombie and translated by Sirra Von'Indi in Darkshire. It reveals the horrifying consequences of aiding the recluse, warning that an abomination named Stitches is marching on the town.",
+ "summary": "The Translated Letter is the deciphered message penned by the hermit Abercrombie and translated by Sirra Von'Indi in Darkshire. It must be carried urgently to Lord Ello Ebonlocke, who needs to understand the warning it contains.",
  "sections": [
   {
    "title": "A Gruesome Revelation",
@@ -31,7 +31,7 @@
     "what did abercrombie write",
     "what does it say"
    ],
-   "answer": "The letter details Abercrombie's spiteful revenge against Darkshire, revealing that he used the components delivered to him to stitch together a terrifying undead abomination named Stitches and sent it marching toward the town."
+   "answer": "It contains an alarming message from Abercrombie for Lord Ello Ebonlocke. Its full contents are revealed when the translated note is delivered in Darkshire."
   },
   {
    "q": "Who translates the letter?",
@@ -49,7 +49,7 @@
     "turning in translated letter",
     "what happens after translation"
    ],
-   "answer": "Lord Ello turns pale with dread upon reading the translation. He laments that well-meaning aid was used to construct an abomination, and Darkshire is thrown into alarm as Stitches lumbers down the road from Raven Hill Cemetery."
+   "answer": "Ello is deeply alarmed by the translation. Bring it to him to learn what it means for Darkshire."
   },
   {
    "q": "Can I throw away the Translated Letter after the quest?",

@@ -8,16 +8,11 @@
   "wiki": "Zenn Foulhoof",
   "refs": 2
  },
- "summary": "Zenn Foulhoof is an exiled satyr lingering just east of Dolanaar in Teldrassil. While he feigns innocence to passersby and tries to trick young adventurers into helping him, the local night elves keep a close eye on his scheming. Though tolerated for a time through minor punishments, his affinity for dark magic makes him an unwelcome presence on the boughs of the World Tree.",
+ "summary": "Zenn Foulhoof is a satyr lingering just east of Dolanaar in Teldrassil. He approaches passersby with requests for forest reagents, while the local night elves keep a close eye on him.",
  "sections": [
   {
    "title": "A Schemer in the Woods",
    "body": "Unlike most satyrs, who are outright hostiles serving demonic masters, Zenn Foulhoof somehow secured a tenuous tolerance just outside Dolanaar. He maintains a friendly facade, claiming he has changed or wants to trade in harmless forest reagents like spider fangs and tiger lily scents. In reality, he manipulates gullible youths to procure ingredients for foul rituals. Dolanaar's council refuses to let him operate unchecked; rather than executing him immediately, they order adventurers to humiliate him by feeding him corrupted forest fruit, temporarily transforming the scheming satyr into a harmless frog.",
-   "spoiler": 0
-  },
-  {
-   "title": "Exile to Darkshore",
-   "body": "Zenn's petty trickery in Teldrassil quickly escalates into dangerous corruption. After being thoroughly chased out of the World Tree for his dark magic, he establishes a lair in Cliffspring Hollow near Cliffspring Falls in Darkshore. Stripping away all pretense of repentance, Zenn allies with grell and rogue alchemists, actively spreading a foul blight that maddens the local wildlife until Tharnariun Treetender marks him for death.",
    "spoiler": 1
   }
  ],
@@ -38,16 +33,7 @@
     "seek redemption quest",
     "zenn frog"
    ],
-   "answer": "As penance ordered by the elders of Dolanaar, an adventurer forces Zenn to ingest the tainted woodland flora he sought to exploit. The foul magic backfires instantly, turning him into a small, squawking frog."
-  },
-  {
-   "q": "Where does Zenn Foulhoof go after leaving Teldrassil?",
-   "aliases": [
-    "where is zenn foulhoof in darkshore",
-    "zenn foulhoof location",
-    "cliffspring hollow satyr"
-   ],
-   "answer": "Once driven off the World Tree, Zenn flees to Darkshore and takes up residence in Cliffspring Hollow near Cliffspring Falls."
+   "answer": "The elders of Dolanaar order this as penance for Zenn's misdeeds. The result of the punishment is revealed when he eats the corrupted fruit."
   },
   {
    "q": "What is a satyr?",
@@ -69,7 +55,6 @@
   }
  ],
  "keywords": [
-  "cliffspring falls",
   "corrupted cone",
   "dolanaar",
   "satyr",
@@ -82,9 +67,6 @@
   "subzone:dolanaar",
   "quest:488",
   "quest:489",
-  "zone:darkshore",
-  "subzone:cliffspring-falls",
-  "npc:tharnariun-treetender",
   "zone:teldrassil"
  ],
  "attribution": [

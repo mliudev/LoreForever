@@ -87,11 +87,15 @@ export async function onRequestGet({ request, env }) {
                     days: signupDays };
   // Profile stories (lib/profiles.js): what this month's cost so far against the monthly budget.
   const spend = (await safe(storySpend(env))) || { micro_usd: 0, calls: 0, stories: 0 };
+  const answerSpend = (await safe(env.DB.prepare("SELECT * FROM answer_spend WHERE month = ?")
+    .bind(new Date().toISOString().slice(0, 7)).first())) || { actual_micro: 0, reserved_micro: 0, calls: 0 };
   // voiceUsd: recording them (lib/storyvoice.js, LOR-316), in the same budget.
   const stories = { month: new Date().toISOString().slice(0, 7), usd: spend.micro_usd / 1e6, calls: spend.calls,
                     written: spend.stories, budget: Number(env.STORY_BUDGET_USD ?? STORY_BUDGET_USD),
                     on: Boolean(env.GEMINI_API_KEY), voiceUsd: (spend.voice_micro_usd || 0) / 1e6,
-                    voiceOn: Boolean(env.FAL_KEY) };
+                    reservedUsd: (spend.reserved_micro || 0) / 1e6, voiceOn: Boolean(env.FAL_KEY) };
+  const answers = { month: stories.month, usd: answerSpend.actual_micro / 1e6,
+                    budgetUsedUsd: answerSpend.reserved_micro / 1e6, calls: answerSpend.calls };
   // Add-on report codes (LOR-120) spelled out, for the report card.
   for (const f of feedback) {
     let r = null;
@@ -102,7 +106,7 @@ export async function onRequestGet({ request, env }) {
   await safe(setupContrib(env));
   const contributions = (await safe(adminView(env))) || { counts: {}, accepted: 0, batches: [] };
   return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users,
-                stories, contributions, signups });
+                stories, answers, contributions, signups });
 }
 
 export async function onRequestPost({ request, env }) {
