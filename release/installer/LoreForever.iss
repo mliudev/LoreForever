@@ -1,7 +1,8 @@
 ; Lore Forever Windows installer (Inno Setup 6).
 ; Installs the add-on into <WoW>\_classic_beta_\Interface\AddOns\LoreForever and the packs from the release zip next
-; to it: the default narration voice (LoreForever_Voice_Default), its Alliance and Horde lands packs and the language
-; packs (LoreForever_Lang_<locale>, which load only for that language). The WoW folder is found from Battle.net's
+; to it: the English default narration voice (LoreForever_Voice_Default), its Alliance and Horde lands and quest
+; packs. Other languages come with their optional voice downloads. Existing translations are left in place.
+; The WoW folder is found from Battle.net's
 ; uninstall entry, and the player can change it on the folder page. Running a newer installer updates in place.
 ;
 ; Extra narrator voices (optional): a page after the folder page offers each voice in the [Code] voice table. A ticked
@@ -15,8 +16,8 @@
 ;   /VOICEURL=<base>     where the voice zips come from instead of this version's release, e.g.
 ;                        https://github.com/mliudev/LoreForever/releases/latest/download/ (to smoke-test a build
 ;                        whose release isn't published yet)
-;   /QA                  no uninstaller and no Apps & features entry, so a test install into a scratch folder doesn't
-;                        replace a real install's entry (or the folder the next installer suggests)
+;   /QA                  requires an explicit scratch /DIR; companion files and voice stay under it. No registry,
+;                        shortcuts, app launch, process stop or uninstaller; leaves the real installation alone.
 ;
 ; Built by .github/workflows/release.yml from the unzipped release zip:
 ;   iscc /DAppVersion=0.3.0 /DSourceDir=<folder holding the zip's add-on folders> /DOutputDir=dist release\installer\LoreForever.iss
@@ -40,15 +41,9 @@
 #define VoiceDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default"
 #define AllianceDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Alliance"
 #define HordeDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Horde"
-#define QuestsDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Quests"
-#define DeDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Lang_deDE"
-#define PtDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Lang_ptBR"
-#define EsDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Lang_esES"
-#define FrDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Lang_frFR"
 #define FemaleDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female"
 #define FemaleAllianceDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_Alliance"
 #define FemaleHordeDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_Horde"
-#define FemaleQuestsDir "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_Quests"
 
 [Setup]
 AppId={{6B7E3F52-4C1D-4E8A-9A57-1F0D2C8B5E31}
@@ -62,7 +57,7 @@ AppUpdatesURL=https://github.com/mliudev/LoreForever/releases
 DefaultDirName={code:DefaultWoWDir}
 DirExistsWarning=no
 AppendDefaultDirName=no
-UsePreviousAppDir=yes
+UsePreviousAppDir=not IsQA
 DisableProgramGroupPage=yes
 DisableReadyPage=no
 ; The AddOns folder is writable by normal users, so no admin prompt.
@@ -103,11 +98,6 @@ Type: filesandordirs; Name: "{#AddOnDir}\Audio"
 Type: filesandordirs; Name: "{#VoiceDir}"
 Type: filesandordirs; Name: "{#AllianceDir}"
 Type: filesandordirs; Name: "{#HordeDir}"
-Type: filesandordirs; Name: "{#QuestsDir}"
-Type: filesandordirs; Name: "{#DeDir}"
-Type: filesandordirs; Name: "{#PtDir}"
-Type: filesandordirs; Name: "{#EsDir}"
-Type: filesandordirs; Name: "{#FrDir}"
 
 [Files]
 ; The voice packs' mp3 recordings are compressed already: they go in as they are (nocompression), as in the zip.
@@ -120,31 +110,19 @@ Source: "{#SourceDir}\LoreForever_Voice_Default_Alliance\*"; Excludes: "*.mp3"; 
 Source: "{#SourceDir}\LoreForever_Voice_Default_Alliance\*.mp3"; DestDir: "{#AllianceDir}"; Flags: ignoreversion recursesubdirs createallsubdirs nocompression skipifsourcedoesntexist
 Source: "{#SourceDir}\LoreForever_Voice_Default_Horde\*"; Excludes: "*.mp3"; DestDir: "{#HordeDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "{#SourceDir}\LoreForever_Voice_Default_Horde\*.mp3"; DestDir: "{#HordeDir}"; Flags: ignoreversion recursesubdirs createallsubdirs nocompression skipifsourcedoesntexist
-Source: "{#SourceDir}\LoreForever_Voice_Default_Quests\*"; Excludes: "*.mp3"; DestDir: "{#QuestsDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "{#SourceDir}\LoreForever_Voice_Default_Quests\*.mp3"; DestDir: "{#QuestsDir}"; Flags: ignoreversion recursesubdirs createallsubdirs nocompression skipifsourcedoesntexist
-Source: "{#SourceDir}\LoreForever_Lang_deDE\*"; DestDir: "{#DeDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "{#SourceDir}\LoreForever_Lang_ptBR\*"; DestDir: "{#PtDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "{#SourceDir}\LoreForever_Lang_esES\*"; DestDir: "{#EsDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "{#SourceDir}\LoreForever_Lang_frFR\*"; DestDir: "{#FrDir}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [UninstallDelete]
 Type: filesandordirs; Name: "{#AddOnDir}"
 Type: filesandordirs; Name: "{#VoiceDir}"
 Type: filesandordirs; Name: "{#AllianceDir}"
 Type: filesandordirs; Name: "{#HordeDir}"
-Type: filesandordirs; Name: "{#QuestsDir}"
-Type: filesandordirs; Name: "{#DeDir}"
-Type: filesandordirs; Name: "{#PtDir}"
-Type: filesandordirs; Name: "{#EsDir}"
-Type: filesandordirs; Name: "{#FrDir}"
 ; Extra voices: only the ones this installer put there (a voice unzipped by hand stays).
 Type: filesandordirs; Name: "{#FemaleDir}"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{#FemaleAllianceDir}"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{#FemaleHordeDir}"; Check: VoiceChosen('female')
-Type: filesandordirs; Name: "{#FemaleQuestsDir}"; Check: VoiceChosen('female')
 
 [Run]
-Filename: "https://loreforeverwow.com"; Description: "Open the Lore Forever website"; Flags: postinstall shellexec nowait unchecked
+Filename: "https://loreforeverwow.com"; Description: "Open the Lore Forever website"; Flags: postinstall shellexec nowait unchecked; Check: not IsQA
 
 [Code]
 // ---- Extra narrator voices ----------------------------------------------------------------------------------
@@ -168,9 +146,9 @@ begin
   SetArrayLength(VoiceFolders, 1);
   SetArrayLength(VoiceWanted, 1);
   VoiceIds[0] := 'female';
-  VoiceNames[0] := 'Female narrator (every narration, a few hundred MB)';
+  VoiceNames[0] := 'Female narrator (stories, answers and lands)';
   VoiceAssets[0] := 'LoreForever_Voice_Female-complete.zip';
-  VoiceFolders[0] := 'LoreForever_Voice_Female;LoreForever_Voice_Female_Alliance;LoreForever_Voice_Female_Horde;LoreForever_Voice_Female_Quests';
+  VoiceFolders[0] := 'LoreForever_Voice_Female;LoreForever_Voice_Female_Alliance;LoreForever_Voice_Female_Horde';
 end;
 
 // A bare /QA on the command line. ({param:QA} only sees /QA=value, so it's checked by hand.)
@@ -183,6 +161,13 @@ begin
     if CompareText(ParamStr(I), '/QA') = 0 then Result := True;
 end;
 
+function InitializeSetup(): Boolean;
+begin
+  // Abort before default-folder discovery or any installation side effects.
+  Result := (not IsQA()) or (Trim(ExpandConstant('{param:DIR|}')) <> '');
+  if not Result then
+    SuppressibleMsgBox('/QA needs an explicit /DIR pointing to a scratch WoW folder.', mbError, MB_OK, IDOK);
+end;
 function AddOnsDir(): String;
 begin
   Result := AddBackslash(WizardDirValue()) + '_classic_beta_\Interface\AddOns';
@@ -402,6 +387,10 @@ end;
 
 function DefaultWoWDir(Param: String): String;
 begin
+  if IsQA() then begin
+    Result := ExpandConstant('{param:DIR|}');
+    Exit;
+  end;
   Result := FindWoW();
   if Result = '' then
     Result := ExpandConstant('{commonpf32}\World of Warcraft');
@@ -414,9 +403,13 @@ begin
   Result := True;
   if CurPageID = wpSelectDir then begin
     Dir := WizardDirValue();
-    // Accept the _classic_beta_ folder itself, or its AddOns folder, by walking up to the WoW root.
-    if CompareText(ExtractFileName(Dir), 'AddOns') = 0 then Dir := ExtractFileDir(ExtractFileDir(ExtractFileDir(Dir)));
-    if CompareText(ExtractFileName(Dir), '_classic_beta_') = 0 then Dir := ExtractFileDir(Dir);
+    if IsQA() then
+      Dir := ExpandConstant('{param:DIR|}')
+    else begin
+      // Accept the _classic_beta_ folder itself, or its AddOns folder, by walking up to the WoW root.
+      if CompareText(ExtractFileName(Dir), 'AddOns') = 0 then Dir := ExtractFileDir(ExtractFileDir(ExtractFileDir(Dir)));
+      if CompareText(ExtractFileName(Dir), '_classic_beta_') = 0 then Dir := ExtractFileDir(Dir);
+    end;
     if not DirExists(AddBackslash(Dir) + '_classic_beta_') then begin
       // SuppressibleMsgBox: a silent install (/SUPPRESSMSGBOXES) with a wrong /DIR fails instead of hanging on the box.
       SuppressibleMsgBox('There''s no _classic_beta_ folder in' + #13#10 + Dir + #13#10#13#10 +

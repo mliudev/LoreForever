@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "The War of the Three Hammers",
-   "body": "Long ago, three dwarven factions lived together in Ironforge under High King Modimus Anvilmar. When the king died without an heir, civil war erupted. The Bronzebeards defeated both rival factions, casting out the Wildhammers and Sorcerer-Thane Thaurissan's Dark Irons. Vowing vengeance, Thaurissan established a settlement in the Redridge Mountains while his sorceress wife, Modgud, led an army against Grim Batol. When both assaults failed and the united Bronzebeard and Wildhammer armies marched on his stronghold, Thaurissan attempted to unleash an apocalyptic subterranean entity to save himself. His ritual breached the core of the world and freed Ragnaros the Firelord.",
+   "body": "Long ago, three dwarven factions lived together in Ironforge under High King Modimus Anvilmar. When the king died, civil war erupted. The Bronzebeards defeated both rival factions, casting out the Wildhammers and Sorcerer-Thane Thaurissan's Dark Irons. Vowing vengeance, Thaurissan established a settlement in the Redridge Mountains while his sorceress wife, Modgud, led an army against Grim Batol. When both assaults failed and the united Bronzebeard and Wildhammer armies marched on his stronghold, Thaurissan attempted to unleash an apocalyptic subterranean entity to save himself. His ritual breached the core of the world and freed Ragnaros the Firelord.",
    "spoiler": 0
   },
   {
@@ -21,7 +21,7 @@
   },
   {
    "title": "Spreading Shadow",
-   "body": "In 25 ADP, Emperor Dagran Thaurissan rules the clan from his Imperial Seat deep in Blackrock Depths. While secretly plotting to overthrow Ragnaros using the combined strength of all dwarven lands, Thaurissan obeys the Firelord's commands to prepare for total war. Dark Iron infiltrators and raiding parties strike far from their mountain, launching incursions into Loch Modan, Dun Morogh, the Badlands, and the Wetlands. They have even forged an insidious alliance inside Gnomeregan, providing aid to the traitor Sicco Thermaplugg to ensure their rivals remain overwhelmed.",
+   "body": "In 25 ADP, Emperor Dagran Thaurissan rules the clan from his Imperial Seat deep in Blackrock Depths. While secretly plotting to overthrow Ragnaros using the combined strength of all dwarven lands, Thaurissan obeys the Firelord's commands to prepare for total war. Dark Iron infiltrators and raiding parties strike far from their mountain, launching incursions into Loch Modan, Dun Morogh, the Badlands, and the Wetlands. Their forces and an ambassador can even be found inside Gnomeregan, though their precise role in its fall is unclear.",
    "spoiler": 1
   },
   {
@@ -84,7 +84,7 @@
     "dark iron ambassador gnomeregan",
     "why are dark irons with troggs"
    ],
-   "answer": "The Dark Iron clan dispatched covert forces, including the Dark Iron Ambassador, to ally with the treacherous Sicco Thermaplugg during the fall of Gnomeregan. By keeping the gnomes crippled and Ironforge distracted, the Dark Irons weaken their northern rivals."
+   "answer": "Dark Iron forces, including the Dark Iron Ambassador, can be found inside fallen Gnomeregan. Their presence suggests involvement with Sicco Thermaplugg, but their precise role in the disaster is unclear."
   },
   {
    "q": "Are the Dark Irons allied with the Blackrock orcs?",
@@ -112,7 +112,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "The discovery of a Dark Iron Ambassador deep inside fallen Gnomeregan proves that these subterranean schemers had a direct hand in enabling Sicco Thermaplugg's betrayal."
+   "text": "The presence of a Dark Iron Ambassador deep inside fallen Gnomeregan raises suspicions about the clan’s involvement in its fall."
   },
   {
    "target": "profession:Blacksmithing",

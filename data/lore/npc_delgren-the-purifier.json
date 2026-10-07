@@ -3,7 +3,7 @@
  "type": "npc",
  "name": "Delgren the Purifier",
  "era": "classic",
- "zone": "darkshore",
+ "zone": "ashenvale",
  "meta": {
   "wiki": "Delgren the Purifier",
   "refs": 9
@@ -22,7 +22,7 @@
   },
   {
    "title": "An Unorthodox Mind",
-   "body": "Despite his fierce devotion to the Holy Light and zealous nickname, Delgren possesses an unusual perspective on Kalimdor's tangled politics. Much to the annoyance and disdain of his conservative superiors, he took the time to learn Orcish. This rare linguistic skill hints at an unconventional mind\u2014one that seeks to understand the enemies and neighbors sharing this untamed continent rather than relying solely on blind dogma.",
+   "body": "Despite his fierce devotion to the Holy Light and zealous nickname, Delgren possesses an unusual perspective on Kalimdor's tangled politics. Much to the annoyance and disdain of his conservative superiors, he took the time to learn Orcish. This rare linguistic skill hints at an unconventional mind—one that seeks to understand the enemies and neighbors sharing this untamed continent rather than relying solely on blind dogma.",
    "spoiler": 0
   }
  ],

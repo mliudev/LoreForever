@@ -1,7 +1,6 @@
 -- Records questions, answers and feedback, plus quest text the wiki doesn't have yet, into SavedVariables.
 -- pipeline/lore/harvest.py reads these back into the eval set and the lore pipeline.
--- Note: the Forever beta reportedly writes SavedVariables on logout/reload but may not read them back, so each
--- session's log can replace the previous one. Harvest after each session.
+-- SavedVariables write on logout/reload. HistoryArchive preserves captured records until a local archive receipt.
 
 local _, ns = ...
 local Log = {}
@@ -26,6 +25,9 @@ function Log.Init()
   -- recordings play). Forget its setting and the one-time switch that turned it off (readAloudOff). Narration set to
   -- "Game voice only" (every voice unticked, or the old voicePack = "none") loads as it was: no narration.
   db.settings.readAloud, db.settings.readAloudOff = nil, nil
+  -- Direct quest dialogue is a fresh opt-in, even when an older install saved autoQuest = true.
+  -- The new questDialogue choice persists; the old automatic-only setting cannot enable it.
+  db.settings.autoQuest = nil
   -- The book button beside the menu bar is gone (Mike, 2026-10-02: the key, the minimap button and /lore all open the
   -- panel, and the floating player stops narration). Forget its settings.
   db.settings.launcher, db.settings.launcherPos, db.settings.launcherOff = nil, nil, nil
@@ -35,6 +37,7 @@ function Log.Init()
   db.visits = db.visits or {}       -- zone name -> {n, minLevel, maxLevel, first, last, lore}: where players go
   db.sessions = (db.sessions or 0) + 1
   Log.session = db.sessions
+  if ns.HistoryArchive then ns.HistoryArchive.Init() end
 end
 
 local function compactCtx(ctx)
@@ -55,6 +58,7 @@ function Log.Question(question, ctx, results, via, turn)
   local entry = { t = time(), session = Log.session, q = question, via = via, turn = turn, ctx = compactCtx(ctx),
     results = top }
   table.insert(db.questions, entry)
+  if ns.HistoryArchive then ns.HistoryArchive.Question(entry) end
   while #db.questions > MAX_QUESTIONS do table.remove(db.questions, 1) end
   return entry
 end
@@ -65,6 +69,7 @@ function Log.Feedback(entry, helpful, reason, note)
   entry.helpful = helpful
   entry.reason = (not helpful and Log.REASONS[reason or ""]) and reason or nil
   entry.note = (not helpful and type(note) == "string" and note:match("%S")) and note or nil
+  if ns.HistoryArchive then ns.HistoryArchive.Question(entry, "feedback") end
 end
 
 -- Report codes (LOR-120) --------------------------------------------------------------------------------------------
@@ -283,7 +288,6 @@ function Log.QuestText(kind)
   if not keeping() then return end
   local id = GetQuestID and GetQuestID()
   if not id or id == 0 then return end
-  if not LoreForeverDB.quests[id] and ns.Capture and not ns.Capture.Room("quest") then return end
   local q = LoreForeverDB.quests[id] or { id = id }
   q.title = (GetTitleText and GetTitleText()) or q.title
   if kind == "detail" then
@@ -302,6 +306,8 @@ function Log.QuestText(kind)
     if kind == "detail" then q.starter = who else q.ender = who end
   end
   q.known = ns.DB and ns.DB.index.quest[id] ~= nil
+  if ns.HistoryArchive then ns.HistoryArchive.Text("quest", id, kind, q) end
+  if not LoreForeverDB.quests[id] and ns.Capture and not ns.Capture.Room("quest") then return end
   LoreForeverDB.quests[id] = q
   if ns.Capture then pcall(ns.Capture.NoteQuest, id, q, PARTS[kind] or {}) end
 end
@@ -309,7 +315,6 @@ end
 -- Quest text read from the quest log (the panel shows it for quests without lore); keeps what QuestText missed.
 function Log.QuestFromLog(q, text, objectives)
   if not (q and q.id) or not keeping() then return end
-  if not LoreForeverDB.quests[q.id] and ns.Capture and not ns.Capture.Room("quest") then return end
   local rec = LoreForeverDB.quests[q.id] or { id = q.id }
   local had = { title = rec.title, detail = rec.text, objectives = rec.objectives }
   rec.title = rec.title or q.title
@@ -317,6 +322,8 @@ function Log.QuestFromLog(q, text, objectives)
   rec.objectives = rec.objectives or scrub(objectives)
   rec.zone = rec.zone or (GetRealZoneText and GetRealZoneText())
   rec.known = ns.DB and ns.DB.index.quest[q.id] ~= nil
+  if ns.HistoryArchive then ns.HistoryArchive.Text("quest", q.id, "log", rec) end
+  if not LoreForeverDB.quests[q.id] and ns.Capture and not ns.Capture.Room("quest") then return end
   LoreForeverDB.quests[q.id] = rec
   local new = {}
   for part, v in pairs(had) do if v == nil then new[#new + 1] = part end end

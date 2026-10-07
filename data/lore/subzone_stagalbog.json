@@ -16,7 +16,7 @@
   },
   {
    "title": "Shadow of the Temple",
-   "body": "Because it borders the Pool of Tears, the Stagalbog frequently catches whatever shadows or corruptions seep from the Sunken Temple. While wind serpents have historically been absent from these bogs for generations, unnatural beasts and serpents tied to the Atal'ai priesthood often wander out of the deep marsh and lurk among the roots near Stagalbog Cave.",
+   "body": "Because it borders the Pool of Tears, the Stagalbog frequently catches whatever shadows or corruptions seep from the Sunken Temple.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "stagalbog mobs",
     "monsters in stagalbog"
    ],
-   "answer": "The bog is inhabited by indigenous marsh beasts, predatory creatures, and unnatural horrors spilling over from the nearby Atal'ai temple complex in the Pool of Tears."
+   "answer": "The bog is inhabited by indigenous marsh beasts and predatory creatures."
   }
  ],
  "angles": [
@@ -46,7 +46,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "The quiet swaths between the marsh water and the mountain cliffs make the Stagalbog a prime stalking ground for native swamp beasts and stray serpent whelps."
+   "text": "The quiet swaths between the marsh water and the mountain cliffs make the Stagalbog a prime stalking ground for native swamp beasts."
   }
  ],
  "keywords": [

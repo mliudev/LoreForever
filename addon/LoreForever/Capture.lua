@@ -212,13 +212,17 @@ function Capture.Prune()
     if quests < MAX_QUESTS then break end
     for id, rec in pairs(LoreForeverDB.quests) do
       if quests < MAX_QUESTS then break end
-      if type(rec) ~= "table" or gone(id, rec) then LoreForeverDB.quests[id] = nil; quests = quests - 1 end
+      if type(rec) ~= "table" or gone(id, rec) then
+        if ns.HistoryArchive then ns.HistoryArchive.Text("quest", id, "before_prune", rec) end
+        LoreForeverDB.quests[id] = nil; quests = quests - 1
+      end
     end
   end
   if c and texts >= MAX_TEXTS then
     local drop = {}
     Capture.EachLine(function(key, kind, ref, part, text, where, field)
       if kind ~= "quest" and c.sent[key] and texts >= MAX_TEXTS then
+        if ns.HistoryArchive then ns.HistoryArchive.Text(kind, ref, part, where[field]) end
         drop[#drop + 1] = { where, field }
         texts = texts - 1
       end
@@ -362,6 +366,7 @@ function Capture.NoteGossip(name, h)
   local npcs = LoreForeverDB.texts.npcs
   if npcs and kind == "npc" then
     npcs[name] = { id = id, sex = call(_G.UnitSex, "npc"), ctype = call(_G.UnitCreatureType, "npc") }
+    if ns.HistoryArchive then ns.HistoryArchive.Text("npc", name, nil, npcs[name]) end
   end
   Capture.Note("gossip:" .. name .. "#" .. h, "gossip", name, true)
 end
@@ -399,12 +404,10 @@ function Capture.OnSay(event, text, sender, ...)
   local said = LoreForeverDB.texts.say
   local mine = said[id]
   if mine and mine[h] then return end
-  if count(mine) >= SAY_PER_NPC then return end
   if not sayCount then
     sayCount = 0
     for _, lines in pairs(said) do sayCount = sayCount + count(lines) end
   end
-  if sayCount >= SAY_TOTAL or not room("say") then return end
   local rec = { text = text, kind = SAY_KIND[event] or "say", name = usable(sender) and sender or nil, t = time() }
   -- Its sex and creature type when it's the unit you're targeting or talking to.
   for _, unit in ipairs({ "target", "npc", "mouseover" }) do
@@ -414,6 +417,8 @@ function Capture.OnSay(event, text, sender, ...)
       break
     end
   end
+  if ns.HistoryArchive then ns.HistoryArchive.Text("say", id, h, rec) end
+  if count(mine) >= SAY_PER_NPC or sayCount >= SAY_TOTAL or not room("say") then return end
   said[id] = mine or {}
   said[id][h] = rec
   sayCount = sayCount + 1

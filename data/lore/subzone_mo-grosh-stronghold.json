@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Looming Threat",
-   "body": "Tucked away in the crags of northeastern Loch Modan, Mo'grosh Stronghold serves as the primary base for the Mo'grosh clan of ogres in the region. The brute forces lurking within the caves and outer camps raid traveling dwarven supply caravans and present an enduring danger to the peace of Thelsamar. The rugged stonework scattered around the camp suggests the site once belonged to an older settlement, likely trolls, before the lumbering ogres claimed the territory and raised their distinctive mounds.",
+   "body": "Tucked away in the crags of northeastern Loch Modan, Mo'grosh Stronghold serves as the primary base for the Mo'grosh clan of ogres in the region. The brute forces lurking within the caves and outer camps raid traveling dwarven supply caravans and present an enduring danger to the peace of Thelsamar. The rugged stonework scattered around the camp suggests the site once belonged to an older settlement, before the lumbering ogres claimed the territory and raised their distinctive mounds.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "who built mogrosh",
     "trolls in loch modan"
    ],
-   "answer": "The ancient stonework around the stronghold indicates it was once an old troll settlement. It remains uncertain whether the Mo'grosh ogres drove the trolls out through violence or simply took over ruins that had long been abandoned."
+   "answer": "The old stonework suggests a settlement stood here before the ogres, but its original inhabitants are unknown."
   },
   {
    "q": "Why are the ogres a problem for the dwarves?",
@@ -63,8 +63,7 @@
   "stronghold"
  ],
  "related": [
-  "zone:lochmodan",
-  "topic:troll"
+  "zone:lochmodan"
  ],
  "attribution": [
   "Mo'grosh Stronghold"

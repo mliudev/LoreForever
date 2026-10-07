@@ -17,7 +17,7 @@
   },
   {
    "title": "Contempt for the Burning Blade",
-   "body": "Maurin directs most of his malice toward the Burning Blade cult entrenched across Desolace. He harbors utter disgust for their reckless ambition, mocking the cultists for failing to understand that their borrowed power merely binds them as thralls to their demonic masters. Through concoctions and ritual knowledge, Maurin enlists Horde adventurers to systematically disrupt the cult's summonings and undermine their operations across the barren landscape.",
+   "body": "Maurin directs most of his malice toward the Burning Blade cult entrenched across Desolace. He harbors utter disgust for their reckless ambition, mocking the cultists for failing to understand that their borrowed power merely binds them as thralls to their demonic masters. Through scrying spells and ritual knowledge, Maurin enlists Horde adventurers to systematically disrupt the cult's summonings and undermine their operations across the barren landscape.",
    "spoiler": 0
   }
  ],
@@ -62,7 +62,7 @@
     "maurin quests",
     "what does maurin want"
    ],
-   "answer": "Maurin employs adventurers to disrupt Burning Blade operations, investigate corruption, and deliver specially crafted concoctions and devices to sever the cult's hold over local spirits and demonic entities."
+   "answer": "Maurin asks adventurers to investigate the Burning Blade and gather a Hatefury Shadowstalker scalp and a naga Oracle Crystal. He uses these reagents to break scrying wards and locate the demon lord behind the cult."
   },
   {
    "q": "Is Maurin affiliated with the Cenarion Circle or the Horde?",
@@ -93,7 +93,6 @@
  ],
  "keywords": [
   "burning blade",
-  "concoction",
   "corrupter",
   "desolace",
   "forsaken",

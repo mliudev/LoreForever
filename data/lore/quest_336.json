@@ -30,7 +30,7 @@
   },
   {
    "title": "A Lethal Toast",
-   "body": "Zardeth of the Black Claw, a warlock lurking in the dark recesses below the tavern, decides to settle Wishock's debt in a permanent fashion. He brews a specialized draught\u2014Black Claw Stout\u2014promising it carries 'quite a kick.' When presented with the foaming tankard in the Hall of Petitioners, the pompous noble mistakes the courier for a simple servant, flings a copper coin as a dismissal, and drinks greedily, collapsing dead moments later right within the halls of the keep.",
+   "body": "Zardeth of the Black Claw, a warlock lurking in the dark recesses below the tavern, decides to settle Wishock's debt in a permanent fashion. He brews a specialized draught—Black Claw Stout—promising it carries 'quite a kick.' When presented with the foaming tankard in the Hall of Petitioners, the pompous noble mistakes the courier for a simple servant, flings a copper coin as a dismissal, and drinks greedily, collapsing dead moments later right within the halls of the keep.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
    "answer": "Zardeth of the Black Claw is a warlock affiliated with the shadowy cabal operating hidden catacombs beneath The Slaughtered Lamb in Stormwind's Mage Quarter. He conducts dangerous and clandestine operations out of sight of the city guard."
   },
   {
-   "q": "Why does Zardeth want Lord Wishock dead?",
+   "q": "Why does Zardeth target Lord Wishock?",
    "aliases": [
     "why kill wishock",
     "wishock motivation",
@@ -63,31 +63,31 @@
    "answer": "Lord Baurles K. Wishock loiters in the Hall of Petitioners, an antechamber within Stormwind Keep where nobles and citizens gather to lobby the realm's regency."
   },
   {
-   "q": "What happens when Lord Wishock drinks the brew?",
+   "q": "How does Lord Wishock receive the brew?",
    "aliases": [
     "does wishock die",
     "wishock death",
     "what does the stout do"
    ],
-   "answer": "Upon receiving the Black Claw Stout, Wishock arrogantly dismisses the player with a single copper coin, drinks the brew, and drops dead on the floor from the lethal poison."
+   "answer": "Wishock mistakes the courier for a servant, accepts the stout as a refreshing drink, and dismisses them with a single copper coin."
   },
   {
-   "q": "Is the player arrested for assassinating a noble in Stormwind Keep?",
+   "q": "Does delivering the stout attract the guards' attention?",
    "aliases": [
     "do guards attack",
     "am i wanted in stormwind",
     "consequences of poisoning"
    ],
-   "answer": "Remarkably, no. Because you simply delivered a drink that the arrogant noble eagerly accepted and drank of his own accord, the chaotic scene in the Hall of Petitioners lets you slip away clean to report back to the catacombs."
+   "answer": "The delivery is treated as an ordinary servant bringing a drink, and the courier can continue their errand without a confrontation with the guards."
   },
   {
-   "q": "What is the follow-up quest after Wishock dies?",
+   "q": "What quest follows this delivery?",
    "aliases": [
     "what comes next",
     "after a noble brew",
     "next quest"
    ],
-   "answer": "After poisoning Lord Wishock, you return to Zardeth beneath the Slaughtered Lamb to turn in the deed, leading directly into the quest 'You Have Served Us Well.'"
+   "answer": "The errand continues with 'You Have Served Us Well,' returning to Zardeth beneath the Slaughtered Lamb."
   }
  ],
  "angles": [],

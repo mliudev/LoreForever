@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Frostwhisper Gorge"
  },
- "summary": "Frostwhisper Gorge is a frigid canyon carved into the southern highlands of Winterspring, lying directly north of the sinister Darkwhisper Gorge. Ancient night elven ruins litter its icy floor and surrounding cliffs, while towering Frostmaul giants and frosty elementals dominate the chasm. High above the eastern rim, a solitary dwarf camp looks out over the precipice toward the ocean below.",
+ "summary": "Frostwhisper Gorge is a frigid canyon carved into the southern highlands of Winterspring, lying directly north of the sinister Darkwhisper Gorge. Ancient night elven ruins litter its icy floor and surrounding cliffs, while towering Frostmaul giants dominate the chasm. High above the eastern rim, a solitary dwarf camp looks out over the precipice toward the ocean below.",
  "sections": [
   {
    "title": "A Frozen Chasm of Ruins and Giants",
-   "body": "Carved into the southern mountains of Winterspring, Frostwhisper Gorge serves as a threshold just before the demon-infested depths of Darkwhisper Gorge. Its snowy floor and cliffside ridges are strewn with the forgotten stonework of ancient night elven settlements. In the present day, the gorge is claimed by immense Frostmaul giants, their preservers, and icy elemental beings known as Ice Avatars, ruled by the monstrous Frostilicus. Travel down into the ravine is perilous, as the giants fiercely defend the frozen crags against any wandering intruders.",
+   "body": "Carved into the southern mountains of Winterspring, Frostwhisper Gorge serves as a threshold just before the demon-infested depths of Darkwhisper Gorge. Its snowy floor and cliffside ridges are strewn with the forgotten stonework of ancient night elven settlements. In the present day, the gorge is claimed by immense Frostmaul giants and their preservers. Travel down into the ravine is perilous, as the giants fiercely defend the frozen crags against any wandering intruders.",
    "spoiler": 0
   },
   {
@@ -28,7 +28,7 @@
     "what lives in frostwhisper gorge",
     "frostwhisper mobs"
    ],
-   "answer": "The canyon floor and surrounding terraces are inhabited by powerful Frostmaul giants, Frostmaul Preservers, and frosty elementals called Ice Avatars, led by a giant entity named Frostilicus."
+   "answer": "The canyon floor and surrounding terraces are inhabited by powerful Frostmaul giants and Frostmaul Preservers."
   },
   {
    "q": "Where is Frostwhisper Gorge located?",
@@ -69,10 +69,8 @@
  ],
  "keywords": [
   "darkwhisper gorge",
-  "frostilicus",
   "frostmaul",
   "frostwhisper gorge",
-  "ice avatar",
   "ironforge",
   "winterspring"
  ],

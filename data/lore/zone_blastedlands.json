@@ -88,7 +88,7 @@
     "kumisha",
     "draenethyst quest"
    ],
-   "answer": "Kum'isha is an enigmatic draenei mystic dwelling in the central wastes. He collects draenethyst fragments and spheres\u2014crystalline remnants originating from Draenor\u2014and trades sealed packs of rare equipment and goods to anyone who brings them to him."
+   "answer": "Kum'isha is an enigmatic draenei mystic dwelling in the central wastes. He collects draenethyst fragments and spheres—crystalline remnants originating from Draenor—and trades sealed packs of rare equipment and goods to anyone who brings them to him."
   },
   {
    "q": "How do you reach the Blasted Lands on foot?",
@@ -152,8 +152,7 @@
   "zone:swampofsorrows",
   "npc:bloodmage-drazial",
   "npc:bloodmage-lynnore",
-  "npc:daio-the-decrepit",
-  "subzone:altar-of-storms-burning-steppes"
+  "npc:daio-the-decrepit"
  ],
  "attribution": [
   "Blasted Lands (Classic)",

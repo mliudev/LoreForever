@@ -3,7 +3,7 @@
  "type": "quest",
  "name": "Fiora Longears",
  "era": "classic",
- "zone": "darkshore",
+ "zone": "dustwallow",
  "meta": {
   "ids": [
    1132
@@ -20,16 +20,16 @@
    "Journey to Astranaar"
   ]
  },
- "summary": "This errand introduces Alliance adventurers from the Eastern Kingdoms to the untamed continent of Kalimdor. Directed by the enthusiastic recruiter Red Jack Flint in Menethil Harbor, travelers take ship across the Great Sea to report to his high elf contact, Fiora Longears, on the docks of Auberdine.",
+ "summary": "This errand introduces Alliance adventurers from the Eastern Kingdoms to the untamed continent of Kalimdor. Directed by the enthusiastic recruiter Red Jack Flint in Menethil Harbor, travelers take ship across the Great Sea to report to his high elf contact, Fiora Longears, in the inn of Theramore.",
  "sections": [
   {
    "title": "A Call to the West",
-   "body": "For many humans, dwarves, and gnomes, the Eastern Kingdoms feel fraught with old conflicts and scarred earth. In the bustling port of Menethil Harbor, the sailor Red Jack Flint spends his days urging adventurous travelers to board a vessel bound across the Great Sea. Describing Kalimdor as an uncharted realm of fortune and opportunity, Flint directs bold wanderers to Auberdine to meet his associate, an elf named Fiora Longears.",
+   "body": "For many humans, dwarves, and gnomes, the Eastern Kingdoms feel fraught with old conflicts and scarred earth. In the bustling port of Menethil Harbor, the sailor Red Jack Flint spends his days urging adventurous travelers to board a vessel bound across the Great Sea. Describing Kalimdor as an uncharted realm of fortune and opportunity, Flint directs bold wanderers to Theramore to meet his associate, an elf named Fiora Longears.",
    "spoiler": 0
   },
   {
-   "title": "Arrival in Auberdine",
-   "body": "Crossing the ocean brings travelers to Darkshore, a misty, storm-swept coast governed by the night elves. Waiting on the wooden docks of Auberdine, Fiora Longears receives arrivals recommended by Flint. Trusting Flint's eye for character, Fiora welcomes newly arrived Alliance heroes and prepares to direct them inland toward the ancient forests of Ashenvale.",
+   "title": "Arrival in Theramore",
+   "body": "Crossing the ocean brings travelers to Theramore, an Alliance port on the coast of Dustwallow Marsh. Waiting in the town inn, Fiora Longears receives arrivals recommended by Flint. Trusting Flint's eye for character, Fiora welcomes newly arrived Alliance heroes and prepares to direct them inland toward the ancient forests of Ashenvale.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "fiora longears",
     "who is fiora"
    ],
-   "answer": "Fiora Longears is a high elf stationed at the docks of Auberdine in Darkshore. She acts as a welcoming partner and contact for Red Jack Flint, greeting Alliance travelers arriving from the Eastern Kingdoms."
+   "answer": "Fiora Longears is a high elf stationed in the inn of Theramore in Dustwallow Marsh. She acts as a welcoming partner and contact for Red Jack Flint, greeting Alliance travelers arriving from the Eastern Kingdoms."
   },
   {
    "q": "Who starts this quest?",
@@ -54,11 +54,11 @@
   {
    "q": "How do I reach Fiora Longears from Menethil Harbor?",
    "aliases": [
-    "how to get to auberdine",
-    "ship to auberdine",
+    "how to get to theramore",
+    "ship to theramore",
     "boat from menethil"
    ],
-   "answer": "Board the passenger vessel docked at Menethil Harbor that sails westward across the Great Sea directly to the harbor town of Auberdine in Darkshore."
+   "answer": "Board the passenger vessel docked at Menethil Harbor that sails westward across the Great Sea directly to Theramore in Dustwallow Marsh."
   },
   {
    "q": "What happens after meeting Fiora Longears?",
@@ -67,7 +67,7 @@
     "follow up quest",
     "journey to astranaar quest"
    ],
-   "answer": "Upon greeting you in Auberdine, Fiora commends Flint's recommendation and offers the next leg of your journey, sending you inland to Astranaar in Ashenvale."
+   "answer": "Upon greeting you in Theramore, Fiora commends Flint's recommendation and offers the next leg of your journey, sending you inland to Astranaar in Ashenvale."
   },
   {
    "q": "What is the relationship between Red Jack Flint and Fiora Longears?",
@@ -81,7 +81,7 @@
    "q": "Why is the Alliance recruiting travelers to Kalimdor?",
    "aliases": [
     "why go to kalimdor",
-    "why darkshore"
+    "why theramore"
    ],
    "answer": "Kalimdor represents vast new territory and resources for the Alliance, as well as a front where night elven allies need assistance protecting their ancestral lands from threats like the Horde and demonic remnants."
   }
@@ -93,13 +93,13 @@
   },
   {
    "target": "race:NightElf",
-   "text": "Fiora Longears serves as an official welcoming presence for eastern allies arriving at Auberdine, preparing them for the ancient wilds of northern Kalimdor."
+   "text": "Fiora Longears serves as an official welcoming presence for eastern allies arriving at Theramore, preparing them for the ancient wilds of northern Kalimdor."
   }
  ],
  "keywords": [
-  "auberdine",
+  "theramore",
   "boat",
-  "darkshore",
+  "dustwallow marsh",
   "fiora longears",
   "kalimdor",
   "menethil harbor",
@@ -108,9 +108,9 @@
  ],
  "related": [
   "npc:red-jack-flint",
-  "subzone:auberdine",
+  "subzone:theramore-isle",
   "subzone:menethil-harbor",
-  "zone:darkshore",
+  "zone:dustwallow",
   "quest:1133",
   "subzone:astranaar"
  ],

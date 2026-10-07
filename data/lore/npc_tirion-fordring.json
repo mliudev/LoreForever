@@ -3,7 +3,7 @@
  "type": "npc",
  "name": "Tirion Fordring",
  "era": "classic",
- "zone": "westernplaguelands",
+ "zone": "easternplaguelands",
  "meta": {
   "wiki": "Tirion Fordring",
   "refs": 6
@@ -17,12 +17,12 @@
   },
   {
    "title": "A Matter of Honor and Exile",
-   "body": "Following the Second War, Tirion governed the region of Hearthglen from Mardenholde Keep with his wife Karandra and young son Taelan. His reign ended when he encountered an aged orc warrior named Eitrigg living as a hermit. Recognizing the veteran's deep honor, Tirion gave his word to protect him. When Alliance authorities discovered Eitrigg, Tirion fought his own countrymen to uphold his oath. For this treason against the Alliance of Lordaeron, Tirion was stripped of his nobility, excommunicated by the Silver Hand, and banished into exile, though his wife and son refused to follow him into it.",
+   "body": "Following the Second War, Tirion governed the region of Hearthglen from Mardenholde Keep with his wife Karandra and young son Taelan. His reign ended when he encountered an aged orc warrior named Eitrigg living as a hermit. Recognizing the veteran's deep honor, Tirion gave his word to protect him. When Alliance authorities discovered Eitrigg, Tirion fought his own countrymen to uphold his oath. For this treason against the Alliance of Lordaeron, Tirion was stripped of his nobility, excommunicated by the Silver Hand, and banished into exile; Uther spared his wife and son from the sentence.",
    "spoiler": 0
   },
   {
    "title": "A Father's Torment",
-   "body": "Spared from his exile, his family remained behind in Hearthglen. Following the fall of Lordaeron to the Scourge during the Third War, Tirion's son Taelan grew into manhood and joined the Scarlet Crusade, eventually becoming Highlord of Hearthglen. Tirion watches from afar as the Crusade descends into madness, despairing that his son has become a puppet of fanaticism. Clinging to memories of happier times\u2014such as family visits to Caer Darrow\u2014the hermit of the Thondroril seeks a way to remind his boy of true honor.",
+   "body": "Spared from his exile, his family remained behind in Hearthglen. Following the fall of Lordaeron to the Scourge during the Third War, Tirion's son Taelan grew into manhood and joined the Scarlet Crusade, eventually becoming Highlord of Hearthglen. Tirion watches from afar as the Crusade descends into madness, despairing that his son has become a puppet of fanaticism. Clinging to memories of happier times—such as family visits to Caer Darrow—the hermit of the Thondroril seeks a way to remind his boy of true honor.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "mardenholde keep tirion",
     "hearthglen lord"
    ],
-   "answer": "Hearthglen was Tirion's ancestral seat. He governed the territory from Mardenholde Keep until his exile. Today, Hearthglen is held by the Scarlet Crusade, commanded by his son, Highlord Taelan Fordring."
+   "answer": "Hearthglen was Tirion's former seat. He governed the territory from Mardenholde Keep until his exile. Today, Hearthglen is held by the Scarlet Crusade, commanded by his son, Highlord Taelan Fordring."
   },
   {
    "q": "Does Tirion still have his paladin powers?",
@@ -94,7 +94,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "Though a warrior of the Alliance who slew many during the Second War, Tirion gave up everything\u2014his land, his family, and his name\u2014rather than break an oath of honor sworn to the orc Eitrigg."
+   "text": "Though a warrior of the Alliance who slew many during the Second War, Tirion gave up everything—his land, his family, and his name—rather than break an oath of honor sworn to the orc Eitrigg."
   },
   {
    "target": "faction:Alliance",

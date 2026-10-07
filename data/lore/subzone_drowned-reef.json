@@ -16,7 +16,7 @@
   },
   {
    "title": "The Sunken City",
-   "body": "Those brave or foolish enough to dive into the deep water will discover submerged architecture swallowed by the sea long ago. Though known to contain ancient elven relics and gems, the colossal stone structures and ruined walls bear a striking resemblance to ancient titan masonry. Whether these drowned halls were built by the Kaldorei before the Sundering or founded upon an even older titan complex remains a mystery lost beneath the surf.",
+   "body": "Those brave or foolish enough to dive into the deep water will discover the submerged architecture of an ancient elven city. Calcified elven gems remain among its drowned ruins.",
    "spoiler": 0
   }
  ],
@@ -52,20 +52,15 @@
    "q": "What are the ruins submerged beneath the reef?",
    "aliases": [
     "underwater ruins arathi",
-    "elven ruins drowned reef",
-    "titan ruins drowned reef"
+    "elven ruins drowned reef"
    ],
-   "answer": "Underwater explorers find ancient ruins containing calcified elven relics. Curiously, the massive carved stonework and walls strongly resemble ancient titan construction, suggesting either pre-Sundering elven settlement or even older titan architecture submerged in the ocean."
+   "answer": "The reef contains the ruins of an ancient elven city, with calcified elven gems among its submerged remains."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
    "text": "The flooded halls beneath the reef and the calcified gems resting in the seabed are somber reminders of the Kaldorei empire that shattered into the sea ten thousand years ago during the Great Sundering."
-  },
-  {
-   "target": "race:Dwarf",
-   "text": "Explorers from the Explorer's League note with fascination that the underwater masonry bears uncanny similarities to the grand titan stonework found in Uldaman."
   }
  ],
  "keywords": [
@@ -82,9 +77,7 @@
  "related": [
   "zone:arathi",
   "subzone:faldir-s-cove",
-  "topic:naga",
-  "topic:titan",
-  "subzone:uldaman"
+  "topic:naga"
  ],
  "attribution": [
   "Drowned Reef"

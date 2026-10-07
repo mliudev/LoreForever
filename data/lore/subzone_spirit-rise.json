@@ -16,7 +16,7 @@
   },
   {
    "title": "Caves and Crossings",
-   "body": "Beneath the breezy huts and open-air totem shrines lies an entrance burrowing into the mesa itself: the steamy Pools of Vision, a sacred subterranean cavern where seers peer into spirit-touched waters. In addition to its contemplative quiet, the rise serves as a vital transit hub, linking Thunder Bluff across the continent via zeppelin towers that connect travelers directly to Orgrimmar.",
+   "body": "Beneath the breezy huts and open-air totem shrines lies an entrance burrowing into the mesa itself: the steamy Pools of Vision, a sacred subterranean cavern where seers peer into spirit-touched waters.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "spirit rise purpose",
     "why visit spirit rise"
    ],
-   "answer": "Spirit Rise is the spiritual heart of Thunder Bluff, primarily dedicated to shamanic practice, healing, and communing with nature spirits and ancestors. It also serves as the entryway to the Pools of Vision and hosts the city's zeppelin dock."
+   "answer": "Spirit Rise is the spiritual heart of Thunder Bluff, primarily dedicated to shamanic practice, healing, and communing with nature spirits and ancestors. It also serves as the entryway to the Pools of Vision."
   },
   {
    "q": "Which tauren tribe leads activities on Spirit Rise?",
@@ -47,15 +47,6 @@
     "pools of vision entrance"
    ],
    "answer": "A descent through the rise leads into the Pools of Vision, a humid subterranean cavern filled with steaming waters where seers and spiritual practitioners meditate and seek visions."
-  },
-  {
-   "q": "How do I travel to Orgrimmar from Spirit Rise?",
-   "aliases": [
-    "zeppelin to orgrimmar",
-    "spirit rise zeppelin",
-    "thunder bluff zeppelin"
-   ],
-   "answer": "Spirit Rise features a zeppelin dock servicing airships that ferry Horde travelers across the Barrens and directly into the orcish capital of Orgrimmar."
   }
  ],
  "angles": [
@@ -75,8 +66,7 @@
   "shaman",
   "skychaser",
   "spirit rise",
-  "thunder bluff",
-  "zeppelin"
+  "thunder bluff"
  ],
  "related": [
   "zone:thunderbluff",

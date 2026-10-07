@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Displaced Outpost",
-   "body": "Positioned just southeast across the road from Frostfire Hot Springs and west of the frozen Lake Kel'Theril, Timbermaw Post stands as a bitter reminder of the furbolgs' internal strife in Winterspring. Its name clearly points to its original founders, the Timbermaw tribe\u2014the last uncorrupted remnants of their kind clinging to sanity in northern Kalimdor. However, travelers approaching the camp will find no friendly welcomes. The outpost has been completely overtaken by the hostile Winterfall tribe, driven mad and violent by demonic corruption. Now crowded with savage Winterfall furbolgs, the camp serves as an aggressive staging ground encroaching upon the central road.",
+   "body": "Positioned just southeast across the road from Frostfire Hot Springs and west of the frozen Lake Kel'Theril, Timbermaw Post stands as a bitter reminder of the furbolgs' internal strife in Winterspring. Despite its Timbermaw name, travelers approaching the camp will find no friendly welcomes. The outpost is controlled by the hostile Winterfall tribe, driven mad and violent by demonic corruption. Now crowded with savage Winterfall furbolgs, the camp serves as an aggressive staging ground encroaching upon the central road.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who owns timbermaw post",
     "timbermaw post furbolgs"
    ],
-   "answer": "The settlement was originally established by the uncorrupted Timbermaw tribe. At some point, the violent, corrupted Winterfall furbolgs drove them out and claimed the camp for themselves, though the regional name on maps never changed."
+   "answer": "Despite its name, the camp is controlled by the corrupted Winterfall tribe. Its founding history is not known."
   },
   {
    "q": "Where is Timbermaw Post located?",
@@ -47,7 +47,7 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids who revere the furbolgs as ancient stewards of nature, witnessing a Timbermaw camp captured by madness-driven Winterfall kin is a stark display of the Burning Legion's lingering taint."
+   "text": "For druids who revere the furbolgs as ancient stewards of nature, witnessing the camp occupied by madness-driven Winterfall furbolgs is a stark display of the Burning Legion's lingering taint."
   }
  ],
  "keywords": [

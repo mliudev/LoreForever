@@ -3,7 +3,10 @@
 # the top level, into dist/packs/:
 #   LoreForever_Voice_Female.zip                          the female narrator (zone stories, answers, bosses)
 #   LoreForever_Voice_Female_Alliance.zip / _Horde.zip    her lands packs
-#   LoreForever_Voice_Female-complete.zip                 her three packs in one zip
+#   LoreForever_Voice_Female-complete.zip                 her core and lands stories in one zip
+#   LoreForever_Voice_Female_enUS-complete.zip            available English female stories and answers
+#   LoreForever_Voice_<Default|Female>_<locale>-complete.zip  available stories and answers plus translated text
+#   LoreForever_Voice_<Default|Female>_Quests.zip         optional English quest dialogue, downloaded deliberately
 #   LoreForever_Voice_QuestGivers.zip                     quest givers' voices: quest dialogue in each quest giver's
 #                                                         race and gender (its own CurseForge project: under 480 MB)
 #   LoreForever_Voice_<Default|Female>_<locale>.zip       either narrator in deDE, esES, frFR or ptBR (LOR-177), one
@@ -26,18 +29,21 @@ import re, sys, zipfile
 from pathlib import Path
 
 root = Path(sys.argv[1])
+sys.path.insert(0, str(root / "scripts"))
+from load_order import LoadError, addon_files
 addons, out = root / "addon", root / "dist" / "packs"
 VERSIONED = "--versioned" in sys.argv[2:]
 AUDIO = {".mp3", ".ogg"}
 # zip name -> (folders in it, display name with {v} for the version)
 DOWNLOADS = {
+    "LoreForever_Voice_Default_Quests": (["LoreForever_Voice_Default_Quests"], "Male narrator: quest dialogue {v}"),
     "LoreForever_Voice_Female": (["LoreForever_Voice_Female"], "Female narrator: core {v}"),
     "LoreForever_Voice_Female_Alliance": (["LoreForever_Voice_Female_Alliance"], "Female narrator: Alliance lands {v}"),
     "LoreForever_Voice_Female_Horde": (["LoreForever_Voice_Female_Horde"], "Female narrator: Horde lands {v}"),
     "LoreForever_Voice_Female_Quests": (["LoreForever_Voice_Female_Quests"], "Female narrator: quest dialogue {v}"),
     "LoreForever_Voice_Female-complete": (["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance",
-                                           "LoreForever_Voice_Female_Horde", "LoreForever_Voice_Female_Quests"],
-                                          "Female narrator: complete {v} (all narrations)"),
+                                           "LoreForever_Voice_Female_Horde"],
+                                          "Female narrator: stories and lands {v}"),
     "LoreForever_Voice_QuestGivers": (["LoreForever_Voice_QuestGivers"], "Quest givers' voices {v}"),
     # Both narrators in the language packs' languages (LOR-177): one zip per narrator and language, each holding the
     # zone stories, answers, places and people (~340 MB; lore.voicepack locale keeps each under 480 MB). Skipped until
@@ -79,9 +85,22 @@ for loc, lang in LANGUAGES.items():
         for part, what in ANSWER_PARTS.items():
             folder = f"LoreForever_Voice_{voice}_Answers_{part}{loc}"
             DOWNLOADS[folder] = ([folder], f"{who} narrator: answers about {what}{lang} {{v}}")
+# New manual bundles use only available story and answer components. Quest dialogue stays a separate opt-in pack.
+FULL_BUNDLES = {}
+for loc, lang in (("enUS", "English"), *((k[1:], v[2:]) for k, v in LANGUAGES.items() if k)):
+    for voice, who in (("Default", "Male"), ("Female", "Female")):
+        if loc == "enUS" and voice == "Default":
+            continue   # English male core and lands stay in the main download.
+        suffix = "" if loc == "enUS" else f"_{loc}"
+        base = f"LoreForever_Voice_{voice}"
+        folders = [base, base + "_Alliance", base + "_Horde"] if not suffix else [base + suffix]
+        folders += [base + "_Answers_" + part + suffix for part in ANSWER_PARTS]
+        FULL_BUNDLES[f"{base}_{loc}-complete"] = (folders, f"{who} narrator: {lang}, stories and answers {{v}}")
+DOWNLOADS.update(FULL_BUNDLES)
 # zips a CurseForge project of their own takes as they are (the quest givers' voices, and each narrator and its quest
 # dialogue in each language pack's language: release/curseforge.json), and the answers packs, sized for one
-CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers"} | {n for n in DOWNLOADS if re.fullmatch(
+CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers", "LoreForever_Voice_Default_Quests",
+                  "LoreForever_Voice_Female_Quests"} | {n for n in DOWNLOADS if re.fullmatch(
     r"LoreForever_Voice_(Default|Female)((_Quests)?_[a-z]{2}[A-Z]{2}|_Answers_\w+)", n)}
 CURSEFORGE_MB = 480                                  # its upload API refuses bigger files
 
@@ -93,9 +112,44 @@ def version(folder):
     return m.group(1)
 
 core = version("LoreForever") if (addons / "LoreForever" / "LoreForever.toc").is_file() else None
+
+def language_files(locale):
+    """Only the language add-on's client-loaded files, checked against this release's core and lore data."""
+    folder = f"LoreForever_Lang_{locale}"
+    src = addons / folder
+    try:
+        meta, lua, xml = addon_files(src)
+    except (LoadError, OSError) as e:
+        sys.exit(f"build-voice-packs: {folder}: {e}")
+    for field, expected in (("Interface", "16001"), ("Version", core), ("Dependencies", "LoreForever"),
+                            ("X-LoreForever-Pack", "lang"), ("X-LoreForever-Locale", locale)):
+        if expected is None or meta.get(field) != expected:
+            sys.exit(f"build-voice-packs: {folder}.toc has {field} {meta.get(field)!r}, expected {expected!r}")
+    index = addons / "LoreForever" / "Data" / "Index.lua"
+    m = re.search(r'ns\.DB\s*=\s*\{\s*version\s*=\s*"([^"]+)"', index.read_text(encoding="utf-8"))
+    if not m or meta.get("X-LoreForever-DataVersion") != m.group(1):
+        sys.exit(f"build-voice-packs: {folder} was built from different lore data; rebuild with compile_lua --lang {locale}")
+    listed = list(dict.fromkeys([f"{folder}.toc", *xml, *lua]))
+    # These language files previously received build-release.sh's secret scan inside the main zip. Keep the guard
+    # when moving them into voice downloads, along with the restricted list of client-loaded files.
+    secret = re.compile(r"(?<![\w-])(?:AIza[\w-]{35}|sk-(?:ant|proj)-[\w-]{20,}|sk_[0-9a-f]{40,}|sk-[A-Za-z0-9]{40,})(?![\w-])"
+                        r"|op:[/][/]|GEMINI[_]API[_]KEY|ANTHROPIC_API_KEY|OPENAI_API_KEY|ELEVENLABS[_]API[_]KEY|xi[-]api[-]key"
+                        r"|-----BEGIN [A-Z ]*PRIVATE KEY", re.I)
+    for name in listed:
+        if not (src / name).is_file():
+            sys.exit(f"build-voice-packs: missing {folder}/{name}")
+        if secret.search((src / name).read_text(encoding="utf-8", errors="replace")):
+            sys.exit(f"build-voice-packs: {folder}/{name} contains something that looks like a secret")
+    return folder, listed
+
 out.mkdir(parents=True, exist_ok=True)
 rows = []
 for name, (folders, display) in DOWNLOADS.items():
+    if name in FULL_BUNDLES:
+        folders = [f for f in folders if (addons / f / f"{f}.toc").is_file()]
+        if not folders:
+            print(f"skip {name}: no recorded components in addon/")
+            continue
     if not all((addons / f / f"{f}.toc").is_file() for f in folders):
         print(f"skip {name}: {', '.join(f for f in folders if not (addons / f).is_dir()) or 'no .toc'} not in addon/")
         continue
@@ -113,9 +167,15 @@ for name, (folders, display) in DOWNLOADS.items():
             sys.exit(f"build-voice-packs: {len(pointers)} files in {f}/Audio are Git LFS pointers, not recordings "
                      f"(e.g. {pointers[0].name}). Fetch them first: git -c lfs.fetchexclude= lfs pull")
     path = out / (f"{name}-{v}.zip" if VERSIONED else f"{name}.zip")
+    locale = re.search(r"_([a-z]{2}[A-Z]{2})(?:-complete)?$", name)
+    lang = language_files(locale.group(1)) if locale and locale.group(1) != "enUS" else None
     with zipfile.ZipFile(path, "w") as z:
-        for f in folders:
-            for p in sorted((addons / f).rglob("*")):
+        files = [(f, sorted((addons / f).rglob("*"))) for f in folders]
+        if lang:
+            f, listed = lang
+            files.append((f, [addons / f / p for p in listed]))
+        for f, paths in files:
+            for p in paths:
                 if p.is_file():
                     info = zipfile.ZipInfo(f"{f}/{p.relative_to(addons / f).as_posix()}", date_time=(2026, 1, 1, 0, 0, 0))
                     info.compress_type = zipfile.ZIP_STORED if p.suffix.lower() in AUDIO else zipfile.ZIP_DEFLATED

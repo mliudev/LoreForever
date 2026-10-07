@@ -17,7 +17,7 @@
   "wiki": "Return to Sven",
   "chain": []
  },
- "summary": "This quest marks the moment Sven Yorgen finally learns the truth behind the brutal massacre of his family at the Yorgen Farmstead. After tracking down the runaway Jitters, you return to Sven's isolated camp on the edge of Westfall carrying the vagrant's completed journal. The grim revelations inside pivot Sven's grief toward cold vengeance against the mysterious Dark Riders and the necromancer Morbent Fel.",
+ "summary": "This quest marks the moment Sven Yorgen finally learns the truth behind the brutal massacre of his family at the Yorgen Farmstead. After tracking down the runaway Jitters, you return to Sven's isolated camp on the edge of Westfall carrying the vagrant's completed journal. The journal promises answers to the questions that have haunted Sven since the attack.",
  "sections": [
   {
    "title": "A Coward's Confession",
@@ -46,7 +46,7 @@
     "what does the journal say",
     "jitters completed journal lore"
    ],
-   "answer": "The journal details the true circumstances of the slaughter at the Yorgen Farmstead, recounting how the sinister Dark Riders attacked the farm in search of the Scythe of Elune and butchered Sven's loved ones while Jitters hid and escaped."
+   "answer": "It is Jitters' full account of the events at Sven's farm. Sven needs to read it to understand what happened to his family."
   },
   {
    "q": "Who are the Dark Riders mentioned by Sven?",
@@ -64,7 +64,7 @@
     "why morbent fel",
     "who is morbent fel"
    ],
-   "answer": "Upon reading the journal, Sven recalls seeing the Dark Riders speaking directly with Morbent Fel at the Forlorn Rowe. Fel is a powerful necromancer wielding dark magic in the region, making him the prime suspect for collaborating with the riders who murdered Sven's family."
+   "answer": "Morbent Fel is a powerful necromancer in western Duskwood. His connection to the attack is uncovered through Sven's investigation and Jitters' journal."
   },
   {
    "q": "Where can Sven Yorgen be found?",
@@ -81,7 +81,7 @@
     "next quest after return to sven",
     "sven questline next"
    ],
-   "answer": "Armed with the knowledge from Jitters' journal, Sven focuses his wrath on the necromancer Morbent Fel. However, before he trusts you to strike at Fel directly, he tests your combat capabilities to ensure you are ready for the horrors ahead."
+   "answer": "Sven reads Jitters' completed account and asks you to prove your combat abilities in the next task, Proving Your Worth."
   }
  ],
  "angles": [

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Eastwall Tower"
  },
- "summary": "Eastwall Tower is a ruined Lordaeron scout tower situated in the Eastern Plaguelands near the eastern road. Sacked during the Third War when the Scourge swept across the kingdom, its remains now serve as a vital vantage point fought over by Alliance and Horde forces seeking a foothold in the infected wilderness.",
+ "summary": "Eastwall Tower is a ruined Lordaeron scout tower situated in the Eastern Plaguelands near the eastern road. Sacked during the Third War when the Scourge swept across the kingdom, its remains overlook the Scourge-infested wilderness.",
  "sections": [
   {
    "title": "A Ruined Watch on the Border",
-   "body": "Built as a border sentinel for the kingdom of Lordaeron, Eastwall Tower once watched over travelers heading toward the far reaches of the realm. When the Scourge invaded during the Third War, the outpost was crushed along with the surrounding settlements, leaving shattered stone arches and burnt timber behind. Now, with the Lich King's armies still infesting the region, the tower's elevated position makes it an indispensable forward post. Vanguard scouts from both the Alliance and the Horde clash violently over its ramparts, seeking to secure supply lines and bolster regional control against the surrounding horrors.",
+   "body": "Built as a border sentinel for the kingdom of Lordaeron, Eastwall Tower once watched over travelers heading toward the far reaches of the realm. When the Scourge invaded during the Third War, the outpost was crushed along with the surrounding settlements, leaving shattered stone arches and burnt timber behind. Now, with the Lich King's armies still infesting the region, the tower's elevated position makes it an indispensable forward post. Its ruined ramparts overlook roads through the Scourge-infested countryside.",
    "spoiler": 0
   }
  ],
@@ -34,13 +34,12 @@
    "answer": "The tower was destroyed by the Scourge during Prince Arthas Menethil's conquest and the subsequent undead ravaging of Lordaeron. Undead monstrosities smashed its defenses, leaving the defenders dead and the structure in ruins."
   },
   {
-   "q": "Why are the Alliance and Horde fighting over these ruins?",
+   "q": "Why is the tower strategically important?",
    "aliases": [
-    "why fight here",
-    "pvp tower lore",
-    "why is eastwall tower contested"
+    "eastwall tower importance",
+    "eastwall tower position"
    ],
-   "answer": "Even in ruins, the tower commands high ground along the eastern roadways of the Plaguelands. Both factions seek to fortify their forward positions, protect supply lines, and establish staging grounds against the Scourge without ceding territory to their mortal rivals."
+   "answer": "Even in ruins, the tower commands high ground along the eastern roadways of the Plaguelands, overlooking the Scourge-infested countryside."
   },
   {
    "q": "Is the tower safe to rest at?",
@@ -48,17 +47,17 @@
     "can i rest here",
     "friendly guards"
    ],
-   "answer": "The tower is actively contested and never truly secure. Whichever faction currently holds the beacon may station sentries there, but wild Scourge forces roam close by and rival champions frequently launch skirmishes to seize control."
+   "answer": "The ruined tower stands in Scourge-infested countryside and offers no secure refuge."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, retaking Eastwall Tower honors the fallen soldiers of Lordaeron and secures the approach to Light's Hope Chapel against Scourge and Horde incursions alike."
+   "text": "For the Alliance, retaking Eastwall Tower honors the fallen soldiers of Lordaeron and secures the approach to Light's Hope Chapel against Scourge incursions."
   },
   {
    "target": "faction:Horde",
-   "text": "Securing Eastwall Tower establishes a vital forward outpost in contested northern lands, ensuring Horde forces are not trapped or cut off by Alliance expeditions."
+   "text": "The ruined scout tower overlooks roads through the hostile northern lands."
   }
  ],
  "keywords": [
@@ -66,7 +65,6 @@
   "eastwall tower",
   "lordaeron",
   "plaguelands tower",
-  "pvp tower",
   "scout tower"
  ],
  "related": [

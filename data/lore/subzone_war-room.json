@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Nerve Center of the Keep",
-   "body": "Branching off from the grand chambers of Stormwind Keep, the War Room is outfitted specifically for military logistics and high-level campaign planning. Its stone walls are decorated with rows of armaments, including swords, blunderbusses, and even heavy artillery cannons. Piles of military treatises and historical chronicles\u2014such as accounts of the Second War, the Fall of Stormwind, and the Battle of Grim Batol\u2014stand stacked on nearby tables. At the room's core lies a large tactical map table, allowing commanders and battlemasters to assess Alliance deployments across Azeroth while the royal court handles matters of state just steps away.",
+   "body": "Branching off from the grand chambers of Stormwind Keep, the War Room is outfitted specifically for military logistics and high-level campaign planning. Its stone walls are decorated with rows of armaments, including swords, blunderbusses, and even heavy artillery cannons. Piles of military treatises and historical chronicles—such as accounts of the Second War, the Fall of Stormwind, and the Battle of Grim Batol—stand stacked on nearby tables. At the room's core lies a large tactical map table, allowing commanders to assess Alliance deployments across Azeroth while the royal court handles matters of state just steps away.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "war room purpose",
     "why does the keep have a war room"
    ],
-   "answer": "It serves as the strategic planning headquarters for the Alliance military within Stormwind. High commanders and battlemasters gather here to review intelligence, coordinate troop movements, and study historical and ongoing conflicts."
+   "answer": "It serves as the strategic planning headquarters for the Alliance military within Stormwind. High commanders gather here to review intelligence, coordinate troop movements, and study historical and ongoing conflicts."
   },
   {
    "q": "What historical lore can be found here?",
@@ -55,7 +55,6 @@
   }
  ],
  "keywords": [
-  "battlemasters",
   "dark portal",
   "grim batol",
   "map room",

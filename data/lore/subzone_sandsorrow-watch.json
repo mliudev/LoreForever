@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Precarious Perch",
-   "body": "Situated directly west of the bustling goblin trading hub of Gadgetzan, Sandsorrow Watch is a grim borderland in the Tanaris desert. The broad expanse is dominated by the Sandfury tribe\u2014also known as the Farraki trolls\u2014who aggressively defend the arid territory alongside legions of shambling troll zombies. An elevated watch tower at the eastern edge anchors the position, providing a fortified vantage point amidst the encroaching desert wilderness and the hostile indigenous tribes.",
+   "body": "Situated directly west of the bustling goblin trading hub of Gadgetzan, Sandsorrow Watch is a grim borderland in the Tanaris desert. The broad expanse is dominated by the Sandfury tribe—also known as the Farraki trolls—who aggressively defend the arid territory alongside legions of shambling troll zombies. An elevated watch tower at the eastern edge anchors the position, providing a fortified vantage point amidst the encroaching desert wilderness and the hostile indigenous tribes.",
    "spoiler": 0
   },
   {
@@ -75,8 +75,7 @@
   "sandfury",
   "sandsorrow",
   "sandsorrow watch",
-  "tanaris",
-  "trenton lighthammer"
+  "tanaris"
  ],
  "related": [
   "zone:tanaris",

@@ -446,6 +446,7 @@ function JR.WebLine(view)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
   function b:Update(shown)
     local again = LoreForeverDB and LoreForeverDB.settings and LoreForeverDB.settings.recordCopied
+      and type(_G.LoreForeverJourneyData) ~= "table"
     text:SetText(again and (T.code.gold .. L["Played some more?"] .. "|r " .. L["Paste a newer record at loreforeverwow.com/account to update your page."])
       or (T.code.gold .. L["Your page on loreforeverwow.com:"] .. "|r " .. L["your stats, the road you took and your story"]))
     self:SetShown(shown ~= false)

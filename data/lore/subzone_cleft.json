@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "A Den of Corruption",
-   "body": "Situated off the highway between Dolanaar and Darnassus, the Cleft has turned into one of the most perilous dens on the world tree. Driven mad by the foul taint spreading through Teldrassil, the resident Gnarlpine furbolgs have fortified this subterranean rift under the command of their vicious chieftain, Ursal the Mauler. From this redoubt, the maddened beasts terrorize the local roads, capturing unvigilant night elves and threatening to cut Dolanaar off from the capital.",
+   "body": "Situated off the highway between Dolanaar and Darnassus, the Cleft has turned into one of the most perilous dens on the world tree. Driven mad by the foul taint spreading through Teldrassil, the resident Gnarlpine furbolgs have fortified this hollow. From this redoubt, the maddened beasts terrorize the local roads, threatening to cut Dolanaar off from the capital.",
    "spoiler": 0
   },
   {
    "title": "The Roadway Ambushers",
-   "body": "The threat posed by the Cleft grew dire enough that Moon Priestess Amara and her sentinels were forced to establish a defensive watch along the road outside its entrance. The furbolgs within carried out brazen kidnappings, dragging slumbering night elf druids into the depths of the cave to perform dark rituals. Cleansing the Cleft and slaying Ursal is crucial for the Sentinels to secure the primary artery connecting Teldrassil's villages to Darnassus.",
+   "body": "The threat posed by the Cleft grew dire enough that Moon Priestess Amara and her sentinels were forced to establish a defensive watch along the road outside its entrance. Cleansing the Cleft is crucial for the Sentinels to secure the primary artery connecting Teldrassil's villages to Darnassus.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "cleft enemies",
     "who rules the cleft"
    ],
-   "answer": "It is occupied by hostile Gnarlpine furbolgs who have fallen victim to Teldrassil's creeping corruption. Their local leader within the cavern is a powerful brute named Ursal the Mauler."
+   "answer": "It is occupied by hostile Gnarlpine furbolgs who have fallen victim to Teldrassil's creeping corruption."
   },
   {
    "q": "Why are the night elves fighting here?",
@@ -46,7 +46,7 @@
     "cleft night elf quests",
     "road to darnassus"
    ],
-   "answer": "The Gnarlpine inside the Cleft have been ambushing travelers along the road to Darnassus. Worse, they kidnapped slumbering druids and held them captive inside the den, forcing Moon Priestess Amara and the Sentinels to intervene."
+   "answer": "The Gnarlpine inside the Cleft have been ambushing travelers along the road to Darnassus. Moon Priestess Amara and the Sentinels seek to keep that road safe."
   },
   {
    "q": "Is the Cleft related to the Cleft of Shadow?",
@@ -60,11 +60,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The Cleft represents a painful tragedy for night elves, watching their longtime furbolg allies succumb to madness and capture sacred druids from their slumber."
+   "text": "The Cleft represents a painful tragedy for night elves, watching their longtime furbolg allies succumb to madness and attack travelers."
   },
   {
    "target": "class:Druid",
-   "text": "The Gnarlpine inside the Cleft dared to abduct dreaming druids from their trances, turning a sacred restorative process into a dangerous trap."
+   "text": "The corrupted Gnarlpine threaten the safety of travelers along the road to Darnassus."
   }
  ],
  "keywords": [
@@ -73,11 +73,9 @@
   "dolanaar",
   "furbolg",
   "gnarlpine",
-  "moon priestess amara",
-  "ursal the mauler"
+  "moon priestess amara"
  ],
  "related": [
-  "quest:486",
   "quest:487",
   "npc:moon-priestess-amara",
   "topic:furbolg",

@@ -52,7 +52,7 @@
     "who took the cargo",
     "who has the shipment"
    ],
-   "answer": "The shipment was seized by the Southsea Freebooters, a local band of pirates camped along the coast south of Ratchet. Because the cargo never reached the docks, Gazlowe concludes the raiders intercepted it directly."
+   "answer": "Gazlowe suspects the Southsea Freebooters, a local band of pirates camped along the coast south of Ratchet. Dizzywig's records show no discrepancy at the docks, leading Gazlowe to turn his attention toward the raiders."
   },
   {
    "q": "Why does Gazlowe trust Wharfmaster Dizzywig?",
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Sorting through harbor paperwork reveals how easily goods vanish between sea and shore\u2014a classic smugglers' trade trick."
+   "text": "Sorting through harbor paperwork reveals how easily goods vanish between sea and shore—a classic smugglers' trade trick."
   },
   {
    "target": "faction:Horde",

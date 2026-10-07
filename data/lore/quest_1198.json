@@ -23,7 +23,7 @@
  "summary": "In Search of Thaelrid is an Alliance reconnaissance mission dispatched from Darnassus on behalf of the Argent Dawn. Dawnwatcher Shaedlass tasks adventurers with venturing into the sunken ruins of Blackfathom Deeps to locate a missing scout who vanished while investigating a dangerous alliance between naga and cultists. It represents an early encounter with the reach of the Argent Dawn beyond their typical northern vigil.",
  "sections": [
   {
-   "title": "Eyes in the Temple of the Moon",
+   "title": "Eyes in Darnassus",
    "body": "Though the Argent Dawn is most renowned for holding the line against the Scourge in the plague-ridden ruins of Lordaeron, its vigilance extends across Kalimdor. Stationed within Darnassus, Dawnwatcher Shaedlass gathers whispers and intelligence on unnatural threats emerging across the world. When unsettling reports arose that sea-dwelling naga and the doomsday zealots of the Twilight's Hammer had forged a pact within the flooded chambers of Blackfathom Deeps along the Ashenvale shore, the order recognized the potential catastrophe.",
    "spoiler": 0
   },
@@ -86,7 +86,7 @@
     "can horde do this quest",
     "horde thaelrid"
    ],
-   "answer": "No. The assignment is given by Dawnwatcher Shaedlass directly in Darnassus, making it an Alliance expedition, though Thaelrid himself holds no love for evil whether encountered by Horde or Alliance."
+   "answer": "The assignment is given by Dawnwatcher Shaedlass in Darnassus and is aimed at Alliance adventurers. Horde adventurers can also accept it if they reach him."
   }
  ],
  "angles": [

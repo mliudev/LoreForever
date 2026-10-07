@@ -686,6 +686,7 @@ end
 -- A recorded narration exists for this entry with the current voice (or quest dialogue Voice.QuestClip picked, or a
 -- question and answer from an answers pack).
 function Voice.HasAudio(key)
+  if isQuestClip(key) and not Voice.QuestDialogue() then return false end
   if not Voice.ready then Voice.Refresh() end
   return key ~= nil and (Voice.active[key] or Voice.questPaths[key] or Voice.answerPaths[key]) ~= nil
 end
@@ -1048,6 +1049,9 @@ end
 -- plays by itself (arrivals, flights, quest givers, books), while play buttons, the Narrate key and the playlist work
 -- as ever. Off by default; the separate toggles keep their own settings underneath it.
 function Voice.OnDemand() return S().onDemand == true end
+
+-- Direct quest pages are independent of Lore Forever's stories and answers, and require an explicit opt-in.
+function Voice.QuestDialogue() return S().questDialogue == true end
 
 -- The game's own cutscenes and voiced dialog: a cinematic, a movie, or a talking head (on clients that have one).
 -- Nothing starts by itself over them, and what started by itself stops when one begins (Voice.OnGameTalk).
@@ -1603,7 +1607,7 @@ end
 function Voice.OnQuestFrame(kind, recorded)
   Voice.questKind, Voice.questRecorded = kind, recorded
   local UI = ns.UI
-  if S().autoQuest == false or Voice.OnDemand() or not (UI and UI.frame) then return end
+  if not Voice.QuestDialogue() or Voice.OnDemand() or not (UI and UI.frame) then return end
   local qid = openQuest()
   if not qid then return end
   local id = QUEST_PREFIX .. qid .. ":" .. kind
@@ -1639,9 +1643,10 @@ function Voice.OnGameTalkOver()
   if not Voice.GameTalking() then Voice.OnCombatOver() end
 end
 
--- The quest window's play button: play the page shown (with Narrate quest dialogue off too, and over anything playing,
--- as any play button does), or stop it while it plays. Returns true if it did either.
+-- The quest window's play button requires the direct quest dialogue opt-in, including manual playback.
+-- It plays the page shown, or stops it while it plays. Returns true if it did either.
 function Voice.PlayQuestPage()
+  if not Voice.QuestDialogue() then return false end
   local UI, qid = ns.UI, openQuest()
   local target = qid and UI and UI.frame and questTarget(qid, Voice.questKind, Voice.questRecorded)
   if not target then return false end
@@ -1653,6 +1658,7 @@ end
 -- What the play button does now: "stop" (its page plays, here or from the playlist), "listen" (the quest giver's
 -- recorded words), or nil when nothing can play (no recording: the button hides).
 function Voice.QuestPageState()
+  if not Voice.QuestDialogue() then return nil end
   local UI, qid = ns.UI, openQuest()
   if not (UI and qid) then return nil end
   if UI.speaking and UI.playingId == QUEST_PREFIX .. qid .. ":" .. Voice.questKind then return "stop" end
@@ -1665,6 +1671,17 @@ end
 local function stopQuestPage()
   local UI = ns.UI
   if UI and UI.speaking and isQuestText(UI.playingId) then UI.StopAll() end
+end
+
+-- Turning direct quest dialogue off stops any quest page, including one started from the lore panel or playlist.
+function Voice.SetQuestDialogue(on)
+  S().questDialogue = on and true or false
+  local UI = ns.UI
+  if not on and UI and UI.speaking and (isQuestText(UI.playingId) or isQuestClip(UI.playingId)
+      or (Voice.lastClip and isQuestClip(Voice.lastClip.id))) then UI.StopAll() end
+  if UI and UI.OnVoiceChanged then UI.OnVoiceChanged() end
+  if ns.Hooks and ns.Hooks.UpdateQuestPlayButton then ns.Hooks.UpdateQuestPlayButton() end
+  return S().questDialogue
 end
 
 -- The quest window closed: stop its page, and the next time it opens its pages play again (Voice.openPages).
@@ -1757,27 +1774,24 @@ local function addOnLoaded(match)
   return false
 end
 
--- Players who run the Spoken add-ons (zones, quests and books read aloud) would hear both. The first time Lore
--- Forever finds one loaded, it leaves arrivals and quest dialogue to Spoken and says how to turn them back on; after
--- that the player's choice in Options stands (LOR-138). Books are left to Spoken too, without a word: no book has a
--- recording yet, so Lore Forever plays none and Options has no switch for them.
+-- Spoken's modules cover different text. Only its zone module competes with arrival lore; quest-only Spoken
+-- must leave Lore Forever's own stories playing. Books are left to its book module quietly.
 function Voice.CheckSpoken()
   local s = S()
-  if s.spokenChecked and s.spokenBooks then return end
-  if not addOnLoaded(function(name) return name:find("^spoken") end) then return end
-  -- Books came later (LOR-49): players already past the first check have them left to Spoken on their own.
-  if not s.spokenBooks and s.readBooks ~= false then s.readBooks = false end
-  s.spokenBooks = true
-  if s.spokenChecked then return end
-  s.spokenChecked = true
-  if s.autoZone == false and s.autoQuest == false then return end
-  s.autoZone, s.autoQuest = false, false
-  say(L["Spoken is running, so narrations won't play by themselves as you arrive or talk to a quest giver. Type /lore autoplay (or use Options) to turn that back on."])
+  if not s.spokenBooks and addOnLoaded(function(name) return name:find("^spokenbook") end) then
+    s.readBooks, s.spokenBooks = false, true
+  end
+  if s.spokenZonesChecked or not addOnLoaded(function(name) return name:find("^spokenzone") end) then return end
+  s.spokenZonesChecked = true
+  if s.autoZone == false then return end
+  s.autoZone = false
+  say(L["Spoken Zones is running, so Lore Forever's stories won't play automatically as you arrive. Type /lore autoplay (or use Options) to turn that back on."])
 end
 
 -- Other add-ons that voice quest dialogue (LOR-182), by the core folder their Forever builds install (their voice packs
 -- depend on it). folders: lower case, any one loaded counts; books: it reads books aloud too. None plays on arrival.
 local QUEST_VOICES = {
+  { id = "spokenquest", title = "Spoken Quest", match = function(name) return name:find("^spokenquest") end },
   { id = "forevervo", title = "Forever Voiceover", folders = { forevervo = true } },
   { id = "chronicle", title = "Chronicle", folders = { foreverchronicle = true }, books = true },
   { id = "speakstone", title = "SpeakStone Forever", folders = { speakstone_forever_main = true }, books = true },
@@ -1796,28 +1810,27 @@ function Voice.CheckQuestVoices()
   local s = S()
   local checked = type(s.questVoicesChecked) == "table" and s.questVoicesChecked or {}
   for _, v in ipairs(QUEST_VOICES) do
-    if not checked[v.id] and addOnLoaded(function(name) return v.folders[name] end) then
+    if not checked[v.id] and addOnLoaded(function(name) return v.match and v.match(name) or v.folders and v.folders[name] end) then
       checked[v.id] = true
       s.questVoicesChecked = checked
       if v.books and s.readBooks ~= false then s.readBooks = false end
-      if s.autoQuest ~= false then
-        s.autoQuest = false
-        say(string.format(L["%s is running, so quest dialogue won't play by itself when you talk to a quest giver. Type /lore autoplay (or use Options) to turn that back on."], v.title))
+      if Voice.QuestDialogue() then
+        Voice.SetQuestDialogue(false)
+        say(string.format(L["%s is running, so direct quest dialogue is off. Lore Forever's stories and answers still play. Options > Speak quest dialogue turns it back on."], v.title))
       end
     end
   end
 end
 
--- /lore autoplay: both automatic narrations on if either is off (one may have been left to another add-on) or
--- "only when I press Play" is on (which it then turns off), else both off. Returns the new state.
+-- /lore autoplay toggles arrival narration and clears on-demand mode when enabling it.
+-- Direct quest dialogue keeps its separate opt-in. Returns the new arrival state.
 function Voice.ToggleAutoplay()
   local s = S()
-  local on = s.autoZone == false or s.autoQuest == false or Voice.OnDemand()
-  s.autoZone, s.autoQuest = on, on
+  local on = s.autoZone == false or Voice.OnDemand()
+  s.autoZone = on
   if on and Voice.OnDemand() then Voice.SetOnDemand(false) end
   if not on then
     Voice.autoToken, Voice.autoWaiting = nil, nil
-    stopQuestPage()
   end
   return on
 end

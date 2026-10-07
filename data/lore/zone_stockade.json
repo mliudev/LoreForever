@@ -27,7 +27,7 @@
  "sections": [
   {
    "title": "A Prison Under Siege",
-   "body": "Beneath the tranquil canals of Stormwind, the Stockade has become a war zone. When the regular army marched out to fight on distant fronts, the understaffed prison leaned on inexperienced youth\u2014including fourteen-year-old recruits\u2014to maintain order. It did not hold. The inmates launched a bloody, coordinated rebellion, tearing their wool blankets into gang scarves and cutting down the remaining guards. Warden Thelwater barely maintained control of the entryway, leaving the cells, hallways, and holding blocks in the ruthless hands of the convicts.",
+   "body": "Beneath the tranquil canals of Stormwind, the Stockade has become a war zone. When the regular army marched out to fight on distant fronts, the understaffed prison leaned on inexperienced youth—including fourteen-year-old recruits—to maintain order. It did not hold. The inmates launched a bloody, coordinated rebellion, tearing their wool blankets into gang scarves and cutting down the remaining guards. Warden Thelwater barely maintained control of the entryway, leaving the cells, hallways, and holding blocks in the ruthless hands of the convicts.",
    "spoiler": 0
   },
   {
@@ -36,8 +36,8 @@
    "spoiler": 1
   },
   {
-   "title": "The Mastermind and the Enforcer",
-   "body": "Behind the prison's synchronized collapse sits Bazil Thredd, a cunning felon tied directly to the Defias Brotherhood who orchestrated the uprising from his cell. Deep in the eastern cellblock lurks Bruegal Ironknuckle, a brutal dwarven brawler serving as the muscle of the revolt. While Thredd orchestrates the political disruption, Ironknuckle and his cohorts enforce absolute brutality within the halls. Striking down both the mastermind and his heavy enforcers is the only way Warden Thelwater can hope to break the inmates' spirits and reclaim the complex for the crown.",
+   "title": "The Mastermind and the Rioters",
+   "body": "Behind the prison's synchronized collapse sits Bazil Thredd, a cunning felon tied directly to the Defias Brotherhood who orchestrated the uprising from his cell. Among the rioters is Bruegal Ironknuckle, a dangerous dwarven brawler. He is one of several hardened convicts adventurers may encounter while helping Thelwater reclaim the prison.",
    "spoiler": 1
   }
  ],
@@ -58,7 +58,7 @@
     "who leads the riot",
     "who runs stockades"
    ],
-   "answer": "The mastermind behind the revolt is Bazil Thredd, an influential Defias felon incarcerated in the central corridor. He coordinated the prisoners across factions, using enforcers like the dwarven rogue Bruegal Ironknuckle, the ogre Hamhock, and Dark Iron infiltrator Kam Deepfury to hold the wings."
+   "answer": "The mastermind behind the revolt is Bazil Thredd, an influential Defias felon incarcerated in the eastern cellblock. Other dangerous prisoners include Bruegal Ironknuckle, Hamhock, and Kam Deepfury."
   },
   {
    "q": "Why are prisoners like Targorr and Dextren Ward still alive?",
@@ -76,7 +76,7 @@
     "kill bruegal",
     "who is bruegal"
    ],
-   "answer": "Bruegal Ironknuckle is the most fearsome enforcer among the rioters. Striking down this rare dwarven brawler shatters the physical intimidation holding the inmates together, leaving Bazil Thredd without his primary muscle and allowing Warden Thelwater to begin restoring order."
+   "answer": "Bruegal Ironknuckle is a dangerous dwarven brawler among the rioters. Defeating him removes one threat from the prison while adventurers work to put down the uprising."
   },
   {
    "q": "Why are there Dark Iron dwarves and orcs inside a human jail?",
@@ -111,7 +111,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "Located right on the canal edge of the Mage Quarter, the riot's physical brawlers and lack of hostile spellcasters make defensive wards and Amplify Magic especially effective for support."
+   "text": "Located right on the canal edge of the Mage Quarter, the prison contains physical brawlers vulnerable to slowing spells, while the ogre mage Hamhock can unleash Chain Lightning."
   }
  ],
  "keywords": [

@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Fusion of Disciplines",
-   "body": "Forging heavy armor typically belongs to the great anvils of the Great Forge, but Klockmort Spannerspan operates out of Tinker Town. The creation of this armor represents a collaborative triumph between dwarven metallurgical tradition and gnomish mechanical innovation. By adapting Furen Longbeard's rigorous methods, Klockmort finishes an armored breastplate engineered to endure punishment that would crush ordinary steel.",
+   "body": "Forging heavy armor typically belongs to the great anvils of the Great Forge, but Klockmort Spannerspan operates out of Tinker Town. The creation of this armor represents a collaborative triumph between dwarven metallurgical tradition and gnomish mechanical innovation. By adapting Furen Longbeard's rigorous methods, Klockmort finishes a pair of armored gauntlets engineered to endure punishment that would crush ordinary steel.",
    "spoiler": 0
   },
   {
@@ -74,7 +74,7 @@
     "why do this quest",
     "warrior reward"
    ],
-   "answer": "This creation is the culmination of a dedicated series of tasks undertaken by promising Alliance warriors seeking to arm themselves with resilient plate armor custom-forged by Ironforge's finest minds."
+   "answer": "This creation is the culmination of a dedicated series of tasks undertaken by promising Alliance warriors seeking to arm themselves with resilient armor custom-forged by Ironforge's finest minds."
   },
   {
    "q": "Where is Klockmort found?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Commissioning this breastplate is an important milestone for Alliance warriors, providing custom-tempered armor built specifically to endure the crushing blows of frontline combat."
+   "text": "Commissioning these gauntlets is an important milestone for Alliance warriors, providing custom-tempered armor built specifically to endure the crushing blows of frontline combat."
   },
   {
    "target": "race:Gnome",

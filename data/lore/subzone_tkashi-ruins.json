@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Tkashi Ruins"
  },
- "summary": "The Tkashi Ruins are ancient stone remnants situated southwest of Nesingwary's Expedition in northern Stranglethorn Vale. Overrun by hostile Bloodscalp trolls, the site harbors ancestral artifacts and ritual practices that draw the attention of nearby expeditions.",
+ "summary": "The Tkashi Ruins are ancient stone remnants situated southwest of Nesingwary's Expedition in northern Stranglethorn Vale. Overrun by hostile Bloodscalp trolls, the site remains a stronghold of the tribe.",
  "sections": [
   {
    "title": "Stones of the Bloodscalp",
@@ -41,22 +41,9 @@
     "green hills tkashi"
    ],
    "answer": "In chapter three of his memoir, The Green Hills of Stranglethorn (specifically page 21), Nesingwary records that he and his hunting party managed to traverse the Tkashi Ruins without incident during their early days in the jungle."
-  },
-  {
-   "q": "Why do explorers search these ruins?",
-   "aliases": [
-    "why go to tkashi",
-    "tkashi relics",
-    "tkashi quests"
-   ],
-   "answer": "Curious researchers and factions pushing through Stranglethorn seek to investigate the ancient troll artifacts left among the rubble and study the shamanistic practices kept alive by the Bloodscalp occupants."
   }
  ],
  "angles": [
-  {
-   "target": "faction:Alliance",
-   "text": "Following instability around Colonel Kurzen's forces to the north, Alliance-aligned scouts monitor the Tkashi Ruins to recover tribal artifacts and blunt Bloodscalp aggression along the jungle trails."
-  },
   {
    "target": "race:Troll",
    "text": "For the Darkspear, sites like Tkashi are grim reminders of the ancient tribal ruins left behind by their hostile Gurubashi kin, now fiercely defended by savage Bloodscalp holdouts."
