@@ -1,5 +1,5 @@
 {
-  "_readme": "The narration that goes to CurseForge as projects of its own (scripts/curseforge_voices.py, run by the public repo's release workflow). CurseForge's WoW site takes one file per project (additional files are refused, errorCode 1011), and its upload API refuses files over about 500 MB (Cloudflare answers 413), so each narrator is two projects, its stories and its quest dialogue, and every other optional pack (a narrator in another language, the quest givers' voices) is one of its own. Each project's file is the folders listed here, taken byte for byte from the release zip named in 'from' (or the zips, when it's a list: a project gets the folders the release has so far), and it goes up whenever the narration in it changed since that project's last upload. Every project requires Lore Forever (lore-forever, 1715510), so the CurseForge app installs the add-on along with it. key: a short name for logs and 'requires'. name: the project's name on CurseForge. about: what it is, for players (changelogs). file: each upload's display name, {v} = the release version. core: how the add-on's own file lists the project once it's live, as a required or an optional dependency. Quest dialogue is always optional and never bundled with the core, whether its project is live or pending. requires: other projects here it needs installed to play (the quest givers' voices use male quest dialogue as a fallback; narrator quest packs play without their narrator's other packs). suggests: other projects here it goes well with, which CurseForge lists as optional dependencies (not installed with it). id and slug: the project's number and address (curseforge.com/wow/addons/<slug>), null until Mike creates it; a project without an id is skipped, so nothing uploads until it exists. Create a project only once its pack ships (CurseForge reviews a new project once it has a file); a release that doesn't have a project's zip yet just skips it. live: true once CurseForge has approved the project, since a file can only name an approved project as a dependency. Until then the add-on's file keeps bundled narration folders (quest dialogue is always excluded), unless that would put it over the limit (then its notes say so and point to the full download). core_upload: how the add-on's own file gets to CurseForge. 'auto': the release workflow uploads it, leaving out what doesn't fit under the API's limit. 'manual': one narration package without quest dialogue, the release's LoreForever.zip and the female narrator's complete zip merged (curseforge_voices.py package; without her only if that's over 2 GB), uploaded by hand on the website, which takes up to 2 GB; the workflow then uploads nothing for the add-on and its summary says what to upload (tried 2026-10-04 for 0.8.0: the website refused the 1.45 GB package as \"too large for this game class\", so it's 'auto' again).",
+  "_readme": "The narration that goes to CurseForge as projects of its own (scripts/curseforge_voices.py, run by the public repo's release workflow). CurseForge's WoW site takes one file per project (additional files are refused, errorCode 1011), and its upload API refuses files over about 500 MB (Cloudflare answers 413), so narrator stories, answer packs and quest dialogue have separate projects, and every other optional pack (a narrator in another language, the quest givers' voices) is one of its own. Each project's file is the folders listed here, taken byte for byte from the release zip named in 'from' (or the zips, when it's a list: a project gets the folders the release has so far), and it goes up whenever the narration in it changed since that project's last upload. Every project requires Lore Forever (lore-forever, 1715510), so the CurseForge app installs the add-on along with it. key: a short name for logs and 'requires'. name: the project's name on CurseForge. about: what it is, for players (changelogs). file: each upload's display name, {v} = the release version. core: how the add-on's own file lists the project once it's live, as a required or an optional dependency. Quest dialogue is always optional and never bundled with the core, whether its project is live or pending. requires: other projects here it needs installed to play (the quest givers' voices use male quest dialogue as a fallback; narrator quest packs play without their narrator's other packs). suggests: other projects here it goes well with, which CurseForge lists as optional dependencies (not installed with it). id and slug: the project's number and address (curseforge.com/wow/addons/<slug>), null until Mike creates it; a project without an id is skipped, so nothing uploads until it exists. Create a project only once its pack ships (CurseForge reviews a new project once it has a file); a release that doesn't have a project's zip yet just skips it. live: true once CurseForge has approved the project, since a file can only name an approved project as a dependency. Until then the add-on's file keeps bundled narration folders (quest dialogue is always excluded), unless that would put it over the limit (then its notes say so and point to the full download). core_upload: how the add-on's own file gets to CurseForge. 'auto': the release workflow uploads it, leaving out what doesn't fit under the API's limit. 'manual': one narration package without quest dialogue, the release's LoreForever.zip and the female narrator's complete zip merged (curseforge_voices.py package; without her only if that's over 2 GB), uploaded by hand on the website, which takes up to 2 GB; the workflow then uploads nothing for the add-on and its summary says what to upload (tried 2026-10-04 for 0.8.0: the website refused the 1.45 GB package as \"too large for this game class\", so it's 'auto' again).",
   "core_upload": "auto",
   "projects": [
     {
@@ -51,8 +51,8 @@
       "file": "Lore Forever quest givers' voices {v}",
       "core": "optional",
       "requires": ["male-quests"],
-      "id": null,
-      "slug": null,
+      "id": 1731403,
+      "slug": "lore-forever-quest-givers-voices",
       "live": false
     },
     {
@@ -90,8 +90,8 @@
       "file": "Lore Forever male narrator, French {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1731408,
+      "slug": "lore-forever-french-narration-male-narrator",
       "live": false
     },
     {
@@ -103,8 +103,8 @@
       "file": "Lore Forever female narrator, French {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1731410,
+      "slug": "lore-forever-french-narration-female-narrator",
       "live": false
     },
     {
@@ -116,8 +116,8 @@
       "file": "Lore Forever male narrator, Spanish {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1731411,
+      "slug": "lore-forever-spanish-narration-male-narrator",
       "live": false
     },
     {
@@ -129,8 +129,8 @@
       "file": "Lore Forever female narrator, Spanish {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1731412,
+      "slug": "lore-forever-spanish-narration-female-narrator",
       "live": false
     },
     {
@@ -169,8 +169,8 @@
       "core": "optional",
       "requires": [],
       "suggests": ["male-dede"],
-      "id": null,
-      "slug": null,
+      "id": 1731414,
+      "slug": "lore-forever-german-quest-dialogue-male-narrator",
       "live": false
     },
     {
@@ -183,8 +183,8 @@
       "core": "optional",
       "requires": [],
       "suggests": ["female-dede"],
-      "id": null,
-      "slug": null,
+      "id": 1731415,
+      "slug": "lore-forever-german-quest-dialogue-female-narrator",
       "live": false
     },
     {
@@ -255,6 +255,62 @@
       "suggests": ["male-ptbr", "female-ptbr"],
       "id": null,
       "slug": null,
+      "live": false
+    },
+    {
+      "key": "female-answers-places",
+      "name": "Lore Forever - Female Narrator - Place Answers",
+      "about": "the female narrator's recorded answers about zones, capitals, dungeons and places",
+      "from": "LoreForever_Voice_Female_Answers_Places.zip",
+      "folders": ["LoreForever_Voice_Female_Answers_Places"],
+      "file": "Lore Forever female narrator, place answers {v}",
+      "core": "optional",
+      "requires": [],
+      "suggests": ["female-narrator"],
+      "id": 1731417,
+      "slug": "lore-forever-female-narrator-place-answers",
+      "live": false
+    },
+    {
+      "key": "female-answers-lore",
+      "name": "Lore Forever - Female Narrator - Lore Answers",
+      "about": "the female narrator's recorded answers about the world's lore and its items",
+      "from": "LoreForever_Voice_Female_Answers_Lore.zip",
+      "folders": ["LoreForever_Voice_Female_Answers_Lore"],
+      "file": "Lore Forever female narrator, lore answers {v}",
+      "core": "optional",
+      "requires": [],
+      "suggests": ["female-narrator"],
+      "id": 1731418,
+      "slug": "lore-forever-female-narrator-lore-answers",
+      "live": false
+    },
+    {
+      "key": "female-answers-people",
+      "name": "Lore Forever - Female Narrator - People Answers",
+      "about": "the female narrator's recorded answers about the people you meet",
+      "from": "LoreForever_Voice_Female_Answers_People.zip",
+      "folders": ["LoreForever_Voice_Female_Answers_People"],
+      "file": "Lore Forever female narrator, people answers {v}",
+      "core": "optional",
+      "requires": [],
+      "suggests": ["female-narrator"],
+      "id": 1731419,
+      "slug": "lore-forever-female-narrator-people-answers",
+      "live": false
+    },
+    {
+      "key": "female-answers-quests1",
+      "name": "Lore Forever - Female Narrator - Quest Answers (Part 1)",
+      "about": "the female narrator's recorded answers about quests up to level 13",
+      "from": "LoreForever_Voice_Female_Answers_Quests1.zip",
+      "folders": ["LoreForever_Voice_Female_Answers_Quests1"],
+      "file": "Lore Forever female narrator, quest answers (part 1) {v}",
+      "core": "optional",
+      "requires": [],
+      "suggests": ["female-narrator"],
+      "id": 1731420,
+      "slug": "lore-forever-female-narrator-quest-answers-part-1",
       "live": false
     }
   ]
