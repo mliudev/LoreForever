@@ -17,8 +17,9 @@ keeps working with a newer add-on: a recording whose text has changed since just
 with the newest release, never from a rebuild of an older tag.
 
 Once a project is live (approved by CurseForge), the add-on's own file leaves its folders out and lists it as a
-required or optional dependency, so the app installs it with the add-on. Until then the add-on's file keeps them,
-unless that would put it over the limit.
+required or optional dependency. The app installs required dependencies with the add-on. Quest dialogue is always
+optional and excluded from the add-on's file, even before its project is live. Other bundled narration stays until
+its project is live, unless that would put the file over the limit.
 
   curseforge_voices.py core ZIP OUTDIR        the add-on's file: OUTDIR/<ZIP's name> without the folders that go to
                                               CurseForge on their own, OUTDIR/relations.json for its upload's
@@ -26,7 +27,7 @@ unless that would put it over the limit.
                                               core_upload "manual" in release/curseforge.json, only OUTDIR/manual
                                               (ZIP's size in MB): one package goes up by hand (see package)
   curseforge_voices.py package DIR OUT        that package, from the release's zips in DIR: the main zip and the
-                                              female narrator's complete zip, merged, nothing cut down; without her
+                                              female narrator's narration bundle, merged, excluding quest dialogue; without her
                                               only if that's over the website's 2 GB
   curseforge_voices.py upload --from-release  the projects' files from the zips of release $TAG (default: the newest);
                                               uploads the ones that changed and records them. Needs CF_API_TOKEN, and
@@ -78,6 +79,12 @@ def sources(project: dict) -> list[str]:
     return [project["from"]] if isinstance(project["from"], str) else list(project["from"])
 
 
+def quest_dialogue(folder: str) -> bool:
+    """Quest dialogue folders that players install deliberately, including language and quest giver packs."""
+    return folder == "LoreForever_Voice_QuestGivers" or bool(re.fullmatch(
+        r"LoreForever_Voice_(Default|Female)_Quests(?:_[a-z]{2}[A-Z]{2})?", folder))
+
+
 def load_config(path: Path | None = None) -> list[dict]:
     """The projects in release/curseforge.json, checked."""
     path = path or CONFIG
@@ -105,6 +112,8 @@ def load_config(path: Path | None = None) -> list[dict]:
             raise Failure(f"{path.name}: {name}'s 'folders' are add-on folders, like LoreForever_Voice_Female")
         if p.get("core") not in ("required", "optional"):
             raise Failure(f"{path.name}: {name}'s 'core' is required or optional")
+        if any(quest_dialogue(f) for f in folders) and p["core"] != "optional":
+            raise Failure(f"{path.name}: {name}: quest dialogue must be optional for the core")
         if not (isinstance(p.get("requires"), list) and all(r in keys and r != p["key"] for r in p["requires"])):
             raise Failure(f"{path.name}: {name}'s 'requires' names other projects' keys")
         pid, slug = p.get("id"), p.get("slug")
@@ -209,13 +218,14 @@ def core(zip_path: Path, outdir: Path, projects: list[dict]) -> tuple[Path, dict
     for its changelog."""
     mine = [p for p in projects if MAIN_ZIP in sources(p)]
     live = [p for p in mine if p["live"]]
-    out = subset(zip_path, outdir / zip_path.name, drop=[f for p in live for f in p["folders"]])
+    dialogue = [f for f in tops(zip_path) if quest_dialogue(f)]
+    out = subset(zip_path, outdir / zip_path.name, drop=dialogue + [f for p in live for f in p["folders"]])
     notes = []
     if out.stat().st_size > CAP:
         later = [p for p in mine if not p["live"]]
         if later:
             size = out.stat().st_size
-            out = subset(zip_path, out, drop=[f for p in live + later for f in p["folders"]])
+            out = subset(zip_path, out, drop=dialogue + [f for p in live + later for f in p["folders"]])
             print(f"::warning::{size // MB} MB is over CurseForge's upload limit: uploading "
                   f"{out.stat().st_size // MB} MB, without {', '.join(f for p in later for f in p['folders'])}")
             notes.append("Too big for CurseForge's file limit, so this download leaves out: "
@@ -223,7 +233,8 @@ def core(zip_path: Path, outdir: Path, projects: list[dict]) -> tuple[Path, dict
         if out.stat().st_size > CAP:
             raise Failure(f"{out.stat().st_size // MB} MB{' without them' if later else ''} is over CurseForge's "
                           "upload limit. Give another pack a project of its own in release/curseforge.json.")
-    relations = {"projects": [{"slug": p["slug"], "type": f"{p['core']}Dependency"} for p in projects if p["live"]]}
+    relations = {"projects": [{"slug": p["slug"], "type": ("optionalDependency" if any(
+        quest_dialogue(f) for f in p["folders"]) else f"{p['core']}Dependency")} for p in projects if p["live"]]}
     return out, relations, "".join(f"\n{n}\n" for n in notes)
 
 
@@ -263,14 +274,24 @@ def metadata(project: dict, projects: list[dict], version: str, game_version: in
     }
 
 
-def merge(parts: list[Path], out: Path) -> Path:
-    """One zip with every file of `parts`, in order (each part's files keep their contents and settings)."""
+def merge(parts: list[Path], out: Path, drop: list[str] | None = None) -> Path:
+    """Merge packages without duplicate translation files or any `drop` folders."""
     out.unlink(missing_ok=True)
+    seen = {}
     with zipfile.ZipFile(out, "w") as zout:
         for part in parts:
             with zipfile.ZipFile(part) as zin:
                 for info in zin.infolist():
-                    zout.writestr(info, zin.read(info))
+                    if info.filename.split("/")[0] in (drop or []):
+                        continue
+                    data = zin.read(info)
+                    digest = hashlib.sha256(data).digest()
+                    if info.filename in seen:
+                        if seen[info.filename] != digest:
+                            raise Failure(f"conflicting shared file {info.filename} in {part.name}")
+                        continue
+                    seen[info.filename] = digest
+                    zout.writestr(info, data)
     return out
 
 
@@ -290,8 +311,15 @@ def prepare(projects: list[dict], source_dir: Path, work: Path, version: str) ->
         try:
             parts = []
             for i, src in enumerate(have):
-                keep = [f for f in p["folders"] if f in tops(src)]
+                available = tops(src)
+                keep = [f for f in p["folders"] if f in available]
                 if keep:
+                    # Translations are shared installation data, not uniquely owned voice folders. New foreign
+                    # component zips include their matching language add-on. Older releases did not (their main
+                    # zip already carried it), so an absent language folder remains backwards compatible.
+                    locales = {m.group(1) for f in keep if (m := re.search(r"_([a-z]{2}[A-Z]{2})$", f))}
+                    keep += [f"LoreForever_Lang_{loc}" for loc in sorted(locales)
+                             if f"LoreForever_Lang_{loc}" in available]
                     parts.append(subset(src, work / f"part{i}-{out.name}", keep=keep))
             found = {f for part in parts for f in tops(part)}
             lacking = [f for f in p["folders"] if f not in found]
@@ -440,19 +468,21 @@ def cmd_core(args) -> int:
 
 
 def cmd_package(args) -> int:
-    """core_upload "manual": the one package for CurseForge, nothing cut down (2026-10-04): the release's main
-    zip and the female narrator's complete zip, merged. Over the website's 2 GB, without her."""
+    """core_upload "manual": merge the main zip and female narration bundle, excluding quest dialogue.
+    Over the website's 2 GB, leave out the female bundle."""
     src, out = Path(args.dir), Path(args.out)
     if not (src / MAIN_ZIP).exists():
         raise Failure(f"{src} has no {MAIN_ZIP}")
     extra = [src / n for n in PACKAGE_WITH if (src / n).exists()]
     out.parent.mkdir(parents=True, exist_ok=True)
-    merge([src / MAIN_ZIP, *extra], out)
+    # Older release zips can still contain dialogue; a core package always leaves it out.
+    dialogue = [f for part in [src / MAIN_ZIP, *extra] for f in tops(part) if quest_dialogue(f)]
+    merge([src / MAIN_ZIP, *extra], out, drop=dialogue)
     if extra and out.stat().st_size > WEB_CAP:
         print(f"::warning::{out.stat().st_size // MB} MB is over the website's 2 GB: the package leaves out "
               f"{', '.join(p.name for p in extra)}")
         extra = []
-        merge([src / MAIN_ZIP], out)
+        merge([src / MAIN_ZIP], out, drop=dialogue)
     if out.stat().st_size > WEB_CAP:
         raise Failure(f"{out.stat().st_size // MB} MB is over the website's 2 GB even without the female narrator")
     with zipfile.ZipFile(out) as z:

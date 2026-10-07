@@ -126,8 +126,13 @@ function getPacks(v) {
     const href = p.download.startsWith("/") ? p.download : `/download/voice/${p.id}`;
     return `<a href="${escape(href)}">${escape(p.name)}</a>${p.clips ? ` (${plural(p.clips, "narration", "narrations")})` : ""}`;
   }).join(" &middot; ");
+  const quest = packs.some(p => /_(?:Quests|QuestGivers)(?:_|$)/.test(p.addon || ""))
+    ? `<p class="vc-install">Quest dialogue is off by default. Install a Quest Dialogue pack and turn on
+          <strong>Speak quest dialogue</strong> in Options to hear it. Skip quest dialogue packs if Spoken,
+          Chatty Little NPC or another add-on already speaks your quests. Story bundles leave quest dialogue out.</p>`
+    : "";
   return `<p class="vc-packs">More narration, optional: ${links}. Unzip into <code>Interface\\AddOns</code> next to
-          Lore Forever. <a href="/downloads#${escape(v.id)}">Which one do I need?</a></p>`;
+          Lore Forever. <a href="/downloads#${escape(v.id)}">Which one do I need?</a></p>` + quest;
 }
 
 // The voice or pack with this id (a pack takes its voice's status unless it has its own), or undefined.

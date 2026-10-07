@@ -73,13 +73,13 @@
    "answer": "The gem was a vital component needed to empower a magic rod crafted by a deceased evil wizard. Teronis hoped the rod's power could be repurposed to stem the attacks of enraged furbolgs."
   },
   {
-   "q": "What killed Teronis?",
+   "q": "What happened to Teronis?",
    "aliases": [
     "how did teronis die",
     "teronis killer",
     "who killed teronis"
    ],
-   "answer": "Teronis was slaughtered by the murlocs dwelling around Lake Falathim. Deep lacerations from crude blades and talons cover his remains on the island shrine."
+   "answer": "Raene has not heard from him since he went to Lake Falathim. Following his trail reveals his fate."
   },
   {
    "q": "Why are the furbolgs attacking Ashenvale?",
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The loss of Teronis is another bitter blow to the night elves, who are already stretched thin trying to heal Ashenvale and protect their shrines from corruption."
+   "text": "The disappearance of Teronis is another bitter blow to the night elves, who are already stretched thin trying to heal Ashenvale and protect their shrines from corruption."
   },
   {
    "target": "faction:Alliance",

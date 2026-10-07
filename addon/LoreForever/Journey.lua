@@ -37,7 +37,8 @@
 --                                             game gives it ("WoWScrnShot_100126_195020"), and clean = 1 only when the
 --                                             interface really was hidden as it was taken (none in combat, with the
 --                                             option off, or when combat brought the interface back first): only a
---                                             clean picture can't show chat or names
+--                                             clean picture hides the main interface and chat; world nameplates may
+--                                             still show names
 --   loot n, id, ql, qid, z, s                 your loot of rare quality or better, or a quest's reward item (qid)
 --                                             of uncommon or better; ql is the item quality (never an item from your
 --                                             mail, a vendor, a trade or the bank)
@@ -47,7 +48,7 @@
 -- The player's name never goes into stored text ($N instead: Capture.Placeholders), and other players' names are never
 -- stored.
 --
--- LoreForeverJourneyData (the companion's, read only) = { written, chars = { ["Name-Realm"] = { story, chapters,
+-- LoreForeverJourneyData (the companion's, read only) = { written, book, chars = { ["Name-Realm"] = { written, story, chapters,
 --   pictures = { { t, file, w, h, cap }, ... } } } }: the chapters (Chapters, below) and the pictures matched to shot
 --   moments by their t (Pictures, below).
 -- The combat log is off limits: registering COMBAT_LOG_EVENT_UNFILTERED shows the player a "blocked" popup.
@@ -115,9 +116,38 @@ function Journey.Char() return char end
 -- "Remember my journey" (Options): off records nothing new; what's there stays.
 function Journey.On() return settings().journey ~= false end
 
+function Journey.PictureBookOn()
+  local data = _G.LoreForeverJourneyData
+  return type(data) == "table" and data.book == true
+end
+
+function Journey.PictureShortcutsOn()
+  return settings().pictureShortcuts == true and Journey.PictureBookOn()
+end
+
+-- Offer a free default only: a player's existing picture binding and every other action's binding take precedence.
+-- The feature stays gated off until actual game QA. A book switched off never removes a player's saved binding.
+function Journey.OfferPictureKey()
+  if not Journey.PictureShortcutsOn() or try(InCombatLockdown) or type(GetBindingKey) ~= "function"
+      or type(GetBindingAction) ~= "function" or type(SetBinding) ~= "function" then return end
+  local existing = try(GetBindingKey, "LOREFOREVER_PICTURE")
+  if existing then return existing end
+  for _, key in ipairs({ "F12", "SHIFT-F12" }) do
+    local action = try(GetBindingAction, key)
+    if action == "" then
+      local ok, bound = pcall(SetBinding, key, "LOREFOREVER_PICTURE")
+      if ok and bound ~= false then
+        if SaveBindings and GetCurrentBindingSet then pcall(SaveBindings, GetCurrentBindingSet()) end
+        return key
+      end
+    end
+  end
+end
+
 -- Drop the oldest events once the list is full, so SavedVariables stay small.
 local function trim(c)
   if #c.events <= MAX_EVENTS then return end
+  if ns.HistoryArchive then ns.HistoryArchive.Snapshot((Journey.CharKey()), c, "hot_trim") end
   local keep = {}
   for i = #c.events - (MAX_EVENTS - TRIM) + 1, #c.events do keep[#keep + 1] = c.events[i] end
   c.events = keep
@@ -147,8 +177,10 @@ local function add(kind, fields)
   e.k, e.t = kind, time()
   e.lv = e.lv or try(UnitLevel, "player")
   if kind ~= "logout" and kind ~= "sync" then e.at = e.at or spot() end
+  if ns.HistoryArchive then e.archiveId = ns.HistoryArchive.Record((Journey.CharKey()), "event", e, e.t) end
   char.events[#char.events + 1] = e
   trim(char)
+  if (kind == "lvl" or kind == "boss") and Journey.MilestonePicture then Journey.MilestonePicture() end
   -- Keep an open journey page current, at most once a second.
   if Journey.content and Journey.IsShown() and not refreshQueued then
     refreshQueued = true
@@ -497,7 +529,7 @@ function Journey.Init()
   db.journey = type(db.journey) == "table" and db.journey or {}
   db.journey.chars = type(db.journey.chars) == "table" and db.journey.chars or {}
   migrate(db.journey)
-  db.journey.v = 2
+  db.journey.v = ns.HistoryArchive and ns.HistoryArchive.On() and 3 or 2
   db.texts = type(db.texts) == "table" and db.texts or {}
   db.texts.gossip = db.texts.gossip or {}
   db.texts.books = db.texts.books or {}
@@ -525,6 +557,12 @@ function Journey.Init()
   startTrail()
   if _G.TakeTaxiNode and hooksecurefunc then pcall(hooksecurefunc, "TakeTaxiNode", Journey.OnTakeTaxi) end
   Journey.LoadChapters()
+  -- Identify the usable key when it changes, including a player's own binding; unchanged reloads stay quiet.
+  local key = Journey.OfferPictureKey()
+  if key and settings().pictureKeyHint ~= key then
+    settings().pictureKeyHint = key
+    say(string.format(L["Press %s or Ctrl-click the minimap book to take a journey picture. Change the key in Key Bindings > AddOns."], esc(key)))
+  end
 end
 
 -- "Remember my journey" was switched on in Options: start recording from here.
@@ -545,12 +583,20 @@ end
 
 -- Chapters --------------------------------------------------------------------------------------------------------
 
--- What the companion wrote for this character: { story = {title, text, audio}, chapters = { {id, title, text,
+-- What the companion wrote for this character: { written = newest chapter's creation time, story = {title, text, audio}, chapters = { {id, title, text,
 -- audio, from, to, lv1, lv2}, ... } (oldest first), pictures = { {t, file, w, h, cap}, ... } (Pictures, below) },
 -- or nil.
 function Journey.Data()
   local data = _G.LoreForeverJourneyData
-  local mine = type(data) == "table" and type(data.chars) == "table" and data.chars[(Journey.CharKey())]
+  if type(data) ~= "table" then return end
+  local archive = type(LoreForeverDB) == "table" and LoreForeverDB.historyArchive
+  local installs = data.historyChars
+  if type(archive) == "table" and type(archive.install) == "string" and type(installs) == "table" then
+    local chars = installs[archive.install]
+    local mine = type(chars) == "table" and chars[(Journey.CharKey())]
+    return type(mine) == "table" and mine or nil
+  end
+  local mine = type(data.chars) == "table" and data.chars[(Journey.CharKey())]
   return type(mine) == "table" and mine or nil
 end
 
@@ -1420,6 +1466,12 @@ do
     note:SetPoint("RIGHT", view, "RIGHT", -10, 0)
     note:SetJustifyH("LEFT")
     Journey.note = note
+    if ns.HistoryArchive and ns.HistoryArchive.On() then
+      local hover = CreateFrame("Frame", nil, view)
+      hover:SetAllPoints(note)
+      hover:EnableMouse(true)
+      Journey.archiveNote = hover
+    end
     -- Above the note, the way to this journey's page on the website (JourneyRecord.lua, LOR-222).
     if ns.JourneyRecord then
       local web = ns.JourneyRecord.WebLine(view)
@@ -1757,7 +1809,7 @@ do
     local room = tonumber(c:GetWidth())
     room = (room and room > 0) and room or nil
     -- A picture moment: its picture at the right, as large as fits (at most 160 wide and 0.45 of the card) in its own
-    -- shape. One the game won't load leaves the card as it was.
+    -- shape. One the game hasn't loaded has no empty border or click target; keep the moment and show reload guidance.
     local pic, picW = Journey.Picture(e), 0
     if pic then
       local s = math.min(math.min(160, (room or 300) * 0.45) / pic.w, (CARD_H - 8) / pic.h)
@@ -1767,6 +1819,7 @@ do
         picW = w + 10
       else
         pic = nil
+        c.sub:SetText(L["type /reload to save your journey now."])
       end
     end
     c.thumb.moment = pic and m or nil
@@ -1881,10 +1934,13 @@ do
       return byT[t]
     end
 
-    -- Show picture p on texture tex (its part of the canvas). false when the game won't take the file.
+    -- SetTexture can accept a missing or newly written file and return true while GetTexture is nil (observed in the
+    -- actual client). Only show a loaded texture; native IDs may be negative, so don't require a positive file ID.
     function Journey.SetPicture(tex, p)
       local ok, set = pcall(tex.SetTexture, tex, DIR .. p.file)
       if not ok or set == false then return false end
+      local loaded, texture = pcall(tex.GetTexture, tex)
+      if not loaded or not ns.Context.Usable(texture) or not texture then return false end
       pcall(tex.SetTexCoord, tex, 0, p.w / CANVAS_W, 0, p.h / CANVAS_H)
       return true
     end
@@ -1926,7 +1982,7 @@ do
       local p = Journey.Picture(e)
       if not p then return end
       local win = viewer()
-      if not Journey.SetPicture(win.pic, p) then return end
+      if not Journey.SetPicture(win.pic, p) then win:Hide(); return end
       local sw, sh = tonumber(UIParent:GetWidth()) or 1024, tonumber(UIParent:GetHeight()) or 768
       local s = math.max(0.25, math.min(2, (sw - 120) / p.w, (sh - 240) / p.h))
       local w, h = math.floor(p.w * s), math.floor(p.h * s)
@@ -2153,13 +2209,25 @@ do
       or L["Remember my journey is off. Turn it on in /lore options to keep track of the places you discover, the people you meet and the quests you finish."])
     Journey.empty:SetShown(#items == 0)
     Journey.scroll:SetShown(#items > 0)
-    local data = _G.LoreForeverJourneyData
-    local written = type(data) == "table" and (data.written or data.generated)   -- when the newest chapter was written
-    local last = char and char.lastSync
-    Journey.note:SetText((not on and #items > 0 and L["Remember my journey is off (/lore options)."])
+    local data = Journey.Data()
+    -- Only this character's chapter date: the legacy global written spans all characters, and generated includes
+    -- picture-only writes. Without a per-character date, show the save guidance below.
+    local written = #Journey.Chapters() > 0 and data and tonumber(data.written)
+    local last = not ns.Companion.Installed() and char and char.lastSync
+    Journey.note:SetText((ns.HistoryArchive and ns.HistoryArchive.StatusText())
+      or (not on and #items > 0 and L["Remember my journey is off (/lore options)."])
       or (written and string.format(L["Last chapter written %s."], date("%b %d %H:%M", written)))
       or (last and string.format(L["Saved %s."], date("%b %d %H:%M", last)))
       or L["Saved when you log out, or now with Update my journey."])
+    if Journey.archiveNote then
+      Journey.archiveNote:SetShown(ns.HistoryArchive and ns.HistoryArchive.On() and true or false)
+      Journey.archiveNote:SetScript("OnEnter", function(self)
+        GameTooltip:SetOwner(self, "ANCHOR_TOP")
+        ns.Theme.Tip(L["History includes play since your last save. The game saves on /reload or logout; the companion archives that save. Its receipt is read on a later reload. While the companion is offline, unarchived history grows and nothing is discarded. Older coverage may be incomplete."], "tipText", true)
+        GameTooltip:Show()
+      end)
+      Journey.archiveNote:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    end
     if Journey.webLine then Journey.webLine:Update(char ~= nil) end
   end
 
@@ -2280,9 +2348,18 @@ local function onPlace()
   if how == "boat" then pcall(function() local t = tally(); t.boats = (tonumber(t.boats) or 0) + 1 end) end
   local entered = not fresh and p.instance and (not route.inst or route.zone ~= z)
   local first = not char.seen.place[key]
+  local firstZone = first
+  if firstZone then
+    local prefix = z .. "|"
+    for place in pairs(char.seen.place) do
+      if type(place) == "string" and place:sub(1, #prefix) == prefix then firstZone = false break end
+    end
+  end
   if first then char.seen.place[key] = time() end
   if first or entered then
     add("zone", { z = z, s = s, from = route.zone, how = how, new = first or nil, inst = p.instance })
+    -- A first zone or dungeon, after an actual arrival. Subzones and the place you log in at aren't milestones.
+    if not fresh and firstZone then Journey.MilestonePicture() end
   end
   route.place, route.zone, route.map, route.inst = key, z, map, p.instance
   pending, loaded = nil, nil
@@ -2321,6 +2398,7 @@ local function onGossip()
   local texts = LoreForeverDB.texts.gossip
   local h = hash(text)
   if texts[name] and texts[name][h] then return end
+  if ns.HistoryArchive then ns.HistoryArchive.Text("gossip", name, h, text) end
   if not room() then return end
   texts[name] = texts[name] or {}
   texts[name][h] = text
@@ -2354,7 +2432,9 @@ local function onBookPage()
       add("book", { n = book.title, z = z, s = s })
     end
   end
-  if not keeping() or (not (books[book.key] and books[book.key][page]) and not room()) then return end
+  if not keeping() then return end
+  if ns.HistoryArchive then ns.HistoryArchive.Text("book", book.key, page, text) end
+  if not (books[book.key] and books[book.key][page]) and not room() then return end
   books[book.key] = books[book.key] or {}
   books[book.key][page] = text
   if ns.Capture then pcall(ns.Capture.NoteBook, book.key, page) end
@@ -2747,7 +2827,9 @@ local function trailSession(now)
     end
     local pts = newest and T[newest]
     local last = type(pts) == "table" and pts[#pts]
-    if type(last) == "table" and now - (tonumber(last.t) or 0) <= 1800 then session = pts end
+    if type(last) == "table" and now - (tonumber(last.t) or 0) <= 1800 then
+      session, sessionStart = pts, newest
+    end
   end
   if not session then
     session = type(T[sessionStart]) == "table" and T[sessionStart] or {}
@@ -2835,13 +2917,17 @@ local function sample()
     return
   end
   pts = trailSession(now)
+  local point = { m = m, x = x, y = y, t = now }
+  if ns.HistoryArchive then
+    ns.HistoryArchive.Record((Journey.CharKey()), "trail", { period = sessionStart, point = point }, now)
+  end
   if #pts >= TRAIL_MAX then
     local n, half = #pts, math.ceil(#pts / 2)
     for i = 1, half do pts[i] = pts[2 * i - 1] end
     for i = half + 1, n do pts[i] = nil end
     stride = stride * 2
   end
-  pts[#pts + 1] = { m = m, x = x, y = y, t = now }
+  pts[#pts + 1] = point
 end
 
 -- Time per zone (The tally): the seconds since the last tick go to the zone you're in now (at most two ticks' worth,
@@ -2955,27 +3041,73 @@ end
 local pictureDone, pictureBack, onShot
 do
   local DELAY, SAFETY = 0.05, 3
+  local DAILY, GAP = 10, 120
   local taking   -- the picture the key is taking, { stem }, until the game says it's saved or failed
   local hid      -- the picture that hid the interface, until it's back
+
+  -- Automatic pictures require a clear, safe answer from the game. Missing/erroring APIs are a reason to skip one.
+  local function clear(fn, ...)
+    if type(fn) ~= "function" then return false end
+    local ok, value = pcall(fn, ...)
+    return ok and (value == nil or (ns.Context.Usable(value) and value == false))
+  end
+
+  local function automaticOK()
+    return char and Journey.On() and Journey.PictureBookOn() and settings().pictureMilestones == true
+      and settings().automaticPictures ~= false
+      and settings().pictureHideUI ~= false and clear(InCombatLockdown)
+      and clear(UnitAffectingCombat, "player") and clear(UnitOnTaxi, "player")
+  end
+
+  local function budget()
+    local j = LoreForeverDB.journey
+    local b = type(j.pictureBudget) == "table" and j.pictureBudget or {}
+    j.pictureBudget = b
+    local today = date("%Y-%m-%d")
+    if b.day ~= today then b.day, b.count = today, 0 end
+    return b
+  end
+
+  function Journey.MilestonePicture()
+    if not automaticOK() then return end
+    local b, now = budget(), time()
+    local last = tonumber(b.last)
+    if (tonumber(b.count) or 0) >= DAILY or (last and now - last < GAP) then return end
+    Journey.TakePicture(true)
+  end
+
+  -- A screenshot event proves the local file was saved; it says nothing about companion or site delivery.
+  local function confirm(p)
+    if p and p.saved and not p.confirmed then
+      p.confirmed = true
+      say(L["Journey picture saved."])
+    end
+  end
 
   -- The interface back, if a picture hid it. Not in combat (it's protected then): when combat ends.
   function pictureBack()
     if not hid or try(InCombatLockdown) then return end
-    if pcall(UIParent.Show, UIParent) and try(UIParent.IsShown, UIParent) then hid = nil end
+    if pcall(UIParent.Show, UIParent) and try(UIParent.IsShown, UIParent) then
+      confirm(hid)
+      hid = nil
+    end
   end
 
   -- The game saved a screenshot or failed to: the interface comes back. Returns the picture the key took ({ stem }),
   -- if that was it.
-  function pictureDone()
+  function pictureDone(saved)
     local p = taking
     if p and not p.stem then return nil end   -- Print Screen, before the key's own picture was taken: still to come
     taking = nil
+    if p then p.saved = saved end
     pictureBack()
+    if hid ~= p then confirm(p) end
     return p
   end
 
-  function Journey.TakePicture()
+  function Journey.TakePicture(automatic)
     if taking or type(_G.Screenshot) ~= "function" then return end
+    if automatic and not automaticOK() then return end
     local p = {}
     taking = p
     if settings().pictureHideUI ~= false and not try(InCombatLockdown) and try(UIParent.IsShown, UIParent) then
@@ -2983,11 +3115,18 @@ do
     end
     local function snap()
       if taking ~= p then return end
+      -- A flight, combat or an opt-out can start during the short UI-hide delay: skip rather than take it anyway.
+      if automatic and not automaticOK() then taking = nil; pictureBack(); return end
       p.stem = date("WoWScrnShot_%m%d%y_%H%M%S")
-      -- Clean: the interface really is hidden now (by us, or with Alt-Z), so no chat or names are in the picture.
+      -- Clean: the main interface and chat are hidden now (by us, or with Alt-Z). World nameplates may still appear.
       local ok, showing = pcall(UIParent.IsShown, UIParent)
       p.clean = ok and not showing or nil
-      if not pcall(Screenshot) then pictureDone() end
+      if automatic and not p.clean then taking = nil; pictureBack(); return end
+      if not pcall(Screenshot) then pictureDone()
+      elseif automatic then
+        local b = budget()
+        b.count, b.last = (tonumber(b.count) or 0) + 1, time()
+      end
     end
     if hid == p then later(DELAY, snap) else snap() end   -- a moment for the hidden interface to leave the screen
     later(SAFETY, function()
@@ -3066,7 +3205,7 @@ do
 
   -- SCREENSHOT_SUCCEEDED: the interface back, and with the journey on, the shot moment.
   function onShot()
-    local p = pictureDone()
+    local p = pictureDone(true)
     if not (char and Journey.On()) then return end
     local z, s = here()
     local e = { z = z, s = s, pt = party() }
@@ -3170,6 +3309,7 @@ local handlers = {
     add("logout")
     countOnline()
     pcall(countStory)
+    if ns.HistoryArchive then ns.HistoryArchive.Save() end
   end,
   -- Reputation and skills change in bursts: look once, a second later.
   UPDATE_FACTION = function()

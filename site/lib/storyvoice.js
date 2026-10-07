@@ -26,6 +26,7 @@ import { escape } from "./voices.js";
 import { sha256 } from "./accounts.js";
 import { sniff } from "./studio.js";
 import { storySpend, budgetMicro } from "./profiles.js";
+import { answerBudgetUsed, reserveOtherPaid } from "./companion-answers.js";
 
 // Known narrator ids, retained for stored recordings and embedding uploads. Profiles use one narrator for now;
 // a later setting can select a narrator without changing how the recordings are stored.
@@ -149,20 +150,16 @@ async function embedding(env, voice) {
 // Whether this month's budget has room (lib/profiles.js: the stories and their recordings together).
 async function budgetLeft(env) {
   const s = await storySpend(env);
-  return (s.micro_usd || 0) + (s.voice_micro_usd || 0) < budgetMicro(env);
-}
-
-async function addSpend(env, micro) {
-  const month = new Date().toISOString().slice(0, 7);
-  await env.DB.prepare(
-    "INSERT INTO story_spend (month, voice_micro_usd) VALUES (?, ?) ON CONFLICT (month) DO UPDATE SET " +
-    "voice_micro_usd = voice_micro_usd + excluded.voice_micro_usd"
-  ).bind(month, micro).run();
+  return (s.micro_usd || 0) + (s.voice_micro_usd || 0) + (s.reserved_micro || 0) +
+    await answerBudgetUsed(env) < budgetMicro(env);
 }
 
 // Sends one part to fal's queue. Returns its request id; throws when fal says no.
 async function send(env, origin, { story, voice, part, text, lang, voiceData }) {
   const hook = await hookUrl(env, origin, story, voice, part);
+  const cost = text.length * MICRO_USD_PER_CHAR;
+  const started = new Date();
+  if (!(await reserveOtherPaid(env, cost, started))) throw new Error("monthly budget is full");
   const res = await fetch(`${QUEUE}?fal_webhook=${encodeURIComponent(hook)}`, {
     method: "POST",
     headers: { Authorization: `Key ${env.FAL_KEY}`, "Content-Type": "application/json" },
@@ -172,6 +169,9 @@ async function send(env, origin, { story, voice, part, text, lang, voiceData }) 
     signal: AbortSignal.timeout(15000),
   });
   if (!res.ok) throw new Error(`fal ${res.status}: ${(await res.text().catch(() => "")).slice(0, 200)}`);
+  await env.DB.prepare("UPDATE story_spend SET voice_micro_usd = voice_micro_usd + ?, " +
+    "reserved_micro = reserved_micro - ? WHERE month = ?")
+    .bind(cost, cost, started.toISOString().slice(0, 7)).run();
   return (await res.json()).request_id || null;
 }
 
@@ -194,7 +194,6 @@ export async function record(env, p, story, origin) {
   const voice = DEFAULT_NARRATOR;
   const voiceData = await embedding(env, voice);
   if (!voiceData) { console.warn(`story voice: no embedding for ${voice}`); return; }
-  let chars = 0;
   for (const [part, { para, text }] of parts.entries()) {
     const said = lang === "en" ? respell(text, names) : text;
     // The row first, so a webhook that's faster than this loop finds it. A second page view at the same moment
@@ -206,7 +205,6 @@ export async function record(env, p, story, origin) {
     if (!ins.meta?.changes) continue;
     try {
       const id = await send(env, origin, { story, voice, part, text: said, lang, voiceData });
-      chars += said.length;   // only requests accepted by fal consume the recording budget
       await env.DB.prepare("UPDATE story_audio SET request_id = ? WHERE user_id = ? AND story = ? AND voice = ? AND part = ?")
         .bind(id, p.user_id, story, voice, part).run();
     } catch (e) {
@@ -215,7 +213,6 @@ export async function record(env, p, story, origin) {
         .bind(String(e.message).slice(0, 300), p.user_id, story, voice, part).run();
     }
   }
-  if (chars) await addSpend(env, chars * MICRO_USD_PER_CHAR);
   await forgetStoryVoice(env, p.user_id, { keep: story });
 }
 
@@ -241,7 +238,6 @@ async function resend(env, p, r, origin) {
     const id = await send(env, origin, { story: r.story, voice: r.voice, part: r.part, ...said, voiceData });
     await env.DB.prepare("UPDATE story_audio SET request_id = ? WHERE user_id = ? AND story = ? AND voice = ? AND part = ?")
       .bind(id, r.user_id, r.story, r.voice, r.part).run();
-    await addSpend(env, said.text.length * MICRO_USD_PER_CHAR);
   } catch (e) {
     console.warn(`story voice: ${e.message}`);
     await env.DB.prepare("UPDATE story_audio SET status = 'failed', error = ? WHERE user_id = ? AND story = ? AND voice = ? AND part = ?")

@@ -60,8 +60,7 @@
     <a class="ad-panel ad-tile" href="#feedback"><div class="ad-label">Average rating</div><div class="ad-num" id="t-rating">-</div><div class="ad-sub" id="t-rating-sub"></div></a>
     <a class="ad-panel ad-tile" href="#voices"><div class="ad-label">Open voice submissions</div><div class="ad-num" id="t-voices">-</div><div class="ad-sub" id="t-voices-sub"></div></a>
     <a class="ad-panel ad-tile" href="#contributors"><div class="ad-label">Contributor accounts</div><div class="ad-num" id="t-users">-</div><div class="ad-sub" id="t-users-sub"></div></a>
-    <!-- Profile stories this calendar month (lib/profiles.js): spend against the monthly budget, stories written. -->
-    <a class="ad-panel ad-tile" href="#contributors"><div class="ad-label">Profile stories this month</div><div class="ad-num" id="t-stories">-</div><div class="ad-sub" id="t-stories-sub"></div></a>
+    <div class="ad-panel ad-tile"><div class="ad-label">Paid usage this month</div><div class="ad-num" id="t-stories">-</div><div class="ad-sub" id="t-stories-sub"></div></div>
   </div>
 
   <div class="ad-charts">
@@ -316,11 +315,12 @@ function render() {
   $("t-users-sub").textContent = users.filter(u => u.handle).length + " players · " + users.filter(u => u.voices).length +
     " voices · " + users.filter(u => u.languages).length + " translators";
   const st = data.stories || { usd: 0, calls: 0, written: 0, budget: 100, on: false };
-  $("t-stories").textContent = "$" + st.usd.toFixed(st.usd < 10 ? 4 : 2);   // a story costs about $0.0006
-  // Reading them aloud (LOR-316) shares the budget: about $0.09 a story a narrator.
-  $("t-stories-sub").textContent = (st.on
-    ? `of $${st.budget} · ${st.written} written in ${st.calls} ${st.calls === 1 ? "try" : "tries"}`
-    : "No GEMINI_API_KEY: summaries only") + (st.voiceUsd ? ` · read aloud $${st.voiceUsd.toFixed(2)}` : "");
+  const an = data.answers || { usd: 0, budgetUsedUsd: 0, calls: 0 };
+  const total = st.usd + (st.voiceUsd || 0) + an.usd;
+  const held = st.usd + (st.voiceUsd || 0) + (st.reservedUsd || 0) + an.budgetUsedUsd;
+  $("t-stories").textContent = "$" + total.toFixed(total < 10 ? 4 : 2);
+  $("t-stories-sub").textContent = `$${held.toFixed(2)} of $${st.budget} budget held · ` +
+    `${an.calls} live answer calls ($${an.usd.toFixed(2)}) · ${st.written} stories · voice $${(st.voiceUsd || 0).toFixed(2)}`;
 
   const days = lastDays(30);
   const signupsPerDay = days.map(d => subs.filter(s => (s.created_at || "").slice(0, 10) === d).length);

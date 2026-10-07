@@ -24,6 +24,7 @@ import {
 } from "../../../lib/devices.js";
 import { perMinute, perHour, slowDown } from "../../../lib/ratelimit.js";
 import { senderHash } from "../../../lib/form.js";
+import { historyEnabled } from "../../../lib/history.js";
 
 const ok = (body = {}, status = 200) => Response.json({ ok: true, ...body }, { status, headers: noStore });
 const COMPANION = /^companion\/[\w.-]{1,24}$/;
@@ -59,6 +60,7 @@ async function status({ env }, app) {
   if (!(await perMinute(env, app.user.id, "device-status", 30))) return slowDown();
   const p = await profileOf(env, app.user.id);
   return ok({
+    ...(historyEnabled(env) ? { historyVersion: 2 } : {}),
     connected: true, device: { id: app.device.id, last_sync: app.device.last_sync },
     profile: p ? { name: p.data.name, realm: p.data.realm, sheet: sheetLine(p.data), handle: p.handle,
                    url: "/u/" + p.handle, public: Boolean(p.public), updated: p.updated } : null,

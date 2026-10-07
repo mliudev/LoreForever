@@ -3,7 +3,7 @@
  "type": "npc",
  "name": "Takata Steelblade",
  "era": "classic",
- "zone": "orgrimmar",
+ "zone": "desolace",
  "meta": {
   "wiki": "Takata Steelblade",
   "refs": 5
@@ -64,14 +64,6 @@
     "where is takata steelblade"
    ],
    "answer": "He is located at Ghost Walker Post, a Horde camp in north-central Desolace."
-  },
-  {
-   "q": "What is Takata's fighting style or background?",
-   "aliases": [
-    "is takata a blademaster",
-    "takata class"
-   ],
-   "answer": "Bearing a slender blade and the surname Steelblade, Takata carries the demeanor and weapon choice associated with traditional orcish blademasters, applying swift martial mastery against demonic foes."
   }
  ],
  "angles": [

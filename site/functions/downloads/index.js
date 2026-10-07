@@ -19,7 +19,7 @@ export async function onRequestGet({ request, env }) {
   headers.delete("ETag");
   const out = html
     .replace("<!-- dl-included -->", includedLine(voices, packs))
-    .replace("<!-- dl-voices -->", voicesSection(voices, likes))
+    .replace("<!-- dl-voices -->", voicesSection(voices, likes, packs))
     .replace("<!-- dl-languages -->", languagesSection(packs));
   return new Response(out, { status: page.status, headers });
 }

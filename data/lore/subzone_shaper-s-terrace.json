@@ -11,12 +11,7 @@
  "sections": [
   {
    "title": "A Legacy of the Titans",
-   "body": "Overlooking the lush, prehistoric basin of Un'Goro Crater, the Shaper's Terrace holds monumental stone edifices left behind by the titans. Believed to be dedicated to Khaz'goroth the Shaper, this high plateau stands as a testament to the celestial architects who cultivated the crater as a living laboratory for early life on Azeroth. From these elevated stones, ancient entities once observed and directed the flora and fauna below. While largely inaccessible from the crater floor, its cold stone arches and massive metallic plinths stand in stark, enigmatic contrast to the untamed wilderness thriving directly beneath them.",
-   "spoiler": 0
-  },
-  {
-   "title": "The Dormant Waygate",
-   "body": "Dominating the terrace is an inert Waygate, constructed of intricate titan craftsmanship. Similar in make to titanic mechanisms scattered across ancient lands, this archway hints at cosmic pathways spanning across worlds or continents, though its mechanisms remain dormant to ordinary travelers in the crater. Its presence above Marshal's Refuge continues to fuel the curiosity of scholars, explorers, and dwarves seeking to piece together how the titans connected their grand design across Azeroth.",
+   "body": "Overlooking the lush, prehistoric basin of Un'Goro Crater, the Shaper's Terrace holds monumental stone edifices left behind by the titans. Believed to be dedicated to Khaz'goroth the Shaper, this high plateau stands as a testament to the celestial architects who cultivated the crater as a living laboratory for early life on Azeroth. From these elevated stones, ancient entities once observed and directed the flora and fauna below. Its cold stone arches and massive metallic plinths stand in stark, enigmatic contrast to the untamed wilderness thriving directly beneath them.",
    "spoiler": 0
   }
  ],
@@ -28,7 +23,7 @@
     "what is this terrace",
     "ungoro terrace"
    ],
-   "answer": "The Shaper's Terrace is an elevated titan site located along the northern bluffs of Un'Goro Crater, directly above Marshal's Refuge. It features stone edifices and an inert gateway tied to the titans who once shaped the land."
+   "answer": "The Shaper's Terrace is an elevated titan site located along the northern bluffs of Un'Goro Crater, directly above Marshal's Refuge. It features stone edifices tied to the titans who once shaped the land."
   },
   {
    "q": "Who was the 'Shaper'?",
@@ -38,33 +33,12 @@
     "who made shapers terrace"
    ],
    "answer": "The terrace refers to Khaz'goroth the Shaper, one of the titanic creators who helped craft and cultivate the world of Azeroth in the deep past."
-  },
-  {
-   "q": "Can you reach the terrace from Un'Goro Crater?",
-   "aliases": [
-    "how to get to shapers terrace",
-    "how do i reach shapers terrace"
-   ],
-   "answer": "The northern terrace sits high on the cliffs and cannot be reached by normal climbing paths from the basin floor. Those who find themselves upon its heights can descend toward Marshal's Refuge, but scaling the cliffs up is virtually impossible on foot."
-  },
-  {
-   "q": "What is the large stone arch located here?",
-   "aliases": [
-    "arch on shapers terrace",
-    "portal in shapers terrace",
-    "what is the gateway"
-   ],
-   "answer": "It is a titan Waygate, an ancient teleportation conduit designed by the makers to link their testing facilities across vast distances, though it currently sits quiet."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
    "text": "For dwarves pursuing their titan ancestry, the Shaper's Terrace provides another tantalizing glimpse of Khaz'goroth's architecture and the grand works of the creators."
-  },
-  {
-   "target": "class:Mage",
-   "text": "The dormant Waygate on the terrace showcases portal magic and spatial anchoring on a monumental, divine scale far beyond mortal conjuration."
   }
  ],
  "keywords": [
@@ -74,13 +48,11 @@
   "shaper",
   "shaper's terrace",
   "titan",
-  "un'goro",
-  "waygate"
+  "un'goro"
  ],
  "related": [
   "zone:ungoro",
   "subzone:marshal-s-refuge",
-  "subzone:waygate-location",
   "topic:titan"
  ],
  "attribution": [

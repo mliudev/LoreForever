@@ -10,7 +10,7 @@
    "quest:240"
   ]
  },
- "summary": "Dusky Crab Cakes are a savory dish prepared by Chef Grual in Darkshire to satisfy the desperate hunger of Jitters. Despite their appetizing name, the local delicacy is actually prepared using gooey spider legs harvested from the shadowy woods. Unaware of the true ingredients, a famished Jitters considers them an exquisite meal.",
+ "summary": "Dusky Crab Cakes are a savory dish prepared by Chef Grual in Darkshire to satisfy the desperate hunger of Jitters. The local delicacy has a tangy flavor, and a famished Jitters considers it an exquisite meal.",
  "sections": [
   {
    "title": "A Questionable Delicacy",
@@ -26,7 +26,7 @@
     "what is in dusky crab cakes",
     "spider meat"
    ],
-   "answer": "Despite being called crab cakes, they are secretly made from gooey spider legs gathered from the giant arachnids prowling Duskwood. Chef Grual uses the arachnid meat as a substitute for genuine seafood."
+   "answer": "Chef Grual keeps the recipe for his specialty to himself. Its secret ingredient is revealed while gathering supplies for him in Duskwood."
   },
   {
    "q": "Who eats the Dusky Crab Cakes?",
@@ -35,7 +35,7 @@
     "who are these for",
     "jitters food"
    ],
-   "answer": "The cakes are prepared for Jitters, an anxious man sheltering in Darkshire who is complaining of an intensely rumbling stomach."
+   "answer": "The cakes are prepared for Jitters, an anxious man sheltering at Raven Hill who is complaining of an intensely rumbling stomach."
   },
   {
    "q": "Does Jitters know the cakes are made of spider legs?",
@@ -44,7 +44,7 @@
     "does he know its spider",
     "jitters reaction"
    ],
-   "answer": "No. Jitters is starving and happily devours them without questioning the recipe, grateful only that they hit the spot."
+   "answer": "Jitters is starving and happily devours the cakes without questioning the recipe, grateful only that they hit the spot."
   },
   {
    "q": "Who cooks the Dusky Crab Cakes?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Grual's recipe proves that a creative cook can substitute the limbs of giant forest arachnids for coastal crab when ingredients run thin."
+   "text": "Grual's cakes show how a creative cook can make a tangy local specialty from the ingredients available in Duskwood."
   }
  ],
  "keywords": [

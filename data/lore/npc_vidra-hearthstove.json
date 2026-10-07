@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Kitchen of the Stoutlager",
-   "body": "Within the bustling warmth of the Stoutlager Inn, Vidra Hearthstove tends the kitchen and helps feed the locals and travelers passing through Loch Modan. Sharing a surname with the innkeeper, she is part of the Hearthstove clan that keeps Thelsamar well-provisioned. Her signature dish, Thelsamar blood sausages, is a hearty dwarven staple that requires fresh game meats gathered from the surrounding wilderness, including boar entrails, spider ichor, and bear meat.",
+   "body": "Within the bustling warmth of the Stoutlager Inn, Vidra Hearthstove tends the kitchen and helps feed the locals and travelers passing through Loch Modan. Sharing a surname with the innkeeper, she keeps Thelsamar well-provisioned. Her signature dish, Thelsamar blood sausages, is a hearty dwarven staple that requires fresh game meats gathered from the surrounding wilderness, including boar entrails, spider ichor, and bear meat.",
    "spoiler": 0
   }
  ],
@@ -36,15 +36,6 @@
    "answer": "She can be found inside the Stoutlager Inn, located in the center of Thelsamar in Loch Modan."
   },
   {
-   "q": "Is Vidra related to Innkeeper Hearthstove?",
-   "aliases": [
-    "vidra hearthstove family",
-    "is vidra related to the innkeeper",
-    "lina hearthstove"
-   ],
-   "answer": "Given that they share a surname and work within the same establishment, she is believed to be closely related to Innkeeper Hearthstove as well as Lina Hearthstove, forming the core family running the inn's hospitality."
-  },
-  {
    "q": "What ingredients does she use for Thelsamar Blood Sausages?",
    "aliases": [
     "blood sausage ingredients",
@@ -61,7 +52,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarves passing through Thelsamar, Vidra's kitchen provides a comforting taste of home, embodying the Hearthstove family's staple role in keeping town morale high."
+   "text": "For dwarves passing through Thelsamar, Vidra's kitchen provides a comforting taste of home, embodying her staple role in keeping town morale high."
   }
  ],
  "keywords": [

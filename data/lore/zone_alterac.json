@@ -12,7 +12,7 @@
   "levels": "",
   "aliases": []
  },
- "summary": "The Alterac Mountains are a cold, ruined highland in central Lordaeron, once home to the treacherous human kingdom of Alterac and the scholarly magocracy of Dalaran. Today, the snow-dusted crags are overrun by the Crushridge ogres, the aristocratic bandits of the Syndicate, and remnant arcane forces. Neither the Alliance nor the Horde holds a secure hub here, leaving travelers to operate out of the nearby foothills while contesting the hidden valley nearby.",
+ "summary": "The Alterac Mountains are a cold, ruined highland in central Lordaeron, once home to the treacherous human kingdom of Alterac and the scholarly magocracy of Dalaran. Today, the snow-dusted crags are overrun by the Crushridge ogres, the aristocratic bandits of the Syndicate, and remnant arcane forces. Travelers venture from nearby foothill settlements and the rebuilding city of Dalaran while contesting the hidden valley nearby.",
  "sections": [
   {
    "title": "The Fallen Kingdom",
@@ -20,13 +20,13 @@
    "spoiler": 0
   },
   {
-   "title": "The Shrouded City",
-   "body": "On the western edge of the mountains, along the shores of Lordamere Lake, sits what remains of the Kirin Tor's great city-state of Dalaran. Devastated by the demon lord Archimonde during the Third War, Dalaran's surviving magi threw up a massive, opaque violet dome of protective magic over the ruins. Within this glowing shield, the wizards work feverishly to rebuild and restore their sanctum away from prying eyes. Outsiders are barred from entering, though encampments of Dalaran spellcasters linger around the perimeter, occasionally trading words with traveling adventurers.",
+   "title": "The Rebuilding City",
+   "body": "On the western edge of the mountains, along the shores of Lordamere Lake, sits what remains of the Kirin Tor's great city-state of Dalaran. Devastated by the demon lord Archimonde during the Third War, Dalaran's surviving magi threw up a massive, opaque violet dome of protective magic over the ruins. In Forever, the shield has already been removed while the city is still under reconstruction. The Kirin Tor continue rebuilding their sanctum, and Archmage Ansirem Runeweaver can be found within the Violet Citadel.",
    "spoiler": 0
   },
   {
    "title": "Frontiers of Conflict",
-   "body": "Because the peaks feature no fortified towns or flight masters for either faction, adventurers venture into Alterac using Southshore or Tarren Mill as staging grounds. Beyond the wandering yetis, mountain lions, and Syndicate footpads, the region's greatest conflict churns beneath the snow line. Deep within the mountain passes lies Alterac Valley, where the dwarven Stormpike Guard have clashed with the reclusive Frostwolf clan of orcs over ancient territorial and mining rights.",
+   "body": "Adventurers often venture into the peaks using Southshore or Tarren Mill as staging grounds. Beyond the wandering yetis, mountain lions, and Syndicate footpads, the region's greatest conflict churns beneath the snow line. Deep within the mountain passes lies Alterac Valley, where the dwarven Stormpike Guard have clashed with the reclusive Frostwolf clan of orcs over ancient territorial and mining rights.",
    "spoiler": 0
   }
  ],
@@ -50,13 +50,13 @@
    "answer": "The Syndicate is an outlaw organization formed from the dispossessed nobility of Alterac. Led by former Alteraci royals such as Lord Aliden Perenolde, they employ cutthroats, highwaymen, and disgraced lords to terrorize the surrounding lands and drive out rivals, striving desperately to reclaim their ancestral domains."
   },
   {
-   "q": "What is the giant glowing dome?",
+   "q": "What happened to Dalaran's glowing dome?",
    "aliases": [
     "purple dome alterac",
     "what is the violet bubble",
     "dalaran shield"
    ],
-   "answer": "The magical shield encloses the ruins of Dalaran. After the demon lord Archimonde decimated the city in the Third War, the surviving Kirin Tor sealed off their devastated home behind an impenetrable energy shell to rebuild their magical capital in absolute secrecy."
+   "answer": "After Archimonde devastated Dalaran during the Third War, the surviving Kirin Tor raised a protective magical shield over the ruins. In Forever, they removed the shield early while the city was still being rebuilt. Archmage Ansirem Runeweaver now stands in the Violet Citadel."
   },
   {
    "q": "Where can I find flight paths or safe inns in Alterac?",
@@ -65,7 +65,7 @@
     "alterac inn",
     "alterac quest hub"
    ],
-   "answer": "There are no flight paths, inns, or neutral towns within the Alterac Mountains themselves. Alliance players generally stage their expeditions from Southshore, while Horde players operate out of Tarren Mill down in the Hillsbrad Foothills."
+   "answer": "Southshore and Tarren Mill in the Hillsbrad Foothills are the usual staging grounds for expeditions into the snowy peaks. Dalaran on the western edge is accessible in Forever while the Kirin Tor rebuild it."
   },
   {
    "q": "What is Alterac Valley?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "The perimeter of Dalaran's shielded ruins hums with residual arcane currents and busy Kirin Tor mages, serving as a solemn pilgrimage to the devastated heart of human spellcraft."
+   "text": "Dalaran's rebuilding streets hum with residual arcane currents and busy Kirin Tor mages, serving as a solemn pilgrimage to the devastated heart of human spellcraft."
   },
   {
    "target": "faction:Alliance",

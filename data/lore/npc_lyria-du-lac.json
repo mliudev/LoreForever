@@ -3,7 +3,7 @@
  "type": "npc",
  "name": "Lyria Du Lac",
  "era": "classic",
- "zone": "stormwind",
+ "zone": "elwynn",
  "meta": {
   "wiki": "Lyria Du Lac",
   "refs": 1
@@ -41,7 +41,7 @@
     "lyria du lac quests",
     "warrior quest goldshire"
    ],
-   "answer": "Young Alliance warriors completing their earliest training in Northshire are directed to her through the quest 'A Warrior's Training' to continue honing their martial abilities."
+   "answer": "Lyria gives developing warriors the quest 'A Warrior's Training', sending them to the veteran Harry Burlguard at the Pig and Whistle tavern in Stormwind's Old Town."
   }
  ],
  "angles": [

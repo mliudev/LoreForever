@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Watching Over the Digs",
-   "body": "Perched upon a rugged hill just south of Hammertoe's Digsite, Prospector Ryedol represents the ongoing efforts of Ironforge's Explorers' League in the Badlands. The arid valley is rich in ancient titan secrets and earthen heritage, but field expeditions here are constantly beleaguered by savage troggs, ravenous coyotes, and territorial drakes. Ryedol coordinates retrieval efforts for misplaced dwarven gear and seeks signs of hope amid the ruined outposts, determined not to let the League's sacrifices in the wastes be in vain.",
+   "body": "Perched upon a rugged hill just south of Hammertoe's Digsite, Prospector Ryedol represents the ongoing efforts of Ironforge's Explorers' League in the Badlands. The arid valley is rich in ancient titan secrets and earthen heritage, but field expeditions here are constantly beleaguered by savage troggs, ravenous coyotes, and territorial drakes. Ryedol coordinates retrieval efforts for dwarven gear stolen by the Dark Iron dwarves and seeks signs of hope amid the ruined outposts, determined not to let the League's sacrifices in the wastes be in vain.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "ryedol hammer",
     "dwarf and his tools"
    ],
-   "answer": "It is Ryedol's personal survey tool, misplaced or left behind in the dangerous wastes below. Recovering it is an essential matter of dwarven pride and practical field work."
+   "answer": "Ryedol's Hammer is a reward for recovering his Lucky Pick from the Dark Iron dwarves who attacked Hammertoe's Digsite. The stolen item is his pick, not the reward hammer."
   }
  ],
  "angles": [

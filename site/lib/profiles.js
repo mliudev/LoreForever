@@ -23,6 +23,7 @@ import { linker, moments, journeySection } from "./trails.js";
 import { roadChart } from "./roadchart.js";
 import { picturesSection, pictureUrl } from "./pictures.js";
 import { cardKey, cardUrl } from "./sharecard.js";
+import { answerBudgetUsed, reserveOtherPaid } from "./companion-answers.js";
 
 export const STORIES_PER_DAY = 3;
 export const STORY_MODEL = "gemini-3.1-flash-lite";
@@ -279,6 +280,12 @@ export function storyCost(usage, model) {
   return Math.ceil((usage.promptTokenCount || 0) * price.input + output * price.output);
 }
 
+const validUsage = usage => usage &&
+  typeof usage.promptTokenCount === "number" && Number.isFinite(usage.promptTokenCount) && usage.promptTokenCount >= 0 &&
+  typeof usage.candidatesTokenCount === "number" && Number.isFinite(usage.candidatesTokenCount) && usage.candidatesTokenCount >= 0 &&
+  (usage.thoughtsTokenCount == null ||
+    (typeof usage.thoughtsTokenCount === "number" && Number.isFinite(usage.thoughtsTokenCount) && usage.thoughtsTokenCount >= 0));
+
 // This month's spend so far: {month, micro_usd, calls, stories}.
 export async function storySpend(env, now = new Date()) {
   const row = await env.DB.prepare("SELECT * FROM story_spend WHERE month = ?").bind(month(now)).first();
@@ -290,14 +297,15 @@ export async function storySpend(env, now = new Date()) {
 export async function storyBudgetLeft(env, now = new Date()) {
   if (!STORY_PRICES[storyModel(env)]) return false;
   const s = await storySpend(env, now);
-  return s.micro_usd + (s.voice_micro_usd || 0) < budgetMicro(env);
+  return s.micro_usd + (s.voice_micro_usd || 0) + (s.reserved_micro || 0) +
+    await answerBudgetUsed(env, now) < budgetMicro(env);
 }
 
-async function addSpend(env, micro, kept) {
+async function addSpend(env, micro, kept, reservation, now, known = true) {
   await env.DB.prepare(
-    "INSERT INTO story_spend (month, micro_usd, calls, stories) VALUES (?, ?, 1, ?) ON CONFLICT (month) DO UPDATE SET " +
-    "micro_usd = micro_usd + excluded.micro_usd, calls = calls + 1, stories = stories + excluded.stories"
-  ).bind(month(), micro, kept ? 1 : 0).run();
+    "UPDATE story_spend SET micro_usd = micro_usd + ?, calls = calls + 1, stories = stories + ?, " +
+    "reserved_micro = reserved_micro - ? WHERE month = ?"
+  ).bind(micro, kept ? 1 : 0, known ? reservation : 0, month(now)).run();
 }
 
 // Writes a story with Gemini and adds what it cost to this month's spend. Returns {text, why}: text is null when
@@ -309,6 +317,11 @@ export async function writeStory(env, d, spec) {
   if (!STORY_PRICES[model]) { console.warn(`profile story: no price for ${model}, not calling it`); return { text: null, why: "unpriced" }; }
   const known = facts(d, spec);
   const prompt = `${known}\n\nWrite ${d.name}'s story in ${LANGUAGES[d.locale] || "English"}.`;
+  const price = STORY_PRICES[model];
+  const reservation = Math.ceil(new TextEncoder().encode(SYSTEM + prompt).length * price.input +
+    8192 * price.output + 1000);
+  const started = new Date();
+  if (!(await reserveOtherPaid(env, reservation, started))) return { text: null, why: "budget" };
   let out;
   try {
     const res = await fetch(`${API}/${model}:generateContent`, {
@@ -324,7 +337,7 @@ export async function writeStory(env, d, spec) {
     });
     if (!res.ok) {
       console.warn(`profile story: HTTP ${res.status} ${(await res.text().catch(() => "")).slice(0, 200)}`);
-      await addSpend(env, 0, false);
+      await addSpend(env, 0, false, reservation, started, false);
       return { text: null, why: `http-${res.status}` };
     }
     out = await res.json();
@@ -342,7 +355,8 @@ export async function writeStory(env, d, spec) {
     why = "unreadable";
   }
   if (!story) console.warn(`profile story: ${why}`);
-  await addSpend(env, storyCost(out.usageMetadata, model), Boolean(story));
+  const measured = Boolean(validUsage(out.usageMetadata));
+  await addSpend(env, measured ? storyCost(out.usageMetadata, model) : 0, Boolean(story), reservation, started, measured);
   return { text: story, why };
 }
 
@@ -364,13 +378,22 @@ const MIGRATE = [
   "ALTER TABLE profiles ADD COLUMN card_sha TEXT",      // the share card's address (lib/sharecard.js, LOR-150)
   "ALTER TABLE profiles ADD COLUMN card_key TEXT",      // which version of the profile it was drawn from (cardKey)
 ];
-let migrated = false;
+const migrated = new WeakSet();
 export async function setupProfiles(env) {
-  if (migrated) return;
+  if (migrated.has(env.DB)) return;
+  const { results } = await env.DB.prepare('PRAGMA table_info(profiles)').all();
+  const columns = new Set(results.map(column => column.name));
   for (const sql of MIGRATE) {
-    try { await env.DB.prepare(sql).run(); } catch (e) {}   // fails once the column exists
+    const column = sql.match(/ADD COLUMN (\w+)/)[1];
+    if (columns.has(column)) continue;
+    try { await env.DB.prepare(sql).run(); }
+    catch (e) {
+      // Another cold isolate may have added the column after our initial read. Other failures must surface.
+      const current = await env.DB.prepare('PRAGMA table_info(profiles)').all();
+      if (!current.results.some(row => row.name === column)) throw e;
+    }
   }
-  migrated = true;
+  migrated.add(env.DB);
 }
 
 // What a story was told from: the level, quests and bosses done, and the lands, dungeons and mounts.
@@ -572,12 +595,12 @@ function badgeLine(badges) {
 // listen: the Listen box over the story (lib/storyvoice.js listenBox, LOR-316), or "".
 export function profilePage(p, { links = [], owner = false, badges = [], names = linker(null), lore = false,
                                  pictures = null, asVisitor = false, query = "", viewer = null, herald = false,
-                                 listen = "" } = {}) {
+                                 listen = "", historyLinks = "", historyJourney = null } = {}) {
   const d = p.data;
   const { zones } = road(d);
   const L = lore ? names : null;
   // The moments: the companion's journey when it has sent one (LOR-248), else the record's.
-  const list = moments(d, names, p.journey);
+  const list = moments(d, names, historyJourney || p.journey);
   const journey = journeySection(list, { lore: L });
   const chart = roadChart(list, { name: d.name });
   // A profile saved before the record kept its moments' order (before 10/4): its owner is told how to get them.
@@ -598,7 +621,7 @@ export function profilePage(p, { links = [], owner = false, badges = [], names =
     <h2 id="map-title">The road on a chart</h2>
     ${chart}
   </section>` : ""}
-  ${journey}` : "";
+  ${journey}${historyLinks}` : historyLinks;
   // The picture book, right after the trek (Mike, 10/5): the pictures the companion put on the profile.
   const book = pictures ? picturesSection(pictures, { owner, tz: p.journey?.tz ?? 0 }) : "";
   // Visitors share from the head (LOR-150); the owner from their bar.
@@ -653,6 +676,7 @@ export function profilePage(p, { links = [], owner = false, badges = [], names =
     foot: `<p>Played WoW Forever with Lore Forever? <a href="/account#profile">Make your own profile</a>.</p>`,
     scripts: ['<script src="/js/share.js" defer></script>', '<script src="/js/profile.js" defer></script>',
       journey && '<script src="/js/journey.js" defer></script>',
+      historyLinks && owner && '<script type="module" src="/js/history-export.js"></script>',
       chart && '<script src="/js/roadchart.js" defer></script>',
       pictures?.length && '<script src="/js/pictures.js" defer></script>',
       redraw && '<script src="/js/card.js" defer></script>',

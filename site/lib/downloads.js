@@ -1,198 +1,185 @@
-// The /voices page (functions/voices/index.js; /downloads redirects there): every file a player might want, built
-// from the same data the rest of the site uses, so a voice or language added there shows up here with no code
-// change.
-//   - voices: public/voices/voices.json (lib/voices.js). A voice with "included": true comes with the add-on; any
-//     other live voice with a download is listed with its core pack and its "packs" (lands packs, an all-in-one zip).
-//   - languages: public/translate/packs.json (lib/translations.js). A pack with "included": true comes with the
-//     add-on; the rest get a download button.
-// Sizes: a pack's optional "size" (bytes) is shown as is. Otherwise each download row carries data-asset (the release
-// asset's tag and file name) and public/voices-page.js fills the size in from GitHub's release API in the browser.
-//
-// Copy rule (as for /voices): never say how a voice or a translation is made.
-
+// Server-rendered language/narrator choices. Existing catalog links work without JavaScript.
 import { escape, likeButton } from "./voices.js";
-
-const plural = (n, one, many) => `${n.toLocaleString("en-US")} ${n === 1 ? one : many}`;
-// voices.json coverage is written to follow "Covers ..."; on its own line it starts with a capital and ends with a stop.
-const sentence = s => { const t = String(s).trim(); return t.charAt(0).toUpperCase() + t.slice(1) + (/[.!?]$/.test(t) ? "" : "."); };
-
+const list = arr => arr.length > 1 ? arr.slice(0, -1).join(", ") + " and " + arr.at(-1) : arr[0] || "";
+const count = n => Number.isSafeInteger(n) && n > 0 ? n : 0;
+const validId = value => typeof value === "string" && /^[a-z0-9][a-z0-9-]*$/.test(value);
+const released = item => item && (!item.status || item.status === "live");
+const safeDownload = value => typeof value === "string" && (/^\/download\/[a-zA-Z0-9/_-]+$/.test(value) || /^https:\/\//.test(value));
+const cfHref = value => /^https:\/\/www\.curseforge\.com\/wow\/addons\/[a-z0-9-]+\/?$/.test(value || "") ? value : "";
+const versionTag = value => /^\d+\.\d+\.\d+(?:[-+][a-zA-Z0-9.-]+)?$/.test(value || "") ? `v${value}` : "";
 export function formatSize(bytes) {
-  if (!(bytes > 0)) return "";
-  if (bytes >= 1e9) return (bytes / 1e9).toFixed(1) + " GB";
-  if (bytes >= 1e6) return Math.round(bytes / 1e6) + " MB";
-  return Math.max(1, Math.round(bytes / 1e3)) + " KB";
+  if (typeof bytes !== "number" || !Number.isFinite(bytes) || bytes <= 0) return "";
+  return bytes >= 1e9 ? (bytes / 1e9).toFixed(1) + " GB" : bytes >= 1e6 ? Math.round(bytes / 1e6) + " MB" : Math.max(1, Math.round(bytes / 1e3)) + " KB";
 }
-
-// "latest:LoreForever.zip" or "<tag>:<file>" for a GitHub release asset of the public repo, so the browser can look
-// up its size. The site's own /download/<file> links stand for assets of the latest release.
-const SITE_FILES = { zip: "LoreForever.zip", installer: "LoreForever-Setup.exe", complete: "LoreForever-complete.zip" };
+const SITE_FILES = { zip: "LoreForever.zip", installer: "LoreForever-Setup.exe", complete: "LoreForever.zip" };
 export function assetRef(url) {
-  const u = String(url || "");
-  let m = /^\/download\/(zip|installer|complete)$/.exec(u);
-  if (m) return "latest:" + SITE_FILES[m[1]];
-  m = /\/releases\/latest\/download\/([^/?#]+)$/.exec(u);
-  if (m) return "latest:" + decodeURIComponent(m[1]);
-  m = /\/releases\/download\/([^/]+)\/([^/?#]+)$/.exec(u);
-  if (m) return decodeURIComponent(m[1]) + ":" + decodeURIComponent(m[2]);
+  const u = String(url || ""), local = /^\/download\/(zip|installer|complete)$/.exec(u);
+  if (local) return "latest:" + SITE_FILES[local[1]];
+  try {
+    const parsed = new URL(u);
+    if (parsed.origin !== "https://github.com" || parsed.search || parsed.hash) return "";
+    let m = /^\/mliudev\/LoreForever\/releases\/latest\/download\/([^/]+)$/.exec(parsed.pathname);
+    if (m) return "latest:" + decodeURIComponent(m[1]);
+    m = /^\/mliudev\/LoreForever\/releases\/download\/([^/]+)\/([^/]+)$/.exec(parsed.pathname);
+    if (m) return decodeURIComponent(m[1]) + ":" + decodeURIComponent(m[2]);
+  } catch {}
   return "";
 }
-
-// Alliance, Horde, or both, from a pack's "faction" or else its id ("female-alliance-lands").
 export function packFaction(p) {
   const f = String(p.faction || p.id || "").toLowerCase();
   return /alliance/.test(f) ? "alliance" : /horde/.test(f) ? "horde" : "";
 }
-const FACTION_LABEL = { alliance: "Alliance", horde: "Horde" };
-
 function sizeCell(item, href) {
-  const known = formatSize(item.size);
-  const ref = known ? "" : assetRef(item.download && /^https:/.test(item.download) ? item.download : href);
-  return `<span class="dl-size"${ref ? ` data-asset="${escape(ref)}"` : ""}>${known}</span>`;
+  const ref = assetRef(item.download) || assetRef(href);
+  return `<span class="dl-size"${ref ? ` data-asset="${escape(ref)}"` : ""}>${formatSize(item.size) || "Size unavailable"}</span>`;
 }
-
-// How much of the catalog a pack records. Partial packs (voices.json "total": the catalog's line count for the
-// pack's locale) read "140 of 842 narrations" with a thin meter, plus "races" when it's for certain peoples.
-function amount(clips, item) {
-  if (!clips) return "";
-  const total = item.total > 0 ? item.total : 0;
-  if (!total || clips >= total) return plural(clips, "narration", "narrations");
-  const pct = Math.max(2, Math.round(clips / total * 100));
-  return `${clips.toLocaleString("en-US")} of ${plural(total, "narration", "narrations")} ` +
-    `<span class="dl-meter" role="img" aria-label="${pct}% of all narrations"><span style="width:${pct}%"></span></span>`;
-}
-const races = item => (item.races || []).filter(Boolean).map(r => String(r).charAt(0).toUpperCase() + String(r).slice(1));
-
-const packHref = p => p.download.startsWith("/") ? p.download : `/download/voice/${p.id}`;
-const isAll = p => !packFaction(p) && /complete|all|everything/i.test(p.id + " " + p.name);
-const DOT = '<span class="dl-dot" aria-hidden="true"> &middot; </span>';
-
 function playButton(v) {
   const s = v.sample;
-  if (!s) return "";
-  return `<button class="dl-play" type="button" aria-label="Play a sample of ${escape(v.name)}: ${escape(s.title)}"
-          title="${escape(s.title)}${s.length ? " · " + escape(s.length) : ""}">&#9654;</button>
-        <audio class="dl-audio" preload="none" src="${escape(s.src)}"></audio>`;
+  if (!s || typeof s.src !== "string" || !/^\/(?!\/)[a-zA-Z0-9/_.-]+$/.test(s.src)) return "";
+  return `<button class="dl-play" type="button" aria-pressed="false" aria-label="Play a sample of ${escape(v.name)}: ${escape(s.title)}" title="${escape(s.title)}">&#9654;</button>
+    <audio class="dl-audio" preload="none" src="${escape(s.src)}">
+    </audio>`;
 }
-
-// A voice with its own CurseForge project (voices.json "curseforge", its project page): the CurseForge app installs
-// it with the add-on and keeps both updated, so it's offered under the Download for players who use the app.
-function curseforgeLine(v) {
-  if (!/^https:\/\/www\.curseforge\.com\/wow\/addons\/[a-z0-9-]+\/?$/.test(v.curseforge || "")) return "";
-  return `\n        <p class="dl-file-meta dl-cf">Use the CurseForge app? <a href="${escape(v.curseforge)}">Get it on CurseForge</a></p>`;
-}
-
-// A file as a small link: its name (and faction), then its narrations and size.
-function smallLink(v, f) {
-  const cover = f.item.included === false && f.item.coverage
-    ? ` <span class="dl-file-meta">${escape(sentence(f.item.coverage))}</span>` : "";
-  return `<a id="${escape(f.id)}" data-pack="${escape(f.pack)}" href="${escape(f.href)}" aria-label="Download ${escape(v.name)}, ${escape(f.name)}">${escape(f.name)}</a>${f.faction ? ` <span class="dl-faction dl-${f.faction}">${FACTION_LABEL[f.faction]}</span>` : ""} <span class="dl-file-meta">(${[f.clips ? f.clips.toLocaleString("en-US") : "", sizeCell(f.item, f.href)].filter(Boolean).join('<span class="dl-dot" aria-hidden="true">, </span>')})</span>${cover}`;
-}
-
-// One voice. A voice that comes with the add-on just says so. Any other voice gets one big Download: its
-// all-in-one zip when it has one ("Download everything"), else its own pack. Its other packs (the core, Alliance and
-// Horde lands) follow as small links. The voice in other languages (packs with a "language", LOR-177) gets its own
-// line, the included voice's too. An explicitly optional pack (included: false) also stays available under an
-// included voice; its bundled English packs stay hidden. Every file keeps its id as an anchor, and data-pack is
-// the id a later
-// "download several" checkbox would send.
-export function voiceBlock(v, likes) {
-  const released = (v.packs || []).filter(p => p.download && p.status !== "soon");
-  const packs = released.filter(p => !p.language);
-  const languages = released.filter(p => p.language)
-    .map(p => ({ id: p.id, name: p.name, href: packHref(p), item: p, pack: p.id, clips: p.clips }));
-  const files = [];
-  if (!v.included && v.download) {
-    files.push({ id: packs.length ? `${v.id}-core` : `${v.id}-file`, name: packs.length ? "Core" : v.name,
-      href: `/download/voice/${v.id}`, item: v, pack: v.id, clips: v.clips });
+// Choose released bundles instead of members; counts always use distinct leaf components.
+function fallbackFiles(files) {
+  const leaves = files.filter(f => !f.item.contains?.length), byId = new Map(leaves.map(f => [f.pack, f]));
+  const covered = new Set(), chosen = [];
+  const bundles = files.filter(f => Array.isArray(f.item.contains) && f.item.contains.length && f.item.contains.every(id => byId.has(id))).sort((a, b) => b.item.contains.length - a.item.contains.length);
+  for (const bundle of bundles) {
+    if (bundle.item.contains.some(id => covered.has(id))) continue;
+    chosen.push(bundle); bundle.item.contains.forEach(id => covered.add(id));
   }
-  for (const p of packs) files.push({ id: p.id, name: p.name, href: packHref(p), item: p, pack: p.id, clips: p.clips,
-    faction: packFaction(p), all: isAll(p) });
-  const main = v.included ? null : files.find(f => f.all) || files[0];
-  const rest = files.filter(f => f !== main && (!v.included || f.item.included === false));
-  const who = [`by ${escape(v.contributor?.name || v.credit)}`, escape(v.language),
-    escape(races(v).join(", "))].filter(Boolean).join(" &middot; ");
-  let get;
-  if (v.included) {
-    get = `<p class="dl-included"><span class="dl-check" aria-hidden="true">&#10003;</span> Comes with Lore Forever</p>`;
-  } else if (main) {
-    get = `<a class="btn-download dl-big" id="${escape(main.id)}" data-pack="${escape(main.pack)}" href="${escape(main.href)}"
-          aria-label="Download ${escape(v.name)}${main.all ? ", everything" : ""}">${main.all ? "Download everything" : "Download"}</a>
-        <p class="dl-file-meta">${[amount(main.clips, main.item), sizeCell(main.item, main.href)].filter(Boolean).join(DOT)}</p>` +
-      curseforgeLine(v);
-  } else {
-    get = `<p class="dl-included">Download coming soon</p>`;
+  return { leaves, downloads: [...chosen, ...leaves.filter(f => !covered.has(f.pack))] };
+}
+function translationFor(group, packs) {
+  const locale = group.files.map(f => /_([a-z]{2}[A-Z]{2})$/.exec(f.item.addon || "")?.[1]).find(Boolean);
+  return packs.find(p => p.locale === locale);
+}
+function preferredBundle(v, group, packs) {
+  if (!/^LoreForever_Voice_(Default|Female)$/.test(v.addon || "") || group.included || group.extra) return "";
+  const translation = translationFor(group, packs), versions = [...new Set(packs.map(p => p.version).filter(Boolean))];
+  const tag = versionTag(translation?.version || (group.language === "English" && versions.length === 1 ? versions[0] : ""));
+  const locale = translation?.locale || (group.language === "English" ? "enUS" : "");
+  // Metadata only: no href is supplied until the exact tag and filename exist.
+  return tag && locale ? `${tag}:${v.addon}_${locale}-complete.zip` : "";
+}
+export function voiceChoices(v, packs = []) {
+  if (!validId(v?.id) || !released(v)) return [];
+  const baseLanguage = v.language || "English", groups = new Map();
+  const add = (language, file, extra = false) => {
+    const key = extra ? file.pack : language;
+    if (!groups.has(key)) groups.set(key, { language, files: [], extra, included: false });
+    groups.get(key).files.push(file);
+  };
+  if (v.included) groups.set(baseLanguage, { language: baseLanguage, files: [], included: true, extra: false });
+  else if (safeDownload(v.download)) add(baseLanguage, { id: v.packs?.length ? `${v.id}-core` : `${v.id}-file`, name: v.packs?.length ? "Core stories" : v.name, href: `/download/voice/${v.id}`, item: v, pack: v.id });
+  for (const p of Array.isArray(v.packs) ? v.packs : []) {
+    if (!validId(p?.id) || !released(p) || !safeDownload(p.download)) continue;
+    if (v.included && !p.language && p.included !== false) continue;
+    const questDialogue = /_Quests(?:_|$)|_QuestGivers$/.test(p.addon || "");
+    add(p.language || baseLanguage, { id: p.id, name: p.name, href: p.download.startsWith("/") ? p.download : `/download/voice/${p.id}`, item: p, pack: p.id }, p.included === false || questDialogue);
   }
-  const small = (rest.length
-    ? `<p class="dl-parts">${v.included ? "Optional packs:" : "Or just one part:"}
-          ${rest.map(f => smallLink(v, f)).join(DOT)}</p>`
-    : "") + (languages.length
-    ? `<p class="dl-parts dl-other-langs">In other languages:
-          ${languages.map(f => smallLink(v, f)).join(DOT)}</p>`
-    : "");
-  // The voice's own coverage line describes its core pack, so a voice with an all-in-one zip leaves it to the parts.
-  const cover = v.coverage && !(main && main.all) ? `<p class="dl-cover">${escape(sentence(v.coverage))}</p>` : "";
-  const most = Math.max(v.clips || 0, ...packs.map(p => p.clips || 0));
-  return `<article class="dl-card dl-voice${v.included ? " dl-voice-included" : ""}" id="${escape(v.id)}">
-      <div class="dl-voice-head">
-        ${playButton(v)}
-        <div>
-          <h3><a href="/voices/${escape(v.id)}">${escape(v.name)}</a>${v.included ? ' <span class="tag">Default</span>' : ""}</h3>
-          <p class="dl-sub">${who}${most ? " &middot; " + plural(most, "narration", "narrations") : ""}</p>
-          ${cover}
-          ${likes ? likeButton(v, likes[v.id]) : ""}
-        </div>
-      </div>
-      <div class="dl-voice-get">
-        ${get}
-      </div>
-      ${small}
-    </article>`;
+  return [...groups.values()].map(group => {
+    const { leaves, downloads } = fallbackFiles(group.files), translation = translationFor(group, packs);
+    if (!group.extra && translation && !translation.included && released(translation) && safeDownload(translation.download)) downloads.push({ id: `lang-${translation.locale}-${v.id}`, name: `${translation.name} text`, href: `/download/lang/${translation.locale}`, item: translation, pack: `lang-${translation.locale}` });
+    const clips = group.included ? count(v.clips) : leaves.every(f => count(f.item.clips)) ? leaves.reduce((n, f) => n + f.item.clips, 0) : 0;
+    const id = group.extra ? group.files[0].pack : group.language === baseLanguage ? v.id : `${v.id}-${translation?.locale || group.files[0].pack}`;
+    return { ...group, id, leaves, downloads, translation, clips, preferred: preferredBundle(v, group, packs) };
+  });
 }
-
-// Voices you download come first, then the ones that come with the add-on.
-// likes: {voice id: count} (lib/voices.js likeCounts), or omitted for no like buttons.
-export function voicesSection(voices, likes) {
-  const live = voices.filter(v => v.status === "live");
-  return [...live.filter(v => !v.included), ...live.filter(v => v.included)].map(v => voiceBlock(v, likes))
-    .join("\n    ");
+function fileLink(file, includeId = true) {
+  return `<li class="dl-file"${includeId ? ` id="${escape(file.id)}"` : ""}>
+    <div class="dl-file-main">
+    <p class="dl-file-name">${escape(file.name)}</p>
+    <p class="dl-file-meta">Download size: ${sizeCell(file.item, file.href)}</p>${file.item.coverage ? `<p class="dl-cover">${escape(file.item.coverage)}</p>` : ""}</div>
+    <a class="btn-small dl-get" data-pack="${escape(file.pack)}" href="${escape(file.href)}" aria-label="Download ${escape(file.name)} as a ZIP">Manual ZIP</a>
+    </li>`;
 }
-
-// One language: its name, then "comes with the add-on" or a download button.
-export function languageRow(p) {
-  const href = `/download/lang/${p.locale}`;
-  const right = p.included
-    ? `<span class="dl-included-chip"><span class="dl-check" aria-hidden="true">&#10003;</span> Included</span>`
-    : `<a class="btn-small dl-get" href="${escape(href)}" aria-label="Download ${escape(p.name)}">Download</a>`;
-  const meta = p.included ? "In the main download" : sizeCell(p, href);
-  return `<li class="dl-file" id="lang-${escape(p.locale)}">
-          <div class="dl-file-main">
-            <p class="dl-file-name" lang="${escape(p.locale.slice(0, 2).toLowerCase())}">${escape(p.name)}</p>
-            <p class="dl-file-meta">${meta}</p>
-          </div>
-          ${right}
-        </li>`;
+function curseforgeChoices(v, group) {
+  const ids = new Set(group.leaves.map(f => f.pack)), links = [], covered = new Set();
+  if (cfHref(v.curseforge) && Array.isArray(v.curseforgeContains) && v.curseforgeContains.length && v.curseforgeContains.every(id => ids.has(id))) {
+    const contents = group.leaves.filter(f => v.curseforgeContains.includes(f.pack));
+    v.curseforgeContains.forEach(id => covered.add(id));
+    links.push(`<li id="${escape(v.id)}-curseforge">
+    <a href="${escape(v.curseforge)}">${escape(v.curseforgeLabel || "Stories on CurseForge")}</a>
+    <p>Includes ${list(contents.map(f => escape(f.name)))} (${contents.reduce((n, f) => n + count(f.item.clips), 0).toLocaleString("en-US")} recordings). ${escape(v.curseforgeBundleNote || "")}</p>
+    </li>`);
+  }
+  for (const file of group.leaves) {
+    const url = cfHref(file.item.curseforge);
+    if (!url || covered.has(file.pack) || file.item.curseforgeContains?.length > 1) continue;
+    covered.add(file.pack); links.push(`<li>
+    <a href="${escape(url)}">${escape(file.name)} on CurseForge</a>
+    <p>${escape(file.item.coverage || "")}</p>
+    </li>`);
+  }
+  const extras = group.leaves.filter(f => !covered.has(f.pack));
+  return links.length ? `<h4>CurseForge</h4>
+    <ul class="dl-cf-choices">${links.join("")}</ul>${extras.length ? `<p class="dl-pack-note">Also install the manual ZIP${extras.length === 1 ? "" : "s"} for ${list(extras.map(f => escape(f.name)))} to get all ${group.clips.toLocaleString("en-US")} recordings in this choice.</p>` : ""}` : "";
 }
-
-export function languagesSection(packs) {
-  const list = arr => arr.length > 1 ? arr.slice(0, -1).join(", ") + " and " + arr[arr.length - 1] : arr[0] || "";
-  const included = ["English", ...packs.filter(p => p.locale && p.included).map(p => escape(p.name))];
-  const separate = packs.filter(p => p.locale && !p.included && p.download);
-  // LOR-35: say plainly how players pick a language and which recordings are available.
-  // Narration coverage remains partial in each language; unrecorded entries stay as text.
-  return `<p class="dl-langs"><strong>${list(included)}</strong> come with the add-on, nothing extra to download.</p>
-      <p class="dl-intro">Lore Forever follows your WoW client's language. To read in another one, pick it in Options
-        &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Language, or type <code>/lore lang</code>.</p>
-      <p class="dl-intro">Recorded narrator packs have selected stories and answers in English, German, Spanish,
-        French and Portuguese (Brasil). Recorded quest dialogue is currently in English and German. Coverage varies
-        by voice and language; entries without a recording stay available as text.</p>` +
-    (separate.length ? `\n      <ul class="dl-files">\n        ${separate.map(languageRow).join("\n        ")}\n      </ul>` : "");
+function choiceRow(v, group, likes, languageAnchor = "") {
+  const included = group.included, name = group.extra ? group.files[0].name : v.name.replace(/^Lore Forever /, "");
+  const assets = group.downloads.map(f => assetRef(f.item.download) || assetRef(f.href));
+  const knownSize = group.downloads.every(f => formatSize(f.item.size)) ? formatSize(group.downloads.reduce((n, f) => n + f.item.size, 0)) : "";
+  const size = included ? `<span class="dl-included-chip">In main add-on</span>` : `<span class="dl-size dl-total-size"${assets.every(Boolean) ? ` data-assets="${escape(JSON.stringify(assets))}"` : ""}>${knownSize || "Size unavailable"}</span>
+    <small class="dl-size-kind">${group.downloads.length > 1 ? "Total download" : "ZIP download"}</small>`;
+  const alternatives = group.files.filter(f => !group.downloads.includes(f));
+  const manual = `<div class="dl-preferred" hidden>
+    <p>
+    <a class="btn-small dl-get" data-preferred-link>Get one manual ZIP</a>
+    </p>
+    <p>Includes all available ${group.extra ? "recordings" : "stories and answers"} in this choice${group.translation ? " and the matching translated text" : ""}.</p>
+    </div>
+    <div class="dl-fallback">
+    <h4 class="dl-fallback-title">Manual download${group.downloads.length > 1 ? "s" : ""}</h4>${group.downloads.length > 1 ? `<p class="dl-fallback-note">Install all ${group.downloads.length} ZIPs for this choice. The table shows their total compressed download size.</p>` : ""}<ul class="dl-files">${group.downloads.map(f => fileLink(f, f.id !== group.id)).join("")}</ul>
+    </div>
+    ${alternatives.length ? `<details class="dl-alternatives">
+    <summary>Individual alternatives</summary>
+    <ul class="dl-files">${alternatives.map(f => fileLink(f)).join("")}</ul>
+    </details>` : ""}`;
+  const action = included ? `<a class="dl-included-chip" href="#addon">Included with add-on</a>` : `<details class="dl-install-choice" name="voice-install"${group.preferred ? ` data-preferred="${escape(group.preferred)}"` : ""}>
+    <summary class="btn-small" aria-label="Get ${escape(group.language)} ${escape(name)} voice pack">Get voice pack</summary>
+    <div class="dl-install-panel">
+    <h3>${escape(group.language)} &middot; ${escape(name)}</h3>
+    <p>${group.clips ? group.clips.toLocaleString("en-US") + " available recordings." : "Recording count unavailable."} Other entries remain readable as text.</p>${group.translation ? `<p>${escape(group.translation.name)} text ${group.translation.included ? "is included with the main add-on." : "comes with this voice choice."}</p>` : ""}${curseforgeChoices(v, group)}${manual}<p>
+    <a href="#install">Install help</a> &middot; Pick the voice in game with <code>/lore voice</code>.</p>
+    </div>
+    </details>`;
+  return `<tr class="dl-voice dl-choice${included ? " dl-choice-included" : ""}" id="${escape(group.id)}" data-recording data-voice="${escape(group.extra ? group.id : v.id)}" data-voice-name="${escape(name)}" data-language="${escape(group.language)}">
+    <td data-label="Language">
+    ${languageAnchor ? `<span id="lang-${escape(languageAnchor)}"></span>` : ""}
+    <strong>${escape(group.language)}</strong>
+    <small class="dl-text-note">${group.language === "English" ? "English text" : group.translation ? "Matching translated text" : "Text availability varies"}</small>
+    </td>
+    <td data-label="Voice">
+    <div class="dl-voice-head">${group.language === (v.language || "English") && !group.extra ? playButton(v) : ""}<div>
+    <a class="dl-narrator" href="/voices/${escape(v.id)}">${escape(name)}</a>
+    <small class="dl-sub">by ${escape(v.contributor?.name || v.credit || "Community narrator")}</small>
+    </div>
+    </div>
+    ${likes && !group.extra ? likeButton(v, likes[v.id]) : ""}</td>
+    <td data-label="Recordings">
+    <span class="dl-recording-count">${group.clips ? group.clips.toLocaleString("en-US") : "Count unavailable"}</span>
+    <small>Partial coverage</small>
+    </td>
+    <td data-label="Download size">${size}</td>
+    <td class="dl-choice-action">${action}</td>
+    </tr>`;
 }
-
-// The "what's inside" line under the main download: the voices and languages that come with it.
-export function includedLine(voices, packs) {
-  const v = voices.filter(x => x.included && x.status === "live")
-    .map(x => `the ${escape(x.name.replace(/^Lore Forever /, ""))}${x.clips ? ` (${plural(x.clips, "narration", "narrations")})` : ""}`);
-  const langs = ["English", ...packs.filter(p => p.included).map(p => escape(p.name))];
-  const list = arr => arr.length > 1 ? arr.slice(0, -1).join(", ") + " and " + arr[arr.length - 1] : arr[0] || "";
-  return `Comes with the whole lore library in ${list(langs)}${v.length ? `, and ${list(v)}` : ""}.`;
+export function voiceBlock(v, likes, packs = []) { return voiceChoices(v, packs).map(group => choiceRow(v, group, likes)).join("\n"); }
+export function voicesSection(voices, likes, packs = []) {
+  const choices = voices.filter(v => v.status === "live" && validId(v.id)).flatMap(v => voiceChoices(v, packs).map(group => ({ v, group })));
+  choices.sort((a, b) => (a.group.language === b.group.language ? 0 : a.group.language === "English" ? -1 : b.group.language === "English" ? 1 : a.group.language.localeCompare(b.group.language)) || Number(b.group.included) - Number(a.group.included) || a.v.name.localeCompare(b.v.name));
+  const languages = new Set();
+  return choices.map(({ v, group }) => {
+    const locale = group.translation?.locale;
+    const anchor = /^[a-z]{2}[A-Z]{2}$/.test(locale || "") && !languages.has(locale) ? locale : "";
+    if (anchor) languages.add(anchor);
+    return choiceRow(v, group, likes, anchor);
+  }).join("\n");
+}
+export function languagesSection() { return `<p class="dl-intro">Matching translations are shown with their voices above. Lore Forever follows your WoW client\'s language. Change it under Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Language, or type <code>/lore lang</code>.</p>`; }
+export function includedLine(voices) {
+  const included = voices.filter(v => v.included && v.status === "live");
+  return `English text and ${list(included.map(v => `${escape(v.name.replace(/^Lore Forever /, ""))}${count(v.clips) ? ` (${v.clips.toLocaleString("en-US")} recordings)` : ""}`)) || "English male narration"} come with the main add-on.`;
 }

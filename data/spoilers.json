@@ -2391,8 +2391,7 @@
  "npc:zarrin": {},
  "npc:zenn-foulhoof": {
   "faq": {
-   "2": 1,
-   "3": 1
+   "2": 1
   }
  },
  "npc:zevrost": {},
@@ -5672,7 +5671,6 @@
  "subzone:balnir-farmstead": {},
  "subzone:ban-ethil-barrow-den": {},
  "subzone:ban-ethil-hollow": {},
- "subzone:ban-thallow-barrow-den": {},
  "subzone:bandarion-keep": {},
  "subzone:baradin-bay": {},
  "subzone:bashal-aran": {},
@@ -5830,7 +5828,6 @@
  "subzone:dabyrie-s-farmstead": {},
  "subzone:dagger-hills": {},
  "subzone:dalaran": {},
- "subzone:dalson-s-farm": {},
  "subzone:dalson-s-tears": {
   "faq": {
    "4": 1
@@ -5976,7 +5973,6 @@
  "subzone:forest-song": {},
  "subzone:forge-grounds": {},
  "subzone:forgotten-coast": {},
- "subzone:forgotten-crypt": {},
  "subzone:forgotten-pool": {},
  "subzone:forgotten-pools": {},
  "subzone:forlorn-cavern": {},
@@ -6322,7 +6318,6 @@
  "subzone:northwatch-foothold": {},
  "subzone:noxious-glade": {},
  "subzone:noxious-lair": {},
- "subzone:okril-lon-hold": {},
  "subzone:old-barracks": {},
  "subzone:old-ironforge": {},
  "subzone:old-port-authority": {},
@@ -6395,7 +6390,6 @@
  "subzone:render-s-valley": {},
  "subzone:rethban-caverns": {},
  "subzone:ridgepoint-tower": {},
- "subzone:road-warrior": {},
  "subzone:rockpool-village": {},
  "subzone:rocktusk-farm": {},
  "subzone:roguefeather-den": {},
@@ -6419,7 +6413,6 @@
  },
  "subzone:ruins-of-alterac": {},
  "subzone:ruins-of-andorhal": {},
- "subzone:ruins-of-auberdine": {},
  "subzone:ruins-of-constellas": {},
  "subzone:ruins-of-eldarath": {},
  "subzone:ruins-of-isildien": {},
@@ -6429,7 +6422,6 @@
  "subzone:ruins-of-mathystra": {},
  "subzone:ruins-of-ordil-aran": {},
  "subzone:ruins-of-ravenwind": {},
- "subzone:ruins-of-southshore": {},
  "subzone:ruins-of-stardust": {},
  "subzone:ruins-of-thaurissan": {},
  "subzone:ruins-of-the-scarlet-enclave": {},
@@ -6459,11 +6451,9 @@
  "subzone:scarlet-monastery-library": {},
  "subzone:scarlet-raven-tavern": {},
  "subzone:scarlet-watch-post": {},
- "subzone:scarlet-watchtower": {},
  "subzone:scholomance": {},
  "subzone:scholomance-classic": {},
  "subzone:screaming-gully": {},
- "subzone:screaming-reaches": {},
  "subzone:scuttle-coast": {},
  "subzone:sea-of-cinders": {},
  "subzone:sen-jin-village": {},
@@ -6527,14 +6517,12 @@
   }
  },
  "subzone:slither-rock": {},
- "subzone:slitherblade-shore": {},
  "subzone:slithering-scar": {},
  "subzone:sludge-fen": {},
  "subzone:sludge-fields": {},
  "subzone:sludgewerks": {},
  "subzone:solliden-farmstead": {},
  "subzone:sorrow-hill": {},
- "subzone:sorrow-hill-crypt": {},
  "subzone:sorrowmurk": {},
  "subzone:south-gate-outpost": {},
  "subzone:south-gate-pass": {},

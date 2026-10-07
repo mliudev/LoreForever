@@ -128,7 +128,7 @@ function fromRecord(d) {
 // plus the game IDs (e.id: a quest's; e.qid: the quest an item rewarded) and how a place was reached (e.how).
 const STANDINGS = ["Hated", "Hostile", "Unfriendly", "Neutral", "Friendly", "Honored", "Revered", "Exalted"];
 function fromJourney(j) {
-  const tz = (Number.isInteger(j?.tz) ? j.tz : 0) * 60;
+  const offset = value => Number.isInteger(value) && Math.abs(value) <= 840 ? value : null;
   const out = [];
   for (const m of Array.isArray(j?.moments) ? j.moments : []) {
     if (!m || typeof m !== "object" || !Number.isInteger(m.t)) continue;
@@ -146,6 +146,7 @@ function fromJourney(j) {
     }[m.k];
     if (!entry) continue;
     const [k, e] = entry();
+    const tz = (offset(m.tz) ?? offset(j?.tz) ?? 0) * 60;
     out.push({ k, e, t: m.t, day: new Date((m.t + tz) * 1000).toISOString().slice(0, 10) });
   }
   return out;

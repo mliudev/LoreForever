@@ -1,6 +1,6 @@
 {
-  "english": "2026-10-05 16:52 UTC",
-  "updated": "2026-10-05",
+  "english": "2026-10-06 19:46 UTC",
+  "updated": "2026-10-06",
   "languages": [
     {
       "locale": "deDE",
@@ -10,21 +10,21 @@
       "coverage": {
         "percent": 100.0,
         "strings": [
-          94279,
-          94300
+          93813,
+          93822
         ],
         "ui": [
-          671,
-          671
+          687,
+          696
         ],
         "entries": [
-          3963,
-          3964
+          3941,
+          3941
         ]
       },
       "kit": "/translate/kits/deDE.zip",
-      "kitSize": 10666223,
-      "kitSha256": "18ec953551e674a916fc41b2458363ee7c4028376fca81d15a5231d6bd4e6531",
+      "kitSize": 10601369,
+      "kitSha256": "4dbe657e43f104da1c3df40e2cee59f2e6d663365a2a5f4c5f80718923560b42",
       "hasText": true
     },
     {
@@ -35,21 +35,21 @@
       "coverage": {
         "percent": 100.0,
         "strings": [
-          94261,
-          94300
+          93813,
+          93822
         ],
         "ui": [
-          671,
-          671
+          687,
+          696
         ],
         "entries": [
-          3963,
-          3964
+          3941,
+          3941
         ]
       },
       "kit": "/translate/kits/frFR.zip",
-      "kitSize": 10396209,
-      "kitSha256": "81f2f8c7df8073f4734d518a97aa63b1696cda75f1e52d3e082bc4a491a3723d",
+      "kitSize": 10330227,
+      "kitSha256": "c328b7e16db3df1813fad1003cc709f33ccb5fec2692cc3da7872e2ab51b92e2",
       "hasText": true
     },
     {
@@ -58,23 +58,23 @@
       "englishName": "Spanish (Spain)",
       "reviewed": false,
       "coverage": {
-        "percent": 99.5,
+        "percent": 100.0,
         "strings": [
-          93783,
-          94300
+          93813,
+          93822
         ],
         "ui": [
-          671,
-          671
+          687,
+          696
         ],
         "entries": [
-          3963,
-          3964
+          3941,
+          3941
         ]
       },
       "kit": "/translate/kits/esES.zip",
-      "kitSize": 10312680,
-      "kitSha256": "db9bf16b8616b8ffe0ee2b81ab7b87be47574ea0e8529fd41f29305adde4fba7",
+      "kitSize": 10268447,
+      "kitSha256": "112d32d1cf5a36a891dc6015ae600c6a8b0ff10bd55421ce545c4f52471b1d87",
       "hasText": true
     },
     {
@@ -85,21 +85,21 @@
       "coverage": {
         "percent": 0.0,
         "strings": [
-          35,
-          94300
+          60,
+          93822
         ],
         "ui": [
           28,
-          671
+          696
         ],
         "entries": [
           1,
-          3964
+          3941
         ]
       },
       "kit": "/translate/kits/esMX.zip",
-      "kitSize": 4974899,
-      "kitSha256": "973bb4a35e54c06bc86e6a020f79c967796b79066638994b09a50ea050615af0",
+      "kitSize": 4945006,
+      "kitSha256": "8497922821c38d425697414cac27eee6668f77b08b5ab4373d09ad28afc59eb6",
       "hasText": true
     },
     {
@@ -110,21 +110,21 @@
       "coverage": {
         "percent": 100.0,
         "strings": [
-          94279,
-          94300
+          93813,
+          93822
         ],
         "ui": [
-          671,
-          671
+          687,
+          696
         ],
         "entries": [
-          3963,
-          3964
+          3941,
+          3941
         ]
       },
       "kit": "/translate/kits/ptBR.zip",
-      "kitSize": 10229984,
-      "kitSha256": "63a39256e440cd45ad8ec0dac3f3ffefdc2bc522a4ba6e93d746e29727c3d385",
+      "kitSize": 10164875,
+      "kitSha256": "451c24ffc3ce8709666b94baf76a3e6e76fe49c29c047391861136eca45361bd",
       "hasText": true
     },
     {
@@ -136,20 +136,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          94300
+          93822
         ],
         "ui": [
           0,
-          671
+          696
         ],
         "entries": [
           0,
-          3964
+          3941
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 4973315,
-      "kitSha256": "2a071a4eedb412026abe37c9ef538eb9e15aaf30dbfcd54f0c9e42092ccde205",
+      "kitSize": 4942147,
+      "kitSha256": "773c77db70e31182f2d73076ced290880a84bec9cfb34120223a1a5f13657426",
       "hasText": false
     },
     {
@@ -161,20 +161,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          94300
+          93822
         ],
         "ui": [
           0,
-          671
+          696
         ],
         "entries": [
           0,
-          3964
+          3941
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 4973315,
-      "kitSha256": "2a071a4eedb412026abe37c9ef538eb9e15aaf30dbfcd54f0c9e42092ccde205",
+      "kitSize": 4942147,
+      "kitSha256": "773c77db70e31182f2d73076ced290880a84bec9cfb34120223a1a5f13657426",
       "hasText": false
     },
     {
@@ -186,20 +186,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          94300
+          93822
         ],
         "ui": [
           0,
-          671
+          696
         ],
         "entries": [
           0,
-          3964
+          3941
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 4973315,
-      "kitSha256": "2a071a4eedb412026abe37c9ef538eb9e15aaf30dbfcd54f0c9e42092ccde205",
+      "kitSize": 4942147,
+      "kitSha256": "773c77db70e31182f2d73076ced290880a84bec9cfb34120223a1a5f13657426",
       "hasText": false
     },
     {
@@ -211,20 +211,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          94300
+          93822
         ],
         "ui": [
           0,
-          671
+          696
         ],
         "entries": [
           0,
-          3964
+          3941
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 4973315,
-      "kitSha256": "2a071a4eedb412026abe37c9ef538eb9e15aaf30dbfcd54f0c9e42092ccde205",
+      "kitSize": 4942147,
+      "kitSha256": "773c77db70e31182f2d73076ced290880a84bec9cfb34120223a1a5f13657426",
       "hasText": false
     },
     {
@@ -236,20 +236,20 @@
         "percent": 0.0,
         "strings": [
           0,
-          94300
+          93822
         ],
         "ui": [
           0,
-          671
+          696
         ],
         "entries": [
           0,
-          3964
+          3941
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 4973315,
-      "kitSha256": "2a071a4eedb412026abe37c9ef538eb9e15aaf30dbfcd54f0c9e42092ccde205",
+      "kitSize": 4942147,
+      "kitSha256": "773c77db70e31182f2d73076ced290880a84bec9cfb34120223a1a5f13657426",
       "hasText": false
     }
   ]

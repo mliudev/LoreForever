@@ -498,6 +498,9 @@ export function readJourney(input, data = null, now = new Date()) {
     const t = int(m.t, EARLIEST, latest);
     if (t === null) continue;
     const e = { t, k: m.k };
+    // A history projection retains the offset captured with each event; older snapshots use the envelope offset.
+    const tz = int(m.tz, -840, 840);
+    if (tz !== null) e.tz = tz;
     for (const key of ["z", "s", "n"]) {
       const v = typeof m[key] === "string" ? tidy(m[key]) : "";
       if (v) e[key] = v;

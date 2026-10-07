@@ -16,7 +16,7 @@
   },
   {
    "title": "Hub of Trade and Command",
-   "body": "Beyond its defensive significance, the valley functions as the capital's foremost marketplace. Armories such as Naros' provide blacksmithing anvils and raw ore, while various vendors supply provisions for long treks across the Barrens. Grunts stand vigilant watch at every corner, directing newcomers and ensuring order among the diverse peoples who have taken refuge beneath Thrall's banner.",
+   "body": "Beyond its defensive significance, the valley functions as the capital's foremost marketplace. Shops such as Soran's Leather and Steel Armory sell armor, while various vendors supply provisions for long treks across the Barrens. Grunts stand vigilant watch at every corner, directing newcomers and ensuring order among the diverse peoples who have taken refuge beneath Thrall's banner.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "vendors valley of strength",
     "what's here"
    ],
-   "answer": "The valley houses the city's primary bank, the auction house, trade supplies, blacksmithing and mining trainers at Naros' Armory, lodging at the Broken Tusk, and general trade goods."
+   "answer": "The valley houses the city's primary bank, the auction house, trade supplies, armor merchants at Soran's Leather and Steel Armory, lodging at the Broken Tusk, and general trade goods."
   },
   {
    "q": "Who guards the Valley of Strength?",
@@ -61,11 +61,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As the primary plaza inside Orgrimmar's gates, the Valley of Strength is the first place Horde travelers meet to trade, recruit for expeditions, and pay respects before the seat of the Warchief."
-  },
-  {
-   "target": "profession:Blacksmithing",
-   "text": "Naros' Armory in the valley provides anvils, forges, and skilled training for smiths outfitting the warriors of the Horde."
+   "text": "As the primary plaza inside Orgrimmar's gates, the Valley of Strength is the first place Horde travelers meet to trade, recruit for expeditions."
   }
  ],
  "keywords": [

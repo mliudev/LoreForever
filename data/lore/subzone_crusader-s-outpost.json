@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Crusader's Outpost"
  },
- "summary": "Crusader's Outpost is a fortified scout tower manned by the Scarlet Crusade in western Tirisfal Glades, standing along the Scarlet Palisade. Situated adjacent to the Solliden Farmstead, it serves as the Crusade's westernmost position in all of Lordaeron. Its perilous distance from the main Scarlet bastions leaves its garrison isolated in the heart of hostile Forsaken territory.",
+ "summary": "Crusader's Outpost is a fortified scout tower manned by the Scarlet Crusade in western Tirisfal Glades. Situated adjacent to the Solliden Farmstead, it serves as the Crusade's westernmost position in all of Lordaeron. Its perilous distance from the main Scarlet bastions leaves its garrison isolated in the heart of hostile Forsaken territory.",
  "sections": [
   {
    "title": "A Lonely Watchtower",
-   "body": "Perched inside the Scarlet Palisade just west of Deathknell, this stone tower represents the farthest reach of the Scarlet Crusade's power in Lordaeron. The garrison stationed here works in tandem with the surviving human laborers of the nearby Solliden Farmstead, attempting to hold back the encroaching undead. From the top of the tower, lookouts keep watch over the surrounding pumpkin fields and forest paths, vigilant against both roaming Scourge fiends and patrols from the Undercity.",
+   "body": "Perched inside the western Tirisfal hills just west of Deathknell, this stone tower represents the farthest reach of the Scarlet Crusade's power in Lordaeron. The garrison stationed here works in tandem with the surviving human laborers of the nearby Solliden Farmstead, attempting to hold back the encroaching undead. From the top of the tower, lookouts keep watch over the surrounding pumpkin fields and forest paths, vigilant against both roaming Scourge fiends and patrols from the Undercity.",
    "spoiler": 0
   },
   {
@@ -28,7 +28,7 @@
     "scarlet crusaders tirisfal west",
     "crusader outpost purpose"
    ],
-   "answer": "The tower serves as an early warning post and defensive fortification along the Scarlet Palisade. It protects the living human farmers at Solliden Farmstead and watches the western approaches against both feral Scourge and Forsaken advance scouts."
+   "answer": "The tower serves as an early warning post and defensive fortification along the western Tirisfal hills. It protects the living human farmers at Solliden Farmstead and watches the western approaches against both feral Scourge and Forsaken advance scouts."
   },
   {
    "q": "Can reinforcements reach this outpost if it gets attacked?",
@@ -70,7 +70,6 @@
  "keywords": [
   "crusader's outpost",
   "scarlet crusade",
-  "scarlet palisade",
   "scout tower",
   "solliden farmstead",
   "tirisfal glades",

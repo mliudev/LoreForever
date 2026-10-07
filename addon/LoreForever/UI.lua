@@ -1493,6 +1493,10 @@ function UI.AddMessage(role, text, target, actionLabel, rows, log, subject, link
   local animate = role == "lore" and settings().typing ~= false
   table.insert(UI.msgs, { role = role, text = text, target = target, actionLabel = actionLabel, animate = animate,
     rows = rows, log = log, subject = subject, linked = linked and #linked > 0 and linked or nil })
+  if ns.HistoryArchive and ns.HistoryArchive.On() and (role == "user" or role == "lore" or role == "note") then
+    UI.historyId = UI.historyId or ns.HistoryArchive.ChatId()
+    ns.HistoryArchive.Record("account", "chat_message", { chatId = UI.historyId, message = UI.msgs[#UI.msgs] })
+  end
   local lines = {}
   for i, r in ipairs(rows or {}) do lines[#lines + 1] = i .. ". " .. esc(r.name) .. " " .. esc(r.hook or "") end
   table.insert(UI.blocks, #lines > 0 and (text .. "\n" .. table.concat(lines, "\n")) or text)
@@ -3523,8 +3527,9 @@ function UI.Archive()
     if UI.historyId and store[i].id == UI.historyId then table.remove(store, i) end
   end
   UI.historyId = UI.historyId or (time() .. "-" .. math.random(1000, 9999))
-  table.insert(store, 1, { id = UI.historyId, t = time(), zone = ctx.subzone or ctx.zone, title = title:sub(1, 60),
-    msgs = msgs })
+  local chat = { id = UI.historyId, t = time(), zone = ctx.subzone or ctx.zone, title = title:sub(1, 60), msgs = msgs }
+  if ns.HistoryArchive then ns.HistoryArchive.Record("account", "chat", { chat = chat, revision = "saved" }, chat.t) end
+  table.insert(store, 1, chat)
   while #store > MAX_HISTORY do table.remove(store) end
 end
 
@@ -3988,6 +3993,7 @@ function UI.Ask(question, via)
     for _, s in ipairs(UI.engine:Suggest(ctx, N_NEXT - #items)) do items[#items + 1] = s end
     UI.SetNext(items, L["Try:"])
   end
+  if ns.HistoryArchive then ns.HistoryArchive.Question(log, "shown") end
 end
 
 function UI.ShowFaq(key, idx, via)
@@ -4108,7 +4114,7 @@ end
 -- quest or using an unchecked recording. A stale button or missing/rewritten page has nothing to play.
 function UI.QuestLogTarget(qid)
   local QL, V = _G.C_QuestLog, ns.Voice
-  if not (qid and QL and QL.GetSelectedQuest) or V.Current() == "none" then return nil end
+  if not V.QuestDialogue() or not (qid and QL and QL.GetSelectedQuest) or V.Current() == "none" then return nil end
   local ok, selected = pcall(QL.GetSelectedQuest)
   if not (ok and selected == qid) then return nil end
   local desc, obj, sure = logText(qid)
@@ -4134,7 +4140,7 @@ end
 -- checks no words (tooltips and the +, UI.CanQueueQuest).
 function UI.QuestPageClip(qid, kind, peek)
   local V = ns.Voice
-  if not qid or V.Current() == "none" then return nil end
+  if not qid or not V.QuestDialogue() or V.Current() == "none" then return nil end
   if peek then return V.QuestClip(qid, kind, nil, true, true) end
   local QF = _G.QuestFrame
   if QF and QF:IsShown() and V.questKind == kind and GetQuestID and GetQuestID() == qid then
