@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Whelgar's Excavation Site"
  },
- "summary": "Whelgar's Excavation Site is a dwarven archaeological dig in the eastern hills of the Wetlands. Intended to unearth ancient Titan relics and prehistoric secrets, the expedition ended in disaster when vicious mottled raptors overran the quarry. The surviving excavators are now trapped on a ridge overlooking the dig, cut off from their findings.",
+ "summary": "Whelgar's Excavation Site is a dwarven archaeological dig in the western foothills of the Wetlands. Intended to unearth ancient Titan relics and prehistoric secrets, the expedition ended in disaster when vicious mottled raptors overran the quarry. The surviving excavators are now trapped on a ridge overlooking the dig, cut off from their findings.",
  "sections": [
   {
    "title": "A Ruined Expedition",
@@ -41,7 +41,7 @@
     "digsite mobs",
     "raptors in wetlands"
    ],
-   "answer": "The quarry floor and surrounding ridges are swarming with mottled raptors, including the feared raptor matriarch Sarltooth."
+   "answer": "The quarry floor and surrounding ridges are swarming with mottled raptors, including the feared raptor Sarltooth."
   },
   {
    "q": "Where did the surviving excavators go?",
@@ -73,7 +73,6 @@
   "whelgar"
  ],
  "related": [
-  "subzone:whelgar-s-retreat",
   "zone:wetlands",
   "subzone:menethil-harbor",
   "subzone:dun-modr"

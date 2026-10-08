@@ -56,7 +56,7 @@
     "is it goblin tech",
     "gnome or goblin device"
    ],
-   "answer": "It was installed inside a goblin shredder utilized by the Defias Brotherhood, yet its precise name and the gnomes' specific interest imply it was either designed by gnomes, modified with gnomish schematics, or ideally compatible with gnomish machinery."
+   "answer": "It is recovered from a functional goblin shredder in the Deadmines, and Shoni plans to use its power supply in gnomish drilling machinery. The source does not identify who originally designed the component."
   }
  ],
  "angles": [
@@ -66,7 +66,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "The sprocket is a marvel of miniaturized power generation, capable of converting crude combustion into the torque needed for massive boring drills."
+   "text": "The sprocket is an intact power supply capable of powering the machinery needed to bore through Gnomeregan's rocky underground borders."
   }
  ],
  "keywords": [

@@ -10,11 +10,11 @@
    "quest:509"
   ]
  },
- "summary": "Mudsnout Blossoms are pungent, toxic fungal growths found sprouting in Nethander Stead in the Hillsbrad Foothills. Guarded by local gnolls and harvested by the Royal Apothecary Society, these foul mushrooms are deadly to the living while surprisingly invigorating to the undead.",
+ "summary": "Mudsnout Blossoms are pungent, toxic fungal growths found sprouting in Nethander Stead in the Hillsbrad Foothills. Guarded by local gnolls and harvested by the Royal Apothecary Society, these foul mushrooms are used in Apothecary Lydon's elixir research.",
  "sections": [
   {
    "title": "A Toxic Fungus",
-   "body": "Despite their floral name, Mudsnout Blossoms are actually large, foul-smelling mushrooms that flourish primarily in the soiled dirt of Nethander Stead, south of Tarren Mill. They grow amidst the camps of the local Mudsnout gnolls, who defend the territory fiercely. To living organisms, the spores and flesh of the mushroom act as a virulent poison, causing agony and rapid biological deterioration. However, their necrotic nature interacts differently with unlife, granting a rejuvenating reaction to undead bodies.",
+   "body": "Despite their floral name, Mudsnout Blossoms are actually large, foul-smelling mushrooms that flourish primarily in the soiled dirt of Nethander Stead, south of Tarren Mill. They grow amidst the camps of the local Mudsnout gnolls, who defend the territory fiercely. To living organisms, the spores and flesh of the mushroom act as a virulent poison, causing agony and rapid biological deterioration.",
    "spoiler": 0
   },
   {
@@ -52,19 +52,18 @@
    "answer": "Apothecary Lydon in Tarren Mill requires them to brew the Elixir of Agony. The Forsaken are researching toxins to help craft a new plague capable of wiping out both the living and the Scourge."
   },
   {
-   "q": "What effects does the blossom have on the living versus the undead?",
+   "q": "What does the Royal Apothecary Society use the blossoms for?",
    "aliases": [
-    "is mudsnout blossom poisonous",
-    "mudsnout mushroom effects",
-    "are mudsnout blossoms deadly"
+    "mudsnout blossom experiments",
+    "mudsnout blossom elixir use"
    ],
-   "answer": "The blossoms are acutely toxic and destructive to living flesh and organs, yet their unnatural properties provide a restorative boost to undead physiology."
+   "answer": "Apothecary Lydon gathers the foul-smelling mushrooms for his next elixir, as part of the Forsaken's research into disease and poisons."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Forsaken make extensive use of the blossom's toxic properties, harvesting it to refine biochemical weapons for the Royal Apothecary Society while benefiting from its strange restorative effect on dead tissue."
+   "text": "The Forsaken make extensive use of the blossom's toxic properties, harvesting it to refine biochemical weapons for the Royal Apothecary Society."
   },
   {
    "target": "profession:Herbalism",

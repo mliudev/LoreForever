@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "Creatures of the Shallows",
-   "body": "Murlocs dwell in densely populated settlements along coastlines, riverbanks, and freshwater lakes. Averaging roughly four feet in height, they possess bulbous, slime-coated bodies, wide mouths filled with sharp fangs, and keen vision capable of piercing pitch-black water. While individuals are rarely seen wandering far from their kin, encountering one murloc invariably means a dozen more lurk just beneath the surface. They rely on overwhelming numbers and sharp crude weaponry, their villages tied together by scent glands producing pungent pheromones that can whip the tribe into an instant, bloodthirsty frenzy.",
+   "body": "Murlocs dwell in densely populated settlements along coastlines, riverbanks, and freshwater lakes. Averaging roughly four feet in height, they possess bulbous, slime-coated bodies, wide mouths filled with sharp fangs, and keen vision capable of piercing pitch-black water. While individuals are rarely seen wandering far from their kin, encountering one murloc invariably means a dozen more lurk just beneath the surface. They rely on overwhelming numbers and sharp crude weaponry.",
    "spoiler": 0
   },
   {
    "title": "The Inland March",
-   "body": "Though ancient lineages suggest murlocs have existed beneath the waves since before recorded history, their widespread encroachment onto the landmasses of Lordaeron and Kalimdor is relatively recent. Historians note that this inland migration coincided suspiciously with the reemergence of the serpentine naga from the ocean depths. While some murloc tribes have been violently subjugated or sacrificed by the naga, others appear to worship deep-sea monstrosities waiting in the oceanic fathoms. Whether fleeing darker terrors or preparing the world for their masters' awakening, their coordinated movement into freshwaters poses a rising threat.",
+   "body": "Though ancient lineages suggest murlocs have existed beneath the waves since before recorded history, their widespread encroachment onto the landmasses of Lordaeron and Kalimdor is relatively recent. Historians note that this inland migration coincided suspiciously with the reemergence of the serpentine naga from the ocean depths. Some tribes appear to worship deep-sea monstrosities waiting in the oceanic fathoms. Whether fleeing darker terrors or preparing the world for their masters' awakening, their coordinated movement into freshwaters poses a rising threat.",
    "spoiler": 0
   },
   {
@@ -33,7 +33,7 @@
     "why do murlocs group up",
     "murloc aggro"
    ],
-   "answer": "Murlocs rarely fight alone. They live in tight-knit, crowded settlements and utilize natural scent glands that release potent pheromones during combat. The scent acts as a communal alarm, whipping nearby tribe members into an immediate, violent frenzy to swarm and overwhelm intruders."
+   "answer": "Murlocs rarely fight alone. They live in tight-knit, crowded settlements and respond in groups to intruders, swarming enemies with overwhelming numbers."
   },
   {
    "q": "Are murlocs actually intelligent?",
@@ -51,7 +51,7 @@
     "murloc migration",
     "why are murlocs everywhere"
    ],
-   "answer": "Originally creatures of the ocean floor, murlocs have steadily advanced into freshwater lakes and riverbeds. Historians suspect this migration was triggered by the resurgence of the naga, who enslave or drive out coastal tribes, or by deep-sea entities slumbering in the abyss whose awakening commands murlocs to secure the land."
+   "answer": "Originally creatures of the ocean floor, murlocs have steadily advanced into freshwater lakes and riverbeds. Historians suspect this migration was triggered by the resurgence of the naga or by deep-sea entities slumbering in the abyss whose awakening commands murlocs to secure the land."
   },
   {
    "q": "How did murlocs help form the Horde?",
@@ -63,13 +63,13 @@
    "answer": "During the Third War, a tribe of murlocs serving the sea witch Zar'jira ambushed the Darkspear trolls on their island home. Warchief Thrall and his orc warriors fought alongside Sen'jin to defend the trolls. This battle forged the unbreakable bond between orcs and the Darkspear tribe, laying the foundation of the modern Horde."
   },
   {
-   "q": "Can murlocs be raised as undead?",
+   "q": "What are mur'gul?",
    "aliases": [
-    "undead murlocs",
-    "mur'ghoul",
-    "scourge murlocs"
+    "mur'gul",
+    "warcraft iii murlocs",
+    "murgul identity"
    ],
-   "answer": "Yes. Interestingly, Forsaken researchers have observed that certain undead murlocs appear to retain a degree of free will, suggesting an unusual, innate resistance to the Lich King's mental dominance."
+   "answer": "Mur'gul are murlocs encountered during the Third War. Despite their strange appearance and name, they are living creatures."
   },
   {
    "q": "What is that iconic sound murlocs make?",
@@ -97,17 +97,12 @@
   {
    "target": "class:Shaman",
    "text": "Murloc mystics possess an innate, if crude, connection to water and earth elementals, bending the local spirits to bolster their shoreline villages."
-  },
-  {
-   "target": "race:Undead",
-   "text": "Royal Apothecary Society researchers study undead murlocs, noting their peculiar capacity to retain free will outside the Scourge's iron grasp."
   }
  ],
  "keywords": [
   "brann bronzebeard",
   "coastal",
   "fin",
-  "mur'ghoul",
   "mur'gul",
   "murloc",
   "rwlrwlrwl",

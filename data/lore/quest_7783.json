@@ -74,12 +74,12 @@
    "answer": "Yes, Alliance heroes complete a matching quest also named 'The Lord of Blackrock', delivering the head of Nefarian to Highlord Bolvar Fordragon in Stormwind Keep to grant their city the same blessing."
   },
   {
-   "q": "What does Thrall mean by 'the evil one stirs'?",
+   "q": "Why is Deathwing a concern?",
    "aliases": [
     "evil one stirs",
     "who is the evil one"
    ],
-   "answer": "He is referring to Deathwing, the Aspect of Death and patriarch of the Black Dragonflight. Though long vanished and believed dead or hidden by many, Thrall fears that slaying Deathwing's powerful offspring will eventually draw the attention of the dread dragonfather."
+   "answer": "Deathwing is Nefarian's father and the patriarch of the black dragonflight. Defeating his son does not remove the danger posed by the dragonfather."
   },
   {
    "q": "Where does the head come from?",
@@ -109,13 +109,13 @@
   "blackwing lair",
   "deathwing",
   "dragonslayer",
-  "eitrigg",
+  "thrall",
   "nefarian",
   "orgrimmar",
   "rallying cry"
  ],
  "related": [
-  "npc:eitrigg",
+  "npc:thrall",
   "zone:orgrimmar",
   "topic:horde",
   "npc:deathwing",

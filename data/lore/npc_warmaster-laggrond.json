@@ -38,7 +38,7 @@
     "laggrond purpose",
     "why talk to laggrond"
    ],
-   "answer": "He serves as a recruitment officer and battlemaster for the Horde's Alterac Valley war effort, assessing recruits through initial combat trials and rewarding those who achieve standing with the Frostwolf clan."
+   "answer": "He serves as a recruitment officer for the Horde's Alterac Valley war effort, assessing recruits through initial combat trials and rewarding those who achieve standing with the Frostwolf clan."
   },
   {
    "q": "What is the Proving Grounds quest?",
@@ -46,7 +46,7 @@
     "proving grounds horde",
     "laggrond initial quest"
    ],
-   "answer": "The Proving Grounds is the trial given by Laggrond to prospective fighters, directing them into the valley to prove their capability in battle before they fully join the clan's campaigns."
+   "answer": "Laggrond asks prospective recruits to retrieve a Frostwolf banner from the Wildpaw Den in Alterac Valley. This proves their resourcefulness before joining the campaign."
   },
   {
    "q": "Why is the Horde fighting in Alterac Valley?",
@@ -56,15 +56,6 @@
     "alterac valley conflict"
    ],
    "answer": "The Frostwolf clan has long claimed the valley as their home after being exiled during the First War. The Stormpike Guard, an Alliance dwarven expedition, has pushed into the region searching for relics and territory, sparking a bitter territorial war."
-  },
-  {
-   "q": "Does Warmaster Laggrond offer reputation rewards?",
-   "aliases": [
-    "frostwolf reputation turn in",
-    "rise and be recognized",
-    "laggrond rep"
-   ],
-   "answer": "Yes. As you earn renown fighting beside the Frostwolves, Laggrond provides successive honors, acknowledging warriors as they advance from recognized fighters to exalted legends of the valley."
   },
   {
    "q": "Can Alliance players interact with Warmaster Laggrond?",

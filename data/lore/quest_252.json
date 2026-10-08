@@ -38,7 +38,7 @@
     "abercrombie letter text",
     "what was translated"
    ],
-   "answer": "The letter details Abercrombie's bitter vengeance against Darkshire and Lord Ello Ebonlocke. It reveals that the reagents and materials gathered by unsuspecting travelers were used to assemble and animate Stitches, a massive undead abomination unleashed to destroy the town."
+   "answer": "Sirra fears that Abercrombie has done something unspeakable. The translated letter must be taken urgently to Lord Ello Ebonlocke, who can assess the danger to Darkshire."
   },
   {
    "q": "Who is Sirra Von'Indi?",
@@ -55,7 +55,7 @@
     "did i cause stitches",
     "ello reaction"
    ],
-   "answer": "Lord Ello Ebonlocke reacts with horror because every task completed for the seemingly helpless hermit\u2014fetching thread, ghoul ribs, and embalming supplies\u2014directly facilitated the creation of Stitches. Although done out of charity, those errands effectively handed the mad embalmer the pieces he needed to construct his weapon."
+   "answer": "Lord Ello's reaction is revealed when he reads the translated letter. The investigation asks you to bring him the warning as quickly as possible."
   },
   {
    "q": "What happens immediately after completing this quest?",
@@ -64,7 +64,7 @@
     "does stitches spawn",
     "stitches event"
    ],
-   "answer": "Handing the translated letter to Lord Ello Ebonlocke sets Stitches in motion. The massive abomination begins his slow, relentless march along the main path from Raven Hill Cemetery straight toward Darkshire, cutting down Night Watch guards as he approaches."
+   "answer": "Deliver the translated letter to Lord Ello Ebonlocke in Darkshire. His response and the danger it warns of are revealed when he reads it."
   },
   {
    "q": "Where does Stitches go after this?",
@@ -72,7 +72,7 @@
     "stitches path",
     "where is stitches marching"
    ],
-   "answer": "Stitches follows the Duskwood thoroughfare eastward from the outskirts of Raven Hill Cemetery toward Darkshire. Along the road, he engages and overwhelms Night Watch defenders before reaching the town gates unless brought down by adventurers."
+   "answer": "Stitches is associated with the road between Raven Hill Cemetery and Darkshire. His role in Abercrombie's plot is revealed through the investigation."
   },
   {
    "q": "What quest comes next?",

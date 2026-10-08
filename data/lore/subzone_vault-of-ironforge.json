@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Heart of Dwarven Commerce",
-   "body": "Carved deep into the mountain rock of the Commons, the Vault of Ironforge stands as a symbol of dwarven fiscal security and craft. With the city's trade booming, travelers, soldiers, and merchants gather here daily to deposit coin, relics, and provisions under the vigilant eyes of city guards and tellers. Overseen by Dinita and the trusted Stonemantle family, the institution offers Alliance patrons absolute peace of mind. The Ironforge Royal Treasury may also be housed here, but this is unconfirmed.",
+   "body": "Carved deep into the mountain rock of the Commons, the Vault of Ironforge stands as a symbol of dwarven fiscal security and craft. With the city's trade booming, travelers, soldiers, and merchants gather here daily to deposit coin, relics, and provisions under the vigilant eyes of city guards and tellers. Overseen by Dinita and the trusted Stonemantle family, the institution offers Alliance patrons absolute peace of mind.",
    "spoiler": 0
   }
  ],
@@ -42,15 +42,6 @@
     "how to find vault"
    ],
    "answer": "You can find it directly in the Commons district of Ironforge, sitting just across the plaza from the bustling city Auction House."
-  },
-  {
-   "q": "Is the Ironforge Royal Treasury kept here?",
-   "aliases": [
-    "royal treasury",
-    "dwarf royal gold",
-    "king's gold vault"
-   ],
-   "answer": "It is possible that the royal treasury is housed here, but its presence is unconfirmed."
   }
  ],
  "angles": [
@@ -67,7 +58,6 @@
   "dinita",
   "ironforge",
   "ironforge bank",
-  "royal treasury",
   "stonemantle",
   "the commons",
   "vault of ironforge"

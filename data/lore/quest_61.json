@@ -29,7 +29,7 @@
   },
   {
    "title": "From Kobold Wax to Capital Potions",
-   "body": "The contents of William's parcel consist of large, pungent candles harvested directly from the kobolds infesting the Fargodeep and Jasperlode mines. Kobold tallow is notoriously greasy and foul, but alchemists prize raw tallow and wax for compounding salves, sealing drafty glassware, and brewing base draughts. Delivering the wax to Morgan ensures the apothecary remains well-stocked with cheap, potent ingredients.",
+   "body": "William's parcel contains large candles gathered from kobolds in Elwynn's mines. He and Morgan run an apothecary in Stormwind, and William says he collects the candles for their wax. Delivering the shipment brings those supplies to Morgan in the Trade District.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "what is in the package",
     "what did william send"
    ],
-   "answer": "The shipment consists of packaged wax candles taken from the kobolds in Elwynn Forest's mines. William's apothecary uses the wax and tallow as reagents for alchemy and brewing."
+   "answer": "The shipment contains candles gathered from kobolds in Elwynn Forest. William collected them for their wax and packed them for Morgan at Pestle's Apothecary."
   },
   {
    "q": "Where do I find Morgan Pestle?",
@@ -74,7 +74,7 @@
     "why kobold candles",
     "kobold wax alchemy"
    ],
-   "answer": "Yes. Kobolds craft heavy tallow candles to navigate subterranean tunnels. Alchemists like the Pestle brothers repurpose this tallow and wax for sealing vials, creating unguents, and refining bases for various mixtures."
+   "answer": "William says he and his brother need the candles for their wax. The quest does not describe the specific use they make of it at the apothecary."
   },
   {
    "q": "What comes after delivering the shipment?",

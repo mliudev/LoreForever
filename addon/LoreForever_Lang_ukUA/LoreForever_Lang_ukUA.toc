@@ -1,0 +1,16 @@
+## Interface: 16001
+## Title: Lore Forever - Українська
+## Notes: Ukrainian language pack by UALL / Pekelnyj.
+## Author: UALL
+## Version: 0.12.0
+## Dependencies: LoreForever
+## LoadOnDemand: 1
+## X-LoreForever-Pack: lang
+## X-LoreForever-Locale: ukUA
+## X-LoreForever-Format: 1
+## X-LoreForever-DataVersion: 2026-10-08 08:39 UTC
+## X-LoreForever-LanguageName: Українська
+## X-Curse-Project-ID: 1734020
+
+# The files load through Lang.xml, which lists them.
+Lang.xml

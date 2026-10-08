@@ -37,7 +37,7 @@
     "king mukla gorilla",
     "ape boss stranglethorn"
    ],
-   "answer": "King Mukla is a gigantic, powerful gorilla who reigns over Jaguero Isle. Territorial and aggressive, he commands the island's ape population and holds the stranded tauren Princess Poobah captive."
+   "answer": "King Mukla is a gigantic, powerful gorilla who reigns over Jaguero Isle. Territorial and aggressive, he dominates the island's interior."
   },
   {
    "q": "Who is Princess Poobah?",
@@ -46,7 +46,7 @@
     "who is poobah",
     "princess poobah"
    ],
-   "answer": "Princess Poobah is a stranded tauren trapped on Jaguero Isle under the guard of King Mukla. She casts messages in bottles into the sea in hopes of being rescued."
+   "answer": "Princess Poobah is a stranded tauren trapped on Jaguero Isle far from her home. She casts messages in bottles into the sea in hopes of being rescued."
   },
   {
    "q": "How do you start the quest to visit the island?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Finding a fellow tauren trapped so far from Kalimdor under the captivity of a feral beast makes securing Princess Poobah's release a matter of personal honor."
+   "text": "Finding a fellow tauren trapped so far from Kalimdor among hostile beasts makes securing Princess Poobah's release a matter of personal honor."
   },
   {
    "target": "class:Hunter",

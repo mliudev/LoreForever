@@ -1,13 +1,13 @@
 {
  "key": "subzone:mortwake-s-tower",
  "type": "subzone",
- "name": "Mortwake's Tower",
+ "name": "Klaven's Tower",
  "era": "classic",
  "zone": "westfall",
  "meta": {
   "wiki": "Mortwake's Tower"
  },
- "summary": "Mortwake's Tower, commonly known as Klaven's Tower or simply the Defias Tower, is a fortified watchtower standing near the river in southeastern Westfall. Commanded by the rogue Klaven Mortwake, it serves as a critical waypoint for smuggling stolen goods across kingdom borders.",
+ "summary": "Klaven's Tower, also called the Defias Tower, is a fortified watchtower standing near the river in southeastern Westfall. Commanded by the rogue Klaven Mortwake, it serves as a critical waypoint for smuggling stolen goods across kingdom borders.",
  "sections": [
   {
    "title": "A Smuggler's Stronghold",
@@ -74,7 +74,6 @@
   "defias tower",
   "klaven mortwake",
   "klaven's tower",
-  "mortwake's tower",
   "si:7",
   "troll poison",
   "westfall"

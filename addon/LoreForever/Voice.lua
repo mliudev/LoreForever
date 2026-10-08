@@ -173,6 +173,9 @@ end
 
 -- The voice the old one-voice picker shows: the first ticked one in the list ("auto", a pack name), or "none".
 function Voice.Current()
+  if ns.lang and ns.lang.edition then
+    return (S().editionVoiceOff or ns.lang.edition.unavailable) and "none" or ns.lang.edition.voiceName or "none"
+  end
   local s = prefs()
   for _, k in ipairs(s.voiceOrder) do
     if not s.voiceOff[k] then return k end
@@ -241,6 +244,9 @@ local function isDefault(name) return name:sub(1, #DEFAULT_PACK) == DEFAULT_PACK
 function Voice.Unusable(name)
   local rec = ns.Packs.Get(name)
   if not rec then return L["Not installed"], "MISSING" end
+  if rec.kind == "edition-voice" or rec.kind == "edition-text" then
+    return L["Select this contributor edition in Options and reload"], "EDITION"
+  end
   if rec.loadable == false then return ns.Packs.ReasonText(rec.reason) or L["Can't load"], rec.reason end
   if rec.locale and not sameLanguage(rec.locale, readingLocale()) then
     return string.format(L["Recorded in %s"], rec.languageName or LANGUAGES[rec.locale] or rec.locale), "LANGUAGE"
@@ -324,7 +330,9 @@ function Voice.Count(name)
   for _, pack in ipairs(withExtensions(name)) do
     local data = ns.Packs.data[pack]
     for id, h in pairs(data and data.clips or {}) do
-      if hashes[id] == h then current[id] = true elseif hashes[id] then old[id] = true end
+      if hashes[id] == h or (hashes[id] and Voice.Transport and Voice.Transport(id, pack, true)) then
+        current[id] = true
+      elseif hashes[id] then old[id] = true end
     end
   end
   local have, stale = 0, 0
@@ -412,7 +420,7 @@ function Voice.InstalledPacks()
           -- Localized quest packs match the visible game's text when a quest page opens.
           it.counts.quest = it.counts.quest + 1
           it.questPageCheck = true
-        elseif expected == hash then
+        elseif expected == hash or (category == "lore" and expected and Voice.Transport and Voice.Transport(id, rec.name, true)) then
           it.counts[category] = it.counts[category] + 1
         elseif expected and expected ~= "" then
           it.stale = it.stale + 1
@@ -469,6 +477,23 @@ end
 -- Voice.provided marks every clip some pack in the chain has (current or not), for the "narrated in a pack you
 -- don't have" hint.
 function Voice.Refresh()
+  local edition = ns.lang and ns.lang.edition
+  if edition then
+    local valid = ns.Lang.ValidateEdition()
+    local active, served, provided, total = {}, {}, {}, 0
+    for id, h in pairs(valid and not S().editionVoiceOff and ns.DB.clipHash or {}) do
+      total = total + 1
+      local recorded = edition.voice.clips[id]
+      if recorded then provided[id] = true end
+      if recorded == h then
+        active[id], served[id] = { Voice.ClipPath(edition.voiceName, id, edition.voice.ext) }, edition.voiceName
+      end
+    end
+    Voice.active, Voice.servedBy, Voice.provided, Voice.total = active, served, provided, total
+    Voice.questRanked, Voice.questPaths, Voice.questServed, Voice.answerPaths, Voice.answerServed = {}, {}, {}, {}, {}
+    Voice.chain, Voice.stats, Voice.ready, Voice.deferred = valid and { edition.voiceName } or {}, {}, true, nil
+    return
+  end
   local s = prefs()
   Voice.deferred = nil
   local chain, packsOf, questChain = {}, {}, {}
@@ -504,7 +529,8 @@ function Voice.Refresh()
         local data = ns.Packs.data[pack]
         local h = data and data.clips[id]
         if h then provided[id] = true end
-        if h == hash then
+        local whole = Voice.Transport and Voice.Transport(id, pack, true)
+        if h == hash or whole then
           paths = paths or {}
           paths[#paths + 1] = Voice.ClipPath(pack, id, data.ext)
         elseif h then
@@ -622,6 +648,7 @@ end
 
 -- The voice (its pack name) that plays a clip and the file it plays first, or nil if no voice has the clip.
 function Voice.Resolve(id)
+  if not ns.Lang.ValidateEdition() then return nil end
   if not Voice.ready then Voice.Refresh() end
   local paths = Voice.active[id] or Voice.questPaths[id] or Voice.answerPaths[id]
   return Voice.servedBy[id] or Voice.questServed[id] or Voice.answerServed[id], paths and paths[1]
@@ -699,6 +726,7 @@ end
 -- get them, once per zone per session, unless narration is off or the hint is turned off in Options.
 Voice.hinted = {}
 function Voice.OnZone(zk)
+  if ns.lang and ns.lang.edition then return end
   if not zk or Voice.hinted[zk] or S().packHints == false or Voice.Current() == "none" then return end
   if not Voice.ready then Voice.Refresh() end
   local db = ns.DB or {}
@@ -769,6 +797,7 @@ end
 function Voice.Init()
   if not next(ns.Packs.registry) then ns.Packs.Scan() end
   prefs()
+  if ns.lang and ns.lang.edition then Voice.Refresh(); return end
   Voice.ForgetQuestPages()
   adoptAndRefresh()
   if not Voice.deferred then
@@ -791,6 +820,7 @@ end
 -- A recorded narration exists for this entry with the current voice (or quest dialogue Voice.QuestClip picked, or a
 -- question and answer from an answers pack).
 function Voice.HasAudio(key)
+  if not ns.Lang.ValidateEdition() then return false end
   if isQuestClip(key) and not Voice.QuestDialogue() then return false end
   if not Voice.ready then Voice.Refresh() end
   return key ~= nil and (Voice.active[key] or Voice.questPaths[key] or Voice.answerPaths[key]) ~= nil
@@ -798,12 +828,19 @@ end
 
 -- Recheck permission at every real audio start, including queues and restored playback targets.
 function Voice.CanPlay(key)
+  if not ns.Lang.ValidateEdition() then return false end
+  if ns.lang and ns.lang.edition then
+    local base, original = (type(key) == "string" and key or ""):match("^(.-)#faq(%d+)$")
+    local e = ns.DB.entries[base or key]
+    if not e or (base and not ns.Lang.FaqIndex(base, original)) then return false end
+  end
   if ns.UI and ns.UI.CanPlayClip then return ns.UI.CanPlayClip(key) end
   return type(key) == "string" and not key:match("#faq%d+$") and not key:match("#section%d+$")
 end
 
 -- Every clip id the current voice can play (id -> paths), for the Listen tab.
 function Voice.Clips()
+  if not ns.Lang.ValidateEdition() then return {} end
   if not Voice.ready then Voice.Refresh() end
   return Voice.active
 end
@@ -812,6 +849,10 @@ end
 -- was "Game voice only" while the game's text-to-speech read what had no recording).
 -- Loading a voice pack only reads its list of clips, so all of them are loaded here to show their counts.
 function Voice.Choices()
+  if ns.lang and ns.lang.edition then
+    local e = ns.lang.edition
+    return { { value = "edition:" .. e.id, label = e.name or e.id }, { value = "none", label = L["No narration"] } }
+  end
   local def = Voice.DefaultPack()
   local defRec = def and ns.Packs.Get(def)
   local defWhy
@@ -842,6 +883,9 @@ end
 -- The line under the voice list: how many narrations your voices cover together (the rest show as text only), with
 -- the first voice's credit. (Each voice's own counts are on its row: Voice.List.)
 function Voice.Status(loreCounts)
+  if ns.lang and ns.lang.edition and not ns.Lang.ValidateEdition() then
+    return L["Edition unavailable: repair both components and reload, or select another edition in Language options."]
+  end
   if Voice.Current() == "none" then return L["Recorded narrations are off: tick a voice to hear them."] end
   local lines, first = {}, Voice.chain[1]
   if Voice.deferred then lines[#lines + 1] = L["Some voices load after combat."] end
@@ -869,6 +913,14 @@ end
 -- recordings), plays (how many narrations it plays with the list as it is) and races (its X-LoreForever-Races text,
 -- if any). Packs are loaded to count them.
 function Voice.List()
+  local edition = ns.lang and ns.lang.edition
+  if edition then
+    local have = 0
+    for _ in pairs(Voice.Clips()) do have = have + 1 end
+    return { { key = "edition:" .. edition.id, name = edition.voiceName, title = edition.name or edition.id,
+      label = edition.name or edition.id, on = not S().editionVoiceOff, have = have, stale = 0, plays = have,
+      why = edition.unavailable and L["Edition unavailable: repair both components and reload"] or nil } }
+  end
   local s, out = prefs(), {}
   for _, key in ipairs(s.voiceOrder) do
     local name = packOf(key)
@@ -918,6 +970,11 @@ end
 
 -- Tick or untick a voice.
 function Voice.SetOn(key, on)
+  if ns.lang and ns.lang.edition then
+    S().editionVoiceOff = not on or nil
+    listChanged()
+    return
+  end
   prefs().voiceOff[key] = (not on) or nil
   listChanged()
 end
@@ -943,6 +1000,13 @@ end
 -- Put a voice ("auto", or a pack's add-on name) at the top of the list, ticked along with the default voice, or
 -- untick every voice ("none"): what picking in the one-voice picker means. Returns true, or false and why not.
 function Voice.SetPack(value)
+  if ns.lang and ns.lang.edition then
+    if value ~= "none" and value ~= "auto" and value ~= "edition:" .. ns.lang.edition.id then
+      return false, L["Select a contributor edition or stock language in Options and reload"]
+    end
+    Voice.SetOn("edition:" .. ns.lang.edition.id, value ~= "none")
+    return true
+  end
   if value ~= "auto" and value ~= "none" then
     if InCombatLockdown and InCombatLockdown() then return false, L["Can't switch voice during combat"] end
     value = Voice.KeyOf(value)   -- a voice is kept by its key; its pack in the language shown is what loads
@@ -995,6 +1059,7 @@ end
 -- Play a voice's sample (its X-LoreForever-Sample clip, else its first clip). Returns true, or false and why not in
 -- words for Options (LOR-136: it said only "Nothing to preview"). "none" (no narration) has nothing to play.
 function Voice.Preview(value)
+  if ns.lang and ns.lang.edition then return false, L["Listen to an entry in this edition"] end
   if ns.UI and ns.UI.StopAll then ns.UI.StopAll() else Voice.Stop() end
   if value == "none" then return false end
   if Voice.SoundOff() == "all" then
@@ -1133,10 +1198,11 @@ local function dense(parts)
 end
 
 Voice.brokenTransport = {}
-function Voice.Transport(key, pack)
+function Voice.Transport(key, pack, wholeRecording)
+  if ns.lang and ns.lang.edition then return nil end -- contributed overviews never become inherited full reads
   -- Starting a new sound every few seconds causes audible gaps in the client. Keep this prototype hidden
   -- until continuous handoffs are verified in game; ordinary listening uses the existing single recording.
-  if S().experimentalSegmentedPlayback ~= true then return nil end
+  if not wholeRecording and S().experimentalSegmentedPlayback ~= true then return nil end
   if Voice.brokenTransport[tostring(pack) .. ":" .. tostring(key)] then return nil end
   local data = pack and ns.Packs.data[pack]
   local row = data and data.transportVersion == 1 and type(data.transport) == "table" and data.transport[key]
@@ -1151,6 +1217,7 @@ function Voice.Transport(key, pack)
   if type(assetPack) ~= "string" or not assetPack:match("^[%w_%-]+$") then return nil end
   local base = row["1"]
   if not dense(base) then return nil end
+  if wholeRecording and (not row.fullHash or #base ~= 1) then return nil end
   local starts, total = {}, 0
   for i, part in ipairs(base) do
     if type(part) ~= "table" or not finite(part.duration) or part.duration > 600 then return nil end
@@ -1283,7 +1350,8 @@ function Voice.Play(key, options)
     local pack = Voice.PackOf(path)
     if not continuing or pack == options.pack then
       local data = pack and ns.Packs.data[pack]
-      local row = Voice.Transport(key, pack)
+      local whole = not continuing and Voice.Transport(key, pack, true)
+      local row = not whole and Voice.Transport(key, pack)
       local resume = row and options and options.pack == pack and options.hash == row.hash
         and options.fullHash == row.fullHash
       if continuing and not resume then warnCantPlay(path) return false end
@@ -1299,8 +1367,16 @@ function Voice.Play(key, options)
         end
       end
       if not started then
-        local ok, willPlay, h = pcall(PlaySoundFile, path, channel())
+        local playbackPath = whole and whole.rates[1][1].path or path
+        local ok, willPlay, h = pcall(PlaySoundFile, playbackPath, channel())
         started, handle = ok and willPlay, h
+        if whole and not started then
+          whole = nil
+          if data and data.clips[key] == ((ns.DB and ns.DB.clipHash) or {})[key] then
+            ok, willPlay, h = pcall(PlaySoundFile, path, channel())
+            started, handle = ok and willPlay, h
+          end
+        end
       end
       if started then
         if not Voice.transport then Voice.handle = handle end
@@ -1308,15 +1384,22 @@ function Voice.Play(key, options)
         if Voice.autoWaiting and Voice.autoWaiting.key == key then Voice.autoWaiting = nil end
         local transport = Voice.transport
         Voice.lastClip = { id = key, pack = pack,
-          path = transport and transport.parts[transport.index].path or path,
-          hash = transport and (transport.row.fullHash or transport.row.hash) or (data and data.clips and data.clips[key]),
-          text = transport and transport.row.text or nil }
+          path = whole and whole.rates[1][1].path or (transport and transport.parts[transport.index].path or path),
+          hash = whole and whole.fullHash or (transport and (transport.row.fullHash or transport.row.hash) or (data and data.clips and data.clips[key])),
+          text = whole and whole.text or (transport and transport.row.text or nil),
+          duration = whole and whole.duration or nil }
+        if ns.lang and ns.lang.edition then
+          local base, original = key:match("^(.-)#faq(%d+)$")
+          local e = ns.DB.entries[base or key]
+          local i = base and ns.Lang.FaqIndex(base, original)
+          Voice.lastClip.text = i and e.faq[i].a or e.s
+        end
         return true
       end
       dbg("can't play", path)
     end
   end
-  warnCantPlay(paths[1])
+  if not (ns.lang and ns.lang.edition) then warnCantPlay(paths[1]) end
   return false
 end
 
@@ -1336,6 +1419,7 @@ end
 -- (LOR-136). Returns true if it started.
 function Voice.Narrate(key, options)
   if Voice.Play(key, options) then return true end
+  if ns.lang and ns.lang.edition then return false end
   if not Voice.toldLanguageOnPlay then
     local gap = Voice.LanguageGap()
     if gap then
@@ -1803,6 +1887,7 @@ local GENDER_CODE = { f = "female", m = "male" }
 -- over English. The quest's row in the add-on's data names its clip and who says each page; a quest only a pack in
 -- another language has (its English left the data since) goes by its quest ID.
 function Voice.QuestClip(qid, kind, text, unchecked, peek)
+  if ns.lang and ns.lang.edition then return nil end
   local part = QUEST_PART[kind]
   if not (qid and part) then return nil end
   if not Voice.ready then Voice.Refresh() end

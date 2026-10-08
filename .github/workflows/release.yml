@@ -83,6 +83,10 @@ jobs:
                   for row in pack['shards']:
                       listing.write(row['archive'] + '\tTransport: ' + source + '\t' + manifest['releaseVersion'] + '\n')
           PY
+      - name: Keep only installer build and smoke-test inputs on Windows
+        run: |
+          python3 scripts/installer_inputs.py --source dist/extra \
+            --installer dist/installer-inputs --release dist/release-extra
       # compression-level 0: the zips are mostly mp3s already, so deflating them again (the default, level 6) only
       # costs time, on upload and download alike. The files inside come out byte for byte the same either way.
       - uses: actions/upload-artifact@v4
@@ -92,8 +96,13 @@ jobs:
           compression-level: 0
       - uses: actions/upload-artifact@v4
         with:
-          name: extra
-          path: dist/extra/
+          name: installer-inputs
+          path: dist/installer-inputs/
+          compression-level: 0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-extra
+          path: dist/release-extra/
           compression-level: 0
 
   installer:
@@ -119,7 +128,7 @@ jobs:
           path: dist
       - uses: actions/download-artifact@v4
         with:
-          name: extra
+          name: installer-inputs
           path: dist/extra
       - name: Install Inno Setup
         shell: pwsh
@@ -304,7 +313,7 @@ jobs:
             notes=(--generate-notes)
           fi
           cd dist
-          extra=(); while IFS=$'\t' read -r file _; do extra+=("$file"); done < manifest.tsv   # from the extra artifact
+          extra=(); while IFS=$'\t' read -r file _; do extra+=("$file"); done < manifest.tsv   # both disjoint extras artifacts merged above
           sha256sum LoreForever.zip LoreForever-Setup.exe transport-downloads.json "${extra[@]}" | tee SHA256SUMS.txt
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release upload "$TAG" LoreForever.zip LoreForever-Setup.exe "${extra[@]}" transport-downloads.json SHA256SUMS.txt --clobber

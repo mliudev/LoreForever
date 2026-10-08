@@ -512,7 +512,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     for _, note in ipairs(ns.lang.notes) do say(note) end
     -- Automatic picked up the client's language (LOR-35): say so once per language, with the way back to English.
     local _, auto = ns.Lang.Wanted()
-    if auto and ns.lang.locale ~= "enUS" and S().langNoted ~= ns.lang.locale then
+    if not ns.lang.edition and auto and ns.lang.locale ~= "enUS" and S().langNoted ~= ns.lang.locale then
       S().langNoted = ns.lang.locale
       say(string.format(L["Lore Forever is in %s, your WoW client's language. To pick another language: /lore lang, or Language in /lore options."],
         ns.lang.name or ns.lang.locale))

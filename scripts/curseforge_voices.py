@@ -2,6 +2,11 @@
 """What goes to CurseForge besides the add-on: the narration projects in release/curseforge.json, and the add-on's own
 file without them. The public repo's release workflow runs it (its curseforge and curseforge-voices jobs).
 
+Translation projects use `upload --from-release --languages`: their versioned ZIPs come from the separate
+languages release after publish-language-packs.sh finishes uploading them. The CurseForge languages workflow
+checks them against the requested core release and keeps its upload record in languages.json, separately from
+narration's voices.json. Default uploads select narration only.
+
 CurseForge's WoW site takes one file per project (additional files are refused, errorCode 1011), and its upload API
 refuses files over about 500 MB (Cloudflare answers 413; 0.7.0's 701 MB zip got one). So each narrator is two
 projects, its stories and its quest dialogue, and each project's file is some add-on folders of a release zip, byte
@@ -62,8 +67,8 @@ PACKAGE_WITH = ["LoreForever_Voice_Female-complete.zip"]   # merged into the mai
 FOREVER = 88568              # CurseForge's "Forever" game version type
 SITE = "https://loreforeverwow.com"
 STATE_TAG, STATE_FILE = "curseforge", "voices.json"
-STATE_NOTES = ("Bookkeeping for the release workflow, not a download. voices.json records the last upload of each "
-               "narration project on CurseForge, so a project only uploads again when its narration changes "
+STATE_NOTES = ("Bookkeeping for the release workflow, not a download. voices.json and languages.json record the last "
+               "uploads of narration and translation projects on CurseForge, so unchanged packs aren't uploaded again "
                "(scripts/curseforge_voices.py).")
 VERSION_LINE = re.compile(rb"^## Version:[^\n]*(\n|$)", re.M)
 RELEASE_TAG = re.compile(r"^v(\d+)\.(\d+)\.(\d+)$")
@@ -74,9 +79,28 @@ class Failure(Exception):
     pass
 
 
-def sources(project: dict) -> list[str]:
+def sources(project: dict, version: str | None = None) -> list[str]:
     """The release zips a project's folders come from ('from': one name, or a list)."""
-    return [project["from"]] if isinstance(project["from"], str) else list(project["from"])
+    names = [project["from"]] if isinstance(project["from"], str) else list(project["from"])
+    return [s.format(v=version) for s in names] if version else names
+
+
+def language_project(project: dict) -> bool:
+    return all(f.startswith("LoreForever_Lang_") for f in project["folders"])
+
+
+def validate_translation(zip_path: Path, project: dict, version: str) -> None:
+    """A translation must target this core build before it can reach CurseForge."""
+    index = CORE_TOC.parent / "Data" / "Index.lua"
+    match = re.search(r'ns\.DB\s*=\s*\{\s*version\s*=\s*"([^"]+)"', index.read_text(encoding="utf-8"))
+    if not match:
+        raise Failure("core has no data version")
+    with zipfile.ZipFile(zip_path) as z:
+        for folder in project["folders"]:
+            text = z.read(f"{folder}/{folder}.toc").decode("utf-8")
+            fields = dict(re.findall(r"^## ([\w-]+):[ \t]*(.*?)\r?$", text, re.M))
+            if fields.get("Version") != version or fields.get("X-LoreForever-DataVersion") != match.group(1):
+                raise Failure(f"{folder}: translations don't match Lore Forever {version}'s data; rebuild the pack")
 
 
 def quest_dialogue(folder: str) -> bool:
@@ -108,10 +132,13 @@ def load_config(path: Path | None = None) -> list[dict]:
             raise Failure(f"{path.name}: {name}'s 'suggests' names other projects' keys")
         folders = p.get("folders")
         if not (isinstance(folders, list) and folders and all(isinstance(f, str) and re.fullmatch(
-                r"LoreForever_Voice_\w+", f) for f in folders)):
+                r"LoreForever_(?:Voice_\w+|Lang_[a-z]{2}[A-Z]{2})", f) for f in folders)):
             raise Failure(f"{path.name}: {name}'s 'folders' are add-on folders, like LoreForever_Voice_Female")
         if p.get("core") not in ("required", "optional"):
             raise Failure(f"{path.name}: {name}'s 'core' is required or optional")
+        if any(f.startswith("LoreForever_Lang_") for f in folders):
+            if not language_project(p) or p["core"] != "optional":
+                raise Failure(f"{path.name}: {name}: translations must be a separate optional project")
         if any(quest_dialogue(f) for f in folders) and p["core"] != "optional":
             raise Failure(f"{path.name}: {name}: quest dialogue must be optional for the core")
         if not (isinstance(p.get("requires"), list) and all(r in keys and r != p["key"] for r in p["requires"])):
@@ -242,6 +269,11 @@ def core(zip_path: Path, outdir: Path, projects: list[dict]) -> tuple[Path, dict
 
 def changelog(version: str, parts: list[tuple[str, str, int]], before: dict | None) -> str:
     """The upload's notes: what's in it, with the change in each part's count since the last upload."""
+    if all(f.startswith("LoreForever_Lang_") for f, _, _ in parts):
+        return "\n".join([f"Translations for Lore Forever {version}.", "",
+                          *[f"- {title}" for _, title, _ in parts], "",
+                          "Needs Lore Forever (the CurseForge app installs it too). In game, type /reload after "
+                          "installing, then choose your language in Options."])
     total = sum(n for _, _, n in parts)
     lines = [f"Narration for Lore Forever {version}: {total:,} recordings.", ""]
     for folder, title, n in parts:
@@ -303,9 +335,10 @@ def prepare(projects: list[dict], source_dir: Path, work: Path, version: str) ->
     for p in projects:
         if not p.get("id"):
             continue
-        have = [source_dir / s for s in sources(p) if (source_dir / s).is_file()]
+        source_names = sources(p, version)
+        have = [source_dir / s for s in source_names if (source_dir / s).is_file()]
         if not have:
-            steps.append({"project": p, "absent": f"there's no {' or '.join(sources(p))} (its pack isn't built yet)"})
+            steps.append({"project": p, "absent": f"there's no {' or '.join(source_names)} (its pack isn't built yet)"})
             continue
         out = work / f"{p['folders'][0]}-{version}.zip"
         try:
@@ -319,7 +352,7 @@ def prepare(projects: list[dict], source_dir: Path, work: Path, version: str) ->
                     # zip already carried it), so an absent language folder remains backwards compatible.
                     locales = {m.group(1) for f in keep if (m := re.search(r"_([a-z]{2}[A-Z]{2})$", f))}
                     keep += [f"LoreForever_Lang_{loc}" for loc in sorted(locales)
-                             if f"LoreForever_Lang_{loc}" in available]
+                             if f"LoreForever_Lang_{loc}" in available and f"LoreForever_Lang_{loc}" not in keep]
                     parts.append(subset(src, work / f"part{i}-{out.name}", keep=keep))
             found = {f for part in parts for f in tops(part)}
             lacking = [f for f in p["folders"] if f not in found]
@@ -333,6 +366,8 @@ def prepare(projects: list[dict], source_dir: Path, work: Path, version: str) ->
                 merge(parts, out)
                 for part in parts:
                     part.unlink()
+            if language_project(p):
+                validate_translation(out, p, version)
         except Failure as e:
             steps.append({"project": p, "error": str(e)})
             continue
@@ -418,20 +453,20 @@ def fetch(names: set[str], tag: str, folder: Path) -> None:
         run(["gh", "release", "download", tag, "-p", name, "-D", str(folder), "--clobber"])
 
 
-def load_state() -> dict:
+def load_state(state_file: str = STATE_FILE) -> dict:
     r = run(["gh", "release", "view", STATE_TAG, "--json", "assets"], check=False)
     if r.returncode != 0:
         if "not found" in r.stderr.lower():
             return {}   # nothing uploaded yet
         raise Failure(f"couldn't read the {STATE_TAG} release: {r.stderr.strip()}")
-    if STATE_FILE not in [a["name"] for a in json.loads(r.stdout).get("assets", [])]:
+    if state_file not in [a["name"] for a in json.loads(r.stdout).get("assets", [])]:
         return {}
-    return json.loads(run(["gh", "release", "download", STATE_TAG, "-p", STATE_FILE, "-O", "-"]).stdout or "{}")
+    return json.loads(run(["gh", "release", "download", STATE_TAG, "-p", state_file, "-O", "-"]).stdout or "{}")
 
 
-def save_state(state: dict) -> None:
+def save_state(state: dict, state_file: str = STATE_FILE) -> None:
     with tempfile.TemporaryDirectory() as tmp:
-        path = Path(tmp, STATE_FILE)
+        path = Path(tmp, state_file)
         path.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
         if run(["gh", "release", "view", STATE_TAG], check=False).returncode != 0:
             # A prerelease is never the repo's Latest, which the site's download links follow.
@@ -496,9 +531,9 @@ def cmd_package(args) -> int:
 
 def cmd_upload(args) -> int:
     projects = load_config()
-    todo = [p for p in projects if p.get("id")]
+    todo = [p for p in projects if p.get("id") and language_project(p) == args.languages]
     if not todo:
-        print("No narration project has a CurseForge id yet (release/curseforge.json); nothing to upload.")
+        print("No matching pack project has a CurseForge id yet (release/curseforge.json); nothing to upload.")
         return 0
     token = os.environ.get("CF_API_TOKEN", "")
     if not token and not args.dry_run:
@@ -516,18 +551,20 @@ def cmd_upload(args) -> int:
     version = os.environ.get("VERSION") or tag.removeprefix("v")
     if not RELEASE_TAG.match(f"v{version}"):
         raise Failure(f"no version to upload as (TAG={tag!r}, VERSION={os.environ.get('VERSION')!r})")
-    state = json.loads(Path(args.state).read_text(encoding="utf-8")) if args.state else load_state()
+    state_file = "languages.json" if args.languages else STATE_FILE
+    state = json.loads(Path(args.state).read_text(encoding="utf-8")) if args.state else load_state(state_file)
     with tempfile.TemporaryDirectory() as tmp:
         source_dir = Path(args.dir) if args.dir else Path(tmp, "release")
         if args.from_release:
             source_dir.mkdir(parents=True, exist_ok=True)
-            fetch({s for p in todo for s in sources(p)}, tag, source_dir)
-        steps = plan(prepare(projects, source_dir, Path(tmp, "files"), version), state)
-        return send(steps, projects, state, version, token, args.dry_run, source=tag or str(source_dir))
+            fetch({s for p in todo for s in sources(p, version)}, "languages" if args.languages else tag, source_dir)
+        steps = plan(prepare(todo, source_dir, Path(tmp, "files"), version), state)
+        return send(steps, projects, state, version, token, args.dry_run, source=tag or str(source_dir),
+                    state_file=state_file)
 
 
 def send(steps: list[dict], projects: list[dict], state: dict, version: str, token: str, dry_run: bool,
-         source: str) -> int:
+         source: str, state_file: str = STATE_FILE) -> int:
     failed = 0
     for s in steps:
         p = s["project"]
@@ -563,7 +600,7 @@ def send(steps: list[dict], projects: list[dict], state: dict, version: str, tok
                 continue
             state[str(p["id"])] = {"key": p["key"], "version": version, "file": file_id,
                                    "fingerprint": s["fingerprint"], "counts": {f: n for f, _, n in parts}}
-            save_state(state)   # after each upload, so a rerun after a later failure doesn't send this one again
+            save_state(state, state_file)   # record each success before attempting the next project
             where = f"https://www.curseforge.com/wow/addons/{p['slug']}" if p.get("slug") else f"project {p['id']}"
             summary(f"{p['key']}: uploaded {meta['displayName']} to {where} as CurseForge file {file_id}; it goes "
                     f"live after moderation")
@@ -585,6 +622,8 @@ def main(argv: list[str] | None = None) -> int:
     where.add_argument("--dir", help="the zips in this folder")
     up.add_argument("--dry-run", action="store_true")
     up.add_argument("--state", help="read the upload record from this file instead of the curseforge release")
+    up.add_argument("--languages", action="store_true",
+                    help="only translation projects, from the languages release; narration is the default")
     args = ap.parse_args(argv)
     try:
         return {"core": cmd_core, "package": cmd_package, "upload": cmd_upload}[args.cmd](args)

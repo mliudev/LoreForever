@@ -10,11 +10,11 @@
    "quest:3521"
   ]
  },
- "summary": "Webwood Ichor is a potent fluid harvested from Webwood spiders prowling the shadowy reaches of Teldrassil. Prized for its volatile chemical properties, it serves as the crucial active component needed to brew an antivenom against the arachnids' virulent bites.",
+ "summary": "Webwood Ichor is a fluid harvested from Webwood spiders prowling Teldrassil. Dirania Silveshine needs it, along with hyacinth mushrooms and moonpetal lilies, to brew an antidote for the poisoned Iverron.",
  "sections": [
   {
    "title": "A Toxic Cure",
-   "body": "The Webwood spiders that haunt the outskirts of Shadowglen and the depths of Shadowthread Cave carry a venom virulent enough to fell even hardy night elves. Paradoxically, the raw ichor taken directly from these predators contains the exact chemical basis needed to neutralize their own bite. When combined with cleansing flora like Hyacinth Mushrooms and Moonpetal Lilies, herbalists such as Dirania Silvershine can refine the toxic fluid into a life-saving antidote for victims like the reckless scout Iverron.",
+   "body": "The Webwood spiders that haunt Shadowglen carry a venom dangerous enough to leave Iverron gravely ill. Dirania Silveshine asks for ichor from these spiders, along with hyacinth mushrooms and moonpetal lilies, to prepare an antidote.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does webwood ichor do",
     "why get ichor"
    ],
-   "answer": "Webwood Ichor is the primary active ingredient used by Dirania Silvershine in Shadowglen to formulate an antivenom. It is required to save the poisoned night elf Iverron from succumbing to the lethal venom of the local spiders."
+   "answer": "Dirania Silveshine in Shadowglen needs Webwood Ichor, hyacinth mushrooms, and moonpetal lilies to prepare an antidote for the poisoned night elf Iverron."
   },
   {
    "q": "Where does Webwood Ichor come from?",
@@ -43,7 +43,7 @@
     "spider poison cure",
     "why venom for antidote"
    ],
-   "answer": "Like many natural antivenoms, a counteragent often requires the raw toxins or biological fluids of the creature that inflicted the bite. Once properly counterbalanced with soothing herbs like moonpetal lilies and hyacinth mushrooms, the ichor helps create an effective neutralizing cure."
+   "answer": "Dirania requests Webwood Ichor as one of the ingredients for Iverron's antidote. She does not explain how the ichor works in the mixture."
   }
  ],
  "angles": [
@@ -54,7 +54,7 @@
  ],
  "keywords": [
   "antidote",
-  "dirania silvershine",
+  "dirania silveshine",
   "iverron",
   "shadowglen",
   "shadowthread cave",

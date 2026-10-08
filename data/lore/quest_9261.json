@@ -26,7 +26,7 @@
   },
   {
    "title": "Unholy Inscriptions",
-   "body": "Beneath the shadow of the necropolis, the undead have established encampments marked by glowing runic circles and pulsing necrotic stones. By standing near these ominous circles, scouts discover dark, murmuring voices echoing through the ambient magic. Lieutenant Nevell deduces that these circles serve as dark conduits for communication, linking the mindless ranks to distant commanders directing the assault.",
+   "body": "Beneath the shadow of the necropolis, the undead have established encampments marked by glowing runic circles and pulsing necrotic stones. By standing near these ominous circles, scouts discover dark, murmuring voices echoing through the ambient magic. Lieutenant Nevell deduces that these circles serve as dark conduits for communication, although he does not know whom the Scourge are contacting.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "dim necrotic stone",
     "scourge stones"
    ],
-   "answer": "These stones are small, magically infused mineral remnants carried by frontline Scourge forces. They radiate the foul necromantic power that animates the undead and serve as tangible proof of slain invaders."
+   "answer": "Dim Necrotic Stones are recovered from Scourge invaders and brought to the Argent Dawn as proof of slain undead."
   },
   {
    "q": "What is the purpose of the glowing runic circles?",
@@ -65,7 +65,7 @@
     "glowing circles",
     "what are the runes"
    ],
-   "answer": "The runic circles carved into the snow channel necrotic magic and resonate with eerie, disembodied whispers. Lieutenant Nevell determines that they act as communication arrays allowing distant dark masters to relay orders to the forces outside the gates."
+   "answer": "The glowing runic circles appear near the Scourge invasion forces. Lieutenant Nevell asks you to investigate their purpose."
   },
   {
    "q": "Why is the Argent Dawn here instead of Ironforge Mountaineers?",

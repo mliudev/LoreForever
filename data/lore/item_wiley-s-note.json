@@ -11,7 +11,7 @@
    "quest:135"
   ]
  },
- "summary": "Wiley's Note is a confidential missive penned by the Lakeshire rogue Wiley the Black, paid as a debt to Gryan Stoutmantle. Its contents reveal alarming alliances formed by the Defias Brotherhood and drop the first hints linking the criminal syndicate to Stormwind's former Stonemasons.",
+ "summary": "Wiley's Note is a confidential missive penned by the Lakeshire rogue Wiley the Black, paid as a debt to Gryan Stoutmantle. Its contents reveal alarming alliances formed by the Defias Brotherhood and draw Stormwind's intelligence service into the investigation.",
  "sections": [
   {
    "title": "A Dangerous Ledger",
@@ -41,7 +41,7 @@
     "what does the note say",
     "defias note info"
    ],
-   "answer": "The note reveals that the Defias Brotherhood is plotting something massive and has forged alliances with gnolls, kobolds, and goblins. Crucially, it also hints at a connection between the Defias and the Stonemasons Guild."
+   "answer": "The note warns that the Defias Brotherhood is plotting something massive and has forged alliances with gnolls, kobolds, and goblins. Stoutmantle seeks further advice on its more sensitive contents."
   },
   {
    "q": "Where does the note need to be delivered?",
@@ -59,7 +59,7 @@
     "why give note to shaw",
     "si7 wileys note"
    ],
-   "answer": "Gryan catches a mention of the Stonemasons Guild within the note. Suspecting the Defias crisis involves far deeper political roots than simple banditry, he sends it to Mathias Shaw, the head of Stormwind intelligence, to verify the connection."
+   "answer": "Gryan suspects that the note points to a deeper conspiracy than simple banditry. He sends it to Mathias Shaw, the head of Stormwind intelligence, to investigate."
   }
  ],
  "angles": [

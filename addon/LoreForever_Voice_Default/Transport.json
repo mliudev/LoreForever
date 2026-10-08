@@ -1,156 +1,1349 @@
 {
   "clips": {
-    "zone:stormwind": {
+    "npc:agathelos-the-raging": {
       "1": [
         {
-          "duration": 5.4335,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0000.mp3",
-          "sha256": "9bbd6101df061a7db2b92539ee0a32f91393a6d023f1e2dc7084a5e9771b0ae4",
-          "start": 0.0
-        },
-        {
-          "duration": 6.034167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0001.mp3",
-          "sha256": "05ec55ca6b4dd65c4f953d68fb3eff326b2dfc8aaffc2a8e1df86e50af653cba",
-          "start": 5.391835
-        },
-        {
-          "duration": 6.034167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0002.mp3",
-          "sha256": "3e7e3ba4f2b128d51eb2be9e0342f1d60892f3c5b3ec69d461ae142ba988ee11",
-          "start": 11.391835
-        },
-        {
-          "duration": 6.034167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0003.mp3",
-          "sha256": "9ad36aaace14dcb0e271ec93ef2556f28a930d23af4897fcacbcccebb6476155",
-          "start": 17.391835
-        },
-        {
-          "duration": 6.034167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0004.mp3",
-          "sha256": "218decef25d083386b4a5ad86756c62d2c974f5dc4c554df11044036b9cbefce",
-          "start": 23.391835
-        },
-        {
-          "duration": 6.478333,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0005.mp3",
-          "sha256": "960b5be60596de083531953a6a7c8959d115e6b88128e02acb29190572895bd5",
-          "start": 29.391835
-        },
-        {
-          "duration": 6.034167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0006.mp3",
-          "sha256": "ce77487169c7e7737c5b311fe86985b4e661eafd20d6f5c258c1864404c791e5",
-          "start": 35.8222
-        },
-        {
-          "duration": 6.034167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0007.mp3",
-          "sha256": "ebab9ce9c04a750c5f7b320011f9cd86455648a7a9271c5680c407f8a86fb7f8",
-          "start": 41.8222
-        },
-        {
-          "duration": 5.485667,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0008.mp3",
-          "sha256": "a4cd3154818263edc55cb19a4a80b4bad7abf758686beaa68f0e33232a2146e5",
-          "start": 47.8222
-        },
-        {
-          "duration": 5.12,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0009.mp3",
-          "sha256": "d14d6c0f04531a277d9b1e4ef08a4d801d492bea61ee7bd88991c73c05b95a60",
-          "start": 53.27045
-        },
-        {
-          "duration": 6.034167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0010.mp3",
-          "sha256": "2c1c9048526e88bdcd1a17cb9f69a69f0a34a7177b0bd2b5aa3f00d1c83ab795",
-          "start": 58.35335
-        },
-        {
-          "duration": 6.922333,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0011.mp3",
-          "sha256": "6761c28c34f873c3871440cf60728b5279bcfc0762edf651425ce505950683c8",
-          "start": 64.35335
-        },
-        {
-          "duration": 5.903667,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0012.mp3",
-          "sha256": "b8e07f7d0c98d4eec6754d3e94d3b034111a7dc9e073b3c54f19e19eeb5231a1",
-          "start": 71.24285
-        },
-        {
-          "duration": 6.034167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0013.mp3",
-          "sha256": "247f74a5806936c4316e7ad68ff5f1c65e0e083d32d7e3f03db8e16c594c960c",
-          "start": 77.1195
-        },
-        {
-          "duration": 6.034167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0014.mp3",
-          "sha256": "b20a0181f9f7200260524f331c2f564c01cb56af615569face1a75a98876fbf2",
-          "start": 83.1195
-        },
-        {
-          "duration": 6.765667,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0015.mp3",
-          "sha256": "527b326e6aea78da0e8e4397388a2b3d0595520a868f887b9ce5e9a222893a7b",
-          "start": 89.1195
-        },
-        {
-          "duration": 6.844,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0016.mp3",
-          "sha256": "b561b47b721b93fe95f145b1f0916a59d53be1c7ffa77ee9e897485cb0bbe2e9",
-          "start": 95.85025
-        },
-        {
-          "duration": 6.243167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0017.mp3",
-          "sha256": "a51657a4266cbcc437fde31bea97e89d957d4f7d93e3a39d5d23cc3887128584",
-          "start": 102.6895
-        },
-        {
-          "duration": 6.034167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0018.mp3",
-          "sha256": "c0b69e05703f5ab5f3f54b44524b5f0227ac7e2bf6054ca22b7692548ade13bd",
-          "start": 108.9
-        },
-        {
-          "duration": 6.034167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0019.mp3",
-          "sha256": "664baab877476b043690981f599c8dd8118d7c729c658270a496674f2c5b830c",
-          "start": 114.9
-        },
-        {
-          "duration": 6.034167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0020.mp3",
-          "sha256": "085d19649642ef3e65b1e54f74a6812da8f425b6d188b049ff4648b24f4ff2a7",
-          "start": 120.9
-        },
-        {
-          "duration": 6.034167,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0021.mp3",
-          "sha256": "d5c2ce930d6a7cde4362000e92452deb83dafa8988e5699600edfcf95e9bd2f2",
-          "start": 126.9
-        },
-        {
-          "duration": 4.780333,
-          "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0022.mp3",
-          "sha256": "7c9a2d13715aacc08c2dc41e6278bc7b6f952abb09955b1f97223886c375feaa",
-          "start": 132.9
+          "duration": 94.04081632653062,
+          "file": "Audio/Transport/full_npc_agathelos-the-raging-54e920d1eb313c8de140/1-0000.mp3",
+          "sha256": "a1488ea16b02e6edc9d406f36b35586aaba64c14fb8277140be739d3fe40ad2b",
+          "start": 0
         }
       ],
       "config": {
         "bitrate": "48k",
-        "encoder": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+        "mode": "whole-recording-v1",
         "rates": [
           "1"
-        ],
-        "segmentSeconds": 6
+        ]
+      },
+      "fullHash": "553c3f",
+      "generation": "bf566f35053e2be0fee1",
+      "hash": "45101d",
+      "source": {
+        "duration": 94.040816,
+        "file": null,
+        "sha256": "54e920d1eb313c8de1403ef234529587aa65aed3f264504d1e0d5d56eadc42bc"
+      },
+      "text": "Agathelos the Raging. Agathelos the Raging is a colossal armored boar penned within the thorned tunnels of Razorfen Kraul. Reared by the Death's Head quilboar as a living siege engine and avatar of their ancient god, he has been driven into a violent, unnatural frenzy. His sheer mass and strength make him one of the most dangerous beasts lurking under the southern Barrens. Quilboar venerate all swine as descendants of their patron deity and progenitor, the god Agamaggan. To them, boars of exceptional size and tenacity are considered direct blessings from their fallen god. A beast the size of Agathelos—standing roughly twice as tall as a Barrens thunder lizard—carries massive spiritual and ceremonial significance among the Razorfen tribes. The Death's Head tribe, not content to leave Agathelos as merely a sacred icon, actively transformed him into a weapon of war. By force-feeding him the noxious bat guano gathered from the cavern ceilings of the Kraul, his handlers induced a maddened, unending delirium. The foul mixture drastically increased the colossal beast's stamina and fury, transforming him into a rampage waiting to be unleashed upon the tribe's rivals. Because Agathelos is completely out of his mind with rage, even his handlers cannot let him roam loose within the Kraul. He is kept trapped in a dead-end tunnel behind an energetic ward maintained by quilboar shamans and guards. Should intruders break past the barrier, they face a beast driven completely wild by chemical madness, growing even more terrifying in size and power when struck."
+    },
+    "npc:aggem-thorncurse": {
+      "1": [
+        {
+          "duration": 55.04,
+          "file": "Audio/Transport/full_npc_aggem-thorncurse-b32a47cec1eccbb755b5/1-0000.mp3",
+          "sha256": "7fee02f17095409e541c4d6925ccbb751b23dd303c8ec07d3a61be7e7acd9ffa",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "2595a8",
+      "generation": "ae85db74c13085152d5c",
+      "hash": "aceb96",
+      "source": {
+        "duration": 55.066122,
+        "file": null,
+        "sha256": "b32a47cec1eccbb755b563bc6f9da85d0abba6e86ff21f7a27e62b6240246d78"
+      },
+      "text": "Aggem Thorncurse. Aggem Thorncurse is a spectral quilboar encountered deep within the thorned tunnels of Razorfen Kraul. Bound beyond death to the service of his tribe, he fights alongside Warlord Ramtusk and Death Speaker Jargba to defend their sacred redoubt against intruders. Within the heart of Razorfen Kraul, the quilboar fight desperately to protect their ancestral dens from outsiders. Aggem Thorncurse is not among the living defenders; instead, he lingers as a restless spirit. Bound to the physical realm by dark geomancy and shamanic rites, Aggem takes up arms when intruders threaten the tribe's warlord. Aggem does not battle alone. When outsiders challenge Warlord Ramtusk, Thorncurse manifests beside Death Speaker Jargba. Through potent mystical links, the spirits and flesh of these three defenders are bound together in combat, sharing the wounds dealt to them and proving that in Razorfen, loyalty to the tribe endures long past the grave."
+    },
+    "npc:arcanist-doan": {
+      "1": [
+        {
+          "duration": 101.04163265306123,
+          "file": "Audio/Transport/full_npc_arcanist-doan-f14447bc3cbe998bb185/1-0000.mp3",
+          "sha256": "54d599725f9bb646d49cd0fef8a48d01ba2ba162931323eab2556b36f989b6d9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "49baf6",
+      "generation": "f9cd13528c794788a8ef",
+      "hash": "f8dd01",
+      "source": {
+        "duration": 101.041633,
+        "file": null,
+        "sha256": "f14447bc3cbe998bb185401dc5b222de56cc095ca6803aaf1bfa863d0435c94e"
+      },
+      "text": "Arcanist Doan. Arcanist Doan is a master human mage residing within the Athenaeum of the Scarlet Monastery's Library wing. Formerly an associate of the Silver Hand who assisted in forging the legendary Ashbringer, he now serves the Scarlet Crusade as one of its most lethal arcane specialists and guardian of key crusade archives. Before the Scarlet Crusade turned inward and zealous, Arcanist Doan walked among the Knights of the Silver Hand. During the Third War, he met with Highlord Alexandros Mograine and other founders at Southshore. When Mograine revealed a shadowy crystal taken from an orc warlock during the Second War, Doan observed its unnatural ability to absorb holy energy. Joining his arcane insight with the holy magic of his peers, Doan helped cleanse the void crystal into radiant light, forming the heart of the weapon known as the Ashbringer. As the Scourge swept across Lordaeron, Doan advocated for total plague containment. When the undead battered Hearthglen's fortifications, he held the ramparts alongside High Inquisitor Isillien. While others urged him to unleash magic immediately, Doan methodically gathered his strength, unleashing a devastating blizzard at the precise moment necessary to shatter the advancing undead ranks. His clinical patience proved his lethal mastery of battlefield evocation. While the fanatical ranks of the Scarlet Crusade lean heavily on martial fury and holy fervor, Doan remained convinced that raw arcane power was essential to purging the Scourge from Lordaeron. Stationed deep inside the Athenaeum of the Monastery's library, he was entrusted as both a lorekeeper and an operational gatekeeper, safeguarding the Scarlet Key that secures crusade sanctuaries across the northern kingdoms."
+    },
+    "npc:baron-silverlaine": {
+      "1": [
+        {
+          "duration": 69.17224489795919,
+          "file": "Audio/Transport/full_npc_baron-silverlaine-5d296ef932ab46344dad/1-0000.mp3",
+          "sha256": "291279250a7018674bbd7bda9fd1eafd517095bd6442c941d983fc080efa89de",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "8448b1",
+      "generation": "b9a248f435b5e73c66e6",
+      "hash": "8c96b4",
+      "source": {
+        "duration": 69.198367,
+        "file": null,
+        "sha256": "5d296ef932ab46344dadc818a05a193eb76d115d46c8646b6032b18d163a670d"
+      },
+      "text": "Baron Silverlaine. Baron Silverlaine was the rightful human lord of the fortress once known as Keep Silverlaine, perched high above Pyrewood Village. When Archmage Arugal unleashed the savage worgen upon the region, the baron and his household were mercilessly slaughtered. Now, his tormented spirit lingers in the ruined dining hall, bound in undeath to defend the very lair that became his tomb. Before the shadow of the wolf-beasts blanketed the southern hills of Silverpine, Baron Silverlaine ruled over a proud noble estate. His fortress provided safety and oversight to the surrounding Gilnean lands. That peace shattered when Archmage Arugal, seeking a weapon against the rampaging Scourge, unleashed summoned worgen into the region. The feral monstrosities could not be controlled; they stormed the stronghold, overran its guards, and butchered the baron along with his entire family. Death brought no release to Baron Silverlaine. Bound to the keep's ancient Great Hall, his restless ghost now wanders the trashed dining tables where he once feasted. The cursed lord lashes out at intruders who enter his ruined home."
+    },
+    "npc:bazil-thredd": {
+      "1": [
+        {
+          "duration": 81.97224489795919,
+          "file": "Audio/Transport/full_npc_bazil-thredd-b3b2a76512c5ff53e1e1/1-0000.mp3",
+          "sha256": "6b6d9ec2648d5dc9d4ba57374a4904ec3104923ba58e94bcd0d4c30fa1c9a7ef",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "9b9de5",
+      "generation": "22bb284bd115d2a7ae38",
+      "hash": "2861ed",
+      "source": {
+        "duration": 81.972245,
+        "file": null,
+        "sha256": "b3b2a76512c5ff53e1e11f2d9a6d1f000df7f6d88b3b039f85a64259a37f3283"
+      },
+      "text": "Bazil Thredd. Bazil Thredd is Edwin VanCleef's lieutenant and most trusted assistant, locked in the Stormwind Stockade since the Stonemasons' riots that killed Queen Tiffin. Now the prison has risen in revolt, and Thredd leads the rioting Defias inmates from its eastern cell block. When the Stonemasons Guild was refused payment by the nobility of Stormwind for rebuilding the city, Edwin VanCleef rejected government appeasements and sparked open revolt. Bazil Thredd stood at VanCleef's side as his chief lieutenant and most trusted assistant. During the violent clashes that followed—which resulted in the death of Queen Tiffin Wrynn—Thredd was captured by the city guard. While VanCleef and the surviving masons fled into Westfall to form the Defias Brotherhood, Thredd was cast into the depths of the Stormwind Stockade. For years, Thredd remained silent and seemingly forsaken behind iron bars. That isolation shattered with a massive prison riot that overran the guards, opening the cells and turning the Stockade into an armed fortress right under the Mage Quarter. Taking leadership of the imprisoned Defias bandits, insurgents, and allied cutthroats, Thredd established his command post in the eastern wing under the guard of an ogre named Hamhock. Warden Thelwater, desperate to restore order before the chaos spills into the city streets, demands Thredd's head to break the rebellion's leadership."
+    },
+    "npc:bazzalan": {
+      "1": [
+        {
+          "duration": 57.78285714285714,
+          "file": "Audio/Transport/full_npc_bazzalan-866b4132b75bece011f8/1-0000.mp3",
+          "sha256": "687d78742a031d1cc846dd04075842b25d30ccaa9bbce7573111d88b0ba33bb5",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "9b288e",
+      "generation": "09b54d1bbdea57a99aa1",
+      "hash": "4ba4c4",
+      "source": {
+        "duration": 57.782857,
+        "file": null,
+        "sha256": "866b4132b75bece011f8c6dfcd9c96572171f6ddf874264843f101e3edcbe5bd"
+      },
+      "text": "Bazzalan. Bazzalan is a sinister satyr rogue lurking within the volcanic depths of Ragefire Chasm. Alongside Jergosh the Invoker, he commands the dark activities of the Searing Blade cult directly beneath the Horde capital of Orgrimmar. While Thrall works to establish the Orcs' new home across Durotar, ancient evils have found a roost beneath his feet. Bazzalan, a cunning satyr rogue, has allied with the Searing Blade cult inside the winding lava caverns of Ragefire Chasm. Swift and lethal with twin blades, he serves as one of the cult's primary field commanders. Perched upon a dark volcanic ledge overlooking the central chamber where Jergosh the Invoker conducts demonic rituals, Bazzalan oversees his cultist guards. Like all satyrs, his ultimate loyalty lies with demonic masters, using poisons, fast strikes, and dark stealth to eliminate any Horde scouts who venture too close to the cult's staging ground."
+    },
+    "npc:blind-hunter": {
+      "1": [
+        {
+          "duration": 60.65632653061225,
+          "file": "Audio/Transport/full_npc_blind-hunter-bc7231954205da5d087f/1-0000.mp3",
+          "sha256": "df8b1995e1d0328469e1b58e069002b735d85ea99a2f0ac56c71e8ba2188bc48",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "19a2b8",
+      "generation": "5b55d84b8eac160223db",
+      "hash": "c80801",
+      "source": {
+        "duration": 60.656327,
+        "file": null,
+        "sha256": "bc7231954205da5d087f473e84da6c0228caa48cb0094e21a381e4a5b829cc6f"
+      },
+      "text": "Blind Hunter. The Blind Hunter is an elusive, albino bat that roosts deep within Razorfen Kraul. Unlike the ordinary bats nesting near the cavern entrances, this rare creature prowls the sunless depths of the quilboar redoubt. Razorfen Kraul is riddled with winding briars and dark subterranean caverns. While common Kraul bats roost nearer to the surface where faint light filters in from the outside world, the Blind Hunter has adapted entirely to the furthest, darkest alcoves of the tangle. Its pale, albino hide and milky gaze are likely the result of generations spent completely isolated from natural sunlight. True to its name, scholars and scouts believe the creature has lost most or all of its conventional eyesight, relying instead on keen senses of hearing and echolocation to track prey through the gloom. It rarely shows itself, appearing only on occasion to hunt through the dense thickets, making an encounter with this phantom beast a prized occurrence among cavern explorers."
+    },
+    "npc:bloodmage-thalnos": {
+      "1": [
+        {
+          "duration": 65.98530612244897,
+          "file": "Audio/Transport/full_npc_bloodmage-thalnos-9d248d9070ca5db173b9/1-0000.mp3",
+          "sha256": "3adbeea8e73d4b251d49e87860fdf43b7f54d4fe39311d0cad8c410dd1d08cbf",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "36a8ea",
+      "generation": "cf0502a740563c4b7125",
+      "hash": "ac4634",
+      "source": {
+        "duration": 66.011429,
+        "file": null,
+        "sha256": "9d248d9070ca5db173b90192d1740c4c8946e410a67c86ce22a0c29f504d0ff5"
+      },
+      "text": "Bloodmage Thalnos. Bloodmage Thalnos is a skeletal spellcaster who haunts the Graveyard wing of the Scarlet Monastery. Once a sadistic interrogator within the Scarlet Crusade, he succumbed to the plague of undeath he fanatically fought against, yet he remains entrenched deep within their holy grounds. Within the zealous ranks of the Scarlet Crusade, Thalnos earned dark notoriety for his brutal methods of torture, used under the guise of purifying prospective recruits of taint. Yet despite his fanatical devotion to rooting out corruption, the sadistic mage ultimately succumbed to the plague of undeath. Rather than being cleansed or permanently destroyed, he rose as a withered skeleton, still clinging to his fiery magic and arcane mastery. Confined to the deepest corner of the monastery's courtyard tombs, Thalnos commands apparitions and shambling undead minions against anyone who disturbs his domain. His continued presence poses a bitter contradiction for the Crusade: an undead monstrosity lingering right beneath their sacred halls, embodying the very horror they swore an eternity to eradicate."
+    },
+    "npc:bruegal-ironknuckle": {
+      "1": [
+        {
+          "duration": 63.26857142857143,
+          "file": "Audio/Transport/full_npc_bruegal-ironknuckle-7add91c09d63528fe8be/1-0000.mp3",
+          "sha256": "89c9185210315ed586ab76b8c10653dc453d23d4823a5c0592714156becb4a86",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "958172",
+      "generation": "82ccb5efd84c9c85181c",
+      "hash": "300765",
+      "source": {
+        "duration": 63.268571,
+        "file": null,
+        "sha256": "7add91c09d63528fe8beff71271c75d3a7b51002675791affe8012424f298f75"
+      },
+      "text": "Bruegal Ironknuckle. Bruegal Ironknuckle is an infamous dwarven prisoner held within the Stormwind Stockade. Unlike the petty criminals and rioting rabble that fill the holding cells, he is a formidable brawler whose presence deep inside the corridors spells immediate danger to anyone trying to restore order. When the Stormwind Stockade erupted into open revolt, many of the city's most volatile cutthroats took control of the subterranean cellblocks. Among them is Bruegal Ironknuckle, a particularly dangerous dwarf inmate known for brutal brawling strength. Rather than staying confined to a single cell, he prowls the riot-torn hallways, ready to bash anyone attempting to quell the uprising. While much of the uprising inside the facility is orchestrated by the Defias Brotherhood and their ringleaders, inmates like Bruegal highlight that the prison houses assorted rogues and outlaws from across the eastern realms. Whatever crimes earned him a sentence deep beneath Stormwind, his fierce resilience makes him an elusive target and one of the deadliest lone inmates walking the prison corridors."
+    },
+    "npc:captain-greenskin": {
+      "1": [
+        {
+          "duration": 63.19020408163265,
+          "file": "Audio/Transport/full_npc_captain-greenskin-b91a866eb5e3ec85653a/1-0000.mp3",
+          "sha256": "c3ad9cae74313217db169e7b275d5104fc66047d6f4f927e5f2b6aa91d5c8c67",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "cd4430",
+      "generation": "5e269c25df32875ac76c",
+      "hash": "2cef2b",
+      "source": {
+        "duration": 63.190204,
+        "file": null,
+        "sha256": "b91a866eb5e3ec85653ac8ff1699e645e74373a3a58cc33a09d0e75691739358"
+      },
+      "text": "Captain Greenskin. Captain Greenskin is an elite goblin pirate overseeing the construction and crew of Edwin VanCleef's massive ironclad juggernaut. Hidden deep in the subterranean cove of the Deadmines, he commands the pirate forces hired by the Defias Brotherhood. His goal is to bring the warship to readiness to sail against Stormwind. Pacing the main deck of the gigantic juggernaut under construction in the Deadmines cove, Captain Greenskin represents the naval backbone of the Defias conspiracy. A seasoned goblin mariner who previously operated out of Booty Bay, Greenskin was brought into Edwin VanCleef's inner circle to turn an underground cavern into a drydock for an engine of war. Greenskin does not command an ordinary crew of stonemasons or bandits. Under his direct watch serve seasoned cutthroats, including his fearsome tauren first mate Mr. Smite and the murloc ship's cook, Cookie. Together, they hold the ship's gangplanks and upper deck, standing between intruders and VanCleef's private cabin atop the bridge."
+    },
+    "npc:commander-springvale": {
+      "1": [
+        {
+          "duration": 85.81224489795919,
+          "file": "Audio/Transport/full_npc_commander-springvale-1807a0a34e8556922fa3/1-0000.mp3",
+          "sha256": "c154b7f0f53f85b419c4ac14ab9b9ced6ce4c279b28669a335871538e9994f1a",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3d1383",
+      "generation": "2f51eff8ce0bd16ea694",
+      "hash": "e44ff4",
+      "source": {
+        "duration": 85.812245,
+        "file": null,
+        "sha256": "1807a0a34e8556922fa3b31428994caa74e3bd55ff697fb66a12f953d82cc2c4"
+      },
+      "text": "Commander Springvale. Commander Springvale was once a devoted paladin and the head of Baron Silverlaine's armed guard at Shadowfang Keep. Slain alongside his men during the feral worgen slaughter orchestrated by Archmage Arugal, his vengeful spirit remains behind to haunt the castle halls. Even in death, his ghost fiercely guards the keep and seeks vengeance for his fallen master. Before the ruin of Shadowfang Keep, Commander Springvale stood as an honorable paladin dedicated to the Holy Light and a sworn defender of Baron Silverlaine. Leading the garrison in Silverpine Forest, he oversaw the keep's security during the fraught days following the fall of Lordaeron to the Scourge. When Archmage Arugal summoned the extraplanar worgen to repel the undead Scourge encroaching upon Gilnean soil, the wild beasts quickly slipped from the mage's control. The ravenous pack descended upon the fortress, slaughtering Baron Silverlaine and his entire guard. Springvale perished in the halls he had sworn to protect, his service violently cut short. Death offered no release to Springvale's bound soul. Twisted by trauma and necromantic energy, his ghost lingers within the keep's stone chambers. Though he carried the teachings of the Light in life, his phantom now strikes out with unholy power, blindly executing an eternal duty to avenge the slain Baron against any trespasser who sets foot inside the keep."
+    },
+    "npc:cookie": {
+      "1": [
+        {
+          "duration": 75.75510204081633,
+          "file": "Audio/Transport/full_npc_cookie-dc15a268ba9567e08c99/1-0000.mp3",
+          "sha256": "1bb62e3ca499f3597506deb874950211487cddf40a0daa579632cb8179e6aad5",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "b02dea",
+      "generation": "c959336c80ff3b1eb396",
+      "hash": "59d851",
+      "source": {
+        "duration": 75.755102,
+        "file": null,
+        "sha256": "dc15a268ba9567e08c997da53b2ba83951a7782035d0c00dc662e3727ee4289a"
+      },
+      "text": "Cookie. Cookie is an elite murloc serving as the ship's cook aboard the juggernaut hidden deep within the Deadmines. An unusual recruit among the Defias Brotherhood, he tends the crew's cauldrons beneath the watchful eye of Captain Greenskin and Edwin VanCleef. He is the only entirely optional boss encountered within the underground dry dock. Beneath the decks of the towering juggernaut in the Ironclad Cove, cooking duty falls neither to a human outrider nor a goblin engineer, but to a solitary murloc known simply as Cookie. How he secured the position remains a private secret kept by Edwin VanCleef himself. Whatever doubts the rest of the crew might harbor about a murloc presiding over their rations, pirates are rarely in a position to be picky, and in the underworld of Moonbrook, a meal is a meal. Cookie patrols the waterways and shores around the pirate flagship, wielding his cooking utensils alongside acidic brews. Despite being isolated from typical murloc tribes, he defends his cauldron with savage ferocity, flinging caustic concoctions at any intruders who wander into the docks. Because his station sits away from the main gangplanks, many who storm the cove bypass his kitchen entirely, making him the only optional overseer aboard the Defias juggernaut."
+    },
+    "zone:alterac": {
+      "1": [
+        {
+          "duration": 122.67102040816326,
+          "file": "Audio/Transport/full_zone_alterac-488733dd5bce0046dc0d/1-0000.mp3",
+          "sha256": "23a239f61fe1512f3de9195d23dda4d15acf742d80653270976133c3de1069eb",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "8be44e",
+      "generation": "1095a1e804b2dbf270ca",
+      "hash": "b79aea",
+      "source": {
+        "duration": 122.67102,
+        "file": null,
+        "sha256": "488733dd5bce0046dc0d09e331c759f0940efc4d0010f091faee497d83e99575"
+      },
+      "text": "Alterac Mountains. The Alterac Mountains are a cold, ruined highland in central Lordaeron, once home to the treacherous human kingdom of Alterac and the scholarly magocracy of Dalaran. Today, the snow-dusted crags are overrun by the Crushridge ogres, the aristocratic bandits of the Syndicate, and remnant arcane forces. Travelers venture from nearby foothill settlements and the rebuilding city of Dalaran. During the Second War, Alterac was one of the Seven Kingdoms of humanity, but King Aiden Perenolde betrayed the Alliance of Lordaeron to side with the Old Horde, hoping to preserve his realm. His treachery was discovered and stamped out, fracturing the nation into disputed borderlands. Following the kingdom's dissolution and the horrors of the Third War, Alterac's grand stone capital was reduced to rubble. Today, the Ruins of Alterac are occupied by the brutal Crushridge ogres, led by Mug'thol, while the surviving human nobility organized into the Syndicate, a vicious criminal syndicate fighting to reclaim their lost estates by force. On the western edge of the mountains, along the shores of Lordamere Lake, sits what remains of the Kirin Tor's great city-state of Dalaran. Devastated by the demon lord Archimonde during the Third War, Dalaran's surviving magi threw up a massive, opaque violet dome of protective magic over the ruins. In Forever, the shield has already been removed while the city is still under reconstruction. The Kirin Tor continue rebuilding their sanctum, and Archmage Ansirem Runeweaver can be found within the Violet Citadel. Adventurers often venture into the peaks using Southshore or Tarren Mill as staging grounds. Beyond the wandering yetis, mountain lions, and Syndicate footpads, the region's greatest conflict churns beneath the snow line. Deep within the mountain passes lies Alterac Valley, where the dwarven Stormpike Guard have clashed with the reclusive Frostwolf clan of orcs over ancient territorial and mining rights."
+    },
+    "zone:arathi": {
+      "1": [
+        {
+          "duration": 91.95102040816326,
+          "file": "Audio/Transport/full_zone_arathi-53413d14c95b3b7eb46f/1-0000.mp3",
+          "sha256": "813873d4f807a54f0b7ab174708c48c531c0fc9a85addf613aac4522069fd7e4",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "631e20",
+      "generation": "a934a0946c01c88d67e4",
+      "hash": "064ca3",
+      "source": {
+        "duration": 91.95102,
+        "file": null,
+        "sha256": "53413d14c95b3b7eb46f6962c00bd739fdb0906fd816836ea2ae070478115191"
+      },
+      "text": "Arathi Highlands. The Arathi Highlands are a rugged plateau in southeastern Lordaeron, renowned as the ancient birthplace of the Empire of Arathor. Today, the kingdom of Stromgarde lies in ruins, leaving the craggy realm engulfed in multi-front warfare between the remnants of Stromgarde, the Horde, criminal Syndicate nobles, and invading ogres. Millennia ago, King Thoradin united the fractured human tribes under the banner of the Arathi, constructing the majestic capital of Strom across these dry, defensible plains. It was here that humanity forged its legendary compact with the high elves during the Troll Wars, mastering the arcane arts to push back the Amani. Over time, noble bloodlines migrated north into Lordaeron and south toward Stormwind, but the imperial guard stayed behind to form the martial realm of Stromgarde. For ages, Stromgarde stood as a bastion of stalwart warriors dedicated to keeping the forest trolls at bay. Stromgarde proved vital in defending the Alliance during the Second War under King Thoras Trollbane, but the Third War and its aftermath shattered the nation. Although the kingdom spared itself the worst ravages of the Scourge plague, the mysterious death of King Thoras threw the realm into turmoil. Boulderfist ogres swept in from the hills, while the traitorous Alteraci nobles of the Syndicate seized sprawling districts of Stromgarde Keep. Today, Prince Galen Trollbane and his loyalist survivors cling to a tiny sliver of the city and their redoubt at Refuge Pointe, waging a bitter guerrilla war against hopeless odds."
+    },
+    "zone:ashenvale": {
+      "1": [
+        {
+          "duration": 126.66775510204081,
+          "file": "Audio/Transport/full_zone_ashenvale-355c19f8da2301ddffcc/1-0000.mp3",
+          "sha256": "b516a229d06a762eb8202cde8f0e4bd6f3e824af2e2e8c2578d81dcfdc1883a0",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "6ca043",
+      "generation": "6e60c0bc0bf1f90deab0",
+      "hash": "30d864",
+      "source": {
+        "duration": 126.667755,
+        "file": null,
+        "sha256": "355c19f8da2301ddffcc6e4506c3653a9a340b3a9686507facfe54b9ae48cf09"
+      },
+      "text": "Ashenvale. Ashenvale is the ancient, rain-drenched ancestral forest of the night elves, held sacred under the protection of the Sentinels and the demigod Cenarius. Bordering the Barrens to the south and Darkshore to the north, it has erupted into a bitter war zone as the Horde harvests timber to build its young nation. Ancient trees and tranquil moonwells share canopy with demonic holdouts, hostile beastmen, and clash points along the contested frontier. Stretching beneath Mount Hyjal, Ashenvale has stood for millennia under the stewardship of the kaldorei and the children of Cenarius. Immense trees knit together into a dense canopy that turns daily rain into a gentle mist and casts the forest floor in eternal twilight. Ancient ruins of elven civilization poke through the moss, guarded by walking ancients and dryads. For thousands of years, the night elves built no true cities here, preferring to hunt lightly and preserve the wild domain in pristine balance. The peace shattered during the Third War when Grommash Hellscream and the Warsong clan penetrated the forest for lumber, slaying Cenarius after falling to demonic bloodlust. Today in 25 ADP, the struggle has become a full-scale territorial war. From Splintertree Post and the southern Mor'shan Rampart, the Warsong Outriders drive axes and shredders into the eastern woods to supply Orgrimmar. The Silverwing Sentinels, based in the sanctuary town of Astranaar, have sworn to expel every last orcish logger from the sacred grove. The lumber war is far from Ashenvale's only peril. The Burning Legion left scarred blights at Felfire Hill and Demon Fall Canyon, where Mannoroth met his end. Cruel satyrs operate out of ruins like Satyrnaar and Xavian, corrupting waterways and wildlife. Furbolg tribes, once friends of the elves, have largely succumbed to dark madness. Meanwhile, mysterious worgen stalk the northern shrine near Felwood, and cursed dragonkin prowl Bough Shadow, guarding a portal into the troubled Emerald Dream."
+    },
+    "zone:azshara": {
+      "1": [
+        {
+          "duration": 126.82448979591837,
+          "file": "Audio/Transport/full_zone_azshara-43e6439f22b2281d771f/1-0000.mp3",
+          "sha256": "2eba42f6e2e4a9656fcb5e98f555d3aa410d87314141ed92ef5b5ed6bcdca895",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "083fb6",
+      "generation": "80dbded048d06a36e2fc",
+      "hash": "d0a0f1",
+      "source": {
+        "duration": 126.850612,
+        "file": null,
+        "sha256": "43e6439f22b2281d771f51bd6b335d5170960415787f0b3d90708e3cbc8bc4e4"
+      },
+      "text": "Azshara. Azshara is a rugged, windswept coastline in northeastern Kalimdor cloaked in vibrant, perpetual autumn foliage. Once part of the glorious night elven capital before the Great Sundering shattered it into the sea, it remains a dangerous wilderness littered with ancient ruins, brooding naga, and isolated practitioners of magic. Both the Horde and the Alliance maintain precarious outposts along its borders, wary of the restless ghosts and ocean horrors lurking within. Ten thousand years ago, this coast was the beating heart of the kaldorei civilization, surrounding the royal capital of Zin-Azshari. When Queen Azshara and her Highborne court drew the Burning Legion into Azeroth, the resulting War of the Ancients culminated in the catastrophic collapse of the Well of Eternity. The sea thundered inward, swallowing most of the magnificent city and leaving behind fractured cliffs, treacherous coral reefs, and waterlogged spires. The survivors renamed the ruined landscape after their fallen monarch, branding it as a cursed monument to pride and catastrophic betrayal. Azshara is famous for its stunning crimson, orange, and gold canopy, giving the impression of an eternal autumn unbroken by changing seasons. Beneath this tranquil canopy, however, lies an inhospitable expanse. Corrupted satyrs practice dark rituals in forested hollows, lingering Highborne apparitions haunt drowned foundations, and Spitelash naga prowl the shallow reefs of the Coral Sea. Ferocious beasts, giant hydras, and mountain giants roam unchecked across the highlands and ivory beaches. Because of its isolation and harsh terrain, Azshara draws recluse figures pursuing forgotten crafts or watching over dangerous powers. The enigmatic Archmage Xylem inhabits a secluded tower perched high above the cliffs, testing promising spellcasters and cunning rogues alike. Farther along the coast, the demon hunter Loramus Thalipedes watches the waves from a barren isle, while the immense sea giant Lord Arkkoroc demands blood sacrifices from his temple overlooking the churning waters."
+    },
+    "zone:badlands": {
+      "1": [
+        {
+          "duration": 113.16244897959184,
+          "file": "Audio/Transport/full_zone_badlands-f8dc3f47c3189cd79823/1-0000.mp3",
+          "sha256": "da6b0a97d0974762bdb48090213abb0742e5c94ff5ab2cce984f37a3209898f8",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "cb90ef",
+      "generation": "e19c4f027b3ef4587947",
+      "hash": "9c579d",
+      "source": {
+        "duration": 113.188571,
+        "file": null,
+        "sha256": "f8dc3f47c3189cd79823c19577d27fe10214316911cee4c55dbeac8a9df6bf17"
+      },
+      "text": "Badlands. The Badlands is an arid, sun-baked expanse of cracked earth, dust storms, and rocky canyons nestled between Loch Modan and Searing Gorge. Despite being deep within dwarven Khaz Modan, it serves as a volatile frontier dominated by Dark Iron dwarves, troggs, Dustbelcher ogres, and nesting black dragonkin. It also houses the titan ruins of Uldaman and the Horde stronghold of Kargath, making it a critical strategic waypoint. Wedged south of Loch Modan's verdant hills, the Badlands quickly turns into a sweltering basin of barren flats and rugged ravines. Surviving here requires contending with merciless coyotes, cougars, vultures, and fierce sandstorms that obscure the horizon. Scattered across the plateaus are the crude encampments of the Dustbelcher ogres, while the brooding Dark Iron clan fortifies Angor Fortress and clashes with anyone trespassing on their territory. In the northern bluffs lies Uldaman, an ancient subterranean complex carved out by the titan-forged earthen. Recently uncovered by Ironforge prospectors, the excavation unearthed monumental secrets regarding the ancient ancestry of the dwarven race. However, digging into the subterranean vaults awoke hordes of vicious Stonevault troggs and animated earthen guardians, slaughtering archaeological teams and turning the digsites outside into bloody skirmish grounds. The Badlands is one of the Horde's most precarious footholds in the southern Eastern Kingdoms. Established in the northwest, the fortress of Kargath gives Warchief Thrall's forces a base of operations to keep watch on the rogue Dark Horde in nearby Blackrock Mountain. Meanwhile, to the far east lies Lethlor Ravine, a treacherous chasm where black whelps and dangerous black dragonkin guard their brooding grounds under the shadow of the mountains."
+    },
+    "zone:barrens": {
+      "1": [
+        {
+          "duration": 92.21224489795918,
+          "file": "Audio/Transport/full_zone_barrens-3ab9cc89daeb83bb4616/1-0000.mp3",
+          "sha256": "d09839bad23b00b3885e76c62d8e6e90841f8dbb6f6c01264261629c6c7afe9a",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "44979c",
+      "generation": "78358f5b407ad10052cb",
+      "hash": "883834",
+      "source": {
+        "duration": 92.212245,
+        "file": null,
+        "sha256": "3ab9cc89daeb83bb46169af2523a1dd2ef3e192cff49c68807b877e93fb2696c"
+      },
+      "text": "The Barrens. The Barrens is an expansive, sun-baked savanna that serves as the beating geographical and logistical heart of the Horde in central Kalimdor. Once a verdant forest prior to the Great Sundering, it is now an arid plain of red dust, hardy scrub, and wandering wildlife. Centered around the strategic hub of the Crossroads, the land remains locked in constant struggle against quilboar tribes, centaur raiders, and creeping corruption. For countless generations, nomadic tauren hunted kodo and zhevra across these plains while waging a defensive, cyclical war against marauding Kolkar centaur. When Thrall led the orcs to Kalimdor during the Third War, he aided Cairne Bloodhoof in repelling the centaur and traversing the savanna into Mulgore. Today, the Barrens connects Durotar, Mulgore, and Ashenvale. Outposts like the Crossroads and Camp Taurajo secure trade along the Gold Road, while orcish homesteads brave the arid climate to forge a lasting home. Despite Horde dominance, control over the savanna is hotly contested. Porcupine-like Razormane quilboar aggressively raid farms and supply lines from their thorn-choked redoubts, backed by the looming dens of Razorfen Kraul to the south. Along the eastern coast, Theramore forces garrison Northwatch Hold, while dwarven prospectors dig into the titan complex of Bael Modan. Meanwhile, the goblins of Ratchet enforce an uneasy mercantile neutrality, welcoming any traveler with coin."
+    },
+    "zone:blackfathom": {
+      "1": [
+        {
+          "duration": 96.3134693877551,
+          "file": "Audio/Transport/full_zone_blackfathom-4e8940d4ac72b0f89409/1-0000.mp3",
+          "sha256": "13b19e16b3cefe2aae54f681c53efdcd16586ae92c4ed987cddf1b3f235f9c6f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "6647db",
+      "generation": "ed5c0b835d138043ff84",
+      "hash": "241f6a",
+      "source": {
+        "duration": 96.339592,
+        "file": null,
+        "sha256": "4e8940d4ac72b0f894096d3ff0232f412d4143711cc40652888ea8afee742354"
+      },
+      "text": "Blackfathom Deeps. Blackfathom Deeps is a flooded subterranean temple complex situated along the Zoram Strand in northwestern Ashenvale. Once a shrine dedicated to the night elven moon goddess Elune, the sunken sanctuary has been overtaken by the Twilight's Hammer cult, treacherous naga, and satyrs. They gather in its dark waters to venerate and nurture Aku'mai, a primordial pet and herald of the Old Gods. Long before the Great Sundering shattered ancient Kalimdor, this complex was known as Lathar'Lazal, a splendid temple dedicated to Elune. Highborne masons raised gem-encrusted bridges while Queen Azshara commanded the surrounding waters, partitionining salt seas and mountain streams around a sacred moonwell. When the Sundering tore the world apart ten thousand years ago, the temple sank into the coastal depths of the Veiled Sea. For millenia, it sat undisturbed beneath the waves—until foul whispers began seeping upward from the subterranean dark. Drawn by mad dreams and dark portents, the Twilight's Hammer cult converged on the sunken ruins. Within, they forged an unholy truce with coastal naga led by Lady Sarevess and prowling satyrs. Together, they desecrated the moonwell and enslaved local life. They drove the giant sea turtle Ghamoo-ra mad through years of torment, allowed the brutal murloc Gelihast to erect a blood shrine, and stocked cavernous depths with fresh sacrifices. Under the leadership of Twilight Lord Kelris, the cultists turned the ruins into a staging ground for the Old Gods' impending return."
+    },
+    "zone:blastedlands": {
+      "1": [
+        {
+          "duration": 156.49959183673468,
+          "file": "Audio/Transport/full_zone_blastedlands-d9767631ee658b827b50/1-0000.mp3",
+          "sha256": "eb876a8a2887647bc3dc4d6d95684eeb34917b3f3b3442b1e70d7e7435c69ff9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "977846",
+      "generation": "18fa3840c3e5080ceb91",
+      "hash": "7fb091",
+      "source": {
+        "duration": 156.499592,
+        "file": null,
+        "sha256": "d9767631ee658b827b5077aa1a0680f38c25365731d8032fad0112cba47dfc60"
+      },
+      "text": "Blasted Lands. The Blasted Lands are a desolate expanse of red clay and barren rock at the southeastern tip of the Eastern Kingdoms, ruined by the chaotic energies of the Dark Portal. Once part of the verdant Black Morass, the shattered earth now harbors demonic remnants of the Burning Legion, brutal Dreadmaul ogres, and hardy desert beasts. Nethergarde Keep stands vigil over the desolate wasteland, guarding Azeroth from whatever horrors may spill out of the dormant gateway. Before the First War, this region was a continuation of the dense fenlands known as the Black Morass. That lush swamp was utterly eradicated when the warlock Gul'dan and the possessed Medivh tore open the Dark Portal to unleash the orcish Horde. Chaotic fel energies bled through the dimensional breach, stripping all moisture and baking the earth into cracked red clay. When the Dark Portal was later destroyed at the end of the Second War, catastrophic shockwaves scorched the terrain further, transmuting the native stone into its unearthly crimson hue. Perched upon the northern bluffs, Nethergarde Keep watches over the only road entering the valley. Commissioned by Archmage Khadgar and the Kirin Tor following the Second War, this stone bastion is manned by grim mages and stalwart soldiers sworn to prevent any renewed demonic or orcish incursions. It is an uninviting and strictly disciplined posting; infractions among the garrison are punished with banishment to the Stockade in Stormwind. The defenders face relentless pressure from the Dreadmaul ogres who stayed behind after Draenor's fall, raiding the roads and attacking the fortress gates under fell guidance. In the southwestern reaches lies the Tainted Scar, a cratered canyon teeming with the deadliest demonic force on the continent. Stranded after the defeat at Mount Hyjal, the doomguard commander Lord Kazzak gathers wandering demons, doomguard, and felhounds to his banner. High above the red barrens, his dreadlord lieutenant, Razelikh the Defiler, orchestrates mortal servitude among the Shadowsworn cultists at the Altar of Storms and commands the local Dreadmaul ogres. Despite the land's desolation, scholars and wanderers brave its horrors for unique discoveries. Just inside the northern pass, Bloodmage Drazial and Bloodmage Lynnore conduct eccentric alchemical experiments, extracting organs from local scorpids, basilisks, and boars to brew extraordinarily potent physical enhancers. Farther into the wastes, a lone draenei hermit named Kum'isha seeks scattered draenethyst fragments, rewarding travelers who recover these alien remnants left behind by Draenor's shattered past."
+    },
+    "zone:burningsteppes": {
+      "1": [
+        {
+          "duration": 130.2465306122449,
+          "file": "Audio/Transport/full_zone_burningsteppes-627e87510e7a4c7ad77f/1-0000.mp3",
+          "sha256": "c6031dd75f098ea6d2e3310bbfe838d52210ae2f2d814dc7b5c294acf1db7318",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f70df7",
+      "generation": "b365b362508f5a8677a2",
+      "hash": "a115b0",
+      "source": {
+        "duration": 130.246531,
+        "file": null,
+        "sha256": "627e87510e7a4c7ad77fa9d0e7272b6a9243abc25bb283bde94b70d027052436"
+      },
+      "text": "Burning Steppes. The Burning Steppes are a scorched, volcanic wasteland flanking the southern base of Blackrock Mountain. Formed by the catastrophic summoning of Ragnaros centuries ago, this treacherous territory holds the primary overland passage between Stormwind and Khaz Modan. Today, it crawls with rogue Blackrock orcs, Firegut ogres, Dark Iron dwarves, and broodlings of the black dragonflight. Long ago, these foothills were simply the northern reaches of the Redridge Mountains. During the War of the Three Hammers, the exiled Dark Iron clan established their kingdom here, raising their capital city of Thaurissan. Facing total defeat at the hands of the Bronzebeard and Wildhammer clans, the desperate Sorcerer-Thane Thaurissan attempted to conjure elemental forces. Instead, he shattered the earth and summoned Ragnaros the Firelord into Azeroth. The violent explosion pulverized the surrounding mountains, tore open rivers of lava, and birthed the colossal volcano known as Blackrock Mountain, leaving the steppes forever charred and barren. During the Second War, the Old Horde claimed Blackrock Spire as its foremost seat of power. At the climax of the conflict, the Grand Alliance of Lordaeron pushed deep into the Burning Steppes to lay siege to the mountain. It was at the foot of Blackrock Mountain that Warchief Orgrim Doomhammer clashed with Lord Anduin Lothar, striking down the human champion. Rather than breaking the Alliance's resolve, Lothar's death galvanized the Allied armies to rout the orcs, sealing the victory of the Second War and leaving behind an enduring valley of ash and rusted steel. Though Thrall established a New Horde in distant Kalimdor, the Blackrock clan remaining in the steppes maintains the bloodthirsty cruelty of the Old Horde. Operating from Blackrock Stronghold, these orcs openly ally with the black dragonflight and local Firegut ogres rather than honor any truce. Meanwhile, Dark Iron dwarves and elemental servitors lurk among the fiery ruins, all while black drakes and wyrmkin prey upon unwary travelers attempting to use the thoroughfare to cross between Stormwind and the northern kingdoms."
+    },
+    "zone:darkshore": {
+      "1": [
+        {
+          "duration": 122.35755102040817,
+          "file": "Audio/Transport/full_zone_darkshore-fa475c17593aca6b3faa/1-0000.mp3",
+          "sha256": "91813102099c9b9b76a88912536d05352de784dcb1875d0a7b855d182d60e25f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "9e6c27",
+      "generation": "6227e421555d9631699d",
+      "hash": "3b8af3",
+      "source": {
+        "duration": 122.357551,
+        "file": null,
+        "sha256": "fa475c17593aca6b3faa990fa20a5d452a1e4afdece59b3ab981483d98264aaf"
+      },
+      "text": "Darkshore. Darkshore is a cold, mist-shrouded strip of coast lining northwestern Kalimdor, dotted with ancient Kaldorei ruins and troubled wildlife. Anchored by the Alliance harbor town of Auberdine, it serves as the primary continental gateway for travelers arriving from Teldrassil and the Eastern Kingdoms. Beyond the patrolled road, demonic cults, encroaching naga, and a creeping corruption from the highlands threaten the region's delicate balance. Stretching beneath the western shadows of Mount Hyjal and Felwood, Darkshore is characterized by pine groves, sea fog, and rocky beaches beaten by cold waves. Millennia ago, this coast was home to the flourishing Kaldorei twin cities of Ameth'Aran and Bashal'Aran. Shattered during the Great Sundering, their skeletal pillars and marble arches now lie half-drowned in the surf or overgrown with roots, haunted by restless Highborne spirits and overrun by scavenger murlocs and invasive naga. Following the Third War and the planting of Teldrassil, the night elves established Auberdine as a bustling maritime haven amidst the wilderness. Featuring wooden piers that welcome regular vessels from Rut'theran Village and Menethil Harbor in the distant Wetlands, Auberdine is the lifeline linking night elf territory to the rest of the Alliance. Sentinels diligently patrol the trade highway south toward Ashenvale, though their small garrison struggles to police the deep wilds beyond the path. Despite its shelter against the eastern mountains, Darkshore suffers from a slow, malignant rot. Corrupted run-off trickling down from Felwood poisons sources like Cliffspring Falls, fouling the water table and driving the local bears, stags, and furbolgs of Blackwood Den into violent madness. Worse still, sinister organizations have established footholds in the shadows: the Dark Strand and Twilight's Hammer cultists perform foul rituals at the Tower of Althalaxx and convene around the terrifying, ancient monument known as the Master's Glaive."
+    },
+    "zone:darnassus": {
+      "1": [
+        {
+          "duration": 124.26448979591837,
+          "file": "Audio/Transport/full_zone_darnassus-b6766da8fd3b74e9c6b1/1-0000.mp3",
+          "sha256": "97b3dd3fe60845872eb49ef43856066d8b4b88a852c003f926d6b95ab291b44c",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "b437ab",
+      "generation": "d66b094f4291e1239968",
+      "hash": "64ec56",
+      "source": {
+        "duration": 124.290612,
+        "file": null,
+        "sha256": "b6766da8fd3b74e9c6b1448af7a1920a9e6d58c2fd03c8973e3e8e782b3feb3f"
+      },
+      "text": "Darnassus. Darnassus is the serene, open-air capital city of the night elves, built amidst the branches of the newly planted World Tree, Teldrassil. Governed by High Priestess Tyrande Whisperwind alongside the druids of the Cenarion Enclave, it serves as a tranquil sanctuary for an ancient people adapting to mortality. Sheltered across vast terraces surrounding a crystalline lake, it stands as the heart of night elf society and their bridge to the Alliance. Unlike the dense masonry of Stormwind or the carved stone tunnels of Ironforge, Darnassus is broad, quiet, and intimately open to the wilderness. Formed upon the upper canopy of Teldrassil off northern Kalimdor's coast, the capital's graceful wooden structures and winding pathways encircle a tranquil central lake. Elegant bridges connect terraces dedicated to tradesmen, craftsmen, sentinels, and druids, creating an atmosphere that balances civic governance with profound reverence for nature. Darnassus is remarkably young for a civilization thousands of years old. Following the Third War and the sacrifice of Nordrassil at Mount Hyjal, the kaldorei suddenly faced the perils of aging and sickness. Seeking a renewal of their lost vitality, Archdruid Fandral Staghelm and his followers planted Teldrassil in defiance of missing Archdruid Malfurion Stormrage's warnings. Darnassus was founded among its immense boughs as an asylum and monument to their survival, though shadows of malaise already whisper among its roots. Though peaceful on its surface, Darnassus balances on a delicate political divide. From the towering colonnades of the Temple of the Moon, High Priestess Tyrande Whisperwind guides the spiritual life and military defense of her people through the vigilant Sentinels. Across the waterways in the Cenarion Enclave, Archdruid Fandral Staghelm commands the druids in Malfurion's continuing absence. While both leaders present a united front to their newfound Alliance partners, friction between the priestesses and the druidic circle lingers throughout the city."
+    },
+    "zone:deadmines": {
+      "1": [
+        {
+          "duration": 110.91591836734693,
+          "file": "Audio/Transport/full_zone_deadmines-1383d1fdc799991cefaa/1-0000.mp3",
+          "sha256": "cd65b74f2625e22bc4fd59e5febb8a9e6026a096a42607f4af5ce7deec523509",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "c630fb",
+      "generation": "8c02d44a477e9aaa21fc",
+      "hash": "9ef30a",
+      "source": {
+        "duration": 110.915918,
+        "file": null,
+        "sha256": "1383d1fdc799991cefaa08d113030398422d1fac5962b0a2c9f438f292701d25"
+      },
+      "text": "The Deadmines. Deep beneath the dusty farm town of Moonbrook lies the Deadmines, an enormous subterranean complex that once supplied a third of Stormwind's gold reserves. Abandoned during the First War and long considered haunted, these labyrinthine tunnels have secretly been overtaken by the Defias Brotherhood as their ultimate staging ground. Here, Edwin VanCleef and his conscripted goblin engineers labor away from the eyes of the realm to build an engine of vengeance against the kingdom. Before the First War, the Deadmines were celebrated as the greatest gold-producing center in human lands, financing the prosperity of Stormwind. When the Orcish Horde swept through the kingdom and razed the capital, the mines were hastily abandoned to the dark. During those turbulent years, legendary figures walked these depths: Sir Anduin Lothar was imprisoned by subterranean ogres for twenty months while recovering the sacred Tome of Divinity, and Warchief Blackhand's rebellious daughter Griselda fled into the lower passages alongside the ogre Turok before both met their ends. Believed to be cursed and populated only by shambling undead and lurking subterranean vermin, the depths lay untouched for decades. When the Stonemasons' Guild was cast out of Stormwind without payment for rebuilding the city, Edwin VanCleef reorganized the disenfranchised artisans into the Defias Brotherhood. Seeking a secure headquarters safe from Gryan Stoutmantle's People's Militia, the thieves established their central redoubt within the abandoned tunnels. They drove out the legitimate Miners' League—leaving Foreman Thistlenettle's doomed workers to perish and rise as undead ghouls—and converted the shafts into an industrial war camp. Guarded by lumbering ogres, seasoned brigands, and mechanical constructs, the lower mines echo once again with picks, fires, and illicit industry."
+    },
+    "zone:deadwind": {
+      "1": [
+        {
+          "duration": 133.4073469387755,
+          "file": "Audio/Transport/full_zone_deadwind-c916e8908078203526dd/1-0000.mp3",
+          "sha256": "7538e9a7b0ffc31cc8a68e4e629c9522b49334539a7488bcaf2c292e22bd9107",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "37e1f2",
+      "generation": "0128f7f6b468835db4d4",
+      "hash": "7990db",
+      "source": {
+        "duration": 133.407347,
+        "file": null,
+        "sha256": "c916e8908078203526dd777b86d8eaa08a654f51b350606ff3841ba782e7c7a4"
+      },
+      "text": "Deadwind Pass. Deadwind Pass is a blighted, jagged canyon in central Azeroth connecting Duskwood to the Swamp of Sorrows. At its center looms the Ivory Spire of Karazhan, former seat of the Guardian Medivh, whose death unleashed corrupting magical runoff across the land. It is a lifeless corridor stalked by ogres, ghosts, and demonic winds, offering neither refuge nor civilized shelter. Once considered an extension of the Redridge Mountains, Deadwind Pass has devolved into a hollowed-out scar of bleached stone and petrified wood. A foul, relentless wind cuts through the ravines, giving the gorge its name. The sky above is locked in a perpetual sepulchral gray, threatening erratic lightning storms that make traveling with metal arms hazardous. Totemic effigies hang from lifeless branches alongside the main road, warning wayfarers to keep moving. There are no fertile soils here, no mineable mineral veins, and no towns or flight masters to offer aid. The history of the pass revolves around the towering citadel of Karazhan. Built atop a potent convergence of subterranean ley lines, the tower served as the redoubt of the Guardian Medivh. It was within this spire that Medivh plotted the opening of the Dark Portal and the ruin of Stormwind. When his madness and possession came to light during the First War, an expedition led by Lord Anduin Lothar and young Khadgar breached the tower and executed him. Medivh's violent demise released a shockwave of fel taint that blighted both the pass and neighboring Brightwood, leaving Karazhan an ominous, locked husk leaking unstable magical energy. South of the main thoroughfare, the pass branches into the territory of the Deadwind ogres around the Vice. Dressed in foul rags and wielding jagged iron, these brutes relentlessly ambuscade anyone venturing near the southern road, reportedly serving a hidden master within the vicinity. Further south lies Morgan's Plot and the skeletal remnants of a hamlet that once catered to the tower. Today, the village's above-ground ruins and labyrinthine cellars crawl with wailing phantoms and restless shades, remnants of those whose lives were extinguished by Karazhan's unbridled sorcery."
+    },
+    "zone:desolace": {
+      "1": [
+        {
+          "duration": 139.28489795918367,
+          "file": "Audio/Transport/full_zone_desolace-081a76171d4af73d3f23/1-0000.mp3",
+          "sha256": "77002614aaa28e432ad2eb78583e37a58b12c9b2a5f7d2cccc44cc70654fa4af",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3f448c",
+      "generation": "bf15bd26d8eca59e6585",
+      "hash": "0855ef",
+      "source": {
+        "duration": 139.31102,
+        "file": null,
+        "sha256": "081a76171d4af73d3f235ebe74c879798fc7a5a23ec54f124ad9efe37291f556"
+      },
+      "text": "Desolace. Desolace is a bleak, windswept desert on Kalimdor's western coast, defined by cracked gray earth, constant stormy skies, and the bones of fallen beasts. It is the ancestral cradle of the vicious centaur race and a contested wasteland scarred by ancient Highborne ruins, encroaching demonic cults, and bitter tribal warfare. Both the Horde and Alliance maintain precarious footholds amidst the dust, each seeking to carve out influence while warding off spreading corruption. Desolace was not always a barren expanse of ash and yellowed pools. Over a millennium ago, it was Mashan'she—a lush meadowland tended by tauren shaman. That paradise unraveled when the earth elemental Princess Theradras awakened from beneath the soil, draining the surrounding life force to regenerate her form. The calamity summoned Zaetar, son of Cenarius, but rather than subduing her, he took the princess as his mate. From their unnatural union sprang the first centaur. In shame and bloodthirsty wrath, the newborn race murdered their father, overran the verdant plains, and drove the tauren away, leaving behind the scarred wasteland known today. The interior of Desolace echoes with the thunder of thousands of hooves as four splintered centaur tribes wage endless war against all interlopers and each other. The Kolkar roam the eastern cliffs, the Magram hold crude yurts around brackish sinkholes, the Gelkis dwell behind rope bridges in deep southern ravines, and the fanatical Maraudine defend the approach to Maraudon itself. Travelers venturing across the wastes frequently find themselves drawn into this ancient blood feud, forced to slaughter one tribe to gain safe passage and tenuous parley with another. Beyond the warring centaur, darker perils fester along the borders. The Burning Blade cult operates freely out of Thunder Axe Fortress and Shadowbreak Ravine, summoning demons and satyrs that threaten to drown the region in fel fire. Along the stormy shoreline, naga creep onto the beaches of Ethel Rethor, while Darkspear trolls spear fish from the stilted platforms of Shadowprey Village. Tucked high in the northern crags, the Alliance watches from Nijel's Point, suspicious of the Horde's expansion and ever wary of the demonic taint spreading from Mannoroc Coven."
+    },
+    "zone:dunmorogh": {
+      "1": [
+        {
+          "duration": 132.8065306122449,
+          "file": "Audio/Transport/full_zone_dunmorogh-f2832c0116af0ecd28ad/1-0000.mp3",
+          "sha256": "c08a45a234e58a43bea2da321cf6c290c21d4cab747493efaf73cd593cc0ca0d",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "b44509",
+      "generation": "502592310ccfde692911",
+      "hash": "ee26fa",
+      "source": {
+        "duration": 132.806531,
+        "file": null,
+        "sha256": "f2832c0116af0ecd28adfbc4359b4b67607de454bf4bf9618b112d6743531630"
+      },
+      "text": "Dun Morogh. Dun Morogh is a snow-swept mountain highland situated at the heart of Khaz Modan. It serves as the ancestral starting ground and shared homeland for the dwarves of Ironforge and the displaced gnomes of Gnomeregan. Though guarded by towering peaks and fortified passes, the snowy realm faces rising internal threats from troggs, Frostmane trolls, and irradiated leper gnomes. Dun Morogh occupies the highest peaks in the Eastern Kingdoms, an alpine expanse ringed by jagged summits that shield it from Searing Gorge to the south and the Wetlands to the north. These snowy mountains feed the rivers flowing across Khaz Modan and provide near-limitless veins of copper and iron. Access is heavily restricted to mountain tunnels like North Gate Pass and South Gate Pass, watched closely by dwarven Mountaineers. At the heart of the region sits Ironforge, an ancient subterranean wonder and the capital of King Magni Bronzebeard's realm, linked straight to Stormwind by the marvel of the Deeprun Tram. Centuries ago, the dwarves drove the native Frostmane ice trolls into the crags, carving out room for themselves alongside their brilliant gnome allies. The two races flourished in neighboring mountain halls until the recent catastrophe in Gnomeregan during the Third War. A horrific trogg invasion and a catastrophic radioactive venting ruined the technological wonder, turning its defenders into mindless leper gnomes and driving High Tinker Gelbin Mekkatorque and his surviving folk into exile. Now, the gnomes dwell as guests inside Ironforge, while leper gnomes and surviving troggs spill out into Chill Breeze Valley. Life in the drifts is far from quiet. The Frostmane tribe has grown emboldened, establishing heavily armed encampments from Shimmer Ridge down to Coldridge Valley. Meanwhile, primitive troggs have clawed their way out of ancient subterranean fissures into Gol'Bolar Quarry, threatening the region's mining operations. Between prowling wendigos, wild boars, infiltrating Dark Iron dwarven agents, and toxic fallout spreading from the ruins of Gnomeregan, the dwarven Mountaineers are stretched thin maintaining order from Kharanos to the border gates."
+    },
+    "zone:durotar": {
+      "1": [
+        {
+          "duration": 130.03755102040816,
+          "file": "Audio/Transport/full_zone_durotar-12995eb3cf083c505bd9/1-0000.mp3",
+          "sha256": "77349a9f39ccb16c1cf7e44366da4606e07e161578c726147ff761bec261dc5a",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ae1b6e",
+      "generation": "7fe05249709827750b35",
+      "hash": "660cb8",
+      "source": {
+        "duration": 130.037551,
+        "file": null,
+        "sha256": "12995eb3cf083c505bd95f2f821c772e4f6db9554d07e8c7b85bd3a645f3f118"
+      },
+      "text": "Durotar. Durotar is the arid, red-rock homeland founded by Warchief Thrall following the Third War, named in honor of his father, Durotan. Bounded by the Southfury River and the Great Sea, it serves as the heartland of the New Horde and the proving ground for young orcs and Darkspear trolls. Within its harsh canyons lie fortified settlements like Razor Hill, the sprawling warrior city of Orgrimmar, and entrenched hostile holdouts ranging from quilboar tribes to stranded Alliance troops. When Thrall led his people across the Great Sea to Kalimdor, he deliberately sought an untamed frontier where the orcs could carve out an honest existence through labor and grit rather than conquest. Durotar's cracked red soil, baked gullies, and towering red-rock spires remind the orcs deeply of Draenor before its destruction. While the climate is unforgiving, offering little arable land and sparse water, the Horde embraced the landscape's natural defense and austere majesty. Bordered to the west across the Southfury River by the open Barrens and to the north by the ruined wilderness of Azshara, Durotar stands as living proof that the orcs have forged their own destiny. Though Durotar is firmly under Horde dominion, securing it remains an active war. Razormane quilboar, pushed out during the nation's founding, relentlessly raid settlements and farms from the western crags. Farther south, remnants of Grand Admiral Daelin Proudmoore's Kul Tiras fleet still hold the crumbling garrison of Tiragarde Keep under Lieutenant Benedict, refusing to surrender. Worse still, demonic remnants of the Burning Blade coven lurk within hidden ravines and deep sea caves, subtly seeking to re-corrupt young orcs with promises of fel power. Along the southern coast lies Sen'jin Village, the staging ground for the exiled Darkspear trolls. Led by Master Gadrin, the Darkspear were forced from their home on the nearby Echo Isles when the witch doctor Zalazane lost his mind and used dark voodoo to enslave his kin. Unable to reclaim their islands alone, the Darkspear rely on newly trained orc and troll warriors stepping forth from the Valley of Trials to break Zalazane's hold and secure the coast."
+    },
+    "zone:duskwood": {
+      "1": [
+        {
+          "duration": 131.31755102040816,
+          "file": "Audio/Transport/full_zone_duskwood-da0b07156ff47292de9f/1-0000.mp3",
+          "sha256": "e6421d76d8b014186458dea5be3b75fec65b23d0a64451d2a8c86ca80d3ee7da",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3559d0",
+      "generation": "e1700034dd5176f61d69",
+      "hash": "246803",
+      "source": {
+        "duration": 131.317551,
+        "file": null,
+        "sha256": "da0b07156ff47292de9fde913ce2a9c2d0b7e538e5db95d6fa170e5cd3e8dd31"
+      },
+      "text": "Duskwood. Once a sunlit expanse of southern Elwynn known as Brightwood, Duskwood is now a cursed woodland trapped beneath an unnatural, perpetual gloom. Abandoned by the authorities in Stormwind, its besieged human inhabitants cling to survival in Darkshire under the watchful protection of the local Night Watch militia. Across its darkened groves and haunted barrows roam flesh-eating ghouls, gigantic venomous spiders, raiding ogres, and savage, mysterious worgen. Before the darkness descended, this province was known as Brightwood, a rich agricultural tract of the Kingdom of Stormwind boasting prosperous settlements like Grand Hamlet and Raven Hill. The region's tragedy began when Guardian Medivh fell at Karazhan during the First War, unleashing waves of corrupted fel magic that twisted the serene woodland into a gnarled, shadowy morass. Spiders mutated into terrifying predatory beasts, while fleeing wolves spilled north into Elwynn Forest. Over time, Grand Hamlet was rechristened Darkshire, its terrified townsfolk left largely to fend for themselves as the realm's royal garrison withdrew to defend the capital. Today, Darkshire survives only through the vigilance of Commander Althea Ebonlocke and her volunteer militia, the Night Watch, while Lord Ello Ebonlocke attempts to govern the crumbling settlement. Beyond the town's lantern-lit perimeter lies utter peril: the massive Raven Hill Cemetery churns with restless dead raised by the necromancer Morbent Fel, the Vul'Gol ogres have migrated from Deadwind Pass to claim the south, and sinister Dark Riders stalk the crossroads in relentless search of the lost Scythe. Near the center of Duskwood lies a deep, ancient crater that defies the surrounding corruption: the Twilight Grove. Long before human kingdoms walked these lands, the archdruid Fandral Staghelm planted a bough from Nordrassil here to contain foul saronite growths. The branch blossomed into a Great Tree hosting a dormant portal into the Emerald Dream. Bathed in a soft, ethereal twilight, the grove remains an unearthly sanctuary in an otherwise dying land, watched over by sleeping druidic energies."
+    },
+    "zone:dustwallow": {
+      "1": [
+        {
+          "duration": 96.20897959183674,
+          "file": "Audio/Transport/full_zone_dustwallow-00e7fbe8d71389e81f60/1-0000.mp3",
+          "sha256": "ecb667cc1d6045e2d4c4748e59af820ed020e163d6f1b78b51fcb4ca8aa4697f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "e88812",
+      "generation": "8f70ef9ec76f57696b0d",
+      "hash": "da49f5",
+      "source": {
+        "duration": 96.20898,
+        "file": null,
+        "sha256": "00e7fbe8d71389e81f606959d620be5af0b235ba389b9d91edc1c5d06104fe00"
+      },
+      "text": "Dustwallow Marsh. Dustwallow Marsh is a vast, sweltering swampland in central Kalimdor, trapped between the arid plains of the Barrens and the Great Sea. Fed by perpetual subterranean springs, its treacherous fens harbor dangerous predators, covert faction skirmishes, and the lurking presence of the black dragonflight. It serves as home to the Alliance fortress-island of Theramore in the east and the Horde-allied Stonemaul ogres of Brackenwall Village to the northwest. Before the Great Sundering, Dustwallow was a high, grassy plain teeming with herd animals. The cataclysm shattered the valley, causing the water table to rise and drown the earth in endless stagnant pools, mossy shallows, and choking mud. Underground springs ensure the marsh remains perpetually humid and submerged, blanketed in thick fog and infested with crocolisks, raptors, and spiders. Jagged shallows and wandering bogs make travel perilous for any adventurer stepping off the crumbling causeways. Dustwallow was largely wild until the aftermath of the Third War, when Lady Jaina Proudmoore led human refugees across the sea to establish the citadel of Theramore Isle on its eastern coast. Soon after, Kul Tiran forces under Grand Admiral Daelin Proudmoore waged war against Thrall's fledgling Horde, culminating in bloody battles across the wetlands and the Admiral's defeat. Today, an official armistice exists between Theramore and Orgrimmar, yet tension smolders beneath the surface. Theramore struggles with desertions and sabotage, while spies wage quiet, deadly conflicts across the fens."
+    },
+    "zone:easternplaguelands": {
+      "1": [
+        {
+          "duration": 118.25632653061224,
+          "file": "Audio/Transport/full_zone_easternplaguelands-a52906ef0e13bbdd8afe/1-0000.mp3",
+          "sha256": "69d11e3e8c95e12c1eda078d0687b78243f9e9ec57f1a58c780302f6cde35d83",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "49805b",
+      "generation": "f9c2b865dface0d2a885",
+      "hash": "0cae87",
+      "source": {
+        "duration": 118.256327,
+        "file": null,
+        "sha256": "a52906ef0e13bbdd8afe91eddb942190ec5e3deb09a3691b33e004ee269339fd"
+      },
+      "text": "Eastern Plaguelands. The Eastern Plaguelands represent the devastated heart of the fallen Kingdom of Lordaeron, suffocated under Scourge blight, toxic mists, and corrupted fungal growths. Stratholme looms in the north as the undead power base in the region, while the zealous Scarlet Crusade entrenches in the east. Amid the nightmare, Light's Hope Chapel stands as a resolute, neutral sanctuary for anyone brave enough to fight back. Once known as the fertile Eastweald, this region was the agricultural spine of northern Lordaeron, anchored by the great metropolis of Stratholme and prosperous towns like Darrowshire and Corin's Crossing. During the Third War, Prince Arthas purged Stratholme after discovering its grain supply had been laced with the Plague of Undeath. Following the kingdom's collapse, the Scourge's dark magic ran unchecked. The soil turned brown and rotten, ordinary flora warped into colossal mushrooms, and an eerie orange mist settled across the valleys. Stratholme serves as the southern seat of Scourge authority in Lordaeron, commanded by Baron Rivendare under the direction of the lich Kel'Thuzad. Defying the undead from the southeast is the fanatical Scarlet Crusade, which has fortified the town of Tyr's Hand and assaults Stratholme's scarlet bastions. Their dogmatic hatred extends beyond the dead to any living traveler who crosses their borders. To the north, the Mossflayer forest trolls of Zul'Mashar wage their own isolated, desperate campaigns, caught in the crossfire of the greater conflict. Survival in the Eastern Plaguelands requires careful footing. The neutral Argent Dawn operates out of Light's Hope Chapel in the far east, offering a safe haven, essential supplies, and flight routes to both Alliance and Horde champions. Beyond the chapel, the two factions actively clash over four strategic ruined towers—Crown Guard, Eastwall, Northpass, and Plaguewood—wrestling for area-wide tactical dominance to bolster their fighters against the undead horrors."
+    },
+    "zone:felwood": {
+      "1": [
+        {
+          "duration": 99.23918367346938,
+          "file": "Audio/Transport/full_zone_felwood-87e1d57f0d6672b89672/1-0000.mp3",
+          "sha256": "3f60a8a89a13f0e0a5303997094e12e86ad9f059733db55d5c4d0f9ebb753c13",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "146059",
+      "generation": "1d9ee5b02583f857155d",
+      "hash": "95909a",
+      "source": {
+        "duration": 99.265306,
+        "file": null,
+        "sha256": "87e1d57f0d6672b8967299dffb2042af8d0f62937721511d50bc5fc78e7dae2c"
+      },
+      "text": "Felwood. Felwood is a blighted forest nestled between Ashenvale and Mount Hyjal, deeply poisoned by demonic magic during the Third War. Once a lush paradise of meadows and groves tended by the night elves, it now crawls with demonic satyrs, slavering beasts, and twisted ancients. Cenarion Circle druids, alongside outposts of the Alliance and Horde, desperately work to cleanse the land and purge the Shadow Council from its depths. Before the Third War, this valley was a peaceful haven of singing birds, clear streams, and tranquil groves guarded by ancient protectors. That ended when the dreadlord Tichondrius and the Burning Legion deployed the Skull of Gul'dan to poison northern Kalimdor ahead of their assault on Mount Hyjal. The skull's vile sorceries twisted the forest floor into a blackened mire. Though Illidan Stormrage eventually slew Tichondrius and consumed the artifact's essence, the land remained steeped in fel corruption. Mighty treants and ancients rotted from within, rivers turned to boiling bile, and the forest's beasts were driven into cannibalistic madness. Healing Felwood has proven agonizingly slow. At the Emerald Sanctuary along the southern border, the Cenarion Circle wages an uphill battle against the blighted corruption. Druids equip wanderers with Cenarion beacons and cleansing salves, laboring to heal poisoned plants like songflowers and night dragon bulbs. Both factions maintain footholds in the tainted wilds—the night elves at Talonbranch Glade in the north and the Horde at Bloodvenom Post. These outposts serve as fragile bulwarks amid a deadly wilderness where nature has turned against all mortal flesh."
+    },
+    "zone:feralas": {
+      "1": [
+        {
+          "duration": 121.96571428571428,
+          "file": "Audio/Transport/full_zone_feralas-495443dd09ac526a89ef/1-0000.mp3",
+          "sha256": "7c282c6b0cea8cc46a84a94558ea1302221850eb83d1b9ea3ac15f62fe680e4d",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "aca08d",
+      "generation": "1b97923df429d3cbc1b9",
+      "hash": "f6fa49",
+      "source": {
+        "duration": 121.965714,
+        "file": null,
+        "sha256": "495443dd09ac526a89ef853c5d4344721af9859255a7650c228958e345cfa206"
+      },
+      "text": "Feralas. Feralas is a vast, mist-shrouded rainforest nestled between Desolace, Thousand Needles, and the Veiled Sea. Sheltered by soaring mountain walls, it preserves an ancient ecosystem dotted with overgrown Kaldorei ruins and primordial beasts. Today, the wilderness is contested territory, caught between ancient Highborne remnants, invasive Gordunni ogres, and rival outposts established by the Alliance and the Horde. While neighboring Desolace and Thousand Needles have dried into barren badlands and desiccated canyons, Feralas remains intensely verdant. Mountain ranges seal off the canopy, sustaining a warm microclimate of deep mists, ancient trees, and towering waterfalls. Before the Great Sundering, much of Kalimdor looked like this. Over millennia, the deep jungle swallowed the monuments of the Kaldorei civilization that once ruled here, hiding forgotten temples and pavilions beneath strangling moss and thick fern brush. Dominating central Feralas is the ruined metropolis of Eldre'Thalas, now called Dire Maul. Built at the peak of the Kaldorei empire, its vast stone courtyards have fallen into ruin, desecrated by the savage Gordunni ogre clan. These ogres spread across the valley, pillaging sacred sites, defiling pristine groves, and driving indigenous wildlife into territorial frenzy. Deep within Dire Maul's sealed chambers, whispers persist of Highborne remnants and trapped powers dating back ten thousand years. Both the Alliance and the Horde have mounted major expeditions into the jungle, though traversing it remains dangerous. From Feathermoon Stronghold on Sardor Isle, General Shandris Feathermoon directs Sentinels against both ogre expansion and encroaching naga. To the east lies Camp Mojache, a central Horde garrison struggling against aggressive Woodpaw gnolls, hostile Grimtotem tauren, and the relentless ogre clans. Neither faction commands true control over the untamable interior."
+    },
+    "zone:gnomeregan": {
+      "1": [
+        {
+          "duration": 118.43918367346939,
+          "file": "Audio/Transport/full_zone_gnomeregan-615dad44360a658027a6/1-0000.mp3",
+          "sha256": "4e30ad8c271fccdd18d10afb4a9be74ee4b6763bd549cfaf2835ebeb0cd704c9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "0dfccb",
+      "generation": "fbd5bbd4ef3bf7df3574",
+      "hash": "7af386",
+      "source": {
+        "duration": 118.439184,
+        "file": null,
+        "sha256": "615dad44360a658027a6f2c912e4c37f01400dec90bb5cbac18fdede6992423e"
+      },
+      "text": "Gnomeregan. Carved into the snowy foothills of Dun Morogh, Gnomeregan was once the subterranean capital and greatest technological wonder of the gnomish race. Today it lies ruined and quarantined, poisoned by radioactive fallout following a desperate defense against an underground trogg invasion. Its surviving people now dwell as refugees in nearby Ironforge, while the irradiated halls remain overrun by mutated troggs, deranged leper gnomes, and rogue mechanical sentries. Long before its tragic fall, Gnomeregan stood as a testament to the heights of gnomish brilliance, ambition, and industry. Constructed with the assistance of the nearby dwarves of Ironforge, the sprawling mechanical complex was powered by giant grinding engines, whirring gears, and an intricate ventilation network that required fifteen technicians working around the clock just to maintain fresh air. It was a thriving center of invention, competitive craft, and politics centered on Tinkers' Court, serving as the proud capital from which gnomes contributed invaluable siege engines, flying machines, and armaments to the Alliance of Lordaeron during the Second War. Around the time the Scourge tore through Lordaeron during the Third War, a subterranean nightmare stirred beneath Dun Morogh. Unwitting dwarven excavations at the ancient titan vault of Uldaman awakened hordes of primitive troggs, which burrowed into the lower foundations of Gnomeregan. Reluctant to abandon the Alliance in its hour of need by asking for help, High Tinker Gelbin Mekkatorque and his forces fought an agonizing five-year war of attrition against the invaders. When defenses collapsed, Mekkatorque yielded to the counsel of his chief advisor, Mekgineer Sicco Thermaplugg, and authorized venting the city's radioactive waste tanks into the lower levels to eradicate the troggs. Instead, the toxic gas spread uncontrollable catastrophe, wiping out nearly eighty percent of the gnomish population in days."
+    },
+    "zone:hallofthanes": {
+      "1": [
+        {
+          "duration": 60.70857142857143,
+          "file": "Audio/Transport/full_zone_hallofthanes-428a8b36ab57c7798a8d/1-0000.mp3",
+          "sha256": "b39a715c5e5fef3440326a3517ca4593cd1c1c301581e38a32fb1caa02914945",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "8044c9",
+      "generation": "518fdd7659b20f92290d",
+      "hash": "d9aa4b",
+      "source": {
+        "duration": 60.708571,
+        "file": null,
+        "sha256": "428a8b36ab57c7798a8dfee44b7a856b8322b3d3f375cf3696ab5bdf09548963"
+      },
+      "text": "Hall of Thanes. Deep beneath the bustling city of Ironforge lies the Hall of Thanes, an ancient subterranean complex steeped in dwarven history. Intended for early Alliance adventurers, this secluded dungeon holds relics of the mountain kingdom's past that have fallen into peril. Gaining entry requires unearthing forgotten routes through the mountain itself. While Ironforge hums with the ringing of hammers in the Great Forge, forgotten halls delve far deeper beneath the stone. The Hall of Thanes represents one of these venerable subterranean reaches. Long tied to ancestral dwarven bloodlines and relics of stonecraft, it now requires intrepid Alliance champions to venture into its shadowed vaults to secure the depths. Accessing the Hall of Thanes is no casual feat. The corridors leading to these ancient vaults have been sealed away or hidden from everyday travelers in Ironforge. Adventurers must decipher forgotten charting, beginning with recovering an Underground Map, before they can navigate the deeper tunnels and breach the threshold of the dungeon."
+    },
+    "zone:hillsbrad": {
+      "1": [
+        {
+          "duration": 116.58448979591837,
+          "file": "Audio/Transport/full_zone_hillsbrad-28f2d651be06afb505e1/1-0000.mp3",
+          "sha256": "83f5bd8921ad88ff6fa23f7bb1663ff8895d5f6bc822f0f8ddfe7f495decbd0f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3080e7",
+      "generation": "092d581e0f8c6cf064b5",
+      "hash": "49a273",
+      "source": {
+        "duration": 116.610612,
+        "file": null,
+        "sha256": "28f2d651be06afb505e11722430886105d75fd7b6adbe1b6d14c32d65a29e484"
+      },
+      "text": "Hillsbrad Foothills. Hillsbrad Foothills is a green, fertile region that represents the last pastoral bastion of the fallen kingdom of Lordaeron. Despite having largely escaped the Scourge's plague, the land is torn apart by brutal open war between the humans of Southshore and the Forsaken entrenched at Tarren Mill. It serves as a violent crossroads where the armies of the Alliance and the Horde clash without mercy. While northern Lordaeron rots under the blight of the Scourge, Hillsbrad remains strikingly green. Its rolling pastures, pine groves, and working farmsteads offer travelers a rare glimpse of what the kingdom looked like before the Third War. Yet that tranquil appearance is deceptive. The peaceful fields and rural roads are constantly swept by armed patrols, rogue mercenaries, and scavenger beasts. What should be Lordaeron's breadbasket has instead become its most contested borderland. The political heart of Hillsbrad is defined by two entrenched strongholds. In the south along the coast lies Southshore, an Alliance haven populated by human refugees and soldiers fiercely loyal to the Alliance. To the north sits Tarren Mill, once a quiet human farming hamlet that was wiped out by the Scourge and later fortified as the Forsaken's southernmost garrison. The open ground between the two settlements is known throughout Azeroth as a relentless kill zone, where Alliance and Horde champions wage perpetual skirmishes for control of the region. Hillsbrad's history of violence runs deep. During the Second War, its coast and hills witnessed the first massive clashes between the Grand Alliance and the Old Horde. Later, the fortress of Durnholde Keep served as the internment camp where Thrall was raised before leading the orcish rebellion. Today, Durnholde lies in ruins, seized by the Syndicate—displaced human nobles turned bandit cutthroats. Coastal murlocs, hostile gnolls, and the shadowed dead on Purgation Isle ensure that no corner of the hills is truly secure."
+    },
+    "zone:hinterlands": {
+      "1": [
+        {
+          "duration": 102.21714285714286,
+          "file": "Audio/Transport/full_zone_hinterlands-a0d0185880996015a6cb/1-0000.mp3",
+          "sha256": "afe2bac715f2bed5848c33167afc865d104b32f453ba58ae514afd2b67b021b5",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "a53dc6",
+      "generation": "1300cb7090b6bd8d9e71",
+      "hash": "ecf2d1",
+      "source": {
+        "duration": 102.217143,
+        "file": null,
+        "sha256": "a0d0185880996015a6cb93836924ef21554e24b1e862cabf60775f2cbf15ac65"
+      },
+      "text": "The Hinterlands. The Hinterlands are a rugged, densely forested wilderness in eastern Lordaeron, tucked between the Plaguelands and the sea. The region is defined by ancient Amani troll temple ruins, the towering aeries of the Wildhammer clan at Aerie Peak, and a colossal Great Tree anchoring a mysterious rift to the Emerald Dream. Long before humans or dwarves walked northern Lordaeron, the forest trolls of the Amani Empire held dominion over the Hinterlands. Following their defeat in the ancient Troll Wars, their empire shattered into disparate tribes. Centuries later, after the tragic War of the Three Hammers drove the Wildhammer dwarves from Grim Batol, the dwarves migrated north and made their home on the surface at Aerie Peak. Taming the native gryphons and embracing shamanic traditions, the Wildhammer constructed a massive skybound stronghold. The trolls viewed these surface-dwelling dwarves as unwelcome squatters upon ancestral lands, sparking a ceaseless feud of skirmishes and raids. Three distinct forest troll factions occupy the dense canopy and crumbling stone temples. The brutal and fanatical Vilebranch tribe is the strongest, maintaining sprawling strongholds at the terraced temple-city of Jintha'Alor and the towering Altar of Zul. To the south, the weaker Witherbark tribe clings to Shadra'Alor and Hiri'Watha. The nomadic Revantusk tribe, long scorned by their cousins and lacking a true home, chose a radical path after the Third War: they struck a treaty with Thrall's New Horde. Bolstered by orcish and Forsaken aid, the Revantusk founded Revantusk Village on the eastern sea cliffs, carving out a defiant coastal bastion."
+    },
+    "zone:ironforge": {
+      "1": [
+        {
+          "duration": 170.71020408163264,
+          "file": "Audio/Transport/full_zone_ironforge-56bff7879132b9656eac/1-0000.mp3",
+          "sha256": "9501a0ec925a0021a99a4d3e1af72047042780c399b32544241e06052a400b5b",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "7f0ce9",
+      "generation": "3e1bd2518978d2ce3b88",
+      "hash": "48033d",
+      "source": {
+        "duration": 170.710204,
+        "file": null,
+        "sha256": "56bff7879132b9656eaca755b99570948b3768acf023792a154e5d6c099d0383"
+      },
+      "text": "Ironforge. Carved into the heart of Ironforge Mountain in snowy Dun Morogh, Ironforge is the ancestral capital of the Bronzebeard dwarves and an unassailable bastion of the Alliance. Centered on the molten heat of the Great Forge, this sprawling underground city serves as a bustling hub of commerce, industry, and ancient dwarven lore. Under the steadfast rule of King Magni Bronzebeard, it now also shelters the displaced gnomes of nearby Gnomeregan. Ironforge was founded twenty-five hundred years ago when the first generation of dwarves awakened in Uldaman and journeyed west into Dun Morogh's jagged peaks. Delving into the tallest mountain, they built a massive shrine to their titan progenitor Khaz'goroth alongside the colossal Great Forge. Ever since, the city has expanded in concentric rings around that fiery hearth. Unlike surface capitals, Ironforge is entirely enclosed beneath stone ceilings, warmed by roaring hearths and subterranean rivers of molten magma. Its fortified gates and cavernous depths have proven near-impregnable throughout centuries of war. For generations, three dwarven clans coexisted within Ironforge: the Bronzebeards, the Wildhammers, and the Dark Irons. When High King Modimus Anvilmar died in 230 BDP, a bitter civil war erupted for dominion over the mountain. The Bronzebeard clan prevailed and expelled their rivals. Later, Sorcerer-Thane Thaurissan led a vengeful Dark Iron siege that penetrated to the heart of Ironforge before being repulsed by Bronzebeard forces. Thaurissan accidentally summoned Ragnaros the Firelord to the south, shattering the Redridge Mountains and dooming his own host. The Bronzebeards have held undisputed control of Ironforge ever since. During the Second War, the Bleeding Hollow orc clan overran much of Khaz Modan, but Ironforge held firm behind its sealed gates until the Alliance of Lordaeron lifted the siege. Bound by this debt of honor, King Magni Bronzebeard pledged Ironforge's eternal loyalty to the Alliance, standing firm even when kingdoms like Gilneas and Quel'Thalas abandoned it. In the Third War, Magni channeled his grief over the loss of his brother Muradin in Northrend to forge the famed blade Ashbringer at the Great Anvil. Today, Ironforge remains one of the Alliance's fiercest bulwarks. Following the tragic fall of Gnomeregan to trogg invaders and irradiation, King Magni opened Ironforge's gates to thousands of gnome refugees. Under High Tinker Gelbin Mekkatorque, the exiles established Tinker Town, carving out a buzzing technological haven within the stone city. Coupled with the subterranean Deeprun Tram connecting Ironforge directly to Stormwind City, the dwarven stronghold has transformed into a lively crossroads of dwarven steelcraft and gnomish ingenuity."
+    },
+    "zone:lochmodan": {
+      "1": [
+        {
+          "duration": 83.09551020408163,
+          "file": "Audio/Transport/full_zone_lochmodan-a5d53019379acc1cd150/1-0000.mp3",
+          "sha256": "f616144622a000ec85b1fc5a4ef9d2320c2a4b49e176a4df1053226c21a258d4",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "a5e8c9",
+      "generation": "f194de91f6e45719fbf4",
+      "hash": "338a02",
+      "source": {
+        "duration": 83.121633,
+        "file": null,
+        "sha256": "a5d53019379acc1cd1505e877c9d4876a0cf06265afb9739ede52d72009eac1a"
+      },
+      "text": "Loch Modan. Loch Modan is a temperate mountain valley east of Dun Morogh, renowned for its massive alpine lake held in place by the monumental Stonewrought Dam. Centered around the dwarven town of Thelsamar, the region struggles under encroaching trogg infestations, kobolds in the mines, and aggressive ogres in the northeast highlands. Situated in eastern Khaz Modan, Loch Modan presents a stark, pleasant contrast to the frozen snowfields of Dun Morogh. Rugged mountain peaks enclose a temperate valley of pine and birch, cradling the Loch itself. This massive body of fresh water is held in place by the Stonewrought Dam, an architectural triumph that towers along the northern rim. The peaceful settlement of Thelsamar serves as the civic heart of the territory, housing traveling mountaineers, hunters, and miners who ply the productive veins of copper and tin scattered throughout the hills. Loch Modan's tranquil scenery conceals recurrent violence. Broken catapults and ballistae resting on the lake bed remain from the Second War, when the orcish Horde occupied the valley before the dwarves drove them out. More recently, dwarven archaeological excavations accidentally unearthed subterranean swarms of savage troggs. Led by savage chieftains, trogg tribes have overrun the southern canyons of Stonesplinter Valley and the Valley of Kings, threatening trade routes and forcing the Ironforge Mountaineers to wage a desperate defense."
+    },
+    "zone:mulgore": {
+      "1": [
+        {
+          "duration": 127.79102040816326,
+          "file": "Audio/Transport/full_zone_mulgore-36c7259ccf8ebc677331/1-0000.mp3",
+          "sha256": "3565d69822c33362ce80f6d86aa3d3a4e01f20cd60447340ee0a1c22bfa09d95",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "698d52",
+      "generation": "822c04711a89af083b5c",
+      "hash": "437a28",
+      "source": {
+        "duration": 127.79102,
+        "file": null,
+        "sha256": "36c7259ccf8ebc6773311ff3fd2ccbfedf52f062fd0be37e4d8da0af7785788a"
+      },
+      "text": "Mulgore. Mulgore is the ancestral homeland of the tauren, a lush, sheltered valley of emerald grasslands, towering plateaus, and rolling plains nestled beneath the Stonetalon Mountains. Surrounded by high natural mountain walls, the realm was secured after Cairne Bloodhoof allied with Thrall's Horde to drive out the marauding centaur. Today, it serves as the spiritual and territorial heartland of the united tauren tribes, overseen from the great mesa city of Thunder Bluff. For generations, the tauren lived as nomads, perpetually hunted and displaced across the central plains by aggressive centaur warbands. Their fortune shifted when High Chieftain Cairne Bloodhoof encountered Thrall and his displaced orcs. Recognizing shared ideals of honor, shamanism, and strength, the tauren forged an alliance with the nascent Horde. With orcish assistance, Cairne broke the centaur's grip on the region and led his people into Mulgore. Here, they built permanent settlements for the first time in centuries, crowning the highest northern mesas with their capital, Thunder Bluff. Reaching maturity in Mulgore requires answering the call of the Great Hunt and honoring the Earthmother. Young tauren begin their training on the southern plateau of Red Cloud Mesa at Camp Narache under Chief Hawkwind. As they descend into the Golden Plains and Bloodhoof Village, they undertake the Rites of the Earthmother, learning to commune with ancestral spirits, forage native herbs, and respect the herds of kodos and tallstriders that sustain their civilization. Despite its tranquil appearance, Mulgore faces growing threats from all quarters. Displaced quilboar have entrenched themselves within Brambleblade Ravine and defiled the sacred burial grounds of Red Rocks. In the mountains, Windfury harpies prey upon wild game, while Palemane gnolls strike from hidden caves. More troubling still are external exploitations: the commercial goblins of the Venture Company have begun defiling the sacred water wells and quarrying the eastern hills, while dwarven explorers from Bael Modan have established the Bael'dun Digsite to unearth ancient titan artifacts against tauren protests."
+    },
+    "zone:orgrimmar": {
+      "1": [
+        {
+          "duration": 85.15918367346939,
+          "file": "Audio/Transport/full_zone_orgrimmar-e8ec79fe6b54363427f3/1-0000.mp3",
+          "sha256": "eda39a8962b0a0836ceac1ae55fcf2049bfe748a19b6d6d101244be0d9ab24e7",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3d5e0c",
+      "generation": "9328c7162a9d78ed65b8",
+      "hash": "bbb1c4",
+      "source": {
+        "duration": 85.185306,
+        "file": null,
+        "sha256": "e8ec79fe6b54363427f3d23889b8ec156413c46111a4bb0750d5006d444e02da"
+      },
+      "text": "Orgrimmar. Orgrimmar is the fortress capital of the orcs and the beating heart of Thrall's New Horde. Carved directly into the towering red-rock canyons of northern Durotar, the fortified city stands as a monument to orcish perseverance and an unyielding sanctuary for trolls, tauren, and Forsaken allies alike. Following the Third War, Warchief Thrall led the orcs to the arid coasts of Kalimdor to build a homeland free from demonic corruption and human bondage. Naming the harsh region Durotar after his father, Thrall established Orgrimmar in memory of his fallen mentor, Orgrim Doomhammer. Raising the city required blood and sweat; aided by the tauren, the Darkspear trolls, goblin engineers, and the Champion Rexxar, the Horde drove back encroaching centaur, harpies, and ferocious thunder lizards to secure the canyon stronghold. Orgrimmar is naturally fortified by rugged mountains that shield it from both foreign invaders and the violent razor-winds sweeping through Durotar. The settlement is partitioned into distinct natural hollows. The Valley of Strength serves as the bustling civic gatehouse, leading deeper into the trade bazaar of The Drag. Tauren druids and shaman congregate in the serene pools of the Valley of Wisdom, while Darkspear shadow hunters and witch doctors dwell among the stilted pavilions of the Valley of Spirits."
+    },
+    "zone:ragefire": {
+      "1": [
+        {
+          "duration": 75.33714285714285,
+          "file": "Audio/Transport/full_zone_ragefire-6568074dcdad8ee300eb/1-0000.mp3",
+          "sha256": "f1040f8469319906378ccbfccd2a6935a9c891920243025e523558053f682768",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f9b5eb",
+      "generation": "eea5770a4180bf66dc92",
+      "hash": "7abebc",
+      "source": {
+        "duration": 75.363265,
+        "file": null,
+        "sha256": "6568074dcdad8ee300eb935d4b5275b2fcda152dbfd681fd44aa16f4689459ac"
+      },
+      "text": "Ragefire Chasm. Ragefire Chasm is a network of winding volcanic tunnels situated directly beneath the orcish capital of Orgrimmar. Entered through the dark hollows of the Cleft of Shadow, the chasm is overrun by savage troggs and a demonic sect of cultists known as the Searing Blade. Left unchecked, the dark powers and subterranean swarms festering below threaten the very foundation of the young Horde nation. Beneath the dust and red rocks of Orgrimmar lies a blistering maze of volcanic corridors and lava pits. While orcish builders forged their new home above, aggressive Ragefire troggs began erupting from deep below the surface. Magatha Grimtotem sought to open diplomatic channels with the brutes on behalf of Thunder Bluff, but her envoy Maur Grimtotem was slaughtered, proving the troggs will yield only to force. Far more dangerous than simple troggs is the presence of the Searing Blade, a fanatical cell loyal to the Shadow Council. Operating from the dark caverns alongside the magma streams, this demonic cult plots the utter ruin of the fledgling Horde. They are led by the warlock Jergosh the Invoker, a cunning satyr named Bazzalan, and the vicious felguard Taragaman the Hungerer, who presides over an altar in the lava lake."
+    },
+    "zone:riverglades": {
+      "1": [
+        {
+          "duration": 118.51755102040816,
+          "file": "Audio/Transport/full_zone_riverglades-20cd38b44d1fb23ffe12/1-0000.mp3",
+          "sha256": "347852babe80e6170f26215c3ce73d76cbbb15c0f0a6278951fb792b62cf5680",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f8c733",
+      "generation": "ab4b0c9b881d04d04d83",
+      "hash": "202c0d",
+      "source": {
+        "duration": 118.517551,
+        "file": null,
+        "sha256": "20cd38b44d1fb23ffe1226056ffc3d114d98bf9c758b52fca8e7f9c26937edc6"
+      },
+      "text": "Riverglades. The Riverglades is a contested river valley east of the Burning Steppes and Badlands, historically claimed by the Kingdom of Stormwind. Overrun by the Old Horde during the First War and largely abandoned by the crown, the region remains a battleground as local human loyalists clash with modern Horde outposts and local wildlife. It borders Redridge Mountains to the southwest, Swamp of Sorrows to the south, and faces Tanaris across the sea. Historically part of the Kingdom of Stormwind, the Riverglades fell into ruin during the First War when the Old Horde swept through the region. Its central settlement, Sunnyglade, was sacked by the orcs, who spared its mage tower solely to study human sorcery before enslaving the surviving townsfolk. Though Stormwind soldiers mounted an effort to liberate the captives and rebuild, the kingdom eventually deemed the entire valley lost and diverted resources toward defending the core homelands. For years, the region remained largely cut off from formal crown support. Despite being left behind by Stormwind's higher leadership, the human defenders never fully surrendered their homeland. Under Knight Commander Demar Brant of the legendary Brotherhood of the Horse, the remaining loyalists hold Farholde Keep as a bastion against the wilderness and hostile invaders. Meanwhile, the modern Horde maintains their own strong presence nearby at outposts like Rog'mar and Bolder'ok, ensuring that the ancient conflict over the glades continues to smolder. Stretching along the coast of the Forbidding Sea, the Riverglades is flanked by mountainous terrain and winding waterways. Travelers on foot can cross west through Blackrock Pass to the Burning Steppes, wind southwest through Redridge Pass toward the Redridge Mountains, navigate south into the Swamp of Sorrows, or trek northwest past Twilight's Shroud into the Badlands. On the coast, Powderfuse Port provides sea passage connecting directly across the ocean to Steamwheedle Port in Tanaris."
+    },
+    "zone:ruinsoflordaeron": {
+      "1": [
+        {
+          "duration": 89.96571428571428,
+          "file": "Audio/Transport/full_zone_ruinsoflordaeron-154b7cd74e325b27218c/1-0000.mp3",
+          "sha256": "0a2dfa45852da9d473b855520fbd024f9e96837427972afe13f4186b8c6be675",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "d6fd25",
+      "generation": "d358c68d5c57c5c8a54f",
+      "hash": "f03631",
+      "source": {
+        "duration": 89.965714,
+        "file": null,
+        "sha256": "154b7cd74e325b27218cfe4196b892c985a4f7205abdd1d32630b8e024afab4e"
+      },
+      "text": "Ruins of Lordaeron. Perched directly above the subterranean Undercity, the Ruins of Lordaeron are the hollow remains of humanity's once-mighty northern kingdom. Fallen to the Scourge and Prince Arthas during the Third War, the surface streets and cracked plazas now crawl with wandering monstrosities, vengeful specters, and vile experimenters. Both the Alliance and the Horde dispatch ventures into this blighted citadel to reclaim relics of the fallen past or purge the horrors lurking above the Forsaken capital. Capital City was once the crown jewel of the Eastern Kingdoms, the seat of King Terenas Menethil II and the beating heart of human civilization. When Prince Arthas returned from Northrend, he slew his father in the throne room and unleashed the undead upon the citizenry. Today, while the Forsaken dwell in the catacombs of the Undercity below, the surface ruins remain a forsaken twilight zone. Broken archways and weed-choked cobbles shelter feral beasts like Witherfang and deranged remnants of the past. The dangers within the ruined grounds go beyond restless dead. Apothecaries and sinister figures like Viktor the Vile work on testing new plagues among the shadows, while twisted experiments like The Abandoned roam freely. Wrathful spirits such as Rath'mael and cursed retainers like The Baron haunt the collapsed hallways, locked in unending torment and striking out against any living or undead trespassers who cross their paths."
+    },
+    "zone:scarlet": {
+      "1": [
+        {
+          "duration": 101.56408163265306,
+          "file": "Audio/Transport/full_zone_scarlet-b4a0dbbccb849ce3b6de/1-0000.mp3",
+          "sha256": "b34374ecb88750b333587edb12b4ddcfe3ff616414a882d174f62f8d2fc0f796",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "2e15a8",
+      "generation": "36b08fcff494fccea94f",
+      "hash": "f7370c",
+      "source": {
+        "duration": 101.590204,
+        "file": null,
+        "sha256": "b4a0dbbccb849ce3b6de5706db9e1d1f0d67552dab49cc5291ab471f0318c93c"
+      },
+      "text": "Scarlet Monastery. Perched in the northeastern hills of Tirisfal Glades, the Scarlet Monastery was once a peaceful sanctuary and center of learning for the Church of the Holy Light. Following the fall of Lordaeron, it was seized and heavily fortified by the Scarlet Crusade as their primary forward base in the west. Now, it stands as a sprawling stronghold divided into four wings, where fanatical zealots train, torture captives, and wage an uncompromising war against all outsiders. Before the Third War, the monastery served as a proud seat of Lordaeron's priesthood and a seminary for fledgling paladins of the Silver Hand, once cherished by Archbishop Alonsus Faol himself. Following the Scourge's devastation, surviving crusaders purged the halls of lingering undead and spiders, transforming the tranquil archives and courtyards into a fortified garrison. Driven by paranoia and grief, the Scarlet Crusade came to view all outsiders—living or undead, human or otherwise—as carriers of the plague who must be cleansed with fire. Past the monastery's Grand Vestibule lie four distinct quarters. The Graveyard is an unhallowed open-air terrace where fallen crusaders rise as undead abominations and torturers pry confessions from prisoners. The Library preserves precious theological texts and historical tomes, guarded by the renegade mage Arcanist Doan and his hounds. The Armory serves as a training ground where Scarlet weaponmasters like Herod drill fanatic recruits into ironclad warriors. Deepest within stands the Cathedral, the grand heart of the stronghold where the Crusade's leadership directs their crusade across the blighted north."
+    },
+    "zone:searinggorge": {
+      "1": [
+        {
+          "duration": 131.70938775510203,
+          "file": "Audio/Transport/full_zone_searinggorge-b288309e02c7c5b3c55d/1-0000.mp3",
+          "sha256": "0cf357a2ede0d35c15455809a80c3ec4b837e3a2f32c37024264b79ac74a40db",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ee1599",
+      "generation": "35e5b8455320800bcb4e",
+      "hash": "0dce1e",
+      "source": {
+        "duration": 131.709388,
+        "file": null,
+        "sha256": "b288309e02c7c5b3c55dae624ed31731f51c8135dd9977dbfa5be01e9456937f"
+      },
+      "text": "Searing Gorge. Searing Gorge is a scorched, desolate canyon in southern Khaz Modan, bordering Blackrock Mountain to the south. Once a verdant expanse of the Redridge Mountains, it was devastated over two centuries ago by the apocalyptic summoning of Ragnaros the Firelord. Today, the gorge is heavily worked by the Dark Iron clan, whose extensive slave mines in the Cauldron are closely monitored by the breakaway Thorium Brotherhood. Before the War of the Three Hammers, the territory that is now Searing Gorge was a green, rolling mountain region connected to the Redridge chain. That lush landscape ceased to exist over two hundred and thirty years ago when Sorcerer-Thane Thaurissan, desperate to turn the tide of defeat, summoned Ragnaros from the depths beneath the world. The cataclysmic emergence of the Firelord tore the earth asunder, raised Blackrock Mountain, reduced the grand Dark Iron city of Thaurissan to smoking ruins, and burned the northern valley into a cracked expanse of ash, sulfur, and volcanic glass. Seeking raw materials to supply their war machine after the loss of their old capital, the Dark Iron dwarves seized the desolate gorge. In the center of the valley lies the Cauldron, a colossal open-pit excavation plunging deep into the stone. Within its lower recesses sits the Slag Pit, a brutal subterranean mining complex. Here, Dark Iron overseers and lumbering war golems drive captured enemies into grueling slave labor, pulling iron, mithril, and rare deposits of Dark Iron ore out of the burning rock under the constant threat of lava surges and roaming beasts. Perched on the northern crags overlooking the excavation sits Thorium Point, the fortified outpost of the Thorium Brotherhood. Having split from their kin in Blackrock Mountain, these master craftsmen offer neutral shelter to travelers willing to undermine the Dark Iron operations or supply them with rare smelting components. Access to the gorge itself is tightly restricted: the Alliance keeps the Stonewrought Pass locked down behind heavy iron gates toward Loch Modan, while Horde expeditions from nearby Kargath have cut a narrow trail through the eastern badlands to scout the region."
+    },
+    "zone:shadowfang": {
+      "1": [
+        {
+          "duration": 110.13224489795918,
+          "file": "Audio/Transport/full_zone_shadowfang-f5b461fcbb48ffae68bf/1-0000.mp3",
+          "sha256": "9b9ad3a536cb4579ee0ec7fffd37354dae31306eb77d6416c44118688fab6c07",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "0e2e00",
+      "generation": "13f4edf9455cb43b2c03",
+      "hash": "f27519",
+      "source": {
+        "duration": 110.158367,
+        "file": null,
+        "sha256": "f5b461fcbb48ffae68bf6c5a7bc527f6df5de530e5d9302e15c5101fa575104e"
+      },
+      "text": "Shadowfang Keep. Perched on the rugged bluffs above Pyrewood Village, Shadowfang Keep is the gloomy stronghold of the rogue Kirin Tor wizard, Archmage Arugal. Once the ancestral estate of Baron Silverlaine, the bastion now teems with feral worgen beasts and the tormented phantoms of its slaughtered defenders. For adventurers traversing southern Silverpine, the keep represents the dark epicenter of the beastly scourge consuming the region. Before it was shrouded in nightmare, Shadowfang was known as Silverlaine Keep, a noble seat loyal to Gilnean lords and garrisoned by the pious Commander Springvale. When the Scourge swept through Lordaeron during the Third War, Dalaran's wizards fell in droves. Desperate to stem the rising dead, Archmage Arugal defied Kirin Tor leadership and delved into the research of the wizard Ur, summoning extra-dimensional worgen to turn the tide. The summoned beasts savaged the undead, but rapidly slipped beyond all mortal control, breaking into southern Silverpine and storming the bastion. Baron Silverlaine and his entire court were massacred, doomed to haunt the stone halls alongside the feral monsters that overran their home. Broken by guilt and madness, Arugal retreated within the blood-stained battlements, adopting the ravenous wolf-men as his beloved 'children' and christening the castle Shadowfang Keep. Deep in the stone roosts, lupine packs and shadowy hounds flourish under trainers like Wolf Master Nandos, watched over by Arugal's massive lupine beast, Fenrus the Devourer. Outside the walls, the curse did not halt; nearby Pyrewood Village remains trapped in a horrifying nocturnal cycle, its residents walking as men by day and hunting as ravenous worgen beneath the moon, tethered inexorably to the mad archmage perched on the heights above."
+    },
+    "zone:shendralas": {
+      "1": [
+        {
+          "duration": 89.88734693877551,
+          "file": "Audio/Transport/full_zone_shendralas-a650eb0a722eb64bb0b4/1-0000.mp3",
+          "sha256": "4fec96006fba93613390bb3b8e0e1c1bc3887876b6c8156342468fde8830d08f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "13175a",
+      "generation": "53045b26c0385a6a3f7d",
+      "hash": "9a7f5d",
+      "source": {
+        "duration": 89.913469,
+        "file": null,
+        "sha256": "a650eb0a722eb64bb0b42b3b0ddde30986ef9a11f26eb84e1f1ad280a3103832"
+      },
+      "text": "Shen'dralas. Shen'dralas is a rugged, contested wilderness situated between Feralas, Mulgore, and south-eastern Desolace. Dominated by ancient night elven remnants and troubled borders, it serves as a volatile crossroads where encroaching centaur, displaced outcasts, and bristling quilboar collide. Tucked away in the heights south-east of Desolace and bordered by Mulgore and Feralas, Shen'dralas is a raw borderland far removed from major faction capitols. Its craggy passes and hidden enclaves harbor desperate groups carving out existence on the edge of wild Kalimdor. From secluded vantage points like Evenshade Overlook to lawless refuges like Outcast Hideaway, the zone is defined by those who wish to watch unseen or stay forgotten. The land bears the distinct mark of the highborne legacy that gave it its name, yet it is far from peaceful. Centaur conflict bleeds across the Magram Front, keeping old blood feuds alive and well along its borders. Meanwhile, encroaching quilboar maintain fortified redoubts such as Bristleback Retreat, turning every shadowed ravine into contested territory for any traveler passing through. Leading out north-west toward Desolace lies the Valley of Bones, a grim corridor that serves as the primary overland access route into Shen'dralas. Bleached by sun and wind, this passage stands as a harsh reminder of the violent struggles that constantly ripple through these crags."
+    },
+    "zone:silithus": {
+      "1": [
+        {
+          "duration": 117.81224489795919,
+          "file": "Audio/Transport/full_zone_silithus-4c4f4a3f1935ebf8efec/1-0000.mp3",
+          "sha256": "a772545173a55d68ce808f811e4f5bbc133a323ebf01dc2bf5986d656201010b",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "90083a",
+      "generation": "3ca6ce5cb6fcb0f3833f",
+      "hash": "e23931",
+      "source": {
+        "duration": 117.812245,
+        "file": null,
+        "sha256": "4c4f4a3f1935ebf8efecc9c7be348f5cae599bcf7affd09d9f7bd9657068c201"
+      },
+      "text": "Silithus. Silithus is a desolate, wind-scoured desert located in the far southwestern corner of Kalimdor. Beneath its arid sands lie vast colonies of insectoid silithid and the ancient ruins of Ahn'Qiraj, sealed a millennium ago behind the formidable Scarab Wall. Today, the druids of the Cenarion Circle maintain an embattled vigil against creeping swarms, doomsday cultists. Reaching Silithus requires navigating through the primeval jungle of Un'Goro Crater and ascending a wide, rocky pass nestled in its northwestern corner. The transition is stark: lush primordial growth vanishes into a vast expanse of shifting dunes, jagged stone, and unnatural towering hives. Water is virtually nonexistent, and the winds carry the hum of insect wings and the whispering sands. The Cenarion Circle maintains Cenarion Hold near the center of the desert, serving as the sole bastion of civilization and shelter for travelers, researchers, and warriors braving the hostile wastes. A thousand years ago, this arid expanse served as the battlefield for the War of the Shifting Sands. An allied army of night elves and great dragonflights fought desperately to drive back the Qiraji, an insidious insectoid empire spawned from the ancient Aqiri civilization. When total victory proved impossible, the defenders sealed the swarms within their stronghold using the Scarab Wall and the enchanted Scarab Dais. While the monumental gates held, subterranean tunnels allowed the beast-like silithids to burrow out, establishing sprawling colonies such as Hive'Ashi, Hive'Zora, and Hive'Regal throughout the sands. The apocalyptic Twilight's Hammer cult has entrenched itself across several fortified outposts, summoning elemental terrors and venerating the dark power slumbering beneath Ahn'Qiraj. Cenarion Circle observers monitor the desert's spreading silithid colonies and the ancient threat behind the Scarab Wall."
+    },
+    "zone:silverpine": {
+      "1": [
+        {
+          "duration": 95.58204081632653,
+          "file": "Audio/Transport/full_zone_silverpine-d88dc4364842992707d1/1-0000.mp3",
+          "sha256": "4a3ce9b8a6276b1018dc85bdbb0836a13d5dd293a4c382410e7ab5843cb7bbf9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "a9abbb",
+      "generation": "6c607b59f8d69029cb25",
+      "hash": "28b3a0",
+      "source": {
+        "duration": 95.582041,
+        "file": null,
+        "sha256": "d88dc4364842992707d1a99f25e69c6749f717fa5affdc8cc3597d7ef76b74e2"
+      },
+      "text": "Silverpine Forest. Silverpine Forest is an eerie, mist-laden woodland stretching along Lordaeron's western coast between Tirisfal Glades and the sealed Greymane Wall. Haunted by the lingering scars of the Scourge plague, it serves as the contested southern frontier of the Forsaken. Travelers here face feral worgen roaming the shadows, diseased gnolls, and hostile human enclaves. Once celebrated as a lush wonder of Lordaeron through which noble travelers journeyed to Capital City, Silverpine Forest has withered under the touch of the Third War. Ghostly fogs weave between dying, silver-barked pines, and ruined farmsteads sit abandoned to the wilderness. To the north lies Tirisfal Glades, while the eastern shore borders Lordamere Lake. To the south stands the imposing and shut Greymane Wall, sealing off the isolationist kingdom of Gilneas from the surrounding chaos. The Forsaken maintain their central outpost at the Sepulcher, striving to secure the woods from enemies on all sides. Silverpine's most infamous peril is the worgen curse. High above the southwest woods sits Shadowfang Keep, the former seat of Baron Silverlaine, now dominated by the mad Dalaran archmage Arugal. Seeking to repel the Scourge during the Third War, Arugal summoned extra-dimensional wolf-beasts. The creatures turned on their summoners, spreading a lycanthropic curse across the southern woods. In Pyrewood Village, ordinary-looking human villagers go about their chores by daylight, but transform into savage worgen beneath the night sky."
+    },
+    "zone:stonetalon": {
+      "1": [
+        {
+          "duration": 132.33632653061224,
+          "file": "Audio/Transport/full_zone_stonetalon-ae9b433f465d10a5e92e/1-0000.mp3",
+          "sha256": "6c52ce892012a546e456fc9edc0fb771c86df34263e8a9ee91a8df1eea867d92",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "71506c",
+      "generation": "c892652754a003135882",
+      "hash": "4a5f9d",
+      "source": {
+        "duration": 132.336327,
+        "file": null,
+        "sha256": "ae9b433f465d10a5e92e4e1791ad754d6bf78e29b3ec23002a2d87ed4a6fb31c"
+      },
+      "text": "Stonetalon Mountains. The Stonetalon Mountains are a rugged, wind-carved chain of craggy peaks bordering Ashenvale, the Barrens, and Desolace. Revered by both the night elves and the tauren as a sacred sanctuary, the region's sacred heights stand in sharp contrast to the smoke and machinery choking its lower canyons. Today, the mountains are torn by deforestation, volatile elemental devastation, and simmering border hostilities. Rising sharply out of central Kalimdor, the Stonetalon range catches the moisture drifting from the western seas, giving birth to sudden downpours and treacherous, rain-slick sandstone trails. The dominant feature of the lower valleys is the incessant scouring gale known as the Ill Winds, capable of blinding travelers with grit or throwing the careless straight off sheer cliffsides. Higher up, evergreen forests mantle the ridges surrounding Stonetalon Peak, where the night elves tend ancestral barrows and glades, watching over the sacred roosts of wyverns and hippogryphs that nest along Mirkfallon Lake. The peaceful solitude of the range has been violently disrupted by the arrival of the Venture Company. Setting up sprawling logging camps and digging deep strip mines in Windshear Crag, the goblins—aided by the deranged leper gnome Gerenzo Wrenchwhistle—have clear-cut old-growth timber, blackened the skies with furnace smoke, and poured industrial sludge into the mountain runoff. Their greed has provoked swift retaliation: local shamans from Orgrimmar answered the agonized cries of the mountain spirits, while small Alliance camps stationed nearby fight back against the defilers to protect what remains of the highlands. To the south lies the Charred Vale, once a blossoming wilderness, now reduced to an ash-covered wasteland churning with rogue fire elementals, black dragonspawn, and harpies. While the peaks were the historic site where the Horde and Alliance forged an uneasy truce during the Third War under the guidance of the mysterious Oracle, current relations are fraying. Renegade Grimtotem tauren operate out of seized encampments, and Darkspear trolls in Malaka'jin clash with Alliance incursions pushing outward from the Barrens and Ashenvale."
+    },
+    "zone:stormwind": {
+      "1": [
+        {
+          "duration": 137.69142857142856,
+          "file": "Audio/Transport/full_zone_stormwind-b7fe6b70e8503033c3bf/1-0000.mp3",
+          "sha256": "b0d5fc46ae06224f3179ca02b0007c3016e20b1a523944066f2c2e41c12c4393",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
       },
       "fullHash": "f25467",
-      "generation": "a50ec47a88eaeccc6183",
+      "generation": "fb5fe2180a04854b224b",
       "hash": "2527da",
       "source": {
         "duration": 137.691429,
@@ -158,12 +1351,443 @@
         "sha256": "b7fe6b70e8503033c3bf72ce88b184bf8f06ae09055db27c9fae06456a4865b6"
       },
       "text": "Stormwind City. Stormwind City is the bustling capital of the Kingdom of Stormwind and the premier human bastion in the world following the fall of Lordaeron. Rebuilt from ashes by the Stonemasons Guild after its destruction in the First War, its magnificent white stone districts now house the heart of the Grand Alliance. Beneath its majestic canals and cathedrals, however, the city grapples with the sudden disappearance of King Varian Wrynn and brewing political intrigue. Founded over a millennium ago by the descendants of the Arathi, Stormwind stood for generations as a flourishing, self-sufficient realm. That golden era ended when the Orcish Horde poured through the Dark Portal, laying waste to the southern continent and razing the capital to the ground in the First War. Survivors led by Sir Anduin Lothar fled north across the Great Sea to Lordaeron. Following the Horde's defeat in the Second War, King Terenas Menethil II and the Alliance funded a complete reconstruction. The Stonemasons Guild painstakingly rebuilt the capital into New Stormwind—a gleaming citadel of polished white stone and canal-laced boroughs. Despite its outward majesty, the capital is locked in domestic turmoil. A dispute between the House of Nobles and the Stonemasons Guild over wages left the kingdom paralyzed by debt. The ensuing rioting claimed the life of Queen Tiffin Wrynn and drove the exiled artisans into criminality as the Defias Brotherhood. Now, King Varian Wrynn has mysteriously vanished en route to a diplomatic summit. To avert panic, the crown was placed upon his young son, ten-year-old Prince Anduin Wrynn, with Highlord Bolvar Fordragon ruling as Regent and military commander alongside royal advisor Lady Katrana Prestor. With Lordaeron overrun by the Scourge, Stormwind has inherited the mantle of humanity's greatest haven and the epicenter of the Alliance. It connects directly to the dwarven kingdom of Ironforge via High Tinker Mekkatorque's subterranean Deeprun Tram. Visitors crossing the Valley of Heroes are greeted by towering statues of the Sons of Lothar who vanished beyond the Dark Portal. From the spiritual beacon of the Cathedral of Light to the arcane studies within the Wizard's Sanctum, Stormwind stands as the supreme hub of trade, culture, and defense across the southern seas."
+    },
+    "zone:swampofsorrows": {
+      "1": [
+        {
+          "duration": 144.9795918367347,
+          "file": "Audio/Transport/full_zone_swampofsorrows-0f10245340ce4ba33784/1-0000.mp3",
+          "sha256": "5515367a5c37668b7700c904918b955faf7c1c708c2b13148a104e03c3f73880",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "89c06e",
+      "generation": "8374fbd669c020b99330",
+      "hash": "283d7e",
+      "source": {
+        "duration": 144.979592,
+        "file": null,
+        "sha256": "0f10245340ce4ba33784d133256955e9a5ac1d5a15614586a0fc0d089399af73"
+      },
+      "text": "Swamp of Sorrows. The Swamp of Sorrows is a murky, brackish wetland tucked between Deadwind Pass and the arid Blasted Lands. Once the northern expanse of the ancient Black Morass, its salt-crusted bogs are home to dangerous wildlife, green dragonspawn, and the ruined Temple of Atal'Hakkar sunken beneath the Pool of Tears. While the Horde maintains the fortified garrison of Stonard, the Alliance has no safe haven within the mire, leaving the wilderness largely untamed. Long before the coming of the Orcish Horde, these marshes formed the northern half of an enormous wetlands known as the Black Morass. Following the shattering of the Gurubashi Empire, the fanatical Atal'ai trolls fled into the mire to erect the Temple of Atal'Hakkar, intending to summon their bloodthirsty loa, Hakkar the Soulflayer. Sensing the catastrophe, the Aspect Ysera unleashed her powers, drowning the cursed pyramid beneath the waters of the Pool of Tears. Green dragonflight guardians led by Eranikus were stationed to vigilantly watch over the drowned structure. When the Dark Portal's cataclysm later scorched the southern morass into the Blasted Lands, this northern fen earned its current sorrowful name. Stonard serves as the primary civilized foothold in the swamp. Originally established during the First War alongside the now-ruined settlements of Rockard and Kyross, the outpost was rebuilt under Thrall to serve as the Horde's southernmost staging ground in the Eastern Kingdoms. Beyond Stonard's palisades, strange wanderers roam the fen. A group of draenei stragglers stranded on Azeroth succumbed to homesickness and madness, degenerating into feral Lost Ones. However, a small enclave of lucid Broken exiles persists at the Harborage, wary but willing to trade peacefully with travelers. Surviving the swamp requires constant vigilance against its predatory wildlife. Deep bogs hide lunging crocolisks, venomous spiders, prowling swamp jaguars, and wandering bog beasts encrusted with marsh debris. Coastal caverns and the Misty Reed Strand crawl with vicious murlocs, while the salt-laden tide creeps continually inland, preserving rotten logs in thick briny crusts. Farther east lies Sorrowmurk, where aggressive elite dragonspawn fiercely guard the approaches to the Sunken Temple, attacking anyone who strays near their vigil."
+    },
+    "zone:tanaris": {
+      "1": [
+        {
+          "duration": 116.42775510204082,
+          "file": "Audio/Transport/full_zone_tanaris-56c8d95545f451522ffa/1-0000.mp3",
+          "sha256": "e4d244abae8900d4235bf3c4b761416be2ecb304ca14b8f2ee2bab3c0f8eba75",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "6a5fce",
+      "generation": "0fb6a685e9bb62b6ff50",
+      "hash": "f09fd8",
+      "source": {
+        "duration": 116.427755,
+        "file": null,
+        "sha256": "56c8d95545f451522ffad24bc1e61f3c8dd8a8b7ec8911a386e81ebddc720172"
+      },
+      "text": "Tanaris. Tanaris is a vast, sweltering desert spanning the southern reaches of Kalimdor, defined by rolling sand dunes and blistering heat. At its heart lies Gadgetzan, a neutral trading outpost operated by the goblins of the Steamwheedle Cartel. Beyond the bustling settlements, the dunes conceal hostile sand trolls, dangerous silithid hives, and the hidden domain of the bronze dragonflight. Before the Great Sundering shattered the world, this expanse was a lush jungle settled by early tauren and claimed by the Gurubashi Empire. The cataclysm stripped the land of its canopy, leaving a barren, sun-scorched wilderness. Stranded by the shifting geography, the local trolls adapted into the hardened Sandfury tribe, carving out their isolated empire within the walled city of Zul'Farrak. Today, the desert floor is ruled by hyenas, basilisks, and scorpids, while subterranean tunnels snake beneath the baking earth. Because Tanaris is as close to their island homeland of Kezan as the mainland allows, the Steamwheedle Cartel has established a thriving enterprise here. From the walled oasis of Gadgetzan to the coastal docks of Steamwheedle Port, the goblins maintain strict neutrality, welcoming coin from both the Alliance and the Horde. Their peace is maintained by heavy bruiser muscle, though rogue threats like the Southsea Freebooters constantly harass shipping and dig sites along the coastline. The sands hide powers far older than mortal empires. In the eastern reaches lie the Caverns of Time, the ancestral domain of Nozdormu and his bronze dragonflight, whose drakes can occasionally be seen riding the desert thermals. To the south, massive stone gates mark the titan complex of Uldum. Yet a darker danger stirs from subterranean nests like the Gaping Chasm and the Noxious Lair, where creeping silithid swarms have begun burrowing outward across the sands."
+    },
+    "zone:teldrassil": {
+      "1": [
+        {
+          "duration": 79.75183673469388,
+          "file": "Audio/Transport/full_zone_teldrassil-357a25b4c1a08efbd0a9/1-0000.mp3",
+          "sha256": "d72fa15dda4d23fae08d4d63512c9e0344a77c23b3bf76b23b92a78bc4970385",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3be20d",
+      "generation": "0f836fd913edaf334385",
+      "hash": "9db73b",
+      "source": {
+        "duration": 79.751837,
+        "file": null,
+        "sha256": "357a25b4c1a08efbd0a9e53751fdfd18ddd7dac093346adcf9e301b1445acf75"
+      },
+      "text": "Teldrassil. Teldrassil, meaning 'Crown of the Earth', is a gargantuan new World Tree raised off Kalimdor's northwest coast. Grown by the druids in the wake of the Third War, its colossal boughs support an entire twilit wilderness and the night elf capital of Darnassus. Yet beneath its tranquil, moonlit canopy, a creeping corruption has begun to stir. Teldrassil is not merely a tree; it is an elevated ecosystem standing tall amidst the waters of the Veiled Sea. Its gargantuan limbs support rolling hills, flowing rivers fed by morning dew, misty lakes, and dense ancient glades. At its western edge sits Darnassus, the grand capital of the kaldorei. At the base of its monumental trunk lies Rut'theran Village, connected to the crown above by a mystical gateway and serving as the island's primary harbor. Following the sacrifice of Nordrassil during the Third War and the mysterious disappearance of Shan'do Malfurion Stormrage into the Emerald Dream, Archdruid Fandral Staghelm convinced the Circle of Ancients to grow a replacement. Staghelm hoped to restore the kaldorei to their lost immortality. However, Nozdormu and the Dragon Aspects deemed the effort hubristic and withheld their blessings. Without their vital warding, Teldrassil's growth has suffered from unnatural flaws."
+    },
+    "zone:thousandneedles": {
+      "1": [
+        {
+          "duration": 129.46285714285713,
+          "file": "Audio/Transport/full_zone_thousandneedles-a27b73c2d035ef298fa6/1-0000.mp3",
+          "sha256": "ee1f0a5c2b8cb2ca6d5d90cc1b445e85925c8bc0c136e3f1fd637bb7fdb2facf",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3fb560",
+      "generation": "03776b95e7128022bd8a",
+      "hash": "595df6",
+      "source": {
+        "duration": 129.48898,
+        "file": null,
+        "sha256": "a27b73c2d035ef298fa6ed38aa8952897ab613dbaee165784925b1831587cce6"
+      },
+      "text": "Thousand Needles. Thousand Needles is a sprawling canyon of sheer sandstone pillars and sunbaked salt pans in southern Kalimdor. Tauren tribes cling to settlements atop towering mesas to escape aggressive centaur packs, while gnomish and goblin tinkerers run high-speed rocket cars across the dried-up seabed of the Shimmering Flats. Before the Great Sundering shattered ancient Kalimdor, this territory was a lush river canyon fed by inland waterways flowing out toward the sea. The cataclysm tore the continent apart, thrusting the riverbed above the water table and altering the river's path until only dry stone and sandstone spires remained. Today, dozens of slender cylindrical columns rise from the canyon floor like a petrified forest. Tauren settled on the summits, stringing precarious rope bridges between peaks to establish villages out of reach of the hostile centaur marauders patrolling the shadow-draped canyon floor below. Atop the needle-like spires, life is far from peaceful. At Freewind Post, tauren loyal to the Horde contend not only with predatory wind serpents and wyverns from Highperch, but also with their treacherous kin: the militant Grimtotem clan entrenched at Darkcloud Pinnacle. Cliffwatcher Longhorn oversees the defense of the plateau, seeking bold fighters to strike at Grimtotem agitators and secure the fragile bridges linking the peaks. To the north, the enormous mechanical winches of the Great Lift carry travelers down from the southern Barrens, though crossing the canyon floor remains a deadly gambit. To the southeast, the canyon walls peel back into the Shimmering Flats, an enormous, desiccated salt pan sitting below sea level. In this harsh, blinding white expanse, gnomes and goblins maintain an uneasy neutrality around the Mirage Raceway. Rival engineers Pozzik and Fizzle Brassbolts race experimental rocket cars across the hard salt to settle which race possesses technological superiority. The pit stop attracts scoundrels, swindlers like Kravel Koalbeard, and hunters hunting the hardy scorpions, turtles, and basilisks that roam the searing basin."
+    },
+    "zone:thunderbluff": {
+      "1": [
+        {
+          "duration": 99.00408163265305,
+          "file": "Audio/Transport/full_zone_thunderbluff-fc27b1b8e03ddf4640ec/1-0000.mp3",
+          "sha256": "ae9aa248910f75dc713370123c96c0ec3d5fde4a827496b481373679864c1912",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f8b36f",
+      "generation": "52c39cf25a9e16934f42",
+      "hash": "d0a075",
+      "source": {
+        "duration": 99.030204,
+        "file": null,
+        "sha256": "fc27b1b8e03ddf4640ec17665f12a0948d030eb7b16704a70a956230c1d0e4f7"
+      },
+      "text": "Thunder Bluff. Thunder Bluff is the magnificent capital city of the tauren, perched atop windswept red-rock mesas rising above the grasslands of Mulgore. Founded by High Chieftain Cairne Bloodhoof after uniting the nomadic tribes with the aid of the New Horde, it serves as the cultural, spiritual, and mercantile heart of his people. Connected by swaying rope bridges and wooden lifts, the city offers safety from centaur marauders and a peaceful sanctuary for travelers across Kalimdor. For countless generations, the tauren lived as nomadic wanderers across Kalimdor, locked in a brutal struggle for survival against ravenous centaur tribes. That desperate era ended during the Third War when Cairne Bloodhoof joined forces with Warchief Thrall. Together, the orcs and tauren broke the centaur assaults and secured the lush pastures of Mulgore. To protect their future, Cairne led the allied tribes to the safety of these natural stone bastions, founding Thunder Bluff as the first unified, permanent home the tauren had possessed in centuries. Spanning several high mesas linked by suspended rope bridges, Thunder Bluff seamlessly blends natural architecture with tauren practicality. The central bluffs host the bustling markets, bank, inn, and towering Wind Rider roost, while three specialized mesas branch out across the abyss. Hunter Rise serves the city's scouts and trackers; Elder Rise hosts lorekeepers and the Cenarion Circle under Archdruid Hamuul Runetotem; and Spirit Rise is devoted to spiritual communion, sheltering shamans, priests, and the mysterious subterranean caverns known as the Pools of Vision."
+    },
+    "zone:tirisfal": {
+      "1": [
+        {
+          "duration": 142.4195918367347,
+          "file": "Audio/Transport/full_zone_tirisfal-dbb05a395141df983714/1-0000.mp3",
+          "sha256": "e6695a3151c9f24d15899f8a2fa73d2c21a646d44386264d1a1621f82da22727",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "9c8637",
+      "generation": "f64311336249c4bc5f95",
+      "hash": "2f6067",
+      "source": {
+        "duration": 142.419592,
+        "file": null,
+        "sha256": "dbb05a395141df98371438db4391687f44ac350f7c94a55c12a42d7678732213"
+      },
+      "text": "Tirisfal Glades. Tirisfal Glades is the haunting northern territory of Lordaeron, now serving as the heartland of Lady Sylvanas Windrunner and the Forsaken. Beneath blighted skies and rotting boughs lie fallen manors, dormant crypts, and the vast underground capital of the Undercity. Surrounded by mindless Scourge and zealous Scarlet crusaders, it is a perilous realm where free-willed undead carve out their survival. Once the fertile cradle of humanity, Tirisfal Glades has withered beneath the curse of the Lich King's plague. The sun rarely penetrates the murky gloom, casting an eternal sickly pale over dying woods, neglected pumpkin patches, and cold coastal hills. While remnants of old farmsteads like the Agamand Mills and Balnir Farmstead remain, their former masters have largely been swept into mass graves or risen as restless dead. Despite the devastation, a dark resilience permeates the countryside, anchored by towns like Brill and the cloistered sanctuary of Deathknell, where freshly awakened Forsaken learn to endure their second life. Though Lady Sylvanas claims dominion over the region from the subterranean Ruins of Lordaeron, the Forsaken remain embattled on all sides. Residual Scourge thralls still infest hollows, fields, and dilapidated crypts, entirely subservient to the frozen throne of Northrend. To the east, the fanatical Scarlet Crusade has made northern Tirisfal its primary bastion, operating out of the Scarlet Monastery. Zealously devoted to the extermination of every undead creature, living and unliving alike, their outposts and patrols wage constant guerrilla warfare against Forsaken scouts and civilian travelers. Long before human kingdoms crowned their first monarchs, the Glades bore an ancient legacy. In the ancient tongue of the vrykul, 'Tirisfal' translates to 'Tyr's Fall,' christened after the heroic titan keeper Tyr fought to the death against colossal cosmic horrors. In subsequent eras, high elven exiles briefly tried to settle these woods before shadowy energies deep beneath the earth began driving them mad, prompting their migration north. In later centuries, the secret mortal cabal known as the Council of Tirisfal chose these shadowed groves to empower solitary Guardians, shielding Azeroth from demonic intrusion."
+    },
+    "zone:undercity": {
+      "1": [
+        {
+          "duration": 119.6930612244898,
+          "file": "Audio/Transport/full_zone_undercity-092893167fc4d3803df7/1-0000.mp3",
+          "sha256": "af5799f5cb8a402c1d2e1f1d88a69368d08db1138da9e24c2a6c2d08c1e23f41",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "d78295",
+      "generation": "8debb54ea4f6c4587c3c",
+      "hash": "57ce7b",
+      "source": {
+        "duration": 119.719184,
+        "file": null,
+        "sha256": "092893167fc4d3803df71b7d97b9cdae9606f59810b216d19f1462c06dd182c8"
+      },
+      "text": "Undercity. Deep beneath the shattered ruins of Lordaeron's Capital City lies the Undercity, the dark stronghold of the Forsaken. Originally carved out of ancient royal crypts and dungeons by the Scourge, it was seized by Lady Sylvanas Windrunner and remade into an impenetrable subterranean sanctuary. Today it serves as the seat of Forsaken power and the Horde's vital bastion in the northern Eastern Kingdoms. Long before the plague swept Lordaeron, the catacombs, dungeons, and sewers beneath the palace were collectively known as the Undercity. It held the tombs of nobility, the kingdom's deepest prisons—where the former Warchief Orgrim Doomhammer was once held before his escape—and the poorest denizens of the realm. When Arthas Menethil murdered King Terenas and laid waste to the capital in 20 ADP, the prince ordered his undead servants to excavate and expand the subterranean passages into a fortified seat of Scourge rule. The Scourge never saw their dark capital completed. When the Lich King's powers waned following the battle of Mount Hyjal, Lady Sylvanas Windrunner broke free from the hive mind, taking thousands of undead with her. She lured Arthas into an ambush and drove him back to Northrend. After a vicious three-way civil war against Scourge remnants, dreadlords, and human resistance, Sylvanas claimed the half-finished catacombs. Naming her people the Forsaken, she oversaw years of labor completing the sprawling subterranean city. The Undercity is laid out in concentric rings divided into functional quarters. At its heart lies the Trade Quarter, connected by great lifts to the palace ruins above. Surrounding it are the War Quarter, Rogues' Quarter, Magic Quarter, and the toxic Apothecarium, where the Royal Apothecary Society brews virulent plagues in green slime-filled canals. Deeper still lies the Royal Quarter, where the Banshee Queen holds court alongside her dreadlord commander, Varimathras, guarded by legions of towering abominations."
+    },
+    "zone:ungoro": {
+      "1": [
+        {
+          "duration": 124.18612244897959,
+          "file": "Audio/Transport/full_zone_ungoro-7096981f893a254017ba/1-0000.mp3",
+          "sha256": "52c178bf2a3b2e07e760057de7b5be464c6b9a7857e575abbfed90db946828cd",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "10ee3a",
+      "generation": "3b073f8238a2640e8a67",
+      "hash": "aead63",
+      "source": {
+        "duration": 124.186122,
+        "file": null,
+        "sha256": "7096981f893a254017bad11c957651be79971296ae64e9ebfaf6a84892f2e736"
+      },
+      "text": "Un'Goro Crater. Un'Goro Crater is a sunken, primordial jungle tucked between the arid wastes of Tanaris and Silithus. Dominated by roaming dinosaurs, living elementals, and a central volcano, this lush caldera is filled with ancient Titan relics and power crystals whose origins remain a profound mystery. Sandwiched between desert expanses, Un'Goro Crater defies the geography of southern Kalimdor. Ancient night elf records detailing the War of the Shifting Sands note that the insectoid Qiraji were turned back at the crater's edges, unable to penetrate what their tongue named the 'God Lands.' Scholars theorize the caldera served as a testing ground or ancient dwelling for the Titans during the shaping of Kalimdor. Stone pylons rise along the ridges, humming with energy, while crystal formations of blue, red, green, and yellow sprout through the primeval earth. Un'Goro contains no cities, towns, or native humanoid societies. Instead, life thrives in an untamed, primeval state. Apex devilsaurs stalk the flats of Terror Run, predatory bloodpetals lash out in the marshlands, and oozes creep across the tar pits of Lakkari. At the heart of the crater looms Fire Plume Ridge, an active volcanic peak teeming with hostile fire elementals led by the entity Blazerunner. For explorers and skinners, the basin offers unmatched natural wealth—including the coveted hides of devilsaurs—provided one survives the food chain. Civilized presence in the crater is limited almost entirely to Marshal's Refuge, an elevated camp tucked into the northern cliffs. Led by Williden Marshal, an expedition of scientists, naturalists, and fortune seekers attempted to catalogue the basin's treasures only to be battered by the monstrous wildlife and driven to high ground. Today, the refuge serves as an embattled staging ground for intrepid travelers studying the crater's mysterious power crystals, mapping volcanic activity, and keeping a watchful eye on encroaching silithid swarms breaching the southern ridges."
+    },
+    "zone:wailing": {
+      "1": [
+        {
+          "duration": 99.39591836734694,
+          "file": "Audio/Transport/full_zone_wailing-0cef997c1429476af7a2/1-0000.mp3",
+          "sha256": "546aff6a2896e64ea89230fe2587eb991b74ac56fa2f9303acc097513610736e",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ebbbbc",
+      "generation": "34991856e2ce33a46ac7",
+      "hash": "6c8555",
+      "source": {
+        "duration": 99.422041,
+        "file": null,
+        "sha256": "0cef997c1429476af7a28c05fef65b13af3d68ef2e0e5683e9e1fd6435cd42cb"
+      },
+      "text": "Wailing Caverns. Tucked beneath the Lushwater Oasis in the arid Barrens lies the Wailing Caverns, a labyrinthine system of subterranean springs and fissures named for the eerie whistling of trapped steam. What began as a noble druidic effort to revitalize Kalimdor's sun-bleached savanna has devolved into a warped, poisonous underworld. The caverns now teem with twisted wildlife and fallen disciples corrupted by a deep, unnatural nightmare. The night elf druid Naralex originally discovered this vast water system and devised an ambitious design: by opening a conduit straight into the Emerald Dream, he would siphon pure primal life essence through the subterranean springs, transforming the parched Barrens back into a thriving, verdant paradise. Deep in the Cavern of Mists, Naralex slipped into communion with the Dream, anchored by his loyal acolytes. Tragically, rather than tapping into pure vitality, the druid's sleeping mind touched the Emerald Nightmare. The festering corruption instantly seized him, transforming his well-intentioned conduit into a valve pouring venom and madness into the underground waterways. As the Nightmare's dark energy radiated from Naralex's helpless form, his students succumbed to the madness. Forsaking the tranquil wisdom of the Cenarion Circle, they formed the fanatical Druids of the Fang. Taking reptilian forms, the sect's leaders—Lady Anacondra, Lord Cobrahn, Lord Pythas, and Lord Serpentis—now embrace the venomous mutation of the caverns rather than fighting it. They actively shield their sleeping master from any outside interference, believing this twisted growth is the true evolution of nature."
+    },
+    "zone:westernplaguelands": {
+      "1": [
+        {
+          "duration": 123.71591836734694,
+          "file": "Audio/Transport/full_zone_westernplaguelands-13e38b1767def428067c/1-0000.mp3",
+          "sha256": "4b848ceda3a53bf84d44c8da7e31f2c5c8e71ea6204a3e8df5543d24979755c8",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "dc8171",
+      "generation": "b53072f905433a7c909e",
+      "hash": "4bb9e5",
+      "source": {
+        "duration": 123.715918,
+        "file": null,
+        "sha256": "13e38b1767def428067c67964f73a933cd48df0861ac488a6ecf40485047ee4a"
+      },
+      "text": "Western Plaguelands. Once the fertile agricultural breadbasket of northern Lordaeron, the Western Plaguelands now choke beneath a toxic mist and legions of undead. While Kel'Thuzad's cauldrons ruined the region's farms and towns, the soil still clings tenaciously to life. The Argent Dawn, the Alliance, the Forsaken, and the Scarlet Crusade all wage desperate campaigns across its blighted fields. Before the Third War, this land was a verdant corridor of farms stretching east from Tirisfal Glades toward Darrowmere Lake. Hearthglen governed the northern administration from Mardenholde Keep, while the sprawling town of Andorhal orchestrated the storage and export of grain across the kingdom. That crucial agricultural role made the region Kel'Thuzad's primary target. By introducing the Plague of Undeath directly into the grain shipments at Andorhal, the Cult of the Damned turned Lordaeron's sustenance into its doom. To permanently poison the soil, the Scourge raised four massive plague cauldrons across the largest agricultural estates: Felstone Field, Dalson's Tears, the Writhing Haunt, and Gahrron's Withering. Today, monstrous Cauldron Lords maintain these noxious vats, pumping venomous fog into the atmosphere. The surrounding trees twist with swollen, tumorous growths, and blighted wildlife rampages through the brush. Beneath Caer Darrow on Darrowmere Lake, Darkmaster Gandling trains necromancers within Scholomance, compounding the undead threat. Despite the omnipresence of the Scourge, several factions maintain embattled footholds. The Scarlet Crusade controls the fortress of Hearthglen in the north, purging anything they deem tainted with rabid zeal. To the south, Alliance forces stage from Chillwind Camp, while the Forsaken defend their borders at the Bulwark. Mediating and directing the fight against the undead cauldrons is the neutral Argent Dawn, which aids champions of both factions and guards Uther's Tomb—the last truly sanctified ground in the region."
+    },
+    "zone:westfall": {
+      "1": [
+        {
+          "duration": 101.56408163265306,
+          "file": "Audio/Transport/full_zone_westfall-2539cf8bf43aeedadc48/1-0000.mp3",
+          "sha256": "918508473a6efe8e62d1c75a293301e5d3f6859b3612cef6c752bbce1b8e0732",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "51e782",
+      "generation": "53f140f49eb2a51acca4",
+      "hash": "343283",
+      "source": {
+        "duration": 101.590204,
+        "file": null,
+        "sha256": "2539cf8bf43aeedadc484f94e89c951c78abc4a12de62b076923e5f8608a0137"
+      },
+      "text": "Westfall. Once the fertile breadbasket of the Kingdom of Stormwind, Westfall has collapsed into a windswept, neglected territory overrun by outlaws. Deprived of official crown support and military garrisons, its surviving homesteaders cling to their farms while the Defias Brotherhood tightens its grip from the abandoned mining town of Moonbrook. For generations, Westfall fed the Kingdom of Stormwind. Its rolling pastures and wheat fields flourished until the aftermath of the Second War brought financial exhaustion and political neglect. When the kingdom poured its resources elsewhere and failed to maintain its garrisons, the territory grew fallow. Today, barren pastures, howling coastal gusts, rogue harvest golems, and raiding Riverpaw gnolls make daily survival a constant trial for the stubborn few who refuse to abandon their homesteads. Westfall's collapse accelerated when the Stonemasons Guild, denied payment for rebuilding Stormwind City, turned to open revolt. Outlawed and exiled under Edwin VanCleef, the stonemasons reconstituted themselves as the Defias Brotherhood. They claimed Westfall as their stronghold, burning stubborn farmers' fields, salting soil, and seizing abandoned mines. Operating out of the ghost town of Moonbrook, the Brotherhood now rules the majority of the countryside in all but name. With the House of Nobles ignoring Westfall's plight, local inhabitants took up their own defense. Based at the fortified post of Sentinel Hill, Gryan Stoutmantle organized the People's Militia—a volunteer force attempting to hold the line against gnolls and bandits. Lacking formal soldiers and supplies from Stormwind, the Militia relies on wandering adventurers to push back the Defias tide and protect the remaining farms."
+    },
+    "zone:wetlands": {
+      "1": [
+        {
+          "duration": 157.1265306122449,
+          "file": "Audio/Transport/full_zone_wetlands-bbcc4127c1aaec8c06b5/1-0000.mp3",
+          "sha256": "5fb507685affc3e330c3bb7359dddcad16a22d28aaed20b97f6e57e83dd0d5bf",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "8e4cf9",
+      "generation": "3e3df5c253e280dcd4b3",
+      "hash": "5a7384",
+      "source": {
+        "duration": 157.126531,
+        "file": null,
+        "sha256": "bbcc4127c1aaec8c06b553aec08a16ffd4eb8d0060ff69526113a712e4603eaf"
+      },
+      "text": "Wetlands. The Wetlands is a vast, mist-shrouded swamp nestled between the mountains of Khaz Modan and the shores of Baradin Bay. Historically battered by dwarven wars and orcish invasions, it serves as a rugged buffer zone between Ironforge and the northern lands of Lordaeron. The fortified port of Menethil Harbor stands as the Alliance's primary lifeline in a sodden wilderness overrun by Dragonmaw orcs, murlocs, and gnolls. Spreading out beneath the towering precipice of the Stonewrought Dam, the Wetlands is a cold, waterlogged expanse cloaked in perpetual fog and uniform gray skies. While once home to thriving dwarven settlements, the marshlands are now scattered with sunken stone ruins, sodden bogs, and treacherous mires. Adventurers entering the region must navigate narrow passes, either coming north through the barricaded defile of Dun Algaz from Loch Modan or crossing the towering arches of the Thandol Span from the Arathi Highlands. The eastern reaches of the swamp are dominated by the brooding presence of Grim Batol, the former Wildhammer stronghold. After its defilement during the War of the Three Hammers, it became the fortified redoubt of the Dragonmaw clan during the Second War. When the red dragonflight broke free from orcish captivity, their fiery vengeance shattered the orcish forces and laid waste to the surrounding slopes. Today, red wyrmkin guard the Dragonmaw Gates against all trespassers, while feral remnants of the Dragonmaw clan dwell in scattered hill camps, continuing to harass travellers across the swamp. Perched on the rim of Baradin Bay, Menethil Harbor is the beating heart of Alliance trade and logistics in Khaz Modan. Named in honor of King Terenas Menethil II, this stalwart port connects the Eastern Kingdoms to distant Kalimdor through regular transport ships sailing to Auberdine and Theramore Isle. Despite its strategic military importance and solid dwarven architecture, the harbor is perpetually under threat from coastal murlocs, swamp creatures, and coastal raiders who prey on vessels navigating the rocky channels. The Wetlands is an active war zone on multiple fronts. In the far north, Dark Iron dwarves under the warlock Balgaras the Foul have sabotage-bombed the Thandol Span and overrun the town of Dun Modr, cutting off overland supply trains. Meanwhile, Mosshide gnolls run rampant through the central fens, threatening even ancient protectors like Rethiel the Greenwarden. Between rogue orc warbands, Dark Iron infiltrators, and cursed shipwrecks along the coast, holding the swamp requires constant vigilance."
+    },
+    "zone:zephras": {
+      "1": [
+        {
+          "duration": 102.37387755102041,
+          "file": "Audio/Transport/full_zone_zephras-f52db78068084641648d/1-0000.mp3",
+          "sha256": "23a78c8f1053ade62e8d549bfbe91842306fc7ee8c1952fe44800d8b515ab8c7",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "72d458",
+      "generation": "f6728e46eb1eed8631a7",
+      "hash": "665598",
+      "source": {
+        "duration": 102.373878,
+        "file": null,
+        "sha256": "f52db78068084641648d4744775af00e04a769c0f7c4c00901a118330eb0454a"
+      },
+      "text": "Zephras Isle. Zephras Isle is a flying island suspended within Skywall, the Elemental Plane of air. It serves as the ancestral starting home of the Skyborne, whose society now faces an existential crisis as the island's sustaining magic steadily erodes. With contact severed from neighboring sky-realms, its inhabitants struggle against elemental collapse and arriving refugees. Zephras Isle is an isolated landmass adrift in the endless winds of Skywall. For generations, the Skyborne lived here alongside native air elementals who helped preserve the magical currents holding the isle aloft. However, several centuries ago, those elemental stewards vanished entirely. Deprived of their presence and guardianship, the latent enchantments upholding the land have slowly begun to fail, causing Zephras to slowly fracture and destabilize. Zephras was not the only sanctuary inhabited by the Skyborne within the Elemental Plane. Sister islands known as Anvilas and Siroccas also drifted across Skywall, but communications between them ceased after the elementals vanished. In recent times, refugees from these crumbling neighboring landmasses have managed to reach Zephras seeking safety, bearing grim tidings that the other islands are disintegrating outright beneath their feet. With their own landmass in slow decay, the Skyborne of Zephras have begun looking beyond the boundaries of Skywall toward Azeroth. From the skydocks of Valanaar, airships now venture forth to establish rare lifelines to the mortal realm. These voyages connect the airy domain directly to points on Azeroth, including the outskirts of Dalaran in the Alterac Mountains and the Skywatcher Plateau in Mulgore."
     }
   },
   "pack": "LoreForever_Voice_Default",
   "rates": [
     "1"
   ],
-  "retired": [],
+  "retired": [
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0000.mp3",
+      "sha256": "9bbd6101df061a7db2b92539ee0a32f91393a6d023f1e2dc7084a5e9771b0ae4"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0001.mp3",
+      "sha256": "05ec55ca6b4dd65c4f953d68fb3eff326b2dfc8aaffc2a8e1df86e50af653cba"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0002.mp3",
+      "sha256": "3e7e3ba4f2b128d51eb2be9e0342f1d60892f3c5b3ec69d461ae142ba988ee11"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0003.mp3",
+      "sha256": "9ad36aaace14dcb0e271ec93ef2556f28a930d23af4897fcacbcccebb6476155"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0004.mp3",
+      "sha256": "218decef25d083386b4a5ad86756c62d2c974f5dc4c554df11044036b9cbefce"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0005.mp3",
+      "sha256": "960b5be60596de083531953a6a7c8959d115e6b88128e02acb29190572895bd5"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0006.mp3",
+      "sha256": "ce77487169c7e7737c5b311fe86985b4e661eafd20d6f5c258c1864404c791e5"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0007.mp3",
+      "sha256": "ebab9ce9c04a750c5f7b320011f9cd86455648a7a9271c5680c407f8a86fb7f8"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0008.mp3",
+      "sha256": "a4cd3154818263edc55cb19a4a80b4bad7abf758686beaa68f0e33232a2146e5"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0009.mp3",
+      "sha256": "d14d6c0f04531a277d9b1e4ef08a4d801d492bea61ee7bd88991c73c05b95a60"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0010.mp3",
+      "sha256": "2c1c9048526e88bdcd1a17cb9f69a69f0a34a7177b0bd2b5aa3f00d1c83ab795"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0011.mp3",
+      "sha256": "6761c28c34f873c3871440cf60728b5279bcfc0762edf651425ce505950683c8"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0012.mp3",
+      "sha256": "b8e07f7d0c98d4eec6754d3e94d3b034111a7dc9e073b3c54f19e19eeb5231a1"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0013.mp3",
+      "sha256": "247f74a5806936c4316e7ad68ff5f1c65e0e083d32d7e3f03db8e16c594c960c"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0014.mp3",
+      "sha256": "b20a0181f9f7200260524f331c2f564c01cb56af615569face1a75a98876fbf2"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0015.mp3",
+      "sha256": "527b326e6aea78da0e8e4397388a2b3d0595520a868f887b9ce5e9a222893a7b"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0016.mp3",
+      "sha256": "b561b47b721b93fe95f145b1f0916a59d53be1c7ffa77ee9e897485cb0bbe2e9"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0017.mp3",
+      "sha256": "a51657a4266cbcc437fde31bea97e89d957d4f7d93e3a39d5d23cc3887128584"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0018.mp3",
+      "sha256": "c0b69e05703f5ab5f3f54b44524b5f0227ac7e2bf6054ca22b7692548ade13bd"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0019.mp3",
+      "sha256": "664baab877476b043690981f599c8dd8118d7c729c658270a496674f2c5b830c"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0020.mp3",
+      "sha256": "085d19649642ef3e65b1e54f74a6812da8f425b6d188b049ff4648b24f4ff2a7"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0021.mp3",
+      "sha256": "d5c2ce930d6a7cde4362000e92452deb83dafa8988e5699600edfcf95e9bd2f2"
+    },
+    {
+      "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0022.mp3",
+      "sha256": "7c9a2d13715aacc08c2dc41e6278bc7b6f952abb09955b1f97223886c375feaa"
+    }
+  ],
   "version": 1
 }

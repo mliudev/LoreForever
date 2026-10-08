@@ -113,20 +113,21 @@ local SELF_TOPIC = {
   self_faction = function(ctx) return ctx.faction and "topic:" .. Engine.lower(ctx.faction) end,
 }
 
--- lower() that also folds accented Latin capitals (U+00C0-00DE) and Cyrillic capitals (U+0400-042F) in UTF-8.
+-- lower() also folds accented Latin and Cyrillic capitals, including Ukrainian Ґ (U+0490), in UTF-8.
 function Engine.lower(s)
   s = (s or ""):lower()
-  if not s:find("[\195\208]") then return s end
+  if not s:find("[\195\208\210]") then return s end
   s = s:gsub("\195([\128-\158])", function(c)
     local b = c:byte()
     if b ~= 0x97 then return "\195" .. string.char(b + 32) end   -- not the multiplication sign
   end)
-  return (s:gsub("\208([\128-\175])", function(c)
+  s = s:gsub("\208([\128-\175])", function(c)
     local b = c:byte()
     if b < 0x90 then return "\209" .. string.char(b + 0x10) end
     if b < 0xA0 then return "\208" .. string.char(b + 0x20) end
     return "\209" .. string.char(b - 0x20)
-  end))
+  end)
+  return (s:gsub("\210\144", "\210\145"))   -- Ґ -> ґ
 end
 
 -- UTF-8 punctuation (the general punctuation block: dashes, curly quotes, zero-width space; and Latin-1 symbols such

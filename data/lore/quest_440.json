@@ -21,7 +21,7 @@
    "A Husband's Revenge"
   ]
  },
- "summary": "High Executor Hadrec sends an adventurer to Brill carrying a recovered wedding band inscribed to a woman named Deliah. Magistrate Sevren consults town records to identify her origins, uncovering the grim truth behind how her body was stolen from Tirisfal's graves.",
+ "summary": "High Executor Hadrec sends an adventurer to Brill carrying a recovered wedding band inscribed to a woman named Deliah. Magistrate Sevren consults town records to identify her origins, seeking clues about her life and the person who gave her the ring.",
  "sections": [
   {
    "title": "A Keepsake in Silverpine",
@@ -42,7 +42,7 @@
     "deliah lore",
     "deliah ring"
    ],
-   "answer": "Deliah was a former resident of Brill who died in recent years and was interred in the town's mass grave before her remains were disturbed by scavengers."
+   "answer": "Deliah is the name engraved on the recovered ring. Hadrec asks you to consult Magistrate Sevren's records in Brill to learn who she was."
   },
   {
    "q": "Why was Deliah's ring found in Silverpine Forest?",
@@ -51,7 +51,7 @@
     "rot hide ring",
     "how did ring get to silverpine"
    ],
-   "answer": "The Rot Hide gnolls raided the mass graves in Brill, exhuming fresh corpses\u2014including Deliah's\u2014and transporting them south into Silverpine to serve the Scourge."
+   "answer": "The ring was recovered during the Rot Hide investigation. Sevren's records may help explain whose keepsake it was and how it came to Silverpine."
   },
   {
    "q": "Why does High Executor Hadrec doubt the ring matters?",
@@ -87,7 +87,7 @@
     "next quest",
     "deliah continuation"
    ],
-   "answer": "Magistrate Sevren directs you toward Raleigh, Deliah's husband, who now dwells in the Undercity, leading to the follow-up quest 'Raleigh and the Undercity'."
+   "answer": "Magistrate Sevren consults Brill's records to identify Deliah. What he learns provides the next lead in the investigation."
   }
  ],
  "angles": [

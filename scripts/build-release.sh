@@ -35,6 +35,8 @@ PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "Lor
 # LoreForever_Voice_<Default|Female>_Quests_<locale>) until they're recorded, and every other question and answer
 # (LOR-227, lore.answers: LoreForever_Voice_<Default|Female>_Answers_<Part>[_<locale>]) until its renders land.
 RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR",
+                 "LoreForever_Lang_ruRU", "LoreForever_Lang_ukUA",
+                 "LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio",
                  "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female",
                  "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde",
                  "LoreForever_Voice_Female_Quests", "LoreForever_Voice_QuestGivers",

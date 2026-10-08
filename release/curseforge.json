@@ -3,6 +3,32 @@
   "core_upload": "auto",
   "projects": [
     {
+      "key": "ukrainian",
+      "name": "Lore Forever - Ukrainian",
+      "about": "Ukrainian translations by UALL / Pekelnyj",
+      "from": "LoreForever_Lang_ukUA-{v}.zip",
+      "folders": ["LoreForever_Lang_ukUA"],
+      "file": "Lore Forever Ukrainian {v}",
+      "core": "optional",
+      "requires": [],
+      "id": 1734020,
+      "slug": "lore-forever-ukrainian",
+      "live": false
+    },
+    {
+      "key": "russian",
+      "name": "Lore Forever - Russian",
+      "about": "Russian translations",
+      "from": "LoreForever_Lang_ruRU-{v}.zip",
+      "folders": ["LoreForever_Lang_ruRU"],
+      "file": "Lore Forever Russian {v}",
+      "core": "optional",
+      "requires": [],
+      "id": 1733811,
+      "slug": "lore-forever-russian",
+      "live": false
+    },
+    {
       "key": "male-quests",
       "name": "Lore Forever - Quest Dialogue (Male Narrator)",
       "about": "quest givers' voices (male narrator)",

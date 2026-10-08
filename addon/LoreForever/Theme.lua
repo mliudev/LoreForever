@@ -118,6 +118,27 @@ T.font = {
   hint = "GameFontDisable",          -- the message box placeholder only
 }
 
+-- The client's Morpheus Cyrillic face lacks Ukrainian і ї є ґ. Choose its Friz face after the reading language
+-- loads; a plain font object also replaces the family variants that CopyFontObject inherited from Morpheus.
+function T.SetLanguageFonts(locale)
+  if locale ~= "ukUA" or not CreateFont then return end
+  for _, role in ipairs({ "title", "place", "heading", "answerTitle" }) do
+    local name = T.font[role]
+    local f = name:find("^LoreForeverFont") and _G[name]
+    if f and f.GetFont then
+      local _, size, flags = f:GetFont()
+      local plain = _G[name .. "Ukrainian"] or CreateFont(name .. "Ukrainian")
+      if plain:SetFont("Fonts\\FRIZQT___CYR.TTF", size or 15, flags or "") ~= false then
+        plain:SetTextColor(f:GetTextColor())
+        plain:SetShadowColor(f:GetShadowColor())
+        plain:SetShadowOffset(f:GetShadowOffset())
+        if f.CopyFontObject then f:CopyFontObject(plain) end
+        f:SetFont("Fonts\\FRIZQT___CYR.TTF", size or 15, flags or "")
+      end
+    end
+  end
+end
+
 -- Whether the client has a texture (GetFileIDFromPath where it exists; otherwise assume it does).
 function T.HasTexture(path)
   if not GetFileIDFromPath then return true end

@@ -6,6 +6,24 @@ One `- ` bullet per change; wrap long bullets with an indented continuation line
 
 ## Unreleased
 
+## 0.12.0 (2026-10-08)
+
+- **Herald Player controls:** the recording library opens and switches entries faster. Volume and mute controls remember your choice when Herald reopens, and live answers use the lowest-cost default.
+- **Densuad's Spanish edition:** choose contributed Spanish text and narration together in Language options. One optional download contains both matching components; missing contributed stories stay hidden, and valid text without narration stays readable.
+- **Ukrainian community pack:** UALL / Pekelnyj's translations add the full interface and 882 current lore entries, with a Ukrainian translation dashboard and separate language download. Entries whose English changed keep their English text while awaiting an update. Ukrainian headings and searches support і, ї, є and ґ.
+
+- Russian translations from Ilia Reutov are available in the translation dashboard.
+
+- **Your complete story:** 250 completed English recordings read all their safe story sections, with matching read-along text and continuous playback. Stormwind and Westfall are available in both narrators; other recordings continue to arrive as they are ready.
+- **More male quest answers:** expanded optional English male quest-answer packs cover more early quests.
+- **Live answers in text:** Herald's live answers appear in Chat without generated speech. Recorded lore keeps its Player controls.
+
+- **Pictures beside your journey:** website timeline pictures enlarge on hover or keyboard focus and open on click or tap. Pictures stay attached to their exact character and saved moment.
+- **Smoother Herald controls:** keyboard seeking keeps focus, and Chat explains how to connect your profile or add a key when setup is incomplete.
+- **Quiet stories:** stories without narration remain readable without repeated recording notices.
+- **Lore corrections:** corrected lore in 167 entries and removed unsupported later-era identities.
+- **More translated lore:** refreshed German, Portuguese, French and Spanish text, and incorporated community corrections and Italian translations. Entries still awaiting a current translation retain English text.
+
 ## 0.11.0 (2026-10-07)
 
 - **All your installed packs:** Options now lists every voice, language and playback support pack, with separate

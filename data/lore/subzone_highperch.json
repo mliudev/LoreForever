@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "Aerie of the Wyverns",
-   "body": "Rising sharply out of the canyon floor, Highperch is a rugged sanctuary for Kalimdor's native wyverns. The plateau provides natural defense against predators and an unobstructed launch point for their hunting flights across Thousand Needles. Within its reaches, wyvern prides live under the protection of watchful patriarchs and matriarchs, tending to nests filled with pridelings. The beasts fiercely defend their territory against any intruders who manage to climb into their high domain.",
+   "body": "Rising sharply out of the canyon floor, Highperch is a rugged sanctuary for Kalimdor's native wyverns. The plateau provides natural defense against predators and an unobstructed launch point for their hunting flights across Thousand Needles. Within its reaches, wyvern prides live under the protection of watchful patriarchs and matriarchs, guarding their nests. The beasts fiercely defend their territory against any intruders who manage to climb into their high domain.",
    "spoiler": 0
   },
   {
    "title": "A Refuge in the Heights",
-   "body": "While hostile to outsiders, the high cliffs occasionally attract travellers and hunters willing to brave the dangerous ascent. The tauren scout Pao'ka Swiftmountain once found himself trapped on these perilous heights before being rescued, leaving him with an enduring respect for the roost and the beasts that dwell within it. For adventurers journeying through the canyon, scaling the ramp to Highperch means contending with dozens of razor-sharp talons and venomous tails.",
+   "body": "While hostile to outsiders, the high cliffs occasionally attract travellers and hunters willing to brave the dangerous ascent. The tauren scout Pao'ka Swiftmountain is stranded on these perilous heights and needs help reaching Whitereach Post. For adventurers journeying through the canyon, scaling the ramp to Highperch means contending with dozens of razor-sharp talons and venomous tails.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is at highperch",
     "highperch mobs"
    ],
-   "answer": "Highperch is inhabited exclusively by wild wyverns and wind riders. You will encounter protective patriarchs, consorts, soaring adults, and young pridelings defending their clifftop nests."
+   "answer": "Highperch is inhabited exclusively by wild wyverns and wind riders. You will encounter protective patriarchs, consorts, soaring adults defending their clifftop nests."
   },
   {
    "q": "Where is Highperch located?",
@@ -55,7 +55,7 @@
     "tauren at highperch",
     "who got trapped at highperch"
    ],
-   "answer": "Pao'ka Swiftmountain is a tauren scout who became stranded amidst the deadly wyvern nests on Highperch. After surviving the ordeal, he dedicated himself to monitoring and ensuring the well-being of the roost."
+   "answer": "Pao'ka Swiftmountain is a tauren scout stranded amidst the deadly wyvern nests on Highperch. He needs an escort to Whitereach Post."
   }
  ],
  "angles": [
@@ -73,7 +73,6 @@
   "highperch",
   "nest",
   "pao'ka swiftmountain",
-  "prideling",
   "thousand needles",
   "wind rider",
   "wyvern"

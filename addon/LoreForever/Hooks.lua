@@ -607,6 +607,18 @@ end
 -- A clickable chat link. kind: "faq" (key + idx), "entry" (key), "primer" (zone key), "listen" (key), "open",
 -- "journey" / "journeylisten" (a journey chapter id).
 function Hooks.Link(text, kind, key, idx)
+  if ns.lang and ns.lang.edition then
+    -- Primers carry a bare zone key; Journey links carry chapter IDs, not lore entry IDs.
+    local entryKey
+    if kind == "primer" then entryKey = key and ("zone:" .. key)
+    elseif kind == "entry" or kind == "listen" or kind == "faq" then entryKey = key end
+    if entryKey and not ns.DB.entries[entryKey] then return esc(text) end
+    if kind == "faq" then
+      local e = ns.DB.entries[key]
+      if not (e and e.faq and e.faq[idx]) then return esc(text) end
+      idx = ns.Lang.FaqNumber(key, idx)
+    end
+  end
   return GOLD .. "|H" .. LINK .. kind .. ":" .. (idx or "") .. ":" .. (key or "") .. "|h[" .. esc(text) .. "]|h|r"
 end
 
@@ -617,7 +629,9 @@ function Hooks.HandleLink(link)
   if link == lastLink and now - lastLinkAt < 0.3 then return true end   -- both handlers fired
   lastLink, lastLinkAt = link, now
   local kind, idx, key = link:sub(#LINK + 1):match("^(%a+):(%d*):(.*)$")
-  if kind == "faq" then ns.UI.Open(key, tonumber(idx), "chatlink")
+  if kind == "faq" then
+    local i = ns.Lang.FaqIndex(key, idx)
+    if i and ns.DB.entries[key] then ns.UI.Open(key, i, "chatlink") end
   elseif kind == "entry" then ns.UI.Open(key, nil, "chatlink")
   elseif kind == "primer" then ns.UI.ShowPrimer(key, "chatlink")
   elseif kind == "listen" then ns.UI.ListenTo(ns.UI.EntryTarget(key))

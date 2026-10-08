@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "Tallow and Dark Rites",
-   "body": "Across Tirisfal Glades, dark magic lingers in neglected crypts, decaying farms, and cultist encampments. Tapers such as the Candles of Beckoning are not everyday illumination; they are crafted specifically to focus shadowy energies, invoke unseen presences, or channel forbidden incantations. Recovering them from discarded caches prevents them from fueling rogue practitioners or Scourge infiltrators.",
+   "body": "The crate on Gunther's Retreat supplies the Candle of Beckoning used in his test of allegiance. Gunther asks an adventurer to take a candle to the old, bloody altar just off the island's southern coast, light it, and confront the Scourge agent Lillith Nefara.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "purpose of candles",
     "what do candles do"
    ],
-   "answer": "These candles are ritualistic tapers imbued with shadowy intent, often utilized in occult ceremonies to focus magical summonings or invoke lingering entities throughout Tirisfal Glades."
+   "answer": "A Candle of Beckoning is lit on the bloody altar near Gunther's Retreat to awaken Lillith Nefara for Gunther's test of allegiance."
   },
   {
    "q": "Where are these candles found?",
@@ -56,7 +56,7 @@
     "candle creator",
     "who made the crate"
    ],
-   "answer": "While their exact origins often tie to occultists, cultists, or rogue necromancers operating in Lordaeron's ruins, they are typically found stored in nondescript supply crates intended for ritual use."
+   "answer": "The source does not name their maker. Gunther keeps a crate of candles on his island for the test he sets in Proving Allegiance."
   },
   {
    "q": "Why does the Horde or Forsaken want them?",
@@ -83,7 +83,7 @@
     "are candles scourge",
     "scourge cult candles"
    ],
-   "answer": "Cults aligned with dark magic and Scourge remnants frequently employ ritual items of this kind to summon or direct the undead across the northern ruins."
+   "answer": "The candle awakens Lillith Nefara, a powerful Scourge agent. Gunther asks you to destroy her to prove you are the Lich King's enemy."
   }
  ],
  "angles": [

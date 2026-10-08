@@ -25,6 +25,8 @@ local PREFIX = { voice = "LoreForever_Voice_", lang = "LoreForever_Lang_", ["lan
 
 -- What each kind of pack can write. Unknown kinds get nothing.
 local WRITERS = {
+  ["edition-text"] = function() return { entries = {}, clipHash = {}, answerHash = {} } end,
+  ["edition-voice"] = function() return { clips = {} } end,
   voice = function() return { clips = {} } end,
   lang = function() return { ui = {}, entries = {}, names = {}, quests = {}, items = {}, clipHash = {}, answerHash = {} } end,   -- see Lang.lua
   ["lang-overlay"] = function() return { ui = {}, strings = {}, fp = {} } end,
@@ -64,6 +66,10 @@ end
 local function describe(rec)
   local n = rec.name
   rec.kind = kindOf(n) or rec.kind
+  rec.edition = meta(n, "X-LoreForever-Edition")
+  rec.editionVersion = meta(n, "X-LoreForever-EditionVersion")
+  rec.editionPeer = meta(n, "X-LoreForever-EditionPeer")
+  rec.editionAPI = tonumber(meta(n, "X-LoreForever-EditionAPI") or "")
   local prefix = (rec.kind == "lang" or rec.kind == "lang-overlay") and PREFIX[rec.kind]
   -- Before its .toc can be read: a language pack's locale ends its name, and so does a voice pack's in another
   -- language (LoreForever_Voice_Female_deDE, see Voice.KeyOf).
@@ -95,7 +101,7 @@ function Packs.Scan()
     if kind then
       local rec = Packs.byName[name] or { name = name }
       rec.kind, rec.title = kind, title
-      if Packs.data[name] then
+      if Packs.data[name] and kind ~= "edition-text" and kind ~= "edition-voice" then
         rec.loadable, rec.reason = true, nil
       elseif reason == "DEMAND_LOADED" then   -- load-on-demand and not loaded yet: that's the normal state
         rec.loadable, rec.reason = true, nil
@@ -123,9 +129,16 @@ function Packs.Get(name) return Packs.byName[name] end
 
 -- Load a pack (once) and return what it registered, or nil and a reason. Loaded packs are never unloaded.
 function Packs.Load(name)
-  if Packs.data[name] then return Packs.data[name] end
   local rec = Packs.byName[name]
   if not rec then return nil, "MISSING" end
+  if rec.kind == "edition-text" or rec.kind == "edition-voice" then
+    local present, _, _, loadable, reason = call("GetAddOnInfo", name)
+    if not present or reason == "DISABLED" or (not loadable and reason ~= "DEMAND_LOADED") then
+      return nil, reason or "MISSING"
+    end
+    describe(rec)
+  end
+  if Packs.data[name] and not (rec.format and rec.format > Packs.FORMAT) then return Packs.data[name] end
   if rec.format and rec.format > Packs.FORMAT then return nil, "NEWER_FORMAT" end
   if InCombatLockdown and InCombatLockdown() then return nil, "COMBAT" end
   Packs.loading = name
@@ -147,6 +160,58 @@ function Packs.Load(name)
       .. rec.dataVersion .. " (this is " .. ns.DB.version .. ").")
   end
   return Packs.data[name]
+end
+
+
+-- Contributor components are an atomic edition, never ordinary language/voice fallbacks.
+local function editionRecord(name)
+  local rec = Packs.Get(name)
+  if not rec then return nil end
+  local present, _, _, loadable, reason = call("GetAddOnInfo", name)
+  if not present or reason == "DISABLED" or (not loadable and reason ~= "DEMAND_LOADED") then return nil end
+  describe(rec) -- do not trust cached identities after an interrupted update
+  rec.kind, rec.locale = kindOf(name), meta(name, "X-LoreForever-Locale")
+  if rec.format and rec.format > Packs.FORMAT then return nil end
+  if rec.editionAPI ~= 1 or not rec.edition or not rec.editionVersion or not rec.editionPeer or not rec.locale then return nil end
+  return rec
+end
+
+local function editionWriter(rec, writer)
+  local e = type(writer) == "table" and writer.edition
+  return type(e) == "table" and e.id == rec.edition and e.version == rec.editionVersion
+    and e.peer == rec.editionPeer and e.api == 1
+end
+
+function Packs.EditionPair(id)
+  local text
+  for _, rec in ipairs(Packs.List("edition-text")) do
+    local fresh = editionRecord(rec.name)
+    if fresh and fresh.edition == id then
+      if text then return nil, "INCOMPATIBLE" end -- ambiguous IDs cannot select a component by list order
+      text = fresh
+    end
+  end
+  if not text then return nil, "MISSING" end
+  local voice = editionRecord(text.editionPeer)
+  if not voice or voice.kind ~= "edition-voice" or voice.edition ~= id
+      or voice.editionPeer ~= text.name or voice.editionVersion ~= text.editionVersion
+      or voice.locale ~= text.locale then return nil, "INCOMPATIBLE" end
+  local tw, reason = Packs.Load(text.name)
+  if not tw then return nil, reason end
+  local vw, vReason = Packs.Load(voice.name)
+  if not vw then return nil, vReason end
+  -- Loading can reveal/change metadata; verify both halves again against the registered writers.
+  text, voice = editionRecord(text.name), editionRecord(voice.name)
+  if not text or not voice or text.kind ~= "edition-text" or voice.kind ~= "edition-voice"
+      or text.edition ~= id or voice.edition ~= id or text.locale ~= voice.locale
+      or text.editionPeer ~= voice.name or voice.editionPeer ~= text.name
+      or text.editionVersion ~= voice.editionVersion
+      or not editionWriter(text, tw) or not editionWriter(voice, vw)
+      or type(tw.entries) ~= "table" or type(tw.clipHash) ~= "table" or type(tw.answerHash) ~= "table"
+      or type(vw.clips) ~= "table" then return nil, "INCOMPATIBLE" end
+  return { id = id, version = text.editionVersion, locale = text.locale,
+    textName = text.name, voiceName = voice.name, text = tw, voice = vw,
+    name = text.languageName or text.title, credit = text.credit }
 end
 
 function Packs.IsLoaded(name)

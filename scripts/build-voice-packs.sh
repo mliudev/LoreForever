@@ -25,7 +25,7 @@
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 exec python3 - "$ROOT" "$@" <<'PY'
-import re, sys, zipfile
+import re, sys, zipfile, subprocess
 from pathlib import Path
 
 root = Path(sys.argv[1])
@@ -192,5 +192,16 @@ for name, (folders, display) in DOWNLOADS.items():
         print(f"warning: {path.name} is over CurseForge's {CURSEFORGE_MB} MB upload limit; rebuild the pack at a lower "
               "bitrate (lore.voicepack quests --bitrate, or locale --bitrate for a narrator in another language), or "
               "split an answers part (lore.answers PARTS)")
+# A contributor edition must remain a single paired artifact. Its validator also
+# rejects a lone component, mismatched pairing identity and unhydrated audio.
+edition_names = ("LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio")
+if any((addons / name).exists() for name in edition_names):
+    command = [sys.executable, str(root / "scripts" / "contributor_bundle.py"),
+               "--addons", str(addons), "--out", str(out)]
+    if VERSIONED:
+        command.append("--versioned")
+    path = Path(subprocess.check_output(command, cwd=root, text=True).strip())
+    rows.append((path.name, f"Densuad: Spanish text and narration {core}", core))
+    print(f"built {path.relative_to(root)} ({path.stat().st_size / 1024**2:.1f} MB)")
 (out / "manifest.tsv").write_text("".join("\t".join(r) + "\n" for r in rows), encoding="utf-8")
 PY

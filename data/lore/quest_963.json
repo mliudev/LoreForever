@@ -87,7 +87,7 @@
     "cerellean ending",
     "for love eternal ending"
    ],
-   "answer": "Returning Anaya's pendant to Cerellean in Auberdine causes Anaya's ghost to appear briefly before him. She shares a final, silent moment of closure before dissolving, leaving Cerellean alone by the shore with his grief."
+   "answer": "Bring Anaya's pendant to Cerellean in Auberdine after freeing her troubled spirit. The result of the delivery is revealed when you return."
   }
  ],
  "angles": [
@@ -97,7 +97,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "For the night elves of Darkshore, this tragic reunion is a poignant reminder of the enduring scars left behind by the Great Sundering and the fall of their ancient cities."
+   "text": "For the night elves of Darkshore, helping Cerellean is a poignant reminder of the enduring scars left behind by the Great Sundering and the fall of their ancient cities."
   },
   {
    "target": "faction:Alliance",

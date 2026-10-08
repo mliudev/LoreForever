@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Corruptor of Constellas",
-   "body": "Within the tainted glades of Felwood, the Ruins of Constellas have fallen into the clutches of the Jadefire satyrs. Stationed in an encampment pitched amidst the elven stonework, Xavathras directs the defilement of a nearby moonwell on behalf of another cruel satyr, Xavaric. By poisoning the pure waters with demonic energy, Xavathras deepens the corruption that grips the forest. His presence poses a direct threat to any attempts to restore the woodland, earning the ire of night elves like Arcanist Delaris who mark him for death.",
+   "body": "Within the tainted glades of Felwood, the Ruins of Constellas have fallen into the clutches of the Jadefire satyrs. Stationed in an encampment pitched amidst the elven stonework, Xavathras directs the defilement of a nearby moonwell on behalf of another cruel satyr, Xavaric. By poisoning the pure waters with demonic energy, Xavathras deepens the corruption that grips the forest. His presence poses a direct threat to any attempts to restore the woodland, earning the ire of night elves like Eridan Bluewind who mark him for death.",
    "spoiler": 0
   }
  ],
@@ -36,12 +36,11 @@
    "answer": "Xavathras makes his camp among the satyr tents at the Ruins of Constellas, an ancient night elf site located in southern-central Felwood."
   },
   {
-   "q": "Why does Arcanist Delaris want Xavathras dead?",
+   "q": "Why does Eridan Bluewind want Xavathras dead?",
    "aliases": [
-    "why kill xavathras",
-    "delaris xavathras"
+    "why kill xavathras"
    ],
-   "answer": "Arcanist Delaris seeks to defend Felwood and halt the rampant spread of demonic defilement. Xavathras is actively cultivating a corrupted moonwell, making his elimination a top priority for those attempting to cleanse the land."
+   "answer": "Eridan Bluewind seeks to defend Felwood and halt the rampant spread of demonic defilement. Xavathras is actively cultivating a corrupted moonwell, making his elimination a top priority for those attempting to cleanse the land."
   },
   {
    "q": "Who is Xavathras working for?",
@@ -64,7 +63,6 @@
  ],
  "keywords": [
   "constellas",
-  "delaris",
   "felwood",
   "jadefire",
   "moonwell",

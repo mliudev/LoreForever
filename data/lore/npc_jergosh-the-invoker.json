@@ -17,7 +17,7 @@
   },
   {
    "title": "Demonic Ambitions",
-   "body": "Jergosh's presence in the chasm is far from aimless wandering. His dark rituals and dangerous schemes eventually grew bold enough to attract the direct scrutiny of Thrall himself. Among his sinister possessions is the Blood Filled Orb, a potent artifact tied to the summoning of demonic terrors such as Zelemar the Wrathful. Jergosh represents an existential infection within Durotar, reminding the Horde of the dark pacts they fought so desperately to leave behind.",
+   "body": "Jergosh's presence in the chasm is far from aimless wandering. His dark rituals and dangerous schemes eventually grew bold enough to attract the direct scrutiny of Thrall himself. Jergosh represents an existential infection within Durotar, reminding the Horde of the dark pacts they fought so desperately to leave behind.",
    "spoiler": 1
   }
  ],
@@ -57,14 +57,6 @@
    "answer": "Yes. Jergosh's plots grew dangerous enough that rumors reached Thrall, leading the Warchief to dispatch trusted adventurers into the chasm to eliminate the cultist menace."
   },
   {
-   "q": "What is the Blood Filled Orb Jergosh guards?",
-   "aliases": [
-    "blood filled orb",
-    "zelemar summoning orb"
-   ],
-   "answer": "The Blood Filled Orb is a dark ritual focus held by Jergosh. Warlocks undertaking specific trials can use it to summon the demon Zelemar the Wrathful."
-  },
-  {
    "q": "Why does Jergosh practice fel magic instead of shamanism?",
    "aliases": [
     "why warlock",
@@ -80,7 +72,7 @@
   },
   {
    "target": "class:Warlock",
-   "text": "For warlocks, Jergosh is both a dark mentor figure to surpass and the guardian of the Blood Filled Orb needed to summon Zelemar the Wrathful."
+   "text": "For warlocks, Jergosh is a powerful practitioner of the demonic arts whose schemes threaten the Horde."
   },
   {
    "target": "faction:Horde",
@@ -88,21 +80,18 @@
   }
  ],
  "keywords": [
-  "blood filled orb",
   "invoker",
   "jergosh",
   "orgrimmar",
   "ragefire chasm",
   "searing blade",
   "shadow council",
-  "warlock",
-  "zelemar"
+  "warlock"
  ],
  "related": [
   "zone:ragefire",
   "topic:shadow-council",
   "npc:thrall",
-  "quest:9692",
   "topic:burning-legion"
  ],
  "attribution": [

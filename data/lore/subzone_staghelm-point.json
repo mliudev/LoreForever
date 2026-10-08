@@ -17,15 +17,6 @@
  ],
  "faq": [
   {
-   "q": "Why is this outpost named Staghelm Point?",
-   "aliases": [
-    "staghelm point name",
-    "why is it called staghelm point",
-    "who is it named after"
-   ],
-   "answer": "The tower bears the name of the Staghelm family, honoring either Archdruid Fandral Staghelm\u2014who commanded the night elven forces in the ancient War of the Shifting Sands\u2014or his son Valstann, who was brutally slain by the silithid during that conflict."
-  },
-  {
    "q": "Who lives at Staghelm Point?",
    "aliases": [
     "who is at staghelm point",
@@ -51,7 +42,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "The tower honors the lineage of Archdruid Fandral Staghelm, offering a contemplative vantage over the corrupted, arid wilderness that defies the balance of nature."
+   "text": "The tower bears the Staghelm name, offering a contemplative vantage over the corrupted, arid wilderness that defies the balance of nature."
   }
  ],
  "keywords": [
@@ -61,7 +52,6 @@
   "silithus",
   "staghelm point",
   "twilight's run",
-  "valstann staghelm",
   "watchtower"
  ],
  "related": [

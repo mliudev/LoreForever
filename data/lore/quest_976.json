@@ -38,7 +38,7 @@
     "feero ironhand lore",
     "who is the dwarf escort"
    ],
-   "answer": "Feero Ironhand is a dwarven courier stationed at Maestra's Post in western Ashenvale. Entrusted by Delgren the Purifier to carry important messages and logistical aid to Auberdine, he is cautious enough to refuse to travel without capable bodyguards."
+   "answer": "Feero Ironhand is a human courier stationed at Maestra's Post in western Ashenvale. Entrusted by Delgren the Purifier to carry important messages and logistical aid to Auberdine, he is cautious enough to refuse to travel without capable bodyguards."
   },
   {
    "q": "Why does Auberdine need these supplies?",
@@ -56,7 +56,7 @@
     "feero ambushers",
     "who attacks on the road"
    ],
-   "answer": "The escort is intercepted by three waves of hostile forces: Dark Strand assassins affiliated with the cult at the Tower of Althalaxx, Forsaken scouts prowling the woods, and a strike team led by Balizar the Umbrage, Aligar the Tormentor, and Caedakar the Vicious."
+   "answer": "Feero warns that dangerous foes operate throughout the forest and asks for guards. The identities of those who attack are discovered during the escort."
   },
   {
    "q": "Why are Forsaken scouts in western Ashenvale?",
@@ -96,8 +96,8 @@
    "text": "The supplies and dispatches sent north directly aid the Sentinels in Auberdine as they contend with growing darkness across Darkshore and along the Ashenvale border."
   },
   {
-   "target": "race:Dwarf",
-   "text": "Feero Ironhand represents Ironforge's willingness to support Kaldorei allies deep within unfamiliar, dangerous ancient forests."
+   "target": "race:Human",
+   "text": "Feero Ironhand represents human willingness to support kaldorei allies deep within unfamiliar, dangerous ancient forests."
   }
  ],
  "keywords": [

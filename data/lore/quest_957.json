@@ -17,7 +17,7 @@
   "wiki": "Bashal'Aran (4)",
   "chain": []
  },
- "summary": "This quest marks the final step in freeing the spirit of Asterion from his ancient imprisonment in the ruins of Bashal'Aran. By carrying his binding seal south to the sister ruins of Ameth'Aran, an adventurer can shatter his bonds and awaken his desire for vengeance against his former master.",
+ "summary": "This quest marks the final step in freeing the spirit of Asterion from his ancient imprisonment in the ruins of Bashal'Aran. By carrying his binding seal south to the sister ruins of Ameth'Aran, an adventurer can shatter his bonds and help free him from his ancient prison.",
  "sections": [
   {
    "title": "A Prison of Ancient Sorcery",
@@ -70,7 +70,7 @@
     "who is athrikus",
     "asterion master"
    ],
-   "answer": "Asterion was imprisoned by his former master, a powerful Highborne sorcerer named Athrikus. Upon being freed, Asterion senses that Athrikus somehow still survives in the world."
+   "answer": "Asterion says one of the most powerful Highborne created the seal binding him. More about his former master is revealed through the quest chain."
   },
   {
    "q": "What era does Asterion remember?",
@@ -88,7 +88,7 @@
     "what happens to asterion",
     "asterion after free"
    ],
-   "answer": "No. Rather than crossing into peaceful rest, Asterion's sorrow turns toward retribution when he senses that Athrikus still lingers, prompting him to seek vengeance against his ancient captor."
+   "answer": "Destroying the seal is meant to break Asterion's prison. His response to freedom is revealed when you return to him."
   }
  ],
  "angles": [

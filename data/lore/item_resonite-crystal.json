@@ -10,12 +10,12 @@
    "quest:6421"
   ]
  },
- "summary": "Resonite Crystals are strange, glowing mineral samples found deep within Boulderslide Cavern in the Stonetalon Mountains. Frantically mined by local kobolds, these rare stones hum with the ancient magical residue of the Titan-forged Earthen.",
+ "summary": "Resonite Crystals are rare mineral samples mined by kobolds inside Boulderslide Cavern in the Stonetalon Mountains. Their frantic digging has drawn the concern of Mor'rogal at Sun Rock Retreat.",
  "sections": [
   {
    "title": "Ancient Resonance",
    "body": "Hidden away in the depths of Boulderslide Ravine, Resonite Crystals have become the focal point of sudden, frantic kobold excavation. While common cave miners usually seek mundane ores or shiny trinkets, the kobolds' obsession with these specific formations immediately alarmed the shamans of Sun Rock Retreat. Upon close examination, the stones hum with a subtle magical resonance tied to the primordial shaping of the world. Mor'rogal identified these faint energies as traces of Earthen magic, indicating that the burrowing creatures broke into an ancient layer crafted by the Titans.",
-   "spoiler": 0
+   "spoiler": 1
   },
   {
    "title": "Tapping the Earth",
@@ -40,7 +40,7 @@
     "kobold crystal plot",
     "boulderslide kobolds"
    ],
-   "answer": "The kobolds in Boulderslide Ravine began frantically excavating these crystals after their deep mining broke into subterranean chambers containing ancient Earthen relics. They harvest the mineral to tap into the strange power permeating the rock."
+   "answer": "The kobolds are frantically mining the rare crystals, but Mor'rogal does not yet know why. He asks for samples and an investigation of the cave's depths to understand their activity."
   },
   {
    "q": "What kind of power is in a Resonite Crystal?",
@@ -49,7 +49,7 @@
     "what is resonite",
     "is resonite magical"
    ],
-   "answer": "Resonite Crystals carry lingering traces of Earthen magic. According to the tauren shaman Mor'rogal, this primordial power dates back to the Titans, who forged the stone-skinned Earthen to shape the subterranean layers of the world."
+   "answer": "Mor'rogal suspects the crystals are connected to something troubling beneath the mountains. Their magical nature is identified after samples and news from the cavern reach him."
   },
   {
    "q": "Who is studying these crystals?",
@@ -66,7 +66,7 @@
     "what are earthen",
     "earthen titan connection"
    ],
-   "answer": "The Earthen are an ancient race created by the Titans to sculpt and excavate the deep earth. Uncovering their presence in the Stonetalon depths explains the rare, residual Titan magic clinging to the Resonite Crystals."
+   "answer": "The Earthen are creatures said to have been created by the Titans to shape the land. Their possible connection to Resonite is investigated during Mor'rogal's quest."
   }
  ],
  "angles": [
