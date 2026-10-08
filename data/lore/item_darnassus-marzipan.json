@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Taste of the World Tree",
-   "body": "During Hallow's End, the capital cities of the Alliance take part in lighthearted trick-or-treat traditions. While the dwarves offer sharp mints and Stormwind crafts chewy nougat, the innkeepers of Darnassus prepare delicate marzipan for visitors. Obtaining a piece requires visitors to showcase a bit of festive spirit\u2014specifically, dancing on command for the innkeeper. The confection is one of four regional treats sought by young Jesper, an orphan outside Stormwind who cannot travel to collect sweets himself.",
+   "body": "During Hallow's End, the capital cities of the Alliance take part in lighthearted trick-or-treat traditions. While the dwarves offer sharp mints and Stormwind crafts chewy nougat, the innkeepers of Darnassus prepare delicate marzipan for visitors. Obtaining a piece requires visitors to showcase a bit of festive spirit—specifically, dancing on command for the innkeeper. The confection is one of four regional treats sought by young Jesper, a sick orphan in Stormwind's Cathedral Square who cannot go out to collect sweets himself.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "darnassus marzipan use",
     "what do i do with marzipan"
    ],
-   "answer": "Darnassus Marzipan is one of four distinct sweets needed by Jesper, an orphan resting outside the gates of Stormwind during Hallow's End. Delivering it alongside candies from Ironforge, Gnomeregan, and Stormwind earns a bundle of festive pumpkin treats in exchange."
+   "answer": "Darnassus Marzipan is one of four distinct sweets needed by Jesper, a sick orphan at the orphanage in Stormwind's Cathedral Square during Hallow's End. Delivering it alongside candies from Ironforge, Gnomeregan, and Stormwind earns a bundle of festive pumpkin treats in exchange."
   },
   {
    "q": "How do you obtain Darnassus Marzipan?",
@@ -41,7 +41,7 @@
     "why does jesper need candy",
     "why can't jesper go"
    ],
-   "answer": "Jesper is an orphan confined under the watchful eye of Matron Nightingale near Stormwind. Fearing lingering dangers outside the safety of the city gates, he is forbidden from traveling across the world to trick-or-treat and relies on adventurers to collect distant treats like the marzipan for him."
+   "answer": "Jesper is sick and cannot go out trick-or-treating. He is at the Stormwind orphanage in Cathedral Square, and relies on adventurers to collect the distant treats for him."
   }
  ],
  "angles": [

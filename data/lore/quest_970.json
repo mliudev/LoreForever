@@ -75,7 +75,7 @@
     "what is in the soul gem",
     "soul gem ghost"
    ],
-   "answer": "When Delgren unravels the dark enchantments binding the soul gem, he releases a tormented ghost imprisoned within the stone. The freed spirit reveals key information about the cult's sinister workings."
+   "answer": "Delgren intends to decipher the dark enchantment on the Glowing Soul Gem. What he discovers is revealed after you bring him the gem."
   },
   {
    "q": "Where is Ordil'Aran located?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "The release of a bound spirit from dark torment echoes the priest's calling to bring redemption and solace to tormented souls."
+   "text": "Examining a dark soul vessel echoes the priest's calling to oppose corruption and bring solace to tormented souls."
   },
   {
    "target": "race:NightElf",

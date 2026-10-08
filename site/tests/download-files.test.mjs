@@ -22,7 +22,7 @@ const OLD = release("v0.8.9", ["LoreForever.zip", 8456781234], ["LoreForever_Voi
 const AUDIO = release("audio", ["LoreForever_Voice_Default-0123456789abcdef.zip", 7654321]);
 const latestFiles = Object.fromEntries(LATEST.assets.map(a => [a.name, a.size]));
 const latestOnly = { latestTag: "v0.9.0", byTag: { latest: latestFiles, "v0.9.0": latestFiles } };
-const snapshot = JSON.parse(readFileSync(new URL("../public/data/download-files.json", import.meta.url)));
+const snapshot = JSON.parse(readFileSync(new URL("./fixtures/download-catalog/download-files.json", import.meta.url)));
 
 // Bodies may be a status, a Response, or a callback to simulate a thrown network error.
 function fake(latest = LATEST, recent = [LATEST, OLD, AUDIO]) {
@@ -90,12 +90,12 @@ test("latest and recent metadata requests begin in parallel", async () => {
 });
 
 test("authenticated recent metadata never exposes unpublished draft bundles", async () => {
-  const draft = { ...release("v0.10.0", ["LoreForever_Voice_Female_enUS-complete.zip", 2000]), draft: true };
+  const draft = { ...release("v0.11.0", ["LoreForever_Voice_Female_enUS-complete.zip", 2000]), draft: true };
   fake(LATEST, [draft, OLD]);
   const res = await get({ GITHUB_TOKEN: "mock-token" });
   assert.equal(res.status, 200);
   const data = await res.json();
-  assert.equal(Object.hasOwn(data.byTag, "v0.10.0"), false);
+  assert.equal(Object.hasOwn(data.byTag, "v0.11.0"), false);
   assert.ok(data.byTag[OLD.tag_name]);
 });
 
@@ -324,8 +324,8 @@ test("upstream outage serves exact published metadata and pinned links without c
   assert.equal(data.latestTag, undefined);
   assert.equal(data.byTag.latest, undefined);
   assert.equal(data.publishedTag, snapshot.publishedTag);
-  assert.equal(data.byTag[data.publishedTag]["LoreForever.zip"], 355287399);
-  assert.equal(data.downloads["/download/zip"], "https://github.com/mliudev/LoreForever/releases/download/v0.10.0/LoreForever.zip");
+  assert.equal(data.byTag[data.publishedTag]["LoreForever.zip"], 356086600);
+  assert.equal(data.downloads["/download/zip"], "https://github.com/mliudev/LoreForever/releases/download/v0.11.0/LoreForever.zip");
   assert.deepEqual(await (await get(env)).json(), data);
   assert.equal(calls.length, 2, "snapshot answers share the bounded retry cooldown");
   cache.advance(3600);
@@ -337,8 +337,8 @@ test("upstream outage serves exact published metadata and pinned links without c
 
 test("unverified snapshots cannot invent sizes, latest metadata, or arbitrary download links", async () => {
   for (const mutate of [s => s.publishedTag = "unknown", s => s.byTag.latest = {},
-    s => s.downloads["/download/zip"] = "v0.10.0:missing.zip", s => s.downloads["https://evil.test"] = "v0.10.0:LoreForever.zip",
-    s => s.byTag["v0.10.0"]["LoreForever.zip"] = -1]) {
+    s => s.downloads["/download/zip"] = "v0.11.0:missing.zip", s => s.downloads["https://evil.test"] = "v0.11.0:LoreForever.zip",
+    s => s.byTag["v0.11.0"]["LoreForever.zip"] = -1]) {
     const bad = structuredClone(snapshot); mutate(bad);
     assert.throws(() => publishedFiles(bad));
     fake(500);

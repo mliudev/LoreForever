@@ -65,6 +65,16 @@ function preferredBundle(v, group, packs) {
 }
 export function voiceChoices(v, packs = []) {
   if (!validId(v?.id) || !released(v)) return [];
+  // A contributor edition is one paired download. Its text is never the shared
+  // language pack, even when another installed edition uses the same locale.
+  if (v.edition) {
+    const e = v.edition;
+    if (!/^[a-zA-Z0-9][a-zA-Z0-9-]*$/.test(e.id || "") || !/^[a-z]{2}[A-Z]{2}$/.test(e.locale || "") || !safeDownload(v.download)) return [];
+    const file = { id: `${v.id}-file`, name: `${v.name}: text and narration`, href: `/download/voice/${v.id}`, item: v, pack: v.id };
+    return [{ id: v.id, language: v.language || e.locale, files: [file], leaves: [file], downloads: [file],
+      extra: false, included: false, clips: count(v.clips), preferred: "", edition: e,
+      translation: { locale: e.locale, name: v.language || e.locale, included: false, edition: true } }];
+  }
   const baseLanguage = v.language || "English", groups = new Map();
   const add = (language, file, extra = false) => {
     const key = extra ? file.pack : language;
@@ -81,7 +91,8 @@ export function voiceChoices(v, packs = []) {
   }
   return [...groups.values()].map(group => {
     const { leaves, downloads } = fallbackFiles(group.files), translation = translationFor(group, packs);
-    if (!group.extra && translation && !translation.included && released(translation) && safeDownload(translation.download)) downloads.push({ id: `lang-${translation.locale}-${v.id}`, name: `${translation.name} text`, href: `/download/lang/${translation.locale}`, item: translation, pack: `lang-${translation.locale}` });
+    const textIncluded = downloads.some(f => f.item.includesText === translation?.locale);
+    if (!group.extra && translation && !textIncluded && !translation.included && released(translation) && safeDownload(translation.download)) downloads.push({ id: `lang-${translation.locale}-${v.id}`, name: `${translation.name} text`, href: `/download/lang/${translation.locale}`, item: translation, pack: `lang-${translation.locale}` });
     const clips = group.included ? count(v.clips) : leaves.every(f => count(f.item.clips)) ? leaves.reduce((n, f) => n + f.item.clips, 0) : 0;
     const id = group.extra ? group.files[0].pack : group.language === baseLanguage ? v.id : `${v.id}-${translation?.locale || group.files[0].pack}`;
     return { ...group, id, leaves, downloads, translation, clips, preferred: preferredBundle(v, group, packs) };
@@ -119,6 +130,11 @@ function curseforgeChoices(v, group) {
 }
 function choiceRow(v, group, likes, languageAnchor = "") {
   const included = group.included, narrator = v.name.replace(/^Lore Forever /, "");
+  const edition = group.edition;
+  const coverage = edition
+    ? `${count(edition.entries).toLocaleString("en-US")} contributed entries; ${group.clips.toLocaleString("en-US")} recordings. Only this edition's contributed text is shown. Text without a matching recording remains readable.`
+    : `${group.clips ? group.clips.toLocaleString("en-US") + " available recordings." : "Recording count unavailable."} Other entries remain readable as text.`;
+  const requirements = edition ? `<p>Requires the matching Lore Forever core${versionTag(edition.coreVersion) ? ` (${escape(edition.coreVersion)})` : ""} with contributor edition support.${formatSize(edition.installedSize) ? ` Installed size: ${formatSize(edition.installedSize)}.` : ""} Includes both text and narration in one manual ZIP.</p>` : "";
   const questDialogue = group.extra && /_Quests(?:_|$)/.test(group.files[0].item.addon || "");
   const name = questDialogue
     ? `Quest dialogue (${narrator})` : group.extra ? group.files[0].name : narrator;
@@ -141,11 +157,11 @@ function choiceRow(v, group, likes, languageAnchor = "") {
     <ul class="dl-files">${alternatives.map(f => fileLink(f)).join("")}</ul>
     </details>` : ""}`;
   const action = included ? `<a class="dl-included-chip" href="#addon">Included with add-on</a>` : `<details class="dl-install-choice" name="voice-install"${group.preferred ? ` data-preferred="${escape(group.preferred)}"` : ""}>
-    <summary class="btn-small" aria-label="Get ${escape(group.language)} ${escape(name)} voice pack">Get voice pack</summary>
+    <summary class="btn-small" aria-label="Get ${escape(group.language)} ${escape(name)} ${edition ? "edition" : "voice pack"}">${edition ? "Get edition" : "Get voice pack"}</summary>
     <div class="dl-install-panel">
     <h3>${escape(group.language)} &middot; ${escape(name)}</h3>
-    <p>${group.clips ? group.clips.toLocaleString("en-US") + " available recordings." : "Recording count unavailable."} Other entries remain readable as text.</p>${group.translation ? `<p>${escape(group.translation.name)} text ${group.translation.included ? "is included with the main add-on." : "comes with this voice choice."}</p>` : ""}${curseforgeChoices(v, group)}${manual}<p>
-    <a href="#install">Install help</a> &middot; Pick the voice in game with <code>/lore voice</code>.</p>
+    <p>${coverage}</p>${requirements}${group.translation ? `<p>${escape(group.translation.name)} text ${group.translation.included ? "is included with the main add-on." : edition ? "and narration belong to this contributor edition." : "comes with this voice choice."}</p>` : ""}${edition ? "" : curseforgeChoices(v, group)}${manual}<p>
+    <a href="#install">Install help</a> &middot; ${edition ? "Select the edition in Lore Forever's Language options, then reload. Switching editions changes text and narration together." : "Pick the voice in game with <code>/lore voice</code>."}</p>
     </div>
     </details>`;
   return `<tr class="dl-voice dl-choice${included ? " dl-choice-included" : ""}" id="${escape(group.id)}" data-recording data-voice="${escape(questDialogue ? `${v.id}-quest-dialogue` : group.extra ? group.id : v.id)}" data-voice-name="${escape(name)}" data-language="${escape(group.language)}">
@@ -160,10 +176,11 @@ function choiceRow(v, group, likes, languageAnchor = "") {
     <small class="dl-sub">by ${escape(v.contributor?.name || v.credit || "Community narrator")}</small>
     </div>
     </div>
+    ${group.extra && group.files[0].item.summary ? `<p class="dl-cover">${escape(group.files[0].item.summary)}</p>` : ""}
     ${likes && !group.extra ? likeButton(v, likes[v.id]) : ""}</td>
     <td data-label="Recordings">
     <span class="dl-recording-count">${group.clips ? group.clips.toLocaleString("en-US") : "Count unavailable"}</span>
-    <small>Partial coverage</small>
+    <small>${edition ? `${count(edition.entries).toLocaleString("en-US")} contributed entries` : "Partial coverage"}</small>
     </td>
     <td data-label="Download size">${size}</td>
     <td class="dl-choice-action">${action}</td>

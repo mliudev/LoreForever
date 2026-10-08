@@ -860,12 +860,18 @@ links to it, so one from an unmerged branch is never offered. Each upload remove
   `scripts/build-release.sh`. The main ZIP keeps English male narration; the other languages travel with their voice
   packs. Standalone translation assets remain available for the translator tools. A new language ships when Mike
   decides it is ready.
+- **Importing a draft kit:** use `lore.kit check <locale> <files> --draft`, then `lore.kit build <locale> <files>
+  --draft` (or `import --draft` without compiling). Imported lore stays `reviewed: false`, and UI strings are not
+  added to `ui_checked.json`, so both remain in **Drafts to check**. Existing reviewed lore entries are left intact,
+  including entries whose English has changed, and checked UI strings are preserved. The automated language check
+  still runs; `--draft` does not apply to dashboard pulls. A draft-import marker keeps current lore drafts out of
+  normal automatic translation catch-up runs; an explicit translation `--force` can replace them.
 - **Automated check:** `check`, `build` and `pull` send every string that would change, with its English, through an
   automated language check (`pipeline/lore/kit_review.py`, its key from `.env`), which flags wrong meanings, the wrong
   language, spam and gibberish. Flagged strings are left out and listed with the reason (`--keep-flagged` takes them
   anyway, `--no-review` skips the check). It costs well under a cent per hundred strings; on 80 existing German
   drafts it flagged none. Nobody on our side needs to read the language.
-- **Public copy** never says how a language's first text was produced: it's a "draft" until native speakers review it.
+- **Public copy** presents languages and coverage without quality labels or review disclaimers. Contributor checks remain internal bookkeeping for the translation editor.
 
 ### Translator accounts and the translation dashboard (LOR-96)
 

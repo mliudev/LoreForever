@@ -2,7 +2,7 @@
  "key": "subzone:bandarion-keep",
  "type": "subzone",
  "name": "Bandarion Keep",
- "era": "classic",
+ "era": "forever",
  "zone": "tirisfal",
  "meta": {
   "wiki": "Bandarion Keep"
@@ -45,7 +45,7 @@
     "tyrs watch",
     "what is tyrs watch"
    ],
-   "answer": "Tyr's Watch refers to the order of Forsaken paladins and guardians operating in the region, an organization deeply entwined with the foundation and defense of Bandarion Keep."
+   "answer": "Tyr's Watch is a name used in connection with Bandarion Keep and the Forsaken paladins there. Forever beta quests use the two names interchangeably, leaving unclear whether Tyr's Watch is an organization or an earlier place name."
   },
   {
    "q": "What dangers threaten the keep?",

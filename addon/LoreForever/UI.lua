@@ -5,6 +5,8 @@ local _, ns = ...
 local UI = {}
 ns.UI = UI
 local L = ns.L
+local function faqID(key, idx) return ns.Lang.FaqID(key, idx) end
+local function faqIndex(key, original) return ns.Lang.FaqIndex(key, original) end
 local T = ns.Theme   -- colours, fonts, borders and the themed button (Theme.lua)
 
 local GOLD, GREY, BLUE, WHITE, GREEN = T.code.gold, T.code.grey, T.code.blue, T.code.white, T.code.green
@@ -74,7 +76,7 @@ function UI.QueueAction(id)
 end
 
 function UI.DoQueueAction(key, idx, deferStart)
-  local id = idx and (key .. "#faq" .. idx) or key
+  local id = idx and (faqID(key, idx)) or key
   local action = UI.QueueAction(id)
   if action == "add" then UI.QueueLink(key, idx, deferStart)   -- (a note if it can't go in after all: a quest Forever rewrote)
   elseif action == "stop" then UI.StopAll()
@@ -124,7 +126,7 @@ local function SetQueueButton(add, key, idx)
   local can = UI.CanQueue(key, idx) and true or false
   add:SetShown(can)
   if not can then return false end
-  add.id, add.key, add.idx = idx and (key .. "#faq" .. idx) or key, key, idx
+  add.id, add.key, add.idx = idx and (faqID(key, idx)) or key, key, idx
   local action = UI.QueueAction(add.id)
   add.action = action
   add.text:SetShown(action == "add")
@@ -144,7 +146,7 @@ local function PlayButton(parent)
   end)
   play:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    local id = self.idx and (self.key .. "#faq" .. self.idx) or self.key
+    local id = self.idx and (faqID(self.key, self.idx)) or self.key
     GameTooltip:AddLine((UI.speaking and UI.playingId == id) and L["Stop narration"] or L["Play narration"])
     GameTooltip:Show()
   end)
@@ -904,12 +906,6 @@ function UI.StoryAudio(key)
   return ns.Voice.HasAudio(key) and ns.Voice.CanPlay(key)
 end
 
-function UI.StoryAudioNote(key)
-  if UI.StoryAudio(key) then return L["Narration"] end
-  if ns.Voice.Current() == "none" then return L["Recorded narrations are off: tick a voice to hear them."] end
-  return ns.Voice.LanguageGap() or L["No compatible recording. This story is available to read."]
-end
-
 -- Each story keeps a separate action line so long titles and translated buttons fit a narrow chat.
 function UI.LayoutCompletion()
   local c = UI.completion
@@ -940,13 +936,13 @@ function UI.LayoutCompletion()
       b.text:ClearAllPoints()
       b.text:SetPoint("TOPLEFT", 6, -3)
       b.text:SetWidth(width - 22)
-      b.text:SetText(WHITE .. esc(b.q) .. "|r" .. (kind == "story"
-        and ("\n" .. GREY .. esc(UI.StoryAudioNote(b.key)) .. "|r")
-        or ("  " .. GREY .. esc(b.name) .. "|r")))
+      local playable = kind == "story" and UI.StoryAudio(b.key)
+      local subtitle = kind == "story" and (playable and ("\n" .. GREY .. esc(L["Narration"]) .. "|r") or "")
+        or ("  " .. GREY .. esc(b.name) .. "|r")
+      b.text:SetText(WHITE .. esc(b.q) .. "|r" .. subtitle)
       local th = tonumber(b.text:GetStringHeight()) or 28
       local rowHeight = th + (kind == "story" and 34 or 8)
       if kind == "story" then
-        local playable = UI.StoryAudio(b.key)
         b.read:SetWidth(math.max(54, (tonumber(b.read.text:GetStringWidth()) or 42) + 16))
         b.read:ClearAllPoints()
         b.read:SetPoint("TOPLEFT", 6, -th - 6)
@@ -1004,6 +1000,7 @@ function UI.QueueCompletion(text)
 end
 
 function UI.ShowCompletion(text)
+  if not ns.Lang.ValidateEdition() then return UI.HideCompletion() end
   local c = UI.completion
   if not c then return end
   if not text or #text:gsub("%s", "") < 3 then return UI.HideCompletion() end
@@ -1052,6 +1049,9 @@ end
 function UI.EntryTarget(key)
   local e = key and UI.engine.db.entries[key]
   if not e then return nil end
+  if ns.lang and ns.lang.edition then
+    return { id = key, key = key, label = e.n, text = e.s, story = key }
+  end
   local parts = { e.n .. ".", e.s }
   local open = UI.Unlocked(key)
   for _, sec in ipairs(e.sec or {}) do
@@ -1065,7 +1065,7 @@ function UI.FaqTarget(key, idx)
   local e = key and UI.engine.db.entries[key]
   local f = e and e.faq and e.faq[idx]
   if not f then return nil end
-  local akey = key .. "#faq" .. idx
+  local akey = faqID(key, idx)
   return { id = akey, key = akey, label = f.q, text = f.a }   -- read the answer only; the question is on screen
 end
 
@@ -1089,7 +1089,8 @@ end
 function UI.CanPlayClip(clip)
   if type(clip) ~= "string" then return false end
   local key, idx = clip:match("^(.-)#faq(%d+)$")
-  if key then return UI.SpoilerAllowed(key, "faq", tonumber(idx)) end
+  if key then return UI.SpoilerAllowed(key, "faq", faqIndex(key, idx)) end
+  if ns.lang and ns.lang.edition and not UI.engine.db.entries[clip] then return false end
   key, idx = clip:match("^(.-)#section(%d+)$")
   return not key or UI.SpoilerAllowed(key, "section", tonumber(idx))
 end
@@ -1109,6 +1110,10 @@ end
 -- client that can't tell, estimate the length from the text (about 15 characters a second). Ending by itself moves
 -- the playlist on, then gives an arrival story waiting for it its turn (Voice.OnNarrationEnded).
 local function watchPlayback(estimate)
+  local wholeDuration = ns.Voice.lastClip and ns.Voice.lastClip.duration
+  if type(wholeDuration) ~= "number" or wholeDuration <= 0 or wholeDuration > 600 then wholeDuration = nil end
+  if wholeDuration then estimate = wholeDuration + 2 end
+  local limit = wholeDuration and wholeDuration + 5 or 300
   local started = GetTime and GetTime() or 0
   local token = {}
   UI.playToken = token
@@ -1120,7 +1125,7 @@ local function watchPlayback(estimate)
     end
     local playing = ns.Voice.IsPlaying()
     local elapsed = (GetTime and GetTime() or 0) - started
-    if playing == false or (playing == nil and elapsed > estimate) or (not ns.Voice.transport and elapsed > 300) then
+    if playing == false or (playing == nil and elapsed > estimate) or (not ns.Voice.transport and elapsed > limit) then
       local target = UI.activeTarget
       if target then UI.progress[target.key] = nil end
       UI.activeTarget, UI.resumeTarget = nil, nil
@@ -1213,9 +1218,11 @@ function UI.SavePlayback()
   for key, p in pairs(UI.progress) do
     if validProgress(p, key) then progress[key], any = p, true end
   end
+  local edition = ns.lang and ns.lang.edition
+  if edition and not edition.unavailable and (#UI.pl.items > 0 or UI.activeTarget) then any = true end
   if not any then store[who] = nil return end
-  local target = UI.resumeTarget
-  store[who] = { version = 1, progress = progress, target = target and {
+  local target = UI.resumeTarget or (edition and UI.activeTarget)
+  store[who] = { version = 1, edition = ns.Lang.EditionKey(), progress = progress, target = target and {
     id = target.id, key = target.key, label = target.label, story = target.story, text = target.text,
     fromPlaylist = target.fromPlaylist }, items = UI.pl.items, pos = UI.pl.pos }
 end
@@ -1224,6 +1231,7 @@ function UI.RestorePlayback()
   local store, who = playbackStore()
   local saved = store and store[who]
   if type(saved) ~= "table" or saved.version ~= 1 or type(saved.progress) ~= "table" then return end
+  if (saved.edition or "stock") ~= ns.Lang.EditionKey() then return end
   for key, p in pairs(saved.progress) do
     local qid, kind
     if type(key) == "string" then qid, kind = key:match("^quest:(%d+)#(%a+)$") end
@@ -1233,8 +1241,13 @@ function UI.RestorePlayback()
   local target = saved.target
   if type(target) == "table" and type(target.key) == "string" and type(target.id) == "string"
       and type(target.label) == "string" and type(target.text) == "string" and #target.text < 65536
-      and validProgress(UI.progress[target.key], target.key) then
+      and (validProgress(UI.progress[target.key], target.key)
+        or (ns.lang and ns.lang.edition and ns.Voice.HasAudio(target.key) and ns.Voice.CanPlay(target.key))) then
     target.fromPlaylist = target.fromPlaylist == true
+    if ns.lang and ns.lang.edition then
+      local key, original = target.key:match("^(.-)#faq(%d+)$")
+      target = key and UI.FaqTarget(key, faqIndex(key, original)) or UI.EntryTarget(target.key)
+    end
     UI.resumeTarget = target
   end
   if type(saved.items) == "table" and #saved.items <= 256 and type(saved.pos) == "number"
@@ -1250,7 +1263,21 @@ function UI.RestorePlayback()
         end
       end
     end
-    UI.pl.items, UI.pl.pos, UI.pl.state = saved.items, saved.pos, "paused"
+    local items, pos = saved.items, saved.pos
+    if ns.lang and ns.lang.edition then
+      items, pos = {}, nil
+      for i, it in ipairs(saved.items) do
+        local base, original = it.id:match("^(.-)#faq(%d+)$")
+        local idx = base and faqIndex(base, original)
+        local target = base and idx and UI.FaqTarget(base, idx) or (not base and UI.EntryTarget(it.id))
+        if target and ns.Voice.HasAudio(target.key) and ns.Voice.CanPlay(target.key) then
+          items[#items + 1] = { id = target.key, key = base or target.key, idx = idx, label = target.label }
+          if i >= saved.pos and not pos then pos = #items end
+        end
+      end
+      pos = pos or (#items > 0 and 1 or 0)
+    end
+    UI.pl.items, UI.pl.pos, UI.pl.state = items, pos, "paused"
     UI.PlaylistVoiceChanged()
   end
   UI.UpdateNowPlaying()
@@ -1281,11 +1308,11 @@ function UI.ReadAlong(target, fromPlaylist)
   local key, idx = target.key:match("^(.-)#faq(%d+)$")
   local canonical = ns.Voice.lastClip and ns.Voice.lastClip.id == target.key and ns.Voice.lastClip.text
   if canonical and canonical ~= "" then
-    if idx then UI.AddMessage("user", WHITE .. esc(target.label or "") .. "|r")
+    if idx and not (ns.lang and ns.lang.edition) then UI.AddMessage("user", WHITE .. esc(target.label or "") .. "|r")
     elseif target.asked then UI.AddMessage("user", WHITE .. esc(target.asked) .. "|r") end
     UI.AddMessage("lore", GOLD .. esc(target.label or "") .. "|r\n" .. WHITE .. esc(recordedParagraphs(target.key, canonical)) .. "|r", target)
   elseif key and UI.engine.db.entries[key] then
-    UI.ShowFaq(key, tonumber(idx), "listen")
+    UI.ShowFaq(key, faqIndex(key, idx), "listen")
   elseif target.id == target.key and UI.engine.db.entries[target.key] then
     UI.ShowEntry(target.key, "listen", target.asked)
   else
@@ -1302,6 +1329,13 @@ end
 -- anything).
 local function startTarget(target, fromPlaylist, keepProgress)
   if not target or not ns.Voice.CanPlay(target.key) then return false end
+  if ns.lang and ns.lang.edition then
+    local key, original = target.key:match("^(.-)#faq(%d+)$")
+    local canonical = key and UI.FaqTarget(key, faqIndex(key, original)) or UI.EntryTarget(target.key)
+    if not canonical then return false end
+    canonical.asked, canonical.fromPlaylist = target.asked, target.fromPlaylist
+    target = canonical
+  end
   if not keepProgress then UI.RememberProgress() end
   ns.Voice.Stop()
   UI.speaking, UI.playingId = false, nil
@@ -1652,12 +1686,7 @@ local function bubbleAt(i)
     end)
     close:SetScript("OnLeave", function() GameTooltip:Hide() end)
     close:Hide()
-    local audioNote = Muted(f:CreateFontString(nil, "OVERLAY", T.font.small))
-    audioNote:SetJustifyH("LEFT")
-    audioNote:SetJustifyV("TOP")
-    audioNote:Hide()
     b = { frame = f, bg = bg, edge = edge, head = head, chips = chips, fs = fs, listen = listen, queue = queue, action = action,
-      audioNote = audioNote,
       close = close, rows = {} }
     b.up, b.down, b.rated = RateButtons(f)
     UI.bubbles[i] = b
@@ -1779,7 +1808,6 @@ function UI.Render(keepScroll)
     local story = m.role == "lore" and m.target and m.target.story == m.target.key
     local canPlay = m.target and ns.Voice.HasAudio(m.target.key) and ns.Voice.CanPlay(m.target.key)
     b.listen:ClearAllPoints()
-    b.audioNote:Hide()
     if head then
       b.head:SetWidth(w - 2 * PAD)
       b.head:SetText(head)
@@ -1787,19 +1815,10 @@ function UI.Render(keepScroll)
       b.head:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -PAD)
       b.head:Show()
       top = PAD + (tonumber(b.head:GetStringHeight()) or 16) + 4
-      if story then
-        if canPlay then
-          b.listen:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -top)
-          b.listen:SetHeight(24)
-          top = top + 30
-        else
-          b.audioNote:ClearAllPoints()
-          b.audioNote:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -top)
-          b.audioNote:SetWidth(w - 2 * PAD)
-          b.audioNote:SetText(UI.StoryAudioNote(m.target.key))
-          b.audioNote:Show()
-          top = top + (tonumber(b.audioNote:GetStringHeight()) or 14) + 8
-        end
+      if story and canPlay then
+        b.listen:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -top)
+        b.listen:SetHeight(24)
+        top = top + 30
       end
     else
       b.head:Hide()
@@ -1976,6 +1995,7 @@ end
 
 -- Re-read context and rebuild the sidebar.
 function UI.Refresh()
+  ns.Lang.ValidateEdition()
   if not (UI.frame and UI.frame:IsShown()) then return end
   local ctx = ns.Context.Snapshot()
   UI.ctx = ctx
@@ -1997,7 +2017,7 @@ function UI.Refresh()
       b.text:SetText((s.gold and GOLD or WHITE) .. esc(b.full) .. "|r")
       -- Play on the left of anything narrated (stories and recorded answers), + on the right of what can be queued.
       local story = s.key or (s.primer and "zone:" .. s.primer)
-      local clip = s.idx and (s.key .. "#faq" .. s.idx) or story
+      local clip = s.idx and (faqID(s.key, s.idx)) or story
       b.play.key, b.play.idx, b.play.label = s.idx and s.key or story, s.idx, s.label
       b.play:SetShown(ns.Voice.HasAudio(clip) and true or false)
       local queue = s.key and SetQueueButton(b.add, s.key, s.idx)
@@ -2388,15 +2408,26 @@ local function minLevel(z)
   return tonumber(tostring(z and z.lv or ""):match("^(%d+)")) or 99
 end
 
+function UI.LibraryClips()
+  local audio = ns.Voice.Clips()
+  if not (ns.lang and ns.lang.edition) then return audio end
+  local visible = {}
+  for key, e in pairs(UI.engine.db.entries) do
+    visible[key] = true
+    for i in ipairs(e.faq or {}) do visible[faqID(key, i)] = true end
+  end
+  return visible
+end
+
 function UI.NarrationItems(ctx)
-  local db, audio, out = UI.engine.db, ns.Voice.Clips(), {}
+  local db, audio, out = UI.engine.db, UI.LibraryClips(), {}
   local zones, toggles = db.zones or {}, UI.narrZone or {}
   local faqs, bosses, isBoss = {}, {}, {}
   for k in pairs(audio) do
     local base = k:match("^(.-)#faq%d+$")
     local fi = tonumber(k:match("#faq(%d+)$"))
     local ent = base and db.entries[base]
-    local f = ent and ent.faq and ent.faq[fi]
+    local f = ent and ent.faq and ent.faq[faqIndex(base, fi)]
     if base and f and not f.sp then faqs[base] = (faqs[base] or 0) + 1 end
     -- Recorded bosses go under their dungeon's story (its count button), not in the zone's list.
     local at = not k:find("#") and db.entries[k] and UI.BossOf(k)
@@ -2442,7 +2473,7 @@ function UI.NarrationItems(ctx)
       if be and UI.SearchMatch(words, be.n, be.en) then return true end
     end
     for i, f in ipairs(db.entries[k].faq or {}) do
-      if not f.sp and audio[k .. "#faq" .. i] and UI.SearchMatch(words, f.q) then return true end
+      if not f.sp and audio[faqID(k, i)] and UI.SearchMatch(words, f.q) then return true end
     end
   end
   local function zoneGroup(zk, list, label, tag)
@@ -2531,7 +2562,7 @@ end
 -- Rows: section headings, zone headers (click to open or close), stories (click to play; the count button expands a
 -- dungeon's bosses and a story's narrated questions), and the bosses and questions themselves.
 local function narrationRows()
-  local audio, rows = ns.Voice.Clips(), {}
+  local audio, rows = UI.LibraryClips(), {}
   for _, it in ipairs(UI.NarrationItems(UI.ctx or ns.Context.Snapshot())) do
     rows[#rows + 1] = it
     it.more = it.key and ((it.faqs or 0) + (it.bosses or 0)) or 0
@@ -2553,7 +2584,7 @@ local function narrationRows()
         end
       end
       for i, f in ipairs(e.faq or {}) do
-        if audio[it.key .. "#faq" .. i] and not f.sp and UI.SearchMatch(words, f.q) then
+        if audio[faqID(it.key, i)] and not f.sp and UI.SearchMatch(words, f.q) then
           rows[#rows + 1] = { key = it.key, idx = i, label = f.q, child = true, depth = depth }
         end
       end
@@ -2661,7 +2692,7 @@ function UI.RefreshNarrations()
         .. (it.tag and ("  " .. esc(it.tag)) or "") .. "|r")
       y = y + ROW_H
     else
-      local id = it.idx and (it.key .. "#faq" .. it.idx) or it.key
+      local id = it.idx and (faqID(it.key, it.idx)) or it.key
       local playing = UI.speaking and UI.playingId == id
       local indent = (it.depth or 0) * 14
       row.icon:ClearAllPoints()
@@ -2734,7 +2765,7 @@ function UI.QueueRef(t)
   local key = t and (t.story or t.key)
   if not key then return nil end
   local base, fi = key:match("^(.-)#faq(%d+)$")
-  if base then return base, tonumber(fi) end
+  if base then return base, faqIndex(base, fi) end
   return key, nil
 end
 
@@ -2744,11 +2775,12 @@ function UI.CanQueue(key, idx)
   if not key then return false end
   local e = UI.engine and UI.engine.db.entries[key]
   if not e then return false end
-  if not idx and e.t == "quest" and e.m and UI.CanQueueQuest(tonumber(e.m.id)) then return true end
-  if not ns.Voice.HasAudio(idx and (key .. "#faq" .. idx) or key) then return false end
+  if not (ns.lang and ns.lang.edition) and not idx and e.t == "quest" and e.m
+      and UI.CanQueueQuest(tonumber(e.m.id)) then return true end
+  if not ns.Voice.HasAudio(idx and (faqID(key, idx)) or key) then return false end
   local f = idx and e.faq and e.faq[idx]
   if idx and not f then return false end
-  return ns.Voice.CanPlay(idx and (key .. "#faq" .. idx) or key)
+  return ns.Voice.CanPlay(idx and (faqID(key, idx)) or key)
 end
 
 function UI.PlaylistIndex(id)
@@ -2903,10 +2935,10 @@ end
 local function newItem(key, idx)
   local e = key and UI.engine.db.entries[key]
   if not e then return nil end
-  local qid = not idx and e.t == "quest" and e.m and tonumber(e.m.id)
+  local qid = not (ns.lang and ns.lang.edition) and not idx and e.t == "quest" and e.m and tonumber(e.m.id)
   if qid then return questItem(qid, nil, key) end
   if not UI.CanQueue(key, idx) then return nil end
-  return { id = idx and (key .. "#faq" .. idx) or key, key = key, idx = idx, label = idx and e.faq[idx].q or e.n }
+  return { id = idx and (faqID(key, idx)) or key, key = key, idx = idx, label = idx and e.faq[idx].q or e.n }
 end
 
 -- Add item `it` to the end. The first item normally starts now or after what's playing.
@@ -2932,7 +2964,7 @@ end
 
 -- Add a story (idx nil) or narrated answer to the end (addItem). Returns true if it was added.
 function UI.PlaylistAdd(key, idx, quiet, deferStart)
-  if not key or UI.PlaylistIndex(idx and (key .. "#faq" .. idx) or key) then return false end
+  if not key or UI.PlaylistIndex(idx and (faqID(key, idx)) or key) then return false end
   return addItem(newItem(key, idx), quiet, deferStart)
 end
 
@@ -2996,7 +3028,7 @@ function UI.QueueHere()
   local db, n = UI.engine.db, 0
   local _, z, zkey, sub, place = herePlace(ns.Context.Snapshot())
   local function add(key, idx)
-    if UI.speaking and UI.playingId == (idx and (key .. "#faq" .. idx) or key) then return end
+    if UI.speaking and UI.playingId == (idx and (faqID(key, idx)) or key) then return end
     if UI.PlaylistAdd(key, idx, true) then n = n + 1 end
   end
   for _, k in ipairs({ sub or false, zkey or false }) do
@@ -4007,7 +4039,8 @@ function UI.Archive()
     if UI.historyId and store[i].id == UI.historyId then table.remove(store, i) end
   end
   UI.historyId = UI.historyId or (time() .. "-" .. math.random(1000, 9999))
-  local chat = { id = UI.historyId, t = time(), zone = ctx.subzone or ctx.zone, title = title:sub(1, 60), msgs = msgs }
+  local chat = { id = UI.historyId, edition = ns.Lang.EditionKey(), t = time(), zone = ctx.subzone or ctx.zone,
+    title = title:sub(1, 60), msgs = msgs }
   if ns.HistoryArchive then ns.HistoryArchive.Record("account", "chat", { chat = chat, revision = "saved" }, chat.t) end
   table.insert(store, 1, chat)
   while #store > MAX_HISTORY do table.remove(store) end
@@ -4069,12 +4102,34 @@ local function chatMatches(words, c)
   return false
 end
 
+local function chatAvailable(c)
+  if (c.edition or "stock") ~= ns.Lang.EditionKey() then return false end
+  if not (ns.lang and ns.lang.edition) then return true end
+  if not ns.Lang.ValidateEdition() then return false end
+  for _, m in ipairs(c.msgs or {}) do
+    local key = m.target and m.target.key or m.subject
+    if key and not ns.Voice.CanPlay(key) then return false end
+    -- Saved primers and inline links also reference contributed entries, beyond the primary subject.
+    for _, row in ipairs(m.rows or {}) do
+      if not ns.DB.entries[row.key] then return false end
+    end
+    for _, linked in ipairs(m.linked or {}) do
+      if not ns.DB.entries[linked] then return false end
+    end
+    -- Older saved primers contain inline links without a separate dependency list.
+    for linked in (m.text or ""):gmatch("|Haddon:LoreForever:entry::([^|]+)|h") do
+      if not ns.DB.entries[linked] then return false end
+    end
+  end
+  return true
+end
+
 function UI.RefreshHistory()
   local h = UI.historyFrame
   local store, search = historyStore(), h.search
   local shown = {}
   for i, c in ipairs(store) do
-    if not search:Active() or chatMatches(search.words, c) then shown[#shown + 1] = i end
+    if chatAvailable(c) and (not search:Active() or chatMatches(search.words, c)) then shown[#shown + 1] = i end
   end
   for r, b in ipairs(h.rows) do
     local i = shown[r]
@@ -4105,7 +4160,7 @@ end
 function UI.RestoreHistory(i)
   local store = historyStore()
   local c = store[i]
-  if not c then return end
+  if not c or not chatAvailable(c) then return end
   UI.Archive()   -- save (or update) the chat you're leaving
   UI.historyId = c.id
   UI.msgs, UI.blocks = {}, {}
@@ -4425,6 +4480,7 @@ function UI.ShowSection(key, idx)
 end
 
 function UI.Ask(question, via)
+  if not ns.Lang.ValidateEdition() then return end
   local ctx = UI.ctx or ns.Context.Snapshot()
   ctx.done = ns.Context.Done()   -- a quest turned in since the last snapshot counts right away
   UI.turn = (UI.turn or 0) + 1
@@ -4482,15 +4538,17 @@ function UI.Ask(question, via)
 end
 
 function UI.ShowFaq(key, idx, via)
+  if not ns.Lang.ValidateEdition() then return end
   local e = UI.engine.db.entries[key]
   if not (e and e.faq and e.faq[idx]) then return UI.ShowEntry(key, via) end
   local f = e.faq[idx]
   UI.engine.lastKey = key
-  if via ~= "reveal" then UI.AddMessage("user", WHITE .. esc(f.q) .. "|r") end
+  if via ~= "reveal" and not f.answerOnly then UI.AddMessage("user", WHITE .. esc(f.q) .. "|r") end
   if via ~= "reveal" and UI.SpoilerGate(key, "faq", idx) then return end
   local target = UI.FaqTarget(key, idx)
   UI.lastLog = ns.Log.Question(f.q, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "faq", idx = idx, title = f.q } }, via)
-  local text, linked = loreText(e.n, f.a, nil, ns.Voice.HasAudio(target.key) and narratedTag() or nil, key)
+  local heading = f.answerOnly and (e.n .. " · " .. f.q) or e.n
+  local text, linked = loreText(heading, f.a, nil, ns.Voice.HasAudio(target.key) and narratedTag() or nil, key)
   UI.AddMessage("lore", text, target, nil, nil, UI.lastLog, key, linked)
   local m = UI.msgs[#UI.msgs]
   if via == "reveal" and m then m.spoiler = { key = key, kind = "faq", idx = idx, text = f.a } end
@@ -4501,6 +4559,7 @@ end
 -- Entry overview: summary plus spoiler-free sections; its questions become the suggestions. `asked` is the
 -- sidebar label that led here, shown as your side of the conversation.
 function UI.ShowEntry(key, via, asked)
+  if not ns.Lang.ValidateEdition() then return end
   local e = UI.engine.db.entries[key]
   if not e then return end
   UI.engine.lastKey = key
@@ -4517,7 +4576,7 @@ function UI.ShowEntry(key, via, asked)
   end
   if asked then UI.AddMessage("user", WHITE .. esc(asked) .. "|r") end
   local target = UI.EntryTarget(key)
-  local narrated = ""   -- story headings have a labeled Listen action and a live availability note
+  local narrated = ""   -- story headings have a labeled Listen action when narration is available
   -- A quest in a storyline: where it sits, first (Storyline.Line; nothing for other quests).
   local story = e.t == "quest" and e.m and e.m.id and ns.Storyline.Line(e.m.id)
   story = story and (GOLD .. esc(story) .. "|r\n") or ""
@@ -4529,6 +4588,7 @@ end
 
 -- Dungeon primer: what the place is, why you're here (your quests for it), and who you'll meet, in order.
 function UI.ShowPrimer(zk, via)
+  if not ns.Lang.ValidateEdition() then return end
   local db = UI.engine.db
   local z, e = db.zones and db.zones[zk], db.entries["zone:" .. zk]
   if not (z and e) then return end
@@ -4908,7 +4968,7 @@ function UI.QueueLink(key, idx, deferStart)
   local e = key and UI.engine.db.entries[key]
   if not e then return end
   local label = idx and e.faq and e.faq[idx] and e.faq[idx].q or e.n
-  if UI.PlaylistIndex(idx and (key .. "#faq" .. idx) or key) then
+  if UI.PlaylistIndex(idx and (faqID(key, idx)) or key) then
     return note(string.format(L["%s is already in your playlist."], esc(label)))
   end
   if not UI.PlaylistAdd(key, idx, nil, deferStart) then note(string.format(L["%s isn't narrated yet."], esc(label))) end

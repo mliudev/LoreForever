@@ -71,7 +71,7 @@
     "how did pilot die",
     "who killed hildelve"
    ],
-   "answer": "Hildelve was mauled by a fierce mountain predator whose growls could be heard echoing through the hills at night. His body was found frozen and picked clean by local scavengers."
+   "answer": "Hammerfoot has heard beastly growls in the hills and fears for Hildelve. The pilot's fate is discovered by following his trail."
   },
   {
    "q": "What proof is found at Hildelve's remains?",
@@ -80,7 +80,7 @@
     "hildelve corpse items",
     "proof of death"
    ],
-   "answer": "Beside his mauled body, travelers find his distinctive brigadier's vest and a notebook clutched in his hand containing roughly scribbled personal notes."
+   "answer": "Hammerfoot asks you to find Hildelve after he continued the ore search on foot. Any evidence of what happened to him is uncovered at the end of the search."
   },
   {
    "q": "What happens after Hildelve's body is discovered?",
@@ -88,7 +88,7 @@
     "what next lost pilot",
     "revenge quest"
    ],
-   "answer": "Discovering his grim fate leads directly into seeking justice for the fallen engineer, tasking adventurers with hunting down the beast responsible in the mountains."
+   "answer": "Finding Hildelve reveals what happened during his search. The investigation then continues with the evidence found there."
   }
  ],
  "angles": [

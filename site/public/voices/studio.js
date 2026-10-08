@@ -381,7 +381,7 @@ function howToRecordHtml() {
 
 function languageOptions(selected) {
   return lines.languages.filter(l => l.lines > 0).map(l =>
-    `<option value="${esc(l.locale)}"${l.locale === selected ? " selected" : ""}>${esc(l.name)}${l.draft ? " · draft text" : ""} · ${l.lines} lines</option>`).join("");
+    `<option value="${esc(l.locale)}"${l.locale === selected ? " selected" : ""}>${esc(l.name)} · ${l.lines} lines</option>`).join("");
 }
 
 function renderNewVoice() {
@@ -392,8 +392,7 @@ function renderNewVoice() {
       <input type="text" name="name" maxlength="60" required placeholder="e.g. Tales of the Eastern Kingdoms">
       <small>The title players pick in the voice list. You can change it later.</small></label>
     <label class="fb-field"><span>Language</span><select name="locale">${languageOptions(browseLocale)}</select>
-      <small>One voice, one language. The lines show their text in the language you pick; a language with draft text only
-        has the lines translated so far. To narrate in two languages, make a voice for each.</small></label>
+      <small>One voice, one language. The lines show their text in the language you pick; the available lines are the ones translated so far. To narrate in two languages, make a voice for each.</small></label>
     <div class="fb-actions"><button type="submit" class="btn-download">Start</button>
       ${has ? `<button type="button" class="st-b ghost" id="st-cancel">Cancel</button>` : ""}
       <p class="fb-status" id="st-new-status" role="status" hidden></p></div></form>`;
@@ -554,7 +553,7 @@ function voiceBarHtml(v, lang) {
   return `<div class="st-voicebar">
       <span>Voice: ${renaming ? `<input id="st-rename" maxlength="60" value="${esc(v.name)}" aria-label="Voice name"> <button class="st-b" type="button" id="st-rename-save">Save</button>` : voiceSelect}</span>
       ${renaming ? "" : `<button class="st-b ghost" type="button" id="st-rename-open">Rename</button>`}
-      <span class="st-lang">Language: <b>${esc(lang?.name || v.locale)}</b>${lang?.draft ? " (draft text)" : ""}${status}</span>
+      <span class="st-lang">Language: <b>${esc(lang?.name || v.locale)}</b>${status}</span>
       ${st.voices.length < st.limits.voices ? `<button class="st-b ghost" type="button" id="st-new-voice">+ New voice</button>` : ""}
     </div>${racesHtml(v)}`;
 }

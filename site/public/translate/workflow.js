@@ -25,7 +25,7 @@ export function editNote(edit, english, currentText, draft, staleEntry = false) 
   if (edit?.status === "rejected") return ["Your last edit wasn't used; this is the current text.", "td-no"];
   if (edit?.status === "pulled") return ["Processed: no longer pending. Check the current translation; this does not confirm a merge or release.", "td-ok"];
   if (!currentText) return [staleEntry ? "English changed: translate this line again." : "Not translated yet.", "td-todo"];
-  return draft ? ["Draft: no contributor check recorded yet. Fix it, or press Looks right.", "td-draft"] : ["Current translation. Check this line before recording.", ""];
+  return ["", ""];
 }
 export function narrationFields(context, line) {
   // The generator knows which spoiler-free section a story actually reads.

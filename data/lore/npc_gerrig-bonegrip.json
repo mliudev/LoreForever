@@ -3,17 +3,17 @@
  "type": "npc",
  "name": "Gerrig Bonegrip",
  "era": "classic",
- "zone": "blackfathom",
+ "zone": "ironforge",
  "meta": {
   "wiki": "Gerrig Bonegrip",
   "refs": 1
  },
- "summary": "Gerrig Bonegrip is an unassuming dwarven shopkeeper tucked away in the shadowy corridors of Ironforge's Forlorn Cavern. Behind the counter of Bonegrip's Runes and Dooms, he quietly buys and sells esoteric texts concerning dark rituals and forgotten ancient powers, acting as an undercover agent for the Twilight's Hammer cult.",
+ "summary": "Gerrig Bonegrip is an unassuming dwarven shopkeeper tucked away in the shadowy corridors of Ironforge's Forlorn Cavern. Behind the counter of Bonegrip's Runes and Dooms, he quietly buys and sells esoteric texts concerning dark rituals and forgotten ancient powers.",
  "sections": [
   {
    "title": "Bonegrip's Runes and Dooms",
    "body": "Operating in the dingy recesses of the Forlorn Cavern, Gerrig Bonegrip appears to most citizens as just an eccentric purveyor of bizarre relics and forbidden lore. However, his humble shop serves a far darker function. Bonegrip is an active member of the nihilistic Twilight's Hammer cult, using his storefront to gather dangerous manuscripts and obscure texts relating to the Old Gods under the very noses of the Ironforge Senate and the High Seat.",
-   "spoiler": 0
+   "spoiler": 1
   },
   {
    "title": "Collecting Forbidden Knowledge",
@@ -29,7 +29,7 @@
     "gerrig bonegrip lore",
     "bonegrip ironforge"
    ],
-   "answer": "Gerrig Bonegrip is a dwarf running Bonegrip's Runes and Dooms in Ironforge's Forlorn Cavern. While ostensibly a harmless merchant of eccentric curiosities and obscure texts, he is secretly an operative for the Twilight's Hammer cult, gathering knowledge about the Old Gods."
+   "answer": "Gerrig Bonegrip is a dwarf running Bonegrip's Runes and Dooms in Ironforge's Forlorn Cavern. He deals in eccentric curiosities and obscure texts concerning ancient rituals."
   },
   {
    "q": "What does he do with the Lorgalis Manuscript?",
@@ -38,15 +38,15 @@
     "knowledge in the deeps turn in",
     "lorgalis manuscript use"
    ],
-   "answer": "When an adventurer retrieves the Lorgalis Manuscript from Blackfathom Deeps, Gerrig takes the text and creates copies of it. He then distributes the ancient, profane knowledge to his fellow Twilight's Hammer cultists across the realm."
+   "answer": "He seeks the Lorgalis Manuscript from Blackfathom Deeps for his collection of rare texts. Further investigation can uncover more about his use of it."
   },
   {
-   "q": "Why hasn't Ironforge arrested him?",
+   "q": "How does Gerrig operate in Ironforge?",
    "aliases": [
     "does ironforge know bonegrip is a cultist",
     "why is bonegrip allowed in ironforge"
    ],
-   "answer": "The Forlorn Cavern is a dark, neglected part of the city where outcasts, warlocks, and rogues gather away from the prying eyes of the city guard. Gerrig maintains a low profile disguised as a mundane scholar and merchant of harmless eccentricities, masking his ties to the Twilight's Hammer."
+   "answer": "Gerrig maintains a low profile as an eccentric scholar and merchant in the Forlorn Cavern, where he buys and sells obscure texts."
   },
   {
    "q": "What is his connection to Myzrael?",

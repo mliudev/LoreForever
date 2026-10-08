@@ -60,7 +60,7 @@
     "crate contents",
     "what is in the box"
    ],
-   "answer": "Inside the crate is a collection of carefully packed items, topped by a bundle of aging survey maps of Silverpine Forest and western Lordaeron, as well as an intricate magical pendant."
+   "answer": "Allister does not know what Dalaran is shipping. He asks you to retrieve the contents of a crate from the camp north of Pyrewood Village so he can investigate."
   },
   {
    "q": "Who is Shadow Priest Allister?",
@@ -85,7 +85,7 @@
     "follow up quest",
     "next quest"
    ],
-   "answer": "Discovering the cargo leads immediately into Maps and Runes, where you must deliver the unearthed maps and the pendant back to Shadow Priest Allister for study."
+   "answer": "After inspecting the crate, take what you discover back to Shadow Priest Allister for study in the follow-up, Maps and Runes."
   }
  ],
  "angles": [

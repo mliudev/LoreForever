@@ -46,12 +46,12 @@ test("catalog refresh keeps the working catalog on network, HTTP and malformed-d
   assert.equal(options.cache, "no-store");
 });
 
-test("review wording does not claim all fields were reviewed or condemn every language entry", () => {
+test("ordinary translations have no quality notice; changed English still prompts correction", () => {
   const status = { draft: ["zone:stormwind"], stale: ["zone:elwynn"] };
-  assert.match(scriptReviewNote(status, "zone:stormwind", "frFR"), /check/);
+  assert.equal(scriptReviewNote(status, "zone:stormwind", "frFR"), "");
   assert.match(scriptReviewNote(status, "zone:elwynn", "frFR"), /source changed/);
-  assert.match(scriptReviewNote(status, "zone:ironforge", "frFR"), /Current catalog translation/);
-  assert.match(scriptReviewNote(null, "zone:stormwind", "frFR"), /unavailable/);
+  assert.equal(scriptReviewNote(status, "zone:ironforge", "frFR"), "");
+  assert.equal(scriptReviewNote(null, "zone:stormwind", "frFR"), "");
 });
 
 async function studio(fetcher, search = "") {

@@ -1,0 +1,46 @@
+# Dispatched after the version's translation ZIPs reach the languages release.
+name: CurseForge languages
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Core release these translations were built for, e.g. v0.11.0"
+        required: true
+
+permissions:
+  contents: write
+
+# The upload record is separate from narration, and language runs serialize their updates.
+concurrency:
+  group: curseforge-languages
+  cancel-in-progress: false
+
+jobs:
+  curseforge-languages:
+    runs-on: ubuntu-latest
+    env:
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      TAG: ${{ inputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag }}
+          sparse-checkout: |
+            scripts
+            release
+            addon/LoreForever
+      # Project IDs can be added after a tag; the compatibility check still reads the tag's core above.
+      - uses: actions/checkout@v4
+        with:
+          path: config
+          sparse-checkout: |
+            release
+            scripts
+      - name: Upload the translations
+        run: |
+          cp config/release/curseforge.json release/curseforge.json
+          cp config/scripts/curseforge_voices.py scripts/curseforge_voices.py
+          python3 scripts/curseforge_voices.py upload --from-release --languages

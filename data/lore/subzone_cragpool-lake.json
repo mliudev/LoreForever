@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Cragpool Lake"
  },
- "summary": "Cragpool Lake is a body of water tucked inside Windshear Crag in the Stonetalon Mountains. Looming above its dark waters sits a massive timber structure erected by the Venture Company, while the depths below harbor a notoriously aggressive beast.",
+ "summary": "Cragpool Lake is a body of water tucked inside Windshear Crag in the Stonetalon Mountains. Looming above its dark waters sits a massive timber structure erected by the Venture Company.",
  "sections": [
   {
-   "title": "Industrial Encroachment and Deadly Depths",
-   "body": "Nestled deep within Windshear Crag, Cragpool Lake lies directly beneath the towering logging apparatus built by the Venture Company. An enormous wooden structure spans above the water, once serving as the prime vantage point from which Gerenzo Wrenchwhistle commanded clear-cutting operations across the mountain valley. While much of the syndicate has scaled back their presence in the crag, holdouts and sentries linger across the catwalks and platforms overhead. Down below, the lake has been declared strictly off-limits by the goblins due to the arrival of Cragjaw, a massive and predatory fish prowling the murky water beneath the gears.",
+   "title": "Industrial Encroachment",
+   "body": "Nestled within Windshear Crag, Cragpool Lake lies directly beneath the towering logging apparatus built by the Venture Company. An enormous wooden structure spans above the water, serving as the vantage point from which Gerenzo Wrenchwhistle oversees operations across the mountain valley. Venture Company workers occupy the platforms overhead.",
    "spoiler": 0
   }
  ],
@@ -35,14 +35,11 @@
    "answer": "Gerenzo Wrenchwhistle, a key operative for the Venture Company, established his perch atop the high scaffolding to supervise the deforestation and resource extraction throughout Windshear Crag."
   },
   {
-   "q": "Why is swimming in Cragpool Lake dangerous?",
+   "q": "What dangers surround Cragpool Lake?",
    "aliases": [
-    "why off limits",
-    "lake monster",
-    "what is in cragpool lake",
-    "cragjaw"
+    "what is in cragpool lake"
    ],
-   "answer": "The lake was declared off-limits due to Cragjaw, an enormous, aggressive predatory fish that took up residence in the waters beneath the goblin scaffolding, attacking anything foolish enough to enter."
+   "answer": "The Venture Company operates on the platforms over the lake. Its armed workers make the industrial site dangerous for intruders."
   },
   {
    "q": "Has the Venture Company abandoned Cragpool Lake?",
@@ -50,7 +47,7 @@
     "is venture company gone",
     "who lives at cragpool lake"
    ],
-   "answer": "Although the bulk of the syndicate's broader force has withdrawn from parts of Windshear Crag, a stubborn contingent of armed overseers and operators remains firmly entrenched on the scaffolding above the water."
+   "answer": "No. Venture Company workers and Gerenzo Wrenchwhistle occupy the structure above the lake."
   }
  ],
  "angles": [
@@ -64,7 +61,6 @@
   }
  ],
  "keywords": [
-  "cragjaw",
   "cragpool lake",
   "gerenzo wrenchwhistle",
   "stonetalon",

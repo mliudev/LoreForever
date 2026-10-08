@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Gruesome Threshold",
-   "body": "Located just past the staircase descending from the Broken Hall, the Hall of Masks serves as a central junction within the Sunken Temple. The chamber earns its name from the imposing, stylized skull masks mounted along its stone walls. Below them runs a deep trench choked with discarded bones, testifying to the gruesome sacrificial rites once enacted by the fanatical Atal'ai priesthood. Beyond this eerie hall lie passages branching out to the Butchery, the Chamber of Blood, and the Den of the Caller.",
+   "body": "Located just past the staircase descending from the Broken Hall, the Hall of Masks serves as a central junction within the Sunken Temple. The chamber earns its name from the imposing, stylized skull masks mounted along its stone walls. Below them runs a deep trench choked with discarded bones, suggesting a macabre purpose whose exact nature is unknown. Beyond this eerie hall lie passages branching out to the Butchery, the Chamber of Blood, and the Den of the Caller.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "hall of masks bone pit",
     "trench of bones"
    ],
-   "answer": "While the exact rituals remain obscured by the passage of time and temple secrecy, the trench is littered with old bones, indicating it served a dark, sacrificial purpose during the height of the Atal'ai cult's ceremonies."
+   "answer": "The trench is littered with bones, suggesting a macabre function. Its exact purpose is unknown."
   },
   {
    "q": "Where do the passages from this hall lead?",
@@ -58,7 +58,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "The macabre architecture and bone-filled trench stand as chilling relics of dark priesthood rites, twisted toward blood worship."
+   "text": "The macabre architecture and bone-filled trench hint at the dark practices of the Atal'ai, though the chamber's precise use is unknown."
   }
  ],
  "keywords": [

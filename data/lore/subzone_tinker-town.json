@@ -16,7 +16,7 @@
   },
   {
    "title": "Subway and Secrets",
-   "body": "Beyond housing the gnomish leadership, Tinker Town is one of the most strategically significant transit hubs on the continent. The district hosts the Ironforge entrance to the Deeprun Tram, an engineering wonder that swiftly links the dwarven capital to Stormwind. The dizzying hum of gizmos and the constant flow of travelers also makes the district ideal for covert activities. SI:7 master Mathias Shaw frequently seeks recruits among the district's gnomes, citing their intellect, nimble hands, and unassuming demeanor as ideal assets for gathering intelligence across Azeroth.",
+   "body": "Beyond housing the gnomish leadership, Tinker Town is one of the most strategically significant transit hubs on the continent. The district hosts the Ironforge entrance to the Deeprun Tram, an engineering wonder that swiftly links the dwarven capital to Stormwind.",
    "spoiler": 0
   }
  ],
@@ -46,15 +46,6 @@
     "who lived here before"
    ],
    "answer": "Yes. When the sudden mass of refugees flooded out of Gnomeregan, Ironforge quickly repurposed this ward to house them. Several former dwarven residents, such as Skuerto, found themselves pushed out of the city entirely to make space for the newcomers."
-  },
-  {
-   "q": "Why does SI:7 recruit in Tinker Town?",
-   "aliases": [
-    "spies in tinkertown",
-    "mathias shaw gnomes",
-    "si7 tinkertown"
-   ],
-   "answer": "Mathias Shaw values gnomes for their sharp intelligence, technological aptitude, and physical dexterity. Their small stature and non-threatening appearance allow them to move through places unseen or underestimated, making them exceptionally capable field operatives for Stormwind intelligence."
   }
  ],
  "angles": [
@@ -83,8 +74,7 @@
   "subzone:deeprun-tram",
   "topic:gnome",
   "topic:trogg",
-  "npc:skuerto",
-  "npc:mathias-shaw"
+  "npc:skuerto"
  ],
  "attribution": [
   "Tinker Town"

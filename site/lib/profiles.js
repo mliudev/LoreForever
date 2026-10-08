@@ -609,7 +609,7 @@ export function profilePage(p, { links = [], owner = false, badges = [], names =
   const L = lore ? names : null;
   // The moments: the companion's journey when it has sent one (LOR-248), else the record's.
   const list = moments(d, names, historyJourney || p.journey);
-  const journey = journeySection(list, { lore: L });
+  const journey = journeySection(list, { lore: L, pictures: pictures || [] });
   const chart = roadChart(list, { name: d.name });
   // A profile saved before the record kept its moments' order (before 10/4): its owner is told how to get them.
   const behind = owner && !journey && !Array.isArray(d.timeline) ? updateNote() : "";

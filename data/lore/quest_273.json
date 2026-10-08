@@ -17,7 +17,7 @@
   "wiki": "Resupplying the Excavation (Classic)",
   "chain": []
  },
- "summary": "Resupplying the Excavation is an Alliance quest in Loch Modan where adventurers pursue a powder shipment meant for Ironband's Excavation Site. Dispatched by Jern Hornhelm to catch up with the pack team, the traveler discovers a dangerous ambush along the shore of the Loch.",
+ "summary": "Resupplying the Excavation is an Alliance quest in Loch Modan where adventurers pursue a powder shipment meant for Ironband's Excavation Site. Dispatched by Jern Hornhelm to catch up with the pack team, the traveler follows their route along the shore of the Loch.",
  "sections": [
   {
    "title": "A Heavy Cargo along the Shore",
@@ -38,7 +38,7 @@
     "quest starter resupplying the excavation",
     "where to start resupplying the excavation"
    ],
-   "answer": "Jern Hornhelm offers the quest in Thelsamar after you bring him Prospector Stormpike's orders. He asks you to follow the road south along the Loch to catch up with the supply team."
+   "answer": "Jern Hornhelm offers the quest in Thelsamar after you bring him the blastpowder. He asks you to follow the road south along the Loch to catch up with the supply team."
   },
   {
    "q": "Where can Huldar and the wagon be found?",
@@ -65,7 +65,7 @@
     "wagon ambush loch modan",
     "who attacked huldar"
    ],
-   "answer": "The wagon was ambushed by hostile Dark Iron dwarves seeking to disrupt Ironforge's archaeological operations across Loch Modan."
+   "answer": "Jern expects the supply team to be on the normal road south of Thelsamar, following the Loch. What has happened to the wagon is revealed when you reach Huldar."
   },
   {
    "q": "What role did Saean play in the attack?",
@@ -74,7 +74,7 @@
     "saean betrayal",
     "what did saean do"
    ],
-   "answer": "Saean was an associate working alongside Huldar and Miran for nearly a year, but the ambush revealed him to be a traitor and a Dark Iron sympathizer who aided the attackers."
+   "answer": "Saean is traveling with Huldar and Miran to move the heavy blastpowder barrels. His role in the events on the road is revealed when you catch up with the team."
   },
   {
    "q": "What quest comes next after finding Huldar?",
@@ -82,7 +82,7 @@
     "next quest after resupplying the excavation",
     "quest after huldar"
    ],
-   "answer": "Speaking with Huldar completes this leg of the journey and leads directly into 'After the Ambush', where you deal with the immediate aftermath of the Dark Iron attack."
+   "answer": "Speaking with Huldar completes this leg of the journey. His account of the shipment provides the next lead."
   }
  ],
  "angles": [

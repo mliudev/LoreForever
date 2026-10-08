@@ -17,6 +17,7 @@
 // pages, so they show whatever the "lore" feature says.
 
 import { escape } from "./voices.js";
+import { pictureUrl } from "./pictures.js";
 import { wowheadUrl, wikiSearch } from "./lore.js";
 
 export const LINKS = "/lore/data/links.json";
@@ -108,7 +109,7 @@ export async function loadLinks(env, request) {
 
 // The filter chip each section is under. "taken" (a quest taken) comes only from the companion's journey.
 const GROUP = { places: "places", quests: "quests", taken: "quests", people: "people", bosses: "foes", kills: "foes",
-  loot: "finds", deaths: "deaths", levels: "more", mounts: "more", rep: "more", books: "more" };
+  loot: "finds", deaths: "deaths", levels: "more", mounts: "more", rep: "more", books: "more", pictures: "finds" };
 export const SHOWN = 600;   // moments on the page at most (the newest); the road chart uses them all
 
 const isDay = day => typeof day === "string" && /^\d{4}-\d\d-\d\d$/.test(day);
@@ -141,6 +142,7 @@ function fromJourney(j) {
       kill: () => ["kills", { name: m.n, rank: m.cls || null, ...at }], lvl: () => ["levels", { level: m.lv, ...at }],
       death: () => ["deaths", { ...at, ...(m.by ? { by: m.by } : {}) }], book: () => ["books", { title: m.n, ...at }],
       loot: () => ["loot", { name: m.n, quality: Number.isInteger(m.ql) ? m.ql : null, ...(m.qid ? { reward: true, qid: m.qid } : {}), ...at }],
+      shot: () => ["pictures", { character: m.character, level: m.lv, ...at }],
       mount: () => ["mounts", { name: m.n, ...at }],
       rep: () => ["rep", { faction: m.n, standing: STANDINGS[m.st - 1] || "?", ...at }],
     }[m.k];
@@ -298,6 +300,7 @@ function plain(m) {
     people: () => `Met ${e.name}`, bosses: () => `Defeated ${e.name}`, kills: () => `Defeated ${e.name}`,
     loot: () => `${e.reward ? "Earned" : "Found"} ${e.name}`, levels: () => `Reached level ${e.level}`,
     mounts: () => `New mount: ${e.name}`, rep: () => `${e.standing} with ${e.faction}`, books: () => `Read ${e.title}`,
+    pictures: () => "Took a journey picture",
     deaths: () => (e.by ? `Slain by ${e.by}` : "Died"),
   }[m.k]();
   return [what, dayText(m.day)].filter(Boolean).join(", ");
@@ -306,11 +309,26 @@ function plain(m) {
 // The section: the moments newest first, by day, the latest RECENT open and the rest folded; filter chips (shown by
 // public/js/journey.js); each moment's lore links (lore: lookups to link with, or null while the lore pages are off)
 // and trail links (#m-<o>, which journey.js follows: it unfolds, unfilters and marks the moment).
-export function journeySection(all, { lore = null } = {}) {
+// One-to-one identity only: duplicate events or picture claims are ambiguous and stay text/gallery only.
+export function timelinePictures(all, pictures = []) {
+  const key = (character, t) => typeof character === "string" && /^[a-f0-9]{64}$/.test(character) && Number.isInteger(t)
+    ? `${character}:${t}` : null;
+  const shots = byKey(all.filter(m => m.k === "pictures"), m => key(m.e.character, m.t));
+  const claims = byKey(pictures.filter(p => !p.hidden), p => key(p.character, p.event_t));
+  const matched = new Map();
+  for (const [identity, events] of shots) {
+    const pics = claims.get(identity);
+    if (identity && events.length === 1 && pics?.length === 1) matched.set(events[0], pics[0]);
+  }
+  return matched;
+}
+
+export function journeySection(all, { lore = null, pictures = [] } = {}) {
   if (!all.length) return "";
   // A long journey from the companion shows its newest SHOWN moments; a trail to one before them is just its name.
   const list = all.length > SHOWN ? all.slice(-SHOWN) : all;
   const first = list[0].o;
+  const matched = timelinePictures(all, pictures);
   const a = (text, p) => (lore && p ? `<a href="${escape(p)}">${escape(text)}</a>` : escape(text));
   const name = (text, p) => (lore && p ? `<a href="${escape(p)}">${escape(text)}</a>` : `<strong>${escape(text)}</strong>`);
   const where = e => (e.zone ? (e.sub ? `${a(e.sub, lore?.place(e.sub, e.zone))}, ${a(e.zone, lore?.zone(e.zone))}` : a(e.zone, lore?.zone(e.zone))) : "");
@@ -333,6 +351,7 @@ export function journeySection(all, { lore = null } = {}) {
       case "mounts": return `New mount: <strong>${escape(e.name)}</strong>`;
       case "rep": return `<strong>${escape(e.standing)}</strong> with ${escape(e.faction)}`;
       case "books": return `Read <cite>${escape(e.title)}</cite>`;
+      case "pictures": return "Took a journey picture";
       case "deaths": return e.by ? `Slain by ${name(e.by, lore?.person(e.by))}` : "Died";
     }
     return "";
@@ -365,9 +384,14 @@ export function journeySection(all, { lore = null } = {}) {
 
   // A small link out after the moment (LOR-263): Wowhead, or the wiki.
   const out = m => (m.out ? ` <a class="pf-out" href="${escape(m.out.url)}" rel="noopener" aria-label="${escape(`${m.out.name} on ${m.out.site === "Wowhead" ? "Wowhead" : "the Warcraft Wiki"}`)}">${m.out.site === "Wowhead" ? "Wowhead" : "Wiki"}</a>` : "");
+  const thumbnail = m => {
+    const p = matched.get(m);
+    if (!p) return "";
+    return `<a class="pf-picture" data-pb-target="${escape(p.id)}" href="${escape(pictureUrl(p))}" aria-label="${escape(p.caption || "Enlarge journey picture")}"><img src="${escape(pictureUrl(p))}" width="${Number(p.w) || 1920}" height="${Number(p.h) || 1080}" alt="${escape(p.caption || "A picture from the journey")}" loading="lazy" decoding="async"></a>`;
+  };
   const row = m => `<li class="pf-m pf-k-${m.k}" id="m-${m.o}" data-g="${m.group}"${m.e.zone ? ` data-land="${escape(norm(landOf(m.e.zone)))}"` : ""} tabindex="-1">
           <span class="pf-bead" aria-hidden="true"></span>
-          <div><p class="pf-m-what">${what(m)}${out(m)}</p>${m.k !== "places" && m.e.zone ? `\n          <p class="pf-m-where">${where(m.e)}</p>` : ""}${trail(m)}</div>
+          <div><p class="pf-m-what">${what(m)}${out(m)}</p>${m.k !== "places" && m.e.zone ? `\n          <p class="pf-m-where">${where(m.e)}</p>` : ""}${trail(m)}</div>${thumbnail(m)}
         </li>`;
   const days = ms => {
     const out = [];

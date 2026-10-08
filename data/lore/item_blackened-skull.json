@@ -43,7 +43,7 @@
     "why is it blackened",
     "blackened skull lore"
    ],
-   "answer": "The charring and discoloration are the result of the volatile dark magic wielded by the Bonecasters, which scorches their own brittle, reanimated bones as they cast spells."
+   "answer": "The skulls are described as blackened, but the source does not explain what caused the discoloration. They are collected from Darkeye Bonecasters at Agamand Mills."
   },
   {
    "q": "What is the Scourge doing at Agamand Mills?",
@@ -61,7 +61,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "Studying the singed bone reveals how raw, unstable necromantic casting burns directly through the skeletal caster's own physical frame."
+   "text": "The skulls are physical remains of the Darkeye Bonecasters, the skeletal spellcasters targeted at Agamand Mills."
   }
  ],
  "keywords": [
