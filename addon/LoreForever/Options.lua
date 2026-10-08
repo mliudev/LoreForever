@@ -611,10 +611,10 @@ local function languageSection(c, p, anchor)
   end
   reload:RegisterForClicks("AnyUp", "AnyDown")   -- secure buttons act on key-down or key-up depending on a CVar
   reload:Hide()
-  local hint = note(c, L["Automatic follows your WoW client's language. After choosing a language, reload to switch."], btn, 6)
+  local hint = note(c, L["Automatic follows your WoW client's language. A contributor edition switches its text and narration together. Reload to apply your selection."], btn, 6)
   local moreLabel, _, fillUrl = urlRow(c, L["Get more languages:"], LANGUAGES_URL, hint, 10)
   local function items()
-    local out, id = {}, LoreForeverDB.settings.language or "auto"
+    local out, id = {}, ns.Lang.Selected()
     local label
     for _, ch in ipairs(ns.Lang.Choices()) do
       out[#out + 1] = { value = ch.id, label = ch.label, why = ch.reason }
@@ -625,6 +625,9 @@ local function languageSection(c, p, anchor)
   local function update()
     local _, _, label = items()
     btn:SetText(label)
+    if ns.lang and ns.lang.edition and ns.lang.edition.unavailable then
+      hint:SetText(L["Edition unavailable. Install or enable both matching components, then reload, or select another edition or stock language here."])
+    end
     fillUrl()
     -- A secure button can't be shown or hidden in combat.
     if InCombatLockdown and InCombatLockdown() then return end

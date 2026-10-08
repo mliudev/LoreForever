@@ -26,7 +26,7 @@
     "who takes human skulls",
     "deathguard samsa skulls"
    ],
-   "answer": "Deathguard Samsa, a Forsaken sentry stationed in Tarren Mill, collects them. Envious of the soldiers sent out to battle and pillage Southshore while he remains confined to guard duty, he asks passing adventurers to bring him thirty skulls to add to his private collection."
+   "answer": "Deathguard Samsa, a Forsaken sentry stationed in Tarren Mill, collects them. Envious of the soldiers sent out to battle and pillage Hillsbrad while he remains confined to guard duty, he asks passing adventurers to bring him thirty skulls to add to his private collection."
   },
   {
    "q": "Where are Hillsbrad Human Skulls gathered?",
@@ -43,7 +43,7 @@
     "why do forsaken want skulls",
     "forsaken skull collection"
    ],
-   "answer": "Beyond raw hatred and dark humor, collecting trophies of dead humans is common sport among the Forsaken. Soldiers like Samsa view the skulls as prized curiosities and satisfying proof of Southshore's impending downfall."
+   "answer": "Beyond raw hatred and dark humor, collecting trophies of dead humans is common sport among the Forsaken. Soldiers like Samsa view the skulls as prized curiosities and satisfying proof of Hillsbrad's impending downfall."
   }
  ],
  "angles": [
@@ -53,7 +53,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "The sight of Southshore's farmers and soldiers reduced to collected trinkets represents the grim cruelty of the Forsaken campaign in Lordaeron."
+   "text": "The sight of Hillsbrad's farmers and soldiers reduced to collected trinkets represents the grim cruelty of the Forsaken campaign in Lordaeron."
   }
  ],
  "keywords": [

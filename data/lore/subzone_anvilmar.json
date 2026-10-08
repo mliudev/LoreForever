@@ -37,7 +37,7 @@
     "anvilmar name origin",
     "name meaning"
    ],
-   "answer": "The outpost is named after the Anvilmar bloodline, most notably High King Modimus Anvilmar, who united the Bronzebeard, Wildhammer, and Dark Iron clans centuries ago prior to the War of the Three Hammers."
+   "answer": "The outpost may be named after High King Modimus Anvilmar or the Anvilmar bloodline. Modimus ruled the dwarven clans before the War of the Three Hammers, but the settlement's naming is not confirmed."
   },
   {
    "q": "What threats does Anvilmar face?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, Anvilmar represents the beginning of the journey into the world, bearing the honored name of the ancient High King who once ruled a unified dwarven kingdom."
+   "text": "For dwarves, Anvilmar represents the beginning of the journey into the world, possibly bearing the name of the ancient High King who once ruled a unified dwarven kingdom."
   },
   {
    "target": "race:Gnome",

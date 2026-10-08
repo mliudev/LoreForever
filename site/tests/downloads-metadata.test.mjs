@@ -4,7 +4,7 @@ import { readFileSync } from "node:fs";
 import { runInNewContext } from "node:vm";
 import { publishedFiles } from "../lib/download-files.js";
 
-const snapshot = JSON.parse(readFileSync(new URL("../public/data/download-files.json", import.meta.url)));
+const snapshot = JSON.parse(readFileSync(new URL("./fixtures/download-catalog/download-files.json", import.meta.url)));
 const script = readFileSync(new URL("../public/voices-page.js", import.meta.url), "utf8");
 
 async function render(data) {
@@ -30,10 +30,10 @@ async function render(data) {
 
 test("published fallback displays exact sizes and pins downloads to the displayed release", async () => {
   const result = await render(publishedFiles(snapshot));
-  assert.equal(result.size.textContent, "355 MB");
-  assert.equal(result.total.textContent, "232 MB");
-  assert.equal(result.version.textContent, "v0.10.0");
-  assert.equal(result.links[0].href, "https://github.com/mliudev/LoreForever/releases/download/v0.10.0/LoreForever.zip");
+  assert.equal(result.size.textContent, "356 MB");
+  assert.equal(result.total.textContent, "233 MB");
+  assert.equal(result.version.textContent, "v0.11.0");
+  assert.equal(result.links[0].href, "https://github.com/mliudev/LoreForever/releases/download/v0.11.0/LoreForever.zip");
   assert.equal(result.clicks(), 2, "core and voice download each send exactly one click beacon");
 });
 

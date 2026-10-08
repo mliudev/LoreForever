@@ -16,7 +16,7 @@
  "sections": [
   {
    "title": "A Bastion Under Siege",
-   "body": "The Redridge range was once among the most peaceful corners of the kingdom, supplying Stormwind with timber, freshwater fish, and crops. Today, that quiet life has eroded. The lakeside township of Lakeshire sits perpetually fortified against aggressive incursions. To the east, Stonewatch Keep—once a proud bastion of the kingdom—has fallen under the control of renegade Blackrock orcs and gnolls, cutting off roads and threatening to overrun the eastern valleys entirely.",
+   "body": "The Redridge range was once among the most peaceful corners of the kingdom, supplying Stormwind with timber, freshwater fish, and crops. Today, that quiet life has eroded. The lakeside township of Lakeshire sits perpetually fortified against aggressive incursions. To the east, Stonewatch Keep—once a proud bastion of the kingdom—has fallen under the control of renegade Blackrock orcs, cutting off roads and threatening to overrun the eastern valleys entirely.",
    "spoiler": 0
   },
   {
@@ -52,7 +52,7 @@
     "stonewatch enemies",
     "what happened to stonewatch"
    ],
-   "answer": "Stonewatch Keep has been overrun by Blackrock orcs affiliated with the Dark Horde, alongside allied Shadowhide gnolls and the renegade human warlock Morganth. From this fortified mountain stronghold, they threaten the entire eastern half of the zone and choke off travel along the Lakeridge Highway."
+   "answer": "Stonewatch Keep has been overrun by Blackrock orcs affiliated with the Dark Horde. From this fortified mountain stronghold, they threaten the eastern valleys and travel along the Lakeridge Highway. Their relationships with other local threats are explored during the investigation."
   },
   {
    "q": "What threats dwell in Lake Everstill?",
@@ -88,7 +88,7 @@
     "burning steppes border redridge",
     "redridge pass north"
    ],
-   "answer": "The trail leading north past Render's Valley climbs directly into the Burning Steppes, a desolate volcanic wasteland dominated by powerful Blackrock orcs, fire elementals, and dragonkin. The sudden shift in danger makes the northern mountain pass one of the deadliest geographic ascents in southern Azeroth."
+   "answer": "The trail leading north past Render's Camp climbs directly into the Burning Steppes, a desolate volcanic wasteland dominated by powerful Blackrock orcs, fire elementals, and dragonkin. The sudden shift in danger makes the northern mountain pass one of the deadliest geographic ascents in southern Azeroth."
   }
  ],
  "angles": [

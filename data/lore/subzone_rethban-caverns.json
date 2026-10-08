@@ -16,7 +16,7 @@
   },
   {
    "title": "The Veins of Rethban",
-   "body": "The caverns may take their name from Bart Rethban, though today they are primarily remembered for Rethban ore, a distinct mineral found within the rock walls and carried by the Dirtpaw pack. Blacksmiths and researchers in Lakeshire often send travelers into the dangerous, winding tunnels to recover samples of this rare mountain ore.",
+   "body": "The caverns are best known for Rethban ore, a distinct mineral found within the rock walls and carried by the Dirtpaw pack. Blacksmiths and researchers in Lakeshire often send travelers into the dangerous, winding tunnels to recover samples of this rare mountain ore.",
    "spoiler": 0
   }
  ],
@@ -47,15 +47,6 @@
     "rethban ore quest"
    ],
    "answer": "Travelers and townsfolk from Lakeshire seek out Rethban ore, an uncommon mineral vein found deep inside the caves and held by the residing gnolls."
-  },
-  {
-   "q": "Who is Rethban Caverns named after?",
-   "aliases": [
-    "who was rethban",
-    "bart rethban",
-    "origin of rethban name"
-   ],
-   "answer": "The cavern system is believed to have been named after an individual known as Bart Rethban."
   }
  ],
  "angles": [
@@ -70,7 +61,6 @@
  ],
  "keywords": [
   "ardo dirtpaw",
-  "bart rethban",
   "dirtpaw",
   "gnolls",
   "lakeshire",

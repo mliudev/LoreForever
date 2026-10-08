@@ -17,7 +17,7 @@
   "wiki": "The Defias Brotherhood (5)",
   "chain": []
  },
- "summary": "This critical mission sends adventurers along the dusty roads of Westfall to hunt down a roving Defias Messenger. Intercepting his dispatches provides Gryan Stoutmantle and the People's Militia with written proof connecting the bandit uprising directly to Edwin VanCleef.",
+ "summary": "This mission sends adventurers along Westfall's roads to intercept a Defias Messenger. Gryan Stoutmantle hopes his dispatches will help the People's Militia discover the Brotherhood's hideout.",
  "sections": [
   {
    "title": "Intercepting the Courier",
@@ -52,7 +52,7 @@
     "mysterious message text",
     "vancleef note"
    ],
-   "answer": "The mysterious message provides undeniable, written evidence that Edwin VanCleef is personally running the Defias Brotherhood and directing their criminal operations across the region."
+   "answer": "Stoutmantle hopes the courier's written orders will reveal the Brotherhood's command structure and help locate its hideout. Their contents are discovered when the message is recovered."
   },
   {
    "q": "Who is Gryan Stoutmantle?",
@@ -76,7 +76,7 @@
     "did we find the hideout",
     "where is hideout"
    ],
-   "answer": "No. While the message proves VanCleef's active role, it does not reveal the location of the Defias headquarters. However, a thief captured at Farmer Saldean's wagon during your mission agrees to betray the gang and lead the way."
+   "answer": "Stoutmantle intends to use the intercepted orders to advance his search for the hideout. The next lead is learned when you return to him."
   },
   {
    "q": "Who is Edwin VanCleef?",
@@ -84,7 +84,7 @@
     "who is vancleef",
     "defias leader"
    ],
-   "answer": "Edwin VanCleef was the Grand Mason of the Stonemasons Guild who rebuilt Stormwind City after the First War. When the nobility refused to pay for the work, VanCleef organized the stonemasons and common folk into the vengeful Defias Brotherhood."
+   "answer": "Edwin VanCleef was the Grand Mason of the Stonemasons Guild that rebuilt Stormwind. Stoutmantle's investigation examines his possible connection to the Brotherhood."
   }
  ],
  "angles": [

@@ -17,16 +17,16 @@
   "wiki": "A Warden of the Horde",
   "chain": []
  },
- "summary": "A Warden of the Horde marks the heartwarming conclusion to Children's Week in Orgrimmar. Having shown young Grunth the wonders and heroes of Kalimdor, you fulfill his selfless final wish to bring foam swords back to his fellow orphans before safely returning him to Orphan Matron Battlewail.",
+ "summary": "A Warden of the Horde concludes Children's Week by returning Grunth to Orphan Matron Battlewail in Orgrimmar's Valley of Honor. After seeing the world with his guardian, the young orphan hopes to become a hero himself.",
  "sections": [
   {
-   "title": "A Selfless Final Wish",
-   "body": "Throughout Children's Week, adventurers escort young Grunth across the lands of the Horde, sharing adventures that orphaned youths in Orgrimmar rarely experience. Rather than asking for another personal adventure or grand souvenir, Grunth's final request looks outward to his peers. Remembering the toys sold by the goblin vendor Blax Bottlerocket along the busy avenues of the Drag, he asks for a rack of foam swords so that every child at the orphanage can play and train together.",
+   "title": "An Orphan's Farewell",
+   "body": "After the adventures of Children's Week, Grunth thanks his guardian for showing him more than he ever dreamed he would see. Remembering his parents' advice to rise above hardship, he says he hopes to become a hero like the adventurer. His final request is to return home and tell the matron about their time together.",
    "spoiler": 0
   },
   {
-   "title": "Home to the Drag",
-   "body": "Returning to the orphanage nestled in the Drag, adventurers deliver both the toys and their young charge back into the care of Orphan Matron Battlewail. Taking responsibility for the young is considered a profound duty in the new Horde, where war has left countless children without parents. Battlewail commends your compassion as the true measure of a hero of the Horde, and Grunth parts ways with a beloved pet to ensure you remember the bond forged during your travels.",
+   "title": "Home to the Valley of Honor",
+   "body": "Returning to the orphanage in the Valley of Honor, adventurers return their young charge back into the care of Orphan Matron Battlewail. Taking responsibility for the young is considered a profound duty in the new Horde, where war has left countless children without parents. Battlewail commends your compassion as the true measure of a hero of the Horde, and Grunth parts ways with a beloved pet to ensure you remember the bond forged during your travels.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "warden of the horde summary",
     "childrens week ending horde"
    ],
-   "answer": "This quest concludes the Horde's Children's Week festivities. After journeying together, you buy a foam sword rack for the other orphans from Blax Bottlerocket and return Grunth to Orphan Matron Battlewail in the Drag."
+   "answer": "This quest concludes the Horde's Children's Week festivities. Return Grunth and the Orcish Orphan Whistle to Orphan Matron Battlewail in the Valley of Honor."
   },
   {
    "q": "Who is Grunth?",
@@ -45,15 +45,15 @@
     "who is the orc orphan",
     "grunth lore"
    ],
-   "answer": "Grunth is an orcish youth residing at the Orgrimmar Orphanage in the Drag. During Children's Week, he is paired with a Horde champion who takes him across Kalimdor to see legendary figures and grand sights."
+   "answer": "Grunth is an orcish youth residing at the Orgrimmar Orphanage in the Valley of Honor. During Children's Week, he is paired with a Horde champion who takes him across Kalimdor to see legendary figures and grand sights."
   },
   {
-   "q": "Where can I find Blax Bottlerocket?",
+   "q": "What do I bring back to the matron?",
    "aliases": [
-    "blax bottlerocket location",
-    "where is the toy vendor"
+    "orphan whistle return",
+    "return grunth whistle"
    ],
-   "answer": "Blax Bottlerocket is a goblin wandering vendor who pushes his toy cart up and down the main thoroughfare of the Drag in Orgrimmar."
+   "answer": "Bring the Orcish Orphan Whistle back to Orphan Matron Battlewail when Grunth is ready to return home."
   },
   {
    "q": "Who oversees the orphans in Orgrimmar?",
@@ -61,15 +61,15 @@
     "orphan matron horde",
     "who runs the orphanage"
    ],
-   "answer": "Orphan Matron Battlewail manages the Orgrimmar Orphanage in the Drag, dedicating her life to sheltering and raising the Horde's war orphans."
+   "answer": "Orphan Matron Battlewail manages the Orgrimmar Orphanage in the Valley of Honor, dedicating her life to sheltering and raising the Horde's war orphans."
   },
   {
-   "q": "Why does Grunth want a foam sword rack?",
+   "q": "Why does Grunth want to return home?",
    "aliases": [
-    "why foam swords",
-    "grunth final wish"
+    "grunth return home",
+    "children week farewell"
    ],
-   "answer": "Grunth feels fortunate to have seen the world during the festival and wants to bring joy back to the other orphans. A rack of foam swords allows all the children to play and practice their martial skills together."
+   "answer": "His Children's Week outings are finished, and he wants to tell the matron about the adventures and the kind guardian who took him along."
   },
   {
    "q": "Why is Children's Week important to the Horde?",
@@ -92,19 +92,17 @@
  ],
  "keywords": [
   "battlewail",
-  "blax bottlerocket",
   "children's week",
-  "drag",
-  "foam sword rack",
   "grunth",
   "orgrimmar",
-  "orphan"
+  "orphan",
+  "orcish orphan whistle",
+  "valley of honor"
  ],
  "related": [
   "npc:orphan-matron-battlewail",
   "npc:grunth",
   "zone:orgrimmar",
-  "subzone:drag",
   "topic:horde"
  ],
  "attribution": [

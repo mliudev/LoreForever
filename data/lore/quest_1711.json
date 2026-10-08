@@ -26,7 +26,7 @@
   },
   {
    "title": "Exotic Components",
-   "body": "Forging this resilient armor required sunscorched eggshells gathered from the Highperch wyvern nests of Thousand Needles. By rendering these sun-hardened shells into lacquer and applying Furen's heat-treatment formulas, Mathiel successfully created a resilient breastplate designed to withstand brutal frontline combat.",
+   "body": "Forging this resilient armor required sunscorched eggshells gathered from the Highperch wyvern nests of Thousand Needles. By rendering these sun-hardened shells into lacquer and applying Furen's heat-treatment formulas, Mathiel successfully created a resilient set of leggings designed to withstand brutal frontline combat.",
    "spoiler": 0
   }
  ],
@@ -78,13 +78,13 @@
     "previous quest",
     "mathiels armor prereq"
    ],
-   "answer": "This quest immediately follows 'Sunscorched Shells', wherein an adventurer must travel to the far reaches of Kalimdor to acquire tough chitinous shells suitable for Mathiel's craft."
+   "answer": "This quest immediately follows 'Sunscorched Shells', wherein an adventurer must travel to the far reaches of Kalimdor to acquire tough eggshells suitable for Mathiel's craft."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "For Alliance warriors, this quest chain produces sturdy breastplate armor forged through the combined metallurgical wisdom of both Darnassus and Ironforge."
+   "text": "For Alliance warriors, this quest chain produces sturdy leggings forged through the combined metallurgical wisdom of both Darnassus and Ironforge."
   },
   {
    "target": "profession:Blacksmithing",

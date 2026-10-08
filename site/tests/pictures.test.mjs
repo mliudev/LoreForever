@@ -12,6 +12,8 @@ import { onRequestGet as profileGet } from "../functions/u/[handle].js";
 import { findOrCreateUser, startSession, setup, deleteUser, sha256 } from "../lib/accounts.js";
 import { picturesSection, readMeta, jpegSize, isJpeg, PER_USER, PER_MINUTE, SHOWN, CAPTION_MAX } from "../lib/pictures.js";
 import { d1, r2 } from "./helpers.mjs";
+import { readJourney } from "../lib/journey.js";
+import { moments, timelinePictures } from "../lib/trails.js";
 import { RECORD } from "./fixtures/journey/record.mjs";
 
 const ORIGIN = "https://preview.example";
@@ -518,4 +520,60 @@ test("the section: newest SHOWN open and the rest folded, the player's own day, 
   assert.match(html, /loading="lazy"/);
   assert.equal(picturesSection([], {}), "", "nothing for a visitor");
   assert.match(picturesSection([], { owner: true }), /No pictures yet/);
+});
+
+
+test("timeline identity: malformed matches are refused; only exact canonical shot events get thumbnails", async () => {
+  const me = await signIn("timeline");
+  await profile(me);
+  const token = await connect(me), character = "a".repeat(64);
+  for (const bad of [{character}, {event_t:META.t}, {character:"account/path:Hero", event_t:META.t},
+    {character, event_t:META.t + 0.5}, {character, event_t:12}, {character, event_t:null}]) {
+    assert.equal((await upload({...META, ...bad}, jpeg(), {token})).status, 400);
+  }
+  const good = await upload({...META, character, event_t:META.t + 1}, jpeg(), {token});
+  assert.deepEqual([good.status, good.body.picture.character, good.body.picture.event_t], [200,character,META.t+1]);
+  assert.equal((await upload({cid:META.cid, caption:"Updated."}, null, {token})).status,200);
+  const journey = readJourney({v:1,tz:0,moments:[
+    {k:"shot",t:META.t,character}, // Screenshot's clock isn't the event clock.
+    {k:"shot",t:META.t+1,character:"b".repeat(64)}, // Same time, another character.
+    {k:"lvl",t:META.t+1,lv:24}, // Same time, wrong event kind.
+    {k:"shot",t:META.t+1,character},
+    {k:"shot",t:META.t+2,character:"raw-account/path"},
+  ]});
+  assert.equal(journey.moments.length,4);
+  await env.DB.prepare("UPDATE profiles SET journey = ? WHERE user_id = ?").bind(JSON.stringify(journey),me.user.id).run();
+  const html = (await view("aelric",{query:"?pictures=1"})).html;
+  const timeline = html.slice(html.indexOf('id="timeline"'),html.indexOf('id="pictures"'));
+  assert.equal((timeline.match(/class="pf-picture"/g)||[]).length,1);
+  assert.match(timeline,new RegExp(`data-pb-target="${good.body.picture.id}"`));
+  assert.match(timeline, /Took a journey picture/);
+  assert.ok(!(await view("aelric")).html.includes('class="pf-picture"'),"feature off keeps thumbnails hidden");
+  const publicList = (await list("?handle=aelric&pictures=1")).body.pictures;
+  assert.equal(publicList[0].character, character);
+  assert.equal(publicList[0].event_t,META.t+1);
+  assert.ok(!JSON.stringify(publicList).includes("account/path"));
+  const all = moments({},undefined,journey), pics = await rows();
+  assert.equal(timelinePictures(all,pics).size,1);
+  assert.equal(timelinePictures([...all,all.at(-1)],pics).size,0,"duplicate events are ambiguous");
+  assert.equal(timelinePictures(all,[...pics,{...pics[0],id:"second"}]).size,0,"duplicate claims are ambiguous");
+  assert.equal(timelinePictures(all,[{...pics[0],hidden:1}]).size,0,"hidden pictures never join");
+  await env.DB.prepare("UPDATE profiles SET public = 0 WHERE user_id = ?").bind(me.user.id).run();
+  assert.equal((await view("aelric",{query:"?pictures=1"})).status,404);
+  assert.ok((await view("aelric",{cookie:me.cookie,query:"?pictures=1"})).html.includes('class="pf-picture"'));
+  assert.ok(!(await view("aelric",{cookie:me.cookie,query:"?pictures=1&as=visitor"})).html.includes('class="pf-picture"'));
+});
+
+test("existing picture tables gain optional exact identities without changing legacy rows", async () => {
+  const me = await signIn("migration");
+  await profile(me);
+  await upload(META,jpeg(),{token:await connect(me)});
+  env.DB.sqlite.exec("ALTER TABLE profile_pictures DROP COLUMN character; ALTER TABLE profile_pictures DROP COLUMN event_t;");
+  const fresh = {DB:{...env.DB}};
+  await setup(fresh);
+  const legacy = await fresh.DB.prepare("SELECT * FROM profile_pictures").first();
+  assert.equal(legacy.cid,META.cid);
+  assert.equal(legacy.character,null);
+  assert.equal(legacy.event_t,null);
+  assert.equal(timelinePictures(moments({},undefined,{v:1,tz:0,moments:[{k:'shot',t:META.t,character:'a'.repeat(64)}]}),[legacy]).size,0);
 });

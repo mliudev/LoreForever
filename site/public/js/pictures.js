@@ -14,11 +14,55 @@
     status.classList.toggle("fb-good", Boolean(good));
   };
   const shots = () => [...root.querySelectorAll("a.pb-shot")];
-  let at = -1;
+  let at = -1, opener = null;
+  const timeline = document.getElementById("timeline");
+  const preview = document.createElement("img");
+  preview.className = "pf-picture-preview";
+  preview.alt = "";
+  preview.hidden = true;
+  preview.setAttribute("aria-hidden", "true");
+  document.body.append(preview);
+  let previewLink = null, dismissed = null;
+  function hidePreview() { preview.hidden = true; previewLink = null; }
+  function closeView() { dismissed = opener; hidePreview(); dlg.close(); }
+  dlg.addEventListener("cancel", () => { dismissed = opener; hidePreview(); });
+  function peek(a) {
+    if (!a || a === dismissed || a.hidden || dlg.open || a.querySelector("img")?.dataset.failed) return;
+    previewLink = a;
+    preview.src = a.href;
+    preview.hidden = false;
+    const box = a.getBoundingClientRect(), width = Math.min(480, innerWidth - 32);
+    const height = Math.min(width * Number(a.querySelector("img").getAttribute("height")) / Number(a.querySelector("img").getAttribute("width")), innerHeight - 32);
+    preview.style.width = width + "px";
+    preview.style.maxHeight = (innerHeight - 32) + "px";
+    preview.style.left = Math.max(16, Math.min(innerWidth - width - 16, box.right + 12)) + "px";
+    preview.style.top = Math.max(16, Math.min(innerHeight - height - 16, box.top)) + "px";
+  }
+  timeline?.addEventListener("pointerover", e => {
+    if (e.pointerType === "mouse") peek(e.target.closest(".pf-picture"));
+  });
+  timeline?.addEventListener("pointerout", e => {
+    const a = e.target.closest(".pf-picture");
+    if (a && !a.contains(e.relatedTarget)) { dismissed = null; hidePreview(); }
+  });
+  timeline?.addEventListener("focusin", e => peek(e.target.closest(".pf-picture")));
+  timeline?.addEventListener("focusout", () => { dismissed = null; hidePreview(); });
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && previewLink) { dismissed = previewLink; hidePreview(); }
+  });
+  window.addEventListener("scroll", hidePreview, true);
+  window.addEventListener("resize", hidePreview);
+  preview.addEventListener("error", hidePreview);
+  // A failed image never removes its event or leaves a broken thumbnail in the row.
+  for (const img of timeline?.querySelectorAll(".pf-picture img") || []) {
+    const failed = () => { img.dataset.failed = "1"; img.closest(".pf-picture").hidden = true; hidePreview(); };
+    img.addEventListener("error", failed);
+    if (img.complete && !img.naturalWidth) failed();
+  }
 
   function show(i) {
     const list = shots();
-    if (!list.length) { dlg.close(); return; }
+    if (!list.length) { closeView(); return; }
     at = (i + list.length) % list.length;
     const a = list[at], item = a.closest(".pb-item"), img = a.querySelector("img");
     big.src = a.href;
@@ -33,10 +77,13 @@
     say("");
   }
 
-  root.addEventListener("click", e => {
-    const a = e.target.closest("a.pb-shot");
+  document.addEventListener("click", e => {
+    const link = e.target.closest("a.pb-shot, a.pf-picture");
+    const a = link?.matches(".pf-picture") ? shots().find(s => s.closest(".pb-item").id === "p-" + link.dataset.pbTarget) : link;
     if (!a || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     e.preventDefault();
+    opener = link;
+    hidePreview();
     show(shots().indexOf(a));
     if (!dlg.open) dlg.showModal();
   });
@@ -45,14 +92,18 @@
     else if (e.key === "ArrowLeft") show(at - 1);
   });
   // Focus goes back to the picture that was open.
-  dlg.addEventListener("close", () => shots()[at]?.focus({ preventScroll: true }));
+  dlg.addEventListener("close", () => {
+    dismissed = opener;
+    hidePreview();
+    (opener?.isConnected ? opener : shots()[at])?.focus({ preventScroll: true });
+  });
 
   dlg.addEventListener("click", async e => {
-    if (e.target === dlg) { dlg.close(); return; }   // the backdrop
+    if (e.target === dlg) { closeView(); return; }   // the backdrop
     const b = e.target.closest("[data-pb]");
     if (!b) return;
     const act = b.dataset.pb;
-    if (act === "close") dlg.close();
+    if (act === "close") closeView();
     else if (act === "prev") show(at - 1);
     else if (act === "next") show(at + 1);
     if (act !== "remove" && act !== "report") return;
@@ -73,8 +124,11 @@
     if (act === "report") { say("Thanks for telling us.", true); return; }
     // Removed: the next picture takes its place, or the book closes when it was the last one.
     const fold = item.closest(".pb-older");
+    for (const link of timeline?.querySelectorAll(".pf-picture") || []) {
+      if (link.dataset.pbTarget === id) link.remove();
+    }
     item.remove();
     if (fold && !fold.querySelector(".pb-item")) fold.remove();
-    if (shots().length) show(at); else dlg.close();
+    if (shots().length) show(at); else closeView();
   });
 })();

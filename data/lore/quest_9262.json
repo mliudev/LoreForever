@@ -26,7 +26,7 @@
   },
   {
    "title": "Whispers in the Runes",
-   "body": "Beyond simply slaying the undead and collecting their dim necrotic stones, scouts are directed to inspect strange, glowing runic formations pulsing on the ground near the invasion encampments. Stepping close to these circles exposes defenders to unsettling supernatural whispers, revealing that the runes serve as unnatural communication relays transmitting commands from the necropolis overhead and the dark masters of the Scourge.",
+   "body": "Beyond simply slaying the undead and collecting their dim necrotic stones, scouts are directed to inspect strange, glowing runic formations pulsing on the ground near the invasion encampments. Stepping close to these circles exposes defenders to unsettling supernatural whispers, revealing that the runes serve as unnatural communication relays although Lieutenant Beitha does not know whom the Scourge are contacting.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "runic circles outside darnassus",
     "what are the invasion runes"
    ],
-   "answer": "The runic circles are magical conduits linked to the hovering necropolises. Closer inspection reveals sinister voices speaking through them, confirming that the Scourge uses these markings to coordinate their forces and relay necromantic directives."
+   "answer": "The glowing runic circles appear near the Scourge invasion forces. Lieutenant Beitha asks you to investigate their purpose."
   },
   {
    "q": "What are Dim Necrotic Stones?",
@@ -65,7 +65,7 @@
     "what do necrotic stones do",
     "dim necrotic stone lore"
    ],
-   "answer": "Dim Necrotic Stones are crystallized conduits of dark magic carried by Scourge foot soldiers. They serve both as fuel for necromantic abilities and as tangible proof of slain undead for the Argent Dawn."
+   "answer": "Dim Necrotic Stones are recovered from Scourge invaders and brought to the Argent Dawn as proof of slain undead."
   },
   {
    "q": "Who is funding or leading the response in Darnassus?",

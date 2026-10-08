@@ -481,7 +481,7 @@ function sheet(line, T) {
 
 export const JOURNEY_V = 1;
 export const MAX_MOMENTS = 2000;
-const JOURNEY_KINDS = new Set(["zone", "qa", "qt", "npc", "boss", "kill", "lvl", "death", "book", "loot", "mount", "rep"]);
+const JOURNEY_KINDS = new Set(["zone", "qa", "qt", "npc", "boss", "kill", "lvl", "death", "book", "loot", "mount", "rep", "shot"]);
 const HOW = new Set(["walk", "flight", "hearth", "boat", "corpse", "portal", "instance"]);
 const NOTABLE = new Set(["elite", "rare", "rareelite", "worldboss"]);
 const EARLIEST = Date.UTC(2004, 10, 23) / 1000;   // nothing in WoW happened before launch day
@@ -506,6 +506,11 @@ export function readJourney(input, data = null, now = new Date()) {
       if (v) e[key] = v;
     }
     switch (m.k) {
+      case "shot":
+        if (!(typeof m.character === "string" && /^[a-f0-9]{64}$/.test(m.character))) continue;
+        e.character = m.character;
+        if (int(m.lv, 1, 100)) e.lv = m.lv;
+        break;
       case "zone":
         if (!e.z || !(m.new || m.inst)) continue;
         if (m.new) e.new = 1;

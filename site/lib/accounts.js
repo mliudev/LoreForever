@@ -116,7 +116,7 @@ const SETUP = [
     id TEXT PRIMARY KEY, user_id TEXT NOT NULL, cid TEXT NOT NULL, realm TEXT, faction TEXT, race TEXT, class TEXT,
     lv INTEGER, zone TEXT, subzone TEXT, map INTEGER, x INTEGER, y INTEGER, t INTEGER NOT NULL, w INTEGER, h INTEGER,
     bytes INTEGER NOT NULL, sha TEXT NOT NULL, clean INTEGER NOT NULL DEFAULT 0, caption TEXT, created TEXT NOT NULL,
-    reports INTEGER NOT NULL DEFAULT 0, hidden INTEGER NOT NULL DEFAULT 0, report_salt TEXT, UNIQUE (user_id, cid))`,
+    reports INTEGER NOT NULL DEFAULT 0, hidden INTEGER NOT NULL DEFAULT 0, report_salt TEXT, character TEXT, event_t INTEGER, UNIQUE (user_id, cid))`,
   "CREATE INDEX IF NOT EXISTS profile_pictures_realm ON profile_pictures (realm, t)",
   "CREATE INDEX IF NOT EXISTS profile_pictures_map ON profile_pictures (map, t)",
   // Reports on pictures: the account when signed in, and a hash of the sender's IP with the picture's report_salt.
@@ -155,6 +155,18 @@ export async function setup(env) {
         catch (error) {
           // Another cold Worker may have added it. A real failure must leave setup retryable.
           columns = new Set((await env.DB.prepare("PRAGMA table_info(story_spend)").all()).results.map(row => row.name));
+          if (!columns.has(column)) throw error;
+        }
+        columns.add(column);
+      }
+    }
+    if (existing.has("profile_pictures")) {
+      let columns = new Set((await env.DB.prepare("PRAGMA table_info(profile_pictures)").all()).results.map(row => row.name));
+      for (const [column, type] of [["character", "TEXT"], ["event_t", "INTEGER"]]) {
+        if (columns.has(column)) continue;
+        try { await env.DB.prepare(`ALTER TABLE profile_pictures ADD COLUMN ${column} ${type}`).run(); }
+        catch (error) {
+          columns = new Set((await env.DB.prepare("PRAGMA table_info(profile_pictures)").all()).results.map(row => row.name));
           if (!columns.has(column)) throw error;
         }
         columns.add(column);

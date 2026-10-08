@@ -10,11 +10,11 @@
    "quest:80"
   ]
  },
- "summary": "A torn, macabre parchment recovered during the investigation into Stalvan Mistmantle. Covered in dried blood, it serves as the crucial piece of physical evidence linking the missing tutor directly to horrific crimes in Duskwood.",
+ "summary": "A torn, bloodstained parchment examined during the investigation into Stalvan Mistmantle. A few words remain legible through the thick blood, and Commander Althea Ebonlocke asks that its handwriting be checked.",
  "sections": [
   {
    "title": "A Grim Piece of Evidence",
-   "body": "Commander Althea Ebonlocke keeps a vigilant watch over Darkshire, but suspicions alone cannot warrant formal action against someone's dark legacy. This torn, blood-spattered leaf from Stalvan Mistmantle's personal journal provides the material proof needed to confirm the worst. Despite being steeped in gore, the penmanship remains legible enough for town officials to analyze.",
+   "body": "Commander Althea Ebonlocke keeps a vigilant watch over Darkshire and asks for the handwriting on this torn, blood-spattered page to be examined. Despite the thick blood, a few words remain legible enough for Clerk Daltry to compare with the Town Registry.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "stalvan journal page",
     "blood page"
    ],
-   "answer": "It is a torn leaf from Stalvan Mistmantle's diary, soaked in dried blood. Commander Althea Ebonlocke uses it as final physical proof of Stalvan's murderous deeds."
+   "answer": "It is a torn, bloodstained leaf associated with the investigation into Stalvan Mistmantle. Commander Althea Ebonlocke asks Clerk Daltry to examine its handwriting."
   },
   {
    "q": "Who can confirm who wrote this page?",
@@ -48,7 +48,7 @@
     "why althea needs page",
     "why check handwriting"
    ],
-   "answer": "Commander Althea has suspected Stalvan for a long time, but she needs indisputable evidence before declaring him officially guilty. Confirming that the handwriting matches the registry removes any lingering doubt."
+   "answer": "Commander Althea has watched Stalvan for some time and wants Clerk Daltry to compare the page with the Town Registry. She needs to establish whether both were written by the same hand."
   },
   {
    "q": "Where does this page lead in the investigation?",
@@ -56,13 +56,13 @@
     "what happens after page",
     "stalvan chain next"
    ],
-   "answer": "Once Clerk Daltry authenticates the script, Commander Ebonlocke has conclusive proof of Stalvan's atrocities, paving the way for the Night Watch to deal with him once and for all."
+   "answer": "The page is taken to Clerk Daltry in Darkshire so he can compare its handwriting with the registry. The investigation continues with Commander Ebonlocke after his examination."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For protectors of the realm, this grim document is the smoking gun needed by Darkshire's Night Watch to track down a murderer hiding in their midst."
+   "text": "For protectors of the realm, this grim document is evidence examined by Darkshire's Night Watch during the investigation."
   }
  ],
  "keywords": [

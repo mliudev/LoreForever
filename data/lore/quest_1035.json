@@ -37,7 +37,7 @@
   },
   {
    "title": "The Shadethicket Domain",
-   "body": "The night elves lost easy access to the lake when the Shadethicket treants moved in and seized the surrounding wilderness. Their leader, the Shadethicket Oracle, hoards every fallen moonstone on an isolated islet in the center of the waters. Reclaiming even a single relic requires confronting and slaying the Oracle before Relara's strength runs out entirely.",
+   "body": "The night elves lost easy access to the lake when the Shadethicket bog beasts moved in and seized the surrounding wilderness. Their leader, the Shadethicket Oracle, hoards every fallen moonstone on an isolated islet in the center of the waters. Reclaiming even a single relic requires confronting and slaying the Oracle before Relara's strength runs out entirely. Pelturas crushes the recovered moonstone into tea, and Relara drinks it and regains her strength.",
    "spoiler": 1
   }
  ],
@@ -58,7 +58,7 @@
     "lake location",
     "shadethicket lake location"
    ],
-   "answer": "Fallen Sky Lake lies in central-eastern Ashenvale, southeast of Astranaar. It is dominated by ancient, hostile treants and features a small central island."
+   "answer": "Fallen Sky Lake lies in central-eastern Ashenvale, southeast of Astranaar. It is dominated by ancient, hostile bog beasts and features a small central island."
   },
   {
    "q": "Who has the fallen moonstone?",
@@ -67,7 +67,7 @@
     "shadethicket oracle location",
     "where to get moonstone"
    ],
-   "answer": "The moonstone is held by the Shadethicket Oracle, the leader of the hostile treants inhabiting the lake. The Oracle lairs on an island right in the center of Fallen Sky Lake."
+   "answer": "The moonstone is held by the Shadethicket Oracle, the leader of the hostile bog beasts inhabiting the lake. The Oracle lairs on an island right in the center of Fallen Sky Lake."
   },
   {
    "q": "What happens after this quest?",
@@ -76,7 +76,7 @@
     "what next",
     "quest continuation"
    ],
-   "answer": "This quest marks the final chapter in the quest chain concerning Relara's illness. Once you bring the fallen moonstone to Pelturas, her life is saved, and he offers a treasured family keepsake as his deepest gratitude."
+   "answer": "This is the final errand in Pelturas's search for a remedy. He needs a fallen moonstone to restore Relara's strength; her fate is revealed when the stone is delivered."
   },
   {
    "q": "Why are the Shadethickets hoarding the moonstones?",
@@ -84,7 +84,7 @@
     "why treants taking stones",
     "oracle hoarding moonstones"
    ],
-   "answer": "As wild creatures and treants of Ashenvale grow increasingly volatile and corrupted, the Shadethickets began violently driving off outsiders. Their Oracle systematically gathered and guarded the lunar relics, denying them to the night elves of Astranaar."
+   "answer": "As wild creatures and bog beasts of Ashenvale grow increasingly volatile and corrupted, the Shadethickets began violently driving off outsiders. Their Oracle systematically gathered and guarded the lunar relics, denying them to the night elves of Astranaar."
   },
   {
    "q": "What previous quests lead up to this task?",
@@ -103,7 +103,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "Culling the hostile Shadethicket treants highlights the tragic discord spreading through Ashenvale's natural guardians, demanding a heavy heart to restore balance."
+   "text": "Culling the hostile Shadethicket bog beasts highlights the tragic discord spreading through Ashenvale's natural guardians, demanding a heavy heart to restore balance."
   },
   {
    "target": "class:Priest",

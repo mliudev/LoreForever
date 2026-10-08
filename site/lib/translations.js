@@ -117,25 +117,18 @@ export function languageCard(lang, likes, translators = [], pack = null) {
   const c = lang.coverage || {};
   const p = c.percent || 0;
   const started = p > 0;
-  const tag = lang.reviewed
-    ? '<span class="tag">Reviewed</span>'
-    : started ? '<span class="tag tag-draft">Draft</span>' : "";
   const facts = [
     escape(lang.englishName),
     started ? `${(c.entries?.[0] ?? 0).toLocaleString("en-US")} of ${(c.entries?.[1] ?? 0).toLocaleString("en-US")} entries` : "not started",
     c.ui && c.ui[0] ? `interface ${Math.floor(100 * c.ui[0] / c.ui[1])}%` : "",
   ].filter(Boolean).join(" &middot; ");
-  const review = lang.reviewed
-    ? "Checked by native speakers."
-    : started ? "Not reviewed by a native speaker yet." : "Be the first to start it.";
   return `<article class="zone tl" id="lang-${escape(lang.locale)}" lang="${escape(lang.locale.slice(0, 2))}">
       <div class="zone-body">
-        <h3>${escape(lang.name)} ${tag}</h3>
+        <h3>${escape(lang.name)}</h3>
         <p class="zone-where">${facts}</p>
         <div class="tl-meter" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${p}"
           aria-label="${escape(lang.englishName)}: ${p}% translated"><span style="width:${Math.min(100, p)}%"></span></div>
         <p class="tl-percent"><strong>${percent(p)}</strong> translated</p>
-        <p class="tl-review" lang="en">${review}</p>
         ${translators.length ? `<p class="tl-credits"><span lang="en">Translated by</span> ${translators.map(escape).join(", ")}</p>` : ""}${pack?.included ? `
         <p class="tl-install" lang="en">Comes with Lore Forever. It switches on by itself on a
           ${escape(lang.englishName)} game client, or pick it in Options &gt; AddOns &gt; Lore Forever &gt; Language.</p>` : pack ? `

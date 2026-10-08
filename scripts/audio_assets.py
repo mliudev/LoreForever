@@ -16,18 +16,27 @@ same as the private build that QA tested.
                                              A pack whose Audio/ has recordings already is left alone (tags from
                                              before LOR-133 kept them in git), and so is a pack this checkout lacks.
 
+Upload caches verified bundles in $XDG_CACHE_HOME/lore-forever/audio-bundles (default ~/.cache), up to 8 GiB.
+--cache-dir / LORE_AUDIO_CACHE_DIR overrides that directory; --no-cache / LORE_AUDIO_CACHE=0 disables it.
+The cache never evicts files: when full, new bundles are built without retention. Remove the dedicated directory
+to reclaim its space. Every reuse checks the source recordings and cached archive; outputs are independent copies.
+
 The packs are the voice packs a release ships: PACKS and RELEASE_PACKS in scripts/build-release.sh whose folder is in
 addon/ with recordings. Standard library only, plus gh to upload: the public repo's workflow runs fetch.
 """
 
 import argparse
+import contextlib
 import hashlib
 import json
+import os
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
 import time
+import urllib.parse
 import urllib.request
 import zipfile
 from pathlib import Path
@@ -39,6 +48,8 @@ REPO, TAG = "mliudev/LoreForever", "audio"
 BASE = f"https://github.com/{REPO}/releases/download/{TAG}"
 AUDIO = {".mp3", ".ogg"}
 DATE = (2026, 1, 1, 0, 0, 0)   # fixed, so a pack's zip is the same bytes whenever its recordings are
+BUNDLE_FORMAT = "stored-audio-v1"
+CACHE_LIMIT = 8 * 1024**3
 LFS_POINTER = b"version https://git-lfs"
 README = ("Which zip on the public repo's \"audio\" release holds each voice pack's recordings, which aren't in its "
           "git history (LOR-133). scripts/release.sh writes it with each release (scripts/audio_assets.py manifest); "
@@ -56,7 +67,9 @@ def shipped_packs() -> list[str]:
     """The voice pack folders a release ships (build-release.sh PACKS and RELEASE_PACKS) that are in addon/."""
     src = (ROOT / "scripts" / "build-release.sh").read_text(encoding="utf-8")
     names = [n for m in re.findall(r"^(?:RELEASE_)?PACKS = \[(.*?)\]", src, re.M | re.S) for n in re.findall(r'"([^"]+)"', m)]
-    return [n for n in dict.fromkeys(names) if n.startswith("LoreForever_Voice_") and (ADDONS / n).is_dir()]
+    return [n for n in dict.fromkeys(names)
+            if (n.startswith("LoreForever_Voice_") or n.startswith("LoreForever_Edition_") and n.endswith("_Audio"))
+            and (ADDONS / n).is_dir()]
 
 
 def recordings(pack: str) -> list[tuple[str, Path]]:
@@ -79,9 +92,21 @@ def fingerprint(files: list[tuple[str, Path]]) -> str:
 def load_manifest() -> dict:
     if not MANIFEST.is_file():
         raise Failure(f"no {MANIFEST.relative_to(ROOT)}")
-    data = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    if not isinstance(data.get("packs"), dict):
+    try:
+        data = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    except (ValueError, UnicodeError) as e:
+        raise Failure(f"invalid {MANIFEST.relative_to(ROOT)}: {e}") from e
+    if not isinstance(data, dict) or not isinstance(data.get("packs"), dict):
         raise Failure(f"{MANIFEST.relative_to(ROOT)} has no 'packs'")
+    for pack, entry in data["packs"].items():
+        if not re.fullmatch(r"LoreForever_(?:Voice_[A-Za-z0-9_]+|Edition_[A-Za-z0-9_]+_Audio)", pack):
+            raise Failure(f"invalid audio pack name: {pack!r}")
+        fp = entry.get("fingerprint") if isinstance(entry, dict) else None
+        if (not isinstance(fp, str) or not re.fullmatch(r"[0-9a-f]{64}", fp)
+                or entry.get("asset") != f"{pack}-{fp[:16]}.zip"
+                or type(entry.get("files")) is not int or entry["files"] < 1
+                or type(entry.get("bytes")) is not int or entry["bytes"] < 0):
+            raise Failure(f"invalid audio manifest entry for {pack}")
     return data
 
 
@@ -93,6 +118,147 @@ def bundle(pack: str, files: list[tuple[str, Path]], out: Path) -> Path:
             info.compress_type = zipfile.ZIP_STORED
             info.external_attr = 0o644 << 16
             z.writestr(info, path.read_bytes())
+    return out
+
+
+def reject_pointers(pack: str, files: list[tuple[str, Path]]) -> None:
+    pointers = [n for n, p in files if p.stat().st_size <= 1024 and p.read_bytes().startswith(LFS_POINTER)]
+    if pointers:
+        raise Failure(f"{len(pointers)} files in addon/{pack}/Audio are Git LFS pointers, not recordings (e.g. "
+                      f"{pointers[0]}). Fetch them first: git -c lfs.fetchexclude= lfs pull")
+
+
+def checked_recordings(pack: str, entry: dict) -> list[tuple[str, Path]]:
+    files = recordings(pack)
+    fp, size = hashlib.sha256(), 0
+    for name, path in files:
+        content = path.read_bytes()
+        if len(content) <= 1024 and content.startswith(LFS_POINTER):
+            raise Failure(f"addon/{pack}/Audio/{name} contains Git LFS pointers, not recordings. "
+                          "Fetch them first: git -c lfs.fetchexclude= lfs pull")
+        size += len(content)
+        fp.update(hashlib.sha256(name.encode()).digest() + hashlib.sha256(content).digest())
+    if len(files) != entry["files"] or size != entry["bytes"] or fp.hexdigest() != entry["fingerprint"]:
+        raise Failure(f"addon/{pack}/Audio changed since {MANIFEST.relative_to(ROOT)} was written; run "
+                      "audio_assets.py manifest again")
+    return files
+
+
+def digest(path: Path) -> str:
+    with path.open("rb") as f:
+        return hashlib.file_digest(f, "sha256").hexdigest()
+
+
+def verify_bundle(path: Path, entry: dict) -> None:
+    """Check actual recordings and deterministic ZIP metadata before admitting bytes to the cache."""
+    fp, size = hashlib.sha256(), 0
+    with zipfile.ZipFile(path) as z:
+        infos = z.infolist()
+        names = [i.filename for i in infos]
+        if len(infos) != entry["files"] or names != sorted(set(names)) or z.comment:
+            raise Failure("cached bundle has unexpected entries")
+        for info in infos:
+            name = info.filename.removeprefix("Audio/")
+            if (name == info.filename or any(p in ("", ".", "..") for p in name.split("/"))
+                    or "\\" in name or Path(name).suffix.lower() not in AUDIO
+                    or info.compress_type != zipfile.ZIP_STORED or info.date_time != DATE
+                    or info.external_attr != 0o644 << 16 or info.comment):
+                raise Failure("cached bundle has unexpected ZIP metadata")
+            with z.open(info) as recording:
+                clip_digest = hashlib.file_digest(recording, "sha256").digest()
+            fp.update(hashlib.sha256(name.encode()).digest() + clip_digest)
+            size += info.file_size
+    if size != entry["bytes"] or fp.hexdigest() != entry["fingerprint"]:
+        raise Failure("bundle does not hold the manifest's recordings")
+
+
+def cache_identity(pack: str, entry: dict) -> dict:
+    # Python's ZIP writer is part of the format implementation. Changes to either tool invalidate old entries.
+    return {"pack": pack, "entry": entry, "format": BUNDLE_FORMAT,
+            "tool": digest(Path(__file__)), "zipfile": digest(Path(zipfile.__file__)), "python": sys.version}
+
+
+@contextlib.contextmanager
+def cache_lock(root: Path):
+    """Serialize validation/publication and quota accounting across candidate processes."""
+    root.mkdir(parents=True, exist_ok=True)
+    with (root / ".lock").open("a+b") as lock:
+        if os.name == "nt":
+            import msvcrt
+            if lock.seek(0, os.SEEK_END) == 0:
+                lock.write(b"\0")
+                lock.flush()
+            lock.seek(0)
+            msvcrt.locking(lock.fileno(), msvcrt.LK_LOCK, 1)
+        else:
+            import fcntl
+            fcntl.flock(lock.fileno(), fcntl.LOCK_EX)
+        try:
+            yield
+        finally:
+            if os.name == "nt":
+                lock.seek(0)
+                msvcrt.locking(lock.fileno(), msvcrt.LK_UNLCK, 1)
+            else:
+                fcntl.flock(lock.fileno(), fcntl.LOCK_UN)
+
+
+def atomic_copy(source: Path, out: Path) -> None:
+    # A caller may overwrite its rehearsal output. Hardlinks would silently overwrite the shared cache too.
+    with tempfile.TemporaryDirectory(prefix=".audio-copy-", dir=out.parent) as tmp:
+        stage = Path(tmp) / out.name
+        shutil.copyfile(source, stage)
+        os.replace(stage, out)
+
+
+def cached_bundle(pack: str, files: list[tuple[str, Path]], entry: dict, out: Path,
+                  cache: Path | None) -> Path:
+    """Reuse verified bytes, retaining at most 8 GiB. Full caches stop admitting entries, never evict them.
+
+    This directory belongs only to audio_assets.py; operators can remove it to reclaim space. Overrides are
+    --cache-dir/LORE_AUDIO_CACHE_DIR; --no-cache or LORE_AUDIO_CACHE=0 bypasses reads and writes entirely.
+    A lock protects the two atomically replaced files: interrupted publication is a miss on the next read.
+    """
+    if cache is None:
+        with tempfile.TemporaryDirectory(prefix=".audio-build-", dir=out.parent) as tmp:
+            stage = bundle(pack, files, Path(tmp) / out.name)
+            verify_bundle(stage, entry)
+            os.replace(stage, out)
+        return out
+    identity = cache_identity(pack, entry)
+    key = hashlib.sha256(json.dumps(identity, sort_keys=True).encode()).hexdigest()
+    archive, receipt = cache / f"{key}.zip", cache / f"{key}.json"
+    with cache_lock(cache):
+        try:
+            saved = json.loads(receipt.read_text(encoding="utf-8"))
+            if saved["identity"] != identity or saved["sha256"] != digest(archive):
+                raise Failure("cache receipt mismatch")
+            # Admission checked every member against the source manifest. A whole-archive SHA binds those same
+            # bytes to this identity without parsing and rehashing every recording a second time on each hit.
+        except (Failure, OSError, ValueError, KeyError, TypeError, zipfile.BadZipFile, RuntimeError):
+            pass  # Absent, old or corrupted entries are rebuilt from verified source recordings.
+        else:
+            atomic_copy(archive, out)
+            print(f"  audio cache: reused {entry['asset']}")
+            return out
+        # Build outside the cache: its retained-size bound also holds while new entries are being prepared.
+        with tempfile.TemporaryDirectory(prefix=".audio-build-", dir=out.parent) as tmp:
+            stage = bundle(pack, files, Path(tmp) / out.name)
+            verify_bundle(stage, entry)
+            metadata = json.dumps({"identity": identity, "sha256": digest(stage)}, sort_keys=True) + "\n"
+            occupied = sum(p.stat().st_size for p in cache.iterdir()
+                           if re.fullmatch(r"[0-9a-f]{64}\.(?:zip|json)", p.name) and p.is_file()
+                           and p not in (archive, receipt))
+            if occupied + stage.stat().st_size + len(metadata.encode()) <= CACHE_LIMIT:
+                atomic_copy(stage, archive)
+                # Locking readers cannot observe a mixed pair; a crash between replacements fails validation.
+                note = Path(tmp) / "receipt.json"
+                note.write_text(metadata, encoding="utf-8")
+                atomic_copy(note, receipt)
+                print(f"  audio cache: stored {entry['asset']}")
+            else:
+                print(f"  audio cache: full; built {entry['asset']} without retaining it")
+            os.replace(stage, out)
     return out
 
 
@@ -109,10 +275,7 @@ def cmd_manifest(_args) -> int:
         files = recordings(pack)
         if not files:
             continue   # build-release.sh refuses a shipped voice pack without recordings
-        pointers = [n for n, p in files if p.stat().st_size <= 1024 and p.read_bytes().startswith(LFS_POINTER)]
-        if pointers:
-            raise Failure(f"{len(pointers)} files in addon/{pack}/Audio are Git LFS pointers, not recordings (e.g. "
-                          f"{pointers[0]}). Fetch them first: git -c lfs.fetchexclude= lfs pull")
+        reject_pointers(pack, files)
         fp = fingerprint(files)
         packs[pack] = {"asset": f"{pack}-{fp[:16]}.zip", "fingerprint": fp, "files": len(files),
                        "bytes": sum(p.stat().st_size for _, p in files)}
@@ -156,13 +319,11 @@ def cmd_upload(args) -> int:
            "--latest=false", "--notes", NOTES)
     with tempfile.TemporaryDirectory() as tmp:
         for pack, e in todo:
-            files = recordings(pack)
-            if fingerprint(files) != e["fingerprint"]:
-                raise Failure(f"addon/{pack}/Audio changed since {MANIFEST.relative_to(ROOT)} was written; run "
-                              "audio_assets.py manifest again")
+            files = checked_recordings(pack, e)
             out = Path(args.out) if args.out else Path(tmp)
             out.mkdir(parents=True, exist_ok=True)
-            path = bundle(pack, files, out / e["asset"])
+            cache = None if args.no_cache else Path(args.cache_dir).expanduser()
+            path = cached_bundle(pack, files, e, out / e["asset"], cache)
             if not args.out:
                 gh("release", "upload", TAG, str(path), "-R", args.repo)
                 # An upload cut short could leave a partial asset that a rerun would skip as there already.
@@ -203,8 +364,12 @@ def cmd_fetch(args) -> int:
             if recordings(pack):
                 kept += 1
                 continue
-            path = Path(tmp, e["asset"])
-            download(f"{args.base.rstrip('/')}/{e['asset']}", path)
+            base = urllib.parse.urlsplit(args.base)
+            local = base.scheme == "file" and base.netloc in ("", "localhost") and not (base.query or base.fragment)
+            path = (Path(urllib.request.url2pathname(base.path)) / e["asset"] if local
+                    else Path(tmp, e["asset"]))
+            if not local:
+                download(f"{args.base.rstrip('/')}/{e['asset']}", path)
             audio = ADDONS / pack / "Audio"
             with zipfile.ZipFile(path) as z:
                 for info in z.infolist():
@@ -218,7 +383,8 @@ def cmd_fetch(args) -> int:
                     target = audio.joinpath(*parts)
                     target.parent.mkdir(parents=True, exist_ok=True)
                     target.write_bytes(z.read(info))
-            path.unlink()
+            if not local:
+                path.unlink()
             files = recordings(pack)
             if len(files) != e["files"] or fingerprint(files) != e["fingerprint"]:
                 raise Failure(f"{e['asset']} doesn't hold the recordings {MANIFEST.relative_to(ROOT)} names for {pack}")
@@ -237,6 +403,11 @@ def main(argv: list[str] | None = None) -> int:
     up.add_argument("--repo", default=REPO)
     up.add_argument("--dry-run", action="store_true")
     up.add_argument("--out", help="write the zips here instead of uploading them")
+    up.add_argument("--cache-dir", default=os.environ.get("LORE_AUDIO_CACHE_DIR") or str(
+        Path(os.environ.get("XDG_CACHE_HOME") or Path.home() / ".cache") / "lore-forever" / "audio-bundles"),
+        help="verified local bundle cache (LORE_AUDIO_CACHE_DIR overrides the default)")
+    up.add_argument("--no-cache", action="store_true", default=os.environ.get("LORE_AUDIO_CACHE") == "0",
+                    help="bypass the bundle cache (also LORE_AUDIO_CACHE=0)")
     fe = sub.add_parser("fetch")
     fe.add_argument("--base", default=BASE, help="where the zips are (default: the audio release)")
     args = ap.parse_args(argv)

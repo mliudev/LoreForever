@@ -1,19 +1,19 @@
 {
- "generated": "2026-10-07",
+ "generated": "2026-10-08",
  "forever_only": {
-  "quests_known": 135,
-  "quests_with_text": 116,
-  "narrated": 113,
+  "quests_known": 139,
+  "quests_with_text": 120,
+  "narrated": 119,
   "npcs_known": 223,
-  "npcs_with_text": 0
+  "npcs_with_text": 1
  },
  "zones": [
   {
    "zone": "Tirisfal Glades",
    "key": "tirisfal",
-   "quests": 30,
-   "with_text": 14,
-   "narrated": 14
+   "quests": 31,
+   "with_text": 15,
+   "narrated": 15
   },
   {
    "zone": "Zephras Isle",
@@ -27,7 +27,7 @@
    "key": "wetlands",
    "quests": 13,
    "with_text": 13,
-   "narrated": 11
+   "narrated": 13
   },
   {
    "zone": "Westfall",
@@ -67,9 +67,9 @@
   {
    "zone": "Redridge Mountains",
    "key": "redridge",
-   "quests": 4,
-   "with_text": 4,
-   "narrated": 4
+   "quests": 5,
+   "with_text": 5,
+   "narrated": 5
   },
   {
    "zone": "Durotar",
@@ -135,8 +135,22 @@
    "narrated": 1
   },
   {
+   "zone": "Ironforge",
+   "key": "ironforge",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
+  },
+  {
    "zone": "Mulgore",
    "key": "mulgore",
+   "quests": 1,
+   "with_text": 1,
+   "narrated": 1
+  },
+  {
+   "zone": "Orgrimmar",
+   "key": "orgrimmar",
    "quests": 1,
    "with_text": 1,
    "narrated": 1
@@ -595,13 +609,6 @@
    "kind": "npc",
    "id": 251965,
    "name": "Fevrath Skyhammer",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 270581,
-   "name": "Fyrenz Vishonar",
    "zone": null,
    "level": null
   },

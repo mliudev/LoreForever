@@ -19,7 +19,7 @@ export async function loadVoices(env, request) {
 
 // The voices to show, with each owner's bio, name and links merged in.
 export async function publicVoices(env, request) {
-  const voices = await loadVoices(env, request);
+  const voices = (await loadVoices(env, request)).filter(v => v.status !== "draft");
   const owned = voices.filter(v => v.owner);
   if (!owned.length || !env.DB) return voices;
   let rows;
@@ -111,6 +111,10 @@ function getIt(v) {
 function getMain(v) {
   if (v.included) return `<p class="vc-install">Comes with Lore Forever. Nothing to install.</p>`;
   if (!v.download) return `<p class="vc-install">Download coming soon.</p>`;
+  if (v.edition) return `<p class="vc-install"><a class="btn-small" href="/download/voice/${escape(v.id)}">Download text and narration</a>
+          Install both folders from the ZIP beside the matching Lore Forever core in <code>Interface\\AddOns</code>.
+          Reload, select this contributor edition in Lore Forever's Language options, then reload to switch text and narration together.
+          <a href="/downloads#${escape(v.id)}">Coverage and requirements</a>.</p>`;
   const cf = v.curseforge ? ` <a href="${escape(v.curseforge)}">Get it on CurseForge</a>.` : "";
   return `<p class="vc-install"><a class="btn-small" href="/download/voice/${escape(v.id)}">${v.packs?.length ? "Download core pack" : "Download"}</a>
           Unzip into <code>Interface\\AddOns</code>, type <code>/reload</code> in game, then pick it under Narration voice.${cf}</p>`;

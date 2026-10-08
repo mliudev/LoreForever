@@ -32,11 +32,9 @@ export async function refreshCatalog(fetcher, previous = null) {
   }
 }
 
-// Entry review is a prompt to check the displayed script, not proof that every spoken field was reviewed.
+// Only changed English needs a notice; languages do not carry quality labels.
 export function scriptReviewNote(status, entry, locale) {
-  if (locale === "enUS") return "Current English catalog text.";
-  if (!status) return "Translation review status unavailable. You can still check this script against the English original.";
+  if (locale === "enUS" || !status) return "";
   if (Array.isArray(status.stale) && status.stale.includes(entry)) return "The English source changed. Check and correct this script before recording.";
-  if (Array.isArray(status.draft) && status.draft.includes(entry)) return "This entry still needs a language check. Read this script before recording; correct any wording that needs it.";
-  return "Current catalog translation. Check this script before recording.";
+  return "";
 }

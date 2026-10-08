@@ -1,0 +1,1 @@
+These verified 0.11.0 catalogs are fixed regression inputs for download rendering, metadata fallback and HEAD handlers. Production catalogs change as new releases and recordings arrive; update these fixtures only when intentionally testing a new catalog shape.

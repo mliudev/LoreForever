@@ -55,7 +55,7 @@
     "where is vincent",
     "vincent fate"
    ],
-   "answer": "Vincent was killed by the denizens of the keep during the mission. Adventurers find his broken body lying just beyond the courtyard gate, clutching a small trinket in his hand."
+   "answer": "Vincent has not reported back from Shadowfang Keep. Hadrec needs someone to enter the fortress and discover what happened to him."
   },
   {
    "q": "What role does Deathstalker Adamant play inside the keep?",
@@ -63,7 +63,7 @@
     "what does adamant do",
     "deathstalker adamant role"
    ],
-   "answer": "Adamant survives the initial infiltration, though he is trapped. When adventurers reach him, he helps unlock the courtyard gate, allowing the assault deeper into the fortress to proceed while he relays what intelligence he can back to Hadrec."
+   "answer": "Adamant is one of the missing Deathstalkers sent to gather intelligence inside Shadowfang Keep. His situation is learned during the search."
   },
   {
    "q": "Where does this mission begin?",
@@ -85,11 +85,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, reclaiming Silverpine from Arugal's beasts is essential to securing the borders of Lordaeron, making Vincent's sacrifice a somber reminder of the cost of their freedom."
+   "text": "For the Forsaken, reclaiming Silverpine from Arugal's beasts is essential to securing Lordaeron. The missing scouts show the danger of that struggle."
   },
   {
    "target": "class:Rogue",
-   "text": "The fallen Vincent and the captured Adamant demonstrate the lethal risks of deep reconnaissance work behind heavily fortified enemy lines."
+   "text": "The disappearance of the Deathstalkers demonstrates the risks of reconnaissance behind fortified enemy lines."
   },
   {
    "target": "faction:Horde",

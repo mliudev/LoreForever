@@ -54,6 +54,14 @@ Other narration voices can be installed the same way. Choose your language and v
 `AddOns`, including any `LoreForever_Lang_*` folder. To contribute recordings, see the
 [narrator guide](https://loreforeverwow.com/voices/guide).
 
+## Optional Herald companion
+
+The Windows installer can also install Herald. It keeps live questions and answers in a visible chat, plays published
+lore recordings with their text, and can sync your journey and pictures to your connected website profile after
+`/reload` or logout. Profile linking and Picture Book are optional; connect your profile for the free live-answer
+allowance, or add your own key in Settings.
+The in-game add-on continues to work offline without Herald.
+
 ## What it does
 
 - **Narrated stories.** Hear zone, capital and dungeon stories and answers in Lore Forever's recorded voices.
@@ -61,8 +69,9 @@ Other narration voices can be installed the same way. Choose your language and v
   and every answer offers follow-up questions.
 - **Knows where you are.** The panel follows your zone, subzone, target and quest log.
 - **Lore on tooltips.** NPCs and mobs get a one-line story; items tell you when one of your quests needs them.
-- **Quest givers speak.** With a Quest Dialogue pack installed, hear recorded quest text, progress and thanks in
-  the male or female narrator's voice. Recording coverage varies; more recordings arrive with updates.
+- **Quest givers speak when enabled.** Install a separate Quest Dialogue pack and turn on **Speak quest dialogue**
+  in Options; it starts off. Hear recorded quest text, progress and thanks in the male or female narrator's voice.
+  Coverage varies; more recordings arrive with updates.
 - **Quest backstory.** A Lore button on the quest dialog and quest log.
 - **Dungeon primers.** Walk into a dungeon and get a short briefing: why you're there and who you'll face.
 - **Spoiler-safe.** Answers that give away a twist ask first, and tooltips never mention quests you don't have yet.

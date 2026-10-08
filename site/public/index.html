@@ -43,10 +43,10 @@
 </header>
 
 <!-- newbar:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
-<aside class="newbar" id="newbar" data-version="0.11.0" aria-label="New in 0.11.0" hidden>
+<aside class="newbar" id="newbar" data-version="0.12.0" aria-label="New in 0.12.0" hidden>
   <div class="wrap newbar-in">
-    <span class="tag tag-new">New in 0.11.0</span>
-    <a href="/whats-new#v0-11-0">All your installed packs</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-11-0">More quest answers</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-11-0">From translation to recording</a>
+    <span class="tag tag-new">New in 0.12.0</span>
+    <a href="/whats-new#v0-12-0">Herald Player controls</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-12-0">Densuad's Spanish edition</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-12-0">Ukrainian community pack</a>
     <a class="newbar-all" href="/whats-new">See what's new</a>
   </div>
   <button class="newbar-x" type="button" aria-label="Hide until the next version">&times;</button>
@@ -65,7 +65,7 @@
       <ul class="stats">
         <li>by <strong>Mike</strong></li>
         <li id="downloads"><strong>New release</strong></li>
-        <li>Version <strong>0.11.0</strong></li>
+        <li>Version <strong>0.12.0</strong></li>
         <li>Game <strong>WoW Forever 1.60.1</strong></li>
       </ul>
       <!-- Downloads, no email step. Since 2026-10-02 (Mike) the site's own download comes first: the Windows installer
@@ -86,10 +86,10 @@
       </div>
       <p class="dl-more">Comes with the male narrator. Want another narrator?
         <a href="/downloads#voices">Choose your voices</a> for the available recordings and install options.</p>
-      <!-- Languages (LOR-35, the most-asked question): every one comes in the main download.
+      <!-- Languages (LOR-35): English comes in the main download; other text packs are separate.
            Recorded narrator packs are available in all five languages, with partial coverage. -->
       <p class="dl-more dl-langs-hero"><strong>In your language:</strong> English, Deutsch, Español, Français and
-        Português, all included. It follows your WoW client's language, or pick one in Options &rsaquo; Language.
+        Português. English is included; download the other text-language packs separately. Once installed, they follow your WoW client's language, or pick one in Options &rsaquo; Language.
         Recorded narrator packs have selected stories and answers in all five languages; entries without a recording stay as text.
         <a href="/downloads#languages">Languages</a></p>
     </div>
@@ -288,8 +288,9 @@
       <ul>
         <li><strong>Welcome back.</strong> The first chat after you log in sums up your last session: where you
           went, the quests you finished and the people you met.</li>
-        <li><strong>Five languages included.</strong> English, Deutsch, Français, Español (España) and Português
-          (Brasil). They switch on by themselves on those game clients, or pick one in Options &rsaquo; Language.
+        <li><strong>Five languages available.</strong> English is included; Deutsch, Français, Español (España) and
+          Português (Brasil) are separate <a href="/downloads#languages">text-language downloads</a>. Once installed,
+          they follow those game clients, or pick one in Options &rsaquo; Language.
           <a href="/translate">Help translate</a> into yours.</li>
         <li><strong>Your voices, your order.</strong> Install several voices and choose which comes first; a story
           keeps one voice for its questions.</li>
@@ -500,6 +501,21 @@
       <section class="tab-panel" id="changelog" role="tabpanel">
         <h2>Changelog</h2>
         <!-- changelog:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
+        <h3>0.12.0</h3>
+        <ul>
+          <li><strong>Herald Player controls:</strong> the recording library opens and switches entries faster. Volume and mute controls remember your choice when Herald reopens, and live answers use the lowest-cost default.</li>
+          <li><strong>Densuad's Spanish edition:</strong> choose contributed Spanish text and narration together in Language options. One optional download contains both matching components; missing contributed stories stay hidden, and valid text without narration stays readable.</li>
+          <li><strong>Ukrainian community pack:</strong> UALL / Pekelnyj's translations add the full interface and 882 current lore entries, with a Ukrainian translation dashboard and separate language download. Entries whose English changed keep their English text while awaiting an update. Ukrainian headings and searches support і, ї, є and ґ.</li>
+          <li>Russian translations from Ilia Reutov are available in the translation dashboard.</li>
+          <li><strong>Your complete story:</strong> 250 completed English recordings read all their safe story sections, with matching read-along text and continuous playback. Stormwind and Westfall are available in both narrators; other recordings continue to arrive as they are ready.</li>
+          <li><strong>More male quest answers:</strong> expanded optional English male quest-answer packs cover more early quests.</li>
+          <li><strong>Live answers in text:</strong> Herald's live answers appear in Chat without generated speech. Recorded lore keeps its Player controls.</li>
+          <li><strong>Pictures beside your journey:</strong> website timeline pictures enlarge on hover or keyboard focus and open on click or tap. Pictures stay attached to their exact character and saved moment.</li>
+          <li><strong>Smoother Herald controls:</strong> keyboard seeking keeps focus, and Chat explains how to connect your profile or add a key when setup is incomplete.</li>
+          <li><strong>Quiet stories:</strong> stories without narration remain readable without repeated recording notices.</li>
+          <li><strong>Lore corrections:</strong> corrected lore in 167 entries and removed unsupported later-era identities.</li>
+          <li><strong>More translated lore:</strong> refreshed German, Portuguese, French and Spanish text, and incorporated community corrections and Italian translations. Entries still awaiting a current translation retain English text.</li>
+        </ul>
         <h3>0.11.0</h3>
         <ul>
           <li><strong>All your installed packs:</strong> Options now lists every voice, language and playback support pack, with separate counts for lore, quest dialogue and answers. Narrator totals count each recording once, even when two packs share it. Playback support no longer causes a false failed add-on check.</li>

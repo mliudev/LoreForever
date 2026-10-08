@@ -1,14 +1,14 @@
 {
  "key": "npc:scout-thaelrid",
  "type": "npc",
- "name": "Scout Thaelrid",
+ "name": "Argent Guard Thaelrid",
  "era": "classic",
  "zone": "blackfathom",
  "meta": {
-  "wiki": "Scout Thaelrid",
+  "wiki": "Argent Guard Thaelrid",
   "refs": 3
  },
- "summary": "Scout Thaelrid is a wounded night elf scout sent by the Argent Dawn into the submerged ruins of Blackfathom Deeps. Trapped near the Pool of Ask'ar, he bears witness to the dark alliance taking root between the naga and the Twilight's Hammer cult.",
+ "summary": "Argent Guard Thaelrid is a wounded night elf scout sent by the Argent Dawn into the submerged ruins of Blackfathom Deeps. Trapped near the Pool of Ask'ar, he bears witness to the dark alliance taking root between the naga and the Twilight's Hammer cult.",
  "sections": [
   {
    "title": "Eyes of the Argent Dawn",
@@ -23,7 +23,7 @@
  ],
  "faq": [
   {
-   "q": "Who is Scout Thaelrid?",
+   "q": "Who is Argent Guard Thaelrid?",
    "aliases": [
     "who is thaelrid",
     "thaelrid lore",

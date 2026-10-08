@@ -69,6 +69,15 @@ export function readMeta(raw) {
   if (!cid) return { error: "The picture needs its id (cid)." };
   const has = k => Object.hasOwn(m, k);
   const fields = {};
+  // Optional exact shot identity from Herald. Never infer it from a screenshot's clock or place.
+  if (has("character") || has("event_t")) {
+    if (!(typeof m.character === "string" && /^[a-f0-9]{64}$/.test(m.character)) ||
+        !Number.isInteger(m.event_t) || m.event_t < OLDEST || m.event_t > Math.floor(Date.now() / 1000) + 2 * 86400) {
+      return { error: "The picture's journey match needs its character and event time." };
+    }
+    fields.character = m.character;
+    fields.event_t = m.event_t;
+  }
   if (has("t")) {
     const t = int(m.t, OLDEST, Math.floor(Date.now() / 1000) + 2 * 86400);
     if (t !== null) fields.t = t;
@@ -115,7 +124,7 @@ export function jpegSize(b) {
 // ---- Storing ----
 
 const COLUMNS = ["realm", "faction", "race", "class", "lv", "zone", "subzone", "map", "x", "y", "t", "w", "h", "bytes",
-                 "sha", "clean", "caption"];
+                 "sha", "clean", "caption", "character", "event_t"];
 const EMPTY = { ...Object.fromEntries(COLUMNS.map(c => [c, null])), clean: 0 };
 
 const reply = (status, body) => ({ status, body: { ok: status === 200, ...body } });
@@ -124,6 +133,7 @@ const reply = (status, body) => ({ status, body: { ok: status === 200, ...body }
 export function shown(row, owner = false) {
   const out = { id: row.id, url: row.hidden ? null : pictureUrl(row), t: row.t, w: row.w, h: row.h, lv: row.lv,
                 zone: row.zone, subzone: row.subzone, caption: row.caption };
+  if (row.character && row.event_t) Object.assign(out, { character: row.character, event_t: row.event_t });
   return owner ? { ...out, cid: row.cid, clean: Boolean(row.clean), hidden: Boolean(row.hidden) } : out;
 }
 

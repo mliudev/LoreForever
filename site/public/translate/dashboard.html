@@ -93,9 +93,9 @@
       <summary>How it works</summary>
       <ul class="vp-steps">
         <li><strong>Needs work</strong> lists what still needs a person, most-read first: lines with no translation,
-          drafts nobody has checked, lines players reported, and lines whose English changed.</li>
+          translations to check, lines players reported, and lines whose English changed.</li>
         <li>Type your language in the box under each English line. It saves by itself when you pause or move on.</li>
-        <li>A draft that already reads right? Press <strong>Looks right</strong> to record your check of that line. The whole-entry button is for when you have read every line.</li>
+        <li>A translation that already reads right? Press <strong>Looks right</strong> to record your check of that line. The whole-entry button is for when you have read every line.</li>
         <li>Keep codes like <code>%s</code> and <code>|cff00ff00 ... |r</code> where the English has them. Keywords
           and search phrases are lists: separate the items with <code>|</code>.</li>
         <li>Names of places, people and quests should match what your game client calls them.</li>
@@ -111,7 +111,7 @@
     <section id="td-work" aria-label="Needs work">
       <div class="td-cats" role="group" aria-label="What needs work">
         <button type="button" data-cat="missing" aria-pressed="false"><strong>Not translated</strong><span></span></button>
-        <button type="button" data-cat="draft" aria-pressed="false"><strong>Drafts to check</strong><span></span></button>
+        <button type="button" data-cat="draft" aria-pressed="false"><strong>Check translations</strong><span></span></button>
         <button type="button" data-cat="reported" aria-pressed="false"><strong>Reported by players</strong><span></span></button>
         <button type="button" data-cat="stale" aria-pressed="false"><strong>English changed</strong><span></span></button>
       </div>
@@ -351,7 +351,7 @@ function renderCats() {
 
 const CAT_NOTE = {
   missing: "Lines with no translation yet, most-read first: the interface, then zones, topics and characters.",
-  draft: "Entries marked as draft in the current source. Check each line; saved checks wait for import.",
+  draft: "Translations you can check or improve.",
   reported: "Entries players reported with \"Report a bad translation\". The report is shown above each one.",
   stale: "The English was rewritten after these were translated: they show in English until someone translates them again.",
 };
@@ -368,7 +368,7 @@ async function renderWork() {
   $("td-count").textContent = entries + ui
     ? `${CAT_NOTE[cat]} ${[entries ? fmt(entries) + (entries === 1 ? " entry" : " entries") : "",
                           ui ? fmt(ui) + " interface lines" : ""].filter(Boolean).join(" and ")}.`
-    : { missing: "Everything has a translation. Try Drafts to check.", draft: "No entries marked as draft in the current source. You can still browse and check a line.",
+    : { missing: "Everything has a translation. Try Check translations.", draft: "No translations to check here. Browse by section to edit any line.",
         reported: "No open reports for this language.", stale: "Nothing to redo." }[cat];
   $("td-list").replaceChildren(...keys.map(key => {
     if (key === "ui") {
@@ -558,7 +558,7 @@ function renderProgress() {
   const n = Object.values(state.mine).filter(m => m.status === "new" || m.status === "accepted").length;
   const done = Object.values(state.mine).filter(m => m.status === "pulled").length;
   const mine = [n ? `${fmt(n)} saved, awaiting import` : "", done ? `${fmt(done)} processed, no longer pending` : ""].filter(Boolean).join(", ");
-  $("td-progress-text").textContent = `${lang.name || state.locale}: ${p < 1 && p > 0 ? "less than 1" : Math.floor(p)}% text coverage (not a review score).`
+  $("td-progress-text").textContent = `${lang.name || state.locale}: ${p < 1 && p > 0 ? "less than 1" : Math.floor(p)}% text coverage.`
     + (mine ? ` Your edits: ${mine}.` : " Every line you translate or check counts.");
 }
 

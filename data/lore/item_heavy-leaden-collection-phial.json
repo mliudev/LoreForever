@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Shielded Vessel",
-   "body": "Forged to resist severe contamination, the Heavy Leaden Collection Phial is engineered specifically to draw volatile residues from living, irradiated horrors deep within the halls of Gnomeregan. Standard containers melt or warp when exposed to such raw contaminants, making thick lead plating necessary to protect both the sample and the carrier from immediate poisoning.",
+   "body": "The Heavy Leaden Collection Phial is a sampling vessel used to draw volatile residues from living, irradiated creatures in Gnomeregan. Containing this fallout is difficult, and collecting a suitable sample may take several attempts.",
    "spoiler": 0
   },
   {
@@ -48,7 +48,7 @@
     "why lead phial",
     "why heavy lead"
    ],
-   "answer": "The toxic waste inside Gnomeregan produces severe radiation that easily corrodes normal glass or copper vessels. Dense lead shielding prevents the unstable fallout from poisoning the bearer or breaking down prematurely."
+   "answer": "It is described as a heavy leaden phial, but its precise construction is not explained. Ozzie warns that containing the radioactive fallout is difficult and that the sample will collapse quickly."
   },
   {
    "q": "Which creatures must be sampled with the phial?",
@@ -67,7 +67,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "The leaden phial shows the practical genius of gnomish materials science, using dense lead casing to isolate dangerous ambient radiation that would shatter ordinary flasks."
+   "text": "The phial is specialized equipment for collecting volatile fallout, a process that can require several attempts even with a suitable vessel."
   }
  ],
  "keywords": [

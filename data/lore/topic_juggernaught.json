@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Juggernaught"
  },
- "summary": "A Juggernaught is an enormous, heavily armored battleship bristling with heavy naval cannons. Originally engineered by ogres to serve as the iron core of the Old Horde's fleet during the Second War, these floating fortresses were built to pulverize coastal strongholds and trade routes. Today, Edwin VanCleef and the Defias Brotherhood have secretly constructed their own juggernaught deep within the Deadmines, plotting a devastating naval strike against Stormwind.",
+ "summary": "A Juggernaught is an enormous, heavily armored battleship bristling with heavy naval cannons. Built with ogre help to serve as the iron core of the Old Horde's fleet during the Second War, these floating fortresses were built to pulverize coastal strongholds and trade routes. Reports of a great vessel beneath Westfall draw attention to the hidden workings of the Defias Brotherhood.",
  "sections": [
   {
    "title": "Terror of the Second War",
@@ -37,7 +37,7 @@
     "why boat in mines",
     "deadmines ship"
    ],
-   "answer": "Edwin VanCleef and the Defias Brotherhood used the secluded cavern of Ironclad Cove inside the Deadmines as a hidden shipyard. Constructing the juggernaught underground kept it safe from Alliance patrols until it was fully fitted out and ready to sail through an underwater passage out to sea."
+   "answer": "Edwin VanCleef and the Defias Brotherhood used the secluded cavern of Ironclad Cove inside the Deadmines as a hidden shipyard. Constructing the juggernaught underground kept it safe from Alliance patrols while they worked on the vessel."
   },
   {
    "q": "What did Edwin VanCleef intend to do with the ship?",
@@ -46,7 +46,7 @@
     "why did defias build a ship",
     "defias juggernaught purpose"
    ],
-   "answer": "VanCleef constructed the juggernaught as the ultimate instrument of vengeance against Stormwind's nobility. With its heavy cannons, the ship was intended to sail directly into Stormwind Harbor and bombard the city into submission."
+   "answer": "The ship is part of VanCleef's activities beneath Westfall. Investigating the Defias Brotherhood reveals what he intended for it."
   },
   {
    "q": "Who originally invented the juggernaught?",
@@ -55,7 +55,7 @@
     "ogre ships lore",
     "horde navy origin"
    ],
-   "answer": "Juggernaughts were designed and built by ogres for the Old Horde during the Second War. Because the orcs were unaccustomed to naval warfare, ogre shipwrights designed massive, brute-force vessels capable of carrying heavy iron armor and siege-grade cannons."
+   "answer": "The Old Horde built juggernaughts with the help of ogres during the Second War. The orcs had little seafaring experience, and these massive warships became the heavy armament of their fleet."
   },
   {
    "q": "How does the ship get out of the Deadmines cavern?",
@@ -72,13 +72,13 @@
     "modern horde juggernauts",
     "horde battleships"
    ],
-   "answer": "While the modern Horde under Warchief Thrall focuses heavily on rebuilding land settlements across Kalimdor, orcish naval forces still recognize and employ juggernaught-class battleships when heavy firepower and armored transport are required across oceanic supply routes."
+   "answer": "Orcish battleships were still known as juggernaughts during the Third War. Their role was to provide the heavy firepower of the Horde fleet; the current deployment of such vessels is uncertain."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The discovery of a finished juggernaught beneath Westfall exposes a grave threat to the safety of Stormwind Harbor and King Anduin's court."
+   "text": "The discovery of a juggernaught under construction beneath Westfall exposes a grave threat to the safety of Stormwind and King Anduin's court."
   },
   {
    "target": "faction:Horde",
@@ -86,7 +86,7 @@
   },
   {
    "target": "race:Human",
-   "text": "Stormwind's rebuilders, betrayed and turned outlaw under VanCleef, applied their finest architectural and stonework skills into assembling a monstrous warship to burn the very kingdom they rebuilt."
+   "text": "Stormwind's rebuilders, betrayed and turned outlaw under VanCleef, applied their finest architectural and stonework skills into assembling a monstrous warship hidden beneath the hills of Westfall."
   },
   {
    "target": "class:Rogue",

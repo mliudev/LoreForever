@@ -38,7 +38,7 @@
     "who sold the book",
     "book source"
    ],
-   "answer": "The blank book was purchased directly in Darkshire from Clerk Daltry roughly a month ago, though the grim writings inside were authored by the stranger who bought it."
+   "answer": "Madame Eva says the author is a stranger to Darkshire but the book was bought in town. Clerk Daltry sells blank books and may remember its purchaser."
   },
   {
    "q": "Why does Madame Eva send you to Clerk Daltry?",
@@ -56,7 +56,7 @@
     "buyer description",
     "shadowy figure appearance"
    ],
-   "answer": "Daltry recalls selling the tome to a shady, nervous man who refused to give his name and constantly looked over his shoulder as though being watched or pursued."
+   "answer": "Daltry remembers the people who bought books from him in recent months. Presenting the volume lets him investigate who purchased it."
   },
   {
    "q": "How does this connect to Sven's farm?",
@@ -82,7 +82,7 @@
     "clerk daltry danger",
     "daltry safe"
    ],
-   "answer": "Daltry was merely an unwitting merchant who sold a blank volume to a passing traveler, unaware that the buyer would soon witness the slaughter at Sven's farm."
+   "answer": "Daltry is helping identify a buyer from his ordinary book sales. This exchange gives no indication that he is personally threatened."
   }
  ],
  "angles": [

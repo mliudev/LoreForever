@@ -62,6 +62,12 @@ end
 
 -- The locale the current settings would give after a reload.
 function Lang.Resolve()
+  if settings().edition then
+    for _, rec in ipairs(ns.Packs.List("edition-text")) do
+      if rec.edition == settings().edition then return rec.locale or "enUS" end
+    end
+    return (ns.lang and ns.lang.locale) or "enUS"
+  end
   local want = Lang.Wanted()
   if ENGLISH[want] then return "enUS" end
   local rec = packFor(want)
@@ -87,7 +93,8 @@ function Lang.StringsFor(locale)
 end
 
 function Lang.NeedsReload()
-  return ns.lang ~= nil and Lang.Resolve() ~= ns.lang.locale
+  return ns.lang ~= nil and (Lang.Selected() ~= ns.lang.selection or Lang.Resolve() ~= ns.lang.locale
+    or (ns.lang.edition and ns.lang.edition.unavailable))
 end
 
 function Lang.Reason(reason)
@@ -116,11 +123,27 @@ function Lang.Choices()
         reason = (not rec.loadable) and Lang.Reason(rec.reason) or nil }
     end
   end
+  local listedEditions = {}
+  for _, rec in ipairs(ns.Packs.List("edition-text")) do
+    if rec.edition and not listedEditions[rec.edition] then
+      listedEditions[rec.edition] = true
+      local pair, reason = ns.Packs.EditionPair(rec.edition)
+      out[#out + 1] = { id = "edition:" .. rec.edition, label = rec.languageName or rec.title,
+        reason = not pair and L["Edition unavailable: install or enable both matching components"] or nil }
+    end
+  end
+  local selected = settings().edition
+  if selected and not listedEditions[selected] then
+    out[#out + 1] = { id = "edition:" .. selected, label = selected,
+      reason = L["Edition unavailable: reinstall it or choose another edition"] }
+  end
   return out
 end
 
 function Lang.Set(id)
-  settings().language = id
+  local edition = type(id) == "string" and id:match("^edition:(.+)$")
+  if edition then settings().edition = edition
+  else settings().edition, settings().language = nil, id end
 end
 
 -- What the game client calls things, merged into the name indexes. Pure data: no WoW API, so the pipeline runs it.
@@ -408,14 +431,211 @@ local function init(lang)
   ns.readingLocale = rec.locale
 end
 
+
+-- Applied edition identity is frozen at login; changing settings never mixes a live page and another voice.
+function Lang.Selected()
+  local id = settings().edition
+  return type(id) == "string" and id ~= "" and ("edition:" .. id) or (settings().language or "auto")
+end
+
+function Lang.EditionKey()
+  local e = ns.lang and ns.lang.edition
+  return e and (e.id .. ":" .. (e.version or "unavailable")) or "stock"
+end
+
+function Lang.FaqID(key, idx)
+  local e = ns.DB and ns.DB.entries[key]
+  local f = e and e.faq and e.faq[idx]
+  return key .. "#faq" .. tostring(f and f.i or idx)
+end
+
+function Lang.FaqIndex(key, original)
+  original = tonumber(original)
+  if not (ns.lang and ns.lang.edition) then return original end
+  local e = ns.DB and ns.DB.entries[key]
+  for i, f in ipairs(e and e.faq or {}) do if f.i == original then return i end end
+end
+
+function Lang.FaqNumber(key, idx)
+  local e = ns.DB and ns.DB.entries[key]
+  local f = e and e.faq and e.faq[idx]
+  return f and f.i or idx
+end
+
+local function emptyEdition(db)
+  db.entries, db.zones, db.storylines = {}, {}, {}
+  db.index = { name = {}, quest = {}, questTitle = {}, area = {}, zone = {}, mob = {}, item = {}, story = {} }
+  db.clipHash, db.answerHash, db.clipNarrator, db.fullclips, db.questClip, db.questVoice = {}, {}, {}, {}, {}, {}
+  db.search, db.vectors, db.count = nil, nil, 0
+end
+
+local function text(s) return type(s) == "string" and s:find("%S") ~= nil end
+local function hash(s) return type(s) == "string" and #s == 6 and s:match("^%x+$") ~= nil end
+
+local function exact(a, b, depth)
+  if type(a) ~= type(b) then return false end
+  if type(a) ~= "table" then return a == b end
+  if depth > 16 then return false end
+  for k, v in pairs(a) do if not exact(v, b[k], depth + 1) then return false end end
+  for k in pairs(b) do if a[k] == nil then return false end end
+  return true
+end
+
+-- Same text shape as pipeline.lore.i18n.english_text; guards are checked independently of byte lengths.
+-- This receipt is compatibility proof only. None of its English prose is copied into the edition DB.
+function Lang.EditionSourceMatches(e, source)
+  if type(source) ~= "table" or type(source.text) ~= "table" or type(source.sp) ~= "table" then return false end
+  local supplied = source.text
+  local receipt = { n = supplied.n, s = supplied.s, sec = supplied.sec or {}, faq = {},
+    kw = supplied.kw or {}, ang = supplied.ang or {} }
+  if supplied.faq ~= nil and type(supplied.faq) ~= "table" then return false end
+  for i, f in ipairs(supplied.faq or {}) do
+    if type(f) ~= "table" then return false end
+    receipt.faq[i] = { q = f.q, a = f.a, al = f.al or {} }
+  end
+  local wanted = { n = e.n, s = e.s, sec = {}, faq = {}, kw = e.kw or {}, ang = e.ang or {} }
+  local guards = { sec = {}, faq = {} }
+  for i, s in ipairs(e.sec or {}) do
+    wanted.sec[i], guards.sec[i] = { t = s.t, b = s.b }, s.sp or 0
+  end
+  for _, f in ipairs(e.faq or {}) do
+    if not f.add then
+      wanted.faq[#wanted.faq + 1] = { q = f.q, a = f.a, al = f.al or {} }
+      guards.faq[#guards.faq + 1] = f.sp or 0
+    end
+  end
+  if not exact(wanted, receipt, 0) then return false end
+  for field, expected in pairs(guards) do
+    local provided = source.sp[field] or {}
+    if type(provided) ~= "table" then return false end
+    for i, flag in ipairs(expected) do if (provided[i] or 0) ~= flag then return false end end
+    for i in pairs(provided) do
+      if type(i) ~= "number" or i % 1 ~= 0 or i < 1 or i > #expected then return false end
+    end
+  end
+  return true
+end
+
+function Lang.ApplyEdition(db, pair)
+  local original, index, oldZones = db.entries, db.index, db.zones or {}
+  emptyEdition(db)
+  db.fullclipsLocale = pair.locale
+  for key, t in pairs(pair.text.entries) do
+    local old = original[key]
+    if type(t) == "table" and old and t.fp == Lang.Fingerprint(old)
+        and Lang.EditionSourceMatches(old, t.source) and text(t.s) then
+      -- Only supplied prose belongs to this edition. Metadata is copied separately, never stock prose/FAQ aliases.
+      local e = { n = text(t.n) and t.n or L["Story"], s = t.s, sec = {}, faq = {},
+        t = old.t, z = old.z, m = old.m, fv = old.fv, src = old.src, rel = {} }
+      local seen = {}
+      for _, f in ipairs(type(t.faq) == "table" and t.faq or {}) do
+        local i = type(f) == "table" and tonumber(f.i)
+        local source = i and old.faq and old.faq[i]
+        if i and i % 1 == 0 and source and not seen[i] and text(f.a) and f.answerOnly == true then
+          seen[i] = true
+          local guard = math.max(tonumber(f.sp) or 0, tonumber(source.sp) or 0)
+          e.faq[#e.faq + 1] = { q = string.format(L["Answer %d"], i), a = f.a, h = f.h, i = i,
+            answerOnly = true, sp = guard > 0 and guard or nil }
+          local all = pair.text.answerHash[key]
+          local expected = type(all) == "string" and all:sub(i * 6 - 5, i * 6)
+          if hash(f.h) and expected == f.h then db.clipHash[key .. "#faq" .. i] = f.h end
+        end
+      end
+      table.sort(e.faq, function(a, b) return a.i < b.i end)
+      db.entries[key], db.count = e, db.count + 1
+      if hash(t.h) and pair.text.clipHash[key] == t.h then db.clipHash[key] = t.h end
+    end
+  end
+  -- Retain only names/IDs that lead to visible text. Zone groups can retain visible children without a zone story.
+  for _, field in ipairs({ "name", "quest", "questTitle", "area", "mob" }) do
+    for k, v in pairs(index[field] or {}) do if db.entries[v] then db.index[field][k] = v end end
+  end
+  for key, e in pairs(db.entries) do
+    db.index.name[lower(e.n)] = key
+    for _, k in ipairs(original[key].rel or {}) do if db.entries[k] then e.rel[#e.rel + 1] = k end end
+    if e.z and oldZones[e.z] then
+      local z, ze = oldZones[e.z], db.entries["zone:" .. e.z]
+      local bosses = {}
+      for _, k in ipairs(z.b or {}) do if db.entries[k] then bosses[#bosses + 1] = k end end
+      db.zones[e.z] = { n = ze and ze.n or L["Place"], t = z.t, lv = z.lv, tier = z.tier, fa = z.fa, b = bosses }
+    end
+  end
+  for k, z in pairs(index.zone or {}) do if db.zones[z] then db.index.zone[k] = z end end
+  -- Item requirements are mechanical quest IDs; omit IDs whose text is hidden.
+  for name, rec in pairs(index.item or {}) do
+    local kept = {}
+    for field, ids in pairs(rec) do
+      if type(ids) == "table" then
+        local list = {}
+        for _, id in ipairs(ids) do if db.index.quest[id] then list[#list + 1] = id end end
+        if #list > 0 then kept[field] = list end
+      end
+    end
+    if next(kept) then db.index.item[name] = kept end
+  end
+end
+
+function Lang.ValidateEdition()
+  local e = ns.lang and ns.lang.edition
+  if not e then return true end
+  if e.unavailable then return false end
+  local pair = ns.Packs.EditionPair(e.id)
+  if pair and pair.version == e.version and pair.textName == e.textName and pair.voiceName == e.voiceName then return true end
+  if ns.UI and ns.UI.frame and ns.UI.Archive then ns.UI.Archive() end
+  e.unavailable = true
+  emptyEdition(ns.DB)
+  if ns.Voice then
+    ns.Voice.Stop()
+    ns.Voice.ready, ns.Voice.autoToken, ns.Voice.autoWaiting = false, nil, nil
+    ns.Voice.lastClip = nil
+  end
+  if ns.UI then
+    ns.UI.progress, ns.UI.resumeTarget, ns.UI.activeTarget = {}, nil, nil
+    ns.UI.speaking, ns.UI.playingId = false, nil
+    ns.UI.playToken = nil
+    ns.UI.msgs, ns.UI.blocks = {}, {}
+    if ns.UI.pl then ns.UI.pl.items, ns.UI.pl.pos, ns.UI.pl.state, ns.UI.pl.token = {}, 0, "paused", nil end
+  end
+  if ns.engine then
+    ns.engine = ns.Engine.new(ns.DB)
+    if ns.UI then ns.UI.engine = ns.engine end
+  end
+  if ns.UI and ns.UI.frame then
+    ns.UI.SetNext({})
+    ns.UI.NavClear()
+    ns.UI.HideCompletion()
+    ns.UI.Render()
+  end
+  return false
+end
+
 function Lang.Init()
   local lang = { locale = "enUS", client = Lang.ClientLocale(), notes = {} }
   ns.lang = lang
+  lang.selection = Lang.Selected()
+  if settings().edition then
+    ns.Packs.Scan()
+    lang.edition = { id = settings().edition, unavailable = true }
+    lang.locale, lang.name = Lang.Resolve(), settings().edition
+    ns.readingLocale = lang.locale
+    local ok, pair = pcall(ns.Packs.EditionPair, settings().edition)
+    if ok and pair then
+      lang.edition, lang.locale, lang.name, lang.pack = pair, pair.locale, pair.name, pair.textName
+      ns.readingLocale = pair.locale
+      local applied = pcall(Lang.ApplyEdition, ns.DB, pair)
+      if applied then return lang end
+      lang.edition.unavailable = true
+    end
+    emptyEdition(ns.DB)
+    lang.notes[#lang.notes + 1] = L["Edition unavailable. Reinstall or enable both matching components, or choose another edition in Options and reload."]
+    return lang
+  end
   -- A broken pack must not take the add-on down with it: report it and carry on with what loaded.
   local ok, err = pcall(init, lang)
   if not ok then
     lang.notes[#lang.notes + 1] = string.format(L["The language pack failed to load (%s); some text may be English."],
       tostring(err))
   end
+  if ns.Theme and ns.Theme.SetLanguageFonts then ns.Theme.SetLanguageFonts(lang.locale) end
   return lang
 end
