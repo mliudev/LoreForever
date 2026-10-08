@@ -76,7 +76,7 @@ async function edits({ env, request }, user) {
   const locale = localeParam(request);
   if (!locale) return fail(400, "Pick a language.");
   const { results } = await env.DB.prepare(
-    "SELECT string_id, text, status, updated FROM translation_edits WHERE user_id = ? AND locale = ? ORDER BY id"
+    "SELECT string_id, en, text, status, updated FROM translation_edits WHERE user_id = ? AND locale = ? ORDER BY id"
   ).bind(user.id, locale).all();
   return ok({ edits: results });
 }

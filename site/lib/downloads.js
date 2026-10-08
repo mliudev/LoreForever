@@ -118,7 +118,10 @@ function curseforgeChoices(v, group) {
     <ul class="dl-cf-choices">${links.join("")}</ul>${extras.length ? `<p class="dl-pack-note">Also install the manual ZIP${extras.length === 1 ? "" : "s"} for ${list(extras.map(f => escape(f.name)))} to get all ${group.clips.toLocaleString("en-US")} recordings in this choice.</p>` : ""}` : "";
 }
 function choiceRow(v, group, likes, languageAnchor = "") {
-  const included = group.included, name = group.extra ? group.files[0].name : v.name.replace(/^Lore Forever /, "");
+  const included = group.included, narrator = v.name.replace(/^Lore Forever /, "");
+  const questDialogue = group.extra && /_Quests(?:_|$)/.test(group.files[0].item.addon || "");
+  const name = questDialogue
+    ? `Quest dialogue (${narrator})` : group.extra ? group.files[0].name : narrator;
   const assets = group.downloads.map(f => assetRef(f.item.download) || assetRef(f.href));
   const knownSize = group.downloads.every(f => formatSize(f.item.size)) ? formatSize(group.downloads.reduce((n, f) => n + f.item.size, 0)) : "";
   const size = included ? `<span class="dl-included-chip">In main add-on</span>` : `<span class="dl-size dl-total-size"${assets.every(Boolean) ? ` data-assets="${escape(JSON.stringify(assets))}"` : ""}>${knownSize || "Size unavailable"}</span>
@@ -145,7 +148,7 @@ function choiceRow(v, group, likes, languageAnchor = "") {
     <a href="#install">Install help</a> &middot; Pick the voice in game with <code>/lore voice</code>.</p>
     </div>
     </details>`;
-  return `<tr class="dl-voice dl-choice${included ? " dl-choice-included" : ""}" id="${escape(group.id)}" data-recording data-voice="${escape(group.extra ? group.id : v.id)}" data-voice-name="${escape(name)}" data-language="${escape(group.language)}">
+  return `<tr class="dl-voice dl-choice${included ? " dl-choice-included" : ""}" id="${escape(group.id)}" data-recording data-voice="${escape(questDialogue ? `${v.id}-quest-dialogue` : group.extra ? group.id : v.id)}" data-voice-name="${escape(name)}" data-language="${escape(group.language)}">
     <td data-label="Language">
     ${languageAnchor ? `<span id="lang-${escape(languageAnchor)}"></span>` : ""}
     <strong>${escape(group.language)}</strong>

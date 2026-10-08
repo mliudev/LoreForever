@@ -9,7 +9,7 @@ import { onRequest as voiceApi } from "../functions/api/profile/voice/index.js";
 import { onRequestPost as hookPost } from "../functions/api/profile/voice/hook.js";
 import { onRequest as takeGet } from "../functions/audio/story/[file].js";
 import { onRequest as profileApi } from "../functions/api/profile/[action].js";
-import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
+import { findOrCreateUser, startSession, setup, deleteUser, sha256 } from "../lib/accounts.js";
 import { parseRecord } from "../lib/journey.js";
 import {
   storyParts, respell, storyKey, hookToken, embeddingKey, takeKey, NARRATORS, DEFAULT_NARRATOR,
@@ -347,4 +347,45 @@ test("deleting the profile or the account removes its recordings", async () => {
   assert.ok(![...env.STUDIO.objects.keys()].some(k => k.startsWith(`story-voice/${two.user.id}/`)));
   assert.equal((await rows()).length, 0);
   assert.ok(env.STUDIO.objects.has(embeddingKey("male-narrator")), "the narrators' voices stay");
+});
+
+test("an explicit profile sync selects only the new story's pending, failed and ready narration", async () => {
+  const me = await makeProfile("aelric");
+  await view("aelric");
+  for (let i = 0; i < sent.length; i++) await hook(i);
+  const old = await storyKey(me.user.id, STORY);
+  const next = STORY.replace("a great deal wiser", "now level 25 and ready for another adventure");
+  const falFetch = globalThis.fetch;
+  env.GEMINI_API_KEY = "mock-profile-key";
+  globalThis.fetch = async (url, init) => {
+    if (String(url).startsWith("https://generativelanguage.googleapis.com/")) {
+      return Response.json({ candidates: [{ content: { parts: [{ text: JSON.stringify({ story: next }) }] } }],
+        usageMetadata: { promptTokenCount: 2000, candidatesTokenCount: 300 } });
+    }
+    return falFetch(url, init);
+  };
+  try {
+    const token = "b".repeat(64), now = new Date().toISOString();
+    await env.DB.prepare("INSERT INTO devices (id, token_hash, user_id, created, last_used) VALUES (?, ?, ?, ?, ?)")
+      .bind("story-sync-device", await sha256(token), me.user.id, now, now).run();
+    const request = new Request(ORIGIN + "/api/profile/sync", { method: "POST",
+      headers: { Authorization: "Bearer " + token, "Content-Type": "application/json", "X-LF-Client": "companion/test" },
+      body: JSON.stringify({ record: RECORD.replace("Level 24", "Level 25"), refreshStory: true }) });
+    const refreshed = await (await profileApi({ request, env, params: { action: "sync" } })).json();
+    assert.equal(refreshed.story.why, "written");
+    const fresh = await storyKey(me.user.id, next);
+    const beforeNew = sent.length;
+    const pending = await view("aelric", me.cookie);
+    assert.ok(pending.html.includes("now level 25"));
+    assert.ok(!pending.html.includes("/" + old + "/"), "pending story never selects old clips");
+    assert.ok((await rows()).every(r => r.story === fresh));
+    assert.ok(sent.slice(beforeNew).every(s => s.hook.searchParams.get("s") === fresh));
+    await hook(beforeNew, { ok: false });
+    const failed = await view("aelric", me.cookie);
+    assert.ok(!failed.html.includes("/" + old + "/"), "failed narration keeps new text without old audio");
+    for (let i = beforeNew; i < sent.length; i++) await hook(i);
+    const ready = await view("aelric", me.cookie);
+    assert.ok(!ready.html.includes("/" + old + "/"));
+    assert.ok((await rows()).every(r => r.story === fresh));
+  } finally { delete env.GEMINI_API_KEY; globalThis.fetch = falFetch; }
 });

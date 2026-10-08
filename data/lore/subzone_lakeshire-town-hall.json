@@ -16,7 +16,7 @@
   },
   {
    "title": "Under Siege and Overwhelmed",
-   "body": "The halls are consistently crowded with anxious citizens seeking council and answers regarding raids, missing kin, and lost caravans. Gnoll incursions from the surrounding hills and the encroaching presence of the Blackrock orcs have pushed Solomon and his local guard to their limits. With official reinforcements from the capital failing to materialize, the magistrate relies on independent adventurers walking through the town hall doors to safeguard the region from total collapse.",
+   "body": "Gnoll incursions and the encroaching Blackrock orcs have pushed Solomon to desperation. With aid scarce, the magistrate readily accepts help from independent adventurers who come through the town hall doors.",
    "spoiler": 0
   }
  ],
@@ -40,13 +40,13 @@
    "answer": "Lakeshire faces severe, mounting threats from local gnoll packs and hostile Blackrock orc warbands. Because Stormwind has provided minimal military reinforcements, Magistrate Solomon must hire passing adventurers to defend the region."
   },
   {
-   "q": "Why are there concerned citizens gathered inside?",
+   "q": "Why does Solomon accept help from travelers?",
    "aliases": [
-    "citizens in town hall",
-    "town hall crowd",
-    "people waiting in line"
+    "why does solomon accept aid",
+    "lakeshire adventurers",
+    "town hall help"
    ],
-   "answer": "Local residents gather in the town hall to demand answers from Magistrate Solomon regarding recent attacks, property losses, and the disappearance of loved ones taken during orc and gnoll raids."
+   "answer": "The town's problems with gnolls and Blackrock orcs have put Solomon in a desperate position. He readily accepts aid from helpful adventurers."
   },
   {
    "q": "Has Lakeshire Town Hall stood for a long time?",

@@ -32,7 +32,7 @@
   {
    "title": "Shadows of a Greater Conspiracy",
    "body": "While Stoutmantle believes VanCleef's death marks the beginning of the end for the Brotherhood, the fallen guildmaster's corpse holds troubling secrets. Upon his body rests an unsent letter, hinting that the uprising in Westfall was never an isolated revolt, but part of a wider, darker web stretching into the very nobility of Stormwind City.",
-   "spoiler": 2
+   "spoiler": 1
   }
  ],
  "faq": [
@@ -70,7 +70,7 @@
     "where is edwin vancleef",
     "deadmines boss location"
    ],
-   "answer": "He commands his followers from the bridge of the massive ironclad juggernaut moored deep inside the Deadmines, located beneath the abandoned town of Moonbrook."
+   "answer": "He is hidden deep within the Deadmines beneath Moonbrook. Gryan Stoutmantle asks you to enter the hideout and seek him out."
   },
   {
    "q": "Does killing VanCleef destroy the Defias completely?",
@@ -79,7 +79,7 @@
     "are defias gone",
     "end of brotherhood"
    ],
-   "answer": "Though Stoutmantle hopes it signals the end, scattered cells and hidden leaders persist across Westfall, the Redridge Mountains, and Duskwood. Furthermore, discoveries made upon his body point toward deeper corruption that outlives VanCleef himself."
+   "answer": "Stoutmantle hopes VanCleef's death will break the Brotherhood's hold on Westfall. The outcome and any further discoveries await the assault."
   },
   {
    "q": "What item of note is found on VanCleef upon his defeat?",
@@ -88,7 +88,7 @@
     "unsent letter",
     "what does vancleef drop"
    ],
-   "answer": "Along with his head, VanCleef carries An Unsent Letter, which begins a new investigation of its own."
+   "answer": "Stoutmantle demands VanCleef's head as proof. Other discoveries inside the hideout are revealed during the mission."
   }
  ],
  "angles": [

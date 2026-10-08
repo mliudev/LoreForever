@@ -3,17 +3,22 @@
 
 local _, ns = ...
 ns.Notes = {
-  version = "0.10.0",
+  version = "0.11.0",
   items = {
-    { "A companion for your adventure", "Setup.exe can now install the optional Windows companion. It keeps your profile up to date after /reload or logout and gives short live answers over the game when you ask with /lore ask and Ctrl+C. Connect your account for up to 20 free answers a day while the shared monthly budget lasts, or add your own key for more.", "A companion for your adventure:" },
-    { "More answers to listen to", "the optional English female packs now include 8,376 recordings about people, places, lore and early quests, with each question before its answer.", "More answers to listen to:" },
-    { "Quest dialogue when you want it", "Speak quest dialogue is off by default in /lore options. Its voice packs are separate downloads; stories and lore answers keep playing as before.", "Quest dialogue when you want it:" },
-    { "NPC tooltips", "wild nightsabers no longer show unrelated Sentinel lore.", "NPC tooltips:" },
-    { "Clearer downloads", "a simple table helps you find a voice in your language, with recording counts and download sizes clearly labelled. The main add-on includes English male narration; other language and voice downloads include their translated text, with any separate files listed together in the download details.", "Clearer downloads:" },
-    { "", "Corrected lore in 150 entries", "" },
-    { "Spanish lore", "restores community wording in 27 entries that had fallen back to English after lore corrections.", "Spanish lore:" },
-    { "A clearer companion", "game detection, profile updates and your picture book are together on the main page. Profiles and pictures work without a live answers key. Interrupted profile updates retry by themselves, and Sync now checks your saved journey whenever you need it.", "A clearer companion:" },
-    { "Pictures you can follow", "the companion shows when a picture is waiting for a game save, uploading, retrying or on your profile. Matching waits when a picture's journey moment is uncertain, and pausing or disconnecting stops further uploads. Taking a picture off your profile still works when its picture book is full.", "Pictures you can follow:" },
-    { "Clearer Journey status", "a new picture that needs another reload shows guidance instead of a blank image. Chapter dates now belong to the character you are viewing.", "Clearer Journey status:" },
+    { "All your installed packs", "Options now lists every voice, language and playback support pack, with separate counts for lore, quest dialogue and answers. Narrator totals count each recording once, even when two packs share it. Playback support no longer causes a false failed add-on check.", "All your installed packs:" },
+    { "More quest answers", "expanded English female answer packs and the first 522 English male quest answers are available as optional downloads. Both English narrators also gain the missing dialogue for Prehistoric Prism and Understanding Our Present. Unrecorded answers remain readable text.", "More quest answers:" },
+    { "From translation to recording", "each studio script links to its English original and matching translation editor, with clearer saved, checked and recording states and guidance on game names.", "From translation to recording:" },
+    { "Lore Player in Herald", "browse published English recordings, read their matching text, and listen with pause, seeking, saved position and speeds from 1x to 2x. It streams the website's original files without game voice packs. Recorded overviews, answers and quest dialogue are labelled clearly; quest outcomes stay hidden until completed or revealed.", "Lore Player in Herald:" },
+    { "Herald beside your game", "the Windows companion opens as its own app, with a visible chat and a separate Settings page for your game, profile and sync. Questions copied from the add-on appear in chat; saved add-on conversations arrive after /reload or logout. Failed live questions stay available to retry.", "Herald beside your game:" },
+    { "Pictures with their moments", "the companion timeline shows matching screenshot thumbnails that enlarge on hover or keyboard focus.", "Pictures with their moments:" },
+    { "", "Hidden spoiler answers stay silent, including queued narration and resumed playback, until their text is revealed or unlocked.", "" },
+    { "", "The minimap button stays on the edge of square and reshaped minimaps, including at the corners.", "" },
+    { "", "Update notes remain visible when automatic narration starts before you first open the lore panel.", "" },
+    { "", "Corrected lore in 201 entries", "" },
+    { "Your journey and story together", "Sync now refreshes your profile story from the latest saved journey when an update is available within your story allowance. Overlapping syncs retry without losing newer journey data.", "Your journey and story together:" },
+    { "The right creature lore", "Bluegill and Mosshide warriors no longer open the Warrior class story, and crocolisks no longer open Dragonmaw lore just because those words appear in a search match.", "The right creature lore:" },
+    { "Read along as you listen", "a narration that starts opens its matching text without replacing a history or Journey page you are browsing. Landing stories respect what your character has already heard.", "Read along as you listen:" },
+    { "Quest controls stay useful", "Reclaiming Goods keeps its Lore button even without a dedicated lore entry, showing the quest's text and nearby story. Quest Play continues to read the quest's own words.", "Quest controls stay useful:" },
+    { "", "Narration plays continuously with Stop and Restart controls. Recorded story text keeps its paragraph breaks.", "" },
   },
 }

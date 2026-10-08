@@ -26,8 +26,8 @@
   },
   {
    "title": "The Night Elf Connection",
-   "body": "Upon closer examination of Ursangous's paw, a small quarter-crescent emblem is visible carved or marked into the flesh. When presented to Senani Thunderheart, she identifies this mark as a clear indicator of kaldorei influence. The night elves often train and bond with the forest's formidable beasts to defend their sacred borders, meaning Ursangous was likely more than just a wild predator\u2014he served as an unwitting guardian or weapon of the Alliance.",
-   "spoiler": 0
+   "body": "Upon closer examination of Ursangous's paw, a small quarter-crescent emblem is visible carved or marked into the flesh. When presented to Senani Thunderheart, she identifies this mark as a clear indicator of kaldorei influence. The night elves often train and bond with the forest's formidable beasts to defend their sacred borders, meaning Ursangous was likely more than just a wild predator—he served as an unwitting guardian or weapon of the Alliance.",
+   "spoiler": 1
   }
  ],
  "faq": [
@@ -47,7 +47,7 @@
     "paw emblem",
     "why is there a crescent"
    ],
-   "answer": "According to Senani Thunderheart, the quarter-crescent emblem suggests the bear was trained by the night elves of Ashenvale, who frequently enlist indigenous beasts into their service."
+   "answer": "The quarter-crescent emblem is a mystery when you inspect the trophy. Senani Thunderheart can examine it when you deliver the paw."
   },
   {
    "q": "Who do I bring Ursangous's Paw to?",
@@ -91,7 +91,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Eliminating a massive bear suspected of being trained by the night elves directly weakens kaldorei control over the perilous roads around Splintertree Post."
+   "text": "Horde hunters regard Ursangous as a dangerous quarry whose defeat earns honor at Splintertree Post."
   },
   {
    "target": "class:Hunter",

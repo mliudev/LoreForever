@@ -16,7 +16,7 @@
   },
   {
    "title": "Punchograph Terminals",
-   "body": "Amid the clutter of abandoned bunks and mutated subterranean invaders, remnants of the city's intricate administrative apparatus still function. The Matrix Punchograph 3005-B machines reside in this sector, processing the punched security data cards carried by gnome personnel. These automated terminals allow surviving gnomes and their allies to retrieve and encode authorization cards needed to access deeper city sectors and secure archival vaults.",
+   "body": "Amid the abandoned living quarters, remnants of the city's administrative apparatus still function. The Matrix Punchograph 3005-B machines process security punch cards. These terminals provide clearance for higher-security data terminals deeper within Gnomeregan, helping recover important records left behind when the gnomes fled.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "matrix punchograph 3005-B",
     "punch cards"
    ],
-   "answer": "The Matrix Punchograph 3005-B terminals are automated data processing stations. Gnomish security protocols rely on punch cards, and these machines are used to upgrade and encode data cards to bypass security checkpoints deeper inside the facility."
+   "answer": "The Matrix Punchograph 3005-B terminals process security punch cards. Their encoded cards grant clearance to higher-security terminals, allowing the recovery of important data left behind in Gnomeregan."
   }
  ],
  "angles": [

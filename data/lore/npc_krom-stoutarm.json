@@ -3,7 +3,7 @@
  "type": "npc",
  "name": "Krom Stoutarm",
  "era": "classic",
- "zone": "barrens",
+ "zone": "ironforge",
  "meta": {
   "wiki": "Krom Stoutarm",
   "refs": 3
@@ -17,7 +17,7 @@
   },
   {
    "title": "The Tome of the Cabal",
-   "body": "When Alliance warlocks seek to bind potent demonic servants like the felhunter, their journey inevitably crosses paths with Krom. Possessing knowledge of scattered occult volumes, he directs aspiring summoners far across the seas\u2014including dangerous forays into hostile territories like the Barrens\u2014to recover torn pages and fragments of the infamous Tome of the Cabal.",
+   "body": "When Alliance warlocks seek to bind potent demonic servants like the felhunter, their journey inevitably crosses paths with Krom. Possessing knowledge of scattered occult volumes, he directs aspiring summoners far across the seas—including dangerous forays into hostile territories like the Barrens—to recover torn pages and fragments of the infamous Tome of the Cabal.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "krom relatives",
     "sten stoutarm related"
    ],
-   "answer": "He shares his surname with Sten Stoutarm and Borgus Stoutarm, suggesting kinship within the Stoutarm clan, though his pursuits are markedly more arcane and occult than those of his kin."
+   "answer": "Several dwarves share the Stoutarm surname, but a family relationship between Krom and the others is unconfirmed."
   },
   {
    "q": "Why is a warlock permitted inside the Hall of Explorers?",
@@ -54,7 +54,7 @@
     "why is krom in hall of explorers",
     "ironforge warlock allowed"
    ],
-   "answer": "While demonic arts are viewed with intense suspicion, the Explorers' League values ancient knowledge and historical manuscripts. Krom operates as a specialist researcher in esoteric texts within the Library, keeping his magical studies grounded in scholarly inquiry."
+   "answer": "Krom is both a warlock trainer and a scholar working from the Hall of Explorers. The source does not explain the terms under which his work is permitted."
   },
   {
    "q": "Why is Krom connected to the Barrens?",

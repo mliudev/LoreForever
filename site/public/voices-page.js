@@ -39,7 +39,8 @@
         try { refs = el.dataset.assets ? JSON.parse(el.dataset.assets) : [el.dataset.asset]; } catch { refs = []; }
         const values = Array.isArray(refs) ? refs.map(ref => {
           if (typeof ref !== "string") return null;
-          const separator = ref.indexOf(":"), tag = ref.slice(0, separator), name = ref.slice(separator + 1);
+          const separator = ref.indexOf(":"), name = ref.slice(separator + 1);
+          const tag = ref.slice(0, separator) === "latest" && data?.publishedTag ? data.publishedTag : ref.slice(0, separator);
           const assets = data?.byTag?.[tag];
           return separator > 0 && assets && Object.hasOwn(assets, name) && fmt(assets[name]) ? assets[name] : null;
         }) : [];
@@ -65,8 +66,18 @@
         if (note) note.textContent = "Use the one ZIP above, or install all of these component ZIPs instead.";
       });
       versions.forEach(el => {
-        el.textContent = typeof data?.latestTag === "string" && /^v?\d+\.\d+\.\d+(?:[-+][a-zA-Z0-9.-]+)?$/.test(data.latestTag)
-          ? data.latestTag : "Version unavailable";
+        const tag = data?.latestTag || data?.publishedTag;
+        el.textContent = typeof tag === "string" && /^v?\d+\.\d+\.\d+(?:[-+][a-zA-Z0-9.-]+)?$/.test(tag)
+          ? tag : "Version unavailable";
+      });
+      if (data?.publishedTag && data.downloads) document.querySelectorAll('a[href^="/download/"]').forEach(link => {
+        const href = data.downloads[link.getAttribute("href")];
+        if (typeof href === "string" && /^https:\/\/github\.com\/mliudev\/LoreForever\/releases\/download\//.test(href)) {
+          link.setAttribute("href", href);
+          if (!link.classList.contains("dl-link")) link.addEventListener("click", () => {
+            try { navigator.sendBeacon("/api/click"); } catch {}
+          });
+        }
       });
     });
   }

@@ -50,6 +50,8 @@ end
 local function plain(s) return (tostring(s or ""):gsub("|c%x%x%x%x%x%x%x%x", ""):gsub("|r", "")) end
 
 local function kindOf(name)
+  -- Playback shards register their receipts on the source narrator, never their own voice writer.
+  if meta(name, "X-LoreForever-Transport-For") or (name:sub(1, 18) == "LoreForever_Voice_" and name:find("_Transport_", 1, true)) then return "transport" end
   local k = meta(name, "X-LoreForever-Pack")
   if k then return k end
   for kind, prefix in pairs(PREFIX) do
@@ -74,6 +76,7 @@ local function describe(rec)
   rec.credit = meta(n, "X-LoreForever-Credit") or rec.credit
   rec.sample = meta(n, "X-LoreForever-Sample") or rec.sample
   rec.extends = meta(n, "X-LoreForever-Extends") or rec.extends
+  rec.transportFor = meta(n, "X-LoreForever-Transport-For") or rec.transportFor
   rec.races = meta(n, "X-LoreForever-Races") or rec.races
   rec.gender = meta(n, "X-LoreForever-Gender") or rec.gender
   rec.version = meta(n, "Version") or rec.version
@@ -146,7 +149,12 @@ function Packs.Load(name)
   return Packs.data[name]
 end
 
-function Packs.IsLoaded(name) return Packs.data[name] ~= nil end
+function Packs.IsLoaded(name)
+  local rec = Packs.byName[name]
+  if rec and rec.kind == "transport" then return call("IsAddOnLoaded", name) and true or false end
+  return Packs.data[name] ~= nil
+end
+function Packs.GameLoaded(name) return call("IsAddOnLoaded", name) and true or false end
 
 -- Why a pack can't be used, in words for the Options page and /lore voice. This file loads before Lang.lua and the
 -- language pack fills ns.L at login, so the words are looked up when asked for, not here.

@@ -1,9 +1,10 @@
 // Exact sizes of the official public release assets. Only metadata is fetched; never the files themselves.
 const RELEASES = "https://api.github.com/repos/mliudev/LoreForever/releases";
 
-function unavailable(retryAfter = 60) {
+function unavailable(retryAfter = 60, reason = "invalid-metadata") {
   const error = new Error("Release metadata unavailable");
   error.retryAfter = retryAfter;
+  error.reason = reason;
   return error;
 }
 
@@ -25,9 +26,12 @@ async function getReleaseJson(url, env) {
   const headers = { Accept: "application/vnd.github+json", "User-Agent": "loreforeverwow.com download files" };
   if (env.GITHUB_TOKEN) headers.Authorization = "Bearer " + env.GITHUB_TOKEN;
   // Workers supports manual redirects. Reject a redirect via !ok instead of forwarding an optional token.
-  const res = await fetch(url, { headers, signal: AbortSignal.timeout(5000), redirect: "manual" });
-  if (!res.ok) throw unavailable(cooldown(res));
-  return res.json();
+  let res;
+  try { res = await fetch(url, { headers, signal: AbortSignal.timeout(5000), redirect: "manual" }); }
+  catch { throw unavailable(60, "network-or-timeout"); }
+  if (!res.ok) throw unavailable(cooldown(res), `github-http-${res.status}`);
+  try { return await res.json(); }
+  catch { throw unavailable(60, "invalid-json"); }
 }
 
 function releaseFiles(release) {
@@ -57,7 +61,7 @@ export async function downloadFiles(env = {}) {
     if (latest.status !== "fulfilled") throw unavailable();
     files = releaseFiles(latest.value);
     if (!Object.keys(files).length) throw unavailable();
-  } catch (e) { throw unavailable(retryAfter); }
+  } catch (e) { throw unavailable(retryAfter, latest.reason?.reason || "invalid-metadata"); }
   const latestTag = latest.value.tag_name;
   const byTag = new Map([["latest", files], [latestTag, files]]);
   let complete = false;
@@ -70,4 +74,21 @@ export async function downloadFiles(env = {}) {
     } catch (e) {}
   }
   return { data: { latestTag, byTag: Object.fromEntries(byTag) }, complete, retryAfter };
+}
+
+// A release snapshot describes the website's published release, never GitHub's unknown current latest.
+// Its links are pinned to those exact public assets so a newer release cannot make the shown sizes wrong.
+export function publishedFiles(snapshot) {
+  if (!snapshot || !/^v\d+\.\d+\.\d+(?:[-+][a-zA-Z0-9.-]+)?$/.test(snapshot.publishedTag || "") ||
+      !snapshot.byTag || Object.hasOwn(snapshot.byTag, "latest")) throw unavailable();
+  const byTag = Object.fromEntries(Object.entries(snapshot.byTag).map(([tag, files]) =>
+    [tag, releaseFiles({ tag_name: tag, assets: Object.entries(files).map(([name, size]) => ({ name, size })) })]));
+  if (!Object.keys(byTag[snapshot.publishedTag] || {}).length) throw unavailable();
+  const downloads = Object.fromEntries(Object.entries(snapshot.downloads || {}).map(([path, ref]) => {
+    if (!/^\/download\/[a-zA-Z0-9/_-]+$/.test(path) || typeof ref !== "string") throw unavailable();
+    const separator = ref.indexOf(":"), tag = ref.slice(0, separator), name = ref.slice(separator + 1);
+    if (separator < 1 || !Object.hasOwn(byTag, tag) || !Object.hasOwn(byTag[tag], name)) throw unavailable();
+    return [path, `https://github.com/mliudev/LoreForever/releases/download/${encodeURIComponent(tag)}/${encodeURIComponent(name)}`];
+  }));
+  return { publishedTag: snapshot.publishedTag, byTag, downloads };
 }

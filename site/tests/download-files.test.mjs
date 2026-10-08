@@ -3,6 +3,8 @@
 import { test, afterEach } from "node:test";
 import assert from "node:assert/strict";
 import { onRequestGet } from "../functions/api/download-files.js";
+import { publishedFiles } from "../lib/download-files.js";
+import { readFileSync } from "node:fs";
 
 const realFetch = globalThis.fetch;
 const realCaches = globalThis.caches;
@@ -20,6 +22,7 @@ const OLD = release("v0.8.9", ["LoreForever.zip", 8456781234], ["LoreForever_Voi
 const AUDIO = release("audio", ["LoreForever_Voice_Default-0123456789abcdef.zip", 7654321]);
 const latestFiles = Object.fromEntries(LATEST.assets.map(a => [a.name, a.size]));
 const latestOnly = { latestTag: "v0.9.0", byTag: { latest: latestFiles, "v0.9.0": latestFiles } };
+const snapshot = JSON.parse(readFileSync(new URL("../public/data/download-files.json", import.meta.url)));
 
 // Bodies may be a status, a Response, or a callback to simulate a thrown network error.
 function fake(latest = LATEST, recent = [LATEST, OLD, AUDIO]) {
@@ -129,7 +132,7 @@ test("failed, rate-limited, invalid JSON, or network-failed latest is a no-store
     assert.equal(res.status, 503);
     assert.equal(res.headers.get("Cache-Control"), "no-store");
     assert.deepEqual(await res.json(), { error: "Download file details are temporarily unavailable." });
-    assert.deepEqual(cache.puts, ["https://loreforeverwow.com/api/download-files?internal=cooldown"]);
+    assert.deepEqual(cache.puts, ["https://loreforeverwow.com/api/download-files?internal=cooldown-v2"]);
   }
 });
 
@@ -175,7 +178,7 @@ test("failed or malformed recent list retains only latest, with a private edge c
     assert.equal(res.status, 200);
     assert.equal(res.headers.get("Cache-Control"), "no-store");
     assert.deepEqual(await res.json(), latestOnly);
-    assert.deepEqual(cache.puts, ["https://loreforeverwow.com/api/download-files?internal=cooldown"]);
+    assert.deepEqual(cache.puts, ["https://loreforeverwow.com/api/download-files?internal=cooldown-v2"]);
     const held = await get();
     assert.equal(held.headers.get("Cache-Control"), "no-store");
     assert.deepEqual(await held.json(), latestOnly);
@@ -210,7 +213,7 @@ test("complete edge-cache hits avoid GitHub and query strings share the fixed ca
   assert.equal(waits.length, 1);
   assert.deepEqual(cache.puts, ["https://loreforeverwow.com/api/download-files"]);
   assert.deepEqual(cache.matches, ["https://loreforeverwow.com/api/download-files",
-    "https://loreforeverwow.com/api/download-files?internal=cooldown",
+    "https://loreforeverwow.com/api/download-files?internal=cooldown-v2",
     "https://loreforeverwow.com/api/download-files"]);
   for (const call of calls) assert.equal(call.headers.Authorization, undefined);
 });
@@ -307,4 +310,49 @@ test("recent-list rate limits hold the latest-only answer without exposing the i
   cache.advance(1);
   await get();
   assert.equal(calls.length, 4);
+});
+
+test("upstream outage serves exact published metadata and pinned links without claiming latest", async () => {
+  const cache = edgeCache(), calls = fake(403);
+  const env = { ASSETS: { fetch: async url => {
+    assert.equal(url.pathname, "/data/download-files.json");
+    return Response.json(snapshot);
+  } } };
+  const first = await get(env), data = await first.json();
+  assert.equal(first.status, 200);
+  assert.equal(first.headers.get("Cache-Control"), "no-store");
+  assert.equal(data.latestTag, undefined);
+  assert.equal(data.byTag.latest, undefined);
+  assert.equal(data.publishedTag, snapshot.publishedTag);
+  assert.equal(data.byTag[data.publishedTag]["LoreForever.zip"], 355287399);
+  assert.equal(data.downloads["/download/zip"], "https://github.com/mliudev/LoreForever/releases/download/v0.10.0/LoreForever.zip");
+  assert.deepEqual(await (await get(env)).json(), data);
+  assert.equal(calls.length, 2, "snapshot answers share the bounded retry cooldown");
+  cache.advance(3600);
+  fake();
+  const recovered = await (await get(env)).json();
+  assert.equal(recovered.latestTag, "v0.9.0");
+  assert.equal(recovered.publishedTag, undefined);
+});
+
+test("unverified snapshots cannot invent sizes, latest metadata, or arbitrary download links", async () => {
+  for (const mutate of [s => s.publishedTag = "unknown", s => s.byTag.latest = {},
+    s => s.downloads["/download/zip"] = "v0.10.0:missing.zip", s => s.downloads["https://evil.test"] = "v0.10.0:LoreForever.zip",
+    s => s.byTag["v0.10.0"]["LoreForever.zip"] = -1]) {
+    const bad = structuredClone(snapshot); mutate(bad);
+    assert.throws(() => publishedFiles(bad));
+    fake(500);
+    assert.equal((await get({ ASSETS: { fetch: async () => Response.json(bad) } })).status, 503);
+  }
+});
+
+test("a failed recent list can use verified tagged files while live latest retains precedence", async () => {
+  fake(LATEST, 503);
+  const res = await get({ ASSETS: { fetch: async () => Response.json(snapshot) } });
+  const data = await res.json();
+  assert.equal(res.status, 200);
+  assert.equal(data.latestTag, LATEST.tag_name);
+  assert.equal(data.publishedTag, undefined);
+  assert.deepEqual(data.byTag.latest, latestFiles);
+  assert.deepEqual(data.byTag.languages, snapshot.byTag.languages);
 });

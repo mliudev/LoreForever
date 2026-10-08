@@ -21,6 +21,7 @@ from pathlib import Path
 
 root = Path(sys.argv[1])
 sys.path.insert(0, str(root / "scripts"))
+from transport_assets import TransportError, validate as validate_transport
 from load_order import LoadError, addon_files   # the .toc and the XML load files it lists, as the client reads them
 addons = root / "addon"
 dist = root / "dist"
@@ -123,7 +124,13 @@ for pack in PACKS:
     psrc = addons / pack
     files = [(psrc / f"{pack}.toc", f"{pack}.toc")] + [(psrc / p, p) for p in plisted]
     if kind == "voice":
+        try:
+            validate_transport(psrc)
+        except TransportError as e:
+            fail(str(e))
         VOICE_PACKS.append(pack)
+        if (psrc / "Transport.json").is_file():
+            files.append((psrc / "Transport.json", "Transport.json"))
         files += [(psrc / "CREDITS.txt", "CREDITS.txt")]
         audio = [(p, p.relative_to(psrc).as_posix()) for p in sorted((psrc / "Audio").rglob("*")) if p.suffix.lower() in AUDIO]
         if not audio:

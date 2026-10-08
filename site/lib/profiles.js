@@ -16,7 +16,7 @@
 // secret: how stories are made is said plainly wherever someone asks.
 
 import { escape, page, linkList } from "./voices.js";
-import { slug } from "./accounts.js";
+import { slug, sha256 } from "./accounts.js";
 import { SPECS } from "./journey.js";
 import { numbersSection } from "./profile-stats.js";
 import { linker, moments, journeySection } from "./trails.js";
@@ -362,7 +362,8 @@ export async function writeStory(env, d, spec) {
 
 // ---- When the companion's updates write a new story (LOR-148) ----
 
-// A pasted record writes a story each time (within the daily allowance). The companion sends the record after every
+// A pasted record or explicit sync requests a current story within the daily allowance; identical writer inputs
+// share existing text. The companion automatically sends the record after every
 // /reload and logout (lib/devices.js, POST /api/profile/sync), and the add-on can't tell those apart (the game's
 // PLAYER_LOGOUT fires on both), so an update writes a new story only when there's something new to tell
 // (movedOn) and the last try is at least STORY_SYNC_HOURS old; the daily allowance and monthly budget still apply.
@@ -372,6 +373,9 @@ export const STORY_SYNC_QUESTS = 5;   // this many more quests done is something
 
 // Columns added after the table was made (lib/accounts.js has them in CREATE TABLE for a new database).
 const MIGRATE = [
+  "ALTER TABLE profiles ADD COLUMN story_key TEXT",      // exact facts used for the written story
+  "ALTER TABLE profiles ADD COLUMN story_job TEXT",      // one paid writer at a time per profile
+  "ALTER TABLE profiles ADD COLUMN story_job_at TEXT",
   "ALTER TABLE profiles ADD COLUMN story_at TEXT",      // when a story was last tried (written or not)
   "ALTER TABLE profiles ADD COLUMN story_basis TEXT",   // storyBasis of the record the written story was told from
   "ALTER TABLE profiles ADD COLUMN journey TEXT",       // the companion's journey data (lib/journey.js readJourney)
@@ -412,6 +416,10 @@ export function movedOn(basis, d) {
   return now.level > (basis.level || 0) || now.quests >= (basis.quests || 0) + STORY_SYNC_QUESTS ||
     now.bosses > (basis.bosses || 0) || added("lands") || added("dungeons") || added("mounts");
 }
+
+// Exact writer input, including the chosen language and spec. A milestone basis controls automatic
+// cadence; this key tells explicit syncs whether the written text already covers the current facts.
+export const storyKey = (d, spec) => sha256(JSON.stringify([facts(d, spec), d.locale || "enUS"]));
 
 // Whether an update from the companion should try a new story for profile `p` (null: none yet) from record `d`.
 export function storyDue(p, d, now = new Date()) {

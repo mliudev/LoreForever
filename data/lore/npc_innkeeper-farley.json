@@ -3,7 +3,7 @@
  "type": "npc",
  "name": "Innkeeper Farley",
  "era": "classic",
- "zone": "duskwood",
+ "zone": "elwynn",
  "meta": {
   "wiki": "Innkeeper Farley",
   "refs": 2
@@ -17,7 +17,7 @@
   },
   {
    "title": "The Courier's Abandoned Chest",
-   "body": "Because Goldshire sits at the crossroads between Stormwind, Westfall, and Duskwood, Farley overhears plenty of rumors and deals with strange travelers. Notably, he once took in a courier who bolted into the night in terror, abandoning his satchel behind. Farley safely stowed the leftover missives in an upstairs chest\u2014including an undelivered letter addressed to the former schoolmaster Stalvan Mistmantle, which eventually serves as a critical clue for investigators tracing the fallen tutor's movements.",
+   "body": "Because Goldshire sits at the crossroads between Stormwind, Westfall, and Duskwood, Farley overhears plenty of rumors and deals with strange travelers. Notably, he once took in a courier who bolted into the night in terror, abandoning his satchel behind. Farley safely stowed the leftover missives in an upstairs chest—including an undelivered letter addressed to the former schoolmaster Stalvan Mistmantle, which eventually serves as a critical clue for investigators tracing the fallen tutor's movements.",
    "spoiler": 1
   }
  ],

@@ -12,7 +12,7 @@
   "levels": "",
   "aliases": []
  },
- "summary": "Silithus is a desolate, wind-scoured desert located in the far southwestern corner of Kalimdor. Beneath its arid sands lie vast colonies of insectoid silithid and the ancient ruins of Ahn'Qiraj, sealed millennia ago behind the formidable Scarab Wall. Today, the druids of the Cenarion Circle maintain an embattled vigil against creeping swarms, doomsday cultists, and mysterious crystalline anomalies.",
+ "summary": "Silithus is a desolate, wind-scoured desert located in the far southwestern corner of Kalimdor. Beneath its arid sands lie vast colonies of insectoid silithid and the ancient ruins of Ahn'Qiraj, sealed a millennium ago behind the formidable Scarab Wall. Today, the druids of the Cenarion Circle maintain an embattled vigil against creeping swarms, doomsday cultists.",
  "sections": [
   {
    "title": "The Desert Frontier",
@@ -21,12 +21,12 @@
   },
   {
    "title": "Echoes of the Shifting Sands",
-   "body": "Thousands of years ago, this arid expanse served as the battlefield for the War of the Shifting Sands. An allied army of night elves and great dragonflights fought desperately to drive back the Qiraji, an insidious insectoid empire spawned from the ancient Aqiri civilization. When total victory proved impossible, the defenders sealed the swarms within their stronghold using the Scarab Wall and the enchanted Scarab Dais. While the monumental gates held, subterranean tunnels allowed the beast-like silithids to burrow out, establishing sprawling colonies such as Hive'Ashi, Hive'Zora, and Hive'Regal throughout the sands.",
+   "body": "A thousand years ago, this arid expanse served as the battlefield for the War of the Shifting Sands. An allied army of night elves and great dragonflights fought desperately to drive back the Qiraji, an insidious insectoid empire spawned from the ancient Aqiri civilization. When total victory proved impossible, the defenders sealed the swarms within their stronghold using the Scarab Wall and the enchanted Scarab Dais. While the monumental gates held, subterranean tunnels allowed the beast-like silithids to burrow out, establishing sprawling colonies such as Hive'Ashi, Hive'Zora, and Hive'Regal throughout the sands.",
    "spoiler": 0
   },
   {
    "title": "A Converging Storm",
-   "body": "Recent years have seen tension build to a breaking point across the dunes. The apocalyptic Twilight's Hammer cult has entrenched itself across several fortified outposts, summoning elemental terrors and venerating the dark power slumbering beneath Ahn'Qiraj. Meanwhile, the bronze dragonflight has unexpectedly broken millennia of silence, returning to observe the desert alongside veteran Alliance and Horde detachments. Adding fuel to the conflict, deposits of a strange red powder known as silithyst have emerged from the earth, driving the two factions into open skirmishes for control of the mysterious resource.",
+   "body": "The apocalyptic Twilight's Hammer cult has entrenched itself across several fortified outposts, summoning elemental terrors and venerating the dark power slumbering beneath Ahn'Qiraj. Cenarion Circle observers monitor the desert's spreading silithid colonies and the ancient threat behind the Scarab Wall.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "scarab wall",
     "the big wall in silithus"
    ],
-   "answer": "The Scarab Wall is a massive, enchanted barrier in the south of Silithus. It was erected thousands of years ago by the night elves and the dragonflights during the War of the Shifting Sands to imprison the malevolent Qiraji empire within Ahn'Qiraj."
+   "answer": "The Scarab Wall is a massive, enchanted barrier in the south of Silithus. It was erected a thousand years ago by the night elves and the dragonflights during the War of the Shifting Sands to imprison the malevolent Qiraji empire within Ahn'Qiraj."
   },
   {
    "q": "Who runs Cenarion Hold?",
@@ -66,15 +66,6 @@
     "hive ashi hive zora"
    ],
    "answer": "They are the major subterranean hives of the silithids: Hive'Ashi, Hive'Zora, and Hive'Regal. Each hive is a sprawling network of tunnels housing distinct castes of insectoid creatures serving the wills locked behind Ahn'Qiraj."
-  },
-  {
-   "q": "What is silithyst and why are people fighting over it?",
-   "aliases": [
-    "silithyst dust",
-    "silithus pvp",
-    "red sand silithus"
-   ],
-   "answer": "Silithyst is a volatile, glowing crystalline substance uncovered in geysers across the desert. Both the Alliance and the Horde seek to extract it for study and war materiel, resulting in skirmishes between soldiers carrying dust back to their respective faction encampments."
   },
   {
    "q": "What is the Twilight's Hammer doing here?",
@@ -102,14 +93,6 @@
   {
    "target": "race:NightElf",
    "text": "Silithus is the grim resting ground where your ancestors bled during the War of the Shifting Sands, sacrificing thousands to seal the gates of Ahn'Qiraj."
-  },
-  {
-   "target": "faction:Alliance",
-   "text": "The Alliance maintains a forward military presence at the Ironforge Brigade Outpost to harvest silithyst and search for missing heroes such as Brann Bronzebeard."
-  },
-  {
-   "target": "faction:Horde",
-   "text": "The Horde holds an outpost through the Orgrimmar Legion Camp, deploying veterans to gather silithyst resources and contain the encroaching swarms before they reach the Barrens."
   }
  ],
  "keywords": [
@@ -122,7 +105,6 @@
   "scarab wall",
   "silithid",
   "silithus",
-  "silithyst",
   "twilight's hammer"
  ],
  "related": [

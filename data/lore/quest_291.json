@@ -20,7 +20,7 @@
    "The Reports"
   ]
  },
- "summary": "The Reports marks the culmination of mountaineer scouting efforts against the Frostmane trolls in southern Dun Morogh. Carrying Senir Whitebeard's official dispatch from Kharanos to the high halls of Ironforge, an Alliance courier discovers that local field operations have sparked fierce political friction between King Magni Bronzebeard and the dwarven Senate.",
+ "summary": "Carry Senir Whitebeard's report on the Frostmane trolls from Kharanos to Senator Barin Redstone in Ironforge. Senir warns that the senator is sour and asks you not to mention who helped gather the information.",
  "sections": [
   {
    "title": "A Dispatch to the Capital",
@@ -59,7 +59,7 @@
     "why does the senator yell",
     "senate vs magni"
    ],
-   "answer": "Redstone becomes incensed because the report indicates Senir Whitebeard acted under the direct authority of King Magni Bronzebeard rather than coordinating through the dwarven Senate, bypassing legislative oversight."
+   "answer": "Senir warns that Redstone has a sour disposition. The senator's response to the report is discovered when you deliver it."
   },
   {
    "q": "Why does Senir Whitebeard ask to keep your help secret?",
@@ -86,7 +86,7 @@
     "dwarf senate lore",
     "magni vs senate"
    ],
-   "answer": "It reveals that Ironforge does not operate under absolute autocracy. King Magni's unilateral decisions face outspoken pushback from a proud and prickly Senate that resents executive overreach in frontier defense."
+   "answer": "The delivery introduces Ironforge's Senate and the officials receiving frontier reports. Redstone's reaction provides a closer glimpse of its politics."
   }
  ],
  "angles": [

@@ -91,7 +91,7 @@ function facts(v, linkCredit) {
   return [
     `${v.donated ? "voice by" : "by"} ${linkCredit ? `<a href="/contributors#${contributorAnchor(creditName(v))}">${who}</a>` : who}`,
     escape(v.language),
-    v.clips ? plural(v.clips, "narration", "narrations") : "",
+    v.clips ? plural(v.clips, "narration", "narrations") + (!v.included && v.packs?.length ? " in core pack" : "") : "",
   ].filter(Boolean).join(" &middot; ");
 }
 
@@ -112,7 +112,7 @@ function getMain(v) {
   if (v.included) return `<p class="vc-install">Comes with Lore Forever. Nothing to install.</p>`;
   if (!v.download) return `<p class="vc-install">Download coming soon.</p>`;
   const cf = v.curseforge ? ` <a href="${escape(v.curseforge)}">Get it on CurseForge</a>.` : "";
-  return `<p class="vc-install"><a class="btn-small" href="/download/voice/${escape(v.id)}">Download</a>
+  return `<p class="vc-install"><a class="btn-small" href="/download/voice/${escape(v.id)}">${v.packs?.length ? "Download core pack" : "Download"}</a>
           Unzip into <code>Interface\\AddOns</code>, type <code>/reload</code> in game, then pick it under Narration voice.${cf}</p>`;
 }
 

@@ -9,6 +9,10 @@ local L = ns.L
 
 local function S() return (LoreForeverDB and LoreForeverDB.settings) or {} end
 
+-- WoW playback stays at normal speed. Existing saved preferences are left intact.
+Voice.PLAYBACK_RATES = { 1 }
+function Voice.PlaybackRate() return 1 end
+
 -- /lore debug: log a recording that won't play to chat, for diagnosing narration on a new client.
 local function dbg(...)
   if not ns.debug then return end
@@ -314,16 +318,117 @@ local function withExtensions(name)
   return out
 end
 
--- Current and stale clip counts for a loaded pack, its lands packs included.
+-- Count distinct lore recording IDs across a narrator's packs. A current copy wins over an outdated duplicate.
 function Voice.Count(name)
-  local hashes, have, stale = (ns.DB and ns.DB.clipHash) or {}, 0, 0
+  local hashes, current, old = (ns.DB and ns.DB.clipHash) or {}, {}, {}
   for _, pack in ipairs(withExtensions(name)) do
     local data = ns.Packs.data[pack]
     for id, h in pairs(data and data.clips or {}) do
-      if hashes[id] == h then have = have + 1 elseif hashes[id] then stale = stale + 1 end
+      if hashes[id] == h then current[id] = true elseif hashes[id] then old[id] = true end
     end
   end
+  local have, stale = 0, 0
+  for _ in pairs(current) do have = have + 1 end
+  for id in pairs(old) do if not current[id] then stale = stale + 1 end end
   return have, stale
+end
+
+-- LOR-350: every installed pack, separately from narrator priority. Reading voice tables only registers metadata;
+-- language tables are never loaded or applied here. Counts describe recording IDs, not verified audio files.
+function Voice.InstalledPacks()
+  local out, s = {}, prefs()
+  for _, rec in ipairs(ns.Packs.registry) do
+    local transport = rec.transportFor or rec.name:find("_Transport_", 1, true)
+    local it = { name = rec.name, title = rec.title, kind = rec.kind, locale = rec.locale,
+      language = rec.languageName or LANGUAGES[rec.locale] or rec.locale or L["Language unknown"],
+      transport = transport and true or false }
+    local data = ns.Packs.data[rec.name]
+    if rec.kind == "voice" and not transport and rec.loadable ~= false and not data then
+      data = ns.Packs.Load(rec.name) -- readonly clip lists, including locales we aren't reading
+    end
+    local source = transport and (rec.transportFor or rec.name:match("^(.-)_Transport_"))
+    local sourceRec = source and ns.Packs.Get(source)
+    it.locale = rec.locale or (sourceRec and sourceRec.locale)
+    it.language = rec.languageName or LANGUAGES[it.locale] or it.locale or L["Language unknown"]
+    local loaded = transport and ns.Packs.GameLoaded(rec.name) or data ~= nil
+    local other = it.locale and not sameLanguage(it.locale, readingLocale())
+    it.checked = not other and data ~= nil
+    if rec.loadable == false then
+      it.status = ns.Packs.ReasonText(rec.reason) or L["Can't load"]
+    elseif other then
+      it.status = L["Choose this language in Options > Language and reload"]
+    elseif not loaded then
+      it.status = InCombatLockdown and InCombatLockdown() and L["Can't load during combat"] or L["Not loaded yet"]
+    elseif rec.kind == "lang" or rec.kind == "lang-overlay" then
+      it.status = L["In use"]
+    else
+      local base = rec.transportFor or rec.extends or Voice.KeyOf(rec.name)
+      local key = isDefault(base) and AUTO or Voice.KeyOf(base)
+      if s.voiceOff[key] then
+        it.status = L["Narrator unticked"]
+      elseif ns.Packs.Get(Voice.InLanguage(base)) and ns.Packs.Get(Voice.InLanguage(base)).loadable == false then
+        it.status = L["Loaded; lore narrator unavailable"] .. ": " .. (ns.Packs.ReasonText(ns.Packs.Get(Voice.InLanguage(base)).reason) or L["Can't load"])
+      elseif not ns.Packs.Get(Voice.InLanguage(base)) then
+        it.status = L["Loaded; lore narrator not installed"]
+      elseif ns.Packs.Get(Voice.InLanguage(base)).locale and not sameLanguage(ns.Packs.Get(Voice.InLanguage(base)).locale, readingLocale()) then
+        it.status = L["Loaded; lore narrator uses another language"]
+      else
+        it.status = transport and L["Playback support loaded"] or L["Loaded"]
+      end
+    end
+    if transport then
+      it.title = L["Playback support"]
+      local source = rec.transportFor or rec.name:match("^(.-)_Transport_")
+      it.narrator = source and Voice.PackName(source)
+      local sourceRec = source and ns.Packs.Get(source)
+      if sourceRec then it.language = sourceRec.languageName or LANGUAGES[sourceRec.locale] or sourceRec.locale or it.language end
+      local sourceData = source and ns.Packs.data[source]
+      if sourceData and sourceData.transport then
+        local count = 0
+        for _, row in pairs(sourceData.transport) do
+          if type(row) == "table" and row.assetPack == rec.name then count = count + 1 end
+        end
+        it.support = count
+      end
+    elseif rec.kind == "voice" and data then
+      it.counts = { lore = 0, quest = 0, answer = 0, unknown = 0 }
+      it.stale, it.recorded = 0, 0
+      for id, hash in pairs(data.clips or {}) do
+        local category, expected
+        local entry, n = id:match("^(.-)#faq(%d+)$")
+        local answer = entry and ns.DB.answerHash and ns.DB.answerHash[entry]
+        if rec.name:find("_Answers_", 1, true) and entry then
+          category = "answer"
+          expected = type(answer) == "string" and answer:sub(6 * tonumber(n) - 5, 6 * tonumber(n)) or nil
+        elseif isQuestClip(id) then
+          category, expected = "quest", ns.DB.questClip and ns.DB.questClip[id]
+        else
+          category, expected = "lore", ns.DB.clipHash and ns.DB.clipHash[id]
+        end
+        it.recorded = it.recorded + 1
+        if other then
+          it.counts[category] = it.counts[category] + 1
+        elseif category == "quest" and type(data.questVoice) == "table" then
+          -- Localized quest packs match the visible game's text when a quest page opens.
+          it.counts.quest = it.counts.quest + 1
+          it.questPageCheck = true
+        elseif expected == hash then
+          it.counts[category] = it.counts[category] + 1
+        elseif expected and expected ~= "" then
+          it.stale = it.stale + 1
+        else
+          it.counts.unknown = it.counts.unknown + 1
+        end
+      end
+    elseif data and (rec.kind == "lang" or rec.kind == "lang-overlay") then
+      it.entries, it.strings = 0, 0
+      for _ in pairs(data.entries or {}) do it.entries = it.entries + 1 end
+      for _ in pairs(data.ui or {}) do it.strings = it.strings + 1 end
+      for _ in pairs(data.strings or {}) do it.strings = it.strings + 1 end
+    end
+    out[#out + 1] = it
+  end
+  return out
 end
 
 -- The clip a voice should keep together with this one (voiceGroup): its story's main clip ("story": the entry, for
@@ -691,6 +796,12 @@ function Voice.HasAudio(key)
   return key ~= nil and (Voice.active[key] or Voice.questPaths[key] or Voice.answerPaths[key]) ~= nil
 end
 
+-- Recheck permission at every real audio start, including queues and restored playback targets.
+function Voice.CanPlay(key)
+  if ns.UI and ns.UI.CanPlayClip then return ns.UI.CanPlayClip(key) end
+  return type(key) == "string" and not key:match("#faq%d+$") and not key:match("#section%d+$")
+end
+
 -- Every clip id the current voice can play (id -> paths), for the Listen tab.
 function Voice.Clips()
   if not Voice.ready then Voice.Refresh() end
@@ -730,7 +841,7 @@ end
 
 -- The line under the voice list: how many narrations your voices cover together (the rest show as text only), with
 -- the first voice's credit. (Each voice's own counts are on its row: Voice.List.)
-function Voice.Status()
+function Voice.Status(loreCounts)
   if Voice.Current() == "none" then return L["Recorded narrations are off: tick a voice to hear them."] end
   local lines, first = {}, Voice.chain[1]
   if Voice.deferred then lines[#lines + 1] = L["Some voices load after combat."] end
@@ -743,6 +854,9 @@ function Voice.Status()
   local covered = 0
   for _ in pairs(Voice.servedBy) do covered = covered + 1 end
   local count = covered >= Voice.total and L["%d of %d narrations."] or L["%d of %d narrations; the rest show as text only."]
+  if loreCounts then
+    count = covered >= Voice.total and L["%d of %d lore recordings."] or L["%d of %d lore recordings; the rest show as text only."]
+  end
   local rec = ns.Packs.Get(first)
   lines[#lines + 1] = (rec and rec.credit and (rec.credit:gsub("%.$", "") .. ". ") or "")
     .. string.format(count, covered, Voice.total)
@@ -846,6 +960,7 @@ end
 -- The voice whose sample is playing (Voice.Preview, by list key), or nil. Options shows Stop on its row; anything
 -- that stops playback (Voice.Stop: the player, global Stop, another narration) ends it, and so does the clip ending.
 local function setPreview(key)
+  if not key then Voice.previewClip = nil end
   if Voice.previewing == key then return end
   Voice.previewing = key
   if ns.Options and ns.Options.OnPreviewChanged then ns.Options.OnPreviewChanged() end
@@ -855,6 +970,7 @@ local function watchPreview(handle)
   local started = GetTime and GetTime() or 0
   local function check()
     if Voice.handle ~= handle or not Voice.previewing then return end
+    if not Voice.CanPlay(Voice.previewClip) then return Voice.StopPreview() end
     local playing
     if _G.C_Sound and C_Sound.IsPlaying then
       local ok, p = pcall(C_Sound.IsPlaying, handle)
@@ -900,10 +1016,10 @@ function Voice.Preview(value)
   -- Current clips only, the sample first, then the rest in order, until one plays.
   local rec, hashes, ids = ns.Packs.Get(name), ns.DB.clipHash or {}, {}
   for k, h in pairs(data.clips) do
-    if hashes[k] == h and k ~= rec.sample then ids[#ids + 1] = k end
+    if hashes[k] == h and k ~= rec.sample and Voice.CanPlay(k) then ids[#ids + 1] = k end
   end
   table.sort(ids)
-  if rec.sample and hashes[rec.sample] and data.clips[rec.sample] == hashes[rec.sample] then
+  if rec.sample and hashes[rec.sample] and data.clips[rec.sample] == hashes[rec.sample] and Voice.CanPlay(rec.sample) then
     table.insert(ids, 1, rec.sample)
   end
   if not ids[1] then return false, L["None of its recordings match this version of Lore Forever."] end
@@ -911,6 +1027,7 @@ function Voice.Preview(value)
     local ok, willPlay, handle = pcall(PlaySoundFile, Voice.ClipPath(name, ids[i], data.ext), channel())
     if ok and willPlay then
       Voice.handle = handle
+      Voice.previewClip = ids[i]
       setPreview(value)
       watchPreview(handle)
       return true
@@ -935,7 +1052,7 @@ local function now() return GetTime and GetTime() or 0 end
 
 function Voice.Stop()
   if Voice.handle and _G.StopSound then pcall(StopSound, Voice.handle) end
-  Voice.handle = nil
+  Voice.handle, Voice.transport, Voice.transportToken, Voice.ended, Voice.failed = nil, nil, nil, nil, nil
   setPreview(nil)
 end
 
@@ -993,48 +1110,232 @@ function Voice.PackOf(path)
   return type(path) == "string" and path:match("^Interface\\AddOns\\([^\\]+)\\") or nil
 end
 
+
+-- Segmented transport uses real files; the game has no sound pause, seek or rate API.
+-- Pack metadata version 1 is optional and bound to the exact source recording (and full-safe script when present).
+local function finite(n) return type(n) == "number" and n == n and n > 0 and n < math.huge end
+local function transportPath(pack, file)
+  if type(file) ~= "string" then return nil end
+  file = file:gsub("/", "\\")
+  if not file:match("^Audio\\[%w_%.%-%\\]+$") or file:find("..", 1, true) then return nil end
+  if not (file:match("%.mp3$") or file:match("%.ogg$")) then return nil end
+  return "Interface\\AddOns\\" .. pack .. "\\" .. file
+end
+
+local function dense(parts)
+  if type(parts) ~= "table" or #parts == 0 or #parts > 4096 then return false end
+  local count = 0
+  for i in pairs(parts) do
+    if type(i) ~= "number" or i % 1 ~= 0 or i < 1 or i > #parts then return false end
+    count = count + 1
+  end
+  return count == #parts
+end
+
+Voice.brokenTransport = {}
+function Voice.Transport(key, pack)
+  -- Starting a new sound every few seconds causes audible gaps in the client. Keep this prototype hidden
+  -- until continuous handoffs are verified in game; ordinary listening uses the existing single recording.
+  if S().experimentalSegmentedPlayback ~= true then return nil end
+  if Voice.brokenTransport[tostring(pack) .. ":" .. tostring(key)] then return nil end
+  local data = pack and ns.Packs.data[pack]
+  local row = data and data.transportVersion == 1 and type(data.transport) == "table" and data.transport[key]
+  if type(row) ~= "table" or type(row.hash) ~= "string" or row.hash == ""
+      or row.hash ~= (data.clips and data.clips[key])
+      or type(row.text) ~= "string" or not row.text:find("%S") or #row.text > 65536 then return nil end
+  if row.fullHash ~= nil and ((ns.DB.fullclipsLocale or "enUS") ~= readingLocale()
+      or type(row.fullHash) ~= "string" or row.fullHash ~= (ns.DB.fullclips and ns.DB.fullclips[key])) then
+    return nil
+  end
+  local assetPack = row.assetPack == nil and pack or row.assetPack
+  if type(assetPack) ~= "string" or not assetPack:match("^[%w_%-]+$") then return nil end
+  local base = row["1"]
+  if not dense(base) then return nil end
+  local starts, total = {}, 0
+  for i, part in ipairs(base) do
+    if type(part) ~= "table" or not finite(part.duration) or part.duration > 600 then return nil end
+    local start = part.start ~= nil and part.start or total
+    if type(start) ~= "number" or start ~= start or start < 0 or start == math.huge then return nil end
+    if (i == 1 and start ~= 0) or (i > 1 and (start <= starts[i - 1] or math.abs(start - total) > 0.5)) then return nil end
+    starts[i], total = start, start + part.duration
+  end
+  local out = { key = key, pack = pack, assetPack = assetPack, hash = row.hash, fullHash = row.fullHash, duration = total,
+    text = type(row.text) == "string" and row.text or nil, rates = {} }
+  for _, rate in ipairs(Voice.PLAYBACK_RATES) do
+    local parts, valid, list = row[tostring(rate)], true, {}
+    if not dense(parts) or #parts ~= #base then valid = false end
+    for i, part in ipairs(valid and parts or {}) do
+      local path = type(part) == "table" and transportPath(assetPack, part.file)
+      local duration = type(part) == "table" and part.duration
+      local length = (starts[i + 1] or total) - starts[i]
+      if not path or not finite(duration) or duration > 600 or math.abs(duration * rate - length) > 0.75
+          or (part.start ~= nil and part.start ~= starts[i]) then valid = false break end
+      list[i] = { path = path, duration = duration, start = starts[i], finish = starts[i + 1] or total }
+    end
+    if valid then out.rates[rate] = list end
+  end
+  return out.rates[1] and out or nil
+end
+
+function Voice.TransportFor(key, pack)
+  if not Voice.HasAudio(key) then return nil end
+  for _, path in ipairs(Voice.active[key] or Voice.questPaths[key] or Voice.answerPaths[key] or {}) do
+    local source = Voice.PackOf(path)
+    local row = (not pack or source == pack) and Voice.Transport(key, source)
+    if row then return row end
+  end
+end
+
+local function soundPlaying()
+  if Voice.handle and _G.C_Sound and C_Sound.IsPlaying then
+    local ok, playing = pcall(C_Sound.IsPlaying, Voice.handle)
+    if ok then return playing end
+  end
+end
+
+function Voice.Position()
+  local t = Voice.transport
+  if not t then return nil end
+  local part = t.parts[t.index]
+  local elapsed = math.max(0, ((GetTime and GetTime()) or 0) - t.started)
+  return t.failedOffset or math.min(part.finish, part.start + elapsed * t.rate), t.row.duration, t.rate
+end
+
+local function segment(t, index)
+  if not Voice.CanPlay(t.row.key) then return false end
+  local part = t.parts[index]
+  if not part then return false end
+  local ok, plays, handle = pcall(PlaySoundFile, part.path, channel())
+  if not (ok and plays) then return false end
+  Voice.handle, t.index, t.started, t.seenPlaying = handle, index, (GetTime and GetTime()) or 0, false
+  if Voice.lastClip then Voice.lastClip.path = part.path end
+  return true
+end
+
+local function beginTransport(row, options)
+  local rate = 1
+  local offset = options and tonumber(options.offset) or 0
+  if not offset or offset ~= offset or offset < 0 or offset == math.huge or offset >= row.duration then offset = 0 end
+  local parts, index = row.rates[rate], 1
+  for i, part in ipairs(parts) do if part.start <= offset then index = i else break end end
+  local t = { row = row, parts = parts, rate = rate, index = index }
+  if not segment(t, index) then return false end
+  Voice.transport, Voice.transportToken = t, {}
+  local token = Voice.transportToken
+  local function tick()
+    if Voice.transportToken ~= token or Voice.transport ~= t then return end
+    if not Voice.CanPlay(t.row.key) then
+      if ns.UI and ns.UI.StopAll then ns.UI.StopAll() else Voice.Stop() end
+      return
+    end
+    local part = t.parts[t.index]
+    local elapsed = ((GetTime and GetTime()) or 0) - t.started
+    local playing = soundPlaying()
+    local function fail(path, offset)
+      if Voice.handle and _G.StopSound then pcall(StopSound, Voice.handle) end
+      warnCantPlay(path)
+      t.failedOffset = offset
+      Voice.handle, Voice.transportToken, Voice.failed = nil, nil, true
+    end
+    if playing == true then t.seenPlaying = true end
+    if elapsed > part.duration + 5 then
+      -- A stalled handle is a failure, never successful completion of the story.
+      fail(part.path, part.start)
+      return
+    end
+    -- Give an initially delayed sound handle time to start. Once observed playing, no extra gap is needed.
+    local stopped = playing == false and (t.seenPlaying or elapsed >= math.min(1, part.duration))
+    if stopped and elapsed < part.duration - 0.75 then
+      fail(part.path, part.start)
+      return
+    end
+    if stopped or (playing == nil and elapsed >= part.duration) then
+      if t.index >= #t.parts then
+        Voice.handle, Voice.transport, Voice.transportToken, Voice.ended = nil, nil, nil, true
+        return
+      end
+      local nextPart = t.parts[t.index + 1]
+      if not segment(t, t.index + 1) then
+        fail(nextPart.path, nextPart.start)
+        return
+      end
+    end
+    C_Timer.After(0.05, tick)
+  end
+  C_Timer.After(0.05, tick)
+  return true
+end
+
+
 -- Play an entry's recorded narration: the chosen voice's file, or the next voice's if the game can't play it (e.g.
 -- the file is missing from the pack). Returns true if it started. Narrations are marked heard; quest dialogue isn't.
 -- An arrival story waiting for its turn that plays some other way (you play it, or your playlist does) stops waiting.
 -- Voice.lastClip keeps the recording that played last, after it ends too: its clip id, the pack whose file played
 -- and the hash that file was recorded from, for "Report a problem with this narration" (ClipReport.lua, LOR-232).
-function Voice.Play(key)
+
+function Voice.Play(key, options)
+  if not Voice.CanPlay(key) then return false end
   local paths = Voice.HasAudio(key) and (Voice.active[key] or Voice.questPaths[key] or Voice.answerPaths[key])
   if not paths or not _G.PlaySoundFile then return false end
   Voice.Stop()
+  local continuing = options and type(options.pack) == "string" and finite(options.offset)
   for _, path in ipairs(paths) do
-    local ok, willPlay, handle = pcall(PlaySoundFile, path, channel())
-    if ok and willPlay then
-      Voice.handle = handle
-      if Voice.active[key] or Voice.answerPaths[key] then Voice.MarkHeard(key) end
-      if Voice.autoWaiting and Voice.autoWaiting.key == key then Voice.autoWaiting = nil end
-      local pack = Voice.PackOf(path)
+    local pack = Voice.PackOf(path)
+    if not continuing or pack == options.pack then
       local data = pack and ns.Packs.data[pack]
-      Voice.lastClip = { id = key, pack = pack, path = path, hash = data and data.clips and data.clips[key] or nil }
-      return true
+      local row = Voice.Transport(key, pack)
+      local resume = row and options and options.pack == pack and options.hash == row.hash
+        and options.fullHash == row.fullHash
+      if continuing and not resume then warnCantPlay(path) return false end
+      local wanted = resume and options or { rate = Voice.PlaybackRate() }
+      local started = row and beginTransport(row, wanted)
+      local handle
+      if row and not started then
+        Voice.brokenTransport[pack .. ":" .. key] = true
+        if resume and (tonumber(options.offset) or 0) > 0 then
+          -- A continuation must never quietly jump to the beginning of a whole-file recording.
+          warnCantPlay(path)
+          return false
+        end
+      end
+      if not started then
+        local ok, willPlay, h = pcall(PlaySoundFile, path, channel())
+        started, handle = ok and willPlay, h
+      end
+      if started then
+        if not Voice.transport then Voice.handle = handle end
+        if Voice.active[key] or Voice.answerPaths[key] then Voice.MarkHeard(key) end
+        if Voice.autoWaiting and Voice.autoWaiting.key == key then Voice.autoWaiting = nil end
+        local transport = Voice.transport
+        Voice.lastClip = { id = key, pack = pack,
+          path = transport and transport.parts[transport.index].path or path,
+          hash = transport and (transport.row.fullHash or transport.row.hash) or (data and data.clips and data.clips[key]),
+          text = transport and transport.row.text or nil }
+        return true
+      end
+      dbg("can't play", path)
     end
-    dbg("can't play", path)
   end
   warnCantPlay(paths[1])
   return false
 end
 
+
 -- Whether the recording that started plays on: true or false when the client can tell (C_Sound.IsPlaying), nil when
 -- it can't (UI's watchPlayback then goes by the length of its text).
 function Voice.IsPlaying()
-  if Voice.handle and _G.C_Sound and C_Sound.IsPlaying then
-    local ok, playing = pcall(C_Sound.IsPlaying, Voice.handle)
-    return ok and playing
-  end
-  return nil   -- unknown
+  if Voice.failed then return false end
+  if Voice.transport then return true end
+  if Voice.ended then return false end
+  return soundPlaying()
 end
 
 -- Play `key`'s recorded narration (Voice.Play): there's no other way to hear it, so what no voice recorded stays as
 -- text. When nothing can play because every installed voice is in another language (Voice.LanguageGap), the first try
 -- of the session says so in chat: the login line is easy to miss, and nothing else would show why nothing plays
 -- (LOR-136). Returns true if it started.
-function Voice.Narrate(key)
-  if Voice.Play(key) then return true end
+function Voice.Narrate(key, options)
+  if Voice.Play(key, options) then return true end
   if not Voice.toldLanguageOnPlay then
     local gap = Voice.LanguageGap()
     if gap then
@@ -1096,7 +1397,7 @@ function Voice.OnTaxiCheck()
   local zk = zone and ns.engine and ns.engine:ZoneKey(zone)
   local key = zk and "zone:" .. zk
   local e = key and ns.DB.entries[key]
-  if not e or narrated[zk] then return end
+  if not e or narrated[zk] or Voice.autoSession[key] or (S().skipHeard ~= false and Voice.Heard(key)) then return end
   if ns.UI and ns.UI.speaking and ns.UI.playingId == key then narrated[zk] = true return end
   narrated[zk] = true
   local UI = ns.UI
@@ -1104,7 +1405,10 @@ function Voice.OnTaxiCheck()
     -- Recorded zone stories go through the playlist, so crossing zones quickly queues them one after another
     -- instead of cutting off the one playing.
     local i = UI.PlaylistAddFlight(key) and UI.PlaylistIndex(key)
-    if i then UI.pl.items[i].flight = true end
+    if i then
+      UI.pl.items[i].flight = true
+      if UI.speaking and UI.playingId == key then Voice.autoSession[key] = true end
+    end
   end
 end
 
@@ -1236,14 +1540,9 @@ local function startArrival(w)
   local UI, key = ns.UI, w.key
   local target = UI.EntryTarget(key)
   if not target then return false end
-  Voice.autoSession[key] = true
-  if UI.frame:IsShown() then
-    -- Panel open: the story goes in the chat too, as when you press play yourself.
-    UI.PlayEntry(key, string.format(L["Tell me the story of %s"], target.label))
-  else
-    UI.ListenTo(target)
-  end
+  UI.ListenTo(target)
   if not (UI.speaking and UI.playingId == key) then return false end
+  Voice.autoSession[key] = true
   -- It started by itself, so a quest giver may take over from it (Voice.OnQuestFrame).
   Voice.autoPlaying = { key = key, token = UI.playToken, at = w.at, again = w.again }
   markAuto()
@@ -1361,6 +1660,7 @@ local function questPage(kind)
   end
   return table.concat(parts, " ")
 end
+Voice.QuestPageText = questPage
 
 -- A voice's gender, for matching quest givers: ## X-LoreForever-Gender (male or female) in its .toc, else read from
 -- our own packs' names (LoreForever_Voice_Female..., the default voice is the male narrator). nil if unknown.

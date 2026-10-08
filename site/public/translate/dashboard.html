@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <link rel="stylesheet" href="/style.css">
 <script src="/header.js" defer></script>
+<style>.td-narrated { border-left: 3px solid var(--gold-soft); padding-left: 10px; } #td-recording details p { white-space: pre-wrap; }</style>
 </head>
 <body>
 
@@ -41,12 +42,13 @@
   <noscript><p class="fb-status">The dashboard needs JavaScript. You can also <a href="/translate#languages">download
     the kit</a> and edit it offline.</p></noscript>
   <p class="fb-status" id="td-status" role="status" hidden></p>
+  <section class="td-entry" id="td-recording" hidden aria-label="Recording translation"></section>
 
   <section class="fb-done" id="td-out" hidden>
     <h2>Sign in to translate</h2>
     <p>Translating in the browser needs a Lore Forever account, so your work is saved and credited to you. It takes a
       minute with your Google account.</p>
-    <p class="vp-actions"><a class="btn-small" href="/account?next=/translate/dashboard">Sign in or create an account</a>
+    <p class="vp-actions"><a class="btn-small" id="td-signin" href="/account?next=/translate/dashboard">Sign in or create an account</a>
       <a class="btn-small" href="/translate#languages">Or download the kit</a></p>
   </section>
 
@@ -60,7 +62,7 @@
     </div>
 
     <section class="td-progress" aria-live="polite">
-      <div class="tl-meter" role="meter" aria-valuemin="0" aria-valuemax="100" id="td-meter"><span></span></div>
+      <div class="tl-meter" role="meter" aria-valuemin="0" aria-valuemax="100" aria-label="Translation text coverage" id="td-meter"><span></span></div>
       <p id="td-progress-text"></p>
     </section>
 
@@ -93,11 +95,11 @@
         <li><strong>Needs work</strong> lists what still needs a person, most-read first: lines with no translation,
           drafts nobody has checked, lines players reported, and lines whose English changed.</li>
         <li>Type your language in the box under each English line. It saves by itself when you pause or move on.</li>
-        <li>A draft that already reads right? Press <strong>Looks right</strong> on the line, or on the whole entry.</li>
+        <li>A draft that already reads right? Press <strong>Looks right</strong> to record your check of that line. The whole-entry button is for when you have read every line.</li>
         <li>Keep codes like <code>%s</code> and <code>|cff00ff00 ... |r</code> where the English has them. Keywords
           and search phrases are lists: separate the items with <code>|</code>.</li>
         <li>Names of places, people and quests should match what your game client calls them.</li>
-        <li>What you save goes into your language's next update. Clear a box to take your edit back before then.</li>
+        <li>Saved edits wait to be imported into the language source. Imported, merged and released are separate steps; saving does not immediately change the recording script. Clear a box to withdraw a waiting edit.</li>
       </ul>
     </details>
 
@@ -148,16 +150,20 @@
 <script type="module">
 import { problem, isList } from "/translate/check.js";
 import { kitUpload } from "/js/bulk-upload.js";
+import { recordingContext, studioLink, usableEdit, editNote, narrationFields } from "/translate/workflow.js";
 
 const $ = id => document.getElementById(id);
 const PAGE = 30;        // entries per page when browsing a section
 const WORK_PAGE = 8;    // entries per page in Needs work
+const linkContext = recordingContext(new URLSearchParams(location.search));
+const pendingRows = new Set(), bulkSaves = new Set();
 const UI_PAGE = 40;     // interface lines per page
 const CATS = ["missing", "draft", "reported", "stale"];
 const state = {
   langs: [], me: null, locale: null, lang: null, sections: [], section: null, show: "todo", q: "", shown: PAGE,
   mode: "work", cat: null, entries: [], entrySection: {}, status: null, mine: {}, reports: [],
-  store: { names: {}, text: {}, strings: {}, byKey: {}, loaded: {} },
+  linkedEntry: linkContext?.entry || null, recordingLine: null,
+  store: { names: {}, text: {}, english: {}, strings: {}, byKey: {}, loaded: {} },
 };
 
 const status = (msg, good) => {
@@ -217,39 +223,56 @@ const entryOf = id => id.startsWith("ui/") ? "ui" : id.split("/", 1)[0];
 // The text a box starts with: your latest edit unless it was turned down or is already in the published text.
 function current(id) {
   const m = state.mine[id];
-  if (m && (m.status === "new" || m.status === "accepted")) return { text: m.text, mine: m };
-  return { text: state.store.text[id] || "", mine: m || null };
+  return { text: usableEdit(m, state.store.english[id]) ? m.text : state.store.text[id] || "", mine: m || null };
 }
 const isDraftEntry = key => key === "ui" ? false : state.draftSet.has(key);
 function statusText(id) {
-  const { mine } = current(id);
-  const m = state.mine[id];
-  if (mine && (mine.status === "new" || mine.status === "accepted")) {
-    return [mine.text === (state.store.text[id] || "") ? "Checked by you: it's in the next update" : "Saved: it's in the next update", "td-new"];
-  }
-  if (m && m.status === "rejected") return ["Your last edit wasn't used; this is the current text", "td-no"];
-  if (m && m.status === "pulled") return ["Your edit is in", "td-ok"];
-  if (!state.store.text[id]) return [state.staleSet.has(entryOf(id)) ? "The English changed: please translate it again" : "Not translated yet", "td-todo"];
   const draft = id.startsWith("ui/") ? state.uiDraftSet.has(id) : isDraftEntry(entryOf(id));
-  return draft ? ["Draft: fix it, or press Looks right", "td-draft"] : ["Current text", ""];
+  return editNote(state.mine[id], state.store.english[id], state.store.text[id] || "", draft, state.staleSet.has(entryOf(id)));
+}
+async function flushRows(includeBulk = true) {
+  const outcomes = await Promise.all([...pendingRows].map(save => save()).concat(includeBulk ? [...bulkSaves] : []));
+  if (outcomes.some(ok => !ok)) { status("Some edits are not saved yet. Fix the marked line or try again before moving on."); return false; }
+  return true;
+}
+function recordingHtml() {
+  if (!linkContext) return;
+  const panel = $("td-recording");
+  panel.hidden = false;
+  const text = state.recordingLine?.text?.[state.locale];
+  panel.replaceChildren(el("h2", { text: "Check the text before recording" }),
+    el("p", {}, "Entry ", el("code", { text: linkContext.entry }), " · Recording ", el("code", { text: linkContext.line })),
+    el("p", { text: "Compare the English and your language below. Mark Looks right only after reading that line, or correct it and wait for Saved. This records your check; it does not approve a release." }),
+    el("p", { text: "Names of places, people and quests should match your game client. Custom names without a localized client name keep their original name." }),
+    el("p", { text: "Saved edits await import. Import, merging and a public release are separate steps. Return to the studio and record the script it shows; a saved correction does not change that script immediately. If it still needs your correction, record another line while this one catches up." }),
+    el("p", {}, el("a", { href: studioLink(linkContext, state.locale), text: "Back to this recording", class: "btn-small", id: "td-back-recording" })),
+    state.recordingLine ? el("details", {}, el("summary", { text: "Current recording script and English original" }),
+      el("p", { text: text || "No recording script is available in this language yet. Your saved edits are kept in the editor." }),
+      el("p", { lang: "en", text: state.recordingLine.text?.enUS || "English script unavailable; compare the English fields below." })) :
+      el("p", { text: "The recording script could not be loaded. You can still correct the entry below; return to the studio for the script to read." }));
+  $("td-back-recording").addEventListener("click", async event => {
+    event.preventDefault();
+    if (await flushRows()) location.href = studioLink(linkContext, state.locale);
+  });
 }
 
 // ---- data ----
 
 async function ensureSections(sids) {
-  const s = state.store;
-  await Promise.all([...new Set(sids)].filter(sid => !s.loaded[sid + ":" + state.locale]).map(async sid => {
+  const s = state.store, locale = state.locale, hasText = state.hasText;
+  await Promise.all([...new Set(sids)].filter(sid => !s.loaded[sid + ":" + locale]).map(async sid => {
     const [en, text] = await Promise.all([
       s.strings[sid] ? null : getJSON(`/translate/data/en/${sid}.json`, { names: {}, strings: [] }),
-      state.hasText ? getJSON(`/translate/data/${state.locale}/${sid}.json`, {}) : {},
+      hasText ? getJSON(`/translate/data/${locale}/${sid}.json`, {}) : {},
     ]);
     if (en) {
       Object.assign(s.names, en.names);
       s.strings[sid] = en.strings;
-      for (const row of en.strings) (s.byKey[entryOf(row[0])] ||= []).push(row);
+      for (const row of en.strings) { (s.byKey[entryOf(row[0])] ||= []).push(row); s.english[row[0]] = row[1]; }
     }
+    if (state.locale !== locale) return;
     Object.assign(s.text, text);
-    s.loaded[sid + ":" + state.locale] = true;
+    s.loaded[sid + ":" + locale] = true;
   }));
 }
 
@@ -266,6 +289,7 @@ async function loadLanguage(locale) {
     getJSON("/api/translations/reports?locale=" + locale, { reports: [] }),
     state.hasText ? getJSON(`/translate/data/${locale}/status.json`, null) : null,
   ]);
+  if (state.locale !== locale) return;
   state.mine = {};
   for (const e of edits.edits || []) state.mine[e.string_id] = e;   // oldest first, so the latest wins
   state.reports = reports.reports || [];
@@ -275,26 +299,25 @@ async function loadLanguage(locale) {
   state.staleSet = new Set(state.status.stale);
   state.uiDraftSet = new Set(state.status.ui_draft);
   renderProgress();
+  recordingHtml();
   if (state.mode === "work") { pickDefaultCat(); await renderWork(); } else await loadSection(state.section);
 }
 
 // ---- Needs work ----
 
-const touched = () => new Set(Object.keys(state.mine).map(entryOf));   // entries you've edited or checked
 function workList(cat) {
-  const mine = touched();
   const st = state.status;
   const order = state.entryOrder;
   const byOrder = keys => [...new Set(keys)].filter(k => order.has(k)).sort((a, b) => order.get(a) - order.get(b));
   if (cat === "missing") {
     const ui = st.ui_missing.length ? ["ui"] : [];
-    return ui.concat(byOrder(st.missing.filter(k => !mine.has(k))));
+    return ui.concat(byOrder(st.missing));
   }
   if (cat === "draft") {
-    const uiLeft = st.ui_draft.filter(id => !state.mine[id]);
-    return (uiLeft.length ? ["ui"] : []).concat(byOrder(st.draft.filter(k => !mine.has(k))));
+    const uiLeft = st.ui_draft;
+    return (uiLeft.length ? ["ui"] : []).concat(byOrder(st.draft));
   }
-  if (cat === "stale") return byOrder(st.stale.filter(k => !mine.has(k)));
+  if (cat === "stale") return byOrder(st.stale);
   if (cat === "reported") return byOrder(state.reports.map(r => entryOf(String(r.code || ""))).filter(Boolean));
   return [];
 }
@@ -302,12 +325,12 @@ function workList(cat) {
 function uiIds(cat) {
   const all = state.store.byKey.ui ? state.store.byKey.ui.map(r => r[0]) : [];
   if (cat === "missing") return state.status.ui_missing[0] === "*" ? all : state.status.ui_missing;
-  if (cat === "draft") return state.status.ui_draft.filter(id => !state.mine[id]);
+  if (cat === "draft") return state.status.ui_draft;
   return all;
 }
 function uiCount(cat) {
   if (cat === "missing") return state.status.ui_missing[0] === "*" ? state.uiTotal : state.status.ui_missing.length;
-  if (cat === "draft") return state.status.ui_draft.filter(id => !state.mine[id]).length;
+  if (cat === "draft") return state.status.ui_draft.length;
   return 0;
 }
 
@@ -328,24 +351,24 @@ function renderCats() {
 
 const CAT_NOTE = {
   missing: "Lines with no translation yet, most-read first: the interface, then zones, topics and characters.",
-  draft: "Text nobody has checked yet. Fix what reads wrong, or press Looks right when it's fine.",
+  draft: "Entries marked as draft in the current source. Check each line; saved checks wait for import.",
   reported: "Entries players reported with \"Report a bad translation\". The report is shown above each one.",
   stale: "The English was rewritten after these were translated: they show in English until someone translates them again.",
 };
 
 async function renderWork() {
   renderCats();
-  const cat = state.cat;
+  const cat = state.cat, locale = state.locale;
   const list = workList(cat);
   const keys = list.slice(0, state.shown);
   await ensureSections(["ui", ...keys.map(k => state.entrySection[k]).filter(Boolean)]);
-  if (state.mode !== "work" || state.cat !== cat) return;   // switched while loading
+  if (state.mode !== "work" || state.cat !== cat || state.locale !== locale) return;   // switched while loading
   const entries = list.filter(k => k !== "ui").length;
   const ui = list.includes("ui") ? uiCount(cat) : 0;
   $("td-count").textContent = entries + ui
     ? `${CAT_NOTE[cat]} ${[entries ? fmt(entries) + (entries === 1 ? " entry" : " entries") : "",
                           ui ? fmt(ui) + " interface lines" : ""].filter(Boolean).join(" and ")}.`
-    : { missing: "Everything has a translation. Try Drafts to check.", draft: "Every draft has been checked. Thank you!",
+    : { missing: "Everything has a translation. Try Drafts to check.", draft: "No entries marked as draft in the current source. You can still browse and check a line.",
         reported: "No open reports for this language.", stale: "Nothing to redo." }[cat];
   $("td-list").replaceChildren(...keys.map(key => {
     if (key === "ui") {
@@ -361,6 +384,7 @@ async function renderWork() {
 // ---- Browse by section ----
 
 function matches(id, english) {
+  if (state.linkedEntry) return entryOf(id) === state.linkedEntry;
   const has = Boolean(current(id).text);
   if (state.show === "todo" && has) return false;
   if (state.show === "text" && !has) return false;
@@ -372,10 +396,12 @@ function matches(id, english) {
 }
 
 async function loadSection(sid) {
+  const locale = state.locale;
   state.section = sid;
   remember("section", sid);
   $("td-list").replaceChildren(el("p", { class: "vp-note", text: "Loading..." }));
   await ensureSections([sid]);
+  if (state.section !== sid || state.locale !== locale) return;
   state.shown = PAGE;
   renderBrowse();
 }
@@ -406,7 +432,7 @@ function render() { if (state.mode === "work") renderWork(); else renderBrowse()
 function entryBlock(key, rows, { cat, report } = {}) {
   const name = key === "ui" ? "The add-on's interface" : state.store.names[key] || key;
   const head = el("h3", {}, name, key === "ui" ? null : el("code", { class: "td-key", text: key }));
-  const block = el("article", { class: "td-entry" }, head);
+  const block = el("article", { class: "td-entry", "data-entry": key }, head);
   for (const r of report || []) {
     block.append(el("p", { class: "td-report" }, el("strong", { text: "Reported: " }), r.wrong,
       r.better ? el("span", { text: " Suggested: " + r.better }) : null));
@@ -414,71 +440,113 @@ function entryBlock(key, rows, { cat, report } = {}) {
   // A whole entry that reads right: one click checks every line of it that has text.
   if (key !== "ui" && cat === "draft") {
     const all = el("button", { type: "button", class: "btn-small td-lgtm-all", text: "✓ The whole entry looks right" });
-    all.addEventListener("click", async () => {
+    all.addEventListener("click", () => {
+      if (all.disabled) return;
+      const rowLocale = state.locale;
+      const controls = [...block.querySelectorAll("textarea"), ...block.querySelectorAll("button")];
+      const previous = controls.map(control => control.disabled);
+      controls.forEach(control => { control.disabled = true; });
       all.disabled = true;
-      const todo = rows.filter(([id]) => current(id).text && !state.mine[id]);
-      let failed = 0;
-      for (const [id, english] of todo) {
-        const res = await post("save", { locale: state.locale, id, en: english, text: current(id).text });
-        if (res.ok) state.mine[id] = { string_id: id, text: current(id).text, status: "new", updated: res.updated };
-        else failed++;
-      }
-      status(failed ? `${failed} lines couldn't be saved. Please try again.` : `Thanks! ${name} is marked as checked.`, !failed);
-      renderProgress();
-      render();
+      const operation = (async () => {
+        // Do not wait for this operation itself. Navigation waits for it through bulkSaves.
+        if (!(await flushRows(false))) return false;
+        const snapshot = rows.map(([id, english]) => ({ id, english, text: current(id).text }))
+          .filter(({ id, english, text }) => text && !usableEdit(state.mine[id], english));
+        let failed = 0;
+        for (const { id, english, text } of snapshot) {
+          const res = await post("save", { locale: rowLocale, id, en: english, text });
+          if (res.ok && state.locale === rowLocale) state.mine[id] = { string_id: id, text, en: english, status: "new", updated: res.updated };
+          else if (!res.ok) failed++;
+        }
+        status(failed ? `${failed} lines couldn't be saved. Please try again.` : `Your checks of ${name} are saved, awaiting import.`, !failed);
+        if (state.locale === rowLocale) {
+          renderProgress(); renderCats();
+          // Other entries can be edited while these checks save. Keep their boxes and pending saves attached.
+          for (const row of block.querySelectorAll(".td-row")) {
+            const id = row.dataset.string, [text, kind] = statusText(id);
+            const note = row.querySelector(".td-note");
+            note.textContent = text; note.className = "td-note " + kind;
+            if (usableEdit(state.mine[id], state.store.english[id])) row.querySelector(".td-lgtm").hidden = true;
+          }
+        }
+        return failed === 0;
+      })();
+      // Register synchronously so a language change immediately after the click cannot pass it.
+      bulkSaves.add(operation);
+      return operation.finally(() => {
+        bulkSaves.delete(operation);
+        controls.forEach((control, i) => { control.disabled = previous[i]; });
+        all.disabled = false;
+      });
     });
     head.after(all);
   }
-  block.append(...rows.map(([id, english]) => stringRow(id, english, cat)));
+  const spoken = linkContext?.entry === key ? narrationFields(linkContext, state.recordingLine) : new Set();
+  const orderedRows = spoken.size ? [...rows].sort((a, b) => Number(spoken.has(b[0])) - Number(spoken.has(a[0]))) : rows;
+  block.append(...orderedRows.map(([id, english]) => stringRow(id, english, cat)));
   return block;
 }
 
 function stringRow(id, english, cat) {
-  const box = el("textarea", { rows: String(Math.min(12, Math.max(1, Math.ceil(english.length / 70)))), lang: state.locale.slice(0, 2), spellcheck: "true" });
+  const rowLocale = state.locale;
+  const box = el("textarea", { rows: String(Math.min(12, Math.max(1, Math.ceil(english.length / 70)))), lang: rowLocale.slice(0, 2), spellcheck: "true", "aria-label": fieldLabel(id) + " translation" });
   box.value = current(id).text;
-  const note = el("p", { class: "td-note" });
+  const note = el("p", { class: "td-note", role: "status" });
   const setNote = () => { const [t, c] = statusText(id); note.textContent = t; note.className = "td-note " + c; };
   setNote();
-  let timer = null, saved = box.value;
+  let timer = null, saved = box.value, inFlight = null, mustCheck = false;
 
-  async function saveNow(force) {
+  async function saveNow(force = false) {
     clearTimeout(timer);
+    mustCheck ||= force;
+    if (inFlight) { await inFlight; return saveNow(force); }
     const text = box.value.trim();
-    if (!force && text === saved.trim()) return;
-    const why = text ? problem(id, english, text, state.locale) : null;
-    if (why) { note.textContent = why; note.className = "td-note td-no"; return; }
+    if (!mustCheck && text === saved.trim()) { pendingRows.delete(saveNow); return true; }
+    const why = text ? problem(id, english, text, rowLocale) : null;
+    if (why) { note.textContent = why; note.className = "td-note td-no"; return false; }
     note.textContent = "Saving...";
     note.className = "td-note";
-    const res = await post("save", { locale: state.locale, id, en: english, text });
-    if (!res.ok) { note.textContent = res.error; note.className = "td-note td-no"; return; }
-    saved = box.value;
-    if (res.status) state.mine[id] = { string_id: id, text, status: res.status, updated: res.updated };
+    inFlight = post("save", { locale: rowLocale, id, en: english, text });
+    const res = await inFlight;
+    inFlight = null;
+    if (!res.ok) { note.textContent = "Not saved: " + res.error; note.className = "td-note td-no"; return false; }
+    mustCheck = false;
+    saved = text;
+    if (rowLocale !== state.locale) return true;
+    if (res.status) state.mine[id] = { string_id: id, text, en: english, status: res.status, updated: res.updated };
     else delete state.mine[id];
-    if (!text) box.value = saved = current(id).text;   // withdrawn: back to the current text
-    setNote();
+    if (!text && box.value.trim() === text) box.value = saved = current(id).text;
+    if (box.value.trim() !== saved.trim()) { note.textContent = "Unsaved changes; saving when you pause."; timer = setTimeout(saveNow, 1500); }
+    else { pendingRows.delete(saveNow); setNote(); }
     lgtm.hidden = !showLgtm();
     renderProgress();
     if (state.mode === "work") renderCats();
+    return box.value.trim() === saved.trim() || saveNow();
   }
   box.addEventListener("input", () => {
-    const why = box.value.trim() ? problem(id, english, box.value.trim(), state.locale) : null;
-    if (why) { note.textContent = why; note.className = "td-note td-no"; } else setNote();
+    pendingRows.add(saveNow);
+    const why = box.value.trim() ? problem(id, english, box.value.trim(), rowLocale) : null;
+    note.textContent = why || "Unsaved changes; saving when you pause.";
+    note.className = "td-note" + (why ? " td-no" : "");
     clearTimeout(timer);
     timer = setTimeout(saveNow, 1500);
   });
   box.addEventListener("blur", () => saveNow());
-
-  // "Looks right": a draft line that needs no change is sent back as it is, which counts as checked.
-  const showLgtm = () => Boolean(current(id).text) && !state.mine[id] &&
+  const showLgtm = () => Boolean(current(id).text) && !usableEdit(state.mine[id], english) &&
     (id.startsWith("ui/") ? state.uiDraftSet.has(id) : isDraftEntry(entryOf(id)));
   const lgtm = el("button", { type: "button", class: "tl-link td-lgtm", text: "✓ Looks right" });
   lgtm.hidden = !showLgtm();
-  lgtm.addEventListener("click", () => saveNow(true));
+  lgtm.addEventListener("click", () => { pendingRows.add(saveNow); saveNow(true); });
   const copy = el("button", { type: "button", class: "tl-link td-copy", text: "Copy the English" });
   copy.addEventListener("click", () => { box.value = english; box.focus(); box.dispatchEvent(new Event("input")); });
-  return el("div", { class: "td-row" },
-    el("div", { class: "td-en" }, el("span", { class: "td-label", text: fieldLabel(id) }), el("p", { lang: "en", text: english })),
-    el("div", { class: "td-tr" }, box, el("div", { class: "td-under" }, note,
+  const old = state.mine[id];
+  const retained = old && ["new", "accepted"].includes(old.status) && !usableEdit(old, english) ?
+    el("details", {}, el("summary", { text: "Your saved edit before the English changed" }),
+      el("p", { lang: "en", text: old.en || "The saved English could not be checked." }), el("p", { text: old.text })) : null;
+  const narrated = linkContext && narrationFields(linkContext, state.recordingLine).has(id);
+  return el("div", { class: "td-row" + (narrated ? " td-narrated" : ""), "data-string": id },
+    el("div", { class: "td-en" }, el("span", { class: "td-label", text: fieldLabel(id) + (narrated ? " · In this recording" : "") }), el("p", { lang: "en", text: english })),
+    el("div", { class: "td-tr" }, box, retained, el("div", { class: "td-under" }, note,
       el("span", { class: "td-links" }, lgtm, isList(id) || english.length > 60 || current(id).text ? null : copy))));
 }
 
@@ -489,13 +557,14 @@ function renderProgress() {
   $("td-meter").setAttribute("aria-valuenow", p);
   const n = Object.values(state.mine).filter(m => m.status === "new" || m.status === "accepted").length;
   const done = Object.values(state.mine).filter(m => m.status === "pulled").length;
-  const mine = [n ? `${fmt(n)} saved for the next update` : "", done ? `${fmt(done)} in the language` : ""].filter(Boolean).join(", ");
-  $("td-progress-text").textContent = `${lang.name || state.locale}: ${p < 1 && p > 0 ? "less than 1" : Math.floor(p)}% translated.`
+  const mine = [n ? `${fmt(n)} saved, awaiting import` : "", done ? `${fmt(done)} processed, no longer pending` : ""].filter(Boolean).join(", ");
+  $("td-progress-text").textContent = `${lang.name || state.locale}: ${p < 1 && p > 0 ? "less than 1" : Math.floor(p)}% text coverage (not a review score).`
     + (mine ? ` Your edits: ${mine}.` : " Every line you translate or check counts.");
 }
 
 // The test pack: fetched rather than linked, so the page can say how many lines went in.
 async function downloadPack() {
+  if (!(await flushRows())) return;
   const button = $("td-pack"), note = $("td-pack-note");
   button.disabled = true;
   note.textContent = "Making your test pack...";
@@ -543,14 +612,16 @@ function setShow(show) {
 // ---- start ----
 
 async function start() {
+  $("td-signin").href = "/account?next=" + encodeURIComponent(location.pathname + location.search);
   const me = await getJSON("/api/translations/me", null);
   if (!me || !me.ok) { status((me && me.error) || "Couldn't reach the server. Please reload."); return; }
   if (!me.user) { $("td-out").hidden = false; return; }
   state.me = me;
-  const [langs, index, entries] = await Promise.all([
+  const [langs, index, entries, recording] = await Promise.all([
     getJSON("/translate/languages.json", { languages: [] }),
     getJSON("/translate/data/en/index.json", { sections: [] }),
     getJSON("/translate/data/en/entries.json", []),
+    linkContext ? getJSON("/voices/lines.json", null) : null,
   ]);
   state.langs = langs.languages || [];
   state.sections = index.sections || [];
@@ -558,6 +629,8 @@ async function start() {
   state.entryOrder = new Map(entries.map(([k], i) => [k, i]));
   state.entrySection = Object.fromEntries(entries);
   state.entrySection.ui = "ui";
+  state.recordingLine = recording?.groups?.flatMap(g => g.stories).flatMap(story => story.lines).find(line => line.id === linkContext?.line) || null;
+  if (state.linkedEntry && !state.entrySection[state.linkedEntry]) { state.linkedEntry = null; status("This entry is no longer available. You can browse the current entries below."); }
   state.uiTotal = (state.sections.find(s => s.id === "ui") || {}).count || 0;
   if (!state.langs.length || !state.sections.length) { status("The translation data isn't here yet. Please try again later."); return; }
   $("td-in").hidden = false;
@@ -580,12 +653,13 @@ async function start() {
     const n = same.length > 1 ? " " + (same.indexOf(s) + 1) : "";
     return el("option", { value: s.id, text: `${s.label}${n} (${fmt(s.count)} lines)` });
   }));
-  const section = [params.get("section"), recall("section")].find(s => s && state.sections.some(x => x.id === s));
+  const section = [state.linkedEntry && state.entrySection[state.linkedEntry], params.get("section"), recall("section")].find(s => s && state.sections.some(x => x.id === s));
   sel.value = section || state.sections[0].id;
   state.section = sel.value;
   if (params.get("q")) $("td-q").value = state.q = params.get("q");
   // Links to a section or a search open Browse; otherwise Needs work (or what you used last).
-  state.mode = params.get("section") || params.get("q") ? "browse" : (recall("mode") === "browse" ? "browse" : "work");
+  state.mode = state.linkedEntry || params.get("section") || params.get("q") ? "browse" : (recall("mode") === "browse" ? "browse" : "work");
+  if (state.linkedEntry) { state.show = "all"; document.querySelectorAll("[data-show]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.show === "all"))); }
   if (CATS.includes(params.get("cat"))) state.cat = params.get("cat");
   document.querySelectorAll("[data-mode]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.mode === state.mode)));
   $("td-work").hidden = state.mode !== "work";
@@ -598,24 +672,27 @@ async function start() {
     hasText: () => state.hasText, mine: () => state.mine, onSaved: () => loadLanguage(state.locale),
   });
   upload.mount($("td-upload"));
-  pick.addEventListener("change", () => { $("td-pack-note").textContent = ""; upload.reset(); state.cat = null; state.shown = state.mode === "work" ? WORK_PAGE : PAGE; loadLanguage(pick.value); });
-  sel.addEventListener("change", () => loadSection(sel.value));
-  document.querySelectorAll("[data-mode]").forEach(b => b.addEventListener("click", () => setMode(b.dataset.mode)));
-  document.querySelectorAll("[data-cat]").forEach(b => b.addEventListener("click", () => {
+  $("td-upload").hidden = Boolean(linkContext);   // a recording link leads straight to its editor
+  pick.addEventListener("change", async () => { if (!(await flushRows())) { pick.value = state.locale; return; } $("td-pack-note").textContent = ""; upload.reset(); state.cat = null; state.shown = state.mode === "work" ? WORK_PAGE : PAGE; loadLanguage(pick.value); });
+  sel.addEventListener("change", async () => { if (!(await flushRows())) { sel.value = state.section; return; } state.linkedEntry = null; loadSection(sel.value); });
+  document.querySelectorAll("[data-mode]").forEach(b => b.addEventListener("click", async () => { if (await flushRows()) { state.linkedEntry = null; setMode(b.dataset.mode); } }));
+  document.querySelectorAll("[data-cat]").forEach(b => b.addEventListener("click", async () => {
+    if (!(await flushRows())) return;
     state.cat = b.dataset.cat;
     state.shown = WORK_PAGE;
     renderWork();
   }));
-  document.querySelectorAll("[data-show]").forEach(b => b.addEventListener("click", () => setShow(b.dataset.show)));
+  document.querySelectorAll("[data-show]").forEach(b => b.addEventListener("click", async () => { if (await flushRows()) { state.linkedEntry = null; setShow(b.dataset.show); } }));
   let qTimer = null;
   $("td-q").addEventListener("input", () => {
     clearTimeout(qTimer);
-    qTimer = setTimeout(() => { state.q = $("td-q").value.trim(); state.shown = PAGE; renderBrowse(); }, 250);
+    qTimer = setTimeout(async () => { if (!(await flushRows())) return; state.linkedEntry = null; state.q = $("td-q").value.trim(); state.shown = PAGE; renderBrowse(); }, 250);
   });
-  $("td-more").addEventListener("click", () => { state.shown += state.mode === "work" ? WORK_PAGE : PAGE; render(); });
+  $("td-more").addEventListener("click", async () => { if (!(await flushRows())) return; state.shown += state.mode === "work" ? WORK_PAGE : PAGE; render(); });
   await loadLanguage(pick.value);
 }
 
+window.addEventListener("beforeunload", event => { if (pendingRows.size || bulkSaves.size) { event.preventDefault(); event.returnValue = ""; } });
 start();
 </script>
 </body>

@@ -41,24 +41,6 @@
    "answer": "The moonwell is located in northwestern Teldrassil, situated directly north of the primary road leading into Darnassus. It lies beneath the great boughs of the Oracle Tree."
   },
   {
-   "q": "Why did Nozdormu refuse to bless Teldrassil?",
-   "aliases": [
-    "why nozdormu refused",
-    "dragon blessing teldrassil",
-    "why dragons say no"
-   ],
-   "answer": "Nozdormu, the Dragon Aspect of Time, chided Archdruid Fandral Staghelm for his hubris. The dragons viewed the rushed creation of Teldrassil as a selfish attempt by the night elves to reclaim their lost immortality rather than a selfless defense of nature."
-  },
-  {
-   "q": "Why didn't Alexstrasza bless the new World Tree?",
-   "aliases": [
-    "alexstrasza blessing",
-    "why did alexstrasza refuse",
-    "dragon queen teldrassil"
-   ],
-   "answer": "Alexstrasza the Life-Binder concurred with Nozdormu's judgment against Staghelm's pride. Without her life-giving blessing, Teldrassil's growth became wild, unstable, and susceptible to the afflictions creeping through its boughs."
-  },
-  {
    "q": "Who is Corithras Moonrage?",
    "aliases": [
     "corithras",
@@ -73,7 +55,7 @@
     "teldrassil immortality",
     "do elves live forever again"
    ],
-   "answer": "No. Because Nozdormu refused to bestow his temporal blessing upon Teldrassil, the night elves remain mortal following the loss of Nordrassil at the end of the Third War."
+   "answer": "No. Although Teldrassil provides a new home for the night elves, their immortal lives have not been restored after the sacrifice of Nordrassil during the Third War."
   },
   {
    "q": "What is the purpose of collecting water from the Oracle Glade?",
@@ -87,7 +69,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "This task strikes at the heart of modern kaldorei society, explaining why the grand hopes of recovering your immortality after the Third War collapsed under the scrutiny of the Great Aspects."
+   "text": "The journey touches on the night elves' hopes for Teldrassil after the sacrifice of Nordrassil during the Third War."
   },
   {
    "target": "class:Druid",

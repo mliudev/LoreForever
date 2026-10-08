@@ -43,10 +43,24 @@ word from `addon/LoreForever/Data`. Regenerating lore can reword them, so rechec
 
 | What | Where |
 | --- | --- |
-| Download links and count | The main button, **Get it on CurseForge**, goes to https://www.curseforge.com/wow/addons/lore-forever. Under it, **Windows installer** and **zip** fetch the latest GitHub release (`mliudev/LoreForever`) through `/download/*`. No email step (removed in LOR-77). The count adds GitHub release downloads (public API) and CurseForge project `1715510` (`CURSEFORGE_PROJECT_ID` in the `<script>` at the bottom of `public/index.html`). The page shows "New release" until the count is above 0. |
+| Download links and count | The main button, **Download for Windows**, fetches the latest signed installer from the GitHub release (`mliudev/LoreForever`) through `/download/installer`. The Downloads page recommends the Windows installer first, followed by the manual ZIP (`/download/zip`) and CurseForge (https://www.curseforge.com/wow/addons/lore-forever) as alternatives. No email step (removed in LOR-77). The count adds GitHub release downloads (public API) and CurseForge project `1715510` (`CURSEFORGE_PROJECT_ID` in the `<script>` at the bottom of `public/index.html`). The page shows "New release" until the count is above 0. |
 | Author card and socials | The "Made by Mike" card in the header. Its bio is a placeholder for Mike to rewrite. Discord and Twitch (twitch.tv/jiuthaimike) are live there, in the sidebar and on the "Vote on Discord" button. Every Discord link goes through `/discord?src=...` (see "Discord redirect" below), never a raw invite. The LoreForeverWoW accounts (LOR-74) are listed in a comment in the card: move each one out of the comment once its account exists. |
 
 ## Screenshots and narration samples
+
+### Download file details
+
+`/api/download-files` shares GitHub release sizes at the edge. If GitHub fails, it serves the verified public
+release snapshot in `public/data/download-files.json`. That response uses `publishedTag`, never an unverified
+`latestTag`; `voices-page.js` pins its manual links to the same release before showing the sizes. Healthy live
+metadata takes precedence again after the retry cooldown. Worker logs record the upstream HTTP status or
+failure category without tokens or raw upstream bodies.
+
+`scripts/release.sh` regenerates this snapshot after uploading release and language assets and before publishing
+the site, using the existing `gh` login when available. A metadata outage leaves the previous verified snapshot
+in place without blocking the release; its fallback downloads stay pinned to that older release. For an already
+published release, run `python3 scripts/download_snapshot.py 0.10.0` from the repo root.
+The generator refuses drafts, wrong tags, invalid sizes and missing catalog downloads.
 
 **Screenshots** (`public/screenshots/`) are real captures from the Forever beta on 2026-09-27, cropped from the
 desktop originals to hide player names and chat, then saved as JPEG:
@@ -460,8 +474,8 @@ to `/account#profile` when there's none yet).
     in `SETUP` and `USER_DATA`).
   - *An update* is a paste, read the same way, with three differences: it never switches the profile to another
     character (409 with the profile's `{name, realm}`, and the companion sends that character instead; switching is
-    still a paste on `/account`); a record whose facts haven't changed writes nothing (`{unchanged: true}`); and the
-    story isn't rewritten on every `/reload` (below). 6 a minute and 60 an hour per account.
+    still a paste on `/account`); a record whose facts haven't changed skips fact delivery but can refresh a due
+    story (`{unchanged: true}`); and the story isn't rewritten on every `/reload` (below). 6 a minute and 60 an hour per account.
   - *The journey data* (LOR-248): an update can carry `journey: {v: 1, tz, moments: [{t, k, ...}]}` next to the
     record (`companion/README.md`), built from the companion's journal: every story moment with its time and game IDs.
     `lib/journey.js` `readJourney` keeps only Journey.lua's moment kinds and the fields the page uses, tidies and caps
@@ -474,8 +488,12 @@ to `/account#profile` when there's none yet).
     the last written one (a level, a new land, dungeon, boss or mount, or 5 more quests: `movedOn` against
     `profiles.story_basis`) **and at least 6 hours since the last try** (`profiles.story_at`, failed tries included),
     within the same 3 a day and $100 a month as pastes. A profile with no written story gets one on its first update.
-    So an evening's play costs at most one story (about $0.0006), not one per `/reload`. A paste still writes one each
-    time (within the daily allowance).
+    Automatic updates keep this cadence, rather than one story per `/reload`. A paste still writes one each
+    time when its writer input changed (within the daily allowance). **Sync now** explicitly requests the newest
+    story inside the automatic cooldown. The exact writer input is stored as a key; repeated current records reuse
+    the story, and a database claim prevents concurrent writers. Facts save before writing; failure or limits keep
+    the working story and return a separate status and retry time. The companion retries a pending story even when
+    the delivered facts are identical.
   - `/account` lists **Connected apps** (when it last updated the profile, Disconnect) and says in the profile section
     that the companion keeps it up to date. Until the companion ships in Setup.exe (LOR-132), the invitation to
     connect it waits for the `companion` feature (below); connecting, updates and the list work either way.

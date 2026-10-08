@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Grislier Kind of Proof",
-   "body": "Southshore faces dangers from all directions, but the aggressive murlocs clustering along the Western Strand are an immediate menace to local fishermen and coastal travelers. Although Alliance adventurers frequently sweep the beaches to cull the creatures, Marshal Marcus Redpath demands undeniable verification before signing off on defensive reports. To humor the bureaucracy, Lieutenant Farren Orinelle relies on hired fighters to haul in cold, dripping murloc heads—an unpleasant task Farren himself finds entirely repulsive, especially given how thoroughly the sight has spoiled his appetite for Southshore's local seafood.",
+   "body": "Southshore faces dangers from all directions, but the aggressive murlocs clustering along the Western Strand are an immediate menace to local fishermen and coastal travelers. Although Alliance adventurers frequently sweep the beaches to cull the creatures, Marshal Marcus Redpath demands undeniable verification before signing off on defensive reports. To humor the bureaucracy, Lieutenant Farren Orinelle relies on hired fighters to haul in cold, dripping murloc heads\u2014an unpleasant task Farren himself finds entirely repulsive, especially given how thoroughly the sight has spoiled his appetite for Southshore's local seafood.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
     "do murlocs stop attacking",
     "farren quest chain"
    ],
-   "answer": "Not immediately. Even after presenting the initial collection, Marshal Redpath's exacting standards and continuing murloc raids lead Farren to demand further evidence before matters are resolved."
+   "answer": "The heads provide the proof Marshal Redpath requested. He accepts the delivery and then directs Farren to turn his attention to threats on the Eastern Strand."
   }
  ],
  "angles": [

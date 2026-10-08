@@ -1,6 +1,6 @@
 // Public release-file metadata, shared at the edge rather than calling GitHub from every visitor's browser.
 // GET /api/download-files -> { latestTag, byTag: { latest: { filename: bytes }, "<tag>": { filename: bytes } } }
-import { downloadFiles } from "../../lib/download-files.js";
+import { downloadFiles, publishedFiles } from "../../lib/download-files.js";
 
 const TTL = 300; // two GitHub calls per five minutes, per edge location
 const UNAVAILABLE = { error: "Download file details are temporarily unavailable." };
@@ -16,7 +16,8 @@ export async function onRequestGet({ request, env, waitUntil }) {
   const cache = globalThis.caches?.default;
   // Queries and incoming credentials do not alter this public metadata or its upstream URL.
   const key = new Request(new URL("/api/download-files", request.url).toString());
-  const cooldownKey = new Request(new URL("/api/download-files?internal=cooldown", request.url).toString());
+  // A previous deployment may have cached a 503 for an hour; do not let it hide the new verified fallback.
+  const cooldownKey = new Request(new URL("/api/download-files?internal=cooldown-v2", request.url).toString());
   const hit = cache && await cache.match(key).catch(() => null);
   if (hit) return hit;
   const held = cache && await cache.match(cooldownKey).catch(() => null);
@@ -30,8 +31,21 @@ export async function onRequestGet({ request, env, waitUntil }) {
   let result, status = 200;
   try { result = await downloadFiles(env); }
   catch (e) {
+    console.warn("download-files upstream unavailable", e.reason || "invalid-metadata");
     result = { data: UNAVAILABLE, complete: false, retryAfter: e.retryAfter || 60 };
     status = 503;
+  }
+  if (!result.complete) {
+    try {
+      const snapshot = await env.ASSETS.fetch(new URL("/data/download-files.json", request.url));
+      if (snapshot.ok) {
+        const published = publishedFiles(await snapshot.json());
+        result.data = status === 503 ? published : {
+          ...result.data, byTag: { ...published.byTag, ...result.data.byTag },
+        };
+        status = 200;
+      }
+    } catch {}
   }
   const res = Response.json(result.data,
     { status, headers: { "Cache-Control": result.complete ? `public, max-age=${TTL}` : "no-store" } });

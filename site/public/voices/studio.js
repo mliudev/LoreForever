@@ -17,6 +17,8 @@
 // .mp3 here before it goes up (mp3.js).
 // Each upload carries its CRC-32 for the test pack's zip.
 
+import { studioContext, editorLink, studioSignIn, refreshCatalog, scriptReviewNote } from "/voices/studio-workflow.js";
+
 import { planPack, packFolder } from "/voices/testpack.js";
 import { crc32, crcHex } from "/voices/crc32.js";
 import { toMp3 } from "/voices/mp3.js";
@@ -42,7 +44,9 @@ let nextPos = 0;
 let mine = new Set();   // story keys this person picked, per voice (kept in this browser)
 const open = new Set(), busy = new Set(), errors = {};
 let creating = false, renaming = false, sent = null;
-const SIGN_IN = "/account?next=/voices/studio";
+const returnQuery = new URLSearchParams(location.search);
+let applyReturnContext = true, focusLine = returnQuery.get("line"), catalogNote = "", refreshing = false;
+let reviewStatus = null, reviewLocale = null;
 const mineKey = () => `lf-studio-mine-${st?.voice || "new"}`;
 
 const lines_ = n => `${n} line${n === 1 ? "" : "s"}`;
@@ -76,10 +80,20 @@ async function api(action, { method = "GET", body, query = "", headers = {} } = 
 async function load(voiceId) {
   const [state, data] = await Promise.all([
     api("state", { query: voiceId ? `?voice=${encodeURIComponent(voiceId)}` : "" }),
-    lines ? Promise.resolve(lines) : fetch("/voices/lines.json", { cache: "no-cache" }).then(r => r.json()).catch(() => null),
+    lines ? Promise.resolve(lines) : refreshCatalog(fetch).then(r => r.data),
   ]);
   lines = data;
   st = state;
+  if (st.ok && applyReturnContext) {
+    applyReturnContext = false;
+    const requestedLang = lines?.languages.some(l => l.locale === returnQuery.get("lang") && l.lines > 0) ? returnQuery.get("lang") : null;
+    const context = studioContext(st, { lang: requestedLang, voice: returnQuery.get("voice") });
+    if (context.locale) browseLocale = context.locale;
+    if (context.voice && context.voice !== st.voice) {
+      return load(context.voice); // retrieve this voice's own takes; never relabel another voice's recordings
+    }
+    if (!context.voice) { st.voice = null; st.takes = {}; }
+  }
   if (st.ok) {
     st.takes ||= {};
     st.voices ||= [];
@@ -88,8 +102,59 @@ async function load(voiceId) {
   if (lines && !lines.languages.some(l => l.locale === browseLocale && l.lines > 0)) browseLocale = "enUS";
   buildItems();
   render();
+  if (focusLine) {
+    const it = byId(focusLine);
+    if (it) {
+      open.add(it.id);
+      const position = queue().list.findIndex(i => i.id === it.id);
+      if (position >= 0) nextPos = position;
+      render();
+      [...app.querySelectorAll("[data-row]")].find(el => el.dataset.row === it.id)?.scrollIntoView({ block: "center" });
+    } else { catalogNote = "That recording line isn't in the current catalog. Find another line below."; render(); }
+    focusLine = null;
+  }
+  await loadReviewStatus();
   // Claim a zone (zone-claims.js): drawn once the list comes back, so the lines never wait for it.
   if (st.ok && lines) { await loadZones(st.voice, locale()); render(); }
+}
+
+async function loadReviewStatus() {
+  const loc = locale();
+  reviewStatus = null; reviewLocale = loc;
+  if (loc === "enUS") return;
+  try {
+    const res = await fetch(`/translate/data/${encodeURIComponent(loc)}/status.json`, { cache: "no-store" });
+    const data = res.ok ? await res.json() : null;
+    if (reviewLocale !== loc || locale() !== loc) return;
+    reviewStatus = data;
+  } catch { /* Existing scripts remain usable when review status is unavailable. */ }
+  if (locale() === loc) render();
+}
+
+async function refreshScript() {
+  if (refreshing || busy.size) return;
+  const activeLine = queue().list[nextPos]?.id;
+  refreshing = true; render();
+  const result = await refreshCatalog(fetch, lines);
+  lines = result.data;
+  catalogNote = result.fresh ? "Script refreshed from the current catalog. Your uploaded takes are kept; changed text is marked below."
+    : "Couldn't refresh the catalog. The script already shown and your uploaded takes are kept. Try again later.";
+  refreshing = false; buildItems();
+  const position = queue().list.findIndex(i => i.id === activeLine);
+  if (position >= 0) nextPos = position;
+  render();
+  await loadReviewStatus();
+}
+
+function signInHref() {
+  const q = new URLSearchParams(location.search);
+  const linkedLang = q.get("lang");
+  q.set("lang", locale());
+  if (currentVoice()) q.set("voice", st.voice);
+  else if (linkedLang !== locale()) q.delete("voice");
+  const line = queue().list[nextPos]?.id;
+  if (line) q.set("line", line);
+  return studioSignIn(`?${q}`);
 }
 
 function currentVoice() { return st.voices?.find(v => v.id === st.voice) || null; }
@@ -106,7 +171,7 @@ function buildItems() {
         items.push({
           id: l.id, group: g.name, story: s, child: i > 0 || l.id.includes("#"),
           name: s.name[loc] || s.name.enUS, q: l.q ? (l.q[loc] || l.q.enUS) : null,
-          text, hash: l.hash[loc], hints: l.hints[loc] || [], file: l.file,
+          text, english: l.text.enUS, englishQuestion: l.q?.enUS, hash: l.hash[loc], hints: l.hints[loc] || [], file: l.file,
           target: text ? text.split(/\s+/).length / WORDS_PER_SECOND : 0,
         });
       });
@@ -196,8 +261,13 @@ function warningText(key, c, it) {
 // the error on the line) if it couldn't.
 async function ensureVoice(it) {
   if (currentVoice()) return true;
+  if (st.voices.length >= st.limits.voices) {
+    errors[it.id] = "You already have two voices. Choose a voice to record in its language, or ask us on Discord about adding another.";
+    render(); return false;
+  }
   const who = (st.user?.display_name || "").trim().slice(0, 50);
-  const name = who ? `${who}'s voice` : "My voice";
+  const base = who ? `${who}'s voice` : "My voice";
+  const name = st.voices.some(v => v.name.toLowerCase() === base.toLowerCase()) ? `${base} (${browseLocale})` : base;
   const res = await api("voice", { method: "POST", body: { name, locale: browseLocale } });
   if (!res.ok) { errors[it.id] = res.error; render(); return false; }
   store.set(`lf-studio-mine-${res.id}`, [...mine]);   // stories ticked before the voice existed
@@ -231,7 +301,7 @@ async function upload(it, file) {
     res = await api("take", {
       method: "PUT", query: `?voice=${encodeURIComponent(voice)}&line=${encodeURIComponent(it.id)}`, body: new Blob([a.buf]),
       headers: { "X-File-Name": encodeURIComponent(file.name.slice(0, 120)), "X-Checks": encodeURIComponent(JSON.stringify(a.checks)),
-                 "X-CRC32": crcHex(crc32(new Uint8Array(a.buf))) },
+                 "X-Text-Hash": it.hash, "X-CRC32": crcHex(crc32(new Uint8Array(a.buf))) },
     });
     if (res.ok || !res.retryAfter) break;
     await new Promise(r => setTimeout(r, Math.min(60, res.retryAfter) * 1000));
@@ -321,7 +391,7 @@ function renderNewVoice() {
     <label class="fb-field"><span>Voice name</span>
       <input type="text" name="name" maxlength="60" required placeholder="e.g. Tales of the Eastern Kingdoms">
       <small>The title players pick in the voice list. You can change it later.</small></label>
-    <label class="fb-field"><span>Language</span><select name="locale">${languageOptions("enUS")}</select>
+    <label class="fb-field"><span>Language</span><select name="locale">${languageOptions(browseLocale)}</select>
       <small>One voice, one language. The lines show their text in the language you pick; a language with draft text only
         has the lines translated so far. To narrate in two languages, make a voice for each.</small></label>
     <div class="fb-actions"><button type="submit" class="btn-download">Start</button>
@@ -376,6 +446,31 @@ function hintsHtml(it) {
   return it.hints.length ? `<div class="st-hints">${it.hints.map(([n, say]) => `<span><b>${esc(n)}</b> <em>${esc(say)}</em></span>`).join("")}</div>` : "";
 }
 
+function sourceToolsHtml(it) {
+  const note = scriptReviewNote(reviewLocale === locale() ? reviewStatus : null, it.story.key, locale());
+  return `<div class="st-source-tools">
+    <div class="st-source-links"><span>Entry <code>${esc(it.story.key)}</code> · Line <code>${esc(it.id)}</code></span>
+      ${locale() !== "enUS" ? `<a href="${esc(editorLink(it, locale(), st.voice))}">Check or correct this translation</a>` : ""}</div>
+    <details class="st-original"><summary>English original</summary>
+      ${it.englishQuestion ? `<p><strong>${esc(it.englishQuestion)}</strong></p>` : ""}
+      <div class="st-script">${it.english ? esc(it.english) : "English original unavailable. Try refreshing the script."}</div></details>
+    <p class="st-note">${esc(note)}</p></div>`;
+}
+
+function recordingTextHtml() {
+  return `<aside class="st-text-help"><p><strong>Read the script shown here.</strong> It comes from the current recording catalog.
+    If a line needs a correction, open its translation editor before recording it.
+    <a href="/translate#recording">How corrections reach recording</a>.</p>
+    <details><summary>After correcting or checking a translation</summary><p>“Looks right” saves your check; it doesn't publish it or change this recording script.
+      Saved edits are reviewed, then merged and released. They appear here when the recording catalog is updated.
+      After a correction, use <b>Refresh script</b> and check that your wording is shown before recording that line.
+      You can record other checked lines while you wait; your existing takes are kept.
+      For place and character names, use the names in the game for this language, such as <b>Hurlevent</b> in French.
+      <a href="/translate#names">Naming guidance</a>.</p></details>
+    <button class="st-b" type="button" id="st-refresh"${refreshing || busy.size ? " disabled" : ""}>${refreshing ? "Refreshing…" : "Refresh script"}</button>
+    ${catalogNote ? `<p class="st-note" role="status">${esc(catalogNote)}</p>` : ""}</aside>`;
+}
+
 function nextHtml() {
   const { list, mine: fromMine, starter, zone } = queue();
   if (!list.length) return `<section class="st-next"><p class="st-done-all">Every line with text in this language has a recording.
@@ -399,8 +494,9 @@ function nextHtml() {
     ${stateOf(it) === "stale" ? `<p class="st-note stale">We reworded this line after you uploaded it. Please record the new text.</p>` : ""}
     <div class="st-script">${esc(it.text)}</div>
     ${hintsHtml(it)}
+    ${sourceToolsHtml(it)}
     ${!st.signedIn ? `<div class="st-drop"><strong>Recorded it? Upload it here</strong>
-      <p><a class="btn-small" href="${SIGN_IN}">Sign in to upload</a></p>
+      <p><a class="btn-small" href="${esc(signInHref())}">Sign in to upload</a></p>
       <p>A Lore Forever account keeps your recordings yours, so you can come back to them. It takes a minute with Google.</p>
       ${howToRecordHtml()}</div>`
     : `<div class="st-drop" data-drop="${esc(it.id)}">
@@ -422,10 +518,10 @@ function rowHtml(it) {
   } else if (it.text) {
     meta.push(`<span>${it.text.split(/\s+/).length} words · about ${fmtTime(it.target)}</span>`);
   }
-  if (it.text) meta.push(`<button class="st-b ghost" type="button" data-text="${esc(it.id)}" style="padding:0">${open.has(it.id) ? "Hide text" : "Show text"}</button>`);
+  meta.push(`<button class="st-b ghost" type="button" data-text="${esc(it.id)}" style="padding:0">${open.has(it.id) ? "Hide text" : "Show text"}</button>`);
   if (s === "warn") for (const w of t.checks.warnings) notes.push(`<p class="st-note warn">${esc(warningText(w, t.checks, it))}</p>`);
   if (s === "stale") notes.push(`<p class="st-note stale">We reworded this line after you uploaded it. Please record the new text. Until then this line plays in the default voice.</p>`);
-  if (s === "none") notes.push(`<p class="st-note">Not translated yet. <a href="/translate">Help translate it</a>, then it can be recorded.</p>`);
+  if (s === "none") notes.push(`<p class="st-note">Not translated yet. <a href="${esc(editorLink(it, locale(), st.voice))}">Help translate it</a>, then it can be recorded.</p>`);
   if (errors[it.id]) notes.push(`<p class="st-note bad">${esc(errors[it.id])}</p>`);
   let acts = "";
   if (!st.signedIn) acts = "";   // the sign-in prompt is in the next-line box and the send section
@@ -434,11 +530,11 @@ function rowHtml(it) {
     <button class="st-b ghost" type="button" data-choose="${esc(it.id)}">Replace</button>
     <button class="st-b ghost" type="button" data-remove="${esc(it.id)}">Remove</button>`;
   else if (s !== "none") acts = `<span class="st-slot">Drop a file here or <button class="st-b" type="button" data-choose="${esc(it.id)}">Upload</button></span>`;
-  return `<div class="st-row${it.child ? " child" : ""}"${s !== "none" && st.signedIn ? ` data-drop="${esc(it.id)}"` : ""}>
+  return `<div data-row="${esc(it.id)}" class="st-row${it.child ? " child" : ""}"${s !== "none" && st.signedIn ? ` data-drop="${esc(it.id)}"` : ""}>
     <span class="st-dot ${s === "missing" ? "" : s}" title="${{ ok: "Uploaded", warn: "Needs a look", stale: "Text changed", missing: "Missing", none: "Not translated yet" }[s]}"></span>
     <div class="st-what">${label}<span class="st-meta">${meta.join("")}</span>${notes.join("")}</div>
     <div class="st-acts">${acts}</div>
-    ${open.has(it.id) && it.text ? `<div class="st-script">${esc(it.text)}</div>${hintsHtml(it)}` : ""}</div>`;
+    ${open.has(it.id) ? `${it.text ? `<div class="st-script">${esc(it.text)}</div>${hintsHtml(it)}` : ""}${sourceToolsHtml(it)}` : ""}</div>`;
 }
 
 // The voice bar: the voice and its language, or (no voice yet) the language picker and how a voice starts.
@@ -446,8 +542,10 @@ function voiceBarHtml(v, lang) {
   if (!v) {
     return `<div class="st-voicebar">
       <span class="st-lang"><label for="st-locale">Language:</label> <select id="st-locale">${languageOptions(browseLocale)}</select></span>
-      <span>${st.signedIn ? "Your first upload starts your voice. You can name it any time."
-        : `Have a look around. <a href="${SIGN_IN}">Sign in with Google</a> to upload.`}</span></div>`;
+      <span>${st.signedIn ? (st.voices.length ? "No voice selected in this language. Your first upload starts a new voice if there is room." : "Your first upload starts your voice. You can name it any time.")
+        : `Have a look around. <a href="${esc(signInHref())}">Sign in with Google</a> to upload.`}</span>
+      ${st.signedIn && st.voices.length < st.limits.voices ? `<button class="st-b ghost" type="button" id="st-new-voice">+ New voice</button>` : ""}
+      ${st.voices.length ? `<label>Your voices: <select id="st-voice"><option value="">Choose a voice</option>${st.voices.map(x => `<option value="${esc(x.id)}">${esc(x.name)} · ${esc(x.locale)}</option>`).join("")}</select></label>` : ""}</div>`;
   }
   const voiceSelect = st.voices.length > 1
     ? `<select id="st-voice" aria-label="Voice">${st.voices.map(x => `<option value="${esc(x.id)}"${x.id === v.id ? " selected" : ""}>${esc(x.name)}</option>`).join("")}</select>`
@@ -506,9 +604,10 @@ function renderWorkspace() {
   app.innerHTML = `${intro()}
     ${lendHtml()}
     ${voiceBarHtml(v, lang)}
+    ${recordingTextHtml()}
     <ul class="st-spec"><li><b>.mp3</b>, <b>.m4a</b>, <b>.ogg</b>, <b>.wav</b>, <b>.flac</b> or <b>.webm</b></li><li><b>Mono</b>, 44.1 or 48 kHz</li>
       <li>About <b>−16 LUFS</b>, peaks ≤ −1 dB</li><li>Short silence at each end</li></ul>
-    ${zonesHtml({ lines, takes: st.takes, signedIn: st.signedIn, signIn: SIGN_IN, displayName: st.user?.display_name })}
+    ${zonesHtml({ lines, takes: st.takes, signedIn: st.signedIn, signIn: signInHref(), displayName: st.user?.display_name })}
     ${nextHtml()}
     <section id="st-bulkup"></section>
     <div class="st-bar">
@@ -615,7 +714,7 @@ function sendHtml(done, total, counts) {
   if (!st.signedIn) return `<section class="st-send" id="st-send"><h2>Send for review</h2>
     <p>Upload as many lines as you like, hear them in game with your own test pack, then send them here. We listen
       to every line, build your pack, and list it on the Voices page with your name on it.</p>
-    <p><a class="btn-small" href="${SIGN_IN}">Sign in to start</a></p></section>`;
+    <p><a class="btn-small" href="${esc(signInHref())}">Sign in to start</a></p></section>`;
   if (sent) return `<section class="st-send" id="st-send"><h2>Sent for review</h2>
     <p>Thanks! We'll listen to your ${lines_(sent)}, build your pack and get back to you by email. You can keep uploading;
       send again when you've added more.</p><button class="st-b" type="button" id="st-send-again">Send again</button></section>`;
@@ -659,7 +758,8 @@ function setMine(keys, on) {
 
 function bindWorkspace() {
   const on = (id, ev, fn) => document.getElementById(id)?.addEventListener(ev, fn);
-  on("st-voice", "change", e => { sent = null; load(e.target.value); });
+  on("st-refresh", "click", refreshScript);
+  on("st-voice", "change", e => { if (e.target.value) { sent = null; load(e.target.value); } });
   on("st-new-voice", "click", () => { creating = true; render(); });
   on("st-rename-open", "click", () => { renaming = true; render(); document.getElementById("st-rename")?.focus(); });
   on("st-rename-save", "click", async () => {
@@ -691,6 +791,7 @@ function bindWorkspace() {
   });
   on("st-locale", "change", async e => {
     browseLocale = e.target.value; store.set("lf-studio-locale", browseLocale); nextPos = 0; buildItems(); render();
+    await loadReviewStatus();
     await loadZones(null, browseLocale);   // the zone list in that language
     render();
   });

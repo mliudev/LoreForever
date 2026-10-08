@@ -263,7 +263,17 @@ local function loreButton(parent, name)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
   b:SetScript("OnClick", function(self)
     if IsShiftKeyDown and IsShiftKeyDown() then return ns.UI.QueueQuest(self.quest, self.title) end
-    if self.key then ns.UI.Open(self.key, nil, self.via) end
+    if self.key then
+      ns.UI.Open(self.key, nil, self.via)
+    elseif self.quest and self.title then
+      ns.UI.Open()
+      if self.via == "questdialog" then
+        ns.UI.ShowQuestText({ id = self.quest, title = self.title,
+          text = ns.Voice.QuestPageText(ns.Voice.questKind), objectives = "" })
+      else
+        ns.UI.ShowQuestText({ id = self.quest, title = self.title })
+      end
+    end
   end)
   b:Hide()
   return b
@@ -532,7 +542,7 @@ function Hooks.UpdateQuestDialogButton()
   local title = GetTitleText and GetTitleText()
   b.key = questKeyFor(id ~= 0 and id or nil, title)
   b.quest, b.title = buttonQuest(b, id), type(title) == "string" and title ~= "" and title or nil
-  b:SetShown(b.key ~= nil)
+  b:SetShown(b.key ~= nil or (b.quest ~= nil and b.title ~= nil))
 end
 
 -- The play button follows the page and what plays (UI.UpdateNowPlaying calls this): beside Lore, or in its place when

@@ -17,7 +17,7 @@
   "wiki": "Bashal'Aran (quest)",
   "chain": []
  },
- "summary": "The demonic satyrs and vicious grells that infest the ancient night elven city of Bashal'Aran will not approach one shrine, bathed in an unearthly blue aura. Thundris Windweaver, the elder of Auberdine, sends adventurers to investigate the source of this untouched sanctuary. Reaching the site reveals the lingering spirit of Asterion, an ancient highborne presence yearning for civil company.",
+ "summary": "The demonic satyrs and vicious grells that infest the ancient night elven city of Bashal'Aran will not approach one shrine, bathed in an unearthly blue aura. Thundris Windweaver, the elder of Auberdine, sends adventurers to investigate the source of this untouched sanctuary.",
  "sections": [
   {
    "title": "A Beacon in the Ruins",
@@ -46,7 +46,7 @@
     "why demons afraid",
     "why satyrs stay away"
    ],
-   "answer": "No one knows yet. A strange blue aura permeates the shrine, and the demonic satyrs and grells that otherwise infest the ruins will not approach it. Thundris Windweaver sends you to find the aura's source, which leads you to the ancient spirit Asterion."
+   "answer": "No one knows yet. A strange blue aura permeates the shrine, and the demonic satyrs and grells that otherwise infest the ruins will not approach it. Thundris Windweaver sends you to find the aura's source."
   },
   {
    "q": "Who sends you on this quest?",
@@ -58,28 +58,12 @@
    "answer": "Thundris Windweaver, a night elf druid and the elder of Auberdine, provides the quest after observing the unnatural demonic movements within the eastern ruins."
   },
   {
-   "q": "Who is Asterion?",
-   "aliases": [
-    "who is the ghost",
-    "asterion lore"
-   ],
-   "answer": "Asterion is an ancient night elf shade bound to a shrine in Bashal'Aran. Long separated from civilized society, he endures surrounded by hostile demonic beasts."
-  },
-  {
    "q": "What is Bashal'Aran?",
    "aliases": [
     "what happened to bashal'aran",
     "history of bashal'aran"
    ],
    "answer": "Bashal'Aran is an ancient kaldorei ruin nestled in the forests of Darkshore. Sacked during the ancient Sundering, it has become infested with magical parasites, grells, and satyrs seeking to feast on its dormant ley powers."
-  },
-  {
-   "q": "Does this quest chain continue?",
-   "aliases": [
-    "next quest",
-    "what comes after bashal'aran"
-   ],
-   "answer": "Yes. Upon speaking to Asterion, he enlists your help to strike back against the surrounding satyrs and grells to aid his lingering spirit."
   }
  ],
  "angles": [

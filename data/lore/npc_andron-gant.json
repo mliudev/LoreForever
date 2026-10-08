@@ -8,7 +8,7 @@
   "wiki": "Andron Gant",
   "refs": 2
  },
- "summary": "Andron Gant is a reclusive, frequently intoxicated Forsaken residing in the murky depths of the Apothecarium in the Undercity. While he presents himself as a harmless drunk handling occasional research commissions, he operates covertly in shadowy underground networks.",
+ "summary": "Andron Gant is a reclusive, frequently intoxicated Forsaken residing in the murky depths of the Apothecarium in the Undercity. He handles occasional research commissions for local mages.",
  "sections": [
   {
    "title": "A Slurring Informant",
@@ -41,22 +41,22 @@
    "answer": "Gant acts as an intermediary for certain Undercity mages, arranging payments to scavengers and contacts like Jediga to recover ancient relics from the ruins of Azshara."
   },
   {
-   "q": "What is Andron Gant's connection to the Syndicate?",
+   "q": "Why do the Deathstalkers investigate Andron Gant?",
    "aliases": [
-    "gant syndicate",
-    "is andron gant a traitor",
+    "gant investigation",
+    "andron gant contacts",
     "who does andron gant work for"
    ],
-   "answer": "Despite living within the heart of the Forsaken capital, Gant secretly acts as an informant for the Syndicate, collecting intelligence into ledgers to smuggle to human outlaws."
+   "answer": "The Deathstalkers investigate his dealings with outside contacts and seek intelligence about his research commissions."
   },
   {
-   "q": "Who exposed Andron Gant's treachery?",
+   "q": "Who directs the investigation into Andron Gant?",
    "aliases": [
-    "who caught andron gant",
+    "who investigates andron gant",
     "deathstalkers andron gant",
     "varimathras andron gant"
    ],
-   "answer": "The Deathstalkers, the assassin and espionage order answering to Lord Varimathras, intercepted Gant's Syndicate courier and tricked him into handing over his spy ledger."
+   "answer": "The Deathstalkers investigate Gant on behalf of Lord Varimathras, seeking intelligence about his contacts and research."
   }
  ],
  "angles": [

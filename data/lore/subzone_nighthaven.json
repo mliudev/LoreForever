@@ -36,7 +36,7 @@
     "can non druids go to nighthaven",
     "how do non druids get here"
    ],
-   "answer": "Yes, although the village is remote and lacks public flight paths for non-druids. Outsiders must trek on foot through the timbermaw tunnels connecting Felwood and Winterspring, except during the annual Lunar Festival when magical invitations allow broader access."
+   "answer": "Yes. Non-druids can reach Moonglade through the Timbermaw tunnels or use the public flight masters elsewhere in the valley, then travel to Nighthaven. The village's own flight masters serve only druids."
   },
   {
    "q": "Why are night elves and tauren living together peacefully here?",
@@ -63,7 +63,7 @@
   },
   {
    "target": "profession:Herbalism",
-   "text": "The tranquil flora of Nighthaven and surrounding Moonglade make it a peaceful place to consult herbalism trainers and harvest undisturbed reagents around Lake Elune'ara."
+   "text": "Nighthaven is a peaceful place to consult herbalism trainers among the tranquil groves of Moonglade."
   }
  ],
  "keywords": [

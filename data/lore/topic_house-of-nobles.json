@@ -26,8 +26,8 @@
   },
   {
    "title": "Whispers of Treason",
-   "body": "The council's obstinacy is far from simple greed. In truth, Lady Katrana Prestor\u2014secretly the black dragon Onyxia\u2014has systematically manipulated the House of Nobles to paralyze the kingdom. By stoking the aristocracy's arrogance during the stonemason negotiations and encouraging them to hoard royal funds, she orchestrated both the realm's internal collapse and the King's kidnapping. High-ranking aristocrats like Lord Gregor Lescovar actively conspire alongside the Defias Brotherhood in the shadow of the throne, ensuring no imperial troops march to save the outlying towns.",
-   "spoiler": 2
+   "body": "The council's obstinacy is far from simple greed. In truth, Lady Katrana Prestor—secretly the black dragon Onyxia—has systematically manipulated the House of Nobles to paralyze the kingdom. By stoking the aristocracy's arrogance during the stonemason negotiations and encouraging them to hoard royal funds, she orchestrated both the realm's internal collapse and the King's kidnapping. High-ranking aristocrats like Lord Gregor Lescovar actively conspire alongside the Defias Brotherhood in the shadow of the throne, ensuring no imperial troops march to save the outlying towns.",
+   "spoiler": 1
   }
  ],
  "faq": [
@@ -74,7 +74,7 @@
     "baurles wishock",
     "noble murdered by warlocks"
    ],
-   "answer": "Lord Baurles K. Wishock was an influential noble who stumbled across the secret cabal of warlocks operating beneath The Slaughtered Lamb tavern in the Mage Quarter. When he threatened to launch a royal inquiry and petition the Crown to shut them down, the warlocks poisoned him to protect their secrecy."
+   "answer": "Lord Baurles K. Wishock is an influential noble lobbying for an investigation of the warlocks beneath The Slaughtered Lamb. The consequences of his inquiry are uncovered in the warlock quest chain."
   },
   {
    "q": "Did all the nobles turn against the Stonemasons?",
@@ -97,7 +97,7 @@
   },
   {
    "target": "class:Warlock",
-   "text": "Stormwind's practitioners of the dark arts beneath The Slaughtered Lamb learned early that poking the House of Nobles invites unwanted inquiries\u2014and that a well-placed vial of poison easily silences crusading lords."
+   "text": "Stormwind's practitioners of the dark arts beneath The Slaughtered Lamb face unwanted inquiries from influential nobles."
   },
   {
    "target": "faction:Alliance",

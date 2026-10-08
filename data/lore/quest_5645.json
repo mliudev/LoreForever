@@ -18,11 +18,11 @@
   "wiki": "A Lack of Fear",
   "chain": []
  },
- "summary": "A Lack of Fear is a rite-of-passage summons for Alliance priests, calling promising disciples back to the grand halls of Ironforge. High Priest Rohan awaits in the Mystic Ward to test their discipline and bestow teachings tailored to their growing resilience.",
+ "summary": "A Lack of Fear is a rite-of-passage summons for dwarven priests, calling promising disciples back to the grand halls of Ironforge. High Priest Rohan awaits in the Mystic Ward to test their discipline and bestow teachings tailored to their growing resilience.",
  "sections": [
   {
    "title": "A Summons to Ironforge",
-   "body": "Priests serving the Alliance abroad are routinely directed by their local mentors to report back to their order's senior clergy. For dwarven disciples and their close allies, that guidance leads straight to High Priest Rohan in the heart of Ironforge's Mystic Ward. The summons marks a turning point where basic spiritual practice gives way to deeper, trial-tested applications of holy magic.",
+   "body": "Priests serving the Alliance abroad are routinely directed by their local mentors to report back to their order's senior clergy. For dwarven disciples, that guidance leads straight to High Priest Rohan in the heart of Ironforge's Mystic Ward. The summons marks a turning point where basic spiritual practice gives way to deeper, trial-tested applications of holy magic.",
    "spoiler": 0
   },
   {
@@ -80,7 +80,7 @@
     "do i have to fight",
     "is there combat in a lack of fear"
    ],
-   "answer": "No, this quest is purely a breadcrumb journey requiring the priest to travel to Ironforge and report to High Priest Rohan to unlock subsequent training."
+   "answer": "No. The quest requires traveling to Ironforge and speaking to High Priest Rohan, who teaches Fear Ward."
   }
  ],
  "angles": [
