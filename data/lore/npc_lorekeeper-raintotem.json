@@ -8,11 +8,11 @@
   "wiki": "Lorekeeper Raintotem",
   "refs": 1
  },
- "summary": "Lorekeeper Raintotem is a revered tauren elder stationed in northern Mulgore just south of Red Rocks. He serves as an overseer for sacred rites of passage and guardian of the ancestors' resting grounds.",
+ "summary": "Lorekeeper Raintotem is a tauren elder stationed in northern Mulgore just south of Red Rocks. He tends to the sacred burial grounds and asks adventurers to drive off the Bristleback quilboar disturbing them.",
  "sections": [
   {
    "title": "Watcher of Red Rocks",
-   "body": "Positioned near the sacred bluffs of Red Rocks in Mulgore, Lorekeeper Raintotem watches over ancestral heritage and spiritual rites. As young tauren complete their traditional rites of passage, Raintotem oversees the Rite of Wisdom, testing their understanding and spiritual devotion before guiding them toward greater trials across the plains.",
+   "body": "Positioned near the sacred bluffs of Red Rocks in Mulgore, Lorekeeper Raintotem tends to the spiritual obligations of his people. He asks adventurers to drive Bristleback Interlopers from the burial ground, restoring peace to the ancestors' resting place.",
    "spoiler": 0
   },
   {
@@ -32,12 +32,13 @@
    "answer": "Lorekeeper Raintotem is stationed in northern Mulgore, located just south of Red Rocks along the path leading up toward the ancestral cliffs."
   },
   {
-   "q": "What is the Rite of Wisdom?",
+   "q": "Why does Raintotem seek help with the burial grounds?",
    "aliases": [
-    "rite of wisdom quest",
-    "what is rite of wisdom"
+    "raintotem sacred burial",
+    "why help raintotem",
+    "red rocks burial grounds"
    ],
-   "answer": "The Rite of Wisdom is an integral rite of passage for young tauren adventurers in Mulgore. Supervised by Lorekeeper Raintotem, it tests an initiate's spiritual grounding and readiness to serve their people beyond Bloodhoof Village."
+   "answer": "He asks adventurers to drive Bristleback Interlopers from Red Rocks, where the quilboar are ravaging the sacred tauren burial ground."
   },
   {
    "q": "Why does Raintotem need help at Red Rocks?",
@@ -51,7 +52,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren heroes, presenting yourself to Lorekeeper Raintotem is an essential rite of passage that bridges youthful training and adult duties to the tribe."
+   "text": "Helping Raintotem defend Red Rocks honors the ancestors and preserves the burial traditions of your people."
   },
   {
    "target": "class:Shaman",
@@ -63,12 +64,10 @@
   "mulgore",
   "raintotem",
   "red rocks",
-  "rite of wisdom",
   "sacred burial"
  ],
  "related": [
   "subzone:red-rocks",
-  "quest:773",
   "quest:833",
   "zone:mulgore",
   "topic:tauren"

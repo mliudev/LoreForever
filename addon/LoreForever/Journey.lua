@@ -2033,6 +2033,25 @@ do
     r.link:SetSize(10, 10)
     r.link:SetPoint("RIGHT", -6, 0)
     r.link:SetVertexColor(T.rgba(T.color.gold))
+    -- Keep the screenshot beside its own moment even when the map/card is hidden on a narrow panel.
+    local thumb = CreateFrame("Button", nil, r)
+    thumb.tex = thumb:CreateTexture(nil, "ARTWORK")
+    thumb.tex:SetPoint("TOPLEFT", 1, -1)
+    thumb.tex:SetPoint("BOTTOMRIGHT", -1, 1)
+    T.Outline(thumb, "rim")
+    T.Area(thumb, "hover", "HIGHLIGHT"):SetAllPoints()
+    thumb:SetScript("OnClick", function(self) Journey.ShowPicture(self.moment) end)
+    thumb:SetScript("OnEnter", function(self)
+      if not self.moment then return end
+      Journey.FocusMap(self.moment, true)
+      GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+      momentLines(self.moment, true)
+      T.Tip(L["Click to see it larger."], "tipDim", true)
+      GameTooltip:Show()
+    end)
+    thumb:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    thumb:Hide()
+    r.thumb = thumb
     r:SetScript("OnClick", function(self)
       local shift = IsShiftKeyDown and IsShiftKeyDown()
       if self.quest and not shift then   -- Completed: the quest's text again, then its lore (LOR-40)
@@ -2061,6 +2080,20 @@ do
     local indent = it.kind and 16 or 6
     local opens = not it.head and (it.chapter or it.key or it.place or it.quest) and true or false
     local right = opens and -20 or -6
+    -- New row thumbnails stay opt-in until their in-game appearance is verified.
+    local pic = settings().journeyPictureThumbnails == true and not it.head and Journey.Picture(it.ev)
+    r.thumb.moment = nil
+    r.thumb:Hide()
+    if pic and width >= 180 and Journey.SetPicture(r.thumb.tex, pic) then
+      local scale = math.min(54 / pic.w, (ROW_H - 8) / pic.h)
+      local pw, ph = math.max(1, math.floor(pic.w * scale)), math.max(1, math.floor(pic.h * scale))
+      r.thumb:SetSize(pw + 2, ph + 2)
+      r.thumb:ClearAllPoints()
+      r.thumb:SetPoint("RIGHT", right, 0)
+      r.thumb.moment = it.moment
+      r.thumb:Show()
+      right = right - pw - 9
+    end
     r:SetWidth(width)
     r.text:ClearAllPoints()
     r.sub:ClearAllPoints()

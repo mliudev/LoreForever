@@ -380,14 +380,14 @@ end)
 check("packs", {
   function(c)
     local core = meta(addonName, "Version")
-    local rows, bad, voices, langs = {}, {}, {}, {}
+    local rows, bad, voices, langs, support = {}, {}, {}, {}, {}
     for _, rec in ipairs(ns.Packs.registry) do
       local v = meta(rec.name, "Version") or rec.version
       local loaded = ns.Packs.IsLoaded(rec.name)
       rows[#rows + 1] = { name = rec.name, kind = rec.kind, version = v, loaded = loaded,
         reason = rec.loadable == false and rec.reason or nil }
       local label = rec.name:gsub("^LoreForever_", "") .. " " .. (v or "?") .. (loaded and "" or " (not loaded)")
-      table.insert((rec.kind == "voice") and voices or langs, label)
+      table.insert((rec.kind == "voice") and voices or (rec.kind == "transport") and support or langs, label)
       if isOwn(rec.name) then
         if core and v and v ~= core then bad[#bad + 1] = string.format("%s is %s", rec.name, v) end
         if rec.loadable == false and rec.reason ~= "DISABLED" then
@@ -398,6 +398,7 @@ check("packs", {
     run.packs = { core = core, voices = list(ns.Voice.chain), list = rows }
     local found = string.format("voices: %s; languages: %s", #voices > 0 and table.concat(voices, ", ") or "none",
       #langs > 0 and table.concat(langs, ", ") or "none")
+    if #support > 0 then found = found .. "; playback support: " .. table.concat(support, ", ") end
     if not core then
       fail("packs match the core's version", "can't read Lore Forever's own version; " .. found)
     else

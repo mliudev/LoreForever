@@ -11,7 +11,7 @@
    "quest:1978"
   ]
  },
- "summary": "Andron's Ledger is an intelligence document obtained from Andron Gant in the Undercity. It details clandestine activities that uncover the unexpected involvement of the Syndicate in regional affairs, drawing the direct attention of Varimathras.",
+ "summary": "Andron's Ledger is an intelligence document obtained from Andron Gant in the Undercity. The Deathstalkers seek it as part of an operative's early work gathering information for the Forsaken.",
  "sections": [
   {
    "title": "Uncovering the Syndicate",
@@ -21,7 +21,7 @@
   {
    "title": "A Matter for the Dreadlord",
    "body": "Because the revelation concerns regional threats to the Forsaken realm, Mennet Carkad dispatches the bearer to carry the ledger directly to Varimathras in the Royal Quarter. As Sylvanas Windrunner's dreadlord majordomo, Varimathras oversees internal security and espionage through the Deathstalkers. The ledger earns Varimathras's commendation, proving both the competence of the Deathstalker network and the reliability of the operative who brought it to light.",
-   "spoiler": 2
+   "spoiler": 1
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "what is this book",
     "andron ledger"
    ],
-   "answer": "It is a record book retrieved from Andron Gant's bookshelf in the Undercity, containing secret intelligence regarding the Syndicate's movements and operations in Lordaeron."
+   "answer": "It is a record book retrieved from Andron Gant's bookshelf in the Undercity, containing intelligence sought by the Deathstalkers."
   },
   {
    "q": "Who is Andron Gant?",
@@ -43,12 +43,12 @@
    "answer": "Andron Gant is a Forsaken who keeps a shop near the Apothecarium in the Undercity. Lord Varimathras suspected him of secretly aiding an outside group, so the Deathstalkers sent an agent posing as his expected messenger to obtain his ledger."
   },
   {
-   "q": "Why is the Syndicate mentioned in the ledger important?",
+   "q": "Why do the Deathstalkers want the ledger?",
    "aliases": [
-    "why syndicate matters",
-    "what does the ledger reveal"
+    "why ledger matters",
+    "why deathstalkers want ledger"
    ],
-   "answer": "The ledger reveals that the Syndicate\u2014composed of the disgraced nobility of the former Kingdom of Alterac\u2014is actively involved in local plots, giving the Forsaken early warning of their maneuvers."
+   "answer": "Mennet Carkad wants to examine Andron's information for intelligence useful to the Forsaken."
   },
   {
    "q": "Who receives the ledger?",
@@ -64,7 +64,7 @@
     "deathstalker induction",
     "joining deathstalkers"
    ],
-   "answer": "Delivering the ledger and uncovering the Syndicate's involvement completes the operative's initiation into the Deathstalkers, earning formal induction into the Forsaken's secretive assassin guild."
+   "answer": "Delivering the ledger completes the operative's initiation into the Deathstalkers, earning formal induction into the Forsaken's secretive assassin guild."
   }
  ],
  "angles": [
@@ -74,7 +74,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "The ledger exposes the meddling of the Syndicate, showing that the living human nobles of Alterac still attempt to threaten the sovereignty of the Forsaken."
+   "text": "The ledger shows the Forsaken's efforts to gather intelligence on the threats surrounding their new realm."
   }
  ],
  "keywords": [

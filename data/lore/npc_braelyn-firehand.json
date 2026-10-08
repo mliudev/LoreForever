@@ -8,7 +8,7 @@
   "wiki": "Braelyn Firehand",
   "refs": 5
  },
- "summary": "Braelyn Firehand is an elusive elf residing quietly among the Horde at Sun Rock Retreat in the Stonetalon Mountains. While presenting herself as an arcane practitioner seeking to clear mystical obstructions in the highlands, she pursues a deep personal grudge against the grove keepers of Stonetalon Peak. In reality, her tasks serve the shadowy interests entrenched further north.",
+ "summary": "Braelyn Firehand is an elusive elf residing quietly among the Horde at Sun Rock Retreat in the Stonetalon Mountains. While presenting herself as an arcane practitioner seeking to clear mystical obstructions in the highlands, she pursues a deep personal grudge against the grove keepers of Stonetalon Peak.",
  "sections": [
   {
    "title": "An Unlikely Guest",
@@ -23,7 +23,7 @@
   {
    "title": "Ties to Jaedenar",
    "body": "Braelyn's resentment is more than idle lingering hatred; her aims align directly with the Shadow Council sect operating out of Jaedenar in Felwood. By encouraging Horde champions to systematically slaughter the night elves and the keepers holding the sacred peaks, she clears the way for darker powers while masking her sinister affiliation under the guise of ordinary frontier skirmishing.",
-   "spoiler": 2
+   "spoiler": 1
   }
  ],
  "faq": [
@@ -70,7 +70,7 @@
     "braelyn shadow council",
     "who does she work for"
    ],
-   "answer": "Beneath her claims of restoring arcane balance, Braelyn is an operative working on behalf of the Shadow Council sect rooted in Jaedenar, weaponizing Horde adventurers against the demonic cult's natural enemies."
+   "answer": "Braelyn presents herself as a researcher studying powerful druidic relics and asks adventurers to retrieve them from Night Elf-held sites."
   },
   {
    "q": "Is Braelyn a mage or a warlock?",
@@ -79,7 +79,7 @@
     "is braelyn a warlock",
     "braelyn firehand spells"
    ],
-   "answer": "While affiliated with the demon-worshiping Shadow Council, Braelyn hurls fireballs like a traditional mage rather than drawing upon demonic fel or curses."
+   "answer": "She practices arcane magic and fights with Fireballs."
   }
  ],
  "angles": [

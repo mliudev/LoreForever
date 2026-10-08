@@ -3,7 +3,7 @@
  "type": "npc",
  "name": "Nara Meideros",
  "era": "classic",
- "zone": "darnassus",
+ "zone": "stormwind",
  "meta": {
   "wiki": "Nara Meideros",
   "refs": 2
@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Priestess in Stormwind",
-   "body": "While most priestesses of Elune remain in Kalimdor under the boughs of Teldrassil, Nara Meideros resides far across the Great Sea in Stormwind City. Found within the Park\u2014a haven nurtured by visiting night elf druids and priests\u2014she guides young spiritual seekers in the ways of divine devotion. Alongside human practitioners of the Holy Light in Cathedral Square, Nara offers night elves visiting or living in the Eastern Kingdoms a familiar connection to the grace of the Moon Goddess.",
+   "body": "While most priestesses of Elune remain in Kalimdor under the boughs of Teldrassil, Nara Meideros resides far across the Great Sea in Stormwind City. Found within the Park—a haven nurtured by visiting night elf druids and priests—she guides young spiritual seekers in the ways of divine devotion. Alongside human practitioners of the Holy Light in Cathedral Square, Nara offers night elves visiting or living in the Eastern Kingdoms a familiar connection to the grace of the Moon Goddess.",
    "spoiler": 0
   }
  ],

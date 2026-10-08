@@ -73,10 +73,10 @@ function UI.QueueAction(id)
   return (UI.speaking and UI.playingId == id) and "stop" or "remove"
 end
 
-function UI.DoQueueAction(key, idx)
+function UI.DoQueueAction(key, idx, deferStart)
   local id = idx and (key .. "#faq" .. idx) or key
   local action = UI.QueueAction(id)
-  if action == "add" then UI.QueueLink(key, idx)   -- (a note if it can't go in after all: a quest Forever rewrote)
+  if action == "add" then UI.QueueLink(key, idx, deferStart)   -- (a note if it can't go in after all: a quest Forever rewrote)
   elseif action == "stop" then UI.StopAll()
   else UI.PlaylistRemove(UI.PlaylistIndex(id)) end
 end
@@ -97,7 +97,7 @@ end
 -- The small playlist button on a row: a green "+" adds a recorded story or answer; once it's queued a "-" takes it
 -- out again, and while it plays a square stops it. SetQueueButton points it at a story (idx nil) or answer and
 -- returns whether it can be queued at all.
-local function QueueButton(parent, height)
+local function QueueButton(parent, height, deferStart)
   local add = TextButton(parent, 20, height, T.font.body, T.color.add)
   add.text:SetJustifyH("CENTER")
   add.text:SetText("+")
@@ -109,7 +109,7 @@ local function QueueButton(parent, height)
   stop:SetSize(8, 8)
   stop:SetPoint("CENTER")
   add.stop = stop
-  add:SetScript("OnClick", function(self) UI.DoQueueAction(self.key, self.idx) end)
+  add:SetScript("OnClick", function(self) UI.DoQueueAction(self.key, self.idx, deferStart) end)
   add:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     queueTooltip(self.id)
@@ -303,6 +303,13 @@ function UI.SearchBox(parent, width, onChange, scroll)
     if box.text ~= "" then apply() end
   end
   function box:Active() return box.text ~= "" end
+  -- Library links set a search without pretending the edit came from the keyboard.
+  function box:SetText(text)
+    token = token + 1
+    eb:SetText(text or "")
+    update()
+    apply()
+  end
   x:SetScript("OnClick", function() box:Clear() end)
   eb:SetScript("OnTextChanged", function(self, userInput)
     update()
@@ -757,9 +764,11 @@ function UI.Create(engine)
     self:SetText("")
     UI.HideCompletion()
     if pick and pick:IsShown() and pick.key then
-      UI.ShowFaq(pick.key, pick.idx, "complete")
+      UI.OpenCompletion(pick)
     elseif q and q:match("%S") then
-      UI.Ask(q, "typed")
+      if UI.ctx then UI.ctx.done = ns.Context.Done() end
+      local key = UI.engine:StoryForName(q, UI.ctx)
+      if key then UI.ShowEntry(key, "typed", q) else UI.Ask(q, "typed") end
     end
   end)
   -- Escape closes the type-ahead first; otherwise it closes the panel, as Escape does with the box unfocused.
@@ -833,10 +842,22 @@ end
 
 function UI.CreateCompletion(parent, eb)
   local c = T.Backdrop(CreateFrame("Frame", nil, parent, T.BACKDROP_TEMPLATE), "popup")
-  c:SetPoint("BOTTOMLEFT", eb, "TOPLEFT", -6, 4)
+  local bg = T.Area(c, "popup")
+  bg:SetPoint("TOPLEFT", 2, -2)
+  bg:SetPoint("BOTTOMRIGHT", -2, 2)
+  c:SetPoint("BOTTOMLEFT", parent, "BOTTOMLEFT", CHAT_X, 48)
   c:SetSize(CHAT_W, N_COMPLETE * 20 + 10)
   c:SetFrameStrata("DIALOG")
   c.rows = {}
+  c.headers = {}
+  for _, kind in ipairs({ "story", "faq" }) do
+    local head = c:CreateFontString(nil, "OVERLAY", T.font.label)
+    head:SetJustifyH("LEFT")
+    c.headers[kind] = head
+  end
+  c.browse = TextButton(c, CHAT_W - 10, 24, T.font.small, T.color.chip)
+  c.browse.text:SetText(L["Browse narrations"])
+  c.browse:SetScript("OnClick", function() UI.BrowseNarrations(c.subject) end)
   for i = 1, N_COMPLETE do
     local b = TextButton(c, CHAT_W - 10, 20, T.font.small)
     b:SetPoint("TOPLEFT", 5, -5 - (i - 1) * 20)
@@ -844,15 +865,128 @@ function UI.CreateCompletion(parent, eb)
     sel:SetAllPoints()
     sel:Hide()
     b.sel = sel
+    b.read = TextButton(b, 62, 22, T.font.small, T.color.chip)
+    b.read.text:SetText(L["Read"])
+    b.read.text:SetJustifyH("CENTER")
+    b.read:SetScript("OnClick", function() UI.OpenCompletion(b) end)
+    b.listen = PanelButton(b)
+    b.listen:SetSize(84, 22)
+    b.listen:SetScript("OnClick", function()
+      if UI.StoryAudio(b.key) then UI.ListenTo(UI.EntryTarget(b.key)) end
+    end)
+    b.add = QueueButton(b, 22, true)
     b:SetScript("OnClick", function(self)
-      UI.input:SetText("")
-      UI.HideCompletion()
-      if self.key then UI.ShowFaq(self.key, self.idx, "complete") end
+      UI.OpenCompletion(self)
     end)
     c.rows[i] = b
+    b:Hide()
   end
   c:Hide()
   UI.completion = c
+end
+
+function UI.OpenCompletion(row)
+  UI.input:SetText("")
+  UI.HideCompletion()
+  if not row.key then return end
+  if row.kind == "story" then UI.ShowEntry(row.key, "complete")
+  else UI.ShowFaq(row.key, row.idx, "complete") end
+end
+
+function UI.BrowseNarrations(subject)
+  UI.HideCompletion()
+  UI.ShowTab("narrations")
+  if UI.narrSearch then UI.narrSearch:SetText(subject or "") end
+end
+
+-- Recording availability and permission are rechecked before exposing an audio action.
+function UI.StoryAudio(key)
+  return ns.Voice.HasAudio(key) and ns.Voice.CanPlay(key)
+end
+
+function UI.StoryAudioNote(key)
+  if UI.StoryAudio(key) then return L["Narration"] end
+  if ns.Voice.Current() == "none" then return L["Recorded narrations are off: tick a voice to hear them."] end
+  return ns.Voice.LanguageGap() or L["No compatible recording. This story is available to read."]
+end
+
+-- Each story keeps a separate action line so long titles and translated buttons fit a narrow chat.
+function UI.LayoutCompletion()
+  local c = UI.completion
+  if not c then return end
+  local width = math.max(240, (tonumber(UI.frame:GetWidth()) or W) - CHAT_X - 40)
+  c:SetWidth(width)
+  local y, seen, stories, clipped = 6, {}, false, false
+  local maxHeight = (tonumber(UI.frame:GetHeight()) or H) - 84
+  for _, head in pairs(c.headers) do head:Hide() end
+  for i, b in ipairs(c.rows) do b:SetShown(i <= (c.itemCount or 0)) end
+  for _, b in ipairs(c.rows) do
+    if b:IsShown() then
+      if clipped then b:Hide() else
+      local kind = b.kind
+      local groupStart = y
+      if not seen[kind] then
+        local head = c.headers[kind]
+        head:ClearAllPoints()
+        head:SetPoint("TOPLEFT", 10, -y)
+        head:SetWidth(width - 20)
+        head:SetText(GOLD .. (kind == "story" and L["Stories"] or L["Related questions"]) .. "|r")
+        head:Show()
+        seen[kind], y = true, y + 20
+      end
+      b:ClearAllPoints()
+      b:SetPoint("TOPLEFT", 5, -y)
+      b:SetWidth(width - 10)
+      b.text:ClearAllPoints()
+      b.text:SetPoint("TOPLEFT", 6, -3)
+      b.text:SetWidth(width - 22)
+      b.text:SetText(WHITE .. esc(b.q) .. "|r" .. (kind == "story"
+        and ("\n" .. GREY .. esc(UI.StoryAudioNote(b.key)) .. "|r")
+        or ("  " .. GREY .. esc(b.name) .. "|r")))
+      local th = tonumber(b.text:GetStringHeight()) or 28
+      local rowHeight = th + (kind == "story" and 34 or 8)
+      if kind == "story" then
+        local playable = UI.StoryAudio(b.key)
+        b.read:SetWidth(math.max(54, (tonumber(b.read.text:GetStringWidth()) or 42) + 16))
+        b.read:ClearAllPoints()
+        b.read:SetPoint("TOPLEFT", 6, -th - 6)
+        b.read:Show()
+        b.listen:ClearAllPoints()
+        b.listen:SetPoint("LEFT", b.read, "RIGHT", 6, 0)
+        b.listen:SetText(UI.IsPlayingTarget(UI.EntryTarget(b.key)) and L["Stop"] or L["Listen"])
+        b.listen:SetWidth(math.max(72, (tonumber(b.listen:GetTextWidth()) or 52) + 20))
+        b.listen:SetShown(playable)
+        b.add:ClearAllPoints()
+        b.add:SetPoint("LEFT", playable and b.listen or b.read, "RIGHT", 6, 0)
+        SetQueueButton(b.add, b.key)
+      else
+        b.read:Hide(); b.listen:Hide(); b.add:Hide()
+      end
+      b:SetHeight(rowHeight)
+      if y + rowHeight + 36 > maxHeight then
+        b:Hide()
+        clipped = true
+        if not seen[kind .. "Row"] then c.headers[kind]:Hide(); y = groupStart end
+      else
+        seen[kind .. "Row"] = true
+        stories = stories or kind == "story"
+        y = y + rowHeight + 2
+      end
+      end
+    end
+  end
+  c.browse:SetShown(stories)
+  if stories then
+    c.browse:ClearAllPoints()
+    c.browse:SetPoint("TOPLEFT", 5, -y - 2)
+    c.browse:SetWidth(width - 10)
+    y = y + 28
+  end
+  c:SetHeight(y + 6)
+  if UI.completionSel and not c.rows[UI.completionSel]:IsShown() then
+    c.rows[UI.completionSel].sel:Hide()
+    UI.completionSel = nil
+  end
 end
 
 function UI.HideCompletion()
@@ -876,11 +1010,14 @@ function UI.ShowCompletion(text)
   if UI.ctx then UI.ctx.done = ns.Context.Done() end
   local items = UI.engine:Complete(text, UI.ctx, N_COMPLETE)
   if #items == 0 then return UI.HideCompletion() end
+  c.itemCount = #items
+  c.subject = text
+  local firstStory = true
   for i, b in ipairs(c.rows) do
     local it = items[i]
     if it then
-      b.key, b.idx = it.key, it.idx
-      b.text:SetText(WHITE .. esc(it.q) .. "|r  " .. GREY .. esc(it.name) .. "|r")
+      b.key, b.idx, b.kind, b.q, b.name = it.key, it.idx, it.kind or "faq", it.q, it.name
+      if it.kind == "story" and firstStory then c.subject, firstStory = it.name, false end
       b.sel:Hide()
       b:Show()
     else
@@ -888,7 +1025,7 @@ function UI.ShowCompletion(text)
     end
   end
   UI.completionSel = nil
-  c:SetHeight(#items * 20 + 10)
+  UI.LayoutCompletion()
   c:Show()
 end
 
@@ -932,6 +1069,31 @@ function UI.FaqTarget(key, idx)
   return { id = akey, key = akey, label = f.q, text = f.a }   -- read the answer only; the question is on screen
 end
 
+-- Audio follows the same spoiler permission as the text. An explicit reveal belongs to its displayed message,
+-- so clearing the conversation or reloading cannot grant permission to a saved recording target.
+function UI.SpoilerAllowed(key, kind, idx)
+  local db = UI.engine and UI.engine.db
+  local e = db and db.entries and db.entries[key]
+  local item = e and ((kind == "faq" and e.faq and e.faq[idx]) or (kind == "section" and e.sec and e.sec[idx]))
+  if not item then return false end
+  if not item.sp or item.sp == 0 then return true end
+  if settings().showSpoilers or UI.Unlocked(key) then return true end
+  local text = kind == "faq" and item.a or item.b
+  for _, m in ipairs(UI.msgs or {}) do
+    local shown = m.spoiler
+    if shown and shown.key == key and shown.kind == kind and shown.idx == idx and shown.text == text then return true end
+  end
+  return false
+end
+
+function UI.CanPlayClip(clip)
+  if type(clip) ~= "string" then return false end
+  local key, idx = clip:match("^(.-)#faq(%d+)$")
+  if key then return UI.SpoilerAllowed(key, "faq", tonumber(idx)) end
+  key, idx = clip:match("^(.-)#section(%d+)$")
+  return not key or UI.SpoilerAllowed(key, "section", tonumber(idx))
+end
+
 function UI.ZoneTarget()
   local ctx = (UI.frame and UI.frame:IsShown() and UI.ctx) or ns.Context.Snapshot()
   local db = UI.engine.db
@@ -952,35 +1114,240 @@ local function watchPlayback(estimate)
   UI.playToken = token
   local function check()
     if UI.playToken ~= token or not UI.speaking then return end
+    if ns.Voice.failed then
+      UI.StopAll()   -- preserves the failed segment boundary and pauses the queue
+      return
+    end
     local playing = ns.Voice.IsPlaying()
     local elapsed = (GetTime and GetTime() or 0) - started
-    if playing == false or (playing == nil and elapsed > estimate) or elapsed > 300 then
+    if playing == false or (playing == nil and elapsed > estimate) or (not ns.Voice.transport and elapsed > 300) then
+      local target = UI.activeTarget
+      if target then UI.progress[target.key] = nil end
+      UI.activeTarget, UI.resumeTarget = nil, nil
       UI.speaking, UI.playingId = false, nil
       UI.UpdateListen()
       UI.OnClipEnded()
       ns.Voice.OnNarrationEnded()
     else
-      C_Timer.After(1, check)
+      if ns.Voice.transport then UI.UpdateNowPlaying() end
+      C_Timer.After(ns.Voice.transport and 0.25 or 1, check)
     end
   end
-  C_Timer.After(1, check)
+  C_Timer.After(ns.Voice.transport and 0.25 or 1, check)
+end
+
+
+-- Listening progress belongs to the recording and its exact pack/hash, separately from queue position.
+UI.progress = {}
+
+local function validProgress(p, key)
+  if type(p) ~= "table" or type(p.pack) ~= "string" or type(p.offset) ~= "number" or p.offset ~= p.offset
+      or p.offset < 0 or p.offset == math.huge then return nil end
+  local row = ns.Voice.TransportFor(key, p.pack)
+  if row and row.hash == p.hash and row.fullHash == p.fullHash and p.offset < row.duration then return row end
+end
+
+function UI.RememberProgress()
+  local V, target = ns.Voice, UI.activeTarget
+  local offset, _, rate = V.Position()
+  local t = V.transport
+  if not (t and target and offset) then return end
+  UI.progress[target.key] = { offset = offset, rate = rate, pack = t.row.pack, hash = t.row.hash,
+    fullHash = t.row.fullHash }
+  UI.resumeTarget = target
+end
+
+function UI.TransportState()
+  local V = ns.Voice
+  if UI.speaking and V.transport then
+    if not V.CanPlay(V.transport.row.key) then return end
+    local offset, duration, rate = V.Position()
+    return { target = UI.activeTarget, row = V.transport.row, offset = offset, duration = duration, rate = rate }
+  end
+  local target = UI.resumeTarget
+  if target and not V.CanPlay(target.key) then return end
+  local p = target and UI.progress[target.key]
+  local row = target and validProgress(p, target.key)
+  if row then
+    local rate = ns.Voice.PlaybackRate()
+    return { target = target, row = row, offset = p.offset, duration = row.duration, rate = row.rates[rate] and rate or 1 }
+  end
+end
+
+function UI.Seek(seconds)
+  local state = UI.TransportState()
+  if not state then return false end
+  local V, target, wasPlaying = ns.Voice, state.target, UI.speaking
+  local want = math.max(0, math.min(state.duration - 0.001, state.offset + seconds))
+  local parts, offset = state.row.rates[1], 0
+  for _, part in ipairs(parts) do if part.start <= want then offset = part.start else break end end
+  UI.RememberProgress()
+  UI.progress[target.key] = { offset = offset, rate = state.rate, pack = state.row.pack, hash = state.row.hash,
+    fullHash = state.row.fullHash }
+  UI.resumeTarget = target
+  if wasPlaying then
+    UI.RestartTransport(target)
+  else
+    UI.UpdateNowPlaying()
+  end
+  return true
+end
+
+-- Kept as no-op compatibility calls; in-game recordings only play at 1x.
+function UI.SetPlaybackRate() return false end
+function UI.CyclePlaybackRate() return false end
+
+
+local function playbackStore()
+  if type(LoreForeverDB) ~= "table" then return nil end
+  if type(LoreForeverDB.playback) ~= "table" then LoreForeverDB.playback = {} end
+  local who = ns.Journey and ns.Journey.CharKey and ns.Journey.CharKey() or "?"
+  return LoreForeverDB.playback, who
+end
+
+function UI.SavePlayback()
+  UI.RememberProgress()
+  local store, who = playbackStore()
+  if not store then return end
+  local progress, any = {}, false
+  for key, p in pairs(UI.progress) do
+    if validProgress(p, key) then progress[key], any = p, true end
+  end
+  if not any then store[who] = nil return end
+  local target = UI.resumeTarget
+  store[who] = { version = 1, progress = progress, target = target and {
+    id = target.id, key = target.key, label = target.label, story = target.story, text = target.text,
+    fromPlaylist = target.fromPlaylist }, items = UI.pl.items, pos = UI.pl.pos }
+end
+
+function UI.RestorePlayback()
+  local store, who = playbackStore()
+  local saved = store and store[who]
+  if type(saved) ~= "table" or saved.version ~= 1 or type(saved.progress) ~= "table" then return end
+  for key, p in pairs(saved.progress) do
+    local qid, kind
+    if type(key) == "string" then qid, kind = key:match("^quest:(%d+)#(%a+)$") end
+    if qid then ns.Voice.QuestClip(tonumber(qid), kind, nil, true) end
+    if type(key) == "string" and validProgress(p, key) then UI.progress[key] = p end
+  end
+  local target = saved.target
+  if type(target) == "table" and type(target.key) == "string" and type(target.id) == "string"
+      and type(target.label) == "string" and type(target.text) == "string" and #target.text < 65536
+      and validProgress(UI.progress[target.key], target.key) then
+    target.fromPlaylist = target.fromPlaylist == true
+    UI.resumeTarget = target
+  end
+  if type(saved.items) == "table" and #saved.items <= 256 and type(saved.pos) == "number"
+      and saved.pos >= 1 and saved.pos <= #saved.items and saved.pos % 1 == 0 then
+    for _, it in ipairs(saved.items) do
+      if type(it) ~= "table" or type(it.id) ~= "string" or type(it.label) ~= "string"
+          or (it.key ~= nil and type(it.key) ~= "string") then return UI.UpdateNowPlaying() end
+      if it.pages ~= nil then
+        if type(it.quest) ~= "number" or type(it.pages) ~= "table" or #it.pages > 3 then return UI.UpdateNowPlaying() end
+        if it.page ~= nil and (type(it.page) ~= "number" or it.page % 1 ~= 0 or it.page < 1 or it.page > #it.pages) then return UI.UpdateNowPlaying() end
+        for _, kind in ipairs(it.pages) do
+          if kind ~= "detail" and kind ~= "progress" and kind ~= "complete" then return UI.UpdateNowPlaying() end
+        end
+      end
+    end
+    UI.pl.items, UI.pl.pos, UI.pl.state = saved.items, saved.pos, "paused"
+    UI.PlaylistVoiceChanged()
+  end
+  UI.UpdateNowPlaying()
+end
+
+
+-- Restore paragraph breaks only when these safe story bodies match the exact recorded words. A foreign,
+-- outdated or different take keeps its own transcript; formatting must never substitute unrecorded content.
+local function recordedParagraphs(key, text)
+  local e = UI.engine.db.entries[key]
+  if not e then return text end
+  local parts = { e.n .. ". " .. e.s }
+  for _, sec in ipairs(e.sec or {}) do
+    if (sec.sp or 0) == 0 then parts[#parts + 1] = sec.b end
+  end
+  if ns.Voice.Plain(table.concat(parts, " ")) ~= ns.Voice.Plain(text) then return text end
+  return table.concat(parts, "\n\n")
+end
+
+-- Every recording that really starts adds its matching words to the conversation, even with the panel closed.
+-- A Listen button on the current answer already has those words on screen. Quest dialogue has its own target
+-- text: never substitute the quest's lore summary for what its giver says.
+function UI.ReadAlong(target, fromPlaylist)
+  local history = fromPlaylist and UI.historyFrame and UI.historyFrame:IsShown()
+  local journey = fromPlaylist and UI.journeyPage and UI.journeyPage:IsShown()
+  local last = UI.msgs[#UI.msgs]
+  if not target.asked and last and last.target and last.target.key == target.key and last.target.text == target.text then return end
+  local key, idx = target.key:match("^(.-)#faq(%d+)$")
+  local canonical = ns.Voice.lastClip and ns.Voice.lastClip.id == target.key and ns.Voice.lastClip.text
+  if canonical and canonical ~= "" then
+    if idx then UI.AddMessage("user", WHITE .. esc(target.label or "") .. "|r")
+    elseif target.asked then UI.AddMessage("user", WHITE .. esc(target.asked) .. "|r") end
+    UI.AddMessage("lore", GOLD .. esc(target.label or "") .. "|r\n" .. WHITE .. esc(recordedParagraphs(target.key, canonical)) .. "|r", target)
+  elseif key and UI.engine.db.entries[key] then
+    UI.ShowFaq(key, tonumber(idx), "listen")
+  elseif target.id == target.key and UI.engine.db.entries[target.key] then
+    UI.ShowEntry(target.key, "listen", target.asked)
+  else
+    local text = GOLD .. esc(target.label or "") .. "|r"
+    if target.text and target.text ~= "" then text = text .. "\n" .. WHITE .. esc(target.text) .. "|r" end
+    UI.AddMessage("lore", text, target)
+  end
+  if history then UI.historyFrame:Show() end
+  if journey then UI.journeyPage:Show() end
 end
 
 -- Start a target's recording, replacing whatever plays now. Returns true if it started; without a recording nothing
 -- plays (Voice.Narrate). The playlist leaves an open History list alone (it moves on by itself; you didn't just press
 -- anything).
-local function startTarget(target, fromPlaylist)
+local function startTarget(target, fromPlaylist, keepProgress)
+  if not target or not ns.Voice.CanPlay(target.key) then return false end
+  if not keepProgress then UI.RememberProgress() end
   ns.Voice.Stop()
   UI.speaking, UI.playingId = false, nil
-  local started = target and (fromPlaylist and ns.Voice.Play(target.key) or ns.Voice.Narrate(target.key))
+  local progress = target and UI.progress[target.key]
+  local options = target and validProgress(progress, target.key) and progress
+  if options then
+    local copy = {}
+    for k, v in pairs(options) do copy[k] = v end
+    copy.rate = ns.Voice.PlaybackRate()
+    options = copy
+  end
+  local started = target and (fromPlaylist and ns.Voice.Play(target.key, options) or ns.Voice.Narrate(target.key, options))
   if not started then return false end
   UI.speaking, UI.playingId, UI.playingLabel = true, target.id, target.label
   UI.playingKey, UI.playingStory = target.key, target.story
+  target.fromPlaylist = fromPlaylist == true
+  UI.activeTarget = target
+  if ns.Voice.transport then UI.resumeTarget = target
+  else UI.progress[target.key], UI.resumeTarget = nil, nil end
   local clip = ns.Voice.lastClip   -- a recording started: name it in its report box (ClipReport.lua)
-  if clip and clip.id == target.key then clip.label = target.label end
+  if clip and clip.id == target.key then
+    clip.label = target.label
+    if clip.text then
+      local copy = {}
+      for k, v in pairs(target) do copy[k] = v end
+      copy.text, target = clip.text, copy
+      UI.activeTarget, UI.resumeTarget = target, target
+    end
+  end
   if UI.historyFrame and not fromPlaylist then UI.historyFrame:Hide() end
   watchPlayback(#ns.Voice.Plain(target.text) / 15 + 3)
+  if fromPlaylist then
+    local cur = UI.pl.items[UI.pl.pos]
+    if cur and cur.flight then ns.Voice.autoSession[target.key] = true end
+  end
+  if not keepProgress then UI.ReadAlong(target, fromPlaylist) end
+  target.asked = nil
   return true
+end
+
+-- A seek/rate change restarts an actual segment, keeping queue position and one read-along item.
+function UI.RestartTransport(target)
+  local started = startTarget(target, target.fromPlaylist, true)
+  if not started and target.fromPlaylist then UI.pl.state = "paused" end
+  UI.UpdateListen()
+  return started
 end
 
 -- Whether a target is what plays now: the same recording, started here or somewhere else. A quest's playlist item
@@ -1012,7 +1379,9 @@ end
 
 -- Stop any narration, whatever started it. A playlist pauses at the item it was on.
 function UI.StopAll()
+  UI.RememberProgress()
   ns.Voice.Stop()
+  UI.playToken = nil
   UI.speaking, UI.playingId = false, nil
   if UI.pl.state ~= "paused" then UI.pl.state = "paused" end
   UI.UpdateListen()
@@ -1029,12 +1398,15 @@ function UI.PlayEntry(key, asked)
   local t = UI.EntryTarget(key)
   if not t then return end
   if UI.IsPlayingTarget(t) then return UI.ListenTo(t) end
-  UI.ShowEntry(key, "listen", asked)
+  t.asked = asked
   UI.ListenTo(t)
 end
 
 function UI.UpdateListen()
+  if ns.Voice.previewing and not ns.Voice.CanPlay(ns.Voice.previewClip) then ns.Voice.StopPreview() end
+  if UI.speaking and UI.playingKey and not ns.Voice.CanPlay(UI.playingKey) then return UI.StopAll() end
   UI.UpdateNowPlaying()
+  if UI.completion and UI.completion:IsShown() then UI.LayoutCompletion() end
   if UI.tab == "narrations" and UI.narrRows then UI.RefreshNarrations() end
   -- The Here tab's playlist buttons follow the playlist (+, then -, or a stop square while it plays).
   for _, b in ipairs(UI.bossButtons or {}) do
@@ -1055,7 +1427,7 @@ function UI.UpdateListen()
     -- (the welcome card) use their big action button instead.
     local t = b.listen.target
     if b.frame:IsShown() and t and not b.isHero then
-      local recorded = ns.Voice.HasAudio(t.key)
+      local recorded = ns.Voice.HasAudio(t.key) and ns.Voice.CanPlay(t.key)
       local playing = UI.IsPlayingTarget(t)
       b.listen:SetText(playing and L["Stop"] or L["Listen"])
       local lw = b.listen.GetTextWidth and tonumber(b.listen:GetTextWidth())
@@ -1280,7 +1652,12 @@ local function bubbleAt(i)
     end)
     close:SetScript("OnLeave", function() GameTooltip:Hide() end)
     close:Hide()
+    local audioNote = Muted(f:CreateFontString(nil, "OVERLAY", T.font.small))
+    audioNote:SetJustifyH("LEFT")
+    audioNote:SetJustifyV("TOP")
+    audioNote:Hide()
     b = { frame = f, bg = bg, edge = edge, head = head, chips = chips, fs = fs, listen = listen, queue = queue, action = action,
+      audioNote = audioNote,
       close = close, rows = {} }
     b.up, b.down, b.rated = RateButtons(f)
     UI.bubbles[i] = b
@@ -1342,8 +1719,7 @@ end
 function UI.Layout()
   local w = chatW()
   if UI.content then UI.content:SetWidth(w) end
-  if UI.completion then UI.completion:SetWidth(w) end
-  for _, b in ipairs(UI.completion and UI.completion.rows or {}) do b:SetWidth(w - 10) end
+  if UI.completion then UI.LayoutCompletion() end
   for _, b in ipairs(UI.historyFrame and UI.historyFrame.rows or {}) do b:SetWidth(w) end
   if UI.msgs then UI.Render(true) end
   if UI.msgs and #UI.msgs > 0 then UI.Refresh() end   -- a taller panel fits more of the Here list
@@ -1400,6 +1776,10 @@ function UI.Render(keepScroll)
     -- A faint gold edge sets answers off from the dark page; your questions and notes don't need one.
     b.edge:SetShown(m.role == "lore" or m.role == "hero")
     local top = PAD
+    local story = m.role == "lore" and m.target and m.target.story == m.target.key
+    local canPlay = m.target and ns.Voice.HasAudio(m.target.key) and ns.Voice.CanPlay(m.target.key)
+    b.listen:ClearAllPoints()
+    b.audioNote:Hide()
     if head then
       b.head:SetWidth(w - 2 * PAD)
       b.head:SetText(head)
@@ -1407,9 +1787,30 @@ function UI.Render(keepScroll)
       b.head:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -PAD)
       b.head:Show()
       top = PAD + (tonumber(b.head:GetStringHeight()) or 16) + 4
+      if story then
+        if canPlay then
+          b.listen:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -top)
+          b.listen:SetHeight(24)
+          top = top + 30
+        else
+          b.audioNote:ClearAllPoints()
+          b.audioNote:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -top)
+          b.audioNote:SetWidth(w - 2 * PAD)
+          b.audioNote:SetText(UI.StoryAudioNote(m.target.key))
+          b.audioNote:Show()
+          top = top + (tonumber(b.audioNote:GetStringHeight()) or 14) + 8
+        end
+      end
     else
       b.head:Hide()
     end
+    if not story or not head then
+      b.listen:SetPoint("BOTTOMRIGHT", -6, 6)
+      b.listen:SetHeight(18)
+    end
+    b.queue:ClearAllPoints()
+    if story and head then b.queue:SetPoint("BOTTOMRIGHT", -6, 6)
+    else b.queue:SetPoint("RIGHT", b.listen, "LEFT", -4, 0) end
     fs:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -top)
     local h = (fs:GetStringHeight() or 14) + top + PAD
     -- The names the answer links, once more under it ("In this answer: ..."), shown once it has typed in.
@@ -1433,9 +1834,8 @@ function UI.Render(keepScroll)
     b.close:SetShown(m.closable and true or false)
     b.queue:Hide()   -- UpdateListen shows it on recorded answers
     -- Only reserve room for Listen when a voice recorded the answer (the rest stays as text).
-    local canPlay = m.target and ns.Voice.HasAudio(m.target.key)
     if m.role == "lore" and canPlay then
-      h = h + 22
+      h = h + 22   -- queue and rating retain their familiar footer below the story
       b.listen:Show()
       latestListen = b.listen
     elseif b.isHero and (m.target or m.onAction) then
@@ -1509,11 +1909,19 @@ end
 
 -- A card in the conversation, like the welcome card but with its own button (actionLabel, onAction) and a × that puts
 -- it away: the What's new card (WhatsNew.lua). Its text is a gold first line, then the body.
-function UI.AddCard(text, actionLabel, onAction)
+function UI.AddCard(text, actionLabel, onAction, first)
   UI.AddMessage("hero", text, nil, actionLabel)
   local m = UI.msgs[#UI.msgs]
   m.onAction, m.closable, m.news = onAction, true, true
+  if first then
+    table.insert(UI.msgs, 1, table.remove(UI.msgs))
+    table.insert(UI.blocks, 1, table.remove(UI.blocks))
+  end
   UI.Render()
+  if first then
+    -- After layout and the ordinary newest-message scroll: the update card must actually be in view.
+    C_Timer.After(0, function() UI.scroll:SetVerticalScroll(0) end)
+  end
 end
 
 -- Take one message out of the conversation (the × on a card).
@@ -1522,6 +1930,7 @@ function UI.RemoveMessage(m)
     if x == m then
       table.remove(UI.msgs, i)
       table.remove(UI.blocks, i)
+      UI.UpdateListen()
       GameTooltip:Hide()
       if #UI.msgs == 0 then return UI.Refresh() end   -- nothing left: the welcome card comes back
       return UI.Render(true)
@@ -1717,6 +2126,8 @@ function UI.Refresh()
     if card then UI.msgs[1], UI.blocks[1] = card[1], card[2] end
     UI.ShowWelcome(ctx, placeName, here)
   end
+  -- Autoplay can fill the closed panel before its first open. Pending update notes still belong above that story.
+  if ns.WhatsNew.Pending("card") then ns.WhatsNew.AddCard(true) end
   UI.welcomeFor = UI.WelcomeOnly() and where or nil
   if UI.inputHint then
     local first
@@ -1953,8 +2364,12 @@ end
 -- The narration voice changed (Options or /lore voice): relabel Listen buttons and the lists that depend on it.
 -- Chat already posted keeps its "(narrated)" tags; new answers follow the new voice.
 function UI.OnVoiceChanged()
+  UI.StopAll()
+  UI.progress, UI.resumeTarget = {}, nil
   if not UI.frame then return end
   UI.PlaylistVoiceChanged()
+  if UI.completion and UI.completion:IsShown() then UI.ShowCompletion(UI.input:GetText()) end
+  UI.Render(true)
   UI.UpdateListen()
   UI.Refresh()
 end
@@ -2106,10 +2521,10 @@ end
 
 -- Play one recorded FAQ answer and show the question and answer in the chat (pressing it again stops it).
 function UI.PlayFaq(key, idx)
+  if UI.SpoilerGate(key, "faq", idx) then return end
   local target = UI.FaqTarget(key, idx)
   if not target then return end
   if UI.speaking and UI.playingId == target.id then return UI.ListenTo(target) end
-  UI.ShowFaq(key, idx, "listen")
   UI.ListenTo(target)
 end
 
@@ -2333,7 +2748,7 @@ function UI.CanQueue(key, idx)
   if not ns.Voice.HasAudio(idx and (key .. "#faq" .. idx) or key) then return false end
   local f = idx and e.faq and e.faq[idx]
   if idx and not f then return false end
-  return not (f and f.sp and not settings().showSpoilers and not UI.Unlocked(key))
+  return ns.Voice.CanPlay(idx and (key .. "#faq" .. idx) or key)
 end
 
 function UI.PlaylistIndex(id)
@@ -2346,7 +2761,7 @@ end
 -- story's or answer's recording, or a quest's page it.page (else the next one that plays: it.page moves on to it).
 local function itemTarget(it)
   if not it.pages then
-    if not ns.Voice.HasAudio(it.id) then return nil end
+    if not ns.Voice.HasAudio(it.id) or not UI.CanQueue(it.key, it.idx) then return nil end
     return it.idx and UI.FaqTarget(it.key, it.idx) or UI.EntryTarget(it.key)
   end
   for p = it.page or 1, #it.pages do
@@ -2354,7 +2769,7 @@ local function itemTarget(it)
     if clip then
       it.page = p
       local e = it.key and UI.engine.db.entries[it.key]
-      return { id = it.id, key = clip, label = it.label, text = e and e.s or "", story = it.key }
+      return { id = it.id, key = clip, label = it.label, text = UI.QuestPageText(it.quest, it.pages[p]), story = it.key }
     end
   end
 end
@@ -2369,31 +2784,45 @@ local function playable(it)
 end
 
 -- Go to item i, from its start (a quest from its first page).
-local function goTo(i)
+local function goTo(i, replacing)
+  if replacing then
+    UI.RememberProgress()
+    ns.Voice.Stop()
+    UI.speaking, UI.playingId, UI.playToken, UI.activeTarget = false, nil, nil, nil
+  end
   local pl = UI.pl
   pl.pos = i
-  if pl.items[i] then pl.items[i].page = nil end
+  if pl.items[i] then
+    local it = pl.items[i]
+    it.page = nil
+    UI.progress[it.id] = nil
+    if it.pages then
+      for _, kind in ipairs(it.pages) do
+        local clip = UI.QuestPageClip(it.quest, kind)
+        if clip then UI.progress[clip] = nil end
+      end
+    end
+  end
 end
 
--- Play items[pos], posting its story or Q&A in the chat when the panel is open (read along); closed, nothing is posted.
-local function playCurrent()
+-- Play items[pos]; startTarget posts the matching words only after its recording starts.
+local function playCurrent(byHand)
   local pl = UI.pl
   local it = pl.items[pl.pos]
-  if not it then return end
+  -- A flight story may have been heard another way while waiting. Its automatic turn skips it, while the
+  -- player's explicit Play/Next/Previous/Jump still replays whatever they choose.
+  while it and it.flight and not byHand and (ns.Voice.autoSession[it.id]
+      or (settings().skipHeard ~= false and ns.Voice.Heard(it.id))) do
+    goTo(pl.pos + 1)
+    it = pl.items[pl.pos]
+  end
+  if not it then return UI.PlaylistClear() end
   pl.token = nil
   -- Recorded narrations only (the voice may have changed since it was queued: then it has nothing to play).
-  local start = (it.page or 1) == 1
   local target = itemTarget(it)
   if not target then
     pl.state = "paused"
     return UI.UpdateListen()
-  end
-  -- Read along in the chat, unless you're looking through past chats or your journey: a quest's story once, as it
-  -- starts (a quest without one has nothing to post).
-  if start and it.key and UI.frame and UI.frame:IsShown() and not (UI.historyFrame and UI.historyFrame:IsShown())
-      and not (UI.journeyPage and UI.journeyPage:IsShown()) then
-    if it.idx then UI.ShowFaq(it.key, it.idx, "playlist")
-    else UI.ShowEntry(it.key, "playlist", string.format(L["Tell me the story of %s"], it.label)) end
   end
   -- State first: if the clip ends at once, its end handler must see the playlist as playing.
   pl.state = "playing"
@@ -2480,9 +2909,9 @@ local function newItem(key, idx)
   return { id = idx and (key .. "#faq" .. idx) or key, key = key, idx = idx, label = idx and e.faq[idx].q or e.n }
 end
 
--- Add item `it` to the end. The first item starts right away, or when what's playing now ends. Returns true if it was
--- added. quiet: no flash or note (the caller adds several and says so once).
-local function addItem(it, quiet)
+-- Add item `it` to the end. The first item normally starts now or after what's playing.
+-- deferStart keeps a stopped player paused when queuing from the composer. quiet omits the flash and note.
+local function addItem(it, quiet, deferStart)
   local pl = UI.pl
   if not it or UI.PlaylistIndex(it.id) then return false end
   pl.items[#pl.items + 1] = it
@@ -2493,16 +2922,18 @@ local function addItem(it, quiet)
   end
   if #pl.items == 1 then
     pl.pos = 1
-    if UI.speaking then pl.state = "waiting" else return playCurrent() or true end
+    if UI.speaking then pl.state = "waiting"
+    elseif deferStart then pl.state = "paused"
+    else return playCurrent() or true end
   end
   UI.UpdateListen()
   return true
 end
 
 -- Add a story (idx nil) or narrated answer to the end (addItem). Returns true if it was added.
-function UI.PlaylistAdd(key, idx, quiet)
+function UI.PlaylistAdd(key, idx, quiet, deferStart)
   if not key or UI.PlaylistIndex(idx and (key .. "#faq" .. idx) or key) then return false end
-  return addItem(newItem(key, idx), quiet)
+  return addItem(newItem(key, idx), quiet, deferStart)
 end
 
 -- Shift-click on a quest wherever the add-on lists one (its Lore button in the quest log and the quest window, Your
@@ -2583,11 +3014,11 @@ function UI.QueueHere()
   return n
 end
 
--- Play or pause the playlist. Pausing stops its clip; Play starts the current item again (a quest the page it was on),
+-- Play or pause the playlist. Segmented clips retain their boundary; whole files restart the current item,
 -- replacing anything played by hand. Returns false with nothing queued.
 function UI.PlaylistToggle()
   if #UI.pl.items == 0 then return false end
-  if UI.pl.state == "playing" then UI.StopAll() else playCurrent() end
+  if UI.pl.state == "playing" then UI.StopAll() else playCurrent(true) end
   return true
 end
 
@@ -2598,8 +3029,8 @@ function UI.PlaylistNext()
   if pl.pos >= #pl.items then
     UI.PlaylistClear()
   else
-    goTo(pl.pos + 1)
-    playCurrent()
+    goTo(pl.pos + 1, true)
+    playCurrent(true)
   end
   return true
 end
@@ -2608,16 +3039,16 @@ end
 function UI.PlaylistPrev()
   local pl = UI.pl
   if #pl.items == 0 then return false end
-  goTo(math.max(1, pl.pos - 1))
-  playCurrent()
+  goTo(math.max(1, pl.pos - 1), true)
+  playCurrent(true)
   return true
 end
 
 function UI.PlaylistJump(i)
   local pl = UI.pl
   if not pl.items[i] then return end
-  goTo(i)
-  playCurrent()
+  goTo(i, true)
+  playCurrent(true)
 end
 
 -- Empty the playlist. Stops the playlist's own clip, not something you played by hand.
@@ -2627,6 +3058,10 @@ function UI.PlaylistClear()
     ns.Voice.Stop()
     UI.speaking, UI.playingId = false, nil
   end
+  if UI.resumeTarget and UI.resumeTarget.fromPlaylist then
+    UI.progress[UI.resumeTarget.key], UI.resumeTarget = nil, nil
+  end
+  if UI.activeTarget and UI.activeTarget.fromPlaylist then UI.activeTarget = nil end
   pl.items, pl.pos, pl.state, pl.token = {}, 0, "paused", nil
   UI.UpdateListen()
 end
@@ -2642,7 +3077,7 @@ function UI.PlaylistRemove(i)
   if i < pl.pos then
     pl.pos = pl.pos - 1
   elseif i == pl.pos then
-    goTo(pl.pos)   -- the next one takes its place, from its start
+    goTo(pl.pos, wasPlaying)   -- the next one takes its place, from its start
     if wasPlaying then return playCurrent() end
   end
   UI.UpdateListen()
@@ -2965,6 +3400,10 @@ end
 function UI.PlayerPlay()
   local pl = UI.pl
   if UI.speaking and pl.state ~= "playing" then return UI.StopAll() end
+  local state = UI.TransportState()
+  if not UI.speaking and state and not state.target.fromPlaylist then
+    return UI.ListenTo(state.target)
+  end
   if UI.PlaylistToggle() then return end
   if UI.QueueHere() > 0 then return end
   local zt = UI.ZoneTarget()
@@ -3334,6 +3773,31 @@ function UI.CreatePlayer(parent, floating)
   report:SetScript("OnLeave", function() GameTooltip:Hide() end)
   report:Hide()
   p.report = report
+  -- These buttons exist only for recordings with validated real segment files.
+  p.back = playerButton(p, "−10s", function() UI.Seek(-10) end, L["Back 10 seconds"])
+  p.back:SetSize(34, 22)
+  p.back:SetPoint("LEFT", p.next, "RIGHT", 4, 0)
+  p.forward = playerButton(p, "+10s", function() UI.Seek(10) end, L["Forward 10 seconds"])
+  p.forward:SetSize(34, 22)
+  p.forward:SetPoint("LEFT", p.back, "RIGHT", 2, 0)
+  for _, b in ipairs({ p.back, p.forward }) do b:Hide() end
+  local progress = CreateFrame("Frame", nil, p)
+  progress:SetPoint("TOPLEFT", 9, -30)
+  progress:SetPoint("TOPRIGHT", -9, -30)
+  progress:SetHeight(10)
+  progress:EnableMouse(true)
+  progress:SetScript("OnEnter", function(self)
+    local state = UI.TransportState()
+    if not state then return end
+    local function stamp(seconds) return string.format("%d:%02d", math.floor(seconds / 60), math.floor(seconds % 60)) end
+    GameTooltip:SetOwner(self, "ANCHOR_TOP")
+    GameTooltip:AddLine(stamp(state.offset) .. " / " .. stamp(state.duration))
+    T.Tip(L["Resume starts at the previous audio segment."], "tipDim", true)
+    GameTooltip:Show()
+  end)
+  progress:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  progress:Hide()
+  p.progress = progress
   p.state = Muted(p:CreateFontString(nil, "OVERLAY", T.font.small))
   p.state:SetPoint("LEFT", p.next, "RIGHT", 6, 0)
   p.state:SetPoint("RIGHT", report, "LEFT", -4, 0)
@@ -3354,20 +3818,29 @@ local function updatePlayer(p)
   local n, cur = #pl.items, pl.items[pl.pos]
   local list = n > 0
   local oneOff = playing and pl.state ~= "playing"
+  local transport = UI.TransportState()
   local title, full, state, button, tip
   if oneOff then
     full = UI.playingLabel or L["narration"]
     title = GREEN .. esc(full) .. "|r"
     state = list and (pl.state == "waiting" and L["then your queue"] or L["queue paused"]) or ""
-    button, tip = L["Stop"], L["Stop narration"]
+    button, tip = transport and L["Pause"] or L["Stop"], L["Stop narration"]
+  elseif not playing and transport and not transport.target.fromPlaylist then
+    full = transport.target.label
+    title, state = WHITE .. esc(full) .. "|r", L["Paused"]
+    button, tip = L["Play"], L["Resume starts at the previous audio segment."]
   elseif list then
     full = cur.label
     local ours = pl.state == "playing" or pl.state == "waiting"
     title = (ours and GOLD or WHITE) .. esc(full) .. "|r"
     state = string.format(L["%d of %d"], pl.pos, n)
     if not ours then state = L["Paused"] .. "  " .. state end
-    if pl.state == "playing" then button, tip = L["Pause"], L["Pause your queue"]
-    else button, tip = L["Play"], L["Play your queue from this narration"] end
+    if pl.state == "playing" then
+      button, tip = transport and L["Pause"] or L["Stop"], transport and L["Pause your queue"] or L["Stop narration"]
+    else
+      button, tip = transport and L["Play"] or L["Restart"],
+        transport and L["Resume starts at the previous audio segment."] or L["Click to play it from the start"]
+    end
   else
     title = GREY .. L["Nothing playing"] .. "|r"
     state = ""
@@ -3387,6 +3860,11 @@ local function updatePlayer(p)
   tfs:SetPoint("BOTTOMRIGHT", -6, twoLines and 0 or 2)
   p.title.full = full
   p.state:SetText(state)
+  p.state:SetShown(transport == nil)
+  for _, b in ipairs({ p.back, p.forward, p.progress }) do b:SetShown(transport ~= nil) end
+  if transport then
+    p.back.tip2, p.forward.tip2 = L["Resume starts at the previous audio segment."], L["Resume starts at the previous audio segment."]
+  end
   p.play:SetText(button)   -- hidden; the sign shows it
   p.play.tip = tip
   T.SetIcon(p.play, button == L["Pause"] and "pause" or (button == L["Stop"] and "stop" or "play"))
@@ -3401,8 +3879,9 @@ local function updatePlayer(p)
   if p.next.SetEnabled then p.next:SetEnabled(list) end
   p.report:SetShown(settings().reportCross == true and UI.ReportableClip() ~= nil)
   local w = (tonumber(p:GetWidth()) or SIDE_W - 8) - 18
-  p.fill:SetShown(list and not oneOff)
-  if list then p.fill:SetWidth(math.max(1, w * pl.pos / n)) end
+  p.fill:SetShown(transport ~= nil or (list and not oneOff))
+  if transport then p.fill:SetWidth(math.max(1, w * transport.offset / transport.duration))
+  elseif list then p.fill:SetWidth(math.max(1, w * pl.pos / n)) end
 end
 
 local function flashPlayer()
@@ -3442,9 +3921,10 @@ function UI.UpdateNowPlaying()
   local mini = UI.mini
   if mini then
     local want = settings().floatPlayer ~= false and not (UI.frame and UI.frame:IsShown())
-      and (UI.IsBusy() or #pl.items > 0)
+      and (UI.IsBusy() or UI.TransportState() ~= nil or #pl.items > 0)
     mini:SetShown(want and true or false)
-    if want then updatePlayer(mini) elseif mini.menu then mini.menu:Hide() end
+    updatePlayer(mini)
+    if not want and mini.menu then mini.menu:Hide() end
     UI.KeepPlayerClear()
   end
   if ns.SetButtonsPlaying then ns.SetButtonsPlaying(UI.IsBusy()) end
@@ -3629,6 +4109,7 @@ function UI.RestoreHistory(i)
   UI.Archive()   -- save (or update) the chat you're leaving
   UI.historyId = c.id
   UI.msgs, UI.blocks = {}, {}
+  UI.UpdateListen()
   for _, m in ipairs(c.msgs) do
     UI.msgs[#UI.msgs + 1] = { role = m.role, text = m.text, target = m.target, rows = m.rows, subject = m.subject,
       linked = type(m.linked) == "table" and m.linked or nil }
@@ -3650,6 +4131,7 @@ function UI.Clear()
   if UI.historyFrame then UI.historyFrame:Hide() end
   if UI.journeyPage then UI.journeyPage:Hide() end
   UI.msgs, UI.blocks = {}, {}
+  UI.UpdateListen()
   for _, b in ipairs(UI.bubbles) do b.frame:Hide() end
   UI.content:SetHeight(100)
   UI.engine.lastKey = nil
@@ -3913,7 +4395,7 @@ end
 -- gated (and posted a warning with a Reveal chip). Options > "Show spoilers without asking" turns this off, and a
 -- quest's own spoilers open once you've finished it (UI.Unlocked).
 function UI.SpoilerGate(key, kind, idx)
-  if settings().showSpoilers or UI.Unlocked(key) then return false end
+  if UI.SpoilerAllowed(key, kind, idx) then return false end
   local e = UI.engine.db.entries[key]
   local item = e and ((kind == "faq" and e.faq and e.faq[idx]) or (kind == "section" and e.sec and e.sec[idx]))
   local level = item and ((kind == "faq" and item.sp) or (kind == "section" and item.sp ~= 0 and item.sp))
@@ -3936,6 +4418,9 @@ function UI.ShowSection(key, idx)
   if not sec then return end
   local text, linked = loreText(e.n .. ": " .. sec.t, sec.b, nil, nil, nil, key)
   UI.AddMessage("lore", text, nil, nil, nil, nil, key, linked)
+  local m = UI.msgs[#UI.msgs]
+  if m then m.spoiler = { key = key, kind = "section", idx = idx, text = sec.b } end
+  UI.UpdateListen()
   UI.SetNext(followUps(key, nil))
 end
 
@@ -4007,6 +4492,9 @@ function UI.ShowFaq(key, idx, via)
   UI.lastLog = ns.Log.Question(f.q, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "faq", idx = idx, title = f.q } }, via)
   local text, linked = loreText(e.n, f.a, nil, ns.Voice.HasAudio(target.key) and narratedTag() or nil, key)
   UI.AddMessage("lore", text, target, nil, nil, UI.lastLog, key, linked)
+  local m = UI.msgs[#UI.msgs]
+  if via == "reveal" and m then m.spoiler = { key = key, kind = "faq", idx = idx, text = f.a } end
+  UI.UpdateListen()
   UI.SetNext(followUps(key, idx))
 end
 
@@ -4029,7 +4517,7 @@ function UI.ShowEntry(key, via, asked)
   end
   if asked then UI.AddMessage("user", WHITE .. esc(asked) .. "|r") end
   local target = UI.EntryTarget(key)
-  local narrated = ns.Voice.HasAudio(target.key) and narratedTag() or ""
+  local narrated = ""   -- story headings have a labeled Listen action and a live availability note
   -- A quest in a storyline: where it sits, first (Storyline.Line; nothing for other quests).
   local story = e.t == "quest" and e.m and e.m.id and ns.Storyline.Line(e.m.id)
   story = story and (GOLD .. esc(story) .. "|r\n") or ""
@@ -4153,6 +4641,23 @@ function UI.QuestPageClip(qid, kind, peek)
   return V.QuestClip(qid, kind, nil, true)
 end
 
+-- The words behind a queued quest page: the open page, checked quest-log offer, or captured page.
+-- An unavailable page has no substitute lore text: its title still identifies the recording.
+function UI.QuestPageText(qid, kind)
+  if _G.QuestFrame and QuestFrame:IsShown() and ns.Voice.questKind == kind and GetQuestID and GetQuestID() == qid then
+    return ns.Voice.QuestPageText(kind)
+  end
+  if kind == "detail" then
+    local desc, obj, sure = logText(qid)
+    if sure and type(desc) == "string" and desc ~= "" then return desc .. " " .. (obj or "") end
+  end
+  local q = LoreForeverDB and LoreForeverDB.quests and LoreForeverDB.quests[qid]
+  local field = ({ detail = "text", progress = "progress", complete = "completion" })[kind]
+  local text = q and field and q[field]
+  if type(text) == "string" and ns.Voice.QuestClip(qid, kind, text, false, true) then return text end
+  return ""
+end
+
 -- Whether you've handed quest qid in (the server's list, or this character's), or have its reward page open now.
 local function handedIn(qid)
   local QL = _G.C_QuestLog
@@ -4191,7 +4696,8 @@ end
 
 -- A quest with no written lore: what the quest itself says, and the story of where it happens.
 function UI.ShowQuestText(q)
-  local desc, obj = questLogText(q)
+  local desc, obj
+  if q.text then desc, obj = q.text, q.objectives else desc, obj = questLogText(q) end
   local ctx = UI.ctx or ns.Context.Snapshot()
   local zk = UI.engine:ZoneKey(ctx.zone)
   local ze = zk and UI.engine.db.entries["zone:" .. zk]
@@ -4398,14 +4904,14 @@ function UI.OnLoreLink(frame, link, button)
 end
 
 -- Shift-click: the entry's narration (or answer idx's) joins the playlist, or a note says why it can't.
-function UI.QueueLink(key, idx)
+function UI.QueueLink(key, idx, deferStart)
   local e = key and UI.engine.db.entries[key]
   if not e then return end
   local label = idx and e.faq and e.faq[idx] and e.faq[idx].q or e.n
   if UI.PlaylistIndex(idx and (key .. "#faq" .. idx) or key) then
     return note(string.format(L["%s is already in your playlist."], esc(label)))
   end
-  if not UI.PlaylistAdd(key, idx) then note(string.format(L["%s isn't narrated yet."], esc(label))) end
+  if not UI.PlaylistAdd(key, idx, nil, deferStart) then note(string.format(L["%s isn't narrated yet."], esc(label))) end
 end
 
 -- Back and Forward: the entries you opened through links in this chat, like a browser's history. They open that

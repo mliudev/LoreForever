@@ -407,6 +407,70 @@ function Engine:DocText(key, kind, idx)
   return e.n, e.s
 end
 
+-- Unit identity aliases are deliberately separate from search keywords: a place, a weapon or a class mentioned
+-- by a topic does not identify a member of it. The compiler reads this same table; runtime matching also uses it
+-- directly so an older generated mob index cannot bring the broad keyword matches back.
+-- Tribe aliases come from the species entries and local quest/zone sources (Bluegill: quest:279, Mosshide: quest:277).
+Engine.MOB_ALIASES = {
+  ["topic:gnoll"] = { "gnoll", "riverpaw", "mosshide", "mudsnout", "palemane", "shadowhide", "woodpaw" },
+  ["topic:murloc"] = { "murloc", "bluegill", "mur'ghoul", "mur'gul" },
+  ["topic:kobold"] = { "kobold" },
+  ["topic:furbolg"] = { "furbolg", "deadwood", "foulweald", "gnarlpine", "thistlefur", "winterfall" },
+  ["topic:harpy"] = { "harpy", "bloodfeather", "dustwind", "windfury", "witchwing" },
+  ["topic:centaur"] = { "centaur" },
+  ["topic:kolkar-clan"] = { "kolkar" },
+  ["topic:quilboar"] = { "quilboar", "quillboar", "bristleback", "razormane" },
+  ["topic:trogg"] = { "trogg", "caverndeep", "rockjaw", "stonesplinter" },
+  ["topic:naga"] = { "naga" },
+  ["topic:satyr"] = { "satyr", "jadefire", "sargeron", "xavian" },
+  ["topic:worgen"] = { "worgen" },
+  ["topic:gnome"] = { "gnome", "mechagnome" },
+  ["topic:leper-gnome"] = { "leper gnome" },
+  ["topic:goblin"] = { "goblin" },
+  ["topic:dwarf"] = { "dwarf", "dwarves" },
+  ["topic:dark-iron-dwarf"] = { "dark iron" },
+  ["topic:night-elf"] = { "night elf", "kaldorei" },
+  ["topic:troll"] = { "troll", "amani", "drakkari", "zandalari" },
+  ["topic:tauren"] = { "tauren" },
+  ["topic:orc"] = { "orc" },
+  ["topic:forsaken"] = { "forsaken" },
+  ["topic:highborne"] = { "highborne", "shen'dralar" },
+  ["topic:skyborne"] = { "skyborne", "shen'dorei" },
+  ["topic:elemental-plane"] = { "elemental" },
+  ["topic:defias-brotherhood"] = { "defias" },
+  ["topic:dragonmaw-clan"] = { "dragonmaw" },
+  ["topic:blackrock-clan"] = { "blackrock" },
+  ["topic:bronzebeard-clan"] = { "bronzebeard" },
+  ["topic:burning-blade-clan"] = { "burning blade" },
+  ["topic:darkspear-tribe"] = { "darkspear" },
+  ["topic:frostmane-tribe"] = { "frostmane" },
+  ["topic:grimtotem-tribe"] = { "grimtotem" },
+  ["topic:wildhammer-clan"] = { "wildhammer" },
+  ["topic:warsong-clan"] = { "warsong" },
+  ["topic:scarlet-crusade"] = { "scarlet" },
+  ["topic:sentinels"] = { "sentinel", "silverwing" },
+  ["topic:syndicate"] = { "syndicate" },
+  ["topic:venture-company"] = { "venture" },
+  ["topic:steamwheedle-cartel"] = { "steamwheedle" },
+  ["topic:argent-dawn"] = { "argent" },
+  ["topic:cenarion-circle"] = { "cenarion" },
+  ["topic:twilight-s-hammer"] = { "twilight's hammer" },
+  ["topic:pirate"] = { "pirate", "bloodsail", "buccaneer", "corsair", "freebooter", "southsea" },
+}
+local CLASS_TOPIC = { ["topic:warrior"] = true, ["topic:paladin"] = true, ["topic:hunter"] = true,
+  ["topic:rogue"] = true, ["topic:priest"] = true, ["topic:shaman"] = true, ["topic:mage"] = true,
+  ["topic:warlock"] = true, ["topic:druid"] = true }
+
+-- Whole words/phrases only. Normalize singular/plural unit labels, preserving names ending in ss.
+local function unitWords(name)
+  local words = {}
+  for w in Engine.lower(name):gmatch("[%a'\128-\255]+") do
+    if not w:match("ss$") then w = w:gsub("s$", "") end
+    words[#words + 1] = w
+  end
+  return " " .. table.concat(words, " ") .. " "
+end
+
 -- Entry key for a name seen in the game (NPC, zone, or a mob named after a lore topic).
 function Engine:KeyForName(name)
   if not name or name == "" then return nil end
@@ -418,12 +482,18 @@ function Engine:KeyForName(name)
   local rest = lower:match("^%S+ (.+)$")
   k = rest and idx.name[rest]
   if k and k:find("^npc:") then return k, "exact" end
-  if idx.mob then
-    for w in lower:gmatch("[%a'\128-\255]+") do
-      local m = idx.mob[w] or idx.mob[w:gsub("s$", "")]
-      if m then return m, "mob" end
+  local words, best, width = unitWords(name), nil, 0
+  for key, aliases in pairs(Engine.MOB_ALIASES) do
+    if self.db.entries[key] then
+      for _, alias in ipairs(aliases) do
+        local phrase = unitWords(alias)
+        if words:find(phrase, 1, true) and (#phrase > width or (#phrase == width and (not best or key < best))) then
+          best, width = key, #phrase
+        end
+      end
     end
   end
+  if best then return best, "mob" end
   return nil
 end
 
@@ -933,7 +1003,7 @@ function Engine:Ask(question, ctx, limit)
     if PERSON[w] or w == "this" or w == "that" then mentionsPerson = true end
   end
   -- "how did I get here?", "why does he want this?": the FAQ tagged for that, at the player's place or quest.
-  local intentKey, intentDoc, intentBonus, aboutTarget
+  local intentKey, intentDoc, intentBonus, aboutTarget, mobSubject
   local intent, scope = Engine.Intent(raw)
   if intent and ctx then
     -- The entry whose whole name the question spells out, rarest words first ("lore for Hogger").
@@ -944,6 +1014,28 @@ function Engine:Ask(question, ctx, limit)
         namedKey, best = k, w
       end
     end
+    if scope == "subject" then
+      -- Some quest titles reduce to a class word after stop words ("A Rogue's Deal"). Keep a whole title or an
+      -- explicitly requested quest; otherwise use the exact class identity before checking a creature's role suffix.
+      local _, literalName = tokenize(namedKey and self.db.entries[namedKey].n or "")
+      local namesQuest = namedKey and (" " .. table.concat(raw, " ") .. " "):find(
+        " " .. table.concat(literalName, " ") .. " ", 1, true)
+      if namedKey and self.db.entries[namedKey].t == "quest" and not asksType.quest and not namesQuest then
+        for classKey in pairs(CLASS_TOPIC) do
+          if (titled[classKey] or 0) >= 0.99 and self.titleLen[namedKey] == self.titleLen[classKey] then
+            namedKey = classKey
+            break
+          end
+        end
+      end
+      local mobKey, how = self:KeyForName(table.concat(raw, " "))
+      -- A role in a creature's name ("Mosshide Warrior") must not turn a species question into class lore.
+      if how == "mob" and (not namedKey or CLASS_TOPIC[namedKey]) then
+        namedKey, mobSubject = mobKey, true
+        -- A tribe alias may not occur in its species title. Search the resolved identity as well as the role.
+        for _, t in ipairs((tokenize(self.db.entries[mobKey].n))) do qtoks[#qtoks + 1] = t end
+      end
+    end
     local k, i = self:IntentTarget(intent, scope, ctx, raw, namedKey)
     if k then intentKey, intentDoc = k, self:EntryDocs(k) + i end   -- the entry's docs: summary, then each FAQ
     if not k and scope == "subject" and ctx.targetName then
@@ -951,7 +1043,7 @@ function Engine:Ask(question, ctx, limit)
       aboutTarget = true
     end
     -- "Why can I use the Light?": the player's own class outranks the Light topic the words point at.
-    intentBonus = self.INTENT_BONUS * (scope == "self" and 2 or 1)
+    intentBonus = self.INTENT_BONUS * ((scope == "self" or mobSubject) and 2 or 1)
   end
   local followKey
   if not intentKey and not aboutTarget and not namesAnything and (mentionsPronoun or #qtoks <= 2) then
@@ -1056,9 +1148,106 @@ function Engine:Ask(question, ctx, limit)
   return results
 end
 
--- Type-ahead: pre-written questions matching what the player has typed so far (the last word may be partial).
+local function storyName(text)
+  return Engine.lower(text or ""):gsub("%s+", " "):match("^%s*(.-)%s*$")
+end
+
+-- A city can also have a subzone overview under the same display name. The zone entry is the canonical story;
+-- keep this independent of installed voices so reading and submission agree even when audio is unavailable.
+function Engine:CanonicalStoryKey(key)
+  local e = key and self.db.entries[key]
+  if not e then return nil end
+  if e.t == "subzone" then
+    local z = self:ZoneKey(storyName(e.n)) or (e.en and self:ZoneKey(storyName(e.en)))
+    if z and self.db.entries["zone:" .. z] then return "zone:" .. z end
+  end
+  return key
+end
+
+-- Full typed phrases must match a name, rather than merely contain its tokens: "Who rules Stormwind?" stays a
+-- question. Prefixes and later words of a name are useful while typing ("Stormwind Ci", "VanCleef").
+local function storyNameScore(query, name, exact)
+  name = storyName(name)
+  if name == query then return 100 end
+  if exact or #query < 2 then return nil end
+  if name:sub(1, #query) == query then return 80 end
+  if (" " .. name):find(" " .. query, 1, true) then return 60 end
+end
+
+function Engine:StoryMatches(text, ctx, exact)
+  local query = storyName(text)
+  if query == "" then return {} end
+  local scores, candidates = {}, {}
+  local function add(key, score)
+    if not score then return end
+    key = self:CanonicalStoryKey(key)
+    if key then scores[key] = math.max(scores[key] or 0, score) end
+  end
+  -- These indexes include client names and zone aliases, including those supplied by language packs. A zone
+  -- alias wins a collision with another entry (Stormwind's kingdom topic or the duplicate city subzone).
+  local z = self:ZoneKey(query)
+  if z then add("zone:" .. z, 120) end
+  local named = self.db.index.name[query]
+  -- Honor the game's NPC title aliases (Deputy Willem -> Willem), while question
+  -- and command words such as "Who" or "Tell" must not become an NPC title.
+  if not named and not STOP[query:match("^%S+")] then
+    local key, how = self:KeyForName(query)
+    if how == "exact" then named = key end
+  end
+  if named then add(self:SubzoneKey(query, ctx and ctx.zone) or named, z and 100 or 110) end
+  if not exact then
+    for name, key in pairs(self.db.index.name) do add(key, storyNameScore(query, name)) end
+    for name, zone in pairs(self.db.index.zone or {}) do add("zone:" .. zone, storyNameScore(query, name)) end
+  end
+  for key, aliases in pairs(Engine.MOB_ALIASES) do
+    for _, alias in ipairs(aliases) do add(key, storyNameScore(query, alias, exact)) end
+  end
+  -- The title index also covers translated display names which differ from the client's localized name. Reuse
+  -- its vocabulary and only inspect matching entries; no extra database-wide name index is built or mutated.
+  local tokens = tokenize(query)
+  local first = tokens[1]
+  if first then
+    for token, keys in pairs(self.titleIndex) do
+      if token == first or (not exact and #first >= 2 and token:sub(1, #first) == first) then
+        for key in pairs(keys) do candidates[key] = true end
+      end
+    end
+    local names = self.nameIndex[first]
+    for key in pairs(names or {}) do if key ~= "n" then candidates[key] = true end end
+  end
+  for key in pairs(candidates) do
+    local e = self.db.entries[key]
+    add(key, storyNameScore(query, e.n, exact))
+    add(key, storyNameScore(query, e.n:gsub("%s*%b()", ""), exact))
+    if e.en then add(key, storyNameScore(query, e.en, exact)) end
+  end
+  local _, ctxWeight = self:ContextKeys(ctx)
+  local out = {}
+  for key, score in pairs(scores) do
+    local e = self.db.entries[key]
+    local name = e.n
+    local place = e.t == "city" and 6 or ((e.t == "zone" or e.t == "dungeon") and 4 or 0)
+    out[#out + 1] = { kind = "story", key = key, name = name, label = name, q = name,
+      score = score + place + (ctxWeight[key] or 0) * 2 }
+  end
+  table.sort(out, function(a, b)
+    if a.score ~= b.score then return a.score > b.score end
+    if a.name ~= b.name then return a.name < b.name end
+    return a.key < b.key
+  end)
+  return out
+end
+
+-- Immediate Enter/Send does not have to wait for the type-ahead debounce. Only an exact bare name opens a story.
+function Engine:StoryForName(text, ctx)
+  local matches = self:StoryMatches(text, ctx, true)
+  return matches[1] and matches[1].key or nil
+end
+
+-- Type-ahead: matching stories first for name searches, followed by the existing pre-written question ranking.
 function Engine:Complete(text, ctx, limit)
-  limit = limit or 5
+  limit = math.max(0, math.floor(limit or 5))
+  if limit == 0 then return {} end
   local toks, raw = tokenize(text)
   if #raw == 0 then return {} end
   local partial = not text:match("%s$") and raw[#raw] or nil
@@ -1094,14 +1283,18 @@ function Engine:Complete(text, ctx, limit)
     if a.score ~= b2.score then return a.score > b2.score end
     return a.di < b2.di
   end)
-  local out, seenQ = {}, {}
+  local out, seenQ = self:StoryMatches(text, ctx), {}
+  -- Leave space for related questions in the same bounded dropdown even for broad partial names.
+  local storyLimit = limit > 1 and math.min(3, limit - 1) or 1
+  for i = #out, storyLimit + 1, -1 do out[i] = nil end
+  if #out >= limit then return out end
   for _, r in ipairs(ranked) do
     local f = self.db.entries[r.key].faq[r.idx]
     local q = f.q
     -- Never suggest a spoiler answer, unless it's about a quest you've finished.
     if not seenQ[q] and (not f.sp or self:Finished(r.key, ctx and ctx.done)) then
       seenQ[q] = true
-      out[#out + 1] = { key = r.key, idx = r.idx, q = q, name = self.db.entries[r.key].n, score = r.score }
+      out[#out + 1] = { kind = "faq", key = r.key, idx = r.idx, q = q, name = self.db.entries[r.key].n, score = r.score }
       if #out >= limit then break end
     end
   end

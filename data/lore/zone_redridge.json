@@ -16,7 +16,7 @@
  "sections": [
   {
    "title": "A Bastion Under Siege",
-   "body": "The Redridge range was once among the most peaceful corners of the kingdom, supplying Stormwind with timber, freshwater fish, and crops. Today, that quiet life has eroded. The lakeside township of Lakeshire sits perpetually fortified against aggressive incursions. To the east, Stonewatch Keep\u2014once a proud bastion of the kingdom\u2014has fallen under the control of renegade Blackrock orcs and gnolls, cutting off roads and threatening to overrun the eastern valleys entirely.",
+   "body": "The Redridge range was once among the most peaceful corners of the kingdom, supplying Stormwind with timber, freshwater fish, and crops. Today, that quiet life has eroded. The lakeside township of Lakeshire sits perpetually fortified against aggressive incursions. To the east, Stonewatch Keep—once a proud bastion of the kingdom—has fallen under the control of renegade Blackrock orcs and gnolls, cutting off roads and threatening to overrun the eastern valleys entirely.",
    "spoiler": 0
   },
   {
@@ -28,6 +28,11 @@
    "title": "Neglected by the Crown",
    "body": "While Magistrate Solomon and Marshal Marris plead for reinforcements, the regency council in Stormwind has effectively abandoned Lakeshire to fend for itself. Desperate entreaties sent to Sentinel Hill and Darkshire yield nothing, as both sister settlements are crippled by their own crises. With regular royal forces nowhere in sight, local magistrates must hire any capable sellsword willing to brave the Lakeridge Highway, clear the gnoll camps, and push back the shadow looming over Lake Everstill.",
    "spoiler": 0
+  },
+  {
+   "title": "The Hidden Allegiances",
+   "body": "The rogue warlock Morganth initially allied with the Blackrock orcs to seize Stonewatch Keep, then betrayed them and bound the Shadowhide gnolls to his service from the Tower of Ilgalar. Reports recovered during the Blackrock investigation also reveal an alliance between the orcs and the black dragonflight.",
+   "spoiler": 1
   }
  ],
  "faq": [

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Rustmaul Dig Site"
  },
- "summary": "The Rustmaul Dig Site is a ruined excavation in the southern reaches of the Shimmering Flats. Originally established by the dwarven Explorers' League to unearth ancient ruins, the camp fell into tragedy when a Horde war party slaughtered the miners, only to inadvertently awaken a subterranean silithid swarm. Now abandoned by mortals, the site crawls with hostile insectoids emerging from the caverns below.",
+ "summary": "The Rustmaul Dig Site is a ruined excavation in the southern reaches of the Shimmering Flats. Originally established by the dwarven Explorers' League to unearth ancient ruins, the camp fell into tragedy when a Horde war party slaughtered the miners, after which a subterranean silithid swarm emerged. Now abandoned by mortals, the site crawls with hostile insectoids emerging from the caverns below.",
  "sections": [
   {
    "title": "A Slaughter in the Salt",
-   "body": "Prospectors from the Ironforge Explorers' League set up the Rustmaul Dig Site hoping to uncover forgotten artifacts buried beneath the salt flats. Their efforts were brutally cut short when an aggressive Horde war party, led by Moktar Krin, fell upon the camp and wiped out the dwarven excavators. However, the conquerors enjoyed no triumph. The violent clash and deep digging disturbed a dormant cave network beneath the site, releasing an endless horde of silithid insects that quickly overwhelmed and drove off the battered survivors.",
+   "body": "Prospectors from the Ironforge Explorers' League set up the Rustmaul Dig Site hoping to uncover forgotten artifacts buried beneath the salt flats. Their efforts were brutally cut short when an aggressive Horde war party, led by Moktar Krin, fell upon the camp and wiped out the dwarven excavators. However, the conquerors enjoyed no triumph. The violent clash apparently disturbed a dormant cave network beneath the site, releasing an endless horde of silithid insects that quickly overwhelmed and drove off the battered survivors.",
    "spoiler": 0
   },
   {
    "title": "The Awakening Swarm",
-   "body": "Today, Rustmaul stands entirely lost to the surface races. What remains of the mining equipment and scaffolds is buried under skittering mandibles and alien carapaces. The surviving members of Moktar Krin's war party retreated north to Ironstone Camp, terrified by the unrelenting tide of insectoids they accidentally unleashed upon the Shimmering Flats.",
+   "body": "Today, Rustmaul stands entirely lost to the surface races. What remains of the mining equipment and scaffolds is buried under skittering mandibles and alien carapaces. The surviving members of Moktar Krin's war party retreated north to Ironstone Camp, terrified by the unrelenting tide of insectoids that emerged after their attack.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "why are there bugs at rustmaul",
     "who attacked rustmaul"
    ],
-   "answer": "A Horde war party led by Moktar Krin assaulted the camp and slaughtered the dwarves. The commotion disturbed a subterranean nest of silithid insects within the mine cave, unleashing a swarm that drove the surviving attackers away."
+   "answer": "A Horde war party led by Moktar Krin assaulted the camp and slaughtered the dwarves. The commotion apparently disturbed a subterranean nest of silithid insects within the mine cave, unleashing a swarm that drove the surviving attackers away."
   },
   {
    "q": "Where did the surviving attackers go?",
@@ -65,7 +65,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Though Moktar Krin's war party claimed victory over the dwarven excavators, their reckless violence stirred an ancient, creeping silithid menace that now threatens the entire region."
+   "text": "Though Moktar Krin's war party claimed victory over the dwarven excavators, an ancient, creeping silithid menace emerged after the battle that now threatens the entire region."
   }
  ],
  "keywords": [

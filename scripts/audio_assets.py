@@ -101,6 +101,11 @@ def bundle(pack: str, files: list[tuple[str, Path]], out: Path) -> Path:
 def cmd_manifest(_args) -> int:
     packs = {}
     for pack in shipped_packs():
+        from transport_assets import TransportError, validate
+        try:
+            validate(ROOT / "addon" / pack)
+        except TransportError as e:
+            raise Failure(str(e)) from e
         files = recordings(pack)
         if not files:
             continue   # build-release.sh refuses a shipped voice pack without recordings

@@ -38,7 +38,7 @@
     "jitters afraid of sven",
     "what did jitters do"
    ],
-   "answer": "Jitters had been hiding unseen in Sven's barn when the Dark Riders descended upon the farm. He stayed hidden while Sven's family was slaughtered, then fled, and he dreads having to face Sven's wrath in person."
+   "answer": "Jitters fled Sven's farm and dreads facing the grieving farmer's wrath. He asks you to deliver his journal so Sven can read his account."
   },
   {
    "q": "What is in Jitters' completed journal?",
@@ -91,7 +91,7 @@
   },
   {
    "target": "class:Paladin",
-   "text": "Helping Sven unmask the dark forces behind his family's murder and guiding his pursuit toward the necromancer Morbent Fel aligns directly with the holy calling to purge the undead and deliver justice."
+   "text": "Helping Sven uncover the forces behind his family's murder serves the holy duty to protect the innocent and seek justice."
   }
  ],
  "keywords": [

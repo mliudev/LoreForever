@@ -3,7 +3,7 @@
  "type": "npc",
  "name": "Demisette Cloyce",
  "era": "classic",
- "zone": "barrens",
+ "zone": "stormwind",
  "meta": {
   "wiki": "Demisette Cloyce",
   "refs": 1
@@ -17,7 +17,7 @@
   },
   {
    "title": "Connecting the Covens",
-   "body": "Demisette is far more than a simple spell tutor; she serves as an essential nexus for warlock operations across Azeroth. When an acolyte reaches sufficient mastery, she directs them far beyond the walls of Stormwind\u2014connecting them to powerful summoners like Menara Voidrender in the Barrens to harness potent artifacts and bind formidable fel steeds.",
+   "body": "Demisette is far more than a simple spell tutor; she serves as an essential nexus for warlock operations across Azeroth. When an acolyte reaches sufficient mastery, she directs them far beyond the walls of Stormwind—connecting them to powerful summoners like Menara Voidrender in the Barrens to harness potent artifacts and bind formidable fel steeds.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why slaughtered lamb",
     "slaughtered lamb basement"
    ],
-   "answer": "Demonology and fel magic are strictly outlawed and viewed with horror by the Church of the Holy Light and Stormwind's leadership. The warlock coven gathers in secret within the subterranean crypts of the Slaughtered Lamb to practice away from the gaze of the city guard."
+   "answer": "The warlock coven gathers within the subterranean cellar of the Slaughtered Lamb, away from public view. Their dark practices make the tavern a discreet meeting place."
   },
   {
    "q": "What is her connection to the Barrens?",

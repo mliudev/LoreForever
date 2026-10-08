@@ -40,7 +40,7 @@
     "lich identity",
     "who wrote the spellbook"
    ],
-   "answer": "The book belongs to Gunther Arcanus, a former human necromancer from Dalaran who broke free of the Scourge's control through his own sheer willpower and now dwells in seclusion as a lich."
+   "answer": "It belongs to the reclusive, free-willed lich on the island in Brightwater Lake. Bethor Iceshard hopes studying its pages will reveal the owner's identity and talents."
   },
   {
    "q": "Why does Bethor Iceshard want the book?",
@@ -61,13 +61,13 @@
    "answer": "The lich believes all other undead in the region remain mind-controlled slaves of the Scourge. Paralyzed by suspicion, he commands his minions to attack anyone venturing near his sanctum."
   },
   {
-   "q": "What relation does Bethor Iceshard have to the author?",
+   "q": "What does Bethor hope to learn about the author?",
    "aliases": [
-    "did bethor know gunther",
-    "gunther and bethor",
-    "bethor friend"
+    "what will bethor learn",
+    "lich author study",
+    "bethor spellbook study"
    ],
-   "answer": "Bethor and Gunther were close friends and comrades-in-arms before the plague ravaged Lordaeron, though Bethor did not realize the lake's lich was Gunther until deciphering the spellbook's pages."
+   "answer": "Bethor hopes to discover who the isolated lich was in life and whether his necromantic knowledge could help the Forsaken."
   }
  ],
  "angles": [

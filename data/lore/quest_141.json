@@ -17,7 +17,7 @@
   "wiki": "The Defias Brotherhood (4)",
   "chain": []
  },
- "summary": "Carrying intelligence from Master Mathias Shaw back to Westfall, this mission uncovers the mastermind behind the red-masked brigands. Shaw's report reveals that the Defias Brotherhood is led by Edwin VanCleef, the very architect who rebuilt Stormwind City after the First War.",
+ "summary": "Deliver Mathias Shaw's confidential report from Stormwind to Gryan Stoutmantle at Sentinel Hill. Shaw has investigated the former Stonemasons Guild to help Stoutmantle uncover the origins of the Defias Brotherhood.",
  "sections": [
   {
    "title": "A Builder Turned Bandit",
@@ -43,7 +43,7 @@
     "mathias shaw document",
     "the report to stoutmantle"
    ],
-   "answer": "It is a confidential intelligence briefing prepared by Master Mathias Shaw, leader of SI:7. It outlines the history of the Stonemasons' Guild, their fallout with the royal court after rebuilding Stormwind, and the revelation that Edwin VanCleef is the ringleader behind the Defias Brotherhood."
+   "answer": "It contains Mathias Shaw's findings on the former Stonemasons Guild and the Defias. Deliver the confidential report to Gryan Stoutmantle."
   },
   {
    "q": "Who is Edwin VanCleef?",
@@ -52,7 +52,7 @@
     "who is edwin vancleef",
     "edwin vancleef lore"
    ],
-   "answer": "Edwin VanCleef was the Grand Master of the Stonemasons' Guild. He oversaw the reconstruction of Stormwind City after it was razed by the orcs during the First War. After an unpaid labor dispute with the crown, he organized his disenfranchised laborers into the Defias Brotherhood."
+   "answer": "Edwin VanCleef was the head of the Stonemasons Guild that rebuilt Stormwind. The report investigates the guild's later history."
   },
   {
    "q": "Why is Gryan Stoutmantle skeptical of the report?",
@@ -61,7 +61,7 @@
     "stoutmantle reaction",
     "why does gryan need proof"
    ],
-   "answer": "Gryan Stoutmantle remembers Edwin VanCleef as a brilliant, hardworking civic leader who rebuilt the nation's capital. The idea that such an esteemed craftsman could fall so far and become a ruthless bandit king terrorizing innocent farmers is hard for him to accept without undeniable proof."
+   "answer": "Stoutmantle finds Shaw's allegations difficult to believe and wants further evidence. The details are revealed when he reads the report."
   },
   {
    "q": "Why did the Stonemasons turn against Stormwind?",
@@ -70,7 +70,7 @@
     "stonemason dispute",
     "vancleef motive"
    ],
-   "answer": "After rebuilding the capital from the ruins of the First War, the Stonemasons' Guild found themselves mistreated and shortchanged by the King and the House of Nobles. Feeling cheated out of their fair wage and cast aside, VanCleef and his followers rebelled."
+   "answer": "The Stonemasons rebuilt Stormwind but fell into a bitter dispute with the nobility over payment. Shaw's report investigates what followed."
   },
   {
    "q": "What role does SI:7 play in this quest?",
@@ -79,7 +79,7 @@
     "si7 involvement",
     "rogue guild stormwind"
    ],
-   "answer": "Master Mathias Shaw leads SI:7, Stormwind's intelligence service operating from Old Town. While the People's Militia fights on the front lines in Westfall, Shaw identifies Edwin VanCleef as the man who ran the Stonemasons' Guild and sends a more detailed account to Stoutmantle."
+   "answer": "Shaw investigates possible ties between the former guild and the outlaws, sending his findings to Stoutmantle."
   },
   {
    "q": "Where does this investigation lead next?",
@@ -88,7 +88,7 @@
     "next quest defias",
     "after shaws report"
    ],
-   "answer": "Because Stoutmantle demands irrefutable proof of VanCleef's complicity, he sends you to capture a Defias Messenger seen on the roads between Moonbrook, the Gold Coast Quarry and the Jangolode Mine, whose message proves that VanCleef is in charge."
+   "answer": "Deliver the report, then help Stoutmantle pursue further evidence in the ongoing Defias investigation."
   }
  ],
  "angles": [
@@ -98,7 +98,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "Carrying intelligence directly from Mathias Shaw showcases the reach of SI:7, highlighting the contrast between the crown's shadow operatives and VanCleef's rogue highwaymen."
+   "text": "Investigating Stormwind's former craftsmen shows how disputes within the kingdom can trouble its distant settlements."
   },
   {
    "target": "race:Human",

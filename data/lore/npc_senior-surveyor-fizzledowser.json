@@ -8,16 +8,16 @@
   "wiki": "Senior Surveyor Fizzledowser",
   "refs": 2
  },
- "summary": "Senior Surveyor Fizzledowser is an ambitious field researcher stationed in Gadgetzan on behalf of the Gadgetzan Water Company. Tasked with prospecting new water sources amidst heavy Wastewander interference, his surveys accidentally unearth the growing menace of the subterranean silithid.",
+ "summary": "Senior Surveyor Fizzledowser is a goblin researcher working from Gadgetzan in Tanaris. He investigates disruptions around the local water supply and sends adventurers to look into the disappearance of Scrimshank.",
  "sections": [
   {
    "title": "A Search for Water Gone Wrong",
    "body": "Operating out of Gadgetzan, Senior Surveyor Fizzledowser is primarily occupied with solving the desert town's chronic resource problem. With local wells and water holes constantly seized by hostile Wastewander bandits, the Gadgetzan Water Company must search further afield for untapped reservoirs. To this end, Fizzledowser dispatches scouts armed with dowsing widgets across the dunes, such as toward Sandsorrow Watch. However, instead of finding clean springs, his probes consistently tap into subterranean insect hives, trading one logistical crisis for an impending ecological disaster.",
-   "spoiler": 0
+   "spoiler": 1
   },
   {
    "title": "Uncovering the Silithid",
-   "body": "When his surveyor crews began suffering devastating ambushes from armored, burrowing insects, Fizzledowser partnered with Alchemist Pestlezugg to examine the specimens. Further tragedies\u2014including the loss of Junior Surveyor Scrimshank inside the Gaping Chasm\u2014proved that these were not ordinary desert pests, but coordinated vanguard forces known as the silithid. Alarmed by findings pointing toward a threat capable of overwhelming southern Kalimdor, Fizzledowser looks past goblin neutrality to sound the alarm directly to Horde and Alliance leadership.",
+   "body": "When his surveyor crews began suffering devastating ambushes from armored, burrowing insects, Fizzledowser partnered with Alchemist Pestlezugg to examine the specimens. Further tragedies—including the loss of Junior Surveyor Scrimshank inside the Gaping Chasm—proved that these were not ordinary desert pests, but coordinated vanguard forces known as the silithid. Alarmed by findings pointing toward a threat capable of overwhelming southern Kalimdor, Fizzledowser looks past goblin neutrality to sound the alarm directly to Horde and Alliance leadership.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "scrimshank redemption",
     "what happened to scrimshank"
    ],
-   "answer": "Junior Surveyor Scrimshank was sent to prospect near the Gaping Chasm but disappeared after the area was overrun by silithid. Adventurers sent to find him discover only his abandoned gear deep within the bug nests."
+   "answer": "Scrimshank is a missing prospector whose disappearance Fizzledowser asks adventurers to investigate."
   },
   {
    "q": "Why is Fizzledowser concerned about the desert insects?",
@@ -55,7 +55,7 @@
     "noxious lair investigation",
     "silithid threat tanaris"
    ],
-   "answer": "What initially seemed like native predators turned out to be organized swarms of silithid expanding aggressively from underground. Alchemical analysis confirmed their coordination poses an existential danger to all settlements in southern Kalimdor."
+   "answer": "His investigation begins with troubling insect activity and disruptions to Gadgetzan's water supply, prompting him to gather evidence for further study."
   }
  ],
  "angles": [

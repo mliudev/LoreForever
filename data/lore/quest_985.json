@@ -43,7 +43,7 @@
     "reason for furbolg cull",
     "terenthis furbolg quest"
    ],
-   "answer": "The Blackwood tribe south of Auberdine has fallen to corruption, turning violent and irrational. Because their camp poses an imminent threat to the settlement and no cure exists for their madness, Terenthis orders a preemptive strike to keep Auberdine safe."
+   "answer": "The Blackwood tribe south of Auberdine has fallen to corruption, turning violent and irrational. Because their camp poses an imminent threat to the settlement and no cure has yet been discovered for their corruption, Terenthis orders a preemptive strike to keep Auberdine safe."
   },
   {
    "q": "Where is the Blackwood furbolg camp located?",
@@ -58,10 +58,9 @@
    "q": "Who is Grimclaw?",
    "aliases": [
     "white bear auberdine",
-    "who is the bear running to terenthis",
     "grimclaw the bear"
    ],
-   "answer": "Grimclaw is a white bear companion tied to the wilderness investigations in Darkshore. When you complete the cull of the Blackwood furbolgs, Grimclaw sprints into Auberdine to alert Terenthis of further troubles in the wild."
+   "answer": "Grimclaw is a white bear associated with the wilderness investigations in Darkshore."
   },
   {
    "q": "What is causing the furbolgs to go mad?",
@@ -96,7 +95,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "Druids feel the tragedy keenly, as the furbolgs' plight reflects the ongoing suffering of Cenarius's creations beneath the taint of fel moss."
+   "text": "Druids feel the tragedy keenly, as the furbolgs' plight reflects the ongoing suffering of the forest beneath the taint of fel moss."
   },
   {
    "target": "faction:Alliance",

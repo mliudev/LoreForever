@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Master of the Rise",
-   "body": "Perched on Hunter Rise above the sweeping plains of Mulgore, Holt Thunderhorn serves the Horde as a seasoned instructor in ranged combat, tracking, and survival. Like many elders of his craft, he guides young tauren as they make the transition from roaming hunters into disciplined defenders of their new capital. When aspirants reach an age to bind and train beasts of their own, Holt directs them to seasoned masters like Ormak Grimshot to undertake the necessary trials.",
+   "body": "Perched on Hunter Rise above the sweeping plains of Mulgore, Holt Thunderhorn serves the Horde as a seasoned instructor in ranged combat, tracking, and survival. Like many elders of his craft, he guides young tauren as they make the transition from roaming hunters into disciplined defenders of their new capital.",
    "spoiler": 0
   }
  ],
@@ -34,15 +34,6 @@
     "what abilities holt"
    ],
    "answer": "He is a hunter trainer who instructs players in essential marksmanship, wilderness survival, and beast-taming techniques, as well as directing novices to specialized beast mastery trials."
-  },
-  {
-   "q": "What is Holt's connection to Ormak Grimshot?",
-   "aliases": [
-    "ormak and holt",
-    "why send to ormak",
-    "ormak grimshot holt"
-   ],
-   "answer": "When growing hunters are ready to expand their knowledge of beasts and animal companion care, Holt sends them to confer with fellow veteran hunter Ormak Grimshot on Hunter Rise."
   },
   {
    "q": "What role do hunters hold in Thunder Bluff?",
@@ -68,13 +59,11 @@
   "hunter rise",
   "hunter trainer",
   "mulgore",
-  "ormak grimshot",
   "thunder bluff"
  ],
  "related": [
   "subzone:hunter-rise",
   "zone:thunderbluff",
-  "npc:ormak-grimshot",
   "quest:6081",
   "zone:mulgore",
   "topic:tauren"

@@ -1,0 +1,175 @@
+{
+  "clips": {
+    "zone:stormwind": {
+      "1": [
+        {
+          "duration": 6.138667,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0000.mp3",
+          "sha256": "f90608e0f9910c3e0a2ca3755e79bdf9068d90ddeff3f807687b8f0ca0d8a4f1",
+          "start": 0.0
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0001.mp3",
+          "sha256": "fe4d9068027895ffaa4e3138034535b0ddf99a7d1ee5625735b37f83df4b6ef5",
+          "start": 6.108515
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0002.mp3",
+          "sha256": "d554a77b1d4901f603d55a6d61819a98e8f8cd7b6b7c1a00210cee570f078277",
+          "start": 12.108515
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0003.mp3",
+          "sha256": "62daca399330cee9d0cba58a1ef2a9daced9e03eefc2f64326536ae04bba59f6",
+          "start": 18.108515
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0004.mp3",
+          "sha256": "b591b42ec39de640ee4d6a567073a6aef6f55fcf0c47e12833f4a4f9fe4f5f67",
+          "start": 24.108515
+        },
+        {
+          "duration": 7.026833,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0005.mp3",
+          "sha256": "0335a3cf1a4c6ee69727b782d49a7967359c1ffaca31c75342c24e798f4315b0",
+          "start": 30.108515
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0006.mp3",
+          "sha256": "8bcda3c8e66f5d0954cacf7918cdc69cb946ea34fa8c8f0aac8678b862d2003c",
+          "start": 37.099
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0007.mp3",
+          "sha256": "bf52ccf6d1495700514d8394aef2476249b3bf8e757f5611427174b5e19ee4d7",
+          "start": 43.099
+        },
+        {
+          "duration": 5.12,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0008.mp3",
+          "sha256": "d1d77486f722d8cdbff8dd3b1c8a2ffdf0e1e900c5578b377f5fb48c5774d21c",
+          "start": 49.099
+        },
+        {
+          "duration": 5.172167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0009.mp3",
+          "sha256": "9cecde888f852004941f21bdce90367ba19c00c9f7825022106425fba1804022",
+          "start": 54.19235
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0010.mp3",
+          "sha256": "1e20e7b9c43a1a1493c5e5576d76ec34ef9ecd14e90ba38b6acc80026eb3bbac",
+          "start": 59.3208
+        },
+        {
+          "duration": 6.974667,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0011.mp3",
+          "sha256": "acc36055628272657bfaab56c927a2565e1cc80cb37d70df278efdf4afdbe9f8",
+          "start": 65.3208
+        },
+        {
+          "duration": 6.269333,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0012.mp3",
+          "sha256": "5f3ee65a95b43158beeb7b9133eba7dd34561b4fbf82947fffa1a30734030c85",
+          "start": 72.272
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0013.mp3",
+          "sha256": "f174979870700403823709afca239172db9bf777d9fe53ba754b16db5ee9ee76",
+          "start": 78.5286
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0014.mp3",
+          "sha256": "626258bde767194d159b206f74b8e1f52131cc9d32201c1f3b3431024cb00cee",
+          "start": 84.5286
+        },
+        {
+          "duration": 6.217167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0015.mp3",
+          "sha256": "8ea3365c7a498a307cb73a081ababceb7d999cd7ccf6541789990e94a38b513a",
+          "start": 90.5286
+        },
+        {
+          "duration": 6.243167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0016.mp3",
+          "sha256": "a59a47d0bc9ae2d44ec0862778dd482ef1a6def67eda1b4f2685c266dd12c369",
+          "start": 96.7088
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0017.mp3",
+          "sha256": "8f46f06f1da460487c718940c368802aa2d4a40c41bff180dcc342a02c0573f3",
+          "start": 102.92
+        },
+        {
+          "duration": 5.982,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0018.mp3",
+          "sha256": "bde7c835a459b2c52eac23a96d0a0d8378d86da34db10ba30706ad9fcd8f102a",
+          "start": 108.92
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0019.mp3",
+          "sha256": "fd56fca18997e0a775a43a7b222087c5b29d8afcd8f4daf9031fcf71705d1e36",
+          "start": 114.8745
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0020.mp3",
+          "sha256": "5ccb2a3209b552d7dda5d8b4a48e31bf9273ec2637aeb22d9585ce59270bb47b",
+          "start": 120.8745
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0021.mp3",
+          "sha256": "9a3e0a60691449b05e89a045a7173f0e26da2d52b8130f976510aff0453c4510",
+          "start": 126.8745
+        },
+        {
+          "duration": 6.034167,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0022.mp3",
+          "sha256": "d1a277291a665caeebf099ef44bfd944e88f35e6e7170a42fff7cb1b623ce8c0",
+          "start": 132.8745
+        },
+        {
+          "duration": 3.787667,
+          "file": "Audio\\Transport\\zone_stormwind-a533c14fa33b95ef1105\\1-0023.mp3",
+          "sha256": "8b33bd912f21d58280c012af5b8c61497042f613242fd52641718808802d05b6",
+          "start": 138.8745
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "encoder": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+        "rates": [
+          "1"
+        ],
+        "segmentSeconds": 6
+      },
+      "fullHash": "f25467",
+      "generation": "08c192d1ae82b6c48c91",
+      "hash": "2527da",
+      "source": {
+        "duration": 142.654694,
+        "file": null,
+        "sha256": "5c72079cad3a26541b5ccbd64e6b46228db3400c0f499fe21ee67e30345739f3"
+      },
+      "text": "Stormwind City. Stormwind City is the bustling capital of the Kingdom of Stormwind and the premier human bastion in the world following the fall of Lordaeron. Rebuilt from ashes by the Stonemasons Guild after its destruction in the First War, its magnificent white stone districts now house the heart of the Grand Alliance. Beneath its majestic canals and cathedrals, however, the city grapples with the sudden disappearance of King Varian Wrynn and brewing political intrigue. Founded over a millennium ago by the descendants of the Arathi, Stormwind stood for generations as a flourishing, self-sufficient realm. That golden era ended when the Orcish Horde poured through the Dark Portal, laying waste to the southern continent and razing the capital to the ground in the First War. Survivors led by Sir Anduin Lothar fled north across the Great Sea to Lordaeron. Following the Horde's defeat in the Second War, King Terenas Menethil II and the Alliance funded a complete reconstruction. The Stonemasons Guild painstakingly rebuilt the capital into New Stormwind—a gleaming citadel of polished white stone and canal-laced boroughs. Despite its outward majesty, the capital is locked in domestic turmoil. A dispute between the House of Nobles and the Stonemasons Guild over wages left the kingdom paralyzed by debt. The ensuing rioting claimed the life of Queen Tiffin Wrynn and drove the exiled artisans into criminality as the Defias Brotherhood. Now, King Varian Wrynn has mysteriously vanished en route to a diplomatic summit. To avert panic, the crown was placed upon his young son, ten-year-old Prince Anduin Wrynn, with Highlord Bolvar Fordragon ruling as Regent and military commander alongside royal advisor Lady Katrana Prestor. With Lordaeron overrun by the Scourge, Stormwind has inherited the mantle of humanity's greatest haven and the epicenter of the Alliance. It connects directly to the dwarven kingdom of Ironforge via High Tinker Mekkatorque's subterranean Deeprun Tram. Visitors crossing the Valley of Heroes are greeted by towering statues of the Sons of Lothar who vanished beyond the Dark Portal. From the spiritual beacon of the Cathedral of Light to the arcane studies within the Wizard's Sanctum, Stormwind stands as the supreme hub of trade, culture, and defense across the southern seas."
+    }
+  },
+  "pack": "LoreForever_Voice_Female",
+  "rates": [
+    "1"
+  ],
+  "retired": [],
+  "version": 1
+}

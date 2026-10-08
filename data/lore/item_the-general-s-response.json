@@ -10,7 +10,7 @@
    "quest:121"
   ]
  },
- "summary": "The General's Response is an official military dispatch written by General Marcus Jonathan, commander of the Stormwind city guard. Intended for Magistrate Solomon in Lakeshire, the missive acknowledges Redridge's plea for aid while revealing that the capital cannot—or will not—immediately send royal reinforcements.",
+ "summary": "The General's Response is an official military dispatch written by General Marcus Jonathan, commander of the Stormwind city guard. Intended for Magistrate Solomon in Lakeshire, the missive acknowledges Redridge's plea for aid while revealing that the capital cannot\u2014or will not\u2014immediately send royal reinforcements.",
  "sections": [
   {
    "title": "A Diplomatic Standoff",
@@ -35,7 +35,7 @@
     "why doesn't stormwind help lakeshire",
     "why no help"
    ],
-   "answer": "General Jonathan must operate through royal authority, awaiting formal orders from the throne before moving garrison forces beyond the city gates. With King Varian Wrynn missing and Stormwind's court divided by bureaucratic inertia, peripheral regions like Redridge are left to fend for themselves."
+   "answer": "General Jonathan is waiting for a response from the King before he can promise reinforcements. In confidence, he tells Solomon that His Majesty has been scarce and acting oddly."
   },
   {
    "q": "How does Magistrate Solomon react to the letter?",

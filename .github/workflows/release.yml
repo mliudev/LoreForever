@@ -67,6 +67,22 @@ jobs:
           mkdir -p dist/extra
           mv dist/packs/*.zip dist/packs/manifest.tsv dist/extra/
           cat dist/extra/manifest.tsv
+      - name: Freeze verified installer downloads and available transport shards
+        run: |
+          python3 scripts/installer_downloads.py --transport dist/transport --packs dist/extra --output dist/extra \
+            --published-transport release/transport-downloads.json --version "${{ steps.version.outputs.version }}" \
+            --source-commit "$(git rev-parse HEAD)" --candidate-zip dist/LoreForever.zip \
+            --base-url "https://github.com/${{ github.repository }}/releases/download/$TAG/"
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('dist/extra')
+          manifest = json.loads((root / 'transport-downloads.json').read_text())
+          with (root / 'manifest.tsv').open('a') as listing:
+              for source, pack in manifest['packs'].items():
+                  for row in pack['shards']:
+                      listing.write(row['archive'] + '\tTransport: ' + source + '\t' + manifest['releaseVersion'] + '\n')
+          PY
       # compression-level 0: the zips are mostly mp3s already, so deflating them again (the default, level 6) only
       # costs time, on upload and download alike. The files inside come out byte for byte the same either way.
       - uses: actions/upload-artifact@v4
@@ -101,6 +117,10 @@ jobs:
         with:
           name: zip
           path: dist
+      - uses: actions/download-artifact@v4
+        with:
+          name: extra
+          path: dist/extra
       - name: Install Inno Setup
         shell: pwsh
         run: |
@@ -179,6 +199,8 @@ jobs:
           New-Item -ItemType Directory dist\stage | Out-Null
           & "$env:SystemRoot\System32\tar.exe" -xf dist\LoreForever.zip -C dist\stage
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
+          $downloads = Get-Content dist\extra\transport-downloads.json -Raw | ConvertFrom-Json
+          $downloadArgs = @("/DDownloadIss=$PWD\dist\extra\installer-downloads.iss", "/DDownloadUninstallIss=$PWD\dist\extra\installer-downloads-uninstall.iss")
           $companion = @()
           $exe = "$env:RUNNER_TEMP\companion\LoreForeverCompanion\LoreForeverCompanion.exe"
           if ($env:WITH_COMPANION -eq 'true' -and (Test-Path $exe)) {
@@ -190,7 +212,7 @@ jobs:
           }
           "with_companion=$([int]($companion.Count -gt 0))" >> $env:GITHUB_OUTPUT
           & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /Q "/DAppVersion=${{ needs.zip.outputs.version }}" `
-            "/DSourceDir=$PWD\dist\stage" "/DOutputDir=$PWD\dist" @companion release\installer\LoreForever.iss
+            "/DSourceDir=$PWD\dist\stage" "/DOutputDir=$PWD\dist" @downloadArgs @companion release\installer\LoreForever.iss
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
       - name: Sign the installer
         if: vars.SIGNING_PROFILE != ''
@@ -210,25 +232,35 @@ jobs:
           $sig = Get-AuthenticodeSignature dist\LoreForever-Setup.exe
           "status: $($sig.Status); signer: $($sig.SignerCertificate.Subject)"
           if ($sig.Status -ne 'Valid') { exit 1 }
-      - name: Smoke test (silent install into a fake WoW folder)
+      - name: Three independent first-install checks against this run's downloads
         shell: pwsh
         run: |
-          $wow = "$env:RUNNER_TEMP\wow"
-          New-Item -ItemType Directory "$wow\_classic_beta_" | Out-Null
-          Start-Process dist\LoreForever-Setup.exe -ArgumentList "/VERYSILENT", "/SUPPRESSMSGBOXES", "/DIR=$wow" -Wait
-          # Every add-on folder in the zip must land next to the others.
-          foreach ($folder in Get-ChildItem dist\stage -Directory) {
-            $toc = "$wow\_classic_beta_\Interface\AddOns\$($folder.Name)\$($folder.Name).toc"
-            if (-not (Test-Path $toc)) { Write-Error "installer didn't place $toc"; exit 1 }
-            "installed $($folder.Name): $((Get-ChildItem (Split-Path $toc) -Recurse -File).Count) files"
-          }
+          $downloads = Get-Content dist\extra\transport-downloads.json -Raw | ConvertFrom-Json
+          $server = Start-Process python -WindowStyle Hidden -PassThru -ArgumentList '-m','http.server','47864','--bind','127.0.0.1','--directory',"$PWD\dist\extra"
+          try {
+            Start-Sleep 1
+            foreach ($selection in 'base','female','quests') {
+              if ($selection -ne 'base' -and @($downloads.selections.$selection).Count -eq 0) {
+                "Unavailable optional selection: $selection; working base/text fallback remains" >> $env:GITHUB_STEP_SUMMARY
+                continue
+              }
+              $wow = "$env:RUNNER_TEMP\wow-$selection"
+              New-Item -ItemType Directory "$wow\_classic_beta_" | Out-Null
+              $voices = if ($selection -eq 'base') { 'none' } else { $selection }
+              $installed = Start-Process dist\LoreForever-Setup.exe -WindowStyle Hidden -PassThru -Wait -ArgumentList '/QA','/VERYSILENT','/SUPPRESSMSGBOXES','/COMPONENTS=addon',"/DIR=$wow","/VOICES=$voices",'/VOICEURL=http://127.0.0.1:47864/'
+              if ($installed.ExitCode -ne 0) { throw "Installer failed for $selection" }
+              python release\installer\qa\verify-install.py dist\LoreForever.zip $wow dist\extra\transport-downloads.json $selection
+              if ($LASTEXITCODE) { throw "Installed bytes/downloads differ for $selection" }
+            }
+          } finally { Stop-Process -Id $server.Id -ErrorAction SilentlyContinue }
       # A plain silent install leaves the companion out (it's opt-in); asking for it installs it, signed. Its narration
       # voice (a 190 MB download from upstream) is left out here; the private repo's Companion workflow tests that.
       - name: Smoke test (the companion app)
         if: steps.build.outputs.with_companion == '1'
         shell: pwsh
         run: |
-          $wow = "$env:RUNNER_TEMP\wow"
+          $wow = "$env:RUNNER_TEMP\wow-companion"
+          New-Item -ItemType Directory -Force "$wow\_classic_beta_" | Out-Null
           $app = "$env:LOCALAPPDATA\Programs\Lore Forever Companion\LoreForeverCompanion.exe"
           if (Test-Path $app) { Write-Error "a plain silent install shouldn't add the companion"; exit 1 }
           Start-Process dist\LoreForever-Setup.exe -Wait -ArgumentList "/VERYSILENT", "/SUPPRESSMSGBOXES", "/DIR=$wow",
@@ -240,30 +272,6 @@ jobs:
             if ($sig.Status -ne 'Valid') { exit 1 }
           }
           "installed the companion: $((Get-ChildItem (Split-Path $app) -Recurse -File).Count) files"
-      # The optional voice page's silent path: /VOICES=female downloads the female narrator's all-in-one zip and
-      # unzips it next to the add-on. This version's release isn't published yet, so it fetches the latest one's.
-      # Then the uninstaller must remove the add-on and the voice it added.
-      - name: Smoke test (extra voice, then uninstall)
-        shell: pwsh
-        run: |
-          $wow = "$env:RUNNER_TEMP\wow"
-          $addons = "$wow\_classic_beta_\Interface\AddOns"
-          Start-Process dist\LoreForever-Setup.exe -Wait -ArgumentList "/VERYSILENT", "/SUPPRESSMSGBOXES", "/DIR=$wow",
-            "/VOICES=female", "/VOICEURL=https://github.com/${{ github.repository }}/releases/latest/download/",
-            "/LOG=$env:RUNNER_TEMP\voices.log"
-          Get-Content "$env:RUNNER_TEMP\voices.log" | Select-String "voice "
-          $voice = 'LoreForever_Voice_Female', 'LoreForever_Voice_Female_Alliance', 'LoreForever_Voice_Female_Horde'
-          foreach ($f in $voice) {
-            if (-not (Test-Path "$addons\$f\$f.toc")) { Write-Error "the voice didn't land: $addons\$f"; exit 1 }
-            "voice ${f}: $((Get-ChildItem "$addons\$f" -Recurse -File).Count) files"
-          }
-          Start-Process "$env:LOCALAPPDATA\LoreForever\unins000.exe" -Wait -ArgumentList "/VERYSILENT", "/SUPPRESSMSGBOXES"
-          # The uninstaller hands off to a copy of itself in TEMP, so wait for the folders to go.
-          for ($i = 0; $i -lt 60 -and (Test-Path "$addons\LoreForever"); $i++) { Start-Sleep 1 }
-          foreach ($f in @('LoreForever') + $voice) {
-            if (Test-Path "$addons\$f") { Write-Error "uninstall left $addons\$f"; exit 1 }
-          }
-          "uninstall removed the add-on and the voice"
       - uses: actions/upload-artifact@v4
         with:
           name: installer
@@ -297,11 +305,11 @@ jobs:
           fi
           cd dist
           extra=(); while IFS=$'\t' read -r file _; do extra+=("$file"); done < manifest.tsv   # from the extra artifact
-          sha256sum LoreForever.zip LoreForever-Setup.exe "${extra[@]}" | tee SHA256SUMS.txt
+          sha256sum LoreForever.zip LoreForever-Setup.exe transport-downloads.json "${extra[@]}" | tee SHA256SUMS.txt
           if gh release view "$TAG" >/dev/null 2>&1; then
-            gh release upload "$TAG" LoreForever.zip LoreForever-Setup.exe "${extra[@]}" SHA256SUMS.txt --clobber
+            gh release upload "$TAG" LoreForever.zip LoreForever-Setup.exe "${extra[@]}" transport-downloads.json SHA256SUMS.txt --clobber
           else
-            gh release create "$TAG" LoreForever.zip LoreForever-Setup.exe "${extra[@]}" SHA256SUMS.txt \
+            gh release create "$TAG" LoreForever.zip LoreForever-Setup.exe "${extra[@]}" transport-downloads.json SHA256SUMS.txt \
               --title "Lore Forever $VERSION" "${notes[@]}" --latest
           fi
 

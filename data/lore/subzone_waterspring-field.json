@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Stolen Oasis",
-   "body": "In the searing wastes of Tanaris, nothing carries more value than fresh water. Seeking to support their expanding trade hub, the Steamwheedle Cartel goblins of Gadgetzan erected an array of industrial pumping towers across Waterspring Field to draw from underground reserves. Their plans collapsed when the Wastewanders\u2014a sprawling band of human outlaws and desert marauders\u2014seized the entire field. The bandits now guard the hijacked pumps with their lives, forcing Gadgetzan to look for hired blades willing to reclaim the moisture.",
+   "body": "In the searing wastes of Tanaris, nothing carries more value than fresh water. Seeking to support their expanding trade hub, the Steamwheedle Cartel goblins of Gadgetzan erected an array of industrial pumping towers across Waterspring Field to draw from underground reserves. Their plans collapsed when the Wastewanders—a sprawling band of human outlaws and desert marauders—seized the entire field. The bandits now guard the hijacked pumps with their lives, forcing Gadgetzan to look for hired blades willing to reclaim the moisture.",
    "spoiler": 0
   }
  ],
@@ -40,13 +40,13 @@
     "why gadgetzan no fight",
     "goblin guards waterspring"
    ],
-   "answer": "The Steamwheedle Cartel prefers to protect its own trade town rather than waste its Bruisers on bloody field skirmishes. They find it far more cost-effective to contract passing adventurers and mercenaries to cull the bandits and retrieve their water pouches."
+   "answer": "Gadgetzan hires adventurers to drive back the Wastewander bandits and recover their water pouches. The reason its Bruisers are not sent into the field is unknown."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The goblin-built mechanical pumping towers represent impressive desert hydraulics, though the occupying Wastewanders have neglected regular maintenance."
+   "text": "The goblin-built mechanical pumping towers represent impressive desert hydraulics."
   },
   {
    "target": "race:Human",

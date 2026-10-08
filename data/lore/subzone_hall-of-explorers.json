@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Headquarters of the League",
-   "body": "Occupying the northeastern cavern of Ironforge, the Hall of Explorers\u2014sometimes referred to as the Assembly of Explorers\u2014serves as the nerve center for all Alliance-sanctioned archaeological endeavors. Under the direction of High Explorer Muninn Magellas, scholars and field agents coordinate digs across distant lands, shipping back mysterious relics, ancient titan machinery, and prehistoric bones. The vast Library at its center functions as both a public museum and a restricted storehouse of historical lore. Beyond pure scholarship, the hall maintains quiet ties to Stormwind intelligence, occasionally sharing sensitive discoveries or trading strategic information directly with SI:7 agents under the cover of academic study.",
+   "body": "Occupying the northeastern cavern of Ironforge, the Hall of Explorers—sometimes referred to as the Assembly of Explorers—serves as the nerve center for all Alliance-sanctioned archaeological endeavors. Under the direction of High Explorer Muninn Magellas, scholars and field agents coordinate digs across distant lands, shipping back mysterious relics, ancient titan machinery, and prehistoric bones. The vast Library at its center functions as both a public museum and a restricted storehouse of historical lore.",
    "spoiler": 0
   }
  ],
@@ -42,25 +42,12 @@
     "where is hall of explorers"
    ],
    "answer": "The Hall of Explorers lies in the northeastern section of the city. Archways connect it directly to the Great Forge to the southwest, the Forlorn Cavern to the west, and Tinker Town to the south."
-  },
-  {
-   "q": "Is the hall involved in espionage?",
-   "aliases": [
-    "si7 connection",
-    "spy hall of explorers",
-    "secret alliance intelligence"
-   ],
-   "answer": "Yes, unofficially. While outwardly an academic institution, the Explorers' League maintains an informal intelligence channel with Stormwind's SI:7, sharing geopolitical observations and discreet missives recovered from faraway dig sites."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
    "text": "For dwarven adventurers, the hall is the ultimate repository of your race's heritage, housing relics aimed at uncovering your ancient origins and connection to the Titans."
-  },
-  {
-   "target": "class:Rogue",
-   "text": "Behind the dusty fossils and scholarly books lies an informal conduit for SI:7 intelligence, making the district a surprisingly useful waypoint for Alliance operatives."
   }
  ],
  "keywords": [
@@ -69,8 +56,7 @@
   "hall of explorers",
   "ironforge library",
   "magellas",
-  "museum",
-  "si:7"
+  "museum"
  ],
  "related": [
   "topic:explorers-league",

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Scarlet Base Camp"
  },
- "summary": "Scarlet Base Camp is a fortified outpost established on the eastern shore of Lake Mereldar in the Eastern Plaguelands. Guarded by zealous paladins, inquisitors, and foot soldiers, it protects the approaches leading toward Tyr's Hand. The camp serves as a forward defensive line shielding local Scarlet personnel and refugees from the unrelenting Scourge.",
+ "summary": "Scarlet Base Camp is a fortified outpost on the eastern shore of Lake Mereldar in the Eastern Plaguelands, just west of Tyr's Hand. Its barricades mark an outer defensive position of the Scarlet Crusade.",
  "sections": [
   {
    "title": "A Forward Line on Lake Mereldar",
-   "body": "Perched on the eastern banks of Lake Mereldar, the Scarlet Base Camp functions as an entrenched defensive perimeter just west of Tyr's Hand. Fortified with timber barricades, tents, and sentry watch posts, it provides early warning against undead incursions roaming the Plaguelands. Under the command of leaders like Commander Beatrix alongside Scarlet inquisitors and sergeants, the encampment maintains discipline among troops and provides a heavily defended rallying point for refugees fleeing the surrounding blighted wilderness.",
+   "body": "Perched on the eastern bank of Lake Mereldar, Scarlet Base Camp is a barricaded fortification just west of Tyr's Hand. It marks an outer position of the Scarlet Crusade in the blighted countryside.",
    "spoiler": 0
   },
   {
    "title": "Shielding the Bastion",
-   "body": "Because Tyr's Hand is one of the Crusade's supreme strongholds in Lordaeron, securing its approaches across the lake is vital. The soldiers stationed here harbor deep fanaticism, viewing any outsider who approaches as a potential carrier of the plague or an outright agent of darkness. Together with armed infantry and inquisitors, the camp maintains an aggressive vigil over the eastern waters.",
+   "body": "Tyr's Hand is one of the Scarlet Crusade's strongholds in Lordaeron. The camp lies along its western approaches, in a region where the Crusade seeks to reclaim the land from the undead and treats outsiders with suspicion.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why is scarlet camp here",
     "purpose of base camp"
    ],
-   "answer": "The Scarlet Base Camp serves as an outer defensive perimeter and forward watch on the eastern bank of Lake Mereldar. It monitors the roadways and waters leading directly to the Scarlet Crusade's fortified bastion of Tyr's Hand, warding off wandering Scourge and sheltering affiliated refugees."
+   "answer": "The camp is a barricaded Scarlet Crusade fortification on the eastern bank of Lake Mereldar, just west of Tyr's Hand."
   },
   {
    "q": "Who leads the forces stationed at the camp?",
@@ -37,7 +37,7 @@
     "camp commander",
     "scarlet camp leaders"
    ],
-   "answer": "The encampment is led by Commander Beatrix, supported by inquisitors such as Inquisitor Jociphine and Scarlet Inquisitor Caldoran, who ensure both martial readiness and zealous ideological purity among the infantry and sergeants."
+   "answer": "No commander is identified for the original Classic camp. It is a Scarlet Crusade position near Tyr's Hand."
   },
   {
    "q": "Are the occupants hostile to travelers?",
@@ -46,16 +46,16 @@
     "is scarlet camp hostile",
     "are they friendly"
    ],
-   "answer": "Yes. Like nearly all elements of the Scarlet Crusade in the Plaguelands, the troops and inquisitors at this camp view all outsiders\u2014Horde and Alliance alike\u2014as contaminated, untrustworthy, or disguised agents of the Scourge, attacking anyone who draws near."
+   "answer": "The Scarlet Crusade is hostile to outsiders of both factions, regarding them as potential carriers of the plague or agents of the Scourge."
   },
   {
-   "q": "Why are there refugees at this outpost?",
+   "q": "Where is the camp in relation to Lake Mereldar?",
    "aliases": [
-    "why are there refugees here",
-    "tyrs hand refugees",
-    "who are the refugees"
+    "scarlet base camp lake",
+    "where is scarlet camp",
+    "camp near tyrs hand"
    ],
-   "answer": "The refugees present at the camp are humans fleeing the devastation of the Eastern Plaguelands who look to the military might of Tyr's Hand for protection. They congregate around the barricaded outpost where Scarlet infantry offer a protective perimeter against the undead."
+   "answer": "It stands on Lake Mereldar's eastern bank, just west of Tyr's Hand."
   }
  ],
  "angles": [
@@ -69,10 +69,7 @@
   }
  ],
  "keywords": [
-  "caldoran",
-  "commander beatrix",
   "eastern plaguelands",
-  "inquisitor jociphine",
   "lake mereldar",
   "scarlet base camp",
   "scarlet crusade",

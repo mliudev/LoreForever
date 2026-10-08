@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Drowned Reef"
  },
- "summary": "The Drowned Reef is a treacherous stretch of coastal waters off the southern cliffs of the Arathi Highlands. Beneath the waves lie ancient sunken ruins, claimed by hostile Daggerspine naga who manipulate the tides to dash passing vessels against the jagged shoals.",
+ "summary": "The Drowned Reef is a treacherous stretch of coastal waters off the southern cliffs of the Arathi Highlands. Beneath the waves lie ancient sunken ruins, claimed by hostile Daggerspine naga who appear able to control the bay's tides, endangering passing vessels.",
  "sections": [
   {
    "title": "A Graveyard of Ships",
-   "body": "Just outside the hidden entrance to Faldir's Cove, the Drowned Reef forms a watery graveyard for careless navigators. Shattered hulks, such as the Maiden's Folly and the Spirit of Silverpine, lie submerged beneath the waves. While treacherous rocks pose a natural hazard, the real peril stems from the resident Daggerspine naga led by Prince Nazjak. These serpentine creatures command the local tides, actively dragging vulnerable ships onto the stones to scavenge their cargo and drown their crews.",
+   "body": "Just outside the hidden entrance to Faldir's Cove, the Drowned Reef forms a watery graveyard for navigators. Shattered ships, including the Maiden's Folly and the Spirit of Silverpine, lie submerged beneath the waves. Daggerspine naga led by Prince Nazjak inhabit the reef and appear able to control the bay's tides, dooming crews seeking refuge in the cove.",
    "spoiler": 0
   },
   {
@@ -37,7 +37,7 @@
     "sunken ships arathi",
     "maidens folly"
    ],
-   "answer": "Ships attempting to reach Faldir's Cove or navigate the Arathi coast frequently run aground here. The Daggerspine naga who infest the reef possess the power to control the local tides, deliberately steering vessels into the jagged rocks to wreck them."
+   "answer": "The reef is dangerous to ships navigating the southern Arathi coast. Its Daggerspine naga appear able to control the bay's tides, endangering crews trying to find refuge in Faldir's Cove."
   },
   {
    "q": "Who controls the Drowned Reef?",

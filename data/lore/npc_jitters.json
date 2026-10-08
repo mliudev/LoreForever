@@ -8,7 +8,7 @@
   "wiki": "Jitters",
   "refs": 7
  },
- "summary": "Jitters is a trembling, reclusive human hiding out among the ruins of Raven Hill in western Duskwood. Though he appears to be merely an eccentric coward starving in the dark, he is secretly tied to the tragic sequence of events that brought ravenous worgen and deadly Dark Riders into the region.",
+ "summary": "Jitters is a terrified, half-starved human hiding among the ruins of Raven Hill in Duskwood. He clings to scraps of food and struggles to speak about the horrors he has witnessed.",
  "sections": [
   {
    "title": "A Haunted Hermit",
@@ -23,7 +23,7 @@
   {
    "title": "Flight and the Farmstead",
    "body": "Fleeing the mine, Jitters retreated to Darkshire, purchasing a blank tome from Clerk Daltry and feverishly chronicling the nightmare while hiding at the Scarlet Raven Tavern. Panicked, he took refuge in a barn at the Yorgen Farmstead. There, he witnessed black-cloaked Dark Riders butchering Sven Yorgen's family in search of the Scythe. Terrified of being blamed or found, Jitters buried pages of his journal in the soil and fled to Raven Hill, pursued by crippling guilt and ceaseless dread.",
-   "spoiler": 2
+   "spoiler": 1
   }
  ],
  "faq": [
@@ -34,7 +34,7 @@
     "jitters lore",
     "jitters background"
    ],
-   "answer": "Jitters is a frightened human surviving alone among the abandoned buildings of Raven Hill in Duskwood. Once involved with the Defias Brotherhood, he is now a desperate vagrant tormented by the disasters he inadvertently set in motion."
+   "answer": "Jitters is a frightened human living in the ruins of Raven Hill. He is hungry, isolated, and haunted by his experiences in Duskwood."
   },
   {
    "q": "Why is he called Jitters?",
@@ -46,13 +46,13 @@
    "answer": "His nickname originated from his cautious nature, specifically his instinctive habit of flinching away from strikes and leaping clear of sudden pitfalls. His prolonged isolation and sheer terror in Duskwood have only made his nervousness worse."
   },
   {
-   "q": "How did the worgen get into Duskwood?",
+   "q": "What danger do the worgen pose in Duskwood?",
    "aliases": [
-    "who brought worgen",
-    "worgen origin duskwood",
-    "roland's doom worgen"
+    "worgen threat duskwood",
+    "beasts near jitters",
+    "duskwood worgen danger"
    ],
-   "answer": "While exploring the mine at Roland's Doom, Jitters unearthed the Scythe of Elune lodged in the stone. Disturbance of the cursed artifact allowed savage worgen to cross into Duskwood, instantly butchering Jitters' companions and spreading across the forest."
+   "answer": "Worgen stalk Duskwood's woods and roads, threatening travelers and isolated settlements."
   },
   {
    "q": "What happened to Sven Yorgen's family?",
@@ -61,15 +61,16 @@
     "who killed sven family",
     "yorgen farmstead murder"
    ],
-   "answer": "Ominous figures known as the Dark Riders attacked the farmstead while hunting for the Scythe of Elune. Jitters was hiding in the barn at the time and witnessed the slaughter of Sven's wife and children, but was too terrified to intervene."
+   "answer": "Sven Yorgen's family was murdered at their farmstead, leaving him determined to uncover who was responsible."
   },
   {
-   "q": "Why is Sven Yorgen angry with Jitters?",
+   "q": "How can Jitters help Sven Yorgen's investigation?",
    "aliases": [
-    "sven and jitters",
-    "why does sven hate jitters"
+    "jitters and sven investigation",
+    "how can jitters help sven",
+    "jitters account of duskwood"
    ],
-   "answer": "When Sven returned to find his family murdered, he caught sight of Jitters frantically burying a journal near the property before fleeing into the woods. Sven initially suspected Jitters of having a hand in the tragedy or hiding knowledge of the killers."
+   "answer": "Jitters' journal records his experiences in Duskwood and may help Sven investigate what happened to his family."
   },
   {
    "q": "What is Jitters' journal?",
@@ -78,21 +79,17 @@
     "jitters completed journal",
     "daltry book"
    ],
-   "answer": "After escaping Roland's Doom, Jitters bought a blank book from Clerk Daltry in Darkshire and spent nights at the Scarlet Raven Tavern writing down the events surrounding the Scythe of Elune, the worgen, and the Dark Riders. Parts of this journal were later buried at the Yorgen Farmstead."
+   "answer": "His journal records his experiences in Duskwood and forms part of the investigation surrounding Raven Hill and Sven Yorgen's family."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Jitters represents the human face of Duskwood's tragedy\u2014a man whose misguided curiosity shattered the fragile safety of the realm and left the Night Watch fighting a desperate war against beasts and riders."
+   "text": "Jitters represents the human face of Duskwood's tragedy, living in fear while the Night Watch struggles to protect its people."
   },
   {
    "target": "class:Rogue",
-   "text": "Before his terror took hold, Jitters put his quick instincts to work alongside the Defias Brotherhood during their covert infiltration of the southern territories."
-  },
-  {
-   "target": "race:NightElf",
-   "text": "The artifact Jitters disturbed at Roland's Doom bears the name of the moon goddess Elune, hinting at sacred Kaldorei magic that has been twisted into a feral nightmare."
+   "text": "Jitters has quick instincts for avoiding danger, but they have not spared him from terror and isolation in Duskwood."
   }
  ],
  "keywords": [

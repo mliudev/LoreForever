@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Tor'kren Farm"
  },
- "summary": "Tor'kren Farm is a quiet, struggling swine farm nestled in northwestern Durotar, tucked between Thunder Ridge and the Southfury Watershed. It is maintained solely by Misha Tor'kren, an aging orc widow whose life has been weighed down by grief and the harsh frontier.",
+ "summary": "Tor'kren Farm is a quiet, struggling swine farm nestled in northwestern Durotar, tucked between Thunder Ridge and the Southfury River. It is maintained solely by Misha Tor'kren, an aging orc widow whose life has been weighed down by grief and the harsh frontier.",
  "sections": [
   {
    "title": "A Lonely Homestead",
@@ -28,7 +28,7 @@
     "where is torkren farm",
     "find tor'kren farm"
    ],
-   "answer": "Tor'kren Farm lies in northwestern Durotar, situated southeast of the canyon known as Thunder Ridge and just north of the Southfury Watershed."
+   "answer": "Tor'kren Farm lies in northwestern Durotar, situated southeast of the canyon known as Thunder Ridge east of the Southfury River."
   },
   {
    "q": "Who lives at Tor'kren Farm?",
@@ -74,13 +74,11 @@
   "misha tor'kren",
   "pig farm",
   "southfury river",
-  "southfury watershed",
   "thunder ridge",
   "tor'kren farm"
  ],
  "related": [
   "npc:misha-tor-kren",
-  "subzone:southfury-watershed",
   "subzone:southfury-river",
   "subzone:thunder-ridge",
   "zone:durotar"

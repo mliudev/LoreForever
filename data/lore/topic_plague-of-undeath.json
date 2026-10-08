@@ -21,7 +21,7 @@
   },
   {
    "title": "A Land Corrupted",
-   "body": "The blight extends far beyond humanity. While non-human fauna generally suffer sickening fevers or rot rather than rising as undead thralls, the land itself bears the brunt of demonic and necromantic decay. Across the Plaguelands, massive plague cauldrons pump alchemical and magical vapors directly into the atmosphere, poisoning rivers like the Thondroril and giving rise to mutated carrion grubs and colossal spore-choked mushrooms. The Argent Dawn actively battles this airborne corruption by sabotaging these cauldrons, reversing their catalytic mixtures to burn the Scourge rather than feed it. Meanwhile, in the Undercity, the Royal Apothecary Society experiments tirelessly to refine a New Plague designed to slay both living foes and the undead.",
+   "body": "The blight extends far beyond humanity. While non-human fauna generally suffer sickening fevers or rot rather than rising as undead thralls, the land itself bears the brunt of demonic and necromantic decay. Across the Plaguelands, massive plague cauldrons pump alchemical and magical vapors directly into the atmosphere, corrupting the surrounding land, where carrion grubs and colossal spore-choked mushrooms thrive. The Argent Dawn actively battles this airborne corruption by sabotaging these cauldrons, reversing their catalytic mixtures to burn the Scourge rather than feed it. Meanwhile, in the Undercity, the Royal Apothecary Society experiments tirelessly to refine a New Plague designed to slay both living foes and the undead.",
    "spoiler": 0
   }
  ],
@@ -61,7 +61,7 @@
     "cure for the plague",
     "healing the plague"
    ],
-   "answer": "Natural medicines and conventional healing are powerless against it. Only powerful interventions of the Holy Light have demonstrated an ability to purge or weaken the contagion before death takes hold. Once a victim dies and reanimates, the transformation is complete and cannot be reversed."
+   "answer": "No established cure is known in the current era. Natural medicines cannot reverse the plague; once a victim has died and risen, the transformation cannot be undone."
   },
   {
    "q": "What are the giant cauldrons in the Plaguelands for?",
@@ -89,7 +89,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "Every Forsaken carries the physical scars of the plague, having lived through its agony and died only to break free from the Lich King's psychic grip years later."
+   "text": "Many Forsaken carry the physical scars of the plague, having lived through its agony and died only to break free from the Lich King's psychic grip years later."
   },
   {
    "target": "class:Paladin",

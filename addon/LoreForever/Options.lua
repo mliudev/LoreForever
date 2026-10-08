@@ -315,7 +315,10 @@ function Options.VoiceSection(c, anchor)
   box:SetPoint("TOPLEFT", intro, "BOTTOMLEFT", 0, -6)
   box:SetPoint("RIGHT", c, "RIGHT", -24, 0)
   box:SetHeight(VROW)
-  local modeLabel = note(c, L["When several voices have a narration:"], box, 10, "GameFontNormalSmall")
+  local packsHead = heading(c, L["Installed packs"], box, 14)
+  local packsHelp = note(c, L["Several packs add recordings to the same narrator above. Language packs are chosen in Options > Language; reload to change language."], packsHead, 6)
+  local packsList = note(c, "", packsHelp, 10)
+  local modeLabel = note(c, L["When several voices have a narration:"], packsList, 14, "GameFontNormalSmall")
   local mode, modeList = dropDown("LoreForeverVoiceMode", c, 300)
   mode:SetPoint("TOPLEFT", modeLabel, "BOTTOMLEFT", 2, -4)
   local race = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
@@ -469,9 +472,9 @@ function Options.VoiceSection(c, anchor)
     if it.why then
       stats = T.code.warn .. it.why .. "|r"
     elseif it.on then
-      stats = string.format(L["plays %d · has %d"], it.plays, it.have) .. (it.races and (" · " .. it.races) or "")
+      stats = string.format(L["%d lore recordings available"], it.have) .. (it.races and (" · " .. it.races) or "")
     else
-      stats = string.format(L["not used · has %d"], it.have)
+      stats = string.format(L["not used · %d lore recordings available"], it.have)
     end
     if usable and it.stale > 0 then stats = stats .. " · " .. T.code.stale .. string.format(L["%d outdated"], it.stale) .. "|r" end
     r.stats:SetText(stats)
@@ -490,11 +493,36 @@ function Options.VoiceSection(c, anchor)
     for i, it in ipairs(items) do fill(row(i), it, i, #items) end
     for i = #items + 1, #rows do rows[i]:Hide() end
     box:SetHeight(math.max(#items, 1) * VROW)
+    local installed, text = ns.Voice.InstalledPacks(), {}
+    for _, it in ipairs(installed) do
+      local detail = it.language .. " · " .. it.status
+      if it.counts then
+        detail = detail .. "\n" .. (it.checked and not it.questPageCheck and L["Current:"] or L["Installed:"]) .. " " .. string.format(L["%d lore recordings · %d quest dialogue · %d lore answers"],
+          it.counts.lore, it.counts.quest, it.counts.answer)
+        if not it.checked then
+          detail = detail .. " · " .. L["current/outdated: switch language to check"]
+        elseif it.stale > 0 then
+          detail = detail .. " · " .. string.format(L["%d outdated"], it.stale)
+        end
+        if it.counts.unknown > 0 then detail = detail .. " · " .. string.format(L["%d unrecognized"], it.counts.unknown) end
+        if it.questPageCheck then detail = detail .. "\n" .. L["Quest dialogue is checked against the quest page when opened."] end
+      elseif it.support then
+        detail = detail .. "\n" .. string.format(L["Playback support for %d recordings"], it.support)
+      elseif it.entries then
+        detail = detail .. "\n" .. string.format(L["%d translated entries · %d translated strings"], it.entries, it.strings)
+      else
+        detail = detail .. " · " .. L["Counts not checked"]
+      end
+      text[#text + 1] = T.code.gold .. it.title .. (it.narrator and (" · " .. it.narrator) or "") .. "|r\n" .. detail
+    end
+    packsList:SetText(table.concat(text, "\n\n"))
+    section.packs, section.packsList, section.packsHead = installed, packsList, packsHead
+
     local cur = (LoreForeverDB and LoreForeverDB.settings.voiceGroup) or "story"
     mode:SetText(modeNames[cur] or modeNames.story)
     race:SetChecked(LoreForeverDB and LoreForeverDB.settings.voiceMatchRace and true or false)
     gender:SetChecked(not (LoreForeverDB and LoreForeverDB.settings.voiceMatchGender == false))
-    status:SetText(ns.Voice.Status())
+    status:SetText(ns.Voice.Status(true))
     fillUrl()
     section.items = items
   end
@@ -699,6 +727,7 @@ function Options.Create()
     desc:SetText(tip)
     cb:SetScript("OnClick", function(self)
       LoreForeverDB.settings[key] = self:GetChecked() and true or false
+      if key == "showSpoilers" and ns.UI and ns.UI.UpdateListen then ns.UI.UpdateListen() end
       if key == "minimap" and ns.MinimapButton then ns.MinimapButton() end
       if (key == "floatPlayer" or key == "reportCross") and ns.UI.UpdateNowPlaying then ns.UI.UpdateNowPlaying() end
       if key == "onDemand" then ns.Voice.SetOnDemand(self:GetChecked()) end

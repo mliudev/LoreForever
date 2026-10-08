@@ -37,7 +37,7 @@
     "why is chromie here",
     "chromie andorhal"
    ],
-   "answer": "Chromie, taking the guise of a female gnome, observes and seeks to repair unnatural disturbances in the timeline. The Scourge forces here are actively breeding temporal parasites inside the city silos, seeking to disrupt historical events."
+   "answer": "Chromie, taking the guise of a female gnome, investigates unnatural disturbances in the timeline. She suspects interference around the city silos and asks travelers to help investigate."
   },
   {
    "q": "Why are all the clocks stopped at three o'clock?",
@@ -46,7 +46,7 @@
     "andorhal clock frozen",
     "why stopped at 3"
    ],
-   "answer": "The town hall clock and the personal watches found among the debris are locked at precisely three o'clock. This temporal freezing is tied to the unnatural time manipulation and temporal parasites warping reality throughout the district."
+   "answer": "The town hall clock and personal watches found among the debris are stopped at three o'clock. A connection to Andorhal's temporal disturbances is possible, but the precise cause is unconfirmed."
   },
   {
    "q": "Why does the Scarlet Crusade attack Andorhal?",
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For the Knights of the Silver Hand and paladins across the Alliance, Andorhal is consecrated ground turned nightmare\u2014the very site where the plague poisoned Lordaeron's grain stores and doomed the northern kingdom."
+   "text": "For the Knights of the Silver Hand and paladins across the Alliance, Andorhal is consecrated ground turned nightmare—the very site where the plague poisoned Lordaeron's grain stores and doomed the northern kingdom."
   },
   {
    "target": "race:Undead",

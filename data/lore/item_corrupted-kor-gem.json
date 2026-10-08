@@ -7,8 +7,7 @@
  "meta": {
   "wiki": "Corrupted Kor Gem",
   "quests": [
-   "quest:1442",
-   "quest:9692"
+   "quest:1442"
   ]
  },
  "summary": "A Corrupted Kor Gem is a potent magical conduit warped by the dark rites of the naga residing around Blackfathom Deeps. Spellcasters covet such stones for their capacity to store sheer arcane force, though the gem's tainted state demands purification before it can serve righteous crafts.",
@@ -20,7 +19,7 @@
   },
   {
    "title": "Purification and Smithing",
-   "body": "A Corrupted Kor Gem cannot safely be worked into sacred implements without cleansing. Night elf sages, such as Thundris Windweaver of Auberdine, understand the ancient methods needed to scour away the naga's taint. Purifying the gem diminishes its volatile raw power to an extent, but stabilizes it so holy champions\u2014most notably paladins forging blessed armaments under the guidance of artisans like Jordan Stilwell\u2014can utilize the stone without succumbing to insidious darkness.",
+   "body": "A Corrupted Kor Gem must be purified before Thundris Windweaver will allow it to be taken to Jordan Stilwell. The night elf of Auberdine cleanses the naga's evil magic and assures the paladin that the gem's power remains intact, ready for the blacksmith's ritual.",
    "spoiler": 1
   }
  ],
@@ -53,12 +52,12 @@
    "answer": "The naga saturate the gems with foul magic during their rituals. Attempting to use a corrupted gem in sacred crafting could contaminate the forge or the wielder, requiring a master of nature or light, such as Thundris Windweaver, to purge the evil before it is worked into an arm."
   },
   {
-   "q": "Does cleansing the gem weaken its power?",
+   "q": "Does cleansing the gem preserve its power?",
    "aliases": [
     "does purification ruin the gem",
     "weaker after purification"
    ],
-   "answer": "Yes. Removing the naga's taint purges the wild, malicious energy that bloated the gem, making the stone slightly weaker overall. However, the residual energy remains pure, stable, and strong enough for consecrated metalworking."
+   "answer": "Yes. After purifying the gem, Thundris Windweaver assures the paladin that its power is intact and that it should work well for Jordan Stilwell's ritual."
   }
  ],
  "angles": [
@@ -90,7 +89,6 @@
  ],
  "attribution": [
   "Corrupted Kor Gem",
-  "Seeking the Kor Gem",
-  "The Path of the Adept"
+  "Seeking the Kor Gem"
  ]
 }

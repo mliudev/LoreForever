@@ -3,7 +3,7 @@
  "type": "npc",
  "name": "Marek Ironheart",
  "era": "classic",
- "zone": "ironforge",
+ "zone": "lochmodan",
  "meta": {
   "wiki": "Marek Ironheart",
   "refs": 1
@@ -39,7 +39,7 @@
     "marek ironheart quests",
     "marek quests"
    ],
-   "answer": "Marek directs hunters to track down and cull various local wildlife around the loch, testing their survival skills against dangerous beasts like crocolisks and swarming insects."
+   "answer": "Marek directs hunters to track down and cull various local wildlife around the loch, testing their survival skills against dangerous crocolisks."
   },
   {
    "q": "Is Marek related to any other known dwarves?",

@@ -117,10 +117,10 @@ end
 
 -- The card, at the end of the conversation (at its start when the panel opens on the welcome card). Shown from the
 -- login line's link it comes back even after it's been closed.
-function WN.AddCard()
+function WN.AddCard(first)
   if not (ns.Notes and #WN.Highlights() > 0) then return false end
   WN.Seen("card")
-  ns.UI.AddCard(WN.CardText(), string.format(L["Everything new in %s"], WN.Version()), WN.ShowAll)
+  ns.UI.AddCard(WN.CardText(), string.format(L["Everything new in %s"], WN.Version()), WN.ShowAll, first)
   return true
 end
 

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Gryphon Roost"
  },
- "summary": "Perched along the ramparts just east of Stormwind's Trade District, the Gryphon Roost serves as the capital's primary transit hub for aerial travel. Managed by skilled Wildhammer handlers, it houses the majestic beasts that ferry couriers, soldiers, and adventurers across the Eastern Kingdoms.",
+ "summary": "Perched along the ramparts just east of Stormwind's Trade District, the Gryphon Roost serves as the capital's primary transit hub for aerial travel. Managed by the human gryphon master Dungar Longdrink, it houses the majestic beasts that ferry couriers, soldiers, and adventurers across the Eastern Kingdoms.",
  "sections": [
   {
    "title": "Gateway to the Skies",
-   "body": "Situated atop the fortifications overlooking the Trade District canal, the Gryphon Roost connects the capital with outlying Alliance garrisons and settlements throughout the Eastern Kingdoms. The flight network is orchestrated by the seasoned master Dungar Longdrink, who coordinates routes to Ironforge, Lakeshire, Sentinel Hill, and beyond. Alongside Dungar, Wildhammer kin tend to the sturdy beasts, seeing to their care, breeding, and harness training high above the bustling cobblestones below.",
+   "body": "Situated atop the fortifications overlooking the Trade District canal, the Gryphon Roost connects the capital with outlying Alliance garrisons and settlements throughout the Eastern Kingdoms. The flight network is orchestrated by the seasoned master Dungar Longdrink, who coordinates routes to Ironforge, Lakeshire, Sentinel Hill, and beyond.",
    "spoiler": 0
   },
   {
@@ -37,7 +37,7 @@
     "stormwind flight master",
     "dungar longdrink"
    ],
-   "answer": "Dungar Longdrink, a dwarven flight master, oversees the roost. He organizes routes and rents out trained gryphons to travelers bound for allied settlements across the continent."
+   "answer": "Dungar Longdrink, a human flight master, oversees the roost. He organizes routes and rents out trained gryphons to travelers bound for allied settlements across the continent."
   },
   {
    "q": "Why are dwarves running the roost in a human city?",
@@ -46,7 +46,7 @@
     "wildhammer in stormwind",
     "dwarven gryphons"
    ],
-   "answer": "The Wildhammer dwarves are the traditional masters of gryphon taming and riding. Stormwind relies on their unmatched expertise to care for, breed, and train the beasts for reliable military and civilian transport."
+   "answer": "Stormwind's flight master, Dungar Longdrink, is human. The Wildhammer dwarves have a long tradition of gryphon riding, but the roost's flights are managed by Dungar."
   },
   {
    "q": "Where can the gryphons fly from here?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The Gryphon Roost serves as an essential bridge between dwarven aviation traditions and the human capital, with Wildhammer expertise keeping Stormwind connected to Khaz Modan."
+   "text": "The Gryphon Roost serves as an essential bridge between dwarven aviation traditions and the human capital, with trained gryphons keeping Stormwind connected to Khaz Modan."
   },
   {
    "target": "faction:Alliance",

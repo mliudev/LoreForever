@@ -11,7 +11,7 @@
    "quest:1024"
   ]
  },
- "summary": "The Glowing Gem is an enchanted stone recovered from the murloc camps along the waters of Ashenvale. Originally sought by the fallen scout Teronis, the stone is a vital component needed to reconstruct the legendary cleansing rod crafted by Dartol.",
+ "summary": "The Glowing Gem is an enchanted stone recovered from the murloc camps along the waters of Ashenvale. Originally sought by the fallen scout Teronis, the stone is a vital component needed to reconstruct the magical rod crafted by Dartol.",
  "sections": [
   {
    "title": "A Lost Relic of Dartol",
@@ -19,7 +19,7 @@
    "spoiler": 0
   },
   {
-   "title": "Restoring the Cleansing Rod",
+   "title": "Restoring the Rod",
    "body": "Upon the stone's recovery alongside Teronis's journal, Sentinel leader Raene Wolfrunner directs the bearer to bring it northeast to Shael'dryn, a dryad keeping vigil at a nearby moonwell. The dryad holds the ancient knowledge required to bind the Glowing Gem with the other missing pieces of the rod created by Dartol, ensuring the fallen scout's work was not in vain.",
    "spoiler": 1
   }
@@ -41,7 +41,7 @@
     "why teronis wanted gem",
     "purpose of gem"
    ],
-   "answer": "Teronis was investigating ways to cleanse the growing foulness in Ashenvale. According to his research, this specific gem is one of the key parts needed to rebuild a purifying magical rod once devised by Dartol."
+   "answer": "Teronis was investigating ways to cleanse the growing foulness in Ashenvale. According to his research, this specific gem is one of the key parts needed to rebuild a magical rod once devised by Dartol."
   },
   {
    "q": "Who should I take the Glowing Gem to?",
@@ -59,7 +59,7 @@
     "what did dartol make",
     "dartols rod"
    ],
-   "answer": "It is an ancient instrument created by Dartol designed to cleanse natural taint and corruption. Its components were scattered across the forest, with the Glowing Gem serving as one of its primary focusing pieces."
+   "answer": "It is a magical instrument created by Dartol. Its components were scattered across the forest, with the Glowing Gem needed to recreate it."
   }
  ],
  "angles": [
@@ -69,7 +69,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold a deep interest in Dartol's work, as the gem's cleansing properties are vital for healing the forest's tainted water and soil."
+   "text": "Druids have an interest in Teronis's research into the spreading corruption and the relic he hoped to restore."
   }
  ],
  "keywords": [

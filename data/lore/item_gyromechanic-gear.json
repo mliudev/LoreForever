@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "Components for Recombobulation",
-   "body": "When radiation flooded Gnomeregan to purge the trogg invasion, it corrupted a vast portion of the surviving gnome population into mad, irradiated leper gnomes. Refusing to abandon their twisted kin, inventors Ozzie Togglevolt and Razzle Sprysprocket set to work drafting schematics for the Recombobulator\u2014an ambitious contraption designed to undo the radiation's horrific effects. Building the prototype requires precision mechanisms capable of enduring volatile internal pressures, particularly Gyromechanic Gears and complementary Restabilization Cogs. Because local manufacturing collapsed with the fall of their capital, researchers are forced to scavenge these delicate parts directly from the hostile leper gnomes and scavengers roaming Dun Morogh.",
+   "body": "When radiation flooded Gnomeregan to purge the trogg invasion, it corrupted a vast portion of the surviving gnome population into mad, irradiated leper gnomes. Refusing to abandon their twisted kin, inventors Ozzie Togglevolt and Razzle Sprysprocket set to work drafting schematics for the Recombobulator\u2014an ambitious contraption designed to undo the radiation's horrific effects. Building the prototype requires precision mechanisms capable of enduring volatile internal pressures, particularly Gyromechanic Gears and complementary Restabilization Cogs. Because local manufacturing collapsed with the fall of their capital, researchers are forced to scavenge these delicate parts directly from the hostile leper gnomes roaming Dun Morogh.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "gyromechanic gear drop",
     "who drops gyromechanic gear"
    ],
-   "answer": "They are salvaged from the ruined outskirts of Gnomeregan and around Dun Morogh, typically carried by irradiated leper gnomes and opportunistic scavengers who stripped parts from the fallen city."
+   "answer": "They are salvaged from Leper Gnomes outside Gnomeregan and from Gibblewilt in Dun Morogh."
   },
   {
    "q": "Can the Recombobulator actually cure leper gnomes?",

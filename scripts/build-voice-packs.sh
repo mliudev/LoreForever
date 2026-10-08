@@ -30,6 +30,7 @@ from pathlib import Path
 
 root = Path(sys.argv[1])
 sys.path.insert(0, str(root / "scripts"))
+from transport_assets import TransportError, validate as validate_transport
 from load_order import LoadError, addon_files
 addons, out = root / "addon", root / "dist" / "packs"
 VERSIONED = "--versioned" in sys.argv[2:]
@@ -158,10 +159,14 @@ for name, (folders, display) in DOWNLOADS.items():
         if core and version(f) != core:
             sys.exit(f"build-voice-packs: {f}.toc has ## Version {version(f)}; released packs follow the core ({core})")
     for f in folders:
+        try:
+            validate_transport(addons / f)
+        except TransportError as e:
+            sys.exit(f"build-voice-packs: {e}")
         if not (addons / f / "Clips.lua").is_file() or not any((addons / f / "Audio").glob("*.*")):
             sys.exit(f"build-voice-packs: {f} has no Clips.lua or no recordings")
         # Audio is stored with Git LFS: a checkout that never fetched it has pointer files instead of recordings.
-        pointers = [p for p in (addons / f / "Audio").iterdir() if p.is_file() and p.stat().st_size <= 1024
+        pointers = [p for p in (addons / f / "Audio").rglob("*") if p.is_file() and p.stat().st_size <= 1024
                     and p.read_bytes().startswith(b"version https://git-lfs")]
         if pointers:
             sys.exit(f"build-voice-packs: {len(pointers)} files in {f}/Audio are Git LFS pointers, not recordings "

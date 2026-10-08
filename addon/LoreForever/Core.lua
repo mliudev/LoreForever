@@ -445,8 +445,10 @@ function ns.MinimapButton()
     if shape[q] then
       x, y = x * w, y * h
     else
-      x = math.max(-w, math.min(x * (math.sqrt(2 * w * w) - 10), w))
-      y = math.max(-h, math.min(y * (math.sqrt(2 * h * h) - 10), h))
+      -- Intersect the saved angle's ray with the rectangle's edge. Subtracting from a
+      -- diagonal radius pulled corner positions inside the map, especially on rectangular maps.
+      local edge = math.max(math.abs(x) / w, math.abs(y) / h)
+      x, y = x / edge, y / edge
     end
     b:ClearAllPoints()
     b:SetPoint("CENTER", Minimap, "CENTER", x, y)
@@ -495,6 +497,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.UI.Create(ns.engine)
     ns.Hooks.Init()
     ns.Options.Create()
+    ns.UI.RestorePlayback()
     ns.MinimapButton()
     local key, n = ns.Hooks.CurrentKey(), ns.DB.count or 0
     -- How to open the panel: the key (or /lore), plus the minimap button if it's showing.
@@ -542,6 +545,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Voice.OnCombatEnded()
     ns.Voice.OnCombatOver()
   elseif event == "PLAYER_LOGOUT" then
+    ns.UI.SavePlayback()
     if ns.UI.msgs then ns.UI.Archive() end   -- keep the last chat of the session in History
   elseif event == "PLAYER_CONTROL_LOST" then
     C_Timer.After(1, ns.Voice.OnTaxiCheck)

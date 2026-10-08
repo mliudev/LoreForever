@@ -17,7 +17,7 @@
   "wiki": "Buzzbox 525 (quest)",
   "chain": []
  },
- "summary": "Buzzbox 525 is the final stage in a series of communicative machines scattered along the coast of Darkshore. Created by the eccentric gnome tinkerer Wizbang Cranktoggle, the contraption demands animal remnants to function\u2014while slowly unraveling the inventor's true, illicit ambitions.",
+ "summary": "Buzzbox 525 is the final stage in a series of communicative machines scattered along the coast of Darkshore. Created by the eccentric gnome tinkerer Wizbang Cranktoggle, the contraption demands animal remnants to function—while slowly unraveling the inventor's true, illicit ambitions.",
  "sections": [
   {
    "title": "A Slurred Transmission",
@@ -26,7 +26,7 @@
   },
   {
    "title": "The Distiller's Secret",
-   "body": "Upon arriving at the hidden machine, the curious hum of machinery is drowned out by raucous singing echoing from within the iron plating. As the grizzly bear scalps are deposited into the receptacle, Wizbang finally comes clean about his network. The contraptions are far more than mere communications equipment: they double as automated micro-breweries and distilleries. Disdainful of the night elves' strict and abstemious customs in Auberdine, the gnome built his contraptions to distill forbidden woodland spirits\u2014using animal harvest like bear scalps to brew potent batches of 'thistle bear beer.'",
+   "body": "Upon arriving at the hidden machine, the curious hum of machinery is drowned out by raucous singing echoing from within the iron plating. As the grizzly bear scalps are deposited into the receptacle, Wizbang finally comes clean about his network. The contraptions are far more than mere communications equipment: they double as automated micro-breweries and distilleries. Disdainful of the night elves' strict and abstemious customs in Auberdine, the gnome built his contraptions to distill forbidden woodland spirits—using animal harvest like bear scalps to brew potent batches of 'thistle bear beer.'",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "why hide buzzbox",
     "wizbang secret"
    ],
-   "answer": "The night elves residing in Auberdine do not appreciate reckless moonshining or an illicit alcohol trade within their serene settlements. By scattering the machines along the desolate Darkshore road, Wizbang keeps his brewing network hidden from elven authorities."
+   "answer": "Wizbang placed the machines outside Auberdine and relies on travelers to reach them. The final Buzzbox reveals why he chose these secluded sites."
   },
   {
    "q": "Who is speaking through the Buzzbox?",
@@ -65,7 +65,7 @@
     "buzzbox voice",
     "wizbang identity"
    ],
-   "answer": "The voice belongs to Wizbang Cranktoggle, an enterprising gnome tinkerer who installed voice transmitters inside his makeshift brewing apparatuses across Darkshore."
+   "answer": "The voice belongs to Wizbang Cranktoggle, an enterprising gnome tinkerer who installed voice transmitters inside his Buzzboxes across Darkshore."
   },
   {
    "q": "Can Wizbang speak through the machine without the scalps?",
@@ -73,7 +73,7 @@
     "is the buzzbox broken",
     "did wizbang lie"
    ],
-   "answer": "Yes. Upon completing the task, Wizbang admits that the audio transceivers function regardless of whether materials are fed into the hatch. His request for ingredients was entirely to keep his automated distilling operation supplied."
+   "answer": "Yes. Wizbang can speak through the machine before the scalps are added. His explanation for the requested materials comes when the task is complete."
   },
   {
    "q": "What song does the Buzzbox sing?",

@@ -47,7 +47,7 @@
     "syral family",
     "bladeleaf family"
    ],
-   "answer": "She shares her family name with Elder Bladeleaf and Hannah Bladeleaf in Dolanaar, pointing to deep family roots in the settlement."
+   "answer": "She shares her family name with Hannah Bladeleaf in Dolanaar, but whether they are related is unconfirmed."
   },
   {
    "q": "What tasks does she assign to adventurers?",
@@ -81,7 +81,6 @@
  "related": [
   "subzone:dolanaar",
   "zone:teldrassil",
-  "npc:elder-bladeleaf",
   "npc:denalan",
   "quest:997",
   "quest:1581",

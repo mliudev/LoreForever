@@ -8,7 +8,7 @@
   "wiki": "Shael'dryn",
   "refs": 6
  },
- "summary": "Shael'dryn is an inquisitive dryad residing at Raynewood Retreat in eastern Ashenvale. Known for her lighthearted wit and fondness for wordplay, she serves as a vital contact for night elf scouts investigating forest corruption. She plays a pivotal role in aiding Astranaar's sentinels with cleansing relics to combat demonic and foul influences spreading across the wilderness.",
+ "summary": "Shael'dryn is an inquisitive dryad residing beside the Moonwell of Purity, east of Iris Lake in Ashenvale. Known for her lighthearted wit and fondness for wordplay, she serves as a vital contact for night elf scouts investigating forest corruption. She plays a pivotal role in aiding Astranaar's sentinels with cleansing relics to combat demonic and foul influences spreading across the wilderness.",
  "sections": [
   {
    "title": "A Jester of the Woods",
@@ -16,8 +16,8 @@
    "spoiler": 0
   },
   {
-   "title": "Guardian of Raynewood",
-   "body": "Stationed around Raynewood Retreat, Shael'dryn keeps watch alongside the night elf sentinels guarding the eastern approaches of the forest. When corruption surfaces among the local wildlife or tainted relics threaten the land's harmony, her deep natural understanding allows her to guide adventurers through the steps required to restore spiritual balance.",
+   "title": "Guardian of the Moonwell",
+   "body": "Stationed beside the Moonwell of Purity, Shael'dryn keeps watch alongside the night elf sentinels guarding the eastern approaches of the forest. When corruption surfaces among the local wildlife or tainted relics threaten the land's harmony, her deep natural understanding allows her to guide adventurers through the steps required to restore spiritual balance.",
    "spoiler": 0
   },
   {
@@ -34,7 +34,7 @@
     "shael dryn lore",
     "shaeldryn identity"
    ],
-   "answer": "Shael'dryn is a dryad found at Raynewood Retreat in Ashenvale. She aids Alliance adventurers with woodland lore and natural magic, all while indulging her penchant for puns and jokes."
+   "answer": "Shael'dryn is a dryad found beside the Moonwell of Purity in Ashenvale. She aids Alliance adventurers with woodland lore and natural magic, all while indulging her penchant for puns and jokes."
   },
   {
    "q": "Where can I find Shael'dryn?",
@@ -43,7 +43,7 @@
     "where is shael'dryn",
     "raynewood dryad"
    ],
-   "answer": "She can be found at Raynewood Retreat, an Alliance-aligned outpost situated in the eastern reaches of Ashenvale along the road toward Azshara."
+   "answer": "She can be found beside the Moonwell of Purity, east of Iris Lake in Ashenvale."
   },
   {
    "q": "What is Shael'dryn's connection to Raene Wolfrunner?",
@@ -79,7 +79,7 @@
     "horde rep",
     "is shaeldryn alliance only"
    ],
-   "answer": "No. Positioned at the Alliance outpost of Raynewood Retreat and closely allied with the Astranaar Sentinels, Shael'dryn is hostile toward members of the Horde."
+   "answer": "No. Positioned beside the Moonwell of Purity and closely allied with the Astranaar Sentinels, Shael'dryn is hostile toward members of the Horde."
   }
  ],
  "angles": [
@@ -93,7 +93,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Raynewood Retreat serves as an important sanctuary in eastern Ashenvale, where Shael'dryn assists Alliance forces resisting corruption and hostile encroachment."
+   "text": "The Moonwell of Purity serves as a sanctuary in Ashenvale, where Shael'dryn assists Alliance forces resisting corruption and hostile encroachment."
   }
  ],
  "keywords": [
