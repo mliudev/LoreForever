@@ -43,10 +43,10 @@
 </header>
 
 <!-- newbar:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
-<aside class="newbar" id="newbar" data-version="0.10.0" aria-label="New in 0.10.0" hidden>
+<aside class="newbar" id="newbar" data-version="0.11.0" aria-label="New in 0.11.0" hidden>
   <div class="wrap newbar-in">
-    <span class="tag tag-new">New in 0.10.0</span>
-    <a href="/whats-new#v0-10-0">A companion for your adventure</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-10-0">More answers to listen to</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-10-0">Quest dialogue when you want it</a>
+    <span class="tag tag-new">New in 0.11.0</span>
+    <a href="/whats-new#v0-11-0">All your installed packs</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-11-0">More quest answers</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-11-0">From translation to recording</a>
     <a class="newbar-all" href="/whats-new">See what's new</a>
   </div>
   <button class="newbar-x" type="button" aria-label="Hide until the next version">&times;</button>
@@ -65,7 +65,7 @@
       <ul class="stats">
         <li>by <strong>Mike</strong></li>
         <li id="downloads"><strong>New release</strong></li>
-        <li>Version <strong>0.10.0</strong></li>
+        <li>Version <strong>0.11.0</strong></li>
         <li>Game <strong>WoW Forever 1.60.1</strong></li>
       </ul>
       <!-- Downloads, no email step. Since 2026-10-02 (Mike) the site's own download comes first: the Windows installer
@@ -81,11 +81,11 @@
         </div>
         <div class="dl-pick">
           <a class="btn-download btn-download-alt dl-link" href="https://www.curseforge.com/wow/addons/lore-forever">Get it on CurseForge</a>
-          <span class="dl-other">Extra narrator voices and quest dialogue have their own CurseForge packs. <a href="/downloads#voices">Choose your voices</a>.</span>
+          <span class="dl-other">Extra narrator voices and quest dialogue have their own CurseForge packs.</span>
         </div>
       </div>
-      <p class="dl-more">Comes with the male narrator. Want another narrator? Each voice is one more download:
-        <a href="/downloads#voices">get the voices you want</a>.</p>
+      <p class="dl-more">Comes with the male narrator. Want another narrator?
+        <a href="/downloads#voices">Choose your voices</a> for the available recordings and install options.</p>
       <!-- Languages (LOR-35, the most-asked question): every one comes in the main download.
            Recorded narrator packs are available in all five languages, with partial coverage. -->
       <p class="dl-more dl-langs-hero"><strong>In your language:</strong> English, Deutsch, Español, Français and
@@ -500,6 +500,24 @@
       <section class="tab-panel" id="changelog" role="tabpanel">
         <h2>Changelog</h2>
         <!-- changelog:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
+        <h3>0.11.0</h3>
+        <ul>
+          <li><strong>All your installed packs:</strong> Options now lists every voice, language and playback support pack, with separate counts for lore, quest dialogue and answers. Narrator totals count each recording once, even when two packs share it. Playback support no longer causes a false failed add-on check.</li>
+          <li><strong>More quest answers:</strong> expanded English female answer packs and the first 522 English male quest answers are available as optional downloads. Both English narrators also gain the missing dialogue for Prehistoric Prism and Understanding Our Present. Unrecorded answers remain readable text.</li>
+          <li><strong>From translation to recording:</strong> each studio script links to its English original and matching translation editor, with clearer saved, checked and recording states and guidance on game names.</li>
+          <li><strong>Lore Player in Herald:</strong> browse published English recordings, read their matching text, and listen with pause, seeking, saved position and speeds from 1x to 2x. It streams the website's original files without game voice packs. Recorded overviews, answers and quest dialogue are labelled clearly; quest outcomes stay hidden until completed or revealed.</li>
+          <li><strong>Herald beside your game:</strong> the Windows companion opens as its own app, with a visible chat and a separate Settings page for your game, profile and sync. Questions copied from the add-on appear in chat; saved add-on conversations arrive after <code>/reload</code> or logout. Failed live questions stay available to retry.</li>
+          <li><strong>Pictures with their moments:</strong> the companion timeline shows matching screenshot thumbnails that enlarge on hover or keyboard focus.</li>
+          <li>Hidden spoiler answers stay silent, including queued narration and resumed playback, until their text is revealed or unlocked.</li>
+          <li>The minimap button stays on the edge of square and reshaped minimaps, including at the corners.</li>
+          <li>Update notes remain visible when automatic narration starts before you first open the lore panel.</li>
+          <li>Corrected lore in 201 entries</li>
+          <li><strong>Your journey and story together:</strong> Sync now refreshes your profile story from the latest saved journey when an update is available within your story allowance. Overlapping syncs retry without losing newer journey data.</li>
+          <li><strong>The right creature lore:</strong> Bluegill and Mosshide warriors no longer open the Warrior class story, and crocolisks no longer open Dragonmaw lore just because those words appear in a search match.</li>
+          <li><strong>Read along as you listen:</strong> a narration that starts opens its matching text without replacing a history or Journey page you are browsing. Landing stories respect what your character has already heard.</li>
+          <li><strong>Quest controls stay useful:</strong> Reclaiming Goods keeps its Lore button even without a dedicated lore entry, showing the quest's text and nearby story. Quest Play continues to read the quest's own words.</li>
+          <li>Narration plays continuously with Stop and Restart controls. Recorded story text keeps its paragraph breaks.</li>
+        </ul>
         <h3>0.10.0</h3>
         <ul>
           <li><strong>A companion for your adventure:</strong> Setup.exe can now install the optional Windows companion. It keeps your profile up to date after <code>/reload</code> or logout and gives short live answers over the game when you ask with <code>/lore ask</code> and Ctrl+C. Connect your account for up to 20 free answers a day while the shared monthly budget lasts, or add your own key for more.</li>

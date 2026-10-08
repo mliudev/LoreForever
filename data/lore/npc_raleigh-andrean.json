@@ -8,7 +8,7 @@
   "wiki": "Raleigh Andrean",
   "refs": 2
  },
- "summary": "Raleigh Andrean is a Forsaken resident found lingering in the Trade Quarter of the Undercity. Once a living citizen of Lordaeron, he exemplifies the cold, twisted detachment common among the undead, caring little for the loss of his wife but fiercely desiring retribution against the friend who murdered her.",
+ "summary": "Raleigh Andrean is a Forsaken resident of the Undercity. His requests reveal a callous attitude toward his former human life and those he once knew.",
  "sections": [
   {
    "title": "A Bitter Afterlife",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Raleigh is a grim reflection of Forsaken reality: undeath strips away warmth and grief, leaving behind only the cold embers of spite, vengeance, and lingering hatred toward those who betrayed them in life."
+   "text": "Raleigh's treatment of his former human ties offers a disturbing example of one Forsaken's response to undeath."
   }
  ],
  "keywords": [

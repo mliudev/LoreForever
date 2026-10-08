@@ -9,9 +9,9 @@
 //                               keeps it), with its token as "Authorization: Bearer <token>" (lib/devices.js) instead
 //                               of a session. Creates or updates the profile like an import, except: it never switches
 //                               to another character (409 with {profile: {name, realm}}, the character the companion
-//                               should send instead), a record that hasn't changed changes nothing ({unchanged: true}),
-//                               and the story is written only now and then (lib/profiles.js storyDue; story.why
-//                               "later" when it wasn't due).
+//                               should send instead). Identical facts skip delivery but may catch up a due story.
+//                               refreshStory:true requests current text inside the automatic cooldown, within the
+//                               existing budgets. Current writer input and overlapping requests share one story.
 //   POST /api/profile/settings  {public?, spec?, handle?}: whether anyone with the link can see it, your favorite
 //                               spec, its address (/u/<handle>)
 //   POST /api/profile/delete    removes your profile and its pictures, and disconnects your connected apps (your account
@@ -24,7 +24,7 @@ import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/acco
 import { parseRecord, readJourney, RecordError } from "../../../lib/journey.js";
 import {
   profileOf, profileByHandle, newHandle, validHandle, specsFor, templateStory, writeStory, storyBudgetLeft, sheetLine,
-  setupProfiles, storyBasis, storyDue, sameCharacter, STORIES_PER_DAY,
+  setupProfiles, storyBasis, storyDue, storyKey, sameCharacter, STORIES_PER_DAY, STORY_SYNC_HOURS,
 } from "../../../lib/profiles.js";
 import { currentDevice, markSynced } from "../../../lib/devices.js";
 import { perMinute, perHour, perDay, slowDown } from "../../../lib/ratelimit.js";
@@ -35,7 +35,7 @@ import { historyRequest, forgetHistoryStatements } from "../../../lib/history.js
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
 
 const IMPORTS_PER_MINUTE = 10;
-const SYNCS_PER_MINUTE = 6;    // the companion sends only after a save, and only when the record changed
+const SYNCS_PER_MINUTE = 6;    // saves, explicit syncs and due story catch-up all share request limits
 const SYNCS_PER_HOUR = 60;
 // A record is at most 64 KB (lib/journey.js), its JSON not much more than twice that; the companion keeps its journey
 // data under 96 KB (companion/lore_companion/profile.py JOURNEY_BYTES).
@@ -72,69 +72,129 @@ function readRecord(input) {
 }
 
 // Creates or updates the account's profile from a record's facts, and writes its story when it should. From the
-// companion (sync), returns {other} for another character's record and {unchanged} for the same facts, saving nothing.
+// companion (sync), returns {other} for another character's record and unchanged:true for delivered identical facts.
 // journey: the companion's journey data (readJourney), or undefined to keep what the profile has (a paste, or a
 // companion too old to send it); another character's record drops it.
-async function saveRecord(env, user, data, { sync = false, journey } = {}) {
+async function saveRecord(env, user, data, { sync = false, refreshStory = false, journey, deviceId } = {}) {
   const old = await profileOf(env, user.id);
-  const now = new Date();
-  // Another character: the profile becomes theirs, private again and at their own address, so a page the player
-  // shared never turns into a different character's. Only a paste does that.
+  const now = new Date(), stamp = now.toISOString(), dataText = JSON.stringify(data);
   const switched = Boolean(old) && !sameCharacter(old.data, data);
   if (sync && switched) return { other: old };
-  if (sync && old && JSON.stringify(old.data) === JSON.stringify(data) &&
-      (journey === undefined || JSON.stringify(old.journey) === JSON.stringify(journey))) return { unchanged: old };
-  const keptJourney = journey !== undefined ? journey : (old && !switched ? old.journey : null);
+  const kept = old && !switched ? old : null;
+  const keptJourney = journey !== undefined ? journey : kept?.journey ?? null;
   const journeyText = keptJourney ? JSON.stringify(keptJourney) : null;
-  // A favorite spec stays while it's the same character and still fits the class.
-  const spec = old && !switched && old.spec && specsFor(data).includes(old.spec) ? old.spec : null;
-  const kept = old && !switched ? old : null;   // what carries over: the same character's profile
+  const spec = kept?.spec && specsFor(data).includes(kept.spec) ? kept.spec : null;
+  const unchanged = Boolean(kept) && JSON.stringify(kept.data) === dataText &&
+    (journey === undefined || JSON.stringify(kept.journey) === JSON.stringify(journey));
+  const fallback = kept?.story_source === "written" ? kept.story : templateStory(data);
+  const source = kept?.story_source === "written" ? "written" : "template";
 
-  // The story: written while this month's budget lasts (lib/profiles.js), and each try counts against the account's
-  // allowance for today (it costs whether or not it works). An update from the companion tries only when one is due.
-  // Otherwise the last written one stays if it's about the same character, or the record's summary takes its place.
-  let written = null, why = "off", tried = false;
-  if (env.GEMINI_API_KEY) {
-    if (sync && !storyDue(kept, data, now)) why = "later";
-    else if (!(await storyBudgetLeft(env))) why = "budget";
-    else if (!(await perDay(env, user.id, "story", STORIES_PER_DAY))) why = "daily";
-    else { ({ text: written, why } = await writeStory(env, data, spec)); tried = true; }
-    if (why === "budget" || why === "daily") console.warn(`profile story: ${why}`);
-  }
-  let story, source, basis = null;
-  if (written) [story, source, basis] = [written, "written", JSON.stringify(storyBasis(data))];
-  else if (kept?.story_source === "written") [story, source, basis] = [kept.story, "written", kept.story_basis ?? null];
-  else [story, source] = [templateStory(data), "template"];
-  const storyCount = (old?.story_count || 0) + (written ? 1 : 0);
-  const storyAt = tried ? now.toISOString() : kept?.story_at ?? null;
-  const stamp = now.toISOString();
-
-  const update = (handle, isPublic) => env.DB.prepare(
-    "UPDATE profiles SET handle = ?, public = ?, data = ?, spec = ?, story = ?, story_source = ?, story_count = ?, " +
-    "story_at = ?, story_basis = ?, journey = ?, updated = ? WHERE user_id = ?"
-  ).bind(handle, isPublic, JSON.stringify(data), spec, story, source, storyCount, storyAt, basis, journeyText, stamp,
-         user.id).run();
-
-  if (old) {
-    await update(switched ? await newHandle(env, data.name) : old.handle, switched ? 0 : old.public);
-  } else {
-    // Two first imports at once: the same address (try the next one), or the same account (the other one won).
-    for (let attempt = 0; ; attempt++) {
-      try {
+  // Deliver the facts first. A failed or slow writer must never hold the timeline back.
+  if (!unchanged) {
+    if (old) {
+      if (switched) {
         await env.DB.prepare(
-          "INSERT INTO profiles (user_id, handle, public, spec, data, story, story_source, story_count, story_at, " +
-          "story_basis, journey, created, updated) VALUES (?, ?, 0, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
-        ).bind(user.id, await newHandle(env, data.name), spec, JSON.stringify(data), story, source, storyCount, storyAt,
-               basis, journeyText, stamp, stamp).run();
-        break;
-      } catch (e) {
-        const theirs = await profileOf(env, user.id);
-        if (theirs) { await update(theirs.handle, theirs.public); break; }
-        if (attempt >= 2) throw e;
+          "UPDATE profiles SET handle = ?, public = 0, data = ?, spec = ?, journey = ?, updated = ?, " +
+          "story = ?, story_source = 'template', story_key = NULL, story_basis = NULL, story_at = NULL, " +
+          "story_job = NULL, story_job_at = NULL WHERE user_id = ?"
+        ).bind(await newHandle(env, data.name), dataText, spec, journeyText, stamp, fallback, user.id).run();
+      } else {
+        // Keep the live claim and any story completed by another request since our initial read.
+        await env.DB.prepare(
+          "UPDATE profiles SET data = ?, spec = ?, journey = ?, updated = ?, " +
+          "story = CASE WHEN story_source = 'written' THEN story ELSE ? END WHERE user_id = ?" +
+          (sync ? " AND data = ?" : "")
+        ).bind(dataText, spec, journeyText, stamp, fallback, user.id,
+          ...(sync ? [JSON.stringify(old.data)] : [])).run();
+      }
+    } else {
+      for (let attempt = 0; ; attempt++) {
+        try {
+          await env.DB.prepare(
+            "INSERT INTO profiles (user_id, handle, public, spec, data, story, story_source, story_count, " +
+            "journey, created, updated) VALUES (?, ?, 0, ?, ?, ?, ?, 0, ?, ?, ?)"
+          ).bind(user.id, await newHandle(env, data.name), spec, dataText, fallback, source,
+            journeyText, stamp, stamp).run();
+          break;
+        } catch (e) {
+          if (await profileOf(env, user.id)) break;   // another first import won
+          if (attempt >= 2) throw e;
+        }
       }
     }
   }
-  return { profile: await profileOf(env, user.id), created: !old, switched: switched ? old : null, story: { source, why } };
+
+  const key = await storyKey(data, spec);
+  let current = await profileOf(env, user.id), why = "off", retryAt = 0;
+  if (sync && current && !sameCharacter(current.data, data)) return { other: current };
+  // A concurrent delivery can win the compare-and-save or first insert. Acknowledge only the
+  // facts actually present; otherwise the companion would cache an undelivered payload forever.
+  if (sync && (!current || JSON.stringify(current.data) !== dataText ||
+      (journey !== undefined && JSON.stringify(current.journey) !== JSON.stringify(journey)))) return { retry: true };
+  const result = async () => {
+    const profile = await profileOf(env, user.id);
+    return { profile, created: !old, switched: switched ? old : null, unchanged,
+      story: { source: profile?.story_source || source, why }, storyRetryAt: retryAt };
+  };
+  const later = () => {
+    // No milestone: wait for new facts or an explicit sync. Otherwise revisit unchanged facts when due.
+    const eligible = storyDue(current, data, new Date(now.getTime() + STORY_SYNC_HOURS * 3600e3));
+    return eligible ? Math.max(now.getTime() + 60000,
+      (Date.parse(current?.story_at || "") || now.getTime()) + STORY_SYNC_HOURS * 3600e3) : 0;
+  };
+  if (current?.story_source === "written" && current.story_key === key) {
+    why = "current";
+    return result();
+  }
+  if (!env.GEMINI_API_KEY) return result();
+  if (sync && !refreshStory && !storyDue(current, data, now)) {
+    why = "later"; retryAt = later(); return result();
+  }
+
+  // A database claim works across Worker isolates. Clicks/replays share one writer, and its result
+  // is accepted only while the same character facts, spec and claim are still current.
+  const job = crypto.randomUUID();
+  const claimed = await env.DB.prepare(
+    "UPDATE profiles SET story_job = ?, story_job_at = ? WHERE user_id = ? AND data = ? AND " +
+    "COALESCE(spec, '') = ? AND (story_key IS NULL OR story_key != ?) AND " +
+    "(story_job IS NULL OR story_job_at < ?)"
+  ).bind(job, stamp, user.id, dataText, spec || "", key,
+    new Date(now.getTime() - 60000).toISOString()).run();
+  if (!claimed.meta.changes) {
+    current = await profileOf(env, user.id);
+    why = current?.story_key === key ? "current" : "pending";
+    retryAt = why === "pending" ? now.getTime() + 60000 : 0;
+    return result();
+  }
+  try {
+    if (!(await storyBudgetLeft(env))) {
+      why = "budget";
+      retryAt = Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1);
+    } else if (!(await perDay(env, user.id, "story", STORIES_PER_DAY))) {
+      why = "daily";
+      retryAt = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1);
+    } else {
+      await env.DB.prepare("UPDATE profiles SET story_at = ? WHERE user_id = ? AND story_job = ?")
+        .bind(stamp, user.id, job).run();
+      const written = await writeStory(env, data, spec);
+      why = written.why;
+      if (written.text) {
+        const saved = await env.DB.prepare(
+          "UPDATE profiles SET story = ?, story_source = 'written', story_count = story_count + 1, " +
+          "story_key = ?, story_basis = ?, updated = ? WHERE user_id = ? AND story_job = ? AND data = ? " +
+          "AND COALESCE(spec, '') = ?" +
+          (deviceId ? " AND EXISTS (SELECT 1 FROM devices WHERE id = ? AND user_id = ?)" : "")
+        ).bind(written.text, key, JSON.stringify(storyBasis(data)), stamp, user.id, job, dataText, spec || "",
+          ...(deviceId ? [deviceId, user.id] : [])).run();
+        if (!saved.meta.changes) why = "pending"; // newer facts or a disconnected account owns the page now
+      }
+      if (why !== "written") retryAt = now.getTime() + STORY_SYNC_HOURS * 3600e3;
+    }
+  } finally {
+    await env.DB.prepare("UPDATE profiles SET story_job = NULL, story_job_at = NULL WHERE user_id = ? AND story_job = ?")
+      .bind(user.id, job).run();
+  }
+  return result();
 }
 
 async function importRecord({ env }, input, user) {
@@ -142,10 +202,10 @@ async function importRecord({ env }, input, user) {
   const { data, error } = readRecord(input);
   if (error) return error;
   const out = await saveRecord(env, user, data);
-  // story: which story the profile has now, and why (lib/profiles.js writeStory; budget, daily or off when none was
-  // tried). For checking, not shown to the player.
+  // The page reports separately whether the delivered facts also refreshed the story.
   return ok({ profile: summary(out.profile), created: out.created,
-              switched: out.switched ? { from: out.switched.data.name, to: data.name } : null, story: out.story });
+              switched: out.switched ? { from: out.switched.data.name, to: data.name } : null, story: out.story,
+              storyRetryAt: out.storyRetryAt });
 }
 
 // From the companion app (LOR-148): its token, not a session.
@@ -161,16 +221,21 @@ async function sync({ env }, input, { user, device }) {
   // The journey data (LOR-248): kept as sent when it reads; an older companion (none) or one that doesn't read keeps
   // what the profile has.
   const journey = readJourney(input.journey, data) ?? undefined;
-  const out = await saveRecord(env, user, data, { sync: true, journey });
+  const out = await saveRecord(env, user, data, { sync: true, refreshStory: input.refreshStory === true, journey, deviceId: device.id });
   if (out.other) {
     const d = out.other.data;
     return Response.json({ ok: false, error: `Your profile shows ${d.name}${d.realm ? ` (${d.realm})` : ""}, not ` +
       `${data.name}. To show ${data.name} instead, paste their journey record on loreforeverwow.com/account.`,
       profile: { name: d.name, realm: d.realm } }, { status: 409, headers: noStore });
   }
+  if (out.retry) {
+    return Response.json({ ok: false, retry: true, retryAfter: 1,
+      error: "Another journey update arrived at the same time. Your saved journey will retry." },
+      { status: 409, headers: { ...noStore, "Retry-After": "1" } });
+  }
   await markSynced(env, device.id);
-  if (out.unchanged) return ok({ profile: summary(out.unchanged), unchanged: true });
-  return ok({ profile: summary(out.profile), created: out.created, story: out.story });
+  return ok({ profile: summary(out.profile), created: out.created, ...(out.unchanged ? { unchanged: true } : {}),
+              story: out.story, storyRetryAt: out.storyRetryAt });
 }
 
 async function settings({ env }, input, user) {

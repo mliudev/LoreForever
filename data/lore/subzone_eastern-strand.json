@@ -15,8 +15,8 @@
    "spoiler": 0
   },
   {
-   "title": "Signs of an Invasion",
-   "body": "The presence of the Daggerspine on the Eastern Strand is more than simple scavengers seeking land. Scouting patrols carry written battle orders and attack plans, signaling an organized campaign to push further inland. The threat forces both local human defenders and Horde forces inland to cast a wary eye toward the coast, lest the serpentine tide wash over the foothill settlements.",
+   "title": "Daggerspine Territory",
+   "body": "The Daggerspine presence creates a dangerous shoreline southeast of Southshore. Their warriors and spellcasters prowl the beaches and nearby water, making the coast hazardous to travelers.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "daggerspine attack plans",
     "what are the naga doing here"
    ],
-   "answer": "The Daggerspine naga are preparing an offensive against the mainland. Orders and attack plans discovered among their coastal forces reveal they are coordinating incursions into the surrounding foothills."
+   "answer": "The Daggerspine occupy the beaches and water of the Eastern Strand. Their purpose beyond holding this coastal territory is unrecorded in the Classic account."
   },
   {
    "q": "How does the Eastern Strand differ from the Western Strand?",
@@ -73,8 +73,7 @@
   "daggerspine",
   "eastern strand",
   "hillsbrad foothills",
-  "naga",
-  "preemptive strike"
+  "naga"
  ],
  "related": [
   "zone:hillsbrad",

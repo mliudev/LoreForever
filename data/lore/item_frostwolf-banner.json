@@ -6,9 +6,7 @@
  "zone": "hillsbrad",
  "meta": {
   "wiki": "Frostwolf Banner",
-  "quests": [
-   "quest:7161"
-  ]
+  "quests": []
  },
  "summary": "The Frostwolf Banner is a tribal standard cached deep within Wildpaw Cavern in Alterac Valley. Horde initiates are sent to recover it as an ancestral rite of passage to awaken their battle spirit and earn their first clan insignia.",
  "sections": [
@@ -67,7 +65,6 @@
   "wildpaw cavern"
  ],
  "related": [
-  "quest:7161",
   "npc:warmaster-laggrond",
   "topic:horde",
   "topic:gnoll",

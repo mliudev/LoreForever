@@ -79,13 +79,13 @@
     "doan abbendis",
     "doan lore"
    ],
-   "answer": "Doan is said to have held an unrequited affection for Brigitte Abbendis, daughter of General Abbendis, while running with the early crusade leaders."
+   "answer": "Doan serves as an arcanist of the Scarlet Crusade. His private romantic attachments are unrecorded in the Classic sources."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Scholars of the arcane recognize Doan from 'The Schools of Arcane Magic: Abjuration,' where his ability to combine shielding with evocation to cast an impenetrable bubble is cited as an exceptionally rare feat."
+   "text": "Doan's mastery of arcane defenses makes his protective bubble a vivid example of magical warding."
   },
   {
    "target": "class:Paladin",

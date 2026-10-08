@@ -52,13 +52,13 @@
     "who is dandred",
     "dandred lore"
    ],
-   "answer": "Dandred was an Alteraci aristocrat who originally held the manor and its surrounding farmland before the collapse of the Kingdom of Alterac led to the rise of the Syndicate."
+   "answer": "The identity of Dandred is unrecorded. The estate bears the name, but no confirmed account identifies its original owner."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, infiltrating Dandred's Fold is deeply personal. Warchief Thrall seeks the retrieval of Taretha Foxton's necklace, currently gifted to Lord Aliden Perenolde's mistress."
+   "text": "For the Horde, infiltrating Dandred's Fold is deeply personal. Warchief Thrall seeks the retrieval of Taretha Foxton's necklace."
   },
   {
    "target": "faction:Alliance",

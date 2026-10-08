@@ -342,11 +342,11 @@ test("with GEMINI_API_KEY the story is written; every try counts against 3 a day
 
     // An error (not billed), then a story that strays past the era (billed, thrown away): the first story stays.
     gemini(null, 500);
-    assert.deepEqual((await api("import", { cookie: me.cookie, body: { record: RECORD } })).body.story, { source: "written", why: "http-500" });
+    assert.deepEqual((await api("import", { cookie: me.cookie, body: { record: RECORD.replace("Level 24", "Level 25") } })).body.story, { source: "written", why: "http-500" });
     r = await row(me.user.id);
     assert.deepEqual([r.story_source, r.story, r.story_count], ["written", STORY, 1]);
     gemini(STORY + " One day Aelric would sail for Outland.");
-    assert.equal((await api("import", { cookie: me.cookie, body: { record: RECORD } })).body.story.why, "era");
+    assert.equal((await api("import", { cookie: me.cookie, body: { record: RECORD.replace("Level 24", "Level 25") } })).body.story.why, "era");
     assert.equal((await row(me.user.id)).story, STORY);
     const spent = await spend();
     assert.deepEqual({ month: spent.month, micro_usd: spent.micro_usd, calls: spent.calls,
@@ -356,7 +356,7 @@ test("with GEMINI_API_KEY the story is written; every try counts against 3 a day
 
     // Three tries today: no more calls, and deleting the profile doesn't reset that.
     const later = gemini(STORY.replace("stubborn", "quiet"));
-    assert.equal((await api("import", { cookie: me.cookie, body: { record: RECORD } })).body.story.why, "daily");
+    assert.equal((await api("import", { cookie: me.cookie, body: { record: RECORD.replace("Level 24", "Level 25") } })).body.story.why, "daily");
     assert.equal(later.length, 0);
     await api("delete", { cookie: me.cookie });
     await api("import", { cookie: me.cookie, body: { record: RECORD } });

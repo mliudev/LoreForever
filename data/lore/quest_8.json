@@ -29,7 +29,7 @@
   },
   {
    "title": "The Gallows' End Tavern",
-   "body": "The road leads eastward through the blighted trees of Tirisfal Glades, passing Cold Hearth Manor to reach the settlement of Brill. Behind the counter of the local tavern, Innkeeper Renee initially greets newcomers with an unnervingly sunny disposition, doting on the comfort of her patrons. However, upon receiving Montague's correspondence, her hospitality immediately fractures. Dropping her forced pleasantries, she feigns receiving word from a beloved mother before scolding the courier for prying and demanding they buy something or leave.",
+   "body": "The road leads eastward through the blighted trees of Tirisfal Glades, passing Cold Hearth Manor to reach the settlement of Brill. Behind the counter of the local tavern, Innkeeper Renee initially greets newcomers with an unnervingly sunny disposition, doting on the comfort of her patrons. However, upon receiving Montague's correspondence, her hospitality immediately fractures. Dropping her forced pleasantries, she feigns receiving word from a beloved mother before scolding the courier for prying and demanding they buy something or leave. Returning to Calvin afterward leads to another surprise: instead of settling the promised payment peacefully, he challenges the courier to a duel.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "who gives a rogues deal",
     "quest giver"
    ],
-   "answer": "Calvin Montague is an unscrupulous rogue lingering around the cemetery and training grounds of Deathknell. He frequently recruits newly awakened undead into handling his personal errands with promises of quick payment."
+   "answer": "Calvin Montague is a rogue in Deathknell who asks newly awakened travelers to carry a letter to Innkeeper Renee in Brill. He presents it as a simple favor and promises to pay well."
   },
   {
    "q": "What is inside the Nondescript Letter?",
@@ -59,7 +59,7 @@
     "why is renee fake",
     "renee mother excuse"
    ],
-   "answer": "Renee maintains an exaggerated, cheery tavern-host persona for travelers in Brill, but drops the act the moment Montague's covert delivery arrives, revealing an irritable and secretive temperament."
+   "answer": "Renee runs the tavern in Brill and insists that her correspondence is private. Her response to the delivery can be discovered by bringing her Montague's letter."
   },
   {
    "q": "Does Calvin Montague actually pay for the delivery?",
@@ -68,7 +68,7 @@
     "where is my money",
     "montague reward"
    ],
-   "answer": "Despite promising he would pay well for taking the message to Brill, Montague sends the courier off without upfront compensation, leaving travelers to discover the true nature of his deals upon their return."
+   "answer": "Montague promises to pay well for the delivery. Renee offers food or water when the letter reaches her; return to Calvin afterward to continue the dealings over his promised payment."
   },
   {
    "q": "Where is Brill located?",
@@ -86,7 +86,7 @@
     "a rogues deal follow up",
     "what to do after renee"
    ],
-   "answer": "After dropping off the letter, returning to Calvin Montague in Deathknell reveals that the rogue has no intention of paying up peacefully, escalating into a direct confrontation."
+   "answer": "The follow-up is another quest named 'A Rogue's Deal'. Return to Calvin Montague in Deathknell to continue your dealings with him."
   }
  ],
  "angles": [
@@ -96,7 +96,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "Calvin Montague's shifty requests and empty promises serve as an early lesson in how quickly underworld dealings can turn sour in Lordaeron."
+   "text": "Calvin Montague's private courier errand offers a glimpse of the informal dealings carried on around Deathknell and Brill."
   },
   {
    "target": "faction:Horde",

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Sewers"
  },
- "summary": "The Sewers are a sprawling subterranean drainage network that provides a secondary, unguarded entrance directly into the Undercity. Cutting beneath the hills west of the ruined palace of Lordaeron, this conduit allows bat handlers and stealthy travelers to bypass the precarious elevators leading down from the throne room.",
+ "summary": "The Sewers are a sprawling subterranean drainage network that provides a secondary entrance directly into the Undercity. Cutting beneath the hills west of the ruined palace of Lordaeron, this conduit allows bat handlers and stealthy travelers to bypass the precarious elevators leading down from the throne room.",
  "sections": [
   {
    "title": "A Backdoor into the Catacombs",
-   "body": "Before the plague wiped out Lordaeron, these stone culverts served as the mundane sewer lines draining the royal capital. In the hands of Sylvanas Windrunner's Forsaken, however, the runoff tunnels have been integrated into the Undercity's outer defenses. Emerging west of the surface ruins near a contested Crusader's Outpost in Tirisfal Glades, the passage provides a level, direct slope inside. Forsaken bat handlers use this cavernous conduit to fly riders swiftly into the subterranean rings, avoiding the sluggish cage lifts entirely. Because it circumvents the heavily fortified surface courtyards, it remains a dangerous vulnerability that hostile infiltrators constantly seek to exploit.",
+   "body": "Before the plague wiped out Lordaeron, these stone culverts served as the mundane sewer lines draining the royal capital. In the hands of Sylvanas Windrunner's Forsaken, however, the runoff tunnels have been integrated into the Undercity's outer defenses. Emerging west of the surface ruins near a contested Scarlet Watchtower in Tirisfal Glades, the passage provides a level, direct slope inside. Forsaken bat handlers use this cavernous conduit to fly riders swiftly into the subterranean rings, avoiding the sluggish cage lifts entirely. Because it circumvents the heavily fortified surface courtyards, it remains a dangerous vulnerability that hostile infiltrators constantly seek to exploit.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where do sewers go",
     "sewer back entrance"
    ],
-   "answer": "The conduit empties onto the rolling hills of Tirisfal Glades, just west of the main gates of the Ruins of Lordaeron. It is situated not far from the Crusader's Outpost overlooking the lake."
+   "answer": "The conduit empties onto the rolling hills of Tirisfal Glades, just west of the main gates of the Ruins of Lordaeron. It is situated not far from the Scarlet Watchtower overlooking the lake."
   },
   {
    "q": "Why would anyone use the sewers instead of the main entrance?",

@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "The Elemental Sundering",
-   "body": "Long ago, during the Elemental Sundering\u2014a five-thousand-year clash fought between the forces of fire and air deep within Azeroth\u2014Ragnaros sought to destroy and consume Thunderaan. The Prince was ambushed and betrayed by Ragnaros's powerful lieutenants, Baron Geddon and Garr, before being struck down by the Firelord's hammer, Sulfuras. Although defeated, Thunderaan's essence proved too mighty for Ragnaros to fully absorb.",
+   "body": "Long ago, during the Elemental Sundering—a five-thousand-year clash fought between the forces of fire and air deep within Azeroth—Ragnaros sought to destroy and consume Thunderaan. The Prince was ambushed and betrayed by Ragnaros's powerful lieutenants, Baron Geddon and Garr, before being struck down by the Firelord's hammer, Sulfuras. Although defeated, Thunderaan's essence proved too mighty for Ragnaros to fully absorb.",
    "spoiler": 0
   },
   {
@@ -69,7 +69,7 @@
     "thunderaan fight",
     "what happens after summoning"
    ],
-   "answer": "Rather than being peacefully freed or offering thanks, Thunderaan manifests as a raging elemental tempest. Adventurers must band together to defeat his whirlwind strikes and lightning attacks in order to extract his blade."
+   "answer": "Demitrian can perform a dangerous ritual using the recovered bindings. What emerges is discovered when the ritual is completed."
   },
   {
    "q": "What weapon is tied to Thunderaan?",
@@ -78,7 +78,7 @@
     "windseeker sword",
     "thunderaan sword"
    ],
-   "answer": "Defeating Thunderaan allows a champion to claim Thunderfury, Blessed Blade of the Windseeker, an ancient, storm-infused blade housing the core of the Prince's tempestuous might."
+   "answer": "Thunderfury, Blessed Blade of the Windseeker, is the legendary sword tied to the Prince of Air. Its fate is uncovered through Demitrian's ritual."
   }
  ],
  "angles": [
@@ -88,7 +88,7 @@
   },
   {
    "target": "class:Warrior",
-   "text": "Warriors revere the legend of Thunderaan because conquering him yields Thunderfury, Blessed Blade of the Windseeker, one of the most formidable one-handed weapons ever forged."
+   "text": "Warriors seek the legend of Thunderfury, the storm-infused sword associated with the Prince of Air."
   },
   {
    "target": "class:Rogue",

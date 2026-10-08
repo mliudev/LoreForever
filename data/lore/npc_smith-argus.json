@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "The Anvil of Goldshire",
-   "body": "Situated just outside the Lion's Pride Inn, Smith Argus maintains one of the busiest anvils in Elwynn Forest. While Goldshire faces growing perils from nearby gnolls, kobolds, and Defias bandits, Argus keeps local militia and passing adventurers properly equipped. In addition to mending dented armor and forging sturdy implements, he serves as an apprentice blacksmithing trainer, initiating fledgling craftsmen into the fundamentals of working copper and bronze.",
+   "body": "Situated just outside the Lion's Pride Inn, Smith Argus maintains one of the busiest anvils in Elwynn Forest. While Goldshire faces growing perils from nearby gnolls, kobolds, and Defias bandits, Argus keeps local militia and passing adventurers properly equipped. In addition to mending dented armor and forging sturdy implements, he serves as a blacksmithing trainer, initiating fledgling craftsmen into the fundamentals of working copper and bronze.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "argus trainer",
     "goldshire blacksmith trainer"
    ],
-   "answer": "Argus acts as an Apprentice Blacksmithing trainer, teaching new players the basics of metallurgy and early metal recipes. He also offers full equipment repair services and sells blacksmithing supplies such as mining picks and smithing hammers."
+   "answer": "Argus teaches novice blacksmiths the fundamentals of the craft. His Classic title is Journeyman Blacksmith."
   },
   {
    "q": "Why does a blacksmith in Redridge send me to Smith Argus?",
@@ -63,7 +63,7 @@
     "argus expert blacksmith",
     "how high can argus train"
    ],
-   "answer": "No. Argus only teaches Apprentice Blacksmithing. To learn Journeyman or Expert techniques, aspiring smiths must seek more advanced masters in larger settlements or the Dwarven District of Stormwind City."
+   "answer": "Argus teaches the early stages of blacksmithing; advanced techniques require more experienced masters in larger settlements."
   },
   {
    "q": "Does Smith Argus belong to any particular guild?",
@@ -81,7 +81,7 @@
   },
   {
    "target": "profession:Mining",
-   "text": "Miners frequent Argus's forge not only to purchase basic mining picks, but to utilize his anvil and forge for smelting raw copper nuggets into usable ingots."
+   "text": "Miners bring metal to Goldshire's forge, where Argus teaches aspiring blacksmiths to work it into useful implements."
   },
   {
    "target": "race:Human",

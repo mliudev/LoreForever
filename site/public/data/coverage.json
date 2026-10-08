@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-05",
+ "generated": "2026-10-07",
  "forever_only": {
-  "quests_known": 133,
-  "quests_with_text": 114,
+  "quests_known": 135,
+  "quests_with_text": 116,
   "narrated": 113,
   "npcs_known": 223,
   "npcs_with_text": 0
@@ -23,18 +23,18 @@
    "narrated": 25
   },
   {
+   "zone": "Wetlands",
+   "key": "wetlands",
+   "quests": 13,
+   "with_text": 13,
+   "narrated": 11
+  },
+  {
    "zone": "Westfall",
    "key": "westfall",
    "quests": 12,
    "with_text": 12,
    "narrated": 12
-  },
-  {
-   "zone": "Wetlands",
-   "key": "wetlands",
-   "quests": 11,
-   "with_text": 11,
-   "narrated": 11
   },
   {
    "zone": "Other",

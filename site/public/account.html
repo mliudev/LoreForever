@@ -455,10 +455,15 @@
     if (!res.ok) { pfStatus(res.error || "Something went wrong. Please try again."); return; }
     e.target.reset();
     showProfile(res.profile);
-    pfStatus(res.created ? "Your profile is ready. Only you can see it until you tick Public."
+    const storyStatus = ["written", "current"].includes(res.story?.why) ? " Your story is up to date."
+      : res.story?.why === "daily" ? " The story allowance is used up today; your current story stays."
+      : res.story?.why === "budget" ? " Story updates are paused until the allowance renews; your current story stays."
+      : res.story?.why === "pending" ? " A story update is waiting."
+      : " The story couldn't refresh yet; your current story stays.";
+    pfStatus((res.created ? "Your profile is ready. Only you can see it until you tick Public."
       : res.switched ? `That record is ${res.switched.to}, not ${res.switched.from}: your profile now shows ${res.switched.to} at ` +
         `${location.host + res.profile.url}, and only you can see it until you tick Public again.`
-      : "Your profile is updated.", true);
+      : "Your journey is saved.") + storyStatus, true);
     $("profile").scrollIntoView({ block: "start" });
   });
   $("pf-public").addEventListener("change", async e => {

@@ -10,7 +10,7 @@
    "quest:3106"
   ]
  },
- "summary": "A Simple Rune is an inscribed stone token passed to fledgling dwarven and gnomish warriors training in Coldridge Valley. It serves as a summons from the warrior trainer Thran Khorman, directing recruits to seek instruction inside Anvilmar.",
+ "summary": "A Simple Rune is an inscribed stone token passed to fledgling dwarven warriors training in Coldridge Valley. It serves as a summons from the warrior trainer Thran Khorman, directing recruits to seek instruction inside Anvilmar.",
  "sections": [
   {
    "title": "A Summons to Arms",
@@ -50,7 +50,7 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "For dwarven and gnomish warriors, this inscribed stone marks the first step into formal military training under veteran instructor Thran Khorman."
+   "text": "For dwarven warriors, this inscribed stone marks the first step into formal military training under veteran instructor Thran Khorman."
   },
   {
    "target": "race:Dwarf",

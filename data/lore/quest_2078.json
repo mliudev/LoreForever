@@ -29,7 +29,7 @@
   },
   {
    "title": "The First Mate's Mutiny",
-   "body": "Gelkak's trusted first mate is no salty dwarf or sailor, but the Threshwackonator 4100\u2014a clanking mechanical golem abandoned in the shallows south of the wreck. While wind-up automation promises an easy slaughter of the murlocs, gnomish and dwarven contraptions are notorious for volatile behavior when exposed to salt water. Upon being wound up and led back to the captain, the construct suffers a catastrophic malfunction, mistaking its rescuer and creator for hostile targets and forcing a battle on the beach.",
+   "body": "Gelkak's trusted first mate is no salty dwarf or sailor, but the Threshwackonator 4100—a clanking mechanical golem abandoned in the shallows south of the wreck. While wind-up automation promises an easy slaughter of the murlocs, this particular machine proves dangerously unreliable. Upon being wound up and led back to the captain, the construct suffers a catastrophic malfunction, mistaking its rescuer and creator for hostile targets and forcing a battle on the beach.",
    "spoiler": 1
   }
  ],
@@ -59,7 +59,7 @@
     "robot malfunction",
     "why does the golem attack"
    ],
-   "answer": "Once wound up and led back to Gelkak's camp, the Threshwackonator 4100 suffers an operational malfunction and turns hostile, forcing you to destroy it to protect the area."
+   "answer": "Lead the first mate back to Gelkak after activating it with his key. Its behavior upon reaching the captain is discovered during the escort."
   },
   {
    "q": "What do I do with Gyromast's Key after finishing the quest?",
@@ -68,7 +68,7 @@
     "keep gyromast key",
     "can i delete key"
    ],
-   "answer": "Gyromast's Key serves no further purpose once the Threshwackonator 4100 has been activated and defeated, and it can be safely discarded."
+   "answer": "The key activates the Threshwackonator. After the mission is finished, it has no further purpose."
   },
   {
    "q": "Where did Gelkak get the Threshwackonator?",
@@ -84,17 +84,17 @@
     "what happens to gelkak",
     "after gyromast revenge"
    ],
-   "answer": "Despite the destruction of his mechanical first mate, Gelkak grudgingly commends your survival, jokingly offering a promotion to poop deck swabby while remaining stranded on the beach."
+   "answer": "Gelkak's plans and his response to your work are revealed when you bring his first mate back."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The Threshwackonator 4100 is a classic example of clockwork automation gone awry after exposure to sea spray and water damage, reinforcing the engineering maxim to always double-check gyro-stabilizers."
+   "text": "Gelkak's mechanical first mate shows how much a stranded captain relies on his engineering equipment."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomes will immediately recognize the folly of trying to reboot sensitive mechanical automata with a simple winding key in the damp, briny environment of Darkshore."
+   "text": "Gnomes may recognize the winding key as a familiar means of activating a mechanical automaton."
   },
   {
    "target": "faction:Alliance",

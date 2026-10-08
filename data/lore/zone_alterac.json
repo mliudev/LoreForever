@@ -12,7 +12,7 @@
   "levels": "",
   "aliases": []
  },
- "summary": "The Alterac Mountains are a cold, ruined highland in central Lordaeron, once home to the treacherous human kingdom of Alterac and the scholarly magocracy of Dalaran. Today, the snow-dusted crags are overrun by the Crushridge ogres, the aristocratic bandits of the Syndicate, and remnant arcane forces. Travelers venture from nearby foothill settlements and the rebuilding city of Dalaran while contesting the hidden valley nearby.",
+ "summary": "The Alterac Mountains are a cold, ruined highland in central Lordaeron, once home to the treacherous human kingdom of Alterac and the scholarly magocracy of Dalaran. Today, the snow-dusted crags are overrun by the Crushridge ogres, the aristocratic bandits of the Syndicate, and remnant arcane forces. Travelers venture from nearby foothill settlements and the rebuilding city of Dalaran.",
  "sections": [
   {
    "title": "The Fallen Kingdom",
@@ -97,11 +97,11 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Lieutenant Haggerdin recruits stout champions near the snowy heights to march into Alterac Valley and secure the Stormpike Guard's ancestral relics from the Frostwolves."
+   "text": "Alliance travelers face the Crushridge ogres and Syndicate outlaws occupying the former kingdom."
   },
   {
    "target": "faction:Horde",
-   "text": "Warmaster Laggrond rallies the Horde to aid the Frostwolf clan, fighting off dwarven encroachers while Forsaken agents out of Tarren Mill scheme against the Crushridge ogres and Syndicate outlaws."
+   "text": "The Frostwolf clan has made its home in the secluded mountains, while Forsaken agents out of Tarren Mill confront ogres and Syndicate outlaws."
   },
   {
    "target": "profession:Herbalism",
@@ -110,7 +110,6 @@
  ],
  "keywords": [
   "alterac",
-  "crater",
   "crushridge",
   "dalaran",
   "perenolde",

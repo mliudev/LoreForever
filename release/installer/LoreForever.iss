@@ -121,6 +121,12 @@ Type: filesandordirs; Name: "{#FemaleDir}"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{#FemaleAllianceDir}"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{#FemaleHordeDir}"; Check: VoiceChosen('female')
 
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Quests"; Check: VoiceChosen('quests')
+
+#ifdef DownloadUninstallIss
+  #include DownloadUninstallIss
+#endif
+
 [Run]
 Filename: "https://loreforeverwow.com"; Description: "Open the Lore Forever website"; Flags: postinstall shellexec nowait unchecked; Check: not IsQA
 
@@ -140,15 +146,27 @@ var
 
 procedure InitVoices();
 begin
-  SetArrayLength(VoiceIds, 1);
-  SetArrayLength(VoiceNames, 1);
-  SetArrayLength(VoiceAssets, 1);
-  SetArrayLength(VoiceFolders, 1);
-  SetArrayLength(VoiceWanted, 1);
+  SetArrayLength(VoiceIds, 2);
+  SetArrayLength(VoiceNames, 2);
+  SetArrayLength(VoiceAssets, 2);
+  SetArrayLength(VoiceFolders, 2);
+  SetArrayLength(VoiceWanted, 2);
   VoiceIds[0] := 'female';
   VoiceNames[0] := 'Female narrator (stories, answers and lands)';
   VoiceAssets[0] := 'LoreForever_Voice_Female-complete.zip';
   VoiceFolders[0] := 'LoreForever_Voice_Female;LoreForever_Voice_Female_Alliance;LoreForever_Voice_Female_Horde';
+  VoiceIds[1] := 'quests';
+  VoiceNames[1] := 'More quest narration (male narrator)';
+  VoiceAssets[1] := 'LoreForever_Voice_Default_Quests.zip';
+  VoiceFolders[1] := 'LoreForever_Voice_Default_Quests';
+#ifndef DownloadIss
+  // Keep unavailable download choices hidden until exact release hashes are compiled.
+  SetArrayLength(VoiceIds, 0);
+  SetArrayLength(VoiceNames, 0);
+  SetArrayLength(VoiceAssets, 0);
+  SetArrayLength(VoiceFolders, 0);
+  SetArrayLength(VoiceWanted, 0);
+#endif
 end;
 
 // A bare /QA on the command line. ({param:QA} only sees /QA=value, so it's checked by hand.)
@@ -315,16 +333,226 @@ begin
   end;
 end;
 
+// Exact SHA-checked downloads share a stage on the game drive. All sibling shards
+// are verified before any folder is promoted, and promotion rolls back as a group.
+var
+  DownloadStage: String;
+  DownloadFolders, DownloadProof: TStringList;
+
+function BackupHasEntries(Path: String): Boolean;
+var
+  Found: TFindRec;
+begin
+  Result := False;
+  if FindFirst(Path + '\*', Found) then begin
+    try
+      repeat
+        if (Found.Name <> '.') and (Found.Name <> '..') then Result := True;
+      until Result or not FindNext(Found);
+    finally
+      FindClose(Found);
+    end;
+  end;
+end;
+
+procedure BeginDownloadGroup();
+begin
+  DownloadStage := WizardDirValue() + '\.lf-download-stage';
+  if FileExists(DownloadStage + '\recovery-needed.txt') or BackupHasEntries(DownloadStage + '\old') then
+    RaiseException('A previous folder replacement needs recovery: ' + DownloadStage);
+  if not DelTree(DownloadStage, True, True, True) and DirExists(DownloadStage) then
+    RaiseException('Could not clear the previous narration download stage.');
+  ForceDirectories(DownloadStage);
+  DownloadFolders := TStringList.Create;
+  DownloadProof := TStringList.Create;
+end;
+
+function DownloadLabel(Asset: String): String;
+begin
+  if Pos('LoreForever_Voice_Female', Asset) > 0 then Result := 'female narration'
+  else if (Pos('Default_Quests', Asset) > 0) or (Pos('Default_Answers', Asset) > 0) then Result := 'extra quest narration'
+  else Result := 'included narration';
+end;
+
+function PrepareDownload(Asset, Digest, FolderNames, Source, Receipt: String): Boolean;
+var
+  Url, Zip, Folder: String;
+  Text: AnsiString;
+  F: TStringList;
+  K: Integer;
+begin
+  Result := False;
+  Url := ExpandConstant('{param:VOICEURL|{#VoiceBase}}');
+  if Copy(Url, Length(Url), 1) <> '/' then Url := Url + '/';
+  F := TStringList.Create;
+  try
+    StringChangeEx(FolderNames, ';', #13#10, True);
+    F.Text := FolderNames;
+    try
+      WizardForm.StatusLabel.Caption := 'Downloading ' + DownloadLabel(Asset) + '...';
+      DownloadTemporaryFile(Url + Asset, Asset, Digest, @OnVoiceProgress);
+      Zip := ExpandConstant('{tmp}\') + Asset;
+      if not Unzip(Zip, DownloadStage) then RaiseException('Could not unpack ' + Asset);
+      for K := 0 to F.Count - 1 do begin
+        Folder := F[K];
+        if not LoadStringFromFile(DownloadStage + '\' + Folder + '\' + Folder + '.toc', Text) then
+          RaiseException('Missing add-on folder: ' + DownloadStage + '\' + Folder + '\' + Folder + '.toc');
+        Text := Text + #13#10;
+        if (Pos('## Version: {#AppVersion}' + #13#10, Text) = 0) and
+           (Pos('## Version: {#AppVersion}' + #10, Text) = 0) then RaiseException('Wrong add-on version: ' + Folder);
+        if (Source <> '') and (Pos('## Dependencies: ' + Source + #10, Text) = 0) and
+           (Pos('## Dependencies: ' + Source + #13#10, Text) = 0) then RaiseException('Wrong transport dependency: ' + Folder);
+        if (Receipt <> '') and (GetSHA256OfFile(DownloadStage + '\' + Folder + '\Transport.json') <> Receipt) then
+          RaiseException('Changed transport receipt: ' + Folder);
+        DownloadFolders.Add(Folder);
+      end;
+      Result := True;
+      DownloadProof.Add(Asset + #9 + Digest);
+      Log('verified download staged: ' + Asset + ' sha256 ' + Digest);
+    except
+      Log('verified download failed: ' + Asset + ': ' + GetExceptionMessage());
+      VoiceProblems := VoiceProblems + #13#10 + '- ' + DownloadLabel(Asset) + ': download or installation failed; retry Setup.';
+      if IsQA() then SaveStringToFile(WizardDirValue() + '\lore-download-status.tsv', Asset + #9 + Digest + #9 + 'failed' + #13#10, True);
+    end;
+  finally
+    F.Free;
+  end;
+end;
+
+function FinishDownloadGroup(Ready: Boolean): Boolean;
+var
+  K, Promoted: Integer;
+  Folder, Backup, Status: String;
+  HadOld: array of Boolean;
+  RecoveryNeeded: Boolean;
+begin
+  Result := False;
+  RecoveryNeeded := False;
+  Backup := DownloadStage + '\old';
+  try
+    if Ready then begin
+      ForceDirectories(Backup);
+      SetArrayLength(HadOld, DownloadFolders.Count);
+      Promoted := 0;
+      for K := 0 to DownloadFolders.Count - 1 do begin
+        Folder := DownloadFolders[K];
+        HadOld[K] := DirExists(AddOnsDir() + '\' + Folder);
+        if HadOld[K] and not RenameFile(AddOnsDir() + '\' + Folder, Backup + '\' + Folder) then Break;
+        if not RenameFile(DownloadStage + '\' + Folder, AddOnsDir() + '\' + Folder) then begin
+          if HadOld[K] and not RenameFile(Backup + '\' + Folder, AddOnsDir() + '\' + Folder) then RecoveryNeeded := True;
+          Break;
+        end;
+        Promoted := Promoted + 1;
+      end;
+      Result := Promoted = DownloadFolders.Count;
+      if not Result then begin
+        for K := 0 to Promoted - 1 do begin
+          if not DelTree(AddOnsDir() + '\' + DownloadFolders[K], True, True, True) then RecoveryNeeded := True;
+          if HadOld[K] and not RenameFile(Backup + '\' + DownloadFolders[K], AddOnsDir() + '\' + DownloadFolders[K]) then RecoveryNeeded := True;
+        end;
+        VoiceProblems := VoiceProblems + #13#10 + '- Could not replace downloaded add-on folders.';
+      end;
+    end;
+    if Result then Status := 'passed' else Status := 'failed';
+    if IsQA() then
+      for K := 0 to DownloadProof.Count - 1 do
+        SaveStringToFile(WizardDirValue() + '\lore-download-status.tsv', DownloadProof[K] + #9 + Status + #13#10, True);
+    // Preserve any unrestored backup on failure; never discard working audio.
+    if RecoveryNeeded then SaveStringToFile(DownloadStage + '\recovery-needed.txt', 'Folder rollback is incomplete; preserve the old backups.', False)
+    else DelTree(DownloadStage, True, True, True);
+  finally
+    DownloadFolders.Free;
+    DownloadProof.Free;
+  end;
+end;
+
+function InstallDownload(Asset, Digest, FolderNames, Source, Receipt: String): Boolean;
+var
+  Ready: Boolean;
+begin
+  BeginDownloadGroup();
+  Ready := PrepareDownload(Asset, Digest, FolderNames, Source, Receipt);
+  Result := FinishDownloadGroup(Ready);
+end;
+
+function OwnedTransportFolder(Source, Folder: String): Boolean;
+var
+  Tail: String;
+  I: Integer;
+  Toc: AnsiString;
+begin
+  Result := False;
+  Tail := Copy(Folder, Length(Source + '_Transport_') + 1, 14);
+  if (Copy(Folder, 1, Length(Source + '_Transport_')) <> Source + '_Transport_') or
+     (Length(Folder) <> Length(Source + '_Transport_') + 14) or (Copy(Tail, 4, 1) <> '_') then Exit;
+  for I := 1 to 3 do if Pos(Copy(Tail, I, 1), '0123456789') = 0 then Exit;
+  for I := 5 to 14 do if Pos(Copy(Tail, I, 1), '0123456789abcdef') = 0 then Exit;
+  if not LoadStringFromFile(AddOnsDir() + '\' + Folder + '\' + Folder + '.toc', Toc) then Exit;
+  Toc := Toc + #13#10;
+  Result := ((Pos('## Dependencies: ' + Source + #10, Toc) > 0) or
+             (Pos('## Dependencies: ' + Source + #13#10, Toc) > 0)) and
+            ((Pos('## X-LoreForever-Transport-For: ' + Source + #10, Toc) > 0) or
+             (Pos('## X-LoreForever-Transport-For: ' + Source + #13#10, Toc) > 0));
+end;
+
+procedure PruneTransport(Source, Required: String);
+var
+  Found: TFindRec;
+  Folder, Retired, Candidate: String;
+  Suffix: Integer;
+begin
+  // Retire only proven owned generations by atomic same-volume move outside
+  // AddOns. Partial cleanup can never leave an old TOC loading missing audio.
+  if FindFirst(AddOnsDir() + '\' + Source + '_Transport_*', Found) then begin
+    try
+      repeat
+        Folder := Found.Name;
+        if ((Found.Attributes and FILE_ATTRIBUTE_DIRECTORY) <> 0) and
+           (Pos(';' + Folder + ';', ';' + Required + ';') = 0) and
+           OwnedTransportFolder(Source, Folder) then begin
+          Retired := WizardDirValue() + '\.lf-retired-transport\' + Folder;
+          Candidate := Retired;
+          Suffix := 0;
+          while DirExists(Candidate) or FileExists(Candidate) do begin
+            Suffix := Suffix + 1;
+            Candidate := Retired + '_' + IntToStr(Suffix);
+          end;
+          if not ForceDirectories(ExtractFileDir(Candidate)) or
+             not RenameFile(AddOnsDir() + '\' + Folder, Candidate) then begin
+            Log('could not retire superseded transport folder: ' + Folder);
+            VoiceProblems := VoiceProblems + #13#10 + '- Older narration could not be replaced. Close the game and run Setup again.';
+          end else if not DelTree(Candidate, True, True, True) then
+            Log('retired transport backup preserved outside AddOns: ' + Candidate);
+        end;
+      until not FindNext(Found);
+    finally
+      FindClose(Found);
+    end;
+  end;
+end;
+
+#ifdef DownloadIss
+  #include DownloadIss
+#endif
+
 procedure InitializeWizard();
 var
   I: Integer;
 begin
   InitVoices();
-  VoicePage := CreateInputOptionPage(wpSelectDir, 'Extra narrator voices',
-    'Lore Forever comes with the male narrator. Want another voice too?',
-    'Tick a voice to download it while Lore Forever installs, or skip this: voices are also at ' +
+#ifdef DownloadIss
+  ConfigureAvailableVoices();
+#endif
+  VoicePage := CreateInputOptionPage(wpSelectDir, 'Extra narration',
+    'The male narrator is included. Add more narration here.',
+    'Tick an option to download it while Lore Forever installs, or skip this: downloads are also at ' +
     'loreforeverwow.com/downloads. In game, pick one under Options > Narration voices.', False, False);
   for I := 0 to GetArrayLength(VoiceIds) - 1 do VoicePage.Add(VoiceNames[I]);
+end;
+
+function ShouldSkipPage(PageID: Integer): Boolean;
+begin
+  Result := (PageID = VoicePage.ID) and (GetArrayLength(VoiceIds) = 0);
 end;
 
 procedure CurPageChanged(CurPageID: Integer);
@@ -350,10 +578,24 @@ procedure CurStepChanged(CurStep: TSetupStep);
 var
   I: Integer;
 begin
-  if CurStep = ssInstall then DecideVoices();
-  if CurStep = ssPostInstall then
+  if CurStep = ssInstall then begin
+    DecideVoices();
+    if IsQA() then DeleteFile(WizardDirValue() + '\lore-download-status.tsv');
+  end;
+  if CurStep = ssPostInstall then begin
+#ifdef DownloadIss
+    InstallVerifiedDownloads();
+#else
     for I := 0 to GetArrayLength(VoiceIds) - 1 do
       if VoiceWanted[I] then InstallVoice(I);
+#endif
+  end;
+end;
+
+function GetCustomSetupExitCode(): Integer;
+begin
+  Result := 0;
+  if IsQA() and (VoiceProblems <> '') then Result := 1;
 end;
 
 // ---- The WoW folder ------------------------------------------------------------------------------------------

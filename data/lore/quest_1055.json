@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Restored Relic",
-   "body": "The arduous effort to cleanse and assemble the Rod of Transformation reaches a quiet turning point at the secluded shrine hidden deep within Ashenvale's wilds. Piecing together corrupted components, gathering elemental purities, and scouring the forest for ancient gems has produced an intact, newly consecrated rod. The artifact now hums with restored magic, ready to serve as a weapon against the demonic and foul corruptions spreading through the ancient night elf territory.",
+   "body": "The arduous effort to assemble the Rod of Transformation reaches a quiet turning point at the secluded shrine hidden deep within Ashenvale's wilds. Piecing together the shaft, pommel, and glowing gem, and re-enchanting the reconstructed rod at the hidden shrine has restored its magic. The artifact is ready to be returned to Shael'dryn for Raene's investigation of the furbolg attacks.",
    "spoiler": 0
   },
   {
    "title": "Return to Shael'dryn",
-   "body": "With the assembly complete, word and relic must be delivered swiftly back to Shael'dryn. Stationed beside the calm waters of the forest moonwell, the dryad has guided every step of this restoration effort. Presenting the assembled rod to her not only confirms that the forest's sacred craft remains unbroken, but also allows the Sentinel defenders to take the next critical steps in defending their besieged homeland.",
+   "body": "With the assembly complete, word and relic must be delivered swiftly back to Shael'dryn. Stationed beside the calm waters of the forest moonwell, the dryad has guided every step of this restoration effort. Presenting the assembled rod to her not only confirms that the rod's magic has been restored, but also allows the Sentinel defenders to take the next critical steps in defending their besieged homeland.",
    "spoiler": 0
   }
  ],
@@ -65,7 +65,7 @@
     "rod of transformation lore",
     "the rod"
    ],
-   "answer": "The Rod of Transformation is an ancient artifact associated with night elf magic and forest lore. When restored and empowered, it can change its bearer into another form altogether, which later proves to be that of a furbolg."
+   "answer": "The rod is Dartol's magical creation. Its restored power is intended to help Raene investigate the furbolgs; what form it grants is discovered later."
   },
   {
    "q": "Why is assembling the rod so important to Astranaar?",
@@ -74,7 +74,7 @@
     "why astranaar cares",
     "raene importance"
    ],
-   "answer": "Ashenvale faces unprecedented corruption from lingering demonic taint, foul furbolg tribes, and foreign invaders. Raene Wolfrunner and her fellow night elves depend on sacred relics like the rod to cleanse sacred sites and protect Astranaar from falling to dark forces."
+   "answer": "Raene Wolfrunner hopes the rod will let an investigator approach the furbolgs and learn more about the attacks threatening Astranaar."
   },
   {
    "q": "Does assembling the rod end the cleansing chain?",
@@ -83,13 +83,13 @@
     "does raenes cleansing end here",
     "chain end"
    ],
-   "answer": "No. Returning the assembled rod to Shael'dryn completes this step, but she will immediately enlist your help to wield the restored power of the relic against the remaining threats poisoning Ashenvale."
+   "answer": "No. Shael'dryn next asks you to return to Raene Wolfrunner in Astranaar with news that the rod is finished."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Restoring the sacred Rod of Transformation aids your sisters in the Sisterhood of Elune as they fight to rescue the sacred groves of Ashenvale from rot and dark sorcery."
+   "text": "Restoring the rod helps Raene investigate the furbolg attacks threatening Astranaar and the surrounding groves."
   },
   {
    "target": "faction:Alliance",
@@ -97,7 +97,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "Assisting Shael'dryn highlights the ancient rituals of Elune, demonstrating the moonwells' power to cleanse even the most persistent curses through consecrated faith."
+   "text": "Assisting Shael'dryn restores a magical relic needed for Raene's investigation in Ashenvale."
   }
  ],
  "keywords": [

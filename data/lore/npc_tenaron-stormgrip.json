@@ -8,7 +8,7 @@
   "wiki": "Tenaron Stormgrip",
   "refs": 4
  },
- "summary": "Tenaron Stormgrip is a night elf druid situated high within Aldrassil, the central great bough of Shadowglen. Serving the Cenarion Circle, he oversees the early ritual purifications that young kaldorei perform across the crown of Teldrassil.",
+ "summary": "Tenaron Stormgrip is a night elf guide high within Aldrassil, the central tree of Shadowglen. He teaches young kaldorei the recent history of their people while asking them to gather moonwell water.",
  "sections": [
   {
    "title": "Watcher of Aldrassil",
@@ -17,7 +17,7 @@
   },
   {
    "title": "Crown of the Earth",
-   "body": "Tenaron is best known for directing initiates in the sacred rite known as Crown of the Earth. By having acolytes gather pure moonwell water and carry it across the reaches of Teldrassil, he seeks to nourish and purify the land's boughs while observing whether the young tree is flourishing or afflicted by hidden sickness.",
+   "body": "Tenaron begins the journey known as Crown of the Earth. He sends initiates to gather a phial of water from the moonwell north of Aldrassil, teaching them what followed the Battle of Mount Hyjal. The journey continues through Teldrassil and into Darnassus.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "tenaron stormgrip purpose",
     "who is tenaron"
    ],
-   "answer": "He is an elder guide and member of the Cenarion Circle who instructs young night elves in tending to the sacred moonwells and testing the vitality of the World Tree through the ritual of the Crown of the Earth."
+   "answer": "He guides young night elves, introducing the aftermath of the Battle of Mount Hyjal through the Crown of the Earth journey."
   },
   {
    "q": "What is the Crown of the Earth quest?",
@@ -46,7 +46,7 @@
     "crown of the earth lore",
     "why carry moonwell water"
    ],
-   "answer": "It is a rite overseen by Tenaron where initiates take purified water drawn from the moonwells of Shadowglen and pour it into ritual phials and sacred spots across Teldrassil to nurture the boughs and investigate the health of the tree."
+   "answer": "Tenaron asks initiates to gather moonwell water in a phial and return it to him. The journey teaches the recent history of the night elves and continues across Teldrassil."
   },
   {
    "q": "Why is Tenaron concerned about Teldrassil's waters?",
@@ -70,7 +70,7 @@
     "tenaron stormgrip class",
     "is tenaron druid"
    ],
-   "answer": "The sources never say outright. Tenaron operates closely with the Cenarion Circle, focusing on the ecological health and balance of Teldrassil's boughs, while honoring the sacred lunar magic of the moonwells."
+   "answer": "His class is not established by the sources. He teaches recent night elf history and explains the significance of moonwells."
   }
  ],
  "angles": [

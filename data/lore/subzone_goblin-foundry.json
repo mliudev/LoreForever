@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Goblin Foundry"
  },
- "summary": "The Goblin Foundry is an industrial workshop deep within the Deadmines where goblin tinkerers labored to manufacture heavy machinery for Edwin VanCleef's rebellion. Centered around a massive smelting cauldron, the chamber fell into chaos when the experimental harvest golems housed within abruptly came to life.",
+ "summary": "The Goblin Foundry is an industrial workshop deep within the Deadmines where goblin tinkerers manufacture heavy metalwork for the Defias Brotherhood. A massive smelting cauldron dominates the chamber, which remains occupied by goblin craftsmen and engineers under Gilnid.",
  "sections": [
   {
    "title": "Industrial Ambitions",
-   "body": "Carved into the subterranean depths of Moonbrook, the Goblin Foundry provided the Defias Brotherhood with the heavy manufacturing power required to fuel their uprising. Utilizing vast smelters, iron ramps, and goblin engineering expertise, the workshop mass-produced mechanical armaments. Among their most ambitious endeavors was the construction of the Foe Reaper 5000, an upgraded iteration of Westfall's familiar automated reapers.",
+   "body": "Carved into the subterranean depths of Moonbrook, the Goblin Foundry provides the Defias Brotherhood with heavy manufacturing power. Goblin craftsmen and engineers work among the smelters and iron ramps, producing anchors and cannonballs.",
    "spoiler": 0
   },
   {
-   "title": "A Malfunction in Iron",
-   "body": "Goblin ingenuity notoriously borders on catastrophe, and the foundry's crowning achievement proved to be its undoing. The prototype harvest golems turned against their creators, animating uncontrollably and driving out or slaughtering the foundry's workforce. The machinery now stomps unchecked across the iron catwalks, leaving the smelters abandoned to rogue automatons.",
+   "title": "Gilnid's Workshop",
+   "body": "Gilnid presides over the foundry's goblin workforce. Craftsmen maintain production while engineers defend the workshop with remote-controlled golems, making its narrow ramps and molten metal dangerous for intruders.",
    "spoiler": 0
   }
  ],
@@ -28,25 +28,25 @@
     "foundry purpose",
     "deadmines factory"
    ],
-   "answer": "The Defias Brotherhood hired goblin engineers to smelt iron and build mechanical weaponry. Their primary project was constructing powerful mechanized harvest golems, specifically the lethal prototype known as the Foe Reaper 5000."
+   "answer": "The goblin craftsmen produce heavy metalwork, including anchors and cannonballs, for the Defias Brotherhood."
   },
   {
-   "q": "Why are there harvest golems in the foundry?",
+   "q": "Why are there golems in the foundry?",
    "aliases": [
-    "why harvest golems here",
+    "why golems here",
     "foundry robots",
     "mechanical enemies deadmines"
    ],
-   "answer": "The harvest golems were being manufactured and upgraded on-site by goblin artificers. However, the machines unexpectedly activated, revolted against their handlers, and took over the lower and upper tiers of the foundry floor."
+   "answer": "Goblin engineers use remote-controlled golems to defend their workshop against intruders."
   },
   {
    "q": "Where are the goblins who ran this workshop?",
    "aliases": [
     "where are the goblins",
-    "what happened to the engineers",
-    "dead goblins"
+    "foundry engineers",
+    "gilnid workers"
    ],
-   "answer": "Most of the foundry goblins were driven out, scattered into deeper chambers of the mine, or slain when their experimental mechanical creations went haywire and seized control of the workshop."
+   "answer": "The goblin craftsmen and engineers remain at work in the foundry under Gilnid, the smelter."
   },
   {
    "q": "What is the large structure in the center of the room?",
@@ -61,20 +61,18 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The foundry stands as a testament to both the brilliance and hazards of goblin tinkering, showcasing how dangerous automated chassis can be when programmed without strict safety failsafes."
+   "text": "The foundry showcases goblin metalworking and mechanical ingenuity, with engineers using remote-controlled golems to defend the workshop."
   },
   {
    "target": "faction:Alliance",
-   "text": "Discovering that the rogue harvest golems terrorizing Westfall's farms were being actively upgraded into military weapons here reveals the true extent of the Defias threat."
+   "text": "The Defias workshop reveals the scale of the Brotherhood's industrial resources beneath Westfall."
   }
  ],
  "keywords": [
   "cauldron",
   "deadmines",
   "defias",
-  "foe reaper 5000",
   "goblin foundry",
-  "harvest golem",
   "vancleef"
  ],
  "related": [

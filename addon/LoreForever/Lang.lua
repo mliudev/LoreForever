@@ -160,16 +160,18 @@ end
 
 -- Translated text over the English entries, field by field; spoiler flags, links and metadata stay English. Returns
 -- how many entries were skipped because the English changed since the translation.
-function Lang.MergeEntries(db, w)
+function Lang.MergeEntries(db, w, merged)
   -- The word-piece vectors that re-rank answers by meaning (Engine:VecOf) are English; over translated text they
   -- mislead ("Was ist die Bruderschaft der Defias?" went to a quest), so a merged pack switches them off.
   if next(w.entries or {}) then db.vectors = nil end
   local skipped = 0
+  merged = merged or {}
   for key, t in pairs(w.entries or {}) do
     local e = db.entries[key]
     if e and t.fp ~= Lang.Fingerprint(e) then
       skipped = skipped + 1
     elseif e then
+      merged[key] = true
       local oldName = e.n
       e.n, e.s, e.h = t.n or e.n, t.s or e.s, t.h or e.h
       if e.n ~= oldName then e.en = e.en or oldName end   -- the English name, so a list search finds either
@@ -350,14 +352,17 @@ local function init(lang)
   end
   if not tw and not ow then return end
   local rec = (tw and trec) or orec
+  -- A failure halfway through the merge must not leave English complete hashes beside translated text.
+  db.fullclips, db.fullclipsLocale = {}, rec.locale
 
   local overlayOK = ow and Lang.OverlayEntries(db, ow)   -- before the merge: fp is over the English
   for k, v in pairs((tw and tw.ui) or {}) do rawset(L, k, v) end
   for k, v in pairs((ow and ow.ui) or {}) do
     if type(v) == "string" and v ~= "" then rawset(L, k, v) end
   end
+  local merged = {}
   if tw then
-    local skipped = Lang.MergeEntries(db, tw)
+    local skipped = Lang.MergeEntries(db, tw, merged)
     if ns.debug and skipped > 0 then note("%d translated entries skipped: the English changed since", skipped) end
     if tw.stop and ns.Engine then ns.Engine.AddStopWords(tw.stop) end
     local built = tw.dataVersion or trec.dataVersion
@@ -387,6 +392,18 @@ local function init(lang)
   -- packs' hashes (answerHash, LOR-227) too.
   db.clipHash = (tw and tw.clipHash) or {}
   db.answerHash = (tw and tw.answerHash) or {}
+  -- Complete stories have their own hash. Only translations that actually merged may validate a recording;
+  -- an overlay that changes narrated text cannot reuse a built complete-story receipt.
+  for key, hash in pairs((tw and tw.fullclips) or {}) do
+    local entry, translated = db.entries[key], tw.entries and tw.entries[key]
+    if merged[key] and translated and entry and entry.n == translated.n and entry.s == translated.s then
+      local same = type(entry.sec) == "table" and type(translated.sec) == "table" and #entry.sec == #translated.sec
+      for i, section in ipairs(same and entry.sec or {}) do
+        if (section.sp or 0) == 0 and section.b ~= translated.sec[i].b then same = false; break end
+      end
+      if same then db.fullclips[key] = hash end
+    end
+  end
   lang.locale, lang.name, lang.pack = rec.locale, rec.languageName or rec.locale, rec.name
   ns.readingLocale = rec.locale
 end

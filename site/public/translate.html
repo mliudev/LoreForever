@@ -38,8 +38,8 @@
 
 <main class="wrap vp-page">
   <h1>Translate Lore Forever</h1>
-  <p class="pitch">Help Lore Forever speak your language. You don't need to code or install anything: the text comes
-    as simple files with the English next to each line, and you write your language beside it.</p>
+  <p class="pitch">Help Lore Forever speak your language. Open the translation dashboard to read the English
+    original beside your language, fix a line, or check a draft. You don't need to code or install anything.</p>
 
   <section class="vp-section" id="help" aria-labelledby="help-title">
     <h2 id="help-title">Help translate</h2>
@@ -48,8 +48,8 @@
       <li>Open the <a href="/translate/dashboard">translation dashboard</a> and pick your language. Each English line
         has a box under it for yours. A language with a draft already has text to check and fix; a new one starts
         from the English.</li>
-      <li>Type. Your work saves by itself, and goes into your language's next update, with your
-        name in the credits if you like.</li>
+      <li>Type and wait for <strong>Saved</strong>. If a draft already reads correctly after you compare it with
+        the English, press <strong>Looks right</strong> to save your check of that line. Your work is credited if you like.</li>
     </ol>
     <p class="vp-note">You don't have to finish anything: every line you translate is used, and the rest stays in
       English until someone gets to it. Start with the interface and the zones. Questions?
@@ -65,6 +65,32 @@
       <a class="btn-small" href="/translate/dashboard">Start translating</a>
       <a class="btn-small" href="#report">Report a bad translation</a>
     </p>
+  </section>
+
+  <section class="vp-section" id="recording" aria-labelledby="recording-title">
+    <h2 id="recording-title">Check one script, then record it</h2>
+    <ol class="vp-steps">
+      <li>In the <a href="/voices/studio">voice studio</a>, open a line's text. Its entry ID and
+        <strong>English original</strong> identify the source; <strong>Check or correct translation</strong> opens
+        the matching entry in your language. The fields used by that script are marked.</li>
+      <li>Compare those fields with the English and fix anything that reads wrong. <strong>Looks right</strong>
+        means you checked that line's wording; it does not approve a recording or the whole language.</li>
+      <li>Wait for <strong>Saved</strong>, then return to the same recording line. The studio reads its current
+        script, which updates separately from your saved edits. If you changed the wording, refresh the script
+        and wait until it shows your correction before recording. A personal translation test pack does not
+        change the studio script.</li>
+    </ol>
+    <p class="vp-note">You can work on one entry at a time; the whole language does not need to reach 100% first.
+      A draft needs a check, which does not mean every line is wrong. Existing recordings are kept when text changes;
+      text or the default voice covers lines that do not have a current recording.</p>
+  </section>
+
+  <section class="vp-section" id="names" aria-labelledby="names-title">
+    <h2 id="names-title">Which names should I use?</h2>
+    <p class="vp-note">Use the names shown in your game client in the language you are translating: places, people,
+      factions and quests. If your French client calls Stormwind <em>Hurlevent</em>, use that name; if it keeps
+      <em>Stormwind</em>, keep it. Check the map, quest log or character name when unsure. Custom names without a
+      localized client name stay as they are. Correct the written script before recording a different name.</p>
   </section>
 
   <section class="vp-section" id="in-game" aria-labelledby="in-game-title">
@@ -109,8 +135,9 @@
     </div>
     <details class="tl-help">
       <summary>When does a language come to the game?</summary>
-      <p class="vp-note">When enough of it is translated and native speakers have read it through. We'll announce
-        each one on Discord. Translations are shared under
+      <p class="vp-note">Saved edits are imported into the language source, merged, then included in a released
+        language pack. Saving or checking a line does not release it immediately. The coverage percentage says how
+        much text is available, not how much native speakers have checked. Translations are shared under
         <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, like the lore text they
         translate, and every translator is credited.</p>
     </details>

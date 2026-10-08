@@ -19,7 +19,7 @@ export async function onRequestGet({ params, env, request }) {
   const item = findDownload(await loadVoices(env, request), params.id);
   const url = item?.status === "live" && /^https:\/\//.test(item.download || "") ? item.download : null;
   if (!url) return new Response("Not found", { status: 404 });
-  if (env.DB && !BOT.test(request.headers.get("user-agent") || "")) {
+  if (request.method === "GET" && env.DB && !BOT.test(request.headers.get("user-agent") || "")) {
     const day = new Date().toISOString().slice(0, 10);
     try {
       await env.DB.batch([
@@ -31,3 +31,5 @@ export async function onRequestGet({ params, env, request }) {
   }
   return Response.redirect(url, 302);
 }
+
+export const onRequestHead = onRequestGet;

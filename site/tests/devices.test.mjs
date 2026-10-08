@@ -50,11 +50,11 @@ async function page(action, { cookie, body, method = "POST", query = "" } = {}) 
   return { status: res.status, body: await res.json() };
 }
 
-async function sync(token, record, { origin } = {}) {
+async function sync(token, record, { origin, refreshStory = false } = {}) {
   const h = new Headers({ "Content-Type": "application/json", "X-LF-Client": CLIENT });
   if (token) h.set("Authorization", "Bearer " + token);
   if (origin) h.set("Origin", origin);
-  const request = new Request(`${ORIGIN}/api/profile/sync`, { method: "POST", headers: h, body: JSON.stringify({ record }) });
+  const request = new Request(`${ORIGIN}/api/profile/sync`, { method: "POST", headers: h, body: JSON.stringify({ record, refreshStory }) });
   const res = await profileApi({ request, env, params: { action: "sync" } });
   return { status: res.status, body: await res.json() };
 }
@@ -290,9 +290,9 @@ test("stories from updates: the first one at once, then only with something new 
     r = await row(me.user.id);
     assert.deepEqual([r.story_count, JSON.parse(r.story_basis).level], [2, 26]);
 
-    // A paste still writes one each time (within the daily allowance).
-    await importRecord(me.cookie, RECORD.replace("Level 24", "Level 26"));
-    assert.equal(calls.length, 3);
+    // Replaying the current facts through the manual path shares its written story.
+    assert.equal((await importRecord(me.cookie, RECORD.replace("Level 24", "Level 26"))).story.why, "current");
+    assert.equal(calls.length, 2);
   } finally {
     globalThis.fetch = realFetch;
   }
@@ -365,4 +365,223 @@ test("the pages: /link connects, /account lists connected apps and says the comp
   assert.match(account, /features\.companion/);
   assert.match(read("_headers"), /\/link\n {2}X-Robots-Tag: noindex, nofollow\n {2}Cache-Control: no-store/);
   for (const html of [link, account]) assert.ok(!/\b(AI|chatbot|model)\b/.test(html.replace(/<[^>]+>/g, " ")), "no wording about models");
+});
+
+test("an unchanged saved record catches up its stale story after the cooldown", async t => {
+  t.mock.timers.enable({ apis: ["Date"], now: Date.parse("2026-10-07T12:00:00Z") });
+  env.GEMINI_API_KEY = "test-key";
+  const me = await signIn("catchup");
+  try {
+    const calls = gemini();
+    const token = await connect(me);
+    await sync(token, RECORD);
+    const newer = RECORD.replace("Level 24", "Level 25");
+    assert.equal((await sync(token, newer)).body.story.why, "later");
+    assert.equal(JSON.parse((await row(me.user.id)).data).level, 25);
+    assert.equal(JSON.parse((await row(me.user.id)).story_basis).level, 24);
+    t.mock.timers.tick(STORY_SYNC_HOURS * 3600e3 + 1);
+    const catchup = await sync(token, newer);
+    assert.equal(catchup.body.story?.why, "written");
+    assert.equal(calls.length, 2);
+    assert.equal(JSON.parse((await row(me.user.id)).story_basis).level, 25);
+  } finally { globalThis.fetch = realFetch; }
+});
+
+test("explicit sync refreshes inside the cooldown, while identical replays share the story", async t => {
+  t.mock.timers.enable({ apis: ["Date"], now: Date.parse("2026-10-07T12:00:00Z") });
+  env.GEMINI_API_KEY = "test-key";
+  const me = await signIn("explicit");
+  try {
+    const calls = gemini(), token = await connect(me);
+    await sync(token, RECORD);
+    const newer = RECORD.replace("Level 24", "Level 25");
+    const refreshed = await sync(token, newer, { refreshStory: true });
+    assert.equal(refreshed.body.story.why, "written");
+    assert.equal(calls.length, 2);
+    assert.equal(JSON.parse((await row(me.user.id)).story_basis).level, 25);
+    const replay = await sync(token, newer, { refreshStory: true });
+    assert.equal(replay.body.story.why, "current");
+    assert.equal(calls.length, 2);
+    assert.equal((await importRecord(me.cookie, newer)).story.why, "current");
+    assert.equal(calls.length, 2);
+    assert.equal((await sync(token, RECORD.replace("Level 24", "Level 26"))).body.story.why, "later");
+  } finally { globalThis.fetch = realFetch; }
+});
+
+test("overlapping explicit syncs save facts immediately and charge one writer", async () => {
+  const me = await signIn("overlap"), token = await connect(me);
+  await sync(token, RECORD);
+  env.GEMINI_API_KEY = "test-key";
+  let release, started;
+  const entered = new Promise(resolve => started = resolve);
+  const delayed = new Promise(resolve => release = resolve);
+  let calls = 0;
+  globalThis.fetch = async () => {
+    calls++; started(); await delayed;
+    return Response.json({ candidates: [{ content: { parts: [{ text: JSON.stringify({ story: STORY }) }] } }],
+      usageMetadata: { promptTokenCount: 2000, candidatesTokenCount: 300 } });
+  };
+  try {
+    const newer = RECORD.replace("Level 24", "Level 25");
+    const first = sync(token, newer, { refreshStory: true });
+    await entered;
+    assert.equal(JSON.parse((await row(me.user.id)).data).level, 25, "facts delivered before writer completes");
+    const duplicate = await sync(token, newer, { refreshStory: true });
+    assert.equal(duplicate.body.story.why, "pending");
+    assert.equal(calls, 1);
+    release();
+    assert.equal((await first).body.story.why, "written");
+    assert.equal(calls, 1);
+  } finally { release?.(); globalThis.fetch = realFetch; }
+});
+
+test("delayed stories cannot overwrite newer facts or a switched character", async () => {
+  const me = await signIn("delayed"), token = await connect(me);
+  await sync(token, RECORD);
+  env.GEMINI_API_KEY = "test-key";
+  let release, started;
+  const entered = new Promise(resolve => started = resolve);
+  const delayed = new Promise(resolve => release = resolve);
+  globalThis.fetch = async () => {
+    started(); await delayed;
+    return Response.json({ candidates: [{ content: { parts: [{ text: JSON.stringify({ story: STORY }) }] } }],
+      usageMetadata: { promptTokenCount: 2000, candidatesTokenCount: 300 } });
+  };
+  try {
+    const writing = sync(token, RECORD.replace("Level 24", "Level 25"), { refreshStory: true });
+    await entered;
+    delete env.GEMINI_API_KEY;
+    await importRecord(me.cookie, RECORD.replace("Aelric - Forever", "Brakka - Forever"));
+    release();
+    assert.equal((await writing).body.story.why, "pending");
+    const after = await row(me.user.id);
+    assert.equal(JSON.parse(after.data).name, "Brakka");
+    assert.equal(after.story_source, "template");
+    assert.ok(!after.story.includes("Aelric"));
+  } finally { release?.(); globalThis.fetch = realFetch; }
+});
+
+test("story failures and daily/monthly limits retain delivered facts and the working story", async t => {
+  t.mock.timers.enable({ apis: ["Date"], now: Date.parse("2026-10-07T12:00:00Z") });
+  env.GEMINI_API_KEY = "test-key";
+  const me = await signIn("limits");
+  try {
+    const calls = gemini(), token = await connect(me);
+    await sync(token, RECORD);
+    globalThis.fetch = async () => { calls.push("failed"); throw new Error("mock offline"); };
+    assert.equal((await sync(token, RECORD.replace("Level 24", "Level 25"), { refreshStory: true })).body.story.why, "network");
+    assert.equal(JSON.parse((await row(me.user.id)).data).level, 25);
+    assert.equal((await row(me.user.id)).story, STORY);
+    await sync(token, RECORD.replace("Level 24", "Level 26"), { refreshStory: true });
+    const limited = await sync(token, RECORD.replace("Level 24", "Level 27"), { refreshStory: true });
+    assert.equal(limited.body.story.why, "daily");
+    assert.ok(limited.body.storyRetryAt > Date.now());
+    assert.equal(calls.length, 3);
+    assert.equal(JSON.parse((await row(me.user.id)).data).level, 27);
+    env.STORY_BUDGET_USD = "0";
+    const budget = await importRecord(me.cookie, RECORD.replace("Level 24", "Level 28"));
+    assert.equal(budget.story.why, "budget");
+    assert.equal(calls.length, 3);
+    assert.equal(JSON.parse((await row(me.user.id)).data).level, 28);
+    assert.equal((await row(me.user.id)).story, STORY);
+  } finally { globalThis.fetch = realFetch; delete env.STORY_BUDGET_USD; }
+});
+
+test("a character switched during fact delivery cannot be switched back by a stale sync", async () => {
+  const me = await signIn("switch-during-delivery"), token = await connect(me);
+  await sync(token, RECORD);
+  const prepare = env.DB.prepare;
+  let release, entered, intercepted = false;
+  const paused = new Promise(resolve => release = resolve);
+  const started = new Promise(resolve => entered = resolve);
+  env.DB.prepare = sql => {
+    const statement = prepare(sql);
+    if (sql !== "SELECT * FROM profiles WHERE user_id = ?" || intercepted) return statement;
+    intercepted = true;
+    const bind = statement.bind;
+    statement.bind = (...args) => {
+      const bound = bind(...args), first = bound.first;
+      bound.first = async (...args) => { const snapshot = await first(...args); entered(); await paused; return snapshot; };
+      return bound;
+    };
+    return statement;
+  };
+  try {
+    const stale = sync(token, RECORD.replace("Level 24", "Level 25"));
+    await started;
+    await importRecord(me.cookie, RECORD.replace("Aelric - Forever", "Brakka - Forever"));
+    release();
+    assert.equal((await stale).status, 409);
+    assert.equal(JSON.parse((await row(me.user.id)).data).name, "Brakka");
+  } finally { release?.(); env.DB.prepare = prepare; }
+});
+
+test("disconnecting a device during generation prevents its delayed story from attaching", async () => {
+  const me = await signIn("disconnect-during-story"), token = await connect(me);
+  await sync(token, RECORD);
+  env.GEMINI_API_KEY = "test-key";
+  let release, entered;
+  const paused = new Promise(resolve => release = resolve);
+  const started = new Promise(resolve => entered = resolve);
+  globalThis.fetch = async () => {
+    entered(); await paused;
+    return Response.json({ candidates: [{ content: { parts: [{ text: JSON.stringify({ story: STORY }) }] } }],
+      usageMetadata: { promptTokenCount: 2000, candidatesTokenCount: 300 } });
+  };
+  try {
+    const writing = sync(token, RECORD.replace("Level 24", "Level 25"), { refreshStory: true });
+    await started;
+    const devices = await page("list", { cookie: me.cookie, method: "GET" });
+    await page("revoke", { cookie: me.cookie, body: { id: devices.body.devices[0].id } });
+    release();
+    assert.equal((await writing).body.story.why, "pending");
+    const kept = await row(me.user.id);
+    assert.equal(kept.story_source, "template");
+    assert.equal(kept.story_count, 0);
+    assert.equal(JSON.parse(kept.data).level, 25);
+    assert.equal((await sync(token, RECORD)).status, 401);
+  } finally { release?.(); globalThis.fetch = realFetch; }
+});
+
+test("overlapping changed syncs only acknowledge delivered facts and the loser retries", async () => {
+  const me = await signIn("facts-race"), token = await connect(me);
+  await sync(token, RECORD);
+  const prepare = env.DB.prepare;
+  let reads = 0, releaseReads, resolveFirstWrite;
+  const bothRead = new Promise(resolve => releaseReads = resolve);
+  const firstWrite = new Promise(resolve => resolveFirstWrite = resolve);
+  env.DB.prepare = sql => {
+    const wrap = args => {
+      const statement = prepare(sql).bind(...args);
+      return { ...statement, bind: (...newArgs) => wrap(newArgs),
+        first: async (...args) => {
+          const snapshot = await statement.first(...args);
+          if (sql === "SELECT * FROM profiles WHERE user_id = ?" && reads < 2) {
+            if (++reads === 2) releaseReads();
+            await bothRead;
+          }
+          return snapshot;
+        },
+        run: async () => {
+          if (sql.startsWith("UPDATE profiles SET data = ?") && JSON.parse(args[0]).level === 26) await firstWrite;
+          const out = await statement.run();
+          if (sql.startsWith("UPDATE profiles SET data = ?") && JSON.parse(args[0]).level === 25) resolveFirstWrite();
+          return out;
+        },
+      };
+    };
+    return wrap([]);
+  };
+  try {
+    const [older, newer] = await Promise.all([25, 26].map(level =>
+      sync(token, RECORD.replace("Level 24", "Level " + level), { refreshStory: true })));
+    assert.equal(older.status, 200);
+    assert.equal(newer.status, 409, "a failed compare-and-save never acknowledges unsaved level 26");
+    assert.equal(newer.body.retry, true);
+    assert.equal(JSON.parse((await row(me.user.id)).data).level, 25);
+    env.DB.prepare = prepare;
+    const retried = await sync(token, RECORD.replace("Level 24", "Level 26"), { refreshStory: true });
+    assert.equal(retried.status, 200);
+    assert.equal(JSON.parse((await row(me.user.id)).data).level, 26);
+  } finally { env.DB.prepare = prepare; releaseReads?.(); resolveFirstWrite?.(); }
 });
