@@ -80,12 +80,21 @@ def write(path, value):
 
 
 def get_release(repo, tag):
+    """The release for a tag, drafts included. GitHub's by-tag endpoint never returns a draft (HTTP 404), so a draft
+    this workflow just created is found in the release list instead (0.13.0's first run failed on exactly that)."""
     try:
         return api(repo, 'releases/tags/' + tag)
     except Failure as error:
-        if '(HTTP 404)' in str(error):
-            return None
-        raise
+        if '(HTTP 404)' not in str(error):
+            raise
+    for page in range(1, 6):
+        releases = api(repo, f'releases?per_page=100&page={page}')
+        for release in releases:
+            if release.get('tag_name') == tag:
+                return release
+        if len(releases) < 100:
+            break
+    return None
 
 
 def prepare(args):
