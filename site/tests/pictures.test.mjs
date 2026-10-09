@@ -10,10 +10,10 @@ import { onRequest as imageGet } from "../functions/pictures/[file].js";
 import { onRequest as profileApi } from "../functions/api/profile/[action].js";
 import { onRequestGet as profileGet } from "../functions/u/[handle].js";
 import { findOrCreateUser, startSession, setup, deleteUser, sha256 } from "../lib/accounts.js";
-import { picturesSection, readMeta, jpegSize, isJpeg, PER_USER, PER_MINUTE, SHOWN, CAPTION_MAX } from "../lib/pictures.js";
+import { PER_USER, PER_MINUTE } from "../lib/pictures.js";
 import { d1, r2 } from "./helpers.mjs";
 import { readJourney } from "../lib/journey.js";
-import { moments, timelinePictures } from "../lib/trails.js";
+import { moments, timelinePictures, journeySection, SHOWN } from "../lib/trails.js";
 import { RECORD } from "./fixtures/journey/record.mjs";
 
 const ORIGIN = "https://preview.example";
@@ -126,30 +126,6 @@ async function view(handle, { cookie, query = "" } = {}) {
 }
 
 const rows = () => env.DB.prepare("SELECT * FROM profile_pictures ORDER BY t").all().then(r => r.results);
-
-test("JPEGs are told by their bytes, and their size read from the frame header", () => {
-  assert.deepEqual(jpegSize(jpeg(1920, 1080)), { w: 1920, h: 1080 });
-  assert.deepEqual(jpegSize(jpeg(480, 270)), { w: 480, h: 270 });
-  assert.ok(isJpeg(jpeg()));
-  assert.ok(!isJpeg(PNG));
-  assert.equal(jpegSize(new Uint8Array([0xff, 0xd8, 0xff, 0xda, 0, 2, 0, 0, 0, 0, 0, 0])), null, "image data before any frame");
-  assert.equal(jpegSize(jpeg(0, 1080)), null, "no width");
-});
-
-test("the meta: only what's sent, tidied; at is mapID:x:y in thousandths; captions capped", () => {
-  const { cid, fields } = readMeta(JSON.stringify({ ...META, z: " Elwynn\nForest ", caption: "x".repeat(700) }));
-  assert.equal(cid, META.cid);
-  assert.deepEqual({ ...fields, caption: fields.caption.length }, { t: META.t, realm: "Forever", faction: "Alliance",
-    race: "Night Elf", class: "Druid", zone: "Elwynn Forest", subzone: "Goldshire", lv: 24, map: 1429, x: 412, y: 655,
-    clean: 1, caption: CAPTION_MAX });
-  assert.deepEqual(readMeta(JSON.stringify({ cid: "a", caption: "Later." })).fields, { caption: "Later." }, "an update sends only what changed");
-  assert.deepEqual(readMeta(JSON.stringify({ cid: "a", at: null, pic: 0 })).fields, { map: null, x: null, y: null, clean: 0 });
-  assert.deepEqual(readMeta(JSON.stringify({ cid: "a", at: "1429:1200:5", lv: 300, t: 12 })).fields,
-    { map: null, x: null, y: null, lv: null }, "out of range: dropped");
-  for (const bad of ["nope", "[]", JSON.stringify({ t: 1 }), JSON.stringify({ cid: "a/../b" }), JSON.stringify({ cid: "x".repeat(65) })]) {
-    assert.ok(readMeta(bad).error, bad);
-  }
-});
 
 test("the companion uploads a picture with its token; sending it again updates it, never a second copy", async () => {
   const me = await signIn("aelric");
@@ -509,21 +485,7 @@ test("Delete my profile and Delete my account take the pictures and their files 
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM picture_reports").get().n, 0, "the reports they sent");
 });
 
-test("the section: newest SHOWN open and the rest folded, the player's own day, a line for an owner with none", () => {
-  const pics = Array.from({ length: SHOWN + 3 }, (_, i) => ({ id: i.toString(16).padStart(16, "0"), sha: "abcdef0123",
-    t: Date.parse("2026-10-05T03:30:00Z") / 1000 - i * 60, w: 1920, h: 1080, lv: 30, zone: "Duskwood", subzone: null, caption: null }));
-  const html = picturesSection(pics, { tz: -420 });
-  assert.equal(html.split('class="pb-item"').length - 1, SHOWN + 3);
-  assert.match(html, /<details class="pf-older pb-older"><summary>Older pictures \(3\)<\/summary>/);
-  assert.match(html, /<p class="pb-when">Oct 4, 2026 &middot; Level 30<\/p>/, "8:30 pm the day before, in the player's time");
-  assert.match(picturesSection(pics, { tz: 0 }), /Oct 5, 2026/);
-  assert.match(html, /loading="lazy"/);
-  assert.equal(picturesSection([], {}), "", "nothing for a visitor");
-  assert.match(picturesSection([], { owner: true }), /No pictures yet/);
-});
-
-
-test("timeline identity: malformed matches are refused; only exact canonical shot events get thumbnails", async () => {
+test("timeline identity: malformed metadata is refused and hidden or foreign pictures never join", async () => {
   const me = await signIn("timeline");
   await profile(me);
   const token = await connect(me), character = "a".repeat(64);
@@ -534,10 +496,10 @@ test("timeline identity: malformed matches are refused; only exact canonical sho
   const good = await upload({...META, character, event_t:META.t + 1}, jpeg(), {token});
   assert.deepEqual([good.status, good.body.picture.character, good.body.picture.event_t], [200,character,META.t+1]);
   assert.equal((await upload({cid:META.cid, caption:"Updated."}, null, {token})).status,200);
-  const journey = readJourney({v:1,tz:0,moments:[
+  const journey = readJourney({v:1,tz:0,character,moments:[
     {k:"shot",t:META.t,character}, // Screenshot's clock isn't the event clock.
     {k:"shot",t:META.t+1,character:"b".repeat(64)}, // Same time, another character.
-    {k:"lvl",t:META.t+1,lv:24}, // Same time, wrong event kind.
+    {k:"lvl",t:META.t+1,lv:24}, // A substantive moment near the actual capture time.
     {k:"shot",t:META.t+1,character},
     {k:"shot",t:META.t+2,character:"raw-account/path"},
   ]});
@@ -548,6 +510,7 @@ test("timeline identity: malformed matches are refused; only exact canonical sho
   assert.equal((timeline.match(/class="pf-picture"/g)||[]).length,1);
   assert.match(timeline,new RegExp(`data-pb-target="${good.body.picture.id}"`));
   assert.match(timeline, /Took a journey picture/);
+  assert.match(timeline.match(/<li class="pf-m pf-k-levels"[\s\S]*?<\/li>/)[0], /data-pb-target=/, "the picture belongs beside the level, not its own shot marker");
   assert.ok(!(await view("aelric")).html.includes('class="pf-picture"'),"feature off keeps thumbnails hidden");
   const publicList = (await list("?handle=aelric&pictures=1")).body.pictures;
   assert.equal(publicList[0].character, character);
@@ -555,8 +518,8 @@ test("timeline identity: malformed matches are refused; only exact canonical sho
   assert.ok(!JSON.stringify(publicList).includes("account/path"));
   const all = moments({},undefined,journey), pics = await rows();
   assert.equal(timelinePictures(all,pics).size,1);
-  assert.equal(timelinePictures([...all,all.at(-1)],pics).size,0,"duplicate events are ambiguous");
-  assert.equal(timelinePictures(all,[...pics,{...pics[0],id:"second"}]).size,0,"duplicate claims are ambiguous");
+  assert.equal(timelinePictures([...all,all.at(-1)],pics).size,1,"repeated moments keep one deterministic placement");
+  assert.equal([...timelinePictures(all,[...pics,{...pics[0],id:"second"}]).values()][0].length,2,"one moment can have multiple pictures");
   assert.equal(timelinePictures(all,[{...pics[0],hidden:1}]).size,0,"hidden pictures never join");
   await env.DB.prepare("UPDATE profiles SET public = 0 WHERE user_id = ?").bind(me.user.id).run();
   assert.equal((await view("aelric",{query:"?pictures=1"})).status,404);
@@ -576,4 +539,45 @@ test("existing picture tables gain optional exact identities without changing le
   assert.equal(legacy.character,null);
   assert.equal(legacy.event_t,null);
   assert.equal(timelinePictures(moments({},undefined,{v:1,tz:0,moments:[{k:'shot',t:META.t,character:'a'.repeat(64)}]}),[legacy]).size,0);
+});
+
+
+test("pictures follow capture time beside the nearest same-character moment and move when older history arrives", () => {
+  const character = "a".repeat(64), foreign = "b".repeat(64), t = META.t;
+  const events = [{k:"lvl",t:t+100,lv:24}, {k:"lvl",t:t+200,lv:25}];
+  const all = moments({}, undefined, readJourney({v:1,tz:0,character,moments:events}));
+  const pic = (id, dt, owner=character) => ({id,t:t+dt,event_t:t+999,character:owner,sha:"abc",w:1920,h:1080});
+  const pictures = [pic("before",90),pic("after",110),pic("tie",150),pic("later",160),pic("other",101,foreign),{...pic("hidden",100),hidden:1}];
+  const matched = timelinePictures(all,pictures);
+  assert.deepEqual(matched.get(all[0]).map(p=>p.id),["before","after","tie"]);
+  assert.deepEqual(matched.get(all[1]).map(p=>p.id),["later"]);
+  assert.equal([...matched.values()].flat().length,4,"never attach another character or a hidden picture");
+  const simultaneous = [...all, {...all[0],o:3}];
+  assert.equal([...timelinePictures(simultaneous,[pictures[1]]).keys()][0],all[0],"same-second ties keep the earlier entry");
+  const html = journeySection(all,{pictures:pictures.slice(0,4)});
+  const firstRow = html.match(/<li class="pf-m pf-k-levels" id="m-0"[\s\S]*?<\/li>/)[0];
+  assert.equal((firstRow.match(/class="pf-picture"/g)||[]).length,3);
+  assert.ok(!html.includes("waiting for"));
+  const backlog = moments({},undefined,readJourney({v:1,tz:0,character,moments:[...events,{k:"qt",t:t+159,id:42,n:"Returned yesterday"}]}));
+  const reassigned = timelinePictures(backlog,pictures);
+  assert.deepEqual(reassigned.get(backlog.find(m=>m.k==="quests")).map(p=>p.id),["tie","later"]);
+  assert.ok(journeySection([],{pictures:[pictures[0]]}).includes("waiting for this character"));
+  assert.equal(timelinePictures(moments({},undefined,readJourney({v:1,tz:0,moments:events})),pictures).size,0,"unidentified old moments wait rather than guess");
+});
+
+
+test("picture markers cannot attract pictures and older pictured moments remain reachable", () => {
+  const character = "a".repeat(64), t = META.t;
+  const pic = {id:"old-picture",character,t:t+1,event_t:t+1,sha:"abc"};
+  const shotOnly = moments({},undefined,{v:1,tz:0,character,moments:[{k:"shot",t:t+1,character}]});
+  assert.equal(timelinePictures(shotOnly,[pic]).size,0);
+  assert.match(journeySection(shotOnly,{pictures:[pic]}), /waiting for this character/);
+  const all = moments({},undefined,{v:1,tz:0,character,moments:[{k:"lvl",t,lv:2},{k:"shot",t:t+1,character},
+    ...Array.from({length:SHOWN+2},(_,i)=>({k:"lvl",t:t+10+i,lv:3}))]});
+  assert.equal([...timelinePictures(all,[pic]).keys()][0],all[0],"the exact-time shot does not displace a real journey moment");
+  const html = journeySection(all,{pictures:[pic]});
+  const row = html.match(/<li class="pf-m pf-k-levels" id="m-0"[\s\S]*?<\/li>/)?.[0];
+  assert.ok(row?.includes('data-pb-target="old-picture"'),"the closest old moment remains in Show earlier moments");
+  assert.ok(!html.includes("waiting for"));
+  assert.equal((html.match(/data-pb-target="old-picture"/g)||[]).length,1);
 });

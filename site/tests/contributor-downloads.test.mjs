@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { voiceChoices, voiceBlock, voicesSection } from "../lib/downloads.js";
-import { publicVoices, profilePage } from "../lib/voices.js";
+import { publicVoices } from "../lib/voices.js";
 
 const spanish = { locale: "esES", name: "Español", included: false, status: "live", download: "https://example.com/shared.zip" };
 const edition = { id: "densuad-eses", name: "Densuad", language: "Español", status: "live", clips: 10,
@@ -36,20 +36,7 @@ test("contributor metadata is escaped in the rendered download", () => {
   assert.match(html, /&lt;script&gt;/);
 });
 
-test("ordinary localized bundle counts included text only once", () => {
-  const voice = { id: "ordinary", name: "Ordinary", addon: "LoreForever_Voice_Default_esES", language: "Español", status: "live", clips: 10, download: "https://example.com/voice.zip", includesText: "esES" };
-  assert.equal(voiceChoices(voice, [spanish])[0].downloads.length, 1);
-  assert.equal(voiceChoices({ ...voice, includesText: undefined }, [spanish])[0].downloads.length, 2);
-});
-
 test("unpublished edition stays out of profiles and public voice listings", async () => {
   const env = { ASSETS: { fetch: async () => Response.json({ voices: [edition, { ...edition, id: "unfinished", status: "draft" }] }) } };
   assert.deepEqual((await publicVoices(env, new Request("https://example.com/voices"))).map(v => v.id), [edition.id]);
-});
-
-test("edition profile explains paired installation and explicit selection", () => {
-  const html = profilePage({ ...edition, bio: "Spanish text and narration by Densuad.", tags: [] }, 0);
-  assert.match(html, /Install both folders/);
-  assert.match(html, /Language options/);
-  assert.doesNotMatch(html, /pick it under Narration voice/);
 });

@@ -54,7 +54,7 @@
     "does the samophlange break",
     "what does sputtervalve do with it"
    ],
-   "answer": "Unable to contain his excitement, Sputtervalve places the device on the ground to inspect it before packaging it for transit. Almost immediately upon touching the ground, the brittle mechanism breaks into pieces."
+   "answer": "Sputtervalve intends to send the samophlange to the Tinkers' Union in Undermine, though he is curious to inspect it himself first."
   },
   {
    "q": "Who built the control console housing the device?",
@@ -70,7 +70,7 @@
     "next quest after samophlange",
     "what to do next"
    ],
-   "answer": "With the samophlange reduced to broken parts, Sputtervalve looks for outside expertise to make sense of the catastrophe, sending you down the road to consult his associate, the engineer Wenikee Boltbucket."
+   "answer": "The investigation continues with Sputtervalve's associate Wenikee Boltbucket, another engineer in the Barrens."
   },
   {
    "q": "Where is Sputtervalve located?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The samophlange is an enduring running joke among tinkerers: a machine packed with redundant pipes and wires designed to look functional while being fragile enough to shatter upon ordinary handling."
+   "text": "The samophlange confronts tinkerers with a Venture Company machine whose dense wiring, tubing, and unfamiliar parts invite careful study."
   },
   {
    "target": "faction:Horde",

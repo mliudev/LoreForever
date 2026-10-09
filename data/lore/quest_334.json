@@ -27,7 +27,7 @@
   {
    "title": "A Reluctant Apprentice",
    "body": "Larson Clothiers sits nestled deep within the Mage Quarter, not far from the soaring spires of the Mage Tower. Upon receiving his tools, Thurman reveals that leaving his shears behind was entirely deliberate\u2014a scheme to escape his daily chores and spend the day having fun. With his mother's intervention, however, his afternoon of freedom evaporates, and he is forced back to his stitching.",
-   "spoiler": 0
+   "spoiler": 1
   }
  ],
  "faq": [
@@ -56,7 +56,7 @@
     "why did thurman leave tools",
     "thurman slacking"
    ],
-   "answer": "No. Thurman deliberately left his needles and shears behind at home, hoping the missing tools would excuse him from his tailoring chores so he could shirk his apprentice duties for the day."
+   "answer": "Rema believes Thurman hurried out without his kit and asks you to bring it to him."
   },
   {
    "q": "What shop does Thurman apprentice for?",
@@ -82,7 +82,7 @@
     "after package for thurman",
     "thurman reaction"
    ],
-   "answer": "Thurman begrudgingly accepts the kit with a groan, admitting his plan to skip work was ruined and that he must now get back to sewing for the Larsons."
+   "answer": "Bring the sewing kit to Thurman at Larson Clothiers in Stormwind."
   }
  ],
  "angles": [

@@ -2,13 +2,13 @@
 ## Title: Lore Forever - Español (España)
 ## Notes: Paquete de idioma en español de España para Lore Forever: interfaz, textos de lore y los nombres del cliente español del juego.
 ## Author: Mike
-## Version: 0.12.0
+## Version: 0.13.0
 ## Dependencies: LoreForever
 ## LoadOnDemand: 1
 ## X-LoreForever-Pack: lang
 ## X-LoreForever-Locale: esES
 ## X-LoreForever-Format: 1
-## X-LoreForever-DataVersion: 2026-10-08 08:39 UTC
+## X-LoreForever-DataVersion: 2026-10-09 09:12 UTC
 ## X-LoreForever-LanguageName: Español (España)
 
 # The files load through Lang.xml, which lists them.

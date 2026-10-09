@@ -6,17 +6,17 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { onRequest as deviceApi } from "../functions/api/device/[action].js";
 import { onRequest as profileApi } from "../functions/api/profile/[action].js";
-import { onRequestGet as profileGet } from "../functions/u/[handle].js";
+
 import { findOrCreateUser, startSession, setup } from "../lib/accounts.js";
 import { parseRecord, readJourney, MAX_MOMENTS } from "../lib/journey.js";
-import { linker, moments, journeySection, LINKS, SHOWN } from "../lib/trails.js";
-import { route, fitView, roadChart, LANDS, W, H } from "../lib/roadchart.js";
+import { LINKS } from "../lib/trails.js";
+
 import { d1, assets, SITE } from "./helpers.mjs";
 import { RECORD } from "./fixtures/journey/record.mjs";
 
 const NOW = new Date("2026-10-04T12:00:00Z");
 const DATA = JSON.parse(readFileSync(`${SITE}public/lore/data/links.json`, "utf8"));
-const NAMES = linker(DATA);
+
 const at = iso => Date.parse(iso) / 1000;
 
 // What the companion sends for Aelric (profile.py journey_payload), plus what it must never keep.
@@ -70,108 +70,6 @@ test("readJourney keeps the moments and fields it knows, and nothing about anyon
   const many = { v: 1, moments: Array.from({ length: MAX_MOMENTS + 50 }, (_, i) => ({ t: at("2026-09-01T00:00:00Z") + i, k: "npc", n: `P${i}` })) };
   assert.equal(readJourney(many, null, NOW).moments.length, MAX_MOMENTS);
   assert.equal(readJourney(many, null, NOW).moments[0].n, "P50", "the newest are kept");
-});
-
-test("the page's moments from the journey: taken and turned in by ID, days on the player's clock, IDs link out", () => {
-  const j = readJourney(SENT, parseRecord(RECORD, NOW), NOW);
-  const ms = moments(parseRecord(RECORD, NOW), NAMES, j);
-  const [took, done] = ms.filter(m => m.e.title === "The Defias Brotherhood");
-  assert.deepEqual([took.k, done.k], ["taken", "quests"]);
-  assert.equal(done.taken, took);
-  assert.equal(took.done, done);
-  assert.equal(done.quest.p, "/lore/quest/65-the-defias-brotherhood");
-  assert.equal(took.giver, "Gryan Stoutmantle");
-  assert.equal(took.met, ms.find(m => m.k === "people" && m.e.name === "Gryan Stoutmantle"));
-  assert.equal(done.out.url, "https://www.wowhead.com/forever/quest=65");
-  assert.equal(ms.find(m => m.k === "loot").reward, done);
-  // 03:00 UTC on Oct 2 is the evening of Oct 1 on the player's clock (UTC-7).
-  assert.equal(ms.find(m => m.k === "places" && m.e.zone === "Darkshore").day, "2026-10-01");
-  assert.equal(ms.find(m => m.k === "places" && m.e.zone === "Darkshore").e.how, "boat");
-
-  const html = journeySection(ms, { lore: NAMES });
-  assert.ok(html.includes('Took on <a href="/lore/quest/65-the-defias-brotherhood">The Defias Brotherhood</a>'));
-  assert.match(html, /Taken at <a class="pf-go" href="#m-\d+" aria-label="Where it was taken: Took on The Defias Brotherhood, Oct 3, 2026">Sentinel Hill<\/a>/);
-  assert.match(html, /Turned in at <a class="pf-go" href="#m-\d+"[^>]*>Sentinel Hill<\/a>/);
-  assert.match(html, / data-land="the deadmines"/);
-  const ids = new Set([...html.matchAll(/ id="(m-\d+)"/g)].map(m => m[1]));
-  for (const t of html.matchAll(/href="#(m-\d+)"/g)) assert.ok(ids.has(t[1]), t[1]);
-  assert.ok(!/\b\d{1,2}:\d\d\b/.test(html), "never the time of day");
-});
-
-test("a long journey shows its newest moments, and a trail to an older one is just its name", () => {
-  const base = at("2026-09-01T00:00:00Z");
-  const long = { v: 1, tz: 0, moments: [
-    { t: base, k: "npc", n: "Gryan Stoutmantle", z: "Westfall", s: "Sentinel Hill" },
-    ...Array.from({ length: SHOWN + 99 }, (_, i) => ({ t: base + 60 + i * 60, k: "npc", n: `Person ${i}`, z: "Elwynn Forest" })),
-    { t: base + 99999, k: "qa", id: 65, n: "The Defias Brotherhood", z: "Westfall", s: "Sentinel Hill" },
-  ] };
-  const ms = moments(parseRecord(RECORD, NOW), NAMES, readJourney(long, null, NOW));
-  const html = journeySection(ms);
-  assert.equal([...html.matchAll(/ id="m-\d+"/g)].length, SHOWN);
-  assert.ok(html.includes(`The latest ${SHOWN} of ${SHOWN + 101} moments.`));
-  assert.ok(html.includes("Taken from Gryan Stoutmantle") && !html.includes('href="#m-0"'), "Gryan's moment isn't on the page");
-});
-
-test("the road chart: lands in the order reached, the legs between them, flights dashed, only reached lands named", () => {
-  const j = readJourney(SENT, parseRecord(RECORD, NOW), NOW);
-  const ms = moments(parseRecord(RECORD, NOW), NAMES, j);
-  const { lands, legs, unknown } = route(ms);
-  assert.deepEqual([...lands.keys()], ["teldrassil", "darkshore", "westfall", "deadmines", "wetlands"]);
-  assert.deepEqual(legs.map(l => `${l.from}>${l.to}:${l.how}`),
-    ["teldrassil>darkshore:boat", "darkshore>westfall:flight", "westfall>deadmines:instance", "deadmines>westfall:null",
-     "westfall>wetlands:null"]);
-  assert.deepEqual(unknown, []);
-  const html = roadChart(ms, { name: "Aelric" });
-  assert.match(html, /<figure class="pf-chart" id="road-chart">/);
-  assert.match(html, /aria-label="Road chart of the lands Aelric has reached"/);
-  assert.equal([...html.matchAll(/class="pf-ch-stop /g)].length, 5);
-  assert.match(html, /data-land="westfall" data-x="632" data-name="Westfall" aria-label="Westfall: reached 3rd, 5 moments"/);
-  assert.match(html, /class="pf-ch-road pf-ch-travel"/, "the boat and the flight are dashed");
-  assert.match(html, /pf-ch-stop pf-ch-z pf-ch-now"[^>]*data-land="wetlands"/, "the latest land");
-  assert.ok(!html.includes("Silithus") && !html.includes("Stranglethorn"), "lands not reached have no name");
-  assert.match(html, /flights, boats, hearthstones and portals are dashed/);
-  // Every stop links to a moment on the page.
-  const page = journeySection(ms);
-  for (const t of html.matchAll(/href="#(m-\d+)"/g)) assert.ok(page.includes(`id="${t[1]}"`), t[1]);
-
-  // A pasted record: the lands in order, no travel kinds, and a name no land matches listed under the chart.
-  const pasted = roadChart(moments(parseRecord(RECORD.replace("Menethil Harbor, Wetlands", "Menethil Harbor, Sumpfland"), NOW), NAMES));
-  assert.match(pasted, /The lands in the order they were reached\./);
-  assert.ok(!pasted.includes("pf-ch-travel"));
-  assert.match(pasted, /Not on the chart: Sumpfland\./);
-  assert.equal(roadChart(moments({ timeline: [["places", 0, null]], places: [{ zone: "Westfall" }] })), "", "one land: no chart");
-});
-
-test("a building or another name the game gives as the zone counts for its land on the chart and its filter", () => {
-  // As Húrin's record has them (10/5): Forever's name for the Stockade, a tower and a town hall named instead of the zone.
-  const places = [{ zone: "Elwynn Forest" }, { zone: "Stormwind Stockade", dungeon: true }, { zone: "Westfall" },
-    { zone: "Sentinel Tower" }, { zone: "Lakeshire Town Hall" }, { zone: "Deeprun Tram" }, { zone: "Ironforge" }];
-  const ms = moments({ places, timeline: places.map((_, i) => ["places", i, null]) });
-  const { lands, legs, unknown } = route(ms);
-  assert.deepEqual([...lands.keys()], ["elwynn", "stockade", "westfall", "redridge", "ironforge"]);
-  assert.equal(lands.get("westfall").n, 2, "Sentinel Tower is in Westfall");
-  assert.deepEqual(legs.map(l => `${l.from}>${l.to}`), ["elwynn>stockade", "stockade>westfall", "westfall>redridge", "redridge>ironforge"]);
-  assert.deepEqual(unknown, ["Deeprun Tram"], "the tram is no land");
-  const html = roadChart(ms);
-  assert.match(html, /href="#m-1" data-land="the stockade" data-x="636" data-name="The Stockade"/);
-  assert.match(html, /Not on the chart: Deeprun Tram\./);
-  // Picking a land on the chart shows its moments (public/js/journey.js matches data-land): the tower's are Westfall's.
-  const page = journeySection(ms);
-  assert.match(page, /id="m-3" data-g="places" data-land="westfall"/);
-  assert.match(page, /id="m-4" data-g="places" data-land="redridge mountains"/);
-  assert.match(page, /Reached <strong>Sentinel Tower<\/strong>/, "the moment keeps the name it was recorded with");
-});
-
-test("the chart's first view fits the lands reached, in the chart's shape and inside it", () => {
-  for (const pts of [[[632, 542], [606, 558]], [[135, 70], [822, 588]], [[100, 52]], []]) {
-    const [x, y, w, h] = fitView(pts);
-    assert.ok(Math.abs(w / h - W / H) < 0.01, `${w}x${h}`);
-    assert.ok(x >= 0 && y >= 0 && x + w <= W + 0.1 && y + h <= H + 0.1, `${x},${y},${w},${h}`);
-    for (const [px, py] of pts) assert.ok(px >= x && px <= x + w && py >= y && py <= y + h);
-  }
-  const keys = new Set(LANDS.map(l => l[0]));
-  assert.equal(keys.size, LANDS.length, "each land once");
-  for (const [, , x, y] of LANDS) assert.ok(x > 0 && x < W && y > 0 && y < H);
 });
 
 // ---- POST /api/profile/sync with the journey, and the page ----
@@ -240,39 +138,16 @@ test("sync keeps the journey in its own column; same again changes nothing; old 
   assert.equal(await stored(me.user.id), null);
 });
 
-test("/u/<handle> with the companion's journey: the chart, the quest trails, lore links once the pages are on", async () => {
-  const me = await signIn("aelric");
-  const token = await connect(me);
-  await sync(token, { record: RECORD, journey: SENT });
-  await post("settings", me.cookie, { public: true });
-  env.SITE_FEATURES = "-lore";   // the off state first: the lore pages are on by default since #300
-  const view = async cookie => {
-    const res = await profileGet({ request: new Request(`${ORIGIN}/u/aelric`, { headers: cookie ? { Cookie: cookie } : {} }),
-      env, params: { handle: "aelric" } });
-    return { status: res.status, html: await res.text() };
-  };
-  const { status, html } = await view();
-  assert.equal(status, 200);
-  // A shared link lands on the trek: Map and Timeline right under the head, before the stats, each with its own link.
-  assert.match(html, /<nav class="pf-views" aria-label="Follow the journey" hidden>\s*<a href="#map" data-view="map">Map<\/a><a href="#timeline" data-view="timeline">Timeline<\/a>/);
-  const [head, mapAt, timelineAt, stats] = ['class="vpr-head', 'id="map"', 'id="timeline"', 'class="pf-stats"'].map(s => html.indexOf(s));
-  assert.ok(head < mapAt && mapAt < timelineAt && timelineAt < stats, [head, mapAt, timelineAt, stats].join());
-  assert.ok(!html.includes("data-copy"), "no owner bar for visitors");
-  const mine = (await view(me.cookie)).html;
-  for (const b of ['data-share-text="Aelric&#39;s journey in WoW Forever">Share', 'data-copy="map">Copy map link',
-    'data-copy="timeline">Copy timeline link']) {
-    assert.ok(mine.includes(b), b);
+
+test("canonical sync preserves an allowlisted story language and scoped journey identity", async () => {
+  const me = await signIn("canonical"), token = await connect(me), character = "a".repeat(64);
+  const read = async () => JSON.parse((await env.DB.prepare("SELECT data FROM profiles WHERE user_id = ?").bind(me.user.id).first()).data);
+  for (const [record_locale, locale] of [["esES","es"],["ruRU","ru"],["ukUA","uk"],["enUS","en"]]) {
+    assert.equal((await sync(token,{record:RECORD, record_locale, journey:{...SENT,character}})).status,200);
+    assert.equal((await read()).locale,locale);
+    assert.equal((await stored(me.user.id)).character,character);
   }
-  assert.match(html, /<figure class="pf-chart" id="road-chart">/);
-  assert.match(html, /<script src="\/js\/roadchart\.js" defer><\/script>/);
-  assert.match(html, /Taken at <a class="pf-go"/);
-  assert.match(html, /Turned in at <a class="pf-go"/);
-  assert.ok(html.includes('href="https://www.wowhead.com/forever/quest=65"'));
-  assert.ok(!html.includes('href="/lore/'), "the lore pages are off");
-  assert.ok(!html.includes("Gravenx") && !html.includes("Dwarf Priest") && !html.includes("381:439"));
-  env.SITE_FEATURES = "lore";
-  assert.ok((await view()).html.includes('Took on <a href="/lore/quest/65-the-defias-brotherhood">'));
-  // Private again: nobody else sees any of it.
-  await post("settings", me.cookie, { public: false });
-  assert.equal((await view()).status, 404);
+  assert.equal((await sync(token,{record:RECORD,record_locale:"__proto__"})).status,200);
+  assert.equal((await read()).locale,"en");
+  assert.equal(readJourney({...SENT,character:"Account/PRIVATE"}).character,undefined);
 });

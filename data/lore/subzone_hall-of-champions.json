@@ -7,10 +7,10 @@
  "meta": {
   "wiki": "Hall of Champions"
  },
- "summary": "The Hall of Champions is an honored gallery nestled deep within the training grounds of the Scarlet Monastery. Lined with statues of fallen heroes, it serves as a solemn memorial to legendary crusaders and a proving ground for the Scarlet Crusade's elite.",
+ "summary": "The Hall of Champions is an honored gallery nestled deep within the training grounds of the Scarlet Monastery. Lined with statues of honored heroes, it serves as a solemn memorial to legendary crusaders and a proving ground for the Scarlet Crusade's elite.",
  "sections": [
   {
-   "title": "A Memorial to the Fallen",
+   "title": "Memorials to Scarlet Champions",
    "body": "Situated past the Footman's Armory, the Hall of Champions stands as a testament to the storied figures who shaped the Scarlet Crusade's holy war. Stone memorials line the walls, depicting honored heroes such as Admiral Barean Westwind, Harthal Truesight, and Holia Sunshield. Here, amidst the frozen gazes of their greatest warriors, Scarlet trainees draw inspiration, hardening their resolve to purge Lordaeron of all undead and outsiders.",
    "spoiler": 0
   }
@@ -32,7 +32,7 @@
     "statue names hall of champions",
     "monastery statues"
    ],
-   "answer": "The statues depict fallen and venerated veterans of the Crusade, including High Elf and human commanders such as Arellas Fireleaf, Fellari Swiftarrow, Holia Sunshield, Ferren Marcus, Orman of Stromgarde, and Dorgar Stoenbrow."
+   "answer": "The statues depict honored veterans of the Crusade, including high elven, human, and dwarven figures such as Arellas Fireleaf, Fellari Swiftarrow, Holia Sunshield, Ferren Marcus, Orman of Stromgarde, and Dorgar Stoenbrow."
   },
   {
    "q": "How does this hall differ from Stormwind's Champions' Hall?",
@@ -41,7 +41,7 @@
     "hall of champions vs champions hall",
     "pvp hall confusion"
    ],
-   "answer": "Despite the similar name, this chamber is located deep inside the Scarlet Monastery in Tirisfal Glades, dedicated strictly to Scarlet martyrs. Stormwind City's Champions' Hall is a military garrison reserved for Alliance officers and PvP quartermasters."
+   "answer": "Despite the similar name, this chamber is located deep inside the Scarlet Monastery in Tirisfal Glades, dedicated to honored Scarlet figures. Stormwind City's Champions' Hall is a military garrison reserved for Alliance officers and PvP quartermasters."
   }
  ],
  "angles": [

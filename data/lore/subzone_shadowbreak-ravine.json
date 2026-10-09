@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Shadowbreak Ravine"
  },
- "summary": "Shadowbreak Ravine is a secluded mountain hollow tucked away in southeastern Desolace. Cloaked among jagged crags near Shok'Thokar, this eerie ravine serves as a hidden redoubt for the demonic forces and mortal zealots of the Burning Blade.",
+ "summary": "Shadowbreak Ravine is a secluded mountain hollow tucked away in southeastern Desolace. Cloaked among jagged crags near Magram Village, this eerie ravine serves as a hidden redoubt for the demonic forces and mortal zealots of the Burning Blade.",
  "sections": [
   {
    "title": "A Hidden Enclave of Fel",
-   "body": "Tucked deep into the barren mountain ridges southeast of Shok'Thokar, Shadowbreak Ravine provides the Burning Blade with a secluded staging ground away from the eyes of wandering centaur tribes. Amid strange, oversized mushrooms and grim ritual encampments, cultists labor alongside summoned demons. Here, dark practitioners invoke fel energies and tend heavy ritual chains, using the natural isolation of the ravine to marshal reinforcements and maintain a firm demonic foothold within the badlands of Desolace.",
+   "body": "Tucked deep into the barren mountain ridges southeast of Magram Village, Shadowbreak Ravine provides the Burning Blade with a secluded staging ground away from the eyes of wandering centaur tribes. Amid strange, oversized mushrooms and grim ritual encampments, cultists labor alongside summoned demons. Here, dark practitioners invoke fel energies and tend heavy ritual chains, using the natural isolation of the ravine to marshal reinforcements and maintain a firm demonic foothold within the badlands of Desolace.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this place",
     "where is shadowbreak ravine"
    ],
-   "answer": "Shadowbreak Ravine is a hidden mountain ravine situated in southeastern Desolace, just beyond Shok'Thokar. It serves as a concealed camp and staging ground for demonic minions and cultists serving the Burning Blade."
+   "answer": "Shadowbreak Ravine is a hidden mountain ravine situated in southeastern Desolace, just beyond Magram Village. It serves as a concealed camp and staging ground for demonic minions and cultists serving the Burning Blade."
   },
   {
    "q": "Who occupies the ravine?",
@@ -56,7 +56,7 @@
   "desolace",
   "fel",
   "shadowbreak ravine",
-  "shok'thokar"
+  "magram village"
  ],
  "related": [
   "zone:desolace",

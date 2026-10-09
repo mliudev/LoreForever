@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Ambermill"
  },
- "summary": "Ambermill is a fortified human settlement in central Silverpine Forest, situated just southwest of Lordamere Lake. Originally a Gilnean lumber village, it is now occupied by surviving wizards and apprentices of Dalaran who are tapping into ancient ley lines. Their presence represents a dangerous outpost of human resistance on the southern borders of the Forsaken realm.",
+ "summary": "Ambermill is a fortified human settlement in central Silverpine Forest, situated just southwest of Lordamere Lake. Originally a Gilnean lumber village, it is now occupied by surviving wizards and apprentices of Dalaran. Their presence represents a dangerous outpost of human resistance on the southern borders of the Forsaken realm.",
  "sections": [
   {
    "title": "A Bastion of Dalaran",
@@ -28,7 +28,7 @@
     "who controls ambermill",
     "kirin tor silverpine"
    ],
-   "answer": "Following the devastation of Dalaran during the Third War, surviving Kirin Tor forces moved into Ambermill to establish an outpost of living human resistance. More importantly, the village sits directly atop a dormant ley line energy node that the wizards are working to reactivate."
+   "answer": "Following the devastation of Dalaran during the Third War, surviving Kirin Tor forces moved into Ambermill to establish an outpost of living human resistance. Forsaken agents are investigating their activities."
   },
   {
    "q": "Was Ambermill always part of Dalaran?",
@@ -45,7 +45,7 @@
     "forsaken ambermill",
     "why kill ambermill wizards"
    ],
-   "answer": "Ambermill serves as an active hostile base near the heart of Silverpine Forest. The Forsaken fear that if the Kirin Tor succeeds in drawing power from the local ley lines, the humans will establish a staging ground powerful enough to break undead control over the southern roads."
+   "answer": "Ambermill is a fortified center of human opposition in Silverpine Forest. The Forsaken regard its Dalaran-supported forces and secret arcane work as a threat to their hold on the region."
   },
   {
    "q": "What are the Deathstalkers searching for in Ambermill?",
@@ -63,7 +63,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "The settlement demonstrates the Kirin Tor's desperate efforts to rebuild their magical influence after the Scourge sacked Dalaran, focusing their surviving mages on raw ley line manipulation."
+   "text": "The settlement demonstrates the Kirin Tor's efforts to restore their influence after the Scourge and Burning Legion devastated Dalaran."
   }
  ],
  "keywords": [

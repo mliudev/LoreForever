@@ -31,7 +31,7 @@ will be (`-lore` turns it off). Don't use it as the switch for production: a var
 git. The Lore link is in the header's markup (`SITE_NAV` in `lib/voices.js` and every static page's copy) while the
 feature is on, so it's there from the first paint and without JavaScript; `header.js` hides it when
 `GET /api/auth/me` says the feature is off (and remembers that for the next page, `lf-features`). Turning the feature
-off in `lib/features.js` means taking the link out of `SITE_NAV` and the copies too (`site/tests/nav.test.mjs` says so).
+off in `lib/features.js` means taking the link out of `SITE_NAV` and the copies too.
 
 ## Addresses (the slug scheme)
 

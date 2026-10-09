@@ -38,7 +38,7 @@
     "what does shanda teach",
     "what does shanda do"
    ],
-   "answer": "She introduces novice priests to basic prayers, curative spells, and protective magic gifted by Elune. She also offers early quests to equip young acolytes with their initial robes and holy sigils."
+   "answer": "She introduces novice priests to basic prayers, curative spells, and protective magic gifted by Elune. New priests bring their Hallowed Sigil to her, and she sends them to the next stage of their training through In Favor of Elune."
   },
   {
    "q": "Where can I find Shanda?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "For night elf priests starting their journey in Shadowglen, Shanda is the very first mentor to bestow sacred words, holy sigils, and guidance in Elune's grace."
+   "text": "For night elf priests starting their journey in Shadowglen, Shanda is the very first mentor to offer sacred words and guidance in Elune's grace."
   },
   {
    "target": "race:NightElf",

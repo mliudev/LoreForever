@@ -201,8 +201,8 @@ can post the same report (the narration browser's report button does). API, fiel
 Every page has the same header: the brand, **Download** (`/downloads`), **Lore** (`/lore`, while the `lore` feature is
 on), **What's new** (`/whats-new`) and **Community** (`/feedback` without JavaScript), and on the right **Make your
 profile** (`/account#profile`; **Your profile**, `/u/me`, once signed in) next to **Sign in** or the account chip. The
-markup is `SITE_NAV` in `lib/voices.js`; each static page in `public/` carries a copy and `site/tests/nav.test.mjs`
-fails if one differs, so change them together. Deeper pages add a breadcrumb row under it (`.subcrumb`).
+markup is `SITE_NAV` in `lib/voices.js`; each static page in `public/` carries a copy, so change them together.
+Deeper pages add a breadcrumb row under it (`.subcrumb`).
 `public/header.js` marks the link for the section you're on, turns Community into its menu (Discord, Send feedback,
 Request a feature, Report a bug, then Record your voice, Translate and Contributors), switches the profile link and adds
 the chip from `GET /api/auth/me`. It fits every width from 320 px: up to 840 px it's two rows (the brand, the profile
@@ -210,7 +210,7 @@ link and the account, then the four links), the short labels (Profile) go up to 
 shortens in the chip rather than push the header wider.
 
 **Site features in the header:** the same answer says which features are on (`lib/features.js`). The Lore link is in
-the markup while `lore` is on (`nav.test.mjs` keeps the two in step) and hidden while the answer says it's off;
+the markup while `lore` is on and hidden while the answer says it's off;
 **Share Forever text** joins the Community menu while `contribute` is on. `header.js` keeps the last answer's flags in
 localStorage (`lf-features`) and shows them at once on the next page (the nav's inline script hides a Lore link that
 was off before anything is drawn), so a returning visitor's header is complete from the start.
@@ -223,15 +223,13 @@ its place until the answer: the nav's inline script sets `hd-wait` on `<html>` a
 until `header.js` takes it off (shown anyway after 3 s; without JavaScript there's no `hd-wait`). `/u/<handle>` knows
 who's signed in and puts it in the page (`siteNav` in `lib/voices.js`, so the page is `private, no-store` for them);
 `/account` and `/link` tell the header when you sign in or out there (an `lf-auth` event).
-`site/tests/header.test.mjs` runs `header.js` on a small DOM double.
 
 **What's new** is `public/whats-new.html`: every version's notes, newest first, its headline changes as cards (the
 first three with a bold lead-in). The home page's **"New in X.Y" strip** (`#newbar`, under the header) links to it,
 and the What's new link gets a green dot while there's a version the visitor hasn't seen. "Seen" is `lf-seen` in
 localStorage, set by opening What's new, following the strip or closing it; a first visit gets no dot, and the strip
 stays until it's closed. **All three come from `CHANGELOG.md`**: `scripts/changelog.py site` writes the page, the strip
-and `LATEST` in `header.js` along with the Changelog tab, and `scripts/release.sh` runs it at the stamp
-(`pipeline/tests/test_changelog_site.py` checks the copies are current).
+and `LATEST` in `header.js` along with the Changelog tab, and `scripts/release.sh` runs it at the stamp.
 
 ## Downloads, voice list and likes
 
@@ -333,7 +331,7 @@ to `/account#profile` when there's none yet).
   plus Make it public. `/account`'s link to the profile has the same Share button.
 - **The share card (LOR-150, `lib/sharecard.js`):** the picture a link to a public profile shows (`og:image`), 1200x630:
   the name, race and class, four tiles (quests done, places, bosses, deaths), the story's first sentence and the
-  address, with Harold (LOR-266) while the `companion` feature is on. The site draws no images itself: the owner's own
+  address, with Sam (LOR-266) while the `companion` feature is on. The site draws no images itself: the owner's own
   page draws it in a canvas (`public/js/card.js`) whenever the profile changed since its card, and sends it to
   `POST /api/profile/card`. It's kept in R2 with the picture book (`pictures/<user id>/share-card.jpg`, so deleting
   the profile or the account takes it along) and served at `/share/<handle>-<sha>.jpg`. Before a profile has one,
@@ -415,8 +413,7 @@ to `/account#profile` when there's none yet).
     traced from any map), with a fixed-seed wiggle between them and a smooth curve through it all, inline in the chart
     behind the roads. The world before the Dark Portal reopens: Teldrassil and a few isles (Echo, Theramore, Sardor), Lordamere
     Lake, Gilneas behind its wall, no Quel'Thalas and nothing later; Zephras Isle floats in Skywall, dashed. Moving a
-    land in `LANDS` may need its coast moved too: `site/tests/coasts.test.mjs` checks every land is on its own
-    continent, at least 15 units inside the coast.
+    land in `LANDS` may need its coast moved too; check its placement in the rendered chart.
   - Profiles saved before this have no `timeline`: they show as before, and their owner gets a line asking to update
     (the companion's next sync or a paste brings it).
 - **The story:** with the Pages secret **`GEMINI_API_KEY`** (Production and Preview; optional; use a paid-tier key,
@@ -427,13 +424,15 @@ to `/account#profile` when there's none yet).
   story (`offCanon`) keeps the previous one, or falls back to a summary built from the record (`templateStory`),
   which is also what every profile gets without the key. Each failure's reason goes to the Functions log
   ("profile story: ..."). Players only ever see "story".
-- **What paid calls may cost:** at most **$100 a calendar month** (UTC) for profile stories, their voices, and
-  companion live answers together (`STORY_BUDGET_USD` variable to change it). After each story call its cost is
+- **What paid calls may cost:** a shared **$100 estimated-spend limit per calendar month** (UTC) for profile
+  stories, their voices, and companion live answers (`STORY_BUDGET_USD` variable to change it). The atomic gate
+  admits calls only while measured spend plus reservations fits the limit. Native search has no documented hard
+  query cap, so this is an admission stop, not a guaranteed provider invoice ceiling. After each story call its cost is
   added to D1 `story_spend` from the reply's `usageMetadata`
   at Google's published paid-tier rates (`STORY_PRICES`: $0.25 per million input tokens, $1.50 per million output
   tokens including thinking, checked 2026-10-03), and at the budget no more calls are made until the next month.
-  A story costs about $0.0006 and takes 2-4 seconds (measured 2026-10-03). Live answers reserve their maximum
-  possible cost before calling Gemini and reconcile to the measured cost afterward (`answer_spend`).
+  A story costs about $0.0006 and takes 2-4 seconds (measured 2026-10-03). Live answers reserve a conservative
+  estimate before calling Gemini and reconcile afterward (`answer_spend`), including any measured excess in full.
   Each account also gets 3 tries a day (`STORIES_PER_DAY`, counted in `rate_limits`
   before each try, so deleting the profile doesn't reset it). `story_count` keeps an account's total, so writing it
   again can be gated later.
@@ -455,7 +454,7 @@ to `/account#profile` when there's none yet).
     added to `story_spend.voice_micro_usd` and inside the stories' $100 monthly budget. The owner's page says the story
     is on its way while it's recorded (`GET /api/profile/voice?handle=`); visitors see Listen once it's ready.
 - **Mike's view:** `/admin` shows "Profile stories this month" (spend against the budget, stories written, tries).
-  Contributors lists each account's profile (character, level, class, public or private, link) and links, with a
+  Contacts lists each account's profile (character, level, class, public or private, link) and links, with a
   "Players" filter and CSV columns. The account page promises email only about feedback and contributions, so
   reach players through their public links.
 - **Kept up to date by the companion (LOR-148):** the companion app can update the profile by itself after every
@@ -498,10 +497,28 @@ to `/account#profile` when there's none yet).
     that the companion keeps it up to date. Until the companion ships in Setup.exe (LOR-132), the invitation to
     connect it waits for the `companion` feature (below); connecting, updates and the list work either way.
 - **Companion live answers:** `POST /api/companion/answer` takes the same linked-device token as profile sync and a
-  capped lore/context prompt. The site uses its Gemini 3.1 Flash-Lite key, returns a short answer, and counts one
-  of 20 free answers per account per UTC day. A successful call's input and output tokens go into `answer_spend`;
-  its reserved cost and profile story/voice spend share the $100 monthly budget. The admin dashboard shows all
-  three costs. Players can add their own provider key in the companion when the free allowance is used up.
+  capped lore/context prompt and optional boolean `research_required`. Ordinary replies use
+  `gemini-3.1-flash-lite` without search, with minimal thinking and 512 output tokens. Required research uses
+  `gemini-3.8-flash` with native Google Search, low thinking and 2,048 output tokens. It discards answers without
+  usable provider citations and never falls back to remembered gameplay advice. Timeouts are 8 and 35 seconds,
+  with no automatic retry. Both count toward 20 free answers per account per UTC day. Native search suggestions
+  and filtered provider source links accompany researched answers.
+  The optional `operation: "compact"` uses Flash-Lite without search to summarize private conversation context.
+  It returns `summary` (at most 2,400 UTF-8 bytes), allows 1,024 output tokens and uses a separate daily limit of 20
+  updates. It does not consume a player's daily answer allowance. Both operations cap prompts at 16,000 UTF-8 bytes.
+  - **Accounting:** all three paths reserve their own bounded input/output estimate against the shared $100 monthly
+    budget before calling the provider. Ordinary replies and compaction use Flash-Lite's $0.25/$1.50 per million
+    input/output tokens. Research uses [Google's published pricing](https://ai.google.dev/gemini-api/docs/pricing),
+    checked 2026-10-09: Flash $0.75/$3.75 through 2026-12-31 and $1.50/$7.50 from 2027-01-01 UTC. Output includes
+    thinking; retrieval tokens are excluded. Research also reserves 32 queries at $0.014 each, using the higher
+    announced Flash rates in advance. The prompt asks for three queries; Google provides no hard query cap.
+    All reported unique nonempty queries count even beyond display/reservation limits, so this remains an
+    estimated-spend admission gate rather than a guaranteed invoice ceiling.
+  - **Uncertain charges:** missing or malformed query metadata keeps the research reservation; invalid token usage
+    keeps the operation's full reservation plus known research excess. Failed or rejected responses retain at least
+    their own estimate. `answer_spend.actual_micro` records known charges; `reserved_micro` includes unresolved
+    estimates and measured spend. Profile stories and voice share this gate; the admin dashboard shows all three.
+    Players can add their own provider key when the free allowance is used up.
 - **The picture book** (Mike, 2026-10-05; `lib/pictures.js`, behind the **`pictures` feature**, below): pictures a
   player takes in game with the picture key, which the companion app puts on the profile, newest first, under the
   Map and Timeline views, each with its place, day (the player's own, from the journey data's `tz`), level and the
@@ -536,9 +553,7 @@ to `/account#profile` when there's none yet).
   `tests/fixtures/journey/`), `site/tests/profiles.test.mjs` (the API and the page end to end),
   `site/tests/pictures.test.mjs` (the picture book: uploads, updates, the cap, Remove, reports, the images, the feature),
   `site/tests/devices.test.mjs` (connecting, tokens, Disconnect, updates and when they write a story),
-  `site/tests/trails.test.mjs` (the timeline, names to lore pages, the trails and the journey on the page),
-  `site/tests/journeydata.test.mjs` (the companion's journey data, its moments and trails, and the road chart) and
-  `site/tests/coasts.test.mjs` (the coasts behind the chart).
+  `site/tests/journeydata.test.mjs` (the companion's journey privacy and preservation across updates).
 
 ## Contributors and credit (LOR-239)
 
@@ -592,7 +607,6 @@ Forever's own content and shows counts, never global percentages. Phone first.
   browser, refreshed every five minutes while the tab is open. Without that API they stay hidden.
 - **Unreleased:** noindex (meta tag and `X-Robots-Tag`) until the `contribute` feature is on, like `/contribute`, which
   links to it (and to `/contributors`); nothing else links to it. Its breadcrumb and buttons lead back to `/contribute`.
-- Tests: `site/tests/progress.test.mjs` (fixture `site/tests/fixtures/coverage.json`).
 
 ## Unreleased features (the site flag)
 
@@ -736,11 +750,8 @@ own setup; the page only takes files. `public/voices/studio.html` + `studio.js` 
   pack end to end through the Function, plus the zip writer against Python's `zipfile`. `bulk-upload.test.mjs` covers
   the zip reader's limits, the preview's sorting and both uploads (a 55-file voice zip, an edited kit) round-tripping
   through the test packs. `node site/tests/smoke-bulk-upload.mjs <preview URL>` (with `LF_SESSION`) does the same
-  against a deployed site with 60 of the default voice's files and the site's own deDE kit;
-  `site/tests/smoke-bulk-upload-browser.js` is the same test for a signed-in browser (paste it into the console),
-  so no session cookie has to leave the browser.
-  `site/tests/smoke-test-pack.sh <preview URL>` (with `LF_SESSION` set to a signed-in cookie) uploads two lines to a
-  preview or `wrangler pages dev`, downloads the pack and checks it. `kits.test.mjs` covers the translator kits
+  against a deployed site with 60 of the default voice's files and the site's own deDE kit.
+  `kits.test.mjs` covers the translator kits
   (Translations, below): upload, the linked kit, `?v=`, the preview redirect, the fallbacks and pruning.
 - **Storage:** R2, bound as **`STUDIO`**: bucket `lore-forever-voices` for Production and `lore-forever-voices-preview`
   for Preview (like D1's `loreforever-preview`, so preview tests never touch real uploads; both created 2026-09-30),
@@ -967,15 +978,20 @@ scheme the add-on will link to, is in [LORE_PAGES.md](LORE_PAGES.md).
 
 ## Private dashboard
 
-https://loreforeverwow.com/admin shows sign-up emails, feedback reports, voice submissions and site downloads in one
-place: totals, email sign-ups and downloads per day for the last 30 days, the feedback list (mark reports done, delete
-spam), voice submissions (folder link, clips, contact, signature and release version; mark done, delete), and the
-email list (search, copy, CSV export, remove an address when someone asks to unsubscribe; people can also do it
-themselves at `/unsubscribe`).
+https://loreforeverwow.com/admin shows contacts, feedback reports, voice submissions and site downloads in one
+place: totals, new contacts and downloads per day for the last 30 days, the feedback list (mark reports done, delete
+spam), and voice submissions (folder link, clips, contact, signature and release version; mark done, delete).
+
+- **Contacts:** email subscribers and Google sign-in accounts share one card and one list, matched by trimmed,
+  case-insensitive email. Each address counts once; its first signup drives the chart and weekly total. Search,
+  filter by subscription or account role, copy addresses, export CSV, or remove a subscription while keeping the
+  account. Subscription status, source and date stay visible alongside account details. Test-only signups stay
+  visible but don't count or export. Release news goes only to subscribers; account-only addresses are for
+  feedback and contributions. People can also unsubscribe themselves at `/unsubscribe`.
 
 - **Profiles:** how many people signed up (accounts, i.e. Google sign-ins), how many made a player profile and how
   many made it public, new accounts today and in the last 7 and 30 days, and new accounts per day. `GET /api/admin`
-  counts them in SQL (`signups`), so they aren't capped like the Contributors list. Days are UTC, like the charts.
+  counts them in SQL (`signups`), so they aren't capped like the Contacts list. Days are UTC, like the charts.
 - **Clip reports:** reports on recordings per clip and voice (how many people, why, which names), the latest reports,
   and "Reject all from this uploader" / Restore for spam (see "Clip reports" above). Nothing to approve.
 - **Translation edits:** saved, pulled and rejected per language; the edits have their own page, **/admin/edits**
@@ -983,9 +999,6 @@ themselves at `/unsubscribe`).
   Restore rejected), and the edits 100 at a time, filtered by status, language, translator and search, with Reject /
   Restore per edit or for the selected ones. The filters stay in the address, so `/admin` links to a language
   (`?locale=deDE`) and a contributor's edit count to their edits (`?status=all&user=<id>`).
-- **Contributors:** every Google sign-in account (`users`) with its voices, translator languages, uploaded takes,
-  translation edits and feedback count; search, filter by role, copy addresses, CSV export. /account promises these
-  people are emailed only about their feedback and contributions, so they aren't a release-news list.
 
 - **Sign in** with the admin key: `ADMIN_KEY` in the Pages project if it's set, otherwise `FEEDBACK_KEY` (the same
   value as `FEEDBACK_KEY` in the pipeline repo's `.env`). "Remember on this device" keeps it in that browser; otherwise

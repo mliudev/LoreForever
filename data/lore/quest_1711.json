@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Blend of Crafts",
-   "body": "Night elven armorers traditionally favor methods honed over millennia, relying on harmony with nature, supple leathers, or delicately worked metals. However, the exchange between the night elves and the Eastern Kingdoms has prompted master smiths like Mathiel to experiment. By incorporating newly devised techniques from the Ironforge armorer Furen Longbeard, Mathiel manages to meld dwarven metallurgy with elven artistry.",
+   "body": "Night elven armorers traditionally favor methods honed over millennia, relying on harmony with nature, supple leathers, or delicately worked metals. However, the exchange between the night elves and the Eastern Kingdoms has prompted master smiths like Mathiel to experiment. By incorporating newly devised techniques from the dwarven armorer Furen Longbeard, Mathiel manages to meld dwarven metallurgy with elven artistry.",
    "spoiler": 0
   },
   {
@@ -84,7 +84,7 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "For Alliance warriors, this quest chain produces sturdy leggings forged through the combined metallurgical wisdom of both Darnassus and Ironforge."
+   "text": "For Alliance warriors, this quest chain produces sturdy leggings forged through the combined metallurgical wisdom of night elf and dwarven smiths."
   },
   {
    "target": "profession:Blacksmithing",

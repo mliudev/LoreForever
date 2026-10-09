@@ -2,7 +2,7 @@
 import { setup, fail, noStore } from "../../../lib/accounts.js";
 import { currentDevice } from "../../../lib/devices.js";
 import { perDay } from "../../../lib/ratelimit.js";
-import { allowance, reserveAnswer, writeAnswer, ANSWERS_PER_DAY, ANSWER_PROMPT_BYTES } from "../../../lib/companion-answers.js";
+import { allowance, reserveAnswer, writeAnswer, ANSWERS_PER_DAY, COMPACTIONS_PER_DAY, ANSWER_PROMPT_BYTES } from "../../../lib/companion-answers.js";
 
 const CLIENT = /^companion\/[\w.-]{1,24}$/;
 const MAX_BODY_BYTES = 64 * 1024; // JSON escaping can expand a valid 16 KB Unicode prompt.
@@ -25,20 +25,30 @@ export async function onRequest({ request, env }) {
   try { input = await request.text(); } catch { return fail(400, "Couldn't read that question."); }
   if (new TextEncoder().encode(input).length > MAX_BODY_BYTES)
     return fail(413, "That question has too much context. Try again after updating the companion.");
-  let prompt;
-  try { prompt = JSON.parse(input).prompt; } catch { return fail(400, "Couldn't read that question."); }
+  let prompt, operation, researchRequired;
+  try {
+    const body = JSON.parse(input);
+    prompt = body.prompt;
+    researchRequired = body.research_required === undefined ? false : body.research_required;
+    operation = body.operation ?? "answer";
+  } catch { return fail(400, "Couldn't read that question."); }
+  if (operation !== "answer" && operation !== "compact") return fail(400, "Unknown chat operation.");
   if (typeof prompt !== "string" || !prompt.trim() || new TextEncoder().encode(prompt).length > ANSWER_PROMPT_BYTES)
     return fail(400, "That question has too much context. Try a shorter question.");
+  if (typeof researchRequired !== "boolean") return fail(400, "Research preference must be true or false.");
   const now = new Date();
-  if (!(await perDay(env, app.user.id, "companion-answer", ANSWERS_PER_DAY, now))) {
+  const compact = operation === "compact";
+  // Compaction has its own abuse limit and uses the shared paid budget. It never spends a player's daily answer.
+  if (!(await perDay(env, app.user.id, compact ? "companion-compact" : "companion-answer", compact ? COMPACTIONS_PER_DAY : ANSWERS_PER_DAY, now))) {
     const left = await allowance(env, app.user.id, now);
-    return tooMany("You've used today's 20 free answers. Add your own key in Settings for more.",
+    return tooMany(compact ? "Chat memory is at its daily limit. Your messages are saved; try again tomorrow or add your own key."
+      : "You've used today's 20 free answers. Add your own key in Settings for more.",
       Math.ceil((Date.parse(left.resetsAt) - now.getTime()) / 1000), left);
   }
-  if (!(await reserveAnswer(env, now))) return tooMany("We're at capacity for free live answers right now. Try again next month, or use your own key.",
+  if (!(await reserveAnswer(env, now, researchRequired, operation))) return tooMany("We're at capacity for free live answers right now. Try again next month, or use your own key.",
     86400, await allowance(env, app.user.id, now));
   try {
-    const result = await writeAnswer(env, prompt, now);
+    const result = await writeAnswer(env, prompt, now, researchRequired, operation);
     return Response.json({ ok: true, ...result, allowance: await allowance(env, app.user.id, now) }, { headers: noStore });
   } catch (e) {
     console.warn(`companion answer: ${e?.message || e}`);

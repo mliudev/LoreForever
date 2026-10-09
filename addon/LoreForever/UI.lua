@@ -759,6 +759,9 @@ function UI.Create(engine)
   eb:SetHeight(24)
   eb:SetAutoFocus(false)
   eb:SetMaxLetters(240)
+  eb:SetScript("OnKeyDown", function(self, key) ns.Companion.CopyQuestion(self, key) end)
+  eb:SetScript("OnKeyUp", function(self, key) if key == "C" then ns.Companion.RestoreQuestion(self) end end)
+  eb:SetScript("OnMouseDown", function(self) ns.Companion.RestoreQuestion(self) end)
   eb:SetScript("OnEnterPressed", function(self)
     local c = UI.completion
     local pick = c and c:IsShown() and UI.completionSel and c.rows[UI.completionSel]
@@ -800,6 +803,7 @@ function UI.Create(engine)
   end)
   eb:SetScript("OnTabPressed", function() UI.MoveCompletion(1) end)
   eb:SetScript("OnEditFocusLost", function(self)
+    ns.Companion.RestoreQuestion(self)
     updateHint(self)
     C_Timer.After(0.2, UI.HideCompletion)
   end)
@@ -1128,7 +1132,7 @@ local function watchPlayback(estimate)
     if playing == false or (playing == nil and elapsed > estimate) or (not ns.Voice.transport and elapsed > limit) then
       local target = UI.activeTarget
       if target then UI.progress[target.key] = nil end
-      UI.activeTarget, UI.resumeTarget = nil, nil
+      UI.activeTarget, UI.resumeTarget, UI.stoppedTarget = nil, nil, nil
       UI.speaking, UI.playingId = false, nil
       UI.UpdateListen()
       UI.OnClipEnded()
@@ -1284,17 +1288,16 @@ function UI.RestorePlayback()
 end
 
 
--- Restore paragraph breaks only when these safe story bodies match the exact recorded words. A foreign,
--- outdated or different take keeps its own transcript; formatting must never substitute unrecorded content.
-local function recordedParagraphs(key, text)
+-- A recording of the current safe story can use the entry's headings, links and spoiler controls. Other
+-- recordings keep their own transcript; matching a key alone must never substitute different story text.
+local function recordedStoryMatches(key, text)
   local e = UI.engine.db.entries[key]
-  if not e then return text end
+  if not e then return false end
   local parts = { e.n .. ". " .. e.s }
   for _, sec in ipairs(e.sec or {}) do
     if (sec.sp or 0) == 0 then parts[#parts + 1] = sec.b end
   end
-  if ns.Voice.Plain(table.concat(parts, " ")) ~= ns.Voice.Plain(text) then return text end
-  return table.concat(parts, "\n\n")
+  return ns.Voice.Plain(table.concat(parts, " ")) == ns.Voice.Plain(text)
 end
 
 -- Every recording that really starts adds its matching words to the conversation, even with the panel closed.
@@ -1304,13 +1307,19 @@ function UI.ReadAlong(target, fromPlaylist)
   local history = fromPlaylist and UI.historyFrame and UI.historyFrame:IsShown()
   local journey = fromPlaylist and UI.journeyPage and UI.journeyPage:IsShown()
   local last = UI.msgs[#UI.msgs]
-  if not target.asked and last and last.target and last.target.key == target.key and last.target.text == target.text then return end
   local key, idx = target.key:match("^(.-)#faq(%d+)$")
   local canonical = ns.Voice.lastClip and ns.Voice.lastClip.id == target.key and ns.Voice.lastClip.text
-  if canonical and canonical ~= "" then
+  if canonical == "" then canonical = nil end
+  local story = canonical and recordedStoryMatches(target.key, canonical)
+  local shownText = story and UI.EntryTarget(target.key).text or canonical or target.text
+  if not target.asked and last and last.target and last.target.key == target.key
+      and last.target.text == shownText and (not story or last.entry == true) then return end
+  if story then
+    UI.ShowEntry(target.key, "listen", target.asked)
+  elseif canonical then
     if idx and not (ns.lang and ns.lang.edition) then UI.AddMessage("user", WHITE .. esc(target.label or "") .. "|r")
     elseif target.asked then UI.AddMessage("user", WHITE .. esc(target.asked) .. "|r") end
-    UI.AddMessage("lore", GOLD .. esc(target.label or "") .. "|r\n" .. WHITE .. esc(recordedParagraphs(target.key, canonical)) .. "|r", target)
+    UI.AddMessage("lore", GOLD .. esc(target.label or "") .. "|r\n" .. WHITE .. esc(canonical) .. "|r", target)
   elseif key and UI.engine.db.entries[key] then
     UI.ShowFaq(key, faqIndex(key, idx), "listen")
   elseif target.id == target.key and UI.engine.db.entries[target.key] then
@@ -1352,7 +1361,7 @@ local function startTarget(target, fromPlaylist, keepProgress)
   UI.speaking, UI.playingId, UI.playingLabel = true, target.id, target.label
   UI.playingKey, UI.playingStory = target.key, target.story
   target.fromPlaylist = fromPlaylist == true
-  UI.activeTarget = target
+  UI.activeTarget, UI.stoppedTarget = target, nil
   if ns.Voice.transport then UI.resumeTarget = target
   else UI.progress[target.key], UI.resumeTarget = nil, nil end
   local clip = ns.Voice.lastClip   -- a recording started: name it in its report box (ClipReport.lua)
@@ -1411,14 +1420,60 @@ function UI.ListenTo(target)
   UI.UpdateListen()
 end
 
--- Stop any narration, whatever started it. A playlist pauses at the item it was on.
+-- Stop any narration, whatever started it. A playlist pauses at the item it was on. A whole recording played by hand
+-- (no saved position) is remembered so Shift-click can play it again (UI.ResumeStopped).
 function UI.StopAll()
   UI.RememberProgress()
+  local t = UI.activeTarget
+  if UI.speaking and t and not t.fromPlaylist and not ns.Voice.transport then UI.stoppedTarget = t end
   ns.Voice.Stop()
-  UI.playToken = nil
+  UI.playToken, UI.pl.token = nil, nil
   UI.speaking, UI.playingId = false, nil
   if UI.pl.state ~= "paused" then UI.pl.state = "paused" end
   UI.UpdateListen()
+end
+
+-- Pick up what was stopped, before anything new (Shift-click, the play/pause key and the player's Play; Mike,
+-- 2026-10-09: "I expect shift-clicking to simply play and pause and play again"). A story played by hand resumes from
+-- its saved place (or, without one, starts again). One stopped with at least 90% played counts as done ("only remove
+-- it if you've listened to most of it"): a story played by hand isn't picked up again, and the playlist moves on to
+-- its next item. Returns true when it handled the click, even if the recording couldn't start (a missing segment
+-- never falls through to something else); false leaves it to the playlist.
+local DONE_SHARE = 0.9
+function UI.ResumeStopped()
+  if UI.IsBusy() then return false end
+  local state = UI.TransportState()
+  if state and state.duration and state.duration > 0 and state.offset >= DONE_SHARE * state.duration then
+    UI.progress[state.target.key], UI.resumeTarget = nil, nil
+    if state.target.fromPlaylist then
+      UI.PlaylistNext()
+      return UI.IsBusy()
+    end
+    state = nil
+  end
+  if state and not state.target.fromPlaylist then
+    UI.stoppedTarget = nil
+    UI.ListenTo(state.target)
+    return true
+  end
+  local t = UI.stoppedTarget
+  if t and not state then
+    UI.stoppedTarget = nil
+    UI.ListenTo(t)
+    return true
+  end
+  return false
+end
+
+-- Whether Shift-click would pick something up again (UI.ResumeStopped) rather than start the playlist or what's here.
+function UI.HasStopped()
+  if UI.IsBusy() then return false end
+  local state = UI.TransportState()
+  if state then
+    return not state.target.fromPlaylist and not (state.duration and state.duration > 0
+      and state.offset >= DONE_SHARE * state.duration)
+  end
+  return UI.stoppedTarget ~= nil
 end
 
 -- Whether anything is playing, or a playlist is between two items.
@@ -1904,14 +1959,15 @@ end
 -- log: the logged question this message answers (Log.Question), so it can be rated and reported.
 -- subject: the entry key the message is about (Back goes to it); linked: the keys its lore links point to, in order,
 -- for the "In this answer" line (UI.Linker).
-function UI.AddMessage(role, text, target, actionLabel, rows, log, subject, linked)
+-- entry: the full formatted entry, so replaying it can reuse this message; a primer or FAQ is not that story.
+function UI.AddMessage(role, text, target, actionLabel, rows, log, subject, linked, entry)
   if UI.historyFrame then UI.historyFrame:Hide() end
   if UI.journeyPage then UI.journeyPage:Hide() end
   if target == false then target = nil end
   finishTyping()
   local animate = role == "lore" and settings().typing ~= false
   table.insert(UI.msgs, { role = role, text = text, target = target, actionLabel = actionLabel, animate = animate,
-    rows = rows, log = log, subject = subject, linked = linked and #linked > 0 and linked or nil })
+    rows = rows, log = log, subject = subject, linked = linked and #linked > 0 and linked or nil, entry = entry })
   if ns.HistoryArchive and ns.HistoryArchive.On() and (role == "user" or role == "lore" or role == "note") then
     UI.historyId = UI.historyId or ns.HistoryArchive.ChatId()
     ns.HistoryArchive.Record("account", "chat_message", { chatId = UI.historyId, message = UI.msgs[#UI.msgs] })
@@ -1964,6 +2020,16 @@ end
 
 -- items: { {key, idx?, label?, q?, name?, via?} }, or { live = question, label } to ask live answers
 function UI.SetNext(items, label)
+  local available = {}
+  for _, it in ipairs(items) do
+    local e = it.key and UI.engine.db.entries[it.key]
+    local f = e and e.faq and e.faq[it.idx]
+    -- Explicit reveal actions still open answer-only spoilers; question chips require real questions.
+    if not it.idx or it.via == "reveal" or ns.Engine.HasQuestion(f) then
+      available[#available + 1] = it
+    end
+  end
+  items = available
   UI.nextLabel:SetText(label or L["Suggested:"])
   UI.nextLabel:SetShown(#items > 0)
   for i, b in ipairs(UI.nextButtons) do
@@ -2199,13 +2265,15 @@ function UI.ShowWelcome(ctx, placeName, here)
   else
     UI.AddMessage("hero", text)
   end
-  local try = placeName and string.format(L["Or ask anything about %s below. Try one of these:"], esc(placeName))
-    or L["Or ask anything about where you are below. Try one of these:"]
-  UI.AddMessage("note", GREY .. try .. "|r")
   local items = {}
   for _, s in ipairs(here or {}) do
     if s.idx then items[#items + 1] = { key = s.key, idx = s.idx, q = s.label } end
     if #items >= N_NEXT then break end
+  end
+  if #items > 0 then
+    local try = placeName and string.format(L["Or ask anything about %s below. Try one of these:"], esc(placeName))
+      or L["Or ask anything about where you are below. Try one of these:"]
+    UI.AddMessage("note", GREY .. try .. "|r")
   end
   UI.SetNext(items, L["Try asking:"])
   -- The card and its note move with you (UI.Refresh); last session's recap stays put.
@@ -3427,15 +3495,13 @@ end
 
 -- Play/Pause/Stop: what the middle button does right now.
 --   something played by hand   Stop it (a waiting playlist stays where it is)
+--   something stopped          pick it up again (UI.ResumeStopped)
 --   a playlist                 Pause it, or Play it from its current item
 --   nothing queued             play everything narrated where you are, else the area's story if it's narrated
 function UI.PlayerPlay()
   local pl = UI.pl
   if UI.speaking and pl.state ~= "playing" then return UI.StopAll() end
-  local state = UI.TransportState()
-  if not UI.speaking and state and not state.target.fromPlaylist then
-    return UI.ListenTo(state.target)
-  end
+  if UI.ResumeStopped() then return end
   if UI.PlaylistToggle() then return end
   if UI.QueueHere() > 0 then return end
   local zt = UI.ZoneTarget()
@@ -3545,42 +3611,6 @@ local function playerMenu(p)
   m.float.text:SetText((on and "|TInterface\\Buttons\\UI-CheckBox-Check:14|t " or "") .. L["Show the player when the panel is closed"])
   m.report.text:SetText((UI.ReportableClip() and "" or GREY) .. L["Report a problem with this narration"]
     .. (UI.ReportableClip() and "" or "|r"))
-  m:Show()
-end
-
--- Right-click on the minimap button (LOR-138): "Narration: only when I press Play" and Options. Escape or a second
--- right-click closes it.
-local BUTTON_MENU_W = 260
-function UI.ButtonMenu(owner)
-  local m = UI.buttonMenu
-  if not m then
-    m = T.Backdrop(CreateFrame("Frame", "LoreForeverButtonMenu", UIParent, T.BACKDROP_TEMPLATE), "popup")
-    m:SetSize(BUTTON_MENU_W, 2 * 24 + 12)
-    m:SetFrameStrata("DIALOG")
-    m:SetClampedToScreen(true)
-    local function item(i, onClick)
-      local b = TextButton(m, BUTTON_MENU_W - 12, 24, T.font.small)
-      b:SetPoint("TOPLEFT", 6, -6 - (i - 1) * 24)
-      if b.text.SetWordWrap then b.text:SetWordWrap(false) end
-      b:SetScript("OnClick", function() m:Hide(); onClick() end)
-      return b
-    end
-    m.onDemand = item(1, function()
-      local on = ns.Voice.SetOnDemand(not ns.Voice.OnDemand())
-      showToast((on and GREEN or GREY) .. (on and L["Narration plays only when you press Play."]
-        or L["Narration plays by itself again, as your options say."]) .. "|r")
-    end)
-    m.options = item(2, function() ns.Options.Toggle() end)
-    m.options.text:SetText(L["Options"])
-    m:Hide()
-    table.insert(UISpecialFrames, "LoreForeverButtonMenu")
-    UI.buttonMenu = m
-  end
-  if m:IsShown() then return m:Hide() end
-  m:ClearAllPoints()
-  m:SetPoint("TOPRIGHT", owner, "BOTTOMLEFT", 8, 4)
-  m.onDemand.text:SetText((ns.Voice.OnDemand() and "|TInterface\\Buttons\\UI-CheckBox-Check:14|t " or "")
-    .. L["Narration: only when I press Play"])
   m:Show()
 end
 
@@ -4029,7 +4059,7 @@ function UI.Archive()
       local t = m.target
       msgs[#msgs + 1] = { role = m.role, text = m.text,
         target = t and { id = t.id, key = t.key, text = t.text, label = t.label } or nil, rows = m.rows,
-        subject = m.subject, linked = m.linked }
+        subject = m.subject, linked = m.linked, entry = m.entry }
     end
   end
   local ctx = UI.ctx or {}
@@ -4167,7 +4197,7 @@ function UI.RestoreHistory(i)
   UI.UpdateListen()
   for _, m in ipairs(c.msgs) do
     UI.msgs[#UI.msgs + 1] = { role = m.role, text = m.text, target = m.target, rows = m.rows, subject = m.subject,
-      linked = type(m.linked) == "table" and m.linked or nil }
+      linked = type(m.linked) == "table" and m.linked or nil, entry = m.entry }
     UI.blocks[#UI.blocks + 1] = m.text
   end
   UI.historyFrame:Hide()
@@ -4547,7 +4577,7 @@ function UI.ShowFaq(key, idx, via)
   if via ~= "reveal" and UI.SpoilerGate(key, "faq", idx) then return end
   local target = UI.FaqTarget(key, idx)
   UI.lastLog = ns.Log.Question(f.q, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "faq", idx = idx, title = f.q } }, via)
-  local heading = f.answerOnly and (e.n .. " · " .. f.q) or e.n
+  local heading = f.answerOnly and (e.n .. ns.Lang.Dotted(" · ") .. f.q) or e.n
   local text, linked = loreText(heading, f.a, nil, ns.Voice.HasAudio(target.key) and narratedTag() or nil, key)
   UI.AddMessage("lore", text, target, nil, nil, UI.lastLog, key, linked)
   local m = UI.msgs[#UI.msgs]
@@ -4582,7 +4612,7 @@ function UI.ShowEntry(key, via, asked)
   story = story and (GOLD .. esc(story) .. "|r\n") or ""
   local text = GOLD .. esc(e.n) .. "|r" .. narrated .. "\n" .. story .. youText(key) .. table.concat(parts, "\n\n")
   UI.lastLog = ns.Log.Question("[open] " .. e.n, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "summary", title = e.n } }, via)
-  UI.AddMessage("lore", text, target, nil, nil, UI.lastLog, key, linked)
+  UI.AddMessage("lore", text, target, nil, nil, UI.lastLog, key, linked, true)
   UI.SetNext(followUps(key, nil))
 end
 

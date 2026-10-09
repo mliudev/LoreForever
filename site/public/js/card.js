@@ -1,7 +1,7 @@
 // The share card (lib/sharecard.js, LOR-150): on the owner's public profile, when its card is out of date
 // (lib/profiles.js puts the facts in #pf-sharecard only then), draw the 1200x630 picture that links to the profile
 // show, and send it to POST /api/profile/card. Quietly: nothing on the page changes, and if anything fails the next visit
-// tries again. Harold (LOR-266) is on it while the "companion" feature is on.
+// tries again. Sam (LOR-266) is on it while the "companion" feature is on.
 (() => {
   const el = document.getElementById("pf-sharecard");
   if (!el || !window.fetch || !window.HTMLCanvasElement || !HTMLCanvasElement.prototype.toBlob) return;
@@ -74,7 +74,7 @@
     x.fillText("Lore Forever", LEFT + 70, 81);
     x.textBaseline = "alphabetic";
 
-    const right = harold ? 850 : W - LEFT;   // Harold stands on the right
+    const right = harold ? 850 : W - LEFT;   // Sam stands on the right
     const size = fit(x, f.name, s => `700 ${s}px ${HEAD}`, 88, right - LEFT);
     x.fillStyle = GOLD;
     x.font = `700 ${size}px ${HEAD}`;
@@ -115,7 +115,7 @@
       x.textAlign = "center";
       x.fillStyle = PARCH;
       x.font = `italic 22px ${SERIF}`;
-      x.fillText("Written by Harold", 1020, H - 58);
+      x.fillText("Written by Sam the Squire", 1020, H - 58);
       x.textAlign = "left";
     }
     return new Promise(ok => c.toBlob(ok, "image/jpeg", 0.9));

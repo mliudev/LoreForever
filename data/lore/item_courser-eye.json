@@ -35,7 +35,7 @@
     "why does jinzil need eyes",
     "what does jinzil do with courser eyes"
    ],
-   "answer": "Jin'Zil claims that one can never have enough eyes when preparing a proper brew. He combines them with native fauna parts to brew a potent concoction that he unleashes upon his captured night elf prisoners."
+   "answer": "Jin'Zil claims that one can never have enough eyes when preparing a proper brew. He combines them with native fauna parts for the concoction he mockingly calls forest magic."
   },
   {
    "q": "What happens when Jin'Zil completes his forest magic potion?",
@@ -43,7 +43,7 @@
     "jinzil forest magic result",
     "what happens to the prisoners in malakajin"
    ],
-   "answer": "Once the courser eyes and other ingredients are delivered, Jin'Zil releases the toxic brew inside his cave. The concoction lethally poisons the caged night elf prisoners, whose spirits rise as wisps and depart into the wild."
+   "answer": "Jin'Zil plans to use his forest magic concoction on the night elf prisoners caged in his cave. Their fate is revealed when his experiment is carried out."
   }
  ],
  "angles": [
@@ -53,7 +53,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "Slaughtering the sacred coursers of Stonetalon simply to poison captured Sentinels is considered a profound sacrilege against Elune and nature."
+   "text": "Slaughtering the coursers of Stonetalon to supply a witch doctor's cruel experiments against captured night elves affronts their reverence for nature."
   }
  ],
  "keywords": [

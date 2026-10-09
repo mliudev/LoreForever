@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Blueprint of Infiltration",
-   "body": "The parchment recovered from Dark Iron spies near Ironband's Compound displays an intricate maze of subterranean roads. Inscribed in harsh, jagged runes unique to the Dark Iron clan, the diagrams map deep underground passages that converge directly beneath Ironforge. The purpose behind these excavated tunnels is unmistakably aggressive, demonstrating that the Dark Irons are actively charting a hidden back entrance right beneath the Bronzebeard capital.",
+   "body": "The parchment recovered from Dark Iron spies near Ironband's Compound displays an intricate maze of subterranean roads. Inscribed in harsh, jagged runes unique to the Dark Iron clan, the diagrams map deep underground passages that converge directly beneath Ironforge. The converging passages suggest a possible threat beneath the Bronzebeard capital, but the map's Dark Iron annotations remain uncertain.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "map details",
     "dark iron map purpose"
    ],
-   "answer": "It outlines a complex network of underground highways and newly dug tunnels snaking through the earth, all converging directly beneath the city of Ironforge."
+   "answer": "It outlines a complex network of underground highways and tunnels snaking through the earth, all converging directly beneath the city of Ironforge."
   },
   {
    "q": "Who is Earthseer Farsen?",
@@ -64,7 +64,7 @@
     "why dark iron tunneling",
     "dark iron plot dun morogh"
    ],
-   "answer": "The Dark Iron clan seeks a covert route into the ancient, forgotten underbelly of the city, aiming to bypass Ironforge's formidable surface defenses entirely."
+   "answer": "The map suggests a possible route beneath Ironforge, but its Dark Iron annotations have not been deciphered. Earthseer Farsen needs to examine it before the plan can be established."
   },
   {
    "q": "What does this quest lead to?",
@@ -80,7 +80,7 @@
     "map runes",
     "dark iron language"
    ],
-   "answer": "The annotations are inscribed in the jagged, severe runic script used by the Dark Iron dwarves, making it difficult for outsiders to translate without specialized knowledge."
+   "answer": "The map uses the jagged runic script of the Dark Iron dwarves. The person who finds it cannot be sure what the annotations say."
   }
  ],
  "angles": [

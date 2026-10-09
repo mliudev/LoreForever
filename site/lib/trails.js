@@ -131,7 +131,11 @@ const STANDINGS = ["Hated", "Hostile", "Unfriendly", "Neutral", "Friendly", "Hon
 function fromJourney(j) {
   const offset = value => Number.isInteger(value) && Math.abs(value) <= 840 ? value : null;
   const out = [];
-  for (const m of Array.isArray(j?.moments) ? j.moments : []) {
+  const source = Array.isArray(j?.moments) ? j.moments : [];
+  // Older single-character envelopes put their identity only on shot events.
+  const identities = new Set(source.map(m => m?.character).filter(c => /^[a-f0-9]{64}$/.test(c || "")));
+  const character = /^[a-f0-9]{64}$/.test(j?.character || "") ? j.character : identities.size === 1 ? [...identities][0] : null;
+  for (const m of source) {
     if (!m || typeof m !== "object" || !Number.isInteger(m.t)) continue;
     const at = { ...(m.s && m.s !== m.z ? { sub: m.s } : {}), ...(m.z ? { zone: m.z } : {}) };
     const entry = {
@@ -148,6 +152,7 @@ function fromJourney(j) {
     }[m.k];
     if (!entry) continue;
     const [k, e] = entry();
+    if (character && !e.character) e.character = character;
     const tz = (offset(m.tz) ?? offset(j?.tz) ?? 0) * 60;
     out.push({ k, e, t: m.t, day: new Date((m.t + tz) * 1000).toISOString().slice(0, 10) });
   }
@@ -309,31 +314,48 @@ function plain(m) {
 // The section: the moments newest first, by day, the latest RECENT open and the rest folded; filter chips (shown by
 // public/js/journey.js); each moment's lore links (lore: lookups to link with, or null while the lore pages are off)
 // and trail links (#m-<o>, which journey.js follows: it unfolds, unfilters and marks the moment).
-// One-to-one identity only: duplicate events or picture claims are ambiguous and stay text/gallery only.
+// Pictures follow the nearest dated moment for the same account/character. Recompute on every render so newly
+// synced older moments can become the closest; equal distances prefer the earlier moment.
 export function timelinePictures(all, pictures = []) {
-  const key = (character, t) => typeof character === "string" && /^[a-f0-9]{64}$/.test(character) && Number.isInteger(t)
-    ? `${character}:${t}` : null;
-  const shots = byKey(all.filter(m => m.k === "pictures"), m => key(m.e.character, m.t));
-  const claims = byKey(pictures.filter(p => !p.hidden), p => key(p.character, p.event_t));
-  const matched = new Map();
-  for (const [identity, events] of shots) {
-    const pics = claims.get(identity);
-    if (identity && events.length === 1 && pics?.length === 1) matched.set(events[0], pics[0]);
+  const valid = c => typeof c === "string" && /^[a-f0-9]{64}$/.test(c);
+  const groups = byKey(all.filter(m => m.k !== "pictures" && valid(m.e.character) && Number.isInteger(m.t)), m => m.e.character);
+  for (const [character, list] of groups) {
+    list.sort((a, b) => a.t - b.t || a.o - b.o);
+    groups.set(character, list.filter((m, i) => !i || m.t !== list[i - 1].t));
   }
+  const matched = new Map();
+  for (const p of pictures) {
+    if (p.hidden || !valid(p.character) || !Number.isInteger(p.t)) continue;
+    const list = groups.get(p.character);
+    if (!list?.length) continue;
+    let lo = 0, hi = list.length;
+    while (lo < hi) {
+      const mid = (lo + hi) >>> 1;
+      if (list[mid].t < p.t) lo = mid + 1;
+      else hi = mid;
+    }
+    const before = list[lo - 1], after = list[lo];
+    const nearest = !before ? after : !after ? before : p.t - before.t <= after.t - p.t ? before : after;
+    if (!matched.has(nearest)) matched.set(nearest, []);
+    matched.get(nearest).push(p);
+  }
+  for (const list of matched.values()) list.sort((a, b) => a.t - b.t || String(a.id).localeCompare(String(b.id)));
   return matched;
 }
 
 export function journeySection(all, { lore = null, pictures = [] } = {}) {
-  if (!all.length) return "";
-  // A long journey from the companion shows its newest SHOWN moments; a trail to one before them is just its name.
-  const list = all.length > SHOWN ? all.slice(-SHOWN) : all;
-  const first = list[0].o;
+  if (!all.length && !pictures.some(p => !p.hidden)) return "";
   const matched = timelinePictures(all, pictures);
+  // Keep earlier moments with pictures reachable in the folded timeline as well as the newest SHOWN moments.
+  const list = all.length > SHOWN ? all.filter((m, i) => i >= all.length - SHOWN || matched.has(m)) : all;
+  const visible = new Set(list.map(m => m.o));
+  const placed = new Set([...matched.values()].flat());
+  const waiting = pictures.filter(p => !p.hidden && !placed.has(p));
   const a = (text, p) => (lore && p ? `<a href="${escape(p)}">${escape(text)}</a>` : escape(text));
   const name = (text, p) => (lore && p ? `<a href="${escape(p)}">${escape(text)}</a>` : `<strong>${escape(text)}</strong>`);
   const where = e => (e.zone ? (e.sub ? `${a(e.sub, lore?.place(e.sub, e.zone))}, ${a(e.zone, lore?.zone(e.zone))}` : a(e.zone, lore?.zone(e.zone))) : "");
   // A trail link, or "" when its moment isn't on the page (then a name shows as plain text, and a step is left out).
-  const go = (to, text, label) => (to && to.o >= first
+  const go = (to, text, label) => (to && visible.has(to.o)
     ? `<a class="pf-go" href="#m-${to.o}" aria-label="${escape(`${label}: ${plain(to)}`)}">${text}</a>` : "");
   const placeName = e => escape(e.sub || e.zone || "somewhere");
 
@@ -384,11 +406,9 @@ export function journeySection(all, { lore = null, pictures = [] } = {}) {
 
   // A small link out after the moment (LOR-263): Wowhead, or the wiki.
   const out = m => (m.out ? ` <a class="pf-out" href="${escape(m.out.url)}" rel="noopener" aria-label="${escape(`${m.out.name} on ${m.out.site === "Wowhead" ? "Wowhead" : "the Warcraft Wiki"}`)}">${m.out.site === "Wowhead" ? "Wowhead" : "Wiki"}</a>` : "");
-  const thumbnail = m => {
-    const p = matched.get(m);
-    if (!p) return "";
-    return `<a class="pf-picture" data-pb-target="${escape(p.id)}" href="${escape(pictureUrl(p))}" aria-label="${escape(p.caption || "Enlarge journey picture")}"><img src="${escape(pictureUrl(p))}" width="${Number(p.w) || 1920}" height="${Number(p.h) || 1080}" alt="${escape(p.caption || "A picture from the journey")}" loading="lazy" decoding="async"></a>`;
-  };
+  const picture = p => `<a class="pf-picture" data-pb-target="${escape(p.id)}" href="${escape(pictureUrl(p))}" aria-label="${escape(p.caption || "Enlarge journey picture")}"><img src="${escape(pictureUrl(p))}" width="${Number(p.w) || 1920}" height="${Number(p.h) || 1080}" alt="${escape(p.caption || "A picture from the journey")}" loading="lazy" decoding="async"></a>`;
+  const thumbnail = m => matched.has(m) ? `<div class="pf-pictures">${matched.get(m).map(picture).join("")}</div>` : "";
+  const pending = waiting.length ? `<div class="pf-pictures-waiting"><p>These pictures are waiting for this character’s dated journey moments to sync. They will appear beside the closest moment.</p><div class="pf-pictures">${waiting.map(picture).join("")}</div></div>` : "";
   const row = m => `<li class="pf-m pf-k-${m.k}" id="m-${m.o}" data-g="${m.group}"${m.e.zone ? ` data-land="${escape(norm(landOf(m.e.zone)))}"` : ""} tabindex="-1">
           <span class="pf-bead" aria-hidden="true"></span>
           <div><p class="pf-m-what">${what(m)}${out(m)}</p>${m.k !== "places" && m.e.zone ? `\n          <p class="pf-m-where">${where(m.e)}</p>` : ""}${trail(m)}</div>${thumbnail(m)}
@@ -416,7 +436,8 @@ export function journeySection(all, { lore = null, pictures = [] } = {}) {
     <p class="pf-shown" role="status"></p>` : "";
   return `<section class="vp-section pf-journey pf-view" id="timeline" aria-labelledby="journey-title">
     <h2 id="journey-title">The journey, moment by moment</h2>
-    <p class="pf-lead">Newest first. Follow a trail from any moment to the ones it ties in with${lore ? ", or open its lore" : ""}.${all.length > list.length ? ` The latest ${count(list.length)} of ${count(all.length)} moments.` : ""}</p>
+    <p class="pf-lead">Newest first. Follow a trail from any moment to the ones it ties in with${lore ? ", or open its lore" : ""}.${all.length > list.length ? ` Showing ${count(list.length)} of ${count(all.length)} moments, including earlier moments with pictures.` : ""}</p>
+    ${pending}
     ${chips}
     ${days(newest.slice(0, RECENT))}
     ${older.length ? `<details class="pf-older"><summary>Show ${count(older.length)} earlier moment${older.length === 1 ? "" : "s"}</summary>

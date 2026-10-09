@@ -221,12 +221,12 @@ export function voiceFilters(voices) {
 
 // ---- Whole pages (profile, contributors; player profiles in lib/profiles.js) ----
 
-// The site header (LOR-222), the same on every page: the static pages carry a copy of it, and
-// site/tests/nav.test.mjs checks they all match this one. public/header.js brings it to life. The inline script runs
+// The site header (LOR-222), the same on every page: keep the static pages' copies in step with it.
+// public/header.js brings it to life. The inline script runs
 // before any of it is drawn, so nothing in it changes afterwards: it puts hd-wait on <html> (with JavaScript on, the
 // profile link's spot keeps its place but stays blank until header.js knows whether you're signed in), and hd-nolore
 // when the site features header.js remembers (lf-features) say the Lore link is off (style.css). Lore is in the
-// markup while the "lore" feature is on (lib/features.js; nav.test.mjs keeps them in step).
+// markup while the "lore" feature is on (lib/features.js).
 export const SITE_NAV = `  <nav class="wrap nav" aria-label="Lore Forever">
     <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>

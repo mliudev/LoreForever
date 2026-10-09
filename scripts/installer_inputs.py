@@ -2,8 +2,8 @@
 """Partition frozen release extras into minimal installer inputs and release-only files.
 
 The union of the base/female/quests smoke cases is derived from the generated
-download contract. Files are moved without rewriting them; the release job merges
-both disjoint artifacts back together. No rendering, network, or publication.
+download contract. Files are moved without rewriting them; new releases upload the release files directly from
+their producer. Published-tag rebuilds can still merge the disjoint artifacts. No rendering, network, or publication.
 """
 import argparse
 import hashlib

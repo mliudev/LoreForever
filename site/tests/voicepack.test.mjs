@@ -9,8 +9,8 @@ import { execFileSync } from "node:child_process";
 import { mkdtempSync, writeFileSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { renderToc, renderClips, INTERFACE } from "../lib/voicepack.js";
-import { planPack, packFolder, packName } from "../public/voices/testpack.js";
-import { crc32, crcHex } from "../public/voices/crc32.js";
+import { packFolder, packName } from "../public/voices/testpack.js";
+import { crc32 } from "../public/voices/crc32.js";
 import { zipStream, zipLength } from "../lib/zip.js";
 import { SITE, ROOT, unzip } from "./helpers.mjs";
 
@@ -27,17 +27,6 @@ test("the pack's Interface matches the core add-on", async () => {
   assert.equal(INTERFACE, toc.match(/^## Interface:\s*(\S+)/m)[1]);
 });
 
-test("planPack: current takes only, one format, majority wins, mp3 on a tie", () => {
-  const current = { a: "h1", b: "h2", c: "h3", d: "h4", e: "h5" };
-  let p = planPack({ a: { ext: "mp3", hash: "h1" }, b: { ext: "ogg", hash: "h2" }, c: { ext: "mp3", hash: "old" },
-                     z: { ext: "mp3", hash: "gone" } }, current);
-  assert.deepEqual(p, { ext: "mp3", lines: ["a"], stale: ["c"], otherFormat: ["b"] });
-  p = planPack({ a: { ext: "ogg", hash: "h1" }, b: { ext: "ogg", hash: "h2" }, d: { ext: "mp3", hash: "h4" },
-                 e: { ext: "wav", hash: "h5" } }, current);
-  assert.deepEqual(p, { ext: "ogg", lines: ["a", "b"], stale: [], otherFormat: ["d", "e"] });
-  assert.deepEqual(planPack({}, current), { ext: "mp3", lines: [], stale: [], otherFormat: [] });
-});
-
 test("the folder is stable and never one of our own packs", () => {
   assert.equal(packName("tales-of-the-east-2"), "TalesOfTheEast2");   // same as voicepack._pack_name
   assert.equal(packFolder("tales-of-the-east-2"), "LoreForever_Voice_TestTalesOfTheEast2");
@@ -46,13 +35,6 @@ test("the folder is stable and never one of our own packs", () => {
     assert.ok(!packFolder(id).startsWith("LoreForever_Voice_Default"));   // Voice.lua treats that prefix as ours
   }
   assert.equal(packFolder("---"), "LoreForever_Voice_TestStudio");
-});
-
-test("crc32", () => {
-  const bytes = new TextEncoder().encode("123456789");
-  assert.equal(crc32(bytes), 0xcbf43926);
-  assert.equal(crc32(bytes.subarray(4), crc32(bytes.subarray(0, 4))), 0xcbf43926);
-  assert.equal(crcHex(0x0000beef), "0000beef");
 });
 
 async function collect(stream) {

@@ -49,27 +49,25 @@
     <a href="#translations">Translations <span class="ad-badge" id="n-translations"></span></a>
     <a href="#edits">Edits <span class="ad-badge" id="n-edits"></span></a>
     <a href="#contributions">Shared text <span class="ad-badge quiet" id="n-contrib"></span></a>
-    <a href="#contributors">Contributors <span class="ad-badge quiet" id="n-contributors"></span></a>
-    <a href="#emails">Emails <span class="ad-badge quiet" id="n-emails"></span></a>
+    <a href="#contacts">Contacts <span class="ad-badge quiet" id="n-contacts"></span></a>
   </nav>
 
   <div class="ad-tiles" id="overview">
-    <a class="ad-panel ad-tile" href="#emails"><div class="ad-label">Emails</div><div class="ad-num" id="t-emails">-</div><div class="ad-sub" id="t-emails-sub"></div></a>
+    <a class="ad-panel ad-tile" href="#contacts"><div class="ad-label">Contacts</div><div class="ad-num" id="t-contacts">-</div><div class="ad-sub" id="t-contacts-sub"></div></a>
     <div class="ad-panel ad-tile"><div class="ad-label">Site downloads</div><div class="ad-num" id="t-dl">-</div><div class="ad-sub" id="t-dl-sub"></div></div>
     <a class="ad-panel ad-tile" href="#feedback"><div class="ad-label">Open feedback</div><div class="ad-num" id="t-open">-</div><div class="ad-sub" id="t-open-sub"></div></a>
     <a class="ad-panel ad-tile" href="#feedback"><div class="ad-label">Average rating</div><div class="ad-num" id="t-rating">-</div><div class="ad-sub" id="t-rating-sub"></div></a>
     <a class="ad-panel ad-tile" href="#voices"><div class="ad-label">Open voice submissions</div><div class="ad-num" id="t-voices">-</div><div class="ad-sub" id="t-voices-sub"></div></a>
-    <a class="ad-panel ad-tile" href="#contributors"><div class="ad-label">Contributor accounts</div><div class="ad-num" id="t-users">-</div><div class="ad-sub" id="t-users-sub"></div></a>
     <div class="ad-panel ad-tile"><div class="ad-label">Paid usage this month</div><div class="ad-num" id="t-stories">-</div><div class="ad-sub" id="t-stories-sub"></div></div>
   </div>
 
   <div class="ad-charts">
-    <figure class="ad-panel ad-chart" id="c-signups" style="margin:0"><h3>Email sign-ups per day, last 30 days</h3></figure>
+    <figure class="ad-panel ad-chart" id="c-signups" style="margin:0"><h3>New contacts per day, last 30 days</h3></figure>
     <figure class="ad-panel ad-chart" id="c-downloads" style="margin:0"><h3>Site downloads per day, last 30 days</h3></figure>
   </div>
 
   <!-- Accounts (Google sign-in, lib/accounts.js) and player profiles (lib/profiles.js). The API counts them, so they
-       aren't capped like the Contributors list. Days are UTC, like the charts above. -->
+       aren't capped like the Contacts list. Days are UTC, like the charts above. -->
   <h2 id="profiles">Profiles</h2>
   <div class="ad-charts" style="margin-top:0">
     <div class="ad-panel"><div class="ad-stats">
@@ -172,14 +170,15 @@
     </div>
   </div>
 
-  <!-- Google sign-in accounts. /account promises we email them only about their feedback and what they contribute,
-       so these aren't for release news: that's the Emails list below. -->
-  <h2 id="contributors">Contributors</h2>
+  <!-- Accounts and subscribers share one row per email. Only an actual subscription opts them into release news. -->
+  <h2 id="contacts">Contacts</h2>
   <div class="ad-panel">
     <div class="ad-filters">
-      <input type="search" id="cq" placeholder="Search name or email" aria-label="Search contributors">
+      <input type="search" id="cq" placeholder="Search name or email" aria-label="Search contacts">
       <select id="crole" aria-label="Role">
-        <option value="">Every account</option>
+        <option value="">All contacts</option>
+        <option value="subscriber">Release subscribers</option>
+        <option value="account">Contributor accounts</option>
         <option value="player">Players (have a profile)</option>
         <option value="voice">Voices</option>
         <option value="translator">Translators</option>
@@ -189,27 +188,16 @@
       <button type="button" id="ccsv">Export CSV</button>
       <span class="ad-count" id="co-count"></span>
     </div>
-    <p class="ad-count" style="margin:0 0 8px">Emails are only for reaching them about their feedback and contributions; the account page promises nothing else. Their links are public: reach players there.</p>
+    <p class="ad-count" style="margin:0 0 8px">Each email counts once, including people with both an account and a subscription. Release news goes only to subscribers; account-only emails are for feedback and contributions.</p>
     <div class="ad-table-wrap">
-      <table><thead><tr><th>Email</th><th>Name</th><th>Profile</th><th>Links</th><th>Voices</th><th>Languages</th><th>Activity</th><th>Joined</th></tr></thead><tbody id="co-list"></tbody></table>
-    </div>
-  </div>
-
-  <h2 id="emails">Emails</h2>
-  <div class="ad-panel">
-    <div class="ad-filters">
-      <input type="search" id="q" placeholder="Search emails" aria-label="Search emails">
-      <button type="button" id="copy">Copy addresses</button>
-      <button type="button" id="csv">Export CSV</button>
-      <span class="ad-count" id="em-count"></span>
-    </div>
-    <div class="ad-table-wrap">
-      <table><thead><tr><th>Email</th><th>Source</th><th>Signed up</th><th></th></tr></thead><tbody id="em-list"></tbody></table>
+      <table><thead><tr><th>Email</th><th>Release news</th><th>Name</th><th>Profile</th><th>Links</th><th>Voices</th><th>Languages</th><th>Activity</th><th>First seen</th></tr></thead><tbody id="co-list"></tbody></table>
     </div>
   </div>
 </main>
 
-<script>
+<script type="module">
+import { mergeContacts } from "/admin-contacts.js";
+
 const KINDS = { lore: "Wrong or missing lore", bug: "Bug", idea: "Idea or zone request", review: "Review" };
 const $ = id => document.getElementById(id);
 let data = null;
@@ -289,10 +277,10 @@ function lastDays(n) {
 
 // ---- render ----
 function render() {
-  const subs = data.subscribers.filter(s => !isTest(s));
+  const contacts = mergeContacts(data.subscribers, data.users).filter(c => !c.test);
   const week = lastDays(7)[0];
-  $("t-emails").textContent = subs.length.toLocaleString();
-  $("t-emails-sub").textContent = "+" + subs.filter(s => (s.created_at || "").slice(0, 10) >= week).length + " in the last 7 days";
+  $("t-contacts").textContent = contacts.length.toLocaleString();
+  $("t-contacts-sub").textContent = "+" + contacts.filter(c => c.created.slice(0, 10) >= week).length + " in the last 7 days · emails and accounts";
 
   const dlBy = f => data.downloads.filter(d => d.file === f).reduce((a, d) => a + d.n, 0);
   $("t-dl").textContent = (dlBy("installer") + dlBy("zip")).toLocaleString();
@@ -310,10 +298,6 @@ function render() {
   $("t-voices").textContent = voices.filter(v => v.status !== "done").length;
   $("t-voices-sub").textContent = voices.length + (voices.length === 1 ? " submission" : " submissions") + " in all";
 
-  const users = data.users || [];
-  $("t-users").textContent = users.length.toLocaleString();
-  $("t-users-sub").textContent = users.filter(u => u.handle).length + " players · " + users.filter(u => u.voices).length +
-    " voices · " + users.filter(u => u.languages).length + " translators";
   const st = data.stories || { usd: 0, calls: 0, written: 0, budget: 100, on: false };
   const an = data.answers || { usd: 0, budgetUsedUsd: 0, calls: 0 };
   const total = st.usd + (st.voiceUsd || 0) + an.usd;
@@ -323,9 +307,9 @@ function render() {
     `${an.calls} live answer calls ($${an.usd.toFixed(2)}) · ${st.written} stories · voice $${(st.voiceUsd || 0).toFixed(2)}`;
 
   const days = lastDays(30);
-  const signupsPerDay = days.map(d => subs.filter(s => (s.created_at || "").slice(0, 10) === d).length);
+  const signupsPerDay = days.map(d => contacts.filter(c => c.created.slice(0, 10) === d).length);
   const downloadsPerDay = days.map(d => data.downloads.filter(x => x.day === d).reduce((a, x) => a + x.n, 0));
-  barChart($("c-signups"), days, signupsPerDay, n => n + (n === 1 ? " sign-up" : " sign-ups"));
+  barChart($("c-signups"), days, signupsPerDay, n => n + (n === 1 ? " new contact" : " new contacts"));
   barChart($("c-downloads"), days, downloadsPerDay, n => n + (n === 1 ? " download" : " downloads"));
 
   // Accounts and player profiles, counted by the API (data.users stops at 5000).
@@ -340,15 +324,13 @@ function render() {
   renderVoices();
   renderTranslations();
   renderContributions();
-  renderContributors();
-  renderEmails();
+  renderContacts();
 
   const openCount = list => (list || []).filter(x => x.status !== "done").length;
   badge("n-feedback", open.length);
   badge("n-voices", openCount(voices));
   badge("n-translations", openCount(data.translations) + openCount(data.translationReports));
-  badge("n-contributors", users.length);
-  badge("n-emails", subs.length);
+  badge("n-contacts", contacts.length);
 }
 
 const badge = (id, n) => $(id).textContent = n ? n.toLocaleString() : "";
@@ -662,27 +644,44 @@ document.querySelectorAll("[data-crstatus]").forEach(b => b.addEventListener("cl
   loadClipReports();
 }));
 
-const ROLES = { player: u => u.handle, voice: u => u.voices, translator: u => u.languages,
-                feedback: u => !u.voices && !u.languages && !u.handle };
-function visibleContributors() {
+const ROLES = { subscriber: c => c.subscriber && !isTest(c.subscriber), account: c => c.user,
+                player: c => c.user?.handle, voice: c => c.user?.voices, translator: c => c.user?.languages,
+                feedback: c => c.user && !c.user.voices && !c.user.languages && !c.user.handle };
+function visibleContacts() {
   const q = $("cq").value.trim().toLowerCase(), role = ROLES[$("crole").value];
-  return (data.users || []).filter(u => (!role || role(u)) &&
-    (!q || (u.email || "").includes(q) || (u.display_name || "").toLowerCase().includes(q) ||
-     (u.character || "").toLowerCase().includes(q) || (u.links || "").toLowerCase().includes(q)));
+  return mergeContacts(data.subscribers, data.users).filter(c => (!role || role(c)) &&
+    (!q || [c.email, c.user?.display_name, c.user?.character, c.user?.links, c.subscriber?.source]
+      .some(value => (value || "").toLowerCase().includes(q))));
 }
 
 // A player profile (lib/profiles.js): "Aelric, 24 Druid", linking to /u/<handle>, and whether only they can see it.
 const profileText = u => u.handle ? `${u.character || u.handle}${u.char_level ? ", " + u.char_level : ""}${u.char_class ? " " + u.char_class : ""}` : "";
 const linkHosts = u => (u.links || "").split(/\s+/).filter(x => /^https:\/\//.test(x));
 
-function renderContributors() {
-  const list = visibleContributors();
-  $("co-count").textContent = list.length + (list.length === 1 ? " account" : " accounts");
+function renderContacts() {
+  const list = visibleContacts(), count = list.filter(c => !c.test).length, tests = list.length - count;
+  $("co-count").textContent = count + (count === 1 ? " contact" : " contacts") + (tests ? " · " + tests + " test" : "");
   const body = $("co-list");
-  if (!list.length) { body.replaceChildren(el("tr", {}, el("td", { colspan: "8", class: "ad-empty", text: "No accounts here." }))); return; }
+  if (!list.length) { body.replaceChildren(el("tr", {}, el("td", { colspan: "9", class: "ad-empty", text: "No contacts here." }))); return; }
   const plural = (n, word) => n + " " + word + (n === 1 ? "" : "s");
-  body.replaceChildren(...list.map(u => el("tr", {},
-    el("td", {}, u.email ? el("a", { href: "mailto:" + encodeURIComponent(u.email).replace("%40", "@"), text: u.email }) : ""),
+  body.replaceChildren(...list.map(c => {
+    const u = c.user || {}, s = c.subscriber;
+    const subscription = el("td", { text: s && !isTest(s) ? "Subscribed" : "Not subscribed" });
+    if (s) {
+      subscription.append(el("span", { class: "ae-sub", text: (s.source || "Email signup") + " · " + fmtDate(s.created_at) }));
+      const remove = el("button", { type: "button", class: "ad-link ad-danger", text: "Remove subscription" });
+      remove.addEventListener("click", () => {
+        if (confirm("Remove " + c.email + " from release news? Their account will stay.")) {
+          act({ action: "delete-subscriber", email: s.email }, () => data.subscribers = data.subscribers.filter(x => x !== s));
+        }
+      });
+      subscription.append(remove);
+    }
+    return el("tr", {},
+    el("td", {}, el("a", { href: "mailto:" + encodeURIComponent(c.email).replace("%40", "@"), text: c.email }),
+      c.user ? el("span", { class: "ae-sub", text: "Contributor account" }) : null,
+      c.test ? el("span", { class: "ad-test", text: "test" }) : null),
+    subscription,
     el("td", { text: u.display_name || "" }),
     el("td", {}, ...(u.handle ? [el("a", { href: "/u/" + encodeURIComponent(u.handle), target: "_blank", rel: "noopener", text: profileText(u) }),
                                  u.profile_public ? "" : " (private)"] : [])),
@@ -692,29 +691,7 @@ function renderContributors() {
     el("td", {}, ...[u.takes && plural(u.takes, "take"),
                      u.edits && el("a", { href: "/admin/edits?status=all&user=" + encodeURIComponent(u.id), text: plural(u.edits, "edit") }),
                      u.feedback && plural(u.feedback, "report")].filter(Boolean).flatMap((x, i) => i ? [" · ", x] : [x])),
-    el("td", { text: fmtDate(u.created) }))));
-}
-
-function visibleEmails() {
-  const q = $("q").value.trim().toLowerCase();
-  return data.subscribers.filter(s => !q || s.email.includes(q) || (s.source || "").includes(q));
-}
-
-function renderEmails() {
-  const list = visibleEmails();
-  $("em-count").textContent = list.filter(s => !isTest(s)).length + " addresses";
-  const body = $("em-list");
-  if (!list.length) { body.replaceChildren(el("tr", {}, el("td", { colspan: "4", class: "ad-empty", text: "No sign-ups yet." }))); return; }
-  body.replaceChildren(...list.map(s => {
-    const del = el("button", { type: "button", class: "ad-link ad-danger", text: "Remove" });
-    del.addEventListener("click", () => {
-      if (confirm("Remove " + s.email + " from the list for good?")) act({ action: "delete-subscriber", email: s.email }, () => data.subscribers = data.subscribers.filter(x => x !== s));
-    });
-    return el("tr", {},
-      el("td", {}, s.email, isTest(s) ? el("span", { class: "ad-test", text: " test" }) : null),
-      el("td", { text: s.source || "" }),
-      el("td", { text: fmtDate(s.created_at) }),
-      el("td", {}, del));
+    el("td", { text: fmtDate(c.created) }));
   }));
 }
 
@@ -747,7 +724,6 @@ $("login-form").addEventListener("submit", e => {
 $("signout").addEventListener("click", () => signOut());
 $("refresh").addEventListener("click", load);
 $("kind").addEventListener("change", renderFeedback);
-$("q").addEventListener("input", renderEmails);
 document.querySelectorAll("[data-status]").forEach(b => b.addEventListener("click", () => {
   fbStatus = b.dataset.status;
   document.querySelectorAll("[data-status]").forEach(x => x.setAttribute("aria-pressed", x === b));
@@ -764,8 +740,8 @@ document.querySelectorAll("[data-tstatus]").forEach(b => b.addEventListener("cli
   renderTranslations();
 }));
 $("tkind").addEventListener("change", renderTranslations);
-$("cq").addEventListener("input", renderContributors);
-$("crole").addEventListener("change", renderContributors);
+$("cq").addEventListener("input", renderContacts);
+$("crole").addEventListener("change", renderContacts);
 
 async function copyAddresses(button, addresses) {
   const text = addresses.join("\n");
@@ -780,15 +756,15 @@ function downloadCsv(name, rows) {
   const a = el("a", { href: URL.createObjectURL(blob), download: "loreforever-" + name + "-" + new Date().toISOString().slice(0, 10) + ".csv" });
   document.body.append(a); a.click(); a.remove();
 }
-$("copy").addEventListener("click", () => copyAddresses($("copy"), visibleEmails().filter(s => !isTest(s)).map(s => s.email)));
-$("csv").addEventListener("click", () => downloadCsv("emails",
-  [["email", "source", "created_at"], ...visibleEmails().filter(s => !isTest(s)).map(s => [s.email, s.source, s.created_at])]));
-$("ccopy").addEventListener("click", () => copyAddresses($("ccopy"), visibleContributors().map(u => u.email).filter(Boolean)));
-$("ccsv").addEventListener("click", () => downloadCsv("contributors",
-  [["email", "name", "character", "level", "class", "profile", "public", "links", "voices", "languages", "takes", "edits", "feedback", "created"],
-   ...visibleContributors().map(u => [u.email, u.display_name, u.character, u.char_level, u.char_class,
+$("ccopy").addEventListener("click", () => copyAddresses($("ccopy"), visibleContacts().filter(c => !c.test).map(c => c.email)));
+$("ccsv").addEventListener("click", () => downloadCsv("contacts",
+  [["email", "release_news", "source", "subscribed_at", "name", "character", "level", "class", "profile", "public", "links", "voices", "languages", "takes", "edits", "feedback", "account_created", "first_seen"],
+   ...visibleContacts().filter(c => !c.test).map(c => {
+     const u = c.user || {}, s = c.subscriber;
+     return [c.email, s && !isTest(s) ? "yes" : "no", s?.source, s?.created_at, u.display_name, u.character, u.char_level, u.char_class,
      u.handle ? "https://loreforeverwow.com/u/" + u.handle : "", u.handle ? (u.profile_public ? "yes" : "no") : "",
-     linkHosts(u).join(" "), u.voices, u.languages, u.takes, u.edits, u.feedback, u.created])]));
+     linkHosts(u).join(" "), u.voices, u.languages, u.takes, u.edits, u.feedback, u.created, c.created];
+   })]));
 
 if (key()) load(); else signOut();
 </script>

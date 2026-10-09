@@ -1,4 +1,4 @@
-// The share card (LOR-150; Harold on it, LOR-266): the picture a link to a public profile shows on Discord, X, Bluesky
+// The share card (LOR-150; Sam on it, LOR-266): the picture a link to a public profile shows on Discord, X, Bluesky
 // and the rest (og:image), 1200x630. The site draws no images itself: the owner's browser draws the card
 // (public/js/card.js, from the facts profilePage puts in #pf-sharecard) when they open their public profile and its
 // card is out of date, and sends it to POST /api/profile/card (functions/api/profile/card.js). Owners share from their
@@ -12,12 +12,12 @@ import { isJpeg, jpegSize } from "./pictures.js";
 export const CARD_W = 1200, CARD_H = 630;
 export const CARD_MAX = 512 * 1024;   // a JPEG at q0.9 of the card is about 150 KB
 export const CARDS_PER_HOUR = 20;
-export const CARD_VERSION = 1;        // raise it when the card's design changes, and every card is drawn again
+export const CARD_VERSION = 2;        // raise it when the card's design changes, and every card is drawn again
 
 export const cardFile = userId => `pictures/${userId}/share-card.jpg`;
 export const cardUrl = p => p?.card_sha && p.public ? `https://loreforeverwow.com/share/${p.handle}-${p.card_sha}.jpg` : null;
 
-// What a card is drawn from changes when the profile does (updated), its address does (handle), or Harold comes or goes
+// What a card is drawn from changes when the profile does (updated), its address does (handle), or Sam comes or goes
 // (the "companion" feature). The owner's page draws a new card when the profile's key isn't its card's.
 export const cardKey = (p, herald) => `${CARD_VERSION}|${p.updated}|${p.handle}|${herald ? 1 : 0}`;
 

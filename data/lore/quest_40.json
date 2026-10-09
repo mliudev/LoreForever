@@ -17,11 +17,11 @@
   "wiki": "A Fishy Peril",
   "chain": []
  },
- "summary": "A Fishy Peril is a short dispatch quest tasked by Remy \"Two Times\" in eastern Elwynn Forest. Disturbed by reports of amphibious predators encroaching on the waterways, Remy sends travelers to alert Marshal Dughan in Goldshire. The errand highlights the strained resources of Stormwind's local garrison in responding to emerging wilderness threats.",
+ "summary": "A Fishy Peril is a short dispatch quest tasked by Remy \"Two Times\" in Goldshire. Disturbed by reports of amphibious predators encroaching on the waterways, Remy sends travelers to alert Marshal Dughan in Goldshire. The errand highlights the strained resources of Stormwind's local garrison in responding to emerging wilderness threats.",
  "sections": [
   {
    "title": "A Plea from the East",
-   "body": "While conducting trade along the eastern roads of Elwynn Forest, Remy \"Two Times\" finds himself unnerved by a strange new menace. Murlocs have begun creeping up the streams and inland shallows, disrupting fishing and menacing innocent travelers. Convinced that the local guard is overlooking a brewing catastrophe, Remy pleads with passersby to take word back to the heart of the township.",
+   "body": "While seeking business in Goldshire, Remy \"Two Times\" finds himself unnerved by a strange new menace. Murlocs have begun creeping up the streams and inland shallows, disrupting fishing and menacing innocent travelers. Convinced that the local guard is overlooking a brewing catastrophe, Remy pleads with passersby to take word back to the heart of the township.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "who starts a fishy peril",
     "remy quest"
    ],
-   "answer": "The quest is offered by Remy \"Two Times\", a nervous merchant found traveling along the roads of eastern Elwynn Forest."
+   "answer": "The quest is offered by Remy \"Two Times\", a merchant from Redridge who is found in Goldshire in Elwynn Forest."
   },
   {
    "q": "Why is Remy \"Two Times\" worried about murlocs?",

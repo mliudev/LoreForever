@@ -6,6 +6,39 @@ One `- ` bullet per change; wrap long bullets with an indented continuation line
 
 ## Unreleased
 
+## 0.13.0 (2026-10-09)
+
+- **More complete stories:** 68 more lore entries play their whole story in the male narrator's voice (161 in all).
+
+- Corrected lore in 207 entries
+
+- **Release downloads:** large optional packs stage while the Windows installer builds; publication verifies every file before making the complete release available. Unchanged CurseForge narration keeps its existing download.
+
+- Added shared dialogue from Lahu, including the Bellygrub quest progress text.
+
+- **Conversations that remember:** live replies use earlier messages in the same chat. Start a new chat, reopen, rename or delete saved chats, and pick up drafts where you left them. Long chats keep their full transcript while older messages are summarized for replies.
+
+- **Ukrainian, fully translated and narrated:** Pekelnyj / UALL's full Ukrainian translation now covers every lore
+  entry (a few lines whose English changed this week stay English for now). Their Ukrainian narration download adds
+  793 recordings, 684 stories and 109 answers, and includes the text pack. A recording whose text has changed since
+  stays off, and that entry stays readable.
+- **No more boxes in Cyrillic:** the dot between parts of a line shows properly when reading Ukrainian or Russian.
+- **Your level in your language:** the panel header's "Level 60 Human Warrior" line now uses your language pack.
+- **Meet Sam the Squire:** Harold has a new name and title throughout the companion, chat, and profile signatures.
+
+- **Sam helps with the adventure:** ask about profession quests, rewards, recipes, vendors and directions as well as lore. Web research checks WoW Forever details, links its sources, and makes missing or Classic-only information clear.
+
+- **Journeys and pictures that stay together:** automatic profile sync works across installed languages, and pictures sit beside the nearest dated moment for their character. Options explains Print Screen, journey pictures, and the separate text contribution control.
+
+- Reloading or logging out stops narration and keeps playback paused at your saved place.
+- **Shift-click plays and pauses:** Shift-click on the minimap button pauses what's playing, and the next Shift-click picks it up where you left off, even a story you started from the Library. Only with nothing paused and an empty playlist does it play the stories around you, and a story you've heard most of isn't picked up again.
+- Right-click opens Options directly, with the narration preference kept there.
+- Ctrl+C in the question field prepares live answers for the companion while keeping your draft; clicking its copy box keeps the payload selected.
+- **Contributor answers:** answer-only recordings stay in the Library with their numbered labels, without appearing as questions or typing examples.
+
+- **Readable narrated stories:** playing an entry keeps its section headings, lore links, and spoiler controls, including Stormwind City.
+- **Dalaran lore:** describes the city's reconstruction in the present without out-of-world references to Forever.
+
 ## 0.12.0 (2026-10-08)
 
 - **Herald Player controls:** the recording library opens and switches entries faster. Volume and mute controls remember your choice when Herald reopens, and live answers use the lowest-cost default.

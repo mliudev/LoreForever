@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-08",
+ "generated": "2026-10-09",
  "forever_only": {
-  "quests_known": 139,
-  "quests_with_text": 120,
-  "narrated": 119,
+  "quests_known": 135,
+  "quests_with_text": 116,
+  "narrated": 115,
   "npcs_known": 223,
   "npcs_with_text": 1
  },
@@ -11,9 +11,9 @@
   {
    "zone": "Tirisfal Glades",
    "key": "tirisfal",
-   "quests": 31,
-   "with_text": 15,
-   "narrated": 15
+   "quests": 30,
+   "with_text": 14,
+   "narrated": 14
   },
   {
    "zone": "Zephras Isle",
@@ -67,9 +67,9 @@
   {
    "zone": "Redridge Mountains",
    "key": "redridge",
-   "quests": 5,
-   "with_text": 5,
-   "narrated": 5
+   "quests": 4,
+   "with_text": 4,
+   "narrated": 4
   },
   {
    "zone": "Durotar",
@@ -135,22 +135,8 @@
    "narrated": 1
   },
   {
-   "zone": "Ironforge",
-   "key": "ironforge",
-   "quests": 1,
-   "with_text": 1,
-   "narrated": 1
-  },
-  {
    "zone": "Mulgore",
    "key": "mulgore",
-   "quests": 1,
-   "with_text": 1,
-   "narrated": 1
-  },
-  {
-   "zone": "Orgrimmar",
-   "key": "orgrimmar",
    "quests": 1,
    "with_text": 1,
    "narrated": 1

@@ -27,7 +27,7 @@
   {
    "title": "A Gathering Storm",
    "body": "Reconnaissance of a furbolg encampment nestled near the ruins of Ameth'Aran confirms Terenthis's worst suspicions. The furbolgs there display erratic, hostile aggression, bearing the clear marks of the same corruption plaguing the north. Their close proximity to Auberdine elevates them from a peaceful wilderness neighbor to an urgent defensive hazard for the Alliance settlement.",
-   "spoiler": 0
+   "spoiler": 1
   }
  ],
  "faq": [
@@ -47,7 +47,7 @@
     "corrupt furbolgs darkshore",
     "furbolg corruption"
    ],
-   "answer": "Historically friendly or neutral toward the night elves, many furbolg clans have fallen victim to a spreading supernatural taint following the Third War. This unseen corruption drives them into frantic, territorial madness, causing them to attack travelers and former allies alike."
+   "answer": "Terenthis has seen hints of corruption in Darkshore and suspects the furbolgs may be affected, as some on Teldrassil were. He asks for their camps to be investigated because he has not yet established widespread signs."
   },
   {
    "q": "Where is the corrupt furbolg camp located?",
@@ -74,7 +74,7 @@
     "what follows how big a threat",
     "quest continuation"
    ],
-   "answer": "Confirming the corruption prompts Terenthis to prepare defensive measures for Auberdine, continuing a quest chain focused on investigating the root source and countering the aggressive furbolgs nearby."
+   "answer": "Report any signs of corruption to Terenthis in Auberdine. His response to the findings is revealed when you return."
   },
   {
    "q": "Why are night elves so concerned about furbolg camps near Auberdine?",

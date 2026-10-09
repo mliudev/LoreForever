@@ -69,7 +69,7 @@ export function readMeta(raw) {
   if (!cid) return { error: "The picture needs its id (cid)." };
   const has = k => Object.hasOwn(m, k);
   const fields = {};
-  // Optional exact shot identity from Herald. Never infer it from a screenshot's clock or place.
+  // Optional exact shot identity from Sam. Never infer it from a screenshot's clock or place.
   if (has("character") || has("event_t")) {
     if (!(typeof m.character === "string" && /^[a-f0-9]{64}$/.test(m.character)) ||
         !Number.isInteger(m.event_t) || m.event_t < OLDEST || m.event_t > Math.floor(Date.now() / 1000) + 2 * 86400) {

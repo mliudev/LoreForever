@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Scholar on the Coast",
-   "body": "Perched at a small camp on the edge of the Zoram Strand, Talen spends his days pursuing historical curiosities rather than waging war. While the wilderness of Ashenvale is fraught with territorial skirmishes and hostile shoreline denizens, Talen remains focused on gathering long-lost treasures from the ruins submerged beneath the waves and sands. He relies heavily on passing adventurers to braving the savage Wrathtail naga and retrieve elusive artifacts\u2014including pristine statuettes and the talismans of dangerous sea-dwelling matriarchs like Ruuzel.",
+   "body": "Perched at a small camp on the edge of the Zoram Strand, Talen spends his days pursuing historical curiosities rather than waging war. While the wilderness of Ashenvale is fraught with territorial skirmishes and hostile shoreline denizens, Talen remains focused on gathering long-lost treasures from the ruins submerged beneath the waves and sands. He relies heavily on passing adventurers to brave the savage Wrathtail naga and retrieve elusive artifacts\u2014including pristine statuettes and the talismans of dangerous sea-dwelling matriarchs like Ruuzel.",
    "spoiler": 0
   }
  ],
@@ -30,8 +30,7 @@
    "q": "Why is Talen camping near the Zoram Strand?",
    "aliases": [
     "why is talen here",
-    "talen purpose",
-    "blackfathom camp purpose"
+    "talen purpose"
    ],
    "answer": "He is investigating the sunken ruins and shores of the Zoram Strand to recover ancient kaldorei artifacts. Because the beach is crawling with violent naga and lies close to the Horde outpost of Zoram'gar, he stays at a small campsite tucked away from the main shoreline."
   },
@@ -67,13 +66,11 @@
   "ancient statuette",
   "archaeologist",
   "ashenvale",
-  "blackfathom camp",
   "ruuzel",
   "talen",
   "zoram strand"
  ],
  "related": [
-  "subzone:blackfathom-camp",
   "subzone:zoram-strand",
   "quest:1007",
   "quest:1009",

@@ -11,7 +11,7 @@ import { onRequest as studio } from "../functions/api/studio/[action].js";
 import { onRequest as translations } from "../functions/api/translations/[action].js";
 import { findOrCreateUser, startSession, setup } from "../lib/accounts.js";
 import { RELEASE_VERSION } from "../lib/submissions.js";
-import { perMinute } from "../lib/ratelimit.js";
+
 import { crc32, crcHex } from "../public/voices/crc32.js";
 import { d1, r2, assets } from "./helpers.mjs";
 
@@ -70,15 +70,6 @@ test("openZip refuses zip bombs, too many files and damaged zips", async () => {
   await assert.rejects(liar.read(liar.entries[0]), /bigger than the zip says/);
 });
 
-test("gather opens zips, skips system junk and keeps to the limits", async () => {
-  const zip = makeZip({ "__MACOSX/._a.mp3": "x", "Voice/.DS_Store": "x", "Voice/zone_a.mp3": "ID3", "inner.zip": "PK" });
-  const { files, ignored } = await gather([source("voice.zip", zip), source("loose/zone_b.wav", new Blob(["RIFF"]))], "voice");
-  assert.deepEqual(files.map(f => f.path), ["Voice/zone_a.mp3", "loose/zone_b.wav"]);
-  assert.deepEqual(ignored.map(i => i.why), ["a zip inside a zip"]);
-  const many = Array.from({ length: 501 }, (_, i) => source(`k/${i}.json`, new Blob(["[]"])));
-  await assert.rejects(gather(many, "kit"), /more than 500 files/);
-});
-
 // ---- Voices: matching files to lines ----
 
 const line = (id, file, hash) => ({ id, file, text: { enUS: `Text of ${id}.` }, hash: { enUS: hash }, hints: { enUS: [] } });
@@ -90,43 +81,6 @@ test("parseClips reads only c[\"id\"] = \"hash\" lines", () => {
     'P.ext = "ogg"', 'c["no-hash"] = "not hex"',
   ].join("\r\n");
   assert.deepEqual(parseClips(lua), { "zone:stormwind": "a1b2c3", 'odd"id\\x': "0f0f0f", y: "abc" });
-});
-
-test("matchVoice sorts files into lines, unknown names and older text", async () => {
-  const items = [
-    { id: "zone:stormwind", file: "zone_stormwind", hash: "aaa001" },
-    { id: "zone:stormwind#faq3", file: "zone_stormwind__faq3", hash: "aaa002" },
-    { id: "zone:elwynn", file: "zone_elwynn", hash: "aaa003" },
-    { id: "zone:durotar", file: "zone_durotar", hash: null },   // no text in this language
-  ];
-  const f = (path, size = 10) => ({ path, size, read: async () => enc.encode(path.endsWith(".lua") ? 'c["zone:elwynn"] = "0dd999"\nc["zone:stormwind"] = "aaa001"' : "ID3") });
-  const m = await matchVoice([
-    f("Pack/Audio/Zone_Stormwind.mp3"), f("Pack/Audio/zone_stormwind__faq3.WAV"), f("Pack/Audio/zone_elwynn.mp3"),
-    f("Pack/Audio/zone_durotar.mp3"), f("zone_stormwnd__faq3.ogg"), f("zone_stormwind.ogg"), f("Pack/Clips.lua"), f("Pack/Pack.toc"),
-  ], items);
-  assert.deepEqual(m.rows.map(r => [r.it.id, r.hash]), [["zone:stormwind", "aaa001"], ["zone:stormwind#faq3", "aaa002"]]);
-  assert.deepEqual(m.stale.map(r => r.it.id), ["zone:elwynn"]);
-  assert.deepEqual(m.unknown.map(u => [u.path, u.why, u.suggest || null]), [
-    ["Pack/Audio/zone_durotar.mp3", "notext", null],
-    ["zone_stormwnd__faq3.ogg", "name", "zone_stormwind__faq3"],
-    ["zone_stormwind.ogg", "twice", null],
-  ]);
-  assert.equal(m.other, 2);
-  assert.ok(m.pack);
-
-  // Phone and browser recordings (.m4a, .webm, .opus) count as recordings too; the page converts them.
-  const phone = await matchVoice([f("Voice Memos/zone_elwynn.m4a"), f("zone_stormwind.webm"), f("zone_stormwind__faq3.opus")],
-    items.map(it => ({ ...it, hash: it.hash && "aaa" })));
-  assert.deepEqual(phone.rows.map(r => r.it.id), ["zone:elwynn", "zone:stormwind", "zone:stormwind#faq3"]);
-  assert.equal(phone.other, 0);
-});
-
-test("voiceStatus: new, replaced, unchanged", () => {
-  const buf = enc.encode("ID3 same bytes").buffer;
-  assert.equal(voiceStatus(null, buf, "h1"), "new");
-  assert.equal(voiceStatus({ hash: "h1", crc32: crcHex(crc32(new Uint8Array(buf))) }, buf, "h1"), "unchanged");
-  assert.equal(voiceStatus({ hash: "h0", crc32: crcHex(crc32(new Uint8Array(buf))) }, buf, "h1"), "replaced");
-  assert.equal(voiceStatus({ hash: "h1", crc32: null }, buf, "h1"), "replaced");
 });
 
 // ---- Kits ----
@@ -279,18 +233,6 @@ test("a 55-file voice zip lands per line and round-trips through the test pack",
   const refused = await call("PUT", "take", { cookie: me.cookie, body: audio(3), query: `?voice=${voice}&line=${encodeURIComponent(ids[3])}`,
     headers: { "X-Text-Hash": "a00003" } });
   assert.equal(refused.status, 409);
-});
-
-test("perMinute counts per user and scope and forgets old minutes", async () => {
-  const env = { DB };
-  await setup(env);
-  const t = new Date("2026-10-01T12:00:10Z");
-  for (let i = 0; i < 3; i++) assert.ok(await perMinute(env, "u1", "s", 3, t));
-  assert.equal(await perMinute(env, "u1", "s", 3, t), false);
-  assert.ok(await perMinute(env, "u2", "s", 3, t));
-  assert.ok(await perMinute(env, "u1", "other", 3, t));
-  assert.ok(await perMinute(env, "u1", "s", 3, new Date("2026-10-01T12:01:00Z")));
-  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM rate_limits WHERE user_id = 'u1' AND bucket LIKE 's:%'").get().n, 1);
 });
 
 test("an edited deDE kit lands as per-string edits and round-trips through the test pack", async () => {

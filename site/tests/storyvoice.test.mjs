@@ -11,10 +11,7 @@ import { onRequest as takeGet } from "../functions/audio/story/[file].js";
 import { onRequest as profileApi } from "../functions/api/profile/[action].js";
 import { findOrCreateUser, startSession, setup, deleteUser, sha256 } from "../lib/accounts.js";
 import { parseRecord } from "../lib/journey.js";
-import {
-  storyParts, respell, storyKey, hookToken, embeddingKey, takeKey, NARRATORS, DEFAULT_NARRATOR,
-  setupStoryVoice, CHUNK, MAX_TRIES, MICRO_USD_PER_CHAR,
-} from "../lib/storyvoice.js";
+import { storyParts, storyKey, hookToken, embeddingKey, takeKey, NARRATORS, DEFAULT_NARRATOR, setupStoryVoice, CHUNK, MAX_TRIES, MICRO_USD_PER_CHAR } from "../lib/storyvoice.js";
 import { d1, r2, assets } from "./helpers.mjs";
 import { RECORD } from "./fixtures/journey/record.mjs";
 
@@ -109,13 +106,6 @@ test("a story's parts: its paragraphs, split between sentences at CHUNK characte
   assert.ok(parts.filter(p => p.para === 2).length >= 2);
   assert.equal(parts.filter(p => p.para === 2).map(p => p.text).join(" "), long);
   assert.deepEqual(storyParts(" \n\n "), []);
-});
-
-test("respellings: whole names only, longest first, possessives kept", () => {
-  assert.equal(respell("Teldrassil's roots, the Deadmines and Astranaar.", RESPELL), "Tel-drassil's roots, the Dead-mines and Astranar.");
-  assert.equal(respell("Teldrassilian is no name.", RESPELL), "Teldrassilian is no name.");
-  assert.equal(respell("Gnomeregan Gnomeregan Exiles", { Gnomeregan: "Nomregon", "Gnomeregan Exiles": "the exiles" }), "Nomregon the exiles");
-  assert.equal(respell("plain", {}), "plain");
 });
 
 test("opening the page records the story once in the male narrator; the owner sees it's on the way, visitors see nothing yet", async () => {

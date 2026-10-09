@@ -9,12 +9,12 @@
 //               unlinked while off) and "Zones narrated" on voice profiles. The claims API works either way, and
 //               /voices/studio?zones=1 shows the box while it's off. On once Mike has seen it.
 //   lore        /lore and the lore entry pages (LOR-233, site/LORE_PAGES.md): indexable, in /lore/sitemap.xml, a
-//               Lore link in the header (in SITE_NAV while it's on; site/tests/nav.test.mjs keeps them in step), and
+//               Lore link in the header (in SITE_NAV while it's on), and
 //               player profiles' moments linking their lore pages (LOR-248). On since 2026-10-04 (Mike), with the
 //               narration recordings in R2 (scripts/upload-narration-r2.sh).
 //   companion   /account's profile section says the companion app can keep the profile up to date by itself
-//               (LOR-148), and Harold, the companion's herald, signs the story on player profiles (LOR-266). Linking
-//               (/link, /api/device/*, where Harold greets you either way), syncing and "Connected apps" work either
+//               (LOR-148), and Sam, the companion's squire, signs the story on player profiles (LOR-266). Linking
+//               (/link, /api/device/*, where Sam greets you either way), syncing and "Connected apps" work either
 //               way; only the invitation and the signature wait. On once Setup.exe ships the companion (LOR-132).
 //   pictures    The "Picture book" on player profiles (lib/pictures.js): the pictures the companion puts on the profile
 //               and GET /api/profile/pictures?handle= for visitors. Uploads, Remove and the image addresses work either

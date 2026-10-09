@@ -218,6 +218,10 @@ async function sync({ env }, input, { user, device }) {
   }
   const { data, error } = readRecord(input);
   if (error) return error;
+  // Canonical transport labels are independent of the player's chosen story language. Older clients still derive
+  // it from their localized record; never accept arbitrary language/prompt text from this field.
+  const locales = { enUS: "en", enGB: "en", deDE: "de", frFR: "fr", esES: "es", esMX: "es", ptBR: "pt", ruRU: "ru", ukUA: "uk" };
+  if (typeof input.record_locale === "string" && Object.hasOwn(locales, input.record_locale)) data.locale = locales[input.record_locale];
   // The journey data (LOR-248): kept as sent when it reads; an older companion (none) or one that doesn't read keeps
   // what the profile has.
   const journey = readJourney(input.journey, data) ?? undefined;
