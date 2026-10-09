@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Key in Mad Hands",
-   "body": "Carved from forest timber, the Wooden Key is held by the Crazed and Withered Ancients wandering the shaded trails north of Raynewood Retreat. The creeping foulness seeping out of Felwood has twisted these ancient guardians into aggressive, tormented shadows of their former selves. Somewhere in their descent into madness, they took custody of the key meant to secure Dartol's legacy.",
+   "body": "The Wooden Key is held by the Crazed and Withered Ancients wandering the shaded trails north of Raynewood Retreat. Shael'dryn once knew the local treants, but now describes their nature as twisted by corruption. One of them carries the key to a chest holding a piece of Dartol's Rod.",
    "spoiler": 0
   },
   {
@@ -48,7 +48,7 @@
     "why do treants have the key",
     "ancient key lore"
    ],
-   "answer": "The treants and ancients were once noble guardians trusted with protecting the glades and sacred relics. When demonic taint seeped down from Felwood, their minds broke, but they remained clinging to the relics and keys they once sheltered."
+   "answer": "Shael'dryn says that one of the corrupted treants near Felwood carries the key. She does not explain how it came into the treant's possession."
   },
   {
    "q": "Who sends you to retrieve the Wooden Key?",
@@ -56,7 +56,7 @@
     "wooden key questgiver",
     "who wants the wooden key"
    ],
-   "answer": "Shael'dryn, a dryad tending the moonwell at Raynewood Tower in Ashenvale, directs adventurers to recover the key as part of the effort to reassemble Dartol's Rod."
+   "answer": "Shael'dryn, a dryad tending the Moonwell of Purity in Ashenvale, directs adventurers to recover the key as part of the effort to reassemble Dartol's Rod."
   }
  ],
  "angles": [

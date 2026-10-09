@@ -26,7 +26,7 @@
   },
   {
    "title": "A Decisive Blast",
-   "body": "Reaching the heart of the Deadmines requires fighting through barricades, cutthroats, and goblin engineers. Armed with Extra-Destructive Explosives, an operative must plant the charge directly beside the forge works and make a hasty escape to the hills above Moonbrook, where Fairmoon waits to trigger the blast and permanently disable the brotherhood's manufacturing capability.",
+   "body": "Reaching the heart of the Deadmines requires fighting through barricades, cutthroats, and goblin engineers. Armed with Extra-Destructive Explosives, an operative must plant the charge directly beside the forge works and make a hasty escape to the hills above Moonbrook, where Fairmoon waits so they can detonate the explosives and hopefully allow the land to heal.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "what does the forge do",
     "forge poison"
    ],
-   "answer": "Beyond producing weapons and machinery for Edwin VanCleef's brotherhood, the metallurgical forge discharges toxic waste and fumes that poison the surrounding soil and water of Westfall."
+   "answer": "Alba suspects that a large metallurgical forge in the Deadmines is the source of the poison. She hopes its destruction will allow the land to begin healing."
   },
   {
    "q": "Where does the player meet Alba after planting the explosives?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Using specialized Extra-Destructive Explosives against heavy industrial infrastructure requires precise placement near key structural stress points to ensure total destruction of the forge."
+   "text": "Using specialized Extra-Destructive Explosives against heavy industrial infrastructure is the sabotage method Alba Fairmoon proposes for removing the suspected source of contamination."
   },
   {
    "target": "profession:Mining",

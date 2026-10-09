@@ -3,7 +3,6 @@
 
 import { DatabaseSync } from "node:sqlite";
 import { createHash } from "node:crypto";
-import { readFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { crc32 } from "../public/voices/crc32.js";
 
@@ -130,5 +129,3 @@ export function unzip(bytes) {
   }
   return out;
 }
-
-export const readText = path => readFile(path, "utf8");

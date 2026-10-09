@@ -26,7 +26,7 @@
   },
   {
    "title": "Necrotic Relics and Dark Whispers",
-   "body": "Beyond simply slaying the encroaching monstrosities and gathering their dim necrotic stones, the defense hinges on understanding the invaders' methods. Encircling their camp are glowing runic sigils, resonant with the same dark power suffusing the necropolis above. Those brave enough to step into the runes encounter unnatural voices echoing through the ether\u2014sinister conduits of communication bridging the vanguard directly to the malevolent wills guiding the Scourge invasion.",
+   "body": "Beyond simply slaying the encroaching monstrosities and gathering their dim necrotic stones, the defense hinges on understanding the invaders' methods. Encircling their camp are glowing runic sigils, resonant with the same dark power suffusing the necropolis above. Those brave enough to step into the runes encounter unnatural voices echoing through the ether\u2014suggesting communication of some kind, although Dagel does not know whom the voices contact.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "undead outside org",
     "lich king attacks orgrimmar"
    ],
-   "answer": "The Lich King has dispatched his undead forces and floating necropolises across the world to strike at major population centers. By placing troops right outside the gates of Durotar, the Scourge seeks to overwhelm and divide the Horde's forces directly at their seat of power."
+   "answer": "The assignment concerns Scourge forces camped outside Orgrimmar beneath a necropolis. Lieutenant Dagel asks defenders to thin their numbers and investigate the strange runic circles nearby."
   },
   {
    "q": "Who is Lieutenant Dagel?",
@@ -56,7 +56,7 @@
     "what are dim necrotic stones",
     "dim stones"
    ],
-   "answer": "Dim necrotic stones are foul remnants carried by the invading undead soldiers. They serve both as tangible proof of slain Scourge aberrations and as artifacts infused with the dark magic sustaining the invasion."
+   "answer": "Dim necrotic stones are recovered from Scourge invaders and brought to the Argent Dawn as proof of slain undead."
   },
   {
    "q": "What are the glowing runic circles outside the city?",
@@ -65,7 +65,7 @@
     "glowing runes org",
     "scourge circles"
    ],
-   "answer": "The runic circles are mystical conduits inscribed by the Scourge. Stepping into them reveals eerie whispers, indicating that they function as unnatural communication nodes linking the foot soldiers to commanding minds elsewhere."
+   "answer": "The glowing circles carry the same strange energy as the nearby undead and necropolis. Dagel asks defenders to investigate their purpose."
   },
   {
    "q": "Why is the Argent Dawn involved in Durotar?",
@@ -82,7 +82,7 @@
     "floating citadel org",
     "necropolis above durotar"
    ],
-   "answer": "Yes. A floating necropolis acts as a staging ground, bastion, and transport for Scourge troops. Its presence directly over Durotar's doorstep allows the undead to replenish their ground assault and project dark magic across the terrain."
+   "answer": "The necropolis looms over the Scourge encampment and shares its strange energy. Its presence makes the nearby undead threat a concern for the city."
   }
  ],
  "angles": [

@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Clue in Teronis's Notes",
-   "body": "Following the tragic death of the sentinel Teronis, Raene Wolfrunner examines the field notes he left behind. His research indicates that cleansing the tainted waters and blighted soil of Ashenvale hinges on an ancient artifact: a rod crafted long ago by a night elf named Dartol. With only a Glowing Gem in hand, Raene admits her tactical expertise as a huntress is ill-suited to deciphering lost arcane and natural mysteries.",
+   "body": "Following the tragic death of the sentinel Teronis, Raene Wolfrunner examines the field notes he left behind. His research indicates that investigating Ashenvale's troubled furbolgs may require an ancient artifact: a rod crafted long ago by a night elf named Dartol. With only a Glowing Gem in hand, Raene admits her tactical expertise as a huntress is ill-suited to deciphering lost arcane and natural mysteries.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "what is the rod",
     "rod of dartol"
    ],
-   "answer": "Dartol's Rod is a fabled relic created by an ancient night elf artisan named Dartol. It holds the power to sense and purge foul corruptions afflicting the sacred waters and wildlife of Ashenvale."
+   "answer": "Dartol's Rod is an ancient magical artifact that Raene Wolfrunner hopes will aid her investigation into Ashenvale's furbolgs. The recovered Glowing Gem is one of the pieces needed to restore it."
   },
   {
    "q": "Where can I find Shael'dryn?",
@@ -83,13 +83,13 @@
     "why is ashenvale corrupted",
     "iris lake danger"
    ],
-   "answer": "Since the Third War and the demonic taint unleashed by the Burning Legion, darkness has seeped into Ashenvale's elemental spirits, wildlife, and satyr haunts, prompting the Sentinels to seek purifying relics."
+   "answer": "Ashenvale's wildlife and furbolg tribes face spreading corruption and unrest. Raene hopes that restoring the rod will help her learn more about the furbolgs' plight."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Restoring Dartol's legacy honors fallen scouts and preserves sacred ancient holdings around the secluded moonwells of Ashenvale."
+   "text": "Restoring the rod continues Teronis's unfinished investigation into the troubles of Ashenvale's furbolgs."
   },
   {
    "target": "class:Druid",

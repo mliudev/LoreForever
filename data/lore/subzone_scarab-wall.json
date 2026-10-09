@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Scarab Wall"
  },
- "summary": "The Scarab Wall is a colossal barricade sealing off the southern border of Silithus from the insectoid empire of Ahn'Qiraj. Conjured at the end of the War of the Shifting Sands, the barrier combines stone and bronze dragonflight sorcery to keep ancient, crawling horrors contained. Today, it stands as an imposing reminder of the terrible cost paid to seal away the silithid menace.",
+ "summary": "The Scarab Wall is a colossal barricade at the southern border of Silithus, before the insectoid empire of Ahn'Qiraj. Conjured at the end of the War of the Shifting Sands, the barrier combined stone and bronze dragonflight sorcery to contain the ancient swarms. It stands as an imposing reminder of the terrible cost of that war.",
  "sections": [
   {
    "title": "Shield Against the Shadow",
@@ -16,7 +16,7 @@
   },
   {
    "title": "A Sealed Ruin",
-   "body": "Beyond the sandstone masonry and shimmering draconic wards lies the ruined city of Ahn'Qiraj, a stronghold built around an ancient, malevolent force. While the massive gates remain firmly shut, the recent surge of silithid hives across southern Kalimdor suggests that the barrier's seal may not hold forever. Mortal explorers who approach the wall can hear the muffled scratching of chitinous legs and feel the oppressive shadow that lingers over the entire perimeter.",
+   "body": "Beyond the sandstone masonry and draconic wards lies Ahn'Qiraj, a stronghold of the ancient qiraji. The wall was raised to imprison their armies after the War of the Shifting Sands. Its gates can be opened by ringing the Scarab Gong with the Scepter of the Shifting Sands, a relic tied to the dragons and Fandral Staghelm.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "can you go past scarab wall",
     "how to get past wall in silithus"
    ],
-   "answer": "No. The gates are sealed tight by ancient draconic enchantments, making the ruined kingdom behind it completely inaccessible to travelers."
+   "answer": "The Scarab Wall was raised to seal Ahn'Qiraj, but its gates can be opened by ringing the Scarab Gong with the Scepter of the Shifting Sands."
   }
  ],
  "angles": [

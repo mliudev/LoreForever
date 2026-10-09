@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "Tethers of the Isle",
-   "body": "The anchor pylons of Zephras are ancient, towering monoliths gifted by the spirits of the winds. Deeply woven into the isle's mystical foundation, they serve to bind, steady, and sustain the landmass amidst the churning skies. To look upon one is to witness the fragile balance keeping Zephras aloft, relying continuously on the benevolence of the wind spirits and the subterranean flows of the world.",
+   "body": "The anchor pylons of Zephras are ancient, towering monoliths gifted by the spirits of the winds. Deeply woven into the isle's mystical foundation, they serve to bind, steady, and sustain the landmass amidst the churning skies. To look upon one is to witness the fragile balance keeping Zephras aloft, relying continuously on the benevolence of the wind spirits.",
    "spoiler": 0
   },
   {
@@ -84,7 +84,7 @@
     "who made the pylons",
     "anchor pylon origin"
    ],
-   "answer": "The anchor pylons were granted to Zephras by the spirits of the winds. Their ambient power is tied closely to these wind spirits as well as the latent magical ley lines running beneath the isle."
+   "answer": "The anchor pylons were granted to Zephras by the spirits of the winds. Halaan says the pylons bind and sustain the island, but does not explain the source of their continuing power."
   }
  ],
  "angles": [
@@ -94,7 +94,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "While the anchors are elemental in origin, their reliance on the ley lines beneath Zephras indicates an intricate convergence of raw arcane conduits and atmospheric power."
+   "text": "Halaan distinguishes his keen eyesight from the magic of those who can draw upon the ley lines beneath Zephras."
   }
  ],
  "keywords": [

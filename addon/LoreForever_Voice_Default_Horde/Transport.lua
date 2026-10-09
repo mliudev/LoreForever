@@ -113,3 +113,163 @@ P.transport["npc:deathguard-dillinger"] = {
     {file = "Audio/Transport/full_npc_deathguard-dillinger-53a5710aad237e6b3ce6/1-0000.mp3", duration = 59.1934694, start = 0},
   },
 }
+P.transport["npc:dendrite-starblaze"] = {
+  hash = "e0e709",
+  fullHash = "fe9e35",
+  text = "Dendrite Starblaze. Dendrite Starblaze is a night elf druid residing in the sacred village of Nighthaven within Moonglade. Serving the Cenarion Circle, he acts as a vital mentor and guide for budding druids of both night elf and tauren descent. Through him, practitioners are summoned to the holy grove to master essential rites such as cleansing toxins and communing with nature's forms. Perched within Nighthaven, Dendrite Starblaze represents the nonpartisan, enduring spirit of the Cenarion Circle. When novice druids learn to attune their spirits to Teleport: Moonglade, Dendrite is among the first to welcome them upon arrival. He bridges the gap between ancient Kaldorei tradition and the emerging path of the tauren, treating all who heed the call of the wild as kin beneath the boughs of the sacred haven. Dendrite's primary duty involves initiating druidic apprentices into the deeper mysteries of nature. He directs novices through the trials required to understand poison and pestilence, sending them to examine tainted waters and discover herbal curatives. He also oversees the steps that lead druids to the water trials, testing their patience and endurance beneath the surface before granting communion with aquatic forms.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_dendrite-starblaze-dd613ea0cc6fbf9dcd10/1-0000.mp3", duration = 72.3853061, start = 0},
+  },
+}
+P.transport["npc:devrak"] = {
+  hash = "5e8cff",
+  fullHash = "ff180e",
+  text = "Devrak. Devrak is an orc wind rider master stationed at the Crossroads in the Barrens. Serving as the primary aerial conduit of central Kalimdor, he oversees the Horde's network of wyverns shuttling supplies and couriers between Durotar, Mulgore, and frontier outposts. He also ensures that crucial logistics, such as game meats and prepared hides, travel smoothly to the Horde's capitals. Positioned at the intersection of Kalimdor's major trade routes, Devrak tends the wyverns that keep the Horde unified across vast distances. The Crossroads sits exposed under the baking sun, vulnerable to quillboar, centaur, and Alliance scouts alike, making rapid aerial transit indispensable. Devrak handles both seasoned wayfarers and untested messengers, pairing riders with trained wind riders capable of crossing the savannah and reaching the mountain heights of Mulgore or the stone canyons of Durotar. Beyond ferrying travelers, Devrak plays a vital role in frontier logistics. The hunters of the Barrens harvest meat and pelts in abundance, which Devrak helps channel directly to the cooking fires of Orgrimmar and the tanners of Thunder Bluff. By introducing budding couriers to flight masters across the continents, he cements the aerial lifeline that feeds the Horde's heartlands. Flight masters in contested frontier territories cannot afford to be defenseless. Devrak is far more than a simple beast handler; when the Crossroads falls under attack, he calls upon enraged wyverns to tear into hostile intruders with venomous stingers and talons, making his roost a dangerous target for anyone bold enough to strike the settlement.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_devrak-712d256a2d082295bc55/1-0000.mp3", duration = 101.564082, start = 0},
+  },
+}
+P.transport["npc:eitrigg"] = {
+  hash = "bc7729",
+  fullHash = "78a7cb",
+  text = "Eitrigg. Eitrigg is a seasoned veteran of the First and Second Wars who stands beside Warchief Thrall as an esteemed advisor in Orgrimmar. Once a high-ranking lieutenant of the Blackrock clan, he became disillusioned with the old demonic Horde and lived in exile until an extraordinary friendship with a human paladin changed his fate. Today, he helps guide the New Horde back to its roots of honor and shamanism. Born on Draenor into the Blackrock clan, Eitrigg was once one of Warchief Blackhand's primary lieutenants alongside Orgrim Doomhammer and Varok Saurfang. When Doomhammer seized leadership of the Horde, Eitrigg remained a trusted officer and oversaw the captured half-orc assassin Garona. Although he initially dismissed her revelations regarding Gul'dan and the demonic corruption of the Shadow Council, the horrific battles and ultimate defeat of the Horde in the Second War forced him to confront the dark reality. Sickened by the realization of how his people had been manipulated, Eitrigg walked away from the scattered remnants and retreated into self-imposed exile, seeking only solitude in the wilds of Lordaeron. Years into his wilderness exile, Eitrigg was discovered sheltering in an abandoned tower near Hearthglen by the human paladin Tirion Fordring. Their initial clash collapsed the ruins, but instead of finishing the unconscious human, Eitrigg pulled him from the rubble to safety. Moved by this display of pure martial honor, Tirion swore an oath of friendship and refused to betray the hermit's location. When the local Alliance authorities ultimately captured Eitrigg and sentenced him to hang in Stratholme, Tirion threw away his own knighthood, lands, and freedom in an attack to rescue the condemned orc. This legendary bond proved to both warriors that honor transcended the bitter hatred between their species. During Tirion's desperate attempt to free Eitrigg in Stratholme, Thrall's newly united Horde raided the city and extracted the aging warrior. Meeting Thrall convinced Eitrigg that the orcs were throwing off the demonic taint and rediscovering their ancestral shamanic heritage. Returning with Thrall across the Great Sea to Kalimdor, Eitrigg took up a revered post in the Valley of Wisdom within Orgrimmar. He now stands inside Grommash Hold as an advisor to the young Warchief, helping evaluate new recruits and imparting his hard-earned wisdom so that the New Horde never repeats the tragedies of the past.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_eitrigg-6a40c8fc132835be60be/1-0000.mp3", duration = 143.621224, start = 0},
+  },
+}
+P.transport["npc:executor-arren"] = {
+  hash = "659b25",
+  fullHash = "842f4b",
+  text = "Executor Arren. Executor Arren is a high-ranking Forsaken officer stationed in Deathknell. He oversees the immediate defense and consolidation of the settlement as newly awakened undead emerge from their graves. Arren coordinates the local campaign against mindless Scourge zombies, feral beasts, and the encroaching zealots of the Scarlet Crusade. Standing resolute just outside the chapel in Deathknell, Executor Arren serves as the primary military voice for the nascent Forsaken within their awakening grounds. While the caretakers in the crypts guide newly raised undead through their disorientation, Arren directs their focus outward toward survival. Under Queen Sylvanas Windrunner's banner, he organizes local operations to sweep away mindless zombies that threaten the village borders, establishing secure territory in the shadow of Lordaeron's fall. Deathknell is surrounded by perils far deadlier than confused fledglings. Under Arren's orders, scouts and initiates strike at the vicious arachnids inhabiting Night Web's Hollow and eliminate dangerous predators haunting the woodland fringes. By demanding decisive action from every capable hand, Arren tests the fortitude of new arrivals, ensuring only those capable of defending their second chance at existence remain in the service of the Dark Lady.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_executor-arren-caf8003e68ecad93afa6/1-0000.mp3", duration = 78.2106122, start = 0},
+  },
+}
+P.transport["npc:executor-zygand"] = {
+  hash = "4fb161",
+  fullHash = "b99af6",
+  text = "Executor Zygand. Executor Zygand is a senior Forsaken commander stationed at the town hall in Brill, overseeing defensive and military operations across central Tirisfal Glades. Reporting directly to the Undercity's high command, he coordinates the purge of Scarlet Crusade forces pressing into Forsaken territory. Positioned at the administrative heart of Brill, Executor Zygand coordinates regional defense for the Forsaken after their initial awakening in Deathknell. Serving as the direct superior to regional officers like Executor Arren and field sentries such as Deathguard Linnea, Zygand synthesizes scout intelligence and dispatches able recruits to safeguard Lordaeron's borders from encroachment. Zygand's primary military concern is the fanatic presence of the Scarlet Crusade, which infests outposts across Tirisfal Glades. Under his direction, agents are sent systematically to strike at Crusader scouts, encampments, and forward bases, ensuring the zealots never muster sufficient strength to threaten the approaches to the Undercity.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_executor-zygand-5a5011bc938228b78a25/1-0000.mp3", duration = 62.2236735, start = 0},
+  },
+}
+P.transport["npc:gan-rul-bloodeye"] = {
+  hash = "601fb2",
+  fullHash = "673663",
+  text = "Gan'rul Bloodeye. Gan'rul Bloodeye is a senior orc warlock trainer residing deep within the dark cavern of the Cleft of Shadow in Orgrimmar. Hidden away from the watchful gaze of the city above, he initiates Horde warlocks into darker demonic rites. Under his instruction, initiates learn to bend otherworldly entities like voidwalkers and succubi to their will. While Warchief Thrall tolerates the presence of warlocks in the new Horde, their dark arts are not welcomed in the open sunlight of Durotar. Gan'rul Bloodeye makes his home in the Cleft of Shadow, a subterranean refuge beneath Orgrimmar where shadow weavers, rogues, and fel casters can study unmolested. From this subterranean perch, Gan'rul serves as a primary tutor for rising practitioners of fel magic. Gan'rul's primary duty is overseeing the dangerous summoning rituals required of ambitious warlocks. Practitioners seeking to bind greater demons—such as the resilient voidwalker or the seductive succubus—must consult Gan'rul to secure ritual components and learn the precise incantations needed to dominate the summoned creature before it consumes its master.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_gan-rul-bloodeye-dbd3ad89c5b39d4e9ff1/1-0000.mp3", duration = 69.7469388, start = 0},
+  },
+}
+P.transport["npc:gazrog"] = {
+  hash = "7eb672",
+  fullHash = "60499f",
+  text = "Gazrog. Gazrog is an orc warrior stationed at the Crossroads in the heart of the Barrens. Tasked with maintaining logistics and security along the savannah's perilous roads, he recruits able Horde travelers to deal with regional threats and investigate lost patrols. The Crossroads serves as the vital junction for all Horde transit through Kalimdor, but its isolation leaves supply lines vulnerable to marauders and beasts alike. Gazrog stands watch alongside the settlement's defenders, working to ensure that cargo, coin, and couriers reach their destinations. Maintaining order in a sprawling wilderness requires constant vigilance, and Gazrog relies heavily on passing adventurers to handle crises brewing beyond the outpost's stockades. Between predatory raptors harassing trails and aggressive quillboar clans ambushing scouts, Gazrog's duties never end. He frequently coordinates responses to highway robberies—such as retrieving stolen Horde shipments—and keeps track of missing soldiers like the grunt Dogran, who ended up an injured prisoner of the quilboar.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_gazrog-d8b9d2d975427021698c/1-0000.mp3", duration = 65.5934694, start = 0},
+  },
+}
+P.transport["npc:gornek"] = {
+  hash = "49e14c",
+  fullHash = "aad15d",
+  text = "Gornek. Gornek is an orc overseer stationed in the Valley of Trials in Durotar. He serves as the primary point of intake for fresh orc and Darkspear troll recruits preparing to prove their worth to the New Horde. Standing directly at the heart of the Valley of Trials, Gornek represents the initial test of discipline for aspiring Horde warriors, scouts, and spellcasters. Under Warchief Thrall's order, every youth and newcomer must earn their place through grit and perseverance rather than entitlement. Gornek assesses those stepping into the valley, reading their introductory orders and directing them to trainers throughout the compound. Whether an initiate carries an encrypted scrawl, a glyphic parchment, or a simple tablet, it is Gornek who receives their credentials and sets them upon their harsh path of survival. The arid canyons of the valley test more than battle prowess; they instill the communal ethos of the New Horde. Gornek ensures that novices do not linger aimlessly, pointing them toward the trials of the nearby scorpid burrows, the dens of feral boars, and the watchful eyes of veteran instructors. For those who survive the training grounds and slay the threats lurking in the red rock gullies, Gornek offers the final acknowledgment before dispatching them outward into the wider, perilous landscape of Durotar.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_gornek-c6f4fbe3bea73cfa80b1/1-0000.mp3", duration = 78.7853061, start = 0},
+  },
+}
+P.transport["npc:gunther-arcanus"] = {
+  hash = "aaccd3",
+  fullHash = "ae85b0",
+  text = "Gunther Arcanus. Gunther Arcanus is an exceptionally powerful necromancer dwelling on an isolated island in Brightwater Lake. Slain during the Third War and raised into undeath, he managed to shatter the Lich King's mental grip entirely on his own. Long believing he was the sole undead possessing free will, he defended his retreat against all outsiders until discovered by the Forsaken. Before the fall of Lordaeron, Gunther was a promising apprentice among the Kirin Tor in Dalaran. Alongside close friends Bethor Iceshard and Thule Ravenclaw, he studied the arcane arts, secretly delving into necromancy despite the Kirin Tor's strict prohibitions against dark magic. To commemorate their brotherhood, the trio once bound their apprentice wands together into a single heirloom. When the Scourge swept across the north during the Third War, Gunther perished to the Plague of Undeath and was raised into servitude. Unlike most who required the Lich King's power to weaken or Lady Sylvanas to break their chains, Gunther's raw arcane mastery and sheer willpower allowed him to shake off the Lich King's mental domination entirely by himself. Convinced that every other walking corpse remained a mindless thrall of the Scourge, he retreated to an island in Tirisfal Glades, surrounding himself with shambling guardians and cutting off all contact with the living and dead alike.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_gunther-arcanus-c8dfa8b3ba1bfb53fec7/1-0000.mp3", duration = 83.7485714, start = 0},
+  },
+}
+P.transport["npc:islen-waterseer"] = {
+  hash = "442247",
+  fullHash = "426d80",
+  text = "Islen Waterseer. Islen Waterseer is a respected tauren shaman who dwells beside a quiet fishing hut on the Tidus Stair, overlooking the eastern sea of the Barrens. Possessing an intimate communion with the spirits of water, she guides initiates on the trials necessary to attune with the element. Novice shamans across the Horde seek her wisdom to earn their Water Totem. Far from the bustling crossroads and encampments of the Barrens, Islen Waterseer lives along the craggy coastline known as the Tidus Stair. Here, where the arid plains break against the Great Sea, the presence of the water spirits is raw and pervasive. Rather than dwelling in thunderous halls or busy cities, Islen prefers this quiet outpost, dedicating her days to listening to the tides and assisting shamans who seek communion with the fluid element. Understanding water requires more than simple study; it demands internal harmony and spiritual perception. Islen guides seekers through the preparation of the Water Sapta, a sacred brew that pierces the veil between mortal senses and elemental manifestations. Her teachings remind shamans that water is as unyielding and deep as it is fluid and restorative, requiring immense respect from any who hope to call upon its aid. While Islen maintains a quiet life on the coast, her spiritual reach and connections extend across Kalimdor. She maintains a close, enduring friendship with Greta Mosshoof, another wise tauren versed in the restorative arts. Through these connections, Islen's knowledge of water's purifying essence touches matters well beyond the Barrens, even offering spiritual aid to lands afflicted by deep corruption.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_islen-waterseer-60bc2800a858fa5e8300/1-0000.mp3", duration = 98.0897959, start = 0},
+  },
+}
+P.transport["npc:kadrak"] = {
+  hash = "5a62d3",
+  fullHash = "449018",
+  text = "Kadrak. Kadrak is a seasoned orc commander stationed at the Mor'shan Rampart on the border between the Barrens and Ashenvale. Tasked with safeguarding the northern frontier, he coordinates the flow of dispatches and reinforcements into the contested forest. For Horde adventurers pushing past the arid plains, Kadrak serves as the gateway to the ongoing struggle against the night elves. Standing atop the fortified timber barricades of the Mor'shan Rampart, Kadrak watches over the primary route connecting the Barrens to Ashenvale. The border is a precarious frontier: to the south lie the sun-scorched plainsclaimed by the Horde, while to the north loom the ancient woods guarded fiercely by the night elves. Kadrak ensures that the defensive perimeter remains unbroken against encroaching Sentinels and hostile woodland creatures. Beyond holding the line, Kadrak manages essential military intelligence between the Barrens and the forward logging camps deeper in the forest. He receives couriers bearing critical combat reports from the Warsong Outriders and coordinates the movement of supplies and fresh blood into outpost hubs like Splintertree Post. Those reporting to him are promptly directed into the heart of the territorial war.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_kadrak-b1a9b2206bbf7620de2a/1-0000.mp3", duration = 70.5567347, start = 0},
+  },
+}
+P.transport["subzone:the-den"] = {
+  hash = "0e9c7b",
+  fullHash = "c98189",
+  text = "The Den. The Den is the sheltered cave at the heart of the Valley of Trials in southwestern Durotar. Serving as the primary base of operations for young orc and troll adventurers, it provides martial and magical training before they set out into the wider world. Tucked into the red canyon walls of the Valley of Trials, the Den serves as an austere proving ground. Within its carved, shadowy interior, novice fighters, spellcasters, and hunters report to veterans like Gornek and Zureetha Fargaze. It is here that fledglings receive their foundational combat instruction, supplies, and initial rites of passage, hardening them for the harsh realities of Durotar and the greater struggles facing the new Horde. Beyond housing class trainers and provisions, the Den functions as an active field redoubt. Between dispatching new recruits to cull the local beasts and aggressive quillboars, the overseers maintain a strict, vigilant watch over the valley.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_the-den-18ed732acf2db843ee7b/1-0000.mp3", duration = 57.1297959, start = 0},
+  },
+}
+P.transport["subzone:tiragarde-keep"] = {
+  hash = "99f7e6",
+  fullHash = "970fe2",
+  text = "Tiragarde Keep. Tiragarde Keep is a fortified human stronghold situated along Durotar's Scuttle Coast, south of Razor Hill. Originally built during Grand Admiral Daelin Proudmoore's invasion, the ruined citadel remains garrisoned by hostile Kul Tiran marines under Lieutenant Benedict. It serves as a defiant, permanent thorn in the Horde's side right on their home territory. Erected during Grand Admiral Daelin Proudmoore's campaign to eradicate Thrall's newly founded realm, Tiragarde Keep provided the Kul Tiran fleet an entrenched beachhead on the red shores of Durotar. Although the Horde eventually broke the siege and killed Proudmoore at Theramore Isle, the keep was never fully abandoned. Resupply forces under Lieutenant Benedict reclaimed the shattered stone walls, following the late Admiral's standing orders to wage an unyielding war against the orcs, entirely refusing the peace forged by Lady Jaina Proudmoore. Today, the keep's gleaming white battlements stand in harsh contrast against Durotar's crimson cliffs. Well-trained Kul Tiras sailors and marines patrol the ramparts and launch raids targeting supply lines near Razor Hill. For the Horde, Tiragarde Keep is an ongoing security crisis and a live proving ground. Orc and troll commanders constantly task young warriors with assaulting the fortress and cutting down Benedict's soldiers, seeking to contain the garrison before the humans can mount a deeper inland offensive.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_tiragarde-keep-9be23ad3a8c4fa492a49/1-0000.mp3", duration = 85.7338776, start = 0},
+  },
+}
+P.transport["subzone:tor-kren-farm"] = {
+  hash = "95c1bf",
+  fullHash = "a20287",
+  text = "Tor'kren Farm. Tor'kren Farm is a quiet, struggling swine farm nestled in northwestern Durotar, tucked between Thunder Ridge and the Southfury River. It is maintained solely by Misha Tor'kren, an aging orc widow whose life has been weighed down by grief and the harsh frontier. Carving out a living from the dry, unforgiving red dirt of Durotar is never simple, but Tor'kren Farm has had a harder time than most. Situated southeast of Thunder Ridge, the homestead focuses on raising pigs in a rugged climate where feed and water are scarce. Unlike the bustling trade posts or heavily defended barracks of the Horde, the farm stands isolated and quiet, producing meager yields in the shadow of nearby bluffs. The farm's greatest burden is not poor soil, but tragedy. Misha Tor'kren once worked these pens alongside her beloved son, Kron. That life ended when Kron journeyed down to the Southfury River to hunt the ferocious crocolisks lurking along the banks and never returned. Left to carry on alone, Misha tends the swine by herself, holding fast to her homestead and clinging to the memory of her fallen child.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_tor-kren-farm-77b1a0e0889a812de6f9/1-0000.mp3", duration = 68.3885714, start = 0},
+  },
+}
+P.transport["subzone:valley-of-honor"] = {
+  hash = "5b627d",
+  fullHash = "b1d730",
+  text = "Valley of Honor. The Valley of Honor serves as the martial core and warrior district of Orgrimmar, nestled in the northeastern canyons of the capital. It houses the city's barracks, warrior and hunter guilds, and the battlemasters directing Horde forces across Azeroth. With active forges, training rings, and quiet waters, it is where the Horde hones its strength and remembers its martial heritage. Situated behind high canyon ridges, the Valley of Honor acts as Orgrimmar's primary military quarter. Here, the clatter of practice weaponry and the ringing of blacksmith anvils define daily life. The Hall of the Brave dominates the valley, serving as a gathering point for seasoned warriors and battlemasters coordinating campaigns across battlefronts like Alterac Valley and Warsong Gulch. Flanked by training facilities for beastmasters and hunters, the district is dedicated entirely to equipping, drilling, and mobilizing the Horde's frontline defenders. Beyond arms and drill grounds, the valley supports the logistics of war. The Burning Anvil and Red Canyon Mining supply armor and raw iron, while engineers tinker nearby in Nogg's Machine Shop. Between duties, grunts and visiting adventurers cast a line into the valley's surprisingly serene secluded pool, offering brief moments of calm away from the dusty bustle of the Valley of Strength.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_valley-of-honor-48328412b6815db03b5e/1-0000.mp3", duration = 82.2857143, start = 0},
+  },
+}
+P.transport["subzone:valley-of-spirits"] = {
+  hash = "ecc975",
+  fullHash = "09b7b9",
+  text = "Valley of Spirits. Tucked against the western cliffs of Orgrimmar, the Valley of Spirits serves as the long-standing seat of the Darkspear tribe within the Horde's capital. Filled with thatched lodges, tiki poles, and serene pools, it offers a stark contrast to the surrounding red stone and iron-clad orcish architecture. Branching westward off the bustling Valley of Strength, the Valley of Spirits is a lush and quiet enclave dedicated to the Darkspear trolls. When the tribe settled in Durotar alongside Thrall's orcs, this tranquil pocket among the crags became their urban gathering place. Trollish craftspeople, spiritualists, and practitioners gather around its wooden bridges and winding waters, practicing their arts away from the dry heat of the main thoroughfares. Beyond its dwellings and tranquil pools, the valley hosts practitioners of magic and wild crafts. Witch doctors, herbalists, and spellcasters congregate in lodges like the Spirit Lodge and Darkbriar Lodge. Tucked toward the back is the Talon Gate, which opens directly toward the open plains of the Barrens, offering quick passage for wanderers, hunters, and travelers roaming beyond the canyon walls.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_valley-of-spirits-b36f3fd5bd3bbde4daec/1-0000.mp3", duration = 68.7804082, start = 0},
+  },
+}
+P.transport["subzone:valley-of-strength"] = {
+  hash = "9cdf88",
+  fullHash = "1d5c21",
+  text = "Valley of Strength. The Valley of Strength is the bustling central commons of Orgrimmar, greeting all who pass through the city's towering front gates. Housing the city bank, the central auction house, and the Broken Tusk inn, it serves as the beating commercial and administrative heart of the Horde capital. Step past the fortified timber gates of Orgrimmar and you enter the Valley of Strength. Carved deep into the red canyon rock of Durotar, this valley serves as the Horde's front square. Adventurers, merchants, and warriors from all allied nations mingle across its dusty plazas, swapping war stories over flagons from the Broken Tusk inn or attending to vital trade at the central bank and auction house. It is a bustling testament to the strength and unity the orcs fought to establish in their new homeland. Beyond its defensive significance, the valley functions as the capital's foremost marketplace. Shops such as Soran's Leather and Steel Armory sell armor, while various vendors supply provisions for long treks across the Barrens. Grunts stand vigilant watch at every corner, directing newcomers and ensuring order among the diverse peoples who have taken refuge beneath Thrall's banner.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_valley-of-strength-e3ff5a37f56254845d96/1-0000.mp3", duration = 70.6873469, start = 0},
+  },
+}
+P.transport["subzone:venomweb-vale"] = {
+  hash = "2848b3",
+  fullHash = "4d08ff",
+  text = "Venomweb Vale. Venomweb Vale is a shadowed valley in eastern Tirisfal Glades, sitting just south of the Scarlet Monastery. Once a lush woodland teeming with game, the vale has devolved into a blighted nest overrun by aggressive, venomous arachnids. Unknown to most who pass through, it also holds an ancient legacy as the sacred meeting place of the Council of Tirisfal. Before the plague consumed Lordaeron, this valley was a peaceful retreat of lush grass and verdant trees, favored by local hunters tracking deer and rabbits. Today, rot and creeping gloom dominate the landscape. Giant, venomous spiders swarm among the trees and hollows, led by the monstrous arachnid Sri'skulk. The vale's northern edge borders the territory of the Scarlet Crusade, where darkhounds prowl near the fortified Scarlet Encampment under Lieutenant Sanders. Long before spiders infested the hollows, the vale served as the clandestine gathering ground for the ancient Council of Tirisfal. It was here that the very first Guardian of Tirisfal was empowered to battle demonic incursions. In a desperate and misguided attempt to secure their sanctuary against intruders, one council member bred and unleashed the deadly spiders that plague the basin today. An odd boulder of fool's gold—the result of a centuries-old transmutation mishap by the apprentice Falric—still marks the secluded spot where Guardian Aegwynn once convened with the Council.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_venomweb-vale-e6ffa558f006e497b70f/1-0000.mp3", duration = 88.9469388, start = 0},
+  },
+}
+P.transport["subzone:war-quarter"] = {
+  hash = "87fe29",
+  fullHash = "815c7e",
+  text = "War Quarter. The War Quarter is the northwestern district of the Undercity, serving as the command post and martial training ground for the Forsaken. Within its echoing stone chambers, the soldiers, priests, and crafters of Lordaeron hone their weapons and shadow magic in defense of their fledgling kingdom. It houses training halls for warriors and priests alongside weapon masters and heavy industry. Occupying the northwest sector of the subterranean metropolis, the War Quarter stands as the bastion of martial strength for the Forsaken. Beneath its gloomy stone arches, rank-and-file guards and elite champions assemble to drill in armed combat. Unlike traditional barracks of living kingdoms, this military center combines ruthless iron warfare with the chilling rites of shadow, housing an ominous Altar of Darkness where spiritual discipline merges with military ambition. Beyond housing warrior and priest guilds, the quarter functions as the heart of Undercity's wartime production. The clatter of blades and armor echoes continually against the stone, supported by the district's blacksmiths, smelters, and weapon masters. Here, iron forged deep in the earth is shaped to outfit the forces defending the ruins of Lordaeron from the Scourge and Scarlet Crusade.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_war-quarter-54ca54d7486ee543589d/1-0000.mp3", duration = 71.8367347, start = 0},
+  },
+}
+P.transport["subzone:whispering-shore"] = {
+  hash = "03a14a",
+  fullHash = "f5f184",
+  text = "Whispering Shore. The Whispering Shore is a somber stretch of coastline in western Tirisfal Glades, resting just north of the Solliden Farmstead. Once a tranquil and bountiful retreat for Lordaeron's fishermen, its cold waters have since been overrun by a violent tribe of murlocs. Before the Third War swept across northern Lordaeron, the Whispering Shore was renowned among locals as a favored fishing haven, celebrated for its calm waters and plentiful catches. Today, the chilling spray of the Great Sea crashes against an empty coast stripped of its peaceful past. The waters have grown cold and dark, devoid of their former bounty, and any unfortunate traveler wandering down from the hills risks being ambushed by territorial coastal dwellers. The beach is now firmly claimed by a band of hostile murlocs who ruthlessly attack anyone approaching the surf. Led by a fierce chieftain named Muad, these aquatic scavengers guard the shallows and tidal flats aggressively, posing a constant danger to nearby roads and the nearby Solliden Farmstead.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_whispering-shore-1555bc03bb6193540933/1-0000.mp3", duration = 64, start = 0},
+  },
+}

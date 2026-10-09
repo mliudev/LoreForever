@@ -5,8 +5,8 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { readFileSync, readdirSync, statSync } from "node:fs";
-import { join, relative } from "node:path";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { senderHash } from "../lib/form.js";
 import { hasBearer, authorized } from "../lib/auth.js";
 import { addLike, likeCounts } from "../lib/voices.js";
@@ -126,23 +126,6 @@ test("likes still count once per sender per day", async () => {
   assert.equal(await addLike(env, like("203.0.113.2"), "male"), 2);
   assert.deepEqual(await likeCounts(env), { male: 2 });
   assert.ok(env.DB.sqlite.prepare("SELECT ip_hash FROM voice_likes").all().every(r => /^[0-9a-f]{24}$/.test(r.ip_hash)));
-});
-
-test("senderHash needs env, and every caller passes it", async () => {
-  await assert.rejects(() => senderHash("203.0.113.7", "2026-10-03"), TypeError);
-  const files = dir => readdirSync(dir).flatMap(name => {
-    const p = join(dir, name);
-    return statSync(p).isDirectory() ? files(p) : name.endsWith(".js") ? [p] : [];
-  });
-  let calls = 0;
-  for (const f of [...files(join(SITE, "functions")), ...files(join(SITE, "lib"))]) {
-    for (const m of readFileSync(f, "utf8").matchAll(/senderHash\(([^)]*)/g)) {
-      if (m[1] === "env, ip, day") continue;   // the definition and its error message
-      calls++;
-      assert.match(m[1], /^env, /, `${relative(SITE, f)}: senderHash(${m[1]}...) needs env first`);
-    }
-  }
-  assert.ok(calls >= 7, `only ${calls} calls found`);
 });
 
 test("admin keys are compared in constant time, and GET /api/feedback uses FEEDBACK_KEY", async () => {

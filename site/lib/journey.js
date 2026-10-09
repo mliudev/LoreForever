@@ -551,7 +551,8 @@ export function readJourney(input, data = null, now = new Date()) {
   for (const e of out) if (e.by && !foes.has(e.by)) delete e.by;
   if (!out.length) return null;
   out.sort((a, b) => a.t - b.t);
-  return { v: JOURNEY_V, tz: int(input.tz, -840, 840) ?? 0, moments: out };
+  const character = typeof input.character === "string" && /^[a-f0-9]{64}$/.test(input.character) ? input.character : null;
+  return { v: JOURNEY_V, tz: int(input.tz, -840, 840) ?? 0, moments: out, ...(character ? { character } : {}) };
 }
 
 // One entry into its section's list. Returns the entry a moment section added (for its time), else nothing.

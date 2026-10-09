@@ -3,7 +3,7 @@
  "type": "npc",
  "name": "Bath'rah the Windwatcher",
  "era": "classic",
- "zone": "barrens",
+ "zone": "alterac",
  "meta": {
   "wiki": "Bath'rah the Windwatcher",
   "refs": 1
@@ -37,7 +37,7 @@
     "why is bathrah in alterac",
     "troll in alterac mountains"
    ],
-   "answer": "Though native to warmer climates, Bath'rah chose a hermit's life in the northern highlands to study wild mountain tempests and track the great elemental Cyclonian, which he could not encounter in his homeland."
+   "answer": "Bath'rah lives as a hermit near Chillwind Point, studying elemental power and helping capable adventurers forge weapons. His reasons for leaving his former homeland are not established."
   },
   {
    "q": "What is Cyclonian?",

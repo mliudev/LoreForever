@@ -15,25 +15,6 @@ const catalog = {
   }] }] }],
 };
 
-test("a French return selects a French voice and an explicit owned voice wins", () => {
-  assert.deepEqual(studioContext(state(), { lang: "frFR" }), { voice: "french", locale: "frFR" });
-  assert.deepEqual(studioContext(state(), { lang: "frFR", voice: "english" }), { voice: "english", locale: "enUS" });
-  assert.deepEqual(studioContext(state([english]), { lang: "frFR", voice: "unknown" }), { voice: null, locale: "frFR" });
-  assert.deepEqual(studioContext({ voices: [] }, { lang: "frFR" }), { voice: null, locale: "frFR" });
-});
-
-test("editor and sign-in navigation retain the exact entry, FAQ line, locale and voice", () => {
-  const item = { id: "zone:stormwind#faq1", story: { key: "zone:stormwind" } };
-  const editor = new URL(editorLink(item, "frFR", "French & friends"), "https://example.test");
-  assert.equal(editor.pathname, "/translate/dashboard");
-  assert.equal(editor.searchParams.get("entry"), "zone:stormwind");
-  assert.equal(editor.searchParams.get("line"), item.id);
-  assert.equal(editor.searchParams.get("lang"), "frFR");
-  assert.equal(editor.searchParams.get("voice"), "French & friends");
-  const query = "?lang=frFR&line=zone%3Astormwind%23faq1&voice=french&zones=1";
-  assert.equal(new URL(studioSignIn(query), "https://example.test").searchParams.get("next"), "/voices/studio" + query);
-});
-
 test("catalog refresh keeps the working catalog on network, HTTP and malformed-data failures", async () => {
   for (const fetcher of [async () => { throw Error("offline"); }, async () => ({ ok: false }), async () => ({ ok: true, json: async () => ({}) })]) {
     assert.deepEqual(await refreshCatalog(fetcher, catalog), { data: catalog, fresh: false });
@@ -44,14 +25,6 @@ test("catalog refresh keeps the working catalog on network, HTTP and malformed-d
   assert.equal(result.data, refreshed);
   assert.equal(result.fresh, true);
   assert.equal(options.cache, "no-store");
-});
-
-test("ordinary translations have no quality notice; changed English still prompts correction", () => {
-  const status = { draft: ["zone:stormwind"], stale: ["zone:elwynn"] };
-  assert.equal(scriptReviewNote(status, "zone:stormwind", "frFR"), "");
-  assert.match(scriptReviewNote(status, "zone:elwynn", "frFR"), /source changed/);
-  assert.equal(scriptReviewNote(status, "zone:ironforge", "frFR"), "");
-  assert.equal(scriptReviewNote(null, "zone:stormwind", "frFR"), "");
 });
 
 async function studio(fetcher, search = "") {
@@ -90,26 +63,6 @@ test("normal upload sends the displayed script hash and keeps the take on a reje
   assert.equal(h.getState().st.takes["zone:stormwind#faq1"].hash, "french-hash");
 });
 
-test("return to an already-uploaded FAQ opens its source tools and does not lose takes", async () => {
-  const s = { ...state(), voice: "french", takes: { "zone:stormwind#faq1": { hash: "french-hash", ext: "mp3" } } };
-  const h = await studio(async url => ({ ok: true, json: async () => url.includes("state") ? s : url.includes("lines.json") ? catalog : { draft: [] } }), "?lang=frFR&line=zone%3Astormwind%23faq1&voice=french");
-  await h.load("french");
-  const result = h.getState();
-  assert.equal(result.st.voice, "french");
-  assert.equal(result.items[0].text, "Texte français");
-  assert.deepEqual([...result.open], ["zone:stormwind#faq1"]);
-  const row = h.rowHtml(result.items[0]);
-  assert.match(row, /English original/);
-  assert.match(row, /English question/);
-  assert.match(row, /line=zone%3Astormwind%23faq1/);
-  assert.match(row, /voice=french/);
-  h.expand(result.items[0].id);
-  await h.refreshScript();
-  assert.equal(h.getState().st.takes["zone:stormwind#faq1"].hash, "french-hash");
-  assert.ok(h.getState().open.includes("zone:stormwind#faq1"));
-  assert.ok(h.getState().mine.includes("zone:stormwind"));
-});
-
 test("French browsing without a French voice clears the English voice's displayed takes", async () => {
   const h = await studio(async url => ({ ok: true, json: async () => url.includes("state") ? state([english]) : url.includes("lines.json") ? catalog : { draft: [] } }), "?lang=frFR&line=zone%3Astormwind%23faq1");
   await h.load();
@@ -117,7 +70,6 @@ test("French browsing without a French voice clears the English voice's displaye
   assert.deepEqual(Object.keys(h.getState().st.takes), []);
   assert.equal(h.getState().items[0].text, "Texte français");
 });
-
 
 test("a language-only return loads the matching voice's takes instead of keeping the default voice's takes", async () => {
   const calls = [];

@@ -17,7 +17,7 @@
   "wiki": "Velora Nitely and the Brutal Legguards",
   "chain": []
  },
- "summary": "This quest directs seasoned Horde warriors from the Barrens across the sea to the Undercity in Lordaeron. There, the Forsaken armorsmith Velora Nitely uses her retained mortal craftsmanship to forge specialized Brutal Legguards. It represents a vital step in assembling a durable set of plate armor for the Horde's front-line champions.",
+ "summary": "This quest directs seasoned Horde warriors from the Barrens across the sea to the Undercity in Lordaeron. There, the Forsaken armorsmith Velora Nitely uses her retained mortal craftsmanship to forge specialized Brutal Legguards. It represents a vital step in assembling a durable set of armor for the Horde's front-line champions.",
  "sections": [
   {
    "title": "A Journey Across the Sea",
@@ -47,7 +47,7 @@
     "thun'grim undercity quest",
     "barrens to undercity warrior"
    ],
-   "answer": "While Thun'grim Firegaze oversees your training in the Barrens, crafting the full Brutal Armor set requires specialized artisans across the Horde. He recognizes Velora's unmatched reputation for plate legwear and dispatches you to Lordaeron to commission the legguards directly."
+   "answer": "While Thun'grim Firegaze oversees your training in the Barrens, crafting the full Brutal Armor set requires specialized artisans across the Horde. He recognizes Velora's unmatched reputation for armor and dispatches you to Lordaeron to commission the legguards directly."
   },
   {
    "q": "Where can I find Velora Nitely in the Undercity?",
@@ -65,7 +65,7 @@
     "dragonmaw shinbones quest",
     "what does velora want"
    ],
-   "answer": "Upon greeting you in the Undercity, Velora requires rare materials to actually forge the armor. She tasks you with acquiring sturdy materials from dangerous adversaries in the Wetlands to craft the Dragonmaw Shinbones."
+   "answer": "Velora asks you to collect shinbones from Dragonmaw orcs in the Wetlands so she can use them to craft your Brutal Legguards."
   },
   {
    "q": "Does Velora have any dialogue about being undead?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This quest represents a key milestone for Horde warriors around level 30, expanding their journey beyond Kalimdor to acquire specialized class plate armor."
+   "text": "This quest represents a key milestone for Horde warriors around level 30, expanding their journey beyond Kalimdor to acquire specialized class armor."
   },
   {
    "target": "race:Undead",

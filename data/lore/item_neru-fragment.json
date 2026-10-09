@@ -14,8 +14,13 @@
  "sections": [
   {
    "title": "Piece of the Goaz Stone",
-   "body": "Discovered by the dwarven archaeological expedition led by Prospector Whelgar, the Goaz Stone broke apart into four distinct remnants: the Ados, Modr, Golm, and Neru fragments. When raptors overrun the dig site, work ground to a halt, leaving the Neru Fragment buried beneath loose soil amid the aggressive beasts. Recovering this fragment is crucial for reassembling the tablet, allowing dwarven scholars to decipher a forgotten record that references a divine plan, ancient prophecies, and the dark entities bound deep beneath the world.",
+   "body": "Discovered by the dwarven archaeological expedition led by Prospector Whelgar, the Goaz Stone broke apart into four distinct remnants: the Ados, Modr, Golm, and Neru fragments. When raptors overrun the dig site, work ground to a halt, leaving the Neru Fragment buried beneath loose soil amid the aggressive beasts. Recovering this fragment is crucial for reassembling the tablet, allowing dwarven scholars to decipher a forgotten record whose surviving words mention a divine plan and a doomed prophecy.",
    "spoiler": 0
+  },
+  {
+   "title": "Reading the Restored Tablet",
+   "body": "Once the four fragments restore the Goaz Stone, Prospector Whelgar continues translating its Titan script. The newly legible words speak of Old Gods chained beneath the land.",
+   "spoiler": 1
   }
  ],
  "faq": [
@@ -44,7 +49,7 @@
     "what does the goaz stone say",
     "uncovering the past ending"
    ],
-   "answer": "Prospector Whelgar pieces the tablet back together to translate its Titan script, which reveals an ominous inscription about Old Gods chained beneath the land."
+   "answer": "Prospector Whelgar pieces the Goaz Stone back together so he can continue translating its Titan script and investigate the mystery hinted at by its surviving text."
   }
  ],
  "angles": [

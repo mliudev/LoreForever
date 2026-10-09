@@ -5,7 +5,7 @@
  "era": "classic",
  "zone": "shadowfang",
  "meta": {
-  "wiki": "Commander Springvale",
+  "wiki": "Commander Springvale (Classic)",
   "refs": 5
  },
  "summary": "Commander Springvale was once a devoted paladin and the head of Baron Silverlaine's armed guard at Shadowfang Keep. Slain alongside his men during the feral worgen slaughter orchestrated by Archmage Arugal, his vengeful spirit remains behind to haunt the castle halls. Even in death, his ghost fiercely guards the keep and seeks vengeance for his fallen master.",
@@ -21,8 +21,8 @@
    "spoiler": 0
   },
   {
-   "title": "An Unholy Vigil",
-   "body": "Death offered no release to Springvale's bound soul. Twisted by trauma and necromantic energy, his ghost lingers within the keep's stone chambers. Though he carried the teachings of the Light in life, his phantom now strikes out with unholy power, blindly executing an eternal duty to avenge the slain Baron against any trespasser who sets foot inside the keep.",
+   "title": "An Endless Vigil",
+   "body": "Death offered no release to Springvale. His ghost haunts the keep's council room alongside its spectral soldiers. He still wields paladin powers, including Holy Light and Hammer of Justice, against intruders.",
    "spoiler": 0
   }
  ],
@@ -55,13 +55,13 @@
    "answer": "Twisted in death, his spirit remains bound by his final oaths. Springvale's ghost wanders the halls to defend the ruins and seek vengeance for his fallen lord against all who enter."
   },
   {
-   "q": "Why does a former paladin use unholy powers?",
+   "q": "What powers does Springvale use?",
    "aliases": [
     "why unholy magic",
     "springvale unholy abilities",
     "corrupted paladin"
    ],
-   "answer": "The violent trauma of his death and the dark magic pervading the keep corrupted his spirit. In his spectral state, the holy vows he once wielded have warped into vengeful, unholy power."
+   "answer": "Springvale retains paladin abilities in undeath, healing with Holy Light and stunning enemies with Hammer of Justice."
   },
   {
    "q": "Who was his master?",
@@ -118,6 +118,7 @@
   "topic:horde"
  ],
  "attribution": [
+  "Commander Springvale (Classic)",
   "Commander Springvale"
  ]
 }

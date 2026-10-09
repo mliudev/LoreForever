@@ -883,7 +883,7 @@ dd { margin: 0; }
 .pf-story-text p { transition: color 0.3s; }
 .pf-story-text.pf-playing p { color: var(--muted); }
 .pf-story-text p.pf-reading { color: var(--text); }
-/* Harold, the Lore Forever herald (LOR-266): his signature under the story, and his line on /link. */
+/* Sam, the Lore Forever squire (LOR-266): his signature under the story, and his line on /link. */
 .pf-signed { display: flex; align-items: center; gap: 10px; margin: 4px 0 0; color: var(--parchment); font: italic 1rem Georgia, "Times New Roman", serif; }
 .pf-signed img { flex: none; padding: 4px; border-radius: 50%; border: 2px solid var(--gold-soft); background: #2a2014; }
 .lk-herald { display: flex; align-items: flex-end; gap: 12px; margin: 8px 0 18px; }
@@ -1440,9 +1440,11 @@ dd { margin: 0; }
 }
 .dl-page .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 
-/* Picture events stay readable while their exact matched thumbnail opens large. */
+/* Journey moments stay readable while their nearby pictures open large. */
 .pf-m:has(.pf-picture:not([hidden])):not([hidden]) { grid-template-columns:14px minmax(0,1fr) 96px; gap:12px; }
 .pf-m:has(.pf-picture:not([hidden])) > div { min-width:0; }
+.pf-pictures { display:grid; gap:6px; }
+.pf-pictures-waiting .pf-pictures { display:flex; flex-wrap:wrap; gap:12px; }
 .pf-picture { display:block; flex:0 0 96px; align-self:flex-start; border-radius:5px; overflow:hidden; border:1px solid var(--line); }
 .pf-picture img { display:block; width:96px; height:64px; object-fit:cover; }
 .pf-picture:focus-visible { outline:3px solid var(--gold); outline-offset:3px; }

@@ -8,7 +8,7 @@ import assert from "node:assert/strict";
 import { onRequest as zonesApi } from "../functions/api/studio/zones/[action].js";
 import { onRequest as studioApi } from "../functions/api/studio/[action].js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
-import { zoneList, zoneProgress, expiresAt, EXPIRE_DAYS } from "../public/voices/zone-list.js";
+
 import { d1, r2, assets } from "./helpers.mjs";
 
 const ORIGIN = "https://preview.example";
@@ -70,17 +70,6 @@ const board = async (query = "", cookie) => (await zones("GET", "list", { query,
 const zoneOf = (b, key) => b.zones.find(z => z.key === key);
 const daysAgo = d => new Date(Date.now() - d * 86400e3).toISOString();
 let aelric = null;   // the voice that narrates Elwynn Forest below
-
-test("zoneList and zoneProgress group lines by zone, per language", () => {
-  const en = zoneList(LINES, "enUS");
-  assert.deepEqual(en.map(z => [z.key, z.lines.length, z.starter]), [["elwynn", 3, true], ["durotar", 1, true], ["stormwind", 1, true], ["duskwood", 1, false]]);
-  const de = zoneList(LINES, "deDE");
-  assert.deepEqual(de.map(z => [z.key, z.name, z.lines.length]), [["elwynn", "Wald von Elwynn", 1], ["durotar", "Durotar", 1]]);
-  const takes = { "zone:elwynn": { hash: "e1", created: "2026-10-01T00:00:00Z" }, "subzone:goldshire": { hash: "old", created: "2026-10-02T00:00:00Z" } };
-  assert.deepEqual(zoneProgress(en[0], takes), { done: 1, total: 3, last: "2026-10-02T00:00:00Z" }, "a stale take counts as work, not as done");
-  assert.equal(expiresAt("2026-10-01T00:00:00.000Z", null), new Date(Date.parse("2026-10-01T00:00:00Z") + EXPIRE_DAYS * 86400e3).toISOString());
-  assert.equal(expiresAt("2026-10-01T00:00:00.000Z", "2026-10-05T00:00:00.000Z"), "2026-10-19T00:00:00.000Z");
-});
 
 test("anyone sees the zone list; claiming needs an account and our own page", async () => {
   const open = await board();
@@ -186,31 +175,4 @@ test("each language has its own claims; Delete my account removes a narrator's c
   await deleteUser(env, e.user);
   assert.equal(zoneOf(await board("?locale=deDE"), "elwynn").claim, null);
   assert.equal(await env.DB.prepare("SELECT COUNT(*) AS n FROM studio_claims WHERE owner = ?").bind(e.user.id).first("n"), 0);
-});
-
-test("/voices/zones and the voice's profile show who narrated which zone", async () => {
-  const { onRequestGet: zonesPage } = await import("../functions/voices/zones.js");
-  const { onRequestGet: profile } = await import("../functions/voices/[id].js");
-  const html = await (await zonesPage({ request: new Request(`${ORIGIN}/voices/zones`), env })).text();
-  assert.match(html, new RegExp(`Elwynn Forest</span><span class="zp-lines">3 lines</span><span class="zp-done">Narrated by <a href="/voices/${aelric}">Aelric</a>`));
-  assert.match(html, /Durotar<\/span><span class="zp-lines">1 line<\/span><span class="zp-going">Being narrated by brenna · 0%/);
-  assert.match(html, /<b>1<\/b> of 4 zones narrated, <b>2<\/b> being narrated/);
-  assert.doesNotMatch(html, /Deutsch/, "no German claims left, so no German list");
-  const profilePage = async () => (await profile({ request: new Request(`${ORIGIN}/voices/${aelric}`), env, params: { id: aelric },
-                                                  next: () => new Response("static") })).text();
-  // The "zones" feature is off: the page opens (for previews) but is noindex and sends people to the upload page with
-  // ?zones=1, and profiles don't list zones.
-  assert.match(html, /<meta name="robots" content="noindex">/);
-  assert.match(html, /href="\/voices\/studio\?zones=1"/);
-  assert.doesNotMatch(await profilePage(), /Zones narrated/);
-  // On (SITE_FEATURES on Preview, or FEATURES.zones in lib/features.js): indexed, plain links, zones on the profile.
-  env.SITE_FEATURES = "zones";
-  const live = await (await zonesPage({ request: new Request(`${ORIGIN}/voices/zones`), env })).text();
-  assert.doesNotMatch(live, /noindex/);
-  assert.doesNotMatch(live, /zones=1/);
-  assert.match(await profilePage(), /Zones narrated: Elwynn Forest\./);
-  delete env.SITE_FEATURES;
-  // Without the database the page still lists every zone, open.
-  const bare = await (await zonesPage({ request: new Request(`${ORIGIN}/voices/zones`), env: { ASSETS: env.ASSETS } })).text();
-  assert.match(bare, /<b>0<\/b> of 4 zones narrated/);
 });

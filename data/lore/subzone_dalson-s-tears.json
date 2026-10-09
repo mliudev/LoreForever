@@ -49,19 +49,19 @@
    "answer": "The plague cauldron is protected by Cauldron Lord Malvinious, an undead commander serving the Scourge, flanked by hordes of blighted zombies, skeletal terrors, and rotting cadavers."
   },
   {
-   "q": "Who is locked inside the outhouse?",
+   "q": "What is known about the locked outhouse?",
    "aliases": [
     "outhouse monster",
     "who is in the outhouse",
     "farmer dalson"
    ],
-   "answer": "Farmer Dalson is trapped inside the outhouse. As the plague took hold of him, his wife locked him inside, where he ultimately transformed into a ravenous ghoul."
+   "answer": "The locked outhouse is part of the abandoned farm. Mrs. Dalson's diary offers clues for anyone investigating what happened to the family."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The ruined homestead is a stark reminder of the fate shared by all people of Lordaeron before Sylvanas Windrunner broke the Lich King's control over the Forsaken."
+   "text": "The ruined homestead is a stark reminder of the fate shared by many people of Lordaeron before Sylvanas Windrunner broke the Lich King's control over the Forsaken."
   },
   {
    "target": "class:Paladin",

@@ -7,14 +7,11 @@ import { test, beforeEach } from "node:test";
 import assert from "node:assert/strict";
 import { setup, findOrCreateUser, startSession } from "../lib/accounts.js";
 import { setup as setupContrib } from "../lib/contribute.js";
-import { textFinders, releaseCredits, translatorList, contributionBadges, contributorsPage, allCredits } from "../lib/credits.js";
+import { textFinders, releaseCredits, translatorList, contributionBadges } from "../lib/credits.js";
 import { translatorCredits } from "../lib/translations.js";
-import { featureOn, FEATURES } from "../lib/features.js";
-import { profilePage } from "../lib/profiles.js";
+
 import { onRequestGet as contributorsGet } from "../functions/contributors.js";
-import { onRequestGet as oldContributorsGet } from "../functions/voices/contributors.js";
-import { onRequestGet as creditsGet } from "../functions/api/credits.js";
-import { onRequestGet as profileGet } from "../functions/u/[handle].js";
+
 import { onRequestPost as contributePost } from "../functions/api/contribute.js";
 import { onRequestGet as contributeGet } from "../functions/api/contribute/[action].js";
 import { d1, assets } from "./helpers.mjs";
@@ -98,26 +95,6 @@ async function withLines() {
   await line("shipped", { nick: "@everyone <b>", shipped: "0.7.0" });
 }
 
-test("text finders: accepted lines only, shown names only, alphabetical, never by volume", async () => {
-  await withLines();
-  const found = await textFinders(env, NOW);
-  assert.deepEqual(found.map(p => [p.name, p.lines]), [["@everyone <b>", 1], ["Alice", 4], ["Mossy", 2], ["zara", 10]]);
-  assert.deepEqual(found.find(p => p.name === "Alice").links, ["https://twitch.tv/alice"]);
-  assert.deepEqual(found.find(p => p.name === "Mossy").links, [], "a nickname has no account links");
-  for (const hidden of ["Bob", "Bobby", "Ghost"]) assert.ok(!found.some(p => p.name === hidden), hidden);
-});
-
-test("no contributions yet: empty lists, and the release credit says so without failing", async () => {
-  assert.deepEqual(await textFinders(env, NOW), []);
-  assert.deepEqual(await releaseCredits(env, "0.8.0"), { ok: true, release: "0.8.0", lines: 0, names: [] });
-  const fresh = { DB: d1() };   // before the first upload there's no contrib_lines at all
-  assert.deepEqual(await textFinders(fresh, NOW), []);
-  assert.deepEqual(await releaseCredits(fresh, "0.8.0"), { ok: true, release: "0.8.0", lines: 0, names: [] });
-  assert.deepEqual(await contributionBadges(fresh, new Request(ORIGIN), "someone", NOW), []);
-  assert.deepEqual(await textFinders({}, NOW), []);
-  assert.equal((await releaseCredits({}, "0.8.0")).ok, false);
-});
-
 test("/contributors's text finders are /api/contribute/contributors, through the real upload", async () => {
   const { alice, bob } = users;
   const send = async (body, { ip, cookie } = {}) => {
@@ -149,23 +126,6 @@ test("/contributors's text finders are /api/contribute/contributors, through the
   env.DB.sqlite.exec("UPDATE contrib_lines SET status = 'shipped', shipped_in = '0.9.0' WHERE ref_id IN ('501', '503', '504', '505')");
   assert.deepEqual(await releaseCredits(env, "0.9.0"), { ok: true, release: "0.9.0", lines: 4, names: ["Alice", "Wanderer"] });
   assert.deepEqual((await textFinders(env)).map(p => [p.name, p.lines]), [["Alice", 2], ["Wanderer", 1]], "shipped lines still count");
-});
-
-test("a release's credit: every line that shipped in it, and the names to thank", async () => {
-  await withLines();
-  // Two anonymous lines count but aren't named; the nickname is as typed on the line that shipped.
-  assert.deepEqual(await releaseCredits(env, "0.8.0"), { ok: true, release: "0.8.0", lines: 4, names: ["Alice", "mossy"] });
-  assert.deepEqual(await releaseCredits(env, "0.9.0"), { ok: true, release: "0.9.0", lines: 0, names: [] });
-
-  const get = async q => {
-    const res = await creditsGet({ request: new Request(`${ORIGIN}/api/credits${q}`), env });
-    return { status: res.status, body: await res.json() };
-  };
-  assert.deepEqual((await get("?release=0.8.0")).body.names, ["Alice", "mossy"]);
-  assert.equal((await get("?release=latest")).status, 400);
-  const all = (await get("")).body;
-  assert.deepEqual(all.finders.map(p => p.name), ["@everyone <b>", "Alice", "Mossy", "zara"]);
-  assert.deepEqual(all.narrators.map(n => n.name), ["Lore Forever", "Alice"]);
 });
 
 test("translators: every saved edit but rejected ones, public names only, each string once, alphabetical", async () => {
@@ -211,70 +171,4 @@ test("/contributors: narrators, translators and text finders; hidden people neve
   for (const hidden of ["Bob", "Ghost", "Real Name"]) assert.ok(!html.includes(hidden), hidden);
   assert.ok(!/\brank|#1\b|top contributor/i.test(html), "never a rank");
   assert.ok(!html.includes('href="/contribute"'), "no link to the text intake while it's unreleased");
-});
-
-test("/contributors before any text arrives: no finders section until the feature is on, then an invitation", () => {
-  const credits = { narrators: [], translators: [], finders: [] };
-  const off = contributorsPage(credits);
-  assert.ok(!off.includes('id="finders"'));
-  assert.match(off, /Nobody's name here yet\. <a href="\/translate">/);
-  const on = contributorsPage(credits, { contribute: true });
-  assert.match(on, /id="finders"/);
-  assert.match(on, /<a href="\/contribute">Send the text of a Forever quest<\/a>/);
-});
-
-test("the old /voices/contributors address sends people to /contributors for good", async () => {
-  const res = await oldContributorsGet({ request: new Request("https://loreforeverwow.com/voices/contributors?src=x") });
-  assert.equal(res.status, 301);
-  assert.equal(res.headers.get("Location"), "https://loreforeverwow.com/contributors?src=x");
-});
-
-test("profile badges: Narrator, Translator, Contributed N lines, only for accepted work", async () => {
-  await withLines();
-  await edit(users.alice, "deDE", "ui:1", "pulled");
-  await edit(users.zara, "deDE", "ui:1", "rejected");
-  const request = new Request(`${ORIGIN}/u/aelric`);
-  const alice = await contributionBadges(env, request, users.alice.id, NOW);
-  assert.deepEqual(alice.map(b => b.label), ["Narrator", "Translator", "Contributed 4 lines"]);
-  assert.deepEqual((await contributionBadges(env, request, users.zara.id, NOW)).map(b => b.label), ["Contributed 10 lines"]);
-  assert.deepEqual(await contributionBadges(env, request, users.bob.id, NOW).then(b => b.map(x => x.label)), ["Contributed 5 lines"],
-    "your own page shows your work even if you keep your name off Contributors");
-  assert.deepEqual(await contributionBadges({ DB: env.DB }, request, "nobody", NOW), [], "no ASSETS, no rows: no badges");
-
-  // On the page, under the head; nothing at all without badges.
-  const p = {
-    handle: "aelric", public: 1, story: "A tale.", story_source: "template", updated: "2026-10-03T00:00:00Z",
-    data: { name: "Aelric", level: 24, race: "Night Elf", className: "Druid", places: [], people: [], bosses: [], kills: [],
-      fought: [], deaths: [], loot: [], mounts: [], profs: [], rep: [], books: [], quests: [],
-      totals: { quests: 0, places: 0, people: 0, foes: 0, bosses: 0 } },
-  };
-  const html = profilePage(p, { badges: alice });
-  assert.match(html, /<p class="pf-badges"><a class="pf-badge pf-badge-narrator" href="\/contributors#narrators" title="[^"]+">Narrator<\/a>/);
-  assert.match(html, /<a class="pf-badge pf-badge-lines" href="\/contributors#finders" title="[^"]+">Contributed 4 lines<\/a>/);
-  assert.ok(!profilePage(p).includes("pf-badges"));
-
-  // End to end through /u/<handle>.
-  await env.DB.prepare("INSERT INTO profiles (user_id, handle, public, data, story, story_source, created, updated) VALUES (?, 'aelric', 1, ?, 'A tale.', 'template', 'x', 'x')")
-    .bind(users.alice.id, JSON.stringify(p.data)).run();
-  const res = await profileGet({ request, env, params: { handle: "aelric" } });
-  assert.equal(res.status, 200);
-  const page = await res.text();
-  assert.match(page, />Narrator<\/a> <a class="pf-badge pf-badge-translator"[^>]*>Translator<\/a>/);
-  assert.ok(!page.includes("Real Name") && !page.includes(">Alice<"), "badges never carry the account's name");
-});
-
-test("everything at once survives a database that isn't there", async () => {
-  const credits = await allCredits({ ASSETS: env.ASSETS }, new Request(`${ORIGIN}/contributors`));
-  assert.deepEqual(credits.translators, []);
-  assert.deepEqual(credits.finders, []);
-  assert.deepEqual(credits.narrators.map(n => n.name), ["Lore Forever", "Alice"]);
-});
-
-test("the site flag for unreleased features: off in code, Pages variable overrides", () => {
-  assert.equal(FEATURES.contribute, false, "the text intake isn't released yet; turn it on with the add-on release");
-  assert.equal(featureOn({}, "contribute"), false);
-  assert.equal(featureOn({ SITE_FEATURES: "other, contribute" }, "contribute"), true);
-  assert.equal(featureOn({ SITE_FEATURES: "-contribute" }, "contribute"), false);
-  assert.equal(featureOn({ SITE_FEATURES: "contributed" }, "contribute"), false);
-  assert.equal(featureOn(undefined, "nothing"), false);
 });

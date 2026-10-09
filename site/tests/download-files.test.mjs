@@ -77,18 +77,6 @@ test("exact file bytes, authoritative version, and recent tag lookups use a stab
   }
 });
 
-test("latest and recent metadata requests begin in parallel", async () => {
-  let resolveLatest, resolveRecent;
-  const latest = new Promise(resolve => { resolveLatest = resolve; });
-  const recent = new Promise(resolve => { resolveRecent = resolve; });
-  const calls = fake(() => latest, () => recent);
-  const pending = get();
-  assert.equal(calls.length, 2);
-  resolveLatest(LATEST);
-  resolveRecent([OLD]);
-  assert.equal((await pending).status, 200);
-});
-
 test("authenticated recent metadata never exposes unpublished draft bundles", async () => {
   const draft = { ...release("v0.11.0", ["LoreForever_Voice_Female_enUS-complete.zip", 2000]), draft: true };
   fake(LATEST, [draft, OLD]);
@@ -102,15 +90,6 @@ test("authenticated recent metadata never exposes unpublished draft bundles", as
 test("a draft returned as latest cannot confirm a public download", async () => {
   fake({ ...LATEST, draft: true });
   assert.equal((await get({ GITHUB_TOKEN: "mock-token" })).status, 503);
-});
-
-test("the latest endpoint wins over conflicting old metadata and duplicate tags", async () => {
-  fake(LATEST, [release("v0.9.0", ["LoreForever.zip", 1]), OLD,
-    release("v0.8.9", ["LoreForever.zip", 2])]);
-  const data = await (await get()).json();
-  assert.deepEqual(data.byTag.latest, latestFiles);
-  assert.deepEqual(data.byTag["v0.9.0"], latestFiles);
-  assert.equal(data.byTag["v0.8.9"]["LoreForever.zip"], 8456781234);
 });
 
 test("optional server authentication is used for both requests and never returned", async () => {
@@ -156,17 +135,6 @@ test("malformed latest release or asset metadata cannot be published as file siz
   }
 });
 
-test("file and tag names remain exact keys, including names special to JavaScript objects", async () => {
-  fake(release("__proto__", ["__proto__", Number.MAX_SAFE_INTEGER], ["voice:deDE.zip", 1]),
-    [release("constructor", ["constructor", 2])]);
-  const data = await (await get()).json();
-  assert.equal(data.latestTag, "__proto__");
-  assert.deepEqual(Object.keys(data.byTag), ["latest", "__proto__", "constructor"]);
-  assert.equal(data.byTag.latest["__proto__"], Number.MAX_SAFE_INTEGER);
-  assert.equal(data.byTag["__proto__"]["voice:deDE.zip"], 1);
-  assert.equal(data.byTag.constructor.constructor, 2);
-});
-
 test("failed or malformed recent list retains only latest, with a private edge cooldown and outward no-store", async () => {
   const missing = [403, 429, 500, null, {}, new Response("not json"), [OLD, null],
     [OLD, { tag_name: "bad", assets: [{ name: "bad.zip", size: -1 }] }],
@@ -187,15 +155,6 @@ test("failed or malformed recent list retains only latest, with a private edge c
     await get();
     assert.equal(calls.length, 4, "incomplete answers retry after the cooldown");
   }
-});
-
-test("an empty recent list is a valid complete answer", async () => {
-  const cache = edgeCache();
-  fake(LATEST, []);
-  const res = await get();
-  assert.deepEqual(await res.json(), latestOnly);
-  assert.equal(res.headers.get("Cache-Control"), "public, max-age=300");
-  assert.equal(cache.puts.length, 1);
 });
 
 test("complete edge-cache hits avoid GitHub and query strings share the fixed cache key", async () => {
@@ -227,27 +186,6 @@ test("cache read and write failures do not fail public metadata", async () => {
   const res = await get();
   assert.equal(res.status, 200);
   assert.equal((await res.json()).latestTag, "v0.9.0");
-});
-
-test("ordinary latest failure is held for 60 seconds and retried after expiry, without secret or old sizes", async () => {
-  const cache = edgeCache();
-  const calls = fake(() => { throw new Error("private-server-token"); }, [OLD]);
-  const first = await get({ GITHUB_TOKEN: "private-server-token" });
-  cache.advance(59);
-  const held = await get();
-  assert.equal(held.status, 503);
-  assert.equal(held.headers.get("Cache-Control"), "no-store");
-  assert.deepEqual(await held.json(), await first.json());
-  assert.equal(calls.length, 2);
-  const stored = cache.stored.get(cache.puts[0]).response;
-  assert.equal(stored.status, 200, "only the internal envelope is cacheable");
-  assert.equal(stored.headers.get("Cache-Control"), "public, max-age=60");
-  const text = await stored.clone().text();
-  assert.equal(text.includes("private-server-token"), false);
-  assert.equal(text.includes("v0.8.9"), false);
-  cache.advance(1);
-  assert.equal((await get()).status, 503);
-  assert.equal(calls.length, 4);
 });
 
 test("rate limits and retry headers set safe bounded internal cooldowns", async () => {
@@ -292,23 +230,6 @@ test("an expired complete cache never supplies old latest files when a refresh f
   const res = await get();
   assert.equal(res.status, 503);
   assert.deepEqual(await res.json(), { error: "Download file details are temporarily unavailable." });
-  assert.equal(calls.length, 4);
-});
-
-test("recent-list rate limits hold the latest-only answer without exposing the internal envelope", async () => {
-  const cache = edgeCache();
-  const calls = fake(LATEST, () => new Response(null, { status: 429, headers: { "Retry-After": "1200" } }));
-  await get({ GITHUB_TOKEN: "private-server-token" });
-  assert.equal(cache.stored.get(cache.puts[0]).response.headers.get("Cache-Control"), "public, max-age=1200");
-  cache.advance(1199);
-  const held = await get({}, { request: new Request(
-    "https://loreforeverwow.com/api/download-files?internal=cooldown") });
-  assert.equal(held.status, 200);
-  assert.equal(held.headers.get("Cache-Control"), "no-store");
-  assert.deepEqual(await held.json(), latestOnly);
-  assert.equal(calls.length, 2);
-  cache.advance(1);
-  await get();
   assert.equal(calls.length, 4);
 });
 

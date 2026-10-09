@@ -190,7 +190,7 @@ function facts(d, spec) {
   return out.join("\n");
 }
 
-const LANGUAGES = { en: "English", de: "German", fr: "French", es: "Spanish (Spain)", pt: "Brazilian Portuguese" };
+const LANGUAGES = { en: "English", de: "German", fr: "French", es: "Spanish (Spain)", pt: "Brazilian Portuguese", ru: "Russian", uk: "Ukrainian" };
 
 const SYSTEM = `You write the short story of a World of Warcraft character for their profile page on Lore Forever, a site where players share their journeys. Their friends will read it.
 
@@ -599,7 +599,7 @@ function badgeLine(badges) {
 // "pictures" feature, or ?pictures=1), else null. asVisitor: the owner is viewing it as a visitor (LOR-302; pass
 // owner false): the visitor's page with visitorBar on top. query: what the owner's links keep ("pictures=1").
 // viewer: whoever is signed in, for the header (lib/voices.js siteNav); still the owner when viewing as a visitor.
-// herald: Harold, the Lore Forever herald (LOR-266), signs the story (the "companion" feature).
+// herald: Sam, the Lore Forever squire (LOR-266), signs the story (the "companion" feature).
 // listen: the Listen box over the story (lib/storyvoice.js listenBox, LOR-316), or "".
 export function profilePage(p, { links = [], owner = false, badges = [], names = linker(null), lore = false,
                                  pictures = null, asVisitor = false, query = "", viewer = null, herald = false,
@@ -659,7 +659,7 @@ export function profilePage(p, { links = [], owner = false, badges = [], names =
     <div class="pf-story-text" lang="${d.locale === "en" || p.story_source !== "written" ? "en" : escape(d.locale)}">
       ${paragraphs(p.story)}
     </div>${herald ? `
-    <p class="pf-signed"><img src="/img/harold-head.svg" alt="" width="48" height="48"><span>Written by Harold, the Lore Forever herald</span></p>` : ""}
+    <p class="pf-signed"><img src="/img/harold-head.svg" alt="" width="48" height="48"><span>Written by Sam the Squire</span></p>` : ""}
   </section>
   ${zones.length ? `<section class="vp-section" aria-labelledby="road-title">
     <h2 id="road-title">The road so far</h2>

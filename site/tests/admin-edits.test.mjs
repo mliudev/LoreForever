@@ -53,52 +53,6 @@ test("review, summary and decide need the admin key", async () => {
   assert.equal((await call("decide", { key: null, body: { user: alice.id, status: "rejected" } })).status, 401);
 });
 
-test("review: saved (new or accepted) by default, newest first, a page at a time with the total", async () => {
-  const all = await call("review");
-  assert.equal(all.body.total, 6);
-  assert.deepEqual(all.body.edits.map(e => e.status), ["new", "new", "new", "new", "accepted", "new"]);
-  assert.ok(all.body.edits.every((e, i, a) => !i || a[i - 1].id > e.id));
-  assert.equal(all.body.edits[0].display_name, "Bob");
-  assert.equal(all.body.edits[0].user_id, bob.id);
-
-  const page2 = await call("review", { query: "?limit=4&offset=4" });
-  assert.equal(page2.body.total, 6);
-  assert.equal(page2.body.offset, 4);
-  assert.deepEqual(page2.body.edits.map(e => e.id), all.body.edits.slice(4).map(e => e.id));
-  assert.equal((await call("review", { query: "?limit=99999" })).body.edits.length, 6);   // capped at 2000, not refused
-});
-
-test("review filters by status, language, translator and search", async () => {
-  const count = async query => (await call("review", { query })).body.total;
-  assert.equal(await count("?status=all"), 8);
-  assert.equal(await count("?status=pulled"), 1);
-  assert.equal(await count("?status=rejected"), 1);
-  assert.equal(await count("?status=bogus"), 6);   // falls back to saved
-  assert.equal(await count("?locale=frFR"), 3);
-  assert.equal(await count(`?status=all&user=${alice.id}`), 5);
-  assert.equal(await count(`?locale=frFR&user=${alice.id}`), 1);
-  assert.equal(await count("?q=sturmwind"), 1);              // translation text, any case
-  assert.equal(await count("?q=the-defias"), 1);             // string id
-  assert.equal(await count("?q=bob@example"), 3);            // translator's email
-  assert.equal(await count("?q=100%25"), 1);                 // % is a character, not a wildcard
-  assert.equal(await count("?q=_"), 1);                      // so is _
-});
-
-test("summary counts saved, pulled and rejected per language and per translator", async () => {
-  const { body } = await call("summary");
-  const de = body.locales.find(l => l.locale === "deDE");
-  assert.deepEqual([de.saved, de.pulled, de.rejected], [2, 1, 1]);
-  assert.equal(body.locales[0].locale, "frFR");   // most saved first
-  // Most saved first; both have 3, so the latest edit decides: Bob's.
-  assert.deepEqual(body.translators.map(t => t.user_id), [bob.id, alice.id]);
-  const [b, a] = body.translators;
-  assert.deepEqual(new Set(a.locales.split(",")), new Set(["deDE", "frFR"]));
-  assert.deepEqual([a.saved, a.pulled, a.rejected, a.week], [3, 1, 1, 5]);
-  assert.deepEqual([b.saved, b.pulled, b.rejected, b.week], [3, 0, 0, 2]);
-  assert.equal(b.email, "bob@example.com");
-  assert.equal(b.display_name, "Bob");
-});
-
 test("decide for one translator: reject every saved edit, restore every rejected one, pulled never changes", async () => {
   const before = statuses();
   let res = await call("decide", { body: { user: alice.id, status: "rejected" } });

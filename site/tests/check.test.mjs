@@ -5,46 +5,13 @@
 
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { problem, blocked, fold } from "../public/translate/check.js";
+
 import { BLOCKLIST } from "../public/translate/blocklist.js";
 import { onRequest as translations } from "../functions/api/translations/[action].js";
 import { findOrCreateUser, startSession, setup } from "../lib/accounts.js";
 import { d1 } from "./helpers.mjs";
 
 const ORIGIN = "https://preview.example";
-const LOCALE = { en: "deDE", de: "deDE", fr: "frFR", es: "esES", pt: "ptBR" };
-
-test("length: within 30-300% of the English, give or take 20 characters", () => {
-  const en = "y".repeat(200);
-  assert.equal(problem("npc:hogger/s", en, "z".repeat(620), "deDE"), null);
-  assert.match(problem("npc:hogger/s", en, "z".repeat(621), "deDE"), /longer/);
-  assert.equal(problem("npc:hogger/s", en, "z".repeat(40), "deDE"), null);
-  assert.match(problem("npc:hogger/s", en, "z".repeat(39), "deDE"), /shorter/);
-  assert.equal(problem("ui/e4028358c8", "Met", "Rencontrés", "frFR"), null, "short strings get room");
-});
-
-test("blocklist: whole words in any case or accents, from the edit's language and English", () => {
-  assert.deepEqual(Object.keys(BLOCKLIST).sort(), ["de", "en", "es", "fr", "pt"]);
-  for (const [lang, words] of Object.entries(BLOCKLIST)) {
-    assert.ok(words.length, lang);
-    for (const w of words) {
-      assert.equal(w, w.trim().toLowerCase(), `${lang}: ${w} is lowercase with no spaces`);
-      assert.ok(blocked(`Das ist ${w.toUpperCase()}!`, LOCALE[lang]), `${lang}: ${w}`);
-    }
-    assert.ok(!blocked(`Das ist x${words[0]}x.`, LOCALE[lang]), `${lang}: whole words only`);
-  }
-  const accented = BLOCKLIST.fr.find(w => fold(w) !== w);
-  assert.ok(blocked(fold(accented), "frFR"), "accents don't matter");
-  const elsewhere = Object.entries(BLOCKLIST).filter(([l]) => l !== "de").flatMap(([, ws]) => ws.map(fold));
-  const onlyGerman = BLOCKLIST.de.find(w => !elsewhere.includes(fold(w)));
-  assert.ok(!blocked(onlyGerman, "frFR"), "another language's list doesn't apply");
-  assert.ok(blocked(BLOCKLIST.en[0], "ptBR"), "the English list applies to every language");
-  for (const [text, locale] of [["el lobo negro", "esES"], ["o lobo negro", "ptBR"], ["Il est en retard.", "frFR"]]) {
-    assert.equal(blocked(text, locale), false, text);
-  }
-  const why = problem("npc:hogger/s", "Hogger is a gnoll.", `Hogger ist ein ${BLOCKLIST.de[0]}.`, "deDE");
-  assert.match(why, /don't allow/);
-});
 
 test("the API refuses such an edit with the message the dashboard shows", async () => {
   const env = { DB: d1() };

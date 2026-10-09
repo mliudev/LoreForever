@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "A Breached Bastion",
-   "body": "While the monumental Main Gate of Stratholme opens into King's Square and the crusader-held districts, the Service Entrance breaches the city's eastern fortification at Eastwall Gate. Today, it leads directly into the corrupted heart of the metropolis: Elders' Square and the blighted pathways leading toward Baron Rivendare's slaughterhouses.",
+   "body": "While the monumental Main Gate of Stratholme opens into King's Square and provides a route toward the Scarlet Bastion, the Service Entrance breaches the city's eastern fortification at Eastwall Gate. Today, it leads directly into the corrupted heart of the metropolis: Elders' Square and the blighted pathways leading toward Baron Rivendare's slaughterhouses.",
    "spoiler": 0
   },
   {
    "title": "The Scourge Redoubt",
-   "body": "Venturing through the service portal avoids the Scarlet Crusade garrisons near the front entrance, plunging straight into Scourge territory. The surrounding alleys crawl with gargoyles, crypt fiends, and cultists guarding the dread ziggurats. For the Argent Dawn and daring adventurers seeking to strike at the ruling death knight directly, this hidden iron gate serves as the primary staging point for surgical strikes against the Lich King's commanders.",
+   "body": "Venturing through the service portal offers a shorter approach to the Scourge's eastern districts. The surrounding alleys crawl with gargoyles, crypt fiends, and cultists guarding the dread ziggurats. For the Argent Dawn and daring adventurers seeking to strike at the ruling death knight directly, this hidden iron gate serves as the primary staging point for surgical strikes against the Lich King's commanders.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "service entrance difference",
     "which strat entrance"
    ],
-   "answer": "The Main Gate leads directly into the living and crusader-controlled ruins around King's Square, whereas the Service Entrance deposits you into Elders' Square, placing you on the doorstep of the undead-dominated wing and the road toward Slaughter Square."
+   "answer": "The Main Gate opens into King's Square and provides a route across the city toward the Scarlet Bastion. The Service Entrance opens near Elders' Square, giving a shorter approach to the undead-held eastern districts and Slaughter Square."
   },
   {
    "q": "Why is it called the Service Entrance?",

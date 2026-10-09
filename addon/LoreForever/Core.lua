@@ -43,16 +43,15 @@ function LoreForever_Toggle()
   UI.Toggle()
 end
 
--- Play/pause for the key binding and Shift-click: stop whatever plays, otherwise play the playlist. With nothing
--- queued, queue and play everything narrated where you are; if there's none, say how to fill the playlist. A story
--- playing with nothing queued plays on, and the rest of what's narrated here queues after it, as the button's
--- tooltip says: on stream (2026-10-04) Shift-click stopped Redridge's story instead, and the next one played Lake
--- Everstill's and then Redridge's again from the top. With nothing else here, it stops what plays.
+-- Play/pause for the key binding and Shift-click (Mike, 2026-10-09: "simply play and pause and play again"): stop
+-- whatever plays; otherwise pick up what you stopped (UI.ResumeStopped), else play the playlist. Only with nothing
+-- stopped and nothing queued does it queue and play everything narrated where you are; with none, it says how to fill
+-- the playlist.
 local function playlistPlayPause()
   local UI = ns.UI
   if not UI.frame then return end
-  if UI.speaking and #UI.pl.items == 0 and UI.QueueHere() > 0 then return end
   if UI.IsBusy() then return UI.StopAll() end
+  if UI.ResumeStopped() then return end
   if not UI.PlaylistToggle() and UI.QueueHere() == 0 then
     say(L["nothing here is narrated, and your playlist is empty. Press + on any narration in the Library to add it."])
   end
@@ -287,9 +286,9 @@ end
 -- Clicks on the minimap button (Mike, 2026-09-30): each click always does the same thing. Plain clicks
 -- open things, Shift-clicks are the playlist. Ctrl-left-click takes a picture when picture shortcuts are enabled.
 --   click              open/close Lore Forever
---   right-click        a small menu: "Narration: only when I press Play" (LOR-138) and Options
---   shift-click        play/pause: stop whatever plays (a playlist keeps its place), else play the playlist, or with
---                      an empty playlist everything narrated where you are (after the story playing, if one is)
+--   right-click        open/close Options
+--   shift-click        play/pause: stop whatever plays (a playlist keeps its place), else pick up what you stopped,
+--                      else play the playlist, or with an empty playlist everything narrated where you are
 --   shift-right-click  next narration in the playlist
 local function buttonClick(button)
   local UI = ns.UI
@@ -302,7 +301,6 @@ local function buttonClick(button)
     return playlistPlayPause()
   end
   if button == "RightButton" then
-    if UI.ButtonMenu and UI.frame then return UI.ButtonMenu(_G.LoreForeverMinimapButton) end
     return ns.Options.Toggle()
   end
   LoreForever_Toggle()
@@ -336,7 +334,7 @@ local function buttonTooltip(self, anchor)
   if ns.Journey.PictureShortcutsOn() then
     T.Tip(L["Ctrl-click: take a journey picture"], "tipText")
   end
-  if n == 0 then
+  if n == 0 and not busy and not UI.HasStopped() then
     T.Tip(L["Your playlist is empty: Shift-click plays everything narrated here."], "tipDim", true)
   end
   T.Tip(L["Drag to move."], "tipDim")
@@ -546,6 +544,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Voice.OnCombatOver()
   elseif event == "PLAYER_LOGOUT" then
     ns.UI.SavePlayback()
+    ns.Voice.Shutdown()   -- /reload also fires PLAYER_LOGOUT; save the position before stopping its sound
     if ns.UI.msgs then ns.UI.Archive() end   -- keep the last chat of the session in History
   elseif event == "PLAYER_CONTROL_LOST" then
     C_Timer.After(1, ns.Voice.OnTaxiCheck)

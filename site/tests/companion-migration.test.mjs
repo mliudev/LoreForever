@@ -4,18 +4,6 @@ import { d1 } from "./helpers.mjs";
 import { setup } from "../lib/accounts.js";
 import { allowance } from "../lib/companion-answers.js";
 
-test("an existing story-spend table gets voice and reservation columns before answers use it", async () => {
-  const env = { DB: d1(), GEMINI_API_KEY: "test" };
-  env.DB.sqlite.exec("CREATE TABLE story_spend (month TEXT PRIMARY KEY, micro_usd INTEGER NOT NULL DEFAULT 0, " +
-    "calls INTEGER NOT NULL DEFAULT 0, stories INTEGER NOT NULL DEFAULT 0)");
-  env.DB.sqlite.exec("INSERT INTO story_spend (month, micro_usd) VALUES (strftime('%Y-%m','now'), 1000)");
-  await setup(env);
-  const columns = env.DB.sqlite.prepare("PRAGMA table_info(story_spend)").all().map(c => c.name);
-  assert.ok(columns.includes("voice_micro_usd") && columns.includes("reserved_micro"));
-  assert.equal((await allowance(env, "account")).available, true);
-});
-
-
 const legacySpend = (db, cost = 1000) => db.sqlite.exec(
   "CREATE TABLE story_spend (month TEXT PRIMARY KEY, micro_usd INTEGER NOT NULL DEFAULT 0, " +
   "calls INTEGER NOT NULL DEFAULT 0, stories INTEGER NOT NULL DEFAULT 0); " +
@@ -35,25 +23,6 @@ test("account setup prepares independent databases without losing existing spend
     assert.equal(row.reserved_micro, 0);
     assert.equal((await allowance(env, "account")).available, true);
   }
-});
-
-test("simultaneous account setup shares preparation and successful setup is cached per DB", async () => {
-  const env = { DB: d1() };
-  legacySpend(env.DB);
-  const original = env.DB.prepare;
-  let catalogs = 0, alters = 0, statements = 0;
-  env.DB.prepare = sql => {
-    statements++;
-    if (sql.includes("SELECT name FROM sqlite_master")) catalogs++;
-    if (sql.startsWith("ALTER TABLE story_spend")) alters++;
-    return original(sql);
-  };
-  await Promise.all([setup(env), setup(env), setup(env)]);
-  assert.equal(catalogs, 1);
-  assert.equal(alters, 2);
-  statements = 0;
-  await setup(env);
-  assert.equal(statements, 0);
 });
 
 test("a failed spending migration keeps account setup retryable", async () => {

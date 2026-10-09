@@ -8,11 +8,11 @@
   "wiki": "Orenthil Whisperwind",
   "refs": 1
  },
- "summary": "Orenthil Whisperwind is a night elf resident of Teldrassil, commonly encountered resting under the boughs of Shadowglen. He serves as an welcoming liaison for rare travelers, presenting gifts sent across the world to newly arrived champions.",
+ "summary": "Orenthil Whisperwind is a night elf resident of Teldrassil, encountered beneath the boughs of Shadowglen.",
  "sections": [
   {
    "title": "A Friendly Face in Teldrassil",
-   "body": "Standing amidst the shaded terraces of Shadowglen, Orenthil Whisperwind offers a quiet welcome to fledgling adventurers beginning their journeys. While he remains modest and keeps mostly to himself beneath the canopy of the World Tree, he is notably tasked with greeting select travelers and delivering special companion creatures to those carrying rare tokens from abroad.",
+   "body": "Orenthil Whisperwind resides among the night elves of Shadowglen, beneath the canopy of Teldrassil. Little is recorded about his personal history.",
    "spoiler": 0
   }
  ],
@@ -34,24 +34,13 @@
     "orenthil map"
    ],
    "answer": "Orenthil resides in Shadowglen, the night elf starting settlement within Teldrassil."
-  },
-  {
-   "q": "What quest does Orenthil offer?",
-   "aliases": [
-    "orenthil quest",
-    "welcome quest dolanaar",
-    "collector quest teldrassil"
-   ],
-   "answer": "He offers the quest 'Welcome!', which allows travelers bearing special collector tokens to claim an exotic companion pet to accompany them on their journeys."
   }
  ],
  "angles": [],
  "keywords": [
-  "collector",
   "orenthil",
   "shadowglen",
   "teldrassil",
-  "welcome",
   "whisperwind"
  ],
  "related": [

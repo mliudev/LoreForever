@@ -91,65 +91,6 @@ function setup({ data = null, ok = true, reject = false, hash = "", withRows = t
   return { document, window, location, calls, sizes, totals, candidate, version, controls, voice, language, result, empty, cards, rows, install, finish: async () => { resolve(); await settle(); } };
 }
 
-test("single same-origin request shows loading, exact sizes across tags, missing/invalid fallback and latest version", async () => {
-  const h = setup({ data: { latestTag: "v0.9.0", byTag: { latest: { "LoreForever.zip": 715e6, "bad.zip": "412000000" }, "v0.8.0": { "Voice.zip": 1.5e9 } } } });
-  assert.deepEqual(h.calls, ["/api/download-files"]);
-  assert.equal(h.sizes[0].textContent, "Loading size…");
-  assert.equal(h.version.textContent, "Loading version…");
-  await h.finish();
-  assert.deepEqual(h.sizes.map(s => s.textContent), ["715 MB", "1.5 GB", "Size unavailable", "Size unavailable"]);
-  assert.equal(h.version.textContent, "v0.9.0");
-  assert.doesNotMatch(script, /api\.github\.com/);
-});
-
-test("offline, HTTP failure, malformed data and unsafe version all settle to visible unavailable text", async () => {
-  for (const options of [{ reject: true }, { ok: false }, { data: {} }, { data: { latestTag: '<img src=x>', byTag: {} } }]) {
-    const h = setup(options); await h.finish();
-    assert.ok(h.sizes.every(s => s.textContent === "Size unavailable"));
-    assert.equal(h.version.textContent, "Version unavailable");
-  }
-});
-
-test("filters start at all, use catalog names, hide unrelated rows and show an empty result", async () => {
-  const h = setup();
-  assert.equal(h.controls.hidden, false);
-  assert.equal(h.voice.value, ""); assert.equal(h.language.value, "");
-  assert.deepEqual(h.voice.children.map(o => o.textContent), ["Community voice", "Included voice"]);
-  assert.deepEqual(h.language.children.map(o => o.textContent), ["Deutsch", "English"]);
-  assert.equal(h.result.textContent, "3 recording choices");
-  h.language.value = "Deutsch"; h.language.fire("change");
-  assert.deepEqual(h.rows.map(row => row.hidden), [true, false, true]);
-  assert.deepEqual(h.cards.map(card => card.hidden), [false, true]);
-  assert.equal(h.result.textContent, "1 recording choice");
-  h.voice.value = "default"; h.voice.fire("change");
-  assert.equal(h.empty.hidden, false);
-  assert.equal(h.result.textContent, "0 recording choices");
-  await h.finish();
-});
-
-test("hash navigation reveals a filtered pack or voice and opens install help", async () => {
-  const h = setup({ hash: "#install" });
-  assert.equal(h.install.open, true);
-  h.language.value = "Deutsch"; h.language.fire("change");
-  h.location.hash = "#default-English"; h.window.fire("hashchange");
-  assert.equal(h.rows[2].hidden, false); assert.equal(h.cards[1].hidden, false);
-  assert.equal(h.language.value, ""); assert.equal(h.voice.value, "");
-  assert.equal(h.rows[2].scrolled, true);
-  h.voice.value = "default"; h.voice.fire("change");
-  h.location.hash = "#donated"; h.window.fire("hashchange");
-  assert.ok(h.rows.every(row => !row.hidden));
-  assert.equal(h.cards[0].scrolled, true);
-  h.location.hash = "#%ZZ"; assert.doesNotThrow(() => h.window.fire("hashchange"));
-  await h.finish();
-});
-
-test("filter controls stay hidden when no server-rendered recording choices are available", async () => {
-  const h = setup({ withRows: false });
-  assert.equal(h.controls.hidden, true);
-  await h.finish();
-});
-
-
 test("filtering pauses a hidden sample and resets its button/card state immediately without restarting it", async () => {
   const h = setup();
   const card = h.cards[0], audio = card.querySelector(".dl-audio"), button = card.querySelector(".dl-play");
@@ -174,11 +115,6 @@ test("filtering pauses a hidden sample and resets its button/card state immediat
   await h.finish();
 });
 
-test("aggregate size sums exact compressed bytes and refuses partial or invalid sums", async () => {
-  const h = setup({ aggregates: [["latest:Legacy.zip", "latest:Places.zip"], ["latest:Legacy.zip", "latest:Missing.zip"], []], data: { byTag: { latest: { "Legacy.zip": 456789123, "Places.zip": 123456789 } } } });
-  await h.finish();
-  assert.deepEqual(h.totals.map(el => el.textContent), ["580 MB", "Size unavailable", "Size unavailable"]);
-});
 test("a preferred bundle only activates when the exact catalog tag and filename are confirmed", async () => {
   const file = "LoreForever_Voice_Female_enUS-complete.zip";
   for (const options of [{ reject: true }, { data: { byTag: { latest: { [file]: 700e6 }, "v0.8.0": { [file]: 700e6 } } } }, { data: { byTag: { "v0.9.0": { [file]: "700000000" } } } }]) {

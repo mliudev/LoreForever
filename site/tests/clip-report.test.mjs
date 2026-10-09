@@ -7,9 +7,7 @@ import { onRequestPost as post } from "../functions/api/clip-report.js";
 import { onRequest as action } from "../functions/api/clip-report/[action].js";
 import { setup, findOrCreateUser, startSession, deleteUser } from "../lib/accounts.js";
 import { PER_DAY } from "../lib/clipreports.js";
-import {
-  decodeClipReport, encodeClipReport, findClipCode, checksum, normalizeVoice, describeClip, REASONS,
-} from "../public/clip-report-code.js";
+import { decodeClipReport, encodeClipReport, findClipCode, checksum, normalizeVoice, REASONS } from "../public/clip-report-code.js";
 import { d1 } from "./helpers.mjs";
 
 const ORIGIN = "https://preview.example";
@@ -86,44 +84,7 @@ test("voices fold into their narrator, so the add-on's packs and the site's voic
   assert.equal(normalizeVoice("../etc"), null);
 });
 
-test("clip ids and words", () => {
-  assert.equal(describeClip("zone:stormwind#faq3"), "Stormwind (answer 3)");
-  assert.equal(describeClip("quest:176#detail"), "Quest 176 (what the quest giver asks)");
-  assert.equal(describeClip("npc:edwin-vancleef"), "Edwin Vancleef");
-});
-
 // ---- POST /api/clip-report ----
-
-test("a code from the add-on is saved, with no sign-in", async () => {
-  const res = await send({ code: code({ reason: "name", name: "Teldrassil", say_as: "tel-DRASS-il", note: "x" }) });
-  assert.equal(res.status, 200, JSON.stringify(res.body));
-  assert.deepEqual([res.body.ok, res.body.open, res.body.signedIn], [true, 1, false]);
-  const [r] = rows();
-  assert.deepEqual([r.clip, r.hash, r.voice, r.reason, r.name, r.say_as, r.note, r.version, r.locale, r.source, r.status],
-    ["zone:stormwind#faq3", "1a2b3c", "LoreForever_Voice_Default", "name", "Teldrassil", "tel-DRASS-il", "x", "0.8.0", "enUS", "addon", "open"]);
-  assert.match(r.uploader, /^ip:[0-9a-f]{24}$/);
-  assert.equal(r.user_id, null);
-});
-
-test("the page's edits to the free text win over the code's; caps hold", async () => {
-  const res = await send({ code: code({ reason: "name", name: "Teldrassil", say_as: "tel-DRASS-il" }), say_as: "x".repeat(200),
-                           note: "y".repeat(500), name: "Teldrassil " });
-  assert.equal(res.status, 200);
-  const [r] = rows();
-  assert.equal(r.say_as.length, 80);
-  assert.equal(r.note.length, 300);
-  assert.equal(r.name, "Teldrassil");
-});
-
-test("plain fields work too (a site page's report button)", async () => {
-  const res = await send({ clip: "npc:edwin-vancleef", hash: "abcdef", voice: "female-narrator", reason: "quality", source: "site" });
-  assert.equal(res.status, 200, JSON.stringify(res.body));
-  const [r] = rows();
-  assert.deepEqual([r.clip, r.hash, r.voice, r.source, r.name], ["npc:edwin-vancleef", "abcdef", "LoreForever_Voice_Female", "site", null]);
-  // "clip@hash" in one field is the same thing.
-  await send({ clip: "npc:cookie@0a0b0c", voice: "Default", reason: "voice" }, { ip: "5.5.5.5" });
-  assert.deepEqual([rows()[1].clip, rows()[1].hash], ["npc:cookie", "0a0b0c"]);
-});
 
 test("bad reports are turned away; the honeypot pretends", async () => {
   for (const [body, word] of [

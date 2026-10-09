@@ -16,7 +16,7 @@
   },
   {
    "title": "On the Town's Threshold",
-   "body": "Because the cemetery lies so close to Darkshire's edge, it serves as the frontline for the local militia. The Night Watch frequently sends fresh recruits and arriving adventurers here to cull the rising dead before they breach the settlement. Among the tumbled headstones and the ruined chapel, more dangerous threats such as the Insane Ghoul lurk, while Night Watch patrols like Watcher Eva keep vigil nearby.",
+   "body": "Because the cemetery lies so close to Darkshire's edge, it serves as the frontline for the local militia. The Night Watch frequently sends fresh recruits and arriving adventurers here to cull the rising dead before they breach the settlement. Among the tumbled headstones and the ruined chapel, more dangerous threats such as the Insane Ghoul lurk.",
    "spoiler": 0
   }
  ],
@@ -75,8 +75,7 @@
   "gardens",
   "insane ghoul",
   "skeletons",
-  "tranquil",
-  "watcher eva"
+  "tranquil"
  ],
  "related": [
   "subzone:darkshire",

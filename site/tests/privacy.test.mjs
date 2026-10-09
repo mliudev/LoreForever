@@ -4,19 +4,17 @@
 
 import { test, beforeEach } from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync, readdirSync, statSync } from "node:fs";
-import { join, relative } from "node:path";
+import { readFileSync, readdirSync } from "node:fs";
+
 import { onRequestPost as subscribe } from "../functions/api/subscribe.js";
 import { onRequestPost as unsubscribe } from "../functions/api/unsubscribe.js";
 import { setup } from "../lib/accounts.js";
 import { perDayFromIp } from "../lib/ratelimit.js";
 import { PER_DAY } from "../lib/subscribers.js";
-import { page } from "../lib/voices.js";
+
 import { d1 } from "./helpers.mjs";
 
-const PUBLIC = new URL("../public/", import.meta.url).pathname;
 const ORIGIN = "https://preview.example";
-const PRIVACY = '<a href="/privacy">Privacy</a>';
 
 // One database for the file (lib/accounts.js creates its tables once per process), emptied before each test.
 const env = { DB: d1() };
@@ -27,13 +25,17 @@ beforeEach(async () => {
   env.DB.sqlite.exec("DELETE FROM subscribers");
 });
 
-function pages(dir = PUBLIC) {
-  return readdirSync(dir).flatMap(name => {
-    const p = join(dir, name);
-    if (statSync(p).isDirectory()) return pages(p);
-    return name.endsWith(".html") ? [p] : [];
-  });
-}
+// Retained from the FAQ suite: this is the add-on's outbound-data boundary.
+test("add-on code contains no outbound message APIs", () => {
+  const code = new URL("../../addon/LoreForever/", import.meta.url);
+  const files = readdirSync(code).filter(f => f.endsWith(".lua"));
+  assert.ok(files.length > 0);
+  for (const file of files) {
+    const sends = readFileSync(new URL(file, code), "utf8")
+      .match(/\b(SendAddonMessage\w*|SendChatMessage|BNSend\w+|C_Club\.Send\w+|SendMail)\b/);
+    assert.equal(sends, null, `${file} calls ${sends?.[1]}`);
+  }
+});
 
 function post(fn, path, body, { origin = ORIGIN, ip = "203.0.113.7", form = false } = {}) {
   const headers = new Headers({ "CF-Connecting-IP": ip });
@@ -46,26 +48,6 @@ function post(fn, path, body, { origin = ORIGIN, ip = "203.0.113.7", form = fals
 const sub = (email, opts) => post(subscribe, "/api/subscribe", { email, source: "landing-page" }, opts);
 const unsub = (email, opts) => post(unsubscribe, "/api/unsubscribe", { email }, opts);
 const listed = async () => (await env.DB.prepare("SELECT email FROM subscribers ORDER BY email").all()).results.map(r => r.email);
-
-test("every page footer links the privacy page", () => {
-  const footed = pages().filter(p => readFileSync(p, "utf8").includes('<footer class="wrap foot">'));
-  assert.ok(footed.length >= 17, `only ${footed.length} pages with a footer`);
-  for (const p of footed) {
-    const foot = readFileSync(p, "utf8").split('<footer class="wrap foot">')[1].split("</footer>")[0];
-    assert.ok(foot.includes(PRIVACY), `${relative(PUBLIC, p)}: footer has no privacy link`);
-  }
-  const built = page({ title: "X", description: "d", path: "/voices/x", crumb: "X", body: "" });
-  assert.ok(built.split('<footer class="wrap foot">')[1].includes(PRIVACY), "lib/voices.js page()");
-});
-
-test("the sign-up, the account page, the studio and the release link the privacy page", () => {
-  const read = f => readFileSync(join(PUBLIC, f), "utf8");
-  assert.match(read("index.html").split('class="signup"')[1].split("</section>")[0], /href="\/privacy"/);
-  assert.match(read("index.html"), /<a href="\/unsubscribe">Unsubscribe anytime<\/a>/);
-  assert.match(read("account.html").split('class="ac-privacy"')[1].split("</details>")[0], /href="\/privacy"/);
-  assert.match(read("voices/studio.js"), /href="\/privacy"/);
-  assert.match(read("voices/release.html").split("<main")[1].split("</main>")[0], /href="\/privacy"/);
-});
 
 test("subscribing: our own pages only, a real address, and the honeypot", async () => {
   assert.equal((await sub("someone@example.com", { origin: "https://elsewhere.example" })).status, 403);

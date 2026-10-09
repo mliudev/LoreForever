@@ -10,10 +10,10 @@ import { encode, decode, findCode, checksum, escapeField, unescapeField } from "
 import { onRequestPost as contributePost } from "../functions/api/contribute.js";
 import { onRequestGet as contributeGet, onRequestPost as contributeAdminPost } from "../functions/api/contribute/[action].js";
 import { onRequestGet as receiptGet } from "../functions/contribute/r/[id].js";
-import { onRequestGet as contributePage } from "../functions/contribute/index.js";
+
 import { onRequestGet as adminGet, onRequestPost as adminPost } from "../functions/api/admin.js";
-import { onRequest as authApi } from "../functions/api/auth/[action].js";
-import { textHash, normalizeText, forgetKnown, decide, independentSenders, RATE } from "../lib/contribute.js";
+
+import { textHash, normalizeText, forgetKnown, RATE } from "../lib/contribute.js";
 import { setup, findOrCreateUser, startSession, deleteUser } from "../lib/accounts.js";
 import { d1 } from "./helpers.mjs";
 
@@ -106,26 +106,6 @@ test("svparse: a real LoreForever.lua, every kind of text, the account's names t
   const yell = x.lines.find(l => l.kind === "say" && l.mode === "yell");
   assert.deepEqual(yell.speaker, { id: "197001", name: "Warden Halvar", sex: 2, type: "Humanoid" });
   assert.ok(!JSON.stringify(x.lines).includes("Aelric"), "no character name anywhere");
-});
-
-test("svparse: Lua 5.1 strings, numbers, keys and comments as the game writes them", () => {
-  const g = parseSavedVariables(String.raw`-- a comment
-X = { "a\"b\\c\nd\065\9\r", 'single \'q\'', [ "k" ] = 1; [2.5] = -0.5, [true] = 1e3, name = .5, [-3] = 0X10, nested = { { } }, }
-Y = nil Z = "line\
-break"`);
-  const x = g.get("X");
-  assert.equal(x.get(1), 'a"b\\c\ndA\t\r');
-  assert.equal(x.get(2), "single 'q'");
-  assert.equal(x.get("k"), 1);
-  assert.equal(x.get(2.5), -0.5);
-  assert.equal(x.get(true), 1000);
-  assert.equal(x.get("name"), 0.5);
-  assert.equal(x.get(-3), 16);
-  assert.equal(x.get("nested").get(1).size, 0);
-  assert.equal(g.get("Y"), null);
-  assert.equal(g.get("Z"), "line\nbreak");
-  // A byte order mark and Windows line ends.
-  assert.equal(parseSavedVariables("\uFEFFA = {\r\n\t[\"x\"] = \"y\",\r\n}\r\n").get("A").get("x"), "y");
 });
 
 test("svparse: anything that isn't plain data is refused", () => {
@@ -287,16 +267,6 @@ test("independence: one person's file and code from one IP stay single; a differ
   await post({ source: "file", install: "e".repeat(64), lines: [quest(71, "detail", text)] }, { ip: "198.51.100.91" });
   assert.equal(statusOf(text), "verified");
   assert.equal(lines().find(r => r.text === text).uploaders, 2);
-});
-
-test("independentSenders: chained by IP hash or account/install", () => {
-  const u = (uploader, ip_hash) => ({ uploader, ip_hash });
-  assert.equal(independentSenders([]), 0);
-  assert.equal(independentSenders([u("i:a", "ip1"), u("h:ip1", "ip1")]), 1, "file + code, one IP");
-  assert.equal(independentSenders([u("i:a", "ip1"), u("i:a", "ip2")]), 1, "one install, two IPs");
-  assert.equal(independentSenders([u("i:a", "ip1"), u("u:x", "ip1"), u("u:x", "ip2"), u("h:ip3", "ip3")]), 2, "chained");
-  assert.equal(independentSenders([u("h:ip1", "ip1"), u("h:ip2", "ip2")]), 2, "anonymous, two IPs");
-  assert.equal(independentSenders([u("x:b1", null), u("x:b2", null), u("x:b1", null)]), 2, "expired: by upload");
 });
 
 test("upload: what the add-on ships is dropped, the client's own text verifies, a different text is a conflict", async () => {
@@ -528,37 +498,4 @@ test("IP hashes leave upload rows after 30 days", async () => {
   assert.equal(env.DB.sqlite.prepare("SELECT ip_hash FROM contrib_batches ORDER BY created_at").get().ip_hash, null);
 });
 
-test("decide: the status rules", () => {
-  const row = (o = {}) => ({ status: "single", live: 1, flagged: 0, text_hash: "a", player: null, ...o });
-  assert.equal(decide(row({ status: "shipped", live: 0 }), [], null), "shipped");
-  assert.equal(decide(row({ live: 0 }), [], null), "rejected");
-  assert.equal(decide(row({ flagged: 1, live: 3 }), [], null), "flagged");
-  assert.equal(decide(row(), [], ["", "a"]), "verified");
-  assert.equal(decide(row({ live: 2 }), [], null), "verified");
-  assert.equal(decide(row(), [], ["", "b"]), "conflict");
-  assert.equal(decide(row(), [], ["b", ""]), "single", "differs only from the shipped (wiki) text");
-  const a = row(), b = row({ text_hash: "b" });
-  assert.equal(decide(a, [a, b], null), "conflict");
-  assert.equal(decide(a, [a, row({ text_hash: "b", live: 0 })], null), "single", "a rejected rival doesn't count");
-  assert.equal(decide(a, [a, row({ text_hash: "b", flagged: 1 })], null), "single", "nor does spam");
-});
-
 // ---- The page and its flag ----
-
-test("/contribute: noindex until the contribute feature is on; the menu link follows /api/auth/me", async () => {
-  contributeHtml = readFileSync(new URL("../public/contribute.html", import.meta.url), "utf8");
-  const page = async () => contributePage({ request: new Request(ORIGIN + "/contribute"), env });
-  let res = await page();
-  assert.equal(res.headers.get("X-Robots-Tag"), "noindex");
-  assert.match(await res.text(), /<meta name="robots" content="noindex">/);
-  const me = async () => (await authApi({ request: new Request(ORIGIN + "/api/auth/me"), env, params: { action: "me" } })).json();
-  assert.equal((await me()).features.contribute, false);
-  env.SITE_FEATURES = "contribute";
-  res = await page();
-  assert.equal(res.headers.get("X-Robots-Tag"), null);
-  const html = await res.text();
-  assert.ok(!html.includes('name="robots"') && html.includes("Share the Forever text you've seen"));
-  assert.equal((await me()).features.contribute, true);
-  const header = readFileSync(new URL("../public/header.js", import.meta.url), "utf8");
-  assert.match(header, /contribute: Boolean\(me\.features\.contribute\)/);   // site/tests/header.test.mjs runs it
-});

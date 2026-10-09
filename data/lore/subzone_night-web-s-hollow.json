@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "The Infested Mine",
-   "body": "Tucked away in the northern hills of Deathknell, Night Web's Hollow was once an ordinary human gold mine before the plague swept through Lordaeron. In the aftermath of the kingdom's fall, the shafts were entirely abandoned to nature. Today, thick strands of webbing shroud the rock walls and suffocating shadows conceal a thriving colony of aggressive night web spiders. Freshly raised Forsaken are routinely dispatched into the hollow and its subterranean tunnels to cull the hatchlings, slay their voracious matriarch, and harden their resolve before moving onward into Tirisfal Glades.",
+   "body": "Tucked away in the northern hills of Deathknell, Night Web's Hollow was once an ordinary human gold mine before the plague swept through Lordaeron. In the aftermath of the kingdom's fall, the shafts were entirely abandoned to nature. Today, thick strands of webbing shroud the rock walls and suffocating shadows conceal a thriving colony of aggressive night web spiders. Freshly raised Forsaken are routinely dispatched into the hollow and its subterranean tunnels to cull the young and adult spiders so the Forsaken can regain access to the mine's gold.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "why kill spiders",
     "deathknell spider quest"
    ],
-   "answer": "The encroaching spiders pose an immediate hazard on the perimeter of Deathknell. Executors in town use the infestation as a trial to ensure newly risen undead have regained control over their motor skills and can handle basic combat."
+   "answer": "The Forsaken need the mine's gold but cannot reach it while spiders infest the tunnels. Executor Arren has little manpower to spare, so he asks new recruits to help clear the infestation gradually."
   },
   {
    "q": "What lives deep inside the mine shafts?",

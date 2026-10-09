@@ -47,7 +47,7 @@
     "why undead in dun morogh",
     "ironforge invasion"
    ],
-   "answer": "The Lich King has dispatched necropolises and strike forces across Azeroth to sow chaos and overwhelm mortal defenders. Laying siege to Ironforge keeps Alliance reinforcements pinned down and tests the mountain city's formidable gate defenses."
+   "answer": "The assignment concerns Scourge forces camped outside Ironforge beneath a necropolis. Lieutenant Nevell asks defenders to thin their numbers and investigate the strange runic circles nearby."
   },
   {
    "q": "What are Dim Necrotic Stones?",
@@ -66,22 +66,6 @@
     "what are the runes"
    ],
    "answer": "The glowing runic circles appear near the Scourge invasion forces. Lieutenant Nevell asks you to investigate their purpose."
-  },
-  {
-   "q": "Why is the Argent Dawn here instead of Ironforge Mountaineers?",
-   "aliases": [
-    "argent dawn ironforge",
-    "why argent dawn"
-   ],
-   "answer": "While the dwarven military guards the inner stronghold, the Argent Dawn specializes specifically in combating the Scourge and understanding unholy necromancy. Their presence provides vital expertise on the arcane nature of the Lich King's invasion."
-  },
-  {
-   "q": "Can the Scourge breach the gates of Ironforge?",
-   "aliases": [
-    "will ironforge fall",
-    "ironforge gates breach"
-   ],
-   "answer": "The Great Gate of Ironforge is among the most heavily fortified structures in the world, carved deep into solid granite. While the invaders pose a serious threat to the mountain passes and nearby settlements, breaching the city itself would require far greater forces."
   }
  ],
  "angles": [

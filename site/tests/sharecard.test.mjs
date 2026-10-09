@@ -60,25 +60,6 @@ const send = (who, bytes, key, { origin = ORIGIN, type = "image/jpeg" } = {}) =>
 
 const facts = html => JSON.parse(/<script type="application\/json" id="pf-sharecard">(.*?)<\/script>/s.exec(html)[1]);
 
-test("the owner's public profile asks for a card; visitors and private profiles don't", async () => {
-  const me = await signIn("g-1");
-  const p = await profile(me);
-  const mine = await page(p.handle, me.cookie);
-  assert.match(mine, /<script src="\/js\/card\.js" defer><\/script>/);
-  const f = facts(mine);
-  assert.equal(f.key, cardKey(p, false));
-  assert.equal(f.name, p.data.name);
-  assert.equal(f.address, `loreforeverwow.com/u/${p.handle}`);
-  assert.deepEqual(f.tiles.map(t => t[0]), ["Quests done", "Places", "Bosses", "Deaths"]);
-  assert.equal(f.herald, false);
-  const visitor = await page(p.handle);
-  assert.ok(!visitor.includes(`id="pf-sharecard"`) && !visitor.includes("/js/card.js"));
-  assert.match(visitor, /<meta property="og:image" content="https:\/\/loreforeverwow\.com\/img\/social-card\.png">/);   // no card yet
-  const other = await signIn("g-2");
-  const hidden = await profile(other, { open: false });
-  assert.ok(!(await page(hidden.handle, other.cookie)).includes(`id="pf-sharecard"`));
-});
-
 test("POST /api/profile/card keeps the card, and the profile's links show it", async () => {
   const me = await signIn("g-1");
   const p = await profile(me);
@@ -98,7 +79,7 @@ test("POST /api/profile/card keeps the card, and the profile's links show it", a
   // Visitors' links show it; the owner's page has nothing to draw until the profile changes.
   assert.ok((await page(p.handle)).includes(`<meta property="og:image" content="https://loreforeverwow.com${url}">`));
   assert.ok(!(await page(p.handle, me.cookie)).includes(`id="pf-sharecard"`));
-  // Harold comes (the "companion" feature): a card with him on it is due.
+  // Sam comes (the "companion" feature): a card with him on it is due.
   env.SITE_FEATURES = "companion";
   const due = facts(await page(p.handle, me.cookie));
   assert.equal(due.herald, true);

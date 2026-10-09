@@ -69,15 +69,17 @@ local function createBox()
   eb:SetPoint("TOP", 0, -70)
   eb:SetAutoFocus(true)
   eb:SetMaxLetters(0)
+  eb:SetScript("OnEditFocusGained", function(self) self:HighlightText() end)
+  eb:SetScript("OnMouseUp", function(self) self:HighlightText() end)
   eb:SetScript("OnEscapePressed", function() f:Hide() end)
   eb:SetScript("OnTextChanged", function(self, user)
     if user then self:SetText(f.payload or ""); self:HighlightText() end   -- keep it exactly as built
   end)
-  eb:SetScript("OnKeyDown", function(_, key)
+  eb:SetScript("OnKeyDown", function(self, key)
     if key == "C" and IsControlKeyDown() then
+      self:HighlightText()   -- clicking in the box must not turn a copy into an empty selection
       C_Timer.After(0.15, function()   -- after the copy itself
         f:Hide()
-        say(L["sent to live answers. The answer appears on your screen."])
       end)
     end
   end)
@@ -105,4 +107,33 @@ function Companion.Ask(question)
   box.eb:SetText(box.payload)
   box.eb:SetFocus()
   box.eb:HighlightText()
+end
+
+-- Put back the draft before another key or a focus change can use the temporary envelope.
+function Companion.RestoreQuestion(eb)
+  local draft = eb.companionDraft
+  if not draft then return end
+  eb.companionDraft = nil
+  eb:SetText(draft.text)
+  eb:SetMaxLetters(240)
+  eb:SetCursorPosition(draft.cursor or #draft.text)
+  eb:HighlightText(0, 0)
+end
+
+-- Ctrl+C in our question field sends the same LFQ1 envelope as the dedicated copy box. Keep focus on this
+-- edit box for the client's native copy, then put its draft back. Other edit boxes keep ordinary clipboard behavior.
+function Companion.CopyQuestion(eb, key)
+  local copying = key == "C" and IsControlKeyDown() and Companion.Installed()
+  if not copying then return Companion.RestoreQuestion(eb) end
+  if eb.companionDraft then return eb:HighlightText() end
+  local text = eb:GetText()
+  if not text or not text:match("%S") then return end
+  local draft = { text = text, cursor = eb:GetCursorPosition() }
+  eb.companionDraft = draft
+  eb:SetMaxLetters(0)   -- the context envelope is longer than a question
+  eb:SetText(Companion.Payload(text))
+  eb:HighlightText()
+  C_Timer.After(0.15, function()
+    if eb.companionDraft == draft then Companion.RestoreQuestion(eb) end
+  end)
 end

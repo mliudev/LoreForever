@@ -16,7 +16,7 @@
   },
   {
    "title": "The Hermit's Refuge",
-   "body": "Rising from the center of Brightwater Lake is an island known as Gunther's Retreat. Here dwells Gunther Arcanus, a powerful necromancer who broke free of the Lich King's grasp by his own formidable willpower. Suspicious of the Dark Lady and the newly established Forsaken in the Undercity, Gunther chose seclusion over servitude, raising his own skeletal defenders to guard the island perimeter. His stubborn independence draws keen interest from Forsaken magistrates, who are eager to either recruit his formidable talents or ensure his autonomous existence poses no threat to Sylvanas's realm.",
+   "body": "Rising from the center of Brightwater Lake is an island known as Gunther's Retreat. Gunther Arcanus broke free of the Lich King's control on his own, but believed all other undead remained Scourge slaves. He isolated himself and set undead servants to guard his retreat. Bethor Iceshard seeks to show his old friend that the Forsaken also possess free will. After an adventurer proves their opposition to the Scourge, Gunther agrees to join the Forsaken.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "gunther arcanus",
     "brightwater island npc"
    ],
-   "answer": "The island, known as Gunther's Retreat, is inhabited by Gunther Arcanus. He is a rogue necromancer who managed to shatter the Lich King's mental enslavement entirely on his own. Rather than joining the Forsaken in the Undercity, he remains secluded in his camp with his personal skeletal minions."
+   "answer": "The central island is known as Gunther's Retreat. An isolated necromancer and his undead servants dwell there, attracting the interest of the Forsaken in nearby Brill and the Undercity."
   },
   {
    "q": "What threats are found around the waters?",
@@ -46,7 +46,7 @@
     "brightwater enemies",
     "dangers at brightwater lake"
    ],
-   "answer": "Travelers along the shorelines frequently encounter aggressive vile fins and murlocs scavenging the banks. Approaching the central island brings danger from the reanimated skeletons and servants sworn to protect Gunther Arcanus from intruders."
+   "answer": "Travelers along the shorelines frequently encounter aggressive vile fins and murlocs scavenging the banks. Approaching the central island brings danger from the undead servants sworn to protect Gunther Arcanus from intruders."
   },
   {
    "q": "Why do the guards in Brill talk about a summer camp here?",
@@ -55,7 +55,7 @@
     "brill guards lake joke",
     "masked psycho camp"
    ],
-   "answer": "Town deathguards in Brill dryly joke that the Forsaken attempted to run a children's summer camp along the shores of Brightwater Lake, but were forced to shut it down due to masked psychos terrorizing the grounds\u2014a morbid local quip mirroring human campfire tales."
+   "answer": "Town deathguards in Brill dryly joke that the Forsaken attempted to run a children's summer camp along the shores of Brightwater Lake, but were forced to shut it down due to masked psychos terrorizing the grounds—a morbid local quip mirroring human campfire tales."
   }
  ],
  "angles": [

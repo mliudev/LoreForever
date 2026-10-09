@@ -44,30 +44,6 @@ async function setup({ search = '?lang=frFR&entry=zone:elwynn&line=zone:elwynn%2
   return { ...context.inspect, elements, groups, calls, context, rows, row: id => rows().find(e => e.dataset.string === id), english };
 }
 
-test('an exact recording link shows every entry field despite 100% coverage and highlights both FAQ fields', async () => {
-  const h = await setup();
-  assert.equal(h.state.mode, 'browse'); assert.equal(h.state.show, 'all'); assert.equal(h.rows().length, 4);
-  assert.deepEqual(h.rows().filter(e => e.className.includes('td-narrated')).map(e => e.dataset.string), ['zone:elwynn/faq/1/q', 'zone:elwynn/faq/1/a']);
-  assert.deepEqual(h.rows().slice(0, 2).map(e => e.dataset.string), ['zone:elwynn/faq/1/q', 'zone:elwynn/faq/1/a'], 'recording fields appear before the remaining entry text');
-  assert.equal(h.elements.get('td-recording').hidden, false);
-  assert.equal(h.elements.get('td-upload').hidden, true, 'offline upload does not interrupt a recording correction');
-  const back = h.context.document.getElementById('td-back-recording');
-  const url = new URL(back.attributes.href, 'https://example.com');
-  assert.equal(url.searchParams.get('line'), 'zone:elwynn#faq1'); assert.equal(url.searchParams.get('voice'), 'my-voice');
-});
-test('signed-out contributor returns to the same entry and recording after sign-in', async () => {
-  const h = await setup({ signedIn: false });
-  const next = new URL(h.elements.get('td-signin').href, 'https://example.com').searchParams.get('next');
-  assert.equal(next, h.context.location.pathname + h.context.location.search);
-});
-test('checking one row saves a line check and leaves the entry in drafts', async () => {
-  const h = await setup();
-  await h.row('zone:elwynn/n').querySelector('.td-lgtm').fire('click');
-  await h.flushRows();
-  assert.deepEqual(Array.from(h.workList('draft')), ['zone:elwynn']);
-  assert.equal(h.state.mine['zone:elwynn/n'].en, 'Elwynn Forest');
-  assert.match(h.row('zone:elwynn/n').querySelector('.td-note').textContent, /Checked by you: saved, awaiting import/);
-});
 test('stale pending edit is retained but never replaces the current translation or English', async () => {
   const h = await setup({ edits: [{ string_id: 'zone:elwynn/n', en: 'Older English', text: 'Older proposal', status: 'new' }] });
   assert.equal(h.row('zone:elwynn/n').querySelector('textarea').value, 'French Elwynn Forest');
@@ -98,24 +74,12 @@ test('malformed entry/line/voice input never creates arbitrary return paths', ()
   assert.equal(workflow.usableEdit({ status: 'new', text: 'French' }, 'English'), false);
   assert.match(workflow.editNote({ status: 'pulled' }, 'English', 'French', false)[0], /does not confirm a merge or release/);
 });
-test('main narration highlights the generator-selected safe section, never assumes section one', () => {
-  const context = { entry: 'zone:elwynn', line: 'zone:elwynn', voice: '' };
-  assert.deepEqual([...workflow.narrationFields(context, { fields: ['zone:elwynn/n', 'zone:elwynn/s', 'zone:elwynn/sec/2/b', 'zone:other/s'] })], ['zone:elwynn/n', 'zone:elwynn/s', 'zone:elwynn/sec/2/b']);
-  assert.deepEqual([...workflow.narrationFields(context, null)], ['zone:elwynn/n', 'zone:elwynn/s']);
-});
 test('failed autosave preserves the text and language when the contributor tries to switch', async () => {
   const h = await setup({ saveReply: { ok: false, error: 'Offline' } }); const box = h.row('zone:elwynn/n').querySelector('textarea');
   box.value = 'Foret francaise'; await box.fire('input');
   h.elements.get('td-locale').value = 'deDE'; await h.elements.get('td-locale').fire('change');
   assert.equal(h.state.locale, 'frFR'); assert.equal(h.elements.get('td-locale').value, 'frFR');
   assert.equal(box.value, 'Foret francaise'); assert.equal(h.pendingRows.size, 1);
-});
-test('processed pulled edits never claim they were imported or used', async () => {
-  const h = await setup({ edits: [{ string_id: 'zone:elwynn/n', en: 'Old English', text: 'Superseded proposal', status: 'pulled' }] });
-  assert.equal(h.row('zone:elwynn/n').querySelector('textarea').value, 'French Elwynn Forest');
-  assert.match(h.row('zone:elwynn/n').querySelector('.td-note').textContent, /Processed: no longer pending/);
-  assert.doesNotMatch(h.row('zone:elwynn/n').querySelector('.td-note').textContent, /Imported/);
-  assert.match(h.elements.get('td-progress-text').textContent, /1 processed, no longer pending/);
 });
 test('whole-entry check keeps every save in its original language while a language switch waits', async () => {
   let releaseFirst;

@@ -1,6 +1,6 @@
 {
-  "english": "2026-10-08 08:39 UTC",
-  "updated": "2026-10-08",
+  "english": "2026-10-09 09:12 UTC",
+  "updated": "2026-10-09",
   "languages": [
     {
       "locale": "deDE",
@@ -8,23 +8,23 @@
       "englishName": "German",
       "reviewed": false,
       "coverage": {
-        "percent": 96.5,
+        "percent": 92.4,
         "strings": [
-          90064,
-          93344
+          86271,
+          93334
         ],
         "ui": [
-          728,
-          728
+          721,
+          738
         ],
         "entries": [
-          3787,
+          3631,
           3922
         ]
       },
       "kit": "/translate/kits/deDE.zip",
-      "kitSize": 10344855,
-      "kitSha256": "44b248aaa6df31d6b533a2f70f7fada494d6bdc7682440a410cde2a741d3c12f",
+      "kitSize": 10122400,
+      "kitSha256": "75d61382ad1b561dd50a9c6fae400e5c050d26e7f4e1494c5e32b6e476430690",
       "hasText": true
     },
     {
@@ -33,23 +33,23 @@
       "englishName": "French",
       "reviewed": false,
       "coverage": {
-        "percent": 96.4,
+        "percent": 92.4,
         "strings": [
-          90027,
-          93344
+          86234,
+          93334
         ],
         "ui": [
-          728,
-          728
+          721,
+          738
         ],
         "entries": [
-          3786,
+          3630,
           3922
         ]
       },
       "kit": "/translate/kits/frFR.zip",
-      "kitSize": 10077866,
-      "kitSha256": "ec53799ee97992c797c31af6e112d07e5c5b1a3292aaab393333897203c0c9dd",
+      "kitSize": 9864392,
+      "kitSha256": "75f24a413bed779848bcd7080ab7b00aae11750110ab30bfe45e4b1f847ace30",
       "hasText": true
     },
     {
@@ -58,23 +58,23 @@
       "englishName": "Spanish (Spain)",
       "reviewed": false,
       "coverage": {
-        "percent": 95.5,
+        "percent": 91.5,
         "strings": [
-          89128,
-          93344
+          85335,
+          93334
         ],
         "ui": [
-          728,
-          728
+          721,
+          738
         ],
         "entries": [
-          3747,
+          3591,
           3922
         ]
       },
       "kit": "/translate/kits/esES.zip",
-      "kitSize": 9976013,
-      "kitSha256": "c46573d6f41416e017970b256c82aceb6272ab99a2d2b94b118101ee7184c962",
+      "kitSize": 9764291,
+      "kitSha256": "21d99e0559d80b26d70a2ce3649c272b1b3a45f211abf9e6682124ef17339f9b",
       "hasText": true
     },
     {
@@ -86,11 +86,11 @@
         "percent": 0.0,
         "strings": [
           32,
-          93344
+          93334
         ],
         "ui": [
           32,
-          728
+          738
         ],
         "entries": [
           0,
@@ -98,8 +98,8 @@
         ]
       },
       "kit": "/translate/kits/esMX.zip",
-      "kitSize": 4905795,
-      "kitSha256": "80e231327166bcbf1ce50d2388c657fd49c49e96cccde2a0b018b24a99be5a07",
+      "kitSize": 4897779,
+      "kitSha256": "090e0e90a7bab4efeba9385cc2fe95864dfe5aacd3356812a88ec511df35c364",
       "hasText": true
     },
     {
@@ -108,23 +108,23 @@
       "englishName": "Portuguese (Brazil)",
       "reviewed": false,
       "coverage": {
-        "percent": 96.5,
+        "percent": 92.4,
         "strings": [
-          90064,
-          93344
+          86271,
+          93334
         ],
         "ui": [
-          728,
-          728
+          721,
+          738
         ],
         "entries": [
-          3787,
+          3631,
           3922
         ]
       },
       "kit": "/translate/kits/ptBR.zip",
-      "kitSize": 9922659,
-      "kitSha256": "6077550fe7d5a5d843bb3518edf39ceded4e0374b8d1776aaf69b782db0ae32f",
+      "kitSize": 9715810,
+      "kitSha256": "a49b696eefb847604bc47081c2511a13ad3fd4274dc1926a73b137c8ce907e5f",
       "hasText": true
     },
     {
@@ -133,23 +133,23 @@
       "englishName": "Italian",
       "reviewed": false,
       "coverage": {
-        "percent": 9.9,
+        "percent": 9.5,
         "strings": [
-          8547,
-          93344
+          8167,
+          93334
         ],
         "ui": [
-          694,
-          728
+          687,
+          738
         ],
         "entries": [
-          308,
+          294,
           3922
         ]
       },
       "kit": "/translate/kits/itIT.zip",
-      "kitSize": 5423269,
-      "kitSha256": "d5825055a4596601d9863c376ecb10d1ccad728d42b3fb8411e82b1cef71c1c7",
+      "kitSize": 5391931,
+      "kitSha256": "f1e310bf4ed9420a03b9110ca48ea3e2fed69be17ba4db75641c31eac057267e",
       "hasText": true
     },
     {
@@ -158,23 +158,23 @@
       "englishName": "Russian",
       "reviewed": false,
       "coverage": {
-        "percent": 98.2,
+        "percent": 93.4,
         "strings": [
-          92125,
-          93344
+          87693,
+          93334
         ],
         "ui": [
-          695,
-          728
+          688,
+          738
         ],
         "entries": [
-          3922,
+          3738,
           3922
         ]
       },
       "kit": "/translate/kits/ruRU.zip",
-      "kitSize": 11685783,
-      "kitSha256": "77e94b4ad866300ee4616fe4fff9df348d1aa1ea81ab71b22e0017321d18561b",
+      "kitSize": 11371538,
+      "kitSha256": "bf45deeaaf62cd8a0d983e26a22303135bf9d5205d02b21153c96b1a21e610b8",
       "hasText": true
     },
     {
@@ -183,23 +183,23 @@
       "englishName": "Ukrainian",
       "reviewed": false,
       "coverage": {
-        "percent": 11.8,
+        "percent": 99.3,
         "strings": [
-          8612,
-          93344
+          92883,
+          93334
         ],
         "ui": [
-          728,
-          728
+          721,
+          738
         ],
         "entries": [
-          882,
+          3922,
           3922
         ]
       },
       "kit": "/translate/kits/ukUA.zip",
-      "kitSize": 5920584,
-      "kitSha256": "ef763c0c08e87d5394320d42abe5ba00b138e636097eecff3deea2e8a85368d0",
+      "kitSize": 11402244,
+      "kitSha256": "f0141d0d3498b8e5ae4e3b5aeaa1a5272065fcbb99d87783886fc282a8be6bda",
       "hasText": true
     },
     {
@@ -211,11 +211,11 @@
         "percent": 0.0,
         "strings": [
           0,
-          93344
+          93334
         ],
         "ui": [
           0,
-          728
+          738
         ],
         "entries": [
           0,
@@ -223,8 +223,8 @@
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 4905214,
-      "kitSha256": "cd8c830230378d6ab0f24b3f4f94e7d6ebbba865b3d58aaaf4e5f47b161def17",
+      "kitSize": 4897196,
+      "kitSha256": "bd0ad14c1d7a3e8c40a3f8142d05018f9ea03a956bef912d20806891a08ce737",
       "hasText": false
     },
     {
@@ -236,11 +236,11 @@
         "percent": 0.0,
         "strings": [
           0,
-          93344
+          93334
         ],
         "ui": [
           0,
-          728
+          738
         ],
         "entries": [
           0,
@@ -248,8 +248,8 @@
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 4905214,
-      "kitSha256": "cd8c830230378d6ab0f24b3f4f94e7d6ebbba865b3d58aaaf4e5f47b161def17",
+      "kitSize": 4897196,
+      "kitSha256": "bd0ad14c1d7a3e8c40a3f8142d05018f9ea03a956bef912d20806891a08ce737",
       "hasText": false
     },
     {
@@ -261,11 +261,11 @@
         "percent": 0.0,
         "strings": [
           0,
-          93344
+          93334
         ],
         "ui": [
           0,
-          728
+          738
         ],
         "entries": [
           0,
@@ -273,8 +273,8 @@
         ]
       },
       "kit": "/translate/kits/new.zip",
-      "kitSize": 4905214,
-      "kitSha256": "cd8c830230378d6ab0f24b3f4f94e7d6ebbba865b3d58aaaf4e5f47b161def17",
+      "kitSize": 4897196,
+      "kitSha256": "bd0ad14c1d7a3e8c40a3f8142d05018f9ea03a956bef912d20806891a08ce737",
       "hasText": false
     }
   ]
