@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Ironforge's Shaded Corner",
-   "body": "While the rest of Ironforge clangs with anvil strikes and radiates heat from the Great Forge, the Forlorn Cavern is cold, damp, and hushed. Wrapping along the northern edge of the mountain's underground lake, the winding pathways sit comfortably out of sight between the Mystic Ward and the Hall of Explorers. Its gloom makes it an ideal gathering place for those who prefer to keep their affairs discreet. Local authorities largely turn a blind eye, leaving cutpurses to compare poisons, warlocks to consult grimoires behind closed doors, and quiet tradesfolk\u2014like weapon smiths and lone fishermen\u2014to ply their crafts undisturbed.",
+   "body": "While the rest of Ironforge clangs with anvil strikes and radiates heat from the Great Forge, the Forlorn Cavern is cold, damp, and hushed. Wrapping along the northern edge of the mountain's underground lake, the winding pathways sit comfortably out of sight between the Mystic Ward and the Hall of Explorers. Its gloom makes it an ideal gathering place for those who prefer to keep their affairs discreet. Rogues and warlocks train here alongside vendors serving them, while weapon merchants and fishermen also work beside the lake.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "why rogues in forlorn cavern",
     "shady district ironforge"
    ],
-   "answer": "Ironforge's civil authorities and clergy take a dim view of both demonic pacts and organized pickpocketing. The cavern's secluded, poorly lit corners provide warlock cabals and the thieves' guild the discretion they need to train novices and trade illicit goods without provoking the mountain king's guards."
+   "answer": "The cavern is naturally dark and secluded, making it a discreet meeting place. Rogue and warlock trainers and merchants serving both groups can be found here."
   },
   {
    "q": "What shops and services can be found in the Forlorn Cavern?",
@@ -50,7 +50,7 @@
   },
   {
    "target": "class:Warlock",
-   "text": "Dwarven society vehemently distrusts fel magic, forcing practitioners to gather inside Bonegrip's Runes and Dooms to bind demons and trade grimoires in secret."
+   "text": "Warlocks gather within Bonegrip's Runes and Dooms to train and obtain supplies in this secluded part of Ironforge."
   }
  ],
  "keywords": [

@@ -40,7 +40,7 @@ Voice.DOWNLOADS = "loreforeverwow.com/downloads"
 local AUTO = "auto"
 local LANGUAGES = { enUS = "English", enGB = "English", deDE = "Deutsch", frFR = "Français", esES = "Español",
   esMX = "Español (Latinoamérica)", ptBR = "Português", itIT = "Italiano", ruRU = "Русский", koKR = "한국어",
-  zhCN = "简体中文", zhTW = "繁體中文" }
+  zhCN = "简体中文", zhTW = "繁體中文", ukUA = "Українська" }
 
 local function readingLocale() return ns.readingLocale or "enUS" end
 -- Same language, whatever the region: enGB recordings suit English text (the clip hashes still decide per clip).
@@ -324,13 +324,48 @@ local function withExtensions(name)
   return out
 end
 
+-- A contributed take may read an overview body without a separate title (the summary alone when the entry has no
+-- spoiler-free section), or only an answer. Its spoken hash
+-- stays distinct from the standard script hash. sourceHash binds it to the current page; exact field comparisons
+-- also reject overlays and reordered/reflagged sections. It never qualifies as a complete-story recording.
+function Voice.ScopedClip(id, pack)
+  local data, db, lang = ns.Packs.data[pack], ns.DB, ns.lang
+  local row = data and data.scopedVersion == 1 and type(data.scopedClips) == "table" and data.scopedClips[id]
+  if type(row) ~= "table" or row.hash ~= data.clips[id] or not db or not lang or lang.edition then return nil end
+  local base, n = id:match("^(.-)#faq(%d+)$")
+  base = base or id
+  local e, rec = db.entries[base], ns.Packs.Get(pack)
+  if not e or not rec or not sameLanguage(rec.locale, readingLocale()) or not (lang.merged and lang.merged[base])
+    or not db.clipHash or row.sourceHash ~= db.clipHash[id] or e.n ~= row.name then return nil end
+  if row.scope == "answer-only" and n then
+    local f = e.faq and e.faq[tonumber(n)]
+    if f and (f.sp or 0) == 0 and f.q == row.question and f.a == row.answer then return row, f.a end
+  elseif row.scope == "overview-body" and not n and e.s == row.summary then
+    for i, section in ipairs(e.sec or {}) do
+      if (section.sp or 0) == 0 then
+        if i == row.sectionIndex and section.b == row.section then return row, e.s .. " " .. section.b end
+        return nil
+      end
+    end
+    -- No spoiler-free section: a take without one (no sectionIndex) reads the summary alone.
+    if row.sectionIndex == nil and row.section == nil then return row, e.s end
+  end
+end
+
+function Voice.ClipCurrent(id, pack, expected)
+  local data = ns.Packs.data[pack]
+  if not data or not expected then return false end
+  if data.scopedClips and data.scopedClips[id] then return Voice.ScopedClip(id, pack) ~= nil end
+  return data.clips[id] == expected
+end
+
 -- Count distinct lore recording IDs across a narrator's packs. A current copy wins over an outdated duplicate.
 function Voice.Count(name)
   local hashes, current, old = (ns.DB and ns.DB.clipHash) or {}, {}, {}
   for _, pack in ipairs(withExtensions(name)) do
     local data = ns.Packs.data[pack]
     for id, h in pairs(data and data.clips or {}) do
-      if hashes[id] == h or (hashes[id] and Voice.Transport and Voice.Transport(id, pack, true)) then
+      if Voice.ClipCurrent(id, pack, hashes[id]) or (hashes[id] and Voice.Transport and Voice.Transport(id, pack, true)) then
         current[id] = true
       elseif hashes[id] then old[id] = true end
     end
@@ -420,7 +455,7 @@ function Voice.InstalledPacks()
           -- Localized quest packs match the visible game's text when a quest page opens.
           it.counts.quest = it.counts.quest + 1
           it.questPageCheck = true
-        elseif expected == hash or (category == "lore" and expected and Voice.Transport and Voice.Transport(id, rec.name, true)) then
+        elseif Voice.ClipCurrent(id, rec.name, expected) or (category == "lore" and expected and Voice.Transport and Voice.Transport(id, rec.name, true)) then
           it.counts[category] = it.counts[category] + 1
         elseif expected and expected ~= "" then
           it.stale = it.stale + 1
@@ -530,7 +565,7 @@ function Voice.Refresh()
         local h = data and data.clips[id]
         if h then provided[id] = true end
         local whole = Voice.Transport and Voice.Transport(id, pack, true)
-        if h == hash or whole then
+        if Voice.ClipCurrent(id, pack, hash) or whole then
           paths = paths or {}
           paths[#paths + 1] = Voice.ClipPath(pack, id, data.ext)
         elseif h then
@@ -828,6 +863,7 @@ end
 
 -- Recheck permission at every real audio start, including queues and restored playback targets.
 function Voice.CanPlay(key)
+  if Voice.shuttingDown then return false end
   if not ns.Lang.ValidateEdition() then return false end
   if ns.lang and ns.lang.edition then
     local base, original = (type(key) == "string" and key or ""):match("^(.-)#faq(%d+)$")
@@ -1059,6 +1095,7 @@ end
 -- Play a voice's sample (its X-LoreForever-Sample clip, else its first clip). Returns true, or false and why not in
 -- words for Options (LOR-136: it said only "Nothing to preview"). "none" (no narration) has nothing to play.
 function Voice.Preview(value)
+  if Voice.shuttingDown then return false end
   if ns.lang and ns.lang.edition then return false, L["Listen to an entry in this edition"] end
   if ns.UI and ns.UI.StopAll then ns.UI.StopAll() else Voice.Stop() end
   if value == "none" then return false end
@@ -1081,10 +1118,10 @@ function Voice.Preview(value)
   -- Current clips only, the sample first, then the rest in order, until one plays.
   local rec, hashes, ids = ns.Packs.Get(name), ns.DB.clipHash or {}, {}
   for k, h in pairs(data.clips) do
-    if hashes[k] == h and k ~= rec.sample and Voice.CanPlay(k) then ids[#ids + 1] = k end
+    if Voice.ClipCurrent(k, name, hashes[k]) and k ~= rec.sample and Voice.CanPlay(k) then ids[#ids + 1] = k end
   end
   table.sort(ids)
-  if rec.sample and hashes[rec.sample] and data.clips[rec.sample] == hashes[rec.sample] and Voice.CanPlay(rec.sample) then
+  if rec.sample and hashes[rec.sample] and Voice.ClipCurrent(rec.sample, name, hashes[rec.sample]) and Voice.CanPlay(rec.sample) then
     table.insert(ids, 1, rec.sample)
   end
   if not ids[1] then return false, L["None of its recordings match this version of Lore Forever."] end
@@ -1119,6 +1156,13 @@ function Voice.Stop()
   if Voice.handle and _G.StopSound then pcall(StopSound, Voice.handle) end
   Voice.handle, Voice.transport, Voice.transportToken, Voice.ended, Voice.failed = nil, nil, nil, nil, nil
   setPreview(nil)
+end
+
+-- PLAYER_LOGOUT also runs for /reload. Block delayed callbacks from starting another sound in this runtime.
+function Voice.Shutdown()
+  Voice.shuttingDown = true
+  Voice.autoToken, Voice.autoWaiting, Voice.autoPlaying, Voice.autoStarted = nil, nil, nil, nil
+  ns.UI.StopAll()
 end
 
 -- Heard: every narration this character has played, so arriving somewhere again doesn't replay it. Kept per
@@ -1372,7 +1416,7 @@ function Voice.Play(key, options)
         started, handle = ok and willPlay, h
         if whole and not started then
           whole = nil
-          if data and data.clips[key] == ((ns.DB and ns.DB.clipHash) or {})[key] then
+          if Voice.ClipCurrent(key, pack, ((ns.DB and ns.DB.clipHash) or {})[key]) then
             ok, willPlay, h = pcall(PlaySoundFile, path, channel())
             started, handle = ok and willPlay, h
           end
@@ -1388,6 +1432,8 @@ function Voice.Play(key, options)
           hash = whole and whole.fullHash or (transport and (transport.row.fullHash or transport.row.hash) or (data and data.clips and data.clips[key])),
           text = whole and whole.text or (transport and transport.row.text or nil),
           duration = whole and whole.duration or nil }
+        local scoped, scopedText = Voice.ScopedClip(key, pack)
+        if scoped then Voice.lastClip.text, Voice.lastClip.scope = scopedText, scoped.scope end
         if ns.lang and ns.lang.edition then
           local base, original = key:match("^(.-)#faq(%d+)$")
           local e = ns.DB.entries[base or key]
@@ -1430,7 +1476,7 @@ function Voice.Narrate(key, options)
   return false
 end
 
--- Narration: only when I press Play (Options, the minimap button's right-click menu, /lore ondemand; LOR-138): nothing
+-- Narration: only when I press Play (Options, /lore ondemand; LOR-138): nothing
 -- plays by itself (arrivals, flights, quest givers, books), while play buttons, the Narrate key and the playlist work
 -- as ever. Off by default; the separate toggles keep their own settings underneath it.
 function Voice.OnDemand() return S().onDemand == true end

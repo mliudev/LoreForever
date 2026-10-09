@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Prize from the Twisted Guard",
-   "body": "Klaven's Tower along the Westfall coastline has long served as a stronghold for the Defias Brotherhood, but recent shipments out of Duskwood brought far more terrifying sentries to its perimeter. Among the guards are malformed Defias drones\u2014undead, spike-ridden abominations created through toxic concoctions. To pierce the defenses and prove the perimeter breached, SI:7 operatives stake out the grounds and mandate that field agents pick the pockets of these grotesque sentinels rather than engage them head-on. The key serves as clear evidence that an infiltrator penetrated the perimeter without sounding an alarm.",
+   "body": "Klaven's Tower along the Westfall coastline has long served as a stronghold for the Defias Brotherhood, but recent shipments out of Duskwood brought far more terrifying sentries to its perimeter. Among the guards are malformed Defias drones\u2014undead, spike-ridden abominations. To pierce the defenses and prove the perimeter breached, SI:7 operatives stake out the grounds and mandate that field agents pick the pockets of these grotesque sentinels rather than engage them head-on. The key serves as clear evidence that an infiltrator penetrated the perimeter without sounding an alarm.",
    "spoiler": 0
   },
   {
@@ -49,7 +49,7 @@
     "what are the tower guards",
     "what is the spiked zombie"
    ],
-   "answer": "They are Defias lackeys twisted into undead abominations using toxic alchemical concoctions originating from Zanzil the Outcast's trolls in Stranglethorn Vale. Their bodies have been drastically altered, leaving them spiked, shambling, and afflicted with damaged lungs."
+   "answer": "They are grotesque, spiked undead guards stationed around Klaven's Tower. Agent Kearnen does not know what made them and asks operatives to investigate the shipment they guard."
   },
   {
    "q": "Who sends operatives to retrieve this key?",
@@ -67,7 +67,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing intelligence from Klaven's Tower helps Stormwind unravel the Defias Brotherhood's dealings with the Venture Company and their traffic in dangerous troll toxins."
+   "text": "Securing intelligence from Klaven's Tower helps Stormwind investigate the Defias Brotherhood's strange shipments from Duskwood."
   }
  ],
  "keywords": [

@@ -363,6 +363,968 @@
         "sha256": "b6fdbb0d3e6396c2881ae0f0a958cb84441a41121121aac8705a783cbe0dfbd7"
       },
       "text": "Denalan. Denalan is an accomplished night elf herbalist and botanist who tends a quiet lakeside plot along the eastern shore of Lake Al'Ameth. Working under a simple awning, he devotes his days to studying the island's plant life and seeking botanical remedies for the strange corruption affecting Teldrassil. He frequently enlists young adventurers to gather samples, study violent timberlings, and test enchanted soils. While many kaldorei focus on martial vigilance or high druidic rites, Denalan pursues the patient, meticulous craft of herbalism. Stationed along the tranquil eastern banks of Lake Al'Ameth, he has established a modest research camp consisting of a cloth awning, simple field tools, and tidy rows of cultivated planter boxes. Rather than retreating to the grand barrows of Darnassus, he prefers to remain close to the loam, directly examining the unusual flora that has sprouted since the planting of the new World Tree. Denalan's research is far more than an academic curiosity; it addresses the growing unrest among Teldrassil's native wildlife. The timberlings, normally docile woodland beings of wood and sprout, have turned increasingly aggressive. Denalan enchants specialized soil to nurse wild seeds in captivity and analyze how malignant forces seep into the root systems. By studying strange specimens like shimmering fronds, glowing fruit, and moss-twined growths, he seeks to isolate whatever dark taint is troubling the forest boughs."
+    },
+    "npc:dirania-silvershine": {
+      "1": [
+        {
+          "duration": 59.585306122448976,
+          "file": "Audio/Transport/full_npc_dirania-silvershine-3df9a5fc885a8b32063f/1-0000.mp3",
+          "sha256": "056471e390bc04670efe26384c81ff6291471c0339372f19bba08209639fdb61",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "c66dee",
+      "generation": "9f90c3c5c00f4c3fe531",
+      "hash": "58d518",
+      "source": {
+        "duration": 59.611429,
+        "file": null,
+        "sha256": "3df9a5fc885a8b32063fca8fd4de529951a405716d2cb304ff39c343621a01ad"
+      },
+      "text": "Dirania Silvershine. Dirania Silvershine is a night elf resident of Shadowglen in Teldrassil. Deeply loyal and observant, she watches over the tranquil grove and looks out for her companion Iverron when his reckless ventures land him in peril. Dirania stands among the tranquil boughs of Shadowglen, the secluded vale where young night elves begin their service to Kalimdor and the Alliance. While many in the barrow mounds and sanctuaries look to broad spiritual duties, Dirania stays mindful of those nearest to her, attentive to the quiet dangers that stir even in the heart of Teldrassil. Dirania's immediate concern is her companion Iverron. Overeager and careless around the poisonous woodland creatures creeping across the glen, Iverron frequently gets into trouble. When he succumbs to a venomous bite from the local webwood spiders, Dirania takes it upon herself to seek out willing hands to gather ingredients and prepare a remedy before the venom takes a permanent toll."
+    },
+    "npc:dorn-plainstalker": {
+      "1": [
+        {
+          "duration": 69.90367346938775,
+          "file": "Audio/Transport/full_npc_dorn-plainstalker-3b0fe42baba0c74449ce/1-0000.mp3",
+          "sha256": "320f6e61b1214b98a3892fa44aa3ce029b101da6d77c9464fa7c9f830d94c20b",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "c0a981",
+      "generation": "097b35df1fd7e5939a6d",
+      "hash": "b82730",
+      "source": {
+        "duration": 69.929796,
+        "file": null,
+        "sha256": "3b0fe42baba0c74449ce9a59c19c1746e2b58b7226bfc63a40936a16e9b4ac1c"
+      },
+      "text": "Dorn Plainstalker. Dorn Plainstalker is a solitary tauren elder residing in the Weathered Nook overlooking the canyons of Thousand Needles. He serves as an overseer of traditional rite of passage trials, challenging Horde adventurers to prove their character and fortitude. Through trials of faith, endurance, strength, and lore, he tests whether travelers are worthy servants of the Earth Mother and their people. Secluded in a shallow cave high atop the canyon ridges of the Weathered Nook, Dorn Plainstalker lives apart from the bustle of Freewind Post. Reaching his mountain redoubt requires winding along the sheer northern cliffs overlooking the towering mesas below. From this quiet vantage point, Dorn maintains ancient customs and judges those who seek guidance in the harsh southern barrens. Dorn Plainstalker guides pilgrims through a demanding series of tests meant to measure the core virtues of a tauren champion: faith, endurance, strength, and lore. Rather than mere exercises in brute force, these trials force aspirants to confront fear, leap blindly into the unknown, outlast cunning wilderness predators, and ponder the sacred history of Kalimdor before claiming their final passage."
+    },
+    "npc:duthorian-rall": {
+      "1": [
+        {
+          "duration": 83.25224489795919,
+          "file": "Audio/Transport/full_npc_duthorian-rall-ef19d88051f08271d7e2/1-0000.mp3",
+          "sha256": "cd643279de3719a8b0b75aa9487f40d87ce8f3947616db48623e66444ac4c855",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "41fa8e",
+      "generation": "ec143321acccf5b6b055",
+      "hash": "3eadf2",
+      "source": {
+        "duration": 83.252245,
+        "file": null,
+        "sha256": "ef19d88051f08271d7e251ac5bca7a66444181e79a96cc49101a372f22377f0b"
+      },
+      "text": "Duthorian Rall. Duthorian Rall is a respected human knight of the Silver Hand stationed within Stormwind's Cathedral of Light. Renowned as one of the most influential paladins in the Alliance, he oversees the training and spiritual trials of emerging holy warriors. He guides recruits through solemn vows of charity, valor, and devotion to defend Azeroth against the Scourge and lurking domestic threats. Standing within the vaulted transept of the Cathedral of Light, Duthorian Rall represents the venerable traditions of the Knights of the Silver Hand. With the kingdom unsettled by internal strife and the missing King Varian Wrynn, Duthorian shoulders the vital duty of instilling righteous discipline in fresh initiates. Respected paladins in the field, including Brother Wilhelm in Northshire and Brandur Ironhammer in Ironforge, direct promising recruits to his guidance to begin their sacred trials. Duthorian teaches that martial power without moral foundation is hollow. Through the Tome of Divinity, he tests a paladin's capacity for empathy, requiring acts of mercy and selfless service across Stormwind before entrusting them with deeper mysteries. His trials culminate in testing candidates with the Symbol of Life near Heroes' Vigil, sending them to aid wounded allies and teach them to channel the Light's miraculous power to restore fallen comrades from death."
+    },
+    "npc:elling-trias": {
+      "1": [
+        {
+          "duration": 83.8269387755102,
+          "file": "Audio/Transport/full_npc_elling-trias-c0d04a77a1690beb4db0/1-0000.mp3",
+          "sha256": "665f8021c040b9716f71cb90fb54cfa158e8ce8663e15ad1b6d4ca38938ff39d",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "a4df76",
+      "generation": "303f493b089cad2c5dca",
+      "hash": "ecbf2b",
+      "source": {
+        "duration": 83.826939,
+        "file": null,
+        "sha256": "c0d04a77a1690beb4db0d361737add2a6d5f1bca13c1d9ab4606fc1030216b6e"
+      },
+      "text": "Elling Trias. Elling Trias manages Trias' Cheese, a small storefront nestled in the bustling Trade District of Stormwind City. While he presents himself as a jovial and passionate purveyor of dairy, he quietly operates as one of the kingdom's most connected information brokers. Behind wheels of cheese and cordial banter, Trias maintains an ear to the ground that reaches across continents. To the casual customer strolling the Trade District, Elling Trias is merely an artisan dedicated to fine curds, working his shop alongside his wife Elaine and son Ben. He enthusiastically hawks wheels of cheese and chats amicably with townsfolk. Yet those in the know understand that Trias' Cheese is one of the most reliable fronts in Stormwind. The steady hum of city commerce provides perfect cover for operatives, courtiers, and adventurers who need to trade quiet words without drawing the attention of the city watch. Elling's network of informants and allies is staggering for a shopkeeper. He maintains ties with Master Mathias Shaw of SI:7, coordinates with Church contacts like Bishop DeLavey, and corresponds with agents as far afield as Darkshire, Theramore Isle, and the distant Plaguelands near Hearthglen. When odd rumors surface—whether concerning highway bandits or quiet movements in the countryside—Trias often pieces the puzzle together long before the royal court takes notice."
+    },
+    "npc:fandral-staghelm": {
+      "1": [
+        {
+          "duration": 125.46612244897959,
+          "file": "Audio/Transport/full_npc_fandral-staghelm-a90dca3a2c6a17c87cbc/1-0000.mp3",
+          "sha256": "233ad2b30d53836d53dca0acc0dc699bca02a3bb86e3d8539bd9136b56dbca5f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "b58c77",
+      "generation": "79a1fcddc4bfb42ea4e2",
+      "hash": "283e85",
+      "source": {
+        "duration": 125.466122,
+        "file": null,
+        "sha256": "a90dca3a2c6a17c87cbc3df107b7e2c26d9744d222db83f09a50fdaae896d01b"
+      },
+      "text": "Fandral Staghelm. Archdruid Fandral Staghelm leads the druids of the Cenarion Circle from the Cenarion Enclave in Darnassus. Stepping into power after Malfurion Stormrage vanished into the Emerald Dream, he championed the planting of the new World Tree, Teldrassil. Proud, abrasive, and relentlessly ambitious, Fandral advocates for an aggressive Kaldorei resurgence that frequently pits him against High Priestess Tyrande Whisperwind. Following the Third War and the sacrifice of Nordrassil atop Mount Hyjal, the night elves lost their immortality and their sacred sanctuary. While Malfurion Stormrage cautioned patience and warned against vanity, Fandral championed the bold creation of a new World Tree off the coast of Kalimdor. When Malfurion subsequently fell comatose within the Emerald Dream, Fandral seized the initiative and led the druids in raising Teldrassil. He envisioned the colossal bough as a monument to Kaldorei endurance and a vessel to restore their lost supremacy, even though the Dragon Aspects pointedly withheld their blessings from the unapproved endeavor. A millennium before the First War, Fandral served as the Kaldorei field commander in Silithus during the War of the Shifting Sands. Renowned among the insectoid qiraji as 'Kar'sis'—the Hand of Earth—he held the front lines alongside his beloved only son, Valstann. Exploiting Fandral's devotion, the qiraji General Rajaxx engineered a feint against Southwind Village and captured Valstann, ruthlessly executing him directly in front of the horrified Archdruid. The loss shattered Fandral's spirit, precipitating a devastating retreat and cementing an abiding, bitter hatred for the swarm that remains etched into his haughty demeanor. Within the marble boughs of Darnassus, Fandral governs Kaldorei affairs with a haughty, unyielding hand. Unlike High Priestess Tyrande Whisperwind, who favors spiritual preservation and cautious diplomacy, Fandral views military expansion and decisive strength as paramount to the survival of their people."
+    },
+    "npc:farthing": {
+      "1": [
+        {
+          "duration": 60.21224489795918,
+          "file": "Audio/Transport/full_npc_farthing-4634edf177528523e3f9/1-0000.mp3",
+          "sha256": "d33c48e36def74b14fa76d1e948ba2c34a76784370ded8ca02b269e27261e1f3",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "c7fe2e",
+      "generation": "e3756a37054d243eb85f",
+      "hash": "014af8",
+      "source": {
+        "duration": 60.238367,
+        "file": null,
+        "sha256": "4634edf177528523e3f92c0739ecd802637f486e9005c22a9f8ea7132a5032bf"
+      },
+      "text": "Farthing. Bishop Farthing is a human clergyman residing within the Cathedral of Light in Stormwind City. To visitors and worshippers, he presents himself as a devout servant of the Holy Light who guides parishioners and directs aid toward beleaguered settlements across the kingdom. Within the serene marble halls of the Cathedral of Light, Bishop Farthing stands as one of the prominent figures attending to the spiritual needs of Stormwind City. Alongside Archbishop Benedictus and the gathered clergy, he offers counsel to travelers, assists those pursuing the holy arts, and attends to the civic and pastoral obligations of the Church of the Holy Light. Despite remaining situated within the capital, Farthing directs earnest travelers toward darker corners of the kingdom that desperately require holy aid. When troubled reports filter in regarding the necromancer Morbent Fel and the creeping undead blight overtaking Duskwood, Farthing serves as an advisor in seeking out methods to overcome dark sorceries and cleanse the blighted frontier."
+    },
+    "npc:first-mate-fitzsimmons": {
+      "1": [
+        {
+          "duration": 68.38857142857142,
+          "file": "Audio/Transport/full_npc_first-mate-fitzsimmons-a4fba3949b27ef9ab1e0/1-0000.mp3",
+          "sha256": "50c32e51886e6137e163debcf7dd190118d3d6b83d1b24a220784479aa82ffef",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "4b4d2d",
+      "generation": "89035bbd7a1ed699967f",
+      "hash": "5ea774",
+      "source": {
+        "duration": 68.388571,
+        "file": null,
+        "sha256": "a4fba3949b27ef9ab1e09f2b153cafd753790ed4deb2eced332a49519f0d510b"
+      },
+      "text": "First Mate Fitzsimmons. First Mate Fitzsimmons is a ragged, reeking sailor who spends his days drinking outside the Deepwater Tavern in Menethil Harbor. Once the first mate aboard the Wave Mistress of the Kul Tiras Third Fleet, he is the sole known living survivor of the fleet's destruction during the Second War. Haunted by the tragedy, he seeks willing adventurers to face the restless spirits of his drowned comrades. Lounging outside the Deepwater Tavern amid the damp salt air of Menethil Harbor, First Mate Fitzsimmons is an easy man to overlook—or avoid entirely, given his unwashed stench. To most patrons, he is just another broken old salt drinking his memories away. Yet those willing to sit and listen will hear harrowing tales of a proud fleet brought low by fire and claw. During the Second War, Fitzsimmons served as first mate aboard the Wave Mistress, part of the Kul Tiras Third Fleet dispatched to fight the Horde. Off the coast of the Wetlands, the fleet was ambushed and incinerated by enslaved red dragons flown by Dragonmaw orcs. The ships were shattered and sunk, leaving Fitzsimmons as the only man to drag himself ashore alive."
+    },
+    "npc:foreman-oslow": {
+      "1": [
+        {
+          "duration": 76.87836734693877,
+          "file": "Audio/Transport/full_npc_foreman-oslow-09ef530052bdbd538c02/1-0000.mp3",
+          "sha256": "a9bc5eb15d218de2ff1df518d1d9c5634f35f74ef7584f9b56fc1ad6e3724c80",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "757d90",
+      "generation": "88f77c641514850c11df",
+      "hash": "82e2b8",
+      "source": {
+        "duration": 76.878367,
+        "file": null,
+        "sha256": "09ef530052bdbd538c02a8b53eac7e8509fcb2dbf0dcce04017eef5fe30768ab"
+      },
+      "text": "Foreman Oslow. Foreman Oslow is Lakeshire's beleaguered master builder, tasked with repairing the ruined Everstill Bridge in the heart of Redridge Mountains. Beset by Blackrock orc artillery and gnoll raiders, his reconstruction efforts have stalled due to lost shipments and sunken equipment. He relies heavily on traveling adventurers to retrieve his gear and secure materials so Lakeshire can reconnect its vital trade route. Standing by the fractured masonry of the Everstill Bridge, Foreman Oslow faces an uphill battle. The bridge is the lifeline of Lakeshire, spanning the expanse of Lake Everstill and linking the western roads toward Elwynn to the eastern shores. Blackrock orcs, sweeping down from the crags of Stonewatch, targeted the crossing to cripple the town's logistics and military movement, leaving the settlement splintered and vulnerable. Every attempt Oslow makes to rebuild seems plagued by misfortune. When the bridge fell, his replacement tools were shipped overland from Goldshire and loaded onto a lake ferry. Orc catapult crews caught the vessel in their sights, sending his heavy iron toolbox straight to the muddy bed of Lake Everstill. To compound matters, local Redridge gnolls ambushed his supply wagons, making off with timber and mortar rivets necessary to raise the arches."
+    },
+    "npc:furen-longbeard": {
+      "1": [
+        {
+          "duration": 70.94857142857143,
+          "file": "Audio/Transport/full_npc_furen-longbeard-a6245204d2fd621a7b6a/1-0000.mp3",
+          "sha256": "4144a79951ff7299c94c65a993c4686d89fd082f3bd1ce77ae8ab6b82efbaa8c",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "775128",
+      "generation": "c8c707d6ccf0795f53e2",
+      "hash": "c59646",
+      "source": {
+        "duration": 70.948571,
+        "file": null,
+        "sha256": "a6245204d2fd621a7b6a686ee1f8d2c0447358224e776344bc19d43b99208275"
+      },
+      "text": "Furen Longbeard. Furen Longbeard is a master dwarven armorer stationed within Stormwind City's bustling Dwarven District. Apprenticed under the renowned smith Grimand Elmore, he specializes in crafting heavy protective gear and sturdy mail for seasoned defenders of the Alliance. Warriors across the kingdom seek out his metallurgical expertise to forge specialized, battle-ready armor. Furen Longbeard plies his craft far from the great forges of Ironforge, making his home instead among the cobblestones and soot of Stormwind's Dwarven District. Like many of his kin, Furen brought traditional dwarven metallurgy south to support the rebuilding and defense of the kingdom. Working amidst blazing hearths and clanging anvils, he maintains strong ties with other artisans throughout the city and beyond. Taught by the venerable craftsman Grimand Elmore, Furen has perfected techniques for treating heavy mail and plate to withstand extreme battlefield punishment. Promising young warriors seeking durable protection often turn to Furen, who requires rare ores, specialized components, and exotic reagents from distant corners of the world to fashion his signature fire-hardened armor."
+    },
+    "npc:gakin-the-darkbinder": {
+      "1": [
+        {
+          "duration": 70.7134693877551,
+          "file": "Audio/Transport/full_npc_gakin-the-darkbinder-e119d47b3f5fc54a196d/1-0000.mp3",
+          "sha256": "31823409c337f15acb7a7021c0217909cade7f0cc996c9d14e1bf12a4fc09e7f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "8c5eaa",
+      "generation": "32679007cec951972947",
+      "hash": "1d2b80",
+      "source": {
+        "duration": 70.713469,
+        "file": null,
+        "sha256": "e119d47b3f5fc54a196d7989c83c2c943977cbf6dd8c92a1c65776aee2670fce"
+      },
+      "text": "Gakin the Darkbinder. Gakin the Darkbinder is a master warlock operating covertly deep beneath The Slaughtered Lamb tavern in Stormwind's Mage Quarter. He instructs aspiring Alliance practitioners in the dark arts, testing their resolve before initiating rituals to summon and bind otherworldly demons to their service. While Stormwind's mages practice openly in their towering sanctuaries, practitioners of shadow and fel must dwell where prying eyes cannot reach. Hidden below the taproom of The Slaughtered Lamb is a damp crypt-like cellar equipped with summoning circles and grim tomes. Gakin serves as the anchor of this hidden conclave, ensuring that young warlocks learn discipline and restraint before unleashing horrors they cannot control. Gakin's expertise lies in demonology and binding rituals. Initiates who earn his notice are sent across the kingdom to acquire rare relics and ingredients—from stolen bloodstone talismans to corrupt wood from the dark forests. Once the reagents are assembled, Gakin oversees rituals in the crypt's summoning circle, forcing novitiates to subjugate voidwalkers and succubi in life-or-death trials of willpower."
+    },
+    "npc:gaxim-rustfizzle": {
+      "1": [
+        {
+          "duration": 92.44734693877551,
+          "file": "Audio/Transport/full_npc_gaxim-rustfizzle-003d9b225a0a016c11dd/1-0000.mp3",
+          "sha256": "45f1cf1f7ea29ed626ba4e6f5cd3d742c39d05dc570959f8bc1b3276b0140427",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "248455",
+      "generation": "c307472d471710a2745f",
+      "hash": "5dcb1f",
+      "source": {
+        "duration": 92.447347,
+        "file": null,
+        "sha256": "003d9b225a0a016c11ddc1490e03c1d019953097e309ad16414f5ce9ad524ac6"
+      },
+      "text": "Gaxim Rustfizzle. Gaxim Rustfizzle is an ambitious gnome scholar and tinker stationed at a small Alliance camp along the Webwinder Path in Stonetalon Mountains. A representative of the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences, he seeks to prove to skeptical night elves that advanced artifice and alchemy can preserve their woodland realm. His scientific curiosity is matched by a fierce vendetta against the destructive operations of the Venture Company. While night elves traditionally rely on ancient druidism and nature magic, Gaxim Rustfizzle arrived in the craggy passes of Stonetalon to demonstrate a radically different perspective. Representing the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences, he genuinely believes that calculated mechanisms and chemical solutions can defend and restore Kalimdor's wilderness just as effectively as prayers to Elune. Camped alongside the sentinel Kaela Shadowspear on the Webwinder Path, he works tirelessly to convince his tall, reclusive allies of engineering's ecological merits. Much of Gaxim's energy is channeled against the Venture Company, whose clear-cutting and industrial greed desecrate nearby Windshear Crag. Believing that crude goblin machinery deserves neither respect nor mercy, Gaxim coordinates covert operations and volatile chemical sabotage against their logging operations. To him, crippling their shredders and stealing their schematics is not merely tactical warfare—it is a practical demonstration that superior gnomish intellect always triumphs over careless corporate plunder."
+    },
+    "npc:grelin-whitebeard": {
+      "1": [
+        {
+          "duration": 84.1404081632653,
+          "file": "Audio/Transport/full_npc_grelin-whitebeard-7d0ddae0b901e68e6b51/1-0000.mp3",
+          "sha256": "bfb5e7b09181e9ceb7e10d2bc678a7a42ef15e47e60ed6c0782a45373ce1d513",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "43e614",
+      "generation": "bcfb5a496c9fad18e270",
+      "hash": "a10bb3",
+      "source": {
+        "duration": 84.166531,
+        "file": null,
+        "sha256": "7d0ddae0b901e68e6b51b24300b211bf734bd7699400bec8b1a2b111bbeb5024"
+      },
+      "text": "Grelin Whitebeard. Grelin Whitebeard is a dwarven scout stationed in Coldridge Valley by royal decree to assess the Frostmane troll threat. Operating out of an isolated camp with a bumbling apprentice, he relies on rising adventurers to keep the trolls contained while Ironforge's attention remains consumed by the trogg crisis. Grelin Whitebeard and his brother Senir were dispatched to Coldridge Valley under direct orders from the Senate of Ironforge and King Magni Bronzebeard himself. Their mission was clear: assess and neutralize the threat posed by the native Frostmane trolls. With Ironforge's official military fully bogged down combating trogg outbreaks across Dun Morogh, the brothers were given very few resources to accomplish their task. Grelin had to establish an outpost in the snowy hills and look toward local recruits and passing initiates to carry out the necessary work. From his camp, Grelin monitors the encroaching Frostmane tribe south of Coldridge Valley. The trolls have grown increasingly aggressive, staging bolder incursions outside their mountain caverns. During one such raid, a heavily painted brute named Grik'nir the Cold slipped into the unattended camp and made off with Grelin's field journal, containing his critical observations. Unwilling to fail the King, Grelin uses intrepid travelers to strike deep into the Frostmane caves, recover his stolen writings, and ensure his final intelligence reaches Senir in Kharanos."
+    },
+    "npc:gryan-stoutmantle": {
+      "1": [
+        {
+          "duration": 88.86857142857143,
+          "file": "Audio/Transport/full_npc_gryan-stoutmantle-a6d0ecc9de483ec335a5/1-0000.mp3",
+          "sha256": "3179adab2c5e2e95f3a534c3ecbff52c51e2e8075720dac6c9f66b0b49afd287",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "1fc6ab",
+      "generation": "36e947258a3129471862",
+      "hash": "ed4bcb",
+      "source": {
+        "duration": 88.868571,
+        "file": null,
+        "sha256": "a6d0ecc9de483ec335a53a322239bf12a7343fac08dbe872e81558701db4f5ad"
+      },
+      "text": "Gryan Stoutmantle. Gryan Stoutmantle is a paladin of the Silver Hand and the commander of the People's Militia, operating out of Sentinel Hill in Westfall. Born in Westfall, he returned from the devastated northern kingdom of Lordaeron to protect his homeland after Stormwind's crown abandoned the region to banditry. Gryan Stoutmantle began his service far from the quiet fields of southern Azeroth. Traveling north to Lordaeron as a young man, he took vows as a Knight of the Silver Hand and endured the horrors of the Third War, even witnessing the tragic purge of Stratholme by Prince Arthas Menethil. When news reached him that his native province of Westfall was collapsing into lawlessness, overrun by organized brigands and abandoned by the crown, Gryan left the northern fronts behind. He traded imperial battlefields for the defense of honest farmers, swearing that his home would not fall as the north had. Upon his return, Gryan found Westfall virtually undefended. Due to royal neglect and political paralysis within the House of Nobles, Stormwind refused to dispatch garrison troops. In response, Stoutmantle established the People's Militia at Sentinel Hill, rallying local farmers, sentries, and traveling mercenaries into a volunteer defense corps. His forces hold a precarious line against the Defias Brotherhood, riverpaw gnolls, and hostile mechanoids, unable even to spare reinforcements when neighbor settlements like Lakeshire plead for aid."
+    },
+    "npc:gwennyth-bly-leggonde": {
+      "1": [
+        {
+          "duration": 74.24,
+          "file": "Audio/Transport/full_npc_gwennyth-bly-leggonde-7d826b5bb3d8475624e0/1-0000.mp3",
+          "sha256": "96ae71054fe16a7675c09d2a7fe4898f3b062c7d8eac1c5cce249145184c3f3d",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "b70a77",
+      "generation": "f9f4bee78c100f3b850b",
+      "hash": "35d7c2",
+      "source": {
+        "duration": 74.24,
+        "file": null,
+        "sha256": "7d826b5bb3d8475624e0949f5292b8a48ec480ff009284b4c2240d489438b91c"
+      },
+      "text": "Gwennyth Bly'Leggonde. Gwennyth Bly'Leggonde is a night elf residing in the coastal port of Auberdine. Stationed along the misty Darkshore coast, she watches the tides and directs travelers to investigate the strange remains washing ashore. Her concerns center on the mysterious sea creatures and massive turtles whose carcasses have begun littering the northern beaches. Gwennyth Bly'Leggonde makes her home in Auberdine, the bustling seaside haven of Darkshore. While many in town concern themselves with the forest or shipping across the Veiled Sea, Gwennyth keeps her gaze firmly on the coastline. The tides have recently turned grim, depositing the remains of colossal marine life onto the surf. To understand what is happening in the waters offshore, she relies on willing adventurers to scour the sands, retrieve skeletal samples, and bring back answers. The beaches north and south of Auberdine have seen an alarming influx of beached sea creatures and ancient sea turtles. Rather than letting their deaths go unnoticed, Gwennyth tasks travelers with inspecting these fallen titans. By studying the bones and discovering what drove these beasts ashore or took their lives, she hopes to piece together the hidden perils lurking off the shores of northern Kalimdor."
+    },
+    "npc:high-executor-darthalia": {
+      "1": [
+        {
+          "duration": 68.38857142857142,
+          "file": "Audio/Transport/full_npc_high-executor-darthalia-f7d435e21f06b3c0ecd7/1-0000.mp3",
+          "sha256": "3ec6b26c256ee134989b17bac37ef17f3f63b93e78e922f7cabc012e9b26291f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f7df5d",
+      "generation": "9fd68ba62cc0569c8feb",
+      "hash": "bbc7c6",
+      "source": {
+        "duration": 68.388571,
+        "file": null,
+        "sha256": "f7d435e21f06b3c0ecd7ef2e597248ec2b30719e28e5988908013e4762ac6af1"
+      },
+      "text": "High Executor Darthalia. High Executor Darthalia is a high-ranking Forsaken military commander stationed at Tarren Mill in the Hillsbrad Foothills. Acting under the direct authority of Lady Sylvanas Windrunner and Varimathras, she directs Forsaken operations against the human stronghold of Southshore and local Syndicate brigands. Her leadership is central to securing the Horde's southern flank in Lordaeron. Operating out of Tarren Mill, High Executor Darthalia serves as the operational commander for Forsaken forces throughout the Hillsbrad Foothills. Her primary strategic concern is halting the expansion of human resistance, keeping the Alliance forces in Southshore contained, and hunting down the lawless Syndicate rogues infesting the surrounding countryside. Every offensive push into southern Hillsbrad flows directly through her command. Under direct orders originating from the Undercity's high leadership—the Banshee Queen and her dreadlord lieutenant, Varimathras—Darthalia oversees the relentless attrition war across Hillsbrad. She coordinates scouting missions, targeted strikes against human leadership, and bounties on dangerous outlaws who threaten the Forsaken hold on northern Lordaeron."
+    },
+    "npc:high-priestess-laurena": {
+      "1": [
+        {
+          "duration": 83.33061224489796,
+          "file": "Audio/Transport/full_npc_high-priestess-laurena-941a8350d064a858df9f/1-0000.mp3",
+          "sha256": "6a01dcac7eee26d0aa860473a7df89d8efc517711a6a43af96d2fa26b0dad8a6",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "09e1fd",
+      "generation": "468d1c2eeaa527a7e335",
+      "hash": "7a8e40",
+      "source": {
+        "duration": 83.330612,
+        "file": null,
+        "sha256": "941a8350d064a858df9f42d9b5263895265d28884886fc01c6388285561b8774"
+      },
+      "text": "High Priestess Laurena. High Priestess Laurena is a respected human priest trainer stationed behind the grand altar within Stormwind City's Cathedral of Light. Having escaped the destruction of Lordaeron as a refugee during the Third War, she now instructs budding Alliance priests in spiritual devotion and arcane wards. Before taking her post within the towering halls of the Cathedral of Light, Laurena dwelt in the northern kingdom of Lordaeron. When the Scourge swept across the land during the Third War, she and her entire family were fortunate enough to survive and flee southward, arriving in Stormwind City as displaced refugees. Despite the immense grief and chaos that shattered her homeland, Laurena remained steadfast in her devotion, eventually rising to become a High Priestess in service to the Church of the Holy Light. Positioned directly behind the central altar within the cathedral sanctuary, High Priestess Laurena dedicates herself to mentoring aspiring priests. When promising acolytes demonstrate sufficient dedication and piety, they are directed to her to deepen their studies. Laurena guides them in the invocation of sacred boons such as Desperate Prayer and instructs them in defensive arts, including spells designed to turn enemy arcane magic back against those who wield it. Once an initiate has learned all she can offer, she sends them onward to other master priests across the Alliance."
+    },
+    "npc:illiyana": {
+      "1": [
+        {
+          "duration": 67.76163265306123,
+          "file": "Audio/Transport/full_npc_illiyana-462f9678562382bf1547/1-0000.mp3",
+          "sha256": "ffe11d663b790a86e7000411ab578373db827665bf23de4d65126ee508233773",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "d84ad3",
+      "generation": "1015db106ce29b3c2abf",
+      "hash": "fbcce9",
+      "source": {
+        "duration": 67.761633,
+        "file": null,
+        "sha256": "462f9678562382bf1547bcc2794912be6c959e7593ac52a62cc0efdc1d548b06"
+      },
+      "text": "Illiyana. Illiyana is an ancient dryad stationed in southwestern Ashenvale, dedicated to protecting the woodland from ancient corruption. Wandering near the Shrine of Aessina, she rallies champions of the Alliance to push back against the vicious satyrs that plague the ancient groves. Her vigilance represents the enduring bond between the daughters of Cenarius and the night elven wilderness. Like all dryads, Illiyana is one of the daughters of the demigod Cenarius. Peaceful yet fiercely protective of wild lands, she patrols the woods of southwestern Ashenvale. As dark forces stir and the woodlands suffer under creeping corruption, Illiyana keeps watch over sacred relics and groves, acting as a steward for nature's primal sanctity. Illiyana's primary concern in the region is the lingering blight of the satyrs. These twisted, demonic creatures continuously seek to corrupt the glades and endanger her dryad sisters. Illiyana frequently enlists passing travelers to strike down these vile abominations and recover lost artifacts, including the Branch of Cenarius, to ensure the woods remain sheltered from demonic taint."
+    },
+    "npc:jaina-proudmoore": {
+      "1": [
+        {
+          "duration": 95.81714285714285,
+          "file": "Audio/Transport/full_npc_jaina-proudmoore-d3b3fd30f60fb2f641e7/1-0000.mp3",
+          "sha256": "24995c715ef9b4f40ce00aaf18cb58a7bffde1f23f861d7ea9ac4368badc720d",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "611007",
+      "generation": "5e92fd6d1aa1b10a0cd1",
+      "hash": "775d87",
+      "source": {
+        "duration": 95.817143,
+        "file": null,
+        "sha256": "d3b3fd30f60fb2f641e714d2e68555dda3445bbff785c7f8038bd7c0e793d802"
+      },
+      "text": "Jaina Proudmoore. Lady Jaina Proudmoore is the ruler of Theramore Isle and the most powerful human sorceress alive. Formerly a star pupil of Dalaran's Kirin Tor, she led the survivors of Lordaeron across the Great Sea and now strives to maintain a fragile peace between the Alliance and the New Horde. The daughter of Grand Admiral Daelin Proudmoore of Kul Tiras, Jaina showed remarkable aptitude for the arcane at an early age and studied under Archmage Antonidas in Dalaran. During the Third War, she investigated the mysterious Plague of Undeath alongside Prince Arthas Menethil, witnessing firsthand the tragic downfall of Lordaeron. Guided by the warnings of the Prophet Medivh, she rallied an expedition of human survivors and set sail westward to the forgotten continent of Kalimdor. There, her forces forged an unprecedented alliance with Thrall's Horde and the night elves, standing together atop Mount Hyjal to defeat Archimonde and shatter the Burning Legion's invasion. Following the Legion's defeat, Jaina founded the island citadel of Theramore off the coast of Dustwallow Marsh, establishing the primary bastion of the Alliance in southern Kalimdor. Her commitment to diplomacy was tested to its limits when her father arrived seeking vengeance against the orcs; Jaina refused to support his war, stepping aside as Thrall's forces slew the Grand Admiral to prevent Kalimdor from plunging into another devastating conflict. Today, she rules Theramore as a steadfast advocate for coexistence, working closely with Warchief Thrall while anchoring the Alliance's presence against rising local tensions."
+    },
+    "npc:jern-hornhelm": {
+      "1": [
+        {
+          "duration": 67.34367346938775,
+          "file": "Audio/Transport/full_npc_jern-hornhelm-53f3b05f3c18808a0ce9/1-0000.mp3",
+          "sha256": "7d32f574f048e9bfad2b73614d2ed4ca903e6aa51581aabc733b9b7f156f574a",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "a79fb8",
+      "generation": "f344c90b7cff6a280b8b",
+      "hash": "cefa88",
+      "source": {
+        "duration": 67.369796,
+        "file": null,
+        "sha256": "53f3b05f3c18808a0ce9fbfaf5bd893788be55bdd5e16dd05b27dbbd50d2a185"
+      },
+      "text": "Jern Hornhelm. Jern Hornhelm is a dwarven miner affiliated with the Explorers' League, stationed in the town of Thelsamar. He coordinates vital logistics and communication between the settlement, Ironforge, and the archaeological dig site deeper in Loch Modan. Adventurers frequently assist him with shuttling mining supplies and progress reports across the region. Stationed within the rustic town of Thelsamar, Jern Hornhelm plays a key logistical role for dwarven operations throughout Loch Modan. While dwarven scholars and field teams venture out into the wilderness to unearth their ancestral past, maintaining consistent supply chains remains essential. Jern ensures that vital resources, tools, and communications reach the active dig sites safely. As a member of the Explorers' League, Jern bridges the gap between field archaeologists and the League's leadership in the Hall of Explorers in Ironforge. Sites such as Ironband's Excavation rely heavily on blasting powder, equipment, and regular dispatches to keep work moving forward. Jern enlists reliable travelers to navigate the trogg-infested roads and keep the dig fully operational."
+    },
+    "npc:jitters": {
+      "1": [
+        {
+          "duration": 38.164897959183676,
+          "file": "Audio/Transport/full_npc_jitters-e7c6c51a09ff4d541fec/1-0000.mp3",
+          "sha256": "43329b051c072e219c76f30b7cf45802bafa7c49788445c7824722371ac3af93",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "6e1802",
+      "generation": "b6a59732c5f30e0315ea",
+      "hash": "5918c8",
+      "source": {
+        "duration": 38.19102,
+        "file": null,
+        "sha256": "e7c6c51a09ff4d541fecf8d1f290bb86b8f995b9c60aca2a1bc9f61cb6cc2e03"
+      },
+      "text": "Jitters. Jitters is a terrified, half-starved human hiding among the ruins of Raven Hill in Duskwood. He clings to scraps of food and struggles to speak about the horrors he has witnessed. Found shivering amid the dilapidated houses of Raven Hill, Jitters lives in constant terror of the predators stalking Duskwood's western trails. He relies on passing adventurers for simple sustenance, desperate for food while keeping a frantic eye on the encroaching shadows. His skittish mannerisms and uncanny reflex for leaping clear of sudden danger earned him his moniker long ago, but his frantic paranoia is born from firsthand encounters with horrific horrors."
+    },
+    "npc:jordan-stilwell": {
+      "1": [
+        {
+          "duration": 78.86367346938775,
+          "file": "Audio/Transport/full_npc_jordan-stilwell-75309d983d923b50cc4c/1-0000.mp3",
+          "sha256": "84a0562543104c357f977788b81b1cf6a10aed3c9c8e8e20eee4b692c2efc28c",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f284ef",
+      "generation": "5442e7cebc37e83e7ac7",
+      "hash": "d0b3a0",
+      "source": {
+        "duration": 78.863673,
+        "file": null,
+        "sha256": "75309d983d923b50cc4c2cfdb9a0625ce11e2031583a7c4064dea07e3b04193f"
+      },
+      "text": "Jordan Stilwell. Jordan Stilwell is a skilled human weaponsmith stationed outside the snowy Gates of Ironforge in Dun Morogh. Though originally meant to become a paladin of the Holy Light, he followed his father's craft to become an artisan whose work serves paladins across the Alliance. He is best known for forging Verigan's Fist in honor of his old friend, Bosch Verigan. Though Jordan Stilwell was expected to take holy vows and become a paladin within the Church of the Holy Light, he ultimately chose the way of the forge. He followed in his father's footsteps, taking up his father's enchanted smithing hammer. Jordan refined his craft under the tutelage of the dwarven blacksmith Bailor Stonehand. Despite setting aside the mantle of an anointed holy warrior, Jordan remains deeply faithful to the Light, dedicating his extraordinary craftsmanship to outfitting champions who fight in its name. Long before setting up shop in the biting cold of Dun Morogh, Jordan served as a smith at the keep of Baron Silverlaine in Silverpine Forest. When Archmage Arugal unleashed the feral worgen upon the fortress, turning it into the cursed bastion known as Shadowfang Keep, Jordan managed to escape the bloodshed. Forced to abandon his forge and his former home, he eventually found refuge among the dwarves of Dun Morogh."
+    },
+    "npc:kaela-shadowspear": {
+      "1": [
+        {
+          "duration": 75.91183673469388,
+          "file": "Audio/Transport/full_npc_kaela-shadowspear-9f8e5db1eeaf084f91c9/1-0000.mp3",
+          "sha256": "0f7e8a624281ba2f1ee26832f47107fa76bd23b8e162c119f88a0269549c09ad",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "384b8c",
+      "generation": "6730b8730b14b82011a6",
+      "hash": "3bcc5f",
+      "source": {
+        "duration": 75.911837,
+        "file": null,
+        "sha256": "9f8e5db1eeaf084f91c9b90c24006f2ce3e27129d713c6fa8c62c04e8f283eca"
+      },
+      "text": "Kaela Shadowspear. Kaela Shadowspear is a night elf sentinel stationed southwest of Windshear Crag in the Stonetalon Mountains. From her small outpost, she coordinates with fellow sentinels to monitor escalating tensions and regional disruptions in the wilderness. She relies on brave travelers to scout dangerous territory and bring aid to the land's wounded defenders. Positioned just southwest of the industrial devastation of Windshear Crag, Kaela Shadowspear keeps a watchful vigil over the surrounding passes. The Stonetalon Mountains are fraught with danger as the Horde encroaches and goblin operations exploit the land's natural bounty. Operating alongside the gnome Gaxim Rustfizzle, Kaela acts as an essential forward liaison for the night elves, tracking threats that push deeper into ancestral territory. The unrest in Stonetalon goes far beyond territorial skirmishes. The violent disruption of nature has agitated the elementals and brought harm to ancient guardians of the forest. Kaela works tirelessly to dispatch adventurers against raging elemental spirits and to tend to the wounded ancients suffering in the crossfire of the region's conflicts, striving to restore peace before the land is irrevocably scarred."
+    },
+    "subzone:the-loch": {
+      "1": [
+        {
+          "duration": 61.28326530612245,
+          "file": "Audio/Transport/full_subzone_the-loch-c2dd4076d2c098507cb8/1-0000.mp3",
+          "sha256": "8c62d71aab1061858ef3bb0a1cc27bbcb0068373a14f4eaeb8128e5bf702fcd6",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "5a51fa",
+      "generation": "afdcd2b938f45953f4f8",
+      "hash": "913e57",
+      "source": {
+        "duration": 61.283265,
+        "file": null,
+        "sha256": "c2dd4076d2c098507cb8fb8853a83245af8782eefd023381159fb864afb36ae0"
+      },
+      "text": "The Loch. The Loch is the vast freshwater lake that dominates the valley of Loch Modan. Held back by the monumental Stonewrought Dam, it is the largest body of water on Khaz Modan and the lifeblood of the surrounding dwarven settlements. Spanning the center of Loch Modan, The Loch is among the largest inland lakes in the known world, rivaled only by Lordamere Lake and Darrowmere Lake in the north. Its waters support local fishermen and provide a peaceful backdrop for the town of Thelsamar and nearby hunting lodges. Beneath its calm surface, however, prowl aggressive threshadons and freshwater beasts that make swimming across a perilous venture. The Loch exists in its current tranquil state thanks to masterwork dwarven engineering. To the north stands the massive Stonewrought Dam, an architectural marvel built across the mountain cleft to prevent the lake from flooding out into the Wetlands below. Maintaining this colossal structure is essential to preserving the valley's ecosystem and keeping Khaz Modan secure."
+    },
+    "subzone:thunderbrew-distillery": {
+      "1": [
+        {
+          "duration": 81.76326530612245,
+          "file": "Audio/Transport/full_subzone_thunderbrew-distillery-7f109ff0c63fc9a5728d/1-0000.mp3",
+          "sha256": "8c6452377dbc25d5a9da2f18c7ea44a07b1551361eb516a119b8ac8666a0d2cf",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "1f7188",
+      "generation": "9dbe8c2af5fc305b1d1b",
+      "hash": "4464b9",
+      "source": {
+        "duration": 81.763265,
+        "file": null,
+        "sha256": "7f109ff0c63fc9a5728de5168b35e11f06ad9b789ad71a27d398e37979e84544"
+      },
+      "text": "Thunderbrew Distillery. Thunderbrew Distillery serves as the bustling tavern and central gathering place of Kharanos in Dun Morogh. Renowned far and wide for its potent ales, it functions as both an active brewhouse and an essential rest stop for travelers passing through the snowy mountain passes. Inside, patrons find warm hearths, cold pints, and a wide array of class mentors and local tradesfolk. Perched in the center of Kharanos, the Thunderbrew Distillery is the heart of civic life in southern Dun Morogh. Founded by the Thunderbrew clan—established by Arkilus Thunderbrew and maintained by his kin—the brewhouse is famous across Khaz Modan for producing robust, warming ales built to ward off the biting mountain chill. It operates as the local inn, managed on the floor by Innkeeper Belm, offering weary mountaineers a roaring fire, hearty fare, and beds to escape the blizzards outside. Beyond pouring renowned stouts, the distillery doubles as a vital hub for developing adventurers. Because Kharanos is the first major settlement travelers reach after departing Coldridge Valley, the Thunderbrew tavern plays host to diverse trainers. Mentors in martial arts, holy rites, arcane studies, and roguecraft congregate under its sturdy timber rafters alongside instructors in cooking and emergency medical aid, turning a boisterous drinking hall into an indispensable preparation post."
+    },
+    "subzone:tower-of-ilgalar": {
+      "1": [
+        {
+          "duration": 84.68897959183674,
+          "file": "Audio/Transport/full_subzone_tower-of-ilgalar-6f6b1f9e2c58dda18a57/1-0000.mp3",
+          "sha256": "75e88ef0dd1559d785e734e63aba98b9a210ac5856d89c8269d3b6b61b06528b",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "42102c",
+      "generation": "8ced487b4b4de5fa6b7c",
+      "hash": "42459b",
+      "source": {
+        "duration": 84.68898,
+        "file": null,
+        "sha256": "6f6b1f9e2c58dda18a57c47b7460e4349f865c5b32b984d3ce6628797367cd5d"
+      },
+      "text": "Tower of Ilgalar. The Tower of Ilgalar is an isolated spire perched high in the crags of the eastern Redridge Mountains. Once a wizard's retreat, it has fallen into shadow as the hideout of Morganth, a banished sorcerer from Stormwind who now commands the region's feral gnolls and practices dark magic. Looming over eastern Redridge, the Tower of Ilgalar serves as the personal sanctum of Morganth. Cast out from the Mage Quarter of Stormwind for dabbling in forbidden magic, the rogue sorcerer retreated into these rugged heights to delve deeper into the dark arts without imperial interference. Rather than living in solitude, Morganth asserted dominion over the local Shadowhide gnoll clan, employing them as savage sentries around the base of the spire. Inside, the tower crawls with conjured demonic hounds and crackles with shadowy power, posing a constant, brooding menace to the beleaguered town of Lakeshire below. Scholars often draw parallels between the Tower of Ilgalar and the Tower of Azora in Elwynn Forest. While the true identity of Ilgalar remains shrouded in mystery, the two towers stand in quiet, magical opposition. In Elwynn, the Kirin Tor mage Theocritus maintains careful watch over Ilgalar through enchanted scrying devices like the Eye of Azora, monitoring Morganth's sinister experiments and plotting to neutralize the renegade before his corruption spreads further through the kingdom."
+    },
+    "subzone:trade-district": {
+      "1": [
+        {
+          "duration": 88.52897959183673,
+          "file": "Audio/Transport/full_subzone_trade-district-d23e1e75cc55c812b354/1-0000.mp3",
+          "sha256": "58edbdbf1056b998ae25329aa33f179bf9f627465d63e1bcdebf2f03697127cd",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ccf0a6",
+      "generation": "9a18a774a5f278387151",
+      "hash": "ba5adf",
+      "source": {
+        "duration": 88.52898,
+        "file": null,
+        "sha256": "d23e1e75cc55c812b354d11a921c29bff81547695e677e7f89b6da417e8e4f48"
+      },
+      "text": "Trade District. The Trade District is the bustling commercial heart of Stormwind City, located immediately past the main gates and the Valley of Heroes. It serves as the primary hub for adventurers and citizens alike, housing the city's central bank, auction house, guild registry, and diverse merchant shops. Crossing beneath the stone arches from the Valley of Heroes brings travelers directly into the Trade District. This vibrant open plaza acts as Stormwind's primary marketplace and logistical hub. At its center stands the Auction House, flanked nearby by the Stormwind Counting House, the city's main bank, and the popular tavern known as The Gilded Rose. The district directly bridges the gap between the military enclave of Old Town, the serene Cathedral Square, and the arcane avenues of the Mage Quarter, ensuring that coin, raw goods, and adventuring supplies circulate swiftly through the realm. Every essential commodity can be acquired along the paved avenues and flanking canals. Weapon smiths at Weller's Arsenal and Lionheart Armory supply blades and mail, fletchers peddle bows at The Empty Quiver, and artisanal stalls offer everything from fresh flowers to fine aged vintages from the Gallina Winery. Just inside the gates, the Stormwind Visitor's Center coordinates newly registered charters and tabard designs for organized adventuring guilds, while an elevated ramp on the eastern side climbs toward the Gryphon Roost, linking the capital's mercantile life to the rest of the Alliance territories."
+    },
+    "subzone:tradesmen-s-terrace": {
+      "1": [
+        {
+          "duration": 90.09632653061225,
+          "file": "Audio/Transport/full_subzone_tradesmen-s-terrace-e1d1729518b89db7546c/1-0000.mp3",
+          "sha256": "9304c2fe79b642bf65eded090ad767591048a16aaf82bab8f5cc9d2895aac6cb",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "c44796",
+      "generation": "8c3b1fb66b0d3c568542",
+      "hash": "c5ee29",
+      "source": {
+        "duration": 90.096327,
+        "file": null,
+        "sha256": "e1d1729518b89db7546c3d840bf3e3b1870b05cf15b46f2794747862a08ad142"
+      },
+      "text": "Tradesmen's Terrace. Tradesmen's Terrace is the bustling commercial heart of Darnassus, situated along the city's southern flank. It brings together craftspeople, merchants, and the local auction house beneath the sweeping wooden architecture of the night elf capital. The terrace serves as the primary trade link connecting artisans with adventurers journeying across Teldrassil and beyond. Occupying the southern stretch of Darnassus, Tradesmen's Terrace houses the capital's mercantile life. While much of the city is devoted to quiet contemplation, wilderness sanctuaries, and spiritual duties, this terrace brings together shopkeepers, tradespeople, and merchants serving both local kaldorei and travelers from the wider Alliance. It contains Darnassus's central auction house, general provisions, and crafting supply stores, making it the essential staging ground for journeys into the wilds. Broad footpaths connect it northward directly to the Warrior's Terrace and westward toward the serene waters of the Temple Gardens and the grand Temple of the Moon. Kaldorei crafts prioritize harmony with nature, and the shops here reflect that delicate balance. Even amidst everyday commerce, the terrace operates without the roaring furnaces or smog seen in dwarven or human workshops, favoring quiet stone, curated timber, and woven goods. For visiting adventurers seeking trade contracts, repairs, or materials gathered from Teldrassil's dense boughs, the terrace stands as the principal center of business in northern Kalimdor."
+    },
+    "subzone:valley-of-heroes": {
+      "1": [
+        {
+          "duration": 79.20326530612245,
+          "file": "Audio/Transport/full_subzone_valley-of-heroes-03d6c95845e0d17b0b43/1-0000.mp3",
+          "sha256": "5398ab09d7551232a2d9b6c4e9936d0ffa7ea545443369a617641aa740132475",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "193848",
+      "generation": "936923e3e6cef26762b3",
+      "hash": "7d9bf7",
+      "source": {
+        "duration": 79.203265,
+        "file": null,
+        "sha256": "03d6c95845e0d17b0b436d6729eee419f22376fb47118a738d113f30d012455a"
+      },
+      "text": "Valley of Heroes. The Valley of Heroes forms the monumental southern entrance to Stormwind City, carrying travellers across a stone bridge spanning the moat. Flanked by towering statues honoring the leaders of the Alliance Expedition to Draenor, it serves as both an awe-inspiring welcome and a heavily fortified checkpoint. Erected during the grand rebuilding of Stormwind following the Second War, the statues lining the causeway commemorate the commanders of the Alliance Expedition. These champions marched through the Dark Portal into the orcish homeworld of Draenor to seal the rift forever, giving their lives so Azeroth might survive. Visitors proceeding north toward the Trade District pass beneath the visages of Archmage Khadgar, Kurdran Wildhammer, Ranger-Captain Alleria Windrunner, Force Commander Danath Trollbane, and High General Turalyon. Beyond its ceremonial role, the valley is the primary defensive choke point guarding Stormwind from overland invasion. The approaches are overseen by General Marcus Jonathan, commander of the city guard, who monitors all traffic entering and departing through the great gates astride his steed. Flanking commanders, including Major Mattingly and Field Marshal Stonebridge, maintain vigilance alongside rows of seasoned guards, ensuring the capital remains secure against external threats."
+    },
+    "subzone:valley-of-kings": {
+      "1": [
+        {
+          "duration": 85.34204081632653,
+          "file": "Audio/Transport/full_subzone_valley-of-kings-57fc0d547fc6b464ffc7/1-0000.mp3",
+          "sha256": "d3d70a6e3af32dbc8c9afcc5593fbc82e461163cc434e1d74aee61d02c8ed0aa",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "fcca05",
+      "generation": "d41d8d06b75aab46a019",
+      "hash": "95a679",
+      "source": {
+        "duration": 85.342041,
+        "file": null,
+        "sha256": "57fc0d547fc6b464ffc7776b6d9286d622a223738a2b6da27ccf5d3a8db9b6f4"
+      },
+      "text": "Valley of Kings. The Valley of Kings is a lush canyon nestled in the southwestern corner of Loch Modan, directly south of the passage to Dun Morogh. It serves as a heavily watched gateway into the fiery Searing Gorge, flanked by monumental stone figures carved in memory of the War of the Three Hammers. Travelers venturing here walk beneath ancient dwarven history while facing the immediate threat of Blackrock encroachers and troggs. The valley's most commanding feature is the pair of colossal statues depicting King Madoran Bronzebeard and High Thane Khardros Wildhammer. Carved by joint commission from their sons following their deaths, these stone titans overlook the pass into the scorched southlands. They stand as a lasting monument to the allied victory in the War of the Three Hammers and an eternal warning against the Dark Iron clan, reminding all who look south of the ruin brought upon the Redridge Mountains by the summoning of Ragnaros. Beyond serving as a path between South Gate Pass and Stonesplinter Valley, the Valley of Kings holds the heavy iron gate leading down into the Searing Gorge. Because of the hostile Blackrock orcs, Dark Iron dwarves, and volcanic hazards lurking on the other side, the gate is kept strictly locked and guarded by Ironforge mountaineers. Mountaineer Pebblebitty keeps watch over the threshold, turning away all but the hardiest adventurers who can prove they possess the strength to survive the inferno beyond."
+    },
+    "subzone:vul-gol-ogre-mound": {
+      "1": [
+        {
+          "duration": 83.90530612244898,
+          "file": "Audio/Transport/full_subzone_vul-gol-ogre-mound-e4d8d9a62c06df2947fb/1-0000.mp3",
+          "sha256": "58b64572193fc325dbea5a2ef743a47655632cefc4b49b7e9d68473af665d862",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "d1fe4e",
+      "generation": "920b88a5dce3818e4f65",
+      "hash": "06cb61",
+      "source": {
+        "duration": 83.905306,
+        "file": null,
+        "sha256": "e4d8d9a62c06df2947fb944957ed5ee31ab11562c7540df2a98ffc33750cbc78"
+      },
+      "text": "Vul'Gol Ogre Mound. Vul'Gol Ogre Mound is a sunken basin in southern Duskwood overrun by the Splinter Fist ogres under the brute Zzarc'Vul. Once a cluster of human homesteads, its ruined farmhouses and subterranean cavern are now littered with the carcasses and scavenged plunder of the clan. Tucked away in the shadows southwest of the fork heading toward Stranglethorn Vale, the Vul'Gol Ogre Mound serves as the seat of the Splinter Fist clan in Duskwood. The basin was once peaceful farmland, but its human inhabitants have long since fled or perished, leaving behind hollowed-out cabins now claimed by lumbering ogres and used as crude shelters. Inside the cavern beneath the rise, piles of slaughtered black bears attest to the clan's voracious appetite. Their chieftain, Zzarc'Vul, rules over the encampment, hoarding odd trinkets alongside mundane scavenged goods. Because the beleaguered Night Watch must stretch its thin ranks to guard Darkshire against rabid worgen and the restless dead, Commander Althea Ebonlocke and her militia rely on outside mercenaries to cull the Splinter Fist numbers before they push north. However, the ogres have made enemies beyond the town guard. They raided the recluse Abercrombie, stealing a crate of his alchemical tools, and attracted the attention of inquisitive mages seeking the arcane lenses that chieftain Zzarc'Vul is rumored to possess."
+    },
+    "subzone:war-room": {
+      "1": [
+        {
+          "duration": 55.06612244897959,
+          "file": "Audio/Transport/full_subzone_war-room-be5b34ec736252ef3185/1-0000.mp3",
+          "sha256": "eb2c0e2afd33ec46273d626de90c6f33ad6b4d035afe8206739e37435179ac7d",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "961601",
+      "generation": "f1f0a4ba5abc48f54d6f",
+      "hash": "7c707f",
+      "source": {
+        "duration": 55.066122,
+        "file": null,
+        "sha256": "be5b34ec736252ef3185f38e9505ac0d8bb51213ea82c17d4f721e5855bac020"
+      },
+      "text": "War Room. Tucked deep inside Stormwind Keep, the War Room serves as the strategic nerve center of the Alliance military. Ringed with armaments, historical war tomes, and tactical charts, it is where generals and strategists monitor distant fronts and coordinate the defense of the kingdom. Branching off from the grand chambers of Stormwind Keep, the War Room is outfitted specifically for military logistics and high-level campaign planning. Its stone walls are decorated with rows of armaments, including swords, blunderbusses, and even heavy artillery cannons. Piles of military treatises and historical chronicles—such as accounts of the Second War, the Fall of Stormwind, and the Battle of Grim Batol—stand stacked on nearby tables. At the room's core lies a large tactical map table, allowing commanders to assess Alliance deployments across Azeroth while the royal court handles matters of state just steps away."
+    },
+    "subzone:warsong-labor-camp": {
+      "1": [
+        {
+          "duration": 74.39673469387755,
+          "file": "Audio/Transport/full_subzone_warsong-labor-camp-0805feee075c80aa3e00/1-0000.mp3",
+          "sha256": "68954bc5c4ddfdced1976c7013d1c00929b73e772b618dc3c41b0993cbba870e",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "bcc159",
+      "generation": "d64864304de37ffa057c",
+      "hash": "c0acc1",
+      "source": {
+        "duration": 74.396735,
+        "file": null,
+        "sha256": "0805feee075c80aa3e00873b34e82db0510d7db10d4fe565043eaddc1d8c7402"
+      },
+      "text": "Warsong Labor Camp. The Warsong Labor Camp is an isolated Horde timber-harvesting outpost tucked away in southeastern Ashenvale. Operated by Warsong loggers and defended by orcish sentries, the work site cuts lumber to fuel the growth of Durotar while braving the hostility of the surrounding forest. Situated east of Fallen Sky Lake and southwest of the Dor'Danil Barrow Den, the Warsong Labor Camp exists for one vital purpose: harvesting the dense timber of Ashenvale. The dry plains of Durotar offer little usable lumber to build cities like Orgrimmar, forcing the Warsong clan to push deep into the contested woods. Staffed by hardy loggers and orcish guards, the site operates in relative isolation, grinding through ancient trees despite the ever-present threat of night elf scouts and passing Alliance warbands. Because of its remote location far from the main road and fortified bases like Splintertree Post, the camp is exceptionally vulnerable. Alliance raiders often strike the working peons and watchmen, knowing reinforcements will not arrive swiftly. To the night elves, every felled tree is an act of sacrilege, turning this mundane logging camp into a perennial flashpoint in the regional war."
+    },
+    "subzone:westbrook-garrison": {
+      "1": [
+        {
+          "duration": 83.33061224489796,
+          "file": "Audio/Transport/full_subzone_westbrook-garrison-1b2ef3ad44a172ba5307/1-0000.mp3",
+          "sha256": "d0adbf4ca53c01a7f372176b9092a5654282d8d7aa666a695388b14276d3fe5c",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "44e21b",
+      "generation": "72e1307b4fdfaf6eaa0d",
+      "hash": "75d6dc",
+      "source": {
+        "duration": 83.330612,
+        "file": null,
+        "sha256": "1b2ef3ad44a172ba5307a0490121507e275cc3858ce47b10a192748a663fcd1d"
+      },
+      "text": "Westbrook Garrison. Westbrook Garrison is a Stormwind Guard outpost situated on the western edge of Elwynn Forest near the Westfall border. Manned by an overworked, under-supplied skeleton crew under Deputy Rainer, it serves as the realm's first line of defense against the encroaching Riverpaw gnolls and rogue bandits. Positioned where Elwynn Forest begins to thin toward Westfall, Westbrook Garrison stands as a vital but struggling watchpoint. With much of the Stormwind Army committed abroad or tied down by political inertia in the capital, the outpost has been left critically shorthanded. Deputy Rainer and his handful of guards must patrol the western roads while fending off emboldened thieves and the vicious Riverpaw gnolls who have overrun the southern woods. Unable to secure formal reinforcements from Marshal Dughan in Goldshire, the garrison relies almost entirely on traveling adventurers to secure the highway. The primary threat facing Westbrook is the swelling gnoll presence centered around the south of Forest's Edge. The packs have grown bold enough to stage raids directly on supply lines and homesteads, organized under the fearsome gnoll chieftain known as Hogger. Outnumbered and overwhelmed by the brute strength of Hogger's forces, the garrison has posted a high bounty across its grounds, desperately seeking capable fighters willing to venture into the hills and bring down the beast before he pushes farther east."
+    },
+    "subzone:windshear-crag": {
+      "1": [
+        {
+          "duration": 99.65714285714286,
+          "file": "Audio/Transport/full_subzone_windshear-crag-aa06795d9b06b0b1c383/1-0000.mp3",
+          "sha256": "4cbc873936ccd6ab670308dbc88ec9d2e0e9d21da95b679be2a770e1a688f42b",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "aa54a1",
+      "generation": "ff458ef57df97ddb3833",
+      "hash": "647da1",
+      "source": {
+        "duration": 99.657143,
+        "file": null,
+        "sha256": "aa06795d9b06b0b1c3837d6071e52744479b161701238fc785f0a9a7483084f6"
+      },
+      "text": "Windshear Crag. Windshear Crag is a heavily despoiled valley in the central Stonetalon Mountains, stripped of its ancient timber by the Venture Company. Once a lush forest, the region is now an industrial wasteland dominated by whirring shredders, murky runoff, and aggressive logging crews. In the shadows of the machinery, local kobolds burrow for ore while mountain passes connect the scarred landscape to Ashenvale. Not long ago, Windshear Crag was a thick, old-growth woodland flanking the slopes of Stonetalon. That tranquil wilderness vanished when the Venture Company arrived in search of profit. Today, the basin is filled with severed stumps, acrid smog, and clanking machinery. The entire logging enterprise is overseen by Gerenzo Wrenchwhistle, a leper gnome whose engineering genius produced the Super Reaper 6000—a mechanical terror capable of reducing massive trunks to kindling in moments. From an elevated platform above the polluted Cragpool Lake, Gerenzo directs an unchecked operation that strips the mountain bare, earning the hostility of rival engineers and local inhabitants alike. Beyond the active timberyards, Windshear Crag holds other hazards and crossroads. To the southeast lies Windshear Mine, where territorial kobolds dig through the rock for Smoky Iron Ingots, fiercely attacking anyone who nears their haul. In the crag's northeast reaches, travelers can find the Talondeep Path, an underground cavern tunnel threading straight beneath the ridges into Ashenvale. Stationed near this shadowed portal stands the tauren elder Braug Dimspirit, who tests the historical wisdom and resolve of Horde wayfarers venturing through the contested peaks."
+    },
+    "subzone:yorgen-farmstead": {
+      "1": [
+        {
+          "duration": 71.57551020408164,
+          "file": "Audio/Transport/full_subzone_yorgen-farmstead-c5d82600fd165e1b524d/1-0000.mp3",
+          "sha256": "19d1d2102a1a3cba0d3be3e99520716f19efc724d35f18b3e61cc312fb249471",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "256950",
+      "generation": "2664ff6e950a8f7efd34",
+      "hash": "35943b",
+      "source": {
+        "duration": 71.601633,
+        "file": null,
+        "sha256": "c5d82600fd165e1b524dad4a54e5c04496a4f27b199b316cc0eea3144705cad1"
+      },
+      "text": "Yorgen Farmstead. The Yorgen Farmstead is a derelict farm nestled in southern Duskwood, fallen into ruin alongside the rest of the troubled region. Formerly owned by the farmer Sven Yorgen, the property has been seized and occupied by brigands of the Defias Brotherhood. Situated amidst the gloomy woodlands of southern Duskwood, the Yorgen Farmstead was once a functioning homestead belonging to Sven Yorgen. Like many isolated holdings in the region, the farm could not withstand the encroaching perils of the territory. Sven was forced to abandon his lands, retreating north to a makeshift camp along the Darkened Bank. In his absence, the abandoned grounds were claimed by outlaws looking for a foothold far from the gaze of Stormwind's authorities. Rather than lying vacant, the farmstead has been repurposed as a staging ground by the Defias Brotherhood. Masked highwaymen and stealthy cutthroats lurk among the decaying fences and weathered outbuildings, using the dense tree cover to conceal their presence. Travelers approaching the farmstead must tread carefully, as Defias assassins patrol the perimeter and ambush anyone trespassing on their newly seized sanctuary."
+    },
+    "subzone:zoram-gar-outpost": {
+      "1": [
+        {
+          "duration": 68.75428571428571,
+          "file": "Audio/Transport/full_subzone_zoram-gar-outpost-3e44b37e8f2d7ba78336/1-0000.mp3",
+          "sha256": "4d9339de1cf8ff98944dd8c514f2327b38f644d6fe6608b9a6913675c1da4ff1",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "228770",
+      "generation": "e2821438afb0dd7d21fc",
+      "hash": "30471b",
+      "source": {
+        "duration": 68.780408,
+        "file": null,
+        "sha256": "3e44b37e8f2d7ba783368c47d2dc7632aeb4a0b391651fea50d13a1ea968796e"
+      },
+      "text": "Zoram'gar Outpost. Zoram'gar Outpost is a fortified Horde beachhead nestled on the western edge of Ashenvale along the Zoram Strand. Serving as a crucial coastal encampment, it provides the Horde with access to the Veiled Sea and keeps watch over regional threats like the encroaching naga and the sinister depths nearby. Situated at the northwestern lip of Ashenvale where the primeval forest collapses into the sea, Zoram'gar Outpost serves as the Horde's isolated coastal footing on the Zoram Strand. Hemmed in by night elf territory inland and maritime hazards offshore, the encampment acts as a staging ground for scouts, hunters, and shaman tasked with tracking local dangers. Life at the outpost is an endless vigil: naga regularly prowl the shallows, while lurking cultists and primal horrors pulse from the subterranean cavern system known as Blackfathom Deeps just down the shore. Because of its peripheral location, Zoram'gar maintains flight connections with other critical Horde holdings like Splintertree Post, the Crossroads, and Thunder Bluff. While small in footprint, the outpost anchors Horde supply lines on the western coast."
+    },
+    "subzone:zoram-strand": {
+      "1": [
+        {
+          "duration": 79.6734693877551,
+          "file": "Audio/Transport/full_subzone_zoram-strand-084fe6bfab3a31283bf3/1-0000.mp3",
+          "sha256": "9af19e4c57d242f70c90d7c5ee791898c13b666a67a4bb9726e45ef3e2b8bb1e",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "4d9d06",
+      "generation": "76fc6da9125f4d349f89",
+      "hash": "7f56b6",
+      "source": {
+        "duration": 79.673469,
+        "file": null,
+        "sha256": "084fe6bfab3a31283bf38ca55c844e059132ea7b56294158bef14361621d3064"
+      },
+      "text": "Zoram Strand. The Zoram Strand is a windswept coastline lining the northwestern edge of Ashenvale along the Veiled Sea. Once the site of an ancient night elven city swallowed by the Great Sundering, the shore is now plagued by Wrathtail naga, shipwrecks, and beached leviathans. It also holds the entrance to the submerged temple complex of Blackfathom Deeps. Ten thousand years ago, the grand night elven city of Zoram graced these shores before the Great Sundering tore Kalimdor apart and cast the settlement into the ocean depths. Today, the tide continually washes up ancient relics, remnants of shattered vessels, and the carcasses of massive sea beasts. The Wrathtail naga have overrun the beaches and tidal pools, fiercely guarding the flooded ruins and ancient artifacts against anyone daring to approach. Despite the naga menace, both mainland travelers and coastal wanderers find themselves drawn to the strand. To the south lies the fortified Horde encampment of Zoram'gar Outpost, whose warriors fight a continuous battle to secure the coast. Deep within the nearby caverns sits Blackfathom Deeps, an ancient temple of Elune that has fallen into dark hands, making the strand a gathering ground for scouts, scholars, and treasure seekers braving the surf."
     }
   },
   "pack": "LoreForever_Voice_Default_Alliance",

@@ -26,12 +26,12 @@
   },
   {
    "title": "The Sunken Ruin of Lorgalis",
-   "body": "Bonegrip directs seekers halfway across Azeroth to the shadowed shores of Ashenvale, where the ancient night elven sanctuary of Blackfathom Deeps lies drowned. Before the Great Sundering tore Kalimdor apart, night elven scholars gathered immense magical knowledge in their coastal temples. Amidst the flooded corridors, now crawling with naga, satyrs, and Twilight's Hammer cultists, rests the Lorgalis Manuscript\u2014a relic containing potent pre-Sundering secrets that survived millennia underwater.",
+   "body": "Bonegrip directs seekers halfway across Azeroth to the shadowed shores of Ashenvale, where the ancient night elven sanctuary of Blackfathom Deeps lies drowned. Before the Great Sundering tore Kalimdor apart, night elven scholars gathered immense magical knowledge in their coastal temples. Amidst the flooded corridors, now crawling with naga, satyrs, and Twilight's Hammer cultists, rests the Lorgalis Manuscript\u2014a text of forbidden lore kept in a Pitted Iron Chest.",
    "spoiler": 0
   },
   {
    "title": "Brothers and Sisters",
-   "body": "When presented with the watersoaked manuscript, Bonegrip makes no effort to file it in Ironforge's Hall of Explorers. Instead, he openly rejoices that duplicates will be produced and disseminated among his mysterious 'brothers and sisters.' While grateful to the Alliance adventurer who retrieved it, Bonegrip's loyalties clearly lie with a clandestine sect eager to utilize the recovered lore for esoteric, world-altering rites.",
+   "body": "When presented with the watersoaked manuscript, Bonegrip makes no effort to file it in Ironforge's Hall of Explorers. Instead, he openly rejoices that duplicates will be produced and disseminated among his mysterious 'brothers and sisters.' While grateful to the Alliance adventurer who retrieved it, Bonegrip's loyalties clearly lie with a clandestine sect eager to utilize the recovered lore for esoteric, world-altering rites. Bonegrip is associated with the Twilight's Hammer, whose followers seek forbidden knowledge of the Old Gods.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "lorgalis lore",
     "what book do i find"
    ],
-   "answer": "The Lorgalis Manuscript is an ancient night elven text surviving from before the Great Sundering. Preserved within the flooded sanctuary of Blackfathom Deeps, it holds potent, forgotten knowledge regarding esoteric magics and entities of the deep."
+   "answer": "The Lorgalis Manuscript is a text Gerrig Bonegrip wants recovered from Blackfathom Deeps. It is kept in a Pitted Iron Chest among the flooded ruins."
   },
   {
    "q": "Where is the Lorgalis Manuscript located?",
@@ -70,7 +70,7 @@
     "who is bonegrip talking about",
     "what does gerrig worship"
    ],
-   "answer": "While Bonegrip speaks cryptically, 'Those Who Sleep' and his mentions of 'the end days' refer to slumbering cosmic terrors and Old God entities, the same powers revered by the Twilight's Hammer cultists inhabiting Blackfathom Deeps."
+   "answer": "Bonegrip uses this cryptic name for the slumbering powers described in the forbidden lore he collects. The quest's protected sections explore his darker connections."
   },
   {
    "q": "Who are the 'brothers and sisters' Gerrig plans to share the manuscript with?",
@@ -79,7 +79,7 @@
     "who is gerrig working for",
     "bonegrip faction"
    ],
-   "answer": "Gerrig belongs to a secretive cult or cabal operating beneath the notice of Ironforge authorities. Upon obtaining the manuscript, he plans to duplicate it for his fellow adherents rather than handing it over to the dwarven Explorers' League."
+   "answer": "Bonegrip's associates share his interest in forbidden lore. Recovering the manuscript can reveal more about whom he serves."
   },
   {
    "q": "Why does a quest in Ironforge send players all the way to Ashenvale?",
@@ -98,7 +98,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "The Lorgalis Manuscript is an ancient remnant of your people's ancestral golden age, making its recovery from cult-infested ruins a matter of cultural preservation."
+   "text": "The manuscript lies in Blackfathom Deeps, a drowned night elven sanctuary now occupied by cultists and other intruders."
   },
   {
    "target": "faction:Alliance",

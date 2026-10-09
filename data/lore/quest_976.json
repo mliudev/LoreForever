@@ -12,7 +12,7 @@
   "faction": "Alliance",
   "start": "Feero Ironhand",
   "end": "Delgren the Purifier",
-  "previous": "The Tower of Althalaxx",
+  "previous": "The Tower of Althalaxx (5)",
   "next": null,
   "wiki": "Supplies to Auberdine",
   "chain": []
@@ -57,15 +57,6 @@
     "who attacks on the road"
    ],
    "answer": "Feero warns that dangerous foes operate throughout the forest and asks for guards. The identities of those who attack are discovered during the escort."
-  },
-  {
-   "q": "Why are Forsaken scouts in western Ashenvale?",
-   "aliases": [
-    "forsaken in ashenvale",
-    "undead ambush",
-    "why undead here"
-   ],
-   "answer": "Forsaken agents have been actively scouting Kalimdor's northern forests, seeking opportunities and monitoring Alliance movements. In Ashenvale, their scouts operate in the shadows, ready to eliminate Alliance couriers and exploit the instability caused by local cults."
   },
   {
    "q": "What is the connection to the Tower of Althalaxx?",

@@ -46,7 +46,7 @@
     "plague experiments arathi",
     "forsaken research goshek"
    ],
-   "answer": "Forsaken apothecaries, including Apothecary Jorell, use the remote farm to test and refine early formulas for a new plague. They correspond and trade research materials with fellow apothecaries in Tarren Mill."
+   "answer": "Forsaken apothecaries conduct secretive alchemical work at the farm. Alliance agents are trying to uncover its nature by investigating courier traffic and records kept there."
   },
   {
    "q": "Why are there Alliance agents watching the farm?",
@@ -55,13 +55,13 @@
     "alliance scouting goshek",
     "hints of a new plague"
    ],
-   "answer": "Alliance scouts Quae and Kinelory were dispatched to monitor suspicious courier movements between the farmstead and Tarren Mill. They seek to intercept Forsaken dispatches and determine what biological threats the Undercity is concocting."
+   "answer": "Quae and Kinelory are investigating suspicious traffic between the farmstead and Tarren Mill. They seek evidence of the Forsaken's activities and need help reaching it."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Go'Shek Farm represents a dual threat: an agricultural artery feeding the garrison at Hammerfall, and a covert laboratory developing toxic Forsaken contagions."
+   "text": "The farm supports Hammerfall and houses Forsaken apothecaries whose secretive work has attracted Alliance scrutiny."
   },
   {
    "target": "faction:Horde",

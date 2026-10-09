@@ -658,7 +658,7 @@ function Journey.Open(id, listen)
   local metaParts = {}
   if sub ~= "" then metaParts[#metaParts + 1] = sub end
   if levels then metaParts[#metaParts + 1] = levels end
-  local meta = table.concat(metaParts, "  ·  ")
+  local meta = table.concat(metaParts, ns.Lang.Dotted("  ·  "))
   local narrated = ns.Voice.HasAudio("journey:" .. id) and ("  " .. GREY .. L["(narrated)"] .. "|r") or ""
   local text = GOLD .. esc(ch.title or L["Your journey"]) .. "|r" .. narrated .. "\n"
     .. (meta ~= "" and (GREY .. meta .. "|r\n") or "") .. WHITE .. esc(ch.text) .. "|r"
@@ -896,7 +896,7 @@ do
         local v = select(i, ...)
         if v and v ~= "" then parts[#parts + 1] = v end
       end
-      return table.concat(parts, "  ·  ")
+      return table.concat(parts, ns.Lang.Dotted("  ·  "))
     end
     local with = type(e.pt) == "table" and #e.pt > 0 and string.format(L["with %s"], table.concat(e.pt, ", ")) or nil
     if e.k == "qt" then return e.q or string.format(L["Quest %d"], e.id or 0), sub(L["Quest done"], with or where)
@@ -958,7 +958,9 @@ do
       end
       if best then
         local title, sub = describe(best.e)
-        local label = type(sub) == "string" and sub:match("^([^·]-)%s*·") or sub
+        -- The part before the first separator (a plain find: the dot is several bytes, and Cyrillic text shares them).
+        local cut = type(sub) == "string" and sub:find(ns.Lang.dot, 1, true)
+        local label = cut and sub:sub(1, cut - 1):match("^(.-)%s*$") or sub
         return string.format(ago[2], (label and label ~= "" and label ~= title) and (title .. " (" .. label .. ")") or title)
       end
     end
@@ -1046,7 +1048,7 @@ do
       local v = select(i, ...)
       if v and v ~= "" then parts[#parts + 1] = v end
     end
-    return table.concat(parts, "  ·  ")
+    return table.concat(parts, ns.Lang.Dotted("  ·  "))
   end
 
   -- The filter the page shows (remembered in settings): all, quest, fight, mile or chapters.
@@ -2117,7 +2119,7 @@ do
     local sub = {}
     if it.sub and it.sub ~= "" then sub[#sub + 1] = it.sub end
     if it.chapter and ns.Voice.HasAudio("journey:" .. it.chapter) then sub[#sub + 1] = L["narrated"] end
-    r.sub:SetText(esc(table.concat(sub, "  ·  ")))
+    r.sub:SetText(esc(table.concat(sub, ns.Lang.Dotted("  ·  "))))
     if r.bg then r.bg:Show() end
     local c = it.kind and COLOR[it.kind]
     if c then r.dot:SetVertexColor(c[1], c[2], c[3], 1) end
@@ -2133,17 +2135,17 @@ do
     local parts = { n(s.quests, L["%d quest done"], L["%d quests done"]), n(s.places, L["%d place"], L["%d places"]),
       n(s.people, L["%d person met"], L["%d people met"]), n(s.foes, L["%d foe"], L["%d foes"]) }
     if (s.bosses or 0) > 0 then parts[#parts + 1] = n(s.bosses, L["%d boss"], L["%d bosses"]) end
-    Journey.statsLine:SetText(char and table.concat(parts, "  ·  ") or "")
+    Journey.statsLine:SetText(char and table.concat(parts, ns.Lang.Dotted("  ·  ")) or "")
     -- How far you walked too, in steps, when it fits on the line (the rest is in its tooltip).
     local nums = char and ns.JourneyRecord and ns.JourneyRecord.Numbers(char)
     if nums and nums.yards >= 1 then
       parts[#parts + 1] = Journey.StepsText(nums.yards)
       local line = Journey.statsLine
-      line:SetText(table.concat(parts, "  ·  "))
+      line:SetText(table.concat(parts, ns.Lang.Dotted("  ·  ")))
       local width, room = T.TextWidth(line), line:GetWidth()
       if width and room and room > 0 and width > room then
         parts[#parts] = nil
-        line:SetText(table.concat(parts, "  ·  "))
+        line:SetText(table.concat(parts, ns.Lang.Dotted("  ·  ")))
       end
     end
     local who = char and string.format(L["Level %d %s %s"], tonumber(char.level) or 0, char.raceName or "",

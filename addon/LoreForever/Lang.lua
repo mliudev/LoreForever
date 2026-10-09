@@ -21,11 +21,21 @@ local _, ns = ...
 local Lang = {}
 ns.Lang = Lang
 
+-- The "·" between the parts of a line. The client's Cyrillic Friz face has no "·" (it draws a box), so a Cyrillic
+-- reading language or a Russian client gets the bullet operator "∙", which every Friz and Morpheus face has.
+-- Lang.Dotted swaps it into a string; UI strings get it through L, the code's own separators call it.
+local CYRILLIC = { ruRU = true, ukUA = true }
+Lang.dot = "·"
+function Lang.Dotted(s)
+  if Lang.dot ~= "·" and type(s) == "string" and s:find("·", 1, true) then return (s:gsub("·", Lang.dot)) end
+  return s
+end
+
 -- Lang.fallbacks: the UI strings looked up that have no translation (in English, all of them), for /lore qa.
 Lang.fallbacks = {}
 ns.L = setmetatable({}, { __index = function(_, k)
   if k ~= nil then Lang.fallbacks[k] = true end
-  return k
+  return Lang.Dotted(k)
 end })
 local L = ns.L
 
@@ -38,6 +48,11 @@ local function lower(s) return ns.Engine and ns.Engine.lower(s) or s:lower() end
 function Lang.ClientLocale()
   local ok, loc = pcall(GetLocale or function() return "enUS" end)
   return ok and loc or "enUS"
+end
+
+-- Called as the reading language is chosen at login (Lang init).
+function Lang.SetDot(reading)
+  Lang.dot = (CYRILLIC[reading] or CYRILLIC[Lang.ClientLocale()]) and "∙" or "·"
 end
 
 local function packFor(locale, kind)
@@ -333,6 +348,7 @@ local function init(lang)
   Packs.Scan()
   local client = lang.client
   local want, auto = Lang.Wanted()
+  Lang.SetDot(want)
   local function note(fmt, ...) lang.notes[#lang.notes + 1] = string.format(fmt, ...) end
 
   -- quiet: say nothing when no pack is installed (automatic on a client nobody has translated for yet, or client
@@ -379,9 +395,9 @@ local function init(lang)
   db.fullclips, db.fullclipsLocale = {}, rec.locale
 
   local overlayOK = ow and Lang.OverlayEntries(db, ow)   -- before the merge: fp is over the English
-  for k, v in pairs((tw and tw.ui) or {}) do rawset(L, k, v) end
+  for k, v in pairs((tw and tw.ui) or {}) do rawset(L, k, Lang.Dotted(v)) end
   for k, v in pairs((ow and ow.ui) or {}) do
-    if type(v) == "string" and v ~= "" then rawset(L, k, v) end
+    if type(v) == "string" and v ~= "" then rawset(L, k, Lang.Dotted(v)) end
   end
   local merged = {}
   if tw then
@@ -427,6 +443,7 @@ local function init(lang)
       if same then db.fullclips[key] = hash end
     end
   end
+  lang.merged = merged   -- scoped contributed recordings require text that actually merged
   lang.locale, lang.name, lang.pack = rec.locale, rec.languageName or rec.locale, rec.name
   ns.readingLocale = rec.locale
 end
@@ -612,6 +629,7 @@ end
 function Lang.Init()
   local lang = { locale = "enUS", client = Lang.ClientLocale(), notes = {} }
   ns.lang = lang
+  Lang.SetDot()   -- the client's own alphabet; init adds the reading language's
   lang.selection = Lang.Selected()
   if settings().edition then
     ns.Packs.Scan()

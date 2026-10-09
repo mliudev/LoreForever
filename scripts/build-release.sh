@@ -14,6 +14,12 @@
 # Usage: scripts/build-release.sh
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+# A sparse worktree (scripts/new-worktree.sh) has no voice audio or translated lore: refuse rather than build
+# without them.
+[ "$(git -C "$ROOT" config --get lore.sparse 2>/dev/null)" != true ] \
+  || [ "$(git -C "$ROOT" config --bool core.sparseCheckout 2>/dev/null)" != true ] \
+  || { echo "${0##*/}: this worktree is sparse; run 'git sparse-checkout disable' here first, or use" \
+         "~/git/lore-forever" >&2; exit 1; }
 exec python3 - "$ROOT" "$@" <<'PY'
 import hashlib, multiprocessing, re, sys, zipfile
 from collections import defaultdict
@@ -35,7 +41,7 @@ PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "Lor
 # LoreForever_Voice_<Default|Female>_Quests_<locale>) until they're recorded, and every other question and answer
 # (LOR-227, lore.answers: LoreForever_Voice_<Default|Female>_Answers_<Part>[_<locale>]) until its renders land.
 RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR",
-                 "LoreForever_Lang_ruRU", "LoreForever_Lang_ukUA",
+                 "LoreForever_Lang_ruRU", "LoreForever_Lang_ukUA", "LoreForever_Voice_Default_ukUA",
                  "LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio",
                  "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female",
                  "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde",

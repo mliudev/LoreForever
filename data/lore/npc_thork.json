@@ -8,7 +8,7 @@
   "wiki": "Thork",
   "refs": 6
  },
- "summary": "Thork is an orc warrior stationed at the Crossroads who oversees the settlement's local defenses. Charged with securing the bustling crossroads of the Barrens, he directs Horde adventurers to push back raiders, secure vital supply lines, and weed out internal threats.",
+ "summary": "Thork is an orc warrior stationed at the Crossroads who oversees the settlement's local defenses. Charged with securing the bustling crossroads of the Barrens, he directs Horde adventurers to push back raiders and secure vital supply lines.",
  "sections": [
   {
    "title": "Commander of the Crossroads",
@@ -22,7 +22,7 @@
   },
   {
    "title": "Threats Inside and Out",
-   "body": "While external predators and nomadic tribes surround the settlement, Thork also contends with insidious threats close to home. Smugglers and saboteurs disrupt supply chains, and covert betrayals threaten the stability of the outpost from the inside. Thork shows little patience for treachery, swiftly tasking adventurers to root out traitors and recover stolen munitions before chaos takes hold.",
+   "body": "Thork also rewards adventurers who uncover the leadership behind the Razormane raids. The captive quilboar Mangletooth betrays his own tribe by helping travelers strike against its leaders. When they bring Lok Orcbane's head to the Crossroads, Thork thanks them for weakening the attacks on Horde supply lines.",
    "spoiler": 1
   }
  ],
@@ -75,7 +75,7 @@
     "crossroads enemies",
     "thork quests info"
    ],
-   "answer": "Thork deals with marauding quillboar warbands disrupting trade, stolen supply crates, and traitors aiding enemies from within the settlement's perimeter."
+   "answer": "Thork deals with marauding quillboar warbands disrupting trade and stealing supply crates. He also rewards adventurers who defeat the leaders behind these raids."
   }
  ],
  "angles": [

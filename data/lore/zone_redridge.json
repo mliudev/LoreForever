@@ -16,7 +16,7 @@
  "sections": [
   {
    "title": "A Bastion Under Siege",
-   "body": "The Redridge range was once among the most peaceful corners of the kingdom, supplying Stormwind with timber, freshwater fish, and crops. Today, that quiet life has eroded. The lakeside township of Lakeshire sits perpetually fortified against aggressive incursions. To the east, Stonewatch Keep—once a proud bastion of the kingdom—has fallen under the control of renegade Blackrock orcs, cutting off roads and threatening to overrun the eastern valleys entirely.",
+   "body": "The Redridge range was once among the most peaceful corners of the kingdom, supplying Stormwind with timber, freshwater fish, and crops. Today, that quiet life has eroded. The lakeside township of Lakeshire sits perpetually fortified against aggressive incursions. To the east, Stonewatch Keep\u2014once a proud bastion of the kingdom\u2014has fallen under the control of renegade Blackrock orcs, cutting off roads and threatening to overrun the eastern valleys entirely.",
    "spoiler": 0
   },
   {
@@ -26,7 +26,7 @@
   },
   {
    "title": "Neglected by the Crown",
-   "body": "While Magistrate Solomon and Marshal Marris plead for reinforcements, the regency council in Stormwind has effectively abandoned Lakeshire to fend for itself. Desperate entreaties sent to Sentinel Hill and Darkshire yield nothing, as both sister settlements are crippled by their own crises. With regular royal forces nowhere in sight, local magistrates must hire any capable sellsword willing to brave the Lakeridge Highway, clear the gnoll camps, and push back the shadow looming over Lake Everstill.",
+   "body": "While Magistrate Solomon and Marshal Marris plead for reinforcements, the regency council in Stormwind has effectively abandoned Lakeshire to fend for itself. Desperate entreaties sent to Sentinel Hill and Darkshire yield nothing, as both sister settlements are crippled by their own crises. With reinforcements nowhere in sight, local magistrates must hire any capable sellsword willing to brave the Lakeridge Highway, clear the gnoll camps, and push back the shadow looming over Lake Everstill.",
    "spoiler": 0
   },
   {
@@ -43,7 +43,7 @@
     "why is redridge abandoned",
     "where is stormwind army"
    ],
-   "answer": "With King Varian Wrynn missing, the court of Stormwind is paralyzed by factional squabbling and court intrigue under Highlord Bolvar Fordragon and Lady Prestor. The crown refuses to commit regular garrison troops to outlying territories, leaving towns like Lakeshire, Sentinel Hill, and Darkshire to scrape together local militias and hire wandering adventurers."
+   "answer": "Lakeshire's surviving royal soldiers are badly outnumbered after losing Stonewatch Keep. Magistrate Solomon has appealed for troops, weapons, food, and supplies, but Stormwind's forces are stretched thin and the neighboring settlements have troubles of their own. The garrison therefore relies on adventurers to help hold the region."
   },
   {
    "q": "Who controls Stonewatch Keep?",
@@ -79,7 +79,7 @@
     "three corners crossroads",
     "redridge intersection"
    ],
-   "answer": "The Three Corners is a vital crossroads in the southwest corner of Redridge. It connects the Lakeridge Highway with the eastern border of Elwynn Forest and the northern road into Duskwood, making it an essential transit hub frequently targeted by wandering gnolls and wild beasts."
+   "answer": "The Three Corners is a vital crossroads in the southwest corner of Redridge. It connects the Lakeridge Highway with the eastern border of Elwynn Forest and the road into Duskwood, making it an essential transit hub frequently targeted by wandering gnolls and wild beasts."
   },
   {
    "q": "Why is the northern path to the Burning Steppes so perilous?",

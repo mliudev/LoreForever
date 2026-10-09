@@ -26,7 +26,7 @@
   },
   {
    "title": "The Vul'Gol Threat",
-   "body": "The Vul'Gol Ogre Mound in southern Duskwood is a fortified hive of hostile ogres who harass unwary wanderers and clash with Night Watch patrols like Watcher Dodds. The crate sits right near the entrance of their cavernous mound, daring outsiders to step past roaring brutes and spell-weaving magi to haul it back to the hermit.",
+   "body": "The Vul'Gol Ogre Mound in southern Duskwood is a fortified hive of hostile ogres who harass unwary wanderers. The crate sits right near the entrance of their cavernous mound, daring outsiders to step past roaring brutes and spell-weaving magi to haul it back to the hermit.",
    "spoiler": 0
   },
   {
@@ -86,7 +86,7 @@
     "ogre mound quests",
     "quests near vulgol"
    ],
-   "answer": "Yes. Adventurers heading to the Vul'Gol Ogre Mound often combine this errand with duties from Watcher Dodds regarding the ogre threat, as well as tasks tied to Viktori Prism'Antras."
+   "answer": "Adventurers traveling to Vul'Gol Ogre Mound may also be collecting ogre monocles for Viktori Prism'Antras."
   }
  ],
  "angles": [
@@ -110,13 +110,11 @@
   "hermit",
   "necromancer",
   "ogre",
-  "vul'gol",
-  "watcher dodds"
+  "vul'gol"
  ],
  "related": [
   "npc:abercrombie",
   "zone:duskwood",
-  "npc:watcher-dodds",
   "npc:viktori-prism-antras"
  ],
  "attribution": [

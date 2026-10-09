@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Bastion of Blue Dragons",
-   "body": "Carved into the frozen mountains just south of Everlook, Mazthoril houses an extensive brood answering to the Spell-Weaver, Malygos. The cavern and its surrounding crags are patrolled by vigilant drakes including Spellmaw, Azurous, and General Colbatann, while elite guardians watch the inner caverns. Intruders who wander into Mazthoril face dragonspawn thoroughly attuned to raw arcane energy, making any venture inside perilous without serious preparation.",
+   "body": "Carved into the frozen mountains just south of Everlook, Mazthoril houses an extensive brood answering to the Spell-Weaver, Malygos. The cavern and its surrounding crags are patrolled by vigilant dragonkin including Spellmaw, Azurous, and General Colbatann, while elite guardians watch the inner caverns. Intruders who wander into Mazthoril face dragonspawn thoroughly attuned to raw arcane energy, making any venture inside perilous without serious preparation.",
    "spoiler": 0
   },
   {
@@ -56,13 +56,13 @@
     "onyxia attunement haleh",
     "drakefire amulet haleh"
    ],
-   "answer": "Alliance heroes seeking to enter Onyxia's Lair are eventually sent to consult Haleh. Possessing profound knowledge of the black dragonflight's wards, she assists Alliance champions in empowering the medallion needed to pass the threshold into Onyxia's Lair."
+   "answer": "Alliance heroes investigating Onyxia's protections are sent to consult Haleh. Her part in that journey is explored in the protected section."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Alliance heroes must seek out the matriarch Haleh in Mazthoril to complete their key to the black broodmother's lair."
+   "text": "Alliance heroes investigating the black dragonflight seek out the matriarch Haleh in Mazthoril."
   },
   {
    "target": "class:Mage",

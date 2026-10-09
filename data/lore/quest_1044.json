@@ -17,7 +17,7 @@
   "wiki": "Answered Questions",
   "chain": []
  },
- "summary": "Answered Questions concludes the long investigation into the disappearance of the night elf priestess Velinde Starsong and the mysterious origin of the worgen. After uncovering her tragic fate in the dark reaches of Duskwood, an Alliance adventurer travels back to Darnassus to deliver the grim news to Thyn'tel Bladeweaver.",
+ "summary": "Answered Questions concludes the investigation into the disappearance of the night elf priestess Velinde Starsong. Jonathan Carevin sends an Alliance adventurer from Duskwood to Darnassus to report the findings to Thyn'tel Bladeweaver.",
  "sections": [
   {
    "title": "A Tragic Truth",
@@ -27,7 +27,7 @@
   {
    "title": "Return to Darnassus",
    "body": "Following the recovery of Velinde's journal and learning her ultimate end, Jonathan Carevin in Duskwood urges the adventurer to return to Teldrassil. In Darnassus, sentinel Thyn'tel Bladeweaver receives the report. Velinde was a close friend to High Priestess Tyrande Whisperwind, making the news of her fate a heavy personal and spiritual blow to the Sisterhood of Elune.",
-   "spoiler": 0
+   "spoiler": 1
   },
   {
    "title": "A Missing Artifact",
@@ -61,7 +61,7 @@
     "did we find the scythe",
     "scythe of elune location"
    ],
-   "answer": "The Scythe of Elune remains missing. Though the adventurer uncovers Velinde's journal and learns her fate in the mine of Roland's Doom, the ancient artifact itself has slipped out of the night elves' custody and into unknown hands."
+   "answer": "The whereabouts of the Scythe of Elune are central to the investigation. Jonathan Carevin asks you to report what you have learned to Thyn'tel Bladeweaver in Darnassus."
   },
   {
    "q": "How is Tyrande Whisperwind connected to Velinde?",
@@ -69,7 +69,7 @@
     "tyrande and velinde",
     "high priestess connection"
    ],
-   "answer": "High Priestess Tyrande Whisperwind and Velinde Starsong were close friends prior to Velinde's disappearance. Thyn'tel Bladeweaver notes upon the quest's completion that Tyrande will take the news of Velinde's fate hard."
+   "answer": "High Priestess Tyrande Whisperwind and Velinde Starsong were close friends before Velinde's disappearance, making the search important to the night elf leadership."
   },
   {
    "q": "Who is Jonathan Carevin?",
@@ -92,7 +92,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves, this report brings mourning for a lost sister of the faith and deep concern that a sacred gift of Elune remains lost somewhere across the Great Sea."
+   "text": "For night elves, reporting the findings helps the leadership follow the trail of a missing priestess and a sacred artifact."
   },
   {
    "target": "class:Priest",

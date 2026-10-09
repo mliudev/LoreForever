@@ -88,7 +88,7 @@ function Storyline.Line(id, force, short)
   local name, zone = Storyline.Name(sl, id), placeName(sl.z)
   if name and short then zone = nil end
   local what = (name and zone and zone ~= name and (zone .. ": " .. name)) or name or zone
-  return what and (L["Storyline"] .. " · " .. what) or L["Storyline"], sl
+  return what and (L["Storyline"] .. ns.Lang.Dotted(" · ") .. what) or L["Storyline"], sl
 end
 
 -- Turning in a storyline quest -----------------------------------------------------------------------------------------
@@ -153,8 +153,8 @@ function Storyline.OnTurnIn(id)
   local who, where = Storyline.NextGiver(sl, at, id)
   if not who then return end
   local zone = placeName(sl.z)
-  local label = Storyline.Name(sl, id) or (zone and (L["Storyline"] .. " · " .. zone)) or L["Storyline"]
-  local msg = label .. " · " .. (where and string.format(L["Next: %s, %s."], who, where)
+  local label = Storyline.Name(sl, id) or (zone and (L["Storyline"] .. ns.Lang.Dotted(" · ") .. zone)) or L["Storyline"]
+  local msg = label .. ns.Lang.Dotted(" · ") .. (where and string.format(L["Next: %s, %s."], who, where)
     or string.format(L["Next: %s."], who))
   DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. msg)
   return msg

@@ -16,7 +16,7 @@
   },
   {
    "title": "A Neutral Crossroads",
-   "body": "Because both teams need supplies, fuel, and test pilots, the raceway maintains an uneasy truce between the Horde and Alliance. Spectators gather from across Kalimdor to cheer on either gnome precision or goblin firepower, while gamblers and shady opportunists thrive on the constant wagers placed on the results. Beyond the roar of rocket thrusters, the camps serve as a busy trading depot for travelers journeying between Thousand Needles and the blazing sands of Tanaris.",
+   "body": "The raceway draws supporters from both the Horde and Alliance. Spectators gather from across Kalimdor to cheer on either gnome precision or goblin firepower, while gamblers and shady opportunists thrive on the constant wagers placed on the results. Beyond the roar of rocket thrusters, the camps serve as a busy trading depot for travelers journeying between Thousand Needles and the blazing sands of Tanaris.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "can alliance visit",
     "can horde visit"
    ],
-   "answer": "Yes. The raceway operates under an informal neutral truce so that both factions can visit the camps, place wagers, aid the rival engineering crews, and purchase supplies without interference."
+   "answer": "Yes. Supporters from both factions gather at the raceway to cheer for their favorites, wager on races, and aid the rival engineering crews."
   },
   {
    "q": "Why race out in the salt flats?",

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Farstrider Lodge"
  },
- "summary": "Tucked away in the southeastern hills of Loch Modan, Farstrider Lodge is a tranquil hunting outpost built in high elven style. Though founded as an elven waystation, it now serves travelers, rangers, and trappers of all Alliance races looking to test their skills against the local wildlife.",
+ "summary": "Farstrider Lodge is a hunting outpost in southeastern Loch Modan. Its architecture appears to be high elven, while its residents include the high elf Vyrin Swiftwind, dwarves, and humans. Hunters and travelers come here for training, supplies, and work in the surrounding wilds.",
  "sections": [
   {
    "title": "An Elven Haven in the Mountains",
-   "body": "Farstrider Lodge stands apart from the sturdy stone and timber works typical of Khaz Modan. Bearing the graceful curves and vaulted woodwork of high elven craftsmanship, the outpost is named after the Farstriders, the renowned rangers of Quel'Thalas. Long before the recent wars shattered the elven homeland, Farstriders ranged far south of their borders to explore and build ties with the wider world. While only a solitary high elf remains to tend the lodge today, its hunting heritage endures under the stewardship of local dwarves and human woodsmen.",
+   "body": "Farstrider Lodge stands apart from the sturdy stone buildings typical of Khaz Modan. Its architecture suggests high elven craftsmanship. Vyrin Swiftwind is the only known high elf still residing here, alongside dwarves and humans. The lodge's founder and date of construction are not established.",
    "spoiler": 0
   },
   {
    "title": "A Waystation for the Wilds",
-   "body": "Situated high on the bluffs overlooking the loch, the lodge serves as a base of operations for hunters, scouts, and trappers navigating the untamed corners of the zone. Between offering training for marksmen and shelter from roaming beasts, the lodge remains closely tied to the nearby settlement of Thelsamar, ensuring that supplies and wilderness intelligence flow freely between the dwarven mountaineers and the woodsmen guarding the southeastern frontier.",
+   "body": "Situated in the southeastern hills of Loch Modan, the lodge serves hunters and travelers exploring the surrounding wilderness. Hunter and pet trainers work here alongside merchants and people seeking help with local wildlife.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who built farstrider lodge",
     "why high elf lodge here"
    ],
-   "answer": "Farstrider Lodge was established long before the recent wars by the Farstriders, the ranger corps of Quel'Thalas, who sought to maintain a presence and build ties across the wider world beyond their northern kingdom."
+   "answer": "The lodge's architecture suggests high elven origins, and Vyrin Swiftwind is its surviving high elven resident. Its founder, construction date, and original mission are not established."
   },
   {
    "q": "Are there still high elves living here?",
@@ -37,7 +37,7 @@
     "who lives in farstrider lodge",
     "vyrin swiftwind"
    ],
-   "answer": "Only a single high elf, the innkeeper Vyrin Swiftwind, currently resides at the lodge. The rest of the occupants are dwarven mountaineers and human huntsmen who maintain the lodge and trade with travelers."
+   "answer": "Only a single high elf, Vyrin Swiftwind, currently resides at the lodge. The rest of the occupants are dwarven mountaineers and human huntsmen who maintain the lodge and trade with travelers."
   },
   {
    "q": "What services are available at Farstrider Lodge?",
@@ -45,7 +45,7 @@
     "what is at farstrider lodge",
     "hunter trainers loch modan"
    ],
-   "answer": "The lodge primarily supports outdoorsmen, providing a hunter trainer, a pet trainer, local merchants, and rest for wilderness scouts tracking dangerous wildlife across the loch."
+   "answer": "The lodge provides hunter and pet trainers, merchants, and local requests involving the wilderness of Loch Modan."
   }
  ],
  "angles": [
@@ -55,7 +55,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "Though built by elven hands, the lodge operates in close harmony with the mountaineers of Thelsamar to monitor the dangerous wildlife threatening Khaz Modan."
+   "text": "Dwarven hunters and merchants share the lodge with human residents and the high elf Vyrin Swiftwind."
   }
  ],
  "keywords": [

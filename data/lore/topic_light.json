@@ -60,7 +60,7 @@
     "why does light hurt scourge",
     "can undead use light"
    ],
-   "answer": "Holy magic is violently reactive to the corruptive state of undeath. Channeling or touching the Light burns undead flesh and scourges the dark magic animating them, making it the premier weapon against the Scourge."
+   "answer": "Holy magic is a powerful weapon against the Scourge, but it can also heal undead bodies. Channeling the Light or receiving its healing causes undead intense pain; it does not automatically burn away their flesh."
   },
   {
    "q": "How do priests and paladins learn to wield it?",
@@ -96,7 +96,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "The Light burns undead flesh and rebukes necrotic magic, serving as a searing reminder of the mortal warmth the Forsaken were torn from."
+   "text": "For the Forsaken, channeling the Light or receiving its healing brings intense pain, even when the spell mends their bodies."
   },
   {
    "target": "race:NightElf",

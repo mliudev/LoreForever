@@ -8,12 +8,12 @@
   "ids": [
    3105
   ],
-  "level": "3",
+  "level": "1",
   "faction": "Alliance",
   "start": "Marshal McBride",
   "end": "Drusilla La Salle",
-  "previous": "Lions for Lambs",
-  "next": "Corruption (human)",
+  "previous": null,
+  "next": null,
   "wiki": "Tainted Letter (quest)",
   "chain": []
  },

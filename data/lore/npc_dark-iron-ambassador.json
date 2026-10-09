@@ -8,16 +8,16 @@
   "wiki": "Dark Iron Ambassador",
   "refs": 5
  },
- "summary": "Deep within the irradiated halls of Gnomeregan lurks the Dark Iron Ambassador, an elusive emissary sent by Emperor Dagran Thaurissan. His presence reveals that the fall of the gnome capital involves far more than just wild trogg incursions and madness.",
+ "summary": "The Dark Iron Ambassador is an emissary of the Dark Iron clan found deep within Gnomeregan. His presence raises questions about the clan's interest in the ruined gnome capital.",
  "sections": [
   {
    "title": "A Shadowy Envoy",
-   "body": "While Gnomeregan's catastrophic downfall is publicly blamed on the trogg invasion and High Tinker Mekkatorque's desperate radiation gambit, the presence of the Dark Iron Ambassador points to far darker machinations. Wandering the contaminated depths of the workshop corridors, this rare Dark Iron dwarf suggests that Sicco Thermaplugg did not betray his people in complete isolation.",
+   "body": "The Dark Iron Ambassador is found among the dangers of irradiated Gnomeregan. He represents the Dark Iron clan, but the purpose of his mission is not explained.",
    "spoiler": 0
   },
   {
    "title": "Conspiracies in the Deep",
-   "body": "The true motives behind Emperor Thaurissan's envoy remain cloaked in secrecy and speculation. Both Alliance investigators in Ironforge and Horde-affiliated goblins have raised theories about the Dark Iron clan's involvement in the subterranean disaster. Rumors swirl that the Dark Irons offered technical expertise, aided Thermaplugg in operating heavy machinery like the subterranean super rig, or brokered a vile pact to undercut Ironforge from below.",
+   "body": "Investigators and goblins raise suspicions about Dark Iron involvement in Gnomeregan's troubles and its mysterious super rig. These remain theories; the ambassador's presence does not establish who caused the city's fall or the terms of any agreement.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "dark iron ambassador identity",
     "what is dark iron ambassador"
    ],
-   "answer": "He is an envoy of the Dark Iron clan found deep inside the irradiated ruin of Gnomeregan. His role is that of a diplomatic representative between Emperor Dagran Thaurissan and the rogue forces controlling the fallen city."
+   "answer": "He is a Dark Iron emissary found inside Gnomeregan. His precise diplomatic mission is unknown."
   },
   {
    "q": "Why is a Dark Iron dwarf inside Gnomeregan?",
@@ -38,7 +38,7 @@
     "what is he doing here",
     "dark iron dwarf purpose"
    ],
-   "answer": "His presence strongly suggests secret negotiations between the Dark Iron clan and the mad usurper Sicco Thermaplugg. The Dark Irons appear to have had a hand in assisting Thermaplugg or exploiting Gnomeregan's disaster for their own ends against Ironforge."
+   "answer": "His purpose is not established. His presence shows that the Dark Iron clan has an interest in Gnomeregan."
   },
   {
    "q": "Did the Dark Irons help cause the fall of Gnomeregan?",
@@ -47,7 +47,7 @@
     "dark iron conspiracy",
     "did thaurissan help thermaplugg"
    ],
-   "answer": "While the trogg invasion itself drove the initial crisis, in-universe conspiracies and goblin observers suggest the Dark Irons secretly assisted Thermaplugg. They may have aided in drilling operations or provided technical help with advanced subterranean equipment."
+   "answer": "That is not established. Investigators have raised suspicions, but their theories do not prove who caused the disaster."
   },
   {
    "q": "Where does the ambassador come from?",
@@ -56,7 +56,7 @@
     "who sent him",
     "who does he work for"
    ],
-   "answer": "He represents the Dark Iron clan, ruled by Emperor Dagran Thaurissan from their stronghold beneath the Blackrock Mountain. He was dispatched to treat with Gnomeregan's traitorous new leadership."
+   "answer": "He belongs to the Dark Iron clan, whose ruler is Emperor Dagran Thaurissan."
   },
   {
    "q": "Is he allied with Sicco Thermaplugg?",
@@ -65,7 +65,7 @@
     "is he with thermaplugg",
     "working with thermaplugg"
    ],
-   "answer": "Yes, evidence strongly points to an alliance. As an envoy, his survival among Thermaplugg's leper gnomes and mechanostriders demonstrates an ongoing diplomatic link rather than hostility between the two factions."
+   "answer": "An alliance is suspected, but no confirmed agreement is established by his presence alone."
   },
   {
    "q": "Where can the Dark Iron Ambassador be found?",
@@ -80,15 +80,15 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Finding a Dark Iron envoy in Gnomeregan proves the horrific betrayal that poisoned your home was backed by dwarf enemies from Blackrock."
+   "text": "A Dark Iron emissary in Gnomeregan raises troubling questions for gnome investigators."
   },
   {
    "target": "race:Dwarf",
-   "text": "Your ancient Dark Iron kin have wormed their way into the gnome halls, demonstrating that Thaurissan's reach threatens Khaz Modan from within."
+   "text": "The presence of a Dark Iron dwarf in the ruined gnome city draws the attention of Ironforge allies."
   },
   {
    "target": "faction:Alliance",
-   "text": "The ambassador's secret dealings with Thermaplugg represent an active hostile front right on the doorstep of Ironforge."
+   "text": "Alliance investigators have reason to examine the Dark Iron presence in Gnomeregan."
   }
  ],
  "keywords": [

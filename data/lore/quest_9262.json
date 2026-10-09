@@ -17,7 +17,7 @@
   "wiki": "Investigate the Scourge of Darnassus",
   "chain": []
  },
- "summary": "Investigate the Scourge of Darnassus is an emergency mission issued by Lieutenant Beitha on behalf of the Argent Dawn. As the Lich King's airborne necropolises loom overhead, Alliance defenders are tasked with destroying encroaching undead and deciphering the dark runic circles appearing outside the city gates.",
+ "summary": "Investigate the Scourge of Darnassus is an emergency mission issued by Lieutenant Beitha on behalf of the Argent Dawn. With a necropolis looming over the Scourge encampment, Alliance defenders are tasked with destroying encroaching undead and deciphering the dark runic circles appearing outside the city gates.",
  "sections": [
   {
    "title": "A Plague on the World Tree",
@@ -47,7 +47,7 @@
     "teldrassil invasion",
     "lich king attacking night elves"
    ],
-   "answer": "Under the orders of the Lich King, the Scourge has dispatched necropolises worldwide to sow terror and destroy major mortal population centers. Even the secluded haven of Teldrassil is not exempt from the undead assault."
+   "answer": "The assignment concerns Scourge forces camped outside Darnassus beneath a necropolis. Lieutenant Beitha asks defenders to thin their numbers and investigate the strange runic circles nearby."
   },
   {
    "q": "What are the glowing runic circles outside the city?",
@@ -73,7 +73,7 @@
     "who leads defense of darnassus",
     "argent dawn darnassus"
    ],
-   "answer": "The defense against this invasion is spearheaded locally by the Argent Dawn, an independent order devoted to battling the Scourge across Azeroth, cooperating directly with the Alliance sentinels guarding Darnassus."
+   "answer": "The Argent Dawn is coordinating this investigation through Lieutenant Beitha. The order is devoted to opposing the Scourge."
   },
   {
    "q": "Can listening to the runic circles harm you?",
@@ -81,7 +81,7 @@
     "runic circles whispers",
     "runic circle voices danger"
    ],
-   "answer": "The runes pulse with unnatural mental energy and dark whispers capable of fraying mortal minds. Lieutenant Beitha notes with relief whenever an investigator returns with their sanity intact after contacting the runes."
+   "answer": "Their exact effects are not established. Beitha asks defenders to investigate the strange energy around the circles."
   }
  ],
  "angles": [

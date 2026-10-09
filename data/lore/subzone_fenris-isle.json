@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Fallen Stronghold on the Lake",
-   "body": "Before the Third War devastated northern Lordaeron, Fenris Isle served as a vital outpost for the kingdom, anchored by Fenris Keep. When the Scourge tore through the realm, the garrison was slaughtered or fled into exile, leaving the island abandoned to the dead. In the years since, the island became a stronghold for the Rot Hide gnolls\u2014vile, plague-ridden creatures who established a crude empire across the lake's shores. The Forsaken of Silverpine Forest keep a vigilant watch on the island, viewing its entrenched inhabitants as a severe threat to their northern territories.",
+   "body": "Before the Third War devastated northern Lordaeron, Fenris Isle served as a vital outpost for the kingdom, anchored by Fenris Keep. When the Scourge tore through the realm, the garrison was slaughtered or fled into exile, leaving the island abandoned to the dead. In the years since, the island became a stronghold for the Rot Hide gnolls—vile, plague-ridden creatures who established a crude empire across the lake's shores. The Forsaken of Silverpine Forest keep a vigilant watch on the island, viewing its entrenched inhabitants as a severe threat to their northern territories.",
    "spoiler": 0
   },
   {
@@ -37,7 +37,7 @@
     "fenris isle bosses",
     "who lives on fenris isle"
    ],
-   "answer": "The island is occupied by the Rot Hide gnolls under the command of Thule Ravenclaw, a rogue necromancer aligned with the Scourge who directs them from Fenris Keep."
+   "answer": "The Rot Hide gnolls occupy the island and use Fenris Keep as their stronghold. Forsaken investigators seek to establish the source of their growing threat."
   },
   {
    "q": "What happened to the humans who used to live here?",
@@ -54,7 +54,7 @@
     "why do horde attack fenris isle",
     "forsaken fenris isle"
    ],
-   "answer": "The Forsaken consider the entrenched Scourge forces and Rot Hide gnolls on Fenris Isle an active security threat to their holdings in Silverpine Forest. The Horde launches incursions across Lordamere Lake to eliminate Thule Ravenclaw and dismantle his operations."
+   "answer": "The Forsaken consider the entrenched Rot Hide gnolls a threat to Silverpine Forest and the nearby ferry crossing. Their agents seek help investigating and disrupting the island's hostile forces."
   }
  ],
  "angles": [
@@ -64,7 +64,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Horde adventurers are enlisted by Forsaken commanders to board boats across Lordamere Lake, storm the island's defenses, and assassinate the renegade necromancer orchestrating attacks from Fenris Keep."
+   "text": "Forsaken agents seek help investigating the Rot Hide gnolls and striking against their stronghold across Lordamere Lake."
   }
  ],
  "keywords": [

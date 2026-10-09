@@ -54,13 +54,13 @@ Other narration voices can be installed the same way. Choose your language and v
 `AddOns`, including any `LoreForever_Lang_*` folder. To contribute recordings, see the
 [narrator guide](https://loreforeverwow.com/voices/guide).
 
-## Optional Herald companion
+## Sam the Squire, your optional companion
 
-The Windows installer can also install Herald. It keeps live questions and answers in a visible chat, plays published
+The Windows installer can also install Sam. It keeps live questions and answers in a visible chat, plays published
 lore recordings with their text, and can sync your journey and pictures to your connected website profile after
 `/reload` or logout. Profile linking and Picture Book are optional; connect your profile for the free live-answer
 allowance, or add your own key in Settings.
-The in-game add-on continues to work offline without Herald.
+The in-game add-on continues to work offline without Sam.
 
 ## What it does
 

@@ -48,7 +48,8 @@
    "aliases": [
     "quest giver horde trauma",
     "who starts horde trauma",
-    "krenk choplimb"
+    "krenk choplimb",
+    "arnok"
    ],
    "answer": "Arnok, the orc first aid trainer in Orgrimmar's Valley of Spirits, issues the summons. He considers serving under Doctor Gregory Victor to be the highest honor an aspiring field medic could hope to achieve."
   },
@@ -103,12 +104,12 @@
   "first aid",
   "hammerfall",
   "horde trauma",
-  "krenk choplimb",
+  "arnok",
   "triage"
  ],
  "related": [
   "npc:doctor-gregory-victor",
-  "npc:krenk-choplimb",
+  "zone:orgrimmar",
   "subzone:hammerfall",
   "zone:arathi",
   "topic:horde"

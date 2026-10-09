@@ -7,12 +7,12 @@
  "meta": {
   "wiki": "Marris Stead"
  },
- "summary": "Perched on a ridge in the southwestern Eastern Plaguelands, the Marris Stead was once the peaceful family home of Lordaeron ranger Nathanos Marris. Following the devastation of the Third War, it now serves as the lonely, heavily defended redoubt of Nathanos Blightcaller, Champion of the Forsaken.",
+ "summary": "Perched on a ridge in the southwestern Eastern Plaguelands, the Marris Stead was once a peaceful Lordaeron homestead. Following the devastation of the Third War, it now serves as the lonely, heavily defended redoubt of Nathanos Blightcaller, Champion of the Forsaken.",
  "sections": [
   {
    "title": "A Ranger's Ruined Home",
    "body": "Before the Third War, this homestead belonged to Nathanos Marris, a renowned human marksman and the only human ranger lord admitted into the Farstriders. When the Scourge tore through Lordaeron after the fall of Stratholme, the monstrous abomination Ramstein the Gorger cornered and slaughtered Nathanos at his own home. Raised as a mindless thrall bound to the Lich King, he was later discovered and liberated by Sylvanas Windrunner's rangers, breaking free of the Scourge to take his place among the Forsaken.",
-   "spoiler": 0
+   "spoiler": 1
   },
   {
    "title": "The Champion's Bastion",
@@ -29,7 +29,7 @@
     "npc at farm",
     "nathanos location"
    ],
-   "answer": "The homestead is occupied by Nathanos Blightcaller, formerly known in life as the ranger Nathanos Marris. He resides here accompanied by his pack of blighthounds, serving as a frontline commander and Champion of the Banshee Queen."
+   "answer": "The homestead is occupied by Nathanos Blightcaller. He resides here accompanied by his pack of blighthounds, serving as a frontline commander and Champion of the Banshee Queen."
   },
   {
    "q": "How did Nathanos become undead?",
@@ -38,7 +38,7 @@
     "nathanos death",
     "who killed nathanos"
    ],
-   "answer": "During the Third War, the Scourge overran Lordaeron. Despite his martial prowess, Nathanos was cornered at his farm and murdered by the abomination Ramstein the Gorger. He was raised into the Scourge until Lady Sylvanas Windrunner freed him into the Forsaken."
+   "answer": "The Scourge devastated Lordaeron during the Third War, raising many of its victims as undead. Nathanos's own history and release from Scourge control are explored in the protected section."
   },
   {
    "q": "Why is the Alliance interested in this farm?",
@@ -47,7 +47,7 @@
     "si7 plaguelands",
     "why kill nathanos"
    ],
-   "answer": "SI:7 spymaster Mathias Shaw dispatched an intelligence team to probe strange Forsaken movements in the area. When nearly all the scouts vanished, Alliance investigators discovered that the beloved ranger Nathanos had been raised as the Blightcaller, prompting Highlord Bolvar Fordragon to order a lethal strike against him."
+   "answer": "SI:7 spymaster Mathias Shaw received disturbing reports of unusual Forsaken activity and sent agents to investigate. When only one returned, further investigators were sent to learn what happened to the others."
   },
   {
    "q": "What artifacts are kept inside the house?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The discovery of what Nathanos has become is a bitter blow to the Alliance, turning this quiet homestead into the target of a high-priority military decapitation strike."
+   "text": "SI:7's missing agents make this Forsaken-held homestead a troubling focus for Alliance investigators in the Plaguelands."
   },
   {
    "target": "faction:Horde",

@@ -97,6 +97,94 @@ P.transport["npc:cookie"] = {
     {file = "Audio/Transport/full_npc_cookie-dc15a268ba9567e08c99/1-0000.mp3", duration = 75.755102, start = 0},
   },
 }
+P.transport["npc:dextren-ward"] = {
+  hash = "7bb011",
+  fullHash = "6fd2b3",
+  text = "Dextren Ward. Dextren Ward is an infamous criminal and grave robber locked away inside the Stormwind Stockade. Before his capture, he profited by exhuming bodies from Duskwood's Raven Hill Cemetery and delivering them to the necromancer Morbent Fel. Now caught in the midst of the prison's bloody uprising, he remains marked for death by the town council of Darkshire. Before ending up in chains beneath the streets of Stormwind, Dextren Ward conducted a grim and lucrative business in the fog-choked woods of Duskwood. Raven Hill Cemetery was already a site of sorrow and growing horror, but Ward treated its burial grounds as a private quarry. Rather than hunting merely for trinkets and heirlooms left with the dead, Ward dealt in flesh, unearthing fresh graves to supply local dark practitioners. Ward's primary customer was Morbent Fel, a necromancer whose dark rituals have plagued Duskwood and swelled the ranks of the undead. In supplying bodies to Fel, Ward actively contributed to the terror that grips Darkshire. Though eventually caught by Stormwind authorities and dragged into the Stockade, his crimes earned him the undying enmity of the people of Duskwood, prompting Councilman Millstipe to demand Ward's hand as proof of justice served. When a sweeping rebellion broke out inside the Stockade, Ward was not liberated by allies, but rather freed from his cell to join the chaos within the locked-down dungeon. Armed and vicious, he commands his own corner of the prison and uses terror to ward off interlopers, making him one of the priority targets Alliance forces seek to eliminate while restoring order.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_dextren-ward-92494c56378668dd9c36/1-0000.mp3", duration = 93.1787755, start = 0},
+  },
+}
+P.transport["npc:edwin-vancleef"] = {
+  hash = "480462",
+  fullHash = "965df4",
+  text = "Edwin VanCleef. Edwin VanCleef was the brilliant Guildmaster of the Stonemasons who rebuilt Stormwind City after the Second War. After being cheated of payment by the House of Nobles, he led a violent workers' revolt and formed the outlaw Defias Brotherhood. Operating from deep within the Deadmines of Westfall, he seeks vengeance against the kingdom he helped restore. Following the devastation of the First War, Edwin VanCleef was chosen to lead the Stonemasons Guild in the monumental task of rebuilding Stormwind City. A peerless craftsman and an idealist, VanCleef directed the construction of the capital's grand ramparts and towering cathedrals, and even oversaw the erection of Nethergarde Keep to watch over the Dark Portal. Alongside his mastery of architecture, VanCleef was a remarkably deadly operative; he was trained in stealth, subterfuge, and bladecraft by his childhood friend, Mathias Shaw. When the years of labor concluded, the House of Nobles ran up colossal debts through military campaigns and refused to provide the Stonemasons their promised compensation. Enraged, VanCleef demanded restitution, only for the nobles to officially dissolve the guild. The artisans revolted, triggering chaotic street riots in Stormwind during which King Varian Wrynn's wife, Queen Tiffin, was slain. Driven out of the capital by the crown's retribution, VanCleef gathered his exiled workers and allied outcasts in Westfall, uniting them beneath the banner of the Defias Brotherhood.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_edwin-vancleef-bfbfd41fa51ee6d4b216/1-0000.mp3", duration = 90.2269388, start = 0},
+  },
+}
+P.transport["npc:electrocutioner-6000"] = {
+  hash = "c648ee",
+  fullHash = "c88152",
+  text = "Electrocutioner 6000. The Electrocutioner 6000 is a deadly, super-charged spider tank deployed to defend the Launch Bay within the irradiated halls of Gnomeregan. Piloted by the notorious leper gnome Lieutenant Tom 'Sizzlepants' Crankle, it represents Mekgineer Thermaplugg's reckless ambition to weaponize high-voltage electricity. Mekgineer Thermaplugg has never been known for rigorous safety testing. Driven by megalomania and haste, he regularly rushes unproven war machines straight from the drawing board into live combat. The Electrocutioner 6000 was his initial attempt to harness raw electrical currents as an offensive system mounted to an armored spider tank chassis. Rather than working out lethal power surges in a laboratory, Thermaplugg sent it immediately to guard the upper tiers of Gnomeregan's Launch Bay. Operating experimental machinery is often a death sentence, particularly when lethal voltage is involved. Early test pilots perished in agonizing mishaps, but Lieutenant Tom Crankle managed to withstand the lethal surges and survived at the controls. Earning the grim moniker 'Sizzlepants,' he became an idol of resilience among the irradiated leper gnomes loyal to Thermaplugg, fiercely guarding the path toward the inner workshops.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_electrocutioner-6000-e161f847b8f67bf6cea1/1-0000.mp3", duration = 74.475102, start = 0},
+  },
+}
+P.transport["npc:fenrus-the-devourer"] = {
+  hash = "20a690",
+  fullHash = "814f51",
+  text = "Fenrus the Devourer. Fenrus the Devourer is an enormous worg that prowls the upper sanctum of Shadowfang Keep. Kept as a personal pet and guardian by Archmage Arugal, the ravenous beast is bloated on unnatural magics. Anyone daring to breach the archmage's personal study must contend with this feral horror and the master who watches over it. Deep within Shadowfang Keep, just outside Archmage Arugal's personal chambers, lurks the monstrous worg known as Fenrus the Devourer. Unlike the lupine worgen roaming the ramparts, Fenrus is an actual worg, swollen to gargantuan proportions. Prowling the shelves, scrolls, and arcane apparatuses of Arugal's private study, the beast serves both as a pet and as a violent perimeter guard against any intruder seeking the mad mage's head. Fenrus's unnatural bulk suggests he was subjected to the dark magics saturating the keep since Baron Silverlaine's downfall. Archmage Arugal or his unleashed worgen clearly warped the creature with arcane or shadowy experiments, transforming a native predator into a ravenous juggernaut. Fenrus is so feral and magically bound that no hunter can charm or tame his mind.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_fenrus-the-devourer-1e4c3c92f84d0938a263/1-0000.mp3", duration = 70.3216327, start = 0},
+  },
+}
+P.transport["npc:gelihast"] = {
+  hash = "b12b85",
+  fullHash = "8eec53",
+  text = "Gelihast. Gelihast is a ferocious, twin-blade wielding murloc chieftain residing in the Pool of Ask'ar within Blackfathom Deeps. Lured by the dark whispers of the Old Gods, he butchered his way into the sunken temple ruins before earning the reluctant respect of the Twilight's Hammer cultists. While most murlocs stay near coastal shallows, Gelihast felt the dark, ominous tug of the Old Gods deep beneath Ashenvale. Driven by these primordial whispers, he forced his way into the sunken temple of Blackfathom Deeps. When Twilight's Hammer cultists tried to halt his path, he slaughtered nearly a dozen of them single-handedly using his twin swords. Rather than seeking vengeance, the cultists admired Gelihast's raw savagery and granted him dominion over the Pool of Ask'ar. There, surrounded by his Blindlight brood, the bloodthirsty murloc constructed a crude altar. He performs grim sacrifices upon it, receiving dark boons directly from the foul presence slumbering in the abyss.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_gelihast-32a6e4b48897637b5c58/1-0000.mp3", duration = 61.0220408, start = 0},
+  },
+}
+P.transport["npc:ghamoo-ra-classic"] = {
+  hash = "502e9a",
+  fullHash = "dff76d",
+  text = "Ghamoo-ra. Ghamoo-ra is an ancient, giant sea turtle inhabiting the Pool of Ask'ar within Blackfathom Deeps. Once a peaceful denizen of Elune's sunken temple, he was captured, tortured, and driven mad by the Twilight's Hammer cult to serve as a vicious guardian. Before the defilement of Blackfathom Deeps, Ghamoo-ra was among the last peaceful natural inhabitants dwelling among the flooded ruins of the night elven temple dedicated to Elune. When the nihilistic Twilight's Hammer cult took control of the sanctuary, they roused the ancient turtle from his quiet life and locked him in captivity. Rather than slain, he was systematically tormented for years, suffering mental and physical flaying at the hands of the cultists. Broken by prolonged cruelty, the great turtle finally succumbed to madness. Bestowing the name Ghamoo-ra upon the ruined creature, the cultists trained him into a ferocious defense beast. Now patrolling a small island in the Pool of Ask'ar surrounded by lesser turtles, Ghamoo-ra blindly attacks any intruders who enter the caverns, serving the very cult that shattered his mind.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_ghamoo-ra-classic-031595babaa3dd638ebc/1-0000.mp3", duration = 65.28, start = 0},
+  },
+}
+P.transport["npc:hamhock"] = {
+  hash = "3cd297",
+  fullHash = "6a7a4f",
+  text = "Hamhock. Hamhock is a massive two-headed ogre confined within the depths of the Stormwind Stockade. Locked away beneath the capital alongside hardened Defias insurgents and cutthroats, he looms as a particularly brutal and unexpected inmate amidst the prison riot. The Stormwind Stockade was built to hold petty thieves, murderers, and political dissidents, making a towering two-headed ogre an imposing sight among the cells. When the prisoners rose up and took control of the facility, Hamhock remained entrenched in the chaos, crushing anyone foolish enough to intrude on his cellblock. Stormwind authorities keep few public records regarding how Hamhock was captured. Popular speculation among guards and city residents suggests he may have been dragged north from the Splinter Fist clan at Duskwood's Vul'Gol Ogre Mound. Others suspect he was recruited into the Defias Brotherhood as mercenary muscle before falling into the custody of the city watch.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_hamhock-379b2fc9e27af2042764/1-0000.mp3", duration = 53.76, start = 0},
+  },
+}
+P.transport["npc:herod"] = {
+  hash = "645865",
+  fullHash = "61aa1b",
+  text = "Herod. Herod is a renowned champion and berserker of the Scarlet Crusade, commanding the Armory within the Scarlet Monastery. Known for his ferocious martial prowess and unyielding zeal, he trains recruits in the brutal melee combat needed to wage holy war. His death is sought by both Alliance dissidents and the Horde's rulers in Undercity to weaken the Crusade's military core. Within the fortified halls of the Scarlet Monastery's Armory, Herod stands as the embodiment of the Crusade's martial aggression. Unlike the spellcasters and paladins who channel holy magic in the Cathedral, Herod relies on raw, bloodthirsty physical power. Clad in mail and wielding a massive two-handed axe, he personally trains cohorts of Scarlet Trainees, instilling a furious devotion to exterminating anyone not allied with their fanatical cause. Because Herod oversees the armaments and martial training of the Crusade's front-line warriors, taking him down is essential for anyone seeking to dismantle the order. Raleigh the Devout, an ex-Crusader disillusioned with the order's madness residing in Southshore, calls for Herod's demise to shatter their military leadership. Across Lordaeron, the dreadlord Varimathras in the Undercity similarly seeks his execution to clear out a dangerous human bastion bordering Forsaken territory.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_herod-7e792cad912a2c9ed941/1-0000.mp3", duration = 78.315102, start = 0},
+  },
+}
+P.transport["npc:houndmaster-loksey"] = {
+  hash = "6ab590",
+  fullHash = "b7ac69",
+  text = "Houndmaster Loksey. Houndmaster Loksey is the officer charged with breeding and training the fearsome war dogs of the Scarlet Crusade. Stationed in the kennels within the Scarlet Monastery's Armory, he directs packs of hounds to hunt down undead, intruders, and perceived heretics. His merciless discipline has made the Monastery's beasts infamous throughout Tirisfal Glades. Within the heavily fortified walls of the Scarlet Monastery, Houndmaster Loksey commands the training of vicious tracking and attack dogs. The Scarlet Crusade relies on these trained hounds to sniff out plague-tainted corpses, uncover hidden infiltrators, and run down any survivors fleeing the zealots' wrath. Loksey holds absolute authority over the Armory's kennel wing, ensuring his charges are primed to tear intruders apart limb by limb. Loksey is not the only beast handler in his family serving the cause. His brother, Huntsman Leopold, serves as the Scarlet Crusade's envoy to the Argent Dawn at Light's Hope Chapel. Leopold holds a low opinion of his brother, privately asserting that Loksey can barely manage his own hounds, let alone represent the order in high-stakes diplomacy. Despite Leopold's scorn, Loksey remains a key officer within the Monastery's inner hierarchy.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_houndmaster-loksey-d0bfbc93f3651633293c/1-0000.mp3", duration = 75.9902041, start = 0},
+  },
+}
+P.transport["npc:kam-deepfury"] = {
+  hash = "c934aa",
+  fullHash = "41905d",
+  text = "Kam Deepfury. Kam Deepfury is a notorious Dark Iron saboteur incarcerated within the depths of the Stormwind Stockade. Unlike the majority of the prison's inmates, he has no allegiance to the Defias Brotherhood, having been captured for orchestrating a devastating explosion along the Thandol Span far to the north. While the Stockade is overwhelmingly filled with disgruntled Stonemasons and Defias rebels, Kam Deepfury stands apart. A Dark Iron dwarf of cunning and violence, Deepfury was captured and brought to Stormwind after masterminding an operation that crippled vital northern infrastructure. He is locked deep within the prison's cells, isolated from his kin beneath Blackrock Mountain but just as hostile to the Alliance as any rebel rioter sharing the corridors. Alliance intelligence stationed at Dun Modr, near the northern border of the Wetlands, identified Deepfury as the chief architect behind the explosion that shattered the Thandol Span. The blast severed one of the massive stone bridges linking the Wetlands to the Arathi Highlands. Beyond crippling a critical trade and military route for Ironforge and the Alliance, the sabotage claimed the life of a kin of the dwarf commander Longbraid the Grim.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_kam-deepfury-4c22ee18e0ac653765b0/1-0000.mp3", duration = 71.0791837, start = 0},
+  },
+}
+P.transport["topic:skyborne"] = {
+  hash = "49d276",
+  fullHash = "3a4922",
+  text = "Skyborne. The Skyborne, or shen'dorei, are an offshoot of high elves descended from rebels who fled Eldre'Thalas after opposing Prince Tortheldrin's demonic pacts. Striking a desperate bargain with wind spirits, their ancestors escaped Azeroth to dwell atop the floating Zephras Isle within Skywall. Today, with their elemental benefactors abruptly gone, their floating sanctuary faces internal fractures and physical collapse. Following the Sundering, the Shen'dralar of Eldre'Thalas languished without the Well of Eternity. Prince Tortheldrin devised a dark salvation: summon the demon Immol'thar and siphon its power. Horrified nobles and citizens resisted, fearing another Legion invasion. In response, Tortheldrin executed a bloody purge of dozens of houses. From the surviving shadows rose a resistance spearheaded by a masked figure known only as the Shal'nan ('the Veiled One'). When a desperate rebel raid on Tortheldrin's ritual sanctum descended into catastrophic chaotic magic, the Shal'nan rallied the survivors and fled west to the port of Eldre'narr, taking to the seas pursued by the Prince's fleet. Cornered on the open ocean, the exiles forged a pact with primordial wind spirits. These beings lifted Zephras Isle straight into the skies, anchoring it safely within Skywall—the Elemental Plane of Air. Relieved of absolute rule, the Shal'nan stepped down during the consecration of the Shrine of the Four Winds, placing governance in the hands of an elected council. Over millennia in this alien realm, the night elf exiles evolved into fair, slender high elves. In recent generations, an elemental influence known as the Sky-Touched Blessing has emerged, causing a growing number of children to be born with pale blue skin.",
+  ["1"] = {
+    {file = "Audio/Transport/full_topic_skyborne-c552162b25ab7b62b000/1-0000.mp3", duration = 106.527347, start = 0},
+  },
+}
 P.transport["zone:alterac"] = {
   hash = "b79aea",
   fullHash = "8be44e",

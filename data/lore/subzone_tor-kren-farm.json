@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Tor'kren Farm"
  },
- "summary": "Tor'kren Farm is a quiet, struggling swine farm nestled in northwestern Durotar, tucked between Thunder Ridge and the Southfury River. It is maintained solely by Misha Tor'kren, an aging orc widow whose life has been weighed down by grief and the harsh frontier.",
+ "summary": "Tor'kren Farm is a quiet, struggling swine farm in northwestern Durotar, near Thunder Ridge and the Southfury River. Misha Tor'kren tends the homestead while anxiously awaiting news of her son Kron, who has not returned from a hunting trip.",
  "sections": [
   {
    "title": "A Lonely Homestead",
@@ -15,9 +15,14 @@
    "spoiler": 0
   },
   {
-   "title": "A Mother's Loss",
-   "body": "The farm's greatest burden is not poor soil, but tragedy. Misha Tor'kren once worked these pens alongside her beloved son, Kron. That life ended when Kron journeyed down to the Southfury River to hunt the ferocious crocolisks lurking along the banks and never returned. Left to carry on alone, Misha tends the swine by herself, holding fast to her homestead and clinging to the memory of her fallen child.",
+   "title": "A Mother's Worry",
+   "body": "Misha Tor'kren's son Kron went west to hunt crocolisks along the Southfury River several days ago and has not returned. She had warned him about the vicious predators, but he left in anger. Now she asks passing adventurers to search for him or bring back a sign of his fate, fearing the worst but unable to begin mourning without knowing what happened.",
    "spoiler": 0
+  },
+  {
+   "title": "A Mother's Loss",
+   "body": "When an adventurer brings back Kron's Amulet from the river's crocolisks, Misha recognizes it and says she now knows her son is dead. Knowing his fate, she can finally begin to mourn.",
+   "spoiler": 1
   }
  ],
  "faq": [
@@ -37,7 +42,7 @@
     "tor'kren farm npcs",
     "who is misha tor'kren"
    ],
-   "answer": "The farm is tended solely by Misha Tor'kren, an elderly orc widow who raises pigs on the homestead by herself."
+   "answer": "Misha Tor'kren tends the swine farm. Her son Kron is missing after setting out to hunt along the Southfury River."
   },
   {
    "q": "What happened to Misha's son?",
@@ -46,7 +51,7 @@
     "kron tor'kren death",
     "who is kron"
    ],
-   "answer": "Misha's son, Kron, was killed while hunting crocolisks along the nearby Southfury River several years ago, leaving his mother to manage the farm on her own."
+   "answer": "Kron went hunting crocolisks along the Southfury River days ago and has not returned. Misha asks travelers to find him or bring back a sign of his fate."
   },
   {
    "q": "What does Tor'kren Farm produce?",
@@ -65,7 +70,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "The fate of Kron serves as a grim warning to young hunters about the deadly predators lurking along the Southfury River."
+   "text": "Misha's warnings about the Southfury's crocolisks remind young hunters how dangerous Durotar's riverbanks can be."
   }
  ],
  "keywords": [

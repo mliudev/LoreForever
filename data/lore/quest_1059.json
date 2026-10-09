@@ -29,7 +29,7 @@
   },
   {
    "title": "A Plea to the South",
-   "body": "To permanently restore the scorched lands, the grove tenders need mystical intervention beyond their current means. Albagorm dispatches a courier far to the south, skirting past the salt flats and canyons of Thousand Needles to Forest's Edge on the border of Feralas. There waits Falfindel Waywarder, a night elf druid reputed to possess the rare power to call forth primordial forest spirits capable of rejuvenating the dead soil.",
+   "body": "To permanently restore the scorched lands, the grove tenders need mystical intervention beyond their current means. Albagorm dispatches a courier far to the south, skirting past the salt flats and canyons of Thousand Needles to Thalanaar on the border of Feralas. There waits Falfindel Waywarder, a night elf druid reputed to possess the rare power to call forth primordial forest spirits capable of rejuvenating the dead soil.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "falfindel waywarder location",
     "find waywarder"
    ],
-   "answer": "Falfindel Waywarder is stationed at the Forest's Edge, positioned on the western border where Thousand Needles transitions into the lush wilderness of Feralas."
+   "answer": "Falfindel Waywarder is stationed at Thalanaar, positioned on the western border where Thousand Needles transitions into the lush wilderness of Feralas."
   },
   {
    "q": "Why send for a druid all the way in Feralas?",
@@ -81,7 +81,7 @@
     "how to get to thousand needles",
     "travel route to feralas"
    ],
-   "answer": "Travelers must journey east out of Stonetalon Mountains into the Barrens, head south along the Great Divide, descend the Great Lift into Thousand Needles, and continue west toward Feralas."
+   "answer": "Travelers must journey east out of Stonetalon Mountains into the Barrens, head south along the Gold Road, descend the Great Lift into Thousand Needles, and continue west toward Feralas."
   }
  ],
  "angles": [
@@ -99,7 +99,7 @@
   "charred vale",
   "falfindel waywarder",
   "feralas",
-  "forest's edge",
+  "thalanaar",
   "keeper albagorm",
   "stonetalon peak",
   "thousand needles"
@@ -109,7 +109,7 @@
   "npc:keeper-albagorm",
   "npc:falfindel-waywarder",
   "subzone:charred-vale",
-  "subzone:forest-s-edge",
+  "subzone:thalanaar",
   "zone:stonetalon",
   "zone:feralas",
   "zone:thousandneedles"

@@ -472,11 +472,11 @@ function Options.VoiceSection(c, anchor)
     if it.why then
       stats = T.code.warn .. it.why .. "|r"
     elseif it.on then
-      stats = string.format(L["%d lore recordings available"], it.have) .. (it.races and (" · " .. it.races) or "")
+      stats = string.format(L["%d lore recordings available"], it.have) .. (it.races and (ns.Lang.Dotted(" · ") .. it.races) or "")
     else
       stats = string.format(L["not used · %d lore recordings available"], it.have)
     end
-    if usable and it.stale > 0 then stats = stats .. " · " .. T.code.stale .. string.format(L["%d outdated"], it.stale) .. "|r" end
+    if usable and it.stale > 0 then stats = stats .. ns.Lang.Dotted(" · ") .. T.code.stale .. string.format(L["%d outdated"], it.stale) .. "|r" end
     r.stats:SetText(stats)
     r.stats:SetTextColor(T.rgba(T.color.muted))
     r.sample:SetShown(usable)
@@ -495,25 +495,25 @@ function Options.VoiceSection(c, anchor)
     box:SetHeight(math.max(#items, 1) * VROW)
     local installed, text = ns.Voice.InstalledPacks(), {}
     for _, it in ipairs(installed) do
-      local detail = it.language .. " · " .. it.status
+      local detail = it.language .. ns.Lang.Dotted(" · ") .. it.status
       if it.counts then
         detail = detail .. "\n" .. (it.checked and not it.questPageCheck and L["Current:"] or L["Installed:"]) .. " " .. string.format(L["%d lore recordings · %d quest dialogue · %d lore answers"],
           it.counts.lore, it.counts.quest, it.counts.answer)
         if not it.checked then
-          detail = detail .. " · " .. L["current/outdated: switch language to check"]
+          detail = detail .. ns.Lang.Dotted(" · ") .. L["current/outdated: switch language to check"]
         elseif it.stale > 0 then
-          detail = detail .. " · " .. string.format(L["%d outdated"], it.stale)
+          detail = detail .. ns.Lang.Dotted(" · ") .. string.format(L["%d outdated"], it.stale)
         end
-        if it.counts.unknown > 0 then detail = detail .. " · " .. string.format(L["%d unrecognized"], it.counts.unknown) end
+        if it.counts.unknown > 0 then detail = detail .. ns.Lang.Dotted(" · ") .. string.format(L["%d unrecognized"], it.counts.unknown) end
         if it.questPageCheck then detail = detail .. "\n" .. L["Quest dialogue is checked against the quest page when opened."] end
       elseif it.support then
         detail = detail .. "\n" .. string.format(L["Playback support for %d recordings"], it.support)
       elseif it.entries then
         detail = detail .. "\n" .. string.format(L["%d translated entries · %d translated strings"], it.entries, it.strings)
       else
-        detail = detail .. " · " .. L["Counts not checked"]
+        detail = detail .. ns.Lang.Dotted(" · ") .. L["Counts not checked"]
       end
-      text[#text + 1] = T.code.gold .. it.title .. (it.narrator and (" · " .. it.narrator) or "") .. "|r\n" .. detail
+      text[#text + 1] = T.code.gold .. it.title .. (it.narrator and (ns.Lang.Dotted(" · ") .. it.narrator) or "") .. "|r\n" .. detail
     end
     packsList:SetText(table.concat(text, "\n\n"))
     section.packs, section.packsList, section.packsHead = installed, packsList, packsHead
@@ -566,14 +566,14 @@ local function rows()
     { "typing", L["Typing animation"], L["Answers type in quickly. Click an answer to show it all at once."] },
     { "chatLinks", L["Clickable names in answers"], L["Names of places, people and events in an answer open their own story. Shift-click one to add it to your playlist."] },
     { "showSpoilers", L["Show spoilers without asking"], L["Answers that give away a quest's twist or ending normally ask before revealing. Tick this to always show them."] },
-    { "onDemand", L["Narration: only when I press Play"], L["Nothing plays by itself: not as you arrive, on flights, at quest givers or in books. Play buttons, the Narrate key and your playlist still work. Also in the minimap button's right-click menu."] },
+    { "onDemand", L["Narration: only when I press Play"], L["Nothing plays by itself: not as you arrive, on flights, at quest givers or in books. Play buttons, the Narrate key and your playlist still work."] },
     { "narrateFlights", L["Narrate flights"], L["Read the story of each zone aloud while on a flight path."] },
     { "autoZone", L["Play narrations as you arrive"], L["When you reach a zone or place with a recorded narration, play it. Never during combat or a flight, and never over something already playing."] },
     { "questDialogue", L["Speak quest dialogue"], L["Off by default. Turn on to hear quest pages automatically or use Play beside the quest window. Leave off when another add-on reads quests. Lore Forever's own stories and answers still play."] },
     { "skipHeard", L["Skip what you've heard"], L["Don't play a narration by itself again once this character has heard it. You can still play it any time; the Library ticks the ones you've heard."] },
     { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
     { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC."] },
-    { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["The Take a journey picture key (Key Bindings, AddOns) hides your interface for a moment, so the picture shows only the world. Not in combat: then the picture has your interface."] },
+    { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or set Take a journey picture in Key Bindings, AddOns. This option hides your interface for a moment, except in combat. In the companion, turn on Picture book and connect your profile. Pictures with the interface need On my profile."] },
     { "capture", L["Keep the quest text you see"], L["Keep the quest, gossip and book text Forever shows you, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it."] },
     { "contributeButtons", L["Contribute buttons"], L["A small button on quest, gossip and book windows whose text Lore Forever doesn't have yet. Click it for a link to share that text."] },
     { "tips", L["Tips at login"], L["Now and then at login, a tip in chat about something Lore Forever can do."] },
@@ -775,12 +775,12 @@ function Options.Create()
   local sentBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
   sentBtn:SetSize(160, 24)
   sentBtn:SetPoint("LEFT", resetBtn, "RIGHT", 10, 0)
-  sentBtn:SetText(L["Mark all as sent"])
+  sentBtn:SetText(L["Mark shared text as sent"])
   fit(sentBtn, 160)
   sentBtn:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Mark all as sent"])
-    T.Tip(L["After you share your LoreForever.lua at loreforeverwow.com/contribute, click this so your next upload only carries new lines. The text stays for Lore Forever."], "tipText", true)
+    GameTooltip:AddLine(L["Mark shared text as sent"])
+    T.Tip(L["For optional quest, gossip and book text contributions only. After sharing at loreforeverwow.com/contribute, mark that text as sent so the next upload carries new lines. Your journey syncs automatically in the companion and does not use this button."], "tipText", true)
     GameTooltip:Show()
   end)
   sentBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)

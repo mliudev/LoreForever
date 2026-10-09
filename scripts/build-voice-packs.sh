@@ -24,6 +24,12 @@
 # Usage: scripts/build-voice-packs.sh [--versioned]
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+# A sparse worktree (scripts/new-worktree.sh) has no voice audio or translated lore: refuse rather than build
+# without them.
+[ "$(git -C "$ROOT" config --get lore.sparse 2>/dev/null)" != true ] \
+  || [ "$(git -C "$ROOT" config --bool core.sparseCheckout 2>/dev/null)" != true ] \
+  || { echo "${0##*/}: this worktree is sparse; run 'git sparse-checkout disable' here first, or use" \
+         "~/git/lore-forever" >&2; exit 1; }
 exec python3 - "$ROOT" "$@" <<'PY'
 import re, sys, zipfile, subprocess
 from pathlib import Path
@@ -49,6 +55,7 @@ DOWNLOADS = {
     # Both narrators in the language packs' languages (LOR-177): one zip per narrator and language, each holding the
     # zone stories, answers, places and people (~340 MB; lore.voicepack locale keeps each under 480 MB). Skipped until
     # recorded (no folder in addon/).
+    "LoreForever_Voice_Default_ukUA": (["LoreForever_Voice_Default_ukUA"], "Pekelnyj / UALL: Ukrainian stories and answers {v}"),
     "LoreForever_Voice_Default_deDE": (["LoreForever_Voice_Default_deDE"], "Male narrator: Deutsch {v}"),
     "LoreForever_Voice_Female_deDE": (["LoreForever_Voice_Female_deDE"], "Female narrator: Deutsch {v}"),
     "LoreForever_Voice_Default_esES": (["LoreForever_Voice_Default_esES"], "Male narrator: Español {v}"),

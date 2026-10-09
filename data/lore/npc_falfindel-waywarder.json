@@ -8,7 +8,7 @@
   "wiki": "Falfindel Waywarder",
   "refs": 7
  },
- "summary": "Falfindel Waywarder is a night elf sentinel stationed at Thalanaar, the outpost guarding the border between Feralas and the Thousand Needles. From this frontier watchpost, he works to heal corrupted lands and safeguard the southern wilderness of Kalimdor. Travelers wandering down from Stonetalon or the Barrens often find him seeking aid to restore balance to the wild.",
+ "summary": "Falfindel Waywarder is a night elf druid stationed at Thalanaar, the outpost guarding the border between Feralas and the Thousand Needles. From this frontier watchpost, he works to heal corrupted lands and safeguard the southern wilderness of Kalimdor. Travelers wandering down from Stonetalon or the Barrens often find him seeking aid to restore balance to the wild.",
  "sections": [
   {
    "title": "Watch at the Southern Border",
@@ -43,7 +43,7 @@
     "falfindel purpose",
     "falfindel quests"
    ],
-   "answer": "He serves as a sentinel and guide at the outpost, monitoring regional threats such as the quilboar in Thousand Needles and coordinating restoration efforts for ruined lands like the Charred Vale."
+   "answer": "He serves as a druid and guide at the outpost, monitoring regional threats such as the quilboar in Thousand Needles and coordinating restoration efforts for ruined lands like the Charred Vale."
   },
   {
    "q": "How does Falfindel help the Charred Vale?",
@@ -69,7 +69,7 @@
     "is falfindel alliance",
     "falfindel faction"
    ],
-   "answer": "Falfindel is a member of the night elf sentinels and is allied with the Alliance. Horde travelers approaching Thalanaar will find the outpost hostile."
+   "answer": "Falfindel is a night elf druid allied with Darnassus and the Alliance. Horde travelers approaching Thalanaar will find the outpost hostile."
   },
   {
    "q": "What does Falfindel say to travelers?",

@@ -8,7 +8,7 @@
   "wiki": "Pilot Hammerfoot",
   "refs": 2
  },
- "summary": "Pilot Hammerfoot is a dwarven siege engine pilot of the Ironforge Siege Brigade, stationed near the mountain passes connecting Dun Morogh and Loch Modan. Worried for a fellow pilot lost in the hills, he seeks willing adventurers to find his friend and avenge him. His presence highlights the dangers faced by dwarves along the high alpine ridges.",
+ "summary": "Pilot Hammerfoot is a dwarven siege engine pilot of the Ironforge Siege Brigade, stationed near the mountain passes connecting Dun Morogh and Loch Modan. Worried for a fellow pilot lost in the hills, he seeks willing adventurers to search for his friend. His presence highlights the dangers faced by dwarves along the high alpine ridges.",
  "sections": [
   {
    "title": "Eyes in the Mountains",
@@ -47,16 +47,16 @@
     "what happened to morter",
     "morter death"
    ],
-   "answer": "Pilot Mori Hildelve busted his siege engine on a steep hill in the mountains of Dun Morogh and kept searching on foot. He fought off an attack by Mangeclaw, a huge ice claw bear, but the beast later returned and killed him."
+   "answer": "Pilot Mori Hildelve broke his siege engine on a steep hill while searching for rare ore and continued on foot. Hammerfoot has not heard from him and asks travelers to investigate."
   },
   {
-   "q": "Why does Hammerfoot want revenge?",
+   "q": "Why is Hammerfoot worried about his partner?",
    "aliases": [
     "pilot revenge why",
     "why avenge morter",
     "mangeclaw grudge"
    ],
-   "answer": "Hammerfoot shared a deep bond with Mori Hildelve as fellow Siege Brigade pilots. Learning of Hildelve's brutal death at the claws of Mangeclaw drives Hammerfoot to seek vengeance, fulfilling the final wish written in his friend's journal."
+   "answer": "Hammerfoot and Mori Hildelve are close friends and fellow Siege Brigade pilots. Hildelve has gone missing in dangerous mountain terrain, and Hammerfoot needs someone to discover what happened."
   }
  ],
  "angles": [

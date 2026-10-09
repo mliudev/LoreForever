@@ -30,7 +30,7 @@ local function join(sep, ...)
     local p = select(i, ...)
     if p and p ~= "" then out[#out + 1] = p end
   end
-  return table.concat(out, sep)
+  return table.concat(out, ns.Lang.Dotted(sep))
 end
 
 local function place(e)

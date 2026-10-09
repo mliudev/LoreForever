@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Psychic Visions and Practical Gearing",
-   "body": "Perched on the eastern coast of Tanaris just north of the goblin docks, Narain Soothfancy lives as a retired engineer turned self-proclaimed master fortune teller. He routinely greets visitors by pressing unopened envelopes against his forehead or making wildly inaccurate guesses about their business, such as wondering if they have arrived seeking the legendary Ashbringer. Despite his theatrical charade, Narain possesses deep technical knowledge. Even ancient beings like the blue dragon Azuregos note that while Narain is a terrible psychic, his engineering aptitude is undeniably brilliant. Travelers often find him useful for resetting specialized trade knowledge using his handbook, 'Soothsaying for Dummies.'",
+   "body": "Perched on the eastern coast of Tanaris just north of the goblin docks, Narain Soothfancy lives as a retired engineer turned self-proclaimed master fortune teller. He routinely greets visitors by pressing unopened envelopes against his forehead or making wildly inaccurate guesses about their business, such as wondering if they have arrived seeking the legendary Ashbringer. Despite his theatrical charade, Narain possesses deep technical knowledge. Even ancient beings like the blue dragon Azuregos note that while Narain is a terrible psychic, his engineering aptitude is undeniably brilliant. A handbook titled 'Soothsaying for Dummies' rests nearby.",
    "spoiler": 0
   },
   {
@@ -46,7 +46,7 @@
     "soothsaying for dummies",
     "narain tradeskill book"
    ],
-   "answer": "It is a practical manual kept by Narain that allows adventurers to unlearn and relearn specialized trade knowledge, bypassing his absurd psychic theatrics."
+   "answer": "It is a handbook kept in Narain's hut, associated with specialized trades. Narain points travelers seeking such knowledge toward the book."
   },
   {
    "q": "How does Narain know Azuregos?",

@@ -7,8 +7,7 @@
  "meta": {
   "wiki": "Amethyst Phial",
   "quests": [
-   "quest:934",
-   "quest:7383"
+   "quest:934"
   ]
  },
  "summary": "The Amethyst Phial is a delicate ceremonial vessel entrusted to young night elf adventurers by Corithras Moonrage in Dolanaar. It is crafted specifically to gather and preserve sacred waters from the premier moonwell beneath the Oracle Tree.",
@@ -41,7 +40,7 @@
     "amethyst phial location",
     "oracle glade moonwell"
    ],
-   "answer": "It must be dipped into the moonwell situated far to the northwest of Dolanaar, past the gates of Darnassus, within the secluded grove known as the Oracle Glade."
+   "answer": "It must be dipped into the moonwell far to the northwest of Dolanaar, north of the entrance to Darnassus, within the secluded grove known as the Oracle Glade."
   },
   {
    "q": "Why is the water from the Oracle Glade so important?",

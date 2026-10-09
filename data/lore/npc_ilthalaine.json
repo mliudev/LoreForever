@@ -17,12 +17,12 @@
   },
   {
    "title": "The Balance of Nature",
-   "body": "Even in the sheltered canopy of Shadowglen, unnatural aggression stirs among the local beasts. Ilthalaine tasks young defenders with hunting stray nightsabers and boars whose growing numbers and viciousness threaten to upend the harmony of the bough. He views culling not as cruelty, but as a vital sacred duty to preserve life and curb the uncharacteristic unrest that has begun to seep into the new World Tree.",
+   "body": "Heavy spring rains have allowed the nightsaber and thistle boar populations in Shadowglen to grow beyond what the glade can feed. Ilthalaine asks young defenders to thin their numbers so that the woodland's other creatures can flourish and nature's balance can be preserved.",
    "spoiler": 0
   },
   {
    "title": "A Guide to Discipline",
-   "body": "Beyond testing an adventurer's martial prowess against corrupted wildlife, Ilthalaine directs young elves toward their chosen callings. Entrusting each traveler with a class sigil, he points them directly to their mentors within the Aldrassil sanctuary\u2014whether they follow the path of the warrior, druid, rogue, priest, or hunter. Through him, every novice learns where their service to the Kaldorei begins.",
+   "body": "Beyond testing an adventurer's martial prowess against local wildlife, Ilthalaine directs young elves toward their chosen callings. Entrusting each traveler with a class sigil, he points them directly to their mentors within the Aldrassil sanctuary—whether they follow the path of the warrior, druid, rogue, priest, or hunter. Through him, every novice learns where their service to the Kaldorei begins.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "why kill nightsabers",
     "why kill boars"
    ],
-   "answer": "The woodland creatures of Shadowglen have grown unusually fierce and aggressive, upsetting the natural harmony of the forest. Ilthalaine directs young champions to cull their overpopulated ranks to restore order to the bough."
+   "answer": "Heavy spring rains have increased the nightsaber and thistle boar populations beyond what Shadowglen can support. Ilthalaine asks for a cull to preserve nature's balance."
   },
   {
    "q": "What are the sigils he gives out?",
@@ -63,7 +63,7 @@
     "encrypted sigil",
     "hallowed sigil"
    ],
-   "answer": "Ilthalaine gives class-specific inscribed sigils to novices, instructing them to seek out their trainers\u2014such as priestesses, druids, warriors, and rogues\u2014sheltered within the roots of Aldrassil."
+   "answer": "Ilthalaine gives class-specific inscribed sigils to novices, instructing them to seek out their trainers—such as priestesses, druids, warriors, and rogues—sheltered within the roots of Aldrassil."
   },
   {
    "q": "Where can Ilthalaine be found?",

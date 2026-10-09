@@ -1,11 +1,11 @@
 {
  "key": "npc:mad-magus-tirth",
  "type": "npc",
- "name": "Mad Magus Tirth",
+ "name": "Magus Tirth",
  "era": "classic",
  "zone": "thousandneedles",
  "meta": {
-  "wiki": "Mad Magus Tirth",
+  "wiki": "Magus Tirth",
   "refs": 1
  },
  "summary": "Magus Tirth is an eccentric human wizard dwelling out on the salt flats of the Mirage Raceway in Thousand Needles. Known locally for breeding chickens and tormenting his polymorphed apprentice, he is also a scholar of formidable arcane lore who has squandered valuable tomes on racing bets.",
@@ -50,13 +50,13 @@
    "answer": "Rituals of Power is an advanced treatise on arcane energy authored by Magus Tirth. It is an essential text for mages looking to advance their craft, though Tirth parted with it to pay off his mounting racing debts."
   },
   {
-   "q": "Who did Tirth sell his book to?",
+   "q": "Why is his book difficult to obtain?",
    "aliases": [
     "who has rituals of power",
     "tirth debts",
     "scarlet crusade book"
    ],
-   "answer": "To settle gambling losses accumulated at the Mirage Raceway, Tirth sold his copy of Rituals of Power to a member of the Scarlet Crusade."
+   "answer": "Tirth no longer has his copy of Rituals of Power. Mages seeking it must follow up on his account of how he parted with the tome."
   }
  ],
  "angles": [
@@ -83,6 +83,6 @@
   "topic:scarlet-crusade"
  ],
  "attribution": [
-  "Mad Magus Tirth"
+  "Magus Tirth"
  ]
 }

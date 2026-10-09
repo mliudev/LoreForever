@@ -16,7 +16,7 @@
   },
   {
    "title": "The Rot Hide Squatters",
-   "body": "Rather than standard Scourge patrols, Garren's Haunt has been claimed by the Rot Hide gnolls\u2014a pack of undead-tainted scavengers led by the vicious Maggot Eye. These scavengers aggressively defend their reclaimed territory, picking clean whatever remains of the farm and savaging any travelers or Forsaken patrols passing along northern Tirisfal.",
+   "body": "Rather than standard Scourge patrols, Garren's Haunt has been claimed by the Rot Hide gnolls—a pack of undead-tainted scavengers led by the vicious Maggot Eye. These scavengers aggressively defend their reclaimed territory, picking clean whatever remains of the farm and savaging any travelers or Forsaken patrols passing along northern Tirisfal.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "what lives here",
     "who controls the farm"
    ],
-   "answer": "The farm is primarily infested with Rot Hide gnolls led by Maggot Eye. Additionally, a vicious darkhound known as Plague can often be found lurking within the ruins of the barn."
+   "answer": "The farm is infested with Rot Hide gnolls led by Maggot Eye. They prowl the fields and buildings, attacking those who come too close."
   },
   {
    "q": "Why is it called Garren's Haunt?",
@@ -63,7 +63,6 @@
   }
  ],
  "keywords": [
-  "darkhound",
   "farmstead",
   "garren's haunt",
   "maggot eye",

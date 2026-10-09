@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "A Beacon Fallen into Shadow",
-   "body": "Before Moonbrook fell to ruin and bandits, the community invested in the education of its youth by raising this grand schoolhouse. Stalvan Mistmantle, an educated scholar from the north, was invited to Westfall specifically to serve as its headmaster. In those brighter days, the hall bustled with students rather than thieves, standing as proof of Moonbrook's former prosperity. Now, the schoolhouse lies abandoned to the elements and infested with outlaws, while the weathered headstones of its rear cemetery silently oversee Westfall's steady decay.",
+   "body": "Before Moonbrook fell to ruin and bandits, the community invested in the education of its youth by raising this grand schoolhouse. After Stalvan Mistmantle began tutoring local children, the mayor commissioned him to run a school. In those brighter days, the hall bustled with students rather than thieves, standing as proof of Moonbrook's former prosperity. Now, the schoolhouse lies abandoned to the elements and infested with outlaws, while the weathered headstones of its rear cemetery silently oversee Westfall's steady decay.",
    "spoiler": 0
   },
   {
    "title": "Secrets in the Floorboards",
-   "body": "Though long abandoned by scholars, the schoolhouse holds the beginning of a grim mystery. An old footlocker left behind on the main floor contains unsent correspondence detailing Stalvan's departure from Westfall. Frustrated by meager pay and the isolation of rustic life, Mistmantle left his post in Moonbrook to seek fortune tutoring the nobility of Elwynn Forest\u2014a fateful decision that set off a tragic chain of events across the southern kingdoms.",
+   "body": "Though long abandoned by scholars, the schoolhouse holds the beginning of a grim mystery. An old footlocker left behind on the main floor contains an unsent letter describing Stalvan's arrival in Moonbrook, his tutoring of local children, and the mayor's commission to build a new schoolhouse. A separate letter later found in Goldshire explains that regional troubles forced him to leave his post and seek work as a private tutor.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "stalvan mistmantle lore",
     "school headmaster"
    ],
-   "answer": "Stalvan Mistmantle was a learned scholar hired to be the schoolhouse's headmaster. Unhappy with his meager wages and country life in Moonbrook, he eventually resigned to pursue work as a private tutor for an aristocratic family in Elwynn Forest."
+   "answer": "Stalvan Mistmantle was a learned scholar who became the schoolhouse's headmaster. Investigators can follow the letters he left behind to learn more about his career."
   },
   {
    "q": "Why is the schoolhouse abandoned now?",
@@ -55,7 +55,7 @@
     "loot in schoolhouse",
     "quest item inside"
    ],
-   "answer": "Alliance investigators tracking the history of Stalvan Mistmantle can find an old, dusty footlocker on the ground floor. Inside rests an unsent letter that reveals his reasons for leaving Moonbrook behind."
+   "answer": "Alliance investigators tracking Stalvan Mistmantle can find an old, dusty footlocker on the ground floor containing an unsent letter."
   }
  ],
  "angles": [

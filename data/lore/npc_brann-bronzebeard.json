@@ -8,11 +8,11 @@
   "wiki": "Brann Bronzebeard",
   "refs": 4
  },
- "summary": "Brann Bronzebeard is the youngest brother of King Magni and the late Muradin, renowned throughout Azeroth as a peerless explorer, archaeologist, and founding leader of the Explorers' League. Driven by an insatiable curiosity for titan ruins and ancient history, his wanderlust has led him deep into the deadly wastes of Silithus. He has recently vanished past the impenetrable Scarab Wall, leaving his field companions behind with only baffling clues and his beloved pet ape.",
+ "summary": "Brann Bronzebeard is the youngest brother of King Magni and Muradin, who is believed dead, renowned throughout Azeroth as a peerless explorer, archaeologist, and founding leader of the Explorers' League. Driven by an insatiable curiosity for titan ruins and ancient history, his wanderlust has led him deep into the deadly wastes of Silithus. His field companions in southern Silithus await news of his latest expedition.",
  "sections": [
   {
    "title": "A Royal Wanderer",
-   "body": "While his eldest brother Magni rules Ironforge from the throne and Muradin served on battlefield frontlines, Brann took to the open wilds. He was a veteran warrior of the Second War, fighting in the Siege of Ironforge and following High General Anduin Lothar and Turalyon all the way to the Dark Portal's destruction. Yet peacetime turned his formidable constitution toward uncovering the forgotten past. As a leader of the Explorers' League, Brann charted vast swathes of the Eastern Kingdoms\u2014from Elwynn Forest to the untamed jungles of Zul'Gurub\u2014before turning his gaze across the Great Sea to the mysteries of ancient Kalimdor.",
+   "body": "While his eldest brother Magni rules Ironforge from the throne and Muradin served on battlefield frontlines, Brann took to the open wilds. He was a veteran warrior of the Second War, fighting in the Siege of Ironforge and following High General Anduin Lothar and Turalyon all the way to the Dark Portal's destruction. Yet peacetime turned his formidable constitution toward uncovering the forgotten past. As a leader of the Explorers' League, Brann charted vast swathes of the Eastern Kingdoms—from Elwynn Forest to the untamed jungles of Zul'Gurub—before turning his gaze across the Great Sea to the mysteries of ancient Kalimdor.",
    "spoiler": 0
   },
   {
@@ -43,7 +43,7 @@
     "where to find brann",
     "where is brann in silithus"
    ],
-   "answer": "He has slipped through an underground fissure into Ahn'Qiraj past the sealed Scarab Wall in southern Silithus. His associates, Rutgar Glyphshaper and Frankal Stonebridge, still tend the Bronzebeard Encampment along the southern cliffs, hoping he emerges alive."
+   "answer": "His trail leads to Silithus, where Rutgar Glyphshaper and Frankal Stonebridge maintain the Bronzebeard Encampment. They may have information about his latest expedition."
   },
   {
    "q": "What happened to his camp in Silithus?",
@@ -52,7 +52,7 @@
     "who attacked brann's camp",
     "natalia attack brann"
    ],
-   "answer": "The encampment was ambushed by the maddened night elf priestess Natalia Mar'alith. She struck Brann unconscious, but his pet ape Glibb flew into a defensive rage and fought her off, chasing her into the nearby insectoid tunnels of Hive'Regal."
+   "answer": "Rutgar Glyphshaper and Frankal Stonebridge have troubling news about the expedition. Speaking with them reveals what happened at the camp."
   },
   {
    "q": "Who is Glibb?",
@@ -61,7 +61,7 @@
     "brann's monkey",
     "brann pet"
    ],
-   "answer": "Glibb is Brann Bronzebeard's companion ape. Glibb saved Brann's life during the surprise attack by Natalia Mar'alith. When Brann departed into the tunnels beneath Ahn'Qiraj, he left Glibb behind at Bronzebeard Encampment with urgent orders for his crew to keep the beast well-fed and hugged."
+   "answer": "Glibb is Brann Bronzebeard's companion ape, staying with the explorers at Bronzebeard Encampment in Silithus."
   },
   {
    "q": "Did Brann fight in the Second War?",

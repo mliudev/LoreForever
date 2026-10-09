@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Spirit of the Earthen",
-   "body": "Elder Goldwell manifests as a translucent earthen spirit, watching over the snowy slopes of Kharanos. Unlike modern mortal dwarves of flesh and bone, his stony form echoes the ancient Titan-forged race from which the Bronzebeard clan descended. Honoring him during seasonal ancestor celebrations grants wandering travelers his blessing and a token of ancestral coin.",
+   "body": "Elder Goldwell manifests as a translucent earthen spirit, watching over the snowy slopes of Kharanos. Unlike modern mortal dwarves of flesh and bone, his stony form echoes the ancient Titan-forged race from which the Bronzebeard clan descended. His presence during ancestor celebrations offers travelers a chance to honor that ancient heritage.",
    "spoiler": 0
   }
  ],
@@ -43,14 +43,6 @@
     "goldwell rock dwarf"
    ],
    "answer": "Dwarves trace their ancestry back to the stone-skinned earthen created by the Titans. As one of the most ancient spirits honoring past generations, Goldwell retains the original earthen visage rather than the mortal flesh of living dwarves."
-  },
-  {
-   "q": "Is Elder Goldwell tied to the Bronzebeard clan?",
-   "aliases": [
-    "is goldwell bronzebeard",
-    "goldwell clan"
-   ],
-   "answer": "His connection to the Bronzebeard clan is unconfirmed. He is an earthen ancestor spirit found in Kharanos."
   }
  ],
  "angles": [
@@ -65,7 +57,6 @@
  ],
  "keywords": [
   "ancestor",
-  "bronzebeard",
   "dun morogh",
   "earthen",
   "elder goldwell",
@@ -76,8 +67,7 @@
  "related": [
   "quest:8653",
   "subzone:kharanos",
-  "zone:dunmorogh",
-  "topic:bronzebeard-clan"
+  "zone:dunmorogh"
  ],
  "attribution": [
   "Elder Goldwell"

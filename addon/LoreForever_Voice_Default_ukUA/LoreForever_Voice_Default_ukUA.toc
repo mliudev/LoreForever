@@ -1,0 +1,15 @@
+## Interface: 16001
+## Title: Lore Forever: оповідач українською
+## Notes: Ukrainian narration for Lore Forever by Pekelnyj / UALL.
+## Dependencies: LoreForever, LoreForever_Lang_ukUA
+## LoadOnDemand: 1
+## Author: UALL
+## Version: 0.13.0
+## X-LoreForever-Pack: voice
+## X-LoreForever-Locale: ukUA
+## X-LoreForever-Format: 1
+## X-LoreForever-Gender: male
+## X-LoreForever-Credit: Pekelnyj / UALL
+## X-LoreForever-Sample: zone:stormwind
+
+Clips.lua

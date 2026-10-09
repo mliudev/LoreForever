@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Resting Place of Titans",
-   "body": "Sprawling across the grey earth of Desolace, the Kodo Graveyard holds the colossal skeletons of ancient beasts, some far larger than any living kodo seen today. Guided by an innate instinct echoing the ancient elephant legends of other worlds, dying kodos wander here to spend their final breaths among centuries of accumulated remains. This sacred peace is fragile: scavengers prowl the perimeter, and those who disturb the calcified ribs and skulls risk stirring furious kodo spirits from the dust.",
+   "body": "Sprawling across the grey earth of Desolace, the Kodo Graveyard holds the colossal skeletons of ancient beasts, some far larger than any living kodo seen today. Dying kodos wander here to spend their final breaths among centuries of accumulated remains. This sacred peace is fragile: scavengers prowl the perimeter, and those who disturb the calcified ribs and skulls risk stirring furious kodo spirits from the dust.",
    "spoiler": 0
   },
   {
@@ -37,7 +37,7 @@
     "huge kodo ribs",
     "massive bones desolace"
    ],
-   "answer": "The ground contains fossils and bones dating back generations. Many of the preserved skeletons belong to ancient kodo ancestors that grew to far greater sizes than the beasts currently roaming Kalimdor."
+   "answer": "Some of the skeletons are much larger than the living kodos seen nearby. Their exact age and origins are not established."
   },
   {
    "q": "What happens if someone disturbs the bones?",
@@ -78,8 +78,7 @@
  "related": [
   "zone:desolace",
   "subzone:ghost-walker-post",
-  "topic:horde",
-  "subzone:vice"
+  "topic:horde"
  ],
  "attribution": [
   "Kodo Graveyard"

@@ -47,7 +47,7 @@
     "seeds use",
     "seeds test"
    ],
-   "answer": "The dried seeds are dead and barren. Tonga uses them as a scientific and druidic test: placing them into the submerged fissure reveals that the energies flowing from below are powerful enough to restore life to completely dead flora."
+   "answer": "Tonga provides dead, infertile seeds as a test. He asks you to place them in any fissure beneath the Stagnant Oasis and observe whether the waters have an effect."
   },
   {
    "q": "Where is the Stagnant Oasis located?",
@@ -65,7 +65,7 @@
     "underwater crack",
     "bubbling fissure"
    ],
-   "answer": "The fissures are mysterious cracks on the oasis floors that emanate unnatural restorative energy. Druids like Tonga believe these fissures are directly responsible for the sudden formation of the Barrens oases, though the deeper origin of their magical power remains unsettled."
+   "answer": "The fissures are mysterious cracks beneath the oasis waters. Tonga suspects they may be the source of the oases' life and asks travelers to test that possibility."
   },
   {
    "q": "What quest comes next in the chain?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids of the Cenarion Circle, observing dormant seeds spring instantly to life reveals a primordial font of nature magic that is as concerning as it is awe-inspiring."
+   "text": "For druids of the Cenarion Circle, testing the oasis with lifeless seeds offers a way to investigate whether hidden forces are restoring life to the Barrens."
   },
   {
    "target": "race:Tauren",

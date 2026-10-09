@@ -210,6 +210,78 @@ def fingerprint(zip_path: Path) -> str:
     return h.hexdigest()
 
 
+
+def source_fingerprints(projects: list[dict], files: dict[str, Path], version: str) -> dict:
+    """Fingerprint each project's exact selected files without repacking its immutable source archives."""
+    result = {}
+    for project in projects:
+        wanted = sources(project, version)
+        have = [n for n in wanted if n in files]
+        entries, found = {}, set()
+        for archive in have:
+            with zipfile.ZipFile(files[archive]) as z:
+                available = {i.filename.split('/')[0] for i in z.infolist() if not i.is_dir()}
+                keep = set(project['folders']) & available
+                found.update(keep)
+                locales = {m.group(1) for f in keep if (m := re.search(r'_([a-z]{2}[A-Z]{2})$', f))}
+                keep.update('LoreForever_Lang_' + loc for loc in locales if 'LoreForever_Lang_' + loc in available)
+                for info in z.infolist():
+                    if info.is_dir() or info.filename.split('/')[0] not in keep:
+                        continue
+                    data = z.read(info)
+                    if info.filename.lower().endswith('.toc'):
+                        data = VERSION_LINE.sub(b'', data)
+                    digest = hashlib.sha256(data).digest()
+                    if info.filename in entries and entries[info.filename] != digest:
+                        raise Failure('Conflicting source file: ' + info.filename)
+                    entries[info.filename] = digest
+        if not entries or (len(have) == len(wanted) and set(project['folders']) - found):
+            continue   # the ordinary preparation path reports absent/missing packs
+        h = hashlib.sha256()
+        for filename, digest in sorted(entries.items()):
+            h.update(hashlib.sha256(filename.encode()).digest() + digest)
+        result[str(project['id'])] = {'key': project['key'], 'folders': sorted(project['folders']),
+                                     'sources': wanted, 'archives': have, 'fingerprint': h.hexdigest()}
+    return result
+
+
+def release_fingerprints(tag: str) -> dict:
+    """Read only a small server-digest-verified catalog; old releases keep their existing preparation path."""
+    repo = os.environ.get('GH_REPO', 'mliudev/LoreForever')
+    release = json.loads(run(['gh', 'api', f'repos/{repo}/releases/tags/{tag}']).stdout)
+    remote = {a['name']: a for a in release['assets']}
+    asset = remote.get('release-manifest.json')
+    if asset is None:
+        return {}
+    body = run(['gh', 'release', 'download', tag, '-R', repo, '-p', 'release-manifest.json', '-O', '-']).stdout
+    if asset.get('digest') != 'sha256:' + hashlib.sha256(body.encode()).hexdigest():
+        raise Failure('Release fingerprint manifest digest differs')
+    manifest = json.loads(body)
+    bound = manifest.get('binding', {})
+    if (manifest.get('version'), bound.get('tag'), bound.get('repository')) != (1, tag, repo) or release.get('draft'):
+        raise Failure('Release fingerprint catalog binding differs')
+    rows = {r['name']: r for r in manifest['assets']}
+    for n, r in rows.items():
+        actual = remote.get(n, {})
+        if (actual.get('state'), actual.get('size'), actual.get('digest')) != ('uploaded', r['bytes'], 'sha256:' + r['sha256']):
+            raise Failure('Release fingerprint source asset differs: ' + n)
+    return {'projects': manifest['curseforge'], 'assets': rows}
+
+
+def unchanged_projects(projects: list[dict], catalog: dict, state: dict, version: str) -> list[dict]:
+    """Accepted file IDs stay intact, including files still awaiting moderation."""
+    unchanged = []
+    for p in projects:
+        entry = catalog.get('projects', {}).get(str(p['id']), {})
+        last = state.get(str(p['id']), {})
+        if (entry.get('key'), entry.get('folders'), entry.get('sources')) != (p['key'], sorted(p['folders']), sources(p, version)):
+            continue
+        if not entry.get('archives') or any(n not in catalog.get('assets', {}) for n in entry['archives']):
+            continue
+        if (type(last.get('file')) is int and last['file'] > 0 and last.get('fingerprint') == entry.get('fingerprint')):
+            unchanged.append({'project': p, 'action': 'unchanged', 'last': last, 'fingerprint': entry['fingerprint']})
+    return unchanged
+
 def contents(zip_path: Path) -> list[tuple[str, str, int]]:
     """[(folder, its .toc's title, recordings)] for each add-on folder in the zip, in zip order."""
     titles, counts = {}, {}
@@ -555,10 +627,16 @@ def cmd_upload(args) -> int:
     state = json.loads(Path(args.state).read_text(encoding="utf-8")) if args.state else load_state(state_file)
     with tempfile.TemporaryDirectory() as tmp:
         source_dir = Path(args.dir) if args.dir else Path(tmp, "release")
+        unchanged = []
         if args.from_release:
+            if not args.languages:
+                unchanged = unchanged_projects(todo, release_fingerprints(tag), state, version)
+                skipped = {s['project']['id'] for s in unchanged}
+                todo = [p for p in todo if p['id'] not in skipped]
             source_dir.mkdir(parents=True, exist_ok=True)
-            fetch({s for p in todo for s in sources(p, version)}, "languages" if args.languages else tag, source_dir)
-        steps = plan(prepare(todo, source_dir, Path(tmp, "files"), version), state)
+            if todo:
+                fetch({s for p in todo for s in sources(p, version)}, "languages" if args.languages else tag, source_dir)
+        steps = unchanged + (plan(prepare(todo, source_dir, Path(tmp, "files"), version), state) if todo else [])
         return send(steps, projects, state, version, token, args.dry_run, source=tag or str(source_dir),
                     state_file=state_file)
 

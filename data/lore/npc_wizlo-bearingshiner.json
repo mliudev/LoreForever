@@ -8,16 +8,16 @@
   "wiki": "Wizlo Bearingshiner",
   "refs": 4
  },
- "summary": "Wizlo Bearingshiner is an enterprising goblin tinkerer stationed at Whitereach Post in Thousand Needles. Ever keen to harness unusual power sources and volatile alchemical concoctions, he looks to adventurous travelers to assist with his ambitious mechanical experiments. His inventive curiosity frequently pits goblin technical ambition against the dangerous wildlife and mystical energies of the region.",
+ "summary": "Wizlo Bearingshiner is a goblin tinkerer stranded at Whitereach Post in Thousand Needles. The sole survivor of a centaur attack on his caravan, he recruits travelers to recover a valuable Hypercapacitor Gizmo from the wreckage.",
  "sections": [
   {
    "title": "An Engineer at the Post",
-   "body": "Perched alongside the Tauren at Whitereach Post high above the canyon floor of Thousand Needles, Wizlo Bearingshiner represents typical goblin industriousness. While the local grimtotem and wildlife present constant hazards below, Wizlo remains laser-focused on acquiring components for his latest gadgets. He operates with typical goblin pragmatism, willing to trade coin and knowledge with anyone willing to brave the harsh canyon to gather field materials.",
+   "body": "Staying alongside the tauren at Whitereach Post along the canyon road, Wizlo Bearingshiner faces an unwelcome delay. Centaur attacked his caravan, leaving him as its only survivor. His clients are waiting for their wares, and he worries that he will not deliver them in time.",
    "spoiler": 0
   },
   {
-   "title": "Unconventional Power Sources",
-   "body": "Wizlo's tinkerings are far from mundane; he often seeks unconventional methods to supercharge his devices. Rather than relying solely on conventional fuels or standard parts, his schemes involve experimenting with potent alchemical mixtures and unusual energetic catalysts, such as his notorious Hypercapacitor Gizmo. His willingness to mix mystical resources, including waters drawn from night elven moonwells, with raw mechanical engineering highlights the reckless innovation goblins are famous for.",
+   "title": "A Stranded Shipment",
+   "body": "Wizlo's best gizmo hangs around the neck of a fierce panther caged beside his ruined caravan north of Whitereach Post. Even the centaur avoid the beast. Wizlo offers travelers the cage key and a reward for recovering the hypercapacitor, though he admits he has yet to work out what the device actually does.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is wizlo",
     "whitereach goblin"
    ],
-   "answer": "Wizlo Bearingshiner is a goblin engineer and quest giver stationed at Whitereach Post in Thousand Needles. He recruits adventurers to retrieve specialized reagents and test volatile mechanical inventions."
+   "answer": "Wizlo Bearingshiner is a goblin tinkerer stranded at Whitereach Post in Thousand Needles after centaur attacked his caravan. He seeks help recovering a Hypercapacitor Gizmo from a caged panther."
   },
   {
    "q": "Where can I find Wizlo Bearingshiner?",
@@ -38,7 +38,7 @@
     "where is wizlo",
     "find wizlo"
    ],
-   "answer": "He is located atop the bluffs at Whitereach Post in northern Thousand Needles, a camp overlooking the sweeping canyon basin."
+   "answer": "He is located at Whitereach Post, a Horde camp along the road near Camp E'thok in Thousand Needles."
   },
   {
    "q": "What kind of experiments does he run?",
@@ -47,7 +47,7 @@
     "what does wizlo do",
     "wizlo gadgets"
    ],
-   "answer": "Wizlo focuses on unorthodox engineering projects, including calibrating devices like his Hypercapacitor Gizmo and brewing curious tonics infused with potent mystical waters."
+   "answer": "Wizlo is trying to recover his Hypercapacitor Gizmo. He admits that he still needs to figure out what it does; the device's exact function is unknown."
   },
   {
    "q": "Why is a goblin working with the Horde at Whitereach Post?",
@@ -56,7 +56,7 @@
     "is wizlo horde",
     "goblin at whitereach"
    ],
-   "answer": "Goblins frequently set up shop wherever commerce, adventure, and opportunity intersect. Whitereach Post offers Wizlo safety on high ground and a convenient staging point to employ passing mercenaries."
+   "answer": "Whitereach Post is an unintended stop for Wizlo. Centaur attacked his caravan nearby, and he is stranded while his clients await their shipments."
   },
   {
    "q": "Does Wizlo belong to the Steamwheedle Cartel?",
@@ -65,7 +65,7 @@
     "steamwheedle wizlo",
     "wizlo cartel"
    ],
-   "answer": "Like many independent goblin tinkerers in Kalimdor's frontier, Wizlo operates with neutral, commercial aims, focusing strictly on business, invention, and personal profit."
+   "answer": "No Steamwheedle affiliation is established for Wizlo. He is stationed with the Horde at Whitereach Post and is concerned with recovering his goods and delivering them to his clients."
   },
   {
    "q": "What is the Hypercapacitor Gizmo?",
@@ -74,13 +74,13 @@
     "wizlo device",
     "gizmo quest"
    ],
-   "answer": "The Hypercapacitor Gizmo is one of Wizlo's specialized mechanical devices designed to draw or regulate intense electrical and kinetic energy during his field experiments."
+   "answer": "The Hypercapacitor Gizmo is a valuable device carried by a caged panther beside Wizlo's wrecked caravan. Its exact purpose is unknown\u2014even Wizlo says he has yet to figure out what it does."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers will appreciate Wizlo's eccentric drive to push mechanical design past safe tolerances, especially through volatile devices like the Hypercapacitor Gizmo."
+   "text": "Engineers may sympathize with Wizlo's desire to recover the mysterious Hypercapacitor Gizmo and discover what it does."
   },
   {
    "target": "faction:Horde",
@@ -98,10 +98,7 @@
   "subzone:whitereach-post",
   "zone:thousandneedles",
   "quest:5151",
-  "quest:9433",
-  "quest:9434",
-  "topic:goblin",
-  "subzone:moonwell-ashenvale"
+  "topic:goblin"
  ],
  "attribution": [
   "Wizlo Bearingshiner"

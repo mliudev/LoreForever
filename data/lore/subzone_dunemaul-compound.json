@@ -20,10 +20,9 @@
    "q": "Who rules the Dunemaul Compound?",
    "aliases": [
     "dunemaul leader",
-    "who is sandscraper",
     "dunemaul boss"
    ],
-   "answer": "The compound belongs to the Dunemaul clan, a reclusive band of desert ogres who answer to no outside power. Their leaders hold the central cave at the heart of the settlement, directing the clan's defenses across the sands."
+   "answer": "Gor'marok the Ravager leads the Dunemaul ogres occupying the compound. Andi Lynn in Gadgetzan fears the strength of this newly arrived band."
   },
   {
    "q": "What kinds of ogres live here?",
@@ -36,11 +35,9 @@
   {
    "q": "Why is the Horde interested in this compound?",
    "aliases": [
-    "horde dunemaul",
-    "why recruit ogres",
-    "dunemaul recruitment"
+    "horde dunemaul"
    ],
-   "answer": "The Horde has no real stake in the compound. Unlike most ogres, the Dunemaul keep to themselves around their precious desert water, answer to no outside power, and treat any visitor as an intruder."
+   "answer": "The Dunemaul are an independent band of ogres led by Gor'marok the Ravager. Andi Lynn in Gadgetzan seeks help against them, fearing that their growing strength will threaten the region."
   },
   {
    "q": "Who is Omgorn the Lost?",
@@ -66,12 +63,10 @@
   "dunemaul ogres",
   "ogre mound",
   "omgorn",
-  "sandscraper",
   "tanaris"
  ],
  "related": [
   "zone:tanaris",
-  "subzone:dunemaul-recruitment-camp",
   "subzone:southmoon-ruins",
   "topic:horde"
  ],

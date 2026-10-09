@@ -70,7 +70,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Flame Crest is your sole bastion of safety in the southern Shadowforge wastes, offering flight routes and a staging area against the Blackrock clan."
+   "text": "Flame Crest offers Horde travelers a wind rider connection and a sheltered neutral camp in the northern Burning Steppes."
   },
   {
    "target": "race:Orc",
@@ -78,7 +78,6 @@
   }
  ],
  "keywords": [
-  "ariok",
   "blackrock clan",
   "burning steppes",
   "eitrigg",

@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Home Away from Khaz Modan",
-   "body": "Following the devastation of the Second War, King Magni Bronzebeard sent hundreds of dwarven artisans, stonemasons, and engineers south to assist their human allies in rebuilding Stormwind. Rather than dispersing throughout the capital, they established their own enclave in the northern quarter. Today, the district retains the unmistakable character of Ironforge, dominated by heavy stone masonry, sprawling smelting operations, and bustling craft shops. Between the heat of Potts' Plates and the tavern chatter of The Golden Keg, the enclave provides a familiar haven for travelers from Khaz Modan. It also houses the Stormwind portal to the Deeprun Tram, tethering the human capital directly to Ironforge.",
+   "body": "After the Second War, King Magni Bronzebeard sent hundreds of dwarven artisans, stonemasons, and engineers south to assist their human allies in rebuilding Stormwind. Rather than dispersing throughout the capital, they established their own enclave in the northern quarter. Today, the district retains the unmistakable character of Ironforge, dominated by heavy stone masonry, sprawling smelting operations, and bustling craft shops. Shops such as Potts' Plates provide a familiar haven for craftspeople from Khaz Modan. It also houses the Stormwind portal to the Deeprun Tram, tethering the human capital directly to Ironforge.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves far from Khaz Modan, this district offers a familiar comfort: the roar of working blast furnaces, stout ale at The Golden Keg, and quick passage back to Ironforge."
+   "text": "For dwarves far from Khaz Modan, this district offers a familiar comfort: the roar of working blast furnaces, and quick passage back to Ironforge."
   },
   {
    "target": "profession:Blacksmithing",
@@ -70,8 +70,7 @@
   "ironforge",
   "magni bronzebeard",
   "potts plates",
-  "stormwind",
-  "the golden keg"
+  "stormwind"
  ],
  "related": [
   "subzone:deeprun-tram",

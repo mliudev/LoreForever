@@ -233,6 +233,9 @@ end
 function Context.Describe(ctx)
   local where = ctx.zone or "?"
   if ctx.subzone and ctx.subzone ~= ctx.zone then where = where .. " - " .. ctx.subzone end
-  return string.format("%s   |cffaaaaaaLevel %s %s %s|r", where, tostring(ctx.level or "?"),
-    ctx.raceName or "", ctx.className or "")
+  -- The same translated string the other level lines use, so every language pack already has it.
+  local level = tonumber(ctx.level)
+  local who = level and string.format(ns.L["Level %d %s %s"], level, ctx.raceName or "", ctx.className or "")
+    or ((ctx.raceName or "") .. " " .. (ctx.className or ""))
+  return string.format("%s   |cffaaaaaa%s|r", where, who)
 end

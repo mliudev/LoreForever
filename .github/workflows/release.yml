@@ -24,19 +24,57 @@ on:
 
 permissions:
   contents: write
+  actions: read
+
+concurrency:
+  group: release-${{ github.event.inputs.tag || github.ref_name }}
+  cancel-in-progress: false
 
 env:
+  GH_REPO: ${{ github.repository }}
   TAG: ${{ github.event.inputs.tag || github.ref_name }}
 
 jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.metadata.outputs.version }}
+      source_commit: ${{ steps.metadata.outputs.source_commit }}
+      published: ${{ steps.metadata.outputs.published }}
+      zip_sha256: ${{ steps.metadata.outputs.zip_sha256 }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TAG }}
+          sparse-checkout: addon/LoreForever
+      # The orchestration helper comes from this workflow revision, including dispatches for an older tag.
+      - uses: actions/checkout@v4
+        with:
+          path: ci
+          sparse-checkout: |
+            scripts
+            release
+      - id: metadata
+        name: Validate source and prepare an unpublished draft
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 ci/scripts/release_staging.py --commit "$(git rev-parse HEAD)" prepare
+
   zip:
+    needs: prepare
     runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.version.outputs.version }}
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ env.TAG }}
+          ref: ${{ needs.prepare.outputs.source_commit }}
+      - uses: actions/checkout@v4
+        with:
+          path: ci
+          sparse-checkout: |
+            scripts
+            release
       - id: version
         name: Check the tag matches the .toc
         run: |
@@ -53,7 +91,7 @@ jobs:
         run: |
           bash scripts/build-release.sh
           mv "dist/LoreForever-${{ steps.version.outputs.version }}.zip" dist/LoreForever.zip
-          want=$(git for-each-ref "refs/tags/$TAG" --format='%(contents)' | sed -n 's/^zip-sha256: *//p' | head -1)
+          want='${{ needs.prepare.outputs.zip_sha256 }}'
           got=$(sha256sum dist/LoreForever.zip | cut -d' ' -f1)
           if [ -n "$want" ] && [ "$want" != "$got" ]; then
             echo "::error::The zip came out as sha256 $got, not $want, the zip scripts/release.sh built and QA tested."
@@ -83,30 +121,44 @@ jobs:
                   for row in pack['shards']:
                       listing.write(row['archive'] + '\tTransport: ' + source + '\t' + manifest['releaseVersion'] + '\n')
           PY
+      - name: Freeze source-bound asset digests and content fingerprints
+        run: |
+          python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" linux-manifest \
+            --core dist/LoreForever.zip --extras dist/extra --output dist/linux-proof.json
       - name: Keep only installer build and smoke-test inputs on Windows
         run: |
           python3 scripts/installer_inputs.py --source dist/extra \
             --installer dist/installer-inputs --release dist/release-extra
-      # compression-level 0: the zips are mostly mp3s already, so deflating them again (the default, level 6) only
-      # costs time, on upload and download alike. The files inside come out byte for byte the same either way.
+          python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" bundle \
+            --manifest dist/linux-proof.json --root dist/LoreForever.zip --root dist/installer-inputs --root dist/release-extra --output dist/windows
+      # v4 makes the small current-run artifact downloadable before this job finishes staging the large extras.
       - uses: actions/upload-artifact@v4
         with:
-          name: zip
-          path: dist/LoreForever.zip
+          name: installer-inputs-${{ github.run_attempt }}
+          path: dist/windows/
           compression-level: 0
+      - name: Stage immutable assets directly from their Linux producer
+        if: needs.prepare.outputs.published != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" stage \
+            --manifest dist/linux-proof.json --root dist/installer-inputs --root dist/release-extra --root dist/LoreForever.zip
+      # Preserve the existing published-tag rebuild contract; only this exceptional path transfers full artifacts.
       - uses: actions/upload-artifact@v4
+        if: needs.prepare.outputs.published == 'true'
         with:
-          name: installer-inputs
-          path: dist/installer-inputs/
-          compression-level: 0
-      - uses: actions/upload-artifact@v4
-        with:
-          name: release-extra
+          name: linux-payload-${{ github.run_attempt }}
           path: dist/release-extra/
+          compression-level: 0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux-proof-${{ github.run_attempt }}
+          path: dist/linux-proof.json
           compression-level: 0
 
   installer:
-    needs: zip
+    needs: prepare
     runs-on: windows-latest
     # Signing logs in to Azure with OIDC. The federated credential trusts this environment, so only jobs in it can
     # sign. GitHub sends the subject with immutable IDs:
@@ -114,22 +166,21 @@ jobs:
     environment: release
     permissions:
       id-token: write
-      contents: read
+      contents: write
+      actions: read
     steps:
       # Only what this job reads (release/installer, and release/logo.ico, which comes with it): the rest of the tree
       # is ~1 GB of recordings, and this job takes those from the zip.
       - uses: actions/checkout@v4
         with:
-          ref: ${{ env.TAG }}
+          ref: ${{ needs.prepare.outputs.source_commit }}
           sparse-checkout: release/installer
-      - uses: actions/download-artifact@v4
+      - uses: actions/checkout@v4
         with:
-          name: zip
-          path: dist
-      - uses: actions/download-artifact@v4
-        with:
-          name: installer-inputs
-          path: dist/extra
+          path: ci
+          sparse-checkout: |
+            scripts
+            release
       - name: Install Inno Setup
         shell: pwsh
         run: |
@@ -196,6 +247,11 @@ jobs:
           file-digest: SHA256
           timestamp-rfc3161: http://timestamp.acs.microsoft.com
           timestamp-digest: SHA256
+      - name: Receive only verified installer inputs while Linux stages the extras
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" receive --output dist/inputs
       # Windows' own tar unzips the ~5,000 files in seconds; Expand-Archive took 5 times as long. By full path: Git's GNU
       # tar comes first on the runner's PATH, and it can't read zips.
       - id: build
@@ -206,10 +262,10 @@ jobs:
           WITH_COMPANION: ${{ steps.companion_build.outcome == 'success' && (vars.SIGNING_PROFILE == '' || steps.companion_sign.outcome == 'success') }}
         run: |
           New-Item -ItemType Directory dist\stage | Out-Null
-          & "$env:SystemRoot\System32\tar.exe" -xf dist\LoreForever.zip -C dist\stage
+          & "$env:SystemRoot\System32\tar.exe" -xf dist\inputs\LoreForever.zip -C dist\stage
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
-          $downloads = Get-Content dist\extra\transport-downloads.json -Raw | ConvertFrom-Json
-          $downloadArgs = @("/DDownloadIss=$PWD\dist\extra\installer-downloads.iss", "/DDownloadUninstallIss=$PWD\dist\extra\installer-downloads-uninstall.iss")
+          $downloads = Get-Content dist\inputs\extra\transport-downloads.json -Raw | ConvertFrom-Json
+          $downloadArgs = @("/DDownloadIss=$PWD\dist\inputs\extra\installer-downloads.iss", "/DDownloadUninstallIss=$PWD\dist\inputs\extra\installer-downloads-uninstall.iss")
           $companion = @()
           $exe = "$env:RUNNER_TEMP\companion\LoreForeverCompanion\LoreForeverCompanion.exe"
           if ($env:WITH_COMPANION -eq 'true' -and (Test-Path $exe)) {
@@ -220,7 +276,7 @@ jobs:
             "### Setup.exe ships without the companion app: it didn't check out, build or sign" >> $env:GITHUB_STEP_SUMMARY
           }
           "with_companion=$([int]($companion.Count -gt 0))" >> $env:GITHUB_OUTPUT
-          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /Q "/DAppVersion=${{ needs.zip.outputs.version }}" `
+          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /Q "/DAppVersion=${{ needs.prepare.outputs.version }}" `
             "/DSourceDir=$PWD\dist\stage" "/DOutputDir=$PWD\dist" @downloadArgs @companion release\installer\LoreForever.iss
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
       - name: Sign the installer
@@ -234,23 +290,31 @@ jobs:
           file-digest: SHA256
           timestamp-rfc3161: http://timestamp.acs.microsoft.com
           timestamp-digest: SHA256
-      - name: Check the signature
-        if: vars.SIGNING_PROFILE != ''
+      - name: Record the required installer signature evidence
         shell: pwsh
         run: |
-          $sig = Get-AuthenticodeSignature dist\LoreForever-Setup.exe
-          "status: $($sig.Status); signer: $($sig.SignerCertificate.Subject)"
-          if ($sig.Status -ne 'Valid') { exit 1 }
+          $required = '${{ vars.SIGNING_PROFILE }}' -ne ''
+          $signature = [ordered]@{ required = $required; status = 'not_required'; thumbprint = '' }
+          if ($required) {
+            $sig = Get-AuthenticodeSignature dist\LoreForever-Setup.exe
+            "status: $($sig.Status); signer: $($sig.SignerCertificate.Subject)"
+            if ($sig.Status -ne 'Valid') { exit 1 }
+            $signature.status = 'Valid'
+            $signature.thumbprint = $sig.SignerCertificate.Thumbprint
+          }
+          $signature | ConvertTo-Json | Set-Content -Encoding utf8 dist\signature.json
       - name: Three independent first-install checks against this run's downloads
         shell: pwsh
         run: |
-          $downloads = Get-Content dist\extra\transport-downloads.json -Raw | ConvertFrom-Json
-          $server = Start-Process python -WindowStyle Hidden -PassThru -ArgumentList '-m','http.server','47864','--bind','127.0.0.1','--directory',"$PWD\dist\extra"
+          $downloads = Get-Content dist\inputs\extra\transport-downloads.json -Raw | ConvertFrom-Json
+          $server = Start-Process python -WindowStyle Hidden -PassThru -ArgumentList '-m','http.server','47864','--bind','127.0.0.1','--directory',"$PWD\dist\inputs\extra"
+          $smoke = [ordered]@{}
           try {
             Start-Sleep 1
             foreach ($selection in 'base','female','quests') {
               if ($selection -ne 'base' -and @($downloads.selections.$selection).Count -eq 0) {
                 "Unavailable optional selection: $selection; working base/text fallback remains" >> $env:GITHUB_STEP_SUMMARY
+                $smoke[$selection] = 'unavailable'
                 continue
               }
               $wow = "$env:RUNNER_TEMP\wow-$selection"
@@ -258,10 +322,12 @@ jobs:
               $voices = if ($selection -eq 'base') { 'none' } else { $selection }
               $installed = Start-Process dist\LoreForever-Setup.exe -WindowStyle Hidden -PassThru -Wait -ArgumentList '/QA','/VERYSILENT','/SUPPRESSMSGBOXES','/COMPONENTS=addon',"/DIR=$wow","/VOICES=$voices",'/VOICEURL=http://127.0.0.1:47864/'
               if ($installed.ExitCode -ne 0) { throw "Installer failed for $selection" }
-              python release\installer\qa\verify-install.py dist\LoreForever.zip $wow dist\extra\transport-downloads.json $selection
+              python release\installer\qa\verify-install.py dist\inputs\LoreForever.zip $wow dist\inputs\extra\transport-downloads.json $selection
               if ($LASTEXITCODE) { throw "Installed bytes/downloads differ for $selection" }
+              $smoke[$selection] = 'passed'
             }
           } finally { Stop-Process -Id $server.Id -ErrorAction SilentlyContinue }
+          $smoke | ConvertTo-Json | Set-Content -Encoding utf8 dist\smoke.json
       # A plain silent install leaves the companion out (it's opt-in); asking for it installs it, signed. Its narration
       # voice (a 190 MB download from upstream) is left out here; the private repo's Companion workflow tests that.
       - name: Smoke test (the companion app)
@@ -281,46 +347,71 @@ jobs:
             if ($sig.Status -ne 'Valid') { exit 1 }
           }
           "installed the companion: $((Get-ChildItem (Split-Path $app) -Recurse -File).Count) files"
+      - name: Freeze the signed installer and successful install evidence
+        shell: pwsh
+        run: |
+          python ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" installer-manifest `
+            --inputs dist/inputs --setup dist/LoreForever-Setup.exe --signature dist/signature.json `
+            --smoke dist/smoke.json --output dist/installer-proof.json
+      - name: Stage the verified installer directly from Windows
+        if: needs.prepare.outputs.published != 'true'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" stage --manifest dist/installer-proof.json --root dist
+      - uses: actions/upload-artifact@v4
+        if: needs.prepare.outputs.published == 'true'
+        with:
+          name: installer-payload-${{ github.run_attempt }}
+          path: dist/LoreForever-Setup.exe
+          compression-level: 0
       - uses: actions/upload-artifact@v4
         with:
-          name: installer
-          path: dist/LoreForever-Setup.exe
+          name: installer-proof-${{ github.run_attempt }}
+          path: dist/installer-proof.json
           compression-level: 0
 
   release:
-    needs: [zip, installer]
+    needs: [prepare, zip, installer]
     runs-on: ubuntu-latest
     steps:
-      # CHANGELOG.md (top-level files always come) and scripts/changelog.py
       - uses: actions/checkout@v4
         with:
-          ref: ${{ env.TAG }}
+          ref: ${{ needs.prepare.outputs.source_commit }}
           sparse-checkout: scripts
+      - uses: actions/checkout@v4
+        with:
+          path: ci
+          sparse-checkout: |
+            scripts
+            release
+      # Keep proof directories disjoint so failed-job retries can reuse their successful earlier producer.
       - uses: actions/download-artifact@v4
         with:
-          path: dist
-          merge-multiple: true
-      - name: Publish
+          pattern: '*-proof-*'
+          path: dist/proofs
+      - name: Receive payloads only for a previously published tag rebuild
+        if: needs.prepare.outputs.published == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-          VERSION: ${{ needs.zip.outputs.version }}
         run: |
-          # Tags from before CHANGELOG.md existed fall back to GitHub's generated notes.
+          python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" legacy-receive \
+            --proofs dist/proofs --output dist/payload
+          python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" receive --output dist/inputs
+      - name: Verify the complete staged set and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ needs.prepare.outputs.version }}
+          SIGNING_REQUIRED: ${{ vars.SIGNING_PROFILE != '' }}
+        run: |
+          notes=(); signed=(); legacy=()
           if [ -f CHANGELOG.md ] && python3 scripts/changelog.py notes "$VERSION" > notes.md; then
-            notes=(--notes-file "$PWD/notes.md")
-          else
-            notes=(--generate-notes)
+            notes=(--notes "$PWD/notes.md")
           fi
-          cd dist
-          extra=(); while IFS=$'\t' read -r file _; do extra+=("$file"); done < manifest.tsv   # both disjoint extras artifacts merged above
-          sha256sum LoreForever.zip LoreForever-Setup.exe transport-downloads.json "${extra[@]}" | tee SHA256SUMS.txt
-          if gh release view "$TAG" >/dev/null 2>&1; then
-            gh release upload "$TAG" LoreForever.zip LoreForever-Setup.exe "${extra[@]}" transport-downloads.json SHA256SUMS.txt --clobber
-          else
-            gh release create "$TAG" LoreForever.zip LoreForever-Setup.exe "${extra[@]}" transport-downloads.json SHA256SUMS.txt \
-              --title "Lore Forever $VERSION" "${notes[@]}" --latest
-          fi
+          if [ "$SIGNING_REQUIRED" = true ]; then signed=(--signed); fi
+          if [ '${{ needs.prepare.outputs.published }}' = true ]; then legacy=(--legacy --root dist); fi
+          python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" finalize \
+            --proofs dist/proofs --output dist/metadata "${notes[@]}" "${signed[@]}" "${legacy[@]}"
 
   # CurseForge is the main download channel. Needs the repo secret CF_API_TOKEN (CurseForge > Account > API tokens);
   # without it this job fails. The project ID and game version come from the .toc (## X-Curse-Project-ID, and
@@ -332,6 +423,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      GH_TOKEN: ${{ github.token }}
       VERSION: ${{ needs.zip.outputs.version }}
     steps:
       # CHANGELOG.md, scripts/changelog.py and the core's .toc
@@ -349,10 +441,12 @@ jobs:
           sparse-checkout: |
             scripts
             release
-      - uses: actions/download-artifact@v4
-        with:
-          name: zip
-          path: dist
+      - name: Fetch only the already verified core download
+        run: |
+          mkdir -p dist
+          gh release download "$TAG" -R "$GH_REPO" -p LoreForever.zip -p SHA256SUMS.txt -D dist
+          cd dist
+          grep '  LoreForever.zip$' SHA256SUMS.txt | sha256sum -c -
       - name: Upload to CurseForge
         run: |
           if [ -z "$CF_API_TOKEN" ]; then

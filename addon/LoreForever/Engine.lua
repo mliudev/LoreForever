@@ -7,6 +7,11 @@ ns = ns or {}
 local Engine = {}
 Engine.__index = Engine
 
+-- Contributor answers keep labels for browsing; those labels are not questions to ask.
+function Engine.HasQuestion(f)
+  return f and not f.answerOnly and type(f.q) == "string" and f.q:find("%S") ~= nil
+end
+
 local STOP = {}
 for w in ([[a an the of to in on at for from by with about and or but is are was were be been being am do does did
   doing has have had having i me my mine we our you your he him his she her it its they them their this that these
@@ -1293,7 +1298,7 @@ function Engine:Complete(text, ctx, limit)
     local f = self.db.entries[r.key].faq[r.idx]
     local q = f.q
     -- Never suggest a spoiler answer, unless it's about a quest you've finished.
-    if not seenQ[q] and (not f.sp or self:Finished(r.key, ctx and ctx.done)) then
+    if Engine.HasQuestion(f) and not seenQ[q] and (not f.sp or self:Finished(r.key, ctx and ctx.done)) then
       seenQ[q] = true
       out[#out + 1] = { kind = "faq", key = r.key, idx = r.idx, q = q, name = self.db.entries[r.key].n, score = r.score }
       if #out >= limit then break end
@@ -1455,7 +1460,7 @@ function Engine:FollowUps(key, idx, limit, done)
   local function push(k, i)
     local q = self.db.entries[k] and self.db.entries[k].faq and self.db.entries[k].faq[i]
     local id = k .. ":" .. i
-    if q and (not q.sp or self:Finished(k, done)) and not q.gp and not used[id] and not self.asked[id]
+    if Engine.HasQuestion(q) and (not q.sp or self:Finished(k, done)) and not q.gp and not used[id] and not self.asked[id]
       and #out < limit then
       used[id] = true
       out[#out + 1] = { key = k, idx = i, q = q.q, name = self.db.entries[k].n }
@@ -1510,7 +1515,7 @@ end
 function Engine.RankedFaq(e, race, open)
   local out, faq = {}, e and e.faq or {}
   for i, f in ipairs(faq) do
-    if (open or not f.sp) and not f.gp and forRace(f, race) then out[#out + 1] = i end
+    if Engine.HasQuestion(f) and (open or not f.sp) and not f.gp and forRace(f, race) then out[#out + 1] = i end
   end
   table.sort(out, function(a, b2)
     local ra, rb = INTENT_RANK[faq[a].it] or 9, INTENT_RANK[faq[b2].it] or 9
