@@ -16,6 +16,19 @@
       "live": false
     },
     {
+      "key": "ukua-narration",
+      "name": "Lore Forever - Ukrainian Narration",
+      "about": "Pekelnyj / UALL's Ukrainian narration: zone stories and answers",
+      "from": "LoreForever_Voice_Default_ukUA.zip",
+      "folders": ["LoreForever_Voice_Default_ukUA"],
+      "file": "Lore Forever Ukrainian narration {v}",
+      "core": "optional",
+      "requires": ["ukrainian"],
+      "id": 1736067,
+      "slug": "lore-forever-ukrainian-narration",
+      "live": false
+    },
+    {
       "key": "russian",
       "name": "Lore Forever - Russian",
       "about": "Russian translations",
