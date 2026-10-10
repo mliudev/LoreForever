@@ -108,7 +108,15 @@ def prepare(args):
     if release is None:
         run('release', 'create', args.tag, '-R', args.repo, '--verify-tag', '--draft',
             '--title', 'Lore Forever ' + version, '--notes', 'Release preparation in progress.')
-        release = get_release(args.repo, args.tag)
+        # The release list can lag a draft created a moment ago (0.13.1's first run read nothing right after creating
+        # it), so look again for up to half a minute.
+        for wait in (0, 2, 4, 8, 16):
+            time.sleep(wait)
+            release = get_release(args.repo, args.tag)
+            if release is not None:
+                break
+        else:
+            raise Failure('Created the draft release, but GitHub does not list it yet; rerun the workflow')
     published = not release['draft']
     if release.get('prerelease'):
         raise Failure('Version tag points to a prerelease')
