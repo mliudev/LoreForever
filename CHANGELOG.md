@@ -6,6 +6,12 @@ One `- ` bullet per change; wrap long bullets with an indented continuation line
 
 ## Unreleased
 
+## 0.13.1 (2026-10-09)
+
+- Sam keeps your profile up to date again: automatic profile sync works with 0.13.0's add-on.
+- **Blizzard's own names in your language:** German, French, Spanish and Portuguese players now read the
+  game's own names for places and people (Sturmwind, Hurlevent, Forgefer...) instead of English ones.
+
 ## 0.13.0 (2026-10-09)
 
 - **More complete stories:** 68 more lore entries play their whole story in the male narrator's voice (161 in all).
