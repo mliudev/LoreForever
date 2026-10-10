@@ -30,7 +30,9 @@ local function join(sep, ...)
     local p = select(i, ...)
     if p and p ~= "" then out[#out + 1] = p end
   end
-  return table.concat(out, ns.Lang.Dotted(sep))
+  -- ns.Lang is absent when this file runs on its own outside the game (profile.py); the dot stays as written
+  -- there, and the site reads either.
+  return table.concat(out, ns.Lang and ns.Lang.Dotted(sep) or sep)
 end
 
 local function place(e)
