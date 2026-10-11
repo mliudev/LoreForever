@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "The Tomb of the Barbarian King",
-   "body": "Perched southeast of Hammertoe's Digsite along an unmarked earthen path rising behind Sigrun Ironhew, the Badlands Crypt is easily missed by passersby. Down in its dark stone chambers sits an armored skeleton poised atop a throne. Resting beside the remains is the Sword of the Barbarian King, surrounded by scattered bones, urns, and forgotten chests. While miners and adventurers frequent the surrounding gullies in search of dwarven ruins and riches, the true origin and history of this seated sovereign remain a mystery lost to the arid wastes.",
+   "body": "Perched southeast of Hammertoe's Digsite along an unmarked earthen path rising up the hillside, the Badlands Crypt is easily missed by passersby. Down in its dark stone chambers sits an armored skeleton poised atop a throne. Resting beside the remains is the Sword of the Barbarian King, surrounded by scattered bones, urns, and forgotten chests. While miners and adventurers frequent the surrounding gullies in search of dwarven ruins and riches, the true origin and history of this seated sovereign remain a mystery lost to the arid wastes.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "how to find badlands crypt",
     "crypt entrance badlands"
    ],
-   "answer": "The entrance is situated southeast of Hammertoe's Digsite. To reach it, follow an unmarked path winding up the crest of the hill just behind the dwarf Sigrun Ironhew."
+   "answer": "The entrance is situated southeast of Hammertoe's Digsite. To reach it, follow an unmarked path winding up the crest of the hill above the digsite."
   },
   {
    "q": "Who is the skeleton sitting on the throne inside?",
@@ -67,7 +67,6 @@
   "barbarian king",
   "crypt",
   "hammertoe's digsite",
-  "sigrun ironhew",
   "sword",
   "throne"
  ],

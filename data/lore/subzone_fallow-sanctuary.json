@@ -15,8 +15,8 @@
    "spoiler": 0
   },
   {
-   "title": "Vanished Leaders and Cursed Experiments",
-   "body": "The settlement was once guided by figures like Ongeku and Noboru the Cudgel, though the village's leadership crumbled following their absence and demise. Adding to the tribe's ongoing degradation, dark magical tampering in the region\u2014notably the arcane experiments conducted by the wandering warlock Cersei Dusksinger\u2014further twisted members of the tribe into wretched, cursed horrors.",
+   "title": "Vanished Leaders",
+   "body": "The settlement was once guided by figures like Ongeku and Noboru the Cudgel, though the village's leadership crumbled following their absence and demise.",
    "spoiler": 0
   }
  ],
@@ -47,25 +47,15 @@
     "ongeku"
    ],
    "answer": "The tribe previously answered to prominent figures such as Ongeku and Noboru the Cudgel, though their leadership fell apart due to their disappearance and deaths."
-  },
-  {
-   "q": "What caused the appearance of the Cursed Lost Ones?",
-   "aliases": [
-    "cursed lost ones",
-    "cersei dusksinger fallow sanctuary",
-    "why are they cursed"
-   ],
-   "answer": "They were the tragic result of arcane meddling and strange experiments conducted by the warlock Cersei Dusksinger within the marsh."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The twisted fate of the Lost Ones and Cersei Dusksinger's volatile magical experiments here demonstrate how fel and arcane energies warp living flesh and shatter frail minds."
+   "text": "The twisted fate of the Lost Ones demonstrates how dark energies warp living flesh and shatter frail minds."
   }
  ],
  "keywords": [
-  "cersei dusksinger",
   "fallow sanctuary",
   "lost ones",
   "noboru the cudgel",

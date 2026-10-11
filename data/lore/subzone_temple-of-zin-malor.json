@@ -15,8 +15,8 @@
    "spoiler": 0
   },
   {
-   "title": "The Stolen Crystal and Ancient Vaults",
-   "body": "The temple once housed the renowned Crystal of Zin-Malor, a potent artifact that was carried away long ago to Kel'Theril in Winterspring. Beneath the temple's sunlit flagstones lies a royal vault containing forgotten relics of the Highborne. Among these antiquities sits an ornate, empty chest of pandaren craftsmanship\u2014the final diplomatic gift sent by the pandaren before severing relations with the Highborne, offering the silent counsel that the elves did not truly require arcane power.",
+   "title": "The Stolen Crystal",
+   "body": "The temple once housed the renowned Crystal of Zin-Malor, a potent artifact that was carried away long ago to Kel'Theril in Winterspring.",
    "spoiler": 0
   }
  ],
@@ -53,14 +53,6 @@
     "zin malor crystal"
    ],
    "answer": "It is an ancient magical relic that originally resided within the temple. Long ago, it was stolen away by the residents of Kel'Theril, deep in the frozen lands of Winterspring."
-  },
-  {
-   "q": "What is hidden beneath the temple?",
-   "aliases": [
-    "vault of zin malor",
-    "underground zin malor"
-   ],
-   "answer": "Beneath the temple lies an underground royal vault holding ancient Highborne relics, including a historic gift left behind by the pandaren before they cut ties with the night elves."
   }
  ],
  "angles": [
@@ -79,7 +71,6 @@
   "crystal of zin-malor",
   "eldarath",
   "krellian",
-  "pandaren chest",
   "spitelash",
   "zin-malor"
  ],

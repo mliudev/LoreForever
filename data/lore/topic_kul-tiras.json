@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Nation Born of the Sea",
-   "body": "Centuries ago, human sailors striking out from Gilneas discovered a rugged, mountainous island cluster across the Great Sea rich in metal ores and timber. Settling the coastlines and subduing the native threats of the rugged interior, the colonists forged a thriving maritime society. Kul Tiras blossomed into an unmatched seafaring power, sustained by an industrious merchant marine, rich fishing grounds, and a naval armada without peer in human history.",
+   "body": "Kul Tiras blossomed into an unmatched seafaring power, sustained by an industrious merchant marine, rich fishing grounds, and a naval armada without peer in human history.",
    "spoiler": 0
   },
   {
@@ -21,7 +21,7 @@
   },
   {
    "title": "Shadows over the Proudmoores",
-   "body": "Kul Tiras has felt the bitter sting of distant wars across the sea. When Lady Jaina Proudmoore led refugees across the ocean to Kalimdor to build Theramore, her father, Grand Admiral Daelin Proudmoore, sailed to Kalimdor in search of her, then launched a campaign against the Horde. His crusade brought ruin, culminating in his death at Theramore. Now, Kul Tiras remains isolated and mourning, harboring immense grief and burning hostility toward the Horde and the daughter who failed to save her father.",
+   "body": "Kul Tiras has felt the bitter sting of distant wars across the sea. When Lady Jaina Proudmoore led refugees across the ocean to Kalimdor to build Theramore, her father, Grand Admiral Daelin Proudmoore, sailed to Kalimdor in search of her, then launched a campaign against the Horde. His crusade brought ruin, culminating in his death at Theramore.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "is kul tiras alliance",
     "kul tiras alliance member"
    ],
-   "answer": "Kul Tiras was one of the core founding nations of the original Alliance of Lordaeron. However, after the Third War and the catastrophic demise of Grand Admiral Daelin Proudmoore in Kalimdor, the island kingdom largely withdrew from continental affairs and maintains a posture of stern isolation."
+   "answer": "Kul Tiras was one of the core founding nations of the original Alliance of Lordaeron. However, since the old Alliance splintered, the island kingdom has largely withdrawn from continental affairs and maintains a posture of stern isolation."
   },
   {
    "q": "Who rules Kul Tiras?",
@@ -50,7 +50,7 @@
     "who leads kul tiras",
     "king of kul tiras"
    ],
-   "answer": "Kul Tiras is governed by the Proudmoore family through the title of Lord Admiral. Grand Admiral Daelin Proudmoore led the nation for decades until his fateful campaign in Kalimdor, leaving the island nation in deep turmoil and isolation under the remaining Admiralty."
+   "answer": "Grand Admiral Daelin Proudmoore led the nation for decades until his fateful campaign in Kalimdor ended with his death at Theramore."
   },
   {
    "q": "Why is Kul Tiras famous across Azeroth?",
@@ -66,7 +66,7 @@
     "jaina kul tiras",
     "is jaina from kul tiras"
    ],
-   "answer": "Lady Jaina Proudmoore is a daughter of Kul Tiras, being the child of Grand Admiral Daelin Proudmoore. Although born to the Admiralty, she studied in Dalaran and later established the independent port of Theramore Isle on Kalimdor, distancing her from her homeland's leadership."
+   "answer": "Lady Jaina Proudmoore is a daughter of Kul Tiras, being the child of Grand Admiral Daelin Proudmoore. Although born to her homeland's ruling family, she studied in Dalaran and later established the independent port of Theramore Isle on Kalimdor, distancing her from her homeland's leadership."
   },
   {
    "q": "What threats face Kul Tiras?",
@@ -88,22 +88,19 @@
   },
   {
    "target": "race:Human",
-   "text": "Originating from Gilnean seafaring pioneers, Kul Tirans developed a distinct, hardy island culture famed for shipbuilding, trade, and resilience against the open ocean."
+   "text": "Kul Tirans developed a distinct, hardy island culture famed for shipbuilding, trade, and resilience against the open ocean."
   },
   {
    "target": "profession:Mining",
-   "text": "When early sailors first settled the archipelago, it was the island's immense veins of heavy metal ores that catalyzed its rapid industrial growth and armored shipbuilding."
+   "text": "Kul Tiras's shipyards turn great quantities of metal into the armored warships of the mightiest navy in Azeroth."
   }
  ],
  "keywords": [
-  "admiralty",
   "alliance of lordaeron",
   "daelin proudmoore",
-  "drustvar",
   "great sea",
   "jaina proudmoore",
   "kul tiras",
-  "stormsong",
   "tiragarde"
  ],
  "related": [

@@ -19,6 +19,8 @@
       link("Bluesky", `https://bsky.app/intent/compose?text=${t}%20${u}`), " or ",
       link("Reddit", `https://www.reddit.com/submit?url=${u}&title=${t}`), "."];
   };
+  // A shared or copied link adds one to the day's count (functions/api/count/[what].js, LOR-151): only the number.
+  const counted = () => { try { navigator.sendBeacon("/api/count/share"); } catch (e) {} };
 
   document.addEventListener("click", async e => {
     const share = e.target.closest("[data-share]");
@@ -33,6 +35,7 @@
       }
       const url = location.origin + location.pathname, text = share.dataset.shareText;
       const done = await window.lfShare({ url, text });
+      if (done === "shared" || done === "copied") counted();
       say(share, done === "copied" ? postIt(url, text) : done === "failed" ? "Your link: " + url : "", true);
     }
     if (copy) {
@@ -41,6 +44,7 @@
       const url = location.origin + location.pathname + (view === "map" || view === "timeline" ? "#" + view : "");
       try {
         await navigator.clipboard.writeText(url);
+        counted();
         say(copy, "Link copied: " + url, true);
       } catch (err) {
         say(copy, "Your link: " + url, true);

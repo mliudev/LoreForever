@@ -26,7 +26,7 @@
  "sections": [
   {
    "title": "Sunken Sanctum of Elune",
-   "body": "Long before the Great Sundering shattered ancient Kalimdor, this complex was known as Lathar'Lazal, a splendid temple dedicated to Elune. Highborne masons raised gem-encrusted bridges while Queen Azshara commanded the surrounding waters, partitionining salt seas and mountain streams around a sacred moonwell. When the Sundering tore the world apart ten thousand years ago, the temple sank into the coastal depths of the Veiled Sea. For millenia, it sat undisturbed beneath the waves\u2014until foul whispers began seeping upward from the subterranean dark.",
+   "body": "Long before the Great Sundering shattered ancient Kalimdor, this complex was a splendid temple dedicated to Elune. Highborne masons raised gem-encrusted bridges while Queen Azshara commanded the surrounding waters, partitionining salt seas and mountain streams around a sacred moonwell. When the Sundering tore the world apart ten thousand years ago, the temple sank into the coastal depths of the Veiled Sea. For millenia, it sat undisturbed beneath the waves\u2014until foul whispers began seeping upward from the subterranean dark.",
    "spoiler": 0
   },
   {
@@ -48,7 +48,7 @@
     "who built bfd",
     "original temple"
    ],
-   "answer": "Originally named Lathar'Lazal, it was a magnificent night elven temple dedicated to the moon goddess Elune. It featured crystal-clear pools, gemmed bridges, and a blessed moonwell, all overseen by Queen Azshara before the Great Sundering broke the temple and cast it beneath the sea."
+   "answer": "Originally, it was a magnificent night elven temple dedicated to the moon goddess Elune. It featured crystal-clear pools, gemmed bridges, and a blessed moonwell, all overseen by Queen Azshara before the Great Sundering broke the temple and cast it beneath the sea."
   },
   {
    "q": "Why are the Twilight's Hammer cultists here?",
@@ -122,7 +122,6 @@
   "gelihast",
   "ghamoo-ra",
   "kelris",
-  "lathar'lazal",
   "sarevess",
   "zoram"
  ],

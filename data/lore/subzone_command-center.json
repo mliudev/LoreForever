@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Thin Line of Defense",
-   "body": "Situated within the weathered streets of Old Town, the Command Center serves as the primary garrison and martial training ground for the kingdom of Stormwind. Normally packed with regular infantry and ranking officers, the facility is uncharacteristically sparse. With much of the royal army committed to campaigns abroad, the barracks relies on a veteran cadre of instructors\u2014including Ander Germaine and martial artist Wu Shen\u2014to train fresh warriors, while figures like Wulf Hansreim drill marksmen to bolster the city's defenses.",
+   "body": "Situated within the weathered streets of Old Town, the Command Center serves as the primary garrison and martial training ground for the kingdom of Stormwind. Normally packed with regular infantry and ranking officers, the facility is uncharacteristically sparse. With much of the royal army committed to campaigns abroad, the barracks relies on a veteran cadre of instructors\u2014including Ander Germaine and martial artist Wu Shen\u2014to train fresh warriors to bolster the city's defenses.",
    "spoiler": 0
   },
   {
@@ -46,7 +46,7 @@
     "warrior trainer command center",
     "who runs the barracks"
    ],
-   "answer": "Ander Germaine coordinates and trains the city's warriors alongside instructors like Wu Shen and Ilsa Corbin, while Wulf Hansreim oversees hunter and marksman training."
+   "answer": "Ander Germaine coordinates and trains the city's warriors alongside instructors like Wu Shen and Ilsa Corbin."
   },
   {
    "q": "Where is the Command Center located?",
@@ -62,22 +62,16 @@
   {
    "target": "class:Warrior",
    "text": "The Command Center is the primary hub in Stormwind for warrior training, where veterans like Ander Germaine and Wu Shen hone recruits into disciplined frontline soldiers."
-  },
-  {
-   "target": "class:Hunter",
-   "text": "Marksmen visiting Stormwind report to the Command Center to learn techniques from veteran trainers such as Wulf Hansreim."
   }
  ],
  "keywords": [
   "ander germaine",
   "barracks",
   "command center",
-  "hunter trainer",
   "old town",
   "stormwind barracks",
   "warrior trainer",
-  "wu shen",
-  "wulf hansreim"
+  "wu shen"
  ],
  "related": [
   "subzone:old-town",

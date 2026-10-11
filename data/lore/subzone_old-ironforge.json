@@ -16,7 +16,7 @@
   },
   {
    "title": "A Sealed Chamber",
-   "body": "Currently, entrance to Old Ironforge from the throne room is securely barred. The Ironforge royal guard keeps strict watch over the thresholds leading down into the old vaults. Even Master Mathias Shaw of Stormwind's SI:7 notes the presence of heavy security around these lower levels, warning that any attempt to trespass or meddle in the secured undercity risks severe dwarven justice.",
+   "body": "Currently, entrance to Old Ironforge from the throne room is securely barred. The Ironforge royal guard keeps strict watch over the thresholds leading down into the old vaults.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "is old ironforge open",
     "old ironforge door locked"
    ],
-   "answer": "No. The main gates in the High Seat throne room are sealed shut, and the entryway is heavily guarded by the dwarven royal guard. The chambers below remain closed to regular citizens and adventurers."
+   "answer": "Not through the throne room. The gates in the High Seat are sealed shut and guarded by the dwarven royal guard, and the chambers below are closed to ordinary citizens. The depths are not entirely quiet, though: Dark Iron maps show tunnels converging on a point beneath Ironforge itself."
   },
   {
    "q": "Where is the entrance located?",
@@ -63,7 +63,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "Stormwind's spymaster Mathias Shaw strictly warns against attempting to sneak into Old Ironforge, noting the intense security and the grim cost of getting caught by King Magni's guards."
+   "text": "The sealed gates of the High Seat are watched closely by King Magni's guards, and anyone caught meddling with the old halls below would face stern dwarven justice."
   }
  ],
  "keywords": [
@@ -78,8 +78,7 @@
   "subzone:high-seat",
   "zone:ironforge",
   "subzone:aegrim-s-study",
-  "npc:magni-bronzebeard",
-  "npc:mathias-shaw"
+  "npc:magni-bronzebeard"
  ],
  "attribution": [
   "Old Ironforge"

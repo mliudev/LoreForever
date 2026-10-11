@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Grom'gol Base Camp"
  },
- "summary": "Grom'gol Base Camp is the Horde's primary fortified outpost in Stranglethorn Vale, situated along the northern coastline. Commanded by Commander Aggro'gosh, the settlement secures a critical foothold and supply chain in the southern Eastern Kingdoms. With direct zeppelin towers linking to Orgrimmar and the Undercity, it stands as an armed staging ground against local jungle troll tribes and hostile Alliance forces.",
+ "summary": "Grom'gol Base Camp is the Horde's primary fortified outpost in Stranglethorn Vale, situated along the western coast of northern Stranglethorn. Commanded by Commander Aggro'gosh, the settlement secures a critical foothold and supply chain in the southern Eastern Kingdoms. With direct zeppelin towers linking to Orgrimmar and the Undercity, it stands as an armed staging ground against local jungle troll tribes and hostile Alliance forces.",
  "sections": [
   {
    "title": "A Bastion in the Jungle",
@@ -37,7 +37,7 @@
     "gromgol flight paths",
     "how to get to gromgol"
    ],
-   "answer": "Grom'gol is home to major zeppelin towers that offer direct flights to both Orgrimmar in Kalimdor and the Undercity in Tirisfal Glades. It also maintains a bat and wind rider roost connected to the flight network linking Kargath, Stonard, and Booty Bay."
+   "answer": "Grom'gol is home to major zeppelin towers that offer direct flights to both Orgrimmar in Kalimdor and the Undercity in Tirisfal Glades. It also maintains a wind rider roost connected to the flight network linking Kargath, Stonard, and Booty Bay."
   },
   {
    "q": "Who leads Grom'gol Base Camp?",
@@ -64,7 +64,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Grom'gol is a heavily defended enemy bastion that gives the Horde an immediate foothold and rapid zeppelin access deep inside southern Lordaeron's neighboring territories."
+   "text": "Grom'gol is a heavily defended enemy bastion that gives the Horde an immediate foothold and rapid zeppelin access deep inside the southern Eastern Kingdoms."
   }
  ],
  "keywords": [

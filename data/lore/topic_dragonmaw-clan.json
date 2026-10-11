@@ -10,8 +10,8 @@
  "summary": "The Dragonmaw clan is an infamous orcish faction notorious for subduing and riding red dragons during the Second War. Guided by dark artifacts and foul magic, they imprisoned the Dragonqueen Alexstrasza beneath the cursed halls of Grim Batol until her liberation shattered their dominion. Today, their scattered remnants lurk in the wetlands and mountains of Khaz Modan, remaining hostile to both the Alliance and Thrall's New Horde.",
  "sections": [
   {
-   "title": "Beast Tamers of Draenor",
-   "body": "Before they ever laid eyes on dragons, the Dragonmaw were known in their native tongue as the Nelghor-shomash, or 'Cry of the Beasts.' Hailing from Draenor, they earned renown by taming the vicious, two-headed rylaks that prowled the rocky wastes, referring to their flying mounts as nelghor, or 'loyal beasts.' When starvation ravaged Draenor following the rise of the Old Horde, the clan was forced to butcher and consume the very creatures they had reared. Upon crossing the Dark Portal during the First War, they transferred that ancient talent for subjugation to the winged terrors of Azeroth.",
+   "title": "From Draenor to Azeroth",
+   "body": "The Dragonmaw clan hailed from Draenor and crossed the Dark Portal with the Old Horde. On Azeroth, they turned their talents to subjugating its winged terrors.",
    "spoiler": 0
   },
   {
@@ -21,7 +21,7 @@
   },
   {
    "title": "The Fall of the Dragon Riders",
-   "body": "The Dragonmaw reign ended when the Demon Soul was finally destroyed, freeing Alexstrasza and her flight from their psychic torment. Alexstrasza devoured Nekros Skullcrusher, and her vengeful flight laid waste to Grim Batol, breaking the clan's back. Routed and terrified, the surviving Dragonmaw scattered into the marshy bogs of the Wetlands and the jagged peaks around Grim Batol. While Zuluhed and a portion of the clan remained behind on shattered Outland, the remnants on Azeroth live as desperate, feral renegades, fiercely guarding their dwindling encampments against dwarven patrols and vengeful dragons alike.",
+   "body": "The Dragonmaw reign ended when the Demon Soul was finally destroyed, freeing Alexstrasza and her flight from their psychic torment. Alexstrasza devoured Nekros Skullcrusher, and her vengeful flight laid waste to Grim Batol, breaking the clan's back. Routed and terrified, the surviving Dragonmaw scattered into the marshy bogs of the Wetlands and the jagged peaks around Grim Batol. The remnants on Azeroth live as desperate, feral renegades, fiercely guarding their dwindling encampments against dwarven patrols and vengeful dragons alike.",
    "spoiler": 0
   }
  ],
@@ -30,10 +30,9 @@
    "q": "Why are they called the Dragonmaw if they are from Draenor?",
    "aliases": [
     "dragonmaw name origin",
-    "orcish name",
-    "nelghor-shomash"
+    "orcish name"
    ],
-   "answer": "Their original Orcish name was Nelghor-shomash, meaning 'Cry of the Beasts.' On Draenor, they called their flying rylaks nelghor, meaning 'loyal beasts.' When they arrived on Azeroth and encountered dragons, they applied the same word to them, and the name acquired its association with dragons. The Orcish name itself did not change."
+   "answer": "The name reflects what the clan became infamous for on Azeroth: enslaving and riding red dragons for the Old Horde during the Second War."
   },
   {
    "q": "How did the clan manage to control giant red dragons?",
@@ -69,7 +68,7 @@
     "chieftain of dragonmaw",
     "who leads dragonmaw"
    ],
-   "answer": "Zuluhed was the elder shaman and chieftain of the Dragonmaw clan who first received the visions of dragon riding from Deathwing. While he sent Nekros to oversee Grim Batol, Zuluhed himself ended up stranded on the remnants of Draenor."
+   "answer": "Zuluhed was the elder shaman and chieftain of the Dragonmaw clan who first received the visions of dragon riding from Deathwing."
   },
   {
    "q": "Where can Dragonmaw orcs be found right now?",
@@ -107,7 +106,6 @@
   "dragonmaw",
   "grim batol",
   "nekros skullcrusher",
-  "nelghor-shomash",
   "red dragonflight",
   "wetlands",
   "zuluhed the whacked"

@@ -122,7 +122,7 @@ test("a public profile: everything on the page, the account's links but never it
   for (const bit of ["Aelric's story", "The road so far", "<li>Teldrassil</li><li>Darnassus</li><li>Darkshore</li>",
     "Bosses defeated", "Edwin VanCleef", "Dungeons", "The Deadmines", "Notable kills", "Mother Fang", "Most fought",
     "Murloc Forager", "Best finds", '<span class="q3">Cruel Barb</span>', "Honored with Darnassus", "Herbalism",
-    "<cite>The Seven Dragons</cite>", "This could be your page", 'href="/download/installer"', 'href="/account#profile"']) {
+    "<cite>The Seven Dragons</cite>", "This could be your page", 'href="/download/installer?src=profile"','href="/account#profile"']) {
     assert.ok(html.includes(bit), bit);
   }
   assert.ok(!html.includes("Only you can see this page"), "no owner bar for visitors");

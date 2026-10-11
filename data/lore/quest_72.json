@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "Echoes of a Massacre",
-   "body": "Tracking Stalvan's movements leads out of the shadowed groves of Duskwood and into the heart of Stormwind. Beside the city canals, Caretaker Folsom looks after what little remains of the Flintridge household. According to Folsom, his father served the estate before him and had the grisly task of mopping up blood in the wake of a horrific household slaughter\u2014a tragedy with Stalvan at its center.",
+   "body": "Tracking Stalvan's movements leads out of the shadowed groves of Duskwood and into the heart of Stormwind. Beside the city canals, Caretaker Folsom looks after what little remains of the Flintridge household. According to Folsom, his father served the estate before him and had the grisly task of mopping up blood in the wake of a horrific household slaughter\u2014a tragedy somehow tied to the name Stalvan.",
    "spoiler": 0
   },
   {
@@ -52,7 +52,7 @@
     "what was the massacre",
     "who killed the flintridge family"
    ],
-   "answer": "The Flintridges were a wealthy household torn apart by a sudden and vicious massacre. As caretaker lore reveals, the bloodbath was so extensive that Folsom's father had to mop the estate clean, leaving Stalvan Mistmantle implicated as the perpetrator."
+   "answer": "The Flintridges were a wealthy household torn apart by a sudden and vicious massacre. As caretaker lore reveals, the bloodbath was so extensive that Folsom's father had to mop the estate clean. Who was responsible is not yet clear."
   },
   {
    "q": "Why are the family's possessions packed in crates along the canal?",
@@ -79,7 +79,7 @@
     "why are we in stormwind for a duskwood quest",
     "legend of stalvan city connection"
    ],
-   "answer": "The investigation began in Darkshire as a missing-person inquiry into Stalvan Mistmantle. Tracing his history led back to his time as a tutor for the Flintridge family in Elwynn and Stormwind before the fatal bloodbath forced him into the shadows."
+   "answer": "The investigation began in Darkshire as a missing-person inquiry into Stalvan Mistmantle. Tracing his history led back to his time as a tutor for the Flintridge family in Elwynn and Stormwind."
   },
   {
    "q": "What do you find inside the sealed crate?",
@@ -88,7 +88,7 @@
     "sealed crate clue",
     "flintridge crate contents"
    ],
-   "answer": "Rifling through the packed furniture and personal items yields documentary evidence and journal remnants that further unravel Stalvan's unhinged mindset and his obsession with the household."
+   "answer": "Rifling through the packed furniture and personal items yields musty heirlooms and, near the bottom, a torn page from Stalvan's journal that becomes the next clue."
   }
  ],
  "angles": [

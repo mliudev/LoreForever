@@ -212,12 +212,14 @@ function fieldLabel(id) {
   if (f === "kw") return "Keywords (separate with |)";
   if (f === "sec") return g === "t" ? `Section ${i}: title` : `Section ${i}`;
   if (f === "faq") return { q: `Question ${i}`, a: `Answer ${i}`, al: `Question ${i}: other ways to ask it (separate with |)` }[g];
+  if (f === "fx") return { q: "Common question", a: "Common question: answer", al: "Common question: other ways to ask it (separate with |)" }[g];
   if (f === "ang") {
     const [kind, who] = path.slice(1).join("/").split(":");
     return `For ${who || kind} ${kind === "faction" || kind === "race" || kind === "class" ? "players" : ""}`.trim();
   }
   return path.join(" ");
 }
+const AUTOSIZE = Boolean(globalThis.CSS?.supports?.("field-sizing", "content"));
 const entryOf = id => id.startsWith("ui/") ? "ui" : id.split("/", 1)[0];
 
 // The text a box starts with: your latest edit unless it was turned down or is already in the published text.
@@ -491,6 +493,10 @@ function stringRow(id, english, cat) {
   const rowLocale = state.locale;
   const box = el("textarea", { rows: String(Math.min(12, Math.max(1, Math.ceil(english.length / 70)))), lang: rowLocale.slice(0, 2), spellcheck: "true", "aria-label": fieldLabel(id) + " translation" });
   box.value = current(id).text;
+  // Grow with the text so every line shows in full without scrolling, on phones too (Sovex, 10/10).
+  const fit = () => { if (AUTOSIZE || !box.isConnected || !box.scrollHeight) return; box.style.height = "auto"; box.style.height = box.scrollHeight + 2 + "px"; };
+  box.addEventListener("input", fit);
+  globalThis.requestAnimationFrame?.(fit);
   const note = el("p", { class: "td-note", role: "status" });
   const setNote = () => { const [t, c] = statusText(id); note.textContent = t; note.className = "td-note " + c; };
   setNote();

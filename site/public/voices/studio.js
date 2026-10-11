@@ -362,11 +362,8 @@ function intro() {
 }
 
 // "Lend your voice" (LOR-230, /voices/lend): read a short script for about 3 minutes and we make a narrator voice from
-// it. Hidden until the first lent voice has been made end to end on the GPU (the page itself works at its address):
-// set LEND_VOICE to true to show this card to everyone; /voices/studio?lend=1 shows it now.
-const LEND_VOICE = false;
+// it. The GPU runner makes each donated voice (gpu-queue job 8, experiments/voices/local/donation.sh).
 function lendHtml() {
-  if (!LEND_VOICE && !new URLSearchParams(location.search).has("lend")) return "";
   return `<aside class="st-lend"><p><strong>No time to record every line?</strong> Lend us your voice instead: read a short
     script for about 3 minutes, on your phone if you like, and we'll make a narrator voice from it, credited to you.</p>
     <a class="btn-small" href="/voices/lend">Lend your voice</a></aside>`;

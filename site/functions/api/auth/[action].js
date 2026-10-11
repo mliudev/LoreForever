@@ -17,6 +17,7 @@ import { loadVoices, linkList } from "../../../lib/voices.js";
 import { clean } from "../../../lib/form.js";
 import { setupStudio } from "../../../lib/studio.js";
 import { featureOn } from "../../../lib/features.js";
+import { forgetTranslatorCredits } from "../../../lib/translations.js";
 
 const ok = (body = {}, cookie) => {
   const headers = new Headers(noStore);
@@ -66,6 +67,7 @@ async function profile({ env }, input, user) {
   const links = linkList(clean(input.links, 600)).join("\n");
   await env.DB.prepare("UPDATE users SET display_name = ?, links = ?, show_public = ? WHERE id = ?")
     .bind(clean(input.display_name, 60) || null, links || null, input.show_public ? 1 : 0, user.id).run();
+  await forgetTranslatorCredits(env);   // the credits show the new name, or none, right away
   return ok({ links });
 }
 

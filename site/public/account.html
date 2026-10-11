@@ -485,6 +485,7 @@
   $("pf-share-btn").addEventListener("click", async () => {
     const url = location.origin + $("pf-url").getAttribute("href");
     const done = await window.lfShare({ url, text: $("pf-name").textContent + "'s journey in WoW Forever" });
+    if (done === "shared" || done === "copied") try { navigator.sendBeacon("/api/count/share"); } catch (e) {}   // LOR-151
     pfStatus(done === "copied" ? "Link copied." : done === "failed" ? "Your link: " + url : "", true);
   });
   $("pf-delete").addEventListener("click", async () => {

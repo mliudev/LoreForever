@@ -634,7 +634,7 @@ dd { margin: 0; }
 .td-label { display: block; color: var(--gold-soft); font: 600 0.8rem var(--heading); letter-spacing: 0.02em; margin-bottom: 2px; }
 .td-en p { margin: 0; white-space: pre-wrap; }
 .td-tr textarea {
-  width: 100%; padding: 8px 10px; font: inherit; color: var(--text); resize: vertical;
+  width: 100%; padding: 8px 10px; font: inherit; color: var(--text); resize: vertical; field-sizing: content; min-height: 2.6em;
   background: #000000aa; border: 1px solid var(--panel-line); border-radius: 4px;
 }
 .td-tr textarea:focus { outline: 2px solid var(--gold-soft); outline-offset: 1px; }
@@ -828,6 +828,22 @@ dd { margin: 0; }
 .narrators .nr-go .btn-small { margin: 0; white-space: nowrap; }
 .narrators .nr-go small { font-size: 0.8rem; }
 @media (max-width: 640px) { .narrators { grid-template-columns: minmax(0, 1fr); } .narrators .nr-go { align-items: flex-start; } }
+
+/* "Made with the community" on the home page (index.html #community, filled from /api/credits): the players' voices
+   as chips, alphabetical, plus a line about the translators. */
+.community { margin: 0 0 16px; padding: 14px 18px; border-radius: 6px; background: var(--panel); border: 1px solid var(--panel-line); }
+.community h2 { font-family: var(--heading); color: var(--gold); font-size: 1.2rem; margin: 0 0 4px; }
+.community p { margin: 0; font-size: 0.95rem; }
+.cm-voices { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; padding: 0; list-style: none; }
+.cm-voices[hidden] { display: none; }
+.cm-voices a {
+  display: flex; flex-direction: column; min-width: 0; max-width: 100%; padding: 6px 12px; border: 1px solid #c9a24b;
+  border-radius: 5px; background: #00000066; color: var(--text); text-decoration: none; overflow-wrap: anywhere;
+}
+.cm-voices a:hover, .cm-voices a:focus-visible { border-color: var(--gold); background: #1b1408; }
+.cm-voices strong { color: var(--gold); font-size: 0.95rem; }
+.cm-voices span { color: var(--muted); font-size: 0.82rem; }
+.community .cm-more { color: var(--muted); font-size: 0.88rem; }
 
 /* Player profiles (/u/<handle>, lib/profiles.js; LOR-181): the character's head, stat tiles, story, the road so far
    and a card per list, then "Make your own". The owner's bar (public/js/profile.js) sits on top for them only. */

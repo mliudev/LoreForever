@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Welcoming Face in Razor Hill",
-   "body": "Razor Hill serves as the first real taste of the wider world for young orcs and darkspear trolls emerging from the Valley of Trials. Positioned right beside the local inn, Magga helps orient new arrivals to the outpost, introducing them to local amenities and the hospitality of Innkeeper Grosk. While she keeps a low profile among the outpost's busy grunts and tradespeople, she helps bind the small settlement together.",
+   "body": "Razor Hill serves as the first real taste of the wider world for young orcs and darkspear trolls emerging from the Valley of Trials. Positioned right beside the local inn, Magga greets new arrivals to the outpost. While she keeps a low profile among the outpost's busy grunts and tradespeople, she helps bind the small settlement together.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "magga and grosk",
     "magga innkeeper"
    ],
-   "answer": "Magga directs weary travelers to Innkeeper Grosk inside the Razor Hill inn so they can bind their hearthstones and rest after their journey from the Valley of Trials."
+   "answer": "No special tie between them is recorded. Magga keeps near the Razor Hill inn, where Innkeeper Grosk offers travelers food, drink and a place to bind their hearthstones."
   },
   {
    "q": "Does Magga offer any quests?",
@@ -40,7 +40,7 @@
     "magga quests",
     "welcome quest"
    ],
-   "answer": "Yes, Magga offers a brief introductory greeting task titled 'Welcome!', which directs new adventurers to speak directly with the local innkeeper."
+   "answer": "Magga receives the 'Welcome!' errand: adventurers who carry a Razor Hill Gift Voucher hand it to her, and she welcomes them to Azeroth with a small companion as a gift."
   }
  ],
  "angles": [

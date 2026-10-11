@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "Origins in Shadow",
-   "body": "The Twilight's Hammer began on Draenor as an exiled clan of Pale orcs residing in the cavernous Underpale beneath Oshu'gun. Communion with Void forces drove them to embrace a grim prophecy: the Hour of Twilight, an inevitable cosmic doom when shadow engulfs all existence. Seeking to bend their terrifying shadow magic to the Horde's war effort, Gul'dan sent the two-headed ogre-mage Cho'gall to lead them. Cho'gall convinced the Pale that the Horde was merely an engine of destruction meant to usher in their beloved apocalypse. Bound by this prophecy, the clan codified their mad teachings into the Twilight Canticle\u2014pages crafted from the flayed, inscribed skin of the Pale themselves.",
+   "body": "The Twilight's Hammer began on Draenor as an orc clan of the Old Horde, led by the two-headed ogre-mage Cho'gall, one of Gul'dan's chief lieutenants in the Shadow Council. Under Cho'gall the clan embraced a grim, apocalyptic creed, coming to see the Horde as merely an engine of destruction meant to bring about the end of all things.",
    "spoiler": 0
   },
   {
    "title": "Arrival on Azeroth",
-   "body": "When the Twilight's Hammer crossed the Dark Portal during the First War, their apocalyptic fanaticism only deepened. In the soil of Azeroth, the cultists sensed the genuine whispers of the Old Gods\u2014ancient horrors chained beneath the earth. Blackhand tolerated their erratic, ritualistic behavior solely because Cho'gall managed their bloodlust, deploying them alongside Kilrogg Deadeye's Bleeding Hollow clan in early assaults on Stormwind Keep. The clan later operated deep within Grim Batol during the Second War, overseeing critical refineries until Gul'dan's betrayal fractured the Horde. Though Orgrim Doomhammer ordered the traitorous clan butchered near the Tomb of Sargeras, Cho'gall and a core cadre of zealots survived and fled west across the Great Sea.",
+   "body": "When the Twilight's Hammer crossed the Dark Portal during the First War, their apocalyptic fanaticism only deepened. In the soil of Azeroth, the cultists sensed the genuine whispers of the Old Gods\u2014ancient horrors chained beneath the earth. Blackhand tolerated their erratic, ritualistic behavior solely because Cho'gall managed their bloodlust, deploying them alongside Kilrogg Deadeye's Bleeding Hollow clan in early assaults on Stormwind Keep. The clan later operated deep within Grim Batol during the Second War, overseeing critical refineries until Gul'dan's betrayal fractured the Horde. Though Orgrim Doomhammer ordered the traitorous clan butchered near the Tomb of Sargeras, a core cadre of zealots survived.",
    "spoiler": 0
   },
   {
@@ -33,7 +33,7 @@
     "twilights hammer goal",
     "twilight hammer purpose"
    ],
-   "answer": "They seek the Hour of Twilight: the total annihilation of all life and order on Azeroth. Rather than seeking conquest or wealth, the cult views oblivion as a sacred blessing and actively works to release the ancient Old Gods chained beneath the world."
+   "answer": "They seek the total annihilation of all life and order on Azeroth. Rather than seeking conquest or wealth, the cult views oblivion as a sacred blessing and actively works to release the ancient Old Gods chained beneath the world."
   },
   {
    "q": "Are they an orc clan or a cult?",
@@ -42,7 +42,7 @@
     "is twilights hammer a clan",
     "twilights hammer races"
    ],
-   "answer": "They began as an orc clan on Draenor composed of deranged Pale outcasts led by Cho'gall. After fleeing the Second War, they abandoned clan boundaries and transformed into a secret, multiracial cult, enlisting humans, night elves, dwarves, and anyone willing to worship the Void."
+   "answer": "They began as an orc clan on Draenor led by Cho'gall. After fleeing the Second War, they abandoned clan boundaries and transformed into a secret, multiracial cult, enlisting humans, night elves, dwarves, and anyone willing to worship the Void."
   },
   {
    "q": "Who leads the Twilight's Hammer?",
@@ -66,10 +66,9 @@
    "q": "What are they doing at the Master's Glaive in Darkshore?",
    "aliases": [
     "masters glaive cultists",
-    "darkshore twilight hammer",
-    "soggoth"
+    "darkshore twilight hammer"
    ],
-   "answer": "The Master's Glaive marks the petrified carcass of Soggoth the Slitherer, a colossal ancient servant of the Old Gods slain during the mythic wars of Kalimdor. Cultists congregate there to commune with its lingering dark energies and seek portents of their masters' awakening."
+   "answer": "The Master's Glaive is a massive glaive embedded in the skull of a colossal creature; the Ancient of Lore Onu says an old, old lord of the earth fell there. Cultists congregate there to commune with its lingering dark energies and seek portents of their masters' awakening."
   },
   {
    "q": "Why did Orgrim Doomhammer try to wipe them out?",
@@ -102,7 +101,6 @@
   "aku'mai",
   "blackfathom deeps",
   "cho'gall",
-  "hour of twilight",
   "kelris",
   "master's glaive",
   "old gods",

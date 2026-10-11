@@ -43,6 +43,7 @@
   <nav class="ad-nav" id="nav" aria-label="Dashboard sections">
     <a href="#overview">Overview</a>
     <a href="#profiles">Profiles</a>
+    <a href="#usage">Usage</a>
     <a href="#feedback">Feedback <span class="ad-badge" id="n-feedback"></span></a>
     <a href="#voices">Voices <span class="ad-badge" id="n-voices"></span></a>
     <a href="#clip-reports">Clip reports <span class="ad-badge quiet" id="n-clip-reports"></span></a>
@@ -79,6 +80,46 @@
       <div class="ad-tile"><div class="ad-label">Last 30 days</div><div class="ad-num" id="p-month">-</div><div class="ad-sub">new accounts</div></div>
     </div></div>
     <figure class="ad-panel ad-chart" id="c-accounts" style="margin:0"><h3>New accounts per day, last 30 days</h3></figure>
+  </div>
+
+  <!-- What syncing players use (LOR-413, lib/usage.js): the add-on counts features per day and the companion sends
+       the counts with the profile sync, only while sync is on. Days are the player's own dates. A syncing player
+       played or synced that day; "with counts" means their add-on sent counts (an add-on from after LOR-413). -->
+  <h2 id="usage">Usage</h2>
+  <div class="ad-charts" style="margin-top:0">
+    <div class="ad-panel"><div class="ad-stats">
+      <div class="ad-tile"><div class="ad-label">Syncing players today</div><div class="ad-num" id="u-today">-</div><div class="ad-sub" id="u-today-sub"></div></div>
+      <div class="ad-tile"><div class="ad-label">Last 7 days</div><div class="ad-num" id="u-week">-</div><div class="ad-sub">different players</div></div>
+      <div class="ad-tile"><div class="ad-label">Last 14 days</div><div class="ad-num" id="u-window">-</div><div class="ad-sub" id="u-window-sub"></div></div>
+      <div class="ad-tile"><div class="ad-label">Heard to the end</div><div class="ad-num" id="u-done">-</div><div class="ad-sub" id="u-done-sub"></div></div>
+    </div></div>
+    <figure class="ad-panel ad-chart" id="c-usage" style="margin:0"><h3>Syncing players per day, last 14 days</h3></figure>
+  </div>
+  <div class="ad-charts">
+    <div class="ad-panel"><h3>Feature use, last 14 days</h3>
+      <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Feature</th><th>Players</th>
+        <th title="Uses per player, per day they played">Per day</th><th>Total</th><th title="Uses per player, per day they played, each of the 14 days">Trend</th></tr></thead>
+        <tbody id="u-features"></tbody></table></div></div>
+    <div class="ad-panel"><h3>Heard to the end, by kind, last 14 days</h3>
+      <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Kind</th><th>Started</th><th>To the end</th><th>Rate</th></tr></thead>
+        <tbody id="u-kinds"></tbody></table></div></div>
+  </div>
+  <!-- The share loop (LOR-151, lib/usage.js countSite): profile pages opened by anyone but their owner, how many a link
+       from outside the site brought (a shared link), and Share presses. Plain daily numbers, nothing about who. -->
+  <div class="ad-charts">
+    <div class="ad-panel"><h3>Profile pages, last 14 days</h3><div class="ad-stats">
+      <div class="ad-tile"><div class="ad-label">Views</div><div class="ad-num" id="u-views">-</div><div class="ad-sub" id="u-views-sub"></div></div>
+      <div class="ad-tile"><div class="ad-label">From outside links</div><div class="ad-num" id="u-outside">-</div><div class="ad-sub" id="u-outside-sub"></div></div>
+      <div class="ad-tile"><div class="ad-label">Shares</div><div class="ad-num" id="u-shares">-</div><div class="ad-sub">Share pressed or link copied</div></div>
+    </div>
+      <p class="ad-empty" style="margin-top:10px">Views by anyone but the page's owner. From outside links: opened from another site, an app or a pasted link, so mostly shared links.</p></div>
+    <figure class="ad-panel ad-chart" id="c-views" style="margin:0"><h3>Profile views per day, last 14 days</h3></figure>
+  </div>
+  <div class="ad-charts">
+    <div class="ad-panel"><h3>Site downloads by source, last 30 days</h3>
+      <p class="ad-empty" style="margin-bottom:6px">From the <code>?src=</code> of the link (the lore pages send <code>lore</code>). Downloads without one aren't listed.</p>
+      <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Source</th><th>Installer</th><th>Zip</th><th>Total</th></tr></thead>
+        <tbody id="u-sources"></tbody></table></div></div>
   </div>
 
   <h2 id="feedback">Feedback</h2>
@@ -282,7 +323,7 @@ function render() {
   $("t-contacts").textContent = contacts.length.toLocaleString();
   $("t-contacts-sub").textContent = "+" + contacts.filter(c => c.created.slice(0, 10) >= week).length + " in the last 7 days · emails and accounts";
 
-  const dlBy = f => data.downloads.filter(d => d.file === f).reduce((a, d) => a + d.n, 0);
+  const dlBy = f => (data.downloadTotals || data.downloads).filter(d => d.file === f).reduce((a, d) => a + d.n, 0);
   $("t-dl").textContent = (dlBy("installer") + dlBy("zip")).toLocaleString();
   $("t-dl-sub").textContent = dlBy("installer") + " installer · " + dlBy("zip") + " zip · " + data.clicks + " button clicks";
 
@@ -320,6 +361,7 @@ function render() {
   barChart($("c-accounts"), days, days.map(d => su.days.find(x => x.day === d)?.n || 0),
     n => n + (n === 1 ? " new account" : " new accounts"));
 
+  renderUsage();
   renderFeedback();
   renderVoices();
   renderTranslations();
@@ -388,7 +430,119 @@ function barChart(fig, days, values, label) {
   fig.append(el("details", {}, el("summary", { text: "Show as table" }),
     rows.length
       ? el("table", {}, ...rows.map(([d, v]) => el("tr", {}, el("td", { text: fmtDay(d) }), el("td", { text: String(v) }))))
-      : el("p", { class: "ad-empty", text: "Nothing in the last 30 days." })));
+      : el("p", { class: "ad-empty", text: "Nothing in the last " + days.length + " days." })));
+}
+
+// ---- usage (LOR-413) ----
+const FEATURES = [
+  ["play", "Narrations started"], ["done", "Narrations heard to the end"], ["ask", "Questions typed"],
+  ["faq", "Suggested questions picked"], ["live", "Questions sent to live answers"], ["panel", "Lore panel opens"],
+  ["journey", "Journey opens"], ["pic", "Pictures taken"], ["chat", "Messages to Sam"], ["newchat", "New Sam chats"],
+];
+const NARRATION_KINDS = [
+  ["zone", "Zones"], ["place", "Places"], ["person", "People"], ["quest", "Quest stories"],
+  ["dialogue", "Quest dialogue"], ["answer", "Answers"], ["topic", "Topics"], ["other", "Other"],
+];
+const pct = (a, b) => b ? Math.round(100 * a / b) + "%" : "-";
+const per = (a, b) => b ? (a / b).toFixed(a / b < 10 ? 1 : 0) : "-";
+
+function renderUsage() {
+  const u = data.usage || { days: [], metrics: [], window: { players: 0, counted: 0, metrics: {} }, week: 0 };
+  const days = lastDays(14);
+  const today = days[days.length - 1];
+  const dayRow = d => u.days.find(x => x.day === d) || { players: 0, counted: 0 };
+  // A feature's metrics: "play" and "done" add up their kinds.
+  const matches = (metric, f) => metric === f || metric.startsWith(f + ".");
+  const onDay = (d, f) => u.metrics.filter(m => m.day === d && matches(m.metric, f));
+  const windowOf = f => Object.entries(u.window.metrics).filter(([m]) => matches(m, f)).map(([, v]) => v);
+  const sum = (list, k) => list.reduce((a, x) => a + (x[k] || 0), 0);
+
+  $("u-today").textContent = dayRow(today).players.toLocaleString();
+  $("u-today-sub").textContent = dayRow(today).counted + " with counts";
+  $("u-week").textContent = u.week.toLocaleString();
+  $("u-window").textContent = u.window.players.toLocaleString();
+  $("u-window-sub").textContent = u.window.counted + " with counts";
+  const started = sum(windowOf("play"), "n"), heard = sum(windowOf("done"), "n");
+  $("u-done").textContent = pct(heard, started);
+  $("u-done-sub").textContent = heard.toLocaleString() + " of " + started.toLocaleString() + " narrations started";
+  barChart($("c-usage"), days, days.map(d => dayRow(d).players), n => n + (n === 1 ? " syncing player" : " syncing players"));
+
+  // Players: who used it at least once in the window (for play and done, the most of any one kind: a lower bound).
+  const playerDays = sum(days.map(dayRow), "counted");
+  $("u-features").replaceChildren(...FEATURES.map(([f, name]) => {
+    const w = windowOf(f), total = sum(w, "n"), players = Math.max(0, ...w.map(x => x.players));
+    const trend = days.map(d => { const c = dayRow(d).counted; return c ? sum(onDay(d, f), "n") / c : null; });
+    return el("tr", {}, el("td", { text: name }),
+      el("td", { text: players + (u.window.counted ? " (" + pct(players, u.window.counted) + ")" : "") }),
+      el("td", { text: per(total, playerDays) }), el("td", { text: total.toLocaleString() }),
+      el("td", {}, sparkline(days, trend, name)));
+  }));
+
+  const kinds = NARRATION_KINDS.map(([k, name]) => [name, u.window.metrics["play." + k]?.n || 0, u.window.metrics["done." + k]?.n || 0])
+    .filter(([, s, d]) => s || d);
+  $("u-kinds").replaceChildren(...(kinds.length ? kinds.map(([name, s, d]) => el("tr", {},
+    el("td", { text: name }), el("td", { text: s.toLocaleString() }), el("td", { text: d.toLocaleString() }),
+    el("td", {}, rateBar(d, s)))) : [el("tr", {}, el("td", { colspan: "4", class: "ad-empty", text: "No narrations counted yet." }))]));
+
+  // Profile pages (LOR-151): the site's own daily counts.
+  const siteOn = (d, m) => (data.site || []).filter(r => r.day === d && r.metric === m).reduce((a, r) => a + r.n, 0);
+  const siteSum = m => days.reduce((a, d) => a + siteOn(d, m), 0);
+  const views = siteSum("profile.view"), outside = siteSum("profile.outside");
+  $("u-views").textContent = views.toLocaleString();
+  $("u-views-sub").textContent = siteOn(today, "profile.view") + " today";
+  $("u-outside").textContent = outside.toLocaleString();
+  $("u-outside-sub").textContent = pct(outside, views) + " of views";
+  $("u-shares").textContent = siteSum("profile.share").toLocaleString();
+  barChart($("c-views"), days, days.map(d => siteOn(d, "profile.view")), n => n + (n === 1 ? " profile view" : " profile views"));
+
+  const bySrc = {};
+  for (const r of data.downloadSources || []) {
+    const row = bySrc[r.src] ||= { installer: 0, zip: 0, total: 0 };
+    if (r.file === "installer") row.installer += r.n; else row.zip += r.n;
+    row.total += r.n;
+  }
+  const sources = Object.entries(bySrc).sort((a, b) => b[1].total - a[1].total);
+  $("u-sources").replaceChildren(...(sources.length ? sources.map(([src, r]) => el("tr", {},
+    el("td", {}, el("code", { text: src })), el("td", { text: String(r.installer) }), el("td", { text: String(r.zip) }),
+    el("td", { text: String(r.total) }))) : [el("tr", {}, el("td", { colspan: "4", class: "ad-empty", text: "None yet." }))]));
+}
+
+// A row's trend: a 2px line over the days and a dot on the last one; a day nobody sent counts leaves a gap. Hovering
+// shows every day's value (its title), and the table beside it has the numbers.
+function sparkline(days, values, name) {
+  const W = 120, H = 26, P = 3, NS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(NS, "svg");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.setAttribute("class", "ad-spark");
+  svg.setAttribute("role", "img");
+  const max = Math.max(0, ...values.filter(v => v != null));
+  const x = i => P + (W - 2 * P) * i / (values.length - 1), y = v => H - P - (H - 2 * P) * (max ? v / max : 0);
+  const title = document.createElementNS(NS, "title");
+  title.textContent = name + " per player-day: " +
+    days.map((d, i) => fmtDay(d) + " " + (values[i] == null ? "none" : values[i].toFixed(1))).join(", ");
+  svg.appendChild(title);
+  svg.setAttribute("aria-label", title.textContent);
+  let d = "";
+  values.forEach((v, i) => {
+    if (v != null) d += (i && values[i - 1] != null ? "L" : "M") + x(i).toFixed(1) + "," + y(v).toFixed(1);
+  });
+  const path = document.createElementNS(NS, "path");
+  path.setAttribute("d", d);
+  svg.appendChild(path);
+  const last = values.length - 1;
+  if (values[last] != null) {
+    const dot = document.createElementNS(NS, "circle");
+    dot.setAttribute("cx", x(last)); dot.setAttribute("cy", y(values[last])); dot.setAttribute("r", 3);
+    svg.appendChild(dot);
+  }
+  return svg;
+}
+
+// Share heard to the end: the number, then a thin bar on a track.
+function rateBar(done, started) {
+  const share = started ? Math.min(1, done / started) : 0;
+  const bar = el("span", { class: "ad-rate-bar" }, el("span", { style: `width:${(100 * share).toFixed(1)}%` }));
+  return el("span", { class: "ad-rate" }, el("span", { text: pct(done, started) }), bar);
 }
 
 function renderFeedback() {

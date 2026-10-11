@@ -1,8 +1,11 @@
 -- Languages. UI strings go through ns.L, keyed by their English text, so a string a pack doesn't translate stays
 -- English. A language pack (LoreForever_Lang_<locale>, see Packs.lua) supplies, through its writer P:
 --   P.ui[english] = translation            UI strings
---   P.entries[key] = {n, s, h, kw, ang, sec = {{t, b}}, faq = {{q, a, al}}}
---                                          lore text only: spoiler flags, links and metadata stay the English ones
+--   P.entries[key] = {n, s, h, kw, ang, sec = {{t, b}}, faq = {{q, a, al}}, fx = {[id] = {q, a, al}}}
+--                                          lore text only: spoiler flags, links and metadata stay the English ones.
+--                                          faq is the entry's own FAQs in order; fx the questions lore.questions
+--                                          appended (their add is the id), by id, so they never depend on position
+--                                          and an entry may carry fx alone (no fp) while the rest of it is stale
 --   P.names[name] = key, P.quests[title] = key
 --                                          what the game client calls NPCs, places and quests in that language
 --   P.stop = "der die das ..."             extra stop words for questions typed in the language
@@ -12,9 +15,10 @@
 --   P.ui[english] = translation
 --   P.fp[key] = Lang.Fingerprint of the English the edits were made on
 --   P.strings["<key>/<path>"] = text       paths as the translator kits name them (n, s, h, kw, sec/2/b, faq/1/al,
---                                          ang/<target>); lists are one string, items separated by "|"
+--                                          fx/<id>/q, ang/<target>); lists are one string, items separated by "|"
 -- An entry's strings apply only while its fp matches the English; otherwise the language pack's text (or the English)
--- stands. A test pack has no search index: when it changes any entry, the index is rebuilt at login.
+-- stands. fx strings need only their id. A test pack has no search index: when it changes any entry, the index is
+-- rebuilt at login.
 -- Everything is applied once at login, before the engine is built; switching language takes a /reload.
 
 local _, ns = ...
@@ -186,7 +190,7 @@ end
 -- translates; if the English entry has changed since (sections added, moved or re-flagged), the translation is left
 -- out rather than risk German text sitting under the wrong spoiler flag. Lengths are bytes, so the pipeline computes
 -- this through this same function. FAQs appended by pipeline/lore/questions.py (add) are a layer of their own: they
--- stay English and don't make the translation of the rest stale.
+-- are translated by id (fx) and don't make the translation of the rest stale.
 function Lang.Fingerprint(e)
   local p = { #(e.n or ""), #(e.s or "") }
   for _, s in ipairs(e.sec or {}) do p[#p + 1] = #s.t .. "." .. #s.b .. "." .. (s.sp or 0) end
@@ -194,6 +198,24 @@ function Lang.Fingerprint(e)
     if not f.add then p[#p + 1] = #f.q .. "." .. #f.a .. "." .. (f.sp or 0) end
   end
   return table.concat(p, ",")
+end
+
+-- The entry's appended FAQ with this id (lore.questions' add), or nil once its English changed.
+local function fxFaq(e, id)
+  for _, f in ipairs(e.faq or {}) do
+    if f.add == id then return f end
+  end
+end
+
+-- Translations of an entry's appended FAQs, {[id] = {q, a, al}}. tr: the question is in the reading language now.
+local function mergeFx(e, fx)
+  for _, f in ipairs(e.faq or {}) do
+    local t = f.add and fx[f.add]
+    if type(t) == "table" then
+      f.q, f.a, f.al = t.q or f.q, t.a or f.a, t.al or f.al
+      if t.q then f.tr = true end
+    end
+  end
 end
 
 -- Translated text over the English entries, field by field; spoiler flags, links and metadata stay English. Returns
@@ -206,9 +228,12 @@ function Lang.MergeEntries(db, w, merged)
   merged = merged or {}
   for key, t in pairs(w.entries or {}) do
     local e = db.entries[key]
-    if e and t.fp ~= Lang.Fingerprint(e) then
+    if e and t.fx then mergeFx(e, t.fx) end   -- by id, whatever else changed
+    if not e or (t.fp == nil and t.fx) then
+      -- gone, or only appended FAQs: the rest of the entry's translation is out of date
+    elseif t.fp ~= Lang.Fingerprint(e) then
       skipped = skipped + 1
-    elseif e then
+    else
       merged[key] = true
       local oldName = e.n
       e.n, e.s, e.h = t.n or e.n, t.s or e.s, t.h or e.h
@@ -288,8 +313,21 @@ function Lang.ApplyOverlay(db, ow, ok)
   for id, text in pairs(ow.strings or {}) do
     local key, path = tostring(id):match("^([^/]+)/(.+)$")
     local e = key and db.entries[key]
+    local fxid, fg = (path or ""):match("^fx/(%x+)/(%a+)$")
+    local fq = fxid and e and fxFaq(e, fxid)
     if type(text) ~= "string" or text == "" or not path then
       -- nothing to apply
+    elseif fxid then   -- an appended FAQ, by id: it applies whatever else in the entry changed
+      if not fq then
+        stale = stale + 1
+      elseif fg == "q" or fg == "a" then
+        fq[fg] = text
+        if fg == "q" then fq.tr = true end
+        applied = applied + 1
+      elseif fg == "al" then
+        fq.al = splitList(text)
+        applied = applied + 1
+      end
     elseif not e or not ok[key] then
       stale = stale + 1
     else
@@ -339,6 +377,18 @@ function Lang.ApplyOverlay(db, ow, ok)
     end
   end
   return applied, stale
+end
+
+-- After the merge, in a translated reading language: the appended FAQs whose question is still English get untr, so
+-- the engine offers translated questions ahead of them (Engine.RankedFaq) until a translator gets to them.
+function Lang.MarkUntranslated(db)
+  local n = 0
+  for _, e in pairs(db.entries) do
+    for _, f in ipairs(e.faq or {}) do
+      if f.add and not f.tr then f.untr, n = true, n + 1 end
+    end
+  end
+  return n
 end
 
 -- Login: find and load the packs the settings call for, before the engine is built. Leaves ns.lang = {locale, name,
@@ -426,6 +476,7 @@ local function init(lang)
     note(L["Your test translations: %d lines in use, %d left out (the English changed)."], applied, stale)
     lang.overlay = orec.name
   end
+  Lang.MarkUntranslated(db)
   -- Voice packs match recordings to the text by clipHash: the pack's hashes (for recordings in this language) replace
   -- the English ones, and Voice only picks packs in the reading language. Voice.Init runs after this. The answers
   -- packs' hashes (answerHash, LOR-227) too.

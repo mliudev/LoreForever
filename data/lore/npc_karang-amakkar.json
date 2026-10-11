@@ -17,7 +17,7 @@
   },
   {
    "title": "Dealing with the Furbolgs",
-   "body": "Karang focuses much of his attention on the furbolg populations native to the ancient woods, notably the Thistlefur and Foulweald tribes. With corruption and primal hostility driving these bear-folk into frenzies, Karang tasks capable warriors with culling their leaders and clearing out dens before the tribes can muster organized assaults against Zoram'gar.",
+   "body": "Karang focuses much of his attention on the furbolg populations native to the ancient woods, notably the Foulweald tribe. With corruption and primal hostility driving these bear-folk into frenzies, Karang tasks capable warriors with culling their leader and clearing out dens before the tribes can muster organized assaults against Zoram'gar.",
    "spoiler": 0
   }
  ],
@@ -47,14 +47,14 @@
     "karang tasks",
     "what does karang want"
    ],
-   "answer": "Karang tasks Horde adventurers with confronting aggressive furbolg tribes nearby, directing strikes against the Thistlefur clan and the leader of the Foulweald."
+   "answer": "Karang tasks Horde adventurers with confronting aggressive furbolg tribes nearby, directing a strike against the king of the Foulweald."
   },
   {
    "q": "Why is Karang worried about the furbolgs?",
    "aliases": [
     "why kill furbolgs",
     "furbolg threat ashenvale",
-    "thistlefur threat"
+    "foulweald threat"
    ],
    "answer": "The furbolgs in Ashenvale have grown increasingly savage and corrupt, attacking travelers and threatening to cut off Zoram'gar Outpost from the rest of the Horde's strongholds in the region."
   },
@@ -73,7 +73,7 @@
     "karang vs night elves",
     "karang alliance"
    ],
-   "answer": "Karang's duties in Zoram'gar primarily focus on territorial defense and dealing with wild threats like the Thistlefur furbolgs, leaving overt military maneuvers against the night elves to other Horde commanders."
+   "answer": "Karang's duties in Zoram'gar primarily focus on territorial defense and dealing with wild threats like the Foulweald furbolgs, leaving overt military maneuvers against the night elves to other Horde commanders."
   }
  ],
  "angles": [
@@ -91,7 +91,6 @@
   "foulweald",
   "furbolg",
   "karang amakkar",
-  "thistlefur",
   "zoram strand",
   "zoram'gar outpost"
  ],

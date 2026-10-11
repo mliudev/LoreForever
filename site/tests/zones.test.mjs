@@ -77,11 +77,11 @@ test("anyone sees the zone list; claiming needs an account and our own page", as
   assert.equal(open.locale, "enUS");
   assert.equal(open.mine, undefined);
   assert.deepEqual(open.zones.map(z => [z.key, z.lines, z.claim]), [["elwynn", 3, null], ["durotar", 1, null], ["stormwind", 1, null], ["duskwood", 1, null]]);
-  // The "zones" feature (lib/features.js) is off by default; SITE_FEATURES turns it on. The list says which, so the
+  // The "zones" feature (lib/features.js) is on; SITE_FEATURES=-zones turns it off. The list says which, so the
   // upload page knows whether to show the zone box.
-  assert.equal(open.on, false);
-  env.SITE_FEATURES = "contribute, zones";
-  assert.equal((await board()).on, true);
+  assert.equal(open.on, true);
+  env.SITE_FEATURES = "contribute, -zones";
+  assert.equal((await board()).on, false);
   delete env.SITE_FEATURES;
   assert.equal((await zones("POST", "claim", { body: { voice: "x", zone: "elwynn" } })).status, 401);
   const me = await signIn("origin-check");

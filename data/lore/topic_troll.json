@@ -11,17 +11,17 @@
  "sections": [
   {
    "title": "Children of the Wilds",
-   "body": "Long before the Great Sundering shattered ancient Kalimdor, the primal energies of the Well of Eternity nurtured the rise of trollkind. Emerging as savage, highly agile hunter-gatherers, the early trolls possessed a unique physiology that granted them astonishing regenerative powers, allowing them to recover rapidly from grievous wounds and even regrow severed limbs over time. Settling around the sacred mountains of Zandalar, they directed their reverence toward Kalimdor's elusive Wild Gods, whom they called loa. Under the spiritual guidance of shadow hunters and witch doctors, these rituals coalesced into the practice of voodoo and the construction of holy temple peaks like Zuldazar.",
+   "body": "Long before the Great Sundering shattered ancient Kalimdor, the primal energies of the Well of Eternity nurtured the rise of trollkind. Emerging as savage, highly agile hunter-gatherers, the early trolls possessed a unique physiology that granted them astonishing regenerative powers, allowing them to recover rapidly from grievous wounds and even regrow severed limbs over time. Settling around the sacred mountains of Zandalar, they directed their reverence toward Kalimdor's elusive Wild Gods, whom they called loa. Under the spiritual guidance of shadow hunters and witch doctors, these rituals coalesced into the practice of voodoo.",
    "spoiler": 0
   },
   {
-   "title": "The War of the Swarm",
-   "body": "Roughly sixteen thousand years ago, curious trolls unwittingly broke an ancient taboo, awakening the C'Thraxxi horror Kith'ix. The beast rallied the aqiri swarms from the underground warrens, threatening to consume all mortal life. Faced with total annihilation, the disparate tribes united under the Zandalari to forge the Empire of Zul. Through relentless guerrilla ambushes and the summoned might of the loa, the trolls drove back the swarms. Driven to eradicate the insectoid threat, mighty tribes branched outward across the continent: the Drakkari seized the frozen north, the Gurubashi battered the aqir in the southwest, and the fierce Amani slew Kith'ix itself, founding their city of Zul'Aman upon the monster's bones.",
+   "title": "War Against the Aqir",
+   "body": "In ancient times, the trolls waged a long war against the insectoid aqir, whose swarms threatened to overrun the continent. The Amani and Gurubashi empires led the fight and eventually drove the aqir to the far corners of the land: north into what became Azjol-Nerub and south into the deserts where Ahn'Qiraj would rise.",
    "spoiler": 0
   },
   {
    "title": "A Fractured Legacy",
-   "body": "With the insect swarms broken and contained, the unity of the Empire of Zul dissolved. Each great faction withdrew into its own sovereign empire, developing distinct cultures, physical traits, and tribal hierarchies adapted to forests, jungles, and frozen wastes. Over millennia of separation, rivalry, and territorial wars against younger races, troll dominion slowly decayed into ruin and insularity. Most remaining troll kingdoms view all other races with fierce, unyielding hostility, clinging bitterly to the ruins of their former greatness. Only the exile jungle trolls of the Darkspear tribe have chosen a new path, joining the Horde alongside orcs and tauren.",
+   "body": "With the insect swarms broken and contained, the trolls' common cause dissolved. Each great faction withdrew into its own sovereign empire, developing distinct cultures, physical traits, and tribal hierarchies adapted to forests, jungles, and frozen wastes. Over millennia of separation, rivalry, and territorial wars against younger races, troll dominion slowly decayed into ruin and insularity. Most remaining troll kingdoms view all other races with fierce, unyielding hostility, clinging bitterly to the ruins of their former greatness. Only the exile jungle trolls of the Darkspear tribe have chosen a new path, joining the Horde alongside orcs and tauren.",
    "spoiler": 0
   }
  ],
@@ -43,15 +43,6 @@
     "what do trolls worship"
    ],
    "answer": "The loa are the primal deities worshipped by trollkind across virtually every tribe. In reality, they are Azeroth's elusive Wild Gods\u2014powerful animal spirits that trolls honor through offerings, meditation, and ritual magic. Priests and shadow hunters call upon the loa to grant blessings, guidance, and devastating power in battle."
-  },
-  {
-   "q": "What was the Empire of Zul?",
-   "aliases": [
-    "first troll empire",
-    "ancient troll kingdom",
-    "history of zul"
-   ],
-   "answer": "The Empire of Zul was the grand alliance of all troll tribes, formed roughly sixteen thousand years ago under the guidance of the Zandalari. It united the race to combat the rampaging aqiri insect swarms. After driving the aqir into the continental fringes, the alliance naturally disbanded as tribes founded their own independent kingdoms."
   },
   {
    "q": "Why are most trolls hostile to players?",
@@ -103,7 +94,6 @@
   "amani",
   "aqir",
   "darkspear",
-  "drakkari",
   "gurubashi",
   "loa",
   "regeneration",

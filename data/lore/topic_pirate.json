@@ -66,16 +66,15 @@
     "kul tiras piracy",
     "kul tiran pirate law"
    ],
-   "answer": "Kul Tiran law treats piracy as one of the most vile offenses a sailor can commit. Those captured by Kul Tiran patrols face immediate death by public execution, though rare crews have managed to secure royal pardons by undertaking perilous, high-stakes tasks for the admiralty."
+   "answer": "After the Second War, Kul Tiran fleets patrolled the trade lanes, hunting pirates and marauders on the high seas."
   },
   {
    "q": "Are there non-human pirates?",
    "aliases": [
-    "tauren pirates",
     "orc pirates",
     "goblin pirates"
    ],
-   "answer": "Yes. While human crews are common, buccaneer crews accept anyone willing to raid and follow orders. Crews include orcs, goblins, trolls, dwarves, and even tauren who were recruited or impressed into service along the coasts of Kalimdor."
+   "answer": "Yes. While human crews are common, buccaneer crews accept anyone willing to raid and follow orders. Crews include orcs, goblins, trolls, and dwarves."
   }
  ],
  "angles": [
@@ -114,8 +113,7 @@
   "topic:kul-tiras",
   "topic:goblin",
   "topic:alliance",
-  "topic:horde",
-  "topic:tauren"
+  "topic:horde"
  ],
  "attribution": [
   "Pirate"

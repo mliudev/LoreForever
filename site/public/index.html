@@ -43,10 +43,10 @@
 </header>
 
 <!-- newbar:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
-<aside class="newbar" id="newbar" data-version="0.13.1" aria-label="New in 0.13.1" hidden>
+<aside class="newbar" id="newbar" data-version="0.14.0" aria-label="New in 0.14.0" hidden>
   <div class="wrap newbar-in">
-    <span class="tag tag-new">New in 0.13.1</span>
-    <a href="/whats-new#v0-13-1">Blizzard's own names in your language</a>
+    <span class="tag tag-new">New in 0.14.0</span>
+    <a href="/whats-new#v0-14-0">Companion: live answers come from Sam's free daily answers</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-14-0">Talk to your target</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-14-0">Your picture book is on</a>
     <a class="newbar-all" href="/whats-new">See what's new</a>
   </div>
   <button class="newbar-x" type="button" aria-label="Hide until the next version">&times;</button>
@@ -65,7 +65,7 @@
       <ul class="stats">
         <li>by <strong>Mike</strong></li>
         <li id="downloads"><strong>New release</strong></li>
-        <li>Version <strong>0.13.1</strong></li>
+        <li>Version <strong>0.14.0</strong></li>
         <li>Game <strong>WoW Forever 1.60.1</strong></li>
       </ul>
       <!-- Downloads, no email step. Since 2026-10-02 (Mike) the site's own download comes first: the Windows installer
@@ -154,6 +154,16 @@
         learned the old ways before taking ship for the mainland&hellip;&rdquo;</figcaption>
     </figure>
   </section>
+
+  <!-- "Made with the community" (style.css .community): the players' own voices and the translators, filled from
+       /api/credits (lib/credits.js, the same people as /contributors), so only live voices and people who chose to
+       show their name. Alphabetical, never ranked. Stays hidden until there's someone to show. -->
+  <aside class="community" id="community" aria-labelledby="community-title" hidden>
+    <h2 id="community-title">Made with the community</h2>
+    <p>Players lend Lore Forever their voices and their languages. Thank you!</p>
+    <ul class="cm-voices" id="community-voices"></ul>
+    <p class="cm-more"><span id="community-translators"></span> <a href="/contributors">Meet everyone who helps</a></p>
+  </aside>
 
   <!-- "Calling all narrators" (style.css .narrators): the same box on the home page, /voices and /downloads. -->
   <aside class="narrators" aria-labelledby="narrators-title">
@@ -465,10 +475,13 @@
           Extra narrator voices and quest dialogue are separate CurseForge packs, listed on the <a href="/downloads#voices">Downloads page</a>.</p>
         <ol>
           <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
-            add your <code>_classic_beta_</code> folder, or use the installer or zip above.</li>
+            update the app (Forever support came in September) and add your <code>_classic_beta_</code> folder, or use
+            the installer or zip above.</li>
           <li>Search for <strong>Lore Forever</strong> and click <strong>Install</strong>.</li>
           <li>Start the game. On the character screen, open <strong>AddOns</strong> and make sure Lore Forever is ticked.</li>
         </ol>
+        <p>&ldquo;Game was not found or not supported&rdquo; means the app can't see your Forever install yet: do step 1,
+          or use the installer or zip above.</p>
         <h3>Extra narrator voices</h3>
         <p>Lore Forever comes with the male narrator. Choose extra voices and quest dialogue on the
           <a href="/downloads#voices">Downloads page</a>, with CurseForge packs or zips for manual installs. Install the
@@ -501,6 +514,29 @@
       <section class="tab-panel" id="changelog" role="tabpanel">
         <h2>Changelog</h2>
         <!-- changelog:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
+        <h3>0.14.0</h3>
+        <ul>
+          <li><strong>Companion: live answers come from Sam's free daily answers.</strong> Connect your profile for 20 a day. The companion no longer takes your own key or a model choice, and journey chapters, their narration and new picture captions are gone, along with the voice download they needed. Captions already on your pictures stay, and chapters stay saved on your PC.</li>
+          <li><strong>Talk to your target:</strong> with the companion app, target a character Lore Forever knows (Bolvar, Thrall, a named quest giver) and ask your question: they answer you in person. Start with "Sam" to ask Sam instead.</li>
+          <li><strong>Your picture book is on:</strong> the companion keeps your journey pictures, offers F12 (or Shift-F12) for the picture key when it's free, takes a picture when you level up, defeat a boss or first reach a zone or dungeon (at most ten a day; Options › Automatic journey pictures turns it off), and Journey rows show their picture.</li>
+          <li><strong>Share Forever's new text:</strong> quest, gossip and book windows with text Lore Forever doesn't have yet show a small Contribute button, and the companion sends new Forever text by itself (both can be turned off).</li>
+          <li><strong>Report a narration from the player:</strong> a small cross on the narration player tells us a recording sounds wrong.</li>
+          <li><strong>Lend your voice and claim a zone</strong> on the voice studio: read a short script and we make a narrator voice from it, or claim a zone to narrate.</li>
+          <li><strong>Pause and pick up where you left off:</strong> pausing a complete story, a longer answer, quest dialogue or overview and playing it again carries on from the start of the passage you were in, instead of starting over.</li>
+          <li><strong>More complete stories:</strong> 365 more zones, subzones and characters play their whole story: 170 in the male narrator's voice and 195 in the female narrator's.</li>
+          <li><strong>Ask more in your language:</strong> reading in another language, the suggested questions and "Ask more" follow-ups offer translated questions before ones still in English, and translators can now translate those common questions.</li>
+          <li><strong>Journey places in the right city:</strong> a Journey moment in the Undercity's Canals opens the Undercity's story, not Stormwind's.</li>
+          <li><strong>Quest givers sound more like their people:</strong> new dwarf, goblin, human, Skyborne and troll voices read 1,316 English quest-giver lines.</li>
+          <li><strong>Corrected lore in 291 entries:</strong> fixed names, places and who-did-what, kept twists behind spoilers, and removed 6 entries for characters and event quests that belong to later expansions.</li>
+          <li><strong>Re-narrated after lore fixes:</strong> 10 complete stories whose text was corrected this week (including Deadwind Pass and the Wailing Caverns) play in full again in both voices.</li>
+          <li>Smaller download: a story that plays in full no longer also carries its shorter overview recording.</li>
+          <li><strong>Live game info for Sam (optional):</strong> turn on Live game info in the add-on's Options and in the companion's Settings, and Sam knows where you are, what you're fighting and your tracked quest right away, without a /reload. The add-on shows a tiny block of colored squares in the top-left corner, and the companion reads only that block.</li>
+          <li><strong>Asking a quest giver why:</strong> with the quest giver targeted, "why does he want me to do this?" answers about the quest they gave you, not another of their quests, even when the lore doesn't name who gives it.</li>
+          <li><strong>Hilary's Necklace:</strong> the Lakeshire quest and the necklace now use the girl's name in Forever, Hilary, so the quest's lore matches the quest you're on.</li>
+          <li><strong>Your language, with the game's own names:</strong> German, French, Spanish and Portuguese use Blizzard's names for the capitals and about 390 more places and people, and German no longer doubles its articles ("im Das …").</li>
+          <li><strong>Italiano:</strong> the community's Italian translation is now its own language download; anything not yet translated stays in English.</li>
+          <li><strong>Sam keeps twists hidden:</strong> Sam no longer lists a lore entry as a source when your question only reaches it through its spoilers.</li>
+        </ul>
         <h3>0.13.1</h3>
         <ul>
           <li>Sam keeps your profile up to date again: automatic profile sync works with 0.13.0's add-on.</li>
@@ -912,6 +948,41 @@ async function showDownloadCount() {
 showDownloadCount();
 setInterval(() => { if (!document.hidden) showDownloadCount(); }, 60000);
 document.addEventListener("visibilitychange", () => { if (!document.hidden) showDownloadCount(); });
+
+// "Made with the community": the players' voices and a line about the translators, from /api/credits. Best effort:
+// the strip stays hidden if the call fails or there's nobody to show yet. Text only (textContent), never HTML.
+(async function showCommunity() {
+  const credits = await fetch("/api/credits").then(r => r.ok ? r.json() : null).catch(() => null);
+  if (!credits?.ok) return;
+  const voices = (credits.community || []).flatMap(p => p.voices.map(v => ({ ...v, by: p.name })));
+  const translators = credits.translators || [];
+  const languages = new Set(translators.flatMap(p => Object.keys(p.languages || {}))).size;
+  if (!voices.length && !translators.length) return;
+  const list = document.getElementById("community-voices");
+  for (const v of voices) {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = "/voices/" + encodeURIComponent(v.id);
+    const who = document.createElement("strong");
+    who.textContent = v.by;
+    const what = document.createElement("span");
+    what.textContent = [v.name, v.language].filter(Boolean).join(" · ");
+    a.append(who, what);
+    li.append(a);
+    list.append(li);
+  }
+  list.hidden = !voices.length;
+  const line = document.getElementById("community-translators");
+  if (translators.length) {
+    line.append((translators.length === 1 ? "1 translator" : translators.length + " translators") + " bringing it to " +
+      (languages === 1 ? "another language" : languages + " languages") + ". ");
+  }
+  const help = document.createElement("a");
+  help.href = "/translate";
+  help.textContent = translators.length ? "Join them" : "Help translate it";
+  line.append(help, " ·");
+  document.getElementById("community").hidden = false;
+})();
 
 // Count clicks on the download links, CurseForge included (functions/api/click.js). CurseForge's own downloads
 // happen off this site, so this is the site's only signal for them. Best effort: the link works either way.

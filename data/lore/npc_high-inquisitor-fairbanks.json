@@ -22,7 +22,7 @@
   },
   {
    "title": "Execution and Exile",
-   "body": "Fairbanks's desperate warnings shattered the remaining defenders of Lordaeron. Those who believed his horrific account abandoned the fanatical order to form the Argent Dawn. Those who remained loyal to Renault and Saidan Dathrohan branded Fairbanks a blasphemer and a lunatic. Infected by the plague during his time buried under Scourge corpses, Fairbanks was quietly executed by the Scarlet Crusade. Rather than granting him a holy burial, the crusaders discarded his body in a hidden chamber behind the Cathedral's altar, where he eventually rose as the very monstrosity they swore to cleanse.",
+   "body": "Fairbanks's desperate warnings shattered the remaining defenders of Lordaeron. Those who believed his horrific account abandoned the fanatical order to form the Argent Dawn. Those who remained loyal to Renault and Saidan Dathrohan branded Fairbanks a blasphemer and a lunatic. Fairbanks was quietly executed by the Scarlet Crusade. Rather than granting him a holy burial, the crusaders discarded his body in a hidden chamber behind the Cathedral's altar, where he eventually rose as the very monstrosity they swore to cleanse.",
    "spoiler": 2
   }
  ],
@@ -44,7 +44,7 @@
     "is fairbanks scourge",
     "why is fairbanks undead"
    ],
-   "answer": "During the ambush at Stratholme, Fairbanks was buried alive beneath piles of Scourge corpses, which infected him with the plague of undeath. After the Scarlet Crusade executed him for his accusations against its leaders, his cast-aside body eventually succumbed to the infection and reanimated in secret."
+   "answer": "No one has explained exactly how he rose. During the ambush at Stratholme, Fairbanks lay buried beneath piles of Scourge corpses, and after the Scarlet Crusade executed him for his accusations against its leaders, his cast-aside body was left hidden in a secret chamber, where it eventually rose as one of the undead."
   },
   {
    "q": "Who was Fairbanks before he was executed?",
@@ -71,7 +71,7 @@
     "who killed fairbanks",
     "fairbanks execution"
    ],
-   "answer": "The leadership of the Scarlet Crusade branded his testimony of what happened at Stratholme as malicious blasphemy. Furthermore, seeing him exhibit early symptoms of the plague from his wounds at Stratholme, the crusaders murdered him to silence the truth."
+   "answer": "The leadership of the Scarlet Crusade branded his testimony of what happened at Stratholme as malicious blasphemy. The crusaders executed him to silence the truth."
   },
   {
    "q": "Who replaced Fairbanks as High Inquisitor?",
@@ -94,7 +94,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "Fairbanks proves the ultimate hypocrisy of the Scarlet Crusade: hiding one of their own plague-ridden dead behind an altar while burning innocent Forsaken."
+   "text": "Fairbanks proves the ultimate hypocrisy of the Scarlet Crusade: hiding one of their own dead behind an altar while burning innocent Forsaken."
   },
   {
    "target": "faction:Alliance",

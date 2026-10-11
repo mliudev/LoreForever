@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Den of the Nightbane",
-   "body": "Located east of the ruined Yorgen Farmstead and west of Tranquil Gardens Cemetery, the Rotting Orchard stands as a grim testament to Duskwood's decline. The trees hang heavy with withered, spoiled fruit, while dilapidated barns and outbuildings have been converted into rough encampments by the Nightbane worgen. Nightbane Stalkers prowl the twisted brush, while dark casters known as Shadow Weavers weave their sinister magic amid the decaying timber. The pack answers to their fierce leader, Marus, who prowls the surrounding woods keeping watch over their stolen domain.",
+   "body": "Located east of the ruined Yorgen Farmstead and west of Tranquil Gardens Cemetery, the Rotting Orchard stands as a grim testament to Duskwood's decline. The trees hang heavy with withered, spoiled fruit, while dilapidated barns and outbuildings have been converted into rough encampments by the Nightbane worgen. Nightbane Stalkers prowl the twisted brush, while dark casters known as Shadow Weavers weave their sinister magic amid the decaying timber. The pack answers to the fierce worgen Gutspill and Nefaru, who lair in the nearby mine of Roland's Doom.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who lives in rotting orchard",
     "what is at rotting orchard"
    ],
-   "answer": "The orchard is completely infested by the Nightbane pack, a faction of ravenous worgen. These include cunning prowlers called Nightbane Stalkers, dark spellcasters known as Nightbane Shadow Weavers, and their roaming leader, Marus."
+   "answer": "The orchard is completely infested by the Nightbane pack, a faction of ravenous worgen. These include cunning prowlers called Nightbane Stalkers, and dark spellcasters known as Nightbane Shadow Weavers."
   },
   {
    "q": "Where is the Rotting Orchard located in Duskwood?",
@@ -38,10 +38,9 @@
    "q": "Who leads the worgen in this orchard?",
    "aliases": [
     "rotting orchard boss",
-    "packleader marus",
     "who leads nightbane"
    ],
-   "answer": "The packleader of the worgen here is named Marus. He prowls the territory between the decaying orchard grounds and his nearby den, aggressively defending the pack's domain."
+   "answer": "The Nightbane worgen here are led by the brutes Gutspill and Nefaru, who make their lair in the mine of Roland's Doom just east of the orchard."
   },
   {
    "q": "Was this place always overrun by monsters?",
@@ -65,7 +64,6 @@
  "keywords": [
   "darkshire",
   "duskwood",
-  "marus",
   "nightbane",
   "rotting orchard",
   "shadow weavers",

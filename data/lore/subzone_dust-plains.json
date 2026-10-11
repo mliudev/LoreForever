@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Barren Frontier",
-   "body": "Stretching across southern Westfall, the Dust Plains mark the transition from troubled farmland to desolate wilderness. Unlike the plundered farmsteads to the north, this arid reach has long been surrendered to packs of feral gnolls who ambush travelers and challenge anyone venturing toward the coast or the nearby hills. On the eastern boundary sits Mortwake's Tower, a lonely magical retreat that offers no shelter from the beasts prowling the surrounding wastes.",
+   "body": "Stretching across southern Westfall, the Dust Plains mark the transition from troubled farmland to desolate wilderness. Unlike the plundered farmsteads to the north, this arid reach has long been surrendered to packs of feral gnolls who ambush travelers and challenge anyone venturing toward the coast or the nearby hills. On the eastern boundary sits Klaven's Tower, an old mage tower now held by the Defias rogue Klaven Mortwake, which offers no shelter from the beasts prowling the surrounding wastes.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is dust plains",
     "where dust plains"
    ],
-   "answer": "The Dust Plains occupy the southernmost portion of Westfall, lying south of the abandoned farmsteads and extending toward the cliffs and Mortwake's Tower on the east."
+   "answer": "The Dust Plains occupy the southernmost portion of Westfall, lying south of the abandoned farmsteads and extending toward the cliffs and Klaven's Tower on the east."
   },
   {
    "q": "What threats can travelers find in the Dust Plains?",
@@ -41,7 +41,7 @@
     "eastern tower westfall",
     "what is mortwake's tower"
    ],
-   "answer": "That is Mortwake's Tower, an old wizard's spire that overlooks the eastern verge of the Dust Plains."
+   "answer": "That is Klaven's Tower, an old mage tower that overlooks the eastern verge of the Dust Plains. It now serves as a Defias stronghold under the rogue Klaven Mortwake."
   },
   {
    "q": "Does the People's Militia hold any control over the Dust Plains?",
@@ -61,7 +61,7 @@
  "keywords": [
   "dust plains",
   "gnolls",
-  "mortwake's tower",
+  "klaven's tower",
   "plains",
   "southern westfall",
   "westfall"

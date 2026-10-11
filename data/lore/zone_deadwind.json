@@ -31,7 +31,7 @@
   },
   {
    "title": "The Scythe and the Dark Riders",
-   "body": "Long before the present year, a cabal of dishonest merchants led by a swindler named Ariden operated out of a camp in the northern canyon, attempting to sell counterfeit magical relics to Medivh. Displeased by their deception, the possessed Guardian inflicted a dark curse upon the traders, compelling them to scour the lands for authentic artifacts. Reborn as the cloaked Dark Riders, they have recently brought terror to Duskwood, slaughtering innocent homesteaders in a ruthless hunt for the enigmatic Scythe of Elune before retreating back into the shadows of the pass.",
+   "body": "Out of Deadwind Pass ride the cloaked Dark Riders. They have recently brought terror to Duskwood, slaughtering innocent homesteaders in a ruthless hunt for the enigmatic Scythe of Elune before retreating back into the shadows of the pass.",
    "spoiler": 1
   }
  ],
@@ -67,10 +67,9 @@
    "q": "Who are the Dark Riders and where did they come from?",
    "aliases": [
     "dark riders deadwind",
-    "ariden dark riders",
     "scythe of elune riders"
    ],
-   "answer": "The Dark Riders are cloaked figures associated with northern Deadwind Pass. They hunt powerful relics, including the Scythe of Elune, and have brought terror to nearby Duskwood. Investigating their history reveals their origins."
+   "answer": "The Dark Riders are cloaked figures who ride out of Deadwind Pass. They hunt powerful relics, including the Scythe of Elune, and have brought terror to nearby Duskwood."
   },
   {
    "q": "Can I gather herbs or mine ore in Deadwind Pass?",
@@ -88,13 +87,13 @@
     "who lives in deadwind",
     "deadwind pass mobs"
    ],
-   "answer": "The pass is primarily occupied by the aggressive Deadwind ogre clan inhabiting the Vice, along with lingering carrion birds and restless ghosts. A few wandering human scavengers survive on the move without Alliance support, while Kirin Tor agents watch the pass with unease."
+   "answer": "The pass is primarily occupied by the aggressive Deadwind ogre clan inhabiting the Vice, along with lingering carrion birds and restless ghosts. A few wandering human scavengers survive on the move without Alliance support."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The ley lines beneath Deadwind Pass converge directly into Karazhan. The Kirin Tor monitors this nexus with extreme dread, knowing how Medivh warped its arcane conduit to breach dimensional barriers."
+   "text": "The ley lines beneath Deadwind Pass converge directly into Karazhan. Mages regard this nexus with extreme dread, knowing how Medivh warped its arcane conduit to breach dimensional barriers."
   },
   {
    "target": "class:Warlock",
@@ -110,7 +109,6 @@
   }
  ],
  "keywords": [
-  "ariden",
   "dark riders",
   "deadman's crossing",
   "deadwind ogres",

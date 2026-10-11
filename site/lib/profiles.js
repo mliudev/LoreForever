@@ -561,7 +561,7 @@ function makeYourOwn() {
       <p>Lore Forever is a free add-on for WoW Forever. It tells the story of where you are and keeps a journal of your
         road. One paste turns that journal into a page like this one.</p>
       <p class="vp-actions"><a class="btn-small" href="/account#profile">Make your profile</a>
-        <a class="btn-small btn-small-alt" href="/download/installer">Download for Windows</a>
+        <a class="btn-small btn-small-alt" href="/download/installer?src=profile">Download for Windows</a>
         <a class="pf-what" href="/">What it does</a></p>
     </div>
   </section>`;

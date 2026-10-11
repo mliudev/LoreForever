@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Legacy of Blood",
-   "body": "Long before human or orc set foot in Stranglethorn Vale, the Gurubashi Arena\u2014known also as the Great Arena\u2014was built as a monument to martial strength by the sprawling Gurubashi troll empire. In ancient days, champions fought to the death upon its sands until the earth was slick with troll blood. Once every generation, tradition dictates that the greatest troll warriors across Azeroth gather within these towering stone walls to duel for the honor of their loa, presided over by King Rastakhan of the Zandalari. To win this rite is among the highest honors a troll warrior can attain.",
+   "body": "Long before human or orc set foot in Stranglethorn Vale, the Gurubashi Arena\u2014known also as the Great Arena\u2014was built as a monument to martial strength by the sprawling Gurubashi troll empire. In ancient days, champions fought to the death upon its sands until the earth was slick with troll blood.",
    "spoiler": 0
   },
   {
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For trolls, the arena is sacred ground rather than simple pirate sport, holding a generational tournament overseen by the Zandalari to win honor before the loa."
+   "text": "For trolls, the arena is sacred ground rather than simple pirate sport, a monument of the old Gurubashi Empire where champions once shed blood upon the sands."
   },
   {
    "target": "class:Warrior",
@@ -72,7 +72,6 @@
   "booty run",
   "chest",
   "gurubashi",
-  "rastakhan",
   "short john mithril",
   "stranglethorn",
   "the great arena"

@@ -41,7 +41,7 @@ export function fmtSpecs(s) {
 
 const count = list => list.reduce((m, x) => m.set(x, (m.get(x) || 0) + 1), new Map());
 
-export const isList = id => /\/(kw|faq\/\d+\/al)$/.test(id);
+export const isList = id => /\/(kw|faq\/\d+\/al|fx\/[0-9a-f]+\/al)$/.test(id);
 
 // Why a translation can't be used as it stands, or null. `id` is the string's id ("ui/..." or "<key>/<path>"),
 // `locale` the language it's in ("deDE"), for the blocklist.

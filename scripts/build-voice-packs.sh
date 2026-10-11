@@ -31,12 +31,12 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
   || { echo "${0##*/}: this worktree is sparse; run 'git sparse-checkout disable' here first, or use" \
          "~/git/lore-forever" >&2; exit 1; }
 exec python3 - "$ROOT" "$@" <<'PY'
-import re, sys, zipfile, subprocess
+import atexit, re, shutil, sys, tempfile, zipfile, subprocess
 from pathlib import Path
 
 root = Path(sys.argv[1])
 sys.path.insert(0, str(root / "scripts"))
-from transport_assets import TransportError, validate as validate_transport
+from transport_assets import TransportError, pause_split, pause_split_coverage, split_note, validate as validate_transport
 from load_order import LoadError, addon_files
 addons, out = root / "addon", root / "dist" / "packs"
 VERSIONED = "--versioned" in sys.argv[2:]
@@ -152,6 +152,30 @@ def language_files(locale):
 
 out.mkdir(parents=True, exist_ok=True)
 rows = []
+
+# Pause and resume (LOR-346, transport_assets.pause_split): a pack's recordings with cut points (complete stories,
+# answers, quest dialogue, overviews) ship as their pieces, from a split copy of the pack (made once, whichever zips it
+# goes in).
+SOURCES, STAGE = {}, None
+def source(folder):
+    global STAGE
+    if folder not in SOURCES:
+        SOURCES[folder] = addons / folder
+        try:
+            manifest = validate_transport(addons / folder)
+            stories, cut = pause_split_coverage(manifest)
+            if (manifest or {}).get("cuts"):
+                if STAGE is None:
+                    STAGE = Path(tempfile.mkdtemp(prefix=".pause-split-", dir=out))
+                    atexit.register(shutil.rmtree, STAGE, True)
+                SOURCES[folder], split, _ = pause_split(addons / folder, STAGE)
+                if split:
+                    print(f"{folder}: {split_note(validate_transport(SOURCES[folder]), split)}")
+            if stories and not cut:
+                print(f"{folder}: none of its {stories} complete stories has cut points, so they play whole")
+        except TransportError as e:
+            sys.exit(f"build-voice-packs: {e}")
+    return SOURCES[folder]
 for name, (folders, display) in DOWNLOADS.items():
     if name in FULL_BUNDLES:
         folders = [f for f in folders if (addons / f / f"{f}.toc").is_file()]
@@ -181,15 +205,15 @@ for name, (folders, display) in DOWNLOADS.items():
     path = out / (f"{name}-{v}.zip" if VERSIONED else f"{name}.zip")
     locale = re.search(r"_([a-z]{2}[A-Z]{2})(?:-complete)?$", name)
     lang = language_files(locale.group(1)) if locale and locale.group(1) != "enUS" else None
+    files = [(f, source(f), sorted(source(f).rglob("*"))) for f in folders]   # before the zip: a split can fail
+    if lang:
+        f, listed = lang
+        files.append((f, addons / f, [addons / f / p for p in listed]))
     with zipfile.ZipFile(path, "w") as z:
-        files = [(f, sorted((addons / f).rglob("*"))) for f in folders]
-        if lang:
-            f, listed = lang
-            files.append((f, [addons / f / p for p in listed]))
-        for f, paths in files:
+        for f, src, paths in files:
             for p in paths:
                 if p.is_file():
-                    info = zipfile.ZipInfo(f"{f}/{p.relative_to(addons / f).as_posix()}", date_time=(2026, 1, 1, 0, 0, 0))
+                    info = zipfile.ZipInfo(f"{f}/{p.relative_to(src).as_posix()}", date_time=(2026, 1, 1, 0, 0, 0))
                     info.compress_type = zipfile.ZIP_STORED if p.suffix.lower() in AUDIO else zipfile.ZIP_DEFLATED
                     info.external_attr = 0o644 << 16
                     z.writestr(info, p.read_bytes(), compresslevel=9)

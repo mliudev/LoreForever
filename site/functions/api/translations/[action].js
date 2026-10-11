@@ -31,7 +31,7 @@
 
 import { authorized } from "../../../lib/auth.js";
 import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/accounts.js";
-import { LOCALE, likeCounts } from "../../../lib/translations.js";
+import { LOCALE, likeCounts, forgetTranslatorCredits } from "../../../lib/translations.js";
 import { folderName, packZip, sectionsFor, selectEdits } from "../../../lib/langtest.js";
 import { problem } from "../../../public/translate/check.js";
 import { perMinute, slowDown } from "../../../lib/ratelimit.js";
@@ -169,7 +169,10 @@ async function save({ env }, input, user) {
   ).bind(user.id, locale, id).first();
   const now = new Date().toISOString();
   if (!text) {   // cleared: withdraw the edit that's still waiting
-    if (mine) await env.DB.prepare("DELETE FROM translation_edits WHERE id = ?").bind(mine.id).run();
+    if (mine) {
+      await env.DB.prepare("DELETE FROM translation_edits WHERE id = ?").bind(mine.id).run();
+      await forgetTranslatorCredits(env);
+    }
     return ok({ status: null });
   }
   const why = problem(id, en, text, locale);
@@ -317,6 +320,7 @@ async function decide({ env }, input) {
     const res = await env.DB.prepare(
       `UPDATE translation_edits SET status = ?, reviewed = ? WHERE user_id = ?${locale ? " AND locale = ?" : ""} AND status IN ${from}`
     ).bind(input.status, reviewed, input.user, ...(locale ? [locale] : [])).run();
+    await forgetTranslatorCredits(env);
     return ok({ updated: res.meta?.changes ?? 0 });
   }
   const ids = idList(input);
@@ -324,6 +328,7 @@ async function decide({ env }, input) {
   await env.DB.batch(ids.map(id => env.DB.prepare(
     "UPDATE translation_edits SET status = ?, reviewed = ? WHERE id = ? AND status != 'pulled'"
   ).bind(input.status, reviewed, id)));
+  await forgetTranslatorCredits(env);
   return ok({ updated: ids.length });
 }
 

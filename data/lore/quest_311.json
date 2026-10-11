@@ -24,7 +24,7 @@
  "sections": [
   {
    "title": "The Spoils of Sabotage",
-   "body": "Dwarven rivalries are rarely settled with diplomacy when there is ale on the line. Marleth Barleybrew of Brewnall Village harbor-sits a fierce competitive grudge against the distillers of Kharanos, creators of the famed Thunder Ale. After having his potent 'Scalder' slipped into the Thunderbrew cellar unnoticed, Marleth demands evidence of the feat. Hoisting a genuine barrel of Thunder Ale from beneath their noses serves as both trophy and leverage.",
+   "body": "Dwarven rivalries are rarely settled with diplomacy when there is ale on the line. Marleth Barleybrew of Brewnall Village harbor-sits a fierce competitive grudge against the distillers of Kharanos, creators of the famed Thunder Ale. After having her potent 'Scalder' slipped into the Thunderbrew cellar unnoticed, Marleth demands evidence of the feat. Hoisting a genuine barrel of Thunder Ale from beneath their noses serves as both trophy and leverage.",
    "spoiler": 0
   },
   {
@@ -41,7 +41,7 @@
     "return to marleth objective",
     "barrel turn in"
    ],
-   "answer": "You must deliver the stolen barrel of Thunder Ale back to Marleth Barleybrew at Brewnall Village to prove you successfully planted his Scalder in the Kharanos cellar."
+   "answer": "You must deliver the stolen barrel of Thunder Ale back to Marleth Barleybrew at Brewnall Village to prove you successfully planted her Scalder in the Kharanos cellar."
   },
   {
    "q": "Who is Marleth Barleybrew?",
@@ -50,7 +50,7 @@
     "marleth lore",
     "barleybrew"
    ],
-   "answer": "Marleth is a dwarven brewer residing in Brewnall Village. He takes intense pride in his family's stout recipes and holds a petty rivalry with the Thunderbrew distillers in Kharanos."
+   "answer": "Marleth is a dwarven brewer residing in Brewnall Village. She takes intense pride in her family's stout recipes and holds a petty rivalry with the Thunderbrew distillers in Kharanos."
   },
   {
    "q": "Where is the barrel brought from?",
@@ -77,7 +77,7 @@
     "marleth vs thunderbrew",
     "brewing feud"
    ],
-   "answer": "Dwarven brewmasters are fiercely competitive about their recipes. Marleth wanted to prove his own blend, the Scalder, could best or humiliate the celebrated Thunder Ale produced by the Thunderbrews."
+   "answer": "Dwarven brewmasters are fiercely competitive about their recipes. Marleth wanted to prove her own blend, the Scalder, could best or humiliate the celebrated Thunder Ale produced by the Thunderbrews."
   },
   {
    "q": "What does Marleth do with the barrel?",
@@ -85,7 +85,7 @@
     "why steal thunder ale",
     "what happens to ale"
    ],
-   "answer": "The barrel serves primarily as proof that the switch was pulled off under the noses of the Kharanos guards, though Marleth is undoubtedly delighted to keep his rival's stock."
+   "answer": "The barrel serves primarily as proof that the switch was pulled off under the noses of the Kharanos guards, though Marleth is undoubtedly delighted to keep her rival's stock."
   }
  ],
  "angles": [
