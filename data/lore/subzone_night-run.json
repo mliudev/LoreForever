@@ -41,20 +41,12 @@
     "soulgem night run"
    ],
    "answer": "The cult works alongside the satyrs, maintaining a dark soulgem within Night Run to harvest and channel demonic energies across Ashenvale."
-  },
-  {
-   "q": "What historical events happened at Night Run?",
-   "aliases": [
-    "night run lore",
-    "war of the satyr night run"
-   ],
-   "answer": "Thousands of years ago, following the Great Sundering, early druids wielding the feral Pack Form attacked night elf Sentinels here, wounding Shandris Feathermoon and marking an explosive opening in the War of the Satyr."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The defilement of Night Run is an enduring scar: these ancient stones were soaked in night elf blood during the War of the Satyr and remain corrupted by the twisted Felmusk."
+   "text": "The defilement of Night Run is an enduring scar: these ancient elven stones now shelter the twisted Felmusk."
   },
   {
    "target": "faction:Alliance",

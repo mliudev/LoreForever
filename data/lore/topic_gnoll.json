@@ -16,7 +16,7 @@
   },
   {
    "title": "The Gnoll War",
-   "body": "Though usually fractured by petty squabbles, united gnolls once brought the kingdom of Stormwind to its knees. Decades before the First War, a packlord named Garfang subjugated the tribes around Redridge and launched coordinated assaults on Stormwind City. While city defenders were pinned down, gnoll raiders laid waste to Westfall's farms. The crisis only ended when King Barathen Wrynn led a daring strike into the Redridge Mountains and severed Garfang's head. Deprived of leadership, the gnolls turned on each other in bloody infighting, shattering their grand coalition forever.",
+   "body": "Though usually fractured by petty squabbles, united gnolls once waged open war on the kingdom of Stormwind. Stormwind's armies prevailed in that Gnoll War, and the kingdom enjoyed a lasting peace afterward until the orcs came through the Dark Portal.",
    "spoiler": 0
   },
   {
@@ -52,11 +52,9 @@
   {
    "q": "What was the Gnoll War?",
    "aliases": [
-    "king barathen gnoll war",
-    "garfang invasion",
     "stormwind gnoll war"
    ],
-   "answer": "Roughly seventy-five years before the First War, Packlord Garfang united the Redridge gnolls and laid siege to Stormwind while burning Westfall. King Barathen Wrynn rode into the mountains and personally slew Garfang, sparking suicidal infighting that broke the gnoll horde."
+   "answer": "Long before the First War, united gnoll packs waged war on the kingdom of Stormwind. The kingdom's armies prevailed, and Stormwind enjoyed a lasting peace afterward until the orcs came through the Dark Portal."
   },
   {
    "q": "Why are gnolls working with the Defias Brotherhood?",
@@ -105,7 +103,6 @@
   }
  ],
  "keywords": [
-  "garfang",
   "gnoll",
   "hogger",
   "mosshide",

@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Bastion of the Great Tree",
-   "body": "Long before the modern conflicts between the Alliance and Horde, Raynewood Retreat served as a military staging ground for night elf defenders during the ancient War of the Satyr millennia ago. Today, the encampment retains its sacred martial purpose. Nestled between Shael'dryn's moonwell and the satyr-infested ruins of Night Run, the outpost is fiercely guarded by Cenarion Protectors, faerie dragons, and Laughing Sisters. Their collective vigilance keeps a wary eye on the encroaching taint descending from Felwood just to the north.",
+   "body": "Nestled between Shael'dryn's moonwell and the satyr-infested ruins of Night Run, the outpost is fiercely guarded by Cenarion Protectors, faerie dragons, and Laughing Sisters. Their collective vigilance keeps a wary eye on the encroaching taint descending from Felwood just to the north.",
    "spoiler": 0
   },
   {
@@ -56,14 +56,6 @@
     "braelyn firehand quest"
    ],
    "answer": "Braelyn Firehand hires Horde adventurers to infiltrate the tree and seek Keeper Ordanus. Her motives and allegiances are uncovered through the quest."
-  },
-  {
-   "q": "What is the history of this place?",
-   "aliases": [
-    "raynewood history",
-    "war of the satyr raynewood"
-   ],
-   "answer": "Nearly ten thousand years ago, during the War of the Satyr, the night elf military utilized Raynewood Retreat as an operational base to combat the demonic satyr forces threatening Kalimdor."
   }
  ],
  "angles": [

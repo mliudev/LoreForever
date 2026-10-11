@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Mystral Lake"
  },
- "summary": "Mystral Lake is the largest body of water in Ashenvale, resting in the south-central forest just below Silverwind Refuge. Once a tranquil sanctuary guarded by water elementals loyal to the night elves, its waters have become fraught with danger due to corruption of the local elementals.",
+ "summary": "Mystral Lake is the largest body of water in Ashenvale, resting in the south-central forest just below Silverwind Refuge. Its deep waters draw travelers from both the Alliance and the Horde.",
  "sections": [
   {
-   "title": "A Corrupted Sanctuary",
-   "body": "Spanning a vast expanse south of Silverwind Refuge and east of Talondeep Vale, Mystral Lake was long cherished by the kaldorei for its pure waters and peaceful guardian elementals. However, dark interference has broken that ancient peace. The rogue mage Sarilus Foulborne turned his arts upon the lake's water spirits, corrupting them into hostile, violent entities. Today, travelers from both the Horde and Alliance frequently find their journeys pulling them to these troubled shores, contending with the wrath of spirits that once sheltered the woods.",
+   "title": "The Forest's Great Lake",
+   "body": "Spanning a vast expanse south of Silverwind Refuge and east of Talondeep Vale, Mystral Lake is the largest lake in Ashenvale. The night elves keep watch over it from their outpost at Silverwind Refuge on its northern shore, and travelers from both the Horde and the Alliance frequently find their journeys pulling them to its banks.",
    "spoiler": 0
   },
   {
    "title": "Spiritual Crossroads",
-   "body": "Beyond the corruption troubling the local night elves, Mystral Lake draws attention across faction lines. Horde shaman traveling the path of elemental communion seek out its deep waters during their trials to understand the element of water. Despite the corruption infesting its guardian spirits, the raw primal resonance of the lake makes it an essential pilgrimage site for those learning to bind and respect the tidal spirits.",
+   "body": "Mystral Lake draws attention across faction lines. Horde shaman traveling the path of elemental communion seek out its deep waters during their trials to understand the element of water. The raw primal resonance of the lake makes it an essential pilgrimage site for those learning to bind and respect the tidal spirits.",
    "spoiler": 0
   }
  ],
@@ -29,15 +29,6 @@
     "lake mystral map"
    ],
    "answer": "Mystral Lake lies in south-central Ashenvale. It sits directly south of Silverwind Refuge and east of Talondeep Vale, making it the largest open body of water in the forest."
-  },
-  {
-   "q": "Why are the water elementals here hostile?",
-   "aliases": [
-    "why are water elementals attacking",
-    "corrupted water elementals",
-    "who corrupted mystral lake"
-   ],
-   "answer": "The water elementals were originally peaceful and loyal to the night elves of Ashenvale. However, a rogue caster named Sarilus Foulborne corrupted them, twisting their gentle nature into relentless hostility toward any who approach the lake."
   },
   {
    "q": "Why do shaman visit Mystral Lake?",
@@ -53,7 +44,7 @@
     "is mystral lake horde or alliance",
     "who owns mystral lake"
    ],
-   "answer": "Neither faction holds direct military control over the lake itself. The night elves monitor it from nearby outposts like Silverwind Refuge, but hostile corrupted elementals currently dominate the waters, threatening members of both the Alliance and the Horde."
+   "answer": "Neither faction holds direct military control over the lake itself. The night elves monitor it from their outpost at Silverwind Refuge on its northern shore."
   }
  ],
  "angles": [
@@ -63,7 +54,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "Once home to peaceful guardians aligned with your people, the lake stands as a bitter reminder of the outside corruption encroaching upon Ashenvale's sacred groves."
+   "text": "Watched over from Silverwind Refuge, the largest lake in Ashenvale lies at the heart of the forest your people defend."
   }
  ],
  "keywords": [
@@ -71,7 +62,6 @@
   "call of water",
   "lake mystral",
   "mystral lake",
-  "sarilus foulborne",
   "silverwind refuge",
   "water elementals"
  ],

@@ -47,21 +47,12 @@
     "wendigo kharanos"
    ],
    "answer": "Kharanos faces constant pressure from aggressive Frostmane troll tribes entrenched on Shimmer Ridge to the northwest, as well as predatory wendigo roaming the icy caves directly to the west."
-  },
-  {
-   "q": "Who was Lazlo Grindwidget?",
-   "aliases": [
-    "lazlo hero",
-    "who saved kharanos",
-    "giant troll attack kharanos"
-   ],
-   "answer": "Lazlo Grindwidget is remembered as a local folk hero who saved Kharanos when a massive Frostmane troll assaulted the settlement and nearly overwhelmed the dwarven defenders."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves leaving the sheltered crags of Coldridge Pass, Kharanos is the first taste of the wider kingdom, filled with steaming forges and the legendary stout of the Thunderbrew clan."
+   "text": "For dwarves leaving the sheltered crags of Coldridge Valley, Kharanos is the first taste of the wider kingdom, filled with steaming forges and the legendary stout of the Thunderbrew clan."
   },
   {
    "target": "race:Gnome",
@@ -73,7 +64,6 @@
   "dun morogh",
   "frostmane",
   "kharanos",
-  "lazlo grindwidget",
   "shimmer ridge",
   "thunderbrew"
  ],

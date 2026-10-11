@@ -12,8 +12,9 @@ Options.DEFAULTS = {
   storylines = true,       -- say a quest is part of a storyline, under its title and on its entry (Storyline.lua)
   storylineChat = true,    -- turning in a storyline quest names who gives the next one (Storyline.OnTurnIn)
   floatPlayer = true,      -- the narration player floats on screen while the panel is closed (UI.UpdateNowPlaying)
-  reportCross = false,     -- a cross on the narration player that reports the recording (ClipReport.lua, LOR-232);
-                           -- the player's right-click menu offers it either way. Off until Mike has seen it in game.
+  reportCross = true,      -- a cross on the narration player that reports the recording (ClipReport.lua, LOR-232);
+                           -- the player's right-click menu offers it either way (turned on once for older installs:
+                           -- Log.Init's featuresOn)
   minimap = true,          -- minimap button (turned on once for installs from before it was the default: Log.Init)
   typing = true,           -- answers type in quickly instead of appearing at once
   chatLinks = true,        -- names of other entries in answers are links (UI.Linker), Back / Forward above the chat
@@ -31,16 +32,16 @@ Options.DEFAULTS = {
   tips = true,             -- one tip at login about a feature (Core.lua loginTip), until they run out
   journey = true,          -- "Remember my journey": record places, people, quests and foes for Journey
   pictureHideUI = true,    -- the journey picture key hides the interface for its picture, out of combat (Journey.lua)
-  -- Kept off and out of the settings page until these flows have been checked in the actual game. Existing manually
-  -- bound picture keys and /lore picture still work. The companion's book must also be on for these additions.
-  pictureShortcuts = false,
-  pictureMilestones = false,
-  automaticPictures = true, -- player opt-out; only used when the checked milestone feature and companion book are on
+  -- Pictures at milestones (Journey.MilestonePicture): a level, a boss, a first zone or dungeon, with the companion's
+  -- picture book on. Never in combat or on a flight, ten a day at most.
+  automaticPictures = true,
   capture = true,          -- keep the quest, gossip and book text Forever shows, to share at /contribute (Capture.lua)
-  -- The small Contribute button on quest, gossip and book windows (Capture.lua). Off until Mike has seen it in game
-  -- (0.8.0). Defaults are written into SavedVariables, so turning it on for everyone later takes a one-time switch in
-  -- Log.Init (like minimapOn), not just changing this.
-  contributeButtons = false,
+  -- Live game info: a tiny block of coloured cells in the top-left corner that the companion app reads (Strip.lua,
+  -- LOR-416). Opt-in: it shows on screen, and the companion has its own switch for reading it.
+  liveStrip = false,
+  -- The small Contribute button on quest, gossip and book windows (Capture.lua). Defaults are written into
+  -- SavedVariables, so older installs (saved off) are turned on once by Log.Init's featuresOn.
+  contributeButtons = true,
   language = "auto",       -- "auto" (the game client's language), "enUS" or a language pack's locale
   -- Narration voices: voiceOrder (pack add-on names, "auto" = the default pack) and voiceOff (unticked ones) are
   -- set up by Voice.lua, which also moves the old one-voice setting (voicePack) into them.
@@ -573,13 +574,13 @@ local function rows()
     { "skipHeard", L["Skip what you've heard"], L["Don't play a narration by itself again once this character has heard it. You can still play it any time; the Library ticks the ones you've heard."] },
     { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
     { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC."] },
+    { "liveStrip", L["Live game info for the companion app"], L["Shows a tiny block of colored squares in the top-left corner. The Lore Forever companion app on this PC reads it, so Sam knows where you are, what you're fighting and your tracked quest right away instead of after a /reload. Turn on Live game info in the companion's Settings too. Nothing is sent anywhere, and the companion never presses keys or clicks in the game."] },
     { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or set Take a journey picture in Key Bindings, AddOns. This option hides your interface for a moment, except in combat. In the companion, turn on Picture book and connect your profile. Pictures with the interface need On my profile."] },
     { "capture", L["Keep the quest text you see"], L["Keep the quest, gossip and book text Forever shows you, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it."] },
     { "contributeButtons", L["Contribute buttons"], L["A small button on quest, gossip and book windows whose text Lore Forever doesn't have yet. Click it for a link to share that text."] },
     { "tips", L["Tips at login"], L["Now and then at login, a tip in chat about something Lore Forever can do."] },
   }
-  if LoreForeverDB.settings.pictureMilestones == true and ns.Journey and ns.Journey.PictureBookOn() then
-    -- The rollout gate stays separate from this choice: an opt-out stays visible and can be undone.
+  if ns.Journey and ns.Journey.PictureBookOn() then
     for i, row in ipairs(out) do
       if row[1] == "pictureHideUI" then
         table.insert(out, i + 1, { "automaticPictures", L["Automatic journey pictures"],
@@ -736,6 +737,7 @@ function Options.Create()
       if key == "onDemand" then ns.Voice.SetOnDemand(self:GetChecked()) end
       if key == "questDialogue" then ns.Voice.SetQuestDialogue(self:GetChecked()) end
       if key == "journey" and ns.Journey then ns.Journey.OnToggle() end
+      if key == "liveStrip" and ns.Strip then ns.Strip.Update() end
       if key == "storylines" and ns.UI and ns.UI.Refresh then ns.UI.Refresh() end
       if key == "storylines" and ns.Hooks and ns.Hooks.RefreshQuestStory then ns.Hooks.RefreshQuestStory() end
       if key == "contributeButtons" and ns.Capture then ns.Capture.UpdateAll() end

@@ -10,8 +10,8 @@
  "summary": "Goblins are diminutive, cunning humanoids originating from the Isle of Kezan, renowned across Azeroth for their relentless pursuit of profit, explosive engineering, and aggressive trade cartels. While most maintain a stance of strict neutrality to maximize commerce between the Alliance and Horde, mercenary and cutthroat outfits like the Venture Company and Steamwheedle Cartel leave an indelible mark on every corner of the world.",
  "sections": [
   {
-   "title": "Kaja'mite and the Trade Wars",
-   "body": "Long ago on the Isle of Kezan, primitive goblins were subjugated by Zandalari trolls and forced to excavate deposits of a potent, mind-expanding mineral known as kaja'mite. Breathing in the subterranean ore dust dramatically heightened their intellect. Developing devastating firearms, explosives, and traps in secret, the goblins overthrew their troll masters in a sudden uprising. Once liberated, their society fractured into competing economic syndicates known as cartels. When kaja'mite veins dwindled and their inspired genius turned erratic and volatile, goblin leaders channeled their ambitions directly into cutthroat mercantilism and global industrial dominance.",
+   "title": "Cartels of Kezan",
+   "body": "Goblins hail from the Isle of Kezan in the South Seas, where their society long ago divided into competing economic syndicates known as cartels. Rather than building kingdoms or armies of their own, goblin leaders channeled their ambitions into cutthroat mercantilism, volatile engineering, and industrial ventures that now reach every corner of the world.",
    "spoiler": 0
   },
   {
@@ -42,7 +42,7 @@
     "why do goblin machines blow up",
     "goblin vs gnome tech"
    ],
-   "answer": "Their sudden technological leap was spurred by inhaling kaja'mite ore dust. As Kezan's mineral reserves dwindled over generations, goblin intelligence became more erratic, leaving behind an engineering philosophy prioritizing raw power, haste, and high explosive yields over structural safety."
+   "answer": "Goblin engineering prizes raw power, haste, cheap production, and high explosive yields over structural safety, so their devices deliver spectacular results and spectacular explosions in roughly equal measure."
   },
   {
    "q": "What is the Steamwheedle Cartel?",
@@ -78,7 +78,7 @@
     "goblin home island",
     "kezan"
    ],
-   "answer": "Goblins hail from the tropical Isle of Kezan in the South Seas. It was there that they were enslaved by trolls, unearthed kaja'mite, threw off their chains, and built an empire of commerce and industrial smog."
+   "answer": "Goblins hail from the tropical Isle of Kezan in the South Seas. It was there that their great trading cartels first rose, building an empire of commerce and industrial smog."
   }
  ],
  "angles": [
@@ -88,7 +88,7 @@
   },
   {
    "target": "profession:Mining",
-   "text": "The goblin ascent from primitive islanders to industrial pioneers was driven by the mining of kaja'mite, and modern cartels remain fiercely protective of valuable mineral claims across Kalimdor and the Eastern Kingdoms."
+   "text": "Mining fuels the goblin cartels' industry and trade, and they remain fiercely protective of valuable mineral claims across Kalimdor and the Eastern Kingdoms."
   },
   {
    "target": "faction:Alliance",
@@ -106,7 +106,6 @@
   "engineering",
   "gadgetzan",
   "goblin",
-  "kaja'mite",
   "kezan",
   "steamwheedle",
   "venture company"

@@ -1,0 +1,21 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <!-- Written by pipeline/lore/compile_lua.py for itIT, do not edit by hand: the pack's files in load order. -->
+  <Script file="UI.lua"/>
+  <Script file="Names.lua"/>
+  <Script file="Entries.lua"/>
+  <Script file="Clips.lua"/>
+  <Script file="Search_1.lua"/>
+  <Script file="Search_2.lua"/>
+  <Script file="Search_3.lua"/>
+  <Script file="Search_4.lua"/>
+  <Script file="Search_5.lua"/>
+  <Script file="Search_6.lua"/>
+  <Script file="Search_7.lua"/>
+  <Script file="Search_8.lua"/>
+  <Script file="Search_9.lua"/>
+  <Script file="Search_10.lua"/>
+  <Script file="Search_11.lua"/>
+  <Script file="Search_12.lua"/>
+  <Script file="Search_13.lua"/>
+  <Script file="Search_14.lua"/>
+</Ui>

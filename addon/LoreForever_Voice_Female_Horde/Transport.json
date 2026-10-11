@@ -727,7 +727,3124 @@
         "sha256": "7f62c75900ebdeb695894a99782b26d29543bc4b8d0bcdaf886ef02c9bdc1178"
       },
       "text": "Mangletooth. Mangletooth is an imprisoned Razormane quilboar held captive by the Horde inside Camp Taurajo. Facing execution, he trades strategic information about his rivals and the ancient lore of Agamaggan to adventurers willing to do his bidding. Held in a cage at Camp Taurajo by tauren hunters and orc sentries, Mangletooth is a captured Razormane quilboar awaiting execution. Rather than resigning to death, he attempts to manipulate his captors and visiting Horde adventurers into striking down the enemies of his tribe, hoping his cunning will prove his worth or secure his rescue. Well-versed in the religious history of his people, Mangletooth knows that the massive thorns across the Barrens sprang from the spilled blood of Agamaggan during the ancient War of the Ancients. By collecting red crystalline Blood Shards from fallen Bristlebacks, Mangletooth channels the residual divine energy of the fallen boar god, bestowing formidable ancient blessings upon those who aid him."
+    },
+    "npc:thork": {
+      "1": [
+        {
+          "duration": 64.07836734693878,
+          "file": "Audio/Transport/full_npc_thork-cd130321249473365731/1-0000.mp3",
+          "sha256": "d15f2ac797bf86045218e848eea2116e8cc25bd80f7494bd0c47763d9ff183bc",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "06d370",
+      "generation": "2bbbcce1ed39c1ab26ab",
+      "hash": "b4da80",
+      "source": {
+        "duration": 64.078367,
+        "file": null,
+        "sha256": "cd1303212494733657319379a483239a16b375a7a330e75839bf24933fa17ce2"
+      },
+      "text": "Thork. Thork is an orc warrior stationed at the Crossroads who oversees the settlement's local defenses. Charged with securing the bustling crossroads of the Barrens, he directs Horde adventurers to push back raiders and secure vital supply lines. The Crossroads serves as the beating heart of Horde transit in Kalimdor, connecting Durotar, Mulgore, and the wilds beyond. Holding it is no easy feat. Thork shoulders the responsibility of defending the town from constant external pressures. Between quillboar raids, centaur aggression, and marauding harpies, his forces are stretched thin, forcing him to rely on capable travelers and emerging champions to handle critical security tasks. Thork's duties extend well beyond the walls of the Crossroads itself. He coordinates defense efforts along vital supply corridors, dispatching scouts and liaisons north toward the Mor'shan Rampart to report directly to Kadrak. Keeping these northern and eastern arteries open is essential to sustaining the Horde's presence in the harsh and unforgiving scrublands of the Barrens."
+    },
+    "subzone:agama-gor": {
+      "1": [
+        {
+          "duration": 78.47183673469388,
+          "file": "Audio/Transport/full_subzone_agama-gor-edf56153db41942b105d/1-0000.mp3",
+          "sha256": "06ba77e901a47e8e4f3a9313e6adcd2c835981d5cd844c6003894a89b4a36eb3",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "689e8e",
+      "generation": "7cbd978b78b06f2bd7c9",
+      "hash": "979eca",
+      "source": {
+        "duration": 78.471837,
+        "file": null,
+        "sha256": "edf56153db41942b105de67bdfcad92aa5dbbac673ec0a61f8efa1f1c944abe1"
+      },
+      "text": "Agama'gor. Agama'gor is a major Bristleback quilboar encampment situated in the southern Barrens, nestled just north of the road leading west toward Mulgore from Camp Taurajo. It represents a constant thorn in the side of the nearby Horde outpost, teeming with hostile quilboar fiercely clinging to their rugged territory. Sprawling across the dusty plains of the southern Barrens, Agama'gor serves as a fortified settlement for the aggressive Bristleback tribe of quilboar. Located dangerously close to Camp Taurajo, the quilboar here maintain a dense network of brambles, huts, and crude totems. Their heavy presence poses an active threat to travelers moving between the Barrens and the grassy hills of Mulgore, prompting Horde scouts and hunters to wage a perpetual war of containment against them. Beyond the general animosity between the Horde and the quilboar, Agama'gor is a prime source of the mysterious, crimson stones known as Blood Shards. Found on the Bristleback inhabiting this village, these geomantic minerals are prized by Mangletooth, a quilboar exile held captive at Camp Taurajo. Driven by ancient beliefs tied to Agamaggan's sacred essence, adventurers often raid Agama'gor to harvest these shards and trade them for potent tribal charms."
+    },
+    "subzone:ambermill": {
+      "1": [
+        {
+          "duration": 54.17795918367347,
+          "file": "Audio/Transport/full_subzone_ambermill-92b1c304b401cf6ee3c0/1-0000.mp3",
+          "sha256": "aa71e9fe27bb9aa6f577cf34994e8b076752185ee36def7f5c242586407a1179",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3be2e6",
+      "generation": "da410cde54e403d71bd1",
+      "hash": "dab7a5",
+      "source": {
+        "duration": 54.177959,
+        "file": null,
+        "sha256": "92b1c304b401cf6ee3c0d50946efc0a850a081fd4605fa44a187187cc77dc303"
+      },
+      "text": "Ambermill. Ambermill is a fortified human settlement in central Silverpine Forest, situated just southwest of Lordamere Lake. Originally a Gilnean lumber village, it is now occupied by surviving wizards and apprentices of Dalaran. Their presence represents a dangerous outpost of human resistance on the southern borders of the Forsaken realm. Before the Third War, Ambermill was a quiet lumber town on lands owned by the Gilnean nobleman Darius Crowley. When King Genn Greymane erected the Greymane Wall to seal his kingdom away, Ambermill was left stranded outside alongside Pyrewood Village. In the chaotic aftermath of Lordaeron's fall, the surviving wizards of the Kirin Tor moved in and fortified the settlement. Dalaran spellscribes, conjurors, and apprentices now patrol its buildings and stables, using Ambermill as a forward redoubt against the undead."
+    },
+    "subzone:apothecarium": {
+      "1": [
+        {
+          "duration": 83.2,
+          "file": "Audio/Transport/full_subzone_apothecarium-c5dcf0bdac4662fcbb58/1-0000.mp3",
+          "sha256": "670f94bc09cd81e1e8436a5fda8985713253d7688ae95447b93ae8da09b749aa",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "84c0ea",
+      "generation": "4407296ccb7a68eb750d",
+      "hash": "47efe4",
+      "source": {
+        "duration": 83.2,
+        "file": null,
+        "sha256": "c5dcf0bdac4662fcbb585ec119eea1f44ef8b79c6c2f229e5ca5142fbcd5d35f"
+      },
+      "text": "Apothecarium. The Apothecarium is the southwestern quarter of the Undercity and the headquarters of the Royal Apothecary Society. Within these noxious laboratories, Forsaken alchemists labor tirelessly under Master Apothecary Faranell to concoct virulent plagues, toxins, and engineered horrors. It stands as the grim heart of Undercity's biological research, vital to Lady Sylvanas's campaign against the living and the Scourge. Occupying the southwestern terrace of the subterranean capital, the Apothecarium is a labyrinth of bubbling vats, dissection tables, and pungent chemical fumes. Led by Master Apothecary Faranell, the Royal Apothecary Society utilizes this district to advance their understanding of mortality and rot. Here, alchemists and surgeons experiment on tissue grafts, vivisection, and the assembly of mighty abominations. Their overriding purpose, mandated by Lady Sylvanas Windrunner, is the formulation of a new plague capable of eradicating both the Scourge and the lingering human presence across Lordaeron. Beyond grand military ambitions, the quarter serves as the premier center of practical alchemy and herbalism for the Horde in the Eastern Kingdoms. Initiates and masters alike gather beside toxic canals to distill concoctions, study botanical blights, and consult master practitioners."
+    },
+    "subzone:bael-dun-digsite": {
+      "1": [
+        {
+          "duration": 73.03836734693877,
+          "file": "Audio/Transport/full_subzone_bael-dun-digsite-fa13b1c36e30092376ca/1-0000.mp3",
+          "sha256": "4ff52f43247ef88d42a910ae99e2d3989f787336123c33adf189271d53388a59",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "9f6fb8",
+      "generation": "677360f317402a19ce8b",
+      "hash": "1da3fe",
+      "source": {
+        "duration": 73.038367,
+        "file": null,
+        "sha256": "fa13b1c36e30092376ca737fd365341e8c323fdbd742c1d7df84d0a85fc2ed27"
+      },
+      "text": "Bael'dun Digsite. The Bael'dun Digsite is a dwarven excavation carved deep into the mountains along the western edge of Mulgore. Established by Prospector Khazgorm's team out of Bael Modan, the quarry is viewed by the local tauren as a direct desecration of their ancestral homeland and an insult to the Earth Mother. Perched on the mountain slopes of western Mulgore, the Bael'dun Digsite represents the southernmost reach of the dwarven Explorers' League expedition based out of Bael Modan in the southern Barrens. Unconcerned with territorial borders or the spiritual traditions of the newly settled tribes, dwarven prospectors arrived with picks, shovels, and blasting powder to unearth ancient Titan relics buried beneath the plains. The Bloodhoof tribe viewed this invasive quarrying as an outright assault on the Earth Mother. Baine Bloodhoof initially urged caution and attempted to warn the interlopers away, but the dwarves flatly refused to abandon their trenches. Concluding that diplomacy had failed, the tauren resolved to break the expedition's tools and forcibly expel the miners before their destructive digging tears further into Mulgore's sacred earth."
+    },
+    "subzone:bael-dun-keep": {
+      "1": [
+        {
+          "duration": 84.61061224489796,
+          "file": "Audio/Transport/full_subzone_bael-dun-keep-8fa2b0f688d9dcfb054d/1-0000.mp3",
+          "sha256": "7567e9fa03f0bf1130d8b6351c8c603bf908598dab6fb00d5cce00ecb01a5fcb",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "6cfda8",
+      "generation": "f8451ae72c9fc698852f",
+      "hash": "6ce2f8",
+      "source": {
+        "duration": 84.610612,
+        "file": null,
+        "sha256": "8fa2b0f688d9dcfb054d40f2daaf04ae8c92082676b7fefca97dcb35e5aebae3"
+      },
+      "text": "Bael'dun Keep. Bael'dun Keep is an imposing dwarven fortification overlooking the Bael Modan excavation in the southern Barrens. Under the command of General Twinbraid, this fortress anchors the Alliance's controversial presence in the region, bringing them into violent conflict with the surrounding Horde territories. Constructed according to designs by the dwarven architect Haggis Boatmurder, Bael'dun Keep serves as the fortified military heart of the Ironforge presence in the southern Barrens. Towering over the expansive excavation trenches of Bael Modan, the fortress protects the Prospectors and archaeologists searching for ancient titan artifacts. Heavily armed with ironworks and artillery, its garrison maintains a vigilant watch, securing dwarven supply lines and projecting Alliance martial power straight into Kalimdor's heartland. The construction of Bael'dun Keep and the adjoining digsite did not come peacefully; it displaced the local Stonespire tribe of tauren from their ancestral home. Now, Bael'dun sits as a simmering flashpoint in the Barrens. Nearby Horde outposts view the fortress as a flagrant military intrusion, while Gann Stonespire wages a personal war of vengeance against the invaders. Between aggrieved tauren, opportunistic scouts, and suspicious outposts like Camp Taurajo, the keep is constantly under threat of raid and sabotage."
+    },
+    "subzone:bandarion-keep": {
+      "1": [
+        {
+          "duration": 75.67673469387755,
+          "file": "Audio/Transport/full_subzone_bandarion-keep-780490ab8bf7bdf60413/1-0000.mp3",
+          "sha256": "85651ce3d8211eb2a6f39a0b7121f7026bf67d9db03e518f639acbddb12caf9e",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3bdf1f",
+      "generation": "13909cc841525913ceb8",
+      "hash": "99d14c",
+      "source": {
+        "duration": 75.676735,
+        "file": null,
+        "sha256": "780490ab8bf7bdf604133df9105d8e44c8c4697f4ec4fbe0d119d5d8fe787cec"
+      },
+      "text": "Bandarion Keep. Bandarion Keep is a fortified redoubt associated with Tyr's Watch, nestled in the western reaches of Tirisfal Glades near the Whispering Forest. Named in honor of Garek Bandarion, the outpost serves as an isolated bulwark amidst lingering threats across the woodland frontier. Its defenders contend with everything from hostile coastal murlocs to roving zealots and unstable undead. Situated near the secluded Whispering Forest in western Tirisfal Glades, Bandarion Keep stands as a solitary sentinel for the Forsaken. Named after Garek Bandarion, this stronghold is closely tied to Tyr's Watch. Quartermasters like Jorin Croge work diligently to keep the garrison supplied despite its remote and challenging position far from the bustling courtyards of the Undercity. Holding the keep is no quiet assignment. The outpost faces constant danger from Vile Fin murloc raids along nearby waters, probing skirmishes by the Scarlet Crusade, and stray, mindless Scourge thralls shambling through the gloom. Worse still are internal perils: certain paladins struggling to adjust to their unlife as Forsaken have succumbed to madness, turning their weapons against their own kindred."
+    },
+    "subzone:blackthorn-ridge": {
+      "1": [
+        {
+          "duration": 51.61795918367347,
+          "file": "Audio/Transport/full_subzone_blackthorn-ridge-9b209e2dcf3296ee16dd/1-0000.mp3",
+          "sha256": "789495f5a95aae170a4b379d8a54da02edc888fd29573443f7a7cdeaf98c11d9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "20e200",
+      "generation": "4c7c5a580154bd9d4b92",
+      "hash": "73ae91",
+      "source": {
+        "duration": 51.617959,
+        "file": null,
+        "sha256": "9b209e2dcf3296ee16dd42a4c04b0ed92a3b4452ada409d58fade275b87d8308"
+      },
+      "text": "Blackthorn Ridge. Blackthorn Ridge is a jagged, bramble-choked valley tucked away in the southern reaches of the Barrens, immediately north of Razorfen Kraul. The area crawls with aggressive Razormane quilboar guarding their thorny settlements. High on the ridge above sits the camp of the orc shaman Brine, watching over an unusually pure pool of mountain water. Nestled near the towering burls of Razorfen Kraul, Blackthorn Ridge is dominated by dense thickets of massive, sharp briars. The Razormane quilboar consider these grounds ancestral territory, using the natural barricades to ambush outsiders and stage skirmishes into the southern Barrens. Despite the constant danger, travellers seek out the ridge for the hermit orc shaman Brine, who tends a camp perched above a spring noted across Kalimdor for its remarkable clarity and spiritual purity."
+    },
+    "subzone:bladefist-bay": {
+      "1": [
+        {
+          "duration": 77.1395918367347,
+          "file": "Audio/Transport/full_subzone_bladefist-bay-fbd6f1fc872bad878b9e/1-0000.mp3",
+          "sha256": "8a23ba2d5c5aa64e343dad7a8f0f09b97a07c3050455431004c9b4042a982082",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "fe7a1e",
+      "generation": "6259fcfbf782c053997d",
+      "hash": "b75c90",
+      "source": {
+        "duration": 77.139592,
+        "file": null,
+        "sha256": "fbd6f1fc872bad878b9ef32768a592091717cbf0bb186cce14c88e40f7f0b0ef"
+      },
+      "text": "Bladefist Bay. Bladefist Bay is the rugged stretch of coast lining eastern Durotar just outside the gates of Orgrimmar. Named in honor of Kargath Bladefist, the bay serves as a natural harbor facing the Great Sea, shadowed by craggy bluffs and the nearby southern shores of Azshara. Stretching along the northeastern edge of Durotar, Bladefist Bay opens directly into the vast waters of the Great Sea. Flanked by rocky cliffs and treacherous surf, it functions as a primary maritime threshold for the Horde capital of Orgrimmar. The tides frequently deposit driftwood, ocean refuse, and flotsam onto the coastline, earning it a reputation among locals as a natural collection point for ocean debris. Directly north, the ancient red cliffs and ruins of Azshara loom across the water, making the bay a vital maritime boundary for Durotar. The bay honors Kargath Bladefist, the famed chieftain of the Shattered Hand clan who severed his own hand to replace it with a blade during the old Horde's trials on Draenor. The proximity of the bay to places like Skull Rock—where cultists and hidden rogue networks operate in the shadows—echoes the fierce and ruthless legacy of the clan whose chieftain gave the waters their name."
+    },
+    "subzone:bloodhoof-village": {
+      "1": [
+        {
+          "duration": 80.71836734693878,
+          "file": "Audio/Transport/full_subzone_bloodhoof-village-89b4998e84668f9078ff/1-0000.mp3",
+          "sha256": "f3919ed39d08b6bee76f410324e8235b6fbe13aaedf0586f62d0c598e6576fac",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "bc9163",
+      "generation": "a0d6811f71be19310c16",
+      "hash": "0fb75e",
+      "source": {
+        "duration": 80.718367,
+        "file": null,
+        "sha256": "89b4998e84668f9078ff9e4b8d33a7be035f1b62bba8ececc070107bd55be8bf"
+      },
+      "text": "Bloodhoof Village. Bloodhoof Village is a central tauren settlement resting along the banks of Stonebull Lake in Mulgore. Named in honor of the Bloodhoof tribe, it serves as the first major gathering hub for young hunters and braves journeying out from Camp Narache toward Thunder Bluff. Led by Baine Bloodhoof, the village coordinates local defense, trade, and traditional rites across the plains. Situated around the clear waters of Stonebull Lake, Bloodhoof Village is a bustling center of commerce, craft, and ceremony in central Mulgore. Young tauren departing their trials at Camp Narache arrive here to hone their skills before venturing onward to the great mesas of Thunder Bluff. It is also well-known across Kalimdor for its master drum makers and the patient breeders who tame wild kodo beasts for travel. Day-to-day governance and the defense of the region fall under Baine Bloodhoof, son of High Chieftain Cairne Bloodhoof. Under his watchful eye, braves are dispatched to secure the grasslands against aggressive wildlife, quilboar encroachers, and the shadowy presence of the Venture Company. Alongside Baine, spiritual guides such as Zarlman Two-Moons tend to the inner life of the tribe, directing novices through sacred journeys like the Rite of Vision."
+    },
+    "subzone:boulder-lode-mine": {
+      "1": [
+        {
+          "duration": 65.25387755102041,
+          "file": "Audio/Transport/full_subzone_boulder-lode-mine-bf1ca2e4a70209433d14/1-0000.mp3",
+          "sha256": "43f8a389eeb235574fd9182f53b6153437f37e3f1dc58ef3e59464b4163441b2",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "4736e5",
+      "generation": "4409d50ef92cbd6c6527",
+      "hash": "bb8084",
+      "source": {
+        "duration": 65.28,
+        "file": null,
+        "sha256": "bf1ca2e4a70209433d1431443e4f96f03e7518555fe795654071940d25f45720"
+      },
+      "text": "Boulder Lode Mine. Boulder Lode Mine is an aggressive excavation cut into the hills of the northeastern Barrens. Though orcish banners and watchtowers suggest the Horde first established the site, it is now firmly seized and operated by the ruthless Venture Company. The presence of weathered orcish architecture around the mouth of Boulder Lode Mine indicates that the Horde once held or founded the claim. Today, however, the area crawls with Venture Company overseers and enforcers working under the direction of Boss Copperplug. The goblin syndicate strip-mines the canyon with little regard for the local ecosystem or their workers, driven purely by the search for valuable minerals, high-yield gems, and industrial machinery. Word of the riches pulled from Boulder Lode Mine has reached outside ears in Ratchet. Wharfmaster Dizzywig has dispatched mercenaries to pocket a rumored massive emerald unearthed in its tunnels, while engineers seeking to understand complex goblin machinery know Boss Copperplug keeps key operational manuals hidden away within his camp."
+    },
+    "subzone:bramblescar": {
+      "1": [
+        {
+          "duration": 71.49714285714286,
+          "file": "Audio/Transport/full_subzone_bramblescar-da0086ce39a061cd7f68/1-0000.mp3",
+          "sha256": "fcb4ec57190c553fc7bf999eb050c153188f1583603c1036858a8d508ca77cdc",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "bc15c0",
+      "generation": "1f989e77be7eae87761e",
+      "hash": "319923",
+      "source": {
+        "duration": 71.523265,
+        "file": null,
+        "sha256": "da0086ce39a061cd7f68e4d79e5c184060ce7404d2f0834b55098f59fd723024"
+      },
+      "text": "Bramblescar. Bramblescar is a heavily fortified Razormane quilboar settlement situated in the southern Barrens. Thick, thorny brambles shield the encampment as its inhabitants wage a brutal war against the rival Bristleback tribe across the Gold Road. Carved into the jagged, giant briars of the southern Barrens, Bramblescar serves as a vital redoubt for the Razormane quilboar. These defensive brambles grow thick and sharp enough to deter casual wanderers, but the quilboar within are far from peaceful. Fiercely territorial and hostile to outsiders, they mount continuous skirmishes against anyone who ventures near their borders, viewing all non-quilboar as intruders upon land blessed by their ancient boar gods. Bramblescar sits in perpetual tension directly across the Gold Road from Agama'gor, an encampment held by the rival Bristleback tribe. The two factions are locked in an unrelenting tribal war for dominion over the southern Barrens. Between fighting off Horde travelers along the highway and repelling Bristleback raiding parties, the Razormane warriors of Bramblescar remain on constant, violent alert."
+    },
+    "subzone:brill": {
+      "1": [
+        {
+          "duration": 86.70040816326531,
+          "file": "Audio/Transport/full_subzone_brill-a7489d2cd49f1fca1db0/1-0000.mp3",
+          "sha256": "1f66f91f515712e4a41631e3cc9633c12daeb92e8238735316b37443b1b27830",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "9c997a",
+      "generation": "cd10f4fbfd31f6e9b40b",
+      "hash": "7657f6",
+      "source": {
+        "duration": 86.700408,
+        "file": null,
+        "sha256": "a7489d2cd49f1fca1db064a5e2f496940f53a97c98f3866919f3e4139e148c1c"
+      },
+      "text": "Brill. Brill is the primary Forsaken settlement in the heart of Tirisfal Glades, situated just north of the Ruins of Lordaeron. Once a prosperous human town, it now serves as the administrative and military hub for newly awakened undead stepping beyond the confines of Deathknell. Before the Third War, Brill was a lively village under the sway of regional nobles such as the Barov and Agamand families. That prosperity ended when Kel'Thuzad chose the area for the Cult of the Damned's earliest experiments with the Plague of Undeath. The devastating blight swept through the population so quickly that local militia were driven out, leaving a sprawling mass graveyard in its wake.\n\nNow rebuilt by the Forsaken under the leadership of Magistrate Sevren, the town retains its weathered Lordaeron architecture beneath an atmosphere of grim purpose. Brill functions as the regional command center, coordinating defenses against Scarlet Crusade incursions, roaming Scourge remnants, and native beasts warped by necromantic decay. Beyond local defense, Brill is an essential crossroads linking Tirisfal Glades to the wider Horde. Overhead, the goblin-operated zeppelin tower provides transit south toward Durotar and deep into Stranglethorn Vale. Within the settlement, Gallows' End Tavern serves not only as a dark shelter for travelers, but also as a makeshift laboratory where captured Scarlet zealots are interrogated and subjected to apothecarial testing."
+    },
+    "subzone:burning-blade-coven": {
+      "1": [
+        {
+          "duration": 81.89387755102041,
+          "file": "Audio/Transport/full_subzone_burning-blade-coven-200ca6bc24bbe8885049/1-0000.mp3",
+          "sha256": "2681bebef0ab472b78c014c73857643aa440a72e5532350290f15cb056a83098",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "62025a",
+      "generation": "eea12a792efd2be3bf21",
+      "hash": "4cc8e8",
+      "source": {
+        "duration": 81.893878,
+        "file": null,
+        "sha256": "200ca6bc24bbe888504975ca1140e7831e7950661702ebd2643178fe87d5cd85"
+      },
+      "text": "Burning Blade Coven. Tucked into the northern cliffs of the Valley of Trials, the Burning Blade Coven is an infested cave network threatening the Horde's newest recruits. Corrupted cultists and summoned demons lurk within, turning an old mineral cavern into a staging ground for dark magic right on Durotar's doorstep. The dusty red mountains rimming the Valley of Trials were once simply a testing wilderness for young orcs and Darkspear trolls taking their first steps in service to the Horde. In recent days, however, dark rituals have taken hold of the northern caves. Imps and lesser fiends spill from the cavern mouth, stirring chaos and threatening recruits. Led by the shadowy warlock Yarrog Baneshadow, the Burning Blade cult has entrenched itself deep inside, turning what was once a routine training ground into an active battleground against demonic corruption. Before the demons took root, the caves attracted the attention of local overseers hoping to harvest raw materials for the settlement. Foreman Thazz'ril ventured deep inside on a mineral survey, only to be driven out in haste, leaving valuable equipment behind as the cultists made their presence known. Now, driving back Baneshadow's coven serves as the ultimate proving trial for aspiring warriors, rogues, and spellcasters before they are deemed ready to venture out into greater Durotar."
+    },
+    "subzone:cleft-of-shadow": {
+      "1": [
+        {
+          "duration": 75.44163265306122,
+          "file": "Audio/Transport/full_subzone_cleft-of-shadow-9be75ff8f1c8e98ce66d/1-0000.mp3",
+          "sha256": "8168d880ec9627fc40d0b2164f487581b3489f425f4a06c3a58717b04d151feb",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3046b4",
+      "generation": "61623be874aba89d0f72",
+      "hash": "351799",
+      "source": {
+        "duration": 75.441633,
+        "file": null,
+        "sha256": "9be75ff8f1c8e98ce66d4b86b7f48b78dd1c696a294e89febe090d20fd3a8ffb"
+      },
+      "text": "Cleft of Shadow. Tucked deep within the subterranean caverns beneath Orgrimmar, the Cleft of Shadow houses the city's practitioners of stealth, sorcery, and demonology. Far from the proud warrior ethos of Thrall's upper districts, it serves as a necessary haven for rogues, warlocks, and mages operating in the shadows of the Horde. While Thrall's new Horde champions honor, shamanism, and strength of arms, practical leadership demands a place for subtler arts. Carved into the damp stone caverns below the capital, the Cleft of Shadow hosts the Shadowswift Brotherhood of rogues, the Darkfire Enclave of warlocks, and the scholars of the Arcane Enclave. Kept away from the everyday bustle of the valley districts, this dark quarter allows practitioners of poison, fel energy, and arcane magic to ply their trades out of direct public view while remaining under the watchful eye of Orgrimmar's leadership. Beyond acting as a center for covert instruction and magical reagents, the Cleft of Shadow descends directly into Ragefire Chasm. This fiery network of volcanic caves honeycombs beneath Orgrimmar itself, posing an ongoing security threat that draws adventurous defenders and sinister cultists alike right to the cavern's edge."
+    },
+    "subzone:crag-of-the-everliving": {
+      "1": [
+        {
+          "duration": 78.94204081632653,
+          "file": "Audio/Transport/full_subzone_crag-of-the-everliving-d982c6ddd2eac34f116c/1-0000.mp3",
+          "sha256": "1c665d9c8d5a030e44d9d7e4efc5406f85a600e3bdf7c4d4f5199dc9a06d7968",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "9387fe",
+      "generation": "4e8be8dc10bf3d30ebf4",
+      "hash": "adb7a9",
+      "source": {
+        "duration": 78.968163,
+        "file": null,
+        "sha256": "d982c6ddd2eac34f116c89c6f3624761a1b7fed1b7350d2b82b97371a8b94df2"
+      },
+      "text": "Crag of the Everliving. The Crag of the Everliving is a verdant cavern chamber nestled deep within the Wailing Caverns. Dominated by lush, corrupted flora and predatory plant creatures, it serves as the domain of the Fanglord Lord Pythas. Its towering upper reaches shelter the ancient entity after whom the crag is named. While much of the Wailing Caverns is carved of damp subterranean stone, the Crag of the Everliving bursts with unruly, twisted vegetation fueled by the Nightmare corrupting Naralex's slumber. Towering mossy platforms and winding paths are choked with Deviate Shamblers—living plant hulks prowling the undergrowth. Lord Pythas, one of Naralex's fallen disciples, watches over the crag's central reaches, having traded his noble druidic vows for the venomous rites of the Druids of the Fang. The chamber draws its name from Verdan the Everliving, a colossal, primordial plant elemental who resides in the crag's upper heights. Corrupted by the Emerald Nightmare that grips the cavern, Verdan now acts as a fearsome line of defense rather than a peaceful natural guardian. Beyond his towering form lurks Lord Serpentis, the self-proclaimed chief of the Fanglords, who oversees the sect's descent into serpentine madness."
+    },
+    "subzone:crossroads": {
+      "1": [
+        {
+          "duration": 85.96897959183673,
+          "file": "Audio/Transport/full_subzone_crossroads-e066d9bd203d70ec3feb/1-0000.mp3",
+          "sha256": "65a847d5429ddde36c577d2a761803cd3d64c1f2ad535df1b144a3ae2ce5694e",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "d7e94a",
+      "generation": "8487d5437ce4c1459937",
+      "hash": "fbb431",
+      "source": {
+        "duration": 85.96898,
+        "file": null,
+        "sha256": "e066d9bd203d70ec3feb5c23963aa4598b115622b64a16ef074d2d660bda4b83"
+      },
+      "text": "Crossroads. The Crossroads is the beating heart of Horde travel through central Kalimdor, situated where the north-south Gold Road intersects the path from Ratchet to the Stonetalon Mountains. It serves as a bustling trading outpost, military staging area, and transit hub for travelers journeying between Durotar, Mulgore, and northern frontlines. True to its name, the Crossroads sits squarely at the crossing of the Gold Road and the east-west route cutting from the goblin port of Ratchet into the Stonetalon Mountains. Despite having modest lodgings, the outpost functions as a bustling regional hub. Wind rider masters, merchants, blacksmiths, and trainers maintain permanent setups beneath its watchtowers. For young warriors traveling out from Durotar or Mulgore, the settlement is often the first place they witness the vast, multi-front logistics binding the new Horde together. Maintaining order at the Crossroads is a relentless struggle. Local wildlife—including plains raptors bold enough to plunder payroll silver from the guard towers—poses a persistent nuisance, while harpies, quilboar, and centaur tribes continually pressure the perimeter. Beyond the threats native to the Barrens, the settlement's proximity to neutral Ratchet and the contested forests of Ashenvale makes it a prime target for encroaching Alliance scouting parties, leading to frequent skirmishes just outside its defensive barricades."
+    },
+    "subzone:crusader-outpost": {
+      "1": [
+        {
+          "duration": 77.58367346938776,
+          "file": "Audio/Transport/full_subzone_crusader-outpost-61ff9a23ec64f6617c97/1-0000.mp3",
+          "sha256": "25b47433324e3fb8958e4474c2464a96c0dde252621661f2601469ece19b2f99",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "a84283",
+      "generation": "3068ed573d64296e2e7e",
+      "hash": "585b99",
+      "source": {
+        "duration": 77.609796,
+        "file": null,
+        "sha256": "61ff9a23ec64f6617c971f682206d2762b629e15d6d8f9e7c52cfdfc39fea117"
+      },
+      "text": "Crusader Outpost. Crusader Outpost is a fortified watchtower perched atop the rugged hills of eastern Tirisfal Glades. Manned by zealous members of the Scarlet Crusade, it guards the approaches leading toward their stronghold at the Scarlet Monastery. From this height, Crusaders observe travel along the road and stand ready to repel any Forsaken incursion. Built into the bluffs overlooking the eastern road, the Crusader Outpost serves as a primary early-warning station for the Scarlet Crusade. From their elevated tower, sentries watch over movement between Brill and the eastern reaches of Lordaeron, ensuring that wandering undead or scouting parties are spotted long before reaching the Monastery gates. The tower also grants the garrison tactical flanking capability against any force seeking to march up the valley toward their holy bastion. Under the command of Scarlet officers like Captain Vachon, the garrison stationed here maintains unwavering vigilance. They see the surrounding woods not as sovereign territory of the Forsaken, but as unhallowed soil stolen from humanity by monstrosities. For travelers loyal to the Undercity, the outpost represents an ever-present ambush point where crossbow bolts and cleansing steel await anyone straying too close to the bluffs."
+    },
+    "subzone:decrepit-ferry": {
+      "1": [
+        {
+          "duration": 74.94530612244898,
+          "file": "Audio/Transport/full_subzone_decrepit-ferry-215acd9cff2eddcf0dda/1-0000.mp3",
+          "sha256": "18de900011e121504b348f7c475280e2c1e2fa415f69d99737aa98be349ac79b",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3b2fb7",
+      "generation": "cfaf569374e4a9590a7e",
+      "hash": "7557a1",
+      "source": {
+        "duration": 74.971429,
+        "file": null,
+        "sha256": "215acd9cff2eddcf0ddab794ed68754afbfc9dacf294f61451e37ab669347492"
+      },
+      "text": "Decrepit Ferry. The Decrepit Ferry is a ruined dock on the eastern shore of Silverpine Forest that once provided passage across Lordamere Lake to Fenris Isle. Following the fall of Lordaeron, the ferry was destroyed, its operator murdered, and the shoreline overrun by undead and vicious Rot Hide gnolls. Before the Third War, this dock bustled with daily traffic across Lordamere Lake. Local farmers brought fresh produce down to the water, selling their crops directly to the wealthy lord of Fenris Isle and his household. For a modest fee, the ferryman carried trade goods, messengers, and visiting nobles back and forth between the mainland and the keep. That peaceful commerce ended abruptly when the Scourge swept through the kingdom. The ferryman was brutally killed, the boats were smashed, and the pier fell into decay. Today, the docks are a hazard to any traveler passing along the lake shore. With the ferry out of commission, Fenris Isle sits isolated across the water, while the ruins themselves crawl with ghouls, skeletal warriors, and roving Rot Hide gnolls. What was once an orderly point of transit has become another festering pocket of danger in Silverpine."
+    },
+    "subzone:drag": {
+      "1": [
+        {
+          "duration": 86.88326530612245,
+          "file": "Audio/Transport/full_subzone_drag-190d1576b4de1c0a9f39/1-0000.mp3",
+          "sha256": "869d88dff847c0b5ea62071fee1ae2afb26c04d758323dd9169f11874de5fc4c",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "48f0c2",
+      "generation": "d217536be2f5cec5bfab",
+      "hash": "1a62df",
+      "source": {
+        "duration": 86.883265,
+        "file": null,
+        "sha256": "190d1576b4de1c0a9f391eaef43075f84f9f0159728a9e8fcd4fb0e2ca14a49c"
+      },
+      "text": "Drag. The Drag is a bustling, shaded thoroughfare carved into the red rock of Orgrimmar, linking the Valley of Strength to the Valley of Honor and the Valley of Wisdom. Known throughout Durotar as the heart of the capital's commerce, its canyon walls are lined with crafters, traders, and artisans. It also conceals the cavernous descent into the notorious Cleft of Shadow. Tucked deep between the red canyon walls of Orgrimmar, the Drag serves as the commercial backbone of the Horde's capital. While the Valley of Strength focuses on military muster and administrative command, the Drag is where daily city life unfolds. Shaded under high cliffs and hides, the street is thick with the smells of tanning vats, bubbling alchemical cauldrons, and the clatter of tinkerers' gears. Craftsmen of almost every discipline gather here to practice their trades and teach aspiring adventurers, from leatherworking and tailoring to goblin-led engineering workshops like Nogg's Machine Shop. Beyond housing merchant storefronts and salvage houses, the Drag occupies an uneasy position within Orgrimmar's social geography. Nestled along its canyon face lies the guarded entrance to the subterranean Cleft of Shadow. This makes the Drag an inescapable crossroads where honest tradesmen, shaman on their way to the Valley of Wisdom, and secretive practitioners of dark arts brush shoulders beneath the dim, dusty overhangs of the canyon."
+    },
+    "subzone:dry-hills": {
+      "1": [
+        {
+          "duration": 78.44571428571429,
+          "file": "Audio/Transport/full_subzone_dry-hills-4e2af391fceec1ce2ce5/1-0000.mp3",
+          "sha256": "3cfebcc3c8107dbbbf0739bcf1ad66f99c272c7caaf066e3f045f1c549af3e84",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "477d2d",
+      "generation": "5056b9ff837a177b4253",
+      "hash": "4c27aa",
+      "source": {
+        "duration": 78.445714,
+        "file": null,
+        "sha256": "4e2af391fceec1ce2ce5551ce651b577c1c142050571669aad0fa1534481c4d6"
+      },
+      "text": "Dry Hills. The Dry Hills form the rugged northwestern corner of the Barrens, nestled against the foothills of the Stonetalon Mountains. Contrary to their name, these uplands are noticeably greener than the arid plains below, though they are notoriously dangerous due to the aggressive Witchwing harpies roosting along their crags. Tucked away where the arid plains rise toward the Stonetalon Mountains, the Dry Hills are somewhat of a misnomer, possessing far more verdant brush and shrubbery than the sun-bleached savannas to the south. Yet this lush foothill region offers little safety for travelers. The bluffs are dominated by the Witchwing harpies, led by the matriarch Serena Bloodfeather. From these heights, their raiding parties sweep down to prey on supply caravans using the northern stretch of the Gold Road, leaving abandoned orcish fortifications and derelict siege engines rotting in the brush. Because the Witchwing harpies routinely strike out of the hills to bleed trade routes and harass nearby settlements, the Horde maintains a standing bounty on their feathers. Adventurers venturing deep into the rocky ravines will encounter not only heavily defended harpy nests and roosts, but also prowling Hecklefang hyenas and fierce Sunscale raptors that hunt throughout the highlands."
+    },
+    "subzone:drygulch-ravine": {
+      "1": [
+        {
+          "duration": 83.90530612244898,
+          "file": "Audio/Transport/full_subzone_drygulch-ravine-aa003537faff01378413/1-0000.mp3",
+          "sha256": "12263324bc440734202421bf62145024a307fa0822142606ce241baf99e7c9e5",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ec6e2f",
+      "generation": "c90e3269106de0d3ed5e",
+      "hash": "1821a1",
+      "source": {
+        "duration": 83.931429,
+        "file": null,
+        "sha256": "aa003537faff01378413ab9c5c643dd5c052325253cc4727d371a3a3e1a04821"
+      },
+      "text": "Drygulch Ravine. Drygulch Ravine is a rugged, hidden gorge tucked into the rocky bluffs of eastern Durotar. Accessible only through an obscure cave passage from Razorwind Canyon or a perilous drop from above, this craggy trench is overrun by nesting Dustwind harpies who menace nearby supply caravans. Carved deep into the crags east of Orgrimmar, Drygulch Ravine is almost entirely cut off from casual travel. Its only ground-level access is a cramped natural tunnel connected to Razorwind Canyon. Fed by a modest river, this sheltered depression once saw peaceful orc habitation, but wild beasts and roosting Dustwind harpies have turned it into a lawless pocket of Durotar. The winged scavengers use the steep cliff faces to nest their broods and stockpile stolen goods taken from Horde supply trains passing along the regional trails. Life in Drygulch Ravine has long been precarious. Not long after the Third War, escaped thunder lizards from Thunder Ridge threatened the area, prompting warnings to Warchief Thrall in Orgrimmar. Today, the harpies pose the immediate danger. Their matriarchs fiercely defend clutches of eggs tucked along the high ledges, and Horde scouts frequently dispatch young warriors to cull the flock, recover plundered trade crates, and break the harpies' grip on the ravine."
+    },
+    "subzone:dustwind-cave": {
+      "1": [
+        {
+          "duration": 66.71673469387756,
+          "file": "Audio/Transport/full_subzone_dustwind-cave-521c74e0e39585197b06/1-0000.mp3",
+          "sha256": "74b7ace600ef91387c6c0324d059fe164787f75b09334c430d241fc69d33ee14",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "46acf4",
+      "generation": "a588ef7f0ebcaa3fc6f4",
+      "hash": "f4b0c3",
+      "source": {
+        "duration": 66.716735,
+        "file": null,
+        "sha256": "521c74e0e39585197b06fea74ed4ae02184b96ace2fb83ed11ce1bbbfe0c0363"
+      },
+      "text": "Dustwind Cave. Dustwind Cave is a secluded hollow perched atop the cliffs of Razorwind Canyon, just northeast of Razor Hill. It serves as an active training ground and covert sanctuary for initiates of the nefarious Burning Blade cult operating within Durotar. Overlooking Razorwind Canyon, Dustwind Cave is one of the closest and most perilous threats to Razor Hill. While many assume demonic cultists gather only in deep subterranean depths, here the Burning Blade trains fresh recruits right under the noses of the Horde authorities. Shadowy cultists tutor initiates in forbidden dark magics and demonology, preparing them to undermine the young orcish realm from within Durotar's own borders. Those who trespass into the cave risk exposure to the cultists' dangerous corruptions. Practitioners inside channel volatile dark arts such as felblood afflictions, demonstrating how deeply the Burning Blade clings to the demonic legacy Thrall fought so hard to banish. Eliminating the cabal here is vital for maintaining the precarious peace of Durotar."
+    },
+    "subzone:echo-isles": {
+      "1": [
+        {
+          "duration": 89.75673469387755,
+          "file": "Audio/Transport/full_subzone_echo-isles-b18906be54ea01f0ecb1/1-0000.mp3",
+          "sha256": "e763f81966081b29fd9d9a4faa8be8ee79e92afc76c7efff4fdeff6d553612b2",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ad21e5",
+      "generation": "3bc4ed3bf6250bdd6fb7",
+      "hash": "e70f1a",
+      "source": {
+        "duration": 89.756735,
+        "file": null,
+        "sha256": "b18906be54ea01f0ecb18a0bf8332f6ce4a62871c1c2b93d214cb984ba69fe16"
+      },
+      "text": "Echo Isles. The Echo Isles are a cluster of tropical islands lying just off the southeastern coast of Durotar. Originally settled by the Darkspear trolls after fleeing their ancestral islands, the archipelago is currently lost to the rogue witch doctor Zalazane, who drove his people into exile with dark magic and enslaved minions. Following their flight across the Great Sea alongside Thrall, the Darkspear tribe claimed the Echo Isles as their new home. Their peace was repeatedly shattered: first by the naval forces of Grand Admiral Daelin Proudmoore during Kul Tiras' invasion of Durotar, and later from within. Shortly after the trolls drove back Proudmoore's fleet, one of their own witch doctors, Zalazane, seized dark arts to enslave the minds of his kin. Chieftain Vol'jin and the free Darkspears were forced to abandon the islands once more, seeking temporary refuge across the narrow strait at Sen'jin Village. Today, the tropical cluster is overrun by aggressive predators, tainted wildlife, and the thralls of Zalazane. Using malevolent hexes, voodoo fetishes, and ju-ju heaps placed throughout the islands, the traitorous witch doctor bends beasts and captive trolls to his will. From their encampment at Darkspear Strand, Vol'jin's scouts and warriors mount frequent sorties into the islands, determined to recover the remains of their fallen and strike down the mad mystic who stole their home."
+    },
+    "subzone:elder-rise": {
+      "1": [
+        {
+          "duration": 84.29714285714286,
+          "file": "Audio/Transport/full_subzone_elder-rise-cc425221c6e7925327bd/1-0000.mp3",
+          "sha256": "da5ee98c4ac36c211b57180fb6180a0454c6a31b28423c30f2ce4cd5476f645d",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "5d3a20",
+      "generation": "50dc0c556aa0a2edbe45",
+      "hash": "c25d39",
+      "source": {
+        "duration": 84.297143,
+        "file": null,
+        "sha256": "cc425221c6e7925327bda41ec6f9c867cd3abbeaae44dc95000c4889e272fbdd"
+      },
+      "text": "Elder Rise. Elder Rise sits directly east of Thunder Bluff's central plateau, reachable across long suspension bridges from both the High and Middle Rises. It serves as the spiritual heart of the tauren capital, hosting the Cenarion Circle, tauren druids and priests, and the governing Council of Elders. Connected to the main mesas by swaying rope bridges, Elder Rise is dedicated to quiet reflection, sacred wisdom, and civic governance. Tauren druids and priests gather here to teach acolytes the ways of nature and spiritual devotion. High atop this mesa resides Arch Druid Hamuul Runetotem, the revered leader who brought druidism back to the tauren people and forged close ties with the Cenarion Circle. Alongside these wild sanctuaries stands the Hall of Elders, where tribal leaders convene to deliberate on matters facing their fledgling capital. Despite its role as a peaceful sanctuary, political tension lingers over the rise. Magatha Grimtotem, elder matriarch of the secretive and haughty Grimtotem tribe, maintains her residence in a hut positioned between the two bridges. While Cairne Bloodhoof extends hospitality and formal council seats to all tauren lineages, her watchful presence serves as a constant reminder that not every tribe embraces the Bloodhoof's pacifist ideals or unquestioning alliance with the Horde."
+    },
+    "subzone:faol-s-rest": {
+      "1": [
+        {
+          "duration": 93.25714285714285,
+          "file": "Audio/Transport/full_subzone_faol-s-rest-54e52b268863ecdcf457/1-0000.mp3",
+          "sha256": "64ecb114dbfbecb5bcaf68b73f457bb4b5d4c846559c4d5af157c93633caa6b2",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "d5a0a5",
+      "generation": "673a830129c888db12b0",
+      "hash": "ea0320",
+      "source": {
+        "duration": 93.257143,
+        "file": null,
+        "sha256": "54e52b268863ecdcf457a632c2e21b5406212c4e48b8fc5ccbe3b87067decbe1"
+      },
+      "text": "Faol's Rest. Faol's Rest is a quiet, neglected gravesite situated in eastern Tirisfal Glades, just southwest of the Scarlet Monastery. It was erected as the tomb of Archbishop Alonsus Faol, the revered spiritual patriarch who founded the Knights of the Silver Hand. Today, untended beneath the blighted canopy, it serves as a release graveyard for those who perish near the monastery. Before the Third War devastated Lordaeron, this secluded hollow was a place of solemn pilgrimage. It holds the stone tomb of Archbishop Alonsus Faol, who led the Church of the Holy Light through the dark days of the Second War and instituted the order of paladins to protect humanity. Faol passed away peacefully prior to the arrival of the Scourge, spared the mortal agony of seeing his kingdom fall. In those brighter years, mourners regularly journeyed up the road from Capital City to leave offerings and pay respects to the beloved patriarch. When the Plague of Undeath swept across Lordaeron, Tirisfal withered, and the pilgrims vanished. Today, the monument sits abandoned and cracked in the shadows beneath the Scarlet Monastery's high bluffs. The wild brush has reclaimed the pathways, and the tomb itself lies still amid the damp mist. For adventurers striving against the zealots of the Scarlet Crusade or the lingering terrors of Tirisfal, this forgotten resting place now serves primarily as a quiet threshold where fallen spirits briefly regroup before returning to the fray."
+    },
+    "subzone:field-of-giants": {
+      "1": [
+        {
+          "duration": 82.93877551020408,
+          "file": "Audio/Transport/full_subzone_field-of-giants-111afb90f701ab95ec0f/1-0000.mp3",
+          "sha256": "e9d0e54acefc93536c927b63c011c2891bbdc06f6d12eb78090eb47881668a42",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "13a801",
+      "generation": "bfc80ce505a065d29633",
+      "hash": "6539dd",
+      "source": {
+        "duration": 82.964898,
+        "file": null,
+        "sha256": "111afb90f701ab95ec0f85d518906aee71be4323af8230a79eeaa7511a2c2ce0"
+      },
+      "text": "Field of Giants. The Field of Giants is an expansive plain covering the southern Barrens between Camp Taurajo and the marshes of Dustwallow. Named for the towering kodo, thunder lizards, and massive beasts that graze its arid scrub, the region has recently grown far more perilous due to an encroaching silithid infestation. Stretching along the southern span of the Gold Road, the Field of Giants is remote, rugged, and lightly defended compared to the Barrens to the north. While the road's wooden watchtowers stand largely abandoned, the land itself thrums with life. Tremendous herds of Kalimdor's megafauna wander the vast flats, drawing hunters and naturalists alike. However, safety is elusive here: dwarven excavators from Bael Modan dig aggressively to the south, and a far more sinister menace has begun burrowing beneath the earth. In recent times, insectoid silithid hives have erupted from the ground across the Field of Giants, marking the northernmost known sighting of these ravenous creatures in Kalimdor. These strange mounds and aggressive swarms have alarmed the Horde. Scouts such as the troll Korran from the Crossroads and tauren warriors like Ruga Ragetotem at Camp Taurajo urge adventurers to probe the hives, seeking to uncover what draws these subterranean horrors so far from the deep deserts."
+    },
+    "subzone:fray-island": {
+      "1": [
+        {
+          "duration": 62.0669387755102,
+          "file": "Audio/Transport/full_subzone_fray-island-fe14431de7346c0de050/1-0000.mp3",
+          "sha256": "c9875eed080f82c4c75fa55b70fc3cb5bf5519fb92b8e018ce7c6b4eacd59fe7",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "101d4f",
+      "generation": "3a3ff6e2687c3fd5fe43",
+      "hash": "a45c2f",
+      "source": {
+        "duration": 62.093061,
+        "file": null,
+        "sha256": "fe14431de7346c0de0501e266b64729a8930f3ad2153c8739f3c016533e3f10b"
+      },
+      "text": "Fray Island. Fray Island is a windswept, rocky islet lying just off the Merchant Coast of the Barrens. Home to a rough-and-tumble training ring, it is famous as a neutral haven where warriors from across Azeroth come to test their mettle. Situated off the eastern bluffs of the Barrens, Fray Island is far removed from the watchful eyes of both Orgrimmar and Theramore. The island serves as a training place for warriors of all races and creeds. At its heart sits a fighting arena overseen by Klannoc Macleod, where seasoned fighters and raw recruits gather to compete in brutal brawls. Despite the hostility of the surrounding waters, the island's central ring adheres to a simple code of martial combat. Warriors journey here on the instructions of their trainers to take part in 'The Affray'—a grueling gauntlet against waves of challengers culminating in a bout against the champion Big Will. Here, allegiance to Horde or Alliance is set aside in favor of raw strength and martial discipline."
+    },
+    "subzone:gallows-end-tavern": {
+      "1": [
+        {
+          "duration": 71.3665306122449,
+          "file": "Audio/Transport/full_subzone_gallows-end-tavern-8e7d74589870969fdf1b/1-0000.mp3",
+          "sha256": "d5a18f1e88cc3c40c59cf7f7d2849f4f4d628eae77bbe3909067091144a33745",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3fae5b",
+      "generation": "a348e8f614adee39dfdb",
+      "hash": "40c938",
+      "source": {
+        "duration": 71.366531,
+        "file": null,
+        "sha256": "8e7d74589870969fdf1bd3caeb1df3ef0108829e4ac7a9835c61852bc7591814"
+      },
+      "text": "Gallows' End Tavern. Gallows' End Tavern is the principal inn of Brill and the heart of Forsaken hospitality in Tirisfal Glades. Beyond offering shelter and spirits to weary travelers, it serves as an essential hub for class mentors, trade instructors, and covert interrogations. Standing prominently along the road in Brill, Gallows' End Tavern serves as the primary gathering place for newly awakened Forsaken leaving Deathknell and journeying south toward the Undercity. Despite their undead condition, Forsaken still frequent its halls for fellowship, trade, and refuge. The inn houses various class instructors—guiding young warriors, priests, mages, rogues, and warlocks—as well as vendors and medical practitioners. Beneath the creaking floorboards and tavern laughter lies a far grimmer purpose. Down in the cellars, the Forsaken keep prisoners of war bound and guarded away from public view. Among them are a captured Scarlet Zealot and a Dwarven Mountaineer, held beneath the tavern for interrogation and experimentation as the Forsaken fight to secure their borders against both zealous crusaders and Alliance scouts."
+    },
+    "subzone:garren-s-haunt": {
+      "1": [
+        {
+          "duration": 58.801632653061226,
+          "file": "Audio/Transport/full_subzone_garren-s-haunt-f8720c6dc7b3d41e65d7/1-0000.mp3",
+          "sha256": "634040a13507f8cf01ca9872f7bbd0156e08fe9edb92924c999e7e14206eaf29",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "b4c037",
+      "generation": "ad3e6d95bd71ae4955c7",
+      "hash": "bf3c2a",
+      "source": {
+        "duration": 58.801633,
+        "file": null,
+        "sha256": "f8720c6dc7b3d41e65d77eeb6cbfa59f68ba8eef46244929c7e8e9bef3eb53dc"
+      },
+      "text": "Garren's Haunt. Garren's Haunt is an abandoned farmstead nestled in northern Tirisfal Glades. Once a prosperous human homestead, the farm fell to ruin when the Scourge wiped out the Garren family, leaving the overgrown grounds overrun by feral Rot Hide gnolls. Before the Third War, this farmstead supported a family and produced bountiful harvests under the Kingdom of Lordaeron. When the Plague of Undeath swept across the countryside, the Scourge descended upon the farm and slaughtered Garren and his kin. Today, the fields lie gray and withered, the farmhouse and barn decaying under the perpetual gloom of Tirisfal. Rather than standard Scourge patrols, Garren's Haunt has been claimed by the Rot Hide gnolls—a pack of undead-tainted scavengers led by the vicious Maggot Eye. These scavengers aggressively defend their reclaimed territory, picking clean whatever remains of the farm and savaging any travelers or Forsaken patrols passing along northern Tirisfal."
+    },
+    "subzone:gold-road": {
+      "1": [
+        {
+          "duration": 82.93877551020408,
+          "file": "Audio/Transport/full_subzone_gold-road-5f491c4a177d198f0808/1-0000.mp3",
+          "sha256": "e5729e113cdcf0e0e11f56ab03dbeabd4fc065aa60670b282fb89d85f801ef57",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "99f2ff",
+      "generation": "916277cff86a5330cbb1",
+      "hash": "c08f50",
+      "source": {
+        "duration": 82.938776,
+        "file": null,
+        "sha256": "5f491c4a177d198f080849d0fa60605d1ce839aa1a8fa842dcbdf3606dd9d3b5"
+      },
+      "text": "Gold Road. The Gold Road is the primary north-south artery cutting through the arid expanse of the Barrens. Stretching from the Mor'shan Rampart on the border of Ashenvale down past the Crossroads toward the southern reaches, it serves as the vital transit line for the young Horde. The Gold Road is a long, sun-baked dirt highway that carves its way through the center of the Barrens. To the north, it begins near the fortified Mor'shan Rampart and Mor'shan Base Camp, which guard against night elf incursions from Ashenvale. Traveling south, it connects with the eastern roadway leading to Durotar before intersecting the bustling trading settlement of the Crossroads. Continuing southward past the lush waters of the local oases and the foothills near the Wailing Caverns, the northern span of the highway reaches a dried-up riverbed, where travelers cross into the more hazardous southern portion of the savanna. Despite being the lifeblood of Horde trade and military movement between Kalimdor's central territories, the Gold Road is perilous. Marauding quilboar tribes, centaur warbands, and prowling plainstriders and lions constantly threaten supply caravans and solitary messengers. The Horde expends considerable resources deploying scouts and warriors along its length, yet travelers are urged to remain armed and alert whenever leaving the safety of the major outposts."
+    },
+    "subzone:grol-dom-farm": {
+      "1": [
+        {
+          "duration": 68.85877551020408,
+          "file": "Audio/Transport/full_subzone_grol-dom-farm-d144e044eeec17644d22/1-0000.mp3",
+          "sha256": "3e31ef7c8cd714d4c818e4a2e478157fa90dc90477cbbd1cac89c0c0a1f1089f",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "fc7131",
+      "generation": "0992a5e3913f02f4856a",
+      "hash": "113550",
+      "source": {
+        "duration": 68.884898,
+        "file": null,
+        "sha256": "d144e044eeec17644d22badfcb8c37d23d30fa1763c48c824eecc82ef0849aaf"
+      },
+      "text": "Grol'dom Farm. Grol'dom Farm is a modest orcish homestead situated in the northern Barrens along the road between Durotar and the Crossroads. Inhabited by Kranal Fiss and his family, the farm raises swine in the arid plains despite constant harassment from aggressive local quillboars. Established following the settlement of Durotar, Grol'dom Farm represents the Horde's early efforts to farm the dry expanse of the Barrens. Tended by the orc Kranal Fiss and his children, the small homestead primarily raises pigs while braving the harsh wildlife and aggressive Razormane quillboar raiders that prowl the nearby ridges. It is a lonely, rugged outpost that supplies vital sustenance to the emerging orcish nation. Beyond its mundane function as a pig farm, the homestead holds quiet importance for Horde initiates on the spiritual path. Kranal Fiss possesses deep knowledge of elemental rites and plays a key role in guiding young shaman through their trials. Seekers traveling west from Orgrimmar are regularly directed to this humble farm to learn the secrets necessary to commune with the primal spirits of fire."
+    },
+    "subzone:grommash-hold": {
+      "1": [
+        {
+          "duration": 71.34040816326531,
+          "file": "Audio/Transport/full_subzone_grommash-hold-077a9cdf2facc4dc914a/1-0000.mp3",
+          "sha256": "cc73357aac9c2da1f5f95365025c4a4f160ea8590f76da6d4f3cb8258e145c2a",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "861a29",
+      "generation": "0bebe216f0f445242e55",
+      "hash": "5773b2",
+      "source": {
+        "duration": 71.366531,
+        "file": null,
+        "sha256": "077a9cdf2facc4dc914a8de70c88ed42a06feb84b58edb8268f9db0d833d8fd8"
+      },
+      "text": "Grommash Hold. Grommash Hold is the fortified seat of Warchief Thrall, nestled high in the red cliffs of the Valley of Wisdom in Orgrimmar. Named in honor of Grommash Hellscream's sacrifice, the fortress serves as the command center and political heart of the new Horde. Perched within the tranquil Valley of Wisdom, Grommash Hold serves as the royal court and strategic sanctum of the Horde. Built into the towering canyon walls, its thick stone interior remains notably dim and chilly—a deliberate choice by Warchief Thrall to keep emissaries, petitioners, and warlords sharp and sober during audiences. Here, Thrall deliberates on the defense of Kalimdor, guided by veteran counselors like Eitrigg and visited by racial chieftains such as Vol'jin. Just outside the stronghold rests the shattered armor and horned skull of the pit lord Mannoroth, mounted upon the trunk of an ancient tree. Placed there to honor Grom Hellscream, who traded his life to slay the demon in Ashenvale, the memorial stands as both a proud symbol of the orcs' liberation from the demonic blood curse and a permanent, solemn warning against falling into reckless savagery again."
+    },
+    "subzone:hall-of-legends": {
+      "1": [
+        {
+          "duration": 79.41224489795918,
+          "file": "Audio/Transport/full_subzone_hall-of-legends-0137c1d099f096193841/1-0000.mp3",
+          "sha256": "d382170f4542ac113a4497654c4221b1dcb588d9b3750973ed851f2e7ee15431",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3087ed",
+      "generation": "4ba49bac7894df5c5622",
+      "hash": "1a8a9d",
+      "source": {
+        "duration": 79.438367,
+        "file": null,
+        "sha256": "0137c1d099f0961938418559ed567572e704870569f9c878dd36d823371bc99e"
+      },
+      "text": "Hall of Legends. The Hall of Legends is the elite military sanctuary and officer barracks of the Horde, nestled within Orgrimmar's Valley of Strength. Behind its warded threshold, champions of the Horde gather around battle plans and arm themselves with premier weapons taken from conflicts across Azeroth and beyond. Located off the bustling avenues of the Valley of Strength, the Hall of Legends serves as the private redoubt for proven officers of the Horde. Beyond its guarded entrance, strategists and delegates from across the factions—including Chieftain Earthbind of Thunder Bluff, Blood Guard Hini'wana of the Darkspear, and Advisor Willington of the Undercity—confer over maps of contested lands and the military standing of both factions. Here, only warriors who have tested their mettle and achieved the rank of Stone Guard or higher are permitted entry to claim the spoils and armaments befitting their status. More than just an officer lounge, the hall houses armories containing battle-tested wargear from across Azeroth and the orcs' shattered homeworld of Draenor. Many of these weapons were claimed as spoils from the ongoing clashes against the Alliance and other adversaries. For those climbing the martial ranks, it represents the physical manifestation of Horde honor, martial prowess, and hard-won victory."
+    },
+    "subzone:hidden-path": {
+      "1": [
+        {
+          "duration": 69.04163265306123,
+          "file": "Audio/Transport/full_subzone_hidden-path-52822d34306c0a6dd04a/1-0000.mp3",
+          "sha256": "968ce2d2da908356aa7da0405ecf5986296a45e3e64033049f43cb94c21c7578",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "786c14",
+      "generation": "a76f294c9d46589b8601",
+      "hash": "cf7e7a",
+      "source": {
+        "duration": 69.041633,
+        "file": null,
+        "sha256": "52822d34306c0a6dd04ab4f961dfddd0a2cc9ff92c1c3a6eba4049e2782cec7c"
+      },
+      "text": "Hidden Path. The Hidden Path is a secluded mountain trail winding through the crags above the Valley of Trials in Durotar. It serves as a rite of passage for aspiring shaman seeking the sacred Spirit Rock, while offering an overlooked vantage overlooking the rugged borders of the Barrens. Carved into the red peaks bordering the Valley of Trials, the Hidden Path is intentionally difficult to spot from the canyon floor. Young shaman are directed here by their mentors to prove their awareness and discipline before communing with the spirits at Spirit Rock. Along the trail's highest reaches, travelers are treated to expansive panoramic views stretching westward toward the rolling savannas of the Barrens. Beyond its spiritual importance, the path cuts a precarious breach through the natural fortifications enclosing the valley. A low pass along the route provides a direct back door toward Ratchet and the road to Orgrimmar. Because it circumvents the standard canyon checkpoints, vigilant defenders fear that bold Alliance infiltrators could exploit this quiet trail to slip directly into the Horde's primary proving grounds."
+    },
+    "subzone:hunter-rise": {
+      "1": [
+        {
+          "duration": 71.91510204081632,
+          "file": "Audio/Transport/full_subzone_hunter-rise-008e76eed5dc4a9c7a80/1-0000.mp3",
+          "sha256": "73a6bc5a1027d7ec0f4b217658405da71440daa7e80a2482d055ba988d4912ca",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "2dff60",
+      "generation": "b06a17ce458b5b5e8297",
+      "hash": "82a031",
+      "source": {
+        "duration": 71.941224,
+        "file": null,
+        "sha256": "008e76eed5dc4a9c7a806863f5fb7d82b04a8dad9eb5c6d2cee544e289982242"
+      },
+      "text": "Hunter Rise. Hunter Rise is one of the elevated mesas making up the city of Thunder Bluff, situated just south of the central bluff. It serves as the primary training and gathering ground for the tauren's warriors, hunters, trackers, and skinners. Across its windswept platforms, young braves hone their martial skills and prepare for combat. Connected to the neighboring bluffs by swaying rope bridges, Hunter Rise is dedicated to the martial traditions of the tauren. It is anchored by the Hunter's Hall, where experienced marksmen, trackers, and warriors pass down their discipline to younger generations. Surrounding the lodge are practice grounds outfitted with training dummies, weapon racks, and skinning posts, making it a bustling center for those who live by spear, bow, and hide. Beyond hunting wild game across the plains of Mulgore, the inhabitants of Hunter Rise help ensure the defense of Thunder Bluff and the wider Horde. Battlemasters stationed along the rise recruit seasoned fighters to answer the call of skirmishes against Alliance incursions across contested battlegrounds. It remains an essential rallying point for anyone sworn to protect the herd."
+    },
+    "subzone:jaggedswine-farm": {
+      "1": [
+        {
+          "duration": 75.99020408163265,
+          "file": "Audio/Transport/full_subzone_jaggedswine-farm-af81445d2bcd9cba2945/1-0000.mp3",
+          "sha256": "478091e458310abd327a47a1ff187fab6878804218e4c7ba7f8b8582a18207d9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "2d4e2d",
+      "generation": "c43e369d4f915f496549",
+      "hash": "809fa5",
+      "source": {
+        "duration": 75.990204,
+        "file": null,
+        "sha256": "af81445d2bcd9cba294594451d8fffb709ff4f164fb919541610f91c81637598"
+      },
+      "text": "Jaggedswine Farm. Jaggedswine Farm is a modest livestock steading situated in northern Durotar, just south of the main entrance to Orgrimmar. Comprising a timber storage shed, a sprawling pen, and a muddy watering hole, it serves as a critical food source raising hardy swine for the nearby Horde capital. Carved out of Durotar's unforgiving, sunbaked earth, Jaggedswine Farm represents the harsh reality of sustaining an urban stronghold like Orgrimmar. The red soil of the region yields sparse agriculture, making robust livestock essential to feeding thousands of orcish warriors and laborers. The farm centers on a timber storehouse, a wide wooden pen, and a natural watering pond where swine are herded, bred, and butchered to keep the Horde's granaries stocked. Though quiet and often appearing half-tended under the dry heat, the farm is a regular stomping ground for local swineherds and patrolling Orgrimmar Grunts. Wild and mature swine roam both inside and outside the enclosures, occasionally testing the patience of nearby guards. Sitting right on the threshold of the capital's valley approach, the plot remains an unassuming yet indispensable outpost in the daily logistics of Durotar."
+    },
+    "subzone:kodo-rock": {
+      "1": [
+        {
+          "duration": 77.81877551020408,
+          "file": "Audio/Transport/full_subzone_kodo-rock-8d63f75c34e604cf7676/1-0000.mp3",
+          "sha256": "cd70e1cd5ea92afb11ce6cddb60f7aa9c4cbf790b5957f256c6e1475637ca40a",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "35194b",
+      "generation": "05a7d79282dfb82eca9b",
+      "hash": "6ab2c5",
+      "source": {
+        "duration": 77.844898,
+        "file": null,
+        "sha256": "8d63f75c34e604cf76760d4a63be2c44a4c7372db8825cb415a43d775e1da616"
+      },
+      "text": "Kodo Rock. Kodo Rock is a natural stone monument located in the plains of Red Cloud Mesa, between Camp Narache and Brambleblade Ravine. Standing quietly amid the grasses of Mulgore, it serves as an early pilgrimage site for young tauren shamans learning to commune with the spirits of the earth. Because of its modest silhouette against the rolling landscape, travelers must keep a keen eye out to spot it. Situated roughly halfway along the path connecting Camp Narache to the hostile quillboar territory of Brambleblade Ravine, Kodo Rock is marked by a patch of worn earth at its base. While it lacks the sheer grandeur of the towering bluffs surrounding Red Cloud Mesa, its distinct profile resembles the revered kodo beasts that wander the grasslands. For wandering tribesfolk, it acts as a quiet natural beacon in the windswept plains of Mulgore. To the Shu'halo, natural formations often carry spiritual weight. Kodo Rock holds special reverence for young tauren shamans beginning their spiritual walk. Novices are directed here on early rites of passage, using the solitary stone monument as a sacred grounds to commune with elemental forces and honor the natural world before venturing into more perilous reaches of the continent."
+    },
+    "subzone:magic-quarter": {
+      "1": [
+        {
+          "duration": 77.76653061224489,
+          "file": "Audio/Transport/full_subzone_magic-quarter-874bdb2c67d741cac99b/1-0000.mp3",
+          "sha256": "64f46c90694e408e0dfcec4318761901e4861dadc68d27ea991b987718017d78",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "c12adf",
+      "generation": "9f49ded0fd89ecb6e6dd",
+      "hash": "04a440",
+      "source": {
+        "duration": 77.766531,
+        "file": null,
+        "sha256": "874bdb2c67d741cac99b6d81119d87f727aaf681cd8b1df0860e4de7c77a558a"
+      },
+      "text": "Magic Quarter. The Magic Quarter is the northeastern district of the Undercity, serving as the center for Forsaken arcane study and dark spellcraft. Dominated by an ominous Temple of the Damned, the quarter houses practitioners of both the arcane and fel arts. Occupying the northeastern quadrant of the subterranean city, the Magic Quarter is where the Forsaken preserve their arcane heritage and delve into darker methodologies. The centerpiece of the district is a looming Temple of the Damned, an architectural relic of Scourge design that has been repurposed by the free-willed undead. Beneath its vaulted, shadowy ceilings, mages practice subtle manipulations of magical energies alongside warlocks communing with demonic entities, making the quarter the nexus of intellectual power and occult research in Lordaeron. Beyond the study of raw evocation and summoning, the Magic Quarter functions as an essential civic hub for spellcasters. Portal trainers maintain transport links across Horde territories, while master tailors work with magically infused fabrics to craft robes and shrouds. Unlike Dalaran's strict segregation between academic wizardry and forbidden magic, the Forsaken blend arcane curiosity and fel power openly within these halls to secure their place against their many enemies."
+    },
+    "subzone:night-web-s-hollow": {
+      "1": [
+        {
+          "duration": 49.136326530612244,
+          "file": "Audio/Transport/full_subzone_night-web-s-hollow-26bcbb65901427788880/1-0000.mp3",
+          "sha256": "f12454f4d291d5631e0051e21d886f7df09bcfba09092239670ac28784464361",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ebc28d",
+      "generation": "aaaaf966a896d97e5396",
+      "hash": "5cc039",
+      "source": {
+        "duration": 49.136327,
+        "file": null,
+        "sha256": "26bcbb6590142778888098644914d7cfde32384966ee5f641795b463178c7a22"
+      },
+      "text": "Night Web's Hollow. Night Web's Hollow is a sunken vale and abandoned gold mine located just northwest of Deathknell in Tirisfal Glades. Heavily overrun with arachnids, it serves as a testing ground for freshly awakened Forsaken sent to cull the vermin and prove their combat readiness. Tucked away in the northern hills of Deathknell, Night Web's Hollow was once an ordinary human gold mine before the plague swept through Lordaeron. In the aftermath of the kingdom's fall, the shafts were entirely abandoned to nature. Today, thick strands of webbing shroud the rock walls and suffocating shadows conceal a thriving colony of aggressive night web spiders. Freshly raised Forsaken are routinely dispatched into the hollow and its subterranean tunnels to cull the young and adult spiders so the Forsaken can regain access to the mine's gold."
+    },
+    "subzone:nightmare-vale": {
+      "1": [
+        {
+          "duration": 57.521632653061225,
+          "file": "Audio/Transport/full_subzone_nightmare-vale-c6055692119579405f91/1-0000.mp3",
+          "sha256": "b028eb3458bdee2752a5babcb1e466ad28b5d6de0bd814b3ad449516f41557a1",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "c83b22",
+      "generation": "f358c5c65ac3f4f07206",
+      "hash": "ec7664",
+      "source": {
+        "duration": 57.547755,
+        "file": null,
+        "sha256": "c6055692119579405f916ced7bf92e72384302ee6547ff4587506f41cd3569b0"
+      },
+      "text": "Nightmare Vale. Nightmare Vale is a shadowed hollow nestled in southwestern Tirisfal Glades, just west of the Crusader's Outpost. Once a lush forest haven, its trees have withered under the blight, and vicious predators now roam among the twisted trunks. Before the Third War, this valley was a verdant part of the Tirisfal countryside, filled with songbirds and standard woodland game. In the wake of the Scourge's plague, the vegetation has blackened and rotted away. Ravenous darkhounds and massive vampire bats have devoured the native wildlife, turning the hollow into a grim haven for scavengers and beasts of prey. Lurking in the shadows of Nightmare Vale is Ressan the Needler, an unusually large, pale vampire bat notorious among local travelers. Wedged uncomfortably between the haunted wilderness and the zealous sentries at the nearby Crusader's Outpost, the vale is an unforgiving expanse where unwary adventurers quickly become prey."
+    },
+    "subzone:north-coast": {
+      "1": [
+        {
+          "duration": 66.79510204081633,
+          "file": "Audio/Transport/full_subzone_north-coast-dfadbaff7b699eeb0a7f/1-0000.mp3",
+          "sha256": "3ef40e51ff0fb8b66d26dbbe12dd8e72df1f74eea5bcee36d796eabf6ac098ae",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "947b9e",
+      "generation": "3487a5928f412e205af1",
+      "hash": "6d0ae2",
+      "source": {
+        "duration": 66.795102,
+        "file": null,
+        "sha256": "dfadbaff7b699eeb0a7f005c50ce603d805f0daa2bcd0a11c76a00e2b6d68547"
+      },
+      "text": "North Coast. The North Coast is a bleak, fog-shrouded stretch of shoreline marking the northern edge of Tirisfal Glades along the Great Sea. Tainted by the fall of Lordaeron, the cold beaches are littered with rotting marine life and aggressively defended by tribes of hostile murlocs. Before the Third War, these northern waters and stony beaches were part of the peaceful northern boundary of Lordaeron. When the Plague of Undeath swept across the continent, its corrupting blight seeped down the bluffs and poisoned the coast. The waters turned chill and murky, washing up the carcasses of giant sea creatures that now rot upon the sand amid the perennial coastal fog. With the human kingdom shattered and the Forsaken focusing their attention around Brill and the Capital City, coastal murlocs claimed the desolate sands. The local Vile Fin tribe maintains huts along the surf, utilizing nearby shallows as spawning grounds. Swarms of ravenous murlocs, including notable figures like Deeb and numerous growing tadpoles, violently guard the tideline against any surface-dwellers."
+    },
+    "subzone:north-tide-s-hollow": {
+      "1": [
+        {
+          "duration": 66.40326530612245,
+          "file": "Audio/Transport/full_subzone_north-tide-s-hollow-39d2c4bcb1c10fc4ae57/1-0000.mp3",
+          "sha256": "55c4cb53323c4ab905f8a700ece345ebd892f1bbfaf108fe300277412dcca440",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f3edca",
+      "generation": "5cc64aff7814f360ddfd",
+      "hash": "5a3695",
+      "source": {
+        "duration": 66.403265,
+        "file": null,
+        "sha256": "39d2c4bcb1c10fc4ae574c97a861e57b1a5bf8ce9022cf7012724e34f28aeb86"
+      },
+      "text": "North Tide's Hollow. North Tide's Hollow is a rugged wilderness pocket in Silverpine Forest located just north of the Sepulcher. Haunted by feral Moonrage worgen loyal to the rogue Archmage Arugal, the clearing serves as a base of operations for the beasts stalking the coastal woods. Tucked away in the dense timber north of the Forsaken settlement of the Sepulcher, North Tide's Hollow is dominated by the savage Moonrage pack. These feral worgen, brought into Lordaeron through the reckless sorcery of Archmage Arugal, have established crude encampments throughout the hollow. Built with only the barest necessities required by the hardy beasts, these rough shelters provide a forward staging ground dangerously close to Forsaken travel routes. Unlike ordinary wilderness predators, the worgen of North Tide's Hollow answer to the sinister will emanating from Shadowfang Keep. Their proximity to both the western shoreline and the main road through Silverpine makes them a constant menace to Forsaken couriers and patrols attempting to secure the region."
+    },
+    "subzone:north-tide-s-run": {
+      "1": [
+        {
+          "duration": 63.89551020408163,
+          "file": "Audio/Transport/full_subzone_north-tide-s-run-79092869f2e6de0c8897/1-0000.mp3",
+          "sha256": "93d55404e48a8b7962c61c683766eb7cf5f464bef6f5367ab7fc9c3ec21095fa",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "625f76",
+      "generation": "5074c2500c49b143e2e5",
+      "hash": "7fe903",
+      "source": {
+        "duration": 63.921633,
+        "file": null,
+        "sha256": "79092869f2e6de0c88970d13a6622c2f12148e0909bf8e23b93be37dc55dcadc"
+      },
+      "text": "North Tide's Run. North Tide's Run is the windswept northwestern shoreline of Silverpine Forest, skirting the edge of the Great Sea. Marked by a lonely campfire and a half-sunken shipwreck, this stretch of sand is known as a secluded trial ground for traveling druids seeking harmony with the waters. Stretching along the northwest edge of Silverpine Forest, North Tide's Run consists of cold sand, pounding surf, and a strip of the Great Sea. Its most unmistakable landmark is a partially submerged shipwreck tilted precariously in the shallows near the beach. Aside from the wreckage, the only sign of habitation is a humble campfire tended by Wallace the Blind, who keeps a quiet vigil beside the lapping tide. Despite its bleak atmosphere, North Tide's Run holds sacred importance for Horde initiates walking the path of Cenarius. Young tauren druids are directed here on pilgrimage to recover underwater relics lost to the waves, testing their lung capacity and endurance to earn the blessing of the aquatic form."
+    },
+    "subzone:pools-of-vision": {
+      "1": [
+        {
+          "duration": 80.48326530612245,
+          "file": "Audio/Transport/full_subzone_pools-of-vision-ccd087135ce6ec420854/1-0000.mp3",
+          "sha256": "77bc196aab3db42f7c0f97fc922e311ea372b3e9afbee14a73139525d8ed8d34",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "2db754",
+      "generation": "34ca5afa93a2d53eaedb",
+      "hash": "d6c90f",
+      "source": {
+        "duration": 80.483265,
+        "file": null,
+        "sha256": "ccd087135ce6ec4208541a94acc7d193904a67b01f0eafeea14823785e6b10f3"
+      },
+      "text": "Pools of Vision. The Pools of Vision are a subterranean cavern nestled beneath Spirit Rise in Thunder Bluff. Marked by still waters and dim caverns, this secluded subterranean space serves as the primary enclave for the Forsaken within the tauren capital. While the sunlit peaks of Thunder Bluff belong to the wind, earth, and sky, the Pools of Vision plunge directly beneath Spirit Rise into shadowy seclusion. Accessible from a discreet cave path off the bridge leading to the rise, this subterranean grotto offers subterranean respite quite unlike the open-air lodges above. Here, misty waters pool in the dark, creating an isolated atmosphere where Horde spellcasters gather far from the bustling central mesas. Within Thunder Bluff, the Pools of Vision function as the de facto base of operations for the Forsaken. Travelers from the eastern continent find kindred souls here: undead priests practicing their shadowed arts, mages conjuring arcane portals, and emissaries of the Defilers seeking recruits for their campaigns in the Arathi Highlands. Whether tucked away by tauren skepticism or by the Forsaken's own natural preference for the dark, this quiet refuge bridges Lordaeron's undead with their Kalimdor allies."
+    },
+    "subzone:ratchet": {
+      "1": [
+        {
+          "duration": 93.15265306122448,
+          "file": "Audio/Transport/full_subzone_ratchet-a4c4983d1102f547059a/1-0000.mp3",
+          "sha256": "0f27ab7586c8075972753350f5c7b2e40454fce031a707a5b6de60ef74e33292",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "72e2db",
+      "generation": "966b8298a3f61c8c6418",
+      "hash": "6f9e6e",
+      "source": {
+        "duration": 93.178776,
+        "file": null,
+        "sha256": "a4c4983d1102f547059a3602f1197d7d3baeccd4aad27265e5255d1ba6708d57"
+      },
+      "text": "Ratchet. Ratchet is a bustling neutral port town run by the Steamwheedle Cartel on the eastern coast of the Barrens. Founded by chief engineer Gazlowe after he helped construct Orgrimmar, it serves as the primary maritime trade hub linking central Kalimdor to the Eastern Kingdoms. Perched on the arid coastline between Durotar and Dustwallow Marsh, Ratchet offers safe harbor to anyone carrying coin. Founded by the entrepreneurial engineer Gazlowe following the Third War, the port arose from smugglers, exiles, and daring traders looking to exploit Kalimdor's frontier. It operates beneath the banner of the Steamwheedle Cartel, maintaining strict neutrality between the Horde and the Alliance. Ships like The Maiden's Fancy regularly ply the waters across the Great Sea to Booty Bay, transporting goods, mercenaries, and raw materials between continents. Local bruisers keep a watchful eye on the docks, ruthlessly thrashing anyone foolish enough to start a brawl and disrupt commerce. Despite its outward appearance as a boisterous merchant town of docks, taverns, and workshops, Ratchet harbors darker dealings. Overlooking the harbor from the hills above sits a secluded tower occupied by an open coven of warlocks, including figures like Strahad Farsan and Menara Voidrender. While townsfolk and sailors busy themselves with cargo manifests and goblin engineering, practitioners of the dark arts gather here unmolested to commune with demonic forces, untroubled by the moral restrictions enforced in traditional faction capitals."
+    },
+    "subzone:razor-hill": {
+      "1": [
+        {
+          "duration": 84.81959183673469,
+          "file": "Audio/Transport/full_subzone_razor-hill-d49d07938c5ea7068e08/1-0000.mp3",
+          "sha256": "0b776fdff5a6a12470bf2ad9db82835cada53ad953917a9e26e4f4bea5749209",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "50a7a1",
+      "generation": "9d60129914515dd2b5e1",
+      "hash": "169921",
+      "source": {
+        "duration": 84.819592,
+        "file": null,
+        "sha256": "d49d07938c5ea7068e08060032311bb3ed856b671a1efc7b183f46d81c5b1bbf"
+      },
+      "text": "Razor Hill. Razor Hill is the principal Horde settlement in central Durotar, nestled at the strategic crossroads between the Valley of Trials, the Barrens, and Orgrimmar. Centered around a prominent fortified barracks, it serves as the staging ground and training center for young orc and troll warriors testing their mettle in the harsh wilderness. Built at a vital geographical junction, Razor Hill connects northern Durotar with the coastal settlements to the south and the sprawling plains of the Barrens across the Southfury River. Dominated by its stone-and-timber barracks and classic orcish burrows, the settlement was established early in the founding of Durotar. Shortly after the Third War, human forces from Kul Tiras lured the Horde into an ambush here under the guise of an emissary summit, an assault thwarted when Rexxar went in Thrall's stead. Today, the outpost stands fully fortified against further coastal incursions. Under the command of veteran officers like Gar'Thok, Razor Hill coordinates local defense against several looming threats. Human marine remnants still hold Tiragarde Keep along the eastern shoreline, while aggressive quilboar and harpy tribes harass local supply lines. Far more insidious is the presence of the Burning Blade cult, whose shadowy rituals and corrupted agents in the nearby crags are closely tracked and stamped out by investigators like Orgnil Soulscar."
+    },
+    "subzone:razor-hill-watchtower": {
+      "1": [
+        {
+          "duration": 48.40489795918367,
+          "file": "Audio/Transport/full_subzone_razor-hill-watchtower-f2d7e71322d8862684c5/1-0000.mp3",
+          "sha256": "2f1675d8cf61bb0332dcaa276daa117068f036d71ee88ae1dffedc70e51827f4",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "c1980e",
+      "generation": "7af35cad174edc2dc2a4",
+      "hash": "73e7a1",
+      "source": {
+        "duration": 48.43102,
+        "file": null,
+        "sha256": "f2d7e71322d8862684c57b11816f479f9d39664917fa42b95f2c6e5253992228"
+      },
+      "text": "Razor Hill Watchtower. Perched on the red stone bluffs overlooking Razor Hill, this sturdy outpost serves as an early warning post for the heart of Durotar. Furl Scornbrow keeps a vigilant eye across the dusty plains and toward the coast, safeguarding the settlement below from encroaching threats. Constructed from thick timber and iron framing, the Razor Hill Watchtower guards the settlement of Razor Hill and the surrounding canyons. Durotar faces relentless threats from Kul Tiras marines along the eastern shore, quillboar raiders prowling the scrublands, and Burning Blade cultists lurking in nearby crags. From this elevated vantage point atop the ridgeline, the lookout can spot approaching warbands, smoke signals, and incursions long before they reach the settlement gates."
+    },
+    "subzone:razorfen-downs-classic": {
+      "1": [
+        {
+          "duration": 85.08081632653061,
+          "file": "Audio/Transport/full_subzone_razorfen-downs-classic-541d0668ce1f732e9748/1-0000.mp3",
+          "sha256": "421c60ce213cd84740462685d757bc77e7f9b87490fc800effe77bf8b7624506",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f89e16",
+      "generation": "e561d73cdf2631fb1891",
+      "hash": "b389b9",
+      "source": {
+        "duration": 85.106939,
+        "file": null,
+        "sha256": "541d0668ce1f732e9748699e0adce1a1b0ecae5aa6f2f6061650c5b3f0dc61f6"
+      },
+      "text": "Razorfen Downs (Classic). Razorfen Downs is the ancestral burial ground and traditional capital city of the quilboar, nestled deep within giant thorny brambles in the southern Barrens. Recently, agents of the undead Scourge led by the lich Amnennar the Coldbringer seized control of the labyrinth, reanimating the quilboar dead and threatening to expand their dominion across central Kalimdor. Grown from the same towering, petrified vines as nearby Razorfen Kraul, Razorfen Downs rests where the ancient boar demigod Agamaggan fell during the War of the Ancients. For generations, the labyrinth of thorns served as the sacred necropolis and seat of power for the quilboar, guarded closely by the mystics of the Death's Head tribe. To the quilboar, the dense briars are holy ground, soaked in the blood of their divine progenitor. The sanctity of the Downs was shattered when agents of the Scourge infiltrated the brambles. Amnennar the Coldbringer, a powerful lich serving the Lich King, subjugated the resident Death's Head quilboar and turned the ancestral resting grounds into an undead redoubt. Reanimated skeletons, shambling corpses, and shrieking banshees now prowl the Spiral of Thorns. Both the Horde in the nearby Barrens and emissaries from the Cathedral of Light in Stormwind view this growing pocket of Scourge power as a grave threat to the continent."
+    },
+    "subzone:razorwind-canyon": {
+      "1": [
+        {
+          "duration": 70.4,
+          "file": "Audio/Transport/full_subzone_razorwind-canyon-87ed2d2070498e35dadd/1-0000.mp3",
+          "sha256": "dab9aa9f953ed06bda98b8f7529a4a1b0155e053eb4319591dd95fa48ed5fe41",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "055f9e",
+      "generation": "973767ce50323fbe98fe",
+      "hash": "11ea08",
+      "source": {
+        "duration": 70.4,
+        "file": null,
+        "sha256": "87ed2d2070498e35dadd2c2f497800109c7e63651d503f36c2ed5d04646ff12a"
+      },
+      "text": "Razorwind Canyon. Razorwind Canyon is a winding, rocky gulch split across the main road between Razor Hill and Orgrimmar. Infested by the aggressive Dustwind harpies, the canyon poses a persistent danger to travelers moving north toward the Horde's capital. Razorwind Canyon flanks the central artery linking Razor Hill to Orgrimmar, carving paths into both the eastern bluffs and the western scrublands toward Tor'kren Farm. The canyon is the nesting ground of the Dustwind harpies, territorial creatures that strike without hesitation at travelers who stray too close to their roosts. Their presence so near the capital's trade routes makes clearing out these gullies an ongoing necessity for the defenders of Durotar. Beyond serving as harpy nests, the twists of Razorwind Canyon function as hidden routes through Durotar's red rock hills. The eastern branch tunnels deeply into the crags, providing a passage through a cavern into Drygulch Ravine. Because the harpies roost on the high perches and descend in flocks, unwary adventurers traversing these passes can easily find themselves surrounded and cut down."
+    },
+    "subzone:red-rocks": {
+      "1": [
+        {
+          "duration": 82.31183673469388,
+          "file": "Audio/Transport/full_subzone_red-rocks-bacba831c6511d5bf230/1-0000.mp3",
+          "sha256": "738e27ef5ca8b9ccf8e584f711088feb89469a3f518c7829045cecba683fd4db",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "aabb50",
+      "generation": "2f8db281b2149422f3d8",
+      "hash": "09bd48",
+      "source": {
+        "duration": 82.311837,
+        "file": null,
+        "sha256": "bacba831c6511d5bf2303fe7c115fa4fdabd124ce5a43526755e4327a9a13995"
+      },
+      "text": "Red Rocks. Red Rocks is a towering sandstone bluff in northeastern Mulgore that serves as a sacred ancestral burial ground for the tauren. Here, fallen champions are commended to the Earth Mother through cleansing flame, and young braves travel to its quiet heights to seek the wisdom of their forebears. Rising high above the plains of northeastern Mulgore, the crimson formations of Red Rocks mark a sacred threshold between the living world and the next. Tauren tradition reserves this solemn ground for their most valiant heroes—chieftains, defenders, and champions who gave their lives founding and protecting Thunder Bluff. Their remains are surrendered to the sky and soil through ceremonial pyres, returning their spirits to the Earth Mother and Sky Father. It is equally a place of spiritual beginning, where young tauren complete their rites of passage by honoring the ancestral graves and communing with the wind. The enduring peace of Red Rocks has been shattered by the Bristleback quilboar. Creeping out from their dens, these aggressive scavengers have infested the sandstone ledges and desecrated the ancestral burial pyres with filth. This violation deeply affronts the spiritual traditions of Thunder Bluff. Shaman and lorekeepers now summon aid to cleanse the crags, driving out the Bristlebacks and reclaiming the sanctity of their resting dead."
+    },
+    "subzone:rogues-quarter": {
+      "1": [
+        {
+          "duration": 76.38204081632654,
+          "file": "Audio/Transport/full_subzone_rogues-quarter-78ee13b0a5d05ff55ace/1-0000.mp3",
+          "sha256": "5158ca11f789ddae88d9f58fa71496c1d41995dae2636c3626c69d867fac4179",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "c95759",
+      "generation": "1326e3fd7ab1bda26cd5",
+      "hash": "cf11aa",
+      "source": {
+        "duration": 76.382041,
+        "file": null,
+        "sha256": "78ee13b0a5d05ff55ace96253b57ea889d3f7e25c1b711fdcc640cd76bec5171"
+      },
+      "text": "Rogues' Quarter. The Rogues' Quarter is a dimly lit district in the southeastern wing of the Undercity. It serves as the staging ground for the Forsaken's scouts, assassins, and underworld operatives, along with the craftsmen who support them. Tucked away in the southeastern quadrant of the subterranean city, the Rogues' Quarter gathers the Forsaken's most cunning and lethal survivors. In life, many were thieves, cutpurses, or silent blades for the Kingdom of Lordaeron; in death, their expertise in stealth, poisons, and misdirection has been repurposed to protect the fledgling nation from the Scourge and the Scarlet Crusade. The district hums with quiet activity, offering a covert haven where operatives sharpen their daggers, brew deadly toxins, and hone clandestine skills. Beyond stealth and assassination, the Rogues' Quarter is home to the specialized trades that enable undercover survival. Artisans gather here to instruct travelers in leatherworking and skinning, turning raw hides into light, silent armor. The clatter of engineering benches echoes through the stone halls as tinkers assemble gadgets, while field medics and apothecaries provide instruction in first aid and vend lethal poisons essential for covert work."
+    },
+    "subzone:rolling-plains": {
+      "1": [
+        {
+          "duration": 74.71020408163265,
+          "file": "Audio/Transport/full_subzone_rolling-plains-60e3f443eae5815f8be3/1-0000.mp3",
+          "sha256": "51d741996c33b5e58c487b096e0a2a512d6fd9b843175f13cba86dbdcfb3313e",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "f0b9a3",
+      "generation": "d2ae793f6de976a37f7a",
+      "hash": "e7ba6f",
+      "source": {
+        "duration": 74.710204,
+        "file": null,
+        "sha256": "60e3f443eae5815f8be3f4018fc5b964fa191a38547e4782a54dd911eec27ad3"
+      },
+      "text": "Rolling Plains. The Rolling Plains span the southern expanse of Mulgore, stretching between Bloodhoof Village and the border of the Barrens. These windswept grasslands are home to thriving herds of wildlife, but they are also a point of perpetual vigilance due to prowling centaur raiders and aggressive harpies. Spanning south from Bloodhoof Village toward the natural earthen gates leading into the Barrens, the Rolling Plains embody the vast open ranges of the tauren homeland. The area teems with wild game essential to the tribes, including prairie wolves, kodo herds, flatland cougars, and swift tallstriders. For young hunters proving their worth to the elders, these sweeping savannahs serve as an indispensable proving ground where tracking, patience, and reverence for nature are put to the test. Despite Mulgore's naturally fortified ring of bluffs, the Rolling Plains remain uniquely exposed to outside threats. It is the only frontier where aggressive centaur outriders have managed to push past defensive perimeters to harass passing travelers and hunting parties. Adding to the peril, a nest of predatory Windfury harpies roosts in the eastern crags, swooping down upon stray game and vulnerable nomadic camps."
+    },
+    "subzone:royal-quarter": {
+      "1": [
+        {
+          "duration": 76.64326530612244,
+          "file": "Audio/Transport/full_subzone_royal-quarter-9fa3bbe6698a8f509151/1-0000.mp3",
+          "sha256": "3ea164e391ef26ce2cb59c6504082e65bcac41ec057e2f2e1e5f94e3b30772f3",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "03562e",
+      "generation": "b46c6d6c127d373b6c66",
+      "hash": "c93eb6",
+      "source": {
+        "duration": 76.643265,
+        "file": null,
+        "sha256": "9fa3bbe6698a8f509151986523c7c85aee772ee59644498a18917708694421cd"
+      },
+      "text": "Royal Quarter. The Royal Quarter is the secluded seat of power within the Undercity, serving as the throne room for Lady Sylvanas Windrunner. Here, the Banshee Queen directs the Forsaken alongside her dreadlord enforcer, Varimathras, guarded by an elite cohort of Royal Dreadguards. Tucked away behind towering archways and shadowed corridors, the Royal Quarter—also known as the Hall of the Dark Lady—is the political and military nerve center of the Forsaken. Sylvanas Windrunner holds court in this cavernous subterranean chamber, plotting the survival of her free-willed undead and the destruction of the Scourge. Heavily armored Royal Dreadguards stand vigil along the dais, ensuring that uninvited guests and would-be assassins never reach their queen. Standing beside the Dark Lady is the nathrezim Varimathras, an unexpected and uneasy fixture in the heart of the Undercity. After siding with Sylvanas during the civil war in the ruins of Lordaeron to save his own life, the dreadlord pledged loyalty to her cause. From the Royal Quarter, he commands deathstalkers and coordinates defensive operations across the realm. While his tactical cunning serves the Forsaken well, his demonic nature leaves many Horde allies wary of his true allegiances."
+    },
+    "subzone:scuttle-coast": {
+      "1": [
+        {
+          "duration": 87.19673469387754,
+          "file": "Audio/Transport/full_subzone_scuttle-coast-f17172ce150c7fed904c/1-0000.mp3",
+          "sha256": "d8eb5800b23712fe3819c8770db8d1d84a2d42ad5f1448bee3263b23ee0081f7",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "8cf191",
+      "generation": "23846395bac62b60e889",
+      "hash": "e4a01d",
+      "source": {
+        "duration": 87.196735,
+        "file": null,
+        "sha256": "f17172ce150c7fed904cb7f39afa12fbcf65a742852ca46c983cd705a4abfa81"
+      },
+      "text": "Scuttle Coast. The Scuttle Coast is the wave-battered eastern shoreline of Durotar, situated between Razor Hill and Tiragarde Keep. The rocky beach is strewn with sunken wreckage from Admiral Daelin Proudmoore's Kul Tiras fleet, making it an active scavenging ground for the Horde and a lingering reminder of recent naval warfare. Running along Durotar's eastern edge out to the Great Sea, the Scuttle Coast earned its grim character during the invasion led by Grand Admiral Daelin Proudmoore. When the Kul Tiras fleet assaulted the fledgling nation of Durotar, fierce battles with the Horde drove many human warships against the jagged shoals, smashing them into splintered hulks. Today, the shoreline is choked with barnacle-encrusted timber, broken rigging, and salvaged cargo barrels. For the nearby encampments of Razor Hill, the coast represents both a lingering security hazard and a valuable source of recovered provisions and abandoned Alliance mechanisms. The name Scuttle Coast refers not only to the sunken warships deliberately scuttled or grounded during the fighting, but also to the swarms of crabs and makrura that pick through the rotting detritus. While shoreline wildlife and dangerous tides keep casual travelers away, Horde scavengers periodically comb through the wreckage to retrieve valuable equipment, including gnomish technical components abandoned in the cargo holds of the sunken ships."
+    },
+    "subzone:shrine-of-the-fallen-warrior": {
+      "1": [
+        {
+          "duration": 90.69714285714285,
+          "file": "Audio/Transport/full_subzone_shrine-of-the-fallen-warrior-e2ffc1a6ad1814e1cc08/1-0000.mp3",
+          "sha256": "95ac678c30e0e5f778cb125ea605b81ed9e5498f4cde8513fd273f613ec91052",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "014327",
+      "generation": "c07f6ec9c4cc124ddac6",
+      "hash": "4cd835",
+      "source": {
+        "duration": 90.697143,
+        "file": null,
+        "sha256": "e2ffc1a6ad1814e1cc088e84712df8115f3d59586f8e03d5036a07f9a92fc83f"
+      },
+      "text": "Shrine of the Fallen Warrior. Perched upon a secluded ridge west of the Crossroads lies the Shrine of the Fallen Warrior, a quiet memorial overlooking the sweeping red savannahs of the Barrens. Marked by a stone plinth bearing the initials 'MK' and the body of a fallen orc warrior, it is watched over by the gentle presence of a Spirit Healer named Koiter. Tucked away high upon the hills northwest of the Crossroads, the Shrine of the Fallen Warrior stands as an unusually solemn haven amidst the dust and peril of the Barrens. To find it, travelers must scale a winding ridge pathway southwest of the summit until they reach a gentle mound. Upon the summit rests a carved stone monument, its plinth carved with the initials 'MK'. Before it lies the armored form of an orc warrior at rest, watched over day and night by a named Spirit Healer known as Koiter. There are no battle horns here, only quiet contemplation honoring a champion who walked Kalimdor's lands. Within the world, the shrine stands as an enduring tribute to a departed champion of the Horde whose soul lingers in the care of the spirits. Outside the realm, the monument serves as a heartfelt tribute created by the game's artists to honor Michel Koiter, a beloved illustrator who passed away during the development of the world. The resting warrior is modeled precisely after Koiter's own beta character, Twincruiser, immortalizing his presence forever beneath Kalimdor's open skies."
+    },
+    "subzone:solliden-farmstead": {
+      "1": [
+        {
+          "duration": 79.25551020408163,
+          "file": "Audio/Transport/full_subzone_solliden-farmstead-2e96daf56054faccf5a8/1-0000.mp3",
+          "sha256": "5ffa8c2ef966eb4bf244eb4210098cf080355bea55abcae594c00f8d7cb619a9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "767ff2",
+      "generation": "0330a85a6753771396a6",
+      "hash": "d466c1",
+      "source": {
+        "duration": 79.281633,
+        "file": null,
+        "sha256": "2e96daf56054faccf5a8471fdf7f294a0ad5aa434e5e6041535dbeaadb74e795"
+      },
+      "text": "Solliden Farmstead. Solliden Farmstead is an active human pumpkin farm nestled in western Tirisfal Glades, just north of Deathknell. It represents a rare anomaly in northern Lordaeron: living native farmers who survived the Plague of Undeath and cling fiercely to their soil under the shadow of the Scarlet Crusade. While most of Lordaeron fell to ruin and rot, the fields of Solliden Farmstead still produce healthy crops. The settlement traces its lineage back centuries to when immigrant noble families from Strom acquired pioneer plots across Tirisfal. Today, these surviving human farmers live under the watchful shield of the Scarlet Crusade patrolling from a nearby tower. Traumatized and insular, they defend their homestead with unyielding hostility, striking at any outsiders who draw near—Horde and Alliance alike. To the Forsaken just emerging from Deathknell, Solliden is both a threat and a resource. The Royal Apothecary Society eyes the farm's pristine pumpkins as prime organic testing material for brewing their New Plague. Meanwhile, Forsaken officers like Deathguard Simmer send fledgling recruits to raid the fields, steal those pumpkins for Apothecary Johaan in Brill, and teach the living a lesson."
+    },
+    "subzone:southern-gold-road": {
+      "1": [
+        {
+          "duration": 81.5804081632653,
+          "file": "Audio/Transport/full_subzone_southern-gold-road-02614346e3c1a255f2e2/1-0000.mp3",
+          "sha256": "0fe22f13512d0e297269394214437ed6e8369f1102191386fed2567ceb470517",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "8e653a",
+      "generation": "e628ef8c9f7769228ccd",
+      "hash": "003aee",
+      "source": {
+        "duration": 81.580408,
+        "file": null,
+        "sha256": "02614346e3c1a255f2e274e04d73a6cba6845214d8ea9c673510cfd6acd2b383"
+      },
+      "text": "Southern Gold Road. The Southern Gold Road is the vital desert thoroughfare stretching through the southern half of the Barrens, linking the central plains to the Great Lift. It serves as an indispensable artery for regional trade, carrying caravans, supplies, and wayfarers traveling between distant reaches of Kalimdor. Officially beginning at the stone bridge dividing the northern and southern halves of the Barrens, the Southern Gold Road runs directly south until it meets the Great Lift leading down into the Thousand Needles. Like the northern portion simply named the Gold Road, this dusty highway derives its moniker from the endless stream of lucrative merchant caravans that trek along its length. Despite constant harassment from local quilboar tribes and predators prowling the savannah, it remains one of the busiest long-distance paths on the continent, ferrying goods between remote outposts and bustling ports. The road sees travel far beyond local Horde traffic. Adventurers and hardy traders journeying to and from places as far-flung as Gadgetzan in the southern deserts of Tanaris, Auberdine along the misty shores of Darkshore, and the sacred groves of Nighthaven in Moonglade tread this sun-baked expanse. For travelers journeying on foot through Kalimdor's interior, surviving the journey down the Southern Gold Road is a grueling rite of passage."
+    },
+    "subzone:spirit-rise": {
+      "1": [
+        {
+          "duration": 62.093061224489794,
+          "file": "Audio/Transport/full_subzone_spirit-rise-2ad94468dc6ee812fbcb/1-0000.mp3",
+          "sha256": "59efef433d745d1c85f20947dcc491f89635b88d737290fb8326f408248f5839",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "3c058b",
+      "generation": "ba0a6c1960682a8cc36c",
+      "hash": "df15d2",
+      "source": {
+        "duration": 62.093061,
+        "file": null,
+        "sha256": "2ad94468dc6ee812fbcbd8804159c4bfbac833392024c4402247b4f05ea56f3a"
+      },
+      "text": "Spirit Rise. Spirit Rise is the northwest mesa of Thunder Bluff, serving as the tauren capital's premier sanctum for spiritual and shamanic study. Overseen by spiritual guides such as the Skychaser tribe, it features sacred training halls above and descends into the cavernous Pools of Vision below. Perched high upon the bluffs overlooking the plains of Mulgore, Spirit Rise is devoted to communion with the elements and ancestor spirits. Connected to the central mesa by rope bridges, it houses the Hall of Spirits and the Spiritual Healing pavilion, where young and veteran shaman gather to deepen their connection with the earth, air, fire, and water. The Skychaser tribe maintains a strong presence across the rise, guiding seekers through ancient traditions. Beneath the breezy huts and open-air totem shrines lies an entrance burrowing into the mesa itself: the steamy Pools of Vision, a sacred subterranean cavern where seers peer into spirit-touched waters."
+    },
+    "subzone:thunder-ridge": {
+      "1": [
+        {
+          "duration": 52.584489795918365,
+          "file": "Audio/Transport/full_subzone_thunder-ridge-e15bbcefb183dea334be/1-0000.mp3",
+          "sha256": "25554fa3049ca6f8b620937e7ccfd8e8f881c733560ce9e8acdedade83bb2b1a",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "0c26be",
+      "generation": "edd2bc62e5dbc4415c99",
+      "hash": "25df62",
+      "source": {
+        "duration": 52.58449,
+        "file": null,
+        "sha256": "e15bbcefb183dea334be91219f81844ecaf11e55fa1cdbb69d3fee6e046a9628"
+      },
+      "text": "Thunder Ridge. Thunder Ridge is a rugged canyon in western Durotar, situated just southwest of Orgrimmar along the banks of the Southfury River. Once a lush grove of ancient trees inhabited by herds of thunder lizards, the canyon has suffered severe deforestation from human lumber operations and dark sorcery. Today, the agitated beasts and lingering cultists pose an ongoing threat to nearby settlements. Not long ago, Thunder Ridge was a rare green haven in arid Durotar, sustained by ancient trees. Its tranquil balance shattered shortly after the Third War when human interlopers from Kul Tiras began felling its timber, driving the native thunder lizards into a frenzy. Later, fel sorcery wielded by the Burning Blade finished the destruction, stripping the canopy and leaving behind a barren, exposed gorge where angry lightning-spewing beasts now roam unrestrained."
+    },
+    "subzone:tor-kren-farm": {
+      "1": [
+        {
+          "duration": 64.9665306122449,
+          "file": "Audio/Transport/full_subzone_tor-kren-farm-2e25e921c9b64e9bb9fd/1-0000.mp3",
+          "sha256": "29bc0c7e392c2dc1768789add7e839f6de238afb6d3f6cf293c375201ef3b4b0",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "e8197a",
+      "generation": "47e00a114d33f02d2867",
+      "hash": "95c1bf",
+      "source": {
+        "duration": 64.966531,
+        "file": null,
+        "sha256": "2e25e921c9b64e9bb9fd0848216b1efdc8f085cb72e635a0eff00f3066154590"
+      },
+      "text": "Tor'kren Farm. Tor'kren Farm is a quiet, struggling swine farm in northwestern Durotar, near Thunder Ridge and the Southfury River. Misha Tor'kren tends the homestead while anxiously awaiting news of her son Kron, who has not returned from a hunting trip. Carving out a living from the dry, unforgiving red dirt of Durotar is never simple, but Tor'kren Farm has had a harder time than most. Situated southeast of Thunder Ridge, the homestead focuses on raising pigs in a rugged climate where feed and water are scarce. Unlike the bustling trade posts or heavily defended barracks of the Horde, the farm stands isolated and quiet, producing meager yields in the shadow of nearby bluffs. Misha Tor'kren's son Kron went west to hunt crocolisks along the Southfury River several days ago and has not returned. She had warned him about the vicious predators, but he left in anger. Now she asks passing adventurers to search for him or bring back a sign of his fate, fearing the worst but unable to begin mourning without knowing what happened."
     }
+  },
+  "cuts": {
+    "01bf965aacb1239e6b56ceba8859944f4951dc491c34de517dbeca5579ef5280": [
+      418,
+      1184,
+      1538,
+      1970
+    ],
+    "0371e12fc7238c8258e7a9b1e9c5240195b52fae10551cb58818407bdbbefefd": [
+      1139,
+      1795
+    ],
+    "03c5e4f3492d031227b1713858d7bebdc8ecdc284e2534e6056d2ea30aa5e71e": [
+      1004
+    ],
+    "06160c89d09a8ef691aba7aa52e583d6e0ad50c324d5d18b312667c0d4a17dcc": [
+      351,
+      1000,
+      1362,
+      1932,
+      2519,
+      2812,
+      3114,
+      3588,
+      3848,
+      4866
+    ],
+    "06ba77e901a47e8e4f3a9313e6adcd2c835981d5cd844c6003894a89b4a36eb3": [
+      484,
+      1157,
+      1924,
+      2288,
+      2648
+    ],
+    "075a0280d964483c8e65671517e3b888a65ebd7df9af6dada4f5ae323dacb4bc": [
+      936,
+      1710
+    ],
+    "0a8063edea2cb868fe7d9f30fbfd7b0e06d18e1a0d5a0f74fd7fa4258c08c7a5": [
+      406,
+      860,
+      1481,
+      1817
+    ],
+    "0b776fdff5a6a12470bf2ad9db82835cada53ad953917a9e26e4f4bea5749209": [
+      821,
+      1568,
+      2017,
+      2480,
+      2834
+    ],
+    "0cc0a1a9f0b66bff804e7670d7484fd3cf8ed69c81217173807f612cbc0c300b": [
+      730,
+      1206,
+      1607
+    ],
+    "0d1fab29455324cb0f7e70bf8fd0a5822d7b0e9369d07cd269ddfc2be8fcc18d": [
+      1003,
+      1511,
+      2002
+    ],
+    "0f27ab7586c8075972753350f5c7b2e40454fce031a707a5b6de60ef74e33292": [
+      661,
+      1106,
+      1997,
+      2304,
+      2998
+    ],
+    "0f7f725094c1066a7eb9250dc1c34ff27930dedb4ab1728aef5cfe3fe79d120c": [
+      723,
+      1175,
+      1677
+    ],
+    "0fe22f13512d0e297269394214437ed6e8369f1102191386fed2567ceb470517": [
+      753,
+      1597,
+      2261
+    ],
+    "10de3cf2876226d522fdab94feca7ef0e19c5bd69faf3a9105b00cbb78f5b240": [
+      449,
+      1222,
+      1570
+    ],
+    "110e2db2f87ddf04d1b1a7b9363b4f744fe1a100d9c563d6c8527a2aa8d3aeda": [
+      427,
+      1203,
+      1672
+    ],
+    "1165d56042fcd77254c8dfdcbd9ac4c919fb6f8d93993b6d2cda041310e070d6": [
+      842,
+      1239,
+      1546,
+      2043,
+      2579
+    ],
+    "11d49d2bec05cdeeda4d9fef74c01b909a179b3a52ddb6cb3f352ef89ee1a9b5": [
+      333,
+      703,
+      1307,
+      1617
+    ],
+    "12263324bc440734202421bf62145024a307fa0822142606ce241baf99e7c9e5": [
+      326,
+      824,
+      1341,
+      1788,
+      2263,
+      2628
+    ],
+    "1349933c798fe31f476769eff7f23283684f13a4803bff79b80807eaccabcda3": [
+      417,
+      1028,
+      1469
+    ],
+    "148a4f4e04d9e160dad54fe8f12d9a5e70a47f8e5b06ab5ac0951e5fcaeb5cee": [
+      472,
+      1133,
+      1463,
+      1803
+    ],
+    "15939971b4447c53f54990ecd6e3ab3be512b37dbb29212b771f2a1823ab055b": [
+      932,
+      1249,
+      1617
+    ],
+    "15b9692140a8e16728a85aeba0121ee346b343dde77da313ea3db3677deee872": [
+      1017,
+      1361
+    ],
+    "15d5b38baa9f5c56e8561c67a562330507031de964ca00060fa268768bf5feb0": [
+      658,
+      967,
+      1451,
+      1888
+    ],
+    "167df605202de3b9c2dfd8e16744817e30836a3e314d853ac0039d54b59acb85": [
+      1052,
+      1670
+    ],
+    "178a0bbd008eacf0511a355021b69ac5cd47582ea0e3d9108d6208fb09da918d": [
+      644,
+      1215,
+      1657,
+      2024,
+      2318
+    ],
+    "17e98824177709d497deb6c93876ee8a8ba2e29902a59e3d5b89da7fccb147cb": [
+      1127,
+      1554
+    ],
+    "183ef95988d5a6725c32d489704609b81c17732fa5fe96355adde77fa8c31b0d": [
+      392,
+      983,
+      1904
+    ],
+    "18de900011e121504b348f7c475280e2c1e2fa415f69d99737aa98be349ac79b": [
+      443,
+      1327,
+      2030,
+      2654
+    ],
+    "1933c2fe1c8b27aa55d2ec8e4d7a832f942c423db9327ee79ca5f05cfac3edec": [
+      967,
+      1590
+    ],
+    "19d8ba32aed13979372cddf917be0b9af8c8d368bfa45b046913933048776369": [
+      371,
+      1073,
+      1608
+    ],
+    "1a4ce26466b271f6a661c8419e5266b8deafee765aa0cd3f7cf9348763f44697": [
+      953,
+      1376,
+      1616
+    ],
+    "1b0fc6e3b86c9efd632158b816a4cc65fa09d1c51a286aaea88285792852122d": [
+      801,
+      1229
+    ],
+    "1c665d9c8d5a030e44d9d7e4efc5406f85a600e3bdf7c4d4f5199dc9a06d7968": [
+      795,
+      1284,
+      2022,
+      2679
+    ],
+    "1f66f91f515712e4a41631e3cc9633c12daeb92e8238735316b37443b1b27830": [
+      667,
+      940,
+      1913,
+      2843
+    ],
+    "1f827222a16ff28551f2a53631b6d082527292029a6116faa28faf4c0eba7f07": [
+      911
+    ],
+    "22bcaae9fbcde5df85f06eac18c8f621e962ef6af0e9b11f54ebedc11772993e": [
+      1071,
+      1452
+    ],
+    "22c350207f5b38209420f2b329dbc863f4fe233cb8ee314197ac3099a1f097a3": [
+      814,
+      1187,
+      1505,
+      1761
+    ],
+    "2489b092d0f9fdb62d55a591c4ea0d8adcef05d79e0f3380ba9fd32d204f50f6": [
+      402,
+      1024,
+      1946
+    ],
+    "24f57af316d35b166eec608021bf52da4ac32cd35a463b03d6ad9965de0f17f7": [
+      958,
+      1267
+    ],
+    "25554fa3049ca6f8b620937e7ccfd8e8f881c733560ce9e8acdedade83bb2b1a": [
+      961,
+      1594
+    ],
+    "25b47433324e3fb8958e4474c2464a96c0dde252621661f2601469ece19b2f99": [
+      615,
+      1221,
+      2228,
+      2564
+    ],
+    "2681bebef0ab472b78c014c73857643aa440a72e5532350290f15cb056a83098": [
+      1121,
+      2026,
+      2338,
+      2722
+    ],
+    "2817f776129812a17314c24672aad94fb4fadc87020bb1af06b0990fbc3f4c57": [
+      1020,
+      1497
+    ],
+    "29bc0c7e392c2dc1768789add7e839f6de238afb6d3f6cf293c375201ef3b4b0": [
+      402,
+      978,
+      1671,
+      2104
+    ],
+    "2c76939508bd9dec2339e16539eb7201a5deb2066a754b0ba9e2e1a583472c7b": [
+      384,
+      1213,
+      1660
+    ],
+    "2e68c32716d35f7b68a0d7a3f3fa15be79e149fd5b9b8232e5c9c8c49119f508": [
+      803,
+      1098
+    ],
+    "2f1675d8cf61bb0332dcaa276daa117068f036d71ee88ae1dffedc70e51827f4": [
+      429,
+      1034,
+      1484
+    ],
+    "2f1cf33b0f8cde355fb5264f9694aa09bb6c300d0bf3a35d73fea22d1c2b05c2": [
+      240,
+      1097,
+      1365,
+      1603
+    ],
+    "2fd7e0af1870afdb343e63f08b33418b9acaebe8910c3b1f0dd9fc45d4c7c8f2": [
+      746,
+      1164,
+      1595
+    ],
+    "301bf3631f5b8b3864f6af70428debb390d10b1d3e3b8b673a3fa280c2748d21": [
+      1057,
+      1749
+    ],
+    "32b52fc3e5e53e7be02253906245cc48d8b5aacd2f487f73649b3a8e592194bf": [
+      604,
+      947,
+      1252,
+      1606
+    ],
+    "32d7f8cb09a23f77c0e4639024f4685cae57b03cef43320b73fa06a1787de464": [
+      315,
+      1124,
+      1705
+    ],
+    "32d8ba9abdccac8543b26ae996071cb6311f85cf24d572d2f6ebbf67d2b5820c": [
+      614,
+      1156,
+      1498
+    ],
+    "3338346d527dee37c4603cdf7c75a72425e823d55cc4e047c4234d7caf2a881c": [
+      492,
+      1233,
+      1524,
+      1801
+    ],
+    "33c430b2bedd8516bacf91fa84b0b6f2f9d1994dc7d9574f490b1bfdcb7ff62c": [
+      543,
+      1102,
+      1439
+    ],
+    "34a61da0b49d6a76183da8f9602ff781b5fde5d46a3e82d1f957a89c9883c39c": [
+      359,
+      1045,
+      1397
+    ],
+    "34ad828990f54b0cd26246f5699f3c1cc0197b4c09cb507a2eaf88043ffd80e9": [
+      761,
+      1109
+    ],
+    "34d407d62adba593d3d547f2f51e19e0c0e10e58d26cfb3aa82b7a5af1649368": [
+      1070,
+      1900
+    ],
+    "34f932e55f066c26c04a8cbe78c473a1c44853edb43ead632f957788b9e0edce": [
+      653,
+      1034,
+      1740
+    ],
+    "358e26a4b3411dad6dc3c16de217de9f46ff40d882eb73fafd2d9f05a02ee510": [
+      825,
+      1211,
+      1474
+    ],
+    "37789f9ca2129f7e8525f535605092fd8fcbe46f6b55a4609b28185a55933994": [
+      388,
+      1095,
+      1371,
+      1733
+    ],
+    "37cecf78550d69fc32221d46e3407b9e1a64d293c4e63bc3be4cadae78bdefba": [
+      735,
+      1638
+    ],
+    "3863116ea30c1f3943836e0fa9a054598518624e074fcd2eb5f7bd6ff307902a": [
+      370,
+      1183
+    ],
+    "3870ab224e7b9e05ca32916bc04ad21e32eb89ab327598b689b9eef38b9e2e47": [
+      353,
+      769,
+      1600,
+      2097
+    ],
+    "38bfd520dae2c0f315235172184fc1121914dcae85e3de87db23c4ea17229831": [
+      646,
+      1008,
+      1356
+    ],
+    "39d6a94b380d3e48dac7ddbb4eeafbace5d69c5fc00ae7a45250c0b8cca61a48": [
+      998,
+      1747,
+      2263,
+      2828,
+      3147,
+      3447
+    ],
+    "3a4f2be85782b9cc605b40ed7964d855c56c7d79338288e620d9698be9e3b171": [
+      827,
+      1219,
+      1695
+    ],
+    "3b352f2a60afb468221cd0504107f9e21d1d86600ac44353ed791c8083252538": [
+      941,
+      1385
+    ],
+    "3cfebcc3c8107dbbbf0739bcf1ad66f99c272c7caaf066e3f045f1c549af3e84": [
+      777,
+      1653,
+      2145,
+      2518
+    ],
+    "3dd08db0c0021268ce74fccdd6705f7727062dbdfaea1dee41e81a0b87c86c23": [
+      401,
+      1143,
+      2009
+    ],
+    "3e16448e40e044c8d9b054be41ddc13965735d4045fad89d917b791df52dcf82": [
+      373,
+      912,
+      1487
+    ],
+    "3e31ef7c8cd714d4c818e4a2e478157fa90dc90477cbbd1cac89c0c0a1f1089f": [
+      1019,
+      1708,
+      2008
+    ],
+    "3e47e2dc264181ee9246dd87a07e34cfbdfac97362ee9eef4b163bfa6e54edf8": [
+      1006
+    ],
+    "3ea164e391ef26ce2cb59c6504082e65bcac41ec057e2f2e1e5f94e3b30772f3": [
+      372,
+      1129,
+      2103,
+      2654
+    ],
+    "3ecdbb5599ac1266ed03a9aa0b492e58ccae721caa874f697e86eea4d12b20a1": [
+      662,
+      927,
+      2004
+    ],
+    "3ef40e51ff0fb8b66d26dbbe12dd8e72df1f74eea5bcee36d796eabf6ac098ae": [
+      949,
+      1231,
+      1571,
+      1921,
+      2189
+    ],
+    "3f84f1be7e66ed8af43c171d8765d220f7bfbaaf11a4e58b985136394bdc0d78": [
+      390,
+      718,
+      1137
+    ],
+    "40eb1b6e8d1c17b20c6de0d75900621da1dae3d211fd36b24df39a202588e8e9": [
+      1114,
+      1479
+    ],
+    "421c60ce213cd84740462685d757bc77e7f9b87490fc800effe77bf8b7624506": [
+      918,
+      1967,
+      2866
+    ],
+    "432f7a2e63c2efeb38fd99dfc96c3a4266cdf25b34cd4bd57165384b9394bc0c": [
+      1096,
+      1402
+    ],
+    "4358e7a03e3cf11847799a225463b9a3bdfa8a107c74b895ddc7da0e5dcb5c3f": [
+      487,
+      1137,
+      1936,
+      2214
+    ],
+    "436e50dc1131df53635f31a0ec3223dedb47ce21ba3552d0a3c04b73cf8cb388": [
+      378,
+      941,
+      1383
+    ],
+    "43f8a389eeb235574fd9182f53b6153437f37e3f1dc58ef3e59464b4163441b2": [
+      959,
+      1921
+    ],
+    "478091e458310abd327a47a1ff187fab6878804218e4c7ba7f8b8582a18207d9": [
+      402,
+      1139,
+      1488,
+      2194,
+      2536
+    ],
+    "486252a32b2d90f4efb4373ea2821e37e43845309d7280785d9186139d0f7ada": [
+      983,
+      1271,
+      1685
+    ],
+    "49d0acb89f53b78b0e5ad3c15e36de41a1d9b278c53fe1c1fffb6d92072f0de2": [
+      355,
+      1092,
+      1347,
+      2063,
+      2454,
+      2915
+    ],
+    "4a6056d3da1b9441e7aa11d3c4fcdf086f6f3d39f2ac983ec2d1be9aad18b2a3": [
+      926,
+      1215,
+      1621
+    ],
+    "4dbf4ee5f96a395e1e8c86cfa8942dfa411f4f7d937e44b5bb73e58b05c77097": [
+      874,
+      1766
+    ],
+    "4ff52f43247ef88d42a910ae99e2d3989f787336123c33adf189271d53388a59": [
+      828,
+      1290,
+      1816,
+      2371
+    ],
+    "505d03e95dd68e71ce0f929ab9e4024cecc8623d99f1a041d82e1449e0c5656d": [
+      763,
+      1246,
+      1991,
+      2583,
+      2971,
+      3290
+    ],
+    "50f1844068cc476bf15e2c8ada436d04d71dd9a500502ef3ef2ee9b3dea87132": [
+      439,
+      872,
+      1226
+    ],
+    "5158ca11f789ddae88d9f58fa71496c1d41995dae2636c3626c69d867fac4179": [
+      576,
+      888,
+      1483,
+      1860,
+      2174,
+      2475
+    ],
+    "51623f7705a63b8eb071af874d13c2dfac3b71642ce9e53796da6c22ac637acd": [
+      881,
+      1935,
+      2216,
+      2673
+    ],
+    "516abbe5b7eea5132c4b060eefaa366b95c266c3e7540056b0451985d182d8ea": [
+      861,
+      1690,
+      2174
+    ],
+    "51d741996c33b5e58c487b096e0a2a512d6fd9b843175f13cba86dbdcfb3313e": [
+      1079,
+      2138
+    ],
+    "5506517d7dd993a79cb8869c403500b7635e655854c4f3f005272c3b0d2c469d": [
+      393,
+      834,
+      1637
+    ],
+    "55c4cb53323c4ab905f8a700ece345ebd892f1bbfaf108fe300277412dcca440": [
+      1072,
+      2157
+    ],
+    "59d74431784b320c208684cd8019f3781f0cd8068e80a736a41951ed5363f3fe": [
+      822,
+      1206,
+      1909,
+      2199
+    ],
+    "59efef433d745d1c85f20947dcc491f89635b88d737290fb8326f408248f5839": [
+      411,
+      1096,
+      1614,
+      2139
+    ],
+    "59f1d029c751901a7c230e2693cffbef44e27ad79574ef7f4eda19ec004b1ae8": [
+      395,
+      1051,
+      1508,
+      1755
+    ],
+    "5a7acebfed3a51b946198d91afa273253ee1a9ead601eeb4db0b44b313047630": [
+      361,
+      1180,
+      1539
+    ],
+    "5c0acd9b392701cae7a719a9ba9321cb1e7dc044cac18f2fec89ea1509e253fd": [
+      1087
+    ],
+    "5da6807e39644c67b2588a134d43020fb7f2779045605bed96c7e9942d748b26": [
+      985,
+      1304,
+      1619
+    ],
+    "5eb3578bae6121356b48a6bc432e843091cb114be7db5ec7b008742a7edd1fa9": [
+      704,
+      974,
+      2057,
+      2702
+    ],
+    "5f198a79cf6bebe76333c749779c106b835f3880db93d0777ecb3e68f765e61c": [
+      1021,
+      1353,
+      1678
+    ],
+    "5f2b634df3e680d868e0b4d9f2e3a5c1791db596713f0de110213a8a0c572af2": [
+      1065,
+      1643
+    ],
+    "5fbbae88b8040666e6b2c897c334f228573bcd5654deb80e9ff422e0e09f23a7": [
+      351,
+      907,
+      1298
+    ],
+    "5ffa8c2ef966eb4bf244eb4210098cf080355bea55abcae594c00f8d7cb619a9": [
+      381,
+      1072,
+      1711,
+      2314,
+      2632
+    ],
+    "60388ef7cca3e14b17fc48a667bb869600f137811a1600aa047f6b2a939a7fbd": [
+      1014,
+      1738,
+      2012
+    ],
+    "611278510c38e29f47036c7c71200e487b4ddd405109ad6cf665df470da8669c": [
+      375,
+      1001,
+      1424,
+      1834
+    ],
+    "61207e5b52f737b9591d94b7ae74732f3cf7ad6fe0ceeb6237dbb2a43d55614f": [
+      922,
+      1286,
+      1601
+    ],
+    "612b9df5646fea6d28e9648689963eeb68e762a7df6087718cc2aa2373f57741": [
+      833,
+      1175,
+      1507
+    ],
+    "617ce5e98e56b489c327e69ae886e8b9944870f9819e7f78bf560794337fdc61": [
+      873,
+      1333,
+      1781
+    ],
+    "634040a13507f8cf01ca9872f7bbd0156e08fe9edb92924c999e7e14206eaf29": [
+      887,
+      1830
+    ],
+    "63adcd4a27662bd7b7fbad56271ad490722a90d54af14fdb35d737ef77b0eaf3": [
+      965,
+      1345
+    ],
+    "642c5c81b6c71479912b6bc84e5b43b741bdbf34f31c92820c89dbd542d8a1c2": [
+      1086
+    ],
+    "64ecb114dbfbecb5bcaf68b73f457bb4b5d4c846559c4d5af157c93633caa6b2": [
+      448,
+      1252,
+      1694,
+      1972,
+      3019
+    ],
+    "64f46c90694e408e0dfcec4318761901e4861dadc68d27ea991b987718017d78": [
+      1013,
+      1365,
+      2179,
+      2514
+    ],
+    "65234952faa1457f90d9f95ca7c386e9ae9b52b6bc670e03ed5434fa559c8130": [
+      883,
+      1236,
+      1956,
+      2946,
+      3485
+    ],
+    "657a4a57b38864826248ef58a7f667827495e9d229078b47ea0b37d182c1f974": [
+      353,
+      1220
+    ],
+    "65a847d5429ddde36c577d2a761803cd3d64c1f2ad535df1b144a3ae2ce5694e": [
+      841,
+      1741,
+      2132,
+      2735
+    ],
+    "65d236bc2e084f15f6fb0eaa839f841c120d49849fd1542996da72638ea7b9a1": [
+      968,
+      1225,
+      2216,
+      2771
+    ],
+    "670f94bc09cd81e1e8436a5fda8985713253d7688ae95447b93ae8da09b749aa": [
+      1059,
+      2078,
+      2530,
+      2867
+    ],
+    "6877fb0d40b16ef25316974ca2d9ce20f628b293882bdf535d2b8512f1e68a84": [
+      941,
+      1592,
+      1937,
+      2330,
+      2576,
+      2950
+    ],
+    "6ae8c03b82f9545e8c132a3e89904d38e8a5dad4661ece55ec2e8983671cbc8d": [
+      612,
+      928,
+      1936,
+      2169,
+      2518
+    ],
+    "6b87d33f7fb000d3d7db821d7eb1ec2ab19fac87004ea3f7d739096341a43871": [
+      536,
+      1229,
+      1657,
+      1935,
+      2247
+    ],
+    "6cc16540d92dfc7110bacf433d0cd15057bcd66c7bceb79d379c2c762f546199": [
+      488,
+      1157,
+      1442
+    ],
+    "6cf54060d8c0920210a452542e2fc583aba6a947636bfe5f1abf82d35452f457": [
+      758,
+      1066,
+      1631,
+      1961
+    ],
+    "6cfecde04c593864d0a72fbbda5527997efbb2ec8fba125db30c6fdaae346170": [
+      994,
+      1372
+    ],
+    "6e17cd560417211f3d3adaabc4a02db3a6a47fb2d3e3928ce46cde431002c62d": [
+      384,
+      698,
+      1373
+    ],
+    "6f6fb6cc40837bc340be104b5d27677ab51d68ea5d9abd990edbb3b64f5b21c3": [
+      462,
+      1147,
+      1403,
+      1737
+    ],
+    "6f7f86bc75e55206ebe177866a2f7b1eb2aee7fbd9d1e00dff8a6f34b0fd5d13": [
+      559,
+      1024,
+      1292,
+      1660
+    ],
+    "6f9542e8f262e779b825d035a24ea44bee0c125e51aab11cadc62ce0b49291cf": [
+      381,
+      791,
+      1303,
+      2117
+    ],
+    "712330616434d9bc424de04660522825bed808f1c207d199f62a3e4ca78acdc1": [
+      880,
+      1678
+    ],
+    "738e27ef5ca8b9ccf8e584f711088feb89469a3f518c7829045cecba683fd4db": [
+      394,
+      1098,
+      2121
+    ],
+    "73a6bc5a1027d7ec0f4b217658405da71440daa7e80a2482d055ba988d4912ca": [
+      365,
+      1163,
+      2226,
+      2586
+    ],
+    "74b7ace600ef91387c6c0324d059fe164787f75b09334c430d241fc69d33ee14": [
+      379,
+      930,
+      1341,
+      1727,
+      2372
+    ],
+    "7567e9fa03f0bf1130d8b6351c8c603bf908598dab6fb00d5cce00ecb01a5fcb": [
+      753,
+      1149,
+      1546,
+      1995,
+      2388,
+      2880
+    ],
+    "758ffb98856113e830c8320eca6ba20aee3f41b7daf5ea12b5da764f8a8e8fd6": [
+      955,
+      1492
+    ],
+    "762d9a1bbda9996dad5e059b0fec4d63bca8ebc2625439962edc81def8378b26": [
+      330,
+      1122,
+      1599
+    ],
+    "76632162330bd00fa9f34c793450b596f2dfed450428e384afe074e0744aacd3": [
+      1112,
+      1437
+    ],
+    "77bc196aab3db42f7c0f97fc922e311ea372b3e9afbee14a73139525d8ed8d34": [
+      666,
+      1053,
+      1469,
+      2061,
+      2650
+    ],
+    "7877a7198ccb6484f8fad5a9e03bb3fc8d134c5bfe4b6ced64460a8c231d0275": [
+      709,
+      1062,
+      1407,
+      2028,
+      2543,
+      3011,
+      3559
+    ],
+    "789495f5a95aae170a4b379d8a54da02edc888fd29573443f7a7cdeaf98c11d9": [
+      411,
+      1167,
+      1540
+    ],
+    "7a14c40423fe938415de98ae2a372c704f322c7f505c238e3ac72a5630cdfb90": [
+      686,
+      1118,
+      1656
+    ],
+    "7a6a5add913822cd76a67bcd471c84a2e46fc397e467343dfded43ee5c348607": [
+      986,
+      1433
+    ],
+    "7aa2599a252d1976130231933dc20ca5e9ae225cdee31f37ebf161f9cdcb312f": [
+      1032,
+      1396
+    ],
+    "7c8756353330bd5b9007e61960173dd6f6149d7c273a9549c9e60b7fa0da7781": [
+      1038,
+      1383
+    ],
+    "7fda3d727bd93bd51068bf6b2e286a0b144ad506d4d11c02eb566fff02757857": [
+      406,
+      849,
+      1759
+    ],
+    "8114a34e40525065b86bbdcf8c590efd1797a68c9f92b80a99d9c01195d7d045": [
+      1118,
+      1914,
+      2310,
+      2636
+    ],
+    "81563611a0eb793c7c918b5d34cedfb17bf15e27a265b692beebadbb348ef9de": [
+      933
+    ],
+    "8168d880ec9627fc40d0b2164f487581b3489f425f4a06c3a58717b04d151feb": [
+      1062,
+      1546,
+      2118,
+      2460
+    ],
+    "851efb1175fe7cd24073b93920e0a58e5b51f3b4da934eb946240a092bd1058f": [
+      433,
+      1057,
+      1466,
+      1815
+    ],
+    "85651ce3d8211eb2a6f39a0b7121f7026bf67d9db03e518f639acbddb12caf9e": [
+      1011,
+      1375,
+      2078
+    ],
+    "862042794d2e640bf3ae6c1aae5b0b4ead012057ee998ba36e2c5c704c6572c7": [
+      922,
+      1292
+    ],
+    "869d88dff847c0b5ea62071fee1ae2afb26c04d758323dd9169f11874de5fc4c": [
+      465,
+      1240,
+      2271,
+      2830
+    ],
+    "87228b48471ffa033ec4cc66d39c8ceea52afb3a43b7c0ae323e8bc5609435b9": [
+      1038,
+      1492
+    ],
+    "88d0df792efd0298e2e5431e8984aad54124357e95c18777f250e5558fb2bbb8": [
+      886
+    ],
+    "8909048104e0b85529b92d142df6d81943f8991536eb06a647930a28c17e3b72": [
+      582,
+      1130,
+      1568
+    ],
+    "8a23ba2d5c5aa64e343dad7a8f0f09b97a07c3050455431004c9b4042a982082": [
+      720,
+      1312,
+      2081,
+      2515
+    ],
+    "8a34bae3b28bd260d434d808ad5a1bf8fb9f1ff3d5d31fa175ba578f208960d8": [
+      647,
+      1050,
+      1284
+    ],
+    "8af2f92f31702fff906385564302d3e51f37ee80849172499e064a7ef7ea8d9d": [
+      437,
+      1135,
+      1378,
+      1816,
+      2234
+    ],
+    "8c0a95b163eec9578632326655b864d1b810ee19e6fcf0a3f811b46c6ad2fbac": [
+      783,
+      1751
+    ],
+    "8ccac6036408154cab5fda5f18aa5b5b785c6ad466f93431bc86e3f19d51f790": [
+      302,
+      655,
+      1237
+    ],
+    "8ee6bfba95c353efa76be137ec4b6b15f6a0ecb46019221c389360a178a1c71d": [
+      1075,
+      1358
+    ],
+    "8f51fabf57517d8039147bc1af58efa68aa8a0bb751183d11ae7af2a166c07d6": [
+      297,
+      1106
+    ],
+    "8ff1610682c77f60b5db03214a837e73a93b20c3abe64e238196ae2a01ed7f76": [
+      928,
+      1262,
+      1535
+    ],
+    "90ce5e5f6a16b8fe764743b867433c3656ddc8c0c57c8d6fc49c080eefcc1754": [
+      334,
+      983,
+      1416,
+      1756
+    ],
+    "93357b9d5719d4c772a84c2768aeafa0c2378ee64fed19f46b78aad1cbaee1c6": [
+      1016,
+      1376
+    ],
+    "93d55404e48a8b7962c61c683766eb7cf5f464bef6f5367ab7fc9c3ec21095fa": [
+      375,
+      1120,
+      1749,
+      2031
+    ],
+    "94b059013d5ecd3b444c44635e18d4cfd7dc112ffce4e4d195915b45c81c5ba8": [
+      403,
+      1023,
+      1307,
+      1706,
+      2205
+    ],
+    "9515aa0cd3a4ec989c085c615b32102143c1c8311552ba85a4ced88bd61585be": [
+      373,
+      1195,
+      1662
+    ],
+    "95ac678c30e0e5f778cb125ea605b81ed9e5498f4cde8513fd273f613ec91052": [
+      320,
+      863,
+      1784,
+      2645,
+      3090
+    ],
+    "95eee44da63c164b69bd42e593b74e224d7794017eb95f577a6ab00ff0cf3a17": [
+      1029,
+      1307
+    ],
+    "968ce2d2da908356aa7da0405ecf5986296a45e3e64033049f43cb94c21c7578": [
+      330,
+      998,
+      1322,
+      1975,
+      2216
+    ],
+    "98d9fffa2202d4a55ee34215e94ad58cba756ea8c1b4be42339761359118f023": [
+      1009,
+      1586
+    ],
+    "9a9698823503d73261311f1fcba6f986d8811f9b3272e657f1b4621aa3dd90bc": [
+      970,
+      1657,
+      1919
+    ],
+    "9b1408e78e6628fe1bb6027d64bb9c6bcbea64d54882bb56223eb0b2c08888d5": [
+      794,
+      1030,
+      1633
+    ],
+    "9c7d6ba8791e5761a43612e09a88f3ed5d573fcc8c828d46b866db6c5b08934b": [
+      769,
+      1085,
+      2093
+    ],
+    "9dd119b8194433b9c7c3c71ebdc889dc8a3f69c4895fc45b834eb53dbd02e113": [
+      566,
+      1166,
+      1545
+    ],
+    "9f2a598dc82ac8f8354e3afa58bd2a9c3f106344490ffd71c1729afe45de116f": [
+      974,
+      1742
+    ],
+    "a0b176f0a9c1fc105f5ec8bc1c6520337bb0031fc651e8422e25fe89d1bcf3e1": [
+      997,
+      1791
+    ],
+    "a1a923db0699b162d5d7302af640eef97495745af7aa92453d7e05938f9599fb": [
+      895,
+      1223,
+      1746
+    ],
+    "a27fc68f6b5c8c98cfd9d3cd93bff5acb44b457a1b65dd6a61fbe783438e005f": [
+      297,
+      947,
+      1295,
+      1999,
+      2772
+    ],
+    "a329c1db03b6bb8eee4f74f0172ecf043e6d1ac08758348bf23b4b9c96702035": [
+      1109,
+      1586
+    ],
+    "a3997a0cadec00d1975cb6133d892be1ec054eb6c425c70618e05c6c0f9f4a23": [
+      632,
+      1200,
+      1559
+    ],
+    "a3bf078bfddbb0f8b7059a0406fcc41954f195978c972d9a56ad4481f653dd17": [
+      719,
+      1092
+    ],
+    "a43d1bb498011d34fa388b74020ad9bd0826611783acfe59edd5baf9c254e271": [
+      1016,
+      1325
+    ],
+    "a4a8ad925050d6a7d80bfce3f92d0897d79f2bf7c47ec856e3ffc55785d4d81f": [
+      893,
+      1224
+    ],
+    "a635be41cc3eb113defc848865c4709b6fae3ea1bd1c3d6b0965ea7fb18e4bdc": [
+      954,
+      1375,
+      1673
+    ],
+    "a684a2567067943400f1046722b3b0309a45ebfda70cf94f09181f389d199390": [
+      1002,
+      1393
+    ],
+    "a691a0cb35338e9a9714af7ba0ab351807100c9de0f8f91b4f47f07abcab6432": [
+      306,
+      917
+    ],
+    "a6998546848c1f3f350aa9e8ec4ba4e314af80c6dd824a453d8343368d897393": [
+      925,
+      2069
+    ],
+    "a6d1a6b56b23c0dc805d1c895c8d27ffa6616cdf41a89a6702e4bc541c570387": [
+      972,
+      1594
+    ],
+    "a7e4691eca50da705e0df03b3b764268d1eb582684e66892c8db5af54e4e891d": [
+      392,
+      1019,
+      1465
+    ],
+    "a9d7b7d5a3cc46c85f992b44be0e898ffff11c3c8503d8d4f4abfaf8f33d9bef": [
+      668,
+      1231
+    ],
+    "aa71e9fe27bb9aa6f577cf34994e8b076752185ee36def7f5c242586407a1179": [
+      1124,
+      1750
+    ],
+    "abc9203b98aa4bab7778c958441bcc2319f1a7cfa12b9793c75767889a1acf1c": [
+      1057,
+      1641
+    ],
+    "af68325bc12088278fbff4b1383bc28e3f0f9b213cb8e4cd8337381d4267eabf": [
+      642,
+      970,
+      1357
+    ],
+    "b028eb3458bdee2752a5babcb1e466ad28b5d6de0bd814b3ad449516f41557a1": [
+      349,
+      1116,
+      1468,
+      2022
+    ],
+    "b119d8d514b33b021e58d80789c65132cef7dcfef7b36c01d2599430a9b8465a": [
+      714,
+      1099,
+      1534
+    ],
+    "b1209d3ddecdedf24e4f05761ea7e0439aa1c428cde25784fcd68b7a933dd382": [
+      683,
+      998
+    ],
+    "b1bc3a3d5f0d4d9c06f5cfed4234d5770f441efffb52b3054603f3daf2564353": [
+      910,
+      1371,
+      2045
+    ],
+    "b3ff27f36ecccab6c616c9798d06b30d080c1c3e745377c5305e5b7e490c95d6": [
+      925,
+      1325
+    ],
+    "b460bfee31525916b91d6ca07787346cfd89f5fa7c3a8a5372225ecf67369d37": [
+      661,
+      1032,
+      1492
+    ],
+    "b6446e47b7cb00e9b355e92b7d885ed8ac8aee78acfa346d66ebaf0ba06d3910": [
+      957,
+      1298,
+      1573
+    ],
+    "b6ae8d123f1c07f8f771319192b25c0e1656118d4a59c7c81c20c92f280583d5": [
+      432,
+      860,
+      1513,
+      2109
+    ],
+    "b7445184210d85fc495f8628405eecca62787ff1d7615bdd0f0ee5c182d35f88": [
+      1104,
+      1497
+    ],
+    "ba2380461422c66c1c3b4fae1c90defc00b0772d99c350371971c10bc1559a0a": [
+      1029,
+      1778
+    ],
+    "bd3548d1b35f1ae0488814ee2b94723d664929c19a6df17d38648d51fba1f7a6": [
+      459,
+      1133,
+      1775
+    ],
+    "be5ccd02b027f769650cc12a527f2897bef53dff81db0de37a25cf2c4d802417": [
+      861,
+      1291,
+      1996
+    ],
+    "c0893403475a36230c42988c0b14614cb11057266a70320cd567a922186d0109": [
+      814,
+      1183,
+      1509
+    ],
+    "c21224c27b8b3813ffd5aff251f4a9e167f92986f59e20292db852e100488de6": [
+      1065,
+      1497,
+      1883
+    ],
+    "c21f2919bf7417b7aaf4f23f5c25f7afa152921d09a10b67020423f121cdc4f6": [
+      677,
+      1075,
+      1356
+    ],
+    "c3f736ef951a695002f4e964b7a9c60f006260081fec7a00e55b971108097a97": [
+      1136,
+      1486,
+      1880
+    ],
+    "c434b8600210821b88e6ac0514b072eba4487c951b671f90dfb2941706742bb2": [
+      965,
+      1315
+    ],
+    "c61b414611ab9c932ea285f8a5add545bbf66470d72e833f0f736e824a891d3b": [
+      276,
+      1208,
+      1610
+    ],
+    "c6a88a6a09bf189342777e9c8e0768cff8159040ffcb697d322d8a60835d5923": [
+      362,
+      784,
+      1106,
+      1630
+    ],
+    "c7034d96a3dad43c76c776d3795520cd7fa58ada3fe00cefc9987124a097d138": [
+      1114,
+      1458
+    ],
+    "c79736e0f6292cc9d54284744e300db56d585e548872f72cecf9aa8a38ddb635": [
+      731,
+      990
+    ],
+    "c7b0ff71813ea779ca4b2bc0214226240a150259faab8de80cc9a3cb6fc1ee8d": [
+      1123,
+      1971
+    ],
+    "c9875eed080f82c4c75fa55b70fc3cb5bf5519fb92b8e018ce7c6b4eacd59fe7": [
+      607,
+      1078,
+      1436,
+      2136
+    ],
+    "ca7faf7b7770cbb80a08b77a69a592806df24b85feed5fb55a1905064c974f9b": [
+      343,
+      1014,
+      1512,
+      2003
+    ],
+    "cbcc486a573b886be810a7a924433bcffad7dc1774f56f81306edeb0207ac38a": [
+      543,
+      1187,
+      1801
+    ],
+    "cc73357aac9c2da1f5f95365025c4a4f160ea8590f76da6d4f3cb8258e145c2a": [
+      958,
+      2106,
+      2340
+    ],
+    "cd1c3c60b02cf4016b5feb1e9a56ef6d019c12c7432020467f97bd28a24ed436": [
+      1103,
+      1697
+    ],
+    "cd253c235e2db275b53bf4fc1c0afcb39839def4ec71d231f558feacaaa2ba0f": [
+      833,
+      1125,
+      1694
+    ],
+    "cd269deaed38687ec3d6b43218ca126a4abff8cefeae476bf7ff850ab0600a5e": [
+      653,
+      952,
+      1321,
+      2124,
+      2456,
+      3184,
+      3428
+    ],
+    "cd70e1cd5ea92afb11ce6cddb60f7aa9c4cbf790b5957f256c6e1475637ca40a": [
+      1073,
+      2115
+    ],
+    "cf2a3c90b150e8d8392d4feff5afb54c89d714fdd42bad02934c386731365c8d": [
+      383,
+      756,
+      1223,
+      1604
+    ],
+    "cf724d7e416577dfcd4711613d1f9b241707a9f25bfc0146f596cdaea494c84a": [
+      363,
+      1052,
+      2061
+    ],
+    "d15f2ac797bf86045218e848eea2116e8cc25bd80f7494bd0c47763d9ff183bc": [
+      597,
+      897,
+      1165,
+      1622,
+      2138
+    ],
+    "d2825651a9883d8aceea35106e98ee5716d0865d61c8f4f87261d53fa0cfcb0b": [
+      869,
+      1523
+    ],
+    "d3413fb17bb3ebb9e6c0139f39653a8de89d713489e17785a30b522258cff371": [
+      350,
+      725,
+      1047,
+      2066,
+      2327,
+      2578
+    ],
+    "d382170f4542ac113a4497654c4221b1dcb588d9b3750973ed851f2e7ee15431": [
+      381,
+      1053,
+      1755,
+      2140,
+      2513,
+      2755
+    ],
+    "d546510cfb0d75a2b74cc204280c3f9a24aa672d8bc191b95169794627dc4284": [
+      777
+    ],
+    "d5a18f1e88cc3c40c59cf7f7d2849f4f4d628eae77bbe3909067091144a33745": [
+      372,
+      1165,
+      1446,
+      2010,
+      2246
+    ],
+    "d80966bab2025f5e02b5dc4ef837d895580290c450c015f60c280e86db1d4dd3": [
+      640,
+      1250
+    ],
+    "d8eb5800b23712fe3819c8770db8d1d84a2d42ad5f1448bee3263b23ee0081f7": [
+      370,
+      1188,
+      1650,
+      2336
+    ],
+    "d960f3f8eebbd1d421a0f5469b0c8c3a6af88e73dbb84015d757002481302a28": [
+      999,
+      1328
+    ],
+    "d99b2a2661e74f2b43ff4741b0bf1bc820173aa56e205443cf4e43191f0fb0c9": [
+      627,
+      1275,
+      1710
+    ],
+    "da4232d4605f7ac4d54c045e4f86bd0efb7ba80b1280caa06a56c1a97dbdf7f0": [
+      794,
+      1148,
+      1792
+    ],
+    "da5ee98c4ac36c211b57180fb6180a0454c6a31b28423c30f2ce4cd5476f645d": [
+      1072,
+      1310,
+      2295,
+      2674
+    ],
+    "da7541f651dd674a46d4bcecd7842404b60ce71ae505d0ea7a2e82b1fbcee5ed": [
+      399,
+      1166
+    ],
+    "dab9aa9f953ed06bda98b8f7529a4a1b0155e053eb4319591dd95fa48ed5fe41": [
+      671,
+      1072,
+      2053,
+      2331
+    ],
+    "db77be833f9796d78c6f98e86a2469079b6bc8592243df28fa3b6877daf4c60d": [
+      977
+    ],
+    "ddb9ccdd5bde9c05e2de82d6600e441bc27e4652bd8d98564bf705913cdb220d": [
+      523,
+      1161,
+      1533,
+      1875,
+      2161
+    ],
+    "ddcbdd840c2d77401497207b898919ad6baf139b20bad154f4a9c3d9f3e83f5e": [
+      396,
+      814,
+      1787
+    ],
+    "ded5e2fe94dfb2f14c05952a688b1778027ccf8662edcf040895c6db0f37692d": [
+      1047,
+      1910
+    ],
+    "df467ff4d57d16140236b17fcfafee5d8274ced4d77b376c7039723d9abf71f2": [
+      604,
+      1165,
+      2210
+    ],
+    "df4d78c94ebd71c252625c689247c3b1970b664e583af2d6dc7f72d87ccdbd5e": [
+      1089,
+      1728,
+      2032
+    ],
+    "e02f67a62e207c5553a78dce77c982f14386c9002232594127b5579db5a46e1e": [
+      878,
+      1221,
+      1627,
+      2260,
+      2660
+    ],
+    "e120364cbd254a0a82532c72e700202c1b38d4eed7b3226872dd16d36ff4e238": [
+      1098,
+      1345
+    ],
+    "e3dba90c7bbc25a8a04a154fc70f2a7f19f08b7af5ad96202be58d060efb8254": [
+      945,
+      1453,
+      1693
+    ],
+    "e5729e113cdcf0e0e11f56ab03dbeabd4fc065aa60670b282fb89d85f801ef57": [
+      874,
+      1539,
+      2085,
+      2771
+    ],
+    "e590fe27825969d33ad3cdfd3232ebc1726a0f8aa1dcd04b918fef1ecbeadd0c": [
+      992,
+      1617
+    ],
+    "e66a2b22e7ec9efc6b342772fdf02f023d8e9894f8469b228007eecea1c43bd9": [
+      705,
+      1134,
+      1636
+    ],
+    "e763f81966081b29fd9d9a4faa8be8ee79e92afc76c7efff4fdeff6d553612b2": [
+      1136,
+      1535,
+      2249,
+      2544,
+      2962
+    ],
+    "e7bdccf4f62fe32f0e007d8c28875c43c2ffa0c21e7a66060d00cc7b08708f88": [
+      1105,
+      1569
+    ],
+    "e9238b824c0da8d34cce9e23003ee2199e4d01a824e8583bed0ec13e52ed00ac": [
+      1007,
+      1828
+    ],
+    "e9d0e54acefc93536c927b63c011c2891bbdc06f6d12eb78090eb47881668a42": [
+      387,
+      839,
+      1139,
+      2072,
+      2503
+    ],
+    "ebb88753d0db468081fd457d178487009fc18436d42840dd5c505977e5539e2b": [
+      1107,
+      1514,
+      1785
+    ],
+    "ec1fcf7ee286424b08c51781d2d1fb603d6b945c169f6f42a401da8d42c2ab7e": [
+      421,
+      848,
+      1679
+    ],
+    "ecefd394c9b3bb89532a3aaf6ba1c8e7f848293b506d4fbc566bcedaab06b6c9": [
+      450,
+      1060,
+      1512,
+      1758
+    ],
+    "edd04db2db17026637fa13066615d9487ba6a05f0835dd8167682eb45da9a131": [
+      453,
+      1185,
+      1581
+    ],
+    "edfbb291a0753fc3a2850eac871cc53ae0f99df9988fddc2035d4536283cfe16": [
+      374,
+      1012,
+      1413
+    ],
+    "edfbb2a929d76437f475808c6b9ad36921d94522fb6641f600afac42bd7cbe2a": [
+      655,
+      947,
+      1464
+    ],
+    "ee8a3f7075e784494e447ea3533ca205aaa538a4f899e871add50e0ea7e0b467": [
+      1126,
+      1791
+    ],
+    "eee6a18280898813adcbe1a8ae31fe40a532eb52405bf5367a60965ac7a3cf74": [
+      800,
+      1512,
+      2025
+    ],
+    "efe3f85011dbc2b2a1bec110a13213ed80366a8eda2376b345a886645c383ba0": [
+      791,
+      1264,
+      1758
+    ],
+    "f12454f4d291d5631e0051e21d886f7df09bcfba09092239670ac28784464361": [
+      991
+    ],
+    "f1a97c2e63fa019d7f2a8908e27c8dbbcb48de5b4bfa37282484355021c12d28": [
+      407,
+      992,
+      1281,
+      1972,
+      2296
+    ],
+    "f2f4c2fdc6b826336af6ace5bddc0ffef58aefec4e25cb49c752a31f0d1b5abc": [
+      364,
+      1132
+    ],
+    "f3919ed39d08b6bee76f410324e8235b6fbe13aaedf0586f62d0c598e6576fac": [
+      342,
+      958,
+      1353,
+      1977,
+      2695
+    ],
+    "f3e75c2aab55fd36c69d5d035d69e9d0a797b0433bb1c2ebd7a4ebf6694e9dda": [
+      365,
+      856,
+      1910,
+      2162,
+      2414
+    ],
+    "f585d004c300afb631d23568995876a9858d52f372a7fb2c52c810f9bd999495": [
+      465,
+      848,
+      1095,
+      1930
+    ],
+    "f5f14a035f5bba8261dcf6f43e538452fed58d15c1a71e1372c4e9f5bdaf4606": [
+      1073
+    ],
+    "f6269e1ec69560a454d029ebbbda397a8be6b7b87774970dc0eebbcaff57bb84": [
+      913,
+      1747
+    ],
+    "f667bcd7d269ae69a8e2fdab56c93122ab812bac95aa76631dd16324e0a332dd": [
+      627,
+      1309
+    ],
+    "f681a7e6d719cae09bde8de463265ba040dee8ac5384462c2d78baa33dc6610e": [
+      433,
+      921,
+      1306,
+      1638
+    ],
+    "f7d47d238208b0b18f2fbf6f3c3dcbb68e11d4c3ded54605ccffb4b01797a800": [
+      672,
+      1317,
+      1766
+    ],
+    "f89c61888ce87a1feccc646f9e7a1e752c9710d4aa8ae400f8a2b0c8170ce5a2": [
+      835,
+      1259,
+      1770,
+      2351,
+      2889
+    ],
+    "f96c0f76223536efdeb009a6e14785429034c1c4f867040d7d8d4e79e67a1b8e": [
+      1025
+    ],
+    "fb90d39a5a492b95628145389c30df0ea509b19cd17d65ff31ded768ac4cece4": [
+      1125,
+      1485,
+      2037,
+      2425
+    ],
+    "fbb86563878469a4d8e3fee6637b6f49d834c77b5fead8cbf60dfdcf4a04b2b3": [
+      904,
+      1556,
+      2174
+    ],
+    "fca4bfd6bd530dc67bce8bba0cfd2788d056d55d85ce93b73fa256c28097f65e": [
+      350,
+      1167
+    ],
+    "fcb4ec57190c553fc7bf999eb050c153188f1583603c1036858a8d508ca77cdc": [
+      327,
+      994,
+      1326,
+      2130
+    ],
+    "fd45dc3d4d4dad4363cc961448b11f4879d816f4cfb28b54ce9962282250fd39": [
+      397,
+      1103,
+      2001,
+      3107
+    ],
+    "fd603800269ebd0be58f8021b22badf4b8836aed3005ab117b69fec0879298b5": [
+      1026
+    ],
+    "fd9a02a1cb64ee76dc3e6e5986cfffe43eb8240b635a2cedeceb3bb3679e7ab1": [
+      1104,
+      1414,
+      1840
+    ],
+    "fe6b275bd397836b5bfb557c8248a59e6022f9987c70a9174f5b89242f3ebf4b": [
+      735,
+      1179,
+      1929
+    ],
+    "ff9393ab3a21f57e0933ef8150aa36cc9e540abc3361c98646d7e02f09ad1708": [
+      306,
+      970,
+      1401,
+      1986,
+      2909
+    ],
+    "ff9a016c51fe4010b0eed534c15337eb06a9e473836d76ad025735e1ffcb1282": [
+      965,
+      1402
+    ],
+    "ffa7e4b3f9ddc82f3a0b9e4348a2839caa3bebed8ce6a5c7593f70184eba29ab": [
+      991,
+      1499
+    ],
+    "fff189153953b9b8084bc277c6d829133dfd68374b25e8f64e5ccd4e7099e7e7": [
+      359,
+      932,
+      1448,
+      1728
+    ]
   },
   "pack": "LoreForever_Voice_Female_Horde",
   "retired": [],

@@ -7,17 +7,12 @@
  "meta": {
   "wiki": "Ariden's Camp"
  },
- "summary": "Ariden's Camp is an abandoned encampment nestled just north of the path threading through Deadwind Pass. Left decaying in the shadow of Karazhan, it stands as an eerie, quiet anomaly amidst the desolate canyon winds. Travelers between Duskwood and the Swamp of Sorrows often pass it with unease, unaware of the cursed peddler who once pitched his tent here.",
+ "summary": "Ariden's Camp is an abandoned encampment nestled just north of the path threading through Deadwind Pass. Left decaying in the shadow of Karazhan, it stands as an eerie, quiet anomaly amidst the desolate canyon winds. Travelers between Duskwood and the Swamp of Sorrows often pass it with unease, wondering who once pitched a tent here.",
  "sections": [
   {
    "title": "A Silent Encampment",
-   "body": "Tucked against the crags north of the gorge road connecting Duskwood to the Swamp of Sorrows, this dilapidated campsite looks like an ordinary transient stop long forsaken by living men. Yet in the oppressive gloom of Deadwind Pass, nothing remains unmarred by dark sorcery. The camp belonged to a peddler named Ariden, who brazenly attempted to hawk forged magical trinkets and curios claimed to have come from the tower of Medivh. Whatever fortune he sought in Karazhan's orbit was swallowed by the pass's lingering horrors, leaving only weathered cloth, cold ashes, and an enduring mystery.",
+   "body": "Tucked against the crags north of the gorge road connecting Duskwood to the Swamp of Sorrows, this dilapidated campsite looks like an ordinary transient stop long forsaken by living men. Yet in the oppressive gloom of Deadwind Pass, nothing remains unmarred by dark sorcery. Whoever named the camp Ariden's and whatever fortune its owner sought in Karazhan's orbit, the pass's lingering horrors swallowed it, leaving only weathered cloth, cold ashes, and an enduring mystery.",
    "spoiler": 0
-  },
-  {
-   "title": "The Peddler's Folly",
-   "body": "Ariden was not merely an unlucky vagrant, but a grifter whose deceit unraveled terribly in the vicinity of the Guardian's seat. His hubris in profiting from Karazhan's sinister name drew a grim fate down upon him and his cohort, binding him to the very valley he sought to exploit. The decaying remnants of his shelter stand undisturbed, a mundane tombstone marking where mortal avarice collided with forces far beyond mortal reckoning.",
-   "spoiler": 1
   }
  ],
  "faq": [
@@ -42,11 +37,11 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For scholars of the arcane, the ruined camp is an unsettling reminder of the hubris surrounding Karazhan; meddling with the legacy of Medivh rarely leaves charlatans unscathed."
+   "text": "For scholars of the arcane, the deserted camp is an unsettling reminder of how close Karazhan looms; few who linger near Medivh's tower stay long."
   },
   {
    "target": "class:Rogue",
-   "text": "A con artist setting up shop to peddle counterfeit relics beneath the most terrifying spire in the Eastern Kingdoms is either extraordinarily ambitious or remarkably foolish."
+   "text": "Someone set up camp beneath the most terrifying spire in the Eastern Kingdoms and never came back for their things. Either extraordinarily ambitious or remarkably foolish."
   }
  ],
  "keywords": [
@@ -61,7 +56,6 @@
  "related": [
   "zone:deadwind",
   "subzone:karazhan",
-  "topic:dark-riders",
   "topic:medivh",
   "zone:duskwood",
   "zone:swampofsorrows"

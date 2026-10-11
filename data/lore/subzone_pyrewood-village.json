@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Town Severed",
-   "body": "Pyrewood was once a prosperous Gilnean settlement owned by Lord Darius Crowley. When King Genn Greymane chose to isolate his kingdom behind the massive Greymane Wall following the Second War, Pyrewood and its neighbor Ambermill were abandoned on the northern side. Cut off from their homeland, the townsfolk were left entirely defenseless during the Third War as the Scourge marched across Lordaeron. Though they managed to survive the initial wave of the undead, their true nightmare began when the mage Arugal took refuge in the fortress above.",
+   "body": "Pyrewood was once a prosperous Gilnean settlement. When King Genn Greymane chose to isolate his kingdom behind the massive Greymane Wall following the Second War, Pyrewood was left on the northern side. Cut off from their homeland, the townsfolk were left entirely defenseless during the Third War as the Scourge marched across Lordaeron. Though they managed to survive the initial wave of the undead, their true nightmare began when the mage Arugal took refuge in the fortress above.",
    "spoiler": 0
   },
   {
@@ -34,10 +34,9 @@
    "q": "Why is Pyrewood outside the Greymane Wall?",
    "aliases": [
     "why outside the wall",
-    "is pyrewood gilnean",
-    "darius crowley pyrewood"
+    "is pyrewood gilnean"
    ],
-   "answer": "King Genn Greymane ordered the Greymane Wall constructed to seal Gilneas off from the outside world following the Second War. Lord Darius Crowley strongly opposed the wall because it cut off his northern holdings, including Pyrewood and Ambermill, leaving their residents to fend for themselves."
+   "answer": "King Genn Greymane ordered the Greymane Wall constructed to seal Gilneas off from the outside world following the Second War. Pyrewood lay on the wrong side of the wall, leaving its residents to fend for themselves."
   },
   {
    "q": "Can Alliance players visit Pyrewood safely?",
@@ -70,7 +69,6 @@
  ],
  "keywords": [
   "arugal",
-  "crowley",
   "greymane wall",
   "moonrage",
   "pyrewood",

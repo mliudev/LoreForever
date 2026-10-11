@@ -17,7 +17,7 @@
   "wiki": "Translate Abercrombie's Note",
   "chain": []
  },
- "summary": "Translate Abercrombie's Note is an Alliance quest in Darkshire that tasks an adventurer with carrying an indecipherable letter to the town's resident scholar. Lord Ello Ebonlocke cannot make sense of the hermit's missive, relying instead on Sirra Von'Indi's knowledge of obscure scripts. It marks the moment Darkshire's leadership realizes Abercrombie's odd errands hide something far more deliberate.",
+ "summary": "Translate Abercrombie's Note is an Alliance quest in Darkshire that tasks an adventurer with carrying an indecipherable letter to the town's resident scholar. Lord Ello Ebonlocke cannot make sense of the hermit's missive, relying instead on Sirra Von'Indi's knowledge of obscure scripts. It marks the moment Darkshire's leadership begins to look closely at the hermit's strange letter.",
  "sections": [
   {
    "title": "An Indecipherable Message",
@@ -77,7 +77,7 @@
     "next quest after translate note",
     "what comes after translate abercrombie note"
    ],
-   "answer": "Sirra Von'Indi asks the adventurer to wait while he works through the transcription. Once finished, the translated contents reveal Abercrombie's true intentions and escalate the threat against Darkshire."
+   "answer": "Sirra Von'Indi asks the adventurer to wait while he works through the transcription. Once finished, the translated letter must be carried back to Lord Ello Ebonlocke."
   },
   {
    "q": "Why did Abercrombie write to Mayor Ebonlocke?",
@@ -85,7 +85,7 @@
     "why did abercrombie send letter",
     "hermit note purpose"
    ],
-   "answer": "Abercrombie sent the note under the guise of correspondence with town leadership, but disguised his words in a hidden script to veil his sinister plots until he was ready to strike."
+   "answer": "Abercrombie's note to the mayor is written in a script Ello cannot read. What the hermit actually wrote only comes to light once Sirra Von'Indi translates it."
   }
  ],
  "angles": [

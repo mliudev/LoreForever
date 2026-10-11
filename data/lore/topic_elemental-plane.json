@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Prison for Primordial Chaos",
-   "body": "In the ancient days following the fall of the Old Gods, the titan-forged Keepers faced a dilemma: Azeroth's chaotic elementals could not truly be destroyed, as their essences were fundamentally tied to the world. Highkeeper Ra and the sorceress Helya devised an enduring solution by weaving an isolated pocket dimension known as the Elemental Plane. Within it, they crafted four interlinked domains tailored to each primal force: Skywall for air, Deepholm for earth, the Abyssal Maw for water, and the Firelands for fire. The elemental lords and their myriad servants were banished into this realm, and powerful wards were set to sever the prison from the material world, allowing Azeroth's surface to finally know peace.",
+   "body": "In the ancient days following the fall of the Old Gods, the titan-forged Keepers faced a dilemma: Azeroth's chaotic elementals could not truly be destroyed, as their essences were fundamentally tied to the world. The Keepers devised an enduring solution by weaving an isolated pocket dimension known as the Elemental Plane. Within it, they crafted four interlinked domains tailored to each primal force: Skywall for air, Deepholm for earth, the Abyssal Maw for water, and the Firelands for fire. The elemental lords and their myriad servants were banished into this realm, and powerful wards were set to sever the prison from the material world, allowing Azeroth's surface to finally know peace.",
    "spoiler": 0
   },
   {
@@ -42,7 +42,7 @@
     "why was elemental plane made",
     "how was elemental plane made"
    ],
-   "answer": "Highkeeper Ra and the sorceress Helya crafted the Elemental Plane after the war with the Old Gods. Because the elementals were bound directly to Azeroth and would simply reform if slain, the Keepers imprisoned them within this separate dimension so nature on the surface could flourish in peace."
+   "answer": "The titan-forged Keepers crafted the Elemental Plane after the war with the Old Gods. Because the elementals were bound directly to Azeroth and would simply reform if slain, the Keepers imprisoned them within this separate dimension so nature on the surface could flourish in peace."
   },
   {
    "q": "What are the four realms within the plane?",
@@ -105,8 +105,6 @@
   "elemental plane",
   "elemental sundering",
   "firelands",
-  "helya",
-  "highkeeper ra",
   "invasions",
   "ragnaros",
   "skywall"

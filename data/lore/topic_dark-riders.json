@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Dark Riders"
  },
- "summary": "The Dark Riders are a band of cursed, hooded horsemen who terrorize Deadwind Pass and Duskwood. Bound by an ancient affliction to harvest powerful relics for Karazhan, they hunt magic ruthlessly and leave only slaughter in their wake.",
+ "summary": "The Dark Riders are a band of mysterious, hooded horsemen who terrorize Duskwood. Merciless hunters of magical relics, they strike from hiding and leave only slaughter in their wake.",
  "sections": [
   {
-   "title": "The Curse of the Guardian",
-   "body": "Before their eternal hunt began, the Dark Riders were unscrupulous traveling merchants led by a man named Ariden. They made the fatal mistake of attempting to swindle the Guardian Medivh with counterfeit magical trinkets. Possessed by Sargeras, the sorcerer punished their deceit with a grim fate: to wander the kingdom forever, bound to seek out genuine magical relics and haul them back to the vaults beneath Karazhan. Harsh, shrill, and nearly impossible to track, the Riders remain invisible until they choose to strike.",
+   "title": "Hunters in the Dark",
+   "body": "Little is known of the Dark Riders' origins. Witnesses describe hooded horsemen who speak in voices both harsh and shrill, and one was seen using a small gem to take orders from a master it called only its 'Lord'. They hunt objects of magical power across the kingdom, cutting down anyone who stands between them and their prize.",
    "spoiler": 0
   },
   {
@@ -20,8 +20,8 @@
    "spoiler": 1
   },
   {
-   "title": "Shadows over Deadwind",
-   "body": "Operating out of Ariden's Camp in the shadow of Karazhan, the Riders have struck targets across the Eastern Kingdoms, even breaching the protective dome over Dalaran to loot its vaults. Whispers in Duskwood also link their sinister hunts to the rogue necromancer Morbent Fel. Though feared as invincible phantoms, those who glimpse behind their cloaks have witnessed not undead monsters, but the tormented faces of terrified men helplessly trapped in servitude to their master.",
+   "title": "Shadows over Duskwood",
+   "body": "Whispers in Duskwood link the Riders' sinister hunts to the rogue necromancer Morbent Fel, though no one knows what binds the two together, or who the 'Lord' the Riders answer to may be.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "what are the dark riders",
     "who are the riders in duskwood"
    ],
-   "answer": "They were once dishonest merchants who tried to sell fake magical items to the sorcerer Medivh. Cursed by Medivh, they are bound to scour the world for genuine, powerful magical relics and bring them back to Karazhan."
+   "answer": "They are a band of hooded horsemen who hunt objects of magical power, slaughtering anyone who stands in their way. Their origins, and the identity of the master they serve, remain a mystery."
   },
   {
    "q": "What did they do to Sven Yorgen's family?",
@@ -43,15 +43,6 @@
     "why did riders kill svens family"
    ],
    "answer": "They were hunting the Scythe of Elune, which had been unearthed nearby. When they interrogated Sven Yorgen's wife and children and found they knew nothing about the artifact, the Riders murdered them without mercy."
-  },
-  {
-   "q": "Who is Ariden?",
-   "aliases": [
-    "leader of dark riders",
-    "ariden",
-    "aridans camp"
-   ],
-   "answer": "Ariden was the leader of the traveling merchants who attempted to con Medivh. He now leads the Dark Riders on their cursed hunts from Ariden's Camp in Deadwind Pass."
   },
   {
    "q": "Why are the Dark Riders in Duskwood?",
@@ -69,7 +60,7 @@
     "are the dark riders undead",
     "what are dark riders made of"
    ],
-   "answer": "The exact nature of Medivh's curse remains unclear. While they possess supernatural stealth and shrieking voices, those who have peered beneath their enchanted cloaks have reported seeing the faces of terrified, living men bound against their will."
+   "answer": "No one knows. They speak in harsh, shrill voices and strike from hiding, but what lies beneath their hooded cloaks remains a mystery."
   },
   {
    "q": "Are they working with Morbent Fel?",
@@ -91,7 +82,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "Created by Medivh's terrifying curse, the Riders are living warnings of Karazhan's tainted sorcery and have even breached Dalaran's magical warding."
+   "text": "Relentless hunters of magical relics, the Riders are a living warning of how much blood the pursuit of arcane power can cost."
   }
  ],
  "keywords": [
@@ -101,8 +92,6 @@
   "deadwind pass",
   "duskwood",
   "jitters",
-  "karazhan",
-  "medivh",
   "scythe of elune",
   "sven yorgen"
  ],
@@ -111,10 +100,8 @@
   "npc:jitters",
   "quest:95",
   "subzone:ariden-s-camp",
-  "subzone:karazhan",
   "quest:1043",
-  "quest:55",
-  "topic:medivh"
+  "quest:55"
  ],
  "attribution": [
   "Dark Riders"

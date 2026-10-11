@@ -16,7 +16,7 @@
  "sections": [
   {
    "title": "A Land Cursed and Broken",
-   "body": "Desolace was not always a barren expanse of ash and yellowed pools. Over a millennium ago, it was Mashan'she\u2014a lush meadowland tended by tauren shaman. That paradise unraveled when the earth elemental Princess Theradras awakened from beneath the soil, draining the surrounding life force to regenerate her form. The calamity summoned Zaetar, son of Cenarius, but rather than subduing her, he took the princess as his mate. From their unnatural union sprang the first centaur. In shame and bloodthirsty wrath, the newborn race murdered their father, overran the verdant plains, and drove the tauren away, leaving behind the scarred wasteland known today.",
+   "body": "Desolace was not always a barren expanse of ash and yellowed pools. Legend holds that the land withered when the earth elemental Princess Theradras drained the surrounding life force to regenerate her form. Zaetar, son of Cenarius, came to her, but rather than subduing her, he took the princess as his mate. From their unnatural union sprang the first centaur. In shame and bloodthirsty wrath, the newborn race murdered their father and overran the plains, leaving behind the scarred wasteland known today.",
    "spoiler": 0
   },
   {
@@ -35,10 +35,9 @@
    "q": "Why is Desolace such a dead wasteland?",
    "aliases": [
     "why is desolace dead",
-    "what happened to mashan'she",
     "desolace lore origin"
    ],
-   "answer": "Centuries ago, the land was a fertile meadow called Mashan'she. Tauren shaman accidentally roused the slumbering earth elemental Princess Theradras, who consumed the vitality of the region to rebuild her physical form. The birth and violent expansion of the centaur shortly after destroyed whatever plant life survived, leaving only gray dust and ash."
+   "answer": "Legend holds the land was once fertile. The earth elemental Princess Theradras consumed the vitality of the region to rebuild her physical form, and the birth and violent expansion of the centaur shortly after destroyed whatever plant life survived, leaving only gray dust and ash."
   },
   {
    "q": "Where did the centaur come from?",
@@ -89,7 +88,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, Desolace is sacred and tragic ground. Once known as Mashan'she, it was the nomadic home of your ancestors before the awakening of Theradras and the scourge of the centaur drove your people onto the brink of extinction."
+   "text": "For the tauren, Desolace is sacred and tragic ground. It is the cradle of the centaur, whose scourge drove your people to the brink of extinction."
   },
   {
    "target": "class:Warlock",

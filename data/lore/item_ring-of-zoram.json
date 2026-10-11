@@ -10,11 +10,11 @@
    "quest:1009"
   ]
  },
- "summary": "The Ring of Zoram is an ancient Kaldorei heirloom dating back to the glory days of the sunken city of Zoram before the Great Sundering. Crafted to serve as a master key to the locks and vaults of the drowned city, it recently fell into the hands of the encroaching coastal naga.",
+ "summary": "The Ring of Zoram is an ancient Kaldorei heirloom dating back to the glory days of the sunken city of Zoram before the Great Sundering. Once worn by the city's rulers and the key to the ancient lock of a sunken statuette, it recently fell into the hands of the encroaching coastal naga.",
  "sections": [
   {
-   "title": "Master Key of the Sunken City",
-   "body": "Before the Well of Eternity collapsed and the oceans swallowed the western reaches of Kalimdor, Zoram was a coastal jewel of the night elven empire. The Ring of Zoram was worn by the rulers of the city and possessed unique properties: legend holds it served as a universal key to every intricate lock and vault fashioned within Zoram's borders. When the Great Sundering shattered the continent ten thousand years ago, the ring sank along with the city, lost beneath the crashing tides of what is now the Zoram Strand.",
+   "title": "Ring of the Sunken City",
+   "body": "Before the Well of Eternity collapsed and the oceans swallowed the western reaches of Kalimdor, Zoram was a coastal jewel of the night elven empire. The Ring of Zoram belonged to the rulers of the city, and a strange code is written upon its inner band in the language of the night elves. When the Great Sundering shattered the continent ten thousand years ago, the ring sank along with the city, lost beneath the crashing tides of what is now the Zoram Strand.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "what does the ring do",
     "ring of zoram lore"
    ],
-   "answer": "Historically, the ring belonged to the rulers of Zoram and functioned as an enchanted master key capable of opening any lock in the city. In the present day, Talen seeks it specifically to open a locked ancient statuette recovered from the submerged ruins."
+   "answer": "The ring belonged to the rulers of Zoram before the Sundering drowned the city, and it is the key to an ancient lock. In the present day, Talen seeks it specifically to open a locked ancient statuette recovered from the submerged ruins."
   },
   {
    "q": "Who possesses the Ring of Zoram?",

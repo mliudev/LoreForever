@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Dragon in Small Guise",
-   "body": "Though she appears to mortals as an eccentric and cheerful gnome named Chromie, Chronormu is a member of the bronze dragonflight serving under the Timeless One, Nozdormu. Bronze dragons are charged by the titans with guarding history and correcting disruptions in the timeways. When deciding on her mortal visage, Chronormu sought counsel from dragons across the flights, including Kalecgos of the blue flight and Onyxia of the black. Ultimately rejecting notions of power or dominion, she chose the form of a female gnome so she could walk beside mortals as an approachable, optimistic peer.",
+   "body": "Though she appears to mortals as an eccentric and cheerful gnome named Chromie, Chronormu is a member of the bronze dragonflight serving under the Timeless One, Nozdormu. Bronze dragons are charged by the titans with guarding history and correcting disruptions in the timeways. In the form of a female gnome, she walks beside mortals as an approachable, optimistic peer.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "why is chromie called chronormu",
     "chronormu gender"
    ],
-   "answer": "Among bronze dragons, names ending in '-ormu' are traditionally given to males, while female bronze dragons typically have names ending in '-ormi'. Chronormu was born male, but during her Visage Day ceremony she chose to define herself as a female gnome, explaining simply that the form suited her."
+   "answer": "Chronormu is simply her true name as a bronze dragon. Chromie is the shorter name she uses in her gnome guise among mortals."
   },
   {
    "q": "What is Chromie doing in the Western Plaguelands?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Chronormu deliberately chose a gnome visage because she admired their buoyant optimism, inventiveness, and unassuming nature when walking among larger races."
+   "text": "Chronormu walks among mortals as Chromie, a cheerful gnome whose small, unassuming form hides a bronze dragon."
   },
   {
    "target": "class:Mage",
@@ -80,8 +80,6 @@
  ],
  "related": [
   "zone:westernplaguelands",
-  "npc:kalecgos",
-  "npc:onyxia",
   "topic:gnome",
   "topic:black-dragonflight"
  ],

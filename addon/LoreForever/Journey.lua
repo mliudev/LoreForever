@@ -122,11 +122,11 @@ function Journey.PictureBookOn()
 end
 
 function Journey.PictureShortcutsOn()
-  return settings().pictureShortcuts == true and Journey.PictureBookOn()
+  return Journey.PictureBookOn()
 end
 
 -- Offer a free default only: a player's existing picture binding and every other action's binding take precedence.
--- The feature stays gated off until actual game QA. A book switched off never removes a player's saved binding.
+-- A book switched off never removes a player's saved binding.
 function Journey.OfferPictureKey()
   if not Journey.PictureShortcutsOn() or try(InCombatLockdown) or type(GetBindingKey) ~= "function"
       or type(GetBindingAction) ~= "function" or type(SetBinding) ~= "function" then return end
@@ -845,7 +845,7 @@ do
       return (how == "exact" or (how == "mob" and e.k == "kill")) and key or nil
     end
     if e.k == "zone" then
-      local sub = e.s and db.index.name[ns.Engine.lower(e.s)]
+      local sub = e.s and eng:SubzoneKey(e.s, e.z)   -- the Undercity's Canals, not Stormwind's
       if sub then return sub end
       local zk = eng:ZoneKey(e.z)
       return zk and ("zone:" .. zk) or nil
@@ -1512,6 +1512,7 @@ do
     Journey.page:Show()
     Journey.Refresh()
     UI.SeenPage("journey")   -- its "New" after an update (WhatsNew.lua) has done its job
+    ns.Log.Use("journey")
   end
 
   function Journey.Hide()
@@ -2082,8 +2083,7 @@ do
     local indent = it.kind and 16 or 6
     local opens = not it.head and (it.chapter or it.key or it.place or it.quest) and true or false
     local right = opens and -20 or -6
-    -- New row thumbnails stay opt-in until their in-game appearance is verified.
-    local pic = settings().journeyPictureThumbnails == true and not it.head and Journey.Picture(it.ev)
+    local pic = not it.head and Journey.Picture(it.ev)
     r.thumb.moment = nil
     r.thumb:Hide()
     if pic and width >= 180 and Journey.SetPicture(r.thumb.tex, pic) then
@@ -3088,8 +3088,7 @@ do
   end
 
   local function automaticOK()
-    return char and Journey.On() and Journey.PictureBookOn() and settings().pictureMilestones == true
-      and settings().automaticPictures ~= false
+    return char and Journey.On() and Journey.PictureBookOn() and settings().automaticPictures ~= false
       and settings().pictureHideUI ~= false and clear(InCombatLockdown)
       and clear(UnitAffectingCombat, "player") and clear(UnitOnTaxi, "player")
   end
@@ -3241,6 +3240,7 @@ do
   -- SCREENSHOT_SUCCEEDED: the interface back, and with the journey on, the shot moment.
   function onShot()
     local p = pictureDone(true)
+    if p then ns.Log.Use("pic") end   -- one the add-on took (the picture key or a milestone), journey on or off
     if not (char and Journey.On()) then return end
     local z, s = here()
     local e = { z = z, s = s, pt = party() }

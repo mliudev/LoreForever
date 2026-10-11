@@ -29,9 +29,9 @@
     "npc:aggem-thorncurse": {
       "1": [
         {
-          "duration": 55.04,
-          "file": "Audio/Transport/full_npc_aggem-thorncurse-b32a47cec1eccbb755b5/1-0000.mp3",
-          "sha256": "7fee02f17095409e541c4d6925ccbb751b23dd303c8ec07d3a61be7e7acd9ffa",
+          "duration": 20.819591836734695,
+          "file": "Audio/Transport/full_npc_aggem-thorncurse-9ca72812ef15c7adb46a/1-0000.mp3",
+          "sha256": "40d071d6b3773cf70a553a71d58d01dbf214ede7261b033730465cfbb2237afd",
           "start": 0
         }
       ],
@@ -42,15 +42,15 @@
           "1"
         ]
       },
-      "fullHash": "2595a8",
-      "generation": "ae85db74c13085152d5c",
+      "fullHash": "6512f7",
+      "generation": "b5a7954ee6bc090df930",
       "hash": "aceb96",
       "source": {
-        "duration": 55.066122,
+        "duration": 20.845714,
         "file": null,
-        "sha256": "b32a47cec1eccbb755b563bc6f9da85d0abba6e86ff21f7a27e62b6240246d78"
+        "sha256": "9ca72812ef15c7adb46a7034e2095a8f1d5896ffa652880540c78168ce61a216"
       },
-      "text": "Aggem Thorncurse. Aggem Thorncurse is a spectral quilboar encountered deep within the thorned tunnels of Razorfen Kraul. Bound beyond death to the service of his tribe, he fights alongside Warlord Ramtusk and Death Speaker Jargba to defend their sacred redoubt against intruders. Within the heart of Razorfen Kraul, the quilboar fight desperately to protect their ancestral dens from outsiders. Aggem Thorncurse is not among the living defenders; instead, he lingers as a restless spirit. Bound to the physical realm by dark geomancy and shamanic rites, Aggem takes up arms when intruders threaten the tribe's warlord. Aggem does not battle alone. When outsiders challenge Warlord Ramtusk, Thorncurse manifests beside Death Speaker Jargba. Through potent mystical links, the spirits and flesh of these three defenders are bound together in combat, sharing the wounds dealt to them and proving that in Razorfen, loyalty to the tribe endures long past the grave."
+      "text": "Aggem Thorncurse. Aggem Thorncurse is a living quilboar shaman in Razorfen Kraul, bearing the title Death's Head Prophet. He calls a boar spirit to his aid when threatened. Aggem guards a part of Razorfen Kraul occupied by the Death's Head tribe. His shamanic powers include summoning a boar spirit, reflecting the quilboar's reverence for Agamaggan."
     },
     "npc:arcanist-doan": {
       "1": [
@@ -263,9 +263,9 @@
     "npc:commander-springvale": {
       "1": [
         {
-          "duration": 85.81224489795919,
-          "file": "Audio/Transport/full_npc_commander-springvale-1807a0a34e8556922fa3/1-0000.mp3",
-          "sha256": "c154b7f0f53f85b419c4ac14ab9b9ced6ce4c279b28669a335871538e9994f1a",
+          "duration": 78.23673469387755,
+          "file": "Audio/Transport/full_npc_commander-springvale-3e1c75f4a23851c297d0/1-0000.mp3",
+          "sha256": "115e17badfb8b1ecfa0a11c42b2be1d8011c9cf5ce66931a384765c59d1d6f3d",
           "start": 0
         }
       ],
@@ -276,15 +276,15 @@
           "1"
         ]
       },
-      "fullHash": "3d1383",
-      "generation": "2f51eff8ce0bd16ea694",
+      "fullHash": "f4dd92",
+      "generation": "001a38e22d00c2d373d3",
       "hash": "e44ff4",
       "source": {
-        "duration": 85.812245,
+        "duration": 78.236735,
         "file": null,
-        "sha256": "1807a0a34e8556922fa3b31428994caa74e3bd55ff697fb66a12f953d82cc2c4"
+        "sha256": "3e1c75f4a23851c297d0d5482cad16051d06dd74bd3b2eb4c7393cd80fbe4539"
       },
-      "text": "Commander Springvale. Commander Springvale was once a devoted paladin and the head of Baron Silverlaine's armed guard at Shadowfang Keep. Slain alongside his men during the feral worgen slaughter orchestrated by Archmage Arugal, his vengeful spirit remains behind to haunt the castle halls. Even in death, his ghost fiercely guards the keep and seeks vengeance for his fallen master. Before the ruin of Shadowfang Keep, Commander Springvale stood as an honorable paladin dedicated to the Holy Light and a sworn defender of Baron Silverlaine. Leading the garrison in Silverpine Forest, he oversaw the keep's security during the fraught days following the fall of Lordaeron to the Scourge. When Archmage Arugal summoned the extraplanar worgen to repel the undead Scourge encroaching upon Gilnean soil, the wild beasts quickly slipped from the mage's control. The ravenous pack descended upon the fortress, slaughtering Baron Silverlaine and his entire guard. Springvale perished in the halls he had sworn to protect, his service violently cut short. Death offered no release to Springvale's bound soul. Twisted by trauma and necromantic energy, his ghost lingers within the keep's stone chambers. Though he carried the teachings of the Light in life, his phantom now strikes out with unholy power, blindly executing an eternal duty to avenge the slain Baron against any trespasser who sets foot inside the keep."
+      "text": "Commander Springvale. Commander Springvale was once a devoted paladin and the head of Baron Silverlaine's armed guard at Shadowfang Keep. Slain alongside his men during the feral worgen slaughter orchestrated by Archmage Arugal, his vengeful spirit remains behind to haunt the castle halls. Even in death, his ghost fiercely guards the keep and seeks vengeance for his fallen master. Before the ruin of Shadowfang Keep, Commander Springvale stood as an honorable paladin dedicated to the Holy Light and a sworn defender of Baron Silverlaine. Leading the garrison in Silverpine Forest, he oversaw the keep's security during the fraught days following the fall of Lordaeron to the Scourge. When Archmage Arugal summoned the extraplanar worgen to repel the undead Scourge encroaching upon Gilnean soil, the wild beasts quickly slipped from the mage's control. The ravenous pack descended upon the fortress, slaughtering Baron Silverlaine and his entire guard. Springvale perished in the halls he had sworn to protect, his service violently cut short. Death offered no release to Springvale. His ghost haunts the keep's council room alongside its spectral soldiers. He still wields paladin powers, including Holy Light and Hammer of Justice, against intruders."
     },
     "npc:cookie": {
       "1": [
@@ -311,6 +311,32 @@
         "sha256": "dc15a268ba9567e08c997da53b2ba83951a7782035d0c00dc662e3727ee4289a"
       },
       "text": "Cookie. Cookie is an elite murloc serving as the ship's cook aboard the juggernaut hidden deep within the Deadmines. An unusual recruit among the Defias Brotherhood, he tends the crew's cauldrons beneath the watchful eye of Captain Greenskin and Edwin VanCleef. He is the only entirely optional boss encountered within the underground dry dock. Beneath the decks of the towering juggernaut in the Ironclad Cove, cooking duty falls neither to a human outrider nor a goblin engineer, but to a solitary murloc known simply as Cookie. How he secured the position remains a private secret kept by Edwin VanCleef himself. Whatever doubts the rest of the crew might harbor about a murloc presiding over their rations, pirates are rarely in a position to be picky, and in the underworld of Moonbrook, a meal is a meal. Cookie patrols the waterways and shores around the pirate flagship, wielding his cooking utensils alongside acidic brews. Despite being isolated from typical murloc tribes, he defends his cauldron with savage ferocity, flinging caustic concoctions at any intruders who wander into the docks. Because his station sits away from the main gangplanks, many who storm the cove bypass his kitchen entirely, making him the only optional overseer aboard the Defias juggernaut."
+    },
+    "npc:dark-iron-ambassador": {
+      "1": [
+        {
+          "duration": 22.33469387755102,
+          "file": "Audio/Transport/full_npc_dark-iron-ambassador-40f350564efbd70a5396/1-0000.mp3",
+          "sha256": "c6ca1a18f74fdb72e2fc60f9e95704c23554f1f95c7f5289d43c2fd1ca56ce70",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "24ccda",
+      "generation": "a2f70816d3f7f741ffc4",
+      "hash": "041f9a",
+      "source": {
+        "duration": 22.360816,
+        "file": null,
+        "sha256": "40f350564efbd70a5396ebf3d955b48a5adbce098331baa0d49914a9ca689c49"
+      },
+      "text": "Dark Iron Ambassador. The Dark Iron Ambassador is an emissary of the Dark Iron clan found deep within Gnomeregan. His presence raises questions about the clan's interest in the ruined gnome capital. The Dark Iron Ambassador is found among the dangers of irradiated Gnomeregan. He represents the Dark Iron clan, but the purpose of his mission is not explained."
     },
     "npc:dextren-ward": {
       "1": [
@@ -571,6 +597,110 @@
         "sha256": "4c22ee18e0ac653765b0cdc4b14351daf106d9d55c8ce07fd909fc1baf7acff9"
       },
       "text": "Kam Deepfury. Kam Deepfury is a notorious Dark Iron saboteur incarcerated within the depths of the Stormwind Stockade. Unlike the majority of the prison's inmates, he has no allegiance to the Defias Brotherhood, having been captured for orchestrating a devastating explosion along the Thandol Span far to the north. While the Stockade is overwhelmingly filled with disgruntled Stonemasons and Defias rebels, Kam Deepfury stands apart. A Dark Iron dwarf of cunning and violence, Deepfury was captured and brought to Stormwind after masterminding an operation that crippled vital northern infrastructure. He is locked deep within the prison's cells, isolated from his kin beneath Blackrock Mountain but just as hostile to the Alliance as any rebel rioter sharing the corridors. Alliance intelligence stationed at Dun Modr, near the northern border of the Wetlands, identified Deepfury as the chief architect behind the explosion that shattered the Thandol Span. The blast severed one of the massive stone bridges linking the Wetlands to the Arathi Highlands. Beyond crippling a critical trade and military route for Ironforge and the Alliance, the sabotage claimed the life of a kin of the dwarf commander Longbraid the Grim."
+    },
+    "subzone:camp-narache": {
+      "1": [
+        {
+          "duration": 83.67020408163265,
+          "file": "Audio/Transport/full_subzone_camp-narache-6917cc83d0a0b8a06a06/1-0000.mp3",
+          "sha256": "926696db94e97b2576e411f9c70ebd82544909b81793793e5e25496920f8aed7",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "cf22fe",
+      "generation": "7efb8bf3485925670cef",
+      "hash": "24823f",
+      "source": {
+        "duration": 83.670204,
+        "file": null,
+        "sha256": "6917cc83d0a0b8a06a064c18336b261de8feb55ab21413a9f4eff8a58b493bb0"
+      },
+      "text": "Camp Narache. Camp Narache is a secluded village nestled upon Red Cloud Mesa in southern Mulgore. It serves as the ancestral home of the Hawkwind tribe and the proving ground where young tauren begin their training. Sheltered high above the plains, the camp maintains ancient traditions while constantly guarding against encroaching quilboar and lingering centaur threats. Situated at the northern edge of the elevated Red Cloud Mesa, Camp Narache is the primary settlement of the Hawkwind tribe. The village consists of several large hide lodges and pavilions, including a communal tent for wounded braves, an armory, a bakery tent, and a spirit lounge dedicated to meditation and ancestral communion. At the center of the camp, tribal elders and path trainers stand in a circle at the heart of the camp, where the venerable Greatmother Hawkwind still offers guidance, guiding newly initiated youth as they step into their roles as defenders of the Earth Mother. Though naturally fortified by the steep sheer cliffs of the mesa, Camp Narache faces persistent unrest. Bristleback quilboar from Brambleblade Ravine continuously encroach upon Hawkwind lands, while centaur scouts linger in the distance. Young hunters, shamans, druids, and warriors prove their mettle here by culling the aggressive local wildlife, protecting the village's water well, and turning back quilboar raiders before descending the grand path into the wider valleys of Mulgore."
+    },
+    "subzone:coldridge-valley": {
+      "1": [
+        {
+          "duration": 83.35673469387756,
+          "file": "Audio/Transport/full_subzone_coldridge-valley-d20ead99f4e69b8f9eaf/1-0000.mp3",
+          "sha256": "19d9d210c816a97a0d517bc9aad2fc776011d976dedf9fc2f421aae426a41104",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "57bb9c",
+      "generation": "0c210856f3ca5af681c1",
+      "hash": "30046b",
+      "source": {
+        "duration": 83.356735,
+        "file": null,
+        "sha256": "d20ead99f4e69b8f9eaf741832fa241cb0eb605398b1271eefc3f2f7e234d24c"
+      },
+      "text": "Coldridge Valley. Coldridge Valley is a sheltered, snow-covered vale tucked into the southwestern heights of Dun Morogh. Centered around the hamlet of Anvilmar, it serves as the training ground where young dwarves and gnome refugees first take up arms in service of Ironforge. A single tunnel, Coldridge Pass, connects this secluded hollow to the wider mountain realm. Cradled by sheer mountain cliffs, Coldridge Valley remains largely cut off from the bustling trade routes of Dun Morogh. At its heart sits Anvilmar, a sturdy stone hall and hamlet where veteran dwarven instructors and displaced gnome scholars train fresh recruits in the arts of battle, stealth, and sorcery. Outside the warmth of Anvilmar's hearths, the valley floor is carpeted in thick snow and prowled by boars and hungry winter wolves, providing novices with their first real taste of frontier survival. Despite its isolation, Coldridge Valley faces immediate danger from two relentless enemies. Indigenous Frostmane trolls have established camps like the Frostmane Hovel, skirmishing with mountaineers and defending their ancestral claims against dwarven encroachment. Worse still, savage Rockjaw troggs have overrun Coldridge Pass, the natural tunnel linking the valley to Kharanos. Until these subterranean brutes are pushed back, travelers and supplies cannot freely move between the valley and the high seat of Ironforge."
+    },
+    "subzone:deathknell": {
+      "1": [
+        {
+          "duration": 100.83265306122449,
+          "file": "Audio/Transport/full_subzone_deathknell-a71804269ae4b5235f8d/1-0000.mp3",
+          "sha256": "f24f7ee50b05a21500d14b76c8fbffad649e53142b95d41b1dc1788b48235a0b",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "162934",
+      "generation": "eb00bb4baa6a24a389ea",
+      "hash": "c4c1f2",
+      "source": {
+        "duration": 100.832653,
+        "file": null,
+        "sha256": "a71804269ae4b5235f8dee7303c9cb848b326ce0160d285386ab9b8f40bcb7df"
+      },
+      "text": "Deathknell. Deathknell is a fortified village nestled in a secluded valley in southwestern Tirisfal Glades. It serves as the primary awakening grounds for newly freed undead breaking free from the Lich King's grasp to join the Forsaken. Besieged by mindless Scourge remnants, local zealots, and aggressive wildlife, the settlement is a harsh proving ground for those claiming a place in Sylvanas Windrunner's kingdom. Tucked away behind jagged hills just north of the Silverpine border, Deathknell is where newly awakened undead first open their eyes to their bleak reality. Unlike most settlements in Tirisfal Glades that preserved their human names from the fallen Kingdom of Lordaeron, Deathknell was explicitly renamed by the undead who claimed it. The town itself is cleaved in two: the Forsaken cling stubbornly to the southern grounds around the old church, while the northern half—including the village forge—remains overrun by mindless Scourge zombies and feral ghouls. Elite Deathguards keep the narrow gorge out of the valley securely sealed against intruders, allowing local caretakers to induct new arrivals into the Banshee Queen's service. Survival in Deathknell is precarious. To the northwest, Night Web's Hollow—a gold mine vital for the Forsaken's fledgling economy—has been lost to monstrous spiders. To the southeast, an aggressive encampment of the Scarlet Crusade maintains constant watch, trading couriers with their strongholds to the east and probing the valley's defenses. Meanwhile, the village caretakers must continually fight off the mindless undead wandering the northern ruins while gathering scrap metal, tools, and supplies to equip newly arisen souls for the long road ahead."
+    },
+    "subzone:northshire-abbey": {
+      "1": [
+        {
+          "duration": 94.53714285714285,
+          "file": "Audio/Transport/full_subzone_northshire-abbey-9a2012ab4aae61534071/1-0000.mp3",
+          "sha256": "7c53e6ebaf65739a37b8cb69c1704034915581ca99af470c652002be0042a6e4",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "a9b66a",
+      "generation": "d65e3a09a6f407210d63",
+      "hash": "8ed36b",
+      "source": {
+        "duration": 94.537143,
+        "file": null,
+        "sha256": "9a2012ab4aae61534071d28da5b2631f61183f42a44652f4aefc771331991b0a"
+      },
+      "text": "Northshire Abbey. Northshire Abbey is a historic monastery nestled in Northshire Valley within the northern foothills of Elwynn Forest. Rebuilt after its destruction in the First War, it serves as the spiritual heart of the Brotherhood of Northshire and a premier training center for new defenders answering the kingdom of Stormwind's call. Centuries ago, clerics from Lordaeron traveled south into the kingdom of Stormwind to spread the worship of the Holy Light, establishing the Holy Order of Northshire Clerics and their abbey. The monastery quickly became an anchor of kingdom life, caring for the sick and even tending to the young Guardian Medivh during his years in a coma. During the First War, the abbey suffered repeated assaults by brigands and the Orcish Horde, culminating in its utter destruction. When the Alliance of Lordaeron liberated the region in the Second War, Archbishop Alonsus Faol helped rebuild the sanctuary, refounding its protectors as the Brotherhood of Northshire. Today, Northshire Abbey functions as the starting ground for volunteers, militia recruits, and novices seeking to defend a beleaguered Stormwind. Split into the Main Hall, Hall of Arms, and Library Wing, it houses instructors in the martial, arcane, and holy arts, while scouts and rogues train in the outer yards. Despite the watchful presence of the Knights of the Silver Hand, peace here remains precarious. Kobolds overrun nearby mines, aggressive wolves roam the orchards, and agents of the Defias Brotherhood stalk the valley roads, pilfering ancient scrolls and sacred librams from the abbey's storied archives."
     },
     "topic:skyborne": {
       "1": [
@@ -913,9 +1043,9 @@
     "zone:deadwind": {
       "1": [
         {
-          "duration": 133.4073469387755,
-          "file": "Audio/Transport/full_zone_deadwind-c916e8908078203526dd/1-0000.mp3",
-          "sha256": "7538e9a7b0ffc31cc8a68e4e629c9522b49334539a7488bcaf2c292e22bd9107",
+          "duration": 132.59755102040816,
+          "file": "Audio/Transport/full_zone_deadwind-3e37c8d115d2ba4932c2/1-0000.mp3",
+          "sha256": "7c102063842f87324f62c6f5971232ee05ac8876830c2a0c43261d22da872c6e",
           "start": 0
         }
       ],
@@ -926,15 +1056,15 @@
           "1"
         ]
       },
-      "fullHash": "37e1f2",
-      "generation": "0128f7f6b468835db4d4",
+      "fullHash": "9b87f3",
+      "generation": "79ac9ee97c63b91fd5d8",
       "hash": "7990db",
       "source": {
-        "duration": 133.407347,
+        "duration": 132.597551,
         "file": null,
-        "sha256": "c916e8908078203526dd777b86d8eaa08a654f51b350606ff3841ba782e7c7a4"
+        "sha256": "3e37c8d115d2ba4932c2b7e3b4aee5ba36987ab2039cfaa55d1de73caff4f17f"
       },
-      "text": "Deadwind Pass. Deadwind Pass is a blighted, jagged canyon in central Azeroth connecting Duskwood to the Swamp of Sorrows. At its center looms the Ivory Spire of Karazhan, former seat of the Guardian Medivh, whose death unleashed corrupting magical runoff across the land. It is a lifeless corridor stalked by ogres, ghosts, and demonic winds, offering neither refuge nor civilized shelter. Once considered an extension of the Redridge Mountains, Deadwind Pass has devolved into a hollowed-out scar of bleached stone and petrified wood. A foul, relentless wind cuts through the ravines, giving the gorge its name. The sky above is locked in a perpetual sepulchral gray, threatening erratic lightning storms that make traveling with metal arms hazardous. Totemic effigies hang from lifeless branches alongside the main road, warning wayfarers to keep moving. There are no fertile soils here, no mineable mineral veins, and no towns or flight masters to offer aid. The history of the pass revolves around the towering citadel of Karazhan. Built atop a potent convergence of subterranean ley lines, the tower served as the redoubt of the Guardian Medivh. It was within this spire that Medivh plotted the opening of the Dark Portal and the ruin of Stormwind. When his madness and possession came to light during the First War, an expedition led by Lord Anduin Lothar and young Khadgar breached the tower and executed him. Medivh's violent demise released a shockwave of fel taint that blighted both the pass and neighboring Brightwood, leaving Karazhan an ominous, locked husk leaking unstable magical energy. South of the main thoroughfare, the pass branches into the territory of the Deadwind ogres around the Vice. Dressed in foul rags and wielding jagged iron, these brutes relentlessly ambuscade anyone venturing near the southern road, reportedly serving a hidden master within the vicinity. Further south lies Morgan's Plot and the skeletal remnants of a hamlet that once catered to the tower. Today, the village's above-ground ruins and labyrinthine cellars crawl with wailing phantoms and restless shades, remnants of those whose lives were extinguished by Karazhan's unbridled sorcery."
+      "text": "Deadwind Pass. Deadwind Pass is a blighted, jagged canyon in central Azeroth connecting Duskwood to the Swamp of Sorrows. At its center looms the Ivory Spire of Karazhan, former seat of the Guardian Medivh, whose death unleashed corrupting magical runoff across the land. It is a lifeless corridor stalked by ogres, ghosts, and demonic winds, offering neither refuge nor civilized shelter. Once considered an extension of the Redridge Mountains, Deadwind Pass has devolved into a hollowed-out scar of bleached stone and petrified wood. A foul, relentless wind cuts through the ravines, giving the gorge its name. The sky above is locked in a perpetual sepulchral gray, threatening erratic lightning storms that make traveling with metal arms hazardous. Totemic effigies hang from lifeless branches alongside the main road, warning wayfarers to keep moving. There are no fertile soils here, no mineable mineral veins, and no towns or flight masters to offer aid. The history of the pass revolves around the towering citadel of Karazhan. Built atop a potent convergence of subterranean ley lines, the tower served as the redoubt of the Guardian Medivh. It was within this spire that Medivh plotted the opening of the Dark Portal and the ruin of Stormwind. When his madness and possession came to light during the First War, an expedition led by Lord Anduin Lothar and young Khadgar breached the tower and executed him. Medivh's violent demise released a shockwave of fel taint that blighted both the pass and neighboring Brightwood, leaving Karazhan an ominous remnant leaking unstable magical energy. South of the main thoroughfare, the pass branches into the territory of the Deadwind ogres around the Vice. Dressed in foul rags and wielding jagged iron, these brutes relentlessly ambuscade anyone venturing near the southern road, reportedly serving a hidden master within the vicinity. Further south lies Morgan's Plot and the skeletal remnants of a hamlet that once catered to the tower. Today, the village's above-ground ruins and labyrinthine cellars crawl with wailing phantoms and restless shades, remnants of those whose lives were extinguished by Karazhan's unbridled sorcery."
     },
     "zone:desolace": {
       "1": [
@@ -1377,6 +1507,32 @@
         "sha256": "6568074dcdad8ee300eb935d4b5275b2fcda152dbfd681fd44aa16f4689459ac"
       },
       "text": "Ragefire Chasm. Ragefire Chasm is a network of winding volcanic tunnels situated directly beneath the orcish capital of Orgrimmar. Entered through the dark hollows of the Cleft of Shadow, the chasm is overrun by savage troggs and a demonic sect of cultists known as the Searing Blade. Left unchecked, the dark powers and subterranean swarms festering below threaten the very foundation of the young Horde nation. Beneath the dust and red rocks of Orgrimmar lies a blistering maze of volcanic corridors and lava pits. While orcish builders forged their new home above, aggressive Ragefire troggs began erupting from deep below the surface. Magatha Grimtotem sought to open diplomatic channels with the brutes on behalf of Thunder Bluff, but her envoy Maur Grimtotem was slaughtered, proving the troggs will yield only to force. Far more dangerous than simple troggs is the presence of the Searing Blade, a fanatical cell loyal to the Shadow Council. Operating from the dark caverns alongside the magma streams, this demonic cult plots the utter ruin of the fledgling Horde. They are led by the warlock Jergosh the Invoker, a cunning satyr named Bazzalan, and the vicious felguard Taragaman the Hungerer, who presides over an altar in the lava lake."
+    },
+    "zone:redridge": {
+      "1": [
+        {
+          "duration": 112.14367346938775,
+          "file": "Audio/Transport/full_zone_redridge-fe504f1087240e10e473/1-0000.mp3",
+          "sha256": "f6d8e83164e218cd9c65dc725d07df9a0fff8a83630580f41490e9ba61f97038",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "221caf",
+      "generation": "bf8cc889a4369c261b04",
+      "hash": "1add3c",
+      "source": {
+        "duration": 112.143673,
+        "file": null,
+        "sha256": "fe504f1087240e10e473ef985263eba341f861e2f7459440d06cc520f3449732"
+      },
+      "text": "Redridge Mountains. East of Elwynn Forest, the Redridge Mountains feature rushing rivers, wooded slopes, and the serene expanse of Lake Everstill. Despite its scenic heights, the region is besieged by hostile Shadowhide gnolls and the encroaching Blackrock orcs of the Dark Horde. With the kingdom's military tied up by internal strife in Stormwind, the lakeside town of Lakeshire must rely on wandering mercenaries to hold the line. The Redridge range was once among the most peaceful corners of the kingdom, supplying Stormwind with timber, freshwater fish, and crops. Today, that quiet life has eroded. The lakeside township of Lakeshire sits perpetually fortified against aggressive incursions. To the east, Stonewatch Keep—once a proud bastion of the kingdom—has fallen under the control of renegade Blackrock orcs, cutting off roads and threatening to overrun the eastern valleys entirely. Geographically, these peaks form part of the spine running down the subcontinent of Azeroth. Centuries ago, the mountain chain reached much farther north until the Dark Iron clan inadvertently summoned the Firelord Ragnaros, tearing the earth asunder and creating the fiery crater of Blackrock Mountain. That cataclysm severed the northern peaks into the ash-choked Burning Steppes, leaving only the southern Redridge valleys lush, green, and vulnerable to attacks descending from the slopes above. While Magistrate Solomon and Marshal Marris plead for reinforcements, the regency council in Stormwind has effectively abandoned Lakeshire to fend for itself. Desperate entreaties sent to Sentinel Hill and Darkshire yield nothing, as both sister settlements are crippled by their own crises. With reinforcements nowhere in sight, local magistrates must hire any capable sellsword willing to brave the Lakeridge Highway, clear the gnoll camps, and push back the shadow looming over Lake Everstill."
     },
     "zone:riverglades": {
       "1": [
@@ -1849,9 +2005,9 @@
     "zone:wailing": {
       "1": [
         {
-          "duration": 99.39591836734694,
-          "file": "Audio/Transport/full_zone_wailing-0cef997c1429476af7a2/1-0000.mp3",
-          "sha256": "546aff6a2896e64ea89230fe2587eb991b74ac56fa2f9303acc097513610736e",
+          "duration": 102.37387755102041,
+          "file": "Audio/Transport/full_zone_wailing-8d14501ca768ef4d7231/1-0000.mp3",
+          "sha256": "e24b5fc7ad9e71b8484bae0515785280c964232853138b69e880692f1b584f1e",
           "start": 0
         }
       ],
@@ -1862,15 +2018,15 @@
           "1"
         ]
       },
-      "fullHash": "ebbbbc",
-      "generation": "34991856e2ce33a46ac7",
+      "fullHash": "d5f0a1",
+      "generation": "a5b760f01bf7412183f8",
       "hash": "6c8555",
       "source": {
-        "duration": 99.422041,
+        "duration": 102.373878,
         "file": null,
-        "sha256": "0cef997c1429476af7a28c05fef65b13af3d68ef2e0e5683e9e1fd6435cd42cb"
+        "sha256": "8d14501ca768ef4d7231958862228abe078778b01eec944562464a59f6b59ee1"
       },
-      "text": "Wailing Caverns. Tucked beneath the Lushwater Oasis in the arid Barrens lies the Wailing Caverns, a labyrinthine system of subterranean springs and fissures named for the eerie whistling of trapped steam. What began as a noble druidic effort to revitalize Kalimdor's sun-bleached savanna has devolved into a warped, poisonous underworld. The caverns now teem with twisted wildlife and fallen disciples corrupted by a deep, unnatural nightmare. The night elf druid Naralex originally discovered this vast water system and devised an ambitious design: by opening a conduit straight into the Emerald Dream, he would siphon pure primal life essence through the subterranean springs, transforming the parched Barrens back into a thriving, verdant paradise. Deep in the Cavern of Mists, Naralex slipped into communion with the Dream, anchored by his loyal acolytes. Tragically, rather than tapping into pure vitality, the druid's sleeping mind touched the Emerald Nightmare. The festering corruption instantly seized him, transforming his well-intentioned conduit into a valve pouring venom and madness into the underground waterways. As the Nightmare's dark energy radiated from Naralex's helpless form, his students succumbed to the madness. Forsaking the tranquil wisdom of the Cenarion Circle, they formed the fanatical Druids of the Fang. Taking reptilian forms, the sect's leaders—Lady Anacondra, Lord Cobrahn, Lord Pythas, and Lord Serpentis—now embrace the venomous mutation of the caverns rather than fighting it. They actively shield their sleeping master from any outside interference, believing this twisted growth is the true evolution of nature."
+      "text": "Wailing Caverns. Tucked beneath the Lushwater Oasis in the arid Barrens lies the Wailing Caverns, a labyrinthine system of subterranean springs and fissures named for the eerie whistling of trapped steam. What began as a noble druidic effort to revitalize Kalimdor's sun-bleached savanna has devolved into a warped, poisonous underworld. The caverns now teem with twisted wildlife and fallen disciples corrupted by a deep, unnatural nightmare. The night elf druid Naralex originally discovered this vast water system and devised an ambitious design: by opening a conduit straight into the Emerald Dream, he would siphon pure primal life essence through the subterranean springs, transforming the parched Barrens back into a thriving, verdant paradise. Deep within the caverns, Naralex slipped into communion with the Dream, anchored by his loyal acolytes. Tragically, rather than tapping into pure vitality, the druid's sleeping mind touched the Emerald Nightmare. The festering corruption instantly seized him, transforming his well-intentioned conduit into a valve pouring venom and madness into the underground waterways. As the Nightmare's dark energy radiated from Naralex's helpless form, his students succumbed to the madness. Forsaking the tranquil wisdom of the Cenarion Circle, they formed the fanatical Druids of the Fang. Taking reptilian forms, the sect's leaders—Lady Anacondra, Lord Cobrahn, Lord Pythas, and Lord Serpentis—now embrace the venomous mutation of the caverns rather than fighting it. They actively shield their sleeping master from any outside interference, believing this twisted growth is the true evolution of nature."
     },
     "zone:westernplaguelands": {
       "1": [
@@ -1977,6 +2133,1101 @@
       "text": "Zephras Isle. Zephras Isle is a flying island suspended within Skywall, the Elemental Plane of air. It serves as the ancestral starting home of the Skyborne, whose society now faces an existential crisis as the island's sustaining magic steadily erodes. With contact severed from neighboring sky-realms, its inhabitants struggle against elemental collapse and arriving refugees. Zephras Isle is an isolated landmass adrift in the endless winds of Skywall. For generations, the Skyborne lived here alongside native air elementals who helped preserve the magical currents holding the isle aloft. However, several centuries ago, those elemental stewards vanished entirely. Deprived of their presence and guardianship, the latent enchantments upholding the land have slowly begun to fail, causing Zephras to slowly fracture and destabilize. Zephras was not the only sanctuary inhabited by the Skyborne within the Elemental Plane. Sister islands known as Anvilas and Siroccas also drifted across Skywall, but communications between them ceased after the elementals vanished. In recent times, refugees from these crumbling neighboring landmasses have managed to reach Zephras seeking safety, bearing grim tidings that the other islands are disintegrating outright beneath their feet. With their own landmass in slow decay, the Skyborne of Zephras have begun looking beyond the boundaries of Skywall toward Azeroth. From the skydocks of Valanaar, airships now venture forth to establish rare lifelines to the mortal realm. These voyages connect the airy domain directly to points on Azeroth, including the outskirts of Dalaran in the Alterac Mountains and the Skywatcher Plateau in Mulgore."
     }
   },
+  "cuts": {
+    "01b65ee1f64ca770c84af493bb3838a6780b3823013d9d54cfa4e1cfbd770383": [
+      355
+    ],
+    "063550d1d97c23b1fbdec85a10e3cbc6076797d545c32105f48b263ab27fcbcd": [
+      488
+    ],
+    "08536b3ce960413a9468d90aeef5a4d7688eddd030911957b7cda70d03a32180": [
+      670,
+      1206
+    ],
+    "09f880ae555ae1d6f518b9ed0889a0e99ddcdefea67a7c61cd99208dc85e44c6": [
+      388
+    ],
+    "0a2dfa45852da9d473b855520fbd024f9e96837427972afe13f4186b8c6be675": [
+      537,
+      1265,
+      1614,
+      2192,
+      2982,
+      3212
+    ],
+    "0cf357a2ede0d35c15455809a80c3ec4b837e3a2f32c37024264b79ac74a40db": [
+      336,
+      1115,
+      1813,
+      2211,
+      2612,
+      3002,
+      3245,
+      3791,
+      4066,
+      4501
+    ],
+    "0d4034a89412c5ae1ac4f80108ea26b736dc05d2c5c11f4332f8cae6bb8f745e": [
+      931,
+      1235
+    ],
+    "0f6f7133e5da2d1a596051a35ed9557fda1750d46e1712a01f445360c9b16f0c": [
+      368
+    ],
+    "115e17badfb8b1ecfa0a11c42b2be1d8011c9cf5ce66931a384765c59d1d6f3d": [
+      348,
+      924,
+      1295,
+      1636,
+      2271,
+      2771
+    ],
+    "13b19e16b3cefe2aae54f681c53efdcd16586ae92c4ed987cddf1b3f235f9c6f": [
+      372,
+      1026,
+      1378,
+      2042,
+      2342,
+      2965,
+      3269
+    ],
+    "144abd9126092a5ed9633de3c03ac84f1368f4ec30563cc4eeb2292b388a61c3": [
+      569
+    ],
+    "14aafef135b55d31b6055fe6c8dfdd3cbaebb3cf80aba0a2412d096763cb5b88": [
+      293,
+      655,
+      1055
+    ],
+    "15630e2c20eb24b2ac861b0c0db59a9a926766d272fe97d890e400247196ad71": [
+      813,
+      1292,
+      1755,
+      2763,
+      3152
+    ],
+    "19d9d210c816a97a0d517bc9aad2fc776011d976dedf9fc2f421aae426a41104": [
+      366,
+      1050,
+      1537,
+      2253,
+      2635,
+      3015
+    ],
+    "1bb62e3ca499f3597506deb874950211487cddf40a0daa579632cb8179e6aad5": [
+      292,
+      751,
+      1833,
+      2132,
+      2529
+    ],
+    "1ffd257e685ecc9fe2cc6b0da6e5807aaab64cfeabd1be8f16422a06d6c47b26": [
+      375
+    ],
+    "22fa7828976d6fef71b1f6e408a8d8434b3557d5a9a1e14b23b96fa338bfb2b5": [
+      391,
+      750,
+      1296,
+      1605
+    ],
+    "230a5f5cd8ae87406f3d1c71dcc9127075674e10189766196a3af479306edebf": [
+      474
+    ],
+    "230da2a5139fd04d6b3c6b29143936c3515264f9fbc38f67a4889efb2e490c38": [
+      618,
+      1097,
+      1824
+    ],
+    "23a239f61fe1512f3de9195d23dda4d15acf742d80653270976133c3de1069eb": [
+      477,
+      1006,
+      1432,
+      1928,
+      2494,
+      2814,
+      3439,
+      3941,
+      4270
+    ],
+    "23a78c8f1053ade62e8d549bfbe91842306fc7ee8c1952fe44800d8b515ab8c7": [
+      623,
+      1084,
+      1562,
+      1958,
+      2532,
+      2974,
+      3526
+    ],
+    "27d4e946d7666ee1cff4d270884e0db33522995b7431fd2a1ed759e2796e9adc": [
+      438
+    ],
+    "291279250a7018674bbd7bda9fd1eafd517095bd6442c941d983fc080efa89de": [
+      368,
+      971,
+      1284,
+      1763,
+      2218
+    ],
+    "2eba42f6e2e4a9656fcb5e98f555d3aa410d87314141ed92ef5b5ed6bcdca895": [
+      1088,
+      1399,
+      1788,
+      2154,
+      2487,
+      2997,
+      3448,
+      4033,
+      4384,
+      4615
+    ],
+    "2f23061b234690afe8e28916eaed32d91854d36915169ccf0ee23f3c375ed062": [
+      489
+    ],
+    "2fb2297a79e720faed294a7133b75d89203f2fe91b4d3b99da8b67c8c872c201": [
+      996,
+      1375
+    ],
+    "3064a86bbeb124b6d968958a0f4755dc4c540642dd01733d6892d3b83de872ad": [
+      426
+    ],
+    "3135d55983c05d0d033cc9afa8f2bd973e78ab161581130956b35fc9759fabfc": [
+      470
+    ],
+    "347852babe80e6170f26215c3ce73d76cbbb15c0f0a6278951fb792b62cf5680": [
+      555,
+      1083,
+      1746,
+      2151,
+      2587,
+      2982,
+      3671,
+      4264
+    ],
+    "3565d69822c33362ce80f6d86aa3d3a4e01f20cd60447340ee0a1c22bfa09d95": [
+      481,
+      1142,
+      1460,
+      2108,
+      2650,
+      2900,
+      3448,
+      3916,
+      4307,
+      4567
+    ],
+    "395c59e91e6f51f552058290520931e036ec4f8c9456b0bbac132fee4cc238d1": [
+      285
+    ],
+    "3961cb462ed69a82104922f4a61694db708eb819edf577aa2250ea13327ace7c": [
+      423,
+      1157,
+      1532,
+      1901
+    ],
+    "3aa3b52ae62cebeb1157f81f49d93f5caff93864d0ac1cf77468c6cf5d9e17fb": [
+      634,
+      1209,
+      1545
+    ],
+    "3adbeea8e73d4b251d49e87860fdf43b7f54d4fe39311d0cad8c410dd1d08cbf": [
+      1092,
+      1706,
+      2071
+    ],
+    "3ed32f6451333896f51376cdbbc08a25676d7b7270ae715c9bbc4c472d7b667e": [
+      386
+    ],
+    "3f60a8a89a13f0e0a5303997094e12e86ad9f059733db55d5c4d0f9ebb753c13": [
+      1026,
+      1690,
+      2200,
+      2663,
+      2931,
+      3271,
+      3576
+    ],
+    "40d071d6b3773cf70a553a71d58d01dbf214ede7261b033730465cfbb2237afd": [
+      425
+    ],
+    "42f3973ebf990651ce14d08ace8d95f052bf91f315379118d14093575d074bb4": [
+      591,
+      925,
+      1767
+    ],
+    "4406206bbd8f50799c761fb5d722707f301d1de9d7e9ec7f9c02655f46c825ce": [
+      437,
+      812,
+      1250,
+      1600,
+      2142,
+      2474
+    ],
+    "4491ce56d9da4c9db3426be76603b332830121f753bd5fcd63f69db05506c6f8": [
+      365,
+      1028,
+      1466,
+      1709
+    ],
+    "471bc4c52a19993f0785fd4295f1a9048bcc6df01e19b3b0b93adc76c0ef23e0": [
+      441
+    ],
+    "4797ec73adcfba0fcbac09e3a0a8a563c3a31d47a1a1c3a793c3dbf7ddcd1c41": [
+      505
+    ],
+    "47bb63e050641cfaf84c1316feccc11cc674967b409ca6b3e7af07be8a578836": [
+      304,
+      660
+    ],
+    "47fb42c0396437020e9c61fb8d9f9dccdd2d8f8ea15a60d37303d3f9351c1f47": [
+      410,
+      665
+    ],
+    "49282a63b838cdd2bff4c5698a9af5a23aa49d83b0d923a4a6a77de582145368": [
+      613,
+      1097,
+      1426
+    ],
+    "495ee0e0b6e1cf39e6f5a3cb2b8bf8fa472def98d6042155fc1c30c890fe1cd3": [
+      501
+    ],
+    "4a3ce9b8a6276b1018dc85bdbb0836a13d5dd293a4c382410e7ab5843cb7bbf9": [
+      440,
+      957,
+      1347,
+      1796,
+      2087,
+      3111
+    ],
+    "4b848ceda3a53bf84d44c8da7e31f2c5c8e71ea6204a3e8df5543d24979755c8": [
+      677,
+      1002,
+      1307,
+      1846,
+      2977,
+      3561,
+      4046,
+      4312
+    ],
+    "4e30ad8c271fccdd18d10afb4a9be74ee4b6763bd549cfaf2835ebeb0cd704c9": [
+      401,
+      1192,
+      2110,
+      2709,
+      2993,
+      3531,
+      3769,
+      4264
+    ],
+    "4fec96006fba93613390bb3b8e0e1c1bc3887876b6c8156342468fde8830d08f": [
+      379,
+      809,
+      1205,
+      1486,
+      1890,
+      2393,
+      2812,
+      3230
+    ],
+    "52c178bf2a3b2e07e760057de7b5be464c6b9a7857e575abbfed90db946828cd": [
+      509,
+      998,
+      1448,
+      2103,
+      2423,
+      3094,
+      3451,
+      4224
+    ],
+    "54d599725f9bb646d49cd0fef8a48d01ba2ba162931323eab2556b36f989b6d9": [
+      953,
+      1516,
+      1908,
+      2358,
+      2776,
+      3370,
+      3668
+    ],
+    "5515367a5c37668b7700c904918b955faf7c1c708c2b13148a104e03c3f73880": [
+      323,
+      782,
+      1103,
+      1421,
+      1907,
+      2243,
+      2978,
+      3439,
+      3918,
+      4429,
+      4787,
+      5198
+    ],
+    "55d2089118825cf78be54c10f22caef47b298867f7df6314bc227648be50715f": [
+      381,
+      727,
+      1067,
+      1405,
+      1954
+    ],
+    "569549c66efd45bb4b34bf6c89f42d62c7b50acf72ce0f952fe30e8960ab2949": [
+      622
+    ],
+    "56b3475f6c6b492b25c097a1688ea66e3d67c701985b15e9d7fb178c68eb03e9": [
+      570
+    ],
+    "57d730643f26892f9ed3012af4b5ddfad1ff593a5042ac949e0dfa2198f892a7": [
+      382
+    ],
+    "57dac7fcccafc5a81801b801452f831bb5e2bde44bf5bc98e48b012b34ab0090": [
+      364,
+      774
+    ],
+    "584a7bd4255b4d70668e5570f3f6f92995a93b322138b505083484ae2f100343": [
+      387
+    ],
+    "59623fe46e0dd8d92cc6fe3c2caabfa73d8f607bd79babb8631ed0f0a4c7cfd1": [
+      610,
+      1178,
+      1658
+    ],
+    "5bbab9ffa4d7cc22715589c53363f1659378de05d34847d0fd0fe3fe53e0e767": [
+      385
+    ],
+    "5c91239678760189505765c33d1940202b7600fd4f97207a86709bfae8d491bf": [
+      424,
+      868,
+      1595
+    ],
+    "5fb507685affc3e330c3bb7359dddcad16a22d28aaed20b97f6e57e83dd0d5bf": [
+      355,
+      693,
+      1810,
+      2301,
+      2845,
+      3160,
+      3879,
+      4309,
+      4908,
+      5389,
+      5682
+    ],
+    "60278f94160199e18184eadce3fa460c72c291aae6667dbd1790724a10eecc9d": [
+      443,
+      895,
+      1284
+    ],
+    "67a4e36b2309fc53100d88d92a38e28986ceb1ea3bcc817a7418f7916847c891": [
+      710,
+      1245,
+      1851
+    ],
+    "67db5b3b1bfcdc780fa743bfaafe94c29245a22acc32df4202118977d634ce0d": [
+      611,
+      1044,
+      1556
+    ],
+    "6855d4fc50d1784e5d1c46bb9e83e1eb8e941f57d461ec3a2545533012203fdc": [
+      516
+    ],
+    "687d78742a031d1cc846dd04075842b25d30ccaa9bbce7573111d88b0ba33bb5": [
+      622,
+      1187,
+      1657
+    ],
+    "69d11e3e8c95e12c1eda078d0687b78243f9e9ec57f1a58c780302f6cde35d83": [
+      482,
+      780,
+      1163,
+      1962,
+      2286,
+      2958,
+      3515,
+      4005
+    ],
+    "6abf2b7ae6e979ecdc1588edf1923e1a57cd0c1f351e5b7226110fffb89bf0fe": [
+      502
+    ],
+    "6b6d9ec2648d5dc9d4ba57374a4904ec3104923ba58e94bcd0d4c30fa1c9a7ef": [
+      408,
+      1002,
+      1491,
+      2013,
+      2382,
+      2792
+    ],
+    "6c52ce892012a546e456fc9edc0fb771c86df34263e8a9ee91a8df1eea867d92": [
+      360,
+      737,
+      1477,
+      1889,
+      2421,
+      2984,
+      3398,
+      4280,
+      4675
+    ],
+    "6fb027d7e945f78bd2803adc41a25ceb5d32c9a3cecb4d660b7ca4e3f15a40b1": [
+      602
+    ],
+    "6fcedcb1582993425b8664b6147329b32124661693658e7e83538a5d2d591727": [
+      436
+    ],
+    "716a970047363ed3414db5fbf4d386a341a725724015c8d12364fa3137cacc66": [
+      453
+    ],
+    "77002614aaa28e432ad2eb78583e37a58b12c9b2a5f7d2cccc44cc70654fa4af": [
+      868,
+      1190,
+      1963,
+      2374,
+      2813,
+      3182,
+      3725,
+      4291,
+      4651,
+      4977
+    ],
+    "77349a9f39ccb16c1cf7e44366da4606e07e161578c726147ff761bec261dc5a": [
+      400,
+      1169,
+      1591,
+      2263,
+      3157,
+      3559,
+      4159,
+      4583
+    ],
+    "7aa134e2dbf377ed0dfc34ce1a8d332db7e5aede92ac8ea27d250f369f703a05": [
+      997,
+      1362,
+      1757,
+      2177,
+      2560
+    ],
+    "7b293b3648d38f60d9e8837910b0b3beeac8b6fc71b302d1003ff89537ecf856": [
+      428,
+      1138,
+      1422,
+      1869,
+      2506
+    ],
+    "7c102063842f87324f62c6f5971232ee05ac8876830c2a0c43261d22da872c6e": [
+      686,
+      1099,
+      1515,
+      2068,
+      2517,
+      3016,
+      3393,
+      3798,
+      4451
+    ],
+    "7c282c6b0cea8cc46a84a94558ea1302221850eb83d1b9ea3ac15f62fe680e4d": [
+      342,
+      675,
+      1089,
+      1423,
+      1890,
+      2335,
+      2925,
+      3550,
+      4122,
+      4443
+    ],
+    "7c53e6ebaf65739a37b8cb69c1704034915581ca99af470c652002be0042a6e4": [
+      330,
+      769,
+      1201,
+      1814,
+      2244,
+      2569,
+      2964
+    ],
+    "80537b4ed78d316a5a668bf9508aa0a6ac993cb27d46918fb519b7579fcc7726": [
+      348,
+      884,
+      1220,
+      1703,
+      1992
+    ],
+    "806e1180cb65ef8dee1b3f4a1893842a71ea50d5ed20a16ed97c8fea31480164": [
+      959,
+      1397,
+      1683
+    ],
+    "813873d4f807a54f0b7ab174708c48c531c0fc9a85addf613aac4522069fd7e4": [
+      344,
+      784,
+      1498,
+      1863,
+      2476,
+      2784,
+      3125
+    ],
+    "825daad08d3467c0c5f5a8d95b24da4e413db317c8be54af384d4c29d2d20433": [
+      446
+    ],
+    "83f5bd8921ad88ff6fa23f7bb1663ff8895d5f6bc822f0f8ddfe7f495decbd0f": [
+      471,
+      948,
+      1501,
+      2062,
+      2545,
+      3301,
+      3635,
+      4064
+    ],
+    "847f943afafe200cf0b6c652364cc1bc28b8952391c8701732d353a50a7dbbb3": [
+      356,
+      897,
+      1263
+    ],
+    "89c9185210315ed586ab76b8c10653dc453d23d4823a5c0592714156becb4a86": [
+      270,
+      716,
+      1261,
+      1577,
+      2036
+    ],
+    "8f74b28701f97913db09e8052da50650aaca860d600ca463f08132d961c4c579": [
+      614
+    ],
+    "91813102099c9b9b76a88912536d05352de784dcb1875d0a7b855d182d60e25f": [
+      1035,
+      1442,
+      2228,
+      3024,
+      3605,
+      4090
+    ],
+    "918508473a6efe8e62d1c75a293301e5d3f6859b3612cef6c752bbce1b8e0732": [
+      359,
+      889,
+      1420,
+      1879,
+      2201,
+      2478,
+      3097,
+      3570
+    ],
+    "926696db94e97b2576e411f9c70ebd82544909b81793793e5e25496920f8aed7": [
+      495,
+      833,
+      1583,
+      2115,
+      2377,
+      2692
+    ],
+    "92eb4b022b4c53c776fbd48450164ffd596de5667a3be530b5a804c02d92258a": [
+      379,
+      753
+    ],
+    "9501a0ec925a0021a99a4d3e1af72047042780c399b32544241e06052a400b5b": [
+      234,
+      1105,
+      1974,
+      2333,
+      2837,
+      3246,
+      3622,
+      3904,
+      4263,
+      4895,
+      5387,
+      5733,
+      6286
+    ],
+    "97b3dd3fe60845872eb49ef43856066d8b4b88a852c003f926d6b95ab291b44c": [
+      400,
+      1111,
+      1471,
+      1867,
+      2267,
+      2628,
+      3191,
+      3522,
+      4104,
+      4424
+    ],
+    "9b9ad3a536cb4579ee0ec7fffd37354dae31306eb77d6416c44118688fab6c07": [
+      416,
+      766,
+      1470,
+      2139,
+      2489,
+      3204,
+      3622
+    ],
+    "9ba92926208bf577bde6ae0b5ffbed6ac4593152b28e62a9da09e4ed69c5f191": [
+      281,
+      677,
+      1396
+    ],
+    "9c6685a3f3961d68b61156aafe84c7f85aec0f075c22e9630423211c6d498dba": [
+      333,
+      653,
+      1222
+    ],
+    "9cb55a41ae652acdef9a4ee7e8ecf308c77e727705fda5ee18f3f950352fa3f1": [
+      453
+    ],
+    "9dc09fd0a16d18ab3d0504c4f7191bd7d1925ea9cf6d0db8408967b7f6dfff90": [
+      393,
+      826,
+      1256
+    ],
+    "a1488ea16b02e6edc9d406f36b35586aaba64c14fb8277140be739d3fe40ad2b": [
+      302,
+      1326,
+      2048,
+      2381,
+      2732,
+      3247
+    ],
+    "a772545173a55d68ce808f811e4f5bbc133a323ebf01dc2bf5986d656201010b": [
+      914,
+      1276,
+      1876,
+      2382,
+      3043,
+      3376,
+      3831,
+      4271
+    ],
+    "aa70f85a6497fce846f0e3d3175f3fe09b57b857698b81229063f23f7af8237c": [
+      553
+    ],
+    "aafca38da547e1dbdf14790af754b1442be680afc277185875e8158366b6fdab": [
+      406
+    ],
+    "ad727cfa5ca1caaf7e50ebba45d013aca2fb3b749abb78432e055fc885fe85a2": [
+      638
+    ],
+    "add91eef1483ca317dc2a0c9667c25dd5c02e1b06e08ed305bdaff9dce8a874b": [
+      458
+    ],
+    "ae9aa248910f75dc713370123c96c0ec3d5fde4a827496b481373679864c1912": [
+      1134,
+      1732,
+      1967,
+      2462,
+      3131
+    ],
+    "af5799f5cb8a402c1d2e1f1d88a69368d08db1138da9e24c2a6c2d08c1e23f41": [
+      708,
+      946,
+      1255,
+      1625,
+      2120,
+      2760,
+      3366,
+      3736,
+      4196
+    ],
+    "afe2bac715f2bed5848c33167afc865d104b32f453ba58ae514afd2b67b021b5": [
+      349,
+      801,
+      1292,
+      1988,
+      2353,
+      2949,
+      3363
+    ],
+    "b0d5fc46ae06224f3179ca02b0007c3016e20b1a523944066f2c2e41c12c4393": [
+      713,
+      1193,
+      1735,
+      2240,
+      2963,
+      3279,
+      3938,
+      4252,
+      4812
+    ],
+    "b226e56f7e12825d6e82cecf761cee538cdb50697f137f21ba8fa51da12688c6": [
+      817,
+      1190,
+      1663,
+      2130,
+      2516,
+      3065
+    ],
+    "b2473547eac730290a31dc6bb27eeee2e1348d6292b9d3a2127f8ec3d436d327": [
+      331,
+      936,
+      1314,
+      1732
+    ],
+    "b34374ecb88750b333587edb12b4ddcfe3ff616414a882d174f62f8d2fc0f796": [
+      435,
+      716,
+      1163,
+      1626,
+      2044,
+      2496,
+      2985,
+      3314,
+      3593
+    ],
+    "b39a715c5e5fef3440326a3517ca4593cd1c1c301581e38a32fb1caa02914945": [
+      354,
+      791,
+      1041,
+      1601,
+      1964
+    ],
+    "b3e6b37c664fb58e7cbe3b8d71b2e33cd933da5e78a56ad7f396925045cca9e4": [
+      560
+    ],
+    "b516a229d06a762eb8202cde8f0e4bd6f3e824af2e2e8c2578d81dcfdc1883a0": [
+      1049,
+      1699,
+      1965,
+      2304,
+      2929,
+      3309,
+      3732,
+      3969,
+      4436
+    ],
+    "b68fa7a17d592d0e42e578340faf5ba008b254034abac8b2de2a81bffe17123d": [
+      397,
+      936,
+      1198,
+      1781
+    ],
+    "b870c878b37259ac5b769a810273738dd6481d80ddf0a46010c5e408aec746c2": [
+      364,
+      1033,
+      1521
+    ],
+    "ba3f93167826d6b90beb733181a00e59c204a83d1cc11855e200d3d44c7c3c79": [
+      408
+    ],
+    "ba9f41ef8e7759aef9858684682217be49d1490c2a8ecb2577ee99372babd237": [
+      467,
+      763
+    ],
+    "bc0c9ae479f09306bc2a832bbe5f1c6e833e56ba2d1a8aca5e3842623221cc3c": [
+      580
+    ],
+    "c02afd5e1a8fd5b5582db37748b31ec752731a72101bd1e56330ee1822448c19": [
+      372,
+      1011,
+      1488
+    ],
+    "c08a45a234e58a43bea2da321cf6c290c21d4cab747493efaf73cd593cc0ca0d": [
+      536,
+      929,
+      1352,
+      1950,
+      2373,
+      2943,
+      3488,
+      3940,
+      4550,
+      4874
+    ],
+    "c0c9913422d505ed43bb62f7537e31048a90577af43888eb40b7233eac9422da": [
+      928,
+      1509,
+      1938,
+      2295,
+      2642
+    ],
+    "c3ad9cae74313217db169e7b275d5104fc66047d6f4f927e5f2b6aa91d5c8c67": [
+      369,
+      804,
+      1188,
+      1831,
+      2155
+    ],
+    "c4a7fbd3f57398e61bcf1faf64a5d94e08542f56732a13752274684e01b9b255": [
+      594,
+      1008,
+      1466,
+      2060
+    ],
+    "c6031dd75f098ea6d2e3310bbfe838d52210ae2f2d814dc7b5c294acf1db7318": [
+      439,
+      1188,
+      2037,
+      2480,
+      2979,
+      3742,
+      4477
+    ],
+    "c67507fb216c390d3ac2c16b77f630839602a89ec6495ae86d95aac13422f90c": [
+      403
+    ],
+    "c6ca1a18f74fdb72e2fc60f9e95704c23554f1f95c7f5289d43c2fd1ca56ce70": [
+      506
+    ],
+    "c8c27471694593ee561dbec40bb8fb795f29312fa69a666140cc8d72e30cadac": [
+      620
+    ],
+    "c9ed48ce650e8c8b30cac92d18f7e2ea7018199166adc78ccbd90927c2b3a60c": [
+      634,
+      1028,
+      1364,
+      2057
+    ],
+    "ca400a524412f2d417e5e2d4346cb3247ce4aef01849d6b6312c560f1ddda78e": [
+      364,
+      1107,
+      1641,
+      2219
+    ],
+    "cd65b74f2625e22bc4fd59e5febb8a9e6026a096a42607f4af5ce7deec523509": [
+      455,
+      861,
+      1191,
+      1743,
+      2189,
+      2806,
+      3188,
+      3506,
+      3910
+    ],
+    "d09839bad23b00b3885e76c62d8e6e90841f8dbb6f6c01264261629c6c7afe9a": [
+      419,
+      743,
+      1112,
+      1480,
+      1964,
+      2902,
+      3262
+    ],
+    "d0f547bc0c8d610b7248d396d1dcc2ceb6489091b45ed7c9e2263ccd37c45e0a": [
+      366
+    ],
+    "d14700a0077cd3b7533f3cd1a9d5bb2d31417a28cbcd58bcfaf61b4a653c5306": [
+      493
+    ],
+    "d4cf92ac3fb9ca4244d844b89402b5dc451ed494f94d8b1b71cf70fc52b474da": [
+      362,
+      950,
+      1395,
+      1730
+    ],
+    "d6a051831da979cc7da5adc901514ab0ef63a16f81370edb683664b257cdb365": [
+      577
+    ],
+    "d72fa15dda4d23fae08d4d63512c9e0344a77c23b3bf76b23b92a78bc4970385": [
+      668,
+      1143,
+      1648,
+      2015,
+      2518
+    ],
+    "da6b0a97d0974762bdb48090213abb0742e5c94ff5ab2cce984f37a3209898f8": [
+      407,
+      857,
+      1162,
+      1940,
+      2199,
+      2840,
+      3325,
+      3611,
+      3944
+    ],
+    "dd5c005518f2f438f786f8977aef00be3c0deeeb5a84294a9697a44c68aa7fae": [
+      716
+    ],
+    "de0b9e01501920b634f0d924dd59ee2fad16aeb226cb360b9f0428e6f7714aa8": [
+      377
+    ],
+    "df8b1995e1d0328469e1b58e069002b735d85ea99a2f0ac56c71e8ba2188bc48": [
+      591,
+      1224,
+      1530,
+      1974
+    ],
+    "dfcd0435fbfbdcbf93e240b9e375a4c795a6fca7728d82c30a85ae6a7a3095f1": [
+      422,
+      856,
+      1285
+    ],
+    "e092f7986fd06d3d9ed34033e5676655113770464e51c65867f3f6ffedcfabd6": [
+      436,
+      1033,
+      1696,
+      2057
+    ],
+    "e0f985fed11677a40eb66fc4d76b095828f2695d2d809c718d48b221139015c5": [
+      374
+    ],
+    "e24b5fc7ad9e71b8484bae0515785280c964232853138b69e880692f1b584f1e": [
+      527,
+      1083,
+      1356,
+      1824,
+      2072,
+      3144,
+      3606
+    ],
+    "e4d244abae8900d4235bf3c4b761416be2ecb304ca14b8f2ee2bab3c0f8eba75": [
+      405,
+      1008,
+      1915,
+      2250,
+      2994,
+      3489,
+      3883
+    ],
+    "e556b22d17734b2554e52694562c101efec84372cb374a2a80b455bcd94ffe81": [
+      459,
+      871,
+      1869,
+      2317,
+      2693
+    ],
+    "e625d5f07ee75d1f6410c69ac8a33cac91aacf68381bfc8a1f9a6146eef349c4": [
+      419,
+      1008,
+      1466,
+      2136,
+      2632,
+      3102,
+      3473,
+      3730
+    ],
+    "e6421d76d8b014186458dea5be3b75fec65b23d0a64451d2a8c86ca80d3ee7da": [
+      479,
+      1132,
+      1551,
+      2259,
+      2664,
+      3096,
+      4144,
+      4498
+    ],
+    "e6695a3151c9f24d15899f8a2fa73d2c21a646d44386264d1a1621f82da22727": [
+      464,
+      783,
+      1104,
+      1925,
+      2611,
+      3266,
+      4047,
+      4626,
+      5017
+    ],
+    "e7969d9b54aec61948f31d73dff11ca9b6f007733eaa7346f5a1b1288bce1e62": [
+      355,
+      1099,
+      1679,
+      2041
+    ],
+    "ea86125f66f3daf99e1259b5d33d0dcf956511db47419b91958b70dd24b67340": [
+      345,
+      921
+    ],
+    "eb4418dde6402bc1acafd7fc1628f50930ff84e81c4a70afb88f320954cd448f": [
+      1039,
+      1390
+    ],
+    "eb876a8a2887647bc3dc4d6d95684eeb34917b3f3b3442b1e70d7e7435c69ff9": [
+      477,
+      854,
+      1388,
+      1982,
+      2400,
+      3071,
+      3372,
+      4011,
+      4355,
+      5046,
+      5583
+    ],
+    "ec4aba3683ec9dc58db551700979451c06196204466ffed5d38bf690e2e34f18": [
+      385,
+      955,
+      1532
+    ],
+    "ecb667cc1d6045e2d4c4748e59af820ed020e163d6f1b78b51fcb4ca8aa4697f": [
+      791,
+      1120,
+      1681,
+      2068,
+      2316,
+      2766,
+      3408
+    ],
+    "ece9f1280e3a1d3f905b6a4fa0167fe44896a94eb742ec5ced7f9725e6a1e738": [
+      538
+    ],
+    "eda39a8962b0a0836ceac1ae55fcf2049bfe748a19b6d6d101244be0d9ab24e7": [
+      474,
+      1218,
+      1550,
+      2124,
+      2849
+    ],
+    "ee1f0a5c2b8cb2ca6d5d90cc1b445e85925c8bc0c136e3f1fd637bb7fdb2facf": [
+      373,
+      1141,
+      1525,
+      2178,
+      2841,
+      3598,
+      4222,
+      4575
+    ],
+    "f08cf0637827622ef41a82595dbb468baef9de57ca309a6011746c60ada5a07b": [
+      329
+    ],
+    "f1040f8469319906378ccbfccd2a6935a9c891920243025e523558053f682768": [
+      981,
+      1502,
+      1935,
+      2489
+    ],
+    "f1188eea34470318cbca2fe4b6c38c4cf5af7b0a6143cf9ada86ead19342849e": [
+      799,
+      1172
+    ],
+    "f24f7ee50b05a21500d14b76c8fbffad649e53142b95d41b1dc1788b48235a0b": [
+      572,
+      988,
+      1355,
+      1732,
+      2234,
+      2696,
+      3003,
+      3400
+    ],
+    "f616144622a000ec85b1fc5a4ef9d2320c2a4b49e176a4df1053226c21a258d4": [
+      401,
+      1079,
+      1588,
+      2015,
+      2482
+    ],
+    "f66ea264b5eb06975043af5e516a3d53deb80d24d32a3d45ef3220aea69aa607": [
+      408,
+      826,
+      1214,
+      1521
+    ],
+    "f6d8e83164e218cd9c65dc725d07df9a0fff8a83630580f41490e9ba61f97038": [
+      694,
+      1030,
+      1641,
+      2076,
+      2756,
+      3166,
+      3546,
+      3843
+    ],
+    "f873b27272c651cf62b3e57e964f5d3e8204a4abec63c5065e9af0cf1acb95d4": [
+      616,
+      1254,
+      1610
+    ],
+    "fc845992f300df3694c2a2b5fcfeb6f6de78e5fdfd231c9443a4f563071c7908": [
+      347
+    ]
+  },
   "pack": "LoreForever_Voice_Default",
   "rates": [
     "1"
@@ -2073,6 +3324,22 @@
     {
       "file": "Audio\\Transport\\zone_stormwind-80d35208db8f59151cd7\\1-0022.mp3",
       "sha256": "7c9a2d13715aacc08c2dc41e6278bc7b6f952abb09955b1f97223886c375feaa"
+    },
+    {
+      "file": "Audio/Transport/full_npc_aggem-thorncurse-b32a47cec1eccbb755b5/1-0000.mp3",
+      "sha256": "7fee02f17095409e541c4d6925ccbb751b23dd303c8ec07d3a61be7e7acd9ffa"
+    },
+    {
+      "file": "Audio/Transport/full_npc_commander-springvale-1807a0a34e8556922fa3/1-0000.mp3",
+      "sha256": "c154b7f0f53f85b419c4ac14ab9b9ced6ce4c279b28669a335871538e9994f1a"
+    },
+    {
+      "file": "Audio/Transport/full_zone_deadwind-c916e8908078203526dd/1-0000.mp3",
+      "sha256": "7538e9a7b0ffc31cc8a68e4e629c9522b49334539a7488bcaf2c292e22bd9107"
+    },
+    {
+      "file": "Audio/Transport/full_zone_wailing-0cef997c1429476af7a2/1-0000.mp3",
+      "sha256": "546aff6a2896e64ea89230fe2587eb991b74ac56fa2f9303acc097513610736e"
     }
   ],
   "version": 1

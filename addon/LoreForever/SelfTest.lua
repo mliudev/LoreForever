@@ -252,7 +252,8 @@ local function specs(s)
 end
 
 -- The checks -------------------------------------------------------------------------------------------------------
--- Each: a name, steps run WAIT apart (a step returning false ends the check early), and a cleanup that always runs.
+-- Each: a name, steps run WAIT apart (a step returning false ends the check early, a number waits that many seconds
+-- before the next), and a cleanup that always runs.
 
 local CHECKS = {}
 local function check(name, steps, cleanup) CHECKS[#CHECKS + 1] = { name = name, steps = steps, cleanup = cleanup } end
@@ -824,7 +825,7 @@ check("narration", {
       start = i + 1
     end
     local body = code and code:match("^(.*)~%x+$")
-    local want = S().reportCross == true
+    local want = S().reportCross ~= false
     local shown = (UI.dock and UI.dock.report and UI.dock.report:IsShown()) and true or false
     local open = (_G.LoreForeverClipReport and LoreForeverClipReport:IsShown()) and true or false
     local box = clip and UI.ShowClipReport(clip)
@@ -875,6 +876,92 @@ check("narration", {
 }, function(c)
   if ns.UI.speaking and ns.UI.playingId == (c.target and c.target.id) then ns.UI.StopAll() end
 end)
+
+-- Pause and resume (LOR-346): a recording shipped in pieces (cut inside its pauses) hands over to its next piece on
+-- time in this client, pausing keeps the place and playing again picks up there. Once for a complete story, once for
+-- an answer or overview: its later pieces open with silent frames that carry the bytes their first frame needs
+-- (transport_assets.bridge), so this also shows the game plays those. Each uses the recording whose first piece is
+-- shortest; a build without one skips it. How the handoff sounds is still for a listener.
+local function pauseResume(name, story, what)
+  check(name, {
+    function(c)
+      local V, UI = ns.Voice, ns.UI
+      if noVoice() then
+        skip(name, noVoice())
+        return false
+      end
+      local best
+      for _, data in pairs(ns.Packs.data or {}) do
+        for key, r in pairs(type(data) == "table" and type(data.transport) == "table" and data.transport or {}) do
+          -- The pack that plays it: with a mix of builds installed, another voice's pack may come first.
+          local pack = type(r) == "table" and r.chain == true and (r.fullHash ~= nil) == story and V.HasAudio(key)
+            and V.CanPlay(key) and V.PackOf((V.active[key] or V.answerPaths[key] or {})[1])
+          local row = pack and V.Transport(key, pack, story)
+          local first = row and row.chain and row.rates[1][1]
+          if first and (not best or first.duration < best.first.duration) then
+            best = { key = key, pack = pack, first = first }
+          end
+        end
+      end
+      if not best then
+        skip(name, "no " .. what .. " ships in pieces in this build")
+        return false
+      end
+      if UI.IsBusy() then UI.StopAll() end
+      c.key, c.target = best.key, targetOf(best.key)
+      c.saved, c.resume = UI.progress[best.key], UI.resumeTarget
+      UI.progress[best.key] = nil
+      UI.ListenTo(c.target)
+      local t = V.transport
+      local ok = UI.speaking and t and t.row.chain and t.index == 1
+      expect(name .. ": " .. what .. " in pieces plays", ok and true or false, string.format("%s from %s: %s",
+        best.key, best.pack, ok and string.format("piece 1 of %d (%.1f s)", #t.parts, t.parts[1].duration)
+          or "didn't start in pieces"))
+      if not ok then return false end
+      c.at, c.first = GetTime(), t.parts[1].duration
+      return c.first + 0.5
+    end,
+    function(c)
+      local V, UI = ns.Voice, ns.UI
+      local t = V.transport
+      local step = name .. ": the next piece takes over on time"
+      if GetTime() - c.at < c.first then
+        skip(step, string.format("only %.1f s passed", GetTime() - c.at))   -- a client whose clock didn't move
+      else
+        local on = UI.speaking and t and t.index == 2
+        local playing
+        if on and _G.C_Sound and C_Sound.IsPlaying then
+          local ok, p = pcall(C_Sound.IsPlaying, V.handle)
+          playing = ok and p
+        end
+        -- Within a slow frame: an unfocused game window draws a few frames a second.
+        expect(step, (on and playing ~= false and t.late and t.late < 0.25) and true or false,
+          on and string.format("piece 2 started %d ms after piece 1 was due to end%s",
+            math.floor((t.late or 0) * 1000 + 0.5), playing == false and ", but the game says it isn't playing" or "")
+          or "piece 2 didn't start")
+      end
+      local piece = UI.speaking and t and t.parts[t.index]
+      if not piece then return false end
+      UI.StopAll()
+      local state = UI.TransportState()
+      local offset = state and state.offset
+      expect(name .. ": pausing keeps the place", (not UI.speaking and offset and offset >= piece.start)
+        and true or false, string.format("paused at %s s", offset and string.format("%.1f", offset) or "?"))
+      UI.ListenTo(c.target)
+      local r = V.transport
+      expect(name .. ": playing again picks up there",
+        (UI.speaking and r and r.parts[r.index].start == piece.start and V.Position() == piece.start) and true or false,
+        r and string.format("resumed at %.1f s (piece %d)", V.Position(), r.index) or "didn't resume")
+      UI.StopAll()
+    end,
+  }, function(c)
+    local UI = ns.UI
+    if UI.speaking and c.target and UI.playingId == c.target.id then UI.StopAll() end
+    if c.key then UI.progress[c.key], UI.resumeTarget = c.saved, c.resume end
+  end)
+end
+pauseResume("pause and resume", true, "a complete story")
+pauseResume("pause and resume (answers and overviews)", false, "an answer or overview")
 
 -- Quest givers (Giver.lua, LOR-224): the model -> race table, and this client reading a model's file id, checked on
 -- your own character (its model's race and gender should be yours).
@@ -958,6 +1045,7 @@ local function snapshot()
     suggested = suggested, suggestedLabel = { UI.nextLabel:GetText(), UI.nextLabel:IsShown() },
     listenButton = UI.listenButton,
     settings = copy(LoreForeverDB.settings), window = copy(LoreForeverDB.window), heard = copy(heard()),
+    usage = copy(LoreForeverDB.usage),
     questions = list(LoreForeverDB.questions), lastLog = UI.lastLog,
     recapped = ch and ch.recapped, lastRead = ch and ch.lastRead,
     shown = UI.frame:IsShown(), tab = UI.tab, queue = UI.plView:IsShown(), history = UI.historyFrame:IsShown(),
@@ -1048,6 +1136,7 @@ local function putBack()
     -- Playing marks a narration heard (so it won't play again by itself): forget the one the run played.
     if type(LoreForeverDB.heard) == "table" then LoreForeverDB.heard[(J.CharKey())] = copy(st.heard) end
   end
+  LoreForeverDB.usage = copy(st.usage)   -- the run's plays and opens aren't the player's (LOR-413)
   UI.UpdateListen()
   return changed
 end
@@ -1138,7 +1227,7 @@ local function runCheck(i)
     if not fn then return nextCheck() end
     local ok, res = protect(c.name, fn)
     if not ok or res == false then return nextCheck() end
-    C_Timer.After(WAIT, nextStep)
+    C_Timer.After(type(res) == "number" and res or WAIT, nextStep)
   end
   nextStep()
 end

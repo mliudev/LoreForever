@@ -23,8 +23,8 @@
  "summary": "Ruuzel is an Alliance quest offered by Talen on the edges of the Zoram Strand in Ashenvale. After recovering an ancient Kaldorei statuette from the coast, adventurers are sent to wrest the Ring of Zoram from the naga leader Ruuzel to unlock its sealed secrets.",
  "sections": [
   {
-   "title": "The Master Key of Zoram",
-   "body": "Before the Great Sundering tore Kalimdor apart and cast its grand coastal cities beneath the sea, the city of Zoram was governed by powerful night elven nobility. Chief among their regalia was the Ring of Zoram, a band enchanted to act as a master key capable of opening any lock within the city's bounds. Following the cataclysm, the ring was lost to the tides for millennia, preserving the secrets of sunken relics from curious eyes.",
+   "title": "The Key of Zoram",
+   "body": "Before the Great Sundering tore Kalimdor apart and cast its grand coastal cities beneath the sea, the city of Zoram was governed by powerful night elven nobility. Chief among their regalia was the Ring of Zoram, which Talen believes is the key to the ancient statuette's lock. Following the cataclysm, the ring was lost to the tides for millennia, preserving the secrets of sunken relics from curious eyes.",
    "spoiler": 0
   },
   {
@@ -50,7 +50,7 @@
     "what does the ring do",
     "zoram key"
    ],
-   "answer": "The Ring of Zoram was an enchanted heirloom belonging to the ancient rulers of Zoram before the Sundering. It serves as a master key capable of opening any lock crafted within the city."
+   "answer": "The Ring of Zoram was an enchanted heirloom belonging to the ancient rulers of Zoram before the Sundering. Talen believes it is the key to the ancient statuette's lock."
   },
   {
    "q": "Why does Talen need the ring?",

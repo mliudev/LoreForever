@@ -16,7 +16,7 @@
   },
   {
    "title": "The Scythe and the Starsong Legacy",
-   "body": "During the ancient War of the Satyr, Mel'Thandris was entrusted with safeguarding the Scythe of Elune, a fateful artifact that bound away the feral Druids of the Scythe. After she fell in battle, her shrine sheltered the artifact for millennia. In recent times, the night elf Sentinel Velinde Starsong uncovered historical records in Darnassus, traveled here, and retrieved the Scythe. Her attempts to channel its power to fight demons inadvertently unleashed the worgen upon the surrounding woods, leaving the vale haunted by the very beasts she summoned.",
+   "body": "The Tome of Mel'Thandris reveals recent events at the shrine: the night elf Velinde Starsong came into possession of a fateful artifact, the Scythe of Elune. Her attempts to channel its power to fight demons inadvertently unleashed the worgen upon the surrounding woods, leaving the vale haunted by the very beasts she summoned.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "who was mel'thandris",
     "melthandris shrine"
    ],
-   "answer": "It is an ancient sanctuary dedicated to Elune and built in honor of Mel'Thandris, a night elf priestess who fought in the ancient War of the Satyr. Inscribed with Darnassian prayers, it served for millennia as the secret resting place of the Scythe of Elune."
+   "answer": "It is an ancient night elf sanctuary dedicated to Elune and named for Mel'Thandris. The Tome of Mel'Thandris kept there records events that may explain why the wolf-men have come."
   },
   {
    "q": "Where did the worgen here come from?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The defilement of Mel'Thandris's shrine and the tragic missteps of Velinde Starsong serve as a bitter reminder of the perils of meddling with forbidden, primal magics."
+   "text": "The defilement of Mel'Thandris's shrine is a bitter wound for the kaldorei, a sacred place of Elune now overrun by savage wolf-men."
   },
   {
    "target": "class:Druid",
-   "text": "The feral packlords roaming the cave bear an ancient, cursed tie to forbidden shapeshifting traditions originating during the War of the Satyr."
+   "text": "The feral wolf-men roaming the cave are a dark mirror of druidic shapeshifting, savage beasts whose arrival in Ashenvale remains a mystery to the Sentinels."
   }
  ],
  "keywords": [

@@ -70,10 +70,9 @@
   {
    "q": "Does Kadrak have ties to other notable Horde figures?",
    "aliases": [
-    "kadrak connections",
-    "kadrak and shatterskull"
+    "kadrak connections"
    ],
-   "answer": "Kadrak has ties to frontline Horde officers, including Captain Shatterskull, and maintains regular communication with the Warsong Outriders operating within Ashenvale."
+   "answer": "Kadrak maintains regular communication with the Warsong Outriders operating within Ashenvale, receiving their scouting reports at the Rampart."
   }
  ],
  "angles": [
@@ -111,8 +110,7 @@
   "quest:6541",
   "quest:6543",
   "quest:3514",
-  "subzone:splintertree-post",
-  "npc:captain-shatterskull"
+  "subzone:splintertree-post"
  ],
  "attribution": [
   "Kadrak"

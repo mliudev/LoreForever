@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Mosh'Ogg Ogre Mound"
  },
- "summary": "The Mosh'Ogg Ogre Mound is a fortified cavern complex in northern Stranglethorn Vale, situated just south of the ruins of Zul'Gurub. It serves as the primary stronghold for the brute Mosh'Ogg tribe in the jungle, dominated by their ruthless ogre mage chieftain, Mai'Zoth. Long before the ogres made it their home, the mound was a sacred site containing a shrine dedicated to the loa Lukou.",
+ "summary": "The Mosh'Ogg Ogre Mound is a fortified cavern complex in northern Stranglethorn Vale, situated just south of the ruins of Zul'Gurub. It serves as the primary stronghold for the brute Mosh'Ogg tribe in the jungle, dominated by their ruthless ogre mage chieftain, Mai'Zoth.",
  "sections": [
   {
-   "title": "A Den of Ogres and Ancient Faith",
-   "body": "Carved into the rugged jungle ridges south of Zul'Gurub, the Mosh'Ogg Ogre Mound swarms with brutish Mosh'Ogg maulers, shamans, and warmongers. The ogres seized the cavernous network as an ideal redoubt against hostile jungle trolls and prowling beasts. Yet beneath the crudeness of their settlement lies older history: before the Darkspear tribe departed the southern jungles, this cavern served as a sacred hollow holding a shrine to Lukou, the loa of healing and life. With the departure of the trolls, the shrine fell into neglect, allowing the ogres to claim the subterranean labyrinth for themselves.",
+   "title": "A Den of Ogres",
+   "body": "Carved into the rugged jungle ridges south of Zul'Gurub, the Mosh'Ogg Ogre Mound swarms with brutish Mosh'Ogg maulers, shamans, and warmongers. The ogres seized the cavernous network as an ideal redoubt against hostile jungle trolls and prowling beasts.",
    "spoiler": 0
   },
   {
@@ -40,15 +40,6 @@
    "answer": "The Mind's Eye is a potent magical artifact held by the ogre mage Mai'Zoth within the mound. Its strange arcane power fuels his sorcery and leadership over the local ogres."
   },
   {
-   "q": "What was the mound used for before the ogres moved in?",
-   "aliases": [
-    "mound history",
-    "lukou shrine",
-    "troll cave history"
-   ],
-   "answer": "Before the ogres moved in, the cave was a place of worship housing a shrine to Lukou, the loa of healing. It was primarily venerated by the jungle trolls, including the Darkspear tribe, before they fled Stranglethorn Vale."
-  },
-  {
    "q": "Where is the mound located?",
    "aliases": [
     "where is mosh'ogg ogre mound",
@@ -60,16 +51,11 @@
  ],
  "angles": [
   {
-   "target": "race:Troll",
-   "text": "The cavern once housed a revered shrine to the healing loa Lukou, though its worship waned after your people were forced to abandon their ancestral jungle lands."
-  },
-  {
    "target": "class:Mage",
    "text": "The ogre mage Mai'Zoth wields the Mind's Eye deep within the mound, possessing raw arcane energy unusual for brute ogres."
   }
  ],
  "keywords": [
-  "lukou",
   "mai'zoth",
   "mind's eye",
   "mosh'ogg",
@@ -80,8 +66,7 @@
  ],
  "related": [
   "zone:stranglethorn",
-  "subzone:zul-gurub",
-  "topic:darkspear-tribe"
+  "subzone:zul-gurub"
  ],
  "attribution": [
   "Mosh'Ogg Ogre Mound"

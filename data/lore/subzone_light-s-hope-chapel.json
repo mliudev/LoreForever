@@ -7,16 +7,11 @@
  "meta": {
   "wiki": "Light's Hope Chapel"
  },
- "summary": "Light's Hope Chapel is a sacred sanctuary situated in the eastern reaches of the Plaguelands, serving as the primary redoubt and headquarters for the Argent Dawn. Once a secluded shrine of the Church of the Holy Light in the Eastweald, it now stands as an enduring bulwark against the Scourge. Beneath its consecrated soil lie the remains of a thousand fallen heroes of Lordaeron, protected from the Lich King's necromancy.",
+ "summary": "Light's Hope Chapel is a sacred sanctuary situated in the eastern reaches of the Plaguelands, serving as the primary redoubt and headquarters for the Argent Dawn. Once a secluded shrine of the Church of the Holy Light in the Eastweald, it now stands as an enduring bulwark against the Scourge.",
  "sections": [
   {
    "title": "A Bastion in the Plaguelands",
-   "body": "Originally founded centuries ago as an outpost of the Church of the Holy Light within the verdant Eastweald, Light's Hope Chapel endured the fall of Lordaeron to become a vital shelter in a blighted realm. When the zealous extremists among the survivors splintered to form the Scarlet Crusade, more temperate knights and priests banded together to establish the Argent Dawn. Choosing this secluded, hallowed site as their forward base of operations, the Dawn opened its doors to all races and factions\u2014Alliance and Horde alike\u2014united in the common crusade to purge the Scourge and reclaim the northern lands.",
-   "spoiler": 0
-  },
-  {
-   "title": "The Consecrated Crypts",
-   "body": "The strategic importance of Light's Hope Chapel goes far deeper than its surface fortifications. Following the Third War, Lord Maxwell Tyrosus and his comrades carried out a clandestine, solemn mission across Lordaeron, unearthing the bodies of a thousand revered heroes of the Light and reinterring them within the catacombs beneath the chapel. This mass reburial was enacted specifically to safeguard their sacred remains and righteous souls from being corrupted and raised into the Lich King's armies. As a result, the ground here radiates a profound holy power that the Scourge has repeatedly sought\u2014and failed\u2014to extinguish.",
+   "body": "Originally founded centuries ago as an outpost of the Church of the Holy Light within the verdant Eastweald, Light's Hope Chapel endured the fall of Lordaeron to become a vital shelter in a blighted realm. When the zealous extremists among the survivors splintered to form the Scarlet Crusade, more temperate knights and priests banded together to establish the Argent Dawn. Choosing this secluded, hallowed site as their forward base of operations, the Dawn opened its doors to all races and factions\u2014Alliance and Horde alike2014united in the common crusade to purge the Scourge and reclaim the northern lands.",
    "spoiler": 0
   }
  ],
@@ -37,7 +32,7 @@
     "argent dawn leader",
     "lord tyrosus"
    ],
-   "answer": "Lord Maxwell Tyrosus leads the Argent Dawn from Light's Hope Chapel, having stepped up after the death of the order's first leader, Lord Raymond George. Tyrosus personally led the efforts to inter Lordaeron's fallen heroes in the chapel's catacombs and successfully repelled significant Scourge incursions against the outpost."
+   "answer": "Lord Maxwell Tyrosus leads the Argent Dawn from Light's Hope Chapel, directing the order's war against the Scourge across the Plaguelands."
   },
   {
    "q": "Why is this chapel so sacred?",
@@ -46,7 +41,7 @@
     "why does the scourge want lights hope",
     "sanctum beneath chapel"
    ],
-   "answer": "Beyond being an ancient holy site built during the early expansion of the Church of the Holy Light, the catacombs beneath the building hold the recovered remains of a thousand fallen champions of Lordaeron. The concentrated holy essence interred in the sacred ground shields these souls from being raised into undeath by the Lich King."
+   "answer": "Light's Hope Chapel is one of the oldest and most revered holy sites of the Church of the Holy Light in the Eastweald. Its hallowed ground now shelters the Argent Dawn's headquarters, a rare beacon of the Light deep within the Scourge-held Plaguelands."
   },
   {
    "q": "What relationship does the chapel have with the Scarlet Crusade?",
@@ -61,7 +56,7 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For holy warriors, Light's Hope Chapel is a sacred beacon in a sea of death, housing the consecrated tombs of the Silver Hand's greatest fallen champions."
+   "text": "For holy warriors, Light's Hope Chapel is a sacred beacon in a sea of death, an ancient shrine of the Light held by the Argent Dawn."
   },
   {
    "target": "faction:Horde",
@@ -75,7 +70,6 @@
   "holy light",
   "lights hope",
   "plaguelands",
-  "sanctum of light",
   "tyrosus"
  ],
  "related": [

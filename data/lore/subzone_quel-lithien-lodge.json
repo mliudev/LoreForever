@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Quel'Lithien Lodge"
  },
- "summary": "Quel'Lithien Lodge is an isolated high elven refuge nestled in the forested northern hills of the Eastern Plaguelands near the border of Quel'Thalas. Led by Renthar Hawkspear, its Farstrider rangers are exiles from their homeland who reject the radical magical practices adopted by their kin in Silvermoon. Surrounded by the Scourge and hunted by Forsaken scouts, the lodge clings to survival while guarding centuries-old elven archives.",
+ "summary": "Quel'Lithien Lodge is an isolated high elven hunting lodge nestled in the forested northern hills of the Eastern Plaguelands near the entrance to Quel'Thalas. Its Farstrider rangers hold out among the blighted woods, surrounded by the Scourge and hunted by Forsaken agents, while guarding old elven archives.",
  "sections": [
   {
-   "title": "A Bitter Exile",
-   "body": "Before the Third War, Quel'Lithien was a favored woodland retreat for the Farstriders of Quel'Thalas, frequently visited by veteran rangers like Lor'themar Theron. Its fortune soured when the elven kingdom was ravaged by the Scourge and new magical teachings were brought back to ease the survivors' withdrawal. Renthar Hawkspear and a cohort of rangers fiercely objected to these dubious methods on moral grounds. Unwilling to endure internal discord while struggling to rebuild, Regent Lord Lor'themar banished the dissenters south. Renthar led his followers to Quel'Lithien Lodge, where they maintain their high elven identity, severed from their home yet resolutely standing apart from the corrupted ruins surrounding them.",
+   "title": "A Ranger Camp in the Blight",
+   "body": "Before the Third War, Quel'Lithien was a commonly visited Farstrider camp on the road toward Quel'Thalas, and it housed a number of elven documents, including records of the rangers and the royal family. The lodge fell on hard times after the Scourge swept through Lordaeron and into the elven kingdom. Today its rangers keep their vigil in the corrupted forest, one of only two major concentrations of high elves left in Lordaeron.",
    "spoiler": 0
   },
   {
    "title": "Hunted in the Plaguelands",
-   "body": "The rangers' quiet vigil has not gone unnoticed. Deep within the tainted woods, Nathanos Blightcaller\u2014once the solitary human Ranger Lord trained alongside these very elves\u2014has directed Horde champions to infiltrate Quel'Lithien Lodge. Nathanos seeks the Quel'Thalas Registry, an official record containing details of the ranger order and elven lineages, ordering the slaughter of the lodge's defenders to retrieve it. Cut off from Silvermoon and refusing aid, the rangers at Quel'Lithien find themselves besieged by former allies and the surrounding undead alike.",
+   "body": "The rangers' quiet vigil has not gone unnoticed. Deep within the tainted woods, Nathanos Blightcaller\u2014once the solitary human Ranger Lord trained alongside these very elves\u2014has directed Horde champions to infiltrate Quel'Lithien Lodge. Nathanos seeks the Quel'Thalas Registry, an official record containing details of the ranger order and elven lineages, ordering the slaughter of the lodge's defenders to retrieve it. The rangers at Quel'Lithien find themselves besieged by former allies and the surrounding undead alike.",
    "spoiler": 1
   }
  ],
@@ -28,16 +28,7 @@
     "who lives at quel'lithien",
     "quellithien elves"
    ],
-   "answer": "The lodge's inhabitants are Farstriders and priests who were banished from Quel'Thalas by Regent Lord Lor'themar Theron. They refused to adopt the dark, desperate methods taught to cope with the destruction of the Sunwell, choosing exile over what they viewed as a moral corruption of their people."
-  },
-  {
-   "q": "Who leads Quel'Lithien Lodge?",
-   "aliases": [
-    "quellithien leader",
-    "renthar hawkspear",
-    "who is renthar"
-   ],
-   "answer": "The lodge is led by Renthar Hawkspear, a veteran elven ranger captain who commanded hunters here as far back as the Second War. Following his disagreement with Silvermoon's leadership, he guided the exiled dissenters to the lodge to make a stand together."
+   "answer": "The lodge has long been a Farstrider camp. Its high elven rangers remain here even after the Scourge laid waste to the region, holding one of the last elven footholds in Lordaeron near the road to Quel'Thalas."
   },
   {
    "q": "Are the elves at Quel'Lithien Lodge part of the Alliance?",
@@ -76,18 +67,15 @@
   }
  ],
  "keywords": [
-  "aurora skycaller",
   "farstrider",
   "high elves",
   "marris stead",
   "quel'lithien",
   "quel'thalas registry",
-  "quellithien",
-  "renthar hawkspear"
+  "quellithien"
  ],
  "related": [
   "npc:nathanos-blightcaller",
-  "npc:lor-themar-theron",
   "zone:easternplaguelands",
   "topic:scourge",
   "topic:lordaeron",

@@ -41,7 +41,7 @@
     "who starts bloodfury bloodline",
     "maggran earthbinder quest"
    ],
-   "answer": "The quest is provided by Maggran Earthbinder, a tauren shaman located near the pool of water inside Sun Rock Retreat."
+   "answer": "The quest is provided by Maggran Earthbinder, the tauren leader of Sun Rock Retreat, found near the pool of water inside Sun Rock Retreat."
   },
   {
    "q": "What prerequisite must be finished before this hunt unlocks?",
@@ -92,7 +92,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Stonetalon's scarred landscape pains the tauren, and removing the violent harpy queen allows local shamans like Maggran to turn their minds back to harmony and healing."
+   "text": "Stonetalon's scarred landscape pains the tauren, and removing the violent harpy queen allows local elders like Maggran to turn their minds back to harmony and healing."
   },
   {
    "target": "faction:Horde",

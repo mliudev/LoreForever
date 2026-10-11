@@ -26,7 +26,7 @@
   },
   {
    "title": "Echoes of the Ancient Past",
-   "body": "Long before human kingdoms crowned their first monarchs, the Glades bore an ancient legacy. In the ancient tongue of the vrykul, 'Tirisfal' translates to 'Tyr's Fall,' christened after the heroic titan keeper Tyr fought to the death against colossal cosmic horrors. In subsequent eras, high elven exiles briefly tried to settle these woods before shadowy energies deep beneath the earth began driving them mad, prompting their migration north. In later centuries, the secret mortal cabal known as the Council of Tirisfal chose these shadowed groves to empower solitary Guardians, shielding Azeroth from demonic intrusion.",
+   "body": "Long before human kingdoms crowned their first monarchs, the Glades bore an ancient legacy. High elven exiles briefly tried to settle these woods before shadowy energies deep beneath the earth began driving them mad, prompting their migration north. In later centuries, the secret mortal cabal known as the Council of Tirisfal chose these shadowed groves to empower solitary Guardians, shielding Azeroth from demonic intrusion.",
    "spoiler": 0
   }
  ],
@@ -62,10 +62,9 @@
    "q": "Where does the name Tirisfal come from?",
    "aliases": [
     "tirisfal meaning",
-    "tyrs fall",
     "origin of tirisfal"
    ],
-   "answer": "The region is named in honor of the titan keeper Tyr. According to legend, Tyr fell in battle against eldritch horrors in this glade. In the ancient vrykul tongue, 'Tyr's Fall' evolved into the name 'Tirisfal,' and the keeper's silver hand became an emblem woven deeply into early human mythology."
+   "answer": "The name is older than any human kingdom, and its true origin has been lost to history. It is best known through the Council of Tirisfal, the secret order of magi that empowered the Guardians to shield Azeroth from demons."
   },
   {
    "q": "Where do newly awakened Forsaken begin their journey?",
@@ -115,7 +114,6 @@
   "scarlet crusade",
   "sylvanas",
   "tirisfal",
-  "tyr",
   "undercity"
  ],
  "related": [

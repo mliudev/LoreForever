@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Lion's Pride Inn"
  },
- "summary": "The Lion's Pride Inn is the bustling tavern and community center of Goldshire in Elwynn Forest. Kept for generations by the Farley family, it serves as the primary resting place, meeting hall, and hiring house for travelers venturing just south of Stormwind City.",
+ "summary": "The Lion's Pride Inn is the bustling tavern and community center of Goldshire in Elwynn Forest. Kept by Innkeeper Farley, it serves as the primary resting place, meeting hall, and hiring house for travelers venturing just south of Stormwind City.",
  "sections": [
   {
    "title": "Heart of Goldshire",
-   "body": "Standing at the crossroads of Elwynn Forest, the Lion's Pride Inn is Goldshire's lively centerpiece. Operated by Innkeeper Farley under the tavern's traditional motto\u2014'Rest and relaxation for the tired and cold'\u2014the inn offers warm hearths, strong drinks, and rooms for weary adventurers fresh out of Northshire. Farley's family has managed the establishment with pride for generations, dating back through the reign of King Llane Wrynn I. Because Goldshire lies along the vital trade routes between Stormwind, Westfall, Redridge, and Duskwood, the tavern serves as an indispensable rallying point where town marshals, local crafters, and seasoned trainers gather to share news and contract passing mercenaries.",
+   "body": "Standing at the crossroads of Elwynn Forest, the Lion's Pride Inn is Goldshire's lively centerpiece. Operated by Innkeeper Farley under the tavern's traditional motto\u2014'Rest and relaxation for the tired and cold'\u2014the inn offers warm hearths, strong drinks, and rooms for weary adventurers fresh out of Northshire. Because Goldshire lies along the vital trade routes between Stormwind, Westfall, Redridge, and Duskwood, the tavern serves as an indispensable rallying point where town marshals, local crafters, and seasoned trainers gather to share news and contract passing mercenaries.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who owns lions pride",
     "who runs goldshire inn"
    ],
-   "answer": "The inn is operated by Innkeeper Farley. His family has maintained and run the Lion's Pride Inn as an above-board business for generations, dating back to before the First War in the era of King Llane Wrynn I."
+   "answer": "The inn is operated by Innkeeper Farley, who welcomes weary travelers under the motto 'Rest and relaxation for the tired and cold.'"
   },
   {
    "q": "What services are available inside the inn?",

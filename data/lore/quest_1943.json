@@ -10,7 +10,7 @@
   ],
   "level": "26",
   "faction": "Horde",
-  "start": "Anastasia Hartwell, Quithas",
+  "start": "Anastasia Hartwell",
   "end": "Deino",
   "previous": null,
   "next": "Waters of Xavian",
@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Summons to Orgrimmar",
-   "body": "As practitioners of the arcane hone their abilities within the Horde, instructors in Undercity and Kalimdor recognize when a student is prepared for more demanding ventures. Mentors like Anastasia Hartwell in the Undercity or Quithas in Durotar point developing mages toward Orgrimmar. There, tucked away in the troll-dominated quarter, more specialized knowledge and perilous errands await.",
+   "body": "As practitioners of the arcane hone their abilities within the Horde, instructors recognize when a student is prepared for more demanding ventures. Mentors like Anastasia Hartwell in the Undercity point developing mages toward Orgrimmar. There, tucked away in the troll-dominated quarter, more specialized knowledge and perilous errands await.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "who starts this",
     "where do i get speak with deino"
    ],
-   "answer": "Mage trainers such as Anastasia Hartwell in the Magic Quarter of Undercity and Quithas in Durotar send aspiring mages to Orgrimmar once they reach sufficient skill."
+   "answer": "Mage trainers such as Anastasia Hartwell in the Magic Quarter of Undercity send aspiring mages to Orgrimmar once they reach sufficient skill."
   },
   {
    "q": "Where can I find Deino?",

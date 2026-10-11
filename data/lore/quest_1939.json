@@ -17,7 +17,7 @@
   "wiki": "High Sorcerer Andromath (quest)",
   "chain": []
  },
- "summary": "High Sorcerer Andromath is a short summons directing Alliance mages to report to the summit of the Wizard's Sanctum in Stormwind. High Sorcerer Andromath stands as one of the kingdom's preeminent archmages remaining outside the secluded remnants of Dalaran.",
+ "summary": "High Sorcerer Andromath is a short summons directing Alliance mages to report to the summit of the Wizard's Sanctum in Stormwind. High Sorcerer Andromath stands as one of the kingdom's preeminent archmages outside the ruined city of Dalaran.",
  "sections": [
   {
    "title": "Summons to the Tower",
@@ -26,7 +26,7 @@
   },
   {
    "title": "A Master Outside Dalaran",
-   "body": "With the northern magocracy of Dalaran ruined in the Third War and its surviving wizards sealed away beneath an opaque, shimmering violet dome, practitioners like Andromath hold vital strategic importance. Without easy access to the libraries of the Violet Citadel, the Alliance relies directly on senior archmages stationed within Stormwind to study ancient threats and direct research into shadowy, forbidden arts.",
+   "body": "With the northern magocracy of Dalaran ruined in the Third War and its surviving wizards consumed by the work of rebuilding it, practitioners like Andromath hold vital strategic importance. Without easy access to the libraries of the Violet Citadel, the Alliance relies directly on senior archmages stationed within Stormwind to study ancient threats and direct research into shadowy, forbidden arts.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "andromath lore",
     "stormwind high sorcerer"
    ],
-   "answer": "High Sorcerer Andromath is an esteemed senior mage residing at the very top of the Wizard's Sanctum in Stormwind. He is recognized by his peers as one of the most powerful and knowledgeable spellcasters active in the world who is not enclosed within Dalaran."
+   "answer": "High Sorcerer Andromath is an esteemed senior mage residing at the very top of the Wizard's Sanctum in Stormwind. He is recognized by his peers as one of the most powerful and knowledgeable spellcasters active in the world outside Dalaran."
   },
   {
    "q": "Where can I find High Sorcerer Andromath?",
@@ -72,7 +72,7 @@
     "dalaran status",
     "what happened to dalaran"
    ],
-   "answer": "Following its devastation by the Burning Legion during the Third War, the surviving wizards of the Kirin Tor erected an impenetrable protective magical shield over the city while they reconstruct it, cutting themselves off from most outward affairs."
+   "answer": "Jennea's phrase reflects how withdrawn the Kirin Tor have been since the Third War. After the Scourge and the Burning Legion devastated their city, Dalaran's surviving wizards turned inward to rebuild it, leaving few of them involved in outside affairs."
   },
   {
    "q": "Is this quest exclusive to mages?",
@@ -90,7 +90,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "With northern allies cut off behind Dalaran's protective bubble, the Alliance depends heavily on Stormwind's own Sanctum to train mages and counter supernatural threats."
+   "text": "With Dalaran's surviving magi absorbed in rebuilding their ruined city, the Alliance depends heavily on Stormwind's own Sanctum to train mages and counter supernatural threats."
   }
  ],
  "keywords": [

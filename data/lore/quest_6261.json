@@ -43,7 +43,7 @@
     "who is dungar",
     "stormwind gryphon master"
    ],
-   "answer": "Dungar Longdrink is Stormwind City's gryphon master, stationed right outside the Trade District near the flight roost. He manages the capital's courier beasts and oversees passenger travel throughout Alliance territories in southern Lordaeron and Azeroth."
+   "answer": "Dungar Longdrink is Stormwind City's gryphon master, stationed at the flight roost in the Trade District. He manages the capital's courier beasts and oversees passenger travel throughout Alliance territories in southern Lordaeron and Azeroth."
   },
   {
    "q": "Why is Osric sending this crate via gryphon?",
@@ -97,7 +97,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven handlers like Dungar Longdrink and Thor are responsible for extending their ancestral bond with gryphons into the heart of the human kingdom."
+   "text": "Human handlers like Dungar Longdrink and Thor carry the dwarves' ancestral bond with gryphons into the heart of the human kingdom."
   },
   {
    "target": "race:Human",

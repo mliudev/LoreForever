@@ -5,6 +5,9 @@
 #   LoreForever_Voice_Default/   the default narration voice pack: its .toc, the files that .toc loads, CREDITS.txt
 #                                and the recordings under Audio/ (WoW plays those by path, so they're never in a .toc)
 #   LoreForever_Voice_Default_Alliance/, _Horde/    the default voice's lands packs (every subzone and NPC narration)
+# A story whose current complete recording (Transport.json, whole-recording-v1) is what the add-on plays leaves its
+# shorter overview recording out of the zip; addon/ keeps both. The pack's sample clip keeps its overview. That keeps
+# the zip under CurseForge's 480 MiB per file, and the build fails if it isn't.
 # Packs that ship in the main download are listed in PACKS below. Nothing else goes in, so pipeline code,
 # eval data and key helpers can never slip into the zip. Every folder gets the same checks: Interface 16001, no
 # missing files, notes for files left out, audio paths named in the code exist, and a secret scan. Shipped packs
@@ -21,13 +24,14 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
   || { echo "${0##*/}: this worktree is sparse; run 'git sparse-checkout disable' here first, or use" \
          "~/git/lore-forever" >&2; exit 1; }
 exec python3 - "$ROOT" "$@" <<'PY'
-import hashlib, multiprocessing, re, sys, zipfile
+import atexit, hashlib, multiprocessing, re, shutil, sys, tempfile, zipfile
 from collections import defaultdict
 from pathlib import Path
 
 root = Path(sys.argv[1])
 sys.path.insert(0, str(root / "scripts"))
-from transport_assets import TransportError, validate as validate_transport
+from transport_assets import (TransportError, index_fullclips, pause_split, pause_split_coverage, split_note,
+                              validate as validate_transport, whole_replaces_overview)
 from load_order import LoadError, addon_files   # the .toc and the XML load files it lists, as the client reads them
 addons = root / "addon"
 dist = root / "dist"
@@ -41,7 +45,8 @@ PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "Lor
 # LoreForever_Voice_<Default|Female>_Quests_<locale>) until they're recorded, and every other question and answer
 # (LOR-227, lore.answers: LoreForever_Voice_<Default|Female>_Answers_<Part>[_<locale>]) until its renders land.
 RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR",
-                 "LoreForever_Lang_ruRU", "LoreForever_Lang_ukUA", "LoreForever_Voice_Default_ukUA",
+                 "LoreForever_Lang_ruRU", "LoreForever_Lang_ukUA", "LoreForever_Lang_itIT",
+                 "LoreForever_Voice_Default_ukUA",
                  "LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio",
                  "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female",
                  "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde",
@@ -88,17 +93,24 @@ if sys.argv[2:]:
     sys.exit(f"build-release: unknown arguments: {' '.join(sys.argv[2:])} (the one zip carries every bundled pack; "
              "there's no --complete build any more)")
 AUDIO = {".mp3", ".ogg"}
-MAX_ZIP = 2 * 1024**3   # CurseForge's per-file limit
+MAX_ZIP = 480 * 1024**2   # CurseForge's per-file upload limit
 
 def fail(msg):
     sys.exit(f"build-release: {msg}")
 
-def read_toc(folder):
-    toc = addons / folder / f"{folder}.toc"
+# A clip id's recording name, as the add-on derives it (Voice.ClipPath, lore.clips.stem): zone:stormwind#faq3 ->
+# zone_stormwind__faq3.
+def stem(clip_id):
+    base, sep, part = clip_id.partition("#")
+    return re.sub(r"[^\w\-]", "_", base) + (f"__{part}" if sep else "")
+
+def read_toc(folder, where=None):
+    where = where or addons / folder
+    toc = where / f"{folder}.toc"
     if not toc.is_file():
-        fail(f"missing {toc.relative_to(root)}")
+        fail(f"missing {toc}")
     try:
-        meta, lua, xml = addon_files(addons / folder)
+        meta, lua, xml = addon_files(where)
     except (LoadError, OSError) as e:
         fail(f"{folder}: {e}")
     if meta.get("Interface") != "16001":
@@ -116,10 +128,15 @@ ship[CORE] = [(src / f"{CORE}.toc", f"{CORE}.toc")] + [(src / p, p) for p in lis
 ship[CORE] += [(src / "Bindings.xml", "Bindings.xml"), (root / "release" / "CREDITS.txt", "CREDITS.txt"),
                (src / "THIRD_PARTY.txt", "THIRD_PARTY.txt")]   # licence notices for Data/Vectors_*.lua
 # The lore data's version (ns.DB = { version = "..." } in Data/Index.lua); bundled language packs must match it.
-m = re.search(r'ns\.DB\s*=\s*\{\s*version\s*=\s*"([^"]+)"', (src / "Data" / "Index.lua").read_text(encoding="utf-8"))
+index = (src / "Data" / "Index.lua").read_text(encoding="utf-8")
+m = re.search(r'ns\.DB\s*=\s*\{\s*version\s*=\s*"([^"]+)"', index)
 data_version = m.group(1) if m else fail(f"no ns.DB version in addon/{CORE}/Data/Index.lua")
+fullclips = index_fullclips(index)   # the complete stories this core plays, by hash
 
 VOICE_PACKS = []   # the bundled packs that carry recordings (X-LoreForever-Pack: voice); language packs have none
+REPLACED = {}      # pack -> overview recording stems left out because a current complete story plays instead
+SPLIT = {}         # pack -> recordings shipped as pieces split at their pauses instead (pause and resume)
+STAGE = None       # where those packs' split copies are made (transport_assets.pause_split)
 for pack in PACKS:
     pmeta, plisted = read_toc(pack)
     if pmeta.get("Version") != version:
@@ -130,12 +147,29 @@ for pack in PACKS:
     if kind not in ("voice", "lang"):
         fail(f"{pack}.toc needs '## X-LoreForever-Pack: voice' or 'lang' (has {kind!r})")
     psrc = addons / pack
-    files = [(psrc / f"{pack}.toc", f"{pack}.toc")] + [(psrc / p, p) for p in plisted]
     if kind == "voice":
         try:
-            validate_transport(psrc)
+            manifest = validate_transport(psrc)
+            stories, cut = pause_split_coverage(manifest)
+            # Pause and resume (LOR-346): a recording with cut points (a complete story, an answer, quest dialogue or
+            # an overview) ships as its pieces.
+            if (manifest or {}).get("cuts"):
+                if STAGE is None:
+                    dist.mkdir(exist_ok=True)
+                    STAGE = Path(tempfile.mkdtemp(prefix=".pause-split-", dir=dist))
+                    atexit.register(shutil.rmtree, STAGE, True)
+                psrc, split, SPLIT[pack] = pause_split(psrc, STAGE)
+                if split:
+                    manifest = validate_transport(psrc)
+                    pmeta, plisted = read_toc(pack, psrc)   # it may load Transport.lua now
+                    print(f"{pack}: {split_note(manifest, split)}")
+            if stories and not cut:
+                print(f"{pack}: none of its {stories} complete stories has cut points, so they play whole "
+                      "(cd pipeline && uv run python -m lore.transport cuts ../addon/<pack>)")
         except TransportError as e:
             fail(str(e))
+    files = [(psrc / f"{pack}.toc", f"{pack}.toc")] + [(psrc / p, p) for p in plisted]
+    if kind == "voice":
         VOICE_PACKS.append(pack)
         if (psrc / "Transport.json").is_file():
             files.append((psrc / "Transport.json", "Transport.json"))
@@ -143,6 +177,16 @@ for pack in PACKS:
         audio = [(p, p.relative_to(psrc).as_posix()) for p in sorted((psrc / "Audio").rglob("*")) if p.suffix.lower() in AUDIO]
         if not audio:
             fail(f"{pack} has no recordings in Audio/")
+        # The add-on plays a current complete story in place of its overview (Voice.Transport(key, pack, true)), so
+        # the overview stays out; English packs only (fullclips are English). The sample keeps its short overview
+        # (in pieces, if it's long).
+        whole = whole_replaces_overview(psrc, manifest, fullclips) if pmeta.get("X-LoreForever-Locale", "enUS") == "enUS" else set()
+        REPLACED[pack] = {stem(k).lower() for k in whole - {pmeta.get("X-LoreForever-Sample")}}
+        left = [(p, a) for p, a in audio if Path(a).parent.as_posix() == "Audio" and p.stem.lower() in REPLACED[pack]]
+        if left:
+            audio = [x for x in audio if x not in left]
+            print(f"{pack}: left out {len(left)} overview recordings ({sum(p.stat().st_size for p, _ in left) / 1024**2:.1f} MB)"
+                  " that current complete stories replace")
         files += audio
     elif pmeta.get("X-LoreForever-DataVersion") != data_version:
         fail(f"{pack} was built from lore data {pmeta.get('X-LoreForever-DataVersion')!r}, not the core's "
@@ -175,9 +219,11 @@ text_files = [(path, f"{folder}/{arc}", folder) for folder, files in ship.items(
 
 # Anything in an add-on folder that isn't shipped is probably a mistake worth seeing.
 for folder, files in ship.items():
-    shipped = {p.resolve() for p, _ in files}
+    shipped = {p.resolve() for p, _ in files} | {(addons / folder / a).resolve() for _, a in files}
     for p in sorted((addons / folder).rglob("*")):
-        if p.is_file() and p.resolve() not in shipped:
+        if p.is_file() and p.resolve() not in shipped and not (
+                p.parent == addons / folder / "Audio" and p.stem.lower() in REPLACED.get(folder, ())) and (
+                p.relative_to(addons / folder).as_posix() not in SPLIT.get(folder, ())):
             print(f"note: not shipped: {p.relative_to(root)}")
 
 # The checks below read every text file (~140 MB of Lua) with these patterns. Each file is read and scanned once, by a
@@ -217,21 +263,19 @@ for (path, arc, folder), (refs, _, _) in zip(text_files, scans):
                  + " or ".join(f"addon/{f}/Audio" for f in where))
 
 # A bundled pack's clip list (P.clips["zone:stormwind#faq3"] = "hash", or via a local alias of P.clips) names files
-# by derived path (Audio/zone_stormwind__faq3.mp3): every listed clip needs its recording, and recordings no clip
-# names are noted.
+# by derived path (Audio/zone_stormwind__faq3.mp3): every listed clip needs its recording (or a current complete
+# story in its place, REPLACED, or its pieces, SPLIT), and recordings no clip names are noted.
 # Quest dialogue clips (quest:176#detail, #progress, #complete) live in the voices' quest packs: quest_176__detail.mp3.
-def stem(clip_id):
-    base, sep, part = clip_id.partition("#")
-    return re.sub(r"[^\w\-]", "_", base) + (f"__{part}" if sep else "")
 for pack in VOICE_PACKS:
-    have = {Path(a).stem.lower(): a for a in audio_names[pack] if a.startswith("audio/")}
+    # Audio/Transport/ files are listed in Transport.lua (validated above), not in the clip list.
+    have = {Path(a).stem.lower(): a for a in audio_names[pack] if a.startswith("audio/") and not a.startswith("audio/transport/")}
     named = set()
     for (path, arc, folder), (_, clips, _) in zip(text_files, scans):
         if folder != pack:
             continue
         for cid in clips:
             s = stem(cid).lower()
-            if s not in have:
+            if s not in have and s not in REPLACED[pack] and f"Audio/{stem(cid)}.mp3" not in SPLIT.get(pack, ()):
                 fail(f"{arc} lists clip {cid}, but {pack}/Audio has no {stem(cid)}.mp3 or .ogg")
             named.add(s)
     for s in sorted(set(have) - named):
@@ -266,7 +310,9 @@ for name, (n, raw, packed) in sorted(groups.items()):
     print(f"  {name:<{width}} {n:>4} files  {raw / 1024**2:7.1f} MB -> {packed / 1024**2:6.1f} MB in zip")
 size = out.stat().st_size
 if size > MAX_ZIP:
-    fail(f"{out.name} is {size / 1024**3:.2f} GB; CurseForge takes at most 2 GB per file")
+    out.unlink()   # so no later step uploads it
+    fail(f"{out.name} would be {size / 1024**2:.1f} MiB, over CurseForge's {MAX_ZIP / 1024**2:.0f} MiB per file "
+         f"(sizes above). Move a pack out of PACKS into its own download, or leave more recordings out of the main zip.")
 digest = hashlib.sha256(out.read_bytes()).hexdigest()
 print(f"built {out.relative_to(root)} ({size / 1024**2:.1f} MB) sha256 {digest}")
 PY

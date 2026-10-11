@@ -10,8 +10,8 @@
  "summary": "The Old Gods are colossal, parasitic horrors of flesh and madness that plummeted from the cosmos during Azeroth's primordial dawn. Though vanquished and bound deep beneath the crust by the Titans, their ancient whispers still corrode mortal minds, twist nature, and drive doomsday cults to unearth their prisons.",
  "sections": [
   {
-   "title": "The Black Empire",
-   "body": "Long before mortal records began, Azeroth was dominated by the Black Empire\u2014a terrifying civilization ruled by the Old Gods: Y'Shaarj, C'Thun, Yogg-Saron, and N'Zoth. These colossal mountains of chaotic flesh embedded themselves into the planet's crust, commanding elemental armies and insectoid swarms. When the Titans arrived, their armies fought an apocalyptic war to uproot them. However, when the Titan Aman'Thul ripped Y'Shaarj from the surface, it tore a catastrophic wound into the world's crust, causing the planet's arcane lifeblood to hemorrhage. Realizing that slaying the entities outright would destroy Azeroth itself, the Titans chose to bind the surviving Old Gods in vast, subterranean prisons to keep them dormant forever.",
+   "title": "Masters of the Primordial World",
+   "body": "Long before mortal records began, Azeroth was dominated by the Old Gods, colossal entities of chaotic flesh such as C'Thun. They embedded themselves into the planet's crust, commanding elemental armies and insectoid swarms. When the Titans arrived, their armies fought an apocalyptic war against them. Rather than destroying them, the Titans bound the Old Gods in vast, subterranean prisons to keep them dormant forever.",
    "spoiler": 0
   },
   {
@@ -42,7 +42,7 @@
     "list of old gods",
     "names of old gods"
    ],
-   "answer": "Four great Old Gods ruled primordial Azeroth: Y'Shaarj, C'Thun, Yogg-Saron, and N'Zoth. Y'Shaarj was ripped apart by the Titans, while the remaining three were chained in subterranean vaults across the globe."
+   "answer": "No mortal knows for certain. The best known is C'Thun, imprisoned beneath Ahn'Qiraj in Silithus; others lie chained in subterranean vaults across the globe."
   },
   {
    "q": "Why didn't the Titans just kill them all?",
@@ -51,7 +51,7 @@
     "why imprison old gods",
     "why spare old gods"
    ],
-   "answer": "The Old Gods burrowed so deeply into Azeroth's bedrock that ripping them out proved catastrophic. When Aman'Thul wrenched Y'Shaarj out, it tore an immense, bleeding wound in the planet's crust. Fearing the world's total destruction, the Titans built prisons instead."
+   "answer": "The Old Gods had burrowed so deeply into Azeroth's bedrock that tearing them out risked destroying the world itself, so the Titans built prisons instead."
   },
   {
    "q": "Are the Old Gods connected to Deathwing and the naga?",
@@ -101,16 +101,12 @@
  ],
  "keywords": [
   "ahn'qiraj",
-  "black empire",
   "c'thun",
-  "n'zoth",
   "old god",
   "qiraji",
   "silithus",
   "twilight's hammer",
-  "void",
-  "y'shaarj",
-  "yogg-saron"
+  "void"
  ],
  "related": [
   "subzone:scarab-wall",

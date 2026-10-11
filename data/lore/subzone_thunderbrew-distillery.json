@@ -46,14 +46,6 @@
     "thunderbrew ale reputation"
    ],
    "answer": "The distillery is celebrated throughout the Eastern Kingdoms for crafting exceptionally potent dwarven ales, particularly Thunderbrew Ale. Its brews are known to fortify travelers against the harsh freezing temperatures of the Dun Morogh peaks."
-  },
-  {
-   "q": "Did Chen Stormstout really visit the distillery?",
-   "aliases": [
-    "chen stormstout kharanos",
-    "pandaren thunderbrew"
-   ],
-   "answer": "Yes, dwarven accounts recall the wandering pandaren brewmaster Chen Stormstout visiting the distillery in Kharanos years ago, crossing paths with the Thunderbrew family during his travels across the continent."
   }
  ],
  "angles": [
@@ -77,7 +69,6 @@
  "related": [
   "subzone:kharanos",
   "npc:ragnar-thunderbrew",
-  "npc:grimbooze-thunderbrew",
   "zone:dunmorogh",
   "npc:marleth-barleybrew",
   "quest:117"

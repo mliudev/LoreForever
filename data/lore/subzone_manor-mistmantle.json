@@ -16,7 +16,7 @@
   },
   {
    "title": "The Master of the Estate",
-   "body": "The manor belongs to Stalvan Mistmantle, a former schoolteacher and private tutor whose horrific crimes in Moonbrook and Goldshire became the stuff of dark legend across the kingdom. Now an agent of the undead, Stalvan lurks in the upper floor of his family home, surrounded by remnants of his slaughtered victims and guarded by shambling horrors. Travelers and investigators from Darkshire frequently find that the trail of Duskwood's most notorious phantom ends at this blood-soaked manor.",
+   "body": "The manor belongs to Stalvan Mistmantle, a former schoolteacher and private tutor whose horrific crimes against the family of his student Tilloa became the stuff of dark legend across the kingdom. Now an agent of the undead, Stalvan lurks in the upper floor of his family home, surrounded by remnants of his slaughtered victims and guarded by shambling horrors. Travelers and investigators from Darkshire frequently find that the trail of Duskwood's most notorious phantom ends at this blood-soaked manor.",
    "spoiler": 1
   }
  ],
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance investigators tracking the grim fate of the Moonbrook and Goldshire victims, Manor Mistmantle is the tragic final destination of the Legend of Stalvan."
+   "text": "For Alliance investigators tracking the grim fate of Stalvan's victims, Manor Mistmantle is the tragic final destination of the Legend of Stalvan."
   }
  ],
  "keywords": [

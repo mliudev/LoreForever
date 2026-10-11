@@ -1,7 +1,7 @@
 {
  "key": "quest:3741",
  "type": "quest",
- "name": "Nida's Necklace",
+ "name": "Hilary's Necklace",
  "era": "classic",
  "zone": "redridge",
  "meta": {
@@ -11,17 +11,17 @@
   "level": "",
   "faction": "Alliance",
   "start": "Shawn",
-  "end": "Nida",
+  "end": "Hilary",
   "previous": null,
   "next": null,
   "wiki": "Nida's Necklace (quest)",
   "chain": []
  },
- "summary": "While fishing on the docks of Lakeshire, young Nida lost a cherished necklace given to her by her father. Forbidden by their parents from braving the treacherous waters of Lake Everstill, her friend Shawn asks passing adventurers to dive in and retrieve the sunken keepsake.",
+ "summary": "While fishing on the docks of Lakeshire, young Hilary lost a cherished necklace given to her by her father. Forbidden by their parents from braving the treacherous waters of Lake Everstill, her friend Shawn asks passing adventurers to dive in and retrieve the sunken keepsake.",
  "sections": [
   {
    "title": "A Day at the Docks",
-   "body": "Lakeshire's children often spend their days fishing along the lakefront, trying to carry on a normal childhood amidst the mounting threats encircling the Redridge Mountains. During one of these outings, young Nida accidentally dropped her treasured necklace into the depths of Lake Everstill. Having searched the wooden piers and shores in vain, her companion Shawn turns to capable adventurers for help.",
+   "body": "Lakeshire's children often spend their days fishing along the lakefront, trying to carry on a normal childhood amidst the mounting threats encircling the Redridge Mountains. During one of these outings, young Hilary accidentally dropped her treasured necklace into the depths of Lake Everstill. Having searched the wooden piers and shores in vain, her companion Shawn turns to capable adventurers for help.",
    "spoiler": 0
   },
   {
@@ -36,12 +36,13 @@
    "aliases": [
     "who is nida",
     "who lost it",
-    "necklace owner"
+    "necklace owner",
+    "who is hilary"
    ],
-   "answer": "The necklace belongs to Nida, a young girl living in Lakeshire. It was a special present given to her by her father, which is why its loss upsets her so much."
+   "answer": "The necklace belongs to Hilary, a young girl living in Lakeshire. It was a special present given to her by her father, which is why its loss upsets her so much."
   },
   {
-   "q": "Why can't Shawn or Nida swim down and get it themselves?",
+   "q": "Why can't Shawn or Hilary swim down and get it themselves?",
    "aliases": [
     "why not get it themselves",
     "why kids not swimming"
@@ -61,9 +62,10 @@
    "q": "Who is Effsee?",
    "aliases": [
     "effsee",
-    "nida cat"
+    "nida cat",
+    "hilary cat"
    ],
-   "answer": "Effsee is Nida's pet kitten who keeps her company in Lakeshire and happily joins her in thanking travelers who recover her necklace."
+   "answer": "Effsee is Hilary's pet kitten who keeps her company in Lakeshire and happily joins her in thanking travelers who recover her necklace."
   },
   {
    "q": "Who starts the request to find the necklace?",
@@ -71,7 +73,7 @@
     "who gives quest",
     "shawn role"
    ],
-   "answer": "Shawn, Nida's friend who was fishing alongside her on the docks, approaches travelers on her behalf because he knows how much the gift means to her."
+   "answer": "Shawn, Hilary's friend who was fishing alongside her on the docks, approaches travelers on her behalf because he knows how much the gift means to her."
   },
   {
    "q": "Why does this task matter to Lakeshire?",
@@ -91,6 +93,7 @@
  "keywords": [
   "effsee",
   "glinting mud",
+  "hilary",
   "lake everstill",
   "lakeshire",
   "necklace",

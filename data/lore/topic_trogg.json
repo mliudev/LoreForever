@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "The Flawed Predecessors",
-   "body": "Long before mortal races recorded history, the titan-forged keepers sought to fashion servants from stone using the Forge of Wills. Their initial design went awry, yielding stone-skinned brutes of low intelligence and unbridled savagery. Distressed by their botched creations, the keepers refined the matrix into the earthen race, who would eventually become the ancestors of the dwarves. Unwilling to annihilate the imperfect troggs, the giantess Ironaya sealed them deep underground within the vault of Uldaman, intending for them to remain trapped in eternal stasis.",
+   "body": "Long before mortal races recorded history, the titan-forged keepers sought to fashion servants from stone. Their initial design went awry, yielding stone-skinned brutes of low intelligence and unbridled savagery. Distressed by their botched creations, the keepers refined the matrix into the earthen race, who would eventually become the ancestors of the dwarves. Unwilling to annihilate the imperfect troggs, the giantess Ironaya sealed them deep underground within the vault of Uldaman, intending for them to remain trapped in eternal stasis.",
    "spoiler": 0
   },
   {
@@ -41,7 +41,7 @@
     "are dwarves and troggs related",
     "trogg dwarf connection"
    ],
-   "answer": "Yes. Both races trace their origins to the Forge of Wills. Troggs represent the keepers' unrefined first draft, while the earthen\u2014who later succumbed to the Curse of Flesh and became dwarves\u2014were the perfected second iteration."
+   "answer": "Yes. Both races were shaped by the titans' keepers. Troggs represent the keepers' unrefined first draft, while the earthen\u2014the ancestors of the dwarves\u2014were the perfected second iteration."
   },
   {
    "q": "How did troggs capture Gnomeregan?",
@@ -99,7 +99,6 @@
  "keywords": [
   "caverndeep",
   "earthen",
-  "forge of wills",
   "gnomeregan",
   "grubbis",
   "oggleflint",

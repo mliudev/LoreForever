@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Master of the Great Forge",
-   "body": "Positioned right beside the roaring fires of the Great Forge, Tormus Deepforge oversees substantial metalworking tasks on behalf of the Bronzebeard clan. Beyond hammering steel himself, Tormus serves as a vital logistics contact for smiths and outposts in need of raw iron, arranging supplies for besieged settlements like Lakeshire in Redridge and coordinating with dwarven excavation teams such as Ironband's Compound in Loch Modan.",
+   "body": "Positioned right beside the roaring fires of the Great Forge, Tormus Deepforge oversees substantial metalworking tasks on behalf of the Bronzebeard clan. Beyond hammering steel himself, Tormus mourns his mentor, Sturgy Ironband, whose smithing compound south of Helm's Bed Lake in eastern Dun Morogh was overrun by Dark Iron dwarves after a load of strange umbral ore arrived there.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "tormus purpose",
     "why talk to tormus"
    ],
-   "answer": "Tormus handles orders for military hardware and raw metal. He directs travelers to deliver weapons and tools to outposts that desperately need them, including human lands like Redridge that are facing mounting assaults."
+   "answer": "Tormus forges weapons for young warriors sent to him at the Great Forge. In return he asks them to avenge his mentor, Sturgy Ironband, by entering Ironband's Compound in Dun Morogh and recovering the umbral ore the Dark Iron dwarves killed for, which he then works into new grey iron weapons."
   },
   {
    "q": "Who are the other Deepforges?",
@@ -62,8 +62,6 @@
   "great forge",
   "ironforge",
   "lochinver",
-  "redridge",
-  "supplying the front",
   "tormus"
  ],
  "related": [

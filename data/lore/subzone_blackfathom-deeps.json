@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "From Elune's Temple to Darkest Abyss",
-   "body": "Before the Great Sundering shattered ancient Kalimdor ten thousand years ago, this complex was known as Lathar'Lazal, the \"Seat of the Sky.\" Dedicated to the goddess Elune, its gem-encrusted bridges, sacred lakes, and moonwell were constructed under the personal supervision of Queen Azshara. When the Well of Eternity collapsed, the magnificent shrine sank beneath the ocean waves, presumed lost forever. Over millennia, receding shorelines and subterranean shifting left its remains partly flooded beneath the cliffs of Ashenvale.",
+   "body": "Before the Great Sundering shattered ancient Kalimdor ten thousand years ago, this complex was a temple dedicated to the goddess Elune, complete with its own moonwell. When the Well of Eternity collapsed, the shrine sank beneath the ocean waves, presumed lost forever. Over millennia, receding shorelines and subterranean shifting left its remains partly flooded beneath the cliffs of Ashenvale.",
    "spoiler": 0
   },
   {
@@ -26,9 +26,9 @@
    "aliases": [
     "bfd history",
     "what was blackfathom deeps",
-    "lathar'lazal"
+    "bfd temple"
    ],
-   "answer": "Originally named Lathar'Lazal, it was an elven temple dedicated to the moon goddess Elune. It featured crystal-clear pools, gem-adorned architecture, and a sacred moonwell overseen by the ancient Highborne before it sank beneath the waves during the Sundering."
+   "answer": "It was a night elven temple dedicated to the moon goddess Elune, with a sacred moonwell at its heart, before it sank beneath the waves during the Sundering."
   },
   {
    "q": "Why is the Twilight's Hammer cult here?",
@@ -55,17 +55,17 @@
     "ghamoo-ra lore",
     "tortoise bfd"
    ],
-   "answer": "Ghamoo-ra was one of the last peaceful ancient creatures inhabiting the sunken temple. Upon claiming the ruins, the Twilight's Hammer cult captured the giant turtle and tormented it for years, driving it mad to serve as a vicious guard beast."
+   "answer": "Ghamoo-ra is a giant, maddened turtle that lurks on an island in one of the temple's flooded caverns, attacking any intruder who comes near."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The desecration of Lathar'Lazal is a profound grievance for the Kaldorei, who mourn the defilement of a once-sacred shrine of Elune and its moonwell by void cultists and naga."
+   "text": "The desecration of this ancient temple is a profound grievance for the Kaldorei, who mourn the defilement of a once-sacred shrine of Elune and its moonwell by void cultists and naga."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde maintains a blood debt against the deeps; an earlier scouting venture into the ruins ended in disaster, with only the Darkspear scout Hekazi and Rokhan barely escaping with their lives."
+   "text": "For the Horde, the deeps lie uncomfortably close to Zoram'gar; the cultists and naga gathering on the Zoram Strand are a threat the outpost's defenders cannot ignore."
   }
  ],
  "keywords": [
@@ -74,7 +74,6 @@
   "deeps",
   "ghamoo-ra",
   "kelris",
-  "lathar'lazal",
   "sarevess",
   "twilight's hammer",
   "zoram strand"

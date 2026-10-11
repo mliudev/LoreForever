@@ -16,7 +16,7 @@
   },
   {
    "title": "The Severed Frontier",
-   "body": "Erecting the Greymane Wall demanded painful geopolitical compromises. The natural mountain passes used to anchor the ramparts cleaved straight through the holdings of Lord Darius Crowley. As a consequence, territories such as Ambermill and Pyrewood Village were cut off on the northern side, stranded outside the gate. When the Scourge swept across Lordaeron during the Third War, King Greymane refused entreaties for aid and barred the doors to human refugees, leaving the surrounding villages to face the plague and the undead alone.",
+   "body": "Erecting the Greymane Wall demanded painful geopolitical compromises. The natural mountain passes used to anchor the ramparts left territories such as Ambermill and Pyrewood Village cut off on the northern side, stranded outside the gate. When the Scourge swept across Lordaeron during the Third War, King Greymane refused entreaties for aid and barred the doors to human refugees, leaving the surrounding villages to face the plague and the undead alone.",
    "spoiler": 0
   },
   {
@@ -48,10 +48,9 @@
    "q": "What happened to Pyrewood Village and Ambermill?",
    "aliases": [
     "why is pyrewood outside wall",
-    "ambermill gilneas connection",
-    "crowley lands"
+    "ambermill gilneas connection"
    ],
-   "answer": "Both settlements were part of the holdings of Lord Darius Crowley. Because the Greymane Wall was built along the most defensible mountain ridges, it stranded Pyrewood and Ambermill on the northern exterior, separating them from the kingdom when the doors were sealed."
+   "answer": "Because the Greymane Wall was built along the most defensible mountain ridges, it stranded Pyrewood and Ambermill on the northern exterior, separating them from the kingdom when the doors were sealed."
   },
   {
    "q": "Is Gilneas part of the Alliance?",
@@ -96,7 +95,6 @@
  "keywords": [
   "ambermill",
   "arugal",
-  "darius crowley",
   "genn",
   "gilneas",
   "greymane",
@@ -112,8 +110,7 @@
   "subzone:pyrewood-village",
   "subzone:ambermill",
   "topic:worgen",
-  "topic:alliance-of-lordaeron",
-  "npc:darius-crowley"
+  "topic:alliance-of-lordaeron"
  ],
  "attribution": [
   "Ruins of Gilneas"

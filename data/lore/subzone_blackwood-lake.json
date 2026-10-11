@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Blackwood Lake"
  },
- "summary": "Blackwood Lake is a blighted body of water situated in the southern Eastern Plaguelands, teeming with hostile, corrupted elementals. Once the site of a peaceful Lordaeron village, the area is now haunted by memories of tragedy and war, watched over by a small frontline camp of the Argent Dawn.",
+ "summary": "Blackwood Lake is a blighted body of water situated in the southern Eastern Plaguelands, teeming with hostile, corrupted elementals. The area is haunted by memories of tragedy and war, watched over by a small frontline camp of the Argent Dawn.",
  "sections": [
   {
    "title": "A Polluted Memory",
-   "body": "Before the Third War, a quiet settlement named Blackwood rested along these shores. It was the ancestral home of Grand Marshal Othmar Garithos, whose family holdings and subjects were slaughtered during the Second War while he defended Quel'Thalas. Today, the town is utterly gone, and the lake itself has been poisoned by the rampant plague of undeath. Diseased and foul water elementals churn beneath the murky surface, attacking anyone who ventures near the shoreline.",
+   "body": "Like so much of the Eastweald, Blackwood Lake has been poisoned by the rampant plague of undeath. Diseased and foul water elementals churn beneath the murky surface, attacking anyone who ventures near the shoreline.",
    "spoiler": 0
   },
   {
@@ -29,15 +29,6 @@
     "elementals in blackwood lake"
    ],
    "answer": "The lake is infested with corrupted water elementals. Like much of the freshwater in the Plaguelands, the waters have been twisted by necromantic runoff and filth, warping the local spirits into violent, toxic entities."
-  },
-  {
-   "q": "What town used to stand here?",
-   "aliases": [
-    "blackwood town",
-    "who lived here",
-    "garithos hometown"
-   ],
-   "answer": "A Lordaeron village called Blackwood once stood on these shores. It was ruled by the family of Grand Marshal Othmar Garithos before it was sacked and destroyed by an orcish raiding party during the Second War."
   },
   {
    "q": "Why is the Argent Dawn stationed at the lake?",
@@ -61,7 +52,7 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of Lordaeron, Blackwood Lake is a bitter reminder of the fall of Grand Marshal Garithos's line and the sheer totality with which the Scourge erased the kingdom's rural townships."
+   "text": "For humans of Lordaeron, Blackwood Lake is a bitter reminder of the sheer totality with which the Scourge poisoned the kingdom's rural heartland."
   },
   {
    "target": "class:Paladin",
@@ -72,7 +63,6 @@
   "blackwood",
   "darrowshire",
   "elementals",
-  "garithos",
   "horgus",
   "lake",
   "plaguelands"

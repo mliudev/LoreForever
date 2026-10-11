@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Waters of the North",
-   "body": "Spanning the northern plains between the town of Brill and the Scarlet Watch Post, Brightwater Lake is a quiet and eerie landmark in the heart of Tirisfal. Thousands of years ago, its misty banks bore witness to ancient conflicts, including early clashes against the dreadlord Kathra'natir. In the peaceful centuries that followed under the Kingdom of Lordaeron, the lake served as a scenic country haven. Today, like the rest of the glades, its pristine character is long gone. The Plaguelands lie not far to the east, and the murky, chilled waters reflect only grey skies, withered trees, and the constant threat of roving murlocs and hostile undead.",
+   "body": "Spanning the northern plains between the town of Brill and the Scarlet Watch Post, Brightwater Lake is a quiet and eerie landmark in the heart of Tirisfal. In the peaceful centuries under the Kingdom of Lordaeron, the lake served as a scenic country haven. Today, like the rest of the glades, its pristine character is long gone. The Plaguelands lie not far to the east, and the murky, chilled waters reflect only grey skies, withered trees, and the constant threat of roving murlocs and hostile undead.",
    "spoiler": 0
   },
   {
@@ -65,7 +65,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "The lake holds lingering arcana from ancient battles fought in Tirisfal, as well as the unique, unguided mastery displayed by the renegade wizard Gunther Arcanus."
+   "text": "The lake's island holds the unique, unguided mastery displayed by the renegade wizard Gunther Arcanus."
   }
  ],
  "keywords": [

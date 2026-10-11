@@ -101,6 +101,7 @@ end
 function Companion.Ask(question)
   question = (question or ""):match("^%s*(.-)%s*$")
   if question == "" then return say(L["type a question after /lore ask, e.g. /lore ask who leads the Defias?"]) end
+  ns.Log.Use("live")
   box = box or createBox()
   box.payload = Companion.Payload(question)
   box:Show()
@@ -130,6 +131,7 @@ function Companion.CopyQuestion(eb, key)
   if not text or not text:match("%S") then return end
   local draft = { text = text, cursor = eb:GetCursorPosition() }
   eb.companionDraft = draft
+  ns.Log.Use("live")
   eb:SetMaxLetters(0)   -- the context envelope is longer than a question
   eb:SetText(Companion.Payload(text))
   eb:HighlightText()

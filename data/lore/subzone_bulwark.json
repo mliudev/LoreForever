@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Shield Against the Scourge",
-   "body": "Positioned squarely on the eastern border of Tirisfal Glades, the Bulwark is the final barrier protecting the Forsaken heartland from the blighted horrors of the Western Plaguelands. During the Scourging of Lordaeron, this ground served as an encampment led by Uther the Lightbringer to shelter survivors fleeing the ruins of Capital City. Today, rough wooden palisades and heavily armed guards defend the pass against roaming undead. It represents an uneasy but necessary collaboration, where Forsaken forces coordinate alongside the Argent Dawn to recruit seasoned champions of the Horde, turning back the minions of the Lich King before they spill into Tirisfal.",
+   "body": "Positioned squarely on the eastern border of Tirisfal Glades, the Bulwark is the final barrier protecting the Forsaken heartland from the blighted horrors of the Western Plaguelands. Today, rough wooden palisades and heavily armed guards defend the pass against roaming undead. It represents an uneasy but necessary collaboration, where Forsaken forces coordinate alongside the Argent Dawn to recruit seasoned champions of the Horde, turning back the minions of the Lich King before they spill into Tirisfal.",
    "spoiler": 0
   }
  ],
@@ -33,15 +33,6 @@
     "is bulwark horde only"
    ],
    "answer": "No. Although the Argent Dawn representatives stationed there are neutral, the encampment is heavily garrisoned by Forsaken guards. Any Alliance member who steps within the palisades will be attacked on sight."
-  },
-  {
-   "q": "What was here before the Forsaken built the fortification?",
-   "aliases": [
-    "bulwark history",
-    "bulwark lore",
-    "uther camp"
-   ],
-   "answer": "During the Third War and the fall of Capital City, Uther the Lightbringer established an emergency camp on this site to shelter and protect human survivors fleeing the Scourge's initial onslaught across Lordaeron."
   },
   {
    "q": "Is the Bulwark safe for young adventurers leaving Tirisfal?",
@@ -69,7 +60,6 @@
   "forsaken",
   "scourge",
   "tirisfal",
-  "uther",
   "western plaguelands"
  ],
  "related": [

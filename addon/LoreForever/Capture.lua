@@ -60,8 +60,8 @@ local function count(t) local n = 0 for _ in pairs(type(t) == "table" and t or {
 
 -- "Keep the quest text you see" (Options): off keeps nothing new; what's there stays.
 function Capture.On() return settings().capture ~= false end
--- "Contribute buttons" (Options): off by default until they've been seen in game (Options.DEFAULTS).
-function Capture.ButtonsOn() return settings().contributeButtons == true end
+-- "Contribute buttons" (Options): on by default.
+function Capture.ButtonsOn() return settings().contributeButtons ~= false end
 
 -- A short, stable hash of a text, as 8 hex digits (Lua 5.1 has no bit operations; this stays exact in doubles). The
 -- same djb2 as Journey.lua's and the site's checksum.
