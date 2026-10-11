@@ -73,6 +73,7 @@ test('malformed entry/line/voice input never creates arbitrary return paths', ()
   assert.deepEqual(context, { entry: 'zone:elwynn', line: 'zone:elwynn', voice: '' });
   assert.equal(workflow.usableEdit({ status: 'new', text: 'French' }, 'English'), false);
   assert.match(workflow.editNote({ status: 'pulled' }, 'English', 'French', false)[0], /does not confirm a merge or release/);
+  assert.match(workflow.editNote({ status: 'pulled' }, 'English', '', false, true)[0], /English changed: translate this line again/);
 });
 test('failed autosave preserves the text and language when the contributor tries to switch', async () => {
   const h = await setup({ saveReply: { ok: false, error: 'Offline' } }); const box = h.row('zone:elwynn/n').querySelector('textarea');

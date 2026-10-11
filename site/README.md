@@ -518,7 +518,8 @@ to `/account#profile` when there's none yet).
     keeps the operation's full reservation plus known research excess. Failed or rejected responses retain at least
     their own estimate. `answer_spend.actual_micro` records known charges; `reserved_micro` includes unresolved
     estimates and measured spend. Profile stories and voice share this gate; the admin dashboard shows all three.
-    Players can add their own provider key when the free allowance is used up.
+    When the free allowance is used up, players wait for the next day (or month, at the shared budget); there is no
+    own-key option (Mike, 2026-10-10: pricing comes first).
 - **The picture book** (Mike, 2026-10-05; `lib/pictures.js`, behind the **`pictures` feature**, below): pictures a
   player takes in game with the picture key, which the companion app puts on the profile, newest first, under the
   Map and Timeline views, each with its place, day (the player's own, from the journey data's `tz`), level and the
@@ -611,7 +612,9 @@ Forever's own content and shows counts, never global percentages. Phone first.
 ## Unreleased features (the site flag)
 
 `lib/features.js` holds the site's switches for features that wait for an add-on release:
-`FEATURES = { contribute: false, zones: false, lore: true, companion: false, pictures: false }`. While a feature is off its pages still open by address (so previews and the
+`FEATURES = { contribute: true, zones: true, lore: true, companion: true, pictures: true, storyvoice: true }` (all on
+since 2026-10-10: finished features ship on; add one here only when it waits on something that doesn't exist yet).
+While a feature is off its pages still open by address (so previews and the
 develop site can test them) but are noindex, and nothing players see links to them. **Turn one on by setting it to
 `true` in the release that ships what it needs** (for `contribute`: the add-on release with the Contribute button,
 LOR-234); the pages then drop noindex and get their links. Code reads it with `featureOn(env, "contribute")`. The
@@ -676,7 +679,7 @@ own setup; the page only takes files. `public/voices/studio.html` + `studio.js` 
 - **Line takes come from a recording app** (Mike, 2026-10-02: browser takes are low quality). People record in their
   own app; the page says how (Audacity, a decent mic, a quiet room, 44.1/48 kHz, MP3 or WAV) under each drop box.
   Recording in the browser came back on 2026-10-03 for one thing only: "Lend your voice" (below).
-- **Claim a zone** (LOR-231): **off for now**, behind the `zones` feature in `lib/features.js` (`FEATURES.zones`; the
+- **Claim a zone** (LOR-231): **on since 2026-10-10**, behind the `zones` feature in `lib/features.js` (`FEATURES.zones`; the
   Pages variable `SITE_FEATURES=zones` turns it on without a code change, `-zones` off). While it's off the upload page
   shows no zone box or Zone filter (`/voices/studio?zones=1` shows them anyway, for previews), `/voices/zones` opens by
   address but is noindex and unlinked, and voice profiles don't list zones; the claims API works either way. To turn it
@@ -776,9 +779,8 @@ clone, credited "voice by <their credit>". Never from game audio or anyone else'
 cloned Blizzard's actors got the worst backlash): only a donor's own reading of our script, which the render tooling
 checks.
 
-- **Hidden for now:** the page works at its address, but nothing links to it until the first lent voice has been made
-  end to end on the GPU. Then set `LEND_VOICE = true` in `public/voices/studio.js` (a card on the upload page);
-  `/voices/studio?lend=1` shows the card meanwhile.
+- **Linked from the upload page** (a card in `public/voices/studio.js`) since 2026-10-10. The GPU runner makes each
+  donated voice (gpu-queue job 8, `experiments/voices/local/donation.sh`).
 - **The page** (`public/voices/lend.html` + `lend.js` + `lend.css`, phones first): sign in → a 6-second room check →
   the script (`public/voices/lend-script.json`: versions kept, each donation stores the one read) → **record in the
   browser** (MediaRecorder, mono, no echo cancelling, noise suppression or auto gain; the screen kept awake; a level
@@ -960,9 +962,8 @@ Contribute button on windows whose text it lacks; the full contract (what's kept
 - **Known text:** `public/contribute/known.json` (hashes of what the add-on ships and what the Forever client gave our
   harvest; `cd pipeline && uv run python -m lore.known_text`, also run by `scripts/rebuild-generated.sh`). A stale copy
   only means fewer lines count as known.
-- **Unreleased until the add-on ships the button:** the page is noindex and out of the Community menu while the
-  `contribute` feature is off (`lib/features.js`; `SITE_FEATURES=contribute` on Preview turns it on). Flip
-  `FEATURES.contribute` to `true` in the release that ships Capture.lua.
+- **On since 2026-10-10** (`FEATURES.contribute` in `lib/features.js`), with the add-on's Contribute button on by
+  default. With the feature off (`SITE_FEATURES=-contribute`) the page is noindex and out of the Community menu.
 - Tests: `node --test site/tests/contribute.test.mjs` (the parser against a realistic file and hostile ones, codes,
   statuses, rate limits, honeypot, receipt, export, admin); `pipeline/tests/contribute_sim.py` (the add-on side, and
   its codes and SavedVariables through the site's decoder and parser when Node is around).

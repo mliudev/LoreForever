@@ -13,14 +13,19 @@
 import { forgetUser as forgetContributor } from "./contribute.js";
 import { RECORD_ONLY } from "./donate.js";
 import { HISTORY_SETUP, HISTORY_BASE_SETUP } from "./history-schema.js";
+import { USAGE_SETUP } from "./usage.js";
 
 const SETUP = [
   ...HISTORY_BASE_SETUP,
+  // Per-day usage counts the companion sends with the profile sync (lib/usage.js, LOR-413).
+  ...USAGE_SETUP,
   `CREATE TABLE IF NOT EXISTS users (
     id TEXT PRIMARY KEY, email TEXT UNIQUE, google_sub TEXT UNIQUE, display_name TEXT, links TEXT,
     show_public INTEGER NOT NULL DEFAULT 1, created TEXT NOT NULL)`,
   `CREATE TABLE IF NOT EXISTS sessions (
     token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL, created TEXT NOT NULL, expires TEXT NOT NULL)`,
+  // Results too costly to work out on every view (lib/cache.js), as JSON. built: Unix seconds.
+  `CREATE TABLE IF NOT EXISTS cached_results (key TEXT PRIMARY KEY, stamp TEXT, built INTEGER NOT NULL, json TEXT NOT NULL)`,
   // A contributor's voice. status: pending (sent, waiting for us) or draft. It's public only once public/voices/
   // voices.json has an entry with the same id and "owner": the user's id.
   `CREATE TABLE IF NOT EXISTS voices (
@@ -300,6 +305,7 @@ const USER_DATA = [
   ["DELETE FROM history_receipts WHERE user_id = ?", u => u.id],
   ["DELETE FROM history_tombstones WHERE user_id = ?", u => u.id],
   ["DELETE FROM devices WHERE user_id = ?", u => u.id],
+  ["DELETE FROM usage_days WHERE user_id = ?", u => u.id],
   ["DELETE FROM device_links WHERE user_id = ?", u => u.id],
   ["DELETE FROM clip_reports WHERE user_id = ?", u => u.id],
   ["DELETE FROM users WHERE id = ?", u => u.id],
@@ -325,6 +331,8 @@ export async function deleteUser(env, user) {
   // The story recordings' rows (lib/storyvoice.js makes that table the first time it runs).
   try { await env.DB.prepare("DELETE FROM story_audio WHERE user_id = ?").bind(user.id).run(); } catch (e) { /* none yet */ }
   await env.DB.batch(USER_DATA.map(([sql, arg]) => env.DB.prepare(sql).bind(arg(user))));
+  // Cached credits (lib/cache.js) may still name them: the next view builds them again.
+  await env.DB.prepare("DELETE FROM cached_results").run();
 }
 
 // ---- Google ID tokens ----

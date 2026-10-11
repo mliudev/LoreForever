@@ -7,37 +7,35 @@
  "meta": {
   "wiki": "Balnir Farmstead"
  },
- "summary": "The Balnir Farmstead is a derelict estate in eastern Tirisfal Glades, northeast of the Ruins of Lordaeron. Once renowned for raising the famed white horses favored by Lordaeron's royal family, the lands now lie ruined and infested by wandering Scourge. Today, the estate stands as a somber monument to Prince Arthas Menethil's early life and the site where he claimed his undead steed.",
+ "summary": "The Balnir Farmstead is a derelict estate in eastern Tirisfal Glades, northeast of the Ruins of Lordaeron. Once a working farm of the Balnir family, the lands now lie ruined and infested by wandering Scourge that slip past the Bulwark.",
  "sections": [
   {
-   "title": "A Legacy of Royal Steeds",
-   "body": "For generations, the Balnir family bred the legendary white stallions of Lordaeron from their homestead in the rolling hills of Tirisfal. As a boy, Prince Arthas Menethil frequently visited the farm to escape royal court life, befriending the young Jarim Balnir. It was here that Arthas assisted in the foaling of the colt he named Invincible. Years later, after a tragic riding accident claimed the steed's life, Invincible was laid to rest in the soil of the farmstead upon Arthas's personal request.",
+   "title": "A Farm Before the Plague",
+   "body": "For generations, the Balnir family worked their homestead in the rolling hills of eastern Tirisfal, and their garden of snapdragons still blooms among the ruins. When the Scourge swept through Lordaeron during the Third War, the farm was overrun and its people lost, leaving the buildings to rot.",
    "spoiler": 0
   },
   {
    "title": "Desolation and Scourge Infiltration",
-   "body": "When Prince Arthas returned from Northrend and sacked Capital City, the Scourge wiped out the Balnir family without mercy. Newly fallen as a death knight, Arthas marched to the farmstead to exhume and resurrect Invincible with Frostmourne, leaving behind an open, ransacked grave. In the wake of the Third War, the ruins serve as a foothold for mindless Scourge slipping past the Bulwark. Forsaken deathguards watch the farm warily, while Undercity magi harvest surviving snapdragons from the garden to test how deeply plague corruption has crept into the soil.",
+   "body": "In the wake of the Third War, the ruins serve as a foothold for mindless Scourge slipping past the Bulwark. Forsaken deathguards watch the farm warily, while Undercity magi harvest surviving snapdragons from the garden to test how deeply plague corruption has crept into the soil.",
    "spoiler": 0
   }
  ],
  "faq": [
   {
-   "q": "Why is the Balnir Farmstead significant to Prince Arthas?",
+   "q": "Why is the Balnir Farmstead important?",
    "aliases": [
-    "arthas farm",
-    "invincible birthplace",
-    "balnir arthas connection"
+    "balnir farm importance",
+    "why go to balnir farmstead"
    ],
-   "answer": "Arthas spent much of his youth sneaking away to the farmstead to play with the breeder's son. He was present for the birth of his beloved horse, Invincible, and later buried the beast here after a fatal fall. Following his descent into darkness, Arthas returned to exhume and raise Invincible into undeath."
+   "answer": "It sits on the eastern approaches to Tirisfal, just behind the Bulwark. Scourge that slip past the defenders gather here, and its garden of snapdragons lets the Forsaken mages measure how far the plague has spread into Tirisfal."
   },
   {
    "q": "Who lived at the farmstead before the plague?",
    "aliases": [
     "who owned balnir farm",
-    "balnir family",
-    "jorum balnir"
+    "balnir family"
    ],
-   "answer": "The farm was managed by Jorum Balnir, his wife Vara, and their son Jarim. They were master horse breeders who raised prized white horses for Lordaeron's nobility. The entire family was slaughtered when Arthas's Scourge swept through Tirisfal during the Third War."
+   "answer": "The farm belonged to the Balnir family, who gave it their name. They were lost when the Scourge swept through Tirisfal during the Third War, and today only the undead walk its fields."
   },
   {
    "q": "Why are the Forsaken monitoring the farm now?",
@@ -47,21 +45,12 @@
     "balnir snapdragons"
    ],
    "answer": "Mindless Scourge often slip past the Bulwark from the Plaguelands and gather at the farmstead, threatening the eastern approaches to Tirisfal. Additionally, Undercity scholars study the resilient snapdragons still growing in the gardens to measure the spread of plague contamination."
-  },
-  {
-   "q": "Why was Invincible buried at Balnir Farmstead?",
-   "aliases": [
-    "invincible burial",
-    "invincible grave",
-    "arthas horse burial"
-   ],
-   "answer": "After Invincible died in a riding accident, Arthas asked that his beloved horse be buried on the farmstead's grounds. After returning as a death knight during the Third War, Arthas raised Invincible into undeath."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, the farmstead is a bitter reminder of the prince who doomed Lordaeron, as well as a nagging security breach where Scourge from the Plaguelands slip behind the Bulwark."
+   "text": "For the Forsaken, the farmstead is a bitter reminder of the Lordaeron they lost, as well as a nagging security breach where Scourge from the Plaguelands slip behind the Bulwark."
   },
   {
    "target": "class:Mage",
@@ -69,17 +58,12 @@
   }
  ],
  "keywords": [
-  "arthas",
   "balnir",
   "farmstead",
-  "horses",
-  "invincible",
-  "jorum",
   "snapdragon",
   "tirisfal"
  ],
  "related": [
-  "topic:arthas-menethil",
   "zone:tirisfal",
   "zone:ruinsoflordaeron",
   "quest:1882",

@@ -539,6 +539,11 @@ function Engine:ZonesNamed(raw)
   return out
 end
 
+-- The lore entry of a quest in the log (ctx.quests), by its ID or else its title.
+local function questKeyOf(db, q)
+  return db.index.quest[q.id] or (q.title and db.index.questTitle and db.index.questTitle[Engine.lower(q.title)])
+end
+
 -- Entries relevant to the player's current situation, most specific first.
 function Engine:ContextKeys(ctx)
   local db, keys, seen = self.db, {}, {}
@@ -549,9 +554,7 @@ function Engine:ContextKeys(ctx)
     end
   end
   ctx = ctx or {}
-  local function questKey(q)
-    return db.index.quest[q.id] or (q.title and db.index.questTitle and db.index.questTitle[Engine.lower(q.title)])
-  end
+  local function questKey(q) return questKeyOf(db, q) end
   if ctx.targetName then add(self:KeyForName(ctx.targetName), 1.1) end
   for _, q in ipairs(ctx.quests or {}) do add(questKey(q), 1.0) end
   if ctx.subzone then
@@ -749,7 +752,14 @@ function Engine:IntentTarget(intent, scope, ctx, raw, namedKey)
     if weight[k] == 1.0 then add(k, 1) end   -- in the quest log
   end
   local target = ctx.targetName and Engine.lower(ctx.targetName)
-  for _, k in ipairs(target and self.giverQuests[target] or {}) do add(k, 2) end
+  local gives = {}
+  for _, k in ipairs(target and self.giverQuests[target] or {}) do gives[k] = true add(k, 2) end
+  -- A quest in the log that the target gave you is theirs too when the data names no giver (LOR-112: A Threat Within
+  -- has none on the wiki, so Deputy Willem's other quest won): the quest window saw who offered it (q.giver).
+  for _, q in ipairs(target and ctx.quests or {}) do
+    local k = type(q.giver) == "string" and Engine.lower(q.giver) == target and questKeyOf(db, q)
+    if k and not gives[k] then gives[k] = true add(k, 2) end
+  end
   local words, bags = {}, {}
   for _, w in ipairs(raw) do
     if #w >= 4 and not STOP[w] then words[stem(w)] = true end
@@ -1474,8 +1484,11 @@ function Engine:FollowUps(key, idx, limit, done)
     end
   end
   local text = (idx and e.faq and e.faq[idx] and e.faq[idx].a) or e.s
-  -- The follow-ups written for this question come first.
-  for _, i in ipairs(idx and e.faq and e.faq[idx] and e.faq[idx].nx or {}) do push(key, i) end
+  -- The follow-ups written for this question come first; one still in English (untr) waits for its place in the
+  -- entry's ranking (nextOwn), after the translated ones.
+  for _, i in ipairs(idx and e.faq and e.faq[idx] and e.faq[idx].nx or {}) do
+    if not (e.faq[i] and e.faq[i].untr) then push(key, i) end
+  end
   nextOwn()
   -- Then people and places the answer itself mentions, then more about this entry.
   for _, k in ipairs(self:Mentions(text, key)) do
@@ -1489,7 +1502,7 @@ function Engine:FollowUps(key, idx, limit, done)
     nextOwn()
     if #out == before then break end
   end
-  return out
+  return Engine.TranslatedFirst(self.db, out)
 end
 
 -- A race/class/profession note for this entry, if the player asked about themselves.
@@ -1511,17 +1524,32 @@ end
 
 -- An entry's FAQ indices in the order to offer them: situational questions first (INTENT_RANK), then the rest in
 -- their own order. Spoiler answers (unless `open`: a quest you've finished), gameplay filler ("where are the
--- wolves?") and other races' answers are left out.
+-- wolves?") and other races' answers are left out. In a translated reading language, appended questions still in
+-- English (untr, Lang.MarkUntranslated) come after all the others.
 function Engine.RankedFaq(e, race, open)
   local out, faq = {}, e and e.faq or {}
   for i, f in ipairs(faq) do
     if Engine.HasQuestion(f) and (open or not f.sp) and not f.gp and forRace(f, race) then out[#out + 1] = i end
   end
   table.sort(out, function(a, b2)
+    local ua, ub = faq[a].untr and 1 or 0, faq[b2].untr and 1 or 0
+    if ua ~= ub then return ua < ub end
     local ra, rb = INTENT_RANK[faq[a].it] or 9, INTENT_RANK[faq[b2].it] or 9
     if ra ~= rb then return ra < rb end
     return a < b2
   end)
+  return out
+end
+
+-- A list of {key, idx} questions with the ones still in English (untr) moved after the rest, order kept otherwise.
+function Engine.TranslatedFirst(db, list)
+  local out, later = {}, {}
+  for _, it in ipairs(list) do
+    local e = it.idx and db.entries[it.key]
+    local f = e and e.faq and e.faq[it.idx]
+    if f and f.untr then later[#later + 1] = it else out[#out + 1] = it end
+  end
+  for _, it in ipairs(later) do out[#out + 1] = it end
   return out
 end
 
@@ -1546,7 +1574,7 @@ function Engine:Suggest(ctx, limit)
       pos[key] = p
     end
   end
-  return out
+  return Engine.TranslatedFirst(self.db, out)
 end
 
 function Engine:Answer(key, idx)

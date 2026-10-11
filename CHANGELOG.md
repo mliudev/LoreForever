@@ -6,6 +6,55 @@ One `- ` bullet per change; wrap long bullets with an indented continuation line
 
 ## Unreleased
 
+## 0.14.0 (2026-10-10)
+
+- **Companion: live answers come from Sam's free daily answers.** Connect your profile for 20 a day. The companion no
+  longer takes your own key or a model choice, and journey chapters, their narration and new picture captions are
+  gone, along with the voice download they needed. Captions already on your pictures stay, and chapters stay saved on
+  your PC.
+- **Talk to your target:** with the companion app, target a character Lore Forever knows (Bolvar, Thrall, a named
+  quest giver) and ask your question: they answer you in person. Start with "Sam" to ask Sam instead.
+- **Your picture book is on:** the companion keeps your journey pictures, offers F12 (or Shift-F12) for the picture
+  key when it's free, takes a picture when you level up, defeat a boss or first reach a zone or dungeon (at most ten a
+  day; Options › Automatic journey pictures turns it off), and Journey rows show their picture.
+- **Share Forever's new text:** quest, gossip and book windows with text Lore Forever doesn't have yet show a small
+  Contribute button, and the companion sends new Forever text by itself (both can be turned off).
+- **Report a narration from the player:** a small cross on the narration player tells us a recording sounds wrong.
+- **Lend your voice and claim a zone** on the voice studio: read a short script and we make a narrator voice from it,
+  or claim a zone to narrate.
+
+- **Pause and pick up where you left off:** pausing a complete story, a longer answer, quest dialogue or overview
+  and playing it again carries on from the start of the passage you were in, instead of starting over.
+- **More complete stories:** 365 more zones, subzones and characters play their whole story: 170 in the male narrator's voice and 195 in the female narrator's.
+
+- **Ask more in your language:** reading in another language, the suggested questions and "Ask more" follow-ups
+  offer translated questions before ones still in English, and translators can now translate those common questions.
+- **Journey places in the right city:** a Journey moment in the Undercity's Canals opens the Undercity's story, not Stormwind's.
+
+- **Quest givers sound more like their people:** new dwarf, goblin, human, Skyborne and troll voices read 1,316 English quest-giver lines.
+
+- **Corrected lore in 291 entries:** fixed names, places and who-did-what, kept twists behind spoilers, and removed 6 entries for characters and event quests that belong to later expansions.
+
+- **Re-narrated after lore fixes:** 10 complete stories whose text was corrected this week (including Deadwind Pass and the Wailing Caverns) play in full again in both voices.
+
+- Smaller download: a story that plays in full no longer also carries its shorter overview recording.
+- **Live game info for Sam (optional):** turn on Live game info in the add-on's Options and in the companion's
+  Settings, and Sam knows where you are, what you're fighting and your tracked quest right away, without a /reload.
+  The add-on shows a tiny block of colored squares in the top-left corner, and the companion reads only that block.
+
+- **Asking a quest giver why:** with the quest giver targeted, "why does he want me to do this?" answers about the
+  quest they gave you, not another of their quests, even when the lore doesn't name who gives it.
+
+- **Hilary's Necklace:** the Lakeshire quest and the necklace now use the girl's name in Forever, Hilary, so the
+  quest's lore matches the quest you're on.
+
+- **Your language, with the game's own names:** German, French, Spanish and Portuguese use Blizzard's names for the
+  capitals and about 390 more places and people, and German no longer doubles its articles ("im Das …").
+- **Italiano:** the community's Italian translation is now its own language download; anything not yet translated
+  stays in English.
+- **Sam keeps twists hidden:** Sam no longer lists a lore entry as a source when your question only reaches it
+  through its spoilers.
+
 ## 0.13.1 (2026-10-09)
 
 - Sam keeps your profile up to date again: automatic profile sync works with 0.13.0's add-on.

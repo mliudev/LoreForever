@@ -2,6 +2,7 @@
 // /translate and /api/translations/*. Kept outside functions/ so Pages doesn't route it.
 
 import { senderHash } from "./form.js";
+import { cached, dropCached } from "./cache.js";
 
 // Reads languages.json from the deployed static files, so new coverage numbers need no code change.
 export async function loadLanguages(env, request) {
@@ -83,19 +84,36 @@ ${status === 401
 // once lore.kit has pulled it into a language pack: most edits wait days for that.
 export const CREDITED_EDIT = "e.status IN ('new', 'accepted', 'pulled')";
 
-// {locale: [display names]} of translators with credited edits who chose to be shown (lib/accounts.js show_public),
-// in the order they started on that language: credit never ranks people by how much they sent (LOR-239). Empty when
-// nobody has translated yet or the tables don't exist.
+// Every translator who chose to be shown (lib/accounts.js show_public), once per language they have credited edits
+// in: [{id, name, links, locale, n (strings, each counted once), first (their first edit there)}]. It reads every
+// saved edit, so it's cached (lib/cache.js): built again after new edits, at most once an hour, so it reads at most
+// ~24 times the edits a day however busy the site gets. Whatever else
+// changes who is shown (a name or "Show my name" on /account, a rejection on /admin, an edit taken back, a deleted
+// account) calls forgetTranslatorCredits.
+const CREDITS_KEY = "translator-credits";
+export function creditedTranslators(env) {
+  return cached(env, CREDITS_KEY, {
+    stamp: e => e.DB.prepare("SELECT MAX(id) AS n FROM translation_edits").first("n"),
+    minAge: 3600,
+  }, async e => (await e.DB.prepare(
+    `SELECT u.id, u.display_name AS name, u.links, e.locale, COUNT(DISTINCT e.string_id) AS n, MIN(e.created) AS first
+     FROM translation_edits e JOIN users u ON u.id = e.user_id
+     WHERE ${CREDITED_EDIT} AND u.show_public = 1 AND u.display_name IS NOT NULL
+     GROUP BY u.id, e.locale`
+  ).all()).results);
+}
+export const forgetTranslatorCredits = env => dropCached(env, CREDITS_KEY);
+
+// {locale: [display names]} of translators with credited edits who chose to be shown, in the order they started on
+// that language: credit never ranks people by how much they sent (LOR-239). Empty when nobody has translated yet or
+// the tables don't exist.
 export async function translatorCredits(env) {
   if (!env.DB) return {};
   try {
-    const { results } = await env.DB.prepare(
-      "SELECT e.locale, u.display_name AS name, MIN(e.created) AS first FROM translation_edits e JOIN users u ON u.id = e.user_id " +
-      `WHERE ${CREDITED_EDIT} AND u.show_public = 1 AND u.display_name IS NOT NULL ` +
-      "GROUP BY e.locale, u.id ORDER BY first, u.display_name"
-    ).all();
+    const rows = [...await creditedTranslators(env)]
+      .sort((a, b) => (a.first < b.first ? -1 : a.first > b.first ? 1 : a.name < b.name ? -1 : a.name > b.name ? 1 : 0));
     const out = {};
-    for (const r of results) (out[r.locale] ||= []).push(r.name);
+    for (const r of rows) (out[r.locale] ||= []).push(r.name);
     return out;
   } catch (e) {
     return {};

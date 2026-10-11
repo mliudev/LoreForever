@@ -12,6 +12,7 @@ import { listPictures } from "../../lib/pictures.js";
 import { storyVoice, listenBox } from "../../lib/storyvoice.js";
 import { historyEnabled, historyPage } from "../../lib/history.js";
 import { escape } from "../../lib/voices.js";
+import { countSite, BOT } from "../../lib/usage.js";
 
 const html = (body, status, cache) => new Response(body, {
   status, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": cache, "Vary": "Cookie" },
@@ -37,6 +38,15 @@ export async function onRequestGet({ request, env, params, waitUntil }) {
   const query = url.searchParams.get("pictures") === "1" ? "pictures=1" : "";
   if (asVisitor && !p.public) {
     return html(missingPage(handle, { bar: visitorBar(p, query), viewer }), 200, "private, no-store");
+  }
+  // The share loop (LOR-151): someone else opened it, and whether a link from outside the site brought them. Only the
+  // day's numbers (lib/usage.js countSite); not its owner, link previews, prefetches or paging through saved history.
+  const prefetch = /prefetch|prerender/i.test(request.headers.get("Sec-Purpose") || request.headers.get("Purpose") || "");
+  if (!owner && !prefetch && !url.searchParams.has("history") && !BOT.test(request.headers.get("User-Agent") || "")) {
+    let outside = true;
+    try { outside = new URL(request.headers.get("Referer")).origin !== url.origin; } catch (e) { /* none: typed or pasted */ }
+    const counting = countSite(env, outside ? ["profile.view", "profile.outside"] : ["profile.view"]).catch(() => {});
+    if (waitUntil) waitUntil(counting); else await counting;
   }
   const user = await env.DB.prepare("SELECT links FROM users WHERE id = ?").bind(p.user_id).first();
   const badges = await contributionBadges(env, request, p.user_id);   // Narrator, Translator, Contributed N lines (LOR-239)

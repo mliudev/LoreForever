@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Uldum"
  },
- "summary": "Uldum is a massive, sealed Titan research installation tucked behind colossal stone gates in the southernmost cliffs of Tanaris. Long hidden away behind ancient wards and forgotten machinery, it remains inaccessible to modern explorers, watched over by a lone dwarven prospector.",
+ "summary": "Uldum is a massive, sealed Titan research installation tucked behind colossal stone gates in the southernmost cliffs of Tanaris. Long hidden away behind ancient wards and forgotten machinery, it remains inaccessible to modern explorers.",
  "sections": [
   {
    "title": "The Gates of the Makers",
@@ -15,8 +15,8 @@
    "spoiler": 0
   },
   {
-   "title": "The Dwarven Vigil",
-   "body": "Recognizing the site's unmistakable Titan craftsmanship, the Ironforge Explorers' League dispatched Prospector Gunstan to maintain a lonely watch over the entrance. For years, Gunstan has studied the monolithic doors and searched for a mechanism or key that might unlock the ancient complex. Legend claims that true insight into the secrets locked within requires the lost Plates of Uldum, leaving the dwarven scholars peering through the keyhole of an empire they cannot yet breach.",
+   "title": "The Sealed Secrets",
+   "body": "The site's unmistakable Titan craftsmanship draws the curiosity of dwarven scholars, yet no mechanism or key has been found that might unlock the ancient complex. Legend claims that true insight into the secrets locked within requires the lost Plates of Uldum, leaving the dwarven scholars peering through the keyhole of an empire they cannot yet breach.",
    "spoiler": 0
   }
  ],
@@ -40,15 +40,6 @@
    "answer": "According to ancient records and Titan lore, Uldum is a vast research facility constructed by the Titans to study and enhance the biosphere of Azeroth. However, exact details remain locked away behind Titan security measures."
   },
   {
-   "q": "Who is the dwarf standing outside the gate?",
-   "aliases": [
-    "gunstan",
-    "prospector gunstan",
-    "dwarf at uldum"
-   ],
-   "answer": "That is Prospector Gunstan, a field researcher sent by the Ironforge Explorers' League. He maintains a solitary camp right outside the threshold, observing the masonry and hoping to uncover a way inside."
-  },
-  {
    "q": "What are the Plates of Uldum?",
    "aliases": [
     "plates of uldum",
@@ -65,13 +56,12 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "The Alliance maintains a lone observational foothold through Prospector Gunstan, hoping to beat any rival power to whatever Titan secrets lie concealed in the southern mountains."
+   "text": "Alliance scholars hope to beat any rival power to whatever Titan secrets lie concealed in the southern mountains."
   }
  ],
  "keywords": [
   "explorers' league",
   "gates of uldum",
-  "gunstan",
   "plates of uldum",
   "tanaris",
   "titans",

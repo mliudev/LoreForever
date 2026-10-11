@@ -383,14 +383,15 @@ test("reports are capped per sender per day", async () => {
   assert.equal((await report(pic.id, { ip: "203.0.113.9" })).status, 429);
 });
 
-test("the pictures feature: off, only ?pictures=1 or the owner see the book; on, every visitor of a public profile", async () => {
+test("the pictures feature: on, every visitor of a public profile; off, only ?pictures=1 or the owner see the book", async () => {
   const me = await signIn("aelric");
   await profile(me);
   const token = await connect(me);
   await upload({ ...META, caption: 'A <script>alert("x")</script> & a "quote"' }, jpeg(1920, 1080), { token });
   await upload({ ...META, cid: "second", t: META.t + 3600, caption: null, s: null, z: "Westfall", lv: 25 }, jpeg(1600, 900), { token });
 
-  // Off: the API and the page show nothing to visitors...
+  // Off (SITE_FEATURES=-pictures): the API and the page show nothing to visitors...
+  env.SITE_FEATURES = "-pictures";
   assert.equal((await list("?handle=aelric")).status, 404);
   const off = await view("aelric");
   assert.equal(off.status, 200);
@@ -420,8 +421,8 @@ test("the pictures feature: off, only ?pictures=1 or the owner see the book; on,
   assert.match(owned, /data-pb="remove">Remove from my profile/, "the owner can remove");
   assert.ok(!owned.includes('data-pb="report"'));
 
-  // On: everyone.
-  env.SITE_FEATURES = "pictures";
+  // On (the default): everyone.
+  delete env.SITE_FEATURES;
   assert.equal((await list("?handle=aelric")).body.pictures.length, 2);
   assert.match((await view("aelric")).html, /Picture book/);
   // A private profile: its pictures are no one's but its owner's, feature or not.
@@ -511,7 +512,9 @@ test("timeline identity: malformed metadata is refused and hidden or foreign pic
   assert.match(timeline,new RegExp(`data-pb-target="${good.body.picture.id}"`));
   assert.match(timeline, /Took a journey picture/);
   assert.match(timeline.match(/<li class="pf-m pf-k-levels"[\s\S]*?<\/li>/)[0], /data-pb-target=/, "the picture belongs beside the level, not its own shot marker");
+  env.SITE_FEATURES = "-pictures";
   assert.ok(!(await view("aelric")).html.includes('class="pf-picture"'),"feature off keeps thumbnails hidden");
+  delete env.SITE_FEATURES;
   const publicList = (await list("?handle=aelric&pictures=1")).body.pictures;
   assert.equal(publicList[0].character, character);
   assert.equal(publicList[0].event_t,META.t+1);

@@ -40,6 +40,16 @@
 .ad-chart summary { cursor: pointer; color: var(--link); }
 .ad-chart details table { font-size: 0.82rem; margin-top: 6px; }
 
+/* Usage (LOR-413): the trend line in each feature row, the heard-to-the-end bars */
+.ad .ad-usage td { white-space: nowrap; vertical-align: middle; }
+.ad-spark { display: block; width: 120px; height: 26px; overflow: visible; }
+.ad-spark path { fill: none; stroke: var(--gold-soft); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.ad-spark circle { fill: var(--gold); stroke: var(--panel); stroke-width: 2; }
+.ad-rate { display: flex; gap: 8px; align-items: center; }
+.ad-rate > span:first-child { min-width: 2.8em; text-align: right; }
+.ad-rate-bar { flex: 1 1 80px; min-width: 60px; height: 6px; border-radius: 3px; background: #2a2a36; overflow: hidden; }
+.ad-rate-bar span { display: block; height: 100%; border-radius: 3px; background: var(--gold-soft); }
+
 /* Filters, lists and tables */
 .ad-filters { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; margin-bottom: 10px; }
 .ad-filters button, .ad-filters select, .ad-filters input {

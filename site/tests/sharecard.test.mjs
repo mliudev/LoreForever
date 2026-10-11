@@ -63,7 +63,7 @@ const facts = html => JSON.parse(/<script type="application\/json" id="pf-sharec
 test("POST /api/profile/card keeps the card, and the profile's links show it", async () => {
   const me = await signIn("g-1");
   const p = await profile(me);
-  const key = cardKey(p, false);
+  const key = cardKey(p, true);
   assert.equal((await send(me, jpeg(), key, { origin: "https://evil.example" })).status, 403);
   assert.equal((await send(null, jpeg(), key)).status, 401);
   assert.equal((await send(me, jpeg(), key, { type: "image/png" })).status, 415);
@@ -79,17 +79,17 @@ test("POST /api/profile/card keeps the card, and the profile's links show it", a
   // Visitors' links show it; the owner's page has nothing to draw until the profile changes.
   assert.ok((await page(p.handle)).includes(`<meta property="og:image" content="https://loreforeverwow.com${url}">`));
   assert.ok(!(await page(p.handle, me.cookie)).includes(`id="pf-sharecard"`));
-  // Sam comes (the "companion" feature): a card with him on it is due.
-  env.SITE_FEATURES = "companion";
+  // Without Sam (the "companion" feature off): a card without him is due.
+  env.SITE_FEATURES = "-companion";
   const due = facts(await page(p.handle, me.cookie));
-  assert.equal(due.herald, true);
-  assert.equal(due.key, cardKey(p, true));
+  assert.equal(due.herald, false);
+  assert.equal(due.key, cardKey(p, false));
 });
 
 test("/share/<handle>-<sha>.jpg serves the card of a public profile, and nothing else", async () => {
   const me = await signIn("g-1");
   const p = await profile(me);
-  const { url } = await (await send(me, jpeg(), cardKey(p, false))).json();
+  const { url } = await (await send(me, jpeg(), cardKey(p, true))).json();
   const get = (path, headers = {}) => shareGet({ env, request: new Request(ORIGIN + path, { headers }),
     params: { file: path.split("/").pop() } });
   const res = await get(url);
@@ -103,13 +103,13 @@ test("/share/<handle>-<sha>.jpg serves the card of a public profile, and nothing
   assert.equal((await get(`/share/nobody-${sha}.jpg`)).status, 404);
   assert.equal((await call(me, "settings", { public: false })).status, 200);
   assert.equal((await get(url)).status, 404, "private now");
-  assert.equal((await send(me, jpeg(), cardKey(await profileOf(env, me.user.id), false))).status, 409, "no card for a private profile");
+  assert.equal((await send(me, jpeg(), cardKey(await profileOf(env, me.user.id), true))).status, 409, "no card for a private profile");
 });
 
 test("Delete my profile takes the card with it", async () => {
   const me = await signIn("g-1");
   const p = await profile(me);
-  assert.equal((await send(me, jpeg(), cardKey(p, false))).status, 200);
+  assert.equal((await send(me, jpeg(), cardKey(p, true))).status, 200);
   assert.equal((await call(me, "delete", {})).status, 200);
   assert.ok(!env.STUDIO.objects.has(cardFile(me.user.id)));
 });

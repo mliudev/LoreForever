@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Test of Allegiance",
-   "body": "Found stored in a crate beside the solitary mage Gunther Arcanus on his island in Brightwater Lake, the Candle of Beckoning serves as an instrument in a dark ritual of summoning. Gunther is a fiercely independent undead sorcerer who broke free of the Lich King's command on his own, remaining wary of the Scourge and the Forsaken alike. To prove your loyalty is not to the Lich King, Gunther directs you to take one of these candles southwest to a smaller islet. There, set upon an old, bloodstained table, the candle's flame pierces the veil between worlds to awaken and beckon the dormant shade of Lillith Nefara so she may be laid to rest.",
+   "body": "Found stored in a crate beside the solitary mage Gunther Arcanus on his island in Brightwater Lake, the Candle of Beckoning serves as an instrument in a dark ritual of summoning. Gunther is a fiercely independent undead sorcerer who broke free of the Lich King's command on his own, remaining wary of the Scourge and the Forsaken alike. To prove your loyalty is not to the Lich King, Gunther directs you to take one of these candles southwest to a smaller islet. There, set upon an old, bloodstained table, the candle's flame pierces the veil between worlds to awaken and beckon the dormant shade of Lillith Nefara, a powerful Scourge agent, so she may be destroyed.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "candle summon target",
     "who is lillith nefara"
    ],
-   "answer": "Lighting the candle summons Lillith Nefara, a vengeful ghostly shade tethered to the lake's islets. Defeating her is required to prove that you do not serve the Scourge."
+   "answer": "Lighting the candle summons Lillith Nefara, a powerful Scourge agent who haunts the bloody altar off the island's southern coast. Defeating her is required to prove that you do not serve the Scourge."
   },
   {
    "q": "Why does Gunther Arcanus have these candles?",

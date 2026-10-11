@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Ambermill"
  },
- "summary": "Ambermill is a fortified human settlement in central Silverpine Forest, situated just southwest of Lordamere Lake. Originally a Gilnean lumber village, it is now occupied by surviving wizards and apprentices of Dalaran. Their presence represents a dangerous outpost of human resistance on the southern borders of the Forsaken realm.",
+ "summary": "Ambermill is a fortified human settlement in central Silverpine Forest, situated just southwest of Lordamere Lake. Once a quiet lumber village, it is now occupied by surviving wizards and apprentices of Dalaran. Their presence represents a dangerous outpost of human resistance on the southern borders of the Forsaken realm.",
  "sections": [
   {
    "title": "A Bastion of Dalaran",
-   "body": "Before the Third War, Ambermill was a quiet lumber town on lands owned by the Gilnean nobleman Darius Crowley. When King Genn Greymane erected the Greymane Wall to seal his kingdom away, Ambermill was left stranded outside alongside Pyrewood Village. In the chaotic aftermath of Lordaeron's fall, the surviving wizards of the Kirin Tor moved in and fortified the settlement. Dalaran spellscribes, conjurors, and apprentices now patrol its buildings and stables, using Ambermill as a forward redoubt against the undead.",
+   "body": "Before the Third War, Ambermill was a quiet lumber town of little importance. In the chaotic aftermath of Lordaeron's fall, the surviving wizards of the Kirin Tor moved in and fortified the settlement. Dalaran spellscribes, conjurors, and apprentices now patrol its buildings and stables, using Ambermill as a forward redoubt against the undead.",
    "spoiler": 0
   },
   {
@@ -34,10 +34,9 @@
    "q": "Was Ambermill always part of Dalaran?",
    "aliases": [
     "ambermill history",
-    "who owned ambermill",
-    "gilneas ambermill"
+    "who owned ambermill"
    ],
-   "answer": "No. Ambermill was originally a lumber village belonging to the kingdom of Gilneas, located on estates held by Lord Darius Crowley. It was effectively cut off from its homeland when King Genn Greymane sealed the Greymane Wall."
+   "answer": "No. Before the Third War, Ambermill was a minor lumber village. The wizards of Dalaran only moved in and fortified it after the Scourge overran Lordaeron."
   },
   {
    "q": "Why do the Forsaken want to attack Ambermill?",
@@ -69,8 +68,6 @@
  "keywords": [
   "ambermill",
   "dalaran",
-  "darius crowley",
-  "greymane wall",
   "kirin tor",
   "ley line",
   "shadow priest allister",
@@ -82,9 +79,7 @@
   "npc:shadow-priest-allister",
   "quest:479",
   "quest:482",
-  "quest:1999",
-  "subzone:greymane-wall",
-  "npc:darius-crowley"
+  "quest:1999"
  ],
  "attribution": [
   "Ambermill"

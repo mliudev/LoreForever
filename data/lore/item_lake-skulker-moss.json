@@ -10,11 +10,11 @@
    "quest:451"
   ]
  },
- "summary": "Lake Skulker Moss is a biological reagent gathered from the amphibious threshadon beasts inhabiting the northern reaches of Lake Lordamere. It was identified by the deceased Apothecary Berard as a key organic component for the Royal Apothecary Society's research into brewing a New Plague.",
+ "summary": "Lake Skulker Moss is a biological reagent gathered from the amphibious threshadon beasts inhabiting the northern reaches of Lake Lordamere. It was identified by Apothecary Berard, before Arugal's curse claimed his mind, as a key organic component for the Royal Apothecary Society's research into brewing a New Plague.",
  "sections": [
   {
    "title": "A Plague Reagent",
-   "body": "Harvested from the hides and shells of Lake Skulkers and Elder Lake Skulkers on the Dawning Isles, this damp aquatic moss possesses properties prized by Forsaken alchemists. Prior to his demise, Apothecary Berard meticulously cataloged the flora and fauna of eastern Silverpine Forest, concluding in his journal that both Lake Skulker and Lake Creeper mosses could serve as stabilizing or reactive agents. Following Berard's death, Apothecary Renferrel recovered these field notes and instructed Forsaken champions to gather moss samples alongside a rare tumor from local Vile Fin murlocs, delivering them directly to Master Apothecary Faranell in the Undercity.",
+   "body": "Harvested from the hides and shells of Lake Skulkers and Elder Lake Skulkers on the Dawning Isles, this damp aquatic moss possesses properties prized by Forsaken alchemists. Before Arugal's curse claimed his mind, Apothecary Berard meticulously cataloged the flora and fauna of eastern Silverpine Forest, concluding in his journal that both Lake Skulker and Lake Creeper mosses could serve as stabilizing or reactive agents. After Berard became a mindless servant of Arugal, his journal was recovered from Pyrewood Village for Apothecary Renferrel, who instructed Forsaken champions to gather moss samples alongside a rare tumor from local Vile Fin murlocs, delivering them directly to Master Apothecary Faranell in the Undercity.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "berard moss",
     "apothecary berard research"
    ],
-   "answer": "Apothecary Berard first identified its potential during his field research in Silverpine Forest. Although Berard was killed, his surviving journal guided Apothecary Renferrel and Master Apothecary Faranell to continue his experiments."
+   "answer": "Apothecary Berard first identified its potential during his field research in Silverpine Forest. Although Arugal's curse left Berard a mindless servant, his surviving journal guided Apothecary Renferrel and Master Apothecary Faranell to continue his experiments."
   },
   {
    "q": "Who requires this reagent?",

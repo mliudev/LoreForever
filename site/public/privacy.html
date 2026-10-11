@@ -38,10 +38,11 @@
 
 <!-- Keep this page true to the code: what each table keeps is in lib/accounts.js (SETUP, and USER_DATA for what
      "Delete my account" removes), lib/submissions.js, functions/api/feedback.js, functions/api/translations*.js,
-     lib/subscribers.js, lib/donate.js (lent voices), lib/contribute.js (shared game text) and lib/clipreports.js. When something here changes, change the date below. -->
+     lib/subscribers.js, lib/donate.js (lent voices), lib/contribute.js (shared game text), lib/clipreports.js and
+     lib/usage.js (usage counts). When something here changes, change the date below. -->
 <main class="wrap vp-page vp-doc">
   <h1>Privacy</h1>
-  <p class="vp-version">Updated 2026-10-04</p>
+  <p class="vp-version">Updated 2026-10-10</p>
   <p class="pitch">What this site keeps about you, why, who else handles it, and how to get rid of it. The add-on
     itself can't send anything anywhere: it runs inside your game, and you only share what you copy out of it.</p>
 
@@ -61,7 +62,11 @@
       realm, level, the places, quests, bosses and so on it lists), plus the name and links you add. Never the record
       itself, or other players' names. It stays private until you make it public. If you connect the companion app to
       keep it up to date, the companion sends that same record after each <code>/reload</code> or logout, and we
-      keep when it connected and last updated your profile, and a scrambled (hashed) copy of its key.</li>
+      keep when it connected and last updated your profile, and a scrambled (hashed) copy of its key. With the record
+      it sends how often you used the add-on's features each day (narrations started and heard to the end, questions,
+      opening the Lore panel and Journey, pictures taken) and how many messages and new chats you had with Sam in the
+      companion: only those numbers, never what you asked, heard or wrote. We keep
+      them for 90 days and look at them only added up over all players, to see which features people use.</li>
     <li><strong>Your pictures</strong>, if you let the companion app put the pictures you take in game on your profile:
       the pictures, their captions, and where and when you took them (realm, zone, spot on the map, time). They show
       on your profile, and only while it's public. Anyone can report one; a picture several people report is
@@ -87,7 +92,9 @@
       likes and reports one person can send in a day, and tells apart the people sharing game text.</li>
   </ul>
   <p>Your country comes from your connection; we don't ask for it. Downloads and clicks on the download and Discord
-    links are counted per day as plain numbers, with nothing about who clicked. Your browser also remembers a few
+    links are counted per day as plain numbers, with the source the link names (like <code>?src=lore</code>) and
+    nothing about who clicked. Visits to profile pages and shares of them are counted the same way, with nothing about
+    who visited or shared. Your browser also remembers a few
     small things, like which version's news you've seen and, while you're signed in, the name at the top of the page,
     but those stay on your device.</p>
 
@@ -97,8 +104,9 @@
       also counts visits, without cookies, and runs Turnstile, a spam check, when we switch it on.</li>
     <li><strong>Google</strong> handles sign-in, serves the site's fonts, and writes profile stories: Google's API
       writes the story from your character's facts, never your email or name.</li>
-    <li><strong>fal.ai</strong> records your profile's story in our narrators' voices, for the Listen button on your
-      profile: it gets the story's text and nothing else.</li>
+    <li><strong>OpenRouter</strong> and <strong>Fish Audio</strong> record your profile's story in our narrators'
+      voices, for the Listen button on your profile (earlier recordings were made by <strong>fal.ai</strong>): they
+      get the story's text and nothing else.</li>
     <li><strong>Discord</strong>: feedback, voice and translation submissions are posted to a private channel so we
       see them quickly. Never your email address or your signature.</li>
     <li><strong>GitHub</strong> and <strong>CurseForge</strong> host the downloads, so they see it when you
@@ -136,8 +144,8 @@
       recordings in the <a href="/voices/studio">voice studio</a>, and single pictures on your profile or in the
       companion.</li>
     <li>Make your profile private again: untick Public on your account page.</li>
-    <li>Stop the companion app updating your profile: Disconnect it under Connected apps on your account page, or in
-      the companion.</li>
+    <li>Stop the companion app updating your profile, and sending its usage counts: Disconnect it under Connected apps
+      on your account page, or turn off keeping your profile up to date in the companion.</li>
     <li>Leave the email list: <a href="/unsubscribe">unsubscribe</a>.</li>
     <li>Anything else, like seeing what we hold about you or removing a voice you sent: ask on
       <a href="/discord">Discord</a>.</li>

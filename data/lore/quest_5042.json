@@ -25,7 +25,7 @@
    "Wisdom of Agamaggan"
   ]
  },
- "summary": "Agamaggan's Strength is a repeatable ritual offered by the captive quilboar Mangletooth in Camp Taurajo. By exchanging red Blood Shards harvested across the Barrens, travelers are granted the potent physical might revered by the Razormane tribe's greatest warriors. It fuels Mangletooth's bitter vengeance against his betrayers among the Bristleback quilboar.",
+ "summary": "Agamaggan's Strength is a repeatable ritual offered by the captive quilboar Mangletooth in Camp Taurajo. By exchanging red Blood Shards harvested across the Barrens, travelers are granted the potent physical might revered by the Razormane tribe's greatest warriors. It fuels Mangletooth's bitter hatred of the rival Bristleback quilboar.",
  "sections": [
   {
    "title": "Power of the Great Boar",
@@ -34,7 +34,7 @@
   },
   {
    "title": "A Bitter Shaman's Vengeance",
-   "body": "Mangletooth's generosity is entirely driven by spite. Captured and caged by the tauren, the old quilboar harbors a searing grudge against the rival Bristleback tribe, whom he blames for his betrayal and downfall. Since he cannot break his chains to slaughter them personally, he uses the ancient gifts of Agamaggan as currency, rewarding anyone who decimates the Bristleback tribes and strips their lands of their sacred Blood Shards.",
+   "body": "Mangletooth's generosity is entirely driven by spite. Captured and caged by the orcs and tauren, the old quilboar harbors a searing grudge against the rival Bristleback tribe, the enemies of his own Razormane. Since he cannot break his chains to slaughter them personally, he uses the ancient gifts of Agamaggan as currency, rewarding anyone who decimates the Bristleback tribes and strips their lands of their sacred Blood Shards.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "caged quilboar taurajo",
     "taurajo prisoner"
    ],
-   "answer": "Mangletooth is an imprisoned Razormane quilboar kept in a cage at Camp Taurajo in the southern Barrens. Deeply bitter over his betrayal by the rival Bristleback tribe, he gladly trades quilboar secrets and divine blessings in exchange for Blood Shards."
+   "answer": "Mangletooth is an imprisoned Razormane quilboar kept in a cage at Camp Taurajo in the southern Barrens. Deeply hateful of the rival Bristleback tribe, he gladly trades quilboar secrets and divine blessings in exchange for Blood Shards."
   },
   {
    "q": "What are Blood Shards?",
@@ -73,7 +73,7 @@
     "mangletooth motives",
     "why help horde"
    ],
-   "answer": "Mangletooth's aid is fueled by vengeance against his own kind. Betrayed by the Bristleback quilboar, he eagerly bestows Agamaggan's blessings upon Horde champions so long as they butcher his rivals and pillage their sacred Blood Shards."
+   "answer": "Mangletooth's aid is fueled by hatred of the rival Bristleback quilboar. Abandoned by his own people and caged at Camp Taurajo, he eagerly bestows Agamaggan's blessings upon Horde champions so long as they butcher his rivals and pillage their sacred Blood Shards."
   },
   {
    "q": "Can you receive this blessing more than once?",
@@ -91,7 +91,7 @@
     "quilboar tribes barrens",
     "why does mangletooth hate bristleback"
    ],
-   "answer": "The Bristleback and Razormane are rival quilboar factions contesting the Barrens. Mangletooth belongs to the Razormane and despises the Bristleback, accusing them of scheming and orchestrating his imprisonment."
+   "answer": "The Bristleback and Razormane are rival quilboar factions contesting the Barrens. Mangletooth belongs to the Razormane and despises the Bristleback, boasting that the Razormane are the more powerful tribe."
   }
  ],
  "angles": [

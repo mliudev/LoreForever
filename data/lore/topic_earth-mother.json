@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Earth Mother"
  },
- "summary": "The Earth Mother is the supreme, benevolent creator deity worshipped by the tauren, revered as the living embodiment and architect of Azeroth's land and elements. In tauren myth, she shaped the mountains, plains, and seasons before sacrificing her physical form to shield her mortal children from dark whispers rising from the earth's depths. Her presence permeates everyday tauren culture, guiding their reverence for nature, duty to the elements, and hopes for the afterlife.",
+ "summary": "The Earth Mother is the supreme, benevolent creator deity worshipped by the tauren, revered as the living embodiment and architect of Azeroth's land and elements. In tauren myth, she shaped the mountains, plains, and seasons and set the sun and moon in the sky as her watchful eyes. Her presence permeates everyday tauren culture, guiding their reverence for nature, duty to the elements, and hopes for the afterlife.",
  "sections": [
   {
    "title": "The Dawn of Creation",
-   "body": "Tauren creation myths tell that before day and night existed, the Earth Mother braved the void alone, untouched by the whispering shadows of the Old Ones trapped beneath the surface. To provide a safe haven for her coming offspring, she set about shaping Azeroth. Scraping her nails across newly raised mountains sparked the world's first fires, while her hands carved rivers and ocean beds. Her laughter gave breath to the wind, and by lifting the primordial fogs into the sky, she brought the first rains, which coaxed grass, forests, and grain from the soil.",
+   "body": "Tauren creation myths tell that before day and night existed, the Earth Mother set about shaping Azeroth as a haven for her coming children. Scraping her nails across newly raised mountains sparked the world's first fires, while her hands carved rivers and ocean beds. Her laughter gave breath to the wind, and by lifting the primordial fogs into the sky, she brought the first rains, which coaxed grass, forests, and grain from the soil.",
    "spoiler": 0
   },
   {
@@ -20,13 +20,13 @@
    "spoiler": 0
   },
   {
-   "title": "The Great Sorrow and Sacrifice",
-   "body": "While the Earth Mother slept, the shadowy Old Ones crept into the hearts of some tauren, teaching them hatred, violence, and warfare. Devastated by the corruption of her children, she wept a single tear that became Lo'sho, the Blue Child. Fearful that she might one day fall to the darkness herself, she tore An'she and Mu'sha from her eyes so they would never be tainted, casting them into the sky to watch over the land. She then threw herself across the world, rooting her essence into the soil to trap the shadows forever, sacrificing her mobility so the shu'halo could survive.",
+   "title": "Eyes in the Heavens",
+   "body": "In time, the Earth Mother set An'she and Mu'sha in the sky, where the sun and moon keep watch over the land by day and by night. Tauren say that her spirit now dwells in the rivers, trees, plains, and mountains of the world, and that every lesser nature spirit springs from her and returns to her in the end.",
    "spoiler": 0
   },
   {
    "title": "Living Legacy",
-   "body": "Although the Earth Mother gave up her physical presence, tauren believe her spirit cradles Azeroth still. Her ear is attuned to the winds, hearing the prayers of her children, and her heart beats within the deep stone. Tauren hunters, shamans, and druids direct their thanks to her for every kill and harvest, believing that all life originates from her embrace and that every tauren's spirit returns to her soil upon death.",
+   "body": "Tauren believe her spirit cradles Azeroth still. Her ear is attuned to the winds, hearing the prayers of her children, and her heart beats within the deep stone. Tauren hunters, shamans, and druids direct their thanks to her for every kill and harvest, believing that all life originates from her embrace and that every tauren's spirit returns to her soil upon death.",
    "spoiler": 0
   }
  ],
@@ -47,16 +47,7 @@
     "tauren sun and moon",
     "earth mother eyes"
    ],
-   "answer": "Her right eye is An'she, the sun, who brings light and warmth to the world. Her left eye is Mu'sha, the White Lady moon, who brings peace and slumber. Tauren myth states she tore them from her brow and placed them in the heavens to protect them from corruption."
-  },
-  {
-   "q": "What is the Blue Child in tauren myth?",
-   "aliases": [
-    "losho",
-    "blue moon tauren",
-    "earth mother tear"
-   ],
-   "answer": "The Blue Child, known as Lo'sho, is Azeroth's smaller celestial body. Tauren mythology holds that it was born from a single, radiant tear the Earth Mother wept upon witnessing her children fall to the corrupting whispers of the Old Ones."
+   "answer": "Her right eye is An'she, the sun, who brings light and warmth to the world. Her left eye is Mu'sha, the White Lady moon, who brings peace and slumber. Tauren myth states she placed them in the heavens to watch over the land."
   },
   {
    "q": "Is the Earth Mother an actual living entity?",
@@ -109,7 +100,6 @@
   "creation",
   "earth mother",
   "earthmother",
-  "lo'sho",
   "mu'sha",
   "mulgore",
   "shu'halo",

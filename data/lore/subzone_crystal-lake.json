@@ -13,11 +13,6 @@
    "title": "A Troubled Shore",
    "body": "Situated within walking distance of Lion's Pride Inn, Crystal Lake should be an idyllic rural retreat, but it is plagued by dangerous wildlife. Tribes of freshwater murlocs have claimed the shoreline and shallow shoals, attacking anyone who strays too close. Local alchemist William Pestle frequently hires passing adventurers to venture to the water's edge, directing them to defeat the creatures and harvest the crystal kelp they carry for use in his experimental concoctions.",
    "spoiler": 0
-  },
-  {
-   "title": "The Silent Island",
-   "body": "Resting quietly in the center of the lake is a tiny, isolated islet. Solitary and overgrown, it bears a simple grave marked with the tender inscription: 'Deeply missed, never forgotten.' The identity of whoever rests beneath the soil remains unrecorded in town ledgers, providing a somber mystery amidst the surrounding croaks of the shoreline murlocs.",
-   "spoiler": 0
   }
  ],
  "faq": [
@@ -38,15 +33,6 @@
     "crystal lake murlocs"
    ],
    "answer": "Like many waterways in Elwynn Forest, Crystal Lake provides a natural freshwater habitat where murlocs can nest and forage. Their numbers have swelled close to Goldshire due to the strained resources of Stormwind's local guard."
-  },
-  {
-   "q": "Whose grave is on the island in the lake?",
-   "aliases": [
-    "crystal lake grave",
-    "tombstone on island elwynn",
-    "who is buried at crystal lake"
-   ],
-   "answer": "The grave marker on the central island reads only 'Deeply missed, never forgotten.' There is no name etched upon the stone, leaving the identity of the person buried there an enduring local mystery."
   },
   {
    "q": "What do adventurers need from Crystal Lake?",
@@ -73,8 +59,6 @@
   "crystal lake",
   "elwynn",
   "goldshire",
-  "grave",
-  "jason mathers",
   "murloc",
   "william pestle"
  ],

@@ -1126,13 +1126,18 @@ function Voice.Preview(value)
   end
   if not ids[1] then return false, L["None of its recordings match this version of Lore Forever."] end
   for i = 1, math.min(#ids, 5) do
-    local ok, willPlay, handle = pcall(PlaySoundFile, Voice.ClipPath(name, ids[i], data.ext), channel())
-    if ok and willPlay then
-      Voice.handle = handle
-      Voice.previewClip = ids[i]
-      setPreview(value)
-      watchPreview(handle)
-      return true
+    -- The main download leaves out a story's overview when its current complete recording plays instead, and a long
+    -- recording ships in pieces: their first piece is the sample then.
+    local whole = Voice.Transport and (Voice.Transport(ids[i], name, true) or Voice.Transport(ids[i], name))
+    for _, path in ipairs({ Voice.ClipPath(name, ids[i], data.ext), whole and whole.rates[1][1].path or nil }) do
+      local ok, willPlay, handle = pcall(PlaySoundFile, path, channel())
+      if ok and willPlay then
+        Voice.handle = handle
+        Voice.previewClip = ids[i]
+        setPreview(value)
+        watchPreview(handle)
+        return true
+      end
     end
   end
   return false, string.format(L["A recording didn't play (%s). If it keeps happening, reinstall that voice."],
@@ -1154,7 +1159,8 @@ local function now() return GetTime and GetTime() or 0 end
 
 function Voice.Stop()
   if Voice.handle and _G.StopSound then pcall(StopSound, Voice.handle) end
-  Voice.handle, Voice.transport, Voice.transportToken, Voice.ended, Voice.failed = nil, nil, nil, nil, nil
+  if Voice.tailHandle and _G.StopSound then pcall(StopSound, Voice.tailHandle) end
+  Voice.handle, Voice.tailHandle, Voice.transport, Voice.transportToken, Voice.ended, Voice.failed = nil, nil, nil, nil, nil, nil
   setPreview(nil)
 end
 
@@ -1244,15 +1250,19 @@ end
 Voice.brokenTransport = {}
 function Voice.Transport(key, pack, wholeRecording)
   if ns.lang and ns.lang.edition then return nil end -- contributed overviews never become inherited full reads
-  -- Starting a new sound every few seconds causes audible gaps in the client. Keep this prototype hidden
-  -- until continuous handoffs are verified in game; ordinary listening uses the existing single recording.
-  if not wholeRecording and S().experimentalSegmentedPlayback ~= true then return nil end
   if Voice.brokenTransport[tostring(pack) .. ":" .. tostring(key)] then return nil end
   local data = pack and ns.Packs.data[pack]
   local row = data and data.transportVersion == 1 and type(data.transport) == "table" and data.transport[key]
+  -- A complete story split inside its sentence pauses (chain = true, LOR-346) plays its pieces back to back: each
+  -- handoff falls in a pause. The older prototype's pieces were cut every six seconds, often mid-word, and gapped in
+  -- the client, so those stay behind the explicit opt-in; ordinary listening uses the single recording.
+  -- Answers, quest dialogue and overviews split the same way (no fullHash) carry no script: Clips.lua's hash binds them.
+  local chain = type(row) == "table" and row.chain == true
+  if not wholeRecording and not chain and S().experimentalSegmentedPlayback ~= true then return nil end
   if type(row) ~= "table" or type(row.hash) ~= "string" or row.hash == ""
       or row.hash ~= (data.clips and data.clips[key])
-      or type(row.text) ~= "string" or not row.text:find("%S") or #row.text > 65536 then return nil end
+      or not ((chain and row.fullHash == nil and row.text == nil)
+        or (type(row.text) == "string" and row.text:find("%S") and #row.text <= 65536)) then return nil end
   if row.fullHash ~= nil and ((ns.DB.fullclipsLocale or "enUS") ~= readingLocale()
       or type(row.fullHash) ~= "string" or row.fullHash ~= (ns.DB.fullclips and ns.DB.fullclips[key])) then
     return nil
@@ -1261,7 +1271,7 @@ function Voice.Transport(key, pack, wholeRecording)
   if type(assetPack) ~= "string" or not assetPack:match("^[%w_%-]+$") then return nil end
   local base = row["1"]
   if not dense(base) then return nil end
-  if wholeRecording and (not row.fullHash or #base ~= 1) then return nil end
+  if wholeRecording and (not row.fullHash or (#base ~= 1 and not chain)) then return nil end
   local starts, total = {}, 0
   for i, part in ipairs(base) do
     if type(part) ~= "table" or not finite(part.duration) or part.duration > 600 then return nil end
@@ -1271,7 +1281,7 @@ function Voice.Transport(key, pack, wholeRecording)
     starts[i], total = start, start + part.duration
   end
   local out = { key = key, pack = pack, assetPack = assetPack, hash = row.hash, fullHash = row.fullHash, duration = total,
-    text = type(row.text) == "string" and row.text or nil, rates = {} }
+    text = type(row.text) == "string" and row.text or nil, chain = chain and #base > 1, rates = {} }
   for _, rate in ipairs(Voice.PLAYBACK_RATES) do
     local parts, valid, list = row[tostring(rate)], true, {}
     if not dense(parts) or #parts ~= #base then valid = false end
@@ -1312,13 +1322,30 @@ function Voice.Position()
   return t.failedOffset or math.min(part.finish, part.start + elapsed * t.rate), t.row.duration, t.rate
 end
 
-local function segment(t, index)
+-- The next piece starts on the clock, HANDOFF_EARLY before the one playing is due to end, not once the game reports
+-- it stopped: waiting for that, then for the next sound to start, left a gap at every handoff. The piece that played
+-- keeps going under it (Voice.tailHandle): it ends in the pause the cut sits in, so nothing audible overlaps, and as
+-- each piece starts with the same delay in the game, the pause keeps its recorded length.
+local HANDOFF_EARLY = 0.02
+
+local function segment(t, index, scheduled)
   if not Voice.CanPlay(t.row.key) then return false end
   local part = t.parts[index]
   if not part then return false end
+  local previous = Voice.handle
   local ok, plays, handle = pcall(PlaySoundFile, part.path, channel())
   if not (ok and plays) then return false end
-  Voice.handle, t.index, t.started, t.seenPlaying = handle, index, (GetTime and GetTime()) or 0, false
+  local now = (GetTime and GetTime()) or 0
+  if scheduled then
+    -- Long finished (pieces run six seconds or more); the one just handed over plays out its pause.
+    if Voice.tailHandle and _G.StopSound then pcall(StopSound, Voice.tailHandle) end
+    Voice.tailHandle = previous
+  end
+  -- Time each piece from when the last one was due to end, so a late frame doesn't add up over a story; after a
+  -- longer stall (a loading screen) start the clock again. t.late: how late this handoff was (/lore qa reports it).
+  t.late = scheduled and now - scheduled or nil
+  if not (scheduled and now - scheduled < 0.25) then scheduled = now end
+  Voice.handle, t.index, t.started, t.seenPlaying = handle, index, scheduled, false
   if Voice.lastClip then Voice.lastClip.path = part.path end
   return true
 end
@@ -1329,7 +1356,7 @@ local function beginTransport(row, options)
   if not offset or offset ~= offset or offset < 0 or offset == math.huge or offset >= row.duration then offset = 0 end
   local parts, index = row.rates[rate], 1
   for i, part in ipairs(parts) do if part.start <= offset then index = i else break end end
-  local t = { row = row, parts = parts, rate = rate, index = index }
+  local t = { row = row, parts = parts, rate = rate, index = index, lastTick = (GetTime and GetTime()) or 0 }
   if not segment(t, index) then return false end
   Voice.transport, Voice.transportToken = t, {}
   local token = Voice.transportToken
@@ -1339,9 +1366,14 @@ local function beginTransport(row, options)
       if ns.UI and ns.UI.StopAll then ns.UI.StopAll() else Voice.Stop() end
       return
     end
+    local now = (GetTime and GetTime()) or 0
     local part = t.parts[t.index]
-    local elapsed = ((GetTime and GetTime()) or 0) - t.started
+    local elapsed = now - t.started
     local playing = soundPlaying()
+    -- Frames stopped for a while (a loading screen): the piece may have ended unseen. That's no failure; go on with
+    -- the next piece now (or end after the last), unless the game says it still plays.
+    local stalled = now - t.lastTick > 1
+    t.lastTick = now
     local function fail(path, offset)
       if Voice.handle and _G.StopSound then pcall(StopSound, Voice.handle) end
       warnCantPlay(path)
@@ -1349,29 +1381,33 @@ local function beginTransport(row, options)
       Voice.handle, Voice.transportToken, Voice.failed = nil, nil, true
     end
     if playing == true then t.seenPlaying = true end
-    if elapsed > part.duration + 5 then
+    if not stalled and elapsed > part.duration + 5 then
       -- A stalled handle is a failure, never successful completion of the story.
       fail(part.path, part.start)
       return
     end
     -- Give an initially delayed sound handle time to start. Once observed playing, no extra gap is needed.
     local stopped = playing == false and (t.seenPlaying or elapsed >= math.min(1, part.duration))
-    if stopped and elapsed < part.duration - 0.75 then
+    if not stalled and stopped and elapsed < part.duration - 0.75 then
       fail(part.path, part.start)
       return
     end
-    if stopped or (playing == nil and elapsed >= part.duration) then
-      if t.index >= #t.parts then
-        Voice.handle, Voice.transport, Voice.transportToken, Voice.ended = nil, nil, nil, true
-        return
-      end
+    local last = t.index >= #t.parts
+    if last and (stopped or (playing == nil and elapsed >= part.duration) or (stalled and playing ~= true)) then
+      Voice.handle, Voice.tailHandle, Voice.transport, Voice.transportToken, Voice.ended = nil, nil, nil, nil, true
+      return
+    end
+    if not last and (elapsed >= part.duration - HANDOFF_EARLY or (stalled and playing ~= true)) then
       local nextPart = t.parts[t.index + 1]
-      if not segment(t, t.index + 1) then
+      if not segment(t, t.index + 1, stalled and now or t.started + part.duration) then
         fail(nextPart.path, nextPart.start)
         return
       end
+      part, elapsed = nextPart, ((GetTime and GetTime()) or 0) - t.started
     end
-    C_Timer.After(0.05, tick)
+    -- Wake in time for the next handoff; otherwise look a few times a second (a piece that stops early has failed).
+    local due = t.index < #t.parts and part.duration - HANDOFF_EARLY - elapsed or 0.1
+    C_Timer.After(math.max(0.01, math.min(0.1, due)), tick)
   end
   C_Timer.After(0.05, tick)
   return true
@@ -1396,6 +1432,8 @@ function Voice.Play(key, options)
       local data = pack and ns.Packs.data[pack]
       local whole = not continuing and Voice.Transport(key, pack, true)
       local row = not whole and Voice.Transport(key, pack)
+      local pieces = whole and whole.chain
+      if pieces then whole, row = nil, whole end   -- a complete story in pieces: play them in turn
       local resume = row and options and options.pack == pack and options.hash == row.hash
         and options.fullHash == row.fullHash
       if continuing and not resume then warnCantPlay(path) return false end
@@ -1410,7 +1448,9 @@ function Voice.Play(key, options)
           return false
         end
       end
-      if not started then
+      -- A story whose pieces won't play falls back to its overview only while that's current (the main download
+      -- may leave it out).
+      if not started and not (pieces and not Voice.ClipCurrent(key, pack, ((ns.DB and ns.DB.clipHash) or {})[key])) then
         local playbackPath = whole and whole.rates[1][1].path or path
         local ok, willPlay, h = pcall(PlaySoundFile, playbackPath, channel())
         started, handle = ok and willPlay, h

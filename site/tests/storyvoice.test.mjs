@@ -11,7 +11,7 @@ import { onRequest as takeGet } from "../functions/audio/story/[file].js";
 import { onRequest as profileApi } from "../functions/api/profile/[action].js";
 import { findOrCreateUser, startSession, setup, deleteUser, sha256 } from "../lib/accounts.js";
 import { parseRecord } from "../lib/journey.js";
-import { storyParts, storyKey, hookToken, embeddingKey, takeKey, NARRATORS, DEFAULT_NARRATOR, setupStoryVoice, CHUNK, MAX_TRIES, MICRO_USD_PER_CHAR } from "../lib/storyvoice.js";
+import { storyParts, storyKey, hookToken, embeddingKey, referenceKey, transcriptKey, takeKey, NARRATORS, DEFAULT_NARRATOR, setupStoryVoice, CHUNK, MAX_TRIES, MICRO_USD_PER_CHAR, MICRO_USD_PER_BYTE, FISH_MODEL, mp3Seconds } from "../lib/storyvoice.js";
 import { d1, r2, assets } from "./helpers.mjs";
 import { RECORD } from "./fixtures/journey/record.mjs";
 
@@ -378,4 +378,118 @@ test("an explicit profile sync selects only the new story's pending, failed and 
     assert.ok(!ready.html.includes("/" + old + "/"));
     assert.ok((await rows()).every(r => r.story === fresh));
   } finally { delete env.GEMINI_API_KEY; globalThis.fetch = falFetch; }
+});
+
+
+// ---- Fish Audio through OpenRouter ----
+
+const WAV = tag => new Uint8Array([...new TextEncoder().encode("RIFF"), 0, 0, 0, 0, ...new TextEncoder().encode("WAVE"), tag]);
+// A constant-bitrate MP3 that lasts one second: an empty ID3 tag, then a 128 kbps MPEG-1 Layer III frame header.
+const FISH_MP3 = new Uint8Array([0x49, 0x44, 0x33, 4, 0, 0, 0, 0, 0, 0, 0xff, 0xfb, 0x90, 0x00, ...new Uint8Array(15996)]);
+let speech = [];
+function openrouter({ status = 200 } = {}) {
+  speech = [];
+  globalThis.fetch = async (url, init = {}) => {
+    const u = new URL(String(url));
+    if (u.hostname !== "openrouter.ai" || u.pathname !== "/api/v1/audio/speech") throw new Error(`unexpected fetch ${url}`);
+    speech.push({ body: JSON.parse(init.body), auth: init.headers.Authorization });
+    return status === 200 ? new Response(FISH_MP3) : new Response("busy", { status });
+  };
+}
+async function putRef(lang, text) {
+  await env.STUDIO.put(referenceKey(DEFAULT_NARRATOR, lang), WAV(lang.charCodeAt(0)));
+  await env.STUDIO.put(transcriptKey(DEFAULT_NARRATOR, lang), text);
+}
+async function setLocale(handle, locale) {
+  const row = await env.DB.prepare("SELECT data FROM profiles WHERE handle = ?").bind(handle).first();
+  await env.DB.prepare("UPDATE profiles SET data = ? WHERE handle = ?").bind(JSON.stringify({ ...JSON.parse(row.data), locale }), handle).run();
+}
+// One page view, its background work finished: the page's HTML.
+async function viewOnce(handle, cookie = "") {
+  const jobs = [];
+  const headers = new Headers(cookie ? { Cookie: cookie } : {});
+  const res = await profileGet({ request: new Request(`${ORIGIN}/u/${handle}`, { headers }), env, params: { handle }, waitUntil: j => jobs.push(j) });
+  await Promise.all(jobs);
+  return res.text();
+}
+// A view that records, then the page as the next visitor sees it.
+async function viewAndWait(handle, cookie = "") {
+  await viewOnce(handle, cookie);
+  return viewOnce(handle, cookie);
+}
+
+test("with the OpenRouter key, Fish records every part from the narrator's reference and the page offers it", async () => {
+  env.OPENROUTER_API_KEY = "or-test-key";
+  openrouter();
+  await putRef("en", "Gather round the fire.");
+  await makeProfile("fishy");
+  const html = await viewAndWait("fishy");
+  const parts = storyParts(STORY);
+  assert.equal(speech.length, parts.length);
+  assert.equal(speech[0].auth, "Bearer or-test-key");
+  assert.equal(speech[0].body.model, FISH_MODEL);
+  assert.deepEqual(speech[0].body.provider, { data_collection: "deny" });
+  assert.match(speech[0].body.input_references[0].input_audio.data, /^data:audio\/wav;base64,/);
+  assert.equal(speech[0].body.input_references[1].text, "Gather round the fire.");
+  assert.match(speech[0].body.input, /Tel-drassil/, "English stories are still respelled");
+  assert.ok((await rows()).every(r => r.status === "done" && r.sec === 1));
+  const data = listenData(html);
+  assert.equal(data.voices["male-narrator"].length, parts.length);
+  const bytes = speech.reduce((a, x) => a + new TextEncoder().encode(x.body.input).length, 0);
+  assert.equal((await env.DB.prepare("SELECT voice_micro_usd, reserved_micro FROM story_spend").first()).voice_micro_usd, bytes * MICRO_USD_PER_BYTE);
+  assert.equal(mp3Seconds(FISH_MP3), 1);
+  delete env.OPENROUTER_API_KEY;
+});
+
+test("another language is read from a native speaker's reference, never the English narrator's", async () => {
+  env.OPENROUTER_API_KEY = "or-test-key";
+  openrouter();
+  await putRef("en", "Gather round the fire.");
+  await makeProfile("shoc");
+  await setLocale("shoc", "es");
+  await viewAndWait("shoc");
+  assert.equal(speech.length, 0, "no Spanish reference: the story stays text");
+  assert.equal((await rows()).length, 0);
+  await putRef("es", "Hace mucho tiempo, junto al río.");
+  await viewAndWait("shoc");
+  assert.ok(speech.length > 0);
+  assert.ok(speech.every(x => x.body.input_references[1].text === "Hace mucho tiempo, junto al río."));
+  assert.ok(!/Tel-drassil/.test(speech[0].body.input), "respellings are English only");
+  delete env.OPENROUTER_API_KEY;
+});
+
+test("fal reads English stories only", async () => {
+  await makeProfile("sombra");
+  await setLocale("sombra", "es");
+  await viewAndWait("sombra");
+  assert.equal(sent.length, 0);
+});
+
+test("a part Fish fails is marked failed, its reservation released, and recorded again on a later view", async () => {
+  env.OPENROUTER_API_KEY = "or-test-key";
+  openrouter({ status: 503 });
+  await putRef("en", "Gather round the fire.");
+  await makeProfile("flaky");
+  await viewOnce("flaky");
+  assert.ok((await rows()).every(r => r.status === "failed" && /openrouter 503/.test(r.error)));
+  assert.equal((await env.DB.prepare("SELECT reserved_micro FROM story_spend").first()).reserved_micro, 0);
+  openrouter();
+  await viewOnce("flaky");
+  assert.ok((await rows()).every(r => r.status === "done"));
+  delete env.OPENROUTER_API_KEY;
+});
+
+test("narrator references go in with the admin key, as a WAV with its transcript", async () => {
+  env.ADMIN_KEY = "admin";
+  const put = (auth, { lang = "es", body = WAV(1), transcript = "Hola." } = {}) => voiceApi({ request: new Request(
+    `${ORIGIN}/api/profile/voice?narrator=male-narrator&lang=${lang}`, { method: "PUT", body,
+      headers: { ...(auth ? { Authorization: `Bearer ${auth}` } : {}), ...(transcript ? { "X-Transcript": encodeURIComponent(transcript) } : {}) } }), env });
+  assert.equal((await put(null)).status, 401);
+  assert.equal((await put("admin", { lang: "xx" })).status, 400);
+  assert.equal((await put("admin", { transcript: "" })).status, 400);
+  assert.equal((await put("admin", { body: new Uint8Array([1, 2, 3, 4]) })).status, 415);
+  assert.equal((await put("admin", { transcript: "¿Dónde está el río?" })).status, 200);
+  assert.equal(await new Response((await env.STUDIO.get(transcriptKey("male-narrator", "es"))).body).text(), "¿Dónde está el río?");
+  assert.ok(await env.STUDIO.head(referenceKey("male-narrator", "es")));
+  delete env.ADMIN_KEY;
 });

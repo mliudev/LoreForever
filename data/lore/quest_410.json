@@ -17,11 +17,11 @@
   "wiki": "The Dormant Shade",
   "chain": []
  },
- "summary": "The Dormant Shade is a dark ritual performed within the ruined homesteads of Tirisfal Glades. By placing a mystic candle upon an old, blood-soaked table, a traveler summons forth a restless spirit tied to the Forsaken's dark rites of loyalty.",
+ "summary": "The Dormant Shade is a dark ritual performed at Gunther's Retreat on Brightwater Lake in Tirisfal Glades. By placing a mystic candle upon an old, blood-soaked table, a traveler summons forth a restless spirit tied to the Forsaken's dark rites of loyalty.",
  "sections": [
   {
    "title": "A Gruesome Altar",
-   "body": "Amid the blighted ruins of Tirisfal Glades rests a battered, bloody dinner table. Far from an ordinary piece of neglected domestic furniture, it serves as the physical focus for a sinister conjuration. Stained with dried gore and abandoned to the shadows, the table acts as a makeshift ritual slab where death and dark magic linger.",
+   "body": "On the island of Gunther's Retreat in Brightwater Lake rests a battered, bloody dinner table. Far from an ordinary piece of neglected domestic furniture, it serves as the physical focus for a sinister conjuration. Stained with dried gore and abandoned to the shadows, the table acts as a makeshift ritual slab where death and dark magic linger.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "dormant shade ghost",
     "who is the shade"
    ],
-   "answer": "The ritual draws forth Lillith Nefara, an undead spirit haunting the ruined homesteads of Tirisfal Glades."
+   "answer": "The ritual draws forth Lillith Nefara, an undead spirit and Scourge agent haunting Gunther's Retreat on Brightwater Lake in Tirisfal Glades."
   },
   {
    "q": "How does this relate to proving allegiance to the Forsaken?",
@@ -65,7 +65,7 @@
     "where is the table",
     "lilliths dinner table"
    ],
-   "answer": "The ritual occurs at an old ruined homestead in Tirisfal Glades, at a battered wooden dinner table stained with dried blood."
+   "answer": "The ritual occurs at Gunther's Retreat, Gunther Arcanus's island in Brightwater Lake in Tirisfal Glades, at a battered dinner table stained with dried blood just off the island's southern coast."
   },
   {
    "q": "Can anyone light the candle?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, performing rituals over the bloodied ruins of Lordaeron's former homes is a grim reminder that their new existence is forged through death, dark magic, and unyielding loyalty to the Dark Lady."
+   "text": "For the Forsaken, performing rituals over a bloodied altar in the heart of Tirisfal is a grim reminder that their new existence is forged through death, dark magic, and unyielding loyalty to the Dark Lady."
   },
   {
    "target": "class:Warlock",

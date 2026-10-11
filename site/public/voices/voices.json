@@ -44,7 +44,7 @@
           "addon": "LoreForever_Voice_QuestGivers",
           "status": "live",
           "included": false,
-          "clips": 1526,
+          "clips": 1821,
           "coverage": "Reads selected quest dialogue for male human, dwarf, Forsaken and orc quest givers. Turn on Speak quest dialogue and Match the quest giver's voice in Options. Other lines use your narrator's recording where available, or stay as text. These are quest lines, separate from Lore Forever's stories and answers.",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_QuestGivers.zip"
         },
@@ -173,7 +173,7 @@
           "name": "Answers about quests, levels 1-13",
           "addon": "LoreForever_Voice_Default_Answers_Quests1",
           "status": "live",
-          "clips": 2761,
+          "clips": 2748,
           "coverage": "questions and answers about quests up to level 13",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests1.zip"
         },
@@ -608,7 +608,7 @@
           "name": "Answers about zones and places",
           "addon": "LoreForever_Voice_Female_Answers_Places",
           "status": "live",
-          "clips": 3469,
+          "clips": 3450,
           "coverage": "recorded answers about zones, capitals, dungeons and places (other answers stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Places.zip"
         },
@@ -617,7 +617,7 @@
           "name": "Answers about lore and items",
           "addon": "LoreForever_Voice_Female_Answers_Lore",
           "status": "live",
-          "clips": 506,
+          "clips": 503,
           "coverage": "questions and answers about the world's lore and its items",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Lore.zip"
         },
@@ -626,7 +626,7 @@
           "name": "Answers about people",
           "addon": "LoreForever_Voice_Female_Answers_People",
           "status": "live",
-          "clips": 3411,
+          "clips": 3391,
           "coverage": "questions and answers about the people you meet",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_People.zip"
         },
@@ -635,7 +635,7 @@
           "name": "Answers about quests, levels 1-13",
           "addon": "LoreForever_Voice_Female_Answers_Quests1",
           "status": "live",
-          "clips": 2762,
+          "clips": 2749,
           "coverage": "questions and answers about quests up to level 13",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests1.zip"
         },
@@ -902,24 +902,24 @@
     },
     {
       "id": "densuad-spanish",
-      "status": "draft",
+      "status": "live",
       "name": "Densuad’s Spanish edition",
       "credit": "Densuad",
       "language": "Español",
       "addon": "LoreForever_Edition_Densuad_esES_Audio",
-      "clips": 679,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.13.1/LoreForever_Edition_Densuad_esES.zip",
+      "clips": 625,
+      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.14.0/LoreForever_Edition_Densuad_esES.zip",
       "bio": "Spanish text and narration contributed by Densuad. This edition uses its own wording and recordings together. It contains contributed overviews and answers; these are not complete story recordings.",
-      "coverage": "587 contributed entries, 95 answer texts and 679 recordings. Missing contributed entries are hidden; text without a matching recording remains readable.",
+      "coverage": "539 contributed entries, 89 answer texts and 625 recordings. Missing contributed entries are hidden; text without a matching recording remains readable.",
       "edition": {
         "id": "densuad-esES",
         "locale": "esES",
-        "version": "5031fe1e462b0efb2495cb9282a6e53d8498a1c1234a54fcbc81fdab834f12b4",
-        "entries": 587,
-        "answers": 95,
-        "coreVersion": "0.13.1",
+        "version": "d16f932949280831634380a05a0046b1feda0f5d8c46182d2cde90b0bd6057d1",
+        "entries": 539,
+        "answers": 89,
+        "coreVersion": "0.14.0",
         "api": 1,
-        "installedSize": 602729747,
+        "installedSize": 551643825,
         "textAddon": "LoreForever_Edition_Densuad_esES_Text",
         "audioAddon": "LoreForever_Edition_Densuad_esES_Audio"
       }
@@ -932,7 +932,7 @@
       "language": "Українська",
       "addon": "LoreForever_Voice_Default_ukUA",
       "includesText": "ukUA",
-      "clips": 793,
+      "clips": 731,
       "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_ukUA.zip",
       "bio": "Ukrainian narration contributed by Pekelnyj / UALL, voice Viacheslav Skoryk. The download includes the Ukrainian text pack.",
       "coverage": "684 story overviews and 109 answers across Azeroth, each read from the current Ukrainian text. Other entries remain available as text."

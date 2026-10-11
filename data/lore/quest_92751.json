@@ -17,7 +17,7 @@
   "wiki": "Detonation at a Distance (2)",
   "chain": []
  },
- "summary": "Detonation at a Distance is an Alliance assignment initiated by Jasper Fel within Stormwind's intelligence circle. Learning of dangerous operations beneath Moonbrook, the spymaster provides a specialized remote detonator to safely handle demolitions without blowing up friendly operatives.",
+ "summary": "Detonation at a Distance is an Alliance assignment initiated by Jasper Fel within Stormwind's intelligence circle. Learning of dangerous operations beneath Moonbrook, the SI:7 contact provides a specialized remote detonator to safely handle demolitions without blowing up friendly operatives.",
  "sections": [
   {
    "title": "Eyes in the Shadows",
@@ -56,7 +56,7 @@
     "who receives the detonator",
     "turn in npc"
    ],
-   "answer": "Sprite Jumpsprocket is a gnome operative stationed in the Dwarven District of Stormwind who handles specialized technical equipment and prototypes."
+   "answer": "Sprite Jumpsprocket is a gnome engineer in the Dwarven District of Stormwind who is putting together the explosives for the demolition."
   },
   {
    "q": "Who is the 'elf friend' Jasper Fel mentions?",
@@ -65,7 +65,7 @@
     "dont tell elf",
     "jasper fel elf"
    ],
-   "answer": "Jasper Fel is referring to an elven contact assisting your efforts against the Westfall insurgents. SI:7 prefers to operate with secrecy and plausible deniability, keeping outside allies in the dark regarding their direct support."
+   "answer": "Jasper Fel is referring to Alba Fairmoon, the elf investigating the poison in Westfall who sent you to find explosives. SI:7 prefers to operate with secrecy and plausible deniability, keeping outside allies in the dark regarding their direct support."
   },
   {
    "q": "What is the Remote Detonator Kit used for?",

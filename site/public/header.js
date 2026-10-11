@@ -16,7 +16,7 @@
 // "Looked at" is lf-seen in localStorage: the newest version you've seen the news of, set when you open What's new,
 // follow the strip or close it. A first visit gets no dot (everything is new); the strip shows until it's closed.
 (() => {
-  const LATEST = "0.13.1";   // changelog: the newest version in CHANGELOG.md (scripts/changelog.py site keeps it)
+  const LATEST = "0.14.0";   // changelog: the newest version in CHANGELOG.md (scripts/changelog.py site keeps it)
   const header = document.querySelector("header.top");
   const box = header && header.querySelector(".head-actions");
   if (!box) return;
@@ -328,4 +328,25 @@
       else known();
     })
     .catch(known);   // no account info: the links work the same (what was remembered stays)
+})();
+
+// Where a visit came from (LOR-413): a link like /downloads?src=lore marks the visit, and the site's own download links
+// (/download/installer, /download/zip) carry it, so functions/download/[file].js counts downloads by source. The first
+// source of a visit wins and stays in this tab only (sessionStorage); nothing else is sent anywhere.
+(() => {
+  const SRC = /^[a-z0-9][a-z0-9_-]{0,31}$/;
+  const asked = (new URLSearchParams(location.search).get("src") || "").toLowerCase();
+  let src = SRC.test(asked) ? asked : "";
+  try {
+    if (src && !sessionStorage.getItem("lf-src")) sessionStorage.setItem("lf-src", src);
+    src = sessionStorage.getItem("lf-src") || src;
+  } catch (e) { /* storage blocked: this page's own ?src= still counts */ }
+  if (!src) return;
+  for (const a of document.querySelectorAll("a[href]")) {
+    const url = new URL(a.href, location.href);
+    if (url.origin === location.origin && /^\/download\/(installer|zip|complete)$/.test(url.pathname)) {
+      url.searchParams.set("src", src);
+      a.href = url.pathname + url.search;
+    }
+  }
 })();

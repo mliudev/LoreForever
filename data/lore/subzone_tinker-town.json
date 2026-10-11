@@ -38,14 +38,6 @@
     "tinkertown portal"
    ],
    "answer": "The Deeprun Tram was built as a collaborative engineering marvel between gnomes and dwarves to connect Ironforge directly to Stormwind City. The tram's Ironforge terminus opens right into Tinker Town, providing high-speed transit between the two Alliance capitals."
-  },
-  {
-   "q": "Did dwarves get displaced to make room for Tinker Town?",
-   "aliases": [
-    "dwarves kicked out for gnomes",
-    "who lived here before"
-   ],
-   "answer": "Yes. When the sudden mass of refugees flooded out of Gnomeregan, Ironforge quickly repurposed this ward to house them. Several former dwarven residents, such as Skuerto, found themselves pushed out of the city entirely to make space for the newcomers."
   }
  ],
  "angles": [
@@ -64,7 +56,6 @@
   "gnomeregan",
   "ironforge",
   "mekkatorque",
-  "skuerto",
   "tinker town",
   "tinkertown"
  ],
@@ -73,8 +64,7 @@
   "zone:gnomeregan",
   "subzone:deeprun-tram",
   "topic:gnome",
-  "topic:trogg",
-  "npc:skuerto"
+  "topic:trogg"
  ],
  "attribution": [
   "Tinker Town"

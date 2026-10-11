@@ -11,6 +11,8 @@ import { textFinders, releaseCredits, translatorList, contributionBadges } from 
 import { translatorCredits } from "../lib/translations.js";
 
 import { onRequestGet as contributorsGet } from "../functions/contributors.js";
+import { onRequestGet as creditsGet } from "../functions/api/credits.js";
+import { onRequest as authApi } from "../functions/api/auth/[action].js";
 
 import { onRequestPost as contributePost } from "../functions/api/contribute.js";
 import { onRequestGet as contributeGet } from "../functions/api/contribute/[action].js";
@@ -52,7 +54,7 @@ async function edit(u, locale, stringId, status) {
 beforeEach(async () => {
   await setup(env);
   await setupContrib(env);
-  for (const t of ["users", "sessions", "translation_edits", "profiles", "voices", "rate_limits", "contrib_lines",
+  for (const t of ["users", "sessions", "translation_edits", "cached_results", "profiles", "voices", "rate_limits", "contrib_lines",
                    "contrib_uploads", "contrib_batches"]) env.DB.sqlite.exec(`DELETE FROM ${t}`);
   delete env.SITE_FEATURES;
   lineNo = 0;
@@ -152,6 +154,22 @@ test("translators: every saved edit but rejected ones, public names only, each s
     ["Translated 9 strings of Lore Forever"]);
 });
 
+// The credits are cached (lib/cache.js, D1's daily read limit): new edits show after the cache's floor, but a
+// translator who hides their name on /account drops off at once.
+test("translator credits: cached, but hiding your name takes you off right away", async () => {
+  const { alice } = users;
+  await edit(alice, "deDE", "ui:1", "new");
+  assert.deepEqual((await translatorCredits(env)).deDE, ["Alice"]);
+  const cookie = (await startSession(env, new Request(`${ORIGIN}/account`), alice.id)).split(";")[0];
+  const res = await authApi({ env, params: { action: "profile" }, request: new Request(`${ORIGIN}/api/auth/profile`, {
+    method: "POST", headers: { Origin: ORIGIN, Cookie: cookie, "Content-Type": "application/json" },
+    body: JSON.stringify({ display_name: "Alice", links: "", show_public: false }),
+  }) });
+  assert.equal(res.status, 200);
+  assert.equal((await translatorCredits(env)).deDE, undefined);
+  assert.deepEqual(await translatorList(env), []);
+});
+
 test("/contributors: narrators, translators and text finders; hidden people never show", async () => {
   await withLines();
   await edit(users.alice, "deDE", "ui:1", "pulled");
@@ -170,5 +188,25 @@ test("/contributors: narrators, translators and text finders; hidden people neve
   assert.ok(html.indexOf(">Alice</strong> <span class=\"ct-what\">4 lines") < html.indexOf(">zara</strong>"), "alphabetical");
   for (const hidden of ["Bob", "Ghost", "Real Name"]) assert.ok(!html.includes(hidden), hidden);
   assert.ok(!/\brank|#1\b|top contributor/i.test(html), "never a rank");
-  assert.ok(!html.includes('href="/contribute"'), "no link to the text intake while it's unreleased");
+  assert.ok(html.includes('href="/contribute"'), "links the text intake (the contribute feature is on)");
+});
+
+test("/api/credits community (the home page strip): players' live voices only, shown names only, alphabetical", async () => {
+  const { bob } = users;
+  env.ASSETS = assets({
+    "/voices/voices.json": { voices: [
+      { id: "male-narrator", name: "Lore Forever male narrator", credit: "Lore Forever", language: "English", included: true },
+      { id: "uall-ukrainian", name: "Ukrainian narrator", credit: "Pekelnyj / UALL", language: "Українська", status: "live" },
+      { id: "draft-edition", name: "A draft edition", credit: "Drafty", language: "Español", status: "draft" },
+      { id: "bobs-voice", name: "Bob's voice", credit: "Bob", owner: bob.id, language: "English" },
+      { id: "alices-voice", name: "Alice's voice", credit: "Alice", owner: users.alice.id, language: "English" },
+    ] },
+  });
+  await env.DB.prepare("INSERT INTO voices (id, owner, name, status, created, updated) VALUES ('bobs-voice', ?, 'Bob''s voice', 'pending', 'x', 'x')")
+    .bind(bob.id).run();
+  const { community } = await (await creditsGet({ request: new Request(`${ORIGIN}/api/credits`), env })).json();
+  assert.deepEqual(community, [
+    { name: "Alice", voices: [{ id: "alices-voice", name: "Alice's voice", language: "English" }] },
+    { name: "Pekelnyj / UALL", voices: [{ id: "uall-ukrainian", name: "Ukrainian narrator", language: "Українська" }] },
+  ], "no house voice, no draft, and Bob chose not to show their name");
 });

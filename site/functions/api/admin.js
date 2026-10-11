@@ -18,13 +18,18 @@
 //                    {"action": "contrib-restore", "uploader": "h:..."}         line one sender sent stops counting, or
 //                                                                               counts again (lib/contribute.js)
 // GET also returns "contributions": {counts: {status: n}, accepted, batches: [...]} for the Contributions panel, and
-// "signups": {accounts, profiles, public, today, week, month, days: [{day, n}]} for the Profiles one.
+// "signups": {accounts, profiles, public, today, week, month, days: [{day, n}]} for the Profiles one,
+// "downloadTotals": [{file, n}] since the start (downloads holds the last 30 days),
+// "usage": lib/usage.js usageReport, the last 14 days of what syncing players used (LOR-413), and "downloadSources":
+// [{file, src, n}], site downloads in the last 30 days by the ?src= of their link, and "site": lib/usage.js siteReport,
+// the last 14 days of profile views, opens from outside links and shares (LOR-151).
 
 import { authorized } from "../../lib/auth.js";
 import { setup as setupAccounts } from "../../lib/accounts.js";
 import { storySpend, STORY_BUDGET_USD } from "../../lib/profiles.js";
 import { decodeReport, describeReport } from "../../public/report-code.js";
 import { setup as setupContrib, adminView, setUploaderRejected, loadKnown } from "../../lib/contribute.js";
+import { usageReport, siteReport } from "../../lib/usage.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
 const json = (body, status = 200) => Response.json(body, { status, headers: NO_STORE });
@@ -51,7 +56,8 @@ export async function onRequestGet({ request, env }) {
     all("SELECT f.id, f.created, f.kind, f.rating, f.message, f.code, COALESCE(f.email, u.email) AS email, f.name, " +
         "f.quote_ok, f.country, f.user_id, f.report, COALESCE(f.status, 'new') AS status " +
         "FROM feedback f LEFT JOIN users u ON u.id = f.user_id ORDER BY f.id DESC LIMIT 2000"),
-    all("SELECT day, file, n FROM downloads ORDER BY day DESC LIMIT 400"),
+    // The last 30 days for the chart (voice and language packs add rows each day, so no row cap), totals for the tile.
+    all("SELECT day, file, n FROM downloads WHERE day >= date('now', '-29 days') ORDER BY day DESC"),
     safe(env.DB.prepare("SELECT COALESCE(SUM(n), 0) AS n FROM clicks").first("n")),
     all("SELECT id, created, credit, email, discord, pack, link, clips, note, release_version, adult_or_guardian, " +
         "signature, country, status FROM voice_submissions ORDER BY id DESC LIMIT 1000"),
@@ -105,8 +111,13 @@ export async function onRequestGet({ request, env }) {
   // Shared Forever text (LOR-236): counts by status and the latest uploads, to spot and reject spam.
   await safe(setupContrib(env));
   const contributions = (await safe(adminView(env))) || { counts: {}, accepted: 0, batches: [] };
+  const usage = await safe(usageReport(env, 14));
+  const site = (await safe(siteReport(env, 14))) || [];
+  const downloadTotals = await all("SELECT file, SUM(n) AS n FROM downloads GROUP BY file");
+  const downloadSources = await all("SELECT file, src, SUM(n) AS n FROM download_sources " +
+    "WHERE day >= date('now', '-29 days') GROUP BY file, src ORDER BY n DESC LIMIT 100");
   return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users,
-                stories, answers, contributions, signups });
+                stories, answers, contributions, signups, usage, site, downloadTotals, downloadSources });
 }
 
 export async function onRequestPost({ request, env }) {

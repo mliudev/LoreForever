@@ -13,11 +13,6 @@
    "title": "A Grasping Trap",
    "body": "The Lakkari Tar Pits dominate the low ground of northern Un'Goro Crater, directly south of Marshal's Refuge. Thick, reeking pools of pitch entrap anything careless enough to step into them, quickly bogging down beasts and adventurers alike. The protruding bones of hundreds of prehistoric creatures break the black surface, bearing witness to generations of animals sucked into the mire. Opportunistic scavengers circle the margins waiting for trapped prey to exhaust itself, while living tar beasts, lurkers, and creepers rise directly from the muck to batter interlopers.",
    "spoiler": 0
-  },
-  {
-   "title": "Hidden Botanicals",
-   "body": "Despite the choking conditions, the pits nurture unique life. Rare flora known as tarblossoms root deep at the bottom of the tar lakes. These flowers are prized among botanists and herbalists for their astonishing durability and vibrant appearance, though recovering them requires braving the suffocating sludge and fending off the predatory tar lords that rule the bubbling morass.",
-   "spoiler": 0
   }
  ],
  "faq": [
@@ -37,16 +32,7 @@
     "tar pit monsters",
     "tar creepers"
    ],
-   "answer": "The pits are inhabited by sentient ooze and elemental life forms known as tar beasts, tar creepers, tar lurkers, and tar lords. The rare behemoth Gormashh also stalks the sludge, accompanied by local scavengers that circle the pools looking for stuck prey."
-  },
-  {
-   "q": "What are tarblossoms?",
-   "aliases": [
-    "tar blossom",
-    "tar flowers",
-    "un'goro tar flower"
-   ],
-   "answer": "Tarblossoms are hardy, beautiful flowers that manage to grow submerged along the beds of the tar pits. Because the viscous pitch preserves and shields them, they are durable and sought after by naturalists, though exceptionally hazardous to harvest."
+   "answer": "The pits are inhabited by sentient ooze and elemental life forms known as tar beasts, tar creepers, tar lurkers, and tar lords, accompanied by local scavengers that circle the pools looking for stuck prey."
   },
   {
    "q": "Where are the Lakkari Tar Pits located?",
@@ -60,22 +46,16 @@
  ],
  "angles": [
   {
-   "target": "profession:Herbalism",
-   "text": "The pits are infamous for the rare tarblossom, an elusive flower that thrives deep under the suffocating pitch."
-  },
-  {
    "target": "class:Hunter",
    "text": "Keep pets on firm ground near Lakkari; any creature caught in the thick sludge becomes an immobilized target for predatory tar lurkers."
   }
  ],
  "keywords": [
   "creeper",
-  "gormashh",
   "lakkari",
   "marshal's refuge",
   "tar beast",
   "tar pits",
-  "tarblossom",
   "un'goro"
  ],
  "related": [

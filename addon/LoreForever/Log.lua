@@ -21,6 +21,15 @@ function Log.Init()
     db.settings.minimap = true
     db.settings.minimapOn = 1
   end
+  -- The report cross and the Contribute buttons were off by default until 2026-10-10 (Mike: finished features ship on),
+  -- so older installs have them saved off. Turn them on once; after that, switching one off in Options sticks. The
+  -- hidden picture switches (key offer, milestone pictures, journey row thumbnails) are gone: always on.
+  if not db.settings.featuresOn then
+    db.settings.reportCross = true
+    db.settings.contributeButtons = true
+    db.settings.featuresOn = 1
+  end
+  db.settings.pictureShortcuts, db.settings.pictureMilestones, db.settings.journeyPictureThumbnails = nil, nil, nil
   -- Read aloud, the game's text-to-speech for what had no recording, is gone (Mike, 2026-10-05: only the narrators'
   -- recordings play). Forget its setting and the one-time switch that turned it off (readAloudOff). Narration set to
   -- "Game voice only" (every voice unticked, or the old voicePack = "none") loads as it was: no narration.
@@ -38,6 +47,59 @@ function Log.Init()
   db.sessions = (db.sessions or 0) + 1
   Log.session = db.sessions
   if ns.HistoryArchive then ns.HistoryArchive.Init() end
+end
+
+-- Usage counts (LOR-413) --------------------------------------------------------------------------------------------
+-- How often each feature gets used, per day, so Mike can see what players actually use. Only numbers: no text, no
+-- names, no entry or quest ids. The companion app sends them with the profile sync, and only for players who keep
+-- their profile up to date (site/public/privacy.html). Nothing shows in game.
+--   LoreForeverDB.usage["2026-10-10"] = { play = { zone = 3, answer = 1 }, done = { zone = 2 }, ask = 2, faq = 1,
+--     live = 0, panel = 4, journey = 1, pic = 1 }
+-- play: narrations started from their beginning (a resume isn't a new start); done: heard to the end, by kind.
+local USAGE_DAYS = 30
+local DAY = "^%d%d%d%d%-%d%d%-%d%d$"
+local KINDS = { zone = "zone", subzone = "place", npc = "person", quest = "quest", topic = "topic" }
+
+-- A recording's kind from its key: zone, place, person, quest (a quest's lore), dialogue (a quest giver's words),
+-- answer (a question's recorded answer), topic or other.
+function Log.NarrationKind(key)
+  if type(key) ~= "string" then return "other" end
+  if key:find("#faq%d+$") then return "answer" end
+  if key:find("^quest:%d+#%a+$") then return "dialogue" end
+  return KINDS[key:match("^(%a+):") or ""] or "other"
+end
+
+-- Today's counts, made on the first use of a day; only the newest USAGE_DAYS days are kept.
+local function usageToday()
+  local db = LoreForeverDB
+  if type(db) ~= "table" then return nil end
+  local u = type(db.usage) == "table" and db.usage or {}
+  db.usage = u
+  local today = date("%Y-%m-%d")
+  if type(u[today]) == "table" then return u[today] end
+  u[today] = {}
+  local days = {}
+  for k in pairs(u) do
+    if type(k) == "string" and k:find(DAY) then days[#days + 1] = k else u[k] = nil end
+  end
+  table.sort(days)
+  for i = 1, #days - USAGE_DAYS do u[days[i]] = nil end
+  return u[today]
+end
+
+-- Count one use of what (a kind for play and done). Never lets a counting error reach the feature it counts.
+function Log.Use(what, kind)
+  pcall(function()
+    local d = usageToday()
+    if not d then return end
+    if kind then
+      local by = type(d[what]) == "table" and d[what] or {}
+      d[what] = by
+      by[kind] = (tonumber(by[kind]) or 0) + 1
+    else
+      d[what] = (tonumber(d[what]) or 0) + 1
+    end
+  end)
 end
 
 local function compactCtx(ctx)

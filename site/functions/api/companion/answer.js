@@ -32,7 +32,8 @@ export async function onRequest({ request, env }) {
     researchRequired = body.research_required === undefined ? false : body.research_required;
     operation = body.operation ?? "answer";
   } catch { return fail(400, "Couldn't read that question."); }
-  if (operation !== "answer" && operation !== "compact") return fail(400, "Unknown chat operation.");
+  // "character" (LOR-394) is an ordinary answer in the targeted character's voice: same daily answers and budget.
+  if (!["answer", "compact", "character"].includes(operation)) return fail(400, "Unknown chat operation.");
   if (typeof prompt !== "string" || !prompt.trim() || new TextEncoder().encode(prompt).length > ANSWER_PROMPT_BYTES)
     return fail(400, "That question has too much context. Try a shorter question.");
   if (typeof researchRequired !== "boolean") return fail(400, "Research preference must be true or false.");
@@ -41,11 +42,11 @@ export async function onRequest({ request, env }) {
   // Compaction has its own abuse limit and uses the shared paid budget. It never spends a player's daily answer.
   if (!(await perDay(env, app.user.id, compact ? "companion-compact" : "companion-answer", compact ? COMPACTIONS_PER_DAY : ANSWERS_PER_DAY, now))) {
     const left = await allowance(env, app.user.id, now);
-    return tooMany(compact ? "Chat memory is at its daily limit. Your messages are saved; try again tomorrow or add your own key."
-      : "You've used today's 20 free answers. Add your own key in Settings for more.",
+    return tooMany(compact ? "Chat memory is at its daily limit. Your messages are saved; try again tomorrow."
+      : "You've used today's 20 free answers. They come back tomorrow.",
       Math.ceil((Date.parse(left.resetsAt) - now.getTime()) / 1000), left);
   }
-  if (!(await reserveAnswer(env, now, researchRequired, operation))) return tooMany("We're at capacity for free live answers right now. Try again next month, or use your own key.",
+  if (!(await reserveAnswer(env, now, researchRequired, operation))) return tooMany("We're at capacity for free live answers right now. Try again next month.",
     86400, await allowance(env, app.user.id, now));
   try {
     const result = await writeAnswer(env, prompt, now, researchRequired, operation);

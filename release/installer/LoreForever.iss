@@ -16,14 +16,14 @@
 ;   /VOICEURL=<base>     where the voice zips come from instead of this version's release, e.g.
 ;                        https://github.com/mliudev/LoreForever/releases/latest/download/ (to smoke-test a build
 ;                        whose release isn't published yet)
-;   /QA                  requires an explicit scratch /DIR; companion files and voice stay under it. No registry,
+;   /QA                  requires an explicit scratch /DIR; the companion's files stay under it too. No registry,
 ;                        shortcuts, app launch, process stop or uninstaller; leaves the real installation alone.
 ;
 ; Built by .github/workflows/release.yml from the unzipped release zip:
 ;   iscc /DAppVersion=0.3.0 /DSourceDir=<folder holding the zip's add-on folders> /DOutputDir=dist release\installer\LoreForever.iss
 ; With the companion app (LOR-132), when the release build made one, add
 ;   /DCompanionDir=<the built LoreForeverCompanion folder> /DCompanionIss=<companion\packaging\companion.iss>
-; which adds a components page (the add-on; the companion; its narration voice). Without them, Setup is as before.
+; which adds a components page (the add-on; the companion). Without them, Setup is as before.
 
 #ifndef AppVersion
   #define AppVersion "0.0.0"

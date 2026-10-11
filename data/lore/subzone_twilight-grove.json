@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Verdant Sanctuary",
-   "body": "Hidden behind steep crater ridges in the heart of Duskwood, the Twilight Grove looks utterly alien to the Eastern Kingdoms. Ancient night elf gazebos, vibrant green meadows, and a serene moonwell frame an unnamed great tree that towers over the gloomy canopy. Millennia ago, Archdruid Fandral Staghelm and his circle planted an enchanted bough of Nordrassil here to purge toxic corruption rising from the deep earth. The tree took root as a conduit of nature, filtering the raw vigor of the Emerald Dream into the waking world and allowing this crater to thrive even beneath the eternal gloom of Duskwood.",
+   "body": "Hidden behind steep crater ridges in the heart of Duskwood, the Twilight Grove looks utterly alien to the Eastern Kingdoms. Ancient night elf gazebos, vibrant green meadows, and a serene moonwell frame an unnamed great tree that towers over the gloomy canopy. The tree stands as a conduit of nature, filtering the raw vigor of the Emerald Dream into the waking world and allowing this crater to thrive even beneath the eternal gloom of Duskwood.",
    "spoiler": 0
   },
   {
@@ -28,7 +28,7 @@
     "why night elf buildings here",
     "moonwell in duskwood"
    ],
-   "answer": "Thousands of years ago, druids led by Fandral Staghelm traveled from Kalimdor across the world to contain subterranean blights. They planted an enchanted branch from the World Tree Nordrassil in this crater and tended to it with traditional kaldorei structures and a sacred moonwell."
+   "answer": "The gazebos and moonwell are of night elven make, raised around the grove's great tree and its gateway to the Emerald Dream. When and how they came to stand so far from Kalimdor is not widely known."
   },
   {
    "q": "What is the giant glowing green portal?",
@@ -69,11 +69,9 @@
  "keywords": [
   "duskwood",
   "emerald dream",
-  "fandral staghelm",
   "great tree",
   "green dragonflight",
   "moonwell",
-  "nordrassil",
   "portal",
   "twilight grove"
  ],
@@ -81,8 +79,6 @@
   "zone:duskwood",
   "topic:emerald-dream",
   "topic:druid",
-  "npc:fandral-staghelm",
-  "topic:nordrassil",
   "zone:ashenvale",
   "zone:feralas",
   "zone:hinterlands"

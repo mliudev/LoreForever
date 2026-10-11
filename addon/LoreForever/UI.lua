@@ -773,7 +773,7 @@ function UI.Create(engine)
     elseif q and q:match("%S") then
       if UI.ctx then UI.ctx.done = ns.Context.Done() end
       local key = UI.engine:StoryForName(q, UI.ctx)
-      if key then UI.ShowEntry(key, "typed", q) else UI.Ask(q, "typed") end
+      if key then ns.Log.Use("ask"); UI.ShowEntry(key, "typed", q) else UI.Ask(q, "typed") end
     end
   end)
   -- Escape closes the type-ahead first; otherwise it closes the panel, as Escape does with the box unfocused.
@@ -815,7 +815,7 @@ function UI.Create(engine)
   send:SetScript("OnClick", function() eb:GetScript("OnEnterPressed")(eb) end)
   UI.CreateCompletion(f, eb)
 
-  f:SetScript("OnShow", function() ns.Voice.StopPreview(); UI.Refresh() end)   -- a voice sample from Options ends
+  f:SetScript("OnShow", function() ns.Voice.StopPreview(); UI.Refresh(); ns.Log.Use("panel") end)   -- a voice sample from Options ends
   -- The floating player stands in for the docked one while the panel is closed.
   -- Closing the panel closes its Journey and History pages too, so it opens on the chat next time.
   f:HookScript("OnHide", function()
@@ -1131,7 +1131,10 @@ local function watchPlayback(estimate)
     local elapsed = (GetTime and GetTime() or 0) - started
     if playing == false or (playing == nil and elapsed > estimate) or (not ns.Voice.transport and elapsed > limit) then
       local target = UI.activeTarget
-      if target then UI.progress[target.key] = nil end
+      if target then
+        UI.progress[target.key] = nil
+        ns.Log.Use("done", ns.Log.NarrationKind(target.key))   -- heard to the end (LOR-413)
+      end
       UI.activeTarget, UI.resumeTarget, UI.stoppedTarget = nil, nil, nil
       UI.speaking, UI.playingId = false, nil
       UI.UpdateListen()
@@ -1358,6 +1361,7 @@ local function startTarget(target, fromPlaylist, keepProgress)
   end
   local started = target and (fromPlaylist and ns.Voice.Play(target.key, options) or ns.Voice.Narrate(target.key, options))
   if not started then return false end
+  if not (keepProgress or options) then ns.Log.Use("play", ns.Log.NarrationKind(target.key)) end   -- from its start
   UI.speaking, UI.playingId, UI.playingLabel = true, target.id, target.label
   UI.playingKey, UI.playingStory = target.key, target.story
   target.fromPlaylist = fromPlaylist == true
@@ -2342,16 +2346,18 @@ function UI.HereItems(ctx)
   end
   -- The place's questions in the engine's order: the obvious ones first ("How did I end up here?"), no spoilers
   -- or gameplay filler.
-  local ranked = {}
+  -- Questions still in English in a translated reading language go last (the first one is the ask box's hint).
+  local ranked, asks = {}, {}
   for _, k in ipairs({ sub or false, zkey or false }) do
     if k then ranked[k] = ns.Engine.RankedFaq(db.entries[k], ctx.race) end
   end
   for round = 1, 3 do
     for _, k in ipairs({ sub or false, zkey or false }) do
       local i = k and ranked[k][round]
-      if i then add({ key = k, idx = i, label = db.entries[k].faq[i].q }) end
+      if i then asks[#asks + 1] = { key = k, idx = i, label = db.entries[k].faq[i].q } end
     end
   end
+  for _, it in ipairs(ns.Engine.TranslatedFirst(db, asks)) do add(it) end
   return items, place, bosses, targetKey
 end
 
@@ -3813,7 +3819,7 @@ function UI.CreatePlayer(parent, floating)
   p.next = arrowButton(p, "Next", L["Next narration"], function() UI.PlayerNext() end)
   p.next:SetPoint("LEFT", p.play, "RIGHT", 4, 0)
   -- Bottom right: a small cross, like the one under answers, to report the recording (ClipReport.lua, LOR-232). With
-  -- Options > Show the report button on the narration player (reportCross, off by default), it shows while a
+  -- Options > Show the report button on the narration player (reportCross, on by default), it shows while a
   -- recording plays, or after one played (UI.ReportableClip). The right-click menu offers the same box either way.
   local report = CreateFrame("Button", nil, p)
   report:SetSize(14, 14)
@@ -3939,7 +3945,7 @@ local function updatePlayer(p)
   end
   if p.prev.SetEnabled then p.prev:SetEnabled(list) end
   if p.next.SetEnabled then p.next:SetEnabled(list) end
-  p.report:SetShown(settings().reportCross == true and UI.ReportableClip() ~= nil)
+  p.report:SetShown(settings().reportCross ~= false and UI.ReportableClip() ~= nil)
   local w = (tonumber(p:GetWidth()) or SIDE_W - 8) - 18
   p.fill:SetShown(transport ~= nil or (list and not oneOff))
   if transport then p.fill:SetWidth(math.max(1, w * transport.offset / transport.duration))
@@ -4511,6 +4517,7 @@ end
 
 function UI.Ask(question, via)
   if not ns.Lang.ValidateEdition() then return end
+  ns.Log.Use("ask")
   local ctx = UI.ctx or ns.Context.Snapshot()
   ctx.done = ns.Context.Done()   -- a quest turned in since the last snapshot counts right away
   UI.turn = (UI.turn or 0) + 1
@@ -4576,6 +4583,8 @@ function UI.ShowFaq(key, idx, via)
   if via ~= "reveal" and not f.answerOnly then UI.AddMessage("user", WHITE .. esc(f.q) .. "|r") end
   if via ~= "reveal" and UI.SpoilerGate(key, "faq", idx) then return end
   local target = UI.FaqTarget(key, idx)
+  -- A question picked (suggested, in the sidebar, typed ahead or linked), not an answer shown for what plays
+  if via ~= "reveal" and via ~= "listen" and via ~= "player" then ns.Log.Use("faq") end
   UI.lastLog = ns.Log.Question(f.q, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "faq", idx = idx, title = f.q } }, via)
   local heading = f.answerOnly and (e.n .. ns.Lang.Dotted(" · ") .. f.q) or e.n
   local text, linked = loreText(heading, f.a, nil, ns.Voice.HasAudio(target.key) and narratedTag() or nil, key)

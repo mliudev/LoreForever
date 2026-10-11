@@ -20,7 +20,7 @@
 import { setup } from "./accounts.js";
 import { ACCEPTED, ACCEPT_AFTER, contributors } from "./contribute.js";
 import { escape, page, linkList, contributorAnchor, publicVoices, loadVoices } from "./voices.js";
-import { CREDITED_EDIT } from "./translations.js";
+import { CREDITED_EDIT, creditedTranslators } from "./translations.js";
 
 const seconds = ms => Math.floor(ms / 1000);
 
@@ -69,15 +69,8 @@ export async function releaseCredits(env, release) {
 export async function translatorList(env) {
   if (!env.DB) return [];
   try {
-    await setup(env);
-    const { results } = await env.DB.prepare(
-      `SELECT u.id, u.display_name AS name, u.links, e.locale, COUNT(DISTINCT e.string_id) AS n, MIN(e.created) AS first
-       FROM translation_edits e JOIN users u ON u.id = e.user_id
-       WHERE ${CREDITED_EDIT} AND u.show_public = 1 AND u.display_name IS NOT NULL
-       GROUP BY u.id, e.locale`
-    ).all();
     const people = new Map();
-    for (const r of results) {
+    for (const r of await creditedTranslators(env)) {
       const name = cleanName(r.name);
       if (!name) continue;
       const p = people.get(r.id) || { name, links: linkList(r.links), languages: [], strings: 0, first: r.first };
@@ -108,6 +101,18 @@ export function narratorGroups(voices) {
     groups.get(name).voices.push(v);
   }
   return [...groups.values()];
+}
+
+// The voices players made, for the home page's "Made with the community" strip: [{name, voices: [{id, name,
+// language}]}], alphabetical. Not the house voices (credit "Lore Forever"), and not a voice whose owner chose not to
+// show their name on /account. Drafts are already gone (publicVoices).
+export const HOUSE_CREDIT = "Lore Forever";
+export function communityNarrators(groups) {
+  return groups
+    .filter(g => g.name !== HOUSE_CREDIT)
+    .map(g => ({ name: g.name, voices: g.voices.filter(v => !v.owner || v.contributor).map(v => ({ id: v.id, name: v.name, language: v.language })) }))
+    .filter(g => g.voices.length)
+    .sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }));
 }
 
 // ---- Everything at once (/contributors and /api/credits) ----

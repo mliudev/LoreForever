@@ -59,7 +59,7 @@ Other narration voices can be installed the same way. Choose your language and v
 The Windows installer can also install Sam. It keeps live questions and answers in a visible chat, plays published
 lore recordings with their text, and can sync your journey and pictures to your connected website profile after
 `/reload` or logout. Profile linking and Picture Book are optional; connect your profile for the free live-answer
-allowance, or add your own key in Settings.
+allowance.
 The in-game add-on continues to work offline without Sam.
 
 ## What it does

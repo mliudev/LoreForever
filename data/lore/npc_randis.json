@@ -17,7 +17,7 @@
   },
   {
    "title": "Eyes on the World",
-   "body": "For a boy who spends most of his days penned up in Cathedral Square, leaving the capital is a grand adventure. Randis marvels at distant wonders like the grand Stonewrought Dam in Loch Modan and dreams of meeting famous figures across Azeroth. Though he is quick to note that places like Ironforge smell rather odd, his boundless wonder reflects the innocent future that heroes of the Alliance fight to protect.",
+   "body": "For a boy who spends most of his days penned up in Cathedral Square, leaving the capital is a grand adventure. Though he is quick to note that places like Ironforge smell rather odd, his boundless wonder reflects the innocent future that heroes of the Alliance fight to protect.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "randis sights",
     "childrens week human orphan locations"
    ],
-   "answer": "Randis longs to see legendary landmarks across the Alliance, including the immense Stonewrought Dam in Loch Modan and prominent figures of the realm, giving him a glimpse of life outside Stormwind."
+   "answer": "Randis is eager to go anywhere beyond the walls of Stormwind with the hero who takes him along. He has been to Ironforge before, and he says it smells funny there."
   },
   {
    "q": "Why is Randis living in an orphanage?",
@@ -71,14 +71,12 @@
   "human orphan",
   "matron nightingale",
   "randis",
-  "stonewrought dam",
   "stormwind"
  ],
  "related": [
   "npc:orphan-matron-nightingale",
   "subzone:cathedral-square",
   "zone:stormwind",
-  "subzone:stonewrought-dam",
   "zone:ironforge",
   "topic:stormwind-kingdom"
  ],

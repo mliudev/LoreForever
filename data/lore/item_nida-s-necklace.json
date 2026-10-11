@@ -1,7 +1,7 @@
 {
  "key": "item:nida-s-necklace",
  "type": "item",
- "name": "Nida's Necklace",
+ "name": "Hilary's Necklace",
  "era": "classic",
  "zone": "redridge",
  "meta": {
@@ -10,11 +10,11 @@
    "quest:3741"
   ]
  },
- "summary": "Nida's Necklace is a cherished childhood keepsake lost beneath the surface of Lake Everstill in the Redridge Mountains. Given to young Nida by her father, the trinket slipped into the murky waters while the children of Lakeshire were out fishing along the docks.",
+ "summary": "Hilary's Necklace is a cherished childhood keepsake lost beneath the surface of Lake Everstill in the Redridge Mountains. Given to young Hilary by her father, the trinket slipped into the murky waters while the children of Lakeshire were out fishing along the docks.",
  "sections": [
   {
    "title": "Lost in the Depths",
-   "body": "While fishing along the shoreline of Lakeshire with her friend Shawn, young Nida accidentally dropped her treasured necklace into Lake Everstill. The heirloom holds immense sentimental value, having been a gift from her father. Fear of the fierce beasts and aggressive murlocs inhabiting the depths keeps the local children safely on the docks, leaving the necklace sunken and buried in the silt of the lakebed until an adventurer is willing to dive into the murky water to recover it.",
+   "body": "While fishing along the shoreline of Lakeshire with her friend Shawn, young Hilary accidentally dropped her treasured necklace into Lake Everstill. The heirloom holds immense sentimental value, having been a gift from her father. Fear of the fierce beasts and aggressive murlocs inhabiting the depths keeps the local children safely on the docks, leaving the necklace sunken and buried in the silt of the lakebed until an adventurer is willing to dive into the murky water to recover it.",
    "spoiler": 0
   }
  ],
@@ -24,9 +24,10 @@
    "aliases": [
     "who owns the necklace",
     "nida necklace owner",
-    "whose necklace is this"
+    "whose necklace is this",
+    "hilary necklace owner"
    ],
-   "answer": "The necklace belongs to Nida, a young girl living in the town of Lakeshire in the Redridge Mountains. It was a special present given to her by her father."
+   "answer": "The necklace belongs to Hilary, a young girl living in the town of Lakeshire in the Redridge Mountains. It was a special present given to her by her father."
   },
   {
    "q": "How did the necklace end up in Lake Everstill?",
@@ -35,13 +36,14 @@
     "why is necklace in water",
     "how was necklace lost"
    ],
-   "answer": "Nida was spending the day fishing near the water with her companion Shawn when the necklace slipped off and sank into the lakebed, settling into a mound of glinting mud."
+   "answer": "Hilary was spending the day fishing near the water with her companion Shawn when the necklace slipped off and sank into the lakebed, settling into a mound of glinting mud."
   },
   {
    "q": "Why didn't the children dive in to get it back?",
    "aliases": [
     "why didn't nida swim for it",
-    "why can't shawn get the necklace"
+    "why can't shawn get the necklace",
+    "why didn't hilary swim for it"
    ],
    "answer": "Their parents strictly forbid them from swimming in Lake Everstill. The deep waters harbor dangerous aquatic predators and aggressive murlocs that pose a lethal threat to the local townspeople."
   },
@@ -49,9 +51,10 @@
    "q": "Who is Effsee?",
    "aliases": [
     "who is the kitty",
-    "nida cat"
+    "nida cat",
+    "hilary cat"
    ],
-   "answer": "Effsee is Nida's pet cat, who stays by her side in Lakeshire and happily welcomes the necklace's return alongside its young owner."
+   "answer": "Effsee is Hilary's pet cat, who stays by her side in Lakeshire and happily welcomes the necklace's return alongside its young owner."
   }
  ],
  "angles": [
@@ -63,6 +66,7 @@
  "keywords": [
   "effsee",
   "glinting mud",
+  "hilary",
   "lake everstill",
   "lakeshire",
   "nida",

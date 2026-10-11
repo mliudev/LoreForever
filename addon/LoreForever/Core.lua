@@ -495,6 +495,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.UI.Create(ns.engine)
     ns.Hooks.Init()
     ns.Options.Create()
+    ns.Strip.Update()   -- live game info for the companion app, when it's on (Strip.lua, LOR-416)
     ns.UI.RestorePlayback()
     ns.MinimapButton()
     local key, n = ns.Hooks.CurrentKey(), ns.DB.count or 0
@@ -670,6 +671,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore quests - every quest you've completed, by zone; click one to read its quest text again"])
     if ns.Companion.Installed() then
       say(L["/lore ask <question> - ask live answers (the answer appears on your screen)"])
+      say(L["/lore live - live game info for the companion app on/off"])
     end
     say(L["/lore options - settings (tooltips, hints, flight narration)"])
     say(L["/lore lang - choose the language: English, Deutsch, Español, Français or Português (Automatic follows your WoW client)"])
@@ -736,6 +738,9 @@ SlashCmdList.LOREFOREVER = function(msg)
   elseif cmd == "ondemand" then
     say(ns.Voice.SetOnDemand(not ns.Voice.OnDemand()) and L["Narration plays only when you press Play."]
       or L["Narration plays by itself again, as your options say."])
+  elseif cmd == "live" then
+    toggleSetting("liveStrip", L["live game info for the companion app"])
+    ns.Strip.Update()
   elseif cmd == "nudge" then
     toggleSetting("zoneNudge", L["zone hints"])
   elseif cmd == "tooltips" then

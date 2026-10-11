@@ -1,8 +1,17 @@
 // A profile's story read aloud (LOR-316): the written story on /u/<handle> (lib/profiles.js), recorded in the male
 // campfire narrator's voice, with a Listen button over it (public/js/storyvoice.js). Each story is recorded once,
-// the first time its page is opened, by fal.ai's hosted Qwen3-TTS 1.7B, the same model and voices as the voice packs
-// (experiments/voices/local/render_fal.py; no local GPU). Only written stories: a template story changes with every
-// update, and the add-on's own summary isn't worth a recording.
+// the first time its page is opened. Only written stories: a template story changes with every update, and the
+// add-on's own summary isn't worth a recording.
+//
+// Two engines. With the Pages secret OPENROUTER_API_KEY: Fish Audio S2.1 Pro through OpenRouter's /audio/speech, a
+// stateless clone of the narrator from a reference recording and its transcript sent with every part (Mike picked it
+// by ear on 2026-10-10: it sounds better than fal and costs about a sixth). Each story language has its own reference,
+// read by a native speaker of that language (the voice packs' native references), because a clone of the English
+// narrator speaking Spanish sounded wrong; a language without one isn't recorded and its story stays text. The parts
+// are recorded at once, in the background of the page view, and saved as they come back (no webhook). The references
+// are in R2 at story-voice/_narrators/<voice>/<lang>.wav and .txt, put there with the admin key by
+// experiments/voices/local/story_voice_refs.py. Without that key but with FAL_KEY: fal.ai's hosted Qwen3-TTS 1.7B
+// (the first engine, described below), English stories only.
 //
 // How a story is recorded: storyVoice(..., {kick}) on a page view finds no recordings for the story, so record() sends
 // each part (a paragraph, or a sentence group of a long one, CHUNK characters at most, as the packs do) in the
@@ -16,10 +25,10 @@
 // at story-voice/_narrators/<voice>.safetensors, put there with the admin key by
 // experiments/voices/local/story_voice_embed.py. They stay out of the repo, like the reference recordings.
 //
-// Off unless the "storyvoice" site feature is on (lib/features.js) and the Pages secret FAL_KEY is set. What the
+// Off unless the "storyvoice" site feature is on (lib/features.js) and OPENROUTER_API_KEY or FAL_KEY is set. What the
 // recordings cost counts against the profile stories' monthly budget (lib/profiles.js, story_spend.voice_micro_usd).
 //
-// The page never says how the recordings are made; that's UI copy, not a secret (the privacy page names fal.ai).
+// The page never says how the recordings are made; that's UI copy, not a secret (the privacy page names the services).
 
 import { featureOn } from "./features.js";
 import { escape } from "./voices.js";
@@ -37,6 +46,11 @@ const QUEUE = "https://queue.fal.run/fal-ai/qwen-3-tts/text-to-speech/1.7b";
 // fal.ai's published price for that endpoint (fal.ai/models/fal-ai/qwen-3-tts/text-to-speech/1.7b, checked
 // 2026-10-05): $0.09 per 1,000 characters, so 90 millionths of a dollar a character.
 export const MICRO_USD_PER_CHAR = 90;
+const SPEECH = "https://openrouter.ai/api/v1/audio/speech";
+export const FISH_MODEL = "fish-audio/s2.1-pro";
+// OpenRouter's price for it (openrouter.ai/api/v1/models, checked 2026-10-10): $15 per million bytes of text.
+export const MICRO_USD_PER_BYTE = 15;
+export const MAX_REFERENCE = 4 * 1024 * 1024;   // a reference is about 15 s of WAV
 export const CHUNK = 500;          // characters per part at most, like render_fal.py and render_pack.py
 export const MAX_TRIES = 2;
 export const STALE_MS = 20 * 60e3;   // a part still waiting this long is sent again (its webhook never came)
@@ -46,6 +60,9 @@ const R2_PREFIX = "story-voice/";
 const RESPELL = "/lore/data/respell.json";   // pipeline/lore/site_lore.py: names the narrators say as written there
 
 export const embeddingKey = voice => `${R2_PREFIX}_narrators/${voice}.safetensors`;
+export const referenceKey = (voice, lang) => `${R2_PREFIX}_narrators/${voice}/${lang}.wav`;
+export const transcriptKey = (voice, lang) => `${R2_PREFIX}_narrators/${voice}/${lang}.txt`;
+export const STORY_LANGUAGES = Object.keys({ en: 1, de: 1, fr: 1, es: 1, pt: 1 });
 export const takeKey = (userId, story, voice, part) => `${R2_PREFIX}${userId}/${story}/${voice}-${part}.mp3`;
 export const takeUrl = r => `/audio/story/${r.story}-${r.voice}-${r.part}-${r.sha}.mp3`;
 export const TAKE_FILE = /^([0-9a-f]{16})-([a-z]+-narrator)-(\d{1,2})-([0-9a-f]{10})\.mp3$/;
@@ -124,7 +141,83 @@ async function loadRespell(env, origin) {
 
 // ---- Recording ----
 
-const canRecord = env => Boolean(env.FAL_KEY && env.STUDIO && env.DB);
+// Which engine records: "fish" (OpenRouter), else "fal", else none.
+export const engine = env => (env.OPENROUTER_API_KEY ? "fish" : env.FAL_KEY ? "fal" : null);
+const canRecord = env => Boolean(engine(env) && env.STUDIO && env.DB);
+
+// Whether `voice` can read a story in `lang` now: Fish needs that language's own reference and transcript; fal reads
+// English only, with the narrator's embedding.
+async function voiceReady(env, voice, lang) {
+  if (engine(env) === "fish") {
+    const [wav, txt] = await Promise.all([env.STUDIO.head(referenceKey(voice, lang)), env.STUDIO.head(transcriptKey(voice, lang))]);
+    return Boolean(wav && txt);
+  }
+  return lang === "en" && Boolean(await env.STUDIO.head(embeddingKey(voice)));
+}
+
+function base64(buf) {
+  const bytes = new Uint8Array(buf);
+  let bin = "";
+  for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  return btoa(bin);
+}
+
+// A narrator's reference in `lang` for Fish: {audio (a data: address), text}, or null.
+async function reference(env, voice, lang) {
+  const [wav, txt] = await Promise.all([env.STUDIO.get(referenceKey(voice, lang)), env.STUDIO.get(transcriptKey(voice, lang))]);
+  if (!wav || !txt) return null;
+  return { audio: "data:audio/wav;base64," + base64(await new Response(wav.body).arrayBuffer()), text: (await new Response(txt.body).text()).trim() };
+}
+
+// An MP3's length in seconds from its first frame's bitrate (Fish sends constant-bitrate MPEG-1 Layer III), or null.
+const KBPS = [0, 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256, 320];
+export function mp3Seconds(buf) {
+  const b = new Uint8Array(buf);
+  let i = 0;
+  if (b[0] === 0x49 && b[1] === 0x44 && b[2] === 0x33 && b.length > 10)   // "ID3": skip the tag
+    i = 10 + ((b[6] & 0x7f) << 21 | (b[7] & 0x7f) << 14 | (b[8] & 0x7f) << 7 | (b[9] & 0x7f));
+  for (; i + 4 <= b.length; i++) {
+    if (b[i] !== 0xff || (b[i + 1] & 0xfe) !== 0xfa) continue;   // sync, MPEG-1, Layer III
+    const kbps = KBPS[b[i + 2] >> 4];
+    if (!kbps) return null;
+    return Math.round(((b.length - i) * 8) / (kbps * 1000) * 100) / 100;
+  }
+  return null;
+}
+
+// Records one part with Fish and saves it: the take in R2 and the row done, or the row failed with why.
+async function sendFish(env, { userId, story, voice, part, text, ref }) {
+  const where = [userId, story, voice, part];
+  const fail = why => env.DB.prepare("UPDATE story_audio SET status = 'failed', error = ?, updated = ? WHERE user_id = ? AND story = ? AND voice = ? AND part = ?")
+    .bind(String(why).slice(0, 300), new Date().toISOString(), ...where).run();
+  const cost = new TextEncoder().encode(text).length * MICRO_USD_PER_BYTE;
+  const started = new Date();
+  if (!(await reserveOtherPaid(env, cost, started))) return fail("monthly budget is full");
+  let bytes;
+  try {
+    const res = await fetch(SPEECH, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${env.OPENROUTER_API_KEY}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ model: FISH_MODEL, input: text, response_format: "mp3", provider: { data_collection: "deny" },
+                             input_references: [{ type: "input_audio", input_audio: { data: ref.audio } }, { type: "text", text: ref.text }] }),
+      signal: AbortSignal.timeout(90000),
+    });
+    if (!res.ok) throw new Error(`openrouter ${res.status}: ${(await res.text().catch(() => "")).slice(0, 200)}`);
+    bytes = await res.arrayBuffer();
+  } catch (e) {
+    await env.DB.prepare("UPDATE story_spend SET reserved_micro = reserved_micro - ? WHERE month = ?")
+      .bind(cost, started.toISOString().slice(0, 7)).run();
+    console.warn(`story voice: ${e.message}`);
+    return fail(e.message);
+  }
+  await env.DB.prepare("UPDATE story_spend SET voice_micro_usd = voice_micro_usd + ?, reserved_micro = reserved_micro - ? WHERE month = ?")
+    .bind(cost, cost, started.toISOString().slice(0, 7)).run();
+  if (!bytes.byteLength || bytes.byteLength > MAX_TAKE || sniff(bytes)?.ext !== "mp3") return fail("not an MP3");
+  const sha = hex(await crypto.subtle.digest("SHA-256", bytes));
+  await env.STUDIO.put(takeKey(userId, story, voice, part), bytes, { sha256: sha, httpMetadata: { contentType: "audio/mpeg" } });
+  await env.DB.prepare("UPDATE story_audio SET status = 'done', sha = ?, sec = ?, error = NULL, updated = ? WHERE user_id = ? AND story = ? AND voice = ? AND part = ?")
+    .bind(sha.slice(0, 10), mp3Seconds(bytes), new Date().toISOString(), ...where).run();
+}
 
 async function hmac(key, msg) {
   const k = await crypto.subtle.importKey("raw", new TextEncoder().encode(key), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
@@ -141,10 +234,7 @@ export async function hookUrl(env, origin, story, voice, part) {
 async function embedding(env, voice) {
   const obj = await env.STUDIO.get(embeddingKey(voice));
   if (!obj) return null;
-  const bytes = new Uint8Array(await new Response(obj.body).arrayBuffer());
-  let bin = "";
-  for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
-  return "data:application/octet-stream;base64," + btoa(bin);
+  return "data:application/octet-stream;base64," + base64(await new Response(obj.body).arrayBuffer());
 }
 
 // Whether this month's budget has room (lib/profiles.js: the stories and their recordings together).
@@ -183,8 +273,8 @@ async function partText(env, origin, p, part) {
   return { text: lang === "en" ? respell(parts[part].text, await loadRespell(env, origin)) : parts[part].text, lang };
 }
 
-// Records profile `p`'s story (storyKey `story`) in the default narrator: one row per part and voice,
-// each sent to fal. Then removes the recordings of the account's earlier stories.
+// Records profile `p`'s story (storyKey `story`) in the default narrator: one row per part and voice, each sent to
+// Fish (all at once) or fal. Then removes the recordings of the account's earlier stories.
 export async function record(env, p, story, origin) {
   if (!(await budgetLeft(env))) { console.warn("story voice: budget"); return; }
   const parts = storyParts(p.story);
@@ -192,6 +282,23 @@ export async function record(env, p, story, origin) {
   const names = lang === "en" ? await loadRespell(env, origin) : {};
   const now = new Date().toISOString();
   const voice = DEFAULT_NARRATOR;
+  if (engine(env) === "fish") {
+    const ref = await reference(env, voice, lang);
+    if (!ref) { console.warn(`story voice: no ${lang} reference for ${voice}`); return; }
+    const jobs = [];
+    for (const [part, { para, text }] of parts.entries()) {
+      const said = lang === "en" ? respell(text, names) : text;
+      const ins = await env.DB.prepare(
+        "INSERT OR IGNORE INTO story_audio (user_id, story, voice, part, para, chars, status, created, updated) " +
+        "VALUES (?, ?, ?, ?, ?, ?, 'queued', ?, ?)"
+      ).bind(p.user_id, story, voice, part, para, said.length, now, now).run();
+      if (ins.meta?.changes) jobs.push(sendFish(env, { userId: p.user_id, story, voice, part, text: said, ref }));
+    }
+    await Promise.all(jobs);
+    await forgetStoryVoice(env, p.user_id, { keep: story });
+    return;
+  }
+  if (lang !== "en") return;   // fal reads English only: a clone of the English narrator speaking another language sounds wrong
   const voiceData = await embedding(env, voice);
   if (!voiceData) { console.warn(`story voice: no embedding for ${voice}`); return; }
   for (const [part, { para, text }] of parts.entries()) {
@@ -231,6 +338,14 @@ async function resend(env, p, r, origin) {
     "WHERE user_id = ? AND story = ? AND voice = ? AND part = ? AND tries = ? AND status != 'done'"
   ).bind(new Date().toISOString(), r.user_id, r.story, r.voice, r.part, r.tries).run();
   if (!claim.meta?.changes) return;   // someone else is sending it
+  if (engine(env) === "fish") {
+    const said = await partText(env, origin, p, r.part);
+    const ref = said && await reference(env, r.voice, said.lang);
+    if (said && ref) return sendFish(env, { userId: r.user_id, story: r.story, voice: r.voice, part: r.part, text: said.text, ref });
+    await env.DB.prepare("UPDATE story_audio SET status = 'failed', error = ? WHERE user_id = ? AND story = ? AND voice = ? AND part = ?")
+      .bind(said ? `no ${said.lang} reference` : "no such part", r.user_id, r.story, r.voice, r.part).run();
+    return;
+  }
   const said = await partText(env, origin, p, r.part);
   const voiceData = said && await embedding(env, r.voice);
   try {
@@ -262,7 +377,7 @@ export async function storyVoice(env, p, { kick = false, origin = "", waitUntil 
   let starting = false;
   if (kick && canRecord(env)) {
     if (!rows.length) {
-      if (await env.STUDIO.head(embeddingKey(DEFAULT_NARRATOR)) && await budgetLeft(env)) {
+      if (await voiceReady(env, DEFAULT_NARRATOR, p.data?.locale || "en") && await budgetLeft(env)) {
         starting = true;
         await later(record(env, p, story, origin));
       }

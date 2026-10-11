@@ -8,11 +8,16 @@
 //                                            clone-voice endpoint made from their reference recording, at most 256 KB)
 //                                            as the body -> {ok, key}. experiments/voices/local/story_voice_embed.py
 //                                            sends them.
+//   PUT /api/profile/voice?narrator=<voice>&lang=<en|de|fr|es|pt>   admin key: the narrator's reference recording in
+//                                            that language for Fish (a WAV, at most 4 MB) as the body, and what it says
+//                                            in the X-Transcript header (URI-encoded) -> {ok, key}.
+//                                            experiments/voices/local/story_voice_refs.py sends them.
 
 import { setup, currentUser, fail, noStore } from "../../../../lib/accounts.js";
 import { authorized } from "../../../../lib/auth.js";
 import { profileByHandle } from "../../../../lib/profiles.js";
-import { storyVoice, embeddingKey, NARRATORS, MAX_EMBEDDING } from "../../../../lib/storyvoice.js";
+import { storyVoice, embeddingKey, referenceKey, transcriptKey, NARRATORS, MAX_EMBEDDING, MAX_REFERENCE, STORY_LANGUAGES }
+  from "../../../../lib/storyvoice.js";
 
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
 
@@ -33,11 +38,28 @@ function looksLikeSafetensors(bytes) {
   return n > 1 && 8 + n <= bytes.byteLength && bytes[8] === 0x7b;   // "{"
 }
 
+async function putReference(request, env, voice, lang) {
+  if (!STORY_LANGUAGES.includes(lang)) return fail(400, `Needs ?lang=${STORY_LANGUAGES.join("|")}.`);
+  let text = "";
+  try { text = decodeURIComponent(request.headers.get("X-Transcript") || "").trim(); } catch (e) {}
+  if (!text || text.length > 2000) return fail(400, "Needs what the recording says in the X-Transcript header.");
+  if (Number(request.headers.get("Content-Length") || 0) > MAX_REFERENCE) return fail(413, "That's bigger than a reference.");
+  const bytes = new Uint8Array(await request.arrayBuffer());
+  if (bytes.byteLength > MAX_REFERENCE) return fail(413, "That's bigger than a reference.");
+  const riff = String.fromCharCode(...bytes.subarray(0, 4)), wave = String.fromCharCode(...bytes.subarray(8, 12));
+  if (riff !== "RIFF" || wave !== "WAVE") return fail(415, "That isn't a WAV file.");
+  await env.STUDIO.put(referenceKey(voice, lang), bytes, { httpMetadata: { contentType: "audio/wav" } });
+  await env.STUDIO.put(transcriptKey(voice, lang), text, { httpMetadata: { contentType: "text/plain; charset=utf-8" } });
+  return ok({ key: referenceKey(voice, lang) });
+}
+
 async function putEmbedding({ request, env }) {
   if (!(await authorized(request, env))) return fail(401, "Needs the admin key.");
   if (!env.STUDIO) return fail(503, "The STUDIO R2 binding isn't set up here.");
-  const voice = new URL(request.url).searchParams.get("narrator") || "";
+  const params = new URL(request.url).searchParams;
+  const voice = params.get("narrator") || "";
   if (!NARRATORS[voice]) return fail(400, `Needs ?narrator=${Object.keys(NARRATORS).join("|")}.`);
+  if (params.has("lang")) return putReference(request, env, voice, params.get("lang") || "");
   if (Number(request.headers.get("Content-Length") || 0) > MAX_EMBEDDING) return fail(413, "That's bigger than an embedding.");
   const bytes = new Uint8Array(await request.arrayBuffer());
   if (bytes.byteLength > MAX_EMBEDDING) return fail(413, "That's bigger than an embedding.");

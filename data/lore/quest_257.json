@@ -22,11 +22,11 @@
    "Vyrin's Revenge (2)"
   ]
  },
- "summary": "A Hunter's Boast is a timed hunting challenge issued by Daryl the Youngling at Farstrider Lodge in Loch Modan. Eager to flaunt his supposed mastery, the arrogant young dwarf dares adventurers to track and slay six mountain buzzards before his fifteen-minute timer expires.",
+ "summary": "A Hunter's Boast is a timed hunting challenge issued by Daryl the Youngling at Farstrider Lodge in Loch Modan. Eager to flaunt his supposed mastery, the arrogant young human dares adventurers to track and slay six mountain buzzards before his fifteen-minute timer expires.",
  "sections": [
   {
    "title": "A Young Marksman's Arrogance",
-   "body": "Farstrider Lodge serves as a gathering ground for some of Khaz Modan's finest trackers and marksmen, but not everyone under its roof possesses veteran humility. Daryl the Youngling\u2014who fancies himself 'Daryl the Bold'\u2014is quick to dismiss wandering adventurers. Convinced that greenhorn outsiders cannot hold a candle to dwarven hunting prowess, he lays down a brash wager: bag half a dozen local mountain buzzards within a quarter of an hour, or admit defeat.",
+   "body": "Farstrider Lodge serves as a gathering ground for some of Khaz Modan's finest trackers and marksmen, but not everyone under its roof possesses veteran humility. Daryl the Youngling\u2014who fancies himself 'Daryl the Bold'\u2014is quick to dismiss wandering adventurers. Convinced that greenhorn outsiders cannot hold a candle to his own hunting prowess, he lays down a brash wager: bag half a dozen local mountain buzzards within a quarter of an hour, or admit defeat.",
    "spoiler": 0
   },
   {
@@ -52,7 +52,7 @@
     "daryl the bold lore",
     "daryl farstrider"
    ],
-   "answer": "Daryl the Youngling is an ambitious, boastful dwarven youth staying at Farstrider Lodge. Calling himself 'Daryl the Bold,' he enjoys taunting travelers into timed hunting trials to prove his own imagined superiority."
+   "answer": "Daryl the Youngling is an ambitious, boastful young human staying at Farstrider Lodge. Calling himself 'Daryl the Bold,' he enjoys taunting travelers into timed hunting trials to prove his own imagined superiority."
   },
   {
    "q": "Why is there a time limit on the hunt?",
@@ -98,7 +98,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "Fellow mountaineers will recognize Daryl's posturing as classic youthful dwarven bravado, best answered with quiet competence."
+   "text": "Dwarves used to the lodge's seasoned hunters will recognize this human youngster's posturing as empty bravado, best answered with quiet competence."
   },
   {
    "target": "faction:Alliance",

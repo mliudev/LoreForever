@@ -8,11 +8,11 @@
   "wiki": "John J. Keeshan",
   "refs": 2
  },
- "summary": "Corporal John J. Keeshan is a weary human veteran of the Great Wars, having served in the Alliance military through decades of brutal conflict. After being captured by Blackrock orcs during the fighting around Stonewatch, he was dragged deep into Render's Rock as a prisoner of war.",
+ "summary": "Corporal John J. Keeshan is a human soldier of Stormwind's army who fought the Blackrock orcs in the Redridge Mountains. After being captured during the fighting around Stonewatch, he was dragged deep into Render's Rock as a prisoner of war.",
  "sections": [
   {
-   "title": "A Lifetime of Warfare",
-   "body": "Few living soldiers have seen as much combat as John J. Keeshan. A veteran of the First, Second, and Third Wars, Keeshan served across an astounding 248 consecutive tours of duty under Colonel Troteman in Bravo Company. The decades of ceaseless violence took a devastating personal toll; his wife, Jade, was slain by Blackrock orcs during the fighting, leaving him with little beyond her pendant and the hard-bitten instincts of a battlefield survivor. By the time fighting flared up in the Redridge Mountains, Keeshan was still in the thick of it, carrying the scars and memories of a lifetime spent under arms.",
+   "title": "A Soldier of Redridge",
+   "body": "John J. Keeshan is a corporal in the service of Stormwind, posted to the Redridge Mountains as the Blackrock orcs pressed against Lakeshire and its defenders. When the fighting flared up around Stonewatch Keep, Keeshan was in the thick of it alongside the other soldiers holding the line for the kingdom.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "who is keeshan",
     "corporal keeshan"
    ],
-   "answer": "John J. Keeshan is a veteran soldier of the Alliance military who fought through the First, Second, and Third Wars as part of Bravo Company. Known as Johnny to old comrades, he is an exceptionally hardened combatant who survived hundreds of tours of duty."
+   "answer": "John J. Keeshan is a corporal of Stormwind's army who fought the Blackrock orcs in the Redridge Mountains. During the battle around Stonewatch Keep he was captured and dragged away to Render's Rock."
   },
   {
    "q": "Why is Keeshan imprisoned in Render's Rock?",
@@ -39,45 +39,24 @@
     "how did keeshan get captured"
    ],
    "answer": "During the battle against the Blackrock clan around Stonewatch Keep, Keeshan was overwhelmed, captured alive by the orcs, and hauled back to their encampment inside the caves of Render's Rock."
-  },
-  {
-   "q": "What happened to his wife?",
-   "aliases": [
-    "keeshan wife",
-    "jade keeshan",
-    "keeshan pendant"
-   ],
-   "answer": "Keeshan's wife, Jade, was murdered by Blackrock orcs during the wars. Following her death, Keeshan wore her pendant as a keepsake of her memory."
-  },
-  {
-   "q": "What unit did Keeshan serve with?",
-   "aliases": [
-    "bravo company",
-    "keeshan squad",
-    "troteman squad"
-   ],
-   "answer": "Keeshan served in Bravo Company under the command of Colonel Troteman, fighting alongside comrades such as Messner, Jorgensen, Krakauer, and Danforth across the Great Wars."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Keeshan represents the steep human cost of the Alliance's unending war against the Blackrock orcs, having sacrificed his youth, family, and peace of mind in service to Stormwind."
+   "text": "Keeshan represents the steep human cost of the Alliance's war against the Blackrock orcs in Redridge, a soldier taken captive while holding the line for Stormwind."
   },
   {
    "target": "class:Warrior",
-   "text": "For warriors, Keeshan is a grim testament to sheer martial endurance, having survived hundreds of frontline engagements across three world-altering wars."
+   "text": "For warriors, Keeshan is a grim testament to the dangers of the Redridge front, where even hardened soldiers can be overwhelmed and dragged off by the Blackrock clan."
   }
  ],
  "keywords": [
-  "bravo company",
   "john j keeshan",
-  "johnny keeshan",
   "keeshan",
   "missing in action",
   "render's rock",
-  "stonewatch",
-  "troteman"
+  "stonewatch"
  ],
  "related": [
   "quest:219",

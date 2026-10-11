@@ -12,6 +12,8 @@
 //                               should send instead). Identical facts skip delivery but may catch up a due story.
 //                               refreshStory:true requests current text inside the automatic cooldown, within the
 //                               existing budgets. Current writer input and overlapping requests share one story.
+//                               usage? (lib/usage.js readUsage, LOR-413): the add-on's per-day usage counts, kept
+//                               per day for /admin; a sync that can't keep them still syncs.
 //   POST /api/profile/settings  {public?, spec?, handle?}: whether anyone with the link can see it, your favorite
 //                               spec, its address (/u/<handle>)
 //   POST /api/profile/delete    removes your profile and its pictures, and disconnects your connected apps (your account
@@ -31,6 +33,7 @@ import { perMinute, perHour, perDay, slowDown } from "../../../lib/ratelimit.js"
 import { forgetPictures } from "../../../lib/pictures.js";
 import { forgetStoryVoice } from "../../../lib/storyvoice.js";
 import { historyRequest, forgetHistoryStatements } from "../../../lib/history.js";
+import { readUsage, saveUsage } from "../../../lib/usage.js";
 
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
 
@@ -238,6 +241,7 @@ async function sync({ env }, input, { user, device }) {
       { status: 409, headers: { ...noStore, "Retry-After": "1" } });
   }
   await markSynced(env, device.id);
+  try { await saveUsage(env, user.id, readUsage(input.usage)); } catch (e) { /* counts never hold up the profile */ }
   return ok({ profile: summary(out.profile), created: out.created, ...(out.unchanged ? { unchanged: true } : {}),
               story: out.story, storyRetryAt: out.storyRetryAt });
 }
