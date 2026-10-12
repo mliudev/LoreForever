@@ -23,13 +23,29 @@
 // "usage": lib/usage.js usageReport, the last 14 days of what syncing players used (LOR-413), and "downloadSources":
 // [{file, src, n}], site downloads in the last 30 days by the ?src= of their link, and "site": lib/usage.js siteReport,
 // the last 14 days of profile views, opens from outside links and shares (LOR-151).
+// "activity": lib/activity.js activityReport, sign-ins per day, returning accounts and owners, profile updates by way
+// in and veterans or new players (LOR-304); "funnel": lib/activity.js funnelReport, each stage from site download to
+// returning player, signed-in downloads (LOR-8), week by week and cohorts by first week (LOR-10), plus "stores"
+// (lib/stores.js storesReport: CurseForge's and GitHub's counts per release and day, LOR-421) and "companions" /
+// "companionWeeks" (lib/checkins.js: companion installs in use and returning, LOR-422); each null until it has a table.
+// "features": lib/featureuse.js featureReport, which features every companion install's add-on and companion used, by
+// level range and new or returning install, and the 30-day trend (LOR-435).
+// Every account count leaves out the admin's and excluded accounts (lib/activity.js syncExclusions, run first: the
+// account signed in on this browser, ANALYTICS_EXCLUDE, and those left out by hand); users[].excluded says why.
+//   POST {"action": "exclude-account" | "count-account", "id": "<account id>"}   leave one out of the counts, or count
+//                                                                               it again (even the admin's)
+// The CurseForge author dashboard's numbers come in through functions/api/admin/curseforge.js.
 
 import { authorized } from "../../lib/auth.js";
-import { setup as setupAccounts } from "../../lib/accounts.js";
+import { setup as setupAccounts, currentUser } from "../../lib/accounts.js";
 import { storySpend, STORY_BUDGET_USD } from "../../lib/profiles.js";
 import { decodeReport, describeReport } from "../../public/report-code.js";
 import { setup as setupContrib, adminView, setUploaderRejected, loadKnown } from "../../lib/contribute.js";
 import { usageReport, siteReport } from "../../lib/usage.js";
+import { activityReport, funnelReport, syncExclusions, setExclusion, counted } from "../../lib/activity.js";
+import { storesReport } from "../../lib/stores.js";
+import { checkinReport, checkinWeeks } from "../../lib/checkins.js";
+import { featureReport } from "../../lib/featureuse.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
 const json = (body, status = 200) => Response.json(body, { status, headers: NO_STORE });
@@ -49,6 +65,9 @@ export async function onRequestGet({ request, env }) {
   if (!env.DB) return json({ error: "No D1 database bound as DB" }, 503);
   await addStatusColumn(env.DB);
   await safe(setupAccounts(env));
+  // The accounts the counts leave out (lib/activity.js): test addresses, ANALYTICS_EXCLUDE, and the account signed in
+  // on this browser, the admin's own (the /admin page is on the same site, so its session cookie comes along).
+  await safe(syncExclusions(env, await safe(currentUser(env, request))));
   const all = async q => (await safe(env.DB.prepare(q).all()))?.results || [];
   const [subscribers, feedback, downloads, clicks, voices, translations, translationReports, users, signupCounts,
          signupDays] = await Promise.all([
@@ -74,20 +93,22 @@ export async function onRequestGet({ request, env }) {
         "(SELECT COUNT(*) FROM studio_takes WHERE owner = u.id) AS takes, " +
         "(SELECT COUNT(*) FROM feedback WHERE user_id = u.id) AS feedback, " +
         "p.handle, p.public AS profile_public, json_extract(p.data, '$.name') AS character, " +
-        "json_extract(p.data, '$.level') AS char_level, json_extract(p.data, '$.className') AS char_class " +
+        "json_extract(p.data, '$.level') AS char_level, json_extract(p.data, '$.className') AS char_class, " +
+        "(SELECT reason FROM excluded_accounts WHERE user_id = u.id) AS excluded " +
         "FROM users u LEFT JOIN profiles p ON p.user_id = u.id ORDER BY u.created DESC LIMIT 5000"),
     // Sign-ups, counted here since the list above stops at 5000: every account, those with a player profile and a
-    // public one, and the accounts made today and in the last 7 and 30 days. `created` is an ISO time; days are UTC,
-    // like the dashboard's charts, so the last 30 days are today and the 29 before it.
+    // public one, and the accounts made today and in the last 7 and 30 days, leaving out the admin's and test accounts
+    // (excluded: how many). `created` is an ISO time; days are UTC, like the dashboard's charts, so the last 30 days
+    // are today and the 29 before it.
     safe(env.DB.prepare(
       "SELECT COUNT(*) AS accounts, COUNT(p.user_id) AS profiles, COALESCE(SUM(p.public = 1), 0) AS public, " +
       "COALESCE(SUM(u.created >= date('now')), 0) AS today, " +
       "COALESCE(SUM(u.created >= date('now', '-6 days')), 0) AS week, " +
       "COALESCE(SUM(u.created >= date('now', '-29 days')), 0) AS month " +
-      "FROM users u LEFT JOIN profiles p ON p.user_id = u.id"
+      `FROM users u LEFT JOIN profiles p ON p.user_id = u.id WHERE ${counted("u.id")}`
     ).first()),
     all("SELECT substr(created, 1, 10) AS day, COUNT(*) AS n FROM users WHERE created >= date('now', '-29 days') " +
-        "GROUP BY day ORDER BY day"),
+        `AND ${counted("id")} GROUP BY day ORDER BY day`),
   ]);
   const signups = { ...(signupCounts || { accounts: 0, profiles: 0, public: 0, today: 0, week: 0, month: 0 }),
                     days: signupDays };
@@ -116,8 +137,15 @@ export async function onRequestGet({ request, env }) {
   const downloadTotals = await all("SELECT file, SUM(n) AS n FROM downloads GROUP BY file");
   const downloadSources = await all("SELECT file, src, SUM(n) AS n FROM download_sources " +
     "WHERE day >= date('now', '-29 days') GROUP BY file, src ORDER BY n DESC LIMIT 100");
+  const [activity, funnel, features] = await Promise.all([safe(activityReport(env)), safe(funnelReport(env)),
+    safe(featureReport(env))]);
+  if (funnel) {
+    [funnel.stores, funnel.companions, funnel.companionWeeks] = await Promise.all([safe(storesReport(env)),
+      safe(checkinReport(env)), safe(checkinWeeks(env, funnel.weeks[0]?.week || ""))]);
+  }
   return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users,
-                stories, answers, contributions, signups, usage, site, downloadTotals, downloadSources });
+                stories, answers, contributions, signups, usage, site, downloadTotals, downloadSources, activity, funnel,
+                features });
 }
 
 export async function onRequestPost({ request, env }) {
@@ -162,6 +190,13 @@ export async function onRequestPost({ request, env }) {
     const lines = await setUploaderRejected(env, body.uploader, body.action === "contrib-reject",
                                             await loadKnown(env, request));
     return json({ ok: true, lines });
+  }
+  // Contacts: leave an account out of the counts, or count it again (lib/activity.js setExclusion).
+  if ((body.action === "exclude-account" || body.action === "count-account") && typeof body.id === "string"
+      && /^[\w-]{1,64}$/.test(body.id)) {
+    await setupAccounts(env);
+    await setExclusion(env, body.id, body.action === "exclude-account");
+    return json({ ok: true });
   }
   if (body.action === "delete-subscriber"&& typeof body.email === "string" && body.email) {
     await env.DB.prepare("DELETE FROM subscribers WHERE email = ?").bind(body.email.trim().toLowerCase()).run();

@@ -483,11 +483,15 @@ end
 events:SetScript("OnEvent", function(_, event, arg1, ...)
   if event == "ADDON_LOADED" and arg1 == addonName then
     ns.Log.Init()
+    ns.Errors.Init()   -- the Lua errors kept while the add-on loaded go into LoreForeverDB.errors (Errors.lua)
+  elseif event == "ADDON_ACTION_FORBIDDEN" or event == "ADDON_ACTION_BLOCKED" then
+    ns.Errors.OnBlocked(event, arg1, ...)
   elseif event == "PLAYER_LOGIN" then
+    ns.Errors.OnLogin()   -- first: a Lua error later in login still gets its chat line
     ns.Lang.Init()   -- scans packs; the language pack, if any, goes in before the engine indexes the text
     setBindingNames()
     ns.engine = ns.Engine.new(ns.DB)
-    -- Before the voice: chapter recordings join its clip list. Its errors are reported, never fatal to the rest.
+    -- The journey's errors are reported, never fatal to the rest.
     local ok, err = pcall(ns.Journey.Init)
     if not ok and geterrorhandler then geterrorhandler()(err) end
     ns.Voice.Init()
@@ -518,8 +522,8 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     end
     checkSlashRivals()
     C_Timer.After(6, ns.Hooks.MaybeOnboard)
-    C_Timer.After(3, ns.Journey.Announce)
     C_Timer.After(12, loginTip)   -- after the key prompt (6 s), once the login chat has settled
+    ns.Log.SessionStart()   -- usage counts: a game session (not a /reload), the level range, voice and settings
   elseif event == "PLAYER_ENTERING_WORLD" or event == "ZONE_CHANGED_NEW_AREA" then
     C_Timer.After(2, arrive)
     C_Timer.After(1, ns.Voice.OnTaxiCheck)
@@ -547,6 +551,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.UI.SavePlayback()
     ns.Voice.Shutdown()   -- /reload also fires PLAYER_LOGOUT; save the position before stopping its sound
     if ns.UI.msgs then ns.UI.Archive() end   -- keep the last chat of the session in History
+    ns.Log.SessionEnd()   -- usage counts: minutes in game since this load
   elseif event == "PLAYER_CONTROL_LOST" then
     C_Timer.After(1, ns.Voice.OnTaxiCheck)
   elseif event == "PLAYER_CONTROL_GAINED" then
@@ -589,7 +594,7 @@ for _, e in ipairs({ "ADDON_LOADED", "PLAYER_LOGIN", "PLAYER_ENTERING_WORLD", "Z
   "PLAYER_TARGET_CHANGED", "PLAYER_CONTROL_LOST", "PLAYER_CONTROL_GAINED",
   "PLAYER_REGEN_DISABLED", "PLAYER_REGEN_ENABLED", "PLAYER_LOGOUT",
   "CINEMATIC_START", "CINEMATIC_STOP", "PLAY_MOVIE", "STOP_MOVIE", "TALKINGHEAD_REQUESTED", "TALKINGHEAD_CLOSE",
-  "CVAR_UPDATE" }) do
+  "CVAR_UPDATE", "ADDON_ACTION_FORBIDDEN", "ADDON_ACTION_BLOCKED" }) do
   listen(e)
 end
 
@@ -683,6 +688,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore voice - list narration voices; /lore voice <number or name> - switch (auto: default, none: off)"])
     say(L["/lore report - tell us the last answer was wrong (or click the cross under any answer)"])
     say(L["/lore ctx | export | visits | stats - what Lore Forever sees, for bug reports and playtests"])
+    say(L["/lore errors - copy Lore Forever's recent Lua errors for a bug report"])
     say(string.format(L["Questions, requests and bug reports: %s"], DISCORD_URL))
   elseif cmd == "key" or cmd == "key narrate" then
     ns.Hooks.KeyPrompt(cmd == "key narrate" and "narrate" or "toggle"):Show()
@@ -767,6 +773,18 @@ SlashCmdList.LOREFOREVER = function(msg)
     local c = ns.Context.Snapshot()
     c.done = nil   -- every quest the character has finished: far too long for a bug report
     showExport(toJSON(c))
+  elseif cmd == "errors" or cmd == "errors clear" then
+    -- Lore Forever's own Lua errors (Errors.lua), in a box to copy into the feedback page or Discord.
+    if cmd == "errors clear" then
+      ns.Errors.Clear()
+      return say(L["the list of Lua errors is empty again."])
+    end
+    local text = ns.Errors.Report()
+    if not text then
+      return say(L["no Lua errors from Lore Forever so far. If one happens, /lore errors shows it here to copy."])
+    end
+    showExport((text:gsub("|", "||")))   -- a | would start an escape code in the box
+    say(L["Press Ctrl+C to copy, then paste it at loreforeverwow.com/feedback (Something's broken) or in our Discord."])
   elseif cmd == "visits" then
     local rows = {}
     for zone, v in pairs(LoreForeverDB.visits) do rows[#rows + 1] = { zone = zone, v = v } end

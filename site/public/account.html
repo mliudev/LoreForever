@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v=20261011-account2">
 <script src="/header.js" defer></script>
 <script src="/js/share.js" defer></script>
 </head>
@@ -32,13 +32,16 @@
   </nav>
 </header>
 
-<!-- The one Lore Forever account page: a player's profile (LOR-181) first, then every kind of contributor (voices,
-     translations; each feature adds its own section). Talks to functions/api/auth/[action].js and
-     functions/api/profile/[action].js. Needs JavaScript (Sign in with Google does too). -->
+<!-- The one Lore Forever account page. Signed out, it's the sign-in pull. Signed in, four tabs, by what players come
+     for: Profile (#profile: the profile, LOR-181, and the name and links it shows), Companion (#apps: the connected
+     companion apps, LOR-148), Contribute (#contribute: voices and translations) and Account (#account: sign out, delete).
+     A link to a tab, or to anything inside one (#ac-profile, #ac-voices, #ac-translations, #ac-delete), opens it.
+     Talks to functions/api/auth/[action].js and functions/api/profile/[action].js. Needs JavaScript (Sign in with
+     Google does too). -->
 <main class="wrap fb-page" id="ac-main">
-  <h1 id="ac-title">Your Lore Forever account</h1>
-  <p class="pitch" id="ac-pitch">Make a profile from your character's journey, send feedback, or help with narration and
-    translations. The add-on, its downloads and the rest of the site all work without an account.</p>
+  <h1 id="ac-title">Your account</h1>
+  <p class="pitch" id="ac-pitch" hidden></p>
+  <p class="ac-signed" id="ac-signed" hidden>Signed in as <strong id="ac-who"></strong></p>
   <noscript><p class="fb-status">This page needs JavaScript to sign you in.</p></noscript>
   <p class="fb-status" id="ac-status" role="status" hidden></p>
 
@@ -106,117 +109,144 @@
   </div>
 
   <div id="ac-in" hidden>
-    <section class="fb-done">
-      <h2>Your account</h2>
-      <p>Signed in as <strong id="ac-who"></strong>.</p>
-      <p class="vp-actions">
-        <a class="btn-small" href="/voices/studio">Upload your recordings</a>
-        <a class="btn-small" href="/translate/dashboard">Translate</a>
-        <button class="btn-small" type="button" id="ac-logout">Sign out</button>
-      </p>
-    </section>
+    <!-- The tabs: links, so each tab has an address; the script below switches them in place. Companion shows once
+         there's a connected app, or with the companion feature on (lib/features.js). -->
+    <nav class="ac-tabs" id="ac-tabs" aria-label="Your account">
+      <a href="#profile" id="tab-profile" data-tab="profile">Profile</a><a href="#apps" id="tab-apps"
+        data-tab="apps" hidden>Companion</a><a href="#contribute" id="tab-contribute"
+        data-tab="contribute">Contribute</a><a href="#account" id="tab-account" data-tab="account">Account</a>
+    </nav>
 
-    <!-- Your profile (LOR-181): paste the journey record from the add-on, get /u/<handle>. One paste, one click; it
-         stays private until the Public box is ticked. functions/api/profile/[action].js. -->
-    <section class="fb-form" id="profile">
-      <h2>Your profile</h2>
-      <div id="pf-none">
-        <p>Turn your character's journey into a page you can share: your stats, the road you took, the bosses you
-          beat, and your story.</p>
-        <ol class="pf-steps">
-          <li>In game, open Journey (<code>/lore journey</code>) and click <strong>Copy my journey record</strong>.</li>
-          <li>Press <strong>Ctrl+C</strong>, paste it below and click <strong>Make my profile</strong>.</li>
-        </ol>
-      </div>
-      <div id="pf-have" hidden>
-        <p class="pf-mine"><strong id="pf-name"></strong> <span id="pf-sheet"></span><span id="pf-when"></span></p>
-        <p class="vp-actions pf-share"><a class="btn-small" id="pf-see" href="/u/me">See your profile</a></p>
-        <label class="fb-check"><input type="checkbox" id="pf-public"> <span>Public: anyone with the link can see it,
-          with your links from "Your name and links" below. Otherwise only you can.</span></label>
-        <p class="pf-link" id="pf-link" hidden>Your link: <a id="pf-url" href="/u/me"></a>
-          <button class="btn-small" type="button" id="pf-share-btn">Share</button></p>
-        <form class="pf-address" id="pf-address">
-          <label class="pf-addr-label" for="pf-handle">Profile address <span class="fb-optional">(change it to your
-            streamer name, say; old links then stop working)</span></label>
-          <div class="pf-addr-row"><span class="pf-addr-base" id="pf-base">loreforeverwow.com/u/</span><input id="pf-handle"
-            name="handle" maxlength="24" autocomplete="off" spellcheck="false" required>
-            <button class="btn-small" type="submit">Save</button></div>
+    <div class="ac-panel" id="profile">
+      <!-- Your profile (LOR-181): paste the journey record from the add-on, get /u/<handle>. One paste, one click; it
+           stays private until the Public box is ticked. functions/api/profile/[action].js. -->
+      <section class="fb-form" id="pf-card" aria-labelledby="pf-title">
+        <h2 id="pf-title">Your profile</h2>
+        <div id="pf-none">
+          <p>Turn your character's journey into a page you can share: your stats, the road you took, the bosses you
+            beat, and your story.</p>
+          <ol class="pf-steps">
+            <li>In game, open Journey (<code>/lore journey</code>) and click <strong>Copy my journey record</strong>.</li>
+            <li>Press <strong>Ctrl+C</strong>, paste it below and click <strong>Make my profile</strong>.</li>
+          </ol>
+        </div>
+        <div id="pf-have" hidden>
+          <div class="ac-pf-head">
+            <p class="ac-pf-name"><strong id="pf-name"></strong><span id="pf-sheet"></span></p>
+            <p class="ac-pf-when" id="pf-when"></p>
+          </div>
+          <p class="vp-actions pf-share"><a class="btn-small" id="pf-see" href="/u/me">See your profile</a>
+            <button class="btn-small btn-small-alt" type="button" id="pf-share-btn" hidden>Share</button></p>
+          <label class="fb-check"><input type="checkbox" id="pf-public"> <span>Public: anyone with the link can see it,
+            with your name and links from below. Otherwise only you can.</span></label>
+          <p class="pf-link" id="pf-link" hidden>Your link: <a id="pf-url" href="/u/me"></a></p>
+          <form class="pf-address" id="pf-address">
+            <label class="pf-addr-label" for="pf-handle">Profile address <span class="fb-optional">(change it to your
+              streamer name, say; old links then stop working)</span></label>
+            <div class="pf-addr-row"><span class="pf-addr-base" id="pf-base">loreforeverwow.com/u/</span><input id="pf-handle"
+              name="handle" maxlength="24" autocomplete="off" spellcheck="false" required>
+              <button class="btn-small" type="submit">Save</button></div>
+          </form>
+          <label class="fb-field" id="pf-spec-field" hidden>
+            <span>Favorite spec <span class="fb-optional">(optional, shows on your profile)</span></span>
+            <select id="pf-spec"><option value="">Not saying</option></select>
+          </label>
+          <h3 class="ac-sub">Keep it up to date</h3>
+        </div>
+        <!-- The companion app (LOR-148): connected, it updates the profile by itself; the paste below still works. -->
+        <p class="pf-auto" id="pf-auto" hidden></p>
+        <form id="pf-import">
+          <label class="fb-field">
+            <span id="pf-record-label">Your journey record</span>
+            <textarea class="pf-record" name="record" rows="6" spellcheck="false" autocomplete="off"
+              placeholder="Journey record: ..."></textarea>
+          </label>
+          <p class="fb-actions">
+            <button class="btn-small" type="submit" id="pf-go">Make my profile</button>
+            <button class="pf-del" type="button" id="pf-delete" hidden>Delete my profile</button>
+          </p>
         </form>
-        <label class="fb-field" id="pf-spec-field" hidden>
-          <span>Favorite spec <span class="fb-optional">(optional, shows on your profile)</span></span>
-          <select id="pf-spec"><option value="">Not saying</option></select>
-        </label>
-      </div>
-      <!-- The companion app (LOR-148): connected, it updates the profile by itself; the paste below still works. -->
-      <p class="pf-auto" id="pf-auto" hidden></p>
-      <form id="pf-import">
+        <p class="fb-status" id="pf-status" role="status" hidden></p>
+      </section>
+
+      <form class="fb-form" id="ac-profile" aria-labelledby="ac-links-title">
+        <h2 id="ac-links-title">Your name and links</h2>
         <label class="fb-field">
-          <span id="pf-record-label">Your journey record</span>
-          <textarea class="pf-record" name="record" rows="6" spellcheck="false" autocomplete="off"
-            placeholder="Journey record: ..."></textarea>
+          <span>Your name</span>
+          <input type="text" name="display_name" maxlength="60" autocomplete="nickname" placeholder="As players should see it">
         </label>
-        <p class="fb-actions">
-          <button class="btn-small" type="submit" id="pf-go">Make my profile</button>
-          <button class="pf-del" type="button" id="pf-delete" hidden>Delete my profile</button>
-        </p>
+        <label class="fb-field">
+          <span>Links <span class="fb-optional">(up to three, https://, one per line)</span></span>
+          <textarea name="links" rows="3" maxlength="600" placeholder="https://twitch.tv/you"></textarea>
+          <small>Your Twitch, YouTube or socials. They show on your profile once it's public.</small>
+        </label>
+        <label class="fb-check"><input type="checkbox" name="show_public"> <span>Show my name and links on
+          <a href="/contributors">Contributors</a>, my voices' pages, and as a translator of my languages on
+          <a href="/translate">Translate</a>. Otherwise only each voice's credit line shows.</span></label>
+        <p class="fb-actions"><button class="btn-small" type="submit">Save</button>
+          <span class="fb-status" id="ac-links-status" role="status" hidden></span></p>
       </form>
-      <p class="fb-status" id="pf-status" role="status" hidden></p>
-    </section>
+    </div>
 
     <!-- Connected apps (LOR-148): the companion apps that keep the profile up to date, each with Disconnect.
-         functions/api/device/[action].js; they connect on /link. Shown once there's one (or with the companion
-         feature on, lib/features.js). -->
-    <section class="fb-form" id="apps" hidden>
-      <h2>Connected apps</h2>
-      <p class="vp-note" id="ac-noapps">None yet. The Lore Forever companion app can keep your profile up to date by
-        itself: in its Settings, click <strong>Connect to my profile</strong>.</p>
-      <div id="ac-app-list"></div>
-      <p class="fb-status" id="ac-apps-status" role="status" hidden></p>
-    </section>
+         functions/api/device/[action].js; they connect on /link. -->
+    <div class="ac-panel" id="apps" hidden>
+      <section class="fb-form" aria-labelledby="ac-apps-title">
+        <h2 id="ac-apps-title">Connected apps</h2>
+        <div id="ac-noapps">
+          <p>The Lore Forever companion app on your PC can keep your profile up to date by itself, with no copying and
+            pasting.</p>
+          <ol class="pf-steps">
+            <li>Get it with the Windows installer on <a href="/downloads">Downloads</a>, if you haven't yet.</li>
+            <li>In the companion, open Settings and click <strong>Connect to my profile</strong>.</li>
+          </ol>
+        </div>
+        <div id="ac-app-list"></div>
+        <p class="fb-status" id="ac-apps-status" role="status" hidden></p>
+      </section>
+    </div>
 
-    <form class="fb-form" id="ac-profile">
-      <h2>Your name and links</h2>
-      <label class="fb-field">
-        <span>Your name</span>
-        <input type="text" name="display_name" maxlength="60" autocomplete="nickname" placeholder="As players should see it">
-      </label>
-      <label class="fb-field">
-        <span>Links <span class="fb-optional">(up to three, https://, one per line)</span></span>
-        <textarea name="links" rows="3" maxlength="600" placeholder="https://twitch.tv/you"></textarea>
-        <small>Your Twitch, YouTube or socials. They show on your profile once it's public.</small>
-      </label>
-      <label class="fb-check"><input type="checkbox" name="show_public"> <span>Show my name and links on
-        <a href="/contributors">Contributors</a>, my voices' pages, and as a translator of my languages on
-        <a href="/translate">Translate</a>. Otherwise only each voice's credit line shows.</span></label>
-      <button class="btn-small" type="submit">Save</button>
-    </form>
+    <div class="ac-panel" id="contribute" hidden>
+      <p class="ac-lead">Lore Forever's narration and translations come from players like you.</p>
+      <section class="fb-form" id="ac-voices" aria-labelledby="ac-voices-title">
+        <h2 id="ac-voices-title">Your voices</h2>
+        <p class="vp-note" id="ac-novoices">None yet. Record some lines and your voice shows here right away, and on
+          the site once we've published it.</p>
+        <div id="ac-voice-list"></div>
+        <p class="ac-go"><a class="btn-small" href="/voices/studio">Upload your recordings</a></p>
+        <p class="fb-status" id="ac-voices-status" role="status" hidden></p>
+      </section>
 
-    <section class="fb-form" id="ac-voices">
-      <h2>Your voices</h2>
-      <p class="vp-note" id="ac-novoices">None yet. <a href="/voices/studio">Upload your first recordings</a>; your voice
-        appears here right away and on the site once we've published it.</p>
-      <div id="ac-voice-list"></div>
-    </section>
+      <!-- Translators (LOR-96): languages and edit counts from functions/api/translations/[action].js. -->
+      <section class="fb-form" id="ac-translations" aria-labelledby="ac-tr-title">
+        <h2 id="ac-tr-title">Your translations</h2>
+        <p class="vp-note">Tick the languages you translate into. They come first on the translation dashboard.</p>
+        <div class="ac-langs" id="ac-langs"></div>
+        <p class="vp-note" id="ac-tr-stats"></p>
+        <p class="ac-go"><a class="btn-small" href="/translate/dashboard">Open the translation dashboard</a></p>
+        <p class="fb-status" id="ac-tr-status" role="status" hidden></p>
+      </section>
+    </div>
 
-    <!-- Translators (LOR-96): languages and edit counts from functions/api/translations/[action].js. -->
-    <section class="fb-form" id="ac-translations">
-      <h2>Your translations</h2>
-      <p class="vp-note">The languages you translate into. They come first on the
-        <a href="/translate/dashboard">translation dashboard</a>.</p>
-      <div class="ac-langs" id="ac-langs"></div>
-      <p class="vp-note" id="ac-tr-stats"></p>
-      <p><a class="btn-small" href="/translate/dashboard">Open the translation dashboard</a></p>
-    </section>
+    <div class="ac-panel" id="account" hidden>
+      <section class="fb-form" aria-labelledby="ac-signin-title">
+        <h2 id="ac-signin-title">Signing in</h2>
+        <p id="ac-who-long">You stay signed in on this browser for 30 days, or until you sign out.</p>
+        <button class="btn-small" type="button" id="ac-logout">Sign out</button>
+      </section>
 
-    <form class="fb-form" id="ac-delete">
-      <h2>Delete my account</h2>
-      <p class="vp-note">Removes your account, profile and everything listed under your name right away
-        (<a href="/privacy">what stays, and why</a>). Type <strong>delete</strong> to confirm.</p>
-      <label class="fb-field">
-        <input type="text" name="confirm" autocomplete="off" spellcheck="false" placeholder="delete">
-      </label>
-      <button class="btn-small" type="submit">Delete my account</button>
-    </form>
+      <form class="fb-form" id="ac-delete" aria-labelledby="ac-delete-title">
+        <h2 id="ac-delete-title">Delete my account</h2>
+        <p class="vp-note">Removes your account, profile and everything listed under your name right away
+          (<a href="/privacy">what stays, and why</a>). Type <strong>delete</strong> to confirm.</p>
+        <label class="fb-field">
+          <span class="visually-hidden">Type delete to confirm</span>
+          <input type="text" name="confirm" autocomplete="off" spellcheck="false" placeholder="delete">
+        </label>
+        <p class="fb-actions"><button class="btn-small" type="submit">Delete my account</button>
+          <span class="fb-status" id="ac-delete-status" role="status" hidden></span></p>
+      </form>
+    </div>
   </div>
 </main>
 
@@ -234,11 +264,13 @@
   // Our own pages only; a query string may follow (/feedback?kind=bug), since it can't change the host.
   const safeNext = p => /^\/[a-z0-9-]+(\/[a-z0-9-]*)*(\?[^#\s]*)?$/.test(p || "") ? p : null;
   const next = safeNext(params.get("next"));
-  const status = (msg, good) => {
-    $("ac-status").hidden = !msg;
-    $("ac-status").textContent = msg || "";
-    $("ac-status").classList.toggle("fb-good", Boolean(good));
+  // A message beside what it's about: each form has its own line; ac-status, under the title, is for the page.
+  const say = (id, msg, good) => {
+    $(id).hidden = !msg;
+    $(id).textContent = msg || "";
+    $(id).classList.toggle("fb-good", Boolean(good));
   };
+  const status = (msg, good) => say("ac-status", msg, good);
   const post = async (action, body) => {
     try {
       const r = await fetch("/api/auth/" + action, {
@@ -299,7 +331,7 @@
     div.addEventListener("submit", async e => {
       e.preventDefault();
       const res = await post("voice", { id: v.id, bio: div.bio.value });
-      status(res.ok ? "Saved." : res.error, res.ok);
+      say("ac-voices-status", res.ok ? `Saved ${v.name}'s bio.` : res.error, res.ok);
     });
     return div;
   }
@@ -311,14 +343,13 @@
     tellHeader(me);
     $("ac-out").hidden = Boolean(me.user);
     $("ac-in").hidden = !me.user;
+    $("ac-signed").hidden = !me.user;
     $("ac-main").classList.toggle("ac-wide", !me.user);   // signed out: the steps and the example side by side
     // Signed out, the page is about making your profile; signed in, it's your account.
-    $("ac-title").textContent = me.user ? "Your Lore Forever account" : "Make your profile";
-    $("ac-pitch").textContent = me.user
-      ? "Make a profile from your character's journey, send feedback, or help with narration and translations. " +
-        "The add-on, its downloads and the rest of the site all work without an account."
-      : "A page about your character, from the journal Lore Forever keeps while you play. The add-on and its " +
-        "downloads never need an account.";
+    $("ac-title").textContent = me.user ? "Your account" : "Make your profile";
+    $("ac-pitch").hidden = Boolean(me.user);
+    $("ac-pitch").textContent = "A page about your character, from the journal Lore Forever keeps while you play. " +
+      "The add-on and its downloads never need an account.";
     if (!me.user) {
       const clientId = me.signIn.google;
       $("ac-google").hidden = !clientId;
@@ -327,7 +358,9 @@
       return;
     }
     const u = me.user;
-    $("ac-who").textContent = (u.email || "your account") + (u.google ? " (Google)" : "");
+    $("ac-who").textContent = u.email || "your account";
+    $("ac-who-long").textContent = (u.google ? "You signed in with Google. " : "") +
+      "You stay signed in on this browser for 30 days, or until you sign out.";
     const f = $("ac-profile");
     f.display_name.value = u.display_name || "";
     f.links.value = u.links || "";
@@ -335,10 +368,70 @@
     $("ac-novoices").hidden = me.voices.length > 0;
     $("ac-voice-list").replaceChildren(...me.voices.map(voiceRow));
     features = me.features || {};
-    loadTranslations();
-    loadProfile();
-    loadApps();
+    $("tab-apps").hidden = !features.companion;   // until the list of apps says otherwise (showApps)
+    reveal(hashId(), true);
+    // Again once the sections have filled in, which moves what a link points to further down.
+    Promise.all([loadTranslations(), loadProfile(), loadApps()]).then(() => reveal(hashId(), true));
   }
+
+  // The tabs (Mike 10/11), switched in place like a profile's (public/js/journey.js). A link to a tab, or to anything
+  // inside one, opens that tab; anything else, or a tab that's hidden (Companion, until there's reason to show it),
+  // opens Profile.
+  const nav = $("ac-tabs");
+  const tabs = [...nav.querySelectorAll("a[data-tab]")];
+  const ALIASES = { links: "ac-profile", voices: "ac-voices", translations: "ac-translations", delete: "ac-delete" };
+  let current = "profile";
+  const hashId = () => decodeURIComponent(location.hash.slice(1));
+  function tab(name, focus = false) {
+    if (!tabs.some(a => a.dataset.tab === name && !a.hidden)) name = "profile";
+    current = name;
+    for (const a of tabs) {
+      const on = a.dataset.tab === name;
+      $(a.dataset.tab).hidden = !on;
+      a.setAttribute("aria-selected", String(on));
+      a.tabIndex = on ? 0 : -1;
+      if (on && focus) a.focus();
+      // On a phone too narrow for all four, the strip scrolls sideways to the open one.
+      if (on && nav.scrollWidth > nav.clientWidth) nav.scrollLeft = a.offsetLeft - (nav.clientWidth - a.offsetWidth) / 2;
+    }
+  }
+  // Once the tabs have stuck to the top of the window, a newly opened tab starts at its top.
+  const toTabs = () => {
+    const top = $("ac-in").getBoundingClientRect().top + scrollY;
+    if (scrollY > top) scrollTo(0, top);
+  };
+  function reveal(id, first = false) {
+    const el = /^[a-z][\w-]*$/i.test(id) ? $(ALIASES[id] || id) : null;
+    const panel = el?.closest(".ac-panel");
+    tab(panel ? panel.id : current);
+    if (panel && el !== panel && !panel.hidden) el.scrollIntoView({ block: "start" });
+    else if (!first) toTabs();
+  }
+  nav.setAttribute("role", "tablist");
+  for (const a of tabs) {
+    a.setAttribute("role", "tab");
+    a.setAttribute("aria-controls", a.dataset.tab);
+    $(a.dataset.tab).setAttribute("role", "tabpanel");
+    $(a.dataset.tab).setAttribute("aria-labelledby", a.id);
+  }
+  nav.addEventListener("click", e => {
+    const a = e.target.closest("a[data-tab]");
+    if (!a || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    tab(a.dataset.tab);
+    history.replaceState(null, "", "#" + current);
+    toTabs();
+  });
+  nav.addEventListener("keydown", e => {
+    const shown = tabs.filter(a => !a.hidden);
+    const i = shown.findIndex(a => a.dataset.tab === current);
+    const to = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: shown.length - 1 }[e.key];
+    if (to === undefined) return;
+    e.preventDefault();
+    tab(shown[(to + shown.length) % shown.length].dataset.tab, true);
+    history.replaceState(null, "", "#" + current);
+  });
+  addEventListener("hashchange", () => reveal(hashId()));
 
   // Connected apps (LOR-148): the companion keeps the profile up to date once it's connected (on /link).
   let features = {};
@@ -346,11 +439,7 @@
     const t = new Date(iso);
     return isNaN(t) ? "" : t.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
   };
-  const appsStatus = (msg, good) => {
-    $("ac-apps-status").hidden = !msg;
-    $("ac-apps-status").textContent = msg || "";
-    $("ac-apps-status").classList.toggle("fb-good", Boolean(good));
-  };
+  const appsStatus = (msg, good) => say("ac-apps-status", msg, good);
 
   function appRow(d) {
     const row = document.createElement("div");
@@ -369,7 +458,9 @@
   }
 
   function showApps(devices) {
-    $("apps").hidden = !devices.length && !features.companion;
+    const was = $("tab-apps").hidden;
+    $("tab-apps").hidden = !devices.length && !features.companion;
+    if (was !== $("tab-apps").hidden) reveal(hashId(), true);   // a link to #apps
     $("ac-noapps").hidden = devices.length > 0;
     $("ac-app-list").replaceChildren(...devices.map(appRow));
     // The profile section says what keeps it up to date.
@@ -384,7 +475,6 @@
       auto.textContent = "Have the Lore Forever companion on your PC? It can keep this up to date for you, with no " +
         "copying and pasting: in its Settings, click Connect to my profile.";
     } else auto.hidden = true;
-    if (location.hash === "#apps" && !$("apps").hidden) $("apps").scrollIntoView();
   }
 
   async function loadApps() {
@@ -404,11 +494,7 @@
       return { ok: false, error: "Couldn't reach the server. Check your connection and try again." };
     }
   };
-  const pfStatus = (msg, good) => {
-    $("pf-status").hidden = !msg;
-    $("pf-status").textContent = msg || "";
-    $("pf-status").classList.toggle("fb-good", Boolean(good));
-  };
+  const pfStatus = (msg, good) => say("pf-status", msg, good);
 
   function showProfile(p) {
     $("pf-none").hidden = Boolean(p);
@@ -420,10 +506,12 @@
     $("pf-name").textContent = p.name;
     $("pf-sheet").textContent = [p.sheet, p.faction].filter(Boolean).join(", ");
     const when = new Date(p.updated);
-    $("pf-when").textContent = isNaN(when) ? "" : " · updated " + when.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+    $("pf-when").textContent = (p.public ? "Public" : "Private: only you can see it") +
+      (isNaN(when) ? "" : " · updated " + when.toLocaleDateString(undefined, { month: "short", day: "numeric" }));
     $("pf-see").href = p.url;
     $("pf-public").checked = p.public;
     $("pf-link").hidden = !p.public;
+    $("pf-share-btn").hidden = !p.public;
     $("pf-url").href = p.url;
     $("pf-url").textContent = (location.host + p.url);
     $("pf-handle").value = p.handle;
@@ -437,10 +525,9 @@
   async function loadProfile() {
     let res;
     try { res = await (await fetch("/api/profile/me", { cache: "no-store" })).json(); } catch (e) { res = null; }
-    if (!res || !res.ok) { $("profile").hidden = true; return; }
-    $("profile").hidden = false;
+    if (!res || !res.ok) { $("pf-card").hidden = true; return; }
+    $("pf-card").hidden = false;
     showProfile(res.profile);
-    if (location.hash === "#profile") $("profile").scrollIntoView();
   }
 
   $("pf-import").addEventListener("submit", async e => {
@@ -464,7 +551,7 @@
       : res.switched ? `That record is ${res.switched.to}, not ${res.switched.from}: your profile now shows ${res.switched.to} at ` +
         `${location.host + res.profile.url}, and only you can see it until you tick Public again.`
       : "Your journey is saved.") + storyStatus, true);
-    $("profile").scrollIntoView({ block: "start" });
+    $("pf-card").scrollIntoView({ block: "start" });
   });
   $("pf-public").addEventListener("change", async e => {
     const res = await send("/api/profile/settings", { public: e.target.checked });
@@ -514,7 +601,7 @@
           method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ languages: picked }),
         })).json();
       } catch (e) { res = { ok: false, error: "Couldn't reach the server. Please try again." }; }
-      status(res.ok ? "Saved." : res.error, res.ok);
+      say("ac-tr-status", res.ok ? "Saved." : res.error, res.ok);
     };
     $("ac-langs").replaceChildren(...(langs.languages || []).map(l => {
       const box = document.createElement("input");
@@ -544,18 +631,19 @@
     const f = e.target;
     const res = await post("profile", { display_name: f.display_name.value, links: f.links.value, show_public: f.show_public.checked });
     if (res.ok) f.links.value = res.links;
-    status(res.ok ? "Saved." : res.error, res.ok);
+    say("ac-links-status", res.ok ? "Saved." : res.error, res.ok);
   });
   $("ac-logout").addEventListener("click", async () => {
     await post("logout");
     status("Signed out.", true);
+    scrollTo(0, 0);
     load();
   });
   $("ac-delete").addEventListener("submit", async e => {
     e.preventDefault();
     const res = await post("delete", { confirm: e.target.confirm.value.trim().toLowerCase() });
-    if (res.ok) { e.target.reset(); status("Your account is deleted.", true); load(); }
-    else status(res.error);
+    say("ac-delete-status", res.ok ? "" : res.error);
+    if (res.ok) { e.target.reset(); status("Your account is deleted.", true); scrollTo(0, 0); load(); }
   });
 
   load();

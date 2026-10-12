@@ -79,6 +79,9 @@ SolidCompression=yes
 LZMANumBlockThreads=4
 WizardStyle=modern
 ShowLanguageDialog=no
+; Always keep a log ("Setup Log <date> #NNN.txt" in %TEMP%): when a player says Setup hung, it says which step took how
+; long (the status lines of the narration downloads, LOR-337).
+SetupLogging=yes
 
 [Languages]
 Name: "en"; MessagesFile: "compiler:Default.isl"
@@ -152,11 +155,12 @@ begin
   SetArrayLength(VoiceFolders, 2);
   SetArrayLength(VoiceWanted, 2);
   VoiceIds[0] := 'female';
-  VoiceNames[0] := 'Female narrator (stories, answers and lands)';
+  // The same one-line descriptions as the pack cards on loreforeverwow.com/downloads (site/lib/packs.js, LOR-437).
+  VoiceNames[0] := 'Female narrator: the same stories in a second voice, with the Alliance and Horde lands';
   VoiceAssets[0] := 'LoreForever_Voice_Female-complete.zip';
   VoiceFolders[0] := 'LoreForever_Voice_Female;LoreForever_Voice_Female_Alliance;LoreForever_Voice_Female_Horde';
   VoiceIds[1] := 'quests';
-  VoiceNames[1] := 'More quest narration (male narrator)';
+  VoiceNames[1] := 'Quest dialogue (male narrator): quest givers read their words aloud';
   VoiceAssets[1] := 'LoreForever_Voice_Default_Quests.zip';
   VoiceFolders[1] := 'LoreForever_Voice_Default_Quests';
 #ifndef DownloadIss
@@ -256,12 +260,57 @@ begin
     if VoiceIds[I] = Id then Result := VoiceWanted[I];
 end;
 
-function OnVoiceProgress(const Url, FileName: String; const Progress, ProgressMax: Int64): Boolean;
+// The bar and the status lines while a voice downloads (LOR-337). The bar follows the download and the status counts
+// the megabytes, so a slow connection still shows it moving. After the last byte Setup checks the file's SHA-256,
+// unpacks it and moves it into place: for the quest pack (about 340 MB in about 5,800 files) that can take minutes,
+// longer while antivirus scans each new file. A full bar under "Downloading" for all that time looked stuck at 99%,
+// so then the bar turns into a moving one and the status says what Setup is doing. Each step goes in the Setup log too
+// (with its time), which shows how long one took when a player says it hung.
+var
+  DownloadCaption, DownloadDoneCaption: String;
+  DownloadShownMB: Int64;
+
+procedure ShowBusy(Caption: String);
 begin
+  if WizardForm.StatusLabel.Caption <> Caption then begin
+    WizardForm.StatusLabel.Caption := Caption;
+    WizardForm.FilenameLabel.Caption := 'This can take a few minutes. Please leave Setup open.';
+    Log('status: ' + Caption);
+  end;
+  if WizardForm.ProgressGauge.Style <> npbstMarquee then WizardForm.ProgressGauge.Style := npbstMarquee;
+end;
+
+procedure StartDownloadStatus(What: String);
+begin
+  DownloadCaption := 'Downloading ' + What;
+  DownloadDoneCaption := 'Checking ' + What + '...';
+  DownloadShownMB := -1;
+  WizardForm.ProgressGauge.Style := npbstNormal;
+  WizardForm.StatusLabel.Caption := DownloadCaption + '...';
+  WizardForm.FilenameLabel.Caption := '';
+  Log('status: ' + DownloadCaption);
+end;
+
+function OnVoiceProgress(const Url, FileName: String; const Progress, ProgressMax: Int64): Boolean;
+var
+  MB: Int64;
+begin
+  Result := True;
+  if (ProgressMax > 0) and (Progress >= ProgressMax) and (DownloadDoneCaption <> '') then begin
+    ShowBusy(DownloadDoneCaption);   // the last byte is in: the SHA-256 check runs now, before this call returns
+    Exit;
+  end;
   if ProgressMax > 0 then
     WizardForm.ProgressGauge.Position := WizardForm.ProgressGauge.Min +
       Integer((WizardForm.ProgressGauge.Max - WizardForm.ProgressGauge.Min) * Progress div ProgressMax);
-  Result := True;
+  MB := Progress div 1000000;
+  if (DownloadCaption <> '') and (MB <> DownloadShownMB) then begin
+    DownloadShownMB := MB;
+    if ProgressMax > 0 then
+      WizardForm.StatusLabel.Caption := DownloadCaption + ' (' + IntToStr(MB) + ' of ' + IntToStr(ProgressMax div 1000000) + ' MB)...'
+    else
+      WizardForm.StatusLabel.Caption := DownloadCaption + ' (' + IntToStr(MB) + ' MB)...';
+  end;
 end;
 
 // Unzips with Windows' own tar (Windows 10 1803 and later), else PowerShell's Expand-Archive. Both have finished
@@ -304,7 +353,7 @@ begin
   if Copy(Url, Length(Url), 1) <> '/' then Url := Url + '/';
   Url := Url + VoiceAssets[I];
   Dest := AddOnsDir();
-  WizardForm.StatusLabel.Caption := 'Downloading: ' + VoiceNames[I];
+  StartDownloadStatus(VoiceNames[I]);
   Log('voice ' + VoiceIds[I] + ': downloading ' + Url);
   try
     DownloadTemporaryFile(Url, VoiceAssets[I], '', @OnVoiceProgress);
@@ -314,7 +363,7 @@ begin
     Exit;
   end;
   Zip := ExpandConstant('{tmp}\') + VoiceAssets[I];
-  WizardForm.StatusLabel.Caption := 'Unpacking: ' + VoiceNames[I];
+  ShowBusy('Unpacking ' + VoiceNames[I] + '...');
   F := FoldersOf(I);
   try
     for K := 0 to F.Count - 1 do DelTree(Dest + '\' + F[K], True, True, True);
@@ -389,9 +438,10 @@ begin
     StringChangeEx(FolderNames, ';', #13#10, True);
     F.Text := FolderNames;
     try
-      WizardForm.StatusLabel.Caption := 'Downloading ' + DownloadLabel(Asset) + '...';
+      StartDownloadStatus(DownloadLabel(Asset));
       DownloadTemporaryFile(Url + Asset, Asset, Digest, @OnVoiceProgress);
       Zip := ExpandConstant('{tmp}\') + Asset;
+      ShowBusy('Unpacking ' + DownloadLabel(Asset) + '...');
       if not Unzip(Zip, DownloadStage) then RaiseException('Could not unpack ' + Asset);
       for K := 0 to F.Count - 1 do begin
         Folder := F[K];
@@ -431,6 +481,7 @@ begin
   Backup := DownloadStage + '\old';
   try
     if Ready then begin
+      ShowBusy('Putting the new narration in place...');
       ForceDirectories(Backup);
       SetArrayLength(HadOld, DownloadFolders.Count);
       Promoted := 0;
@@ -544,7 +595,7 @@ begin
   ConfigureAvailableVoices();
 #endif
   VoicePage := CreateInputOptionPage(wpSelectDir, 'Extra narration',
-    'The male narrator is included. Add more narration here.',
+    'The male narrator''s stories and the Alliance and Horde lands are included. Add more narration here.',
     'Tick an option to download it while Lore Forever installs, or skip this: downloads are also at ' +
     'loreforeverwow.com/downloads. In game, pick one under Options > Narration voices.', False, False);
   for I := 0 to GetArrayLength(VoiceIds) - 1 do VoicePage.Add(VoiceNames[I]);

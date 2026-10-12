@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
-"""CHANGELOG.md is the one place release notes are written; this spreads them to the website, GitHub and CurseForge.
+"""CHANGELOG.md is where release notes end up; this spreads them to the website, GitHub and CurseForge.
 
-  changelog.py notes VERSION        print VERSION's notes (Markdown); falls back to "## Unreleased" if VERSION has
-                                    no section yet. Exit 1 if there's nothing to say.
-  changelog.py stamp VERSION        rename "## Unreleased" to "## VERSION (today)" and start a fresh, empty Unreleased
+Each PR writes its player-facing notes in a fragment of its own, changelog.d/<branch>.md (- bullets), so PRs don't
+collide in CHANGELOG.md (0.14.0: nearly every PR conflicted there). The next version's notes are whatever is under
+"## Unreleased" in CHANGELOG.md (where the release notes pass puts the highlights), then each fragment's, in file-name
+order. The stamp writes them into the version's section and deletes the fragments.
+
+  changelog.py notes VERSION        print VERSION's notes (Markdown); falls back to the next version's notes (above)
+                                    if VERSION has no section yet. Exit 1 if there's nothing to say.
+  changelog.py stamp VERSION        rename "## Unreleased" to "## VERSION (today)", with the fragments' notes after its
+                                    own, start a fresh, empty Unreleased, and delete the fragments
   changelog.py site INDEX_HTML      write the website's copies from CHANGELOG.md: the landing page's version, its
                                     Changelog tab and its "New in" strip, the What's new page (whats-new.html next to
                                     it) and the newest version in header.js (the What's new dot)
@@ -20,6 +26,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CHANGELOG = ROOT / "CHANGELOG.md"
+FRAGMENTS = ROOT / "changelog.d"   # one PR's notes per file (changelog.d/README.md)
 HEADING = re.compile(r"^## (Unreleased|\d+\.\d+\.\d+)\b.*$", re.M)
 BEGIN, END = "<!-- changelog:begin", "<!-- changelog:end -->"
 WN_BEGIN, WN_END = "<!-- whatsnew:begin", "<!-- whatsnew:end -->"   # whats-new.html
@@ -38,9 +45,24 @@ def sections(text: str) -> list[tuple[str, str]]:
             for i, m in enumerate(marks)]
 
 
+def fragments() -> list[Path]:
+    """The fragments waiting for the next release, in file-name order (no git needed: qa-artifact.sh stamps an archive,
+    and its Notes.lua has to be the release's byte for byte)."""
+    return sorted(p for p in FRAGMENTS.glob("*.md") if p.name != "README.md") if FRAGMENTS.is_dir() else []
+
+
+def unreleased(text: str) -> str:
+    """The next version's notes: CHANGELOG.md's under "## Unreleased", then each fragment's. A heading line in a
+    fragment would start a section of its own there, so it's left out."""
+    parts = [dict(sections(text)).get("Unreleased", "")]
+    parts += ["\n".join(line for line in p.read_text().splitlines() if not line.startswith("#")).strip()
+              for p in fragments()]
+    return "\n\n".join(part for part in parts if part)
+
+
 def notes(version: str) -> str:
-    found = dict(sections(CHANGELOG.read_text()))
-    return found.get(version) or found.get("Unreleased", "")
+    text = CHANGELOG.read_text()
+    return dict(sections(text)).get(version) or unreleased(text)
 
 
 def stamp(version: str) -> None:
@@ -48,10 +70,15 @@ def stamp(version: str) -> None:
     if any(v == version for v, _ in sections(text)):
         return   # already stamped (rerun after a failure)
     today = datetime.date.today().isoformat()
-    new, n = re.subn(r"^## Unreleased\b.*$", f"## Unreleased\n\n## {version} ({today})", text, count=1, flags=re.M)
-    if not n:
+    head = re.search(r"^## Unreleased\b.*$", text, flags=re.M)
+    if not head:
         sys.exit(f"changelog: no '## Unreleased' section in {CHANGELOG.name}")
-    CHANGELOG.write_text(new)
+    after = HEADING.search(text, head.end())
+    body = unreleased(text)
+    CHANGELOG.write_text(text[:head.start()] + f"## Unreleased\n\n## {version} ({today})\n\n"
+                         + (body + "\n\n" if body else "") + (text[after.start():] if after else ""))
+    for p in fragments():
+        p.unlink()
 
 
 def _bullets(body: str) -> list[str]:
@@ -230,7 +257,8 @@ def main(argv: list[str]) -> int:
     if cmd == "notes":
         body = notes(arg)
         if not body:
-            print(f"changelog: nothing under '## {arg}' or '## Unreleased' in CHANGELOG.md", file=sys.stderr)
+            print(f"changelog: nothing under '## {arg}' or '## Unreleased' in CHANGELOG.md, and no changelog.d/*.md",
+                  file=sys.stderr)
             return 1
         print(body)
     elif cmd == "stamp":

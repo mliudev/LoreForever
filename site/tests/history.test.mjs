@@ -11,7 +11,7 @@ import { d1 } from './helpers.mjs';
 import { exportHistory } from '../public/js/history-export.js';
 import { moments } from '../lib/trails.js';
 import { readJourney } from '../lib/journey.js';
-import { picturesSection } from '../lib/pictures.js';
+import { pictureLink } from '../lib/pictures.js';
 
 const origin = 'https://preview.example';
 const env = { DB: d1(), HISTORY_ARCHIVE_ENABLED: '1' };
@@ -179,9 +179,9 @@ test('offset changes preserve every archived and normal-profile day without chan
     const rendered = await profilePage({ env, params: { handle: p.handle },
       request: new Request(`${origin}/u/${p.handle}${suffix}`, { headers: { Cookie: cookie } }), waitUntil() {} });
     assert.equal(rendered.status, 200);
-    assert.match(await rendered.text(), /class="pf-date">Nov 2, 2025<\/h3>/);
+    assert.match(await rendered.text(), /Chapter 1 <span aria-hidden="true">&middot;<\/span> Nov 2 to Nov 3, 2025/);
   }
-  assert.match(picturesSection([{ id: 'synthetic-picture', t: firstTime, shown: 1 }], { tz: p.journey.tz }), /Nov 1, 2025/);
+  assert.match(pictureLink({ id: 'synthetic-picture', t: firstTime }, { tz: p.journey.tz }), /data-when="Nov 1, 2025"/);
   const legacy = { v: 1, tz: -480, moments: [{ t: firstTime, k: 'lvl', lv: 2 }] };
   assert.equal(moments(p.data, undefined, legacy)[0].day, '2025-11-01');
   legacy.moments[0].tz = 99999;

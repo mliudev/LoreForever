@@ -50,6 +50,18 @@
 .ad-rate-bar { flex: 1 1 80px; min-width: 60px; height: 6px; border-radius: 3px; background: #2a2a36; overflow: hidden; }
 .ad-rate-bar span { display: block; height: 100%; border-radius: 3px; background: var(--gold-soft); }
 
+/* Funnel (LOR-10): a row per stage, its count, a bar for its size and how many of the stage before reached it */
+.ad-funnel { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.ad-funnel li { display: grid; grid-template-columns: 1fr auto; gap: 3px 12px; align-items: baseline; }
+.ad-funnel-num { font: 700 1.25rem/1.2 var(--heading); color: var(--text); text-align: right; }
+.ad-funnel .ad-rate-bar, .ad-funnel .ad-sub { grid-column: 1 / -1; }
+.ad-funnel .ad-sub { color: var(--muted); font-size: 0.82rem; }
+.ad-funnel li.ad-off .ad-funnel-num { color: var(--muted); font: 600 0.9rem var(--heading); }
+.ad .ad-usage td.ad-small { font-size: 0.82rem; color: var(--muted); white-space: normal; }
+/* Veterans or new players (LOR-304): which cells of the level x time played table count as which */
+.ad td.ad-kind-veteran { color: var(--gold); }
+.ad td.ad-kind-new { color: var(--link); }
+
 /* Filters, lists and tables */
 .ad-filters { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; margin-bottom: 10px; }
 .ad-filters button, .ad-filters select, .ad-filters input {
@@ -90,6 +102,22 @@
 }
 .ad-nav a:hover { border-color: var(--gold-soft); }
 .ad-nav a[aria-current="true"] { border-color: var(--gold); color: var(--gold); }
+/* Tabs (one shown at a time, by the address's #) and Community's parts */
+.ad-tab[hidden], .ad-sub-tab[hidden] { display: none; }
+.ad-subnav { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 4px; }
+.ad-subnav a {
+  display: flex; gap: 6px; align-items: center; padding: 4px 9px; border: 1px solid var(--line); border-radius: 4px;
+  color: var(--muted); font-size: 0.85rem; text-decoration: none;
+}
+.ad-subnav a:hover { border-color: var(--gold-soft); color: var(--text); }
+.ad-subnav a[aria-current="true"] { border-color: var(--gold); color: var(--gold); }
+/* Two series in one chart: total bars with their unique part inside */
+.ad-chart .bar.total { fill: var(--gold-soft); opacity: 0.45; }
+.ad-chart .bar.uniq { fill: var(--gold); }
+.ad-legend { margin: 4px 0 0; color: var(--muted); font-size: 0.8rem; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.ad-legend .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; }
+.ad-legend .sw.total { background: var(--gold-soft); opacity: 0.45; }
+.ad-legend .sw.uniq { background: var(--gold); margin-left: 8px; }
 .ad-badge { min-width: 1.4em; padding: 0 5px; border-radius: 9px; background: var(--gold); color: #000; font-size: 0.75rem; font-weight: 700; text-align: center; }
 .ad-badge:empty { display: none; }
 .ad-badge.quiet { background: var(--line); color: var(--muted); }

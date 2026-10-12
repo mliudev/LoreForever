@@ -1,5 +1,5 @@
 -- Live game info for the companion app (LOR-416): a tiny block of solid-colour cells in the top-left corner of the
--- screen that the Lore Forever companion on this PC reads several times a second, so Sam knows where you are and what
+-- screen that the Lore Forever companion on this PC reads several times a second, so Willo knows where you are and what
 -- you're fighting right away instead of after a /reload. Off until the player ticks Options > Live game info.
 -- (LOR-57: SavedVariables reach the disk only on /reload or logout, the chat log only at logout, and add-ons can't
 -- follow the combat log, so nothing else gets game state out while you play.)

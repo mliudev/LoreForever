@@ -169,6 +169,19 @@ local function tokenize(text, keepStop, noBigrams)
 end
 Engine.tokenize = tokenize
 
+-- The words a creature's name is searched by: its own, plus each word's plural where the stemmer keeps them apart
+-- ("wolf" and "wolves", "bat" and "bats", "zombie" and "zombies"), since the lore mostly talks about them in the plural.
+local function nameTokens(name)
+  local out, raw = tokenize(name)
+  for _, w in ipairs(raw) do
+    if not STOP[w] then
+      local plural = stem(w:find("[^f]f$") and w:sub(1, -2) .. "ves" or w .. "s")
+      if plural ~= stem(w) then out[#out + 1] = plural end
+    end
+  end
+  return out
+end
+
 local function counts(tokens)
   local c = {}
   for _, t in ipairs(tokens) do c[t] = (c[t] or 0) + 1 end
@@ -654,8 +667,8 @@ end
 local SPELLING = { wat = "what", wut = "what", whats = "what", whos = "who", wheres = "where", hes = "he", shes = "she",
   im = "i am", ur = "your", u = "you", r = "are", y = "why", dis = "this", da = "the", theyre = "they are" }
 
--- Which situational question this is, from the raw words: intent and scope ("place", "quest", "subject" or
--- "self"), or nil.
+-- Which situational question this is, from the raw words: intent, scope ("place", "quest", "subject" or "self") and
+-- the phrase that says so, or nil.
 function Engine.Intent(raw)
   local words = {}
   for i, w in ipairs(raw) do words[i] = SPELLING[w] or w end
@@ -665,7 +678,7 @@ function Engine.Intent(raw)
   if first == "what" and last == "for" then return "item", "quest" end
   for _, p in ipairs(INTENT_PHRASES) do
     for _, ph in ipairs(p[3]) do
-      if s:find(" " .. ph .. " ", 1, true) then return p[1], p[2] end
+      if s:find(" " .. ph .. " ", 1, true) then return p[1], p[2], ph end
     end
   end
   if first == "why" or first == "what" then
@@ -1019,8 +1032,8 @@ function Engine:Ask(question, ctx, limit)
     if PERSON[w] or w == "this" or w == "that" then mentionsPerson = true end
   end
   -- "how did I get here?", "why does he want this?": the FAQ tagged for that, at the player's place or quest.
-  local intentKey, intentDoc, intentBonus, aboutTarget, mobSubject
-  local intent, scope = Engine.Intent(raw)
+  local intentKey, intentDoc, intentBonus, aboutTarget, mobSubject, targetWords, heldWords
+  local intent, scope, phrase = Engine.Intent(raw)
   if intent and ctx then
     -- The entry whose whole name the question spells out, rarest words first ("lore for Hogger").
     local namedKey, best = nil, 0
@@ -1055,8 +1068,17 @@ function Engine:Ask(question, ctx, limit)
     local k, i = self:IntentTarget(intent, scope, ctx, raw, namedKey)
     if k then intentKey, intentDoc = k, self:EntryDocs(k) + i end   -- the entry's docs: summary, then each FAQ
     if not k and scope == "subject" and ctx.targetName then
-      for _, t in ipairs((tokenize(ctx.targetName))) do qtoks[#qtoks + 1] = t end
-      aboutTarget = true
+      -- A target with no entry (a young wolf): search by its name. The words that make the question ("attacking",
+      -- "hostile") then count only in answers that name it too, or "why are they attacking me?" goes to whatever
+      -- else the place says is attacking (LOR-111: Northshire's Defias bandits, not its wolves).
+      aboutTarget, targetWords, heldWords = true, {}, {}
+      for _, t in ipairs(nameTokens(ctx.targetName)) do
+        qtoks[#qtoks + 1] = t
+        targetWords[t] = true
+      end
+      for _, t in ipairs((tokenize(phrase or ""))) do
+        if not targetWords[t] then heldWords[t] = true end
+      end
     end
     -- "Why can I use the Light?": the player's own class outranks the Light topic the words point at.
     intentBonus = self.INTENT_BONUS * ((scope == "self" or mobSubject) and 2 or 1)
@@ -1074,18 +1096,39 @@ function Engine:Ask(question, ctx, limit)
     or raw[2] == "were" or raw[2] == "s") and #qtoks <= 3
   local k1, b = 1.2, 0.6
   local avg, docs = self.avgLen, self.search.docs
-  local base = {}
-  for t in pairs(counts(qtoks)) do
+  local base, nameScore, held = {}, {}, {}
+  -- BM25 of word t, in the docs of `only` if given.
+  local function addWord(t, only)
     local pl = self.post[t]
-    if pl then
-      local idf = self:idf(t)
-      for p = 1, #pl, 4 do
-        local di = dec(pl, p, 3)
+    if not pl then return end
+    local idf, ofTarget = self:idf(t), targetWords and targetWords[t]
+    for p = 1, #pl, 4 do
+      local di = dec(pl, p, 3)
+      if not only or only[di] then
         local f = B64[pl:byte(p + 3)]
         local len = dec(docs, (di - 1) * 7 + 6, 2)
-        base[di] = (base[di] or 0) + idf * (f * (k1 + 1)) / (f + k1 * (1 - b + b * len / avg))
+        local s = idf * (f * (k1 + 1)) / (f + k1 * (1 - b + b * len / avg))
+        base[di] = (base[di] or 0) + s
+        if ofTarget then nameScore[di] = (nameScore[di] or 0) + s end
       end
     end
+  end
+  for t in pairs(counts(qtoks)) do
+    if heldWords and heldWords[t] then held[#held + 1] = t else addWord(t) end
+  end
+  if held[1] then
+    -- The question's own words about a target with no entry count only in the docs that name it at least half as
+    -- well as the best one does: "forest" from a Young Forest Bear doesn't make Elwynn Forest's gnolls an answer
+    -- about bears. When nothing names it, they count everywhere.
+    local best, namesIt = 0, nil
+    for _, s in pairs(nameScore) do best = math.max(best, s) end
+    if best > 0 then
+      namesIt = {}
+      for di, s in pairs(nameScore) do
+        if s >= best / 2 then namesIt[di] = true end
+      end
+    end
+    for _, t in ipairs(held) do addWord(t, namesIt) end
   end
   local function include(key)
     local first, n = self:EntryDocs(key)

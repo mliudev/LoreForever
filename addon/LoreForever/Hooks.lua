@@ -605,10 +605,10 @@ end
 -- Chat links -------------------------------------------------------------------------------------------------------
 
 -- A clickable chat link. kind: "faq" (key + idx), "entry" (key), "primer" (zone key), "listen" (key), "open",
--- "journey" / "journeylisten" (a journey chapter id).
+-- "whatsnew".
 function Hooks.Link(text, kind, key, idx)
   if ns.lang and ns.lang.edition then
-    -- Primers carry a bare zone key; Journey links carry chapter IDs, not lore entry IDs.
+    -- Primers carry a bare zone key.
     local entryKey
     if kind == "primer" then entryKey = key and ("zone:" .. key)
     elseif kind == "entry" or kind == "listen" or kind == "faq" then entryKey = key end
@@ -635,7 +635,6 @@ function Hooks.HandleLink(link)
   elseif kind == "entry" then ns.UI.Open(key, nil, "chatlink")
   elseif kind == "primer" then ns.UI.ShowPrimer(key, "chatlink")
   elseif kind == "listen" then ns.UI.ListenTo(ns.UI.EntryTarget(key))
-  elseif kind == "journey" or kind == "journeylisten" then ns.Journey.Open(key, kind == "journeylisten")
   elseif kind == "open" then ns.UI.Open(nil, nil, "chatlink")
   elseif kind == "whatsnew" then ns.WhatsNew.Show() end
   return true

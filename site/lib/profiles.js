@@ -15,13 +15,16 @@
 // record (templateStory). The page calls either one the "story" and doesn't talk about models; that's UI copy, not a
 // secret: how stories are made is said plainly wherever someone asks.
 
-import { escape, page, linkList } from "./voices.js";
+import { COMPANION_NAME } from "./brand.js";
+import { escape, page, linkList, FRESH } from "./voices.js";
 import { slug, sha256 } from "./accounts.js";
 import { SPECS } from "./journey.js";
+import { BATTLEGROUNDS, battleground } from "./battlegrounds.js";
 import { numbersSection } from "./profile-stats.js";
-import { linker, moments, journeySection } from "./trails.js";
-import { roadChart } from "./roadchart.js";
-import { picturesSection, pictureUrl } from "./pictures.js";
+import { linker, moments, timelinePictures, dayText } from "./trails.js";
+import { roadChart, chapterMap } from "./roadchart.js";
+import { chapters, chaptersSection, iconSprite, OPEN } from "./chapters.js";
+import { pictureLink, pictureViewer, morePictures, pictureUrl } from "./pictures.js";
 import { cardKey, cardUrl } from "./sharecard.js";
 import { answerBudgetUsed, reserveOtherPaid } from "./companion-answers.js";
 
@@ -82,11 +85,28 @@ const listOf = items => items.length < 2 ? items.join("") : `${items.slice(0, -1
 const article = word => (/^[aeiou]/i.test(word) ? "an " : "a ") + word;
 const unique = list => [...new Set(list.filter(Boolean))];
 
-// The lands in the order first reached, and the dungeons entered.
+// The lands in the order first reached, the dungeons entered and the battlegrounds fought in (LOR-430: a record from
+// before them tagged a battleground "dungeon"; its name still tells).
+const inBattle = p => Boolean(p.battleground || battleground(p.zone));
 export function road(d) {
-  const dungeons = unique(d.places.filter(p => p.dungeon).map(p => p.zone));
-  const zones = unique(d.places.filter(p => !p.dungeon).map(p => p.zone)).filter(z => !dungeons.includes(z));
-  return { zones, dungeons };
+  const battlegrounds = unique(d.places.filter(inBattle).map(p => p.zone));
+  const dungeons = unique(d.places.filter(p => p.dungeon && !inBattle(p)).map(p => p.zone));
+  const zones = unique(d.places.filter(p => !p.dungeon && !inBattle(p)).map(p => p.zone))
+    .filter(z => !dungeons.includes(z));
+  return { zones, dungeons, battlegrounds };
+}
+
+// The side the character fights for, in English, and the other one.
+const sides = d => {
+  const side = { alliance: "Alliance", horde: "Horde" }[d.factionKey] || "";
+  return { side, foe: { Alliance: "Horde", Horde: "Alliance" }[side] || "" };
+};
+
+// How the battles at battleground z ended, as "won 2, lost 1", or "".
+function results(d, z) {
+  const n = { win: 0, loss: 0, draw: 0 };
+  for (const b of d.battles || []) if (b.zone === z && Object.hasOwn(n, b.out)) n[b.out]++;
+  return [n.win && `won ${n.win}`, n.loss && `lost ${n.loss}`, n.draw && `drawn ${n.draw}`].filter(Boolean).join(", ");
 }
 
 // "Level 24 Night Elf Druid".
@@ -110,8 +130,9 @@ const notablePeople = people => [...people.filter(p => p.name.includes(" ")), ..
 export function templateStory(d) {
   const name = d.name;
   const who = [d.race, d.className].filter(Boolean).join(" ") || "adventurer";
-  const { zones, dungeons } = road(d);
+  const { zones, dungeons, battlegrounds } = road(d);
   const t = d.totals;
+  const fell = d.deaths.filter(x => battleground(x.zone)), deaths = d.deaths.filter(x => !battleground(x.zone));
 
   const first = [`${name} is ${d.level ? `a level ${d.level} ${who}` : article(who)}${d.faction ? ` of the ${d.faction}` : ""}.`];
   if (zones.length && d.cut) {
@@ -131,15 +152,20 @@ export function templateStory(d) {
     second.push(`Along the way ${name} has ${listOf(did.filter(Boolean))}${met.length ? `, among them ${listOf(met)}` : ""}.`);
   }
   if (dungeons.length) second.push(`${name} has braved ${listOf(dungeons.slice(0, 4))}${dungeons.length > 4 ? " and more" : ""}.`);
+  if (battlegrounds.length) {
+    const { side } = sides(d);
+    second.push(`${name} has fought${side ? ` for the ${side}` : ""} at ${listOf(battlegrounds.slice(0, 4))}.`);
+  }
   const bosses = unique(d.bosses.map(b => b.name)).slice(0, 4);
   if (bosses.length) second.push(`${listOf(bosses)} ${bosses.length === 1 ? "has" : "have"} fallen to ${name}.`);
 
   const third = [];
   if (d.fought[0]) third.push(`${name}'s most fought foe: ${d.fought[0].name}, ${plural(d.fought[0].n, "time")}.`);
-  if (d.deaths.length) {
-    const where = deadliest(d.deaths);
-    third.push(`${name} has died ${d.cut ? "at least " : ""}${plural(d.deaths.length, "time")}${where ? `, most often in ${where}` : ""}, and got back up every time.`);
+  if (deaths.length) {
+    const where = deadliest(deaths);
+    third.push(`${name} has died ${d.cut ? "at least " : ""}${plural(deaths.length, "time")}${where ? `, most often in ${where}` : ""}, and got back up every time.`);
   }
+  if (fell.length) third.push(`In battle ${name} has fallen ${plural(fell.length, "time")} and risen again to fight on.`);
   const rep = bestStanding(d.rep);
   if (rep) third.push(`${name} is ${rep.standing} with ${rep.faction}.`);
   if (d.mounts.length) third.push(`${name} rides ${article(d.mounts[d.mounts.length - 1].name)}.`);
@@ -153,8 +179,9 @@ export function templateStory(d) {
 
 // The record as the facts a story may use, one per line.
 function facts(d, spec) {
-  const { zones, dungeons } = road(d);
+  const { zones, dungeons, battlegrounds } = road(d);
   const t = d.totals;
+  const fell = d.deaths.filter(x => battleground(x.zone)), deaths = d.deaths.filter(x => !battleground(x.zone));
   const out = [`Character: ${d.name}, ${[d.race, d.className].filter(Boolean).join(" ") || "an adventurer"}` +
     `${d.faction ? ` of the ${d.faction}` : ""}${d.level ? `, level ${d.level}` : ""}${spec ? `, favorite talent spec ${spec}` : ""}.`];
   if (d.cut) {
@@ -165,6 +192,15 @@ function facts(d, spec) {
   }
   if (zones.length) out.push(`Lands, in the order first reached${d.cut ? " (recent part only)" : ""}: ${zones.join(" -> ")}.`);
   if (dungeons.length) out.push(`Dungeons entered: ${dungeons.join(", ")}.`);
+  if (battlegrounds.length) {
+    // LOR-430: a battle, told as one (what each side fights for, how it went), never as a dungeon or deaths in a group.
+    const { side, foe } = sides(d);
+    out.push(`Battlegrounds fought in${side ? ` for the ${side}` : ""}${foe ? ` against the ${foe}` : ""}, battles ` +
+      "between the Alliance and the Horde: " + battlegrounds.map(z => {
+        const b = battleground(z), r = results(d, z);
+        return z + (r ? ` (${r})` : "") + (b ? `, where ${BATTLEGROUNDS[b].stakes}` : "");
+      }).join("; ") + ".");
+  }
   if (d.bosses.length) out.push(`Bosses defeated: ${d.bosses.map(b => b.name + (b.zone ? ` (${b.zone})` : "")).join("; ")}.`);
   if (d.quests.length) {
     out.push(`Quests finished: ${t.quests} in all. Some of them, oldest first: ` +
@@ -173,12 +209,16 @@ function facts(d, spec) {
   if (d.people.length) out.push(`People met (${t.people} in all), some of them: ${notablePeople(d.people).slice(0, 25).map(p => p.name).join(", ")}.`);
   if (d.kills.length) out.push(`Notable foes slain: ${d.kills.slice(-15).map(k => k.name + (k.rank ? ` (${k.rank})` : "")).join(", ")}.`);
   if (d.fought.length) out.push(`Foes fought most: ${d.fought.slice(0, 5).map(f => `${f.name} (${plural(f.n, "time")})`).join(", ")}.`);
-  if (d.deaths.length) {
+  if (deaths.length) {
     // Each death with its place, so a story never has to guess where it happened (it once moved one to Darkshore).
-    const where = d.deaths.slice(-8).map(x => [x.sub && x.zone ? `${x.sub}, ${x.zone}` : x.zone || "somewhere unrecorded",
+    const where = deaths.slice(-8).map(x => [x.sub && x.zone ? `${x.sub}, ${x.zone}` : x.zone || "somewhere unrecorded",
       x.by && `slain by ${x.by}`].filter(Boolean).join(", "));
-    out.push(`Died ${d.cut ? "at least " : ""}${plural(d.deaths.length, "time")}${d.deaths.length > 8 ? " (the latest 8 listed)" : ""}: ` +
+    out.push(`Died ${d.cut ? "at least " : ""}${plural(deaths.length, "time")}${deaths.length > 8 ? " (the latest 8 listed)" : ""}: ` +
       `${where.join("; ")}.`);
+  }
+  if (fell.length) {
+    out.push(`Fell ${plural(fell.length, "time")} in battle at ${listOf(unique(fell.map(x => x.zone)))}, rising again ` +
+      "each time to rejoin the fight.");
   }
   const finds = d.loot.filter(l => l.quality >= 3).slice(-8);
   if (finds.length) out.push(`Treasured finds: ${finds.map(l => l.name).join(", ")}.`);
@@ -402,19 +442,20 @@ export async function setupProfiles(env) {
 
 // What a story was told from: the level, quests and bosses done, and the lands, dungeons and mounts.
 export function storyBasis(d) {
-  const { zones, dungeons } = road(d);
+  const { zones, dungeons, battlegrounds } = road(d);
   return { level: d.level || 0, quests: d.totals?.quests || 0, bosses: d.totals?.bosses || 0, lands: zones, dungeons,
-           mounts: unique(d.mounts.map(m => m.name)) };
+           battlegrounds, mounts: unique(d.mounts.map(m => m.name)) };
 }
 
 // Whether the record has something new to tell since `basis` (storyBasis of the record the story was told from): a
-// level, a new land, dungeon, boss or mount, or STORY_SYNC_QUESTS more quests.
+// level, a new land, dungeon, battleground, boss or mount, or STORY_SYNC_QUESTS more quests.
 export function movedOn(basis, d) {
   if (!basis || typeof basis !== "object") return true;
   const now = storyBasis(d);
   const added = k => now[k].some(x => !(Array.isArray(basis[k]) ? basis[k] : []).includes(x));
   return now.level > (basis.level || 0) || now.quests >= (basis.quests || 0) + STORY_SYNC_QUESTS ||
-    now.bosses > (basis.bosses || 0) || added("lands") || added("dungeons") || added("mounts");
+    now.bosses > (basis.bosses || 0) || added("lands") || added("dungeons") || added("battlegrounds") ||
+    added("mounts");
 }
 
 // Exact writer input, including the chosen language and spec. A milestone basis controls automatic
@@ -455,20 +496,20 @@ function tiles(d) {
   // newest of: "3+". The journey stats count every death (LOR-246).
   const more = d.cut ? "+" : "";
   return [
-    ["Level", d.level], ["Quests done", t.quests], ["Places", t.places], ["People met", t.people], ["Foes", t.foes],
+    ["Quests done", t.quests], ["Places", t.places], ["People met", t.people], ["Foes", t.foes],
     ["Bosses", t.bosses], ["Dungeons", dungeons.length, more],
     d.stats ? ["Deaths", d.stats.deaths] : ["Deaths", d.deaths.length, more],
   ].filter(([, n]) => n !== null && n !== undefined)
     .map(([label, n, plus = ""]) => `<li><strong>${count(n)}${plus}</strong><span>${label}</span></li>`).join("");
 }
 
-// A card of one list, or nothing when it's empty.
+// One list in the numbers tab, or nothing when it's empty.
 function card(title, items, more = 0) {
   if (!items.length) return "";
-  return `<section class="zone pf-card"><div class="zone-body">
+  return `<div class="pf-card">
         <h3>${escape(title)}</h3>
         <ul>${items.map(i => `<li>${i}</li>`).join("")}</ul>${more > 0 ? `\n        <p class="pf-more">and ${more} more</p>` : ""}
-      </div></section>`;
+      </div>`;
 }
 
 const where = x => x.zone ? ` <span class="pf-where">${escape(x.sub ? `${x.sub}, ${x.zone}` : x.zone)}</span>` : "";
@@ -478,7 +519,7 @@ const loreLink = (text, path) => (path ? `<a href="${escape(path)}">${escape(tex
 
 // lore: lib/trails.js lookups while the lore pages are on, else null.
 function cards(d, lore) {
-  const { dungeons } = road(d);
+  const { dungeons, battlegrounds } = road(d);
   const bosses = [...d.bosses].reverse();
   const kills = [...d.kills].reverse();
   const finds = [...d.loot].filter(l => l.quality >= 2).sort((a, b) => b.quality - a.quality).slice(0, 8);
@@ -486,6 +527,8 @@ function cards(d, lore) {
   const out = [
     card("Bosses defeated", bosses.slice(0, 12).map(b => loreLink(b.name, lore?.person(b.name)) + where(b)), bosses.length - 12),
     card("Dungeons", dungeons.map(z => loreLink(z, lore?.zone(z)))),
+    card("Battlegrounds", battlegrounds.map(z => loreLink(z, lore?.zone(z)) +
+      (results(d, z) ? ` <span class="pf-where">${escape(results(d, z))}</span>` : ""))),
     card("Notable kills", kills.slice(0, 10).map(k => loreLink(k.name, lore?.person(k.name)) + (k.rank ? ` <span class="pf-rank">${escape({ elite: "elite", rare: "rare", rareelite: "rare elite", worldboss: "world boss" }[k.rank])}</span>` : "")), kills.length - 10),
     card("Most fought", d.fought.map(f => `${escape(f.name)} <span class="pf-n">${count(f.n)}</span>`)),
     card("Best finds", finds.map(l => `<span class="${QUALITY_CLASS[l.quality] || ""}">${escape(l.name)}</span>${l.reward ? ' <span class="pf-where">quest reward</span>' : ""}`)),
@@ -506,24 +549,18 @@ const selfPath = (handle, ...params) => {
 // Share (LOR-150): the share sheet, or the link copied (public/js/profile.js and share.js).
 const shareButton = name => `<button class="btn-small" type="button" data-share data-share-text="${escape(`${name}'s journey in WoW Forever`)}">Share</button>`;
 
-// The bar only the owner sees: whether others can, then Share, View as a visitor (LOR-302) and the switch together,
-// the links that open on a view, and Update it (public/js/profile.js). Share on a private page says to make it public
-// first. views: which of the journey's views the page has (Map, Timeline), to copy a link that opens on one of them.
-// query: what to keep in the visitor view's address ("pictures=1").
-function ownerBar(p, views = {}, query = "") {
+// The bar only the owner sees, over the page everyone sees (Mike 10/11: the same page, plus this): whether others
+// can, View as a visitor (LOR-302), the switch, and Update it (public/js/profile.js). Share is in the head, for
+// everyone. query: what to keep in the visitor view's address ("pictures=1").
+function ownerBar(p, query = "") {
   const msg = p.public
-    ? "This is your profile. Anyone with the link can see it."
-    : "Only you can see this page. Make it public to share it.";
-  const copy = p.public ? [
-    views.map && '<button class="btn-small btn-small-alt" type="button" data-copy="map">Copy map link</button>',
-    views.timeline && '<button class="btn-small btn-small-alt" type="button" data-copy="timeline">Copy timeline link</button>']
-    .filter(Boolean).map(b => "\n      " + b).join("") : "";
+    ? "<strong>Your profile.</strong> Anyone with the link can see it."
+    : "<strong>Your profile.</strong> Only you can see this page. Make it public to share it.";
   return `<div class="pf-owner" id="pf-owner" data-bar data-public="${p.public ? 1 : 0}">
     <p>${msg}</p>
     <p class="vp-actions">
-      ${shareButton(p.data.name)}
       <a class="btn-small" href="${selfPath(p.handle, query, "as=visitor")}" data-keep-view>View as a visitor</a>
-      <button class="btn-small" type="button" data-set-public="${p.public ? 0 : 1}">${p.public ? "Make it private" : "Make it public"}</button>${copy}
+      <button class="btn-small btn-small-alt" type="button" data-set-public="${p.public ? 0 : 1}">${p.public ? "Make it private" : "Make it public"}</button>
       <a class="btn-small btn-small-alt" href="/account#profile">Update it</a>
     </p>
     <p class="fb-status" role="status" hidden></p>
@@ -567,14 +604,14 @@ function makeYourOwn() {
   </section>`;
 }
 
-// For the owner of a profile saved before the record kept its moments in order (LOR-248, 10/4), where the Map and
-// Timeline would be. Only the record's facts are stored, not its times, so nothing on our side can rebuild them: a new
-// paste does (and so does the companion's first update). Shown where the two views would be, with the steps, because
-// a quiet note there went unnoticed (Mike, 10/5).
+// For the owner of a profile saved before the record kept its moments in order (LOR-248, 10/4), where the chapters
+// would be. Only the record's facts are stored, not its times, so nothing on our side can rebuild them: a new paste
+// does (and so does the companion's first update). Shown where the chapters would be, with the steps, because a quiet
+// note there went unnoticed (Mike, 10/5).
 function updateNote() {
   return `<section class="pf-behind" aria-labelledby="behind-title">
-    <h2 id="behind-title">Add your map and timeline</h2>
-    <p>Your profile was made before it could show your road on a map and your journey moment by moment. Paste your
+    <h2 id="behind-title">Add your chapters and map</h2>
+    <p>Your profile was made before it could tell your journey in chapters and show your road on a map. Paste your
       journey record again and both appear here. Only you see this note.</p>
     <ol class="pf-steps">
       <li>In game, open Journey (<code>/lore journey</code>), click <strong>Copy my journey record</strong> and press
@@ -592,84 +629,104 @@ function badgeLine(badges) {
   return `<p class="pf-badges">${badges.map(b => `<a class="pf-badge pf-badge-${escape(b.kind)}" href="${escape(b.href)}" title="${escape(b.title)}">${escape(b.label)}</a>`).join(" ")}</p>`;
 }
 
-// /u/<handle>. links: the owner's account links (https only). owner: the viewer owns it (shows ownerBar, and no
-// "This could be your page" or Share in the head). badges: their contribution badges. names: lib/trails.js lookups
-// (loadLinks), for the journey's trails; lore: whether the lore pages are on (the "lore" feature), so names link to
-// them (LOR-248). pictures: the picture book's pictures (lib/pictures.js listPictures) while it's shown (the
-// "pictures" feature, or ?pictures=1), else null. asVisitor: the owner is viewing it as a visitor (LOR-302; pass
-// owner false): the visitor's page with visitorBar on top. query: what the owner's links keep ("pictures=1").
-// viewer: whoever is signed in, for the header (lib/voices.js siteNav); still the owner when viewing as a visitor.
-// herald: Sam, the Lore Forever squire (LOR-266), signs the story (the "companion" feature).
-// listen: the Listen box over the story (lib/storyvoice.js listenBox, LOR-316), or "".
+const counted = (n, one, many = one + "s") => (n ? `${count(n)} ${n === 1 ? one : many}` : "");
+
+// /u/<handle>, built around the story of the journey (Mike, 10/11): the head (who, where they were last seen, Listen,
+// Share), then two tabs. The journey: the story, then its chapters (lib/chapters.js), each with its highlights, its
+// pictures and every moment folded inside, beside the road chart, which follows the chapter being read
+// (public/js/journey.js); on a phone the chart comes after the story and each chapter has its own small one. By the
+// numbers: the counts, the lines told for fun and the lists. Nothing on the page takes the reader to another page of
+// ours except a name's lore page; links out (Wowhead) are marked and open a new tab. The owner sees the same page with
+// their bar on top and Remove in the picture viewer.
+//
+// links: the owner's account links (https only). owner: the viewer owns it (shows ownerBar, and no "This could be your
+// page"). badges: their contribution badges. names: lib/trails.js lookups (loadLinks); lore: whether the lore pages are
+// on (the "lore" feature), so names link to them (LOR-248). pictures: the profile's pictures (lib/pictures.js
+// listPictures) while they're shown (the "pictures" feature, or ?pictures=1), else null. asVisitor: the owner is viewing
+// it as a visitor (LOR-302; pass owner false): the visitor's page with visitorBar on top. query: what the owner's links
+// keep ("pictures=1"). viewer: whoever is signed in, for the header (lib/voices.js siteNav); still the owner when
+// viewing as a visitor. herald: Willo, the Lore Forever companion (LOR-266, LOR-428), signs the story (the "companion"
+// feature).
+// listen: the Listen box (lib/storyvoice.js listenBox, LOR-316), or "". historyLinks, historyJourney: saved history
+// (lib/history.js), its links and the archived moments to tell instead.
 export function profilePage(p, { links = [], owner = false, badges = [], names = linker(null), lore = false,
                                  pictures = null, asVisitor = false, query = "", viewer = null, herald = false,
                                  listen = "", historyLinks = "", historyJourney = null } = {}) {
   const d = p.data;
-  const { zones } = road(d);
   const L = lore ? names : null;
   // The moments: the companion's journey when it has sent one (LOR-248), else the record's.
   const list = moments(d, names, historyJourney || p.journey);
-  const journey = journeySection(list, { lore: L, pictures: pictures || [] });
-  const chart = roadChart(list, { name: d.name });
+  const chs = chapters(list, d.name, sides(d).side);
+  const chart = roadChart(list, { name: d.name, chapters: chs, numbered: chs.slice(-OPEN) });
+  const tz = p.journey?.tz ?? 0;
+  const shown = (pictures || []).filter(x => !x.hidden);
+  const matched = timelinePictures(list, shown);
+  const placed = new Set([...matched.values()].flat());
+  const told = chaptersSection(chs, { lore: L, matched, picture: (x, o) => pictureLink(x, { tz, ...o }),
+    map: chart ? c => chapterMap(list, c) : () => "" });
+  const more = pictures ? morePictures(shown.filter(x => !placed.has(x)), { owner, tz, any: placed.size > 0 }) : "";
   // A profile saved before the record kept its moments' order (before 10/4): its owner is told how to get them.
-  const behind = owner && !journey && !Array.isArray(d.timeline) ? updateNote() : "";
+  const behind = owner && !list.length && !Array.isArray(d.timeline) ? updateNote() : "";
   const title = `${d.name}${sheetLine(d) ? ", " + sheetLine(d).replace(/^Level/, "level") : ""}`;
   const facts = [sheetLine(d), d.faction, d.realm].filter(Boolean).map(escape).join(" &middot; ");
   const linkLine = links.length
     ? `<p class="vpr-links">${links.map(u => `<a href="${escape(u)}" rel="nofollow ugc noopener">${escape(host(u))}</a>`).join(" &middot; ")}</p>`
     : "";
   const updated = shortDate(p.updated);
-  // The trek first (Mike, 10/4: whoever a player shares their page with follows the journey): two views right under
-  // the head, Map (the road chart) and Timeline (the moments), each with its own link (/u/<handle>#map, #timeline).
-  // public/js/journey.js shows one at a time; without it both are there, one after the other.
-  const views = journey ? `<nav class="pf-views" aria-label="Follow the journey" hidden>
-    ${chart ? '<a href="#map" data-view="map">Map</a>' : ""}<a href="#timeline" data-view="timeline">Timeline</a>
-  </nav>
-  ${chart ? `<section class="vp-section pf-view pf-map" id="map" aria-labelledby="map-title">
-    <h2 id="map-title">The road on a chart</h2>
-    ${chart}
-  </section>` : ""}
-  ${journey}${historyLinks}` : historyLinks;
-  // The picture book, right after the trek (Mike, 10/5): the pictures the companion put on the profile.
-  const book = pictures ? picturesSection(pictures, { owner, tz: p.journey?.tz ?? 0 }) : "";
-  // Visitors share from the head (LOR-150); the owner from their bar.
-  const share = owner ? "" : `
-    <div class="pf-head-share" data-bar>
-      ${shareButton(d.name)}
-      <p class="fb-status" role="status" hidden></p>
-    </div>`;
-  const bar = owner ? ownerBar(p, { map: Boolean(chart), timeline: Boolean(journey) }, query)
-    : asVisitor ? visitorBar(p, query) : "";
-  const body = `  ${bar}
+  // Where they were last seen, from the newest moment that names a place.
+  const last = [...list].reverse().find(m => m.e?.zone);
+  const seen = last ? `<p class="pf-seen">Last seen in ${escape(last.e.zone)}${dayText(last.day) ? ` &middot; ${escape(dayText(last.day))}` : ""}</p>` : "";
+  const lands = new Set(chs.flatMap(c => c.lands.map(l => l.key)));
+  const glance = [counted(chs.length, "chapter"), counted(new Set(list.map(m => m.day).filter(Boolean)).size, "day on the road", "days on the road"),
+    counted(lands.size, "land"), counted(d.totals?.quests, "quest"), counted(d.totals?.bosses, "boss", "bosses")].filter(Boolean);
+  const bar = owner ? ownerBar(p, query) : asVisitor ? visitorBar(p, query) : "";
+  const numbers = numbersSection(d, new Date(), { lead: tiles(d), more: cards(d, L) });
+  const tabs = numbers ? `<nav class="pf-tabs" aria-label="${escape(d.name)}'s profile" hidden>
+    <a href="#journey" id="tab-journey" data-tab="journey">The journey</a><a href="#numbers" id="tab-numbers" data-tab="numbers">By the numbers</a>
+  </nav>` : "";
+  const body = `  ${bar}${iconSprite()}
   <div class="vpr-head pf-head">
     <span class="vpr-avatar vpr-initial pf-${escape(d.factionKey || "none")}" aria-hidden="true">${escape(Array.from(d.name)[0] || "?")}</span>
     <div class="pf-head-main">
       <h1>${escape(d.name)}</h1>
       <p class="zone-where">${facts}</p>
       ${p.spec ? `<p class="pf-spec">Favorite spec: <strong>${escape(p.spec)}</strong></p>` : ""}
+      ${seen}
       ${badgeLine(badges)}
       ${linkLine}
-    </div>${share}
+    </div>
+    <div class="pf-head-acts" data-bar data-public="${p.public ? 1 : 0}">
+      ${listen}${shareButton(d.name)}
+      <p class="fb-status" role="status" hidden></p>
+    </div>
+    ${glance.length ? `<p class="pf-glance">${glance.join(" &middot; ")}</p>` : ""}
   </div>
-  ${views}${behind}${book}
-  <ul class="pf-stats">${tiles(d)}</ul>
-  ${numbersSection(d)}
-  <section class="vp-section pf-story" aria-labelledby="story-title">
-    <h2 id="story-title">${escape(d.name)}'s story</h2>${listen ? `\n    ${listen}` : ""}
-    <div class="pf-story-text" lang="${d.locale === "en" || p.story_source !== "written" ? "en" : escape(d.locale)}">
-      ${paragraphs(p.story)}
-    </div>${herald ? `
-    <p class="pf-signed"><img src="/img/harold-head.svg" alt="" width="48" height="48"><span>Written by Sam the Squire</span></p>` : ""}
-  </section>
-  ${zones.length ? `<section class="vp-section" aria-labelledby="road-title">
-    <h2 id="road-title">The road so far</h2>
-    <ol class="pf-road">${zones.map(z => `<li>${loreLink(z, L?.zone(z))}</li>`).join("")}</ol>
-  </section>` : ""}
-  <div class="zone-grid pf-grid">
-      ${cards(d, L)}
+  ${tabs}
+  <div class="pf-panel" id="journey">
+    ${behind}
+    <div class="pf-atlas${chart ? "" : " pf-atlas-solo"}">
+      <div class="pf-atlas-main">
+        <section class="vp-section pf-story" aria-labelledby="story-title">
+          <h2 id="story-title">${escape(d.name)}'s story</h2>
+          <div class="pf-story-text" lang="${d.locale === "en" || p.story_source !== "written" ? "en" : escape(d.locale)}">
+            ${paragraphs(p.story)}
+          </div>${herald ? `
+          <p class="pf-signed"><img src="/img/wispr-head.svg" alt="" width="48" height="48"><span>Written by ${COMPANION_NAME}</span></p>` : ""}
+        </section>
+        ${told}
+        ${historyLinks}
+        ${more}
+      </div>${chart ? `
+      <aside class="pf-atlas-map" id="map" aria-labelledby="map-title"><div class="pf-atlas-stick">
+        <p class="pf-atlas-cap"><span class="pf-atlas-title" id="map-title">The road so far</span> <span class="pf-atlas-sub">${[counted(chs.length, "chapter"), counted(lands.size, "land")].filter(Boolean).join(", ")}</span></p>
+        ${chart}
+      </div></aside>` : ""}
+    </div>
   </div>
+  ${numbers}
   ${owner ? "" : makeYourOwn()}
-  <p class="vp-note">${d.since ? `Journey recorded since ${escape(d.since)}. ` : ""}${updated ? `Updated ${escape(updated)}.` : ""}</p>`;
+  <p class="vp-note">${d.since ? `Journey recorded since ${escape(d.since)}. ` : ""}${updated ? `Updated ${escape(updated)}.` : ""}</p>
+  ${pictures?.length ? pictureViewer({ owner }) : ""}`;
   // The share card (lib/sharecard.js): the owner's page draws it again when the public profile has changed since.
   const redraw = owner && p.public && p.card_key !== cardKey(p, herald);
   return page({
@@ -682,12 +739,13 @@ export function profilePage(p, { links = [], owner = false, badges = [], names =
     image: cardUrl(p) || (pictures?.length ? "https://loreforeverwow.com" + pictureUrl(pictures[0]) : undefined),
     robots: "noindex",
     foot: `<p>Played WoW Forever with Lore Forever? <a href="/account#profile">Make your own profile</a>.</p>`,
-    scripts: ['<script src="/js/share.js" defer></script>', '<script src="/js/profile.js" defer></script>',
-      journey && '<script src="/js/journey.js" defer></script>',
+    // The page's own scripts carry FRESH, so a browser that kept an older copy fetches the one this page needs.
+    scripts: ['<script src="/js/share.js" defer></script>', `<script src="/js/profile.js?${FRESH}" defer></script>`,
+      `<script src="/js/journey.js?${FRESH}" defer></script>`,
       historyLinks && owner && '<script type="module" src="/js/history-export.js"></script>',
-      chart && '<script src="/js/roadchart.js" defer></script>',
-      pictures?.length && '<script src="/js/pictures.js" defer></script>',
-      redraw && '<script src="/js/card.js" defer></script>',
+      chart && `<script src="/js/roadchart.js?${FRESH}" defer></script>`,
+      pictures?.length && `<script src="/js/pictures.js?${FRESH}" defer></script>`,
+      redraw && `<script src="/js/card.js?${FRESH}" defer></script>`,
       listen && '<script src="/js/storyvoice.js" defer></script>'].filter(Boolean).join("\n"),
     viewer,
   });
@@ -702,7 +760,7 @@ export function cardFacts(p, herald = false) {
     factionKey: d.factionKey || "none", line: firstSentence(p.story), address: `loreforeverwow.com/u/${p.handle}`,
     tiles: [["Quests done", d.totals?.quests], ["Places", d.totals?.places], ["Bosses", d.totals?.bosses], ["Deaths", deaths]]
       .map(([label, n]) => [label, Number(n) || 0]),
-    herald: Boolean(herald),
+    herald: Boolean(herald), heraldName: COMPANION_NAME,
   };
 }
 const cardJson = (p, herald) => JSON.stringify(cardFacts(p, herald)).replace(/</g, "\\u003c");

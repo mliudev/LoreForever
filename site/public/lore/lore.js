@@ -252,21 +252,48 @@
   let rows = [], shown = [], limit = PAGE, sel = -1, playing = null, voices = [], kinds = [], zoneName = {};
   const params = new URLSearchParams(location.search);
   const state = { q: params.get("q") || "", z: params.get("z") || "", k: params.get("k") || "", v: params.get("v") || "",
-    playable: params.get("playable") === "1" };
+    p: params.get("p") || "", playable: params.get("playable") === "1" };
+  // The download filter (LOR-437): the pages a pack has a recording of, from /data/pack-entries.json, read the first
+  // time a pack is picked. null until then (or if it doesn't load: the filter then shows everything).
+  let packData = null, packKeys = null;
+  function loadPack() {
+    if (!state.p) { packKeys = null; return Promise.resolve(); }
+    packData = packData || fetch("/data/pack-entries.json").then(r => r.json()).catch(() => ({}));
+    return packData.then(data => {
+      const i = (data.packs || []).indexOf(state.p);
+      packKeys = i < 0 ? null : new Set(Object.keys(data.entries || {}).filter(k => data.entries[k].includes(i)));
+    });
+  }
   let voicePref = state.v || store.get("lf-lore-voice") || "";
 
+  // index.json: the pages with a recording; more.json: the pages that are only text (site_lore.py). Merged back into
+  // browsing order: zone, kind, name.
   Promise.all([
     fetch("/lore/data/index.json").then(r => r.json()),
+    fetch("/lore/data/more.json").then(r => r.json()).catch(() => ({ pages: [] })),
     fetch("/api/narration/live").then(r => (r.ok ? r.json() : { keys: [] })).catch(() => ({ keys: [] })),
-  ]).then(([index, liveData]) => {
+  ]).then(([index, more, liveData]) => {
     const live = new Set(liveData.keys || []);
     voices = index.voices || [];
     kinds = index.kinds || [];
     (index.zones || []).forEach(z => { zoneName[z.key] = z.name; });
     const kindLabel = { zone: "Zone", dungeon: "Dungeon", subzone: "Place", npc: "Character", boss: "Boss",
-      quest: "Quest", faq: "Answer", topic: "Lore" };
-    for (const p of index.pages || []) {
+      quest: "Quest", item: "Item", faq: "Answer", topic: "Topic" };
+    const zoneRank = new Map((index.zones || []).map((z, i) => [z.key, i]));
+    const kindRank = new Map(kinds.map((k, i) => [k.id, i]));
+    const rank = (m, k) => (m.has(k) ? m.get(k) : 1e6);
+    const pages = [...(index.pages || []), ...(more.pages || [])].sort((a, b) =>
+      rank(zoneRank, a.z) - rank(zoneRank, b.z) || (a.z < b.z ? -1 : a.z > b.z ? 1 : 0)
+      || rank(kindRank, a.k) - rank(kindRank, b.k) || (a.n.toLowerCase() < b.n.toLowerCase() ? -1 : a.n.toLowerCase() > b.n.toLowerCase() ? 1 : 0)
+      || (a.p < b.p ? -1 : 1));
+    for (const p of pages) {
       const key = keyOf(p.p);
+      if (!(p.c || []).length) {   // a page with nothing to play: one row that opens it
+        const sub = [kindLabel[p.k] || "", zoneName[p.z] || ""].filter(s => s && s !== p.n);
+        rows.push({ cid: key, hash: "", kind: p.k, z: p.z, title: p.n, sub: sub.join(" · "), href: p.p, v: {}, text: true,
+          find: fold(`${p.n} ${zoneName[p.z] || ""}`) });
+        continue;
+      }
       for (const [part, hash, refs, q] of p.c) {
         const cid = part ? `${key}#${part}` : key;
         const v = {};
@@ -287,7 +314,7 @@
     const anyLive = rows.some(r => Object.keys(r.v).length);
     if (!anyLive) { lx.querySelector(".lx-soon").hidden = false; state.playable = false; }
     buildBar(index, anyLive);
-    apply();
+    if (state.p) loadPack().then(apply); else apply();
     bar.hidden = false;
     lx.querySelector(".lx-keys").hidden = false;
     probe();
@@ -330,6 +357,12 @@
     let timer;
     bar.q.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(() => { state.q = bar.q.value; apply(); }, 150); });
     select.addEventListener("change", () => { state.z = select.value; apply(); });
+    const pack = bar.p;
+    if (pack) {
+      if (![...pack.options].some(o => o.value === state.p)) state.p = "";
+      pack.value = state.p;
+      pack.addEventListener("change", () => { state.p = pack.value; loadPack().then(apply); });
+    }
     check.addEventListener("change", () => { state.playable = check.checked; apply(); });
   }
 
@@ -337,12 +370,13 @@
     const words = fold(state.q).split(/\s+/).filter(Boolean);
     shown = rows.filter(r => (!state.z || r.z === state.z) && (!state.k || r.kind === state.k)
       && (!state.v || r.v[state.v]) && (!state.playable || Object.keys(r.v).length)
+      && (!packKeys || packKeys.has(r.cid.split("#")[0]))
       && words.every(w => r.find.includes(w)));
     limit = PAGE;
     sel = -1;
     render();
     const q = new URLSearchParams();
-    for (const k of ["q", "z", "k", "v"]) if (state[k]) q.set(k, state[k]);
+    for (const k of ["q", "z", "k", "v", "p"]) if (state[k]) q.set(k, state[k]);
     if (state.playable) q.set("playable", "1");
     history.replaceState(null, "", location.pathname + (q.toString() ? `?${q}` : "") + location.hash);
   }
@@ -350,7 +384,7 @@
   const voiceOf = r => (r.v[voicePref] ? voicePref : Object.keys(r.v)[0]);
 
   function render() {
-    count.textContent = `${shown.length.toLocaleString("en-US")} ${shown.length === 1 ? "narration" : "narrations"}`;
+    count.textContent = `${shown.length.toLocaleString("en-US")} ${shown.length === 1 ? "result" : "results"}`;
     list.replaceChildren(...shown.slice(0, limit).map((r, i) => {
       const row = el("div", "lx-row");
       row.setAttribute("role", "listitem");
@@ -364,7 +398,7 @@
         b.addEventListener("click", () => { sel = i; mark(); toggle(r); });
         row.append(b);
       } else {
-        row.append(el("span", "lx-ingame", "In game"));
+        row.append(el("span", "lx-ingame", r.text ? "Read" : "In game"));
       }
       const main = el("div", "lx-main");
       const a = el("a", "", r.title);

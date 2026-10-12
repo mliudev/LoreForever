@@ -1,7 +1,6 @@
 // The buttons on a profile (/u/<handle>, lib/profiles.js). Share (LOR-150), for everyone: the share sheet, or the link
-// copied (public/js/share.js), then where else to post it. The owner's bar (ownerBar): Make it public / private, View
-// as a visitor (LOR-302) and Copy map link / Copy timeline link (LOR-248); in visitor view (visitorBar) Back to my view
-// and, while it's private, Make it public. Talks to functions/api/profile/[action].js.
+// copied (public/js/share.js), then where else to post it. The owner's bar (ownerBar): Make it public / private and View
+// as a visitor (LOR-302); in visitor view (visitorBar) Back to my view and, while it's private, Make it public. Talks to functions/api/profile/[action].js.
 (() => {
   // Each bar ([data-bar]) has its own status line.
   const say = (el, msg, good) => {
@@ -24,10 +23,9 @@
 
   document.addEventListener("click", async e => {
     const share = e.target.closest("[data-share]");
-    const copy = e.target.closest("[data-copy]");
     const set = e.target.closest("[data-set-public]");
     const keep = e.target.closest("a[data-keep-view]");
-    if (keep && /^#(map|timeline)$/.test(location.hash)) keep.hash = location.hash;   // the same view on the other side
+    if (keep && /^#(journey|numbers)$/.test(location.hash)) keep.hash = location.hash;   // the same tab on the other side
     if (share) {
       if (share.closest("[data-public='0']")) {
         say(share, "Only you can see this page, so a link would show others \"No profile here\". Make it public first, then share it.");
@@ -37,18 +35,6 @@
       const done = await window.lfShare({ url, text });
       if (done === "shared" || done === "copied") counted();
       say(share, done === "copied" ? postIt(url, text) : done === "failed" ? "Your link: " + url : "", true);
-    }
-    if (copy) {
-      // The page, or the link that opens it on the map or the timeline (LOR-248).
-      const view = copy.dataset.copy;
-      const url = location.origin + location.pathname + (view === "map" || view === "timeline" ? "#" + view : "");
-      try {
-        await navigator.clipboard.writeText(url);
-        counted();
-        say(copy, "Link copied: " + url, true);
-      } catch (err) {
-        say(copy, "Your link: " + url, true);
-      }
     }
     if (!set) return;
     set.disabled = true;

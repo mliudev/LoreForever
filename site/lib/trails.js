@@ -1,9 +1,10 @@
-// Click trails and lore links on a player profile (LOR-248), the site's take on the add-on's Journey tab (LOR-242):
-// the record's moments in time order (lib/journey.js keeps them as `timeline`), each linked to its lore page and to
-// the moments it's tied to: where the same place comes up again, who gave a quest (and when the player met them),
+// The moments of a player profile (LOR-248), the site's take on the add-on's Journey tab (LOR-242): the record's
+// moments in time order (lib/journey.js keeps them as `timeline`), told in chapters by lib/chapters.js. Each knows its
+// lore page and its link out, and the moments it's tied to (its trails; the page stopped showing them on 10/11, Mike:
+// the jumps between moments read as random links): where the same place comes up again, who gave a quest (and when the player met them),
 // the rest of a storyline the player followed, the quest an item was the reward for, and the foe that killed them
 // and was beaten later. A trail only ever links moments the record has, so it never leads past what the player did.
-// Used by lib/profiles.js (the page) and functions/u/[handle].js. Kept outside functions/ so Pages doesn't route it.
+// Used by lib/profiles.js, lib/chapters.js and functions/u/[handle].js. Kept outside functions/ so Pages doesn't route it.
 //
 // Lore links follow the "lore" site feature (lib/features.js): the lore pages are noindex and linked from nowhere
 // until it's on, so until then a profile names things without linking them. Pages exist for zones, capitals,
@@ -12,16 +13,14 @@
 // public/lore/data/links.json (pipeline/lore/site_lore.py profile_links) and are matched by name, as the record has
 // no IDs; the lore pages are in English, so a record in another language links only the names that read the same.
 //
-// Links out (LOR-263): each moment also links what it names on Wowhead's WoW Forever database, by the game ID
+// Links out (LOR-263): each moment also knows what it names on Wowhead's WoW Forever database, by the game ID
 // links.json has for the name (refs), else the Warcraft Wiki's search. Those are other sites, not our unreleased
-// pages, so they show whatever the "lore" feature says.
+// pages, so they show whatever the "lore" feature says. The page links only the Wowhead ones (lib/chapters.js).
 
-import { escape } from "./voices.js";
-import { pictureUrl } from "./pictures.js";
 import { wowheadUrl, wikiSearch } from "./lore.js";
+import { battleground } from "./battlegrounds.js";
 
 export const LINKS = "/lore/data/links.json";
-export const RECENT = 25;   // moments shown before "Show N earlier moments"
 
 // ---- Names -> pages ----
 
@@ -37,6 +36,7 @@ const IN_LAND = new Map(Object.entries({
   "Sentinel Tower": "Westfall", "Lakeshire Town Hall": "Redridge Mountains", "Lakeshire Inn": "Redridge Mountains",
   "Darkshire Town Hall": "Duskwood", "Scarlet Raven Tavern": "Duskwood", "Deepwater Tavern": "Wetlands",
   "The Wailing Caverns": "The Barrens", "Dalaran": "Alterac Mountains", "Stormwind Stockade": "The Stockade",
+  "Lion's Pride Inn": "Elwynn Forest", "Southshore Town Hall": "Hillsbrad Foothills",   // seen 10/11
 }).map(([name, land]) => [norm(name), land]));
 export const landOf = zone => IN_LAND.get(norm(zone)) ?? zone;
 
@@ -109,8 +109,8 @@ export async function loadLinks(env, request) {
 
 // The filter chip each section is under. "taken" (a quest taken) comes only from the companion's journey.
 const GROUP = { places: "places", quests: "quests", taken: "quests", people: "people", bosses: "foes", kills: "foes",
-  loot: "finds", deaths: "deaths", levels: "more", mounts: "more", rep: "more", books: "more", pictures: "finds" };
-export const SHOWN = 600;   // moments on the page at most (the newest); the road chart uses them all
+  loot: "finds", deaths: "deaths", levels: "more", mounts: "more", rep: "more", books: "more", pictures: "finds",
+  battles: "foes" };
 
 const isDay = day => typeof day === "string" && /^\d{4}-\d\d-\d\d$/.test(day);
 
@@ -139,7 +139,10 @@ function fromJourney(j) {
     if (!m || typeof m !== "object" || !Number.isInteger(m.t)) continue;
     const at = { ...(m.s && m.s !== m.z ? { sub: m.s } : {}), ...(m.z ? { zone: m.z } : {}) };
     const entry = {
-      zone: () => ["places", { ...at, ...(m.inst ? { dungeon: true } : {}), ...(m.how ? { how: m.how } : {}) }],
+      // A battleground is a battle (LOR-430), known by its name: the companion sends any instance entry as inst.
+      zone: () => ["places", { ...at, ...(battleground(m.z) ? { battleground: true } : m.inst ? { dungeon: true } : {}),
+        ...(m.how ? { how: m.how } : {}) }],
+      bg: () => ["battles", { zone: m.n, ...(m.out ? { out: m.out } : {}), ...(m.left ? { left: true } : {}) }],
       qt: () => ["quests", { title: m.n || `Quest ${m.id}`, id: m.id, ...at }],
       qa: () => ["taken", { title: m.n || `Quest ${m.id}`, id: m.id, ...at }],
       npc: () => ["people", { name: m.n, ...at }], boss: () => ["bosses", { name: m.n, ...at }],
@@ -158,8 +161,6 @@ function fromJourney(j) {
   }
   return out;
 }
-const CHIPS = [["places", "Places"], ["quests", "Quests"], ["people", "People"], ["foes", "Foes"], ["finds", "Finds"],
-  ["deaths", "Deaths"], ["more", "More"]];
 
 const placeKey = e => (e?.zone ? (e.sub ? `${norm(e.sub)}|${norm(e.zone)}` : norm(e.zone)) : null);
 
@@ -191,6 +192,7 @@ function lookUp(m, names) {
     kills: () => [names.ref("npc", e.name), e.name], loot: () => [names.ref("item", e.name), e.name],
     rep: () => [names.ref("faction", e.faction), e.faction], books: () => [null, e.title], mounts: () => [null, e.name],
     deaths: () => (e.by ? [names.ref("npc", e.by), e.by] : [null, null]), levels: () => [null, null],
+    battles: () => [names.ref("zone", e.zone), e.zone],
   }[m.k];
   const [ref, name] = what ? what() : [null, null];
   const wowhead = wowheadUrl(ref);
@@ -293,28 +295,8 @@ export const dayText = day => {
   const m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(day || "");
   return m ? `${MONTHS[Number(m[2]) - 1]} ${Number(m[3])}, ${m[1]}` : "";
 };
-const count = n => String(Math.trunc(Number(n) || 0)).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-const RANK = { elite: "elite", rare: "rare", rareelite: "rare elite", worldboss: "world boss" };
 
-// A moment in a few plain words, for a trail link's label: "Met Gryan Stoutmantle, Sep 21, 2026".
-function plain(m) {
-  const e = m.e;
-  const what = {
-    places: () => `${e.dungeon ? "Entered" : "Reached"} ${e.sub || e.zone}`, quests: () => `Finished ${e.title}`,
-    taken: () => `Took on ${e.title}`,
-    people: () => `Met ${e.name}`, bosses: () => `Defeated ${e.name}`, kills: () => `Defeated ${e.name}`,
-    loot: () => `${e.reward ? "Earned" : "Found"} ${e.name}`, levels: () => `Reached level ${e.level}`,
-    mounts: () => `New mount: ${e.name}`, rep: () => `${e.standing} with ${e.faction}`, books: () => `Read ${e.title}`,
-    pictures: () => "Took a journey picture",
-    deaths: () => (e.by ? `Slain by ${e.by}` : "Died"),
-  }[m.k]();
-  return [what, dayText(m.day)].filter(Boolean).join(", ");
-}
-
-// The section: the moments newest first, by day, the latest RECENT open and the rest folded; filter chips (shown by
-// public/js/journey.js); each moment's lore links (lore: lookups to link with, or null while the lore pages are off)
-// and trail links (#m-<o>, which journey.js follows: it unfolds, unfilters and marks the moment).
-// Pictures follow the nearest dated moment for the same account/character. Recompute on every render so newly
+// The pictures beside the moments (lib/chapters.js puts each in the chapter of its moment). Pictures follow the nearest dated moment for the same account/character. Recompute on every render so newly
 // synced older moments can become the closest; equal distances prefer the earlier moment.
 export function timelinePictures(all, pictures = []) {
   const valid = c => typeof c === "string" && /^[a-f0-9]{64}$/.test(c);
@@ -341,107 +323,4 @@ export function timelinePictures(all, pictures = []) {
   }
   for (const list of matched.values()) list.sort((a, b) => a.t - b.t || String(a.id).localeCompare(String(b.id)));
   return matched;
-}
-
-export function journeySection(all, { lore = null, pictures = [] } = {}) {
-  if (!all.length && !pictures.some(p => !p.hidden)) return "";
-  const matched = timelinePictures(all, pictures);
-  // Keep earlier moments with pictures reachable in the folded timeline as well as the newest SHOWN moments.
-  const list = all.length > SHOWN ? all.filter((m, i) => i >= all.length - SHOWN || matched.has(m)) : all;
-  const visible = new Set(list.map(m => m.o));
-  const placed = new Set([...matched.values()].flat());
-  const waiting = pictures.filter(p => !p.hidden && !placed.has(p));
-  const a = (text, p) => (lore && p ? `<a href="${escape(p)}">${escape(text)}</a>` : escape(text));
-  const name = (text, p) => (lore && p ? `<a href="${escape(p)}">${escape(text)}</a>` : `<strong>${escape(text)}</strong>`);
-  const where = e => (e.zone ? (e.sub ? `${a(e.sub, lore?.place(e.sub, e.zone))}, ${a(e.zone, lore?.zone(e.zone))}` : a(e.zone, lore?.zone(e.zone))) : "");
-  // A trail link, or "" when its moment isn't on the page (then a name shows as plain text, and a step is left out).
-  const go = (to, text, label) => (to && visible.has(to.o)
-    ? `<a class="pf-go" href="#m-${to.o}" aria-label="${escape(`${label}: ${plain(to)}`)}">${text}</a>` : "");
-  const placeName = e => escape(e.sub || e.zone || "somewhere");
-
-  function what(m) {
-    const e = m.e;
-    switch (m.k) {
-      case "places": return `${e.dungeon ? "Entered" : "Reached"} <strong>${where(e)}</strong>`;
-      case "quests": return `Finished ${name(e.title, m.quest?.p)}`;
-      case "taken": return `Took on ${name(e.title, m.quest?.p)}`;
-      case "people": return `Met ${name(e.name, lore?.person(e.name))}`;
-      case "bosses": return `Defeated ${name(e.name, lore?.person(e.name))}`;
-      case "kills": return `Defeated ${name(e.name, lore?.person(e.name))}${Object.hasOwn(RANK, e.rank ?? "") ? ` <span class="pf-rank">${RANK[e.rank]}</span>` : ""}`;
-      case "loot": return `${e.reward ? "Earned" : "Found"} <span class="pf-item${Number.isInteger(e.quality) ? ` q${Math.min(5, Math.max(0, e.quality))}` : ""}">${escape(e.name)}</span>`;
-      case "levels": return `Reached <strong>level ${count(e.level)}</strong>`;
-      case "mounts": return `New mount: <strong>${escape(e.name)}</strong>`;
-      case "rep": return `<strong>${escape(e.standing)}</strong> with ${escape(e.faction)}`;
-      case "books": return `Read <cite>${escape(e.title)}</cite>`;
-      case "pictures": return "Took a journey picture";
-      case "deaths": return e.by ? `Slain by ${name(e.by, lore?.person(e.by))}` : "Died";
-    }
-    return "";
-  }
-
-  const dot = ' <span aria-hidden="true">&middot;</span> ';
-  function trail(m) {
-    const out = [];
-    // The companion's journey: where a quest was taken, and where it was turned in.
-    if (m.taken) out.push(`Taken at ${go(m.taken, placeName(m.taken.e), "Where it was taken") || placeName(m.taken.e)}`);
-    if (m.done) out.push(`Turned in at ${go(m.done, placeName(m.done.e), "Where it was turned in") || placeName(m.done.e)}`);
-    if (m.giver) out.push(`Taken from ${go(m.met, escape(m.giver), `Met ${m.giver}`) || a(m.giver, lore?.person(m.giver))}`);
-    if (m.story) {
-      // Mike's wording for storylines: just "Storyline · <zone>: <name>", no step numbers.
-      const steps = [m.prevStory && go(m.prevStory, "&larr; earlier", "Earlier in this storyline"),
-        m.nextStory && go(m.nextStory, "later &rarr;", "Later in this storyline")].filter(Boolean);
-      out.push(`<span class="pf-sl">Storyline &middot; ${escape([m.story.zone, m.story.name].filter(Boolean).join(": "))}</span>${steps.length ? " " + steps.join(" ") : ""}`);
-    }
-    if (m.gave?.length) {
-      const shown = m.gave.slice(0, 2).map(q => go(q, escape(q.e.title), "Their quest") || escape(q.e.title));
-      out.push(`Their quests: ${shown.join(", ")}${m.gave.length > 2 ? ` and ${count(m.gave.length - 2)} more` : ""}`);
-    }
-    if (m.k === "loot" && m.e.quest) out.push(`Reward for ${go(m.reward, escape(m.e.quest), "The quest") || escape(m.e.quest)}`);
-    if (m.avenged && go(m.avenged, "", "")) out.push(go(m.avenged, "Beaten later", `Beat ${m.e.by} later`));
-    const here = [m.prevHere && go(m.prevHere, "&larr; Last time here", "Last time here"),
-      m.nextHere && go(m.nextHere, "Next time here &rarr;", "Next time here")].filter(Boolean);
-    out.push(...here);
-    return out.length ? `\n          <p class="pf-trail">${out.join(dot)}</p>` : "";
-  }
-
-  // A small link out after the moment (LOR-263): Wowhead, or the wiki.
-  const out = m => (m.out ? ` <a class="pf-out" href="${escape(m.out.url)}" rel="noopener" aria-label="${escape(`${m.out.name} on ${m.out.site === "Wowhead" ? "Wowhead" : "the Warcraft Wiki"}`)}">${m.out.site === "Wowhead" ? "Wowhead" : "Wiki"}</a>` : "");
-  const picture = p => `<a class="pf-picture" data-pb-target="${escape(p.id)}" href="${escape(pictureUrl(p))}" aria-label="${escape(p.caption || "Enlarge journey picture")}"><img src="${escape(pictureUrl(p))}" width="${Number(p.w) || 1920}" height="${Number(p.h) || 1080}" alt="${escape(p.caption || "A picture from the journey")}" loading="lazy" decoding="async"></a>`;
-  const thumbnail = m => matched.has(m) ? `<div class="pf-pictures">${matched.get(m).map(picture).join("")}</div>` : "";
-  const pending = waiting.length ? `<div class="pf-pictures-waiting"><p>These pictures are waiting for this character’s dated journey moments to sync. They will appear beside the closest moment.</p><div class="pf-pictures">${waiting.map(picture).join("")}</div></div>` : "";
-  const row = m => `<li class="pf-m pf-k-${m.k}" id="m-${m.o}" data-g="${m.group}"${m.e.zone ? ` data-land="${escape(norm(landOf(m.e.zone)))}"` : ""} tabindex="-1">
-          <span class="pf-bead" aria-hidden="true"></span>
-          <div><p class="pf-m-what">${what(m)}${out(m)}</p>${m.k !== "places" && m.e.zone ? `\n          <p class="pf-m-where">${where(m.e)}</p>` : ""}${trail(m)}</div>${thumbnail(m)}
-        </li>`;
-  const days = ms => {
-    const out = [];
-    for (const m of ms) {
-      if (!out.length || out[out.length - 1].day !== m.day) out.push({ day: m.day, ms: [] });
-      out[out.length - 1].ms.push(m);
-    }
-    return `<ol class="pf-days">${out.map(g => `
-      <li class="pf-day"><h3 class="pf-date">${dayText(g.day) || "Date not recorded"}</h3>
-        <ol class="pf-moments">
-        ${g.ms.map(row).join("\n        ")}
-        </ol></li>`).join("")}
-    </ol>`;
-  };
-  const newest = [...list].reverse();
-  const older = newest.slice(RECENT);
-  const groups = CHIPS.filter(([g]) => list.some(m => m.group === g));
-  const chips = groups.length > 1 ? `<div class="pf-filter" role="group" aria-label="Show only" hidden>
-      <button type="button" data-f="" aria-pressed="true">All <span class="pf-n">${count(list.length)}</span></button>
-      ${groups.map(([g, label]) => `<button type="button" data-f="${g}" aria-pressed="false">${label} <span class="pf-n">${count(list.filter(m => m.group === g).length)}</span></button>`).join("\n      ")}
-    </div>
-    <p class="pf-shown" role="status"></p>` : "";
-  return `<section class="vp-section pf-journey pf-view" id="timeline" aria-labelledby="journey-title">
-    <h2 id="journey-title">The journey, moment by moment</h2>
-    <p class="pf-lead">Newest first. Follow a trail from any moment to the ones it ties in with${lore ? ", or open its lore" : ""}.${all.length > list.length ? ` Showing ${count(list.length)} of ${count(all.length)} moments, including earlier moments with pictures.` : ""}</p>
-    ${pending}
-    ${chips}
-    ${days(newest.slice(0, RECENT))}
-    ${older.length ? `<details class="pf-older"><summary>Show ${count(older.length)} earlier moment${older.length === 1 ? "" : "s"}</summary>
-    ${days(older)}
-    </details>` : ""}
-  </section>`;
 }

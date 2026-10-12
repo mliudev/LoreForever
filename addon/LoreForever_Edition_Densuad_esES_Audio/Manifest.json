@@ -1260,64 +1260,64 @@
     "algorithm": "sha256",
     "files": {
       "Data/Data.xml": {
-        "bytes": 3077,
-        "sha256": "76914cc414f94911b658368b5e70bf25018eac86b5e9e6b92df8d066c3d3d9a0"
+        "bytes": 3264,
+        "sha256": "2b9fab1f7a51d06581f61960930377ab7f41f14f5531db3b8e0de74c04bcb4b8"
       },
       "Data/Index.lua": {
-        "bytes": 597569,
-        "sha256": "5abd9a68d40ee4cfe0308d72a435dc88c6940b4ae23a6b401df0687e33a73ad5"
+        "bytes": 598818,
+        "sha256": "85e4dab186b7d6631642ac0deda92b1d91fb10e3c3f1856d2ff37cdc7df326b6"
       },
       "Data/QuestVoice.lua": {
         "bytes": 198422,
         "sha256": "354b9c3e7c20d8b70ef8284de3284e218c76bf5a64941a4e6a42e565982c85dd"
       },
       "Data/Search_1.lua": {
-        "bytes": 1200678,
-        "sha256": "e784a0e21fd59dd117b31617fd4479ecde8a3f362a574fa3945b63cd0a2ff8ad"
+        "bytes": 1200437,
+        "sha256": "6cf6290e75a96f213d4996578d0b5e9a582fff5b65809dc250e28e73220cd2af"
       },
       "Data/Search_10.lua": {
-        "bytes": 799746,
-        "sha256": "8fbb79ea1a96cb15c411ae6851cf1499d3298fec64eabc6fd1a7525bd101b1c5"
+        "bytes": 786798,
+        "sha256": "49492a03bc70f2350e33fe93f57e1784633203d87417f87e31757b7875477d47"
       },
       "Data/Search_11.lua": {
-        "bytes": 795285,
-        "sha256": "a2ce67ad7233035aec5894f090e7cf20545f43020ec9a875f9adaa5a67f570bf"
+        "bytes": 809124,
+        "sha256": "a492c3b99acd8c515d02a3aebe48826f7f6152d05f772f07e0a2914737483118"
       },
       "Data/Search_12.lua": {
-        "bytes": 473070,
-        "sha256": "ee565aec55e86b55381ae5faa4a84bcc6a3debc61dbb6b96ef74562d84095f6c"
+        "bytes": 478664,
+        "sha256": "bc53251903b26fc53f88f655bada61b4ff5a4a101228a6e913a4fc5deca8cacd"
       },
       "Data/Search_2.lua": {
-        "bytes": 770467,
-        "sha256": "8b37093a1f20b96c0a015069b4f618db2dbeea944b9ba3419605a61e8965e1aa"
+        "bytes": 769635,
+        "sha256": "f97d32adb7b905abbd4434bee6e1e5cc446fe548071e6994965f91f0c2004875"
       },
       "Data/Search_3.lua": {
-        "bytes": 773415,
-        "sha256": "929e62cecf3015c762b49b4a424c25aca7a8a718432b2105e92c9374043f8fcf"
+        "bytes": 774933,
+        "sha256": "5f5b781bff0e03866bb54ce257806d155425e6aa633528af6c425699e7d67f85"
       },
       "Data/Search_4.lua": {
-        "bytes": 747537,
-        "sha256": "20890ee47181701cfd4deef0c8aa40b8d7ba16fdbb42c9c0c40cfe33c03ab19d"
+        "bytes": 747212,
+        "sha256": "81822597ead8a138fc66628f3f3e06ffbd2193207c12b6b20b864b9c9aadfe83"
       },
       "Data/Search_5.lua": {
-        "bytes": 685252,
-        "sha256": "2d93738686a569a0eeddd0c828d58e9f7e57632cc5cc04a330a56da630089da5"
+        "bytes": 685787,
+        "sha256": "0d770c614aa77816f4d5352f8b92f2867d973663971a9bd22b09258611807f3d"
       },
       "Data/Search_6.lua": {
-        "bytes": 744473,
-        "sha256": "64c86a632e6a8184682ef99a2f2a4bf39bb8e84bf419e8a468c630670838ed58"
+        "bytes": 744891,
+        "sha256": "7292f53e9ca3a24f907c1c887bf8fde55ecfba8507cbb639d29caaba9eb4eda5"
       },
       "Data/Search_7.lua": {
-        "bytes": 707241,
-        "sha256": "813c4797010df44c720572c508a3ee989b32f94bf8ce99f2186f22033b81bcc5"
+        "bytes": 705666,
+        "sha256": "c1762bc1313e8e1bc948f3bdc0fae7e907ee0257ef4e0f562f14ee413a0800c4"
       },
       "Data/Search_8.lua": {
-        "bytes": 843417,
-        "sha256": "8f6de62debf9fc5341742165445c4b1757494c7d5c48305d9440818d8e47306e"
+        "bytes": 844882,
+        "sha256": "073c8d6c36636e3b34a0de2f754d52cfec24398de2ae7bcfd86f844145ed3b6c"
       },
       "Data/Search_9.lua": {
-        "bytes": 755914,
-        "sha256": "f74763d3d050463d26e0dd5556dce52397a8dae25a69d8f3a1cf096c9563bdeb"
+        "bytes": 754366,
+        "sha256": "5d52adb6567bcff7898fa71dc1d33261da7cca0f22d5aff1ea84918ccf221b64"
       },
       "Data/Vectors_1.lua": {
         "bytes": 832995,
@@ -1355,9 +1355,17 @@
         "bytes": 58791,
         "sha256": "3d279d02313d047c3892de22b81cb17467faa9cb2fa4896514e33b05dbf425a5"
       },
+      "Data/Z_alteracvalley.lua": {
+        "bytes": 5186,
+        "sha256": "3659e794e333f194d5069bffbe6ff213e5131962b93e5fc847f71df9577d2edf"
+      },
       "Data/Z_arathi.lua": {
         "bytes": 92048,
         "sha256": "86e3b9be2984c2ef563d63d9c156cca414cc1235eca6244bf41842fae0887442"
+      },
+      "Data/Z_arathibasin.lua": {
+        "bytes": 5019,
+        "sha256": "70e0bceb547e74c75cebd127230026e802d46e37b80f62364a43fd6ffea78490"
       },
       "Data/Z_ashenvale.lua": {
         "bytes": 799263,
@@ -1391,6 +1399,10 @@
         "bytes": 782857,
         "sha256": "5c93f78d892d97d2a885f571ed1f1296c2bf2a43b432c79ff39bb465c0addc83"
       },
+      "Data/Z_darkspearislands.lua": {
+        "bytes": 5846,
+        "sha256": "18fb8b6aa32090b28424d820b879e687870d2111160df3d81c3201233616f0d7"
+      },
       "Data/Z_darnassus.lua": {
         "bytes": 371994,
         "sha256": "a0b91fe50eb07bd479833abdaad1a24766eaeb7e188e962a6a1b08855d57e600"
@@ -1408,12 +1420,12 @@
         "sha256": "821fa01cdb366ccf23bac17174b51f389e58576688a485873a2998a3d311a7b5"
       },
       "Data/Z_dunmorogh.lua": {
-        "bytes": 815883,
-        "sha256": "19aae6efac513e36309d23b5fa8108b673f6094b6e5bedaf5229d5354f24bb02"
+        "bytes": 815815,
+        "sha256": "4998bb2b91a91e2a3924a4f91e7b83a174783f182d9e7815375da5cfe9f5ad3e"
       },
       "Data/Z_durotar.lua": {
-        "bytes": 700877,
-        "sha256": "3c433a7a27dc64939958ae1f724eabaadeb30d6528f99d8fc4759b53782bc97b"
+        "bytes": 700881,
+        "sha256": "cfe47374ec445ad6094b6f9c3b967a9692aa8248915d7a47adc3ebf63d8da087"
       },
       "Data/Z_duskwood.lua": {
         "bytes": 613611,
@@ -1440,8 +1452,8 @@
         "sha256": "a9ac99eca46b2e3215d8307e0cd28f56d84cdee258f8fed1b5a220ca2f65fcc5"
       },
       "Data/Z_general.lua": {
-        "bytes": 799894,
-        "sha256": "b92a77bb0dd452ea3c0c0bdb07d264c1f04354a9514cddd50f596037574cce41"
+        "bytes": 788328,
+        "sha256": "48b6ec04d08ebceadc56b6f31c7892ec720afe0d87f1c3d046221caae19aa355"
       },
       "Data/Z_gnomeregan.lua": {
         "bytes": 244791,
@@ -1458,6 +1470,10 @@
       "Data/Z_hinterlands.lua": {
         "bytes": 6010,
         "sha256": "56ff6f310d638d257158c4fc5926127b0587755e410c26803a2727877e1fe5ef"
+      },
+      "Data/Z_hyjal.lua": {
+        "bytes": 4912,
+        "sha256": "b6b2825ecdf766a57bbbf893b5ec52f1342edc4c72883a328eac1a2ed293b004"
       },
       "Data/Z_ironforge.lua": {
         "bytes": 448872,
@@ -1476,8 +1492,8 @@
         "sha256": "fd304fda0e613a6ed9640e21777302e7ad0898713e98b6626e4acbc0e2f34c0b"
       },
       "Data/Z_orgrimmar.lua": {
-        "bytes": 560856,
-        "sha256": "8950a0db1876d590be60c8e4fb9ed6f08f107845af303e75dfd2ce36a1a933ff"
+        "bytes": 560863,
+        "sha256": "df6caa6577e88a7ae82f2d79a923f716bf23e45e09c77bc0f5e7d4e479a379a6"
       },
       "Data/Z_ragefire.lua": {
         "bytes": 84743,
@@ -1564,8 +1580,8 @@
         "sha256": "a200e4f7efaa20ea1696818453e071689784f9eca66974c406b71c6cd3ec3eb4"
       },
       "Data/Z_undercity.lua": {
-        "bytes": 491185,
-        "sha256": "5a4e849d1b5c1dc6b5b876f400f85d08d549d2a5a6014884bc1ebe1f986a3e5f"
+        "bytes": 491188,
+        "sha256": "9c89b96e8a89dbe46d2060366e7e31ece94f73709394a3ac1d43bcc88daffb8c"
       },
       "Data/Z_ungoro.lua": {
         "bytes": 46872,
@@ -1574,6 +1590,10 @@
       "Data/Z_wailing.lua": {
         "bytes": 163037,
         "sha256": "0a4800a3e0b38a6f4e1b5efd576cc07a03a3a0081e2162c2b49ac7fbcec44df1"
+      },
+      "Data/Z_warsonggulch.lua": {
+        "bytes": 5449,
+        "sha256": "b66a7acab1c9c3a5b502d6b05dad56dcc20a2abe492be523a18b6647efcdc1be"
       },
       "Data/Z_westernplaguelands.lua": {
         "bytes": 86430,
@@ -1596,9 +1616,9 @@
         "sha256": "44eb68588f490f88b629255d7fd4de932b56ceb2cec13d9167e42d5d3af432ab"
       }
     },
-    "fingerprint": "2e398b6720fd248855599c6b781ba93dff672de850d3bc92f97b81c6c4fcd3e2"
+    "fingerprint": "c5c2e28562c29f2bd772b1764f0630519dc44aa7fca11f73ff277097a38af2d6"
   },
-  "core_version": "0.14.0",
+  "core_version": "0.15.0",
   "counts": {
     "compatible_current_entries": 539,
     "compatible_current_faq_answers": 89,
@@ -4116,7 +4136,7 @@
     },
     "LoreForever_Edition_Densuad_esES_Audio/Edition.lua": {
       "bytes": 331,
-      "sha256": "7a8d6fe4b73afc924d7d9e18e3037a1bf8da1610aadc25a718305806717011b5"
+      "sha256": "0576b6ce297cd9dd37bde9446da242e9c2aa166550cd3cb812dfdee3e4a5076d"
     },
     "LoreForever_Edition_Densuad_esES_Audio/Edition.xml": {
       "bytes": 1170,
@@ -4124,7 +4144,7 @@
     },
     "LoreForever_Edition_Densuad_esES_Audio/LoreForever_Edition_Densuad_esES_Audio.toc": {
       "bytes": 615,
-      "sha256": "0588154e69856e61d8bed893cf55a712f6ff9571397413fd21d18fa93a717677"
+      "sha256": "d652d5d63c5fcceb4bbb96b0031cbc69d5dfdf428529cca926bb26af96b7b2ae"
     },
     "LoreForever_Edition_Densuad_esES_Audio/clips001.lua": {
       "bytes": 1648,
@@ -4256,7 +4276,7 @@
     },
     "LoreForever_Edition_Densuad_esES_Text/Edition.lua": {
       "bytes": 332,
-      "sha256": "70281196dbdd3233e613128dec5c7914277c22d0053bd5c9b7cf2ac9153f64ad"
+      "sha256": "f138cd8095693d791b086168e196efac138b1ec71823c08c5002a945ad9e7aa3"
     },
     "LoreForever_Edition_Densuad_esES_Text/Edition.xml": {
       "bytes": 1155,
@@ -4264,7 +4284,7 @@
     },
     "LoreForever_Edition_Densuad_esES_Text/LoreForever_Edition_Densuad_esES_Text.toc": {
       "bytes": 617,
-      "sha256": "f758d6c65977f7d507874d9fbb1a3723c0c88b67ed540ee2e0bd8335861f3d4e"
+      "sha256": "d1c2599e24359012dc17db1993447c4967b6c777fe298c63bca7292ed0baf845"
     },
     "LoreForever_Edition_Densuad_esES_Text/answerHash001.lua": {
       "bytes": 1228,
@@ -70879,5 +70899,5 @@
       }
     }
   },
-  "version": "d16f932949280831634380a05a0046b1feda0f5d8c46182d2cde90b0bd6057d1"
+  "version": "6fa6c515cf94db12e57a40efb9b9c23fb29bba98d93413f22cf45ce81e5a4903"
 }

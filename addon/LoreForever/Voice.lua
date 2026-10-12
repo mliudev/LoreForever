@@ -294,6 +294,47 @@ function Voice.LanguageGap()
     recorded, shown, recorded)
 end
 
+-- Narration installed in a language Lore Forever doesn't show, whose language pack is installed too, so choosing that
+-- language would play it (LOR-390). Automatic follows the game client, so on an English client German narration
+-- someone downloaded never played: the English voices read instead, and only Options > Narration voices said why.
+-- English narration isn't counted: it comes with the add-on, so everyone has it, and Voice.LanguageGap speaks for it
+-- when nothing else can play. Returns the words that say which and how to hear it, and the languages' codes as one
+-- string (to say it once for that set), or nil. Reads only the add-on list: nothing loads.
+function Voice.UnusedLanguages()
+  if ns.lang and ns.lang.edition then return nil end
+  local shown, texts, codes, names, seen = readingLocale(), ns.Packs.List("lang"), {}, {}, {}
+  for _, rec in ipairs(ns.Packs.List("voice")) do
+    local loc = rec.locale
+    if loc and rec.loadable ~= false and not sameLanguage(loc, shown) and not sameLanguage(loc, "enUS") then
+      local text   -- its language pack: the same locale if there's one, else the same language (esMX text, esES voice)
+      for _, t in ipairs(texts) do
+        if t.locale and t.loadable ~= false and sameLanguage(t.locale, loc) and not (text and text.locale == loc) then
+          text = t
+        end
+      end
+      if text and not seen[text.locale] then
+        seen[text.locale] = true
+        codes[#codes + 1] = text.locale
+        names[text.locale] = text.languageName or LANGUAGES[text.locale] or text.locale
+      end
+    end
+  end
+  if not codes[1] then return nil end
+  table.sort(codes)
+  local list = {}
+  for i, code in ipairs(codes) do list[i] = names[code] end
+  local shownName = (ns.lang and ns.lang.locale == shown and ns.lang.name) or LANGUAGES[shown] or shown
+  local words
+  if #codes == 1 then
+    words = string.format(L["Narration in %s is installed, but Lore Forever shows %s, so it can't play. To hear it, choose %s in Options > Language (or type /lore lang %s) and reload."],
+      list[1], shownName, list[1], codes[1])
+  else
+    words = string.format(L["Narration in %s is installed, but Lore Forever shows %s, so it can't play. To hear one, choose its language in Options > Language (or type /lore lang) and reload."],
+      table.concat(list, ", "), shownName)
+  end
+  return words, table.concat(codes, ",")
+end
+
 -- Installed lands packs that add clips to a voice (## X-LoreForever-Extends: <name>), in name order. A lands pack is
 -- never a voice of its own, and one whose voice isn't installed or chosen simply isn't used.
 -- A lands pack's folder starts with its voice's (LoreForever_Voice_Female_Horde): some clients can't read an add-on's
@@ -675,8 +716,6 @@ function Voice.Refresh()
     answerPaths[id], answerServed[id] = paths, list[1][1]
   end
   Voice.answerPaths, Voice.answerServed = answerPaths, answerServed
-  -- Recordings outside the voice packs (journey chapters the companion app narrated: Journey.LoadChapters).
-  for id, paths in pairs(Voice.extra or {}) do active[id], servedBy[id] = paths, nil end
   Voice.active, Voice.chain, Voice.stats, Voice.total, Voice.ready = active, chain, stats, total, true
   Voice.provided, Voice.servedBy = provided, servedBy
 end
@@ -828,6 +867,16 @@ local function noticeLanguage()
   say(gap)
 end
 
+-- Say once that narration in another language is installed and how to hear it (Voice.UnusedLanguages), and again only
+-- when the set of those languages changes: a player who keeps English on purpose isn't told at every login.
+local function noticeUnused()
+  if Voice.Current() == "none" then return end
+  local words, key = Voice.UnusedLanguages()
+  if not words or S().unusedLanguagesNoted == key then return end
+  S().unusedLanguagesNoted = key
+  say(words)
+end
+
 -- At login: find the installed packs and load the chosen voice.
 function Voice.Init()
   if not next(ns.Packs.registry) then ns.Packs.Scan() end
@@ -839,6 +888,7 @@ function Voice.Init()
     noticeMissing()
     noticeLanguage()
   end
+  noticeUnused()
   Voice.CheckSpoken()
   Voice.CheckQuestVoices()
 end
@@ -1710,6 +1760,7 @@ local function startArrival(w)
   local UI, key = ns.UI, w.key
   local target = UI.EntryTarget(key)
   if not target then return false end
+  target.byItself = true   -- counted as started by itself (LOR-420, UI's startTarget)
   UI.ListenTo(target)
   if not (UI.speaking and UI.playingId == key) then return false end
   Voice.autoSession[key] = true
@@ -2094,6 +2145,7 @@ function Voice.OnQuestFrame(kind, recorded)
   -- while it's still in step: the rules above AUTO_SETTLE).
   if arrival then yieldArrival(arrival) end
   Voice.openPages[id] = true
+  target.byItself = true   -- (LOR-420)
   UI.ListenTo(target)
   markAuto()
 end
@@ -2215,7 +2267,7 @@ function Voice.ReadBookPage(byHand)
     return
   end
   Voice.openPages[id] = true
-  UI.ListenTo({ id = id, key = id, label = title, text = text })
+  UI.ListenTo({ id = id, key = id, label = title, text = text, byItself = not byHand or nil })   -- (LOR-420)
   if UI.speaking and UI.playingId == id then Voice.MarkHeard(id) end
   if not byHand then markAuto() end
 end

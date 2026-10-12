@@ -1,19 +1,23 @@
 # Lore pages: /lore and one page per entry (LOR-233)
 
-Every narration Lore Forever ships, on the site: **`/lore`** lists them all with filters (zone, kind, voice),
-search, keyboard keys and a player bar, and **`/lore/<type>/<id>`** is one crawlable page per entry with its
-narration script, a player per voice (1×/1.25×/1.5×, read-along), "Report a problem with this line", its sources
-and a "Get Lore Forever" button. It's the start of LOR-20 (lore entry pages) and LOR-22 (SEO); the add-on's future
-"Read more on the site" (LOR-23) links here.
+Every lore entry Lore Forever ships, on the site: **`/lore`** lists them all with filters (zone, kind, voice),
+search, keyboard keys and a player bar, and **`/lore/<type>/<id>`** is one crawlable page per entry. An entry with a
+narration has its script, a player per voice (1×/1.25×/1.5×, read-along) and "Report a problem with this line"; one
+without has its spoiler-free text under its section headings and no Listen box. Both have their sources, related
+pages, links out and a "Get Lore Forever" button. It's LOR-20 (lore entry pages: the narrated ones since 2026-10-04,
+every entry the add-on ships since 2026-10-11) and the base of LOR-22 (SEO); the add-on's "Read more on the site"
+(LOR-23) can link every entry it ships.
 
 **It's on (Mike, 2026-10-04):** the recordings are in R2 and the `lore` feature is on, so the pages are indexable, in
 the sitemap and linked from the header and from player profiles. How it was turned on, for reference (below).
 
 ## Turning it on
 
-1. Upload the recordings (once; later runs send only what changed), from the main checkout on `main`:
+1. Upload the recordings (once; later runs send only what changed), from a full worktree at `origin/main` (the main
+   checkout leaves out the recordings):
 
    ```bash
+   scripts/new-worktree.sh --pointers ~/wt/upload-narration && cd ~/wt/upload-narration && git lfs pull
    scripts/upload-narration-r2.sh            # --dry-run first if you like
    ```
 
@@ -43,6 +47,7 @@ An entry's page comes from its key, `<type>:<id>`, with the colon as a slash. Ev
 | `zone:stormwind` (zone, capital or dungeon) | `/lore/zone/stormwind` |
 | `subzone:goldshire` | `/lore/subzone/goldshire` |
 | `npc:edwin-vancleef` (character or boss) | `/lore/npc/edwin-vancleef` |
+| `item:dalin-s-heart` | `/lore/item/dalin-s-heart` |
 | `topic:skyborne` | `/lore/topic/skyborne` |
 | `quest:176` | `/lore/quest/176-wanted-hogger` (the quest's number, then its title as a slug) |
 
@@ -50,11 +55,31 @@ An entry's page comes from its key, `<type>:<id>`, with the colon as a slash. Ev
   link never needs the title: the add-on can build `https://loreforeverwow.com/lore/` + the key with `:` → `/`.
 - **Anchors** on a page: `#story` (the entry's narration), `#faq3` (a narrated answer: the `#faq3` of its clip id),
   `#detail`, `#progress`, `#complete` (quest dialogue).
-- **Which entries have a page:** every lore entry with a narration in `data/clips.json` and every quest with quest
-  dialogue (`data/clips-quests.json`): about 2,160 today. Any other address is a 404 page for now; LOR-20 adds the
-  rest. Before the add-on links an entry, it should check it has a page (the same rule, or a list from the pipeline).
-- The page title is "<name>: lore and narration" (quests: "<name>: quest dialogue read aloud"), the description is
-  the entry's spoiler-safe summary cut to 155 characters, and the canonical URL is the address above.
+- **Which entries have a page:** every lore entry the add-on ships (the keys in its own database, the same rule as
+  `compile_lua`: the slice manifest's entities and the hand-written overrides), plus every quest that has quest
+  dialogue and no lore entry: about 3,970. So **the add-on can link any entry it ships, without checking**: build
+  `https://loreforeverwow.com/lore/` + the key with `:` → `/`, and for a quest whose key isn't a number
+  (`quest:cutting-teeth`) use the first quest ID it claims (`meta.ids`; `/lore/quest/788`). A key outside the
+  database, or a quest with neither lore nor dialogue, is a 404 page. `test_every_entry_the_addon_ships_has_a_page`
+  fails if one of the add-on's keys has no page.
+- The page title is "<name>: lore and narration" (quests: "<name>: quest dialogue read aloud"; an entry with no
+  recording: "<name>: lore and story"), the description is the entry's spoiler-safe summary cut to 155 characters, and
+  the canonical URL is the address above.
+- **Pages with nothing to play** (no narration, no quest dialogue: every item, most topics, and the characters and
+  places that aren't narrated) show the summary, then each spoiler-free section under its own heading, then the same
+  Sources, Look it up, "In <zone>", Related and "Get Lore Forever" as any page. No Listen box, no speed bar, no report
+  link. (An entry whose summary `lore.spoilers` rewrote shows only its first section, as its narration would.)
+- **Very thin pages are `noindex`.** A page with nothing to play and under **400 characters** of spoiler-free text
+  (the summary and the sections together: a line or two, `THIN_CHARS` in `site_lore.py`) is served and listed on
+  `/lore`, in its zone's list and in Related, but carries `noindex` (meta tag and `X-Robots-Tag`) and isn't in
+  `/lore/sitemap.xml`; its links are still followed. Today that is 20 pages (15 items, 4 characters, 1 place), found
+  in `more.json` and `index.json` as `"x": 1` and in the page's own data as `"thin": true`. The one exception is an
+  entry whose summary was rewritten to keep a twist back (Onyxia): it is the page players look up, and it has been
+  indexed since 10/4. A page that gets a narration or quest dialogue is never thin. Change the number in
+  `site_lore.py`, rebuild, and the sitemap follows.
+- **Related** is the entry's own list first, then an item's quests and a quest's giver and ender (when the name is one
+  character's), then the pages that link to it, at most 12 (`RELATED_MAX`). A page is also listed under its zone
+  ("In Elwynn Forest", grouped by kind); topics, which have no zone page, are listed at the bottom of `/lore`.
 
 ## Where the data comes from
 
@@ -62,20 +87,28 @@ An entry's page comes from its key, `<type>:<id>`, with the colon as a slash. Ev
 **`public/lore/data/`** from `data/lore`, `data/clips.json`, `data/clips-quests.json`, `data/quest_dialogue.json`,
 `data/spoilers.json`, the zone list in `data/slice/manifest.json` and our voice packs' `Clips.lua`:
 
-- `index.json`: every page in browsing order (zone, kind, name) with its narrations: part, text hash and, per voice,
-  the recording's sha and length. `/lore` and the sitemap read it.
+- `index.json`: every page **with a recording or quest dialogue**, in browsing order (zone, kind, name), with its
+  narrations: part, text hash and, per voice, the recording's sha and length. `/lore` and the sitemap read it, and so
+  does the companion's lore player (`companion/lore_companion/lore_player.py`), which rejects a page kind it doesn't
+  know (an `item` page would break it for every installed companion): so the pages with nothing to play are not here.
+  Narrate a kind the companion doesn't know (items) and its player has to learn it first.
+- `more.json`: the other pages (path, name, kind, zone, `x` when thin) for `/lore` (which merges the two lists back
+  into browsing order) and the sitemap. About 160 KB (30 KB gzipped); `index.json` is no bigger than before.
 - `e/<type>_<id>.json`: one page each. The Function `functions/lore/[type]/[id].js` renders it with
   `lib/lore.js`; `functions/lore/index.js` renders `/lore`.
 - `links.json`: the pages by name, with each quest's giver (`data/quest_givers.json`) and storyline
   (`data/storylines.json`), for player profiles: their moments link here once the `lore` feature is on (LOR-248,
   `lib/trails.js`, site/README.md "Player profiles").
 
-`pipeline/tests/test_site_lore.py` (in `scripts/check.sh`) fails when the committed data isn't what `build` writes,
-so a lore or narration change that skips the rebuild is caught like any other generated file.
+`pipeline/tests/test_site_lore.py` (in `scripts/check.sh`) builds the data and checks what it writes: no spoiler, no
+answer that isn't narrated, every entry the add-on ships has a page, recordings read the current text. It doesn't
+compare with the committed files, so after a lore or narration change run `scripts/rebuild-generated.sh` and commit
+what it changes; the site serves the committed files.
 
-**Kept off the site:** spoiler-flagged sections (the scripts already skip them: `clips.script` reads the first
-spoiler-free section), a narration whose summary `lore.spoilers` flagged (the page shows the rewritten summary and
-plays nothing; 6 entries today), narrated answers flagged as spoilers, and every answer that isn't narrated: the
+**Kept off the site:** spoiler-flagged sections (`clips.script` reads the first spoiler-free section; the text pages
+show only sections with `spoiler: 0`, and `test_no_spoilers_and_no_unnarrated_answers` checks every page), a narration
+whose summary `lore.spoilers` flagged (the page shows the rewritten summary and plays nothing; 6 entries today, and a
+text page uses the rewritten summary too), narrated answers flagged as spoilers, and every answer that isn't narrated: the
 Q&A set stays in the add-on, so the site can't be scraped for it. Narrated answers (about 110) are narrations, so
 they're shown and played. What a quest giver says when you turn a quest in is folded ("Show the words").
 
@@ -88,7 +121,7 @@ line goes into the harvest as the client's text and shows as Forever's) or a `Co
 on a page comes from Wowhead, so Sources never name it.
 
 **Look it up** (LOR-263), under the sources: the entry on Wowhead's WoW Forever database
-(`https://www.wowhead.com/forever/quest=176`, `npc=`, `zone=`) and its Warcraft Wiki article (the first one it was
+(`https://www.wowhead.com/forever/quest=176`, `npc=`, `zone=`, `item=`) and its Warcraft Wiki article (the first one it was
 adapted from, else the wiki's search). Plain links by game ID: the page's `wowhead` field, which `site_lore.py build`
 takes from the language packs' `client_names.json` (Forever's own client tables and the community server databases,
 `lore.client_names`; quests by their own ID), never from Wowhead. Wowhead has no pages for subzones (they 404), so
@@ -131,6 +164,25 @@ gets a new address; an old deployment keeps playing what it named. Range request
   R2 > bucket > Settings > Custom domains, e.g. `audio.loreforeverwow.com`) and point `AUDIO` in `lib/lore.js` and
   `public/lore/lore.js` at it: plays then skip the Functions quota.
 
+## Packs: which download has a recording (LOR-437)
+
+`pipeline/lore/site_packs.py build` (after `site_lore build` in `scripts/rebuild-generated.sh`, and at each release's
+stamp in `scripts/release.sh`) writes **`public/data/packs.json`**, what each pack the release ships holds (its
+recordings and entries, a count per kind, the zones it covers, its zip, CurseForge project and what it needs) with two
+or three examples per card on /downloads, and **`public/data/pack-entries.json`**, which packs have a recording of each
+lore page that reads today's text. `lib/packs.js` renders them: "What's in the main download vs. the extra packs" and
+the pack cards on /downloads, **Hear it in game** on an entry page (links to `/downloads#pack-<folder>`, e.g.
+`#pack-voice-female-alliance`), and the **download filter** on /lore (`?p=<folder>`; `lore.js` reads
+pack-entries.json when one is picked). A pack shows once it's out: in the main download, or released in voices.json
+(translate/packs.json for text packs), checked at request time.
+
+The examples play from `/audio/clip/` like the lore pages: our English narrators' story, lands and quest packs under
+their voice ids (the same recordings R2 already has), every other pack under its folder (`voice-female-answers-places/`,
+`voice-default-dede/`, `voice-questgivers/`, `edition-densuad-eses-audio/`...). `scripts/upload-narration-r2.sh` uploads
+them after the lore pages' recordings (`site_packs upload`, which fetches a recording through Git LFS when the checkout
+has only its pointer), and a page shows a ▶ only for what R2's manifest lists. Each example is a recording that reads
+today's text, never a spoiler; the preferences are `EXAMPLES` in site_packs.py.
+
 ## Reports
 
 "Report a problem with this line" posts to `POST /api/clip-report` (LOR-232, `site/CLIP_REPORT_API.md` from its
@@ -148,7 +200,7 @@ whichever PR lands first. Reports are about a recording, so a clip without a pla
 | File | What |
 | --- | --- |
 | `pipeline/lore/site_lore.py` | build / sizes / upload |
-| `public/lore/data/` | generated data (committed) |
+| `public/lore/data/` | generated data (committed): `index.json` (pages with a recording), `more.json` (the rest), `links.json`, `e/` |
 | `lib/features.js` | the `lore` feature (the flag) |
 | `lib/lore.js` | data loading, the manifest, page templates, sitemap |
 | `functions/lore/index.js`, `functions/lore/[type]/[id].js`, `functions/lore/sitemap.xml.js` | the pages |

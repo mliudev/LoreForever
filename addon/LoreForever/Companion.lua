@@ -1,6 +1,6 @@
 -- Live answers from the Lore Forever companion app on this PC (LOR-65). Add-ons can't reach the internet, so the
 -- question (with where you are and what you're doing) goes out through the clipboard: the add-on highlights it and the
--- player presses Ctrl+C once. The companion sees it, answers in a small window over the game and can read it aloud.
+-- player presses Ctrl+C once. The companion sees it and answers in a small window over the game.
 -- (LOR-57 spike, 2026-09-30: the clipboard carries 256 KB intact; the chat log is written minutes late.)
 -- Nothing here shows until the companion is installed (Companion.Installed).
 
@@ -92,7 +92,7 @@ local function createBox()
   return f
 end
 
--- The companion app writes the LoreForever_Journey add-on whenever it runs (even with no chapters yet), so its data
+-- The companion app writes the LoreForever_Journey add-on whenever it runs (even with no pictures yet), so its data
 -- means it's installed.
 function Companion.Installed()
   return type(_G.LoreForeverJourneyData) == "table"

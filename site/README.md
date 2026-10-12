@@ -97,10 +97,24 @@ Left out: `171159` (item tooltip) shows a "Keep: wanted for the quest" line that
 - **Site downloads:** the installer and zip links go to `/download/installer` and `/download/zip`
   (`functions/download/[file].js`), which count each download per day in the D1 table `downloads`, then
   redirect to the latest GitHub release. Link-preview bots aren't counted. This is the number for "is the
-  site the download source?". `https://loreforeverwow.com/api/stats` shows site downloads, sign-ups and
+  site the download source?". A signed-in player's download also counts for their account in `download_accounts`
+  (LOR-8, `lib/activity.js`), after the redirect has gone (`waitUntil`) and never in its way; signing in is never
+  needed to download. Never fetch these links to test anything, even on a preview: it adds to the real counts. Use
+  `site/tests/activity.test.mjs` (in-process) or a local `wrangler pages dev`. `https://loreforeverwow.com/api/stats` shows site downloads, sign-ups and
   clicks (counts only, no addresses). Both `GET /api/stats` and `GET /api/click` need the admin key (see
   Private dashboard below):
   `curl -s -H "Authorization: Bearer $FEEDBACK_KEY" https://loreforeverwow.com/api/stats`
+- **CurseForge and GitHub per release** (LOR-421, `lib/stores.js`): `GET /api/downloads` also keeps their own counts,
+  after answering (`waitUntil`), when a snapshot is due: the add-on's project and GitHub's releases at most hourly,
+  the narration and language projects of `release/curseforge.json` every 6 hours (`CF_PACKS`; `site/tests/stores.test.mjs`
+  fails when a project there is missing). The source is cfwidget, keyless, not CurseForge's own API (no key, and its
+  terms don't allow keeping its numbers); the unique downloaders come from the author dashboard (below, Private dashboard). Tables `store_counts` (each day's first and last count per project and file),
+  `store_files` (each file's latest count and its first 24 hours, read between the snapshots either side of that
+  mark) and `store_tries`. The CurseForge app updates installed add-ons, so a release's first day is close to the
+  CurseForge installs in use: a trend, not a head count.
+- **Companion check-ins** (LOR-422, `lib/checkins.js`, `POST /api/companion/checkin`): once a day the companion sends
+  a hashed random install id and the companion's and add-on's versions, with `X-LF-Client: companion/<version>`.
+  `companion_days (day, install, companion, addon)`, kept 90 days; no account, no IP. The companion's setting turns it off.
 - **The daily IP hash** (`senderHash` in `lib/form.js`) is how every form and like counts "one sender per day" without
   keeping addresses: SHA-256 of that day's random salt, the day and the IP, cut to 24 hex characters. The salts are in
   D1 `daily_salts` (created on first use). The request that makes a new day's salt also deletes the salts from
@@ -318,24 +332,38 @@ to `/account#profile` when there's none yet).
   until then `/u/<handle>` is a 404 for everyone else. Pages are `noindex`. The page shows the character, never the
   account's name (often a real name from Google), plus the links from the account's "Your name and links". Delete my
   profile removes it; Delete my account removes it too (`profiles` is in `SETUP` and `USER_DATA`).
-- **The page** (`functions/u/[handle].js`, templates in `lib/profiles.js`): the character's head (level, race,
-  class, faction, realm, favorite spec), stat tiles, the story, the road so far (lands in the order first reached),
-  then cards for bosses, dungeons, notable kills, most fought, best finds, mounts, professions, reputation and books,
-  and a "Make your own" box (Download for Windows, Make your profile). OG and Twitter tags for link previews.
-- **Share and View as a visitor (LOR-150, LOR-302):** every profile has a **Share** button at the top
-  (`public/js/share.js`): the device's share sheet where there is one, else the link copied with "Link copied" and
-  links to post it on X, Bluesky or Reddit. Visitors find it at the right of the head; the owner in their bar, next to
-  **View as a visitor** and Make it public / private. On a private profile Share says to make it public first.
+- **The page** (`functions/u/[handle].js`, templates in `lib/profiles.js`), built around telling the journey (Mike,
+  10/11: it had become a wall of separate features, and timeline clicks jumped to a map view): the character's head
+  (level, race, class, faction, realm, favorite spec, where they were last seen, Listen and Share, and a line of
+  counts), then two tabs, **The journey** and **By the numbers** (`#journey`, `#numbers`; switched in place by
+  `public/js/journey.js`, both shown one after the other without it), then a "Make your own" box (Download for
+  Windows, Make your profile) for visitors. OG and Twitter tags for link previews.
+  - *The journey:* the story, then the journey in chapters (below), beside the road chart. On a wide screen the chart
+    stays in view next to the reading and follows the chapter being read; narrower, it comes after the story and each
+    chapter has its own small chart. Nothing on it switches to another view or page: a land or a chapter number on the
+    chart scrolls to its chapter, and the only links out are names (their lore page while the `lore` feature is on,
+    else their Wowhead page, marked ↗ and in a new tab) inside a chapter's folded moments.
+  - *By the numbers:* the record's totals and the journey stats' tiles, the lines told for fun, and every list: where
+    the steps and the time went, foes by kind, patrons, bosses, dungeons, notable kills, most fought, best finds,
+    mounts, professions, reputation and books.
+- **Share and View as a visitor (LOR-150, LOR-302):** every profile has a **Share** button in its head
+  (`public/js/share.js`), for visitors and owner alike: the device's share sheet where there is one, else the link
+  copied with "Link copied" and links to post it on X, Bluesky or Reddit. The owner's bar on top has **View as a
+  visitor**, Make it public / private and Update it. On a private profile Share says to make it public first.
   **View as a visitor** (`?as=visitor`, owner only; anyone else is a visitor already) renders exactly the visitor's
   page, with one sticky bar on top saying so and **Back to my view**; for a private profile that's "No profile here"
   plus Make it public. `/account`'s link to the profile has the same Share button.
 - **The share card (LOR-150, `lib/sharecard.js`):** the picture a link to a public profile shows (`og:image`), 1200x630:
   the name, race and class, four tiles (quests done, places, bosses, deaths), the story's first sentence and the
-  address, with Sam (LOR-266) while the `companion` feature is on. The site draws no images itself: the owner's own
+  address, with Willo (LOR-266) while the `companion` feature is on. The site draws no images itself: the owner's own
   page draws it in a canvas (`public/js/card.js`) whenever the profile changed since its card, and sends it to
   `POST /api/profile/card`. It's kept in R2 with the picture book (`pictures/<user id>/share-card.jpg`, so deleting
   the profile or the account takes it along) and served at `/share/<handle>-<sha>.jpg`. Before a profile has one,
   links show its newest picture, or the site's own card.
+- **The companion's name (LOR-428, `lib/brand.js`):** `COMPANION_NAME` ("Willo") signs profile stories ("Written by
+  Willo", with `public/img/wispr-head.svg`), goes on the share card (with `public/img/wispr.svg`) and names the free
+  answers' `willo` persona. Static pages (`/link`, `/privacy`, `/admin`) say it themselves. Raise `CARD_VERSION` in
+  `lib/sharecard.js` when it changes, so every card is drawn again.
 - **The journey in numbers (LOR-246):** since LOR-246 the add-on keeps a small tally per character (`Journey.lua`, "The
   tally": yards walked per zone from a running count, a look every 2.5 seconds from the update on, kills by creature
   type and rank, deaths, time online, the last `/played`) and prints it first in the record as "Journey stats", always
@@ -357,56 +385,57 @@ to `/account#profile` when there's none yet).
     slew them twice or more), the sea, famous figures met (`FAMOUS`, era leaders found in People met), the patron, the
     home zone, inns, fish, days in a row and how long the story's lore takes to read aloud (150 words a minute), and
     cards for how they traveled, where the time went and their patrons.
-- **The journey, moment by moment (LOR-248,** `lib/trails.js`, `public/js/journey.js`**):** the site's take on the
-  add-on's Journey tab (LOR-242). `lib/journey.js` keeps the record's moments in time order (`timeline`:
-  `[section, index, day]`, the day only, never the hour; the record's times have no year, so it's the latest one
-  that isn't in the future). The page lists them newest first by day, the latest 25 open and the rest folded, with
-  filter chips (Places, Quests, People, Foes, Finds, Deaths, More). Each moment has its **trails**, in-page links
-  (`#m-<n>`, dotted) that only ever lead to other moments of the same record, so nothing goes past what the player
-  did: a quest to meeting whoever gave it, a person to their quests, a quest to the player's earlier and later
-  chapters of its storyline (shown only as "Storyline · <zone>: <name>", no step numbers), "Last time here" / "Next
-  time here" to the previous and next visit to the same place (moments in the same zone that name only the zone don't
-  end a visit), a quest reward to its quest, and a death to the foe beaten later. `public/js/journey.js` unfolds and
-  unfilters a moment a trail leads to, marks it and moves focus there; Back walks the trail back. Without JavaScript
-  every moment is still there and the trails are plain anchors.
+- **The journey, in chapters (LOR-248; Mike, 10/11;** `lib/chapters.js`, `lib/trails.js`, `public/js/journey.js`**):**
+  the site's take on the add-on's Journey tab (LOR-242). `lib/journey.js` keeps the record's moments in time order
+  (`timeline`: `[section, index, day]`, the day only, never the hour; the record's times have no year, so it's the
+  latest one that isn't in the future). The page tells them in **chapters**, one per day played (a day with fewer
+  than 10 moments goes in with the next; the newest stays its own), oldest first. Each has a title (where most of it
+  happened, a dungeon counting double and a capital less, and the next place when it's close behind), the road it took
+  (the lands in the order reached), one line told from its facts ("Húrin reached level 23, fought through Shadowfang
+  Keep and Blackfathom Deeps and first saw Silverpine Forest, Darnassus and more": templates, no model), its
+  highlights (a level, each dungeon and the bosses that fell there, new lands, quests, notable foes, deaths, a mount,
+  books, standing, rare finds, people met), its pictures, and **Every moment of this chapter** folded, each under the
+  land it happened in (the newest 400). The newest 8 chapters are shown in full; older ones fold to a line each
+  (number, title, days) that opens to their line, road, highlights and pictures. Old links still land: `#m-<n>` opens
+  the chapter holding that moment (and its fold), `#timeline` goes to the chapters, `#map` to the chart.
+  - The moments' **trails** (who gave a quest, the rest of a storyline, the last and next visit to a place, a reward's
+    quest, the foe that killed them and was beaten later) are still worked out by `lib/trails.js` `moments`, but the
+    page no longer shows them: the jumps between moments read as a wall of random links (Mike, 10/11).
   - *Lore links* follow the **`lore` feature** (the lore pages are noindex and linked from nowhere until it's on):
-    then each moment's name links its page (quest, character, boss, place, zone or dungeon), and the road and the
-    cards link theirs. Items, books, mounts and factions have no lore pages yet: those moments link the place they
-    happened. Names are matched through `public/lore/data/links.json` (`pipeline/lore/site_lore.py`
+    then a moment's name in a chapter's fold links its page (quest, character, boss, place, zone or dungeon), and the
+    numbers tab's lists link theirs. Names are matched through `public/lore/data/links.json` (`pipeline/lore/site_lore.py`
     `profile_links`: the pages by name, each quest's giver and storyline, a storyline's same-titled chapters in
     chapter order so the nth one done never links a later chapter). The lore pages are in English, so a record in
     another language links only the names that read the same.
-  - *Links out (LOR-263):* each moment ends in a small **Wowhead** link to what it names on Wowhead's WoW Forever
-    database (`https://www.wowhead.com/forever/quest=176`; `npc=`, `zone=`, `item=`, `faction=`) when `links.json`
-    has its game ID (`refs`, from the language packs' client names: never Wowhead's data), else **Wiki**, the
-    Warcraft Wiki's search for the name (it opens the article when one has that title). Quests, the people and
-    bosses we know, zones and dungeons mostly have IDs; loot, books, mounts and subzones mostly go to the wiki (Wowhead
-    has no subzone pages). They're other sites, so they don't wait for the `lore` feature.
+  - *Links out (LOR-263):* a name with no lore page links what it names on Wowhead's WoW Forever database
+    (`https://www.wowhead.com/forever/quest=176`; `npc=`, `zone=`, `item=`, `faction=`) when `links.json` has its game
+    ID (`refs`, from the language packs' client names: never Wowhead's data), marked ↗ and opening a new tab. Names
+    without one aren't links (the Warcraft Wiki's search was a guess). They're other sites, so they don't wait for the
+    `lore` feature.
   - *The character's Blizzard page:* none to link yet. Forever has no realms (one world per region and game mode,
     two-part names), and Blizzard's armory doesn't list Forever characters (checked 2026-10-04; third-party armories
     wait for API access). When it does, link it from the head, as the player's choice. Until then a player can add
     any page under "Your name and links" on `/account`.
   - *From the companion's journey data* (`profiles.journey`, below): when the profile has it, the moments come from
-    it instead of the record: the player's own day for each (its `tz`), quests by ID (their lore page, giver and
-    storyline by ID; Wowhead by ID even without a page), and quests taken as moments of their own ("Took on"), with
-    **Taken at** / **Turned in at** trails between the two by quest ID, and a reward to its quest by ID. The page shows
-    the newest 600 moments (`SHOWN`); a trail to an older one is just its name. A paste keeps the record's moments.
-  - **Two views, right under the head** (Mike, 10/4: whoever a player shares the page with follows the trek):
-    **Map** (the road chart, `#map`) and **Timeline** (the moments, `#timeline`; the old `#journey` opens it too),
-    before the stats and the story. `public/js/journey.js` shows one at a time (Map first when there is one); a link
-    to either view, or to a moment (`#m-<n>`), opens on it; Share passes on the page's link, and the owner bar also
-    copies its map link or its timeline link. Without JavaScript both are there, one after the other.
-  - **The road chart** (`lib/roadchart.js`, `public/js/roadchart.js`), the Map view: the lands reached as
+    it instead of the record: the player's own day for each (its `tz`), quests by ID (their lore page by ID; Wowhead
+    by ID even without a page), and quests taken as moments of their own ("Took on"). A paste keeps the record's
+    moments.
+  - **The road chart** (`lib/roadchart.js`, `public/js/roadchart.js`), beside the chapters: the lands reached as
     stops on **our own schematic chart** (Mike, 10/4: no map art from the game), each land at a hand-placed spot
     (`LANDS`: Kalimdor left, the Eastern Kingdoms right, Forever's own lands where their lore puts them), with the road
     drawn between them in the order travelled (one leg each time the next moment is in another land; thicker for a
     road taken often; the latest leg gold). With the companion's data a leg knows how it was travelled, and flights,
     boats, hearthstones and portals are dashed; from a paste every leg is a road. Only lands reached have names
-    (the rest are faint dots), capitals and dungeons label on the other side from their zone (a name that would run off the
-    chart moves to the other side), and names that match
-    no land are listed under it. It opens fitted to the lands reached; wheel, pinch, + and − zoom, drag or arrow keys
-    pan, ⤢ (or 0) shows it all again, and stops and names keep their size at any zoom. A stop shows that land's
-    moments in the journey (`pf-land` → `public/js/journey.js`); without JavaScript it jumps to the first one there.
+    (the rest are faint dots); a place with no stop of its own inside a land (the Excavation Site in the Wetlands, the
+    City of Dalaran) is drawn at that land (`PLACED`), and names that match no land are listed under it. Each road and
+    stop knows its chapters (`data-ch`): on a wide screen (1000px and up) the chart is sticky beside the chapters and
+    `public/js/journey.js` tells it which chapter is being read (`pf-chapter`), so that chapter's roads and lands
+    light up and the chart glides to them, with "Chapter n: title" over it; above the chapters it shows the whole
+    road, with the newest chapters' numbers at the land where most of each happened. A stop links the chapter it was
+    first reached in, and a number its chapter, on the same page. Ctrl and the wheel, pinch, + and − zoom (the wheel
+    alone keeps scrolling the page), drag or arrow keys pan, ⤢ (or 0) shows it all again, and stops and names keep
+    their size at any zoom. Narrower, the chart comes after the story, and each chapter has its own small chart
+    (`chapterMap`): its lands named, its roads gold, the rest of the journey faint around them.
   - **The coasts behind it** (LOR-303, `lib/coasts.js`): our own drawing of Kalimdor and the Eastern Kingdoms in the
     chart's units, so the stops sit on land instead of an empty dark box (the "black box" on the 10/5 coaching call).
     No Blizzard art: each landmass is a ring of points placed one by one around where `LANDS` puts its lands (not
@@ -414,8 +443,8 @@ to `/account#profile` when there's none yet).
     behind the roads. The world before the Dark Portal reopens: Teldrassil and a few isles (Echo, Theramore, Sardor), Lordamere
     Lake, Gilneas behind its wall, no Quel'Thalas and nothing later; Zephras Isle floats in Skywall, dashed. Moving a
     land in `LANDS` may need its coast moved too; check its placement in the rendered chart.
-  - Profiles saved before this have no `timeline`: they show as before, and their owner gets a line asking to update
-    (the companion's next sync or a paste brings it).
+  - Profiles saved before this have no `timeline`: no chapters or chart, and their owner gets a note asking to update
+    (the companion's next sync or a paste brings them).
 - **The story:** with the Pages secret **`GEMINI_API_KEY`** (Production and Preview; optional; use a paid-tier key,
   whose prompts Google doesn't use for training), each import writes one with `gemini-3.1-flash-lite` (a
   `STORY_MODEL` variable can name another model, but only one with a price in `STORY_PRICES` is ever called): third
@@ -506,6 +535,17 @@ to `/account#profile` when there's none yet).
   The optional `operation: "compact"` uses Flash-Lite without search to summarize private conversation context.
   It returns `summary` (at most 2,400 UTF-8 bytes), allows 1,024 output tokens and uses a separate daily limit of 20
   updates. It does not consume a player's daily answer allowance. Both operations cap prompts at 16,000 UTF-8 bytes.
+  Optional fields for the Willo companion (LOR-438, LOR-428), ignored when unknown so older companions keep Sam:
+  `persona: "willo"` swaps Sam's introduction for Willo's in every prompt, and `style: "spoken"` appends a
+  short-speech block to ordinary and character replies (not research or compaction) and caps them at 300 output
+  tokens. A spoken, unresearched `answer` may also carry `image`: base64 of a JPEG of the game window (no `data:`
+  prefix, at most 200,000 characters). It goes to Gemini as an inline picture at medium resolution with a short
+  "use the picture" paragraph, and is never logged or stored; anything else, or a malformed picture, is ignored and the
+  question is answered as text (so is a picture Gemini refuses). A body with a picture may be 64 KB plus the picture.
+  The allowance says `pictures: true`, and the companion sends a picture only after it sees that.
+  Every answer returns `timing: {model_ms, total_ms}`. Accounts left out of /admin's counts as `admin` or
+  `config` (`excluded_accounts`, Mike's own and test accounts) skip the daily answer cap (the allowance says
+  `unlimited: true`); compaction's limit and the monthly budget still apply to them.
   - **Accounting:** all three paths reserve their own bounded input/output estimate against the shared $100 monthly
     budget before calling the provider. Ordinary replies and compaction use Flash-Lite's $0.25/$1.50 per million
     input/output tokens. Research uses [Google's published pricing](https://ai.google.dev/gemini-api/docs/pricing),
@@ -521,9 +561,11 @@ to `/account#profile` when there's none yet).
     When the free allowance is used up, players wait for the next day (or month, at the shared budget); there is no
     own-key option (Mike, 2026-10-10: pricing comes first).
 - **The picture book** (Mike, 2026-10-05; `lib/pictures.js`, behind the **`pictures` feature**, below): pictures a
-  player takes in game with the picture key, which the companion app puts on the profile, newest first, under the
-  Map and Timeline views, each with its place, day (the player's own, from the journey data's `tz`), level and the
-  caption the companion wrote; a picture opens large (`public/js/pictures.js`; without it, a link to the image).
+  player takes in game with the picture key, which the companion app puts on the profile, each in the chapter it was
+  taken in (beside the nearest moment of the same character, `lib/trails.js` `timelinePictures`; ones with no chapter
+  yet under "More pictures" after the chapters), with its place, day (the player's own, from the journey data's `tz`),
+  level and the caption the companion wrote; a picture opens large in the viewer, whose arrows go through every
+  picture on the page (`public/js/pictures.js`; without it, a link to the image).
   - *Uploads* (`functions/api/profile/pictures/index.js`): `POST /api/profile/pictures` from the companion with its
     token (as `/api/profile/sync`) or from our pages signed in, multipart `meta` (JSON: `cid, t, realm, faction, race,
     class, lv, z, s, at, clean, caption`) and `image`. JPEG only, told by its bytes (and its size read from them, not
@@ -767,8 +809,8 @@ own setup; the page only takes files. `public/voices/studio.html` + `studio.js` 
 - **Turning a sent voice into a pack:**
   `cd pipeline && uv run python -m lore.voicepack studio <voice id>` (admin key from `.env`; `--site` for a
   preview) fetches the files through `GET /api/studio/export` and `/api/studio/audio` into `dist/studio/<voice id>/`,
-  copying files that already meet the guide and converting the rest to mono 44.1 kHz (`--normalize` also
-  loudness-normalizes). It prints the `voicepack build` command to run after listening. Then publish as usual
+  each brought to the narrators' level (-18 LUFS) and encoded like our packs (`--keep-levels` copies files that
+  already meet the guide as they are). It prints the `voicepack build` command to run after listening. Then publish as usual
   (a `voices.json` entry with `"id": <voice id>` and `"owner": <user id>`).
 - Without the `STUDIO` binding the page says uploads aren't switched on yet and points to the folder-link form.
 
@@ -979,9 +1021,28 @@ scheme the add-on will link to, is in [LORE_PAGES.md](LORE_PAGES.md).
 
 ## Private dashboard
 
-https://loreforeverwow.com/admin shows contacts, feedback reports, voice submissions and site downloads in one
-place: totals, new contacts and downloads per day for the last 30 days, the feedback list (mark reports done, delete
-spam), and voice submissions (folder link, clips, contact, signature and release version; mark done, delete).
+https://loreforeverwow.com/admin has four tabs, one shown at a time and chosen by the address's `#` (so
+`/admin#growth` or `/admin#contacts` links straight there; a section's id opens its tab):
+
+- **Overview** (`#overview`): the headline numbers, each linking to where it comes from: unique CurseForge
+  downloaders this week, the newest release's CurseForge installs, accounts, returning players, companion installs in
+  use, open feedback and reports, paid usage; and two charts (CurseForge per day, site downloads per day).
+- **Growth** (`#growth`): the funnel (`#funnel`), CurseForge (`#curseforge`), site and GitHub downloads
+  (`#downloads`) and companion installs (`#companions`).
+- **Players** (`#players`): profiles (`#profiles`), sign-ins and veterans or new players (`#signins`), usage (`#usage`).
+- **Community** (`#community`): feedback, voices, clip reports, translations, edits, shared text and contacts, one at a
+  time (`#feedback` ... `#contacts`), each with its badge; the tab's own badge adds up the gold ones. The clip
+  reports load when the tab is first opened.
+
+**Every count leaves out the admin's and test accounts** (`excluded_accounts`, `lib/activity.js syncExclusions`): the
+account signed in on the browser that opens /admin with the key (Mike's own), the emails or account ids in the Pages
+variable `ANALYTICS_EXCLUDE` (comma or space separated), and any account left out by hand in Contacts ("Leave out of
+counts"; "Count again" undoes any of them). The accounts stay in Contacts. **"Site downloads" means one thing
+everywhere**: add-on downloads through this site's installer and zip links; narration and language pack downloads and
+the home page's download-button clicks are counted and named apart. **"Returning"** means seen on 2+ different days,
+signed in or synced from the companion, in the funnel and in Sign-ins alike (Sign-ins also says how many by signing
+in alone). **Companion check-ins from internal builds** (no version, the unstamped 0.1.0, or a -dev or -preview
+version) count nowhere and are named on their own.
 
 - **Contacts:** email subscribers and Google sign-in accounts share one card and one list, matched by trimmed,
   case-insensitive email. Each address counts once; its first signup drives the chart and weekly total. Search,
@@ -993,6 +1054,44 @@ spam), and voice submissions (folder link, clips, contact, signature and release
 - **Profiles:** how many people signed up (accounts, i.e. Google sign-ins), how many made a player profile and how
   many made it public, new accounts today and in the last 7 and 30 days, and new accounts per day. `GET /api/admin`
   counts them in SQL (`signups`), so they aren't capped like the Contacts list. Days are UTC, like the charts.
+  **Sign-ins** (LOR-304, `lib/activity.js activityReport`): accounts signed in today and in the last 7 and 30 days,
+  returning accounts and returning profile owners (signed in on 2+ different days; owners also counting companion
+  syncs), accounts signed in per day, a day-by-day table (new accounts, signed in, new profiles and how many of
+  those are public now, profile updates pasted or from the companion) and veterans or new players by the profiles'
+  level and time played (veteran: level 40+ or 3+ days played; new: under 20 with under a day). What's kept per
+  account: `users.last_seen` (the last UTC day signed in, set at Google sign-in and by the first signed-in request
+  each day in `lib/accounts.js currentUser`, so a remembered sign-in counts too) and `signin_days` (each day, kept
+  90 days). `setup()` adds `last_seen` to an older `users` table and fills it in from the sessions kept, on Preview's
+  and production's D1 alike; a failure there only loses the days, never sign-in. Profile updates are plain numbers in
+  `site_counts` (`profile.paste`, `profile.sync`).
+- **Funnel** (LOR-10, `lib/activity.js funnelReport`, stages in `public/admin-funnel.js`): unique CurseForge
+  downloaders this week (with the author dashboard's numbers) → installs from every source (CurseForge's installs that
+  took the last full release + GitHub's release downloads, which hold this site's) → from this site → companion
+  running → signed in → made a profile → synced from the companion → came back. A stage shows a share only where its
+  people are part of the stage it's measured against (profiles of accounts, syncs of profiles, coming back of
+  accounts, this site of all installs; `site/tests/admin-funnel.test.mjs`); the rest are plain counts. Also downloads
+  made while signed in (LOR-8); the last 8 weeks (Monday, UTC); and accounts by the week they were made, with how many
+  came back and how many were active 1–4 weeks later. Visits aren't in D1: Cloudflare Web Analytics counts them
+  (Pages project > Metrics).
+- **CurseForge** (LOR-421, `lib/stores.js storesReport`): total and unique per day for the add-on and for the packs,
+  week by week (unique downloaders per week are CurseForge's own distinct count, q11; daily uniques are never added up
+  into "downloaders", and the dashboard's 90-day sum is shown as user-days), downloads per day by release next to the
+  packs, GitHub and the site, each release's first 24 hours (from the author dashboard's per-release days, else
+  between cfwidget snapshots), and the packs' growth (over 7 days of snapshots, or since the first). A day's count is
+  the author dashboard's when it has the day, else from one day's last snapshot to the next's, else today's since its
+  first snapshot ("since 8:24"), else worked out from each release's downloads spread over the hours it was newest
+  ("≈"); a column with nothing says once where it starts.
+- **CurseForge author numbers**: `POST /api/admin/curseforge` (same key; a browser must send it from our own
+  pages) takes `{"fetched_at", "days_back": 90, "queries": {"1": <response>, "2", "3", "4", "6", "7", "10", "11",
+  "12"}}`, the author dashboard's `/_api/statistics-new/queries/<n>` answers as they came (q6 and q7 for the add-on
+  alone), and upserts them into `cf_author_stats` by period (day, week or the 90-day window), day, project, file
+  (a release's display name) and metric (downloads, unique, userDays). Idempotent, so each daily run resends 90 days.
+  `GET /api/admin/curseforge` says what's stored. A routine in Mike's browser reads the dashboard and posts from his
+  /admin tab; no CurseForge credential reaches the site.
+- **Companion installs** (LOR-422): today, 7 and 30 days, returning installs and versions in use, players' builds
+  only.
+  Sample data: `node site/tests/smoke-admin-usage.mjs`, then http://localhost:8766/admin with the key `local`
+  (`/admin?key=local` signs in by itself, for a headless screenshot).
 - **Clip reports:** reports on recordings per clip and voice (how many people, why, which names), the latest reports,
   and "Reject all from this uploader" / Restore for spam (see "Clip reports" above). Nothing to approve.
 - **Translation edits:** saved, pulled and rejected per language; the edits have their own page, **/admin/edits**

@@ -1,0 +1,123 @@
+/* /downloads (LOR-437): one primary action, then the extras as tiles, on top of style.css's dl-* look. lib/packs.js
+   writes the tiles; the folded table keeps style.css's dl-table. */
+
+/* Top: the buttons, and what comes with them */
+.dl-hero { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 22px; align-items: start; }
+.dl-hero-main { min-width: 0; }
+.dl-hero .pitch { max-width: 34ch; margin-bottom: 16px; }
+.dl-cta { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.dl-cta .btn-download { text-align: center; padding: 14px 24px; }
+.dl-cta .btn-download-alt { padding: 12px 18px; }
+.dl-cta-note { margin: 10px 0 0; color: var(--muted); font-size: 0.86rem; }
+.dl-cta-note .dl-size { white-space: nowrap; }
+.pk-comes {
+  min-width: 0; padding: 14px 16px; background: var(--panel); border: 1px solid var(--panel-line); border-radius: 6px;
+  box-shadow: inset 0 0 0 1px #000, 0 4px 14px rgba(0, 0, 0, 0.5); scroll-margin-top: 70px;
+}
+.pk-comes h2 {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 0 0 8px;
+  font: 700 1rem var(--heading); color: var(--parchment);
+}
+.pk-comes ul { list-style: none; margin: 0 0 10px; padding: 0; display: grid; gap: 4px; font-size: 0.92rem; }
+.pk-comes li { position: relative; padding-left: 20px; }
+.pk-comes li::before { content: "\2713"; position: absolute; left: 0; color: #1eff00; font-weight: 700; }
+.pk-comes strong { color: var(--gold); font-variant-numeric: tabular-nums; }
+.pk-comes :target { background: #ffd10024; box-shadow: 0 0 0 4px #ffd10024; border-radius: 2px; }
+.pk-tag {
+  font: 600 0.68rem system-ui, sans-serif; color: #1eff00; border: 1px solid #1eff0077; border-radius: 3px;   /* uncommon green */
+  padding: 1px 6px; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap;
+}
+
+/* ▶ chips: a line to hear, its words in a caption while it plays */
+.pk-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.pk-play {
+  display: inline-flex; align-items: center; gap: 7px; max-width: 100%; padding: 4px 11px 4px 4px; border-radius: 999px;
+  border: 1px solid #d8b25a66; background: #00000066; color: var(--text); font-size: 0.84rem; line-height: 1.2;
+  text-decoration: none; cursor: pointer;
+}
+.pk-play:hover, .pk-play:focus-visible { border-color: var(--gold-soft); background: #1b1408; }
+.pk-play:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.pk-play.pk-on { border-color: var(--gold); background: #2a2014; }
+.pk-pl {
+  flex: none; display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px;
+  border-radius: 50%; border: 1px solid var(--gold-soft); background: #000; color: var(--gold); font-size: 0.62rem;
+}
+.dl-page .pk-t { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; overflow-wrap: normal; }
+.pk-cap {
+  margin: 8px 0 0; padding-left: 9px; border-left: 2px solid var(--gold-soft); font-size: 0.86rem; font-style: italic;
+  color: #d9cfbe;
+}
+.pk-cap small { display: block; font-style: normal; color: var(--muted); font-size: 0.76rem; }
+
+/* A tile per extra pack */
+.pk-tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; align-items: start; }   /* an open tile doesn't stretch its neighbour */
+.pk-tile { display: flex; flex-direction: column; gap: 10px; min-width: 0; scroll-margin-top: 70px; }
+.pk-tile:target { border-color: var(--gold-soft); }
+.pk-tile-wide { grid-column: 1 / -1; }
+.pk-head { display: flex; gap: 12px; align-items: center; }
+.pk-head > div { min-width: 0; }
+.pk-head h3 { line-height: 1.2; }
+.pk-head p { margin: 1px 0 0; font-size: 0.92rem; }
+.pk-ico {
+  flex: none; display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px;
+  border-radius: 8px; border: 1px solid #c9a24b88; background: radial-gradient(circle at 50% 35%, #3a2a12, #120c05);
+  color: var(--gold);
+}
+.pk-ico svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.pk-get { margin-top: auto; }
+.pk-get > summary {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; cursor: pointer;
+  list-style: none;
+}
+.pk-get > summary::-webkit-details-marker { display: none; }
+.pk-get > summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.pk-meta { color: var(--muted); font-size: 0.86rem; font-variant-numeric: tabular-nums; }
+.pk-meta strong { color: var(--gold); }
+.pk-get-btn {
+  display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 4px; border: 1px solid #c9a24b;
+  background: #00000080; color: var(--gold); font: 600 0.84rem var(--heading); white-space: nowrap;
+}
+.pk-get-btn::after { content: "\25BE"; font-size: 0.8em; }
+.pk-get[open] .pk-get-btn::after { content: "\25B4"; }
+.pk-get > summary:hover .pk-get-btn { background: #1b1408; }
+.pk-rows { list-style: none; margin: 10px 0 0; padding: 10px 0 0; border-top: 1px solid #ffffff14; }
+.pk-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 6px 14px; flex-wrap: wrap; padding: 8px 0;
+  border-top: 1px solid #ffffff10; scroll-margin-top: 70px;
+}
+.pk-row:first-child { border-top: 0; }
+.pk-row:target { background: #ffd10014; box-shadow: 0 0 0 6px #ffd10014; border-radius: 2px; }
+.pk-row p { margin: 0; }
+.pk-row-main { flex: 1 1 260px; min-width: 0; }
+.pk-row-name { font-weight: 600; }
+.pk-row-what { color: var(--muted); font-size: 0.82rem; }
+.pk-row-main .pk-chips { margin-top: 6px; }
+.pk-row-get { display: flex; align-items: center; gap: 8px 10px; flex-wrap: wrap; font-size: 0.88rem; }
+.pk-row-get a.dl-link { font-weight: 600; }
+.pk-row-get small, .pk-row-get .dl-size { color: var(--muted); }
+.pk-cf { margin-top: 0; padding: 5px 12px; font-size: 0.84rem; }
+.pk-hint { margin: 8px 0 0; color: var(--muted); font-size: 0.86rem; }
+
+/* Your language: a button per language (/js/packs.js); without JavaScript every language shows, each under its name */
+.pk-langs { display: flex; flex-wrap: wrap; gap: 6px; }
+.pk-langs button {
+  padding: 6px 12px; border-radius: 4px; border: 1px solid var(--line); background: #00000066; color: var(--text);
+  font: inherit; font-size: 0.92rem; cursor: pointer;
+}
+.pk-langs button:hover { border-color: var(--gold-soft); }
+.pk-langs button[aria-pressed="true"] { border-color: var(--gold); background: #1b1408; color: var(--gold); }
+.pk-lang-hint { margin: 0; color: var(--muted); font-size: 0.88rem; }
+.pk-lang h4 { margin: 12px 0 0; font: 700 1rem var(--heading); color: var(--parchment); }
+.pk-picking .pk-lang h4 { display: none; }
+.pk-lang .pk-rows { margin-top: 6px; }
+.pk-picking .pk-lang .pk-rows { margin-top: 0; }
+
+.dl-hero + .dl-section { padding-top: 22px; }
+
+@media (max-width: 720px) {
+  .dl-hero { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .dl-hero .pitch { margin-bottom: 12px; }
+  .dl-cta { flex-direction: column; align-items: stretch; }
+  .pk-tiles { grid-template-columns: minmax(0, 1fr); }
+  .pk-row-get { flex-basis: 100%; }
+}

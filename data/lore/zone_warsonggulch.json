@@ -1,0 +1,133 @@
+{
+ "key": "zone:warsonggulch",
+ "type": "zone",
+ "name": "Warsong Gulch",
+ "era": "classic",
+ "zone": "warsonggulch",
+ "meta": {
+  "wiki": [
+   "Warsong Gulch (Classic)",
+   "Warsong Gulch"
+  ],
+  "levels": "",
+  "aliases": []
+ },
+ "summary": "Warsong Gulch is a forested valley on the border of Ashenvale and the Barrens, and the scene of a battle between the Horde and the Alliance that never truly stops. Orcs of the Warsong clan cut Ashenvale's timber there for the Horde, and the night elves of Silverwing Hold fight to drive them out of the sacred forest. Fighters of every race come to lend sword or spell, each side raiding the other's stronghold to carry off its flag.",
+ "sections": [
+  {
+   "title": "Timber and Blood",
+   "body": "The Horde built its new home in Kalimdor with wood, and much of that wood comes from Ashenvale. The Warsong clan, Grom Hellscream's warriors, have cut into the forest since the Horde first landed, and their Warsong Mill at the gulch's end feeds the Horde's camps and walls. To the night elves, every felled tree wounds a forest they have guarded for ten thousand years, and they have not forgotten that Grom's warriors once slew Cenarius in these woods.",
+   "spoiler": 0
+  },
+  {
+   "title": "Outriders and Sentinels",
+   "body": "The Horde's fighters here are the Warsong Outriders, supplied from Mor'shan Base Camp on the Barrens' northern edge, where Kelm Hargunth keeps them armed and fed. Against them stand the Silverwing Sentinels of Silverwing Hold, night elf warriors sworn to drive every invader from Ashenvale, supplied by Illiyana Moonblaze at Silverwing Grove. Allies of both flock to the gulch: dwarves and humans beside the Sentinels, tauren, trolls and Forsaken beside the Outriders.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Struggle for the Banners",
+   "body": "Each side holds a stronghold at one end of the gulch, the Warsong Mill for the Horde and Silverwing Hold for the night elves, and each keeps its banner there. The battle is a contest of raids: fighters break into the enemy's stronghold, seize its flag and race it back to their own while the defenders hunt them down. Every flag brought home is a blow to the enemy's pride, and the side that captures the most wins the day.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Warsong Gulch?",
+   "aliases": [
+    "what is warsong gulch",
+    "warsong gulch battleground",
+    "wsg"
+   ],
+   "answer": "Warsong Gulch is a battleground in a forested valley between Ashenvale and the Barrens. The Horde's Warsong Outriders and the night elves' Silverwing Sentinels fight there over the Horde's logging of Ashenvale, each side trying to capture the other's flag."
+  },
+  {
+   "q": "Why does the Horde fight in Warsong Gulch?",
+   "aliases": [
+    "horde stakes warsong gulch",
+    "why do the orcs log ashenvale",
+    "warsong outriders reason"
+   ],
+   "answer": "The Horde needs Ashenvale's timber to build and hold its home in Kalimdor. The Warsong clan's mill at the gulch is one of its main sources, and the Outriders defend it so the Horde's camps and walls keep rising."
+  },
+  {
+   "q": "Why do the night elves fight in Warsong Gulch?",
+   "aliases": [
+    "alliance stakes warsong gulch",
+    "why do the sentinels fight",
+    "silverwing sentinels reason"
+   ],
+   "answer": "To the night elves, Ashenvale is a sacred forest they have guarded for ten thousand years, and the Warsong clan once slew the demigod Cenarius there. The Silverwing Sentinels fight to stop the logging and drive the orcs from their woods, and the rest of the Alliance stands with them."
+  },
+  {
+   "q": "Who are the Warsong Outriders?",
+   "aliases": [
+    "warsong outriders",
+    "warsong clan fighters",
+    "kelm hargunth"
+   ],
+   "answer": "The Warsong Outriders are the Horde's fighters in Warsong Gulch, drawn from the Warsong clan once led by Grom Hellscream. They are supplied from Mor'shan Base Camp in the northern Barrens, where Kelm Hargunth equips those who fight for them."
+  },
+  {
+   "q": "Who are the Silverwing Sentinels?",
+   "aliases": [
+    "silverwing sentinels",
+    "silverwing hold",
+    "illiyana moonblaze"
+   ],
+   "answer": "The Silverwing Sentinels are night elf warriors of Silverwing Hold, sworn to drive the Horde out of Ashenvale. Illiyana Moonblaze at Silverwing Grove supplies the Alliance champions who fight beside them in the gulch."
+  },
+  {
+   "q": "How is the battle in Warsong Gulch won?",
+   "aliases": [
+    "warsong gulch objectives",
+    "capture the flag warsong",
+    "how to win warsong gulch"
+   ],
+   "answer": "Each side keeps its flag in its own stronghold. Fighters raid the enemy's base, seize its flag and carry it back to their own while defending their banner, and the side that brings home the most flags wins."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Every log that leaves the Warsong Mill raises a Horde wall somewhere in Kalimdor; holding the gulch keeps the Horde building."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance soldiers fight here for their night elf allies, whose sacred forest falls a tree at a time to the Warsong clan's axes."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "These woods have known kaldorei feet for ten thousand years. Every orc driven from the gulch is a piece of Ashenvale won back."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The Warsong clan is Grom Hellscream's own, and the gulch is where his warriors still earn their name, axe in hand against the Sentinels."
+  }
+ ],
+ "keywords": [
+  "warsong gulch",
+  "battleground",
+  "warsong outriders",
+  "silverwing sentinels",
+  "silverwing hold",
+  "warsong mill",
+  "flag",
+  "lumber",
+  "ashenvale",
+  "grom hellscream"
+ ],
+ "related": [
+  "topic:warsong-clan",
+  "topic:sentinels",
+  "zone:ashenvale",
+  "zone:barrens",
+  "subzone:silverwing-grove",
+  "subzone:warsong-lumber-camp",
+  "npc:kelm-hargunth",
+  "npc:illiyana-moonblaze"
+ ],
+ "attribution": [
+  "Warsong clan",
+  "Sentinels"
+ ]
+}

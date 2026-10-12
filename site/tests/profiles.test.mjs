@@ -119,7 +119,8 @@ test("a public profile: everything on the page, the account's links but never it
   assert.match(html, /<a href="https:\/\/twitch\.tv\/aelric" rel="nofollow ugc noopener">twitch\.tv<\/a>/);
   assert.ok(!html.includes("javascript:"));
   assert.ok(!html.includes("Real Name") && !html.includes("@example.com"), "no account name or email");
-  for (const bit of ["Aelric's story", "The road so far", "<li>Teldrassil</li><li>Darnassus</li><li>Darkshore</li>",
+  for (const bit of ["Aelric's story", "The road so far", 'Teldrassil<span aria-hidden="true"> &rarr; </span>Darnassus',
+    'id="ch-1"', "Chapter 1", 'href="#numbers"', "Aelric by the numbers",
     "Bosses defeated", "Edwin VanCleef", "Dungeons", "The Deadmines", "Notable kills", "Mother Fang", "Most fought",
     "Murloc Forager", "Best finds", '<span class="q3">Cruel Barb</span>', "Honored with Darnassus", "Herbalism",
     "<cite>The Seven Dragons</cite>", "This could be your page", 'href="/download/installer?src=profile"','href="/account#profile"']) {
@@ -179,7 +180,7 @@ test("View as a visitor: the owner gets exactly the visitor's page, plus a bar b
   // The page is the visitor's: the same <main> once the bar is gone, and the same everything else.
   assert.equal(withoutBar(preview.html), main(visitor.html).replace(/\s+/g, " "));
   assert.equal(signedOut(preview.html).replace(main(preview.html), ""), visitor.html.replace(main(visitor.html), ""));
-  assert.ok(preview.html.includes("This could be your page") && preview.html.includes("pf-head-share"));
+  assert.ok(preview.html.includes("This could be your page") && preview.html.includes("data-share"));
   assert.ok(!preview.html.includes('id="pf-owner"'));
 
   // ?pictures=1 stays on both ways.
@@ -390,6 +391,21 @@ test("bad pastes and bad requests get plain answers", async () => {
   assert.equal((await api("me", { method: "GET" })).status, 401);
   assert.equal((await api("me", { cookie: me.cookie, method: "GET" })).body.profile, null);
   assert.equal((await view("<script>")).status, 404);
+});
+
+test("a land on the chart leads to the chapter it was first reached in, on the same page (Mike 10/11)", async () => {
+  const me = await signIn("aelric");
+  const res = await api("import", { cookie: me.cookie, body: { record: RECORD } });
+  await api("settings", { cookie: me.cookie, body: { public: true } });
+  const { html } = await view(res.body.profile.handle);
+  const stops = [...html.matchAll(/<a class="pf-ch-stop[^"]*" href="#ch-(\d+)" data-land="[^"]+" data-ch="([^"]+)" data-x="\d+" data-y="\d+" data-name="([^"]+)"/g)];
+  assert.ok(stops.length >= 6, "the chart's stops, each knowing its chapters");
+  for (const [, n, chs, name] of stops) {
+    assert.equal(Math.min(...chs.trim().split(" ").map(Number)), Number(n), `${name} links its first chapter`);
+    const chapter = html.split(`id="ch-${n}"`)[1]?.split("</article>")[0] || "";
+    assert.ok(chapter.includes(name), `chapter ${n} names ${name}`);
+  }
+  assert.ok(!/pf-pick|On the map|data-view=/.test(html), "nothing switches to another view");
 });
 
 test("names from the record are escaped on the page", async () => {

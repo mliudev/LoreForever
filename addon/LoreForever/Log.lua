@@ -51,17 +51,37 @@ end
 
 -- Usage counts (LOR-413) --------------------------------------------------------------------------------------------
 -- How often each feature gets used, per day, so Mike can see what players actually use. Only numbers: no text, no
--- names, no entry or quest ids. The companion app sends them with the profile sync, and only for players who keep
--- their profile up to date (site/public/privacy.html). Nothing shows in game.
+-- names, no entry or quest ids. The companion app sends them with the profile sync, for players who keep their
+-- profile up to date, and since LOR-435 with its daily check-in, anonymously, unless the player turns that off
+-- (site/public/privacy.html). The add-on itself sends nothing. Nothing shows in game.
 --   LoreForeverDB.usage["2026-10-10"] = { play = { zone = 3, answer = 1 }, done = { zone = 2 }, ask = 2, faq = 1,
---     live = 0, panel = 4, journey = 1, pic = 1 }
+--     live = 0, panel = 4, journey = 1, pic = 1, autoplay = { zone = 2 }, autodone = { zone = 1 },
+--     userplay = { zone = 1, answer = 1 }, userdone = { zone = 1 } }
 -- play: narrations started from their beginning (a resume isn't a new start); done: heard to the end, by kind.
+-- LOR-420: each start also counts as autoplay (it started by itself: an arrival, a flight, a quest giver's or a book's
+-- page) or userplay (the player started it: a play button, Listen, the Narrate key, the playlist), and its end as
+-- autodone or userdone, so the two can have their own heard-to-the-end rates. A narration resumed from a session
+-- before this has neither; play and done still count everything, as before.
+-- LOR-435: the companion also sends these with its daily check-in, with no account (companion/lore_companion/usage.py,
+-- site/lib/featureuse.js KEYS; keep the names in step), unless the player turns off "Share anonymous usage counts":
+--   tab = { here, narrations, journey, history, queue }   panel pages opened by hand (narrations: the Library)
+--   asked = { typed, slash, hover, quest, next, ... }      questions, by how they were asked (the report code's VIA)
+--   pl = { add, quest, here, play, next, prev, jump }      playlist use
+--   map, mapclick                                          Bigger map opened, a moment opened from a map's marker
+--   err                                                    Lore Forever's own Lua errors (Errors.lua), the number only
+--   login, min                                             game sessions, and minutes in game (counted at logout)
+--   lv, voice, lang, client, on, off = { <kind> = 1 }      categories, not counts (Log.Mark): the level range (by tens),
+--                                                          the voice (default, female, edition, other, none), the
+--                                                          language shown and the game's, and which of KEY_SETTINGS
+--                                                          were on or off that day
 local USAGE_DAYS = 30
+local MAX_KINDS = 24             -- kinds in one count; a new one past that counts as "other"
+local SESSION_GAP = 300          -- seconds: a login this soon after the last logout (a /reload) isn't a new session
 local DAY = "^%d%d%d%d%-%d%d%-%d%d$"
-local KINDS = { zone = "zone", subzone = "place", npc = "person", quest = "quest", topic = "topic" }
+local KINDS = { zone = "zone", subzone = "place", npc = "person", quest = "quest", topic = "topic", booktext = "book" }
 
 -- A recording's kind from its key: zone, place, person, quest (a quest's lore), dialogue (a quest giver's words),
--- answer (a question's recorded answer), topic or other.
+-- answer (a question's recorded answer), topic, book (a book's page: booktext:<title>#<page>) or other.
 function Log.NarrationKind(key)
   if type(key) ~= "string" then return "other" end
   if key:find("#faq%d+$") then return "answer" end
@@ -87,19 +107,111 @@ local function usageToday()
   return u[today]
 end
 
--- Count one use of what (a kind for play and done). Never lets a counting error reach the feature it counts.
-function Log.Use(what, kind)
+-- Today's table of kinds for what, and the kind to count there: "other" when kind is new and MAX_KINDS are there.
+local function kindsOf(d, what, kind)
+  local by = type(d[what]) == "table" and d[what] or {}
+  d[what] = by
+  if by[kind] == nil then
+    local n = 0
+    for _ in pairs(by) do n = n + 1 end
+    if n >= MAX_KINDS then return by, "other" end
+  end
+  return by, kind
+end
+
+-- Count one use of what (a kind for play and done), or n of them. Never lets a counting error reach the feature it
+-- counts.
+function Log.Use(what, kind, n)
   pcall(function()
     local d = usageToday()
     if not d then return end
+    n = tonumber(n) or 1
     if kind then
-      local by = type(d[what]) == "table" and d[what] or {}
-      d[what] = by
-      by[kind] = (tonumber(by[kind]) or 0) + 1
+      local by, k = kindsOf(d, what, tostring(kind))
+      by[k] = (tonumber(by[k]) or 0) + n
     else
-      d[what] = (tonumber(d[what]) or 0) + 1
+      d[what] = (tonumber(d[what]) or 0) + n
     end
   end)
+end
+
+-- Note a category for today (LOR-435): what = { kind = 1 }, however often it's noted.
+function Log.Mark(what, kind)
+  pcall(function()
+    local d = usageToday()
+    if not (d and kind) then return end
+    local by, k = kindsOf(d, what, tostring(kind))
+    by[k] = 1
+  end)
+end
+
+-- How a question was asked, as a kind of "asked" (anything unexpected: "other").
+local ASKED = { typed = true, slash = true, hover = true, quest = true, next = true, complete = true, primer = true,
+  link = true }
+function Log.Asked(via)
+  Log.Use("asked", ASKED[via or ""] and via or "other")
+end
+
+-- The add-on's key settings, counted as on or off each day (Options.DEFAULTS names).
+local KEY_SETTINGS = { "autoZone", "onDemand", "narrateFlights", "questDialogue", "readBooks", "skipHeard", "journey",
+  "automaticPictures", "capture", "liveStrip", "minimap", "floatPlayer", "zoneNudge", "unitTooltips", "showSpoilers",
+  "voiceMatchRace", "tips" }
+local LOCALES = { enUS = true, deDE = true, frFR = true, esES = true, esMX = true, ptBR = true, itIT = true, ruRU = true,
+  ukUA = true, koKR = true, zhCN = true, zhTW = true }
+local function localeKind(l)
+  if l == "enGB" then return "enUS" end
+  return LOCALES[l or ""] and l or "other"
+end
+
+-- The voice that plays first, as a category: never a pack's or a person's name.
+local function voiceKind()
+  local v = ns.Voice and ns.Voice.Current and ns.Voice.Current()
+  if type(v) ~= "string" then return nil end
+  if v == "none" then return "none" end
+  if ns.lang and ns.lang.edition then return "edition" end
+  if v == "auto" or v:find("^LoreForever_Voice_Default") then return "default" end
+  if v:find("^LoreForever_Voice_Female") then return "female" end
+  return "other"
+end
+
+-- Today's level range, voice, languages and key settings (at login and logout).
+function Log.Snapshot()
+  pcall(function()
+    local level = UnitLevel and tonumber(UnitLevel("player"))
+    if level and level > 0 then Log.Mark("lv", tostring(math.min(60, math.floor(level / 10) * 10))) end
+    local ok, voice = pcall(voiceKind)
+    if ok and voice then Log.Mark("voice", voice) end
+    Log.Mark("lang", localeKind(ns.readingLocale or (ns.lang and ns.lang.locale)))
+    Log.Mark("client", localeKind(GetLocale and GetLocale()))
+    local s = type(LoreForeverDB.settings) == "table" and LoreForeverDB.settings or {}
+    for _, k in ipairs(KEY_SETTINGS) do
+      if type(s[k]) == "boolean" then Log.Mark(s[k] and "on" or "off", k) end
+    end
+  end)
+end
+
+-- PLAYER_LOGIN (Core.lua, last): a new game session unless the last logout was moments ago (a /reload), then today's
+-- snapshot. Minutes in game are added at logout (Log.SessionEnd): SavedVariables are only written then anyway.
+function Log.SessionStart()
+  Log.started = time()
+  pcall(function()
+    local last = tonumber(LoreForeverDB.usageLogout)
+    if not (last and Log.started - last >= 0 and Log.started - last < SESSION_GAP) then Log.Use("login") end
+  end)
+  Log.Snapshot()
+end
+
+-- PLAYER_LOGOUT (also on /reload): the minutes since this load, into today's counts.
+function Log.SessionEnd()
+  pcall(function()
+    local now = time()
+    local secs = Log.started and now - Log.started or 0
+    local minutes = math.floor(secs / 60 + 0.5)
+    if minutes > 0 and minutes <= 1440 then Log.Use("min", nil, minutes) end
+    LoreForeverDB.usageLogout = now
+    Log.started = now
+  end)
+  Log.Snapshot()
 end
 
 local function compactCtx(ctx)

@@ -1047,7 +1047,7 @@ local function snapshot()
     settings = copy(LoreForeverDB.settings), window = copy(LoreForeverDB.window), heard = copy(heard()),
     usage = copy(LoreForeverDB.usage),
     questions = list(LoreForeverDB.questions), lastLog = UI.lastLog,
-    recapped = ch and ch.recapped, lastRead = ch and ch.lastRead,
+    recapped = ch and ch.recapped,
     shown = UI.frame:IsShown(), tab = UI.tab, queue = UI.plView:IsShown(), history = UI.historyFrame:IsShown(),
     journey = J.IsShown(), msgs = list(UI.msgs), blocks = list(UI.blocks), welcomeFor = UI.welcomeFor,
     nav = { keys = list(UI.nav.keys), pos = UI.nav.pos }, lastKey = UI.engine.lastKey, race = UI.engine.race,
@@ -1109,7 +1109,7 @@ local function putBack()
   end
   -- Saved data: the journey's welcome-back state, the logged questions, settings, the window, what was heard.
   local ch = charRecord()
-  if ch then ch.recapped, ch.lastRead = st.recapped, st.lastRead end
+  if ch then ch.recapped = st.recapped end
   LoreForeverDB.questions = list(st.questions)
   local s = LoreForeverDB.settings
   -- Opening the panel and its pages marks this version's What's new seen (its card, the "New" marks; WhatsNew.lua).

@@ -18,6 +18,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/downloads.css?v=20261011c">
 <script src="/header.js" defer></script>
 </head>
 <body>
@@ -36,58 +37,60 @@
   </nav>
 </header>
 
-<!-- Downloads: compact add-on install choices and one table row per language/narrator. The server uses the
-     published voices and translations catalogs; voices-page.js enhances filters, samples and measured asset sizes.
-     Native install details retain working component links when a consolidated ZIP is unpublished. Preserve
-     #addon, #voices, #languages, #install, #record and each narrator/pack anchor. -->
+<!-- Downloads (LOR-437): one primary action, then the extras as tiles. Top: Download for Windows (Setup), CurseForge,
+     the ZIP as a small link, and "Comes with it" (dl-comes). Then "Add more" (dl-packs): a tile per extra pack with
+     lines to hear and a "Get it" fold, and "Your language" with every pack in one language. Both come from
+     public/data/packs.json through lib/packs.js; /js/packs.js plays the examples and runs the language picker.
+     Folded at the bottom: install help and every file by language and voice (dl-voices, lib/downloads.js, with
+     filters, samples, likes and one-ZIP bundles from voices-page.js). Preserve #addon, #installer, #zip,
+     #curseforge, #voices (the extras), #packs, #languages, #install, #record, each voice row's anchor, and the lore
+     pages' #pack-<folder> and #packs-<tile>. -->
 <main class="wrap dl-page">
-  <h1>Downloads</h1>
-  <p class="pitch">Start with the add-on, then choose any extra recordings. All free, with no account needed.</p>
-
-  <section class="dl-section dl-section-first" id="addon" aria-labelledby="addon-title">
-    <h2 id="addon-title">Install the add-on</h2>
-    <p class="dl-intro"><!-- dl-included --></p>
-    <p class="dl-release">Release version: <span data-latest-version>Version unavailable</span></p>
-    <ul class="dl-files dl-main-options dl-card">
-      <li class="dl-file dl-recommended" id="installer">
-        <div class="dl-file-main">
-          <p class="dl-file-name">Windows installer <span class="tag">Recommended</span></p>
-          <p class="dl-file-what">Finds your WoW folder and can install the optional Windows companion for live answers and profile updates.</p>
-          <p class="dl-file-meta">Download size: <span class="dl-size" data-asset="latest:LoreForever-Setup.exe">Size unavailable</span></p>
-        </div>
-        <a class="btn-download dl-get dl-link" href="/download/installer" aria-label="Download the Windows installer">Download for Windows</a>
-      </li>
-      <li class="dl-file" id="zip">
-        <div class="dl-file-main">
-          <p class="dl-file-name">Manual ZIP</p>
-          <p class="dl-file-what">Unzip into your WoW Interface\AddOns folder.</p>
-          <p class="dl-file-meta">Download size: <span class="dl-size" data-asset="latest:LoreForever.zip">Size unavailable</span></p>
-        </div>
-        <a class="btn-small dl-get dl-link" href="/download/zip" aria-label="Download the Lore Forever ZIP">Get ZIP</a>
-      </li>
-      <li class="dl-file" id="curseforge">
-        <div class="dl-file-main">
-          <p class="dl-file-name">CurseForge</p>
-          <p class="dl-file-what">Install and keep Lore Forever updated with the CurseForge app.</p>
-        </div>
-        <a class="btn-small dl-get dl-link" href="https://www.curseforge.com/wow/addons/lore-forever"
+  <section class="dl-hero" id="addon" aria-labelledby="addon-title">
+    <div class="dl-hero-main">
+      <h1 id="addon-title">Download Lore Forever</h1>
+      <p class="pitch">Every zone tells its story as you arrive. Free, no account.</p>
+      <div class="dl-cta">
+        <a class="btn-download dl-link" id="installer" href="/download/installer" aria-label="Download the Windows installer">Download for Windows</a>
+        <a class="btn-download btn-download-alt dl-link" id="curseforge" href="https://www.curseforge.com/wow/addons/lore-forever"
           aria-label="Install Lore Forever with CurseForge">Get on CurseForge</a>
-      </li>
-    </ul>
-    <p class="dl-size-note">Sizes are for the compressed download, shown in MB or GB, not installed disk usage.</p>
+      </div>
+      <p class="dl-cta-note">Setup <span class="dl-size" data-asset="latest:LoreForever-Setup.exe">Size unavailable</span>
+        · <span data-latest-version>Version unavailable</span>
+        · <a class="dl-link" id="zip" href="/download/zip" aria-label="Download the Lore Forever ZIP">Manual ZIP</a>
+        <span class="dl-size" data-asset="latest:LoreForever.zip">Size unavailable</span>
+        · On a Mac? Use CurseForge or the ZIP.</p>
+    </div>
+    <!-- dl-comes -->
   </section>
 
   <section class="dl-section" id="voices" aria-labelledby="voices-title">
-    <h2 id="voices-title">Choose a voice</h2>
-    <p class="dl-intro">Male English recordings come with the add-on. Each extra voice comes with its matching text language.
-      Coverage varies; entries without a recording stay as text.</p>
-    <p class="dl-intro">Install packs with CurseForge where offered, or unzip a manual ZIP next to Lore Forever and type
-      <code>/reload</code> in game. <a href="#install">Install help</a></p>
-    <p class="dl-intro">Lore Forever speaks its own stories and recorded answers. Quest dialogue is off by default
-      and its packs are separate optional downloads. To hear quest givers through Lore Forever, install a Quest
-      Dialogue pack and turn on <strong>Speak quest dialogue</strong> in Options. Skip these packs if Spoken,
-      Chatty Little NPC or another add-on already speaks your quests. <code>/lore autoplay</code> only changes
-      narration as you arrive.</p>
+    <span id="packs"></span>
+    <h2 id="voices-title">Add more, if you like</h2>
+    <p class="dl-intro">Free and optional. Press &#9654; to hear one.</p>
+    <div class="pk-tiles">
+    <!-- dl-packs -->
+    </div>
+  </section>
+
+  <details class="dl-section dl-howto" id="install">
+    <summary><h2>How to install an extra pack</h2></summary>
+    <ol class="steps dl-steps">
+      <li><strong>Unzip it into your AddOns folder</strong>,
+        <code>World of Warcraft\_classic_beta_\Interface\AddOns</code>, so it sits next to the
+        <code>LoreForever</code> folder, not inside it.</li>
+      <li><strong>Type <code>/reload</code> in game</strong>, or start the game if it's closed.</li>
+      <li><strong>Pick the voice</strong> under Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration
+        voices, or type <code>/lore voice</code>. Alliance and Horde lands play by themselves.</li>
+    </ol>
+    <p class="dl-intro">CurseForge and Setup do all of this for you. Not showing up? Watch for a doubled folder like
+      <code>AddOns\LoreForever_Voice_Female\LoreForever_Voice_Female\</code>, and on the character screen tick
+      AddOns &rsaquo; <strong>Load out of date AddOns</strong>. A voice that hasn't recorded a story hands it to the
+      next voice in your order. Still stuck? <a href="/discord?src=voices">Ask on Discord</a>.</p>
+  </details>
+
+  <details class="dl-section dl-howto dl-every" id="all-files">
+    <summary><h2>Every file, by language and voice</h2></summary>
     <fieldset class="dl-filters" id="recording-filters" hidden>
       <legend>Find recordings</legend>
       <label for="recording-language">Language<select id="recording-language"><option value="">All languages</option></select></label>
@@ -98,31 +101,9 @@
     <div class="dl-table-wrap"><table class="dl-table"><caption class="sr-only">Available language and narrator choices</caption><thead><tr><th scope="col">Language</th><th scope="col">Voice</th><th scope="col">Recordings</th><th scope="col">Download size</th><th scope="col"><span class="sr-only">Install</span></th></tr></thead><tbody>
     <!-- dl-voices -->
     </tbody></table></div>
-    <p class="dl-intro">Pick a voice in game under Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration
-      voices, or type <code>/lore voice</code>. Install as many as you like and put them in your order.</p>
-  </section>
-
-  <details class="dl-section dl-howto" id="install">
-    <summary><h2>How to install a voice</h2></summary>
-    <ol class="steps dl-steps">
-      <li><strong>Unzip it into your AddOns folder</strong>,
-        <code>World of Warcraft\_classic_beta_\Interface\AddOns</code>, so it sits next to the
-        <code>LoreForever</code> folder, not inside it.</li>
-      <li><strong>Type <code>/reload</code> in game</strong>, or start the game if it's closed.</li>
-      <li><strong>Pick the voice</strong> under Options &rsaquo; AddOns &rsaquo; Lore Forever &rsaquo; Narration
-        voices. Alliance and Horde lands play by themselves.</li>
-    </ol>
-    <p class="dl-intro">Not showing up? Watch for a doubled folder like
-      <code>AddOns\LoreForever_Voice_Female\LoreForever_Voice_Female\</code>, and on the character screen tick
-      AddOns &rsaquo; <strong>Load out of date AddOns</strong>. A voice that hasn't recorded a story hands it to the
-      next voice in your order. Still stuck? <a href="/discord?src=voices">Ask on Discord</a>.</p>
+    <p class="dl-intro">Install as many voices as you like and put them in your order. Sizes are the compressed
+      download, not disk space.</p>
   </details>
-
-  <section class="dl-section" id="languages" aria-labelledby="languages-title">
-    <h2 id="languages-title">Text language</h2>
-    <!-- dl-languages -->
-    <p class="dl-intro">Missing yours? <a href="/translate">Help translate</a>.</p>
-  </section>
 </main>
 
 <footer class="wrap foot">
@@ -139,6 +120,7 @@
 </footer>
 
 <script src="/voices-page.js" defer></script>
+<script src="/js/packs.js?v=20261011c" defer></script>
 <script src="/voices/player.js" defer></script>
 </body>
 </html>

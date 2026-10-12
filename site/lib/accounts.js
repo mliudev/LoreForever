@@ -14,14 +14,18 @@ import { forgetUser as forgetContributor } from "./contribute.js";
 import { RECORD_ONLY } from "./donate.js";
 import { HISTORY_SETUP, HISTORY_BASE_SETUP } from "./history-schema.js";
 import { USAGE_SETUP } from "./usage.js";
+import { ACTIVITY_SETUP, SEEN_BACKFILL, markSeen, utcDay } from "./activity.js";
 
 const SETUP = [
   ...HISTORY_BASE_SETUP,
   // Per-day usage counts the companion sends with the profile sync (lib/usage.js, LOR-413).
   ...USAGE_SETUP,
+  // The days each account was signed in and its site downloads made while signed in (lib/activity.js, LOR-304, LOR-8).
+  ...ACTIVITY_SETUP,
+  // last_seen: the last UTC day it was signed in (lib/activity.js); setup adds it to a table from before.
   `CREATE TABLE IF NOT EXISTS users (
     id TEXT PRIMARY KEY, email TEXT UNIQUE, google_sub TEXT UNIQUE, display_name TEXT, links TEXT,
-    show_public INTEGER NOT NULL DEFAULT 1, created TEXT NOT NULL)`,
+    show_public INTEGER NOT NULL DEFAULT 1, created TEXT NOT NULL, last_seen TEXT)`,
   `CREATE TABLE IF NOT EXISTS sessions (
     token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL, created TEXT NOT NULL, expires TEXT NOT NULL)`,
   // Results too costly to work out on every view (lib/cache.js), as JSON. built: Unix seconds.
@@ -177,6 +181,19 @@ export async function setup(env) {
         columns.add(column);
       }
     }
+    // users.last_seen (LOR-304) is for /admin only, so a failure here never stops accounts working: sign-in days just
+    // aren't kept. The Worker that adds the column fills it in from the sessions kept (lib/activity.js SEEN_BACKFILL).
+    if (existing.has("users")) {
+      const columns = new Set((await env.DB.prepare("PRAGMA table_info(users)").all()).results.map(row => row.name));
+      if (!columns.has("last_seen")) {
+        let added = false;
+        try { await env.DB.prepare("ALTER TABLE users ADD COLUMN last_seen TEXT").run(); added = true; }
+        catch (error) { /* another cold Worker added it, or it can't be added: carry on either way */ }
+        if (added) {
+          try { await env.DB.batch(SEEN_BACKFILL.map(sql => env.DB.prepare(sql))); } catch (error) { /* counted from now */ }
+        }
+      }
+    }
     const version = await env.DB.prepare('SELECT version FROM history_schema WHERE version = 3').first();
     ready.set(env.DB, { history: version?.version === 3 });
   })();
@@ -222,14 +239,17 @@ const cookie = (request, value, maxAge) =>
   (new URL(request.url).protocol === "https:" ? "; Secure" : "");
 
 // The signed-in user for this request, or null. session_expires: when this sign-in ends (the site header stops
-// trusting what it remembers then, public/header.js).
+// trusting what it remembers then, public/header.js). The first one each day also notes the day as one the account
+// was signed in on (lib/activity.js markSeen, LOR-304), which never fails this.
 export async function currentUser(env, request) {
   const token = cookieValue(request, COOKIE);
   if (!env.DB || !/^[0-9a-f]{64}$/.test(token)) return null;
   await setup(env);
-  return env.DB.prepare(
+  const user = await env.DB.prepare(
     "SELECT u.*, s.expires AS session_expires FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ? AND s.expires > ?"
   ).bind(await sha256(token), new Date().toISOString()).first();
+  if (user && user.last_seen !== utcDay()) await markSeen(env, user.id, user.last_seen);
+  return user;
 }
 
 // Starts a session for the user; returns the Set-Cookie header value.
@@ -241,6 +261,7 @@ export async function startSession(env, request, userId) {
     env.DB.prepare("INSERT INTO sessions (token_hash, user_id, created, expires) VALUES (?, ?, ?, ?)")
       .bind(await sha256(token), userId, now, later(SESSION_DAYS * 86400e3)),
   ]);
+  await markSeen(env, userId, null);   // a sign-in (LOR-304)
   return cookie(request, token, SESSION_DAYS * 86400);
 }
 
@@ -306,6 +327,11 @@ const USER_DATA = [
   ["DELETE FROM history_tombstones WHERE user_id = ?", u => u.id],
   ["DELETE FROM devices WHERE user_id = ?", u => u.id],
   ["DELETE FROM usage_days WHERE user_id = ?", u => u.id],
+  // The days they were signed in and their downloads made while signed in (lib/activity.js); the anonymous download
+  // counts stay, with nothing about who.
+  ["DELETE FROM signin_days WHERE user_id = ?", u => u.id],
+  ["DELETE FROM download_accounts WHERE user_id = ?", u => u.id],
+  ["DELETE FROM excluded_accounts WHERE user_id = ?", u => u.id],
   ["DELETE FROM device_links WHERE user_id = ?", u => u.id],
   ["DELETE FROM clip_reports WHERE user_id = ?", u => u.id],
   ["DELETE FROM users WHERE id = ?", u => u.id],

@@ -1,8 +1,8 @@
 // The picture book (Mike, 2026-10-05; the "pictures" feature, lib/features.js): pictures a player takes in game with
 // the picture key, which the companion app puts on their profile (/u/<handle>), newest first, each with where and when
 // it was taken and the caption the companion wrote for it. API in functions/api/profile/pictures/ (index.js: upload,
-// list, remove; report.js), the images in functions/pictures/[file].js, the section on the page here (picturesSection,
-// shown by lib/profiles.js; public/js/pictures.js opens a picture large). Kept outside functions/ so Pages doesn't
+// list, remove; report.js), the images in functions/pictures/[file].js, the pictures on the page here (pictureLink in their
+// chapters, lib/chapters.js; public/js/pictures.js opens a picture large in pictureViewer). Kept outside functions/ so Pages doesn't
 // route it.
 //
 // The companion sends each picture once (multipart: `meta` JSON and `image`, its web copy), keyed on its own id (cid):
@@ -28,7 +28,7 @@ export const PER_MINUTE = 30;           // a companion catching up on a backlog 
 export const PER_HOUR = 600;
 export const REPORTS_TO_HIDE = 3;
 export const REPORTS_PER_DAY = 30;      // per sender (the day's IP hash)
-export const SHOWN = 48;                // the page shows the newest this many; the rest are folded
+export const SHOWN = 48;                // pictures not in a chapter: the newest this many shown, the rest a "+N" away
 const R2_PREFIX = "pictures/";
 const OLDEST = Date.parse("2004-11-23T00:00:00Z") / 1000;   // nothing was taken in WoW before it came out
 
@@ -69,7 +69,7 @@ export function readMeta(raw) {
   if (!cid) return { error: "The picture needs its id (cid)." };
   const has = k => Object.hasOwn(m, k);
   const fields = {};
-  // Optional exact shot identity from Sam. Never infer it from a screenshot's clock or place.
+  // Optional exact shot identity from the companion. Never infer it from a screenshot's clock or place.
   if (has("character") || has("event_t")) {
     if (!(typeof m.character === "string" && /^[a-f0-9]{64}$/.test(m.character)) ||
         !Number.isInteger(m.event_t) || m.event_t < OLDEST || m.event_t > Math.floor(Date.now() / 1000) + 2 * 86400) {
@@ -261,7 +261,7 @@ export async function reportPicture(env, request, id, user) {
   return reply(200, { hidden });
 }
 
-// ---- The section on the profile ----
+// ---- On the profile ----
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 // The day it was taken, on the player's own clock when the companion's journey data says it (tz: minutes from UTC).
@@ -271,46 +271,28 @@ const dayOf = (t, tz) => {
 };
 export const placeOf = r => [...new Set([r.subzone, r.zone].filter(Boolean))].join(", ");
 
-function tile(r, tz) {
+// A picture on the page (Mike 10/11: in the chapter it was taken in, lib/chapters.js), as a link to its image that
+// public/js/pictures.js opens large in the viewer (pictureViewer), with what the viewer says about it. tz: the player's
+// offset from UTC in minutes. hidden: kept for the viewer's arrows but not shown; more: the number of pictures after
+// this one that aren't shown ("+3").
+export function pictureLink(r, { tz = 0, hidden = false, more = 0 } = {}) {
+  const off = Number.isInteger(tz) && Math.abs(tz) <= 840 ? tz : 0;
   const place = placeOf(r);
-  const when = [dayOf(r.t, tz), r.lv ? `Level ${r.lv}` : ""].filter(Boolean).map(escape).join(" &middot; ");
-  const w = r.w ? ` width="${r.w}"` : "", h = r.h ? ` height="${r.h}"` : "";
-  return `<li class="pb-item" id="p-${escape(r.id)}">
-        <a class="pb-shot" href="${escape(pictureUrl(r))}"><img src="${escape(pictureUrl(r))}"${w}${h} alt="${escape(r.caption || place || "A picture from the journey")}" loading="lazy" decoding="async"></a>
-        ${place ? `<p class="pb-where">${escape(place)}</p>` : ""}
-        <p class="pb-when">${when}</p>
-        ${r.caption ? `<p class="pb-cap">${escape(r.caption)}</p>` : ""}
-      </li>`;
+  const when = [dayOf(r.t, off), r.lv ? `Level ${r.lv}` : ""].filter(Boolean).join(" · ");
+  const w = Number(r.w) || 1920, h = Number(r.h) || 1080;
+  return `<a class="pf-picture${more ? " pf-picture-more" : ""}" href="${escape(pictureUrl(r))}" data-pb-target="${escape(r.id)}" ` +
+    `data-where="${escape(place)}" data-when="${escape(when)}"${r.caption ? ` data-cap="${escape(r.caption)}"` : ""}${hidden ? " hidden" : ""} ` +
+    `aria-label="${escape(more ? `${more} more pictures` : r.caption || place || "Open journey picture")}">` +
+    `<img src="${escape(pictureUrl(r))}" width="${w}" height="${h}" alt="${escape(r.caption || place || "A picture from the journey")}" loading="lazy" decoding="async">` +
+    `${more ? `<span class="pf-picture-n" aria-hidden="true">+${more}</span>` : ""}</a>`;
 }
 
-// The "Picture book" section of /u/<handle>: the pictures (not hidden; listPictures), newest first, the newest SHOWN
-// open and the rest folded, and the dialog public/js/pictures.js shows one in. owner: the viewer owns the profile
-// (they can remove pictures; everyone else can report one). tz: the player's offset from UTC in minutes. Nothing for
-// a visitor when there are no pictures; a line for the owner.
-export function picturesSection(list, { owner = false, tz = 0 } = {}) {
-  if (!list?.length && !owner) return "";
-  const head = `<section class="vp-section pb" id="pictures" aria-labelledby="pictures-title">
-    <h2 id="pictures-title">Picture book</h2>`;
-  if (!list?.length) {
-    return `${head}
-    <p class="vp-note">No pictures yet. In game, take one with the Take a journey picture key (or <code>/lore picture</code>),
-    and the companion app puts it here when its Picture book is on.</p>
-  </section>`;
-  }
-  const off = Number.isInteger(tz) && Math.abs(tz) <= 840 ? tz : 0;
-  const open = list.slice(0, SHOWN), folded = list.slice(SHOWN);
+// The viewer a picture opens in (public/js/pictures.js): the owner can remove it from their profile, anyone else can
+// report it.
+export function pictureViewer({ owner = false } = {}) {
   const act = owner ? '<button class="pf-del" type="button" data-pb="remove">Remove from my profile</button>'
     : '<button class="pf-del" type="button" data-pb="report">Report this picture</button>';
-  return `${head}
-    <ul class="pb-grid">
-      ${open.map(r => tile(r, off)).join("\n      ")}
-    </ul>${folded.length ? `
-    <details class="pf-older pb-older"><summary>Older pictures (${folded.length})</summary>
-    <ul class="pb-grid">
-      ${folded.map(r => tile(r, off)).join("\n      ")}
-    </ul>
-    </details>` : ""}
-    <dialog class="pb-dlg" id="pb-view" aria-label="Picture">
+  return `<dialog class="pb-dlg" id="pb-view" aria-label="Picture">
       <figure>
         <img class="pb-big" alt="">
         <figcaption><p class="pb-where"></p><p class="pb-when"></p><p class="pb-cap"></p></figcaption>
@@ -322,6 +304,23 @@ export function picturesSection(list, { owner = false, tz = 0 } = {}) {
         <button class="pb-x" type="button" data-pb="close" aria-label="Close">&times;</button>
       </div>
       <p class="fb-status pb-status" role="status" hidden></p>
-    </dialog>
+    </dialog>`;
+}
+
+// Pictures that have no chapter yet (taken by another character, or before this character's moments with times
+// synced), after the chapters, newest first: the newest SHOWN, the rest a "+N" away. For the owner without any
+// pictures, how to add some.
+export function morePictures(list, { owner = false, tz = 0, any = false } = {}) {
+  if (!list.length) {
+    return owner && !any ? `<section class="pf-more-pics" id="pictures" aria-labelledby="pictures-title">
+    <h3 id="pictures-title">Pictures</h3>
+    <p class="vp-note">No pictures yet. In game, take one with the Take a journey picture key (or <code>/lore picture</code>),
+    and the companion app puts it in the chapter you took it in when its Picture book is on. Only you see this note.</p>
+  </section>` : "";
+  }
+  return `<section class="pf-more-pics" id="pictures" aria-labelledby="pictures-title">
+    <h3 id="pictures-title">${any ? "More pictures" : "Pictures"}</h3>
+    ${any ? '<p class="pf-note">Not in a chapter yet: they join one once the moments around them sync.</p>' : ""}
+    <div class="pf-shots">${list.map((r, i) => pictureLink(r, { tz, hidden: i >= SHOWN, more: i === SHOWN - 1 && list.length > SHOWN ? list.length - SHOWN : 0 })).join("")}</div>
   </section>`;
 }

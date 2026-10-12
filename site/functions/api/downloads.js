@@ -7,6 +7,11 @@
 // The answer is cached at the edge for a minute, so the page can ask every minute and each source is still called
 // at most once a minute per Cloudflare location. A source that fails comes back null and the page fills it in itself.
 //   GET /api/downloads -> {"total": N, "github": N|null, "curseforge": N|null, "curseforgeSource": "api"|"cfwidget"|"shields"|null}
+// After answering, it keeps CurseForge's and GitHub's counts per release when a snapshot is due (lib/stores.js,
+// LOR-421: hourly for the add-on, daily for the narration and language projects), for /admin. That never changes or
+// delays the answer.
+
+import { snapshotStores } from "../../lib/stores.js";
 
 const REPO = "mliudev/LoreForever";
 const CURSEFORGE_PROJECT_ID = "1715510";
@@ -22,18 +27,26 @@ export function shieldsNumber(m) {
   return x ? Math.round(parseFloat(x[1]) * ({ k: 1e3, K: 1e3, m: 1e6, M: 1e6 }[x[2]] || 1)) : null;
 }
 
-export async function githubDownloads(env) {
+// Each release's zip and installer downloads: [{tag, published, downloads}].
+export async function githubReleases(env) {
   const auth = env.GITHUB_TOKEN ? { Authorization: "Bearer " + env.GITHUB_TOKEN } : {};
-  let url = `https://api.github.com/repos/${REPO}/releases?per_page=100`, n = 0;
+  let url = `https://api.github.com/repos/${REPO}/releases?per_page=100`;
+  const out = [];
   for (let page = 0; url && page < 10; page++) {
     const r = await getJson(url, { Accept: "application/vnd.github+json", ...auth });
     for (const rel of await r.json()) {
       if (rel.tag_name === "audio") continue;   // the release build's recordings (LOR-133), not a player download
+      let n = 0;
       for (const a of rel.assets || []) if (/\.(zip|exe)$/i.test(a.name)) n += a.download_count || 0;
+      out.push({ tag: rel.tag_name, published: rel.published_at, downloads: n });
     }
     url = /<([^>]+)>;\s*rel="next"/.exec(r.headers.get("link") || "")?.[1];
   }
-  return n;
+  return out;
+}
+
+export async function githubDownloads(env) {
+  return (await githubReleases(env)).reduce((n, r) => n + r.downloads, 0);
 }
 
 export async function curseforgeDownloads(env) {
@@ -60,9 +73,13 @@ export async function onRequestGet({ request, env, waitUntil }) {
   const hit = cache && await cache.match(key).catch(() => null);
   if (hit) return hit;
 
-  const [github, cf] = await Promise.all([githubDownloads(env).catch(() => null), curseforgeDownloads(env)]);
+  const [releases, cf] = await Promise.all([githubReleases(env).catch(() => null), curseforgeDownloads(env)]);
+  const github = releases && releases.reduce((n, r) => n + r.downloads, 0);
   const res = Response.json({ total: (github || 0) + (cf.curseforge || 0), github, ...cf },
     { headers: { "Cache-Control": `public, max-age=${TTL}` } });
+  const snapshot = snapshotStores(env, { github: releases, getGithub: () => githubReleases(env) })
+    .catch(() => {});   // never the answer's problem
+  if (waitUntil) waitUntil(snapshot); else await snapshot;
   // Only cache a complete answer, so a GitHub or CurseForge hiccup is retried on the next visit.
   if (cache && github != null && cf.curseforge != null) {
     const put = cache.put(key, res.clone()).catch(() => {});

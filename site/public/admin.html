@@ -39,205 +39,396 @@
       &middot; <button type="button" id="signout">Sign out</button></span>
   </div>
 
-  <!-- Gold badges count what's waiting on you (open or saved items); grey ones are plain totals. -->
-  <nav class="ad-nav" id="nav" aria-label="Dashboard sections">
-    <a href="#overview">Overview</a>
-    <a href="#profiles">Profiles</a>
-    <a href="#usage">Usage</a>
-    <a href="#feedback">Feedback <span class="ad-badge" id="n-feedback"></span></a>
-    <a href="#voices">Voices <span class="ad-badge" id="n-voices"></span></a>
-    <a href="#clip-reports">Clip reports <span class="ad-badge quiet" id="n-clip-reports"></span></a>
-    <a href="#translations">Translations <span class="ad-badge" id="n-translations"></span></a>
-    <a href="#edits">Edits <span class="ad-badge" id="n-edits"></span></a>
-    <a href="#contributions">Shared text <span class="ad-badge quiet" id="n-contrib"></span></a>
-    <a href="#contacts">Contacts <span class="ad-badge quiet" id="n-contacts"></span></a>
+  <!-- Four tabs, one shown at a time, by the address's #: #overview, #growth, #players, #community, or a section in one
+       (#funnel, #curseforge, #downloads, #companions; #profiles, #signins, #features, #usage; #feedback, #voices, #clip-reports,
+       #translations, #edits, #contributions, #contacts). Gold badges count what's waiting on you. -->
+  <nav class="ad-nav" id="nav" aria-label="Dashboard tabs">
+    <a href="#overview" data-tab="overview">Overview</a>
+    <a href="#growth" data-tab="growth">Growth</a>
+    <a href="#players" data-tab="players">Players</a>
+    <a href="#community" data-tab="community">Community <span class="ad-badge" id="n-community"></span></a>
   </nav>
 
-  <div class="ad-tiles" id="overview">
-    <a class="ad-panel ad-tile" href="#contacts"><div class="ad-label">Contacts</div><div class="ad-num" id="t-contacts">-</div><div class="ad-sub" id="t-contacts-sub"></div></a>
-    <div class="ad-panel ad-tile"><div class="ad-label">Site downloads</div><div class="ad-num" id="t-dl">-</div><div class="ad-sub" id="t-dl-sub"></div></div>
-    <a class="ad-panel ad-tile" href="#feedback"><div class="ad-label">Open feedback</div><div class="ad-num" id="t-open">-</div><div class="ad-sub" id="t-open-sub"></div></a>
-    <a class="ad-panel ad-tile" href="#feedback"><div class="ad-label">Average rating</div><div class="ad-num" id="t-rating">-</div><div class="ad-sub" id="t-rating-sub"></div></a>
-    <a class="ad-panel ad-tile" href="#voices"><div class="ad-label">Open voice submissions</div><div class="ad-num" id="t-voices">-</div><div class="ad-sub" id="t-voices-sub"></div></a>
-    <div class="ad-panel ad-tile"><div class="ad-label">Paid usage this month</div><div class="ad-num" id="t-stories">-</div><div class="ad-sub" id="t-stories-sub"></div></div>
-  </div>
+  <!-- ===== Overview: the headline numbers, each linking to where it comes from ===== -->
+  <section class="ad-tab" id="tab-overview" data-tab="overview">
+    <div class="ad-tiles">
+      <a class="ad-panel ad-tile" href="#curseforge"><div class="ad-label">Unique CurseForge downloaders</div><div class="ad-num" id="o-unique">-</div><div class="ad-sub" id="o-unique-sub"></div></a>
+      <a class="ad-panel ad-tile" href="#curseforge"><div class="ad-label">Newest release's installs</div><div class="ad-num" id="o-release">-</div><div class="ad-sub" id="o-release-sub"></div></a>
+      <a class="ad-panel ad-tile" href="#profiles"><div class="ad-label">Accounts</div><div class="ad-num" id="o-accounts">-</div><div class="ad-sub" id="o-accounts-sub"></div></a>
+      <a class="ad-panel ad-tile" href="#signins"><div class="ad-label">Returning players</div><div class="ad-num" id="o-returning">-</div><div class="ad-sub" id="o-returning-sub"></div></a>
+      <a class="ad-panel ad-tile" href="#companions"><div class="ad-label">Companion installs in use</div><div class="ad-num" id="o-companions">-</div><div class="ad-sub" id="o-companions-sub"></div></a>
+      <a class="ad-panel ad-tile" href="#community"><div class="ad-label">Open feedback and reports</div><div class="ad-num" id="o-open">-</div><div class="ad-sub" id="o-open-sub"></div></a>
+      <div class="ad-panel ad-tile"><div class="ad-label">Paid usage this month</div><div class="ad-num" id="t-stories">-</div><div class="ad-sub" id="t-stories-sub"></div></div>
+    </div>
+    <div class="ad-charts">
+      <figure class="ad-panel ad-chart" id="c-overview-cf" style="margin:0"><h3>CurseForge downloads of the add-on per day, last 14 days</h3></figure>
+      <figure class="ad-panel ad-chart" id="c-downloads" style="margin:0"><h3>Add-on downloads from this site per day, last 30 days</h3></figure>
+    </div>
+  </section>
 
-  <div class="ad-charts">
-    <figure class="ad-panel ad-chart" id="c-signups" style="margin:0"><h3>New contacts per day, last 30 days</h3></figure>
-    <figure class="ad-panel ad-chart" id="c-downloads" style="margin:0"><h3>Site downloads per day, last 30 days</h3></figure>
-  </div>
+  <!-- ===== Growth: the funnel, CurseForge, site and GitHub downloads, companion installs ===== -->
+  <section class="ad-tab" id="tab-growth" data-tab="growth" hidden>
+    <!-- The funnel (LOR-10, lib/activity.js funnelReport, public/admin-funnel.js). A stage shows a share only when its
+         people are part of the stage it's measured against. Visits aren't in D1: Cloudflare Web Analytics counts them
+         (Pages project > Metrics). Weeks start on Monday, UTC. Admin and test accounts are left out. -->
+    <h2 id="funnel">Funnel</h2>
+    <div class="ad-charts" style="margin-top:0">
+      <div class="ad-panel"><h3>From install to returning player</h3>
+        <ol class="ad-funnel" id="f-stages"></ol>
+        <p class="ad-empty" style="margin-top:10px" id="f-signed"></p></div>
+      <div class="ad-panel"><h3>Coming back, by the week they first signed in</h3>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>First week</th><th>Accounts</th>
+          <th title="Signed in or synced on a later day">Came back</th><th title="Signed in or synced in the week after their first">Week 1</th>
+          <th>Week 2</th><th>Week 3</th><th>Week 4</th></tr></thead><tbody id="f-cohorts"></tbody></table></div>
+        <p class="ad-empty" style="margin-top:10px" id="f-cohort-note"></p></div>
+    </div>
+    <div class="ad-charts">
+      <div class="ad-panel"><h3>Week by week, last 8 weeks</h3>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Week of</th>
+          <th title="Distinct downloaders of the add-on on CurseForge that week (the author dashboard's)">CurseForge unique</th>
+          <th title="Add-on downloads through this site's links">Site downloads</th>
+          <th title="Companion installs that checked in that week, account or not">Companions</th><th>New accounts</th>
+          <th>New profiles</th><th>Signed in</th><th title="Accounts the companion synced for">Synced</th>
+          <th title="Signed in or synced that week, first seen in an earlier week">Back from earlier</th></tr></thead>
+          <tbody id="f-weeks"></tbody></table></div></div>
+    </div>
 
-  <!-- Accounts (Google sign-in, lib/accounts.js) and player profiles (lib/profiles.js). The API counts them, so they
-       aren't capped like the Contacts list. Days are UTC, like the charts above. -->
-  <h2 id="profiles">Profiles</h2>
-  <div class="ad-charts" style="margin-top:0">
-    <div class="ad-panel"><div class="ad-stats">
-      <div class="ad-tile"><div class="ad-label">Accounts</div><div class="ad-num" id="p-accounts">-</div><div class="ad-sub">Google sign-ins</div></div>
-      <div class="ad-tile"><div class="ad-label">Player profiles</div><div class="ad-num" id="p-profiles">-</div><div class="ad-sub" id="p-profiles-sub"></div></div>
-      <div class="ad-tile"><div class="ad-label">Public profiles</div><div class="ad-num" id="p-public">-</div><div class="ad-sub" id="p-public-sub"></div></div>
-      <div class="ad-tile"><div class="ad-label">New today</div><div class="ad-num" id="p-today">-</div><div class="ad-sub">since 00:00 UTC</div></div>
-      <div class="ad-tile"><div class="ad-label">Last 7 days</div><div class="ad-num" id="p-week">-</div><div class="ad-sub">new accounts</div></div>
-      <div class="ad-tile"><div class="ad-label">Last 30 days</div><div class="ad-num" id="p-month">-</div><div class="ad-sub">new accounts</div></div>
-    </div></div>
-    <figure class="ad-panel ad-chart" id="c-accounts" style="margin:0"><h3>New accounts per day, last 30 days</h3></figure>
-  </div>
+    <!-- CurseForge (LOR-421, lib/stores.js): the author dashboard's numbers (unique downloaders; POST
+         /api/admin/curseforge from a routine in Mike's browser) where they exist, else cfwidget's public counts, saved by
+         /api/downloads. The CurseForge app updates installed add-ons, so a release's first day is close to the
+         CurseForge installs in use: a trend, not a head count. -->
+    <h2 id="curseforge">CurseForge</h2>
+    <div class="ad-charts" style="margin-top:0">
+      <figure class="ad-panel ad-chart" id="c-cf-days" style="margin:0"><h3>The add-on per day: total and unique, last 30 days</h3></figure>
+      <figure class="ad-panel ad-chart" id="c-cf-packs" style="margin:0"><h3>Narration and language packs per day: total and unique, last 30 days</h3></figure>
+    </div>
+    <div class="ad-charts">
+      <div class="ad-panel"><h3>Week by week on CurseForge</h3>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Week of</th><th>Add-on downloads</th>
+          <th title="Distinct people who downloaded the add-on that week">Unique downloaders</th><th>Pack downloads</th>
+          <th title="Each pack's distinct downloaders, added up over the packs (someone with two packs counts twice)">Pack downloaders</th></tr></thead>
+          <tbody id="f-cf-weeks"></tbody></table></div>
+        <p class="ad-empty" style="margin-top:10px" id="f-cf-note"></p></div>
+      <div class="ad-panel"><h3>Downloads per day: CurseForge, GitHub and this site, last 14 days</h3>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Day</th><th title="Add-on downloads through this site's links">Site</th>
+          <th title="New downloads of the add-on's CurseForge project that day">CurseForge</th><th>By release</th>
+          <th title="The narration and language projects together">Packs</th>
+          <th title="GitHub release downloads (the site's own links redirect there, so they're in it)">GitHub</th></tr></thead>
+          <tbody id="f-store-days"></tbody></table></div>
+        <p class="ad-empty" style="margin-top:10px" id="f-store-note"></p></div>
+    </div>
+    <div class="ad-charts">
+      <div class="ad-panel"><h3>Each release on CurseForge</h3>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Release</th><th>Out</th>
+          <th title="Its downloads in its first 24 hours: about the CurseForge installs that update within a day">First 24 hours</th>
+          <th title="Distinct downloaders in its first 24 hours (the author dashboard's)">Unique, first 24 h</th>
+          <th>Total</th><th title="Until the next release came out">Newest for</th></tr></thead>
+          <tbody id="f-releases"></tbody></table></div></div>
+      <div class="ad-panel"><h3>Narration and language packs on CurseForge</h3>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Project</th><th>Total</th><th id="f-packs-recent">Last 7 days</th></tr></thead>
+          <tbody id="f-packs"></tbody></table></div></div>
+    </div>
 
-  <!-- What syncing players use (LOR-413, lib/usage.js): the add-on counts features per day and the companion sends
-       the counts with the profile sync, only while sync is on. Days are the player's own dates. A syncing player
-       played or synced that day; "with counts" means their add-on sent counts (an add-on from after LOR-413). -->
-  <h2 id="usage">Usage</h2>
-  <div class="ad-charts" style="margin-top:0">
-    <div class="ad-panel"><div class="ad-stats">
-      <div class="ad-tile"><div class="ad-label">Syncing players today</div><div class="ad-num" id="u-today">-</div><div class="ad-sub" id="u-today-sub"></div></div>
-      <div class="ad-tile"><div class="ad-label">Last 7 days</div><div class="ad-num" id="u-week">-</div><div class="ad-sub">different players</div></div>
-      <div class="ad-tile"><div class="ad-label">Last 14 days</div><div class="ad-num" id="u-window">-</div><div class="ad-sub" id="u-window-sub"></div></div>
-      <div class="ad-tile"><div class="ad-label">Heard to the end</div><div class="ad-num" id="u-done">-</div><div class="ad-sub" id="u-done-sub"></div></div>
-    </div></div>
-    <figure class="ad-panel ad-chart" id="c-usage" style="margin:0"><h3>Syncing players per day, last 14 days</h3></figure>
-  </div>
-  <div class="ad-charts">
-    <div class="ad-panel"><h3>Feature use, last 14 days</h3>
-      <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Feature</th><th>Players</th>
-        <th title="Uses per player, per day they played">Per day</th><th>Total</th><th title="Uses per player, per day they played, each of the 14 days">Trend</th></tr></thead>
-        <tbody id="u-features"></tbody></table></div></div>
-    <div class="ad-panel"><h3>Heard to the end, by kind, last 14 days</h3>
-      <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Kind</th><th>Started</th><th>To the end</th><th>Rate</th></tr></thead>
-        <tbody id="u-kinds"></tbody></table></div></div>
-  </div>
-  <!-- The share loop (LOR-151, lib/usage.js countSite): profile pages opened by anyone but their owner, how many a link
-       from outside the site brought (a shared link), and Share presses. Plain daily numbers, nothing about who. -->
-  <div class="ad-charts">
-    <div class="ad-panel"><h3>Profile pages, last 14 days</h3><div class="ad-stats">
-      <div class="ad-tile"><div class="ad-label">Views</div><div class="ad-num" id="u-views">-</div><div class="ad-sub" id="u-views-sub"></div></div>
-      <div class="ad-tile"><div class="ad-label">From outside links</div><div class="ad-num" id="u-outside">-</div><div class="ad-sub" id="u-outside-sub"></div></div>
-      <div class="ad-tile"><div class="ad-label">Shares</div><div class="ad-num" id="u-shares">-</div><div class="ad-sub">Share pressed or link copied</div></div>
+    <!-- Site and GitHub downloads. One definition of "site downloads" everywhere: add-on downloads through this site's
+         installer and zip links (/download/installer, /download/zip, and the old /download/complete, which serves the
+         zip). Pack downloads and button clicks are named as such. -->
+    <h2 id="downloads">Site and GitHub downloads</h2>
+    <div class="ad-charts" style="margin-top:0">
+      <div class="ad-panel"><div class="ad-stats">
+        <div class="ad-tile"><div class="ad-label">Add-on downloads from this site</div><div class="ad-num" id="t-dl">-</div><div class="ad-sub" id="t-dl-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Pack downloads from this site</div><div class="ad-num" id="t-packs">-</div><div class="ad-sub" id="t-packs-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Download-button clicks</div><div class="ad-num" id="t-clicks">-</div><div class="ad-sub">on the home page, CurseForge's button included</div></div>
+        <div class="ad-tile"><div class="ad-label">GitHub release downloads</div><div class="ad-num" id="t-github">-</div><div class="ad-sub" id="t-github-sub"></div></div>
+      </div></div>
+      <div class="ad-panel"><h3>Site downloads by source, last 30 days</h3>
+        <p class="ad-empty" style="margin-bottom:6px">From the <code>?src=</code> of the link (the lore pages send <code>lore</code>). Downloads without one aren't listed.</p>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Source</th><th>Installer</th><th>Zip</th><th>Total</th></tr></thead>
+          <tbody id="u-sources"></tbody></table></div></div>
     </div>
-      <p class="ad-empty" style="margin-top:10px">Views by anyone but the page's owner. From outside links: opened from another site, an app or a pasted link, so mostly shared links.</p></div>
-    <figure class="ad-panel ad-chart" id="c-views" style="margin:0"><h3>Profile views per day, last 14 days</h3></figure>
-  </div>
-  <div class="ad-charts">
-    <div class="ad-panel"><h3>Site downloads by source, last 30 days</h3>
-      <p class="ad-empty" style="margin-bottom:6px">From the <code>?src=</code> of the link (the lore pages send <code>lore</code>). Downloads without one aren't listed.</p>
-      <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Source</th><th>Installer</th><th>Zip</th><th>Total</th></tr></thead>
-        <tbody id="u-sources"></tbody></table></div></div>
-  </div>
 
-  <h2 id="feedback">Feedback</h2>
-  <div class="ad-panel">
-    <div class="ad-filters" role="group" aria-label="Filter feedback">
-      <button type="button" data-status="new" aria-pressed="true">Open</button>
-      <button type="button" data-status="done" aria-pressed="false">Done</button>
-      <button type="button" data-status="all" aria-pressed="false">All</button>
-      <select id="kind" aria-label="Kind">
-        <option value="">Every kind</option>
-        <option value="lore">Wrong or missing lore</option>
-        <option value="bug">Bug</option>
-        <option value="idea">Idea or zone request</option>
-        <option value="review">Review</option>
-      </select>
-      <span class="ad-count" id="fb-count"></span>
+    <!-- The companion's daily check-in (LOR-422, lib/checkins.js): installs in use with or without an account, from a
+         hashed random id made on each PC and the versions. No IP, no name. Internal builds are left out. -->
+    <h2 id="companions">Companion installs</h2>
+    <div class="ad-charts" style="margin-top:0">
+      <div class="ad-panel"><div class="ad-stats">
+        <div class="ad-tile"><div class="ad-label">Today</div><div class="ad-num" id="k-today">-</div><div class="ad-sub">installs checked in</div></div>
+        <div class="ad-tile"><div class="ad-label">Last 7 days</div><div class="ad-num" id="k-week">-</div><div class="ad-sub">different installs</div></div>
+        <div class="ad-tile"><div class="ad-label">Last 30 days</div><div class="ad-num" id="k-month">-</div><div class="ad-sub">different installs</div></div>
+        <div class="ad-tile"><div class="ad-label">Returning</div><div class="ad-num" id="k-returning">-</div><div class="ad-sub" id="k-returning-sub"></div></div>
+      </div>
+        <div class="ad-table-wrap" style="margin-top:10px"><table class="ad-usage"><thead><tr><th>Companion</th><th>Add-on</th>
+          <th title="Installs seen in the last 7 days, by their latest check-in">Installs</th></tr></thead><tbody id="k-versions"></tbody></table></div>
+        <p class="ad-empty" style="margin-top:10px" id="k-note"></p></div>
+      <figure class="ad-panel ad-chart" id="c-companions" style="margin:0"><h3>Companion installs checked in per day, last 30 days</h3></figure>
     </div>
-    <div id="fb-list"></div>
-  </div>
+  </section>
 
-  <h2 id="voices">Voice submissions</h2>
-  <div class="ad-panel">
-    <div class="ad-filters" role="group" aria-label="Filter voice submissions">
-      <button type="button" data-vstatus="new" aria-pressed="true">Open</button>
-      <button type="button" data-vstatus="done" aria-pressed="false">Done</button>
-      <button type="button" data-vstatus="all" aria-pressed="false">All</button>
-      <span class="ad-count" id="vo-count"></span>
+  <!-- ===== Players: profiles, sign-ins, veterans or new, usage ===== -->
+  <section class="ad-tab" id="tab-players" data-tab="players" hidden>
+    <!-- Accounts (Google sign-in, lib/accounts.js) and player profiles (lib/profiles.js), counted by the API, admin and
+         test accounts left out (lib/activity.js syncExclusions). Days are UTC. -->
+    <h2 id="profiles">Profiles</h2>
+    <div class="ad-charts" style="margin-top:0">
+      <div class="ad-panel"><div class="ad-stats">
+        <div class="ad-tile"><div class="ad-label">Accounts</div><div class="ad-num" id="p-accounts">-</div><div class="ad-sub">Google sign-ins</div></div>
+        <div class="ad-tile"><div class="ad-label">Player profiles</div><div class="ad-num" id="p-profiles">-</div><div class="ad-sub" id="p-profiles-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Public profiles</div><div class="ad-num" id="p-public">-</div><div class="ad-sub" id="p-public-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">New today</div><div class="ad-num" id="p-today">-</div><div class="ad-sub">since 00:00 UTC</div></div>
+        <div class="ad-tile"><div class="ad-label">Last 7 days</div><div class="ad-num" id="p-week">-</div><div class="ad-sub">new accounts</div></div>
+        <div class="ad-tile"><div class="ad-label">Last 30 days</div><div class="ad-num" id="p-month">-</div><div class="ad-sub">new accounts</div></div>
+      </div>
+        <p class="ad-empty" style="margin-top:10px" id="p-excluded"></p></div>
+      <figure class="ad-panel ad-chart" id="c-accounts" style="margin:0"><h3>New accounts per day, last 30 days</h3></figure>
     </div>
-    <div id="vo-list"></div>
-  </div>
+    <!-- Sign-in activity (LOR-304, lib/activity.js activityReport): the UTC days each account was signed in on the site,
+         noted by its first signed-in request of the day. Returning, here and in the funnel: seen on 2+ different days,
+         signed in or synced from the companion. -->
+    <h2 id="signins">Sign-ins</h2>
+    <div class="ad-charts" style="margin-top:0">
+      <div class="ad-panel"><div class="ad-stats">
+        <div class="ad-tile"><div class="ad-label">Signed in today</div><div class="ad-num" id="s-today">-</div><div class="ad-sub">accounts</div></div>
+        <div class="ad-tile"><div class="ad-label">Last 7 days</div><div class="ad-num" id="s-week">-</div><div class="ad-sub">different accounts</div></div>
+        <div class="ad-tile"><div class="ad-label">Last 30 days</div><div class="ad-num" id="s-month">-</div><div class="ad-sub">different accounts</div></div>
+        <div class="ad-tile"><div class="ad-label">Returning accounts</div><div class="ad-num" id="s-returning">-</div><div class="ad-sub" id="s-returning-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Returning owners</div><div class="ad-num" id="s-owners">-</div><div class="ad-sub" id="s-owners-sub"></div></div>
+      </div>
+        <p class="ad-empty" style="margin-top:10px" id="s-note"></p></div>
+      <figure class="ad-panel ad-chart" id="c-signins" style="margin:0"><h3>Accounts signed in per day, last 30 days</h3></figure>
+    </div>
+    <div class="ad-charts">
+      <div class="ad-panel"><h3>Day by day, last 14 days</h3>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Day</th><th>New accounts</th><th>Signed in</th>
+          <th>New profiles</th><th title="Of the profiles made that day, how many are public now">Public now</th>
+          <th title="Pasted journey records that made or changed a profile">Updates: pasted</th>
+          <th title="Companion syncs that changed a profile">From the companion</th></tr></thead><tbody id="s-days"></tbody></table></div>
+        <p class="ad-empty" style="margin-top:10px" id="s-updates-note"></p></div>
+      <div class="ad-panel"><h3>Veterans or new players</h3><div class="ad-stats">
+        <div class="ad-tile"><div class="ad-label">Veterans</div><div class="ad-num" id="v-veteran">-</div><div class="ad-sub" id="v-veteran-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">In between</div><div class="ad-num" id="v-between">-</div><div class="ad-sub" id="v-between-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">New players</div><div class="ad-num" id="v-new">-</div><div class="ad-sub" id="v-new-sub"></div></div>
+      </div>
+        <div class="ad-table-wrap" style="margin-top:10px"><table class="ad-usage"><thead><tr><th>Level</th><th>Under a day played</th>
+          <th>1&ndash;3 days</th><th>3+ days</th><th>Time unknown</th></tr></thead><tbody id="v-grid"></tbody></table></div>
+        <p class="ad-empty" style="margin-top:10px">Every player profile, by its journey record: veteran at level 40+ or 3+ days
+          played, new under level 20 with under a day played. Time played is the game's <code>/played</code>, or the hours
+          the journey recorded when the record doesn't have it.</p></div>
+    </div>
+    <!-- Which features players use, from every companion install (LOR-435, lib/featureuse.js): the companion's daily
+         check-in carries the add-on's and its own anonymous counts, no account needed. A share is of the installs that
+         sent counts in the window: how many used it at least once. Internal builds are left out. -->
+    <h2 id="features">Feature use</h2>
+    <div class="ad-charts" style="margin-top:0">
+      <div class="ad-panel"><div class="ad-stats">
+        <div class="ad-tile"><div class="ad-label">Installs with counts</div><div class="ad-num" id="fu-active">-</div><div class="ad-sub" id="fu-active-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Top feature</div><div class="ad-num" id="fu-top">-</div><div class="ad-sub" id="fu-top-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Days played</div><div class="ad-num" id="fu-days">-</div><div class="ad-sub">per install, last 30 days</div></div>
+        <div class="ad-tile"><div class="ad-label">Minutes a day</div><div class="ad-num" id="fu-minutes">-</div><div class="ad-sub" id="fu-minutes-sub"></div></div>
+      </div>
+        <p class="ad-empty" style="margin-top:10px" id="fu-note"></p></div>
+      <figure class="ad-panel ad-chart" id="c-features" style="margin:0"><h3>Installs that sent counts per day, last 30 days</h3></figure>
+    </div>
+    <div class="ad-charts">
+      <div class="ad-panel"><h3>Share of active installs using each feature, most used first</h3>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Feature</th><th>Last 14 days</th><th>Last 30 days</th>
+          <th title="Installs that checked in on one day only, last 30 days">New installs</th>
+          <th title="Installs that checked in on 2+ different days, last 30 days">Returning</th>
+          <th title="Share of each day's installs, the last 30 days">Trend</th></tr></thead><tbody id="fu-list"></tbody></table></div></div>
+    </div>
+    <div class="ad-charts">
+      <div class="ad-panel"><h3>By level, last 30 days</h3>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr id="fu-levels-head"></tr></thead><tbody id="fu-levels"></tbody></table></div>
+        <p class="ad-empty" style="margin-top:10px">Each install at the highest level it played in the 30 days; the top 12 features.</p></div>
+      <div class="ad-panel"><h3>Voices, languages and settings, last 30 days</h3>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Pick</th><th>Installs</th><th>Share</th></tr></thead>
+          <tbody id="fu-picks"></tbody></table></div></div>
+    </div>
+    <!-- What syncing players use (LOR-413, lib/usage.js): the add-on counts features per day and the companion sends
+         the counts with the profile sync, only while sync is on. Days are the player's own dates. A syncing player
+         played or synced that day; "with counts" means their add-on sent counts (an add-on from after LOR-413). -->
+    <h2 id="usage">Usage</h2>
+    <div class="ad-charts" style="margin-top:0">
+      <div class="ad-panel"><div class="ad-stats">
+        <div class="ad-tile"><div class="ad-label">Syncing players today</div><div class="ad-num" id="u-today">-</div><div class="ad-sub" id="u-today-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Last 7 days</div><div class="ad-num" id="u-week">-</div><div class="ad-sub">different players</div></div>
+        <div class="ad-tile"><div class="ad-label">Last 14 days</div><div class="ad-num" id="u-window">-</div><div class="ad-sub" id="u-window-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Heard to the end</div><div class="ad-num" id="u-done">-</div><div class="ad-sub" id="u-done-sub"></div></div>
+      </div></div>
+      <figure class="ad-panel ad-chart" id="c-usage" style="margin:0"><h3>Syncing players per day, last 14 days</h3></figure>
+    </div>
+    <div class="ad-charts">
+      <div class="ad-panel"><h3>Feature use, last 14 days</h3>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Feature</th><th>Players</th>
+          <th title="Uses per player, per day they played">Per day</th><th>Total</th><th title="Uses per player, per day they played, each of the 14 days">Trend</th></tr></thead>
+          <tbody id="u-features"></tbody></table></div></div>
+      <div class="ad-panel"><h3>Heard to the end, by kind, last 14 days</h3>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Kind</th><th>Started</th><th>To the end</th><th>Rate</th>
+          <th title="Started by itself: an arrival, a flight, a quest giver's or a book's page">By itself</th>
+          <th title="Started by the player: Play, Listen, the Narrate key or the playlist">With Play</th></tr></thead>
+          <tbody id="u-kinds"></tbody></table></div>
+        <p class="ad-empty" style="margin-top:10px">By itself: narrations that started on their own as players arrived,
+          flew over a zone, or opened a quest giver's or a book's page. With Play: the ones players started. Both come
+          from add-ons after 0.14 (LOR-420); older ones count only in Started and To the end.</p></div>
+    </div>
+    <!-- The share loop (LOR-151, lib/usage.js countSite): profile pages opened by anyone but their owner, how many a link
+         from outside the site brought (a shared link), and Share presses. Plain daily numbers, nothing about who. -->
+    <div class="ad-charts">
+      <div class="ad-panel"><h3>Profile pages, last 14 days</h3><div class="ad-stats">
+        <div class="ad-tile"><div class="ad-label">Views</div><div class="ad-num" id="u-views">-</div><div class="ad-sub" id="u-views-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">From outside links</div><div class="ad-num" id="u-outside">-</div><div class="ad-sub" id="u-outside-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Shares</div><div class="ad-num" id="u-shares">-</div><div class="ad-sub">Share pressed or link copied</div></div>
+      </div>
+        <p class="ad-empty" style="margin-top:10px">Views by anyone but the page's owner. From outside links: opened from another site, an app or a pasted link, so mostly shared links.</p></div>
+      <figure class="ad-panel ad-chart" id="c-views" style="margin:0"><h3>Profile views per day, last 14 days</h3></figure>
+    </div>
+  </section>
 
-  <!-- Reports on recordings (LOR-232, functions/api/clip-report/[action].js). Nothing waits on you: the nightly
-       narration job records a clip again once it has 2+ reports (or 1 signed in) and resolves them. Here you only
-       reject spam, all of one uploader's open reports at once; Restore undoes it. Grey badge: open reports. -->
-  <h2 id="clip-reports">Clip reports</h2>
-  <div class="ad-panel">
-    <div class="ad-filters" role="group" aria-label="Filter clip reports">
-      <button type="button" data-crstatus="open" aria-pressed="true">Open</button>
-      <button type="button" data-crstatus="all" aria-pressed="false">All</button>
-      <button type="button" data-crstatus="rejected" aria-pressed="false">Rejected</button>
-      <span class="ad-count" id="cr-count"></span>
+  <!-- ===== Community: what people send, one part at a time ===== -->
+  <section class="ad-tab" id="tab-community" data-tab="community" hidden>
+    <nav class="ad-subnav" id="subnav" aria-label="Community">
+      <a href="#feedback" data-sub="feedback">Feedback <span class="ad-badge" id="n-feedback"></span></a>
+      <a href="#voices" data-sub="voices">Voices <span class="ad-badge" id="n-voices"></span></a>
+      <a href="#clip-reports" data-sub="clip-reports">Clip reports <span class="ad-badge quiet" id="n-clip-reports"></span></a>
+      <a href="#translations" data-sub="translations">Translations <span class="ad-badge" id="n-translations"></span></a>
+      <a href="#edits" data-sub="edits">Edits <span class="ad-badge" id="n-edits"></span></a>
+      <a href="#contributions" data-sub="contributions">Shared text <span class="ad-badge quiet" id="n-contrib"></span></a>
+      <a href="#contacts" data-sub="contacts">Contacts <span class="ad-badge quiet" id="n-contacts"></span></a>
+    </nav>
+    <div class="ad-sub-tab" id="sub-feedback" data-sub="feedback" hidden>
+    <h2 id="feedback">Feedback</h2>
+    <div class="ad-panel">
+      <div class="ad-filters" role="group" aria-label="Filter feedback">
+        <button type="button" data-status="new" aria-pressed="true">Open</button>
+        <button type="button" data-status="done" aria-pressed="false">Done</button>
+        <button type="button" data-status="all" aria-pressed="false">All</button>
+        <select id="kind" aria-label="Kind">
+          <option value="">Every kind</option>
+          <option value="lore">Wrong or missing lore</option>
+          <option value="bug">Bug</option>
+          <option value="idea">Idea or zone request</option>
+          <option value="review">Review</option>
+        </select>
+        <span class="ad-count" id="fb-count"></span>
+        <span class="ad-count" id="t-rating" style="margin-left:auto"></span>
+      </div>
+      <div id="fb-list"></div>
     </div>
-    <div class="ad-table-wrap">
-      <table><thead><tr><th>Narration</th><th>Voice</th><th>Reports</th><th>What's wrong</th><th>Names</th></tr></thead><tbody id="cr-clips"></tbody></table>
     </div>
-    <h3 style="margin-top:14px">Latest reports</h3>
-    <div id="cr-list"></div>
-  </div>
-
-  <h2 id="translations">Translations</h2>
-  <div class="ad-panel">
-    <div class="ad-filters" role="group" aria-label="Filter translations">
-      <button type="button" data-tstatus="new" aria-pressed="true">Open</button>
-      <button type="button" data-tstatus="done" aria-pressed="false">Done</button>
-      <button type="button" data-tstatus="all" aria-pressed="false">All</button>
-      <select id="tkind" aria-label="Kind">
-        <option value="">Submissions and reports</option>
-        <option value="translation">Submissions</option>
-        <option value="translation-report">Bad-translation reports</option>
-      </select>
-      <span class="ad-count" id="tr-count"></span>
+    <div class="ad-sub-tab" id="sub-voices" data-sub="voices" hidden>
+    <h2 id="voices">Voice submissions</h2>
+    <div class="ad-panel">
+      <div class="ad-filters" role="group" aria-label="Filter voice submissions">
+        <button type="button" data-vstatus="new" aria-pressed="true">Open</button>
+        <button type="button" data-vstatus="done" aria-pressed="false">Done</button>
+        <button type="button" data-vstatus="all" aria-pressed="false">All</button>
+        <span class="ad-count" id="vo-count"></span>
+      </div>
+      <div id="vo-list"></div>
     </div>
-    <div id="tr-list"></div>
-  </div>
-
-  <!-- Edits from /translate/dashboard (functions/api/translations/[action].js). No approval step: every saved edit goes
-       into data/i18n with `uv run python -m lore.kit pull <locale>` unless it is rejected (spam, vandalism, a native
-       speaker's report on Discord). There are thousands, so they have their own page, /admin/edits; this is the count
-       per language. Gold badge: saved edits waiting for a pull. -->
-  <h2 id="edits">Translation edits</h2>
-  <div class="ad-panel">
-    <div class="ad-filters">
-      <span class="ad-count" id="ed-count"></span>
-      <a class="btn-small" href="/admin/edits" style="margin-left:auto">Open the edits page</a>
     </div>
-    <div class="ad-table-wrap">
-      <table><thead><tr><th>Language</th><th>Saved</th><th>Pulled</th><th>Rejected</th><th>Last edit</th></tr></thead><tbody id="ed-list"></tbody></table>
+    <div class="ad-sub-tab" id="sub-clip-reports" data-sub="clip-reports" hidden>
+    <!-- Reports on recordings (LOR-232, functions/api/clip-report/[action].js). Nothing waits on you: the nightly
+         narration job records a clip again once it has 2+ reports (or 1 signed in) and resolves them. Here you only
+         reject spam, all of one uploader's open reports at once; Restore undoes it. Grey badge: open reports. -->
+    <h2 id="clip-reports">Clip reports</h2>
+    <div class="ad-panel">
+      <div class="ad-filters" role="group" aria-label="Filter clip reports">
+        <button type="button" data-crstatus="open" aria-pressed="true">Open</button>
+        <button type="button" data-crstatus="all" aria-pressed="false">All</button>
+        <button type="button" data-crstatus="rejected" aria-pressed="false">Rejected</button>
+        <span class="ad-count" id="cr-count"></span>
+      </div>
+      <div class="ad-table-wrap">
+        <table><thead><tr><th>Narration</th><th>Voice</th><th>Reports</th><th>What's wrong</th><th>Names</th></tr></thead><tbody id="cr-clips"></tbody></table>
+      </div>
+      <h3 style="margin-top:14px">Latest reports</h3>
+      <div id="cr-list"></div>
     </div>
-  </div>
-
-  <!-- Forever text players shared from /contribute (lib/contribute.js, LOR-236). No approval step: lines are accepted
-       by the rules there (two senders, or 48 hours on one). This is only for spam and vandalism: "Reject all" takes
-       out every line one sender sent (a line someone else also sent stays), "Restore" undoes it. -->
-  <h2 id="contributions">Shared Forever text</h2>
-  <div class="ad-panel">
-    <p class="ad-count" style="margin:0 0 8px" id="cb-counts"></p>
-    <div class="ad-table-wrap">
-      <table><thead><tr><th>When</th><th>Who</th><th>From</th><th>New</th><th>Confirmed</th><th>Known</th><th>Add-on</th><th></th></tr></thead><tbody id="cb-list"></tbody></table>
     </div>
-  </div>
-
-  <!-- Accounts and subscribers share one row per email. Only an actual subscription opts them into release news. -->
-  <h2 id="contacts">Contacts</h2>
-  <div class="ad-panel">
-    <div class="ad-filters">
-      <input type="search" id="cq" placeholder="Search name or email" aria-label="Search contacts">
-      <select id="crole" aria-label="Role">
-        <option value="">All contacts</option>
-        <option value="subscriber">Release subscribers</option>
-        <option value="account">Contributor accounts</option>
-        <option value="player">Players (have a profile)</option>
-        <option value="voice">Voices</option>
-        <option value="translator">Translators</option>
-        <option value="feedback">Feedback only</option>
-      </select>
-      <button type="button" id="ccopy">Copy addresses</button>
-      <button type="button" id="ccsv">Export CSV</button>
-      <span class="ad-count" id="co-count"></span>
+    <div class="ad-sub-tab" id="sub-translations" data-sub="translations" hidden>
+    <h2 id="translations">Translations</h2>
+    <div class="ad-panel">
+      <div class="ad-filters" role="group" aria-label="Filter translations">
+        <button type="button" data-tstatus="new" aria-pressed="true">Open</button>
+        <button type="button" data-tstatus="done" aria-pressed="false">Done</button>
+        <button type="button" data-tstatus="all" aria-pressed="false">All</button>
+        <select id="tkind" aria-label="Kind">
+          <option value="">Submissions and reports</option>
+          <option value="translation">Submissions</option>
+          <option value="translation-report">Bad-translation reports</option>
+        </select>
+        <span class="ad-count" id="tr-count"></span>
+      </div>
+      <div id="tr-list"></div>
     </div>
-    <p class="ad-count" style="margin:0 0 8px">Each email counts once, including people with both an account and a subscription. Release news goes only to subscribers; account-only emails are for feedback and contributions.</p>
-    <div class="ad-table-wrap">
-      <table><thead><tr><th>Email</th><th>Release news</th><th>Name</th><th>Profile</th><th>Links</th><th>Voices</th><th>Languages</th><th>Activity</th><th>First seen</th></tr></thead><tbody id="co-list"></tbody></table>
     </div>
-  </div>
+    <div class="ad-sub-tab" id="sub-edits" data-sub="edits" hidden>
+    <!-- Edits from /translate/dashboard (functions/api/translations/[action].js). No approval step: every saved edit goes
+         into data/i18n with `uv run python -m lore.kit pull <locale>` unless it is rejected (spam, vandalism, a native
+         speaker's report on Discord). There are thousands, so they have their own page, /admin/edits; this is the count
+         per language. Gold badge: saved edits waiting for a pull. -->
+    <h2 id="edits">Translation edits</h2>
+    <div class="ad-panel">
+      <div class="ad-filters">
+        <span class="ad-count" id="ed-count"></span>
+        <a class="btn-small" href="/admin/edits" style="margin-left:auto">Open the edits page</a>
+      </div>
+      <div class="ad-table-wrap">
+        <table><thead><tr><th>Language</th><th>Saved</th><th>Pulled</th><th>Rejected</th><th>Last edit</th></tr></thead><tbody id="ed-list"></tbody></table>
+      </div>
+    </div>
+    </div>
+    <div class="ad-sub-tab" id="sub-contributions" data-sub="contributions" hidden>
+    <!-- Forever text players shared from /contribute (lib/contribute.js, LOR-236). No approval step: lines are accepted
+         by the rules there (two senders, or 48 hours on one). This is only for spam and vandalism: "Reject all" takes
+         out every line one sender sent (a line someone else also sent stays), "Restore" undoes it. -->
+    <h2 id="contributions">Shared Forever text</h2>
+    <div class="ad-panel">
+      <p class="ad-count" style="margin:0 0 8px" id="cb-counts"></p>
+      <div class="ad-table-wrap">
+        <table><thead><tr><th>When</th><th>Who</th><th>From</th><th>New</th><th>Confirmed</th><th>Known</th><th>Add-on</th><th></th></tr></thead><tbody id="cb-list"></tbody></table>
+      </div>
+    </div>
+    </div>
+    <div class="ad-sub-tab" id="sub-contacts" data-sub="contacts" hidden>
+    <!-- Accounts and subscribers share one row per email. Only an actual subscription opts them into release news. -->
+    <h2 id="contacts">Contacts</h2>
+    <div class="ad-charts" style="margin-top:0;margin-bottom:12px">
+      <div class="ad-panel"><div class="ad-stats">
+        <div class="ad-tile"><div class="ad-label">Contacts</div><div class="ad-num" id="t-contacts">-</div><div class="ad-sub" id="t-contacts-sub"></div></div>
+      </div>
+        <p class="ad-empty" style="margin-top:10px">"Leave out of counts" keeps an account out of every number on the
+          dashboard (it stays here): use it for test accounts. The account signed in on the browser that opens /admin and the
+          Pages variable <code>ANALYTICS_EXCLUDE</code> (emails or account ids) are left out by themselves.</p></div>
+      <figure class="ad-panel ad-chart" id="c-signups" style="margin:0"><h3>New contacts per day, last 30 days</h3></figure>
+    </div>
+    <div class="ad-panel">
+      <div class="ad-filters">
+        <input type="search" id="cq" placeholder="Search name or email" aria-label="Search contacts">
+        <select id="crole" aria-label="Role">
+          <option value="">All contacts</option>
+          <option value="subscriber">Release subscribers</option>
+          <option value="account">Contributor accounts</option>
+          <option value="player">Players (have a profile)</option>
+          <option value="voice">Voices</option>
+          <option value="translator">Translators</option>
+          <option value="feedback">Feedback only</option>
+        </select>
+        <button type="button" id="ccopy">Copy addresses</button>
+        <button type="button" id="ccsv">Export CSV</button>
+        <span class="ad-count" id="co-count"></span>
+      </div>
+      <p class="ad-count" style="margin:0 0 8px">Each email counts once, including people with both an account and a subscription. Release news goes only to subscribers; account-only emails are for feedback and contributions.</p>
+      <div class="ad-table-wrap">
+        <table><thead><tr><th>Email</th><th>Release news</th><th>Name</th><th>Profile</th><th>Links</th><th>Voices</th><th>Languages</th><th>Activity</th><th>First seen</th></tr></thead><tbody id="co-list"></tbody></table>
+      </div>
+    </div>
+    </div>
+  </section>
 </main>
 
 <script type="module">
 import { mergeContacts } from "/admin-contacts.js";
+import { funnelStages } from "/admin-funnel.js";
 
 const KINDS = { lore: "Wrong or missing lore", bug: "Bug", idea: "Idea or zone request", review: "Review" };
 const $ = id => document.getElementById(id);
@@ -286,9 +477,9 @@ async function load() {
     $("login").hidden = true;
     $("dash").hidden = false;
     render();
-    markSection();
-    loadEdits();
-    loadClipReports();
+    loadEdits();                 // its gold badge counts toward Community's
+    clipsLoaded = false;         // the clip reports load when Community opens
+    route();
     $("updated").textContent = "Updated " + new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
   } catch (e) {
     if (e.message !== "unauthorized") alert("Couldn't load the dashboard: " + e.message);
@@ -317,27 +508,35 @@ function lastDays(n) {
 }
 
 // ---- render ----
+// "Site downloads", everywhere on this page: add-on downloads through this site's installer and zip links
+// (/download/complete is an old link that serves the zip). Narration and language packs are counted apart.
+const ADDON_FILES = new Set(["installer", "zip", "complete"]);
+const short = name => String(name || "").replace(/^Lore ?Forever /, "");
+
 function render() {
   const contacts = mergeContacts(data.subscribers, data.users).filter(c => !c.test);
   const week = lastDays(7)[0];
   $("t-contacts").textContent = contacts.length.toLocaleString();
   $("t-contacts-sub").textContent = "+" + contacts.filter(c => c.created.slice(0, 10) >= week).length + " in the last 7 days · emails and accounts";
 
-  const dlBy = f => (data.downloadTotals || data.downloads).filter(d => d.file === f).reduce((a, d) => a + d.n, 0);
-  $("t-dl").textContent = (dlBy("installer") + dlBy("zip")).toLocaleString();
-  $("t-dl-sub").textContent = dlBy("installer") + " installer · " + dlBy("zip") + " zip · " + data.clicks + " button clicks";
-
-  const open = data.feedback.filter(f => f.status !== "done");
-  $("t-open").textContent = open.length;
-  $("t-open-sub").textContent = data.feedback.length + " reports in all";
+  const totals = data.downloadTotals || [];
+  const dlBy = f => totals.filter(d => d.file === f).reduce((a, d) => a + d.n, 0);
+  const installer = dlBy("installer"), zip = dlBy("zip") + dlBy("complete");
+  $("t-dl").textContent = n0(installer + zip);
+  $("t-dl-sub").textContent = n0(installer) + " installer · " + n0(zip) + " zip · since counting began";
+  const packsAll = totals.filter(d => !ADDON_FILES.has(d.file)).reduce((a, d) => a + d.n, 0);
+  const packs30 = data.downloads.filter(d => !ADDON_FILES.has(d.file)).reduce((a, d) => a + d.n, 0);
+  $("t-packs").textContent = n0(packsAll);
+  $("t-packs-sub").textContent = "narration and language packs · " + n0(packs30) + " in the last 30 days";
+  $("t-clicks").textContent = n0(data.clicks);
+  const gh = data.funnel?.stores?.github;
+  $("t-github").textContent = gh ? n0(gh.downloads) : "-";
+  $("t-github-sub").textContent = gh ? "every release's zip and installer, this site's included · " + fmtDate(gh.taken)
+    : "not read yet: GitHub answers the site only now and then";
 
   const rated = data.feedback.filter(f => f.rating);
-  $("t-rating").textContent = rated.length ? (rated.reduce((a, f) => a + f.rating, 0) / rated.length).toFixed(1) + " ★" : "-";
-  $("t-rating-sub").textContent = rated.length ? "from " + rated.length + " rating" + (rated.length === 1 ? "" : "s") : "no ratings yet";
-
-  const voices = data.voices || [];
-  $("t-voices").textContent = voices.filter(v => v.status !== "done").length;
-  $("t-voices-sub").textContent = voices.length + (voices.length === 1 ? " submission" : " submissions") + " in all";
+  $("t-rating").textContent = rated.length ? "Average rating " + (rated.reduce((a, f) => a + f.rating, 0) / rated.length).toFixed(1) +
+    " ★ from " + rated.length + " rating" + (rated.length === 1 ? "" : "s") : "";
 
   const st = data.stories || { usd: 0, calls: 0, written: 0, budget: 100, on: false };
   const an = data.answers || { usd: 0, budgetUsedUsd: 0, calls: 0 };
@@ -348,20 +547,28 @@ function render() {
     `${an.calls} live answer calls ($${an.usd.toFixed(2)}) · ${st.written} stories · voice $${(st.voiceUsd || 0).toFixed(2)}`;
 
   const days = lastDays(30);
-  const signupsPerDay = days.map(d => contacts.filter(c => c.created.slice(0, 10) === d).length);
-  const downloadsPerDay = days.map(d => data.downloads.filter(x => x.day === d).reduce((a, x) => a + x.n, 0));
-  barChart($("c-signups"), days, signupsPerDay, n => n + (n === 1 ? " new contact" : " new contacts"));
-  barChart($("c-downloads"), days, downloadsPerDay, n => n + (n === 1 ? " download" : " downloads"));
+  barChart($("c-signups"), days, days.map(d => contacts.filter(c => c.created.slice(0, 10) === d).length),
+    n => n + (n === 1 ? " new contact" : " new contacts"));
+  barChart($("c-downloads"), days, days.map(d => data.downloads.filter(x => x.day === d && ADDON_FILES.has(x.file))
+    .reduce((a, x) => a + x.n, 0)), n => n + (n === 1 ? " add-on download" : " add-on downloads") + " from this site");
 
-  // Accounts and player profiles, counted by the API (data.users stops at 5000).
+  // Accounts and player profiles, counted by the API (data.users stops at 5000), admin and test accounts left out.
   const su = data.signups || { accounts: 0, profiles: 0, public: 0, today: 0, week: 0, month: 0, days: [] };
   for (const k of ["accounts", "profiles", "public", "today", "week", "month"]) $("p-" + k).textContent = su[k].toLocaleString();
   $("p-profiles-sub").textContent = su.accounts ? Math.round(100 * su.profiles / su.accounts) + "% of accounts" : "";
   $("p-public-sub").textContent = (su.profiles - su.public).toLocaleString() + " private";
   barChart($("c-accounts"), days, days.map(d => su.days.find(x => x.day === d)?.n || 0),
     n => n + (n === 1 ? " new account" : " new accounts"));
+  const ex = data.activity?.excluded;
+  const why = ex ? [["admin", "admin"], ["config", "from ANALYTICS_EXCLUDE"], ["manual", "by hand"]].filter(([k]) => ex[k]).map(([k, w]) => ex[k] + " " + w).join(", ") : "";
+  $("p-excluded").textContent = ex?.accounts ? `Left out of every count on this page: ${ex.accounts} account${ex.accounts === 1 ? "" : "s"} ` +
+    `(${why}). Change it in Community › Contacts.` : "No accounts are left out of the counts.";
 
+  renderOverview();
+  renderActivity();
+  renderFunnel();
   renderUsage();
+  renderFeatures();
   renderFeedback();
   renderVoices();
   renderTranslations();
@@ -369,13 +576,53 @@ function render() {
   renderContacts();
 
   const openCount = list => (list || []).filter(x => x.status !== "done").length;
-  badge("n-feedback", open.length);
-  badge("n-voices", openCount(voices));
+  badge("n-feedback", data.feedback.filter(f => f.status !== "done").length);
+  badge("n-voices", openCount(data.voices));
   badge("n-translations", openCount(data.translations) + openCount(data.translationReports));
   badge("n-contacts", contacts.length);
+  communityBadge();
 }
 
 const badge = (id, n) => $(id).textContent = n ? n.toLocaleString() : "";
+// Community's badge: what waits on you there (the gold badges: open feedback, voice and translation items, edits to pull).
+function communityBadge() {
+  badge("n-community", ["n-feedback", "n-voices", "n-translations", "n-edits"]
+    .reduce((a, id) => a + (Number(($(id).textContent || "0").replace(/\D/g, "")) || 0), 0));
+}
+
+// ---- overview: the headline numbers ----
+function renderOverview() {
+  const f = data.funnel || {}, st = f.stores || {}, a = st.author, c = f.companions, r = data.activity?.returning;
+  if (a?.thisWeek) {
+    $("o-unique").textContent = n0(a.thisWeek.unique);
+    $("o-unique-sub").textContent = `this week so far · ${n0(a.today.unique)} on ${fmtDay(a.today.day)} · ` +
+      `${n0(a.thisWeek.downloads)} downloads this week`;
+  } else {
+    $("o-unique").textContent = "-";
+    $("o-unique-sub").textContent = "waiting for the CurseForge author dashboard's numbers";
+  }
+  const nw = st.newest;
+  $("o-release").textContent = nw ? n0(nw.day1 ?? nw.downloads) : "-";
+  $("o-release-sub").textContent = nw ? short(nw.name) + (nw.day1 != null ? " in its first 24 hours" : `, out ${nw.hours} h so far`) +
+    (st.inUse && st.inUse.name !== nw.name ? ` · ${short(st.inUse.name)}: ${n0(st.inUse.n)} in its day` : "") +
+    " · CurseForge" : "no CurseForge numbers yet";
+  const su = data.signups || { accounts: 0, week: 0 };
+  $("o-accounts").textContent = n0(su.accounts);
+  $("o-accounts-sub").textContent = `${n0(su.week)} new in the last 7 days · admin and test accounts left out`;
+  $("o-returning").textContent = r ? n0(r.returned) : "-";
+  $("o-returning-sub").textContent = r ? `${pct(r.returned, r.accounts)} of accounts · signed in or synced on 2+ days` : "";
+  $("o-companions").textContent = c ? n0(c.week) : "-";
+  $("o-companions-sub").textContent = c ? "different installs in the last 7 days" +
+    (c.internal?.installs ? ` · ${c.internal.installs} internal build${c.internal.installs === 1 ? "" : "s"} left out` : "")
+    : "none yet: the companion checks in from its next release";
+  const open = list => (list || []).filter(x => x.status !== "done").length;
+  const fb = open(data.feedback), tr = open(data.translations) + open(data.translationReports), vo = open(data.voices);
+  $("o-open").textContent = n0(fb + tr + vo);
+  $("o-open-sub").textContent = `${fb} feedback · ${tr} translation · ${vo} voice`;
+  const days = (st.days || []).slice(0, 14).reverse();
+  pairChart($("c-overview-cf"), days.map(d => d.day), days.map(d => d.curseforge?.n ?? 0), days.map(d => d.unique),
+    "downloads", "unique downloaders");
+}
 
 // Single-series bar chart: thin bars with a rounded top, recessive grid, hover tooltip, and a table fallback.
 function barChart(fig, days, values, label) {
@@ -433,15 +680,235 @@ function barChart(fig, days, values, label) {
       : el("p", { class: "ad-empty", text: "Nothing in the last " + days.length + " days." })));
 }
 
+// Two series per day: a total bar with its unique part inside it (author numbers; missing days draw no inner bar).
+function pairChart(fig, days, totals, uniques, totalName, uniqueName) {
+  fig.querySelectorAll("svg, .ad-tip, details, .ad-legend").forEach(n => n.remove());
+  const W = 520, H = 170, L = 34, R = 4, T = 8, B = 22, NS = "http://www.w3.org/2000/svg";
+  const max = Math.max(1, ...totals, ...uniques.filter(v => v != null));
+  const nice = x => { const p = Math.pow(10, Math.floor(Math.log10(x))); return [1, 2, 5, 10].map(m => m * p).find(v => v >= x); };
+  const step = max <= 4 ? 1 : nice(max / 4);
+  const top = Math.ceil(max / step) * step, y = v => T + (H - T - B) * (1 - v / top);
+  const slot = (W - L - R) / Math.max(1, days.length), bw = Math.max(2, slot - 2);
+  const svg = document.createElementNS(NS, "svg");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", fig.querySelector("h3").textContent);
+  const add = (tag, attrs, text) => {
+    const n = document.createElementNS(NS, tag);
+    for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+    if (text != null) n.textContent = text;
+    svg.appendChild(n);
+    return n;
+  };
+  for (let v = 0; v <= top; v += step) {
+    add("line", { x1: L, x2: W - R, y1: y(v), y2: y(v), class: "grid" });
+    add("text", { x: L - 6, y: y(v) + 4, "text-anchor": "end", class: "axis" }, v >= 1000 ? (v / 1000) + "k" : v);
+  }
+  if (days.length) [0, Math.floor(days.length / 2), days.length - 1].forEach(i =>
+    add("text", { x: L + slot * i + slot / 2, y: H - 6, "text-anchor": "middle", class: "axis" }, fmtDay(days[i])));
+  const tip = el("div", { class: "ad-tip", hidden: "" });
+  days.forEach((d, i) => {
+    const x = L + slot * i + 1, t = totals[i] || 0, u = uniques[i];
+    const hit = add("rect", { x: L + slot * i, y: T, width: slot, height: H - T - B, class: "hit" });
+    if (t) add("rect", { x, y: y(t), width: bw, height: y(0) - y(t), rx: Math.min(3, bw / 2), class: "bar total" });
+    if (u) add("rect", { x: x + bw * 0.2, y: y(u), width: bw * 0.6, height: y(0) - y(u), rx: Math.min(2, bw / 4), class: "bar uniq" });
+    hit.addEventListener("mouseenter", () => {
+      tip.replaceChildren(el("strong", { text: fmtDay(d) }), `: ${n0(t)} ${totalName}` + (u != null ? ` · ${n0(u)} ${uniqueName}` : ""));
+      const fr = fig.getBoundingClientRect(), sr = svg.getBoundingClientRect();
+      tip.style.left = (sr.left - fr.left + sr.width * (L + slot * i + slot / 2) / W) + "px";
+      tip.style.top = (sr.top - fr.top + sr.height * y(t) / H - 6) + "px";
+      tip.hidden = false;
+    });
+    hit.addEventListener("mouseleave", () => { tip.hidden = true; });
+  });
+  const legend = el("p", { class: "ad-legend" }, el("span", { class: "sw total" }), " " + totalName,
+    uniques.some(v => v != null) ? el("span", { class: "sw uniq" }) : null, uniques.some(v => v != null) ? " " + uniqueName : null);
+  fig.append(svg, tip, legend);
+  const rows = days.map((d, i) => [d, totals[i], uniques[i]]).filter(([, t]) => t).reverse();
+  fig.append(el("details", {}, el("summary", { text: "Show as table" }),
+    rows.length ? el("table", {}, ...rows.map(([d, t, u]) => el("tr", {}, el("td", { text: fmtDay(d) }), el("td", { text: n0(t) }),
+      el("td", { text: u == null ? "" : n0(u) + " unique" }))))
+      : el("p", { class: "ad-empty", text: "Nothing yet." })));
+}
+
+// ---- sign-ins (LOR-304) ----
+// In order: as object keys, "60" would come first (integer-like keys always do).
+const LEVEL_NAMES = [["1-19", "1–19"], ["20-39", "20–39"], ["40-59", "40–59"], ["60", "60"], ["unknown", "Unknown"]];
+const PLAYED_KEYS = ["<1d", "1-3d", "3d+", "unknown"];
+const n0 = n => (n || 0).toLocaleString();
+const share = (n, of) => n0(n) + (of ? " (" + pct(n, of) + ")" : "");
+
+function renderActivity() {
+  const a = data.activity || { signedIn: { today: 0, week: 0, month: 0 }, days: [], profiles: [], updates: [],
+    returning: { accounts: 0, returned: 0, returnedSignin: 0, owners: 0, ownersReturned: 0, ownersReturnedSignin: 0 },
+    players: { grid: [], veteran: 0, between: 0, new: 0 } };
+  for (const k of ["today", "week", "month"]) $("s-" + k).textContent = n0(a.signedIn[k]);
+  // Returning, here and in the funnel's "Came back": seen on 2+ different days, signed in or synced.
+  const r = a.returning;
+  $("s-returning").textContent = n0(r.returned);
+  $("s-returning-sub").textContent = `${pct(r.returned, r.accounts)} of ${n0(r.accounts)} · signed in or synced on 2+ days · ` +
+    `${n0(r.returnedSignin)} by signing in alone`;
+  $("s-owners").textContent = n0(r.ownersReturned);
+  $("s-owners-sub").textContent = `${pct(r.ownersReturned, r.owners)} of ${n0(r.owners)} profile owners · ` +
+    `${n0(r.ownersReturnedSignin)} by signing in alone`;
+  $("s-note").textContent = a.since
+    ? "Sign-in days kept since " + fmtDay(a.since) + ". The first ones come from sign-ins still open when counting began."
+    : "No sign-ins noted yet.";
+  const days30 = lastDays(30), signedOn = d => a.days.find(x => x.day === d)?.n || 0;
+  barChart($("c-signins"), days30, days30.map(signedOn), n => n + (n === 1 ? " account signed in" : " accounts signed in"));
+
+  const newAccounts = d => (data.signups?.days || []).find(x => x.day === d)?.n || 0;
+  const updates = (d, m) => a.updates.filter(x => x.day === d && x.metric === m).reduce((t, x) => t + x.n, 0);
+  $("s-days").replaceChildren(...lastDays(14).reverse().map(d => {
+    const p = a.profiles.find(x => x.day === d);
+    return el("tr", {}, el("td", { text: fmtDay(d) }),
+      ...[newAccounts(d), signedOn(d), p?.n, p?.public, updates(d, "profile.paste"), updates(d, "profile.sync")]
+        .map(n => el("td", { text: n0(n) })));
+  }));
+  $("s-updates-note").textContent = (a.updatesSince ? "Profile updates counted since " + fmtDay(a.updatesSince) + "."
+    : "Profile updates are counted from now on.") + " They're plain numbers, so they include any left-out account's.";
+
+  const v = a.players, profiles = v.veteran + v.between + v.new;
+  for (const k of ["veteran", "between", "new"]) {
+    $("v-" + k).textContent = n0(v[k]);
+    $("v-" + k + "-sub").textContent = pct(v[k], profiles) + " of profiles";
+  }
+  const cell = (l, p) => v.grid.find(g => g.level === l && g.played === p);
+  $("v-grid").replaceChildren(...(profiles ? LEVEL_NAMES.filter(([l]) => l !== "unknown" || PLAYED_KEYS.some(p => cell(l, p)))
+    .map(([l, name]) => el("tr", {}, el("td", { text: name }), ...PLAYED_KEYS.map(p => {
+      const g = cell(l, p);
+      return el("td", { class: g ? "ad-kind-" + g.kind : "", text: g ? n0(g.n) : "" });
+    })))
+    : [el("tr", {}, el("td", { colspan: "5", class: "ad-empty", text: "No profiles yet." }))]));
+}
+
+// ---- funnel (LOR-10) ----
+function renderFunnel() {
+  const f = data.funnel;
+  if (!f) { $("f-stages").replaceChildren(el("li", { class: "ad-empty", text: "Couldn't count the funnel." })); return; }
+  const stages = funnelStages(f);
+  const top = Math.max(1, ...stages.map(x => x.n || 0));
+  $("f-stages").replaceChildren(...stages.map(x => el("li", { class: x.n == null ? "ad-off" : "" },
+    el("span", { class: "ad-funnel-name", text: x.name }),
+    el("span", { class: "ad-funnel-num", text: x.n == null ? "not counted" : n0(x.n) }),
+    el("span", { class: "ad-rate-bar" }, el("span", { style: `width:${x.n == null ? 0 : (100 * x.n / top).toFixed(1)}%` })),
+    el("span", { class: "ad-sub", text: [x.share && `${x.share.pct} of ${x.share.of}`, x.note].filter(Boolean).join(" · ") }))));
+  const s = f.stages, sd = f.signedInDownloads;
+  $("f-signed").textContent = sd.downloads
+    ? `Downloaded while signed in: ${n0(sd.downloads)} site download${sd.downloads === 1 ? "" : "s"} by ${n0(sd.accounts)} ` +
+      `account${sd.accounts === 1 ? "" : "s"} since ${fmtDay(sd.since)}.`
+    : "Downloaded while signed in: none yet. Most people download before they have an account; signing in is never needed.";
+
+  const thisWeek = f.weeks.at(-1)?.week, cfWeeks = Object.fromEntries((f.stores?.author?.weeks || []).map(w => [w.week, w]));
+  $("f-weeks").replaceChildren(...f.weeks.slice().reverse().map(w => el("tr", {},
+    el("td", { text: fmtDay(w.week) + (w.week === thisWeek ? " (so far)" : "") }),
+    el("td", { text: cfWeeks[w.week] ? n0(cfWeeks[w.week].unique) : "" }),
+    ...[w.downloads, f.companionWeeks?.[w.week], w.accounts, w.profiles, w.signedIn, w.synced, w.back]
+      .map(n => el("td", { text: n0(n) })))));
+
+  const started = (week, k) => new Date(Date.parse(week + "T00:00:00Z") + 7 * k * 864e5).toISOString().slice(0, 10) <= thisWeek;
+  $("f-cohorts").replaceChildren(...(f.cohorts.length ? f.cohorts.slice().reverse().map(c => el("tr", {},
+    el("td", { text: fmtDay(c.week) }), el("td", { text: n0(c.accounts) }), el("td", { text: share(c.returned, c.accounts) }),
+    ...[1, 2, 3, 4].map(k => el("td", { text: started(c.week, k) ? share(c["w" + k], c.accounts) : "" }))))
+    : [el("tr", {}, el("td", { colspan: "7", class: "ad-empty", text: "No accounts made in the last 8 weeks." }))]));
+  $("f-cohort-note").textContent = "Accounts by the week they were made (their first sign-in). Active: signed in on " +
+    "the site or synced from the companion. Week 1 is the week after their first; this week is still filling in.";
+  renderStores(f.stores);
+  renderCompanions(f.companions);
+}
+
+// ---- CurseForge and GitHub (LOR-421) ----
+const empty = (cols, text) => [el("tr", {}, el("td", { colspan: String(cols), class: "ad-empty", text }))];
+const hhmm = iso => new Date(iso).toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+// A day's count by where it came from: the author dashboard's or measured between snapshots as it is, "since 8:24"
+// for today's from its first snapshot, "≈" for one worked out from each release's downloads and the hours it was newest.
+const countText = c => !c ? "" : c.kind === "partial" ? `${n0(c.n)} since ${hhmm(c.since)}` : c.kind === "estimate" ? "≈ " + n0(c.n) : n0(c.n);
+
+function renderStores(st) {
+  const s = st || { days: [], releases: [], packs: [], author: null };
+  const rows = s.days.slice(0, 14);
+  // A column with nothing at all says once where it starts instead of a column of dashes.
+  const blank = key => rows.every(d => !d[key]);
+  const from = s.firstFull ? "from " + fmtDay(s.firstFull) : "not yet";
+  $("f-store-days").replaceChildren(...(rows.length ? rows.map((d, i) => el("tr", {}, el("td", { text: fmtDay(d.day) }),
+    el("td", { text: n0(d.site) }),
+    el("td", { text: blank("curseforge") ? (i ? "" : from) : countText(d.curseforge) }),
+    el("td", { class: "ad-small", text: d.releases.slice(0, 3).map(r => short(r.name) + " " + n0(r.n)).join(" · ") }),
+    el("td", { text: blank("packs") ? (i ? "" : from) : countText(d.packs) }),
+    el("td", { text: blank("github") ? (i ? "" : from) : countText(d.github) })))
+    : empty(6, "No numbers yet.")));
+  const a = s.author;
+  $("f-store-note").textContent = [
+    a ? `CurseForge's author dashboard through ${fmtDay(a.last)}.` : null,
+    s.since ? `Snapshots since ${fmtDay(s.since)}: a day is counted from one day's last snapshot to the next's; today's ` +
+      "from its first, \"since\" that time." : null,
+    "≈: worked out from each release's downloads, spread over the hours it was the newest.",
+    "Site: add-on downloads through this site's links. Most CurseForge downloads are the app updating the add-on, so read them as installs in use, not new players.",
+  ].filter(Boolean).join(" ");
+
+  const days = s.days.slice().reverse();
+  pairChart($("c-cf-days"), days.map(d => d.day), days.map(d => d.curseforge?.n ?? 0), days.map(d => d.unique),
+    "downloads", "unique downloaders");
+  pairChart($("c-cf-packs"), days.map(d => d.day), days.map(d => d.packs?.n ?? 0), days.map(d => d.packsUnique),
+    "downloads", "downloaders (each pack's added up)");
+  $("f-cf-weeks").replaceChildren(...(a?.weeks.length ? a.weeks.map(w => el("tr", {}, el("td", { text: fmtDay(w.week) }),
+    el("td", { text: n0(w.downloads) }), el("td", { text: n0(w.unique) }), el("td", { text: n0(w.packsDownloads) }),
+    el("td", { text: n0(w.packsUnique) }))) : empty(5, "Waiting for the author dashboard's numbers.")));
+  $("f-cf-note").textContent = a
+    ? `Unique downloaders are distinct people in that week (CurseForge's own count), never daily numbers added up. ` +
+      `Add-on downloads since ${fmtDay(a.cumulative.since)}: ${n0(a.cumulative.downloads)}.` +
+      (a.windowUserDays != null ? ` User-days over the dashboard's last 90 days (each day's downloaders added up): ${n0(a.windowUserDays)}.` : "") +
+      ` Updated ${fmtDate(a.updated)}.`
+    : "Unique downloaders come only from CurseForge's author dashboard: a routine in Mike's browser posts them to " +
+      "/api/admin/curseforge. Until then, everything here comes from cfwidget's public counts.";
+
+  $("f-releases").replaceChildren(...(s.releases.length ? s.releases.map(r => el("tr", {},
+    el("td", { text: short(r.name) }), el("td", { text: r.uploaded ? fmtDate(r.uploaded) : "" }),
+    el("td", { text: r.day1 == null ? "–" : n0(r.day1) }), el("td", { text: r.unique1 == null ? "–" : n0(r.unique1) }),
+    el("td", { text: n0(r.downloads) }),
+    el("td", { text: r.current == null ? "newest" : r.current < 48 ? r.current + " h" : Math.round(r.current / 24) + " days" })))
+    : empty(6, "No numbers yet.")));
+  // The packs' growth: over 7 days of snapshots, or since the first one until there are 7 days of them.
+  const since = s.packs.find(p => p.recent && p.recent.days == null)?.recent.since;
+  $("f-packs-recent").textContent = since ? "Since " + fmtDay(since) : "Last 7 days";
+  const rest = s.packs.slice(10), restRecent = rest.some(p => p.recent) ? rest.reduce((t, p) => t + (p.recent?.n || 0), 0) : null;
+  const recentText = n => n == null ? "" : n0(n);
+  $("f-packs").replaceChildren(...(s.packs.length ? [...s.packs.slice(0, 10).map(p => el("tr", {},
+    el("td", { text: p.name.replace(/^Lore Forever:? /, "") }), el("td", { text: n0(p.downloads) }), el("td", { text: recentText(p.recent?.n) }))),
+    ...(rest.length ? [el("tr", {}, el("td", { text: rest.length + " more projects" }),
+      el("td", { text: n0(rest.reduce((t, p) => t + p.downloads, 0)) }), el("td", { text: recentText(restRecent) }))] : [])]
+    : empty(3, "No numbers yet.")));
+}
+
+// ---- companion check-ins (LOR-422) ----
+function renderCompanions(c) {
+  const k = c || { since: null, today: 0, week: 0, month: 0, installs: 0, returning: 0, days: [], versions: [], internal: null };
+  for (const key of ["today", "week", "month", "returning"]) $("k-" + key).textContent = n0(k[key]);
+  $("k-returning-sub").textContent = "seen on 2+ days · " + pct(k.returning, k.installs) + " of " + n0(k.installs) + " installs";
+  $("k-versions").replaceChildren(...(k.versions.length ? k.versions.map(v => el("tr", {},
+    el("td", { text: v.companion || "?" }), el("td", { text: v.addon || "?" }), el("td", { text: n0(v.n) })))
+    : empty(3, "None in the last 7 days.")));
+  const internal = k.internal?.installs ? ` Internal builds left out: ${k.internal.installs} install${k.internal.installs === 1 ? "" : "s"} (` +
+    k.internal.versions.map(v => `companion ${v.companion || "?"}, add-on ${v.addon || "?"}`).join("; ") + ").": "";
+  $("k-note").textContent = (k.since && k.installs
+    ? "Check-ins since " + fmtDay(k.since) + ", kept 90 days. Players can turn them off in the companion's settings."
+    : "No check-ins from players yet: the companion sends them once a day from its next release, unless the player turns it off.") +
+    " A companion without a release version (0.1.0) or marked -dev or -preview is an internal build." + internal;
+  const days30 = lastDays(30);
+  barChart($("c-companions"), days30, days30.map(d => k.days.find(x => x.day === d)?.n || 0),
+    n => n + (n === 1 ? " install" : " installs"));
+}
+
 // ---- usage (LOR-413) ----
 const FEATURES = [
-  ["play", "Narrations started"], ["done", "Narrations heard to the end"], ["ask", "Questions typed"],
+  ["play", "Narrations started"], ["done", "Narrations heard to the end"],
+  ["autoplay", "… started by themselves"], ["userplay", "… started with Play"], ["ask", "Questions typed"],
   ["faq", "Suggested questions picked"], ["live", "Questions sent to live answers"], ["panel", "Lore panel opens"],
-  ["journey", "Journey opens"], ["pic", "Pictures taken"], ["chat", "Messages to Sam"], ["newchat", "New Sam chats"],
+  ["journey", "Journey opens"], ["pic", "Pictures taken"], ["chat", "Messages to Willo"], ["newchat", "New Willo chats"],
 ];
 const NARRATION_KINDS = [
   ["zone", "Zones"], ["place", "Places"], ["person", "People"], ["quest", "Quest stories"],
-  ["dialogue", "Quest dialogue"], ["answer", "Answers"], ["topic", "Topics"], ["other", "Other"],
+  ["dialogue", "Quest dialogue"], ["answer", "Answers"], ["topic", "Topics"], ["book", "Books"], ["other", "Other"],
 ];
 const pct = (a, b) => b ? Math.round(100 * a / b) + "%" : "-";
 const per = (a, b) => b ? (a / b).toFixed(a / b < 10 ? 1 : 0) : "-";
@@ -463,8 +930,12 @@ function renderUsage() {
   $("u-window").textContent = u.window.players.toLocaleString();
   $("u-window-sub").textContent = u.window.counted + " with counts";
   const started = sum(windowOf("play"), "n"), heard = sum(windowOf("done"), "n");
+  // LOR-420: the same rate for the narrations that started by themselves and the ones players started (newer add-ons).
+  const total = by => sum(windowOf(by), "n");
+  const auto = [total("autodone"), total("autoplay")], user = [total("userdone"), total("userplay")];
   $("u-done").textContent = pct(heard, started);
-  $("u-done-sub").textContent = heard.toLocaleString() + " of " + started.toLocaleString() + " narrations started";
+  $("u-done-sub").textContent = heard.toLocaleString() + " of " + started.toLocaleString() + " narrations started" +
+    (auto[1] || user[1] ? " · by itself " + pct(...auto) + ", with Play " + pct(...user) : "");
   barChart($("c-usage"), days, days.map(d => dayRow(d).players), n => n + (n === 1 ? " syncing player" : " syncing players"));
 
   // Players: who used it at least once in the window (for play and done, the most of any one kind: a lower bound).
@@ -478,11 +949,19 @@ function renderUsage() {
       el("td", {}, sparkline(days, trend, name)));
   }));
 
-  const kinds = NARRATION_KINDS.map(([k, name]) => [name, u.window.metrics["play." + k]?.n || 0, u.window.metrics["done." + k]?.n || 0])
+  // Each kind's started, heard and rate, then the same rate for those that started by themselves and with Play
+  // (LOR-420; "-" where no add-on sent the split), under a first row for every kind together.
+  const metric = m => u.window.metrics[m]?.n || 0;
+  const counts = get => ["play", "done", "autoplay", "autodone", "userplay", "userdone"].map(get);
+  const kinds = NARRATION_KINDS.map(([k, name]) => [name, ...counts(by => metric(by + "." + k))])
     .filter(([, s, d]) => s || d);
-  $("u-kinds").replaceChildren(...(kinds.length ? kinds.map(([name, s, d]) => el("tr", {},
+  const split = (d, s) => s ? el("td", { title: d.toLocaleString() + " of " + s.toLocaleString() + " heard to the end",
+    text: pct(d, s) }) : el("td", { class: "ad-small", text: "-" });
+  const kindRow = ([name, s, d, as, ad, us, ud]) => el("tr", {},
     el("td", { text: name }), el("td", { text: s.toLocaleString() }), el("td", { text: d.toLocaleString() }),
-    el("td", {}, rateBar(d, s)))) : [el("tr", {}, el("td", { colspan: "4", class: "ad-empty", text: "No narrations counted yet." }))]));
+    el("td", {}, rateBar(d, s)), split(ad, as), split(ud, us));
+  $("u-kinds").replaceChildren(...(kinds.length ? [kindRow(["All kinds", ...counts(total)]), ...kinds.map(kindRow)]
+    : [el("tr", {}, el("td", { colspan: "6", class: "ad-empty", text: "No narrations counted yet." }))]));
 
   // Profile pages (LOR-151): the site's own daily counts.
   const siteOn = (d, m) => (data.site || []).filter(r => r.day === d && r.metric === m).reduce((a, r) => a + r.n, 0);
@@ -505,6 +984,90 @@ function renderUsage() {
   $("u-sources").replaceChildren(...(sources.length ? sources.map(([src, r]) => el("tr", {},
     el("td", {}, el("code", { text: src })), el("td", { text: String(r.installer) }), el("td", { text: String(r.zip) }),
     el("td", { text: String(r.total) }))) : [el("tr", {}, el("td", { colspan: "4", class: "ad-empty", text: "None yet." }))]));
+}
+
+// ---- feature use from every companion install (LOR-435, lib/featureuse.js featureReport) ----
+const PICKS = [
+  ["voice", "Voice", { default: "Default narrator", female: "Female narrator", edition: "An edition's own voice",
+                       other: "Another voice", none: "No narration" }],
+  ["lang", "Language shown", null], ["client", "Game client's language", null],
+];
+const SETTING_NAMES = {
+  autoZone: "Narrate on arrival", onDemand: "Narration only when I press Play", narrateFlights: "Narrate flights",
+  questDialogue: "Quest dialogue", readBooks: "Read books", skipHeard: "Skip what this character heard",
+  journey: "Remember my journey", automaticPictures: "Milestone pictures", capture: "Keep the quest text you see",
+  liveStrip: "Live game info (add-on)", minimap: "Minimap button", floatPlayer: "Floating player",
+  zoneNudge: "Zone hint in chat", unitTooltips: "Lore on tooltips", showSpoilers: "Show spoilers",
+  voiceMatchRace: "Voices suit the race", tips: "Login tips",
+  send_text: "Companion: send new Forever text", profile_sync: "Companion: keep my profile up to date",
+  pictures: "Companion: picture book", pictures_auto: "Companion: pictures to the profile by themselves",
+  live_game: "Companion: live game info", daily_checkin: "Companion: share anonymous usage counts",
+  game_dir: "Companion: game folder", connected: "Companion: profile connected",
+};
+const levelName = lv => lv < 0 ? "Unknown" : lv >= 60 ? "60" : lv === 0 ? "1–9" : `${lv}–${lv + 9}`;
+// sparkline, its hover text as each day's share of installs.
+function shareSpark(days, shares, name) {
+  const svg = sparkline(days, shares, name);
+  const text = name + ", share of that day's installs: " +
+    days.map((d, i) => fmtDay(d) + " " + (shares[i] == null ? "none" : Math.round(100 * shares[i]) + "%")).join(", ");
+  svg.querySelector("title").textContent = text;
+  svg.setAttribute("aria-label", text);
+  return svg;
+}
+
+function renderFeatures() {
+  const f = data.features;
+  const days30 = lastDays(30);
+  const none = (id, cols, text) => $(id).replaceChildren(...empty(cols, text));
+  if (!f || !f.active.d30) {
+    for (const id of ["fu-active", "fu-top", "fu-days", "fu-minutes"]) $(id).textContent = "-";
+    for (const id of ["fu-active-sub", "fu-top-sub", "fu-minutes-sub"]) $(id).textContent = "";
+    $("fu-note").textContent = "No counts yet: companions send them with their daily check-in from their next release, " +
+      "unless the player turns off Share anonymous usage counts.";
+    none("fu-list", 6, "No counts yet."); none("fu-levels", 1, "No counts yet."); none("fu-picks", 3, "No counts yet.");
+    $("fu-levels-head").replaceChildren(el("th", { text: "Feature" }));
+    barChart($("c-features"), days30, days30.map(() => 0), n => n + (n === 1 ? " install" : " installs"));
+    return;
+  }
+  const a = f.active, nu = f.returning.new, back = f.returning.returning;
+  const ranked = f.features.map(x => ({ ...x, d14: f.use[x.id]?.d14 || 0, d30: f.use[x.id]?.d30 || 0 }))
+    .sort((p, q) => q.d30 - p.d30 || q.d14 - p.d14);
+  $("fu-active").textContent = n0(a.d14);
+  $("fu-active-sub").textContent = `last 14 days · ${n0(a.d30)} in 30 days`;
+  $("fu-top").textContent = pct(ranked[0].d30, a.d30);
+  $("fu-top-sub").textContent = ranked[0].d30 ? ranked[0].name + " · of installs, last 30 days" : "";
+  const p = f.play;
+  $("fu-days").textContent = per(p.played || p.days, a.d30);
+  $("fu-minutes").textContent = p.played ? n0(Math.round(p.minutes / p.played)) : "-";
+  $("fu-minutes-sub").textContent = `in game with the add-on, per day played · ${n0(p.logins)} game sessions`;
+  $("fu-note").textContent = "From the companion's daily check-in on every install, with or without an account, " +
+    "unless the player turned off Share anonymous usage counts. Players with the add-on alone can't send counts " +
+    "(CurseForge's numbers count them). Internal builds are left out. New: checked in on one day only; returning: on 2+ days" +
+    ` (${n0(nu.installs)} new, ${n0(back.installs)} returning in 30 days).`;
+  const byDay = Object.fromEntries((f.trend || []).map(d => [d.day, d]));
+  barChart($("c-features"), days30, days30.map(d => byDay[d]?.installs || 0), n => n + (n === 1 ? " install" : " installs"));
+
+  $("fu-list").replaceChildren(...ranked.map(x => el("tr", {}, el("td", { text: x.name }),
+    el("td", { title: `${n0(x.d14)} of ${n0(a.d14)} installs`, text: pct(x.d14, a.d14) }),
+    el("td", { title: `${n0(x.d30)} of ${n0(a.d30)} installs` }, rateBar(x.d30, a.d30)),
+    el("td", { text: pct(nu.use[x.id] || 0, nu.installs) }), el("td", { text: pct(back.use[x.id] || 0, back.installs) }),
+    el("td", {}, shareSpark(days30, days30.map(d => byDay[d]?.installs ? (byDay[d].use[x.id] || 0) / byDay[d].installs : null),
+      x.name)))));
+
+  const levels = f.levels.filter(l => l.installs);
+  $("fu-levels-head").replaceChildren(el("th", { text: "Feature" }), ...levels.map(l =>
+    el("th", { title: `${n0(l.installs)} install${l.installs === 1 ? "" : "s"}`, text: levelName(l.lv) })));
+  $("fu-levels").replaceChildren(...ranked.slice(0, 12).map(x => el("tr", {}, el("td", { text: x.name }),
+    ...levels.map(l => el("td", { text: pct(l.use[x.id] || 0, l.installs) })))));
+
+  // Picks: who had each voice, language and setting on at some point in the 30 days (several, if they changed it).
+  const of = prefix => Object.entries(f.metrics).filter(([m]) => m.startsWith(prefix + "."))
+    .map(([m, n]) => [m.slice(prefix.length + 1), n]).sort((p, q) => q[1] - p[1]);
+  const group = (title, rows, name) => rows.length ? [el("tr", {}, el("th", { colspan: "3", text: title })),
+    ...rows.map(([k, n]) => el("tr", {}, el("td", { text: name(k) }), el("td", { text: n0(n) }), el("td", { text: pct(n, a.d30) })))] : [];
+  const picks = [...PICKS.flatMap(([prefix, title, names]) => group(title, of(prefix), k => names?.[k] || k)),
+                 ...group("Settings on", of("on"), k => SETTING_NAMES[k] || k)];
+  $("fu-picks").replaceChildren(...(picks.length ? picks : empty(3, "None sent yet.")));
 }
 
 // A row's trend: a 2px line over the days and a dot on the last one; a day nobody sent counts leaves a gap. Hovering
@@ -812,6 +1375,16 @@ function visibleContacts() {
 const profileText = u => u.handle ? `${u.character || u.handle}${u.char_level ? ", " + u.char_level : ""}${u.char_class ? " " + u.char_class : ""}` : "";
 const linkHosts = u => (u.links || "").split(/\s+/).filter(x => /^https:\/\//.test(x));
 
+// Leave an account out of every count on this page, or count it again (lib/activity.js setExclusion); the account stays.
+const LEFT_OUT = { admin: "Left out of counts: your admin account",
+                   config: "Left out of counts: ANALYTICS_EXCLUDE", manual: "Left out of counts" };
+function countedToggle(u) {
+  const out = Boolean(u.excluded) && u.excluded !== "counted";
+  const b = el("button", { type: "button", class: "ad-link", text: out ? "Count again" : "Leave out of counts" });
+  b.addEventListener("click", () => act({ action: out ? "count-account" : "exclude-account", id: u.id }, () => load()));
+  return el("span", { class: "ae-sub" }, out ? LEFT_OUT[u.excluded] + " · " : "", b);
+}
+
 function renderContacts() {
   const list = visibleContacts(), count = list.filter(c => !c.test).length, tests = list.length - count;
   $("co-count").textContent = count + (count === 1 ? " contact" : " contacts") + (tests ? " · " + tests + " test" : "");
@@ -834,6 +1407,7 @@ function renderContacts() {
     return el("tr", {},
     el("td", {}, el("a", { href: "mailto:" + encodeURIComponent(c.email).replace("%40", "@"), text: c.email }),
       c.user ? el("span", { class: "ae-sub", text: "Contributor account" }) : null,
+      c.user ? countedToggle(c.user) : null,
       c.test ? el("span", { class: "ad-test", text: "test" }) : null),
     subscription,
     el("td", { text: u.display_name || "" }),
@@ -854,19 +1428,29 @@ async function act(body, onDone) {
   catch (e) { if (e.message !== "unauthorized") alert("That didn't work: " + e.message); }
 }
 
-// Section bar: mark the section whose heading was scrolled past last.
-const navLinks = [...document.querySelectorAll("#nav a")];
-function markSection() {
-  const line = $("nav").getBoundingClientRect().bottom + 24;
-  let current = navLinks[0];
-  for (const a of navLinks) if ($(a.hash.slice(1)).getBoundingClientRect().top <= line) current = a;
-  if (innerHeight + scrollY >= document.documentElement.scrollHeight - 2) current = navLinks[navLinks.length - 1];
-  navLinks.forEach(a => a.setAttribute("aria-current", a === current));
-  // On a narrow screen the bar scrolls sideways: keep the marked link in view (sideways only, never the page).
-  const nav = $("nav"), left = current.offsetLeft - nav.offsetLeft, right = left + current.offsetWidth;
+// ---- tabs: one shown at a time, chosen by the address's # (so /admin#growth or /admin#contacts links straight there) ----
+const TABS = ["overview", "growth", "players", "community"];
+const SECTION_TAB = { funnel: "growth", curseforge: "growth", downloads: "growth", companions: "growth",
+                      profiles: "players", signins: "players", features: "players", usage: "players" };
+const SUBS = ["feedback", "voices", "clip-reports", "translations", "edits", "contributions", "contacts"];
+let sub = "feedback", clipsLoaded = false;
+function route() {
+  const id = decodeURIComponent(location.hash.slice(1));
+  const tab = TABS.includes(id) ? id : SECTION_TAB[id] || (SUBS.includes(id) ? "community" : "overview");
+  if (SUBS.includes(id)) sub = id;
+  document.querySelectorAll(".ad-tab").forEach(t => { t.hidden = t.dataset.tab !== tab; });
+  document.querySelectorAll("#nav a").forEach(a => a.setAttribute("aria-current", a.dataset.tab === tab));
+  document.querySelectorAll(".ad-sub-tab").forEach(s => { s.hidden = s.dataset.sub !== sub; });
+  document.querySelectorAll("#subnav a").forEach(a => a.setAttribute("aria-current", a.dataset.sub === sub));
+  // The clip reports come from their own endpoint: only once Community is opened.
+  if (tab === "community" && data && !clipsLoaded) { clipsLoaded = true; loadClipReports(); }
+  if (SECTION_TAB[id]) $(id).scrollIntoView(); else scrollTo(0, 0);
+  // On a narrow screen the bar scrolls sideways: keep the chosen tab in view (sideways only).
+  const nav = $("nav"), current = nav.querySelector(`a[data-tab="${tab}"]`);
+  const left = current.offsetLeft - nav.offsetLeft, right = left + current.offsetWidth;
   if (left < nav.scrollLeft || right > nav.scrollLeft + nav.clientWidth) nav.scrollLeft = left - 16;
 }
-addEventListener("scroll", () => requestAnimationFrame(markSection), { passive: true });
+addEventListener("hashchange", route);
 
 // ---- wiring ----
 $("login-form").addEventListener("submit", e => {

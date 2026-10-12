@@ -7,8 +7,13 @@
 //   GET /download/complete  -> 302 to .../releases/latest/download/LoreForever.zip (counted as "complete")
 // ?src=<where the link was> (LOR-413; the lore pages send ?src=lore, and header.js carries a visit's ?src= onto these
 // links) also counts it per day and source in download_sources. Only a short slug: anything else counts as "other".
+// Signed in (LOR-8): the download also counts for the account, in download_accounts (lib/activity.js), next to the
+// anonymous count, so /admin can tell how many accounts downloaded. Signing in is never needed, and that count never
+// holds up or stops the redirect: it runs after the response has gone (waitUntil), and a failure is dropped.
 
 import { BOT } from "../../lib/usage.js";   // link previews and crawlers fetch links too: not downloads
+import { currentUser } from "../../lib/accounts.js";
+import { countAccountDownload } from "../../lib/activity.js";
 
 const RELEASE = "https://github.com/mliudev/LoreForever/releases/latest/download/";
 const FILES = { installer: "LoreForever-Setup.exe", zip: "LoreForever.zip", complete: "LoreForever.zip" };
@@ -18,7 +23,14 @@ const SOURCES = `CREATE TABLE IF NOT EXISTS download_sources (
   day TEXT NOT NULL, file TEXT NOT NULL, src TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (day, file, src))`;
 const SRC = /^[a-z0-9][a-z0-9_-]{0,31}$/;
 
-export async function onRequestGet({ params, env, request }) {
+async function countForAccount(env, request, file, day) {
+  try {
+    const user = await currentUser(env, request);   // null at once without a session cookie
+    if (user) await countAccountDownload(env, user.id, file, day);
+  } catch (e) { /* never block a download on the counter */ }
+}
+
+export async function onRequestGet({ params, env, request, waitUntil }) {
   const file = FILES[params.file];
   if (!file) return new Response("Not found", { status: 404 });
   if (request.method === "GET" && env.DB && !BOT.test(request.headers.get("user-agent") || "")) {
@@ -37,6 +49,8 @@ export async function onRequestGet({ params, env, request }) {
         ] : []),
       ]);
     } catch (e) {}   // never block a download on the counter
+    const counting = countForAccount(env, request, params.file, day);
+    if (waitUntil) waitUntil(counting); else await counting;
   }
   return Response.redirect(RELEASE + file, 302);
 }

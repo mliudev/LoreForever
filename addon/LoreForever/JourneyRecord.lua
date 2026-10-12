@@ -1,7 +1,7 @@
 -- "Copy my journey record": this character's journey as plain, readable text, in a highlighted box the player copies
 -- with Ctrl+C (a highlighted edit box copies out up to 256 KB on these clients). The record is built from what
--- Journey.lua keeps (Journey.Char()): the character sheet, new places in order, quests done, people met, bosses and
--- notable kills, loot and quest rewards, level-ups, spells, mounts, profession milestones, reputation, deaths, books
+-- Journey.lua keeps (Journey.Char()): the character sheet, new places in order, quests done, people met, bosses,
+-- battles (each battleground fought in and how it ended, LOR-430) and notable kills, loot and quest rewards, level-ups, spells, mounts, profession milestones, reputation, deaths, books
 -- read and screenshots, and first the journey in numbers ("Journey stats": yards walked by land, foes slain by kind and
 -- rank, deaths, hours played; Journey.lua's tally, LOR-246). Not the map trail. Kept under LIMIT; when it's longer,
 -- the oldest entries go.
@@ -72,12 +72,12 @@ local function standing(st)
 end
 
 -- The sections, in the order they're shown, and how an event becomes a line in one (nil: not in the record).
-local SECTIONS = { "places", "quests", "people", "bosses", "kills", "loot", "levels", "spells", "mounts", "profs",
-  "rep", "deaths", "books", "shots" }
+local SECTIONS = { "places", "quests", "people", "bosses", "battles", "kills", "loot", "levels", "spells", "mounts",
+  "profs", "rep", "deaths", "books", "shots" }
 local function titles(whole)
   -- A record that starts mid-life lists the places it recorded, not new ones (Journey.Whole).
   return { places = whole and L["New places, in order"] or L["Places recorded, in order"], quests = L["Quests done"],
-    people = L["People met"],
+    people = L["People met"], battles = L["Battles"],
     bosses = L["Bosses defeated"], kills = L["Notable kills"], loot = L["Loot and quest rewards"],
     levels = L["Level-ups"], spells = L["Spells learned"], mounts = L["Mounts"], profs = L["Profession milestones"],
     rep = L["Reputation"], deaths = L["Deaths"], books = L["Books read"], shots = L["Screenshots"] }
@@ -87,8 +87,14 @@ end
 local function entry(e, quests)
   local k = e.k
   if k == "zone" and (e.new or e.inst) then
-    local dungeon = e.inst and (e.how == "instance" or not e.new)
-    return "places", join(" · ", place(e), dungeon and L["dungeon"] or nil, howText(e.how))
+    local entered = e.inst and (e.how == "instance" or not e.new)
+    local tag = entered and (e.inst == "pvp" and L["battleground"] or L["dungeon"]) or nil
+    return "places", join(" · ", place(e), tag, howText(e.how))
+  elseif k == "bg" and e.n then
+    -- A battle (Battle.lua): where, and how it ended. The side is the character's own faction.
+    local result = e.out == "win" and L["Victory"] or e.out == "loss" and L["Defeat"] or e.out == "draw" and L["Draw"]
+      or e.left and L["Left before the end"] or nil
+    return "battles", join(" · ", e.n, result)
   elseif k == "qt" then
     return "quests", join(" · ", e.q or string.format(L["Quest %d"], e.id or 0), place(e), party(e))
   elseif k == "npc" and e.n then
@@ -308,8 +314,11 @@ function JR.Text(char, limit)
   end)
   local text = render(entries, false)
   if #text <= limit then return text, false end
-  -- Too long: keep the newest entries that fit (the headings and the note cost about 400 bytes).
-  local budget, used, keep = limit - #render({}, true) - 40 * #SECTIONS, 0, {}
+  -- Too long: keep the newest entries that fit (the headings and the note cost about 400 bytes; a section's title
+  -- about 40, counted for the sections the record has).
+  local present = {}
+  for _, en in ipairs(entries) do present[en.sec] = true end
+  local budget, used, keep = limit - #render({}, true) - 40 * count(present), 0, {}
   for i = #entries, 1, -1 do
     local cost = #entries[i].line + 1
     if used + cost > budget then break end
