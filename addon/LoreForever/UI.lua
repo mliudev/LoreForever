@@ -481,7 +481,10 @@ function UI.Create(engine)
   UI.newButton = headerButton(L["New chat"], function() UI.Clear() end)
   UI.historyButton = headerButton(L["History"], function() UI.ToggleHistory() end, UI.newButton)
   -- Journey opens a page over the conversation, like History.
-  UI.journeyButton = headerButton(L["Journey"], function() ns.Journey.Toggle() end, UI.historyButton)
+  UI.journeyButton = headerButton(L["Journey"], function()
+    if not ns.Journey.IsShown() then ns.Log.Use("tab", "journey") end   -- usage counts (LOR-435)
+    ns.Journey.Toggle()
+  end, UI.historyButton)
 
   UI.contextLine = f:CreateFontString(nil, "OVERLAY", T.font.place)
   UI.contextLine:SetPoint("TOPLEFT", 16, -34)
@@ -521,7 +524,7 @@ function UI.Create(engine)
     T.Fill(on, "fill")
     tab.on = on
     tab.view = spec[1]
-    tab:SetScript("OnClick", function(self) UI.ShowTab(self.view) end)
+    tab:SetScript("OnClick", function(self) ns.Log.Use("tab", self.view); UI.ShowTab(self.view) end)
     UI.tabs[#UI.tabs + 1] = tab
   end
   -- After an update, a green "New" over Journey and History and a dot on the Library tab when the headline changes
@@ -654,13 +657,15 @@ function UI.Create(engine)
     b:SetPoint("TOPLEFT", 12, -112 - 5 * HERE_STEP - 28 - (i - 1) * HERE_STEP)
     b:SetScript("OnClick", function(self)
       -- Shift-click: the quest's narration joins the playlist (UI.QueueQuest).
-      if IsShiftKeyDown() and self.quest then return UI.QueueQuest(self.quest.id, self.quest.title) end
-      if self.key then UI.ShowEntry(self.key, "quest", self.quest and self.quest.title)
+      local name = self.shown or (self.quest and self.quest.title)
+      if IsShiftKeyDown() and self.quest then return UI.QueueQuest(self.quest.id, name) end
+      if self.key then UI.ShowEntry(self.key, "quest", name)
       elseif self.quest then UI.ShowQuestText(self.quest) end
     end)
     b:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-      if self.quest and self.quest.title then T.Tip(self.quest.title, "tipText", true) end
+      local name = self.shown or (self.quest and self.quest.title)
+      if name then T.Tip(name, "tipText", true) end
       local story = self.quest and ns.Storyline.Line(self.quest.id)
       if story then T.Tip(story, "gold", true) end
       GameTooltip:AddLine(self.key and L["The story behind this quest"] or L["No written lore yet"])
@@ -773,7 +778,7 @@ function UI.Create(engine)
     elseif q and q:match("%S") then
       if UI.ctx then UI.ctx.done = ns.Context.Done() end
       local key = UI.engine:StoryForName(q, UI.ctx)
-      if key then ns.Log.Use("ask"); UI.ShowEntry(key, "typed", q) else UI.Ask(q, "typed") end
+      if key then ns.Log.Use("ask"); ns.Log.Asked("typed"); UI.ShowEntry(key, "typed", q) else UI.Ask(q, "typed") end
     end
   end)
   -- Escape closes the type-ahead first; otherwise it closes the panel, as Escape does with the box unfocused.
@@ -1134,6 +1139,8 @@ local function watchPlayback(estimate)
       if target then
         UI.progress[target.key] = nil
         ns.Log.Use("done", ns.Log.NarrationKind(target.key))   -- heard to the end (LOR-413)
+        -- ... and the same split as its start (LOR-420: startTarget's target.started)
+        if target.started then ns.Log.Use(target.started .. "done", ns.Log.NarrationKind(target.key)) end
       end
       UI.activeTarget, UI.resumeTarget, UI.stoppedTarget = nil, nil, nil
       UI.speaking, UI.playingId = false, nil
@@ -1165,7 +1172,7 @@ function UI.RememberProgress()
   local t = V.transport
   if not (t and target and offset) then return end
   UI.progress[target.key] = { offset = offset, rate = rate, pack = t.row.pack, hash = t.row.hash,
-    fullHash = t.row.fullHash }
+    fullHash = t.row.fullHash, started = target.started }
   UI.resumeTarget = target
 end
 
@@ -1195,7 +1202,7 @@ function UI.Seek(seconds)
   for _, part in ipairs(parts) do if part.start <= want then offset = part.start else break end end
   UI.RememberProgress()
   UI.progress[target.key] = { offset = offset, rate = state.rate, pack = state.row.pack, hash = state.row.hash,
-    fullHash = state.row.fullHash }
+    fullHash = state.row.fullHash, started = target.started }
   UI.resumeTarget = target
   if wasPlaying then
     UI.RestartTransport(target)
@@ -1341,6 +1348,15 @@ end
 -- anything).
 local function startTarget(target, fromPlaylist, keepProgress)
   if not target or not ns.Voice.CanPlay(target.key) then return false end
+  -- Whether it starts by itself (LOR-420): an arrival, a quest giver's or a book's page say so on their target (Voice
+  -- sets target.byItself before UI.ListenTo; its markAuto only comes after this has counted the start), and a flight's
+  -- zone story is its playlist item's. Read once: the same target played again later is the player's doing.
+  local byItself = target.byItself
+  target.byItself = nil
+  if fromPlaylist then
+    local cur = UI.pl.items[UI.pl.pos]
+    byItself = byItself or (cur and cur.flight)
+  end
   if ns.lang and ns.lang.edition then
     local key, original = target.key:match("^(.-)#faq(%d+)$")
     local canonical = key and UI.FaqTarget(key, faqIndex(key, original)) or UI.EntryTarget(target.key)
@@ -1361,7 +1377,14 @@ local function startTarget(target, fromPlaylist, keepProgress)
   end
   local started = target and (fromPlaylist and ns.Voice.Play(target.key, options) or ns.Voice.Narrate(target.key, options))
   if not started then return false end
-  if not (keepProgress or options) then ns.Log.Use("play", ns.Log.NarrationKind(target.key)) end   -- from its start
+  if not (keepProgress or options) then   -- from its start
+    local kind = ns.Log.NarrationKind(target.key)
+    target.started = byItself and "auto" or "user"   -- (watchPlayback counts its end the same way)
+    ns.Log.Use("play", kind)
+    ns.Log.Use(target.started .. "play", kind)
+  elseif options and not target.started and (options.started == "auto" or options.started == "user") then
+    target.started = options.started   -- picked up where it paused: as it started then (UI.RememberProgress)
+  end
   UI.speaking, UI.playingId, UI.playingLabel = true, target.id, target.label
   UI.playingKey, UI.playingStory = target.key, target.story
   target.fromPlaylist = fromPlaylist == true
@@ -1956,9 +1979,9 @@ function UI.Render(keepScroll)
   end)
 end
 
--- Add a message. role: "user" | "lore" | "note". target: what its Listen button plays (lore only: a story's, an
--- answer's or a chapter's recording), shown only when a voice recorded it. Left out (or false: the welcome back), the
--- message has none: what no voice recorded stays as text, never read out by the game's voice (Mike, 2026-10-05).
+-- Add a message. role: "user" | "lore" | "note". target: what its Listen button plays (lore only: a story's or an
+-- answer's recording), shown only when a voice recorded it. Left out (the welcome back), the message has none: what no
+-- voice recorded stays as text, never read out by the game's voice (Mike, 2026-10-05).
 -- rows (lore only): clickable boss rows under the text, { {key, name, hook}, ... } (the dungeon primer).
 -- log: the logged question this message answers (Log.Question), so it can be rated and reported.
 -- subject: the entry key the message is about (Back goes to it); linked: the keys its lore links point to, in order,
@@ -1967,7 +1990,6 @@ end
 function UI.AddMessage(role, text, target, actionLabel, rows, log, subject, linked, entry)
   if UI.historyFrame then UI.historyFrame:Hide() end
   if UI.journeyPage then UI.journeyPage:Hide() end
-  if target == false then target = nil end
   finishTyping()
   local animate = role == "lore" and settings().typing ~= false
   table.insert(UI.msgs, { role = role, text = text, target = target, actionLabel = actionLabel, animate = animate,
@@ -2153,6 +2175,11 @@ function UI.Refresh()
   local function questKey(q)
     return db.index.quest[q.id] or (q.title and db.index.questTitle and db.index.questTitle[ns.Engine.lower(q.title)])
   end
+  -- What the list calls a quest: the reading language's own client name where the client gives another (Lang.Shown),
+  -- else the client's title. Display only: the quest log's title stays what everything matches on.
+  local function questShown(q, key)
+    return (key and ns.Lang.Shown(key)) or q.title
+  end
   -- A search box when the log has more quests than fit (or while you're searching), taking the first row's place.
   local qs, total = UI.questSearch, #quests
   local fits = math.min(#UI.questButtons, math.floor((y - HERE_ROW - bottom) / HERE_STEP) + 1)
@@ -2166,8 +2193,11 @@ function UI.Refresh()
   if qs:Active() then
     local hits = {}
     for _, q in ipairs(quests) do
-      local e = questKey(q) and db.entries[questKey(q)]
-      if UI.SearchMatch(qs.words, q.title, q.header, e and e.n, e and e.en) then hits[#hits + 1] = q end
+      local key = questKey(q)
+      local e = key and db.entries[key]
+      if UI.SearchMatch(qs.words, q.title, q.header, e and e.n, e and e.en, questShown(q, key)) then
+        hits[#hits + 1] = q
+      end
     end
     quests = hits
     UI.questCount:SetText(string.format(L["%d of %d"], #quests, total))
@@ -2179,10 +2209,10 @@ function UI.Refresh()
     local b = UI.questButtons[n + 1]
     if not b or y - HERE_ROW < bottom then break end
     n = n + 1
-    b.key, b.quest = key, q
+    b.key, b.quest, b.shown = key, q, questShown(q, key)
     -- Quests without written lore still open: the game's own quest text plus the area's story.
-    b.text:SetText((key and GOLD or GREY) .. esc(q.title) .. "|r")
-    b.play.key, b.play.idx, b.play.label = key, nil, q.title
+    b.text:SetText((key and GOLD or GREY) .. esc(b.shown) .. "|r")
+    b.play.key, b.play.idx, b.play.label = key, nil, b.shown
     b.play:SetShown(key and ns.Voice.HasAudio(key) and true or false)
     local queue = key and SetQueueButton(b.add, key)
     if not queue then b.add:Hide() end
@@ -2260,8 +2290,7 @@ function UI.ShowWelcome(ctx, placeName, here)
   local text = GOLD .. L["Welcome to Lore Forever"] .. "|r\n" .. WHITE
     .. L["The story behind the places, people and quests around you, told by narrators and ready for your questions."] .. "|r"
   if recap then
-    -- Never read aloud: its Listen is there only for a new chapter with a recording, which plays that chapter.
-    UI.AddMessage("lore", recap.text, recap.target or false)
+    UI.AddMessage("lore", recap.text)   -- never read aloud: no Listen
   elseif target and recorded then
     local label = yours and string.format(L["Hear your people's story: %s"], name)
       or string.format(L["Hear the story of %s"], name)
@@ -2298,8 +2327,10 @@ local function herePlace(ctx)
   local zkey = zk and db.entries["zone:" .. zk] and "zone:" .. zk
   local sub = ctx.subzone and ctx.subzone ~= ctx.zone and UI.engine:SubzoneKey(ctx.subzone, ctx.zone)
   if sub and not (db.entries[sub] and db.entries[sub].t ~= "quest") then sub = nil end
-  local place = (sub and db.entries[sub].n) or (zkey and db.entries[zkey].n) or ctx.subzone or ctx.zone
-  if sub and zkey then place = db.entries[sub].n .. ", " .. db.entries[zkey].n end
+  -- Named as the header names them (Lang.Shown: the reading language's own client name, else the entry's).
+  local function named(k) return ns.Lang.Shown(k) or db.entries[k].n end
+  local place = (sub and named(sub)) or (zkey and named(zkey)) or ctx.subzone or ctx.zone
+  if sub and zkey then place = named(sub) .. ", " .. named(zkey) end
   return zk, z, zkey, sub, place
 end
 
@@ -3039,7 +3070,9 @@ end
 -- Add a story (idx nil) or narrated answer to the end (addItem). Returns true if it was added.
 function UI.PlaylistAdd(key, idx, quiet, deferStart)
   if not key or UI.PlaylistIndex(idx and (faqID(key, idx)) or key) then return false end
-  return addItem(newItem(key, idx), quiet, deferStart)
+  local added = addItem(newItem(key, idx), quiet, deferStart)
+  if added and not quiet then ns.Log.Use("pl", "add") end   -- usage counts (LOR-435); QueueHere counts its own
+  return added
 end
 
 -- Shift-click on a quest wherever the add-on lists one (its Lore button in the quest log and the quest window, Your
@@ -3061,6 +3094,7 @@ function UI.QueueQuest(qid, title)
     note(string.format(L["%s isn't narrated yet."], esc(label)))
     return false
   end
+  ns.Log.Use("pl", "quest")
   -- With the panel closed the note over the conversation can't show: the chat says it.
   if not (UI.frame and UI.frame:IsShown()) then
     DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. L["Added to your playlist:"] .. " " .. WHITE .. esc(it.label)
@@ -3085,13 +3119,16 @@ end
 function UI.PlaylistAddFlight(key)
   local pl = UI.pl
   if not UI.CanQueue(key) or UI.PlaylistIndex(key) then return false end
+  -- A flight's item says so before it can start (it may start at once): it starts by itself (LOR-420, startTarget).
   if #pl.items > 0 and pl.state == "paused" and not UI.IsBusy() then
-    table.insert(pl.items, pl.pos, { id = key, key = key, label = UI.engine.db.entries[key].n })
+    table.insert(pl.items, pl.pos, { id = key, key = key, label = UI.engine.db.entries[key].n, flight = true })
     UI.FlashPlayer()
     playCurrent()
     return true
   end
-  return UI.PlaylistAdd(key)
+  local it = newItem(key)
+  if it then it.flight = true end
+  return addItem(it)
 end
 
 -- Shift-click or the play key with an empty playlist (Mike, 2026-09-30): queue everything narrated where you are
@@ -3113,6 +3150,7 @@ function UI.QueueHere()
   end
   for _, bk in ipairs(z and z.t == "dungeon" and z.b or {}) do add(bk) end
   if n > 0 then
+    ns.Log.Use("pl", "here")
     UI.FlashPlayer()
     showToast(GREEN .. L["Playing everything narrated here:"] .. "|r " .. WHITE .. esc(place or "") .. "|r"
       .. GREY .. "  (" .. string.format(n == 1 and L["%d narration"] or L["%d narrations"], n) .. ")|r")
@@ -3124,7 +3162,7 @@ end
 -- replacing anything played by hand. Returns false with nothing queued.
 function UI.PlaylistToggle()
   if #UI.pl.items == 0 then return false end
-  if UI.pl.state == "playing" then UI.StopAll() else playCurrent(true) end
+  if UI.pl.state == "playing" then UI.StopAll() else ns.Log.Use("pl", "play"); playCurrent(true) end
   return true
 end
 
@@ -3132,6 +3170,7 @@ end
 function UI.PlaylistNext()
   local pl = UI.pl
   if #pl.items == 0 then return false end
+  ns.Log.Use("pl", "next")
   if pl.pos >= #pl.items then
     UI.PlaylistClear()
   else
@@ -3145,6 +3184,7 @@ end
 function UI.PlaylistPrev()
   local pl = UI.pl
   if #pl.items == 0 then return false end
+  ns.Log.Use("pl", "prev")
   goTo(math.max(1, pl.pos - 1), true)
   playCurrent(true)
   return true
@@ -3153,6 +3193,7 @@ end
 function UI.PlaylistJump(i)
   local pl = UI.pl
   if not pl.items[i] then return end
+  ns.Log.Use("pl", "jump")
   goTo(i, true)
   playCurrent(true)
 end
@@ -3976,6 +4017,7 @@ UI.FlashPlayer = flashPlayer
 -- Open or close the queue above the docked player. Picking a tab closes it too.
 function UI.ShowQueue(show)
   if not UI.plView then return end
+  if show and not UI.plView:IsShown() then ns.Log.Use("tab", "queue") end   -- usage counts (LOR-435)
   UI.plView:SetShown(show and true or false)
   if show then UI.RefreshPlaylist() end
   if UI.dock then updatePlayer(UI.dock) end
@@ -4190,6 +4232,7 @@ function UI.ToggleHistory()
   if UI.journeyPage then UI.journeyPage:Hide() end
   h:Show()
   UI.SeenPage("history")
+  ns.Log.Use("tab", "history")   -- usage counts (LOR-435)
 end
 
 -- Reopen a past chat. The one you were in is saved first, so nothing is lost. What plays carries on (UI.Clear).
@@ -4518,6 +4561,7 @@ end
 function UI.Ask(question, via)
   if not ns.Lang.ValidateEdition() then return end
   ns.Log.Use("ask")
+  ns.Log.Asked(via)
   local ctx = UI.ctx or ns.Context.Snapshot()
   ctx.done = ns.Context.Done()   -- a quest turned in since the last snapshot counts right away
   UI.turn = (UI.turn or 0) + 1
@@ -4584,7 +4628,7 @@ function UI.ShowFaq(key, idx, via)
   if via ~= "reveal" and UI.SpoilerGate(key, "faq", idx) then return end
   local target = UI.FaqTarget(key, idx)
   -- A question picked (suggested, in the sidebar, typed ahead or linked), not an answer shown for what plays
-  if via ~= "reveal" and via ~= "listen" and via ~= "player" then ns.Log.Use("faq") end
+  if via ~= "reveal" and via ~= "listen" and via ~= "player" then ns.Log.Use("faq"); ns.Log.Asked(via) end
   UI.lastLog = ns.Log.Question(f.q, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "faq", idx = idx, title = f.q } }, via)
   local heading = f.answerOnly and (e.n .. ns.Lang.Dotted(" · ") .. f.q) or e.n
   local text, linked = loreText(heading, f.a, nil, ns.Voice.HasAudio(target.key) and narratedTag() or nil, key)

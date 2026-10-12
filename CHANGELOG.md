@@ -1,10 +1,81 @@
 # Changelog
 
-Player-facing notes, newest first. Add to **Unreleased** as you go; `scripts/release.sh` turns it into the new
-version's section and publishes it to the website's Changelog tab, the GitHub release and the CurseForge file.
-One `- ` bullet per change; wrap long bullets with an indented continuation line.
+Player-facing notes, newest first. Each change's notes go in a fragment of their own, `changelog.d/<branch>.md`, not
+here; only the highlights go under **Unreleased**. `scripts/release.sh` turns both into the new version's section and
+publishes it to the website's Changelog tab, the GitHub release and the CurseForge file. One `- ` bullet per change;
+wrap long bullets with an indented continuation line.
 
 ## Unreleased
+
+## 0.15.0 (2026-10-11)
+
+- **Clearer names:** the narrators now say Goretusk, Runetotem, Soulscar and seven other two-word names clearly.
+
+- **Your place and quests in your language:** reading in another language on an English game client, the panel's
+  header, its Here line and your quest list show the zone, subzone and quest names a client in that language uses,
+  not English. A name we don't have yet stays as your game shows it.
+- **Your profile tells your journey:** it opens with your story, then your journey in chapters, one for each day you
+  played: where you went, the dungeons and bosses, levels, new lands and the pictures you took there, with every
+  moment folded inside. On a wide screen the map stays beside you and follows the chapter you're reading, and your
+  numbers have a tab of their own.
+- **Ask about the creature you're fighting:** with a wolf, boar, bat or other wild animal targeted, "why are they
+  attacking me?" now answers about that creature, like where Northshire's wolves came from, instead of about bandits
+  or other trouble nearby.
+- **Setup no longer looks stuck at the end of a download:** while extra narration downloads, Setup counts the
+  megabytes, and once the last byte is in, a moving bar says it's checking and unpacking the files, which can take a
+  few minutes for quest narration.
+
+- **Class lore matches WoW Forever:** the class and race entries now say who can walk which path in Forever, from
+  Forsaken paladins and dwarf shaman to gnome priests, human hunters, orc mages, troll warlocks and the Skyborne.
+- **Mount Hyjal and a WoW Forever overview:** new entries for the night elves' sacred mountain and for Forever's
+  world, its lands, dungeons and raids, so the add-on and the companion can answer "what's in WoW Forever?"
+
+- **More answers read aloud:** the male narrator now reads 7,570 more answers about places, lore, people and quests
+  (11,160 in all), and the female narrator 5,844 more, including her first answers about quests in the third part
+  and 2,864 more about lore items.
+
+- **Willo never leaves you at a dead end:** when today's live answers are used up, Willo answers from the add-on's
+  lore library instead, and says when live answers come back.
+
+- **French and Spanish narration on CurseForge:** Lore Forever's CurseForge file now lists the French and Spanish
+  narration for both narrators as optional downloads, next to German and Portuguese, along with German quest
+  dialogue, the quest givers' voices, the female narrator's answers and the Russian and Ukrainian packs.
+
+- **Narration in your language, and how to hear it:** with German, French, Spanish or Portuguese narration installed
+  while Lore Forever shows English (Automatic on an English game client), login now says once which narration that is
+  and how to switch to it, instead of quietly playing the English voices.
+
+- **Battlegrounds have their story:** Warsong Gulch, Arathi Basin, Alterac Valley and Forever's own Darkspear Islands
+  now have lore entries on who fights there and what each side is fighting for, shown when you enter one.
+
+- **Battles are told as battles:** your journey now records each battleground you fight in: which one, your side, who
+  won, and your own honorable kills, killing blows, deaths and objectives. Ask Willo "What am I doing?" after one and it
+  tells it as a battle, with what was at stake and how you did, not as a string of deaths with companions. The journey
+  page and your profile story say so too.
+
+- **Share anonymous usage counts:** the companion's daily check-in now also tells us how often each feature of the
+  add-on and Willo gets used, so we can build more of what players love. Only numbers and a few choices (voice,
+  language, level range, settings), never what you ask, hear or write, and no account needed. The companion's
+  setting, now called Share anonymous usage counts, turns it off.
+
+- **Hear what each download adds before you get it:** the Downloads page opens with one download button and what
+  comes with it, then a tile for each extra pack (the female narrator, recorded answers, quest dialogue and the quest
+  givers' voices) with lines you can play, its count and size. "Your language" gathers the text, narrators and quest
+  dialogue for each language in one place. Every lore page now says which downloads have its recording.
+
+- **Lua errors are easy to report:** when Lore Forever hits a Lua error, the chat says so once, and `/lore errors`
+  shows what happened (the error, where, how often and the version) in a box to copy into the feedback page or
+  Discord. Nothing is sent by itself, and other add-ons and the game's own error window still see every error.
+
+- **German and French narration, now with native voices:** the German and French narrators read most zone, place,
+  dungeon and boss stories again, in a native accent and from today's translations: German 644 stories (male) and 498
+  (female), French 533 and 532, up from 52 to 72 each. Stories not yet re-recorded stay available as text.
+
+- **More complete stories:** 195 more zones, subzones and characters play their whole story: 110 in the male
+  narrator's voice and 85 in the female narrator's. 23 stories that lore fixes had changed play in full again.
+
+- **Meet Willo:** the companion app's Sam the Squire is now Willo, a little wisp of light, with a new look. Willo
+  signs your profile story and your share card too.
 
 ## 0.14.0 (2026-10-10)
 

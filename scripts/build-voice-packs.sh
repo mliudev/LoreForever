@@ -24,12 +24,13 @@
 # Usage: scripts/build-voice-packs.sh [--versioned]
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-# A sparse worktree (scripts/new-worktree.sh) has no voice audio or translated lore: refuse rather than build
-# without them.
-[ "$(git -C "$ROOT" config --get lore.sparse 2>/dev/null)" != true ] \
-  || [ "$(git -C "$ROOT" config --bool core.sparseCheckout 2>/dev/null)" != true ] \
-  || { echo "${0##*/}: this worktree is sparse; run 'git sparse-checkout disable' here first, or use" \
-         "~/git/lore-forever" >&2; exit 1; }
+# A sparse worktree (scripts/new-worktree.sh) has no voice audio or translated lore, and the main checkout no voice
+# audio: refuse rather than build without them.
+{ [ "$(git -C "$ROOT" config --get lore.sparse 2>/dev/null)" != true ] \
+    || [ "$(git -C "$ROOT" config --bool core.sparseCheckout 2>/dev/null)" != true ]; } \
+  && [ "$(git -C "$ROOT" ls-files -t -- addon/LoreForever_Voice_Default/Audio/ 2>/dev/null | head -c 1)" != S ] \
+  || { echo "${0##*/}: this checkout is sparse. In your own worktree, run 'git sparse-checkout disable' first; or make" \
+         "a full one: scripts/new-worktree.sh --pointers <path> (and 'git lfs pull' there for the recordings)" >&2; exit 1; }
 exec python3 - "$ROOT" "$@" <<'PY'
 import atexit, re, shutil, sys, tempfile, zipfile, subprocess
 from pathlib import Path

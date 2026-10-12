@@ -238,8 +238,10 @@ end
 
 -- One-line description for the panel header.
 function Context.Describe(ctx)
-  local where = ctx.zone or "?"
-  if ctx.subzone and ctx.subzone ~= ctx.zone then where = where .. " - " .. ctx.subzone end
+  -- The reading language's names for the place (Lang.PlaceNames); the client's own where it has none.
+  local zone, sub = ns.Lang.PlaceNames(ctx)
+  local where = zone or "?"
+  if sub and ctx.subzone ~= ctx.zone then where = where .. " - " .. sub end
   -- The same translated string the other level lines use, so every language pack already has it.
   local level = tonumber(ctx.level)
   local who = level and string.format(ns.L["Level %d %s %s"], level, ctx.raceName or "", ctx.className or "")

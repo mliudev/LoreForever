@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Shaman"
  },
- "summary": "Shaman are the spiritual mediators and elemental guides of the Horde, communing with the primordial forces of earth, air, fire, and water. Balancing raw nature through totems, lightning, and ancestral healing, they serve as the spiritual core of orc, tauren, and troll culture under the leadership of Warchief Thrall.",
+ "summary": "Shaman are spiritual mediators who commune with the primordial forces of earth, air, fire and water. Balancing raw nature through totems, lightning and ancestral healing, they are the spiritual core of orc, tauren and troll culture under Warchief Thrall. Dwarves walk the path too, as the Wildhammer long have, and the Skyborne Windshapers seek to restore their people's bond with the winds.",
  "sections": [
   {
    "title": "Mediators of the Elements",
@@ -23,6 +23,11 @@
    "title": "Traditions of the Horde",
    "body": "Across Kalimdor, shamanic traditions vary widely among the Horde's allied peoples. Tauren mystics, who founded the ancient Earthen Ring over two centuries ago, treat communion with the earth and the spirits as a sacred cultural anchor. Darkspear trolls approach the discipline through reverence for the loa and ancestral wild spirits, weaving voodoo and nature rites together. Across all these tribal borders, shaman stand as essential community elders, advisers, and fearsome front-line defenders.",
    "spoiler": 0
+  },
+  {
+   "title": "Beyond the Horde",
+   "body": "The shaman's path does not belong to the Horde alone. Among the dwarves, the Wildhammer of Aerie Peak have long called on storm and stone, and Wildhammer earthseers such as Earthseer Farsen bring that far-seeing craft to Dun Morogh. Dwarves of Ironforge take up the totem as well and fight for the Alliance. Far above the world, the Windshapers are the spiritual leaders of the Skyborne. The wind spirits of Zephras Isle have fallen silent, and the Windshapers train new shaman in the hope of restoring that lost bond; Skyborne who join the Horde follow their path.",
+   "spoiler": 0
   }
  ],
  "faq": [
@@ -31,9 +36,13 @@
    "aliases": [
     "who can be shaman",
     "shaman races",
-    "can alliance be shaman"
+    "can alliance be shaman",
+    "can dwarves be shaman",
+    "dwarf shaman",
+    "alliance shaman",
+    "skyborne shaman"
    ],
-   "answer": "Orcs, tauren, and trolls are the Horde's prominent shamanic peoples. Their traditions draw on elemental spirits, ancestors, and, among trolls, the loa."
+   "answer": "Orcs, tauren and trolls of the Horde, whose traditions draw on elemental spirits, ancestors and, among trolls, the loa. Dwarves become shaman for the Alliance, and Skyborne who join the Horde train with the Windshapers."
   },
   {
    "q": "How do shaman get their magic?",
@@ -104,7 +113,15 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance forces view shaman with wariness, encountering them on the battlefield as fierce warriors whose totems command lightning, tremors, and sudden healing."
+   "text": "To much of the Alliance, shaman are foes whose totems call lightning and tremors, yet dwarven shaman bring the same storm-born gifts to Ironforge's defense."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven shaman answer the stone and the storm, kin to the Wildhammer earthseers of Aerie Peak who have long heard the elements' voices."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "Skyborne shaman train with the Windshapers, who hope to bring the vanished wind spirits back to Zephras Isle."
   }
  ],
  "keywords": [
@@ -119,7 +136,10 @@
   "shaman",
   "thrall",
   "totem",
-  "water"
+  "water",
+  "wildhammer",
+  "windshapers",
+  "earthseer"
  ],
  "related": [
   "npc:thrall",
@@ -129,7 +149,9 @@
   "topic:horde",
   "topic:druid",
   "topic:burning-legion",
-  "zone:durotar"
+  "zone:durotar",
+  "topic:wildhammer-clan",
+  "topic:skyborne"
  ],
  "attribution": [
   "Shaman"

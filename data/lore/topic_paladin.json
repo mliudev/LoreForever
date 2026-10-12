@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Paladin"
  },
- "summary": "Paladins are holy knights of the Alliance who blend martial prowess with divine magic. Clad in heavy plate armor, they wield weapons empowered by the Holy Light to protect the innocent, heal the wounded, and strike down wicked foes.",
+ "summary": "Paladins are holy warriors who blend martial prowess with the power of the Holy Light. Clad in heavy plate, they protect the innocent, heal the wounded and strike down wicked foes. Humans and dwarves carry the Silver Hand's legacy for the Alliance, and among the Horde, Forsaken who served the Light in life still answer its call, though it burns them.",
  "sections": [
   {
    "title": "Origins in Lordaeron",
@@ -20,8 +20,13 @@
    "spoiler": 0
   },
   {
-   "title": "A Legacy in the South",
-   "body": "The fall of Lordaeron during the Third War scattered the original order, yet the ideals of the Silver Hand endure. Today, the mantle has been embraced by the humans of Stormwind and the stalwart dwarves of Ironforge. Operating out of sanctuaries like the Cathedral of Light and the Hall of Mysteries, these new paladins pledge their swords and shields to uphold justice and defend the Alliance from the gathering shadows.",
+   "title": "Heirs of the Silver Hand",
+   "body": "The fall of Lordaeron during the Third War scattered the original order, yet the ideals of the Silver Hand endure. In the south, the humans of Stormwind and the stalwart dwarves of Ironforge have taken up the mantle. Training in sanctuaries like the Cathedral of Light and the Hall of Mysteries, these paladins pledge their swords and shields to uphold justice and defend the Alliance from the gathering shadows.",
+   "spoiler": 0
+  },
+  {
+   "title": "Paladins of the Forsaken",
+   "body": "Not every knight of Lordaeron stayed in the grave. Some Forsaken who served the Light in life still hold to their vows, and the Light still answers them, though it sears their dead flesh with every prayer. Aramis Hammerhand trains these risen paladins in the chapel at Deathknell, Shari Stilwell continues their instruction in Brill, and an order of Forsaken paladins, Tyr's Watch, holds Bandarion Keep in western Tirisfal. Theirs is a lonely road: they wield the very power that burned their people, and Sylvanas Windrunner tolerates their order while watching it closely.",
    "spoiler": 0
   }
  ],
@@ -49,9 +54,12 @@
    "aliases": [
     "can horde be paladins",
     "who can be a paladin",
-    "paladin races"
+    "paladin races",
+    "can undead be paladins",
+    "undead paladin",
+    "forsaken paladin"
    ],
-   "answer": "Currently, only humans and dwarves train as paladins within the Alliance. While the order was originally exclusively human, the dwarves of Ironforge embraced the teachings of the Holy Light and were welcomed into the Knights of the Silver Hand."
+   "answer": "Humans and dwarves train as paladins in the Alliance, and the Forsaken do in the Horde. The order began among humans, the dwarves of Ironforge embraced the Holy Light and joined it, and Forsaken who were knights and clerics in life still wield the Light after death, at the price of constant pain."
   },
   {
    "q": "Why are paladins effective against the undead?",
@@ -69,16 +77,28 @@
     "is silver hand gone",
     "fall of the silver hand"
    ],
-   "answer": "The order suffered catastrophic losses during the Third War when the plague ravished Lordaeron. The brotherhood fragmented amid internal betrayal and political strife, though surviving members and new initiates in Stormwind and Ironforge continue to carry the title and ideals forward."
+   "answer": "The order suffered catastrophic losses during the Third War when the plague ravished Lordaeron. The brotherhood fragmented amid internal betrayal and political strife, though surviving members and new initiates in Stormwind and Ironforge continue to carry the title and ideals forward. Some of its fallen knights rose again as Forsaken, and a few still keep their oaths."
   },
   {
    "q": "Can members of the Horde become paladins?",
    "aliases": [
     "horde paladins",
     "can orcs be paladins",
-    "why no horde paladin"
+    "why no horde paladin",
+    "can forsaken be paladins",
+    "horde paladin races"
    ],
-   "answer": "No. The paladin traditions of Azeroth are deeply rooted in the church and knightly orders of the Alliance. The races of the Horde turn to shamans, witch doctors, and warriors rather than the knightly path of the Holy Light."
+   "answer": "Only the Forsaken. Many were knights and clerics of Lordaeron before the plague, and some still keep their vows: the Light answers them, though it burns their dead flesh. Orcs, tauren and trolls follow shamans, druids and witch doctors rather than the knightly path of the Holy Light."
+  },
+  {
+   "q": "Why does the Light hurt Forsaken paladins?",
+   "aliases": [
+    "does the light hurt undead paladins",
+    "undead paladin pain",
+    "forsaken paladin pain",
+    "can undead use the light"
+   ],
+   "answer": "The Holy Light opposes the dark energy that sustains the undead. A Forsaken paladin's faith and will let them channel it, but it burns through dead flesh and reawakens deadened nerves, so every blessing and every heal comes with searing pain. Their trainers teach them to endure it as proof that the Light still answers."
   }
  ],
  "angles": [
@@ -101,6 +121,14 @@
   {
    "target": "faction:Alliance",
    "text": "Paladins stand as the moral anchor of the Alliance, rallying troops with sacred auras and inspiring hope across the battlefield."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken paladins are the rarest of the risen: knights who kept their vows past death and still wield the Light, paying for every prayer in pain."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Within the Horde, only the Forsaken raise paladins, and even among their own people the order is met with suspicion."
   }
  ],
  "keywords": [
@@ -113,7 +141,10 @@
   "paladin",
   "plate",
   "silver hand",
-  "uther"
+  "uther",
+  "forsaken paladin",
+  "tyr's watch",
+  "undead paladin"
  ],
  "related": [
   "topic:knights-of-the-silver-hand",
@@ -123,7 +154,10 @@
   "topic:alliance",
   "topic:second-war",
   "zone:stormwind",
-  "zone:ironforge"
+  "zone:ironforge",
+  "npc:aramis-hammerhand",
+  "subzone:bandarion-keep",
+  "topic:forsaken"
  ],
  "attribution": [
   "Paladin"

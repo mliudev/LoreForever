@@ -21,7 +21,7 @@
   },
   {
    "title": "A Tapestry of Faiths",
-   "body": "No single faith defines Azeroth's priests. In human and dwarven lands, the Church of the Holy Light codifies a philosophy of virtue, having adapted its fragile Clerics of Northshire into a hardened order after the First War. In Kalimdor, the night elven Sisterhood of Elune honors the Mother Moon with starlight and grace, while troll witch doctors beseech the primal Loa. Among the newly risen Forsaken, many have turned from former dogmas toward the Cult of the Forgotten Shadow, preaching that darkness and light must exist in delicate equilibrium.",
+   "body": "No single faith defines Azeroth's priests. Among humans, dwarves and gnomes, the Church of the Holy Light codifies a philosophy of virtue, having adapted its fragile Clerics of Northshire into a hardened order after the First War. In Kalimdor, the night elven Sisterhood of Elune honors the Mother Moon with starlight and grace, while troll witch doctors beseech the primal Loa. Among the newly risen Forsaken, many have turned from former dogmas toward the Cult of the Forgotten Shadow, preaching that darkness and light must exist in delicate equilibrium.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
     "what gods do priests worship",
     "elune vs holy light priest"
    ],
-   "answer": "No. Humans and dwarves primarily follow the Church of the Holy Light, a virtue-based philosophy rather than worship of a deity. Night elves revere Elune through her Sisterhood, trolls beseech spirits and Loa, and undead Forsaken practitioners follow the Cult of the Forgotten Shadow or grapple with their fractured connection to their former human faith."
+   "answer": "No. Humans, dwarves and gnomes primarily follow the Church of the Holy Light, a virtue-based philosophy rather than worship of a deity. Night elves revere Elune through her Sisterhood, trolls beseech spirits and Loa, and undead Forsaken practitioners follow the Cult of the Forgotten Shadow or grapple with their fractured connection to their former human faith."
   },
   {
    "q": "Who leads the human priesthood in Stormwind?",
@@ -79,6 +79,16 @@
     "sisterhood of elune"
    ],
    "answer": "The Sisterhood of Elune is an ancient order of night elf priestesses established long before the War of the Ancients. Led by High Priestess Tyrande Whisperwind, they revere the moon goddess Elune, serving as healers, spiritual guides, and fiercely capable leaders within night elf society."
+  },
+  {
+   "q": "Which races can be priests?",
+   "aliases": [
+    "who can be a priest",
+    "priest races",
+    "can gnomes be priests",
+    "gnome priest"
+   ],
+   "answer": "Humans, dwarves, gnomes and night elves train as priests in the Alliance, and trolls and the Forsaken do in the Horde. Orcs, tauren and the Skyborne do not walk the priest's path."
   }
  ],
  "angles": [
@@ -101,6 +111,10 @@
   {
    "target": "class:Paladin",
    "text": "Paladins share holy philosophies with the priesthood, having evolved from the Church's need to protect robed clerics after the bloody lessons of the First War."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Gnome priests serve the Holy Light alongside the dwarven clergy of Ironforge's Hall of Mysteries, tending a people still scattered by Gnomeregan's fall."
   }
  ],
  "keywords": [
@@ -123,7 +137,8 @@
   "npc:tyrande-whisperwind",
   "topic:forsaken",
   "topic:paladin",
-  "quest:5650"
+  "quest:5650",
+  "topic:gnome"
  ],
  "attribution": [
   "Priest"

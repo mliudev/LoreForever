@@ -13,7 +13,7 @@
       "requires": [],
       "id": 1734020,
       "slug": "lore-forever-ukrainian",
-      "live": false
+      "live": true
     },
     {
       "key": "ukua-narration",
@@ -26,7 +26,7 @@
       "requires": ["ukrainian"],
       "id": 1736067,
       "slug": "lore-forever-ukrainian-narration",
-      "live": false
+      "live": true
     },
     {
       "key": "russian",
@@ -39,7 +39,7 @@
       "requires": [],
       "id": 1733811,
       "slug": "lore-forever-russian",
-      "live": false
+      "live": true
     },
     {
       "key": "male-quests",
@@ -92,7 +92,7 @@
       "requires": ["male-quests"],
       "id": 1731403,
       "slug": "lore-forever-quest-givers-voices",
-      "live": false
+      "live": true
     },
     {
       "key": "male-dede",
@@ -131,7 +131,7 @@
       "requires": [],
       "id": 1731408,
       "slug": "lore-forever-french-narration-male-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "female-frfr",
@@ -144,7 +144,7 @@
       "requires": [],
       "id": 1731410,
       "slug": "lore-forever-french-narration-female-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "male-eses",
@@ -157,7 +157,7 @@
       "requires": [],
       "id": 1731411,
       "slug": "lore-forever-spanish-narration-male-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "female-eses",
@@ -170,7 +170,7 @@
       "requires": [],
       "id": 1731412,
       "slug": "lore-forever-spanish-narration-female-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "male-ptbr",
@@ -210,7 +210,7 @@
       "suggests": ["male-dede"],
       "id": 1731414,
       "slug": "lore-forever-german-quest-dialogue-male-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "female-quests-dede",
@@ -224,7 +224,7 @@
       "suggests": ["female-dede"],
       "id": 1731415,
       "slug": "lore-forever-german-quest-dialogue-female-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "male-quests-frfr",
@@ -308,7 +308,7 @@
       "suggests": ["female-narrator"],
       "id": 1731417,
       "slug": "lore-forever-female-narrator-place-answers",
-      "live": false
+      "live": true
     },
     {
       "key": "female-answers-lore",
@@ -322,7 +322,7 @@
       "suggests": ["female-narrator"],
       "id": 1731418,
       "slug": "lore-forever-female-narrator-lore-answers",
-      "live": false
+      "live": true
     },
     {
       "key": "female-answers-people",
@@ -336,7 +336,7 @@
       "suggests": ["female-narrator"],
       "id": 1731419,
       "slug": "lore-forever-female-narrator-people-answers",
-      "live": false
+      "live": true
     },
     {
       "key": "female-answers-quests1",
@@ -350,7 +350,7 @@
       "suggests": ["female-narrator"],
       "id": 1731420,
       "slug": "lore-forever-female-narrator-quest-answers-part-1",
-      "live": false
+      "live": true
     }
   ]
 }

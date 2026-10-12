@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Druid"
  },
- "summary": "Druids are guardians of the natural world who draw power directly from the wild spirits, the celestial bodies, and the Emerald Dream. Master shapeshifters, they adopt the forms of primal beasts to protect the land or mend grievous wounds. Practiced primarily by the night elves and newly revived among the tauren, druids place the preservation of nature above all mortal allegiance.",
+ "summary": "Druids are guardians of the natural world who draw power directly from the wild spirits, the celestial bodies, and the Emerald Dream. Master shapeshifters, they adopt the forms of primal beasts to protect the land or mend grievous wounds. Practiced primarily by the night elves, newly revived among the tauren and kept alive by the Skyborne, druids place the preservation of nature above all mortal allegiance.",
  "sections": [
   {
    "title": "Wardens of the Wilds",
@@ -22,6 +22,11 @@
   {
    "title": "The Cenarion Circle",
    "body": "First taught to Malfurion Stormrage by Cenarius ten thousand years ago, mortal druidism was later formalized under the Cenarion Circle. Headquartered in sacred Moonglade, the Circle watches over druidic practices across Kalimdor, standing independent of mortal factions and political squabbles. While long dominated solely by night elf men who spent centuries slumbering in the Emerald Dream, the aftermath of the Third War saw both night elf women and the tauren welcomed into its fold.",
+   "spoiler": 0
+  },
+  {
+   "title": "Druids of the Skyborne",
+   "body": "Druidism reached the Skyborne long ago. When the Shal'nan's rebellion rose against Prince Tortheldrin in Eldre'Thalas, the common folk who joined it took up nature magic, influenced by the Cenarion Circle to the north, while Tortheldrin scorned it as beneath the Highborne. Their descendants still practice it: the Nightclaw Druids of Shadowgale Forest on Zephras Isle keep largely to themselves, apart from the other Skyborne factions.",
    "spoiler": 0
   }
  ],
@@ -76,6 +81,15 @@
     "long slumber"
    ],
    "answer": "Following the World Tree Nordrassil's blessing, night elf druids entered the Barrow Dens to spend centuries wandering the Emerald Dream, aiding Ysera's green dragonflight in nurturing Azeroth's spiritual ecosystem until the Third War forced them awake."
+  },
+  {
+   "q": "Which races can be druids?",
+   "aliases": [
+    "who can be a druid",
+    "druid races",
+    "skyborne druid"
+   ],
+   "answer": "Night elves and tauren, both bound to the Cenarion Circle, and the Skyborne, whose Nightclaw Druids keep their own traditions on Zephras Isle."
   }
  ],
  "angles": [
@@ -90,6 +104,10 @@
   {
    "target": "class:Druid",
    "text": "As a protector of balance, a druid walks the fine line between animal fury, restorative life magic, and celestial devastation, drawing wisdom directly from Cenarius and the Emerald Dream."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "Skyborne druids descend from the common folk of Eldre'Thalas who took up nature magic during the Shal'nan's rebellion; the Nightclaw Druids of Shadowgale Forest still keep that path."
   }
  ],
  "keywords": [
@@ -112,7 +130,8 @@
   "quest:5921",
   "quest:1489",
   "npc:remulos",
-  "npc:fandral-staghelm"
+  "npc:fandral-staghelm",
+  "topic:skyborne"
  ],
  "attribution": [
   "Druid"

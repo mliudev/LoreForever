@@ -84,6 +84,16 @@
     "harvesting souls"
    ],
    "answer": "Warlocks drain the living essence of defeated enemies to forge crystallized soul shards. These soul fragments serve as potent batteries, providing the raw energy needed to bypass natural magical laws, summon monstrous demons, and cast their most destructive spells."
+  },
+  {
+   "q": "Which races can be warlocks?",
+   "aliases": [
+    "who can be a warlock",
+    "warlock races",
+    "can trolls be warlocks",
+    "troll warlock"
+   ],
+   "answer": "Humans and gnomes train as warlocks in the Alliance, and orcs, trolls and the Forsaken do in the Horde. Dwarves, night elves, tauren and the Skyborne do not. Everywhere, warlocks are tolerated rather than trusted."
   }
  ],
  "angles": [
@@ -102,6 +112,10 @@
   {
    "target": "class:Paladin",
    "text": "Devotees of the Holy Light consider demonic summoning an abominable heresy and monitor practicing warlocks with open hostility."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear warlocks begin beside orc initiates in the Valley of Trials, held to the same wary scrutiny Thrall's Horde keeps on every wielder of fel magic."
   }
  ],
  "keywords": [

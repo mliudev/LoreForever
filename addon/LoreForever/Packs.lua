@@ -28,7 +28,7 @@ local WRITERS = {
   ["edition-text"] = function() return { entries = {}, clipHash = {}, answerHash = {} } end,
   ["edition-voice"] = function() return { clips = {} } end,
   voice = function() return { clips = {} } end,
-  lang = function() return { ui = {}, entries = {}, names = {}, quests = {}, items = {}, clipHash = {}, answerHash = {} } end,   -- see Lang.lua
+  lang = function() return { ui = {}, entries = {}, names = {}, quests = {}, shown = {}, items = {}, clipHash = {}, answerHash = {} } end,   -- see Lang.lua
   ["lang-overlay"] = function() return { ui = {}, strings = {}, fp = {} } end,
 }
 

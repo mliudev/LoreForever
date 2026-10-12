@@ -3,7 +3,9 @@
   <Script file="Index.lua"/>
   <Script file="QuestVoice.lua"/>
   <Script file="Z_alterac.lua"/>
+  <Script file="Z_alteracvalley.lua"/>
   <Script file="Z_arathi.lua"/>
+  <Script file="Z_arathibasin.lua"/>
   <Script file="Z_ashenvale.lua"/>
   <Script file="Z_azshara.lua"/>
   <Script file="Z_badlands.lua"/>
@@ -12,6 +14,7 @@
   <Script file="Z_blastedlands.lua"/>
   <Script file="Z_burningsteppes.lua"/>
   <Script file="Z_darkshore.lua"/>
+  <Script file="Z_darkspearislands.lua"/>
   <Script file="Z_darnassus.lua"/>
   <Script file="Z_deadmines.lua"/>
   <Script file="Z_deadwind.lua"/>
@@ -28,6 +31,7 @@
   <Script file="Z_hallofthanes.lua"/>
   <Script file="Z_hillsbrad.lua"/>
   <Script file="Z_hinterlands.lua"/>
+  <Script file="Z_hyjal.lua"/>
   <Script file="Z_ironforge.lua"/>
   <Script file="Z_lochmodan.lua"/>
   <Script file="Z_moonglade.lua"/>
@@ -57,6 +61,7 @@
   <Script file="Z_undercity.lua"/>
   <Script file="Z_ungoro.lua"/>
   <Script file="Z_wailing.lua"/>
+  <Script file="Z_warsonggulch.lua"/>
   <Script file="Z_westernplaguelands.lua"/>
   <Script file="Z_westfall.lua"/>
   <Script file="Z_wetlands.lua"/>
