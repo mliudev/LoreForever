@@ -112,6 +112,7 @@ CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers", "LoreForever_Voice_Default_Qu
                   "LoreForever_Voice_Female_Quests"} | {n for n in DOWNLOADS if re.fullmatch(
     r"LoreForever_Voice_(Default|Female)((_Quests)?_[a-z]{2}[A-Z]{2}|_Answers_\w+)", n)}
 CURSEFORGE_MB = 480                                  # its upload API refuses bigger files
+GITHUB_ASSET_MAX = 2 * 1024**3 - 64 * 1024**2        # GitHub's release asset limit (2 GiB), less room for zip overhead
 
 def version(folder):
     toc = (addons / folder / f"{folder}.toc").read_text(encoding="utf-8")
@@ -182,6 +183,13 @@ for name, (folders, display) in DOWNLOADS.items():
         folders = [f for f in folders if (addons / f / f"{f}.toc").is_file()]
         if not folders:
             print(f"skip {name}: no recorded components in addon/")
+            continue
+        # GitHub refuses a release asset of 2 GiB or more (0.15.0's English female bundle: HTTP 422). A bundle is a
+        # convenience: its packs are downloads of their own and the site only links a bundle the release has.
+        size = sum(p.stat().st_size for f in folders for p in (addons / f).rglob("*") if p.is_file())
+        if size > GITHUB_ASSET_MAX:
+            print(f"skip {name}: about {size / 1024**2:.0f} MB, over GitHub's 2 GB release file limit; its packs "
+                  "download separately")
             continue
     if not all((addons / f / f"{f}.toc").is_file() for f in folders):
         print(f"skip {name}: {', '.join(f for f in folders if not (addons / f).is_dir()) or 'no .toc'} not in addon/")
