@@ -57,15 +57,29 @@
     {
       "key": "female-narrator",
       "name": "Lore Forever - Female Narrator",
-      "about": "the female narrator's stories of zones, places, people and dungeons",
+      "about": "the female narrator's stories of zones, places, people and dungeons, with her Alliance lands",
       "from": "LoreForever_Voice_Female-complete.zip",
-      "folders": ["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde"],
+      "folders": ["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance"],
       "file": "Lore Forever female narrator {v}",
       "core": "optional",
       "requires": [],
+      "suggests": ["female-horde"],
       "id": 1727332,
       "slug": "lore-forever-female-narrator",
       "live": true
+    },
+    {
+      "key": "female-horde",
+      "name": "Lore Forever - Female Narrator (Horde lands)",
+      "about": "the female narrator's stories of the Horde's zones, cities and places",
+      "from": "LoreForever_Voice_Female_Horde.zip",
+      "folders": ["LoreForever_Voice_Female_Horde"],
+      "file": "Lore Forever female narrator, Horde lands {v}",
+      "core": "optional",
+      "requires": ["female-narrator"],
+      "id": null,
+      "slug": null,
+      "live": false
     },
     {
       "key": "female-quests",
