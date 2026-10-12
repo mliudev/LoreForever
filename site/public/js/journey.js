@@ -1,109 +1,123 @@
-// The journey on a profile (/u/<handle>, lib/trails.js journeySection, LOR-248): the filter chips, a land picked on the
-// road chart (public/js/roadchart.js sends "pf-land"), and the trail links (#m-<n>). Following one shows the moment
-// wherever it is (unfolds the earlier moments, clears a filter that hides it), marks it and moves focus there; Back
-// returns along the trail. Without this script the moments are all there, the chips stay hidden and the links are
-// plain in-page links.
+// The journey on a profile (/u/<handle>, lib/profiles.js, Mike 10/11): the two tabs, The journey and By the numbers,
+// and the road chart beside the chapters (lib/chapters.js). Without this script both tabs are there, one after the
+// other, and the chart's lands are plain links to their chapters.
 //
-// The two views (lib/profiles.js): Map (#map, the road chart) and Timeline (#timeline, the moments), one at a time,
-// Map first when there is one. A link to either opens it (#journey, the old address, is the timeline), and so does a
-// link to a moment (#m-<n>).
+// Tabs switch in place; a link to either (#journey, #numbers) opens it, and so does the address of anything inside
+// one (#ch-<n>, a moment's #m-<n>, the old #map and #timeline). On a wide screen the chart stays beside the reading
+// (.pf-atlas-stick is sticky, level with the middle of the window) and follows it: the chapter being read is the one
+// in the middle of the window (the last one whose top has passed it), and its number, lands and fit go to public/js/roadchart.js as "pf-chapter" (n 0: none, the whole road).
+// Links within the page (a land, a chapter's number, a moment) scroll there instead of jumping.
 (() => {
-  const root = document.getElementById("timeline");
-  if (!root) return;
-  const rows = [...root.querySelectorAll(".pf-m")];
-  const older = root.querySelector(".pf-older");
-  const chips = root.querySelector(".pf-filter");
-  const shown = root.querySelector(".pf-shown");
+  const nav = document.querySelector(".pf-tabs");
+  const panels = { journey: document.getElementById("journey"), numbers: document.getElementById("numbers") };
   const still = matchMedia("(prefers-reduced-motion: reduce)");
+  let current = "journey";
 
-  const map = document.getElementById("map");
-  const nav = document.querySelector(".pf-views");
-  function view(name) {
-    if (!map || !nav) return;
-    map.hidden = name !== "map";
-    root.hidden = name !== "timeline";
-    for (const a of nav.querySelectorAll("a[data-view]")) {
-      if (a.dataset.view === name) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current");
+  function tab(name, focus = false) {
+    if (!nav || !panels[name]) return;
+    current = name;
+    for (const [k, panel] of Object.entries(panels)) if (panel) panel.hidden = k !== name;
+    for (const a of nav.querySelectorAll("a[data-tab]")) {
+      const on = a.dataset.tab === name;
+      a.setAttribute("aria-selected", String(on));
+      a.tabIndex = on ? 0 : -1;
+      if (on && focus) a.focus();
     }
+    follow();
   }
-  if (map && nav) {
+  if (nav && panels.journey && panels.numbers) {
+    nav.setAttribute("role", "tablist");
+    for (const a of nav.querySelectorAll("a[data-tab]")) {
+      a.setAttribute("role", "tab");
+      a.setAttribute("aria-controls", a.dataset.tab);
+      panels[a.dataset.tab].setAttribute("role", "tabpanel");
+      panels[a.dataset.tab].setAttribute("aria-labelledby", a.id);
+    }
     nav.hidden = false;
     nav.addEventListener("click", e => {
-      const a = e.target.closest("a[data-view]");
+      const a = e.target.closest("a[data-tab]");
       if (!a || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
       e.preventDefault();
-      view(a.dataset.view);
-      history.replaceState(null, "", "#" + a.dataset.view);
+      tab(a.dataset.tab);
+      history.replaceState(null, "", "#" + a.dataset.tab);
+    });
+    nav.addEventListener("keydown", e => {
+      if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+      e.preventDefault();
+      tab(current === "journey" ? "numbers" : "journey", true);
+      history.replaceState(null, "", "#" + current);
     });
   }
 
-  // Only one kind of moment (group, a chip), or only one land (land, from the chart; name says which), or everything.
-  function filter(group, land = "", name = "") {
-    let n = 0;
-    for (const r of rows) {
-      r.hidden = (Boolean(group) && r.dataset.g !== group) || (Boolean(land) && r.dataset.land !== land);
-      if (!r.hidden) n++;
-    }
-    for (const day of root.querySelectorAll(".pf-day")) day.hidden = !day.querySelector(".pf-m:not([hidden])");
-    const any = Boolean(group || land);
-    if (older) {
-      older.hidden = any && !older.querySelector(".pf-m:not([hidden])");
-      if (any) older.open = true;
-    }
-    for (const b of chips?.querySelectorAll("button[data-f]") || []) {
-      b.setAttribute("aria-pressed", String(!land && b.dataset.f === group));
-    }
-    if (shown) {
-      shown.textContent = land ? `Showing ${n} moment${n === 1 ? "" : "s"} in ${name}. Pick All to see every moment.`
-        : group ? `Showing ${n} of ${rows.length} moments.` : "";
-    }
-  }
-
-  if (chips) {
-    chips.hidden = false;
-    chips.addEventListener("click", e => {
-      const b = e.target.closest("button[data-f]");
-      if (b) filter(b.dataset.f);
-    });
-  }
-  document.addEventListener("pf-land", e => {
-    view("timeline");
-    history.replaceState(null, "", "#timeline");
-    filter("", String(e.detail?.land || ""), String(e.detail?.name || ""));
-    (chips?.querySelector('button[data-f=""]') || root).focus?.({ preventScroll: true });
-  });
-
-  function reveal(id, focus) {
-    const m = /^m-\d+$/.test(id) ? document.getElementById(id) : null;
-    if (!m || !root.contains(m)) return false;
-    view("timeline");
-    if (m.hidden) filter("");
-    const fold = m.closest("details");
-    if (fold) fold.open = true;
-    for (const x of root.querySelectorAll(".pf-hit")) x.classList.remove("pf-hit");
-    m.classList.add("pf-hit");
-    m.scrollIntoView({ block: "center", behavior: still.matches ? "auto" : "smooth" });
-    if (focus) m.focus({ preventScroll: true });
+  // Something on the page by its address: the tab it's in shown, the chapter or fold it's in opened, then scrolled to.
+  // A moment of an older chapter, which lists no moments, opens that chapter instead.
+  function reveal(id, { smooth = true, focus = true } = {}) {
+    let el = /^[a-z][\w-]*$/i.test(id) ? document.getElementById(id) : null;
+    const n = /^m-(\d+)$/.exec(id);
+    if (!el && n) el = [...document.querySelectorAll(".pf-chx[data-from]")].find(c => +n[1] >= +c.dataset.from && +n[1] <= +c.dataset.to);
+    if (id === "timeline") el = document.getElementById("chapters");
+    if (!el) return false;
+    const inPanel = Object.keys(panels).find(k => panels[k]?.contains(el));
+    if (inPanel && inPanel !== current) tab(inPanel);
+    for (let d = el.closest("details"); d; d = d.parentElement?.closest("details")) d.open = true;
+    if (el.matches("details")) el.open = true;
+    for (const x of document.querySelectorAll(".pf-hit")) x.classList.remove("pf-hit");
+    if (n || el.matches(".pf-ch, .pf-chx")) el.classList.add("pf-hit");
+    el.scrollIntoView({ block: n ? "center" : "start", behavior: smooth && !still.matches ? "smooth" : "auto" });
+    if (focus && el.matches("[tabindex], details, a")) el.focus({ preventScroll: true });
     return true;
   }
-
-  root.addEventListener("click", e => {
-    const a = e.target.closest("a.pf-go");
-    if (!a || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-    const id = a.hash.slice(1);
-    if (reveal(id, true)) {
-      e.preventDefault();
-      history.pushState(null, "", "#" + id);
-    }
+  document.addEventListener("click", e => {
+    const a = e.target.closest('a[href^="#"]');
+    if (!a || a.closest(".pf-tabs") || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    if (e.defaultPrevented) return;   // a drag on the chart (roadchart.js)
+    const id = a.getAttribute("href").slice(1);
+    if (!id || !reveal(id)) return;
+    e.preventDefault();
+    history.pushState(null, "", "#" + id);
   });
-  // Back and Forward along the trail, a link to a moment from elsewhere, and a link to a view.
   const fromHash = first => {
-    const id = location.hash.slice(1);
-    if (id === "map" || id === "timeline" || id === "journey") {
-      view(id === "map" ? "map" : "timeline");
-      (id === "map" ? map : root)?.scrollIntoView({ block: "start" });
-    } else if (!reveal(id, true) && first) view(map ? "map" : "timeline");
+    const id = decodeURIComponent(location.hash.slice(1));
+    if (id === "numbers" || id === "journey") { tab(id); if (!first) panels[id]?.scrollIntoView({ block: "start" }); return; }
+    if (id === "map") { tab("journey"); document.getElementById("map")?.scrollIntoView({ block: "start" }); return; }
+    if (id) reveal(id, { smooth: !first });
   };
   addEventListener("hashchange", () => fromHash(false));
+
+  // The chart follows the chapter being read, on a wide screen where it stays beside the reading.
+  const stick = document.querySelector(".pf-atlas-stick");
+  const chapters = [...document.querySelectorAll(".pf-ch[data-n]")];
+  const story = document.querySelector(".pf-story");
+  let shown = -1;
+  function follow() {
+    if (!stick || !chapters.length) return;
+    const beside = current === "journey" && getComputedStyle(stick).position === "sticky";
+    const line = innerHeight * 0.5;
+    let n = 0;
+    if (beside) {
+      for (const c of chapters) if (c.getBoundingClientRect().top <= line) n = Number(c.dataset.n);
+      const after = chapters.at(-1).getBoundingClientRect().bottom < line * 0.5;
+      if (after || (story && story.getBoundingClientRect().bottom > line)) n = 0;
+    }
+    if (n === shown) return;
+    shown = n;
+    const c = chapters.find(x => Number(x.dataset.n) === n);
+    document.dispatchEvent(new CustomEvent("pf-chapter", { detail: {
+      n, title: c?.querySelector("h3")?.textContent || "", when: c?.querySelector(".pf-eyebrow")?.textContent.replace(/^Chapter \d+\s*·\s*/, "") || "" } }));
+  }
+  let ticking = false;
+  addEventListener("scroll", () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => { ticking = false; follow(); });
+  }, { passive: true });
+  addEventListener("resize", follow);
+  // Half the chart's height, for the CSS that keeps it level with the middle of the window.
+  const half = () => stick?.style.setProperty("--pf-half", Math.round(stick.offsetHeight / 2) + "px");
+  if (stick && window.ResizeObserver) new ResizeObserver(half).observe(stick);
+  half();
+
+  tab("journey");
   fromHash(true);
+  follow();
 })();

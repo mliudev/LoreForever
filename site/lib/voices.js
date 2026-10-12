@@ -252,6 +252,12 @@ export const siteNav = viewer => viewer
       (viewer.session_expires ? ` data-until="${escape(viewer.session_expires)}">` : ">"))
   : SITE_NAV;
 
+// A query on the stylesheet and a page's own scripts: change it whenever they change. The domain lets browsers keep
+// .css and .js files for 4 hours without asking (Cloudflare's Browser Cache TTL, which overrides any Cache-Control we
+// send for them), so without a new address a browser can pair a new page with the old styles and scripts (seen 10/11,
+// right after the profile was rebuilt).
+export const FRESH = "v=20261011c";
+
 // crumbs, foot and scripts replace the voice pages' breadcrumb (under the header; "" for none), footer line and player
 // script; robots adds a robots meta tag; head adds tags after the site stylesheet (a page's own stylesheet). viewer:
 // the signed-in user the page is for (siteNav), if the Function knows.
@@ -279,7 +285,7 @@ ${robots ? `<meta name="robots" content="${escape(robots)}">\n` : ""}<link rel="
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?${FRESH}">
 ${head ? head + "\n" : ""}<script src="/header.js" defer></script>
 </head>
 <body>

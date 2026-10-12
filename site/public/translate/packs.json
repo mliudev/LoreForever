@@ -3,56 +3,65 @@
     {
       "locale": "deDE",
       "name": "Deutsch",
-      "version": "0.13.1",
-      "dataVersion": "2026-10-09 09:12 UTC",
-      "file": "LoreForever_Lang_deDE-0.13.1.zip",
-      "size": 10539554,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_deDE-0.13.1.zip"
+      "version": "0.14.0",
+      "dataVersion": "2026-10-10 18:53 UTC",
+      "file": "LoreForever_Lang_deDE-0.14.0.zip",
+      "size": 11606478,
+      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_deDE-0.14.0.zip"
     },
     {
       "locale": "esES",
       "name": "Español (España)",
-      "version": "0.13.1",
-      "dataVersion": "2026-10-09 09:12 UTC",
-      "file": "LoreForever_Lang_esES-0.13.1.zip",
-      "size": 10121751,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_esES-0.13.1.zip"
+      "version": "0.14.0",
+      "dataVersion": "2026-10-10 18:53 UTC",
+      "file": "LoreForever_Lang_esES-0.14.0.zip",
+      "size": 11057260,
+      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_esES-0.14.0.zip"
     },
     {
       "locale": "frFR",
       "name": "Français",
-      "version": "0.13.1",
-      "dataVersion": "2026-10-09 09:12 UTC",
-      "file": "LoreForever_Lang_frFR-0.13.1.zip",
-      "size": 10422108,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_frFR-0.13.1.zip"
+      "version": "0.14.0",
+      "dataVersion": "2026-10-10 18:53 UTC",
+      "file": "LoreForever_Lang_frFR-0.14.0.zip",
+      "size": 11431483,
+      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_frFR-0.14.0.zip"
+    },
+    {
+      "locale": "itIT",
+      "name": "Italiano",
+      "version": "0.14.0",
+      "dataVersion": "2026-10-10 18:53 UTC",
+      "file": "LoreForever_Lang_itIT-0.14.0.zip",
+      "size": 5145220,
+      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_itIT-0.14.0.zip"
     },
     {
       "locale": "ptBR",
       "name": "Português (Brasil)",
-      "version": "0.13.1",
-      "dataVersion": "2026-10-09 09:12 UTC",
-      "file": "LoreForever_Lang_ptBR-0.13.1.zip",
-      "size": 10057307,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_ptBR-0.13.1.zip"
+      "version": "0.14.0",
+      "dataVersion": "2026-10-10 18:53 UTC",
+      "file": "LoreForever_Lang_ptBR-0.14.0.zip",
+      "size": 10956314,
+      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_ptBR-0.14.0.zip"
     },
     {
       "locale": "ruRU",
       "name": "Русский",
-      "version": "0.13.1",
-      "dataVersion": "2026-10-09 09:12 UTC",
-      "file": "LoreForever_Lang_ruRU-0.13.1.zip",
-      "size": 13341088,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_ruRU-0.13.1.zip"
+      "version": "0.14.0",
+      "dataVersion": "2026-10-10 18:53 UTC",
+      "file": "LoreForever_Lang_ruRU-0.14.0.zip",
+      "size": 12765289,
+      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_ruRU-0.14.0.zip"
     },
     {
       "locale": "ukUA",
       "name": "Українська",
-      "version": "0.13.1",
-      "dataVersion": "2026-10-09 09:12 UTC",
-      "file": "LoreForever_Lang_ukUA-0.13.1.zip",
-      "size": 11784727,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_ukUA-0.13.1.zip"
+      "version": "0.14.0",
+      "dataVersion": "2026-10-10 18:53 UTC",
+      "file": "LoreForever_Lang_ukUA-0.14.0.zip",
+      "size": 11300907,
+      "download": "https://github.com/mliudev/LoreForever/releases/download/languages/LoreForever_Lang_ukUA-0.14.0.zip"
     }
   ]
 }

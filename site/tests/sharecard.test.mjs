@@ -79,7 +79,7 @@ test("POST /api/profile/card keeps the card, and the profile's links show it", a
   // Visitors' links show it; the owner's page has nothing to draw until the profile changes.
   assert.ok((await page(p.handle)).includes(`<meta property="og:image" content="https://loreforeverwow.com${url}">`));
   assert.ok(!(await page(p.handle, me.cookie)).includes(`id="pf-sharecard"`));
-  // Without Sam (the "companion" feature off): a card without him is due.
+  // Without Willo (the "companion" feature off): a card without it is due.
   env.SITE_FEATURES = "-companion";
   const due = facts(await page(p.handle, me.cookie));
   assert.equal(due.herald, false);

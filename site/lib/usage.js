@@ -8,20 +8,27 @@
 //     {"play.zone": 3, "done.zone": 2, "ask": 1, "panel": 4, "sync": 1}
 // play.<kind> narrations started from their beginning, done.<kind> heard to the end; ask (questions typed), faq
 // (suggested questions picked), live (questions sent to live answers), panel (Lore panel opens), journey (Journey
-// opens), pic (pictures taken), chat (messages sent to Sam in the companion) and newchat (new Sam chats), which the
+// opens), pic (pictures taken), chat (messages sent to Willo in the companion) and newchat (new Willo chats), which the
 // companion counts itself, and sync (the companion synced that UTC day, so players on an add-on without counts still
 // count as syncing players).
+// LOR-420: autoplay.<kind> / autodone.<kind> are the narrations that started by themselves (an arrival, a flight, a quest
+// giver's or a book's page) and userplay.<kind> / userdone.<kind> the ones the player started (Play, Listen, the
+// Narrate key, the playlist). play and done keep counting all of them; an add-on from before the split sends only
+// those, and still reads. Books have their own kind since then (before, "other").
 //
 // A day's counts only grow, and the same day can arrive again (every sync sends the newest 30): each metric keeps the
 // larger of what's stored and what came, and a row is written only when that changes, so a sync costs a write per
 // changed day, not one per count.
+
+import { counted } from "./activity.js";
 
 export const USAGE_KEEP_DAYS = 90;
 const MAX_DAYS = 31;            // the add-on keeps 30
 const MAX_COUNT = 100000;       // a day's count above this isn't a real one
 const PAST_DAYS = 45;           // older days are ignored: their players' rows are about to be dropped anyway
 export const USAGE_COUNTS = ["ask", "faq", "live", "panel", "journey", "pic", "chat", "newchat"];
-export const USAGE_KINDS = ["zone", "place", "person", "quest", "dialogue", "answer", "topic", "other"];
+export const USAGE_KINDS = ["zone", "place", "person", "quest", "dialogue", "answer", "topic", "book", "other"];
+export const USAGE_BY_KIND = ["play", "done", "autoplay", "autodone", "userplay", "userdone"];
 const DAY = /^\d{4}-\d\d-\d\d$/;
 
 export const USAGE_SETUP = [
@@ -33,7 +40,7 @@ export const USAGE_SETUP = [
 const utcDay = (now, offsetDays = 0) => new Date(now + offsetDays * 864e5).toISOString().slice(0, 10);
 const isCount = n => Number.isInteger(n) && n > 0 && n <= MAX_COUNT;
 
-// The companion's {v: 1, days: {day: {count: n, play|done: {kind: n}}}} as {day: {metric: n}}, keeping only known
+// The companion's {v: 1, days: {day: {count: n, <USAGE_BY_KIND>: {kind: n}}}} as {day: {metric: n}}, keeping only known
 // counts on plausible days; null when nothing usable came.
 export function readUsage(input, now = Date.now()) {
   if (!input || typeof input !== "object" || input.v !== 1 || !input.days || typeof input.days !== "object") return null;
@@ -44,7 +51,7 @@ export function readUsage(input, now = Date.now()) {
     if (!d || typeof d !== "object") continue;
     const counts = {};
     for (const k of USAGE_COUNTS) if (isCount(d[k])) counts[k] = d[k];
-    for (const by of ["play", "done"]) {
+    for (const by of USAGE_BY_KIND) {
       const kinds = d[by];
       if (!kinds || typeof kinds !== "object") continue;
       for (const kind of USAGE_KINDS) if (isCount(kinds[kind])) counts[`${by}.${kind}`] = kinds[kind];
@@ -91,7 +98,9 @@ export async function saveUsage(env, userId, usage, now = Date.now()) {
 // profile.view: someone other than its owner opened a public profile (functions/u/[handle].js); profile.outside: of
 // those, opened from a link outside the site (another site's or an app's, or pasted: a shared link); profile.share:
 // Share pressed or a profile link copied (POST /api/count/share, from public/js/profile.js and /account).
-export const SITE_COUNTS = ["profile.view", "profile.outside", "profile.share"];
+// Profile updates (LOR-304, functions/api/profile/[action].js): profile.paste, a pasted journey record that made or
+// changed a profile; profile.sync, the companion's update that did.
+export const SITE_COUNTS = ["profile.view", "profile.outside", "profile.share", "profile.paste", "profile.sync"];
 const SITE_SETUP = `CREATE TABLE IF NOT EXISTS site_counts (
   day TEXT NOT NULL, metric TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (day, metric))`;
 // Link previews and crawlers fetch pages too; they aren't people (functions/download/[file].js skips them as well).
@@ -104,10 +113,11 @@ export async function countSite(env, metrics, now = Date.now()) {
     .bind(day, m))]);
 }
 
-// For /admin: [{day, metric, n}] over the last `days` days.
+// For /admin: the share loop's [{day, metric, n}] over the last `days` days (profile updates are lib/activity.js's).
+const SHARE_LOOP = ["profile.view", "profile.outside", "profile.share"];
 export async function siteReport(env, days = 14, now = Date.now()) {
-  const { results } = await env.DB.prepare("SELECT day, metric, n FROM site_counts WHERE day >= ? ORDER BY day")
-    .bind(utcDay(now, -(days - 1))).all();
+  const { results } = await env.DB.prepare("SELECT day, metric, n FROM site_counts WHERE day >= ? " +
+    `AND metric IN (${SHARE_LOOP.map(() => "?").join(", ")}) ORDER BY day`).bind(utcDay(now, -(days - 1)), ...SHARE_LOOP).all();
   return results;
 }
 
@@ -118,7 +128,8 @@ export async function siteReport(env, days = 14, now = Date.now()) {
 //   week:    players in the last 7 days
 export async function usageReport(env, days = 14, now = Date.now()) {
   const since = utcDay(now, -(days - 1)), week = utcDay(now, -6);
-  const each = "FROM usage_days u, json_each(u.counts) j WHERE u.day >= ?";
+  // Accounts /admin leaves out (lib/activity.js syncExclusions: Mike's own, test ones) aren't players here either.
+  const each = "FROM usage_days u, json_each(u.counts) j WHERE u.day >= ? AND " + counted("u.user_id");
   const all = async (sql, ...args) => (await env.DB.prepare(sql).bind(...args).all()).results;
   const [perDay, perMetric, windowMetrics, windowPlayers, weekPlayers] = await Promise.all([
     all("SELECT u.day, COUNT(DISTINCT u.user_id) AS players, " +
@@ -129,7 +140,7 @@ export async function usageReport(env, days = 14, now = Date.now()) {
         "GROUP BY j.key", since),
     all("SELECT COUNT(DISTINCT u.user_id) AS players, " +
         `COUNT(DISTINCT CASE WHEN j.key != 'sync' THEN u.user_id END) AS counted ${each}`, since),
-    all("SELECT COUNT(DISTINCT user_id) AS players FROM usage_days WHERE day >= ?", week),
+    all("SELECT COUNT(DISTINCT user_id) AS players FROM usage_days WHERE day >= ? AND " + counted("user_id"), week),
   ]);
   return {
     since, days: perDay, metrics: perMetric,

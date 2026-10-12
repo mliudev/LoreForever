@@ -504,6 +504,7 @@ local function marker(f, i)
       Map.ZoomTo(f, f.zoom * 2, c.x - f.ox, c.y - f.oy, true)
       return
     end
+    if ns.Log then ns.Log.Use("mapclick") end   -- usage counts (LOR-435)
     if f.opts.onOpen then f.opts.onOpen(c.list[1], IsShiftKeyDown and IsShiftKeyDown()) end
   end)
   f.markers[i] = b
@@ -1013,7 +1014,10 @@ function Map.Create(parent, opts)
   f.zoomIn, f.zoomOut, f.resetButton = zin, zout, reset
   if not opts.large then
     local big = iconButton(hud, L["Bigger map"], L["Opens the map large. Esc closes it."],
-      function() if opts.onExpand then opts.onExpand() end end)
+      function()
+        if ns.Log then ns.Log.Use("map") end   -- usage counts (LOR-435)
+        if opts.onExpand then opts.onExpand() end
+      end)
     for _, s in ipairs({ { -1, 1 }, { 1, 1 }, { -1, -1 }, { 1, -1 } }) do
       bar(big, 4, 2, s[1] * 4, s[2] * 5)
       bar(big, 2, 4, s[1] * 5, s[2] * 4)

@@ -36,7 +36,7 @@ export const wikiSearch = name => (String(name || "").trim() ? WIKI_SEARCH + enc
 const LIVE_TTL = 60 * 1000;
 
 export const KIND_GROUPS = { zone: "Zones", dungeon: "Dungeons", subzone: "Places", npc: "Characters", boss: "Bosses",
-  quest: "Quests", topic: "Lore" };
+  quest: "Quests", item: "Items", topic: "Topics" };
 const ZONE_TYPES = [["city", "Capitals"], ["zone", "Zones"], ["dungeon", "Dungeons"]];
 
 // Report reasons, as POST /api/clip-report takes them (LOR-232, site/CLIP_REPORT_API.md once that's merged). Its
@@ -56,7 +56,11 @@ async function assetJson(env, request, path) {
   try { return await res.json(); } catch (e) { return null; }
 }
 
+// index.json lists the pages with a recording or quest dialogue; more.json the rest (site_lore.py: the companion's
+// lore player reads index.json and rejects page kinds it doesn't know). allPages is both, in no particular order.
 export const loadIndex = (env, request) => assetJson(env, request, `${DATA}/index.json`);
+export const loadMore = (env, request) => assetJson(env, request, `${DATA}/more.json`);
+export const allPages = (index, more) => [...(index?.pages || []), ...(more?.pages || [])];
 export const loadEntry = (env, request, key) => assetJson(env, request, `${DATA}/e/${key.replace(":", "_")}.json`);
 
 // The entry key an address names, or null: (zone, stormwind) -> zone:stormwind; (quest, 176-wanted-hogger) and
@@ -221,10 +225,12 @@ const foot = `<p>Lore text is adapted from the <a href="https://warcraft.wiki.gg
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; each page names its articles. Quest text
     is the game's own, &copy; Blizzard Entertainment.</p>`;
 
-const noindex = env => (isPublic(env) ? undefined : "noindex");
-export const htmlHeaders = env => ({
+// A thin page (site_lore.py THIN_CHARS: a line or two, nothing to play) is served but kept out of search: noindex in the
+// header and the page, and out of the sitemap. Its links are still followed.
+const noindex = (env, entry) => (isPublic(env) && !entry?.thin ? undefined : "noindex");
+export const htmlHeaders = (env, entry) => ({
   "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-cache",
-  ...(isPublic(env) ? {} : { "X-Robots-Tag": "noindex" }),
+  ...(noindex(env, entry) ? { "X-Robots-Tag": "noindex" } : {}),
 });
 
 const HEAD = `<link rel="stylesheet" href="/lore/lore.css">`;
@@ -232,8 +238,22 @@ const SCRIPTS = `<script src="/lore/lore.js" defer></script>`;
 
 // ---- Pages ----
 
-// /lore/<type>/<id>: one entry. live: the recordings R2 has (liveKeys); names: voiceNames.
-export function entryPage(entry, { live = new Set(), names = {}, env } = {}) {
+// "Hear it in game" (LOR-437): the downloads that have this page's recording, linked to their row on /downloads.
+// packs: lib/packs.js packsForEntry, [{name, href, main}].
+function packsSection(packs) {
+  if (!packs?.length) return "";
+  return `<section class="lp-packs" aria-labelledby="packs-title">
+      <h2 id="packs-title">Hear it in game</h2>
+      <p>Recordings of this page come in ${packs.length === 1 ? "this download" : "these downloads"}:</p>
+      <ul class="lp-links">
+        ${packs.map(p => `<li><a href="${escape(p.href)}">${escape(p.name)}</a>${p.main ? ` <span class="lp-count">in the main download</span>` : ""}</li>`).join("\n        ")}
+      </ul>
+    </section>`;
+}
+
+// /lore/<type>/<id>: one entry. live: the recordings R2 has (liveKeys); names: voiceNames; packs: the downloads with
+// its recording (packsSection).
+export function entryPage(entry, { live = new Set(), names = {}, env, packs = [] } = {}) {
   const zone = entry.zone;
   const where = [
     `<span class="tag lp-tag">${escape(entry.label)}</span>`,
@@ -251,6 +271,12 @@ export function entryPage(entry, { live = new Set(), names = {}, env } = {}) {
   }
   const playable = (entry.clips || []).some(c => players(c, live, names).n);
   const intro = (entry.intro || []).length ? `<div class="lp-intro">${(entry.intro || []).map(p => `<p>${escape(p)}</p>`).join("")}</div>` : "";
+  // An entry with no recording reads as text: each spoiler-free section under its own heading (a narrated page has the
+  // narration instead).
+  const sections = (entry.sections || []).map(s => `<section class="lp-sec">
+      <h2>${escape(s.t)}</h2>
+      <div class="lp-text">${(s.p || []).map(p => `<p>${escape(p)}</p>`).join("")}</div>
+    </section>`).join("\n    ");
   const speed = playable ? `<div class="lp-speed" role="group" aria-label="Playback speed" hidden>Speed
       <button type="button" data-rate="1" aria-pressed="true">1&times;</button><button type="button" data-rate="1.25"
         aria-pressed="false">1.25&times;</button><button type="button" data-rate="1.5" aria-pressed="false">1.5&times;</button>
@@ -288,7 +314,9 @@ export function entryPage(entry, { live = new Set(), names = {}, env } = {}) {
     <h1>${escape(entry.name)}</h1>
     ${intro}
     ${speed}
+    ${sections}
     ${clipsHtml.join("\n    ")}
+    ${packsSection(packs)}
     ${sources}
     ${lookup}
     ${children}
@@ -299,20 +327,22 @@ export function entryPage(entry, { live = new Set(), names = {}, env } = {}) {
   const crumbs = [`<a href="/lore">Lore</a>`];
   if (zone && zone.path && zone.path !== entry.path) crumbs.push(`<a href="${escape(zone.path)}">${escape(zone.name)}</a>`);
   crumbs.push(escape(entry.name));
-  const title = entry.kind === "quest" ? `${entry.name}: quest dialogue read aloud` : `${entry.name}: lore and narration`;
+  const title = !(entry.clips || []).length ? `${entry.name}: lore and story`
+    : entry.kind === "quest" ? `${entry.name}: quest dialogue read aloud` : `${entry.name}: lore and narration`;
   return page({
     title, description: entry.description || entry.name, path: entry.path, body, crumbs: crumbs.join(" &rsaquo; "),
-    foot, scripts: SCRIPTS, robots: noindex(env), head: HEAD,
+    foot, scripts: SCRIPTS, robots: noindex(env, entry), head: HEAD,
   });
 }
 
 // /lore: the list. Filters, search and the player come from public/lore/lore.js reading index.json; without
-// JavaScript the zones below still lead to every page.
-export function indexPage(index, { env } = {}) {
-  const pages = index?.pages || [];
-  const clipCount = pages.reduce((n, p) => n + p.c.length, 0);
+// JavaScript the zones below still lead to every page. packs: the downloads to filter by (LOR-437; lib/packs.js
+// packOptions, [{value: pack folder, name}]): lore.js reads /data/pack-entries.json when one is picked.
+export function indexPage(index, { more, env, packs = [] } = {}) {
+  const pages = allPages(index, more);
+  const clipCount = (index?.pages || []).reduce((n, p) => n + p.c.length, 0);
   const byZone = {};
-  for (const p of pages) byZone[p.z] = (byZone[p.z] || 0) + p.c.length;
+  for (const p of index?.pages || []) byZone[p.z] = (byZone[p.z] || 0) + p.c.length;
   const zones = index?.zones || [];
   const zoneGroups = ZONE_TYPES.map(([type, label]) => {
     const some = zones.filter(z => z.p && (z.type || "zone") === type);
@@ -322,19 +352,25 @@ export function indexPage(index, { env } = {}) {
         ${some.map(z => `<li><a href="${escape(z.p)}">${escape(z.name)}</a> <span class="lp-count">${byZone[z.key] || 0}</span></li>`).join("\n        ")}
       </ul>`;
   }).join("\n      ");
-  const others = pages.filter(p => p.k === "topic");
+  // Pages no zone page lists (topics, and the few quests in a zone with no page of its own), so they're linked from here.
+  const zonePages = new Set(zones.filter(z => z.p).map(z => z.key));
+  const others = pages.filter(p => !zonePages.has(p.z)).map(p => ({ p: p.p, n: p.n, k: p.k }))
+    .sort((a, b) => a.n.localeCompare(b.n));
   const body = `  <section class="lx" aria-labelledby="lx-title">
     <h1 id="lx-title">Hear the lore</h1>
-    <p class="pitch">Every story Lore Forever reads aloud: zones and capitals, the places and people in them, dungeon
-      bosses and what quest givers say. Play any of them here, then hear them in game as you get there.</p>
+    <p class="pitch">Every story Lore Forever tells: zones and capitals, the places and people in them, dungeon bosses,
+      items and what quest givers say. Play the ones read aloud here, then hear them in game as you get there.</p>
     <p class="lx-stats">${clipCount.toLocaleString("en-US")} narrations &middot; ${pages.length.toLocaleString("en-US")} pages &middot;
       ${(index?.voices || []).length} narrators</p>
     <p class="lx-soon" hidden>Listening here is on its way. Every line below already plays in game:
       <a href="${DOWNLOAD}">get Lore Forever</a>.</p>
     <form class="lx-bar" role="search" hidden onsubmit="return false">
       <label class="lx-search"><span class="visually-hidden">Search</span>
-        <input type="search" name="q" placeholder="Search a zone, place, character or quest" autocomplete="off"></label>
+        <input type="search" name="q" placeholder="Search a zone, place, character, quest or item" autocomplete="off"></label>
       <label class="lx-zone"><span class="visually-hidden">Zone</span><select name="z"><option value="">All zones</option></select></label>
+      ${packs.length ? `<label class="lx-zone lx-pack"><span class="visually-hidden">Download</span><select name="p"><option value="">Any download</option>
+        ${packs.map(p => `<option value="${escape(p.value)}">${escape(p.name)}</option>`).join("\n        ")}
+      </select></label>` : ""}
       <div class="lx-chips" role="group" aria-label="Kind"></div>
       <div class="lx-chips lx-voices" role="group" aria-label="Voice"></div>
       <label class="lx-check"><input type="checkbox" name="playable"> Playable here</label>
@@ -348,8 +384,11 @@ export function indexPage(index, { env } = {}) {
   <section class="lx-zones" aria-labelledby="zones-title">
     <h2 id="zones-title">Browse by zone</h2>
     ${zoneGroups}
-    ${others.length ? `<h3>Lore</h3>\n      ${linkList(others.map(p => ({ p: p.p, n: p.n })))}` : ""}
   </section>
+  ${others.length ? `<section class="lx-zones" aria-labelledby="more-title">
+    <h2 id="more-title">Topics and more</h2>
+    ${grouped(others)}
+  </section>` : ""}
   ${cta}
   <div class="lx-player" hidden>
     <button type="button" class="lx-pp" aria-label="Play">&#9654;</button>
@@ -366,9 +405,9 @@ export function indexPage(index, { env } = {}) {
   </div>
   ${reportDialog()}`;
   return page({
-    title: "Hear the lore: every narration",
-    description: "Listen to the stories of WoW Forever's zones, places, characters, dungeon bosses and quest givers, " +
-      "as Lore Forever reads them in game. Search, filter by zone and play.",
+    title: "Hear the lore: every story",
+    description: "Read and listen to the stories of WoW Forever's zones, places, characters, items, dungeon bosses and " +
+      "quest givers, as Lore Forever tells them in game. Search, filter by zone and play.",
     path: "/lore", body, crumbs: "", foot, scripts: SCRIPTS, robots: noindex(env), head: HEAD,
   });
 }
@@ -385,9 +424,10 @@ export function missingLorePage(env) {
   });
 }
 
-// /lore/sitemap.xml: /lore and every page, once the pages are public; an empty (valid) sitemap until then.
-export function sitemap(index, env) {
-  const urls = isPublic(env) ? ["/lore", ...(index?.pages || []).map(p => p.p)] : [];
+// /lore/sitemap.xml: /lore and every page that isn't thin (x), once the pages are public; an empty (valid) sitemap
+// until then.
+export function sitemap(index, env, more) {
+  const urls = isPublic(env) ? ["/lore", ...allPages(index, more).filter(p => !p.x).map(p => p.p)] : [];
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url><loc>https://${HOME}${escape(u)}</loc></url>`).join("\n")}

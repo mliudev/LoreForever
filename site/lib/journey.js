@@ -12,6 +12,8 @@
 // split them up, so `timeline` puts them back in order, as [section, index in it, day] with only the day
 // ("2026-10-01"): the profile shows the journey moment by moment, never the hour someone played.
 
+import { battleground } from "./battlegrounds.js";
+
 export const MAX_BYTES = 64 * 1024;   // the add-on keeps a record under 30 KB
 
 // The add-on's strings that shape a record, per language. sections maps each section title to its key in
@@ -21,6 +23,11 @@ const LOCALES = {
     header: "Journey record: %s", level: "Level %d", since: "Recorded since %s.",
     sinceFrom: "Recorded since %s, from level %d.", with: "with %s", reached: "Reached level %d", slain: "slain by %s",
     rep: "%s with %s", rewardFor: "reward for %s", questReward: "Quest reward", died: "Died", dungeon: "dungeon",
+    // LOR-430: a battleground's entry, and each battle's outcome. Only English so far: the language packs show
+    // these in English until the nightly translation reaches them (add theirs here then). A place in a battleground
+    // is also known by its name (lib/battlegrounds.js), whatever the language.
+    battleground: "battleground",
+    outcomes: { "Victory": "win", "Defeat": "loss", "Draw": "draw", "Left before the end": "left" },
     fought: "Most fought", cut: "Older entries were left out to keep this record short.",
     ranks: { "elite": "elite", "rare": "rare", "rare elite": "rareelite", "world boss": "worldboss" },
     stats: {
@@ -32,7 +39,8 @@ const LOCALES = {
     },
     sections: {
       "New places, in order": "places", "Places recorded, in order": "places", "Quests done": "quests",
-      "People met": "people", "Bosses defeated": "bosses", "Notable kills": "kills", "Loot and quest rewards": "loot",
+      "People met": "people", "Bosses defeated": "bosses", "Battles": "battles", "Notable kills": "kills",
+      "Loot and quest rewards": "loot",
       "Level-ups": "levels", "Spells learned": "spells", "Mounts": "mounts", "Profession milestones": "profs",
       "Reputation": "rep", "Deaths": "deaths", "Books read": "books", "Screenshots": "shots",
       "Journey stats": "stats", "Yards walked, by land": "walk", "Foes slain, by kind": "kinds",
@@ -191,15 +199,15 @@ const QUALITY = new Map(Object.entries({
 }));
 
 // How much of each list is kept (newest entries win when a list is longer).
-const CAP = { places: 300, quests: 400, people: 300, bosses: 100, kills: 150, loot: 150, levels: 80, spells: 80,
-              mounts: 30, profs: 20, rep: 60, deaths: 150, books: 80, fought: 10 };
+const CAP = { places: 300, quests: 400, people: 300, bosses: 100, battles: 100, kills: 150, loot: 150, levels: 80,
+              spells: 80, mounts: 30, profs: 20, rep: 60, deaths: 150, books: 80, fought: 10 };
 // The journey stats' lists (the add-on prints at most 30 lands, 12 kinds and 10 of the others).
 const STAT_CAP = { walk: 40, kinds: 20, time: 40, killers: 10, patrons: 10, inns: 10, destinations: 10 };
 const MAX_TEXT = 80;   // characters in any one name
 
 // The sections that are moments on the profile's timeline, in the order moments of the same minute go (you reach a
 // place, meet someone there, finish their quest, get its reward).
-export const TIMELINE = ["places", "people", "quests", "bosses", "kills", "loot", "levels", "mounts", "rep", "books", "deaths"];
+export const TIMELINE = ["places", "people", "quests", "bosses", "battles", "kills", "loot", "levels", "mounts", "rep", "books", "deaths"];
 
 // The game's date() prints English month names whatever the client's language ("Oct 01 14:23").
 const MONTHS = new Map(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"].map((m, i) => [m, i]));
@@ -257,12 +265,14 @@ const STAT_LISTS = {
 };
 const STAT_LINE = /^-\s*[^:]{1,60}:\s*[\d.,]+$/;
 // Maps, not objects: a pasted "constructor" or "__proto__" must not find anything.
-const merged = key => new Map(Object.values(LOCALES).flatMap(L => Object.entries(L[key])));
-const anyOf = key => new Set(Object.values(LOCALES).map(L => L[key]));
+const merged = key => new Map(Object.values(LOCALES).flatMap(L => Object.entries(L[key] || {})));
+const anyOf = key => new Set(Object.values(LOCALES).map(L => L[key]).filter(Boolean));
 const SECTIONS = merged("sections");
 const RANKS = merged("ranks");
 const CAUSES = merged("causes");
+const OUTCOMES = merged("outcomes");
 const FOUGHT = anyOf("fought"), CUT = anyOf("cut"), DUNGEON = anyOf("dungeon"), DIED = anyOf("died");
+const BATTLEGROUND = anyOf("battleground");
 const QUEST_REWARD = anyOf("questReward");
 const CLASS_OF = new Map(Object.entries(CLASSES).flatMap(([key, names]) => names.map(n => [n, key])));
 // A line that starts the sections, so a paste that lost its blank lines still ends the head there.
@@ -333,6 +343,7 @@ export function parseRecord(input, now = new Date()) {
     since: null, fromLevel: null, cut: false, totals: null,
     places: [], quests: [], people: [], bosses: [], kills: [], loot: [], levels: [], spells: [], mounts: [],
     profs: [], rep: [], deaths: [], books: [], shots: 0, fought: [], grouped: 0, timeline: [],
+    battles: [],   // each battle's battleground and how it ended (LOR-430): { zone, out? }
     stats: null,   // the journey in numbers (statsOf), when the record has them (add-ons from LOR-246 on)
   };
   if (!data.name) throw new RecordError("not-a-record");
@@ -481,7 +492,9 @@ function sheet(line, T) {
 
 export const JOURNEY_V = 1;
 export const MAX_MOMENTS = 2000;
-const JOURNEY_KINDS = new Set(["zone", "qa", "qt", "npc", "boss", "kill", "lvl", "death", "book", "loot", "mount", "rep", "shot"]);
+const JOURNEY_KINDS = new Set(["zone", "qa", "qt", "npc", "boss", "kill", "lvl", "death", "book", "loot", "mount", "rep", "shot",
+  "bg"]);
+const BG_OUT = new Set(["win", "loss", "draw"]);
 const HOW = new Set(["walk", "flight", "hearth", "boat", "corpse", "portal", "instance"]);
 const NOTABLE = new Set(["elite", "rare", "rareelite", "worldboss"]);
 const EARLIEST = Date.UTC(2004, 10, 23) / 1000;   // nothing in WoW happened before launch day
@@ -540,6 +553,11 @@ export function readJourney(input, data = null, now = new Date()) {
       case "rep":
         if (!e.n || !(e.st = int(m.st, 1, 8))) continue;
         break;
+      case "bg":   // a battle (LOR-430): the battleground, and how it ended when the game said
+        if (!e.n) continue;
+        if (BG_OUT.has(m.out)) e.out = m.out;
+        if (m.left) e.left = 1;
+        break;
       default:   // npc, boss, book, mount: a name
         if (!e.n) continue;
     }
@@ -561,7 +579,17 @@ function read(section, parts, data, T) {
   const name = tidy(first);
   const add = e => { data[section].push(e); return e; };
   switch (section) {
-    case "places": return add({ ...place(first), ...(rest.some(p => DUNGEON.has(p)) ? { dungeon: true } : {}) });
+    case "places": {
+      // A battleground's entry (LOR-430): tagged by newer add-ons, and known by its name in records from before
+      // (they tagged it "dungeon").
+      const p = place(first);
+      if (rest.some(x => BATTLEGROUND.has(x)) || battleground(p.zone)) return add({ ...p, battleground: true });
+      return add({ ...p, ...(rest.some(x => DUNGEON.has(x)) ? { dungeon: true } : {}) });
+    }
+    case "battles": {
+      const out = rest.map(x => OUTCOMES.get(x)).find(Boolean);
+      return add({ zone: name, ...(out ? { out } : {}) });
+    }
     case "quests": return add({ title: name, ...at(rest[0]) });
     case "people": return add({ name, ...at(rest[0]) });
     case "bosses": return add({ name, ...at(rest[0]) });

@@ -8,6 +8,8 @@
 --                                          and an entry may carry fx alone (no fp) while the rest of it is stale
 --   P.names[name] = key, P.quests[title] = key
 --                                          what the game client calls NPCs, places and quests in that language
+--   P.shown[key] = name                    the same, by entry, for places and quests only: what the panel header and the
+--                                          quest list show when the client names them in another language (Lang.Shown)
 --   P.stop = "der die das ..."             extra stop words for questions typed in the language
 --   P.search = {...}, P.dataVersion        search index prebuilt over the merged text, and the ns.DB.version it's for
 -- A translator's test pack (kind lang-overlay, LoreForever_LangTest_<locale>, made by the site from their own saved
@@ -24,6 +26,9 @@
 local _, ns = ...
 local Lang = {}
 ns.Lang = Lang
+
+-- The companion app's name as players see it (LOR-428). UI strings that name it take it through %s.
+ns.COMPANION_NAME = "Willo"
 
 -- The "·" between the parts of a line. The client's Cyrillic Friz face has no "·" (it draws a box), so a Cyrillic
 -- reading language or a Russian client gets the bullet operator "∙", which every Friz and Morpheus face has.
@@ -184,6 +189,34 @@ function Lang.MergeNames(db, w)
     local rec = idx.item and idx.item[lower(english)]
     if rec then idx.item[lower(name)] = rec end
   end
+end
+
+-- Display names (LOR-403). A place or quest the client names in another language (English, usually) shows under the
+-- reading language's own client name: the pack's list (P.shown), else the entry's translated name (a pack from before
+-- the list, or a language with no client, like Ukrainian), else nil, and the caller keeps the client's name for that
+-- one name. Display only: lookups, matching and keys stay on the client's names and the entries. When the client
+-- already speaks the reading language its names are the right ones, so nothing changes.
+local SHOWN = { zone = true, city = true, dungeon = true, subzone = true, quest = true }
+function Lang.Shown(key)
+  local lang = ns.lang
+  if not (key and lang and not lang.edition and not ENGLISH[lang.locale or "enUS"] and lang.locale ~= lang.client) then
+    return nil
+  end
+  if not SHOWN[key:match("^(%a+):") or ""] then return nil end
+  local name = lang.shown and lang.shown[key]
+  if name then return name end
+  local e = ns.DB and ns.DB.entries[key]
+  if e and e.en and e.en ~= e.n then return e.n end
+end
+
+-- The zone and subzone of ctx as the panel shows them: Lang.Shown over the entries the client's names lead to, else
+-- the client's own name.
+function Lang.PlaceNames(ctx)
+  local zone, sub, eng = ctx.zone, ctx.subzone, ns.engine
+  if not (eng and ns.lang and ns.lang.locale ~= ns.lang.client) then return zone, sub end
+  local zk = zone and eng:ZoneKey(zone)
+  local sk = sub and eng:SubzoneKey(sub, zone)
+  return (zk and Lang.Shown("zone:" .. zk)) or zone, (sk and not sk:find("^quest:") and Lang.Shown(sk)) or sub
 end
 
 -- The shape of an English entry: text lengths and spoiler levels, in order. A pack records it for each entry it
@@ -451,6 +484,7 @@ local function init(lang)
   end
   local merged = {}
   if tw then
+    lang.shown = tw.shown   -- the reading language's own client names, for display (Lang.Shown)
     local skipped = Lang.MergeEntries(db, tw, merged)
     if ns.debug and skipped > 0 then note("%d translated entries skipped: the English changed since", skipped) end
     if tw.stop and ns.Engine then ns.Engine.AddStopWords(tw.stop) end

@@ -233,6 +233,10 @@ jobs:
         if: steps.companion_src.outcome == 'success'
         continue-on-error: true
         shell: pwsh
+        # The release's version goes into the companion (build.ps1 stamps it), so it reports which release it came with
+        # (its daily check-in, /admin's versions in use). An older companion source's build.ps1 ignores it.
+        env:
+          LORE_COMPANION_VERSION: ${{ needs.prepare.outputs.version }}
         run: companion-src\companion\packaging\build.ps1 -Out "$env:RUNNER_TEMP\companion" -Work "$env:RUNNER_TEMP\companion-build"
       - id: companion_sign
         name: Sign the companion

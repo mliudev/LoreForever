@@ -15,7 +15,7 @@ let calls;
 beforeEach(async (t) => {
   t.mock.timers.enable({ apis: ["Date"], now: new Date("2026-10-09T12:00:00Z") });
   await setup(env);
-  for (const table of ["devices", "device_links", "rate_limits", "answer_spend", "story_spend", "users"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
+  for (const table of ["devices", "device_links", "rate_limits", "answer_spend", "story_spend", "users", "excluded_accounts"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
   calls = [];
   globalThis.fetch = async (url, options) => {
     calls.push({ url, body: JSON.parse(options.body) });
@@ -32,10 +32,10 @@ async function linked(sub = "aelric") {
   return { user, token: (await claimToken(env, link.device_code)).token };
 }
 
-async function ask(token, { prompt = "PLAYER CONTEXT\nWestfall\nQUESTION\nWho is VanCleef?", method = "POST", headers = {}, researchRequired, operation } = {}) {
+async function ask(token, { prompt = "PLAYER CONTEXT\nWestfall\nQUESTION\nWho is VanCleef?", method = "POST", headers = {}, researchRequired, operation, persona, style, image } = {}) {
   const request = new Request("https://example.test/api/companion/answer", { method,
     headers: { "X-LF-Client": "companion/0.1.0", "Authorization": `Bearer ${token || ""}`,
-      "Content-Type": "application/json", ...headers }, body: method === "GET" ? undefined : JSON.stringify({ prompt, research_required: researchRequired, operation }) });
+      "Content-Type": "application/json", ...headers }, body: method === "GET" ? undefined : JSON.stringify({ prompt, research_required: researchRequired, operation, persona, style, image }) });
   const res = await onRequest({ request, env });
   return { status: res.status, body: await res.json() };
 }
@@ -141,6 +141,99 @@ test("allowances belong to accounts; missing or revoked tokens cannot spend", as
   await env.DB.prepare("DELETE FROM devices WHERE user_id = ?").bind(a.user.id).run();
   assert.equal((await ask(a.token)).status, 401);
   assert.equal(calls.length, 1);
+});
+
+const SAM_INTRO = "You are Sam the Squire, Lore Forever's herald, personal agent and squire.";
+const WILLO_INTRO = "You are Willo, Lore Forever's companion: a small, warm, curious blue wisp of light who rides along beside the player, with a squire's kindness and loyalty.";
+const system = n => calls[n].body.systemInstruction.parts[0].text;
+
+test("persona willo swaps only the companion's introduction; anything else keeps Sam", async () => {
+  const { token } = await linked();
+  for (const persona of [undefined, "willo", "Willo", "constructor", 7]) assert.equal((await ask(token, { persona })).status, 200);
+  assert.ok(system(0).startsWith(SAM_INTRO));
+  assert.equal(system(1), system(0).replace(SAM_INTRO, WILLO_INTRO));
+  for (const n of [2, 3, 4]) assert.equal(system(n), system(0), "unknown personas are ignored, not refused");
+  await ask(token, { persona: "willo", operation: "character" });
+  assert.match(system(5), /Their companion Willo, a little wisp of light/);
+  assert.doesNotMatch(system(5), /\bSam\b/);
+});
+
+test("spoken style shortens ordinary and character replies only", async () => {
+  const { token } = await linked();
+  const spoken = await ask(token, { persona: "willo", style: "spoken" });
+  assert.equal(calls[0].body.generationConfig.maxOutputTokens, 300);
+  assert.match(system(0), /\n\nWillo says this answer out loud .*Reply with only Willo's words: .* anything after it\.$/);
+  assert.ok(Number.isInteger(spoken.body.timing.model_ms) && Number.isInteger(spoken.body.timing.total_ms));
+  await ask(token, { style: "spoken", operation: "character" });
+  assert.equal(calls[1].body.generationConfig.maxOutputTokens, 300);
+  assert.match(system(1), /\n\nYou say this answer out loud .*Reply with only your spoken words/);
+  await ask(token, { style: "spoken", researchRequired: true });
+  await ask(token, { style: "loud" });
+  assert.deepEqual(calls.slice(2).map(c => c.body.generationConfig.maxOutputTokens), [2048, 512]);
+  for (const n of [2, 3]) assert.doesNotMatch(system(n), /this answer out loud/);
+});
+
+// A stand-in JPEG: the site checks only its FF D8 FF start. 149,997 bytes is 199,996 base64 characters, just under the cap.
+const jpeg = size => Buffer.concat([Buffer.from([0xff, 0xd8, 0xff, 0xe0]), Buffer.alloc(size - 4, 7)]).toString("base64");
+const PICTURE = /A picture of the player's game window/;
+const parts = n => calls[n].body.contents[0].parts;
+
+test("a spoken answer sends the player's picture to Gemini, and the allowance says the site takes one", async () => {
+  const { token } = await linked();
+  assert.equal((await ask(token, { method: "GET" })).body.allowance.pictures, true);
+  const image = jpeg(149_997), prompt = "QUESTION\nWhat is this creature?";
+  const result = await ask(token, { prompt, persona: "willo", style: "spoken", image });
+  assert.equal(result.status, 200, "a body with a picture may pass the 64 KB text limit");
+  assert.equal(result.body.allowance.pictures, true);
+  assert.deepEqual(parts(0), [{ inlineData: { mimeType: "image/jpeg", data: image } }, { text: prompt }]);
+  assert.equal(calls[0].body.generationConfig.mediaResolution, "MEDIA_RESOLUTION_MEDIUM");
+  assert.match(system(0), /Willo's words: .*anything after it\.\n\nA picture of the player's game window, .* interface numbers\.$/);
+});
+
+test("pictures outside spoken answers, or malformed ones, are ignored and the question is still answered", async () => {
+  const { token } = await linked();
+  const image = jpeg(3000);
+  const png = Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]).toString("base64");
+  const cases = [{ image }, { style: "spoken", researchRequired: true, image }, { style: "spoken", operation: "character", image },
+    ...[png, `data:image/jpeg;base64,${image}`, "/9j/" + "*".repeat(8), jpeg(150_003), 7].map(bad => ({ style: "spoken", image: bad }))];
+  for (const fields of cases) assert.equal((await ask(token, fields)).status, 200, JSON.stringify(fields).slice(0, 80));
+  for (let n = 0; n < cases.length; n++) {
+    assert.equal(parts(n).length, 1);
+    assert.equal(calls[n].body.generationConfig.mediaResolution, undefined);
+    assert.doesNotMatch(system(n), PICTURE);
+  }
+  // A picture Gemini refuses is dropped: the question is asked again as text.
+  calls = [];
+  globalThis.fetch = async (url, options) => {
+    calls.push({ url, body: JSON.parse(options.body) });
+    if (parts(calls.length - 1).length > 1) return new Response("Unable to process input image.", { status: 400 });
+    return Response.json({ candidates: [{ content: { parts: [{ text: "A kobold." }] } }] });
+  };
+  const result = await ask(token, { style: "spoken", image });
+  assert.deepEqual([result.status, result.body.answer, calls.length], [200, "A kobold.", 2]);
+  assert.doesNotMatch(system(1), PICTURE);
+});
+
+test("Mike's own and test accounts skip the daily cap but not the monthly budget", async () => {
+  const { token, user } = await linked();
+  const manual = await linked("manual");
+  await env.DB.prepare("INSERT INTO excluded_accounts (user_id, reason, created) VALUES (?, 'admin', ''), (?, 'manual', '')")
+    .bind(user.id, manual.user.id).run();
+  for (let i = 0; i <= ANSWERS_PER_DAY; i++) {
+    const result = await ask(token, { operation: i % 2 ? "character" : "answer" });
+    assert.equal(result.status, 200, JSON.stringify(result.body));
+    assert.deepEqual([result.body.allowance.unlimited, result.body.allowance.remaining], [true, ANSWERS_PER_DAY]);
+  }
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM rate_limits WHERE user_id = ?").get(user.id).n, 0);
+  const counted = await ask(manual.token);
+  assert.deepEqual([counted.body.allowance.unlimited, counted.body.allowance.remaining], [undefined, ANSWERS_PER_DAY - 1]);
+  const month = new Date().toISOString().slice(0, 7);
+  await env.DB.prepare("INSERT INTO story_spend (month, micro_usd) VALUES (?, ?)").bind(month, paidBudgetMicro(env)).run();
+  const before = calls.length;
+  const full = await ask(token);
+  assert.equal(full.status, 429);
+  assert.match(full.body.error, /at capacity/);
+  assert.equal(calls.length, before);
 });
 
 test("chat compaction has bounded memory and its own daily cap, while sharing the paid budget", async () => {

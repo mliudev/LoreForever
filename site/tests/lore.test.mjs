@@ -12,6 +12,8 @@ import { SITE, ROOT, r2 } from "./helpers.mjs";
 import { audioKey, MANIFEST_KEY } from "../lib/lore.js";
 
 import { onRequestGet as entryGet } from "../functions/lore/[type]/[id].js";
+import { onRequestGet as indexGet } from "../functions/lore/index.js";
+import { onRequestGet as sitemapGet } from "../functions/lore/sitemap.xml.js";
 
 import { onRequest as audioGet, parseRange } from "../functions/audio/clip/[voice]/[file].js";
 import { onRequest as narration } from "../functions/api/narration/[action].js";
@@ -73,6 +75,46 @@ test("spoilers: a narration whose summary gives a story away plays nothing and s
   assert.ok(!html.includes(esc(lore.summary.slice(at, at + 40))), "the original summary isn't shown");
   for (const s of lore.sections.filter(s => s.spoiler > 0)) assert.ok(!html.includes(s.body.slice(0, 50)), s.title);
   assert.ok(!html.includes('class="lp-clip'), "no narration");
+});
+
+test("an entry with no recording is a page of its spoiler-free text, with nothing to play (LOR-20)", async () => {
+  const lore = JSON.parse(readFileSync(join(ROOT, "data/lore/item_dalin-s-heart.json"), "utf8"));
+  const res = await entry("/lore/item/dalin-s-heart");
+  const html = await res.text();
+  assert.equal(res.status, 200);
+  assert.equal(res.headers.get("X-Robots-Tag"), null, "indexable");
+  assert.match(html, /<title>Dalin&#39;s Heart: lore and story/);
+  for (const s of lore.sections.filter(s => s.spoiler === 0)) assert.ok(html.includes(`<h2>${s.title}</h2>`), s.title);
+  assert.ok(html.includes("https://www.wowhead.com/forever/item="), "Look it up links its game ID");
+  assert.ok(html.includes('href="/lore/quest/1476-hearts-of-the-pure"'), "an item links its quest");
+  assert.ok(!html.includes("lp-clip") && !html.includes("lp-btn") && !html.includes('id="lp-report"'), "no Listen box");
+  // (pipeline/tests/test_site_lore.py checks that no spoiler section of any entry reaches a page.)
+});
+
+test("a page of a line or two is noindex and left out of the sitemap; the rest is indexed", async () => {
+  const more = JSON.parse(readFileSync(join(PUBLIC, "lore/data/more.json"), "utf8")).pages;
+  const index = JSON.parse(readFileSync(join(PUBLIC, "lore/data/index.json"), "utf8")).pages;
+  const thin = more.filter(p => p.x);
+  assert.ok(thin.length > 0 && thin.length < more.length / 10, `${thin.length} thin pages of ${more.length}`);
+  assert.ok(index.every(p => !p.x), "a page with a recording is never thin");
+  const res = await entry(thin[0].p);
+  assert.equal(res.status, 200);
+  assert.equal(res.headers.get("X-Robots-Tag"), "noindex");
+  assert.match(await res.text(), /<meta name="robots" content="noindex">/);
+
+  const sitemap = await (await sitemapGet({ request: new Request(`${HOME}/lore/sitemap.xml`), env: env() })).text();
+  const locs = sitemap.match(/<loc>[^<]+<\/loc>/g);
+  assert.equal(locs.length, 1 + index.length + more.length - thin.length);
+  assert.ok(sitemap.includes("/lore/item/dalin-s-heart</loc>") && sitemap.includes("/lore/zone/stormwind</loc>"));
+  assert.ok(!sitemap.includes(`${thin[0].p}</loc>`), thin[0].p);
+});
+
+test("/lore lists the pages with nothing to play too, and links the topics no zone page does", async () => {
+  const more = JSON.parse(readFileSync(join(PUBLIC, "lore/data/more.json"), "utf8")).pages;
+  const html = await (await indexGet({ request: new Request(`${HOME}/lore`), env: env() })).text();
+  assert.ok(html.includes('href="/lore/topic/lordaeron"'), "a topic");
+  assert.ok(more.some(p => p.k === "item") && more.some(p => p.k === "topic"));
+  assert.match(html, /<h3>Topics <span class="lp-count">\d+<\/span><\/h3>/);
 });
 
 test("/audio/clip/: whole files, ranges, 304s, 404s, and previews sent to production", async () => {

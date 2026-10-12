@@ -6,6 +6,9 @@
        written by pipeline/lore/compile_lua.py. -->
   <Include file="Data\Data.xml"/>
 
+  <!-- First of the code, so a Lua error anywhere after it is kept for /lore errors. -->
+  <Script file="Errors.lua"/>
+
   <Script file="Theme.lua"/>
   <Script file="Packs.lua"/>
   <Script file="Lang.lua"/>
@@ -16,6 +19,7 @@
   <Script file="HistoryArchive.lua"/>
   <Script file="Log.lua"/>
   <Script file="Journey.lua"/>
+  <Script file="Battle.lua"/>
   <Script file="Capture.lua"/>
   <Script file="JourneyMap.lua"/>
   <Script file="JourneyRecord.lua"/>

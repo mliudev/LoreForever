@@ -19,10 +19,10 @@ P.transport["npc:aramis-hammerhand"] = {
 }
 P.transport["npc:arugal"] = {
   hash = "b4d729",
-  fullHash = "6486d8",
-  text = "Arugal. Archmage Arugal is a former wizard of Dalaran and Gilneas who unleashed the feral worgen upon Lordaeron. Overcome by madness and grief, he now rules from the heights of Shadowfang Keep, treating the savage beasts as his beloved children while menacing all of Silverpine Forest. Before the fall of Lordaeron, Arugal was a member of the Kirin Tor, though some peers like Dalar Dawnweaver dismissed him as a charlatan whose weak spellcraft relied heavily on enchanted trinkets. When the Scourge swept across the north during the Third War, Arugal sought a weapon powerful enough to stem the tide. Drawing upon the esoteric research of the late Dalaran mage Ur, Arugal pierced the veil between realms and summoned the worgen into the mortal world. The ravenous beasts tore through the undead legions as intended, but their feral ferocity could not be contained, and their savage hunger swiftly turned against innocent mortals. The summoned horrors slaughtered the Gilnean soldiers stationed outside the Greymane Wall and spread their dreadful affliction through Gilneas. Some of the beasts then besieged the ancestral seat of Baron Silverlaine, and the keep fell swiftly to claws and fangs, its lord and retainers slain in the massacre. Rather than flee from his monstrous creation, Arugal's mind fractured under the weight of guilt, and he adopted the beasts as his own offspring. Renaming the fortress Shadowfang Keep, Arugal entrenched himself within its ramparts, surrounded by ghostly victims and loyal hound-packs.",
+  fullHash = "6f91d7",
+  text = "Arugal. Archmage Arugal is a former wizard of Dalaran who unleashed the feral worgen upon Lordaeron. Overcome by madness and grief, he now rules from the heights of Shadowfang Keep, treating the savage beasts as his beloved children while menacing all of Silverpine Forest. Before the fall of Lordaeron, Arugal was a member of the Kirin Tor, though some peers like Dalar Dawnweaver dismissed him as a charlatan whose weak spellcraft relied heavily on enchanted trinkets. When the Scourge swept across the north during the Third War, Arugal sought a weapon powerful enough to stem the tide. Drawing upon the esoteric research of the late Dalaran mage Ur, Arugal pierced the veil between realms and summoned the worgen into the mortal world. The ravenous beasts tore through the undead legions as intended, but their feral ferocity could not be contained, and their savage hunger swiftly turned against innocent mortals. The summoned horrors slaughtered not only the Scourge but soon turned on the wizards themselves. The beasts then besieged the ancestral seat of Baron Silverlaine, and the keep fell swiftly to claws and fangs, its lord and retainers slain in the massacre. Rather than flee from his monstrous creation, Arugal's mind fractured under the weight of guilt, and he adopted the beasts as his own offspring. Renaming the fortress Shadowfang Keep, Arugal entrenched himself within its ramparts, surrounded by ghostly victims and loyal hound-packs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_arugal-e6085b44055df71121c8/1-0000.mp3", duration = 90.122449, start = 0},
+    {file = "Audio/Transport/full_npc_arugal-b0a8a1fec4fc3a016904/1-0000.mp3", duration = 88.842449, start = 0},
   },
 }
 P.transport["npc:baine-bloodhoof"] = {
@@ -30,7 +30,7 @@ P.transport["npc:baine-bloodhoof"] = {
   fullHash = "369bb3",
   text = "Baine Bloodhoof. Baine Bloodhoof is the son of High Chieftain Cairne Bloodhoof and the acting protector of Bloodhoof Village in Mulgore. While his father governs the tribes from the towering heights of Thunder Bluff, Baine directly oversees local defense, investigating encroaching industrial exploitation and defending against feral predators. He serves as an essential bridge between youthful tauren braves and the ancestral wisdom of his clan. Born to Cairne and the late Tamaala, Baine spent his youth traveling alongside his nomadic people before they claimed the rich grasslands of Mulgore. His early life was marked by the ever-present threat of the centaur clans. Shortly after the Third War, a centaur warband under Khiragg captured young Baine, plunging Cairne into a grief-stricken stupor that nearly shattered the newly founded settlements. It was only through the courage of the champion Rexxar that Baine was liberated from captivity. That rescue restored Cairne's spirit, allowing the tauren to stand with Thrall's Horde against the invading Kul Tirans and secure their foothold on the continent. Rather than lingering in the relative comfort of the capital mesas, Baine chooses to reside among his kin in Bloodhoof Village. As Cairne advances in age, Baine carries an increasing burden of stewardship, representing the next generation of tauren leadership. He directs braves and visiting allies to combat the unruly Palemane gnolls who pester the borders, and keeps a watchful eye on suspicious outside influences threatening Mulgore's natural balance. Whenever Cairne departs the capital on state affairs, Baine steps forward as the acting leader for the united tribes. Beyond territorial border clashes, Baine faces modern encroachers unconcerned with spiritual balance. To the east, the goblin Venture Company cuts deep into the sacred landscape, while dwarven prospectors from Bael Modan dig into ancestral soil at the Bael'dun Digsite. Baine advocates for a firm yet measured response: attempting to warn the miners and destroy their destructive equipment rather than rushing into senseless bloodshed. He warns that the dwarves' violent digging is hurting the spirits of the earth, though the miners refuse to listen.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_baine-bloodhoof-0c7b8d2d29368141e2a7/1-0000.mp3", duration = 131.134694, start = 0},
+    {file = "Audio/Transport/full_npc_baine-bloodhoof-3e2c88e020f66661a757/1-0000.mp3", duration = 130.821224, start = 0},
   },
 }
 P.transport["npc:bethor-iceshard"] = {
@@ -67,10 +67,10 @@ P.transport["npc:cairne-bloodhoof"] = {
 }
 P.transport["npc:canaga-earthcaller"] = {
   hash = "64c706",
-  fullHash = "310f0a",
-  text = "Canaga Earthcaller. Canaga Earthcaller is a Darkspear troll shaman stationed in the sunbaked Valley of Trials. He instructs novice Horde shamans in communing with the spirits of the land and obtaining their first elemental totems. Beyond ritual guidance, he keeps a watchful eye on wounded scouts and emerging threats near the Den. Perched on the red bluffs of the Valley of Trials, Canaga Earthcaller serves as one of the very first spiritual guides for Darkspear trolls and orcs who walk the path of the shaman. While many trainers focus strictly on martial readiness, Canaga teaches newcomers how to quiet their minds and listen to the rumblings of Kalimdor itself, preparing the earth sapta necessary to commune with the spirits. Before any fledgling shaman can truly channel the elemental fury of the earth, they must prove their respect and resolve to the spirits. Canaga directs initiates to gather sacred reagents and journey to the local spirit rock in Durotar. Through his guidance, novices drink the earth sapta, behold the elemental spirits firsthand, and earn their Earth Totem. Canaga does not merely dwell on esoteric rituals; he remains attuned to the valley's immediate dangers. When his friend Hana'zua heads north into the valley where the scorpids hunt and fails to return, Canaga directs capable travelers to search for him, ensuring the tribe's scouts are not left to perish in the wilderness.",
+  fullHash = "e9f1c8",
+  text = "Canaga Earthcaller. Canaga Earthcaller is a Darkspear troll shaman stationed in the sunbaked Valley of Trials. He instructs novice Horde shamans in communing with the spirits of the land and obtaining their first elemental totems. Perched on the red bluffs of the Valley of Trials, Canaga Earthcaller serves as one of the very first spiritual guides for Darkspear trolls and orcs who walk the path of the shaman. While many trainers focus strictly on martial readiness, Canaga teaches newcomers how to quiet their minds and listen to the rumblings of Kalimdor itself, preparing the earth sapta necessary to commune with the spirits. Before any fledgling shaman can truly channel the elemental fury of the earth, they must prove their respect and resolve to the spirits. Canaga directs initiates to gather sacred reagents and journey to the local spirit rock in Durotar. Through his guidance, novices drink the earth sapta, behold the elemental spirits firsthand, and earn their Earth Totem.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_canaga-earthcaller-0eecc0c0c11e45395b5d/1-0000.mp3", duration = 83.1738776, start = 0},
+    {file = "Audio/Transport/full_npc_canaga-earthcaller-932df113e581548db163/1-0000.mp3", duration = 57.1036735, start = 0},
   },
 }
 P.transport["npc:chief-hawkwind"] = {
@@ -201,12 +201,180 @@ P.transport["npc:kadrak"] = {
     {file = "Audio/Transport/full_npc_kadrak-b1a9b2206bbf7620de2a/1-0000.mp3", duration = 70.5567347, start = 0},
   },
 }
+P.transport["npc:magatha-grimtotem"] = {
+  hash = "ba7a6a",
+  fullHash = "cc8140",
+  text = "Magatha Grimtotem. Magatha Grimtotem is the matriarch of the Grimtotem tribe and the Elder Crone of Thunder Bluff. A formidable shaman and political schemer, she resides on Elder Rise while continually challenging Cairne Bloodhoof's vision for the tauren nation. Magatha rose to absolute authority over the Grimtotem through an arranged union followed by the sudden, fatal climbing accident of her mate. Operating from Elder Rise with her personal retinue and bodyguards, she stands as the undisputed political and spiritual leader of her reclusive tribe. Unlike Cairne Bloodhoof, Magatha preaches tauren dominance, viewing other mortal races as intruders upon Kalimdor who ought to be eradicated or swept aside. Despite her open disdain for non-tauren, Magatha was among the earliest advocates for admitting the Forsaken into the Horde. She claims the tauren can teach the undead spiritual balance and guide them toward reclaiming their humanity. In practice, however, Magatha collaborates directly with the Royal Apothecary Society beneath Thunder Bluff, consulting figures like Apothecary Zamah on practical alchemy and arcane relic studies.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_magatha-grimtotem-bb39614e7452f17816cb/1-0000.mp3", duration = 66.7167347, start = 0},
+  },
+}
+P.transport["npc:magistrate-sevren"] = {
+  hash = "3a159d",
+  fullHash = "5ad408",
+  text = "Magistrate Sevren. Magistrate Sevren is the chief administrative official presiding over the settlement of Brill in Tirisfal Glades. Standing inside the town hall, he organizes early Forsaken defense and directs arriving champions to stabilize the territory around the Undercity. Operating from the town hall in Brill, Magistrate Sevren coordinates civil authority and strategic efforts in the lands just north of the Undercity. As new Forsaken step forth into Tirisfal Glades, Sevren assesses local crises and dispatches adventurers to restore order, secure ruined infrastructure, and suppress persistent threats lingering in the surrounding hills. Sevren's primary concerns center on the preservation and recovery of the Tirisfal dead. Local graverobbers, rot hides, and rogue undead disrupt burial grounds, threatening the emerging dominion of Sylvanas Windrunner. Sevren ensures that ancestral tombs—such as the Agamand Family Crypt—are reclaimed and that deserters or uncooperative forces do not subvert Forsaken authority in the region.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_magistrate-sevren-bb3a3473f586b18c9299/1-0000.mp3", duration = 63.9216327, start = 0},
+  },
+}
+P.transport["npc:mangletooth"] = {
+  hash = "89fc01",
+  fullHash = "2d28ea",
+  text = "Mangletooth. Mangletooth is an imprisoned Razormane quilboar held captive by the Horde inside Camp Taurajo. Facing execution, he trades strategic information about his rivals and the ancient lore of Agamaggan to adventurers willing to do his bidding. Held in a cage at Camp Taurajo by tauren hunters and orc sentries, Mangletooth is a captured Razormane quilboar awaiting execution. Rather than resigning to death, he attempts to manipulate his captors and visiting Horde adventurers into striking down the enemies of his tribe, hoping his cunning will prove his worth or secure his rescue. Well-versed in the religious history of his people, Mangletooth knows that the massive thorns across the Barrens sprang from the spilled blood of Agamaggan during the ancient War of the Ancients. By collecting red crystalline Blood Shards from fallen Bristlebacks, Mangletooth channels the residual divine energy of the fallen boar god, bestowing formidable ancient blessings upon those who aid him.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_mangletooth-2c8cfbb386baba87427c/1-0000.mp3", duration = 56.9469388, start = 0},
+  },
+}
+P.transport["npc:master-apothecary-faranell"] = {
+  hash = "9c1246",
+  fullHash = "847203",
+  text = "Master Apothecary Faranell. Master Apothecary Faranell is the head of the Royal Apothecary Society, stationed within the depths of the Apothecarium in the Undercity. In life a respected Dalaran scholar, in undeath he directs the Forsaken's search for a devastating New Plague to eradicate both the Scourge and the living. Before the Third War, Faranell was an esteemed alchemist who spent decades studying alongside the learned mages of Dalaran. He spent his mortal days seeking cures, remedies, and potions to improve mortal health. When the Scourge plague claimed his life and he arose as a free-willed Forsaken, his former scientific curiosity curdled into cruelty. Retaining his encyclopedic intellect, he traded healing salves for catastrophic reagents, quickly becoming one of Queen Sylvanas Windrunner's most valued researchers in the bowels of Lordaeron's fallen capital. Operating out of the noxious laboratories of the Apothecarium, Faranell coordinates the far-flung research of the Royal Apothecary Society. He oversees the construction of lumbering abominations and directs subordinate apothecaries stationed throughout Lordaeron and beyond. Every batch of strange venom, tainted blood, and cursed flora gathered by field researchers across the continents eventually passes through his vats for distillation and refinement.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_master-apothecary-faranell-a69f97fafee65fbb97b5/1-0000.mp3", duration = 80.0653061, start = 0},
+  },
+}
+P.transport["npc:master-gadrin"] = {
+  hash = "745add",
+  fullHash = "740971",
+  text = "Master Gadrin. Master Gadrin is an elderly jungle troll and a venerable witch doctor of the Darkspear tribe, currently residing in Sen'jin Village. Having once trained the tribe's priests and mages alongside the renegade witch doctor Zalazane, he now coordinates efforts to aid his displaced people and break the dark curse gripping their stolen home on the Echo Isles. Long before the Darkspear arrived on Kalimdor, Master Gadrin served as a witch doctor of his tribe in their ancestral South Seas islands, where he guided the mystical training of generations of Darkspear trolls. When the Darkspear settled the Echo Isles alongside the Horde, Gadrin and the young witch doctor Zalazane led the mystical training of the tribe's priests and mages together. Tragically, Zalazane succumbed to madness, intoxicated by the dark voodoo forces he sought to wield. The rogue practitioner enslaved his brethren's minds and drove Vol'jin and the uncorrupted Darkspear onto the mainland of Durotar. Now based in Sen'jin Village, Gadrin carries the personal sorrow of seeing a former companion become a tyrannical monster, working tirelessly to lay slain tribesfolk to rest and end Zalazane's reign. Beyond the crisis on the Echo Isles, Gadrin stands as one of the Horde's greatest living authorities on troll spiritualism and loa lore. Scholars, shamans, and even the Royal Apothecary Society seek his insight on arcane and alchemical mysteries. When strange threats like the Burning Blade brush against Durotar, or distant researchers require forgotten rituals—such as deciphering ancient tablets in Zul'Farrak to invoke Shadra the spider loa—it is Gadrin who possesses the knowledge to craft the necessary bindings.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_master-gadrin-7e78ec1e46778787c67c/1-0000.mp3", duration = 101.982041, start = 0},
+  },
+}
+P.transport["npc:mebok-mizzyrix"] = {
+  hash = "b2c0d1",
+  fullHash = "dd42bd",
+  text = "Mebok Mizzyrix. Mebok Mizzyrix is an enterprising goblin entrepreneur residing in the port town of Ratchet. Ever eager to turn bizarre wilderness reagents into profit, he hires passing adventurers to gather unusual flora and fauna from across the Barrens and beyond. His most notorious project involves concocting a commercial intellect-enhancing beverage out of raptor horns. Operating out of the bustling, neutral port of Ratchet, Mebok Mizzyrix embodies the classic Steamwheedle spirit of relentless opportunism. While Ratchet caters to sailors, pirates, and merchants of all stripes, Mebok focuses his keen eye on Kalimdor's wilderness. Rather than mining standard ore or trading mundane cloth, he seeks out rare biological curiosities that he believes can be refined into highly lucrative concoctions and commodities. Mebok's premier commercial endeavor is a proprietary 'smart drink' intended to artificially boost the intellect of whoever consumes it. Convinced that the natural cunning and ferocity of local raptors stems from the horns crowning their snouts, Mebok commissions hunters to harvest intact horns across the Barrens. To him, ethics and taste take a backseat to raw market potential, so long as paying customers believe the brew delivers results. Beyond raptor-derived elixirs, Mebok maintains a constant demand for other bizarre specimens. From collecting volatile Deepmoss spider eggs to commissioning the retrieval of rare Blueleaf tubers buried deep within the brambles of Razorfen Kraul, his pursuits consistently push intrepid mercenaries into perilous territory. If an organism possesses strange properties, Mebok is certain there is a way to bottle and sell it.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_mebok-mizzyrix-ee7d0d7344278af31145/1-0000.mp3", duration = 100.937143, start = 0},
+  },
+}
+P.transport["npc:melor-stonehoof"] = {
+  hash = "a9a451",
+  fullHash = "1b75cf",
+  text = "Melor Stonehoof. Melor Stonehoof is a veteran tauren huntsman stationed atop Hunter Rise in Thunder Bluff. As a mentor in the ways of the hunt, he tests the tracking prowess and mettle of Horde hunters by sending them after the most dangerous predatory beasts across the Barrens and Thousand Needles. Perched upon the breezy expanse of Hunter Rise, Melor Stonehoof observes the plains below with a practiced eye. The art of the hunt is sacred to the tauren, entwined with survival, spiritual balance, and respect for nature's greatest predators. Melor ensures that those who carry bow and blade in the name of the Horde understand this balance, directing promising stalkers to master their craft through trials against legendary beasts. Melor challenges hunters to seek out legendary and elusive beasts that terrorize the wild. He directs trackers across the plains of the Barrens, from aiding the huntress Sergra Darkthorn at the Crossroads to pursuing Steelsnap, a cunning and vicious hyena in Thousand Needles. Through these trials, hunters prove they can outsmart and outfight the deadliest creatures of central Kalimdor. For those whose skills exceed the Barrens, Melor points toward far-off lands. He charges seasoned hunters with bringing down beasts of terrifying strength, including Deadmire, an ancient crocolisk lurking in the swamps of Dustwallow Marsh, and the savage yeti Frostmaw of the Alterac Mountains. Each hunt serves to test whether a stalker has truly mastered the Hunter's Way.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_melor-stonehoof-02c42cd8c9e487932283/1-0000.mp3", duration = 85.6555102, start = 0},
+  },
+}
+P.transport["npc:menara-voidrender"] = {
+  hash = "c6949f",
+  fullHash = "df6eb5",
+  text = "Menara Voidrender. Menara Voidrender is a human warlock residing in the goblin port of Ratchet. She acts as a mentor to ambitious practitioners of the dark arts from both the Alliance and the Horde, sharing her deep knowledge of demon-binding artifacts and arcane craft. Her secluded position in Kalimdor keeps her far from the watchful eyes of orthodox authorities. While most warlocks in the Eastern Kingdoms practice in damp cellars or secluded slaughterhouses beneath their home cities, Menara Voidrender chose the neutral goblin port of Ratchet in the Barrens. Operating far from the scrutiny of the Kirin Tor, Stormwind's guards, or Orgrimmar's overseers, she is free to pursue her occult studies in plain sight. Her willingness to deal with any capable apprentice, regardless of faction, makes her a rare point of commonality among practitioners of the dark arts. Menara is renowned among veteran conjurers as an authority on creating orbs that imprison and harness demonic spirits. She works closely with intricate reagents, guiding apprentices through demanding rituals to forge enchanted attire and binding implements. Word of her expertise reaches as far as Ironforge and the Undercity, leading senior warlocks across Azeroth to direct their most promising students across the sea to seek her counsel.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_menara-voidrender-8b23757df1ea89135c87/1-0000.mp3", duration = 78.1322449, start = 0},
+  },
+}
+P.transport["npc:morin-cloudstalker"] = {
+  hash = "c9dc97",
+  fullHash = "4745df",
+  text = "Morin Cloudstalker. Morin Cloudstalker is a tauren scout keeping watch along the road leading east from Bloodhoof Village toward the Barrens in Mulgore. Standing vigil over the plains, he monitors local trade routes and investigates the encroaching threats endangering tauren travelers. Positioned beside the dirt path winding east toward the Barrens, Morin Cloudstalker acts as both a scout and a guardian for travelers through Mulgore. The grassy plains here are usually peaceful, but the opening of trade routes and shifting territories have drawn opportunists and bandits dangerously close to the heart of the tauren homeland. Morin's scouts recently attacked and burned a Venture Co. caravan on the northern shore of Stonebull Lake. When goblin salvagers were spotted near the burned wagons, he sent adventurers to examine the surviving supply crates and learn what the Venture Co. was hauling.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_morin-cloudstalker-0d6acdffe02f0e1a1037/1-0000.mp3", duration = 48.9795918, start = 0},
+  },
+}
+P.transport["npc:orgnil-soulscar"] = {
+  hash = "761693",
+  fullHash = "761693",
+  text = "Orgnil Soulscar. Orgnil Soulscar is an orc investigator stationed at Razor Hill in central Durotar. He serves as an informal officer of the peace, coordinating defense and intelligence against internal threats to the fledgling nation. His primary concern is the shadow cast by the Burning Blade cult within Durotar's canyons. Positioned at Razor Hill, Orgnil Soulscar takes on the grim responsibility of tracking subversion and insidious threats across Durotar. While grunt patrols look outward toward Alliance footholds and centaur raiding parties, Orgnil focuses on rot brewing from within. He collects reports from scouts across the region, piecing together evidence of ritual corruption and illicit gatherings.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_orgnil-soulscar-aec00fa775978f4de1bf/1-0000.mp3", duration = 43.7812245, start = 0},
+  },
+}
+P.transport["npc:shadow-priest-sarvis"] = {
+  hash = "e2b908",
+  fullHash = "65b8ad",
+  text = "Shadow Priest Sarvis. Shadow Priest Sarvis stands inside the ruined chapel of Deathknell, serving as one of the primary guides for newly awakened Forsaken. He introduces fresh corpses to their grim reality, directing them to purge mindless undead and gather intelligence on local threats. Under Lady Sylvanas's banner, Sarvis works tirelessly to shape bewildered undead into disciplined servants of the Forsaken. Within the shadowy chapel of Deathknell, Shadow Priest Sarvis waits for those who have just clawed their way out of the grave. The awakening of a Forsaken soul is jarring and horrific, with many immediately losing their minds to mindless frenzy or despondency. Sarvis acts as an anchor, giving purpose to the newly risen. He assigns new recruits to put down the shambling, mindless corpses roaming the cemetery and directs them to secure Deathknell's borders against the encroaching Scourge. Beyond acclimating new recruits, Sarvis oversees crucial local defenses against lingering threats in Tirisfal Glades. He coordinates the containment of Scourge forces probing Deathknell's perimeter. By directing novices toward vital intelligence and martial trials, Sarvis ensures that the town remains a fortified bastion for the Forsaken.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_shadow-priest-sarvis-65d1bcb645dac2c2d794/1-0000.mp3", duration = 74.6579592, start = 0},
+  },
+}
+P.transport["npc:shenthul"] = {
+  hash = "22f6dc",
+  fullHash = "2d3bae",
+  text = "Shenthul. Shenthul is a jungle troll rogue trainer based in the shadowy subterranean reaches of the Cleft of Shadow in Orgrimmar. As an operative of the Shattered Hand, he orchestrates espionage operations across Kalimdor and initiates rising rogues into the guild's covert ranks. Tucked away inside the murky depths of the Cleft of Shadow, Shenthul serves as one of the Horde's foremost rogue mentors. While the warriors and shamans above march openly across the red dust of Durotar, Shenthul trains those who prefer stealth, ambush, and subterfuge. Under his tutelage, initiates master essential fieldcraft and lethal arts, learning to operate within the unforgiving politics and harsh wilderness of Kalimdor. Shenthul represents the Shattered Hand, an order transformed from an old orcish clan into the Horde's intelligence network and secret service. He views the organization as a timeless, watchful veil blanketing Kalimdor—acting as investigator, judge, jury, and executioner. Fiercely pragmatic and independent of shifting political tides, Shenthul famously reminds outsiders that the Shattered Hand existed long before Warchief Thrall took power and will endure long after him.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_shenthul-6738cad2fe09ad194142/1-0000.mp3", duration = 73.5085714, start = 0},
+  },
+}
+P.transport["npc:strahad-farsan"] = {
+  hash = "cb26a9",
+  fullHash = "5c1ec3",
+  text = "Strahad Farsan. Strahad Farsan is a master human warlock who dwells in a secluded stone tower overlooking Ratchet in the Barrens. Renowned across faction lines, he operates outside conventional Alliance and Horde politics, training aspiring summoners in the dangerous arts of binding higher demons. Practitioners of fel magic from Stormwind, Orgrimmar, and the Undercity alike seek his severe guidance. Perched on the bluffs above the goblin port of Ratchet, Strahad Farsan's tower stands apart from the bustling trade docks below. Ratchet's neutrality offers Strahad the freedom to conduct perilous demonic summonings away from the prying eyes of Alliance magistrates or Horde shamans. Surrounded by his acolytes, he studies the deeper mysteries of the Twisting Nether in relative seclusion, unbothered by petty territorial squabbles. Strahad earned his formidable reputation through direct, deadly experience. When first binding a felhunter into service, he barely escaped with his life—an ordeal that left him both acutely cautious and unyielding in his expectations. Despite his human heritage, he has earned the respect of shadowy figures across Azeroth, including Gakin the Darkbinder in Stormwind and demonic scholars in the Undercity and Orgrimmar. Warlocks of any banner who wish to command creatures as volatile as felhunters or fiery steeds are inevitably directed to his doorstep.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_strahad-farsan-298827c7a9204d5b590b/1-0000.mp3", duration = 84.7673469, start = 0},
+  },
+}
+P.transport["npc:sylvanas-windrunner"] = {
+  hash = "c2c158",
+  fullHash = "0bd2db",
+  text = "Sylvanas Windrunner. Lady Sylvanas Windrunner is the Banshee Queen and supreme ruler of the Forsaken, holding court in the Undercity beneath the ruins of Lordaeron. Once the brave Ranger-General of Silvermoon, she was slain and raised into undeath by Arthas Menethil before breaking free from the Lich King's grip. Now allied with Thrall's Horde out of mutual survival, she is fiercely dedicated to securing a future for her free-willed undead and exacting vengeance upon the Scourge. In life, Lady Sylvanas was the celebrated Ranger-General of Silvermoon, commanding the defense of Quel'Thalas during the Third War. When Prince Arthas Menethil marched the Scourge into the high elven kingdom to reach the Sunwell, Sylvanas fought fiercely to delay his advance. Frustrated by her resistance, Arthas murdered her, but denied her a clean death. He ripped her soul from her corpse and twisted it into a vengeful banshee, forcing her to serve the Scourge and assist in the slaughter of her own people. When the Lich King's magical grip fractured after the Third War, Sylvanas broke free of his dominion and repossessed her preserved body. Amassing other undead who had regained their free will, she overthrew the dreadlords occupying the ruins of Lordaeron, dubbed her people the Forsaken, and established the subterranean realm of the Undercity. Recognizing the precarious isolation of her people—threatened by Scourge remnants, zealous Scarlet crusaders, and suspicious human realms—she forged an uneasy alliance of convenience with Warchief Thrall and the Horde.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_sylvanas-windrunner-de935e998d6ede60d5a6/1-0000.mp3", duration = 93.1526531, start = 0},
+  },
+}
+P.transport["npc:telf-joolam"] = {
+  hash = "5ffcf3",
+  fullHash = "a2216a",
+  text = "Telf Joolam. Telf Joolam is a Darkspear jungle troll shaman watching over the Shrine of the Dormant Flame. He guides initiates of the Horde through the trials required to commune with and command the volatile element of fire. Perched among the crags overlooking the borderlands, Telf Joolam tends the Shrine of the Dormant Flame. Unlike the calm certainty of earth or the patient depth of water, the fiery spirits require sharp discipline and unwavering focus. Telf acts as a trialmaster, preparing young shamans to prove their worth to the wild embers before they are consumed by them. Under Telf's direction, initiates brew and drink a ritual Fire Sapta to grant their mortal eyes sight into the unseen elemental planes. He directs supplicants up into the rocky summits to confront burning spirits directly, ensuring that every shaman who earns the flame carries respect for its ravenous hunger rather than reckless pride.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_telf-joolam-0f3ca3b646ef49d8e5a5/1-0000.mp3", duration = 54.4914286, start = 0},
+  },
+}
 P.transport["npc:thork"] = {
   hash = "b4da80",
   fullHash = "06d370",
   text = "Thork. Thork is an orc warrior stationed at the Crossroads who oversees the settlement's local defenses. Charged with securing the bustling crossroads of the Barrens, he directs Horde adventurers to push back raiders and secure vital supply lines. The Crossroads serves as the beating heart of Horde transit in Kalimdor, connecting Durotar, Mulgore, and the wilds beyond. Holding it is no easy feat. Thork shoulders the responsibility of defending the town from constant external pressures. Between quillboar raids, centaur aggression, and marauding harpies, his forces are stretched thin, forcing him to rely on capable travelers and emerging champions to handle critical security tasks. Thork's duties extend well beyond the walls of the Crossroads itself. He coordinates defense efforts along vital supply corridors, dispatching scouts and liaisons north toward the Mor'shan Rampart to report directly to Kadrak. Keeping these northern and eastern arteries open is essential to sustaining the Horde's presence in the harsh and unforgiving scrublands of the Barrens.",
   ["1"] = {
     {file = "Audio/Transport/full_npc_thork-3adc45fdb8f255516229/1-0000.mp3", duration = 64.1306122, start = 0},
+  },
+}
+P.transport["npc:thotar"] = {
+  hash = "04d3c4",
+  fullHash = "b2cb21",
+  text = "Thotar. Thotar is a seasoned orc hunter trainer stationed in the settlement of Razor Hill in Durotar. He guides aspiring Horde scouts and marksmen in the ancient traditions of tracking, archery, and bonding with wild beasts. For young orcs and trolls taking their first steps outside the Valley of Trials, he provides the foundational rites needed to master Kalimdor's rugged fauna. Perched within the fortified hub of Razor Hill, Thotar serves as a veteran instructor for marksmen of the Horde. While new recruits learn the very basics in the Valley of Trials, it falls to Thotar to guide hunters as they face the harsher predatory wilderness of Durotar. Drawing upon traditions passed down through countless generations of orcs, he teaches not only marksmanship, but the deeper respect required to live alongside and direct Kalimdor's deadliest creatures. Thotar plays a crucial role in introducing young hunters to the ancient art of beast taming. Through a sequence of trials, he sends novices into the arid canyons to pacify and commune with native beasts, such as venomous scorpid, armored surf crawlers, and cunning boars. By guiding these young scouts through the sacred rites of taming, Thotar ensures the Horde's trackers build a loyal bond with nature rather than merely attempting to dominate it by force.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_thotar-b8672a9d4219a3a7e8a2/1-0000.mp3", duration = 77.1918367, start = 0},
+  },
+}
+P.transport["npc:tonga-runetotem"] = {
+  hash = "a0d213",
+  fullHash = "177497",
+  text = "Tonga Runetotem. Tonga Runetotem is a knowledgeable tauren druid stationed outside the inn at the Crossroads in the Barrens. Dispatched from Thunder Bluff, he investigates an unnatural corruption seeping into the region's sparse oases and sickening the native wildlife. His research aims to trace the spiritual disturbance back to its origin before the delicate ecosystem collapses entirely. Amid the dust and bustling commerce of the Crossroads, Tonga Runetotem keeps a quiet vigil. Sent down from the high mesas of Mulgore by his elders in Thunder Bluff, Tonga possesses an intimate understanding of the arid savannah. Where others see only barren scrub and predatory beasts, he reads the subtle currents of the land's health. In recent times, those currents have soured dramatically, compelling him to recruit capable travelers to investigate the heart of the savannah's life: its isolated oases. Bearing the proud name of the Runetotem clan, Tonga carries the heavy druidic heritage championed by Archdruid Hamuul Runetotem. While Archdruid Hamuul maintains relations with the Cenarion Circle and studies in the sacred groves of Moonglade, scouts like Tonga are the eyes and hands on the frontier. Tonga calls upon Moonglade's traditional botanical wisdom to compound healing salves and counter poisons, ensuring the young tauren druidic tradition proves its vital worth to the fledgling Horde.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_tonga-runetotem-0395fbc4ba1d11efb71d/1-0000.mp3", duration = 83.7485714, start = 0},
+  },
+}
+P.transport["npc:turak-runetotem"] = {
+  hash = "80cfa9",
+  fullHash = "d9c4a7",
+  text = "Turak Runetotem. Turak Runetotem is a revered tauren druid trainer residing in the Hall of Elders atop Thunder Bluff's Elder Rise. Serving as a trusted assistant to Archdruid Hamuul Runetotem, he guides novice tauren along the sacred paths of nature and balance. Through Turak, young druids undertake foundational trials to commune with spirits and master animal aspects. Within the serene confines of the Hall of Elders, Turak Runetotem stands as one of the Horde's foremost druidic mentors. Renowned for his deep patience and balanced demeanor, he assists Archdruid Hamuul Runetotem in reviving the ancient druidic arts among the tauren people. Turak ensures that every aspiring druid honors the will of the Earthmother, teaching that physical power must always be grounded in spiritual respect and harmony with nature. When a fledgling druid is prepared to embrace animal forms, Turak directs them into the wider world. He initiates their communion with the Cenarion Circle, teaching the art of teleporting across Kalimdor to the sacred haven of Moonglade. Recalling the bewilderment and intensity of his own youthful audience with the Great Bear Spirit, Turak tests his students' courage by sending them to face Lunaclaw and obtain the strength of body and heart needed to walk the Path of the Claw. Turak's guidance expands beyond primal combat forms to environmental stewardship. He sends his disciples back to Dendrite Starblaze to learn about poison, and Dendrite dispatches them to a rash of animal poisonings near the Crossroads, a situation that surprises even Turak. Through these trials, along with the arduous rituals beneath the tides to awaken the aquatic form, Turak shapes novices into enduring protectors capable of healing Azeroth's deepest wounds.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_turak-runetotem-322dbb935ad3e69bf5b3/1-0000.mp3", duration = 103.88898, start = 0},
+  },
+}
+P.transport["npc:varimathras"] = {
+  hash = "be061f",
+  fullHash = "19019b",
+  text = "Varimathras. Varimathras is a dreadlord of the nathrezim race who serves as the chief lieutenant and military advisor to Lady Sylvanas Windrunner. Forced to pledge loyalty to the Banshee Queen after suffering defeat during the civil war for Lordaeron, he now stands at her right hand in the Royal Quarter of the Undercity. Before the Third War, Varimathras and his fellow dreadlords worked directly under Kil'jaeden to break and reshape the spirit of Ner'zhul into the Lich King. Bound alongside his brothers Detheroc and Balnazzar, he oversaw the Scourge in Lordaeron while Archimonde invaded Kalimdor. When the Legion fell at Mount Hyjal, the triumvirate remained entrenched in the ruins of the Capital City, entirely unaware of their master's demise until Prince Arthas returned to drive them into hiding. As the Lich King's hold over his undead forces fractured, Varimathras attempted to coerce the newly freed banshee Sylvanas Windrunner into serving the dreadlords' new regime. Sylvanas refused, rallying liberated undead to crush Varimathras's outpost. Facing execution, the dreadlord fell to his knees and bartered for his life, trading tactical secrets and knowledge of his brothers' fortifications in exchange for survival. Sylvanas accepted, binding him to her service as a living weapon against his kin.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_varimathras-d3d3926c341688e2477b/1-0000.mp3", duration = 79.8040816, start = 0},
+  },
+}
+P.transport["npc:vol-jin"] = {
+  hash = "d0e9dc",
+  fullHash = "32d14a",
+  text = "Vol'jin. Vol'jin is the chieftain of the Darkspear trolls and a master shadow hunter. Residing in Grommash Hold alongside Warchief Thrall, he acts as a trusted advisor to the Horde while working to secure his displaced people a permanent home in Durotar. Vol'jin took up leadership of the Darkspear tribe following the tragic death of his father, Sen'jin, on their ancestral island home. When sea witch-worshipping murlocs and human forces nearly destroyed the isolated tribe, Thrall's orcs intervened, forging a deep bond between the two peoples. After evacuating the ruins of their islands, Vol'jin pledged his trolls to the New Horde and brought them across the Great Sea to Kalimdor. Though the Darkspear established settlements in Durotar, internal betrayals—namely the treachery of Zalazane on the Echo Isles—forced many refugees to the mainland at Sen'jin Village. Vol'jin spends much of his time inside Grommash Hold in Orgrimmar, lending his sharp strategic counsel and shadow hunter prowess directly to Thrall. From the heart of the orcish capital, he watches over the fledgling Horde while striving to reclaim his people's rightful lands.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_vol-jin-ca486716109292a9c3f9/1-0000.mp3", duration = 67.2653061, start = 0},
+  },
+}
+P.transport["npc:yaw-sharpmane"] = {
+  hash = "b315d3",
+  fullHash = "6da706",
+  text = "Yaw Sharpmane. Yaw Sharpmane is an experienced tauren hunter trainer stationed in Bloodhoof Village in Mulgore. He guides young hunters venturing out from Camp Narache, helping them master the wild beasts of their ancestral plains. Positioned amidst the tents and fires of Bloodhoof Village, Yaw Sharpmane serves the Shu'halo as an instructor in the ways of marksmanship, tracking, and survival. Young hunters who have proven themselves in Red Cloud Mesa are directed to Yaw to hone their craft as they step onto the broader plains of Mulgore. Yaw's most essential role is guiding novice hunters through the ancient rite of taming wild beasts. He tasks initiates with bonding with the native fauna of Mulgore, testing their patience and respect for the natural balance before instructing them on how to properly care for and train a permanent companion.",
+  ["1"] = {
+    {file = "Audio/Transport/full_npc_yaw-sharpmane-b42bc1a24f4962c0931f/1-0000.mp3", duration = 49.1363265, start = 0},
   },
 }
 P.transport["subzone:agama-gor"] = {
@@ -219,18 +387,18 @@ P.transport["subzone:agama-gor"] = {
 }
 P.transport["subzone:agamand-mills"] = {
   hash = "6bc02f",
-  fullHash = "c57dd3",
-  text = "Agamand Mills. Agamand Mills is a sprawling farm and windmill complex nestled in the northern heights of Tirisfal Glades. Once the proud estate of the wealthy Agamand dynasty, it has fallen into ruin and stands as the largest Scourge stronghold in the region. Centuries ago, wealthy noble immigrants from Strom established the Agamand estate, building a vast milling network across northern Tirisfal. When the Third War broke out and the Scourge swept across Lordaeron, the patriarch Gregor Agamand refused to flee, fortifying the compound and convincing his retainers and laborers to make their stand. Their provisions and stone walls might have held, but their youngest son, Devlin Agamand, betrayed his blood. Devlin slaughtered the estate watchmen and let the walking dead into the sleeping quarters. Crippled from within, the remaining defenders were wiped out, and the family joined the mindless ranks of the undead. Today, the Agamand Mills are the most entrenched bastion of the Scourge in Tirisfal Glades, posing an immediate threat to the Forsaken realm. The rotting windmills now churn above infested fields of wights, zombies, and skeletal horrors. Beneath the estate, Captain Dargol commands the garrison from the deep Agamand Family Crypt, practicing necromancy to reanimate generations of Agamand ancestors. From Brill, Magistrate Sevren and the Deathguards wage an active campaign to clear the mills and purge the Scourge presence before it can march upon the Undercity.",
+  fullHash = "fae041",
+  text = "Agamand Mills. Agamand Mills is a sprawling farm and windmill complex nestled in the northern heights of Tirisfal Glades. Once the proud estate of the wealthy Agamand dynasty, it has fallen into ruin and stands as the largest Scourge stronghold in the region. The wealthy Agamand family built their estate around a vast milling network across northern Tirisfal. When the Third War broke out and the Scourge swept across Lordaeron, the patriarch Gregor Agamand refused to flee, fortifying the compound and convincing his retainers and laborers to make their stand. Their provisions and stone walls might have held, but their youngest son, Devlin Agamand, betrayed his blood. Devlin slaughtered the estate watchmen and let the walking dead into the sleeping quarters. Crippled from within, the remaining defenders were wiped out, and the family joined the mindless ranks of the undead. Today, the Agamand Mills are the most entrenched bastion of the Scourge in Tirisfal Glades, posing an immediate threat to the Forsaken realm. The rotting windmills now churn above infested fields of wights, zombies, and skeletal horrors. Beneath the estate, Captain Dargol commands the garrison from the deep Agamand Family Crypt, practicing necromancy to reanimate generations of Agamand ancestors. From Brill, Magistrate Sevren and the Deathguards wage an active campaign to clear the mills and purge the Scourge presence before it can march upon the Undercity.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_agamand-mills-c1c149b241ab58f1e80e/1-0000.mp3", duration = 90.6971429, start = 0},
+    {file = "Audio/Transport/full_subzone_agamand-mills-a1998f2f41933b491d8f/1-0000.mp3", duration = 86.8571429, start = 0},
   },
 }
 P.transport["subzone:ambermill"] = {
   hash = "dab7a5",
-  fullHash = "3be2e6",
-  text = "Ambermill. Ambermill is a fortified human settlement in central Silverpine Forest, situated just southwest of Lordamere Lake. Originally a Gilnean lumber village, it is now occupied by surviving wizards and apprentices of Dalaran. Their presence represents a dangerous outpost of human resistance on the southern borders of the Forsaken realm. Before the Third War, Ambermill was a quiet lumber town on lands owned by the Gilnean nobleman Darius Crowley. When King Genn Greymane erected the Greymane Wall to seal his kingdom away, Ambermill was left stranded outside alongside Pyrewood Village. In the chaotic aftermath of Lordaeron's fall, the surviving wizards of the Kirin Tor moved in and fortified the settlement. Dalaran spellscribes, conjurors, and apprentices now patrol its buildings and stables, using Ambermill as a forward redoubt against the undead.",
+  fullHash = "e2ebfa",
+  text = "Ambermill. Ambermill is a fortified human settlement in central Silverpine Forest, situated just southwest of Lordamere Lake. Once a quiet lumber village, it is now occupied by surviving wizards and apprentices of Dalaran. Their presence represents a dangerous outpost of human resistance on the southern borders of the Forsaken realm. Before the Third War, Ambermill was a quiet lumber town of little importance. In the chaotic aftermath of Lordaeron's fall, the surviving wizards of the Kirin Tor moved in and fortified the settlement. Dalaran spellscribes, conjurors, and apprentices now patrol its buildings and stables, using Ambermill as a forward redoubt against the undead.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ambermill-b27010d7668e15d52b3f/1-0000.mp3", duration = 54.804898, start = 0},
+    {file = "Audio/Transport/full_subzone_ambermill-25203f28e8c790299e73/1-0000.mp3", duration = 44.0163265, start = 0},
   },
 }
 P.transport["subzone:apothecarium"] = {
@@ -259,10 +427,10 @@ P.transport["subzone:bael-dun-keep"] = {
 }
 P.transport["subzone:balnir-farmstead"] = {
   hash = "542d38",
-  fullHash = "20bbe2",
-  text = "Balnir Farmstead. The Balnir Farmstead is a derelict estate in eastern Tirisfal Glades, northeast of the Ruins of Lordaeron. Once renowned for raising the famed white horses favored by Lordaeron's royal family, the lands now lie ruined and infested by wandering Scourge. Today, the estate stands as a somber monument to Prince Arthas Menethil's early life and the site where he claimed his undead steed. For generations, the Balnir family bred the legendary white stallions of Lordaeron from their homestead in the rolling hills of Tirisfal. As a boy, Prince Arthas Menethil frequently visited the farm to escape royal court life, befriending the young Jarim Balnir. It was here that Arthas assisted in the foaling of the colt he named Invincible. Years later, after a tragic riding accident claimed the steed's life, Invincible was laid to rest in the soil of the farmstead upon Arthas's personal request. When Prince Arthas returned from Northrend and sacked Capital City, the Scourge wiped out the Balnir family without mercy. Newly fallen as a death knight, Arthas marched to the farmstead to exhume and resurrect Invincible with Frostmourne, leaving behind an open, ransacked grave. In the wake of the Third War, the ruins serve as a foothold for mindless Scourge slipping past the Bulwark. Forsaken deathguards watch the farm warily, while Undercity magi harvest surviving snapdragons from the garden to test how deeply plague corruption has crept into the soil.",
+  fullHash = "dc1bf8",
+  text = "Balnir Farmstead. The Balnir Farmstead is a derelict estate in eastern Tirisfal Glades, northeast of the Ruins of Lordaeron. Once a working farm of the Balnir family, the lands now lie ruined and infested by wandering Scourge that slip past the Bulwark. For generations, the Balnir family worked their homestead in the rolling hills of eastern Tirisfal, and their garden of snapdragons still blooms among the ruins. When the Scourge swept through Lordaeron during the Third War, the farm was overrun and its people lost, leaving the buildings to rot. In the wake of the Third War, the ruins serve as a foothold for mindless Scourge slipping past the Bulwark. Forsaken deathguards watch the farm warily, while Undercity magi harvest surviving snapdragons from the garden to test how deeply plague corruption has crept into the soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_balnir-farmstead-ab89223807a486c4a177/1-0000.mp3", duration = 90.8538776, start = 0},
+    {file = "Audio/Transport/full_subzone_balnir-farmstead-807c51068d336dad7335/1-0000.mp3", duration = 51.7746939, start = 0},
   },
 }
 P.transport["subzone:bandarion-keep"] = {
@@ -430,7 +598,7 @@ P.transport["subzone:elder-rise"] = {
   fullHash = "5d3a20",
   text = "Elder Rise. Elder Rise sits directly east of Thunder Bluff's central plateau, reachable across long suspension bridges from both the High and Middle Rises. It serves as the spiritual heart of the tauren capital, hosting the Cenarion Circle, tauren druids and priests, and the governing Council of Elders. Connected to the main mesas by swaying rope bridges, Elder Rise is dedicated to quiet reflection, sacred wisdom, and civic governance. Tauren druids and priests gather here to teach acolytes the ways of nature and spiritual devotion. High atop this mesa resides Arch Druid Hamuul Runetotem, the revered leader who brought druidism back to the tauren people and forged close ties with the Cenarion Circle. Alongside these wild sanctuaries stands the Hall of Elders, where tribal leaders convene to deliberate on matters facing their fledgling capital. Despite its role as a peaceful sanctuary, political tension lingers over the rise. Magatha Grimtotem, elder matriarch of the secretive and haughty Grimtotem tribe, maintains her residence in a hut positioned between the two bridges. While Cairne Bloodhoof extends hospitality and formal council seats to all tauren lineages, her watchful presence serves as a constant reminder that not every tribe embraces the Bloodhoof's pacifist ideals or unquestioning alliance with the Horde.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_elder-rise-cbdd625ae988254f5c2e/1-0000.mp3", duration = 80.9534694, start = 0},
+    {file = "Audio/Transport/full_subzone_elder-rise-47513ee8b575942560f2/1-0000.mp3", duration = 80.875102, start = 0},
   },
 }
 P.transport["subzone:faol-s-rest"] = {
@@ -593,6 +761,30 @@ P.transport["subzone:north-tide-s-run"] = {
     {file = "Audio/Transport/full_subzone_north-tide-s-run-93bcd6978b5ba360c393/1-0000.mp3", duration = 62.7983673, start = 0},
   },
 }
+P.transport["subzone:palemane-rock"] = {
+  hash = "1c1260",
+  fullHash = "1c1260",
+  text = "Palemane Rock. Palemane Rock is a cavern and campsite nestled into the western mountains of Mulgore. It serves as a primary stronghold for the aggressive Palemane gnoll tribe, posing a continual nuisance and threat to the nearby tauren of Bloodhoof Village. Situated along the western rim of the grassy plains of Mulgore, Palemane Rock consists of a sprawling open-air encampment fronting a deep, shadowed cavern carved into the mountainside. The Palemane gnolls have claimed both the cave interior and the immediate foothills outside as their territory. Hostile and territorial, these gnolls aggressively defend their den, attacking hunters, travelers, and scouts who wander too close to their rocky haven.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_palemane-rock-a31a93bfa1ed497365ea/1-0000.mp3", duration = 43.5983673, start = 0},
+  },
+}
+P.transport["subzone:pools-of-vision"] = {
+  hash = "d6c90f",
+  fullHash = "2db754",
+  text = "Pools of Vision. The Pools of Vision are a subterranean cavern nestled beneath Spirit Rise in Thunder Bluff. Marked by still waters and dim caverns, this secluded subterranean space serves as the primary enclave for the Forsaken within the tauren capital. While the sunlit peaks of Thunder Bluff belong to the wind, earth, and sky, the Pools of Vision plunge directly beneath Spirit Rise into shadowy seclusion. Accessible from a discreet cave path off the bridge leading to the rise, this subterranean grotto offers subterranean respite quite unlike the open-air lodges above. Here, misty waters pool in the dark, creating an isolated atmosphere where Horde spellcasters gather far from the bustling central mesas. Within Thunder Bluff, the Pools of Vision function as the de facto base of operations for the Forsaken. Travelers from the eastern continent find kindred souls here: undead priests practicing their shadowed arts, mages conjuring arcane portals, and emissaries of the Defilers seeking recruits for their campaigns in the Arathi Highlands. Whether tucked away by tauren skepticism or by the Forsaken's own natural preference for the dark, this quiet refuge bridges Lordaeron's undead with their Kalimdor allies.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_pools-of-vision-6ed078c48ea033716cea/1-0000.mp3", duration = 75.284898, start = 0},
+  },
+}
+P.transport["subzone:razor-hill"] = {
+  hash = "169921",
+  fullHash = "50a7a1",
+  text = "Razor Hill. Razor Hill is the principal Horde settlement in central Durotar, nestled at the strategic crossroads between the Valley of Trials, the Barrens, and Orgrimmar. Centered around a prominent fortified barracks, it serves as the staging ground and training center for young orc and troll warriors testing their mettle in the harsh wilderness. Built at a vital geographical junction, Razor Hill connects northern Durotar with the coastal settlements to the south and the sprawling plains of the Barrens across the Southfury River. Dominated by its stone-and-timber barracks and classic orcish burrows, the settlement was established early in the founding of Durotar. Shortly after the Third War, human forces from Kul Tiras lured the Horde into an ambush here under the guise of an emissary summit, an assault thwarted when Rexxar went in Thrall's stead. Today, the outpost stands fully fortified against further coastal incursions. Under the command of veteran officers like Gar'Thok, Razor Hill coordinates local defense against several looming threats. Human marine remnants still hold Tiragarde Keep along the eastern shoreline, while aggressive quilboar and harpy tribes harass local supply lines. Far more insidious is the presence of the Burning Blade cult, whose shadowy rituals and corrupted agents in the nearby crags are closely tracked and stamped out by investigators like Orgnil Soulscar.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_razor-hill-ec165d4d9421353c172d/1-0000.mp3", duration = 81.8677551, start = 0},
+  },
+}
 P.transport["subzone:razor-hill-watchtower"] = {
   hash = "73e7a1",
   fullHash = "c1980e",
@@ -601,12 +793,108 @@ P.transport["subzone:razor-hill-watchtower"] = {
     {file = "Audio/Transport/full_subzone_razor-hill-watchtower-874e3c3889fc70262c39/1-0000.mp3", duration = 46.0016327, start = 0},
   },
 }
+P.transport["subzone:razorfen-downs-classic"] = {
+  hash = "b389b9",
+  fullHash = "f89e16",
+  text = "Razorfen Downs (Classic). Razorfen Downs is the ancestral burial ground and traditional capital city of the quilboar, nestled deep within giant thorny brambles in the southern Barrens. Recently, agents of the undead Scourge led by the lich Amnennar the Coldbringer seized control of the labyrinth, reanimating the quilboar dead and threatening to expand their dominion across central Kalimdor. Grown from the same towering, petrified vines as nearby Razorfen Kraul, Razorfen Downs rests where the ancient boar demigod Agamaggan fell during the War of the Ancients. For generations, the labyrinth of thorns served as the sacred necropolis and seat of power for the quilboar, guarded closely by the mystics of the Death's Head tribe. To the quilboar, the dense briars are holy ground, soaked in the blood of their divine progenitor. The sanctity of the Downs was shattered when agents of the Scourge infiltrated the brambles. Amnennar the Coldbringer, a powerful lich serving the Lich King, subjugated the resident Death's Head quilboar and turned the ancestral resting grounds into an undead redoubt. Reanimated skeletons, shambling corpses, and shrieking banshees now prowl the Spiral of Thorns. Both the Horde in the nearby Barrens and emissaries from the Cathedral of Light in Stormwind view this growing pocket of Scourge power as a grave threat to the continent.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_razorfen-downs-classic-1c3e6a16173fdf8a9f18/1-0000.mp3", duration = 81.8155102, start = 0},
+  },
+}
+P.transport["subzone:razorwind-canyon"] = {
+  hash = "11ea08",
+  fullHash = "055f9e",
+  text = "Razorwind Canyon. Razorwind Canyon is a winding, rocky gulch split across the main road between Razor Hill and Orgrimmar. Infested by the aggressive Dustwind harpies, the canyon poses a persistent danger to travelers moving north toward the Horde's capital. Razorwind Canyon flanks the central artery linking Razor Hill to Orgrimmar, carving paths into both the eastern bluffs and the western scrublands toward Tor'kren Farm. The canyon is the nesting ground of the Dustwind harpies, territorial creatures that strike without hesitation at travelers who stray too close to their roosts. Their presence so near the capital's trade routes makes clearing out these gullies an ongoing necessity for the defenders of Durotar. Beyond serving as harpy nests, the twists of Razorwind Canyon function as hidden routes through Durotar's red rock hills. The eastern branch tunnels deeply into the crags, providing a passage through a cavern into Drygulch Ravine. Because the harpies roost on the high perches and descend in flocks, unwary adventurers traversing these passes can easily find themselves surrounded and cut down.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_razorwind-canyon-5c5adbce71f0c6c45d01/1-0000.mp3", duration = 66.795102, start = 0},
+  },
+}
+P.transport["subzone:red-rocks"] = {
+  hash = "09bd48",
+  fullHash = "aabb50",
+  text = "Red Rocks. Red Rocks is a towering sandstone bluff in northeastern Mulgore that serves as a sacred ancestral burial ground for the tauren. Here, fallen champions are commended to the Earth Mother through cleansing flame, and young braves travel to its quiet heights to seek the wisdom of their forebears. Rising high above the plains of northeastern Mulgore, the crimson formations of Red Rocks mark a sacred threshold between the living world and the next. Tauren tradition reserves this solemn ground for their most valiant heroes—chieftains, defenders, and champions who gave their lives founding and protecting Thunder Bluff. Their remains are surrendered to the sky and soil through ceremonial pyres, returning their spirits to the Earth Mother and Sky Father. It is equally a place of spiritual beginning, where young tauren complete their rites of passage by honoring the ancestral graves and communing with the wind. The enduring peace of Red Rocks has been shattered by the Bristleback quilboar. Creeping out from their dens, these aggressive scavengers have infested the sandstone ledges and desecrated the ancestral burial pyres with filth. This violation deeply affronts the spiritual traditions of Thunder Bluff. Shaman and lorekeepers now summon aid to cleanse the crags, driving out the Bristlebacks and reclaiming the sanctity of their resting dead.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_red-rocks-1675d6f5ec773a1c1268/1-0000.mp3", duration = 76.564898, start = 0},
+  },
+}
+P.transport["subzone:rogues-quarter"] = {
+  hash = "cf11aa",
+  fullHash = "c95759",
+  text = "Rogues' Quarter. The Rogues' Quarter is a dimly lit district in the southeastern wing of the Undercity. It serves as the staging ground for the Forsaken's scouts, assassins, and underworld operatives, along with the craftsmen who support them. Tucked away in the southeastern quadrant of the subterranean city, the Rogues' Quarter gathers the Forsaken's most cunning and lethal survivors. In life, many were thieves, cutpurses, or silent blades for the Kingdom of Lordaeron; in death, their expertise in stealth, poisons, and misdirection has been repurposed to protect the fledgling nation from the Scourge and the Scarlet Crusade. The district hums with quiet activity, offering a covert haven where operatives sharpen their daggers, brew deadly toxins, and hone clandestine skills. Beyond stealth and assassination, the Rogues' Quarter is home to the specialized trades that enable undercover survival. Artisans gather here to instruct travelers in leatherworking and skinning, turning raw hides into light, silent armor. The clatter of engineering benches echoes through the stone halls as tinkers assemble gadgets, while field medics and apothecaries provide instruction in first aid and vend lethal poisons essential for covert work.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_rogues-quarter-de15739996748145cf7d/1-0000.mp3", duration = 72.2285714, start = 0},
+  },
+}
+P.transport["subzone:rolling-plains"] = {
+  hash = "e7ba6f",
+  fullHash = "f0b9a3",
+  text = "Rolling Plains. The Rolling Plains span the southern expanse of Mulgore, stretching between Bloodhoof Village and the border of the Barrens. These windswept grasslands are home to thriving herds of wildlife, but they are also a point of perpetual vigilance due to prowling centaur raiders and aggressive harpies. Spanning south from Bloodhoof Village toward the natural earthen gates leading into the Barrens, the Rolling Plains embody the vast open ranges of the tauren homeland. The area teems with wild game essential to the tribes, including prairie wolves, kodo herds, flatland cougars, and swift tallstriders. For young hunters proving their worth to the elders, these sweeping savannahs serve as an indispensable proving ground where tracking, patience, and reverence for nature are put to the test. Despite Mulgore's naturally fortified ring of bluffs, the Rolling Plains remain uniquely exposed to outside threats. It is the only frontier where aggressive centaur outriders have managed to push past defensive perimeters to harass passing travelers and hunting parties. Adding to the peril, a nest of predatory Windfury harpies roosts in the eastern crags, swooping down upon stray game and vulnerable nomadic camps.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_rolling-plains-e69e62260d79e3b125e0/1-0000.mp3", duration = 73.5869388, start = 0},
+  },
+}
+P.transport["subzone:royal-quarter"] = {
+  hash = "c93eb6",
+  fullHash = "03562e",
+  text = "Royal Quarter. The Royal Quarter is the secluded seat of power within the Undercity, serving as the throne room for Lady Sylvanas Windrunner. Here, the Banshee Queen directs the Forsaken alongside her dreadlord enforcer, Varimathras, guarded by an elite cohort of Royal Dreadguards. Tucked away behind towering archways and shadowed corridors, the Royal Quarter—also known as the Hall of the Dark Lady—is the political and military nerve center of the Forsaken. Sylvanas Windrunner holds court in this cavernous subterranean chamber, plotting the survival of her free-willed undead and the destruction of the Scourge. Heavily armored Royal Dreadguards stand vigil along the dais, ensuring that uninvited guests and would-be assassins never reach their queen. Standing beside the Dark Lady is the nathrezim Varimathras, an unexpected and uneasy fixture in the heart of the Undercity. After siding with Sylvanas during the civil war in the ruins of Lordaeron to save his own life, the dreadlord pledged loyalty to her cause. From the Royal Quarter, he commands deathstalkers and coordinates defensive operations across the realm. While his tactical cunning serves the Forsaken well, his demonic nature leaves many Horde allies wary of his true allegiances.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_royal-quarter-1397db92b35eb8e02c7f/1-0000.mp3", duration = 72.4897959, start = 0},
+  },
+}
+P.transport["subzone:scuttle-coast"] = {
+  hash = "e4a01d",
+  fullHash = "8cf191",
+  text = "Scuttle Coast. The Scuttle Coast is the wave-battered eastern shoreline of Durotar, situated between Razor Hill and Tiragarde Keep. The rocky beach is strewn with sunken wreckage from Admiral Daelin Proudmoore's Kul Tiras fleet, making it an active scavenging ground for the Horde and a lingering reminder of recent naval warfare. Running along Durotar's eastern edge out to the Great Sea, the Scuttle Coast earned its grim character during the invasion led by Grand Admiral Daelin Proudmoore. When the Kul Tiras fleet assaulted the fledgling nation of Durotar, fierce battles with the Horde drove many human warships against the jagged shoals, smashing them into splintered hulks. Today, the shoreline is choked with barnacle-encrusted timber, broken rigging, and salvaged cargo barrels. For the nearby encampments of Razor Hill, the coast represents both a lingering security hazard and a valuable source of recovered provisions and abandoned Alliance mechanisms. The name Scuttle Coast refers not only to the sunken warships deliberately scuttled or grounded during the fighting, but also to the swarms of crabs and makrura that pick through the rotting detritus. While shoreline wildlife and dangerous tides keep casual travelers away, Horde scavengers periodically comb through the wreckage to retrieve valuable equipment, including gnomish technical components abandoned in the cargo holds of the sunken ships.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_scuttle-coast-77ed54f07f4dceab0f35/1-0000.mp3", duration = 81.684898, start = 0},
+  },
+}
 P.transport["subzone:sewers"] = {
   hash = "dd7916",
   fullHash = "81da28",
   text = "Sewers. The Sewers are a sprawling subterranean drainage network that provides a secondary entrance directly into the Undercity. Cutting beneath the hills west of the ruined palace of Lordaeron, this conduit allows bat handlers and stealthy travelers to bypass the precarious elevators leading down from the throne room. Before the plague wiped out Lordaeron, these stone culverts served as the mundane sewer lines draining the royal capital. In the hands of Sylvanas Windrunner's Forsaken, however, the runoff tunnels have been integrated into the Undercity's outer defenses. Emerging west of the surface ruins near a contested Scarlet Watchtower in Tirisfal Glades, the passage provides a level, direct slope inside. Forsaken bat handlers use this cavernous conduit to fly riders swiftly into the subterranean rings, avoiding the sluggish cage lifts entirely. Because it circumvents the heavily fortified surface courtyards, it remains a dangerous vulnerability that hostile infiltrators constantly seek to exploit.",
   ["1"] = {
     {file = "Audio/Transport/full_subzone_sewers-2325bca66febc3c15489/1-0000.mp3", duration = 59.5069388, start = 0},
+  },
+}
+P.transport["subzone:shrine-of-the-fallen-warrior"] = {
+  hash = "4cd835",
+  fullHash = "014327",
+  text = "Shrine of the Fallen Warrior. Perched upon a secluded ridge west of the Crossroads lies the Shrine of the Fallen Warrior, a quiet memorial overlooking the sweeping red savannahs of the Barrens. Marked by a stone plinth bearing the initials 'MK' and the body of a fallen orc warrior, it is watched over by the gentle presence of a Spirit Healer named Koiter. Tucked away high upon the hills northwest of the Crossroads, the Shrine of the Fallen Warrior stands as an unusually solemn haven amidst the dust and peril of the Barrens. To find it, travelers must scale a winding ridge pathway southwest of the summit until they reach a gentle mound. Upon the summit rests a carved stone monument, its plinth carved with the initials 'MK'. Before it lies the armored form of an orc warrior at rest, watched over day and night by a named Spirit Healer known as Koiter. There are no battle horns here, only quiet contemplation honoring a champion who walked Kalimdor's lands. Within the world, the shrine stands as an enduring tribute to a departed champion of the Horde whose soul lingers in the care of the spirits. Outside the realm, the monument serves as a heartfelt tribute created by the game's artists to honor Michel Koiter, a beloved illustrator who passed away during the development of the world. The resting warrior is modeled precisely after Koiter's own beta character, Twincruiser, immortalizing his presence forever beneath Kalimdor's open skies.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_shrine-of-the-fallen-warrior-a6a59ba345f488837050/1-0000.mp3", duration = 86.282449, start = 0},
+  },
+}
+P.transport["subzone:southern-gold-road"] = {
+  hash = "003aee",
+  fullHash = "8e653a",
+  text = "Southern Gold Road. The Southern Gold Road is the vital desert thoroughfare stretching through the southern half of the Barrens, linking the central plains to the Great Lift. It serves as an indispensable artery for regional trade, carrying caravans, supplies, and wayfarers traveling between distant reaches of Kalimdor. Officially beginning at the stone bridge dividing the northern and southern halves of the Barrens, the Southern Gold Road runs directly south until it meets the Great Lift leading down into the Thousand Needles. Like the northern portion simply named the Gold Road, this dusty highway derives its moniker from the endless stream of lucrative merchant caravans that trek along its length. Despite constant harassment from local quilboar tribes and predators prowling the savannah, it remains one of the busiest long-distance paths on the continent, ferrying goods between remote outposts and bustling ports. The road sees travel far beyond local Horde traffic. Adventurers and hardy traders journeying to and from places as far-flung as Gadgetzan in the southern deserts of Tanaris, Auberdine along the misty shores of Darkshore, and the sacred groves of Nighthaven in Moonglade tread this sun-baked expanse. For travelers journeying on foot through Kalimdor's interior, surviving the journey down the Southern Gold Road is a grueling rite of passage.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_southern-gold-road-b1405f6a4dc49c50eed9/1-0000.mp3", duration = 80.9273469, start = 0},
+  },
+}
+P.transport["subzone:spirit-rise"] = {
+  hash = "df15d2",
+  fullHash = "3c058b",
+  text = "Spirit Rise. Spirit Rise is the northwest mesa of Thunder Bluff, serving as the tauren capital's premier sanctum for spiritual and shamanic study. Overseen by spiritual guides such as the Skychaser tribe, it features sacred training halls above and descends into the cavernous Pools of Vision below. Perched high upon the bluffs overlooking the plains of Mulgore, Spirit Rise is devoted to communion with the elements and ancestor spirits. Connected to the central mesa by rope bridges, it houses the Hall of Spirits and the Spiritual Healing pavilion, where young and veteran shaman gather to deepen their connection with the earth, air, fire, and water. The Skychaser tribe maintains a strong presence across the rise, guiding seekers through ancient traditions. Beneath the breezy huts and open-air totem shrines lies an entrance burrowing into the mesa itself: the steamy Pools of Vision, a sacred subterranean cavern where seers peer into spirit-touched waters.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_spirit-rise-04d7c38ec7701bb7fea6/1-0000.mp3", duration = 60.0032653, start = 0},
+  },
+}
+P.transport["subzone:stagnant-oasis"] = {
+  hash = "efb088",
+  fullHash = "be2352",
+  text = "Stagnant Oasis. The Stagnant Oasis is one of the precious bodies of water nestled in the arid heart of the Barrens, positioned between the Gold Road and the Merchant Coast. Ringed by lush palms and contested by Kolkar centaur, its murky waters and surrounding shores sustain unique local wildlife, including snapping turtles and wandering kodos. Tucked away east of the Gold Road and inland from the Merchant Coast, the Stagnant Oasis provides a vital pocket of greenery amid the dusty scrubland of the Barrens. Like its neighboring waters, the pool supports dense foliage and aggressive snapjaw turtles, while weakened Barrens kodos often stray here away from the massive herds of the Field of Giants. However, travelers must tread carefully: Kolkar centaur maintain encampments along its banks, fiercely guarding the water rights against any who wander into their territory. Despite its stagnant appearance, the pool teems with unusual aquatic life, including strange mutate variants like Deviate Fish. Scholars and shamans keep a watchful eye on the Barrens oases, studying the peculiar forces affecting the local springheads and the wildlife that drinks from them.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_stagnant-oasis-7ef863a198de34bc6296/1-0000.mp3", duration = 66.2987755, start = 0},
+  },
+}
+P.transport["subzone:stillwater-pond"] = {
+  hash = "49b2dd",
+  fullHash = "939955",
+  text = "Stillwater Pond. Stillwater Pond is a quiet, stagnant body of water resting just west of Brill in Tirisfal Glades. Once a beloved picnic and swimming spot for the living children of Lordaeron, it has decayed into a murky pool inhabited by skeletal fish and prowled by dangerous scavengers. Before the Third War and the ravages of the Plague of Undeath, Stillwater Pond served as a tranquil retreat for the folk of Tirisfal Glades. Families from nearby hamlets gathered on its grassy banks for afternoon picnics, and children too young to brave the treacherous depths of Brightwater Lake learned to swim in its shallows. Today, the idyllic waters have turned lifeless and gray. The living have long vanished, leaving only skeletal fish darting beneath the surface and wandering undead drifting through the surrounding woods. Though quiet compared to the besieged roads and contested farms of Tirisfal, Stillwater Pond holds its own perils. The murky waters provide water only to the blighted beasts of the glades, most notably a ferocious darkhound named Bayne who stalks the shoreline. Travelers cutting through the western meadows on their way toward Brill must tread carefully, as predatory beasts and aimless zombies frequently linger along the water's edge.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_stillwater-pond-a9d1e6cdd798f6aa9e0b/1-0000.mp3", duration = 71.7322449, start = 0},
   },
 }
 P.transport["subzone:the-den"] = {

@@ -78,6 +78,21 @@ test("a sync keeps the usage counts per day, only known counts as numbers, the l
   assert.equal(await saveUsage(env, user.id, readUsage({ v: 1, days: { [day(-1)]: { ask: 2 } } })), 0);
 });
 
+test("narrations that started by themselves count apart from ones started with Play; books have a kind (LOR-420)", async () => {
+  const { user, token } = await connect("thrall");
+  await sync(token, { v: 1, days: { [day(-1)]: {
+    play: { zone: 5, book: 1 }, done: { zone: 3, book: 1 },
+    autoplay: { zone: 4, book: 1, Orgrimmar: 1 }, autodone: { zone: 2, book: 1 },
+    userplay: { zone: 1 }, userdone: { zone: 1 }, handplay: { zone: 9 },
+  } } });
+  assert.deepEqual(stored(user.id)[day(-1)], {
+    "play.zone": 5, "play.book": 1, "done.zone": 3, "done.book": 1, "autoplay.zone": 4, "autoplay.book": 1,
+    "autodone.zone": 2, "autodone.book": 1, "userplay.zone": 1, "userdone.zone": 1 });
+  // A companion from before the split (play and done only) still reads, exactly as before.
+  assert.deepEqual(readUsage({ v: 1, days: { [day(-2)]: { play: { zone: 2 }, done: { zone: 1 } } } }),
+    { [day(-2)]: { "play.zone": 2, "done.zone": 1 } });
+});
+
 test("counts older than the keeping period go", async () => {
   const { user } = await connect("morwen");
   env.DB.sqlite.prepare("INSERT INTO usage_days (user_id, day, counts) VALUES (?, ?, ?)")

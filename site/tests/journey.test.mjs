@@ -120,3 +120,25 @@ Deaths
   assert.deepEqual(d.deaths, [{ zone: "Elwynn Forest", by: "Hogger" }, { zone: "Elwynn Forest" }, { zone: "Loch Modan", cause: "drown" }]);
   assert.deepEqual(d.stats.killers, [{ name: "Hogger", n: 2 }]);
 });
+
+test("a battleground is a battle, not a dungeon: tagged by new records, known by its name in older ones (LOR-430)", async () => {
+  const { road, templateStory } = await import("../lib/profiles.js");
+  const record = RECORD
+    .replace("- Oct 03 09:00  The Deadmines · dungeon\n",
+      "- Oct 03 09:00  The Deadmines · dungeon\n- Oct 09 23:53  Darkspear Islands · dungeon\n" +
+      "- Oct 10 00:30  Warsong Gulch · battleground\n")
+    .replace("\nDeaths\n", "\nBattles\n- Oct 10 01:00  Warsong Gulch · Defeat\n- Oct 10 02:00  Darkspear Islands\n\n" +
+      "Deaths\n- Oct 09 23:58  Shipwreck Cove, Darkspear Islands · with Gnome Mage\n");
+  const d = parseRecord(record);
+  assert.deepEqual(d.places.filter(p => p.battleground).map(p => [p.zone, Boolean(p.dungeon)]),
+    [["Darkspear Islands", false], ["Warsong Gulch", false]]);
+  assert.deepEqual(d.battles, [{ zone: "Warsong Gulch", out: "loss" }, { zone: "Darkspear Islands" }]);
+  const { zones, dungeons, battlegrounds } = road(d);
+  assert.deepEqual([dungeons, battlegrounds], [["The Deadmines"], ["Darkspear Islands", "Warsong Gulch"]]);
+  assert.ok(!zones.includes("Darkspear Islands") && !zones.includes("Warsong Gulch"), zones);
+  const story = templateStory(d);
+  assert.match(story, /Aelric has fought for the Alliance at Darkspear Islands and Warsong Gulch\./);
+  assert.match(story, /In battle Aelric has fallen 1 time and risen again to fight on\./);
+  assert.match(story, /has died 3 times/);   // the deaths outside battle, as before
+  assert.ok(!/braved[^.]*Darkspear/.test(story), story);
+});

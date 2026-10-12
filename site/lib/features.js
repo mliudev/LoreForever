@@ -13,8 +13,8 @@
 //               player profiles' moments linking their lore pages (LOR-248). On since 2026-10-04 (Mike), with the
 //               narration recordings in R2 (scripts/upload-narration-r2.sh).
 //   companion   /account's profile section says the companion app can keep the profile up to date by itself
-//               (LOR-148), and Sam, the companion's squire, signs the story on player profiles (LOR-266). Linking
-//               (/link, /api/device/*, where Sam greets you either way), syncing and "Connected apps" work either
+//               (LOR-148), and Willo, the companion, signs the story on player profiles (LOR-266). Linking
+//               (/link, /api/device/*, where Willo greets you either way), syncing and "Connected apps" work either
 //               way; only the invitation and the signature wait. On since 2026-10-10: Setup.exe has offered the
 //               companion since 0.10.0 (LOR-132).
 //   pictures    The "Picture book" on player profiles (lib/pictures.js): the pictures the companion puts on the profile

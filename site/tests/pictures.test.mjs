@@ -13,7 +13,9 @@ import { findOrCreateUser, startSession, setup, deleteUser, sha256 } from "../li
 import { PER_USER, PER_MINUTE } from "../lib/pictures.js";
 import { d1, r2 } from "./helpers.mjs";
 import { readJourney } from "../lib/journey.js";
-import { moments, timelinePictures, journeySection, SHOWN } from "../lib/trails.js";
+import { moments, timelinePictures } from "../lib/trails.js";
+import { chapters, chaptersSection } from "../lib/chapters.js";
+import { pictureLink, morePictures } from "../lib/pictures.js";
 import { RECORD } from "./fixtures/journey/record.mjs";
 
 const ORIGIN = "https://preview.example";
@@ -395,7 +397,7 @@ test("the pictures feature: on, every visitor of a public profile; off, only ?pi
   assert.equal((await list("?handle=aelric")).status, 404);
   const off = await view("aelric");
   assert.equal(off.status, 200);
-  assert.ok(!off.html.includes("Picture book") && !off.html.includes("/pictures/") && !off.html.includes("pictures.js"));
+  assert.ok(!off.html.includes('id="pictures"') && !off.html.includes("/pictures/") && !off.html.includes("pictures.js"));
   // ...but ?pictures=1 does, and the owner's list always does.
   const shown = (await list("?handle=aelric&pictures=1")).body.pictures;
   assert.deepEqual(shown.map(p => [p.zone, p.subzone, p.lv]), [["Westfall", null, 25], ["Elwynn Forest", "Goldshire", 24]], "newest first");
@@ -405,15 +407,15 @@ test("the pictures feature: on, every visitor of a public profile; off, only ?pi
   assert.equal((await list("?handle=nobody&pictures=1")).status, 404);
 
   const page = (await view("aelric", { query: "?pictures=1" })).html;
-  assert.match(page, /<h2 id="pictures-title">Picture book<\/h2>/);
-  assert.match(page, /<script src="\/js\/pictures\.js" defer><\/script>/);
+  assert.match(page, /<h3 id="pictures-title">Pictures<\/h3>/, "a pasted record has no times to put them in chapters");
+  assert.match(page, /<script src="\/js\/pictures\.js\?v=\w+" defer><\/script>/);
   // Alt text: the caption, else the place. Captions are the player's text: escaped.
   assert.match(page, /alt="A &lt;script&gt;alert\(&quot;x&quot;\)&lt;\/script&gt; &amp; a &quot;quote&quot;"/);
-  assert.match(page, /<p class="pb-cap">A &lt;script&gt;alert\(&quot;x&quot;\)&lt;\/script&gt; &amp; a &quot;quote&quot;<\/p>/);
+  assert.match(page, /data-cap="A &lt;script&gt;alert\(&quot;x&quot;\)&lt;\/script&gt; &amp; a &quot;quote&quot;"/);
   assert.ok(!page.includes("<script>alert"));
   assert.match(page, /width="1600" height="900" alt="Westfall"/);
-  assert.match(page, /<p class="pb-where">Goldshire, Elwynn Forest<\/p>/);
-  assert.match(page, /<p class="pb-when">Oct 2, 2025 &middot; Level 24<\/p>/);
+  assert.match(page, /data-where="Goldshire, Elwynn Forest"/);
+  assert.match(page, /data-when="Oct 2, 2025 · Level 24"/);
   assert.match(page, /data-pb="report">Report this picture/, "visitors can report");
   assert.ok(!page.includes('data-pb="remove"'));
   assert.match(page, /<meta property="og:image" content="https:\/\/loreforeverwow\.com\/pictures\/[0-9a-f]{16}-[0-9a-f]{10}\.jpg">/);
@@ -424,7 +426,7 @@ test("the pictures feature: on, every visitor of a public profile; off, only ?pi
   // On (the default): everyone.
   delete env.SITE_FEATURES;
   assert.equal((await list("?handle=aelric")).body.pictures.length, 2);
-  assert.match((await view("aelric")).html, /Picture book/);
+  assert.match((await view("aelric")).html, /id="pictures"/);
   // A private profile: its pictures are no one's but its owner's, feature or not.
   await profileApi({ request: new Request(`${ORIGIN}/api/profile/settings`, { method: "POST",
     headers: { "Content-Type": "application/json", Cookie: me.cookie, Origin: ORIGIN }, body: JSON.stringify({ public: false }) }),
@@ -507,11 +509,11 @@ test("timeline identity: malformed metadata is refused and hidden or foreign pic
   assert.equal(journey.moments.length,4);
   await env.DB.prepare("UPDATE profiles SET journey = ? WHERE user_id = ?").bind(JSON.stringify(journey),me.user.id).run();
   const html = (await view("aelric",{query:"?pictures=1"})).html;
-  const timeline = html.slice(html.indexOf('id="timeline"'),html.indexOf('id="pictures"'));
-  assert.equal((timeline.match(/class="pf-picture"/g)||[]).length,1);
-  assert.match(timeline,new RegExp(`data-pb-target="${good.body.picture.id}"`));
-  assert.match(timeline, /Took a journey picture/);
-  assert.match(timeline.match(/<li class="pf-m pf-k-levels"[\s\S]*?<\/li>/)[0], /data-pb-target=/, "the picture belongs beside the level, not its own shot marker");
+  const told = html.slice(html.indexOf('id="chapters"'),html.indexOf('</section>',html.indexOf('id="chapters"')));
+  assert.equal((told.match(/class="pf-picture"/g)||[]).length,1,"in its chapter");
+  assert.match(told,new RegExp(`data-pb-target="${good.body.picture.id}"`));
+  assert.match(told, /Took a journey picture/);
+  assert.ok(!html.includes('id="pictures"'),"nothing left over");
   env.SITE_FEATURES = "-pictures";
   assert.ok(!(await view("aelric")).html.includes('class="pf-picture"'),"feature off keeps thumbnails hidden");
   delete env.SITE_FEATURES;
@@ -521,6 +523,7 @@ test("timeline identity: malformed metadata is refused and hidden or foreign pic
   assert.ok(!JSON.stringify(publicList).includes("account/path"));
   const all = moments({},undefined,journey), pics = await rows();
   assert.equal(timelinePictures(all,pics).size,1);
+  assert.equal([...timelinePictures(all,pics).keys()][0].k,"levels","the picture belongs beside the level, not its own shot marker");
   assert.equal(timelinePictures([...all,all.at(-1)],pics).size,1,"repeated moments keep one deterministic placement");
   assert.equal([...timelinePictures(all,[...pics,{...pics[0],id:"second"}]).values()][0].length,2,"one moment can have multiple pictures");
   assert.equal(timelinePictures(all,[{...pics[0],hidden:1}]).size,0,"hidden pictures never join");
@@ -557,14 +560,12 @@ test("pictures follow capture time beside the nearest same-character moment and 
   assert.equal([...matched.values()].flat().length,4,"never attach another character or a hidden picture");
   const simultaneous = [...all, {...all[0],o:3}];
   assert.equal([...timelinePictures(simultaneous,[pictures[1]]).keys()][0],all[0],"same-second ties keep the earlier entry");
-  const html = journeySection(all,{pictures:pictures.slice(0,4)});
-  const firstRow = html.match(/<li class="pf-m pf-k-levels" id="m-0"[\s\S]*?<\/li>/)[0];
-  assert.equal((firstRow.match(/class="pf-picture"/g)||[]).length,3);
-  assert.ok(!html.includes("waiting for"));
+  const html = chaptersSection(chapters(all),{matched:timelinePictures(all,pictures.slice(0,4)),picture:(p,o)=>pictureLink(p,o)});
+  assert.equal((html.match(/class="pf-picture"/g)||[]).length,4,"all four in the chapter of their moments");
   const backlog = moments({},undefined,readJourney({v:1,tz:0,character,moments:[...events,{k:"qt",t:t+159,id:42,n:"Returned yesterday"}]}));
   const reassigned = timelinePictures(backlog,pictures);
   assert.deepEqual(reassigned.get(backlog.find(m=>m.k==="quests")).map(p=>p.id),["tie","later"]);
-  assert.ok(journeySection([],{pictures:[pictures[0]]}).includes("waiting for this character"));
+  assert.match(morePictures([pictures[0]]),/data-pb-target="before"/,"a picture with no chapter still shows");
   assert.equal(timelinePictures(moments({},undefined,readJourney({v:1,tz:0,moments:events})),pictures).size,0,"unidentified old moments wait rather than guess");
 });
 
@@ -574,13 +575,11 @@ test("picture markers cannot attract pictures and older pictured moments remain 
   const pic = {id:"old-picture",character,t:t+1,event_t:t+1,sha:"abc"};
   const shotOnly = moments({},undefined,{v:1,tz:0,character,moments:[{k:"shot",t:t+1,character}]});
   assert.equal(timelinePictures(shotOnly,[pic]).size,0);
-  assert.match(journeySection(shotOnly,{pictures:[pic]}), /waiting for this character/);
   const all = moments({},undefined,{v:1,tz:0,character,moments:[{k:"lvl",t,lv:2},{k:"shot",t:t+1,character},
-    ...Array.from({length:SHOWN+2},(_,i)=>({k:"lvl",t:t+10+i,lv:3}))]});
+    ...Array.from({length:602},(_,i)=>({k:"lvl",t:t+10+i,lv:3}))]});
   assert.equal([...timelinePictures(all,[pic]).keys()][0],all[0],"the exact-time shot does not displace a real journey moment");
-  const html = journeySection(all,{pictures:[pic]});
-  const row = html.match(/<li class="pf-m pf-k-levels" id="m-0"[\s\S]*?<\/li>/)?.[0];
-  assert.ok(row?.includes('data-pb-target="old-picture"'),"the closest old moment remains in Show earlier moments");
-  assert.ok(!html.includes("waiting for"));
+  const html = chaptersSection(chapters(all),{matched:timelinePictures(all,[pic]),picture:(p,o)=>pictureLink(p,o)});
+  assert.ok(html.indexOf('data-pb-target="old-picture"') > 0 && html.indexOf('data-pb-target="old-picture"') < html.indexOf('<details class="pf-all">'),
+    "the oldest moment's picture is in view in its chapter, not in the fold");
   assert.equal((html.match(/data-pb-target="old-picture"/g)||[]).length,1);
 });

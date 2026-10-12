@@ -110,7 +110,7 @@ function didThis(k, e) {
     case "bosses": return `defeated ${e.name}`;
     case "levels": return `reached level ${e.level}`;
     case "mounts": return `got the ${e.name}`;
-    case "places": return e.dungeon ? `entered ${e.zone}` : `reached ${e.sub ? `${e.sub}, ${e.zone}` : e.zone}`;
+    case "places": return e.dungeon || e.battleground ? `entered ${e.zone}` : `reached ${e.sub ? `${e.sub}, ${e.zone}` : e.zone}`;
     case "kills": return `defeated ${e.name}`;
     case "quests": return `finished "${e.title}"`;
     case "people": return `met ${e.name}`;
@@ -142,10 +142,14 @@ export function onThisDay(d, now = new Date()) {
   return null;
 }
 
-// The section, or "" when the record has no journey stats. now: the page's time, for "on this day".
-export function numbersSection(d, now = new Date()) {
+// The section: the profile's "By the numbers" tab (lib/profiles.js, Mike 10/11: the numbers get their own tab, so the
+// journey's chapters can grow). now: the page's time, for "on this day". lead: tiles to show first (the record's
+// totals), more: lists to show after these (the record's collections). "" when there's nothing at all to count.
+export function numbersSection(d, now = new Date(), { lead = "", more = "" } = {}) {
   const s = d?.stats;
-  if (!s || !(s.yards > 0 || s.slain > 0 || s.recorded > 0 || s.played)) return "";
+  if (!s || !(s.yards > 0 || s.slain > 0 || s.recorded > 0 || s.played)) {
+    return lead || more ? section(d, { tiles: lead, lists: more }) : "";
+  }
   const walking = s.yards >= 1, distances = walking || s.flown >= 1;
   const tiles = [
     walking && [steps(s.yards), "Steps walked", null, dist(s.yards)],
@@ -181,9 +185,13 @@ export function numbersSection(d, now = new Date()) {
   const units = distances ? `<p class="pf-units" hidden>Distances in <button class="btn-small" type="button" data-units="mi" aria-pressed="true">miles</button>
       <button class="btn-small btn-small-alt" type="button" data-units="km" aria-pressed="false">kilometres</button></p>
     <script src="/js/units.js" defer></script>` : "";
-  return `<section class="vp-section pf-nums" aria-labelledby="nums-title">
-    <h2 id="nums-title">The journey in numbers</h2>
-    <ul class="pf-stats">${tiles}</ul>
+  return section(d, { tiles: lead + tiles, fun, lists: lists + more, units });
+}
+
+function section(d, { tiles = "", fun = [], lists = "", units = "" }) {
+  return `<section class="vp-section pf-nums pf-panel" id="numbers" aria-labelledby="nums-title">
+    <h2 id="nums-title">${escape(d.name)} by the numbers</h2>
+    ${tiles ? `<ul class="pf-stats">${tiles}</ul>` : ""}
     ${fun.length ? `<ul class="pf-fun">${fun.map(l => `<li>${escape(l)}</li>`).join("")}</ul>` : ""}
     ${lists ? `<div class="pf-nums-lists">${lists}</div>` : ""}
     ${units}

@@ -38,11 +38,14 @@
 
 <!-- Keep this page true to the code: what each table keeps is in lib/accounts.js (SETUP, and USER_DATA for what
      "Delete my account" removes), lib/submissions.js, functions/api/feedback.js, functions/api/translations*.js,
-     lib/subscribers.js, lib/donate.js (lent voices), lib/contribute.js (shared game text), lib/clipreports.js and
-     lib/usage.js (usage counts). When something here changes, change the date below. -->
+     lib/subscribers.js, lib/donate.js (lent voices), lib/contribute.js (shared game text), lib/clipreports.js,
+     lib/usage.js (usage counts), lib/activity.js (sign-in days, downloads while signed in) and lib/checkins.js with
+     companion/lore_companion/checkin.py (the companion's daily check-in), and lib/featureuse.js with
+     companion/lore_companion/usage.py (the anonymous usage counts that go with it). When something here
+     changes, change the date below. -->
 <main class="wrap vp-page vp-doc">
   <h1>Privacy</h1>
-  <p class="vp-version">Updated 2026-10-10</p>
+  <p class="vp-version">Updated 2026-10-11</p>
   <p class="pitch">What this site keeps about you, why, who else handles it, and how to get rid of it. The add-on
     itself can't send anything anywhere: it runs inside your game, and you only share what you copy out of it.</p>
 
@@ -57,14 +60,17 @@
   <ul>
     <li><strong>Your account</strong>, if you sign in: your Google account ID, email address and name, from Google
       sign-in. We use them to sign you in and to reach you about your feedback and what you contribute. A cookie
-      keeps you signed in for 30 days.</li>
+      keeps you signed in for 30 days. We also note the days you're signed in on the site (only the date, kept for 90
+      days, and the latest one while you have the account), and when you download Lore Forever from this site while
+      signed in, that your account downloaded it that day. We look at these only added up over everyone, to see how
+      many people come back and how many players with an account got the add-on here.</li>
     <li><strong>Your profile</strong>: the facts about your character in the journey record you paste (its name,
       realm, level, the places, quests, bosses and so on it lists), plus the name and links you add. Never the record
       itself, or other players' names. It stays private until you make it public. If you connect the companion app to
       keep it up to date, the companion sends that same record after each <code>/reload</code> or logout, and we
       keep when it connected and last updated your profile, and a scrambled (hashed) copy of its key. With the record
       it sends how often you used the add-on's features each day (narrations started and heard to the end, questions,
-      opening the Lore panel and Journey, pictures taken) and how many messages and new chats you had with Sam in the
+      opening the Lore panel and Journey, pictures taken) and how many messages and new chats you had with Willo in the
       companion: only those numbers, never what you asked, heard or wrote. We keep
       them for 90 days and look at them only added up over all players, to see which features people use.</li>
     <li><strong>Your pictures</strong>, if you let the companion app put the pictures you take in game on your profile:
@@ -72,6 +78,13 @@
       on your profile, and only while it's public. Anyone can report one; a picture several people report is
       hidden. A report keeps a scrambled (hashed) copy of the sender's IP address, salted for that picture alone, so
       each person counts once; it goes when the picture does.</li>
+    <li><strong>The companion app's daily check-in</strong>: once a day the companion app tells us it's in use, with a
+      random number made on your PC (scrambled) and the app's and the add-on's version numbers, with no account, name
+      or game data and without keeping your IP address; we keep these 90 days to count installs in use, and you can
+      turn it off in the companion's settings. With it go anonymous usage counts: how often each feature of the add-on
+      and the companion was used each day, and which voice, language, level range and settings were on, only numbers
+      and those few choices, never what you asked, heard or wrote. The setting "Share anonymous usage counts" (in
+      older versions, "Count this install once a day") turns both off.</li>
     <li><strong>Voice recordings</strong>: the files you upload to the voice studio. When you send a voice, also the
       narrator release form: the name you sign, your email, your Discord handle if you give one, and your country.</li>
     <li><strong>A voice you lend</strong>: the recording you send on <a href="/voices/lend">Lend your voice</a>, the
@@ -93,8 +106,9 @@
   </ul>
   <p>Your country comes from your connection; we don't ask for it. Downloads and clicks on the download and Discord
     links are counted per day as plain numbers, with the source the link names (like <code>?src=lore</code>) and
-    nothing about who clicked. Visits to profile pages and shares of them are counted the same way, with nothing about
-    who visited or shared. Your browser also remembers a few
+    nothing about who clicked, apart from the download noted for your account while you're signed in (above). Visits
+    to profile pages, shares of them and profile updates are counted the same way, with nothing about who visited,
+    shared or updated. Your browser also remembers a few
     small things, like which version's news you've seen and, while you're signed in, the name at the top of the page,
     but those stay on your device.</p>
 
@@ -117,7 +131,7 @@
   <p>Your account, profile, recordings and translation edits stay until you delete them or your account. Your email
     stays on the list until you unsubscribe. Feedback is kept to make Lore Forever better.</p>
   <p><strong>Delete my account</strong> removes, right away: your account (Google ID, email, name and links), your
-    sign-in, your profile, its pictures and connected apps, your voices and every recording you uploaded, the release
+    sign-in and the days you were signed in, the downloads noted for your account, your profile, its pictures and connected apps, your voices and every recording you uploaded, the release
     you agreed to in the voice studio, a voice you lent (its recording, test pack and credit), the narration and
     picture reports you sent while signed in, and the languages and edits on your translation dashboard.</p>
   <p>Some things stay, and here's why:</p>
@@ -144,8 +158,9 @@
       recordings in the <a href="/voices/studio">voice studio</a>, and single pictures on your profile or in the
       companion.</li>
     <li>Make your profile private again: untick Public on your account page.</li>
-    <li>Stop the companion app updating your profile, and sending its usage counts: Disconnect it under Connected apps
-      on your account page, or turn off keeping your profile up to date in the companion.</li>
+    <li>Stop the companion app updating your profile, and sending its usage counts with it: Disconnect it under
+      Connected apps on your account page, or turn off keeping your profile up to date in the companion. Turn off
+      "Share anonymous usage counts" in the companion's settings to stop its daily check-in and the counts with it.</li>
     <li>Leave the email list: <a href="/unsubscribe">unsubscribe</a>.</li>
     <li>Anything else, like seeing what we hold about you or removing a voice you sent: ask on
       <a href="/discord">Discord</a>.</li>

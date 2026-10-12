@@ -33,9 +33,11 @@ import { perMinute, perHour, perDay, slowDown } from "../../../lib/ratelimit.js"
 import { forgetPictures } from "../../../lib/pictures.js";
 import { forgetStoryVoice } from "../../../lib/storyvoice.js";
 import { historyRequest, forgetHistoryStatements } from "../../../lib/history.js";
-import { readUsage, saveUsage } from "../../../lib/usage.js";
+import { readUsage, saveUsage, countSite } from "../../../lib/usage.js";
 
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
+// Profile updates per day for /admin (LOR-304): a plain number per way in, nothing about who. Never holds a save up.
+const countUpdate = (env, out, metric) => out.unchanged ? null : countSite(env, [metric]).catch(() => {});
 
 const IMPORTS_PER_MINUTE = 10;
 const SYNCS_PER_MINUTE = 6;    // saves, explicit syncs and due story catch-up all share request limits
@@ -205,6 +207,7 @@ async function importRecord({ env }, input, user) {
   const { data, error } = readRecord(input);
   if (error) return error;
   const out = await saveRecord(env, user, data);
+  await countUpdate(env, out, "profile.paste");
   // The page reports separately whether the delivered facts also refreshed the story.
   return ok({ profile: summary(out.profile), created: out.created,
               switched: out.switched ? { from: out.switched.data.name, to: data.name } : null, story: out.story,
@@ -242,6 +245,7 @@ async function sync({ env }, input, { user, device }) {
   }
   await markSynced(env, device.id);
   try { await saveUsage(env, user.id, readUsage(input.usage)); } catch (e) { /* counts never hold up the profile */ }
+  await countUpdate(env, out, "profile.sync");
   return ok({ profile: summary(out.profile), created: out.created, ...(out.unchanged ? { unchanged: true } : {}),
               story: out.story, storyRetryAt: out.storyRetryAt });
 }

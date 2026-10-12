@@ -15,6 +15,12 @@ same as the private build that QA tested.
   audio_assets.py fetch [--base URL]         put the recordings release/audio.json names into addon/<pack>/Audio/.
                                              A pack whose Audio/ has recordings already is left alone (tags from
                                              before LOR-133 kept them in git), and so is a pack this checkout lacks.
+  audio_assets.py prune [--keep-releases N]  delete the audio release's zips that neither this checkout's
+                                             release/audio.json nor the one at any of the last N (10) releases' tags
+                                             or a draft release's names, unless uploaded in the last 24 hours (gh).
+                                             GitHub takes 1,000 files per release. --dry-run lists them with sizes.
+                                             It deletes nothing unless it read every one of those manifests.
+                                             scripts/post-release.sh runs it after each release.
 
 Upload caches verified bundles in $XDG_CACHE_HOME/lore-forever/audio-bundles (default ~/.cache), up to 8 GiB.
 --cache-dir / LORE_AUDIO_CACHE_DIR overrides that directory; --no-cache / LORE_AUDIO_CACHE=0 disables it.
@@ -27,6 +33,7 @@ addon/ with recordings. Standard library only, plus gh to upload: the public rep
 
 import argparse
 import contextlib
+import datetime
 import hashlib
 import json
 import os
@@ -51,6 +58,9 @@ DATE = (2026, 1, 1, 0, 0, 0)   # fixed, so a pack's zip is the same bytes whenev
 BUNDLE_FORMAT = "stored-audio-v1"
 CACHE_LIMIT = 8 * 1024**3
 LFS_POINTER = b"version https://git-lfs"
+PACK = r"LoreForever_(?:Voice_[A-Za-z0-9_]+|Edition_[A-Za-z0-9_]+_Audio)"
+KEEP_RELEASES = 10   # prune keeps every zip the last this many releases' tags name, so those can still be rebuilt
+GRACE = 24 * 3600    # and every zip uploaded within this many seconds: a release in progress uploads before it tags
 README = ("Which zip on the public repo's \"audio\" release holds each voice pack's recordings, which aren't in its "
           "git history (LOR-133). scripts/release.sh writes it with each release (scripts/audio_assets.py manifest); "
           "the release workflow puts the recordings back from it (fetch). Don't edit it by hand.")
@@ -99,7 +109,7 @@ def load_manifest() -> dict:
     if not isinstance(data, dict) or not isinstance(data.get("packs"), dict):
         raise Failure(f"{MANIFEST.relative_to(ROOT)} has no 'packs'")
     for pack, entry in data["packs"].items():
-        if not re.fullmatch(r"LoreForever_(?:Voice_[A-Za-z0-9_]+|Edition_[A-Za-z0-9_]+_Audio)", pack):
+        if not re.fullmatch(PACK, pack):
             raise Failure(f"invalid audio pack name: {pack!r}")
         fp = entry.get("fingerprint") if isinstance(entry, dict) else None
         if (not isinstance(fp, str) or not re.fullmatch(r"[0-9a-f]{64}", fp)
@@ -395,6 +405,123 @@ def cmd_fetch(args) -> int:
     return 0
 
 
+def gh_json(*args: str):
+    r = gh(*args)
+    try:
+        return json.loads(r.stdout)
+    except ValueError as e:
+        raise Failure(f"gh {' '.join(args[:3])} didn't answer JSON: {e}") from None
+
+
+def release_tags(repo: str, count: int) -> tuple[list[str], list[str]]:
+    """(the newest `count` published releases' tags, every draft release's), newest first, vX.Y.Z tags only. The
+    Release workflow keeps a new tag's release a draft until it's done, and leaves it one when it fails, for a rerun."""
+    published, drafts = [], []
+    for rel in gh_json("release", "list", "-R", repo, "--limit", "1000", "--json", "tagName,isDraft"):
+        m = re.fullmatch(r"v(\d+)\.(\d+)\.(\d+)", rel["tagName"])
+        if m:
+            (drafts if rel["isDraft"] else published).append((tuple(int(n) for n in m.groups()), rel["tagName"]))
+    if not published:
+        raise Failure(f"{repo} has no published releases")
+    published = [tag for _, tag in sorted(published, reverse=True)[:count]]
+    return published, [tag for _, tag in sorted(drafts, reverse=True) if tag not in published]
+
+
+def tag_assets(repo: str, tag: str) -> set[str] | None:
+    """The zips release/audio.json names at a release's tag: what rebuilding that tag fetches. None for a tag from before
+    LOR-133, which kept its recordings in git: it has no scripts/audio_assets.py, so its build fetches nothing."""
+    r = gh("api", f"repos/{repo}/contents/release/audio.json?ref={tag}",
+           "-H", "Accept: application/vnd.github.raw+json", check=False)
+    if r.returncode == 0:
+        try:
+            names = {entry["asset"] for entry in json.loads(r.stdout)["packs"].values()}
+        except (ValueError, KeyError, TypeError, AttributeError) as e:
+            raise Failure(f"{tag}'s release/audio.json doesn't say which zips it needs ({e!r})") from None
+        if not all(isinstance(n, str) for n in names):
+            raise Failure(f"{tag}'s release/audio.json doesn't say which zips it needs")
+        return names
+    # Having no manifest only counts for a tag that provably has no fetcher. Anything else (a GitHub error, an outage)
+    # stops the prune.
+    listing = gh("api", f"repos/{repo}/contents/scripts?ref={tag}", check=False)
+    try:
+        fetcher = listing.returncode != 0 or "audio_assets.py" in {f["name"] for f in json.loads(listing.stdout)}
+    except (ValueError, KeyError, TypeError):
+        fetcher = True
+    if fetcher:
+        raise Failure(f"couldn't read release/audio.json at {tag}: {(r.stderr or r.stdout).strip()}")
+    return None
+
+
+def gigabytes(assets: list[dict]) -> float:
+    return sum(a["size"] for a in assets) / 1e9
+
+
+def uploaded(asset: dict) -> float:
+    """When an asset was uploaded, in seconds since the epoch; now if GitHub doesn't say, so that it's kept."""
+    try:
+        return datetime.datetime.fromisoformat(asset["createdAt"].replace("Z", "+00:00")).timestamp()
+    except (KeyError, AttributeError, ValueError):
+        return time.time()
+
+
+def cmd_prune(args) -> int:
+    if args.keep_releases < 1:
+        raise Failure("--keep-releases must be at least 1")
+    # This checkout's manifest: after a release, the one it just published, even before GitHub lists that release.
+    keep = {e["asset"] for e in load_manifest()["packs"].values()}
+    tags, drafts = release_tags(args.repo, args.keep_releases)
+    in_git = []
+    for tag in tags + drafts:   # all or nothing: a manifest that can't be read raises here, before anything is deleted
+        names = tag_assets(args.repo, tag)
+        if names is None:
+            in_git.append(tag)
+        keep |= names or set()
+    r = gh("release", "view", TAG, "-R", args.repo, "--json", "assets", check=False)
+    if r.returncode != 0:
+        if "not found" in r.stderr.lower():
+            print(f"recordings: {args.repo} has no {TAG} release; nothing to prune")
+            return 0
+        raise Failure(f"couldn't read {args.repo}'s {TAG} release: {r.stderr.strip()}")
+    try:
+        assets = json.loads(r.stdout)["assets"]
+    except (ValueError, KeyError, TypeError) as e:
+        raise Failure(f"couldn't read {args.repo}'s {TAG} release's files: {e!r}") from None
+    now = time.time()
+    kept, recent, other, doomed = [], [], [], []
+    for a in assets:
+        if a["name"] in keep:
+            kept.append(a)
+        elif not re.fullmatch(rf"{PACK}-[0-9a-f]{{16}}\.zip", a["name"]):
+            other.append(a)   # not a voice pack's zip, so not this command's to judge
+        elif now - uploaded(a) < GRACE:
+            recent.append(a)
+        else:
+            doomed.append(a)
+    span = ", ".join(tags) if len(tags) <= 3 else f"{tags[0]} back to {tags[-1]}"
+    if drafts:
+        span += f", and the draft {', '.join(drafts)}"
+    if in_git:
+        span += f"; {', '.join(in_git)} keep their recordings in git"
+    print(f"recordings: the {TAG} release has {len(assets)} files ({gigabytes(assets):.2f} GB). {len(kept)} stay, named "
+          f"by this checkout's release/audio.json or the last {len(tags)} releases' ({span}).")
+    if recent:
+        print(f"  {len(recent)} more uploaded in the last {GRACE // 3600} hours stay too: a release in progress may "
+              "need them")
+    if other:
+        print(f"  {len(other)} other files aren't voice pack zips; left alone: " + ", ".join(a["name"] for a in other))
+    if not doomed:
+        print("Nothing to delete.")
+        return 0
+    print(f"{'Would delete' if args.dry_run else 'Deleting'} {len(doomed)} zips ({gigabytes(doomed):.2f} GB):")
+    for a in doomed:
+        if not args.dry_run:
+            gh("release", "delete-asset", TAG, a["name"], "-R", args.repo, "--yes")
+        print(f"  {a['name']} ({a['size'] / 1e6:.0f} MB)")
+    if args.dry_run:
+        print("(dry run: nothing deleted)")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -410,9 +537,14 @@ def main(argv: list[str] | None = None) -> int:
                     help="bypass the bundle cache (also LORE_AUDIO_CACHE=0)")
     fe = sub.add_parser("fetch")
     fe.add_argument("--base", default=BASE, help="where the zips are (default: the audio release)")
+    pr = sub.add_parser("prune")
+    pr.add_argument("--repo", default=REPO)
+    pr.add_argument("--keep-releases", type=int, default=KEEP_RELEASES, metavar="N",
+                    help=f"keep the zips the last N releases' tags name (default {KEEP_RELEASES})")
+    pr.add_argument("--dry-run", action="store_true", help="list what it would delete, with sizes; delete nothing")
     args = ap.parse_args(argv)
     try:
-        return {"manifest": cmd_manifest, "upload": cmd_upload, "fetch": cmd_fetch}[args.cmd](args)
+        return {"manifest": cmd_manifest, "upload": cmd_upload, "fetch": cmd_fetch, "prune": cmd_prune}[args.cmd](args)
     except (Failure, OSError, zipfile.BadZipFile) as e:
         print(f"audio_assets: {e}", file=sys.stderr)
         return 1
