@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Lordamere Internment Camp"
  },
- "summary": "Lordamere Internment Camp is a former Second War detention facility perched on the heights overlooking the Dalaran Crater. Once built to confine lethargic orcs, the camp is now occupied by surviving Dalaran magi and guards alongside a treacherous band of Forsaken defectors.",
+ "summary": "Lordamere Internment Camp is a former Second War detention facility perched on the heights overlooking Dalaran. Once built to confine lethargic orcs, the camp is now occupied by surviving Dalaran magi and guards alongside a treacherous band of Forsaken defectors.",
  "sections": [
   {
    "title": "From Prison to Research Outpost",
-   "body": "Following the Second War, the Alliance constructed internment camps across the northern kingdoms to contain the defeated orcish Horde. Lordamere was unique as the sole camp established within the Alterac Mountains, placed under Dalaran's jurisdiction. Years ago, Prince Arthas Menethil and Lady Jaina Proudmoore famously sneaked past the watchtowers as youths to peer at the captive orcs, debating the morality of their imprisonment. With the orcs long since liberated or fled, the camp today functions under Warden Belamoore as an outpost for Dalaran remnants studying dangerous magical relics.",
+   "body": "Following the Second War, the Alliance constructed internment camps across the northern kingdoms to contain the defeated orcish Horde. Lordamere was unique as the sole camp established within the Alterac Mountains, placed under Dalaran's jurisdiction. With the orcs long since liberated or fled, the camp today functions under Warden Belamoore as an outpost for Dalaran remnants studying dangerous magical relics.",
    "spoiler": 0
   },
   {
@@ -37,7 +37,7 @@
     "who runs the camp",
     "who is warden belamoore"
    ],
-   "answer": "Warden Belamoore and a detachment of Dalaran guards and magi hold the camp. Though Dalaran itself was heavily damaged and shielded within the nearby crater, these survivors continue their research from the fortified hilltop."
+   "answer": "Warden Belamoore and a detachment of Dalaran guards and magi hold the camp. Though Dalaran itself was heavily damaged, these survivors continue their research from the fortified hilltop."
   },
   {
    "q": "Why are there undead Forsaken inside the camp?",
@@ -47,15 +47,6 @@
     "forsaken deserters"
    ],
    "answer": "They are deserters from the Undercity led by Kegan Darkmar. Having betrayed Queen Sylvanas and stolen sacred Bloodstone artifacts, they traded the relics to Warden Belamoore in exchange for Dalaran's protection against Forsaken retribution."
-  },
-  {
-   "q": "What connection does this place have to Arthas and Jaina?",
-   "aliases": [
-    "arthas jaina camp",
-    "arthas visit",
-    "jaina camp"
-   ],
-   "answer": "Years before the Scourge fell upon Lordaeron, Prince Arthas Menethil and Lady Jaina Proudmoore slipped past the camp's guards one night to observe the captive orcs. The experience caused Jaina great sympathy for the imprisoned families, while Arthas maintained the camps were a harsh necessity."
   }
  ],
  "angles": [
@@ -83,8 +74,6 @@
   "subzone:dalaran",
   "topic:second-war",
   "topic:forsaken",
-  "npc:jaina-proudmoore",
-  "topic:arthas-menethil",
   "topic:horde"
  ],
  "attribution": [

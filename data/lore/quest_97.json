@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Match in the Records",
-   "body": "After combing through distant manors, inns, and municipal archives across the human kingdoms, the fragmented trail returns to Darkshire's town hall. Clerk Daltry examines the recovered writing samples and compares them against local registries. The result is unequivocal: the penmanship belongs to Stalvan Mistmantle. Any remaining doubt over whether the tutor had truly passed through Duskwood dissolves, providing the Night Watch with the hard evidence needed to treat the matter as an urgent local threat.",
+   "body": "After combing through distant manors, inns, and municipal archives across the human kingdoms, the fragmented trail returns to Darkshire's town hall. Clerk Daltry compares the bloodstained journal page against the signatures in the Town Registry. The result is unequivocal: the penmanship belongs to Stalvan Mistmantle, giving the Night Watch the hard evidence needed to treat the matter as an urgent local threat.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "daltry handwriting match",
     "stalvan handwriting proof"
    ],
-   "answer": "Clerk Daltry compared the collected writings from your travels against official records and confirmed that the handwriting was an exact match for Stalvan Mistmantle. This proved that the suspect was indeed the same tutor who once resided in town."
+   "answer": "Clerk Daltry compared the bloodstained journal page against the signatures in Darkshire's Town Registry and confirmed that the handwriting was an exact match for Stalvan Mistmantle, just as Commander Ebonlocke suspected."
   },
   {
    "q": "Why does Commander Althea Ebonlocke care so much about Stalvan?",
@@ -74,7 +74,7 @@
     "stalvan background",
     "stalvan mistmantle story"
    ],
-   "answer": "Stalvan Mistmantle was a schoolteacher and private tutor originally from Duskwood. After seeking employment abroad, his life took a dark and tragic turn, eventually drawing him back to his native woods as a dangerous recluse."
+   "answer": "Stalvan Mistmantle once taught at the Moonbrook schoolhouse and later worked as a private tutor to the children of the Flintridge family. The trail of his letters and journal pages leads from Moonbrook and Goldshire back to Duskwood, where he now lives as a dangerous recluse in the woods."
   },
   {
    "q": "Why was handwriting analysis necessary?",

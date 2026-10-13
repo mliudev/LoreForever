@@ -25,12 +25,12 @@
  "sections": [
   {
    "title": "A Displaced Tribe",
-   "body": "Before the Prospector's cannons and pickaxes broke the earth, the red bluffs south of the Barrens were the ancestral birthplace and hunting grounds of Gann Stonespire's clan. When the Explorers' League arrived from Ironforge to establish Bael Modan, the tauren were violently pushed out or killed to make room for massive quarries and trenches. With peaceful protests ignored and diplomacy exhausted, Gann now walks the dust of the southern road in solitude, plotting a bloody restitution for his fallen kin.",
+   "body": "Before the Prospector's cannons and pickaxes broke the earth, the red bluffs south of the Barrens were the ancestral birthplace and hunting grounds of Gann Stonespire's clan. When the dwarves arrived from Ironforge to establish Bael Modan, the tauren were violently pushed out or killed to make room for massive quarries and trenches. With peaceful protests ignored and diplomacy exhausted, Gann now walks the dust of the southern road in solitude, plotting a bloody restitution for his fallen kin.",
    "spoiler": 0
   },
   {
    "title": "The Ruins of Bael Modan",
-   "body": "The dwarven operation at Bael Modan spares little thought for the land or its stewards. Ripping open hillsides with steam engines and heavy explosives, the expedition under Prospector Khazgorm tore deep into the earth searching for ancient Titan relics. Gann's task is simple and uncompromising: thin the ranks of the Bael'dun excavators and foremen tearing up the sacred soil, slay Khazgorm himself, and seize the prospector's personal excavation notes to discover what the Alliance invaders are truly after.",
+   "body": "The dwarven operation at Bael Modan spares little thought for the land or its stewards. Ripping open hillsides with steam engines and heavy explosives, the expedition under Prospector Khazgorm tore deep into the earth. Gann's task is simple and uncompromising: thin the ranks of the Bael'dun excavators and foremen tearing up the sacred soil, slay Khazgorm himself, and seize the prospector's personal excavation notes to discover what the Alliance invaders are truly after.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
     "bael modan purpose",
     "ironforge in barrens"
    ],
-   "answer": "The dwarves belong to the Bael'dun expedition sent by the Ironforge Explorers' League. Driven by the recent discovery of their Titan heritage, they established Bael Modan to excavate ancient buried relics and ruins, showing complete disregard for the native tauren inhabitants."
+   "answer": "The dwarves are an Ironforge expedition, the Bael'dun, who built a keep and an excavation at Bael Modan in the southern Barrens. Their blasting and noisy digging machines tear apart the hills with complete disregard for the native tauren inhabitants."
   },
   {
    "q": "Who is Prospector Khazgorm?",
@@ -106,7 +106,6 @@
   "bael modan",
   "bael'dun",
   "dwarf dig site",
-  "explorers' league",
   "gann stonespire",
   "khazgorm",
   "southern barrens"

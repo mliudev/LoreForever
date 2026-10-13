@@ -8,11 +8,11 @@
   "wiki": "Lord Grayson Shadowbreaker",
   "refs": 1
  },
- "summary": "Lord Grayson Shadowbreaker is a veteran paladin commander of the Knights of the Silver Hand stationed within Stormwind's Cathedral of Light. Recognizable by his towering build and missing right eye, he trains budding champions of the Light and oversees the sacred, arduous trials required for senior paladins to claim their holy chargers.",
+ "summary": "Lord Grayson Shadowbreaker is a veteran paladin commander of the Knights of the Silver Hand stationed within Stormwind's Cathedral of Light. One of the Alliance's foremost paladins, he trains budding champions of the Light and oversees the sacred, arduous trials required for senior paladins to claim their holy chargers.",
  "sections": [
   {
    "title": "Master of the Silver Hand",
-   "body": "Lord Grayson Shadowbreaker stands among the foremost defenders of the Alliance, anchoring the order's presence in Stormwind City. A veteran warrior who sacrificed his right eye in battle, Grayson does not merely instruct recruits in martial skill; he tests their spiritual conviction. When promising knights demonstrate their readiness, Grayson dispatches them north toward the contested front lines of the Western Plaguelands to aid Commander Ashlam Valorfist at Chillwind Camp.",
+   "body": "Lord Grayson Shadowbreaker stands among the foremost defenders of the Alliance, anchoring the order's presence in Stormwind City. A veteran of the Silver Hand, Grayson does not merely instruct recruits in martial skill; he tests their spiritual conviction. When promising knights demonstrate their readiness, Grayson dispatches them north toward the contested front lines of the Western Plaguelands to aid Commander Ashlam Valorfist at Chillwind Camp.",
    "spoiler": 0
   },
   {
@@ -41,22 +41,21 @@
    "answer": "He serves as a high-ranking paladin trainer for the Alliance. In addition to directing young knights toward front-line combat against the Scourge in Lordaeron, he orchestrates the sacred ritual questline required to forge holy barding and claim a paladin charger."
   },
   {
-   "q": "How did Lord Grayson lose his right eye?",
+   "q": "Did Lord Grayson lose an eye?",
    "aliases": [
     "how did grayson lose his eye",
     "why is grayson missing an eye",
     "grayson eyepatch"
    ],
-   "answer": "Grayson lost his right eye fighting on the battlefield during his long service to the Alliance and the Order of the Silver Hand, bearing the scar as a testament to decades of war."
+   "answer": "No account from these days says how, or even whether, Grayson lost an eye. He is known simply as a veteran lord of the Silver Hand and one of the Alliance's foremost paladins."
   },
   {
    "q": "What is his connection to the Forsaken?",
    "aliases": [
     "grayson sister",
-    "jubeka shadowbreaker",
     "does grayson have undead family"
    ],
-   "answer": "His sister Jubeka perished during the Scourging of Lordaeron and was reanimated as one of the Forsaken. When she later sought him out hoping to reconcile, Grayson rejected her as an unholy monster, fiercely maintaining that his true sister died with Lordaeron."
+   "answer": "None that is known. Grayson is a paladin of the Silver Hand who sends his knights to fight the Scourge in Lordaeron, and no account from these days ties him or his family to the Forsaken."
   },
   {
    "q": "Why does Grayson send paladins to Grimand Elmore?",
@@ -83,7 +82,6 @@
   "charger",
   "grayson",
   "grimand elmore",
-  "jubeka",
   "paladin",
   "scholomance",
   "shadowbreaker",

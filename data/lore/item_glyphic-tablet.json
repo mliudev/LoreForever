@@ -60,7 +60,7 @@
   },
   {
    "target": "race:Troll",
-   "text": "As the only race in the Valley of Trials to practice wizardry, Darkspear mages receive this tablet to begin their unique path alongside traditional shamanic and martial ways."
+   "text": "Darkspear mages receive this tablet to begin their path alongside traditional shamanic and martial ways."
   }
  ],
  "keywords": [
@@ -80,7 +80,7 @@
   "zone:durotar",
   "topic:mage",
   "topic:troll",
-  "quest:1089"
+  "subzone:the-den"
  ],
  "attribution": [
   "Glyphic Tablet",

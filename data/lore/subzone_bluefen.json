@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Bluefen"
  },
- "summary": "Bluefen is a soggy marshland nestled in northern Dustwallow Marsh between Brackenwall Village and Blackhoof Village. Crawling with aggressive wetland predators, the mire has also become a staging ground for covert Theramore Infiltrators keeping watch on local Horde movements.",
+ "summary": "Bluefen is a soggy marshland nestled in northern Dustwallow Marsh just east of Brackenwall Village. Crawling with aggressive wetland predators, the mire has also become a staging ground for covert Theramore Infiltrators keeping watch on local Horde movements.",
  "sections": [
   {
    "title": "A Contested Bog",
-   "body": "Situated between the Stonemaul ogres of Brackenwall Village to the west and the grimtotem tauren of Blackhoof Village to the east, Bluefen embodies the untamed hazards of Dustwallow Marsh. The humid swampland teems with predatory beasts, including raptors, giant spiders, carrion-feeding birds, and lurking crocolisks. Beyond natural predators, travelers must contend with Theramore Infiltrators who skulk through the murky terrain to spy on the Horde and project human influence deeper into the swamp.",
+   "body": "Situated just east of the Stonemaul ogres of Brackenwall Village, Bluefen embodies the untamed hazards of Dustwallow Marsh. The humid swampland teems with predatory beasts, including raptors, giant spiders, carrion-feeding birds, and lurking crocolisks. Beyond natural predators, travelers must contend with Theramore Infiltrators who skulk through the murky terrain to spy on the Horde and project human influence deeper into the swamp.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is bluefen",
     "bluefen map"
    ],
-   "answer": "Bluefen lies in northern Dustwallow Marsh, situated directly between Brackenwall Village to the west and Blackhoof Village to the east."
+   "answer": "Bluefen lies in northern Dustwallow Marsh, situated just east of Brackenwall Village."
   },
   {
    "q": "What threats can be found in Bluefen?",
@@ -51,11 +51,10 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "While wild beasts make travel treacherous, Theramore scouts use the dense marshland foliage of Bluefen to keep watchful eyes on nearby ogre and tauren encampments."
+   "text": "While wild beasts make travel treacherous, Theramore scouts use the dense marshland foliage of Bluefen to keep watchful eyes on the nearby ogre encampment."
   }
  ],
  "keywords": [
-  "blackhoof",
   "bluefen",
   "brackenwall",
   "crocolisks",
@@ -65,8 +64,7 @@
  ],
  "related": [
   "zone:dustwallow",
-  "subzone:brackenwall-village",
-  "subzone:blackhoof-village"
+  "subzone:brackenwall-village"
  ],
  "attribution": [
   "Bluefen"

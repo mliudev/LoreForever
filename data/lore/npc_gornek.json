@@ -38,7 +38,7 @@
     "where is gornek",
     "gornek map"
    ],
-   "answer": "He stands near the center of the Valley of Trials in southwestern Durotar, just outside the Den where young orcs and Darkspear trolls begin their journeys."
+   "answer": "He stands near the center of the Valley of Trials in southwestern Durotar, inside the Den where young orcs and Darkspear trolls begin their journeys."
   },
   {
    "q": "Why do new recruits report to him?",
@@ -80,7 +80,7 @@
   "subzone:valley-of-trials",
   "zone:durotar",
   "quest:787",
-  "quest:1089",
+  "subzone:the-den",
   "quest:98576",
   "topic:new-horde",
   "topic:horde"

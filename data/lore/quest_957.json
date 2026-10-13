@@ -43,7 +43,7 @@
     "who is the ghost",
     "npc asterion"
    ],
-   "answer": "Asterion is a night elf spirit trapped within the ruins of Bashal'Aran. He dates back ten thousand years to the reign of Queen Azshara, having been bound to the ruined city by his former Highborne master."
+   "answer": "Asterion is a night elf spirit trapped within the ruins of Bashal'Aran. He dates back ten thousand years to the reign of Queen Azshara, and is bound to the ruins by a seal crafted by one of the most powerful of the Highborne."
   },
   {
    "q": "Where do I destroy the Ancient Moonstone Seal?",
@@ -120,8 +120,7 @@
   "subzone:ameth-aran",
   "topic:highborne",
   "quest:954",
-  "zone:darkshore",
-  "zone:azshara"
+  "zone:darkshore"
  ],
  "attribution": [
   "Bashal'Aran (4)"

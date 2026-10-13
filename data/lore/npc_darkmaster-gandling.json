@@ -46,7 +46,7 @@
     "frostwhisper gandling",
     "ras frostwhisper teacher"
    ],
-   "answer": "Ras Frostwhisper was Gandling's teacher. Together, the human headmaster and the powerful lich established Scholomance as the center of dark instruction and supervised the horrors committed against innocent souls such as the Sarkhoffs within Caer Darrow."
+   "answer": "Ras Frostwhisper was Gandling's teacher. Together, the human headmaster and the powerful lich presided over Scholomance's dark instruction and supervised the horrors committed against innocent souls such as the Sarkhoffs within Caer Darrow."
   },
   {
    "q": "Where is Darkmaster Gandling found?",
@@ -81,8 +81,7 @@
   "subzone:scholomance",
   "zone:westernplaguelands",
   "topic:cult-of-the-damned",
-  "topic:scourge",
-  "subzone:andorhal"
+  "topic:scourge"
  ],
  "attribution": [
   "Darkmaster Gandling"

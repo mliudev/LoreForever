@@ -21,7 +21,10 @@
 # The main download comes from scripts/build-release.sh; it carries the default (male) narrator's core and lands packs.
 # dist/packs/manifest.tsv lists file, CurseForge display name and version, for the release workflow's additional
 # files. --versioned names the zips <name>-<version>.zip instead (to keep a copy, or upload one by hand).
-# Usage: scripts/build-voice-packs.sh [--versioned]
+# --sizes builds nothing: after the same checks, one line per folder of each zip it would build, "size<TAB>zip<TAB>
+# folder<TAB>bytes" (that folder's share of the zip: its recordings stored, the rest deflated as here, plus zip
+# headers), and "skipped<TAB>zip<TAB>why" for a bundle over GitHub's limit (scripts/release_sizes.py, LOR-443).
+# Usage: scripts/build-voice-packs.sh [--versioned | --sizes]
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 # A sparse worktree (scripts/new-worktree.sh) has no voice audio or translated lore, and the main checkout no voice
@@ -32,7 +35,7 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
   || { echo "${0##*/}: this checkout is sparse. In your own worktree, run 'git sparse-checkout disable' first; or make" \
          "a full one: scripts/new-worktree.sh --pointers <path> (and 'git lfs pull' there for the recordings)" >&2; exit 1; }
 exec python3 - "$ROOT" "$@" <<'PY'
-import atexit, re, shutil, sys, tempfile, zipfile, subprocess
+import atexit, functools, re, shutil, sys, tempfile, zipfile, zlib, subprocess
 from pathlib import Path
 
 root = Path(sys.argv[1])
@@ -41,7 +44,28 @@ from transport_assets import TransportError, pause_split, pause_split_coverage, 
 from load_order import LoadError, addon_files
 addons, out = root / "addon", root / "dist" / "packs"
 VERSIONED = "--versioned" in sys.argv[2:]
+SIZES = "--sizes" in sys.argv[2:]
 AUDIO = {".mp3", ".ogg"}
+DEFLATED = {}   # path -> its deflated size (a language pack's files go in several zips)
+
+def zip_bytes(folder, src, paths):
+    """What these files add to a zip as written below: each entry's local and central headers (30 and 46 bytes plus
+    its name, twice), its recording stored or its text deflated at level 9. The pieces of a pause split hold the same
+    frames as the recording, so the unsplit folder stands in for them."""
+    total = 0
+    for p in paths:
+        if not p.is_file():
+            continue
+        name = len(f"{folder}/{p.relative_to(src).as_posix()}".encode())
+        if p.suffix.lower() in AUDIO:
+            size = p.stat().st_size
+        else:
+            if p not in DEFLATED:
+                c = zlib.compressobj(9, zlib.DEFLATED, -15)
+                DEFLATED[p] = len(c.compress(p.read_bytes()) + c.flush())
+            size = DEFLATED[p]
+        total += 76 + 2 * name + size
+    return total
 # zip name -> (folders in it, display name with {v} for the version)
 DOWNLOADS = {
     "LoreForever_Voice_Default_Quests": (["LoreForever_Voice_Default_Quests"], "Male narrator: quest dialogue {v}"),
@@ -123,6 +147,7 @@ def version(folder):
 
 core = version("LoreForever") if (addons / "LoreForever" / "LoreForever.toc").is_file() else None
 
+@functools.cache   # each language goes in several zips; its checks (a secret scan over ~35 MB) hold for all
 def language_files(locale):
     """Only the language add-on's client-loaded files, checked against this release's core and lore data."""
     folder = f"LoreForever_Lang_{locale}"
@@ -152,7 +177,8 @@ def language_files(locale):
             sys.exit(f"build-voice-packs: {folder}/{name} contains something that looks like a secret")
     return folder, listed
 
-out.mkdir(parents=True, exist_ok=True)
+if not SIZES:
+    out.mkdir(parents=True, exist_ok=True)
 rows = []
 
 # Pause and resume (LOR-346, transport_assets.pause_split): a pack's recordings with cut points (complete stories,
@@ -189,7 +215,10 @@ for name, (folders, display) in DOWNLOADS.items():
         size = sum(p.stat().st_size for f in folders for p in (addons / f).rglob("*") if p.is_file())
         if size > GITHUB_ASSET_MAX:
             print(f"skip {name}: about {size / 1024**2:.0f} MB, over GitHub's 2 GB release file limit; its packs "
-                  "download separately")
+                  "download separately", file=sys.stderr if SIZES else sys.stdout)
+            if SIZES:
+                print(f"skipped\t{name}.zip\tabout {size / 1024**2:.0f} MB, over GitHub's 2 GB limit; its packs download "
+                      "separately")
             continue
     if not all((addons / f / f"{f}.toc").is_file() for f in folders):
         print(f"skip {name}: {', '.join(f for f in folders if not (addons / f).is_dir()) or 'no .toc'} not in addon/")
@@ -214,6 +243,13 @@ for name, (folders, display) in DOWNLOADS.items():
     path = out / (f"{name}-{v}.zip" if VERSIONED else f"{name}.zip")
     locale = re.search(r"_([a-z]{2}[A-Z]{2})(?:-complete)?$", name)
     lang = language_files(locale.group(1)) if locale and locale.group(1) != "enUS" else None
+    if SIZES:
+        for f in folders:
+            print(f"size\t{name}.zip\t{f}\t{zip_bytes(f, addons / f, sorted((addons / f).rglob('*')))}")
+        if lang:
+            f, listed = lang
+            print(f"size\t{name}.zip\t{f}\t{zip_bytes(f, addons / f, [addons / f / p for p in listed])}")
+        continue
     files = [(f, source(f), sorted(source(f).rglob("*"))) for f in folders]   # before the zip: a split can fail
     if lang:
         f, listed = lang
@@ -235,6 +271,11 @@ for name, (folders, display) in DOWNLOADS.items():
 # A contributor edition must remain a single paired artifact. Its validator also
 # rejects a lone component, mismatched pairing identity and unhydrated audio.
 edition_names = ("LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio")
+if SIZES:
+    for f in edition_names:   # contributor_bundle.py zips both folders as they are, as LoreForever_Edition_Densuad_esES
+        if (addons / f).is_dir():
+            print(f"size\tLoreForever_Edition_Densuad_esES.zip\t{f}\t{zip_bytes(f, addons / f, sorted((addons / f).rglob('*')))}")
+    sys.exit(0)
 if any((addons / name).exists() for name in edition_names):
     command = [sys.executable, str(root / "scripts" / "contributor_bundle.py"),
                "--addons", str(addons), "--out", str(out)]

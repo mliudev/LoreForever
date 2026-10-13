@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "Son of the High Chieftain",
-   "body": "Born to Cairne and the late Tamaala, Baine spent his youth traveling alongside his nomadic people before they claimed the rich grasslands of Mulgore. His early life was marked by the ever-present threat of the centaur clans. Shortly after the Third War, a centaur warband under Khiragg captured young Baine, plunging Cairne into a grief-stricken stupor that nearly shattered the newly founded settlements. It was only through the courage of the champion Rexxar that Baine was liberated from captivity. That rescue restored Cairne's spirit, allowing the tauren to stand with Thrall's Horde against the invading Kul Tirans and secure their foothold on the continent.",
+   "body": "Born to Cairne, Baine spent his youth traveling alongside his nomadic people before they claimed the rich grasslands of Mulgore. His early life was marked by the ever-present threat of the centaur clans. Shortly after the Third War, a centaur warband under Khiragg captured young Baine, plunging Cairne into a grief-stricken stupor that nearly shattered the newly founded settlements. It was only through the courage of the champion Rexxar that Baine was liberated from captivity. That rescue restored Cairne's spirit, allowing the tauren to stand with Thrall's Horde against the invading Kul Tirans and secure their foothold on the continent.",
    "spoiler": 0
   },
   {
    "title": "Guardian of Bloodhoof Village",
-   "body": "Rather than lingering in the relative comfort of the capital mesas, Baine chooses to reside among his kin in Bloodhoof Village. As Cairne advances in age, Baine carries an increasing burden of stewardship, representing the next generation of tauren leadership. He directs braves and visiting allies to combat the unruly Palemane gnolls who pester the borders, and keeps a watchful eye on suspicious outside influences threatening Mulgore's natural balance. Whenever Cairne departs the capital on state affairs, Baine steps forward as the acting leader for the united tribes.",
+   "body": "Rather than lingering in the relative comfort of the capital mesas, Baine chooses to reside among his kin in Bloodhoof Village. As Cairne advances in age, Baine carries an increasing burden of stewardship, representing the next generation of tauren leadership. He directs braves and visiting allies to combat the unruly Palemane gnolls who pester the borders, and keeps a watchful eye on suspicious outside influences threatening Mulgore's natural balance.",
    "spoiler": 0
   },
   {
@@ -70,7 +70,7 @@
     "bael dun mining",
     "dwarf digsite mulgore"
    ],
-   "answer": "Baine believes the violent blasting techniques of the Bael'dun miners harm the spirits of the earth. He seeks to sabotage their industrial tools and scare them off before their reckless digging brings elemental retribution upon the region."
+   "answer": "Baine believes the Bael'dun miners' violent digging hurts the spirits of the earth and defiles the land. He sends travelers to take and smash their tools, hoping to scare them off and teach them that hollowing the land is not the path to knowledge."
   },
   {
    "q": "Will Baine succeed Cairne as High Chieftain?",
@@ -79,7 +79,7 @@
     "future high chieftain",
     "cairne heir"
    ],
-   "answer": "As Cairne's beloved son and right-hand advisor, Baine already acts as temporary leader whenever Cairne is away from Thunder Bluff. He is widely considered the natural heir to lead the united tauren tribes in the future."
+   "answer": "As Cairne's son, Baine takes a greater role in leading the tauren with each passing year as his father grows older, and he is widely seen as the natural heir to the united tribes."
   }
  ],
  "angles": [
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Shaman",
-   "text": "Baine respects the spirits above all else, sending travelers to silence dwarven machines and reckless miners before the fury of the earth elementals is unleashed."
+   "text": "Baine respects the spirits above all else, sending travelers to silence dwarven machines and reckless miners before their digging wounds the spirits of the earth any further."
   }
  ],
  "keywords": [

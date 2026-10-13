@@ -8,7 +8,7 @@
   "wiki": "Feero Ironhand",
   "refs": 1
  },
- "summary": "Feero Ironhand is a human fighter stationed at Maestra's Post in the western reaches of Ashenvale. Standing guard along the border between Darkshore and the forest, he works closely with Delgren the Purifier to combat the shadowy Cult of the Dark Strand.",
+ "summary": "Feero Ironhand is a human paladin stationed at Maestra's Post in the western reaches of Ashenvale. Standing guard along the border between Darkshore and the forest, he works closely with Delgren the Purifier to combat the shadowy Cult of the Dark Strand.",
  "sections": [
   {
    "title": "A Bulwark at Maestra's Post",
@@ -24,7 +24,7 @@
     "who is feero",
     "feero npc"
    ],
-   "answer": "Feero Ironhand is an Alliance human warrior stationed at Maestra's Post in western Ashenvale. He assists travelers passing between Darkshore and Ashenvale and coordinates logistics back to Auberdine."
+   "answer": "Feero Ironhand is an Alliance human paladin stationed at Maestra's Post in western Ashenvale. He assists travelers passing between Darkshore and Ashenvale and coordinates logistics back to Auberdine."
   },
   {
    "q": "What is Feero's purpose at Maestra's Post?",
@@ -50,7 +50,7 @@
     "feero argent dawn",
     "is feero argent dawn"
    ],
-   "answer": "Yes. Feero is affiliated with the Argent Dawn and works in close concert with Delgren the Purifier, an Argent Dawn paladin combatting dark forces in the forest."
+   "answer": "No Argent Dawn tie is recorded for him. Feero, himself a paladin, works in close concert with Delgren the Purifier, a fellow human paladin combatting dark forces in the forest."
   }
  ],
  "angles": [
@@ -77,7 +77,6 @@
   "subzone:auberdine",
   "zone:ashenvale",
   "quest:976",
-  "topic:argent-dawn",
   "zone:darnassus"
  ],
  "attribution": [

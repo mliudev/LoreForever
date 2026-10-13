@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Holding the Plow",
-   "body": "Farmer Saldean remembers when Westfall was considered the lushest breadbasket this side of Stranglethorn Vale. Those prosperous years have crumbled into dust. Surrounded by overgrown fields, rampaging mechanical harvest watchers, and predatory bandits, Saldean refuses to yield his land. While other homesteaders abandoned their acres or turned to thievery, he and his wife Salma remain determined to harvest what little grain they can. Driven to practical desperation, he recruits wandering adventurers to dismantle the rogue harvest golems scouring his fields so he can salvage their parts and clear his soil for planting.",
+   "body": "Farmer Saldean remembers better days in Westfall. Those prosperous years have crumbled into dust. Surrounded by overgrown fields, rampaging mechanical harvest watchers, and predatory bandits, Saldean refuses to yield his land. While other homesteaders abandoned their acres or turned to thievery, he and his wife Salma remain determined to harvest what little grain they can. Driven to practical desperation, he recruits wandering adventurers to destroy the rogue Harvest Watchers that have taken over his fields and his neighbors' so he can clear his soil for planting.",
    "spoiler": 0
   },
   {
@@ -37,7 +37,7 @@
     "why are harvest golems attacking",
     "saldean farm problem"
    ],
-   "answer": "Westfall's automated harvest golems have malfunctioned and gone wild, prowling the cropland and attacking anyone in sight. Saldean needs adventurers to hunt down the mechanical watchers and reap their parts so he can reclaim his wheat fields."
+   "answer": "Westfall's automated harvest golems have malfunctioned and gone wild, prowling the cropland and attacking anyone in sight. Saldean needs adventurers to destroy the mechanical watchers in his fields and the neighboring ones so he can reclaim his land."
   },
   {
    "q": "Where can Farmer Saldean be found?",
@@ -92,8 +92,7 @@
   "npc:gryan-stoutmantle",
   "zone:westfall",
   "topic:stormwind-kingdom",
-  "topic:defias-brotherhood",
-  "zone:stranglethorn"
+  "topic:defias-brotherhood"
  ],
  "attribution": [
   "Farmer Saldean"

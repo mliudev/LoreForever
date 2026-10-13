@@ -17,11 +17,11 @@
   "wiki": "The Shattered Salute",
   "chain": []
  },
- "summary": "The Shattered Salute is an initiation ritual overseen by Shenthul within the Cleft of Shadows in Orgrimmar. By learning this distinct sign of recognition, budding rogues are taught how to safely identify fellow operatives of the Shattered Hand in the field.",
+ "summary": "The Shattered Salute is an initiation ritual overseen by Shenthul within the Cleft of Shadow in Orgrimmar. By learning this distinct sign of recognition, budding rogues are taught how to safely identify fellow operatives of the Shattered Hand in the field.",
  "sections": [
   {
    "title": "Signs and Shadows",
-   "body": "Within the dark tunnels of the Cleft of Shadows, the Shattered Hand operates as the clandestine intelligence and assassination arm of Thrall's Horde. Given the dangerous and secretive nature of their assignments, operatives cannot rely on overt banners or standard military heraldry. Shenthul instructs newly inducted rogues in the Shattered Salute, a specific gesture meant to serve as an unmistakable, silent signal among allies.",
+   "body": "Within the dark tunnels of the Cleft of Shadow, the Shattered Hand operates as the clandestine intelligence and assassination arm of Thrall's Horde. Given the dangerous and secretive nature of their assignments, operatives cannot rely on overt banners or standard military heraldry. Shenthul instructs newly inducted rogues in the Shattered Salute, a specific gesture meant to serve as an unmistakable, silent signal among allies.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "who is shenthul",
     "where do i learn the salute"
    ],
-   "answer": "The salute is taught by Shenthul, a rogue trainer stationed deep within the Cleft of Shadows beneath Orgrimmar."
+   "answer": "The salute is taught by Shenthul, a rogue trainer stationed deep within the Cleft of Shadow beneath Orgrimmar."
   },
   {
    "q": "What organization uses this gesture?",
@@ -72,7 +72,7 @@
     "salute location",
     "where is shenthul located"
    ],
-   "answer": "The training takes place in the Cleft of Shadows, the subterranean district beneath Orgrimmar where rogues, warlocks, and other practitioners of forbidden arts gather away from public scrutiny."
+   "answer": "The training takes place in the Cleft of Shadow, the subterranean district beneath Orgrimmar where rogues, warlocks, and other practitioners of forbidden arts gather away from public scrutiny."
   },
   {
    "q": "What assignment follows after mastering the salute?",
@@ -95,7 +95,7 @@
   }
  ],
  "keywords": [
-  "cleft of shadows",
+  "cleft of shadow",
   "covert",
   "deep cover",
   "orgrimmar",

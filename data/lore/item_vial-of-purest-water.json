@@ -10,7 +10,7 @@
    "quest:220"
   ]
  },
- "summary": "The Vial of Purest Water is a sacred vessel blessed by the hermit Brine along the southern coastline of the Barrens. Entrusted to an initiate shaman, its purified contents are essential for concocting the draught required to perceive elusive elemental spirits.",
+ "summary": "The Vial of Purest Water is a sacred vessel blessed by the hermit Brine deep in the southern Barrens. Entrusted to an initiate shaman, its purified contents are essential for concocting the draught required to perceive elusive elemental spirits.",
  "sections": [
   {
    "title": "A Purified Offering",
@@ -40,7 +40,7 @@
     "who fills the vial",
     "brine water"
    ],
-   "answer": "The water is gathered by the shaman under the direction of Brine, an elemental hermit dwelling near the southern coast of the Barrens. Once gathered through various trials, Brine blesses and seals the purified water into the vial for transport."
+   "answer": "The water is gathered by the shaman under the direction of Brine, an orc shaman hermit dwelling deep in the southern Barrens. Once gathered through various trials, Brine blesses and seals the purified water into the vial for transport."
   },
   {
    "q": "Where does the vial need to be taken?",

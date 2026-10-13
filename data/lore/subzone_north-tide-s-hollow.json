@@ -64,7 +64,6 @@
  ],
  "keywords": [
   "arugal",
-  "beachhead",
   "moonrage",
   "north tide's hollow",
   "sepulcher",
@@ -75,8 +74,7 @@
   "zone:silverpine",
   "subzone:sepulcher",
   "topic:worgen",
-  "npc:arugal",
-  "subzone:north-tide-s-beachhead"
+  "npc:arugal"
  ],
  "attribution": [
   "North Tide's Hollow"

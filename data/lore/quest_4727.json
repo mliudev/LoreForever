@@ -47,7 +47,7 @@
     "greymist murlocs turtle",
     "why avoid carcass"
    ],
-   "answer": "The Greymist murlocs usually tear through any carcass on the beach, yet they have left these remains alone. Gwennyth Bly'Leggonde and the Temple of the Moon suspect the scavengers may be shying away due to an unnatural taint or an unseen danger surrounding the creature's death."
+   "answer": "The Greymist murlocs usually tear through any carcass on the beach, yet they have left these remains alone. Nobody yet knows why: the murlocs may simply not have found it, or may be shying away for some unknown reason. Gwennyth finds their absence interesting and means to keep it in mind as the remains are studied."
   },
   {
    "q": "Who is Gwennyth Bly'Leggonde?",
@@ -119,8 +119,7 @@
   "subzone:temple-of-the-moon",
   "topic:murloc",
   "quest:4722",
-  "quest:2519",
-  "quest:938"
+  "quest:2519"
  ],
  "attribution": [
   "Beached Sea Turtle (3)"

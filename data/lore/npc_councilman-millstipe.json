@@ -38,7 +38,7 @@
     "millstipe dextren ward",
     "ward crime"
    ],
-   "answer": "Dextren Ward was a grave robber who exhumed the dead of Duskwood and sold them to the necromancer Morbent Fel. Darkshire sentenced him to hang, but Stormwind's House of Nobles spared his life and threw him into the Stockade instead."
+   "answer": "Dextren Ward was a grave robber who exhumed the dead of Duskwood and sold them to the necromancer Morbent Fel. Lord Ebonlocke sentenced him to be beheaded, but Stormwind's House of Nobles spared his life and threw him into the Stockade instead."
   },
   {
    "q": "What is Millstipe's grievance with Stormwind?",
@@ -86,8 +86,7 @@
   "zone:duskwood",
   "subzone:stormwind-stockade",
   "quest:55",
-  "topic:house-of-nobles",
-  "subzone:karazhan"
+  "topic:house-of-nobles"
  ],
  "attribution": [
   "Councilman Millstipe"

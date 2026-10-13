@@ -8,16 +8,16 @@
   "wiki": "Shandris Feathermoon",
   "refs": 4
  },
- "summary": "Shandris Feathermoon is the General of the Sentinel Army and the adopted daughter of Tyrande Whisperwind and Malfurion Stormrage. A veteran archer of the War of the Ancients, she now commands night elf military forces throughout Kalimdor from Feathermoon Stronghold on Sardor Isle off the coast of Feralas.",
+ "summary": "Shandris Feathermoon is the General of the Sentinel Army and, for ten thousand years, Tyrande Whisperwind's right hand. She now commands night elf military forces throughout Kalimdor from Feathermoon Stronghold on Sardor Isle off the coast of Feralas.",
  "sections": [
   {
-   "title": "Child of the Sundering",
-   "body": "Ten thousand years ago during the War of the Ancients, the demonic Burning Legion destroyed the village of Ara-Hinam, separating a young Shandris from her family. Fleeing south, she was rescued by Kur'talos Ravencrest's forces and adopted by the Priestess of the Moon, Tyrande Whisperwind. Though initially forbidden from the battlefield, Shandris covertly shadowed the Sisters of Elune, proving herself an exceptional markswoman. When the satyr Xavius assaulted Malfurion Stormrage, Shandris struck the fiend with an arrow from the treeline, providing the opening Malfurion needed to entangle and neutralize the traitor.",
+   "title": "Tyrande's Right Hand",
+   "body": "Shandris Feathermoon is one of the oldest defenders of the night elves. For ten thousand years she has served at Tyrande Whisperwind's side as the high priestess's right hand among the Sentinels, through the long vigil that followed the Sundering.",
    "spoiler": 0
   },
   {
    "title": "Rise of the Sentinels",
-   "body": "Following the Great Sundering and the founding of the Sentinels, Shandris became an indispensable commander within the night elf military. Centuries later in the War of the Satyr, she led squads into brutal skirmishes against lingering demonic remnants, witnessing firsthand the tragic unleashed fury of the earliest worgen. During the Third War, Shandris led the Shadowleaves sentinels alongside Tyrande, standing upon the slopes of Mount Hyjal to defend the World Tree Nordrassil against Archimonde's legions.",
+   "body": "Following the Great Sundering and the founding of the Sentinels, Shandris became an indispensable commander within the night elf military.",
    "spoiler": 0
   },
   {
@@ -34,7 +34,7 @@
     "shandris lore",
     "who is the night elf general in feralas"
    ],
-   "answer": "Shandris Feathermoon is the General of the Sentinels, the standing military force of the night elves. She is an ancient archer, a veteran of the War of the Ancients and the Battle of Mount Hyjal, and the adoptive daughter of High Priestess Tyrande Whisperwind."
+   "answer": "Shandris Feathermoon is the General of the Sentinels, the standing military force of the night elves. An ancient night elf, she has served as High Priestess Tyrande Whisperwind's right hand for ten thousand years and commands the Sentinels from Feathermoon Stronghold in Feralas."
   },
   {
    "q": "Where can Shandris Feathermoon be found?",
@@ -52,7 +52,7 @@
     "tyrande and shandris",
     "tyrande adopted child"
    ],
-   "answer": "Tyrande adopted Shandris during the War of the Ancients after the young girl's village of Ara-Hinam was destroyed and she lost her parents. Shandris was raised by Tyrande and Malfurion Stormrage, learning divine healing and martial leadership under their guidance."
+   "answer": "Shandris has been Tyrande Whisperwind's right hand in the Sentinels for ten thousand years. Tyrande leads the night elves from Darnassus, while Shandris commands the Sentinel army in the field from Feathermoon Stronghold."
   },
   {
    "q": "Did Shandris fight against the Burning Legion?",
@@ -60,16 +60,7 @@
     "war of the ancients shandris",
     "did shandris fight archimonde"
    ],
-   "answer": "Yes. She fought in both the ancient invasion ten thousand years ago\u2014striking the first satyr, Xavius, with her arrows\u2014and later led the Shadowleaves sentinels at the Battle of Mount Hyjal during the Third War to defend Nordrassil."
-  },
-  {
-   "q": "What role did Shandris have in the creation of the Worgen?",
-   "aliases": [
-    "shandris worgen",
-    "scythe of elune shandris",
-    "war of the satyr worgen"
-   ],
-   "answer": "During the War of the Satyr, Shandris led Sentinels into battle alongside druidic allies against the satyr leader Xalan. When druids unleashed the uncontrollable wolf pack form, she witnessed the emergence of the first worgen and helped combat them until Malfurion contained them with the Scythe of Elune."
+   "answer": "No battle of hers against the Legion is recorded in the histories told here. What is known is that she has served at Tyrande Whisperwind's side among the Sentinels for ten thousand years and now commands the Sentinel army from Feathermoon Stronghold."
   },
   {
    "q": "Why is she stationed in Feralas instead of Teldrassil?",
@@ -87,7 +78,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "Hunters and rangers revere Shandris as one of the finest marksmen in history, capable of turning the tide of ancient wars with a single well-placed feathered arrow."
+   "text": "Hunters and rangers revere Shandris as one of the finest marksmen of the Sentinels, a general who has stood watch over the night elves for ten thousand years."
   },
   {
    "target": "faction:Alliance",
@@ -111,11 +102,8 @@
  "related": [
   "subzone:feathermoon-stronghold",
   "npc:tyrande-whisperwind",
-  "npc:malfurion-stormrage",
   "zone:feralas",
   "topic:sentinels",
-  "topic:war-of-the-ancients",
-  "topic:third-war",
   "quest:1043"
  ],
  "attribution": [

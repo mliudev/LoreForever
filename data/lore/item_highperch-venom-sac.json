@@ -3,7 +3,7 @@
  "type": "item",
  "name": "Highperch Venom Sac",
  "era": "classic",
- "zone": "darkshore",
+ "zone": "thousandneedles",
  "meta": {
   "wiki": "Highperch Venom Sac",
   "quests": [
@@ -19,7 +19,7 @@
   },
   {
    "title": "A Faraway Buyer",
-   "body": "Though native to the deep canyons of central Kalimdor, this venom draws interest far across the continent. In the quiet port town of Auberdine, the night elf Fiora Longears pays handsomely for fresh sacs collected from Highperch's broods. She seeks samples swollen with venom\u2014typically found only on young wyverns or fertile females\u2014fueling trade in dangerous reagents far from the beasts' natural desert habitat.",
+   "body": "Though native to the deep canyons of central Kalimdor, this venom draws interest far beyond them. In the port town of Theramore, the high elf Fiora Longears pays handsomely for fresh sacs collected from Highperch's broods. She seeks samples swollen with venom\u2014typically found only on young wyverns or fertile females\u2014fueling trade in dangerous reagents far from the beasts' natural desert habitat.",
    "spoiler": 0
   }
  ],
@@ -34,10 +34,10 @@
    "answer": "They are collected directly from the wild wyverns inhabiting Highperch in Thousand Needles, including Highperch Wyverns, Patriarchs, Consorts, and the matriarch Heartrazor."
   },
   {
-   "q": "Why does Fiora Longears want this venom in Darkshore?",
+   "q": "Why does Fiora Longears want this venom in Theramore?",
    "aliases": [
     "why fiora want venom",
-    "auberdine venom buyer",
+    "theramore venom buyer",
     "who buys wyvern venom"
    ],
    "answer": "Fiora Longears recognizes that wyvern venom is intensely valuable in specific trading circles\u2014sometimes even more lucrative than the mounts themselves. She commissions travelers venturing to Highperch in Thousand Needles to retrieve intact sacs for trade."
@@ -70,11 +70,11 @@
   }
  ],
  "keywords": [
-  "auberdine",
   "fiora longears",
   "heartrazor",
   "highperch",
   "poison",
+  "theramore",
   "thousand needles",
   "venom sac",
   "wyvern"
@@ -84,8 +84,8 @@
   "subzone:highperch",
   "zone:thousandneedles",
   "quest:1132",
-  "subzone:auberdine",
-  "zone:darkshore"
+  "subzone:theramore-isle",
+  "zone:dustwallow"
  ],
  "attribution": [
   "Highperch Venom Sac",

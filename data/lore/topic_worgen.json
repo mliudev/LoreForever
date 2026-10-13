@@ -85,17 +85,17 @@
     "kalimdor worgen",
     "terrowulf"
    ],
-   "answer": "The night elf Sentinel Velinde Starsong used the recovered Scythe of Elune to summon worgen against demonic invaders in Felwood. The relic soon began pulling worgen into the world autonomously, allowing packs to break loose into Ashenvale."
+   "answer": "Worgen packs now prowl Ashenvale and Felwood, and the Sentinels of Darnassus are still searching for how they came to Kalimdor. Their investigation follows the trail of the vanished Sentinel Velinde Starsong and an ancient relic, the Scythe of Elune."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The worgen are a cautionary tale of savage power summoned without the wisdom to control it, and the Scythe of Elune's part in their spread troubles the Cenarion Circle."
+   "text": "The worgen are a cautionary tale of savage power summoned without the wisdom to control it, and their spread through Kalimdor's forests troubles the Cenarion Circle."
   },
   {
    "target": "race:NightElf",
-   "text": "The worgen remain a troubling mystery for the kaldorei, whose own Scythe of Elune has called the beasts forth in Kalimdor."
+   "text": "The worgen remain a troubling mystery for the kaldorei, whose Sentinels now find the beasts prowling Ashenvale and Felwood."
   },
   {
    "target": "race:Undead",

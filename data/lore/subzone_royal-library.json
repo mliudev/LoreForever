@@ -13,11 +13,6 @@
    "title": "A Repository of the Realm",
    "body": "While Stormwind Keep bristles with armored guards and courtly intrigue, its Royal Library offers an island of scholarly quiet. Overseen by Milton Sheaf, the hall serves as the premier archive of southern human history, preserving surviving texts from before the First War alongside recent military chronicles and recovered tomes. Alliance scholars, priests, and travelers are free to browse its open treatises, which cover everything from the formation of the original Alliance of Lordaeron to the recent emergence of Thrall's Horde in Kalimdor.",
    "spoiler": 0
-  },
-  {
-   "title": "Shadows Among the Shelves",
-   "body": "The library has not always remained unmolested by outside conflicts. Following the Second War, the dangerous Book of Medivh was stored within its vaults, drawing Alterac infiltrators and death knights sent by Ner'zhul in a brazen castle raid.",
-   "spoiler": 0
   }
  ],
  "faq": [
@@ -49,12 +44,12 @@
    "answer": "Visitors can read historical works covering the Alliance of Lordaeron, the Guardians of Tirisfal, the aftermath of the Second War, and reports regarding the New Horde, alongside regional histories of Stormwind and Alterac."
   },
   {
-   "q": "Why was the Book of Medivh kept here?",
+   "q": "Who may use the library?",
    "aliases": [
-    "book of medivh stormwind",
-    "medivh book stolen"
+    "can i use the library",
+    "who can read in the library"
    ],
-   "answer": "After the defeat of the Horde in the Second War, the dangerous spellbook was secured within the Royal Library for safekeeping. However, Alterac conspirators stole it, crossing paths with Teron Gorefiend's death knights who were staging an assault to claim it for Ner'zhul."
+   "answer": "Adventurers from all races of the Alliance may come to the Royal Library to peruse its extensive collection of scrolls, tomes and texts on a wide range of subjects."
   }
  ],
  "angles": [
@@ -68,7 +63,6 @@
   }
  ],
  "keywords": [
-  "book of medivh",
   "mathias shaw",
   "milton sheaf",
   "royal library",
@@ -81,7 +75,6 @@
   "npc:milton-sheaf",
   "quest:579",
   "quest:337",
-  "topic:medivh",
   "npc:mathias-shaw",
   "topic:second-war"
  ],

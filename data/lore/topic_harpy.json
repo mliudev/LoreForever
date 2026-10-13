@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Harpy"
  },
- "summary": "Harpies are predatory, avian humanoids resembling winged night elves who dwell in foul-smelling roosts across Kalimdor and the high mountain passes of Alterac. Infamous for their shrill shrieks and tempestuous elemental magic, they raid unwary travelers and blight the environments they inhabit. Though night elf folklore links them to cursed betrayers of Queen Azshara, scholars trace their lineage to the avian Wild God Aviana.",
+ "summary": "Harpies are predatory, avian humanoids resembling winged night elves who dwell in foul-smelling roosts across Kalimdor and the high mountain passes of Alterac. Infamous for their shrill shrieks and tempestuous elemental magic, they raid unwary travelers and blight the environments they inhabit. Night elf folklore links them to cursed betrayers of Queen Azshara, though their true origins remain uncertain.",
  "sections": [
   {
    "title": "Winged Scourge of Kalimdor",
@@ -16,7 +16,7 @@
   },
   {
    "title": "Avian Lineage and Dark Nature",
-   "body": "Night elf myth often claims harpies originated as treacherous handmaidens cursed by Queen Azshara before the Great Sundering. However, deeper research into antiquity indicates they are instead the wayward progeny of Aviana, the ancient avian Wild God. Following Aviana's fall during the War of the Ancients and the burning of the Mother Tree G'Hanir, many of her feathered brood succumbed to chaos and bitter isolation, abandoning their sacred stewardship of the sky. Over millennia, this despair curdled into pure spite. Today, harpies operate as ruthless matriarchies, where aspiring queens must betray, slaughter, and torment rivals to maintain command.",
+   "body": "Night elf myth often claims harpies originated as treacherous handmaidens cursed by Queen Azshara before the Great Sundering, though no one can say for certain where they truly came from. Whatever their origins, harpies today operate as ruthless matriarchies, where aspiring queens must betray, slaughter, and torment rivals to maintain command.",
    "spoiler": 0
   },
   {
@@ -42,7 +42,7 @@
     "harpy night elf connection",
     "curse of azshara"
    ],
-   "answer": "While Kalimdor folklore claims they were once night elf women cursed for betraying Queen Azshara, dwarven research and ancient lore establish that harpies are actually descended from Aviana, the ancient bird goddess who fell during the War of the Ancients."
+   "answer": "Kalimdor folklore claims they were once night elf women cursed for betraying Queen Azshara, which would explain their elven features. Whether the tale is true remains unknown."
   },
   {
    "q": "Why are harpy nests so infamous?",
@@ -84,7 +84,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Though they bear an uncanny resemblance to night elf women, harpies represent a perversion of the natural skies, despoiling sacred boughs around Teldrassil's Oracle Glade and mocking the memory of the ancient goddess Aviana."
+   "text": "Though they bear an uncanny resemblance to night elf women, harpies represent a perversion of the natural skies, despoiling sacred boughs around Teldrassil's Oracle Glade."
   },
   {
    "target": "race:Tauren",
@@ -96,11 +96,10 @@
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold particular sorrow and anger toward harpies, recognizing them as the degraded, chaotic descendants of Aviana who abandoned the sacred balance to pollute the wilderness with tempest magic."
+   "text": "Druids hold particular anger toward harpies, who scorn nature's balance and pollute the wilderness with tempest magic and foul nests."
   }
  ],
  "keywords": [
-  "aviana",
   "bloodfeather",
   "dustwind",
   "harpy",

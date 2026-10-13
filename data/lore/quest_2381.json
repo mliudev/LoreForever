@@ -80,7 +80,7 @@
     "why do plundering the plunderers",
     "rogue quest reward"
    ],
-   "answer": "Completing the heist proves a rogue's worth to the Shattered Hand network. As part of your cut, Wrenix rewards you with the secret formula for Thistle Tea, an invaluable herbal brew that rapidly restores a rogue's combat energy."
+   "answer": "Completing the heist proves a rogue's worth to the Shattered Hand network. As part of your cut, Wrenix rewards you with a supply of Thistle Tea, an invaluable herbal brew that rapidly restores a rogue's combat energy."
   },
   {
    "q": "Who is Polly?",
@@ -95,11 +95,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "This rite of passage teaches the essential art of picking locks under pressure and awards the prized recipe for Thistle Tea, making it an indispensable milestone for any operative serving the Horde."
+   "text": "This rite of passage teaches the essential art of picking locks under pressure and awards a stash of prized Thistle Tea, making it an indispensable milestone for any operative serving the Horde."
   },
   {
    "target": "profession:Cooking",
-   "text": "The mission yields the culinary recipe for Thistle Tea, allowing culinary-minded rogues to brew their own proprietary energy tonics from basic herbs and water."
+   "text": "The mission pays out in Thistle Tea, the herbal energy tonic that culinary-minded rogues prize above any ordinary drink."
   },
   {
    "target": "faction:Horde",

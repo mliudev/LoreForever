@@ -3,7 +3,7 @@
  "type": "quest",
  "name": "Highperch Venom",
  "era": "classic",
- "zone": "darkshore",
+ "zone": "dustwallow",
  "meta": {
   "ids": [
    1135
@@ -17,16 +17,16 @@
   "wiki": "Highperch Venom",
   "chain": []
  },
- "summary": "Fiora Longears in Auberdine tasks Alliance adventurers with journeying far south to the canyons of Thousand Needles. There, atop the elevated bluffs of Highperch, roost dangerous wyverns prized for their exceptionally potent venom.",
+ "summary": "Fiora Longears in Theramore tasks Alliance adventurers with journeying west to the canyons of Thousand Needles. There, atop the elevated bluffs of Highperch, roost dangerous wyverns prized for their exceptionally potent venom.",
  "sections": [
   {
    "title": "A Lucrative Expedition",
-   "body": "While resting in the seaside port of Auberdine, travelers may cross paths with Fiora Longears. While orcs commonly capture and domesticate wyverns as aerial mounts, Fiora points out a far more clandestine trade: the creature's lethal venom. Certain buyers across Kalimdor value fresh venom sacs far more than the beasts themselves, prompting Fiora to recruit hunters willing to brave long distances and precarious heights.",
+   "body": "While resting in the island port of Theramore, travelers may cross paths with Fiora Longears. While orcs commonly capture and domesticate wyverns as aerial mounts, Fiora points out a far more clandestine trade: the creature's lethal venom. Certain buyers across Kalimdor value fresh venom sacs far more than the beasts themselves, prompting Fiora to recruit hunters willing to brave long distances and precarious heights.",
    "spoiler": 0
   },
   {
    "title": "The Crags of Highperch",
-   "body": "The quarry nests far south of Darkshore, within the towering sandstone mesas of Thousand Needles. At a roost known as Highperch, the local wyverns possess an unusually concentrated toxin. Reaching their nests requires navigating hostile Horde territory and scaling treacherous terrain, where hunters must slay wyverns to extract intact venom sacs before hauling the prize back to Darkshore.",
+   "body": "The quarry nests west of Dustwallow Marsh, within the towering sandstone mesas of Thousand Needles. At a roost known as Highperch, the local wyverns possess an unusually concentrated toxin. Reaching their nests requires navigating hostile Horde territory and scaling treacherous terrain, where hunters must slay wyverns to extract intact venom sacs before hauling the prize back to Theramore.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is highperch",
     "wyvern location"
    ],
-   "answer": "The wyverns inhabit Highperch, a tall mesa nestled in the western stretches of Thousand Needles, far south of Darkshore."
+   "answer": "The wyverns inhabit Highperch, a tall mesa nestled in the western stretches of Thousand Needles, west of Theramore."
   },
   {
    "q": "Who is Fiora Longears?",
@@ -46,7 +46,7 @@
     "fiora longears",
     "who gives highperch venom"
    ],
-   "answer": "Fiora Longears is an Alliance contact stationed in Auberdine on the Darkshore coast. She recruits daring adventurers to procure rare and valuable natural reagents from across Kalimdor."
+   "answer": "Fiora Longears is an Alliance contact stationed in Theramore off the coast of Dustwallow Marsh. She recruits daring adventurers to procure rare and valuable natural reagents from across Kalimdor."
   },
   {
    "q": "Why is wyvern venom so valuable?",
@@ -57,12 +57,12 @@
    "answer": "Wyvern venom is extremely potent and prized in select underground circles, apothecaries, and trade networks. While the Horde primarily values wyverns as aerial mounts, their venom glands fetch a handsome price among alchemists and poison-makers."
   },
   {
-   "q": "Why is an Auberdine quest sending me so far south?",
+   "q": "Why is a Theramore quest sending me so far west?",
    "aliases": [
     "why thousand needles",
     "why send to thousand needles"
    ],
-   "answer": "Fiora is an enterprising dealer seeking exotic specimens that cannot be found along the calm shores of Darkshore. Highperch in Thousand Needles harbors a distinct, concentrated breed of wyvern not found in the northern forests."
+   "answer": "Fiora is an enterprising dealer seeking exotic specimens that cannot be found in the marshes around Theramore. Highperch in Thousand Needles harbors a distinct, concentrated breed of wyvern not found in Dustwallow Marsh."
   },
   {
    "q": "What happens when you return the venom sacs?",
@@ -88,7 +88,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei of Auberdine, sending hunters deep into the arid barrens of Thousand Needles highlights how far trade interests and curious reagents reach outside Ashenvale and Darkshore."
+   "text": "For the kaldorei, sending hunters deep into the arid barrens of Thousand Needles highlights how far trade interests and curious reagents reach outside Ashenvale and Darkshore."
   },
   {
    "target": "faction:Alliance",
@@ -96,11 +96,11 @@
   }
  ],
  "keywords": [
-  "auberdine",
-  "darkshore",
+  "dustwallow marsh",
   "fiora",
   "highperch",
   "longears",
+  "theramore",
   "thousand needles",
   "venom",
   "wyvern"
@@ -109,8 +109,8 @@
   "quest:1132",
   "subzone:highperch",
   "zone:thousandneedles",
-  "subzone:auberdine",
-  "zone:darkshore"
+  "subzone:theramore-isle",
+  "zone:dustwallow"
  ],
  "attribution": [
   "Highperch Venom"

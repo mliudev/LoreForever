@@ -47,16 +47,15 @@
     "what does skorn sell",
     "skorn weapons"
    ],
-   "answer": "Skorn is no merchant. His hunting days are over, but he offers one of his own weapons, Skorn's Hammer or Skorn's Rifle, to the hunter who brings him proof that the great wolf Ghost Howl has fallen."
+   "answer": "His most prized goods are his own weapons. His hunting days are over, so he offers one of his own weapons, Skorn's Hammer or Skorn's Rifle, to the hunter who brings him proof that the great wolf Ghost Howl has fallen."
   },
   {
    "q": "Is Skorn Whitecloud related to any other tauren in Mulgore?",
    "aliases": [
     "whitecloud family",
-    "skorn relatives",
-    "provisioner whitecloud"
+    "skorn relatives"
    ],
-   "answer": "He shares a surname with Provisioner Whitecloud, a tauren merchant residing at Bloodhoof Village, suggesting ties to the same extended tribal family."
+   "answer": "No relatives of Skorn are named in Mulgore. He is known simply as an old hunter of Bloodhoof Village whose hunting days are behind him."
   }
  ],
  "angles": [
@@ -66,7 +65,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "Skorn exemplifies the Whitecloud family's dedication to providing shelter, weaponry, and practical wisdom across the scattered settlements of Mulgore."
+   "text": "Skorn exemplifies the tauren elders who pass the honor of the hunt, and the practical wisdom of a long life on the plains, to the young of Mulgore."
   }
  ],
  "keywords": [

@@ -50,7 +50,7 @@
     "quests at eastmoon ruins",
     "is there a quest here"
    ],
-   "answer": "There are no formal quests directed specifically to the Eastmoon Ruins. The site serves primarily as a bandit camp and a historical landmark for adventurers exploring the deeper desert."
+   "answer": "There are no formal quests directed specifically to the Eastmoon Ruins. The site serves primarily as a Dunemaul ogre camp and a historical landmark for adventurers exploring the deeper desert."
   }
  ],
  "angles": [
@@ -64,14 +64,12 @@
   }
  ],
  "keywords": [
-  "darkcaster",
+  "dunemaul",
   "eastmoon",
   "eastmoon ruins",
   "gaping chasm",
-  "survivalist",
   "tanaris",
-  "troll ruins",
-  "wastewander"
+  "troll ruins"
  ],
  "related": [
   "zone:tanaris",

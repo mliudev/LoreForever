@@ -47,15 +47,6 @@
     "blacksmithing orgrimmar"
    ],
    "answer": "The valley is home to trainers and supply vendors for blacksmithing, mining, and fishing, along with goblin engineering specialists operating out of Nogg's Machine Shop."
-  },
-  {
-   "q": "What is The Wyvern's Tail?",
-   "aliases": [
-    "wyverns tail",
-    "inn in valley of honor",
-    "valley of honor tavern"
-   ],
-   "answer": "The Wyvern's Tail is the local tavern and inn situated along the edge of the valley, providing food, drink, and rest for weary warriors, hunters, and travelers."
   }
  ],
  "angles": [
@@ -75,13 +66,11 @@
   "hall of the brave",
   "nogg",
   "orgrimmar",
-  "the wyvern's tail",
   "valley of honor"
  ],
  "related": [
   "zone:orgrimmar",
   "subzone:hall-of-the-brave",
-  "subzone:wyvern-s-tail",
   "npc:nogg",
   "topic:horde"
  ],

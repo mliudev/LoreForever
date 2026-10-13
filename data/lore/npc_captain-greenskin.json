@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Master of the Juggernaut",
-   "body": "Pacing the main deck of the gigantic juggernaut under construction in the Deadmines cove, Captain Greenskin represents the naval backbone of the Defias conspiracy. A seasoned goblin mariner who previously operated out of Booty Bay, Greenskin was brought into Edwin VanCleef's inner circle to turn an underground cavern into a drydock for an engine of war.",
+   "body": "Pacing the main deck of the gigantic juggernaut under construction in the Deadmines cove, Captain Greenskin represents the naval backbone of the Defias conspiracy. A seasoned goblin mariner, Greenskin was brought into Edwin VanCleef's inner circle to turn an underground cavern into a drydock for an engine of war.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "where is greenskin from",
     "greenskin booty bay"
    ],
-   "answer": "Greenskin originally hails from Booty Bay in the southern reaches of Stranglethorn Vale, where he formerly commanded a fleet of pirate vessels before entering VanCleef's pay."
+   "answer": "No record tells where Greenskin sailed before he entered VanCleef's pay. He is known only as the goblin pirate captain who commands the Defias juggernaut and its crew in the Deadmines."
   },
   {
    "q": "Who serves under Captain Greenskin?",
@@ -85,7 +85,6 @@
   }
  ],
  "keywords": [
-  "booty bay",
   "captain greenskin",
   "deadmines",
   "goblin pirate",
@@ -99,7 +98,6 @@
   "npc:mr-smite",
   "npc:cookie",
   "zone:deadmines",
-  "subzone:booty-bay",
   "topic:pirate",
   "topic:goblin",
   "topic:alliance"

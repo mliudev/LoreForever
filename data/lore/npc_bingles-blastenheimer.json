@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Rough Landing",
-   "body": "Like many ambitious gnomish engineers, Bingles Blastenheimer took to the skies in a customized flying craft, only to discover that coming down safely is far more difficult than lifting off. After his gyrocopter malfunctioned and crashed into the southeastern shores of the Loch, Bingles survived the impact intact, but his machine shattered into scattered parts. Stranded far from Ironforge, he remains huddled near the wreckage, guarded against hungry crocolisks and hostile troggs while pleading with passing travelers to retrieve his scattered tools so he can piece his invention back together.",
+   "body": "Like many ambitious gnomish engineers, Bingles Blastenheimer took to the skies in a customized flying craft, only to discover that coming down safely is far more difficult than lifting off. After his gyrocopter malfunctioned and crashed into the southeastern shores of the Loch, Bingles survived the impact intact, but his machine shattered into scattered parts. Stranded far from Ironforge, he remains huddled near the wreckage, guarded against hungry crocolisks and hostile troggs while pleading with passing travelers to recover the tools and Blastencapper explosives that troggs from a nearby island stole from him.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "bingles gyrocopter",
     "what happened to bingles plane"
    ],
-   "answer": "Bingles crashed his gyrocopter on the shoreline. The impact shattered the craft and scattered his essential tools, spare parts, and engine components into the surrounding wilderness and water."
+   "answer": "Bingles crashed his gyrocopter into the Loch. Troggs from a nearby island then attacked him and stole his tools and his special Blastencapper explosives."
   },
   {
    "q": "Why hasn't Bingles returned to town?",
@@ -41,7 +41,7 @@
     "why is bingles stranded",
     "why stay by the lake"
    ],
-   "answer": "Bingles is isolated and besieged by the dangerous predators and troggs infesting the lakeside. Without his lost tools and gear, he refuses to abandon the wreckage of his life's mechanical work."
+   "answer": "Bingles is stranded without his gyrocopter, and troggs from a nearby island have stolen his tools and his Blastencapper explosives. He wants them back for the movement to retake Gnomeregan, and he waits by the wreck for someone to recover them."
   },
   {
    "q": "Where does Bingles end up after his craft is fixed?",
@@ -59,13 +59,12 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "Any tinkerer will recognize the plight of losing irreplaceable custom spanners and gadgets to the local wildlife after an ambitious test flight goes wrong."
+   "text": "Any tinkerer will recognize the plight of losing irreplaceable custom spanners and gadgets to thieving troggs after an ambitious flight goes wrong."
   }
  ],
  "keywords": [
   "bingles",
   "blastenheimer",
-  "farstrider lodge",
   "gnome",
   "gyrocopter",
   "loch modan",
@@ -76,7 +75,6 @@
   "quest:2039",
   "subzone:the-loch",
   "zone:lochmodan",
-  "subzone:farstrider-lodge",
   "topic:gnome"
  ],
  "attribution": [

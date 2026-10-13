@@ -27,12 +27,12 @@
  "sections": [
   {
    "title": "Securing the Depths",
-   "body": "While unraveling the dark enchantments Archmage Arugal unleashed upon the forest, Dalar Dawnweaver receives urgent intelligence from the Forsaken Darkstalkers. The feral sorcery spreading from Shadowfang Keep has reached the Deep Elem Mine in the southeastern hills, turning the miners into savage wretches. The mine holds crucial ore needed to fuel Undercity's militarization, but its current occupants render it completely unusable.",
+   "body": "While unraveling the dark enchantments Archmage Arugal unleashed upon the forest, Dalar Dawnweaver receives urgent intelligence from the Forsaken Darkstalkers. The feral sorcery spreading from Shadowfang Keep has reached the Deep Elem Mine in the southeastern hills, where worgen now make their lair. The mine holds crucial ore needed to fuel Undercity's militarization, but its current occupants render it completely unusable.",
    "spoiler": 0
   },
   {
    "title": "The Severed Head",
-   "body": "At the heart of the infested shafts lurks Grimson the Pale, the tainted foreman who directs the mad remnant within the subterranean tunnels. Dawnweaver orders an immediate decapitation strike: with Grimson slain and his head returned to the Sepulcher, the scattered mine workers will lose their coordination, allowing Forsaken laborers to claim the excavation for Lord Varimathras.",
+   "body": "At the heart of the infested shafts lurks Grimson the Pale, the tainted foreman who directs the mad remnant within the subterranean tunnels. Dawnweaver orders an immediate decapitation strike: with Grimson slain and his head returned to the Sepulcher, the worgen in the shafts will lose their leader, allowing Forsaken laborers to claim the excavation for Lord Varimathras.",
    "spoiler": 0
   }
  ],
@@ -53,7 +53,7 @@
     "where is deep elem",
     "where to find grimson"
    ],
-   "answer": "Deep Elem Mine lies in the craggy hills southeast of the Sepulcher in Silverpine Forest. Its tunnels cut deep into the hillside, teeming with cursed miners and ferals."
+   "answer": "Deep Elem Mine lies in the craggy hills southeast of the Sepulcher in Silverpine Forest. Its tunnels cut deep into the hillside, teeming with worgen."
   },
   {
    "q": "Why does Varimathras care about a mining operation?",
@@ -79,7 +79,7 @@
     "what corrupted deep elem",
     "mine curse"
    ],
-   "answer": "Archmage Arugal unleashed wild otherworldly magic and worgen curses across Silverpine. That tainted energy drifted into the subterranean workers of Deep Elem, driving them mad and mutating their minds."
+   "answer": "Archmage Arugal unleashed wild otherworldly magic and worgen curses across Silverpine. That magic spread into Deep Elem Mine, tainting its foreman, Grimson the Pale, and leaving the shafts overrun by worgen."
   },
   {
    "q": "Who are the Darkstalkers mentioned by Dalar Dawnweaver?",

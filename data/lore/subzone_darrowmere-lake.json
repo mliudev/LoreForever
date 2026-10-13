@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Storied Inland Sea",
-   "body": "Darrowmere Lake is among the largest inland bodies of water in the Eastern Kingdoms, bordered by the blight-stricken forests of Lordaeron and fed by the Thondroril and Darrowmere rivers. During the Second War, these deep waters saw intense naval skirmishes between the Horde and Grand Admiral Daelin Proudmoore's fleet. Proudmoore's transports ferried Alliance leaders Turalyon and Alleria Windrunner through the lake to relieve Stratholme, and it was along these shores that the forest troll warlord Zul'jin was captured. Once a thriving waterway and trade artery for the House of Barov, the lake is now a grim, mist-veiled basin in the heart of the Plaguelands.",
+   "body": "Darrowmere Lake is among the largest inland bodies of water in the Eastern Kingdoms, bordered by the blight-stricken forests of Lordaeron and fed by the Thondroril and Darrowmere rivers. During the Second War, these deep waters saw intense naval skirmishes between the Horde and Grand Admiral Daelin Proudmoore's fleet. The Horde also struck the island fortress of Caer Darrow at the lake's heart, sacking it and carrying off its ancient runestone. Once a thriving waterway and trade artery for the House of Barov, the lake is now a grim, mist-veiled basin in the heart of the Plaguelands.",
    "spoiler": 0
   },
   {
@@ -46,7 +46,7 @@
     "naval battles darrowmere",
     "darrowmere history"
    ],
-   "answer": "The lake was a contested waterway where the Proudmoore fleet fought naval battles against the Horde. Transports used the lake to ferry Turalyon and Alleria's forces toward Stratholme, and the troll warlord Zul'jin was captured near its shores."
+   "answer": "The lake was a contested waterway where the Proudmoore fleet fought naval battles against the Horde. The Horde also raided Caer Darrow on the lake's central island, sacking the fortress and seizing its ancient runestone."
   },
   {
    "q": "Can ships still sail into Darrowmere Lake?",
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance veterans, Darrowmere Lake is remembered as a key naval front where Proudmoore's fleet fought to halt the Old Horde and relieve Stratholme during the Second War."
+   "text": "For Alliance veterans, Darrowmere Lake is remembered as a key naval front where Proudmoore's fleet fought the Old Horde during the Second War."
   },
   {
    "target": "race:Undead",

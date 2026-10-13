@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "Proof of Treason's End",
-   "body": "When riots erupted throughout the Stockade beneath Stormwind City, Bazil Thredd quickly established himself as the rebellion's mastermind. Entrenched in his cell block alongside his ogre enforcer Hamhock, Thredd directed the chaos from deep within the dungeon walls. Distrustful of outsiders and struggling to maintain order, Warden Thelwater demanded Thredd's head as unambiguous evidence of his demise and as a test of the adventurer's true allegiance to Stormwind.",
+   "body": "When riots erupted throughout the Stockade beneath Stormwind City, Bazil Thredd quickly established himself as the rebellion's mastermind. Entrenched in his cell block among loyal Defias inmates, Thredd directed the chaos from deep within the dungeon walls. Distrustful of outsiders and struggling to maintain order, Warden Thelwater demanded Thredd's head as unambiguous evidence of his demise and as a test of the adventurer's true allegiance to Stormwind.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "thredd location",
     "how to find bazil thredd"
    ],
-   "answer": "Bazil Thredd is located in the eastern wing of the Stockade instance. He is locked down at the far end of the block in a central cell, guarded by an ogre named Hamhock."
+   "answer": "Bazil Thredd is located in the eastern wing of the Stockade instance. He is locked down at the far end of the block in a central cell, guarded by Defias inmates loyal to him."
   }
  ],
  "angles": [
@@ -56,7 +56,6 @@
  "keywords": [
   "bazil thredd",
   "defias",
-  "hamhock",
   "head of bazil thredd",
   "stockade",
   "the stockade riots",
@@ -66,7 +65,6 @@
   "quest:391",
   "zone:stockade",
   "npc:warden-thelwater",
-  "npc:hamhock",
   "quest:389"
  ],
  "attribution": [

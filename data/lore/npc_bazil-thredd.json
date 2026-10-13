@@ -8,11 +8,11 @@
   "wiki": "Bazil Thredd",
   "refs": 5
  },
- "summary": "Bazil Thredd is Edwin VanCleef's lieutenant and most trusted assistant, locked in the Stormwind Stockade since the Stonemasons' riots that killed Queen Tiffin. Now the prison has risen in revolt, and Thredd leads the rioting Defias inmates from its eastern cell block.",
+ "summary": "Bazil Thredd is Edwin VanCleef's lieutenant and most trusted assistant, locked in the Stormwind Stockade since the Stonemasons' riots. Now the prison has risen in revolt, and Thredd leads the rioting Defias inmates from its eastern cell block.",
  "sections": [
   {
    "title": "VanCleef's Lieutenant",
-   "body": "When the Stonemasons Guild was refused payment by the nobility of Stormwind for rebuilding the city, Edwin VanCleef rejected government appeasements and sparked open revolt. Bazil Thredd stood at VanCleef's side as his chief lieutenant and most trusted assistant. During the violent clashes that followed—which resulted in the death of Queen Tiffin Wrynn—Thredd was captured by the city guard. While VanCleef and the surviving masons fled into Westfall to form the Defias Brotherhood, Thredd was cast into the depths of the Stormwind Stockade.",
+   "body": "When the Stonemasons Guild was refused payment by the nobility of Stormwind for rebuilding the city, Edwin VanCleef rejected government appeasements and sparked open revolt. Bazil Thredd stood at VanCleef's side as his chief lieutenant and most trusted assistant. During the violent clashes that followed, Thredd was captured by the city guard. While VanCleef and the surviving masons fled into Westfall to form the Defias Brotherhood, Thredd was cast into the depths of the Stormwind Stockade.",
    "spoiler": 0
   },
   {
@@ -22,7 +22,7 @@
   },
   {
    "title": "The Curious Visitor",
-   "body": "Warden Thelwater long believed the Brotherhood had abandoned Thredd to rot. However, a few months prior to the uprising, an enigmatic man presenting papers under the name Maelik began visiting Thredd once or twice a week. Despite Thelwater's suspicions, the visitor's documentation proved entirely legitimate. These secretive meetings ended just as the prison erupted into coordinated violence, suggesting that outside hands within the city actively organized the riot.",
+   "body": "Warden Thelwater long believed the Brotherhood had abandoned Thredd to rot. However, a few months prior to the uprising, an enigmatic man presenting papers under the name Maelik began visiting Thredd once or twice a week. Despite Thelwater's suspicions, the visitor's documentation proved entirely legitimate. With Thredd dead, Thelwater doubts the man will visit again, but his description is worth passing on: anyone with papers that good is well connected, and the visits hint that outside hands within the city had reached the Defias lieutenant.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is thredd",
     "stockade boss thredd"
    ],
-   "answer": "Bazil Thredd was the right hand of Edwin VanCleef during the Stonemasons' rebellion in Stormwind. Following his capture during the riots that killed Queen Tiffin, he was imprisoned in the Stockade, where he now leads the mutinous inmates."
+   "answer": "Bazil Thredd was the right hand of Edwin VanCleef during the Stonemasons' rebellion in Stormwind. Following his capture during the riots, he was imprisoned in the Stockade, where he now leads the mutinous inmates."
   },
   {
    "q": "Where can Bazil Thredd be found?",
@@ -89,7 +89,7 @@
   },
   {
    "target": "race:Human",
-   "text": "Thredd is a living reminder of the Stonemasons' riots that claimed Queen Tiffin and set the Defias Brotherhood against the kingdom."
+   "text": "Thredd is a living reminder of the Stonemasons' riots that set the Defias Brotherhood against the kingdom."
   }
  ],
  "keywords": [
@@ -103,7 +103,6 @@
   "stonemasons",
   "stormwind stockade",
   "thredd",
-  "tiffin wrynn",
   "warden thelwater"
  ],
  "related": [

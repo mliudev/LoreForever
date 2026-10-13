@@ -12,6 +12,10 @@
 --                                          quest list show when the client names them in another language (Lang.Shown)
 --   P.stop = "der die das ..."             extra stop words for questions typed in the language
 --   P.search = {...}, P.dataVersion        search index prebuilt over the merged text, and the ns.DB.version it's for
+--                                          (a frozen pack's index carries its own: P.search.dataVersion)
+--   P.frozen = true                        a community pack (UALL's Ukrainian, ruRU, itIT, esMX): its translations
+--                                          stay when our English moves on (Lang.MergeEntries); it changes only when
+--                                          the community sends edits
 -- A translator's test pack (kind lang-overlay, LoreForever_LangTest_<locale>, made by the site from their own saved
 -- edits) loads after the language pack, or alone, when the player reads its locale. It overrides string by string:
 --   P.ui[english] = translation
@@ -251,8 +255,38 @@ local function mergeFx(e, fx)
   end
 end
 
+-- A frozen community language pack (P.frozen: UALL's Ukrainian, ruRU, itIT, esMX; Mike, 2026-10-12: "freeze it")
+-- is the community's text as they last sent it, and it changes only when they send edits. Where our English has moved
+-- on since a translation was made (its fp no longer matches), the translation stays rather than falling back to
+-- English. Spoiler safety needs the shape it was translated under: fp lists the name and summary lengths, then
+-- "title.body.flag" per section, then "question.answer.flag" per own FAQ, and the translation's own section and FAQ
+-- counts tell the two lists apart. Returns {section flags}, {FAQ flags}, or nil when the shape can't be read.
+local function translatedFlags(fp, t)
+  if type(fp) ~= "string" then return nil end
+  local items = {}
+  for part in fp:gmatch("[^,]+") do items[#items + 1] = part end
+  local rest = #items - 2
+  local nsec = type(t.sec) == "table" and #t.sec or nil
+  local nfaq = type(t.faq) == "table" and #t.faq or nil
+  if rest < 0 then return nil end
+  if not nsec and not nfaq then return {}, {} end
+  nsec = nsec or (rest - nfaq)
+  nfaq = nfaq or (rest - nsec)
+  if nsec < 0 or nfaq < 0 or nsec + nfaq ~= rest then return nil end
+  local sec, faq = {}, {}
+  for i = 1, rest do
+    local flag = tonumber(items[i + 2]:match("^%d+%.%d+%.(%d+)$") or "")
+    if not flag then return nil end
+    if i <= nsec then sec[i] = flag else faq[i - nsec] = flag end
+  end
+  return sec, faq
+end
+
 -- Translated text over the English entries, field by field; spoiler flags, links and metadata stay English. Returns
--- how many entries were skipped because the English changed since the translation.
+-- how many entries were skipped because the English changed since the translation. A frozen pack (w.frozen) skips
+-- none: a translation whose English moved on keeps its name, summary, keywords and angles, and each section or own
+-- FAQ, by position, where our flag there is at least the one it was translated under (so text translated from a
+-- spoiler never shows outside one; anything else there stays English).
 function Lang.MergeEntries(db, w, merged)
   -- The word-piece vectors that re-rank answers by meaning (Engine:VecOf) are English; over translated text they
   -- mislead ("Was ist die Bruderschaft der Defias?" went to a quest), so a merged pack switches them off.
@@ -262,12 +296,15 @@ function Lang.MergeEntries(db, w, merged)
   for key, t in pairs(w.entries or {}) do
     local e = db.entries[key]
     if e and t.fx then mergeFx(e, t.fx) end   -- by id, whatever else changed
+    local current = e and t.fp ~= nil and t.fp == Lang.Fingerprint(e)
+    local secFlags, faqFlags
+    if e and not current and w.frozen and t.fp ~= nil then secFlags, faqFlags = translatedFlags(t.fp, t) end
     if not e or (t.fp == nil and t.fx) then
       -- gone, or only appended FAQs: the rest of the entry's translation is out of date
-    elseif t.fp ~= Lang.Fingerprint(e) then
+    elseif not current and not w.frozen then
       skipped = skipped + 1
     else
-      merged[key] = true
+      if current then merged[key] = true end   -- (complete-story recordings need the current translation)
       local oldName = e.n
       e.n, e.s, e.h = t.n or e.n, t.s or e.s, t.h or e.h
       if e.n ~= oldName then e.en = e.en or oldName end   -- the English name, so a list search finds either
@@ -286,19 +323,29 @@ function Lang.MergeEntries(db, w, merged)
           if e.ang[target] then e.ang[target] = text end
         end
       end
-      if t.sec and e.sec and #t.sec == #e.sec then
+      if current and t.sec and e.sec and #t.sec == #e.sec then
         for i, s in ipairs(t.sec) do
           e.sec[i].t, e.sec[i].b = s.t or e.sec[i].t, s.b or e.sec[i].b
         end
+      elseif secFlags and t.sec and e.sec then   -- frozen, our English moved on: where it's safe, by position
+        for i, s in ipairs(t.sec) do
+          local cur = e.sec[i]
+          if cur and (cur.sp or 0) >= (secFlags[i] or 0) then cur.t, cur.b = s.t or cur.t, s.b or cur.b end
+        end
       end
-      local own = 0
+      local own, owned = 0, {}
       for _, f in ipairs(e.faq or {}) do
-        if not f.add then own = own + 1 end
+        if not f.add then own = own + 1; owned[own] = f end
       end
-      if t.faq and e.faq and #t.faq == own then
+      if current and t.faq and e.faq and #t.faq == own then
         for i, f in ipairs(t.faq) do
           local o = e.faq[i]
           o.q, o.a, o.al = f.q or o.q, f.a or o.a, f.al or o.al
+        end
+      elseif faqFlags and t.faq then
+        for i, f in ipairs(t.faq) do
+          local o = owned[i]
+          if o and (o.sp or 0) >= (faqFlags[i] or 0) then o.q, o.a, o.al = f.q or o.q, f.a or o.a, f.al or o.al end
         end
       end
       -- The translated name finds the entry in answer text too (Engine:Mentions), without taking over a name the
@@ -488,7 +535,9 @@ local function init(lang)
     local skipped = Lang.MergeEntries(db, tw, merged)
     if ns.debug and skipped > 0 then note("%d translated entries skipped: the English changed since", skipped) end
     if tw.stop and ns.Engine then ns.Engine.AddStopWords(tw.stop) end
-    local built = tw.dataVersion or trec.dataVersion
+    -- A frozen pack's search index says itself which data it was built over (refreshed with our data while the
+    -- community's text in the pack stays as it is); other packs say it once, for the whole pack.
+    local built = (type(tw.search) == "table" and tw.search.dataVersion) or tw.dataVersion or trec.dataVersion
     if tw.search and built == db.version then
       db.search = tw.search
     else
@@ -574,58 +623,17 @@ end
 local function text(s) return type(s) == "string" and s:find("%S") ~= nil end
 local function hash(s) return type(s) == "string" and #s == 6 and s:match("^%x+$") ~= nil end
 
-local function exact(a, b, depth)
-  if type(a) ~= type(b) then return false end
-  if type(a) ~= "table" then return a == b end
-  if depth > 16 then return false end
-  for k, v in pairs(a) do if not exact(v, b[k], depth + 1) then return false end end
-  for k in pairs(b) do if a[k] == nil then return false end end
-  return true
-end
-
--- Same text shape as pipeline.lore.i18n.english_text; guards are checked independently of byte lengths.
--- This receipt is compatibility proof only. None of its English prose is copied into the edition DB.
-function Lang.EditionSourceMatches(e, source)
-  if type(source) ~= "table" or type(source.text) ~= "table" or type(source.sp) ~= "table" then return false end
-  local supplied = source.text
-  local receipt = { n = supplied.n, s = supplied.s, sec = supplied.sec or {}, faq = {},
-    kw = supplied.kw or {}, ang = supplied.ang or {} }
-  if supplied.faq ~= nil and type(supplied.faq) ~= "table" then return false end
-  for i, f in ipairs(supplied.faq or {}) do
-    if type(f) ~= "table" then return false end
-    receipt.faq[i] = { q = f.q, a = f.a, al = f.al or {} }
-  end
-  local wanted = { n = e.n, s = e.s, sec = {}, faq = {}, kw = e.kw or {}, ang = e.ang or {} }
-  local guards = { sec = {}, faq = {} }
-  for i, s in ipairs(e.sec or {}) do
-    wanted.sec[i], guards.sec[i] = { t = s.t, b = s.b }, s.sp or 0
-  end
-  for _, f in ipairs(e.faq or {}) do
-    if not f.add then
-      wanted.faq[#wanted.faq + 1] = { q = f.q, a = f.a, al = f.al or {} }
-      guards.faq[#guards.faq + 1] = f.sp or 0
-    end
-  end
-  if not exact(wanted, receipt, 0) then return false end
-  for field, expected in pairs(guards) do
-    local provided = source.sp[field] or {}
-    if type(provided) ~= "table" then return false end
-    for i, flag in ipairs(expected) do if (provided[i] or 0) ~= flag then return false end end
-    for i in pairs(provided) do
-      if type(i) ~= "number" or i % 1 ~= 0 or i < 1 or i > #expected then return false end
-    end
-  end
-  return true
-end
-
+-- A contributor edition is the contributor's text and voice together (Mike, 10/12: our text changing must never
+-- hide it). Each entry shows the edition's own words, whatever our English says now; the English entry is needed
+-- only for where it belongs (type, zone, links). An entry gone from our data has nowhere to show, so it stays out.
+-- Spoiler guards only ever add up: an answer keeps its recorded guard, and ours where that answer's place has one.
 function Lang.ApplyEdition(db, pair)
   local original, index, oldZones = db.entries, db.index, db.zones or {}
   emptyEdition(db)
   db.fullclipsLocale = pair.locale
   for key, t in pairs(pair.text.entries) do
     local old = original[key]
-    if type(t) == "table" and old and t.fp == Lang.Fingerprint(old)
-        and Lang.EditionSourceMatches(old, t.source) and text(t.s) then
+    if type(t) == "table" and old and text(t.s) then
       -- Only supplied prose belongs to this edition. Metadata is copied separately, never stock prose/FAQ aliases.
       local e = { n = text(t.n) and t.n or L["Story"], s = t.s, sec = {}, faq = {},
         t = old.t, z = old.z, m = old.m, fv = old.fv, src = old.src, rel = {} }
@@ -633,9 +641,9 @@ function Lang.ApplyEdition(db, pair)
       for _, f in ipairs(type(t.faq) == "table" and t.faq or {}) do
         local i = type(f) == "table" and tonumber(f.i)
         local source = i and old.faq and old.faq[i]
-        if i and i % 1 == 0 and source and not seen[i] and text(f.a) and f.answerOnly == true then
+        if i and i % 1 == 0 and i >= 1 and not seen[i] and text(f.a) and f.answerOnly == true then
           seen[i] = true
-          local guard = math.max(tonumber(f.sp) or 0, tonumber(source.sp) or 0)
+          local guard = math.max(tonumber(f.sp) or 0, tonumber(source and source.sp) or 0)
           e.faq[#e.faq + 1] = { q = string.format(L["Answer %d"], i), a = f.a, h = f.h, i = i,
             answerOnly = true, sp = guard > 0 and guard or nil }
           local all = pair.text.answerHash[key]

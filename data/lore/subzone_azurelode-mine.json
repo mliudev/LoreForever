@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Veins of the Foothills",
-   "body": "Situated southwest of the open farmland and just west of Southshore, Azurelode Mine has long tapped into the mineral-rich ridges along the coast. Before the Greymane Wall was sealed, these hills were considered part of Gilnean territory. Today, human miners labor deep underground under the watchful eye of Foreman Bonds, extracting iron to forge arms and armor for the Alliance defenders holding the region against the Undercity.",
+   "body": "Situated southwest of the open farmland and just west of Southshore, Azurelode Mine has long tapped into the mineral-rich ridges along the coast. Today, human miners labor deep underground under the watchful eye of Foreman Bonds, extracting iron to forge arms and armor for the Alliance defenders holding the region against the Undercity.",
    "spoiler": 0
   },
   {
@@ -46,7 +46,7 @@
     "was azurelode gilneas",
     "gilneas mine"
    ],
-   "answer": "Historically, the rugged ridge holding Azurelode Mine fell within the outer borders of Gilneas before King Genn Greymane erected the Greymane Wall, walling his kingdom off from the rest of Lordaeron."
+   "answer": "The accounts of this era don't say who held these hills before Hillsbrad. Today the mine is worked by miners from the Hillsbrad Fields under Foreman Bonds."
   },
   {
    "q": "What metals are mined here?",
@@ -80,7 +80,6 @@
   "quest:527",
   "subzone:southshore",
   "subzone:hillsbrad-fields",
-  "subzone:greymane-wall",
   "topic:forsaken",
   "topic:alliance"
  ],

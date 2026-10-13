@@ -8,7 +8,7 @@
   "wiki": "Volcor",
   "refs": 3
  },
- "summary": "Volcor is an injured night elf scout stranded deep within Blackwood Den in northern Darkshore. Trapped by hostile Blackwood furbolgs, he relies on his faithful companion Grimclaw and the aid of Auberdine's defenders to escape.",
+ "summary": "Volcor is an injured night elf scout stranded deep within Blackwood Den in southern Darkshore. Trapped by hostile Blackwood furbolgs, he relies on his faithful companion Grimclaw and the aid of Auberdine's defenders to escape.",
  "sections": [
   {
    "title": "Trapped in the Den",
@@ -29,7 +29,7 @@
     "where is volcor",
     "find volcor"
    ],
-   "answer": "Volcor is hidden deep inside Blackwood Den, a furbolg cave located in northern Darkshore, just east of the main road heading north from Auberdine."
+   "answer": "Volcor is hidden deep inside Blackwood Den, a furbolg cave in the far south of Darkshore near the Ashenvale border, not far off the road heading south from Auberdine."
   },
   {
    "q": "Why is Volcor trapped in Blackwood Den?",
@@ -71,7 +71,7 @@
     "which furbolgs",
     "blackwood furbolgs"
    ],
-   "answer": "The Blackwood tribe, a corrupted group of furbolgs native to northern Darkshore that has succumbed to madness and hostility."
+   "answer": "The Blackwood tribe, a corrupted group of furbolgs native to Darkshore that has succumbed to madness and hostility."
   }
  ],
  "angles": [

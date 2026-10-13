@@ -17,16 +17,16 @@
   "wiki": "Devouring Plague (Orgrimmar)",
   "chain": []
  },
- "summary": "Devouring Plague is a rite-of-passage quest for Forsaken priests who have ventured to Kalimdor to learn from the Darkspear tribe. The troll priest trainer Ur'kyo in Orgrimmar directs promising Forsaken initiates to return home to Undercity, where Aelthalyste waits to impart deeper teachings of the Cult of Forgotten Shadow.",
+ "summary": "Devouring Plague is a rite-of-passage quest for Forsaken priests who have ventured to Kalimdor to learn from the Darkspear tribe. The troll priest trainer Ur'kyo in Orgrimmar directs promising Forsaken initiates to return home to Undercity, where Aelthalyste waits to impart deeper teachings of shadow.",
  "sections": [
   {
-   "title": "A Exchange of Faiths",
+   "title": "An Exchange of Faiths",
    "body": "While the orcs and tauren have little inclination toward priestly worship, the Darkspear trolls and the Forsaken share a curious theological bond within the Horde. In Orgrimmar, the troll priest trainer Ur'kyo guides those drawn to spiritual power. Yet he recognizes that Forsaken initiates must ultimately master the sinister arts unique to their own condition. In a mutual show of respect between their peoples, Ur'kyo directs wandering Forsaken back to Lordaeron to complete their training.",
    "spoiler": 0
   },
   {
    "title": "The War Quarter of Undercity",
-   "body": "Beneath the ruins of Lordaeron, Priestess Aelthalyste tends to the flock in the Undercity's War Quarter. Forsaken priests walk a solitary, grueling path shaped by the Cult of Forgotten Shadow, tempering the painful touch of the Holy Light with the devastating affliction of Shadow magic. When an initiate attains sufficient prowess, Aelthalyste gathers them close to bestow the affliction known to their kind as the Devouring Plague.",
+   "body": "Beneath the ruins of Lordaeron, Priestess Aelthalyste tends to the flock in the Undercity's War Quarter. Forsaken priests walk a solitary, grueling path shaped by their turn toward shadow, tempering the painful touch of the Holy Light with the devastating affliction of Shadow magic. When an initiate attains sufficient prowess, Aelthalyste gathers them close to bestow the affliction known to their kind as the Devouring Plague.",
    "spoiler": 0
   }
  ],
@@ -63,7 +63,7 @@
     "what is devouring plague lore",
     "forsaken priest plague"
    ],
-   "answer": "Devouring Plague is a potent affliction unique to Forsaken practitioners of the Shadow. It inflicts devastating disease upon targets while siphoning their life force directly back to the caster."
+   "answer": "Devouring Plague is a potent affliction of the Shadow, and every priest learns it at level 20. It inflicts devastating disease upon targets while siphoning their life force directly back to the caster."
   },
   {
    "q": "Can other Horde races accept this quest?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Forsaken priests draw upon unique racial doctrines of shadow and decay, learning to channel their physical torment into devastating curses like the Devouring Plague."
+   "text": "Forsaken priests draw upon unique racial doctrines of shadow and decay, learning to channel their physical torment into dark rites like Touch of Weakness and Dark Sacrifice."
   },
   {
    "target": "race:Undead",

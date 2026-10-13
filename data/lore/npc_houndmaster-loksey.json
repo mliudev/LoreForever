@@ -8,11 +8,11 @@
   "wiki": "Houndmaster Loksey",
   "refs": 5
  },
- "summary": "Houndmaster Loksey is the officer charged with breeding and training the fearsome war dogs of the Scarlet Crusade. Stationed in the kennels within the Scarlet Monastery's Armory, he directs packs of hounds to hunt down undead, intruders, and perceived heretics. His merciless discipline has made the Monastery's beasts infamous throughout Tirisfal Glades.",
+ "summary": "Houndmaster Loksey is the officer charged with breeding and training the fearsome war dogs of the Scarlet Crusade. Stationed in the Scarlet Monastery's Library wing, he directs packs of hounds to hunt down undead, intruders, and perceived heretics. His merciless discipline has made the Monastery's beasts infamous throughout Tirisfal Glades.",
  "sections": [
   {
    "title": "Master of the Kennels",
-   "body": "Within the heavily fortified walls of the Scarlet Monastery, Houndmaster Loksey commands the training of vicious tracking and attack dogs. The Scarlet Crusade relies on these trained hounds to sniff out plague-tainted corpses, uncover hidden infiltrators, and run down any survivors fleeing the zealots' wrath. Loksey holds absolute authority over the Armory's kennel wing, ensuring his charges are primed to tear intruders apart limb by limb.",
+   "body": "Within the heavily fortified walls of the Scarlet Monastery, Houndmaster Loksey commands the training of vicious tracking and attack dogs. The Scarlet Crusade relies on these trained hounds to sniff out plague-tainted corpses, uncover hidden infiltrators, and run down any survivors fleeing the zealots' wrath. Loksey holds absolute authority over the hounds guarding the Library wing, ensuring his charges are primed to tear intruders apart limb by limb.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "where is loksey",
     "houndmaster loksey location"
    ],
-   "answer": "Houndmaster Loksey is located inside the Armory wing of the Scarlet Monastery in northeastern Tirisfal Glades, surrounded by his attack dogs within the kennels."
+   "answer": "Houndmaster Loksey is located inside the Library wing of the Scarlet Monastery in northeastern Tirisfal Glades, surrounded by his attack dogs."
   },
   {
    "q": "What role does Loksey serve in the Scarlet Crusade?",
@@ -65,7 +65,7 @@
     "loksey rank",
     "how important is loksey"
    ],
-   "answer": "Yes, Loksey is recognized as one of the key commanding figures in the Scarlet Monastery's military structure, overseeing the critical kennel operations within the Armory."
+   "answer": "Yes, Loksey is recognized as one of the key commanding figures in the Scarlet Monastery's military structure, overseeing the Crusade's war hounds within the Library wing."
   },
   {
    "q": "Are the hounds dangerous on their own?",
@@ -88,7 +88,7 @@
   }
  ],
  "keywords": [
-  "armory",
+  "library",
   "houndmaster loksey",
   "hounds",
   "huntsman leopold",

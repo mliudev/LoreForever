@@ -17,7 +17,7 @@
   "wiki": "Cleansing the Eye",
   "chain": []
  },
- "summary": "Cleansing the Eye is an Alliance quest that sends adventurers from the murky Wetlands south to the human capital of Stormwind. After recovering the cursed scrying stone known as the Eye of Paleth, travelers must seek the aid of Archbishop Benedictus to purge its lingering taint.",
+ "summary": "Cleansing the Eye is an Alliance quest that sends adventurers from the murky Wetlands south to the human capital of Stormwind. After recovering the cursed orb known as the Eye of Paleth, travelers must seek the aid of Archbishop Benedictus to purge its lingering taint.",
  "sections": [
   {
    "title": "A Tainted Relic",
@@ -38,7 +38,7 @@
     "what is this orb",
     "what is the eye of paleth"
    ],
-   "answer": "The Eyes of Paleth are sacred orbs crafted by human priests to shine with holy luminance and act as viewing or scrying focuses. When untainted, their power aligns with the Holy Light, but if corrupted, their ambient energies become volatile and perilous."
+   "answer": "The Eyes of Paleth are sacred orbs crafted by human priests to shine with holy luminance. When untainted, their power aligns with the Holy Light, but if corrupted, their ambient energies become volatile and perilous."
   },
   {
    "q": "Why can't Glorin Steelbrow cleanse the Eye himself?",
@@ -56,7 +56,7 @@
     "archbishop benedictus",
     "stormwind archbishop"
    ],
-   "answer": "Archbishop Benedictus is the venerable leader of the Church of the Holy Light, residing within the grand Cathedral of Light in Stormwind. He succeeded Archbishop Alonsus Faol and serves as a pillar of spiritual guidance for the Alliance."
+   "answer": "Archbishop Benedictus is the venerable leader of the Church of the Holy Light, residing within the grand Cathedral of Light in Stormwind. He serves as a pillar of spiritual guidance for the Alliance."
   },
   {
    "q": "Why is the Eye described as soiled or sorrowful?",

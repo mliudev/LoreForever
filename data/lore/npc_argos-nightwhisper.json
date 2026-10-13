@@ -8,11 +8,11 @@
   "wiki": "Argos Nightwhisper",
   "refs": 1
  },
- "summary": "Argos Nightwhisper is a night elf emissary found in the Park district of Stormwind City. He serves as an Alliance contact directing adventurers toward Teldrassil to aid his people against spreading corruption.",
+ "summary": "Argos Nightwhisper is a night elf emissary found in the Park district of Stormwind City. He serves as an Alliance contact directing adventurers to Darkshore, where his brother Gershala studies the spreading corruption.",
  "sections": [
   {
    "title": "A Kaldorei in the Human Capital",
-   "body": "Argos Nightwhisper resides among the growing night elf presence in Stormwind, often lingering in the lush, secluded Park district crafted to remind the kaldorei of their ancestral woodlands. Like many of his kin stationed in the human kingdom, Argos acts as a bridge between the newfound allies across the Great Sea. Deeply concerned by reports filtering across the ocean, he urges capable Alliance champions to journey west to Darnassus and assist in purging the dark taint creeping through the roots of Teldrassil.",
+   "body": "Argos Nightwhisper resides among the growing night elf presence in Stormwind, often lingering in the lush, secluded Park district crafted to remind the kaldorei of their ancestral woodlands. Like many of his kin stationed in the human kingdom, Argos acts as a bridge between the newfound allies across the Great Sea. Deeply concerned by reports filtering across the ocean, he urges capable Alliance champions to make the long journey to Auberdine in Darkshore, where his brother Gershala needs help against the spreading corruption.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "where is argos",
     "find argos nightwhisper"
    ],
-   "answer": "In Stormwind, night elves commonly gather in the Park, an enclave shaped with moonwells and greenery to suit kaldorei customs."
+   "answer": "Argos can be found in the Park, the green district of Stormwind City where visiting night elves gather."
   },
   {
    "q": "What does Argos ask adventurers to do?",
@@ -42,7 +42,7 @@
     "argos quest",
     "why go to darnassus"
    ],
-   "answer": "Argos directs Alliance adventurers to travel abroad to Teldrassil. He warns of spreading corruption threatening the woodlands of Kalimdor and sends capable fighters to report to night elf authorities in Darnassus."
+   "answer": "Argos asks seasoned adventurers to make the long journey to Auberdine in Darkshore, where his brother Gershala needs help studying the corruption spreading through the land."
   },
   {
    "q": "Is Argos related to other Nightwhispers?",
@@ -50,13 +50,13 @@
     "nightwhisper family",
     "argos relatives"
    ],
-   "answer": "While he shares his family name with other night elves such as Falorn and Evelle Nightwhisper, he keeps to his duties connecting the capital of Stormwind with Darnassus."
+   "answer": "Yes. Argos is the brother of Gershala Nightwhisper, a night elf scholar in Auberdine in Darkshore, which is why he sends adventurers there."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For kaldorei traveling far from Kalimdor, Argos is a familiar face coordinating passage back to Teldrassil and keeping an eye on threats endangering the home boughs."
+   "text": "For kaldorei traveling far from Kalimdor, Argos is a familiar face pointing travelers toward his brother in Darkshore and the threats endangering their homeland."
   },
   {
    "target": "faction:Alliance",
@@ -65,21 +65,20 @@
  ],
  "keywords": [
   "argos",
+  "auberdine",
   "corruption abroad",
   "darnassus",
   "kaldorei",
   "nightwhisper",
   "park",
-  "stormwind",
-  "teldrassil"
+  "stormwind"
  ],
  "related": [
   "subzone:park",
   "zone:darnassus",
   "quest:3765",
   "topic:night-elf",
-  "topic:stormwind-kingdom",
-  "subzone:stormwind-harbor"
+  "topic:stormwind-kingdom"
  ],
  "attribution": [
   "Argos Nightwhisper"

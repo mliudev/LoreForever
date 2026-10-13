@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "From Royal Crypts to Scourge Bastion",
-   "body": "Before the Third War, the subterranean passages beneath Capital City were known as the Undercity\u2014a vast network of sewers, royal catacombs, and dungeons. It was here that the Alliance once imprisoned the captured warchief Orgrim Doomhammer, and where the poorest citizens scraped a living in the dark. During the fall of Lordaeron, Prince Arthas Menethil ordered his Scourge to begin expanding these depths into a subterranean seat of power. When the Lich King summoned Arthas away to Northrend, the death knight left the construction unfinished.",
+   "body": "Before the Third War, the depths beneath Capital City held a vast network of sewers, royal catacombs, and dungeons. During the fall of Lordaeron, Prince Arthas Menethil ordered his Scourge to begin expanding these depths into a subterranean seat of power. When the Lich King summoned Arthas away to Northrend, the death knight left the construction unfinished.",
    "spoiler": 0
   },
   {
@@ -28,7 +28,7 @@
     "was undercity always there",
     "history of undercity"
    ],
-   "answer": "Yes, though in a much smaller form. Under the Kingdom of Lordaeron, the area beneath the palace held ancient royal crypts, dungeons, and the city's sewer system, where paupers dwelled and high-profile prisoners\u2014including the captured Orc warchief Orgrim Doomhammer\u2014were kept."
+   "answer": "Yes, though in a much smaller form. Under the Kingdom of Lordaeron, the area beneath the palace held ancient royal crypts, dungeons, and the city's sewer system."
   },
   {
    "q": "Who actually built the modern Undercity?",
@@ -73,7 +73,6 @@
   "capital city",
   "catacombs",
   "crypts",
-  "doomhammer",
   "forsaken",
   "lordaeron",
   "sylvanas",
@@ -86,7 +85,6 @@
   "npc:sylvanas-windrunner",
   "topic:forsaken",
   "topic:arthas-menethil",
-  "npc:orgrim-doomhammer",
   "subzone:sewers"
  ],
  "attribution": [

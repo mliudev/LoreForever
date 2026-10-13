@@ -54,7 +54,7 @@
     "durnholde second war",
     "what was durnholde used for"
    ],
-   "answer": "Beyond serving as an Alliance stronghold, it was used as a prison facility. During the conflict, the forest troll warlord Zul'jin was held captive here until Orgrim Doomhammer breached the fortress to liberate him."
+   "answer": "Durnholde was an Alliance stronghold. When the Second War ended, it became the command center of the internment camps that held the defeated orcs, ruled by Lieutenant General Aedelas Blackmoore."
   }
  ],
  "angles": [
@@ -81,7 +81,6 @@
   "npc:thrall",
   "zone:hillsbrad",
   "topic:syndicate",
-  "npc:orgrim-doomhammer",
   "subzone:tarren-mill",
   "topic:alterac-kingdom",
   "topic:second-war",

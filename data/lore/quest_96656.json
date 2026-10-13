@@ -26,7 +26,7 @@
   },
   {
    "title": "A Traveler in the Woods",
-   "body": "Upon tracking down Eleanor Shackleton along the roadside near Brill, her intentions prove far removed from Crusade fanatical plots or Scourge necromancy. An independent traveler pausing before her next journey into the wilds, Eleanor harbors no hostility toward the risen dead. Instead, she recognizes the spark of an adventurer in those sent to check on her, offering to share the practical essentials of surviving open wilderness and making camp.",
+   "body": "Upon tracking down Eleanor Shackleton along the roadside near Brill, her intentions prove far removed from Crusade fanatical plots or Scourge necromancy. A fellow Forsaken pausing before her next journey into the wilds, Eleanor is simply an adventurer. Instead, she recognizes the spark of an adventurer in those sent to check on her, offering to share the practical essentials of surviving open wilderness and making camp.",
    "spoiler": 0
   }
  ],
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For fresh Forsaken venturing beyond Deathknell, meeting neutral travelers like Eleanor is an early lesson that not every living mortal in Lordaeron immediately raises a weapon against the reclaimed dead."
+   "text": "For fresh Forsaken venturing beyond Deathknell, meeting a fellow Forsaken adventurer like Eleanor is an early lesson that not every stranger near Brill is a Scarlet spy."
   },
   {
    "target": "faction:Horde",

@@ -30,12 +30,12 @@
  "sections": [
   {
    "title": "A Plea Across the Frontier",
-   "body": "Dogran, a Horde grunt stationed at Camp Taurajo in the southern Barrens, was grievously wounded during a skirmish against entrenched quilboar. His fellow grunts managed to hold him in place, but festering injuries meant any rough transport back across the plains would kill him. Desperate for a potent remedy, Taurajo sent word north toward Stonetalon, hoping to procure a traditional healing draught prepared by the jungle trolls of Malaka'jin.",
+   "body": "Dogran, a Horde grunt stationed at Camp Taurajo in the southern Barrens, was grievously wounded during a skirmish against entrenched quilboar. The grunts with him made it back and tried to rescue him, but his wounds had festered so badly that they were afraid to move him without patching him up first. Desperate for a potent remedy, Taurajo sent word north to the Crossroads, hoping to procure a traditional healing draught prepared by the jungle trolls of Malaka'jin.",
    "spoiler": 0
   },
   {
    "title": "Bloodshed at Malaka'jin",
-   "body": "When travelers arrive at the crags of Malaka'jin, they discover that the relief mission collapsed almost immediately. The first courier sent to collect the medicine was ambushed and killed by local Venture Company goblins before ever securing the draught. Ken'zigla still possesses the remedy Dogran needs, but securing it requires dealing with the volatile frontier dangers bordering the Stonetalon passes.",
+   "body": "When travelers arrive at the crags of Malaka'jin, they discover that the relief mission collapsed almost immediately. The first courier sent to collect the medicine was killed by goblins before he could bring the draught back. Ken'zigla still possesses the remedy Dogran needs, but securing it requires dealing with the volatile frontier dangers bordering the Stonetalon passes.",
    "spoiler": 1
   }
  ],
@@ -65,7 +65,7 @@
     "what happened to the messenger",
     "dead courier"
    ],
-   "answer": "The initial courier dispatched from Taurajo to retrieve Ken'zigla's draught was ambushed and slain by Venture Company goblins operating along the road near the Stonetalon foothills."
+   "answer": "The initial courier dispatched from the Crossroads to retrieve Ken'zigla's draught was killed by goblins near Malaka'jin before he could bring the draught back. Ken'zigla says only that the goblins did him in."
   },
   {
    "q": "Why do warlock trainers care about Dogran's fate?",
@@ -102,7 +102,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "This leg of the journey illustrates the thin, fragile supply chains connecting remote outposts like Camp Taurajo to isolated camps such as Malaka'jin in the face of quillboar and goblin hostility."
+   "text": "This leg of the journey illustrates the thin, fragile supply chains connecting remote outposts like Camp Taurajo to isolated camps such as Malaka'jin in the face of quilboar and goblin hostility."
   }
  ],
  "keywords": [

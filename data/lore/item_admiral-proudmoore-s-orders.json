@@ -19,7 +19,7 @@
   },
   {
    "title": "Delivery to Grommash Hold",
-   "body": "Recognizing the strategic danger outlined in the plans, Horde scouts dispatch the recovered papers directly to Grommash Hold in Orgrimmar. Delivered to chieftain Vol'jin, who serves as counselor to Warchief Thrall, the orders confirm the Darkspear leader's persistent suspicion that human aggression remains an active peril. The intelligence urges the Horde leadership to prepare for further incursions along the coast.",
+   "body": "Recognizing the strategic danger outlined in the plans, Horde scouts dispatch the recovered papers directly to Grommash Hold in Orgrimmar. Delivered to Nazgrel in Thrall's chamber, the orders confirm his persistent warning to the Warchief that the humans could never be trusted and that their aggression remains an active peril. The intelligence urges the Horde leadership to prepare for further incursions along the coast.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "who wants the orders",
     "orders hand in"
    ],
-   "answer": "They are brought to the Darkspear chieftain Vol'jin, who resides inside Grommash Hold in Orgrimmar's Valley of Wisdom alongside Warchief Thrall."
+   "answer": "They are brought to Nazgrel, who counsels Warchief Thrall inside Grommash Hold in Orgrimmar's Valley of Wisdom."
   },
   {
    "q": "Why are Kul Tiras soldiers still fighting in Durotar?",
@@ -68,22 +68,21 @@
   },
   {
    "target": "race:Troll",
-   "text": "For the Darkspear trolls, these orders are handed straight to their chieftain, Vol'jin, confirming his long-held counsel to Thrall that human presence along the coast remains an immediate danger."
+   "text": "For the Darkspear trolls, who make their home along this same coast, these orders confirm that the human presence along Durotar's shores remains an immediate danger."
   }
  ],
  "keywords": [
   "benedict",
   "durotar",
   "kul tiras",
+  "nazgrel",
   "orders",
   "orgrimmar",
   "proudmoore",
-  "tiragarde",
-  "vol'jin"
+  "tiragarde"
  ],
  "related": [
   "quest:830",
-  "npc:vol-jin",
   "zone:durotar",
   "subzone:grommash-hold",
   "zone:orgrimmar",

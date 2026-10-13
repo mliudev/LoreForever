@@ -17,7 +17,7 @@
   },
   {
    "title": "Tinkering on the Flats",
-   "body": "Racing across dry salt beds at breakneck speeds requires constant improvisation. As an avid member of the Mechanical Engineers' Guild of Azeroth (MEGA), Fizzle does not shy away from unorthodox experiments. Whether testing volatile mixtures concocted from local creature venom or contracting travelers to fetch replacement mechanical parts, Fizzle is determined to keep his driver's wheels turning faster than any explosive goblin contraption.",
+   "body": "Racing across dry salt beds at breakneck speeds requires constant improvisation, and Fizzle does not shy away from unorthodox experiments. Whether testing volatile mixtures concocted from local creature venom or contracting travelers to fetch replacement mechanical parts, Fizzle is determined to keep his driver's wheels turning faster than any explosive goblin contraption.",
    "spoiler": 0
   }
  ],
@@ -41,13 +41,13 @@
    "answer": "He came to settle a technical debate with the goblin engineer Pozzik over whose race boasts superior engineering. Together, they established the Mirage Raceway to test their rocket cars head-to-head on the flat salt basin."
   },
   {
-   "q": "What is MEGA?",
+   "q": "Who are the Brassbolts brothers?",
    "aliases": [
-    "fizzle guild",
-    "mechanical engineers guild",
-    "what is mega"
+    "brassbolts brothers",
+    "wizzle brassbolts",
+    "fizzle brother"
    ],
-   "answer": "MEGA stands for the Mechanical Engineers' Guild of Azeroth. Fizzle is a dedicated member, representing the guild's commitment to meticulous design and technical refinement."
+   "answer": "Fizzle and his brother Wizzle Brassbolts run the gnomish racing team at the Mirage Raceway. Their new rocket car is so fast that its pilots keep crashing, so they asked their friend Pilot Longbeard in Ironforge for siege engine crash helmets."
   },
   {
    "q": "Why does Fizzle need creature venom for race cars?",
@@ -72,7 +72,7 @@
     "pilot longbeard connection",
     "fizzle pilot friend"
    ],
-   "answer": "Pilot Longbeard is a dwarven aviator and personal friend of the Brassbolts family who shares a fondness for dangerous machinery and desert tracks."
+   "answer": "Pilot Longbeard is a dwarven siege engine pilot of the Ironforge Siege Brigade and a friend of the Brassbolts brothers who shares their fondness for dangerous machinery."
   }
  ],
  "angles": [
@@ -92,7 +92,6 @@
  "keywords": [
   "brassbolts",
   "fizzle",
-  "mega",
   "mirage raceway",
   "pozzik",
   "rocket car",

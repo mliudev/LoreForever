@@ -8,7 +8,7 @@
   "wiki": "Durnan Furcutter",
   "refs": 2
  },
- "summary": "Durnan Furcutter is a dwarven clothier and leather merchant operating out of Anvilmar in Coldridge Valley. Standing just outside the local pub, he equips freshly trained dwarven and gnomish adventurers with lightweight attire suited to withstand the biting mountain chills.",
+ "summary": "Durnan Furcutter is a dwarven clothier and leather merchant operating out of Anvilmar in Coldridge Valley. Working inside Anvilmar, he equips freshly trained dwarven and gnomish adventurers with lightweight attire suited to withstand the biting mountain chills.",
  "sections": [
   {
    "title": "A Warm Stitch in the Cold",
@@ -17,7 +17,7 @@
   },
   {
    "title": "A Mug in Hand",
-   "body": "Like any true dwarf stationed in the snowy foothills, Durnan appreciates a strong drink almost as much as an honest trade. He frequents Anvilmar's tavern and enjoys a steaming mug of Scalding Mornbrew to fight off the freezing draft. Adventurers running errands across the camp often find themselves delivering fresh brews directly into his welcoming hands or returning his empties to the barkeep.",
+   "body": "Like any true dwarf stationed in the snowy foothills, Durnan appreciates a strong drink almost as much as an honest trade. He orders steaming mugs of Scalding Mornbrew from Nori Pridedrift, who sells the brew piping hot across Coldridge Valley, to fight off the freezing draft. Adventurers running errands in the valley often find themselves rushing a hot mug into his welcoming hands before it cools, then carrying the empty back to Nori.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is durnan",
     "anvilmar cloth vendor"
    ],
-   "answer": "He can be found standing outside near the entrance of Anvilmar's main hall in Coldridge Valley, close to the training masters and local tradesfolk."
+   "answer": "He can be found inside Anvilmar, the settlement dug into the mountainside in Coldridge Valley, close to the training masters and local tradesfolk."
   },
   {
    "q": "What does Durnan sell?",
@@ -55,7 +55,7 @@
     "scalding mornbrew durnan",
     "durnan drink"
    ],
-   "answer": "Durnan works long hours in the icy coldridge winds and relies on warm pints of Scalding Mornbrew from the nearby inn to stay sharp and warm."
+   "answer": "Durnan works long hours in the icy Coldridge winds and orders his Scalding Mornbrew hot from Nori Pridedrift, who sells the brew across the valley, to stay sharp and warm."
   }
  ],
  "angles": [

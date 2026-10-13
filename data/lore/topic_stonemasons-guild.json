@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stonemasons Guild"
  },
- "summary": "The Stonemasons Guild was the collective of master builders and artisans responsible for reconstructing Stormwind City and Nethergarde Keep after the Second War. Following a bitter dispute over payment with the House of Nobles that ended in deadly riots, the guild was forcibly dissolved, driving its members into exile and giving rise to the Defias Brotherhood.",
+ "summary": "The Stonemasons Guild was the collective of master builders and artisans responsible for reconstructing Stormwind City after the Second War. Following a bitter dispute over payment with the House of Nobles that ended in deadly riots, the guild was forcibly dissolved, driving its members into exile and giving rise to the Defias Brotherhood.",
  "sections": [
   {
    "title": "Architects of the Realm",
-   "body": "Following the devastation of the First and Second Wars, the Alliance of Lordaeron commissioned the Stonemasons Guild to erect Nethergarde Keep in the Blasted Lands to monitor the shattered Dark Portal. Led by elected Guildmaster Edwin VanCleef, the artisans demonstrated a mastery of masonry that rivaled the Royal Stonecutters Union of the dwarves. Impressed by their labor, the House of Nobles hired the guild to embark upon the monumental task of rebuilding Stormwind City from ruins, trusting them to restore the capital to its ancient grandeur.",
+   "body": "Led by elected Guildmaster Edwin VanCleef, the artisans of the Stonemasons Guild demonstrated a mastery of masonry that rivaled the Royal Stonecutters Union of the dwarves. Following the devastation of the First and Second Wars, the House of Nobles hired the guild to embark upon the monumental task of rebuilding Stormwind City from ruins, trusting them to restore the capital to its ancient grandeur.",
    "spoiler": 0
   },
   {
@@ -21,7 +21,7 @@
   },
   {
    "title": "Blood in the Streets",
-   "body": "The wage dispute erupted into violent unrest throughout Stormwind. During a desperate effort to broker peace, Queen Tiffin Wrynn was struck and killed by a thrown projectile, sending King Varian into profound grief and vengeance. The Crown cracked down ruthlessly, capturing key conspirators like VanCleef's lieutenant, Bazil Thredd, while VanCleef and hundreds of ruined stonemasons fled into the countryside of Westfall. Exiled and branded as traitors, the desperate artisans transformed their trade union into the militant Defias Brotherhood.",
+   "body": "The wage dispute erupted into violent unrest throughout Stormwind. The Crown cracked down ruthlessly, capturing key conspirators like VanCleef's lieutenant, Bazil Thredd, while VanCleef and hundreds of ruined stonemasons fled into the countryside of Westfall. Exiled and branded as traitors, the desperate artisans transformed their trade union into the militant Defias Brotherhood.",
    "spoiler": 1
   },
   {
@@ -38,7 +38,7 @@
     "stonemasons guild lore",
     "what did the stonemasons do"
    ],
-   "answer": "The Stonemasons Guild was an association of human artisans, architects, and stonecutters led by Guildmaster Edwin VanCleef. They were renowned for rebuilding Stormwind City and Nethergarde Keep after the Second War."
+   "answer": "The Stonemasons Guild was an association of human artisans, architects, and stonecutters led by Guildmaster Edwin VanCleef. They were renowned for rebuilding Stormwind City after the Second War."
   },
   {
    "q": "Why did the Stonemasons Guild become the Defias Brotherhood?",
@@ -62,10 +62,9 @@
    "q": "What notable structures did the Stonemasons build?",
    "aliases": [
     "what did stonemasons build",
-    "did stonemasons build stormwind",
-    "nethergarde keep builders"
+    "did stonemasons build stormwind"
    ],
-   "answer": "The guild built Nethergarde Keep at the edge of the Blasted Lands to oversee the Dark Portal, and entirely rebuilt Stormwind City after the First War, including the Cathedral of Light and Stormwind Keep."
+   "answer": "The guild entirely rebuilt Stormwind City after the First War, including the Cathedral of Light and Stormwind Keep."
   },
   {
    "q": "Did all the Stonemasons join the Defias Brotherhood?",
@@ -77,13 +76,13 @@
    "answer": "Not all joined the rebellion. Notably, master craftsman Baros Alexston broke ties with Edwin VanCleef and stayed in Stormwind to accept the post of City Architect, earning the enduring hatred of his former guildmates."
   },
   {
-   "q": "How did Queen Tiffin Wrynn die?",
+   "q": "What happened during the Stonemason riots?",
    "aliases": [
-    "tiffin wrynn death",
-    "how did varian's wife die",
-    "queen tiffin stone riot"
+    "stonemason riots",
+    "what happened in the riots",
+    "stonemasons riot stormwind"
    ],
-   "answer": "Queen Tiffin was one of the few nobles sympathetic to the workers and attempted to calm the gathering crowds during the wage riots. She was struck and killed instantly by a projectile thrown from the mob, forever ending any chance of peaceful reconciliation."
+   "answer": "When the nobles disbanded the guild instead of paying it, the stonemasons rioted in the streets of Stormwind. The Crown cracked down, capturing VanCleef's lieutenant Bazil Thredd, while VanCleef and the other masons fled into Westfall."
   },
   {
    "q": "Who was Bazil Thredd in the Stonemasons Guild?",
@@ -122,7 +121,6 @@
   "stonemasons",
   "stormwind",
   "thredd",
-  "tiffin",
   "vancleef"
  ],
  "related": [

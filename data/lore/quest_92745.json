@@ -17,11 +17,11 @@
   "wiki": "The State of the Mines",
   "chain": []
  },
- "summary": "The State of the Mines is a task given by Alba Fairmoon to combat environmental contamination across Westfall. Toxic runoff from the region's seized dig sites threatens to ruin the farmland for decades. To stop this ecological disaster, adventurers are sent to disrupt Defias-led excavations at both Jangolode Mine and the Gold Coast Quarry.",
+ "summary": "The State of the Mines is a task given by Alba Fairmoon to combat environmental contamination across Westfall. After well samples turn up toxic metals, Alba suspects the mines the Defias have seized and warns that the farmland could be ruined for decades. To stop this ecological disaster, adventurers are sent to disrupt Defias-led excavations at both Jangolode Mine and the Gold Coast Quarry.",
  "sections": [
   {
    "title": "Poisoning the Land",
-   "body": "Westfall was once the primary breadbasket of Stormwind, but recent water samples retrieved from local wells reveal dangerous levels of toxic metals. The reckless extraction methods practiced by the Defias Brotherhood have caused industrial runoff to seep deep into the regional aquifers. If this pollution continues unchecked, the surrounding earth will be rendered barren and unable to sustain crops for decades to come.",
+   "body": "Westfall was once the primary breadbasket of Stormwind, but recent water samples retrieved from local wells reveal dangerous levels of toxic metals. Alba Fairmoon's first suspicion falls on the mines the Defias Brotherhood has seized across the region. If this pollution continues unchecked, the surrounding earth will be rendered barren and unable to sustain crops for decades to come.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "westfall mine pollution",
     "toxic runoff westfall"
    ],
-   "answer": "The Defias Brotherhood has completely disregarded safety and conservation while ruthlessly stripping Westfall of raw materials. Their uncontrolled mining operations have contaminated groundwater with harmful metallic runoff, poisoning the soil and nearby settlement wells."
+   "answer": "The well samples showed toxic metals in Westfall's groundwater, and Alba Fairmoon suspects the mines the Defias Brotherhood has seized and is stripping with creature labor. Disrupting their miners is her first move against the corruption."
   },
   {
    "q": "Who is behind the mining operations in Westfall?",

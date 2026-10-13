@@ -17,7 +17,7 @@
   "wiki": "Goretusk Liver Pie (quest)",
   "chain": []
  },
- "summary": "Goretusk Liver Pie is a culinary errand undertaken for Salma Saldean at the Saldean Farm in Westfall. With the breadbasket of the kingdom ravaged by drought and bandits, local homesteaders rely on hunting the aggressive local boars to put a hearty meal on the table. Assisting Salma provides a rare taste of comfort and home-cooked hospitality in an otherwise bleak frontier.",
+ "summary": "Goretusk Liver Pie is a culinary errand undertaken for Salma Saldean at the Saldean Farm in Westfall. With the breadbasket of the kingdom ravaged by bandits, local homesteaders rely on hunting the aggressive local boars to put a hearty meal on the table. Assisting Salma provides a rare taste of comfort and home-cooked hospitality in an otherwise bleak frontier.",
  "sections": [
   {
    "title": "Frontier Hospitality",
@@ -73,7 +73,7 @@
     "why no food westfall",
     "westfall hard times"
    ],
-   "answer": "A combination of crippling droughts, lack of royal support from Stormwind, and raids by organized bandits has forced many farmers off their land, turning the former breadbasket of the kingdom into a struggling, impoverished frontier."
+   "answer": "A combination of lack of royal support from Stormwind and raids by organized bandits has forced many farmers off their land, turning the former breadbasket of the kingdom into a struggling, impoverished frontier."
   },
   {
    "q": "Does completing this task help the Saldean farm survive?",

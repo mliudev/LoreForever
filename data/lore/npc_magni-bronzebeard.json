@@ -8,7 +8,7 @@
   "wiki": "Magni Bronzebeard",
   "refs": 4
  },
- "summary": "Magni Bronzebeard is the Lord of Ironforge, Thane of the Bronzebeard clan, and ruler of Khaz Modan. A peerless smith and veteran commander of the Second War, he leads his mountainous kingdom through grief and political tension while championing dwarven archaeology across Azeroth.",
+ "summary": "Magni Bronzebeard is the Lord of Ironforge, Thane of the Bronzebeard clan, and ruler of Khaz Modan. A veteran commander of the Second War, he leads his mountainous kingdom through grief and political tension while championing dwarven archaeology across Azeroth.",
  "sections": [
   {
    "title": "Lord of the Mountain",
@@ -16,13 +16,13 @@
    "spoiler": 0
   },
   {
-   "title": "A Hammer of Vengeance",
-   "body": "Beneath Magni's regal bearing lies deep personal tragedy. During the Third War, word arrived from Northrend that Prince Arthas Menethil had betrayed and murdered Magni's beloved younger brother, Muradin. Overwhelmed by sorrow and wrath, Magni took up his hammer at the Great Anvil when High Inquisitor Fairbanks and Alexandros Mograine brought him a crystal of pure, radiant Light. Over three tireless days, the dwarven king poured all his grief, rage, and desire for vengeance into the metal. The resulting blade\u2014the Ashbringer\u2014stands as the greatest masterwork of his lifetime, forged to bring ruin to Arthas and the Scourge.",
+   "title": "A Brother Lost",
+   "body": "Beneath Magni's regal bearing lies deep personal tragedy. During the Third War, word arrived from Northrend that his beloved younger brother, Muradin, had perished on Prince Arthas Menethil's expedition. Magni was overcome with grief, yet he and his youngest brother, Brann, remained steadfast in their duty to the dwarven people, and the king still rules wisely with that sorrow weighing upon him.",
    "spoiler": 0
   },
   {
    "title": "Excavating the Past",
-   "body": "Under Magni's decree, dwarven society has turned much of its focus away from traditional commercial mining toward the unearthing of ancient history. Spurred by discoveries of strange titan relics deep beneath the earth, Magni co-founded the Explorers' League alongside his surviving brother, Brann Bronzebeard. Dwarven dig sites now dot the continents, from Dun Morogh to Kalimdor, striving to unlock the mystery of how the earthen became the modern dwarf. However, domestic peace remains fragile: Magni's daughter, Princess Moira, has gone missing, believed kidnapped by the hated Dark Iron clan.",
+   "body": "Under Magni's decree, dwarven society has turned much of its focus away from traditional commercial mining toward the unearthing of ancient history. Spurred by discoveries of strange titan relics deep beneath the earth, Magni co-founded the Explorers' League alongside his surviving brother, Brann Bronzebeard. Dwarven dig sites now dot the continents, from Dun Morogh to Kalimdor, striving to unlock the mystery of the dwarves' fabled origins. However, domestic peace remains fragile: Magni's daughter, Princess Moira, has gone missing, believed kidnapped by the hated Dark Iron clan.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "ashbringer creator",
     "who made the ashbringer"
    ],
-   "answer": "King Magni forged the legendary sword himself at the Great Anvil in Ironforge. Alexandros Mograine and High Inquisitor Fairbanks brought him an enigmatic crystal of living Light, and Magni poured his grief and fury over Muradin's reported death into the blade over three days of nonstop smithing."
+   "answer": "No account of the blade's forging is kept in Ironforge's records. The Ashbringer is remembered as the sword of Highlord Alexandros Mograine of the Silver Hand, and nothing on record ties its making to King Magni."
   },
   {
    "q": "What happened to Magni's brothers?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Magni is your undisputed sovereign and the protector of Khaz Modan, leading the Bronzebeard clan through external wars and the internal search for your race's earthen heritage."
+   "text": "Magni is your undisputed sovereign and the protector of Khaz Modan, leading the Bronzebeard clan through external wars and the internal search for your race's ancient heritage."
   },
   {
    "target": "race:Gnome",
@@ -97,11 +97,10 @@
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Magni is considered one of the greatest living smiths on Azeroth, having shaped the fabled Ashbringer from an otherworldly crystal at Ironforge's Great Anvil."
+   "text": "The Great Anvil burns at the heart of Magni's city, and the smiths who work under the king's rule are counted among the finest in the Alliance."
   }
  ],
  "keywords": [
-  "ashbringer",
   "brann",
   "bronzebeard",
   "explorers league",

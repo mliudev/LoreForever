@@ -29,7 +29,7 @@
  "sections": [
   {
    "title": "Willpower of the Razormane",
-   "body": "Held in a cage at Camp Taurajo, the Razormane elder Mangletooth possesses deep knowledge of quillboar geomancy and ancestral magic. While other tribes may boast of raw combat ferocity, Mangletooth takes immense pride in his people's spiritual devotion to their creator, the Great Boar Agamaggan. He teaches that an unbroken spirit is what sustains a warrior when strength alone falters in battle, driving champions onward when defeat seems certain.",
+   "body": "Held in a cage at Camp Taurajo, the Razormane elder Mangletooth possesses deep knowledge of quilboar geomancy and ancestral magic. While other tribes may boast of raw combat ferocity, Mangletooth takes immense pride in his people's spiritual devotion to their creator, the Great Boar Agamaggan. He teaches that an unbroken spirit is what sustains a warrior when strength alone falters in battle, driving champions onward when defeat seems certain.",
    "spoiler": 0
   },
   {
@@ -46,7 +46,7 @@
     "who is the caged boar",
     "taurajo prisoner"
    ],
-   "answer": "Mangletooth is an elder Razormane quillboar kept in a wooden cage in Camp Taurajo. Despite being a captive of the Horde, he is willing to share sacred geomantic rituals in exchange for blood shards, using travelers to strike blows against the rival Bristleback tribe."
+   "answer": "Mangletooth is an elder Razormane quilboar kept in a wooden cage in Camp Taurajo. Despite being a captive of the Horde, he is willing to share sacred geomantic rituals in exchange for blood shards, using travelers to strike blows against the rival Bristleback tribe."
   },
   {
    "q": "What are blood shards?",
@@ -55,15 +55,15 @@
     "blood shard lore",
     "agamaggan blood"
    ],
-   "answer": "Blood shards are red mineral crystals formed from the spilled blood of the Ancient Demigod Agamaggan, who died in the Barrens during the War of the Ancients. They hold potent residual magic that quillboar shamans and geomancers harness for boons and rituals."
+   "answer": "Blood shards are red mineral crystals formed from the spilled blood of the Ancient Demigod Agamaggan, who died in the Barrens during the War of the Ancients. They hold potent residual magic that quilboar shamans and geomancers harness for boons and rituals."
   },
   {
    "q": "Why does Mangletooth help Horde adventurers?",
    "aliases": [
     "why does mangletooth help",
-    "why is quillboar helping horde"
+    "why is quilboar helping horde"
    ],
-   "answer": "Mangletooth harbors a bitter hatred for the rival Bristleback quillboar. By exchanging blessings for blood shards, he encourages powerful adventurers to slaughter Bristlebacks across the Barrens, advancing his tribe's feud even while locked in a cage."
+   "answer": "Mangletooth harbors a bitter hatred for the rival Bristleback quilboar. By exchanging blessings for blood shards, he encourages powerful adventurers to slaughter Bristlebacks across the Barrens, advancing his tribe's feud even while locked in a cage."
   },
   {
    "q": "What does the Rising Spirit blessing do?",
@@ -79,7 +79,7 @@
     "agamaggan",
     "the great boar"
    ],
-   "answer": "Agamaggan is the colossal Boar Ancient who fought the Burning Legion ten thousand years ago during the War of the Ancients. The quillboar revere him as their creator, believing that the thorny brambles and red blood shards of the Barrens sprouted directly from his fallen body."
+   "answer": "Agamaggan is the colossal Boar Ancient who fought the Burning Legion ten thousand years ago during the War of the Ancients. The quilboar revere him as their creator, believing that the thorny brambles and red blood shards of the Barrens sprouted directly from his fallen body."
   },
   {
    "q": "Is this ritual a one-time trade?",
@@ -93,7 +93,7 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Priests will recognize the quillboar's communion with Agamaggan as a raw, primal expression of faith and spirit that rivals the organized devotions of eastern churches."
+   "text": "Priests will recognize the quilboar's communion with Agamaggan as a raw, primal expression of faith and spirit that rivals the organized devotions of eastern churches."
   },
   {
    "target": "class:Shaman",

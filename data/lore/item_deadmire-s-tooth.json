@@ -35,7 +35,7 @@
     "who drops deadmire tooth",
     "deadmire location"
    ],
-   "answer": "The tooth is taken directly from Deadmire, an enormous, pale crocolisk prowling the waterways of Dustwallow Marsh, often spotted lurking around the river and islands north of the Stonemaul Ruins."
+   "answer": "The tooth is taken directly from Deadmire, an enormous, ancient crocolisk prowling the swamps of southern Dustwallow Marsh, roaming the waters east of Tabetha's Farm."
   },
   {
    "q": "Why does Melor Stonehoof want Deadmire killed?",
@@ -63,7 +63,6 @@
   "dustwallow",
   "hunter rise",
   "melor stonehoof",
-  "stonemaul",
   "thunder bluff",
   "tooth"
  ],
@@ -72,7 +71,6 @@
   "npc:melor-stonehoof",
   "zone:dustwallow",
   "zone:thunderbluff",
-  "subzone:stonemaul-ruins",
   "topic:hunter"
  ],
  "attribution": [

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Steamwheedle Port"
  },
- "summary": "Steamwheedle Port is a bustling coastal outpost on the eastern shore of Tanaris, directly connected to Gadgetzan. Operated by the neutral Steamwheedle Cartel, it serves as an essential sea link to distant islands like Kezan while constantly warding off encroaching Southsea Pirates.",
+ "summary": "Steamwheedle Port is a bustling coastal outpost on the eastern shore of Tanaris, directly connected to Gadgetzan. Operated by the neutral Steamwheedle Cartel, it serves as an essential sea link across the South Seas while constantly warding off encroaching Southsea Pirates.",
  "sections": [
   {
    "title": "A Gateway on the Shifting Sands",
-   "body": "Tucked against the dunes along the South Seas, Steamwheedle Port offers the inland desert city of Gadgetzan a direct lifeline to maritime trade. Run by the Steamwheedle Cartel, the settlement bustles with dockhands, traders, and sea captains braving the treacherous waters. Supply vessels regularly ply the routes between here and distant goblin strongholds, including Kezan, bringing valuable mechanical components, luxuries, and raw materials into southern Kalimdor.",
+   "body": "Tucked against the dunes along the South Seas, Steamwheedle Port offers the inland desert city of Gadgetzan a direct lifeline to maritime trade. Run by the Steamwheedle Cartel, the settlement bustles with dockhands, traders, and sea captains braving the treacherous waters. Supply vessels regularly ply the routes between here and distant goblin trading posts, bringing valuable mechanical components, luxuries, and raw materials into southern Kalimdor.",
    "spoiler": 0
   },
   {
@@ -36,7 +36,7 @@
     "where do ships go from steamwheedle",
     "steamwheedle port ferry"
    ],
-   "answer": "The port serves as the Cartel's maritime link across the South Seas, notably connecting to the island of Kezan and other regional trading hubs, though it does not operate public commercial passenger transports for adventurers."
+   "answer": "The port serves as the Cartel's maritime link across the South Seas, connecting it to distant goblin trading hubs, and a passenger ship sails from its docks across the sea to Powderfuse Port in the Riverglades."
   },
   {
    "q": "Why are there so many pirates nearby?",
@@ -58,7 +58,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The port is an invaluable depot for parts and supplies imported directly from Kezan, making it a natural hub of gossip and schematics for tinkerers."
+   "text": "The port is an invaluable depot for parts and supplies imported from across the South Seas, making it a natural hub of gossip and schematics for tinkerers."
   },
   {
    "target": "class:Rogue",
@@ -67,7 +67,6 @@
  ],
  "keywords": [
   "gadgetzan harbor",
-  "kezan trade",
   "lost rigger cove",
   "southsea pirates",
   "steamwheedle port",

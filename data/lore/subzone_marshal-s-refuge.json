@@ -16,7 +16,7 @@
   },
   {
    "title": "A Crossroads of Curiosity",
-   "body": "Because Un'Goro Crater contains ancient biological wonders and mysterious crystal formations, Marshal's Refuge attracts a motley band of researchers, fortune seekers, and eccentric wanderers. Both Alliance and Horde naturalists, including tauren emissaries and gnomish tinkers, share the crowded ledge alongside the surviving Marshal crew. From here, scouts strike out toward volcanic summits like Fire Plume Ridge or bubbling landmarks like the Golakka Hot Springs, hoping to catalog the primordial wilderness before it consumes them.",
+   "body": "Because Un'Goro Crater contains ancient biological wonders and mysterious crystal formations, Marshal's Refuge attracts a motley band of researchers, fortune seekers, and eccentric wanderers. Naturalists from many lands, including dwarven scholars and gnomish tinkers, share the crowded ledge alongside the surviving Marshal crew. From here, scouts strike out toward volcanic summits like Fire Plume Ridge or bubbling landmarks like the Golakka Hot Springs, hoping to catalog the primordial wilderness before it consumes them.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "repairs",
     "vendors"
    ],
-   "answer": "The refuge provides essential survival necessities in the remote basin, including flight masters for both factions, basic trade merchants, repair services, and a gathering spot for researchers offering bounties and investigations across the crater."
+   "answer": "The refuge provides essential survival necessities in the remote basin, including a flight master serving both factions, basic trade merchants, repair services, and a gathering spot for researchers offering bounties and investigations across the crater."
   }
  ],
  "angles": [
@@ -81,7 +81,6 @@
   "subzone:fire-plume-ridge",
   "subzone:golakka-hot-springs",
   "topic:gnome",
-  "topic:tauren",
   "topic:dwarf"
  ],
  "attribution": [

@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Master of the Craft in Ratchet",
-   "body": "Overlooking the goblin docks of Ratchet sits Brewmaster Drohn, an orc who has devoted his craft to the science of brewing rather than simple combat. Running Drohn's Distillery from his hillside home, he operates peacefully within the neutral haven established by Gazlowe's Steamwheedle cartel. While most orcs settle for coarse grog or simple spirits, Drohn's work involves rare ingredients, refined balances of flavor, and techniques rarely practiced among his kin.",
+   "body": "Overlooking the goblin docks of Ratchet sits Brewmaster Drohn, an orc who has devoted his craft to the science of brewing rather than simple combat. Brewing from his hillside home, he operates peacefully within the neutral haven established by Gazlowe's Steamwheedle cartel. While most orcs settle for coarse grog or simple spirits, Drohn's work involves rare ingredients, refined balances of flavor, and techniques rarely practiced among his kin.",
    "spoiler": 0
   },
   {
@@ -56,7 +56,7 @@
     "is drohn neutral",
     "drohn faction"
    ],
-   "answer": "Drohn is an orc, but he resides and plies his trade in the neutral goblin port of Ratchet. Attacking him ruins an Alliance adventurer's reputation with Ratchet and the Steamwheedle Cartel."
+   "answer": "Yes. Drohn is an orc of the Horde, but he resides and plies his trade in the neutral goblin port of Ratchet. Attacking him ruins an Alliance adventurer's reputation with Ratchet and the Steamwheedle Cartel."
   },
   {
    "q": "What kind of drinks does Drohn make?",
@@ -64,7 +64,7 @@
     "drohn recipes",
     "drohns distillery brews"
    ],
-   "answer": "Through Drohn's Distillery, he crafts potent mixtures including Trogg Ale and iterations of Chen Stormstout's recipes, which require local plants and creature essences found throughout Kalimdor."
+   "answer": "He crafts potent mixtures including Trogg Ale and Chen Stormstout's namesake Stormstout, which require tusks, glands and other parts of beasts found throughout the Barrens."
   },
   {
    "q": "Where exactly is Drohn located?",
@@ -94,7 +94,6 @@
   "barrens",
   "brewmaster",
   "chen stormstout",
-  "distillery",
   "drohn",
   "ratchet",
   "trogg ale"

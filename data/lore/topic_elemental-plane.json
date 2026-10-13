@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Elemental Plane"
  },
- "summary": "The Elemental Plane is an interconnected pocket dimension forged by the titan-forged Keepers to imprison Azeroth's chaotic elementals. Divided into four distinct realms\u2014Skywall, Deepholm, the Abyssal Maw, and the Firelands\u2014it confines the primordial spirits away from the mortal world. Though sealed long ago, cracks in its barriers allow violent elemental incursions and catastrophic summonings into Azeroth.",
+ "summary": "The Elemental Plane is an interconnected pocket dimension forged by the titans to imprison Azeroth's chaotic elementals. Divided into four distinct realms\u2014Skywall, Deepholm, the Abyssal Maw, and the Firelands\u2014it confines the primordial spirits away from the mortal world. Though sealed long ago, cracks in its barriers allow violent elemental incursions and catastrophic summonings into Azeroth.",
  "sections": [
   {
    "title": "A Prison for Primordial Chaos",
-   "body": "In the ancient days following the fall of the Old Gods, the titan-forged Keepers faced a dilemma: Azeroth's chaotic elementals could not truly be destroyed, as their essences were fundamentally tied to the world. The Keepers devised an enduring solution by weaving an isolated pocket dimension known as the Elemental Plane. Within it, they crafted four interlinked domains tailored to each primal force: Skywall for air, Deepholm for earth, the Abyssal Maw for water, and the Firelands for fire. The elemental lords and their myriad servants were banished into this realm, and powerful wards were set to sever the prison from the material world, allowing Azeroth's surface to finally know peace.",
+   "body": "In the ancient days, the elementals served as lieutenants of the Old Gods. When the titans triumphed, they banished the elemental lords and their myriad servants into an isolated realm known as the Elemental Plane, divided into four domains tailored to each primal force: Skywall for air, Deepholm for earth, the Abyssal Maw for water, and the Firelands for fire. With the elementals' departure, nature calmed, and Azeroth's surface finally knew peace.",
    "spoiler": 0
   },
   {
    "title": "Endless Strife",
-   "body": "Banishment did not temper the fury of the elementals. Confined within their pocket dimensions, the primordial powers waged endless wars against one another. The most terrible conflict, the Elemental Sundering, pitted the domains of fire and air against each other in a war that raged for millennia across the core of their prison. Meanwhile, a handful of elementals left behind on Azeroth gradually lost their fiery tempestuousness over ages, their forms softening into creatures of flesh and blood.",
+   "body": "Banishment did not temper the fury of the elementals. Confined within their prison, the primordial powers wage endless wars against one another across the boundaries of their domains.",
    "spoiler": 0
   },
   {
@@ -33,7 +33,7 @@
     "elemental plane explained",
     "elemental realms"
    ],
-   "answer": "The Elemental Plane is an artificial pocket dimension created by the titan-forged to contain the chaotic elementals of Azeroth. It is composed of four distinct domains corresponding to the four primary elements: Skywall for air, Deepholm for earth, the Abyssal Maw for water, and the Firelands for fire."
+   "answer": "The Elemental Plane is an artificial pocket dimension created by the titans to contain the chaotic elementals of Azeroth. It is composed of four distinct domains corresponding to the four primary elements: Skywall for air, Deepholm for earth, the Abyssal Maw for water, and the Firelands for fire."
   },
   {
    "q": "Who created the Elemental Plane and why?",
@@ -42,7 +42,7 @@
     "why was elemental plane made",
     "how was elemental plane made"
    ],
-   "answer": "The titan-forged Keepers crafted the Elemental Plane after the war with the Old Gods. Because the elementals were bound directly to Azeroth and would simply reform if slain, the Keepers imprisoned them within this separate dimension so nature on the surface could flourish in peace."
+   "answer": "The titans banished the elementals into this realm after defeating the Old Gods, whom the elemental lords had served. Sealing them away allowed nature on the surface to calm and flourish in peace."
   },
   {
    "q": "What are the four realms within the plane?",
@@ -103,7 +103,6 @@
   "abyssal maw",
   "deepholm",
   "elemental plane",
-  "elemental sundering",
   "firelands",
   "invasions",
   "ragnaros",

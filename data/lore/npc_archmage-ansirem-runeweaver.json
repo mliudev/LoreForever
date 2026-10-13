@@ -8,7 +8,7 @@
   "wiki": "Archmage Ansirem Runeweaver",
   "refs": 2
  },
- "summary": "Archmage Ansirem Runeweaver is a senior human wizard and a ruling member of Dalaran's Council of Six. Having survived the Scourge's destruction of Dalaran in the Third War, he oversees Kirin Tor operations from the Violet Citadel as Dalaran is rebuilt. Though dedicated to the rebuilding of his city, he also maintains discreet interests abroad\u2014including keeping a watchful eye on his pirate daughter.",
+ "summary": "Archmage Ansirem Runeweaver is a senior human wizard and a ruling member of Dalaran's Council of Six. Having survived the Scourge's destruction of Dalaran in the Third War, he oversees Kirin Tor operations from the Violet Citadel as Dalaran is rebuilt. Though dedicated to the rebuilding of his city, he also maintains discreet interests abroad\u2014including a willful daughter who ran off to Booty Bay to become a pirate.",
  "sections": [
   {
    "title": "A Pillar of the Kirin Tor",
@@ -17,7 +17,7 @@
   },
   {
    "title": "Far-Flung Interests",
-   "body": "Despite his scholarly duties and stern wizardly demeanor, Ansirem possesses personal ties far beyond the Alterac Mountains. His rebellious daughter, Catelyn, spurned the arcane arts to sail as a swashbuckler with the Blackwater Raiders. Rather than disown her, Ansirem keeps a few friends in Booty Bay plied with gold to send word of her exploits, and he has worked with Baron Revilgaz there. He has also engaged in arcane studies involving troll antiquities and maintains diplomatic conduits across distant realms.",
+   "body": "Despite his scholarly duties and stern wizardly demeanor, Ansirem possesses personal ties far beyond the Alterac Mountains. His willful daughter, Catelyn, ran off to Booty Bay to become a pirate, taking with her an ancient troll dagger he had found while researching in Stranglethorn. He has also dealt with Baron Revilgaz there. He has also engaged in arcane studies involving troll antiquities and maintains diplomatic conduits across distant realms.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "catelyn the blade",
     "catelyn runeweaver"
    ],
-   "answer": "His daughter, Catelyn, grew bored of magical study and chose a life of piracy instead, sailing with the Blackwater Raiders in Stranglethorn Vale. Although Ansirem wishes she had chosen a more conventional career, he continues to support her from afar and pays contacts in Booty Bay to keep him updated on her safety."
+   "answer": "His willful daughter, Catelyn, ran off to Booty Bay to become a pirate, and she is known there as Catelyn the Blade. Ansirem had given her an ancient troll dagger he found while researching in Stranglethorn, and she took it with her."
   },
   {
    "q": "What is his role in Dalaran?",
@@ -55,7 +55,7 @@
     "ansirem scourge",
     "did ansirem fight arthas"
    ],
-   "answer": "Yes. When Arthas and the Scourge besieged Dalaran to enable Kel'Thuzad's summoning of Archimonde, Ansirem was among the mages who fought them outside the city, and he survived its destruction."
+   "answer": "Yes. Ansirem has helped defend Dalaran for decades, and he lived through the Scourge's siege of the city, when Arthas guarded Kel'Thuzad's summoning of Archimonde. He survived its destruction and now helps rebuild it."
   }
  ],
  "angles": [

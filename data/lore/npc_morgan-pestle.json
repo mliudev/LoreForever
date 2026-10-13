@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "The City Apothecary",
-   "body": "Operating out of Pestle's Apothecary along the busy thoroughfares of Stormwind's Trade District, Morgan Pestle provides alchemical goods, reagents, and practical remedies to city residents and passing travelers. While his brother William maintains a workshop at the Lion's Pride Inn in Goldshire, Morgan keeps the family trade rooted in the heart of the kingdom's capital, managing shipments of herbs and compounds back and forth from the rural heartlands.",
+   "body": "Operating out of Pestle's Apothecary along the busy thoroughfares of Stormwind's Trade District, Morgan Pestle provides alchemical goods, reagents, and practical remedies to city residents and passing travelers. While his brother William maintains a workshop at the Lion's Pride Inn in Goldshire, Morgan keeps the family trade rooted in the heart of the kingdom's capital, receiving shipments, such as his brother's candles, from the rural heartlands.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "shipment to stormwind morgan",
     "morgan pestle quest"
    ],
-   "answer": "Morgan serves as the recipient for shipments and alchemical supplies sent northward from Goldshire by his brother William, connecting local herb harvesting with city commerce."
+   "answer": "Morgan is the recipient of the shipment of candles his brother William sends north from Goldshire to their shop, Pestle's Apothecary, and he pays the courier well for delivering it."
   }
  ],
  "angles": [

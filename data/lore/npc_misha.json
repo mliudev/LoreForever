@@ -8,16 +8,16 @@
   "wiki": "Misha",
   "refs": 4
  },
- "summary": "Misha is the loyal bear companion of Rexxar, the Champion of the Horde. Rescued as an orphaned cub, she wanders Kalimdor faithfully at the Mok'nathal beastmaster's side.",
+ "summary": "Misha is the loyal bear companion of Rexxar, the Champion of the Horde. She wanders Kalimdor faithfully at the half-ogre beastmaster's side.",
  "sections": [
   {
    "title": "A Boundless Bond",
-   "body": "Rexxar discovered Misha as an orphaned cub beside her slain mother in the Ruins of Ravenwind in Feralas. Recognizing a kindred solitary spirit, the wandering Mok'nathal adopted her and gave her a name. Together they ventured north into the arid wilds of Desolace, forging a fierce, protective partnership that has weathered countless wildernesses and bloody battles.",
+   "body": "Misha is a brown bear who walks at the side of the wandering Rexxar, a solitary spirit who trusts beasts more than people. Together they have forged a fierce, protective partnership that has weathered countless wildernesses and bloody battles.",
    "spoiler": 0
   },
   {
    "title": "Defender of Durotar",
-   "body": "Misha is far more than a tame pet; she is a seasoned warrior. She fought alongside Rexxar in the brutal conflict against Grand Admiral Daelin Proudmoore at Theramore Isle, helping ensure the young Horde's survival. When not in battle, her keen senses and strength serve as an extension of Rexxar's will, even carrying fallen allies such as the orc Byrok back to Orgrimmar.",
+   "body": "Misha is far more than a tame pet; she is a seasoned warrior. She fought alongside Rexxar in the brutal conflict against Grand Admiral Daelin Proudmoore at Theramore Isle, helping ensure the young Horde's survival. When not in battle, her keen senses and strength serve as an extension of Rexxar's will.",
    "spoiler": 0
   },
   {
@@ -35,15 +35,6 @@
     "misha bear"
    ],
    "answer": "Misha is a ferocious brown bear and the lifelong companion of Rexxar, the Champion of the Horde. She wanders the wilds alongside him across central Kalimdor."
-  },
-  {
-   "q": "Where did Rexxar find Misha?",
-   "aliases": [
-    "where did rexxar get misha",
-    "misha backstory",
-    "how did rexxar meet misha"
-   ],
-   "answer": "Rexxar found Misha as a small cub in the Ruins of Ravenwind in Feralas, stranded beside her dead mother. Seeing that they were both alone in the wild, Rexxar took her in."
   },
   {
    "q": "Where can Misha be found right now?",
@@ -96,7 +87,6 @@
   "desolace",
   "feralas",
   "misha",
-  "ravenwind",
   "rexxar",
   "stonetalon"
  ],
@@ -104,7 +94,6 @@
   "zone:desolace",
   "zone:feralas",
   "zone:stonetalon",
-  "subzone:ruins-of-ravenwind",
   "subzone:theramore-isle",
   "zone:orgrimmar",
   "topic:horde",

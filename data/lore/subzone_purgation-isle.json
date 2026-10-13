@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Haunted Sanctuary",
-   "body": "Rising abruptly from the sea south of Hillsbrad, Purgation Isle is a grim sight marked by winding paths that lead past tombstones to an abandoned watchtower. Long before modern conflicts, the island was associated with the maritime kingdom of Kul Tiras. Today, however, no living nation claims it. Instead, the isle is plagued by condemned souls\u2014former paladins, priests, mages, and judges who wander among the graves, unable to find peace in death.",
+   "body": "Rising abruptly from the sea south of Hillsbrad, Purgation Isle is a grim sight marked by winding paths that lead past tombstones to an abandoned watchtower. No living nation claims it today. Instead, the isle is plagued by condemned souls\u2014former paladins, priests, mages, and judges who wander among the graves, unable to find peace in death.",
    "spoiler": 0
   },
   {
@@ -40,14 +40,6 @@
    "answer": "The island is overrun by powerful condemned spirits, including cursed paladins, justiciars, clerics, acolytes, and writhing mages of human and dwarven descent."
   },
   {
-   "q": "Who originally owned Purgation Isle?",
-   "aliases": [
-    "history of purgation isle",
-    "who built purgation isle tower"
-   ],
-   "answer": "Prior to the First War, Purgation Isle was considered an outlying territory belonging to the island kingdom of Kul Tiras before falling into ruin and ghostly neglect."
-  },
-  {
    "q": "Who is Kormok and why does he care about this island?",
    "aliases": [
     "kormok connection",
@@ -71,14 +63,11 @@
   "hillsbrad",
   "judge thelgram",
   "kormok",
-  "kul tiras",
   "purgation isle",
   "spirits"
  ],
  "related": [
   "zone:hillsbrad",
-  "topic:kul-tiras",
-  "topic:first-war",
   "topic:dwarf",
   "topic:light"
  ],

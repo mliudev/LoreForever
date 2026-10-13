@@ -1,7 +1,7 @@
 {
  "key": "npc:darcy-parker",
  "type": "npc",
- "name": "Darcy Parker",
+ "name": "Darcy",
  "era": "classic",
  "zone": "redridge",
  "meta": {
@@ -67,7 +67,6 @@
  ],
  "keywords": [
   "darcy",
-  "darcy parker",
   "guard parker",
   "lakeshire",
   "lakeshire inn",

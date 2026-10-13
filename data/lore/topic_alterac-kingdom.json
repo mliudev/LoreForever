@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Nation in the Crags",
-   "body": "Alterac arose thousands of years ago as an Arathorian city-state following the Troll Wars. Settlers capitalized on strategic mountain passes and trading outposts, eventually establishing an independent realm when the empire fractured. Though rugged and mountainous, Alterac bordered the prosperous lands of Lordaeron and Stromgarde, extending as far as the shores of Darrowmere Lake. Historically, it fielded tough mountain fighters, but enduring border friction with Thoras Trollbane's Stromgarde left the kingdom politically isolated from its neighbors long before the Dark Portal ever opened.",
+   "body": "Alterac arose thousands of years ago as an Arathorian city-state following the Troll Wars. Settlers capitalized on strategic mountain passes and trading outposts, eventually establishing an independent realm when the empire fractured. Though rugged and mountainous, Alterac bordered the prosperous lands of Lordaeron and Stromgarde. Historically, it fielded tough mountain fighters, but enduring border friction with Thoras Trollbane's Stromgarde left the kingdom politically isolated from its neighbors long before the Dark Portal ever opened.",
    "spoiler": 0
   },
   {
@@ -55,15 +55,6 @@
    "answer": "The Syndicate is the criminal continuation of Alterac's nobility, founded by King Perenolde's son, Lord Aliden Perenolde. The organization seeks to take back their family estates and land across Hillsbrad and Alterac by force. Their signature orange masks match the historic national color of Alterac."
   },
   {
-   "q": "Did all Alteraci agree with the betrayal?",
-   "aliases": [
-    "were alterac people loyal",
-    "did all alterac betray alliance",
-    "general hath"
-   ],
-   "answer": "No. Many Alteraci soldiers initially marched and died fighting loyally under Anduin Lothar in Hillsbrad. When King Thoras Trollbane of Stromgarde confronted him, General Hath reluctantly confirmed Perenolde's treason and sent his troops to help halt the orcish advance through the mountain passes."
-  },
-  {
    "q": "What are Alterac's traditional colors and symbols?",
    "aliases": [
     "alterac flag",
@@ -100,7 +91,6 @@
   "aliden",
   "alterac",
   "betrayal",
-  "hath",
   "horde",
   "orgrim doomhammer",
   "perenolde",

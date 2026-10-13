@@ -8,11 +8,11 @@
   "wiki": "Tirion Fordring",
   "refs": 6
  },
- "summary": "Tirion Fordring is a legendary paladin and former lord of Mardenholde Keep, now living in quiet exile in the Eastern Plaguelands. One of the original five paladins anointed into the Knights of the Silver Hand, he was stripped of his title and lands for honoring a debt of honor to an enemy orc. From his modest cabin along the Thondroril River, he watches over the tragedy unfolding across Lordaeron and worries for his son.",
+ "summary": "Tirion Fordring is a legendary paladin and former lord of Mardenholde Keep, now living in quiet exile in the Eastern Plaguelands. A paladin of the Knights of the Silver Hand, he was stripped of his title and lands for honoring a debt of honor to an enemy orc. From his modest cabin along the Thondroril River, he watches over the tragedy unfolding across Lordaeron and worries for his son.",
  "sections": [
   {
-   "title": "One of the First Five",
-   "body": "Before the ruin of Lordaeron, Tirion Fordring was renowned as one of the kingdom's finest knights. During the Second War, Archbishop Alonsus Faol chose him alongside Uther the Lightbringer, Turalyon, Saidan Dathrohan, and Gavinrad the Dire to create the Knights of the Silver Hand. Armed with plate, holy devotion, and the Libram of Retribution, Tirion led soldiers through brutal clashes against the Old Horde, including the bloody Siege of Blackrock Spire. He was revered as an unyielding paragon of the Holy Light.",
+   "title": "A Knight of the Silver Hand",
+   "body": "Before the ruin of Lordaeron, Tirion Fordring was renowned as one of the kingdom's finest knights. A paladin of the Knights of the Silver Hand, the order Archbishop Alonsus Faol founded during the Second War, Tirion fought the Old Horde with plate, hammer, and holy devotion. He was revered as an unyielding paragon of the Holy Light.",
    "spoiler": 0
   },
   {
@@ -35,7 +35,7 @@
     "who is tirion",
     "hermit paladin"
    ],
-   "answer": "Tirion Fordring was one of the founding five paladins of the Knights of the Silver Hand and the former governor of Hearthglen. He was exiled by his peers for defending an orc out of honor, and he now lives as a hermit in a secluded cabin on the western edge of the Eastern Plaguelands."
+   "answer": "Tirion Fordring is a paladin of the Knights of the Silver Hand and the former governor of Hearthglen. He was exiled by his peers for defending an orc out of honor, and he now lives as a hermit in a secluded cabin on the western edge of the Eastern Plaguelands."
   },
   {
    "q": "Why was Tirion exiled from Lordaeron?",
@@ -80,13 +80,13 @@
     "original silver hand paladins",
     "alonsus faol paladins"
    ],
-   "answer": "Archbishop Alonsus Faol anointed five champions to form the Knights of the Silver Hand during the Second War: Uther the Lightbringer, Turalyon, Saidan Dathrohan, Gavinrad the Dire, and Tirion Fordring."
+   "answer": "Archbishop Alonsus Faol founded the Knights of the Silver Hand during the Second War, with Uther the Lightbringer as the first of its paladins. Tirion's brother knights included Turalyon and his close friend Saidan Dathrohan."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Standing before Tirion is standing before the living dawn of your order; he is one of the original five knights consecrated by Alonsus Faol and a master of the Holy Light who proved that true righteousness transcends mortal laws."
+   "text": "Standing before Tirion is standing before the living dawn of your order; he is a knight of the Silver Hand from the Second War and a master of the Holy Light who proved that true righteousness transcends mortal laws."
   },
   {
    "target": "race:Human",
@@ -107,7 +107,6 @@
   "exile",
   "fordring",
   "hearthglen",
-  "libram of retribution",
   "mardenholde",
   "silver hand",
   "taelan",

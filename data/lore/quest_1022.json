@@ -17,7 +17,7 @@
   "wiki": "The Howling Vale (quest)",
   "chain": []
  },
- "summary": "Assigned by Sentinel Melyria Frostshadow at Forest Song, this quest sends Alliance adventurers into the Howling Vale near the Felwood border. The ruined shrine of Mel'Thandris has been overrun by feral wolf-men known as worgen. By consulting the sacred Tome of Mel'Thandris, investigators hope to uncover why these bizarre creatures have emerged in Ashenvale.",
+ "summary": "Assigned by Sentinel Melyria Frostshadow at the Shrine of Aessina, this quest sends Alliance adventurers into the Howling Vale near the Felwood border. The ruined shrine of Mel'Thandris has been overrun by feral wolf-men known as worgen. By consulting the sacred Tome of Mel'Thandris, investigators hope to uncover why these bizarre creatures have emerged in Ashenvale.",
  "sections": [
   {
    "title": "A Chilling Presence",
@@ -38,7 +38,7 @@
     "how to get to howling vale",
     "where is the shrine of mel'thandris"
    ],
-   "answer": "The Howling Vale sits in the northern reaches of Ashenvale, close to the border of Felwood. From Forest Song, take the road heading north toward Felwood. On the western side of the path, a trail leads up into a cave entrance that opens out into the hidden vale and the ruined shrine of Mel'Thandris."
+   "answer": "The Howling Vale sits in north-central Ashenvale, just southwest of the border of Felwood. A cave passage opens out into the hidden vale and the ruined shrine of Mel'Thandris."
   },
   {
    "q": "What are the wolf-men in the vale?",
@@ -74,7 +74,7 @@
     "howling vale quest giver",
     "melyria frostshadow"
    ],
-   "answer": "Sentinel Melyria Frostshadow provides the quest from the night elf outpost of Forest Song in eastern Ashenvale. She is deeply concerned about demonic incursions from Felwood and the unexplained emergence of the worgen nearby."
+   "answer": "Sentinel Melyria Frostshadow provides the quest from the Shrine of Aessina in Ashenvale. She is deeply concerned about demonic incursions from Felwood and the unexplained emergence of the worgen nearby."
   },
   {
    "q": "Why does Sentinel Melyria care about the shrine?",
@@ -82,7 +82,7 @@
     "why investigate howling vale",
     "forest song sentinels"
    ],
-   "answer": "Forest Song stands as a bulwark against corruption from Felwood. When mysterious wolf-men violently overtook an ancient night elf holy site right along that border, the Sentinels needed to discover whether this was a demonic scheme or an entirely new danger."
+   "answer": "The Sentinels in Ashenvale stand as a bulwark against corruption from Felwood. When mysterious wolf-men violently overtook an ancient night elf holy site right along that border, the Sentinels needed to discover whether this was a demonic scheme or an entirely new danger."
   }
  ],
  "angles": [
@@ -92,17 +92,16 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "The investigation at Forest Song marks the beginning of an Alliance search into the origin of the terrifying worgen beasts that stalk both northern Kalimdor and the Eastern Kingdoms."
+   "text": "The investigation at the Howling Vale marks the beginning of an Alliance search into the origin of the terrifying worgen beasts that stalk both northern Kalimdor and the Eastern Kingdoms."
   },
   {
    "target": "class:Priest",
-   "text": "Priests will find the fate of Priestess Velinde Starsong illuminating, showing how answered prayers to Elune took a dark and unforeseen turn through the Scythe."
+   "text": "Priests will find the search for Priestess Velinde Starsong a sobering tale of devotion to Elune."
   }
  ],
  "keywords": [
   "ashenvale",
   "felwood",
-  "forest song",
   "howling vale",
   "mel'thandris",
   "melyria frostshadow",
@@ -114,7 +113,6 @@
  ],
  "related": [
   "npc:sentinel-melyria-frostshadow",
-  "subzone:forest-song",
   "subzone:howling-vale",
   "quest:1037",
   "topic:worgen",

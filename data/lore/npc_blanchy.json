@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Faithful Farmhand",
-   "body": "Long before pulling the Furlbrows' wagon through the dust of Westfall, Blanchy was raised in the northern stables of Tarren Mill in Hillsbrad. Sold south across the sea to work the breadbasket of Stormwind, she earned a reputation as an exceptionally sweet-tempered, well-behaved mare. Decades of heavy labor have worn her down to 'Old Blanchy,' and the arduous journey fleeing troubled homesteads has left her exhausted. Though visibly weary, her appetite remains hearty, and travelers who bring her nourishing handfuls of oats scattered across the surrounding fields are rewarded by Verna with Blanchy's own treasured blanket and feed pouch.",
+   "body": "Long before pulling the Furlbrows' wagon through the dust of Westfall, Blanchy worked the Furlbrows' farm in the breadbasket of Stormwind, where she earned a reputation as an exceptionally sweet-tempered, well-behaved mare. Years of heavy labor have worn her down to 'Old Blanchy,' and the arduous journey fleeing troubled homesteads has left her exhausted. Though visibly weary, her appetite remains hearty, and travelers who bring her nourishing handfuls of oats scattered across the surrounding fields are rewarded by Verna with Blanchy's own treasured blanket and feed pouch.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "where is blanchy from",
     "young blanchy"
    ],
-   "answer": "She was born and raised far to the north in Lordaeron, stabled at Tarren Mill in the Hillsbrad Foothills. As a filly, she was transported through Southshore and shipped south across the Great Sea to live on a Westfall farm."
+   "answer": "No record tells where Blanchy was foaled. As far as anyone in Westfall knows, she has long been the Furlbrows' horse, working their farm until the family had to take to the road."
   },
   {
    "q": "Why does Verna Furlbrow need oats for Blanchy?",
@@ -51,7 +51,7 @@
     "where is old blanchy",
     "blanchy map"
    ],
-   "answer": "Old Blanchy stands hitched beside the Furlbrow wagon along the main road near the Jansen Stead in central Westfall."
+   "answer": "Old Blanchy stands hitched beside the Furlbrow wagon along the main road near the Jansen Stead in northern Westfall."
   }
  ],
  "angles": [
@@ -72,10 +72,7 @@
  "related": [
   "npc:verna-furlbrow",
   "subzone:jansen-stead",
-  "zone:westfall",
-  "zone:hillsbrad",
-  "subzone:tarren-mill",
-  "subzone:southshore"
+  "zone:westfall"
  ],
  "attribution": [
   "Blanchy"

@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Pact Forged in Shadow",
-   "body": "In the subterranean depths of the Cleft of Shadows, the dark arts are studied far from the prying eyes of the Warchief's guards. For an aspiring warlock under the tutelage of Gan'rul Bloodeye, commanding a voidwalker marks a vital step in their craft. The Glyphs of Summoning, derived from the esoteric knowledge inscribed upon the Tablet of Verga, bridge the boundary between Azeroth and the Nether. Laid down within the summoning circle in Neeru Fireblade's tent, the glyphs tear open a threshold, pulling a creature of the Void into the mortal realm. The ritual demands that the warlock conquer the summoned entity in combat before Gan'rul imparts the final methods of binding.",
+   "body": "In the subterranean depths of the Cleft of Shadow, the dark arts are studied far from the prying eyes of the Warchief's guards. For an aspiring warlock under the tutelage of Gan'rul Bloodeye, commanding a voidwalker marks a vital step in their craft. The Glyphs of Summoning, derived from the esoteric knowledge inscribed upon the Tablet of Verga, bridge the boundary between Azeroth and the Nether. Laid down within the summoning circle in Neeru Fireblade's tent, the glyphs tear open a threshold, pulling a creature of the Void into the mortal realm. The ritual demands that the warlock conquer the summoned entity in combat before Gan'rul imparts the final methods of binding.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "where to get glyphs of summoning",
     "who gives glyphs of summoning"
    ],
-   "answer": "They are provided by the warlock trainer Gan'rul Bloodeye in the Cleft of Shadows, derived from the knowledge preserved on the Tablet of Verga."
+   "answer": "They are provided by the warlock trainer Gan'rul Bloodeye in the Cleft of Shadow, derived from the knowledge preserved on the Tablet of Verga."
   },
   {
    "q": "Where is the summoning ritual performed?",
@@ -43,7 +43,7 @@
     "summoning circle location orgrimmar",
     "neeru fireblade circle"
    ],
-   "answer": "The ritual takes place inside the tent of Neeru Fireblade, located across the cavern floor within Orgrimmar's Cleft of Shadows."
+   "answer": "The ritual takes place inside the tent of Neeru Fireblade, located across the cavern floor within Orgrimmar's Cleft of Shadow."
   },
   {
    "q": "Why do warlocks have to defeat the summoned creature?",
@@ -61,7 +61,7 @@
   }
  ],
  "keywords": [
-  "cleft of shadows",
+  "cleft of shadow",
   "gan'rul bloodeye",
   "glyphs of summoning",
   "neeru fireblade",
@@ -71,10 +71,10 @@
   "voidwalker"
  ],
  "related": [
-  "quest:1471",
+  "quest:1504",
   "npc:gan-rul-bloodeye",
   "item:tablet-of-verga",
-  "quest:1473",
+  "quest:1501",
   "quest:1506",
   "zone:orgrimmar",
   "quest:829"

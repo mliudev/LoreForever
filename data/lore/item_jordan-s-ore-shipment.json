@@ -10,11 +10,11 @@
    "quest:1655"
   ]
  },
- "summary": "Jordan's Ore Shipment is a crate of refined alloy intended for the smith Jordan Stilwell. Bound for Ironforge from the Wetlands, the delivery was intercepted and looted by Mo'grosh ogres in the northeastern hills of Loch Modan.",
+ "summary": "Jordan's Ore Shipment is a crate of ore that Bailor Stonehand was to turn into his alloy for the smith Jordan Stilwell. Carried by caravan from the Wetlands, the delivery was intercepted and looted by Mo'grosh ogres in the northeastern hills of Loch Modan.",
  "sections": [
   {
    "title": "An Ambushed Delivery",
-   "body": "Forged by the dwarf Bailor Stonehand, this special alloy was originally promised to Jordan Stilwell for his metalwork. While crossing south through the mountains from the Wetlands into Loch Modan, the supply caravan was violently ambushed by the Mo'grosh ogres. The shipment was dragged into the ogres' wilderness stronghold, leaving the surviving guards to perish from their wounds and halting Jordan's smithing project until an adventurer can pry it back from the brutes.",
+   "body": "Meant to be refined by the dwarf Bailor Stonehand into his special alloy, this ore was originally promised to Jordan Stilwell for his metalwork. While crossing south through the mountains from the Wetlands into Loch Modan, the supply caravan was violently ambushed by the Mo'grosh ogres. The shipment was dragged into the ogres' wilderness stronghold, leaving the surviving guards to perish from their wounds and halting Jordan's smithing project until an adventurer can pry it back from the brutes.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what ore is this",
     "jordan ore contents"
    ],
-   "answer": "The shipment contains a specialized alloy crafted by the dwarf Bailor Stonehand, promised to the smith Jordan Stilwell for his metalcrafting in Ironforge."
+   "answer": "The shipment holds ore that the dwarf Bailor Stonehand refines into his special alloy, promised to the smith Jordan Stilwell for his metalcrafting in Ironforge."
   },
   {
    "q": "Who stole Jordan's Ore Shipment?",

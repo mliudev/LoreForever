@@ -19,7 +19,7 @@
   },
   {
    "title": "Honoring the Fallen",
-   "body": "When presented to Sentinel Raene Wolfrunner in Astranaar, the skull marks the conclusion of an investigation sparked by the fallen scout Teronis. Alongside Dartol's Rod—an ancient artifact cleansed of corruption—Ran Bloodtooth's skull is kept on display as a testament to the courage of those who fought to preserve the sacred forest.",
+   "body": "When presented to Sentinel Raene Wolfrunner in Astranaar, the skull marks the conclusion of an investigation sparked by the fallen scout Teronis. Alongside Dartol's Rod—the rebuilt rod Teronis had set out to find—Ran Bloodtooth's skull is kept on display as a testament to the courage of those who fought to preserve the sacred forest.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "raene wolfrunner skull",
     "what is the skull for"
    ],
-   "answer": "Raene Wolfrunner in Astranaar requires physical proof of Ran Bloodtooth's defeat. The skull is placed alongside Dartol's Rod as a symbol of victory and remembrance for those lost defending Ashenvale."
+   "answer": "Raene Wolfrunner in Astranaar receives the skull as proof of Ran Bloodtooth's defeat. The skull is placed alongside Dartol's Rod as a symbol of victory and remembrance for those lost defending Ashenvale."
   },
   {
    "q": "Who was Teronis?",
@@ -49,13 +49,13 @@
     "who is teronis",
     "teronis astranaar"
    ],
-   "answer": "Teronis was a night elf Sentinel who died while attempting to cleanse an enchanted rod and uncover the source of the furbolg madness plaguing Ashenvale. His efforts were taken up by Raene Wolfrunner and visiting adventurers."
+   "answer": "Teronis was Raene Wolfrunner's longtime friend who aided the Sentinels in Ashenvale. He set out to find a gem for a rod made by the dead wizard Dartol, hoping it could slow the furbolg attacks, but was slain by murlocs at Lake Falathim. His task was taken up by Raene Wolfrunner and visiting adventurers."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves, taking the skull is a somber victory. While it avenges Teronis, it is also a reminder of how deeply demonic corruption has ravaged their former furbolg allies."
+   "text": "For the night elves, taking the skull is a somber victory. While it honors Teronis's unfinished task, it is also a reminder of how deeply demonic corruption has ravaged their former furbolg allies."
   },
   {
    "target": "faction:Alliance",
