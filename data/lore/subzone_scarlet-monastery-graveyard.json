@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Scarlet Monastery Graveyard"
  },
- "summary": "The Scarlet Monastery Graveyard is the burial wing of the grand religious complex in northeastern Tirisfal Glades. Once a serene resting place for Lordaeron's clergy and nobility, it has fallen into chilling neglect, overrun by lingering undead and the corrupted magic of the fallen crusader Bloodmage Thalnos.",
+ "summary": "The Scarlet Monastery Graveyard is the burial wing of the grand religious complex in northeastern Tirisfal Glades. Once a serene resting place for Lordaeron's clergy and nobility, it has fallen into chilling neglect, overrun by lingering undead and the corrupted magic of the skeletal Bloodmage Thalnos.",
  "sections": [
   {
    "title": "A Defiled Sanctuary",
@@ -16,7 +16,7 @@
   },
   {
    "title": "Corruption from Within",
-   "body": "At the rear of the grounds stands Honor's Tomb, where the greatest mockery of the Crusade's dogma festers: Bloodmage Thalnos. Once infamous within the Crusade for the brutal torture he used to purify new recruits, Thalnos contracted the plague of undeath and rose as a skeletal horror wielding shadow bolts and fire. The crusaders above preach total extermination of the undead plague, yet they harbor a rotting, fallen sorcerer within their own consecrated soil.",
+   "body": "At the rear of the grounds stands Honor's Tomb, where the greatest mockery of the Crusade's dogma festers: Bloodmage Thalnos. No record tells who he was in life, but the plague of undeath claimed him, and he rose as a skeletal horror wielding shadow bolts and fire. The crusaders above preach total extermination of the undead plague, yet they harbor a rotting, fallen sorcerer within their own consecrated soil.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "who is bloodmage thalnos",
     "graveyard boss"
    ],
-   "answer": "Thalnos was once a sadistic Scarlet Crusade mage, notorious for the brutal torture he used to purify new recruits. He contracted the plague of undeath and rose as a skeletal horror who now rules the desecrated crypts of Honor's Tomb."
+   "answer": "Who Thalnos was in life is not recorded. The plague of undeath claimed him, and he rose as a skeletal spellcaster who now rules the desecrated crypts of Honor's Tomb."
   },
   {
    "q": "Where is the Graveyard wing located inside the monastery?",

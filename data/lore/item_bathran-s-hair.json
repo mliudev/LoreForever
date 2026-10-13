@@ -19,7 +19,7 @@
   },
   {
    "title": "Gathering Amid the Ruins",
-   "body": "Finding Bathran's Hair has grown perilous. The herb is found gathered into discarded plant bundles and beneath leaf piles strewn across Bathran's Haunt, near the border of Darkshore. Adding to the danger, Forsaken apothecaries and their undead agents have established a presence among the ruins, harvesting the local botanical resources for their own dark, unwholesome concoctions.",
+   "body": "Finding Bathran's Hair has grown perilous. The herb is found gathered into discarded plant bundles and beneath leaf piles strewn across Bathran's Haunt, near the border of Darkshore. Adding to the danger, Forsaken have been seen among the ruins, news that Orendil Broadleaf finds very troubling indeed.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "forsaken in bathrans haunt",
     "undead bathran"
    ],
-   "answer": "Forsaken intruding into Ashenvale have established a camp among the ruins to gather native plants and magical reagents. Their presence alarms local night elves, who fear what the undead alchemists intend to create with the region's flora."
+   "answer": "Orendil Broadleaf only learns that Forsaken are at Bathran's Haunt and finds it very troubling; what they want there is never explained. Elsewhere in Ashenvale, night elves report Forsaken lurking at their ruins and barrows and fear they mean to spread disease across the forest."
   },
   {
    "q": "Who is Orendil Broadleaf?",
@@ -67,7 +67,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, protecting sacred flora like Bathran's Hair from desecration by Forsaken defilers is a matter of both survival and preservation of their ancient homeland."
+   "text": "For the Kaldorei, Forsaken turning up among the ruins where healing flora like Bathran's Hair still grows is a troubling sign for the preservation of their ancient homeland."
   }
  ],
  "keywords": [

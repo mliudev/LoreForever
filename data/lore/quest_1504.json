@@ -25,7 +25,7 @@
  "sections": [
   {
    "title": "Subjugation of the Void",
-   "body": "For an initiate warlock lurking in the dark tunnels of the Cleft of Shadows, summoning an imp is merely child's play. Subduing a voidwalker is the first true test of willpower and arcane dominance. Warlocks do not form polite pacts or commune with these otherworldly horrors; they wrest them across dimensions through raw force and bind them in eternal servitude. Gan'rul Bloodeye demands that the initiate draw upon the glyphs transcribed from the Tablet of Verga, calling the monstrosity directly into Neeru Fireblade's ritual circle to break it in single combat.",
+   "body": "For an initiate warlock lurking in the dark tunnels of the Cleft of Shadow, summoning an imp is merely child's play. Subduing a voidwalker is the first true test of willpower and arcane dominance. Warlocks do not form polite pacts or commune with these otherworldly horrors; they wrest them across dimensions through raw force and bind them in eternal servitude. Gan'rul Bloodeye demands that the initiate draw upon the glyphs transcribed from the Tablet of Verga, calling the monstrosity directly into Neeru Fireblade's ritual circle to break it in single combat.",
    "spoiler": 0
   },
   {
@@ -51,7 +51,7 @@
     "summoning circle location",
     "ritual site"
    ],
-   "answer": "The ritual is carried out inside the tent of Neeru Fireblade, located within the Cleft of Shadows beneath Orgrimmar. A designated summoning circle inscribed on the ground focuses the dimensional energies needed to tear the voidwalker from the Nether."
+   "answer": "The ritual is carried out inside the tent of Neeru Fireblade, located within the Cleft of Shadow beneath Orgrimmar. A designated summoning circle inscribed on the ground focuses the dimensional energies needed to tear the voidwalker from the Nether."
   },
   {
    "q": "What is the Tablet of Verga used for?",
@@ -76,7 +76,7 @@
     "who is ganrul",
     "gan'rul bloodeye"
    ],
-   "answer": "Gan'rul Bloodeye is a senior warlock trainer of the Horde stationed in the shadowy caverns of Orgrimmar's Cleft of Shadows. He oversees the dark education of young Horde practitioners, teaching them how to enslave more potent demonic entities."
+   "answer": "Gan'rul Bloodeye is a senior warlock trainer of the Horde stationed in the shadowy caverns of Orgrimmar's Cleft of Shadow. He oversees the dark education of young Horde practitioners, teaching them how to enslave more potent demonic entities."
   },
   {
    "q": "Can a bound voidwalker ever be fully trusted?",
@@ -95,7 +95,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "Orcish warlocks operate in hidden corners like the Cleft of Shadows, practicing their dark arts far from the disapproving gaze of Warchief Thrall and the shamanic revival."
+   "text": "Orcish warlocks operate in hidden corners like the Cleft of Shadow, practicing their dark arts far from the disapproving gaze of Warchief Thrall and the shamanic revival."
   },
   {
    "target": "faction:Horde",
@@ -103,7 +103,7 @@
   }
  ],
  "keywords": [
-  "cleft of shadows",
+  "cleft of shadow",
   "gan'rul bloodeye",
   "glyphs of summoning",
   "neeru fireblade",

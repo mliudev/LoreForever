@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Ruins of Uldum"
  },
- "summary": "Tucked into the jagged cliffs of the Valley of the Watchers in southern Tanaris, the Ruins of Uldum consist of an ancient stone antechamber guarding a sealed Titan facility. Massive stone doors and crumbling earthen constructs protect its secrets from grave robbers and curious explorers alike.",
+ "summary": "Tucked into the jagged cliffs of the Valley of the Watchers in southern Tanaris, the Ruins of Uldum consist of an ancient stone hall guarding a sealed Titan facility. Massive stone doors protect its secrets from grave robbers and curious explorers alike.",
  "sections": [
   {
    "title": "The Antechamber of the Titans",
-   "body": "Carved deep into the bedrock of southern Tanaris, the Ruins of Uldum appear to be an antechamber or grand threshold to a far larger, sealed subterranean complex. Inside, silent Sandstone Earthen stand sentinel alongside exposed titan machinery and an ancient relic known as the Antediluvean Chest. Although violent tremors long ago ripped the outer doorway open, internal cave-ins and massive stone barriers have kept the deeper tunnels inaccessible. The dormant earthen do not stir unless threatened or unless an intruder tampers directly with the antechamber's safeguarded relics.",
+   "body": "Carved deep into the bedrock of southern Tanaris, the Ruins of Uldum appear to be an antechamber or grand threshold to a far larger, sealed subterranean complex. Its colossal stone gates stand shut against the outside world, and no mechanism or key known to modern scholars has managed to open them.",
    "spoiler": 0
   },
   {
@@ -28,7 +28,7 @@
     "what is uldum tanaris",
     "ruins of uldum interior"
    ],
-   "answer": "The ruins consist of an antechamber filled with dormant Sandstone Earthen, exposed titan machinery, and the Antediluvean Chest. The deeper tunnels leading further inside the complex are collapsed and blocked off by massive stone doors."
+   "answer": "No one knows for certain. The ruins are an ancient titan hall sealed behind massive stone gates, and the complex beyond them remains closed to modern explorers."
   },
   {
    "q": "Can players enter the main facility behind the door?",
@@ -37,16 +37,7 @@
     "how to get into uldum",
     "open uldum door"
    ],
-   "answer": "No. The inner entrance is permanently sealed and collapsed. Ancient watchers note that access to the deeper complex requires the lost Plates of Uldum, which cannot currently be used to bypass the barrier."
-  },
-  {
-   "q": "Why are the Sandstone Earthen standing still?",
-   "aliases": [
-    "why are earthen friendly",
-    "why don't earthen attack",
-    "sandstone earthen passive"
-   ],
-   "answer": "The Sandstone Earthen inside the ruins are malfunctioning and dormant. Having hibernated within the facility since the Great Sundering, they remain inert unless an outsider attacks them or disturbs the Antediluvean Chest."
+   "answer": "No. The gates remain sealed. The Stone Watcher of Norgannon says entry into the Uldum compound is allowed only to those who carry the lost Plates of Uldum, and no one has yet found them."
   },
   {
    "q": "What was Uldum built for?",
@@ -56,15 +47,6 @@
     "lore of uldum"
    ],
    "answer": "Titan constructs such as the Stone Watcher of Norgannon describe Uldum as a research complex intended to study, sustain, and enhance Azeroth's biosphere, similar in origin to sites like Uldaman and Ulduar."
-  },
-  {
-   "q": "What happens if someone opens the Antediluvean Chest?",
-   "aliases": [
-    "antediluvean chest trap",
-    "what guards the chest",
-    "antechamber guardian"
-   ],
-   "answer": "Tampering with the chest triggers an ancient security mechanism, summoning a hostile construct known as the Antechamber Guardian to eliminate the trespasser."
   }
  ],
  "angles": [
@@ -78,8 +60,6 @@
   }
  ],
  "keywords": [
-  "antechamber guardian",
-  "antediluvean chest",
   "earthen",
   "tanaris",
   "titans",

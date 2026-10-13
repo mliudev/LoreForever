@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Cleft of Shadow"
  },
- "summary": "Tucked deep within the subterranean caverns beneath Orgrimmar, the Cleft of Shadow houses the city's practitioners of stealth, sorcery, and demonology. Far from the proud warrior ethos of Thrall's upper districts, it serves as a necessary haven for rogues, warlocks, and mages operating in the shadows of the Horde.",
+ "summary": "Tucked deep within the subterranean caverns beneath Orgrimmar, the Cleft of Shadow houses the city's practitioners of stealth, sorcery, and demonology. Far from the proud warrior ethos of Thrall's upper districts, it serves as a necessary haven for rogues and warlocks operating in the shadows of the Horde.",
  "sections": [
   {
    "title": "A Subterranean Sanctuary",
-   "body": "While Thrall's new Horde champions honor, shamanism, and strength of arms, practical leadership demands a place for subtler arts. Carved into the damp stone caverns below the capital, the Cleft of Shadow hosts the Shadowswift Brotherhood of rogues, the Darkfire Enclave of warlocks, and the scholars of the Arcane Enclave. Kept away from the everyday bustle of the valley districts, this dark quarter allows practitioners of poison, fel energy, and arcane magic to ply their trades out of direct public view while remaining under the watchful eye of Orgrimmar's leadership.",
+   "body": "While Thrall's new Horde champions honor, shamanism, and strength of arms, practical leadership demands a place for subtler arts. Carved into the damp stone caverns below the capital, the Cleft of Shadow hosts the Shadowswift Brotherhood of rogues and the Darkfire Enclave of warlocks. Kept away from the everyday bustle of the valley districts, this dark quarter allows practitioners of poison and fel energy to ply their trades out of direct public view while remaining under the watchful eye of Orgrimmar's leadership.",
    "spoiler": 0
   },
   {
@@ -36,7 +36,7 @@
     "trainers in cleft of shadow",
     "who is in cleft of shadow"
    ],
-   "answer": "The cavern serves as Orgrimmar's primary hub for rogue, warlock, and mage trainers. It also hosts poison suppliers, reagent vendors, and wand and staff merchants."
+   "answer": "The cavern serves as Orgrimmar's primary hub for rogue and warlock trainers. It also hosts poison suppliers, reagent vendors, and wand and staff merchants."
   },
   {
    "q": "What is the entrance at the bottom of the cavern?",
@@ -59,10 +59,8 @@
   }
  ],
  "keywords": [
-  "arcane enclave",
   "cleft of shadow",
   "darkfire enclave",
-  "mage",
   "orgrimmar",
   "ragefire chasm",
   "rogue",
@@ -72,7 +70,6 @@
  "related": [
   "zone:orgrimmar",
   "zone:ragefire",
-  "zone:blastedlands",
   "subzone:valley-of-spirits"
  ],
  "attribution": [

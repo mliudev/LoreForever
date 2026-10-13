@@ -24,7 +24,7 @@
  "sections": [
   {
    "title": "A Plague on the Forests",
-   "body": "The night elves of Forest Song have long contended with satyrs, raging elementals, and orcish logging crews, but the arrival of the Forsaken marks a darker turn. Rather than merely felling timber, the undead arm of the Horde is establishing footholds near ancient ruins and sacred barrow dens. Their presence brings not only war, but the horrific specter of alchemical plague into pristine Kaldorei groves.",
+   "body": "The night elves of Ashenvale have long contended with satyrs, raging elementals, and orcish logging crews, but the arrival of the Forsaken marks a darker turn. Rather than merely felling timber, the undead arm of the Horde is establishing footholds near ancient ruins and sacred barrow dens. Their presence brings not only war, but the horrific specter of alchemical plague into pristine Kaldorei groves.",
    "spoiler": 0
   },
   {
@@ -41,7 +41,7 @@
     "who gives forsaken diseases",
     "forest song questgiver"
    ],
-   "answer": "Kayneth Stillwind is an Alliance scout stationed at the outpost of Forest Song in eastern Ashenvale. He monitors hostile movements throughout the region, specifically tracking threats posed by the Forsaken and corrupting influences near the barrow dens."
+   "answer": "Kayneth Stillwind is a night elf keeping watch from the ruins of Forest Song in eastern Ashenvale. He monitors hostile movements throughout the region, specifically tracking threats posed by the Forsaken and corrupting influences near the barrow dens."
   },
   {
    "q": "Where is the Forsaken camp located?",
@@ -76,7 +76,7 @@
     "forest song outpost",
     "what is forest song"
    ],
-   "answer": "Forest Song is an Alliance encampment and ruined night elf settlement in far eastern Ashenvale, situated near the border of Azshara. It serves as a vital staging post for night elf scouts watching the surrounding wilderness."
+   "answer": "Forest Song is an ancient, nearly abandoned night elf ruin in far eastern Ashenvale, near the border of Azshara. Kayneth Stillwind is its lone inhabitant, directing the fight against the Forsaken in the region from there."
   },
   {
    "q": "What are the barrow dens in Ashenvale?",

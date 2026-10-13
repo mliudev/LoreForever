@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "Guardians of the Southern Pass",
-   "body": "The valley's most commanding feature is the pair of colossal statues depicting King Madoran Bronzebeard and High Thane Khardros Wildhammer. Carved by joint commission from their sons following their deaths, these stone titans overlook the pass into the scorched southlands. They stand as a lasting monument to the allied victory in the War of the Three Hammers and an eternal warning against the Dark Iron clan, reminding all who look south of the ruin brought upon the Redridge Mountains by the summoning of Ragnaros.",
+   "body": "The valley's most commanding feature is the pair of colossal statues depicting King Madoran Bronzebeard and High Thane Khardros Wildhammer. Carved by joint commission from their sons following their deaths, these stone titans overlook the pass into the scorched southlands. They stand as a lasting monument to the allied victory in the War of the Three Hammers and an eternal warning against the Dark Iron clan, reminding all who look south of the ruin brought upon the southlands by the summoning of Ragnaros.",
    "spoiler": 0
   },
   {
@@ -64,7 +64,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "The valley acts as the northern bulwark against the gathering threats of the Redridge badlands, keeping the smoldering perils of the Searing Gorge from spilling into peaceful Khaz Modan."
+   "text": "The valley acts as the northern bulwark against the gathering threats of the southern badlands, keeping the smoldering perils of the Searing Gorge from spilling into peaceful Khaz Modan."
   }
  ],
  "keywords": [

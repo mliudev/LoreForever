@@ -41,7 +41,7 @@
     "where is camp ethok",
     "camp ethok map"
    ],
-   "answer": "Camp E'thok is situated in northwestern Thousand Needles, nestled along the base of the canyon walls near Splithoof Heights."
+   "answer": "Camp E'thok is situated in northwestern Thousand Needles, nestled along the base of the canyon walls."
   }
  ],
  "angles": [
@@ -62,7 +62,6 @@
   "zone:thousandneedles",
   "topic:centaur",
   "npc:wizlo-bearingshiner",
-  "subzone:splithoof-heights",
   "topic:goblin"
  ],
  "attribution": [

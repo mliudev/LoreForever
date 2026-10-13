@@ -21,7 +21,7 @@
   },
   {
    "title": "The Legacy of Karazhan",
-   "body": "The history of the pass revolves around the towering citadel of Karazhan. Built atop a potent convergence of subterranean ley lines, the tower served as the redoubt of the Guardian Medivh. It was within this spire that Medivh plotted the opening of the Dark Portal and the ruin of Stormwind. When his madness and possession came to light during the First War, an expedition led by Lord Anduin Lothar and young Khadgar breached the tower and executed him. Medivh's violent demise released a shockwave of fel taint that blighted both the pass and neighboring Brightwood, leaving Karazhan an ominous remnant leaking unstable magical energy.",
+   "body": "The history of the pass revolves around the towering citadel of Karazhan. Built atop a potent convergence of subterranean ley lines, the tower served as the redoubt of the Guardian Medivh. It was within this spire that Medivh plotted the opening of the Dark Portal and the ruin of Stormwind. When his madness and possession came to light during the First War, an expedition led by Lord Anduin Lothar and young Khadgar breached the tower and executed him. Medivh's violent demise released a shockwave of fel taint that blighted both the pass and the neighboring forest of Duskwood, leaving Karazhan an ominous remnant leaking unstable magical energy.",
    "spoiler": 0
   },
   {
@@ -101,7 +101,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Stormwind considers this dead corridor a grim scar on its borders. The horrors that escaped Karazhan ended Brightwood's splendor and continue to threaten Darkshire just down the western road."
+   "text": "Stormwind considers this dead corridor a grim scar on its borders. The horrors that escaped Karazhan ended Duskwood's old splendor and continue to threaten Darkshire just down the western road."
   },
   {
    "target": "faction:Horde",

@@ -34,10 +34,9 @@
    "q": "What notable items have been created here?",
    "aliases": [
     "what was made at the great anvil",
-    "great forge famous weapons",
-    "ashbringer forged here"
+    "great forge famous weapons"
    ],
-   "answer": "The Great Anvil has yielded historic masterpieces throughout dwarven history. King Magni Bronzebeard personally forged the legendary blade Ashbringer upon its surface. Ancient relics like the Aerie Battle Mace were also forged here."
+   "answer": "The Great Anvil has yielded historic masterpieces throughout dwarven history. Ironforge's finest smiths have hammered out generations of weapons and armor upon its surface, and the forge's fires have never been allowed to go cold."
   },
   {
    "q": "Who oversees the forge?",
@@ -59,7 +58,7 @@
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "The Great Anvil is considered the premier smithing site in the Alliance, home to high-ranking trainers and the legendary anvil where King Magni forged the Ashbringer."
+   "text": "The Great Anvil is considered the premier smithing site in the Alliance, home to high-ranking trainers and the legendary Great Anvil at the heart of the city."
   },
   {
    "target": "race:Dwarf",
@@ -67,7 +66,6 @@
   }
  ],
  "keywords": [
-  "ashbringer",
   "foundry",
   "great anvil",
   "great forge",

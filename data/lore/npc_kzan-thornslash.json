@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Armorer to the Recruits",
-   "body": "Situated within the dusty red canyon of the Valley of Trials, Kzan Thornslash serves as the primary weapon vendor for young orcs and Darkspear trolls taking their first steps as warriors of the Horde. Offering an assortment of basic armaments\u2014ranging from crude hand axes and shortswords to clubs and throwing knives\u2014Kzan ensures that newly awakened aspirants are armed adequately to face the local wildlife and regional hazards.",
+   "body": "Situated within the dusty red canyon of the Valley of Trials, Kzan Thornslash serves as the primary weapon vendor for young orcs and Darkspear trolls taking their first steps as warriors of the Horde. Offering an assortment of basic armaments\u2014ranging from crude hand axes and shortswords to clubs and staves\u2014Kzan ensures that newly awakened aspirants are armed adequately to face the local wildlife and regional hazards.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "where is kzan thornslash",
     "kzan thornslash map"
    ],
-   "answer": "He can be found standing in the open training grounds of the Valley of Trials in southwestern Durotar, surrounded by novice adventurers and training instructors."
+   "answer": "He can be found inside the Den, the cave in the Valley of Trials in southwestern Durotar where novice adventurers and their training instructors gather."
   },
   {
    "q": "What kind of equipment does Kzan sell?",
@@ -42,7 +42,7 @@
     "kzan items",
     "kzan weapons"
    ],
-   "answer": "Kzan provides basic starter weaponry, including axes, swords, daggers, staves, bludgeons, and thrown weapons intended for recruits who need reliable iron before acquiring forged or found gear."
+   "answer": "Kzan provides basic starter weaponry, including axes, swords, daggers, staves, and bludgeons intended for recruits who need reliable iron before acquiring forged or found gear."
   }
  ],
  "angles": [

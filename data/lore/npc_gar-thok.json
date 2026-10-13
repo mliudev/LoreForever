@@ -8,11 +8,11 @@
   "wiki": "Gar'Thok",
   "refs": 4
  },
- "summary": "Gar'Thok is a veteran orc warrior and outpost commander stationed at Razor Hill in Durotar. Having fought at Mount Hyjal and survived the initial Kul Tiras landings on Durotar's coast, he now coordinates local defense against human encroachers and native threats. He directs young Horde recruits stepping out of the Valley of Trials to secure the red wastes of the new homeland.",
+ "summary": "Gar'Thok is a veteran orc warrior and outpost commander stationed at Razor Hill in Durotar. Having survived the initial Kul Tiras landings on Durotar's coast, he now coordinates local defense against human encroachers and native threats. He directs young Horde recruits stepping out of the Valley of Trials to secure the red wastes of the new homeland.",
  "sections": [
   {
    "title": "A Veteran of the Red Wastes",
-   "body": "Before settling in Razor Hill, Gar'Thok defended the orc encampment during the apocalyptic Battle of Mount Hyjal. Following the Third War, he marched to Durotar under Warchief Thrall and served as a lieutenant under Nazgrel during the earliest days of building the new homeland. When the Mok'Nathal wanderer Rexxar first arrived in Durotar, it was Gar'Thok who alerted him to the aggressive quilboar raiding their perimeter, enlisting the beastmaster to safeguard the fragile new settlement.",
+   "body": "Following the Third War, Gar'Thok marched to Durotar under Warchief Thrall and served as a lieutenant under Nazgrel during the earliest days of building the new homeland. When the half-ogre wanderer Rexxar first arrived in Durotar, it was Gar'Thok who alerted him to the aggressive quilboar raiding their perimeter, enlisting the beastmaster to safeguard the fragile new settlement.",
    "spoiler": 0
   },
   {
@@ -43,7 +43,7 @@
     "garthok mount hyjal",
     "garthok history"
    ],
-   "answer": "He fought at the Battle of Mount Hyjal, guarding the orc fortifications against the Burning Legion and the Scourge. Later, he served at a frontier outpost in Durotar, working with Rexxar to quell early quilboar raids."
+   "answer": "He served as Nazgrel's lieutenant at a frontier outpost in Durotar, where he worked with Rexxar to quell early quilboar raids, until Kul Tiran sailors overran the post and slew his men."
   },
   {
    "q": "Why does Gar'Thok hate the humans in Durotar so much?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For young orcs leaving the Valley of Trials, Gar'Thok represents the stern, unyielding discipline of the veteran generation that bled at Mount Hyjal to win Durotar."
+   "text": "For young orcs leaving the Valley of Trials, Gar'Thok represents the stern, unyielding discipline of the veteran generation that bled to win Durotar."
   },
   {
    "target": "faction:Horde",
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Warrior",
-   "text": "As a frontline commander who survived both demonic legions and brutal naval ambushes, Gar'Thok expects martial fortitude and unhesitating obedience from fellow warriors."
+   "text": "As a frontline commander who survived a brutal naval ambush, Gar'Thok expects martial fortitude and unhesitating obedience from fellow warriors."
   }
  ],
  "keywords": [

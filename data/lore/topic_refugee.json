@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "The Exodus of Stormwind",
-   "body": "When the Orcish Horde swept through the kingdom of Stormwind during the First War, settlements like Goldshire, Moonbrook, and Grand Hamlet burned. Following the assassination of King Llane Wrynn, Sir Anduin Lothar took command of the kingdom's remnants. He gathered surviving soldiers and desperate civilians, escorting them to the harbor as the city burned. While some citizens hid in the catacombs beneath the Cathedral of Light, Lothar led a massive fleet across the Great Sea to the northern shores of Lordaeron. Arriving at Southshore, the exiled survivors\u2014including the young Prince Varian Wrynn and High Clerist Lady Mara Fordragon\u2014were granted sanctuary by King Terenas Menethil II.",
+   "body": "When the Orcish Horde swept through the kingdom of Stormwind during the First War, settlements like Goldshire, Moonbrook, and Grand Hamlet burned. Following the assassination of King Llane Wrynn, Sir Anduin Lothar took command of the kingdom's remnants. He gathered surviving soldiers and desperate civilians, escorting them to the harbor as the city burned. Lothar led a massive fleet across the Great Sea to the northern shores of Lordaeron. Arriving near Southshore, the exiled survivors\u2014including the young Prince Varian Wrynn\u2014were granted sanctuary by King Terenas Menethil II.",
    "spoiler": 0
   },
   {
@@ -42,7 +42,7 @@
     "who stayed in stormwind",
     "cathedral of light refugees"
    ],
-   "answer": "No. Many died in the streets, while others hid in the vast rooms and catacombs beneath the Cathedral of Light. Uncounted survivors were left to wander the wilderness of Azeroth on their own."
+   "answer": "No. Many died in the streets as the city fell, and uncounted survivors who never reached the ships were left to wander the wilderness of Azeroth on their own."
   },
   {
    "q": "Where did the survivors of Lordaeron go?",
@@ -77,7 +77,7 @@
     "marcus redpath refugees",
     "who greeted stormwind"
    ],
-   "answer": "Marshal Marcus Redpath greeted the exhausted fleets when they landed at Southshore. He immediately dispatched a messenger to Capital City to notify King Terenas Menethil II, who welcomed the southern survivors with open arms."
+   "answer": "King Terenas Menethil II of Lordaeron welcomed the southern survivors when their fleet reached his shores near Southshore, granting the landless exiles sanctuary in his kingdom."
   }
  ],
  "angles": [
@@ -91,7 +91,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "The Holy Light compels clergy to aid the dispossessed, following the example of High Clerist Lady Mara Fordragon and the caretakers who sheltered the wounded in ruined sanctuaries."
+   "text": "The Holy Light compels clergy to aid the dispossessed, following the example of the caretakers who sheltered the wounded in ruined sanctuaries."
   },
   {
    "target": "race:Undead",

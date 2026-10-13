@@ -11,7 +11,7 @@
  "summary": "Andron Gant is a reclusive, frequently intoxicated Forsaken residing in the murky depths of the Apothecarium in the Undercity. He handles occasional research commissions for local mages.",
  "sections": [
   {
-   "title": "A Slurring Informant",
+   "title": "A Slurring Recluse",
    "body": "Lounging amidst the noxious fumes of the Apothecarium, Andron Gant rarely ventures beyond the safety of the Undercity's stone walls. To the casual observer, he appears to be little more than a drunken scholar, occasionally hiring adventurous couriers to retrieve obscure relics like the Tablet of Markri from distant shores on behalf of local mages.",
    "spoiler": 0
   },
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Forsaken rogues climbing the ranks of the Deathstalkers learn firsthand through Gant how drunkenness and complacency can unravel even the tightest espionage operations."
+   "text": "Forsaken rogues climbing the ranks of the Deathstalkers learn that the Undercity's own halls demand as much vigilance as its borders."
   },
   {
    "target": "race:Undead",
-   "text": "Gant serves as a stark reminder that loyalty among the Forsaken is never guaranteed, and human criminal factions like the Syndicate have eyes even within Lordaeron's catacombs."
+   "text": "Gant is a familiar sight in the Apothecarium, a drunken Forsaken who rarely leaves the city and brokers odd errands for its mages."
   }
  ],
  "keywords": [

@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "War of the Ancients"
  },
- "summary": "Ten thousand years ago, the reckless sorcery of Queen Azshara and her Highborne tore a portal through the Well of Eternity, unleashing the demonic Burning Legion onto Azeroth. Led by the young druid Malfurion Stormrage, Priestess Tyrande Whisperwind, and commander Jarod Shadowsong, a desperate coalition of mortals and ancient forest demigods repelled the invaders. The resulting destruction of the Well triggered the Great Sundering, violently shattering the ancient continent of Kalimdor and permanently altering the face of the world.",
+ "summary": "Ten thousand years ago, the reckless sorcery of Queen Azshara and her Highborne tore a portal through the Well of Eternity, unleashing the demonic Burning Legion onto Azeroth. Led by the young druid Malfurion Stormrage, his brother Illidan, and Priestess Tyrande Whisperwind, a desperate coalition of night elves, dragons, and ancient forest demigods repelled the invaders. The resulting destruction of the Well triggered the Great Sundering, violently shattering the ancient continent of Kalimdor and permanently altering the face of the world.",
  "sections": [
   {
    "title": "The Highborne's Folly",
@@ -16,7 +16,7 @@
   },
   {
    "title": "The Kaldorei Resistance",
-   "body": "Horrified by the slaughter, night elves outside the Highborne caste rallied under the seasoned general Lord Kur'talos Ravencrest. The resistance was bolstered by remarkable heroes: the first mortal druid Malfurion Stormrage, the devout priestess of Elune Tyrande Whisperwind, and Malfurion's gifted brother Illidan. When imperial forces assassinated Ravencrest and the demon armies pressed hard, command fell to the brilliant tactician Jarod Shadowsong. Realizing the elves could not survive alone, Jarod reached across old racial boundaries, recruiting the earthen, the furbolgs, and the mountain tauren into a unified frontline against the Legion's onslaught.",
+   "body": "Horrified by the slaughter, night elves outside the Highborne caste rallied to resist. The resistance was led by remarkable heroes: the first mortal druid Malfurion Stormrage, the devout priestess of Elune Tyrande Whisperwind, and Malfurion's gifted brother Illidan. Together they gathered the common night elves into a desperate frontline against the Legion's onslaught.",
    "spoiler": 0
   },
   {
@@ -50,7 +50,7 @@
     "who led the resistance",
     "kaldorei resistance leaders"
    ],
-   "answer": "Lord Kur'talos Ravencrest initially rallied the resistance. Following his death on the battlefield, commander Jarod Shadowsong took over supreme leadership, directing the combined ground forces alongside crucial battlefield heroes including Malfurion Stormrage and Tyrande Whisperwind."
+   "answer": "The young druid Malfurion Stormrage, his brother Illidan, and the priestess Tyrande Whisperwind rallied the night elves who stood against Azshara and the Legion, while the demigod Cenarius brought the ancient spirits of the wild to their side."
   },
   {
    "q": "Did other races fight alongside the night elves?",
@@ -58,7 +58,7 @@
     "tauren in war of the ancients",
     "who helped the night elves"
    ],
-   "answer": "Yes. Breaking long-held elven prejudices, commander Jarod Shadowsong accepted the aid of several mortal races, uniting earthen, furbolg tribes, and mountain tauren against the demonic invasion alongside the woodland demigod Cenarius and his wild brethren."
+   "answer": "Yes. The great dragonflights joined the struggle, and the woodland demigod Cenarius led his wild brethren into battle against the demonic invasion alongside the night elves."
   },
   {
    "q": "What happened to Queen Azshara during the war?",
@@ -92,7 +92,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren warriors preserve the proud memory of standing shoulder-to-shoulder with forest gods and ancient mortals to drive the Legion back ten millennia ago."
+   "text": "Tauren who honor Cenarius and the demigods of the wild remember that these same forest spirits fought the Legion alongside the night elves ten millennia ago."
   },
   {
    "target": "class:Priest",
@@ -104,9 +104,7 @@
   "burning legion",
   "cenarius",
   "highborne",
-  "jarod shadowsong",
   "malfurion",
-  "ravencrest",
   "sargeras",
   "sundering",
   "tyrande",

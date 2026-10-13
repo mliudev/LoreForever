@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Summons Home",
-   "body": "While visiting Thunder Bluff, Forsaken priests who have honed their mastery over divine and shadowy disciplines are evaluated by Miles Welsh, an envoy of the Cult of Forgotten Shadow among the tauren. Recognizing that an acolyte has grown sufficiently in power, Miles bids them return to the Ruins of Lordaeron rather than attempt to impart these higher mysteries himself in Kalimdor.",
+   "body": "While visiting Thunder Bluff, Forsaken priests who have honed their mastery over divine and shadowy disciplines are evaluated by Miles Welsh, a Forsaken priest posted among the tauren. Recognizing that an acolyte has grown sufficiently in power, Miles bids them return to the Ruins of Lordaeron rather than attempt to impart these higher mysteries himself in Kalimdor.",
    "spoiler": 0
   },
   {
@@ -65,7 +65,7 @@
     "lore of devouring plague",
     "forsaken disease spell"
    ],
-   "answer": "It is a devastating curse practiced by the Cult of Forgotten Shadow, afflicting the victim with a virulent magical affliction that consumes their vitality to restore the caster."
+   "answer": "It is a devastating curse practiced by Forsaken priests, afflicting the victim with a virulent magical affliction that consumes their vitality to restore the caster."
   },
   {
    "q": "Is this quest available to other races?",
@@ -74,7 +74,7 @@
     "can orcs do devouring plague",
     "is this quest undead only"
    ],
-   "answer": "No. The Devouring Plague quest is tied exclusively to the Forsaken priesthood, reflecting the unique philosophy and magical practices born of Lordaeron's undead survivors."
+   "answer": "No. This summons is for Forsaken priests, though every priest, whatever their race, learns Devouring Plague itself from a priest trainer at level 20."
   },
   {
    "q": "Why is a Forsaken trainer in Thunder Bluff in the first place?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "Unlike the Light practiced in life, Forsaken priests embrace harsh afflictions and Shadow magic, with Devouring Plague representing their distinct cultural magic."
+   "text": "Unlike the Light practiced in life, Forsaken priests embrace harsh afflictions and Shadow magic such as Devouring Plague."
   },
   {
    "target": "faction:Horde",

@@ -8,7 +8,7 @@
   "wiki": "Darsok Swiftdagger",
   "refs": 4
  },
- "summary": "Darsok Swiftdagger is an orc warrior and scout stationed at the Crossroads in the heart of the Barrens. Known for his fierce hatred of harpies, he directs Horde adventurers north into the Dry Hills to break the avian matriarchy harassing travelers and settlements. He maintains ties across the plains, serving as a trusted contact for Witch Doctor Jin'Zil in Malaka'jin.",
+ "summary": "Darsok Swiftdagger is an orc warrior and scout stationed at the Crossroads in the heart of the Barrens. Known for his fierce hatred of harpies, he directs Horde adventurers north into the Dry Hills to break the avian matriarchy harassing travelers and settlements. He is also an old friend of Witch Doctor Jin'Zil in Malaka'jin.",
  "sections": [
   {
    "title": "A Watcher at the Crossroads",
@@ -22,7 +22,7 @@
   },
   {
    "title": "Connections in the Scrub",
-   "body": "While his immediate duties center around harpy eradication, Darsok Swiftdagger serves as an important point of contact within the Horde network. He maintains correspondence with Witch Doctor Jin'Zil, the enigmatic troll residing at Malaka'jin on the border of the Stonetalon Mountains. Messages and intelligence carried through Darsok help ensure that outlying enclaves stay informed of developments across the central plains.",
+   "body": "While his immediate duties center around harpy eradication, Darsok Swiftdagger has an old friend far to the northwest: Witch Doctor Jin'Zil, the troll who lives at Malaka'jin in the Stonetalon Mountains, the land the harpies come from. Darsok sends Jin'Zil a letter with news of the harpy campaign, though the two have not been in touch for many years.",
    "spoiler": 0
   }
  ],
@@ -62,7 +62,7 @@
     "darsok and jin'zil",
     "witch doctor jin'zil connection"
    ],
-   "answer": "Darsok is an ally and correspondent of Witch Doctor Jin'Zil, a Darkspear troll stationed at Malaka'jin. He facilitates communications and sends adventurers carrying missives to Jin'Zil's remote encampment."
+   "answer": "Witch Doctor Jin'Zil, a troll living at Malaka'jin in the Stonetalon Mountains, is an old friend of Darsok's. Darsok sends a traveler to him with a letter, his first word to Jin'Zil in many years."
   },
   {
    "q": "Does Darsok report to Sergra Darkthorn or Thork?",

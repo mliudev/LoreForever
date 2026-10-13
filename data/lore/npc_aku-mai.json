@@ -8,16 +8,16 @@
   "wiki": "Aku'mai",
   "refs": 5
  },
- "summary": "Aku'mai is a monstrous, three-headed hydra dwelling in the sunken ruins of Blackfathom Deeps along the Zoram Strand. Imbued with primordial shadow and favored by the ancient Old Gods, the beast is revered as a herald of apocalyptic ruin. The Twilight's Hammer cult tends to the creature in its submerged lair, worshipping it as a sign that the Old Gods will soon return.",
+ "summary": "Aku'mai is a monstrous, three-headed hydra dwelling in the sunken ruins of Blackfathom Deeps along the Zoram Strand. A servant of an Old God, it rose from the waters when that Old God's corruption tainted the temple's sacred Moon Well. The Twilight's Hammer cult has gathered in the Deeps and sacrifices innocents to it for power.",
  "sections": [
   {
    "title": "The Scourge of Zoram Strand",
-   "body": "Long before cultists claimed the sunken temple beneath the sea, Aku'mai haunted the coast of Ashenvale as a living blight upon the Zoram Strand. A creature of deep water and darker powers, this gargantuan hydra carries a fragment of the Old Gods' ancient malevolence within its three ravenous heads. Rather than an ordinary denizen of the tides, Aku'mai is an ancient terror that has lurked in the submerged ruins since the fall of the night elves' temple to Elune, poisoning the waters with Void-tainted malice.",
+   "body": "Blackfathom Deeps was once a great temple of Elune, until the corruption of an Old God seeped up from beneath the earth and tainted its sacred Moon Well. Aku'mai, a gargantuan hydra and servant of the Old God, rose from the waters. Rather than an ordinary denizen of the tides, Aku'mai is a living blight upon the Zoram Strand that has taken up residence in the submerged ruins of the night elves' fallen temple, poisoning the waters with its malice.",
    "spoiler": 0
   },
   {
-   "title": "A Pet of the Primordial Darkness",
-   "body": "Aku'mai's foul aura eventually drew the Twilight's Hammer deep into the subterranean caverns. Viewing the hydra as an anointed pet and harbinger of their dread masters, the cult established their sanctum around its nesting ground. Twilight Lord Kelris oversees the hydra's growth, convinced that tending to Aku'mai and its insatiable hunger for living flesh will help usher in the resurgence of the Old Gods.",
+   "title": "Servant of the Primordial Darkness",
+   "body": "Aku'mai's foul presence eventually drew the Twilight's Hammer deep into the subterranean caverns. Led by Twilight Lord Kelris and allied with the naga, the cultists occupy the drowned temple and sacrifice innocents to Aku'mai for power.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "akumai lore",
     "what kind of monster is akumai"
    ],
-   "answer": "Aku'mai is an ancient, three-headed hydra infused with dark Void energies. Originating as a favored pet of the Old Gods, it has haunted the Zoram Strand and the submerged halls of Blackfathom Deeps for generations."
+   "answer": "Aku'mai is an ancient, three-headed hydra steeped in dark power. A servant of an Old God, it rose from the tainted waters of Blackfathom Deeps and now lairs in the temple's submerged halls."
   },
   {
    "q": "Where does Aku'mai live?",
@@ -47,7 +47,7 @@
     "kelris akumai",
     "twilights hammer akumai"
    ],
-   "answer": "The Twilight's Hammer views Aku'mai as an emissary and herald of their Old God masters. Led by Twilight Lord Kelris, the cultists tend and protect the beast, believing that nourishing it will hasten the return of the Old Gods and reward them with dark blessings."
+   "answer": "The Twilight's Hammer reveres Aku'mai as a servant of the Old Gods they worship. Led by Twilight Lord Kelris, the cultists sacrifice innocents to the beast in exchange for dark power."
   },
   {
    "q": "What powers does Aku'mai possess?",
@@ -56,7 +56,7 @@
     "is akumai magical",
     "void hydra"
    ],
-   "answer": "Beyond its immense physical size and multiple snapping heads, Aku'mai channels shadow and Void energy gifted by the Old Gods. Its presence corrupts surrounding waters and instills madness in those who draw near."
+   "answer": "Beyond its immense physical size and multiple snapping heads, Aku'mai carries the dark favor of the Old Gods. In battle it flies into frenzied rages and engulfs those who draw near in clouds of poison."
   },
   {
    "q": "Is Aku'mai an Old God?",
@@ -64,7 +64,7 @@
     "is akumai an old god",
     "is akumai a god"
    ],
-   "answer": "No. Aku'mai is not an Old God, but rather a primordial hydra serving as their favored pet and conduit. It holds a tiny fraction of their ancient dark power, sufficient to drive cultists to worship it."
+   "answer": "No. Aku'mai is not an Old God, but a primordial hydra that serves one. Its evil presence is enough to draw the Twilight's Hammer to worship around it."
   },
   {
    "q": "Why do adventurers venture into the deeps to slay it?",
@@ -73,7 +73,7 @@
     "blackfathom villainy akumai",
     "akumai threat"
    ],
-   "answer": "Left unchecked, Aku'mai's endless hunger and the cult's devotion threaten to unleash a calamitous evil across Ashenvale and Kalimdor. Both Alliance and Horde authorities seek to put an end to the Twilight's Hammer and slay the horror lurking at the heart of the temple."
+   "answer": "Left unchecked, Aku'mai's savagery and the cult's devotion threaten to unleash a calamitous evil across Ashenvale and Kalimdor. Both Alliance and Horde authorities seek to put an end to the Twilight's Hammer and slay the horror lurking at the heart of the temple."
   }
  ],
  "angles": [
@@ -83,7 +83,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "The vile presence of Aku'mai and the Twilight's Hammer represents the direct corruption of the Void against the teachings of the Holy Light and Elune."
+   "text": "The vile presence of Aku'mai and the Twilight's Hammer represents the corruption of the Old Gods set against the teachings of the Holy Light and Elune."
   },
   {
    "target": "class:Druid",

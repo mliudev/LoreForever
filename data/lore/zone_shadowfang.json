@@ -82,7 +82,7 @@
     "springvale lore",
     "ghostly paladin boss"
    ],
-   "answer": "Commander Springvale was a paladin of the Silver Hand and the military officer responsible for defending Silverlaine Keep. When the worgen overrun the stronghold, he fought to the death. His restless spirit still patrols the upper hallways, clinging to martial duty even in undeath."
+   "answer": "Commander Springvale was a paladin and the military officer responsible for defending Silverlaine Keep. When the worgen overrun the stronghold, he fought to the death. His restless spirit still patrols the upper hallways, clinging to martial duty even in undeath."
   },
   {
    "q": "What is the Book of Ur?",
@@ -108,7 +108,7 @@
   },
   {
    "target": "class:Paladin",
-   "text": "The restless spirit of Commander Springvale stands as a sorrowful reminder of fallen Silver Hand defenders whose sacred oaths were warped by death."
+   "text": "The restless spirit of Commander Springvale stands as a sorrowful reminder of fallen paladin defenders whose sacred oaths were warped by death."
   }
  ],
  "keywords": [

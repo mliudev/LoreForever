@@ -672,6 +672,7 @@ function Capture.UpdateQuest(part)
   Capture.questPart = part or Capture.questPart
   make("quest")
   show("quest", Capture.questPart and Capture.QuestLine(Capture.questPart))
+  if ns.Hooks.PlaceQuestRow then ns.Hooks.PlaceQuestRow() end   -- the row is longer (or shorter) now
   Capture.PlaceQuest()
 end
 
@@ -693,6 +694,7 @@ function Capture.UpdateQuestLog(questID)
   if not b then return end
   if not (b.parent.IsShown and b.parent:IsShown()) then return show("log", nil) end   -- the log is closed
   show("log", Capture.QuestLogLine(questID))
+  if ns.Hooks.PlaceLogRow then ns.Hooks.PlaceLogRow() end
   Capture.PlaceLog()
 end
 

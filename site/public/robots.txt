@@ -1,5 +1,11 @@
 User-agent: *
 Allow: /
 
+# The main pages (LOR-465).
+Sitemap: https://loreforeverwow.com/sitemap.xml
+
 # The lore pages' sitemap (site/LORE_PAGES.md). Empty until they're switched on.
 Sitemap: https://loreforeverwow.com/lore/sitemap.xml
+
+# Guides and lore articles (site/GUIDES.md). Empty until the first one is published.
+Sitemap: https://loreforeverwow.com/guides/sitemap.xml

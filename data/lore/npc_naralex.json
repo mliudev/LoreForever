@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Vision of Green",
-   "body": "Long before the Great Sundering, the sun-scorched plains of the Barrens were once a vibrant forest. Viewing this loss as a tragedy, Naralex journeyed south from Darnassus with a cohort of devoted disciples to reverse the drought. Deep beneath the savannah, he discovered an intricate subterranean network of underground springs and rushing geysers, naming them the Wailing Caverns after the howling wind and steam that moaned through the rock. He believed that by entering a deep trance and channeling the pristine energies of the Emerald Dream into these subterranean waters, the life-giving flow would reach the surface and cause the entire wasteland to bloom.",
+   "body": "Long before the Great Sundering, the sun-scorched plains of the Barrens were once a vibrant forest. Viewing this loss as a tragedy, Naralex journeyed to the Barrens with a cohort of devoted disciples to reverse the drought. Deep beneath the savannah, he discovered an intricate subterranean network of underground springs and rushing geysers, naming them the Wailing Caverns after the howling wind and steam that moaned through the rock. He believed that by entering a deep trance and channeling the pristine energies of the Emerald Dream into these subterranean waters, the life-giving flow would reach the surface and cause the entire wasteland to bloom.",
    "spoiler": 0
   },
   {
@@ -22,7 +22,7 @@
   },
   {
    "title": "Fallen Disciples",
-   "body": "The nightmare did not stop with the wildlife. Naralex's own disciples, driven completely mad by the psychic backlash bleeding out of their master's trance, broke away from the traditions of the Cenarion Circle. Casting aside their reverence for balance, they took on serpent forms and renamed themselves the Druids of the Fang. Believing their twisted growth must spread across Kalimdor, they now guard Naralex's slumbering body to ensure he never wakes, leaving only a few loyal disciples, such as Muyoh, searching for allies brave enough to break the trance.",
+   "body": "The nightmare did not stop with the wildlife. Naralex's own disciples, driven completely mad by the psychic backlash bleeding out of their master's trance, broke away from the traditions of the Cenarion Circle. Casting aside their reverence for balance, they took on serpent forms and renamed themselves the Druids of the Fang. Believing their twisted growth must spread across Kalimdor, they now guard Naralex's slumbering body to ensure he never wakes, leaving only a few loyal disciples searching for allies brave enough to break the trance.",
    "spoiler": 1
   }
  ],
@@ -70,7 +70,7 @@
     "waking naralex",
     "naralex quest"
    ],
-   "answer": "Yes, with outside help. His remaining loyal disciple, Muyoh, works with adventurers willing to enter the depths, slay the twisted Druids of the Fang, and perform a ritual to break the grip of the nightmare on Naralex's mind."
+   "answer": "Yes, with outside help. A loyal Disciple of Naralex works with adventurers willing to enter the depths, slay the twisted Druids of the Fang, and perform a ritual to break the grip of the nightmare on Naralex's mind."
   },
   {
    "q": "Why did Naralex want to change the Barrens?",
@@ -103,10 +103,10 @@
  "keywords": [
   "cenarion circle",
   "deviate",
+  "disciple of naralex",
   "druids of the fang",
   "emerald dream",
   "emerald nightmare",
-  "muyoh",
   "naralex",
   "the barrens",
   "wailing caverns"

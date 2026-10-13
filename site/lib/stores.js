@@ -37,7 +37,7 @@ export const CF_CORE = 1715510;
 // The narration and language projects in release/curseforge.json that have an id (site/tests/stores.test.mjs fails
 // when the two lists differ).
 export const CF_PACKS = [1727331, 1727332, 1727333, 1727666, 1727667, 1727668, 1727669, 1731403, 1731408, 1731410,
-  1731411, 1731412, 1731414, 1731415, 1731417, 1731418, 1731419, 1731420, 1733811, 1734020, 1736067];
+  1731411, 1731412, 1731414, 1731415, 1731417, 1731418, 1731419, 1731420, 1733811, 1734020, 1736067, 1740579];
 export const GITHUB_REPO = "mliudev/LoreForever";
 const HOUR = 3600e3, DAY = 864e5;
 const EVERY = { core: HOUR, pack: 6 * HOUR };
@@ -279,7 +279,8 @@ function spread(files, from, to, now) {
 //            growth over the last 7 days, or since the first snapshot until there are 7 days of them
 //   github   {downloads, taken}: GitHub's release downloads at the latest snapshot (this site's links included)
 //   author   null without author numbers, else {first, last, updated, today: {day, downloads, unique}, thisWeek: {week,
-//            downloads, unique} (distinct downloaders this week so far, q11), weeks: [{week, downloads, unique,
+//            current, downloads, unique} (distinct downloaders this week so far, q11; last week's, current false, until
+//            this week's numbers come in), weeks: [{week, downloads, unique,
 //            packsDownloads, packsUnique}] newest first, cumulative: {downloads, since}, windowUserDays}
 export async function storesReport(env, now = Date.now(), days = 14) {
   await setupStores(env);
@@ -411,12 +412,15 @@ export async function storesReport(env, now = Date.now(), days = 14) {
     const weekKeys = Object.keys(A.week).sort().reverse();
     const thisWeek = utcDay(now, -((new Date(now).getUTCDay() + 6) % 7));
     const dayKeys = Object.keys(A.day).sort();
+    // The dashboard's numbers run through yesterday, so on a Monday the new week has none yet: show last week's.
+    const shownWeek = weekKeys.find(w => w <= thisWeek);
     authorOut = {
       first: authorMeta.first, last: authorMeta.last, updated: authorMeta.updated,
       today: { day: authorMeta.last, downloads: A.day[authorMeta.last]?.[core]?.downloads || 0,
                unique: A.day[authorMeta.last]?.[core]?.unique || 0 },
-      thisWeek: A.week[thisWeek] ? { week: thisWeek, downloads: A.week[thisWeek][core]?.downloads || 0,
-                                     unique: A.week[thisWeek][core]?.unique || 0 } : null,
+      thisWeek: shownWeek ? { week: shownWeek, current: shownWeek === thisWeek,
+                              downloads: A.week[shownWeek][core]?.downloads || 0, unique: A.week[shownWeek][core]?.unique || 0 }
+        : null,
       weeks: weekKeys.slice(0, 13).map(week => ({ week, downloads: A.week[week][core]?.downloads || 0,
         unique: A.week[week][core]?.unique || 0, packsDownloads: authorSum("week", week, packIds, "downloads"),
         packsUnique: authorSum("week", week, packIds, "unique") })),

@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Voice of the Gallina Winery",
-   "body": "Standing amidst the busy stalls of the Trade District, Renato Gallina spends his days calling out to passers-by, boldly proclaiming that his family sells the finest vintages in all of Stormwind. His family operates the Gallina Winery located nearby along the Canals, and Renato serves as their public promoter, handing out advertisements to anyone willing to help spread word of their cellar to thirsty travelers across the kingdom.",
+   "body": "Standing amidst the busy stalls of the Trade District, Renato Gallina spends his days calling out to passers-by, boldly proclaiming that his family sells the finest vintages in all of Stormwind. His family operates the Gallina Winery located nearby along the Canals, and Renato serves as their public promoter, handing out pamphlets that passers-by can bring to his sister Suzetta at the shop for a free bottle of wine.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "wine shop advert quest",
     "what does renato want"
    ],
-   "answer": "Renato provides an advertisement for his family's wine shop, hoping willing couriers will help distribute the word and bring fresh business to their canal cellar."
+   "answer": "Renato hands out a pamphlet for his family's wine shop and asks travelers to bring it to his sister, Suzetta Gallina, at the winery along the canals, where it earns them a complimentary bottle of wine."
   }
  ],
  "angles": [

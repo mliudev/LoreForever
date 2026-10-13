@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Old God"
  },
- "summary": "The Old Gods are colossal, parasitic horrors of flesh and madness that plummeted from the cosmos during Azeroth's primordial dawn. Though vanquished and bound deep beneath the crust by the Titans, their ancient whispers still corrode mortal minds, twist nature, and drive doomsday cults to unearth their prisons.",
+ "summary": "The Old Gods are colossal, malevolent horrors of flesh and madness who ruled Azeroth in its primordial dawn. Though vanquished and bound deep beneath the crust by the Titans, their ancient whispers still corrode mortal minds, twist nature, and drive doomsday cults to unearth their prisons.",
  "sections": [
   {
    "title": "Masters of the Primordial World",
@@ -16,7 +16,7 @@
   },
   {
    "title": "Whispers from the Deep",
-   "body": "Even chained beneath miles of stone and enchanted wards, the Old Gods have never truly slept. Their psychic malice seeps continually into the world, corrupting the vulnerable. It was their collective malice that slowly drove Neltharion the Earth-Warder mad during the War of the Ancients, twisting the noble dragon into Deathwing. When Queen Azshara and her Highborne drowned beneath the raging waters of the Great Sundering, an Old God answered their desperation, transforming them into the serpentine naga. Furthermore, their insidious taint has breached the Emerald Dream, twisting druidic realms into the creeping terror known as the Emerald Nightmare.",
+   "body": "Even chained beneath miles of stone and enchanted wards, the Old Gods have never truly slept. Their psychic malice seeps continually into the world, corrupting the vulnerable. It was their collective malice that slowly drove Neltharion the Earth-Warder mad during the War of the Ancients, twisting the noble dragon into Deathwing. When Queen Azshara and her Highborne drowned beneath the raging waters of the Great Sundering, an Old God answered their desperation, transforming them into the serpentine naga.",
    "spoiler": 0
   },
   {
@@ -33,7 +33,7 @@
     "old gods lore",
     "who are the old gods"
    ],
-   "answer": "They are ancient, eldritch monstrosities of flesh, tentacles, and void energy that crashed onto Azeroth eons ago. They feed on chaos and seek to corrupt the nascent world, driving mortals and elementals toward madness."
+   "answer": "They are ancient, eldritch monstrosities of flesh and madness who dominated Azeroth in primordial times. They feed on chaos and seek to corrupt the world, driving mortals and elementals toward madness."
   },
   {
    "q": "How many Old Gods were there on Azeroth?",
@@ -84,15 +84,15 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The kaldorei fought the qiraji minion hordes in the War of the Shifting Sands, sealing Silithus behind the Scarab Wall, while their druids now battle the Old Gods' taint creeping into the Emerald Dream."
+   "text": "The kaldorei fought the qiraji minion hordes in the War of the Shifting Sands, sealing Silithus behind the Scarab Wall."
   },
   {
    "target": "class:Priest",
-   "text": "Priests who delve into shadow magic often brush against the cold, maddening whispers of the Void, a dangerous power closely tied to the ancient horrors chained beneath the earth."
+   "text": "Priests who delve into shadow magic walk a perilous path, wary of the maddening whispers said to rise from the ancient horrors chained beneath the earth."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold a sacred duty to cleanse the Emerald Nightmare, an unnatural corruption born from the Old Gods' subterranean tendrils piercing the Dream."
+   "text": "Druids hold a sacred duty to guard the Emerald Dream against the Emerald Nightmare, an unnatural corruption whose true source remains unknown."
   },
   {
    "target": "class:Warlock",
@@ -105,8 +105,7 @@
   "old god",
   "qiraji",
   "silithus",
-  "twilight's hammer",
-  "void"
+  "twilight's hammer"
  ],
  "related": [
   "subzone:scarab-wall",

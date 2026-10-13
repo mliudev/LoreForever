@@ -83,7 +83,7 @@
     "who is ruzan",
     "valley of trials warlock"
    ],
-   "answer": "Ruzan is an orc warlock trainer stationed inside the Den in the Valley of Trials. He instructs new orc and troll warlocks on how to safely harness fel energies and control summoned servants."
+   "answer": "Ruzan is an orc warlock trainer stationed inside the Den in the Valley of Trials. He instructs new orc warlocks on how to safely harness fel energies and control summoned servants."
   }
  ],
  "angles": [
@@ -113,7 +113,7 @@
  "related": [
   "quest:792",
   "subzone:burning-blade-coven",
-  "quest:1089",
+  "subzone:the-den",
   "zone:durotar",
   "topic:horde"
  ],

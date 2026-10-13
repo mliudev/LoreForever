@@ -8,11 +8,11 @@
   "wiki": "Eitrigg",
   "refs": 4
  },
- "summary": "Eitrigg is a seasoned veteran of the First and Second Wars who stands beside Warchief Thrall as an esteemed advisor in Orgrimmar. Once a high-ranking lieutenant of the Blackrock clan, he became disillusioned with the old demonic Horde and lived in exile until an extraordinary friendship with a human paladin changed his fate. Today, he helps guide the New Horde back to its roots of honor and shamanism.",
+ "summary": "Eitrigg is a seasoned veteran of the First and Second Wars who stands beside Warchief Thrall as an esteemed advisor in Orgrimmar. Once a warrior of the Blackrock clan, he became disillusioned with the old demonic Horde and lived in exile until an extraordinary friendship with a human paladin changed his fate. Today, he helps guide the New Horde back to its roots of honor and shamanism.",
  "sections": [
   {
    "title": "A Veteran of the Old Horde",
-   "body": "Born on Draenor into the Blackrock clan, Eitrigg was once one of Warchief Blackhand's primary lieutenants alongside Orgrim Doomhammer and Varok Saurfang. When Doomhammer seized leadership of the Horde, Eitrigg remained a trusted officer and oversaw the captured half-orc assassin Garona. Although he initially dismissed her revelations regarding Gul'dan and the demonic corruption of the Shadow Council, the horrific battles and ultimate defeat of the Horde in the Second War forced him to confront the dark reality. Sickened by the realization of how his people had been manipulated, Eitrigg walked away from the scattered remnants and retreated into self-imposed exile, seeking only solitude in the wilds of Lordaeron.",
+   "body": "Born on Draenor into the Blackrock clan, Eitrigg fought for the Horde through the First and Second Wars. The horrific battles and the ultimate defeat of the Horde in the Second War forced him to confront how far his people had fallen to bloodlust and demonic corruption. Sickened by what the Horde had become, Eitrigg walked away from the scattered remnants and retreated into self-imposed exile, seeking only solitude in the wilds of Lordaeron.",
    "spoiler": 0
   },
   {
@@ -34,7 +34,7 @@
     "eitrigg lore",
     "orc standing by thrall"
    ],
-   "answer": "Eitrigg is an elderly Blackrock orc warrior who served as a lieutenant under Blackhand and Orgrim Doomhammer during the First and Second Wars. Today, he resides in Grommash Hold in Orgrimmar as a trusted counselor and advisor to Warchief Thrall."
+   "answer": "Eitrigg is an elderly Blackrock orc warrior and a veteran of the First and Second Wars. Today, he resides in Grommash Hold in Orgrimmar as a trusted counselor and advisor to Warchief Thrall."
   },
   {
    "q": "Why does Eitrigg consider a human his brother?",
@@ -51,7 +51,7 @@
     "eitrigg clan",
     "is eitrigg blackrock"
    ],
-   "answer": "Eitrigg belongs to the Blackrock clan. He was a high-ranking commander during the old wars, though he abandoned the clan's corrupt remnants after learning the truth of the demonic corruption that guided them."
+   "answer": "Eitrigg belongs to the Blackrock clan. He fought through the old wars, though he abandoned the Horde's corrupt remnants after seeing the demonic corruption that had guided them."
   },
   {
    "q": "Why did Eitrigg leave the old Horde?",
@@ -59,7 +59,7 @@
     "why did eitrigg leave",
     "eitrigg exile"
    ],
-   "answer": "During the Second War, Eitrigg guarded the assassin Garona, who revealed the demon worship and manipulations of Gul'dan and the Shadow Council. Following the Horde's defeat, Eitrigg realized her claims were true and left in disgust, seeking a quiet place to die rather than serve a corrupt war machine."
+   "answer": "After the Horde's defeat in the Second War, Eitrigg saw that his people had lost their honor to bloodlust and demonic corruption. He left in disgust, seeking a quiet place to die rather than serve a corrupt war machine."
   },
   {
    "q": "How did Eitrigg end up in Orgrimmar?",
@@ -115,7 +115,6 @@
   "topic:new-horde",
   "zone:orgrimmar",
   "npc:orgrim-doomhammer",
-  "npc:varok-saurfang",
   "subzone:stratholme"
  ],
  "attribution": [

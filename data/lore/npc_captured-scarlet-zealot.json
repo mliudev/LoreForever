@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Bitter Captive in Brill",
-   "body": "Confined beneath Gallows' End Tavern, this member of the Scarlet Crusade embodies the unyielding fanaticism of his order. Even in chains, surrounded by the undead he views as an abomination, he offers no remorse and venomously denounces anyone who speaks to him\u2014such as Renee Lauer, whom he reviles as a traitor. For the Forsaken, capturing a living zealot is not an act of mercy; it provides valuable human test material to evaluate the lethality of experimental plagues and toxins under development by Apothecary Johaan.",
+   "body": "Confined beneath Gallows' End Tavern, this member of the Scarlet Crusade embodies the unyielding fanaticism of his order. Even in chains, surrounded by the undead he views as an abomination, he offers no remorse, calling on the Light to protect him from the foul and unholy creatures around him. For the Forsaken, capturing a living zealot is not an act of mercy; it provides valuable human test material to evaluate the lethality of experimental plagues and toxins under development by Apothecary Johaan.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "zealot dialogue",
     "renee lauer and zealot"
    ],
-   "answer": "He remains fanatically defiant despite his confinement, lashing out with insults and labeling locals like Renee Lauer traitors to humanity and the Light."
+   "answer": "He remains fanatically defiant despite his confinement, crying out for the Light to protect him from his undead captors and swearing that the Scarlet Crusade will rid Azeroth of them."
   }
  ],
  "angles": [
@@ -61,7 +61,6 @@
   "captured scarlet zealot",
   "gallows' end tavern",
   "prisoner",
-  "renee lauer",
   "scarlet crusade",
   "tirisfal glades"
  ],

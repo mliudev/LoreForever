@@ -67,7 +67,7 @@
     "is hanazua okay",
     "hanazua saved"
    ],
-   "answer": "Yes. Upon hearing your report, Gornek sends a rescue party immediately up the bluffs to tend to his venom and escort him safely back to camp."
+   "answer": "Gornek promises that aid will be dispatched to Hana'zua immediately upon hearing your report. What becomes of the scout afterward is not told."
   },
   {
    "q": "Why does Gornek praise this deed so highly?",
@@ -113,7 +113,7 @@
  "related": [
   "npc:hana-zua",
   "npc:gornek",
-  "quest:1089",
+  "subzone:the-den",
   "zone:durotar"
  ],
  "attribution": [

@@ -20,7 +20,7 @@
    "The Branch of Cenarius (Classic)"
   ]
  },
- "summary": "Following a desperate plea from the dying dryad Anilia, an adventurer is tasked with recovering a sacred relic stolen by the vile satyr Geltharis. Reclaiming the Branch of Cenarius means confronting the demon-sworn corrupters lurking in eastern Ashenvale and returning the treasured bough to Forest Song.",
+ "summary": "Following a desperate plea from the dying dryad Anilia, an adventurer is tasked with recovering a sacred relic stolen by the vile satyr Geltharis. Reclaiming the Branch of Cenarius means confronting the demon-sworn corrupters lurking in eastern Ashenvale and returning the treasured bough to the dryad Illiyana.",
  "sections": [
   {
    "title": "A Dying Request",
@@ -33,8 +33,8 @@
    "spoiler": 0
   },
   {
-   "title": "Sorrow at Forest Song",
-   "body": "Returning the branch to the dryad Illiyana at Forest Song brings a bittersweet close to the search. While the sacred relic is preserved from demonic degradation, the news of Anilia's demise strikes a heavy blow to her surviving kin. The dryads of Ashenvale, once accustomed to carefree frolics beneath the ancient boughs, are forced to face the harsh reality of war and encroaching corruption.",
+   "title": "Sorrow Among the Dryads",
+   "body": "Returning the branch to the dryad Illiyana brings a bittersweet close to the search. While the sacred relic is preserved from demonic degradation, the news of Anilia's demise strikes a heavy blow to her surviving kin. The dryads of Ashenvale, once accustomed to carefree frolics beneath the ancient boughs, are forced to face the harsh reality of war and encroaching corruption.",
    "spoiler": 1
   }
  ],
@@ -73,7 +73,7 @@
     "illiyana location",
     "who gets the branch"
    ],
-   "answer": "You must take the recovered branch to the dryad Illiyana, who resides at the night elf outpost of Forest Song in eastern Ashenvale."
+   "answer": "You must take the recovered branch to the dryad Illiyana, who waits at the Shrine of Aessina in Ashenvale."
   },
   {
    "q": "Why do the satyrs want Cenarius's artifacts?",
@@ -104,14 +104,13 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "The dryads of Forest Song rely on Alliance aid to push back demonic threats in the untamed east of Ashenvale."
+   "text": "The dryads of Ashenvale rely on Alliance aid to push back demonic threats in the untamed east of Ashenvale."
   }
  ],
  "keywords": [
   "anilia",
   "ashenvale dryads",
   "branch of cenarius",
-  "forest song",
   "geltharis",
   "illiyana",
   "night run",
@@ -120,7 +119,6 @@
  "related": [
   "quest:1021",
   "npc:illiyana",
-  "subzone:forest-song",
   "topic:cenarius",
   "topic:satyr",
   "zone:ashenvale"

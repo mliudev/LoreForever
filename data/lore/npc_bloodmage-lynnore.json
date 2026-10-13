@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Lynnore acts as a valuable tactical contact in the Blasted Lands, trading unique alchemical reagents and offering dark arcane expertise to advance Horde power against local demonic threats."
+   "text": "For Horde travelers, Lynnore is a valuable contact in the Blasted Lands, trading unique alchemical concoctions to anyone of either faction who brings her the raw ingredients."
   },
   {
    "target": "class:Mage",
@@ -60,15 +60,11 @@
   "blood magic",
   "bloodmage lynnore",
   "cerebral cortex compound",
-  "dreadmaul furnace",
   "gizzard gum",
-  "loramus thalipedes",
   "lynnore"
  ],
  "related": [
-  "subzone:dreadmaul-furnace",
   "zone:blastedlands",
-  "npc:loramus-thalipedes",
   "topic:horde"
  ],
  "attribution": [

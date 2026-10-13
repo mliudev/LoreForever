@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "A Caravan's Strange Relic",
-   "body": "When centaur marauders ambushed a goblin caravan traveling through Thousand Needles, they plundered nearly everything in sight. The sole survivor, Wizlo Bearingshiner, managed to crawl his way to safety at Whitereach Post, leaving behind his most prized invention: the Hypercapacitor Gizmo. Strangely, the gadget wound up secured around the neck of a ferocious, enraged panther locked inside a transport cage. The raiding centaur feared the beast enough to leave the cage entirely alone amidst the burning wreckage, unwittingly preserving Wizlo's odd machine.",
+   "body": "When centaur marauders ambushed a goblin caravan traveling through Thousand Needles, they plundered nearly everything in sight. The sole survivor, Wizlo Bearingshiner, managed to crawl his way to safety at Whitereach Post, leaving behind his best gizmo: the Hypercapacitor Gizmo. Strangely, the gadget wound up secured around the neck of a ferocious, enraged panther locked inside a transport cage. The raiding centaur feared the beast enough to leave the cage entirely alone amidst the burning wreckage, unwittingly preserving Wizlo's odd machine.",
    "spoiler": 0
   },
   {
    "title": "Tinkering in the Dark",
-   "body": "While Wizlo proudly boasts of the device as his finest creation, he admits upon its recovery that he has no real idea what it actually does. Like many goblin contraptions, the Hypercapacitor Gizmo is a tangled mass of ambition and volatile parts, destined to keep its creator occupied with endless tinkering rather than serving any practical, understood function.",
+   "body": "While Wizlo proudly calls the device his best gizmo, he admits upon its recovery that he has no real idea what it actually does. Like many goblin contraptions, the Hypercapacitor Gizmo is a tangled mass of ambition and volatile parts, destined to keep its owner occupied with endless tinkering rather than serving any practical, understood function.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "hypercapacitor",
     "what does the gizmo do"
    ],
-   "answer": "It is an engineering device built by the goblin Wizlo Bearingshiner. Despite its grand name, even Wizlo does not actually know what function it performs, intending to spend his time studying it to figure out its purpose."
+   "answer": "It is an engineering device belonging to the goblin Wizlo Bearingshiner. Despite its grand name, even Wizlo does not actually know what function it performs, intending to spend his time studying it to figure out its purpose."
   },
   {
    "q": "How did the device end up around a panther's neck?",

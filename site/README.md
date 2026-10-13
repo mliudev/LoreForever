@@ -546,6 +546,38 @@ to `/account#profile` when there's none yet).
   Every answer returns `timing: {model_ms, total_ms}`. Accounts left out of /admin's counts as `admin` or
   `config` (`excluded_accounts`, Mike's own and test accounts) skip the daily answer cap (the allowance says
   `unlimited: true`); compaction's limit and the monthly budget still apply to them.
+  - **Forever facts (LOR-446, `lib/forever-knowledge.js`):** the model remembers the original game, so every answer
+    and character reply (not required research, which searches instead) gets up to six checked facts about what WoW Forever changed (boats and flights, talents and abilities, racials, Legacy and other systems, zones, dungeons, races
+    and classes, who rules where) as FOREVER FACTS in its system prompt, at most 2,800 bytes. They're found by FTS5
+    BM25 over `forever_facts` (`forever_fts`), from the question the prompt ends with and the player's zone, while the
+    allowance is checked. A travel question gets its network first: a boat, zeppelin or dock the boat and zeppelin
+    network, a flight path the flight network, "how do I get to …" both. Then up to three docks or flight points (two of each for both) it
+    names or stands at: `travel-*` facts from the client's transport paths (`pipeline/lore/transports.py`,
+    `data/harvest/transports.json`) and one `flight-*` fact per flight point, generated from the client's TaxiNodes
+    and TaxiPath into `lib/forever-flights.js` by `pipeline/lore/flight_paths.py` (rerun it after a Forever patch). So
+    no quick look-up and no remembered route. `SEED_FACTS` sync into D1 when `FACTS_VERSION` changes; /admin adds and
+    removes facts.
+    A character reply gets them as how things stand in its world, without the game's name.
+    Answers return `forever_facts`, the titles they were given.
+  - **Looking it up (LOR-446, `lib/research-cache.js`, `lookUp` in `lib/companion-answers.js`):** optional
+    `research: "auto"` (the companion sends it with spoken questions) lets the site decide. A practical question or a
+    correction that no FOREVER FACT matched by its words gets a quick look online first: one Flash-Lite call with
+    Google Search and a short prompt of its own (with the whole answer prompt Flash-Lite almost never searched) writes
+    a neutral finding in about 2.5 s (7 s cutoff, then the answer goes on without it), and the answer is written from
+    it as EARLIER RESEARCH. It reserves the answer plus the look-up (six queries); its cost is about $0.015-0.03. A
+    finding with sources is kept 14 days in `research_cache`, keyed by the question's words, the zone and the faction,
+    and serves the next player who asks the same there, without searching (`looked_up: "cached"`), required research
+    too (then it returns the finding's sources as `searched`). Answers return `looked_up`: "required", "quick",
+    "cached" or "no".
+  - **Answer feedback (LOR-446, `lib/answer-feedback.js`):** after an answer, a message that says it was wrong ("I'm
+    pretty sure that's Dalaran") or is frustrated ("that's useless") gets a short note not to argue (and low thinking,
+    2,048 more output tokens, so a wrong player is gently corrected rather than agreed with), and is kept in
+    `answer_feedback` with the question and answer it disputes (from the prompt's RECENT CONVERSATION), the zone and
+    a hashed account id; the answer returns `feedback: "correction" | "frustration"`. `POST /api/companion/feedback`
+    (same device token; `{question, answer, note?, zone?, sub?, spoken?}`, 50 a day) keeps a player's Wrong answer
+    flag. /admin's Community → Willo lists them (`GET`/`POST /api/admin/willo`, the admin key): mark checked or
+    dismissed, or make one a Forever fact that later answers get. Rows go after 90 days and with the account
+    (deleteUser); public/privacy.html says so.
   - **Accounting:** all three paths reserve their own bounded input/output estimate against the shared $100 monthly
     budget before calling the provider. Ordinary replies and compaction use Flash-Lite's $0.25/$1.50 per million
     input/output tokens. Research uses [Google's published pricing](https://ai.google.dev/gemini-api/docs/pricing),

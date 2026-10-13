@@ -26,7 +26,7 @@
   },
   {
    "title": "Delivery to Brakk",
-   "body": "Whoever penned the entries left enough of an impression\u2014or connection\u2014to point toward Brakk, an orc stationed near the settlement of Razor Hill. Carrying the personal effects of lost travelers to local scouts and encampment hands is often the only way scattered wanderers are ever reunited with their belongings, or at least remembered by those watching the dusty roads.",
+   "body": "Whoever penned the entries left enough of an impression\u2014or connection\u2014to point toward Brakk, an adventurer camped near the settlement of Razor Hill. Carrying the personal effects of lost travelers to those who know the road is often the only way scattered wanderers are ever reunited with their belongings, or at least remembered by those watching the dusty roads.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "who is brakk",
     "where is brakk"
    ],
-   "answer": "Brakk is an orc located near Razor Hill in central Durotar who takes delivery of the lost journal."
+   "answer": "Brakk is an adventurer camped near Razor Hill in central Durotar who takes delivery of the lost journal."
   },
   {
    "q": "Where is the journal found?",
@@ -74,7 +74,7 @@
     "brakk purpose",
     "brakk journal"
    ],
-   "answer": "Positioned just outside Razor Hill along Durotar's active trails, Brakk serves as a key contact point for items, reports, and wandering business passing through central Horde territory."
+   "answer": "The quest doesn't say. Brakk is a seasoned adventurer camped just outside Razor Hill who teaches newcomers the basics of camping, so a journal full of camping stories finds a natural home with him."
   },
   {
    "q": "Is the adventurer who wrote it in danger?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The arid trails of Durotar are walked by many new recruits; retrieving lost property and reporting back to scouts near Razor Hill helps maintain order along the central frontier."
+   "text": "The arid trails of Durotar are walked by many new recruits; retrieving lost property and bringing it to wanderers like Brakk near Razor Hill helps maintain order along the central frontier."
   },
   {
    "target": "class:Hunter",

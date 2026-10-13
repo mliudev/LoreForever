@@ -11,17 +11,17 @@
  "sections": [
   {
    "title": "Creation of the Paladins",
-   "body": "Following the destruction of Stormwind during the First War, Archbishop Alonsus Faol recognized a dire flaw in the Alliance's defenses: the clerics of Northshire were devoted and skilled healers, but they lacked martial training and fell easily on the front lines. To ensure holy warriors could endure the brutal combat of the Second War, Faol and his premier student, Uther the Lightbringer, founded the Order of the Knights of the Silver Hand in Stratholme. Faol recruited both battle-hardened knights willing to learn devotion to the Light and devout clerics willing to bear plate armor and warhammers.",
+   "body": "Following the destruction of Stormwind during the First War, Archbishop Alonsus Faol recognized a dire flaw in the Alliance's defenses: the clerics of Northshire were devoted and skilled healers, but they lacked martial training and fell easily on the front lines. To ensure holy warriors could endure the brutal combat of the Second War, Faol and his premier student, Uther the Lightbringer, founded the Order of the Knights of the Silver Hand. Faol recruited both battle-hardened knights willing to learn devotion to the Light and devout clerics willing to bear plate armor and warhammers.",
    "spoiler": 0
   },
   {
    "title": "Glory in the Second War",
-   "body": "The original five paladins\u2014Uther the Lightbringer, Turalyon, Saidan Dathrohan, Tirion Fordring, and Gavinrad the Dire\u2014proved instrumental to the Alliance of Lordaeron. First riding into combat during the Battle of Hillsbrad, the paladins lifted the morale of weary soldiers and countered the sinister necromancy of the Horde's death knights. Throughout the war, the Silver Hand broke peasant rebellions, reclaimed Caer Darrow, and helped defend Capital City against the siege of the orcs. In the years of peace that followed, the paladins guarded Lordaeron's borders, settled civil disputes, and served as shining exemplars of honor, humility, and justice.",
+   "body": "Led by Uther the Lightbringer, the first paladins proved instrumental to the Alliance of Lordaeron. Riding into combat, the paladins lifted the morale of weary soldiers and countered the sinister necromancy of the Horde's death knights. Throughout the war, the Silver Hand broke peasant rebellions, reclaimed Caer Darrow, and helped defend Capital City against the siege of the orcs. In the years of peace that followed, the paladins guarded Lordaeron's borders, settled civil disputes, and served as shining exemplars of honor, humility, and justice.",
    "spoiler": 0
   },
   {
    "title": "The Fall and Fractured Remnants",
-   "body": "Tragedy struck the order from within during the Third War. Prince Arthas Menethil, a decorated knight of the Silver Hand, clashed bitterly with his mentor Uther outside Stratholme and unlawfully suspended the paladins when Uther refused to butcher the infected citizenry. When Arthas later succumbed to corruption and led the Scourge against Lordaeron, Uther and Gavinrad were slain, shattering the order's central leadership. The surviving knights in the north fractured under differing doctrines, eventually birthing the zealous Scarlet Crusade and the vigilant Argent Dawn, while the surviving chapters in Stormwind and Ironforge continue to train new paladins under the classic banner of the Silver Hand.",
+   "body": "Tragedy struck the order from within during the Third War. Prince Arthas Menethil, a decorated knight of the Silver Hand, clashed bitterly with his mentor Uther outside Stratholme and unlawfully suspended the paladins when Uther refused to butcher the infected citizenry. When Arthas later succumbed to corruption and led the Scourge against Lordaeron, Uther was slain, shattering the order's central leadership. The surviving knights in the north fractured under differing doctrines, eventually birthing the zealous Scarlet Crusade and the vigilant Argent Dawn, while the surviving chapters in Stormwind and Ironforge continue to train new paladins under the classic banner of the Silver Hand.",
    "spoiler": 0
   }
  ],
@@ -33,16 +33,7 @@
     "founder of paladins",
     "who created paladins"
    ],
-   "answer": "The order was created by Archbishop Alonsus Faol in Stratholme following the First War, with Uther the Lightbringer chosen as its very first knight."
-  },
-  {
-   "q": "Who were the first five paladins?",
-   "aliases": [
-    "first paladins",
-    "original silver hand members",
-    "first five"
-   ],
-   "answer": "The first five inducted into the order were Uther the Lightbringer, Turalyon, Saidan Dathrohan, Tirion Fordring, and Gavinrad the Dire, each blessed with a sacred libram by Archbishop Faol."
+   "answer": "The order was created by Archbishop Alonsus Faol following the First War, with Uther the Lightbringer chosen as its very first knight."
   },
   {
    "q": "Does the Silver Hand still exist?",
@@ -94,7 +85,6 @@
   "alonsus faol",
   "arthas",
   "holy light",
-  "libram",
   "paladin",
   "silver hand",
   "stratholme",

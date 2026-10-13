@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "A Monument to Isolation",
-   "body": "Following the Second War, King Genn Greymane grew resentful of the Alliance of Lordaeron, particularly the taxes required to maintain the orc internment camps and build Nethergarde Keep. Deciding Gilneas had given enough of its coin and blood for foreign troubles, Greymane withdrew from the Alliance and ordered a colossal barrier raised across the head of the peninsula. In doing so, he abandoned lands belonging to Lord Darius Crowley\u2014including Pyrewood Village and Ambermill\u2014leaving them stranded on the northern side of the stones. When the Third War brought the Plague of Undeath and countless desperate refugees to its foot, the gates remained pitilessly barred.",
+   "body": "Following the Second War, King Genn Greymane grew resentful of the Alliance of Lordaeron, particularly the taxes required to maintain the orc internment camps. Deciding Gilneas had given enough of its coin and blood for foreign troubles, Greymane withdrew from the Alliance and ordered a colossal barrier raised across the head of the peninsula. When the Third War brought the Plague of Undeath and countless desperate refugees to its foot, the gates remained pitilessly barred.",
    "spoiler": 0
   },
   {
    "title": "The Price of Seclusion",
-   "body": "While the rampart successfully kept the armies of the Scourge from overrunning the peninsula, safety brought a dark price. Gilnean forces briefly opened the gates during the war to fight the undead, only to be overwhelmed. In desperation, King Greymane ordered Archmage Arugal to summon the feral worgen. Though the beasts drove back the Scourge, they turned on their summoners. Greymane's soldiers retreated and sealed the gates shut once more, but infected fighters carried the beastly contagion back inside. Behind the cold, silent wall, internal rebellion and a creeping curse now tear the isolated kingdom apart.",
+   "body": "While the rampart kept the armies of the Scourge from overrunning the peninsula, the lands outside it found no such safety. In Silverpine, the archmage Arugal of Dalaran summoned feral worgen to fight the undead, but the beasts proved uncontrollable and now prowl the forest beneath the silent wall. What passes behind its gates remains unknown to the outside world.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "why cut off pyrewood",
     "crowley lands cut off"
    ],
-   "answer": "The wall utilized the surrounding mountainous terrain as a natural barrier. Building along this ridge forced the kingdom to abandon the northern holdings of Lord Darius Crowley\u2014including Pyrewood Village and Ambermill\u2014sowing bitter domestic dissent within Gilneas."
+   "answer": "The reasons for its exact course are not recorded. The wall spans the southern edge of Silverpine Forest at the head of the Gilnean peninsula, leaving villages such as Pyrewood and Ambermill on its northern side."
   },
   {
    "q": "What happened to the refugees who fled here during the Third War?",
@@ -69,7 +69,6 @@
  ],
  "keywords": [
   "arugal",
-  "darius crowley",
   "genn greymane",
   "gilneas",
   "greymane wall",

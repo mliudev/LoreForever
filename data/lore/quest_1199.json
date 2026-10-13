@@ -60,7 +60,7 @@
     "who are twilight's hammer",
     "twilights hammer"
    ],
-   "answer": "The Twilight's Hammer is a fanatical doomsday cult that worships the Old Gods\u2014chaotic, primordial entities imprisoned beneath the earth long ago. Cultists believe in hastening an apocalyptic end where their shadowy masters rise again to remake the world in terror and madness."
+   "answer": "The Twilight's Hammer is a fanatical doomsday cult that worships the Old Gods—chaotic, primordial entities imprisoned beneath the earth long ago. Cultists believe in hastening an apocalyptic end where their shadowy masters rise again to remake the world in terror and madness."
   },
   {
    "q": "What were the Twilight Pendants used for?",
@@ -85,13 +85,13 @@
     "naga cultists alliance",
     "bfd naga alliance"
    ],
-   "answer": "Both the naga and the Twilight's Hammer share deep, dark allegiances to the chaotic forces of the deep. Within Blackfathom Deeps, their cooperation allows the cultists safe access to ancient submerged chambers while the naga benefit from the cult's vile sorceries and sacrificial rites."
+   "answer": "The reasons for their union are not fully known, but both are drawn to the dark power stirring within the sunken temple. Within Blackfathom Deeps, their cooperation allows the cultists safe access to ancient submerged chambers while the naga benefit from the cult's vile sorceries and sacrificial rites."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The desecration of a sacred temple and moonwell by creeping void-worshipers and naga is a direct affront to Elune and the ancestral lands of Ashenvale."
+   "text": "The desecration of a sacred temple and moonwell by creeping Old God cultists and naga is a direct affront to Elune and the ancestral lands of Ashenvale."
   },
   {
    "target": "faction:Alliance",

@@ -8,18 +8,8 @@
   "wiki": "Arcanist Doan",
   "refs": 5
  },
- "summary": "Arcanist Doan is a master human mage residing within the Athenaeum of the Scarlet Monastery's Library wing. Formerly an associate of the Silver Hand who assisted in forging the legendary Ashbringer, he now serves the Scarlet Crusade as one of its most lethal arcane specialists and guardian of key crusade archives.",
+ "summary": "Arcanist Doan is a master human mage residing within the Athenaeum of the Scarlet Monastery's Library wing. He serves the Scarlet Crusade as one of its most lethal arcane specialists and guardian of key crusade archives.",
  "sections": [
-  {
-   "title": "A Mage Among Paladins",
-   "body": "Before the Scarlet Crusade turned inward and zealous, Arcanist Doan walked among the Knights of the Silver Hand. During the Third War, he met with Highlord Alexandros Mograine and other founders at Southshore. When Mograine revealed a shadowy crystal taken from an orc warlock during the Second War, Doan observed its unnatural ability to absorb holy energy. Joining his arcane insight with the holy magic of his peers, Doan helped cleanse the void crystal into radiant light, forming the heart of the weapon known as the Ashbringer.",
-   "spoiler": 0
-  },
-  {
-   "title": "Defense of Hearthglen",
-   "body": "As the Scourge swept across Lordaeron, Doan advocated for total plague containment. When the undead battered Hearthglen's fortifications, he held the ramparts alongside High Inquisitor Isillien. While others urged him to unleash magic immediately, Doan methodically gathered his strength, unleashing a devastating blizzard at the precise moment necessary to shatter the advancing undead ranks. His clinical patience proved his lethal mastery of battlefield evocation.",
-   "spoiler": 0
-  },
   {
    "title": "Keeper of the Athenaeum",
    "body": "While the fanatical ranks of the Scarlet Crusade lean heavily on martial fury and holy fervor, Doan remained convinced that raw arcane power was essential to purging the Scourge from Lordaeron. Stationed deep inside the Athenaeum of the Monastery's library, he was entrusted as both a lorekeeper and an operational gatekeeper, safeguarding the Scarlet Key that secures crusade sanctuaries across the northern kingdoms.",
@@ -34,7 +24,7 @@
     "crusade mage",
     "doan magic"
    ],
-   "answer": "Although the Crusade is dominated by zealot paladins and priests, Doan has been allied with its founders since the Silver Hand days. He firmly believes that masterwork arcane magic is an indispensable weapon needed to cleanse the Scourge from Lordaeron."
+   "answer": "Although the Crusade is dominated by zealot paladins and priests, Doan firmly believes that masterwork arcane magic is an indispensable weapon needed to cleanse the Scourge from Lordaeron."
   },
   {
    "q": "What is Arcanist Doan's connection to the Ashbringer?",
@@ -43,7 +33,7 @@
     "did doan make ashbringer",
     "ashbringer crystal"
    ],
-   "answer": "At a council in Southshore during the Third War, Alexandros Mograine presented an orb of darkness taken from an orc warlock. Doan helped direct the magical experiment where the Silver Hand poured their magic into the relic, successfully purifying it into the radiant core that forged the Ashbringer."
+   "answer": "None is known. Doan is known as the keeper of the Scarlet Monastery's library and the guardian of the Scarlet Key, not as part of the Ashbringer's story."
   },
   {
    "q": "What does Doan guard in the Library?",
@@ -61,22 +51,19 @@
     "doan abilities",
     "arcanist doan bubble"
    ],
-   "answer": "Doan blends abjuration and evocation magic. He is famous for casting an Arcane Bubble that renders him invulnerable while he channels a massive, room-engulfing Detonation spell. He also disrupts spellcasters with area silences and polymorphs threats into sheep."
+   "answer": "Doan is famous for casting an Arcane Bubble that renders him invulnerable while he channels a massive, room-engulfing Detonation spell. He also disrupts spellcasters with area silences and polymorphs threats into sheep."
   },
   {
    "q": "Where did Doan fight during the Third War?",
    "aliases": [
     "doan war history",
-    "doan hearthglen",
     "where was doan"
    ],
-   "answer": "Beyond attending the pivotal war councils in Southshore, Doan fought on the front lines at Hearthglen, using catastrophic blizzard spells from the ramparts to break massive undead assault waves."
+   "answer": "His deeds in the Third War are not recorded. Today he is known as the keeper of the Scarlet Monastery's library, where he guards the Athenaeum and the Scarlet Key."
   },
   {
    "q": "Does Doan harbor any personal secrets?",
    "aliases": [
-    "doan dalaran fountain",
-    "doan abbendis",
     "doan lore"
    ],
    "answer": "Doan serves as an arcanist of the Scarlet Crusade. His private romantic attachments are unrecorded in the Classic sources."
@@ -89,11 +76,11 @@
   },
   {
    "target": "class:Paladin",
-   "text": "Doan fought beside the founding members of the Silver Hand and was directly involved in purifying the crystal that created the Ashbringer before joining the crusade's descent into zealotry."
+   "text": "Paladins will find in Doan a rare arcanist trusted by the Scarlet Crusade, an order that otherwise prizes the Light above all other powers."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance forces, Doan represents what remains of Lordaeron's proud Kirin Tor and Silver Hand defenders who abandoned reason in favor of the Crusade's violent paranoia."
+   "text": "For Alliance forces, Doan shows how far the Scarlet Crusade's zeal reaches, binding even a master of the arcane to its violent paranoia."
   },
   {
    "target": "faction:Horde",
@@ -102,11 +89,9 @@
  ],
  "keywords": [
   "arcanist",
-  "ashbringer",
   "athenaeum",
   "detonation",
   "doan",
-  "hearthglen",
   "library",
   "scarlet key",
   "scarlet monastery"
@@ -116,9 +101,6 @@
   "subzone:athenaeum-scarlet-monastery",
   "zone:scarlet",
   "topic:scarlet-crusade",
-  "topic:knights-of-the-silver-hand",
-  "subzone:hearthglen",
-  "subzone:southshore",
   "topic:scourge"
  ],
  "attribution": [

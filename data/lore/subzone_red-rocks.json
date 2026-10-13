@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Red Rocks"
  },
- "summary": "Red Rocks is a towering sandstone bluff in northeastern Mulgore that serves as a sacred ancestral burial ground for the tauren. Here, fallen champions are commended to the Earth Mother through cleansing flame, and young braves travel to its quiet heights to seek the wisdom of their forebears.",
+ "summary": "Red Rocks is a towering sandstone bluff in northeastern Mulgore that serves as a sacred ancestral burial ground for the tauren. Here, the most valiant fallen champions are laid to rest, and young braves travel to its quiet heights to seek the wisdom of their forebears.",
  "sections": [
   {
-   "title": "Hallowed Stones and Ancestral Pyres",
-   "body": "Rising high above the plains of northeastern Mulgore, the crimson formations of Red Rocks mark a sacred threshold between the living world and the next. Tauren tradition reserves this solemn ground for their most valiant heroes\u2014chieftains, defenders, and champions who gave their lives founding and protecting Thunder Bluff. Their remains are surrendered to the sky and soil through ceremonial pyres, returning their spirits to the Earth Mother and Sky Father. It is equally a place of spiritual beginning, where young tauren complete their rites of passage by honoring the ancestral graves and communing with the wind.",
+   "title": "Hallowed Stones and Ancestral Graves",
+   "body": "Rising high above the plains of northeastern Mulgore, the crimson formations of Red Rocks mark a sacred threshold between the living world and the next. Tauren tradition reserves this solemn ground for their most valiant heroes\u2014chieftains, defenders, and champions who gave their lives founding and protecting Thunder Bluff. They are laid to rest here in honor, among the graves of their forebears. It is equally a place of spiritual beginning, where young tauren complete their rites of passage by honoring the ancestral graves and communing with the wind.",
    "spoiler": 0
   },
   {
    "title": "The Quilboar Desecration",
-   "body": "The enduring peace of Red Rocks has been shattered by the Bristleback quilboar. Creeping out from their dens, these aggressive scavengers have infested the sandstone ledges and desecrated the ancestral burial pyres with filth. This violation deeply affronts the spiritual traditions of Thunder Bluff. Shaman and lorekeepers now summon aid to cleanse the crags, driving out the Bristlebacks and reclaiming the sanctity of their resting dead.",
+   "body": "The enduring peace of Red Rocks has been shattered by the Bristleback quilboar. Creeping out from their dens, these aggressive scavengers have infested the sandstone ledges and desecrated the ancestral graves with filth. This violation deeply affronts the spiritual traditions of Thunder Bluff. Shaman and lorekeepers now summon aid to cleanse the crags, driving out the Bristlebacks and reclaiming the sanctity of their resting dead.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "red rocks purpose",
     "what happens at red rocks"
    ],
-   "answer": "Red Rocks serves as the premier ancestral burial ground and ceremonial rite site for the tauren of Mulgore. Fallen heroes and honored braves are cremated here to return their spirits to the Earth Mother, and young tauren visit its heights to honor the dead during their trials of adulthood."
+   "answer": "Red Rocks serves as the premier ancestral burial ground and ceremonial rite site for the tauren of Mulgore. Only the most valiant fallen heroes are laid to rest here, and young tauren visit its heights to honor the dead during their trials of adulthood."
   },
   {
    "q": "Why are there quilboar at Red Rocks?",
@@ -54,13 +54,13 @@
     "rites at red rocks",
     "tauren rituals red rocks"
    ],
-   "answer": "Beyond funerary pyres commended to the Earth Mother and Sky Father, the bluff is a focal point for the Rite of Wisdom, where tauren braves leave offerings and listen for the guidance of ancestral spirits on the wind."
+   "answer": "Beyond laying honored heroes to rest, the bluff is a focal point for the Rite of Wisdom, where tauren braves leave offerings and listen for the guidance of ancestral spirits on the wind."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For your people, Red Rocks is sacred soil. The presence of foul quilboar rooting among your honored ancestors' pyres is an open outrage that demands cleansing."
+   "text": "For your people, Red Rocks is sacred soil. The presence of foul quilboar rooting among your honored ancestors' graves is an open outrage that demands cleansing."
   },
   {
    "target": "class:Shaman",

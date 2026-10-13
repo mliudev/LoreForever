@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Ranger's Ruined Home",
-   "body": "Before the Third War, this homestead belonged to Nathanos Marris, a renowned human marksman and the only human ranger lord admitted into the Farstriders. When the Scourge tore through Lordaeron after the fall of Stratholme, the monstrous abomination Ramstein the Gorger cornered and slaughtered Nathanos at his own home. Raised as a mindless thrall bound to the Lich King, he was later discovered and liberated by Sylvanas Windrunner's rangers, breaking free of the Scourge to take his place among the Forsaken.",
+   "body": "Before the Third War, this homestead belonged to Nathanos Marris, a renowned human marksman and the only human ranger lord admitted into the Farstriders. When the Scourge tore through Lordaeron after the fall of Stratholme, the monstrous abomination Ramstein the Gorger cornered and slaughtered Nathanos at his own home. Raised as a mindless thrall bound to the Lich King, he was later freed by Sylvanas Windrunner herself, breaking free of the Scourge to take his place among the Forsaken.",
    "spoiler": 1
   },
   {
@@ -48,15 +48,6 @@
     "why kill nathanos"
    ],
    "answer": "SI:7 spymaster Mathias Shaw received disturbing reports of unusual Forsaken activity and sent agents to investigate. When only one returned, further investigators were sent to learn what happened to the others."
-  },
-  {
-   "q": "What artifacts are kept inside the house?",
-   "aliases": [
-    "marris stead items",
-    "relics in house",
-    "darrowshire relics"
-   ],
-   "answer": "Several historic relics from the tragic Battle of Darrowshire are stored within the ruined farmhouse, including Davil Crokford's Libram and Redpath's Shield, collected amid the ongoing struggles in the Plaguelands."
   }
  ],
  "angles": [
@@ -71,7 +62,6 @@
  ],
  "keywords": [
   "blighthounds",
-  "darrowshire relics",
   "eastern plaguelands",
   "marris stead",
   "nathanos",

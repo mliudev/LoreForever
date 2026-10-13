@@ -10,7 +10,7 @@
   ],
   "level": "",
   "faction": "Alliance",
-  "start": "Grand Admiral Jes-Tereth",
+  "start": "Highlord Bolvar Fordragon",
   "end": "Field Marshal Stonebridge",
   "previous": "The Lord of Blackrock (Alliance)",
   "next": null,
@@ -49,7 +49,7 @@
     "stonebridge",
     "field marshal stonebridge"
    ],
-   "answer": "Field Marshal Stonebridge is a senior military officer of the Stormwind army stationed at the Valley of Heroes, near the entrance to Stormwind City. He organizes the public commemoration of major military triumphs, including hoisting the heads of defeated draconic threats."
+   "answer": "Field Marshal Stonebridge is a senior military officer of the Stormwind army stationed at the Valley of Heroes, near the entrance to Stormwind City. She organizes the public commemoration of major military triumphs, including hoisting the heads of defeated draconic threats."
   },
   {
    "q": "Why does Highlord Bolvar Fordragon send you here?",
@@ -81,7 +81,7 @@
     "who is lord of blackrock",
     "nefarian identity"
    ],
-   "answer": "The Lord of Blackrock is the black dragon Nefarian, eldest son of Deathwing and ruler of the upper spires of Blackrock Mountain."
+   "answer": "The Lord of Blackrock is the black dragon Nefarian, son of Deathwing and ruler of the upper spires of Blackrock Mountain."
   }
  ],
  "angles": [
@@ -101,7 +101,6 @@
  "keywords": [
   "blackrock",
   "dragonslayer",
-  "jes-tereth",
   "nefarian",
   "rallying cry",
   "stonebridge",
@@ -109,9 +108,8 @@
   "valley of heroes"
  ],
  "related": [
-  "npc:field-marshal-stonebridge",
-  "npc:grand-admiral-jes-tereth",
   "subzone:valley-of-heroes",
+  "npc:field-marshal-stonebridge",
   "zone:stormwind",
   "quest:7781",
   "topic:stormwind-kingdom",

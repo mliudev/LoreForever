@@ -78,6 +78,16 @@
       on your profile, and only while it's public. Anyone can report one; a picture several people report is
       hidden. A report keeps a scrambled (hashed) copy of the sender's IP address, salted for that picture alone, so
       each person counts once; it goes when the picture does.</li>
+    <li><strong>Questions you ask Willo</strong> in the companion app, if you've connected it to your account: your
+      question, what the companion knows about your game for it (your character's race, class and level, where you
+      are, your target and quests, a little of your journey and the recent messages of that chat) go through our site
+      to Google's API, which writes the answer. We don't keep the question or the answer; we count how many answers
+      your account had each day, for the daily limit, and what they cost us, added up over everyone. Your chats are
+      kept only on your PC. The one exception is when you tell Willo an answer was wrong, or show you're fed up with
+      one, or press "Something's wrong": then we keep what you said, the question and answer it was about and the
+      zone you were in, with a scrambled (hashed) form of your account so we can tell how many people noticed the same
+      thing, to fix Willo's answers. We keep these 90 days, and they go when you delete your account; a correction we
+      checked can become one of the facts Willo answers everyone with, without anything about you.</li>
     <li><strong>The companion app's daily check-in</strong>: once a day the companion app tells us it's in use, with a
       random number made on your PC (scrambled) and the app's and the add-on's version numbers, with no account, name
       or game data and without keeping your IP address; we keep these 90 days to count installs in use, and you can
@@ -116,8 +126,9 @@
   <ul>
     <li><strong>Cloudflare</strong> hosts the site and stores everything above (its database and file storage). It
       also counts visits, without cookies, and runs Turnstile, a spam check, when we switch it on.</li>
-    <li><strong>Google</strong> handles sign-in, serves the site's fonts, and writes profile stories: Google's API
-      writes the story from your character's facts, never your email or name.</li>
+    <li><strong>Google</strong> handles sign-in, serves the site's fonts, writes profile stories (from your
+      character's facts, never your email or name) and writes Willo's answers in the companion app (from your
+      question and its game context, never your email or name).</li>
     <li><strong>OpenRouter</strong> and <strong>Fish Audio</strong> record your profile's story in our narrators'
       voices, for the Listen button on your profile (earlier recordings were made by <strong>fal.ai</strong>): they
       get the story's text and nothing else.</li>

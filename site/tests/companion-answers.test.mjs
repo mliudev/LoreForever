@@ -16,6 +16,8 @@ beforeEach(async (t) => {
   t.mock.timers.enable({ apis: ["Date"], now: new Date("2026-10-09T12:00:00Z") });
   await setup(env);
   for (const table of ["devices", "device_links", "rate_limits", "answer_spend", "story_spend", "users", "excluded_accounts"]) env.DB.sqlite.exec(`DELETE FROM ${table}`);
+  // Research findings are shared between players (lib/research-cache.js): each test searches afresh.
+  try { env.DB.sqlite.exec("DELETE FROM research_cache"); } catch { /* made on first use */ }
   calls = [];
   globalThis.fetch = async (url, options) => {
     calls.push({ url, body: JSON.parse(options.body) });
@@ -448,6 +450,7 @@ test("search evidence with missing or malformed query metadata retains the searc
     globalThis.fetch = async () => Response.json({ candidates: [{ content: { parts: [{ text: "A result." }] },
       groundingMetadata }], usageMetadata: { promptTokenCount: 100, candidatesTokenCount: 20 } });
     const before = env.DB.sqlite.prepare("SELECT reserved_micro FROM answer_spend").get()?.reserved_micro || 0;
+    try { env.DB.sqlite.exec("DELETE FROM research_cache"); } catch { /* none yet */ }  // each case searches
     assert.equal((await ask(token, { researchRequired: true })).status, 200);
     const spent = env.DB.sqlite.prepare("SELECT reserved_micro FROM answer_spend").get().reserved_micro - before;
     assert.equal(spent, SEARCH_QUERY_RESERVATION * ANSWER_GROUNDING_MICRO + 150);

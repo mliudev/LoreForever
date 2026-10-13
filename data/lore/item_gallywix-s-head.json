@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "A Grim Proof of Elimination",
-   "body": "Grand Foreman Puzik Gallywix directed operations out of the Venture Company's tower north of the Sludge Fen. In response to the encroaching industrial threat and hazardous concoctions produced there, the Shattered Hand dispatched operatives to dismantle the facility entirely. Claiming Puzik Gallywix's head serves as absolute proof to Shenthul in Orgrimmar that the overseer was executed, securing the rogue's standing within the guild.",
+   "body": "Grand Foreman Puzik Gallywix directed operations out of the Venture Company's tower north of the Sludge Fen. After word came that the Venture Co. were planning something on a grand scale, the Shattered Hand dispatched operatives to dismantle the facility entirely. Claiming Puzik Gallywix's head serves as absolute proof to Shenthul in Orgrimmar that the overseer was executed, securing the rogue's standing within the guild.",
    "spoiler": 0
   },
   {
    "title": "The Sludge Fen Incursion",
-   "body": "The assignment to take Gallywix's head is accompanied by a mandate to retrieve a stolen cache of Zanzil's altered mixture and slaughter the tower's poisoned personnel. By assassinating Gallywix atop his perch and returning his head to the Cleft of Shadows, operatives confirm the disruption of the Venture Company's toxic experiments in the Barrens.",
+   "body": "The assignment to take Gallywix's head is accompanied by a mandate to retrieve a stolen cache of Zanzil's altered mixture and slaughter the tower's poisoned personnel. By assassinating Gallywix atop his perch and returning his head to the Cleft of Shadow, operatives confirm that the Venture Company's grand scheme in the Barrens has been broken.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "turn in gallywix head",
     "shenthul head"
    ],
-   "answer": "The trophy is delivered to Shenthul, a rogue trainer and operative of the Shattered Hand situated in the Cleft of Shadows beneath Orgrimmar."
+   "answer": "The trophy is delivered to Shenthul, a rogue trainer and operative of the Shattered Hand situated in the Cleft of Shadow in Orgrimmar."
   },
   {
    "q": "Why does the Shattered Hand want him dead?",
@@ -48,7 +48,7 @@
     "why kill gallywix",
     "gallywix assassination reason"
    ],
-   "answer": "Puzik Gallywix oversaw a hazardous Venture Company operation experimenting with Zanzil's altered mixture. The Shattered Hand marked him for death to eliminate a local industrial hazard and secure the concoction."
+   "answer": "Puzik Gallywix ran the Venture Company tower north of the Sludge Fen, where the Venture Co. were planning something on a grand scale, and he kept the last cache of Zanzil's altered mixture in his lockbox. The Shattered Hand marked him for death to break the operation and seize the mixture."
   },
   {
    "q": "Where is Puzik Gallywix located?",

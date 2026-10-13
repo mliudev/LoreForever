@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Sandsorrow Watch"
  },
- "summary": "Sandsorrow Watch is a sprawling desert outpost located just west of Gadgetzan in Tanaris. While the surrounding dunes and ruins are overrun by hostile Sandfury trolls and their reanimated dead, an eastern watch tower serves as an outpost overlooking the waste.",
+ "summary": "Sandsorrow Watch is a sprawling desert outpost located just west of Gadgetzan in Tanaris. The surrounding dunes and ruins are overrun by hostile Sandfury trolls and their reanimated dead, who also hold the eastern watch tower overlooking the waste.",
  "sections": [
   {
    "title": "A Precarious Perch",
-   "body": "Situated directly west of the bustling goblin trading hub of Gadgetzan, Sandsorrow Watch is a grim borderland in the Tanaris desert. The broad expanse is dominated by the Sandfury tribe—also known as the Farraki trolls—who aggressively defend the arid territory alongside legions of shambling troll zombies. An elevated watch tower at the eastern edge anchors the position, providing a fortified vantage point amidst the encroaching desert wilderness and the hostile indigenous tribes.",
+   "body": "Situated directly west of the bustling goblin trading hub of Gadgetzan, Sandsorrow Watch is a grim borderland in the Tanaris desert. The broad expanse is dominated by the Sandfury tribe, who aggressively defend the arid territory alongside legions of shambling troll zombies. An elevated watch tower at the eastern edge anchors the position, providing a fortified vantage point amidst the encroaching desert wilderness and the hostile indigenous tribes.",
    "spoiler": 0
   },
   {
    "title": "Frontier Outpost",
-   "body": "Even the watch tower at the eastern edge, within sight of Gadgetzan's walls, is held by the Sandfury. From its heights the Farraki keep a wary eye on the goblin town, and travelers leaving through Gadgetzan's western gate walk almost directly into their territory, a constant reminder of the volatile frontier tension between Tanaris's opportunistic settlers and the native sand trolls.",
+   "body": "Even the watch tower at the eastern edge, within sight of Gadgetzan's walls, is held by the Sandfury. From its heights the Sandfury keep a wary eye on the goblin town, and travelers leaving through Gadgetzan's western gate walk almost directly into their territory, a constant reminder of the volatile frontier tension between Tanaris's opportunistic settlers and the native sand trolls.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "why troll zombies tanaris",
     "sandsorrow zombies"
    ],
-   "answer": "The Sandfury tribe practices dark necromantic arts and voodoo, frequently raising fallen Farraki warriors as Sandfury Zombies to guard their desolate territory and outposts across Tanaris."
+   "answer": "The Sandfury tribe practices dark necromantic arts and voodoo, frequently raising fallen Sandfury warriors as Sandfury Zombies to guard their desolate territory and outposts across Tanaris."
   },
   {
    "q": "What threats can adventurers expect in the surrounding dunes?",
@@ -55,7 +55,7 @@
     "sandsorrow watch enemies",
     "hostile trolls sandsorrow"
    ],
-   "answer": "The area is heavily patrolled by Sandfury Axe Throwers, Firecallers, and Hideskinners, alongside their reanimated troll zombies. Unprepared travelers venturing off the main path west of Gadgetzan can easily be overwhelmed by roving Farraki warbands."
+   "answer": "The area is heavily patrolled by Sandfury Axe Throwers, Firecallers, and Hideskinners, alongside their reanimated troll zombies. Unprepared travelers venturing off the main path west of Gadgetzan can easily be overwhelmed by roving Sandfury warbands."
   }
  ],
  "angles": [
@@ -65,11 +65,10 @@
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear trolls will find no kinship here: the hostile Sandfury Farraki tribe views all outsiders as invaders to be crushed and raised as shambling corpses."
+   "text": "Darkspear trolls will find no kinship here: the hostile Sandfury tribe views all outsiders as invaders to be crushed and raised as shambling corpses."
   }
  ],
  "keywords": [
-  "farraki",
   "gadgetzan",
   "sand troll",
   "sandfury",

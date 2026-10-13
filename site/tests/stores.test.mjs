@@ -89,7 +89,9 @@ test("author dashboard numbers: admin key only, resending changes nothing, uniqu
   const report = await storesReport(env, now);
   const oct10 = report.days.find(d => d.day === "2026-10-10");
   assert.deepEqual([oct10.curseforge, oct10.unique, oct10.packs?.n], [{ n: 3300, kind: "author" }, 2900, 40]);
-  assert.deepEqual(report.author.thisWeek, { week: "2026-10-05", downloads: 0, unique: 9139 });
+  assert.deepEqual(report.author.thisWeek, { week: "2026-10-05", current: true, downloads: 0, unique: 9139 });
+  assert.deepEqual((await storesReport(env, Date.parse("2026-10-12T12:00:00Z"))).author.thisWeek,
+    { week: "2026-10-05", current: false, downloads: 0, unique: 9139 }, "Monday, before the new week's numbers: last week's");
   assert.deepEqual(report.releases.map(r => [r.name, r.day1, r.from]), [["Lore Forever 0.14.0", Math.round(3000 + 480 * 0.75 / 24), "author"]]);
 });
 

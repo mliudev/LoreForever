@@ -16,7 +16,7 @@
   },
   {
    "title": "Gateway to the Ocean",
-   "body": "The cavern is dominated by colossal iron-reinforced sea doors set into the rock wall. Once opened, these gates provide a direct outlet into the Great Sea, emerging along the coastline just north of Stranglethorn Vale. Before the Defias Brotherhood seized the cove, it was held by an independent pirate crew whom the Brotherhood slaughtered to ensure total secrecy. Shielded from the eyes of the Stormwind naval fleet, the cove provides the Brotherhood an unmonitored lane for moving contraband, staging maritime raids, and preparing their naval assault.",
+   "body": "The cavern is dominated by colossal iron-reinforced sea doors set into the rock wall. Once opened, these gates provide a direct outlet into the Great Sea, emerging along the coast of northern Stranglethorn Vale. Shielded from the eyes of the Stormwind naval fleet, the cove provides the Brotherhood an unmonitored lane for moving contraband, staging maritime raids, and preparing their naval assault.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "deadmines iron doors",
     "exit into the ocean"
    ],
-   "answer": "The massive gates open directly into the ocean along the southern coast of Westfall, near the border of northern Stranglethorn Vale. When opened, the juggernaught can sail straight out into the Great Sea."
+   "answer": "The massive gates open directly into the ocean; their outer face can be seen along the coast of northern Stranglethorn Vale. When opened, the juggernaught can sail straight out into the Great Sea."
   },
   {
    "q": "Who controls Ironclad Cove?",
@@ -45,7 +45,7 @@
     "who runs the cove",
     "who lives in ironclad cove"
    ],
-   "answer": "The Defias Brotherhood holds the cove under the command of Edwin VanCleef. While independent pirates originally used the secluded cavern, VanCleef's forces wiped them out to commandeer the docks and keep the juggernaught's construction entirely secret."
+   "answer": "The Defias Brotherhood holds the cove under the command of Edwin VanCleef, using the hidden docks to keep the juggernaught's construction entirely secret."
   },
   {
    "q": "Who is the murloc aboard the ship?",

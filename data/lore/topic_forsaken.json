@@ -16,7 +16,7 @@
   },
   {
    "title": "An Alliance of Convenience",
-   "body": "Hemmed in by relentless enemies\u2014chief among them the fanatic Scarlet Crusade and the Scourge\u2014Sylvanas dispatched emissaries seeking allies. Those sent to Stormwind were slaughtered before breaching the gates. Across the Great Sea in Kalimdor, however, Archdruid Hamuul Runetotem and elder tauren counseled compassion, believing the cursed people might yet find redemption or a cure through the earth. Despite intense misgivings from Warchief Thrall and Cairne Bloodhoof, the Horde admitted the Forsaken, gaining a vital northern foothold in the Eastern Kingdoms.",
+   "body": "Hemmed in by relentless enemies\u2014chief among them the fanatic Scarlet Crusade and the Scourge\u2014Sylvanas dispatched emissaries seeking allies. Across the Great Sea in Kalimdor, tauren elders counseled compassion, believing the cursed people might yet find redemption or a cure through the earth. Despite Warchief Thrall's misgivings, the Horde admitted the Forsaken, gaining a vital northern foothold in the Eastern Kingdoms.",
    "spoiler": 0
   },
   {
@@ -51,7 +51,7 @@
     "how did forsaken join horde",
     "thrall forsaken alliance"
    ],
-   "answer": "Archdruid Hamuul Runetotem and the tauren advocated strongly for them, seeing potential for redemption and hoping the earth's powers might cure their affliction. Magatha Grimtotem also supported the pact. Warchief Thrall accepted because the Horde urgently needed a strategic military foothold in the Eastern Kingdoms."
+   "answer": "The tauren advocated strongly for them, seeing potential for redemption and hoping the earth's powers might cure their affliction. Magatha Grimtotem also supported the pact. Warchief Thrall accepted because the Horde urgently needed a strategic military foothold in the Eastern Kingdoms."
   },
   {
    "q": "Who rules the Forsaken?",
@@ -99,7 +99,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "Your elders, especially Archdruid Hamuul Runetotem, championed the Forsaken's entry into the Horde out of sympathy, hoping your shamanic and druidic rites might one day soothe or heal their tragic condition."
+   "text": "Your elders championed the Forsaken's entry into the Horde out of sympathy, hoping your shamanic and druidic rites might one day soothe or heal their tragic condition."
   },
   {
    "target": "faction:Alliance",

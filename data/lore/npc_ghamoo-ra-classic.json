@@ -8,16 +8,16 @@
   "wiki": "Ghamoo-ra (Classic)",
   "refs": 5
  },
- "summary": "Ghamoo-ra is an ancient, giant sea turtle inhabiting the Pool of Ask'ar within Blackfathom Deeps. Once a peaceful denizen of Elune's sunken temple, he was captured, tortured, and driven mad by the Twilight's Hammer cult to serve as a vicious guardian.",
+ "summary": "Ghamoo-ra is an ancient, giant sea turtle inhabiting the Pool of Ask'ar within Blackfathom Deeps, the sunken temple of Elune now overrun by the Twilight's Hammer cult. Armored in a massive shell, he savagely tramples any intruders who approach his island.",
  "sections": [
   {
-   "title": "A Gentle Beast Tormented",
-   "body": "Before the defilement of Blackfathom Deeps, Ghamoo-ra was among the last peaceful natural inhabitants dwelling among the flooded ruins of the night elven temple dedicated to Elune. When the nihilistic Twilight's Hammer cult took control of the sanctuary, they roused the ancient turtle from his quiet life and locked him in captivity. Rather than slain, he was systematically tormented for years, suffering mental and physical flaying at the hands of the cultists.",
+   "title": "A Beast of the Drowned Temple",
+   "body": "Blackfathom Deeps was once a night elven temple dedicated to Elune, now flooded and claimed by naga, satyr and the nihilistic Twilight's Hammer cult. Ghamoo-ra dwells among its drowned ruins, an enormous turtle whose thick shell turns aside all but the most determined blows.",
    "spoiler": 0
   },
   {
    "title": "Guardian of the Deeps",
-   "body": "Broken by prolonged cruelty, the great turtle finally succumbed to madness. Bestowing the name Ghamoo-ra upon the ruined creature, the cultists trained him into a ferocious defense beast. Now patrolling a small island in the Pool of Ask'ar surrounded by lesser turtles, Ghamoo-ra blindly attacks any intruders who enter the caverns, serving the very cult that shattered his mind.",
+   "body": "Ghamoo-ra roams a small island in the Pool of Ask'ar, surrounded by lesser turtles that leave travelers be. He alone attacks, crushing any who come near beneath his trampling bulk.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "giant turtle bfd",
     "who is ghamoo ra"
    ],
-   "answer": "Ghamoo-ra is a giant turtle found in the Pool of Ask'ar within Blackfathom Deeps. Originally a peaceful dweller of the temple of Elune, he was captured, tortured, and broken into a ferocious guard beast by the Twilight's Hammer cult."
+   "answer": "Ghamoo-ra is a giant turtle found in the Pool of Ask'ar within Blackfathom Deeps, the flooded temple of Elune now held by the Twilight's Hammer. He attacks anyone who approaches his island."
   },
   {
    "q": "Why is Ghamoo-ra hostile to outsiders?",
@@ -38,7 +38,7 @@
     "why does turtle attack",
     "ghamoo-ra madness"
    ],
-   "answer": "The Twilight's Hammer cult imprisoned the turtle and tortured him over several years, breaking his spirit and driving him to utter madness. They conditioned him to lash out at any outsider who approaches the inner shrines."
+   "answer": "Nothing is recorded of how he came to be so savage. He simply attacks anyone who intrudes on his island in the Pool of Ask'ar, trampling all who come near."
   },
   {
    "q": "Can a hunter tame Ghamoo-ra?",
@@ -62,21 +62,21 @@
     "ghamoo-ra old gods",
     "is turtle corrupted"
    ],
-   "answer": "While not inherently a creature of the Void, Ghamoo-ra's mind was warped by Twilight's Hammer cultists who worship the Old Gods. They twisted the ancient creature into an unwitting protector of their dark ritual grounds."
+   "answer": "None is recorded. Ghamoo-ra is a beast of the deep, though the Twilight's Hammer cultists who worship the Old Gods have overrun the sunken temple around him."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Hunters venturing into Blackfathom Deeps may pity Ghamoo-ra, a noble, ancient beast broken by dark captivity, though a patient hunter may yet tame him."
+   "text": "Hunters venturing into Blackfathom Deeps may pity Ghamoo-ra, a noble, ancient beast of the deep, though a patient hunter may yet tame him."
   },
   {
    "target": "race:NightElf",
-   "text": "For night elves, Ghamoo-ra's plight is a bitter reminder of the defilement of Elune's sacred temple by the vile Twilight's Hammer."
+   "text": "For night elves, Ghamoo-ra's savage presence in Elune's drowned temple is a bitter reminder of how far the sacred site has fallen to the vile Twilight's Hammer."
   },
   {
    "target": "class:Druid",
-   "text": "Druids view Ghamoo-ra's torment and forced aggression as a tragic corruption of natural wildlife by the servants of the Old Gods."
+   "text": "Druids find in Ghamoo-ra an ancient creature of the deep, grown savage amid the ruins of the defiled temple."
   }
  ],
  "keywords": [

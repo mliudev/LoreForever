@@ -6,6 +6,7 @@
 <title>Lore Forever - WoW Forever Lore Addon for Zone &amp; Quest Story</title>
 <meta name="description" content="Zone, quest and dungeon lore for WoW Forever. The storyline behind every zone, quest and dungeon up to level 30, including Zephras Isle and the Hall of Thanes, without leaving the game.">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Lore Forever">
 <meta property="og:title" content="Lore Forever - WoW Forever Lore Addon">
 <meta property="og:description" content="Zone, quest and dungeon lore for WoW Forever. The storyline behind every zone, quest and dungeon up to level 30, including Zephras Isle and the Hall of Thanes, without leaving the game.">
 <link rel="canonical" href="https://loreforeverwow.com/">
@@ -25,6 +26,37 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <link rel="stylesheet" href="style.css">
 <script src="/header.js" defer></script>
+<!-- Brand search (LOR-465): the site's name for Google's results (WebSite), and the add-on as the thing to download
+     with its CurseForge page and source (SoftwareApplication), so "Lore Forever" searches find this page, not only
+     CurseForge. Keep the claims to what's on this page. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://loreforeverwow.com/#website",
+      "name": "Lore Forever",
+      "alternateName": ["LoreForever", "Lore Forever WoW", "Lore Forever addon", "loreforeverwow.com"],
+      "url": "https://loreforeverwow.com/"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://loreforeverwow.com/#addon",
+      "name": "Lore Forever",
+      "alternateName": "Lore Forever addon for WoW Forever",
+      "description": "Zone, quest and dungeon lore for WoW Forever, narrated, right in game.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Windows, macOS",
+      "url": "https://loreforeverwow.com/",
+      "downloadUrl": "https://loreforeverwow.com/downloads",
+      "image": "https://loreforeverwow.com/img/logo.png",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "sameAs": ["https://www.curseforge.com/wow/addons/lore-forever", "https://github.com/mliudev/LoreForever"]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -43,10 +75,10 @@
 </header>
 
 <!-- newbar:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
-<aside class="newbar" id="newbar" data-version="0.15.0" aria-label="New in 0.15.0" hidden>
+<aside class="newbar" id="newbar" data-version="0.16.0" aria-label="New in 0.16.0" hidden>
   <div class="wrap newbar-in">
-    <span class="tag tag-new">New in 0.15.0</span>
-    <a href="/whats-new#v0-15-0">Clearer names</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-15-0">Your place and quests in your language</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-15-0">Your profile tells your journey</a>
+    <span class="tag tag-new">New in 0.16.0</span>
+    <a href="/whats-new#v0-16-0">Willo's chat looks like a chat app</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-16-0">No more buttons on top of each other</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-16-0">Typing in Willo's window works again</a>
     <a class="newbar-all" href="/whats-new">See what's new</a>
   </div>
   <button class="newbar-x" type="button" aria-label="Hide until the next version">&times;</button>
@@ -65,7 +97,7 @@
       <ul class="stats">
         <li>by <strong>Mike</strong></li>
         <li id="downloads"><strong>New release</strong></li>
-        <li>Version <strong>0.15.0</strong></li>
+        <li>Version <strong>0.16.0</strong></li>
         <li>Game <strong>WoW Forever 1.60.1</strong></li>
       </ul>
       <!-- Downloads, no email step. Since 2026-10-02 (Mike) the site's own download comes first: the Windows installer
@@ -514,6 +546,29 @@
       <section class="tab-panel" id="changelog" role="tabpanel">
         <h2>Changelog</h2>
         <!-- changelog:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
+        <h3>0.16.0</h3>
+        <ul>
+          <li><strong>Willo's chat looks like a chat app:</strong> your chats sit in a list on the left, newest first and grouped by day, with the conversation beside them; on a narrow window the list slides in from the side. The chat no longer shows a journey picture between messages, and the search suggestions under a looked-up answer now show instead of an empty gap.</li>
+          <li><strong>No more buttons on top of each other:</strong> the quest window's Lore button no longer covers Chronicle's or Spoken's buttons. It steps aside on its own, and you can Shift-drag it anywhere along the quest window (it stays put after a /reload). Options has Reset quest button to put it back, and a switch to hide it; the quest's story is still in the Lore Forever panel.</li>
+          <li><strong>Typing in Willo's window works again:</strong> after Willo started in the background, clicking its window could leave the keyboard with the game. Opening Willo from the tray now makes its window take the keyboard when you click it.</li>
+          <li>Lore entries now describe WoW Forever's boat routes: Menethil Harbor's ship to Auberdine stops at Southshore, Stormwind Harbor has a ship straight to Auberdine, and Steamwheedle Port in Tanaris sails to the Riverglades.</li>
+          <li>Lore entries now describe WoW Forever's flight paths: Flame Crest and Stonard also fly to Rog'mar in the Riverglades, Morgan's Vigil and Thelsamar to Farholde Keep, Everlook flies to Mount Hyjal, and Dalaran has no flight master.</li>
+          <li>Lore entries now match what WoW Forever changed: every priest learns Fear Ward and Devouring Plague at level 20, the Horde starts out Hated with Dalaran's Kirin Tor, Onyxia's Lair is among the raids, the Shaper's Terrace dungeon is in Un'Goro Crater and Zephras Isle runs to level 12.</li>
+          <li><strong>More answers read aloud:</strong> the male narrator reads 1,377 more answers, most of them about people and lore items, and the female narrator 300 more; 556 of her answers whose text changed are read again from the new text. Answers that this update's lore fixes changed show as text until they're read again.</li>
+          <li><strong>Community voices always play:</strong> Densuad's Spanish and the Ukrainian narrator keep their recordings and their own text when our English changes. Densuad's edition plays 804 recordings (up from 625) and the Ukrainian narrator all 808 (up from 731).</li>
+          <li><strong>More answers read aloud, two-word names said clearly:</strong> the male narrator reads about 590 more answers, most of them about people, and the female narrator 75 more. Answers and 23 new quest-giver lines with a two-word name like Runetotem or Goretusk say it clearly.</li>
+          <li><strong>Community translations keep their words:</strong> the Ukrainian, Russian and Italian packs no longer switch entries back to English when our English changes. About 670 entries that had fallen back to English show their translation again.</li>
+          <li><strong>The lore topics are narrated:</strong> 56 of the wars, factions, peoples and legends behind the world, from the Third War to Arthas Menethil, play as complete stories in the male narrator's voice, 49 of them in the female narrator's too.</li>
+          <li><strong>Native-accent voices only:</strong> German, French, Spanish and Portuguese narration now uses native-accent voices only. Lines without one show as text until they're recorded. German and French keep their native stories (about 400 per narrator in French and 380 to 470 in German). Spanish and Portuguese narration (all but one dungeon boss) and German quest dialogue are text for now, until their native recordings arrive.</li>
+          <li><strong>Corrected lore in 611 entries.</strong></li>
+          <li><strong>Corrected lore in 505 entries.</strong></li>
+          <li><strong>Live game info shows only while Lore Forever is open:</strong> with Live game info turned on, the little block of colored squares in the top-left corner now appears only while the Lore Forever window is open, so it's never in your way or your videos. Options explains plainly what it is (Willo on your PC reads it; no memory reading, no keys, nothing sent online), and a new "show it all the time" choice keeps the old behavior. It stays off unless you turn it on.</li>
+          <li><strong>Willo knows Forever's flight paths:</strong> ask where you can fly or how to reach a new zone and Willo uses WoW Forever's real flight network, read from the game itself, including Mount Hyjal's flight points (from Everlook) and the Riverglades' Farholde Keep and Rog'mar.</li>
+          <li><strong>Willo knows what WoW Forever changed:</strong> ask about talents, your class's new abilities, racials, Legacy points, Camping, rulesets, the new zones, reputations, dungeons or raids and Willo answers with Forever's changes, checked against the game and Blizzard's own posts, instead of the original game's.</li>
+          <li><strong>Willo knows WoW Forever:</strong> ask about the boats from Menethil Harbor or Southshore, Dalaran, the new dungeons or which races can be which classes, and Willo answers with what Forever changed, not the original game. Tell Willo it got something wrong and it listens instead of arguing, and what you said comes back to us to check.</li>
+          <li><strong>Willo knows Forever's boats and zeppelins:</strong> ask where a ship goes or how to get somewhere and Willo uses WoW Forever's real routes, read from the game itself: Menethil Harbor's ship to Auberdine now stops at Southshore, Stormwind Harbor sails to Auberdine, and new links reach Zephras Isle and the Riverglades.</li>
+          <li><strong>Willo no longer goes blank:</strong> if Windows closes the browser inside Willo's window, Willo reopens its page by itself instead of leaving an empty window that ignores clicks.</li>
+        </ul>
         <h3>0.15.0</h3>
         <ul>
           <li><strong>Clearer names:</strong> the narrators now say Goretusk, Runetotem, Soulscar and seven other two-word names clearly.</li>

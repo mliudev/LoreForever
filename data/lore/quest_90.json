@@ -17,7 +17,7 @@
   "wiki": "Seasoned Wolf Kabobs (Classic)",
   "chain": []
  },
- "summary": "Seasoned Wolf Kabobs is an Alliance culinary quest offered by Chef Grual at the Scarlet Raven Tavern in Darkshire. Grual seeks to prepare his signature house dish, tasking adventurers with hunting wild wolves in Duskwood and fetching rare seasoning herbs from a flower shop in Stormwind City. It highlights the everyday survival challenges and resourcefulness required to keep a besieged hamlet fed.",
+ "summary": "Seasoned Wolf Kabobs is an Alliance culinary quest offered by Chef Grual at the Scarlet Raven Tavern in Darkshire. Grual seeks to prepare his signature house dish, tasking adventurers with hunting wild wolves in Duskwood for the meat, while his seasoning herbs arrive by shipment from Stormwind City. It highlights the everyday survival challenges and resourcefulness required to keep a besieged hamlet fed.",
  "sections": [
   {
    "title": "A Dish for Darkshire",
@@ -25,8 +25,8 @@
    "spoiler": 0
   },
   {
-   "title": "The Road to Stormwind",
-   "body": "To complete Grual's recipe, travelers must secure lean flanks from the ferocious wolves stalking Duskwood and travel north to Stormwind. The required seasoning herbs are sold by herbalist and florist Felicia Gump, whose canal-side shop, Fragrant Flowers, borders the city's Trade District and Old Town. This errand underscores Darkshire's delicate connection to the broader kingdom: while royal military aid has dwindled, small-scale civic ties and supply lines between the city merchants and outer hamlets still barely endure.",
+   "title": "A Shipment from Stormwind",
+   "body": "To complete Grual's recipe, travelers need only secure lean flanks from the ferocious wolves stalking Duskwood. Grual has just received his latest shipment of Stormwind Seasoning Herbs, so the meat is all he lacks. The shipment underscores Darkshire's delicate connection to the broader kingdom: while royal military aid has dwindled, small-scale civic ties and supply lines between the city merchants and outer hamlets still barely endure.",
    "spoiler": 0
   }
  ],
@@ -44,10 +44,9 @@
    "q": "Where do you get the Stormwind Seasoning Herbs?",
    "aliases": [
     "stormwind herbs location",
-    "felicia gump location",
     "where are seasoning herbs"
    ],
-   "answer": "The seasoning herbs are procured from Felicia Gump, who runs the Fragrant Flowers shop in Stormwind City. Her storefront is situated along the canal path between the Trade District and Old Town."
+   "answer": "You don't need to fetch them. Chef Grual has just received his latest shipment of Stormwind Seasoning Herbs, so all he needs from you are 10 Lean Wolf Flanks."
   },
   {
    "q": "Where are the wolves for the wolf flanks found?",
@@ -102,8 +101,6 @@
   "chef grual",
   "darkshire",
   "duskwood",
-  "felicia gump",
-  "fragrant flowers",
   "lean wolf flank",
   "scarlet raven tavern",
   "stormwind",

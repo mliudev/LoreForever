@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Druids of the Fang"
  },
- "summary": "The Druids of the Fang are a splinter sect of night elf druids who succumbed to corruption deep within the Wailing Caverns. Originally disciples of the visionary Archdruid Naralex, they abandoned the Cenarion Circle after their master's connection to the Emerald Dream turned into a foul nightmare. Under the self-proclaimed Lord Serpentis, they now wield serpent-like forms and seek to remake the Barrens into their own twisted paradise.",
+ "summary": "The Druids of the Fang are a splinter sect of night elf druids who succumbed to corruption deep within the Wailing Caverns. Originally disciples of the visionary Naralex, they abandoned the Cenarion Circle after their master's connection to the Emerald Dream turned into a foul nightmare. Under the self-proclaimed Lord Serpentis, they now wield serpent-like forms and seek to remake the Barrens into their own twisted paradise.",
  "sections": [
   {
    "title": "A Noble Vision Turned Poisonous",
-   "body": "The Barrens was not always an arid wasteland, and Archdruid Naralex sought to return it to the lush, verdant sanctuary it once was. Naralex led a dedicated order of young druids into the subterranean depths of the Wailing Caverns, tapping into the natural underground fissures and subterranean springs. By entering an induced slumber, Naralex hoped to channel the living energies of the Emerald Dream into the waterways, nursing the scorched savannah above back to vibrant life.",
+   "body": "The Barrens was not always an arid wasteland, and Naralex sought to return it to the lush, verdant sanctuary it once was. Naralex led a dedicated order of young druids into the subterranean depths of the Wailing Caverns, tapping into the natural underground fissures and subterranean springs. By entering an induced slumber, Naralex hoped to channel the living energies of the Emerald Dream into the waterways, nursing the scorched savannah above back to vibrant life.",
    "spoiler": 0
   },
   {
@@ -21,7 +21,7 @@
   },
   {
    "title": "The Fang Ascendant",
-   "body": "Naralex's prize pupil, once a dedicated student, cast aside his master's original teachings and embraced the corruption under the title of Lord Serpentis. Rallying the fallen acolytes to form the Druids of the Fang, Serpentis adopted the primal, venomous aspects of vipers and serpents rather than the traditional bear and cat forms sanctioned by Cenarius. The cult effectively imprisoned their slumbering archdruid, intent on feeding on his nightmare to violently remold the Barrens into their own serpent-ruled paradise.",
+   "body": "Naralex's prize pupil, once a dedicated student, cast aside his master's original teachings and embraced the corruption under the title of Lord Serpentis. Rallying the fallen acolytes to form the Druids of the Fang, Serpentis adopted the primal, venomous aspects of vipers and serpents rather than the traditional bear and cat forms sanctioned by Cenarius. The cult effectively imprisoned their slumbering master, intent on feeding on his nightmare to violently remold the Barrens into their own serpent-ruled paradise.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "who are the fang druids",
     "wailing caverns druids"
    ],
-   "answer": "They are a corrupted order of night elf druids who entered the Wailing Caverns under Archdruid Naralex. Instead of healing the Barrens, they were driven mad when Naralex's trance tapped into a dark nightmare, transforming them into fanatical snake-worshiping renegades."
+   "answer": "They are a corrupted order of night elf druids who entered the Wailing Caverns under Naralex. Instead of healing the Barrens, they were driven mad when Naralex's trance tapped into a dark nightmare, transforming them into fanatical snake-worshiping renegades."
   },
   {
    "q": "Why did they enter the Wailing Caverns originally?",
@@ -51,7 +51,7 @@
     "lord serpentis lore",
     "who leads them"
    ],
-   "answer": "They are led by Lord Serpentis. Once the foremost and brightest student of Archdruid Naralex, Serpentis fell wholly into madness when the nightmare struck, declaring himself the leader of the newly formed Druids of the Fang."
+   "answer": "They are led by Lord Serpentis. Once the foremost and brightest student of Naralex, Serpentis fell wholly into madness when the nightmare struck, declaring himself the leader of the newly formed Druids of the Fang."
   },
   {
    "q": "What animal forms do they take?",
@@ -69,7 +69,7 @@
     "are they part of the cenarion circle",
     "hamuul on the fang"
    ],
-   "answer": "The Cenarion Circle views the Druids of the Fang as a dangerous aberration and a cult. Leaders like Archdruid Hamuul Runetotem and Naralex's remaining loyalists work urgently to eliminate the leaders of the Fang and cleanse the corruption before it destroys the land."
+   "answer": "The Cenarion Circle views the Druids of the Fang as a dangerous aberration and a cult. Elders like Nara Wildmane of Thunder Bluff and Naralex's remaining loyalists work urgently to eliminate the leaders of the Fang and cleanse the corruption before it destroys the land."
   },
   {
    "q": "What happened to Naralex?",
@@ -88,7 +88,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "Archdruid Hamuul Runetotem and the tauren druids of Thunder Bluff are deeply invested in ending the Fang's threat, viewing their defilement of the Barrens' water as an affront to the Earth Mother."
+   "text": "Nara Wildmane and the tauren of Thunder Bluff are deeply invested in ending the Fang's threat, viewing their defilement of the Barrens' water as an affront to the Earth Mother."
   },
   {
    "target": "race:NightElf",
@@ -99,7 +99,7 @@
   "barrens",
   "druids of the fang",
   "emerald dream",
-  "hamuul runetotem",
+  "nara wildmane",
   "naralex",
   "nightmare",
   "serpentis",

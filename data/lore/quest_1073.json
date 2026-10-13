@@ -17,16 +17,16 @@
   "wiki": "Ineptitude + Chemicals = Fun",
   "chain": []
  },
- "summary": "Seeking an explosive countermeasure against the Venture Company's logging machines in the Stonetalon Mountains, Alliance adventurers are sent across the sea to Ironforge. There, the eccentric gnome Lomac Gearstrip agrees to brew his volatile invention, Nitromirglyceronium, provided you fetch the necessary alchemical reagents.",
+ "summary": "Seeking an explosive countermeasure against the Venture Company in the Stonetalon Mountains, Alliance adventurers are sent across the sea to Ironforge. There, the eccentric gnome Lomac Gearstrip agrees to brew his volatile invention, Nitromirglyceronium, provided you fetch the necessary alchemical reagents.",
  "sections": [
   {
    "title": "A Volatile Solution",
-   "body": "Gaxim Rustfizzle, stationed high in the craggy passes of the Stonetalon Mountains, found himself completely stymied by the sheer bulk and armor of goblin shredders. Rather than relying on simple steel or standard siege tactics, he turned to an eccentric former colleague living in Ironforge: Lomac Gearstrip. Lomac is the creator of Nitromirglyceronium, a substance so inherently unstable and destructive that he finds the prospect of anyone using it hilarious, regardless of who gets blown apart in the process.",
+   "body": "Gaxim Rustfizzle, stationed high in the craggy passes of the Stonetalon Mountains, needed potent explosives for the most advanced device he had yet devised against the Venture Company. For that, he turned to an eccentric former colleague living in Ironforge: Lomac Gearstrip. Lomac is the creator of Nitromirglyceronium, a substance so inherently unstable and destructive that he finds the prospect of anyone using it hilarious, regardless of who gets blown apart in the process.",
    "spoiler": 0
   },
   {
    "title": "Potions for Pyrotechnics",
-   "body": "Despite Lomac's eagerness to see goblin machinery\u2014and possibly the adventurer\u2014blown into pieces, his workshop in Ironforge is entirely out of the finished compound. Before he will brew a fresh batch of Nitromirglyceronium, Lomac demands common alchemical draughts: Minor Mana Potions and Elixirs of Minor Fortitude. In his eyes, forcing an adventurer to gather these ingredients serves a dual purpose, ensuring he has the raw reagents needed for the reaction while proving they possess at least a shred of respect for the craft of alchemy.",
+   "body": "Despite Lomac's eagerness to see goblin machinery—and possibly the adventurer—blown into pieces, his workshop in Ironforge is entirely out of the finished compound. Before he will brew a fresh batch of Nitromirglyceronium, Lomac demands common alchemical draughts: Minor Mana Potions and Elixirs of Minor Fortitude. In his eyes, forcing an adventurer to gather these ingredients serves a dual purpose, ensuring he has the raw reagents needed for the reaction while proving they possess at least a shred of respect for the craft of alchemy.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "why travel so far",
     "gaxim to ironforge"
    ],
-   "answer": "Gaxim Rustfizzle is isolated in the wilds of Stonetalon without access to heavy industrial or chemical workshops. Lomac Gearstrip in Ironforge is the only associate he trusts\u2014or fears enough\u2014to possess an explosive potent enough to crack Venture Company machinery."
+   "answer": "Gaxim Rustfizzle is isolated in the wilds of Stonetalon without access to heavy industrial or chemical workshops. Lomac Gearstrip in Ironforge is the only associate he trusts—or fears enough—to possess an explosive potent enough for his most advanced device."
   },
   {
    "q": "What is Nitromirglyceronium?",
@@ -65,7 +65,7 @@
     "what is the explosive",
     "gnome bomb juice"
    ],
-   "answer": "Nitromirglyceronium is Lomac Gearstrip's proprietary explosive chemical brew. It is notoriously volatile, formulated specifically to generate enough concussive blast force to tear apart heavily fortified mechanical equipment."
+   "answer": "Nitromirglyceronium is Lomac Gearstrip's proprietary explosive chemical brew. It is notoriously volatile, and Lomac calls it his greatest creation."
   },
   {
    "q": "Is Lomac worried about the Venture Company or the forest?",

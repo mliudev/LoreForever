@@ -33,7 +33,7 @@
     "redridge goulash ingredients",
     "what does she want"
    ],
-   "answer": "She needs local game meat to brew Redridge Goulash for the garrison. Adventurers help her by foraging for boar ribs, spider meat, and vulture meat from the wilderness surrounding Lakeshire."
+   "answer": "She needs local game meat to brew Redridge Goulash for the garrison. Adventurers help her by gathering tough condor meat, goretusk snouts, and crisp spider meat from the wilderness surrounding Lakeshire."
   },
   {
    "q": "Who works with Chef Breanna?",
@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Breanna's resourceful recipe for Redridge Goulash showcases how a frontier chef can turn dangerous local predators\u2014spiders, vultures, and boars\u2014into a hearty meal to sustain a military outpost."
+   "text": "Breanna's resourceful recipe for Redridge Goulash showcases how a frontier chef can turn dangerous local predators\u2014spiders, condors, and goretusks\u2014into a hearty meal to sustain a military outpost."
   },
   {
    "target": "faction:Alliance",

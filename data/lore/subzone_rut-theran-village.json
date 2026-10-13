@@ -48,13 +48,13 @@
     "rut'theran flight path",
     "where can hippogryph fly"
    ],
-   "answer": "Yes. A hippogryph handler operates from the village roost, offering flight routes across the water to Auberdine in Darkshore, as well as specialized transport for Cenarion Circle druids to Moonglade."
+   "answer": "Yes. A hippogryph handler operates from the village roost, offering flight routes across the water to Auberdine in Darkshore, and druids returning from Moonglade land here on the Cenarion Circle's hippogryphs from Nighthaven."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Druids passing through Rut'theran Village can catch hippogryph flights directly across northern Kalimdor to the sacred sanctuary of Moonglade."
+   "text": "Druids returning from the sacred sanctuary of Moonglade can ride a Cenarion hippogryph from Nighthaven directly across northern Kalimdor to Rut'theran Village."
   },
   {
    "target": "race:NightElf",

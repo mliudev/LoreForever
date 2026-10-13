@@ -22,7 +22,7 @@
    "Aku'mai"
   ]
  },
- "summary": "Blackfathom Deeps is a flooded subterranean temple complex situated along the Zoram Strand in northwestern Ashenvale. Once a shrine dedicated to the night elven moon goddess Elune, the sunken sanctuary has been overtaken by the Twilight's Hammer cult, treacherous naga, and satyrs. They gather in its dark waters to venerate and nurture Aku'mai, a primordial pet and herald of the Old Gods.",
+ "summary": "Blackfathom Deeps is a flooded subterranean temple complex situated along the Zoram Strand in northwestern Ashenvale. Once a shrine dedicated to the night elven moon goddess Elune, the sunken sanctuary has been overtaken by the Twilight's Hammer cult, treacherous naga, and satyrs. They gather in its dark waters to venerate Aku'mai, a primordial hydra and servant of an Old God.",
  "sections": [
   {
    "title": "Sunken Sanctum of Elune",
@@ -35,8 +35,8 @@
    "spoiler": 0
   },
   {
-   "title": "The Slumbering Herald",
-   "body": "At the deepest heart of the sunken temple lies Aku'mai, an ancient three-headed hydra carrying a spark of the Old Gods' primordial power. Twilight Lord Kelris believes this devourer is the herald of his dark masters and his personal ticket to immortality. Rather than a wild beast, the cult treats Aku'mai as a cherished divine pet, feeding her subjects and captives to nurture her strength. Striking down Kelris and extinguishing the cult's foul braziers breaks the wards binding her lair, allowing champions to slay the beast before its insatiable hunger is unleashed across Kalimdor.",
+   "title": "The Beast in the Deep",
+   "body": "At the deepest heart of the sunken temple lies Aku'mai, an ancient three-headed hydra and servant of an Old God, which rose from the waters when the Old God's corruption tainted the temple's Moon Well. Twilight Lord Kelris and his cultists sacrifice innocents to the beast for power. Striking down Kelris and lighting the ritual candles in his sanctum opens the way to the beast's lair, allowing champions to slay Aku'mai before its evil spreads across Kalimdor.",
    "spoiler": 1
   }
  ],
@@ -66,7 +66,7 @@
     "kelris lore",
     "leader of bfd"
    ],
-   "answer": "Twilight Lord Kelris is the leader of the Twilight's Hammer cell within Blackfathom Deeps. Convinced that the awakening of Aku'mai will grant him eternal life and bring about the reign of the Old Gods, he orchestrates the cult's sacrifices and oversees the desecration of the temple."
+   "answer": "Twilight Lord Kelris is the leader of the Twilight's Hammer cell within Blackfathom Deeps. Striving to bring about the return of the Old Gods, he orchestrates the cult's sacrifices to Aku'mai and oversees the desecration of the temple."
   },
   {
    "q": "What are the naga and satyr doing in the ruins?",
@@ -93,7 +93,7 @@
     "aku'mai ending",
     "after killing final boss"
    ],
-   "answer": "Slaying Aku'mai severs the immediate physical foothold of the Old Gods within Ashenvale. It thwarts Twilight Lord Kelris's plot to unleash an ancient, flesh-devouring herald upon Kalimdor, striking a major blow against the Twilight's Hammer cult and cleansing a fragment of the dark taint infecting the ruined moonwell."
+   "answer": "Slaying Aku'mai severs the immediate physical foothold of the Old Gods within Ashenvale. It ends the cult's hope of using the ancient hydra to bring back the reign of the Old Gods, striking a major blow against the Twilight's Hammer cult and cleansing a fragment of the dark taint infecting the ruined moonwell."
   }
  ],
  "angles": [

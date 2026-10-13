@@ -17,11 +17,11 @@
   "wiki": "Satyr Slaying! (Classic)",
   "chain": []
  },
- "summary": "Grieving the loss of her sister Anilia, the dryad Illiyana at Forest Song seeks vengeance against the satyrs lurking in Ashenvale. She asks Alliance champions to cull the corrupted creatures and return with their horns as proof of their downfall.",
+ "summary": "Grieving the loss of her sister Anilia, the dryad Illiyana at the Shrine of Aessina seeks vengeance against the satyrs lurking in Ashenvale. She asks Alliance champions to cull the corrupted creatures and return with their horns as proof of their downfall.",
  "sections": [
   {
    "title": "A Dryad's Grief",
-   "body": "Dryads are typically playful and serene forest spirits, deeply bonded to nature and elusive to mortals. The brutal slaying of Anilia shatters this tranquility for Illiyana, who dwells among the ruins of Forest Song. Pushed past her carefree nature into unfamiliar sorrow, she turns to travelers of the Alliance to strike down the demonic beasts responsible.",
+   "body": "Dryads are typically playful and serene forest spirits, deeply bonded to nature and elusive to mortals. The brutal slaying of Anilia shatters this tranquility for Illiyana, who dwells at the Shrine of Aessina. Pushed past her carefree nature into unfamiliar sorrow, she turns to travelers of the Alliance to strike down the demonic beasts responsible.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "who is the quest giver",
     "forest song dryad"
    ],
-   "answer": "Illiyana is a dryad residing at Forest Song in eastern Ashenvale. Known for her gentle nature, she is mourning the tragic death of her sister, Anilia, who fell victim to the local satyrs."
+   "answer": "Illiyana is a dryad residing at the Shrine of Aessina in Ashenvale. Known for her gentle nature, she is mourning the tragic death of her sister, Anilia, who fell victim to the local satyrs."
   },
   {
    "q": "Who was Anilia?",
@@ -71,16 +71,16 @@
     "forest song location",
     "where is forest song"
    ],
-   "answer": "Forest Song is an ancient, ruined night elf outpost situated in eastern Ashenvale, near the border of Azshara. It serves as a sanctuary for Alliance scouts and forest guardians."
+   "answer": "Forest Song is an ancient, nearly abandoned night elf ruin in far eastern Ashenvale, near the border of Azshara. Illiyana does not live there; she waits at the Shrine of Aessina."
   },
   {
-   "q": "Is this connected to any other hunts at Forest Song?",
+   "q": "Is this connected to any other hunts?",
    "aliases": [
     "satyr horns quest",
     "followup quest",
     "repeatable satyr quest"
    ],
-   "answer": "Illiyana continues to accept satyr horns even after her sister is avenged, demonstrating an ongoing campaign by the defenders of Forest Song to purge the satyr menace from Ashenvale."
+   "answer": "Illiyana continues to accept satyr horns even after her sister is avenged, demonstrating an ongoing campaign by Ashenvale's defenders to purge the satyr menace from Ashenvale."
   }
  ],
  "angles": [
@@ -94,14 +94,13 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing the perimeter of Forest Song provides Alliance forces in eastern Ashenvale with a safer haven against the wild threats surrounding them."
+   "text": "Thinning the satyrs provides Alliance forces in Ashenvale with a safer forest against the wild threats surrounding them."
   }
  ],
  "keywords": [
   "anilia",
   "ashenvale",
   "dryad",
-  "forest song",
   "illiyana",
   "satyr",
   "satyr horns",
@@ -109,7 +108,6 @@
  ],
  "related": [
   "npc:illiyana",
-  "subzone:forest-song",
   "topic:satyr",
   "zone:ashenvale",
   "quest:6441"

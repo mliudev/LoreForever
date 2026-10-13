@@ -48,7 +48,7 @@ test("/downloads: what comes with it, a tile per extra pack, each language's pac
   assert.doesNotMatch(html, /<!-- dl-(comes|packs) -->/);
   // A pack in another language sits in that language's panel, not in an English tile.
   const deDE = html.slice(html.indexOf('class="pk-lang" data-lang="deDE"'), html.indexOf('class="pk-lang" data-lang="esES"'));
-  assert.ok(deDE.includes('id="pack-voice-default-quests-dede"'), "German quest dialogue under Deutsch");
+  assert.ok(deDE.includes('id="pack-voice-default-dede"'), "German stories under Deutsch");
 });
 
 test("/downloads: a pack that isn't out yet stays off the page; a missing packs.json leaves the rest of it working", async () => {

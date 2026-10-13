@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The site's main pages (LOR-465). The lore pages and the guides have their own sitemaps (robots.txt). Add a page
+     here when it's a public page players should find; leave out noindex pages (contribute, account, admin). -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://loreforeverwow.com/</loc></url>
+  <url><loc>https://loreforeverwow.com/downloads</loc></url>
+  <url><loc>https://loreforeverwow.com/whats-new</loc></url>
+  <url><loc>https://loreforeverwow.com/faq</loc></url>
+  <url><loc>https://loreforeverwow.com/lore</loc></url>
+  <url><loc>https://loreforeverwow.com/voices</loc></url>
+  <url><loc>https://loreforeverwow.com/translate</loc></url>
+  <url><loc>https://loreforeverwow.com/contributors</loc></url>
+  <url><loc>https://loreforeverwow.com/feedback</loc></url>
+  <url><loc>https://loreforeverwow.com/privacy</loc></url>
+</urlset>

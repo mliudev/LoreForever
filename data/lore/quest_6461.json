@@ -26,7 +26,7 @@
   },
   {
    "title": "Clearing the Crags",
-   "body": "To keep the encampment safe and protect their supplies, Xen'Zilla asks adventurers to track the predators north into the mountain passes. The infestation of Deepmoss Creepers and Venomspitters is thickest around the rocky ravines and webs of the Cleft. Thinning their numbers pushes the brood back from Malaka'jin's borders and ensures the village can rest without fearing ambush from the shadows.",
+   "body": "To keep the encampment safe and protect their supplies, Xen'Zilla asks adventurers to track the predators north into the mountain passes. The infestation of Deepmoss Creepers and Venomspitters is thickest around the rocky ravines and webs of Sishir Canyon. Thinning their numbers pushes the brood back from Malaka'jin's borders and ensures the village can rest without fearing ambush from the shadows.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "deepmoss creepers location",
     "deepmoss venomspitter location"
    ],
-   "answer": "Deepmoss Creepers and Venomspitters roam the central passes and crags north of Malaka'jin, with a particularly dense concentration dwelling within the web-strewn ravine known as the Cleft."
+   "answer": "Deepmoss Creepers and Venomspitters roam the central passes and crags north of Malaka'jin, with a particularly dense concentration dwelling within the web-strewn ravine of Sishir Canyon."
   },
   {
    "q": "What is Malaka'jin?",
@@ -71,10 +71,10 @@
    "q": "Is there a greater threat tied to these spiders?",
    "aliases": [
     "big spider stonetalon",
-    "cleft elite spider",
+    "sishir canyon elite spider",
     "spider matriarch stonetalon"
    ],
-   "answer": "Deep inside the Cleft among the webs lives a massive, lethal spider matriarch. A warning signpost outside the canyon warns travelers of the danger and encourages groups to bring her down."
+   "answer": "Deep inside Sishir Canyon among the webs lives a massive, lethal spider matriarch. A warning signpost outside the canyon warns travelers of the danger and encourages groups to bring her down."
   },
   {
    "q": "What happens after the spiders are culled?",
@@ -101,10 +101,10 @@
  ],
  "keywords": [
   "blood feeders",
-  "cleft",
   "deepmoss creeper",
   "deepmoss venomspitter",
   "malaka'jin",
+  "sishir canyon",
   "spiders",
   "stonetalon",
   "xen'zilla"
@@ -112,7 +112,7 @@
  "related": [
   "subzone:malaka-jin",
   "zone:stonetalon",
-  "subzone:cleft",
+  "subzone:sishir-canyon",
   "quest:6284",
   "topic:troll"
  ],

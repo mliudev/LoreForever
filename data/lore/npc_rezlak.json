@@ -8,11 +8,11 @@
   "wiki": "Rezlak",
   "refs": 2
  },
- "summary": "Rezlak is a goblin entrepreneur and member of the Tinkers' Union stationed along the dusty roads of Durotar south of Orgrimmar. He hires traveling adventurers to salvage his missing supplies and clear out the harpy nests disrupting regional communications.",
+ "summary": "Rezlak is a goblin entrepreneur and member of the Tinkers' Union stationed along the dusty roads of Durotar south of Orgrimmar. He hires traveling adventurers to salvage his missing supplies and clear out the harpies preying on his supply caravans.",
  "sections": [
   {
    "title": "A Pragmatic Tinkers' Union Agent",
-   "body": "Perched beside the canyon roads connecting Razor Hill to Orgrimmar, Rezlak represents the Tinkers' Union\u2014a goblin syndicate focused on engineering, supply lines, and industrial pragmatism. Rezlak cares little for the factional tensions of Kalimdor so long as business runs smoothly. When the fierce Dustwind harpies raided his cargo caravans and disrupted local communication lines, Rezlak stayed put, preferring to contract out the dangerous work of extermination and recovery to any passerby willing to turn a profit.",
+   "body": "Perched beside the canyon roads connecting Razor Hill to Orgrimmar, Rezlak represents the Tinkers' Union\u2014a goblin syndicate focused on engineering, supply lines, and industrial pragmatism. Rezlak cares little for the factional tensions of Kalimdor so long as business runs smoothly. When the fierce Dustwind harpies raided his cargo caravans and made the supply routes unsafe, Rezlak stayed put, preferring to contract out the dangerous work of extermination and recovery to any passerby willing to turn a profit.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is rezlak",
     "rezlak durotar"
    ],
-   "answer": "Rezlak is an independent goblin merchant and engineer affiliated with the Tinkers' Union. Stationed along the main northern road through Durotar, he seeks willing mercenaries to secure his supply lines and reclaim lost gear from regional pests."
+   "answer": "Rezlak is a goblin merchant and engineer affiliated with the Tinkers' Union, one of Gazlowe's men sent to help the orcs of Durotar. Stationed along the main northern road through Durotar, he seeks willing mercenaries to secure his supply lines and reclaim lost gear from regional pests."
   },
   {
    "q": "What is Rezlak doing in Durotar?",
@@ -33,7 +33,7 @@
     "rezlak purpose",
     "rezlak mission"
    ],
-   "answer": "Rezlak works along the trade routes between the central plains and the canyon pass leading to Orgrimmar. His supply caravans were ambushed by the Dustwind harpies, leaving his cargo strewn across the arid canyons and his vital communication lines severed."
+   "answer": "Rezlak works along the trade routes between the central plains and the canyon pass leading to Orgrimmar. His supply caravans were ambushed by the Dustwind harpies, leaving his cargo strewn across the arid canyons and his supply routes unsafe."
   },
   {
    "q": "Which quests does Rezlak offer?",

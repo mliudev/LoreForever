@@ -52,7 +52,7 @@
     "what do you do in the binding",
     "succubus ritual"
    ],
-   "answer": "The warlock brings Dogran's Pendant into the summoning circle inside Neeru Fireblade's tent in the Cleft of Shadows. Using the devotion bound up in the talisman, the summoner calls forth a succubus from the Twisting Nether and battles it to submission to establish total dominion over the creature."
+   "answer": "The warlock brings Dogran's Pendant into the summoning circle inside Neeru Fireblade's tent in the Cleft of Shadow. Using the devotion bound up in the talisman, the summoner calls forth a succubus from the Twisting Nether and battles it to submission to establish total dominion over the creature."
   },
   {
    "q": "Where does the summoning take place?",
@@ -61,7 +61,7 @@
     "summoning circle location",
     "where do i summon the succubus"
    ],
-   "answer": "The summoning takes place in the Cleft of Shadows in Orgrimmar, specifically within the tent of Neeru Fireblade, where a permanent ritual circle is inscribed into the floor."
+   "answer": "The summoning takes place in the Cleft of Shadow in Orgrimmar, specifically within the tent of Neeru Fireblade, where a permanent ritual circle is inscribed into the floor."
   },
   {
    "q": "Who was Dogran and why is his pendant needed?",
@@ -79,7 +79,7 @@
     "who is ganrul",
     "ganrul bloodeye role"
    ],
-   "answer": "Gan'rul Bloodeye is a senior warlock trainer residing in the Cleft of Shadows beneath Orgrimmar. He mentors rising practitioners of the dark arts and guides them through the perilous rites of demon subjugation."
+   "answer": "Gan'rul Bloodeye is a senior warlock trainer residing in the Cleft of Shadow beneath Orgrimmar. He mentors rising practitioners of the dark arts and guides them through the perilous rites of demon subjugation."
   },
   {
    "q": "What power does a warlock gain upon completing this trial?",
@@ -107,7 +107,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Conducted in secret within the Cleft of Shadows, the ritual highlights the uneasy tolerance Thrall's Horde extends to demonic practitioners hidden away from the city's honor-bound populace."
+   "text": "Conducted in secret within the Cleft of Shadow, the ritual highlights the uneasy tolerance Thrall's Horde extends to demonic practitioners hidden away from the city's honor-bound populace."
   },
   {
    "target": "race:Orc",
@@ -116,7 +116,7 @@
  ],
  "keywords": [
   "binding",
-  "cleft of shadows",
+  "cleft of shadow",
   "dogran",
   "gan'rul",
   "neeru",

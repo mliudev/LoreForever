@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "The Anvil of the Old Horde",
-   "body": "Originating in the rugged caverns of Gorgrond on Draenor, the Blackrock clan made its name through rigid hierarchy, heavy armor, and mastery over the forge. Under Chieftain Blackhand, they served as the brutal core of the Old Horde during the invasion of Azeroth, laying siege to Stormwind. When Orgrim Doomhammer slew Blackhand to cleanse the Horde of Gul'dan's direct puppet mastery, leadership of both the clan and the Horde remained firmly in Blackrock hands through the grueling campaigns of the Second War.",
+   "body": "Hailing from Draenor, the Blackrock clan made its name through rigid hierarchy, heavy armor, and mastery over the forge. Under Chieftain Blackhand, they served as the brutal core of the Old Horde during the invasion of Azeroth, laying siege to Stormwind. When Orgrim Doomhammer slew Blackhand to cleanse the Horde of Gul'dan's direct puppet mastery, leadership of both the clan and the Horde remained firmly in Blackrock hands through the grueling campaigns of the Second War.",
    "spoiler": 0
   },
   {
@@ -33,7 +33,7 @@
     "are blackrocks friendly",
     "thrall blackrock clan"
    ],
-   "answer": "Some are, but most encountered in the Eastern Kingdoms are not. While venerable Blackrock veterans like Eitrigg and Varok Saurfang serve Thrall in Kalimdor, the bulk of the clan entrenched at Blackrock Mountain follow Rend Blackhand and consider Thrall's New Horde to be weak traitors."
+   "answer": "Some are, but most encountered in the Eastern Kingdoms are not. While venerable Blackrock veterans like Eitrigg serve Thrall in Kalimdor, the bulk of the clan entrenched at Blackrock Mountain follow Rend Blackhand and consider Thrall's New Horde to be weak traitors."
   },
   {
    "q": "Who is currently leading the Blackrock clan?",
@@ -43,15 +43,6 @@
     "rend blackhand leader"
    ],
    "answer": "In Blackrock Mountain, Dal'rend (Rend) Blackhand leads the Dark Horde splinter faction, claiming leadership over the clan his father once commanded. Those Blackrock orcs who integrated into the New Horde answer directly to Warchief Thrall."
-  },
-  {
-   "q": "Why are they called the Blackrock clan?",
-   "aliases": [
-    "blackrock name origin",
-    "why called blackrock",
-    "blackrock ore"
-   ],
-   "answer": "They were named after the incredibly durable, black-hued ore found within their ancestral homeland in Gorgrond on Draenor. Their smiths learned how to smelt this impossibly hard mineral, forging superior armaments that made them legendary warriors."
   },
   {
    "q": "What is the Dark Horde?",
@@ -105,16 +96,13 @@
   "dark horde",
   "doomhammer",
   "eitrigg",
-  "gorgrond",
   "rend",
-  "saurfang",
   "spire"
  ],
  "related": [
   "subzone:blackrock-mountain",
   "npc:orgrim-doomhammer",
   "npc:eitrigg",
-  "npc:varok-saurfang",
   "topic:old-horde",
   "topic:new-horde",
   "topic:dragonmaw-clan",

@@ -16,7 +16,7 @@
   },
   {
    "title": "A Gruesome History and Lurking Shadows",
-   "body": "The placid surface of the waterways belies a violent past. Following the sack of Stormwind during the First War, the canals were discovered choked with rubble, timber, and the corpses of slaughtered defenders. When the Alliance of Lordaeron liberated the ruins, soldiers undertook the grim labor of clearing the waterways and burying the dead before rebuilding began. Today, while cleaned and restored, the depths retain an air of mystery, fueled by city rumors of a massive albino crocolisk prowling beneath the docks.",
+   "body": "The placid surface of the waterways belies a violent past. When the Horde sacked Stormwind during the First War, the city was left in ruins, and the canals were restored only as the capital was rebuilt after the Second War. Today, while cleaned and restored, the depths retain an air of mystery, fueled by city rumors of a massive albino crocolisk prowling beneath the docks.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "canals first war",
     "stormwind sack canals"
    ],
-   "answer": "When the Orcish Horde conquered and sacked Stormwind in the First War, the waterways were left filled with broken stone, timber, and rotting bodies. The retaking forces of the Alliance of Lordaeron had to painstakingly dredge the canals and properly bury the fallen before the city could be rebuilt."
+   "answer": "When the Orcish Horde conquered and sacked Stormwind in the First War, the city and its waterways were left in ruins. The canals were restored along with the rest of the capital when Stormwind was rebuilt after the Second War."
   },
   {
    "q": "Is there really a monster in the Stormwind canals?",
@@ -66,7 +66,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "The canals stand as a testament to the rebuilding of the capital by the Alliance of Lordaeron, having transformed the choked, corpse-ridden ruins of the First War back into a functional, picturesque city."
+   "text": "The canals stand as a testament to the rebuilding of the capital, restored from the ruins of the First War into a functional, picturesque city."
   }
  ],
  "keywords": [

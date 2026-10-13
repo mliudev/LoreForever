@@ -8,7 +8,7 @@
   "wiki": "Grelin Whitebeard",
   "refs": 8
  },
- "summary": "Grelin Whitebeard is a dwarven scout stationed in Coldridge Valley by royal decree to assess the Frostmane troll threat. Operating out of an isolated camp with a bumbling apprentice, he relies on rising adventurers to keep the trolls contained while Ironforge's attention remains consumed by the trogg crisis.",
+ "summary": "Grelin Whitebeard is a dwarven scout stationed in Coldridge Valley by royal decree to assess the Frostmane troll threat. Operating out of an isolated camp, he relies on rising adventurers to keep the trolls contained while Ironforge's attention remains consumed by the trogg crisis.",
  "sections": [
   {
    "title": "A Royal Mandate",
@@ -56,7 +56,7 @@
     "who is with grelin",
     "grelin companions"
    ],
-   "answer": "Grelin shares his small encampment with an absent-minded dwarven apprentice, leaving him with little competent help until capable recruits arrive."
+   "answer": "No companions of his are recorded. He and his brother Senir were sent to deal with the trolls on their own, so Grelin has little help until capable recruits arrive, and his camp stood unattended when the trolls raided it."
   },
   {
    "q": "Why doesn't Ironforge send regular soldiers to help him?",
@@ -66,14 +66,6 @@
     "why no soldiers"
    ],
    "answer": "Ironforge's defenders and Senate forces are almost entirely consumed by the widespread trogg infestations that have erupted across Dun Morogh. This leaves scouts like Grelin to solve regional threats using local recruits."
-  },
-  {
-   "q": "What is Grelin's connection to Jona Ironstock?",
-   "aliases": [
-    "grelin and jona",
-    "jona ironstock"
-   ],
-   "answer": "Jona Ironstock is an old and trusted friend of Grelin. Stationed near the starting grounds of Coldridge Valley, Jona helps direct new dwarven and gnomish recruits toward Grelin's camp."
   }
  ],
  "angles": [
@@ -83,7 +75,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "Fresh out of Gnomeregan's tragedy, gnome refugees passing through Coldridge Valley find Grelin working alongside a wandering gnome at his remote camp."
+   "text": "Fresh out of Gnomeregan's tragedy, gnome recruits in Coldridge Valley find in Grelin a dwarf glad of any capable hand against the Frostmane."
   },
   {
    "target": "faction:Alliance",

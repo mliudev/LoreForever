@@ -3,7 +3,7 @@
  "type": "npc",
  "name": "Nat Pagle",
  "era": "classic",
- "zone": "orgrimmar",
+ "zone": "dustwallow",
  "meta": {
   "wiki": "Nat Pagle",
   "refs": 3
@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "The Master Angler",
-   "body": "Though his name is synonymous with angling mastery across the known world, Nat Pagle is remarkably casual about his craft. Having cast lines for several decades, he often admits he has no great reverence for the sport itself, famously calling it little more than a convenient excuse to sit back and drink heavily. Despite this gruff nonchalance, Nat understands aquatic life and the art of angling better than anyone alive, even authoring his own guide and licensing fishing gear sought out by professionals.",
+   "body": "Though his name is synonymous with angling mastery across the known world, Nat Pagle is remarkably casual about his craft. Having cast lines for several decades, he often admits he has no great reverence for the sport itself, famously calling it little more than a convenient excuse to sit back and drink heavily. Despite this gruff nonchalance, Nat understands aquatic life and the art of angling better than anyone alive, even licensing fishing gear sought out by professionals.",
    "spoiler": 0
   },
   {

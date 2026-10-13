@@ -213,6 +213,138 @@ end
 local QUEST_END, QUEST_MID = -28, -35   -- the quest window's row: its right end and middle, from the top right corner
 local LOG_END = -11                     -- the log's bar: our row ends as far in as Back starts (LEFT 11, 4)
 
+-- Other add-ons' buttons in that row (AstroCat's reports: Spoken's Contribute, 10/2; Chronicle's Listen, 10/12). Add-ons
+-- that voice quests put their own controls on the same windows, often in the same band, some a moment after the page
+-- opens. Nothing of theirs is read but where their buttons are: anything to click that's shown on the window (or
+-- anchored to it) and isn't ours, and that crosses our row's height. Our row then ends at the rightmost stretch of the
+-- band that's clear of all of them (the usual place while nothing's there); on the quest window, if no stretch is long
+-- enough, it goes above the window's top right corner. Either way it stays off the quest's text (LOR-284). On the quest
+-- window a place the player picked wins over all of this: Shift-drag the Lore button (a Shift-click is still the
+-- playlist), saved for the account in settings.questButtonPos; Options › Reset quest button forgets it.
+local QUEST_LEFT = 72      -- the quest window's band starts past the portrait's ring (5 to 69 in)
+local QUEST_ABOVE = 16     -- with no room in the band: the row's middle, up from the window's top edge
+local ROW_GAP = 4          -- between our buttons, and between ours and another add-on's
+local ROW_H = 20           -- our buttons' height
+-- Looks again this long after a page or a quest shows (seconds), as another add-on may add its buttons a moment later,
+-- then every RECHECK_EVERY while the window shows. Those later looks only move the row off a place that's taken now,
+-- never back and forth.
+local RECHECKS, RECHECK_EVERY = { 0.05, 0.5 }, 1
+
+local mine = setmetatable({}, { __mode = "k" })   -- the frames of ours on those windows, besides the named ones
+function Hooks.Mine(f)
+  if f then mine[f] = true end
+  return f
+end
+
+local function foreign(f)
+  if mine[f] then return false end
+  local n = f.GetName and f:GetName()
+  return not (type(n) == "string" and n:find("^LoreForever"))
+end
+
+-- f's rectangle (left, bottom, right, top) in units of a frame whose effective scale is `scale`; nil before it's laid out.
+local function rectIn(f, scale)
+  if not (f.GetRect and f.GetEffectiveScale) then return nil end
+  local l, b, w, h = f:GetRect()
+  local s = f:GetEffectiveScale()
+  if type(l) ~= "number" or type(b) ~= "number" or type(w) ~= "number" or type(h) ~= "number" or type(s) ~= "number"
+    or s <= 0 or w <= 0 or h <= 0 then return nil end
+  s = s / scale
+  return l * s, b * s, (l + w) * s, (b + h) * s
+end
+
+local function clickable(f)
+  local kind = f.GetObjectType and f:GetObjectType()
+  if kind == "GameTooltip" or kind == "ScrollFrame" then return false end
+  return kind == "Button" or kind == "CheckButton" or (f.IsMouseEnabled and f:IsMouseEnabled()) or false
+end
+
+local function children(f) return { f:GetChildren() } end
+
+-- What's shown and clickable under `f`, `depth` levels down, and isn't ours, into `out`. Never into a scroll frame:
+-- that's the quest's text, scrolled. Anything the game won't let add-ons look at is passed by.
+local gather
+local function gatherOne(c, depth, out)
+  if (c.IsForbidden and c:IsForbidden()) or not foreign(c) or not (c.IsVisible and c:IsVisible()) then return end
+  local kind = c.GetObjectType and c:GetObjectType()
+  if kind == "ScrollFrame" or kind == "GameTooltip" then return end
+  if clickable(c) then out[#out + 1] = c end
+  if depth > 1 then gather(c, depth - 1, out) end
+end
+gather = function(f, depth, out)
+  local ok, kids = pcall(children, f)
+  if not ok then return end
+  for _, c in ipairs(kids) do pcall(gatherOne, c, depth, out) end
+end
+
+-- Whether f hangs off `target` (one of its anchors is target or a frame inside it).
+local function anchoredTo(f, target)
+  for i = 1, (f.GetNumPoints and f:GetNumPoints()) or 0 do
+    local _, rel = f:GetPoint(i)
+    for _ = 1, 8 do
+      if type(rel) ~= "table" then break end
+      if rel == target then return true end
+      rel = rel.GetParent and rel:GetParent()
+    end
+  end
+  return false
+end
+
+local function topLevelOne(c, root, out)
+  if c == root or (c.IsForbidden and c:IsForbidden()) or not foreign(c) or not (c.IsVisible and c:IsVisible()) then
+    return
+  end
+  if c:GetObjectType() == "GameTooltip" or not anchoredTo(c, root) then return end
+  if clickable(c) then out[#out + 1] = c end
+  gather(c, 2, out)
+end
+
+-- Other add-ons' things to click on `root`: on it, or shown at the top level and anchored to it.
+function Hooks.Obstacles(root)
+  local out = {}
+  gather(root, 3, out)
+  local up = _G.UIParent
+  local ok, kids = false, nil
+  if up and up.GetChildren then ok, kids = pcall(children, up) end
+  for _, c in ipairs(ok and kids or {}) do pcall(topLevelOne, c, root, out) end
+  return out
+end
+
+-- Where a row `width` long may end, `ref` giving its left and right edges: the rightmost x (from ref's right edge) at
+-- or left of `endX` whose stretch is at least `lo` in from ref's left edge and clear of every obstacle on `root` that
+-- crosses the row's height around `mid` (in ref's units, from the bottom of the screen); `keep` first, if given and
+-- still clear. Returns that x, or nil when no stretch is long enough, or endX itself when ref isn't laid out (nothing
+-- to measure).
+local function clearEnd(root, ref, endX, mid, lo, width, keep)
+  local scale = ref.GetEffectiveScale and ref:GetEffectiveScale()
+  local l, _, r = rectIn(ref, type(scale) == "number" and scale or 1)
+  if not l then return endX end
+  local top, bottom = mid + ROW_H / 2, mid - ROW_H / 2
+  local spans = {}
+  for _, o in ipairs(Hooks.Obstacles(root)) do
+    local ol, ob, oright, ot = rectIn(o, scale)
+    -- A button or a strip of them, not a panel; crossing the row by more than an edge.
+    if ol and oright - ol <= 260 and ot - ob <= 60 and math.min(ot, top) - math.max(ob, bottom) > 2 then
+      spans[#spans + 1] = { ol - r, oright - r }
+    end
+  end
+  local best
+  local function clear(x)
+    if x > endX or x - width < lo - (r - l) then return false end
+    for _, s in ipairs(spans) do
+      if s[1] - ROW_GAP < x and s[2] + ROW_GAP > x - width then return false end
+    end
+    return true
+  end
+  if keep and clear(keep) then return keep end
+  if clear(endX) then return endX end
+  for _, s in ipairs(spans) do
+    local x = s[1] - ROW_GAP
+    if (not best or x > best) and clear(x) then best = x end
+  end
+  return best
+end
+
 -- The bar the map's quest log shows the game's Back button on, and the details frame; nil without one.
 local function logBar()
   local details = _G.QuestMapFrame and QuestMapFrame.DetailsFrame
@@ -220,18 +352,139 @@ local function logBar()
   return type(bar) == "table" and bar or nil, details
 end
 
+-- How long a row of these buttons is: the shown ones side by side.
+local function rowWidth(...)
+  local w = 0
+  for i = 1, select("#", ...) do
+    local b = select(i, ...)
+    if b and b:IsShown() then w = w + (tonumber(b:GetWidth()) or 0) + (w > 0 and ROW_GAP or 0) end
+  end
+  return w
+end
+
+local function contribute(key) return ns.Capture and ns.Capture.buttons and ns.Capture.buttons[key] end
+
+-- The quest window's row: where its right end goes, from the window's top right corner. how: "usual", "clear" (moved
+-- left, clear of others' buttons), "above" (no room in the band) or "saved" (where the player put it).
+Hooks.questRow = nil
+Hooks.logRow = nil
+
+-- The place the player picked for the quest window's row (settings.questButtonPos), kept on the window; nil if none.
+local function savedQuestRow()
+  local p = S().questButtonPos
+  if type(p) ~= "table" or type(p.x) ~= "number" or type(p.y) ~= "number" then return nil end
+  local w = tonumber(QuestFrame:GetWidth()) or 0
+  local h = tonumber(QuestFrame:GetHeight()) or 0
+  local x, y = p.x, p.y
+  if w > 0 then x = math.max(60 - w, math.min(0, x)) end
+  if h > 0 then y = math.max(ROW_H / 2 - h, math.min(QUEST_MID, y)) end
+  return { x = x, y = y, how = "saved" }
+end
+
+local function anchorQuestRow()
+  local lore, play = Hooks.questDialogButton, Hooks.questDialogPlay
+  if lore then Hooks.AtQuestRow(lore) end
+  if play then
+    play:ClearAllPoints()
+    if lore and lore:IsShown() then play:SetPoint("RIGHT", lore, "LEFT", -ROW_GAP, 0) else Hooks.AtQuestRow(play) end
+  end
+  local c = contribute("quest")
+  if c then
+    c.placed = nil   -- (Capture keeps it where it was while what it sits beside stays the same)
+    ns.Capture.PlaceQuest()
+  end
+end
+
+-- Puts the quest window's row where it goes now (see above). Looks at the other add-ons' buttons again when `look`, or
+-- when the row's length changed (otherwise it stays put); look = "keep" leaves it where it is unless that's taken now.
+-- A drag in progress is left alone.
+function Hooks.PlaceQuestRow(look)
+  local qf = _G.QuestFrame
+  if not qf or Hooks.dragging then return end
+  local lore = Hooks.questDialogButton
+  local width = rowWidth(lore, Hooks.questDialogPlay, contribute("quest"))
+  local shown = lore and lore:IsShown() or false
+  local old = Hooks.questRow
+  if not look and old and old.width == width and old.lore == shown then return end
+  local row = savedQuestRow()
+  if not row then
+    local top = qf.GetTop and qf:GetTop()
+    local keep = look == "keep" and old and old.y == QUEST_MID and old.x or nil
+    local x = QUEST_END
+    if type(top) == "number" and width > 0 then
+      x = clearEnd(qf, qf, QUEST_END, top + QUEST_MID, QUEST_LEFT, width, keep)
+    end
+    if x then
+      row = { x = x, y = QUEST_MID, how = x == QUEST_END and "usual" or "clear" }
+    else
+      row = { x = QUEST_END, y = QUEST_ABOVE, how = "above" }
+    end
+  end
+  row.width, row.lore = width, shown
+  Hooks.questRow = row
+  if old and old.x == row.x and old.y == row.y and old.lore == shown then return end
+  anchorQuestRow()
+end
+
+-- The row on `parent` looked at again (fn) RECHECKS after a page or a quest shows (the returned function: call it
+-- then), as other add-ons may add their buttons after ours, then every RECHECK_EVERY with look = "keep". Its clock is a
+-- frame of ours on that window, so it only runs while the window shows.
+local function watcher(parent, fn)
+  local f = Hooks.Mine(CreateFrame("Frame", nil, parent))
+  local t, i, due = 0, 1, RECHECKS[1]
+  f:SetScript("OnUpdate", function(_, elapsed)
+    t = t + (tonumber(elapsed) or 0)
+    if t < due then return end
+    local early = RECHECKS[i] ~= nil
+    while RECHECKS[i] and t >= RECHECKS[i] do i = i + 1 end
+    due = RECHECKS[i] or (t + RECHECK_EVERY)
+    pcall(fn, early or "keep")
+  end)
+  return function() t, i, due = 0, 1, RECHECKS[1] end
+end
+
 -- `b` at the right end of the quest window's row, or of the quest log's bar: where the Lore button goes, and the play
 -- or Contribute button when the quest has no lore.
 function Hooks.AtQuestRow(b)
+  local row = Hooks.questRow or { x = QUEST_END, y = QUEST_MID }
   b:ClearAllPoints()
-  b:SetPoint("RIGHT", QuestFrame, "TOPRIGHT", QUEST_END, QUEST_MID)
+  b:SetPoint("RIGHT", QuestFrame, "TOPRIGHT", row.x, row.y)
+end
+
+-- The map's quest log: the same, along the bar Back is on (Back itself is in the way at its left end). With no room
+-- there, the row stays at the bar's right end: the map's title bar above it draws over anything of ours.
+function Hooks.PlaceLogRow(look)
+  local bar, details = logBar()
+  if not bar then return end
+  local lore, play = Hooks.questLogButton, Hooks.questLogPlay
+  local width = rowWidth(lore, play, contribute("log"))
+  local shown, quest = lore and lore:IsShown() or false, lore and lore.quest
+  local old = Hooks.logRow
+  if not look and old and old.width == width and old.lore == shown and old.quest == quest then return end
+  local x = LOG_END
+  local mid = bar.GetCenter and select(2, bar:GetCenter())
+  if type(mid) == "number" and width > 0 then
+    x = clearEnd(details, bar, LOG_END, mid + 4, 0, width, look == "keep" and old and old.x or nil) or LOG_END
+  end
+  Hooks.logRow = { x = x, width = width, lore = shown, quest = quest }
+  if old and old.x == x and old.lore == shown then return end
+  if lore then Hooks.AtLogRow(lore) end
+  if play then
+    play:ClearAllPoints()
+    if lore and lore:IsShown() then play:SetPoint("RIGHT", lore, "LEFT", -ROW_GAP, 0) else Hooks.AtLogRow(play) end
+  end
+  local c = contribute("log")
+  if c then
+    c.placed = nil
+    ns.Capture.PlaceLog()
+  end
 end
 
 function Hooks.AtLogRow(b)
   local bar, details = logBar()
   b:ClearAllPoints()
   if bar then
-    b:SetPoint("RIGHT", bar, "RIGHT", LOG_END, 4)
+    b:SetPoint("RIGHT", bar, "RIGHT", Hooks.logRow and Hooks.logRow.x or LOG_END, 4)
   elseif type(details) == "table" then
     b:SetPoint("TOPRIGHT", details, "TOPRIGHT", LOG_END, -12)
   elseif _G.QuestLogFrame then
@@ -244,24 +497,100 @@ local function questKeyFor(id, title)
   return (id and idx.quest[id]) or (title and idx.questTitle[ns.Engine.lower(title)])
 end
 
--- A quest's Lore button: a click opens its story; Shift-click adds its narration to your playlist (UI.QueueQuest).
--- key: its entry, quest: its quest ID, title: its name on screen (UpdateQuestDialogButton, UpdateQuestLogButton).
-local function loreButton(parent, name)
+-- The cursor in QuestFrame's units.
+local function cursorOnQuestFrame()
+  local x, y = GetCursorPosition()
+  local s = QuestFrame:GetEffectiveScale()
+  s = (type(s) == "number" and s > 0) and s or 1
+  return (tonumber(x) or 0) / s, (tonumber(y) or 0) / s
+end
+
+-- While the quest window's Lore button is Shift-dragged: the row follows the cursor, the whole button kept on the
+-- window, no higher than the band. Its place is from the window's top right corner, as the row's always is.
+function Hooks.DragQuestRow(b)
+  local grab = b and b.grab
+  if not (grab and _G.QuestFrame) then return end
+  local cx, cy = cursorOnQuestFrame()
+  local w, h = tonumber(QuestFrame:GetWidth()) or 0, tonumber(QuestFrame:GetHeight()) or 0
+  local bw = tonumber(b:GetWidth()) or 60
+  local x = cx - grab[1] - (tonumber(QuestFrame:GetRight()) or 0)
+  local y = cy - grab[2] - (tonumber(QuestFrame:GetTop()) or 0)
+  x = math.max(bw - w, math.min(0, x))
+  y = math.max(ROW_H / 2 - h, math.min(QUEST_MID, y))   -- (no higher than the band: the title bar draws over it)
+  Hooks.questRow = { x = x, y = y, how = "saved",
+    width = rowWidth(Hooks.questDialogButton, Hooks.questDialogPlay, contribute("quest")) }
+  anchorQuestRow()
+end
+
+-- Shift-drag moves the quest window's Lore button along the window (a plain drag does nothing, so a click that slips
+-- isn't a move; Shift-click is still the playlist). Where it's let go is saved for the account.
+local function movable(b)
+  b:RegisterForDrag("LeftButton")
+  b:SetScript("OnDragStart", function(self)
+    if not (IsShiftKeyDown and IsShiftKeyDown() and _G.QuestFrame and GetCursorPosition) then return end
+    local cx, cy = cursorOnQuestFrame()
+    local row = Hooks.questRow or { x = QUEST_END, y = QUEST_MID }
+    -- Where the cursor holds the button: from the row's anchor, its right end's middle.
+    self.grab = { cx - ((tonumber(QuestFrame:GetRight()) or 0) + row.x),
+      cy - ((tonumber(QuestFrame:GetTop()) or 0) + row.y) }
+    Hooks.dragging = true
+    if self.LockHighlight then self:LockHighlight() end
+    GameTooltip:Hide()
+    self:SetScript("OnUpdate", Hooks.DragQuestRow)
+  end)
+  local function stop(self)
+    self:SetScript("OnUpdate", nil)
+    if not self.grab then return end
+    Hooks.DragQuestRow(self)
+    self.grab, Hooks.dragging = nil, nil
+    self.dragged = true   -- the mouse coming up after a drag isn't a click
+    if self.UnlockHighlight then self:UnlockHighlight() end
+    local row = Hooks.questRow
+    local function round(v) return math.floor(v * 10 + 0.5) / 10 end
+    if row then S().questButtonPos = { x = round(row.x), y = round(row.y) } end
+  end
+  b:SetScript("OnDragStop", stop)
+  if b.HookScript then
+    b:HookScript("OnMouseDown", function(self) self.dragged = nil end)
+    b:HookScript("OnHide", stop)   -- the window closing mid-drag ends it there
+  end
+end
+
+-- Options › Reset quest button: the quest window's Lore button back to its own place, clear of other add-ons' buttons.
+function Hooks.ResetQuestButton()
+  S().questButtonPos = nil
+  Hooks.questRow = nil
+  if Hooks.questDialogButton then Hooks.PlaceQuestRow(true) end
+  say(L["the quest window's Lore button is back in its place, clear of other add-ons' buttons."])
+end
+
+-- A quest's Lore button: a click opens its story; Shift-click adds its narration to your playlist (UI.QueueQuest);
+-- right-click opens Options. key: its entry, quest: its quest ID, title: its name on screen (UpdateQuestDialogButton,
+-- UpdateQuestLogButton). drag: the quest window's, which Shift-drag moves.
+local function loreButton(parent, name, drag)
   local b = CreateFrame("Button", name, parent, "UIPanelButtonTemplate")
   b:SetSize(60, 20)
   b:SetText(L["Lore"])
   b:SetFrameLevel((parent:GetFrameLevel() or 1) + 5)
+  b:RegisterForClicks("LeftButtonUp", "RightButtonUp")
   b:SetScript("OnEnter", function(self)
+    if Hooks.dragging then return end
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     GameTooltip:AddLine("Lore Forever")
     GameTooltip:AddLine(L["The story behind this quest."], 1, 1, 1)
     if ns.UI.CanQueueQuest(self.quest) then
       ns.Theme.Tip(L["Click to open. Shift-click adds it to your playlist."], "tipDim", true)
     end
+    if drag then ns.Theme.Tip(L["Shift-drag to move it. Right-click for options."], "tipDim", true) end
     GameTooltip:Show()
   end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  b:SetScript("OnClick", function(self)
+  b:SetScript("OnClick", function(self, button)
+    if self.dragged then
+      self.dragged = nil
+      return
+    end
+    if button == "RightButton" then return ns.Options.Open() end
     if IsShiftKeyDown and IsShiftKeyDown() then return ns.UI.QueueQuest(self.quest, self.title) end
     if self.key then
       ns.UI.Open(self.key, nil, self.via)
@@ -275,6 +604,7 @@ local function loreButton(parent, name)
       end
     end
   end)
+  if drag then movable(b) end
   b:Hide()
   return b
 end
@@ -437,10 +767,11 @@ function Hooks.StoryLine(parent) return story[parent] and story[parent].fs end
 function Hooks.QuestFrames()
   -- The NPC quest dialog (accept / progress / complete).
   if _G.QuestFrame and not Hooks.questDialogButton then
-    Hooks.questDialogButton = loreButton(QuestFrame, "LoreForeverQuestDialogButton")
+    Hooks.questDialogButton = loreButton(QuestFrame, "LoreForeverQuestDialogButton", true)
     Hooks.AtQuestRow(Hooks.questDialogButton)
     Hooks.questDialogButton.via = "questdialog"
-    Hooks.questDialogPlay = questPlayButton(QuestFrame)
+    Hooks.questDialogPlay = Hooks.Mine(questPlayButton(QuestFrame))
+    Hooks.lookAgain = watcher(QuestFrame, Hooks.PlaceQuestRow)
     -- The floating player steps out from under the quest window while it's open (UI.KeepPlayerClear).
     if QuestFrame.HookScript then
       local function clear() if ns.UI.KeepPlayerClear then ns.UI.KeepPlayerClear() end end
@@ -454,7 +785,8 @@ function Hooks.QuestFrames()
     Hooks.questLogButton = loreButton(details, "LoreForeverQuestLogButton")
     Hooks.AtLogRow(Hooks.questLogButton)
     Hooks.questLogButton.via = "questlog"
-    Hooks.questLogPlay = questPlayButton(details, true)
+    Hooks.questLogPlay = Hooks.Mine(questPlayButton(details, true))
+    Hooks.lookAgainLog = watcher(details, Hooks.PlaceLogRow)
     if hooksecurefunc and _G.QuestMapFrame_ShowQuestDetails then
       hooksecurefunc("QuestMapFrame_ShowQuestDetails", function(questID) Hooks.UpdateQuestLogButton(questID) end)
     end
@@ -542,26 +874,27 @@ function Hooks.UpdateQuestDialogButton()
   local title = GetTitleText and GetTitleText()
   b.key = questKeyFor(id ~= 0 and id or nil, title)
   b.quest, b.title = buttonQuest(b, id), type(title) == "string" and title ~= "" and title or nil
-  b:SetShown(b.key ~= nil or (b.quest ~= nil and b.title ~= nil))
+  -- Options › Lore button on the quest window: off hides it (the story is still in the panel).
+  b:SetShown(S().questButton ~= false and (b.key ~= nil or (b.quest ~= nil and b.title ~= nil)))
+  -- A new page: where the row goes is looked at afresh, now (Hooks.UpdateQuestPlayButton) and a moment later.
+  Hooks.questRow = nil
+  Hooks.PlaceQuestRow(true)
+  if Hooks.lookAgain then Hooks.lookAgain() end
 end
 
 -- The play button follows the page and what plays (UI.UpdateNowPlaying calls this): beside Lore, or in its place when
 -- the quest has no story; hidden when nothing can play.
 function Hooks.UpdateQuestPlayButton()
   Hooks.UpdateQuestLogPlayButton()
-  local b, lore = Hooks.questDialogPlay, Hooks.questDialogButton
+  local b = Hooks.questDialogPlay
   if not b then return end
   local state = _G.QuestFrame and QuestFrame:IsShown() and ns.Voice.QuestPageState() or nil
   b:SetShown(state ~= nil)
-  if not state then return end
-  ns.Theme.SetIcon(b, state == "stop" and "stop" or "play")
-  b:SetText(state == "stop" and L["Stop"] or L["Listen"])   -- hidden; the sign shows it
-  if lore and lore:IsShown() then
-    b:ClearAllPoints()
-    b:SetPoint("RIGHT", lore, "LEFT", -4, 0)
-  else
-    Hooks.AtQuestRow(b)
+  if state then
+    ns.Theme.SetIcon(b, state == "stop" and "stop" or "play")
+    b:SetText(state == "stop" and L["Stop"] or L["Listen"])   -- hidden; the sign shows it
   end
+  Hooks.PlaceQuestRow()
 end
 
 -- Play/Stop for the page currently selected in the quest log. The target rechecks selection and words on every click,
@@ -578,12 +911,15 @@ function Hooks.UpdateQuestLogPlayButton()
   local parent = (_G.QuestMapFrame and QuestMapFrame.DetailsFrame) or _G.QuestLogFrame
   local state = parent and parent:IsShown() and Hooks.QuestLogPageState() or nil
   b:SetShown(state ~= nil)
+  if state then
+    ns.Theme.SetIcon(b, state == "stop" and "stop" or "play")
+    b:SetText(state == "stop" and L["Stop"] or L["Listen"])
+  end
+  if logBar() then return Hooks.PlaceLogRow() end
   if not state then return end
-  ns.Theme.SetIcon(b, state == "stop" and "stop" or "play")
-  b:SetText(state == "stop" and L["Stop"] or L["Listen"])
-  if lore and lore:IsShown() then
+  if lore and lore:IsShown() then   -- (the classic quest log)
     b:ClearAllPoints()
-    b:SetPoint("RIGHT", lore, "LEFT", -4, 0)
+    b:SetPoint("RIGHT", lore, "LEFT", -ROW_GAP, 0)
   else
     Hooks.AtLogRow(b)
   end
@@ -596,10 +932,13 @@ function Hooks.UpdateQuestLogButton(questID)
     local ok, id = pcall(C_QuestLog.GetSelectedQuest)
     questID = ok and id or nil
   end
+  local was = b.quest
   b.key = questKeyFor(questID)
   b.quest = buttonQuest(b, questID)
   b:SetShown(b.key ~= nil)
   Hooks.UpdateQuestLogPlayButton()
+  -- Another quest: look at the bar again a moment later too (it's looked at now as the row changes).
+  if b.quest ~= was and Hooks.lookAgainLog then Hooks.lookAgainLog() end
 end
 
 -- Chat links -------------------------------------------------------------------------------------------------------

@@ -16,7 +16,7 @@
   },
   {
    "title": "Life on the Eastern Frontier",
-   "body": "Despite its remote location, Eastvale is more than just a logging outpost. It features several residential dwellings and bustling horse stables where travelers can purchase fine mounts. The lumber trade here is closely tied to Stormwind nobility, including Lord Joran Tremaind, whose family maintains significant business interests in the camp's timber harvest. On a nearby hill overlooking the worksite sits the quiet manor of retired Marshal Haggard, the former leader of the Stormwind Guard, who withdrew to this rustic outpost to live out his retirement away from capital politics.",
+   "body": "Despite its remote location, Eastvale is more than just a logging outpost. It features several residential dwellings and bustling horse stables where travelers can purchase fine mounts. On a nearby hill overlooking the worksite sits the quiet manor of retired Marshal Haggard, the former leader of the Stormwind Guard, who withdrew to this rustic outpost to live out his retirement away from capital politics.",
    "spoiler": 0
   }
  ],
@@ -76,8 +76,7 @@
   "logging camp",
   "lumber",
   "raelen",
-  "timber",
-  "tremaind"
+  "timber"
  ],
  "related": [
   "npc:supervisor-raelen",

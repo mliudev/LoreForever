@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Valley Under Pressure",
-   "body": "Northshire Valley was once a quiet sanctuary for prayer, agriculture, and novice training, but recent years have stretched Stormwind's military thin. With the King missing and royal garrisons dispersed, wild creatures and opportunists push boldly against civilization's edge. Marshal McBride organizes local defense right outside Northshire Abbey, relying on fresh volunteers to suppress encroaching threats before they disrupt abbey operations or threaten the surrounding vineyards.",
+   "body": "Northshire Valley was once a quiet sanctuary for prayer, agriculture, and novice training, but recent years have stretched Stormwind's military thin. With the King missing and royal garrisons dispersed, wild creatures and opportunists push boldly against civilization's edge. Marshal McBride organizes local defense from inside Northshire Abbey, relying on fresh volunteers to suppress encroaching threats before they disrupt abbey operations or threaten the surrounding vineyards.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "quest giver",
     "marshal mcbride role"
    ],
-   "answer": "Marshal McBride gives the order. Stationed directly outside Northshire Abbey, he oversees local recruit intake and security for the valley on behalf of Stormwind."
+   "answer": "Marshal McBride gives the order. Stationed inside Northshire Abbey, he oversees local recruit intake and security for the valley on behalf of Stormwind."
   },
   {
    "q": "Why are kobolds in the northern woods instead of a mine?",

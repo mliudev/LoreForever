@@ -224,7 +224,7 @@
       "suggests": ["male-dede"],
       "id": 1731414,
       "slug": "lore-forever-german-quest-dialogue-male-narrator",
-      "live": true
+      "live": false
     },
     {
       "key": "female-quests-dede",
@@ -238,7 +238,7 @@
       "suggests": ["female-dede"],
       "id": 1731415,
       "slug": "lore-forever-german-quest-dialogue-female-narrator",
-      "live": true
+      "live": false
     },
     {
       "key": "male-quests-frfr",

@@ -20,8 +20,9 @@ export function funnelStages(f) {
   const reach = cf == null ? null : cf + Math.max(gh ?? 0, s.downloads);
   const stages = [];
   if (a?.thisWeek) {
-    stages.push({ key: "unique", name: "Unique CurseForge downloaders this week", n: a.thisWeek.unique, share: null,
-      note: `today ${num(a.today.unique)} · ${num(a.thisWeek.downloads)} downloads this week (the author dashboard's)` });
+    const wk = a.thisWeek.current ? "this week" : "last week";
+    stages.push({ key: "unique", name: `Unique CurseForge downloaders ${wk}`, n: a.thisWeek.unique, share: null,
+      note: `${num(a.today.unique)} on ${a.today.day} · ${num(a.thisWeek.downloads)} downloads ${wk} (the author dashboard's)` });
   }
   stages.push({ key: "reach", name: "Installs, every source", n: reach, share: null,
     note: reach == null ? "waiting for CurseForge's numbers"

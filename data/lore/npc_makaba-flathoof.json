@@ -17,7 +17,7 @@
   },
   {
    "title": "A Plea for Vengeance",
-   "body": "Unable to retake his fallen settlement alone, Makaba calls upon travelers of the Horde to strike back. He directs fierce retaliation against the Grimtotem renegades who overran his home, demanding justice for the slaughter of his kin. His most urgent concerns center on confronting the warlord responsible, Grundig Darkcloud, and finding word of his missing daughter, Kaya.",
+   "body": "Unable to retake his fallen settlement alone, Makaba calls upon travelers of the Horde to strike back. He directs fierce retaliation against the Grimtotem renegades who overran his home, demanding justice for the slaughter of his kin. His most urgent concern is the warlord responsible, Grundig Darkcloud; his daughter, Kaya, he believes lost in the attack.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "what does makaba ask for",
     "makaba tasks"
    ],
-   "answer": "Makaba seeks vengeance for his fallen home, asking capable warriors to cut down the Grimtotem forces at Camp Aparaje, eliminate their leader Grundig Darkcloud, and discover the fate of Kaya Flathoof."
+   "answer": "Makaba seeks vengeance for his fallen home, asking capable warriors to cut down the Grimtotem forces at Camp Aparaje, and eliminate their leader Grundig Darkcloud."
   },
   {
    "q": "Who is Kaya to Makaba?",
@@ -65,7 +65,7 @@
     "who is kaya",
     "makaba relative kaya"
    ],
-   "answer": "Kaya Flathoof is Makaba's daughter who went missing during the attack on Camp Aparaje. Makaba desperately hopes to learn if she survived the assault."
+   "answer": "Kaya Flathoof is Makaba's daughter. She vanished during the attack on Camp Aparaje, and her family believes she was lost in the assault."
   },
   {
    "q": "Is Makaba related to Dim Flathoof?",

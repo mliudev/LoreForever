@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Supporting Northshire's farmers ensures that the Abbey's garrison and priests remain well-fed during a turbulent period of kingdom defense."
+   "text": "Supporting Elwynn's farmers at places like the Maclure Vineyards keeps the forest's homesteads and garrisons fed during a turbulent period of kingdom defense."
   },
   {
    "target": "race:Human",
@@ -97,12 +97,11 @@
   }
  ],
  "keywords": [
-  "abbey farm",
   "apples",
   "barter",
   "elwynn forest",
   "gerard tiller",
-  "northshire valley",
+  "maclure vineyards",
   "refreshing spring water"
  ],
  "related": [

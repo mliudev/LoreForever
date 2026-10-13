@@ -17,7 +17,7 @@
   "wiki": "Stormwind Library",
   "chain": []
  },
- "summary": "Deep within the Royal Library of Stormwind Keep, head librarian Donyal Tovald manages a collection of historical texts and regional accounts. By order of the young King Anduin Wrynn, funds have been allocated to transcribe copies of these works for citizens and scholars who bring official library scrips. This service allows adventurers to study the history, factions, and legends of Azeroth firsthand.",
+ "summary": "Deep within the Royal Library of Stormwind Keep, librarian Donyal Tovald manages a collection of historical texts and regional accounts. By order of the young King Anduin Wrynn, funds have been allocated to transcribe copies of these works for citizens and scholars who bring official library scrips. This service allows adventurers to study the history, factions, and legends of Azeroth firsthand.",
  "sections": [
   {
    "title": "A Royal Mandate for Knowledge",
@@ -26,7 +26,7 @@
   },
   {
    "title": "The Scrip Exchange",
-   "body": "Transcribing delicate parchment by hand requires significant time, ink, and royal sanction. To manage this distribution, the head librarian Donyal Tovald accepts official library scrips, issued to adventurers and scholars across Alliance territories. In exchange, Tovald provides faithful duplicates of historical tomes, covering everything from the ancient histories of the Eastern Kingdoms to accounts of distant lands, offering context for ongoing conflicts beyond the capital's walls.",
+   "body": "Transcribing delicate parchment by hand requires significant time, ink, and royal sanction. To manage this distribution, the librarian Donyal Tovald accepts official library scrips, issued to adventurers and scholars across Alliance territories. In exchange, Tovald provides faithful duplicates of historical tomes, covering everything from the ancient histories of the Eastern Kingdoms to accounts of distant lands, offering context for ongoing conflicts beyond the capital's walls.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "stormwind library quest purpose",
     "why do this quest"
    ],
-   "answer": "This quest allows you to turn in a Library Scrip to head librarian Donyal Tovald in exchange for readable lore books. It provides background history on various Alliance storylines, people, and regions throughout Azeroth."
+   "answer": "This quest allows you to turn in a Library Scrip to librarian Donyal Tovald in exchange for readable lore books. It provides background history on various Alliance storylines, people, and regions throughout Azeroth."
   },
   {
    "q": "Who is Donyal Tovald?",
@@ -112,7 +112,7 @@
  ],
  "related": [
   "npc:donyal-tovald",
-  "subzone:library-ironforge",
+  "subzone:royal-library",
   "topic:alliance"
  ],
  "attribution": [

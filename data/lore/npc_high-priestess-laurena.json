@@ -8,11 +8,11 @@
   "wiki": "High Priestess Laurena",
   "refs": 10
  },
- "summary": "High Priestess Laurena is a respected human priest trainer stationed behind the grand altar within Stormwind City's Cathedral of Light. Having escaped the destruction of Lordaeron as a refugee during the Third War, she now instructs budding Alliance priests in spiritual devotion and arcane wards.",
+ "summary": "High Priestess Laurena is a respected human priest trainer stationed behind the grand altar within Stormwind City's Cathedral of Light. She instructs budding Alliance priests in spiritual devotion and arcane wards.",
  "sections": [
   {
-   "title": "A Refugee of Lordaeron",
-   "body": "Before taking her post within the towering halls of the Cathedral of Light, Laurena dwelt in the northern kingdom of Lordaeron. When the Scourge swept across the land during the Third War, she and her entire family were fortunate enough to survive and flee southward, arriving in Stormwind City as displaced refugees. Despite the immense grief and chaos that shattered her homeland, Laurena remained steadfast in her devotion, eventually rising to become a High Priestess in service to the Church of the Holy Light.",
+   "title": "A High Priestess of the Cathedral",
+   "body": "As a High Priestess of the Church of the Holy Light, Laurena holds one of the senior posts within the towering halls of the Cathedral of Light, the heart of the faith in Stormwind City, where Archbishop Benedictus leads the Church.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "is laurena from stormwind",
     "laurena lordaeron"
    ],
-   "answer": "Laurena originally lived in the kingdom of Lordaeron. During the Third War, her family managed to escape the horrors of the Scourge and fled to Stormwind City as refugees, where she continued her religious calling."
+   "answer": "Nothing is recorded of her life before she took up her post at the Cathedral of Light in Stormwind City."
   },
   {
    "q": "Does she serve under Archbishop Benedictus?",
@@ -73,7 +73,7 @@
     "laurena family dead",
     "what happened to laurena family"
    ],
-   "answer": "Remarkably, her immediate family survived the fall of Lordaeron. They were among the fortunate refugees who managed to escape the Scourge intact and make the long voyage south to the safety of Stormwind."
+   "answer": "Nothing is recorded of her family."
   }
  ],
  "angles": [
@@ -83,7 +83,7 @@
   },
   {
    "target": "race:Human",
-   "text": "Like many humans in Stormwind, Laurena carries the sorrow of the fallen northern realm of Lordaeron, having rebuilt her life as a spiritual pillar for fellow survivors."
+   "text": "For the humans of Stormwind, Laurena is a spiritual pillar of the Cathedral of Light, guiding the faithful through troubled times."
   },
   {
    "target": "faction:Alliance",
@@ -98,7 +98,6 @@
   "high priestess",
   "holy light",
   "laurena",
-  "lordaeron",
   "priest trainer",
   "stormwind"
  ],

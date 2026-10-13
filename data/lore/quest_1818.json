@@ -3,7 +3,7 @@
  "type": "quest",
  "name": "Speak with Dillinger",
  "era": "classic",
- "zone": "undercity",
+ "zone": "tirisfal",
  "meta": {
   "ids": [
    1818
@@ -17,11 +17,11 @@
   "wiki": "Speak with Dillinger",
   "chain": []
  },
- "summary": "Speak with Dillinger is a Horde military directive issued in the Undercity. Austil de Mon dispatches able-bodied fighters to Deathguard Dillinger in Brill to take on a hazardous combat mission in service of Lady Sylvanas.",
+ "summary": "Speak with Dillinger is a Horde military directive issued in Brill. Austil de Mon, the warrior trainer at the Gallows' End Tavern, dispatches able-bodied fighters to Deathguard Dillinger at the west end of the village to take on a hazardous combat mission in service of Lady Sylvanas.",
  "sections": [
   {
    "title": "A Summons to the Front",
-   "body": "Within the subterranean halls of the Undercity, Austil de Mon keeps a watchful eye out for promising combatants willing to serve the Dark Lady. When the Deathguards stationed on the surface require capable hands, de Mon directs unproven adventurers out of the royal capital and into the field. Deathguard Dillinger, who oversees security on the western edges of Brill, has requested someone with martial competence for an urgent task.",
+   "body": "Within the Gallows' End Tavern in Brill, the warrior trainer Austil de Mon keeps a watchful eye out for promising combatants willing to serve the Dark Lady. When the Deathguards require capable hands, de Mon directs unproven adventurers out of the tavern and into the field. Deathguard Dillinger, who oversees security on the western edges of Brill, has requested someone with martial competence for an urgent task.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "austil de mon",
     "who starts speak with dillinger"
    ],
-   "answer": "Austil de Mon, located in the Undercity, identifies potential soldiers and sends them to assist Deathguard Dillinger."
+   "answer": "Austil de Mon, the warrior trainer in Brill's Gallows' End Tavern, identifies potential soldiers and sends them to assist Deathguard Dillinger."
   },
   {
    "q": "Where can Deathguard Dillinger be found?",
@@ -74,12 +74,12 @@
    "answer": "Any Horde warrior who has earned the trust of Undercity officials can take the assignment, though it is primarily designed to assess recruits defending Tirisfal Glades."
   },
   {
-   "q": "Why is this directive given in the Undercity instead of Brill?",
+   "q": "Why does a warrior trainer send me to Dillinger?",
    "aliases": [
     "why undercity start",
     "austil de mon role"
    ],
-   "answer": "Austil de Mon serves as an intake scout within the capital, funneling newly capable adventurers outward to frontier commanders who need immediate muscle."
+   "answer": "Austil de Mon trains warriors at the Gallows' End Tavern in Brill, funneling newly capable adventurers outward to Deathguard commanders who need immediate muscle."
   }
  ],
  "angles": [

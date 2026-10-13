@@ -7,6 +7,85 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 0.16.0 (2026-10-12)
+
+- **Willo's chat looks like a chat app:** your chats sit in a list on the left, newest first and grouped by day, with
+  the conversation beside them; on a narrow window the list slides in from the side. The chat no longer shows a
+  journey picture between messages, and the search suggestions under a looked-up answer now show instead of an
+  empty gap.
+
+- **No more buttons on top of each other:** the quest window's Lore button no longer covers Chronicle's or Spoken's
+  buttons. It steps aside on its own, and you can Shift-drag it anywhere along the quest window (it stays put after a
+  /reload). Options has Reset quest button to put it back, and a switch to hide it; the quest's story is still in the
+  Lore Forever panel.
+
+- **Typing in Willo's window works again:** after Willo started in the background, clicking its window could leave the
+  keyboard with the game. Opening Willo from the tray now makes its window take the keyboard when you click it.
+
+- Lore entries now describe WoW Forever's boat routes: Menethil Harbor's ship to Auberdine stops at Southshore,
+  Stormwind Harbor has a ship straight to Auberdine, and Steamwheedle Port in Tanaris sails to the Riverglades.
+
+- Lore entries now describe WoW Forever's flight paths: Flame Crest and Stonard also fly to Rog'mar in the Riverglades,
+  Morgan's Vigil and Thelsamar to Farholde Keep, Everlook flies to Mount Hyjal, and Dalaran has no flight master.
+
+- Lore entries now match what WoW Forever changed: every priest learns Fear Ward and Devouring Plague at level 20,
+  the Horde starts out Hated with Dalaran's Kirin Tor, Onyxia's Lair is among the raids, the Shaper's Terrace dungeon
+  is in Un'Goro Crater and Zephras Isle runs to level 12.
+
+- **More answers read aloud:** the male narrator reads 1,377 more answers, most of them about people and lore items,
+  and the female narrator 300 more; 556 of her answers whose text changed are read again from the new text. Answers
+  that this update's lore fixes changed show as text until they're read again.
+
+- **Community voices always play:** Densuad's Spanish and the Ukrainian narrator keep their recordings and their own
+  text when our English changes. Densuad's edition plays 804 recordings (up from 625) and the Ukrainian narrator all
+  808 (up from 731).
+
+- **More answers read aloud, two-word names said clearly:** the male narrator reads about 590 more answers, most of
+  them about people, and the female narrator 75 more. Answers and 23 new quest-giver lines with a two-word name like
+  Runetotem or Goretusk say it clearly.
+
+- **Community translations keep their words:** the Ukrainian, Russian and Italian packs no longer switch entries back
+  to English when our English changes. About 670 entries that had fallen back to English show their translation
+  again.
+
+- **The lore topics are narrated:** 56 of the wars, factions, peoples and legends behind the world, from the Third
+  War to Arthas Menethil, play as complete stories in the male narrator's voice, 49 of them in the female narrator's
+  too.
+
+- **Native-accent voices only:** German, French, Spanish and Portuguese narration now uses native-accent voices only.
+  Lines without one show as text until they're recorded. German and French keep their native stories (about 400 per
+  narrator in French and 380 to 470 in German). Spanish and Portuguese narration (all but one dungeon boss) and German
+  quest dialogue are text for now, until their native recordings arrive.
+
+- **Corrected lore in 611 entries.**
+
+- **Corrected lore in 505 entries.**
+
+- **Live game info shows only while Lore Forever is open:** with Live game info turned on, the little block of
+  colored squares in the top-left corner now appears only while the Lore Forever window is open, so it's never in
+  your way or your videos. Options explains plainly what it is (Willo on your PC reads it; no memory reading, no keys,
+  nothing sent online), and a new "show it all the time" choice keeps the old behavior. It stays off unless you turn
+  it on.
+
+- **Willo knows Forever's flight paths:** ask where you can fly or how to reach a new zone and Willo uses WoW
+  Forever's real flight network, read from the game itself, including Mount Hyjal's flight points (from Everlook) and
+  the Riverglades' Farholde Keep and Rog'mar.
+
+- **Willo knows what WoW Forever changed:** ask about talents, your class's new abilities, racials, Legacy points,
+  Camping, rulesets, the new zones, reputations, dungeons or raids and Willo answers with Forever's changes, checked
+  against the game and Blizzard's own posts, instead of the original game's.
+
+- **Willo knows WoW Forever:** ask about the boats from Menethil Harbor or Southshore, Dalaran, the new dungeons or
+  which races can be which classes, and Willo answers with what Forever changed, not the original game. Tell Willo
+  it got something wrong and it listens instead of arguing, and what you said comes back to us to check.
+
+- **Willo knows Forever's boats and zeppelins:** ask where a ship goes or how to get somewhere and Willo uses WoW
+  Forever's real routes, read from the game itself: Menethil Harbor's ship to Auberdine now stops at Southshore,
+  Stormwind Harbor sails to Auberdine, and new links reach Zephras Isle and the Riverglades.
+
+- **Willo no longer goes blank:** if Windows closes the browser inside Willo's window, Willo reopens its page by
+  itself instead of leaving an empty window that ignores clicks.
+
 ## 0.15.0 (2026-10-11)
 
 - **Clearer names:** the narrators now say Goretusk, Runetotem, Soulscar and seven other two-word names clearly.

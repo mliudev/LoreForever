@@ -8,11 +8,11 @@
   "wiki": "Baron Silverlaine",
   "refs": 5
  },
- "summary": "Baron Silverlaine was the rightful human lord of the fortress once known as Keep Silverlaine, perched high above Pyrewood Village. When Archmage Arugal unleashed the savage worgen upon the region, the baron and his household were mercilessly slaughtered. Now, his tormented spirit lingers in the ruined dining hall, bound in undeath to defend the very lair that became his tomb.",
+ "summary": "Baron Silverlaine was the rightful human lord of the fortress once known as Silverlaine Keep, perched high above Pyrewood Village. When Archmage Arugal unleashed the savage worgen upon the region, the baron was mercilessly slaughtered. Now, his tormented spirit lingers in the ruined dining hall, bound in undeath to defend the very lair that became his tomb.",
  "sections": [
   {
-   "title": "The Fall of Keep Silverlaine",
-   "body": "Before the shadow of the wolf-beasts blanketed the southern hills of Silverpine, Baron Silverlaine ruled over a proud noble estate. His fortress provided safety and oversight to the surrounding Gilnean lands. That peace shattered when Archmage Arugal, seeking a weapon against the rampaging Scourge, unleashed summoned worgen into the region. The feral monstrosities could not be controlled; they stormed the stronghold, overran its guards, and butchered the baron along with his entire family.",
+   "title": "The Fall of Silverlaine Keep",
+   "body": "Before the shadow of the wolf-beasts blanketed the southern hills of Silverpine, Baron Silverlaine ruled over a proud noble estate. His fortress provided safety and oversight to the surrounding lands. That peace shattered when Archmage Arugal, seeking a weapon against the rampaging Scourge, unleashed summoned worgen into the region. The feral monstrosities could not be controlled; they stormed the stronghold, overran its guards, and butchered the baron.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "who is silverlaine",
     "who ruled shadowfang"
    ],
-   "answer": "He was the noble Gilnean human master of the fortress originally named Keep Silverlaine, situated above Pyrewood Village. He was slain alongside his family when worgen overran the fortress."
+   "answer": "He was the noble human master of the fortress originally named Silverlaine Keep, situated above Pyrewood Village. He was slain when worgen overran the fortress."
   },
   {
    "q": "Why is he haunting Shadowfang Keep?",
@@ -65,7 +65,7 @@
     "keep silverlaine lore",
     "old name of shadowfang"
    ],
-   "answer": "It was originally called Keep Silverlaine, named after the baron's noble family who held dominion over it before Arugal took control."
+   "answer": "It was originally called Silverlaine Keep, named after the baron's noble family who held dominion over it before Arugal took control."
   },
   {
    "q": "Did anyone in Silverlaine's family survive?",
@@ -74,17 +74,17 @@
     "did silverlaines family live",
     "silverlaine heirs"
    ],
-   "answer": "No. Historical accounts confirm that Baron Silverlaine and his entire family were slaughtered inside the keep when the feral worgen invaded."
+   "answer": "No account says. The old reports tell only that the worgen besieged the baron's keep and that his vengeful ghost haunts it still; nothing is recorded of the rest of his household."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "Silverlaine stands as a bitter testament to the downfall of human noble authority on the borders of Gilneas, his family wiped out by the magical hubris of a Dalaran-trained wizard."
+   "text": "Silverlaine stands as a bitter testament to the downfall of human noble authority on the borders of Gilneas, his keep overrun by the magical hubris of a Dalaran-trained wizard."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken pushing across Silverpine, Silverlaine's specter is merely another remnant of old Gilnean aristocracy that must be cleared to break Arugal's grip on the keep."
+   "text": "For the Forsaken pushing across Silverpine, Silverlaine's specter is merely another remnant of the old aristocracy that must be cleared to break Arugal's grip on the keep."
   },
   {
    "target": "class:Mage",

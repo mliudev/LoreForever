@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Haunted Legacy",
-   "body": "Perched upon a high hill overlooking the shattered lands of Azshara, the Shadowsong Shrine lies in ancient, overgrown ruin. Like much of the surrounding coast, it is plagued by the lingering apparitions of Highborne ghosts who wander among the fallen stonework, seeking to extinguish any mortal life that trespasses upon their domain. The shrine shares its name with two legendary figures of kaldorei history: Jarod Shadowsong, the reluctant general who led the night elf resistance during the War of the Ancients, and his sister Maiev, the unrelenting warden of Illidan Stormrage. Whether this sanctuary was erected in honor of their deeds or dates back to the family's standing before the Sundering is a secret lost to the ages.",
+   "body": "Perched upon a high hill overlooking the shattered lands of Azshara, the Shadowsong Shrine lies in ancient, overgrown ruin. Like much of the surrounding coast, it is plagued by the lingering apparitions of Highborne ghosts who wander among the fallen stonework, seeking to extinguish any mortal life that trespasses upon their domain. The shrine shares its name with Maiev Shadowsong, the unrelenting warden of Illidan Stormrage. Whether this sanctuary honors her family or dates back to before the Sundering is a secret lost to the ages.",
    "spoiler": 0
   }
  ],
@@ -28,11 +28,10 @@
   {
    "q": "Who is the shrine named after?",
    "aliases": [
-    "jarod shadowsong",
     "maiev shadowsong",
     "why shadowsong"
    ],
-   "answer": "It shares its namesake with the storied Shadowsong lineage\u2014most notably Jarod Shadowsong, hero of the War of the Ancients, and his elder sister Maiev, the famed warden. However, whether the shrine directly commemorates either of them is not definitively recorded."
+   "answer": "It shares its name with Maiev Shadowsong, the famed warden who held Illidan Stormrage captive. However, whether the shrine commemorates her or her family is not recorded."
   },
   {
    "q": "Why is the shrine haunted?",
@@ -56,14 +55,13 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, the name Shadowsong commands profound respect due to Jarod's leadership during the War of the Ancients, making the desecration of this site by tormented Highborne ghosts especially tragic."
+   "text": "For night elves, the name Shadowsong commands profound respect through the warden Maiev, making the desecration of this site by tormented Highborne ghosts especially tragic."
   }
  ],
  "keywords": [
   "azshara",
   "ghosts",
   "highborne",
-  "jarod shadowsong",
   "maiev",
   "ruins",
   "shadowsong",

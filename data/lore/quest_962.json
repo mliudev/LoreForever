@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "Eyes of the Apothecary",
-   "body": "Perched upon the Spirit Rise in Thunder Bluff, Apothecary Zamah serves as an envoy of the Royal Apothecary Society from the Undercity. While the tauren hosts focus on spiritual balance and healing the wounded land, Zamah's attention is fixed on rare and virulent materials. Having isolated a sample of an unusual plant known as Serpentbloom, she seeks bulk quantities to advance the research directives of Lady Sylvanas Windrunner and the Forsaken.",
+   "body": "Stationed in the Pools of Vision beneath the Spirit Rise in Thunder Bluff, Apothecary Zamah serves as an envoy of the Royal Apothecary Society from the Undercity. While the tauren hosts focus on spiritual balance and healing the wounded land, Zamah's attention is fixed on rare and virulent materials. Having isolated a sample of an unusual plant known as Serpentbloom, she seeks bulk quantities to advance the research directives of Lady Sylvanas Windrunner and the Forsaken.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "apothecary zamah lore",
     "who gives serpentbloom"
    ],
-   "answer": "Apothecary Zamah is a researcher representing the Royal Apothecary Society of the Undercity. Stationed in Thunder Bluff on the Spirit Rise, she acts as a liaison between the Forsaken alchemists and the wider continent of Kalimdor."
+   "answer": "Apothecary Zamah is a researcher representing the Royal Apothecary Society of the Undercity. Stationed in the Pools of Vision beneath Thunder Bluff's Spirit Rise, she acts as a liaison between the Forsaken alchemists and the wider continent of Kalimdor."
   },
   {
    "q": "Why does the Royal Apothecary Society want Serpentbloom?",
@@ -90,7 +90,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "Hosting Forsaken apothecaries upon the Spirit Rise reflects the Horde's hospitality, even as their focus on lethal concoctions contrasts with traditional earth healing."
+   "text": "Hosting Forsaken apothecaries beneath the Spirit Rise reflects the Horde's hospitality, even as their focus on lethal concoctions contrasts with traditional earth healing."
   },
   {
    "target": "profession:Herbalism",

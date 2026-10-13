@@ -16,6 +16,9 @@ Options.DEFAULTS = {
                            -- the player's right-click menu offers it either way (turned on once for older installs:
                            -- Log.Init's featuresOn)
   minimap = true,          -- minimap button (turned on once for installs from before it was the default: Log.Init)
+  -- The Lore button on the quest giver's window (Hooks.lua). Shift-drag moves it; where to is questButtonPos, which
+  -- Options › Reset quest button forgets (Hooks.ResetQuestButton).
+  questButton = true,
   typing = true,           -- answers type in quickly instead of appearing at once
   chatLinks = true,        -- names of other entries in answers are links (UI.Linker), Back / Forward above the chat
   showSpoilers = false,    -- show answers marked as spoilers without asking first
@@ -37,8 +40,10 @@ Options.DEFAULTS = {
   automaticPictures = true,
   capture = true,          -- keep the quest, gossip and book text Forever shows, to share at /contribute (Capture.lua)
   -- Live game info: a tiny block of coloured cells in the top-left corner that the companion app reads (Strip.lua,
-  -- LOR-416). Opt-in: it shows on screen, and the companion has its own switch for reading it.
+  -- LOR-416). Opt-in, never turned on by anything else: it shows on screen, and the companion has its own switch for
+  -- reading it. It shows only while the Lore Forever panel is open, unless liveStripAlways.
   liveStrip = false,
+  liveStripAlways = false,
   -- The small Contribute button on quest, gossip and book windows (Capture.lua). Defaults are written into
   -- SavedVariables, so older installs (saved off) are turned on once by Log.Init's featuresOn.
   contributeButtons = true,
@@ -562,6 +567,7 @@ local function rows()
     { "storylines", L["Show storylines on quests"], L["When a quest is part of a storyline, say so under its title and at the top of its story."] },
     { "storylineChat", L["Storyline hints in chat"], L["When you turn in a quest that's part of a storyline, say in chat who to see next."] },
     { "minimap", L["Minimap button"], L["Also show a book button on the minimap."] },
+    { "questButton", L["Lore button on the quest window"], L["A Lore button on the quest giver's window opens the quest's story. It keeps clear of other add-ons' buttons; Shift-drag it to put it somewhere else. Untick to hide it: the story is still in the Lore Forever panel."] },
     { "floatPlayer", L["Floating player"], L["While the panel is closed, show the narration player on screen when something plays or is queued. Drag it to move it."] },
     { "reportCross", L["Show the report button on the narration player"], L["A small cross on the player to tell us a narration sounds wrong: a name said wrong, the wrong voice, cut off. Right-clicking the player offers it too."] },
     { "typing", L["Typing animation"], L["Answers type in quickly. Click an answer to show it all at once."] },
@@ -574,7 +580,8 @@ local function rows()
     { "skipHeard", L["Skip what you've heard"], L["Don't play a narration by itself again once this character has heard it. You can still play it any time; the Library ticks the ones you've heard."] },
     { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
     { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC."] },
-    { "liveStrip", L["Live game info for the companion app"], L["Shows a tiny block of colored squares in the top-left corner. The Lore Forever companion app on this PC reads it, so %s knows where you are, what you're fighting and your tracked quest right away instead of after a /reload. Turn on Live game info in the companion's Settings too. Nothing is sent anywhere, and the companion never presses keys or clicks in the game."]:format(ns.COMPANION_NAME) },
+    { "liveStrip", L["Live game info for the companion app"], L["While the Lore Forever window is open, shows a tiny block of colored squares in the top-left corner. Only the Lore Forever companion app on this PC reads it, so %s knows where you are, who you're targeting and your tracked quest. It isn't a hack: it doesn't read the game's memory, never presses keys or clicks, and sends nothing online. Also turn on Live game info in the companion's Settings. Untick to turn it off."]:format(ns.COMPANION_NAME) },
+    { "liveStripAlways", L["Live game info: show it all the time"], L["Keep the squares on screen while the Lore Forever window is closed too, so %s always knows where you are. Only matters with Live game info on."]:format(ns.COMPANION_NAME) },
     { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or set Take a journey picture in Key Bindings, AddOns. This option hides your interface for a moment, except in combat. In the companion, turn on Picture book and connect your profile. Pictures with the interface need On my profile."] },
     { "capture", L["Keep the quest text you see"], L["Keep the quest, gossip and book text Forever shows you, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it."] },
     { "contributeButtons", L["Contribute buttons"], L["A small button on quest, gossip and book windows whose text Lore Forever doesn't have yet. Click it for a link to share that text."] },
@@ -733,11 +740,15 @@ function Options.Create()
       LoreForeverDB.settings[key] = self:GetChecked() and true or false
       if key == "showSpoilers" and ns.UI and ns.UI.UpdateListen then ns.UI.UpdateListen() end
       if key == "minimap" and ns.MinimapButton then ns.MinimapButton() end
+      if key == "questButton" and ns.Hooks then
+        ns.Hooks.UpdateQuestDialogButton()
+        ns.Hooks.UpdateQuestPlayButton()
+      end
       if (key == "floatPlayer" or key == "reportCross") and ns.UI.UpdateNowPlaying then ns.UI.UpdateNowPlaying() end
       if key == "onDemand" then ns.Voice.SetOnDemand(self:GetChecked()) end
       if key == "questDialogue" then ns.Voice.SetQuestDialogue(self:GetChecked()) end
       if key == "journey" and ns.Journey then ns.Journey.OnToggle() end
-      if key == "liveStrip" and ns.Strip then ns.Strip.Update() end
+      if (key == "liveStrip" or key == "liveStripAlways") and ns.Strip then ns.Strip.Update() end
       if key == "storylines" and ns.UI and ns.UI.Refresh then ns.UI.Refresh() end
       if key == "storylines" and ns.Hooks and ns.Hooks.RefreshQuestStory then ns.Hooks.RefreshQuestStory() end
       if key == "contributeButtons" and ns.Capture then ns.Capture.UpdateAll() end
@@ -809,6 +820,21 @@ function Options.Create()
   windowsBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)
   windowsBtn:SetScript("OnClick", function() ns.UI.ResetWindows() end)
   p.resetWindows = windowsBtn
+  -- The quest window's Lore button back in its own place, if it was Shift-dragged somewhere (Hooks.ResetQuestButton).
+  local questBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
+  questBtn:SetSize(160, 24)
+  questBtn:SetPoint("LEFT", windowsBtn, "RIGHT", 10, 0)
+  questBtn:SetText(L["Reset quest button"])
+  fit(questBtn, 160)
+  questBtn:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(L["Reset quest button"])
+    T.Tip(L["Put the quest window's Lore button back in its own place, clear of other add-ons' buttons, after you Shift-dragged it somewhere else."], "tipText", true)
+    GameTooltip:Show()
+  end)
+  questBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  questBtn:SetScript("OnClick", function() ns.Hooks.ResetQuestButton() end)
+  p.resetQuestButton = questBtn
   local sizeBtn = sizeSection(c, windowsBtn)
   p.updateSize = sizeBtn.Update
   local bottom

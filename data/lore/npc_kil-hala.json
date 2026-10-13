@@ -8,11 +8,11 @@
   "wiki": "Kil'hala",
   "refs": 2
  },
- "summary": "Kil'hala is a jungle troll tailoring trainer stationed at the Crossroads in the Barrens. Skilled in working with both everyday cloth and exotic woven materials, he instructs Horde crafters looking to refine their needlework. Beyond common thread, he directs ambitious tailors north into Ashenvale to procure rare reagents like nether-lace.",
+ "summary": "Kil'hala is a jungle troll tailoring trainer stationed at the Crossroads in the Barrens. Skilled in working with both everyday cloth and exotic woven materials, he instructs Horde crafters looking to refine their needlework. Beyond common thread, he weaves nether-lace robes for young Horde mages who bring him locks of hair from the laughing sisters of Ashenvale.",
  "sections": [
   {
    "title": "Tailor of the Barrens",
-   "body": "Positioned at the bustling hub of the Crossroads, Kil'hala offers his tailoring expertise to passing travelers and Horde recruits. While much of his craft involves common spun bolts and garments fit for dry plains life, his knowledge extends into rare magical textiles. To craft truly remarkable robes, Kil'hala challenges weavers to venture into the untamed canopies of Ashenvale, where ethereal materials like nether-lace can be harvested from magical dryads.",
+   "body": "Positioned at the bustling hub of the Crossroads, Kil'hala offers his tailoring expertise to passing travelers and Horde recruits. While much of his craft involves common spun bolts and garments fit for dry plains life, his knowledge extends into rare magical textiles. As a favor to the mage Deino, he fashions nether-lace robes for young mages who bring him hair taken from the laughing sisters, dryads of Ashenvale's forests.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "laughing sisters quest",
     "nether lace garment"
    ],
-   "answer": "He directs weavers seeking advanced cloth crafting to venture into Ashenvale to hunt dryads known as the Laughing Sisters. Kil'hala uses their ethereal locks to create a unique Nether-lace Garment."
+   "answer": "He doesn't send tailors out himself. Young Horde mages sent by Deino bring him locks of hair from the Laughing Sisters, dryads near Ashenvale's Raynewood Retreat, and Kil'hala weaves the hair into a nether-lace garment for them."
   }
  ],
  "angles": [

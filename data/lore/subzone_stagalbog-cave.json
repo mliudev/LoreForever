@@ -39,7 +39,7 @@
     "nearest town",
     "vendors near stagalbog"
    ],
-   "answer": "The cave is surrounded by wild, hostile marshlands. However, the wider Swamp of Sorrows hosts the Horde outpost of Stonard to the west, while neutral and goblin travelers occasionally scout the surrounding waterways."
+   "answer": "The cave is surrounded by wild, hostile marshlands. The nearest friendly settlement, for the Horde at least, is the outpost of Stonard to the west."
   }
  ],
  "angles": [],
@@ -54,8 +54,7 @@
  "related": [
   "subzone:stagalbog",
   "zone:swampofsorrows",
-  "topic:murloc",
-  "topic:steamwheedle-cartel"
+  "topic:murloc"
  ],
  "attribution": [
   "Stagalbog Cave"

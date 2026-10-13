@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "The Blind Hunter of the Isles",
-   "body": "Perched on a solitary, storm-tossed island southeast of Hetaera's Clutch, Loramus Thalipedes stands apart from the rest of his kin. He is a demon hunter\u2014an exile who underwent the agonizing ritual of blinding himself under his master's guidance to gain spectral sight. Surrounded by three towering felhounds named Raytaf, Shahiar, and Zaman, Loramus watches the unseen currents of demonic corruption across Azeroth while keeping a watchful vigil over the shattered ruins of Azshara.",
+   "body": "Perched on a solitary, storm-tossed island southeast of Hetaera's Clutch, Loramus Thalipedes stands apart from the rest of his kin. He is a demon hunter\u2014an exile who underwent the agonizing ritual of blinding himself to gain spectral sight. Surrounded by three towering felhounds named Raytaf, Shahiar, and Zaman, Loramus watches the unseen currents of demonic corruption across Azeroth while keeping a watchful vigil over the shattered ruins of Azshara.",
    "spoiler": 0
   },
   {
    "title": "A Vendetta Across Continents",
-   "body": "Loramus's fixation lies across the sea in the Blasted Lands, focused entirely on the dreadlord Razelikh the Defiler. Knowing that conventional steel cannot permanently end a cunning demon, Loramus guides travelers through ancient rituals, requiring them to gather enchanted Azsharite and reforge the legendary weapon Felbane. Through these esoteric preparations, he seeks to strip away Razelikh's wards, bind the demon's true name, and finish the vendetta once and for all.",
+   "body": "Loramus's fixation lies across the sea in the Blasted Lands, focused entirely on the dreadlord Razelikh the Defiler. Knowing that conventional steel cannot permanently end a cunning demon, Loramus guides travelers through ancient rituals, requiring them to gather Azsharite and the demon's true name so that Felbane weapons can be forged against him. Through these esoteric preparations, he seeks to strip away Razelikh's wards, bind the demon's true name, and finish the vendetta once and for all.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "loramus blind",
     "demon hunter blindfold"
    ],
-   "answer": "Like other demon hunters, Loramus removed his own eyes with the guidance of his master. In exchange for ordinary mortal vision, this ritual granted him the spectral sight necessary to detect demonic energies."
+   "answer": "Like other demon hunters, Loramus gave up his own eyes. In exchange for ordinary mortal vision, this ritual granted him the spectral sight necessary to detect demonic energies."
   },
   {
    "q": "Why are there felhounds guarding him?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Night elves traditionally view demon hunters with profound horror and distrust, seeing their ritualistic self-mutilation and demonic pacts as an unforgivable path that mirrors the betrayal of the Illidari."
+   "text": "Night elves traditionally view demon hunters with profound horror and distrust, seeing their ritualistic self-mutilation and demonic pacts as an unforgivable path that mirrors the betrayal of Illidan."
   },
   {
    "target": "class:Warlock",

@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Corrupted Den",
-   "body": "Tucked into the northern reaches of Thistlefur Village, Thistlefur Hold serves as the heart of the Thistlefur tribe's territory. The furbolgs here were driven mad after coming into possession of the Idol of Remulos, falling into a state of feral hostility that makes them dangerous to travelers and neighbors alike. Deep within the winding caverns, the tribe hordes scavenged relics\u2014including troll charms of interest to the Darkspear\u2014and keeps captives bound in wooden cages, such as the imprisoned tauren brave Ruul Snowhoof.",
+   "body": "Tucked into the northern reaches of Thistlefur Village, Thistlefur Hold serves as the heart of the Thistlefur tribe's territory. The furbolgs here have been driven mad by corruption, falling into a state of feral hostility that makes them dangerous to travelers and neighbors alike. Deep within the winding caverns, the tribe hordes scavenged relics\u2014including troll charms of interest to the Darkspear\u2014and keeps captives bound in wooden cages, such as the imprisoned tauren brave Ruul Snowhoof.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "thistlefur corruption",
     "why are furbolgs attacking"
    ],
-   "answer": "The Thistlefur furbolgs were corrupted by the Idol of Remulos, an artifact they kept within their possession. The malign influence twisted their minds and drove them to lash out against all outsiders."
+   "answer": "The Thistlefur furbolgs have fallen to corruption. The malign influence twisted their minds and drove them to lash out against all outsiders."
   },
   {
    "q": "Who is trapped inside the hold?",
@@ -59,7 +59,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "Seeing the Thistlefur furbolgs fall to madness under the sway of the Idol of Remulos is a tragic reminder of how easily nature's guardians can be corrupted in Ashenvale."
+   "text": "Seeing the Thistlefur furbolgs fall to corruption and madness is a tragic reminder of how easily nature's guardians can be corrupted in Ashenvale."
   }
  ],
  "keywords": [

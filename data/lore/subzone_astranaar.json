@@ -16,7 +16,7 @@
   },
   {
    "title": "A Bastion Under Siege",
-   "body": "Despite its tranquil waters and glowing lanterns, Astranaar exists in a state of perpetual readiness. Local leaders like Raene Wolfrunner coordinate patrols and defensive actions against the corrupted Thistlefur furbolgs encroaching from the north, fearful they may mount a direct assault on the settlement. The town also bears quiet historical sorrow: across the lake in the cemetery lies the resting place of Valstann Staghelm, who fell a thousand years ago during the War of the Shifting Sands.",
+   "body": "Despite its tranquil waters and glowing lanterns, Astranaar exists in a state of perpetual readiness. Local leaders like Raene Wolfrunner coordinate patrols and defensive actions against the corrupted Thistlefur furbolgs encroaching from the north, fearful they may mount a direct assault on the settlement.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "valstann staghelm grave",
     "who is buried here"
    ],
-   "answer": "The cemetery by the lake contains the tomb of Valstann Staghelm, son of Archdruid Fandral Staghelm, who was slain during the ancient War of the Shifting Sands against the Qiraji in Silithus."
+   "answer": "No account of this era names who rests there. The cemetery lies across the lake from the town, and its graves keep their secrets."
   },
   {
    "q": "Why are the Sentinels in Astranaar worried about the local furbolgs?",
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, Astranaar is the central bastion of their ancient homeland in central Kalimdor, safeguarding sacred groves and housing the grave of fallen hero Valstann Staghelm."
+   "text": "For the Kaldorei, Astranaar is the central bastion of their ancient homeland in central Kalimdor, safeguarding sacred groves against the forest's growing threats."
   },
   {
    "target": "faction:Alliance",
@@ -74,8 +74,7 @@
   "night elf",
   "raene wolfrunner",
   "sentinels",
-  "thistlefur",
-  "valstann staghelm"
+  "thistlefur"
  ],
  "related": [
   "zone:ashenvale",

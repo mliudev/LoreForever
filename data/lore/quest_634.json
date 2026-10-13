@@ -26,7 +26,7 @@
  "sections": [
   {
    "title": "A Cry Across the Chasm",
-   "body": "Following the devastation of Dun Modr and the sabotage of the Thandol Span by Dark Iron dwarves, the dwarven survivors hold a precarious foothold at the northern rim of the Wetlands. With Ironforge's main reserves yet to arrive, Rhag Garmason and Commander Longbraid look north toward the Arathi Highlands. Learning of an Alliance encampment established at Refuge Pointe, Garmason dispatches an emissary across the shattered bridge to appeal to Captain Nials for urgent military aid.",
+   "body": "Following the devastation of Dun Modr and the sabotage of the Thandol Span by Dark Iron dwarves, the dwarven survivors hold a precarious foothold at the northern rim of the Wetlands. With Ironforge's main reserves yet to arrive, Rhag Garmason and Longbraid the Grim look north toward the Arathi Highlands. Learning of an Alliance encampment established at Refuge Pointe, Garmason dispatches an emissary across the shattered bridge to appeal to Captain Nials for urgent military aid.",
    "spoiler": 0
   },
   {
@@ -43,7 +43,7 @@
     "rhag garmason quest",
     "who asks for help"
    ],
-   "answer": "Rhag Garmason, stationed near the ruined bridgehead of the Thandol Span on the Wetlands border, sends the plea on behalf of Commander Longbraid and the remnants of Dun Modr's defense."
+   "answer": "Rhag Garmason, stationed near the ruined bridgehead of the Thandol Span on the Wetlands border, sends the plea on behalf of Longbraid the Grim and the remnants of Dun Modr's defense."
   },
   {
    "q": "Why do the dwarves need help from Refuge Pointe?",
@@ -88,7 +88,7 @@
     "next quest after plea",
     "chain continuation"
    ],
-   "answer": "Captain Nials sends his regrets to Commander Longbraid, confirming that no human reinforcements are coming. The dwarven survivors at the bridge must rely on their own wits, wandering adventurers, and distant Ironforge reinforcements."
+   "answer": "Captain Nials sends his regrets to Longbraid the Grim, confirming that no human reinforcements are coming. The dwarven survivors at the bridge must rely on their own wits, wandering adventurers, and distant Ironforge reinforcements."
   }
  ],
  "angles": [

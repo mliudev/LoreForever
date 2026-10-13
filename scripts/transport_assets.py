@@ -110,6 +110,17 @@ def whole_replaces_overview(pack, manifest, fullclips):
     return out
 
 
+def complete_only(manifest):
+    """Clip keys a pack holds only as a complete story, with no overview recording: entries new to the narration
+    catalog since overviews stopped being recorded (LOR-424). register_full_stories.py lists each one in Clips.lua with
+    its complete story's own hash, so the row's hash is its fullHash: the add-on plays the whole recording while it's
+    current and shows the text once it's stale, and never looks for an overview (Voice.Refresh)."""
+    if manifest is None or 'sourcePack' in manifest:
+        return set()
+    return {key for key, entry in manifest['clips'].items()
+            if isinstance(entry, dict) and isinstance(entry.get('fullHash'), str) and entry.get('hash') == entry['fullHash']}
+
+
 def number(n, label, positive=False):
     if isinstance(n, bool) or not isinstance(n, (int, float)) or not math.isfinite(n) or n < 0 or (positive and n == 0):
         raise TransportError(f'invalid {label}: {n!r}')

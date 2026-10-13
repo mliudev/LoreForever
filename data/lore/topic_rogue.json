@@ -21,7 +21,7 @@
   },
   {
    "title": "Guilds, Crowns, and Syndicates",
-   "body": "While many rogues operate as lone wolves, highwaymen, or street-level thugs, the finest operatives belong to organized intelligence networks and assassin guilds. Stormwind relies on the clandestine operatives of SI:7, Ironforge harbors the covert Hidden Circle, and the Forsaken utilize the relentless Deathstalkers. In Orgrimmar, the shadowy remnants of the Shattered Hand serve the Warchief, while the elite, neutral League of Assassins answers to Lord Jorach Ravenholdt.",
+   "body": "While many rogues operate as lone wolves, highwaymen, or street-level thugs, the finest operatives belong to organized intelligence networks and assassin guilds. Stormwind relies on the clandestine operatives of SI:7, and the Forsaken utilize the relentless Deathstalkers. In Orgrimmar, the shadowy remnants of the Shattered Hand serve the Warchief, while the elite, neutral League of Assassins answers to Lord Jorach Ravenholdt.",
    "spoiler": 0
   }
  ],
@@ -96,7 +96,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance clandestine power runs through organizations like Stormwind's SI:7 and Ironforge's Hidden Circle, who handle internal subversion and foreign threats."
+   "text": "Alliance clandestine power runs through organizations like Stormwind's SI:7, which handles internal subversion and foreign threats."
   },
   {
    "target": "faction:Horde",

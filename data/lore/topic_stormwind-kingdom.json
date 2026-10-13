@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Legacy of Defiance",
-   "body": "Stormwind was established over a thousand years ago by descendants of the ancient Arathi empire who ventured south beyond the crags of Khaz Modan into fertile, forested valleys. For centuries, the northern kingdoms dismissed Stormwind as an isolated, rural hinterland, even ignoring desperate pleas for aid during the Gnoll War. Led by King Barathen Wrynn, the realm defeated the gnolls and later the Gurubashi trolls alone, forging a culture fiercely proud of its self-reliance and the Light.",
+   "body": "Stormwind was established over a thousand years ago by descendants of the ancient Arathi empire who ventured south beyond the crags of Khaz Modan into fertile, forested valleys. Far from the northern kingdoms, the realm grew into a culture fiercely proud of its self-reliance and the Light.",
    "spoiler": 0
   },
   {
@@ -21,7 +21,7 @@
   },
   {
    "title": "A Fractured Realm",
-   "body": "Beneath its soaring towers, Stormwind struggles to govern its vast southern holdings. While Elwynn Forest remains relatively secure, neighboring regions like Westfall are swarming with outlaws, Redridge faces constant orc and gnoll incursions, and the darkened woods of Duskwood have fallen out of the realm's control. A bitter dispute between the House of Nobles and the Stonemasons sparked the violent Defias riot that took the life of Queen Tiffin, scattering displaced workers into open rebellion across the provinces.",
+   "body": "Beneath its soaring towers, Stormwind struggles to govern its vast southern holdings. While Elwynn Forest remains relatively secure, neighboring regions like Westfall are swarming with outlaws, Redridge faces constant orc and gnoll incursions, and the darkened woods of Duskwood have fallen out of the realm's control. A bitter dispute between the House of Nobles and the Stonemasons sparked violent riots in the capital, scattering displaced workers into open rebellion across the provinces.",
    "spoiler": 1
   },
   {
@@ -78,7 +78,7 @@
     "stormwind lands",
     "what lands are stormwind"
    ],
-   "answer": "Historically, Stormwind rules the southern continent of Azeroth, encompassing Elwynn Forest, the Redridge Mountains, Westfall, and Duskwood (formerly Brightwood). It also previously maintained frontier posts reaching south into northern Stranglethorn Vale."
+   "answer": "Historically, Stormwind rules the southern continent of Azeroth, encompassing Elwynn Forest, the Redridge Mountains, Westfall, and Duskwood. It also previously maintained frontier posts reaching south into northern Stranglethorn Vale."
   },
   {
    "q": "Why did the Stonemasons turn against Stormwind?",
@@ -88,7 +88,7 @@
     "defias backstory",
     "why did builders rebel"
    ],
-   "answer": "After rebuilding Stormwind City into a masterpiece of white stone, the Stonemasons Guild presented their invoice. Influenced by noble politics, the House of Nobles refused full payment, while the stonemasons refused to compromise. The ensuing city riots turned deadly, killing Queen Tiffin Wrynn and driving the guild out to become the outlaw Defias Brotherhood."
+   "answer": "After rebuilding Stormwind City into a masterpiece of white stone, the Stonemasons Guild presented their invoice. Influenced by noble politics, the House of Nobles refused full payment, while the stonemasons refused to compromise. The ensuing city riots drove the guild out to become the outlaw Defias Brotherhood."
   }
  ],
  "angles": [

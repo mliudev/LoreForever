@@ -8,7 +8,7 @@
   "wiki": "Kaela Shadowspear",
   "refs": 8
  },
- "summary": "Kaela Shadowspear is a night elf sentinel stationed southwest of Windshear Crag in the Stonetalon Mountains. From her small outpost, she coordinates with fellow sentinels to monitor escalating tensions and regional disruptions in the wilderness. She relies on brave travelers to scout dangerous territory and bring aid to the land's wounded defenders.",
+ "summary": "Kaela Shadowspear is a night elf sentinel stationed southwest of Windshear Crag in the Stonetalon Mountains. From her small outpost, she coordinates with fellow sentinels to monitor escalating tensions and regional disruptions in the wilderness. She relies on brave travelers to scout dangerous territory and learn what has corrupted the land's ancient defenders.",
  "sections": [
   {
    "title": "A Scout on the Frontier",
@@ -17,7 +17,7 @@
   },
   {
    "title": "Healing the Land",
-   "body": "The unrest in Stonetalon goes far beyond territorial skirmishes. The violent disruption of nature has agitated the elementals and brought harm to ancient guardians of the forest. Kaela works tirelessly to dispatch adventurers against raging elemental spirits and to tend to the wounded ancients suffering in the crossfire of the region's conflicts, striving to restore peace before the land is irrevocably scarred.",
+   "body": "The unrest in Stonetalon goes far beyond territorial skirmishes. The violent disruption of nature has agitated the elementals and brought harm to ancient guardians of the forest. Kaela works tirelessly to dispatch adventurers against raging elemental spirits and to learn what has corrupted the wounded ancients, the treants who once guarded the Vale, striving to restore peace before the land is irrevocably scarred.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "why are spirits angry",
     "kaela elemental spirits"
    ],
-   "answer": "Intense logging, mining, and military encroachment in Stonetalon have deeply disturbed the natural balance, causing elemental spirits to fly into a rage and attack anyone nearby."
+   "answer": "When the Venture Co. set the Charred Vale aflame and tore at it with their machines, they released burning spirits, elementals of flame, stone and rage, that now roam the Vale. Kaela wants their numbers reduced so the land can recover."
   },
   {
    "q": "What is happening to the ancients near Windshear Crag?",
@@ -65,7 +65,7 @@
     "kaela ancients",
     "stonetalon wounded ancients"
    ],
-   "answer": "The regional conflicts and rapid deforestation have left ancient protectors wounded and suffering. Kaela seeks the aid of travelers to find and heal these fallen protectors of the wild."
+   "answer": "The treants who protect the Charred Vale helped drive back the Venture Co., but they have since become corrupt. Gaxim suspects the goblins' weapons are to blame, so Kaela asks travelers to bring back a piece of corroded shrapnel from a wounded treant for him to study."
   },
   {
    "q": "Why is a gnome stationed with Kaela?",
@@ -88,7 +88,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "Druids will find common cause with Kaela's efforts to nurse injured ancients back to health and silence the agony of disturbed nature spirits."
+   "text": "Druids will find common cause with Kaela's efforts to uncover what corrupted the Vale's ancients and silence the agony of disturbed nature spirits."
   }
  ],
  "keywords": [
