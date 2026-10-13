@@ -15,6 +15,7 @@ import { RECORD_ONLY } from "./donate.js";
 import { HISTORY_SETUP, HISTORY_BASE_SETUP } from "./history-schema.js";
 import { USAGE_SETUP } from "./usage.js";
 import { ACTIVITY_SETUP, SEEN_BACKFILL, markSeen, utcDay } from "./activity.js";
+import { forgetFeedback } from "./answer-feedback.js";
 
 const SETUP = [
   ...HISTORY_BASE_SETUP,
@@ -356,6 +357,8 @@ export async function deleteUser(env, user) {
   try { await forgetContributor(env, user.id); } catch (e) { /* no shared text yet */ }
   // The story recordings' rows (lib/storyvoice.js makes that table the first time it runs).
   try { await env.DB.prepare("DELETE FROM story_audio WHERE user_id = ?").bind(user.id).run(); } catch (e) { /* none yet */ }
+  // What they said was wrong with Willo's answers (lib/answer-feedback.js makes that table the first time it's used).
+  try { await forgetFeedback(env, user.id); } catch (e) { /* none yet */ }
   await env.DB.batch(USER_DATA.map(([sql, arg]) => env.DB.prepare(sql).bind(arg(user))));
   // Cached credits (lib/cache.js) may still name them: the next view builds them again.
   await env.DB.prepare("DELETE FROM cached_results").run();

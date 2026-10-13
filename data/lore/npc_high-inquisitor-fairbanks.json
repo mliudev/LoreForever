@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "Advisor to the Ashbringer",
-   "body": "Before the fall of Lordaeron, Fairbanks was a respected holy man among the Knights of the Silver Hand. When Highlord Alexandros Mograine convened a fateful gathering at the Southshore inn, Fairbanks stood beside him, helping channel holy power into the enigmatic crystal that would eventually become the heart of the legendary Ashbringer. When Prince Arthas dissolved the paladin order, Fairbanks accompanied Mograine to Ironforge, standing witness as King Magni Bronzebeard forged the great blade to combat the Scourge.",
+   "body": "Before the fall of Lordaeron, Fairbanks was a respected holy man among the Knights of the Silver Hand and the most trusted advisor of Highlord Alexandros Mograine, the bearer of the legendary Ashbringer. He stood beside the Highlord when Mograine, High General Abbendis and Grand Inquisitor Isillien founded the Scarlet Crusade, at first a noble order sworn to destroy the Scourge.",
    "spoiler": 0
   },
   {
    "title": "Betrayal at Stratholme",
-   "body": "Fairbanks accompanied Alexandros Mograine when the Highlord's eldest son, Renault, led them into a terrible Scourge ambush outside Stratholme. Fairbanks fell early under the press of undead claws, buried beneath piles of rotting corpses. From this horrific vantage, he silently witnessed Renault seize the fallen Ashbringer and plunge it into his own father's heart, corrupting the holy blade with patricide. Surviving the slaughter, Fairbanks clawed his way out from under the dead and fled back to Hearthglen to expose Renault's treachery.",
+   "body": "Fairbanks accompanied Alexandros Mograine when the Highlord's eldest son, Renault, led them into a terrible Scourge ambush outside Stratholme. Fairbanks fell early under the press of undead claws, buried beneath piles of rotting corpses. From this horrific vantage, he silently witnessed Renault seize the fallen Ashbringer and plunge it into his own father's heart, corrupting the holy blade with patricide. Surviving the slaughter, Fairbanks clawed his way out from under the dead and returned to the Scarlet Monastery to expose Renault's treachery.",
    "spoiler": 1
   },
   {
@@ -53,7 +53,7 @@
     "who is high inquisitor fairbanks",
     "fairbanks lore"
    ],
-   "answer": "Fairbanks was a devout priest of the Knights of the Silver Hand and the chief counselor to Highlord Alexandros Mograine. He helped purify the crystal that formed the Ashbringer and stood as one of the original spiritual leaders of Lordaeron's surviving defenders."
+   "answer": "Fairbanks was a devout priest of the Knights of the Silver Hand and the chief counselor to Highlord Alexandros Mograine, the Ashbringer. He stood as one of the original spiritual leaders of Lordaeron's surviving defenders."
   },
   {
    "q": "What caused the split between the Scarlet Crusade and the Argent Dawn?",
@@ -80,7 +80,7 @@
     "fairbanks replacement",
     "who succeeded fairbanks"
    ],
-   "answer": "Following Fairbanks's execution and secret imprisonment, Sally Whitemane ascended to the role of High Inquisitor, presiding over the Scarlet Monastery's inquisitorial interrogations alongside Commander Renault Mograine."
+   "answer": "Following Fairbanks's execution and secret imprisonment, Whitemane ascended to the role of High Inquisitor, presiding over the Scarlet Monastery's inquisitorial interrogations alongside Commander Renault Mograine."
   }
  ],
  "angles": [
@@ -90,7 +90,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "Before his fall, Fairbanks channeled the Holy Light alongside Mograine to cleanse the dark orb that became the Ashbringer."
+   "text": "Before his fall, Fairbanks was a priest of the Light and the closest counselor of Highlord Mograine, the Ashbringer."
   },
   {
    "target": "race:Undead",
@@ -105,7 +105,6 @@
   "ashbringer",
   "cathedral",
   "fairbanks",
-  "hearthglen",
   "inquisitor",
   "mograine",
   "renault",
@@ -120,7 +119,6 @@
   "topic:knights-of-the-silver-hand",
   "topic:argent-dawn",
   "subzone:stratholme",
-  "npc:magni-bronzebeard",
   "npc:tirion-fordring"
  ],
  "attribution": [

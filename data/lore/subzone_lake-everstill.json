@@ -16,7 +16,7 @@
   },
   {
    "title": "Trouble in the Depths",
-   "body": "In recent times, hostile murlocs have established camps along the northern and eastern shallows, disrupting trade and harrying fishermen. Below the surface, aquatic hazards lurk as well, including dangerous threshers that patrol the deeper waters. Adding to the town's grievances, an errant mage accidentally tore open an unfiltered portal beneath the lake just a year ago in 24 ADP, momentarily draining water into Ironforge and sparking both the Great Lakeshire Drought and the Great Ironforge Flood.",
+   "body": "In recent times, hostile murlocs have established camps along the northern and eastern shallows, disrupting trade and harrying fishermen. Below the surface, aquatic hazards lurk as well, including dangerous threshers that patrol the deeper waters.",
    "spoiler": 0
   }
  ],
@@ -29,15 +29,6 @@
     "redridge lake mobs"
    ],
    "answer": "The shallows are crawling with hostile murloc tribes, including scouts, tidecallers, and flesheaters. Swimming deeper poses its own hazards, as giant threshers and aggressive muckdwellers patrol beneath the surface."
-  },
-  {
-   "q": "What was the Great Lakeshire Drought?",
-   "aliases": [
-    "lake everstill portal",
-    "ironforge flood",
-    "lake drained"
-   ],
-   "answer": "In 24 ADP, a reckless mage opened an unfiltered portal between the lakebed and the mountain city of Ironforge. A massive deluge surged into the dwarven capital, nearly draining Lake Everstill dry in what locals recall as the Great Lakeshire Drought."
   },
   {
    "q": "Where does the water from Lake Everstill flow?",
@@ -59,7 +50,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The lake serves as a cautionary tale in arcane academy texts on portal hygiene, following the disaster in 24 ADP where an unfiltered underwater gateway simultaneously flooded Ironforge and desiccated Lakeshire."
+   "text": "Mages passing through Lakeshire will find the lake's troubles mundane rather than arcane: murloc camps choke the shallows while threshers patrol the deeper waters."
   },
   {
    "target": "faction:Alliance",
@@ -68,7 +59,6 @@
  ],
  "keywords": [
   "everstill bridge",
-  "ironforge flood",
   "lake everstill",
   "lakeshire",
   "murlocs",
@@ -78,8 +68,7 @@
   "subzone:lakeshire",
   "zone:redridge",
   "topic:murloc",
-  "subzone:stonewatch",
-  "zone:ironforge"
+  "subzone:stonewatch"
  ],
  "attribution": [
   "Lake Everstill"

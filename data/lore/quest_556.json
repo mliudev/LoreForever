@@ -24,7 +24,7 @@
  "sections": [
   {
    "title": "Arcane Subjugation",
-   "body": "The magi of Dalaran have long possessed a formidable command over elemental entities, using specialized conduits and enchanted foci to bind creatures from other dimensions into servitude. While the city itself lies shrouded under a massive violet dome, its agents and remnant forces patrol the surrounding territory, relying on elementals as laborers and defensive shock troops. Magus Voidglare, an arcane researcher working on behalf of the Forsaken in Tarren Mill, seeks to dissect the precise sorcery Dalaran uses to compel these entities into obedience.",
+   "body": "The magi of Dalaran have long possessed a formidable command over elemental entities, using specialized conduits and enchanted foci to bind creatures from other dimensions into servitude. While the city itself is still rebuilding, its agents and remnant forces patrol the surrounding territory, relying on elementals as laborers and defensive shock troops. Magus Voidglare, an arcane researcher working on behalf of the Forsaken in Tarren Mill, seeks to dissect the precise sorcery Dalaran uses to compel these entities into obedience.",
    "spoiler": 0
   },
   {
@@ -57,7 +57,7 @@
     "belvaril",
     "who gives stone tokens quest"
    ],
-   "answer": "Keeper Bel'varil is a Forsaken questgiver stationed at Tarren Mill in the Hillsbrad Foothills. He oversees tactical operations against human forces in the region and assists researchers like Magus Voidglare by procuring magical artifacts and hostile reagents from nearby territories."
+   "answer": "Keeper Bel'varil is a Forsaken questgiver stationed at Tarren Mill in the Hillsbrad Foothills. He assists the researcher Magus Voidglare by procuring magical artifacts and reagents from nearby territories."
   },
   {
    "q": "Where are the Dalaran forces holding these tokens?",
@@ -65,7 +65,7 @@
     "where to find stone tokens",
     "dalaran forces location"
    ],
-   "answer": "The tokens are carried by Dalaran wizards and their personnel occupying the frontier borders between western Hillsbrad and the Alterac Mountains, particularly near the Dalaran bubble and the nearby ruins of the old orc internment camp."
+   "answer": "The tokens are carried by Dalaran wizards and their personnel occupying the frontier borders between western Hillsbrad and the Alterac Mountains, particularly near Dalaran itself and the nearby ruins of the old orc internment camp."
   },
   {
    "q": "What happens after these tokens are delivered?",
@@ -91,7 +91,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken of Tarren Mill, unraveling Dalaran's arcane secrets is vital to securing Lordaeron from human sorcerers lurking just beyond the violet dome."
+   "text": "For the Forsaken of Tarren Mill, unraveling Dalaran's arcane secrets is vital to securing Lordaeron from human sorcerers lurking just beyond the walls of Dalaran."
   },
   {
    "target": "class:Shaman",

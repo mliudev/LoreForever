@@ -16,11 +16,6 @@
    "spoiler": 0
   },
   {
-   "title": "Echoes of the Third War",
-   "body": "Before secluding himself in Azshara, Archmage Xylem took part in the Third War alongside the human expeditionary forces in Kalimdor. During the campaigns in the Stonetalon Mountains, his fortified encampment came under brutal assault by the Warsong clan, commanded by Grommash Hellscream. Though his defense was shattered in the fighting, Xylem survived the war, ultimately turning his back on large-scale military conflicts to pursue private arcane mastery in the wild reaches of the continent.",
-   "spoiler": 0
-  },
-  {
    "title": "A Grudge Against Morphaz",
    "body": "Xylem's seclusion is not entirely peaceful; he harbors an intense grudge against the green dragonflight, specifically a drake named Morphaz. In the past, the beast devoured one of Xylem's unfortunate apprentices whole\u2014swallowing an arcane shard of immense power along with the student. Rather than mourning the apprentice, the vengeful archmage remains fixated on hunting down Morphaz to extract the prized artifact from the dragon's belly.",
    "spoiler": 1
@@ -44,16 +39,7 @@
     "archmage xylem lore",
     "xylem background"
    ],
-   "answer": "He is an eccentric human archmage who fought during the Third War in Stonetalon Mountains. Following the conflict, he withdrew to an isolated clifftop tower in northern Azshara to conduct dangerous arcane experiments away from civilization."
-  },
-  {
-   "q": "What happened to Xylem in the Third War?",
-   "aliases": [
-    "xylem third war",
-    "xylem stonetalon",
-    "xylem wc3"
-   ],
-   "answer": "During the Third War, Xylem commanded a human base in the Stonetalon Mountains. His outpost was assaulted and overrun by Grommash Hellscream and the blood-hazed Warsong clan, though the archmage survived the encounter."
+   "answer": "He is an eccentric human archmage who lives in an isolated clifftop tower in northern Azshara, conducting dangerous arcane experiments away from civilization."
   },
   {
    "q": "Why does Xylem want the dragon Morphaz dead?",
@@ -80,7 +66,7 @@
     "is xylem alliance",
     "xylem kirin tor"
    ],
-   "answer": "While originally part of the human expedition in the Third War, Xylem now operates as a thoroughly independent hermit. He does not actively serve the Alliance military and will readily deal with any adventurer willing to do his bidding, regardless of faction."
+   "answer": "Xylem operates as a thoroughly independent hermit. He does not actively serve the Alliance military and will readily deal with any adventurer willing to do his bidding, regardless of faction."
   }
  ],
  "angles": [
@@ -90,7 +76,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Horde veterans may recall clashing with Xylem's defenses in Stonetalon alongside Grommash Hellscream, yet the reclusive wizard is surprisingly willing to parley with Horde champions today."
+   "text": "Though human, the reclusive wizard is surprisingly willing to parley with Horde champions who can help with his studies."
   },
   {
    "target": "race:Human",
@@ -103,16 +89,11 @@
   "azshara",
   "morphaz",
   "sanath lim-yo",
-  "stonetalon",
   "tower",
   "xylem"
  ],
  "related": [
-  "zone:azshara",
-  "zone:stonetalon",
-  "topic:third-war",
-  "topic:warsong-clan",
-  "topic:grommash-hellscream"
+  "zone:azshara"
  ],
  "attribution": [
   "Archmage Xylem"

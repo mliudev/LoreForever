@@ -16,7 +16,7 @@
   },
   {
    "title": "Coastal Tribulations",
-   "body": "Maintaining a frontier port in Desolace is fraught with danger. Beyond the inland threat of marauding centaur, the ocean itself tests the village's survival. Local waters are haunted by ravenous sea life\u2014notably the monstrous orca Blubbergut, who gorges on the fish stocks\u2014and encroachment from violent lobstrok along the southern banks. Tauren allies, including Taiga Wisemane and the keepers of the inn and wind rider roost, help shore up defenses and keep trade routes open across Kalimdor.",
+   "body": "Maintaining a frontier port in Desolace is fraught with danger. Beyond the inland threat of marauding centaur and the demon-summoning Burning Blade, the ocean itself tests the village's survival with rough shoals and hungry sea life. Tauren allies, including Taiga Wisemane and the keepers of the inn and wind rider roost, help shore up defenses and keep trade routes open across Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -34,10 +34,9 @@
    "q": "Who leads Shadowprey Village?",
    "aliases": [
     "shadowprey leader",
-    "who is in charge of shadowprey",
-    "mai'lahii"
+    "who is in charge of shadowprey"
    ],
-   "answer": "The settlement does not have an official single chieftain. The village operates as a loose community of troll fishermen, with elders like Mai'Lahii handling communication with visitors such as the Cenarion Circle, while tauren residents like Taiga Wisemane oversee coastal security and local defense."
+   "answer": "The settlement has no recorded single chieftain. The village operates as a loose community of troll fishermen, while tauren residents like Taiga Wisemane help guard it against the Burning Blade cultists stirring in Desolace."
   },
   {
    "q": "Why are there tauren running the services in a troll village?",
@@ -52,10 +51,9 @@
    "q": "What threats are troubling the fishermen?",
    "aliases": [
     "shadowprey problems",
-    "blubbergut",
     "shadowprey threats"
    ],
-   "answer": "Aside from hostile inland centaur, the village contends with a shortage of fish caused by a massive orca named Blubbergut devouring the coastal shoals, alongside encroaching lobstrok swarming the southern tidal flats."
+   "answer": "Aside from hostile inland centaur, the village must reckon with the Burning Blade, whose demon-summoning cultists hold Thunder Axe Fortress, as well as the rough waters and dangerous sea life of the coast."
   }
  ],
  "angles": [
@@ -69,9 +67,7 @@
   }
  ],
  "keywords": [
-  "blubbergut",
   "desolace",
-  "mai'lahii",
   "sar'theris strand",
   "shadowprey",
   "shadowprey village",

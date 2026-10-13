@@ -8,11 +8,11 @@
   "wiki": "Quinn Yorick",
   "refs": 1
  },
- "summary": "Quinn Yorick is a wounded Forsaken scout sheltering on the upper floor of a ruined farmhouse in the Ivar Patch. Having barely survived an encounter with the feral worgen known as Ivar the Foul, he now relies on passing allies to help secure his survival.",
+ "summary": "Quinn Yorick is a wounded Forsaken scout sheltering on the upper floor of a ruined farmhouse in the Ivar Patch. Having barely survived an encounter with the ghoul known as Ivar the Foul, he now relies on passing allies to help secure his survival.",
  "sections": [
   {
    "title": "A Precarious Refuge",
-   "body": "Tucked away inside an abandoned home at the Ivar Patch, Quinn Yorick lies gravely injured upstairs. His condition is the result of a vicious clash with Ivar the Foul, one of the savage worgen haunting the northern stretches of Silverpine Forest. Unable to finish his mission or safely retreat alone, Quinn remains in hiding, waiting for travelers working for the Forsaken to aid his plight and deliver retribution to the beast that nearly tore him apart.",
+   "body": "Tucked away inside an abandoned home at the Ivar Patch, Quinn Yorick lies gravely injured upstairs. His condition is the result of a vicious clash with Ivar the Foul, a ghoul lurking in the farm's barn in the northern stretches of Silverpine Forest. Sent with his sister Rane to scout Silverpine and report to High Executor Hadrec, Quinn cannot finish his mission or safely retreat alone, so he remains in hiding while travelers working for the Forsaken bring him healing and deal with the creature that nearly tore him apart.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "what happened to quinn yorick",
     "quinn injured"
    ],
-   "answer": "He was severely wounded by Ivar the Foul, a powerful and vicious worgen prowling the nearby farmland."
+   "answer": "He was severely wounded by Ivar the Foul, a vicious ghoul who lurks in the barn of the farm."
   },
   {
    "q": "What role does Quinn serve for Horde adventurers?",
@@ -41,22 +41,22 @@
     "quinn yorick quest",
     "quinn quest giver"
    ],
-   "answer": "Quinn serves as the turn-in point for Forsaken scouts and allies sent to assist him in the field, seeking vengeance against Ivar the Foul."
+   "answer": "Quinn's sister, the Deathstalker Rane Yorick, sends adventurers to bring him a healing potion. Once he has taken it, she asks them to kill Ivar the Foul so that Quinn has time to recover."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Quinn's predicament highlights the ever-present danger the feral worgen pose to Forsaken forces attempting to secure northern Silverpine."
+   "text": "Quinn's predicament highlights the ever-present danger the region's ghouls and beasts pose to Forsaken forces attempting to secure northern Silverpine."
   }
  ],
  "keywords": [
   "forsaken scout",
+  "ghoul",
   "ivar patch",
   "ivar the foul",
   "quinn yorick",
-  "silverpine forest",
-  "worgen"
+  "silverpine forest"
  ],
  "related": [
   "subzone:ivar-patch",

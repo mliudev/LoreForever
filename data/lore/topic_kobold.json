@@ -16,7 +16,7 @@
   },
   {
    "title": "You No Take Candle!",
-   "body": "To a kobold, a candle is far more than a light source; it is an existential shield. They harbor a deep, primal terror of the pitch-black tunnels, believing that the unlit darkness will actively consume them. Their leaders are frequently chosen by the length of the candle they bear, and their craftsmen harvest earwax and rendered fat to keep their wicks lit. Kobold folklore even treats the sun as the ultimate myth: the 'Wickless Candle,' a great eternal flame suspended from a vast blue cavern ceiling.",
+   "body": "To a kobold, a candle is far more than a light source; it is an existential shield. They harbor a deep, primal terror of the pitch-black tunnels, believing that the unlit darkness will actively consume them.",
    "spoiler": 0
   },
   {
@@ -42,7 +42,7 @@
     "where do kobolds come from",
     "kobold evolution"
    ],
-   "answer": "According to the dwarven explorer Brann Bronzebeard, kobolds originally evolved from troggs. Over generations of subterranean adaptation, they became smaller, rodent-like, and adapted to burrowing through narrow crawlspaces."
+   "answer": "Their true origins are unknown. Kobolds have dwelt in the tunnels and caverns beneath Azeroth for as long as anyone remembers, wherever there is earth to dig."
   },
   {
    "q": "Are kobolds allied with the Defias Brotherhood?",
@@ -60,7 +60,7 @@
     "kobold boss",
     "how do kobolds pick chiefs"
    ],
-   "answer": "Outside of distant isolated tribes, kobolds generally determine their leadership through candle size. The digger bearing the tallest, longest-burning candle on their head is recognized by the clan as the chief."
+   "answer": "Kobolds have no single ruler. Each clan answers to its own bosses, such as the taskmasters who drive the diggers to work in the mines they claim."
   },
   {
    "q": "Are kobolds found in Kalimdor as well as the Eastern Kingdoms?",
@@ -77,7 +77,7 @@
     "kobold diet",
     "what do kobolds eat"
    ],
-   "answer": "Kobolds survive on whatever subterranean vermin they can scavenge. They actively hunt and farm rats, harvest cave grubs, and gather glowing cavern fungi, sometimes pressing mushrooms into crude cakes eaten with syrup."
+   "answer": "Little is recorded about kobold diets. They are filthy scavengers who live off whatever they can find in and around their tunnels."
   }
  ],
  "angles": [
@@ -116,7 +116,6 @@
   "subzone:silver-stream-mine",
   "topic:defias-brotherhood",
   "topic:trogg",
-  "npc:brann-bronzebeard",
   "quest:21"
  ],
  "attribution": [

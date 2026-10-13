@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Itharius's Cave"
  },
- "summary": "Itharius's Cave is a secluded hollow tucked into the far southwestern cliffs of the Swamp of Sorrows. It serves as the refuge of the enigmatic high elf Itharius, who tends to the brood of green dragonkin inhabiting the surrounding marsh.",
+ "summary": "Itharius's Cave is a secluded hollow tucked into the far southwestern cliffs of the Swamp of Sorrows. It serves as the refuge of the enigmatic Itharius, who appears to be a high elf and tends to the brood of green dragonkin inhabiting the surrounding marsh.",
  "sections": [
   {
    "title": "A Hermit Among Whelps",
-   "body": "Tucked away in the treacherous, moss-draped crags of the southwestern Swamp of Sorrows, this damp cavern shelters the recluse Itharius. Outside its mouth, unruly green whelps wander the mire. Though high elves rarely wander so far south into wild swamps alone, Itharius keeps a watchful eye on these young dragonkin as they grow, living alongside them in quiet isolation.",
+   "body": "Tucked away in the treacherous, moss-draped crags of the southwestern Swamp of Sorrows, this damp cavern shelters the recluse Itharius. Outside its mouth, unruly green whelps wander the mire. Though he appears to be a high elf, a folk who rarely wander so far south into wild swamps alone, Itharius keeps a watchful eye on these young dragonkin as they grow, living alongside them in quiet isolation.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "cave owner",
     "who lives here"
    ],
-   "answer": "The cave is home to Itharius, a mysterious high elf hermit who dwells apart from civilization and watches over the local dragonkin."
+   "answer": "The cave is home to Itharius, a mysterious hermit who appears to be a high elf. He dwells apart from civilization and watches over the local dragonkin."
   },
   {
    "q": "Where is Itharius's Cave located?",
@@ -49,7 +49,7 @@
     "high elf in swamp",
     "why is itharius here"
    ],
-   "answer": "High elves are rarely seen in these southern bogs, but Itharius remains here specifically to safeguard the green dragonkin of the swamp, keeping to himself in his remote den."
+   "answer": "Itharius appears to be a high elf, a folk rarely seen in these southern bogs, yet he remains here specifically to safeguard the green dragonkin of the swamp, keeping to himself in his remote den."
   }
  ],
  "angles": [

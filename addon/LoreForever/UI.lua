@@ -820,7 +820,10 @@ function UI.Create(engine)
   send:SetScript("OnClick", function() eb:GetScript("OnEnterPressed")(eb) end)
   UI.CreateCompletion(f, eb)
 
-  f:SetScript("OnShow", function() ns.Voice.StopPreview(); UI.Refresh(); ns.Log.Use("panel") end)   -- a voice sample from Options ends
+  f:SetScript("OnShow", function()   -- a voice sample from Options ends; live game info shows while the panel is open
+    ns.Voice.StopPreview(); UI.Refresh(); ns.Log.Use("panel")
+    if ns.Strip then ns.Strip.Update() end
+  end)
   -- The floating player stands in for the docked one while the panel is closed.
   -- Closing the panel closes its Journey and History pages too, so it opens on the chat next time.
   f:HookScript("OnHide", function()
@@ -829,6 +832,7 @@ function UI.Create(engine)
     if UI.historyFrame then UI.historyFrame:Hide() end
     UI.SyncPageButtons()
     UI.UpdateNowPlaying()
+    if ns.Strip then ns.Strip.Update() end
   end)
   UI.mini = UI.CreatePlayer(UIParent, true)
   UI.ShowTab("here")
@@ -1397,7 +1401,8 @@ local function startTarget(target, fromPlaylist, keepProgress)
     if clip.text then
       local copy = {}
       for k, v in pairs(target) do copy[k] = v end
-      copy.text, target = clip.text, copy
+      -- A community recording's own words, and the name or question it was recorded with (Voice.ScopedClip).
+      copy.text, copy.label, target = clip.text, clip.title or copy.label, copy
       UI.activeTarget, UI.resumeTarget = target, target
     end
   end

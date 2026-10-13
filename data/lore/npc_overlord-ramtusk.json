@@ -8,16 +8,16 @@
   "wiki": "Overlord Ramtusk",
   "refs": 5
  },
- "summary": "Overlord Ramtusk is the grizzled commander of the Death's Head tribe's military forces deep within Razorfen Kraul. A massive, aging quilboar warrior, his hide is heavily scarred from decades of brutal clashes across the Barrens. Striking him down shatters the martial backbone of the Kraul's defenders.",
+ "summary": "Overlord Ramtusk is a massive quilboar warlord who leads the warriors deep within Razorfen Kraul. Crying out for victory and for Agamaggan, he fights at the head of his elite guards, and striking him down shatters the martial backbone of the Kraul's defenders.",
  "sections": [
   {
-   "title": "Veteran of the Barrens",
-   "body": "Overlord Ramtusk has survived decades in one of Kalimdor's most violent frontiers. His thick, leathery hide is crisscrossed with deep scars earned in skirmishes against centaur raiding parties, feral harpies, encroaching orcs, and stalwart tauren braves. While advanced age slows many warriors, Ramtusk's seasoned instincts and physical resilience have only hardened, allowing him to rule Razorfen Kraul's standing garrison with unyielding authority.",
+   "title": "Warlord of the Kraul",
+   "body": "Overlord Ramtusk holds command deep within the thorny maze of Razorfen Kraul, the quilboar stronghold in the southern Barrens. He goes into battle with a war cry to the boar demigod Agamaggan, and he rules the Kraul's fighters with unyielding authority.",
    "spoiler": 0
   },
   {
-   "title": "Commander of the Death's Head",
-   "body": "Within the winding brambles of the Kraul, Ramtusk directs the military forces of the Death's Head quilboar. As their warlord, he maintains tight discipline among the bristled fighters defending the tribe's sanctum. Flanked by elite marksmen, Ramtusk fights like a frontline berserker, bellowing rallying shouts and unleashing earth-shattering slams that can break opposing battle lines in seconds.",
+   "title": "Commander of the Kraul",
+   "body": "Within the winding brambles of the Kraul, Ramtusk directs the quilboar warriors. As their warlord, he maintains tight discipline among the bristled fighters defending the tribe's sanctum. Flanked by elite marksmen, Ramtusk fights like a frontline berserker, bellowing rallying shouts and unleashing earth-shattering slams that can break opposing battle lines in seconds.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "ramtusk lore",
     "overlord ramtusk"
    ],
-   "answer": "Overlord Ramtusk is the supreme military commander of the Death's Head quilboar in Razorfen Kraul. He is an imposing, heavily scarred veteran who has fought every major power in the Barrens."
+   "answer": "Overlord Ramtusk is a quilboar warlord who commands warriors deep within Razorfen Kraul. He is a massive, imposing fighter who goes into battle crying out for victory and for Agamaggan."
   },
   {
    "q": "Where can Overlord Ramtusk be found?",
@@ -47,7 +47,7 @@
     "who gave ramtusk scars",
     "ramtusk battle history"
    ],
-   "answer": "His scarred hide tells the tale of countless clashes across the Barrens against centaur packs, territorial harpies, newly arrived orcs, and native tauren defenders."
+   "answer": "Nothing records his past battles. In the Kraul he fights at the head of his elite guards, crying out for victory and for Agamaggan against any outsider who breaches the briars."
   },
   {
    "q": "What tribe does Ramtusk belong to?",
@@ -56,7 +56,7 @@
     "ramtusk tribe",
     "what quilboar tribe is ramtusk"
    ],
-   "answer": "He is the high military leader of the Death's Head tribe, the dominant quilboar faction entrenched within Razorfen Kraul."
+   "answer": "He is one of the Razorfen quilboar who hold the thorny stronghold of Razorfen Kraul in the southern Barrens and revere the boar demigod Agamaggan."
   },
   {
    "q": "Why is Ramtusk targeted by adventurers?",
@@ -65,7 +65,7 @@
     "take them down quest",
     "ramtusk bounty"
    ],
-   "answer": "As the supreme commander of the Death's Head forces, Ramtusk's death deals a crippling blow to the quilboar military hierarchy, throwing their defensive line into complete disarray."
+   "answer": "As the warlord leading the Kraul's warriors, Ramtusk's death deals a crippling blow to the quilboar military hierarchy, throwing their defensive line into complete disarray."
   },
   {
    "q": "How does Ramtusk fight?",
@@ -80,11 +80,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For generations, the nomadic tribes of the Barrens fought bitter skirmishes against Ramtusk and his marauders; putting him down avenges fallen braves."
+   "text": "For generations, the nomadic tribes of the Barrens fought bitter skirmishes against the quilboar of the Kraul; putting him down avenges fallen braves."
   },
   {
    "target": "race:Orc",
-   "text": "The quilboar have actively raided Horde settlements since the founding of Durotar and the Barrens outposts. Breaking Ramtusk's military command secures the Southern Barrens."
+   "text": "The quilboar have actively raided Horde settlements since the founding of Durotar and the Barrens outposts. Breaking Ramtusk's military command secures the southern Barrens."
   },
   {
    "target": "class:Warrior",

@@ -16,6 +16,11 @@
   <Script file="clips014.lua"/>
   <Script file="clips015.lua"/>
   <Script file="clips016.lua"/>
+  <Script file="clips017.lua"/>
+  <Script file="clips018.lua"/>
+  <Script file="clips019.lua"/>
+  <Script file="clips020.lua"/>
+  <Script file="clips021.lua"/>
   <Script file="durations001.lua"/>
   <Script file="durations002.lua"/>
   <Script file="durations003.lua"/>
@@ -32,4 +37,9 @@
   <Script file="durations014.lua"/>
   <Script file="durations015.lua"/>
   <Script file="durations016.lua"/>
+  <Script file="durations017.lua"/>
+  <Script file="durations018.lua"/>
+  <Script file="durations019.lua"/>
+  <Script file="durations020.lua"/>
+  <Script file="durations021.lua"/>
 </Ui>

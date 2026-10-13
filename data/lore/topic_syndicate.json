@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Syndicate"
  },
- "summary": "The Syndicate is a widespread human criminal organization founded and led by dispossessed nobles of the fallen kingdom of Alterac. Operating out of fortified strongholds across the Alterac Mountains, Hillsbrad Foothills, and the ruins of Stromgarde Keep, they wage an uncompromising war against both the Alliance and the Horde to restore their lost aristocracy. Behind their banditry and schemes of conquest, however, lurk shadowy demonic cultists who pull their strings.",
+ "summary": "The Syndicate is a widespread human criminal organization founded and led by dispossessed nobles of the fallen kingdom of Alterac. Operating out of fortified strongholds across the Alterac Mountains, Hillsbrad Foothills, and the ruins of Stromgarde Keep, they wage an uncompromising war against both the Alliance and the Horde to restore their lost aristocracy.",
  "sections": [
   {
    "title": "Fallen Nobility",
@@ -74,7 +74,7 @@
     "argus wake syndicate",
     "shadow council syndicate"
    ],
-   "answer": "While the nobles think they are fighting for their lost titles, the organization is secretly manipulated by a warlock sect called the Argus Wake. Led by figures like Nagaz and Marez Cowl, the Argus Wake serves the Shadow Council in Jaedenar, using the Syndicate's territorial gains to prepare the region for the Burning Legion."
+   "answer": "Publicly, the Syndicate answers to exiled Alteraci nobles such as Prince Aliden Perenolde and Lord Falconcrest, who believe they are fighting to win back their lost titles. Whispers in the Arathi Highlands hint at darker hands behind their occupation of Stromgarde, a mystery travelers can unravel by investigating the Syndicate's strongholds there."
   },
   {
    "q": "Where are the Syndicate's primary strongholds?",

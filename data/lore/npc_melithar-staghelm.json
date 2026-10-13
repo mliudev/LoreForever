@@ -8,11 +8,11 @@
   "wiki": "Melithar Staghelm",
   "refs": 1
  },
- "summary": "Melithar Staghelm is a night elf stationed just outside Aldrassil in Shadowglen, Teldrassil's starting glade. He assists young night elf adventurers as they embark on their early training, sending them to nearby instructors and addressing minor local disturbances. While he shares the prominent Staghelm surname with Archdruid Fandral Staghelm, his exact connection to the ruling druid remains unconfirmed.",
+ "summary": "Melithar Staghelm is a night elf stationed just outside Aldrassil in Shadowglen, Teldrassil's starting glade. He assists young night elf adventurers as they embark on their early training, sending them to learn what has brought the dryad Tarindrella back to the glade. While he shares the prominent Staghelm surname with Archdruid Fandral Staghelm, his exact connection to the ruling druid remains unconfirmed.",
  "sections": [
   {
    "title": "A Guide at Aldrassil",
-   "body": "Standing directly outside the entrance to the great bough of Aldrassil, Melithar serves as an early point of contact for night elves emerging into the world. He directs newly awakened youth bearing various sigils to their respective class trainers, ensuring they receive proper tutelage in the martial and mystical arts. Beyond administrative guidance, Melithar watches over the immediate grounds of Shadowglen, enlisting help to deal with mischievous local wildlife and minor impish intrusions that threaten the sanctuary's peace.",
+   "body": "Standing directly outside the entrance to the great bough of Aldrassil, Melithar serves as an early point of contact for night elves emerging into the world. A druid who listens to the whisperings of the forest spirits, he has learned that the mysterious woodland protector Tarindrella has returned to Shadowglen after years away. Sensing that something is amiss, Melithar sends newcomers to seek out the dryad southwest of Aldrassil and learn what business brings her to the grove.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "who is melithar",
     "melithar shadowglen"
    ],
-   "answer": "Melithar Staghelm is a night elf quest giver stationed on the pathway outside the bough of Aldrassil in Shadowglen. He helps newly arrived night elf adventurers get their bearings and directs them toward their mentors."
+   "answer": "Melithar Staghelm is a night elf quest giver stationed on the pathway outside the bough of Aldrassil in Shadowglen. He helps newly arrived night elf adventurers get their bearings and sends them to find the dryad Tarindrella."
   },
   {
    "q": "Is Melithar related to Archdruid Fandral Staghelm?",
@@ -44,10 +44,9 @@
    "q": "What role does Melithar play for new adventurers?",
    "aliases": [
     "melithar quests",
-    "sigil quests",
     "what does melithar do"
    ],
-   "answer": "Novice night elves are directed to Melithar with their introductory sigils. Melithar receives these tokens and points each novice to the proper trainer nestled inside Aldrassil to begin their formal class education."
+   "answer": "Melithar has heard through the whisperings of the forest spirits that the dryad Tarindrella, the woodland protector, has returned to Shadowglen after years away. He sends novices to find her southwest of Aldrassil and learn what business brings her to the grove."
   },
   {
    "q": "Where can I find Melithar Staghelm?",
@@ -69,7 +68,6 @@
   "aldrassil",
   "melithar",
   "shadowglen",
-  "sigils",
   "staghelm",
   "teldrassil",
   "trainer"
@@ -79,10 +77,7 @@
   "npc:fandral-staghelm",
   "zone:teldrassil",
   "topic:night-elf",
-  "quest:458",
-  "quest:3116",
-  "quest:3117",
-  "quest:3118"
+  "quest:458"
  ],
  "attribution": [
   "Melithar Staghelm"

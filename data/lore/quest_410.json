@@ -17,7 +17,7 @@
   "wiki": "The Dormant Shade",
   "chain": []
  },
- "summary": "The Dormant Shade is a dark ritual performed at Gunther's Retreat on Brightwater Lake in Tirisfal Glades. By placing a mystic candle upon an old, blood-soaked table, a traveler summons forth a restless spirit tied to the Forsaken's dark rites of loyalty.",
+ "summary": "The Dormant Shade is a dark ritual performed at Gunther's Retreat on Brightwater Lake in Tirisfal Glades. By placing a mystic candle upon an old, blood-soaked table, a traveler summons forth the Scourge agent Lillith Nefara, whose defeat proves to Gunther Arcanus that the visitor is the Lich King's foe.",
  "sections": [
   {
    "title": "A Gruesome Altar",
@@ -56,7 +56,7 @@
     "why kill lillith",
     "forsaken test"
    ],
-   "answer": "Summoning and destroying Lillith Nefara is an essential test in the quest Proving Allegiance, demonstrating a Forsaken initiate's willingness and ability to root out stubborn apparitions in Tirisfal."
+   "answer": "Summoning and destroying Lillith Nefara is the test set in the quest Proving Allegiance: the reclusive Gunther Arcanus demands it as proof that you are truly an enemy of the Scourge, not a servant of the Lich King."
   },
   {
    "q": "Where does this ritual take place?",
@@ -82,7 +82,7 @@
     "is the table magical",
     "why the bloody table"
    ],
-   "answer": "The table itself is a grim relic of Lordaeron's fall, steeped in violence and residual dark energies that allow the Candle of Beckoning to anchor and manifest the dormant shade."
+   "answer": "The table is the old, bloody altar used by the Scourge agent Lillith Nefara. Lighting the Candle of Beckoning on it is what wakes her from her rest."
   }
  ],
  "angles": [

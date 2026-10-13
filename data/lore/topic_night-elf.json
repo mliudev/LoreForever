@@ -16,7 +16,7 @@
   },
   {
    "title": "The Empire and the Sundering",
-   "body": "As centuries passed, the ruling caste\u2014the Highborne, led by Queen Azshara\u2014became obsessed with unlocking the Well's infinite arcane secrets. Their reckless use of sorcery shattered the troll empires and built breathtaking wonders, but it ultimately caught the attention of the Burning Legion. The ensuing demonic invasion ended in the Great Sundering: the Well imploded, shattering ancient Kalimdor into fragmented continents and destroying Azshara's realm. Horrified by the calamity, the surviving kaldorei strictly outlawed arcane magic under penalty of death or exile.",
+   "body": "As centuries passed, the ruling caste\u2014the Highborne, led by Queen Azshara\u2014became obsessed with unlocking the Well's infinite arcane secrets. Their reckless use of sorcery built breathtaking wonders, but it ultimately caught the attention of the Burning Legion. The ensuing demonic invasion ended in the Great Sundering: the Well imploded, shattering ancient Kalimdor into fragmented continents and destroying Azshara's realm. Horrified by the calamity, the surviving kaldorei strictly outlawed arcane magic under penalty of death or exile.",
    "spoiler": 0
   },
   {
@@ -42,7 +42,7 @@
     "where do night elves come from",
     "are elves evolved trolls"
    ],
-   "answer": "Roughly fifteen thousand years ago, a reclusive tribe of dark trolls settled along the radiant banks of the Well of Eternity. Exposed to the lake's raw magical energies over generations, their bodies and minds transformed, turning them into the graceful, long-lived kaldorei."
+   "answer": "Long before the Sundering, a curious nocturnal tribe settled along the radiant banks of the Well of Eternity. Exposed to the lake's raw magical energies over generations, their bodies and minds transformed, turning them into the graceful, long-lived kaldorei."
   },
   {
    "q": "Why don't night elves practice arcane magic?",
@@ -96,7 +96,7 @@
   },
   {
    "target": "race:Troll",
-   "text": "Troll history remembers the kaldorei as the sorcerous upstarts who shattered the great Amani and Gurubashi empires thousands of years ago, cementing an ancient, bitter rivalry."
+   "text": "Troll history remembers the elves as ancient enemies, a bitter rivalry that stretches back thousands of years."
   },
   {
    "target": "faction:Horde",

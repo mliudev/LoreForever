@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "Tracing the Binding",
-   "body": "After examining the burnt journal salvaged from the tragedy at Sven's farm, Madame Eva discerned that while its author was an outsider, the physical volume itself came from within Darkshire. Clerk Daltry frequently sells blank ledgers and tomes to traveling scholars, spellcasters, and record-keepers. By following the trail of local commerce, investigators seek a mundane paper trail to identify an otherwise elusive and sinister trespasser lurking in the gloomy groves of Duskwood.",
+   "body": "After examining the dirt-stained journal salvaged from the tragedy at Sven's farm, Madame Eva discerned that while its author was an outsider, the physical volume itself came from within Darkshire. Clerk Daltry frequently sells blank ledgers and tomes to traveling scholars, spellcasters, and record-keepers. By following the trail of local commerce, investigators seek a mundane paper trail to identify an otherwise elusive and sinister trespasser lurking in the gloomy groves of Duskwood.",
    "spoiler": 0
   },
   {
@@ -65,7 +65,7 @@
     "why are we looking",
     "sven yorgen"
    ],
-   "answer": "The book was salvaged from Sven Yorgen's destroyed farm in southern Duskwood, left behind during the murderous raid that wiped out his family and workers."
+   "answer": "The book was salvaged from Sven Yorgen's destroyed farm in southern Duskwood, left behind during the murderous raid that wiped out his family."
   },
   {
    "q": "Where does the investigation lead next?",
@@ -74,7 +74,7 @@
     "after daltry",
     "next clue"
    ],
-   "answer": "Since the nervous stranger spent time in town, the search continues at Darkshire's tavern, the Scarlet Raven Inn, to see if anyone witnessed where he stayed or who he spoke with."
+   "answer": "Since the nervous stranger spent time in town, the search continues at Darkshire's tavern, the Scarlet Raven Tavern, to see if anyone witnessed where he stayed or who he spoke with."
   },
   {
    "q": "Is Clerk Daltry in danger?",

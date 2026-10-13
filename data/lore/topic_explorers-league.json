@@ -21,7 +21,7 @@
   },
   {
    "title": "Frontier Clashes",
-   "body": "The League's aggressive expeditions have sparked fierce resistance outside dwarven homelands. In Kalimdor, League operations such as the Bael Modan dig in the southern Barrens drove out the native Stonespire tauren through heavy industrial blasting, stirring vengeance and angering local earth spirits. In the arid Badlands, League prospectors clash openly with the Dark Iron clan over the vast titan vaults of Uldaman. League agents also quietly share intelligence with Stormwind's covert SI:7 network, demonstrating that their worldwide excavations frequently intersect with high-stakes Alliance politics.",
+   "body": "The League's aggressive expeditions have sparked fierce resistance outside dwarven homelands. In Kalimdor, League operations such as the Bael Modan dig in the southern Barrens drove out the native Stonespire tauren through heavy industrial blasting, stirring vengeance and angering local earth spirits. In the arid Badlands, League prospectors clash openly with the Dark Iron clan over the vast titan vaults of Uldaman.",
    "spoiler": 0
   }
  ],
@@ -93,7 +93,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Beyond academic curiosity, the League acts as an unofficial intelligence-gathering arm across remote territories, quietly passing encrypted findings to Stormwind's SI:7."
+   "text": "The League's digs carry the Alliance banner into remote territories, where prospectors often need protection from troggs, rival factions, and angry locals."
   },
   {
    "target": "profession:Mining",

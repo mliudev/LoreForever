@@ -20,21 +20,21 @@
    "The Crone of the Kraul"
   ]
  },
- "summary": "The Crone of the Kraul is an Alliance quest offered by Falfindel Waywarder at Thalanaar, on the border of Feralas and the Thousand Needles. After reading the recovered journal of the fallen dwarf Henrig Lonebrow, Falfindel tasks adventurers with infiltrating Razorfen Kraul and slaying the quillboar crone, Charlga Razorflank.",
+ "summary": "The Crone of the Kraul is an Alliance quest offered by Falfindel Waywarder at Thalanaar, on the border of Feralas and the Thousand Needles. After reading the recovered journal of the fallen dwarf Henrig Lonebrow, Falfindel tasks adventurers with infiltrating Razorfen Kraul and slaying the quilboar crone, Charlga Razorflank.",
  "sections": [
   {
    "title": "A Plea at the Border",
-   "body": "At the secluded night elf outpost of Thalanaar, Falfindel Waywarder grieves the loss of his scout Heralath and the dwarf Henrig Lonebrow. Lonebrow ventured deep into the Barrens to scout the quillboar hives but fell in battle, leaving behind a tattered journal detailing the growing menace within Razorfen Kraul. Realizing there is no time to send a runner to Darnassus for military reinforcements, Falfindel turns to passing adventurers to strike directly at the heart of the thorned dens.",
+   "body": "At the secluded night elf outpost of Thalanaar, Falfindel Waywarder grieves for the druid Heralath and the dwarf Henrig Lonebrow. Lonebrow, an Explorers' League traveler captured by the quilboar, escaped Razorfen Kraul only to die on the road, leaving behind a tattered journal detailing the growing menace within Razorfen Kraul. Realizing there is no time to send a runner to Darnassus for military reinforcements, Falfindel turns to passing adventurers to strike directly at the heart of the thorned dens.",
    "spoiler": 0
   },
   {
    "title": "Striking the Chieftain",
-   "body": "The target of the expedition is Charlga Razorflank, an ancient geomancer and ruthless matriarch who has united the fractious Razorfen quillboar under her iron rule. From the depths of the Kraul, she marshals a bristling army that threatens neighboring lands. Adventurers must carve through thick thorn mazes, battlement walls, and swarms of fanatical quillboar warriors to corner Charlga and pry her medallion from her lifeless body as proof of her downfall.",
+   "body": "The target of the expedition is Charlga Razorflank, an ancient geomancer and ruthless matriarch who has united the fractious Razorfen quilboar under her iron rule. From the depths of the Kraul, she marshals a bristling army that threatens neighboring lands. Adventurers must carve through thick thorn mazes, battlement walls, and swarms of fanatical quilboar warriors to corner Charlga and pry her medallion from her lifeless body as proof of her downfall.",
    "spoiler": 0
   },
   {
    "title": "A Deeper Corruption",
-   "body": "While Charlga's demise blunts the immediate quillboar threat, her defeat raises deeper concerns for the night elves. The Kraul is formed from the living briars that sprouted where the boar Ancient, Agamaggan, fell during the War of the Ancients. When the medallion is returned, Falfindel notes that neutralizing Charlga allows night elf scholars to study the area's corruption more closely, though he senses that insidious treachery may be at the root of the sudden blight sweeping Agamaggan's sacred remains.",
+   "body": "While Charlga's demise blunts the immediate quilboar threat, her defeat raises deeper concerns for the night elves. The Kraul is formed from the living briars that sprouted where the boar Ancient, Agamaggan, fell during the War of the Ancients. When the medallion is returned, Falfindel notes that neutralizing Charlga allows night elf scholars to study the area's corruption more closely, though he senses that insidious treachery may be at the root of the sudden blight sweeping Agamaggan's sacred remains.",
    "spoiler": 1
   }
  ],
@@ -64,7 +64,7 @@
     "charlga lore",
     "charlga razorflank"
    ],
-   "answer": "Charlga Razorflank is the supreme crone and matriarch of the Razorfen quillboar. She is a powerful geomancer who has united the warring tribes within Razorfen Kraul, directing their aggression against neighboring territories."
+   "answer": "Charlga Razorflank is the supreme crone and matriarch of the Razorfen quilboar. She is a powerful geomancer who has united the warring tribes within Razorfen Kraul, directing their aggression against neighboring territories."
   },
   {
    "q": "Where can Charlga Razorflank be found?",
@@ -96,7 +96,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This quest represents the primary Alliance initiative against the quillboar menace in the southern Barrens, launched from the outpost of Thalanaar."
+   "text": "This quest represents the primary Alliance initiative against the quilboar menace in the southern Barrens, launched from the outpost of Thalanaar."
   },
   {
    "target": "race:NightElf",
@@ -104,7 +104,7 @@
   },
   {
    "target": "race:Dwarf",
-   "text": "Avenging the explorer Henrig Lonebrow gives dwarves a personal stake in storming the quillboar stronghold."
+   "text": "Avenging the explorer Henrig Lonebrow gives dwarves a personal stake in storming the quilboar stronghold."
   },
   {
    "target": "class:Druid",

@@ -287,6 +287,7 @@
     <nav class="ad-subnav" id="subnav" aria-label="Community">
       <a href="#feedback" data-sub="feedback">Feedback <span class="ad-badge" id="n-feedback"></span></a>
       <a href="#voices" data-sub="voices">Voices <span class="ad-badge" id="n-voices"></span></a>
+      <a href="#willo" data-sub="willo">Willo <span class="ad-badge" id="n-willo"></span></a>
       <a href="#clip-reports" data-sub="clip-reports">Clip reports <span class="ad-badge quiet" id="n-clip-reports"></span></a>
       <a href="#translations" data-sub="translations">Translations <span class="ad-badge" id="n-translations"></span></a>
       <a href="#edits" data-sub="edits">Edits <span class="ad-badge" id="n-edits"></span></a>
@@ -323,6 +324,23 @@
         <span class="ad-count" id="vo-count"></span>
       </div>
       <div id="vo-list"></div>
+    </div>
+    </div>
+    <div class="ad-sub-tab" id="sub-willo" data-sub="willo" hidden>
+    <!-- Willo's answers (LOR-446, functions/api/admin/willo.js): what players said was wrong, were frustrated by or
+         flagged, with what Willo had said. "Make it a fact" adds a checked Forever fact that every answer about it
+         then gets; "Checked" means nothing to change. Badge: new signals. -->
+    <h2 id="willo">Willo's answers</h2>
+    <div class="ad-panel">
+      <div class="ad-filters" role="group" aria-label="Filter Willo feedback">
+        <button type="button" data-wstatus="new" aria-pressed="true">New</button>
+        <button type="button" data-wstatus="all" aria-pressed="false">All</button>
+        <span class="ad-count" id="w-count"></span>
+      </div>
+      <p class="ad-count" id="w-zones"></p>
+      <div id="w-list"></div>
+      <h3 style="margin-top:14px">Forever facts <span class="ad-count" id="wf-count"></span></h3>
+      <div id="wf-list"></div>
     </div>
     </div>
     <div class="ad-sub-tab" id="sub-clip-reports" data-sub="clip-reports" hidden>
@@ -595,8 +613,9 @@ function renderOverview() {
   const f = data.funnel || {}, st = f.stores || {}, a = st.author, c = f.companions, r = data.activity?.returning;
   if (a?.thisWeek) {
     $("o-unique").textContent = n0(a.thisWeek.unique);
-    $("o-unique-sub").textContent = `this week so far · ${n0(a.today.unique)} on ${fmtDay(a.today.day)} · ` +
-      `${n0(a.thisWeek.downloads)} downloads this week`;
+    const wk = a.thisWeek.current ? "this week" : "the week of " + fmtDay(a.thisWeek.week);
+    $("o-unique-sub").textContent = `${a.thisWeek.current ? "this week so far" : wk} · ${n0(a.today.unique)} on ` +
+      `${fmtDay(a.today.day)} · ${n0(a.thisWeek.downloads)} downloads ${wk}`;
   } else {
     $("o-unique").textContent = "-";
     $("o-unique-sub").textContent = "waiting for the CurseForge author dashboard's numbers";
@@ -1361,6 +1380,91 @@ document.querySelectorAll("[data-crstatus]").forEach(b => b.addEventListener("cl
   loadClipReports();
 }));
 
+// ---- Willo's answers (their own endpoint): flagged answers and the Forever facts ----
+let wStatus = "new";
+let willo = { feedback: { counts: [], rows: [], zones: [] }, facts: [] };
+async function wApi(method, body) {
+  const r = await fetch("/api/admin/willo", {
+    method, cache: "no-store",
+    headers: { Authorization: "Bearer " + key(), ...(body ? { "Content-Type": "application/json" } : {}) },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  const res = await r.json().catch(() => ({}));
+  if (!r.ok || !res.ok) throw new Error(res.error || "Request failed (" + r.status + ")");
+  return res;
+}
+async function loadWillo() {
+  try { willo = await wApi("GET"); }
+  catch (e) {
+    $("w-list").replaceChildren(el("p", { class: "ad-empty", text: "Couldn't load Willo's feedback: " + e.message }));
+    return;
+  }
+  renderWillo();
+}
+async function willoAct(body) {
+  try { await wApi("POST", body); } catch (e) { alert("That didn't work: " + e.message); return; }
+  loadWillo();
+}
+const W_KINDS = { correction: "Said it's wrong", frustration: "Frustrated", flag: "Flagged" };
+function renderWillo() {
+  const rows = willo.feedback.rows.filter(r => wStatus === "all" || r.status === "new");
+  badge("n-willo", willo.feedback.rows.filter(r => r.status === "new").length);
+  $("w-count").textContent = rows.length + (rows.length === 1 ? " signal" : " signals");
+  $("w-zones").textContent = willo.feedback.zones.length ? "New by zone: " + willo.feedback.zones.map(z =>
+    (z.zone || "unknown") + " " + z.n + (z.players > 1 ? " (" + z.players + " players)" : "")).join(" · ") : "";
+  const box = $("w-list");
+  if (!rows.length) box.replaceChildren(el("p", { class: "ad-empty", text: "Nothing here." }));
+  else box.replaceChildren(...rows.map(r => {
+    const button = (text, onClick, cls = "") => {
+      const b = el("button", { type: "button", class: "ad-link" + cls, text });
+      b.addEventListener("click", onClick);
+      return b;
+    };
+    const fact = button("Make it a fact", () => {
+      const text = prompt("The Forever fact, as Willo should know it (one or two sentences):", r.said);
+      if (!text) return;
+      const title = prompt("A short title (what it's about):", r.sub || r.zone || "");
+      if (!title) return;
+      const source_url = prompt("A source link (https://…), or leave empty for your own word:", "") || "";
+      willoAct({ action: "fact-add", title, text, zone: r.zone || "", source_url,
+        source_title: source_url ? "" : "Checked by Mike", feedback_id: r.id });
+    });
+    return el("article", { class: "ad-report" + (r.status === "new" ? "" : " done") },
+      el("div", { class: "ad-report-head" },
+        el("span", { class: "ad-kind", text: W_KINDS[r.kind] || r.kind }),
+        el("span", { text: [r.sub, r.zone].filter(Boolean).join(", ") + (r.spoken ? " · out loud" : "") }),
+        el("span", { text: "#" + r.id + " · " + fmtDate(r.created) + " · " + r.status + (r.fact_id ? " → " + r.fact_id : "") })),
+      el("p", { class: "ad-msg" }, el("strong", { text: "Player: " }), r.said),
+      r.question ? el("p", { class: "ad-msg" }, el("strong", { text: "They had asked: " }), r.question) : null,
+      r.answer ? el("p", { class: "ad-msg" }, el("strong", { text: "Willo said: " }), r.answer) : null,
+      r.note ? el("p", { class: "ad-msg" }, el("strong", { text: "Checked: " }), r.note) : null,
+      el("div", { class: "ad-report-foot" }, el("span", { class: "ad-actions" },
+        r.status === "new" ? fact : null,
+        r.status === "new" ? button("Checked", () => willoAct({ action: "feedback-status", id: r.id, status: "checked" })) : null,
+        r.status === "new" ? button("Dismiss", () => willoAct({ action: "feedback-status", id: r.id, status: "dismissed" }), " ad-danger")
+          : button("Reopen", () => willoAct({ action: "feedback-status", id: r.id, status: "new" })))));
+  }));
+  const facts = willo.facts;
+  $("wf-count").textContent = facts.length + " in answers";
+  $("wf-list").replaceChildren(...facts.map(f => {
+    const remove = el("button", { type: "button", class: "ad-link ad-danger", text: "Take out" });
+    remove.addEventListener("click", () => { if (confirm("Take \"" + f.title + "\" out of Willo's answers?")) willoAct({ action: "fact-remove", id: f.id }); });
+    return el("article", { class: "ad-report" },
+      el("div", { class: "ad-report-head" }, el("span", { class: "ad-kind", text: f.origin }),
+        el("span", { text: f.title + (f.zone ? " · " + f.zone : "") })),
+      el("p", { class: "ad-msg", text: f.text }),
+      el("div", { class: "ad-report-foot" },
+        f.source_url ? el("a", { href: f.source_url, target: "_blank", rel: "noopener noreferrer", text: f.source_title || f.source_url })
+          : el("span", { text: f.source_title || "" }),
+        f.origin === "seed" ? null : el("span", { class: "ad-actions" }, remove)));
+  }));
+}
+document.querySelectorAll("[data-wstatus]").forEach(b => b.addEventListener("click", () => {
+  wStatus = b.dataset.wstatus;
+  document.querySelectorAll("[data-wstatus]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  renderWillo();
+}));
+
 const ROLES = { subscriber: c => c.subscriber && !isTest(c.subscriber), account: c => c.user,
                 player: c => c.user?.handle, voice: c => c.user?.voices, translator: c => c.user?.languages,
                 feedback: c => c.user && !c.user.voices && !c.user.languages && !c.user.handle };
@@ -1432,7 +1536,7 @@ async function act(body, onDone) {
 const TABS = ["overview", "growth", "players", "community"];
 const SECTION_TAB = { funnel: "growth", curseforge: "growth", downloads: "growth", companions: "growth",
                       profiles: "players", signins: "players", features: "players", usage: "players" };
-const SUBS = ["feedback", "voices", "clip-reports", "translations", "edits", "contributions", "contacts"];
+const SUBS = ["feedback", "voices", "willo", "clip-reports", "translations", "edits", "contributions", "contacts"];
 let sub = "feedback", clipsLoaded = false;
 function route() {
   const id = decodeURIComponent(location.hash.slice(1));
@@ -1443,7 +1547,7 @@ function route() {
   document.querySelectorAll(".ad-sub-tab").forEach(s => { s.hidden = s.dataset.sub !== sub; });
   document.querySelectorAll("#subnav a").forEach(a => a.setAttribute("aria-current", a.dataset.sub === sub));
   // The clip reports come from their own endpoint: only once Community is opened.
-  if (tab === "community" && data && !clipsLoaded) { clipsLoaded = true; loadClipReports(); }
+  if (tab === "community" && data && !clipsLoaded) { clipsLoaded = true; loadClipReports(); loadWillo(); }
   if (SECTION_TAB[id]) $(id).scrollIntoView(); else scrollTo(0, 0);
   // On a narrow screen the bar scrolls sideways: keep the chosen tab in view (sideways only).
   const nav = $("nav"), current = nav.querySelector(`a[data-tab="${tab}"]`);

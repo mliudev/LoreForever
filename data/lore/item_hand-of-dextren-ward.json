@@ -49,7 +49,7 @@
     "stockade ward location",
     "dextren ward location"
    ],
-   "answer": "The hand is claimed directly from Dextren Ward himself. He is locked away in the deeper chambers on the left side of the Stormwind Stockade, where he fights using powerful sorcery."
+   "answer": "The hand is claimed directly from Dextren Ward himself. He is locked away in the deeper chambers on the left side of the Stormwind Stockade, where he fights as a warrior, with a frightening shout that sends foes fleeing."
   },
   {
    "q": "Why did Stormwind imprison Ward instead of executing him?",
@@ -68,7 +68,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "Ward perverted the arcane arts toward unearthing and trafficking the dead, making his death a matter of cleaning house among rogue practitioners."
+   "text": "Ward was no spellcaster, but the bodies he dug up fed the necromancer Morbent Fel's dark arts, making his death a blow against those who traffic with the dead."
   }
  ],
  "keywords": [

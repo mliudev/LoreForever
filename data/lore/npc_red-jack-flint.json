@@ -3,7 +3,7 @@
  "type": "npc",
  "name": "Red Jack Flint",
  "era": "classic",
- "zone": "darkshore",
+ "zone": "wetlands",
  "meta": {
   "wiki": "Red Jack Flint",
   "refs": 1
@@ -51,7 +51,7 @@
     "fiora longears connection",
     "where does flint send you"
    ],
-   "answer": "He directs travelers to make contact with Fiora Longears, an associate situated across the Great Sea in Darkshore."
+   "answer": "He directs travelers to make contact with Fiora Longears, his partner across the sea in the port of Theramore."
   }
  ],
  "angles": [
@@ -73,7 +73,7 @@
   "subzone:menethil-harbor",
   "zone:wetlands",
   "quest:1132",
-  "zone:darkshore"
+  "zone:dustwallow"
  ],
  "attribution": [
   "Red Jack Flint"

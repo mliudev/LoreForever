@@ -3,6 +3,7 @@
   <Script file="UI.lua"/>
   <Script file="Names.lua"/>
   <Script file="Entries.lua"/>
+  <Script file="Entries_2.lua"/>
   <Script file="Clips.lua"/>
   <Script file="Search_1.lua"/>
   <Script file="Search_2.lua"/>

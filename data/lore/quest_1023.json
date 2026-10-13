@@ -26,12 +26,12 @@
   },
   {
    "title": "The Glowing Gem",
-   "body": "Teronis had tracked a rare, luminous stone to the lake, which fell into the possession of the aggressive Greymist murlocs infesting the shallows. Recovering both Teronis' journal and pryed-away gem is necessary to carry forward the late scout's original mission.",
+   "body": "Teronis had tracked a rare, luminous stone to the lake, which fell into the possession of the aggressive murlocs infesting the shallows. Recovering both Teronis' journal and pryed-away gem is necessary to carry forward the late scout's original mission.",
    "spoiler": 0
   },
   {
    "title": "Grief in Astranaar",
-   "body": "Returning to Astranaar brings sorrow to Raene Wolfrunner, who must arrange a patrol to recover the body of her fallen comrade. Yet with the forest facing corruption, Raene cannot afford prolonged mourning, asking the adventurer to pick up Teronis' mantle and finish the cleansing ritual he died trying to assemble.",
+   "body": "Returning to Astranaar brings sorrow to Raene Wolfrunner, who must arrange a patrol to recover the body of her fallen comrade. Yet with the forest facing corruption, Raene cannot afford prolonged mourning, asking the adventurer to pick up Teronis' mantle and finish the task he died pursuing: rebuilding the rod he hoped would slow the furbolg attacks.",
    "spoiler": 1
   }
  ],
@@ -60,7 +60,7 @@
     "why raene cleansing",
     "raene wolfrunner motive"
    ],
-   "answer": "Raene is coordinating the defense and purification of Ashenvale from Astranaar. She cannot allow the corruption spreading across the forest's waterways to go unchecked, making Teronis' incomplete mission a vital priority despite the loss of his life."
+   "answer": "Teronis was Raene's longtime friend, and he believed the rod he sought could slow the furbolg attacks on her people. With Ashenvale's furbolgs still raiding, Raene treats his incomplete mission as a vital priority despite the loss of his life."
   },
   {
    "q": "What happens to Teronis' body after this quest?",
@@ -76,7 +76,7 @@
     "teronis journal",
     "what is the journal"
    ],
-   "answer": "The journal outlines Teronis' progress and instructions concerning the cleansing ritual and the mystical artifacts required to purify corrupted waters within the ancient forest."
+   "answer": "The journal records Teronis' investigation into the human wizard Dartol, who used druidic magic in an attempt to befriend and control the furbolgs, and his notes on recovering the pieces of the rod Dartol created."
   },
   {
    "q": "Does this quest chain continue after turning it in?",
@@ -84,7 +84,7 @@
     "quest progression",
     "next quest after teronis"
    ],
-   "answer": "Yes. Upon bringing the gem and journal back to Raene Wolfrunner, she asks you to continue Teronis' work, leading into the next steps of creating and utilizing the cleansing wand."
+   "answer": "Yes. Upon bringing the gem and journal back to Raene Wolfrunner, she asks you to continue Teronis' work, leading into the search for the remaining pieces of Dartol's rod."
   }
  ],
  "angles": [

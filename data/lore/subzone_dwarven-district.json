@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Dwarven District"
  },
- "summary": "Tucked into the northern corner of Stormwind City, the Dwarven District is a bustling industrial enclave filled with roaring furnaces, ringing anvils, and thick smog. Established by Ironforge craftsmen who arrived to help rebuild the capital after the Second War, it serves as the beating mechanical heart of the city.",
+ "summary": "Tucked into the northern corner of Stormwind City, the Dwarven District is a bustling industrial enclave filled with roaring furnaces, ringing anvils, and thick smog. Home to many of the city's dwarven craftsmen, it serves as the beating mechanical heart of the city.",
  "sections": [
   {
    "title": "A Home Away from Khaz Modan",
-   "body": "After the Second War, King Magni Bronzebeard sent hundreds of dwarven artisans, stonemasons, and engineers south to assist their human allies in rebuilding Stormwind. Rather than dispersing throughout the capital, they established their own enclave in the northern quarter. Today, the district retains the unmistakable character of Ironforge, dominated by heavy stone masonry, sprawling smelting operations, and bustling craft shops. Shops such as Potts' Plates provide a familiar haven for craftspeople from Khaz Modan. It also houses the Stormwind portal to the Deeprun Tram, tethering the human capital directly to Ironforge.",
+   "body": "The northern quarter of Stormwind is home to the city's dwarven artisans, smiths, and engineers and their trades. The district retains the unmistakable character of Ironforge, dominated by heavy stone masonry, sprawling smelting operations, and bustling craft shops. Shops such as Potts' Plates provide a familiar haven for craftspeople from Khaz Modan. It also houses the Stormwind portal to the Deeprun Tram, tethering the human capital directly to Ironforge.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "dwarf area origin",
     "why is it called dwarven district"
    ],
-   "answer": "After Stormwind was destroyed during the First War and retaken in the Second War, King Magni Bronzebeard sent dwarven craftsmen and laborers south to aid in the capital's reconstruction. The workers settled in this northern sector, building workshops and homes suited to their tastes."
+   "answer": "How the enclave was founded is not recorded in the chronicles of this era. Today it is home to dwarven smiths, miners, and engineers whose forges and workshops give the quarter its character, and the Deeprun Tram links it directly to Ironforge."
   },
   {
    "q": "How do you get to Ironforge from here?",
@@ -68,7 +68,6 @@
   "dwarven district",
   "hunters guild",
   "ironforge",
-  "magni bronzebeard",
   "potts plates",
   "stormwind"
  ],
@@ -78,8 +77,7 @@
   "zone:ironforge",
   "subzone:cathedral-square",
   "subzone:old-town",
-  "subzone:cut-throat-alley",
-  "topic:second-war"
+  "subzone:cut-throat-alley"
  ],
  "attribution": [
   "Dwarven District"

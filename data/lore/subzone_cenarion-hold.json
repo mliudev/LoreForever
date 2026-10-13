@@ -46,7 +46,7 @@
     "cenarion hold path",
     "getting into silithus"
    ],
-   "answer": "Travelers on foot typically take the steep mountain path leading northwest from the Mossy Pile in Un'Goro Crater. Flight networks also link the hold to flight masters in Gadgetzan, Un'Goro, and Feralas."
+   "answer": "Travelers on foot typically take the steep mountain path that climbs northwest out of Un'Goro Crater. Flight networks also link the hold to flight masters in Gadgetzan, Un'Goro, and Feralas."
   },
   {
    "q": "Can members of both factions use services here?",
@@ -84,7 +84,6 @@
   "zone:ungoro",
   "zone:feralas",
   "subzone:gadgetzan",
-  "subzone:mossy-pile",
   "topic:old-god"
  ],
  "attribution": [

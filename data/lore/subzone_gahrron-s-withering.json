@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Gahrron's Withering"
  },
- "summary": "Gahrron's Withering is a corrupted farmstead nestled along the eastern border of the Western Plaguelands near the path to the Eastern Plaguelands. Once a thriving piece of Lordaeron farmland called Gahrron's Quickening, it is now occupied by the Scourge and anchored by a massive cauldron pumping virulent plague vapors into the air.",
+ "summary": "Gahrron's Withering is a corrupted farmstead nestled along the eastern border of the Western Plaguelands near the path to the Eastern Plaguelands. Once a thriving piece of Lordaeron farmland, it is now occupied by the Scourge and anchored by a massive cauldron pumping virulent plague vapors into the air.",
  "sections": [
   {
-   "title": "From Quickening to Decay",
-   "body": "Before the Third War ruined the kingdom of Lordaeron, this estate was known as Gahrron's Quickening, named after its master, Del Gahrron. Its fertile fields yielded grain for the realm until the Cult of the Damned and the Scourge swept across the land. Renamed Gahrron's Withering in bitter mockery of its past vitality, the homestead now stands broken and derelict. Haunting visions, wailing wraiths, and restless spirits wander the ruined outbuildings, overseen by Scourge overseers sworn to the Lich King.",
+   "title": "From Harvest to Decay",
+   "body": "Before the Third War ruined the kingdom of Lordaeron, this estate was a working farm. Its fertile fields yielded grain for the realm until the Cult of the Damned and the Scourge swept across the land. Now called Gahrron's Withering, the homestead stands broken and derelict. Haunting visions, wailing wraiths, and restless spirits wander the ruined outbuildings, overseen by Scourge overseers sworn to the Lich King.",
    "spoiler": 0
   },
   {
@@ -28,7 +28,7 @@
     "old name",
     "gahrrons quickening"
    ],
-   "answer": "Before the fall of Lordaeron, the farm was known as Gahrron's Quickening. It was an active homestead owned by Del Gahrron before the Scourge devastated the countryside."
+   "answer": "The farm's name before the plague is not recorded; today it is known only as Gahrron's Withering. It was an active Lordaeron homestead until the Scourge devastated the countryside."
   },
   {
    "q": "Why is there a giant cauldron here?",
@@ -46,7 +46,7 @@
     "captain redpath",
     "darrowshire connection"
    ],
-   "answer": "Captain Joseph Redpath was the defender of nearby Darrowshire who was corrupted during the Scourge's slaughter of the town. Alliance forces finally cornered and slew his corrupted form at this farmstead, leaving his shield behind in the dirt."
+   "answer": "Captain Joseph Redpath was a defender of nearby Darrowshire, one of the heroes named in the town's annals. His cracked shield still lies near the barn of this farmstead, a relic of Darrowshire's tragic fall."
   },
   {
    "q": "Who controls Gahrron's Withering right now?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance veterans, the farm holds grim significance as the place where the fallen hero of Darrowshire, Joseph Redpath, had to be put down by his own countrymen."
+   "text": "For Alliance veterans, the farm holds grim significance: the cracked shield of Captain Joseph Redpath, a hero of Darrowshire, still lies in its cursed soil."
   },
   {
    "target": "class:Paladin",
@@ -71,11 +71,9 @@
  "keywords": [
   "cauldron",
   "darrowshire",
-  "del gahrron",
   "gahrron",
   "gahrron's withering",
   "joseph redpath",
-  "quickening",
   "soulwrath"
  ],
  "related": [

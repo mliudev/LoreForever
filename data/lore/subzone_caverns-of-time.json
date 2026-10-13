@@ -28,7 +28,7 @@
     "how to enter caverns of time",
     "is caverns of time open"
    ],
-   "answer": "You can walk down the long winding tunnel into the main chamber, but the historical portals themselves remain sealed. You must be careful around the drakes patrolling the entrance; while the elder bronze dragon Anachronos remains indifferent to travelers, his companions will attack any mortal who strays too close."
+   "answer": "No. The way into the caverns remains sealed, and the bronze dragonflight admits no mortals. You must be careful around the drakes patrolling the entrance; while the elder bronze dragon Anachronos remains indifferent to travelers, his companions will attack any mortal who strays too close."
   },
   {
    "q": "Who rules over the Caverns of Time?",
@@ -78,9 +78,7 @@
  "related": [
   "zone:tanaris",
   "topic:titan",
-  "topic:lordaeron",
-  "topic:second-war",
-  "subzone:stratholme"
+  "topic:lordaeron"
  ],
  "attribution": [
   "Caverns of Time"

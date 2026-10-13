@@ -8,11 +8,11 @@
   "wiki": "Craven Drok",
   "refs": 1
  },
- "summary": "Craven Drok is a wandering orc found skulking in the dimly lit tunnels of the Cleft of Shadow beneath Orgrimmar. True to his moniker, he keeps to the dark corners of the city, occasionally reaching out to travelers willing to deliver sensitive correspondence concerning the Horde's enemies.",
+ "summary": "Craven Drok is a wandering orc found skulking in the dimly lit tunnels of the Cleft of Shadow beneath Orgrimmar. True to his moniker, he keeps to the dark corners of the city, occasionally reaching out to travelers willing to help with a delicate matter: how the Alliance sees the Horde.",
  "sections": [
   {
    "title": "A Skulker in the Shadows",
-   "body": "While most orcs of Orgrimmar proudly walk the sunlit avenues of the Valley of Honor or the Valley of Strength, Craven Drok avoids the daylight entirely. He haunts the winding, subterranean paths of the Cleft of Shadow, an enclave typically reserved for warlocks, rogues, and practitioners of less honorable trades. Drok lives up to his cowardly reputation, preferring to stay out of sight while hiring passersby to carry out his discreet errands, including dispatches touching on Alliance activities.",
+   "body": "While most orcs of Orgrimmar proudly walk the sunlit avenues of the Valley of Honor or the Valley of Strength, Craven Drok avoids the daylight entirely. He haunts the winding, subterranean paths of the Cleft of Shadow, an enclave typically reserved for warlocks, rogues, and practitioners of less honorable trades. Drok lives up to his cowardly reputation, preferring to stay out of sight while hiring passersby to carry out his discreet errands, including an errand concerning the Horde's standing with the Alliance.",
    "spoiler": 0
   }
  ],
@@ -41,15 +41,15 @@
     "craven drok alliance",
     "alliance relations drok"
    ],
-   "answer": "Drok is connected to a dispatch regarding Alliance relations, serving as an intermediary who sends couriers across Horde territory with vital communications regarding enemy factions."
+   "answer": "Drok starts the errand known as Alliance Relations. He speaks of Thrall as a wise diplomat who learned much of human ways, then sends travelers to Keldran, who works to keep the Alliance from wrongly concluding that the Horde has made pacts with the Burning Legion."
   },
   {
-   "q": "Is Craven Drok related to Captain Drok?",
+   "q": "Who does Craven Drok send travelers to?",
    "aliases": [
-    "captain drok relative",
-    "drok family"
+    "who is keldran",
+    "drok contacts"
    ],
-   "answer": "While they share the same surname and heritage, any exact familial connection between Craven Drok and Captain Drok remains unconfirmed."
+   "answer": "He sends them to Keldran, a student of magic whose hovel lies near the western exit of Orgrimmar. With the Warchief's blessing, Keldran works to make sure the Horde is not mistaken for an ally of the Burning Legion."
   }
  ],
  "angles": [
@@ -64,7 +64,6 @@
  ],
  "keywords": [
   "alliance relations",
-  "captain drok",
   "cleft of shadow",
   "craven drok",
   "orgrimmar"

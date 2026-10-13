@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "The High Tinker and Master Inventor",
-   "body": "Gnomish leadership is earned through intellect and merit rather than bloodlines, and Gelbin Mekkatorque's rise to High Tinker was propelled by pure inventive genius. A graduate of Gearshaft University, Mekkatorque revolutionized personal transportation with the creation of the first functioning mechanostrider. Over decades of innovation, he drafted the gyromatic micro-adjustor, automated repair bots, and partnered with the Bronzebeard dwarves to engineer their formidable siege engines. When Stormwind required a rapid transit connection to Ironforge after the Second War, King Magni Bronzebeard turned to Mekkatorque, who personally drew the schematics and oversaw construction of the subterranean Deeprun Tram.",
+   "body": "Gnomish leadership is earned through intellect and merit rather than bloodlines, and Gelbin Mekkatorque's rise to High Tinker was propelled by pure inventive genius. Mekkatorque revolutionized personal transportation with the creation of the first functioning mechanostrider. He also assisted the Bronzebeard dwarves in developing their formidable siege engines, and he was instrumental in the creation of the subterranean Deeprun Tram linking Ironforge to Stormwind.",
    "spoiler": 0
   },
   {
    "title": "Betrayal and Exile in Ironforge",
-   "body": "Mekkatorque's greatest tragedy struck when troggs invaded Gnomeregan from deep below. Urged by his trusted friend and chief advisor, Sicco Thermaplugg, Mekkatorque ordered the venting of radioactive waste into the lower corridors to exterminate the attackers. Instead, the toxic gas slaughtered thousands of innocent gnomes and mutated the survivors, while Thermaplugg seized the ruined city. Crushed by guilt yet determined to fix his mistake, Mekkatorque led the surviving refugees across Dun Morogh to Ironforge. Operating out of Tinker Town under King Magni's hospitality, the High Tinker directs gnomekind's military and scientific energies toward a single unwavering objective: liberating Gnomeregan.",
+   "body": "Mekkatorque's greatest tragedy struck when troggs invaded Gnomeregan from deep below. Urged by his trusted friend and chief advisor, Mekgineer Thermaplugg, Mekkatorque ordered the venting of radioactive waste into the lower corridors to exterminate the attackers. Instead, the toxic gas slaughtered thousands of innocent gnomes and mutated the survivors, while Thermaplugg seized the ruined city. Crushed by guilt yet determined to fix his mistake, Mekkatorque led the surviving refugees across Dun Morogh to Ironforge. Operating out of Tinker Town under King Magni's hospitality, the High Tinker directs gnomekind's military and scientific energies toward a single unwavering objective: liberating Gnomeregan.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "gnome leader",
     "who is the gnome king"
    ],
-   "answer": "Gelbin Mekkatorque is the elected High Tinker and leader of the gnomes. He is a master engineer who designed pivotal gnomish technologies, including the mechanostrider, repair bots, and the Deeprun Tram."
+   "answer": "Gelbin Mekkatorque is the elected High Tinker and leader of the gnomes. He is a master engineer who designed pivotal gnomish technologies, including the mechanostrider and the Deeprun Tram."
   },
   {
    "q": "Why is Mekkatorque in Ironforge instead of Gnomeregan?",
@@ -55,7 +55,7 @@
     "mekkatorque inventions",
     "what did gelbin build"
    ],
-   "answer": "Mekkatorque invented the mechanostrider, giving gnomes their own agile mount. He also designed the gyromatic micro-adjustor, repair bots, the schematics for the Deeprun Tram between Ironforge and Stormwind, and co-developed the dwarven siege engine."
+   "answer": "Mekkatorque invented the mechanostrider, giving gnomes their own agile mount. He also helped develop the dwarven siege engine and was instrumental in creating the Deeprun Tram between Ironforge and Stormwind."
   },
   {
    "q": "Is Mekkatorque an actual king?",
@@ -73,7 +73,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "Standing before the High Tinker is standing before the author of the mechanostrider, the gyromatic micro-adjustor, and the Deeprun Tram. His workshop in Tinker Town represents the cutting edge of technological innovation."
+   "text": "Standing before the High Tinker is standing before the author of the mechanostrider and a driving mind behind the Deeprun Tram. His workshop in Tinker Town represents the cutting edge of technological innovation."
   }
  ],
  "keywords": [

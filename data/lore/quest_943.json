@@ -17,7 +17,7 @@
   "wiki": "The Absent Minded Prospector (5)",
   "chain": []
  },
- "summary": "This quest marks the final chapter in the search sparked by Prospector Remtravel's excavations in Darkshore. Archaeologist Flagongut in Menethil Harbor seeks to combine Remtravel's finds with his own fossil and the lost Stone of Relu to unlock the ancient titan relics' hidden powers.",
+ "summary": "This quest marks the final chapter in the search sparked by Prospector Remtravel's excavations in Darkshore. Archaeologist Flagongut in Menethil Harbor seeks to combine Remtravel's finds with his own fossil and the lost Stone of Relu to unlock the ancient relics' hidden powers.",
  "sections": [
   {
    "title": "Cross-Continental Archaeology",
@@ -55,7 +55,7 @@
     "flagongut",
     "who is flagongut"
    ],
-   "answer": "Archaeologist Flagongut is an operative of the dwarven Explorers' League based in Menethil Harbor. He studies ancient relics recovered from surrounding excavations and works closely with Prospectors Remtravel and Whelgar to decipher titan remnants."
+   "answer": "Archaeologist Flagongut is an operative of the dwarven Explorers' League based in Menethil Harbor. He studies ancient relics recovered from surrounding excavations and hopes to unlock the hidden power of the fossils found by Prospectors Remtravel and Whelgar."
   },
   {
    "q": "Who has the original fossil?",
@@ -80,7 +80,7 @@
     "fossil power",
     "what does the fossil do"
    ],
-   "answer": "The Explorers' League believes ancient fossils from the dawn of Azeroth hold latent titan energies and forgotten history, which can be awakened and translated using specialized relic stones like the Stone of Relu."
+   "answer": "Flagongut believes the fossils hold a hidden power and secrets of the past, and that the Stone of Relu is the key to unlocking them."
   }
  ],
  "angles": [

@@ -16,7 +16,7 @@
   },
   {
    "title": "Thermaplugg's Throneroom",
-   "body": "Following the disastrous radiation venting that drove the gnomes into exile, Mekgineer Sicco Thermaplugg claimed the chamber as his own. Styling himself the King of Gnomeregan, the mad inventor now sits in the Tinkers' Court surrounded by twisted contraptions, loyal leper gnomes, and bomb dispensers. From this desecrated council hall, he directs his remaining forces, making the court the final and most dangerous threshold for any strike team seeking to end his rule.",
+   "body": "Following the disastrous radiation venting that drove the gnomes into exile, Mekgineer Thermaplugg claimed the chamber as his own. Styling himself the King of Gnomeregan, the mad inventor now sits in the Tinkers' Court surrounded by twisted contraptions, loyal leper gnomes, and bomb dispensers. From this desecrated council hall, he directs his remaining forces, making the court the final and most dangerous threshold for any strike team seeking to end his rule.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "boss in tinkers court",
     "thermaplugg room"
    ],
-   "answer": "Mekgineer Sicco Thermaplugg currently occupies the court. Calling himself the King of Gnomeregan, he holds the chamber alongside his defensive machinery and irradiated minions."
+   "answer": "Mekgineer Thermaplugg currently occupies the court. Calling himself the King of Gnomeregan, he holds the chamber alongside his defensive machinery and irradiated minions."
   },
   {
    "q": "Where is the court located within Gnomeregan?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Standing in the Tinkers' Court is a painful reminder of betrayal; this room was once where gnomish leaders gathered before Sicco Thermaplugg seized it amidst irradiated ruin."
+   "text": "Standing in the Tinkers' Court is a painful reminder of betrayal; this room was once where gnomish leaders gathered before Mekgineer Thermaplugg seized it amidst irradiated ruin."
   },
   {
    "target": "profession:Engineering",

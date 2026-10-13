@@ -11,7 +11,7 @@
  "sections": [
   {
    "title": "A Conquered Mound",
-   "body": "Built by the Stonemaul ogres to serve as their main mound and sanctuary, the Den of Flame bears the unmistakable, rough-hewn stone architecture of ogre masonry. However, when the black dragonflight laid waste to the Stonemaul clan's settlement, the brood did not merely scatter the ogres\u2014they seized the stronghold for themselves. Today, black dragonspawn patrol the burning perimeter and cavern entrance under the shadow of Onyxia's nearby lair. Despite the infestation, vestiges of the former masters remain inside, including an abandoned Stonemaul clan banner left behind in the chaos.",
+   "body": "Built by the Stonemaul ogres to serve as their main mound and sanctuary, the Den of Flame bears the unmistakable, rough-hewn stone architecture of ogre masonry. However, when the black dragonflight laid waste to the Stonemaul clan's settlement, the brood did not merely scatter the ogres\u2014they seized the stronghold for themselves. Today, black dragonspawn patrol the burning perimeter and cavern entrance under the shadow of Onyxia's nearby lair.",
    "spoiler": 0
   }
  ],
@@ -37,16 +37,15 @@
   {
    "q": "Can the Stonemaul ogres reclaim the cave?",
    "aliases": [
-    "stonemaul banner",
     "reclaiming the den"
    ],
-   "answer": "The surviving Stonemaul ogres, now displaced to Brackenwall Village, still consider the cavern sacred ground. They seek brave champions to venture inside and recover their lost clan banner from the dragonspawn."
+   "answer": "Not for now. The surviving Stonemaul ogres have settled at Brackenwall Village alongside the Horde, while the black dragonspawn hold their old mound in force."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Stonemaul ogres are sworn allies of the Horde; clearing out the dragonkin and retrieving their clan banner from the Den of Flame helps avenge their fallen settlement."
+   "text": "The Stonemaul ogres are sworn allies of the Horde; clearing out the dragonkin in the Den of Flame helps avenge their fallen settlement."
   }
  ],
  "keywords": [
@@ -55,7 +54,6 @@
   "dragonspawn",
   "dustwallow marsh",
   "onyxia",
-  "stonemaul banner",
   "stonemaul ruins"
  ],
  "related": [

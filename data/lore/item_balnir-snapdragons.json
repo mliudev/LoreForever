@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Bloom in Ruin",
-   "body": "Originally tended by Vara Balnir before the fall of Lordaeron, these colorful blooms miraculously endured the death of the Balnir family and the rise of the Scourge. Even when Prince Arthas returned to the desecrated homestead to raise his steed Invincible, the snapdragons remained in full flower, untainted by the rot claiming the surrounding kingdom. Their enduring vitality against dark magic makes them a striking landmark amid the decay of Tirisfal Glades.",
+   "body": "These colorful blooms still grow in the garden of the Balnir Farmstead, a homestead in eastern Tirisfal Glades left in ruin by the fall of Lordaeron and the rise of the Scourge. Lying so close to the Plaguelands to the east, the garden sits right where the Lich King's blight presses against Tirisfal, which makes its flowers a telling place to look for the spread of that corruption.",
    "spoiler": 0
   },
   {
@@ -46,18 +46,16 @@
    "q": "Who originally grew these flowers?",
    "aliases": [
     "who planted balnir snapdragons",
-    "vara balnir flowers",
     "balnir family snapdragons"
    ],
-   "answer": "They were the pride and joy of Vara Balnir, who cultivated them at her family's farm before the third war wiped out Lordaeron's rural settlements."
+   "answer": "They grow in the garden of the Balnir Farmstead, the family homestead that gives them their name. The farm was ruined along with the rest of Lordaeron's countryside when the Scourge swept through."
   },
   {
    "q": "Did the Scourge destroy the Balnir flowers?",
    "aliases": [
-    "did plague kill snapdragons",
-    "arthas balnir flowers"
+    "did plague kill snapdragons"
    ],
-   "answer": "No. Remarkably, the snapdragons stayed in full bloom even after the Balnirs were slain. Arthas noted their survival when he returned to the homestead to raise his horse Invincible, though he avoided touching them lest his deathly presence wither the petals."
+   "answer": "No. Snapdragons still grow in the farmstead's garden, which is exactly why Anastasia Hartwell sends for them: studied so close to the Plaguelands, they can show whether the plague has entered Tirisfal Glades."
   }
  ],
  "angles": [
@@ -74,11 +72,9 @@
   "anastasia hartwell",
   "balnir farmstead",
   "balnir snapdragons",
-  "invincible",
   "mage quarter",
   "plaguelands",
-  "tirisfal glades",
-  "vara balnir"
+  "tirisfal glades"
  ],
  "related": [
   "subzone:balnir-farmstead",

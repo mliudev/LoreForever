@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Roland's Doom"
  },
- "summary": "Roland's Doom is an abandoned, shadow-drenched mine tucked into the southeastern hills of Duskwood, just east of the Rotting Orchard. Once an ordinary delve, it has become infamous as the tragic resting place of the night elf priestess Velinde Starsong and a focal point for the worgen curse spreading across the forest.",
+ "summary": "Roland's Doom is an abandoned, shadow-drenched mine tucked into the southeastern hills of Duskwood, just east of the Rotting Orchard. Once an ordinary delve, it has become infamous as a dangerous den overrun by savage worgen.",
  "sections": [
   {
    "title": "A Den of Shadows and Savagery",
@@ -16,7 +16,7 @@
   },
   {
    "title": "The Fall of Velinde Starsong",
-   "body": "The true tragedy of Roland's Doom lies buried deep within its tunnels. It was here that the night elven priestess Velinde Starsong met her end while carrying the Scythe of Elune, an ancient artifact of immense and volatile power. Later, the terrified wanderer Jitters stumbled upon the scythe inside the delve, accidentally unleashing an escalation of savage worgen and drawing the deadly Dark Riders to Duskwood. Disturbed dirt within the mine can still stir the lingering spirit of Velinde to speak of her final moments.",
+   "body": "The true tragedy of Roland's Doom lies buried deep within its tunnels. It was here that the night elven priestess Velinde Starsong met her end while carrying the Scythe of Elune, an ancient artifact of immense and volatile power. Disturbed dirt within the mine can still stir the lingering spirit of Velinde to speak of her final moments. Later, the terrified wanderer Jitters stumbled upon the scythe inside the delve, accidentally unleashing an escalation of savage worgen and drawing the deadly Dark Riders to Duskwood.",
    "spoiler": 1
   }
  ],
@@ -57,7 +57,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The tragic demise of Priestess Velinde Starsong within this mine makes Roland's Doom a site of somber reflection and sorrow for night elves investigating the fate of their kin and the elusive Scythe of Elune."
+   "text": "The search for the missing priestess Velinde Starsong and the elusive Scythe of Elune makes Roland's Doom a site of somber reflection for night elves investigating the fate of their kin."
   },
   {
    "target": "profession:Mining",
@@ -80,9 +80,9 @@
   "quest:1044",
   "quest:1037",
   "topic:worgen",
-  "npc:jitters",
   "subzone:rotting-orchard",
   "zone:duskwood",
+  "npc:jitters",
   "topic:dark-riders"
  ],
  "attribution": [

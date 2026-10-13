@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "A Bandit Haven in the Red Rocks",
-   "body": "Carved deep into the crags east of Orgrimmar, Drygulch Ravine is almost entirely cut off from casual travel. Its only ground-level access is a cramped natural tunnel connected to Razorwind Canyon. Fed by a modest river, this sheltered depression once saw peaceful orc habitation, but wild beasts and roosting Dustwind harpies have turned it into a lawless pocket of Durotar. The winged scavengers use the steep cliff faces to nest their broods and stockpile stolen goods taken from Horde supply trains passing along the regional trails.",
+   "body": "Carved deep into the crags east of Orgrimmar, Drygulch Ravine is almost entirely cut off from casual travel. Its only ground-level access is a cramped natural tunnel connected to Razorwind Canyon. Roosting Dustwind harpies have turned this sheltered depression into a lawless pocket of Durotar. The winged scavengers use the steep cliff faces to nest their broods and stockpile stolen goods taken from Horde supply trains passing along the regional trails.",
    "spoiler": 0
   },
   {
    "title": "A Thorn in Durotar's Side",
-   "body": "Life in Drygulch Ravine has long been precarious. Not long after the Third War, escaped thunder lizards from Thunder Ridge threatened the area, prompting warnings to Warchief Thrall in Orgrimmar. Today, the harpies pose the immediate danger. Their matriarchs fiercely defend clutches of eggs tucked along the high ledges, and Horde scouts frequently dispatch young warriors to cull the flock, recover plundered trade crates, and break the harpies' grip on the ravine.",
+   "body": "The harpies pose the immediate danger. Their matriarchs fiercely defend clutches of eggs tucked along the high ledges, and Horde scouts frequently dispatch young warriors to cull the flock, recover plundered trade crates, and break the harpies' grip on the ravine.",
    "spoiler": 0
   }
  ],
@@ -47,14 +47,6 @@
     "horde interest in drygulch"
    ],
    "answer": "The Dustwind harpies raid Durotar's vital trade trails, hoarding stolen cargo in the gorge. Horde authorities in Razor Hill regularly send recruits to recover provisions and cull the flock."
-  },
-  {
-   "q": "Did thunder lizards once attack the ravine?",
-   "aliases": [
-    "thunder lizards drygulch",
-    "drygulch history lizards"
-   ],
-   "answer": "Yes. A few years after the Third War, agitated thunder lizards broke out of nearby Thunder Ridge and threatened Drygulch Ravine, forcing local orcs to seek military aid from Warchief Thrall in Orgrimmar."
   }
  ],
  "angles": [
@@ -74,18 +66,14 @@
   "harpy nests",
   "orgrimmar",
   "razorwind canyon",
-  "stolen supplies",
-  "thunder ridge"
+  "stolen supplies"
  ],
  "related": [
   "subzone:razorwind-canyon",
-  "subzone:thunder-ridge",
   "quest:834",
   "quest:835",
   "zone:durotar",
-  "zone:orgrimmar",
-  "npc:thrall",
-  "topic:third-war"
+  "zone:orgrimmar"
  ],
  "attribution": [
   "Drygulch Ravine"

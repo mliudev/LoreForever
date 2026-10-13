@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "A Boy on the Throne",
-   "body": "Born in the peaceful interlude following the Second War, Prince Anduin was named in honor of both his grandfather King Llane and the legendary knight Sir Anduin Lothar. Following the death of his mother, Queen Tiffin, and the mysterious disappearance of his father en route to a diplomatic summit in Theramore, the child was abruptly crowned to maintain stability throughout the kingdom. Though intelligent and empathetic beyond his years, the ten-year-old monarch has little actual say in state affairs, leaving rule of the realm divided between Highlord Bolvar Fordragon and royal councilor Lady Katrana Prestor.",
+   "body": "Born in the peaceful interlude following the Second War, Prince Anduin was named in honor of both his grandfather King Llane and the legendary knight Sir Anduin Lothar. Following the mysterious disappearance of his father en route to a diplomatic summit in Theramore, the child was abruptly crowned to maintain stability throughout the kingdom. Though intelligent and empathetic beyond his years, the ten-year-old monarch has little actual say in state affairs, leaving rule of the realm divided between Highlord Bolvar Fordragon and royal councilor Lady Katrana Prestor.",
    "spoiler": 0
   },
   {
@@ -66,7 +66,7 @@
   },
   {
    "target": "race:Human",
-   "text": "For the people of Stormwind, the boy-king represents the survival of the Wrynn dynasty, carrying the memory of his fallen mother Tiffin and missing father Varian."
+   "text": "For the people of Stormwind, the boy-king represents the survival of the Wrynn dynasty, standing in for his missing father Varian."
   }
  ],
  "keywords": [
@@ -84,7 +84,6 @@
   "npc:bolvar-fordragon",
   "topic:varian-wrynn",
   "npc:onyxia",
-  "npc:tiffin-ellerian-wrynn",
   "topic:anduin-lothar",
   "topic:stormwind-kingdom",
   "quest:1431"

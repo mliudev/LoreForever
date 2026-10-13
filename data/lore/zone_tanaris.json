@@ -16,7 +16,7 @@
  "sections": [
   {
    "title": "A Sea of Dunes",
-   "body": "Before the Great Sundering shattered the world, this expanse was a lush jungle settled by early tauren and claimed by the Gurubashi Empire. The cataclysm stripped the land of its canopy, leaving a barren, sun-scorched wilderness. Stranded by the shifting geography, the local trolls adapted into the hardened Sandfury tribe, carving out their isolated empire within the walled city of Zul'Farrak. Today, the desert floor is ruled by hyenas, basilisks, and scorpids, while subterranean tunnels snake beneath the baking earth.",
+   "body": "Tanaris is a barren, sun-scorched wilderness. Within the walled city of Zul'Farrak, the hardened Sandfury trolls guard their isolated domain. Today, the desert floor is ruled by hyenas, basilisks, and scorpids, while subterranean tunnels snake beneath the baking earth.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "getting to tanaris",
     "tanaris entrance"
    ],
-   "answer": "Travelers must journey through Thousand Needles into the Shimmering Flats. A mountain pass carved through the cliffs at the southern end of the salt flats leads directly down into the desert, bringing you immediately within sight of Gadgetzan's walls."
+   "answer": "Travelers on foot journey through Thousand Needles into the Shimmering Flats. A mountain pass carved through the cliffs at the southern end of the salt flats leads directly down into the desert, bringing you immediately within sight of Gadgetzan's walls. A ship also sails from Powderfuse Port in the Riverglades to Steamwheedle Port on the eastern coast."
   },
   {
    "q": "Why is Gadgetzan neutral to both factions?",
@@ -56,7 +56,7 @@
     "who lives in zulfarrak",
     "sand troll city"
    ],
-   "answer": "Zul'Farrak is the fortified desert capital of the Farraki sand trolls. Isolated here since the Great Sundering transformed their ancestral jungle into an arid wasteland, the Sandfury tribe turned hostile to all outsiders, guarding their sacred pools and mysterious shrines from encroaching adventurers."
+   "answer": "Zul'Farrak is the fortified desert capital of the Sandfury trolls. Long isolated in the desert, the Sandfury tribe turned hostile to all outsiders, guarding their sacred pools and mysterious shrines from encroaching adventurers."
   },
   {
    "q": "What are the insect creatures nesting across the desert?",
@@ -97,7 +97,7 @@
   },
   {
    "target": "race:Troll",
-   "text": "Seeing the Sandfury of Zul'Farrak offers trolls a stark look at their ancient cousins, who mutated and hardened into a brutal culture after being cut off by the Sundering."
+   "text": "Seeing the Sandfury of Zul'Farrak offers trolls a stark look at their ancient cousins, who hardened into a brutal culture in the isolation of the desert."
   },
   {
    "target": "faction:Alliance",

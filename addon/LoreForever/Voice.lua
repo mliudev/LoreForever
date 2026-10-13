@@ -31,8 +31,9 @@ end
 -- Recorded narration comes from voice packs (see Packs.lua). The player keeps an ordered list of voices (voiceOrder,
 -- with "auto" standing for the default pack of the reading language) and can untick some (voiceOff). Each clip plays
 -- from the first ticked voice that has a current recording of it, then nothing (what no voice recorded stays as
--- text). A pack's clip is used only while it was recorded from the current text (its hash matches
--- ns.DB.clipHash), so a recording never contradicts the page. Packs are partial: most cover only some clips.
+-- text). Our narrators' clips are used only while they were recorded from the current text (the hash matches
+-- ns.DB.clipHash), so a recording never contradicts the page; a community pack's clips carry the words they were
+-- recorded from and always play with them (Voice.ScopedClip). Packs are partial: most cover only some clips.
 local DEFAULT_PACK = "LoreForever_Voice_Default"
 local QUEST_GIVERS = "LoreForever_Voice_QuestGivers"   -- the quest givers' voices (LOR-225, see giverClip)
 -- Where players get voice packs (the site's Downloads page). Players type it, so keep it short.
@@ -365,39 +366,53 @@ local function withExtensions(name)
   return out
 end
 
--- A contributed take may read an overview body without a separate title (the summary alone when the entry has no
--- spoiler-free section), or only an answer. Its spoken hash
--- stays distinct from the standard script hash. sourceHash binds it to the current page; exact field comparisons
--- also reject overlays and reordered/reflagged sections. It never qualifies as a complete-story recording.
+-- A community voice is a text and voice pack (Mike, 10/12: "it's bad if only text shows just because our text
+-- changes"). Its Clips.lua carries, beside each recording, the exact words it was recorded from (P.scopedClips):
+--   scope "overview-body": name, summary and the section read (sectionIndex), or the summary alone (no section)
+--   scope "answer-only":   the answer read, with its question
+--   scope "script":        text, the whole script read (a studio or lent voice's take of a story or an answer)
+-- Such a recording always plays with its own words, whatever our English or translation says now: they are what the
+-- read-along shows (Voice.lastClip.text, title). It needs only its entry (and, for an answer, that answer's place) to
+-- still be in our data, and the pack in the language shown; our spoiler flags still gate answers (UI.CanPlayClip).
+-- sourceHash, where a pack has it, only says the page showed exactly these words when the pack was built (add-ons
+-- before this rule required it). Our own narrators keep their hash check: theirs re-record overnight.
+-- A scoped take never qualifies as a complete-story recording.
+local function words(s) return type(s) == "string" and s:find("%S") ~= nil end
 function Voice.ScopedClip(id, pack)
   local data, db, lang = ns.Packs.data[pack], ns.DB, ns.lang
   local row = data and data.scopedVersion == 1 and type(data.scopedClips) == "table" and data.scopedClips[id]
-  if type(row) ~= "table" or row.hash ~= data.clips[id] or not db or not lang or lang.edition then return nil end
+  if type(row) ~= "table" or row.hash ~= data.clips[id] or not db or not db.entries or not lang or lang.edition then
+    return nil
+  end
   local base, n = id:match("^(.-)#faq(%d+)$")
-  base = base or id
-  local e, rec = db.entries[base], ns.Packs.Get(pack)
-  if not e or not rec or not sameLanguage(rec.locale, readingLocale()) or not (lang.merged and lang.merged[base])
-    or not db.clipHash or row.sourceHash ~= db.clipHash[id] or e.n ~= row.name then return nil end
-  if row.scope == "answer-only" and n then
-    local f = e.faq and e.faq[tonumber(n)]
-    if f and (f.sp or 0) == 0 and f.q == row.question and f.a == row.answer then return row, f.a end
-  elseif row.scope == "overview-body" and not n and e.s == row.summary then
-    for i, section in ipairs(e.sec or {}) do
-      if (section.sp or 0) == 0 then
-        if i == row.sectionIndex and section.b == row.section then return row, e.s .. " " .. section.b end
-        return nil
-      end
-    end
-    -- No spoiler-free section: a take without one (no sectionIndex) reads the summary alone.
-    if row.sectionIndex == nil and row.section == nil then return row, e.s end
+  local e, rec = db.entries[base or id], ns.Packs.Get(pack)
+  if not e or not rec or not sameLanguage(rec.locale, readingLocale()) then return nil end
+  if n and not (e.faq and e.faq[tonumber(n)]) then return nil end   -- no answer there for it to be heard from
+  if row.scope == "answer-only" and n and words(row.answer) then
+    return row, row.answer, words(row.question) and row.question or nil
+  elseif row.scope == "overview-body" and not n and words(row.summary) then
+    local title = words(row.name) and row.name or nil
+    if words(row.section) then return row, row.summary .. " " .. row.section, title end
+    if row.section == nil then return row, row.summary, title end
+  elseif row.scope == "script" and words(row.text) then
+    return row, row.text, words(row.title) and row.title or nil
   end
 end
 
 function Voice.ClipCurrent(id, pack, expected)
   local data = ns.Packs.data[pack]
-  if not data or not expected then return false end
-  if data.scopedClips and data.scopedClips[id] then return Voice.ScopedClip(id, pack) ~= nil end
-  return data.clips[id] == expected
+  if not data then return false end
+  if type(data.scopedClips) == "table" and data.scopedClips[id] then return Voice.ScopedClip(id, pack) ~= nil end
+  return expected ~= nil and data.clips[id] == expected
+end
+
+-- The clip ids a pack's own words make playable (Voice.ScopedClip), whether or not our data still has a hash for
+-- them: Voice.Refresh walks these as well as ns.DB.clipHash.
+local function scopedIds(pack, into)
+  local data = ns.Packs.data[pack]
+  if data and data.scopedVersion == 1 and type(data.scopedClips) == "table" then
+    for id in pairs(data.scopedClips) do into[id] = true end
+  end
 end
 
 -- Count distinct lore recording IDs across a narrator's packs. A current copy wins over an outdated duplicate.
@@ -597,7 +612,15 @@ function Voice.Refresh()
   end
   local stats, total, provided, ranked = {}, 0, {}, {}
   for _, name in ipairs(chain) do stats[name] = { have = 0, stale = 0, plays = 0 } end
-  for id, hash in pairs((ns.DB and ns.DB.clipHash) or {}) do
+  -- Every clip our data has a hash for, and every one a community pack in the chain brings its own words for (the
+  -- text it was recorded from: Voice.ScopedClip), even where our English or translation no longer has one.
+  local hashes, ids = (ns.DB and ns.DB.clipHash) or {}, {}
+  for id in pairs(hashes) do ids[id] = true end
+  for _, name in ipairs(chain) do
+    for _, pack in ipairs(packsOf[name]) do scopedIds(pack, ids) end
+  end
+  for id in pairs(ids) do
+    local hash = hashes[id]
     total = total + 1
     for _, name in ipairs(chain) do
       local paths
@@ -1522,8 +1545,11 @@ function Voice.Play(key, options)
           hash = whole and whole.fullHash or (transport and (transport.row.fullHash or transport.row.hash) or (data and data.clips and data.clips[key])),
           text = whole and whole.text or (transport and transport.row.text or nil),
           duration = whole and whole.duration or nil }
-        local scoped, scopedText = Voice.ScopedClip(key, pack)
-        if scoped then Voice.lastClip.text, Voice.lastClip.scope = scopedText, scoped.scope end
+        -- A community recording plays with its own words: its text and title are what the read-along shows.
+        local scoped, scopedText, scopedTitle = Voice.ScopedClip(key, pack)
+        if scoped then
+          Voice.lastClip.text, Voice.lastClip.scope, Voice.lastClip.title = scopedText, scoped.scope, scopedTitle
+        end
         if ns.lang and ns.lang.edition then
           local base, original = key:match("^(.-)#faq(%d+)$")
           local e = ns.DB.entries[base or key]

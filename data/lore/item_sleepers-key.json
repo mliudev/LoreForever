@@ -10,7 +10,7 @@
    "quest:1089"
   ]
  },
- "summary": "The Sleepers' Key is one of three enchanted keys crafted by night elf druids to seal their sacred vault within the Talon Den atop Stonetalon Peak. Kept safe inside a hidden cache locked by the Gatekeeper's Key, it represents the slumbering druids of the wild who guard the mountain's deepest secrets.",
+ "summary": "The Sleepers' Key is one of three enchanted keys crafted by night elf druids to seal their sacred vault within the Talon Den atop Stonetalon Peak. Kept safe inside a hidden cache opened with the Gatekeeper's Key, it is one of the three keys needed to open the druids' hoard.",
  "sections": [
   {
    "title": "A Druidic Safeguard",
@@ -52,13 +52,13 @@
     "who are the sleepers",
     "sleepers key name meaning"
    ],
-   "answer": "It is named after the sleeping druids who enter deep trances to wander the Emerald Dream. Much like the Barrow Key and Claw Key, its name honors the sacred duties and traditions of the night elf circles stationed in the mountains."
+   "answer": "The druids never explain the name. The key simply shares it with the Sleepers' Cache, the hidden chest in the Talon Den where it is kept."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The keys and caches of the Talon Den showcase the night elf druids' layered defenses, utilizing their ancient knowledge of the Emerald Dream and the barrows to seal away relics of power."
+   "text": "The keys and caches of the Talon Den showcase the night elf druids' layered defenses, using hidden caches and keyed locks to seal away relics of power."
   },
   {
    "target": "faction:Horde",

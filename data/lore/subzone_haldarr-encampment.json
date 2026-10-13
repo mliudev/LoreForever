@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Haldarr Encampment"
  },
- "summary": "The Haldarr Encampment is a corrupted satyr outpost nestled in western Azshara, situated northeast of the Shadowsong Shrine and southwest of Valormok. Densely inhabited by the vicious Haldarr satyrs, it stands as a dangerous blight among the ancient elven ruins. It is also the site where an injured Night Elf Sentinel, Keldara Sunblade, is held captive.",
+ "summary": "The Haldarr Encampment is a corrupted satyr outpost nestled in western Azshara, situated northeast of the Shadowsong Shrine and southwest of Valormok. Densely inhabited by the vicious Haldarr satyrs, it stands as a dangerous blight among the ancient elven ruins. It is also where an injured Night Elf Sentinel, Keldara Sunblade, can be found.",
  "sections": [
   {
    "title": "A Den of Demon-Spawn",
@@ -16,7 +16,7 @@
   },
   {
    "title": "The Captured Sentinel",
-   "body": "Amid the encampment's fiendish inhabitants lies Sentinel Keldara Sunblade, stranded and injured in the heart of enemy territory. Her presence within the camp makes the Haldarr Encampment an urgent concern for those seeking to disrupt the satyrs' foul activities and unravel why she remains pinned down among demonic captors.",
+   "body": "Amid the encampment's fiendish inhabitants lies Sentinel Keldara Sunblade, injured in the heart of enemy territory. Why she lingers among the satyrs is not recorded.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "injured night elf",
     "who is the captive here"
    ],
-   "answer": "Sentinel Keldara Sunblade is a wounded Night Elf found held inside the Haldarr Encampment, surrounded by hostile satyrs who keep her trapped within their territory."
+   "answer": "Sentinel Keldara Sunblade is a wounded Night Elf Sentinel found inside the Haldarr Encampment, surrounded by hostile satyrs. Why she is there is not recorded."
   },
   {
    "q": "Why is this camp dangerous to nearby travelers?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, the Haldarr satyrs are a shameful, enduring reminder of the ancient Highborne's descent into demonic madness, and saving Sentinel Keldara Sunblade from their clutches is a matter of duty."
+   "text": "For the Kaldorei, the Haldarr satyrs are a shameful, enduring reminder of the ancient Highborne's descent into demonic madness."
   },
   {
    "target": "faction:Horde",

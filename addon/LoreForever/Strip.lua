@@ -1,6 +1,7 @@
 -- Live game info for the companion app (LOR-416): a tiny block of solid-colour cells in the top-left corner of the
 -- screen that the Lore Forever companion on this PC reads several times a second, so Willo knows where you are and what
--- you're fighting right away instead of after a /reload. Off until the player ticks Options > Live game info.
+-- you're fighting right away instead of after a /reload. Off until the player ticks Options > Live game info, and then
+-- shown only while the Lore Forever panel is open, unless they also tick "show it all the time" (Strip.Showing).
 -- (LOR-57: SavedVariables reach the disk only on /reload or logout, the chat log only at logout, and add-ons can't
 -- follow the combat log, so nothing else gets game state out while you play.)
 --
@@ -384,13 +385,23 @@ local function create()
   end)
 end
 
--- Whether the block is on.
+-- Whether the player turned Live game info on.
 function Strip.On() return S().liveStrip == true end
 
--- Show or hide the block to match the setting (Core.lua at login, Options, /lore live); with it off, nothing is
--- registered and nothing runs.
+-- Whether the block is on screen now: with Live game info on, only while the Lore Forever panel is open, unless the
+-- player chose to show it all the time (liveStripAlways). Some players took a block of squares that's always there
+-- for something hacking the game; this way it shows only while they're using Lore Forever.
+function Strip.Showing()
+  if not Strip.On() then return false end
+  if S().liveStripAlways == true then return true end
+  local UI = ns.UI
+  return UI and UI.frame and yes(try(UI.frame.IsShown, UI.frame)) or false
+end
+
+-- Show or hide the block to match the settings and the panel (Core.lua at login, Options, /lore live, the panel's
+-- OnShow and OnHide in UI.lua); while it's hidden, nothing is registered and nothing runs.
 function Strip.Update()
-  if not Strip.On() then
+  if not Strip.Showing() then
     if frame then
       frame:UnregisterAllEvents()
       frame:Hide()

@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-09",
+ "generated": "2026-10-12",
  "forever_only": {
-  "quests_known": 135,
-  "quests_with_text": 116,
+  "quests_known": 142,
+  "quests_with_text": 123,
   "narrated": 115,
   "npcs_known": 223,
-  "npcs_with_text": 1
+  "npcs_with_text": 5
  },
  "zones": [
   {
@@ -23,6 +23,13 @@
    "narrated": 25
   },
   {
+   "zone": "Other",
+   "key": "general",
+   "quests": 16,
+   "with_text": 16,
+   "narrated": 9
+  },
+  {
    "zone": "Wetlands",
    "key": "wetlands",
    "quests": 13,
@@ -35,13 +42,6 @@
    "quests": 12,
    "with_text": 12,
    "narrated": 12
-  },
-  {
-   "zone": "Other",
-   "key": "general",
-   "quests": 9,
-   "with_text": 9,
-   "narrated": 9
   },
   {
    "zone": "Dun Morogh",
@@ -296,20 +296,6 @@
    "name": "Thundering Hearts",
    "zone": "Undercity",
    "level": 33
-  },
-  {
-   "kind": "npc",
-   "id": 251362,
-   "name": "Ailee Farheart",
-   "zone": "Zephras Isle",
-   "level": 1
-  },
-  {
-   "kind": "npc",
-   "id": 251361,
-   "name": "Rorian the Dayseeker",
-   "zone": "Zephras Isle",
-   "level": 1
   },
   {
    "kind": "npc",
@@ -644,13 +630,6 @@
    "kind": "npc",
    "id": 258930,
    "name": "Isaac Chan",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 277024,
-   "name": "Jelinek Sharpshear",
    "zone": null,
    "level": null
   },

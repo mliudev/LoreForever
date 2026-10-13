@@ -38,7 +38,7 @@
     "where is elder bloodhoof",
     "bloodhoof elder spot"
    ],
-   "answer": "Elder Bloodhoof stands illuminated by a beam of celestial light just outside Bloodhoof Village in Mulgore, near the bridge and Ahab Wheathoof."
+   "answer": "Elder Bloodhoof stands illuminated by a beam of celestial light just outside Bloodhoof Village in Mulgore, near the bridge."
   },
   {
    "q": "What is the purpose of seeking out Elder Bloodhoof?",
@@ -47,7 +47,7 @@
     "bloodhoof elder purpose",
     "what does elder bloodhoof give"
    ],
-   "answer": "Travelers seek out Elder Bloodhoof during the Lunar Festival to pay their respects to the ancestors. In recognition of this honor, the spirit rewards visitors with a Coin of Ancestry and wisdom about neighboring spirits, such as Elder Wheathoof."
+   "answer": "Travelers seek out Elder Bloodhoof during the Lunar Festival to pay their respects to the ancestors. In recognition of this honor, the spirit rewards visitors with a Coin of Ancestry and wisdom about neighboring spirits, such as Elder Proudhorn."
   },
   {
    "q": "Why is there a beam of light shining down on him?",
@@ -66,12 +66,12 @@
    "answer": "The Lunar Festival ancestors honor all mortals who show reverence, regardless of faction. However, Alliance travelers must tread carefully, as Elder Bloodhoof is located right on the doorstep of Horde territory."
   },
   {
-   "q": "Who is Elder Wheathoof that this elder mentions?",
+   "q": "Who is Elder Proudhorn that this elder mentions?",
    "aliases": [
     "elder wheathoof",
     "who is wheathoof"
    ],
-   "answer": "Elder Wheathoof is another ancestral spirit honoring the festival, located elsewhere in Mulgore. Elder Bloodhoof can provide guidance on where to seek him out."
+   "answer": "Elder Proudhorn is another ancestral spirit honoring the festival, located in Thunder Bluff. Elder Bloodhoof can provide guidance on where to seek him out."
   },
   {
    "q": "What do the Coins of Ancestry represent?",
@@ -101,7 +101,6 @@
   }
  ],
  "keywords": [
-  "ahab wheathoof",
   "ancestor",
   "bloodhoof village",
   "coin of ancestry",

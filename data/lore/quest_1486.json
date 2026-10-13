@@ -75,7 +75,7 @@
     "is deviate hides alliance",
     "can alliance do deviate hides"
    ],
-   "answer": "Nalpak is a disciple of Naralex and belongs to the Cenarion Circle. He remains neutral and will accept aid from any capable adventurer, whether Alliance or Horde, who is brave enough to enter the corrupted caves."
+   "answer": "Nalpak is a tauren druid and one of the Disciples of Naralex. He remains neutral and will accept aid from any capable adventurer, whether Alliance or Horde, who is brave enough to enter the corrupted caves."
   },
   {
    "q": "What happened to Naralex?",
@@ -90,7 +90,7 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Nalpak's camp represents the Cenarion Circle's grim vigil over an initiative gone terribly wrong, making the task of containing the cavern's mutations personal for fellow druids."
+   "text": "Nalpak's camp represents the surviving disciples' grim vigil over an initiative gone terribly wrong, making the task of containing the cavern's mutations personal for fellow druids."
   },
   {
    "target": "profession:Herbalism",
@@ -99,7 +99,6 @@
  ],
  "keywords": [
   "barrens",
-  "cenarion circle",
   "deviate",
   "deviate hides",
   "emerald nightmare",

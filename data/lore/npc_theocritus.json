@@ -8,11 +8,11 @@
   "wiki": "Theocritus",
   "refs": 3
  },
- "summary": "Archmage Theocritus is an eccentric human wizard who resides at the peak of the Tower of Azora in eastern Elwynn Forest. Formerly affiliated with the Kirin Tor of Dalaran, he now lives independently, surrounded by servants and magical scrying devices. From his high sanctum, Theocritus directs his arcane talents toward keeping watch over the kingdom and combating his dark rival, the rogue mage Morganth.",
+ "summary": "Archmage Theocritus is an eccentric human wizard who resides at the peak of the Tower of Azora in eastern Elwynn Forest. He lives independently, surrounded by servants and magical scrying devices. From his high sanctum, Theocritus directs his arcane talents toward keeping watch over the kingdom and combating his dark rival, the rogue mage Morganth.",
  "sections": [
   {
    "title": "Master of the Tower",
-   "body": "Once a member of Dalaran's prestigious Kirin Tor, Archmage Theocritus chose to establish an independent stronghold far to the south in the kingdom of Stormwind. He settled in the prominent Tower of Azora, situated near the eastern road to Redridge. Theocritus is known for his eccentric habits and comfortable lifestyle, employing an extensive household staff that includes numerous gnomish attendants and his own dedicated clothier, Morley Eberlein. Though he keeps himself largely detached from the mundane concerns of local villagers, his presence serves as a critical magical bulwark in eastern Elwynn.",
+   "body": "Archmage Theocritus keeps an independent stronghold in the kingdom of Stormwind. He settled in the prominent Tower of Azora, situated near the eastern road to Redridge. Theocritus is known for his eccentric habits and comfortable lifestyle, employing an extensive household staff that includes numerous gnomish attendants and his own dedicated clothier, Morley Eberlein. Though he keeps himself largely detached from the mundane concerns of local villagers, his presence serves as a critical magical bulwark in eastern Elwynn.",
    "spoiler": 0
   },
   {
@@ -29,16 +29,14 @@
     "who is the mage in the tower",
     "tower of azora mage"
    ],
-   "answer": "Archmage Theocritus is a former Kirin Tor wizard who makes his home in the Tower of Azora in eastern Elwynn Forest. He lives an eccentric, somewhat isolated life, focusing his arcane craft on safeguarding the region from dark magical threats."
+   "answer": "Archmage Theocritus is an independent human wizard who makes his home in the Tower of Azora in eastern Elwynn Forest. He lives an eccentric, somewhat isolated life, focusing his arcane craft on safeguarding the region from dark magical threats."
   },
   {
-   "q": "Why did Theocritus leave Dalaran?",
+   "q": "Why does Theocritus live in Elwynn Forest?",
    "aliases": [
-    "is theocritus kirin tor",
-    "why is theocritus in elwynn",
-    "theocritus dalaran"
+    "why is theocritus in elwynn"
    ],
-   "answer": "While he once operated within the Kirin Tor alongside peers like Archmage Karlain, Theocritus chose to become an independent practitioner. He relocated to Elwynn Forest to pursue his own studies and maintain his personal sanctum at the Tower of Azora."
+   "answer": "Theocritus is an independent mage who keeps his own sanctum at the Tower of Azora in eastern Elwynn. From there he pursues his studies, attended by his household, and keeps watch on the border with Redridge, where his rival Morganth holds the Tower of Ilgalar."
   },
   {
    "q": "Who is Theocritus fighting against?",
@@ -80,7 +78,7 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Theocritus represents the life of a wizard who operates outside Dalaran's strict hierarchy, demonstrating how solitary masters set up sanctums and conduct long-distance scrying."
+   "text": "Theocritus represents the life of a wizard who works alone rather than within any order, demonstrating how solitary masters set up sanctums and conduct long-distance scrying."
   },
   {
    "target": "faction:Alliance",
@@ -95,7 +93,6 @@
   "archmage",
   "elwynn forest",
   "eye of azora",
-  "karlain",
   "morganth",
   "morley eberlein",
   "shadowhide",
@@ -108,7 +105,6 @@
   "quest:94",
   "quest:249",
   "zone:elwynn",
-  "subzone:dalaran",
   "topic:gnoll",
   "topic:stormwind-kingdom"
  ],

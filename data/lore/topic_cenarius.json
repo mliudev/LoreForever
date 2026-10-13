@@ -16,7 +16,7 @@
   },
   {
    "title": "The First Druid",
-   "body": "Though Cenarius briefly taught ancient night elves and the early tauren, mortal races repeatedly turned away from nature toward arcane monuments. Millennia later, three youths\u2014Malfurion Stormrage, his twin Illidan, and Tyrande Whisperwind\u2014sought out the demigod of legend. Cenarius recognized Malfurion's exceptional heart and trained him as the first mortal druid. When Queen Azshara and her Highborne unleashed the Burning Legion during the War of the Ancients, Cenarius marshaled Kalimdor's wild demigods to fight alongside mortal defenders.",
+   "body": "Millennia ago, three youths\u2014Malfurion Stormrage, his twin Illidan, and Tyrande Whisperwind\u2014sought out the demigod of legend. Cenarius recognized Malfurion's exceptional heart and trained him as the first mortal druid. When Queen Azshara and her Highborne unleashed the Burning Legion during the War of the Ancients, Cenarius marshaled Kalimdor's wild demigods to fight alongside mortal defenders.",
    "spoiler": 0
   },
   {
@@ -67,7 +67,7 @@
     "tauren cenarius",
     "did cenarius teach tauren"
    ],
-   "answer": "Ancient bovine ancestors of the tauren lived on central Kalimdor alongside Cenarius. When they reunited with the demigod in subsequent generations, those who studied under him learned the earliest rudiments of natural druidic magic."
+   "answer": "Tauren druids follow the path Cenarius first taught to Malfurion Stormrage, and through Hamuul Runetotem's place in the Cenarion Circle, the tauren now study his ways alongside the night elves."
   },
   {
    "q": "What is the Cenarion Circle?",
@@ -89,7 +89,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren myth speaks fondly of Cenarius, remembering an ancient kinship and shared reverence for the Earth Mother before the dawn of modern history."
+   "text": "Tauren druids honor Cenarius's teachings, walking his path alongside the night elves of the Cenarion Circle."
   },
   {
    "target": "race:Orc",

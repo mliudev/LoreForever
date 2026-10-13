@@ -16,7 +16,7 @@
   },
   {
    "title": "The Labor Revolt",
-   "body": "Following the Second War, the House of Nobles contracted Guildmaster Edwin VanCleef and the Stonemasons Guild to rebuild Stormwind City from its ashes. However, the nobility simultaneously incurred staggering debts while expanding the kingdom's military frontier south into Stranglethorn. When the gleaming capital was finished, the nobles balked at the invoice and refused to pay the workers their full wages. Enraged by the betrayal, the masons rioted in the streets. A stone thrown during the chaos struck and killed Queen Tiffin Wrynn, prompting the nobility to banish the guild, driving the ruined workers into Westfall to form the Defias Brotherhood.",
+   "body": "Following the Second War, the House of Nobles contracted Guildmaster Edwin VanCleef and the Stonemasons Guild to rebuild Stormwind City from its ashes. However, the nobility simultaneously incurred staggering debts while expanding the kingdom's military frontier south into Stranglethorn. When the gleaming capital was finished, the nobles balked at the invoice and refused to pay the workers their full wages. Enraged by the betrayal, the masons rioted in the streets, prompting the nobility to banish the guild, driving the ruined workers into Westfall to form the Defias Brotherhood.",
    "spoiler": 0
   },
   {
@@ -26,7 +26,7 @@
   },
   {
    "title": "Whispers of Treason",
-   "body": "The council's obstinacy is far from simple greed. In truth, Lady Katrana Prestor—secretly the black dragon Onyxia—has systematically manipulated the House of Nobles to paralyze the kingdom. By stoking the aristocracy's arrogance during the stonemason negotiations and encouraging them to hoard royal funds, she orchestrated both the realm's internal collapse and the King's kidnapping. High-ranking aristocrats like Lord Gregor Lescovar actively conspire alongside the Defias Brotherhood in the shadow of the throne, ensuring no imperial troops march to save the outlying towns.",
+   "body": "The council's obstinacy is far from simple greed. In truth, Lady Katrana Prestor—secretly the black dragon Onyxia—has systematically manipulated the House of Nobles to paralyze the kingdom. By stoking the aristocracy's arrogance during the stonemason negotiations and encouraging them to hoard royal funds, she orchestrated the realm's internal paralysis. High-ranking aristocrats like Lord Gregor Lescovar actively conspire alongside the Defias Brotherhood in the shadow of the throne, ensuring no imperial troops march to save the outlying towns.",
    "spoiler": 1
   }
  ],
@@ -50,13 +50,13 @@
    "answer": "The nobility heavily overextended Stormwind's treasury by financing costly military expeditions southward into Elwynn and Stranglethorn. When Edwin VanCleef presented the bill for rebuilding Stormwind City, the nobles could not pay, offering a fraction of what was promised and eventually ordering the guild disbanded."
   },
   {
-   "q": "Who killed Queen Tiffin Wrynn?",
+   "q": "What happened when the Stonemasons rioted?",
    "aliases": [
-    "how did tiffin die",
-    "queen tiffin death",
-    "who threw the rock at the queen"
+    "stonemason riots",
+    "what happened in the riots",
+    "why were the stonemasons banished"
    ],
-   "answer": "During the stonemason riots sparked by the House of Nobles' refusal to pay, an unidentified rioter threw a paving stone into the crowd. It struck Queen Tiffin Wrynn in the head, killing her instantly and permanently derailing any peaceful negotiations between the crown and the workers."
+   "answer": "When the House of Nobles refused to pay, the stonemasons rioted in the streets of Stormwind. The nobility banished the guild from the city, and the ruined workers fled into Westfall, where they became the Defias Brotherhood."
   },
   {
    "q": "Why won't Stormwind send troops to help Westfall or Duskwood?",
@@ -83,7 +83,7 @@
     "count erlgadin",
     "nobles who supported masons"
    ],
-   "answer": "No. Queen Tiffin Wrynn originally supported the masons, as did Count S. J. Erlgadin, who lobbied fiercely to improve their wages and working conditions. Erlgadin grew so disgusted by his peers' betrayal of the guild that he renounced his title and seat entirely, fleeing society to join Hemet Nesingwary's expedition in Stranglethorn."
+   "answer": "No. Count S. J. Erlgadin supported the masons and lobbied fiercely to improve their wages and working conditions. Erlgadin grew so disgusted by his peers' betrayal of the guild that he renounced his title and seat entirely, fleeing society to join Hemet Nesingwary's expedition in Stranglethorn."
   }
  ],
  "angles": [
@@ -113,7 +113,6 @@
   "katrana prestor",
   "nobles",
   "stonemasons guild",
-  "tiffin wrynn",
   "vancleef"
  ],
  "related": [

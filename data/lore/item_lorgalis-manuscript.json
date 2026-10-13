@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Tome of Those Who Sleep",
-   "body": "Dating back to the grand elven temples that stood before the Great Sundering, the Lorgalis Manuscript survived the cataclysmic flooding that submerged the ruins of Blackfathom. While the elves of antiquity gathered deep secrets, parts of their archives recorded darker powers. The manuscript contains potent lore tied directly to the Old Gods\u2014knowledge said to open mystical doorways and stir ancient entities that sleep deep beneath the world. Stored away in a pitted iron chest amidst the flooded corridors, it has drawn the attention of cultists and shadow scholars alike.",
+   "body": "The Lorgalis Manuscript rests at the bottom of Blackfathom Deeps, the sunken ruins where long-dead elves once dwelt before their city fell. Written by one Lorgalis, it speaks of the Old Gods who raged across Azeroth when the world was new and now lie chained and sleeping, and it praises Aku'mai, a servant of the Old Gods who dwells in the Deeps. Its lore is said to open mystical doorways and stir ancient entities that sleep deep beneath the world. Stored away in a pitted iron chest amidst the flooded corridors, it has drawn the attention of cultists and shadow scholars alike.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "lorgalis book lore",
     "what does the manuscript do"
    ],
-   "answer": "It is an ancient elven text containing dark, esoteric knowledge regarding the Old Gods. Its contents are said to hold the secrets necessary to unlock doorways and awaken slumbering primordial entities."
+   "answer": "It is an old text written by one Lorgalis, containing dark, esoteric knowledge regarding the Old Gods. Its contents are said to hold the secrets necessary to unlock doorways and awaken slumbering primordial entities."
   },
   {
    "q": "Where is the manuscript located?",
@@ -64,11 +64,11 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The manuscript represents a rare bridge between ancient elven arcane lore and forbidden entities of the deep, offering insights coveted by those who traffic in dark arts."
+   "text": "The manuscript represents a rare window into the forbidden lore of the Old Gods and the entities of the deep, offering insights coveted by those who traffic in dark arts."
   },
   {
    "target": "race:NightElf",
-   "text": "The text was penned by ancient night elven ancestors before their temple sank beneath the waves, though its obsession with slumbering dark powers makes it a tragic relic of their civilization's past."
+   "text": "The text lies in the drowned ruins where night elves once dwelt, and its reverence for Aku'mai and the Old Gods shows the dark worship that has taken root among those fallen halls."
   }
  ],
  "keywords": [

@@ -26,12 +26,12 @@
   },
   {
    "title": "Mizzyrix's Ingenuity",
-   "body": "Because the tubers remain completely buried and virtually impossible for ordinary humanoids to spot, the Ratchet merchant Mebok Mizzyrix devised an unusual solution. By training native snufflenose gophers\u2014creatures capable of catching the scent of a buried tuber from fifty paces away\u2014Mizzyrix turned vermin into foraging tools. He supplies scavengers with a command stick, a ventilated crate, and an instruction manual to guide the creatures through quillboar territory.",
+   "body": "Because the tubers remain completely buried and virtually impossible for ordinary humanoids to spot, the Ratchet merchant Mebok Mizzyrix devised an unusual solution. By training native snufflenose gophers\u2014creatures capable of catching the scent of a buried tuber from fifty paces away\u2014Mizzyrix turned vermin into foraging tools. He supplies scavengers with a command stick, a ventilated crate, and an instruction manual to guide the creatures through quilboar territory.",
    "spoiler": 0
   },
   {
    "title": "Harvesting in the Thorns",
-   "body": "Reclaiming the tubers requires delving into the territory of the hostile Death's Head quillboar tribe. Foragers must protect their trained gophers from the feral beasts and thorny briars of the Kraul, commanding the rodents to unearth the hidden bulbs before packing them away for transport back to Ratchet, where Mizzyrix's high-paying foreign buyers await.",
+   "body": "Reclaiming the tubers requires delving into the territory of the hostile Death's Head quilboar tribe. Foragers must protect their trained gophers from the feral beasts and thorny briars of the Kraul, commanding the rodents to unearth the hidden bulbs before packing them away for transport back to Ratchet, where Mizzyrix's high-paying foreign buyers await.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "blueleaf tubers location",
     "where do they grow"
    ],
-   "answer": "They grow buried in the subterranean earth and thorny root systems beneath the southern Barrens, specifically inside the quillboar stronghold of Razorfen Kraul."
+   "answer": "They grow buried in the subterranean earth and thorny root systems beneath the southern Barrens, specifically inside the quilboar stronghold of Razorfen Kraul."
   },
   {
    "q": "Why do you need a Snufflenose Gopher to find them?",
@@ -87,7 +87,7 @@
     "why doesnt mebok get them",
     "why hire adventurers"
    ],
-   "answer": "Razorfen Kraul is heavily guarded by aggressive quillboar tribes, thorny vines, and dangerous subterranean predators. Mizzyrix prefers risking mercenary lives over venturing into the dangerous barrows himself."
+   "answer": "Razorfen Kraul is heavily guarded by aggressive quilboar tribes, thorny vines, and dangerous subterranean predators. Mizzyrix prefers risking mercenary lives over venturing into the dangerous barrows himself."
   }
  ],
  "angles": [
@@ -105,7 +105,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Horde warriors defending the Barrens from quillboar incursions can easily turn a profit on the side by running Mizzyrix's trained gophers through the Kraul."
+   "text": "Horde warriors defending the Barrens from quilboar incursions can easily turn a profit on the side by running Mizzyrix's trained gophers through the Kraul."
   }
  ],
  "keywords": [

@@ -1,23 +1,18 @@
 {
  "key": "npc:sally-whitemane",
  "type": "npc",
- "name": "Sally Whitemane",
+ "name": "High Inquisitor Whitemane",
  "era": "classic",
  "zone": "scarlet",
  "meta": {
   "wiki": "Sally Whitemane",
   "refs": 5
  },
- "summary": "Sally Whitemane is the High Inquisitor of the Scarlet Crusade, presiding over the Cathedral of the Scarlet Monastery. A powerful priestess of the Holy Light, her consuming hatred for the undead drives the Crusade's uncompromising zealotry. Together with Scarlet Commander Renault Mograine, she directs the order's military and ideological campaigns across Lordaeron.",
+ "summary": "Whitemane is the High Inquisitor of the Scarlet Crusade, presiding over the Cathedral of the Scarlet Monastery. A powerful priestess of the Holy Light, her consuming hatred for the undead drives the Crusade's uncompromising zealotry. Together with Scarlet Commander Renault Mograine, she directs the order's military and ideological campaigns across Lordaeron.",
  "sections": [
   {
-   "title": "Tragedy in Lordaeron",
-   "body": "Sally Whitemane spent her youth in Southshore alongside childhood companions Renault Mograine and James Vishas. That innocence vanished during the Third War when her family traveled north through Lordaeron and succumbed to the plague of undeath. Forced to personally put down her own parents and siblings after they rose as mindless Scourge minions, Whitemane was left consumed by guilt, grief, and unyielding rage. From that day onward, she dedicated her life solely to eradicating undeath in all its forms.",
-   "spoiler": 0
-  },
-  {
    "title": "High Inquisitor of the Crusade",
-   "body": "Rising rapidly through the Scarlet Crusade's hierarchy, Whitemane became its High Inquisitor and took command of the Scarlet Monastery's grand Cathedral. Renowned for her fearsome mastery of Holy magic, she led relief forces to rescue Hearthglen from the Scourge and stood as a guiding hand during the induction of high-ranking Crusaders like Taelan Fordring. Her absolute conviction has made her one of the Crusade's foremost symbols, wielding the Light as an unrelenting weapon against any deemed unclean.",
+   "body": "Rising rapidly through the Scarlet Crusade's hierarchy, Whitemane became its High Inquisitor and took command of the Scarlet Monastery's grand Cathedral. Renowned for her fearsome mastery of Holy magic, she has become one of the Crusade's foremost symbols through her absolute conviction, wielding the Light as an unrelenting weapon against any deemed unclean.",
    "spoiler": 0
   },
   {
@@ -28,13 +23,13 @@
  ],
  "faq": [
   {
-   "q": "Who is Sally Whitemane?",
+   "q": "Who is High Inquisitor Whitemane?",
    "aliases": [
     "whitemane lore",
     "who is high inquisitor whitemane",
     "scarlet monastery boss"
    ],
-   "answer": "Sally Whitemane is the High Inquisitor of the Scarlet Crusade. She commands the order's spiritual and inquisitorial efforts from the Cathedral inside the Scarlet Monastery in Tirisfal Glades, fighting alongside Commander Renault Mograine."
+   "answer": "Whitemane is the High Inquisitor of the Scarlet Crusade. She commands the order's spiritual and inquisitorial efforts from the Cathedral inside the Scarlet Monastery in Tirisfal Glades, fighting alongside Commander Renault Mograine."
   },
   {
    "q": "Why does Whitemane hate the undead so much?",
@@ -43,15 +38,7 @@
     "whitemane backstory",
     "whitemane family"
    ],
-   "answer": "During the Third War, Whitemane's family was infected by the plague of undeath while traveling through northern Lordaeron. She was forced to slay her own parents and siblings once they reanimated as mindless Scourge, scarring her with immense grief and driving her obsessive mission to eradicate all undead."
-  },
-  {
-   "q": "Where did Whitemane grow up?",
-   "aliases": [
-    "whitemane childhood",
-    "where is whitemane from"
-   ],
-   "answer": "She grew up in the town of Southshore in the Hillsbrad Foothills, playing games of monster-slaying alongside childhood friends Renault Mograine and James Vishas long before they joined the Scarlet Crusade."
+   "answer": "Her hatred mirrors the Scarlet Crusade's own creed. The order rose from the survivors of Lordaeron's fall to the plague of undeath, and it treats every undead, mindless or free-willed, as an abomination to be purged. Whitemane wields the Holy Light as its most relentless weapon in that war."
   },
   {
    "q": "Why does the Alliance want Whitemane dead?",
@@ -77,7 +64,7 @@
     "whitemane and mograine",
     "commander mograine and whitemane"
    ],
-   "answer": "Whitemane and Renault Mograine were childhood companions in Southshore who grew into the dual leaders of the Scarlet Monastery. Fighting side by side in the Cathedral, they share an intimate bond and mutual devotion to the Crusade's crusade against undeath."
+   "answer": "Whitemane and Renault Mograine are the dual leaders of the Scarlet Monastery. Fighting side by side in the Cathedral, they share an intimate bond and mutual devotion to the Crusade's crusade against undeath."
   }
  ],
  "angles": [
@@ -112,7 +99,6 @@
   "zone:scarlet",
   "topic:scarlet-crusade",
   "subzone:southshore",
-  "subzone:hearthglen",
   "zone:undercity",
   "npc:varimathras",
   "topic:plague-of-undeath",

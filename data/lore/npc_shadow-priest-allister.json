@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Watcher at the Sepulcher",
-   "body": "Operating out of the Sepulcher, Shadow Priest Allister directs Forsaken reconnaissance throughout Silverpine Forest. From this central crypt settlement, he tracks nearby threats ranging from renegade humans and beastly incursions to the arcane machinations unfolding near Dalaran's shimmering dome.",
+   "body": "Operating out of the Sepulcher, Shadow Priest Allister directs Forsaken reconnaissance throughout Silverpine Forest. From this central crypt settlement, he tracks nearby threats ranging from renegade humans and beastly incursions to the arcane machinations unfolding around Dalaran.",
    "spoiler": 0
   },
   {
@@ -87,7 +87,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As the author of 'Holy Bologna', Allister represents the Forsaken perspective on the Cult of Forgotten Shadow and their disillusionment with the Light."
+   "text": "As the author of 'Holy Bologna', Allister represents the Forsaken priesthood's disillusionment with the Light."
   },
   {
    "target": "faction:Horde",

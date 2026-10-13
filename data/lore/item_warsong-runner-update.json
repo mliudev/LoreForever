@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "Eyes on the Western Front",
-   "body": "Positioned at the edge of the Zoram Strand, the Warsong runner at Zoram'gar Outpost keeps watch over coastal waters and nearby threats in western Ashenvale. This update contains critical intelligence gathered from the outpost's frontline scouts, documenting regional activity and securing supply lines. Carried back to the Mor'shan Rampart along the Barrens border, the dispatch provides the Horde leadership with the clarity needed to fortify their position and plan subsequent movements deep in ancestral elven woods.",
+   "body": "Positioned at the edge of the Zoram Strand, the Warsong runner at Zoram'gar Outpost keeps watch over coastal waters and nearby threats in western Ashenvale. This update contains critical intelligence gathered from the outpost's frontline scouts, documenting regional activity and securing supply lines. Carried back to Kadrak's watchtower on the Barrens border, the dispatch provides the Horde leadership with the clarity needed to fortify their position and plan subsequent movements deep in ancestral elven woods.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "kadrak update",
     "deliver runner update"
    ],
-   "answer": "The update is carried to Kadrak, the Warsong commander stationed in the watchtower along the northern Barrens border defending the Mor'shan Rampart."
+   "answer": "The update is carried to Kadrak, the Warsong commander stationed in the watchtower along the northern Barrens border."
   },
   {
    "q": "Why does Kadrak need this dispatch?",

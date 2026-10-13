@@ -8,11 +8,11 @@
   "wiki": "Rhinag",
   "refs": 1
  },
- "summary": "Rhinag is an afflicted jungle troll seeking shelter within a modest homestead at Rocktusk Farm in Durotar. Paralyzed by the harsh venom of the region's scorpions, he relies entirely on passing travelers to secure him a timely remedy.",
+ "summary": "Rhinag is an afflicted jungle troll of the Darkspear tribe, sheltering among the rocks near Durotar's northwestern border. Weakened by the harsh venom of the region's scorpids, he relies entirely on passing travelers to secure him a timely remedy.",
  "sections": [
   {
    "title": "A Venomous Peril",
-   "body": "While traversing the arid terrain of Durotar, Rhinag fell victim to the vicious sting of a local Venomtail Scorpid. Overwhelmed by the potent poison, he managed to drag himself into the dilapidated shelter at Rocktusk Farm. Incapacitated and isolated, his survival hinges on anyone who happens by with the resolve to procure a venomtail antidote before the toxins take their final toll.",
+   "body": "While traversing the arid terrain of Durotar, Rhinag fell victim to the vicious sting of a local Venomtail Scorpid. Overwhelmed by the potent poison, he took shelter among the rocks near Durotar's northwestern border. Weakened and isolated, his survival hinges on anyone who happens by with the resolve to procure a venomtail antidote before the toxins take their final toll.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "rhinag lore",
     "troll at rocktusk"
    ],
-   "answer": "Rhinag is a jungle troll traveler who found himself stranded and paralyzed at Durotar's Rocktusk Farm after suffering a venomous sting from a native scorpion."
+   "answer": "Rhinag is a jungle troll traveler who found himself stranded and weakened near Durotar's northwestern border after suffering a venomous sting from a native scorpion."
   },
   {
    "q": "Where can Rhinag be found?",
@@ -33,7 +33,7 @@
     "where is rhinag",
     "rocktusk farm troll"
    ],
-   "answer": "He is resting inside the small building at Rocktusk Farm, situated in central Durotar south of Razor Hill."
+   "answer": "He is resting among the rocks near the northwestern border of Durotar."
   },
   {
    "q": "What happened to him?",
@@ -56,12 +56,10 @@
   "durotar",
   "need for a cure",
   "rhinag",
-  "rocktusk farm",
   "venomtail scorpid"
  ],
  "related": [
   "quest:812",
-  "subzone:rocktusk-farm",
   "zone:durotar",
   "topic:troll"
  ],

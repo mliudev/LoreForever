@@ -38,7 +38,7 @@
     "what does devouring plague quest do",
     "devouring plague purpose"
    ],
-   "answer": "The quest serves as a formal lesson for Forsaken priests reaching seasoned standing. By speaking with Priestess Aelthalyste, the priest is taught how to cast Devouring Plague, a signature shadow affliction unique to undead practitioners."
+   "answer": "The quest serves as a formal lesson for Forsaken priests reaching seasoned standing. By speaking with Priestess Aelthalyste, the priest is taught how to cast Devouring Plague, a shadow affliction that drains its victim to heal the caster."
   },
   {
    "q": "Who is Priestess Aelthalyste?",
@@ -56,7 +56,7 @@
     "is devouring plague undead only",
     "other races devouring plague"
    ],
-   "answer": "No. Devouring Plague is an esoteric spell exclusive to Forsaken priests. Trolls, humans, night elves, and dwarves commune with different spiritual forces and possess their own distinct racial teachings instead."
+   "answer": "Devouring Plague isn't hers alone to give: every priest, whatever their race, learns it from a priest trainer at level 20. The Forsaken's own racial teachings are Touch of Weakness and Dark Sacrifice."
   },
   {
    "q": "Where do I turn in this quest?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This rite provides Forsaken priests with one of their most iconic racial spells, binding their survival directly to the affliction they inflict on enemies."
+   "text": "This rite provides Forsaken priests with one of their most dreaded spells, binding their survival directly to the affliction they inflict on enemies."
   },
   {
    "target": "race:Undead",

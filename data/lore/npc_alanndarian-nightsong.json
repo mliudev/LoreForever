@@ -8,7 +8,7 @@
   "wiki": "Alanndarian Nightsong",
   "refs": 4
  },
- "summary": "Alanndarian Nightsong is a night elf resident of Auberdine in Darkshore dedicated to tending to the region's beleaguered fauna. She works alongside travelers to remedy the blights plaguing the local wildlife, particularly the native striders and forest creatures corrupted by dark forces.",
+ "summary": "Alanndarian Nightsong is a night elf resident of Auberdine in Darkshore dedicated to tending to the region's beleaguered fauna. She works alongside travelers to remedy the blights plaguing the local wildlife, particularly the region's deer, sickened by poison in Darkshore's waters.",
  "sections": [
   {
    "title": "A Caretaker in Auberdine",
@@ -47,7 +47,7 @@
     "auberdine sick animal quests",
     "what does alanndarian want"
    ],
-   "answer": "Alanndarian asks adventurers to track down the sources of sickness tainting Darkshore's creatures, collect vital curative components from the wilderness, and administer remedies directly to ailing animals such as deer and striders."
+   "answer": "Alanndarian asks adventurers to track down the sources of sickness tainting Darkshore's creatures, collect vital curative components from the wilderness, and administer remedies directly to ailing animals such as the sickly deer."
   },
   {
    "q": "Is she related to other Nightsongs?",
@@ -56,7 +56,7 @@
     "master nightsong relation",
     "falara nightsong"
    ],
-   "answer": "Her surname connects her to other prominent night elves of the Nightsong lineage, such as Master Nightsong in Darnassus and Falara Nightsong, though her immediate daily focus remains the stewardship of Darkshore's wilderness."
+   "answer": "Other night elves share the Nightsong name, but nothing confirms that she is related to any of them. Her daily focus remains the stewardship of Darkshore's wilderness."
   },
   {
    "q": "Why are the creatures in Darkshore sick?",
@@ -65,7 +65,7 @@
     "corrupted striders darkshore",
     "darkshore blight"
    ],
-   "answer": "The woodlands and waterways of Darkshore suffer from an creeping corruption seeping through ancient ruins and corrupted elementals, driving native wildlife to madness and wasting sickness."
+   "answer": "Something is polluting Cliffspring Falls, the principal source of Darkshore's drinking water, and the tainted water has sickened deer all across the region. Alanndarian suspects a greater taint is at work as well."
   },
   {
    "q": "Can she train tallstrider pets?",

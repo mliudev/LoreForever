@@ -10,11 +10,11 @@
    "quest:3112"
   ]
  },
- "summary": "The Simple Memorandum is an official notice delivered to novice gnome warriors training in Coldridge Valley. Written on behalf of the warrior trainer Thran Khorman, it instructs fledglings to report to him in Anvilmar to advance their martial discipline.",
+ "summary": "The Simple Memorandum is an official notice delivered to novice gnome warriors training in Coldridge Valley. A terse gnomish directive, it instructs fledglings to report to the warrior trainer Thran Khorman in Anvilmar to prepare for the war to take back Gnomeregan.",
  "sections": [
   {
    "title": "A Summons to Anvilmar",
-   "body": "Novice adventurers in Coldridge Valley frequently find themselves entrusted with letters of introduction as they demonstrate their mettle against the local wildlife and trogg threats. For young gnome fighters, this memorandum serves as a formal summons from Thran Khorman, the resident warrior trainer within Anvilmar. Dwarven veterans recognize that while gnomes may rely on intellect and contraptions, retaking Gnomeregan will demand pure physical resolve and martial discipline. The memorandum directs the bearer to put aside preliminary tasks and seek personalized instruction in the art of war.",
+   "body": "Novice adventurers in Coldridge Valley frequently find themselves entrusted with letters of introduction as they demonstrate their mettle against the local wildlife and trogg threats. For young gnome fighters, this memorandum serves as a formal order to report to Thran Khorman, the resident warrior trainer within Anvilmar. Dwarven veterans recognize that while gnomes may rely on intellect and contraptions, retaking Gnomeregan will demand pure physical resolve and martial discipline. The memorandum directs the bearer to put aside preliminary tasks and seek personalized instruction in the art of war.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "who sent note",
     "author of simple memorandum"
    ],
-   "answer": "The memorandum originates from Thran Khorman, the dwarven warrior trainer stationed in Anvilmar, who aims to spot and prepare promising new combatants."
+   "answer": "It carries no signature. Sten Stoutarm guesses it came from Thran Khorman, but it speaks of taking back our home of Gnomeregan, so it is a gnomish directive ordering you to report to Thran, the dwarven warrior trainer in Anvilmar."
   },
   {
    "q": "What happens after reading the Simple Memorandum?",

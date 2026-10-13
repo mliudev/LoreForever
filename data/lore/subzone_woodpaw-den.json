@@ -7,7 +7,7 @@
  "meta": {
   "wiki": "Woodpaw Den"
  },
- "summary": "Woodpaw Den is a rugged gnoll stronghold nestled in northern Feralas, just north of the ancient Darkmist Ruins. The settlement serves as a major gathering point for the Woodpaw gnolls and their fiercest pack alphas, making it a dangerous pocket of wilderness within the dense canopy.",
+ "summary": "Woodpaw Den is a rugged gnoll stronghold nestled in southern Feralas, just north of the ancient Darkmist Ruins. The settlement serves as a major gathering point for the Woodpaw gnolls and their fiercest pack alphas, making it a dangerous pocket of wilderness within the dense canopy.",
  "sections": [
   {
    "title": "Heart of the Pack",
@@ -23,7 +23,7 @@
     "gnoll camp feralas",
     "where is woodpaw den"
    ],
-   "answer": "Woodpaw Den is a prominent settlement and encampment of the Woodpaw gnolls in northern Feralas, situated just north of the Darkmist Ruins. It is heavily inhabited by the pack's dangerous Alphas."
+   "answer": "Woodpaw Den is a prominent settlement and encampment of the Woodpaw gnolls in southern Feralas, situated just north of the Darkmist Ruins. It is heavily inhabited by the pack's dangerous Alphas."
   },
   {
    "q": "What creatures live here?",
@@ -63,9 +63,7 @@
  ],
  "related": [
   "topic:gnoll",
-  "zone:feralas",
-  "quest:1089",
-  "quest:938"
+  "zone:feralas"
  ],
  "attribution": [
   "Woodpaw Den"

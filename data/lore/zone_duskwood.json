@@ -12,11 +12,11 @@
   "levels": "18-30",
   "aliases": []
  },
- "summary": "Once a sunlit expanse of southern Elwynn known as Brightwood, Duskwood is now a cursed woodland trapped beneath an unnatural, perpetual gloom. Abandoned by the authorities in Stormwind, its besieged human inhabitants cling to survival in Darkshire under the watchful protection of the local Night Watch militia. Across its darkened groves and haunted barrows roam flesh-eating ghouls, gigantic venomous spiders, raiding ogres, and savage, mysterious worgen.",
+ "summary": "Once a sunlit woodland, Duskwood is now a cursed woodland trapped beneath an unnatural, perpetual gloom. Abandoned by the authorities in Stormwind, its besieged human inhabitants cling to survival in Darkshire under the watchful protection of the local Night Watch militia. Across its darkened groves and haunted barrows roam flesh-eating ghouls, gigantic venomous spiders, raiding ogres, and savage, mysterious worgen.",
  "sections": [
   {
-   "title": "From Brightwood to Shadow",
-   "body": "Before the darkness descended, this province was known as Brightwood, a rich agricultural tract of the Kingdom of Stormwind boasting prosperous settlements like Grand Hamlet and Raven Hill. The region's tragedy began when Guardian Medivh fell at Karazhan during the First War, unleashing waves of corrupted fel magic that twisted the serene woodland into a gnarled, shadowy morass. Spiders mutated into terrifying predatory beasts, while fleeing wolves spilled north into Elwynn Forest. Over time, Grand Hamlet was rechristened Darkshire, its terrified townsfolk left largely to fend for themselves as the realm's royal garrison withdrew to defend the capital.",
+   "title": "From Sunlight to Shadow",
+   "body": "Before the darkness descended, this province was a rich agricultural tract of the Kingdom of Stormwind boasting prosperous settlements like Grand Hamlet and Raven Hill. The region's tragedy began when Guardian Medivh fell at Karazhan during the First War, unleashing waves of corrupted fel magic that twisted the serene woodland into a gnarled, shadowy morass. Spiders mutated into terrifying predatory beasts, while fleeing wolves spilled north into Elwynn Forest. Over time, Grand Hamlet was rechristened Darkshire, its terrified townsfolk left largely to fend for themselves as the realm's royal garrison withdrew to defend the capital.",
    "spoiler": 0
   },
   {
@@ -31,19 +31,19 @@
   },
   {
    "title": "The Twilight Grove",
-   "body": "Near the center of Duskwood lies a deep, ancient crater that defies the surrounding corruption: the Twilight Grove. Long before human kingdoms walked these lands, the archdruid Fandral Staghelm planted a bough from Nordrassil here. The branch blossomed into a Great Tree hosting a dormant portal into the Emerald Dream. Bathed in a soft, ethereal twilight, the grove remains an unearthly sanctuary in an otherwise dying land, watched over by sleeping druidic energies.",
+   "body": "Near the center of Duskwood lies a deep, ancient crater that defies the surrounding corruption: the Twilight Grove. Here stands an ancient Great Tree hosting a dormant portal into the Emerald Dream. Bathed in a soft, ethereal twilight, the grove remains an unearthly sanctuary in an otherwise dying land, watched over by sleeping druidic energies.",
    "spoiler": 0
   }
  ],
  "faq": [
   {
-   "q": "Why is it called Duskwood instead of Brightwood?",
+   "q": "Why is it called Duskwood?",
    "aliases": [
     "why duskwood dark",
     "brightwood history",
     "what happened to brightwood"
    ],
-   "answer": "The land was once Brightwood, a vibrant southern province of Elwynn. When the Guardian Medivh was slain in nearby Karazhan during the First War, volatile fel energies washed over the forest, choking out the sunlight, twisting the flora, and giving rise to the name Duskwood."
+   "answer": "The land was once a vibrant, sunlit province of Stormwind. When the Guardian Medivh was slain in nearby Karazhan during the First War, volatile fel energies washed over the forest, choking out the sunlight, twisting the flora, and giving rise to the name Duskwood."
   },
   {
    "q": "Where did the worgen come from?",
@@ -88,7 +88,7 @@
     "green portal duskwood",
     "crater tree"
    ],
-   "answer": "The crater is the Twilight Grove, home to a Great Tree grown thousands of years ago from a branch of Nordrassil planted by Fandral Staghelm. It contains a portal to the Emerald Dream and maintains a calm, mystical twilight distinct from the cursed dark of the forest."
+   "answer": "The crater is the Twilight Grove, home to an ancient Great Tree. It contains a portal to the Emerald Dream and maintains a calm, mystical twilight distinct from the cursed dark of the forest."
   }
  ],
  "angles": [

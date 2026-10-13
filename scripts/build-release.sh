@@ -31,8 +31,8 @@ from pathlib import Path
 
 root = Path(sys.argv[1])
 sys.path.insert(0, str(root / "scripts"))
-from transport_assets import (TransportError, index_fullclips, pause_split, pause_split_coverage, split_note,
-                              validate as validate_transport, whole_replaces_overview)
+from transport_assets import (TransportError, complete_only, index_fullclips, pause_split, pause_split_coverage,
+                              split_note, validate as validate_transport, whole_replaces_overview)
 from load_order import LoadError, addon_files   # the .toc and the XML load files it lists, as the client reads them
 addons = root / "addon"
 dist = root / "dist"
@@ -136,6 +136,7 @@ fullclips = index_fullclips(index)   # the complete stories this core plays, by 
 
 VOICE_PACKS = []   # the bundled packs that carry recordings (X-LoreForever-Pack: voice); language packs have none
 REPLACED = {}      # pack -> overview recording stems left out because a current complete story plays instead
+WHOLE_ONLY = {}    # pack -> stems of stories it holds only as a complete story, with no overview recording (LOR-424)
 SPLIT = {}         # pack -> recordings shipped as pieces split at their pauses instead (pause and resume)
 STAGE = None       # where those packs' split copies are made (transport_assets.pause_split)
 for pack in PACKS:
@@ -183,6 +184,8 @@ for pack in PACKS:
         # (in pieces, if it's long).
         whole = whole_replaces_overview(psrc, manifest, fullclips) if pmeta.get("X-LoreForever-Locale", "enUS") == "enUS" else set()
         REPLACED[pack] = {stem(k).lower() for k in whole - {pmeta.get("X-LoreForever-Sample")}}
+        # A story recorded only in full has no overview to ship, current or stale (stale, the add-on shows its text).
+        WHOLE_ONLY[pack] = {stem(k).lower() for k in complete_only(manifest)}
         left = [(p, a) for p, a in audio if Path(a).parent.as_posix() == "Audio" and p.stem.lower() in REPLACED[pack]]
         if left:
             audio = [x for x in audio if x not in left]
@@ -265,7 +268,8 @@ for (path, arc, folder), (refs, _, _) in zip(text_files, scans):
 
 # A bundled pack's clip list (P.clips["zone:stormwind#faq3"] = "hash", or via a local alias of P.clips) names files
 # by derived path (Audio/zone_stormwind__faq3.mp3): every listed clip needs its recording (or a current complete
-# story in its place, REPLACED, or its pieces, SPLIT), and recordings no clip names are noted.
+# story in its place, REPLACED, or its pieces, SPLIT, or it's a story recorded only in full, WHOLE_ONLY), and
+# recordings no clip names are noted.
 # Quest dialogue clips (quest:176#detail, #progress, #complete) live in the voices' quest packs: quest_176__detail.mp3.
 for pack in VOICE_PACKS:
     # Audio/Transport/ files are listed in Transport.lua (validated above), not in the clip list.
@@ -276,7 +280,8 @@ for pack in VOICE_PACKS:
             continue
         for cid in clips:
             s = stem(cid).lower()
-            if s not in have and s not in REPLACED[pack] and f"Audio/{stem(cid)}.mp3" not in SPLIT.get(pack, ()):
+            if (s not in have and s not in REPLACED[pack] and s not in WHOLE_ONLY[pack]
+                    and f"Audio/{stem(cid)}.mp3" not in SPLIT.get(pack, ())):
                 fail(f"{arc} lists clip {cid}, but {pack}/Audio has no {stem(cid)}.mp3 or .ogg")
             named.add(s)
     for s in sorted(set(have) - named):

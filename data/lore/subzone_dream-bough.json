@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Dream Bough"
  },
- "summary": "Dream Bough is a colossal Great Tree nestled on an island in the center of Jademir Lake in northern Feralas. Grown from a sapling of Nordrassil, the ancient tree shelters a mysterious gateway connecting Azeroth directly to the Emerald Dream. Green dragons loyally watch over the sanctuary, keeping unwanted intruders away from its verdant boughs.",
+ "summary": "Dream Bough is a colossal Great Tree nestled on an island in the center of Jademir Lake in northern Feralas. The ancient tree shelters a mysterious gateway connecting Azeroth directly to the Emerald Dream. Green dragons loyally watch over the sanctuary, keeping unwanted intruders away from its verdant boughs.",
  "sections": [
   {
-   "title": "A Branch of Nordrassil",
-   "body": "Rising high above the canopy of northern Feralas, the Dream Bough stands as the largest tree in the region. It was grown by druids following Archdruid Fandral Staghelm, who planted cuttings taken from the World Tree Nordrassil to anchor nature's power across the continent. Situated in the tranquil waters of Jademir Lake, the towering sentinel houses a natural portal carved into its trunk, providing a direct threshold into the untamed Emerald Dream.",
+   "title": "The Great Tree of Jademir",
+   "body": "Rising high above the canopy of northern Feralas, the Dream Bough stands as the largest tree in the region. Situated in the tranquil waters of Jademir Lake, the towering sentinel houses a natural portal carved into its trunk, providing a direct threshold into the untamed Emerald Dream.",
    "spoiler": 0
   },
   {
@@ -28,7 +28,7 @@
     "what is dream bough",
     "jademir lake tree"
    ],
-   "answer": "Dream Bough is a massive Great Tree located on an island in Jademir Lake, within northern Feralas. Grown from a cutting of the World Tree Nordrassil, it serves as a sanctum housing an active gateway into the Emerald Dream."
+   "answer": "Dream Bough is a massive Great Tree located on an island in Jademir Lake, within northern Feralas. It serves as a sanctum housing an active gateway into the Emerald Dream."
   },
   {
    "q": "Who planted the Dream Bough?",
@@ -37,7 +37,7 @@
     "origin of dream bough",
     "staghelm tree"
    ],
-   "answer": "The tree was planted by night elf druids loyal to Archdruid Fandral Staghelm using a branch harvested from Nordrassil, aiming to seed the ancient World Tree's restorative power throughout Kalimdor."
+   "answer": "No account from this age records who planted the Dream Bough. It is known as one of the Great Trees that shelter gateways into the Emerald Dream, watched over by the green dragonflight."
   },
   {
    "q": "Why are there green dragons here?",
@@ -63,25 +63,21 @@
   },
   {
    "target": "race:NightElf",
-   "text": "Grown from Nordrassil's blessed limbs by the Cenarion circle, this great tree represents your people's ancient duty to nurture and defend the natural world."
+   "text": "Guarding a gateway into the Emerald Dream, this great tree represents your people's ancient duty to nurture and defend the natural world."
   }
  ],
  "keywords": [
   "dream bough",
   "emerald dream",
-  "fandral staghelm",
   "feralas",
   "great tree",
   "green dragonflight",
-  "jademir lake",
-  "nordrassil"
+  "jademir lake"
  ],
  "related": [
   "zone:feralas",
   "topic:emerald-dream",
-  "topic:nordrassil",
-  "topic:druid",
-  "npc:fandral-staghelm"
+  "topic:druid"
  ],
  "attribution": [
   "Dream Bough"

@@ -20,7 +20,7 @@
    "Bloodfury Bloodline"
   ]
  },
- "summary": "Harpies Threaten is a Horde quest offered by Maggran Earthbinder at Sun Rock Retreat in the Stonetalon Mountains. Fulfilling the tauren calling as stewards of the land, adventurers are directed south into the devastated Charred Vale to cull the surging ranks of the Bloodfury harpy coven.",
+ "summary": "Harpies Threaten is a Horde quest offered by Maggran Earthbinder at Sun Rock Retreat in the Stonetalon Mountains. Fulfilling the tauren calling as stewards of the land, adventurers are directed west into the devastated Charred Vale to cull the surging ranks of the Bloodfury harpy coven.",
  "sections": [
   {
    "title": "Protectors of the Land",
@@ -29,7 +29,7 @@
   },
   {
    "title": "Scouring the Charred Vale",
-   "body": "South of Sun Rock Retreat lies the Charred Vale, a desolate wasteland of ash, scorched earth, and smoldering trees left behind after catastrophic fires. Here, nesting high in the charred remnants of ancient woods, the Bloodfuries have established a stronghold. Maggran tasks Horde warriors with venturing into this hostile caldera to cull dozens of harpy ambushers, slayers, and roguefeathers. Thinning the flock shatters the immediate grip the coven holds over the vale and clears the path to confront their matriarchal lineage directly.",
+   "body": "West of Sun Rock Retreat lies the Charred Vale, a desolate wasteland of ash, scorched earth, and smoldering trees left behind after catastrophic fires. Here, nesting high in the charred remnants of ancient woods, the Bloodfuries have established a stronghold. Maggran tasks Horde warriors with venturing into this hostile caldera to cull dozens of harpy ambushers, slayers, and roguefeathers. Thinning the flock shatters the immediate grip the coven holds over the vale and clears the path to confront their matriarchal lineage directly.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "bloodfury harpy location",
     "charred vale harpies"
    ],
-   "answer": "The Bloodfury harpies dwell throughout the Charred Vale, a burnt expanse located directly south of Sun Rock Retreat. A mountain path behind Sun Rock leads straight down into the vale."
+   "answer": "The Bloodfury harpies dwell throughout the Charred Vale, a burnt expanse located west of Sun Rock Retreat. A mountain path behind Sun Rock leads straight down into the vale."
   },
   {
    "q": "Why do the tauren want the harpies culled?",

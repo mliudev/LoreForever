@@ -46,3 +46,7 @@
 /lore/data/*
   X-Robots-Tag: noindex
   Cache-Control: no-cache
+
+# The guides Markdown sources (site/GUIDES.md): /guides/<slug> is the page to find, not the raw file.
+/guides/articles/*
+  X-Robots-Tag: noindex

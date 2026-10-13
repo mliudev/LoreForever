@@ -17,11 +17,11 @@
   "wiki": "Slaying the Beast (quest)",
   "chain": []
  },
- "summary": "Neeru Fireblade, an orc warlock residing in Orgrimmar's Cleft of Shadows, directs Horde adventurers deep into Ragefire Chasm to hunt Taragaman the Hungerer. Claiming to act on orders from Warchief Thrall, Neeru demands the towering felguard's heart as proof of the demonic cult's downfall.",
+ "summary": "Neeru Fireblade, an orc warlock residing in Orgrimmar's Cleft of Shadow, directs Horde adventurers deep into Ragefire Chasm to hunt Taragaman the Hungerer. Claiming to act on orders from Warchief Thrall, Neeru demands the towering felguard's heart as proof of the demonic cult's downfall.",
  "sections": [
   {
    "title": "A Threat Beneath the City",
-   "body": "Beneath the red earthen streets of Orgrimmar sits Ragefire Chasm, a fiery subterranean fissure infested with troggs, beasts, and the covert agents of the Searing Blade. In the Cleft of Shadows above, Neeru Fireblade presents himself as a loyal servant tasked by Thrall with cleansing this demonic rot. He points directly toward Taragaman the Hungerer, a massive felguard stationed in the heart of the cavern, naming the demon as the mastermind behind the underground cult.",
+   "body": "Beneath the red earthen streets of Orgrimmar sits Ragefire Chasm, a fiery subterranean fissure infested with troggs, beasts, and the covert agents of the Searing Blade. In the Cleft of Shadow above, Neeru Fireblade presents himself as a loyal servant tasked by Thrall with cleansing this demonic rot. He points directly toward Taragaman the Hungerer, a massive felguard stationed in the heart of the cavern, naming the demon as the mastermind behind the underground cult.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "who gives this quest",
     "neeru fireblade quest"
    ],
-   "answer": "Neeru Fireblade offers the quest from his tent in the Cleft of Shadows, the cavernous warlock quarter of Orgrimmar."
+   "answer": "Neeru Fireblade offers the quest from his tent in the Cleft of Shadow, the cavernous warlock quarter of Orgrimmar."
   },
   {
    "q": "Why does Neeru want Taragaman's heart?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Operating out of the Cleft of Shadows alongside Neeru, warlocks see firsthand the political tightrope of practicing fel magic under Thrall's vigilant gaze."
+   "text": "Operating out of the Cleft of Shadow alongside Neeru, warlocks see firsthand the political tightrope of practicing fel magic under Thrall's vigilant gaze."
   },
   {
    "target": "faction:Horde",
@@ -101,7 +101,7 @@
   }
  ],
  "keywords": [
-  "cleft of shadows",
+  "cleft of shadow",
   "felguard",
   "neeru fireblade",
   "orgrimmar",

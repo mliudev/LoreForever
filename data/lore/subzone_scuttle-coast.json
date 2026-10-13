@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "Wreckage of the Fleet",
-   "body": "Running along Durotar's eastern edge out to the Great Sea, the Scuttle Coast earned its grim character during the invasion led by Grand Admiral Daelin Proudmoore. When the Kul Tiras fleet assaulted the fledgling nation of Durotar, fierce battles with the Horde drove many human warships against the jagged shoals, smashing them into splintered hulks. Today, the shoreline is choked with barnacle-encrusted timber, broken rigging, and salvaged cargo barrels. For the nearby encampments of Razor Hill, the coast represents both a lingering security hazard and a valuable source of recovered provisions and abandoned Alliance mechanisms.",
+   "body": "Running along Durotar's eastern edge out to the Great Sea, the Scuttle Coast earned its grim character during the invasion led by Grand Admiral Daelin Proudmoore. When the Kul Tiras fleet assaulted the fledgling nation of Durotar, fierce battles with the Horde drove many human warships against the jagged shoals, smashing them into splintered hulks. Today, the shoreline is choked with barnacle-encrusted timber, broken rigging, and salvaged cargo barrels. For the nearby encampments of Razor Hill, the coast remains a lingering reminder of how close the Kul Tiran threat still lies.",
    "spoiler": 0
   },
   {
    "title": "Scavengers and Tides",
-   "body": "The name Scuttle Coast refers not only to the sunken warships deliberately scuttled or grounded during the fighting, but also to the swarms of crabs and makrura that pick through the rotting detritus. While shoreline wildlife and dangerous tides keep casual travelers away, Horde scavengers periodically comb through the wreckage to retrieve valuable equipment, including gnomish technical components abandoned in the cargo holds of the sunken ships.",
+   "body": "The name Scuttle Coast may refer to the sunken warships scuttled or grounded during the fighting, or to the swarms of crabs and makrura that pick through the rotting detritus. Shoreline wildlife and dangerous tides keep casual travelers away from the wreckage.",
    "spoiler": 0
   }
  ],
@@ -36,15 +36,7 @@
     "why is it called scuttle coast",
     "scuttle coast name origin"
    ],
-   "answer": "The name carries a double meaning. It refers directly to the warships scuttled along the coastline during naval combat, as well as the numerous makrura and crabs that scuttle across the rocky sands."
-  },
-  {
-   "q": "What is the Horde looking for along the coast?",
-   "aliases": [
-    "what are orcs salvaging",
-    "horde salvage scuttle coast"
-   ],
-   "answer": "Horde scouts and scavengers search the broken holds for salvageable tools, supplies, and discarded gnomish technology left behind by the Alliance forces."
+   "answer": "No one is certain. The name may refer to the warships scuttled along the coastline during naval combat, or to the numerous makrura and crabs that scuttle across the rocky sands."
   },
   {
    "q": "Is the Scuttle Coast safe to travel?",
@@ -59,10 +51,6 @@
   {
    "target": "faction:Horde",
    "text": "The broken hulls littering this beach stand as stark monuments to Durotar's defense against Daelin Proudmoore's invading navy."
-  },
-  {
-   "target": "profession:Engineering",
-   "text": "The sunken Alliance holds along the shore contain abandoned gnomish gadgets, scrap metal, and intricate machinery ripe for reverse-engineering."
   }
  ],
  "keywords": [
@@ -81,7 +69,6 @@
   "subzone:razor-hill",
   "topic:kul-tiras",
   "npc:jaina-proudmoore",
-  "topic:gnome",
   "topic:alliance"
  ],
  "attribution": [

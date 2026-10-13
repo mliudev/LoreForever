@@ -16,7 +16,7 @@
   },
   {
    "title": "Under the Scarlet Banner",
-   "body": "After the Silver Hand fell into disarray following the kingdom's collapse, Tirion's son, Taelan Fordring, opened Hearthglen as a sanctuary for surviving paladins. However, the grief and zealotry that birthed the Scarlet Crusade soon consumed the fortress. Now, Hearthglen is a fortress of religious extremism. Scarlet crusaders patrol its approaches and man its ramparts, violently executing any outsider, living or undead, who trespasses on their land. Highlord Taelan Fordring rules from Mardenholde Keep, a devout servant to the Crusade's uncompromising war against the Plaguelands.",
+   "body": "After the Silver Hand fell into disarray following the kingdom's collapse, Tirion's son, Taelan Fordring, renounced the order and joined the Scarlet Crusade, and the grief and zealotry that birthed the Crusade soon consumed the fortress. Now, Hearthglen is a fortress of religious extremism. Scarlet crusaders patrol its approaches and man its ramparts, violently executing any outsider, living or undead, who trespasses on their land. Highlord Taelan Fordring rules from Mardenholde Keep, a devout servant to the Crusade's uncompromising war against the Plaguelands.",
    "spoiler": 0
   }
  ],
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Hearthglen was once home to Tirion Fordring and served as a rallying haven for the remnants of the Silver Hand after Lordaeron fell. Walking its approaches reveals how tragic the order's splintering into the fanatical Scarlet Crusade truly became."
+   "text": "Hearthglen was once home to Tirion Fordring, and his son now holds it for the Scarlet Crusade. Walking its approaches reveals how tragic the order's splintering into the fanatical Scarlet Crusade truly became."
   },
   {
    "target": "race:Undead",

@@ -26,7 +26,7 @@
     "taragaman heart turn in",
     "who wants the heart"
    ],
-   "answer": "Neeru Fireblade, an orc warlock residing in the Cleft of Shadows within Orgrimmar, asks adventurers to bring him the heart as proof that the demon has been slain."
+   "answer": "Neeru Fireblade, an orc warlock residing in the Cleft of Shadow within Orgrimmar, asks adventurers to bring him the heart as proof that the demon has been slain."
   },
   {
    "q": "Where do I obtain this heart?",
@@ -63,7 +63,7 @@
   },
   {
    "target": "class:Warlock",
-   "text": "Dealing with Neeru Fireblade and handling harvested demonic remnants is familiar territory for warlocks, who understand the delicate web of shadow and deception playing out in the Cleft of Shadows."
+   "text": "Dealing with Neeru Fireblade and handling harvested demonic remnants is familiar territory for warlocks, who understand the delicate web of shadow and deception playing out in the Cleft of Shadow."
   }
  ],
  "keywords": [
