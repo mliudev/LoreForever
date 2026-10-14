@@ -98,6 +98,83 @@ function Companion.Installed()
   return type(_G.LoreForeverJourneyData) == "table"
 end
 
+-- Get Willo (LOR-459): players without the companion meet it in the panel's header and when the add-on has no answer.
+-- Add-ons can't open web pages, so it's a link to copy: /willo goes to the Windows installer, whose full install
+-- includes Willo. The free download only; never plans or prices (Blizzard's add-on policy). Options › Get Willo
+-- button hides both.
+Companion.WILLO_URL = "loreforeverwow.com/willo"
+-- Off until Willo launches: no Get Willo button, no-answer suggestion, /lore willo or Options checkbox. true brings
+-- back all the entry points.
+Companion.OFFER_WILLO = false
+
+function Companion.OfferWillo()
+  return Companion.OFFER_WILLO and not Companion.Installed() and (LoreForeverDB and LoreForeverDB.settings or {}).getWillo ~= false
+end
+
+local willo
+local function createWillo()
+  local f = CreateFrame("Frame", "LoreForeverGetWillo", UIParent, "BasicFrameTemplateWithInset")
+  f:SetSize(420, 170)
+  f:SetPoint("TOP", 0, -140)
+  f:SetFrameStrata("DIALOG")
+  f:EnableMouse(true)
+  table.insert(UISpecialFrames, "LoreForeverGetWillo")
+  local title = f:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
+  title:SetPoint("TOP", 0, -5)
+  title:SetText(string.format(L["Get %s"], ns.COMPANION_NAME))
+  local text = f:CreateFontString(nil, "OVERLAY", "GameFontNormal")
+  text:SetPoint("TOPLEFT", 16, -32)
+  text:SetPoint("TOPRIGHT", -16, -32)
+  text:SetJustifyH("LEFT")
+  local hint = f:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+  hint:SetPoint("TOPLEFT", text, "BOTTOMLEFT", 0, -10)
+  hint:SetPoint("RIGHT", -16, 0)
+  hint:SetJustifyH("LEFT")
+  hint:SetText(L["It comes with Lore Forever's Windows installer. Press Ctrl+C to copy the link, then paste it into your browser."])
+  -- The link can't be edited: typing puts it back, so a stray key never breaks it.
+  local eb = CreateFrame("EditBox", nil, f, "InputBoxTemplate")
+  eb:SetSize(380, 24)
+  eb:SetPoint("TOPLEFT", hint, "BOTTOMLEFT", 6, -8)
+  eb:SetAutoFocus(false)
+  local function fill()
+    eb:SetText("https://" .. Companion.WILLO_URL)
+    eb:SetCursorPosition(0)
+    eb:HighlightText()
+  end
+  eb:SetScript("OnTextChanged", function(_, user) if user then fill() end end)
+  eb:SetScript("OnEditFocusGained", function(self) self:HighlightText() end)
+  eb:SetScript("OnMouseUp", function(self) self:HighlightText() end)
+  eb:SetScript("OnEscapePressed", function() f:Hide() end)
+  eb:SetScript("OnKeyDown", function(self, key)
+    if key == "C" and IsControlKeyDown() then C_Timer.After(0.15, function() f:Hide() end) end
+  end)
+  local off = f:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")
+  off:SetPoint("BOTTOMLEFT", 16, 12)
+  off:SetPoint("BOTTOMRIGHT", -16, 12)
+  off:SetJustifyH("LEFT")
+  off:SetText(string.format(L["Not interested? Untick Get %s button in /lore options."], ns.COMPANION_NAME))
+  f.text, f.hint, f.eb, f.fill = text, hint, eb, fill
+  return f
+end
+
+-- question: what the player just asked that the add-on couldn't answer (nil from the header button).
+function Companion.ShowGetWillo(question)
+  ns.Log.Use("getWillo", question and "chip" or "header")
+  willo = willo or createWillo()
+  local name = ns.COMPANION_NAME
+  question = question and question:match("^%s*(.-)%s*$")
+  if question and question ~= "" then
+    willo.text:SetText(string.format(L["%s, Lore Forever's free companion app, can answer \"%s\" for you, out loud, knowing where you are in the game."], name, question))
+  else
+    willo.text:SetText(string.format(L["%s is Lore Forever's free companion app for Windows: a little wisp beside your game that answers anything you ask about WoW: Forever, out loud, knowing where you are."], name))
+  end
+  -- Title bar, the two paragraphs, the link and the note under it.
+  willo:SetHeight(100 + (tonumber(willo.text:GetStringHeight()) or 30) + (tonumber(willo.hint:GetStringHeight()) or 24))
+  willo:Show()
+  willo.fill()   -- again once shown: the Forever client drops text set on a box that isn't visible yet
+  willo.eb:SetFocus()
+end
+
 function Companion.Ask(question)
   question = (question or ""):match("^%s*(.-)%s*$")
   if question == "" then return say(L["type a question after /lore ask, e.g. /lore ask who leads the Defias?"]) end

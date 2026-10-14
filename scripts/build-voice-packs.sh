@@ -7,6 +7,8 @@
 #   LoreForever_Voice_Female_enUS-complete.zip            available English female stories and answers
 #   LoreForever_Voice_<Default|Female>_<locale>-complete.zip  available stories and answers plus translated text
 #   LoreForever_Voice_<Default|Female>_Quests.zip         optional English quest dialogue, downloaded deliberately
+#   LoreForever_Voice_<Default|Female>_MorePlaces.zip / _MorePeople.zip  more subzone and people stories (complete
+#                                                         stories only), once registered
 #   LoreForever_Voice_QuestGivers.zip                     quest givers' voices: quest dialogue in each quest giver's
 #                                                         race and gender (its own CurseForge project: under 480 MB)
 #   LoreForever_Voice_<Default|Female>_<locale>.zip       either narrator in deDE, esES, frFR or ptBR (LOR-177), one
@@ -34,13 +36,20 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
   && [ "$(git -C "$ROOT" ls-files -t -- addon/LoreForever_Voice_Default/Audio/ 2>/dev/null | head -c 1)" != S ] \
   || { echo "${0##*/}: this checkout is sparse. In your own worktree, run 'git sparse-checkout disable' first; or make" \
          "a full one: scripts/new-worktree.sh --pointers <path> (and 'git lfs pull' there for the recordings)" >&2; exit 1; }
+# Packs in the asset store (LOR-440): their recordings into the gitignored Audio/ first, every clip checked against
+# its manifest. The public repo has no store (its workflow puts recordings back with audio_assets.py fetch).
+if [ -f "$ROOT/scripts/audio_store.py" ] && [ -d "$ROOT/release/audio-store" ]; then
+  python3 "$ROOT/scripts/audio_store.py" hydrate --quiet \
+    || { echo "build-voice-packs.sh: couldn't fill in the asset store's recordings (above)" >&2; exit 1; }
+fi
 exec python3 - "$ROOT" "$@" <<'PY'
-import atexit, functools, re, shutil, sys, tempfile, zipfile, zlib, subprocess
+import atexit, functools, multiprocessing, os, re, shutil, sys, tempfile, zipfile, zlib, subprocess
+from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 
 root = Path(sys.argv[1])
 sys.path.insert(0, str(root / "scripts"))
-from transport_assets import TransportError, pause_split, pause_split_coverage, split_note, validate as validate_transport
+from transport_assets import TransportError, pause_split_report, validate as validate_transport
 from load_order import LoadError, addon_files
 addons, out = root / "addon", root / "dist" / "packs"
 VERSIONED = "--versioned" in sys.argv[2:]
@@ -77,6 +86,12 @@ DOWNLOADS = {
                                            "LoreForever_Voice_Female_Horde"],
                                           "Female narrator: stories and lands {v}"),
     "LoreForever_Voice_QuestGivers": (["LoreForever_Voice_QuestGivers"], "Quest givers' voices {v}"),
+    # More places and people (complete stories only, voicepack.MORE_PACKS): one zip each, never in the main zip. Skipped
+    # until register_full_stories.py makes the folder.
+    "LoreForever_Voice_Default_MorePlaces": (["LoreForever_Voice_Default_MorePlaces"], "Male narrator: more places {v}"),
+    "LoreForever_Voice_Default_MorePeople": (["LoreForever_Voice_Default_MorePeople"], "Male narrator: more people {v}"),
+    "LoreForever_Voice_Female_MorePlaces": (["LoreForever_Voice_Female_MorePlaces"], "Female narrator: more places {v}"),
+    "LoreForever_Voice_Female_MorePeople": (["LoreForever_Voice_Female_MorePeople"], "Female narrator: more people {v}"),
     # Both narrators in the language packs' languages (LOR-177): one zip per narrator and language, each holding the
     # zone stories, answers, places and people (~340 MB; lore.voicepack locale keeps each under 480 MB). Skipped until
     # recorded (no folder in addon/).
@@ -134,7 +149,7 @@ DOWNLOADS.update(FULL_BUNDLES)
 # dialogue in each language pack's language: release/curseforge.json), and the answers packs, sized for one
 CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers", "LoreForever_Voice_Default_Quests",
                   "LoreForever_Voice_Female_Quests"} | {n for n in DOWNLOADS if re.fullmatch(
-    r"LoreForever_Voice_(Default|Female)((_Quests)?_[a-z]{2}[A-Z]{2}|_Answers_\w+)", n)}
+    r"LoreForever_Voice_(Default|Female)((_Quests)?_[a-z]{2}[A-Z]{2}|_Answers_\w+|_More(Places|People))", n)}
 CURSEFORGE_MB = 480                                  # its upload API refuses bigger files
 GITHUB_ASSET_MAX = 2 * 1024**3 - 64 * 1024**2        # GitHub's release asset limit (2 GiB), less room for zip overhead
 
@@ -184,26 +199,30 @@ rows = []
 # Pause and resume (LOR-346, transport_assets.pause_split): a pack's recordings with cut points (complete stories,
 # answers, quest dialogue, overviews) ship as their pieces, from a split copy of the pack (made once, whichever zips it
 # goes in).
-SOURCES, STAGE = {}, None
+# goes in). The splits are pure Python (about two minutes for every pack, one after another), so every pack's starts
+# at once, one worker process each (LOR-475), and each is taken, with its notes and errors, where it was made before:
+# the same copies, the same output in the same order.
+SOURCES, STAGE, SPLITS = {}, None, None
 def source(folder):
-    global STAGE
+    global STAGE, SPLITS
+    if SPLITS is None:
+        STAGE = Path(tempfile.mkdtemp(prefix=".pause-split-", dir=out))
+        atexit.register(shutil.rmtree, STAGE, True)
+        packs = [f for f in dict.fromkeys(f for fs, _ in DOWNLOADS.values() for f in fs)
+                 if (addons / f / f"{f}.toc").is_file()]
+        # fork: workers that start from this process, scripts/ on their path (it comes from stdin: nothing to import)
+        pool = ProcessPoolExecutor(max(1, min(len(packs), os.cpu_count() or 1)),
+                                   mp_context=multiprocessing.get_context("fork"))
+        SPLITS = {f: pool.submit(pause_split_report, addons / f, STAGE) for f in packs}
     if folder not in SOURCES:
-        SOURCES[folder] = addons / folder
-        try:
-            manifest = validate_transport(addons / folder)
-            stories, cut = pause_split_coverage(manifest)
-            if (manifest or {}).get("cuts"):
-                if STAGE is None:
-                    STAGE = Path(tempfile.mkdtemp(prefix=".pause-split-", dir=out))
-                    atexit.register(shutil.rmtree, STAGE, True)
-                SOURCES[folder], split, _ = pause_split(addons / folder, STAGE)
-                if split:
-                    print(f"{folder}: {split_note(validate_transport(SOURCES[folder]), split)}")
-            if stories and not cut:
-                print(f"{folder}: none of its {stories} complete stories has cut points, so they play whole")
-        except TransportError as e:
-            sys.exit(f"build-voice-packs: {e}")
+        src, notes, error = (SPLITS[folder].result() if folder in SPLITS
+                             else pause_split_report(addons / folder, STAGE))
+        if error:
+            sys.exit(f"build-voice-packs: {error}")
+        print("\n".join(notes), end="\n" if notes else "")
+        SOURCES[folder] = src
     return SOURCES[folder]
+CHECKED = set()   # a pack's checks hold for every zip it goes in
 for name, (folders, display) in DOWNLOADS.items():
     if name in FULL_BUNDLES:
         folders = [f for f in folders if (addons / f / f"{f}.toc").is_file()]
@@ -228,11 +247,15 @@ for name, (folders, display) in DOWNLOADS.items():
         if core and version(f) != core:
             sys.exit(f"build-voice-packs: {f}.toc has ## Version {version(f)}; released packs follow the core ({core})")
     for f in folders:
+        if f in CHECKED:
+            continue
+        CHECKED.add(f)
         try:
             validate_transport(addons / f)
         except TransportError as e:
             sys.exit(f"build-voice-packs: {e}")
-        if not (addons / f / "Clips.lua").is_file() or not any((addons / f / "Audio").glob("*.*")):
+        # (A pack of complete stories only, MorePlaces/MorePeople, has its recordings under Audio/Transport/.)
+        if not (addons / f / "Clips.lua").is_file() or not any(p.is_file() for p in (addons / f / "Audio").rglob("*.*")):
             sys.exit(f"build-voice-packs: {f} has no Clips.lua or no recordings")
         # Audio is stored with Git LFS: a checkout that never fetched it has pointer files instead of recordings.
         pointers = [p for p in (addons / f / "Audio").rglob("*") if p.is_file() and p.stat().st_size <= 1024

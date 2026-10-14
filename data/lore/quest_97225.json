@@ -1,0 +1,115 @@
+{
+ "key": "quest:97225",
+ "type": "quest",
+ "name": "Forgotten Loa Idols",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97225
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls, communion with the loa is central to spiritual life. Recovering lost idols ensures vital rituals can continue and the tribe remains in the spirits' good graces."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Troll priests and witch doctors rely directly on rituals and ancestral sacred items to channel spiritual power and honor the loa."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "While shamanic practices invoke elemental forces, troll spiritualists hold deep reverence for the wild gods and ancestral loa tied to their tribe's survival."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Darkspear are foundational members of the Horde, and assisting their holy elders in preserving vital religious artifacts strengthens tribal unity within the faction."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "forgotten loa idols",
+    "what is this quest",
+    "what is forgotten loa idols"
+   ],
+   "answer": "Forgotten Loa Idols is a task undertaken for the Darkspear trolls to recover missing sacred effigies. The idols are needed to resume critical tribal rituals and maintain honor with their revered wild spirits.",
+   "q": "What is the purpose of Forgotten Loa Idols?"
+  },
+  {
+   "aliases": [
+    "what are loa",
+    "troll gods",
+    "who are the loa"
+   ],
+   "answer": "The loa are ancient, powerful primal spirits and animal deities revered by trolls. Troll culture honors them through offerings, prayer, and ritual ceremonies in exchange for protection, favor, and spiritual guidance.",
+   "q": "What are loa?"
+  },
+  {
+   "aliases": [
+    "darkspear loa relationship",
+    "why revere loa",
+    "other tribes loa"
+   ],
+   "answer": "Unlike more brutal troll tribes who attempt to subordinate or sacrifice to dark deities, the Darkspear view their kinship with the loa as one of deep reverence, mutual respect, and spiritual duty. They believe their survival hinges on remaining in the spirits' favor.",
+   "q": "How do the Darkspear view their loa compared to other troll tribes?"
+  },
+  {
+   "aliases": [
+    "why need idols",
+    "loa idols purpose",
+    "why are idols important"
+   ],
+   "answer": "The idols serve as consecrated foci for tribal rituals. Without them, the elders and spiritual leaders cannot properly conduct the rites required to commune with and honor their patron spirits.",
+   "q": "Why are the idols needed for tribal rituals?"
+  },
+  {
+   "aliases": [
+    "what happens if not returned",
+    "falling out of favor",
+    "darkspear loa favor"
+   ],
+   "answer": "Darkspear elders fear that without proper rites and offerings, their tribe could lose the favor and protective blessings of the loa, leaving the tribe vulnerable in an already perilous world.",
+   "q": "Why is keeping the loa's favor so vital to the Darkspear?"
+  },
+  {
+   "aliases": [
+    "who gives forgotten loa idols",
+    "quest giver",
+    "who asks for idols"
+   ],
+   "answer": "The quest is granted by a Darkspear troll spiritual guide who is anxious to resume communal ceremonies and secure the blessings of the tribe's ancestral patrons.",
+   "q": "Who seeks the return of the Forgotten Loa Idols?"
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "forgotten loa idols",
+  "idols",
+  "loa",
+  "reverence",
+  "rituals",
+  "spirits",
+  "troll"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "For the Darkspear trolls, spiritual balance is inextricably bound to their connection with the loa\u2014the primal animal spirits and wild gods of their ancestral heritage. Forgotten Loa Idols involves recovering displaced religious relics essential for conducting tribal ceremonies. Without these sacred objects, spiritual leaders cannot perform the rites required to maintain harmony with their divine guardians.",
+   "spoiler": 0,
+   "title": "Sacred Remnants of the Loa"
+  },
+  {
+   "body": "While several hostile troll factions across Azeroth practice blood sacrifices or seek to compel spirits by force, the Darkspear pride themselves on maintaining a bond of mutual respect and humble reverence. To the Darkspear, falling out of favor with their patrons is a grave catastrophe, making the restoration of these lost idols a vital act of tribal preservation.",
+   "spoiler": 0,
+   "title": "The Darkspear Bond"
+  }
+ ],
+ "summary": "Forgotten Loa Idols centers on recovering sacred religious effigies for the Darkspear trolls. These lost relics are urgently needed to resume vital spiritual ceremonies and preserve the tribe's enduring bond of reverence with their patron wild spirits.",
+ "attribution": [
+  "In-game quest text: Forgotten Loa Idols"
+ ]
+}

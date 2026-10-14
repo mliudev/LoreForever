@@ -1,0 +1,111 @@
+{
+ "key": "quest:99052",
+ "type": "quest",
+ "name": "Threat from Below",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99052
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Taking down a sea giant along Durotar's coastline removes a dangerous colossus lurking right on the doorstep of the Horde's heartland."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcish honor values facing down titanic adversaries, answering the battle cry of 'blood and thunder' against overwhelming physical might."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Facing a hulking sea giant in direct combat is a fierce trial of martial endurance, proving oneself against one of the coast's heaviest brutes."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is threat from below",
+    "threat from below quest",
+    "sea giant quest durotar"
+   ],
+   "answer": "Threat from Below is a task given to Horde champions to hunt down and defeat a colossal sea giant prowling along Durotar's northern coast and return with proof of the deed.",
+   "q": "What is the quest Threat from Below?"
+  },
+  {
+   "aliases": [
+    "where is sea giant",
+    "durotar sea giant location",
+    "threat from below location"
+   ],
+   "answer": "The sea giant is encountered roaming the waters and shores along the north coast of Durotar.",
+   "q": "Where is the sea giant found?"
+  },
+  {
+   "aliases": [
+    "what is a sea giant",
+    "sea giant lore",
+    "who are sea giants"
+   ],
+   "answer": "Sea giants are massive, ancient coastal behemoths created to dredge the oceans and shape the coastlines of Azeroth. Few wanderers survive a direct confrontation with one.",
+   "q": "What kind of creature is a sea giant?"
+  },
+  {
+   "aliases": [
+    "why kill sea giant",
+    "is sea giant dangerous",
+    "threat to durotar"
+   ],
+   "answer": "A creature of such enormous scale prowling so close to Durotar poses a severe hazard to coastal travelers, fishermen, and Horde encampments along the shore.",
+   "q": "Why does the sea giant need to be eliminated?"
+  },
+  {
+   "aliases": [
+    "blood and thunder meaning",
+    "orc greeting blood and thunder"
+   ],
+   "answer": "'Blood and thunder' is a traditional orcish battle rallying cry honoring martial strength, ferocity, and glory in victory against dangerous adversaries.",
+   "q": "What does the quest giver mean by 'blood and thunder'?"
+  },
+  {
+   "aliases": [
+    "threat from below proof",
+    "proof of accomplishment"
+   ],
+   "answer": "The quest requires bringing back tangible physical proof of the sea giant's fall from the north coast to verify that the massive beast has been slain.",
+   "q": "What proof is required to complete the task?"
+  }
+ ],
+ "keywords": [
+  "blood and thunder",
+  "coastal monster",
+  "durotar",
+  "horde quest",
+  "north coast",
+  "sea giant",
+  "threat from below"
+ ],
+ "related": [
+  "zone:durotar",
+  "subzone:north-coast"
+ ],
+ "sections": [
+  {
+   "body": "Along the northern coastline of Durotar, the waters of the Great Sea wash against jagged sands and rocky shores. While typically frequented by simple scavengers and crabs, the northern coast harbors a far deadlier menace: a hulking sea giant roaming the shallows, threatening anyone attempting to travel or secure the waters bordering the Horde's arid new homeland.",
+   "spoiler": 0,
+   "title": "The Northern Coastline"
+  },
+  {
+   "body": "Sea giants are towering brutes capable of shattering longboats and crushing warriors beneath massive fists. Slaying one is no ordinary feat for young adventurers, and bringing down this behemoth of the waves earns deep respect among the orcs, celebrated with the traditional war cry of 'blood and thunder' echoing across the dry red bluffs.",
+   "spoiler": 0,
+   "title": "A Titan of the Waves"
+  }
+ ],
+ "summary": "Threat from Below is a Horde bounty tasking adventurers with hunting down a dangerous sea giant prowling Durotar's north coast. Overcoming such an enormous coastal titan protects the nearby shores and earns the respect of the warriors of Durotar.",
+ "attribution": [
+  "In-game quest text: Threat from Below"
+ ]
+}

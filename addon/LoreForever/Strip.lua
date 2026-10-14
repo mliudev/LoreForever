@@ -1,16 +1,19 @@
 -- Live game info for the companion app (LOR-416): a tiny block of solid-colour cells in the top-left corner of the
 -- screen that the Lore Forever companion on this PC reads several times a second, so Willo knows where you are and what
 -- you're fighting right away instead of after a /reload. Off until the player ticks Options > Live game info, and then
--- shown only while the Lore Forever panel is open, unless they also tick "show it all the time" (Strip.Showing).
+-- shown only while the Lore Forever panel is open or while they hold Willo's talk key to ask (Strip.Ask), unless they
+-- also tick "show it all the time" (Strip.Showing).
 -- (LOR-57: SavedVariables reach the disk only on /reload or logout, the chat log only at logout, and add-ons can't
 -- follow the combat log, so nothing else gets game state out while you play.)
 --
--- The block: 20 x 6 square cells of 4 screen pixels each, 80 x 24 pixels at any resolution or UI scale, at the very
+-- The block: 20 x 7 square cells of 4 screen pixels each, 80 x 28 pixels at any resolution or UI scale, at the very
 -- top-left of the game's picture, above every other frame.
 --   Row 1      white and black cells in turn, starting with white: the companion finds the block and the cell size by
 --              it, and learns what white and black look like on this screen.
---   Rows 2-6   the payload, 3 bits a cell (red, green, blue: each fully on or off; red is the high bit), left to right
---              and then down, each byte's high bit first. 31 bytes are 248 bits; the cells left over are black.
+--   Rows 2-7   the payload, 3 bits a cell (red, green, blue: each fully on or off; red is the high bit), left to right
+--              and then down, each byte's high bit first. 31 bytes are 248 bits, then the target trailer's 5 bytes
+--              and the narration's 7 (43 bytes, 344 bits); the cells left over are black. Row 7 came with the
+--              narration bytes (LOR-471): companions that read format 2 in rows 2-6 never look at it.
 -- The payload, format 2 (numbers big-endian; format 1 was bytes 0-19 and its CRC, in 4 rows):
 --   0      0xA2: 0xA marks the block, 2 is the format
 --   1      frame counter: +1 at every repaint (at least once a second, HEARTBEAT), back to 0 after 255
@@ -33,16 +36,34 @@
 --   25-28  place lore: CRC-32 of the entry key for where you are (subzone, else zone; zone, city, dungeon or subzone
 --          entries), 0 none
 --   29-30  CRC-16/CCITT-FALSE (polynomial 0x1021, start 0xFFFF) of bytes 0-28
+-- After it, in cells format 2 leaves black, the target trailer, so a character Willo lends a voice to sounds like their
+-- race and gender. Older companions never read these cells; a newer one believes them only when their own check
+-- matches, and all zeros means nothing known:
+--   31-33  the target's model file id (PlayerModel:GetModelFileID, Giver.ModelOf), 0 unknown, not loaded yet, a player
+--   34     UnitSex("target") in bits 0-1 (0 unknown, 1 neither, 2 male, 3 female), its creature type in bits 2-6
+--          (CreatureType ids: 1 beast, 2 dragonkin, 3 demon, 4 elemental, 5 giant, 6 undead, 7 humanoid, 8 critter,
+--          9 mechanical, 10 not specified; 0 unknown)
+--   35     CRC-8 (polynomial 0x07, start 0xFF) of bytes 10-12 and 31-34: the trailer is about this target
+-- Then, into row 7, what a Lore Forever narration is doing, so Willo doesn't talk over it even after the block goes
+-- away (LOR-471, Strip.Narration), all zeros meaning none plays:
+--   36     bit 7 a narration plays, bit 6 it started by itself (an arrival, a flight, a quest giver: Voice.OnGameTalk's
+--          kind), bit 5 the time is what's left of it (a complete story, whose length the add-on knows), else how
+--          long it has played; bits 0-3 the time's high bits
+--   37     the time's low byte: seconds, 0 to 4095
+--   38-40  the recording playing: the low 24 bits of the CRC-32 of its path (Voice.lastClip.path), 0 none; the
+--          companion finds it among the installed packs' files and reads its length
+--   41-42  CRC-16 of bytes 36-40 (a whole one: under a block without row 7 the companion reads the game's picture)
 -- companion/lore_companion/strip.py reads it; companion/README.md explains it for players. A new field goes in a new
--- format number, so an older companion says "update the companion" instead of misreading it. Names never go out:
--- the companion matches the lore hashes against the same add-on's entry keys.
+-- format number, so an older companion says "update the companion" instead of misreading it (the trailer is the one
+-- exception: it only adds what an older companion does without). Names never go out: the companion matches the lore
+-- hashes against the same add-on's entry keys, and the model id against the add-on's own ModelRaces.lua.
 -- Painting is event-driven: an event marks the block stale, and it repaints at most every MIN_GAP seconds.
 
 local _, ns = ...
 local Strip = {}
 ns.Strip = Strip
 
-Strip.COLS, Strip.ROWS, Strip.PIXELS = 20, 6, 4
+Strip.COLS, Strip.ROWS, Strip.PIXELS = 20, 7, 4
 Strip.MARK = 0xA2
 local COLS, ROWS, PIXELS = Strip.COLS, Strip.ROWS, Strip.PIXELS
 local MIN_GAP, HEARTBEAT = 0.1, 1   -- seconds: at most ten repaints a second, at least one
@@ -122,6 +143,21 @@ function Strip.CRC32(s)
     crc = xor(CRC32[xor(crc % 256, s:byte(i))], math.floor(crc / 256))
   end
   return xor(crc, 0xFFFFFFFF)
+end
+
+-- CRC-8 (polynomial 0x07, start 0xFF) of a list of bytes: the target trailer's own check.
+local CRC8 = {}
+for i = 0, 255 do
+  local c = i
+  for _ = 1, 8 do
+    c = c >= 0x80 and xor((c * 2) % 256, 0x07) or (c * 2) % 256
+  end
+  CRC8[i] = c
+end
+function Strip.CRC8(bytes)
+  local crc = 0xFF
+  for _, b in ipairs(bytes) do crc = CRC8[xor(crc, b)] end
+  return crc
 end
 
 -- The hash of an entry key when the entry exists and is one of `types`, else 0.
@@ -208,6 +244,31 @@ local function busy()
   return UI.frame and yes(try(UI.frame.IsShown, UI.frame)) or false
 end
 
+-- What a narration is doing (bytes 36-40): the flags byte with the time's high bits, the time's low byte and the
+-- recording's 24-bit hash; 0, 0, 0 when none plays.
+local clipHashes = {}
+function Strip.Narration()
+  local UI, V = ns.UI, ns.Voice
+  if not (UI and V and (UI.speaking or (UI.pl and UI.pl.state == "playing"))) then return 0, 0, 0 end
+  local flags = 128
+  local okAuto, auto = pcall(V.AutoPlayingNow or function() end)
+  if okAuto and auto then flags = flags + 64 end
+  local secs, last = 0, V.lastClip
+  local okPos, pos, dur = pcall(V.Position or function() end)
+  if okPos and type(pos) == "number" and type(dur) == "number" and dur >= pos then
+    flags, secs = flags + 32, dur - pos
+  elseif type(last) == "table" and type(last.started) == "number" then
+    secs = now() - last.started
+  end
+  secs = math.max(0, math.min(4095, math.floor(secs + 0.5)))
+  local path, clip = type(last) == "table" and last.path, 0
+  if type(path) == "string" then
+    clipHashes[path] = clipHashes[path] or Strip.CRC32(path) % 0x1000000
+    clip = clipHashes[path]
+  end
+  return flags + math.floor(secs / 256), secs % 256, clip
+end
+
 local subzone = { text = nil, hash = 0 }
 local function subzoneHash()
   local text = try(GetSubZoneText)
@@ -237,6 +298,39 @@ local function npcID(guid)
   return int(tonumber(id), 0xFFFFFF) or 0
 end
 
+-- The target's model file id, looked at once per target (Giver.ModelOf's "strip" slot; it can load a moment after you
+-- target someone, and the block repaints then). 0 for no one, another player, or a model this client can't read.
+local targetModel = { guid = nil, id = 0 }
+local function targetModelID(has, isPlayer)
+  local guid = has and not isPlayer and try(UnitGUID, "target")
+  if not (ns.Context.Usable(guid) and type(guid) == "string") then
+    targetModel.guid, targetModel.id = nil, 0
+    return 0
+  end
+  if targetModel.guid ~= guid then
+    targetModel.guid, targetModel.id = guid, 0
+    local G = ns.Giver
+    if G and G.ModelOf then
+      pcall(G.ModelOf, "target", function(fileID)
+        if targetModel.guid ~= guid then return end
+        targetModel.id = int(fileID, 0xFFFFFF) or 0
+        if Strip.Touch then Strip.Touch() end
+      end, "strip")
+    end
+  end
+  return targetModel.id
+end
+
+-- UnitCreatureType's id (its second value where the client gives one, else the English name's), 0 unknown.
+local CREATURE_TYPES = { Beast = 1, Dragonkin = 2, Demon = 3, Elemental = 4, Giant = 5, Undead = 6, Humanoid = 7,
+  Critter = 8, Mechanical = 9, ["Not specified"] = 10, Totem = 11, ["Non-combat Pet"] = 12, ["Gas Cloud"] = 13 }
+local function creatureType(has, isPlayer)
+  if not has or isPlayer then return 0 end
+  local name, id = try(UnitCreatureType, "target")
+  if ns.Context.Usable(id) and type(id) == "number" then return int(id, 31) or 0 end
+  return ns.Context.Usable(name) and CREATURE_TYPES[name] or 0
+end
+
 local function health()
   local hp, max = try(UnitHealth, "player"), try(UnitHealthMax, "player")
   if not (ns.Context.Usable(hp) and ns.Context.Usable(max)) or type(hp) ~= "number" or type(max) ~= "number"
@@ -251,7 +345,8 @@ local function put(out, v, n)   -- v as n big-endian bytes
 end
 
 local seq = 0
--- The 31 payload bytes for what the game shows now (a new frame counter each call).
+-- The 31 payload bytes for what the game shows now (a new frame counter each call), then the target trailer's 5 and
+-- the narration's 7.
 function Strip.Payload()
   seq = (seq + 1) % 256
   local out = { Strip.MARK, seq }
@@ -287,6 +382,19 @@ function Strip.Payload()
   put(out, targetLoreHash(has, isPlayer), 4)
   put(out, placeLoreHash(), 4)
   put(out, Strip.CRC(out), 2)
+  local trailer = {}
+  put(trailer, targetModelID(has, isPlayer), 3)
+  local sex = has and not isPlayer and int(try(UnitSex, "target"), 3) or 0
+  put(trailer, sex + creatureType(has, isPlayer) * 4, 1)
+  put(trailer, Strip.CRC8({ out[11], out[12], out[13], trailer[1], trailer[2], trailer[3], trailer[4] }), 1)
+  for _, b in ipairs(trailer) do out[#out + 1] = b end
+  local high, low, clip = Strip.Narration()
+  local narration = {}
+  put(narration, high, 1)
+  put(narration, low, 1)
+  put(narration, clip, 3)
+  for _, b in ipairs(narration) do out[#out + 1] = b end
+  put(out, Strip.CRC(narration), 2)
   return out
 end
 
@@ -342,6 +450,9 @@ local function paint()
   lastPaint, stale = now(), false
 end
 
+-- Something the block shows changed outside its events (the target's model, once it has loaded): repaint soon.
+function Strip.Touch() stale = true end
+
 local function onEvent(_, event, unit)
   if (event == "UNIT_HEALTH" or event == "UNIT_MAXHEALTH") and unit ~= "player" and unit ~= "target" then return end
   if (event == "UNIT_LEVEL" or event == "UNIT_FACTION" or event == "UNIT_CLASSIFICATION_CHANGED")
@@ -388,19 +499,91 @@ end
 -- Whether the player turned Live game info on.
 function Strip.On() return S().liveStrip == true end
 
--- Whether the block is on screen now: with Live game info on, only while the Lore Forever panel is open, unless the
--- player chose to show it all the time (liveStripAlways). Some players took a block of squares that's always there
--- for something hacking the game; this way it shows only while they're using Lore Forever.
+-- Asking Willo out loud: the companion listens while its talk key is held (talk/ptt.py reads the key's state; nothing
+-- is sent to the game), and the same key bound here to "Ask Willo" (Bindings.xml, runOnUp) shows the block while it's
+-- held and ASK_AFTER seconds after, so the companion reads where you are and who you target for that question. A key
+-- whose release the game never saw (let go in another window) stops counting after ASK_MAX.
+local ASK_AFTER, ASK_MAX = 2.5, 30
+local askDown, askUntil = nil, 0
+
+function Strip.Ask(down)
+  local t = now()
+  if down then
+    askDown = t
+  elseif askDown then
+    askDown, askUntil = nil, t + ASK_AFTER
+  end
+  -- Willo is about to answer out loud: narration that started by itself makes way (Voice.OnWilloAsked, LOR-471).
+  -- With Live game info off too: nothing leaves the game for this.
+  if ns.Voice and ns.Voice.OnWilloAsked then pcall(ns.Voice.OnWilloAsked, down) end
+  if C_Timer and C_Timer.After then C_Timer.After((down and ASK_MAX or ASK_AFTER) + 0.05, Strip.Update) end
+  Strip.Update()
+end
+_G.LoreForever_AskWillo = function(keystate) Strip.Ask(keystate ~= "up") end
+
+local function asking()
+  local t = now()
+  return (askDown ~= nil and t - askDown < ASK_MAX) or t < askUntil
+end
+
+-- Whether the block is on screen now: with Live game info on, only while the Lore Forever panel is open or while the
+-- player asks Willo, unless they chose to show it all the time (liveStripAlways). Some players took a block of squares
+-- that's always there for something hacking the game; this way it shows only while they're using Lore Forever.
 function Strip.Showing()
   if not Strip.On() then return false end
-  if S().liveStripAlways == true then return true end
+  if S().liveStripAlways == true or asking() then return true end
   local UI = ns.UI
   return UI and UI.frame and yes(try(UI.frame.IsShown, UI.frame)) or false
 end
 
--- Show or hide the block to match the settings and the panel (Core.lua at login, Options, /lore live, the panel's
--- OnShow and OnHide in UI.lua); while it's hidden, nothing is registered and nothing runs.
+-- Bind Willo's talk key (LoreForeverJourneyData.talkKey, written by the companion while talking is on) to Ask Willo,
+-- only where the game has nothing on that key: a player's own binding always stays. An Ask Willo key left from an
+-- older talk key moves to the new one. WoW loads its saved bindings after login (Mike's had "bind F8 NONE"), which
+-- undid a single try at PLAYER_LOGIN, so it's tried again whenever bindings change, on entering the world, after
+-- combat (bindings can't change in combat) and a few seconds after login, until the key really is Ask Willo. Once
+-- the first minute after login has passed, a key the player clears themselves stays cleared. Whether or not Live game
+-- info is on: the key also tells the add-on Willo is answering, so it doesn't start a narration over Willo
+-- (Voice.OnWilloAsked, LOR-471); the block shows only with Live game info on.
+local ASK, SETTLE = "LOREFOREVER_ASKWILLO", 60
+local loginAt
+function Strip.OfferAskKey()
+  if not ns.BindingsReady then return end -- not before WoW has loaded the saved bindings (Core.lua)
+  if not loginAt then                     -- the first try once they're in: try again shortly too
+    loginAt = now()
+    if C_Timer and C_Timer.After then
+      C_Timer.After(5, Strip.OfferAskKey)
+      C_Timer.After(12, Strip.OfferAskKey)    -- under 15 s: a short retry, not a long-lived timer
+    end
+  end
+  if try(InCombatLockdown) or type(GetBindingAction) ~= "function"
+      or type(SetBinding) ~= "function" then return end
+  local data = _G.LoreForeverJourneyData
+  local key = type(data) == "table" and type(data.talkKey) == "string" and data.talkKey ~= "" and data.talkKey or nil
+  if not key then return end
+  local action = try(GetBindingAction, key)
+  if action == ASK then return key end
+  if action ~= "" and action ~= nil then return end
+  if S().askWilloKey == key and loginAt and now() - loginAt > SETTLE then return end   -- they cleared it: theirs
+  local old = type(GetBindingKey) == "function" and try(GetBindingKey, ASK) or nil
+  if old and old ~= key then pcall(SetBinding, old) end
+  local ok, bound = pcall(SetBinding, key, ASK)
+  if ok and bound ~= false then
+    S().askWilloKey = key
+    if SaveBindings and GetCurrentBindingSet then pcall(SaveBindings, GetCurrentBindingSet()) end
+    return key
+  end
+end
+
+local binder = CreateFrame("Frame")
+for _, e in ipairs({ "PLAYER_ENTERING_WORLD", "UPDATE_BINDINGS", "PLAYER_REGEN_ENABLED" }) do
+  pcall(binder.RegisterEvent, binder, e)
+end
+binder:SetScript("OnEvent", function() Strip.OfferAskKey() end)
+
+-- Show or hide the block to match the settings, the panel and asking (Core.lua at login, Options, /lore live, the
+-- panel's OnShow and OnHide in UI.lua, the Ask Willo key); while it's hidden, nothing is registered and nothing runs.
 function Strip.Update()
+  Strip.OfferAskKey()
   if not Strip.Showing() then
     if frame then
       frame:UnregisterAllEvents()

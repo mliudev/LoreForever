@@ -1,0 +1,113 @@
+{
+ "key": "quest:7807",
+ "type": "quest",
+ "name": "A Donation of Wool",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7807
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Contributing raw materials to the exiled gnomes strengthens Alliance solidarity and helps sustain a vital ally displaced from their mountain home."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "For exiled gnomes, gathering wool helps resupply your displaced kin as they work to survive and rebuild outside Gnomeregan."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Tailors who gather or weave wool cloth have an ample supply of textiles that refugee populations desperately need for basic garments and supplies."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "why wool",
+    "what is the wool for",
+    "wool donation purpose"
+   ],
+   "answer": "The Gnomeregan Exiles are running a resource drive to build up basic textile stores. Having been driven out of their home city, their people need essential materials like wool cloth to sustain their refugee population and ongoing operations.",
+   "q": "Why do the Gnomeregan Exiles need wool cloth?"
+  },
+  {
+   "aliases": [
+    "how much wool",
+    "donation amount",
+    "wool required"
+   ],
+   "answer": "The donation drive asks for a single contribution of sixty pieces of wool cloth per contributor. The organizers calculate that receiving this specific amount from individuals across the realm will adequately fulfill their overall supply needs.",
+   "q": "How much wool cloth is needed?"
+  },
+  {
+   "aliases": [
+    "who takes donation",
+    "who is accepting wool",
+    "donation recipient"
+   ],
+   "answer": "Representatives of the Gnomeregan Exiles coordinate the textile collection, receiving donations on behalf of the displaced gnome populace currently sheltering among their allies.",
+   "q": "Who is organizing this donation drive?"
+  },
+  {
+   "aliases": [
+    "can i donate again",
+    "is it repeatable",
+    "more wool donations"
+   ],
+   "answer": "The requisition is limited to a single contribution of sixty pieces from each donor. The exiles note that their current stores only require that fixed amount from you, as they rely on a broader pool of contributors across the realm to meet their quota.",
+   "q": "Can you donate wool cloth more than once?"
+  },
+  {
+   "aliases": [
+    "gnomeregan exiles standing",
+    "gnome reputation",
+    "exile recognition"
+   ],
+   "answer": "Providing sixty pieces of wool earns full recognition and gratitude from the Gnomeregan Exiles, demonstrating your loyalty and assistance to their displaced people during a time of crisis.",
+   "q": "What recognition do the Gnomeregan Exiles offer?"
+  },
+  {
+   "aliases": [
+    "why are gnomes in exile",
+    "where is gnomeregan",
+    "gnome refugee crisis"
+   ],
+   "answer": "The gnomes were forced to flee their subterranean home of Gnomeregan following a catastrophic disaster and trogg invasion, leaving them dependent on temporary encampments, allied aid, and material drives while living as refugees.",
+   "q": "Why are the gnomes currently in exile?"
+  }
+ ],
+ "keywords": [
+  "cloth drive",
+  "donation of wool",
+  "gnome",
+  "gnomeregan",
+  "gnomeregan exiles",
+  "textiles",
+  "wool cloth"
+ ],
+ "related": [
+  "topic:gnome",
+  "zone:gnomeregan"
+ ],
+ "sections": [
+  {
+   "body": "Following the fall of Gnomeregan to trogg invaders and radioactive contamination, the surviving gnomes found themselves displaced from their high-tech metropolis. Operating as refugees primarily hosted by their dwarven cousins in Ironforge, the Gnomeregan Exiles face severe logistical strain. Routine material drives for basic goods like cloth are essential to keep their people clothed, supplied, and organized while surviving outside their ancestral halls.",
+   "spoiler": 0,
+   "title": "A Displaced People's Needs"
+  },
+  {
+   "body": "To avoid overtaxing individual benefactors, the organizers of the drive request exactly sixty pieces of wool cloth per volunteer. By pooling modest contributions from across the realm, the exiles can amass the bulk textiles required for bedding, bandages, and clothing without placing an unsustainable burden on any single supplier. In exchange, the gnomes offer formal recognition among their people to anyone willing to aid their recovery effort.",
+   "spoiler": 0,
+   "title": "The Textile Drive"
+  }
+ ],
+ "summary": "A Donation of Wool is a material requisition organized by the Gnomeregan Exiles to gather essential textile supplies. Displaced from their technological home city, the exiled gnomes rely on sixty pieces of wool cloth from generous adventurers across the realm to sustain their community. Contributing to the drive grants formal recognition among the gnome refugees.",
+ "attribution": [
+  "In-game quest text: A Donation of Wool"
+ ]
+}

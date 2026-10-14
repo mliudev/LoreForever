@@ -90,7 +90,7 @@ Name: "en"; MessagesFile: "compiler:Default.isl"
 WelcomeLabel2=This puts the Lore Forever add-on into your World of Warcraft: Forever install.%n%nIf WoW is running, close it first, or type /reload in game afterwards.
 SelectDirLabel3=Setup found this World of Warcraft folder. It should contain the _classic_beta_ folder (WoW Forever).
 SelectDirBrowseLabel=If that's not your WoW folder, click Browse and pick the one that holds _classic_beta_.
-FinishedLabel=Lore Forever is installed.%n%nStart WoW Forever, pick a key when it asks, or type /lore in chat. If it doesn't show up, click AddOns on the character screen and tick "Load out of date AddOns".
+FinishedLabel=Lore Forever is installed.%n%nStart WoW Forever, pick a key when it asks, or type /lore in chat. If it doesn't show up, click AddOns on the character screen and tick "Load out of date AddOns".%n%nIf World of Warcraft is open, type /reload in the game's chat to load the update.
 
 [InstallDelete]
 ; Data chunks change names between versions; clear them so old ones don't linger.
@@ -123,8 +123,12 @@ Type: filesandordirs; Name: "{#HordeDir}"
 Type: filesandordirs; Name: "{#FemaleDir}"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{#FemaleAllianceDir}"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{#FemaleHordeDir}"; Check: VoiceChosen('female')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MorePlaces"; Check: VoiceChosen('female')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MorePeople"; Check: VoiceChosen('female')
 
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Quests"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MorePlaces"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MorePeople"; Check: VoiceChosen('quests')
 
 #ifdef DownloadUninstallIss
   #include DownloadUninstallIss
@@ -156,11 +160,11 @@ begin
   SetArrayLength(VoiceWanted, 2);
   VoiceIds[0] := 'female';
   // The same one-line descriptions as the pack cards on loreforeverwow.com/downloads (site/lib/packs.js, LOR-437).
-  VoiceNames[0] := 'Female narrator: the same stories in a second voice, with the Alliance and Horde lands';
+  VoiceNames[0] := 'Female narrator: the same stories in a second voice, with the Alliance and Horde lands, plus more places and people';
   VoiceAssets[0] := 'LoreForever_Voice_Female-complete.zip';
   VoiceFolders[0] := 'LoreForever_Voice_Female;LoreForever_Voice_Female_Alliance;LoreForever_Voice_Female_Horde';
   VoiceIds[1] := 'quests';
-  VoiceNames[1] := 'Quest dialogue (male narrator): quest givers read their words aloud';
+  VoiceNames[1] := 'Quest dialogue and more (male narrator): quest givers read their words aloud, plus more places and people';
   VoiceAssets[1] := 'LoreForever_Voice_Default_Quests.zip';
   VoiceFolders[1] := 'LoreForever_Voice_Default_Quests';
 #ifndef DownloadIss

@@ -131,6 +131,7 @@ end
 -- Offer a free default only: a player's existing picture binding and every other action's binding take precedence.
 -- A book switched off never removes a player's saved binding.
 function Journey.OfferPictureKey()
+  if not ns.BindingsReady then return end          -- not before WoW has loaded the saved bindings (Core.lua)
   if not Journey.PictureShortcutsOn() or try(InCombatLockdown) or type(GetBindingKey) ~= "function"
       or type(GetBindingAction) ~= "function" or type(SetBinding) ~= "function" then return end
   local existing = try(GetBindingKey, "LOREFOREVER_PICTURE")
@@ -560,7 +561,12 @@ function Journey.Init()
   end
   startTrail()
   if _G.TakeTaxiNode and hooksecurefunc then pcall(hooksecurefunc, "TakeTaxiNode", Journey.OnTakeTaxi) end
-  -- Identify the usable key when it changes, including a player's own binding; unchanged reloads stay quiet.
+  Journey.OfferPictureKeyHint()
+end
+
+-- Identify the usable key when it changes, including a player's own binding; unchanged reloads stay quiet. Runs once
+-- the saved bindings are in (Core.lua's bindingsReady), and at login when they already are (a /reload).
+function Journey.OfferPictureKeyHint()
   local key = Journey.OfferPictureKey()
   if key and settings().pictureKeyHint ~= key then
     settings().pictureKeyHint = key

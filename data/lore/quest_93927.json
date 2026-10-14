@@ -1,0 +1,91 @@
+{
+ "key": "quest:93927",
+ "type": "quest",
+ "name": "A Last Request",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93927
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is the dead peacekeeper",
+    "dead peacekeeper",
+    "peacekeeper identity"
+   ],
+   "answer": "The fallen peacekeeper's exact identity remains unstated in the initial discovery. What is evident is his role as a keeper of order whose duty ended violently, leaving behind only the urgent message clutched in his grip.",
+   "q": "Who is the dead peacekeeper?"
+  },
+  {
+   "aliases": [
+    "what is the bloody note",
+    "what does the note say",
+    "peacekeeper note"
+   ],
+   "answer": "The bloody note slipped from the dying peacekeeper's fingers before he fell. It provides vital clues regarding his final thoughts, his unfinished assignment, and what must be done to see his final intentions carried out.",
+   "q": "What is written on the bloody note?"
+  },
+  {
+   "aliases": [
+    "how to start a last request",
+    "where is a last request found"
+   ],
+   "answer": "This task begins directly upon discovering and examining the lifeless body of a peacekeeper. Searching the fallen defender reveals the bloody note clutched in his lifeless hands, outlining his final plea.",
+   "q": "How is this request discovered?"
+  },
+  {
+   "aliases": [
+    "why was peacekeeper killed",
+    "who killed peacekeeper"
+   ],
+   "answer": "The identity of the killer is not immediately clear, but the blood on the peacekeeper and his note points to a swift and fatal confrontation during the line of duty. Examining his last writings offers the clearest path to understanding what took his life.",
+   "q": "What happened to the peacekeeper?"
+  },
+  {
+   "aliases": [
+    "what is the peacekeeper's request",
+    "last request purpose"
+   ],
+   "answer": "The peacekeeper died before he could finish his mission or deliver his message himself. By retrieving and inspecting his bloodstained note, an adventurer can decipher his final instructions and see his dying wish fulfilled.",
+   "q": "What is the peacekeeper's last request?"
+  },
+  {
+   "aliases": [
+    "who are peacekeepers",
+    "peacekeeper lore"
+   ],
+   "answer": "Peacekeepers serve as protectors tasked with maintaining order and defending settlements and roads from danger. Falling in the field leaves their duties unfinished and their allies unwarned unless someone recovers their final reports.",
+   "q": "What role do peacekeepers serve?"
+  }
+ ],
+ "keywords": [
+  "a last request",
+  "bloody note",
+  "dead peacekeeper",
+  "peacekeeper",
+  "peacekeeper note"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A Last Request begins with a grim discovery in the field: the lifeless body of a fallen peacekeeper. Slumped in death, the guardian still clutches a bloodstained note that slips free upon inspection. In the turbulent lands of Azeroth, peacekeepers often pay the ultimate price trying to maintain order, and recovering their dying words is frequently the only way to uncover what befell them.",
+   "spoiler": 0,
+   "title": "A Grim Discovery"
+  },
+  {
+   "body": "The bloodied parchment pried from the peacekeeper's hands contains his final plea or instructions. Whoever ended the guard's life left his duty unfinished, leaving it to whoever finds the body to interpret the clues and see his final mission completed. Reading the note provides the critical direction needed to proceed and answer the fallen sentinel's dying call.",
+   "spoiler": 0,
+   "title": "The Final Message"
+  }
+ ],
+ "summary": "A Last Request begins upon discovering the corpse of a fallen peacekeeper in the field. Clutched in the dead guard's hands is a bloodstained note containing vital clues about his final moments. Reading his dying words offers the only way to carry out his unfinished duty and bring closure to his fate.",
+ "attribution": [
+  "In-game quest text: A Last Request"
+ ]
+}

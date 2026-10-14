@@ -1,0 +1,113 @@
+{
+ "key": "quest:92489",
+ "type": "quest",
+ "name": "Power Overwhelming",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92489
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Kirin Tor are historic allies of the Alliance, and Stormwind is eager to reinforce those bonds by aiding Dalaran during its vulnerable rebuilding phase."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages share a kinship with the Kirin Tor and will recognize the grave threat posed by unstable arcane manifestations run amok in Dalaran."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is power overwhelming",
+    "power overwhelming quest",
+    "dalaran mana elemental quest"
+   ],
+   "answer": "Power Overwhelming is an assignment from High Sorcerer Andromath in Stormwind City to assist the rebuilding Kirin Tor in Dalaran by slaying an unruly Mana Elemental.",
+   "q": "What is the quest Power Overwhelming?"
+  },
+  {
+   "aliases": [
+    "who gives power overwhelming",
+    "andromath quest",
+    "where to start power overwhelming"
+   ],
+   "answer": "High Sorcerer Andromath, a prominent wizard of Stormwind City, offers the quest to champions willing to journey to Dalaran and assist the Kirin Tor.",
+   "q": "Who gives this quest?"
+  },
+  {
+   "aliases": [
+    "why dalaran secluded",
+    "what happened to dalaran",
+    "why are dalaran mages distrustful"
+   ],
+   "answer": "Dalaran was devastated by the arch-demon Archimonde during the Third War. Although the Kirin Tor are working to reconstruct their home, the catastrophe has left the surviving magi reclusive and wary of outsiders.",
+   "q": "Why is Dalaran reclusive and distrusting?"
+  },
+  {
+   "aliases": [
+    "dalaran arcane outbreak",
+    "why are there mana elementals in dalaran",
+    "what is going on in dalaran"
+   ],
+   "answer": "During ongoing reconstruction efforts to restore the city, the Kirin Tor began struggling to contain an outbreak of wayward arcane energies, which coalesced into hostile mana elementals.",
+   "q": "What is causing the disturbance in Dalaran?"
+  },
+  {
+   "aliases": [
+    "what is the mana elemental",
+    "dalaran elemental lore",
+    "creature of pure mana"
+   ],
+   "answer": "The Mana Elemental is a manifestation of pure, uncontained arcane power. Its appearance indicates that the underlying arcane disturbance threatening Dalaran is far stronger than initial reports suggested.",
+   "q": "What is the Mana Elemental?"
+  },
+  {
+   "aliases": [
+    "why stormwind helping dalaran",
+    "why does alliance care about dalaran"
+   ],
+   "answer": "The Kirin Tor have long been vital allies of the Alliance. High Sorcerer Andromath wants to ensure Dalaran does not fall to chaos or slip away from the Alliance during its time of vulnerability.",
+   "q": "Why is Stormwind sending help to Dalaran?"
+  }
+ ],
+ "keywords": [
+  "arcane energy",
+  "archimonde",
+  "dalaran",
+  "high sorcerer andromath",
+  "kirin tor",
+  "mana elemental",
+  "power overwhelming",
+  "stormwind"
+ ],
+ "related": [
+  "quest:1939",
+  "subzone:dalaran",
+  "zone:stormwind",
+  "topic:alliance",
+  "topic:mage",
+  "topic:stormwind-kingdom"
+ ],
+ "sections": [
+  {
+   "body": "Following the devastating destruction of Dalaran at the hands of the arch-demon Archimonde during the Third War, the Kirin Tor retreated inward. Once welcoming scholars and sorcerers from across the world, the surviving magi have grown secretive, reclusive, and deeply distrustful of outsiders as they work tirelessly behind closed borders to rebuild their ruined city.",
+   "spoiler": 0,
+   "title": "A City in Seclusion"
+  },
+  {
+   "body": "Recent reconstruction efforts to restore Dalaran to its former glory have met severe complications. Dangerous leaks of volatile arcane energies have surged out of control, coalescing into beings of pure mana. Fearing that Dalaran might fall to internal turmoil or abandon its historic ties to the Alliance, High Sorcerer Andromath dispatched champions from Stormwind to quell the Mana Elemental and remind the Kirin Tor of their enduring allies.",
+   "spoiler": 0,
+   "title": "Wayward Arcane Forces"
+  }
+ ],
+ "summary": "Power Overwhelming is a quest issued by High Sorcerer Andromath in Stormwind City to assist the secluded Kirin Tor. Players are dispatched to the ruined city of Dalaran to quell a dangerous outbreak of wayward arcane energy manifested as a Mana Elemental.",
+ "attribution": [
+  "In-game quest text: Power Overwhelming"
+ ]
+}

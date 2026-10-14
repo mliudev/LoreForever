@@ -1,0 +1,98 @@
+{
+ "key": "quest:96822",
+ "type": "quest",
+ "name": "For Honor",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96822
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "This task centers directly on honoring fallen combatants, resonating strongly with warriors who value battlefield sacrifice and enduring remembrance."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is for honor",
+    "for honor quest overview"
+   ],
+   "answer": "For Honor is a quest focused on commemorating fallen fighters. By undertaking and completing the task, you help ensure that the sacrifices of these warriors are recognized and not lost to history.",
+   "q": "What is the quest For Honor about?"
+  },
+  {
+   "aliases": [
+    "who are the warriors",
+    "who is remembered"
+   ],
+   "answer": "The quest text specifically honors fallen warriors whose deeds and memory are preserved through your actions. Their service and sacrifice are kept alive by those who see the task through.",
+   "q": "Who are the warriors mentioned upon completion?"
+  },
+  {
+   "aliases": [
+    "why do this quest",
+    "for honor meaning"
+   ],
+   "answer": "The purpose of the task is remembrance. In a world fraught with ongoing war and conflict, honoring the memory of those who fell in battle provides dignity and ensures their courage is acknowledged.",
+   "q": "Why is honoring these warriors important?"
+  },
+  {
+   "aliases": [
+    "who gives for honor",
+    "quest giver for honor"
+   ],
+   "answer": "The task is directed by someone seeking to memorialize fallen comrades. Upon return, they verify whether the deed has been performed and acknowledge that the warriors will forever be remembered.",
+   "q": "Who asks for this task to be done?"
+  },
+  {
+   "aliases": [
+    "is for honor part of a chain",
+    "what follows for honor"
+   ],
+   "answer": "The quest serves as a dedicated act of commemoration for fallen fighters. Its immediate concern is cementing their legacy so their sacrifices are never forgotten on the field of battle.",
+   "q": "Does this quest lead to other tasks?"
+  },
+  {
+   "aliases": [
+    "what makes it honorable",
+    "meaning of for honor"
+   ],
+   "answer": "The name reflects the central theme of honoring fallen soldiers. It highlights that acknowledging sacrifice and keeping battlefield memory alive is among the most solemn duties a fighter can carry out.",
+   "q": "What does the title For Honor signify?"
+  }
+ ],
+ "keywords": [
+  "fallen warriors",
+  "for honor",
+  "honor",
+  "memorial",
+  "quest",
+  "remembrance",
+  "warrior"
+ ],
+ "related": [
+  "topic:warrior"
+ ],
+ "sections": [
+  {
+   "body": "The quest For Honor is a solemn mission centered on memorializing fallen combatants. In a world continuously tested by conflict, ensuring that soldiers who gave everything are not forgotten stands as a vital duty for those who survive them.",
+   "spoiler": 0,
+   "title": "A Duty of Remembrance"
+  },
+  {
+   "body": "Upon fulfilling the task, the quest giver confirms that the fallen fighters will endure in memory thanks to your efforts. The completed deed ensures their sacrifices remain recognized and respected rather than fading into obscurity.",
+   "spoiler": 0,
+   "title": "Preserving the Legacy"
+  }
+ ],
+ "summary": "For Honor is a quest dedicated to commemorating fallen warriors so their deeds are not forgotten. By completing the task, an adventurer ensures that the sacrifices of these combatants endure in memory.",
+ "attribution": [
+  "In-game quest text: For Honor"
+ ]
+}

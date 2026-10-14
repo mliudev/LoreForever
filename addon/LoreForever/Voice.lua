@@ -830,9 +830,11 @@ function Voice.OnZone(zk)
   local zone = db.zones and db.zones[zk]
   if not zone or not Voice.chain[1] then return end
   local missing = false
+  -- (A clip of an optional pack of its own, ns.DB.clipPack (more places and people), isn't the lands packs' to give.)
+  local optional = db.clipPack or {}
   for id in pairs(db.clipHash or {}) do
     local e = db.entries and db.entries[id:match("^(.-)#faq%d+$") or id]
-    if e and e.z == zk and not Voice.provided[id] then missing = true break end
+    if e and e.z == zk and not Voice.provided[id] and not optional[id] then missing = true break end
   end
   if not missing then return end
   Voice.hinted[zk] = true
@@ -1544,7 +1546,8 @@ function Voice.Play(key, options)
           path = whole and whole.rates[1][1].path or (transport and transport.parts[transport.index].path or path),
           hash = whole and whole.fullHash or (transport and (transport.row.fullHash or transport.row.hash) or (data and data.clips and data.clips[key])),
           text = whole and whole.text or (transport and transport.row.text or nil),
-          duration = whole and whole.duration or nil }
+          duration = whole and whole.duration or nil,
+          started = now() }   -- (how long it has played, for Willo: Strip.Narration)
         -- A community recording plays with its own words: its text and title are what the read-along shows.
         local scoped, scopedText, scopedTitle = Voice.ScopedClip(key, pack)
         if scoped then
@@ -1625,6 +1628,7 @@ local function autoPlayingNow()
   local cur = UI.pl and UI.pl.state == "playing" and UI.pl.items[UI.pl.pos]
   return cur and cur.flight and UI.playingId == cur.id or false
 end
+Voice.AutoPlayingNow = autoPlayingNow   -- (Strip.Narration tells Willo)
 
 -- Flight narration: when a taxi flight starts, and each time it crosses into a new zone, play that zone's recorded
 -- story (a zone no voice recorded passes in silence). Voice.flying notes a flight with flight narration off too:
@@ -1694,6 +1698,11 @@ local AUTO_SETTLE = 3
 -- Darkshire, and he called it "very much desynced".
 local ARRIVAL_WAIT = 90
 local TURN_GAP = 1.5   -- from the end of what played to a waiting arrival story (the playlist's gap between two)
+-- Seconds after Willo's talk key comes up that nothing starts by itself (Voice.OnWilloAsked): Willo's answer comes in
+-- a few seconds and its spoken lines run up to about half a minute. Held down, up to WILLO_KEY_MAX (a release the game
+-- never saw: let go in another window).
+local WILLO_HOLD, WILLO_KEY_MAX = 30, 60
+local willoUntil = 0
 Voice.autoSession = {}   -- arrival stories that started by themselves (or ran out of time) this session
 
 local function inCombat()
@@ -1826,7 +1835,7 @@ function Voice.ArrivalTurn()
     Voice.autoWaiting = nil
     return false
   end
-  if inCombat() or talking() or Voice.GameTalking() or onTaxi() or busy() then return false end
+  if inCombat() or talking() or Voice.GameTalking() or onTaxi() or busy() or now() < willoUntil then return false end
   Voice.autoWaiting = nil
   return startArrival(w)
 end
@@ -2185,6 +2194,21 @@ function Voice.OnGameTalk()
   if arrival then yieldArrival(arrival) end
   Voice.autoStarted = nil
   UI.StopAll()
+end
+
+-- The player holds Willo's talk key (bound to Ask Willo: Strip.Ask), so Willo, the companion app, is about to answer
+-- out loud (LOR-471): what started by itself makes way, as for the game's own talking (an arrival plays again
+-- afterwards, once), and nothing starts by itself until WILLO_HOLD seconds after the key comes up. The companion has
+-- no way to say when it's done, so it's a fixed allowance. What you start yourself always plays.
+function Voice.OnWilloAsked(down)
+  willoUntil = now() + (down and WILLO_KEY_MAX or WILLO_HOLD)
+  if down then
+    Voice.OnGameTalk()
+  elseif C_Timer and C_Timer.After then
+    C_Timer.After(WILLO_HOLD + 0.1, function()
+      if now() >= willoUntil then Voice.ArrivalTurn() end
+    end)
+  end
 end
 
 -- It ended: the waiting arrival story's turn (after settling, as after combat), unless another one still shows.

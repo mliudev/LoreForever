@@ -1,0 +1,109 @@
+{
+ "key": "quest:95809",
+ "type": "quest",
+ "name": "Heartwoven",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95809
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Menethil Harbor serves as a critical Alliance port in the Wetlands, where everyday civilians rely on travelers to keep the perilous marsh routes safe."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Upon receiving the reed heart and learning her partner survived, Caitlin immediately sets out to prepare a warm, hearty meal to welcome him home."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "heartwoven quest",
+    "what is heartwoven",
+    "wetlands heartwoven"
+   ],
+   "answer": "Heartwoven is an Alliance quest based in the Wetlands. An adventurer aids a stranded reed gatherer out in the marshes, who crafts a woven token of reeds as a message of survival and love to deliver to Caitlin Grassman in Menethil Harbor.",
+   "q": "What is the quest Heartwoven?"
+  },
+  {
+   "aliases": [
+    "who is caitlin grassman",
+    "caitlin menethil harbor",
+    "caitlin grassman"
+   ],
+   "answer": "Caitlin Grassman is an Alliance resident waiting anxiously in Menethil Harbor. She fears for her companion's life while he is out harvesting reeds amid the hazards of the Wetlands, and is profoundly relieved when you bring her word of his survival.",
+   "q": "Who is Caitlin Grassman?"
+  },
+  {
+   "aliases": [
+    "what is the reed heart",
+    "heart woven from reeds",
+    "reed woven heart"
+   ],
+   "answer": "The reed-woven heart is a handcrafted token fashioned by the stranded gatherer from the marsh reeds in his pack. He braids it quickly to serve as proof and reassurance that he is alive and returning home soon.",
+   "q": "What is the reed-woven heart?"
+  },
+  {
+   "aliases": [
+    "where to turn in heartwoven",
+    "heartwoven turn in location",
+    "where is caitlin grassman"
+   ],
+   "answer": "The quest concludes with Caitlin Grassman, who is waiting in the Alliance port town of Menethil Harbor on the western coast of the Wetlands.",
+   "q": "Where do you turn in Heartwoven?"
+  },
+  {
+   "aliases": [
+    "who gives heartwoven",
+    "who crafts the heart",
+    "the survivor heartwoven"
+   ],
+   "answer": "The quest is offered by a marsh gatherer who survived danger out in the wetlands. After an adventurer clears a safe path for him, he rests, gathers his bushels, and sends the adventurer ahead with a handmade token for Caitlin.",
+   "q": "Who gives you the quest Heartwoven?"
+  },
+  {
+   "aliases": [
+    "what happened to the gatherer",
+    "is he alive",
+    "heartwoven survivor"
+   ],
+   "answer": "He was trapped or imperiled out in the wetlands while harvesting marsh reeds. Thanks to an adventurer clearing a path through the surrounding threats, he survived and was able to safely gather his bushels and head back to Menethil Harbor.",
+   "q": "What happened to the stranded gatherer?"
+  }
+ ],
+ "keywords": [
+  "caitlin grassman",
+  "grassman",
+  "heartwoven",
+  "menethil harbor",
+  "reed heart",
+  "reeds",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:menethil-harbor",
+  "topic:light"
+ ],
+ "sections": [
+  {
+   "body": "Out in the treacherous marshes of the Wetlands, life and labor carry constant peril. A local gatherer out harvesting reeds found himself stranded amidst the swamp's dangers until a passing traveler cleared a path through the wilderness. Exhausted but determined, he pauses to catch his breath and secure his harvest before heading back toward the safety of the port.",
+   "spoiler": 0,
+   "title": "A Signal from the Marshes"
+  },
+  {
+   "body": "Before making the trek home, the gatherer takes marsh reeds from his pack and braids them into a woven heart. He entrusts this token to the adventurer to carry ahead to Caitlin Grassman in Menethil Harbor. In the bustling coastal settlement, Caitlin waits in deep worry, clutching the woven reed heart to her chest in relief upon hearing that he survived and will soon return for a warm meal.",
+   "spoiler": 0,
+   "title": "Tokens of Menethil"
+  }
+ ],
+ "summary": "Heartwoven is an Alliance quest in the Wetlands centered on a simple message of survival and affection. After clearing an escape route for a stranded gatherer in the marshes, adventurers carry a hand-braided reed heart back to Caitlin Grassman in Menethil Harbor.",
+ "attribution": [
+  "In-game quest text: Heartwoven"
+ ]
+}

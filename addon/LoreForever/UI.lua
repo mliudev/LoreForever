@@ -468,8 +468,8 @@ function UI.Create(engine)
 
   -- Header: where you are, then the panel-wide actions (Journey, History, New chat), each sized to its label so
   -- German and Portuguese fit. Narrating the area is the player's Play (bottom left).
-  local function headerButton(label, onClick, anchor)
-    local b = PanelButton(f)
+  local function headerButton(label, onClick, anchor, kind)
+    local b = PanelButton(f, kind)
     b:SetHeight(22)
     b:SetText(label)
     local tw = b.GetTextWidth and tonumber(b:GetTextWidth())
@@ -485,10 +485,22 @@ function UI.Create(engine)
     if not ns.Journey.IsShown() then ns.Log.Use("tab", "journey") end   -- usage counts (LOR-435)
     ns.Journey.Toggle()
   end, UI.historyButton)
+  -- Get Willo (LOR-459): only until the companion app is installed (UI.UpdateWilloButton).
+  UI.willoButton = headerButton(string.format(L["Get %s"], ns.COMPANION_NAME), function()
+    ns.Companion.ShowGetWillo()
+  end, UI.journeyButton, "primary")
+  UI.willoButton:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
+    GameTooltip:AddLine(string.format(L["Get %s"], ns.COMPANION_NAME))
+    T.Tip(L["Lore Forever's free companion app for Windows answers anything you ask, out loud. Click for the link."], "tipText", true)
+    GameTooltip:Show()
+  end)
+  UI.willoButton:SetScript("OnLeave", function() GameTooltip:Hide() end)
 
   UI.contextLine = f:CreateFontString(nil, "OVERLAY", T.font.place)
   UI.contextLine:SetPoint("TOPLEFT", 16, -34)
   UI.contextLine:SetPoint("RIGHT", UI.journeyButton, "LEFT", -10, 0)
+  UI.UpdateWilloButton()
   UI.contextLine:SetJustifyH("LEFT")
   if UI.contextLine.SetWordWrap then UI.contextLine:SetWordWrap(false) end
 
@@ -747,6 +759,7 @@ function UI.Create(engine)
     b:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -36, 108 - i * 22)
     b:SetScript("OnClick", function(self)
       if self.live then ns.Companion.Ask(self.live)
+      elseif self.willo then ns.Companion.ShowGetWillo(self.willo)
       elseif self.section then UI.ShowSection(self.key, self.idx)
       elseif self.key and self.idx then UI.ShowFaq(self.key, self.idx, self.via or "next")
       elseif self.key then UI.ShowEntry(self.key, self.via or "next") end
@@ -2049,7 +2062,8 @@ function UI.Append(text)
   UI.AddMessage("note", text)
 end
 
--- items: { {key, idx?, label?, q?, name?, via?} }, or { live = question, label } to ask live answers
+-- items: { {key, idx?, label?, q?, name?, via?} }, or { live = question, label } to ask live answers, or
+-- { willo = question, label } for the link to get Willo (no companion yet)
 function UI.SetNext(items, label)
   local available = {}
   for _, it in ipairs(items) do
@@ -2066,7 +2080,7 @@ function UI.SetNext(items, label)
   for i, b in ipairs(UI.nextButtons) do
     local it = items[i]
     if it then
-      b.key, b.idx, b.via, b.section, b.live = it.key, it.idx, it.via, it.section, it.live
+      b.key, b.idx, b.via, b.section, b.live, b.willo = it.key, it.idx, it.via, it.section, it.live, it.willo
       local who = it.name and (GREY .. "  (" .. esc(it.name) .. ")|r") or ""
       b.text:SetText(WHITE .. esc(it.label or it.q) .. "|r" .. who)
       b:Show()
@@ -2074,6 +2088,18 @@ function UI.SetNext(items, label)
       b:Hide()
     end
   end
+end
+
+-- Get Willo in the header only until the companion app is installed (Companion.OfferWillo); the place line gives
+-- way to it.
+function UI.UpdateWilloButton()
+  local b = UI.willoButton
+  if not (b and UI.contextLine) then return end
+  local on = ns.Companion.OfferWillo()
+  b:SetShown(on)
+  UI.contextLine:ClearAllPoints()
+  UI.contextLine:SetPoint("TOPLEFT", 16, -34)
+  UI.contextLine:SetPoint("RIGHT", on and b or UI.journeyButton, "LEFT", -10, 0)
 end
 
 -- Panel state ----------------------------------------------------------------------------------------------------
@@ -2094,6 +2120,7 @@ end
 function UI.Refresh()
   ns.Lang.ValidateEdition()
   if not (UI.frame and UI.frame:IsShown()) then return end
+  UI.UpdateWilloButton()
   local ctx = ns.Context.Snapshot()
   UI.ctx = ctx
   ns.Log.Map(ctx)
@@ -4575,6 +4602,9 @@ function UI.Ask(question, via)
   local log = ns.Log.Question(question, ctx, results, via, UI.turn)
   UI.lastLog = log
   local live = ns.Companion.Installed()   -- live answers are offered only once the companion app is installed
+  -- Until then, a question the add-on can't answer offers Willo instead (LOR-459).
+  local willo = not live and ns.Companion.OfferWillo()
+    and { willo = question, label = string.format(L["Get %s, the free companion app"], ns.COMPANION_NAME) } or nil
   UI.AddMessage("user", WHITE .. esc(question) .. "|r")
   if top and top.score >= MIN_SCORE and UI.SpoilerGate(top.key, top.kind, top.idx) then
     -- gated: SpoilerGate posted the warning and a Reveal chip (the revealed answer is logged and rated on its own)
@@ -4602,7 +4632,7 @@ function UI.Ask(question, via)
     log.shown = "g"
     UI.AddMessage("note", GREY .. L["I'm not sure I have that. Did you mean one of these?"] .. "|r", nil, nil, nil, log)
     -- Off script: live answers can answer it (one Ctrl+C), so that's offered first.
-    local items = live and { { live = question, label = L["Ask live answers instead"] } } or {}
+    local items = live and { { live = question, label = L["Ask live answers instead"] } } or { willo }
     for _, r in ipairs(results) do
       local e = UI.engine.db.entries[r.key]
       local fi = r.kind == "faq" and r.idx or 1
@@ -4616,7 +4646,7 @@ function UI.Ask(question, via)
     UI.AddMessage("note", GREY
       .. L["I don't have lore on that yet. Try a place, person or quest nearby, or pick something on the left."] .. "|r",
       nil, nil, nil, log)
-    local items = live and { { live = question, label = L["Ask live answers"] } } or {}
+    local items = live and { { live = question, label = L["Ask live answers"] } } or { willo }
     for _, s in ipairs(UI.engine:Suggest(ctx, N_NEXT - #items)) do items[#items + 1] = s end
     UI.SetNext(items, L["Try:"])
   end

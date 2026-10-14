@@ -11,6 +11,7 @@ local function setBindingNames()
   BINDING_NAME_LOREFOREVER_PLAYLIST = L["Play/pause narration playlist"]
   BINDING_NAME_LOREFOREVER_PLAYLIST_NEXT = L["Next narration"]
   BINDING_NAME_LOREFOREVER_PICTURE = L["Take a journey picture"]
+  BINDING_NAME_LOREFOREVER_ASKWILLO = L["Ask %s (hold: live game info shows meanwhile)"]:format(ns.COMPANION_NAME)
 end
 setBindingNames()
 
@@ -105,6 +106,68 @@ local events = CreateFrame("Frame")
 local function listen(name)
   local ok = pcall(events.RegisterEvent, events, name)
   if not ok and ns.debug then say("event not available: " .. name) end
+end
+
+-- Key bindings: WoW loads the player's saved bindings after login. A key bound before that can be undone, and
+-- SaveBindings then saves the wrong set: on a new character it made a character-only set holding just Lore
+-- Forever's keys, so the player's own keys stopped working there (Mike, 10/12). So the add-on binds and saves only
+-- once they're in: at the first UPDATE_BINDINGS, or 5 s after entering the world if the client never sends one.
+local OUR_ACTIONS = { LOREFOREVER_ASKWILLO = true, LOREFOREVER_PICTURE = true }
+
+-- {action = "key1|key2"} for the bindings loaded now.
+local function bindingSnapshot()
+  local out = {}
+  for i = 1, (GetNumBindings() or 0) do
+    local action, _, k1, k2 = GetBinding(i)
+    if action and action ~= "" and (k1 or k2) then out[action] = (k1 or "") .. "|" .. (k2 or "") end
+  end
+  return out
+end
+
+-- Before the fix above, the add-on's early SaveBindings could put a new character on a character-only key set
+-- holding nothing but Lore Forever's keys (Mike's Valerius, 10/12), so the player's account keys stopped applying
+-- there. Such a set is put back on the account's keys, once per character; a character set with anything else in
+-- it (a key moved or cleared) is the player's own and stays as it is.
+local function repairCharacterSet()
+  if type(GetCurrentBindingSet) ~= "function" or type(LoadBindings) ~= "function" or type(SaveBindings) ~= "function"
+      or type(GetNumBindings) ~= "function" or type(GetBinding) ~= "function" or InCombatLockdown() then return end
+  LoreForeverDB.bindingRepair = LoreForeverDB.bindingRepair or {}
+  local who = (UnitName("player") or "?") .. "-" .. (GetRealmName and GetRealmName() or "?")
+  if LoreForeverDB.bindingRepair[who] then return end
+  LoreForeverDB.bindingRepair[who] = true
+  if GetCurrentBindingSet() ~= 2 then return end                  -- CHARACTER_BINDINGS: only those need a look
+  local mine = bindingSnapshot()
+  LoadBindings(0)                                                  -- DEFAULT_BINDINGS, to compare with
+  local defaults = bindingSnapshot()
+  local ourKeys = {}
+  for action in pairs(OUR_ACTIONS) do
+    for key in (mine[action] or ""):gmatch("[^|]+") do ourKeys[key] = true end
+  end
+  local onlyOurs = true
+  for action, keys in pairs(mine) do
+    if not OUR_ACTIONS[action] and keys ~= defaults[action] then onlyOurs = false end
+  end
+  for action, keys in pairs(defaults) do
+    if not OUR_ACTIONS[action] and mine[action] ~= keys then
+      for key in keys:gmatch("[^|]+") do                            -- a default key our binding took over is ours too
+        if not ourKeys[key] and not (mine[action] or ""):find(key, 1, true) then onlyOurs = false end
+      end
+    end
+  end
+  if onlyOurs then
+    LoadBindings(1)                                                -- ACCOUNT_BINDINGS
+    SaveBindings(1)
+  else
+    LoadBindings(2)                                                -- theirs: back as it was
+  end
+end
+
+local function bindingsReady()
+  if ns.BindingsReady then return end
+  ns.BindingsReady = true
+  pcall(repairCharacterSet)
+  if ns.Journey and ns.Journey.OfferPictureKeyHint then pcall(ns.Journey.OfferPictureKeyHint) end
+  if ns.Strip and ns.Strip.OfferAskKey then pcall(ns.Strip.OfferAskKey) end
 end
 
 local nudged = {}
@@ -524,7 +587,10 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     C_Timer.After(6, ns.Hooks.MaybeOnboard)
     C_Timer.After(12, loginTip)   -- after the key prompt (6 s), once the login chat has settled
     ns.Log.SessionStart()   -- usage counts: a game session (not a /reload), the level range, voice and settings
+  elseif event == "UPDATE_BINDINGS" then
+    bindingsReady()
   elseif event == "PLAYER_ENTERING_WORLD" or event == "ZONE_CHANGED_NEW_AREA" then
+    if event == "PLAYER_ENTERING_WORLD" then C_Timer.After(5, bindingsReady) end
     C_Timer.After(2, arrive)
     C_Timer.After(1, ns.Voice.OnTaxiCheck)
     refreshSoon()
@@ -594,7 +660,7 @@ for _, e in ipairs({ "ADDON_LOADED", "PLAYER_LOGIN", "PLAYER_ENTERING_WORLD", "Z
   "PLAYER_TARGET_CHANGED", "PLAYER_CONTROL_LOST", "PLAYER_CONTROL_GAINED",
   "PLAYER_REGEN_DISABLED", "PLAYER_REGEN_ENABLED", "PLAYER_LOGOUT",
   "CINEMATIC_START", "CINEMATIC_STOP", "PLAY_MOVIE", "STOP_MOVIE", "TALKINGHEAD_REQUESTED", "TALKINGHEAD_CLOSE",
-  "CVAR_UPDATE", "ADDON_ACTION_FORBIDDEN", "ADDON_ACTION_BLOCKED" }) do
+  "CVAR_UPDATE", "ADDON_ACTION_FORBIDDEN", "ADDON_ACTION_BLOCKED", "UPDATE_BINDINGS" }) do
   listen(e)
 end
 
@@ -677,6 +743,8 @@ SlashCmdList.LOREFOREVER = function(msg)
     if ns.Companion.Installed() then
       say(L["/lore ask <question> - ask live answers (the answer appears on your screen)"])
       say(L["/lore live - live game info for the companion app on/off"])
+    elseif ns.Companion.OFFER_WILLO then
+      say(string.format(L["/lore willo - where to get %s, Lore Forever's free companion app"], ns.COMPANION_NAME))
     end
     say(L["/lore options - settings (tooltips, hints, flight narration)"])
     say(L["/lore lang - choose the language: English, Deutsch, Español, Français or Português (Automatic follows your WoW client)"])
@@ -706,6 +774,8 @@ SlashCmdList.LOREFOREVER = function(msg)
     ns.Journey.AskSync()
   elseif cmd == "picture" then
     LoreForever_Picture()
+  elseif cmd == "willo" and ns.Companion.OFFER_WILLO then
+    ns.Companion.ShowGetWillo()
   elseif cmd == "ask" or cmd:match("^ask%s") then
     -- Live answers once the companion app is installed; until then it's an ordinary question.
     local question = msg:match("^%S+%s*(.-)$")

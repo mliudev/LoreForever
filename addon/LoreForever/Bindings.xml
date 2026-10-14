@@ -14,4 +14,7 @@
   <Binding name="LOREFOREVER_PICTURE" category="ADDONS">
     LoreForever_Picture()
   </Binding>
+  <Binding name="LOREFOREVER_ASKWILLO" category="ADDONS" runOnUp="true">
+    LoreForever_AskWillo(keystate)
+  </Binding>
 </Bindings>

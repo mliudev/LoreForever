@@ -1,0 +1,105 @@
+{
+ "key": "quest:92514",
+ "type": "quest",
+ "name": "Welcome to Shen'dar Village",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92514
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "As someone attuned to the spirits and elements, you will quickly notice the subtle static air that marks spirit-touched Windshapers like Illaya Amberwind in Shen'dar Village."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is shen'dar village quest",
+    "welcome to shendar quest overview",
+    "what to do in shendar village"
+   ],
+   "answer": "Welcome to Shen'dar Village is an introductory quest that acquaints new arrivals with key community figures in Shen'dar Village. Before setting travelers to work handling local issues like bandit troubles, local leadership directs them to meet the resident Windshaper elder and the village innkeeper.",
+   "q": "What is the purpose of the quest Welcome to Shen'dar Village?"
+  },
+  {
+   "aliases": [
+    "who is illaya amberwind",
+    "illaya amberwind location",
+    "windshaper elder shendar"
+   ],
+   "answer": "Illaya Amberwind is the resident Windshaper elder in Shen'dar Village. She can be found situated near the center of town, offering guidance to those with spirit-touched sensibilities amidst broader political friction.",
+   "q": "Who is Illaya Amberwind?"
+  },
+  {
+   "aliases": [
+    "who is coriella calmbreeze",
+    "shendar village innkeeper",
+    "where is the inn in shendar village"
+   ],
+   "answer": "Coriella Calmbreeze runs the local inn within Shen'dar Village. She provides travelers, adventurers, and locals with necessary lodging, rest, and provisions.",
+   "q": "Who is Coriella Calmbreeze?"
+  },
+  {
+   "aliases": [
+    "what are windshapers",
+    "spirit touched windshaper lore",
+    "high order vs windshapers"
+   ],
+   "answer": "Windshapers are spirit-touched practitioners characterized by a palpable charge of static in the air around them. While tensions simmer between the Windshapers and the High Order, both factions maintain a civil coexistence within Shen'dar Village in light of larger threats.",
+   "q": "Who are the Windshapers?"
+  },
+  {
+   "aliases": [
+    "what is the high order",
+    "conflict in shendar village",
+    "high order vs windshapers tension"
+   ],
+   "answer": "The High Order is a local power or faction currently experiencing political friction with the Windshapers. Despite their ideological quibbles, representatives and residents in Shen'dar Village keep relations peaceful to deal with more pressing mutual concerns.",
+   "q": "What is the tension between the High Order and the Windshapers?"
+  },
+  {
+   "aliases": [
+    "shendar village troubles",
+    "what threat faces shendar village",
+    "bandits in shendar village"
+   ],
+   "answer": "Beyond the uneasy philosophical dispute between the Windshapers and the High Order, the settlement faces immediate, practical danger from local bandits operating in the surrounding territory.",
+   "q": "What problems is Shen'dar Village currently facing?"
+  }
+ ],
+ "keywords": [
+  "bandits",
+  "coriella calmbreeze",
+  "high order",
+  "illaya amberwind",
+  "shen'dar village",
+  "spirit-touched",
+  "welcome to shen'dar village",
+  "windshapers"
+ ],
+ "related": [
+  "quest:92595"
+ ],
+ "sections": [
+  {
+   "body": "Arriving in Shen'dar Village, travelers are encouraged to familiarize themselves with the settlement's key residents before taking on local tasks. Newcomers exhibiting spirit-touched qualities are directed to meet with Elder Illaya Amberwind near the village square, as well as Coriella Calmbreeze at the village inn for lodging and supplies. This greeting ensures visitors understand the settlement's delicate social dynamics before taking up arms.",
+   "spoiler": 0,
+   "title": "First Steps in Shen'dar"
+  },
+  {
+   "body": "Beneath the quiet exterior of Shen'dar Village lies political friction between the spirit-attuned Windshapers and the High Order. Although ideological disputes between the two factions run hot across the region, residents in Shen'dar keep their disagreements civil. Both groups recognize that petty squabbles must take a backseat to pressing survival matters, not least of which is an encroaching bandit menace threatening the area.",
+   "spoiler": 0,
+   "title": "Factions and Frontier Trouble"
+  }
+ ],
+ "summary": "Welcome to Shen'dar Village introduces travelers to the key figures and local dynamics of Shen'dar Village. Upon arrival, newcomers are directed to consult the local Windshaper elder and the village innkeeper before assisting with pressing threats like regional bandits.",
+ "attribution": [
+  "In-game quest text: Welcome to Shen'dar Village"
+ ]
+}
