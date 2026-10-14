@@ -568,8 +568,7 @@ function Strip.OfferAskKey()
   if old and old ~= key then pcall(SetBinding, old) end
   local ok, bound = pcall(SetBinding, key, ASK)
   if ok and bound ~= false then
-    S().askWilloKey = key
-    if SaveBindings and GetCurrentBindingSet then pcall(SaveBindings, GetCurrentBindingSet()) end
+    S().askWilloKey = key     -- never saved: offered again at the next login (Core.lua)
     return key
   end
 end

@@ -7,6 +7,10 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 0.17.1 (2026-10-14)
+
+- **Fixed:** Lore Forever could leave a character without movement or camera keys; affected characters get their own keys back at next login.
+
 ## 0.17.0 (2026-10-13)
 
 - **More places read aloud:** 237 more places have their whole story narrated by both narrators, in an optional

@@ -198,6 +198,18 @@
       "fingerprint": "de463f5889c1c70b4f2238d653eade1c8920c42f115132a4d3c53422fabda440",
       "files": 3105,
       "bytes": 298000434
+    },
+    "LoreForever_Voice_Default_Answers_Places_esES": {
+      "asset": "LoreForever_Voice_Default_Answers_Places_esES-c3552f7fe9907151.zip",
+      "fingerprint": "c3552f7fe9907151acfef671b26c1a345aad44f29fc1799b304f01756e5f88ec",
+      "files": 2639,
+      "bytes": 306564387
+    },
+    "LoreForever_Voice_Female_Answers_Places_esES": {
+      "asset": "LoreForever_Voice_Female_Answers_Places_esES-5a6c535038393915.zip",
+      "fingerprint": "5a6c535038393915b82d56f57d0161318260315e654155d04a9179004baf1a0c",
+      "files": 1488,
+      "bytes": 187717843
     }
   }
 }

@@ -26,7 +26,10 @@
 # --sizes builds nothing: after the same checks, one line per folder of each zip it would build, "size<TAB>zip<TAB>
 # folder<TAB>bytes" (that folder's share of the zip: its recordings stored, the rest deflated as here, plus zip
 # headers), and "skipped<TAB>zip<TAB>why" for a bundle over GitHub's limit (scripts/release_sizes.py, LOR-443).
-# Usage: scripts/build-voice-packs.sh [--versioned | --sizes]
+# --pack NAME (repeatable) limits it to the zips made only of those packs, and hydrates only those from the asset
+# store: `--sizes --pack <a store pack>` works in a pointers worktree (new-worktree.sh --pointers), as Git LFS
+# packs it leaves out don't need their recordings.
+# Usage: scripts/build-voice-packs.sh [--versioned | --sizes] [--pack NAME ...]
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 # A sparse worktree (scripts/new-worktree.sh) has no voice audio or translated lore, and the main checkout no voice
@@ -38,8 +41,16 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
          "a full one: scripts/new-worktree.sh --pointers <path> (and 'git lfs pull' there for the recordings)" >&2; exit 1; }
 # Packs in the asset store (LOR-440): their recordings into the gitignored Audio/ first, every clip checked against
 # its manifest. The public repo has no store (its workflow puts recordings back with audio_assets.py fetch).
+ONLY=()
+args=("$@")
+for i in "${!args[@]}"; do
+  if [ "${args[$i]}" = --pack ]; then
+    [ -n "${args[$((i + 1))]:-}" ] || { echo "build-voice-packs.sh: --pack needs a pack name" >&2; exit 2; }
+    ONLY+=("--pack=${args[$((i + 1))]}")
+  fi
+done
 if [ -f "$ROOT/scripts/audio_store.py" ] && [ -d "$ROOT/release/audio-store" ]; then
-  python3 "$ROOT/scripts/audio_store.py" hydrate --quiet \
+  python3 "$ROOT/scripts/audio_store.py" hydrate --quiet "${ONLY[@]}" \
     || { echo "build-voice-packs.sh: couldn't fill in the asset store's recordings (above)" >&2; exit 1; }
 fi
 exec python3 - "$ROOT" "$@" <<'PY'
@@ -54,6 +65,7 @@ from load_order import LoadError, addon_files
 addons, out = root / "addon", root / "dist" / "packs"
 VERSIONED = "--versioned" in sys.argv[2:]
 SIZES = "--sizes" in sys.argv[2:]
+ONLY = {a for i, a in enumerate(sys.argv[2:]) if i and sys.argv[2:][i - 1] == "--pack"}   # --pack NAME ...
 AUDIO = {".mp3", ".ogg"}
 DEFLATED = {}   # path -> its deflated size (a language pack's files go in several zips)
 
@@ -223,7 +235,10 @@ def source(folder):
         SOURCES[folder] = src
     return SOURCES[folder]
 CHECKED = set()   # a pack's checks hold for every zip it goes in
+edition_names_all = ("LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio")
 for name, (folders, display) in DOWNLOADS.items():
+    if ONLY and not set(folders) <= ONLY:
+        continue
     if name in FULL_BUNDLES:
         folders = [f for f in folders if (addons / f / f"{f}.toc").is_file()]
         if not folders:
@@ -291,15 +306,17 @@ for name, (folders, display) in DOWNLOADS.items():
         print(f"warning: {path.name} is over CurseForge's {CURSEFORGE_MB} MB upload limit; rebuild the pack at a lower "
               "bitrate (lore.voicepack quests --bitrate, or locale --bitrate for a narrator in another language), or "
               "split an answers part (lore.answers PARTS)")
+if ONLY and not any(set(fs) <= ONLY for fs, _ in DOWNLOADS.values()) and not set(edition_names_all) <= ONLY:
+    sys.exit(f"build-voice-packs: no download is made only of {', '.join(sorted(ONLY))} (each --pack is an addon/ folder)")
 # A contributor edition must remain a single paired artifact. Its validator also
 # rejects a lone component, mismatched pairing identity and unhydrated audio.
 edition_names = ("LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio")
 if SIZES:
     for f in edition_names:   # contributor_bundle.py zips both folders as they are, as LoreForever_Edition_Densuad_esES
-        if (addons / f).is_dir():
+        if (addons / f).is_dir() and (not ONLY or set(edition_names) <= ONLY):
             print(f"size\tLoreForever_Edition_Densuad_esES.zip\t{f}\t{zip_bytes(f, addons / f, sorted((addons / f).rglob('*')))}")
     sys.exit(0)
-if any((addons / name).exists() for name in edition_names):
+if any((addons / name).exists() for name in edition_names) and (not ONLY or set(edition_names) <= ONLY):
     command = [sys.executable, str(root / "scripts" / "contributor_bundle.py"),
                "--addons", str(addons), "--out", str(out)]
     if VERSIONED:

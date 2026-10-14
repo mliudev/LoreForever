@@ -1025,7 +1025,10 @@ local function bind(combo, which)
   local old = Hooks.CurrentKey(which)
   if old and old ~= combo then SetBinding(old) end
   SetBinding(combo, a.binding)
-  if SaveBindings and GetCurrentBindingSet then SaveBindings(GetCurrentBindingSet()) end
+  -- The player picked this key, so it's saved, but only into bindings WoW has really loaded (Core.lua).
+  if SaveBindings and GetCurrentBindingSet and ns.BindingsReady and ns.BindingsLoaded and ns.BindingsLoaded() then
+    SaveBindings(GetCurrentBindingSet())
+  end
   say(a.done(GOLD .. combo .. "|r"))
   -- Gamepad players can't click chat links: point them at the narration key once the panel key is set (LOR-89).
   if which == "toggle" and not Hooks.CurrentKey("narrate") then
