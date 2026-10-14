@@ -1,0 +1,111 @@
+{
+ "key": "quest:95795",
+ "type": "quest",
+ "name": "Fallen in the Fen",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95795
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven kin understand the bitter grief of losing a brother to ancient digs and untamed wilderness, especially when crafted metal outlives the hand meant to hold it."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Dorin poured his craftsmanship into armaments intended as a surprise for his kin, crafting gear that now serves only as a reminder of his brother's untimely demise."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Bringing closure to an artisan in Redridge provides solace to a grieving town resident during troubled times for the kingdom."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is fallen in the fen",
+    "fallen in the fen quest"
+   ],
+   "answer": "Fallen in the Fen is a somber task begun upon discovering a fallen dwarf's remains within an excavation site. After covering the body with his cloak, you journey to Lakeshire to personally inform the dwarf's grieving brother, Dorin Songblade, of his fate.",
+   "q": "What is Fallen in the Fen?"
+  },
+  {
+   "aliases": [
+    "who is dorin songblade",
+    "dorin in lakeshire",
+    "dorin songblade role"
+   ],
+   "answer": "Dorin Songblade is a dwarven smith residing in Lakeshire. He had been forging gear as a surprise gift for his brother before learning of the tragic death at the excavation sites.",
+   "q": "Who is Dorin Songblade?"
+  },
+  {
+   "aliases": [
+    "who died in the fen",
+    "dead dwarf excavation",
+    "whose body is in the excavation"
+   ],
+   "answer": "The fallen dwarf discovered at the excavation sites was the brother of Dorin Songblade. He had recently passed through Lakeshire gathering supplies for his expedition before meeting his demise in the field.",
+   "q": "Who is the fallen dwarf found at the excavation?"
+  },
+  {
+   "aliases": [
+    "where is dorin songblade",
+    "dorin songblade location"
+   ],
+   "answer": "Dorin Songblade can be found in Lakeshire, the primary settlement in Redridge Mountains, where he works his craft at the forge.",
+   "q": "Where can Dorin Songblade be found?"
+  },
+  {
+   "aliases": [
+    "what was dorin forging",
+    "dorin surprise gift"
+   ],
+   "answer": "Dorin was busy forging equipment intended as a surprise gift for his brother. Regrettably, the work was not finished before his brother set out on his expedition, leaving Dorin devastated with gear he cannot bear to keep or sell.",
+   "q": "What was Dorin forging for his brother?"
+  },
+  {
+   "aliases": [
+    "why did dorin give away the gear",
+    "why does dorin give you equipment"
+   ],
+   "answer": "Overcome with grief and regret that he did not accompany his brother, Dorin has no desire to reforge or sell the arms he labored over. He parts with the finished work as gratitude to the traveler who brought him news of his kin.",
+   "q": "Why does Dorin give away the items he crafted?"
+  }
+ ],
+ "keywords": [
+  "blacksmith",
+  "dorin",
+  "dorin songblade",
+  "dwarf",
+  "excavation",
+  "excavation sites",
+  "fallen in the fen",
+  "lakeshire",
+  "songblade"
+ ],
+ "related": [
+  "subzone:lakeshire",
+  "topic:dwarf"
+ ],
+ "sections": [
+  {
+   "body": "A quiet tragedy unfolds at the excavation sites, where the lifeless body of an adventurous dwarf is discovered. After covering the remains with the traveler's cloak, an adventurer carries the grim news back to Lakeshire to find his kin.",
+   "spoiler": 0,
+   "title": "Tragedy at the Dig"
+  },
+  {
+   "body": "In Lakeshire, the dwarven craftsman Dorin Songblade breaks down upon learning his brother's fate. Dorin had spent weeks working at his forge, crafting a surprise set of gear for his brother that was not ready in time for the expedition. Stricken with regret for not going along, Dorin can neither bear to reforge nor sell what he crafted with his own hands, choosing instead to bestow the finished pieces upon the one who brought him closure.",
+   "spoiler": 1,
+   "title": "A Brother's Grief"
+  }
+ ],
+ "summary": "Fallen in the Fen is a somber journey begun by uncovering a fallen dwarf amidst an excavation site. Delivering the tragic news to his brother, Dorin Songblade in Lakeshire, brings closure to a heartbroken craftsman who had been forging gifts for his departed kin.",
+ "attribution": [
+  "In-game quest text: Fallen in the Fen"
+ ]
+}

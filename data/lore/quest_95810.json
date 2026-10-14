@@ -1,0 +1,110 @@
+{
+ "key": "quest:95810",
+ "type": "quest",
+ "name": "Lost Relic Carry",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95810
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven explorers of the Explorers' League are obsessed with unearthing ancient relics of their makers, making this automaton fragment a prized find for dwarven heritage."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The composite material and intricate design of the rock-mech automaton hint at advanced mechanical principles far beyond standard mortal engineering."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is the relic",
+    "what is the item",
+    "rock mech piece"
+   ],
+   "answer": "The relic is a fractured piece of an ancient rock-mech automaton. Rather than ordinary stone debris, it consists of an unknown composite material that clearly functioned as part of an intricate mechanical device.",
+   "q": "What is the Titan Relic?"
+  },
+  {
+   "aliases": [
+    "who is whelgar",
+    "whelgar lore",
+    "excavation lead"
+   ],
+   "answer": "Prospector Whelgar is a dwarven researcher overseeing the excavation site in the Wetlands. He studies ancient earthen remains and relics uncovered from the dig sites across the region.",
+   "q": "Who is Prospector Whelgar?"
+  },
+  {
+   "aliases": [
+    "where do i bring it",
+    "where is the turn in",
+    "whelgar location"
+   ],
+   "answer": "The relic is brought to Prospector Whelgar at his excavation site located in the Wetlands, where dwarven excavators investigate ancient ruins.",
+   "q": "Where does the relic need to be delivered?"
+  },
+  {
+   "aliases": [
+    "who made the rock mech",
+    "automaton origins",
+    "titan connection"
+   ],
+   "answer": "The automaton fragment is identified as a Titan relic. In dwarven lore, ancient mechanical constructs and stone automatons are tied to the enigmatic Titans who shaped the world.",
+   "q": "What created the rock-mech automaton?"
+  },
+  {
+   "aliases": [
+    "why is whelgar impressed",
+    "perilous delve"
+   ],
+   "answer": "Venturing into the depths where these automatons reside is extremely hazardous. Whelgar notes that surviving the delve and returning with such a piece intact commands genuine respect.",
+   "q": "Why does Prospector Whelgar treat the relic with reverence?"
+  },
+  {
+   "aliases": [
+    "what is the material",
+    "strange composite"
+   ],
+   "answer": "The material is a unique composite with an unfamiliar texture unlike typical stone or forged metal, demonstrating the sophisticated and mysterious craft of ancient Titan constructs.",
+   "q": "What is unusual about the automaton's material?"
+  }
+ ],
+ "keywords": [
+  "automaton",
+  "excavation site",
+  "explorers league",
+  "lost relic carry",
+  "prospector whelgar",
+  "rock-mech",
+  "titan relic",
+  "wetlands"
+ ],
+ "related": [
+  "npc:prospector-whelgar",
+  "zone:wetlands",
+  "topic:titan",
+  "subzone:vice"
+ ],
+ "sections": [
+  {
+   "body": "Deep within ancient grounds, adventurers can uncover a fractured component of a rock-mech automaton. Far from being simple rubble, its unusual composite material reveals the craftsmanship of an advanced, ancient mechanism tied to the Titans.",
+   "spoiler": 0,
+   "title": "A Fragment of Ancient Craft"
+  },
+  {
+   "body": "Prospector Whelgar, stationed at the Wetlands excavation site, studies remnants of antiquity. Carrying the relic out of danger and delivering it to him provides valuable physical evidence for dwarven scholars probing into their ancient heritage.",
+   "spoiler": 0,
+   "title": "Delivery to the Excavation"
+  }
+ ],
+ "summary": "Lost Relic Carry involves recovering a fractured piece of an ancient rock-mech automaton and delivering it to Prospector Whelgar in the Wetlands. The relic's unknown composite material hints at the sophisticated engineering of the Titans, earning serious reverence from dwarven researchers.",
+ "attribution": [
+  "In-game quest text: Lost Relic Carry"
+ ]
+}

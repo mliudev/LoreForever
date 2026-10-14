@@ -1,0 +1,114 @@
+{
+ "key": "quest:98155",
+ "type": "quest",
+ "name": "Pristine Pesterhide Pelts",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98155
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an endeavor by a Stormwind traveler to supply her artisan family in the capital, this task highlights how Alliance subjects venture deep into the Kalimdor frontier to source exotic materials."
+  },
+  {
+   "target": "race:Human",
+   "text": "Kristy Grant exemplifies the enterprising spirit of Stormwind humans traveling far across the sea, keeping close ties with kin back in the kingdom."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Crafters who work with cloth and decorative furs can appreciate the ambition of Kristy's sisters, who seek to turn wild Kalimdor hides into refined garments."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "kristy grant lore",
+    "who gives pristine pesterhide pelts",
+    "who is kristy grant"
+   ],
+   "answer": "Kristy Grant is a traveler from the kingdom of Stormwind currently venturing through Kalimdor. Unlike the hardened soldiers and mercenaries traversing Thousand Needles, she admits to having no fighting experience of her own. Instead, she relies on keen observation and an eye for valuable crafting materials, contracting capable adventurers to gather goods like hyena pelts on her behalf.",
+   "q": "Who is Kristy Grant?"
+  },
+  {
+   "aliases": [
+    "pesterhide hyena",
+    "thousand needles hyenas",
+    "what are pesterhides"
+   ],
+   "answer": "Pesterhide hyenas are wild canine predators native to the arid canyon floors and expanses of Thousand Needles. They roam the harsh terrain hunting and scavenging in packs. Beyond their vicious nature, they are notable for their brilliant, beautifully hued fur coats, which stand out sharply against the desert rock and catch the attention of traveling tailors and furriers.",
+   "q": "What are Pesterhide hyenas?"
+  },
+  {
+   "aliases": [
+    "why collect pesterhide pelts",
+    "pesterhide pelt purpose",
+    "what does kristy do with the pelts"
+   ],
+   "answer": "Kristy Grant wants to collect pristine hyena pelts to send them back across the sea to her sisters in the kingdom of Stormwind. She is thoroughly impressed by the brilliant hue of their coats and believes her sisters possess the craftsmanship to weave or tailor the exotic furs into incredible finished wares.",
+   "q": "Why does Kristy Grant want the pelts?"
+  },
+  {
+   "aliases": [
+    "where are the pelts sent",
+    "pelts stormwind",
+    "who gets the hyena pelts"
+   ],
+   "answer": "The pelts gathered in Thousand Needles are destined for the Eastern Kingdoms, specifically the city-kingdom of Stormwind. Kristy intends to ship the harvested hides back home across the Great Sea so her sisters can work with exotic materials that are practically unobtainable within the familiar forests of Elwynn or Redridge.",
+   "q": "Where do the pelts end up?"
+  },
+  {
+   "aliases": [
+    "why can't kristy fight",
+    "kristy grant combat",
+    "why does kristy need help"
+   ],
+   "answer": "Kristy Grant openly admits that she has no fighting experience whatsoever. The wild beasts of Thousand Needles are aggressive and perilous to encounter, especially for an unarmed artisan or traveler. Rather than risking injury or death against the prowling packs of hyenas, she hires skilled wanderers to hunt the animals safely.",
+   "q": "Why can't Kristy hunt the hyenas herself?"
+  },
+  {
+   "aliases": [
+    "pristine pelts meaning",
+    "why pristine hides",
+    "pristine pesterhide pelt quality"
+   ],
+   "answer": "Because the pelts are intended for fine crafting and fashion by Kristy's sisters in Stormwind, ordinary or mangled furs will not suffice. Only undamaged, pristine hides preserve the vibrant hue and texture required to fashion high-quality garments, making it necessary to hunt carefully and salvage only the best specimens from the beasts.",
+   "q": "What makes these pelts pristine?"
+  }
+ ],
+ "keywords": [
+  "fur",
+  "hunting",
+  "hyena",
+  "kristy grant",
+  "pelts",
+  "pesterhide",
+  "stormwind",
+  "thousand needles"
+ ],
+ "related": [
+  "zone:thousandneedles",
+  "topic:stormwind-kingdom"
+ ],
+ "sections": [
+  {
+   "body": "Far from the bustling cobblestone avenues of Stormwind, Kristy Grant finds herself traveling through the arid, sun-baked canyon floor of Thousand Needles. While observing the local wildlife, she is struck by the striking hue and quality of the coats worn by the native Pesterhide hyenas. Recognizing that such distinct pelts are virtually unknown in the Eastern Kingdoms, Kristy envisions sending a shipment of hides back home to her sisters. In her eyes, the pelts represent not only a piece of the Kalimdor frontier, but raw material that skilled family hands in the kingdom can transform into something truly extraordinary.",
+   "spoiler": 0,
+   "title": "A Sisterly Ambition"
+  },
+  {
+   "body": "Despite her eye for craft and trade, Kristy Grant is no warrior and possesses no combat experience to face the ferocious predators of the canyon herself. The Pesterhide hyenas are vicious pack scavengers that roam the dusty expanses beneath the towering mesas, making the harvesting of pristine pelts dangerous for any lone traveler. To secure five unblemished hides without risking her own neck, Kristy enlists the aid of seasoned adventurers passing through the needles. The task requires venturing out into the wilderness, overcoming the territorial beasts, and carefully collecting the hides needed for her family's crafting ventures back home.",
+   "spoiler": 0,
+   "title": "Hunters of the Salt Flats and Canyons"
+  }
+ ],
+ "summary": "Pristine Pesterhide Pelts is a task undertaken on behalf of Kristy Grant, a traveler seeking the radiant coats of the Pesterhide hyenas in Thousand Needles. Lacking combat training herself, Kristy relies on capable adventurers to hunt the beasts and harvest their pelts. Her goal is to send these unique hides back across the sea to her sisters in Stormwind, where they can be fashioned into fine garments and goods.",
+ "attribution": [
+  "In-game quest text: Pristine Pesterhide Pelts"
+ ]
+}

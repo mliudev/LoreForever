@@ -287,6 +287,15 @@ def cmd_manifest(_args) -> int:
             continue   # build-release.sh refuses a shipped voice pack without recordings
         reject_pointers(pack, files)
         fp = fingerprint(files)
+        store = ROOT / "release" / "audio-store" / f"{pack}.json"
+        if store.is_file():   # LOR-440: an asset-store pack must ship exactly the recordings its manifest names
+            try:
+                named = json.loads(store.read_text(encoding="utf-8"))["fingerprint"]
+            except (OSError, ValueError, KeyError, TypeError) as e:
+                raise Failure(f"can't read {store.relative_to(ROOT)}: {e!r}") from None
+            if fp != named:
+                raise Failure(f"addon/{pack}/Audio isn't what {store.relative_to(ROOT)} names; run "
+                              "scripts/audio_store.py hydrate (or publish, for local changes)")
         packs[pack] = {"asset": f"{pack}-{fp[:16]}.zip", "fingerprint": fp, "files": len(files),
                        "bytes": sum(p.stat().st_size for _, p in files)}
     MANIFEST.write_text(json.dumps({"_readme": README, "packs": packs}, indent=2) + "\n", encoding="utf-8")

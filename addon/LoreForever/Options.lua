@@ -47,7 +47,10 @@ Options.DEFAULTS = {
   -- The small Contribute button on quest, gossip and book windows (Capture.lua). Defaults are written into
   -- SavedVariables, so older installs (saved off) are turned on once by Log.Init's featuresOn.
   contributeButtons = true,
-  language = "auto",       -- "auto" (the game client's language), "enUS" or a language pack's locale
+  -- Get Willo in the panel's header, and offered when the add-on has no answer, until the companion app is installed
+  -- (Companion.OfferWillo, LOR-459).
+  getWillo = true,
+  language = "auto",      -- "auto" (the game client's language), "enUS" or a language pack's locale
   -- Narration voices: voiceOrder (pack add-on names, "auto" = the default pack) and voiceOff (unticked ones) are
   -- set up by Voice.lua, which also moves the old one-voice setting (voicePack) into them.
   voiceGroup = "story",    -- keep one voice per "story" (a story and its questions), per "zone", or pick per "line"
@@ -580,13 +583,20 @@ local function rows()
     { "skipHeard", L["Skip what you've heard"], L["Don't play a narration by itself again once this character has heard it. You can still play it any time; the Library ticks the ones you've heard."] },
     { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
     { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC."] },
-    { "liveStrip", L["Live game info for the companion app"], L["While the Lore Forever window is open, shows a tiny block of colored squares in the top-left corner. Only the Lore Forever companion app on this PC reads it, so %s knows where you are, who you're targeting and your tracked quest. It isn't a hack: it doesn't read the game's memory, never presses keys or clicks, and sends nothing online. Also turn on Live game info in the companion's Settings. Untick to turn it off."]:format(ns.COMPANION_NAME) },
+    { "liveStrip", L["Live game info for the companion app"], L["While the Lore Forever window is open, or while you hold %s's talk key to ask a question, shows a tiny block of colored squares in the top-left corner. Only the Lore Forever companion app on this PC reads it, so %s knows where you are, who you're targeting and your tracked quest. It isn't a hack: it doesn't read the game's memory, never presses keys or clicks, and sends nothing online. Also turn on Live game info in the companion's Settings. Untick to turn it off."]:format(ns.COMPANION_NAME, ns.COMPANION_NAME) },
     { "liveStripAlways", L["Live game info: show it all the time"], L["Keep the squares on screen while the Lore Forever window is closed too, so %s always knows where you are. Only matters with Live game info on."]:format(ns.COMPANION_NAME) },
     { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or set Take a journey picture in Key Bindings, AddOns. This option hides your interface for a moment, except in combat. In the companion, turn on Picture book and connect your profile. Pictures with the interface need On my profile."] },
     { "capture", L["Keep the quest text you see"], L["Keep the quest, gossip and book text Forever shows you, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it."] },
     { "contributeButtons", L["Contribute buttons"], L["A small button on quest, gossip and book windows whose text Lore Forever doesn't have yet. Click it for a link to share that text."] },
     { "tips", L["Tips at login"], L["Now and then at login, a tip in chat about something Lore Forever can do."] },
+    { "getWillo", L["Get %s button"]:format(ns.COMPANION_NAME), L["Until you install %s, Lore Forever's free companion app, a Get %s button in the panel and a suggestion when Lore Forever has no answer show where to get it. Untick to hide both."]:format(ns.COMPANION_NAME, ns.COMPANION_NAME) },
   }
+  -- No Get Willo checkbox until Willo launches (Companion.OFFER_WILLO); the saved setting is kept as it is.
+  if not (ns.Companion and ns.Companion.OFFER_WILLO) then
+    for i, row in ipairs(out) do
+      if row[1] == "getWillo" then table.remove(out, i) break end
+    end
+  end
   if ns.Journey and ns.Journey.PictureBookOn() then
     for i, row in ipairs(out) do
       if row[1] == "pictureHideUI" then
@@ -752,6 +762,7 @@ function Options.Create()
       if key == "storylines" and ns.UI and ns.UI.Refresh then ns.UI.Refresh() end
       if key == "storylines" and ns.Hooks and ns.Hooks.RefreshQuestStory then ns.Hooks.RefreshQuestStory() end
       if key == "contributeButtons" and ns.Capture then ns.Capture.UpdateAll() end
+      if key == "getWillo" and ns.UI and ns.UI.UpdateWilloButton then ns.UI.UpdateWilloButton() end
     end)
     cb.key = key
     p.checks[#p.checks + 1] = cb

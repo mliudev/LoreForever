@@ -1,0 +1,109 @@
+{
+ "key": "quest:93319",
+ "type": "quest",
+ "name": "Pilfered Windstones",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93319
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "While Highlands Bandits rely on crude sneakery to pilfer stored windstones, skilled rogues will recognize the opportunism of thieves exploiting a settlement stretched thin by cultist threats."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "Life on Zephras is deeply intertwined with windstones for everyday survival, making the defense and recovery of these caches critical to maintaining local settlements."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what are windstones used for",
+    "why need windstones",
+    "windstone purpose"
+   ],
+   "answer": "On Zephras, residents rely on windstones for their day-to-day living and survival. Because they are so essential to daily life, local settlements attempt to keep a reserve cache stored away for emergencies.",
+   "q": "What are windstones used for on Zephras?"
+  },
+  {
+   "aliases": [
+    "who stole the windstones",
+    "who took windstones",
+    "windstone thieves"
+   ],
+   "answer": "The windstones were stolen by the Highlands Bandits operating out of a cave in the Shen'dar Highlands. After captured bandits were found carrying them, locals realized the thieves had likely been breaking into the village storehouses for months.",
+   "q": "Who stole the windstones?"
+  },
+  {
+   "aliases": [
+    "where is the bandit cave",
+    "highlands bandits location",
+    "shendar bandits"
+   ],
+   "answer": "The Highlands Bandits make their camp in a cave situated to the north of the settlement within the Shen'dar Highlands, where they stockpile stolen goods pilfered from village stores.",
+   "q": "Where are the Highlands Bandits located?"
+  },
+  {
+   "aliases": [
+    "why not attack the bandit cave",
+    "why aonda wont attack",
+    "village defense bandits"
+   ],
+   "answer": "Aonda, overseeing the settlement's defense, chose not to organize a raid against the northern cave because the village has very few peacekeepers. Pulling them away would leave the settlement vulnerable to the growing number of cultists at Falaath Village to the south.",
+   "q": "Why hasn't the village cleared out the bandit cave?"
+  },
+  {
+   "aliases": [
+    "what is falaath village threat",
+    "cultists falaath",
+    "falaath cultists"
+   ],
+   "answer": "Falaath Village lies to the south and is currently seeing a concerning surge in cultist numbers. This growing presence poses an immediate threat that keeps local peacekeepers tied down defending the home settlement rather than chasing bandits.",
+   "q": "What is the threat at Falaath Village?"
+  },
+  {
+   "aliases": [
+    "are windstones secure now",
+    "supply routes zephras",
+    "windstone shortage fixed"
+   ],
+   "answer": "Recovering the pilfered stones provides temporary relief for emergency stores, but local residents note that broader supply route disruptions remain an urgent issue. If supply lines are not secured soon, shortages will continue to threaten the settlement.",
+   "q": "Does recovering the windstones solve the settlement's shortage?"
+  }
+ ],
+ "keywords": [
+  "aonda",
+  "bandit cave",
+  "falaath village",
+  "highlands bandits",
+  "pilfered windstones",
+  "shen'dar highlands",
+  "windstones",
+  "zephras"
+ ],
+ "related": [
+  "quest:92529"
+ ],
+ "sections": [
+  {
+   "body": "On the island of Zephras, windstones are not merely curious artifacts\u2014they are vital resources necessary for day-to-day living. Settlements maintain an emergency cache to ensure survival during crises. However, village stores began suffering steady shortages, which were only unraveled when captured bandits from the northern Shen'dar Highlands were discovered carrying the stones. These sneakthieves had apparently been slipping into local stockpiles for months, exploiting thin security to snatch whatever supplies they could carry.",
+   "spoiler": 0,
+   "title": "The Stolen Caches of Zephras"
+  },
+  {
+   "body": "Although clearing out the northern cave seems like an obvious solution, the settlement's leadership faces difficult choices. Aonda, responsible for village defense, declined to sanction a counter-raid because the community's few peacekeepers cannot be spared. To the south, cultists at Falaath Village are multiplying rapidly, presenting a grave danger that forces the guards to hold their posts. With the peacekeepers pinned down by the cultist threat, recovering the pilfered windstones falls to independent adventurers willing to face the bandits directly.",
+   "spoiler": 0,
+   "title": "Stretched Defenses and Looming Threats"
+  }
+ ],
+ "summary": "Pilfered Windstones is a local quest on Zephras where players recover vital stolen resources from the Highlands Bandits. Stored in reserve for emergencies, these windstones are crucial for daily survival, but local peacekeepers are too stretched by cultist threats to clear out the thieves themselves.",
+ "attribution": [
+  "In-game quest text: Pilfered Windstones"
+ ]
+}

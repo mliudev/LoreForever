@@ -1,0 +1,107 @@
+{
+ "key": "quest:97903",
+ "type": "quest",
+ "name": "Camping 101: First Aid",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97903
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Based out of Razor Hill in Durotar, this training is directed at Horde travelers looking to sustain themselves across the rugged frontiers of Kalimdor."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Campcraft and culinary skill go hand in hand; Rawrk notes that pitching a proper camp requires a roaring campfire, an essential technique taught by culinary trainers."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who teaches camping first aid",
+    "where is rawrk",
+    "camping 101 trainer"
+   ],
+   "answer": "Rawrk is located in Razor Hill in Durotar. He provides instruction in survival campcraft, teaching demonstrated practitioners how to assemble their own First Aid Kits for backcountry travel.",
+   "q": "Who is Rawrk and where is he found?"
+  },
+  {
+   "aliases": [
+    "what do i need to camp",
+    "how to make a camp",
+    "campfire requirement camping"
+   ],
+   "answer": "Setting up a camp requires both an open wilderness setting and a proper campfire. Rawrk warns that setting up camp within town limits is frowned upon and reminds travelers to learn basic firemaking from a cooking instructor before heading out.",
+   "q": "What is required before setting up a wilderness camp?"
+  },
+  {
+   "aliases": [
+    "can i camp in razor hill",
+    "camping inside cities",
+    "where can i place my camp"
+   ],
+   "answer": "Camps cannot be placed within settlements or town centers. Local residents object to travelers pitching tents in the middle of streets, requiring adventurers to venture out into the open wilds to set up their campsite.",
+   "q": "Can camps be pitched inside towns or settlements?"
+  },
+  {
+   "aliases": [
+    "camping 101 first aid reward",
+    "what item does this teach",
+    "first aid kit crafting"
+   ],
+   "answer": "Completing this training instructs adventurers in crafting a personal First Aid Kit, an essential field accessory used to maintain health and support sustained excursions in the wilderness.",
+   "q": "What does this training teach adventurers to craft?"
+  },
+  {
+   "aliases": [
+    "why do i need cooking for camping",
+    "cooking campfire camping"
+   ],
+   "answer": "A proper camp requires a warm campfire to anchor it. Since the fundamentals of kindling and tending a basic fire are taught by cooking trainers, Rawrk advises campers to study the culinary arts beforehand.",
+   "q": "Why does Rawrk recommend learning cooking?"
+  },
+  {
+   "aliases": [
+    "prerequisites for camping 101 first aid",
+    "skill needed for camping first aid"
+   ],
+   "answer": "Travelers must display foundational proficiency in their medical and survival skills before Rawrk will teach them how to fashion a specialized field First Aid Kit.",
+   "q": "What prerequisites are needed before learning this craft?"
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping 101",
+  "durotar",
+  "first aid kit",
+  "rawrk",
+  "razor hill",
+  "survival",
+  "wilderness camp"
+ ],
+ "related": [
+  "subzone:razor-hill"
+ ],
+ "sections": [
+  {
+   "body": "Survival in the untamed expanses of Durotar and beyond requires more than just raw martial strength; it demands self-sufficiency on the trail. In Razor Hill, Rawrk offers instruction to capable wanderers seeking to fashion essential wilderness gear. Through Camping 101: First Aid, practitioners who have proven their basic proficiency learn to assemble a dedicated First Aid Kit, giving them the means to mend wounds and tend to injuries far from the safety of an apothecary or infirmary.",
+   "spoiler": 0,
+   "title": "Survival on the Frontier"
+  },
+  {
+   "body": "Setting up camp is an art governed by practical frontier etiquette and necessity. Rawrk cautions adventurers that pitching tents in the center of settlements like Razor Hill is unwelcome, meaning these wilderness stations must be tested out in the open wilds. Furthermore, no campsite is functional without a roaring campfire to stave off the night, making a passing familiarity with the culinary arts\u2014where firemaking is first mastered\u2014a vital asset for any prospective camper.",
+   "spoiler": 0,
+   "title": "The Art of the Campfire"
+  }
+ ],
+ "summary": "Camping 101: First Aid is an instructional quest offered by Rawrk in Razor Hill, teaching skilled travelers how to craft their own First Aid Kit for wilderness survival. It emphasizes the necessities of self-reliance on the trail, reminding adventurers to master campfire creation and respect local settlements by camping out in the wild.",
+ "attribution": [
+  "In-game quest text: Camping 101: First Aid"
+ ]
+}

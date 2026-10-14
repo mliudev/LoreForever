@@ -3,30 +3,30 @@
  "type": "quest",
  "name": "Call of Water",
  "era": "classic",
- "zone": "orgrimmar",
+ "zone": "durotar",
  "meta": {
   "ids": [
    2985
   ],
   "level": "20",
   "faction": "Horde",
-  "start": "Searn Firewarder",
+  "start": "Swart",
   "end": "Islen Waterseer",
   "previous": null,
   "next": "Call of Water (2)",
-  "wiki": "Call of Water (Orgrimmar)",
+  "wiki": "Call of Water (Durotar)",
   "chain": []
  },
- "summary": "Call of Water marks the beginning of a shaman's communion with the fluid element of healing and adaptability. Having already proved their mastery over earth and fire, an initiate is directed by Searn Firewarder in Orgrimmar to seek out the recluse Islen Waterseer on the eastern coast of the Barrens.",
+ "summary": "Call of Water marks the beginning of a shaman's communion with the fluid element of healing and adaptability. Having already proved their mastery over earth and fire, an initiate is directed by Swart in Razor Hill to seek out the recluse Islen Waterseer on the eastern coast of the Barrens.",
  "sections": [
   {
    "title": "A Shift in the Elements",
-   "body": "A shaman's training demands balance. After learning the steadfast resilience of earth and enduring the wild ferocity of fire, initiates are called toward the flowing, adaptable nature of water. In Orgrimmar, the troll shaman Searn Firewarder assesses his students' spiritual growth. When an initiate has proven their command of flame without being consumed by it, Searn recognizes that their spirit is tempered enough to seek out the teachings of water.",
+   "body": "A shaman's training demands balance. After learning the steadfast resilience of earth and enduring the wild ferocity of fire, initiates are called toward the flowing, adaptable nature of water. In Razor Hill, the orc shaman Swart assesses his students' spiritual growth. When an initiate has proven their command of flame without being consumed by it, Swart recognizes that their spirit is tempered enough to seek out the teachings of water.",
    "spoiler": 0
   },
   {
    "title": "The Recluse of the Merchant Coast",
-   "body": "To learn the secrets of the water spirits, the shaman must travel south along the Southfury River into the Barrens and push east toward the coast, just beyond the bustling goblin port of Ratchet. There, by the ocean shore near the carcass of a massive shark, dwells Islen Waterseer. Unlike the cloistered trainers in Orgrimmar, Islen lives where the salt waves relentlessly meet the land, serving as the Horde's principal guide for communion with water.",
+   "body": "To learn the secrets of the water spirits, the shaman must travel south along the Southfury River into the Barrens and push east toward the coast, just beyond the bustling goblin port of Ratchet. There, by the ocean shore near the carcass of a massive shark, dwells Islen Waterseer. Unlike the trainers in Durotar's towns, Islen lives where the salt waves relentlessly meet the land, serving as the Horde's principal guide for communion with water.",
    "spoiler": 0
   }
  ],
@@ -36,9 +36,9 @@
    "aliases": [
     "quest giver",
     "who starts call of water",
-    "searn firewarder"
+    "swart"
    ],
-   "answer": "Searn Firewarder, a troll shaman trainer residing in Grommash Hold in Orgrimmar, gives this task once you have proven your command over fire and earth."
+   "answer": "Swart, an orc shaman trainer in Razor Hill, gives this task once you have proven your command over fire and earth."
   },
   {
    "q": "Where can I find Islen Waterseer?",
@@ -73,7 +73,7 @@
     "how to spot islen's camp",
     "islen coast"
    ],
-   "answer": "Searn advises travelers to look for a massive beached shark along the shoreline south of Ratchet. Islen has made her dwelling right beside it."
+   "answer": "Look for a massive beached shark along the shoreline south of Ratchet. Islen has made her dwelling right beside it."
   },
   {
    "q": "What happens after reaching Islen Waterseer?",
@@ -98,22 +98,22 @@
  "keywords": [
   "call of water",
   "islen waterseer",
-  "orgrimmar",
   "ratchet",
-  "searn firewarder",
+  "razor hill",
   "shaman",
   "southfury river",
+  "swart",
   "the barrens",
   "water totem"
  ],
  "related": [
   "npc:islen-waterseer",
-  "npc:searn-firewarder",
+  "subzone:razor-hill",
   "zone:barrens",
   "subzone:ratchet",
   "subzone:southfury-river"
  ],
  "attribution": [
-  "Call of Water (Orgrimmar)"
+  "Call of Water (Durotar)"
  ]
 }

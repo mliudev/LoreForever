@@ -1,0 +1,101 @@
+{
+ "key": "quest:92515",
+ "type": "quest",
+ "name": "The Problem With Prideclaws",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92515
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Tracking and culling predatory beasts encroaching on settlements is bread-and-butter work for seasoned hunters, though prideclaws in these numbers demand respect."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what are prideclaws",
+    "prideclaw lore",
+    "prideclaws"
+   ],
+   "answer": "Prideclaws are predatory beasts inhabiting the hills and highlands of Shen'dar. Known for their fierce temperament and valuable pelts, they pose an escalating threat to nearby settlements when their numbers swell unchecked.",
+   "q": "What are prideclaws?"
+  },
+  {
+   "aliases": [
+    "where is this quest",
+    "where do prideclaws live",
+    "prideclaw location"
+   ],
+   "answer": "Prideclaws roam the hills of the Shen'dar Highlands. Their growing population has begun encroaching on the borders of the local village, bringing them dangerously close to inhabited areas.",
+   "q": "Where are the prideclaws located?"
+  },
+  {
+   "aliases": [
+    "why kill prideclaws",
+    "why cull prideclaws",
+    "village danger"
+   ],
+   "answer": "With bandits and mad cultists already menacing the region, an overpopulation of prideclaws threatens the village borders. The culling is intended as a preventative measure before children or domestic animals fall victim to the encroaching predators.",
+   "q": "Why does the village need the prideclaws culled?"
+  },
+  {
+   "aliases": [
+    "what happens to pelts",
+    "prideclaw pelt use",
+    "pelts purpose"
+   ],
+   "answer": "The gathered pelts are repurposed by the village crafters into practical goods and supplies, turning the necessary culling into useful resources for the settlement.",
+   "q": "What will be done with the prideclaw pelts?"
+  },
+  {
+   "aliases": [
+    "other threats shendar",
+    "what else threatens the village",
+    "local threats"
+   ],
+   "answer": "Beyond the wild prideclaws prowling the hills, the local settlement contends with roaming bandits and unstable cultists, stretching local safety and defenses thin.",
+   "q": "What other threats plague the surrounding hills?"
+  },
+  {
+   "aliases": [
+    "who gives the problem with prideclaws",
+    "quest giver thoughts"
+   ],
+   "answer": "The villager overseeing the task finds prideclaws somewhat cute from a safe vantage behind armed guards, but recognizes the harsh necessity of maintaining village safety before tragedy strikes.",
+   "q": "How do the locals view the prideclaws?"
+  }
+ ],
+ "keywords": [
+  "cull",
+  "prideclaw pelts",
+  "prideclaws",
+  "shen'dar",
+  "shen'dar highlands",
+  "the problem with prideclaws",
+  "village borders"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "The hills surrounding the Shen'dar Highlands are fraught with peril, pressed not only by roving bandits and unhinged cultists but also by an encroaching population of prideclaws. These fierce beasts have begun pressing inward toward the village perimeter, growing bolder as their territory expands and creating an imminent hazard for the local inhabitants.",
+   "spoiler": 0,
+   "title": "A Growing Wild Menace"
+  },
+  {
+   "body": "To avert disaster before pets or children are snatched by the wandering predators, villagers have organized a culling effort. Taking down the prideclaws serves a dual purpose: it drives the predators back from the settlement borders while providing sturdy pelts that craftsmen can fashion into essential goods for the village.",
+   "spoiler": 0,
+   "title": "Securing the Borders"
+  }
+ ],
+ "summary": "The Problem With Prideclaws addresses the encroaching threat of wild prideclaw predators in the Shen'dar Highlands. As local settlements already grapple with bandits and cultists, culling the encroaching beasts protects vulnerable villagers while yielding useful pelts for the community.",
+ "attribution": [
+  "In-game quest text: The Problem With Prideclaws"
+ ]
+}

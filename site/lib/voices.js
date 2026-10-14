@@ -256,7 +256,7 @@ export const siteNav = viewer => viewer
 // .css and .js files for 4 hours without asking (Cloudflare's Browser Cache TTL, which overrides any Cache-Control we
 // send for them), so without a new address a browser can pair a new page with the old styles and scripts (seen 10/11,
 // right after the profile was rebuilt).
-export const FRESH = "v=20261011c";
+export const FRESH = "v=20261012a";
 
 // crumbs, foot and scripts replace the voice pages' breadcrumb (under the header; "" for none), footer line and player
 // script; robots adds a robots meta tag; head adds tags after the site stylesheet (a page's own stylesheet). viewer:
@@ -302,7 +302,7 @@ ${body}
 <footer class="wrap foot">
   ${foot ?? `<p>Want a page like this for your own voice? <a href="/voices/studio">Open the narrator dashboard</a>.</p>`}
   <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
-  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why. <a href="/terms">Terms</a> and <a href="/refunds">refunds</a>.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>

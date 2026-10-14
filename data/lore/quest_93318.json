@@ -1,0 +1,96 @@
+{
+ "key": "quest:93318",
+ "type": "quest",
+ "name": "WANTED: Vulgara the Insatiable",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93318
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is vulgara",
+    "vulgara lore",
+    "what kind of monster is vulgara"
+   ],
+   "answer": "Vulgara the Insatiable is a massive, winged vuldren terrorizing the Shen'dar Highlands. Deemed the scourge of the highlands by local authorities, her ravenous appetite and violent presence pose a severe danger to travelers and nearby settlements.",
+   "q": "Who is Vulgara the Insatiable?"
+  },
+  {
+   "aliases": [
+    "who posted vulgara bounty",
+    "who wants vulgara dead",
+    "constable aonda"
+   ],
+   "answer": "Constable Aonda of the local Peacekeepers issued the official bounty on Vulgara to protect local citizens, directing hunters to bring proof of the beast's death to Danarii Bellowveil.",
+   "q": "Who placed the bounty on Vulgara?"
+  },
+  {
+   "aliases": [
+    "vulgara location",
+    "where does vulgara spawn",
+    "find vulgara"
+   ],
+   "answer": "Vulgara is known to prowl a hilltop rise situated just southwest of Shen'dar Village in the Shen'dar Highlands.",
+   "q": "Where can Vulgara the Insatiable be found?"
+  },
+  {
+   "aliases": [
+    "who is danarii bellowveil",
+    "danarii turn in"
+   ],
+   "answer": "Danarii Bellowveil is the Peacekeeper representative handling the bounty's fulfillment. Strained by surrounding bandits and cultists, Danarii inspects Vulgara's severed head and dispenses the promised reward.",
+   "q": "Who is Danarii Bellowveil?"
+  },
+  {
+   "aliases": [
+    "what is a vuldren",
+    "vuldren beast"
+   ],
+   "answer": "A vuldren is a dangerous, predatory winged beast found in the highlands. Vulgara is a particularly massive and vicious specimen whose insatiable predation threatens local settlements.",
+   "q": "What kind of creature is a vuldren?"
+  },
+  {
+   "aliases": [
+    "what threats are in shendar highlands",
+    "shendar cult and bandits"
+   ],
+   "answer": "Beyond predatory beasts like Vulgara, the Peacekeepers in the Shen'dar Highlands are stretched thin dealing with active threats from an entrenched cult and highland bandits preying on local citizens.",
+   "q": "What other threats plague the Shen'dar Highlands?"
+  }
+ ],
+ "keywords": [
+  "bounty",
+  "constable aonda",
+  "danarii bellowveil",
+  "peacekeepers",
+  "shen'dar highlands",
+  "shen'dar village",
+  "vuldren",
+  "vulgara",
+  "vulgara the insatiable"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A formal bounty posted by Constable Aonda of the Peacekeepers marks Vulgara the Insatiable as an immediate danger to the highlands. The massive winged vuldren has terrorized travelers and local settlements from her roost southwest of Shen'dar Village, prompting local authorities to call on adventurous bounty hunters to bring her reign to an end.",
+   "spoiler": 0,
+   "title": "The Highland Scourge"
+  },
+  {
+   "body": "The Peacekeepers already find themselves besieged on multiple fronts, struggling to manage threats from regional bandits and a shadowy cult operating in the area. Eliminating Vulgara relieves critical pressure on the local populace, ensuring the skies over Shen'dar remain safe while defenders focus on civil defense.",
+   "spoiler": 0,
+   "title": "Pressured Protectors"
+  }
+ ],
+ "summary": "WANTED: Vulgara the Insatiable is a Peacekeeper bounty targeting a monstrous winged beast terrorizing the Shen'dar Highlands. Issued by Constable Aonda, the contract calls for adventurers to slay the ravenous vuldren and present her head to Danarii Bellowveil.",
+ "attribution": [
+  "In-game quest text: WANTED: Vulgara the Insatiable"
+ ]
+}

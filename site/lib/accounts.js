@@ -16,6 +16,8 @@ import { HISTORY_SETUP, HISTORY_BASE_SETUP } from "./history-schema.js";
 import { USAGE_SETUP } from "./usage.js";
 import { ACTIVITY_SETUP, SEEN_BACKFILL, markSeen, utcDay } from "./activity.js";
 import { forgetFeedback } from "./answer-feedback.js";
+import { cancelPlan } from "./billing.js";
+import { setupWilloCustom } from "./willo-custom.js";
 
 const SETUP = [
   ...HISTORY_BASE_SETUP,
@@ -44,7 +46,7 @@ const SETUP = [
   `CREATE TABLE IF NOT EXISTS translation_edits (
     id INTEGER PRIMARY KEY AUTOINCREMENT, user_id TEXT NOT NULL, locale TEXT NOT NULL, string_id TEXT NOT NULL,
     en TEXT NOT NULL, text TEXT NOT NULL, created TEXT NOT NULL, updated TEXT NOT NULL,
-    status TEXT NOT NULL DEFAULT 'new', reviewed TEXT)`,
+    status TEXT NOT NULL DEFAULT 'new', reviewed TEXT, reason TEXT)`,
   "CREATE INDEX IF NOT EXISTS translation_edits_user ON translation_edits (user_id, locale, string_id)",
   "CREATE INDEX IF NOT EXISTS translation_edits_status ON translation_edits (status, locale)",
   // The upload page (/voices/studio, lib/studio.js): one file per line of a voice, kept in R2 (binding STUDIO) under
@@ -82,6 +84,12 @@ const SETUP = [
   `CREATE TABLE IF NOT EXISTS rate_limits (user_id TEXT NOT NULL, bucket TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (user_id, bucket))`,
   `CREATE TABLE IF NOT EXISTS answer_spend (month TEXT PRIMARY KEY, reserved_micro INTEGER NOT NULL DEFAULT 0,
     actual_micro INTEGER NOT NULL DEFAULT 0, calls INTEGER NOT NULL DEFAULT 0)`,
+  // What paying players' live answers cost each month, plans' and top-ups' (lib/billing.js): the shared budget leaves
+  // it out (lib/companion-answers.js FREE_ANSWER_SPEND), so it's made here with answer_spend, which every budget check
+  // reads.
+  `CREATE TABLE IF NOT EXISTS answer_user_spend (
+    user_id TEXT NOT NULL, month TEXT NOT NULL, micro INTEGER NOT NULL DEFAULT 0, calls INTEGER NOT NULL DEFAULT 0,
+    topup_micro INTEGER NOT NULL DEFAULT 0, PRIMARY KEY (user_id, month))`,
   // A player's profile (lib/profiles.js): the page /u/<handle>, built from their pasted journey record (data: what
   // lib/journey.js read from it, never the text itself). public: 0 until they make it public. story_source: written
   // or template; story_count: stories written for this account so far (today's tries are in rate_limits). story_at:
@@ -180,6 +188,18 @@ export async function setup(env) {
           if (!columns.has(column)) throw error;
         }
         columns.add(column);
+      }
+    }
+    // translation_edits.reason: why lore.kit's check turned an edit down, shown on the translator's dashboard.
+    if (existing.has("translation_edits")) {
+      const columns = new Set((await env.DB.prepare("PRAGMA table_info(translation_edits)").all()).results.map(row => row.name));
+      if (!columns.has("reason")) {
+        try { await env.DB.prepare("ALTER TABLE translation_edits ADD COLUMN reason TEXT").run(); }
+        catch (error) {
+          // Another cold Worker may have added it. A real failure must leave setup retryable.
+          const now = new Set((await env.DB.prepare("PRAGMA table_info(translation_edits)").all()).results.map(row => row.name));
+          if (!now.has("reason")) throw error;
+        }
       }
     }
     // users.last_seen (LOR-304) is for /admin only, so a failure here never stops accounts working: sign-in days just
@@ -335,11 +355,22 @@ const USER_DATA = [
   ["DELETE FROM excluded_accounts WHERE user_id = ?", u => u.id],
   ["DELETE FROM device_links WHERE user_id = ?", u => u.id],
   ["DELETE FROM clip_reports WHERE user_id = ?", u => u.id],
+  // Their plan (lib/billing.js, cancelled at Stripe first, below), their top-ups and starter with any answers left, and
+  // what their live answers cost. Stripe keeps its own record of the payments.
+  ["DELETE FROM entitlements WHERE user_id = ?", u => u.id],
+  ["DELETE FROM answer_packs WHERE user_id = ?", u => u.id],
+  ["DELETE FROM answer_user_spend WHERE user_id = ?", u => u.id],
+  ["DELETE FROM answer_holds WHERE user_id = ?", u => u.id],
+  // How they had Willo talk to them, and their tales (lib/willo-custom.js).
+  ["DELETE FROM custom_prompts WHERE user_id = ?", u => u.id],
   ["DELETE FROM users WHERE id = ?", u => u.id],
 ];
 
 export async function deleteUser(env, user) {
   await setup(env);
+  // A plan that could still charge them is cancelled at Stripe first: when that fails, it throws (with `billing` set)
+  // before anything is deleted, so they can try again. This also makes lib/billing.js's tables for the batch below.
+  await cancelPlan(env, user.id);
   // Their uploaded recordings (R2 keys studio/<user id>/...), pictures (pictures/<user id>/...) and their story's
   // recordings (story-voice/<user id>/..., lib/storyvoice.js) go first, so no file outlives its row.
   if (env.STUDIO) {
@@ -359,6 +390,8 @@ export async function deleteUser(env, user) {
   try { await env.DB.prepare("DELETE FROM story_audio WHERE user_id = ?").bind(user.id).run(); } catch (e) { /* none yet */ }
   // What they said was wrong with Willo's answers (lib/answer-feedback.js makes that table the first time it's used).
   try { await forgetFeedback(env, user.id); } catch (e) { /* none yet */ }
+  // lib/willo-custom.js makes its table the first time it's used: make sure it's there for the batch.
+  await setupWilloCustom(env);
   await env.DB.batch(USER_DATA.map(([sql, arg]) => env.DB.prepare(sql).bind(arg(user))));
   // Cached credits (lib/cache.js) may still name them: the next view builds them again.
   await env.DB.prepare("DELETE FROM cached_results").run();

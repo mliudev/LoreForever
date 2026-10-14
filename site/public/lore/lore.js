@@ -321,6 +321,7 @@
   }).catch(() => { count.textContent = "The list didn't load. Pick a zone below instead."; });
 
   function buildBar(index, anyLive) {
+    bar.addEventListener("submit", e => e.preventDefault());   // the list filters as you type; Enter doesn't reload
     bar.q.value = state.q;
     const select = bar.z;
     for (const [type, label] of [...ZONE_TYPES, ["", "Elsewhere"]]) {

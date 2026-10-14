@@ -1,0 +1,98 @@
+<!doctype html>
+<!-- Draft for Mike's review (not legal advice); keep in step with lib/billing.js -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Refunds and cancellations - Lore Forever</title>
+<meta name="description" content="How to cancel a Lore Forever plan, and when you get money back, in plain language.">
+<link rel="canonical" href="https://loreforeverwow.com/refunds">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lore Forever refunds and cancellations">
+<meta property="og:description" content="How to cancel a Lore Forever plan, and when you get money back, in plain language.">
+<meta property="og:url" content="https://loreforeverwow.com/refunds">
+<meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-lore" href="/lore">Lore</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+</header>
+
+<!-- Keep this page true to the code: cancelling and switching are Stripe's billing portal as scripts/stripe-setup.mjs
+     sets it up (cancel at the period's end, prorated switches), top-ups and their refunds are lib/billing.js (TOPUP,
+     refundTopup; the free starter is never bought, so never refunded), and Delete my account is lib/accounts.js
+     deleteUser with lib/billing.js cancelPlan. When something here changes, change the date below. -->
+<main class="wrap vp-page vp-doc">
+  <h1>Refunds and cancellations</h1>
+  <p class="vp-version">Updated 2026-10-12</p>
+  <p class="pitch">How to cancel a plan, and when you get money back. The short version: cancel any time, keep what
+    you've paid for, and if something went wrong, tell us and we'll make it right.</p>
+
+  <h2>Plans</h2>
+  <ul>
+    <li><strong>Cancel any time</strong> under Manage billing on <a href="/plans">Plans</a> (Stripe's billing portal).
+      Your plan stays until the end of the month or year you've paid for, then stops instead of renewing.</li>
+    <li><strong>No refunds for the rest of a period</strong> you've started, except where the law gives you one.</li>
+    <li><strong>In the EU and the UK</strong>, the law may give you 14 days to change your mind about a digital
+      service. Stripe sells plans as the merchant of record, and handles that.</li>
+    <li><strong>Switching plans</strong> is under Manage billing too. Stripe works out the difference for the time
+      left and puts it on your next bill.</li>
+  </ul>
+  <!-- Choice for Mike: no partial refunds for unused time, beyond what the law requires. Check whether Stripe's
+       Managed Payments checkout asks EU and UK buyers to give up the 14-day right in exchange for using the plan
+       straight away; if it does, the EU and UK line should say so. -->
+
+  <h2>Top-ups</h2>
+  <ul>
+    <li><strong>Unused top-ups</strong> can be refunded within 14 days of buying them: ask on
+      <a href="/discord">Discord</a>.</li>
+    <li><strong>Once you've used some</strong> of a top-up's answers, it can't be refunded.</li>
+  </ul>
+  <!-- Choice for Mike: unused top-ups are refundable for 14 days; partly used ones aren't. Refunding one in Stripe
+       takes its answers back by itself (lib/billing.js refundTopup). -->
+
+  <h2>If something went wrong</h2>
+  <p>Charged twice, or paid for something that didn't work? Tell us on <a href="/discord">Discord</a> and we'll make
+    it right. Stripe sells plans and top-ups as the merchant of record, so it can also refund you.</p>
+  <!-- A contact email goes here once there is one, e.g. "or email ...". -->
+
+  <h2>Deleting your account</h2>
+  <p>Delete my account, on <a href="/account">your account page</a>, ends your plan straight away, and any top-up
+    answers you have left go with it. There's no refund for the time or answers left, so if you only want to stop
+    paying, cancel under Manage billing instead.</p>
+  <!-- Choice for Mike: deleting an account ends its plan at once (lib/billing.js cancelPlan) and removes its top-ups,
+       with no refund. The other way: refund the unused part when an account is deleted. -->
+
+  <h2>Changes</h2>
+  <p>If this page changes, the date at the top changes too. The rest of the rules are in the
+    <a href="/terms">Terms</a>.</p>
+</main>
+
+<footer class="wrap foot">
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why. <a href="/terms">Terms</a> and <a href="/refunds">refunds</a>.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+</body>
+</html>

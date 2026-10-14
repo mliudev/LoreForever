@@ -22,7 +22,9 @@
 // "downloadTotals": [{file, n}] since the start (downloads holds the last 30 days),
 // "usage": lib/usage.js usageReport, the last 14 days of what syncing players used (LOR-413), and "downloadSources":
 // [{file, src, n}], site downloads in the last 30 days by the ?src= of their link, and "site": lib/usage.js siteReport,
-// the last 14 days of profile views, opens from outside links and shares (LOR-151).
+// the last 14 days of profile views, opens from outside links and shares (LOR-151). "plans": lib/billing.js
+// billingReport (LOR-252), {on, paying, counts: [{plan, status, n}], monthlyUsd, spend: {usd, players, calls},
+// topups: {sold, unused, usd}}.
 // "activity": lib/activity.js activityReport, sign-ins per day, returning accounts and owners, profile updates by way
 // in and veterans or new players (LOR-304); "funnel": lib/activity.js funnelReport, each stage from site download to
 // returning player, signed-in downloads (LOR-8), week by week and cohorts by first week (LOR-10), plus "stores"
@@ -46,6 +48,7 @@ import { activityReport, funnelReport, syncExclusions, setExclusion, counted } f
 import { storesReport } from "../../lib/stores.js";
 import { checkinReport, checkinWeeks } from "../../lib/checkins.js";
 import { featureReport } from "../../lib/featureuse.js";
+import { billingReport } from "../../lib/billing.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
 const json = (body, status = 200) => Response.json(body, { status, headers: NO_STORE });
@@ -123,6 +126,9 @@ export async function onRequestGet({ request, env }) {
                     reservedUsd: (spend.reserved_micro || 0) / 1e6, voiceOn: Boolean(env.FAL_KEY) };
   const answers = { month: stories.month, usd: answerSpend.actual_micro / 1e6,
                     budgetUsedUsd: answerSpend.reserved_micro / 1e6, calls: answerSpend.calls };
+  // Plans (lib/billing.js): accounts by plan and status, the monthly revenue estimate, paying players' answer costs and
+  // top-ups.
+  const plans = await safe(billingReport(env));
   // Add-on report codes (LOR-120) spelled out, for the report card.
   for (const f of feedback) {
     let r = null;
@@ -144,7 +150,7 @@ export async function onRequestGet({ request, env }) {
       safe(checkinReport(env)), safe(checkinWeeks(env, funnel.weeks[0]?.week || ""))]);
   }
   return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users,
-                stories, answers, contributions, signups, usage, site, downloadTotals, downloadSources, activity, funnel,
+                stories, answers, plans, contributions, signups, usage, site, downloadTotals, downloadSources, activity, funnel,
                 features });
 }
 

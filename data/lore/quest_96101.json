@@ -1,0 +1,106 @@
+{
+ "key": "quest:96101",
+ "type": "quest",
+ "name": "The Great Outdoors",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96101
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Gathering around a basic campfire to rest and recover is second nature to camp cooks, who rely on open flames to sustain traveling parties in the wild."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Survival in the wilderness begins with the fundamentals of campcraft, an essential discipline for trackers and rangers accustomed to living under open skies."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who offers the great outdoors",
+    "quest giver the great outdoors",
+    "raan campfire quest"
+   ],
+   "answer": "The quest is offered by Raan, an experienced traveler who recognizes potential in wandering adventurers and teaches them the fundamentals of surviving in the open wilderness.",
+   "q": "Who gives the quest The Great Outdoors?"
+  },
+  {
+   "aliases": [
+    "what does the great outdoors teach",
+    "the great outdoors purpose",
+    "what do i learn from raan"
+   ],
+   "answer": "It introduces adventurers to survival fundamentals in the wild, demonstrating how resting beside a basic campfire provides comfort, recuperation, and the boosted rest needed before undertaking perilous journeys.",
+   "q": "What is the purpose of The Great Outdoors?"
+  },
+  {
+   "aliases": [
+    "how to complete the great outdoors",
+    "raan campfire objective",
+    "boosted rest objective"
+   ],
+   "answer": "To complete the lesson, take a seat beside Raan's basic campfire and rest there until you receive the Boosted Rest buff, showing you understand how to recuperate in the field.",
+   "q": "How is the quest completed?"
+  },
+  {
+   "aliases": [
+    "what does raan advise next",
+    "where to go after the great outdoors",
+    "after completing the great outdoors"
+   ],
+   "answer": "Upon finishing the campfire lesson, Raan encourages you to visit trainers in the nearby village to learn a tradeskill, noting that craftsmen can create camp fixtures tailored to their craft.",
+   "q": "What does Raan suggest doing after completing the quest?"
+  },
+  {
+   "aliases": [
+    "what is boosted rest",
+    "campfire boosted rest buff"
+   ],
+   "answer": "Boosted Rest is the restorative effect gained from taking respite beside an established campfire, granting traveling adventurers enhanced recovery while braving the elements.",
+   "q": "What is Boosted Rest?"
+  },
+  {
+   "aliases": [
+    "can professions make campfires",
+    "profession camp fixtures",
+    "trade camp items"
+   ],
+   "answer": "Yes, local trade trainers can instruct artisans on how to craft functional camp fixtures appropriate for their chosen craft, allowing travelers to maintain specialized campsite setups outdoors.",
+   "q": "Do tradeskills allow adventurers to craft campsite fixtures?"
+  }
+ ],
+ "keywords": [
+  "basic campfire",
+  "boosted rest",
+  "camp fixture",
+  "campfire",
+  "raan",
+  "the great outdoors",
+  "tradeskill",
+  "wilderness survival"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "The Great Outdoors serves as an introductory lesson in surviving beyond the safety of settlement walls. Offered by an experienced wilderness traveler named Raan, the task reminds wandering adventurers that raw ambition and steel are useless without the practical campcraft needed to endure harsh elements. Raan welcomes aspiring wanderers into the ranks of restless souls seeking fortune and glory, offering practical guidance to those willing to learn.",
+   "spoiler": 0,
+   "title": "Lessons in the Wild"
+  },
+  {
+   "body": "The core requirement of the lesson is deceptively simple: taking a seat by Raan's basic campfire until the warmth grants the Boosted Rest effect. Out in the vast, untamed territories of Azeroth, knowing how to pause, set up camp, and recuperate can mean the difference between life and death. Once the basics of camping are mastered, Raan directs novices toward local village trainers to take up a trade and learn to craft specialized campsite fixtures.",
+   "spoiler": 0,
+   "title": "The Warmth of the Hearth"
+  }
+ ],
+ "summary": "The Great Outdoors is an introductory quest offered by the outdoorsman Raan, who teaches novice adventurers the fundamentals of wilderness survival. By resting beside a basic campfire to gain Boosted Rest, wanderers learn essential campcraft before venturing toward nearby trade trainers to learn practical professions.",
+ "attribution": [
+  "In-game quest text: The Great Outdoors"
+ ]
+}

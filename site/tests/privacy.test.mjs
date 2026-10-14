@@ -1,5 +1,5 @@
-// The privacy page and the email list: every footer links /privacy, and /api/subscribe and /api/unsubscribe take posts
-// only from our own pages, cap each sender per day, and unsubscribing never says whether an address was on the list.
+// The email list and the add-on's outbound-data boundary: /api/subscribe and /api/unsubscribe take posts only from our
+// own pages, cap each sender per day, and unsubscribing never says whether an address was on the list.
 // D1 is node:sqlite (helpers.mjs). Run: node --test 'site/tests/*.test.mjs'
 
 import { test, beforeEach } from "node:test";

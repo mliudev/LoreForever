@@ -1,0 +1,104 @@
+{
+ "key": "quest:94411",
+ "type": "quest",
+ "name": "Meddlesome Mages",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94411
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Mages will note the sharp critique of reckless spellcasting; the High Order's apprentices disregard the delicate environmental balance holding the island together, showing the hazards of unrestrained arcane manipulation."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is meddlesome mages",
+    "meddlesome mages quest",
+    "what is this quest"
+   ],
+   "answer": "Meddlesome Mages is a task asking adventurers to confront and disperse High Order Apprentices who have encroached upon sacred standing stones north of the village in the Shen'dar Highlands.",
+   "q": "What is the quest Meddlesome Mages about?"
+  },
+  {
+   "aliases": [
+    "who are the high order apprentices",
+    "what is high order",
+    "high order mages"
+   ],
+   "answer": "The High Order is a faction of mages, described as shen'dorei brothers and sisters to the locals, whose apprentices are intruding upon sacred grounds and experimenting with magic despite warnings to stay away.",
+   "q": "Who are the High Order Apprentices?"
+  },
+  {
+   "aliases": [
+    "why disperse high order",
+    "why fight the apprentices",
+    "standing stones problem"
+   ],
+   "answer": "The High Order has repeatedly ignored warnings to avoid the standing stones. Their reckless magical tampering threatens the fragile arcane forces binding the island, risking catastrophic destruction to the local homeland.",
+   "q": "Why must the High Order Apprentices be dispersed?"
+  },
+  {
+   "aliases": [
+    "where is this quest",
+    "shen'dar highlands location",
+    "standing stones north of village"
+   ],
+   "answer": "The confrontation takes place at the standing stones located north of the local village within the Shen'dar Highlands.",
+   "q": "Where are the High Order Apprentices gathering?"
+  },
+  {
+   "aliases": [
+    "who are shendorei",
+    "shendorei brothers and sisters",
+    "what are shen'dorei"
+   ],
+   "answer": "The shen'dorei are the kin of the quest giver's people. Although internal conflict weakens their shared community, local leaders feel forced to take decisive action against the High Order to avert disaster.",
+   "q": "Who are the shen'dorei mentioned in the quest?"
+  },
+  {
+   "aliases": [
+    "what is the danger",
+    "island fragile forces",
+    "what could happen to the island"
+   ],
+   "answer": "The forces holding the island together are delicate and vulnerable. Unchecked meddling by arcane practitioners could destabilize these bindings, potentially destroying the island entirely.",
+   "q": "What danger do the mages pose to the island?"
+  }
+ ],
+ "keywords": [
+  "arcane meddling",
+  "high order",
+  "high order apprentices",
+  "meddlesome mages",
+  "shen'dar highlands",
+  "shen'dorei",
+  "standing stones"
+ ],
+ "related": [
+  "topic:mage"
+ ],
+ "sections": [
+  {
+   "body": "Tensions have flared north of the village in the Shen'dar Highlands, where apprentices of the High Order have gathered around ancient standing stones. Despite repeated warnings to leave these sacred sites undisturbed, the mages have pressed forward with their arcane interests. The local leadership, though hesitant to shed the blood of their shen'dorei kin, has called for outside intervention to disperse the encroaching apprentices before their interference causes permanent harm.",
+   "spoiler": 0,
+   "title": "Encroachment at the Stones"
+  },
+  {
+   "body": "The urgency behind driving off the High Order stems from the delicate balance that sustains the island. The mystical forces binding the land together are fragile, leaving the homeland vulnerable to reckless spellcraft. To the defenders of the standing stones, the High Order demonstrates complete disregard for the dangers of their meddling, meaning even a single careless spell could rupture the island's bindings and bring ruin upon all who dwell there.",
+   "spoiler": 0,
+   "title": "The Fragile Island"
+  }
+ ],
+ "summary": "Meddlesome Mages centers on rising friction in the Shen'dar Highlands, where apprentices of the High Order trespass near sacred standing stones. Local guardians must drive them away to protect the delicate mystical forces that hold their island together from reckless arcane tampering.",
+ "attribution": [
+  "In-game quest text: Meddlesome Mages"
+ ]
+}

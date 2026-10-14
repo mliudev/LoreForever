@@ -1,13 +1,20 @@
 {
- "generated": "2026-10-12",
+ "generated": "2026-10-13",
  "forever_only": {
-  "quests_known": 142,
-  "quests_with_text": 123,
-  "narrated": 115,
+  "quests_known": 208,
+  "quests_with_text": 180,
+  "narrated": 114,
   "npcs_known": 223,
-  "npcs_with_text": 5
+  "npcs_with_text": 27
  },
  "zones": [
+  {
+   "zone": "Other",
+   "key": "general",
+   "quests": 82,
+   "with_text": 73,
+   "narrated": 9
+  },
   {
    "zone": "Tirisfal Glades",
    "key": "tirisfal",
@@ -20,14 +27,7 @@
    "key": "zephras",
    "quests": 25,
    "with_text": 25,
-   "narrated": 25
-  },
-  {
-   "zone": "Other",
-   "key": "general",
-   "quests": 16,
-   "with_text": 16,
-   "narrated": 9
+   "narrated": 24
   },
   {
    "zone": "Wetlands",
@@ -298,18 +298,67 @@
    "level": 33
   },
   {
-   "kind": "npc",
-   "id": 247229,
-   "name": "Daniel",
-   "zone": "Elwynn Forest",
-   "level": 2
+   "kind": "quest",
+   "id": 97223,
+   "name": "Bloodtalon Matriarch",
+   "zone": "Other",
+   "level": null
   },
   {
-   "kind": "npc",
-   "id": 251389,
-   "name": "Akeri Duskblade",
-   "zone": "Zephras Isle",
-   "level": 2
+   "kind": "quest",
+   "id": 97903,
+   "name": "Camping 101: First Aid",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 97949,
+   "name": "Camping 101: Skinning",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 96822,
+   "name": "For Honor",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 97225,
+   "name": "Forgotten Loa Idols",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 87288,
+   "name": "Soft Saber Pelts",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 98391,
+   "name": "The Sisterhood of Elune",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 96825,
+   "name": "This Fruit Could Bite Back",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 99052,
+   "name": "Threat from Below",
+   "zone": "Other",
+   "level": null
   },
   {
    "kind": "npc",
@@ -329,20 +378,6 @@
    "kind": "npc",
    "id": 251368,
    "name": "Elatrell Featherlight",
-   "zone": "Zephras Isle",
-   "level": 2
-  },
-  {
-   "kind": "npc",
-   "id": 257554,
-   "name": "Halaan Hawk-Eye",
-   "zone": "Zephras Isle",
-   "level": 2
-  },
-  {
-   "kind": "npc",
-   "id": 263113,
-   "name": "Myriaal Mistwake",
    "zone": "Zephras Isle",
    "level": 2
   },
@@ -397,13 +432,6 @@
   },
   {
    "kind": "npc",
-   "id": 251487,
-   "name": "Ventaari Brightwish",
-   "zone": "Zephras Isle",
-   "level": 4
-  },
-  {
-   "kind": "npc",
    "id": 251366,
    "name": "Aetheen of the Gales",
    "zone": "Zephras Isle",
@@ -411,30 +439,9 @@
   },
   {
    "kind": "npc",
-   "id": 251523,
-   "name": "Constable Aonda",
-   "zone": "Zephras Isle",
-   "level": 5
-  },
-  {
-   "kind": "npc",
-   "id": 265813,
-   "name": "Eric Brighthammer",
-   "zone": "Dun Morogh",
-   "level": 6
-  },
-  {
-   "kind": "npc",
    "id": 263399,
    "name": "Sam Sarsaparilla",
    "zone": "Elwynn Forest",
-   "level": 6
-  },
-  {
-   "kind": "npc",
-   "id": 263664,
-   "name": "Raan Wildwind",
-   "zone": "Zephras Isle",
    "level": 6
   },
   {
@@ -502,22 +509,8 @@
   },
   {
    "kind": "npc",
-   "id": 267336,
-   "name": "Brighid Stormflayer",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 267279,
    "name": "Cadoc Winterheart",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 254089,
-   "name": "Coriella Calmbreeze",
    "zone": null,
    "level": null
   },
@@ -607,20 +600,6 @@
   },
   {
    "kind": "npc",
-   "id": 251902,
-   "name": "Illaya Amberwind",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 251993,
-   "name": "Indari Sunseam",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 258113,
    "name": "Ingrid Dunwald",
    "zone": null,
@@ -649,13 +628,6 @@
   },
   {
    "kind": "npc",
-   "id": 257024,
-   "name": "Mendalass Tattermend",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 257022,
    "name": "Messana Crestwind",
    "zone": null,
@@ -663,22 +635,8 @@
   },
   {
    "kind": "npc",
-   "id": 254087,
-   "name": "Miriaan Mistblade",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 254081,
    "name": "Naeluna Swiftmend",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 257018,
-   "name": "Naleeia Tattermend",
    "zone": null,
    "level": null
   },
@@ -747,13 +705,6 @@
   },
   {
    "kind": "npc",
-   "id": 247227,
-   "name": "Riley Peltskinner",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 255002,
    "name": "Ryff",
    "zone": null,
@@ -775,13 +726,6 @@
   },
   {
    "kind": "npc",
-   "id": 251904,
-   "name": "Sania Silverstream",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 254086,
    "name": "Shenaan Spellwind",
    "zone": null,
@@ -796,22 +740,8 @@
   },
   {
    "kind": "npc",
-   "id": 251991,
-   "name": "Taleen Shimmerthread",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 257421,
    "name": "Tephri Thriceforged",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 248415,
-   "name": "Tordrin Sternblade",
    "zone": null,
    "level": null
   },
@@ -840,13 +770,6 @@
    "kind": "npc",
    "id": 265574,
    "name": "Winklespark",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 251905,
-   "name": "Zerril Softbreeze",
    "zone": null,
    "level": null
   }

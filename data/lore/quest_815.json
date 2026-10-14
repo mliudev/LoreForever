@@ -1,0 +1,102 @@
+{
+ "key": "quest:815",
+ "type": "quest",
+ "name": "Break a Few Eggs",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   815
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Every working cook knows the relentless pressure of keeping people fed. Fetching fragile ingredients without smashing them is half the battle in any kitchen."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "break a few eggs quest",
+    "what is break a few eggs",
+    "egg quest"
+   ],
+   "answer": "Break a Few Eggs is a culinary task where an adventurer aids a busy cook who is overwhelmed by the constant demand to prepare meals. The task involves delivering eggs intact to ensure the cooking doesn't fall behind schedule.",
+   "q": "What is the quest Break a Few Eggs?"
+  },
+  {
+   "aliases": [
+    "who gives break a few eggs",
+    "egg quest cook",
+    "who is cooking"
+   ],
+   "answer": "The quest is overseen by a harried cook responsible for preparing daily meals around the clock. Though blunt and hurried in manner, the cook relies on capable hands to secure eggs without cracking them before mealtime.",
+   "q": "Who is the cook in Break a Few Eggs?"
+  },
+  {
+   "aliases": [
+    "why eggs",
+    "what are eggs for",
+    "why need eggs"
+   ],
+   "answer": "The cook needs them for ongoing meal preparations, whether breakfast, lunch, or dinner. Feeding people is an endless chore, and fresh eggs are an essential kitchen staple needed immediately at the stove.",
+   "q": "Why does the cook need eggs?"
+  },
+  {
+   "aliases": [
+    "why careful with eggs",
+    "dont break eggs",
+    "why not clumsy"
+   ],
+   "answer": "Eggs are fragile and easy to ruin during transit. The cook explicitly values someone who is not clumsy, as cracked shells and lost yolks ruin ingredients needed for meal service.",
+   "q": "Why does the cook comment on not being clumsy?"
+  },
+  {
+   "aliases": [
+    "break a few eggs meaning",
+    "phrase meaning",
+    "why is it called break a few eggs"
+   ],
+   "answer": "The name references the common proverb that you cannot make an omelet without breaking a few eggs, fitting a task focused on gathering fragile kitchen ingredients for a busy meal service.",
+   "q": "What does the title Break a Few Eggs refer to?"
+  },
+  {
+   "aliases": [
+    "cook attitude",
+    "why is the cook rude",
+    "grumpy cook"
+   ],
+   "answer": "The cook is completely occupied keeping up with non-stop meals for breakfast, lunch, and dinner. With so much cooking left to do, the cook has little patience for idle chitchat and simply wants to get back to the stove.",
+   "q": "Why is the cook so impatient?"
+  }
+ ],
+ "keywords": [
+  "break a few eggs",
+  "breakfast",
+  "cook",
+  "cooking",
+  "eggs",
+  "kitchen",
+  "meals"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Feeding a crowd is an exhausting, never-ending endeavor. Between breakfast, lunch, and dinner, there is scarcely any time to step away from the stove, let alone leave the kitchen to scrounge for raw provisions. In Break a Few Eggs, a hard-pressed cook turns to passing adventurers to secure fresh eggs before the next meal service falls behind.",
+   "spoiler": 0,
+   "title": "Endless Meals"
+  },
+  {
+   "body": "Transporting eggs requires a gentle touch that brute force cannot replace. The cook may offer sharp words and little praise, but intact ingredients speak for themselves. Once the eggs are delivered safe and unbroken, the cook wastes no time sending the gatherer off and returning straight to work over the fire.",
+   "spoiler": 0,
+   "title": "A Cook's Gratitude"
+  }
+ ],
+ "summary": "Break a Few Eggs is an errand assisting a harried cook who must keep up with endless meal preparations. Securing fresh, fragile ingredients without breaking them keeps the kitchen running and the cooking on schedule.",
+ "attribution": [
+  "In-game quest text: Break a Few Eggs"
+ ]
+}

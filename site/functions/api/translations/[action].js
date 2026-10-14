@@ -8,7 +8,7 @@
 //
 // Signed in (session cookie):
 //   GET  /api/translations/me                  {user, languages, stats: {locale: {new, accepted, rejected, pulled}}}
-//   GET  /api/translations/edits?locale=deDE   your edits in that language: [{string_id, text, status, updated}]
+//   GET  /api/translations/edits?locale=deDE   your edits in that language: [{string_id, text, status, reason, updated}]
 //   GET  /api/translations/reports?locale=deDE open bad-translation reports for that language (no names or emails)
 //   GET  /api/translations/pack?locale=deDE    your test pack: a zip of LoreForever_LangTest_deDE/ with your saved
 //                                              edits that aren't pulled or rejected (lib/langtest.js); headers
@@ -21,7 +21,8 @@
 //                                     (status new = saved, not pulled yet; or rejected, pulled, all); &user=<id> one
 //                                     translator, &q= search, &offset= and &limit= (up to 2000) a page (/admin/edits)
 //   GET  /api/translations/summary    {locales, translators}: saved, pulled and rejected per language and per translator
-//   POST /api/translations/decide     {ids: [...], status: "rejected" | "new"}: reject spam, or restore; or
+//   POST /api/translations/decide     {ids: [...], status: "rejected" | "new", reasons?: {id: why}}: reject spam (lore.kit
+//                                     sends why its check turned each down, for the translator), or restore; or
 //                                     {user: "<id>", locale?, status}: all of one translator's saved (or rejected) edits
 //   GET  /api/translations/export?locale=deDE             saved edits not pulled or rejected, and the language's likes,
 //                                                         for lore.kit pull and lore.kit community
@@ -76,7 +77,7 @@ async function edits({ env, request }, user) {
   const locale = localeParam(request);
   if (!locale) return fail(400, "Pick a language.");
   const { results } = await env.DB.prepare(
-    "SELECT string_id, en, text, status, updated FROM translation_edits WHERE user_id = ? AND locale = ? ORDER BY id"
+    "SELECT string_id, en, text, status, reason, updated FROM translation_edits WHERE user_id = ? AND locale = ? ORDER BY id"
   ).bind(user.id, locale).all();
   return ok({ edits: results });
 }
@@ -318,16 +319,19 @@ async function decide({ env }, input) {
     const locale = LOCALE.test(input.locale || "") ? input.locale : null;
     const from = input.status === "rejected" ? "('new', 'accepted')" : "('rejected')";
     const res = await env.DB.prepare(
-      `UPDATE translation_edits SET status = ?, reviewed = ? WHERE user_id = ?${locale ? " AND locale = ?" : ""} AND status IN ${from}`
+      `UPDATE translation_edits SET status = ?, reviewed = ?, reason = NULL WHERE user_id = ?${locale ? " AND locale = ?" : ""} AND status IN ${from}`
     ).bind(input.status, reviewed, input.user, ...(locale ? [locale] : [])).run();
     await forgetTranslatorCredits(env);
     return ok({ updated: res.meta?.changes ?? 0 });
   }
   const ids = idList(input);
   if (!ids.length) return fail(400, "Needs ids and a status.");
+  // reasons {id: why} (lore.kit pull's check) is what the translator's dashboard shows; /admin rejects leave it empty.
+  const reasons = input.status === "rejected" && input.reasons && typeof input.reasons === "object" ? input.reasons : {};
+  const reasonOf = id => String(reasons[id] ?? "").replace(/\s+/g, " ").trim().slice(0, 200) || null;
   await env.DB.batch(ids.map(id => env.DB.prepare(
-    "UPDATE translation_edits SET status = ?, reviewed = ? WHERE id = ? AND status != 'pulled'"
-  ).bind(input.status, reviewed, id)));
+    "UPDATE translation_edits SET status = ?, reviewed = ?, reason = ? WHERE id = ? AND status != 'pulled'"
+  ).bind(input.status, reviewed, reasonOf(id), id)));
   await forgetTranslatorCredits(env);
   return ok({ updated: ids.length });
 }

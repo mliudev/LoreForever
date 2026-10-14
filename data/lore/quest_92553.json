@@ -1,0 +1,98 @@
+{
+ "key": "quest:92553",
+ "type": "quest",
+ "name": "Restocking the Larders",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92553
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Gathering local ingredients like strider meat and small eggs offers practical experience and culinary recipes adapted to Zephras wildlife."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "restocking larders objective",
+    "what to collect restocking larders"
+   ],
+   "answer": "A local cook needs 3 Small Eggs and 8 cuts of Strider Meat to help feed the village while danger keeps ordinary foragers indoors.",
+   "q": "What supplies are needed for Restocking the Larders?"
+  },
+  {
+   "aliases": [
+    "where get strider meat zephras",
+    "egg locations shendar"
+   ],
+   "answer": "The strider meat and small eggs come from wild creatures roaming throughout the Shen'dar Highlands on the island of Zephras.",
+   "q": "Where can the ingredients be found?"
+  },
+  {
+   "aliases": [
+    "why need food zephras",
+    "why village hungry shendar"
+   ],
+   "answer": "Escalating dangers across the region have made it too perilous for common villagers to venture out hunting or foraging, leaving food stores depleted.",
+   "q": "Why is the village running low on food?"
+  },
+  {
+   "aliases": [
+    "what does quest giver offer",
+    "cooking training quest"
+   ],
+   "answer": "In exchange for bringing in fresh provisions, the quest giver offers cooking tips, culinary tricks, and training in local recipes.",
+   "q": "What reward does the cook offer for the food?"
+  },
+  {
+   "aliases": [
+    "what is zephras",
+    "where is shendar highlands"
+   ],
+   "answer": "The Shen'dar Highlands are situated on the land of Zephras, where locals contend with mounting threats while trying to sustain their everyday lives.",
+   "q": "What are the Shen'dar Highlands and Zephras?"
+  },
+  {
+   "aliases": [
+    "tallow cooking secret",
+    "how are eggs cooked zephras"
+   ],
+   "answer": "The cook swears by frying up freshly gathered small eggs in ursera tallow, calling the combination an unmatched comfort on Zephras.",
+   "q": "How does the cook prepare the eggs?"
+  }
+ ],
+ "keywords": [
+  "cooking",
+  "restocking the larders",
+  "shendar highlands",
+  "small eggs",
+  "strider meat",
+  "ursera tallow",
+  "zephras"
+ ],
+ "related": [
+  "npc:tallow"
+ ],
+ "sections": [
+  {
+   "body": "As unrest and rising dangers spread across the Shen'dar Highlands, normal daily life on Zephras has grown increasingly fraught. Everyday villagers can no longer safely venture into the wilderness to forage or hunt, leaving communal food stores severely diminished. To keep the settlement fed, local cooks must turn to traveling adventurers with the strength and skill to brave the wild trails.",
+   "spoiler": 0,
+   "title": "Dangers in the Highlands"
+  },
+  {
+   "body": "The task calls for tracking down native wildlife across the highlands to secure strider meat and fresh small eggs. For those who supply the provisions, the cook is eager to share culinary knowledge, teaching recipes and culinary techniques refined around local game, including eggs fried in rich ursera tallow alongside a quiet pipe of dried peacebloom.",
+   "spoiler": 0,
+   "title": "Sustenance and Comfort"
+  }
+ ],
+ "summary": "Restocking the Larders is a provisioning quest in the Shen'dar Highlands of Zephras. With escalating wilderness threats keeping villagers from foraging, an adventurer is enlisted to gather eggs and strider meat to sustain the settlement.",
+ "attribution": [
+  "In-game quest text: Restocking the Larders"
+ ]
+}

@@ -10,7 +10,7 @@
       "addon": "LoreForever_Voice_Default",
       "status": "live",
       "included": true,
-      "clips": 909,
+      "clips": 987,
       "coverage": "selected zone, capital and dungeon stories, places and people, dungeon bosses and first answers (other entries stay available as text; quest dialogue is a separate optional download)",
       "tagline": "Has narrated every capital in one sitting. Doesn't blink. Declined our offer of water.",
       "bio": "The voice that comes with Lore Forever, and the first one you hear in Stormwind.\n\nHas narrated every capital in one sitting. Doesn't blink. Declined our offer of water, then a chair, then a lunch break. Knows the founding of Stormwind by heart and will tell you about it whether or not you asked.\n\nFavourite zone: all of them, in alphabetical order. Hobbies: dramatic pauses, and saying \"Thrall\" exactly right every single time.",
@@ -60,13 +60,33 @@
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Quests.zip"
         },
         {
+          "id": "male-more-places",
+          "name": "More places",
+          "addon": "LoreForever_Voice_Default_MorePlaces",
+          "status": "soon",
+          "included": false,
+          "clips": 237,
+          "coverage": "the whole story of hundreds more places in his voice",
+          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MorePlaces.zip"
+        },
+        {
+          "id": "male-more-people",
+          "name": "More people",
+          "addon": "LoreForever_Voice_Default_MorePeople",
+          "status": "soon",
+          "included": false,
+          "clips": 0,
+          "coverage": "the whole story of hundreds more characters in his voice",
+          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MorePeople.zip"
+        },
+        {
           "id": "male-german",
           "curseforge": "https://www.curseforge.com/wow/addons/lore-forever-german-narration-male-narrator",
           "name": "Deutsch",
           "language": "Deutsch",
           "addon": "LoreForever_Voice_Default_deDE",
           "status": "live",
-          "clips": 640,
+          "clips": 644,
           "coverage": "zone, dungeon and place stories, starting areas, dungeon bosses, people and first answers, in German (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_deDE.zip"
         },
@@ -77,7 +97,7 @@
           "language": "Português (Brasil)",
           "addon": "LoreForever_Voice_Default_ptBR",
           "status": "soon",
-          "clips": 1,
+          "clips": 318,
           "coverage": "zone, dungeon and place stories, in Brazilian Portuguese (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_ptBR.zip"
         },
@@ -87,8 +107,8 @@
           "language": "Français",
           "addon": "LoreForever_Voice_Default_frFR",
           "status": "live",
-          "clips": 504,
-          "coverage": "zone, dungeon and place stories and starting areas, plus questions read with their answers, in French (other entries stay available as text)",
+          "clips": 605,
+          "coverage": "zone, dungeon and place stories, starting areas and people, plus questions read with their answers, in French (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_frFR.zip"
         },
         {
@@ -97,7 +117,7 @@
           "language": "Español",
           "addon": "LoreForever_Voice_Default_esES",
           "status": "soon",
-          "clips": 1,
+          "clips": 407,
           "coverage": "zone, dungeon and place stories, in Spanish (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_esES.zip"
         },
@@ -455,7 +475,7 @@
       "curseforgeLabel": "Get three story packs on CurseForge",
       "curseforgeBundleNote": "Recorded answer packs and quest dialogue are separate.",
       "included": false,
-      "clips": 229,
+      "clips": 297,
       "coverage": "selected zone, capital and dungeon stories, starting areas, dungeon bosses and first answers (other entries stay available as text)",
       "tagline": "Asked for the candles lit and every murloc removed from the building. Got the candles.",
       "bio": "The second house voice, and an optional download: pick her in Options once she's installed.\n\nAsked for the candles lit and every murloc removed from the building. Got the candles. Rumoured to have read the whole of Durotar aloud to a very patient kodo, twice, because the kodo asked.\n\nTakes her tea the way the lore takes its villains: dark, and with a long backstory.",
@@ -509,6 +529,26 @@
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Quests.zip"
         },
         {
+          "id": "female-more-places",
+          "name": "More places",
+          "addon": "LoreForever_Voice_Female_MorePlaces",
+          "status": "soon",
+          "included": false,
+          "clips": 237,
+          "coverage": "the whole story of hundreds more places in her voice",
+          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MorePlaces.zip"
+        },
+        {
+          "id": "female-more-people",
+          "name": "More people",
+          "addon": "LoreForever_Voice_Female_MorePeople",
+          "status": "soon",
+          "included": false,
+          "clips": 0,
+          "coverage": "the whole story of hundreds more characters in her voice",
+          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MorePeople.zip"
+        },
+        {
           "id": "female-complete",
           "contains": [
             "female-narrator",
@@ -518,7 +558,7 @@
           "bundleNote": "More recorded answers, other languages and quest dialogue are separate extras.",
           "coverage": "selected English stories, first answers and Alliance and Horde lands; quest dialogue is a separate optional download",
           "name": "English stories in one zip",
-          "clips": 909,
+          "clips": 977,
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female-complete.zip"
         },
         {
@@ -528,8 +568,8 @@
           "language": "Deutsch",
           "addon": "LoreForever_Voice_Female_deDE",
           "status": "live",
-          "clips": 479,
-          "coverage": "zone, dungeon and place stories, starting areas and first answers, in German (other entries stay available as text)",
+          "clips": 575,
+          "coverage": "zone, dungeon and place stories, starting areas, people and first answers, in German (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_deDE.zip"
         },
         {
@@ -549,8 +589,8 @@
           "language": "Français",
           "addon": "LoreForever_Voice_Female_frFR",
           "status": "live",
-          "clips": 503,
-          "coverage": "zone, dungeon and place stories and starting areas, plus questions read with their answers, in French (other entries stay available as text)",
+          "clips": 604,
+          "coverage": "zone, dungeon and place stories, starting areas and people, plus questions read with their answers, in French (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_frFR.zip"
         },
         {
@@ -559,7 +599,7 @@
           "language": "Español",
           "addon": "LoreForever_Voice_Female_esES",
           "status": "soon",
-          "clips": 1,
+          "clips": 399,
           "coverage": "zone, dungeon and place stories, in Spanish (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_esES.zip"
         },
@@ -908,16 +948,16 @@
       "language": "Español",
       "addon": "LoreForever_Edition_Densuad_esES_Audio",
       "clips": 804,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.16.0/LoreForever_Edition_Densuad_esES.zip",
+      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.17.0/LoreForever_Edition_Densuad_esES.zip",
       "bio": "Spanish text and narration contributed by Densuad. This edition uses its own wording and recordings together. It contains contributed overviews and answers; these are not complete story recordings.",
       "coverage": "699 contributed entries, 109 answer texts and 804 recordings, each played with Densuad’s own text. Text without a matching recording remains readable.",
       "edition": {
         "id": "densuad-esES",
         "locale": "esES",
-        "version": "413216fc7e91b4b7654aff1648536f1fb441e9e2bc9cb2637b340d19645e907f",
+        "version": "b02a353252c8d236d67df88e10721cdd0c71913ec449f716c2cfbbd653c16b8d",
         "entries": 699,
         "answers": 109,
-        "coreVersion": "0.16.0",
+        "coreVersion": "0.17.0",
         "api": 1,
         "installedSize": 704920095,
         "textAddon": "LoreForever_Edition_Densuad_esES_Text",

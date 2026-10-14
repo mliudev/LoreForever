@@ -1,0 +1,115 @@
+{
+ "key": "quest:95646",
+ "type": "quest",
+ "name": "Horrors in the Highland",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95646
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Rethiel senses the natural balance shifting through his roots and the waterways; druids attuned to the land will recognize the sudden vulnerability of freshwater life to ancient corruption."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven dig sites in the highlands have unearthed more than ancient relics, prompting Rethiel to urge excavators to halt their digging before worse evils awaken."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance explorers and Prospectors operating excavation sites in the mountains risk disturbing ancient forces buried beneath the earth."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives horrors in the highland",
+    "horrors in the highland questgiver",
+    "rethiel quest"
+   ],
+   "answer": "Rethiel the Greenwarden, an ancient protector watching over the Wetlands, offers this quest after sensing a foul corruption seeping through a nearby mountain gully.",
+   "q": "Who offers the quest Horrors in the Highland?"
+  },
+  {
+   "aliases": [
+    "where are highland horrors",
+    "highland horror location",
+    "where to find highland horror"
+   ],
+   "answer": "Highland Horrors dwell within the excavation sites situated in the higher ground above the lowlands, near the mountain gully where the corruption seeps.",
+   "q": "Where can Highland Horrors be found?"
+  },
+  {
+   "aliases": [
+    "why are the creatures tainted",
+    "why highland creatures corrupted",
+    "unsalted water corruption"
+   ],
+   "answer": "The freshwater creatures of the highlands lack the hardening brine and salt of the sea found in the lower wetlands, leaving them fragile and especially bitter in their reaction to corrupting taint.",
+   "q": "Why are the highland creatures so susceptible to corruption?"
+  },
+  {
+   "aliases": [
+    "what is the root core",
+    "highland horror core",
+    "why take the root core"
+   ],
+   "answer": "The root core is the heart of the corrupted Highland Horror. Rethiel requires it to inspect the unnatural power spreading through the waterways and confirm the nature of the corruption.",
+   "q": "What is the root core of a Highland Horror?"
+  },
+  {
+   "aliases": [
+    "what does rethiel discover",
+    "ancient energy wetlands",
+    "excavation danger"
+   ],
+   "answer": "Upon examining the core, Rethiel realizes that an ancient energy has begun to stir from deep within the earth, likely disturbed by reckless digging at the excavation sites.",
+   "q": "What does Rethiel discover when you return the root core?"
+  },
+  {
+   "aliases": [
+    "stop digging rethiel",
+    "what should excavators do",
+    "dwarf dig site warning"
+   ],
+   "answer": "Rethiel warns that the eager excavators working in the highlands should immediately cease their digging for their own safety, as their delving risks releasing dangerous ancient forces.",
+   "q": "Why does Rethiel want the excavators to stop digging?"
+  }
+ ],
+ "keywords": [
+  "corruption",
+  "excavation sites",
+  "highland horror",
+  "horrors in the highland",
+  "rethiel",
+  "rethiel the greenwarden",
+  "root core",
+  "wetlands"
+ ],
+ "related": [
+  "npc:rethiel-the-greenwarden",
+  "quest:463",
+  "zone:wetlands"
+ ],
+ "sections": [
+  {
+   "body": "Deep in the Wetlands, Rethiel the Greenwarden senses a disturbing shift in the land. A foul taint seeps through a mountain gully, infecting the freshwater creatures inhabiting the highlands above. Unlike the hardy life shaped by the brackish lowland waters, these freshwater beings have never known the sea's protective salt, leaving them entirely defenseless against spreading evil. Rethiel calls upon adventurers to venture up to the excavation sites, slay a Highland Horror, and retrieve its root core.",
+   "spoiler": 0,
+   "title": "Taint in the Gully"
+  },
+  {
+   "body": "When the Highland Horror's root core is brought before Rethiel, the guardian's fears are confirmed: an ancient energy has begun to stir. The affliction plaguing the highland creatures is no ordinary sickness, but the consequence of recent delving. Rethiel urgently warns that the eager excavators working the mountain sites must cease their digging immediately before their unthinking curiosity unleashes something far worse upon the Wetlands.",
+   "spoiler": 1,
+   "title": "An Ancient Stirring"
+  }
+ ],
+ "summary": "Rethiel the Greenwarden senses a foul corruption seeping through a mountain gully into the unsalted waters above the Wetlands. Adventurers must ascend to the excavation sites to slay a Highland Horror and recover its root core. Rethiel discovers that an ancient energy is stirring, warning that ongoing digging threatens the safety of everyone in the region.",
+ "attribution": [
+  "In-game quest text: Horrors in the Highland"
+ ]
+}
