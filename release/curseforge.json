@@ -417,6 +417,34 @@
       "id": 1731420,
       "slug": "lore-forever-female-narrator-quest-answers-part-1",
       "live": true
+    },
+    {
+      "key": "male-answers-places-eses",
+      "name": "Lore Forever - Spanish Place Answers (Male Narrator)",
+      "about": "the male narrator's recorded answers about zones, capitals, dungeons and places, in Spanish",
+      "from": "LoreForever_Voice_Default_Answers_Places_esES.zip",
+      "folders": ["LoreForever_Voice_Default_Answers_Places_esES"],
+      "file": "Lore Forever male narrator, Spanish place answers {v}",
+      "core": "optional",
+      "requires": [],
+      "suggests": ["male-eses"],
+      "id": null,
+      "slug": null,
+      "live": false
+    },
+    {
+      "key": "female-answers-places-eses",
+      "name": "Lore Forever - Spanish Place Answers (Female Narrator)",
+      "about": "the female narrator's recorded answers about zones, capitals, dungeons and places, in Spanish",
+      "from": "LoreForever_Voice_Female_Answers_Places_esES.zip",
+      "folders": ["LoreForever_Voice_Female_Answers_Places_esES"],
+      "file": "Lore Forever female narrator, Spanish place answers {v}",
+      "core": "optional",
+      "requires": [],
+      "suggests": ["female-eses"],
+      "id": null,
+      "slug": null,
+      "live": false
     }
   ]
 }

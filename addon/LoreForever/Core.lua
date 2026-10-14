@@ -110,9 +110,17 @@ end
 
 -- Key bindings: WoW loads the player's saved bindings after login. A key bound before that can be undone, and
 -- SaveBindings then saves the wrong set: on a new character it made a character-only set holding just Lore
--- Forever's keys, so the player's own keys stopped working there (Mike, 10/12). So the add-on binds and saves only
--- once they're in: at the first UPDATE_BINDINGS, or 5 s after entering the world if the client never sends one.
+-- Forever's keys, so the player's own keys stopped working there (Mike, 10/12). So the add-on binds only once
+-- they're in: at the first UPDATE_BINDINGS, or 5 s after entering the world if the client never sends one. Even then
+-- the offered keys (Ask Willo, the picture key) are never saved: on a character WoW hadn't loaded yet, a save still
+-- wrote a set with nothing but our two keys, no movement and no camera (Mike's Húrin, 10/13). A binding set without
+-- saving lasts the session, and the offers run at every login, so the key is simply offered again.
 local OUR_ACTIONS = { LOREFOREVER_ASKWILLO = true, LOREFOREVER_PICTURE = true }
+
+-- Whether the player's bindings are really in: a set without even Move Forward isn't one anybody plays with.
+function ns.BindingsLoaded()
+  return type(GetBindingKey) == "function" and GetBindingKey("MOVEFORWARD") ~= nil
+end
 
 -- {action = "key1|key2"} for the bindings loaded now.
 local function bindingSnapshot()
@@ -128,9 +136,21 @@ end
 -- holding nothing but Lore Forever's keys (Mike's Valerius, 10/12), so the player's account keys stopped applying
 -- there. Such a set is put back on the account's keys, once per character; a character set with anything else in
 -- it (a key moved or cleared) is the player's own and stays as it is.
+-- A character set with no Move Forward (the 10/13 kind: only our keys, every modified click NONE) goes back to the
+-- account's keys at every login, a while after the bindings load so a set WoW is still loading isn't mistaken for one;
+-- a character set with movement in it is the player's own and stays.
 local function repairCharacterSet()
   if type(GetCurrentBindingSet) ~= "function" or type(LoadBindings) ~= "function" or type(SaveBindings) ~= "function"
-      or type(GetNumBindings) ~= "function" or type(GetBinding) ~= "function" or InCombatLockdown() then return end
+      or type(GetNumBindings) ~= "function" or type(GetBinding) ~= "function" then return end
+  if InCombatLockdown() then
+    if C_Timer and C_Timer.After then C_Timer.After(10, function() pcall(repairCharacterSet) end) end
+    return
+  end
+  if GetCurrentBindingSet() == 2 and not ns.BindingsLoaded() then
+    LoadBindings(1)                                                -- ACCOUNT_BINDINGS
+    SaveBindings(1)
+    return
+  end
   LoreForeverDB.bindingRepair = LoreForeverDB.bindingRepair or {}
   local who = (UnitName("player") or "?") .. "-" .. (GetRealmName and GetRealmName() or "?")
   if LoreForeverDB.bindingRepair[who] then return end
@@ -165,7 +185,8 @@ end
 local function bindingsReady()
   if ns.BindingsReady then return end
   ns.BindingsReady = true
-  pcall(repairCharacterSet)
+  if C_Timer and C_Timer.After then C_Timer.After(10, function() pcall(repairCharacterSet) end)
+  else pcall(repairCharacterSet) end
   if ns.Journey and ns.Journey.OfferPictureKeyHint then pcall(ns.Journey.OfferPictureKeyHint) end
   if ns.Strip and ns.Strip.OfferAskKey then pcall(ns.Strip.OfferAskKey) end
 end

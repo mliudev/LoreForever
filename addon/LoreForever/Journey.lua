@@ -140,10 +140,7 @@ function Journey.OfferPictureKey()
     local action = try(GetBindingAction, key)
     if action == "" then
       local ok, bound = pcall(SetBinding, key, "LOREFOREVER_PICTURE")
-      if ok and bound ~= false then
-        if SaveBindings and GetCurrentBindingSet then pcall(SaveBindings, GetCurrentBindingSet()) end
-        return key
-      end
+      if ok and bound ~= false then return key end   -- never saved: offered again at the next login (Core.lua)
     end
   end
 end

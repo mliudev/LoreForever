@@ -25,9 +25,15 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
   || { echo "${0##*/}: this checkout is sparse. In your own worktree, run 'git sparse-checkout disable' first; or make" \
          "a full one: scripts/new-worktree.sh --pointers <path> (and 'git lfs pull' there for the recordings)" >&2; exit 1; }
 # Packs in the asset store (LOR-440): their recordings into the gitignored Audio/ first, every clip checked against
-# its manifest. The public repo has no store (its workflow puts recordings back with audio_assets.py fetch).
+# its manifest. Only the packs this zip bundles (PACKS below): the rest ship as their own zips
+# (build-voice-packs.sh hydrates those). The public repo has no store (its workflow puts recordings back with
+# audio_assets.py fetch).
 if [ -f "$ROOT/scripts/audio_store.py" ] && [ -d "$ROOT/release/audio-store" ]; then
-  python3 "$ROOT/scripts/audio_store.py" hydrate --quiet \
+  mapfile -t BUNDLED < <(python3 -c 'import re, sys
+m = re.search(r"^PACKS = \[(.*?)\]", open(sys.argv[1]).read(), re.M | re.S)
+print("\n".join(re.findall(r"\"([^\"]+)\"", m.group(1))))' "$0")
+  [ -n "${BUNDLED[*]}" ] || { echo "build-release.sh: couldn't read its own PACKS" >&2; exit 1; }
+  python3 "$ROOT/scripts/audio_store.py" hydrate --quiet "${BUNDLED[@]/#/--pack=}" \
     || { echo "build-release.sh: couldn't fill in the asset store's recordings (above)" >&2; exit 1; }
 fi
 exec python3 - "$ROOT" "$@" <<'PY'
