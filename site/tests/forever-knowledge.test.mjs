@@ -8,7 +8,8 @@ import { onRequestPost as flag } from "../functions/api/companion/feedback.js";
 import { onRequestGet as adminGet, onRequestPost as adminPost } from "../functions/api/admin/willo.js";
 import { findOrCreateUser, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { promptParts, travelQuestion, travelKinds } from "../lib/forever-knowledge.js";
+import { promptParts, travelQuestion, travelKinds, inWorld, SEED_FACTS } from "../lib/forever-knowledge.js";
+import { DATA_VERSION } from "../lib/knowledge-version.js";
 import { feedbackKind } from "../lib/answer-feedback.js";
 import { d1 } from "./helpers.mjs";
 
@@ -57,6 +58,19 @@ test("a question about the Southshore boat is answered with Forever's route, not
   assert.equal(body.feedback, undefined);
 });
 
+test("an older add-on's lore gives way to newer Forever facts; the current one and an old companion's don't (LOR-471)", async () => {
+  const token = await linked();
+  const prompt = "PLAYER CONTEXT\nzone: Hillsbrad Foothills\n\nSOURCES\n\nQUESTION\nWhere does the boat from Southshore go?";
+  const [y, mo, d, h, mi] = DATA_VERSION.match(/\d+/g).map(Number);
+  const earlier = new Date(Date.UTC(y, mo - 1, d, h, mi) - 60_000).toISOString().slice(0, 16).replace("T", " ") + " UTC";
+  for (const data_version of [earlier, DATA_VERSION.replace(" UTC", ":30 UTC"), DATA_VERSION, undefined, "nonsense"]) {
+    systems = [];
+    await ask(token, prompt, { data_version });
+    assert.equal(/where the SOURCES \(an older copy of the lore\) differ/.test(systems[0]), data_version === earlier,
+      String(data_version));
+  }
+});
+
 test("asking how to get somewhere brings Forever's boat and zeppelin network, even with no boat named", async () => {
   const token = await linked();
   const body = await ask(token, "PLAYER CONTEXT\nzone: Ironforge\nsub: Military Ward\n\nSOURCES\n\nQUESTION\n" +
@@ -82,6 +96,13 @@ test("a question about something else in a flight-point town gets no flight fact
   const body = await ask(token, "PLAYER CONTEXT\nzone: The Barrens\nsub: The Crossroads\nfaction: Horde\n\nSOURCES\n\n" +
     "QUESTION\nWhere is the cooking trainer in the Crossroads?", { style: "spoken" });
   assert.ok(!body.forever_facts.some(t => /^Flights from|^Flight paths/.test(t)), body.forever_facts.join(", "));
+});
+
+test("every fact reaches an answer worded about the world, not the game", () => {
+  // With answers kept in the world (#735), facts worded about the game were left out instead of reworded.
+  for (const f of SEED_FACTS.filter(f => f.id !== "forever-era"))
+    assert.doesNotMatch(`${inWorld(f.title, f.id)}: ${inWorld(f.text, f.id)}`,
+      /WoW Forever|World of Warcraft|original game|\bClassic\b|Blizzard|Burning Crusade|[Gg]uides say/, f.id);
 });
 
 test("travel questions are the way somewhere, not a level, a reputation or a druid's travel form", () => {
@@ -173,10 +194,11 @@ test("a flagged answer reaches /admin, and making it a fact puts it in later ans
 });
 
 test("promptParts reads the question, place and last answer the companion sent, in either prompt shape", () => {
-  const p = promptParts("PLAYER CONTEXT\nzone: Wetlands\nsub: Baradin Bay\n\n" + conversation("Q1", "A1") +
-    "\n\nQUESTION\nWhat city is that?\n\nRESEARCH FOCUS: something");
+  const p = promptParts("PLAYER CONTEXT\nzone: Wetlands\nsub: Baradin Bay\nquest in their log: Apprentice's Duties (ID 471)\n\n" +
+    conversation("Q1", "A1") + "\n\nQUESTION\nWhat city is that?\n\nRESEARCH FOCUS: something");
   assert.deepEqual(p, { question: "What city is that?", zone: "Wetlands", sub: "Baradin Bay", faction: "", race: "",
-    class: "", level: "", previous: "A1", previousQuestion: "Q1" });
+    class: "", level: "", previous: "A1", previousQuestion: "Q1", target: "",
+    quests: [{ title: "Apprentice's Duties", id: "471" }] });
   const c = promptParts("CHARACTER\n...\n\nTHE ADVENTURER\nrace: Human\nWhere you both are: Southshore, Hillsbrad Foothills\n\n" +
     "THE ADVENTURER SAYS\nWhere does the boat go?");
   assert.equal(c.question, "Where does the boat go?");

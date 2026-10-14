@@ -1,5 +1,7 @@
 // The admin key check shared by /api/admin and /api/stats. Kept outside functions/ so Pages doesn't route it.
-// The key is ADMIN_KEY, or FEEDBACK_KEY when ADMIN_KEY isn't set. With neither set, nothing is authorized.
+// Two keys, each enough on its own: ADMIN_KEY, the one Mike signs in to /admin with (kept only in his browser and
+// 1Password), and FEEDBACK_KEY, the routines' and scripts' (in the repo's .env). Either can be changed without
+// breaking the other. Until ADMIN_KEY is set, /admin takes FEEDBACK_KEY. With neither set, nothing is authorized.
 
 // Compares the two keys through a hash so the time taken doesn't reveal how much of a guess was right.
 async function sameKey(a, b) {
@@ -20,10 +22,10 @@ export async function hasBearer(request, key) {
 // The key comes as "Authorization: Bearer <key>", or as "X-Admin-Key: <key>" (the pipeline's community text pull,
 // /api/contribute/export and /shipped, LOR-236).
 export async function authorized(request, env) {
-  const key = env.ADMIN_KEY || env.FEEDBACK_KEY;
-  if (!key) return false;
+  const keys = [env.ADMIN_KEY, env.FEEDBACK_KEY].filter(Boolean);
   const auth = request.headers.get("Authorization") || "";
-  if (auth.startsWith("Bearer ")) return sameKey(auth.slice(7), key);
-  const header = request.headers.get("X-Admin-Key");
-  return Boolean(header) && sameKey(header, key);
+  const sent = auth.startsWith("Bearer ") ? auth.slice(7) : request.headers.get("X-Admin-Key");
+  if (!sent) return false;
+  const matches = await Promise.all(keys.map(key => sameKey(sent, key)));   // both, so the time says nothing either
+  return matches.includes(true);
 }

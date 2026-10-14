@@ -23,7 +23,11 @@ export function editNote(edit, english, currentText, draft, staleEntry = false) 
     return [edit.text === currentText ? "Checked by you: saved, awaiting import." : "Saved, awaiting import.", "td-new"];
   }
   if (staleEntry && !currentText) return ["English changed: translate this line again.", "td-todo"];
-  if (edit?.status === "rejected") return ["Your last edit wasn't used; this is the current text.", "td-no"];
+  if (edit?.status === "rejected") {
+    // The automated check's note (lore.kit pull); a rejection from /admin has none.
+    const reason = String(edit.reason || "").trim().replace(/[.\s]+$/, "");
+    return [reason ? `Not used: ${reason}. Fix it and save again.` : "Your last edit wasn't used; this is the current text.", "td-no"];
+  }
   if (edit?.status === "pulled") return ["Processed: no longer pending. Check the current translation; this does not confirm a merge or release.", "td-ok"];
   if (!currentText) return [staleEntry ? "English changed: translate this line again." : "Not translated yet.", "td-todo"];
   return ["", ""];

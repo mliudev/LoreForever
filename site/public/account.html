@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261011-account2">
+<link rel="stylesheet" href="/style.css?v=20261012-plans">
 <script src="/header.js" defer></script>
 <script src="/js/share.js" defer></script>
 </head>
@@ -109,6 +109,18 @@
   </div>
 
   <div id="ac-in" hidden>
+    <!-- Plans (LOR-252): a card leading to /plans. Free players see what a plan adds; subscribers, their plan and when
+         it renews, and the way to Willo's style (/willo, LOR-447). Hidden while plans are off (GET /api/billing/plans
+         says on: false). -->
+    <section class="ac-plan" id="ac-plan" aria-labelledby="ac-plan-title" hidden>
+      <div>
+        <h2 id="ac-plan-title"></h2>
+        <p id="ac-plan-text"></p>
+      </div>
+      <p class="ac-plan-links"><a class="btn-small btn-small-alt" id="ac-plan-willo" href="/willo" hidden>Willo's style</a>
+        <a class="btn-small" id="ac-plan-go" href="/plans"></a></p>
+    </section>
+
     <!-- The tabs: links, so each tab has an address; the script below switches them in place. Companion shows once
          there's a connected app, or with the companion feature on (lib/features.js). -->
     <nav class="ac-tabs" id="ac-tabs" aria-label="Your account">
@@ -252,13 +264,15 @@
 
 <footer class="wrap foot">
   <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
-  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why. <a href="/terms">Terms</a> and <a href="/refunds">refunds</a>.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>
 
 <script>
 (() => {
+  // Plans moved to their own page (LOR-252); the companion and Stripe sent players to /account#plans before.
+  if (location.hash === "#plans") { location.replace("/plans" + location.search); return; }
   const $ = id => document.getElementById(id);
   const params = new URLSearchParams(location.search);
   // Our own pages only; a query string may follow (/feedback?kind=bug), since it can't change the host.
@@ -371,7 +385,39 @@
     $("tab-apps").hidden = !features.companion;   // until the list of apps says otherwise (showApps)
     reveal(hashId(), true);
     // Again once the sections have filled in, which moves what a link points to further down.
-    Promise.all([loadTranslations(), loadProfile(), loadApps()]).then(() => reveal(hashId(), true));
+    Promise.all([loadTranslations(), loadProfile(), loadApps(), loadPlan()]).then(() => reveal(hashId(), true));
+  }
+
+  // The plan card (LOR-252): the way to /plans.
+  async function loadPlan() {
+    let res;
+    try { res = await (await fetch("/api/billing/plans", { cache: "no-store" })).json(); } catch (e) { res = null; }
+    const c = res?.ok && res.on ? res.current : null;
+    $("ac-plan").hidden = !c;
+    if (!c) return;
+    const day = iso => {
+      const t = new Date(iso);
+      return isNaN(t) ? "" : t.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" });
+    };
+    const paid = c.id !== "free";
+    $("ac-plan").classList.toggle("ac-plan-paid", paid);
+    $("ac-plan-willo").hidden = !paid;
+    if (paid) {
+      $("ac-plan-title").textContent = `Your plan: ${c.name}`;
+      $("ac-plan-text").textContent = `${(c.answersPerMonth || 0).toLocaleString("en-US")} Willo answers a month, up to ${c.answersPerDay} a day. ` +
+        (c.status === "past_due" ? "Your last payment didn't go through: update your card to keep it."
+          : c.cancelAtPeriodEnd ? `It ends on ${day(c.renews)}.` : c.renews ? `It renews on ${day(c.renews)}.` : "");
+      $("ac-plan-go").textContent = "Manage plan";
+      return;
+    }
+    const paidPlans = res.plans.filter(p => p.id !== "free");
+    const names = paidPlans.map(p => p.name);
+    const open = paidPlans.find(p => p.sellable);
+    $("ac-plan-title").textContent = "Get more Willo answers";
+    $("ac-plan-text").textContent = `You're on ${c.name}, the free plan: ${c.answersPerDay} live answers a day. ` +
+      `${names.slice(0, -1).join(", ")} and ${names.at(-1)} give Willo more` +
+      (open ? `, from ${open.name} at $${(open.monthly / 100).toFixed(2)} a month.` : ".");
+    $("ac-plan-go").textContent = "See plans";
   }
 
   // The tabs (Mike 10/11), switched in place like a profile's (public/js/journey.js). A link to a tab, or to anything

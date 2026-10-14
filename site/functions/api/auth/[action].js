@@ -79,7 +79,12 @@ async function voice({ env }, input, user) {
 
 async function remove({ request, env }, input, user) {
   if (input.confirm !== "delete") return fail(400, "Type delete to confirm.");
-  await deleteUser(env, user);
+  try { await deleteUser(env, user); }
+  catch (e) {
+    if (!e?.billing) throw e;
+    console.warn(`account delete: ${e.message}`);
+    return fail(502, "Couldn't cancel your plan with Stripe just now, so nothing was deleted. Please try again in a moment.");
+  }
   return ok({}, await endSession(env, request));
 }
 

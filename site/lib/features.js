@@ -25,10 +25,17 @@
 //               male campfire narrator. While it's off, nothing is recorded and the page has no Listen box. Recording
 //               also needs the Pages secret FAL_KEY and his embedding in R2 (experiments/voices/local/story_voice_embed.py).
 //               On since 2026-10-05 (Mike), with the male narrator's embedding and FAL_KEY set up.
+//   plans       Paid plans (lib/billing.js, LOR-431): /plans, /willo and /account's plan card, checkout, the billing
+//               portal and the webhook, and what each plan's companion answers get (5 free a day and a 30-answer
+//               starter, lore-focused, without web research or the game picture; more and more kinds on Hero and
+//               Champion; the brake). While it's off, nothing is for sale and every account gets today's 20 free
+//               answers a day, with research and pictures. Also needs the STRIPE_* secrets. Off until Mike sets
+//               SITE_FEATURES=plans in Production for the launch (launch plans decided 2026-10-12).
 //
 // The Pages variable SITE_FEATURES overrides this file without a code change, e.g. on Preview to test the "on" state:
 // a comma-separated list, where "contribute" turns a feature on and "-contribute" turns it off.
-export const FEATURES = { contribute: true, zones: true, lore: true, companion: true, pictures: true, storyvoice: true };
+export const FEATURES = { contribute: true, zones: true, lore: true, companion: true, pictures: true, storyvoice: true,
+                          plans: false };
 
 export function featureOn(env, name) {
   const over = String(env?.SITE_FEATURES || "").split(",").map(s => s.trim()).filter(Boolean);

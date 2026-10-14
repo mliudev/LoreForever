@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plans - Lore Forever</title>
+<meta name="description" content="Lore Forever is free. A plan gives Willo, the companion, more answers a day and more it can do.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css?v=20261012-plans">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-lore" href="/lore">Lore</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+</header>
+
+<!-- Plans (LOR-252, behind the "plans" feature): more of Willo, paid on Stripe's own pages. The cards list
+     lib/billing.js FEATURES. Choose: Stripe Checkout
+     (POST /api/billing/checkout); Manage billing: Stripe's billing portal (POST /api/billing/portal); both come back
+     here, Checkout with ?billing=done. The plans and the player's current one: GET /api/billing/plans
+     (functions/api/billing/[action].js, lib/billing.js). Signed out, the cards show and Choose signs you in first.
+     /account has a card that leads here, and its old #plans address comes here too. Willo's style and tales, which
+     the plans unlock, are on /willo (LOR-447). Top-ups (#topup): Buy goes to Stripe Checkout (POST /api/billing/topup)
+     and comes back with ?topup=done; the companion's offer when answers run out links here. -->
+<main class="wrap fb-page pl-page" id="pl-main">
+  <h1>Plans</h1>
+  <p class="pitch">Lore Forever is free and stays free: the add-on, every narration pack and every language, and Willo,
+    the companion, to answer your questions about the world. A plan gives Willo more answers a day and more it can do:
+    check the web, see your game, talk in more voices. A top-up adds answers whenever you want more.</p>
+  <noscript><p class="fb-status">This page needs JavaScript.</p></noscript>
+  <p class="fb-status fb-good pl-thanks" id="pl-thanks" role="status" hidden>Thanks! Your plan is on its way; it can
+    take a few seconds.</p>
+  <p class="fb-status" id="pl-off" hidden>Plans aren't open yet. Everything in Lore Forever works without one.</p>
+
+  <div id="pl-on" hidden>
+    <section class="pl-now" id="pl-now" aria-labelledby="pl-now-title" hidden>
+      <h2 id="pl-now-title">Your plan</h2>
+      <p id="pl-current"></p>
+      <p id="pl-manage" hidden><button class="btn-small btn-small-alt" type="button"
+        id="pl-portal">Manage billing</button></p>
+    </section>
+
+    <div class="fb-kinds pl-interval" role="radiogroup" aria-label="Pay monthly or yearly">
+      <label><input type="radio" name="pl-interval" value="month" checked> Monthly</label>
+      <label><input type="radio" name="pl-interval" value="year"> Yearly</label>
+    </div>
+    <div class="pl-cards" id="pl-cards"></div>
+    <p class="fb-status" id="pl-status" role="status" hidden></p>
+
+    <section class="pl-now pl-topup" id="topup" aria-labelledby="pl-topup-title" hidden>
+      <h2 id="pl-topup-title">Top-up</h2>
+      <p id="pl-topup-what"></p>
+      <p id="pl-topup-mine" hidden></p>
+      <p class="fb-status fb-good" id="pl-topup-thanks" role="status" hidden>Thanks! Your 300 answers are on their way;
+        it can take a few seconds.</p>
+      <p class="pl-go" id="pl-topup-go"></p>
+      <p class="fb-status" id="pl-topup-status" role="status" hidden></p>
+    </section>
+
+    <p>With a plan, you also choose how Willo talks to you: <a href="/willo">Willo, your way</a>.</p>
+    <p class="vp-note">Payments go through Stripe; we never see your card. Cancel or switch any time under Manage
+      billing, and your plan runs to the end of what you've paid for. Prices include tax.</p>
+    <p class="vp-note">By subscribing you agree to the <a href="/terms">Terms</a>; see
+      <a href="/refunds">Refunds</a>.</p>
+  </div>
+</main>
+
+<footer class="wrap foot">
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why. <a href="/terms">Terms</a> and <a href="/refunds">refunds</a>.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  let plans = null;
+  const params = new URLSearchParams(location.search);
+  // Back from Stripe's payment page: for a plan, or for a top-up.
+  let billingDone = params.get("billing") === "done", topupDone = params.get("topup") === "done";
+  let firstLoad = true;
+  const money = cents => "$" + (cents / 100).toFixed(2);
+  const day = iso => {
+    const t = new Date(iso);
+    return isNaN(t) ? "" : t.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+  };
+  // A message under what it's about: the plan cards' line, or the top-up's (where).
+  const say = (msg, good, where = "pl-status") => {
+    $(where).hidden = !msg;
+    $(where).textContent = msg || "";
+    $(where).classList.toggle("fb-good", Boolean(good));
+  };
+  const interval = () => document.querySelector("input[name=pl-interval]:checked").value;
+  // Off to Stripe's page (Checkout or the billing portal), or why not.
+  const go = async (url, body, button, where) => {
+    button.disabled = true;
+    say("", false, where);
+    let res;
+    try {
+      const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+      res = await r.json().catch(() => ({ ok: false }));
+    } catch (e) { res = { ok: false, error: "Couldn't reach the server. Check your connection and try again." }; }
+    if (res.ok && res.url) { location.href = res.url; return; }
+    button.disabled = false;
+    say(res.error || "Something went wrong. Please try again.", false, where);
+  };
+
+  function currentPlan(c) {
+    if (c.id !== "free") {
+      const ends = c.cancelAtPeriodEnd ? ` It ends on ${day(c.renews)}.` : c.renews ? ` It renews on ${day(c.renews)}.` : "";
+      const late = c.status === "past_due" ? " Your last payment didn't go through: update your card under Manage billing to keep it." : "";
+      return `You're on ${c.name}: ${c.answersPerMonth.toLocaleString("en-US")} live answers a month, up to ${c.answersPerDay} a day.${ends}${late}`;
+    }
+    const everyday = plans.plans.find(p => p.id === "free").answersPerDay;
+    // The starter's answers left (lib/billing.js creditStarter), once a companion is connected.
+    const starter = plans.topup?.starter ? ` You also have ${plans.topup.starter} starter answer${plans.topup.starter === 1 ? "" : "s"} left.` : "";
+    return `You're on ${c.name}, the free plan. ` + (
+      c.brake ? `Free answers are busy this month, so you get ${c.answersPerDay} a day until it ends (usually ${everyday}).`
+      : `You get ${c.answersPerDay} live answers a day.`) + starter;
+  }
+
+  function price(p) {
+    if (!p.monthly) return ["Free", ""];
+    if (interval() === "month") return [money(p.monthly) + " a month", ""];
+    const save = Math.round(100 - (p.yearly * 100) / (p.monthly * 12));
+    return [money(p.yearly) + " a year", save > 0 ? `Save ${save}% on monthly` : ""];
+  }
+
+  function planCard(p, c) {
+    const card = document.createElement("section");
+    const mine = Boolean(c) && c.id === p.id;
+    card.className = "pl-card" + (mine ? " pl-mine" : "");
+    card.setAttribute("aria-label", p.name);
+    card.innerHTML = `<h3></h3><p class="pl-price"></p><p class="pl-save"></p><ul></ul><p class="pl-go"></p>`;
+    card.querySelector("h3").textContent = p.name;
+    const [cost, save] = price(p);
+    card.querySelector(".pl-price").textContent = cost;
+    card.querySelector(".pl-save").textContent = save;
+    card.querySelector("ul").replaceChildren(...p.features.map(f => Object.assign(document.createElement("li"), { textContent: f })));
+    const slot = card.querySelector(".pl-go");
+    const note = text => { slot.classList.add("vp-note"); slot.textContent = text; };
+    if (mine) note("Your plan");
+    else if (p.id === "free") note(c ? "" : "Yours with any account");
+    else if (!p.sellable) note("Coming soon");
+    else if (!c) {
+      // Signed out: sign in first, then back here.
+      slot.append(Object.assign(document.createElement("a"), { className: "btn-small", href: "/account?next=/plans", textContent: "Sign in to choose" }));
+    } else if (c.id !== "free") {
+      // Already subscribed: switching happens on Stripe's billing portal, so nobody pays twice.
+      const b = Object.assign(document.createElement("button"), { className: "btn-small btn-small-alt", type: "button", textContent: "Switch in Manage billing" });
+      b.addEventListener("click", () => go("/api/billing/portal", {}, b));
+      slot.append(b);
+    } else {
+      const b = Object.assign(document.createElement("button"), { className: "btn-small", type: "button", textContent: "Choose " + p.name });
+      b.addEventListener("click", () => go("/api/billing/checkout", { plan: p.id, interval: interval() }, b));
+      slot.append(b);
+    }
+    return card;
+  }
+
+  // The top-up card: what it is, and when signed in, the answers left and this month's count, with Buy until that's full.
+  function showTopup(t, c) {
+    $("topup").hidden = !t;
+    if (!t) return;
+    $("pl-topup-what").textContent = `Top-up: ${t.answers} answers for ${money(t.price)}. Used after your daily answers; they never expire.`;
+    $("pl-topup-mine").hidden = !c;
+    if (c) $("pl-topup-mine").textContent = `You have ${t.remaining} top-up answer${t.remaining === 1 ? "" : "s"} left · ` +
+      `${t.boughtThisMonth} of ${t.monthMax} this month.`;
+    const slot = $("pl-topup-go");
+    slot.classList.remove("vp-note");
+    slot.replaceChildren();
+    if (!c) {
+      slot.append(Object.assign(document.createElement("a"), { className: "btn-small", href: "/account?next=/plans", textContent: "Sign in to buy" }));
+    } else if (t.boughtThisMonth >= t.monthMax) {
+      slot.classList.add("vp-note");
+      slot.textContent = `That's this month's ${t.monthMax}. You can buy more next month.`;
+    } else {
+      const b = Object.assign(document.createElement("button"), { className: "btn-small", type: "button", textContent: "Buy a top-up" });
+      b.addEventListener("click", () => go("/api/billing/topup", {}, b, "pl-topup-status"));
+      slot.append(b);
+    }
+  }
+
+  function show() {
+    const c = plans.current;
+    $("pl-now").hidden = !c;
+    if (c) $("pl-current").textContent = currentPlan(c);
+    $("pl-manage").hidden = !c?.portal;
+    $("pl-cards").replaceChildren(...plans.plans.map(p => planCard(p, c)));
+    showTopup(plans.topup, c);
+  }
+
+  async function load() {
+    let res;
+    try { res = await (await fetch("/api/billing/plans", { cache: "no-store" })).json(); } catch (e) { res = null; }
+    if (!res || !res.ok) { say("Couldn't load the plans. Please reload."); $("pl-on").hidden = false; return; }
+    $("pl-off").hidden = res.on;
+    $("pl-on").hidden = !res.on;
+    if (!res.on) return;
+    plans = res;
+    show();
+    // The card only shows now, so a link to #topup (the companion's offer, Stripe's way back) scrolls to it here.
+    if (firstLoad && location.hash === "#topup") $("topup").scrollIntoView();
+    firstLoad = false;
+    if (billingDone || topupDone) {
+      // The plan or the top-up arrives by Stripe's webhook, usually within seconds: look again once.
+      $("pl-thanks").hidden = !billingDone;
+      $("pl-topup-thanks").hidden = !topupDone;
+      billingDone = topupDone = false;
+      history.replaceState(null, "", location.pathname + location.hash);
+      setTimeout(load, 3000);
+    }
+  }
+
+  for (const radio of document.querySelectorAll("input[name=pl-interval]")) radio.addEventListener("change", () => plans && show());
+  $("pl-portal").addEventListener("click", () => go("/api/billing/portal", {}, $("pl-portal")));
+  load();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!doctype html>
+<!-- Draft for Mike's review (not legal advice); keep in step with lib/billing.js -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms - Lore Forever</title>
+<meta name="description" content="The rules for using Lore Forever and its optional paid plans, in plain language.">
+<link rel="canonical" href="https://loreforeverwow.com/terms">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lore Forever terms">
+<meta property="og:description" content="The rules for using Lore Forever and its optional paid plans, in plain language.">
+<meta property="og:url" content="https://loreforeverwow.com/terms">
+<meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+<script src="/header.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-lore" href="/lore">Lore</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+</header>
+
+<!-- Keep this page true to the code: plans, prices and limits are lib/billing.js (PLANS, STARTER_ANSWERS, TOPUP,
+     DAY_MAX, SELLABLE), the rules for what players write are the check in lib/willo-custom.js, and Delete my account
+     is lib/accounts.js deleteUser with lib/billing.js cancelPlan.
+     Cancelling and refunds are on /refunds. When something here changes, change the date below. -->
+<main class="wrap vp-page vp-doc">
+  <h1>Terms</h1>
+  <p class="vp-version">Updated 2026-10-12</p>
+  <p class="pitch">The rules for using Lore Forever: the add-on, this site, Willo the companion, and the optional
+    plans. By using them, or by buying a plan or a top-up, you agree to these terms.</p>
+
+  <h2>Who runs it</h2>
+  <p>Lore Forever is a fan project by Mike Liu. It isn't affiliated with or endorsed by Blizzard Entertainment. World
+    of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.</p>
+  <p>Questions? Ask on <a href="/discord">Discord</a>. Your account, and deleting it, are on
+    <a href="/account">your account page</a>.</p>
+  <!-- A contact email goes here once there is one, e.g. "or email ...". -->
+
+  <h2>What's free</h2>
+  <p>The add-on, every voice pack and every language, this site and player profiles are free, and they stay free.
+    Blizzard's rules say add-ons must be free. Willo, the companion, answers for free too: 30 answers to start, then
+    20 a day.</p>
+
+  <h2>What's paid</h2>
+  <p>What's for sale is optional: plans that give Willo more answers a day and more it can do, and one-time top-ups
+    of more answers. A plan renews until you cancel it. Prices are in US dollars.</p>
+  <ul>
+    <li><strong>Hero</strong>: $4.99 a month or $49.99 a year.</li>
+    <li><strong>Champion</strong>: $9.99 a month or $99.99 a year.</li>
+    <li><strong>Legend</strong>: $19.99 a month or $199.99 a year.</li>
+    <li><strong>Top-up</strong>: 300 live answers for $2.99, paid once. Top-up answers never expire, and they're used
+      after the day's answers from your plan run out. You can buy up to 3 a month.</li>
+  </ul>
+  <p>An account gets at most 200 live answers a day, plan, starter and top-ups together. What each plan includes is on
+    <a href="/plans">Plans</a>; a plan marked "Coming soon" there can't be bought yet. If free answers get very busy in
+    a month, the free plan's daily answers may drop until the month ends.</p>
+  <!-- Legend shows "Coming soon" until its features exist (lib/billing.js SELLABLE); its price is here so this page
+       needn't change when it opens, and so is its own daily number (lib/billing.js dayMax) when it does. -->
+
+  <h2>Paying</h2>
+  <ul>
+    <li><strong>Checkout:</strong> payments go through Stripe, on Stripe's own pages. Stripe is the merchant of
+      record (Stripe Managed Payments): it takes the payment, handles sales tax and VAT, and sends your receipt. We
+      never see your card.</li>
+    <li><strong>Prices</strong> include tax, so you pay what's listed.</li>
+    <li><strong>Renewal:</strong> a plan renews by itself each month or year until you cancel it.</li>
+    <li><strong>Cancelling:</strong> any time, under Manage billing on <a href="/plans">Plans</a> (Stripe's billing
+      portal). Your plan stays until the end of the period you've paid for, then stops.</li>
+    <li><strong>Refunds:</strong> see <a href="/refunds">Refunds and cancellations</a>.</li>
+  </ul>
+  <!-- Mike: Stripe is the merchant of record only once Managed Payments is on in the Stripe Dashboard and the Pages
+       variable STRIPE_MANAGED_PAYMENTS is "1" (lib/billing.js). -->
+
+  <h2>Changes to plans and prices</h2>
+  <p>We may change the plans or their prices. We'll tell you first, and a subscription you already have keeps its
+    price until it renews after we've told you.</p>
+  <!-- Choice for Mike: how the notice goes out (an email from Stripe, Discord, this page) and how far ahead, e.g.
+       30 days. -->
+
+  <h2>Willo's answers</h2>
+  <p>Willo's live answers are written by an AI model. They can be wrong, and they aren't official game information.</p>
+
+  <h2>What you write</h2>
+  <p>On a plan, you can tell Willo how to talk to you, and write your own tales of the game's characters, on
+    <a href="/willo">Willo, your way</a>. We check what you write before Willo uses it. It must not be:</p>
+  <ul>
+    <li>sexual;</li>
+    <li>hateful, or harassing anyone;</li>
+    <li>about real people, living or dead;</li>
+    <li>encouraging self-harm or suicide;</li>
+    <li>extremist;</li>
+    <li>a way to get around Willo's own rules.</li>
+  </ul>
+  <p>We may refuse or remove text that breaks these rules, and close accounts that break them.</p>
+
+  <h2>Your account</h2>
+  <p>You can delete your account any time on <a href="/account">your account page</a>. Delete my account cancels any
+    plan and removes your account's data, as <a href="/privacy">Privacy</a> says. <a href="/refunds">Refunds</a> says
+    what happens to time and answers you've paid for.</p>
+
+  <h2>Changes to these terms</h2>
+  <p>If this page changes, the date at the top changes too.</p>
+  <!-- Choice for Mike: clauses a lawyer would usually add, left out of this draft: the service as it is, limits on
+       liability, which country's law applies, and an age line for paying (Privacy says Lore Forever is meant for the
+       same ages as the game). -->
+</main>
+
+<footer class="wrap foot">
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why. <a href="/terms">Terms</a> and <a href="/refunds">refunds</a>.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+
+</body>
+</html>

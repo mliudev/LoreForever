@@ -5,7 +5,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { senderHash } from "../lib/form.js";
 import { hasBearer, authorized } from "../lib/auth.js";
@@ -17,6 +17,9 @@ import { d1, SITE } from "./helpers.mjs";
 const fresh = () => ({ DB: d1() });
 const salts = env => env.DB.sqlite.prepare("SELECT day FROM daily_salts ORDER BY day").all().map(r => r.day);
 const like = ip => new Request("https://preview.example/api/voices/like", { headers: { "CF-Connecting-IP": ip } });
+// One rule of public/_headers ("/*", "/admin*"): its path line and the indented headers under it.
+const headerRule = path => readFileSync(join(SITE, "public/_headers"), "utf8").split(/\n(?=\S)/)
+  .find(block => block.startsWith(path + "\n"));
 
 test("the hash: 24 hex characters, one per sender per day, and not the old unsalted one", async () => {
   const env = fresh();
@@ -137,6 +140,10 @@ test("admin keys are compared in constant time, and GET /api/feedback uses FEEDB
   assert.equal(await hasBearer(req("secret"), "secret"), false, "Bearer is required");
   assert.equal(await authorized(req("Bearer admin"), { ADMIN_KEY: "admin", FEEDBACK_KEY: "fb" }), true);
   assert.equal(await authorized(req("Bearer fb"), { FEEDBACK_KEY: "fb" }), true);
+  // Setting ADMIN_KEY for /admin must not lock out the routines, which send FEEDBACK_KEY.
+  assert.equal(await authorized(req("Bearer fb"), { ADMIN_KEY: "admin", FEEDBACK_KEY: "fb" }), true);
+  assert.equal(await authorized(req("Bearer fbx"), { ADMIN_KEY: "admin", FEEDBACK_KEY: "fb" }), false);
+  assert.equal(await authorized(req("Bearer "), {}), false, "no key set lets nobody in");
 
   const env = { DB: d1(), FEEDBACK_KEY: "fb-key", ADMIN_KEY: "admin-key" };
   assert.equal((await feedbackGet({ request: req("Bearer fb-key"), env })).status, 200);
@@ -145,25 +152,58 @@ test("admin keys are compared in constant time, and GET /api/feedback uses FEEDB
   assert.equal((await feedbackGet({ request: req("Bearer "), env: { DB: d1() } })).status, 401, "off without FEEDBACK_KEY");
 });
 
-test("every page gets X-Frame-Options and Referrer-Policy, from _headers and from the middleware", async () => {
-  const headers = readFileSync(join(SITE, "public/_headers"), "utf8");
-  const all = headers.split(/\n(?=\S)/).find(block => block.startsWith("/*\n"));
+test("every page gets X-Frame-Options, Referrer-Policy and the CSP, from _headers and from the middleware", async () => {
+  const all = headerRule("/*");
   assert.ok(all, "_headers has a /* rule");
   assert.match(all, /^ {2}X-Frame-Options: DENY$/m);
   assert.match(all, /^ {2}Referrer-Policy: strict-origin-when-cross-origin$/m);
+  const csp = all.match(/^ {2}Content-Security-Policy: (.+)$/m)?.[1];
+  assert.match(csp, /script-src-attr 'none'/);
 
   const request = new Request("https://preview.example/u/aelric");
   for (const res of [new Response("<p>page</p>"), Response.redirect("https://preview.example/downloads", 302)]) {
     const out = await middleware({ request, env: {}, next: async () => res });
     assert.equal(out.headers.get("X-Frame-Options"), "DENY");
     assert.equal(out.headers.get("Referrer-Policy"), "strict-origin-when-cross-origin");
+    assert.equal(out.headers.get("Content-Security-Policy"), csp, "the same policy as _headers");
     assert.equal(out.status, res.status);
   }
   const page = await middleware({ request, env: {}, next: async () => new Response("<p>page</p>", { headers: { "Content-Type": "text/html" } }) });
   assert.equal(await page.text(), "<p>page</p>");
   assert.equal(page.headers.get("Content-Type"), "text/html");
-  // The old-address redirect is untouched (it never reaches next()).
-  const moved = await middleware({ request: new Request("https://lore-forever.pages.dev/feedback"), env: { CANONICAL_HOST: "loreforeverwow.com" },
-    next: async () => { throw new Error("not reached"); } });
-  assert.equal(moved.status, 301);
+  // A file served through the middleware (/admin) keeps its own, stricter policy.
+  const strict = await middleware({ request, env: {}, next: async () => new Response("", { headers: { "Content-Security-Policy": "default-src 'self'" } }) });
+  assert.equal(strict.headers.get("Content-Security-Policy"), "default-src 'self'");
+});
+
+test("/admin runs no inline script, and no page or template uses onclick= style handlers the CSP blocks", () => {
+  const scriptSrc = headerRule("/admin*").match(/script-src ([^;]+)/)[1];
+  assert.equal(scriptSrc.trim(), "'self'");
+  for (const page of ["public/admin.html", "public/admin/edits.html"]) {
+    const inline = readFileSync(join(SITE, page), "utf8").match(/<script(?![^>]*\ssrc=)[^>]*>/g);
+    assert.equal(inline, null, `${page}: move the script into a file; /admin's CSP won't run it inline`);
+  }
+  const files = dir => readdirSync(join(SITE, dir), { recursive: true }).map(f => join(dir, f))
+    .filter(f => /\.(html|m?js)$/.test(f) && !f.includes("vendor"));
+  const handlers = ["public", "functions", "lib"].flatMap(files)
+    .filter(f => /\son[a-z]+=["']/.test(readFileSync(join(SITE, f), "utf8")));
+  assert.deepEqual(handlers, [], "inline on*= handlers don't run under script-src-attr 'none'; use addEventListener");
+});
+
+test("old addresses redirect everything to the main domain, except other services' webhooks", async () => {
+  const env = { CANONICAL_HOST: "loreforeverwow.com" };
+  const go = (url, method = "GET") => middleware({ request: new Request(url, { method }), env,
+    next: async () => new Response("served here") });
+  for (const [url, method, status] of [["https://lore-forever.pages.dev/feedback", "GET", 301],
+                                       ["https://lore-forever.pages.dev/api/stats?x=1", "GET", 301],
+                                       ["https://loreforever.mliu.io/api/companion/answer", "POST", 308],
+                                       ["https://www.loreforeverwow.com/admin", "HEAD", 301]]) {
+    const out = await go(url, method);
+    assert.equal(out.status, status, url);
+    assert.equal(out.headers.get("Location"), url.replace(/^https:\/\/[^/]+/, "https://loreforeverwow.com"));
+  }
+  for (const url of ["https://lore-forever.pages.dev/api/billing/webhook", "https://lore-forever.pages.dev/api/profile/voice/hook?s=1",
+                     "https://loreforeverwow.com/api/stats", "https://develop.lore-forever.pages.dev/admin"]) {
+    assert.equal(await (await go(url, "POST")).text(), "served here", url);
+  }
 });

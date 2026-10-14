@@ -1,0 +1,104 @@
+{
+ "key": "quest:97969",
+ "type": "quest",
+ "name": "Camping 101: Leatherworking",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97969
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "A tent alone does not make a functional camp; travelers must also know basic campfire craft, typically learned from cooking trainers."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who teaches leatherworking tents",
+    "camp tent trainer",
+    "where is indari sunseam"
+   ],
+   "answer": "Indari Sunseam resides in Shen'dar Village and instructs proficient leatherworkers on how to craft their own camping tents.",
+   "q": "Who teaches leatherworkers how to craft a tent?"
+  },
+  {
+   "aliases": [
+    "what does a tent do",
+    "tent purpose",
+    "tent benefits"
+   ],
+   "answer": "A well-made tent protects travelers from harsh elements like rain and blistering heat, allowing adventurers to get the rest they need to remain alert on the road.",
+   "q": "What is the purpose of crafting a tent?"
+  },
+  {
+   "aliases": [
+    "can i pitch tent in city",
+    "where to use tent",
+    "camp rules"
+   ],
+   "answer": "Tents cannot be pitched in town centers where locals object to them. Travelers must journey out into the open wilderness before setting up camp.",
+   "q": "Where can a camping tent be pitched?"
+  },
+  {
+   "aliases": [
+    "do i need a fire",
+    "camp requirements",
+    "what else for camp"
+   ],
+   "answer": "Every complete campsite requires a roaring campfire alongside the shelter. Adventurers are encouraged to seek out a cooking trainer to learn how to build a basic fire.",
+   "q": "What else is needed to pitch a proper camp?"
+  },
+  {
+   "aliases": [
+    "when can i learn tent",
+    "tent requirements",
+    "leatherworking tent req"
+   ],
+   "answer": "You must practice leatherworking and demonstrate adequate proficiency in your trade before Indari Sunseam will instruct you in crafting a camping item.",
+   "q": "When does Indari Sunseam teach you the tent pattern?"
+  },
+  {
+   "aliases": [
+    "where is shen'dar village",
+    "shendar village location",
+    "indari sunseam town"
+   ],
+   "answer": "Shen'dar Village is the settlement where Indari Sunseam lives and works, offering trade instruction in crafting camping supplies to travelers.",
+   "q": "What is Shen'dar Village?"
+  }
+ ],
+ "keywords": [
+  "camp tent",
+  "campfire",
+  "camping",
+  "cooking",
+  "indari sunseam",
+  "leatherworking",
+  "shen'dar village",
+  "tent",
+  "wilderness"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "For traveling leatherworkers, the ability to work hide and pelt into durable wilderness gear is vital. Upon learning the craft, tradesfolk are directed to seek out Indari Sunseam in Shen'dar Village to learn how to fashion a proper camping tent. Such shelters keep adventurers dry during relentless downpours and cool beneath blazing suns, ensuring they stay well-rested throughout long journeys.",
+   "spoiler": 0,
+   "title": "Shelter on the Road"
+  },
+  {
+   "body": "Pitching a tent requires respect for civil boundaries, as townsfolk take issue with crude campsites cluttering municipal streets. Camps must be pitched out in the wild. Furthermore, a sturdy shelter is only half the equation: no campsite is complete without a warming campfire, prompting adventurers to visit a local cook to pick up basic firemaking skills before striking out into the wilds.",
+   "spoiler": 0,
+   "title": "Wilderness Campsites"
+  }
+ ],
+ "summary": "Camping 101: Leatherworking directs fledgling leatherworkers to seek advanced instruction on crafting durable wilderness shelters. Guided to Indari Sunseam in Shen'dar Village, craftsmen learn to stitch protective tents that offer essential rest across long expeditions into the wilds.",
+ "attribution": [
+  "In-game quest text: Camping 101: Leatherworking"
+ ]
+}

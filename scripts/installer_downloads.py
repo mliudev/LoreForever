@@ -16,6 +16,10 @@ from pathlib import Path
 
 CORE_PACKS = ['LoreForever_Voice_Default', 'LoreForever_Voice_Default_Alliance', 'LoreForever_Voice_Default_Horde']
 QUEST_PACKS = ['LoreForever_Voice_Default_Quests'] + ['LoreForever_Voice_Default_Answers_' + part for part in ('Places', 'Lore', 'People', 'Quests1', 'Quests2', 'Quests3')]
+# More places and people (complete stories only): each narrator's go with that narrator's choice, the male narrator's
+# with "more narration" (quests). One folder per zip, installed once built.
+MORE_PACKS = {'female': ['LoreForever_Voice_Female_MorePlaces', 'LoreForever_Voice_Female_MorePeople'],
+              'quests': ['LoreForever_Voice_Default_MorePlaces', 'LoreForever_Voice_Default_MorePeople']}
 NAME = re.compile(r'LoreForever(?:_[A-Za-z0-9_-]+)?')
 LIMIT = 480 * 1024 * 1024
 
@@ -60,7 +64,8 @@ def build(transport, packs, output, version, base, source_commit, candidate_zip)
     result = {'version': 1, 'releaseVersion': version, 'sourceCommit': source_commit, 'candidateZipSha256': sha(candidate_zip), 'packs': {}, 'downloads': [], 'selections': {'base': CORE_PACKS, 'female': [], 'quests': []}, 'unavailable': []}
     # Only explicit options; languages remain available as manual source pack selections.
     female = packs / 'LoreForever_Voice_Female-complete.zip'
-    for selection, archives in [('female', [female]), ('quests', [packs / (name + '.zip') for name in QUEST_PACKS])]:
+    for selection, archives in [('female', [female] + [packs / (name + '.zip') for name in MORE_PACKS['female']]),
+                                ('quests', [packs / (name + '.zip') for name in QUEST_PACKS + MORE_PACKS['quests']])]:
         for path in archives:
             if not path.is_file():
                 result['unavailable'].append({'selection': selection, 'archive': path.name, 'reason': 'not yet recorded or built'})
@@ -69,15 +74,15 @@ def build(transport, packs, output, version, base, source_commit, candidate_zip)
             target = output / path.name
             if target.resolve() != path.resolve():
                 shutil.copyfile(path, target)
-            if selection == 'female':
+            if path == female:
                 expected = ['LoreForever_Voice_Female', 'LoreForever_Voice_Female_Alliance', 'LoreForever_Voice_Female_Horde']
                 if folders != expected:
                     raise ValueError('Unexpected female archive folders')
-                result['selections']['female'] = folders
+                result['selections']['female'] = folders + result['selections']['female']
             else:
                 if folders != [path.stem]:
-                    raise ValueError('Unexpected quest archive folders: ' + str(path))
-                result['selections']['quests'] += folders
+                    raise ValueError('Unexpected ' + selection + ' archive folders: ' + str(path))
+                result['selections'][selection] += folders
             result['downloads'].append({'selection': selection, 'archive': path.name, 'folders': folders,
                                         'sha256': sha(path), 'url': base.rstrip('/') + '/' + path.name, 'bytes': path.stat().st_size})
     manifest_path = transport / 'transport-downloads.json'

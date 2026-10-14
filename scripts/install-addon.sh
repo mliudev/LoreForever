@@ -14,6 +14,9 @@ if [ -z "$WOW" ]; then
   done
 fi
 [ -n "$WOW" ] || { echo "WoW Forever beta folder not found; set WOW_DIR" >&2; exit 1; }
+# Packs in the asset store (LOR-440): their recordings fetched into the gitignored Audio/ first.
+STORE="$ADDONS_SRC/../scripts/audio_store.py"
+[ ! -f "$STORE" ] || python3 "$STORE" hydrate --quiet $(printf -- '--pack %s ' "${FOLDERS[@]}")
 # Audio is stored with Git LFS. A checkout that never fetched it has small pointer files where the recordings should
 # be; installing those would leave the narration silent, so stop before copying anything.
 for name in "${FOLDERS[@]}"; do

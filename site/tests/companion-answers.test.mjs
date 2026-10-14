@@ -4,7 +4,7 @@ import { onRequest } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { ANSWER_RESERVATION_MICRO, RESEARCH_RESERVATION_MICRO, COMPACTION_RESERVATION_MICRO, ANSWER_GROUNDING_MICRO,
-  ANSWER_MODEL, RESEARCH_MODEL, SEARCH_QUERY_RESERVATION, ANSWERS_PER_DAY, paidBudgetMicro, reserveAnswer, reserveOtherPaid, writeAnswer } from "../lib/companion-answers.js";
+  ANSWER_MODEL, RESEARCH_MODEL, SEARCH_QUERY_RESERVATION, ANSWERS_PER_DAY, VERIFICATION_FAILED, paidBudgetMicro, reserveAnswer, reserveOtherPaid, writeAnswer } from "../lib/companion-answers.js";
 import { storyBudgetLeft } from "../lib/profiles.js";
 import { d1 } from "./helpers.mjs";
 
@@ -59,7 +59,7 @@ test("required research rejects an answer without usable web evidence", async ()
   assert.match(calls[0].body.systemInstruction.parts[0].text, /MUST use Google Search now/);
   assert.equal(result.body.web_search.status, "failed");
   assert.deepEqual(result.body.web_sources, []);
-  assert.match(result.body.answer, /couldn't verify/);
+  assert.equal(result.body.answer, VERIFICATION_FAILED);
   assert.doesNotMatch(result.body.answer, /VanCleef/);
   assert.equal(env.DB.sqlite.prepare("SELECT actual_micro FROM answer_spend").get().actual_micro, 338);
 });
@@ -92,7 +92,7 @@ test("required research failures never invoke the ungrounded fallback", async ()
     const result = await ask(token, { researchRequired: true });
     assert.equal(result.status, 200);
     assert.equal(result.body.web_search.status, failure === 404 ? "unavailable" : "failed");
-    assert.match(result.body.answer, /couldn't verify/);
+    assert.equal(result.body.answer, VERIFICATION_FAILED);
     assert.equal(result.body.usage, null);
     assert.equal(calls.length, 1);
   }
@@ -428,7 +428,7 @@ test("billing counts all raw unique nonempty queries beyond display and reservat
     const result = await ask(token, { researchRequired: true });
     assert.equal(result.status, 200);
     assert.equal(result.body.web_search.status, "failed", "invalid citations never validate an answer");
-    assert.match(result.body.answer, /couldn't verify/);
+    assert.equal(result.body.answer, VERIFICATION_FAILED);
     assert.equal(result.body.web_search.queries.length, 12, "display limits are independent of billing");
     const spend = env.DB.sqlite.prepare("SELECT actual_micro, reserved_micro FROM answer_spend").get();
     assert.equal(spend.actual_micro, queries.length * ANSWER_GROUNDING_MICRO + 150);
@@ -485,7 +485,7 @@ test("truncated or empty research answers preserve known query excess without in
     const before = env.DB.sqlite.prepare("SELECT reserved_micro FROM answer_spend").get()?.reserved_micro || 0;
     const result = await ask(token, { researchRequired: true });
     assert.equal(result.status, 200);
-    assert.match(result.body.answer, /couldn't verify/);
+    assert.equal(result.body.answer, VERIFICATION_FAILED);
     assert.equal(result.body.web_search.status, "failed");
     const spent = env.DB.sqlite.prepare("SELECT reserved_micro FROM answer_spend").get().reserved_micro - before;
     assert.equal(spent, queries.length * ANSWER_GROUNDING_MICRO + 150 +

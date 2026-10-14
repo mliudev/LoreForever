@@ -1,0 +1,114 @@
+{
+ "key": "quest:98293",
+ "type": "quest",
+ "name": "Forced Disarmament",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98293
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance forces rely on Menethil Harbor as a vital lifeline across the Great Sea, making the disarmament of nearby hostile clans an urgent strategic necessity."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven defenders from Ironforge maintain the garrison at Menethil Keep, striving to secure the perimeter of Khaz Modan from old enemies entrenched in the marshes."
+  },
+  {
+   "target": "race:Orc",
+   "text": "The Dragonmaw represent a splintered, unrepentant remnant of the Old Horde whose violent warmongering isolates them from the new Horde leadership in Kalimdor."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "stoutfist",
+    "who is stoutfist",
+    "menethil keep captain"
+   ],
+   "answer": "Captain Stoutfist is a dwarven military officer stationed inside Menethil Keep, responsible for the defense of Menethil Harbor and the surrounding Wetlands. Facing constant pressure from hostile beasts, Dark Iron saboteurs, and the Dragonmaw clan, Stoutfist actively directs soldiers and adventurers to suppress nearby threats before the port's vital supply lines and harbor facilities are overrun.",
+   "q": "Who is Captain Stoutfist?"
+  },
+  {
+   "aliases": [
+    "why take dragonmaw weapons",
+    "dragonmaw armaments purpose",
+    "disarming dragonmaw"
+   ],
+   "answer": "The Dragonmaw clan is actively amassing weapons within their retreat to equip new fighters for battle. If allowed to hoard munitions uncontested, their warbands could overwhelm local Alliance defenses and imperil Menethil Harbor. Seizing thirty bundles of weaponry directly impedes their logistical preparations and prevents more orc soldiers from taking the field.",
+   "q": "Why do the Dragonmaw need to be disarmed?"
+  },
+  {
+   "aliases": [
+    "dragonmaw retreat location",
+    "where is dragonmaw retreat",
+    "dragonmaw retreat wetlands"
+   ],
+   "answer": "Dragonmaw Retreat is an encampment established by the Dragonmaw orcs in the Wetlands, situated eastward toward the mountains beyond Menethil Harbor. The clan uses this secluded outpost to muster forces, store weaponry, and stage attacks against travelers along the marshes. Adventurers must venture into the heart of the camp to recover their stockpiled weapons.",
+   "q": "Where is Dragonmaw Retreat located?"
+  },
+  {
+   "aliases": [
+    "dragonmaw weapons",
+    "what are armaments",
+    "dragonmaw gear"
+   ],
+   "answer": "Dragonmaw Armaments are caches of martial gear, blades, and equipment forged or stolen by the Dragonmaw clan to supply their warriors. These weapons represent the clan's immediate military capacity in the region. Captain Stoutfist requests that thirty bundles of these munitions be confiscated and brought back to Menethil Keep for evaluation and disposal.",
+   "q": "What are Dragonmaw Armaments?"
+  },
+  {
+   "aliases": [
+    "are dragonmaw horde",
+    "dragonmaw clan faction",
+    "dragonmaw thrall"
+   ],
+   "answer": "No, the Dragonmaw clan in the Wetlands operates as an independent, hostile faction that does not answer to Warchief Thrall. Remaining loyal to their old ways following the Second War, these orcs harbor deep hatred for the Alliance and refuse any peaceful overtures. As a result, both Alliance defenders and independent travelers treat them as lethal adversaries.",
+   "q": "Is the Dragonmaw clan part of the Horde in 25 ADP?"
+  },
+  {
+   "aliases": [
+    "menethil keep dragonmaw threat",
+    "why stoutfist cares",
+    "menethil harbor defense"
+   ],
+   "answer": "Menethil Keep is the administrative and military fortress safeguarding Menethil Harbor, the principal maritime hub for the Alliance in Khaz Modan. Because the wetlands surrounding the harbor are plagued by marsh beasts and aggressive orcs, Captain Stoutfist cannot allow a heavily armed encampment like Dragonmaw Retreat to flourish so close to the kingdom's docks and trade routes.",
+   "q": "Why is Menethil Keep concerned with the Dragonmaw?"
+  }
+ ],
+ "keywords": [
+  "captain stoutfist",
+  "dragonmaw armaments",
+  "dragonmaw clan",
+  "dragonmaw retreat",
+  "forced disarmament",
+  "menethil harbor",
+  "menethil keep",
+  "wetlands"
+ ],
+ "related": [
+  "npc:captain-stoutfist",
+  "subzone:menethil-keep"
+ ],
+ "sections": [
+  {
+   "body": "In the marshlands of the Wetlands, the hostile Dragonmaw clan has begun gathering an alarming stockpile of weapons within the Dragonmaw Retreat. Left unchecked, these supplies would allow the renegade orcs to equip fresh waves of warriors and launch devastating raids against neighboring settlements. Disarming their encampments strikes directly at their logistical capability, blunting any planned offensive before their warbands can fully mobilize and take the field.",
+   "spoiler": 0,
+   "title": "An Armory in the Marshes"
+  },
+  {
+   "body": "Menethil Harbor serves as the primary gateway connecting Khaz Modan and Stormwind to the sea, making any nearby military build-up a severe peril. Captain Stoutfist coordinates defensive measures from Menethil Keep, keeping vigilant watch over the hostile clans and beasts encroaching upon the town. Recovering thirty sets of Dragonmaw armaments deprives the orcs of essential munitions while providing the dwarven garrison with vital intelligence regarding the enemy's readiness.",
+   "spoiler": 0,
+   "title": "Securing the Coastal Port"
+  }
+ ],
+ "summary": "Forced Disarmament is an Alliance quest in the Wetlands tasking adventurers with seizing weapon caches from the Dragonmaw clan at Dragonmaw Retreat. By collecting thirty bundles of armaments, players prevent the hostile orcs from equipping additional soldiers for future raids. The confiscated gear is delivered to Captain Stoutfist at Menethil Keep to safeguard the region's vital harbor.",
+ "attribution": [
+  "In-game quest text: Forced Disarmament"
+ ]
+}

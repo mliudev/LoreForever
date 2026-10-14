@@ -1,0 +1,110 @@
+{
+ "key": "quest:99048",
+ "type": "quest",
+ "name": "A Missing Hand",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99048
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "The Shattered Hand operates as the covert backbone and intelligence guild of the Horde. Investigating a fallen operative shows just how perilous their field surveillance missions can be."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Keeping watch over Kul Tiras remnants at Tiragarde Keep is vital for Durotar's security, and the unexplained loss of a scout signals a potential unseen threat right on Orgrimmar's doorstep."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Durotar is newly secured orcish territory, and having an operative slain by something other than the nearby human squatters raises immediate alarm for the safety of the realm."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is a missing hand",
+    "missing hand quest overview"
+   ],
+   "answer": "A Missing Hand is a quest in Durotar where an adventurer is tasked with locating Heglan Shadeeye, a Shattered Hand surveillance operative stationed north of Tiragarde Keep whose regular intelligence reports suddenly ceased.",
+   "q": "What is the quest A Missing Hand?"
+  },
+  {
+   "aliases": [
+    "who is heglan",
+    "where is heglan shadeeye",
+    "missing scout"
+   ],
+   "answer": "Heglan Shadeeye is an operative of the Shattered Hand tasked with covertly observing Tiragarde Keep from a nearby vantage point. Her surveillance reports abruptly stopped, prompting an investigation into her whereabouts.",
+   "q": "Who is Heglan Shadeeye?"
+  },
+  {
+   "aliases": [
+    "what happened to heglan shadeeye",
+    "is heglan dead",
+    "heglan fate"
+   ],
+   "answer": "Heglan Shadeeye is found dead inside the wreckage of a hut north of Tiragarde Keep. The state of her body and the scene suggest that whatever killed her was not human, pointing to a non-human threat lurking in the area.",
+   "q": "What happened to Heglan Shadeeye?"
+  },
+  {
+   "aliases": [
+    "what is shattered hand",
+    "who are the shattered hand"
+   ],
+   "answer": "In the modern Horde, the Shattered Hand serves as an organization of subtle operatives, assassins, and spies. They carry out covert surveillance and intelligence operations to protect Horde territories.",
+   "q": "What is the Shattered Hand?"
+  },
+  {
+   "aliases": [
+    "did humans kill heglan",
+    "did tiragarde soldiers kill her"
+   ],
+   "answer": "No. Although Heglan was monitoring the hostile Kul Tiras humans occupying Tiragarde Keep, the clues at the ruined hut indicate that her killer was not human, suggesting a different predator or menace was responsible.",
+   "q": "Did the humans at Tiragarde Keep kill Heglan?"
+  },
+  {
+   "aliases": [
+    "why was heglan watching tiragarde keep",
+    "tiragarde keep surveillance"
+   ],
+   "answer": "Tiragarde Keep is an outpost held by hostile Kul Tiras sailors and soldiers threatening the coast of Durotar. Heglan was stationed nearby to keep eyes on their activities and relay intelligence back to the Horde.",
+   "q": "Why was Tiragarde Keep being watched?"
+  }
+ ],
+ "keywords": [
+  "a missing hand",
+  "durotar",
+  "heglan shadeeye",
+  "rogue",
+  "scout",
+  "shattered hand",
+  "tiragarde keep"
+ ],
+ "related": [
+  "quest:1858",
+  "subzone:tiragarde-keep",
+  "topic:human"
+ ],
+ "sections": [
+  {
+   "body": "A Missing Hand begins with growing concern over Heglan Shadeeye, a scout belonging to the Shattered Hand. Stationed in Durotar to monitor the hostile human garrison occupying Tiragarde Keep from afar, her steady stream of intelligence reports suddenly vanished without explanation. Her superiors doubt the human soldiers managed to detect and capture her, raising fears that an unexpected and more dangerous hazard intervened. Adventurers are dispatched north of the keep to locate her post and determine whether the disruption is merely a delay in communication or something far grimmer.",
+   "spoiler": 0,
+   "title": "Silent Reports"
+  },
+  {
+   "body": "Upon arriving at the designated observation post north of Tiragarde Keep, the search ends in tragedy. Heglan's cold body lies among the splintered wreckage of a ruined hut. The physical evidence left behind indicates that her attacker was not human, leaving open the unsettling question of what creature or entity struck down a trained operative so close to Horde lands. Clues scattered near the wreckage hint at an unfamiliar threat that must now be uncovered.",
+   "spoiler": 1,
+   "title": "The Cold Hut"
+  }
+ ],
+ "summary": "A Missing Hand is a quest in Durotar concerning the sudden disappearance of Heglan Shadeeye, a Shattered Hand scout tasked with keeping watch on Tiragarde Keep. When her regular intelligence dispatches abruptly cease, an investigator is sent to find her post and uncover what silenced her.",
+ "attribution": [
+  "In-game quest text: A Missing Hand"
+ ]
+}

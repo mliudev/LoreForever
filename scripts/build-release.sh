@@ -24,6 +24,12 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
   && [ "$(git -C "$ROOT" ls-files -t -- addon/LoreForever_Voice_Default/Audio/ 2>/dev/null | head -c 1)" != S ] \
   || { echo "${0##*/}: this checkout is sparse. In your own worktree, run 'git sparse-checkout disable' first; or make" \
          "a full one: scripts/new-worktree.sh --pointers <path> (and 'git lfs pull' there for the recordings)" >&2; exit 1; }
+# Packs in the asset store (LOR-440): their recordings into the gitignored Audio/ first, every clip checked against
+# its manifest. The public repo has no store (its workflow puts recordings back with audio_assets.py fetch).
+if [ -f "$ROOT/scripts/audio_store.py" ] && [ -d "$ROOT/release/audio-store" ]; then
+  python3 "$ROOT/scripts/audio_store.py" hydrate --quiet \
+    || { echo "build-release.sh: couldn't fill in the asset store's recordings (above)" >&2; exit 1; }
+fi
 exec python3 - "$ROOT" "$@" <<'PY'
 import atexit, hashlib, multiprocessing, re, shutil, sys, tempfile, zipfile
 from collections import defaultdict
@@ -44,7 +50,9 @@ PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "Lor
 # givers' voices until their recordings land, and the narrators in the language packs' languages (LOR-177,
 # LoreForever_Voice_<Default|Female>_<locale>) and their quest dialogue in those languages (LOR-226,
 # LoreForever_Voice_<Default|Female>_Quests_<locale>) until they're recorded, and every other question and answer
-# (LOR-227, lore.answers: LoreForever_Voice_<Default|Female>_Answers_<Part>[_<locale>]) until its renders land.
+# (LOR-227, lore.answers: LoreForever_Voice_<Default|Female>_Answers_<Part>[_<locale>]) until its renders land, and
+# each narrator's more places and more people (LoreForever_Voice_<Default|Female>_MorePlaces/_MorePeople, complete
+# stories only) until register_full_stories.py makes them with their first stories.
 RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR",
                  "LoreForever_Lang_ruRU", "LoreForever_Lang_ukUA", "LoreForever_Lang_itIT",
                  "LoreForever_Voice_Default_ukUA",
@@ -52,6 +60,8 @@ RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_
                  "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female",
                  "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde",
                  "LoreForever_Voice_Female_Quests", "LoreForever_Voice_QuestGivers",
+                 "LoreForever_Voice_Default_MorePlaces", "LoreForever_Voice_Default_MorePeople",
+                 "LoreForever_Voice_Female_MorePlaces", "LoreForever_Voice_Female_MorePeople",
                  "LoreForever_Voice_Default_deDE", "LoreForever_Voice_Female_deDE",
                  "LoreForever_Voice_Default_esES", "LoreForever_Voice_Female_esES",
                  "LoreForever_Voice_Default_frFR", "LoreForever_Voice_Female_frFR",

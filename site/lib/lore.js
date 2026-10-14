@@ -364,7 +364,7 @@ export function indexPage(index, { more, env, packs = [] } = {}) {
       ${(index?.voices || []).length} narrators</p>
     <p class="lx-soon" hidden>Listening here is on its way. Every line below already plays in game:
       <a href="${DOWNLOAD}">get Lore Forever</a>.</p>
-    <form class="lx-bar" role="search" hidden onsubmit="return false">
+    <form class="lx-bar" role="search" hidden>
       <label class="lx-search"><span class="visually-hidden">Search</span>
         <input type="search" name="q" placeholder="Search a zone, place, character, quest or item" autocomplete="off"></label>
       <label class="lx-zone"><span class="visually-hidden">Zone</span><select name="z"><option value="">All zones</option></select></label>

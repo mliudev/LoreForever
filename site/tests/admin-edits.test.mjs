@@ -77,6 +77,19 @@ test("decide refuses a bad translator or status, and the id form works as before
   assert.equal((await call("decide", { body: { user: 5, status: "rejected" } })).status, 400);
   assert.equal((await call("decide", { body: { status: "rejected" } })).status, 400);
   const ids = (await call("review", { query: `?user=${bob.id}&limit=2` })).body.edits.map(e => e.id);
-  assert.equal((await call("decide", { body: { ids, status: "rejected" } })).body.updated, 2);
+  assert.equal((await call("decide", { body: { ids, status: "rejected", reasons: { [ids[0]]: "  name left in English " } } })).body.updated, 2);
   assert.equal((await call("review", { query: `?user=${bob.id}` })).body.total, 1);
+  const reasons = () => Object.fromEntries(env.DB.sqlite.prepare("SELECT id, reason FROM translation_edits").all().map(r => [r.id, r.reason]));
+  assert.deepEqual([reasons()[ids[0]], reasons()[ids[1]]], ["name left in English", null]);   // no reason: the plain note
+  await call("decide", { body: { ids, status: "new" } });
+  assert.equal(reasons()[ids[0]], null, "a restored edit forgets why it was turned down");
+});
+
+test("setup adds the reason column to an existing translation_edits", async () => {
+  const old = { DB: d1() };
+  old.DB.sqlite.exec(`CREATE TABLE translation_edits (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id TEXT NOT NULL,
+    locale TEXT NOT NULL, string_id TEXT NOT NULL, en TEXT NOT NULL, text TEXT NOT NULL, created TEXT NOT NULL,
+    updated TEXT NOT NULL, status TEXT NOT NULL DEFAULT 'new', reviewed TEXT)`);
+  await setup(old);
+  assert.ok(old.DB.sqlite.prepare("PRAGMA table_info(translation_edits)").all().some(c => c.name === "reason"));
 });

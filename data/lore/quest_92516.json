@@ -1,0 +1,121 @@
+{
+ "key": "quest:92516",
+ "type": "quest",
+ "name": "Hippogryph Harassment",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92516
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Night elves hold a deep spiritual reverence for hippogryphs as sacred companions of Elune, making the culling of even an aggressive wild flock a somber task when wilderness clashes with traveler safety."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters understand the predatory instincts of aerial beasts and the hierarchy of a wild roost, recognizing that eliminating the matriarch is the most effective way to shatter the flock's aggression."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids strive to maintain harmony with the wild, viewing this culling not as malice but as an unfortunate necessity to restore balance after the beasts began preying upon travelers."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "why hippogryphs attacking",
+    "why are hippogryphs hostile",
+    "hippogryph harassment cause"
+   ],
+   "answer": "The hippogryphs have recently established active nesting grounds southeast of Shen'dar Village in the Shen'dar Highlands. Because the flock settled directly adjacent to the main travel route, the territorial creatures aggressively harass anyone venturing nearby to defend their newly claimed brood and hunting grounds.",
+   "q": "Why are the hippogryphs attacking travelers near Shen'dar Village?"
+  },
+  {
+   "aliases": [
+    "where are the hippogryphs",
+    "hippogryph location",
+    "shen'dar highlands location"
+   ],
+   "answer": "The flock can be found nesting southeast of Shen'dar Village within the Shen'dar Highlands. Their roosts and territorial hunting grounds overlook the road passing through the region, where youths, protectors, and the flock's matriarch gather among the cliffs and ridges.",
+   "q": "Where is the hippogryph flock located?"
+  },
+  {
+   "aliases": [
+    "which hippogryphs do i kill",
+    "hippogryph harassment targets",
+    "hippogryph objectives"
+   ],
+   "answer": "To quell the flock's aggressive behavior and restore safe travel along the roadway, adventurers must thin out eight hippogryph youths, six sturdy hippogryph protectors, and the formidable hippogryph matriarch who directs the roost within the Shen'dar Highlands.",
+   "q": "Which hippogryphs must be slain to complete the task?"
+  },
+  {
+   "aliases": [
+    "who leads the hippogryphs",
+    "hippogryph matriarch",
+    "boss hippogryph"
+   ],
+   "answer": "The flock is led by a powerful Hippogryph Matriarch residing in the Shen'dar Highlands. She directs the roost and oversees the defense of their nesting grounds southeast of Shen'dar Village, making her demise essential to breaking the flock's hold on the roadway.",
+   "q": "Who is the leader of the hippogryph flock?"
+  },
+  {
+   "aliases": [
+    "why kill hippogryph youths",
+    "why target young hippogryphs",
+    "culling hippogryph young"
+   ],
+   "answer": "The hippogryph youths represent the future growth and continued expansion of the newly settled flock. By thinning out their numbers alongside the mature protectors, adventurers ensure that the roost cannot rapidly replenish its strength or establish a permanent reign of terror over the local highways.",
+   "q": "Why must the hippogryph youths be culled?"
+  },
+  {
+   "aliases": [
+    "are the hippogryphs tamed",
+    "are these night elf hippogryphs",
+    "friendly hippogryphs"
+   ],
+   "answer": "No, these are completely wild, untamed creatures that have established a roost in the Shen'dar Highlands on their own. Unlike the disciplined mounts carefully raised by the night elves, this feral flock treats any passing humanoid as an intruder or prey encroaching upon their territory.",
+   "q": "Are these hippogryphs tame or allied with anyone?"
+  },
+  {
+   "aliases": [
+    "what threat do hippogryphs pose",
+    "danger to shendar village",
+    "why are hippogryphs a problem"
+   ],
+   "answer": "The flock has established nests immediately overlooking the road leading southeast from Shen'dar Village. By swooping down and terrorizing supply carts, messengers, and wandering travelers, the aggressive beasts threaten to cut off safe overland travel and isolate the village from the surrounding lands.",
+   "q": "What danger do these hippogryphs pose to the local settlement?"
+  }
+ ],
+ "keywords": [
+  "hippogryph",
+  "hippogryph harassment",
+  "hippogryph matriarch",
+  "hippogryph protector",
+  "hippogryph youth",
+  "kalimdor",
+  "matriarch",
+  "shen'dar highlands",
+  "shen'dar village"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Travelers navigating the roads near Shen'dar Village face a rising danger from the skies. A wild flock of hippogryphs has recently claimed the rugged territory southeast of the settlement, carving out active nesting grounds in the Shen'dar Highlands. While hippogryphs are known across Kalimdor as noble beasts occasionally bonded to elven riders, untamed flocks guard their territory with fierce ferocity. Any wagon or lone traveler traversing the paths below has become a target for aerial ambushes, disrupting vital passage and leaving the village vulnerable to isolation if the creatures are left unchecked.",
+   "spoiler": 0,
+   "title": "Peril on the Road"
+  },
+  {
+   "body": "To eliminate the immediate threat, the nesting grounds in the Shen'dar Highlands must be directly confronted. Restoring peace to the high roads requires curbing the flock's rapid expansion by taking down their younger members before they reach maturity, as well as breaking through the vigilant hippogryph protectors guarding the perimeter. The true disruption, however, stems from the flock's matriarch, whose leadership directs the attacks on passersby. Only by striking at the nest and felling the matriarch can the roads be made safe once more for travelers.",
+   "spoiler": 0,
+   "title": "Culling the Flock"
+  }
+ ],
+ "summary": "Hippogryph Harassment is a local task concerning an aggressive flock of wild hippogryphs nesting southeast of Shen'dar Village. Travelers passing along the nearby road have come under frequent attack from the territorial beasts inhabiting the Shen'dar Highlands. To secure the passage, adventurers are called upon to cull the flock's youths, protectors, and their commanding matriarch.",
+ "attribution": [
+  "In-game quest text: Hippogryph Harassment"
+ ]
+}

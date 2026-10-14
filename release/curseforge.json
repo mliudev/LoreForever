@@ -96,6 +96,58 @@
       "live": true
     },
     {
+      "key": "male-more-places",
+      "name": "Lore Forever - More Places (Male Narrator)",
+      "about": "the whole story of hundreds more places (male narrator)",
+      "from": "LoreForever_Voice_Default_MorePlaces.zip",
+      "folders": ["LoreForever_Voice_Default_MorePlaces"],
+      "file": "Lore Forever more places (male narrator) {v}",
+      "core": "optional",
+      "requires": [],
+      "id": 1743314,
+      "slug": "lore-forever-more-places-male-narrator",
+      "live": false
+    },
+    {
+      "key": "male-more-people",
+      "name": "Lore Forever - More People (Male Narrator)",
+      "about": "the whole story of hundreds more characters (male narrator)",
+      "from": "LoreForever_Voice_Default_MorePeople.zip",
+      "folders": ["LoreForever_Voice_Default_MorePeople"],
+      "file": "Lore Forever more people (male narrator) {v}",
+      "core": "optional",
+      "requires": [],
+      "id": null,
+      "slug": null,
+      "live": false
+    },
+    {
+      "key": "female-more-places",
+      "name": "Lore Forever - More Places (Female Narrator)",
+      "about": "the whole story of hundreds more places (female narrator)",
+      "from": "LoreForever_Voice_Female_MorePlaces.zip",
+      "folders": ["LoreForever_Voice_Female_MorePlaces"],
+      "file": "Lore Forever more places (female narrator) {v}",
+      "core": "optional",
+      "requires": ["female-narrator"],
+      "id": 1743315,
+      "slug": "lore-forever-more-places-female-narrator",
+      "live": false
+    },
+    {
+      "key": "female-more-people",
+      "name": "Lore Forever - More People (Female Narrator)",
+      "about": "the whole story of hundreds more characters (female narrator)",
+      "from": "LoreForever_Voice_Female_MorePeople.zip",
+      "folders": ["LoreForever_Voice_Female_MorePeople"],
+      "file": "Lore Forever more people (female narrator) {v}",
+      "core": "optional",
+      "requires": ["female-narrator"],
+      "id": null,
+      "slug": null,
+      "live": false
+    },
+    {
       "key": "quest-givers",
       "name": "Lore Forever - Quest Givers' Voices",
       "about": "quest givers in a voice of their own race and gender",

@@ -1,0 +1,107 @@
+{
+ "key": "quest:95647",
+ "type": "quest",
+ "name": "Lost in the Thicket Things",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95647
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Ardin Grassman possesses an innate gift for sensing plants and herbs, often scaling treacherous terrain to gather rare flora for alchemy."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids attuned to the balance of the wilds may find interest in Ardin's natural gift for sensing flora, as well as the unnatural agitation upsetting the wildlife near the dig sites."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is ardin",
+    "ardin grassman lore",
+    "who is ardin grassman"
+   ],
+   "answer": "Ardin Grassman is a gatherer with a rare natural gift for sensing plants and herbs. He regularly scours cliffs and peaks to supply his wife with wild flora for her alchemy craft, but his curiosity about strange, towering grasses drew him away toward an excavation site.",
+   "q": "Who is Ardin Grassman?"
+  },
+  {
+   "aliases": [
+    "why did ardin leave",
+    "why is ardin missing",
+    "what was ardin looking for"
+   ],
+   "answer": "Ardin overheard an excavation crew describing massive, towering grasses unlike anything they had encountered before. Drawn by his affinity for unusual plants and flora, he ventured out to see the strange vegetation with his own eyes and failed to return home.",
+   "q": "Why did Ardin wander off into the wild?"
+  },
+  {
+   "aliases": [
+    "where is ardin",
+    "ardin location",
+    "where to find ardin grassman"
+   ],
+   "answer": "Ardin ventured toward the nearby Excavation Sites after hearing reports from a passing expedition crew. Travelers searching for him must scour the dig sites where the crew set up operations.",
+   "q": "Where did Ardin go?"
+  },
+  {
+   "aliases": [
+    "what happened to ardin",
+    "is ardin dead",
+    "what attacked ardin"
+   ],
+   "answer": "Ardin found the excavation camp overwhelmed when local wildlife became agitated and aggressive. Giant spiders and other stirred beasts ambushed the expedition, trapping Ardin and the crew until outside assistance arrived.",
+   "q": "What happened to Ardin at the excavation site?"
+  },
+  {
+   "aliases": [
+    "who gives lost in the thicket things",
+    "who started this quest",
+    "ardin wife"
+   ],
+   "answer": "The search begins with Ardin's wife, an alchemist who relies on his herb-gathering expeditions to stock her shelves. When he failed to return from investigating the rumors of strange grass, she sought capable travelers to bring him back.",
+   "q": "Who is looking for Ardin?"
+  },
+  {
+   "aliases": [
+    "why are spiders attacking",
+    "what upset the animals",
+    "why are beasts angry"
+   ],
+   "answer": "The wildlife surrounding the excavation sites became suddenly and violently agitated, though the exact root cause of their distress remains uncertain. The disturbance drove aggressive creatures, particularly spiders, to swarm and overwhelm the dig team.",
+   "q": "Why did the wildlife attack the excavation crew?"
+  }
+ ],
+ "keywords": [
+  "alchemy",
+  "ardin",
+  "ardin grassman",
+  "excavation sites",
+  "herbalism",
+  "lost in the thicket things",
+  "spiders",
+  "towering grasses"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "In 'Lost in the Thicket Things', an alchemist seeks help tracking down her missing husband, Ardin Grassman. Ardin possesses an uncanny, instinctual affinity for nature, routinely braving steep cliffs and distant wilderness to gather rare herbs and botanical specimens to stock her alchemy supplies. When a passing excavation crew brought word of bizarre, towering grasses unlike anything seen before, Ardin's curiosity got the better of him, and he set out to inspect the flora for himself.",
+   "spoiler": 0,
+   "title": "A Forager's Calling"
+  },
+  {
+   "body": "Ardin tracked the expedition toward their excavation site, only to walk straight into peril. Something in the surrounding land agitated the local fauna, causing aggressive wildlife\u2014most notably swarms of hostile spiders\u2014to lash out and overrun the dig team. Trapped by the encroaching beasts, Ardin and the crew found themselves besieged until travelers intervened to rescue the stranded botanist.",
+   "spoiler": 1,
+   "title": "Ambush at the Dig Site"
+  }
+ ],
+ "summary": "A concerned alchemist asks travelers to track down her missing husband, Ardin Grassman, who vanished after pursuing rumors of towering, unknown grasses. Ardin's botanical curiosity led him straight toward a nearby excavation site, where dangerous wildlife and spider attacks have besieged the crew.",
+ "attribution": [
+  "In-game quest text: Lost in the Thicket Things"
+ ]
+}

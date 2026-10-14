@@ -41,16 +41,18 @@
      lib/subscribers.js, lib/donate.js (lent voices), lib/contribute.js (shared game text), lib/clipreports.js,
      lib/usage.js (usage counts), lib/activity.js (sign-in days, downloads while signed in) and lib/checkins.js with
      companion/lore_companion/checkin.py (the companion's daily check-in), and lib/featureuse.js with
-     companion/lore_companion/usage.py (the anonymous usage counts that go with it). When something here
-     changes, change the date below. -->
+     companion/lore_companion/usage.py (the anonymous usage counts that go with it), lib/billing.js (plans and
+     top-ups) and lib/willo-custom.js (Willo's style and tales). When something here changes, change the date
+     below. -->
 <main class="wrap vp-page vp-doc">
   <h1>Privacy</h1>
-  <p class="vp-version">Updated 2026-10-11</p>
+  <p class="vp-version">Updated 2026-10-12</p>
   <p class="pitch">What this site keeps about you, why, who else handles it, and how to get rid of it. The add-on
     itself can't send anything anywhere: it runs inside your game, and you only share what you copy out of it.</p>
 
   <h2>Who runs it</h2>
-  <p>Lore Forever is a free fan project by Mike Liu. It isn't a company, and it doesn't sell anything or show ads.
+  <p>Lore Forever is a fan project by Mike Liu. It isn't a company, and it shows no ads. The add-on is free; the only
+    things for sale are optional plans and top-ups with more of the companion's live answers.
     Questions about your data? Ask on <a href="/discord">Discord</a>. You can also delete your account yourself, any
     time, from <a href="/account">your account page</a>.</p>
   <!-- A contact email goes here once there is one, e.g. "or email ...". -->
@@ -82,12 +84,20 @@
       question, what the companion knows about your game for it (your character's race, class and level, where you
       are, your target and quests, a little of your journey and the recent messages of that chat) go through our site
       to Google's API, which writes the answer. We don't keep the question or the answer; we count how many answers
-      your account had each day, for the daily limit, and what they cost us, added up over everyone. Your chats are
+      your account had each day, for the daily limit, and what they cost us, added up over everyone (and, on a plan or
+      with a top-up, what your own answers cost this month, for its monthly limit). Your chats are
       kept only on your PC. The one exception is when you tell Willo an answer was wrong, or show you're fed up with
       one, or press "Something's wrong": then we keep what you said, the question and answer it was about and the
       zone you were in, with a scrambled (hashed) form of your account so we can tell how many people noticed the same
       thing, to fix Willo's answers. We keep these 90 days, and they go when you delete your account; a correction we
       checked can become one of the facts Willo answers everyone with, without anything about you.</li>
+    <li><strong>Talking to Willo</strong>, if you turn it on in the companion app: the microphone listens only while
+      you hold the talk key; your voice becomes text on your PC and never leaves it, and Willo's voice is made on your
+      PC too. The text of what you asked goes on like a typed question (above).</li>
+    <li><strong>If you let Willo see the game</strong> (a separate choice in the companion app, off until you turn it
+      on): one picture of the game window, only the game's own window, goes with that spoken question through our
+      site to Google's API, which writes the answer. We don't keep it. A copy stays in your chat on your PC (the
+      newest 300).</li>
     <li><strong>The companion app's daily check-in</strong>: once a day the companion app tells us it's in use, with a
       random number made on your PC (scrambled) and the app's and the add-on's version numbers, with no account, name
       or game data and without keeping your IP address; we keep these 90 days to count installs in use, and you can
@@ -103,6 +113,9 @@
     <li><strong>Shared game text</strong>: the quest, gossip and book text you share from the add-on, on the
       <a href="/contribute">Contribute</a> page or from the companion if you turn that on, with the race, class and
       gender of the character who saw it (never its name) and the credit name you give, if any.</li>
+    <li><strong>Willo's style and your tales</strong>, if you have a plan: the style you pick, what you write about how
+      Willo should talk to you, your own versions of characters, and whether our check let them through. Google's API
+      does that check, and only your own chats use them.</li>
     <li><strong>Narration reports</strong>: which narration and voice, what's wrong and your note, when you report a
       recording.</li>
     <li><strong>Translations</strong>: the languages you pick, the edits you make on the translation dashboard, and
@@ -128,10 +141,14 @@
       also counts visits, without cookies, and runs Turnstile, a spam check, when we switch it on.</li>
     <li><strong>Google</strong> handles sign-in, serves the site's fonts, writes profile stories (from your
       character's facts, never your email or name) and writes Willo's answers in the companion app (from your
-      question and its game context, never your email or name).</li>
+      question and its game context, with the picture of the game window if you let Willo see the game, never your
+      email or name).</li>
     <li><strong>OpenRouter</strong> and <strong>Fish Audio</strong> record your profile's story in our narrators'
       voices, for the Listen button on your profile (earlier recordings were made by <strong>fal.ai</strong>): they
       get the story's text and nothing else.</li>
+    <li><strong>Stripe</strong> handles payments for plans and top-ups. We keep only your plan, your top-ups (answers
+      left and Stripe's payment id) and Stripe's customer id, never your card details. Delete my account also cancels
+      your plan.</li>
     <li><strong>Discord</strong>: feedback, voice and translation submissions are posted to a private channel so we
       see them quickly. Never your email address or your signature.</li>
     <li><strong>GitHub</strong> and <strong>CurseForge</strong> host the downloads, so they see it when you
@@ -161,6 +178,8 @@
       CC BY-SA, with no link to your account.</li>
     <li><strong>Your email list sign-up</strong> isn't tied to your account: <a href="/unsubscribe">unsubscribe</a>
       to leave.</li>
+    <li><strong>That your Google account had Willo's free starter answers</strong> stays, as a one-way code made from
+      your Google ID (not the ID itself), so deleting your account and signing in again doesn't bring them back.</li>
   </ul>
 
   <h2>Your choices</h2>
@@ -187,7 +206,7 @@
 
 <footer class="wrap foot">
   <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
-  <p><a href="/privacy">Privacy</a>: what we keep and why.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why. <a href="/terms">Terms</a> and <a href="/refunds">refunds</a>.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>

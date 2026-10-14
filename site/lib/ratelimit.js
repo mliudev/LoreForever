@@ -37,6 +37,12 @@ export async function perDay(env, userId, scope, limit, now = new Date()) {
   return (await bump(env, userId, scope, `${scope}:${now.toISOString().slice(0, 10)}`)) <= limit;
 }
 
+// Counts one use in a period of the caller's own (`period`, a key that sorts by time, such as a plan month's first day,
+// lib/billing.js poolWindow); false once the account is over `limit` in it.
+export async function perPeriod(env, userId, scope, period, limit) {
+  return (await bump(env, userId, scope, `${scope}:${period}`)) <= limit;
+}
+
 // Counts one request from this sender today (UTC); false once they're over `limit` today. The sender is the daily IP
 // hash (lib/form.js), kept as user_id "ip:<hash>". That hash is new every day, so the first request of a day drops
 // the scope's older rows for every sender, not just this one.

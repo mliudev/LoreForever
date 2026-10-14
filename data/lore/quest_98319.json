@@ -1,0 +1,109 @@
+{
+ "key": "quest:98319",
+ "type": "quest",
+ "name": "Secure the Mountain",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98319
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Reclaiming caves like the Grizzled Den protects dwarven mountaineers and travelers from aggressive wendigos encroaching on Dun Morogh's pathways."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Ensuring Whitebeard receives intelligence reports is vital for Alliance forces maintaining border security against native mountain threats."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is cornelius",
+    "cornelius dwarf",
+    "where is cornelius"
+   ],
+   "answer": "Cornelius is a scout or mountaineer partnered with the quest giver. Driven by reckless bravery, he charged ahead directly into the wendigo-infested Grizzled Den, leaving his partner waiting outside for help to recover both him and Whitebeard's report.",
+   "q": "Who is Cornelius?"
+  },
+  {
+   "aliases": [
+    "what is grizzled den",
+    "where are wendigos",
+    "wendigo cave dun morogh"
+   ],
+   "answer": "The Grizzled Den is a cavern located north of the mountaineers' post. While wendigos normally stay confined to deep mountain hollows, they have recently overrun the den in unusually large numbers.",
+   "q": "What is the Grizzled Den?"
+  },
+  {
+   "aliases": [
+    "why wendigos spreading",
+    "wendigo problem dun morogh",
+    "wendigos like bunnies"
+   ],
+   "answer": "Wendigos typically keep to isolated caves, but local scouts note they have begun multiplying and spreading rapidly across the snowy mountain crags, posing a severe hazard alongside the local troll threat.",
+   "q": "Why are the wendigos spreading?"
+  },
+  {
+   "aliases": [
+    "who is whitebeard",
+    "whitebeard report",
+    "senir whitebeard"
+   ],
+   "answer": "Whitebeard is an authority or commander awaiting an essential reconnaissance report on mountain conditions. Cornelius was carrying or securing this report before charging recklessly into the den.",
+   "q": "Who is Whitebeard and what is his report?"
+  },
+  {
+   "aliases": [
+    "what is secure the mountain",
+    "secure the mountain objective"
+   ],
+   "answer": "It is a rescue and culling mission tasking adventurers with entering the Grizzled Den to locate the missing scout Cornelius and thin out the hostile wendigos infesting the cave.",
+   "q": "What is the goal of Secure the Mountain?"
+  },
+  {
+   "aliases": [
+    "trolls dun morogh",
+    "troll threat"
+   ],
+   "answer": "Local scouts already face persistent pressure from native Frostmane trolls in the peaks. The sudden surge in aggressive wendigos creates a dangerous two-front threat for patrols trying to secure the mountain passes.",
+   "q": "How do the trolls factor into the mountain's troubles?"
+  }
+ ],
+ "keywords": [
+  "cornelius",
+  "dun morogh",
+  "grizzled den",
+  "mountaineer",
+  "secure the mountain",
+  "troll",
+  "wendigo",
+  "whitebeard"
+ ],
+ "related": [
+  "subzone:grizzled-den",
+  "quest:313",
+  "topic:troll"
+ ],
+ "sections": [
+  {
+   "body": "Dwarven scouts monitoring the frigid mountain slopes face trouble on two fronts. Aside from the ever-present Frostmane troll threat, the local wendigos have begun multiplying aggressively, abandoning their usual solitary hollows to pack into the Grizzled Den to the north. These savage beasts make traveling the crags perilous for patrols and couriers alike.",
+   "spoiler": 0,
+   "title": "A Den Overrun"
+  },
+  {
+   "body": "A scout named Cornelius charged headfirst into the Grizzled Den to secure a vital report intended for Whitebeard. His impulsive bravery left his partner stranded outside, seeking capable adventurers willing to delve into the beast-packed cave, track down the reckless dwarf, and thin out the ferocious wendigo population.",
+   "spoiler": 0,
+   "title": "Reckless Valor"
+  }
+ ],
+ "summary": "Secure the Mountain is an Alliance quest addressing the sudden surge of wendigos overrunning the Grizzled Den in Dun Morogh. Adventurers are sent into the infested cavern to locate an overeager dwarven scout named Cornelius and recover a critical report for Whitebeard.",
+ "attribution": [
+  "In-game quest text: Secure the Mountain"
+ ]
+}

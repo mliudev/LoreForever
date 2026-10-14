@@ -18,8 +18,9 @@ the Pages project.
 Preview environment (Preview's own D1 `loreforever-preview` and R2 `lore-forever-voices-preview`, so its data is
 disposable). It's the one Preview address in the Google OAuth client, so it's where anything that needs signing in
 gets tested: put a branch there with `scripts/deploy-develop.sh <branch>` (a force push; it says what it replaces).
-Per-PR previews still build and are fine for pages that don't need an account, but sign-in only works on develop,
-and no other preview address should be added to the OAuth client. develop holds one branch at a time: on release
+Only `main`, `develop` and `preview` get Preview builds (Pages > Settings > Builds > Branch control, since 10/13), so
+other branches' Preview keys aren't on a public address: test a PR branch on develop or locally (`wrangler pages
+dev`). Sign-in only works on develop, and no other preview address should be added to the OAuth client. develop holds one branch at a time: on release
 days the release coordinator hands it out. Never merge develop into anything.
 
 A static landing page and feedback page (`public/`) plus small Cloudflare Pages Functions in `functions/`
@@ -28,8 +29,13 @@ A static landing page and feedback page (`public/`) plus small Cloudflare Pages 
 **`public/_routes.json` lists which paths run Functions: a new function outside `/api/*` and `/download/*` needs
 its path added there**, or Pages serves a 404 instead.
 Every page is sent with `X-Frame-Options: DENY` (nothing frames our pages, so nobody can overlay the account page's
-buttons) and `Referrer-Policy: strict-origin-when-cross-origin`: `/*` in `public/_headers` for files, and
-`functions/_middleware.js` for Function responses, which Pages doesn't apply `_headers` to. There's no CSP.
+buttons), `Referrer-Policy: strict-origin-when-cross-origin` and a Content-Security-Policy: `/*` in `public/_headers`
+for files, and `functions/_middleware.js` for Function responses, which Pages doesn't apply `_headers` to. The CSP
+allows scripts only from this site, Google sign-in, Turnstile and Cloudflare's analytics beacon, and **never from an
+`onclick=`-style attribute** (`script-src-attr 'none'`), so attach handlers with `addEventListener`
+(`tests/hashes.test.mjs` fails on one). A new third-party script needs its host added in both places. `/admin*`
+adds a stricter one: no inline `<script>` at all (its scripts are `admin-page.js` and `admin-edits.js`) and nothing
+fetched from other sites.
 
 ## Fill in before going live
 
@@ -138,9 +144,14 @@ Left out: `171159` (item tooltip) shows a "Keep: wanted for the quest" line that
 
 `public/privacy.html` (https://loreforeverwow.com/privacy) says in plain language what the site keeps, why, who else
 handles it (Cloudflare, Google, Discord, GitHub/CurseForge), what "Delete my account" removes and what stays. Every
-footer links it (`page()` in `lib/voices.js` and each static page; `site/tests/privacy.test.mjs` fails if one doesn't),
-and so do the account page's "What we keep", the sign-up box, the voice studio's release box and the narrator release.
-It must stay true to the code: a feature that stores something new about people updates it and its date.
+footer links it (`page()` in `lib/voices.js` and each static page), and so do the account page's "What we keep", the
+sign-up box, the voice studio's release box and the narrator release. It must stay true to the code: a feature that
+stores something new about people updates it and its date.
+
+`public/terms.html` (/terms) and `public/refunds.html` (/refunds) are the terms of service and the refund and
+cancellation rules that Stripe asks for before live payments (LOR-431), drafts for Mike's review. Every footer links
+them next to Privacy, and /plans links them by its buttons. They state the plans, prices and limits in
+`lib/billing.js`, so a change there updates them and their dates; HTML comments mark the choices left for Mike.
 
 ## Feedback form
 
@@ -306,7 +317,7 @@ narrators are ordinary entries, listed like any community voice.
 - **Pages setting:** `GOOGLE_CLIENT_ID` (plain variable, Production and Preview; the OAuth web client in the GCP
   project under mike.liu.dev@gmail.com). Its authorized JavaScript origins must include every host that serves
   `/account`: the domain, `lore-forever.pages.dev` and the develop site `develop.lore-forever.pages.dev` (test
-  sign-in there, not on per-PR previews; see "The develop site" at the top). Without it the account
+  sign-in there; see "The develop site" at the top). Without it the account
   page says sign-in isn't on yet, and **`/voices/submit` and `/feedback` can't take anything**.
 
 ## Player profiles (LOR-181)
@@ -530,8 +541,9 @@ to `/account#profile` when there's none yet).
   `gemini-3.1-flash-lite` without search, with minimal thinking and 512 output tokens. Required research uses
   `gemini-3.8-flash` with native Google Search, low thinking and 2,048 output tokens. It discards answers without
   usable provider citations and never falls back to remembered gameplay advice. Timeouts are 8 and 35 seconds,
-  with no automatic retry. Both count toward 20 free answers per account per UTC day. Native search suggestions
-  and filtered provider source links accompany researched answers.
+  with no automatic retry. Both count toward the account's live answers per UTC day: 20 while the `plans` feature is
+  off, else what its plan sets (see "Plans" below). Native search suggestions and filtered provider source links
+  accompany researched answers.
   The optional `operation: "compact"` uses Flash-Lite without search to summarize private conversation context.
   It returns `summary` (at most 2,400 UTF-8 bytes), allows 1,024 output tokens and uses a separate daily limit of 20
   updates. It does not consume a player's daily answer allowance. Both operations cap prompts at 16,000 UTF-8 bytes.
@@ -559,6 +571,15 @@ to `/account#profile` when there's none yet).
     removes facts.
     A character reply gets them as how things stand in its world, without the game's name.
     Answers return `forever_facts`, the titles they were given.
+  - **Quest and NPC facts (`lib/forever-quest-facts.js`):** a quest the question names (even misheard: "retrieval for
+    maren"), an NPC it names, or a quest in the player's log (PLAYER CONTEXT's "quest in their log" lines) when the
+    question asks about it without naming it ("where does this go?") or names its people or targets ("where are the
+    scarlet warriors?") come as QUEST AND NPC FACTS ahead of FOREVER FACTS, at most 1,800 bytes: givers (the
+    player's faction's), turn-ins, targets and what drops a quest item nearby, and where each stands with zone map
+    coordinates. They count as answering the question, so they come only then: "where can I learn cooking?" keeps
+    its look-up. Not for character replies. The data is `lib/forever-quests.js`, generated by
+    `pipeline/lore/quest_places.py` from VMaNGOS (the original game, marked so) with Forever's own data on top: the
+    player's journey, Forever's quest cache, the Forever wiki pages. No database.
   - **Looking it up (LOR-446, `lib/research-cache.js`, `lookUp` in `lib/companion-answers.js`):** optional
     `research: "auto"` (the companion sends it with spoken questions) lets the site decide. A practical question or a
     correction that no FOREVER FACT matched by its words gets a quick look online first: one Flash-Lite call with
@@ -591,7 +612,8 @@ to `/account#profile` when there's none yet).
     their own estimate. `answer_spend.actual_micro` records known charges; `reserved_micro` includes unresolved
     estimates and measured spend. Profile stories and voice share this gate; the admin dashboard shows all three.
     When the free allowance is used up, players wait for the next day (or month, at the shared budget); there is no
-    own-key option (Mike, 2026-10-10: pricing comes first).
+    own-key option (Mike, 2026-10-10: pricing comes first). With the `plans` feature on, paying players and top-up
+    answers skip this gate (see "Plans" below).
 - **The picture book** (Mike, 2026-10-05; `lib/pictures.js`, behind the **`pictures` feature**, below): pictures a
   player takes in game with the picture key, which the companion app puts on the profile, each in the chapter it was
   taken in (beside the nearest moment of the same character, `lib/trails.js` `timelinePictures`; ones with no chapter
@@ -629,6 +651,130 @@ to `/account#profile` when there's none yet).
   `site/tests/pictures.test.mjs` (the picture book: uploads, updates, the cap, Remove, reports, the images, the feature),
   `site/tests/devices.test.mjs` (connecting, tokens, Disconnect, updates and when they write a story),
   `site/tests/journeydata.test.mjs` (the companion's journey privacy and preservation across updates).
+
+## Plans (Stripe)
+
+Paid plans for Willo, the companion (LOR-252, LOR-431): `lib/billing.js`, the API in
+`functions/api/billing/[action].js`, the page **`/plans`** (`public/plans.html`: the plan cards from `FEATURES`, monthly
+or yearly, Choose, Manage billing) and the plan card at the top of `/account` (free players: what a plan adds and a
+link to /plans; subscribers: their plan, when it renews and Manage plan). `/account#plans`, where plans used to be,
+goes to /plans. A live key (`sk_live_`, `rk_live_`) is refused unless `STRIPE_LIVE=1`.
+
+- **Switched off** by the `plans` site feature (`lib/features.js`), off until Mike sets `SITE_FEATURES=plans` in
+  Production for the launch. While it's off nothing is for sale, stored subscriptions are ignored and every account
+  gets 20 live answers a day, with research and pictures, as before plans. `SITE_FEATURES=plans` on Preview turns it
+  on for the develop site; the STRIPE_* secrets are needed as well.
+- **The plans** (launch plans, Mike, 2026-10-12) are constants at the top of `lib/billing.js` (`PLANS`, `FEATURES`,
+  `BLURBS`, `SELLABLE`, `COMPANION_FEATURES`):
+  - **Adventurer** (free): 5 answers a day and a one-time **starter** of 30 (`STARTER_ANSWERS`). Answers stay with
+    the world's lore: no web research (required or quick), no game picture, and a short `LORE_FOCUS` block in the
+    prompt (`lib/companion-answers.js`). Spoken answers stay, in Willo's default voice.
+  - **Hero** $4.99 a month or $49.99 a year: 900 answers a month, up to 100 in a day (a four-hour session at about
+    20 questions an hour), 10 web look-ups a month, all of Willo's voices, push-to-talk, sight, characters' own
+    voices, preset Willo styles.
+  - **Champion** $9.99/$99.99: 1,900 a month, up to 200 in a day (eight hours), 20 web look-ups a month, a chat memory
+    twice as long (4,800 bytes; the companion keeps up to 12,000), its own Willo style in words and NPC tales
+    (`lib/willo-custom.js`). No stronger model at launch: 3.8 Flash costs three times as much (only hidden Legend has
+    `stronger`).
+  - **Sized for 50% margin** (Mike, 2026-10-12) even when every answer and look-up is used: about $0.0018 an answer
+    and $0.05 a look-up make Hero's month at most about $2.12 of the $4.37 it brings after Stripe's fees, Champion's
+    $4.42 of $9.05. The cost caps ($2.50, $5) stay as a safety net above that.
+  - **Legend** $19.99/$199.99: defined but `hidden` (Mike, 2026-10-12: not built yet), so it's neither listed on
+    /plans nor for sale, whatever `BILLING_PLANS` says.
+  The Pages variable `BILLING_PLANS` (e.g. `hero,champion`) changes which are for sale.
+- **A paid plan's month** runs from its renewal day (`poolWindow`: the day of the month its paid period ends, clamped
+  to a shorter month's last day; the calendar month without one), so a month paid for never holds two pools. Its
+  answers (`answersPerMonth`) and web look-ups (`lookupsPerMonth`: required research or a quick look-up; a finding
+  another player's search kept is free and isn't counted) are counted in `rate_limits` (`companion-month:<month's
+  first day>`, `companion-lookup:<same>`), only while plans are on. Past the look-ups, the month's answers don't look
+  online. A research answer written with the player's own style or tale isn't
+  kept for other players.
+- **The starter** is a row in `answer_packs` (`kind` 'starter', id `starter:<user id>`), credited once per account by
+  `planFor` the first time a free account with a connected companion is looked at, and once per Google account:
+  `starter_claims` keeps a salted hash of the Google ID (salt in `billing_salt`) after Delete my account, so deleting
+  the account and signing in again brings no new starter. It's used after the day's free
+  answers, before any top-up, but it's free: it needs the shared budget, its cost isn't the player's, it never counts
+  as a month's top-up, it can't be bought and refunds don't touch it. A paying player doesn't draw on it.
+- **The brake:** once this month's free spend (free live answers, profile stories and their voice) passes $80, free
+  players get 5 a day until the month ends. Starter answers still need the shared budget.
+- **The companion's allowance** (`GET /api/companion/answer`) keeps `limit`, `remaining` (with starter and top-up
+  answers, within the day's most), `resetsAt`, `period` ("day" or "month": which of a paid plan's two runs out first;
+  `limit` and `resetsAt` are that one's), `available`, `plan`, `upgrade` ("/plans") and `topup` (`{remaining, active}`; active: the plan's answers and the
+  starter are used up, so answers come from a top-up), and while plans
+  are on adds `features: {voices: "all" | "default", push_to_talk, sight, npc_voices, research}`: Willo's session turns
+  its own features on or off by it (free: `"default"` and false; paid: `"all"` and true).
+  A paying player past the month's cost cap also gets `fair_use: {mind: "standard" (a plan with `stronger`),
+  lookups: false, until}` (the next calendar month's start, UTC), so the companion can say so.
+- **Paying players** skip the shared $100 monthly gate (their plan pays; their reservations still go into
+  `answer_spend`, so /admin sees the whole month). Each plan has a monthly cost cap ($2.50, $5, $10, in
+  `answer_user_spend`, which a paid-for answer's quick look online counts toward too): past it, research and the
+  stronger model stop until the month ends. Nobody is cut off. An answer that would research or use the stronger
+  model first holds its reservation against the cap (or its top-up pack's) in one statement (`holdUserSpend`, a row
+  in `answer_holds`), so questions sent at once can't all get in under it; the hold is settled with the answer's
+  cost, or given back when the request ends any other way, and stops counting after 5 minutes if the request was cut
+  off before either. Statuses active, trialing and past_due keep the plan
+  until the paid period ends; anything else is the free plan.
+- **How a payment arrives:** Choose → `POST /api/billing/checkout` → Stripe Checkout → Stripe calls
+  **`POST /api/billing/webhook`** (signed; `applyEvent` fetches the subscription from Stripe and stores it in
+  `entitlements`, so repeated or out-of-order events change nothing). Manage billing → `POST /api/billing/portal`
+  (Stripe's billing portal: switch plan, card, cancel at the period's end, invoices). Delete my account cancels
+  every subscription the customer has at Stripe that could still charge them, before anything is deleted; when Stripe
+  can't be reached, nothing is deleted and they're asked to try again. A new checkout first closes the customer's
+  earlier open plan checkout pages, so two tabs can't start two subscriptions. A top-up is credited from the checkout
+  session as Stripe returns it, not from the event's copy; an event from the other mode (test on live, or the reverse)
+  is ignored, and the webhook works whenever Stripe is set up, plans on or off.
+- **Top-ups** (`TOPUP` in `lib/billing.js`): 300 answers for $2.99, one-time, never expiring, for anyone signed in;
+  at most 3 a calendar month (UTC). Buy on /plans#topup → `POST /api/billing/topup` (Checkout, `mode=payment`) → the
+  webhook credits a row in `answer_packs` once per checkout session; `charge.refunded` zeroes it, and so does
+  `charge.dispute.created` (status `disputed`). Top-up answers are
+  used only after the plan's answers, today's or the month's (and a free player's starter), oldest pack first, within
+  200 live answers a day in all (`DAY_MAX`; a plan with more gets its own, `dayMax`). They skip the shared budget; their cost goes into
+  `answer_user_spend` (`topup_micro`, kept out of the plan's cost cap) and the pack, and past $1.50 on a pack its
+  answers stop researching (and a `stronger` plan's go back to Flash-Lite). A free player's top-up answers are still free
+  plan answers: lore-focused, without research or the picture. When answers run out, the companion's 429 carries
+  `offers` (the next plan up while it's for sale, and a top-up while one can be bought).
+- **Setup (Mike):** Pages secrets **`STRIPE_SECRET_KEY`** (a restricted key is best) and **`STRIPE_WEBHOOK_SECRET`**:
+  test ones in Preview (develop), live ones in Production. With the test key in the repo's `.env`,
+  `node scripts/stripe-setup.mjs --webhook https://develop.lore-forever.pages.dev/api/billing/webhook` makes the
+  products, the prices (by lookup key: `hero_monthly`, `hero_yearly`, ..., `topup_300`; tax included), the billing
+  portal's settings and the webhook, and writes the webhook's secret into `.env` for you to copy into Pages. Running it
+  again changes nothing; run it again after `FEATURES`, `BLURBS` or prices change. `STRIPE_MANAGED_PAYMENTS=1` makes
+  Stripe the merchant of record (VAT and sales tax), once Managed Payments is on in the Stripe Dashboard.
+- **Launch (live):** with the live key in `.env` as `STRIPE_LIVE_SECRET_KEY`,
+  `node scripts/stripe-setup.mjs --live --webhook https://loreforeverwow.com/api/billing/webhook` does the same in live
+  mode (it says LIVE MODE first, refuses a test key, and writes the webhook's secret as `STRIPE_LIVE_WEBHOOK_SECRET`,
+  so the test one stays). Then in Production: `STRIPE_SECRET_KEY` (the live key), the live webhook's secret as
+  `STRIPE_WEBHOOK_SECRET` or `STRIPE_LIVE_WEBHOOK_SECRET` (`verifyWebhook` reads either), `STRIPE_LIVE=1`,
+  `STRIPE_MANAGED_PAYMENTS=1` once Managed Payments is on, and `SITE_FEATURES=plans`.
+- **Off by default:** without `STRIPE_SECRET_KEY` the section stays hidden, the API answers 503 (`plans` says
+  `{on: false}`), and live answers use the free plan's limits.
+- /admin's **Plans** tile: paying players, the monthly revenue estimate (a yearly plan as a twelfth, before Stripe's
+  fees), accounts by plan and status, what paying players' answers cost this month, top-ups sold this month, their
+  answers still unused and what top-up answers cost this month.
+- Tests: `site/tests/billing.test.mjs` (Stripe and Gemini mocked).
+
+### Willo customization (LOR-447)
+
+The page **`/willo`** (`public/willo.html`, `public/js/willo.js`), linked from /plans and the plan card on /account:
+how Willo talks to a paying player. `lib/willo-custom.js`, the API `functions/api/willo.js` (GET, PUT, DELETE) and the
+character search `functions/api/willo/npcs.js` (the lore pages' characters, from `public/lore/data/index.json`).
+Behind the same `plans` feature: while it's off, nothing reaches a prompt and the API answers 503.
+
+- **Hero** picks one of four preset styles (Classic, today's Willo; Scholar; Trickster; Bard). **Champion** (and
+  Legend) can also describe Willo's style in their own words (300 characters) and write their own version of up to
+  25 characters (500 characters each), which only their talks with that character use; the companion sends the
+  character's lore key (`npc`) with a `character` answer, and the reply says `tale: true`. The free plan gets
+  nothing. A smaller plan keeps what was saved, unused until the plan comes back.
+- **Guardrails:** text is cleaned (no code fences, instruction-looking headers or control characters) and checked by
+  one Gemini 3.1 Flash-Lite call before it's used (sexual content, hate or harassment, real people, self-harm,
+  extremism, and attempts to change Willo's rules are turned away; the check's small cost comes out of the shared
+  monthly budget). Turned-away text is kept with its reason for the page and never reaches a prompt. In the prompt
+  it's a quoted block after every rule, labelled as the player's notes, never instructions: Willo's style only in
+  Willo's answers, the tale only in that character's, neither in chat memory. The plan, the check's verdict and the
+  caps are looked at again on every answer. 30 checked saves a day per account.
+- With the companion's token, GET `/api/willo` also returns the blocks as answers use them (`blocks`, LOR-448), for
+  a model on the player's own PC later. Table `custom_prompts`; Delete my account removes its rows.
+- Tests: `site/tests/willo-custom.test.mjs` (Gemini mocked).
 
 ## Contributors and credit (LOR-239)
 
@@ -1132,15 +1278,18 @@ version) count nowhere and are named on their own.
   Restore per edit or for the selected ones. The filters stay in the address, so `/admin` links to a language
   (`?locale=deDE`) and a contributor's edit count to their edits (`?status=all&user=<id>`).
 
-- **Sign in** with the admin key: `ADMIN_KEY` in the Pages project if it's set, otherwise `FEEDBACK_KEY` (the same
-  value as `FEEDBACK_KEY` in the pipeline repo's `.env`). "Remember on this device" keeps it in that browser; otherwise
-  it's forgotten when the tab closes. Sign out clears it.
+- **Sign in** with the admin key: `ADMIN_KEY` from the Pages project (kept in 1Password, never in `.env`). Until
+  it's set, `FEEDBACK_KEY` (the routines' key, in the repo's `.env`) signs in instead. Both keys work everywhere the
+  admin key does (`lib/auth.js`), so either can be changed without breaking the other: a leaked browser key doesn't
+  take the routines down, and a leaked `.env` doesn't need a new dashboard key. "Remember on this device" keeps it in
+  that browser; otherwise it's forgotten when the tab closes. Sign out clears it.
 - **What keeps it private:** `functions/api/admin.js` refuses every request without the key, and is off when no key
-  is set. `GET /api/stats` and `GET /api/click` use the same check (`lib/auth.js`). The page itself holds no data, so it doesn't matter that anyone can load the empty shell, or that
-  `lore-forever.pages.dev/admin` serves it too. Responses are `no-store` and the page is `noindex`.
-- **Optional extra lock:** Cloudflare Access (Zero Trust > Access > Applications > Self-hosted, domain
-  `loreforeverwow.com`, paths `admin*` and `api/admin*`, allow only your email) adds a login in front of the
-  custom domain. The key check stays either way, since Access doesn't cover `*.pages.dev`.
+  is set. `GET /api/stats` and `GET /api/click` use the same check (`lib/auth.js`). The page itself holds no data, and
+  old addresses (`lore-forever.pages.dev/admin`) redirect to loreforeverwow.com. Responses are `no-store`, the page is
+  `noindex`, and its Content-Security-Policy runs no inline script, so nothing in a report can run there.
+- **Extra lock:** Cloudflare Access (Zero Trust > Access > Applications > Self-hosted, domain `loreforeverwow.com`,
+  path `admin*`, allow only your email) puts a login in front of the page. Not `api/admin*`: the routines call it
+  with the key from scripts and would be stopped at the login.
 - Feedback reports get a `status` column (`new` / `done`) the first time the dashboard loads.
 
 ## Cloudflare setup (Mike does this, about 10 minutes)

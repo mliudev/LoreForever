@@ -1,0 +1,115 @@
+{
+ "key": "quest:99049",
+ "type": "quest",
+ "name": "Threat from Below",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99049
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Investigating the coastline is vital to the security of Durotar, safeguarding the young Horde nation from being flanked along its maritime borders."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orc defenders regard the ambush of scout Heglan Shadeeye as an intolerable intrusion upon their settled homeland, demanding immediate investigation and retaliation."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Darkspear trolls understand the treacherous nature of the naga all too well, having previously faced sea witches and aquatic horrors in the Great Sea."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "threat from below quest",
+    "what is threat from below",
+    "threat from below overview"
+   ],
+   "answer": "Threat from Below is a quest in Durotar wherein Horde adventurers investigate the sudden disappearance of the scout Heglan Shadeeye. Following evidence of a violent battle along the coastline, players search the disturbed terrain for clues left behind by the unknown assailants. Recovered artifacts are then brought directly to Orgnil Soulcutter in Razor Hill to assess the military peril facing the region.",
+   "q": "What is Threat from Below?"
+  },
+  {
+   "aliases": [
+    "heglan shadeeye",
+    "who is heglan",
+    "heglan shadeeye lore"
+   ],
+   "answer": "Heglan Shadeeye is an orc scout operating along the coast of Durotar to monitor threats bordering the Horde's heartland. While on assignment, she was ambushed at her coastal vantage point. The severe damage at the campsite indicates she put up a fierce fight against her assailants before vanishing, prompting urgent inquiries from the settlement leadership in Razor Hill.",
+   "q": "Who is Heglan Shadeeye?"
+  },
+  {
+   "aliases": [
+    "who ambushed heglan",
+    "heglan attackers",
+    "what attacked heglan shadeeye"
+   ],
+   "answer": "Heglan Shadeeye was ambushed by naga moving southward along the Durotar shoreline. Physical evidence recovered from the skirmish, specifically a distinct banner and a fractured blade piece, confirms that the serpent beings carried out the raid. The ferocity of the encounter left both the scout missing and the attackers injured before they withdrew toward the water.",
+   "q": "Who attacked Heglan Shadeeye?"
+  },
+  {
+   "aliases": [
+    "who is orgnil",
+    "orgnil soulcutter",
+    "orgnil in razor hill"
+   ],
+   "answer": "Orgnil Soulcutter is a prominent orc authority stationed at Razor Hill in central Durotar. Tasked with organizing the defense of the region and coordinating Horde scouts, Orgnil oversees intelligence regarding hostile incursions. When Heglan Shadeeye fails to report in, Orgnil relies on returning scouts and adventurers to identify the attackers and safeguard the settlement.",
+   "q": "Who is Orgnil Soulcutter?"
+  },
+  {
+   "aliases": [
+    "why are naga dangerous here",
+    "naga threat razor hill",
+    "razor hill naga danger"
+   ],
+   "answer": "Razor Hill already faces intense military pressure from Kul Tiras human marines entrenched to the south and hostile quilboar in the west. If the naga establish a permanent beachhead along the eastern coast to the north, the Horde outpost risks being caught in an inescapable pincer maneuver, overextending its limited garrison and cutting off reinforcement routes across Durotar.",
+   "q": "Why are the naga a danger to Razor Hill?"
+  },
+  {
+   "aliases": [
+    "where did naga come from",
+    "naga origin durotar",
+    "how did naga get to durotar"
+   ],
+   "answer": "The recovered military remnants suggest that the naga traveled south along the coast from northern waters, likely originating from Azshara or the Great Sea shelf. By using the waterways to bypass inland patrols, the aquatic invaders struck quickly against isolated coastal observation posts before Durotar's defenders could marshal an organized perimeter.",
+   "q": "Where did the attacking naga come from?"
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "heglan shadeeye",
+  "horde",
+  "naga",
+  "orgnil soulcutter",
+  "razor hill",
+  "scout",
+  "threat from below"
+ ],
+ "related": [
+  "topic:naga",
+  "subzone:razor-hill",
+  "quest:536"
+ ],
+ "sections": [
+  {
+   "body": "A violent skirmish along the Durotar coast leaves behind shattered earth and immediate cause for alarm among the Horde's defenders. Heglan Shadeeye, an orc scout dispatched into the field, was ambushed by an unseen adversary. Although the skirmish site clearly demonstrates that Heglan fought back fiercely and injured her attackers, she has gone missing from her post. With hostile forces moving unchecked along the eastern shoreline, Horde adventurers are called upon to survey the devastated campsite, comb the surrounding ground for clues, and determine what manner of enemy struck the scout.",
+   "spoiler": 0,
+   "title": "Ambush on the Durotar Coast"
+  },
+  {
+   "body": "Searching the wreckage uncovers a torn banner and the fragmented edge of an exotic blade, both belonging to the serpent-like naga. These sinister aquatic creatures appear to have crept southward down the Durotar coastline from Azshara to establish a predatory foothold. For the garrison stationed at Razor Hill, this discovery signals impending crisis. Beset by human invaders from Tiragarde Keep to the south and quilboar along the western canyons, the settlement cannot endure a new maritime offensive pressing down from the north without risking total collapse.",
+   "spoiler": 1,
+   "title": "The Serpent Threat"
+  }
+ ],
+ "summary": "Threat from Below is a Horde quest centered on investigating a violent ambush along the eastern shores of Durotar. After scout Heglan Shadeeye disappears following a fierce skirmish, adventurers must inspect the devastated area for clues regarding the attackers. Uncovering physical evidence reveals an encroaching naga presence that directly endangers Razor Hill's defensive lines.",
+ "attribution": [
+  "In-game quest text: Threat from Below"
+ ]
+}

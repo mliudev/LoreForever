@@ -37,57 +37,62 @@ function Giver.RaceOf(fileID)
   return v:match("^(%S+) (%S+)$")
 end
 
--- A hidden one-pixel model to put the unit on and read its model file id. false: this client can't.
-local model, pending
-local function modelFrame()
-  if model == nil then
-    model = false
+-- Hidden one-pixel models to put a unit on and read its model file id, one per slot ("giver": the quest window's
+-- NPC; "strip": your target, for live game info), so a look at one never cancels the other's.
+-- slots[slot] = { model = frame | false (this client can't), pending = fn }.
+local slots = {}
+local function slotFor(slot)
+  local s = slots[slot]
+  if not s then
+    s = { model = false }
+    slots[slot] = s
     local f = call(CreateFrame, "PlayerModel", nil, UIParent)
     if f and f.SetUnit and f.GetModelFileID then
       call(f.SetSize, f, 1, 1)
       call(f.SetPoint, f, "TOPLEFT", UIParent, "BOTTOMRIGHT", 8, -8)   -- off screen
       call(f.SetAlpha, f, 0)
       call(f.Hide, f)
-      model = f
+      s.model = f
     end
   end
-  return model or nil
+  return s
 end
 
-local function readModel()
-  local id = call(model.GetModelFileID, model)
+local function readModel(s)
+  local id = call(s.model.GetModelFileID, s.model)
   return type(id) == "number" and id > 0 and id or nil
 end
 
-local function finish()
-  local p = pending
-  if not (p and model) then return end
-  local id = readModel()
+local function finish(s)
+  local p = s.pending
+  if not (p and s.model) then return end
+  local id = readModel(s)
   if id then
-    pending = nil
-    call(model.Hide, model)
+    s.pending = nil
+    call(s.model.Hide, s.model)
     call(p, id)
   end
 end
 
 -- Calls fn(model file id) for the unit: at once when the client knows it, else when the model has loaded (or at a
--- last look half a second later). A newer call replaces a waiting one.
-function Giver.ModelOf(unit, fn)
-  local f = modelFrame()
+-- last look half a second later). A newer call in the same slot (default "giver") replaces a waiting one.
+function Giver.ModelOf(unit, fn, slot)
+  local s = slotFor(slot or "giver")
+  local f = s.model
   if not f then return end
   call(f.Show, f)
   call(f.SetUnit, f, unit)
-  pending = fn
-  local id = readModel()
-  if id then return finish() end
+  s.pending = fn
+  local id = readModel(s)
+  if id then return finish(s) end
   if not f.__giverHooked then
     f.__giverHooked = true
-    call(f.SetScript, f, "OnModelLoaded", finish)
+    call(f.SetScript, f, "OnModelLoaded", function() finish(s) end)
   end
   if C_Timer and C_Timer.After then
     call(C_Timer.After, 0.5, function()
-      finish()
-      if pending == fn then pending = nil; call(model.Hide, model) end   -- never came: give up on this one
+      finish(s)
+      if s.pending == fn then s.pending = nil; call(f.Hide, f) end   -- never came: give up on this one
     end)
   end
 end

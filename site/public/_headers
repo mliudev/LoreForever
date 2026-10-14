@@ -1,16 +1,24 @@
 # Every page: never shown inside another site's frame (nothing frames ours), and links to other sites get only our
-# origin. These don't reach responses from Functions, so functions/_middleware.js sets the same two there.
+# origin. The Content-Security-Policy runs scripts only from this site, Google sign-in, Turnstile and Cloudflare's
+# analytics beacon, and never from an onclick= or onerror= attribute (script-src-attr 'none'), which is how text put
+# into a page with innerHTML would run, so pages attach handlers with addEventListener. These don't reach responses
+# from Functions, so functions/_middleware.js sets the same three there (tests/hashes.test.mjs checks they match).
 /*
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: script-src 'self' 'unsafe-inline' https://accounts.google.com https://challenges.cloudflare.com https://static.cloudflareinsights.com; script-src-attr 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'
 
 /install.ps1
   Content-Type: text/plain; charset=utf-8
   Cache-Control: no-cache
 
+# The dashboard holds the admin key and shows what strangers sent (reports, edits, names), so on top of the policy
+# above it runs no inline script at all and talks only to this site: its scripts are files (admin-page.js,
+# admin-edits.js). Both policies apply; a browser enforces each.
 /admin*
   X-Robots-Tag: noindex, nofollow
   Cache-Control: no-store
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'
 
 /voices/clips.csv
   Content-Type: text/csv; charset=utf-8

@@ -1,0 +1,110 @@
+{
+ "key": "quest:94500",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94500
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This quest guides travelers along the Alliance maritime route from the Eastern Kingdoms out to Kalimdor, connecting Menethil Harbor to Auberdine and the Night Elf settlement of Astranaar."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The quest directs travelers to the pristine waters surrounding Astranaar, one of the heartlands of the Kaldorei in Ashenvale, where ancient ruins still lie undisturbed."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is call of water",
+    "call of water quest",
+    "call of water objective"
+   ],
+   "answer": "Call of Water is a quest requiring the traveler to take an empty waterskin deep into the ancient forest of Ashenvale. The goal is to collect a sample of pure, ancient, and potentially enchanted water from the lake cradling the settlement of Astranaar before returning it to the questgiver.",
+   "q": "What is the quest Call of Water?"
+  },
+  {
+   "aliases": [
+    "where to find pure water",
+    "where to fill waterskin",
+    "call of water location"
+   ],
+   "answer": "The water must be gathered from the lake surrounding Astranaar, located deep within Ashenvale. The waters there remain uncorrupted, flowing amidst ancient sunken ruins that date back to a bygone era.",
+   "q": "Where do I collect the water for this quest?"
+  },
+  {
+   "aliases": [
+    "how to get to astranaar",
+    "travel to ashenvale",
+    "boat to astranaar"
+   ],
+   "answer": "Travelers are advised to board the boat from Menethil Harbor to Auberdine, which makes a stop at Southshore along the way. From Auberdine on the Darkshore coast, one travels south into the deep emerald woods of Ashenvale to reach Astranaar.",
+   "q": "How do I travel to Ashenvale for this quest?"
+  },
+  {
+   "aliases": [
+    "what lake in astranaar",
+    "astranaar water ruins",
+    "ruins in astranaar lake"
+   ],
+   "answer": "The lake cradling Astranaar is noted for holding waters untouched by corruption. Beneath its surface lie submerged stone ruins hinting at an ancient, bygone era of elven civilization, lending the water its pristine and potentially enchanted qualities.",
+   "q": "What makes the water at Astranaar special?"
+  },
+  {
+   "aliases": [
+    "who is norric",
+    "return to norric"
+   ],
+   "answer": "Norric is the individual awaiting the traveler after this final liquid sample is gathered. The questgiver collects this pure Ashenvale water as the last ingredient before sending the adventurer back to Norric.",
+   "q": "Who is Norric?"
+  },
+  {
+   "aliases": [
+    "danger in ashenvale",
+    "ashenvale threats"
+   ],
+   "answer": "Ashenvale is an ancient, dense forest filled with perils. The questgiver warns travelers to be constantly alert, cautioning that the forest has watchful eyes that do not blink as one ventures beneath its emerald canopy.",
+   "q": "What dangers should I expect in Ashenvale?"
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "astranaar",
+  "auberdine",
+  "call of water",
+  "menethil",
+  "norric",
+  "southshore",
+  "waterskin"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "subzone:astranaar",
+  "subzone:auberdine",
+  "subzone:southshore"
+ ],
+ "sections": [
+  {
+   "body": "Call of Water charges an adventurer with filling a waterskin from the uncorrupted waters of Ashenvale. The seeker must venture to Astranaar, a haven nestled amidst clean, ancient waters that lap against sunken ruins from a bygone era. This pristine sample serves as the final liquid needed by the questgiver before the traveler is sent on to Norric.",
+   "spoiler": 0,
+   "title": "The Search for Pure Water"
+  },
+  {
+   "body": "Reaching the depths of Ashenvale requires crossing the sea from the Eastern Kingdoms. The recommended path takes travelers aboard the ship sailing out of Menethil Harbor toward Auberdine, making port at Southshore along the journey. From the docks of Auberdine, the road leads inland into the emerald boughs of Ashenvale, where travelers are warned to stay alert among the watchful shadows of the trees.",
+   "spoiler": 0,
+   "title": "The Road to Astranaar"
+  }
+ ],
+ "summary": "Call of Water tasks an adventurer with journeying into the emerald canopy of Ashenvale to collect pure, ancient water from the lake cradling Astranaar. It marks the final gathering step before the traveler is sent back to Norric.",
+ "attribution": [
+  "In-game quest text: Call of Water"
+ ]
+}

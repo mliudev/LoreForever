@@ -1,0 +1,98 @@
+{
+ "key": "quest:99051",
+ "type": "quest",
+ "name": "Threat from Below",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99051
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The quest giver mobilizes Horde grunts to watch for stragglers, making this a proactive defense of Horde-held territory against encroaching naga scouts."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is threat from below",
+    "threat from below quest"
+   ],
+   "answer": "Threat from Below is a Horde quest tasking adventurers with eliminating naga scouts who have begun establishing encampments nearby. To ensure the incursions are halted, players must slay the encroaching serpentfolk and gather naga spinefins as proof of the deed.",
+   "q": "What is Threat from Below?"
+  },
+  {
+   "aliases": [
+    "who are the snakes",
+    "snakes in threat from below"
+   ],
+   "answer": "The 'snakes' or 'snake scum' refer to the naga, amphibious serpentine humanoids who have emerged from coastal or aquatic depths to scout out local positions.",
+   "q": "Who are the snakes mentioned in the orders?"
+  },
+  {
+   "aliases": [
+    "why kill naga scouts",
+    "naga motive"
+   ],
+   "answer": "The encampments suggest an organized scouting effort rather than wandering creatures. The local commander demands swift retaliation to send the invaders packing before they can mount a larger assault or entrench themselves further.",
+   "q": "Why must the naga scouts be eliminated?"
+  },
+  {
+   "aliases": [
+    "why spinefins",
+    "naga proof"
+   ],
+   "answer": "Severed spinefins serve as undeniable physical proof that the scout camps were discovered and dismantled, confirming that the immediate pressure along the border has been broken.",
+   "q": "Why are naga spinefins collected?"
+  },
+  {
+   "aliases": [
+    "where do naga go",
+    "naga north"
+   ],
+   "answer": "Upon turning in the fins, the commander notes hopes that the strike will send the naga packing back to the north, assigning grunts to watch for stragglers or suspicious movements.",
+   "q": "Where are the naga expected to retreat?"
+  },
+  {
+   "aliases": [
+    "who watches for naga",
+    "grunts naga watch"
+   ],
+   "answer": "Horde grunts are instructed to keep watch over the area to ensure no stragglers remain and that the naga do not attempt any further incursions.",
+   "q": "Who keeps watch after the scouts are slain?"
+  }
+ ],
+ "keywords": [
+  "grunts",
+  "naga",
+  "naga spinefins",
+  "scouts",
+  "snake scum",
+  "spinefins",
+  "threat from below"
+ ],
+ "related": [
+  "topic:naga"
+ ],
+ "sections": [
+  {
+   "body": "Threat from Below addresses a mounting border disturbance caused by encroaching naga scouts. The serpentine raiders have begun setting up advance camps nearby, prompting local defenders to strike before the intruders can secure a permanent foothold. Adventurers are dispatched to cull the scout forces and return with naga spinefins as proof that the encampment has been crushed.",
+   "spoiler": 0,
+   "title": "Serpentine Incursion"
+  },
+  {
+   "body": "This is not the first time the serpentfolk have troubled the area, and local command makes it clear that their presence will not be tolerated. Following the strike against their scout camps, the goal is to drive any surviving naga back to the north, leaving vigilant Horde grunts posted to guard against stragglers or sudden ambushes.",
+   "spoiler": 0,
+   "title": "Securing the Borders"
+  }
+ ],
+ "summary": "Threat from Below is a defensive mission to purge aggressive naga scouts who are setting up camp nearby. By striking the scout forces and taking their spinefins, adventurers aim to drive the serpentine invaders back north and safeguard the area.",
+ "attribution": [
+  "In-game quest text: Threat from Below"
+ ]
+}

@@ -397,6 +397,25 @@ def pause_split_coverage(manifest):
     return len(full), sum(1 for e in full if e.get('chain') or (len(e['1']) == 1 and e['1'][0]['sha256'] in cuts))
 
 
+def pause_split_report(pack, stage):
+    """pause_split for a build, with what to say about it: (the folder its zip takes the pack from, lines to print, or
+    the error that stops the build). build-voice-packs.sh runs one per pack in worker processes, all at once."""
+    pack = Path(pack)
+    try:
+        manifest = validate(pack)
+        stories, cut = pause_split_coverage(manifest)
+        src, notes = pack, []
+        if (manifest or {}).get('cuts'):
+            src, split, _ = pause_split(pack, stage)
+            if split:
+                notes.append(f'{pack.name}: {split_note(validate(src), split)}')
+        if stories and not cut:
+            notes.append(f'{pack.name}: none of its {stories} complete stories has cut points, so they play whole')
+        return src, notes, None
+    except TransportError as e:
+        return None, [], str(e)
+
+
 def validate(pack, *, probe=False, limit=LIMIT, replacing=frozenset(), source_root=None):
     """No-op for legacy packs. Receipts bind runtime metadata to scripts and actual segment bytes."""
     pack = Path(pack)

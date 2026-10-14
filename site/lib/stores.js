@@ -37,7 +37,7 @@ export const CF_CORE = 1715510;
 // The narration and language projects in release/curseforge.json that have an id (site/tests/stores.test.mjs fails
 // when the two lists differ).
 export const CF_PACKS = [1727331, 1727332, 1727333, 1727666, 1727667, 1727668, 1727669, 1731403, 1731408, 1731410,
-  1731411, 1731412, 1731414, 1731415, 1731417, 1731418, 1731419, 1731420, 1733811, 1734020, 1736067, 1740579];
+  1731411, 1731412, 1731414, 1731415, 1731417, 1731418, 1731419, 1731420, 1733811, 1734020, 1736067, 1740579, 1743314, 1743315];
 export const GITHUB_REPO = "mliudev/LoreForever";
 const HOUR = 3600e3, DAY = 864e5;
 const EVERY = { core: HOUR, pack: 6 * HOUR };
