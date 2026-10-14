@@ -215,6 +215,9 @@ h1 {
 }
 .zone-next { justify-content: center; border-style: dashed; background: rgba(8, 10, 22, 0.6); }
 .zone-next .zone-body { padding: 20px 16px; }
+/* Every button that does something shows the hand, like a link (Manage billing had none). */
+button:not(:disabled), [role="button"]:not([aria-disabled="true"]) { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
 .btn-small {
   display: inline-block; margin-top: 4px; padding: 7px 16px; border-radius: 4px; text-decoration: none;
   background: linear-gradient(180deg, #b3201a, #6d0b07); border: 1px solid #c9a24b; color: var(--gold);
