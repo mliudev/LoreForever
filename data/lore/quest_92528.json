@@ -1,0 +1,114 @@
+{
+ "key": "quest:92528",
+ "type": "quest",
+ "name": "Among the Faithful",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92528
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "While holy and shadow priests follow familiar faiths, the cultists in Falaath Village are led by Skypriests dedicated to Al'Akir the Windlord, channeling the primal strength of the storm."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The worship of Al'Akir and the cult's mastery over storm energies directly intersects with the elemental forces revered and negotiated with by shamans."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who are the faithful of alakir",
+    "what cult is this",
+    "alakir cult"
+   ],
+   "answer": "The Faithful of Al'Akir are a cult dedicated to the Windlord, Al'Akir. Based around Falaath Village in the Shen'dar Highlands, their members harness storm magic and work under the ultimate leadership of a figure named Lorthuna.",
+   "q": "Who are the Faithful of Al'Akir?"
+  },
+  {
+   "aliases": [
+    "who is skypriest aanders",
+    "aanders",
+    "cult assessment guy"
+   ],
+   "answer": "Skypriest Aanders is a ranking officer within the cult at Falaath Village who handles the assessment and induction of new recruits. During the infiltration, he was occupied receiving an important guest at the village inn.",
+   "q": "Who is Skypriest Aanders?"
+  },
+  {
+   "aliases": [
+    "who is lorthuna",
+    "cult leader lorthuna",
+    "guest at the inn"
+   ],
+   "answer": "Lorthuna is the supreme leader of the entire cult of Al'Akir. Her direct, covert presence at the Falaath Village inn reveals that the cult is orchestrating an imminent, high-level offensive in the highlands.",
+   "q": "Who is Lorthuna?"
+  },
+  {
+   "aliases": [
+    "why attack the watchtower",
+    "western watchtower cult",
+    "cult targets"
+   ],
+   "answer": "The cult is plotting a simultaneous strike against both Shen'dar Village and the western watchtower. While striking the village makes strategic sense, targeting the minor lookout post at the watchtower remains a puzzling mystery to highland defenders.",
+   "q": "Why is the cult targeting the western watchtower?"
+  },
+  {
+   "aliases": [
+    "where is falaath village",
+    "falaath village location"
+   ],
+   "answer": "Falaath Village is a settlement located in the Shen'dar Highlands currently functioning as a major base and staging ground for the Faithful of Al'Akir and their new recruits.",
+   "q": "Where does this take place?"
+  },
+  {
+   "aliases": [
+    "what are the cults goals in shendar highlands",
+    "cult plans shendar"
+   ],
+   "answer": "The cult seeks to expand its influence and unleash storm magic across the Shen'dar Highlands. Under Lorthuna's leadership, their immediate objective is an assault aimed at both Shen'dar Village and the western watchtower.",
+   "q": "What are the cult's intentions in the Shen'dar Highlands?"
+  }
+ ],
+ "keywords": [
+  "al'akir",
+  "among the faithful",
+  "falaath village",
+  "lorthuna",
+  "shen'dar highlands",
+  "skypriest aanders",
+  "western watchtower",
+  "windlord"
+ ],
+ "related": [
+  "quest:92529",
+  "quest:93926",
+  "topic:priest"
+ ],
+ "sections": [
+  {
+   "body": "Posing as an eager recruit among the Faithful of Al'Akir, an infiltrator enters Falaath Village in the Shen'dar Highlands. The cultists openly celebrate their growing ranks, boasting that their collective devotion lends shape and fury to the storm itself. New arrivals are typically sent directly to Skypriest Aanders for scrutiny, but an unexpected meeting at the local inn disrupts normal protocol.",
+   "spoiler": 0,
+   "title": "Infiltrating Falaath Village"
+  },
+  {
+   "body": "Aanders is occupied on the north side of town hosting a distinguished guest, leaving the new recruit free to wander the grounds unmonitored. By keeping a low profile and eavesdropping on the settlement's leadership, the scout uncovers the true scope of the cult's immediate ambition: a coordinated military push across the Shen'dar Highlands.",
+   "spoiler": 1,
+   "title": "The Secret Guest"
+  },
+  {
+   "body": "The mysterious guest at the inn is revealed to be Lorthuna herself, the supreme commander of the entire cult. Her direct presence signals an aggressive strike aimed not only at Shen'dar Village, but also at the western watchtower. While the village is a clear population center, targeting the remote lookout tower baffles local scouts, suggesting the cult harbors hidden motives beneath their storm-driven offensive.",
+   "spoiler": 2,
+   "title": "Lorthuna's Scheme"
+  }
+ ],
+ "summary": "Among the Faithful follows an undercover investigation into the Faithful of Al'Akir stationed at Falaath Village in the Shen'dar Highlands. By blending in as a prospective recruit, an adventurer learns that the cult's supreme leadership is secretly gathering to launch an imminent offensive against local settlements and outposts.",
+ "attribution": [
+  "In-game quest text: Among the Faithful"
+ ]
+}

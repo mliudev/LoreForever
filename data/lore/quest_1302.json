@@ -1,0 +1,103 @@
+{
+ "key": "quest:1302",
+ "type": "quest",
+ "name": "James Hyal",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1302
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "James sailed west alongside Lady Jaina Proudmoore during the Third War, reflecting the personal ties that bind many Alliance families across the Great Sea to Theramore Isle."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Known back home as a remarkably skilled cook, James ventured to Kalimdor to build a living running an inn and feeding travellers."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is james hyal",
+    "james hyal lore",
+    "who is james"
+   ],
+   "answer": "James Hyal is a human settler and talented cook who journeyed across the Great Sea with Lady Jaina Proudmoore's fleet. Seeking a new livelihood in Kalimdor after the fighting subsided, he set out to establish an inn on the continent.",
+   "q": "Who is James Hyal?"
+  },
+  {
+   "aliases": [
+    "where is james hyal",
+    "find james hyal",
+    "james hyal location"
+   ],
+   "answer": "James set out to establish an inn somewhere on the Kalimdor continent after arriving with Lady Proudmoore's expedition. His family has not heard from him recently, but Clerk Lendry in Theramore Isle keeps the records and may know his exact whereabouts.",
+   "q": "Where can I find James Hyal?"
+  },
+  {
+   "aliases": [
+    "who is clerk lendry",
+    "clerk lendry location",
+    "theramore clerk"
+   ],
+   "answer": "Clerk Lendry is an Alliance official stationed in Theramore Isle who handles local town administration and citizen inquiries. Travellers looking for settlers like James Hyal are directed to Lendry to check Theramore's records.",
+   "q": "Who is Clerk Lendry?"
+  },
+  {
+   "aliases": [
+    "why did james go to kalimdor",
+    "james hyal expedition"
+   ],
+   "answer": "James sailed with Lady Jaina Proudmoore's fleet during the Third War as part of the human exodus from the Eastern Kingdoms. Once the major conflicts settled down, he chose to stay and build an inn for travellers and settlers.",
+   "q": "Why did James travel to Kalimdor?"
+  },
+  {
+   "aliases": [
+    "who gives james hyal quest",
+    "who is james brother"
+   ],
+   "answer": "The inquiry comes from James's brother in the Eastern Kingdoms, who has not received word from him in a while. Remembering James as a fine cook, his brother assumes he is simply occupied with establishing his new inn.",
+   "q": "Who is looking for James Hyal?"
+  },
+  {
+   "aliases": [
+    "is james hyal safe",
+    "what happened to james hyal"
+   ],
+   "answer": "His brother believes he is simply occupied with running his new business, assuming that peace on the continent has allowed him to thrive. However, his family has not received direct word from him for some time.",
+   "q": "Is James Hyal in any danger?"
+  }
+ ],
+ "keywords": [
+  "clerk lendry",
+  "cook",
+  "innkeeper",
+  "jaina proudmoore",
+  "james hyal",
+  "kalimdor",
+  "theramore"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "During the Third War, countless souls left their ancestral homes in the Eastern Kingdoms to follow Lady Jaina Proudmoore across the Great Sea. Among them was James Hyal, remembered fondly by his kin as a gifted cook. After the fighting subsided and Theramore Isle was founded, James chose to carve out a living on the rugged continent of Kalimdor by opening an inn of his own to serve travellers and fellow settlers.",
+   "spoiler": 0,
+   "title": "Across the Great Sea"
+  },
+  {
+   "body": "Back in the Eastern Kingdoms, James's brother has grown concerned after receiving no recent correspondence from across the sea. Hoping that James is merely consumed by the demands of managing a bustling roadside taproom, he asks passing travellers to track him down. The first step in finding him lies in Theramore, where Clerk Lendry oversees local records and keeps track of expedition members who have ventured out into the wilderness.",
+   "spoiler": 0,
+   "title": "In Search of a Brother"
+  }
+ ],
+ "summary": "\"James Hyal\" is an Alliance quest concerning a human settler who sailed to Kalimdor with Lady Jaina Proudmoore's expedition. After setting out to open an inn on the frontier, his family in the Eastern Kingdoms lost touch with him and seeks news of his fate through Theramore's administrative records.",
+ "attribution": [
+  "In-game quest text: James Hyal"
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "key": "quest:91772",
+ "type": "quest",
+ "name": "Shhh! We're Hunting Kobolds",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91772
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers departing Northshire help secure the supply lines and settlements of Elwynn by keeping Goldshire's garrison informed of gathering threats."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters skilled in tracking quarry can appreciate the practical application of tracking kits to follow vermin trails through the woods."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "quest purpose",
+    "what is this quest",
+    "why hunt kobolds"
+   ],
+   "answer": "The quest tasks an adventurer with using a specialized tracking kit to follow kobolds moving outside Northshire Valley. The goal is to discover where the creatures are gathering and deliver the intelligence to the Stormwind authorities in Goldshire.",
+   "q": "What is the goal of this task?"
+  },
+  {
+   "aliases": [
+    "who gives tracking kit",
+    "who is concerned about kobolds"
+   ],
+   "answer": "Marshal McBride, the commander of Northshire Valley, is concerned with the movements of the kobolds. A local guide supplies the tracking kit to follow their trail out of the valley and toward the wider Elwynn Forest.",
+   "q": "Who is concerned about the kobold movements?"
+  },
+  {
+   "aliases": [
+    "where do tracks go",
+    "kobold destination",
+    "where are kobolds heading"
+   ],
+   "answer": "The tracks lead out of Northshire and directly toward the Fargodeep Mine in central Elwynn Forest, a site that has become heavily overrun with kobold infestations.",
+   "q": "Where do the kobold tracks lead?"
+  },
+  {
+   "aliases": [
+    "who is marshal dughan",
+    "where is dughan",
+    "report to dughan"
+   ],
+   "answer": "Marshal Dughan is the commanding officer of the Stormwind guard garrison stationed in Goldshire. He coordinates local defense efforts across Elwynn Forest and receives reports on encroaching threats.",
+   "q": "Who is Marshal Dughan?"
+  },
+  {
+   "aliases": [
+    "why fargodeep mine",
+    "fargodeep kobolds"
+   ],
+   "answer": "Fargodeep Mine is an established mining site in Elwynn Forest that is already infested with kobolds. The movement of more vermin toward the mine signals worsening trouble for local workers and nearby settlements.",
+   "q": "Why are the kobolds heading to Fargodeep Mine?"
+  },
+  {
+   "aliases": [
+    "what happens after reporting",
+    "dughan reaction"
+   ],
+   "answer": "Marshal Dughan confirms that Fargodeep Mine is infested with kobolds upon receiving your report. Rather than being surprised, he prepares to recruit capable fighters to deal directly with the mine's infestation.",
+   "q": "What happens once you reach Goldshire?"
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "fargodeep mine",
+  "goldshire",
+  "kobold tracking kit",
+  "kobolds",
+  "marshal dughan",
+  "marshal mcbride",
+  "northshire",
+  "shhh we're hunting kobolds"
+ ],
+ "related": [
+  "subzone:fargodeep-mine",
+  "quest:62",
+  "npc:marshal-dughan",
+  "subzone:goldshire",
+  "npc:marshal-mcbride",
+  "topic:kobold"
+ ],
+ "sections": [
+  {
+   "body": "As the kobold infestation in Northshire Valley escalates, signs indicate that the vermin are organizing beyond the isolated abbey grounds. Equipped with a tracking kit, scouts are dispatched to follow the trail of the creatures to determine where they are concentrating their efforts. This reconnaissance serves as a crucial bridge between Northshire's local troubles and the broader defense of Elwynn Forest.",
+   "spoiler": 0,
+   "title": "Tracking the Vermin"
+  },
+  {
+   "body": "The trail leads southwest out of Northshire and across Elwynn Forest toward the Fargodeep Mine. Marshal Dughan, commanding the garrison at Goldshire, is unsurprised by the report, noting that Fargodeep has already fallen to a heavy kobold infestation. The discovery sets the stage for military action to reclaim the vital mine.",
+   "spoiler": 1,
+   "title": "The Fargodeep Connection"
+  }
+ ],
+ "summary": "'Shhh! We're Hunting Kobolds' is a quest that leads adventurers out of Northshire Valley to track wandering kobolds into Elwynn Forest. Using a tracking kit, players discover the trail leads toward the infested Fargodeep Mine and report the findings to Marshal Dughan in Goldshire.",
+ "attribution": [
+  "In-game quest text: Shhh! We're Hunting Kobolds"
+ ]
+}

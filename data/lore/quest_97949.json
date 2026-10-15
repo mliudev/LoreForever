@@ -1,0 +1,102 @@
+{
+ "key": "quest:97949",
+ "type": "quest",
+ "name": "Camping 101: Skinning",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97949
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Campers are advised to learn basic cooking from a culinary trainer, as knowing how to build a basic campfire is essential to setting up a proper campsite in the wild."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what do i get",
+    "what does camping 101 give",
+    "camp chair craft"
+   ],
+   "answer": "Completing this task teaches you how to fashion your own Camp Chair, an essential comfort for resting out in the wilderness.",
+   "q": "What do you learn from Camping 101: Skinning?"
+  },
+  {
+   "aliases": [
+    "can i camp in town",
+    "pitch tent in stormwind",
+    "camping inside cities"
+   ],
+   "answer": "Townsfolk generally frown upon travelers pitching camps in town squares or city streets. You will need to travel out into the wilds to pitch your camp properly.",
+   "q": "Can you set up a camp in town?"
+  },
+  {
+   "aliases": [
+    "need fire for camp",
+    "how to make campfire",
+    "fire for camp chair"
+   ],
+   "answer": "A proper campsite requires a lit campfire before it can be established. Basic fire-starting techniques can be learned from most cooking trainers throughout Azeroth.",
+   "q": "Do you need a campfire to make camp?"
+  },
+  {
+   "aliases": [
+    "who teaches campfire",
+    "cooking fire trainer",
+    "where to learn cooking fire"
+   ],
+   "answer": "Most culinary instructors and cooking trainers can teach you the basics of preparing food, which includes how to start a simple campfire with basic flint and wood.",
+   "q": "Where can you learn how to make a campfire?"
+  },
+  {
+   "aliases": [
+    "why need wilderness",
+    "where can i use camp chair",
+    "where to pitch camp"
+   ],
+   "answer": "The wilderness provides the open space needed to pitch camp without disturbing town residents or obstructing local roads and settlements.",
+   "q": "Why must you head into the wilderness to set up camp?"
+  },
+  {
+   "aliases": [
+    "skinning camping relation",
+    "why skinning for chair",
+    "skinning camp chair"
+   ],
+   "answer": "Skinners work with leathers and hides harvested from beasts, materials suited for stretching and stitching into portable outdoor seating such as a Camp Chair.",
+   "q": "How does skinning relate to making a camp chair?"
+  }
+ ],
+ "keywords": [
+  "camp chair",
+  "campfire",
+  "camping 101",
+  "camping 101: skinning",
+  "cooking",
+  "skinning",
+  "wilderness"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Camping 101: Skinning introduces outdoorsmen and skinners to the craft of wilderness survival. By putting harvested hides and materials to practical use, travelers learn to construct a portable Camp Chair for their journeys. Rather than cluttering bustling city centers where locals object to pitched camps, adventurers are expected to take their craft out into the open wilds of Azeroth.",
+   "spoiler": 0,
+   "title": "Comforts of the Trail"
+  },
+  {
+   "body": "No campsite in the wild is functional without a warming campfire. Establishing a camp requires a fire to be laid first, offering heat and shelter against the elements. Novice survivalists who have not yet picked up basic culinary skills are encouraged to visit a cooking trainer, who can instruct them in the fundamental craft of kindling a fire anywhere in the field.",
+   "spoiler": 0,
+   "title": "The Essential Campfire"
+  }
+ ],
+ "summary": "Camping 101: Skinning instructs wilderness travelers on how to craft their own portable Camp Chair. It emphasizes the fundamentals of outdoor survival, reminding adventurers that a proper campsite requires venturing away from town and starting a campfire.",
+ "attribution": [
+  "In-game quest text: Camping 101: Skinning"
+ ]
+}

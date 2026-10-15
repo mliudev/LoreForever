@@ -1,0 +1,105 @@
+{
+ "key": "quest:96606",
+ "type": "quest",
+ "name": "The Great Outdoors",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96606
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Offered directly to hunters, this lesson reinforces the necessity of wilderness survival and campcraft when tracking through the untamed wilds."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is lyreena",
+    "lyreena campfire",
+    "quest giver"
+   ],
+   "answer": "Lyreena is an experienced wilderness mentor who teaches aspiring adventurers and hunters how to properly rest and survive out in the elements. She offers practical advice around her campfire.",
+   "q": "Who is Lyreena?"
+  },
+  {
+   "aliases": [
+    "what is the great outdoors",
+    "what is this quest",
+    "the great outdoors quest"
+   ],
+   "answer": "The Great Outdoors is an introductory wilderness survival task where a seasoned outdoorswoman named Lyreena invites hunters to sit by her campfire and learn how to sustain themselves during long expeditions.",
+   "q": "What is The Great Outdoors?"
+  },
+  {
+   "aliases": [
+    "boosted rest buff",
+    "boosted rest campfire",
+    "how to get boosted rest"
+   ],
+   "answer": "Sitting down in close proximity to a basic campfire allows weary wanderers to recover from travel fatigue and gain the Boosted Rest effect, revitalizing their spirits for upcoming journeys.",
+   "q": "What is Boosted Rest?"
+  },
+  {
+   "aliases": [
+    "campfire purpose",
+    "why sit by fire",
+    "resting at campfire"
+   ],
+   "answer": "Campfires provide vital warmth and respite in the harsh wilderness. Resting near one allows an adventurer to catch their breath, clear their mind, and prepare for dangerous treks across untamed lands.",
+   "q": "Why do you need to rest by a campfire?"
+  },
+  {
+   "aliases": [
+    "hunter survival skills",
+    "outdoor survival",
+    "why hunter quest"
+   ],
+   "answer": "Hunters spend the bulk of their lives traversing isolated territories without taverns or safe towns nearby. Mastering basic campcraft ensures a hunter can endure harsh environments without succumbing to exhaustion.",
+   "q": "Why is outdoor survival crucial for hunters?"
+  },
+  {
+   "aliases": [
+    "quest goal",
+    "how to finish the great outdoors",
+    "great outdoors objectives"
+   ],
+   "answer": "To complete the task, you simply need to take a seat near Lyreena's basic campfire and wait a short while until the campfire's warmth imparts the Boosted Rest buff.",
+   "q": "What must you do to complete the task?"
+  }
+ ],
+ "keywords": [
+  "adventurer",
+  "boosted rest",
+  "campfire",
+  "hunter",
+  "lyreena",
+  "survival",
+  "the great outdoors",
+  "wilds"
+ ],
+ "related": [
+  "topic:hunter"
+ ],
+ "sections": [
+  {
+   "body": "Venturing beyond civilization's borders demands more than sharp aim and keen senses; it requires respect for the raw untamed elements. An experienced scout named Lyreena offers guidance to wandering hunters, welcoming them to pause their trek and take comfort by her campfire. In the perilous wilds of Azeroth, knowing how to establish a hearth and replenish one's strength between hunts is just as critical as knowing how to track quarry.",
+   "spoiler": 0,
+   "title": "Lessons of the Wild"
+  },
+  {
+   "body": "A roaring campfire provides comfort against the nocturnal cold, offering a moment of calm where weary travellers can shake off fatigue. Sitting close to the blaze allows adventurers to gain Boosted Rest, revitalizing their energy and preparing them for the rigors of exploration. Taking time to sit by the embers teaches young adventurers that patience and rest are enduring pillars of wilderness survival.",
+   "spoiler": 0,
+   "title": "Campfire Respite"
+  }
+ ],
+ "summary": "The Great Outdoors is an introductory wilderness survival lesson offered to hunters by an experienced scout named Lyreena. It emphasizes the importance of resting beside a campfire to recover and gain the Boosted Rest buff while journeying through the untamed wilds.",
+ "attribution": [
+  "In-game quest text: The Great Outdoors"
+ ]
+}

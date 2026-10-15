@@ -2,4 +2,4 @@
 local name = ...
 local P = LoreForeverPacks and LoreForeverPacks.Begin(name)
 if not P then return end
-P.edition = {["api"]=1,["id"]="densuad-esES",["peer"]="LoreForever_Edition_Densuad_esES_Audio",["version"]="8097f26413d3528450fd2c2f7235938d18e71c7ad8f51e4b5ee723dc4ce0c0c7"}
+P.edition = {["api"]=1,["id"]="densuad-esES",["peer"]="LoreForever_Edition_Densuad_esES_Audio",["version"]="3e50c32aba1f2a565c4bd3a0eaf692093e5f4f375c2abd82fd738d03827b6245"}

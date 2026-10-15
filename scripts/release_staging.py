@@ -14,10 +14,17 @@ import subprocess
 import tempfile
 import time
 import zipfile
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from installer_inputs import CONTROLS, SELECTIONS, selected_archives
 import curseforge_voices as cv
+
+STAGE_WORKERS = 5   # side-by-side uploads to the draft release (stage --workers)
+
+
+WILLO = 'Willo-Setup.exe'                  # Willo's own installer: optional, the release never waits on it
+GITHUB_ASSET_LIMIT = 2 * 1024 ** 3         # GitHub's per-file release asset limit
 
 
 class Failure(RuntimeError):
@@ -197,21 +204,31 @@ def locate(roots, expected):
     return matches[0]
 
 
+def matches(current, expected):
+    return bool(current) and (current.get('state'), current.get('size'), current.get('digest')) == (
+        'uploaded', expected['bytes'], 'sha256:' + expected['sha256'])
+
+
+def upload_once(repo, tag, path, expected):
+    run('release', 'upload', tag, '-R', repo, path, '--clobber')
+    current = assets(get_release(repo, tag)).get(expected['name'])
+    if current is None:
+        raise Failure('Uploaded asset is missing from the release: ' + expected['name'])
+    check_row(current, expected)
+    print('uploaded ' + expected['name'] + ' ' + str(expected['bytes']) + ' bytes', flush=True)
+    return expected['bytes']
+
+
 def upload(repo, tag, path, expected, published=False):
     release = get_release(repo, tag)
     if release is None or (not release['draft'] and not published):
         raise Failure('Producer uploads require an unpublished draft')
-    current = assets(release).get(expected['name'])
-    if current and (current.get('state'), current.get('size'), current.get('digest')) == (
-            'uploaded', expected['bytes'], 'sha256:' + expected['sha256']):
+    if matches(assets(release).get(expected['name']), expected):
         print('reused ' + expected['name'] + ' ' + str(expected['bytes']) + ' bytes', flush=True)
         return 0
     for attempt in range(3):
         try:
-            run('release', 'upload', tag, '-R', repo, path, '--clobber')
-            check_row(assets(get_release(repo, tag))[expected['name']], expected)
-            print('uploaded ' + expected['name'] + ' ' + str(expected['bytes']) + ' bytes', flush=True)
-            return expected['bytes']
+            return upload_once(repo, tag, path, expected)
         except Failure:
             if attempt == 2:
                 raise
@@ -220,11 +237,47 @@ def upload(repo, tag, path, expected, published=False):
 
 
 def stage(args):
+    """Upload a producer's assets to the draft, several at a time (0.17.0: 41 files, 10 GB, one after another took
+    6.4 minutes at ~30 MB/s each). Every local file matches the proof before anything uploads; whatever fails side by
+    side is retried one at a time with upload()'s own retries; and at the end every asset of the proof is on the draft
+    with its exact size and SHA256, as finalize() checks again before promotion."""
     proof = read(args.manifest)
     if proof['binding'] != binding(args):
         raise Failure('Producer proof belongs to another source/run')
-    transferred = sum(upload(args.repo, args.tag, locate(args.root, r), r) for r in proof['assets'])
-    print(json.dumps({'producer': proof['producer'], 'completedUploadBytes': transferred}))
+    jobs = [(locate(args.root, r), r) for r in proof['assets']]
+    release = get_release(args.repo, args.tag)
+    if release is None or not release['draft']:
+        raise Failure('Producer uploads require an unpublished draft')
+    remote = assets(release)
+    pending = []
+    for path, r in jobs:
+        if matches(remote.get(r['name']), r):
+            print('reused ' + r['name'] + ' ' + str(r['bytes']) + ' bytes', flush=True)
+        else:
+            pending.append((path, r))
+    pending.sort(key=lambda job: -job[1]['bytes'])   # the biggest first, so the last ones to finish are small
+    transferred, failed = 0, []
+    workers = max(1, min(getattr(args, 'workers', STAGE_WORKERS), len(pending) or 1))
+    with ThreadPoolExecutor(workers) as pool:
+        futures = {pool.submit(upload_once, args.repo, args.tag, path, r): (path, r) for path, r in pending}
+        for future in as_completed(futures):
+            path, r = futures[future]
+            try:
+                transferred += future.result()
+            except Exception as error:   # noqa: BLE001 - any failure here gets the serial retry below
+                last = (str(error).strip().splitlines() or [type(error).__name__])[-1]
+                print('retrying ' + r['name'] + ' on its own: ' + last, flush=True)
+                failed.append((path, r))
+    for path, r in sorted(failed, key=lambda job: job[1]['name']):
+        transferred += upload(args.repo, args.tag, path, r)
+    remote = assets(get_release(args.repo, args.tag))
+    for r in proof['assets']:
+        if r['name'] not in remote:
+            raise Failure('Missing staged asset: ' + r['name'])
+        check_row(remote[r['name']], r)
+    print(json.dumps({'producer': proof['producer'], 'completedUploadBytes': transferred,
+                      'verifiedAssets': len(proof['assets']), 'parallelUploads': workers,
+                      'serialRetries': len(failed)}))
 
 
 def bundle(args):
@@ -285,7 +338,7 @@ def extract_artifact(repo, artifact_id, output):
 def legacy_receive(args):
     bound = binding(args)
     artifacts = api(args.repo, f'actions/runs/{args.run}/artifacts?per_page=100')['artifacts']
-    for producer in ('linux', 'installer'):
+    for producer in ('linux', 'installer') + (('willo',) if args.willo else ()):
         proof = read(latest_proof(args.proofs, producer, bound))
         artifact_name = producer + '-payload-' + proof['binding']['runAttempt']
         choices = [a for a in artifacts if a['name'] == artifact_name and not a['expired']]
@@ -332,7 +385,32 @@ def installer_manifest(args):
     write(args.output, proof)
 
 
-def combined(linux, installer, bound, signed):
+def willo_manifest(args):
+    """Willo's own installer (the release workflow's willo job): no add-on inputs, just the signed Setup."""
+    proof = {'version': 1, 'producer': 'willo', 'binding': binding(args), 'assets': [row(args.setup)],
+             'signature': read(args.signature)}
+    if proof['assets'][0]['name'] != WILLO:
+        raise Failure('Expected ' + WILLO)
+    write(args.output, proof)
+
+
+def check_signature(sig, signed, what):
+    if sig.get('required') is not signed or (signed and (sig.get('status') != 'Valid' or not sig.get('thumbprint'))):
+        raise Failure('Required ' + what + ' signature evidence is missing')
+
+
+def check_willo(willo, bound, signed):
+    if willo.get('version') != 1 or willo.get('producer') != 'willo' or not same_binding(willo['binding'], bound):
+        raise Failure('Invalid Willo proof')
+    if [r['name'] for r in willo['assets']] != [WILLO]:
+        raise Failure('Willo producer asset set differs')
+    if not 0 < willo['assets'][0]['bytes'] < GITHUB_ASSET_LIMIT:
+        raise Failure(WILLO + ' is over GitHub\'s release asset limit')
+    check_signature(willo['signature'], signed, 'Willo installer')
+    return willo['assets']
+
+
+def combined(linux, installer, bound, signed, willo=None):
     if linux.get('version') != 1 or installer.get('version') != 1 or linux['producer'] != 'linux' or installer['producer'] != 'installer':
         raise Failure('Invalid producer proof')
     if not same_binding(linux['binding'], bound) or not same_binding(installer['binding'], bound):
@@ -340,12 +418,11 @@ def combined(linux, installer, bound, signed):
     if linux['candidateZipSha256'] != installer['candidateZipSha256'] or linux['installerInputs'] != installer['installerInputs']:
         raise Failure('Installer did not use the exact Linux inputs')
     sig = installer['signature']
-    if sig.get('required') is not signed or (signed and (sig.get('status') != 'Valid' or not sig.get('thumbprint'))):
-        raise Failure('Required installer signature evidence is missing')
+    check_signature(sig, signed, 'installer')
     expected = {s: 'passed' if available else 'unavailable' for s, available in linux['smokeSelections'].items()}
     if installer['smoke'] != expected or expected.get('base') != 'passed':
         raise Failure('Installer smoke evidence is incomplete')
-    rows = linux['assets'] + installer['assets']
+    rows = linux['assets'] + installer['assets'] + (check_willo(willo, bound, signed) if willo else [])
     names = [name(r['name']) for r in rows]
     if len(set(names)) != len(names) or not {'LoreForever.zip', 'LoreForever-Setup.exe', 'transport-downloads.json'} <= set(names):
         raise Failure('Required assets are missing or duplicated')
@@ -356,8 +433,11 @@ def combined(linux, installer, bound, signed):
     for r in rows:
         if type(r['bytes']) is not int or r['bytes'] <= 0 or not re.fullmatch('[0-9a-f]{64}', r['sha256']):
             raise Failure('Invalid asset digest/size')
-    return {'version': 1, 'binding': bound, 'assets': rows, 'candidateZipSha256': linux['candidateZipSha256'],
-            'signature': sig, 'smoke': installer['smoke'], 'curseforge': linux['curseforge']}
+    result = {'version': 1, 'binding': bound, 'assets': rows, 'candidateZipSha256': linux['candidateZipSha256'],
+              'signature': sig, 'smoke': installer['smoke'], 'curseforge': linux['curseforge']}
+    if willo:
+        result['willoSignature'] = willo['signature']
+    return result
 
 
 
@@ -380,12 +460,24 @@ def finalize(args):
     if args.proofs:
         args.linux = latest_proof(args.proofs, 'linux', bound)
         args.installer = latest_proof(args.proofs, 'installer', bound)
+        if args.willo:
+            args.willo_proof = latest_proof(args.proofs, 'willo', bound)
     if not args.linux or not args.installer:
         raise Failure('Require both producer proofs')
-    proof = combined(read(args.linux), read(args.installer), bound, args.signed)
+    if args.willo and not args.willo_proof:
+        raise Failure('Require the Willo proof')
+    willo = read(args.willo_proof) if args.willo else None
+    proof = combined(read(args.linux), read(args.installer), bound, args.signed, willo)
     release = get_release(args.repo, args.tag)
     if release is None:
         raise Failure('Final promotion requires the prepared release')
+    if not willo and WILLO in assets(release):
+        # The willo job uploads before it leaves its proof; without a proof the upload isn't trusted. A draft just
+        # loses it (the site keeps serving the last good one); a published release's is never removed here.
+        if not release['draft']:
+            raise Failure('Published release has ' + WILLO + ' but this run has no Willo proof; rerun with the willo job')
+        run('release', 'delete-asset', args.tag, WILLO, '-R', args.repo, '--yes')
+        release = get_release(args.repo, args.tag)
     if not release['draft'] and not args.legacy:
         # A publication response can be lost after promotion. A final-job retry only verifies it;
         # a new workflow run must use the explicit published-tag rebuild path.
@@ -467,6 +559,7 @@ def main():
         p.add_argument('--manifest', type=Path, required=True)
         p.add_argument('--root', type=Path, action='append', required=True)
         if command == 'bundle': p.add_argument('--output', type=Path, required=True)
+        if command == 'stage': p.add_argument('--workers', type=int, default=STAGE_WORKERS)
     p = sub.add_parser('receive')
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--timeout', type=float, default=1800)
@@ -474,12 +567,17 @@ def main():
     p = sub.add_parser('installer-manifest')
     for key in ('inputs', 'setup', 'signature', 'smoke', 'output'):
         p.add_argument('--' + key, type=Path, required=True)
+    p = sub.add_parser('willo-manifest')
+    for key in ('setup', 'signature', 'output'):
+        p.add_argument('--' + key, type=Path, required=True)
     p = sub.add_parser('legacy-receive')
     p.add_argument('--proofs', type=Path, required=True)
     p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--willo', action='store_true', help="also Willo's payload (the willo job succeeded)")
     p = sub.add_parser('finalize')
-    for key in ('linux', 'installer', 'proofs'):
+    for key in ('linux', 'installer', 'proofs', 'willo-proof'):
         p.add_argument('--' + key, type=Path)
+    p.add_argument('--willo', action='store_true', help="include Willo-Setup.exe (the willo job succeeded)")
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--root', type=Path, action='append', default=[])
     p.add_argument('--notes', type=Path)
@@ -490,7 +588,8 @@ def main():
         if not args.repo or not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', args.repo):
             raise Failure('Require a repository')
         {'prepare': prepare, 'linux-manifest': linux_manifest, 'bundle': bundle, 'stage': stage,
-         'receive': receive, 'legacy-receive': legacy_receive, 'installer-manifest': installer_manifest, 'finalize': finalize}[args.command](args)
+         'receive': receive, 'legacy-receive': legacy_receive, 'installer-manifest': installer_manifest,
+         'willo-manifest': willo_manifest, 'finalize': finalize}[args.command](args)
     except (Failure, OSError, ValueError, KeyError, TypeError, zipfile.BadZipFile) as error:
         parser.exit(1, 'release-staging: ' + str(error) + '\n')
 

@@ -1,0 +1,104 @@
+{
+ "key": "quest:2158",
+ "type": "quest",
+ "name": "Rest and Relaxation",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2158
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Lion's Pride Inn serves as the primary haven and social hub for Alliance travelers venturing out into Elwynn Forest."
+  },
+  {
+   "target": "race:Human",
+   "text": "Fresh recruits departing Northshire Valley naturally follow the southern road toward Goldshire, where Innkeeper Farley offers familiar hospitality close to Stormwind."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "where is lions pride inn",
+    "how to get to lion's pride inn",
+    "find lions pride"
+   ],
+   "answer": "The Lion's Pride Inn is located south along the main road leading out of Northshire Valley, situated at the heart of the town of Goldshire. Travelers heading south cannot miss the welcoming tavern.",
+   "q": "Where can I find the Lion's Pride Inn?"
+  },
+  {
+   "aliases": [
+    "who is innkeeper farley",
+    "farley lion's pride"
+   ],
+   "answer": "Innkeeper Farley is the hospitable proprietor of the Lion's Pride Inn in Goldshire. A close friend of local contacts in Northshire, he welcomes weary adventurers with food, drink, and a warm hearth.",
+   "q": "Who is Innkeeper Farley?"
+  },
+  {
+   "aliases": [
+    "what is the purpose of this quest",
+    "why go to lion's pride inn"
+   ],
+   "answer": "Rest and Relaxation directs novice adventurers leaving Northshire toward Goldshire's central hub, introducing them to the services, refreshments, and lodgings offered by Innkeeper Farley at the Lion's Pride Inn.",
+   "q": "What is the purpose of Rest and Relaxation?"
+  },
+  {
+   "aliases": [
+    "discount at lions pride",
+    "do i get cheaper food farley"
+   ],
+   "answer": "Mentioning your referral to Innkeeper Farley allows travelers to inquire about special discounted rates on the inn's fine food and drink while recovering from their travels.",
+   "q": "Does Innkeeper Farley really offer discounted food and drink?"
+  },
+  {
+   "aliases": [
+    "why do adventurers need rest",
+    "rest and relaxation lore"
+   ],
+   "answer": "Adventuring across Elwynn is grueling and fraught with danger. Inns provide safe shelter from the wilderness, allowing travelers to warm their bones by the fire, recuperate, and replenish their supplies before taking on new tasks.",
+   "q": "Why is rest important for traveling adventurers?"
+  },
+  {
+   "aliases": [
+    "what is lions pride inn motto",
+    "lions pride slogan"
+   ],
+   "answer": "According to Innkeeper Farley, the inn's motto is 'Rest and relaxation for the tired and cold.' He strives to ensure every weary guest finds comfort and hospitality by his hearth.",
+   "q": "What is the motto of the Lion's Pride Inn?"
+  }
+ ],
+ "keywords": [
+  "alliance tavern",
+  "elwynn forest",
+  "goldshire",
+  "innkeeper farley",
+  "lion's pride inn",
+  "northshire",
+  "rest and relaxation"
+ ],
+ "related": [
+  "npc:innkeeper-farley",
+  "subzone:lion-s-pride-inn"
+ ],
+ "sections": [
+  {
+   "body": "After cutting their teeth in Northshire, weary travelers are pointed south toward the Lion's Pride Inn in Goldshire. The road south leads directly to the beloved tavern, run by Innkeeper Farley. For new adventurers stepping out into the wider forest, it represents the first major outpost offering hearth, shelter, and hot meals away from the Abbey.",
+   "spoiler": 0,
+   "title": "A Haven on the Road"
+  },
+  {
+   "body": "Innkeeper Farley takes pride in his establishment's hospitality, operating under the motto of providing rest and relaxation for the tired and cold. Adventurers who mention their referral can take advantage of Farley's good graces, settling by the open fire to enjoy a warm meal, sturdy ale, and a much-needed respite before journeying further into Elwynn.",
+   "spoiler": 0,
+   "title": "Farley's Hearth and Hospitality"
+  }
+ ],
+ "summary": "Rest and Relaxation is an introductory Alliance quest directing newly trained adventurers from Northshire south along the road to the Lion's Pride Inn. Run by Innkeeper Farley, the bustling Goldshire tavern offers food, drink, and a warm hearth for those seeking a reprieve from the road.",
+ "attribution": [
+  "In-game quest text: Rest and Relaxation"
+ ]
+}

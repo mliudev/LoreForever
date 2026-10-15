@@ -30,6 +30,7 @@ T.code = {
 T.color = {
   gold = { 1, 0.82, 0, 1 },
   muted = { 0.8, 0.8, 0.8, 1 },          -- secondary text (notes, hints, empty states)
+  faint = { 0.53, 0.53, 0.53, 1 },       -- a setting that can't be used yet (Options: Willo's, without Willo)
   rim = { 0.80, 0.62, 0.20, 0.95 },      -- button and panel rims
   rimHover = { 1, 0.85, 0.35, 1 },
   rimOff = { 0.45, 0.40, 0.32, 0.8 },    -- a disabled button's rim

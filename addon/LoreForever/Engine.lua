@@ -247,6 +247,15 @@ Engine.ELSEWHERE = 0.5
 Engine.VEC_ENTRIES = 4
 Engine.VEC_RANK = 0.1
 Engine.VEC_PICK = 0.05
+-- A high score isn't a right answer: any word can match something ("how big is Ironforge?" scored 42 on the tram
+-- answer by "Ironforge" alone). The top answer is weak (Engine:Weak) when it covers under COVER_MIN of the question's
+-- words (Engine:Cover) and its meaning is under SIM_MIN from the question's (cosine), or covers under COVER_ALONE where
+-- there are no meaning vectors. Fitted 10/13 on 780 questions answered right (eval/questions forum, situational,
+-- players_answerable "answered": 19 of them, 2.4%, become "did you mean") and 895 confidently answered questions with
+-- no entry at all (players.jsonl, entries = []: 52% become "did you mean").
+Engine.COVER_MIN = 0.45
+Engine.SIM_MIN = 0.5
+Engine.COVER_ALONE = 0.25
 
 local function enc(n, width)
   local t = {}
@@ -959,7 +968,66 @@ function Engine:Rerank(results, question)
   table.insert(results, 1, r)
 end
 
+-- How much of the question an entry covers: the share of the question's words (by rarity) that appear anywhere in
+-- the entry's docs, 0 to 1. A match on one word of several ("how big is Ironforge?" matched to the tram answer by
+-- "Ironforge" alone) covers little; words the lore never uses don't count, as nothing could match them.
+function Engine:Cover(tokens, key)
+  local first, n = self:EntryDocs(key)
+  local last, total, got = first + n - 1, 0, 0
+  for t in pairs(counts(tokens)) do
+    local pl = self.post[t]
+    if pl then
+      local w = self:idf(t)
+      total = total + w
+      for p = 1, #pl, 4 do
+        local di = dec(pl, p, 3)
+        if di >= first and di <= last then got = got + w break end
+      end
+    end
+  end
+  return total > 0 and got / total or 1
+end
+
+-- Chat that isn't a question ("thanks", "lol", "that's not the right answer"): "wrong" when it says the last answer
+-- missed, "thanks" for thanks, "chat" for the rest, else nil. Only short messages: a real question can say "wrong"
+-- ("what went wrong in Gilneas?"). English only, like the rest of the matching words.
+local CHAT = {}
+for w in ([[ok okay k kk cool nice great awesome good lol lmao lmfao rofl haha hah heh hehe xd hi hello hey yo sup hiya
+  greetings yes yeah yep yup no nope nah hmm hm wow oh ah gg bye cya brb]]):gmatch("%S+") do CHAT[w] = true end
+local THANKS = { thanks = true, thank = true, thx = true, ty = true, tyvm = true, cheers = true, ta = true }
+local WRONG = { "wrong", "not right", "incorrect", "not what i", "not the right", "not it", "not helpful", "useless",
+  "doesnt answer", "didnt answer", "not an answer", "makes no sense" }
+local ASKING = { who = true, what = true, why = true, where = true, when = true, how = true, which = true, is = true,
+  are = true, did = true, does = true, ["do"] = true, was = true, were = true, can = true, could = true }
+function Engine.Chatter(text)
+  local s = " " .. Engine.lower(text or ""):gsub("'", ""):gsub("[^%w%s]", " "):gsub("%s+", " ") .. " "
+  local words = {}
+  for w in s:gmatch("%S+") do words[#words + 1] = w end
+  if #words == 0 or #words > 8 then return nil end
+  -- "what went wrong in Gilneas?" is a question; "that's not what I asked" isn't.
+  local asks = ASKING[words[1]] and not s:find(" answer", 1, true)
+  for _, p in ipairs(asks and {} or WRONG) do
+    if s:find(" " .. p .. " ", 1, true) and (#words <= 6 or s:find(" answer", 1, true)) then return "wrong" end
+  end
+  local thanks, other = false, false
+  for _, w in ipairs(words) do
+    if THANKS[w] then thanks = true
+    elseif not (CHAT[w] or w == "you" or w == "u" or w == "so" or w == "much" or w == "very") then other = true end
+  end
+  if other then return nil end
+  return thanks and "thanks" or "chat"
+end
+
+-- Whether result r (Ask's first) is too weak to give as the answer (see COVER_MIN).
+function Engine:Weak(r)
+  if not (r and r.cover) then return false end
+  if r.sim then return r.cover < self.COVER_MIN and r.sim < self.SIM_MIN end
+  return r.cover < self.COVER_ALONE
+end
+
 -- Rank answer units. Returns up to `limit` results with distinct entries: {key, kind, idx, title, text, score}.
+-- The first also has `cover` (Engine:Cover; 1 when the player's situation answers, not the words) and, with meaning
+-- vectors, `sim` (the question's cosine to it).
 function Engine:Ask(question, ctx, limit)
   limit = limit or 3
   self.race = ctx and ctx.race or self.race   -- for FollowUps, which get no context
@@ -1202,7 +1270,18 @@ function Engine:Ask(question, ctx, limit)
   if results[1] then
     local angle = self:Angle(results[1].key, ctx, raw)
     if angle then results[1].angle = angle end
-    self.lastKey = results[1].key
+    local top = results[1].key
+    results[1].cover = (top == intentKey or top == followKey or aboutTarget) and 1
+      or self:Cover(self:CorrectTokens((tokenize(question, false, true))), top)
+    local qv = results[1].cover < 1 and self.db.vectors and self:VecOf(question)
+    local kn = results[1].kind == "faq" and 1 or results[1].kind == "section" and 2 or 0
+    local dv = qv and self:VecOf(self:VecText(top, kn, results[1].idx or 0))
+    if dv then
+      local c = 0
+      for d = 1, #qv do c = c + qv[d] * dv[d] end
+      results[1].sim = c
+    end
+    self.lastKey = top
   end
   return results
 end

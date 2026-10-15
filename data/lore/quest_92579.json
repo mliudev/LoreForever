@@ -1,0 +1,96 @@
+{
+ "key": "quest:92579",
+ "type": "quest",
+ "name": "To Valanaar",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92579
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives to valanaar",
+    "quest giver to valanaar",
+    "who sends me to valanaar"
+   ],
+   "answer": "The quest is given by Aonda, a highlander based in Shen'dar, after you help secure the local village and pylon from a looming cultist threat. Impressed by your assistance, she entrusts you with an urgent written report to deliver across the island.",
+   "q": "Who sends you to Valanaar?"
+  },
+  {
+   "aliases": [
+    "who is valennia stormfist",
+    "valennia leader",
+    "valennia"
+   ],
+   "answer": "Valennia Stormfist leads the peacekeepers stationed on the island, headquartered in the settlement of Valanaar. Responsible for local defense and order, she is tasked with coordinating responses to regional threats like the aggressive expansion of the cult.",
+   "q": "Who is Valennia Stormfist?"
+  },
+  {
+   "aliases": [
+    "what is valanaar",
+    "where is valanaar",
+    "valanaar location"
+   ],
+   "answer": "Valanaar is a settlement located at the southeastern edge of the island. It serves as a base for the island's peacekeepers, led by Valennia Stormfist, and acts as a refuge and community hub for townsfolk.",
+   "q": "What is Valanaar?"
+  },
+  {
+   "aliases": [
+    "why deliver report",
+    "what is aonda report",
+    "what is in the letter"
+   ],
+   "answer": "Aonda's report details the escalating threat of the cult and the events surrounding the safety of Shen'dar and its pylon. While the peacekeepers have historically avoided direct conflict, the report warns that the cult's rapid expansion makes an eventual clash inevitable, requiring Valanaar to prepare for defense.",
+   "q": "What is the purpose of Aonda's report?"
+  },
+  {
+   "aliases": [
+    "what cult to valanaar",
+    "who is the cult",
+    "cult threat island"
+   ],
+   "answer": "The report warns of an unnamed cult that is expanding rapidly across the island. Though the peacekeepers previously kept their distance to avoid open warfare, the cult's recent aggressive moves against places like Shen'dar indicate that conflict can no longer be avoided.",
+   "q": "What threat does the cult pose to the island?"
+  },
+  {
+   "aliases": [
+    "what to do after delivering report",
+    "what next to valanaar"
+   ],
+   "answer": "Upon receiving the grim news, Valennia must confer with her remaining peacekeepers to devise a defensive strategy against future cult attacks. While she coordinates their plans, she invites travelers to assist the local townsfolk around Valanaar who need a hand.",
+   "q": "What happens once you reach Valanaar?"
+  }
+ ],
+ "keywords": [
+  "aonda",
+  "cult",
+  "peacekeepers",
+  "shen'dar",
+  "to valanaar",
+  "valanaar",
+  "valennia stormfist"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Following the defense of Shen'dar and its pylon, the highlander Aonda dispatches a trusted traveler to carry urgent word across the island to Valanaar. Situated at the southeastern edge of the land, Valanaar houses the headquarters of the island's peacekeepers under the command of Valennia Stormfist. The mission carries a vital warning: the peaceful days on the island are ending, and Valennia must prepare her people for an inevitable clash with an aggressive, expanding cult.",
+   "spoiler": 0,
+   "title": "An Urgent Dispatch"
+  },
+  {
+   "body": "Up until this warning, the local peacekeepers managed to avoid direct conflict with the mysterious cult. However, the cult's aggressive incursions have pushed tensions to a breaking point. Upon reviewing Aonda's written report, Valennia recognizes that the peacekeepers must immediately gather their remaining forces and formulate a defensive strategy before the cult directs its attention toward Valanaar itself.",
+   "spoiler": 1,
+   "title": "The Gathering Storm"
+  }
+ ],
+ "summary": "\"To Valanaar\" is an island quest in which adventurers carry an urgent military report from Aonda in Shen'dar to Peacekeeper leader Valennia Stormfist. The message alerts the settlement at the southeastern edge of the island that an aggressive cult is expanding rapidly and that direct conflict can no longer be avoided.",
+ "attribution": [
+  "In-game quest text: To Valanaar"
+ ]
+}

@@ -5,7 +5,8 @@
 #   LoreForever_Voice_Female_Alliance.zip / _Horde.zip    her lands packs
 #   LoreForever_Voice_Female-complete.zip                 her core and lands stories in one zip
 #   LoreForever_Voice_Female_enUS-complete.zip            available English female stories and answers
-#   LoreForever_Voice_<Default|Female>_<locale>-complete.zip  available stories and answers plus translated text
+#   LoreForever_Voice_<Default|Female>_<locale>-complete.zip  available stories and answers plus translated text (once
+#                                                         it holds more than the narrator's own language pack zip)
 #   LoreForever_Voice_<Default|Female>_Quests.zip         optional English quest dialogue, downloaded deliberately
 #   LoreForever_Voice_<Default|Female>_MorePlaces.zip / _MorePeople.zip  more subzone and people stories (complete
 #                                                         stories only), once registered
@@ -243,6 +244,12 @@ for name, (folders, display) in DOWNLOADS.items():
         folders = [f for f in folders if (addons / f / f"{f}.toc").is_file()]
         if not folders:
             print(f"skip {name}: no recorded components in addon/")
+            continue
+        # A bundle of one pack that's a download of its own (a narrator's language before its answers are recorded) is
+        # that zip's bytes under a second name: 0.17.0 uploaded 1.6 GB twice that way. The site offers a language's
+        # bundle only when the release has it, and otherwise the pack itself, which is the same files.
+        if len(folders) == 1 and DOWNLOADS.get(folders[0], ([],))[0] == folders:
+            print(f"skip {name}: the same zip as {folders[0]}.zip, its only recorded part")
             continue
         # GitHub refuses a release asset of 2 GiB or more (0.15.0's English female bundle: HTTP 422). A bundle is a
         # convenience: its packs are downloads of their own and the site only links a bundle the release has.

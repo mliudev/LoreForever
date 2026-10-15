@@ -1,0 +1,104 @@
+{
+ "key": "quest:92551",
+ "type": "quest",
+ "name": "Stolen Supplies",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92551
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "The raids strike directly at the lifeline connecting the highlands to the lowlands, leaving skyborne townsfolk hungry and desperate without their regular deliveries of food and windstones."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what was stolen",
+    "supplies taken",
+    "what goods were stolen"
+   ],
+   "answer": "Caravans traveling between the highlands and the lowlands were carrying vital goods, specifically food supplies and windstones. These regular deliveries keep the local townsfolk fed and supplied.",
+   "q": "What supplies were stolen from the caravans?"
+  },
+  {
+   "aliases": [
+    "who stole the supplies",
+    "who raided the caravans",
+    "caravan attackers"
+   ],
+   "answer": "The Al'Aketh have been raiding the supply caravans for months. Although they attempt to blame ordinary bandits for the missing shipments, the stolen caches are known to end up directly in their territory at Falaath Village.",
+   "q": "Who is responsible for raiding the caravans?"
+  },
+  {
+   "aliases": [
+    "where are the supplies",
+    "where to find supplies",
+    "stolen caches location"
+   ],
+   "answer": "The stolen supply packs are stored away in Falaath Village, an Al'Aketh settlement situated within the Shen'dar Highlands.",
+   "q": "Where are the stolen supply caches being held?"
+  },
+  {
+   "aliases": [
+    "why steal windstones and food",
+    "why caravan raids"
+   ],
+   "answer": "The supplies include essential sustenance like food as well as windstones moving to and from the lowlands. Raiding these caravans deprives the local skyborne populace while stocking Falaath Village with critical highland resources.",
+   "q": "Why are these supply caravans being targeted?"
+  },
+  {
+   "aliases": [
+    "who gets the supplies back",
+    "supplies redistribution",
+    "what happens after recovery"
+   ],
+   "answer": "Once recovered from Falaath Village, the supplies are coordinated with the local constable to be redistributed directly to the townsfolk who are in the most desperate need of food and relief.",
+   "q": "What happens to the supplies once they are recovered?"
+  },
+  {
+   "aliases": [
+    "why blame bandits",
+    "al aketh bandits excuse"
+   ],
+   "answer": "The Al'Aketh blame roving bandits to deflect responsibility for the missing trade goods, even though the stolen cargo consistently ends up stockpiled right inside their settlement at Falaath Village.",
+   "q": "Why do the Al'Aketh blame bandits for the raids?"
+  }
+ ],
+ "keywords": [
+  "al'aketh",
+  "caravans",
+  "constable",
+  "falaath village",
+  "shen'dar highlands",
+  "skyborne",
+  "stolen supplies",
+  "windstones"
+ ],
+ "related": [
+  "quest:92529",
+  "topic:skyborne"
+ ],
+ "sections": [
+  {
+   "body": "For months, caravans traveling between the lowlands and the Shen'dar Highlands have faced persistent attacks along their trade routes. These shipments transport vital necessities, including food and windstones, to sustain the highland settlements. Without steady deliveries, local townsfolk have been pushed to the brink of starvation, struggling to squeak by as supplies dwindle across the region.",
+   "spoiler": 0,
+   "title": "Raids on the Highland Lifeline"
+  },
+  {
+   "body": "While the Al'Aketh publicly point fingers at common bandits for the caravan ambushes, the missing cargo tells a different story. The stolen packs of Shen'dar supplies consistently make their way into Falaath Village, where the Al'Aketh hoard the caches. Recovering these goods allows local authorities and the constable to redistribute much-needed sustenance directly to the most vulnerable skyborne.",
+   "spoiler": 0,
+   "title": "The Falaath Cache"
+  }
+ ],
+ "summary": "Stolen Supplies tasks adventurers with recovering plundered highland goods from the Al'Aketh in Falaath Village. Caravan ambushes have cut off vital shipments of food and windstones between the lowlands and the Shen'dar Highlands, leaving local skyborne communities on the brink of starvation.",
+ "attribution": [
+  "In-game quest text: Stolen Supplies"
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "key": "quest:93948",
+ "type": "quest",
+ "name": "Deliver the Signet",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93948
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The prominent Shadowsong family name evokes deep history among elven lineages, though here on Zephras Isle, the High Elder Talaanis and the local shen'dorei navigate their own distinct struggles."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is talaanis",
+    "high elder talaanis",
+    "talaanis shadowsong lore"
+   ],
+   "answer": "Talaanis Shadowsong serves as the High Elder of Zephras Isle. Widely respected and loved by his community, he guides his people through turbulent times and endures personal tragedy when presented with the signet ring confirming his nephew's death.",
+   "q": "Who is Talaanis Shadowsong?"
+  },
+  {
+   "aliases": [
+    "what is the signet ring",
+    "nephews ring",
+    "shadowsong signet"
+   ],
+   "answer": "The signet is the Shadowsong Family Signet, recovered from a tower. It serves as grim confirmation that Talaanis Shadowsong's nephew has perished, returning a family heirloom to the grieving High Elder.",
+   "q": "What is the Shadowsong Family Signet?"
+  },
+  {
+   "aliases": [
+    "where is valanaar",
+    "valanaar settlement",
+    "talaanis location"
+   ],
+   "answer": "Valanaar is a settlement located on Zephras Isle where High Elder Talaanis Shadowsong resides and where Captain Valennia Stormfist oversees the local peacekeepers.",
+   "q": "Where is Valanaar located?"
+  },
+  {
+   "aliases": [
+    "who is valennia stormfist",
+    "captain valennia",
+    "valanaar peacekeeper captain"
+   ],
+   "answer": "Valennia Stormfist is the captain of the peacekeepers stationed in Valanaar. High Elder Talaanis recommends speaking to her for work, noting that the settlement is in dire need of capable hands.",
+   "q": "Who is Valennia Stormfist?"
+  },
+  {
+   "aliases": [
+    "who are the shendorei",
+    "shendorei highlands"
+   ],
+   "answer": "Talaanis refers to capable young travelers coming down from the highlands as shen'dorei, highlighting the elven presence and heritage enduring on Zephras Isle.",
+   "q": "Who are the shen'dorei mentioned by Talaanis?"
+  },
+  {
+   "aliases": [
+    "what happened to talaanis nephew",
+    "how did nephew die"
+   ],
+   "answer": "Talaanis's nephew died at a tower where his family signet was lost. Bringing the signet to Valanaar informs the High Elder of his nephew's demise, bringing closure to a sorrowful loss.",
+   "q": "What happened to Talaanis Shadowsong's nephew?"
+  }
+ ],
+ "keywords": [
+  "deliver the signet",
+  "shadowsong family signet",
+  "shen'dorei",
+  "talaanis shadowsong",
+  "valanaar",
+  "valennia stormfist",
+  "zephras isle"
+ ],
+ "related": [
+  "zone:zephras",
+  "quest:92579"
+ ],
+ "sections": [
+  {
+   "body": "When an adventurer journeys toward the settlement of Valanaar, they carry with them the Shadowsong Family Signet recovered from an isolated tower. Entrusted with this grim token, travelers seek out Talaanis Shadowsong, the High Elder of Zephras Isle. Beloved by his people despite widespread local hardships, Talaanis must face the painful confirmation that his nephew has perished, receiving condolences alongside the reclaimed heirloom.",
+   "spoiler": 0,
+   "title": "A Somber Errand"
+  },
+  {
+   "body": "Upon receiving the signet ring in Valanaar, High Elder Talaanis expresses heartfelt gratitude despite his profound grief. Recognizing the skill of the traveler who retrieved the relic, Talaanis directs them to Captain Valennia Stormfist, leader of the Valanaar peacekeepers. Facing strained circumstances and mounting pressures, the settlement welcomes any aid capable protectors can offer.",
+   "spoiler": 0,
+   "title": "Grief and Duty in Valanaar"
+  }
+ ],
+ "summary": "Deliver the Signet is a quest in which a traveler carries a recovered family ring to High Elder Talaanis Shadowsong in Valanaar. The delivery brings tragic confirmation of his nephew's demise on Zephras Isle, while opening new opportunities to assist the local peacekeepers.",
+ "attribution": [
+  "In-game quest text: Deliver the Signet"
+ ]
+}
