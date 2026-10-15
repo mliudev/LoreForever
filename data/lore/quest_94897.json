@@ -1,0 +1,92 @@
+{
+ "key": "quest:94897",
+ "type": "quest",
+ "name": "The Fate of a Loved One",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94897
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is resaan",
+    "where is resaan",
+    "find resaan"
+   ],
+   "answer": "Resaan is an individual who ventured back into the Ruins of Ban'aethal to gather supplies despite being begged to stay. After more than a week without word, his loved one fears he has met a tragic end among the ruins.",
+   "q": "Who is Resaan?"
+  },
+  {
+   "aliases": [
+    "what is banaethal",
+    "ruins of banaethal lore",
+    "where is banaethal"
+   ],
+   "answer": "The Ruins of Ban'aethal are a dangerous site where Resaan ventured in search of necessary supplies. His loved one considers the journey hazardous enough that surviving a week there alone is unlikely.",
+   "q": "What are the Ruins of Ban'aethal?"
+  },
+  {
+   "aliases": [
+    "why did resaan go back",
+    "why resaan in banaethal"
+   ],
+   "answer": "Resaan returned to Ban'aethal specifically to retrieve supplies. He chose to make the perilous journey even though his loved one pleaded with him not to go.",
+   "q": "Why did Resaan return to Ban'aethal?"
+  },
+  {
+   "aliases": [
+    "what does questgiver want",
+    "what happens if resaan dead"
+   ],
+   "answer": "If Resaan is still alive, the questgiver asks that he be brought safely home. If he has perished in the ruins, the questgiver begs for the recovery of his personal heirloom as a final keepsake.",
+   "q": "What does the questgiver ask you to bring back?"
+  },
+  {
+   "aliases": [
+    "how long resaan missing",
+    "how long has resaan been gone"
+   ],
+   "answer": "Resaan has been missing for over a week since setting off into the Ruins of Ban'aethal. Given the dangers of the area, this prolonged silence leads his loved one to fear the worst.",
+   "q": "How long has Resaan been missing?"
+  },
+  {
+   "aliases": [
+    "who gives fate of a loved one",
+    "fate of a loved one questgiver"
+   ],
+   "answer": "The quest is offered by Resaan's grieving partner or lover, who remains desperate for closure and willing to ask passing travelers heading toward Ban'aethal for aid.",
+   "q": "Who offers this quest?"
+  }
+ ],
+ "keywords": [
+  "ban'aethal",
+  "heirloom",
+  "resaan",
+  "ruins of ban'aethal",
+  "supplies",
+  "the fate of a loved one"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "The Fate of a Loved One centers on a desperate plea from someone whose partner, Resaan, ventured back into the Ruins of Ban'aethal. Despite earnest pleas for him to stay, Resaan felt compelled to brave the ruins in search of supplies, leaving behind someone who now waits in agonizing uncertainty.",
+   "spoiler": 0,
+   "title": "A Desperate Plea"
+  },
+  {
+   "body": "More than a week has passed since Resaan set out, far exceeding any reasonable expectation for a swift return. Travelers bound for Ban'aethal are begged to search for him among the ruins\u2014to guide him back if life remains, or to recover his family heirloom if only tragedy is left to find.",
+   "spoiler": 0,
+   "title": "Vanished in the Ruins"
+  }
+ ],
+ "summary": "The Fate of a Loved One is a quest concerning Resaan, who ventured into the dangerous Ruins of Ban'aethal to scavenge supplies and never returned. Over a week later, his grieving partner asks travelers bound for the ruins to discover his fate and bring him home or recover his cherished heirloom.",
+ "attribution": [
+  "In-game quest text: The Fate of a Loved One"
+ ]
+}

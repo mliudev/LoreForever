@@ -1,0 +1,105 @@
+{
+ "key": "quest:92708",
+ "type": "quest",
+ "name": "A Grand Adventure",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92708
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "For the Skyborne of Skywall, this represents a monumental shift in perspective: leaving the elemental realm of their home to venture down to Azeroth in search of salvation for Zephras Isle."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is this quest",
+    "grand adventure quest",
+    "what is a grand adventure"
+   ],
+   "answer": "A Grand Adventure is a pivotal quest given by Ayessa Dawnsinger on Zephras Isle. In it, she shares the Windshapers' conclusion that saving their home requires venturing outside Skywall into the world of Azeroth.",
+   "q": "What is the quest A Grand Adventure?"
+  },
+  {
+   "aliases": [
+    "who is ayessa",
+    "dawnsinger",
+    "who is ayessa dawnsinger"
+   ],
+   "answer": "Ayessa Dawnsinger is a key member of the Windshapers on Zephras Isle who investigates the crisis facing the island and proposes a plan to seek help and power from Azeroth.",
+   "q": "Who is Ayessa Dawnsinger?"
+  },
+  {
+   "aliases": [
+    "what is zephras isle crisis",
+    "what happened on zephras isle",
+    "zephras problem"
+   ],
+   "answer": "Zephras Isle is suffering from a major crisis involving missing wind spirits. The Windshapers have been investigating their disappearance to find a way to save their home.",
+   "q": "What crisis is taking place on Zephras Isle?"
+  },
+  {
+   "aliases": [
+    "who are the windshapers",
+    "windshapers zephras"
+   ],
+   "answer": "The Windshapers are a group working on Zephras Isle dedicated to investigating and resolving the elemental disturbances and missing wind spirits threatening the island.",
+   "q": "Who are the Windshapers?"
+  },
+  {
+   "aliases": [
+    "why go to azeroth",
+    "why leave skywall",
+    "path to salvation"
+   ],
+   "answer": "Ayessa Dawnsinger believes that the knowledge, untapped potential, and power needed to resolve the crisis on Zephras Isle cannot be found within Skywall alone, but must be sought in the world below on Azeroth.",
+   "q": "Why do the Windshapers need to travel to Azeroth?"
+  },
+  {
+   "aliases": [
+    "what is skywall",
+    "where is skywall"
+   ],
+   "answer": "Skywall is the elemental home realm of the Windshapers and Zephras Isle, situated above the mortal world of Azeroth.",
+   "q": "What is Skywall?"
+  }
+ ],
+ "keywords": [
+  "a grand adventure",
+  "ayessa dawnsinger",
+  "azeroth",
+  "skywall",
+  "wind spirits",
+  "windshapers",
+  "zephras isle"
+ ],
+ "related": [
+  "npc:ayessa-dawnsinger",
+  "zone:zephras",
+  "quest:92595",
+  "topic:skywall"
+ ],
+ "sections": [
+  {
+   "body": "Zephras Isle faces an escalating crisis as wind spirits have vanished without explanation. In response, the Windshapers have been investigating these disturbances, uncovering unexpected revelations about their missing kin and the fate of their elemental home. Ayessa Dawnsinger seeks capable adventurers to heed their findings and prepare for an unprecedented undertaking.",
+   "spoiler": 0,
+   "title": "The Crisis on Zephras Isle"
+  },
+  {
+   "body": "Upon confiding her discoveries, Ayessa Dawnsinger reveals a bold and unconventional conclusion: Skywall alone does not hold the power or knowledge required to save Zephras Isle. Instead, salvation lies below in the mortal world of Azeroth. Venturing beyond their homeland represents a daring departure from tradition, asking adventurers to step into the unknown to secure the island's future.",
+   "spoiler": 1,
+   "title": "A Venture Beyond Skywall"
+  }
+ ],
+ "summary": "A Grand Adventure marks a turning point for the crisis on Zephras Isle within Skywall. Led by Ayessa Dawnsinger and the Windshapers, it outlines a bold plan to seek salvation for their home by journeying down to the mortal realm of Azeroth.",
+ "attribution": [
+  "In-game quest text: A Grand Adventure"
+ ]
+}

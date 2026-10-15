@@ -286,7 +286,7 @@ export async function storesReport(env, now = Date.now(), days = 14) {
   await setupStores(env);
   const all = async (sql, ...args) => (await env.DB.prepare(sql).bind(...args).all()).results;
   const from = utcDay(now, -days), today = utcDay(now), core = String(CF_CORE), packIds = CF_PACKS.map(String);
-  const [counts, files, site, firstDay, author, authorFiles, authorMeta] = await Promise.all([
+  const [counts, files, site, firstDay, author, authorFiles, authorMeta, packRows] = await Promise.all([
     all("SELECT day, source, project, file, downloads, first, first_taken FROM store_counts WHERE day >= ? AND " +
         "(file = '' OR (source = 'curseforge' AND project = ?))", from, core),
     all("SELECT source, project, file, name, uploaded, downloads, day1, seen FROM store_files ORDER BY uploaded"),
@@ -298,6 +298,9 @@ export async function storesReport(env, now = Date.now(), days = 14) {
     env.DB.prepare("SELECT MIN(CASE WHEN period = 'day' THEN day END) AS first, MAX(CASE WHEN period = 'day' THEN day END) " +
       "AS last, MAX(updated) AS updated, SUM(CASE WHEN period = 'window' AND project = ? AND metric = 'userDays' THEN value END) " +
       "AS userDays FROM cf_author_stats").bind(core).first(),
+    // The packs' snapshots, for their growth below.
+    all("SELECT project, day, downloads, first FROM store_counts WHERE source = 'curseforge' AND file = '' AND project != ? " +
+        "ORDER BY day", core),
   ]);
   const at = {};
   for (const r of counts) at[`${r.day}|${r.source}|${r.project}|${r.file}`] = r;
@@ -394,8 +397,6 @@ export async function storesReport(env, now = Date.now(), days = 14) {
                          hours: full.current ?? Math.round((now - Date.parse(full.uploaded)) / HOUR) } : null;
 
   // The packs' growth: over 7 days of snapshots, or since the first one.
-  const { results: packRows } = await env.DB.prepare("SELECT project, day, downloads, first FROM store_counts WHERE " +
-    "source = 'curseforge' AND file = '' AND project != ? ORDER BY day").bind(core).all();
   const weekAgo = utcDay(now, -7);
   const packs = files.filter(f => f.source === "curseforge" && packIds.includes(f.project) && !f.file).map(f => {
     const rows = packRows.filter(r => r.project === f.project);

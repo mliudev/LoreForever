@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The Shattered Hand operates as the covert backbone and intelligence guild of the Horde. Investigating a fallen operative shows just how perilous their field surveillance missions can be."
+   "text": "The Shattered Hand operates as the covert backbone and intelligence guild of the Horde. Investigating a vanished operative shows just how perilous their field surveillance missions can be."
   },
   {
    "target": "faction:Horde",
@@ -22,7 +22,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "Durotar is newly secured orcish territory, and having an operative slain by something other than the nearby human squatters raises immediate alarm for the safety of the realm."
+   "text": "Durotar is newly secured orcish territory, and having an operative fall silent within sight of the nearby human squatters raises immediate alarm for the safety of the realm."
   }
  ],
  "faq": [
@@ -49,7 +49,7 @@
     "is heglan dead",
     "heglan fate"
    ],
-   "answer": "Heglan Shadeeye is found dead inside the wreckage of a hut north of Tiragarde Keep. The state of her body and the scene suggest that whatever killed her was not human, pointing to a non-human threat lurking in the area.",
+   "answer": "That is what this quest sets out to learn. Her reports from her post north of Tiragarde Keep stopped without warning, and the one who sends you doubts the humans caught her, fearing something more dangerous is at play.",
    "q": "What happened to Heglan Shadeeye?"
   },
   {
@@ -65,7 +65,7 @@
     "did humans kill heglan",
     "did tiragarde soldiers kill her"
    ],
-   "answer": "No. Although Heglan was monitoring the hostile Kul Tiras humans occupying Tiragarde Keep, the clues at the ruined hut indicate that her killer was not human, suggesting a different predator or menace was responsible.",
+   "answer": "Her superior doubts it. Although Heglan was monitoring the hostile Kul Tiras humans occupying Tiragarde Keep, the one who sends you does not believe they could have caught her, and fears that something more dangerous is at play.",
    "q": "Did the humans at Tiragarde Keep kill Heglan?"
   },
   {

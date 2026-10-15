@@ -1,7 +1,7 @@
 // Plans (lib/billing.js, functions/api/billing/[action].js): Stripe's webhook signatures, subscriptions becoming plans,
 // how many live answers each plan gets a day and what kind, the free plan's starter, checkout, a paying player's cost
-// cap, and top-ups: credited once, used after the day's plan answers within the day's most, their cost cap, and the
-// offers when answers run out. Stripe and Gemini are mocked through fetch; D1 is node:sqlite (helpers.mjs).
+// cap, finest-voice packs credited once and taken back by a refund, and what's said and offered when answers run out.
+// Stripe and Gemini are mocked through fetch; D1 is node:sqlite (helpers.mjs).
 // Run: node --test 'site/tests/*.test.mjs'
 
 import { test, beforeEach, afterEach } from "node:test";
@@ -14,7 +14,7 @@ import { onRequest as billing } from "../functions/api/billing/[action].js";
 import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { setupBilling, planFor, INTEGRATION_ID } from "../lib/billing.js";
+import { setupBilling, planFor, companionFeatures, INTEGRATION_ID, PLANS } from "../lib/billing.js";
 import { allowance, ANSWER_MODEL, RESEARCH_MODEL } from "../lib/companion-answers.js";
 
 import { d1 } from "./helpers.mjs";
@@ -24,7 +24,7 @@ const NOW = Date.parse("2026-10-11T12:00:00Z");
 const env = { DB: d1(), GEMINI_API_KEY: "test-key", STRIPE_SECRET_KEY: "sk_test_123", STRIPE_WEBHOOK_SECRET: "whsec_test",
               SITE_FEATURES: "plans" };
 const originalFetch = globalThis.fetch;
-let stripeCalls, gemini, subscriptions, checkoutSessions;
+let stripeCalls, gemini, subscriptions, checkoutSessions, charges, invoices;
 
 beforeEach(async (t) => {
   t.mock.timers.enable({ apis: ["Date"], now: NOW });
@@ -38,6 +38,8 @@ beforeEach(async (t) => {
   gemini = [];
   subscriptions = {};
   checkoutSessions = {};
+  charges = {};
+  invoices = {};
   globalThis.fetch = async (url, options = {}) => {
     const u = new URL(url);
     if (u.hostname === "generativelanguage.googleapis.com") {
@@ -54,11 +56,23 @@ beforeEach(async (t) => {
     stripeCalls.push(call);
     const route = `${call.method} ${call.path}`;
     if (route === "GET prices") return Response.json({ data: [
-      { id: "price_hero_m", lookup_key: "hero_monthly" }, { id: "price_hero_y", lookup_key: "hero_yearly" },
-      { id: "price_topup", lookup_key: "topup_300" }] });
+      { id: "price_hero_m", lookup_key: "hero_monthly" }, { id: "price_hero_y", lookup_key: "hero_yearly" }] });
     if (route === "POST customers") return Response.json({ id: "cus_1" });
     if (route === "POST checkout/sessions") return Response.json({ id: "cs_test_1", url: "https://checkout.stripe.com/c/pay/cs_test_1" });
     if (route === "GET checkout/sessions") return Response.json({ data: [] });
+    // A payment's charge, as creditPack reads it: refunded or disputed when a test says so.
+    if (call.method === "GET" && call.path.startsWith("payment_intents/"))
+      return Response.json({ id: call.path.slice(16), latest_charge: charges[call.path.slice(16)] ||
+        { refunded: false, amount_refunded: 0, disputed: false } });
+    // A plan's payment has its invoice (invoices, by payment intent); a pack's has none, so a refund or dispute of it
+    // is no plan's (endPlanFor).
+    if (route === "GET invoice_payments") {
+      const pi = u.searchParams.get("payment[payment_intent]");
+      const invoice = Object.values(invoices).find(i => i.pi === pi);
+      return Response.json({ data: invoice ? [{ invoice: invoice.id, status: "paid", payment: { type: "payment_intent", payment_intent: pi } }] : [] });
+    }
+    if (call.method === "GET" && invoices[call.path.replace("invoices/", "")])
+      return Response.json(invoices[call.path.replace("invoices/", "")]);
     if (call.method === "GET" && call.path.startsWith("checkout/sessions/") && checkoutSessions[call.path.slice(18)])
       return Response.json(checkoutSessions[call.path.slice(18)]);
     if (route === "GET subscriptions") return Response.json({ data: Object.values(subscriptions)
@@ -128,7 +142,7 @@ test("with the plans feature off, nothing is for sale and everyone keeps 20 answ
   try {
     assert.deepEqual(await daily(hero), ["free", 20], "a stored subscription waits for the switch");
     const a = await allowance(env, hero.id);
-    assert.deepEqual([a.remaining, a.upgrade, a.features, a.topup], [20, undefined, undefined, undefined],
+    assert.deepEqual([a.remaining, a.upgrade, a.features], [20, undefined, undefined],
       "no starter, no upgrade link and no features for the companion");
     assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_packs").get().n, 0, "no starter is credited");
     const plans = await billing({ env, params: { action: "plans" }, request: new Request(ORIGIN + "/api/billing/plans") });
@@ -184,6 +198,34 @@ test("a paid checkout makes the account Hero, deletion makes it free, and a repl
   assert.equal((await planFor(env, user.id)).id, "free");
 });
 
+test("a whole refund of the current period's payment ends the plan; an older month's or an upgrade's is goodwill", async () => {
+  const user = await player("refunded");
+  const start = NOW / 1000 - 10 * 86400, end = NOW / 1000 + 20 * 86400, month = 30 * 86400;
+  subscriptions.sub_r = { ...subscription("sub_r", user.id), items: { data: [{ id: "si_r", current_period_start: start,
+    current_period_end: end, price: { id: "price_hero_m", lookup_key: "hero_monthly", recurring: { interval: "month" } } }] } };
+  const event = (id, type, object) => ({ id, type, data: { object } });
+  assert.equal((await hook(event("evt_sub_r", "customer.subscription.updated", { id: "sub_r", customer: "cus_1" }))).status, 200);
+  // Its invoices, by the payment that paid each (Stripe's lines carry the period they're for).
+  const invoice = (id, reason, periodStart) => (invoices[id] = { id, pi: `pi_${id}`, billing_reason: reason,
+    parent: { subscription_details: { subscription: "sub_r" } }, lines: { data: [{ period: { start: periodStart, end: periodStart + month } }] } });
+  invoice("in_last_month", "subscription_cycle", start - month);
+  invoice("in_upgrade", "subscription_update", start + 5 * 86400);
+  invoice("in_this_month", "subscription_cycle", start);
+  const refund = (id, refunded = true) => hook(event(`evt_refund_${id}_${refunded}`, "charge.refunded",
+    { id: `ch_${id}`, object: "charge", payment_intent: `pi_${id}`, refunded }));
+  for (const id of ["in_last_month", "in_upgrade"]) {
+    assert.equal((await refund(id)).status, 200);
+    assert.equal((await planFor(env, user.id)).id, "hero", `${id}: goodwill, the plan stays`);
+  }
+  assert.equal((await refund("in_this_month", false)).status, 200);
+  assert.equal((await planFor(env, user.id)).id, "hero", "part of this month's payment: the plan stays");
+  assert.equal(stripeCalls.filter(c => c.method === "DELETE").length, 0);
+  assert.equal((await hook(event("evt_refund_whole", "charge.refunded",
+    { id: "ch_whole", object: "charge", payment_intent: "pi_in_this_month", refunded: true }))).status, 200);
+  assert.deepEqual(stripeCalls.filter(c => c.method === "DELETE").map(c => c.path), ["subscriptions/sub_r"]);
+  assert.equal((await planFor(env, user.id)).id, "free", "the whole of this month's payment: the plan ends now");
+});
+
 test("daily answers: free, Hero while active or past due, Champion, an ended period, and the brake", async () => {
   const free = await linkedDaysAgo("free", 30), hero = await linkedDaysAgo("hero", 30), champion = await linkedDaysAgo("champ", 3);
   assert.deepEqual(await daily(free), ["free", 20]);
@@ -208,7 +250,10 @@ test("the allowance tells the companion what each plan may do", async () => {
   await entitle(hero, "hero", "active", 20);
   await entitle(champion, "champion", "active", 20);
   assert.deepEqual((await allowance(env, free.id)).features,
-    { voices: "default", push_to_talk: false, sight: false, npc_voices: false, research: false });
+    { voices: "default", push_to_talk: true, sight: false, npc_voices: false, research: false },
+    "while its starter lasts, asking out loud gets an answer aloud in Willo's default voice (site/tests/companion-voice.test.mjs)");
+  assert.deepEqual(companionFeatures(PLANS.free, { starter: 0 }),
+    { voices: "none", push_to_talk: false, sight: false, npc_voices: false, research: false }, "after it: text, typed");
   for (const user of [hero, champion]) {
     assert.deepEqual((await allowance(env, user.id)).features,
       { voices: "all", push_to_talk: true, sight: true, npc_voices: true, research: true });
@@ -236,10 +281,17 @@ test("checkout needs a signed-in player, refuses a plan that isn't for sale, and
   const user = await player("buyer");
   const cookie = (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
   assert.equal((await post("checkout", { plan: "hero", interval: "month" }, { cookie, origin: "https://elsewhere.example" })).status, 403);
-  assert.equal((await post("checkout", { plan: "legend", interval: "month" }, { cookie })).status, 400);
+  env.BILLING_PLANS = "hero,champion";
+  try {
+    assert.equal((await post("checkout", { plan: "legend", interval: "month" }, { cookie })).status, 400);
+  } finally { delete env.BILLING_PLANS; }
   assert.equal(stripeCalls.length, 0, "nothing reaches Stripe for a plan that isn't for sale");
 
-  const res = await post("checkout", { plan: "hero", interval: "year" }, { cookie });
+  // Plans are monthly (Mike, 2026-10-13): a yearly one is refused before Stripe hears of it.
+  assert.deepEqual(await post("checkout", { plan: "hero", interval: "year" }, { cookie }),
+    { status: 400, body: { ok: false, error: "Plans are monthly." } });
+  assert.equal(stripeCalls.length, 0);
+  const res = await post("checkout", { plan: "hero" }, { cookie });
   assert.equal(res.status, 200, JSON.stringify(res.body));
   assert.equal(res.body.url, "https://checkout.stripe.com/c/pay/cs_test_1");
   const session = stripeCalls.find(c => c.path === "checkout/sessions");
@@ -247,9 +299,21 @@ test("checkout needs a signed-in player, refuses a plan that isn't for sale, and
   assert.equal(session.body.get("mode"), "subscription");
   assert.equal(session.body.get("client_reference_id"), user.id);
   assert.equal(session.body.get("subscription_data[metadata][user_id]"), user.id);
-  assert.equal(session.body.get("line_items[0][price]"), "price_hero_y");
+  assert.equal(session.body.get("line_items[0][price]"), "price_hero_m");
   assert.equal(session.body.get("customer"), "cus_1");
   assert.equal(session.body.get("integration_identifier"), INTEGRATION_ID);
+  assert.equal(session.body.get("consent_collection[terms_of_service]"), "required",
+    "the Terms, which say that starting now ends the EU/UK 14-day withdrawal right as far as the law allows");
+  // Before the Dashboard has a Terms of service URL, Stripe refuses the box: checkout still opens, without it.
+  const working = globalThis.fetch;
+  globalThis.fetch = async (url, options = {}) => new URLSearchParams(options.body || "").has("consent_collection[terms_of_service]")
+    ? Response.json({ error: { message: "You cannot collect consent to your terms of service unless a URL is set in the Stripe Dashboard." } }, { status: 400 })
+    : working(url, options);
+  try {
+    const without = await post("checkout", { plan: "hero" }, { cookie });
+    assert.equal(without.status, 200, JSON.stringify(without.body));
+    assert.equal(stripeCalls.filter(c => c.path === "checkout/sessions").pop().body.get("consent_collection[terms_of_service]"), null);
+  } finally { globalThis.fetch = working; }
   assert.ok(![...session.body.keys()].some(k => /^(payment_method_types|automatic_tax|managed_payments)/.test(k)),
     "payment methods come from the Dashboard; tax waits for Managed Payments");
   assert.equal(env.DB.sqlite.prepare("SELECT customer_id FROM entitlements WHERE user_id = ?").get(user.id).customer_id, "cus_1");
@@ -264,7 +328,7 @@ test("checkout needs a signed-in player, refuses a plan that isn't for sale, and
   } finally { delete env.STRIPE_MANAGED_PAYMENTS; }
 });
 
-test("a paying player skips the shared budget, and past the cost cap research becomes an ordinary answer", async () => {
+test("a paying player skips the shared budget; past half their plan's net a month, answers come from the lore library", async () => {
   const user = await player("hero");
   const link = await startLink(env);
   assert.equal(await decideLink(env, link.user_code, user, true), true);
@@ -284,23 +348,27 @@ test("a paying player skips the shared budget, and past the cost cap research be
     assert.equal(spent.calls, 1);
     assert.ok(spent.micro > 0);
 
-    env.DB.sqlite.prepare("UPDATE answer_user_spend SET micro = 2500000 WHERE user_id = ?").run(user.id);
+    // Hero's net is $4.37: its answers may cost $2.18 a month. Past that, none of the plan's until November, with
+    // Willo's words that only say when (the companion starts its lore-library answer with them), and nothing offered.
+    env.DB.sqlite.prepare("UPDATE answer_user_spend SET micro = 2180000 WHERE user_id = ?").run(user.id);
     const capped = await ask();
-    assert.equal(capped.status, 200);
-    assert.equal(gemini[1].body.tools, undefined, "past the cap: no web search");
-    assert.match(gemini[1].url, /gemini-3\.1-flash-lite:generateContent$/);
-    assert.equal(capped.body.answer, "Mild Spices are sold in Goldshire.");
-    assert.deepEqual(capped.body.allowance.fair_use, { lookups: false, until: "2026-11-01T00:00:00.000Z" },
-      "the companion is told: no web look-ups until next month (a Hero has no stronger mind to lose)");
-    assert.equal(capped.body.allowance.plan.id, "hero");
-    assert.equal(capped.body.counted, undefined, "the cost stays on the server");
+    assert.equal(capped.status, 429);
+    assert.equal(capped.body.error, "My light's spent for this month. The Moonwell refills it on November 1.");
+    assert.equal(capped.body.offers, undefined);
+    assert.deepEqual([capped.body.allowance.remaining, capped.body.allowance.period, capped.body.allowance.resetsAt],
+      [0, "month", "2026-11-01T00:00:00.000Z"]);
+    assert.equal(capped.body.allowance.fair_use, undefined);
+    assert.equal(gemini.length, 1, "nothing reached the model");
+    // A hosted voice's cost counts toward the whole net, not this half: answers go on.
+    env.DB.sqlite.prepare("UPDATE answer_user_spend SET micro = 4000000, voice_micro = 2000000 WHERE user_id = ?").run(user.id);
+    assert.equal((await ask()).status, 200);
   } finally { delete env.STORY_BUDGET_USD; }
 });
 
 test("research questions sent all at once by a player just under the cost cap: only one looks online", async () => {
   const { user, ask } = await companionPlayer("burst", { plan: "hero" });
   env.DB.sqlite.prepare("INSERT INTO answer_user_spend (user_id, month, micro, calls) VALUES (?, '2026-10', ?, 1)")
-    .run(user.id, 2_490_000);   // a cent under Hero's $2.50
+    .run(user.id, 2_170_000);   // a cent under Hero's $2.18
   // Gemini answers none of them until all five have asked, as when a script sends them at once.
   const answering = globalThis.fetch, asked = [];
   globalThis.fetch = async (url, options) => {
@@ -318,24 +386,21 @@ test("research questions sent all at once by a player just under the cost cap: o
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_holds").get().n, 0);
   const spent = env.DB.sqlite.prepare("SELECT micro FROM answer_user_spend WHERE user_id = ?").get(user.id).micro;
   const cost = env.DB.sqlite.prepare("SELECT reserved_micro FROM answer_spend WHERE month = '2026-10'").get().reserved_micro;
-  assert.equal(spent - 2_490_000, cost);
+  assert.equal(spent - 2_170_000, cost);
 });
 
-// ---- Top-ups ----
+// ---- Packs: the finest voice, and the starter ----
 
-// A top-up's Checkout Session as its webhook events carry it.
-// A top-up's checkout session as an event carries it; GET checkout/sessions/<id> then returns the same, as Stripe would.
-const topupSession = (id, user, paymentStatus = "paid") => (checkoutSessions[id] = { id, object: "checkout.session",
+// A finest-voice pack's checkout session as an event carries it; GET checkout/sessions/<id> then returns the same, as
+// Stripe would.
+const packSession = (id, user, paymentStatus = "paid") => (checkoutSessions[id] = { id, object: "checkout.session",
   mode: "payment", customer: "cus_1", client_reference_id: user.id, payment_status: paymentStatus,
-  payment_intent: `pi_${id}`, metadata: { kind: "topup" } });
+  payment_intent: `pi_${id}`, metadata: { kind: "voice" } });
 const stripeEvent = (id, type, object) => ({ id, type, data: { object } });
 const packs = user => env.DB.sqlite.prepare("SELECT id, answers, remaining, spent_micro, status FROM answer_packs " +
-  "WHERE user_id = ? AND kind = 'topup' ORDER BY created, id").all(user.id).map(p => ({ ...p }));
+  "WHERE user_id = ? AND kind = 'voice' ORDER BY created, id").all(user.id).map(p => ({ ...p }));
 const starterLeft = user => env.DB.sqlite.prepare("SELECT remaining FROM answer_packs WHERE user_id = ? AND kind = 'starter'")
   .all(user.id).map(p => p.remaining);
-const addPack = (user, id, { remaining = 300, spent = 0, daysAgo = 0 } = {}) => env.DB.prepare(
-  "INSERT INTO answer_packs (id, user_id, answers, remaining, spent_micro, payment_intent, created) VALUES (?, ?, 300, ?, ?, ?, ?)"
-).bind(id, user.id, remaining, spent, `pi_${id}`, new Date(NOW - daysAgo * 86400e3).toISOString()).run();
 const usedToday = (user, bucket, n) => env.DB.prepare("INSERT OR REPLACE INTO rate_limits (user_id, bucket, n) VALUES (?, ?, ?)")
   .bind(user.id, `${bucket}:2026-10-11`, n).run();
 
@@ -363,115 +428,71 @@ async function companionPlayer(sub, { plan, starter } = {}) {
 // A free player whose starter is used up.
 const freePlayer = sub => companionPlayer(sub, { starter: 0 });
 
-test("a paid top-up credits 300 answers once, whatever events arrive; a refund or a dispute takes them back", async () => {
+test("a paid finest-voice pack is credited once, whatever events arrive; a refund or a dispute takes it back", async () => {
   const user = await player("buyer");
-  assert.equal((await hook(stripeEvent("evt_1", "checkout.session.completed", topupSession("cs_bank", user, "unpaid")))).status, 200);
+  assert.equal((await hook(stripeEvent("evt_1", "checkout.session.completed", packSession("cs_bank", user, "unpaid")))).status, 200);
   assert.deepEqual(packs(user), [], "a payment still on its way credits nothing");
 
-  const paid = stripeEvent("evt_2", "checkout.session.completed", topupSession("cs_card", user));
+  const paid = stripeEvent("evt_2", "checkout.session.completed", packSession("cs_card", user));
   assert.equal((await hook(paid)).status, 200);
-  env.DB.sqlite.prepare("UPDATE answer_packs SET remaining = 250 WHERE id = 'cs_card'").run();   // 50 used since
+  env.DB.sqlite.prepare("UPDATE answer_packs SET remaining = 350 WHERE id = 'cs_card'").run();   // 50 used since
   assert.equal((await hook(paid)).status, 200, "Stripe sends it again");
-  assert.equal((await hook(stripeEvent("evt_3", "checkout.session.async_payment_succeeded", topupSession("cs_card", user)))).status, 200);
-  assert.equal((await hook(stripeEvent("evt_4", "checkout.session.async_payment_succeeded", topupSession("cs_bank", user)))).status, 200);
-  assert.deepEqual(packs(user).map(p => [p.id, p.remaining]), [["cs_bank", 300], ["cs_card", 250]],
+  assert.equal((await hook(stripeEvent("evt_3", "checkout.session.async_payment_succeeded", packSession("cs_card", user)))).status, 200);
+  assert.equal((await hook(stripeEvent("evt_4", "checkout.session.async_payment_succeeded", packSession("cs_bank", user)))).status, 200);
+  assert.deepEqual(packs(user).map(p => [p.id, p.remaining]), [["cs_bank", 400], ["cs_card", 350]],
     "one pack per checkout: the card's once, and the bank debit's once it's paid");
   assert.ok(stripeCalls.every(c => c.method === "GET"), "the sessions are only read back from Stripe");
 
   // An event claiming a payment Stripe doesn't know of (made with a leaked webhook secret, say) credits nothing.
-  const forged = { ...topupSession("cs_forged", user, "unpaid"), payment_status: "paid" };
+  const forged = { ...packSession("cs_forged", user, "unpaid"), payment_status: "paid" };
   assert.equal((await hook(stripeEvent("evt_forged", "checkout.session.completed", forged))).status, 200);
   assert.equal(packs(user).length, 2, "Stripe says it's unpaid");
 
   const refund = { id: "ch_1", object: "charge", payment_intent: "pi_cs_card", refunded: true };
   assert.equal((await hook(stripeEvent("evt_5", "charge.refunded", refund))).status, 200);
-  assert.deepEqual(packs(user).map(p => [p.id, p.remaining, p.status]), [["cs_bank", 300, "active"], ["cs_card", 0, "refunded"]]);
+  assert.deepEqual(packs(user).map(p => [p.id, p.remaining, p.status]), [["cs_bank", 400, "active"], ["cs_card", 0, "refunded"]]);
   const chargeback = { id: "dp_1", object: "dispute", charge: "ch_2", payment_intent: "pi_cs_bank", status: "needs_response" };
   assert.equal((await hook(stripeEvent("evt_6", "charge.dispute.created", chargeback))).status, 200);
   assert.deepEqual(packs(user).map(p => [p.id, p.remaining, p.status]), [["cs_bank", 0, "disputed"], ["cs_card", 0, "refunded"]]);
+
+  // Stripe can send the dispute or the refund first, seconds before the checkout's own event (Mike's sandbox, 10/13):
+  // the pack is kept as disputed or refunded, with no replies, and nothing else changes.
+  for (const [id, kind, charge] of [["cs_dispute_first", "disputed", { disputed: true, refunded: false, amount_refunded: 0 }],
+                                    ["cs_refund_first", "refunded", { disputed: false, refunded: true, amount_refunded: 299 }]]) {
+    const session = packSession(id, user);
+    const first = kind === "disputed"
+      ? stripeEvent(`evt_${id}_1`, "charge.dispute.created", { id: `dp_${id}`, object: "dispute", payment_intent: session.payment_intent })
+      : stripeEvent(`evt_${id}_1`, "charge.refunded", { id: `ch_${id}`, object: "charge", payment_intent: session.payment_intent, refunded: true });
+    assert.equal((await hook(first)).status, 200);
+    charges[session.payment_intent] = charge;
+    assert.equal((await hook(stripeEvent(`evt_${id}_2`, "checkout.session.completed", session))).status, 200);
+    assert.deepEqual(packs(user).filter(p => p.id === id).map(p => [p.remaining, p.status]), [[0, kind]], `${kind} first`);
+  }
+  assert.equal((await planFor(env, user.id)).id, "free", "a pack's dispute or refund touches no plan");
 
   await deleteUser(env, user);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_packs").get().n, 0, "Delete my account removes them");
 });
 
-test("top-up checkout is a one-time payment for the account, refused after this month's 3 and while plans are off", async () => {
-  const user = await player("buyer");
-  const cookie = (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
-  const res = await post("topup", {}, { cookie });
-  assert.equal(res.status, 200, JSON.stringify(res.body));
-  const session = stripeCalls.find(c => c.path === "checkout/sessions").body;
-  assert.equal(session.get("mode"), "payment");
-  assert.equal(session.get("line_items[0][price]"), "price_topup");
-  assert.equal(session.get("client_reference_id"), user.id);
-  assert.equal(session.get("metadata[kind]"), "topup");
-  assert.equal(session.get("payment_intent_data[metadata][user_id]"), user.id);
-  assert.equal(session.get("success_url"), `${ORIGIN}/plans?topup=done#topup`);
-
-  // The free starter, credited this month, is never a top-up bought.
-  await env.DB.prepare("INSERT INTO answer_packs (id, user_id, kind, answers, remaining, created) VALUES (?, ?, 'starter', 30, 30, ?)")
-    .bind(`starter:${user.id}`, user.id, new Date(NOW).toISOString()).run();
-  for (const id of ["cs_a", "cs_b"]) await addPack(user, id);
-  await addPack(user, "cs_last_month", { daysAgo: 20 });
-  assert.equal((await post("topup", {}, { cookie })).status, 200, "two this month, and the starter doesn't count");
-  await addPack(user, "cs_c");
-  const calls = stripeCalls.length;
-  const full = await post("topup", {}, { cookie });
-  assert.equal(full.status, 400);
-  assert.match(full.body.error, /this month's 3 top-ups/);
-  assert.equal(stripeCalls.length, calls, "nothing reaches Stripe");
-
-  delete env.SITE_FEATURES;
-  try {
-    assert.equal((await post("topup", {}, { cookie })).status, 503);
-  } finally { env.SITE_FEATURES = "plans"; }
-});
-
-test("once the day's free answers are gone, the next comes out of a top-up, past the shared budget", async () => {
-  const { user, ask } = await freePlayer("topper");
-  await addPack(user, "cs_1");
+test("a failed answer gives its starter answer back", async () => {
+  const { user, ask } = await companionPlayer("budget", { starter: 30 });
   await usedToday(user, "companion-answer", 20);
-  env.STORY_BUDGET_USD = "0";   // the shared budget is spent: a free answer would get a 429 now
-  try {
-    const res = await ask();
-    assert.equal(res.status, 200, JSON.stringify(res.body));
-    assert.equal(res.body.allowance.topup.remaining, 299);
-    assert.equal(res.body.allowance.remaining, 199, "the companion keeps asking while top-up answers are left, within 200 a day");
-  } finally { delete env.STORY_BUDGET_USD; }
-  const [pack] = packs(user);
-  assert.equal(pack.remaining, 299);
-  assert.ok(pack.spent_micro > 0, "the pack counts what its answers cost");
-  const spend = env.DB.sqlite.prepare("SELECT micro, topup_micro FROM answer_user_spend WHERE user_id = ?").get(user.id);
-  assert.deepEqual([spend.micro, spend.topup_micro], [pack.spent_micro, pack.spent_micro],
-    "counted as paid for, so the shared budget leaves it out, and kept apart from a plan's cost cap");
+  const working = globalThis.fetch;
+  globalThis.fetch = async () => Response.json({ error: { message: "overloaded" } }, { status: 503 });
+  try { assert.equal((await ask()).status, 502); } finally { globalThis.fetch = working; }
+  assert.deepEqual(starterLeft(user), [30], "the player gets answers, not attempts");
 });
 
-test("a full shared budget falls back to the player's top-up, and a failed answer gives its top-up answer back", async () => {
-  const { user, ask } = await freePlayer("budget");
-  await addPack(user, "cs_1");
-  env.STORY_BUDGET_USD = "0";   // free answers are left today, but the shared budget is spent
-  try {
-    assert.equal((await ask()).status, 200, "answered from the top-up instead of 'at capacity'");
-    assert.equal(packs(user)[0].remaining, 299);
-    const working = globalThis.fetch;
-    globalThis.fetch = async () => Response.json({ error: { message: "overloaded" } }, { status: 503 });
-    try { assert.equal((await ask()).status, 502); } finally { globalThis.fetch = working; }
-    assert.equal(packs(user)[0].remaining, 299, "the failed answer's top-up answer came back");
-  } finally { delete env.STORY_BUDGET_USD; }
-});
-
-test("out of answers: the 429 offers Hero and a top-up to a free player, nothing with plans off or past 200 a day", async () => {
+test("out of answers: Willo's words for when they come back, Hero the free plan's one offer, nothing for Legend", async () => {
   const { user, ask } = await freePlayer("broke");
   await usedToday(user, "companion-answer", 20);
   const out = await ask();
   assert.equal(out.status, 429);
-  assert.equal(out.body.error, "You've used today's 20 live answers. They come back tomorrow. " +
-    "Top-ups and plans are on loreforeverwow.com/plans.");
-  assert.deepEqual(out.body.offers, [
-    { id: "hero", text: "Get Hero: 900 answers a month", url: "/plans" },
-    { id: "topup", text: "Top-up: 300 answers for $2.99", url: "/plans#topup" }]);
+  assert.equal(out.body.error, "My light's spent for today. The Moonwell refills it tomorrow.",
+    "only when they come back: the companion starts its lore-library answer with these words");
+  assert.deepEqual(out.body.offers, [{ id: "hero", text: "Get Hero: 900 answers a month", url: "/plans" }]);
 
-  // With plans off, the 20 free answers a day and nothing for sale: a pack waits, untouched.
-  await addPack(user, "cs_1");
+  // With plans off, the 20 free answers a day and nothing for sale.
   delete env.SITE_FEATURES;
   try {
     await usedToday(user, "companion-answer", 20);
@@ -480,30 +501,14 @@ test("out of answers: the 429 offers Hero and a top-up to a free player, nothing
     assert.equal(off.body.offers, undefined);
     assert.equal(off.body.error, "You've used today's 20 free answers. They come back tomorrow.", "as before plans");
   } finally { env.SITE_FEATURES = "plans"; }
-  assert.equal(packs(user)[0].remaining, 300);
 
-  // 200 live answers today in all: no more, whatever is left in the pack.
-  await usedToday(user, "companion-day", 200);
-  const most = await ask();
-  assert.equal(most.status, 429);
-  assert.equal(most.body.error, "That's the most live answers for one day. They come back tomorrow.");
-  assert.equal(most.body.offers, undefined);
-  assert.equal(packs(user)[0].remaining, 300);
+  // Legend at its day's most: nothing above it to offer, and no way to the plans page for more light.
+  const legend = await companionPlayer("legend", { plan: "legend" });
+  await usedToday(legend.user, "companion-answer", 300);
+  const spent = await legend.ask();
+  assert.equal(spent.status, 429);
+  assert.deepEqual([spent.body.offers, spent.body.allowance.upgrade], [undefined, undefined]);
   assert.equal(gemini.length, 0);
-});
-
-test("top-up answers come out of the oldest pack first, and past $1.50 a pack's research questions get ordinary answers", async () => {
-  // Hero, past the day's 100: a free player's answers never look online, top-up or not.
-  const { user, ask } = await companionPlayer("scholar", { plan: "hero" });
-  await addPack(user, "cs_old", { remaining: 1, spent: 1_500_000, daysAgo: 5 });
-  await addPack(user, "cs_new");
-  await usedToday(user, "companion-answer", 100);
-  assert.equal((await ask({ research_required: true })).status, 200);
-  assert.equal(gemini[0].body.tools, undefined, "the old pack is past its cap: no web search");
-  assert.match(gemini[0].url, /gemini-3\.1-flash-lite:generateContent$/);
-  assert.equal((await ask({ research_required: true })).status, 200);
-  assert.deepEqual(gemini[1].body.tools, [{ googleSearch: {} }], "the new pack is under it");
-  assert.deepEqual(packs(user).map(p => [p.id, p.remaining]), [["cs_old", 0], ["cs_new", 299]]);
 });
 
 // ---- The launch plans (Mike, 2026-10-12) ----
@@ -518,8 +523,8 @@ test("free with plans on: 20 a day, then the 30-answer starter, once per Google 
     "starter answers are free: none of their cost is the player's");
   const out = await ask();
   assert.equal(out.status, 429);
-  assert.match(out.body.error, /^You've used today's 20 live answers\./);
-  assert.deepEqual(out.body.offers.map(o => o.id), ["hero", "topup"]);
+  assert.match(out.body.error, /^My light's spent for today\./);
+  assert.deepEqual(out.body.offers.map(o => o.id), ["hero"]);
   assert.equal(gemini.length, 50);
   // Connecting the companion again doesn't bring another starter.
   env.DB.sqlite.prepare("DELETE FROM devices WHERE user_id = ?").run(user.id);
@@ -588,16 +593,13 @@ test("a paid plan's answers and web look-ups are a month's pool from its renewal
     .bind(user.id, "companion-month:2026-09-30", n).run();
   await used(850);
   const late = await allowance(env, user.id);
-  assert.deepEqual([late.period, late.limit, late.remaining, late.resetsAt], ["month", 900, 50, "2026-10-31T00:00:00.000Z"]);
+  assert.deepEqual([late.period, late.limit, late.remaining, late.resetsAt], ["month", 900, 50, "2026-10-31T12:00:00.000Z"],
+    "the pool comes back with the renewal itself (noon), not at midnight before it");
   await used(900);
   const out = await ask();
   assert.equal(out.status, 429);
-  assert.match(out.body.error, /^You've used this month's 900 live answers\. They come back on October 31\./);
+  assert.equal(out.body.error, "My light's spent for this month. The Moonwell refills it on October 31.");
   assert.equal(gemini.length, 0);
-  await addPack(user, "cs_more");
-  const topped = await allowance(env, user.id);
-  assert.deepEqual([topped.period, topped.topup], ["month", { remaining: 300, active: true }],
-    "the month's answers are gone, so answers come from the top-up");
 
   // The month's 10 web look-ups: the 10th searches, the 11th is answered without looking online.
   await env.DB.prepare("DELETE FROM rate_limits WHERE user_id = ?").bind(user.id).run();

@@ -1,0 +1,112 @@
+{
+ "key": "quest:91758",
+ "type": "quest",
+ "name": "Follow That Kobold!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91758
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This task introduces Tordrin Sternblade, a veteran hunter trainer newly arrived from Ironforge to assist Northshire Abbey."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Tordrin Sternblade brings traditional dwarven tracking expertise straight from Ironforge to help the humans of Northshire."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Cooperation between Stormwind's holy abbey and an Ironforge mountaineer highlights the strength of the Alliance's mutual support."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is follow that kobold",
+    "quest follow that kobold"
+   ],
+   "answer": "Follow That Kobold! is a quest in Northshire Valley tasked with pursuing a rogue kobold who fled the local mine carrying a heavy sack of stolen books belonging to Brother Paxton.",
+   "q": "What is Follow That Kobold! about?"
+  },
+  {
+   "aliases": [
+    "who is tordrin sternblade",
+    "where is tordrin",
+    "hunter trainer northshire"
+   ],
+   "answer": "Tordrin Sternblade is a dwarven Hunter trainer recently arrived from Ironforge. He is stationed behind Northshire Abbey near the stables and lends his tracking expertise to help recover the stolen books.",
+   "q": "Who is Tordrin Sternblade?"
+  },
+  {
+   "aliases": [
+    "why did kobold steal books",
+    "what did kobold take",
+    "sack of books"
+   ],
+   "answer": "According to reports from Kelsey, a kobold slipped out of the Northshire mine hauling a large sack of books. The abbey needs them retrieved on behalf of Brother Paxton, though why a kobold would covet human tomes remains a mystery.",
+   "q": "What did the kobold steal?"
+  },
+  {
+   "aliases": [
+    "who is kelsey",
+    "kelsey northshire"
+   ],
+   "answer": "Kelsey is an observer or scout near the Northshire mine who first noticed the unusual sight of a kobold departing the tunnels with a sack stuffed with books.",
+   "q": "Who reported the theft?"
+  },
+  {
+   "aliases": [
+    "who is brother paxton",
+    "paxton books"
+   ],
+   "answer": "Brother Paxton is a cleric residing at Northshire Abbey. The stolen library materials belong to him or his sacred duties, prompting the call for an experienced tracker to get them back.",
+   "q": "Who is Brother Paxton?"
+  },
+  {
+   "aliases": [
+    "how do i track the kobold",
+    "tracking the thief"
+   ],
+   "answer": "Rather than charging blindly into the woods, adventurers are sent to consult Tordrin Sternblade behind the abbey, who prepares tracking techniques to follow the thief's trail.",
+   "q": "How do you track the thieving kobold?"
+  }
+ ],
+ "keywords": [
+  "brother paxton",
+  "follow that kobold",
+  "hunter trainer",
+  "ironforge",
+  "kelsey",
+  "kobold",
+  "northshire",
+  "tordrin sternblade"
+ ],
+ "related": [
+  "topic:hunter",
+  "topic:kobold",
+  "zone:ironforge",
+  "quest:344"
+ ],
+ "sections": [
+  {
+   "body": "Just when the workers and clerics of Northshire Abbey believed the vermin problem in the mines was under control, an unusual report arrived from Kelsey: a lone kobold was spotted fleeing the tunnels hauling a heavy sack of books. The stolen volumes belong to Brother Paxton, who urgently requires their return to the abbey's collection.",
+   "spoiler": 0,
+   "title": "The Book Thief of Northshire"
+  },
+  {
+   "body": "Tracking a nimble subterranean scavenger through the wooded grounds of Northshire requires specialized skill. To find the thief, adventurers are directed behind the abbey to the stables to seek out Tordrin Sternblade, a dwarven Hunter trainer newly arrived from Ironforge who possesses the wilderness knowledge needed to pick up the scent.",
+   "spoiler": 0,
+   "title": "Calling in the Mountaineer"
+  }
+ ],
+ "summary": "Follow That Kobold! is an Alliance quest in Northshire Valley dealing with a bizarre theft from the local mines. A kobold has fled with a sack of Brother Paxton's books, prompting the abbey to recruit the dwarven hunter trainer Tordrin Sternblade to assist in tracking the thief.",
+ "attribution": [
+  "In-game quest text: Follow That Kobold!"
+ ]
+}

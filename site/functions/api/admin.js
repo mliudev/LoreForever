@@ -24,7 +24,7 @@
 // [{file, src, n}], site downloads in the last 30 days by the ?src= of their link, and "site": lib/usage.js siteReport,
 // the last 14 days of profile views, opens from outside links and shares (LOR-151). "plans": lib/billing.js
 // billingReport (LOR-252), {on, paying, counts: [{plan, status, n}], monthlyUsd, spend: {usd, players, calls},
-// topups: {sold, unused, usd}}.
+// voicePacks: {sold, unused, usd}} (finest-voice packs).
 // "activity": lib/activity.js activityReport, sign-ins per day, returning accounts and owners, profile updates by way
 // in and veterans or new players (LOR-304); "funnel": lib/activity.js funnelReport, each stage from site download to
 // returning player, signed-in downloads (LOR-8), week by week and cohorts by first week (LOR-10), plus "stores"
@@ -32,11 +32,14 @@
 // "companionWeeks" (lib/checkins.js: companion installs in use and returning, LOR-422); each null until it has a table.
 // "features": lib/featureuse.js featureReport, which features every companion install's add-on and companion used, by
 // level range and new or returning install, and the 30-day trend (LOR-435).
-// Every account count leaves out the admin's and excluded accounts (lib/activity.js syncExclusions, run first: the
-// account signed in on this browser, ANALYTICS_EXCLUDE, and those left out by hand); users[].excluded says why.
+// Every account count leaves out the admin's and excluded accounts (lib/activity.js syncExclusions, brought up to date
+// on each load, the counts taken again when that changed anything: the account signed in on this browser,
+// ANALYTICS_EXCLUDE, and those left out by hand); users[].excluded says why.
 //   POST {"action": "exclude-account" | "count-account", "id": "<account id>"}   leave one out of the counts, or count
 //                                                                               it again (even the admin's)
 // The CurseForge author dashboard's numbers come in through functions/api/admin/curseforge.js.
+// GET answers with a Server-Timing header: how long each part took, in milliseconds, and "total" (DevTools > Network >
+// Timing shows it). Names and times only.
 
 import { authorized } from "../../lib/auth.js";
 import { setup as setupAccounts, currentUser } from "../../lib/accounts.js";
@@ -44,114 +47,164 @@ import { storySpend, STORY_BUDGET_USD } from "../../lib/profiles.js";
 import { decodeReport, describeReport } from "../../public/report-code.js";
 import { setup as setupContrib, adminView, setUploaderRejected, loadKnown } from "../../lib/contribute.js";
 import { usageReport, siteReport } from "../../lib/usage.js";
-import { activityReport, funnelReport, syncExclusions, setExclusion, counted } from "../../lib/activity.js";
+import { activityReport, funnelReport, funnelFrom, syncExclusions, setExclusion, counted, utcDay }
+  from "../../lib/activity.js";
 import { storesReport } from "../../lib/stores.js";
 import { checkinReport, checkinWeeks } from "../../lib/checkins.js";
 import { featureReport } from "../../lib/featureuse.js";
 import { billingReport } from "../../lib/billing.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
-const json = (body, status = 200) => Response.json(body, { status, headers: NO_STORE });
+const json = (body, status = 200, headers = {}) => Response.json(body, { status, headers: { ...NO_STORE, ...headers } });
 
 async function safe(query) { try { return await query; } catch (e) { return null; } }   // table may not exist yet
 
-// Reports saved before the dashboard existed have no status column yet, and those from before sign-in (LOR-106) no
-// user_id. The users table is joined for the reply email of signed-in reports.
-async function addStatusColumn(db) {
-  await safe(db.prepare("ALTER TABLE feedback ADD COLUMN status TEXT NOT NULL DEFAULT 'new'").run());
-  await safe(db.prepare("ALTER TABLE feedback ADD COLUMN user_id TEXT").run());
-  await safe(db.prepare("ALTER TABLE feedback ADD COLUMN report TEXT").run());
+// Times each part of a request for the Server-Timing header: time(name, fn) runs fn and notes how long it took.
+function timings() {
+  const start = Date.now(), parts = [];
+  return {
+    async time(name, fn) {
+      const t = Date.now();
+      try { return await fn(); } finally { parts.push(`${name};dur=${Date.now() - t}`); }
+    },
+    header: () => [...parts, `total;dur=${Date.now() - start}`].join(", "),
+  };
 }
 
+// Reports saved before the dashboard existed have no status column yet, and those from before sign-in (LOR-106) no
+// user_id. The users table is joined for the reply email of signed-in reports. Once all three columns are there, a
+// Worker doesn't try again for that database (a table that doesn't exist yet is tried again on the next load).
+const FEEDBACK_COLUMNS = ["status TEXT NOT NULL DEFAULT 'new'", "user_id TEXT", "report TEXT"];
+const feedbackReady = new WeakSet();
+async function addStatusColumn(db) {
+  if (feedbackReady.has(db)) return;
+  const there = await Promise.all(FEEDBACK_COLUMNS.map(column => db.prepare(`ALTER TABLE feedback ADD COLUMN ${column}`)
+    .run().then(() => true, e => /duplicate column/i.test(String(e?.message)))));
+  if (there.every(Boolean)) feedbackReady.add(db);
+}
+
+// Every part of the dashboard runs at once, each waiting only for what it reads. A round trip to D1 can take a fifth of
+// a second from an edge far from the database, and the parts used to wait for each other in turn (4 to 7 s in all).
 export async function onRequestGet({ request, env }) {
   if (!(await authorized(request, env))) return json({ error: "Needs the admin key." }, 401);
   if (!env.DB) return json({ error: "No D1 database bound as DB" }, 503);
-  await addStatusColumn(env.DB);
-  await safe(setupAccounts(env));
-  // The accounts the counts leave out (lib/activity.js): test addresses, ANALYTICS_EXCLUDE, and the account signed in
-  // on this browser, the admin's own (the /admin page is on the same site, so its session cookie comes along).
-  await safe(syncExclusions(env, await safe(currentUser(env, request))));
+  const { time, header } = timings();
+  const now = Date.now();
+  const schema = time("schema", () => Promise.all([addStatusColumn(env.DB), safe(setupAccounts(env))]));
+  // Parts that read lib/accounts.js's tables (or feedback's columns) wait for the schema; the others, timed straight
+  // away, read only tables of their own.
+  const part = (name, fn) => schema.then(() => time(name, fn));
   const all = async q => (await safe(env.DB.prepare(q).all()))?.results || [];
-  const [subscribers, feedback, downloads, clicks, voices, translations, translationReports, users, signupCounts,
-         signupDays] = await Promise.all([
-    all("SELECT email, source, created_at FROM subscribers ORDER BY created_at DESC LIMIT 5000"),
-    all("SELECT f.id, f.created, f.kind, f.rating, f.message, f.code, COALESCE(f.email, u.email) AS email, f.name, " +
-        "f.quote_ok, f.country, f.user_id, f.report, COALESCE(f.status, 'new') AS status " +
-        "FROM feedback f LEFT JOIN users u ON u.id = f.user_id ORDER BY f.id DESC LIMIT 2000"),
-    // The last 30 days for the chart (voice and language packs add rows each day, so no row cap), totals for the tile.
-    all("SELECT day, file, n FROM downloads WHERE day >= date('now', '-29 days') ORDER BY day DESC"),
-    safe(env.DB.prepare("SELECT COALESCE(SUM(n), 0) AS n FROM clicks").first("n")),
-    all("SELECT id, created, credit, email, discord, pack, link, clips, note, release_version, adult_or_guardian, " +
-        "signature, country, status FROM voice_submissions ORDER BY id DESC LIMIT 1000"),
-    all("SELECT id, created, locale, language, credit, email, discord, link, fix, note, terms_version, country, status " +
-        "FROM translation_submissions ORDER BY id DESC LIMIT 1000"),
-    all("SELECT id, created, locale, code, place, wrong, better, email, name, country, status " +
-        "FROM translation_reports ORDER BY id DESC LIMIT 2000"),
-    // Google sign-in accounts (lib/accounts.js) with what each one has done, their links and their player profile
-    // (lib/profiles.js): its address, whether it's public, and the character.
-    all("SELECT u.id, u.email, u.display_name, u.links, u.created, " +
-        "(SELECT group_concat(name, ', ') FROM voices WHERE owner = u.id) AS voices, " +
-        "(SELECT group_concat(locale, ', ') FROM translator_languages WHERE user_id = u.id) AS languages, " +
-        "(SELECT COUNT(*) FROM translation_edits WHERE user_id = u.id) AS edits, " +
-        "(SELECT COUNT(*) FROM studio_takes WHERE owner = u.id) AS takes, " +
-        "(SELECT COUNT(*) FROM feedback WHERE user_id = u.id) AS feedback, " +
-        "p.handle, p.public AS profile_public, json_extract(p.data, '$.name') AS character, " +
-        "json_extract(p.data, '$.level') AS char_level, json_extract(p.data, '$.className') AS char_class, " +
-        "(SELECT reason FROM excluded_accounts WHERE user_id = u.id) AS excluded " +
-        "FROM users u LEFT JOIN profiles p ON p.user_id = u.id ORDER BY u.created DESC LIMIT 5000"),
-    // Sign-ups, counted here since the list above stops at 5000: every account, those with a player profile and a
-    // public one, and the accounts made today and in the last 7 and 30 days, leaving out the admin's and test accounts
-    // (excluded: how many). `created` is an ISO time; days are UTC, like the dashboard's charts, so the last 30 days
-    // are today and the 29 before it.
-    safe(env.DB.prepare(
-      "SELECT COUNT(*) AS accounts, COUNT(p.user_id) AS profiles, COALESCE(SUM(p.public = 1), 0) AS public, " +
-      "COALESCE(SUM(u.created >= date('now')), 0) AS today, " +
-      "COALESCE(SUM(u.created >= date('now', '-6 days')), 0) AS week, " +
-      "COALESCE(SUM(u.created >= date('now', '-29 days')), 0) AS month " +
-      `FROM users u LEFT JOIN profiles p ON p.user_id = u.id WHERE ${counted("u.id")}`
-    ).first()),
-    all("SELECT substr(created, 1, 10) AS day, COUNT(*) AS n FROM users WHERE created >= date('now', '-29 days') " +
-        `AND ${counted("id")} GROUP BY day ORDER BY day`),
+  const month = new Date(now).toISOString().slice(0, 7);
+
+  // The lists and every account count, which leave out the accounts in excluded_accounts.
+  const counts = () => Promise.all([
+    time("lists", () => Promise.all([
+      all("SELECT email, source, created_at FROM subscribers ORDER BY created_at DESC LIMIT 5000"),
+      all("SELECT f.id, f.created, f.kind, f.rating, f.message, f.code, COALESCE(f.email, u.email) AS email, f.name, " +
+          "f.quote_ok, f.country, f.user_id, f.report, COALESCE(f.status, 'new') AS status " +
+          "FROM feedback f LEFT JOIN users u ON u.id = f.user_id ORDER BY f.id DESC LIMIT 2000"),
+      // The last 30 days for the chart (voice and language packs add rows each day, so no row cap), totals for the tile.
+      all("SELECT day, file, n FROM downloads WHERE day >= date('now', '-29 days') ORDER BY day DESC"),
+      safe(env.DB.prepare("SELECT COALESCE(SUM(n), 0) AS n FROM clicks").first("n")),
+      all("SELECT id, created, credit, email, discord, pack, link, clips, note, release_version, adult_or_guardian, " +
+          "signature, country, status FROM voice_submissions ORDER BY id DESC LIMIT 1000"),
+      all("SELECT id, created, locale, language, credit, email, discord, link, fix, note, terms_version, country, status " +
+          "FROM translation_submissions ORDER BY id DESC LIMIT 1000"),
+      all("SELECT id, created, locale, code, place, wrong, better, email, name, country, status " +
+          "FROM translation_reports ORDER BY id DESC LIMIT 2000"),
+      // Google sign-in accounts (lib/accounts.js) with what each one has done, their links and their player profile
+      // (lib/profiles.js): its address, whether it's public, and the character.
+      all("SELECT u.id, u.email, u.display_name, u.links, u.created, " +
+          "(SELECT group_concat(name, ', ') FROM voices WHERE owner = u.id) AS voices, " +
+          "(SELECT group_concat(locale, ', ') FROM translator_languages WHERE user_id = u.id) AS languages, " +
+          "(SELECT COUNT(*) FROM translation_edits WHERE user_id = u.id) AS edits, " +
+          "(SELECT COUNT(*) FROM studio_takes WHERE owner = u.id) AS takes, " +
+          "(SELECT COUNT(*) FROM feedback WHERE user_id = u.id) AS feedback, " +
+          "p.handle, p.public AS profile_public, json_extract(p.data, '$.name') AS character, " +
+          "json_extract(p.data, '$.level') AS char_level, json_extract(p.data, '$.className') AS char_class, " +
+          "(SELECT reason FROM excluded_accounts WHERE user_id = u.id) AS excluded " +
+          "FROM users u LEFT JOIN profiles p ON p.user_id = u.id ORDER BY u.created DESC LIMIT 5000"),
+      // Sign-ups, counted here since the list above stops at 5000: every account, those with a player profile and a
+      // public one, and the accounts made today and in the last 7 and 30 days, leaving out the admin's and test
+      // accounts (excluded: how many). `created` is an ISO time; days are UTC, like the dashboard's charts, so the last
+      // 30 days are today and the 29 before it.
+      safe(env.DB.prepare(
+        "SELECT COUNT(*) AS accounts, COUNT(p.user_id) AS profiles, COALESCE(SUM(p.public = 1), 0) AS public, " +
+        "COALESCE(SUM(u.created >= date('now')), 0) AS today, " +
+        "COALESCE(SUM(u.created >= date('now', '-6 days')), 0) AS week, " +
+        "COALESCE(SUM(u.created >= date('now', '-29 days')), 0) AS month " +
+        `FROM users u LEFT JOIN profiles p ON p.user_id = u.id WHERE ${counted("u.id")}`
+      ).first()),
+      all("SELECT substr(created, 1, 10) AS day, COUNT(*) AS n FROM users WHERE created >= date('now', '-29 days') " +
+          `AND ${counted("id")} GROUP BY day ORDER BY day`),
+    ])),
+    time("usage", () => safe(usageReport(env, 14))),
+    time("activity", () => safe(activityReport(env))),
+    time("funnel", () => safe(funnelReport(env, now))),
+  ]);
+  // The accounts the counts leave out (lib/activity.js): test addresses, ANALYTICS_EXCLUDE, and the account signed in
+  // on this browser, the admin's own (the /admin page is on the same site, so its session cookie comes along). Nearly
+  // always already up to date, so the counts run meanwhile, and run again on the load that changed something: an
+  // account newly left out, or the admin's first visit of the day (currentUser notes the sign-in day).
+  const accountCounts = schema.then(async () => {
+    const [stale, first] = await Promise.all([time("exclusions", async () => {
+      const admin = await safe(currentUser(env, request));
+      const changed = await safe(syncExclusions(env, admin));
+      return changed !== 0 || Boolean(admin && admin.last_seen !== utcDay());
+    }), counts()]);
+    return stale ? time("recount", counts) : first;
+  });
+
+  const [[[subscribers, feedback, downloads, clicks, voices, translations, translationReports, users, signupCounts,
+           signupDays], usage, activity, funnel], [spend, answerSpend], plans, contributions, site,
+         [downloadTotals, downloadSources], features, stores, companions, companionWeeks] = await Promise.all([
+    accountCounts,
+    // Profile stories (lib/profiles.js): what this month's cost so far against the monthly budget.
+    part("spend", () => Promise.all([
+      safe(storySpend(env)).then(s => s || { micro_usd: 0, calls: 0, stories: 0 }),
+      safe(env.DB.prepare("SELECT * FROM answer_spend WHERE month = ?").bind(month).first())
+        .then(s => s || { actual_micro: 0, reserved_micro: 0, calls: 0 }),
+    ])),
+    // Plans (lib/billing.js): accounts by plan and status, the monthly revenue estimate, paying players' answer costs
+    // and top-ups.
+    time("plans", () => safe(billingReport(env))),
+    // Shared Forever text (LOR-236): counts by status and the latest uploads, to spot and reject spam.
+    part("contributions", async () => {
+      await safe(setupContrib(env));
+      return (await safe(adminView(env))) || { counts: {}, accepted: 0, batches: [] };
+    }),
+    time("site", async () => (await safe(siteReport(env, 14))) || []),
+    time("downloads", () => Promise.all([
+      all("SELECT file, SUM(n) AS n FROM downloads GROUP BY file"),
+      all("SELECT file, src, SUM(n) AS n FROM download_sources " +
+          "WHERE day >= date('now', '-29 days') GROUP BY file, src ORDER BY n DESC LIMIT 100"),
+    ])),
+    time("features", () => safe(featureReport(env))),
+    // The funnel's CurseForge and GitHub counts and companion check-ins, from the funnel's first week.
+    time("stores", () => safe(storesReport(env))),
+    time("companions", () => safe(checkinReport(env))),
+    time("companionWeeks", () => safe(checkinWeeks(env, funnelFrom(now)))),
   ]);
   const signups = { ...(signupCounts || { accounts: 0, profiles: 0, public: 0, today: 0, week: 0, month: 0 }),
                     days: signupDays };
-  // Profile stories (lib/profiles.js): what this month's cost so far against the monthly budget.
-  const spend = (await safe(storySpend(env))) || { micro_usd: 0, calls: 0, stories: 0 };
-  const answerSpend = (await safe(env.DB.prepare("SELECT * FROM answer_spend WHERE month = ?")
-    .bind(new Date().toISOString().slice(0, 7)).first())) || { actual_micro: 0, reserved_micro: 0, calls: 0 };
   // voiceUsd: recording them (lib/storyvoice.js, LOR-316), in the same budget.
-  const stories = { month: new Date().toISOString().slice(0, 7), usd: spend.micro_usd / 1e6, calls: spend.calls,
+  const stories = { month, usd: spend.micro_usd / 1e6, calls: spend.calls,
                     written: spend.stories, budget: Number(env.STORY_BUDGET_USD ?? STORY_BUDGET_USD),
                     on: Boolean(env.GEMINI_API_KEY), voiceUsd: (spend.voice_micro_usd || 0) / 1e6,
                     reservedUsd: (spend.reserved_micro || 0) / 1e6, voiceOn: Boolean(env.FAL_KEY) };
   const answers = { month: stories.month, usd: answerSpend.actual_micro / 1e6,
                     budgetUsedUsd: answerSpend.reserved_micro / 1e6, calls: answerSpend.calls };
-  // Plans (lib/billing.js): accounts by plan and status, the monthly revenue estimate, paying players' answer costs and
-  // top-ups.
-  const plans = await safe(billingReport(env));
   // Add-on report codes (LOR-120) spelled out, for the report card.
   for (const f of feedback) {
     let r = null;
     try { r = f.report ? JSON.parse(f.report) : decodeReport(f.code); } catch (e) {}
     f.report = describeReport(r);
   }
-  // Shared Forever text (LOR-236): counts by status and the latest uploads, to spot and reject spam.
-  await safe(setupContrib(env));
-  const contributions = (await safe(adminView(env))) || { counts: {}, accepted: 0, batches: [] };
-  const usage = await safe(usageReport(env, 14));
-  const site = (await safe(siteReport(env, 14))) || [];
-  const downloadTotals = await all("SELECT file, SUM(n) AS n FROM downloads GROUP BY file");
-  const downloadSources = await all("SELECT file, src, SUM(n) AS n FROM download_sources " +
-    "WHERE day >= date('now', '-29 days') GROUP BY file, src ORDER BY n DESC LIMIT 100");
-  const [activity, funnel, features] = await Promise.all([safe(activityReport(env)), safe(funnelReport(env)),
-    safe(featureReport(env))]);
-  if (funnel) {
-    [funnel.stores, funnel.companions, funnel.companionWeeks] = await Promise.all([safe(storesReport(env)),
-      safe(checkinReport(env)), safe(checkinWeeks(env, funnel.weeks[0]?.week || ""))]);
-  }
+  if (funnel) Object.assign(funnel, { stores, companions, companionWeeks });
   return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users,
                 stories, answers, plans, contributions, signups, usage, site, downloadTotals, downloadSources, activity, funnel,
-                features });
+                features }, 200, { "Server-Timing": header() });
 }
 
 export async function onRequestPost({ request, env }) {

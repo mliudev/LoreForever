@@ -1,0 +1,110 @@
+{
+ "key": "quest:92550",
+ "type": "quest",
+ "name": "Havoc in the Highlands",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92550
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The Al'Aketh cultists command the elements with their Stormcallers and summoned Living Lightning, twisting wind and storm into tools of fanatical aggression."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "havoc in the highlands quest",
+    "what is havoc in the highlands",
+    "highlands quest"
+   ],
+   "answer": "Havoc in the Highlands is a preemptive strike launched by the defenders of Shen'dar Village against Al'Aketh cultists gathering in the ruins of Falaath Village before they can mount an assault.",
+   "q": "What is Havoc in the Highlands?"
+  },
+  {
+   "aliases": [
+    "who are the enemies",
+    "what cult is this",
+    "who attacks shendar"
+   ],
+   "answer": "The settlement faces danger from the Al'Aketh, a zealous cult of elemental storm worshippers fielding Stormcallers, bound Living Lightning, and their leader, Commander Cyclas.",
+   "q": "Who is threatening Shen'dar Village?"
+  },
+  {
+   "aliases": [
+    "where is commander cyclas",
+    "falaath village ruins",
+    "where to go"
+   ],
+   "answer": "The strike takes place in the ruins of Falaath Village, where Commander Cyclas and his Al'Aketh followers have set up their staging ground.",
+   "q": "Where are the cultists massing?"
+  },
+  {
+   "aliases": [
+    "who is commander cyclas",
+    "cyclas lore",
+    "cyclas cult"
+   ],
+   "answer": "Commander Cyclas is the military commander leading the Al'Aketh forces assembled in the ruins of Falaath Village to march upon Shen'dar.",
+   "q": "Who is Commander Cyclas?"
+  },
+  {
+   "aliases": [
+    "sania silverstream fleeing",
+    "why did sania leave",
+    "who is sania silverstream"
+   ],
+   "answer": "Sania Silverstream snuck out of Shen'dar Village right before the village's defenders rallied, likely fleeing once she realized the local populace was taking up arms and organizing a defense.",
+   "q": "Why did Sania Silverstream flee Shen'dar Village?"
+  },
+  {
+   "aliases": [
+    "did shendar survive",
+    "aftermath of the attack",
+    "is shendar safe"
+   ],
+   "answer": "By breaking the cultists' forward ranks and taking Commander Cyclas's head, Shen'dar Village repels the immediate threat and proves to any returning zealots that the highlands will not fall easily.",
+   "q": "Does the strike successfully secure Shen'dar Village?"
+  }
+ ],
+ "keywords": [
+  "al'aketh",
+  "commander cyclas",
+  "falaath village",
+  "havoc in the highlands",
+  "living lightning",
+  "sania silverstream",
+  "shen'dar village",
+  "stormcallers"
+ ],
+ "related": [
+  "quest:92529"
+ ],
+ "sections": [
+  {
+   "body": "Facing an imminent invasion from zealous cultists, the leadership of Shen'dar Village decides that a swift preemptive offensive offers the best chance of survival. Rather than awaiting an attack behind fragile defenses, an adventurer is dispatched into the ruins of Falaath Village to catch the hostile Al'Aketh forces off guard before their assault can launch.",
+   "spoiler": 0,
+   "title": "A Preemptive Strike"
+  },
+  {
+   "body": "The staging grounds at Falaath Village crawl with dangerous zealots wielding chaotic elemental power. Striking at the gathering forces requires dispatching Al'Aketh Stormcallers, shattering conjured Living Lightning, and tracking down Commander Cyclas himself to behead the expedition's leadership.",
+   "spoiler": 0,
+   "title": "Assault on Falaath Village"
+  },
+  {
+   "body": "With Commander Cyclas slain and his vanguard devastated, Shen'dar Village secures a vital reprieve. However, amidst the turmoil of arming the citizens, an individual named Sania Silverstream slips out of town unnoticed, fleeing the village just as the local defense consolidates.",
+   "spoiler": 1,
+   "title": "Securing the Highlands"
+  }
+ ],
+ "summary": "Havoc in the Highlands is a preemptive strike undertaken on behalf of Shen'dar Village to disrupt an impending assault by Al'Aketh zealots. By striking their vanguard at the ruins of Falaath Village and eliminating Commander Cyclas, defenders turn the tables on the cultists before they can overrun the highlands.",
+ "attribution": [
+  "In-game quest text: Havoc in the Highlands"
+ ]
+}

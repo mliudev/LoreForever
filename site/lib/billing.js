@@ -1,28 +1,46 @@
 // Plans (LOR-252): what a player's subscription gives them, paid through Stripe. The free plan is Adventurer; Hero,
-// Champion and Legend are monthly or yearly subscriptions. A plan sets how many live answers Willo, the companion,
+// Champion and Legend are monthly subscriptions, nothing yearly (Mike, 2026-10-13). A plan sets how many live answers Willo, the companion,
 // gets a day and a month, and what kind (lib/companion-answers.js, functions/api/companion/answer.js): free answers
 // stay with the world's lore, without web research or the game picture; paid ones may check the web, and Champion's
-// keep a longer chat memory. It also sets how much a paying player's month may cost us, and what the companion app may
-// do on its own PC (COMPANION_FEATURES: Willo's voices, push-to-talk, sight). Launch plans: Mike, 2026-10-12. Legend
-// is hidden until its features exist.
+// and Legend's keep a longer chat memory. It sets which voice says Willo's answers out loud (PLAN_VOICE,
+// lib/companion-voice.js), what a paying player's month may cost us (its text and total cost caps), and what the
+// companion app may do on its own PC (COMPANION_FEATURES: Willo's voices, push-to-talk, sight). Launch plans: Mike,
+// 2026-10-12; reshaped 2026-10-13 (charge for live answers, the hosted voice at least breaks even, and no player ever
+// costs more than they pay).
 //
 // How a subscription reaches us: /plans asks POST /api/billing/checkout (functions/api/billing/[action].js), which
 // makes a Stripe Checkout page (createCheckout) and sends the player there. Stripe then calls our webhook
 // (POST /api/billing/webhook) with signed events (verifyWebhook); applyEvent fetches the subscription from Stripe and
-// stores what it says now in `entitlements`, so an event that comes twice or out of order changes nothing. Changing
-// plan or card and cancelling happen on Stripe's billing portal (createPortal). We never see card details: D1 keeps
+// stores what it says now in `entitlements`, so an event that comes twice or out of order changes nothing. Switching
+// plan happens on /plans itself (changePlan: POST /api/billing/change); the card, invoices and cancelling on Stripe's
+// billing portal (createPortal), which offers no plan changes. We never see card details: D1 keeps
 // the plan, its status and dates, and Stripe's ids for the customer and the subscription. "Delete my account" cancels
 // the subscription and removes those rows (lib/accounts.js deleteUser, cancelPlan here).
 //
-// Top-ups (LOR-431): a one-time pack of TOPUP.answers live answers that never expire, for anyone signed in, on any
-// plan. POST /api/billing/topup makes a Checkout page in payment mode (createTopup); the webhook credits the pack once
-// per checkout session (creditTopup) and a refund or a dispute takes its answers back (refundTopup). Its answers are
-// used only once the day's plan answers are gone, oldest pack first (useTopup), within the day's most (dayMax).
+// The lifecycle (Mike, 2026-10-13):
+// - Upgrade (Hero, Champion, Legend, in that order): now, charged now (Stripe's proration, always_invoice: never left
+//   as pending invoice items for the renewal); the new plan's voice, features and month's pool start now, and answers
+//   already used this plan month count against that pool (the pool is the account's, lib/companion-answers.js).
+// - Downgrade: at the renewal, without a refund (a subscription schedule; entitlements.next_plan says what's coming).
+// - Cancel: the plan runs to the period's end; "Keep" before then just undoes it, with nothing charged. After the end a
+//   plan is a new subscription, with a new plan month.
+// - A failed renewal keeps the plan while Stripe retries (past_due); when Stripe gives up, the free plan.
+// - The whole of the current period's payment refunded by us, or a dispute of any of the plan's payments, ends the
+//   plan now (endPlanFor); an earlier month's or an upgrade's refund is goodwill and the plan stays. A pack's refund or
+//   dispute takes back that pack only. Saved styles and tales stay (lib/willo-custom.js), and so do packs otherwise.
+// - One subscription per account: checkout looks at Stripe first, and a second one made anyway (two checkout pages at
+//   once) is cancelled and refunded (keepOldest).
 //
-// The starter: the free plan's one-time STARTER_ANSWERS answers, kept with the top-ups (answer_packs, kind 'starter')
-// and used like them after the day's free answers, but free: they wait for the shared monthly budget like any free
-// answer, can't be bought, never count as a month's top-up, and a refund never touches them. Once per Google account,
-// even after "Delete my account" (creditStarter).
+// The one thing bought once is the finest-voice pack (VOICE_PACK): replies in Willo's finest voice, never answers.
+// POST /api/billing/voicepack makes a Checkout page in payment mode (createVoicePack); the webhook credits the pack
+// once per checkout session (creditPack) and a refund or a dispute takes its replies back (refundPack). Answers can't
+// be bought (Mike, 2026-10-13: the 300-answer top-up went): once a plan's answers are gone, Willo answers from the
+// add-on's lore library until they come back, and the next plan up is the only offer (offersFor).
+//
+// The starter: the free plan's one-time STARTER_ANSWERS answers, kept in answer_packs (kind 'starter') and used after
+// the day's free answers (useStarter), but free: they wait for the shared monthly budget like any free answer, can't
+// be bought, and a refund never touches them. Once per Google account, even after "Delete my account"
+// (creditStarter).
 //
 // The "plans" site feature (lib/features.js) switches all of it: while it's off (the default), nothing is for sale,
 // stored subscriptions are ignored and every account gets OFF_ANSWERS a day, with research and pictures, as before
@@ -40,32 +58,70 @@
 //                            Managed Payments is turned on in the Stripe Dashboard.
 //   STRIPE_LIVE              "1" lets a live key work, in Production only. Unset, a live key is refused, so one pasted
 //                            into the wrong place can't charge anyone.
+//   LAUNCH_WEEK_START        when the beta promo starts (an ISO date-time with its zone): the ship step sets it in
+//                            Production when the Willo release publishes. Unset, there's no promo (launchWindow).
+//   BETA_END                 optional: when the beta promo ends (an ISO date-time with its zone); unset, or not such a
+//                            date-time, BETA_END_DEFAULT (November 3, 2026, 23:59:59 Pacific).
+//   PROMO_NOW                a preview's clock for the beta promo (test-mode Stripe only; Production ignores it).
 // scripts/stripe-setup.mjs makes the products, prices, portal settings and webhook from the constants below.
 // Kept outside functions/ so Pages doesn't route it.
 
 import { featureOn } from "./features.js";
 import { COMPANION_NAME } from "./brand.js";
 
-// The plans, cheapest first. Prices in US cents. A paid plan's answers are a month's pool (answersPerMonth) with a most
-// in one day (answersPerDay), and lookupsPerMonth of them may look online (required research or a quick look-up; a
-// finding another player's search kept is free). Its month runs from its renewal day (poolWindow), so a month paid for
-// never holds two pools. Sized so half the price is margin even when every answer is used (Mike, 2026-10-12: "pare
-// down the plans then so I'm making 50% margin"): at about $0.0018 an answer and $0.05 a look-up, Hero's month costs
-// at most about $2.12 of the $4.37 it brings after Stripe's fees, Champion's $4.42 of $9.05. The free plan has only
-// its daily answers. costCapMicro: what a paying player's live answers may cost us in a month (millionths of a
-// dollar), a safety net the sizes stay under; past it, answers go back to the ordinary model without web research
-// until the month ends (fair_use in the allowance). Nobody is cut off by it. longMemory: chat memory keeps twice as
-// much. stronger: answers and character replies on the stronger model (lib/companion-answers.js RESEARCH_MODEL); no
-// plan for sale has it, since it costs three times as much.
+// Who says each plan's answers out loud (LOR-490, Mike, 2026-10-13): "local" (Willo's voices made on the player's PC,
+// free to us), "chatterbox" (its studio voices: DeepInfra's Chatterbox Turbo, lib/companion-voice.js) or "inworld" (its
+// finest voice, Inworld's "model", for the first "best" replies of the plan month, then the studio voice). A spoken reply
+// is just an answer read aloud, counted once, as an answer. choice: the player may pick among Willo's hosted voices.
+// Willo's own voices on the PC (Kokoro) only stand in when a hosted one is slow or down, or the month's room for it is
+// used. The free plan (Mike, 2026-10-13, the fastest route): its first STARTER_ANSWERS replies in the studio voice
+// (starter), paid for by the shared free budget, about $0.009 a new player; then text (COMPANION_FEATURES below). Hero
+// has the studio voice on every answer, without a choice, and asks out loud. Moving a plan to another voice is one line
+// here; the cost caps below already cover it (Hero's busiest month on Chatterbox costs about $2.39 of its $4.37).
+// Legend's finest voice is Inworld TTS 2 Flash ($15 a million characters), whose cost breaks even over about 1,900
+// replies a month; "inworld-tts-2" ($25) is the one-line way back (lib/companion-voice.js prices both).
+export const LEGEND_BEST_MODEL = "inworld-tts-2-flash";
+export const LEGEND_BEST_PER_MONTH = 1900;
+// Characters who answer in person in a voice of their own (lib/character-voices.js; Mike, 2026-10-13: Inworld TTS 2
+// Flash, CHARACTER_MODEL, with Fish S2.1 Pro when Inworld is slow or down): characters is how many of a plan month's
+// replies they get, a number of their own (Champion's), or "best" (Legend's: out of its finest replies, at the same
+// $15 a million letters as Willo's own). Free and Hero have none: their characters speak in Willo's voice, unless a
+// finest-voice pack (VOICE_PACK) pays. A 300-letter character line costs about $0.0045 (Fish's, about $0.0047 and
+// more with its cues), so a maxed Champion month (its text, and all 1,900 replies spoken, 300 of them by characters)
+// costs about $6.25 of its $9.05, and Legend's finest replies cost the same whoever says them (about $18.38 of $18.41
+// for a maxed month); past that the total cap steps the voice down, so neither costs more than its net.
+export const CHAMPION_CHARACTER_REPLIES = 300;
+export const CHARACTER_MODEL = "inworld-tts-2-flash";
+export const PLAN_VOICE = {
+  free: { voice: "chatterbox", choice: false, starter: true },
+  hero: { voice: "chatterbox", choice: false },
+  champion: { voice: "chatterbox", choice: true, characters: CHAMPION_CHARACTER_REPLIES },
+  legend: { voice: "inworld", choice: true, best: LEGEND_BEST_PER_MONTH, model: LEGEND_BEST_MODEL, characters: "best" },
+};
+
+// The plans, cheapest first. Prices and net (what a month brings after Stripe's fees) in US cents. A plan's answers are
+// a month's pool (answersPerMonth) with a most in one day (answersPerDay), and lookupsPerMonth of them may look online
+// (required research or a quick look-up; a finding another player's search kept is free): a quiet guard inside the
+// cost caps, never a number players read (WEB below). A paid plan's month runs from
+// its renewal day (poolWindow), so a month paid for never holds two pools; the free plan's is the calendar month.
+// The cost caps (Mike, 2026-10-13): a paying player's live answers may cost us half of their plan's net in a calendar
+// month (costCapMicro, the text cap, millionths of a dollar), and their answers and hosted voice together the whole of
+// it (totalCapMicro). Past the text cap their answers come from the add-on's lore library (as when the month's pool is
+// used) until the next month; the hosted voice steps down to a cheaper one, then to Willo's own voice on the PC, before
+// the total would pass. Sized so the caps are rarely reached: at about $0.0018 an answer and $0.05 a look-up, a maxed
+// Hero month costs about $2.12, Champion's $4.42 and Legend's $9.20 of text. longMemory: chat memory keeps twice as much.
+// stronger: answers and character replies on the stronger model (lib/companion-answers.js RESEARCH_MODEL); no plan has
+// it, since it costs three times as much.
+const caps = net => ({ net, costCapMicro: Math.floor(net / 2) * 10_000, totalCapMicro: net * 10_000 });
 export const PLANS = {
-  free: { id: "free", name: "Adventurer", monthly: 0, yearly: 0, answersPerDay: 20, lookupsPerMonth: 0, costCapMicro: 0 },
-  hero: { id: "hero", name: "Hero", monthly: 499, yearly: 4999, answersPerDay: 100, answersPerMonth: 900,
-          lookupsPerMonth: 10, costCapMicro: 2_500_000 },
-  champion: { id: "champion", name: "Champion", monthly: 999, yearly: 9999, answersPerDay: 200, answersPerMonth: 1900,
-              lookupsPerMonth: 20, costCapMicro: 5_000_000, longMemory: true },
-  // Not built yet (Mike, 2026-10-12): off /plans and never for sale.
-  legend: { id: "legend", name: "Legend", monthly: 1999, yearly: 19999, answersPerDay: 300, answersPerMonth: 4000,
-            lookupsPerMonth: 40, costCapMicro: 10_000_000, longMemory: true, stronger: true, hidden: true },
+  free: { id: "free", name: "Adventurer", monthly: 0, answersPerDay: 20, answersPerMonth: 600,
+          lookupsPerMonth: 0, costCapMicro: 0 },
+  hero: { id: "hero", name: "Hero", monthly: 499, answersPerDay: 100, answersPerMonth: 900,
+          lookupsPerMonth: 10, ...caps(437) },
+  champion: { id: "champion", name: "Champion", monthly: 999, answersPerDay: 200, answersPerMonth: 1900,
+              lookupsPerMonth: 20, longMemory: true, ...caps(905) },
+  legend: { id: "legend", name: "Legend", monthly: 1999, answersPerDay: 300, answersPerMonth: 4000,
+            lookupsPerMonth: 40, longMemory: true, ...caps(1841) },
 };
 export const PAID = Object.keys(PLANS).filter(id => id !== "free");
 
@@ -74,66 +130,247 @@ export const STARTER_ANSWERS = 30;
 // Willo's voices in the companion app (companion/lore_companion/talk/tts.py KOKORO_VOICES); the free plan has its
 // default one.
 export const WILLO_VOICES = 7;
+// Willo's hosted voices a plan with PLAN_VOICE choice picks from (lib/companion-voice.js WILLO_PICKS).
+export const HOSTED_PICKS = 5;
+const pickLine = `Pick ${COMPANION_NAME}'s voice from ${HOSTED_PICKS}`;
 
 // What the companion app may do on each plan, sent with the allowance (lib/companion-answers.js `features`): Willo's
-// session turns its own features on or off by it. voices: "all" of Willo's voices, or only its "default" one;
-// push_to_talk: asking out loud; sight: Willo sees the game (the site also drops a free player's picture); npc_voices:
-// unused since characters answer in Willo's own voice (older companions still read it); research: answers that check the web (the site also enforces it).
+// session turns its own features on or off by it. voices: "all" of Willo's voices, only its "default" one, or "none"
+// (answers show as text and nothing is spoken: the free plan once its spoken starter is used); push_to_talk: asking
+// out loud; sight: Willo sees the game (the site also drops a free player's picture); npc_voices: unused since
+// characters answer in Willo's own voice (older companions still read it); research: answers that check the web (the
+// site also enforces it).
 export const COMPANION_FEATURES = {
   free: { voices: "default", push_to_talk: false, sight: false, npc_voices: false, research: false },
   paid: { voices: "all", push_to_talk: true, sight: true, npc_voices: true, research: true },
 };
-export const companionFeatures = plan => plan.id === "free" ? COMPANION_FEATURES.free : COMPANION_FEATURES.paid;
+// starter: the free plan's spoken starter replies left (lib/companion-voice.js voiceAllowance starterLeft). Typed
+// questions get text answers; only questions asked out loud are answered aloud (Mike, 2026-10-14), so while the
+// starter lasts a free account may ask out loud (push_to_talk) and Willo answers in her studio voice; after it, free
+// answers are text and there's no asking out loud. The same 30 spoken replies are counted. The beta's free Hero month
+// (planFor launch) is Hero's.
+export const companionFeatures = (plan, { starter = 0 } = {}) => plan.id === "free"
+  ? { ...COMPANION_FEATURES.free, voices: starter > 0 ? "default" : "none", push_to_talk: starter > 0 }
+  : COMPANION_FEATURES.paid;
 
-// What /plans lists on each plan's card, in plain words. The style and the tales are /willo (lib/willo-custom.js).
+// What /plans lists on each plan's card, in plain words: how it feels to play with Willo first, then the month's
+// answers. Counts, never limits: no "unlimited", "limit", "cap" or "fair use" in what players read (Mike, 2026-10-13).
+// The style and the tales are /willo/style (lib/willo-custom.js).
 const NAME = COMPANION_NAME;
 const count = n => n.toLocaleString("en-US");
-const pool = plan => `${count(plan.answersPerMonth)} ${NAME} answers a month, up to ${plan.answersPerDay} a day`;
-export const FEATURES = {
-  free: [`${STARTER_ANSWERS} ${NAME} answers to start, then ${PLANS.free.answersPerDay} a day`,
-         `${NAME} speaks in its own voice`, "The whole add-on, every narration pack and language"],
-  hero: [pool(PLANS.hero), `${PLANS.hero.lookupsPerMonth} web look-ups a month`, `All ${WILLO_VOICES} ${NAME} voices`,
-         "Push-to-talk", `${NAME} sees your game`, `Preset ${NAME} styles`],
-  champion: [pool(PLANS.champion), `${PLANS.champion.lookupsPerMonth} web look-ups a month`, `${NAME}'s longer memory`,
-             `Write ${NAME}'s personality`, "Rewrite NPCs as your own tale", `Create your own ${NAME} voice (coming soon)`],
-  // Not on /plans (hidden) until these exist.
-  legend: [pool(PLANS.legend), `Talk with ${NAME} hands-free while you play`, `${NAME} on your own AI model`,
-           "Your journey's chapters, narrated"],
+const answers = plan => `${count(plan.answersPerMonth)} ${NAME} answers a month`;
+// Web look-ups aren't a number players read (Mike, 2026-10-13): a plan's lookupsPerMonth is a quiet guard inside its
+// cost caps, and past it Willo answers from the lore and the searches other players' questions kept.
+const WEB = `${NAME} can check the web when the lore runs out`;
+const FIRST = {
+  free: `Chat with ${NAME}: ${PLANS.free.answersPerDay} answers a day. Your first ${STARTER_ANSWERS} questions out loud are answered aloud`,
+  hero: `Ask out loud and ${NAME} answers in her voice, up to 4 hours of play a day`,
+  champion: `${NAME}'s studio voices, up to 8 hours a day`,
+  legend: `The most answers and ${NAME}'s finest voice`,
 };
+export const FEATURES = {
+  free: [FIRST.free, "The whole add-on, every narration pack and language"],
+  hero: [FIRST.hero, answers(PLANS.hero), WEB, `${NAME} sees your game`, `Preset ${NAME} styles`],
+  champion: [FIRST.champion, pickLine, answers(PLANS.champion), WEB, `${NAME}'s longer memory`,
+             `Write ${NAME}'s personality`, "Rewrite NPCs as your own tale", `Create your own ${NAME} voice (coming soon)`],
+  legend: [FIRST.legend, pickLine, answers(PLANS.legend), WEB, "Everything in Champion"],
+};
+// /plans' one line of fine print about the finest voice.
+export const VOICE_NOTE = `${NAME}'s finest voice for your first ${count(LEGEND_BEST_PER_MONTH)} replies each month, ` +
+  "then her studio voice.";
 
 // The line under each plan's name on Stripe's checkout page, invoices and billing portal (its product's description,
-// set by scripts/stripe-setup.mjs).
+// set by scripts/stripe-setup.mjs, whose next run publishes a change here).
 export const BLURBS = {
-  hero: `${pool(PLANS.hero)}, with ${PLANS.hero.lookupsPerMonth} web look-ups, all ${WILLO_VOICES} of ${NAME}'s voices, ` +
-        `push-to-talk, and ${NAME} sees your game.`,
-  champion: `${pool(PLANS.champion)}, with ${PLANS.champion.lookupsPerMonth} web look-ups, ${NAME}'s longer memory, ` +
-            `${NAME}'s personality in your words, and NPCs rewritten as your own tale. Everything in Hero too. ` +
-            `Create your own ${NAME} voice (coming soon).`,
-  legend: `${pool(PLANS.legend)}, hands-free chat while you play, and everything in Champion.`,
-  topup: `300 more ${NAME} answers, used after your plan's answers. They never expire.`,
+  hero: `${FIRST.hero}: ${answers(PLANS.hero)}, and ${NAME} sees your game. ${WEB}.`,
+  champion: `${FIRST.champion}: ${answers(PLANS.champion)}, ${NAME}'s ` +
+            `longer memory, ${NAME}'s personality in your words, and NPCs rewritten as your own tale. ${pickLine}. ` +
+            `Everything in Hero too. Create your own ${NAME} voice (coming soon).`,
+  legend: `${FIRST.legend}: ${answers(PLANS.legend)}, and everything in Champion. ${pickLine}.`,
 };
 
-// For sale unless BILLING_PLANS says otherwise. A hidden plan (Legend) is never for sale or listed.
-export const SELLABLE = ["hero", "champion"];
+// For sale unless BILLING_PLANS says otherwise. A hidden plan is never for sale or listed.
+export const SELLABLE = ["hero", "champion", "legend"];
 
-// A top-up: answers in a pack, its price (US cents), how many an account can buy a calendar month (UTC), and what a
-// pack's answers may cost us (millionths of a dollar) before they go back to the ordinary model without web research.
-// Nobody is cut off by it. key: its Stripe price's lookup key; product: its Stripe product's id.
-export const TOPUP = { answers: 300, price: 299, monthMax: 3, costCapMicro: 1_500_000, key: "topup_300",
-                       product: "lore_forever_topup" };
-// The most live answers an account gets in one day, plan, starter and top-ups together, whatever was bought; a plan
-// with more of its own (Legend) gets those (dayMax).
-export const DAY_MAX = 200;
-export const dayMax = plan => Math.max(DAY_MAX, plan.answersPerDay);
+// The finest-voice pack (Mike, 2026-10-13): `replies` of a paying player's spoken replies in Willo's finest voice
+// (Inworld, LEGEND_BEST_MODEL), bought once, never expiring, at most monthMax a calendar month, on any paid plan. It
+// adds no answers. Its replies are used after the plan's own finest ones (Legend's LEGEND_BEST_PER_MONTH) and before
+// the voice steps down to the studio voice or the PC (lib/companion-voice.js), oldest pack first. costCapMicro: what a
+// pack's replies may cost us, about what it brings after Stripe's fees; past it they step down like the plan's own.
+// Kept in answer_packs (kind 'voice'). key, product: its Stripe price's lookup key and product's id.
+export const VOICE_PACK = { replies: 400, price: 299, monthMax: 3, costCapMicro: 2_600_000, key: "voice_400",
+                            product: "lore_forever_voice_pack" };
+// What /plans says of it, plain, no meters; and its Stripe product's description (scripts/stripe-setup.mjs).
+export const VOICE_PACK_TEXT = `${VOICE_PACK.replies} replies in ${COMPANION_NAME}'s finest voice, ` +
+  `$${(VOICE_PACK.price / 100).toFixed(2)}, yours until you use them.`;
+export const VOICE_PACK_BLURB = `${VOICE_PACK.replies} replies in ${COMPANION_NAME}'s finest voice, used after your ` +
+  "plan's own. Yours until you use them.";
 
-// A paid plan's month, for its answer pool and web look-ups: from its renewal day (the day of the month its paid period
-// ends, `renews` from planFor, clamped to a shorter month's last day) to the same day the next month, UTC, so a month
-// paid for never holds two pools; the calendar month without a renewal day. {key: the month's first day (YYYY-MM-DD,
-// for the rate_limits bucket), resetsAt: when the next one starts (ISO)}.
+// The beta promo (LOR-500, Mike, 2026-10-14: "If you sign up during the beta, you get half off or free hero for a
+// month", and no monthly plan cut off before its month ends). It runs from the moment the Willo release publishes to
+// the end of the WoW Forever beta (launchWindow): the start is the Pages variable LAUNCH_WEEK_START (an ISO date-time
+// with its zone, e.g. "2026-10-20T18:30:00Z"; named for the launch week it first started), which the ship step sets
+// in Production when it publishes the release, and the end is BETA_END, the same kind of date-time, or
+// BETA_END_DEFAULT when that's unset or not one. LAUNCH_WEEK_START unset or not such a date-time: no promo at all,
+// nothing on /plans.
+// - A full month of Hero, on us, with no card (planFor, with launch: true): a signed-in free account's month starts
+//   the first time its plan is looked at during the beta (signing in on /account or /plans, or the companion's first
+//   check; freeHeroMonth) and lasts BETA_HERO_DAYS days from then, past the beta's end too. Once per Google account,
+//   ever (its "free" claim in promo_claims, with the month's start), so deleting the account and coming back doesn't
+//   start another. It's Hero's plan: Hero's 900 answers for the month (one pool, from the month's start: poolWindow
+//   reads `until`) and 100 a day, look-ups, sight, styles, and all of Willo's voices on the PC with push-to-talk; they
+//   don't count toward the free plan's month. When the month ends the account is on the free plan again by itself.
+// - What those answers cost is kept apart (answer_user_spend.launch_micro): never the shared free budget's, nor a plan
+//   bought later's; Hero's cost caps hold it for each account. Once the promo's total passes LAUNCH_WEEK_BRAKE_MICRO,
+//   free accounts are on the free plan (months under way stop, no new one starts), and nothing says so.
+// - The offers (launchOffer), on a checkout during the beta, each once per account, ever (promoClaim: buying,
+//   cancelling and buying again, or deleting the account and coming back, doesn't bring a second):
+//   - "Keep Hero": a Hero bought during the beta is a Stripe trial, so the offer stays one month of Hero (Mike,
+//     2026-10-14: "a month", not up to two): bought during the account's free Hero month, the trial ends when that
+//     month does (trial_end; at least TRIAL_MIN_SECONDS on, Checkout's shortest trial); with no free month running,
+//     BETA_HERO_DAYS days from that day (trial_period_days). Nothing is charged until then, even past the beta, and
+//     $4.99 a month after (keepHeroEnds).
+//   - 50% off the first month of Champion or Legend (LAUNCH_COUPONS: an amount_off coupon each, duration once, so the
+//     price lands on exactly $4.99 and $9.99), on its checkout during the beta, or on an upgrade then (changePlan; one
+//     from a Hero trial ends the trial and starts the paid month now, so the confirm says the discounted month).
+//     The first month's caps are the plan's own (no extra room); every later month is the plan's as always.
+//   The first-month-of-Champion promo for a Hero bought then went (entitlements.promo_champion_until is unused).
+// - /plans says so (launchText: a banner; the cards' crossed-out prices and tags) during the beta, with its last day in
+//   Pacific time; a free Hero month and a Hero trial say the day they end.
+export const BETA_END_DEFAULT = "2026-11-03T23:59:59-08:00";
+export const BETA_HERO_DAYS = 30;
+const DAY_MS = 86400e3;
+// Checkout's shortest trial_end (48 hours, and a little).
+export const TRIAL_MIN_SECONDS = 2 * 86400 + 600;
+// Stripe's coupons for the 50% first months, made by scripts/stripe-setup.mjs (test mode, and --live at the ship).
+// name: what Checkout and the invoice show (Stripe takes 40 characters at most; the script updates it).
+export const LAUNCH_COUPONS = {
+  champion: { id: "lore_forever_launch_champion", amountOff: 500, name: "Beta: 50% off your first month" },
+  legend: { id: "lore_forever_launch_legend", amountOff: 1000, name: "Beta: 50% off your first month" },
+};
+// Which once-per-account claim an offer is: the Hero trial, or a 50% first month (Champion's or Legend's, one of them).
+// The free Hero month's claim is "free" (freeHeroMonth).
+const offerKind = planId => planId === "hero" ? "hero" : LAUNCH_COUPONS[planId] ? "half" : null;
+export const LAUNCH_WEEK_BRAKE_MICRO = 300_000_000;
+const ISO_MOMENT = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2}(\.\d{1,3})?)?(Z|[+-]\d{2}:\d{2})$/;
+const moment = v => { const s = String(v ?? "").trim(); return ISO_MOMENT.test(s) ? Date.parse(s) : NaN; };
+// The beta promo, from LAUNCH_WEEK_START to BETA_END (both included): {start, end} (milliseconds), or null when the
+// start isn't set to an ISO date-time (or isn't before the end).
+export function launchWindow(env) {
+  const start = moment(env?.LAUNCH_WEEK_START), set = moment(env?.BETA_END);
+  const end = Number.isFinite(set) ? set : Date.parse(BETA_END_DEFAULT);
+  return Number.isFinite(start) && end > start ? { start, end } : null;
+}
+// Whether `at` (a Date: launchNow's, or when a subscription was made) is in the beta promo.
+export function launchWeek(env, at = launchNow(env)) {
+  const week = launchWindow(env), ms = at?.getTime?.();
+  return Boolean(week) && Number.isFinite(ms) && ms >= week.start && ms <= week.end;
+}
+// A day as players read it: "November 3" (Pacific time, where the promo is told).
+const pacificDay = ms => new Date(ms).toLocaleDateString("en-US", { month: "long", day: "numeric",
+  timeZone: "America/Los_Angeles" });
+// The beta promo's last day: "November 3".
+export const launchEnds = env => {
+  const week = launchWindow(env);
+  return week ? pacificDay(week.end) : "";
+};
+// /plans' banner during the beta; "" with no promo.
+export const launchText = env => launchWindow(env)
+  ? `Beta: Hero is free for your first month, and Champion and Legend are 50% off your first month. ` +
+    `Join by ${launchEnds(env)}.` : "";
+const usd = cents => `$${(cents / 100).toFixed(2)}`;
+// A plan card's beta offer (now: launchNow's), as GET /api/billing/plans sends it (plans[].promo): {price (US cents the
+// player pays now; the usual price is the plan's monthly), label, note}, or null (not the beta, Adventurer, or not an
+// offer plan). Hero's note is the day a trial started now is free until: BETA_HERO_DAYS on here, and the end of the
+// account's free Hero month while one runs (launchOffers, keepHeroEnds).
+const heroNote = ms => `until ${pacificDay(ms)}, then ${usd(PLANS.hero.monthly)} a month`;
+export function launchOffer(env, planId, now = launchNow(env)) {
+  if (!launchWeek(env, now)) return null;
+  const plan = PLANS[planId];
+  if (planId === "hero") return { price: 0, label: "Beta: free month",
+    note: heroNote(now.getTime() + BETA_HERO_DAYS * DAY_MS) };
+  const coupon = LAUNCH_COUPONS[planId];
+  return coupon ? { price: plan.monthly - coupon.amountOff, label: "Beta: 50% off",
+    note: `your first month, then ${usd(plan.monthly)}` } : null;
+}
+
+// The plans side by side (GET /api/billing/plans compare, for /willo's and /plans' table): [{label, values: {free,
+// hero, champion, legend}}], all strings ("✓" and "—" for yes and no), from PLANS, PLAN_VOICE and COMPANION_FEATURES,
+// and allowed (lib/willo-custom.js ALLOWED: what each plan may customize; passed in, since that file reads this one).
+// Look-ups are never a count here (WEB).
+const WORDS = ["none", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+export function planCompare(allowed = {}) {
+  const row = (label, of) => ({ label, values: Object.fromEntries(Object.keys(PLANS).map(id => [id, of(id)])) });
+  const yes = on => on ? "✓" : "—";
+  const paid = id => id !== "free";
+  const features = id => COMPANION_FEATURES[paid(id) ? "paid" : "free"];
+  const voice = id => {
+    const v = PLAN_VOICE[id];
+    if (v.starter) return `Your first ${STARTER_ANSWERS} answers`;
+    if (v.voice === "inworld") return "Finest";
+    return v.choice ? `Pick from ${WORDS[HOSTED_PICKS] || HOSTED_PICKS}` : "Studio";
+  };
+  const style = id => (allowed[id] || []).includes("words") ? "Presets or your own words"
+    : (allowed[id] || []).includes("presets") ? "Presets" : "—";
+  return [
+    row("Answers a day", id => count(PLANS[id].answersPerDay)),
+    row(`${NAME}'s voice: when you ask out loud`, voice),
+    row("Characters' own voices", id => yes(Boolean(PLAN_VOICE[id].characters))),
+    row(`Ask out loud and ${NAME} sees your game`, id => yes(features(id).push_to_talk && features(id).sight)),
+    row("Checks the web when the lore runs out", id => yes(features(id).research)),
+    row(`${NAME}'s style`, style),
+    row("Longer memory", id => yes(Boolean(PLANS[id].longMemory))),
+  ];
+}
+// The offers an account can still have (each once, promoClaimed), by plan: all of them signed out (userId null). Hero's
+// says the day this account's trial would end (keepHeroEnds).
+export async function launchOffers(env, userId, now = launchNow(env)) {
+  const out = {};
+  for (const id of PAID) {
+    const offer = launchOffer(env, id, now);
+    if (!offer || (userId && await promoClaimed(env, userId, offerKind(id)))) continue;
+    const ends = id === "hero" && userId ? await keepHeroEnds(env, userId, now) : null;
+    out[id] = ends ? { ...offer, note: heroNote(ends) } : offer;
+  }
+  return out;
+}
+
+// When a Keep Hero trial started at `at` (launchNow's clock) ends, so the beta's offer stays one month of Hero: the
+// account's free Hero month's end while one runs (at least TRIAL_MIN_SECONDS on, Checkout's shortest trial), in
+// milliseconds; null with none running, for BETA_HERO_DAYS from the day it starts. Read only: a checkout never starts a
+// free month.
+async function keepHeroEnds(env, userId, at) {
+  await setupBilling(env);
+  const month = await freeHeroMonth(env, userId, at);
+  return month ? Math.max(month.end, at.getTime() + TRIAL_MIN_SECONDS * 1000) : null;
+}
+
+// A deployment that isn't Production, for trying the beta promo before and after it (PROMO_NOW below): Stripe in test mode (a
+// test key, sk_test_ or rk_test_) and no STRIPE_LIVE. The site has no other sign of which it is (Pages' CF_PAGES_* are
+// for builds). Production takes a live key with STRIPE_LIVE "1" (stripe() refuses a live key without it), and with no
+// Stripe key at all it counts as Production too, so PROMO_NOW can never work there.
+export const previewDeploy = env => /^[sr]k_test_/.test(String(env?.STRIPE_SECRET_KEY || "")) && env?.STRIPE_LIVE !== "1";
+// The beta promo's clock: the real time, or on a preview deployment the Pages variable PROMO_NOW (an ISO date-time,
+// e.g. "2026-10-25T12:00:00-07:00"), so the promo, a free Hero month and its copy can be tried before and after (with
+// a LAUNCH_WEEK_START set there too). Production never reads it. Only the promo's checks and copy use this clock;
+// answers, months and renewals keep the real time.
+const previewClock = env => {
+  const set = previewDeploy(env) ? Date.parse(String(env?.PROMO_NOW ?? "")) : NaN;
+  return Number.isFinite(set) ? new Date(set) : null;
+};
+export const launchNow = (env, now = new Date()) => previewClock(env) || now;
+// A paid plan's month, for its answer pool and web look-ups: from its renewal (the day of the month and the time its
+// paid period ends, `renews` from planFor, the day clamped to a shorter month's last) to the same moment the next
+// month, UTC, so a month paid for never holds two pools, and the pool comes back when the renewal does, not hours
+// before it; the calendar month without a renewal. The beta's free Hero month (planFor launch) is anchored on its
+// end (`until`) the same way, so its 30 days hold one pool. {key: the month's first day (YYYY-MM-DD, for the
+// rate_limits bucket), resetsAt: when the next one starts (ISO)}.
 export function poolWindow(plan, now = new Date()) {
-  const renews = plan?.renews ? new Date(plan.renews) : null;
-  const anchor = renews && !isNaN(renews) ? renews.getUTCDate() : 1;
-  const on = (y, m) => new Date(Date.UTC(y, m, Math.min(anchor, new Date(Date.UTC(y, m + 1, 0)).getUTCDate())));
+  const anchorAt = plan?.renews || plan?.until;
+  const renews = anchorAt ? new Date(anchorAt) : null;
+  const known = renews && !isNaN(renews);
+  const anchor = known ? renews.getUTCDate() : 1, at = known ? renews.getTime() % 86400e3 : 0;
+  const on = (y, m) => new Date(Date.UTC(y, m, Math.min(anchor, new Date(Date.UTC(y, m + 1, 0)).getUTCDate())) + at);
   let start = on(now.getUTCFullYear(), now.getUTCMonth());
   if (start > now) start = on(now.getUTCFullYear(), now.getUTCMonth() - 1);
   return { key: start.toISOString().slice(0, 10), resetsAt: on(start.getUTCFullYear(), start.getUTCMonth() + 1).toISOString() };
@@ -155,18 +392,20 @@ export const INTEGRATION_ID = "willo_plans_qkzmhtra";
 const PLAN_EVENTS = ["checkout.session.completed", "checkout.session.async_payment_succeeded",
                      "customer.subscription.created", "customer.subscription.updated", "customer.subscription.deleted",
                      "invoice.paid", "invoice.payment_failed"];
-// A paid checkout in payment mode (the first two of PLAN_EVENTS) credits a top-up instead; a refund or a dispute takes
-// one back. scripts/stripe-setup.mjs --webhook subscribes the webhook to them.
-const TOPUP_EVENTS = ["charge.refunded", "charge.dispute.created"];
+// A paid checkout in payment mode (the first two of PLAN_EVENTS) credits a finest-voice pack instead; a refund or a
+// dispute takes one back. scripts/stripe-setup.mjs --webhook subscribes the webhook to them.
+const PACK_EVENTS = ["charge.refunded", "charge.dispute.created"];
 // What the webhook subscribes to: those, and a delayed payment that failed, which is only recorded (its subscription
-// never became active, and a top-up is credited only once paid, so there's nothing to take away).
-export const WEBHOOK_EVENTS = [...PLAN_EVENTS, ...TOPUP_EVENTS, "checkout.session.async_payment_failed"];
+// never became active, and a pack is credited only once paid, so there's nothing to take away).
+export const WEBHOOK_EVENTS = [...PLAN_EVENTS, ...PACK_EVENTS, "checkout.session.async_payment_failed"];
 
 // Live answers a day for every account while the plans feature is off: the number from before plans.
 export const OFF_ANSWERS = 20;
 export const plansOn = env => featureOn(env, "plans");
 export const billingOn = env => plansOn(env) && Boolean(env.STRIPE_SECRET_KEY && env.DB);
-export const lookupKey = (planId, interval) => `${planId}_${interval === "year" ? "yearly" : "monthly"}`;
+// A plan's Stripe price, by lookup key: monthly only (the yearly ones, hero_yearly and the like, are archived by
+// scripts/stripe-setup.mjs).
+export const lookupKey = planId => `${planId}_monthly`;
 
 // The plans for sale: BILLING_PLANS when it's set, else SELLABLE. Never the free one.
 export function sellablePlans(env) {
@@ -177,24 +416,49 @@ export function sellablePlans(env) {
 const month = (now = new Date()) => now.toISOString().slice(0, 7);
 const iso = (ms = Date.now()) => new Date(ms).toISOString();
 const hex = bytes => [...new Uint8Array(bytes)].map(b => b.toString(16).padStart(2, "0")).join("");
+// Two signatures compared in constant time, so the answer's timing says nothing about how close a guess was.
+const same = (s, want) => {
+  if (typeof s !== "string" || s.length !== want.length) return false;
+  let diff = 0;
+  for (let i = 0; i < s.length; i++) diff |= s.charCodeAt(i) ^ want.charCodeAt(i);
+  return diff === 0;
+};
 const idOf = v => typeof v === "string" ? v : typeof v?.id === "string" ? v.id : null;
 
 // ---- The tables ----
 
 // Created here rather than in lib/accounts.js SETUP, since only plans use them; "Delete my account" removes their rows.
 // entitlements: one row per account that ever opened checkout. plan: free unless the subscription is in ACTIVE;
-// interval: month or year; current_period_end: when the paid period ends (ISO). billing_events: the webhook events
+// interval: month (a yearly one from before is kept as it was); current_period_end: when the paid period ends (ISO);
+// promo_champion_until: unused since the launch offers changed (2026-10-14); next_plan and next_plan_at: a
+// downgrade waiting for the renewal (its subscription schedule's next phase, nextOf).
+// promo_claims: the beta promo's offers each account has had (promoClaim), "<kind>:<code>" (kind hero, the trial;
+// half, a 50% first month; or free, the card-less free Hero month, whose created is the month's start and whose
+// subscription_id is '') by the same one-way code as starter_claims (or "user:<id>" without a Google ID), with the
+// subscription that had it; kept after "Delete my account".
+// billing_locks: a plan change under way for an account (changePlan), so a double click or a second tab waits.
+// billing_events: the webhook events
 // already applied (Stripe's event id), so a repeat is skipped. answer_user_spend: what a player's paid-for live answers
-// cost this month (UTC, "2026-10"): micro is all of it, topup_micro the part top-up answers cost, so a plan's cost cap
-// counts only the plan's answers (also in lib/accounts.js SETUP, since the shared budget reads it). answer_packs: one
-// row per top-up bought, keyed by its Checkout Session's id so a pack is credited once, and the account's starter
-// (kind 'starter', keyed "starter:<user id>", so it's credited once too); remaining: its answers left; spent_micro:
-// what a top-up's answers have cost, for TOPUP.costCapMicro; payment_intent: Stripe's payment, which a refund or a
-// dispute names (none for a starter); status: active, refunded or disputed. answer_holds: what answers still being
-// written hold against a plan's cost cap (pack_id null) or a top-up's (holdUserSpend), one row per answer, gone once
-// it's settled. starter_claims: the Google accounts that have had a starter, by a salted hash of their Google ID
-// (starterClaim), kept after "Delete my account" so deleting it and signing in again doesn't bring another;
-// billing_salt: that hash's random salt, made once.
+// cost this month (UTC, "2026-10"): micro is all of it, topup_micro the part finest-voice packs paid for (named for the
+// answer top-ups it first counted), so a plan's cost caps count only the plan's own, voice_micro the part its hosted
+// voice cost (lib/companion-voice.js), which counts
+// toward the total cap but not the text one, and launch_micro the part the beta's free Hero months cost, which only
+// the free Hero month's caps and the promo's brake count (also in lib/accounts.js SETUP, since the shared budget reads it). users.welcomed_at:
+// when the account was sent to the welcome page (welcomeOnce).
+// answer_packs: one row per finest-voice pack bought (kind 'voice', VOICE_PACK), keyed by its Checkout Session's id so
+// a pack is credited once, and the account's starter (kind 'starter', keyed "starter:<user id>", so it's credited once
+// too); remaining: a voice pack's replies left (the starter's answers); spent_micro: what a pack's replies have cost,
+// for its costCapMicro; payment_intent: Stripe's payment, which a refund or a dispute names (none for a starter);
+// status: active, refunded or disputed. answer_holds: what answers and hosted replies still being written hold against
+// a plan's cost cap (pack_id null) or a finest-voice pack's (holdUserSpend), one row each, gone once it's settled.
+// starter_claims: the Google accounts that have had a starter, by a salted hash of their Google ID (starterClaim), kept
+// after "Delete my account" so deleting it and signing in again doesn't bring another;
+// billing_salt: that hash's random salt, made once. voice_replies: the replies a paying player's hosted voice said in
+// their current plan month (lib/companion-voice.js), one row per reply: reply is the companion's id for it (its pieces
+// come one by one), period the plan month's first day (poolWindow), chars what its pieces said so far, pieces how many
+// are on their way or said, heard how many were said, best whether Willo's finest voice says it (PLAN_VOICE best),
+// pack the finest-voice pack that pays for it instead (VOICE_PACK), npc whether it's one of Champion's character
+// replies (PLAN_VOICE characters); older months' rows go as a new one starts.
 const SETUP = [
   `CREATE TABLE IF NOT EXISTS entitlements (
     user_id TEXT PRIMARY KEY, customer_id TEXT UNIQUE, subscription_id TEXT, plan TEXT NOT NULL DEFAULT 'free',
@@ -214,10 +478,26 @@ const SETUP = [
   "CREATE INDEX IF NOT EXISTS answer_holds_user ON answer_holds (user_id, created)",
   "CREATE TABLE IF NOT EXISTS starter_claims (sub_hash TEXT PRIMARY KEY, created TEXT NOT NULL)",
   "CREATE TABLE IF NOT EXISTS billing_salt (id INTEGER PRIMARY KEY CHECK (id = 1), salt TEXT NOT NULL)",
+  `CREATE TABLE IF NOT EXISTS voice_replies (
+    user_id TEXT NOT NULL, reply TEXT NOT NULL, period TEXT NOT NULL, chars INTEGER NOT NULL DEFAULT 0,
+    pieces INTEGER NOT NULL DEFAULT 0, heard INTEGER NOT NULL DEFAULT 0, best INTEGER NOT NULL DEFAULT 0,
+    created TEXT NOT NULL, PRIMARY KEY (user_id, reply))`,
+  "CREATE INDEX IF NOT EXISTS voice_replies_period ON voice_replies (user_id, period)",
+  "CREATE TABLE IF NOT EXISTS promo_claims (claim TEXT PRIMARY KEY, subscription_id TEXT NOT NULL, created TEXT NOT NULL)",
+  "CREATE TABLE IF NOT EXISTS billing_locks (user_id TEXT PRIMARY KEY, until TEXT NOT NULL)",
 ];
-// Columns added after their table was first made. Packs from before the starter are all top-ups.
+// Columns added after their table was first made. Packs from before the starter were all answer top-ups (none was ever
+// sold on the live site; nothing reads that kind now).
 const MIGRATE = ["ALTER TABLE answer_user_spend ADD COLUMN topup_micro INTEGER NOT NULL DEFAULT 0",
-                 "ALTER TABLE answer_packs ADD COLUMN kind TEXT NOT NULL DEFAULT 'topup'"];
+                 "ALTER TABLE answer_packs ADD COLUMN kind TEXT NOT NULL DEFAULT 'topup'",
+                 "ALTER TABLE answer_user_spend ADD COLUMN voice_micro INTEGER NOT NULL DEFAULT 0",
+                 "ALTER TABLE voice_replies ADD COLUMN pack TEXT",
+                 "ALTER TABLE entitlements ADD COLUMN promo_champion_until TEXT",
+                 "ALTER TABLE answer_user_spend ADD COLUMN launch_micro INTEGER NOT NULL DEFAULT 0",
+                 "ALTER TABLE users ADD COLUMN welcomed_at TEXT",
+                 "ALTER TABLE voice_replies ADD COLUMN npc INTEGER NOT NULL DEFAULT 0",
+                 "ALTER TABLE entitlements ADD COLUMN next_plan TEXT",
+                 "ALTER TABLE entitlements ADD COLUMN next_plan_at TEXT"];
 const ready = new WeakSet();
 export async function setupBilling(env) {
   if (ready.has(env.DB)) return;
@@ -263,12 +543,12 @@ export async function stripe(env, method, path, params, { idempotencyKey } = {})
   return data;
 }
 
-// Price ids by lookup key ("hero_monthly", "topup_300"), kept for the life of the isolate: a key only moves to a new
+// Price ids by lookup key ("hero_monthly", "voice_400"), kept for the life of the isolate: a key only moves to a new
 // price when scripts/stripe-setup.mjs changes an amount, and the next deploy or cold start picks that up.
 const prices = new Map();
 async function priceId(env, key) {
   if (!prices.has(key)) {
-    const keys = [...PAID.flatMap(id => [lookupKey(id, "month"), lookupKey(id, "year")]), TOPUP.key];
+    const keys = [...PAID.map(lookupKey), VOICE_PACK.key];
     const list = await stripe(env, "GET", "prices", { lookup_keys: keys, active: true, limit: 100 });
     for (const p of list?.data || []) if (p.lookup_key) prices.set(p.lookup_key, p.id);
   }
@@ -342,12 +622,19 @@ async function starterClaim(env, userId) {
   return hex(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(`${salts.get(env.DB)}:${user.google_sub}`)));
 }
 
-// The plan an account has right now: {id, name, answersPerDay, answersPerMonth (a paid plan's), lookupsPerMonth,
-// costCapMicro, status, renews, cancelAtPeriodEnd, portal}. renews: when the paid period ends (it renews then unless cancelAtPeriodEnd). portal: they have a
-// subscription to manage on the billing portal, even an ended one. On the free plan, answersPerDay is the brake's when
-// it applies (with brake: true), and the account gets its starter (creditStarter).
+// The plan an account has right now: {id, name, answersPerDay, answersPerMonth, lookupsPerMonth, costCapMicro (the text
+// cap), totalCapMicro (a paid plan's), voice (PLAN_VOICE's: who says its replies, choice, best), status, renews,
+// cancelAtPeriodEnd, portal}. renews: when the paid period ends (it renews then unless cancelAtPeriodEnd). portal:
+// they have a subscription to manage on the billing portal, even an ended one. On the free plan, answersPerDay is the
+// brake's when it applies (with brake: true), and the account gets its starter (creditStarter). During its free Hero
+// month (the beta promo, freeHeroMonth) a free account has Hero's plan instead, with launch: true, since and until
+// (the month's start and end, ISO) and ends (its end as players read it, "November 20"). A "Keep Hero" bought during
+// the beta is Hero with status "trialing" until renews (its free month's end, or BETA_HERO_DAYS on: keepHeroEnds). changesTo: {id, name,
+// at}, a downgrade waiting for the renewal (changePlan).
+const voiceOf = id => ({ voice: { ...PLAN_VOICE[id] } });
 export async function planFor(env, userId, now = new Date()) {
-  // Plans switched off: everyone has the free plan with the answers from before plans, whatever is stored.
+  // Plans switched off: everyone has the free plan with the answers from before plans, whatever is stored, and Willo
+  // talks in its own voice on the PC as before.
   if (!plansOn(env)) {
     return { id: "free", name: PLANS.free.name, answersPerDay: OFF_ANSWERS, costCapMicro: 0, status: null, renews: null,
              cancelAtPeriodEnd: false, portal: false };
@@ -357,38 +644,109 @@ export async function planFor(env, userId, now = new Date()) {
   const portal = Boolean(row?.subscription_id);
   if (paidNow(row, now)) {
     const plan = PLANS[row.plan];
+    const next = PAID.includes(row.next_plan) && row.next_plan !== row.plan && Date.parse(row.next_plan_at) > now.getTime()
+      ? { changesTo: { id: row.next_plan, name: PLANS[row.next_plan].name, at: row.next_plan_at } } : {};
     return { id: plan.id, name: plan.name, answersPerDay: plan.answersPerDay, answersPerMonth: plan.answersPerMonth,
-             lookupsPerMonth: plan.lookupsPerMonth, costCapMicro: plan.costCapMicro, status: row.status, renews: row.current_period_end, cancelAtPeriodEnd: Boolean(row.cancel_at_period_end), portal };
+             lookupsPerMonth: plan.lookupsPerMonth, costCapMicro: plan.costCapMicro, totalCapMicro: plan.totalCapMicro,
+             ...voiceOf(plan.id), status: row.status, renews: row.current_period_end,
+             cancelAtPeriodEnd: Boolean(row.cancel_at_period_end), ...next, portal };
   }
-  const [spent] = await Promise.all([paidSpend(env, now), creditStarter(env, userId, now)]);
+  // The beta's free Hero month: looked for while one can still be running (the promo, and BETA_HERO_DAYS after it).
+  const at = launchNow(env, now), week = launchWindow(env);
+  const promo = Boolean(week) && at.getTime() < week.end + BETA_HERO_DAYS * DAY_MS;
+  const [spent, , launchSpent] = await Promise.all([paidSpend(env, now), creditStarter(env, userId, now),
+    promo ? launchSpend(env, week) : null]);
+  // Hero's plan, on us, for the account's month, until the promo's brake.
+  const freeMonth = launchSpent !== null && launchSpent < LAUNCH_WEEK_BRAKE_MICRO
+    ? await freeHeroMonth(env, userId, at, week) : null;
+  if (freeMonth) {
+    const hero = PLANS.hero;
+    return { id: hero.id, name: hero.name, answersPerDay: hero.answersPerDay, answersPerMonth: hero.answersPerMonth,
+             lookupsPerMonth: hero.lookupsPerMonth, costCapMicro: hero.costCapMicro, totalCapMicro: hero.totalCapMicro,
+             ...voiceOf(hero.id), launch: true, since: iso(freeMonth.start), until: iso(freeMonth.end),
+             ends: pacificDay(freeMonth.end), status: null, renews: null, cancelAtPeriodEnd: false, portal };
+  }
   const brake = spent > BRAKE_MICRO;
   const free = PLANS.free;
   return { id: free.id, name: free.name, costCapMicro: 0, lookupsPerMonth: 0, status: null, renews: null,
-           cancelAtPeriodEnd: false, portal,
+           cancelAtPeriodEnd: false, portal, answersPerMonth: free.answersPerMonth, ...voiceOf(free.id),
            answersPerDay: brake ? BRAKE_ANSWERS : free.answersPerDay, ...(brake ? { brake: true } : {}) };
 }
 
+// The account's free Hero month ({start, end}, milliseconds) while it runs at `at` (launchNow's clock), else null.
+// It starts the first time this is asked during the beta promo (week: launchWindow's), as the account's "free" claim
+// in promo_claims (created: the month's start; by its one-way Google code, so once per Google account, even after
+// "Delete my account"), and lasts BETA_HERO_DAYS days, past the beta's end too. Read first, so only an account's
+// first look writes; without `week`, it only reads (keepHeroEnds).
+async function freeHeroMonth(env, userId, at, week = null) {
+  const claim = await claimOf(env, userId, "free"), ms = at.getTime();
+  const read = () => env.DB.prepare("SELECT created FROM promo_claims WHERE claim = ?").bind(claim).first();
+  let row = await read();
+  if (!row && week && ms >= week.start && ms <= week.end) {
+    await env.DB.prepare("INSERT OR IGNORE INTO promo_claims (claim, subscription_id, created) VALUES (?, '', ?)")
+      .bind(claim, iso(ms)).run();
+    row = await read();
+  }
+  const start = Date.parse(row?.created ?? ""), end = start + BETA_HERO_DAYS * DAY_MS;
+  return Number.isFinite(start) && ms >= start && ms < end ? { start, end } : null;
+}
+
+// What the beta's free Hero months have cost so far, site-wide (answer_user_spend.launch_micro, from the promo's
+// first calendar month on: the months run past its end), for its brake. week: launchWindow's.
+async function launchSpend(env, week) {
+  const row = await env.DB.prepare("SELECT COALESCE(SUM(launch_micro), 0) AS micro FROM answer_user_spend WHERE month >= ?")
+    .bind(iso(week.start).slice(0, 7)).first();
+  return row?.micro || 0;
+}
+
+// The welcome page (Mike, 2026-10-13): the first time an account connects the companion on /link
+// (functions/api/device/[action].js approve), while plans are for sale and the account has none, the browser goes to
+// WELCOME_URL instead of the connected page: a warm line, the plan cards and "Continue free", which goes on to that
+// page. Once per account (users.welcomed_at, set here in one statement, so two tabs can't both get it). Only the
+// companion makes those links (lib/devices.js), so the add-on never leads here. The site decides; the companion just
+// opens sign-in as before. WELCOME_URL, or null.
+export const WELCOME_URL = "/plans?welcome=1";
+export async function welcomeOnce(env, userId, now = new Date()) {
+  if (!billingOn(env) || !sellablePlans(env).length) return null;
+  await setupBilling(env);
+  if (paidNow(await entitlement(env, userId), now)) return null;
+  const res = await env.DB.prepare("UPDATE users SET welcomed_at = ? WHERE id = ? AND welcomed_at IS NULL")
+    .bind(iso(now.getTime()), userId).run();
+  return res.meta.changes ? WELCOME_URL : null;
+}
+
 // Holds `micro` (what lib/companion-answers.js answerReservation reserves for an answer) against the cost cap that
-// pays for the answer, before it's written: a top-up pack's (packId, TOPUP.costCapMicro) or the plan's month (cap,
-// its costCapMicro). One statement, and only while the cap isn't reached yet, counting the holds of answers still
-// being written, so questions asked at the same moment can't all get in under a cap one of them reaches (security
-// review M3). A hold counts for HOLD_SECONDS at most, longer than any answer takes, so one whose request was cut off
-// before it could settle (the player disconnected, say) doesn't keep their cap for the rest of the month. The hold's
-// id when it's held, else null; addUserSpend settles it with what the answer cost, and releaseUserSpend gives it back.
+// pays for the answer, before it's written: a finest-voice pack's (packId, its packCap: VOICE_PACK.costCapMicro) or the
+// plan's month (cap, its costCapMicro; with `total`, its totalCapMicro, against what its answers and hosted voice cost
+// together, for a piece of a hosted reply, and then only while `need`, the room the piece wants, still fits under
+// it). One statement, and only while the cap isn't reached yet, counting the holds of answers still being written, so questions asked at
+// the same moment can't all get in under a cap one of them reaches (security review M3). A hold counts for
+// HOLD_SECONDS at most, longer than any answer takes, so one whose request was cut off before it could settle (the
+// player disconnected, say) doesn't keep their cap for the rest of the month. The hold's id when it's held, else null;
+// addUserSpend settles it with what the answer cost, and releaseUserSpend gives it back. launch: the beta's free
+// Hero (planFor launch), whose cap counts only its own answers (ownSpend).
 export const HOLD_SECONDS = 300;
-export async function holdUserSpend(env, userId, micro, now = new Date(), { packId = null, cap = 0 } = {}) {
+// What of the month's answer_user_spend row a plan's caps count: for the beta's free Hero its own answers
+// (launch_micro); for a plan everything but finest-voice packs' replies (topup_micro) and the free Hero month's answers, and
+// for the text cap not its hosted voice either.
+const ownSpend = ({ total = false, launch = false } = {}) =>
+  launch ? "launch_micro" : `micro - topup_micro - launch_micro${total ? "" : " - voice_micro"}`;
+export async function holdUserSpend(env, userId, micro, now = new Date(),
+  { packId = null, packCap = VOICE_PACK.costCapMicro, cap = 0, total = false, need = micro, launch = false } = {}) {
   await setupBilling(env);
   if (!packId && !(cap > 0)) return null;
   const id = crypto.randomUUID(), since = iso(now.getTime() - HOLD_SECONDS * 1000);
   const spent = packId ? "(SELECT spent_micro FROM answer_packs WHERE id = ?)"
-    : "COALESCE((SELECT micro - topup_micro FROM answer_user_spend WHERE user_id = ? AND month = ?), 0)";
+    : `COALESCE((SELECT ${ownSpend({ total, launch })} FROM answer_user_spend WHERE user_id = ? AND month = ?), 0)`;
+  // A hosted piece must fit whole; an answer only needs the cap not reached yet (its cost is known once it's written).
+  const fits = total ? "+ ? <= ?" : "< ?";
   const [, held] = await env.DB.batch([
     env.DB.prepare("DELETE FROM answer_holds WHERE user_id = ? AND created <= ?").bind(userId, since),
     env.DB.prepare(
       "INSERT INTO answer_holds (id, user_id, pack_id, micro, created) SELECT ?, ?, ?, ?, ? WHERE " +
-      `${spent} + (SELECT COALESCE(SUM(micro), 0) FROM answer_holds WHERE user_id = ? AND pack_id IS ? AND created > ?) < ?`
+      `${spent} + (SELECT COALESCE(SUM(micro), 0) FROM answer_holds WHERE user_id = ? AND pack_id IS ? AND created > ?) ${fits}`
     ).bind(id, userId, packId, micro, iso(now.getTime()), ...(packId ? [packId] : [userId, month(now)]),
-           userId, packId, since, packId ? TOPUP.costCapMicro : cap),
+           userId, packId, since, ...(total ? [need] : []), packId ? packCap : cap),
   ]);
   return held.meta.changes ? id : null;
 }
@@ -401,99 +759,177 @@ export async function releaseUserSpend(env, holdId, keep = 0) {
     : env.DB.prepare("DELETE FROM answer_holds WHERE id = ?").bind(holdId)).run();
 }
 
-// What a paid-for live answer cost, by a plan or by a top-up pack (packId), for their cost caps
-// (lib/companion-answers.js counts each answer's cost; functions/api/companion/answer.js adds it here). Both go into
-// answer_user_spend, so the shared budget leaves them out; a top-up's also into its pack. holdId: the answer's hold
-// on its cap (holdUserSpend), which goes in the same batch.
-export async function addUserSpend(env, userId, micro, now = new Date(), packId = null, holdId = null) {
+// What a paying player's live answer cost, for their plan's cost caps (lib/companion-answers.js counts each answer's
+// cost; functions/api/companion/answer.js adds it here). It goes into answer_user_spend, so the shared budget leaves it
+// out. holdId: the answer's hold on its cap (holdUserSpend), which goes in the same batch. launch: an answer of launch
+// week's free Hero (planFor launch), kept apart in launch_micro for that week's caps and brake.
+export async function addUserSpend(env, userId, micro, now = new Date(), holdId = null, launch = false) {
   await setupBilling(env);
   const cost = Math.max(0, Math.round(Number(micro) || 0));
   const statements = [env.DB.prepare(
-    "INSERT INTO answer_user_spend (user_id, month, micro, calls, topup_micro) VALUES (?, ?, ?, 1, ?) " +
+    "INSERT INTO answer_user_spend (user_id, month, micro, calls, launch_micro) VALUES (?, ?, ?, 1, ?) " +
     "ON CONFLICT (user_id, month) DO UPDATE SET micro = micro + excluded.micro, calls = calls + 1, " +
-    "topup_micro = topup_micro + excluded.topup_micro"
-  ).bind(userId, month(now), cost, packId ? cost : 0)];
-  if (packId) statements.push(env.DB.prepare("UPDATE answer_packs SET spent_micro = spent_micro + ? WHERE id = ?").bind(cost, packId));
+    "launch_micro = launch_micro + excluded.launch_micro"
+  ).bind(userId, month(now), cost, launch ? cost : 0)];
   if (holdId) statements.push(env.DB.prepare("DELETE FROM answer_holds WHERE id = ?").bind(holdId));
   await env.DB.batch(statements);
 }
 
-// What the plan's answers cost this month, for its cost cap: top-up answers pay for themselves. Holds of answers still
-// being written aren't counted.
-export async function userSpend(env, userId, now = new Date()) {
+// What a paying player's hosted voice cost (lib/companion-voice.js), for their plan's cost cap: on their month in
+// answer_user_spend, and on the month's answer_spend too, so /admin sees it and the shared budget, which leaves out
+// what answer_user_spend holds, stays as it was; voice_micro keeps it apart from the text cap. Not an answer: no call is
+// counted. holdId: its hold on the total cap (holdUserSpend), which goes in the same batch. packId: a finest-voice pack
+// (VOICE_PACK) paid for it instead: then it's that pack's (topup_micro), not the plan's.
+// launch: the beta's free Hero's, which goes in launch_micro too (addUserSpend).
+export async function addVoiceSpend(env, userId, micro, now = new Date(), holdId = null, packId = null, launch = false) {
   await setupBilling(env);
-  const row = await env.DB.prepare("SELECT micro - topup_micro AS micro FROM answer_user_spend WHERE user_id = ? AND month = ?")
-    .bind(userId, month(now)).first();
+  const cost = Math.max(0, Math.round(Number(micro) || 0));
+  await env.DB.batch([
+    ...(packId ? [env.DB.prepare("UPDATE answer_packs SET spent_micro = spent_micro + ? WHERE id = ?").bind(cost, packId)] : []),
+    env.DB.prepare("INSERT INTO answer_spend (month, reserved_micro, actual_micro, calls) VALUES (?, ?, ?, 0) " +
+      "ON CONFLICT (month) DO UPDATE SET reserved_micro = reserved_micro + excluded.reserved_micro, " +
+      "actual_micro = actual_micro + excluded.actual_micro").bind(month(now), cost, cost),
+    env.DB.prepare("INSERT INTO answer_user_spend (user_id, month, micro, calls, voice_micro, topup_micro, launch_micro) " +
+      "VALUES (?, ?, ?, 0, ?, ?, ?) ON CONFLICT (user_id, month) DO UPDATE SET micro = micro + excluded.micro, " +
+      "voice_micro = voice_micro + excluded.voice_micro, topup_micro = topup_micro + excluded.topup_micro, " +
+      "launch_micro = launch_micro + excluded.launch_micro")
+      .bind(userId, month(now), cost, packId ? 0 : cost, packId ? cost : 0, launch && !packId ? cost : 0),
+    ...(holdId ? [env.DB.prepare("DELETE FROM answer_holds WHERE id = ?").bind(holdId)] : []),
+  ]);
+}
+
+// What the plan's answers cost this month (calendar month, UTC), for its text cap (costCapMicro): a finest-voice pack's
+// replies pay for themselves, and its hosted voice is counted apart. With `total`, its answers and hosted voice
+// together, for the total cap (totalCapMicro). Holds of answers still being written aren't counted. launch: the beta's free Hero's own
+// answers instead (ownSpend).
+export async function userSpend(env, userId, now = new Date(), { total = false, launch = false } = {}) {
+  await setupBilling(env);
+  const row = await env.DB.prepare(`SELECT ${ownSpend({ total, launch })} AS micro FROM answer_user_spend `
+    + `WHERE user_id = ? AND month = ?`).bind(userId, month(now)).first();
   return row?.micro || 0;
 }
 
-// ---- Top-ups ----
+// A paying player whose answers this calendar month have cost their plan's text cap (costCapMicro, half its net): their
+// plan's answers wait for the next month, as when its pool is used (lib/companion-answers.js allowance,
+// functions/api/companion/answer.js). Never for the free plan, which the shared budget and the brake look after.
+// The beta's free Hero has Hero's, on its own answers.
+export async function overTextCap(env, userId, plan, now = new Date()) {
+  return plan.id !== "free" && plan.costCapMicro > 0 &&
+    await userSpend(env, userId, now, { launch: Boolean(plan.launch) }) >= plan.costCapMicro;
+}
 
-// The account's top-up answers left (every active top-up), its starter answers left, and the top-ups it bought this
-// month (a refunded one isn't counted, nor the starter): {remaining, starter, boughtThisMonth}.
-export async function topupFor(env, userId, now = new Date()) {
+// ---- The starter and the finest-voice packs ----
+
+// The account's starter answers left, and its finest-voice packs (VOICE_PACK): their replies left and how many it
+// bought this month (a refunded one isn't counted): {starter, voice: {remaining, boughtThisMonth}}.
+export async function packsFor(env, userId, now = new Date()) {
   await setupBilling(env);
   const row = await env.DB.prepare(
-    "SELECT COALESCE(SUM(CASE WHEN status = 'active' AND kind = 'topup' THEN remaining ELSE 0 END), 0) AS remaining, " +
-    "COALESCE(SUM(CASE WHEN status = 'active' AND kind = 'starter' THEN remaining ELSE 0 END), 0) AS starter, " +
-    "COALESCE(SUM(kind = 'topup' AND status != 'refunded' AND substr(created, 1, 7) = ?), 0) AS bought " +
+    "SELECT COALESCE(SUM(CASE WHEN status = 'active' AND kind = 'starter' THEN remaining ELSE 0 END), 0) AS starter, " +
+    "COALESCE(SUM(CASE WHEN status = 'active' AND kind = 'voice' THEN remaining ELSE 0 END), 0) AS voice, " +
+    "COALESCE(SUM(kind = 'voice' AND status != 'refunded' AND substr(created, 1, 7) = ?), 0) AS voice_bought " +
     "FROM answer_packs WHERE user_id = ?"
   ).bind(month(now), userId).first();
-  return { remaining: row?.remaining || 0, starter: row?.starter || 0, boughtThisMonth: row?.bought || 0 };
+  return { starter: row?.starter || 0, voice: { remaining: row?.voice || 0, boughtThisMonth: row?.voice_bought || 0 } };
 }
 
-// Takes one answer from the account's packs, in one statement, so two questions at once can't spend the same answer:
-// the starter first when `starter` (the free plan's, which costs the player nothing), then the oldest top-up with any
-// left. The pack ({id, kind, spent_micro}), or null when none has any left.
-export async function useTopup(env, userId, { starter = false } = {}) {
+// How /plans offers the finest-voice pack to this player (functions/api/billing/[action].js), decided here so the page
+// doesn't guess: {text, buy (its button, when not the usual one)}, or null to leave it out. Legend already has the
+// finest voice for its PLAN_VOICE best replies a plan month, so (Mike, 2026-10-13) it sees the pack only once 90% of
+// them are said (LEGEND_PACK_LEFT or fewer left), as more of it for after them, with the day they come back. Every
+// other plan sees it as it is: on Hero and Champion it's the finest voice they don't have. The companion never offers
+// it.
+export const LEGEND_PACK_LEFT = Math.floor(PLAN_VOICE.legend.best / 10);
+export async function voicePackFor(env, userId, plan, now = new Date()) {
+  if (plan?.id !== "legend") return { text: VOICE_PACK_TEXT };
+  await setupBilling(env);
+  const window = poolWindow(plan, now);
+  const said = await env.DB.prepare("SELECT COALESCE(SUM(best), 0) AS n FROM voice_replies WHERE user_id = ? AND period = ?")
+    .bind(userId, window.key).first();
+  if (PLAN_VOICE.legend.best - (said?.n || 0) > LEGEND_PACK_LEFT) return null;
+  const back = new Date(window.resetsAt).toLocaleDateString("en-US", { month: "long", day: "numeric", timeZone: "UTC" });
+  return { text: `${VOICE_PACK.replies} more replies in ${NAME}'s finest voice, for after your monthly ` +
+                 `${count(PLAN_VOICE.legend.best)} (back on ${back}). $${(VOICE_PACK.price / 100).toFixed(2)}, yours until ` +
+                 "you use them.",
+           buy: `Buy ${VOICE_PACK.replies} more replies` };
+}
+
+// Takes one of the free plan's starter answers, in one statement, so two questions at once can't spend the same
+// answer. The pack ({id, kind}), or null once none are left.
+export async function useStarter(env, userId) {
   await setupBilling(env);
   return env.DB.prepare(
-    "UPDATE answer_packs SET remaining = remaining - 1 WHERE id = (SELECT id FROM answer_packs WHERE user_id = ? AND " +
-    "status = 'active' AND remaining > 0 AND (kind = 'topup' OR ? = 1) ORDER BY kind = 'topup', created, id LIMIT 1) " +
-    "AND remaining > 0 RETURNING id, kind, spent_micro"
-  ).bind(userId, starter ? 1 : 0).first();
+    "UPDATE answer_packs SET remaining = remaining - 1 WHERE id = ? AND user_id = ? AND kind = 'starter' AND " +
+    "status = 'active' AND remaining > 0 RETURNING id, kind"
+  ).bind(`starter:${userId}`, userId).first();
 }
 
-// Gives back a pack's answer whose live answer failed, or never reached the model (functions/api/companion/answer.js):
-// the player paid for answers, not attempts. Only while the pack is still active (a refunded one stays empty).
-export async function returnTopup(env, packId) {
+// Gives back a starter answer whose live answer failed, or never reached the model (functions/api/companion/answer.js):
+// it's for answers, not attempts.
+export async function returnStarter(env, packId) {
   await env.DB.prepare("UPDATE answer_packs SET remaining = remaining + 1 WHERE id = ? AND status = 'active' AND remaining < answers")
     .bind(packId).run();
 }
 
-// What the companion offers a player whose answers ran out today (functions/api/companion/answer.js): the next plan up
-// while it's for sale, and a top-up while they can buy one this month. Nothing while nothing is for sale.
-export async function offersFor(env, userId, plan, now = new Date()) {
-  if (!billingOn(env)) return [];
-  const offers = [];
-  const next = PLANS[PAID[PAID.indexOf(plan.id) + 1]];   // the free plan isn't in PAID, so its next is Hero
-  if (next && sellablePlans(env).includes(next.id))
-    offers.push({ id: next.id, text: `Get ${next.name}: ${count(next.answersPerMonth)} answers a month`, url: "/plans" });
-  if ((await topupFor(env, userId, now)).boughtThisMonth < TOPUP.monthMax)
-    offers.push({ id: "topup", text: `Top-up: ${TOPUP.answers} answers for $${(TOPUP.price / 100).toFixed(2)}`, url: "/plans#topup" });
-  return offers;
+// The next plan up from this one that's for sale (from the free plan, and the beta's free Hero, which is the free
+// plan's: Hero), or null: none above it (Legend), or nothing for sale.
+export function planAbove(env, plan) {
+  if (!billingOn(env)) return null;
+  const sellable = sellablePlans(env);
+  const id = PAID.slice(plan.launch ? 0 : PAID.indexOf(plan.id) + 1).find(p => sellable.includes(p));
+  return id ? PLANS[id] : null;
+}
+
+// What the companion offers a player whose answers ran out (functions/api/companion/answer.js): the next plan up
+// while it's for sale (planAbove), so Free's one offer is Hero. Answers can't be bought, and a finest-voice pack is
+// about the voice, not more answers, so neither is offered; Legend gets nothing.
+export function offersFor(env, plan) {
+  const next = planAbove(env, plan);
+  return next ? [{ id: next.id, text: `Get ${next.name}: ${count(next.answersPerMonth)} answers a month`, url: "/plans" }] : [];
 }
 
 // ---- Checkout and the billing portal ----
 
-// Stripe's payment page for a plan: {url}, or {error} for a plan that isn't for sale. A player who already has a plan
-// gets the billing portal instead, where they can switch, so nobody ends up with two subscriptions.
+// Stripe's payment page for a plan: {url}, or {error} for a plan that isn't for sale or a yearly one (plans are
+// monthly; interval may be left out). A player who already has a plan (in D1, or at Stripe a moment before the
+// webhook says so: paid in another tab) is sent back to /plans, where they switch (changePlan), so nobody ends up
+// with two subscriptions.
 export async function createCheckout(env, user, planId, interval, origin) {
   await setupBilling(env);
   if (!sellablePlans(env).includes(planId)) return { error: "That plan isn't open yet." };
-  if (interval !== "month" && interval !== "year") return { error: "Pick monthly or yearly." };
+  if (interval !== undefined && interval !== null && interval !== "month") return { error: "Plans are monthly." };
   const row = await entitlement(env, user.id);
-  if (paidNow(row)) return createPortal(env, user, origin);
-  const price = await priceId(env, lookupKey(planId, interval));
-  if (!price) throw new Error(`No Stripe price has the lookup key ${lookupKey(planId, interval)}; run scripts/stripe-setup.mjs`);
+  if (paidNow(row)) return { url: `${origin}/plans` };
+  const price = await priceId(env, lookupKey(planId));
+  if (!price) throw new Error(`No Stripe price has the lookup key ${lookupKey(planId)}; run scripts/stripe-setup.mjs`);
   const customer = row?.customer_id || await newCustomer(env, user);
-  // A plan's checkout page left open in another tab could start a second subscription: earlier ones are closed first.
-  if (row?.customer_id) await closeOpenCheckouts(env, customer);
+  if (row?.customer_id) {
+    const [live] = await liveSubscriptions(env, customer);
+    if (live) {
+      await storeSubscription(env, user.id, live);
+      return { url: `${origin}/plans` };
+    }
+    // A plan's checkout page left open in another tab could start a second subscription: earlier ones are closed first.
+    await closeOpenCheckouts(env, customer);
+  }
+  // The beta's offer for this plan, if the account hasn't had it (launchOffer): Hero's trial (Checkout shows it, and the
+  // day it's free until), to the end of the account's free Hero month while one runs, else BETA_HERO_DAYS from the day
+  // the subscription starts (keepHeroEnds); or the 50% first month's coupon, which Checkout shows (and then takes no
+  // promotion codes: Stripe allows one or the other). metadata.launch says which, so the webhook records the claim
+  // (storeSubscription). A trial_end is as far from the real clock as from the promo's (PROMO_NOW on a preview), since
+  // Stripe wants one in its future.
+  const kind = offerKind(planId), launchAt = launchNow(env);
+  const offer = launchOffer(env, planId, launchAt) && !(await promoClaimed(env, user.id, kind)) ? kind : null;
+  const ends = offer === "hero" ? await keepHeroEnds(env, user.id, launchAt) : null;
+  const trial = offer !== "hero" ? {}
+    : ends ? { trial_end: Math.floor((Date.now() + ends - launchAt.getTime()) / 1000) }
+    : { trial_period_days: BETA_HERO_DAYS };
   // Payment methods come from the Dashboard's settings (so no payment_method_types here), and tax from Managed
   // Payments when it's on (so no automatic_tax): prices include tax, and players pay exactly what's listed.
-  const session = await stripe(env, "POST", "checkout/sessions", {
+  const session = await checkoutSession(env, {
     mode: "subscription", customer, line_items: [{ price, quantity: 1 }], client_reference_id: user.id,
-    subscription_data: { metadata: { user_id: user.id } }, allow_promotion_codes: true,
+    subscription_data: { metadata: { user_id: user.id, ...(offer ? { launch: offer } : {}) }, ...trial },
+    ...(offer === "half" ? { discounts: [{ coupon: LAUNCH_COUPONS[planId].id }] } : { allow_promotion_codes: true }),
     integration_identifier: INTEGRATION_ID,
     ...(env.STRIPE_MANAGED_PAYMENTS === "1" ? { managed_payments: { enabled: true } } : {}),
     success_url: `${origin}/plans?billing=done`, cancel_url: `${origin}/plans`,
@@ -501,29 +937,46 @@ export async function createCheckout(env, user, planId, interval, origin) {
   return { url: session.url };
 }
 
-// Stripe's payment page for a top-up: {url}, or {error} once the account has bought this month's TOPUP.monthMax (the
-// webhook counts them again when the payment lands). Any signed-in player can buy one, on any plan.
-export async function createTopup(env, user, origin, now = new Date()) {
+// Stripe's payment page for a finest-voice pack (VOICE_PACK): {url}, or {error} for a player without a paid plan or
+// once they've bought this month's VOICE_PACK.monthMax (the webhook counts them again when the payment lands). The
+// beta's free Hero month isn't a paid plan: its pack would wait for one.
+export async function createVoicePack(env, user, origin, now = new Date()) {
   await setupBilling(env);
-  if ((await topupFor(env, user.id, now)).boughtThisMonth >= TOPUP.monthMax)
-    return { error: `You've bought this month's ${TOPUP.monthMax} top-ups. You can buy more next month.` };
-  const price = await priceId(env, TOPUP.key);
-  if (!price) throw new Error(`No Stripe price has the lookup key ${TOPUP.key}; run scripts/stripe-setup.mjs`);
+  const plan = await planFor(env, user.id, now);
+  if (plan.id === "free" || plan.launch) return { error: `${COMPANION_NAME}'s finest voice comes with a plan.` };
+  if ((await packsFor(env, user.id, now)).voice.boughtThisMonth >= VOICE_PACK.monthMax)
+    return { error: `You've bought this month's ${VOICE_PACK.monthMax}. You can buy more next month.` };
+  const price = await priceId(env, VOICE_PACK.key);
+  if (!price) throw new Error(`No Stripe price has the lookup key ${VOICE_PACK.key}; run scripts/stripe-setup.mjs`);
   const customer = (await entitlement(env, user.id))?.customer_id || await newCustomer(env, user);
-  // As for plans: payment methods from the Dashboard, tax from Managed Payments. metadata.kind tells the webhook it's
-  // a top-up; the payment carries the account too, for Stripe's dashboard.
-  const session = await stripe(env, "POST", "checkout/sessions", {
+  // As for plans: payment methods from the Dashboard, tax from Managed Payments. metadata.kind "voice" tells the
+  // webhook what it is; the payment carries the account too, for Stripe's dashboard.
+  const session = await checkoutSession(env, {
     mode: "payment", customer, line_items: [{ price, quantity: 1 }], client_reference_id: user.id,
-    metadata: { kind: "topup" }, payment_intent_data: { metadata: { user_id: user.id } },
+    metadata: { kind: "voice" }, payment_intent_data: { metadata: { user_id: user.id } },
     integration_identifier: INTEGRATION_ID,
     ...(env.STRIPE_MANAGED_PAYMENTS === "1" ? { managed_payments: { enabled: true } } : {}),
-    success_url: `${origin}/plans?topup=done#topup`, cancel_url: `${origin}/plans#topup`,
+    success_url: `${origin}/plans?voicepack=done#voicepack`, cancel_url: `${origin}/plans#voicepack`,
   });
   return { url: session.url };
 }
 
-// The account's Stripe customer, made the first time they open checkout. The idempotency key gives a double click
-// (two checkouts at once) the same customer.
+// A Checkout page that asks for the Terms (consent_collection: a required, unticked box), for a plan or a pack. The
+// Terms (public/terms.html "Starting right away") say that starting now ends the EU and UK 14-day right of
+// withdrawal, as far as the law allows: Managed Payments shows Link's standard payment terms but asks nothing of the
+// kind itself, and it refuses custom_text, so the box has Stripe's own words and links the Terms of service URL in the
+// Dashboard's public details (Mike sets it: https://loreforeverwow.com/terms). Until that URL is set Stripe refuses
+// the box; checkout then goes on without it, logged, so buying never breaks over it.
+async function checkoutSession(env, params) {
+  try {
+    return await stripe(env, "POST", "checkout/sessions", { ...params, consent_collection: { terms_of_service: "required" } });
+  } catch (e) {
+    if (e.status !== 400 || !/terms of service/i.test(e.message)) throw e;
+    console.warn("billing: Checkout can't ask for the Terms until Stripe's public details have a Terms of service URL");
+    return stripe(env, "POST", "checkout/sessions", params);
+  }
+}
+
 // Closes the customer's plan checkout pages that are still open (best effort: logged when Stripe can't be reached).
 async function closeOpenCheckouts(env, customer) {
   try {
@@ -533,6 +986,15 @@ async function closeOpenCheckouts(env, customer) {
   } catch (e) { console.warn(`billing: couldn't close earlier checkouts for ${customer}: ${e?.message || e}`); }
 }
 
+// The customer's subscriptions that still give a plan (a status in ACTIVE), oldest first, as Stripe has them now.
+async function liveSubscriptions(env, customer) {
+  const list = await stripe(env, "GET", "subscriptions", { customer, status: "all", limit: 20 });
+  return (list?.data || []).filter(s => ACTIVE.includes(s.status))
+    .sort((a, b) => (a.created || 0) - (b.created || 0) || (a.id < b.id ? -1 : 1));
+}
+
+// The account's Stripe customer, made the first time they open checkout. The idempotency key gives a double click
+// (two checkouts at once) the same customer.
 async function newCustomer(env, user) {
   const customer = await stripe(env, "POST", "customers", { email: user.email, metadata: { user_id: user.id } },
     { idempotencyKey: `customer-${user.id}` });
@@ -567,11 +1029,239 @@ export async function cancelPlan(env, userId) {
   try {
     const list = await stripe(env, "GET", "subscriptions", { customer: row.customer_id, status: "all", limit: 100 });
     for (const s of list?.data || [])
-      if (!["canceled", "incomplete_expired"].includes(s.status))
-        await stripe(env, "DELETE", `subscriptions/${encodeURIComponent(s.id)}`);
+      if (!["canceled", "incomplete_expired"].includes(s.status)) await cancelNow(env, s);
   } catch (e) {
     throw Object.assign(new Error(`couldn't cancel ${row.customer_id}'s plan: ${e?.message || e}`), { billing: true });
   }
+}
+
+// Ends a subscription now, without a refund or a credit for the rest of its period (a waiting downgrade's schedule
+// goes first). key: an idempotency key, for a webhook that may run twice.
+async function cancelNow(env, subscription, key) {
+  if (idOf(subscription.schedule)) await releaseSchedule(env, idOf(subscription.schedule));
+  return stripe(env, "DELETE", `subscriptions/${encodeURIComponent(subscription.id)}`, {}, key ? { idempotencyKey: key } : {});
+}
+
+// Lets go of a subscription schedule (a downgrade waiting for the renewal): the subscription carries on as it is now.
+// One that's already let go of, or done, is left as it is.
+async function releaseSchedule(env, id) {
+  try { await stripe(env, "POST", `subscription_schedules/${encodeURIComponent(id)}/release`); }
+  catch (e) { if (e.status !== 400) throw e; }
+}
+
+// ---- Switching plans ----
+//
+// On /plans (POST /api/billing/change; the billing portal offers no plan changes, scripts/stripe-setup.mjs): a player
+// with a plan picks another, reads what happens in plain words, and confirms. Upgrade: now, and charged now: Stripe's
+// proration for the rest of the period, always_invoice, so nothing is left as pending invoice items for the renewal
+// (where cancelling first would have kept the difference unpaid). What the confirm says is Stripe's own preview of that
+// invoice, with the proration date the change then uses, so it's what's charged. If the card needs another step or
+// fails, the change waits for the payment (pending_if_incomplete) and the player is sent to Stripe's page for that
+// invoice. Downgrade: at the renewal, with nothing refunded (a subscription schedule: this period on the plan they
+// have, then the lower one). Keep: undoes a waiting downgrade or a cancellation, with nothing charged. While a payment
+// is failing (past_due) only an upgrade waits: the card comes first.
+//
+// Safe to click twice or from two tabs: a confirm holds a lock on the account (billing_locks) while it runs, reads the
+// subscription from Stripe, not D1, says so when it isn't what the player saw (`from`), and its Stripe calls carry an
+// idempotency key from the quote it confirms, so a retried call can't charge twice.
+//
+// changePlan: {preview: {kind ("upgrade" | "downgrade" | "keep"), plan, from, text, amount (an upgrade's, US cents),
+// quote}}, {done: true, text}, {url} (Stripe's page to finish an upgrade's payment), or {error, reload (the page should
+// load the plans again), stale (a new preview after an old quote)}.
+const QUOTE_MINUTES = 30;
+const money = cents => `$${(cents / 100).toFixed(2)}`;
+const dayOf = seconds => new Date(seconds * 1000).toLocaleDateString("en-US", { month: "long", day: "numeric",
+  timeZone: "UTC" });
+const rankOf = id => PAID.indexOf(id);
+
+export async function changePlan(env, user, planId, { confirm = false, from = null, quote = null } = {}) {
+  await setupBilling(env);
+  if (!PAID.includes(planId)) return { error: "That plan isn't open yet." };
+  const row = await entitlement(env, user.id);
+  if (!row?.customer_id) return { error: "There's no plan on this account to switch yet.", reload: true };
+  const lock = confirm ? await lockChange(env, user.id) : "preview";
+  if (!lock) return { error: "Your last change is still going through. One moment.", reload: true };
+  try {
+    const [sub] = await liveSubscriptions(env, row.customer_id);
+    if (!sub) return { error: "That plan has ended. Choose a plan to start a new one.", reload: true };
+    const state = await subscriptionState(env, sub);
+    if (!state.plan) return { error: "That plan can't be switched here. Ask us on Discord." };
+    if (from && from !== state.plan) {
+      await storeSubscription(env, user.id, sub);
+      return { error: "Your plan changed in another tab. Here's how it stands now.", reload: true };
+    }
+    if (planId !== state.plan && !sellablePlans(env).includes(planId)) return { error: "That plan isn't open yet." };
+    const kind = planId === state.plan ? keepPlan : rankOf(planId) > rankOf(state.plan) ? upgradePlan : downgradePlan;
+    const out = await kind(env, user, sub, state, planId, { confirm, quote });
+    // What Stripe has now, in D1 at once, so the page shows it without waiting for the webhook.
+    if (confirm && (out.done || out.url)) await storeSubscription(env, user.id, await stripe(env, "GET", `subscriptions/${sub.id}`));
+    return out;
+  } finally {
+    if (confirm) await env.DB.prepare("DELETE FROM billing_locks WHERE user_id = ? AND until = ?").bind(user.id, lock).run();
+  }
+}
+
+// The lock a confirm holds for 30 seconds at most (a request cut off can't keep it): its `until`, or null while
+// another holds it.
+async function lockChange(env, userId, now = Date.now()) {
+  const until = iso(now + 30e3);
+  const res = await env.DB.prepare("INSERT INTO billing_locks (user_id, until) VALUES (?, ?) ON CONFLICT (user_id) " +
+    "DO UPDATE SET until = excluded.until WHERE billing_locks.until < ?").bind(userId, until, iso(now)).run();
+  return res.meta.changes ? until : null;
+}
+
+// What a subscription is now: {plan (the one billed), item, ends (unix seconds), schedule (a waiting change's, or
+// null), next ({plan, at}, a downgrade waiting for the renewal), cancelling}.
+async function subscriptionState(env, sub) {
+  const item = sub.items?.data?.[0];
+  const plan = planOfPrice(item?.price);
+  const schedule = await scheduleOf(env, sub);
+  return { plan: PAID.includes(plan) ? plan : null, item, ends: item?.current_period_end ?? sub.current_period_end,
+           schedule, next: nextOf(schedule, plan), cancelling: Boolean(sub.cancel_at_period_end || sub.cancel_at) };
+}
+
+// A subscription's schedule that's still to run (active or not started), with its phases' prices, or null.
+async function scheduleOf(env, sub) {
+  const id = idOf(sub.schedule);
+  if (!id) return null;
+  const schedule = await stripe(env, "GET", `subscription_schedules/${encodeURIComponent(id)}`, { expand: ["phases.items.price"] });
+  return ["active", "not_started"].includes(schedule?.status) ? schedule : null;
+}
+
+// The plan a schedule changes to after its current phase ({plan, at: ISO}), or null when it changes nothing.
+function nextOf(schedule, plan) {
+  const end = schedule?.current_phase?.end_date;
+  const next = end ? (schedule.phases || []).find(p => p.start_date >= end) : null;
+  const to = planOfPrice(next?.items?.[0]?.price);
+  return PAID.includes(to) && to !== plan ? { plan: to, at: iso(next.start_date * 1000) } : null;
+}
+
+// The plan a Stripe price is for: by its lookup key, or, for an older price whose key moved to a newer one
+// (scripts/stripe-setup.mjs), by its product (lore_forever_<plan>).
+function planOfPrice(price) {
+  const byKey = String(price?.lookup_key || "").replace(/_(monthly|yearly)$/, "");
+  return PAID.includes(byKey) ? byKey : String(idOf(price?.product) || "").replace(/^lore_forever_/, "");
+}
+
+const renewsLine = (planId, state) => `It renews on ${dayOf(state.ends)} at ${money(PLANS[planId].monthly)} a month.`;
+
+async function keepPlan(env, user, sub, state, planId, { confirm }) {
+  const name = PLANS[planId].name;
+  if (!state.next && !state.cancelling) return { done: true, text: `${name} is already your plan. ${renewsLine(planId, state)}` };
+  if (!confirm) return { preview: { kind: "keep", plan: planId, from: state.plan,
+    text: `You keep ${name}. ${renewsLine(planId, state)}` } };
+  if (state.schedule) await releaseSchedule(env, state.schedule.id);
+  if (state.cancelling) await stripe(env, "POST", `subscriptions/${sub.id}`, { cancel_at_period_end: false });
+  return { done: true, text: `You're keeping ${name}. ${renewsLine(planId, state)}` };
+}
+
+async function upgradePlan(env, user, sub, state, planId, { confirm, quote }) {
+  if (!["active", "trialing"].includes(sub.status))
+    return { error: "Your last payment didn't go through. Update your card under Manage billing, then switch." };
+  const price = await priceId(env, lookupKey(planId));
+  if (!price) throw new Error(`No Stripe price has the lookup key ${lookupKey(planId)}; run scripts/stripe-setup.mjs`);
+  const name = PLANS[planId].name;
+  // A Hero trial (the beta's "Keep Hero") ends now: the new plan's paid month starts today. The beta's 50% first
+  // month comes with an upgrade to Champion or Legend then, once per account (its coupon on this very invoice).
+  const trialing = sub.status === "trialing";
+  const coupon = launchOffer(env, planId) && !(await promoClaimed(env, user.id, "half")) ? LAUNCH_COUPONS[planId].id : null;
+  // The coupon goes on the new price's item (duration once: this change's invoice), the same in the preview and the
+  // change, so what's shown is what's charged.
+  const change = { items: [{ id: state.item.id, price, ...(coupon ? { discounts: [{ coupon }] } : {}) }],
+                   proration_behavior: "always_invoice", ...(trialing ? { trial_end: "now" } : {}) };
+  const q = confirm ? await readQuote(env, quote, { u: user.id, s: sub.id, f: state.plan, t: planId, c: coupon }) : null;
+  if (!q) {
+    // Stripe's own invoice for the change, made now: what the confirm says is what's charged.
+    const preview = await stripe(env, "POST", "invoices/create_preview", { customer: idOf(sub.customer),
+      subscription: sub.id, subscription_details: change });
+    const at = preview.parent?.subscription_details?.subscription_proration_date ?? preview.subscription_proration_date ?? null;
+    if (!Number.isFinite(at) && !trialing) throw new Error("Stripe's preview has no proration date");
+    const amount = preview.amount_due;
+    // When the month after this one is charged: the period's end, or a month from now after a trial.
+    const renews = Math.max(state.ends || 0, ...(preview.lines?.data || []).map(l => l.period?.end || 0));
+    const today = trialing ? `${coupon ? "your first month at 50% off" : "your first month"}`
+      : `${coupon ? "the rest of this month, at 50% off" : "the rest of this month"}`;
+    return { ...(confirm ? { stale: true } : {}), preview: { kind: "upgrade", plan: planId, from: state.plan, amount,
+      text: `${name} starts now. You'll pay ${money(amount)} today for ${today}, then ` +
+            `${money(PLANS[planId].monthly)} on ${dayOf(renews)}.`,
+      quote: await makeQuote(env, { u: user.id, s: sub.id, f: state.plan, t: planId, c: coupon, at, amount, renews }) } };
+  }
+  // A downgrade waiting for the renewal would undo this one then: it goes first.
+  if (state.schedule) await releaseSchedule(env, state.schedule.id);
+  let updated;
+  try {
+    updated = await stripe(env, "POST", `subscriptions/${sub.id}`, { ...change,
+      ...(Number.isFinite(q.at) ? { proration_date: q.at } : {}), payment_behavior: "pending_if_incomplete",
+      expand: ["latest_invoice"] }, { idempotencyKey: `lf-upgrade-${q.n}` });
+  } catch (e) {
+    if (e.status === 409) return { error: "Your last change is still going through. One moment.", reload: true };
+    throw e;
+  }
+  const invoice = updated.latest_invoice;
+  if (updated.pending_update) {
+    // The card needs another step, or was declined: the change waits for this invoice to be paid.
+    if (invoice?.hosted_invoice_url) return { url: invoice.hosted_invoice_url };
+    return { error: `The payment didn't go through, so you're still on ${PLANS[state.plan].name}. Update your card ` +
+                    "under Manage billing, then try again." };
+  }
+  if (coupon) {
+    await promoClaim(env, user.id, "half", sub.id);
+    await stripe(env, "POST", `subscriptions/${sub.id}`, { metadata: { launch: "half" } });
+  }
+  if (state.cancelling) await stripe(env, "POST", `subscriptions/${sub.id}`, { cancel_at_period_end: false });
+  const paid = invoice?.amount_paid ?? q.amount;
+  return { done: true, charged: paid, invoice: invoice?.id,
+           text: `You're on ${name} now. You paid ${money(paid)} today, then ${money(PLANS[planId].monthly)} on ` +
+                 `${dayOf(q.renews || state.ends)}.` };
+}
+
+async function downgradePlan(env, user, sub, state, planId, { confirm, quote }) {
+  const name = PLANS[planId].name;
+  const text = `You keep ${PLANS[state.plan].name} until ${dayOf(state.ends)}, then ${name} at ` +
+               `${money(PLANS[planId].monthly)} a month.`;
+  if (state.next?.plan === planId && !state.cancelling) return { done: true, text };
+  const q = confirm ? await readQuote(env, quote, { u: user.id, s: sub.id, f: state.plan, t: planId }) : null;
+  if (!q) return { ...(confirm ? { stale: true } : {}), preview: { kind: "downgrade", plan: planId, from: state.plan,
+    text, quote: await makeQuote(env, { u: user.id, s: sub.id, f: state.plan, t: planId }) } };
+  const price = await priceId(env, lookupKey(planId));
+  if (!price) throw new Error(`No Stripe price has the lookup key ${lookupKey(planId)}; run scripts/stripe-setup.mjs`);
+  if (state.cancelling) await stripe(env, "POST", `subscriptions/${sub.id}`, { cancel_at_period_end: false });
+  if (state.schedule) await releaseSchedule(env, state.schedule.id);
+  // This period on the plan they have, then the lower one; released after it, so the subscription carries on by
+  // itself. Nothing is prorated either way. A discount the subscription has (a promotion code) stays on both.
+  const schedule = await stripe(env, "POST", "subscription_schedules", { from_subscription: sub.id },
+    { idempotencyKey: `lf-downgrade-${q.n}` });
+  const now = schedule.phases?.[0] || {};
+  const discounts = (now.discounts || []).map(d => d.discount ? { discount: idOf(d.discount) } : { coupon: idOf(d.coupon) });
+  await stripe(env, "POST", `subscription_schedules/${schedule.id}`, { end_behavior: "release", proration_behavior: "none",
+    phases: [{ items: [{ price: state.item.price.id, quantity: 1 }], start_date: now.start_date, end_date: state.ends,
+               proration_behavior: "none", discounts },
+             { items: [{ price, quantity: 1 }], duration: { interval: "month", interval_count: 1 },
+               proration_behavior: "none", discounts }] },
+    { idempotencyKey: `lf-downgrade-phases-${q.n}` });
+  return { done: true, text };
+}
+
+// A quote: what a preview showed (u: the account, s: the subscription, f and t: from and to, at: the proration date,
+// amount), signed with a key only the site has, so a confirm uses exactly that (a later proration date would charge
+// less). Good for QUOTE_MINUTES; n: its own random id, for Stripe's idempotency keys.
+async function quoteSign(env, body) {
+  const key = await crypto.subtle.importKey("raw", new TextEncoder().encode(`quote:${env.STRIPE_SECRET_KEY}`),
+    { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  return hex(await crypto.subtle.sign("HMAC", key, new TextEncoder().encode(body)));
+}
+async function makeQuote(env, fields) {
+  const body = btoa(JSON.stringify({ ...fields, n: hex(crypto.getRandomValues(new Uint8Array(12))), iat: Date.now() }));
+  return `${body}.${await quoteSign(env, body)}`;
+}
+// The quote's fields when it's ours, fresh, and for this very change (want), else null.
+async function readQuote(env, quote, want) {
+  const [body, sig] = String(quote || "").split(".");
+  if (!body || !sig || !same(sig, await quoteSign(env, body))) return null;
+  let q;
+  try { q = JSON.parse(atob(body)); } catch (e) { return null; }
+  if (!(Date.now() - q.iat < QUOTE_MINUTES * 60e3)) return null;
+  return Object.entries(want).every(([k, v]) => q[k] === v) ? q : null;
 }
 
 // ---- The webhook ----
@@ -598,13 +1288,6 @@ export async function verifyWebhook(env, rawBody, signatureHeader, now = new Dat
   const expected = await Promise.all(secrets.map(async secret => hex(await crypto.subtle.sign("HMAC",
     await crypto.subtle.importKey("raw", new TextEncoder().encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]),
     signed))));
-  // Compared in constant time, so the answer's timing says nothing about how close a guess was.
-  const same = (s, want) => {
-    if (s.length !== want.length) return false;
-    let diff = 0;
-    for (let i = 0; i < s.length; i++) diff |= s.charCodeAt(i) ^ want.charCodeAt(i);
-    return diff === 0;
-  };
   if (!signatures.some(s => expected.some(want => same(s, want)))) return null;
   try {
     const event = JSON.parse(rawBody);
@@ -613,23 +1296,25 @@ export async function verifyWebhook(env, rawBody, signatureHeader, now = new Dat
 }
 
 // Applies a verified event once (a repeat of its id is skipped). Plan events fetch the subscription from Stripe and
-// store what it says now, so their order doesn't matter. A checkout in payment mode is a top-up, and a refund takes
-// one back. Other events are recorded and ignored. Throws when Stripe or D1 fails; the event is forgotten then, so
-// Stripe's retry gets another go.
+// store what it says now, so their order doesn't matter. A checkout in payment mode is a finest-voice pack. A refund
+// or a dispute (refunded, disputed): of a pack's payment, it takes that pack's replies back and nothing else; of a
+// plan's payment (an invoice's), the plan ends now (a refund only when it's the whole of the current period's own
+// payment; an earlier month's or an upgrade's is goodwill). Other events are
+// recorded and ignored. Throws when Stripe or D1 fails; the event is forgotten then, so Stripe's retry gets another go.
 export async function applyEvent(env, event) {
   await setupBilling(env);
   const fresh = await env.DB.prepare("INSERT OR IGNORE INTO billing_events (id, type, created) VALUES (?, ?, ?)")
     .bind(event.id, event.type, iso()).run();
   if (!fresh.meta.changes) return { skipped: "seen" };
-  if (!PLAN_EVENTS.includes(event.type) && !TOPUP_EVENTS.includes(event.type)) return { skipped: "recorded" };
+  if (!PLAN_EVENTS.includes(event.type) && !PACK_EVENTS.includes(event.type)) return { skipped: "recorded" };
   // A test-mode event reaching the live site (or the reverse) never credits anything.
   if (typeof event.livemode === "boolean" && event.livemode !== /^[sr]k_live_/.test(String(env.STRIPE_SECRET_KEY || "")))
     return { skipped: "other mode" };
   const object = event.data?.object || {};
   try {
-    if (event.type === "charge.refunded") return await refundTopup(env, object);
-    if (event.type === "charge.dispute.created") return await refundTopup(env, object, "disputed");
-    if (event.type.startsWith("checkout.session.") && object.mode === "payment") return await creditTopup(env, object);
+    if (event.type === "charge.refunded") return await refunded(env, object);
+    if (event.type === "charge.dispute.created") return await disputed(env, object);
+    if (event.type.startsWith("checkout.session.") && object.mode === "payment") return await creditPack(env, object);
     return await applySubscription(env, event);
   } catch (e) {
     await env.DB.prepare("DELETE FROM billing_events WHERE id = ?").bind(event.id).run();
@@ -669,13 +1354,11 @@ async function userFor(env, customerId, ...claimed) {
   return null;
 }
 
-async function storeSubscription(env, userId, subscription) {
+// Stores what a subscription (as Stripe has it now) gives the account. deduped: keepOldest already looked at Stripe.
+async function storeSubscription(env, userId, subscription, { deduped = false } = {}) {
   const item = subscription.items?.data?.[0];
   const key = String(item?.price?.lookup_key || "");
-  // By the price's lookup key, or, for an older price whose key moved to a newer one (scripts/stripe-setup.mjs), by
-  // its product (lore_forever_<plan>).
-  const byKey = key.replace(/_(monthly|yearly)$/, "");
-  const planId = PAID.includes(byKey) ? byKey : String(idOf(item?.price?.product) || "").replace(/^lore_forever_/, "");
+  const planId = planOfPrice(item?.price);
   const status = String(subscription.status || "");
   // Deleted, cancelled, unpaid and the like are the free plan; the row keeps its status for /admin.
   const plan = ACTIVE.includes(status) && PAID.includes(planId) ? planId : "free";
@@ -683,61 +1366,167 @@ async function storeSubscription(env, userId, subscription) {
   // Since API version 2025-03-31 the period is on the subscription's item; older versions have it on the subscription.
   const end = item?.current_period_end ?? subscription.current_period_end;
   const row = await entitlement(env, userId);
+  const other = row?.subscription_id && row.subscription_id !== subscription.id && paidNow(row);
   // An old subscription's late news (it was cancelled, say) never replaces a newer one that's still paid.
-  if (plan === "free" && row?.subscription_id && row.subscription_id !== subscription.id && paidNow(row))
-    return { skipped: "older subscription" };
+  if (plan === "free" && other) return { skipped: "older subscription" };
+  // Two live subscriptions (two checkout pages paid at once): the oldest stays, the others are cancelled and refunded,
+  // whichever's news came first.
+  if (plan !== "free" && other && !deduped) {
+    const kept = await keepOldest(env, idOf(subscription.customer) || row.customer_id);
+    return kept ? storeSubscription(env, userId, kept, { deduped: true }) : { skipped: "no live subscription" };
+  }
+  // A downgrade waiting for the renewal (changePlan): what it changes to, and when.
+  const next = plan === "free" ? null : nextOf(await scheduleOf(env, subscription), planId);
+  // The beta's offer it was made with (checkout's metadata.launch, or an upgrade's): the account has had it now.
+  const kind = subscription.metadata?.launch;
+  if (kind === "hero" || kind === "half") await promoClaim(env, userId, kind, subscription.id);
+  const promo = null;   // promo_champion_until: the old Champion-month promo, gone
   await env.DB.prepare(
     "INSERT INTO entitlements (user_id, customer_id, subscription_id, plan, interval, status, current_period_end, " +
-    "cancel_at_period_end, updated) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) ON CONFLICT (user_id) DO UPDATE SET " +
+    "cancel_at_period_end, promo_champion_until, next_plan, next_plan_at, updated) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) " +
+    "ON CONFLICT (user_id) DO UPDATE SET " +
     "customer_id = COALESCE(excluded.customer_id, entitlements.customer_id), subscription_id = excluded.subscription_id, " +
     "plan = excluded.plan, interval = excluded.interval, status = excluded.status, " +
     "current_period_end = excluded.current_period_end, cancel_at_period_end = excluded.cancel_at_period_end, " +
-    "updated = excluded.updated"
+    "promo_champion_until = excluded.promo_champion_until, next_plan = excluded.next_plan, " +
+    "next_plan_at = excluded.next_plan_at, updated = excluded.updated"
   ).bind(userId, idOf(subscription.customer), subscription.id, plan, interval, status,
          Number.isFinite(end) ? iso(end * 1000) : null, subscription.cancel_at_period_end || subscription.cancel_at ? 1 : 0,
-         iso()).run();
-  return { user: userId, plan, status };
+         promo, next?.plan ?? null, next?.at ?? null, iso()).run();
+  return { user: userId, plan, status, ...(next ? { next: next.plan } : {}) };
 }
 
-// A paid top-up checkout (completed, or its delayed payment succeeded): one pack for the account, keyed by the session's
-// id, so its events together credit it once. What's credited is what Stripe says about the session now, as for plans,
-// not what the event carried. A purchase past the month's TOPUP.monthMax (two checkouts opened at once) was paid for,
-// so it still credits, and is logged.
-async function creditTopup(env, sent) {
-  if (sent.metadata?.kind !== "topup" || typeof sent.id !== "string") return { skipped: "not a top-up" };
+// The beta promo's offers, once per account, ever: an offer of a kind ("hero", the trial; "half", a 50% first month)
+// is claimed by the first subscription that had it, by the account's one-way Google code (starterClaim), so it
+// outlives "Delete my account" as the starter's does; the free Hero month ("free") the same way (freeHeroMonth).
+const claimOf = async (env, userId, kind) => `${kind}:${(await starterClaim(env, userId)) || `user:${userId}`}`;
+async function promoClaim(env, userId, kind, subscriptionId) {
+  await env.DB.prepare("INSERT OR IGNORE INTO promo_claims (claim, subscription_id, created) VALUES (?, ?, ?)")
+    .bind(await claimOf(env, userId, kind), subscriptionId, iso()).run();
+}
+export async function promoClaimed(env, userId, kind) {
+  if (!kind) return true;
+  await setupBilling(env);
+  return Boolean(await env.DB.prepare("SELECT 1 AS y FROM promo_claims WHERE claim = ?")
+    .bind(await claimOf(env, userId, kind)).first());
+}
+
+// One subscription per account: of the customer's live ones, the oldest stays and the others are cancelled now and
+// their payments refunded in full (logged). The one kept, or null.
+async function keepOldest(env, customer) {
+  const [kept, ...extra] = await liveSubscriptions(env, customer);
+  for (const sub of extra) {
+    console.warn(`billing: ${customer} has a second plan, ${sub.id}; cancelling and refunding it`);
+    await cancelNow(env, sub, `lf-second-${sub.id}`);
+    const { data: invoices } = await stripe(env, "GET", "invoices", { subscription: sub.id, status: "paid", limit: 20 });
+    for (const invoice of invoices || []) {
+      const { data: payments } = await stripe(env, "GET", "invoice_payments", { invoice: invoice.id, limit: 10 });
+      for (const p of payments || []) {
+        const pi = idOf(p.payment?.payment_intent);
+        if (pi && p.status === "paid") await stripe(env, "POST", "refunds", { payment_intent: pi,
+          metadata: { reason: "second plan" } }, { idempotencyKey: `lf-second-refund-${pi}` });
+      }
+    }
+  }
+  return kept || null;
+}
+
+// charge.refunded: a pack's payment takes back that pack (refundPack, a partial refund too); the whole of the plan's
+// payment for its current period ends the plan now (endPlanFor). A refund of an earlier month's payment, or of an
+// upgrade's charge, is goodwill: the plan stays (Mike, 2026-10-14).
+async function refunded(env, charge) {
+  const pack = await refundPack(env, charge);
+  if (!pack.skipped || pack.skipped === "no payment") return pack;
+  if (!charge.refunded) return { skipped: "part of a payment" };
+  return endPlanFor(env, idOf(charge.payment_intent), "refunded");
+}
+
+// charge.dispute.created: a dispute of a pack's payment takes back that pack's replies, and only that; a dispute of a
+// plan's payment ends the plan now, and leaves the packs.
+async function disputed(env, dispute) {
+  const pack = await refundPack(env, dispute, "disputed");
+  if (!pack.skipped || pack.skipped === "no payment") return pack;
+  return endPlanFor(env, idOf(dispute.payment_intent), "disputed");
+}
+
+// The plan a payment paid for (its invoice's subscription) ends now, and the account is on the free plan. A payment
+// that's no plan's (a pack's, or one Stripe has no invoice for) changes nothing. A dispute counts whichever of the
+// plan's payments it is; a refund only the current period's own (the invoice that started or renewed into it:
+// billing_reason subscription_create or subscription_cycle, its line's period starting when the subscription's does).
+async function endPlanFor(env, paymentIntent, why) {
+  if (!paymentIntent) return { skipped: "no payment" };
+  const { data } = await stripe(env, "GET", "invoice_payments",
+    { payment: { type: "payment_intent", payment_intent: paymentIntent }, limit: 1 });
+  const invoiceId = idOf(data?.[0]?.invoice);
+  if (!invoiceId) return { skipped: "not a plan's payment" };
+  const invoice = await stripe(env, "GET", `invoices/${encodeURIComponent(invoiceId)}`);
+  const subscriptionId = idOf(invoice.parent?.subscription_details?.subscription ?? invoice.subscription);
+  if (!subscriptionId) return { skipped: "not a plan's payment" };
+  let sub = await stripe(env, "GET", `subscriptions/${encodeURIComponent(subscriptionId)}`);
+  // Only a subscription of one of our accounts is ended (one we don't know of is left as it is).
+  const userId = await userFor(env, idOf(sub.customer), sub.metadata?.user_id);
+  if (!userId) return { skipped: "no account" };
+  if (why === "refunded") {
+    const start = sub.items?.data?.[0]?.current_period_start ?? sub.current_period_start;
+    const period = (invoice.lines?.data || []).find(l => l.period)?.period;
+    const current = ["subscription_create", "subscription_cycle"].includes(invoice.billing_reason) &&
+      Number.isFinite(start) && period?.start === start;
+    if (!current) return { skipped: "goodwill refund", user: userId, invoice: invoiceId };
+  }
+  if (!["canceled", "incomplete_expired"].includes(sub.status)) sub = await cancelNow(env, sub, `lf-end-${subscriptionId}`);
+  await storeSubscription(env, userId, sub);
+  return { user: userId, ended: subscriptionId, why };
+}
+
+// A paid finest-voice pack checkout (checkout metadata.kind "voice"; completed, or its delayed payment succeeded): one
+// pack for the account, keyed by the session's id, so its events together credit it once. What's credited is what
+// Stripe says about the session now, as for plans, not what the event carried. A purchase past the month's
+// VOICE_PACK.monthMax (two checkouts opened at once) was paid for, so it still credits, and is logged. Any other
+// payment-mode checkout (an answer top-up from before they went) credits nothing. Stripe can send a refund or a
+// dispute of the payment before the checkout's own event (seconds before, in Mike's sandbox): the payment's charge is
+// read too, and a refunded or disputed one is kept as such, with no replies.
+async function creditPack(env, sent) {
+  if (sent.metadata?.kind !== "voice" || typeof sent.id !== "string") return { skipped: "not a pack" };
   const session = await stripe(env, "GET", `checkout/sessions/${encodeURIComponent(sent.id)}`);
-  if (session.mode !== "payment" || session.metadata?.kind !== "topup") return { skipped: "not a top-up" };
+  if (session.mode !== "payment" || session.metadata?.kind !== "voice") return { skipped: "not a pack" };
   if (session.payment_status !== "paid") return { skipped: "unpaid" };
   const userId = await userFor(env, idOf(session.customer), session.client_reference_id);
   if (!userId) return { skipped: "no account" };
-  const { boughtThisMonth } = await topupFor(env, userId);
+  const paymentIntent = idOf(session.payment_intent);
+  const charge = paymentIntent ? (await stripe(env, "GET", `payment_intents/${encodeURIComponent(paymentIntent)}`,
+    { expand: ["latest_charge"] }))?.latest_charge : null;
+  const status = charge?.disputed ? "disputed" : charge?.amount_refunded > 0 || charge?.refunded ? "refunded" : "active";
+  const bought = (await packsFor(env, userId)).voice.boughtThisMonth, size = VOICE_PACK.replies;
   const made = await env.DB.prepare(
-    "INSERT OR IGNORE INTO answer_packs (id, user_id, answers, remaining, payment_intent, created) VALUES (?, ?, ?, ?, ?, ?)"
-  ).bind(session.id, userId, TOPUP.answers, TOPUP.answers, idOf(session.payment_intent), iso()).run();
+    "INSERT OR IGNORE INTO answer_packs (id, user_id, kind, answers, remaining, payment_intent, status, created) " +
+    "VALUES (?, ?, 'voice', ?, ?, ?, ?, ?)"
+  ).bind(session.id, userId, size, status === "active" ? size : 0, paymentIntent, status, iso()).run();
   if (!made.meta.changes) return { skipped: "credited" };
-  if (boughtThisMonth >= TOPUP.monthMax)
-    console.warn(`billing: top-up ${session.id} is number ${boughtThisMonth + 1} this month for ${userId}; credited anyway`);
-  return { user: userId, topup: TOPUP.answers };
+  if (status !== "active") return { user: userId, voice: 0, [status]: paymentIntent };
+  if (bought >= VOICE_PACK.monthMax)
+    console.warn(`billing: voice pack ${session.id} is number ${bought + 1} this month for ${userId}; credited anyway`);
+  return { user: userId, voice: size };
 }
 
-// A refunded top-up payment (Stripe sends charge.refunded for a partial refund too), or a disputed one (a chargeback:
-// charge.dispute.created, with status "disputed"; security review L5): the pack's answers left go, and it's marked
-// so. A refund or dispute of a plan's payment matches no pack, and a starter, never bought, is never touched. A
-// disputed pack still counts as one of the month's top-ups (topupFor).
-async function refundTopup(env, charge, status = "refunded") {
+// A refunded finest-voice pack payment (Stripe sends charge.refunded for a partial refund too), or a disputed one (a
+// chargeback: charge.dispute.created, with status "disputed"; security review L5): that pack's replies left go, and
+// it's marked so; the account's other packs and its plan stay. A refund or dispute of a plan's payment matches no pack
+// (endPlanFor), and a starter, never bought, is never touched. A disputed pack still counts as one of the month's
+// (packsFor).
+async function refundPack(env, charge, status = "refunded") {
   const paymentIntent = idOf(charge.payment_intent);
   if (!paymentIntent) return { skipped: "no payment" };
   const res = await env.DB.prepare(
-    "UPDATE answer_packs SET remaining = 0, status = ? WHERE payment_intent = ? AND kind = 'topup'"
+    "UPDATE answer_packs SET remaining = 0, status = ? WHERE payment_intent = ? AND kind = 'voice'"
   ).bind(status, paymentIntent).run();
-  return res.meta.changes ? { [status]: paymentIntent } : { skipped: "not a top-up" };
+  return res.meta.changes ? { [status]: paymentIntent } : { skipped: "not a pack" };
 }
 
 // ---- /admin ----
 
 // For the Plans tile: accounts by plan and status, paying players, what they bring in a month (active subscriptions,
-// a yearly one as a twelfth, before Stripe's fees) and what paying players' live answers cost this month; and top-ups:
-// sold this month, answers bought and still unused, and what top-up answers cost this month.
+// before Stripe's fees) and what paying players' live answers cost this month; and
+// finest-voice packs: sold this month, replies bought and still unused, and what their replies cost this month.
 export async function billingReport(env, now = new Date()) {
   await setupBilling(env);
   const [{ results }, spend, packs] = await Promise.all([
@@ -747,7 +1536,7 @@ export async function billingReport(env, now = new Date()) {
                    "FROM answer_user_spend WHERE month = ?").bind(month(now)).first(),
     env.DB.prepare("SELECT COALESCE(SUM(substr(created, 1, 7) = ?), 0) AS sold, " +
                    "COALESCE(SUM(CASE WHEN status = 'active' THEN remaining ELSE 0 END), 0) AS unused FROM answer_packs " +
-                   "WHERE kind = 'topup'").bind(month(now)).first(),
+                   "WHERE kind = 'voice'").bind(month(now)).first(),
   ]);
   const counts = {};
   let paying = 0, cents = 0;
@@ -756,9 +1545,9 @@ export async function billingReport(env, now = new Date()) {
     counts[k] = { plan: r.plan, status: r.status, n: (counts[k]?.n || 0) + 1 };
     if (!paidNow(r, now)) continue;
     paying++;
-    if (r.status === "active") cents += r.interval === "year" ? PLANS[r.plan].yearly / 12 : PLANS[r.plan].monthly;
+    if (r.status === "active") cents += PLANS[r.plan].monthly;
   }
   return { on: billingOn(env), paying, counts: Object.values(counts), monthlyUsd: Math.round(cents) / 100,
            spend: { usd: (spend?.micro || 0) / 1e6, players: spend?.players || 0, calls: spend?.calls || 0 },
-           topups: { sold: packs?.sold || 0, unused: packs?.unused || 0, usd: (spend?.topup_micro || 0) / 1e6 } };
+           voicePacks: { sold: packs?.sold || 0, unused: packs?.unused || 0, usd: (spend?.topup_micro || 0) / 1e6 } };
 }

@@ -1,0 +1,113 @@
+{
+ "key": "quest:97942",
+ "type": "quest",
+ "name": "Camping 101: First Aid",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97942
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For hunters spending long periods tracking beasts far from civilization, pairing wilderness survival with First Aid allows them to tend to injuries without relying on town healers."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Camp life demands both sustenance and warmth, making basic culinary training essential for learning how to build the required campfire."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is byancie",
+    "byancie location",
+    "where is byancie"
+   ],
+   "answer": "Byancie is a teacher located in the settlement of Dolanaar on Teldrassil. She instructs adventurers who have shown proficiency in their medical skills on how to assemble specialized First Aid Kits for wilderness camping.",
+   "q": "Who is Byancie?"
+  },
+  {
+   "aliases": [
+    "what is first aid kit camp",
+    "how does first aid kit work",
+    "camping first aid kit"
+   ],
+   "answer": "A First Aid Kit is a specialized camping utility crafted by adventurers trained in medicine. When placed at an established campsite, it provides a dedicated station to treat wounds and offer vital healing out in the field.",
+   "q": "What is a camping First Aid Kit?"
+  },
+  {
+   "aliases": [
+    "can i camp in town",
+    "why camp outside town",
+    "camp rules"
+   ],
+   "answer": "Settlement residents and guards frown upon travelers pitching temporary campsites within city squares or settlement centers. Camps must be established out in the open wilderness away from town borders.",
+   "q": "Where can you set up a camp?"
+  },
+  {
+   "aliases": [
+    "why do i need campfire",
+    "cooking campfire camp",
+    "camp fire requirement"
+   ],
+   "answer": "A campfire is the core foundation of any wilderness encampment, providing heat, light, and safety. Adventurers typically learn how to kindle a basic campfire from culinary trainers and cooks.",
+   "q": "Why is a campfire required for a camp?"
+  },
+  {
+   "aliases": [
+    "why first aid for hunters",
+    "hunters healing"
+   ],
+   "answer": "Hunters routinely operate alone in remote reaches of the wilderness, far from established healers or templars. Understanding field triage and bandage craft ensures self-reliance when tracking game or surviving ambushes.",
+   "q": "Why is First Aid considered pragmatic for hunters?"
+  },
+  {
+   "aliases": [
+    "how to get first aid kit",
+    "learn first aid kit craft"
+   ],
+   "answer": "Adventurers must first demonstrate basic proficiency in the First Aid discipline, after which Byancie in Dolanaar can teach them the specific techniques needed to assemble a camping First Aid Kit.",
+   "q": "How do you learn to craft a camping First Aid Kit?"
+  }
+ ],
+ "keywords": [
+  "byancie",
+  "campfire",
+  "camping",
+  "dolanaar",
+  "field medic",
+  "first aid",
+  "first aid kit",
+  "hunter"
+ ],
+ "related": [
+  "subzone:dolanaar",
+  "topic:hunter"
+ ],
+ "sections": [
+  {
+   "body": "Venturing deep into the wilds carries constant hazard, from beast bites to jagged terrain. For rangers and field travelers, medical supplies cannot always wait for a return to town. Learning to assemble a dedicated First Aid Kit turns a simple roadside rest into a functional field station, ensuring that minor scrapes do not turn fatal under the open sky.",
+   "spoiler": 0,
+   "title": "Field Medicine in the Wilds"
+  },
+  {
+   "body": "Byancie, found among the shaded bowers of Dolanaar, instructs travelers skilled in triage on how to package medical supplies suitable for rough trail life. Setting up such gear requires respect for local settlements; townsfolk do not tolerate pitched tents and messy supplies in town centers, requiring campers to strike out into the forest before establishing their camp.",
+   "spoiler": 0,
+   "title": "Lessons in Dolanaar"
+  },
+  {
+   "body": "Every functional encampment begins with an open flame. Before setting down medical kits or bedding, adventurers must lay down a campfire for warmth and protection. Because building and tending a fire is foundational to field survival, trainers recommend consulting a cook to master the art of kindling before attempting to maintain a wilderness camp.",
+   "spoiler": 0,
+   "title": "The Hearth of the Camp"
+  }
+ ],
+ "summary": "Camping 101: First Aid introduces adventurers to wilderness survival by teaching them how to craft a field medical kit for their campsite. Instructed by Byancie in Dolanaar, it emphasizes self-reliance and practical triage far away from town clinics.",
+ "attribution": [
+  "In-game quest text: Camping 101: First Aid"
+ ]
+}

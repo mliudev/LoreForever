@@ -2,9 +2,10 @@
 // not a wall of features). The moments (lib/trails.js moments) by play day: one chapter a day, a day with fewer than
 // MIN_MOMENTS going in with the next. Each chapter gets a title (its main places), the road it took, one line told
 // from its facts (summary), its highlights (a level, a dungeon and the bosses there, new lands, quests, deaths...),
-// its pictures, and every moment folded inside it. The newest OPEN chapters are shown in full beside the road chart
-// (lib/roadchart.js, which lights up the chapter being read); older ones fold to a line each, so a long journey stays
-// a page you can read. Used by lib/profiles.js. Kept outside functions/ so Pages doesn't route it.
+// its pictures, and every moment folded inside it. The page reads newest first, back in time (Mike, 10/14): the newest
+// OPEN chapters are shown in full beside the road chart (lib/roadchart.js, which lights up the chapter being read),
+// then the older ones fold to a line each below them, so a long journey stays a page you can read. Within a chapter
+// the moments stay in the order they happened. Used by lib/profiles.js. Kept outside functions/ so Pages doesn't route it.
 //
 // Nothing here is written by a model: the lines are templates over the record's own facts, in English like the
 // rest of the page's own words (the story above it is the told part).
@@ -252,12 +253,12 @@ function visits(ms) {
   return out;
 }
 
-// The chapters for the page. matched: lib/trails.js timelinePictures (moment -> pictures beside it); picture(p, i): a
+// The chapters for the page, newest first: the open ones, then the earlier ones folded below them. matched: lib/trails.js timelinePictures (moment -> pictures beside it); picture(p, i): a
 // picture's link (lib/pictures.js pictureLink); map(c): the chapter on the chart (lib/roadchart.js chapterMap), or "";
 // lore: lib/trails.js lookups while the lore pages are on, else null.
 export function chaptersSection(chs, { lore = null, matched = new Map(), picture = () => "", map = () => "" } = {}) {
   if (!chs.length) return "";
-  const older = chs.slice(0, -OPEN), open = chs.slice(-OPEN);
+  const older = chs.slice(0, -OPEN).reverse(), open = chs.slice(-OPEN).reverse();
   const pics = c => c.ms.flatMap(m => matched.get(m) || []);
   const shots = c => {
     const all = pics(c);
@@ -288,7 +289,6 @@ export function chaptersSection(chs, { lore = null, matched = new Map(), picture
     </ol>
   </div>` : "";
   return `<section class="pf-chapters" id="chapters" aria-label="Chapters">
-  ${earlier}
   ${open.map(c => `<article class="pf-ch" id="ch-${c.n}" ${range(c)} aria-labelledby="ch-${c.n}-title">
     <header>${head(c, "h3")}
       ${route(c)}</header>
@@ -299,5 +299,6 @@ export function chaptersSection(chs, { lore = null, matched = new Map(), picture
       ${map(c) ? `<div class="pf-ch-map">${map(c)}</div>` : ""}
     </div>
   </article>`).join("\n  ")}
+  ${earlier}
   </section>`;
 }

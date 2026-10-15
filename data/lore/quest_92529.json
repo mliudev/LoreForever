@@ -1,0 +1,106 @@
+{
+ "key": "quest:92529",
+ "type": "quest",
+ "name": "Falaath Village",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92529
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "For the shen'dorei seeking to restore their bond with the winds, joining the faithful at Falaath Village represents an act of collective contrition to regain Al'Akir's lost favor."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "While shaman seek harmony with elemental spirits, the cultists devoted to the Windlord approach Al'Akir through penitence and religious devotion to reclaim the abandoned winds."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is falaath village quest",
+    "falaath village overview",
+    "falaath village quest"
+   ],
+   "answer": "Falaath Village is an introductory quest where recruits marked by Sania Silverstream travel from Shen'dar Village to report to Missionary Jasaan, seeking fellowship with faithful worshippers of the Windlord.",
+   "q": "What is the quest Falaath Village?"
+  },
+  {
+   "aliases": [
+    "who is missionary jasaan",
+    "jasaan lore",
+    "falaath missionary"
+   ],
+   "answer": "Missionary Jasaan is an acolyte stationed near the entrance to Falaath Village who welcomes new recruits sent by sister Sania Silverstream to bask in the blessings of Al'Akir.",
+   "q": "Who is Missionary Jasaan?"
+  },
+  {
+   "aliases": [
+    "who is sania silverstream",
+    "sania lore",
+    "sister sania"
+   ],
+   "answer": "Sania Silverstream is a member of the faithful in Shen'dar Village who directs prospective followers to Falaath Village and bestows the Mark of Akir upon new recruits.",
+   "q": "Who is Sania Silverstream?"
+  },
+  {
+   "aliases": [
+    "why worship alakir",
+    "windlord alakir worship",
+    "who is the windlord"
+   ],
+   "answer": "The followers believe their people grew complacent and prideful, taking the bounty of the winds for granted until the spirits abandoned them. They worship the Windlord Al'Akir through acts of contrition to regain the wind's blessing.",
+   "q": "Why are the shen'dorei worshipping Al'Akir?"
+  },
+  {
+   "aliases": [
+    "what is mark of akir",
+    "lost mark of akir",
+    "recruits mark"
+   ],
+   "answer": "The Mark of Akir is a sign bestowed by Sania Silverstream in Shen'dar Village to identify an initiate as a recruit to the faithful before they enter Falaath Village.",
+   "q": "What is the Mark of Akir?"
+  },
+  {
+   "aliases": [
+    "who are the shendorei",
+    "shen dorei lore"
+   ],
+   "answer": "The shen'dorei referenced by Sania are elves contending with spiritual stagnation after the spirits of the wind withdrew their favor, prompting some to seek atonement through elemental devotion.",
+   "q": "Who are the shen'dorei mentioned in the quest?"
+  }
+ ],
+ "keywords": [
+  "al'akir",
+  "falaath village",
+  "mark of akir",
+  "missionary jasaan",
+  "sania silverstream",
+  "shen'dar village",
+  "shen'dorei",
+  "windlord"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "In Shen'dar Village, Sania Silverstream laments that her people grew prideful, taking the bounty of the air for granted until the spirits of the wind abandoned them into stagnation. To remedy this fall from grace, penitent recruits are marked and sent to Falaath Village, seeking fellowship with fellow shen'dorei who believe that only acts of contrition can restore the wind's favor.",
+   "spoiler": 0,
+   "title": "Contrition for the Windlord"
+  },
+  {
+   "body": "Upon reaching the outskirts of Falaath Village bearing the Mark of Akir, initiates are greeted by Missionary Jasaan. Viewing the arrival of fresh acolytes as a sign of blessing from the four winds, Jasaan welcomes all who arrive seeking to bask in the elemental grace of Al'Akir.",
+   "spoiler": 0,
+   "title": "The Mission at Falaath"
+  }
+ ],
+ "summary": "Falaath Village is a gathering place for penitent shen'dorei seeking to win back the favor of the Windlord, Al'Akir. Marked recruits journey from Shen'dar Village to report to Missionary Jasaan and join their fellow faithful.",
+ "attribution": [
+  "In-game quest text: Falaath Village"
+ ]
+}

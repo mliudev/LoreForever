@@ -1,0 +1,111 @@
+{
+ "key": "quest:1505",
+ "type": "quest",
+ "name": "Veteran Uzzek",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1505
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Young warriors are sent to Uzzek to learn that brute force alone is not enough, and that true strength comes from being a dedicated student of combat."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Horde honors martial prowess above all, relying on experienced battle veterans stationed at frontier outposts to mentor the next generation."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is uzzek",
+    "uzzek lore",
+    "who is the veteran"
+   ],
+   "answer": "Uzzek is a hardened Horde battle veteran who instructs young warriors in combat. Having survived countless engagements, he now passes down his hard-earned martial wisdom from his camp near the frontier of Durotar and the Barrens.",
+   "q": "Who is Veteran Uzzek?"
+  },
+  {
+   "aliases": [
+    "where is uzzek",
+    "uzzek location",
+    "find uzzek"
+   ],
+   "answer": "Uzzek is located south of Far Watch Post, the orc garrison positioned along the border between Durotar and the Barrens to the east.",
+   "q": "Where can Uzzek be found?"
+  },
+  {
+   "aliases": [
+    "what is the far watch post",
+    "far watch post purpose"
+   ],
+   "answer": "Far Watch Post is an orc garrison marking the eastern frontier of the Barrens, guarding the crossing from Durotar and serving as a defensive station for the Horde.",
+   "q": "What is Far Watch Post?"
+  },
+  {
+   "aliases": [
+    "why visit uzzek",
+    "what does uzzek teach",
+    "warrior instruction"
+   ],
+   "answer": "Aspiring warriors seek out Uzzek for combat instruction. Within the Horde, while strength is unquestioned, the truly great warriors must also master the discipline of study and martial technique.",
+   "q": "Why are young warriors sent to Uzzek?"
+  },
+  {
+   "aliases": [
+    "what happens when you speak to uzzek",
+    "uzzek quest turn in"
+   ],
+   "answer": "When arriving at his post, Uzzek greets the young warrior warmly, ready to begin evaluating their commitment and teaching them the ways of war.",
+   "q": "What does Uzzek say when you arrive?"
+  },
+  {
+   "aliases": [
+    "who honors warriors",
+    "horde warrior culture"
+   ],
+   "answer": "The Horde reveres its warriors for their undeniable strength and martial devotion, but cultural tradition emphasizes that genuine mastery requires discipline and learning from seasoned veterans.",
+   "q": "How does the Horde view its warriors?"
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "combat instruction",
+  "durotar",
+  "far watch post",
+  "horde",
+  "uzzek",
+  "veteran uzzek",
+  "warrior"
+ ],
+ "related": [
+  "npc:uzzek",
+  "subzone:far-watch-post",
+  "zone:barrens",
+  "zone:durotar",
+  "topic:warrior",
+  "topic:horde"
+ ],
+ "sections": [
+  {
+   "body": "In the culture of the Horde, martial strength is unquestioned and revered above all else. Yet brute force alone does not make a champion. Seasoned commanders know that the greatest warriors are also humble students of the craft, willing to hone their instincts through discipline and study. Aspiring fighters ready to advance beyond basic training are directed to seek out those who have survived the crucible of war.",
+   "spoiler": 0,
+   "title": "The Path of the Warrior"
+  },
+  {
+   "body": "To receive advanced combat guidance, young fighters travel to the arid borderlands between Durotar and the Barrens. Just south of Far Watch Post, the fortified orc garrison watching the eastern frontier, resides Uzzek. A veteran of countless bloody conflicts, Uzzek now dedicates his years to mentoring promising new recruits in the vital arts of combat and tactical survival.",
+   "spoiler": 0,
+   "title": "The Veteran at the Border"
+  }
+ ],
+ "summary": "Veteran Uzzek is a Horde quest that sends promising young warriors to seek out a seasoned combat instructor. Stationed just south of Far Watch Post between Durotar and the Barrens, Uzzek teaches new recruits that true martial greatness requires disciplined study as well as strength.",
+ "attribution": [
+  "In-game quest text: Veteran Uzzek"
+ ]
+}

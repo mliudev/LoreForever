@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v=20261014w">
 <script src="/header.js" defer></script>
 </head>
 <body>
@@ -27,6 +27,7 @@
     <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
+      <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
       <a class="nl" id="nav-download" href="/downloads">Download</a>
       <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
@@ -41,18 +42,19 @@
      lib/subscribers.js, lib/donate.js (lent voices), lib/contribute.js (shared game text), lib/clipreports.js,
      lib/usage.js (usage counts), lib/activity.js (sign-in days, downloads while signed in) and lib/checkins.js with
      companion/lore_companion/checkin.py (the companion's daily check-in), and lib/featureuse.js with
-     companion/lore_companion/usage.py (the anonymous usage counts that go with it), lib/billing.js (plans and
-     top-ups) and lib/willo-custom.js (Willo's style and tales). When something here changes, change the date
-     below. -->
+     companion/lore_companion/usage.py (the anonymous usage counts that go with it), lib/billing.js (plans and the
+     finest-voice pack) and lib/willo-custom.js (Willo's style and tales). When something here changes, change the
+     date below. -->
 <main class="wrap vp-page vp-doc">
   <h1>Privacy</h1>
-  <p class="vp-version">Updated 2026-10-12</p>
+  <p class="vp-version">Updated 2026-10-14</p>
   <p class="pitch">What this site keeps about you, why, who else handles it, and how to get rid of it. The add-on
     itself can't send anything anywhere: it runs inside your game, and you only share what you copy out of it.</p>
 
   <h2>Who runs it</h2>
   <p>Lore Forever is a fan project by Mike Liu. It isn't a company, and it shows no ads. The add-on is free; the only
-    things for sale are optional plans and top-ups with more of the companion's live answers.
+    things for sale are optional plans and packs for Willo, the companion: more of her live answers, and replies in her
+    finest voice.
     Questions about your data? Ask on <a href="/discord">Discord</a>. You can also delete your account yourself, any
     time, from <a href="/account">your account page</a>.</p>
   <!-- A contact email goes here once there is one, e.g. "or email ...". -->
@@ -60,7 +62,8 @@
   <h2>What we keep, and why</h2>
   <p>Downloading, playing, listening and liking need no account. If you only do those, we keep almost nothing.</p>
   <ul>
-    <li><strong>Your account</strong>, if you sign in: your Google account ID, email address and name, from Google
+    <li><strong>Your account</strong>, if you sign in: when you agreed to the Terms (by signing in) and which version,
+      and your Google account ID, email address and name, from Google
       sign-in. We use them to sign you in and to reach you about your feedback and what you contribute. A cookie
       keeps you signed in for 30 days. We also note the days you're signed in on the site (only the date, kept for 90
       days, and the latest one while you have the account), and when you download Lore Forever from this site while
@@ -80,20 +83,25 @@
       on your profile, and only while it's public. Anyone can report one; a picture several people report is
       hidden. A report keeps a scrambled (hashed) copy of the sender's IP address, salted for that picture alone, so
       each person counts once; it goes when the picture does.</li>
-    <li><strong>Questions you ask Willo</strong> in the companion app, if you've connected it to your account: your
+    <li><strong>Questions you ask Willo</strong> in the companion app, which you connect to your account (Willo needs
+      you signed in, and while you're signed out it does nothing): your
       question, what the companion knows about your game for it (your character's race, class and level, where you
       are, your target and quests, a little of your journey and the recent messages of that chat) go through our site
       to Google's API, which writes the answer. We don't keep the question or the answer; we count how many answers
-      your account had each day, for the daily limit, and what they cost us, added up over everyone (and, on a plan or
-      with a top-up, what your own answers cost this month, for its monthly limit). Your chats are
+      your account had each day, for the daily limit, and what they cost us, added up over everyone (and, on a plan,
+      what your own answers cost this month, for its monthly limit). Your chats are
       kept only on your PC. The one exception is when you tell Willo an answer was wrong, or show you're fed up with
       one, or press "Something's wrong": then we keep what you said, the question and answer it was about and the
       zone you were in, with a scrambled (hashed) form of your account so we can tell how many people noticed the same
       thing, to fix Willo's answers. We keep these 90 days, and they go when you delete your account; a correction we
       checked can become one of the facts Willo answers everyone with, without anything about you.</li>
     <li><strong>Talking to Willo</strong>, if you turn it on in the companion app: the microphone listens only while
-      you hold the talk key; your voice becomes text on your PC and never leaves it, and Willo's voice is made on your
-      PC too. The text of what you asked goes on like a typed question (above).</li>
+      you hold the talk key; your voice becomes text on your PC and never leaves it. The text of what you asked goes on
+      like a typed question (above). Willo's spoken replies (to questions you ask out loud: on the free plan, your first 30;
+      on a plan, her answers to them) are said by a voice service: the words of each reply (and of characters who answer you in person) go
+      through our site to it, and nothing else goes with them. Willo's own voice, made on your PC, only stands in
+      when that service is slow or down. We don't keep the words; we count your spoken replies (this month's, and on
+      the free plan your first 30) and what they cost us.</li>
     <li><strong>If you let Willo see the game</strong> (a separate choice in the companion app, off until you turn it
       on): one picture of the game window, only the game's own window, goes with that spoken question through our
       site to Google's API, which writes the answer. We don't keep it. A copy stays in your chat on your PC (the
@@ -146,9 +154,15 @@
     <li><strong>OpenRouter</strong> and <strong>Fish Audio</strong> record your profile's story in our narrators'
       voices, for the Listen button on your profile (earlier recordings were made by <strong>fal.ai</strong>): they
       get the story's text and nothing else.</li>
-    <li><strong>Stripe</strong> handles payments for plans and top-ups. We keep only your plan, your top-ups (answers
-      left and Stripe's payment id) and Stripe's customer id, never your card details. Delete my account also cancels
-      your plan.</li>
+    <li><strong>DeepInfra</strong> (Willo's studio voice) and <strong>Inworld</strong> (her finest voice) say Willo's
+      spoken replies, and <strong>Fish Audio</strong>, through <strong>OpenRouter</strong> with OpenRouter's data
+      collection turned off, says the replies of characters who answer you in person in a voice of their own: each gets
+      the words of the reply it says and nothing else.</li>
+    <li><strong>Stripe</strong> handles payments for plans and Willo's finest voice, and sells them as the merchant of
+      record through <strong>Link</strong>, which has your payment details under its own privacy policy. We keep only
+      your plan, your packs (what's left of them and Stripe's payment id) and Stripe's customer id, never your card
+      details. Delete my account also cancels your plan. A refund request you send through the feedback form is kept
+      like other feedback, with your account.</li>
     <li><strong>Discord</strong>: feedback, voice and translation submissions are posted to a private channel so we
       see them quickly. Never your email address or your signature.</li>
     <li><strong>GitHub</strong> and <strong>CurseForge</strong> host the downloads, so they see it when you
@@ -179,7 +193,9 @@
     <li><strong>Your email list sign-up</strong> isn't tied to your account: <a href="/unsubscribe">unsubscribe</a>
       to leave.</li>
     <li><strong>That your Google account had Willo's free starter answers</strong> stays, as a one-way code made from
-      your Google ID (not the ID itself), so deleting your account and signing in again doesn't bring them back.</li>
+      your Google ID (not the ID itself), so deleting your account and signing in again doesn't bring them back. The
+      same goes for the beta offer (a free Hero month, a Hero kept free to that month's end, and 50% off a first month): that
+      your account had one, and when its free month started, stays in the same way.</li>
   </ul>
 
   <h2>Your choices</h2>
@@ -189,7 +205,7 @@
       companion.</li>
     <li>Make your profile private again: untick Public on your account page.</li>
     <li>Stop the companion app updating your profile, and sending its usage counts with it: Disconnect it under
-      Connected apps on your account page, or turn off keeping your profile up to date in the companion. Turn off
+      Connected apps on your account page (that also signs Willo out), or turn off keeping your profile up to date in the companion. Turn off
       "Share anonymous usage counts" in the companion's settings to stop its daily check-in and the counts with it.</li>
     <li>Leave the email list: <a href="/unsubscribe">unsubscribe</a>.</li>
     <li>Anything else, like seeing what we hold about you or removing a voice you sent: ask on

@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v=20261014w">
 <script src="/header.js" defer></script>
 </head>
 <body>
@@ -27,6 +27,7 @@
     <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
+      <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
       <a class="nl" id="nav-download" href="/downloads">Download</a>
       <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
@@ -44,12 +45,27 @@
   <h1>What's new</h1>
   <p class="pitch">Lore Forever updates almost every day. Here's what each version brought, newest first.</p>
   <!-- whatsnew:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
-  <article class="wn-ver" id="v0-17-1" data-version="0.17.1">
-    <div class="wn-head"><h2>0.17.1</h2><span class="wn-date">October 14, 2026</span></div>
+  <article class="wn-ver" id="v0-18-0" data-version="0.18.0">
+    <div class="wn-head"><h2>0.18.0</h2><span class="wn-date">October 14, 2026</span></div>
     <div class="wn-hl">
-      <section class="wn-card"><h3>Fixed</h3><p>Lore Forever could leave a character without movement or camera keys; affected characters get their own keys back at next login.</p></section>
+      <section class="wn-card"><h3>Meet Willo</h3><p>Willo, Lore Forever's free companion app, now installs on her own.</p></section>
+      <section class="wn-card"><h3>Talk to anyone</h3><p>Target a character, from King Magni to a guard or an innkeeper, and they answer you themselves.</p></section>
+      <section class="wn-card"><h3>Chat with Willo in game</h3><p>Click Willo to chat right there, scroll back through it, and start a new chat from her bubble.</p></section>
     </div>
-    <details class="wn-all" open><summary>All 1 change in 0.17.1</summary>
+    <details class="wn-all" open><summary>All 7 changes in 0.18.0</summary>
+      <ul>
+        <li><strong>Meet Willo:</strong> Willo, Lore Forever's free companion app, now installs on her own. Ask her anything out loud or in her chat while you play. She knows your race and class, and her tips come in the same voice as her answers.</li>
+        <li><strong>Talk to anyone:</strong> target a character, from King Magni to a guard or an innkeeper, and they answer you themselves. Willo glows in their colors while they speak, and each remembers only what you said to them.</li>
+        <li><strong>Chat with Willo in game:</strong> click Willo to chat right there, scroll back through it, and start a new chat from her bubble.</li>
+        <li><strong>Willo's sky:</strong> live game info now shows as rings of stars over your minimap instead of colored squares.</li>
+        <li><strong>Willo's settings in one place:</strong> they sit together in Options, greyed out until Willo is installed.</li>
+        <li><strong>Fewer wrong answers:</strong> when Lore Forever only half-understands a question, it offers its closest matches, and "thanks" or "that's not right" get a friendly reply instead of a random story.</li>
+        <li><strong>Tidier chat and lore fixes:</strong> suggested questions sit right under the latest answer, and 17 lore entries are corrected.</li>
+      </ul>
+    </details>
+  </article>
+  <article class="wn-ver" id="v0-17-1" data-version="0.17.1">
+    <details class="wn-all"><summary><h2>0.17.1</h2><span class="wn-date">October 14, 2026</span><span class="wn-n">1 change</span></summary>
       <ul>
         <li><strong>Fixed:</strong> Lore Forever could leave a character without movement or camera keys; affected characters get their own keys back at next login.</li>
       </ul>

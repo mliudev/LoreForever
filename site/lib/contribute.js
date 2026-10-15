@@ -486,15 +486,15 @@ export async function markShipped(env, ids, release, now = nowSec()) {
 
 // /admin's Contributions panel: counts by status and the latest batches with who sent them.
 export async function adminView(env, now = nowSec()) {
-  const { results: counts } = await env.DB.prepare(
-    "SELECT status, COUNT(*) AS n FROM contrib_lines GROUP BY status").all();
-  const accepted = await env.DB.prepare(`SELECT COUNT(*) AS n FROM contrib_lines l WHERE ${ACCEPTED}`)
-    .bind(now - ACCEPT_AFTER).first("n");
-  const { results: batches } = await env.DB.prepare(
-    `SELECT b.upload_id, b.source, b.nick, b.n_new, b.n_known, b.n_confirmed, b.n_invalid, b.created_at, b.uploader,
-       b.rejected, b.version, b.locale, u.display_name, u.email,
-       (SELECT COUNT(*) FROM contrib_batches o WHERE o.uploader = b.uploader) AS batches_from
-     FROM contrib_batches b LEFT JOIN users u ON u.id = b.user_id ORDER BY b.created_at DESC LIMIT 100`).all();
+  const [{ results: counts }, accepted, { results: batches }] = await Promise.all([
+    env.DB.prepare("SELECT status, COUNT(*) AS n FROM contrib_lines GROUP BY status").all(),
+    env.DB.prepare(`SELECT COUNT(*) AS n FROM contrib_lines l WHERE ${ACCEPTED}`).bind(now - ACCEPT_AFTER).first("n"),
+    env.DB.prepare(
+      `SELECT b.upload_id, b.source, b.nick, b.n_new, b.n_known, b.n_confirmed, b.n_invalid, b.created_at, b.uploader,
+         b.rejected, b.version, b.locale, u.display_name, u.email,
+         (SELECT COUNT(*) FROM contrib_batches o WHERE o.uploader = b.uploader) AS batches_from
+       FROM contrib_batches b LEFT JOIN users u ON u.id = b.user_id ORDER BY b.created_at DESC LIMIT 100`).all(),
+  ]);
   return { counts: Object.fromEntries(counts.map(r => [r.status, r.n])), accepted: accepted || 0, batches };
 }
 

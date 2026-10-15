@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v=20261014w">
 <script src="/header.js" defer></script>
 </head>
 <body>
@@ -28,6 +28,7 @@
     <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
+      <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
       <a class="nl" id="nav-download" href="/downloads">Download</a>
       <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
@@ -37,49 +38,76 @@
   </nav>
 </header>
 
-<!-- Keep this page true to the code: cancelling and switching are Stripe's billing portal as scripts/stripe-setup.mjs
-     sets it up (cancel at the period's end, prorated switches), top-ups and their refunds are lib/billing.js (TOPUP,
-     refundTopup; the free starter is never bought, so never refunded), and Delete my account is lib/accounts.js
-     deleteUser with lib/billing.js cancelPlan. When something here changes, change the date below. -->
+<!-- Keep this page true to the code: cancelling is Stripe's billing portal as scripts/stripe-setup.mjs sets it up
+     (cancel at the period's end; the portal offers no plan changes), switching is /plans (lib/billing.js changePlan:
+     an upgrade now, charged now; a downgrade at the renewal, with no refund), a whole refund of the current month's
+     plan payment, or a dispute of any of a plan's payments, ends the plan (lib/billing.js endPlanFor; a refund of an
+     earlier month or of an upgrade's charge is goodwill and leaves it), the finest-voice pack and its refunds are lib/billing.js
+     (VOICE_PACK, refundPack: a refund or a dispute takes back what's left of that pack, and only that; the free starter
+     is never bought, so never refunded), and Delete my account is lib/accounts.js deleteUser with lib/billing.js
+     cancelPlan. Refunds are only ever made by us, by hand in Stripe's Dashboard (or by Stripe as the merchant of
+     record); nothing on the site refunds by itself. Policy (Mike, 2026-10-14: "Generally we don't want to refund
+     people"): no refunds on plans or packs, except billing mistakes and what the law requires; we decide case by case,
+     and answer disputes with evidence. When something here changes, change the date below. -->
 <main class="wrap vp-page vp-doc">
   <h1>Refunds and cancellations</h1>
-  <p class="vp-version">Updated 2026-10-12</p>
-  <p class="pitch">How to cancel a plan, and when you get money back. The short version: cancel any time, keep what
-    you've paid for, and if something went wrong, tell us and we'll make it right.</p>
+  <p class="vp-version">Updated 2026-10-14</p>
+  <p class="pitch">How cancelling works, and when money comes back. The short version: cancel any time and keep
+    what you've paid for until the end of your month. Payments aren't refunded, except for a billing mistake or where
+    the law says so.</p>
+  <p><strong>Plans</strong> are monthly. Cancelling stops the next renewal, and your plan runs to the end of the month
+    you've paid for, with no refund for the rest of it.</p>
+  <p><strong>Packs</strong> of Willo's finest voice are yours once you buy them, and aren't refunded.</p>
 
   <h2>Plans</h2>
   <ul>
     <li><strong>Cancel any time</strong> under Manage billing on <a href="/plans">Plans</a> (Stripe's billing portal).
-      Your plan stays until the end of the month or year you've paid for, then stops instead of renewing.</li>
-    <li><strong>No refunds for the rest of a period</strong> you've started, except where the law gives you one.</li>
-    <li><strong>In the EU and the UK</strong>, the law may give you 14 days to change your mind about a digital
-      service. Stripe sells plans as the merchant of record, and handles that.</li>
-    <li><strong>Switching plans</strong> is under Manage billing too. Stripe works out the difference for the time
-      left and puts it on your next bill.</li>
+      Your plan stays until the end of the month you've paid for, then stops instead of renewing. Changed your mind
+      before then? Keep on <a href="/plans">Plans</a> undoes it, with nothing charged.</li>
+    <li><strong>No refunds</strong> for a month you've started, or for the rest of it, except for a billing mistake
+      or where the law requires one (below).</li>
+    <li><strong>Beta offer</strong> (until November 3, 2026): the free Hero month needs no card and never charges. A
+      Hero kept during the beta is free until your free month ends (or for 30 days, without one); cancel before then
+      and nothing is charged, otherwise it's $4.99 a month from then on. A Champion or Legend first month at 50% off is a month like any other: cancel
+      and it runs to its end.</li>
+    <li><strong>Switching plans</strong> is on <a href="/plans">Plans</a>. A bigger plan starts right away: you pay
+      the difference for the rest of your month that day, and we show you the amount before you confirm. A smaller
+      plan starts when your month renews, with no refund for the rest of the month.</li>
+    <li><strong>If we do refund this month's payment for your plan in full</strong>, the plan ends then and your
+      account is on the free plan. A refund of an earlier month, or of what an upgrade cost, leaves your plan as it
+      is. A disputed payment ends the plan. Willo's style and your tales stay saved.</li>
   </ul>
-  <!-- Choice for Mike: no partial refunds for unused time, beyond what the law requires. Check whether Stripe's
-       Managed Payments checkout asks EU and UK buyers to give up the 14-day right in exchange for using the plan
-       straight away; if it does, the EU and UK line should say so. -->
 
-  <h2>Top-ups</h2>
+  <h2>Willo's finest voice</h2>
   <ul>
-    <li><strong>Unused top-ups</strong> can be refunded within 14 days of buying them: ask on
-      <a href="/discord">Discord</a>.</li>
-    <li><strong>Once you've used some</strong> of a top-up's answers, it can't be refunded.</li>
+    <li><strong>A pack is yours once you buy it</strong>, and isn't refunded, used or not, except for a billing
+      mistake or where the law requires one (below).</li>
+    <li><strong>If a pack's payment is refunded or disputed</strong>, that pack's replies left go, and nothing else:
+      your plan and your other packs stay.</li>
   </ul>
-  <!-- Choice for Mike: unused top-ups are refundable for 14 days; partly used ones aren't. Refunding one in Stripe
-       takes its answers back by itself (lib/billing.js refundTopup). -->
 
-  <h2>If something went wrong</h2>
-  <p>Charged twice, or paid for something that didn't work? Tell us on <a href="/discord">Discord</a> and we'll make
-    it right. Stripe sells plans and top-ups as the merchant of record, so it can also refund you.</p>
-  <!-- A contact email goes here once there is one, e.g. "or email ...". -->
+  <h2>When we do refund</h2>
+  <ul>
+    <li><strong>A billing mistake:</strong> charged twice, or charged the wrong amount or for the wrong thing. We put
+      it right.</li>
+    <li><strong>What the law requires.</strong> In the EU and the UK you may have 14 days to change your mind about a
+      digital service or digital content. When you start a plan or buy a pack, you ask for it to start right away,
+      and you agree that once it has started your 14-day right of withdrawal ends, as far as the law allows. Stripe
+      sells plans and packs as the merchant of record (through Link), and applies the law where you live.</li>
+    <li><strong>To ask,</strong> sign in and use the <a href="/feedback?kind=bug">feedback form</a> (choose
+      "Something's broken" and say it's about a payment); we reply to the email on your account. We look at each
+      request on its own. If a payment is disputed with your bank, we answer the dispute with what happened.</li>
+  </ul>
+  <!-- Mike: refund requests come in through the signed-in feedback form (functions/api/feedback.js: tied to the account,
+       posted to the private Discord channel), the site's only contact we own; a contact email goes here once there is
+       one. Stripe's Checkout asks for the Terms (consent_collection, lib/billing.js checkoutSession) once a Terms of
+       service URL is set in the Dashboard's public details. -->
 
   <h2>Deleting your account</h2>
-  <p>Delete my account, on <a href="/account">your account page</a>, ends your plan straight away, and any top-up
-    answers you have left go with it. There's no refund for the time or answers left, so if you only want to stop
-    paying, cancel under Manage billing instead.</p>
-  <!-- Choice for Mike: deleting an account ends its plan at once (lib/billing.js cancelPlan) and removes its top-ups,
+  <p>Delete my account, on <a href="/account">your account page</a>, ends your plan straight away, and any
+    finest-voice replies you have left go with it. There's no refund for the time or replies left, so if you only want
+    to stop paying, cancel under Manage billing instead.</p>
+  <!-- Choice for Mike: deleting an account ends its plan at once (lib/billing.js cancelPlan) and removes its packs,
        with no refund. The other way: refund the unused part when an account is deleted. -->
 
   <h2>Changes</h2>

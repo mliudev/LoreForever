@@ -1,0 +1,99 @@
+{
+ "key": "quest:93949",
+ "type": "quest",
+ "name": "Bugged",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93949
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "High Order mages uncovered the magical eavesdropping wards woven onto ordinary vermin, turning arcane analysis into counter-espionage."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what are skyhoppers",
+    "skyhopper bug"
+   ],
+   "answer": "Skyhoppers are winged pests native to the lowlands surrounding Valanaar that swarm in great numbers during their seasonal surge.",
+   "q": "What are skyhoppers?"
+  },
+  {
+   "aliases": [
+    "who enchanted the bugs",
+    "cult listening bugs",
+    "who is spying in valanaar"
+   ],
+   "answer": "Local cultists are suspected of capturing skyhoppers and placing magical listening spells on them to eavesdrop on the settlement.",
+   "q": "Who enchanted the insects?"
+  },
+  {
+   "aliases": [
+    "how to tell enchanted skyhoppers",
+    "which bugs are enchanted"
+   ],
+   "answer": "Enchanted skyhoppers look identical to ordinary insects to the naked eye. Only by exterminating the swarms can the magically imbued spies be uncovered and eliminated.",
+   "q": "How do you tell which skyhoppers are enchanted?"
+  },
+  {
+   "aliases": [
+    "where is bugged quest",
+    "valanaar bugs"
+   ],
+   "answer": "The infestation and espionage occur around Valanaar, an aerial city where seasonal swarms rise from the adjacent lowlands.",
+   "q": "Where does this take place?"
+  },
+  {
+   "aliases": [
+    "what spell is on the bugs",
+    "skyhopper enchantment"
+   ],
+   "answer": "High Order mages inspected slain insects and detected a specialized listening spell bound to them, effectively converting the creatures into roving surveillance tools.",
+   "q": "What kind of enchantment was placed on the skyhoppers?"
+  },
+  {
+   "aliases": [
+    "why kill skyhoppers",
+    "bugged quest goal"
+   ],
+   "answer": "Because enchanted skyhoppers cannot be distinguished visually from ordinary pests, clearing out the swarm is necessary to purge the cult's network of magical listening posts and protect Valanaar.",
+   "q": "Why do all the skyhoppers need to be exterminated?"
+  }
+ ],
+ "keywords": [
+  "bugged",
+  "cult",
+  "enchanted skyhoppers",
+  "high order",
+  "listening spell",
+  "skyhoppers",
+  "valanaar"
+ ],
+ "related": [
+  "topic:mage"
+ ],
+ "sections": [
+  {
+   "body": "During skyhopper season in the lowlands, swarms of native insects surge around the city of Valanaar. While usually regarded merely as a seasonal annoyance, an inspection by High Order mages revealed that several slain specimens carried sophisticated listening enchantments. A local cult has weaponized the insect swarm, transforming common lowland pests into inconspicuous surveillance tools to eavesdrop on the city.",
+   "spoiler": 0,
+   "title": "Eavesdroppers in the Swarm"
+  },
+  {
+   "body": "Because enchanted skyhoppers appear indistinguishable from their mundane brethren, protectors of Valanaar are forced to cull the swarms indiscriminately. Eradicating these bugs denies the hostile cult access to critical intelligence, cutting off magical surveillance and reinforcing the city's defenses against internal subversion.",
+   "spoiler": 0,
+   "title": "Clearing the Air"
+  }
+ ],
+ "summary": "Bugged is a quest in Valanaar where an influx of seasonal lowland insects turns out to be an espionage plot. High Order mages discovered that local cultists are weaving listening charms onto skyhoppers to spy on the settlement, requiring an extermination effort to weed out the enchanted pests.",
+ "attribution": [
+  "In-game quest text: Bugged"
+ ]
+}

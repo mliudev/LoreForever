@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v=20261014w">
 <script src="/header.js" defer></script>
 </head>
 <body>
@@ -28,6 +28,7 @@
     <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
+      <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
       <a class="nl" id="nav-download" href="/downloads">Download</a>
       <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
@@ -37,15 +38,16 @@
   </nav>
 </header>
 
-<!-- Keep this page true to the code: plans, prices and limits are lib/billing.js (PLANS, STARTER_ANSWERS, TOPUP,
-     DAY_MAX, SELLABLE), the rules for what players write are the check in lib/willo-custom.js, and Delete my account
-     is lib/accounts.js deleteUser with lib/billing.js cancelPlan.
+<!-- Keep this page true to the code: plans, prices and limits are lib/billing.js (PLANS, PLAN_VOICE, STARTER_ANSWERS,
+     VOICE_PACK, launchWindow, SELLABLE), the voice stepping down is lib/companion-voice.js, the
+     rules for what players write are the check in lib/willo-custom.js, and Delete my account is lib/accounts.js
+     deleteUser with lib/billing.js cancelPlan.
      Cancelling and refunds are on /refunds. When something here changes, change the date below. -->
 <main class="wrap vp-page vp-doc">
   <h1>Terms</h1>
-  <p class="vp-version">Updated 2026-10-12</p>
+  <p class="vp-version">Updated 2026-10-14</p>
   <p class="pitch">The rules for using Lore Forever: the add-on, this site, Willo the companion, and the optional
-    plans. By using them, or by buying a plan or a top-up, you agree to these terms.</p>
+    plans. By using them, or by buying a plan or a pack, you agree to these terms.</p>
 
   <h2>Who runs it</h2>
   <p>Lore Forever is a fan project by Mike Liu. It isn't affiliated with or endorsed by Blizzard Entertainment. World
@@ -56,35 +58,74 @@
 
   <h2>What's free</h2>
   <p>The add-on, every voice pack and every language, this site and player profiles are free, and they stay free.
-    Blizzard's rules say add-ons must be free. Willo, the companion, answers for free too: 30 answers to start, then
-    20 a day.</p>
+    Blizzard's rules say add-ons must be free. Willo, the companion, answers for free too: 20 answers a day plus 30 to
+    start. Your first 30 questions asked out loud are answered aloud; typed questions get text answers.</p>
+  <p>Willo needs your Lore Forever account: you sign in to use her, and while you're signed out she does nothing.</p>
 
   <h2>What's paid</h2>
-  <p>What's for sale is optional: plans that give Willo more answers a day and more it can do, and one-time top-ups
-    of more answers. A plan renews until you cancel it. Prices are in US dollars.</p>
+  <p>What's for sale is optional: plans that give Willo more answers, her voice when you ask out loud, and more she can do, and a
+    one-time pack of Willo's finest voice. A plan renews until you cancel it. Prices are in US dollars.</p>
   <ul>
-    <li><strong>Hero</strong>: $4.99 a month or $49.99 a year.</li>
-    <li><strong>Champion</strong>: $9.99 a month or $99.99 a year.</li>
-    <li><strong>Legend</strong>: $19.99 a month or $199.99 a year.</li>
-    <li><strong>Top-up</strong>: 300 live answers for $2.99, paid once. Top-up answers never expire, and they're used
-      after the day's answers from your plan run out. You can buy up to 3 a month.</li>
+    <li><strong>Hero</strong>: $4.99 a month. 900 answers a month, up to 100 a day, and when you ask out loud,
+      Willo answers in her studio voice.</li>
+    <li><strong>Champion</strong>: $9.99 a month. 1,900 answers a month, up to 200 a day, in Willo's studio voices: you
+      pick which.</li>
+    <li><strong>Legend</strong>: $19.99 a month. 4,000 answers a month, up to 300 a day, and Willo's finest voice for
+      your first 1,900 replies each month, then her studio voice; you pick which voice.</li>
+    <li><strong>Willo's finest voice</strong>: 400 replies in Willo's finest voice for $2.99, paid once, with any plan.
+      They never expire, they're used after your plan's own finest replies, and they add no answers. You can buy up
+      to 3 a month.</li>
   </ul>
-  <p>An account gets at most 200 live answers a day, plan, starter and top-ups together. What each plan includes is on
-    <a href="/plans">Plans</a>; a plan marked "Coming soon" there can't be bought yet. If free answers get very busy in
-    a month, the free plan's daily answers may drop until the month ends.</p>
-  <!-- Legend shows "Coming soon" until its features exist (lib/billing.js SELLABLE); its price is here so this page
-       needn't change when it opens, and so is its own daily number (lib/billing.js dayMax) when it does. -->
+  <p>A spoken voice can step down for a while: when a month's spoken replies would cost more than your plan brings,
+    or a voice service is slow or down, Willo answers in a simpler voice (her finest, then her studio voice, then her
+    own voice made on your PC) until that one is back. Your answers keep coming either way.</p>
+  <p>Answers aren't sold on their own: once your plan's answers for the day or the month are used, Willo answers
+    from the add-on's lore library until they come back. What each plan includes is on <a href="/plans">Plans</a>; a
+    plan marked "Coming soon" there can't be bought yet. If free answers get very busy in a month, the free plan's
+    daily answers may drop until the month ends.</p>
+
+  <h2>Beta offer</h2>
+  <p>From Willo's release until the end of the WoW Forever beta (November 3, 2026, 11:59 pm Pacific time; join by
+    then):</p>
+  <ul>
+    <li><strong>Hero is free for your first month.</strong> Every free account gets Hero at no cost, with no card
+      needed, for 30 days from the first time you sign in or use Willo during the beta, even when those 30 days run past the beta's
+      end. Then your account goes back to the free plan by itself; nothing is charged. <a href="/plans">Plans</a> and
+      your account page show the day it ends.</li>
+    <li><strong>Keep Hero</strong> during the beta: you add your card and Hero stays free until your free month ends
+      (or for 30 days from that day, if you don't have a free month running), so it's still one month free; Stripe's
+      checkout and Plans show the date. Then it's $4.99 a month until you cancel. Cancel before that date and nothing
+      is charged.</li>
+    <li><strong>Champion and Legend</strong> bought during the beta, or switched to then, are 50% off their first month
+      ($4.99 and $9.99), then their usual price.</li>
+  </ul>
+  <p>Each of these comes once per account, even if you delete your account and sign in again. If the free Hero month
+    gets very busy for us, free accounts may go back to the free plan's answers before their month ends.</p>
 
   <h2>Paying</h2>
   <ul>
     <li><strong>Checkout:</strong> payments go through Stripe, on Stripe's own pages. Stripe is the merchant of
-      record (Stripe Managed Payments): it takes the payment, handles sales tax and VAT, and sends your receipt. We
-      never see your card.</li>
+      record (Stripe Managed Payments, through Link): it takes the payment, handles sales tax and VAT, and sends your
+      receipt. We never see your card.</li>
+    <li><strong>Starting right away:</strong> when you start a plan or buy a pack of Willo's finest voice, and agree
+      to these Terms at checkout, you ask for it to start right away, and you agree that once it has started your
+      14-day right of withdrawal in the EU and the UK ends, as far as the law allows.</li>
     <li><strong>Prices</strong> include tax, so you pay what's listed.</li>
-    <li><strong>Renewal:</strong> a plan renews by itself each month or year until you cancel it.</li>
+    <li><strong>Renewal:</strong> plans are monthly, and a plan renews by itself each month until you cancel it.</li>
+    <li><strong>Switching:</strong> on <a href="/plans">Plans</a>. A bigger plan starts right away, and you pay the
+      difference for the rest of your month that day; we show you the amount before you confirm. A smaller plan starts
+      when your month renews, and nothing is refunded for the rest of the month.</li>
     <li><strong>Cancelling:</strong> any time, under Manage billing on <a href="/plans">Plans</a> (Stripe's billing
-      portal). Your plan stays until the end of the period you've paid for, then stops.</li>
-    <li><strong>Refunds:</strong> see <a href="/refunds">Refunds and cancellations</a>.</li>
+      portal). Your plan stays until the end of the month you've paid for, then stops. Until then, Keep on Plans undoes
+      it, with nothing charged.</li>
+    <li><strong>A failed payment:</strong> your plan stays while Stripe tries your card again. If it can't be paid,
+      the plan ends and your account is on the free plan.</li>
+    <li><strong>Refunds and disputes:</strong> if we refund this month's payment for a plan in full, or a payment for
+      it is disputed, the plan ends then; a refund of an earlier month, or of an upgrade's charge, leaves it as it is. A disputed payment for a pack of Willo's finest voice takes back that pack's replies. Willo's
+      style and your tales stay saved either way.</li>
+    <li><strong>Refunds:</strong> payments for plans and packs aren't refunded, except for a billing mistake (charged
+      twice, or the wrong amount) or where the law requires one. Ask through the <a href="/feedback?kind=bug">feedback
+      form</a>, signed in; we look at each request on its own. See <a href="/refunds">Refunds and cancellations</a>.</li>
   </ul>
   <!-- Mike: Stripe is the merchant of record only once Managed Payments is on in the Stripe Dashboard and the Pages
        variable STRIPE_MANAGED_PAYMENTS is "1" (lib/billing.js). -->
@@ -100,7 +141,7 @@
 
   <h2>What you write</h2>
   <p>On a plan, you can tell Willo how to talk to you, and write your own tales of the game's characters, on
-    <a href="/willo">Willo, your way</a>. We check what you write before Willo uses it. It must not be:</p>
+    <a href="/willo/style">Willo, your way</a>. We check what you write before Willo uses it. It must not be:</p>
   <ul>
     <li>sexual;</li>
     <li>hateful, or harassing anyone;</li>
@@ -114,7 +155,7 @@
   <h2>Your account</h2>
   <p>You can delete your account any time on <a href="/account">your account page</a>. Delete my account cancels any
     plan and removes your account's data, as <a href="/privacy">Privacy</a> says. <a href="/refunds">Refunds</a> says
-    what happens to time and answers you've paid for.</p>
+    what happens to time, answers and replies you've paid for.</p>
 
   <h2>Changes to these terms</h2>
   <p>If this page changes, the date at the top changes too.</p>

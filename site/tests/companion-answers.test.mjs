@@ -157,6 +157,8 @@ test("persona willo swaps only the companion's introduction; anything else keeps
   for (const n of [2, 3, 4]) assert.equal(system(n), system(0), "unknown personas are ignored, not refused");
   await ask(token, { persona: "willo", operation: "character" });
   assert.match(system(5), /Their companion Willo, a little wisp of light/);
+  // In step with answer.py CHARACTER_SYSTEM: no one hands out a quest the player hasn't taken up (Mike, 10/14).
+  assert.match(system(5), /current only if THE ADVENTURER carries it now.*Never give, offer or assign a task\./);
   assert.doesNotMatch(system(5), /\bSam\b/);
 });
 
@@ -173,6 +175,8 @@ test("spoken style shortens ordinary and character replies only", async () => {
   await ask(token, { style: "loud" });
   assert.deepEqual(calls.slice(2).map(c => c.body.generationConfig.maxOutputTokens), [2048, 512]);
   for (const n of [2, 3]) assert.doesNotMatch(system(n), /this answer out loud/);
+  // The character in front of them speaks in their people's dialect; the companion's own answers never do.
+  assert.deepEqual([0, 1, 2, 3].map(n => /Your people's voice: .*\n- Dwarf: /s.test(system(n))), [false, true, false, false]);
 });
 
 // A stand-in JPEG: the site checks only its FF D8 FF start. 149,997 bytes is 199,996 base64 characters, just under the cap.

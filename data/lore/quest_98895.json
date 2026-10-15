@@ -1,0 +1,113 @@
+{
+ "key": "quest:98895",
+ "type": "quest",
+ "name": "Darkspear Islands Clash",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98895
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance high command relies on champion volunteers to reinforce the front against the Darkspear Raiders and safeguard strategic positions in the islands."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Frontline combatants bear the brunt of the assault against fierce troll raiders, where martial discipline and battlefield valor turn the tide."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Holy warriors of the Alliance bring unwavering resolve to the violent clashes, answering the call to protect Alliance lives and repel hostile forces."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is darkspear islands clash",
+    "clash quest",
+    "darkspear islands battle"
+   ],
+   "answer": "Darkspear Islands Clash is a military call to arms issued by Alliance officers overseeing the war effort on the front lines. Alliance champions are tasked with engaging the Darkspear Raiders in battle and proving their contributions by recovering marks of honor from the fighting.",
+   "q": "What is Darkspear Islands Clash?"
+  },
+  {
+   "aliases": [
+    "who are darkspear raiders",
+    "darkspear raider enemy",
+    "who are we fighting in darkspear islands"
+   ],
+   "answer": "The Darkspear Raiders are troll warbands contesting control of the Darkspear Islands. Their aggressive pushes threaten Alliance footholds in the area, prompting high command to issue urgent calls for reinforcements.",
+   "q": "Who are the Darkspear Raiders?"
+  },
+  {
+   "aliases": [
+    "why alliance fighting darkspear islands",
+    "why fight here",
+    "alliance darkspear war"
+   ],
+   "answer": "The Alliance seeks to hold strategic territory in the Darkspear Islands and prevent the region from falling entirely under troll control. Losing ground would jeopardize Alliance influence and security across contested coastal waters.",
+   "q": "Why is the Alliance fighting on the Darkspear Islands?"
+  },
+  {
+   "aliases": [
+    "who gives darkspear islands clash",
+    "who takes darkspear marks of honor",
+    "alliance brigadier general location"
+   ],
+   "answer": "An Alliance Brigadier General stationed outside the battlegrounds oversees troop mobilization and receives proof of battlefield service from returning champions.",
+   "q": "Who issues and completes this mission?"
+  },
+  {
+   "aliases": [
+    "what are marks of honor",
+    "darkspear islands mark of honor",
+    "how to prove front line service"
+   ],
+   "answer": "Marks of Honor are military tokens awarded to combatants for valor and active participation on the frontline. Presenting three of these marks to an Alliance Brigadier General serves as definitive proof of your battlefield contributions.",
+   "q": "What are Darkspear Islands Marks of Honor?"
+  },
+  {
+   "aliases": [
+    "what happens if alliance loses darkspear islands",
+    "why urgent aid needed",
+    "losing darkspear islands"
+   ],
+   "answer": "Without rapid reinforcements, Alliance positions on the Darkspear Islands face complete collapse under the relentless pressure of the Darkspear Raiders. Securing the islands prevents hostile forces from cementing unchallenged dominance over the archipelago.",
+   "q": "What is at stake if the Alliance fails?"
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "battleground",
+  "brigadier general",
+  "darkspear islands",
+  "darkspear islands clash",
+  "darkspear raiders",
+  "marks of honor"
+ ],
+ "related": [
+  "zone:darkspearislands",
+  "topic:alliance"
+ ],
+ "sections": [
+  {
+   "body": "The struggle for control of the Darkspear Islands has erupted into open war between the Alliance and aggressive warbands of Darkspear Raiders. Alliance commanders warning that without urgent reinforcements, their foothold in the archipelago will be overwhelmed, have sounded a call to arms for capable champions to stem the hostile tide.",
+   "spoiler": 0,
+   "title": "A Contested Front"
+  },
+  {
+   "body": "Alliance leadership relies on proven combatants willing to step directly onto the front lines. To ensure discipline and recognize genuine heroism, commanders require warriors to bring back Darkspear Islands Marks of Honor as tangible proof of their combat service, honoring those who turn the tide of battle.",
+   "spoiler": 0,
+   "title": "Proof of Valor"
+  }
+ ],
+ "summary": "Darkspear Islands Clash is an Alliance military call to arms urging champions to defend vital ground against fierce Darkspear Raiders. Without immediate support on the front lines, the Alliance risks losing the contested archipelago entirely.",
+ "attribution": [
+  "In-game quest text: Darkspear Islands Clash"
+ ]
+}

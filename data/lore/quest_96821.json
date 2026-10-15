@@ -1,0 +1,106 @@
+{
+ "key": "quest:96821",
+ "type": "quest",
+ "name": "Legging It",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96821
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Orcish labor and supply lines depend heavily on peons, making route security vital for Horde construction and resource gathering."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Peons form the backbone of orcish settlements, and overseers rely on warriors to keep pathways clear of threats so work can continue."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is legging it",
+    "legging it quest info",
+    "legging it quest"
+   ],
+   "answer": "Legging It is a task undertaken to secure a southern transit route for labor crews. Threats along the road had intimidated local peons, halting their daily duties until an adventurer intervened to clear the way.",
+   "q": "What is Legging It?"
+  },
+  {
+   "aliases": [
+    "why were peons scared",
+    "peon fear",
+    "why peons stopped working"
+   ],
+   "answer": "The peons feared venturing southward due to active dangers along the road. Without protection or a cleared pathway, the workers refused to risk traveling to their assignments, bringing local operations to a standstill.",
+   "q": "Why were the peons afraid to travel south?"
+  },
+  {
+   "aliases": [
+    "what happens after legging it",
+    "legging it outcome",
+    "clearing path result"
+   ],
+   "answer": "With the southern route cleared and immediate dangers suppressed, the overseers are able to safely send the peon workforce back into the field to resume labor and resource gathering.",
+   "q": "What is accomplished by completing the task?"
+  },
+  {
+   "aliases": [
+    "who are the peons",
+    "peon role",
+    "what do peons do"
+   ],
+   "answer": "Peons are the basic labor force of the Horde, responsible for heavy lifting, lumber harvesting, mining, and constructing fortifications. Though essential to settlement operations, they are ill-suited for combat and readily retreat from danger.",
+   "q": "Who are the peons mentioned in the task?"
+  },
+  {
+   "aliases": [
+    "where does the path lead",
+    "southern path",
+    "heading south"
+   ],
+   "answer": "The path leads southward toward outlying work areas and resource deposits that require regular peon maintenance, though the journey had grown perilous enough to stop all traffic before the route was cleared.",
+   "q": "Where were the peons traveling?"
+  },
+  {
+   "aliases": [
+    "why do peons need protection",
+    "peon safety",
+    "guarding peons"
+   ],
+   "answer": "Peons lack formal military training and combat gear, making them vulnerable to wilderness predators and hostile forces. Overseers must rely on seasoned adventurers to eliminate perimeter threats and maintain safe working corridors.",
+   "q": "Why do peons require adventurers to clear their routes?"
+  }
+ ],
+ "keywords": [
+  "cleared the path",
+  "horde labor",
+  "legging it",
+  "overseer",
+  "peon labor",
+  "peons",
+  "southern path"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Legging It addresses a disruption in local labor operations where peons became too frightened to journey southward. Rather than performing their assigned tasks, the workers refused to risk travel along the road due to looming perils. By intervening to push back threats along the path, travelers restore enough security for overseers to send their crews back to work.",
+   "spoiler": 0,
+   "title": "Securing the Line"
+  },
+  {
+   "body": "Peons represent the backbone of Horde infrastructure, responsible for timber harvesting, quarrying, and building outposts. Because peons possess little martial prowess, even minor roadside predators or hostile scouts can freeze supply chains. Ensuring that transit corridors remain clear is essential for keeping settlements supplied and productive.",
+   "spoiler": 0,
+   "title": "Labor and Route Security"
+  }
+ ],
+ "summary": "Legging It is a quest focused on clearing a dangerous southern path to protect working peons. Threats along the roadway had frightened the labor force into halting their travels, stalling essential duties. By driving back the dangers, adventurers restore safe passage and enable the workforce to return to their assignments.",
+ "attribution": [
+  "In-game quest text: Legging It"
+ ]
+}

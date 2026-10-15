@@ -98,17 +98,25 @@ function Companion.Installed()
   return type(_G.LoreForeverJourneyData) == "table"
 end
 
--- Get Willo (LOR-459): players without the companion meet it in the panel's header and when the add-on has no answer.
--- Add-ons can't open web pages, so it's a link to copy: /willo goes to the Windows installer, whose full install
--- includes Willo. The free download only; never plans or prices (Blizzard's add-on policy). Options › Get Willo
--- button hides both.
+-- Get Willo (LOR-459): players without the companion meet it as one line in the chat when the add-on has no answer
+-- (UI.Ask, once a play session), in Options above the settings that need it, and with /lore willo. Add-ons can't open
+-- web pages, so it's a link to copy. The free download only; never plans, prices or sign-in (Blizzard's add-on policy,
+-- LOR-491). Options › Suggest Willo in the chat turns the chat line off.
 Companion.WILLO_URL = "loreforeverwow.com/willo"
--- Off until Willo launches: no Get Willo button, no-answer suggestion, /lore willo or Options checkbox. true brings
--- back all the entry points.
-Companion.OFFER_WILLO = false
+-- Off until Willo launches: no chat line, /lore willo, Suggest Willo checkbox or Options Willo section (that one still
+-- shows to players who have Willo). true brings back all the entry points.
+Companion.OFFER_WILLO = true
 
 function Companion.OfferWillo()
   return Companion.OFFER_WILLO and not Companion.Installed() and (LoreForeverDB and LoreForeverDB.settings or {}).getWillo ~= false
+end
+
+-- The chat line: true the first time in this play session that it may show, then never again until a /reload or the
+-- next login. Never with Willo installed or the option off.
+function Companion.SuggestWillo()
+  if Companion.suggested or not Companion.OfferWillo() then return false end
+  Companion.suggested = true
+  return true
 end
 
 local willo
@@ -130,7 +138,7 @@ local function createWillo()
   hint:SetPoint("TOPLEFT", text, "BOTTOMLEFT", 0, -10)
   hint:SetPoint("RIGHT", -16, 0)
   hint:SetJustifyH("LEFT")
-  hint:SetText(L["It comes with Lore Forever's Windows installer. Press Ctrl+C to copy the link, then paste it into your browser."])
+  hint:SetText(L["Press Ctrl+C to copy the link, then paste it into your browser."])
   -- The link can't be edited: typing puts it back, so a stray key never breaks it.
   local eb = CreateFrame("EditBox", nil, f, "InputBoxTemplate")
   eb:SetSize(380, 24)
@@ -152,14 +160,14 @@ local function createWillo()
   off:SetPoint("BOTTOMLEFT", 16, 12)
   off:SetPoint("BOTTOMRIGHT", -16, 12)
   off:SetJustifyH("LEFT")
-  off:SetText(string.format(L["Not interested? Untick Get %s button in /lore options."], ns.COMPANION_NAME))
+  off:SetText(string.format(L["Not interested? Untick Suggest %s in the chat in /lore options."], ns.COMPANION_NAME))
   f.text, f.hint, f.eb, f.fill = text, hint, eb, fill
   return f
 end
 
--- question: what the player just asked that the add-on couldn't answer (nil from the header button).
+-- question: what the player just asked that the add-on couldn't answer (nil from /lore willo).
 function Companion.ShowGetWillo(question)
-  ns.Log.Use("getWillo", question and "chip" or "header")
+  ns.Log.Use("getWillo", question and "chat" or "slash")
   willo = willo or createWillo()
   local name = ns.COMPANION_NAME
   question = question and question:match("^%s*(.-)%s*$")

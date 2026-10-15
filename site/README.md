@@ -400,13 +400,13 @@ to `/account#profile` when there's none yet).
   the site's take on the add-on's Journey tab (LOR-242). `lib/journey.js` keeps the record's moments in time order
   (`timeline`: `[section, index, day]`, the day only, never the hour; the record's times have no year, so it's the
   latest one that isn't in the future). The page tells them in **chapters**, one per day played (a day with fewer
-  than 10 moments goes in with the next; the newest stays its own), oldest first. Each has a title (where most of it
+  than 10 moments goes in with the next; the newest stays its own), told newest first, back in time (Mike, 10/14; within a chapter the moments stay in time order). Each has a title (where most of it
   happened, a dungeon counting double and a capital less, and the next place when it's close behind), the road it took
   (the lands in the order reached), one line told from its facts ("Húrin reached level 23, fought through Shadowfang
   Keep and Blackfathom Deeps and first saw Silverpine Forest, Darnassus and more": templates, no model), its
   highlights (a level, each dungeon and the bosses that fell there, new lands, quests, notable foes, deaths, a mount,
   books, standing, rare finds, people met), its pictures, and **Every moment of this chapter** folded, each under the
-  land it happened in (the newest 400). The newest 8 chapters are shown in full; older ones fold to a line each
+  land it happened in (the newest 400). The newest 8 chapters are shown in full; below them, older ones fold to a line each
   (number, title, days) that opens to their line, road, highlights and pictures. Old links still land: `#m-<n>` opens
   the chapter holding that moment (and its fold), `#timeline` goes to the chapters, `#map` to the chart.
   - The moments' **trails** (who gave a quest, the rest of a storyline, the last and next visit to a place, a reward's
@@ -511,6 +511,14 @@ to `/account#profile` when there's none yet).
     `/account`, by the companion's Disconnect (`POST /api/device/disconnect`), by Delete my profile (a companion
     still connected would make it again), after a year unused, and with the account (`devices` and `device_links` are
     in `SETUP` and `USER_DATA`).
+  - *One click to the site, signed in* (`lib/weblogin.js`): Willo's Change plan, Billing and "Available on Hero" links
+    ask `POST /api/companion/web-login {next}` with the token and open the one-time link it gives,
+    **`/link/web?t=&next=`** (`functions/link/web.js`), which signs the browser in to the app's account (an ordinary
+    session, `startSession`) and goes on to `next`. The link is single use (taken by one `DELETE ... RETURNING`), lasts
+    2 minutes, is kept only as its SHA-256 (`web_logins`, in `SETUP` and `USER_DATA`), and works only while the app
+    that asked is still connected. `next` is an allowlist: `/plans` or `/account`, an optional `?from=willo-<word>`
+    and `#anchor`. An expired or used link goes on to `next` when the browser is signed in already, else to `/account`
+    with a plain line, then on to `next` after signing in. 10 links a minute per account.
   - *An update* is a paste, read the same way, with three differences: it never switches the profile to another
     character (409 with the profile's `{name, realm}`, and the companion sends that character instead; switching is
     still a paste on `/account`); a record whose facts haven't changed skips fact delivery but can refresh a due
@@ -612,8 +620,8 @@ to `/account#profile` when there's none yet).
     their own estimate. `answer_spend.actual_micro` records known charges; `reserved_micro` includes unresolved
     estimates and measured spend. Profile stories and voice share this gate; the admin dashboard shows all three.
     When the free allowance is used up, players wait for the next day (or month, at the shared budget); there is no
-    own-key option (Mike, 2026-10-10: pricing comes first). With the `plans` feature on, paying players and top-up
-    answers skip this gate (see "Plans" below).
+    own-key option (Mike, 2026-10-10: pricing comes first). With the `plans` feature on, paying players' answers skip
+    this gate (see "Plans" below).
 - **The picture book** (Mike, 2026-10-05; `lib/pictures.js`, behind the **`pictures` feature**, below): pictures a
   player takes in game with the picture key, which the companion app puts on the profile, each in the chapter it was
   taken in (beside the nearest moment of the same character, `lib/trails.js` `timelinePictures`; ones with no chapter
@@ -655,107 +663,275 @@ to `/account#profile` when there's none yet).
 ## Plans (Stripe)
 
 Paid plans for Willo, the companion (LOR-252, LOR-431): `lib/billing.js`, the API in
-`functions/api/billing/[action].js`, the page **`/plans`** (`public/plans.html`: the plan cards from `FEATURES`, monthly
-or yearly, Choose, Manage billing) and the plan card at the top of `/account` (free players: what a plan adds and a
-link to /plans; subscribers: their plan, when it renews and Manage plan). `/account#plans`, where plans used to be,
-goes to /plans. A live key (`sk_live_`, `rk_live_`) is refused unless `STRIPE_LIVE=1`.
+`functions/api/billing/[action].js`, the page **`/plans`** (`public/plans.html`: the plan cards from `FEATURES`,
+monthly only (Mike, 2026-10-13: no yearly plans), Choose, "Switch to <plan>" with its confirm, Keep, Manage billing)
+and the plan card at the top of `/account` (free players: what a plan adds and a link to /plans; subscribers: their
+plan, when it renews, changes or ends, "Switch to <plan>" links that open the confirm on /plans, and Manage plan).
+`/account#plans`, where plans used to be, goes to /plans. A live key (`sk_live_`, `rk_live_`) is refused unless
+`STRIPE_LIVE=1`.
+- **The lifecycle** (Mike, 2026-10-13; `changePlan`, `storeSubscription`, `endPlanFor` in `lib/billing.js`):
+  - *Switching* is on /plans (`POST /api/billing/change`), never the billing portal (its `subscription_update` is off,
+    so the portal is the card, invoices and cancelling). An **upgrade** starts now and is charged now: Stripe's
+    proration with `always_invoice` (the portal's `create_prorations` left the difference as pending invoice items for
+    the renewal, which a cancel before then would never collect), and the confirm's "You'll pay $X.XX today" is
+    Stripe's own `invoices/create_preview` of that invoice, whose proration date the change then uses (signed into a
+    quote, good for 30 minutes), so the amount shown is the amount charged. A payment that needs another step or fails
+    leaves the plan as it was (`pending_if_incomplete`) and sends the player to Stripe's page for that invoice. The new
+    plan's month's pool applies now; answers already used this plan month count against it. A **downgrade** waits for
+    the renewal, with nothing refunded: a subscription schedule (this period on the current price, then a month on the
+    lower one, then released), shown as "Changes to Hero on <date>" (`entitlements.next_plan`, `next_plan_at`) with
+    "Keep <plan>" to undo it. While a payment is failing only an upgrade waits (the card first).
+  - *Cancel* (the portal, at the period's end): the plan runs to the end; Keep on /plans undoes it, with nothing
+    charged; after the end, a plan is a new subscription with its own plan month.
+  - *A failed renewal* keeps the plan while Stripe retries (`past_due`, "update your card" on /plans and /account);
+    when Stripe gives up the subscription ends and the account is on the free plan. Saved styles and tales stay.
+  - *A refund* of the whole of the current period's own payment (its `subscription_create` or `subscription_cycle`
+    invoice), or *a dispute* of any of the plan's payments, ends the plan now (`endPlanFor`, through the payment's
+    invoice). A refund of an earlier month's payment or of an upgrade's charge is goodwill: the plan stays (Mike,
+    2026-10-14). A refund or dispute of a finest-voice pack's payment takes back that pack's replies and nothing
+    else, even when Stripe sends it before the checkout's own event (`creditPack` reads the charge).
+  - *One subscription per account*: checkout sends a player Stripe already has a plan for back to /plans, closes
+    their older checkout pages, and a second subscription made anyway is cancelled and refunded (`keepOldest`).
+  - *Safe twice*: a confirm holds a lock per account (`billing_locks`), reads the subscription from Stripe, checks the
+    plan the page showed (`from`), and uses idempotency keys from its quote.
 
 - **Switched off** by the `plans` site feature (`lib/features.js`), off until Mike sets `SITE_FEATURES=plans` in
   Production for the launch. While it's off nothing is for sale, stored subscriptions are ignored and every account
   gets 20 live answers a day, with research and pictures, as before plans. `SITE_FEATURES=plans` on Preview turns it
   on for the develop site; the STRIPE_* secrets are needed as well.
-- **The plans** (launch plans, Mike, 2026-10-12) are constants at the top of `lib/billing.js` (`PLANS`, `FEATURES`,
-  `BLURBS`, `SELLABLE`, `COMPANION_FEATURES`):
-  - **Adventurer** (free): 5 answers a day and a one-time **starter** of 30 (`STARTER_ANSWERS`). Answers stay with
-    the world's lore: no web research (required or quick), no game picture, and a short `LORE_FOCUS` block in the
-    prompt (`lib/companion-answers.js`). Spoken answers stay, in Willo's default voice.
-  - **Hero** $4.99 a month or $49.99 a year: 900 answers a month, up to 100 in a day (a four-hour session at about
-    20 questions an hour), 10 web look-ups a month, all of Willo's voices, push-to-talk, sight, characters' own
-    voices, preset Willo styles.
-  - **Champion** $9.99/$99.99: 1,900 a month, up to 200 in a day (eight hours), 20 web look-ups a month, a chat memory
-    twice as long (4,800 bytes; the companion keeps up to 12,000), its own Willo style in words and NPC tales
-    (`lib/willo-custom.js`). No stronger model at launch: 3.8 Flash costs three times as much (only hidden Legend has
-    `stronger`).
-  - **Sized for 50% margin** (Mike, 2026-10-12) even when every answer and look-up is used: about $0.0018 an answer
-    and $0.05 a look-up make Hero's month at most about $2.12 of the $4.37 it brings after Stripe's fees, Champion's
-    $4.42 of $9.05. The cost caps ($2.50, $5) stay as a safety net above that.
-  - **Legend** $19.99/$199.99: defined but `hidden` (Mike, 2026-10-12: not built yet), so it's neither listed on
-    /plans nor for sale, whatever `BILLING_PLANS` says.
+- **The plans** (launch plans, Mike, 2026-10-12; reshaped 2026-10-13: charge for live answers, the hosted voice at
+  least breaks even, and no player ever costs more than they pay) are constants at the top of `lib/billing.js`
+  (`PLANS`, `PLAN_VOICE`, `LEGEND_BEST_MODEL`, `LEGEND_BEST_PER_MONTH`, `FEATURES`, `BLURBS`, `VOICE_NOTE`,
+  `SELLABLE`, `COMPANION_FEATURES`). A spoken reply is just an answer read aloud. The cards lead with how playing with
+  Willo feels, then the month's answers, and state counts, never limits (no "unlimited", "limit", "cap" or "fair use"
+  anywhere players read):
+  - **Adventurer** (free): text chat, 20 answers a day, up to 600 a month, and a one-time **starter** of 30
+    (`STARTER_ANSWERS`). Its first 30 questions asked out loud are answered aloud in Willo's studio voice
+    (Chatterbox, `PLAN_VOICE.free` `starter`; Mike, 2026-10-13), so a new player hears her; typed questions get text
+    answers (Mike, 2026-10-14; the companion's side is its own branch). While the starter lasts the allowance sends
+    `features.voices` "default" and `push_to_talk` true (`companionFeatures`), paid for by the shared free budget
+    (about $0.009 a player); once they're said (`voice_replies` period "starter", kept for good), `voices` is "none",
+    `push_to_talk` false, and answers are text. Answers stay
+    with the world's lore: no web research (required or quick), no game picture, and a short `LORE_FOCUS` block in
+    the prompt (`lib/companion-answers.js`).
+  - **Hero** $4.99 a month: 900 answers a month, up to 100 in a day (a four-hour session at about
+    25 questions an hour), and Willo can check the web when the lore runs out (10 look-ups a month, a quiet guard
+    inside the cost caps that players never see as a number); the player asks out loud and Willo answers in her studio voice
+    (Chatterbox, Sprite, no choice; at most about $2.39 of the $4.37 net); sight, preset Willo styles.
+  - **Champion** $9.99 a month: 1,900 a month, up to 200 in a day (eight hours), 20 web look-ups a month (quiet), its spoken
+    answers in Willo's studio voices (DeepInfra's Chatterbox Turbo, with a choice of them: `choice`), a chat memory twice as
+    long (4,800 bytes; the companion keeps up to 12,000), its own Willo style in words and NPC tales
+    (`lib/willo-custom.js`).
+  - **Legend** $19.99 a month: 4,000 a month, up to 300 in a day, 40 web look-ups (quiet), Willo's finest voice
+    (`LEGEND_BEST_MODEL`, Inworld TTS 2 Flash) for the first `LEGEND_BEST_PER_MONTH` (1,900) replies of its plan month,
+    then the studio voices, and everything in Champion. A reply counts as a finest one only once Inworld said a piece
+    of it: one whose first piece the studio voice says (Inworld down, or no room for it) gives its place back. On the ordinary model, like the others: the stronger one
+    (`stronger`) costs three times as much.
+  - **Cost caps** (`costCapMicro`, `totalCapMicro`, from each plan's `net`, what it brings after Stripe's fees): a
+    paying player's live answers may cost half the net in a calendar month (Hero $2.18, Champion $4.52, Legend $9.20),
+    and answers and hosted voice together the whole net ($4.37, $9.05, $18.41). At about $0.0018 an answer and $0.05 a
+    look-up, a maxed month's answers cost about $2.12, $4.42 and $9.20, so the text cap is rarely reached; past it
+    (`overTextCap`), the plan's answers wait for the next month as when its pool is used, and come from the add-on's
+    lore library. Which plan gets which voice is one line in `PLAN_VOICE`; `choice` says whether its
+    player may pick among Willo's hosted voices. Willo's own voice on the PC (Kokoro) only stands in.
   The Pages variable `BILLING_PLANS` (e.g. `hero,champion`) changes which are for sale.
-- **A paid plan's month** runs from its renewal day (`poolWindow`: the day of the month its paid period ends, clamped
-  to a shorter month's last day; the calendar month without one), so a month paid for never holds two pools. Its
-  answers (`answersPerMonth`) and web look-ups (`lookupsPerMonth`: required research or a quick look-up; a finding
+- **Spoken replies** (LOR-490, `lib/companion-voice.js`): the free plan's spoken starter (its cost held on the shared
+  free budget, `reserveFreeVoice` in `lib/companion-answers.js`, while it has room), Hero's, Champion's and Legend's
+  are said by **`POST /api/companion/speak`**
+  (`functions/api/companion/speak.js`, signed in like answers): the companion sends each piece of a reply
+  (`{text, voice: "willo", reply}`, at most 600 letters a piece and a reply; for a character who answers in person,
+  their people and gender as the voice: see Characters' own voices below) and gets MP3 back. Each reply is a row in `voice_replies` for its plan month (`best`: Legend's
+  finest voice says it, while `LEGEND_BEST_PER_MONTH` last); a reply nothing could say is given back. Each piece holds
+  its cost ($1 a million letters for Chatterbox, $15 for Inworld TTS 2 Flash, $25 for TTS 2) against the total cap
+  first (`holdUserSpend` with `total`), so the voice steps down, finest to studio to the everyday voice on the PC,
+  before the month's total would pass the plan's net; a provider that fails steps down too, never up. Anything but
+  audio (`{speak: "local", reason}`) means the companion says it on the PC. The cost goes on the player's month in
+  `answer_user_spend` (`voice_micro`, apart from the text cap) and `answer_spend` (`addVoiceSpend`), never the free
+  budget. Willo's five hosted voices (Mike, 2026-10-13) are `WILLO_PICKS` in `lib/companion-voice.js`: Sprite,
+  Sunbeam, Moonwell, Fenlight and Starling, each an Inworld design (the finest voice) and its Chatterbox clone (the
+  studio voice). A piece's optional `pick` names one: said on a plan with `PLAN_VOICE` choice (Champion, Legend),
+  Sprite on any other plan and for an unknown name (`willoPick`). `HOSTED_VOICES.willo` is Sprite's ids; the Pages
+  variable `HOSTED_VOICES` (JSON, `{"willo": {...}}` or by a pick's name) replaces ids. Needs the Pages secrets **`DEEPINFRA_API_KEY`** and/or
+  **`INWORLD_API_KEY`**; without them, or without Willo's voice id, a paid plan's replies stay on the PC. Off with the
+  `plans` feature (404, everything on the PC).
+- **A paid plan's month** runs from its renewal (`poolWindow`: the day of the month and the time its paid period
+  ends, the day clamped to a shorter month's last; the calendar month without one, as for the free plan), so a month
+  paid for never holds two pools, and a new pool comes with the renewal itself, not hours before it. Its answers
+  (`answersPerMonth`) and web look-ups (`lookupsPerMonth`: required research or a quick look-up; a finding
   another player's search kept is free and isn't counted) are counted in `rate_limits` (`companion-month:<month's
-  first day>`, `companion-lookup:<same>`), only while plans are on. Past the look-ups, the month's answers don't look
-  online. A research answer written with the player's own style or tale isn't
-  kept for other players.
+  first day>`, `companion-lookup:<same>`), only while plans are on; the pool is the account's, not the plan's, so an
+  upgrade's bigger pool counts what's already used. Look-ups are never a number players read (Mike, 2026-10-13):
+  past them, the month's answers don't look online and come from the lore, the context and other players' kept
+  searches, with `TRAIL_COLD` in the prompt (`lib/companion-answers.js`): one warm in-world line ("the trail goes cold
+  here") when a question truly needs fresh news, never a limit. A research answer written with the player's own style
+  or tale isn't kept for other players.
 - **The starter** is a row in `answer_packs` (`kind` 'starter', id `starter:<user id>`), credited once per account by
   `planFor` the first time a free account with a connected companion is looked at, and once per Google account:
   `starter_claims` keeps a salted hash of the Google ID (salt in `billing_salt`) after Delete my account, so deleting
   the account and signing in again brings no new starter. It's used after the day's free
-  answers, before any top-up, but it's free: it needs the shared budget, its cost isn't the player's, it never counts
-  as a month's top-up, it can't be bought and refunds don't touch it. A paying player doesn't draw on it.
+  answers (`useStarter`), but it's free: it needs the shared budget, its cost isn't the player's, it can't be bought
+  and refunds don't touch it. A paying player doesn't draw on it.
 - **The brake:** once this month's free spend (free live answers, profile stories and their voice) passes $80, free
   players get 5 a day until the month ends. Starter answers still need the shared budget.
-- **The companion's allowance** (`GET /api/companion/answer`) keeps `limit`, `remaining` (with starter and top-up
-  answers, within the day's most), `resetsAt`, `period` ("day" or "month": which of a paid plan's two runs out first;
-  `limit` and `resetsAt` are that one's), `available`, `plan`, `upgrade` ("/plans") and `topup` (`{remaining, active}`; active: the plan's answers and the
-  starter are used up, so answers come from a top-up), and while plans
+- **The companion's allowance** (`GET /api/companion/answer`) keeps `limit`, `remaining` (with a free player's
+  starter answers), `resetsAt`, `period` ("day" or "month": which of the plan's two runs out first; `limit` and
+  `resetsAt` are that one's), `available`, `plan` and `upgrade` ("/plans", only while a plan above the player's is for
+  sale, `planAbove`: none for Legend, so the companion's "Get more light" doesn't show there), and while plans
   are on adds `features: {voices: "all" | "default", push_to_talk, sight, npc_voices, research}`: Willo's session turns
-  its own features on or off by it (free: `"default"` and false; paid: `"all"` and true).
-  A paying player past the month's cost cap also gets `fair_use: {mind: "standard" (a plan with `stronger`),
-  lookups: false, until}` (the next calendar month's start, UTC), so the companion can say so.
+  its own features on or off by it (free: `"default"` while its starter lasts, then `"none"`, and false; paid: `"all"`
+  and true), and
+  `voice: {tier: "local" | "hosted", top, now ("finest" | "studio" | "everyday"), back, choice, bestLeft}`: which voice
+  says the next reply, and when one that stepped down comes back (the plan month's renewal day for Legend's finest
+  replies, the next calendar month for the cost), for the companion's one note per step.
 - **Paying players** skip the shared $100 monthly gate (their plan pays; their reservations still go into
-  `answer_spend`, so /admin sees the whole month). Each plan has a monthly cost cap ($2.50, $5, $10, in
-  `answer_user_spend`, which a paid-for answer's quick look online counts toward too): past it, research and the
-  stronger model stop until the month ends. Nobody is cut off. An answer that would research or use the stronger
-  model first holds its reservation against the cap (or its top-up pack's) in one statement (`holdUserSpend`, a row
-  in `answer_holds`), so questions sent at once can't all get in under it; the hold is settled with the answer's
-  cost, or given back when the request ends any other way, and stops counting after 5 minutes if the request was cut
-  off before either. Statuses active, trialing and past_due keep the plan
-  until the paid period ends; anything else is the free plan.
+  `answer_spend`, so /admin sees the whole month). An answer that would research or use the stronger model first
+  holds its reservation against the text cap in one statement (`holdUserSpend`, a row in
+  `answer_holds`), so questions sent at once can't all get in under it; past it, research stops quietly. The hold is
+  settled with the answer's cost, or given back when the request ends any other way, and stops counting after 5
+  minutes if the request was cut off before either. **When answers run out** (the day's, the pool or the text cap,
+  and a free player's starter), the companion answers from the add-on's lore library: the 429's words are Willo's, in
+  the world, and only say when live answers come back ("My light's spent for today. The Moonwell refills it
+  tomorrow.", or "for this month ... on November 1"), since the companion starts its lore-library answer with them.
+  Answers can't be bought (Mike, 2026-10-13: the 300-answer top-up went). `offers` holds the next plan up while it's
+  for sale (`offersFor`): Hero, the free plan's one offer, or Champion or Legend; nothing for Legend, nothing at the
+  text cap, and never the finest-voice pack, which is about the voice, not answers. While plans are off the words are
+  the ones from before plans ("You've used today's 20 free answers. They come back tomorrow."). Statuses active,
+  trialing and past_due keep the plan until the paid period ends; anything else is the free plan.
 - **How a payment arrives:** Choose → `POST /api/billing/checkout` → Stripe Checkout → Stripe calls
   **`POST /api/billing/webhook`** (signed; `applyEvent` fetches the subscription from Stripe and stores it in
   `entitlements`, so repeated or out-of-order events change nothing). Manage billing → `POST /api/billing/portal`
   (Stripe's billing portal: switch plan, card, cancel at the period's end, invoices). Delete my account cancels
   every subscription the customer has at Stripe that could still charge them, before anything is deleted; when Stripe
   can't be reached, nothing is deleted and they're asked to try again. A new checkout first closes the customer's
-  earlier open plan checkout pages, so two tabs can't start two subscriptions. A top-up is credited from the checkout
-  session as Stripe returns it, not from the event's copy; an event from the other mode (test on live, or the reverse)
-  is ignored, and the webhook works whenever Stripe is set up, plans on or off.
-- **Top-ups** (`TOPUP` in `lib/billing.js`): 300 answers for $2.99, one-time, never expiring, for anyone signed in;
-  at most 3 a calendar month (UTC). Buy on /plans#topup → `POST /api/billing/topup` (Checkout, `mode=payment`) → the
-  webhook credits a row in `answer_packs` once per checkout session; `charge.refunded` zeroes it, and so does
-  `charge.dispute.created` (status `disputed`). Top-up answers are
-  used only after the plan's answers, today's or the month's (and a free player's starter), oldest pack first, within
-  200 live answers a day in all (`DAY_MAX`; a plan with more gets its own, `dayMax`). They skip the shared budget; their cost goes into
-  `answer_user_spend` (`topup_micro`, kept out of the plan's cost cap) and the pack, and past $1.50 on a pack its
-  answers stop researching (and a `stronger` plan's go back to Flash-Lite). A free player's top-up answers are still free
-  plan answers: lore-focused, without research or the picture. When answers run out, the companion's 429 carries
-  `offers` (the next plan up while it's for sale, and a top-up while one can be bought).
+  earlier open plan checkout pages, so two tabs can't start two subscriptions. A finest-voice pack is credited from
+  the checkout session as Stripe returns it, not from the event's copy; an event from the other mode (test on live,
+  or the reverse) is ignored, and the webhook works whenever Stripe is set up, plans on or off.
+- **The beta promo** (LOR-500, Mike, 2026-10-14: "If you sign up during the beta, you get half off or free hero for a
+  month"; it replaced the 7-day launch week): from the moment the Willo release publishes to the end of the WoW
+  Forever beta. The Pages variable **`LAUNCH_WEEK_START`** (an ISO date-time with its zone, e.g.
+  `2026-10-20T18:30:00Z`) is the start: the ship step sets it in Production when it publishes the release. The end is
+  **`BETA_END`** (the same kind of date-time), or `BETA_END_DEFAULT` (`2026-11-03T23:59:59-08:00`) when that's unset
+  or not one (`launchWindow` in `lib/billing.js`). Without a `LAUNCH_WEEK_START` there's no promo at all: no banner, no
+  offers, no free month.
+  - **A free Hero month, no card:** a signed-in free account's month starts the first time its plan is looked at
+    during the beta (signing in on /account or /plans, or the companion's first check; `freeHeroMonth`) and lasts
+    `BETA_HERO_DAYS` (30) days, past the beta's end too. Once per Google account, ever: its `free` claim in
+    `promo_claims` (by the same one-way Google code as the starter's, kept after Delete my account) holds the month's
+    start. It's Hero's plan (`planFor`, `launch: true`, with `since`, `until` and `ends`, its last day in Pacific
+    time): Hero's 900 answers for the month (one pool; `poolWindow` anchors on `until`) and 100 a day, look-ups, sight,
+    styles, all of Willo's voices on the PC and push-to-talk, none of it counted toward the free plan's month. When
+    the month ends the account is on the free plan again, by itself. Their cost goes in
+    `answer_user_spend.launch_micro`: out of the shared free budget like any paid-for answer, held by Hero's cost caps
+    on its own, and never counted against a plan the player buys later. Once the promo's total passes
+    `LAUNCH_WEEK_BRAKE_MICRO` ($300, apart from the $100 free budget), free accounts get the free plan (months under
+    way stop, no new one starts), silently.
+  - **The offers** (`launchOffer`), on a checkout during the beta, each once per account, ever (`promo_claims`, kind
+    `hero` or `half`): **Keep Hero** is Hero's checkout with a Stripe trial, so the offer stays one month of
+    Hero (Mike, 2026-10-14: "a month", not up to two): during the account's free Hero month it ends when that month
+    does (`trial_end`, at least `TRIAL_MIN_SECONDS` on, Checkout's shortest), and with none running it's 30 days from
+    that day (`trial_period_days`; `keepHeroEnds`). Nothing is charged until then, even past the beta, and $4.99 a
+    month after; **Champion and Legend** are 50% off their first month, by an amount_off coupon each
+    (`LAUNCH_COUPONS`, $5 and $10, duration once, named "Beta: 50% off your first month", made and renamed by
+    `scripts/stripe-setup.mjs`), on Checkout (shown there; no promotion codes then) and on an upgrade during the beta
+    (on the new price's item, the same in the confirm's preview, so the amount shown is the amount charged; an upgrade
+    from the Hero trial ends the trial and starts the paid month now). The first discounted month keeps the plan's own
+    caps.
+  - **The copy:** /plans shows `launchText` ("Beta: Hero is free for your first month, and Champion and Legend are
+    50% off your first month. Join by November 3.") as a banner during the beta, and the cards cross out the usual
+    price with a tag and their terms (GET /api/billing/plans `plans[].promo`: {price, label, note}: 0, "Beta: free
+    month", "until November 13, then $4.99 a month", the day a trial started now is free until, which is the end of
+    the account's free month while one runs; 499, "Beta: 50% off",
+    "your first month, then $9.99"), only while the player can still have that offer; `launchEnds` is the beta's last
+    day. A free Hero month sees "Beta: you're on Hero, free until ..." and Keep Hero; /account says "Beta: Hero is free
+    until ...", and a trial "It's free until ...". The same response's `compare` (`planCompare`: [{label, values:
+    {free, hero, champion, legend}}], strings with "✓" and "—") is the plans side by side for /willo's table, made from
+    `PLANS`, `PLAN_VOICE`, `COMPANION_FEATURES` and `lib/willo-custom.js` `ALLOWED`. A finest-voice pack is for a paid
+    plan, so not for the free Hero month.
+  - To try it on a preview (develop), set `LAUNCH_WEEK_START` (and `BETA_END`, if you like) there and `PROMO_NOW` (an
+    ISO date-time) as that deployment's clock for the promo; only a test-mode Stripe key reads `PROMO_NOW`, so
+    Production never does.
+  - Stripe Dashboard: turn on the trial-ending reminder (Settings > Billing > Subscriptions and emails > "Send a
+    reminder email 7 days before a free trial ends"), so a Keep Hero trial never renews by surprise.
+- **The welcome page** (Mike, 2026-10-13; `welcomeOnce` in `lib/billing.js`): the first time an account connects the
+  companion on /link (`POST /api/device/approve`), while plans are for sale and it has none, the reply carries
+  `welcome: "/plans?welcome=1"` and the page goes there instead of its connected message: Willo's one warm line, the
+  plan cards and a "Continue free" button on the free card, as plain as the plans' own, which goes to
+  /link?connected=1 (the connected message: back to Willo). Once per account (`users.welcomed_at`, set in one
+  statement). Device links are the companion's alone, so the add-on never leads there. The site decides; the
+  companion just opens sign-in as before.
+- **Willo's finest voice** (`VOICE_PACK`): 400 replies in the finest voice (Inworld, `LEGEND_BEST_MODEL`), $2.99 once,
+  never expiring, at most 3 a calendar month, for any paid plan (`POST /api/billing/voicepack`, Checkout with
+  `metadata.kind` "voice"; the webhook credits an `answer_packs` row of kind 'voice' once per session, and a refund or
+  dispute takes it back). It adds no answers. A reply takes one when it starts, after the plan's own finest replies
+  (Legend's) and before the voice steps down, oldest pack first (`voice_replies.pack`); a reply nothing could say goes
+  back to its pack. Its cost is the pack's (`spent_micro`, at most `VOICE_PACK.costCapMicro`, then it steps down) and
+  goes in `topup_micro`, never the plan's caps. On Hero it's the only hosted voice; when it's used up, Willo is back
+  on the PC. /plans shows it plainly, with no count of what's left. It's the only thing bought once. Legend already
+  has the finest voice, so its /plans leaves the pack out until 90% of the month's finest replies are said
+  (`LEGEND_PACK_LEFT`, 190 of 1,900, or fewer left; `voicePackFor`, decided on the server), then offers it as "400
+  more replies in Willo's finest voice, for after your monthly 1,900 (back on <the plan month's renewal day>)". Hero
+  and Champion see it as it is. The companion never offers it.
+- **Characters' own voices** (`lib/character-voices.js`, Mike, 2026-10-13): a character who answers in person speaks
+  in a voice of their own on the site, by their people and gender (the companion sends `dwarf-male` as the voice).
+  First Inworld TTS 2 Flash (`CHARACTER_MODEL`, `INWORLD_API_KEY`, $15 a million letters, about $0.0045 a 300-letter
+  line) in the slot's own Inworld voice (`inworld`, a clone of its approved reference in Willo's Inworld workspace,
+  never a published design); when Inworld fails or sends no audio within `CHARACTER_FIRST_AUDIO_MS` (1.2 s), Fish
+  S2.1 Pro on OpenRouter (`OPENROUTER_API_KEY`, the paid model, `data_collection: "deny"`; $15 a million bytes and
+  OpenRouter's 5.5%), cloned for each piece from the reference recording in R2 (`character-voices/<slot>.wav`, read by
+  the site alone) and its transcript, with the slot's delivery cues inline at the start (`[gruff, warm]`). A slot
+  without an Inworld voice is Fish's alone. `CHARACTER_VOICES` (the 22 approved slots; the Pages variable of the same
+  name adds or replaces entries) refuses an entry whose provenance doesn't name our own design, a consented actor or
+  an open license (`rightsCleared`). Who gets them: Champion's first `CHAMPION_CHARACTER_REPLIES` (300) replies a plan
+  month (`voice_replies.npc`), Legend's out of its finest replies (`best`, the same pool), and any paid plan's
+  finest-voice pack, each counted once its own voice, Inworld's or Fish's, said it; otherwise, on Free and Hero, or
+  when neither can say it, the character speaks in Willo's voice, silently (the studio voice on a hosted plan, else
+  the PC), and the reply gives its place back. Their cost counts toward the plan's net like the rest, or the pack's.
+  `scripts/character-voices-import.mjs [refs.json] [--inworld clones.json] [--dry-run]` reads the voice session's
+  approved references (`~/lore-voice-renders/experiments/npc-refs/approved/refs.json`) and their Inworld clones
+  (`experiments/compare/inworld_clones.json` by default), refuses those without provenance, prints the
+  `wrangler r2 object put` commands for Production and Preview (it runs none) and writes `CHARACTER_VOICES`.
+- **No answer top-ups** (Mike, 2026-10-13): the 300-answer $2.99 top-up is gone, never sold on the live site.
+  `POST /api/billing/topup` is a 404, its Stripe price (`topup_300`) and product (`lore_forever_topup`) are archived
+  by `scripts/stripe-setup.mjs`, and a payment-mode checkout of any kind but "voice" credits nothing. Its
+  `answer_packs` kind ('topup') and the `topup_micro` column stay in the schema; `topup_micro` now holds what
+  finest-voice packs paid for. A refund or a dispute (`charge.refunded`, `charge.dispute.created`) of a pack's payment
+  zeroes that voice pack (status `refunded` or `disputed`) and nothing else; of a plan's payment, it ends the plan.
 - **Setup (Mike):** Pages secrets **`STRIPE_SECRET_KEY`** (a restricted key is best) and **`STRIPE_WEBHOOK_SECRET`**:
   test ones in Preview (develop), live ones in Production. With the test key in the repo's `.env`,
   `node scripts/stripe-setup.mjs --webhook https://develop.lore-forever.pages.dev/api/billing/webhook` makes the
-  products, the prices (by lookup key: `hero_monthly`, `hero_yearly`, ..., `topup_300`; tax included), the billing
-  portal's settings and the webhook, and writes the webhook's secret into `.env` for you to copy into Pages. Running it
-  again changes nothing; run it again after `FEATURES`, `BLURBS` or prices change. `STRIPE_MANAGED_PAYMENTS=1` makes
-  Stripe the merchant of record (VAT and sales tax), once Managed Payments is on in the Stripe Dashboard.
+  products, the prices (by lookup key: `hero_monthly`, `champion_monthly`, `legend_monthly`, `voice_400`; tax
+  included), the billing portal's settings (card, invoices, cancel at the period's end; no plan changes) and the
+  webhook, archives the retired top-up's price and product and the yearly prices (`hero_yearly` and the like), and writes the webhook's
+  secret into `.env` for you to copy into Pages. Running it again changes nothing; run it again after `FEATURES`,
+  `BLURBS` or prices change. `STRIPE_MANAGED_PAYMENTS=1` makes
+  Stripe the merchant of record (VAT and sales tax), once Managed Payments is on in the Stripe Dashboard (the test
+  account has it on by default, so its Checkouts already are). Checkout asks for the Terms (`checkoutSession`:
+  `consent_collection.terms_of_service` required), whose "Starting right away" line ends the EU/UK 14-day withdrawal
+  right as far as the law allows once a plan or pack starts; Managed Payments refuses `custom_text`, so the box has
+  Stripe's words. It needs a **Terms of service URL** (https://loreforeverwow.com/terms) in the Dashboard's public
+  details, test and live; until then checkout goes on without the box (logged). Refunds: only by us, by hand
+  in the Dashboard, for billing mistakes and what the law requires (`/refunds`); requests come through the signed-in
+  feedback form.
 - **Launch (live):** with the live key in `.env` as `STRIPE_LIVE_SECRET_KEY`,
   `node scripts/stripe-setup.mjs --live --webhook https://loreforeverwow.com/api/billing/webhook` does the same in live
   mode (it says LIVE MODE first, refuses a test key, and writes the webhook's secret as `STRIPE_LIVE_WEBHOOK_SECRET`,
   so the test one stays). Then in Production: `STRIPE_SECRET_KEY` (the live key), the live webhook's secret as
   `STRIPE_WEBHOOK_SECRET` or `STRIPE_LIVE_WEBHOOK_SECRET` (`verifyWebhook` reads either), `STRIPE_LIVE=1`,
-  `STRIPE_MANAGED_PAYMENTS=1` once Managed Payments is on, and `SITE_FEATURES=plans`.
+  `STRIPE_MANAGED_PAYMENTS=1` once Managed Payments is on, and `SITE_FEATURES=plans`. The ship step sets
+  `LAUNCH_WEEK_START` in Production to the moment the Willo release publishes, which starts the beta promo (to `BETA_END`).
 - **Off by default:** without `STRIPE_SECRET_KEY` the section stays hidden, the API answers 503 (`plans` says
   `{on: false}`), and live answers use the free plan's limits.
-- /admin's **Plans** tile: paying players, the monthly revenue estimate (a yearly plan as a twelfth, before Stripe's
-  fees), accounts by plan and status, what paying players' answers cost this month, top-ups sold this month, their
-  answers still unused and what top-up answers cost this month.
-- Tests: `site/tests/billing.test.mjs` (Stripe and Gemini mocked).
+- /admin's **Plans** tile: paying players, the monthly revenue estimate (before Stripe's fees), accounts by plan and status, what paying players' answers cost this month, finest-voice packs sold this
+  month, their replies still unused and what their replies cost this month.
+- Tests: `site/tests/billing.test.mjs` (Stripe and Gemini mocked) and `site/tests/companion-voice.test.mjs` (the voice
+  providers mocked). The lifecycle against real Stripe in test mode: `node site/tests/stripe-lifecycle.mjs` (not part
+  of the suite: it needs the network and a test key) boots two local copies of the site (one inside launch week) with
+  throwaway D1s, puts each scenario's customer on a Stripe test clock, posts Stripe's real events to the local webhook
+  signed with a local secret, prints a PASS/FAIL table and deletes its test clocks.
 
 ### Willo customization (LOR-447)
 
-The page **`/willo`** (`public/willo.html`, `public/js/willo.js`), linked from /plans and the plan card on /account:
+The page **`/willo/style`** (`public/willo/style.html`, `public/js/willo.js`), linked from /plans and the plan card on /account:
 how Willo talks to a paying player. `lib/willo-custom.js`, the API `functions/api/willo.js` (GET, PUT, DELETE) and the
 character search `functions/api/willo/npcs.js` (the lore pages' characters, from `public/lore/data/index.json`).
 Behind the same `plans` feature: while it's off, nothing reaches a prompt and the API answers 503.

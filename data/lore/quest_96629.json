@@ -1,0 +1,114 @@
+{
+ "key": "quest:96629",
+ "type": "quest",
+ "name": "Camping 101: Cooking",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96629
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Cooking provides the foundational campfire required to establish wilderness campsites and place camp furnishings."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Even spiritual practitioners devoted to the Light must master basic survival skills like fire-building when traveling far from temples and settlements."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers starting near Dun Morogh learn the fundamentals of bushcraft and cooking from the dwarven instructors of Kharanos."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is camping 101 cooking",
+    "quest purpose",
+    "camping basics cooking"
+   ],
+   "answer": "Camping 101: Cooking is an instructional quest that introduces adventurers to the essential craft of cooking as the cornerstone of wilderness survival and camp setup.",
+   "q": "What is the quest Camping 101: Cooking?"
+  },
+  {
+   "aliases": [
+    "who teaches cooking in kharanos",
+    "gremlock pilsnor location",
+    "cooking trainer dun morogh"
+   ],
+   "answer": "Gremlock Pilsnor is the local cooking trainer located in Kharanos in Dun Morogh, who teaches novices how to prepare food and build campfires.",
+   "q": "Who is Gremlock Pilsnor?"
+  },
+  {
+   "aliases": [
+    "why do i need cooking for camping",
+    "campfire purpose",
+    "cooking and camps"
+   ],
+   "answer": "Cooking allows adventurers to build a basic campfire, which serves as the core foundation for setting up a wilderness camp and placing furnishings around it.",
+   "q": "Why is cooking necessary for camping?"
+  },
+  {
+   "aliases": [
+    "where can i make a camp",
+    "campsite rules",
+    "setting up camp"
+   ],
+   "answer": "Once you know how to build a fire, you can pitch a basic campsite out in the wilderness, providing a resting place during your journeys.",
+   "q": "Where can a campsite be established?"
+  },
+  {
+   "aliases": [
+    "how to upgrade campsite",
+    "bigger fires",
+    "more camp decorations"
+   ],
+   "answer": "Advancing your cooking skill allows you to build larger campfires, and learning other crafting trades enables you to craft and place additional campsite furnishings.",
+   "q": "How do you improve or expand a campsite?"
+  },
+  {
+   "aliases": [
+    "who offers camping furnishings",
+    "tradeskill camp items",
+    "other camp trainers"
+   ],
+   "answer": "Other tradeskill trainers can teach the basics of crafting furnishings for your campsite if you are skilled in their respective professions.",
+   "q": "Can other professions contribute to camping?"
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping",
+  "cooking",
+  "dun morogh",
+  "furnishings",
+  "gremlock pilsnor",
+  "kharanos",
+  "wilderness"
+ ],
+ "related": [
+  "subzone:kharanos",
+  "topic:priest"
+ ],
+ "sections": [
+  {
+   "body": "For any traveler braving the wilds, establishing a reliable campsite begins with a flame. In Dun Morogh, novice adventurers are directed to Kharanos to learn the fundamentals of cooking under Gremlock Pilsnor. Cooking is not simply about sustaining oneself with hot meals on the road; a sturdy campfire serves as the literal and practical anchor for any outdoor camp.",
+   "spoiler": 0,
+   "title": "The Hearth in the Wild"
+  },
+  {
+   "body": "A newly learned campfire allows an adventurer to pitch a humble camp anywhere in the open wilderness. While rudimentary fires support only minimal furnishings, improving one's cooking proficiency unlocks the ability to build larger blazes. Furthermore, artisans skilled in other crafting trades can fashion additional furnishings to transform a simple rest stop into a fully outfitted encampment.",
+   "spoiler": 0,
+   "title": "Expanding the Campsite"
+  }
+ ],
+ "summary": "Camping 101: Cooking introduces adventurers in Dun Morogh to the essential survival skill of cooking. Beyond preparing provisions, learning this trade enables travelers to light campfires that serve as the foundation for wilderness campsites.",
+ "attribution": [
+  "In-game quest text: Camping 101: Cooking"
+ ]
+}

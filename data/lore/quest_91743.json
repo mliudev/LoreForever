@@ -1,0 +1,111 @@
+{
+ "key": "quest:91743",
+ "type": "quest",
+ "name": "Rascally Rodents",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91743
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "Human initiates beginning their training in Northshire Valley are called upon to defend the abbey's treasures and scholarly works from opportunistic pests and invaders."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests aiding the Abbey of Northshire help maintain the sanctity and intellectual heritage of the Holy Light's scholars, protecting valuable texts from destruction."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Scholars of the arcane understand the irreplaceable value of written knowledge and written works, even when under threat from unlikely thieves like kobolds."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives rascally rodents",
+    "quest giver rascally rodents",
+    "paxton book quest"
+   ],
+   "answer": "Brother Paxton, an abbey resident who is desperate to safeguard the abbey's library from the vermin infesting the valley, offers this task to adventurers in Northshire Valley.",
+   "q": "Who gives the quest Rascally Rodents?"
+  },
+  {
+   "aliases": [
+    "why kobolds taking books",
+    "do kobolds eat books",
+    "why do kobolds want books"
+   ],
+   "answer": "Brother Paxton initially believes the kobolds are literally eating his books. However, upon inspecting the recovered volumes, he realizes they are not being devoured at all, leaving their true purpose and interest in the texts an unsettling mystery.",
+   "q": "Why are the kobolds stealing books?"
+  },
+  {
+   "aliases": [
+    "where to find stolen books",
+    "stolen books location",
+    "kobold books northshire"
+   ],
+   "answer": "The Stolen Books are found on the kobolds infesting Northshire Valley, who have pillaged the texts from the local collection and carried them into their camps and mine workings.",
+   "q": "Where do you find the Stolen Books?"
+  },
+  {
+   "aliases": [
+    "who is brother paxton",
+    "brother paxton lore"
+   ],
+   "answer": "Brother Paxton is a member of the Northshire brotherhood who cares deeply for the written works housed in the valley and depends on passing initiates to rescue them from local scavengers.",
+   "q": "Who is Brother Paxton?"
+  },
+  {
+   "aliases": [
+    "what reward paxton gives",
+    "how to book reward"
+   ],
+   "answer": "Upon returning eight of the stolen volumes, Brother Paxton gratefully gives you one of his how-to books that he claims he has no need for, while lamenting the many volumes that remain missing.",
+   "q": "What does Brother Paxton give you as a reward?"
+  },
+  {
+   "aliases": [
+    "are all books recovered",
+    "are all books saved"
+   ],
+   "answer": "No. Even after recovering eight stolen books, Brother Paxton notes that many volumes remain missing throughout the valley, with the kobolds' strange interest in them still unexplained.",
+   "q": "Are all the stolen books recovered?"
+  }
+ ],
+ "keywords": [
+  "brother paxton",
+  "kobolds",
+  "library",
+  "northshire abbey",
+  "northshire valley",
+  "rascally rodents",
+  "stolen books"
+ ],
+ "related": [
+  "quest:344",
+  "subzone:northshire-valley",
+  "topic:kobold"
+ ],
+ "sections": [
+  {
+   "body": "Brother Paxton in Northshire Valley is in distress over the local kobold infestation, which has spilled over from the surrounding hills and mines into the sacred grounds. Convinced that the ravenous creatures have begun devouring the texts from his collection, he enlists the aid of young adventurers to hunt down the vermin and salvage whatever volumes remain before the entire library is lost.",
+   "spoiler": 0,
+   "title": "A Threat to the Library"
+  },
+  {
+   "body": "Upon retrieving eight stolen volumes from the valley's kobolds, Brother Paxton discovers something unexpected: the creatures have not actually been eating the paper or bindings. Instead, the kobolds are deliberately taking and hoarding the books for reasons unknown, leaving the brother deeply unsettled as many volumes remain unaccounted for in the valley.",
+   "spoiler": 1,
+   "title": "An Unexplained Appetite"
+  }
+ ],
+ "summary": "Rascally Rodents is a quest in Northshire Valley where Brother Paxton tasks adventurers with recovering stolen books from the local kobolds. Though Paxton initially fears the vermin are devouring his library, retrieving the texts reveals an unsettling mystery behind the creatures' motives.",
+ "attribution": [
+  "In-game quest text: Rascally Rodents"
+ ]
+}

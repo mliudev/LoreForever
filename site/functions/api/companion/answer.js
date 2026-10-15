@@ -1,37 +1,45 @@
 // Account-linked companion answers. The site owns the key and pays for a small daily allowance; a player's plan
-// (lib/billing.js) gives more, and top-ups more again once the day's plan answers are gone.
+// (lib/billing.js) gives more. Answers can't be bought: once a plan's are gone (and a free player's starter), Willo
+// answers from the add-on's lore library until they come back.
 import { setup, fail, noStore } from "../../../lib/accounts.js";
 import { currentDevice } from "../../../lib/devices.js";
 import { perDay, perPeriod } from "../../../lib/ratelimit.js";
 import { allowance, reserveAnswer, answerReservation, writeAnswer, lookUp, uncapped, personaOf, styleOf,
-  COMPACTIONS_PER_DAY, ANSWER_PROMPT_BYTES, ANSWER_IMAGE_CHARS, LORE_FOCUS } from "../../../lib/companion-answers.js";
+  COMPACTIONS_PER_DAY, ANSWER_PROMPT_BYTES, ANSWER_IMAGE_CHARS, LORE_FOCUS, TRAIL_COLD, CUSTOM_PROMPT_BYTES }
+  from "../../../lib/companion-answers.js";
 import { promptParts, knowledgeFor } from "../../../lib/forever-knowledge.js";
 import { feedbackKind, logFeedback } from "../../../lib/answer-feedback.js";
 import { cachedFinding, keepFinding, findingBlock, wantsSearch } from "../../../lib/research-cache.js";
-import { planFor, plansOn, holdUserSpend, releaseUserSpend, addUserSpend, topupFor, useTopup, returnTopup, offersFor,
-  dayMax, poolWindow, PLANS } from "../../../lib/billing.js";
+import { planFor, plansOn, holdUserSpend, releaseUserSpend, addUserSpend, useStarter, returnStarter, offersFor,
+  poolWindow, overTextCap, PLANS } from "../../../lib/billing.js";
 import { promptBlocks, NPC_KEY } from "../../../lib/willo-custom.js";
 
 const CLIENT = /^companion\/[\w.-]{1,24}$/;
 const MAX_BODY_BYTES = 64 * 1024; // JSON escaping can expand a valid 16 KB Unicode prompt.
 // A spoken question may also carry a picture (base64, a byte per character); the rest of the body keeps MAX_BODY_BYTES.
 const MAX_PICTURE_BODY_BYTES = MAX_BODY_BYTES + ANSWER_IMAGE_CHARS;
-// offers: what the player could buy for more answers (lib/billing.js offersFor), only when there's something.
+// offers: the plan the player could move up to for more answers (lib/billing.js offersFor), only when there's one.
 const tooMany = (error, retryAfter, allowance, offers = []) => Response.json({ ok: false, error, retryAfter, allowance,
   ...(offers.length ? { offers } : {}) }, { status: 429, headers: { ...noStore, "Retry-After": String(retryAfter) } });
 const untilReset = (left, now) => Math.ceil((Date.parse(left.resetsAt) - now.getTime()) / 1000);
 const untilTomorrow = now => Math.ceil((Date.parse(now.toISOString().slice(0, 10) + "T00:00:00Z") + 86400e3 - now.getTime()) / 1000);
 const dateOf = iso => new Date(iso).toLocaleDateString("en-US", { month: "long", day: "numeric", timeZone: "UTC" });
 
-// The plan's answers are gone, today's or the month's (the allowance's period), and there's no top-up left: the 429,
-// with what's for sale. While plans are off it says what it said before plans.
-async function outOfAnswers(env, userId, plan, now, exempt) {
-  const [left, offers] = await Promise.all([allowance(env, userId, now, exempt, plan), offersFor(env, userId, plan, now)]);
-  const more = offers.some(o => o.id === "topup") ? " Top-ups and plans are on loreforeverwow.com/plans." : "";
-  const used = !plansOn(env) ? `today's ${plan.answersPerDay} free answers. They come back tomorrow.`
-    : left.period === "month" ? `this month's ${left.limit} live answers. They come back on ${dateOf(left.resetsAt)}.`
-    : `today's ${left.limit} live answers. They come back tomorrow.`;
-  return tooMany(`You've used ${used}${plansOn(env) ? more : ""}`, untilReset(left, now), left, offers);
+// The plan's answers are gone, today's or the month's (the allowance's period), and a free player's starter too: the
+// 429, with the plan above theirs for the companion's own buttons (Free's is Hero; Legend's is nothing). Its words
+// become the start of the add-on's lore-library answer (companion/lore_companion/answer.py offline_answer, which goes
+// on "Until then, here's what the lore library says."), so they're Willo's, in the world, and only say when live
+// answers come back, never what to buy (Mike, 2026-10-13). capped: the plan's month of answers cost its text cap
+// (lib/billing.js overTextCap): the month's words, and nothing offered. While plans are off it says what it said
+// before plans.
+async function outOfAnswers(env, userId, plan, now, exempt, capped = false) {
+  const left = await allowance(env, userId, now, exempt, plan);
+  const offers = capped ? [] : offersFor(env, plan);
+  const words = !plansOn(env) ? `You've used today's ${plan.answersPerDay} free answers. They come back tomorrow.`
+    : capped || left.period === "month"
+      ? `My light's spent for this month. The Moonwell refills it on ${dateOf(left.resetsAt)}.`
+    : "My light's spent for today. The Moonwell refills it tomorrow.";
+  return tooMany(words, untilReset(left, now), left, offers);
 }
 
 // An answer that holds part of its player's cost cap (answerQuestion) settles the hold with what it cost once it's
@@ -103,34 +111,28 @@ async function answerQuestion({ request, env }, hold) {
   // The free plan, while plans are on (Mike, 2026-10-12): its answers stay with the world's lore (LORE_FOCUS below),
   // without looking online or the game picture. Willo still speaks in its own voice (style "spoken" stays).
   if (plansOn(env) && !subscriber) [researchRequired, autoResearch, image] = [false, false, null];
-  // pack: the starter or top-up this answer comes out of, when the day's plan answers are gone.
+  // pack: the free plan's starter, when this answer comes out of it (the day's plan answers are gone).
   let pack = null;
   if (compact) {
     // Compaction has its own abuse limit and uses the shared paid budget. It never spends a player's daily answer or
-    // a top-up.
+    // a starter answer.
     if (!(await perDay(env, app.user.id, "companion-compact", COMPACTIONS_PER_DAY, now))) {
       const left = await allowance(env, app.user.id, now, exempt, plan);
-      return tooMany("Chat memory is at its daily limit. Your messages are saved; try again tomorrow.", untilTomorrow(now), left);
+      return tooMany("Chat memory has done all it can for today. Your messages are saved; try again tomorrow.", untilTomorrow(now), left);
     }
   } else if (!exempt) {
     // The plan's answers first: today's, and a paid plan's month's (from its renewal day, lib/billing.js poolWindow).
-    // Once they're gone, while plans are on, the free plan's starter, then a top-up.
+    // Once they're gone, while plans are on, the free plan's starter; then the add-on's lore library (the 429).
+    // A paying player whose answers this month cost half their plan's net (lib/billing.js overTextCap) has none of the
+    // plan's left until the next month: the lore library answers.
     const pool = plansOn(env) && plan.answersPerMonth ? poolWindow(plan, now) : null;
-    const planned = await perDay(env, app.user.id, "companion-answer", plan.answersPerDay, now)
+    const capped = plansOn(env) && await overTextCap(env, app.user.id, plan, now);
+    const planned = !capped && await perDay(env, app.user.id, "companion-answer", plan.answersPerDay, now)
       && (!pool || await perPeriod(env, app.user.id, "companion-month", pool.key, plan.answersPerMonth));
-    const packs = !planned && plansOn(env) ? await topupFor(env, app.user.id, now) : null;
-    if (!planned && !(packs && packs.remaining + (subscriber ? 0 : packs.starter) > 0))
-      return outOfAnswers(env, app.user.id, plan, now, exempt);
-    // While plans are on, every live answer, plan, starter or top-up, counts toward the most an account gets in a day,
-    // whatever was bought.
-    if (plansOn(env) && !(await perDay(env, app.user.id, "companion-day", dayMax(plan), now))) {
-      const left = await allowance(env, app.user.id, now, exempt, plan);
-      return tooMany("That's the most live answers for one day. They come back tomorrow.", untilTomorrow(now), left);
-    }
-    // Taken in one statement, so a question asked at the same moment can't spend the same answer; one that finds the
-    // last answer gone is out of answers.
-    if (!planned && !(pack = await useTopup(env, app.user.id, { starter: !subscriber })))
-      return outOfAnswers(env, app.user.id, plan, now, exempt);
+    // A starter answer is taken in one statement, so a question asked at the same moment can't spend the same answer;
+    // one that finds the last one gone is out of answers.
+    if (!planned && !(plansOn(env) && !subscriber && (pack = await useStarter(env, app.user.id))))
+      return outOfAnswers(env, app.user.id, plan, now, exempt, capped);
   }
   // A player saying the last answer was wrong, or losing patience: Willo is told not to argue, and it comes back to us
   // (lib/answer-feedback.js) with what was asked and answered. A character's reply is in character, so not counted.
@@ -142,28 +144,29 @@ async function answerQuestion({ request, env }, hold) {
   const longMemory = Boolean(PLANS[plan.id]?.longMemory) && compact;
   // Looking it up (LOR-446). What another player's search found for the same question here answers without searching
   // again, for required research too. research "auto" (the companion asks for it with spoken questions) looks online
-  // quickly only when no Forever fact covers a practical question or a correction (lib/research-cache.js wantsSearch).
-  let finding = wantsResearch ? await cachedFinding(env, parts, now) : null;
+  // quickly only when the lore and Forever facts can't answer: a practical or current question or a correction that no
+  // fact covers (lib/research-cache.js wantsSearch). One it wouldn't look up gets no earlier finding either, so where
+  // am I or a lore question never shows web sources.
+  const searchable = wantsResearch && (researchRequired || wantsSearch(parts.question, dispute, known.facts));
+  let finding = searchable ? await cachedFinding(env, parts, now) : null;
   const cached = Boolean(finding);
   let research = researchRequired && !finding;
-  let quick = operation === "answer" && autoResearch && !researchRequired && !finding
-    && wantsSearch(parts.question, dispute, known.facts);
-  // A plan's or a top-up's answer is paid for, so it skips the shared monthly budget, and its cost is counted as theirs.
-  // A starter answer is free: it waits for the shared budget like the day's free answers.
-  let paid = subscriber || pack?.kind === "topup";
-  // Past the monthly cost cap of the plan, or the cost cap of the top-up the answer comes out of, the answer goes back
-  // to the ordinary model and doesn't look online, until the month ends. Nobody is cut off by either; a longer chat
-  // memory stays, since it's cheap. An answer that would look online or use the stronger model first holds what
-  // reserveAnswer reserves for it against that cap, in one statement (lib/billing.js holdUserSpend), so questions asked
-  // at the same moment can't all get in under the cap; settle swaps the hold for what the answer cost.
+  let quick = searchable && !researchRequired && !finding;
+  // A plan's answer is paid for, so it skips the shared monthly budget, and its cost is counted as theirs. A starter
+  // answer is free: it waits for the shared budget like the day's free answers.
+  const paid = subscriber;
+  // Past the plan's monthly cost cap, the answer goes back to the ordinary model and doesn't look online, until the
+  // month ends. Nobody is cut off by it; a longer chat memory stays, since it's cheap. An answer that would look online
+  // or use the stronger model first holds what reserveAnswer reserves for it against that cap, in one statement
+  // (lib/billing.js holdUserSpend), so questions asked at the same moment can't all get in under the cap; settle swaps
+  // the hold for what the answer cost.
   let held = null;   // {id, micro}
   const upgrade = () => paid && (research || quick || strong)
     ? answerReservation(research, operation, { lookup: quick, strong, longMemory }) : 0;
   const holdCap = async () => {
     const micro = upgrade();
     if (!micro) return;
-    const id = await holdUserSpend(env, app.user.id, micro, now,
-      pack?.kind === "topup" ? { packId: pack.id } : { cap: plan.costCapMicro });
+    const id = await holdUserSpend(env, app.user.id, micro, now, { cap: plan.costCapMicro, launch: Boolean(plan.launch) });
     if (id) held = { id, micro };
     else research = quick = strong = false;
   };
@@ -175,12 +178,15 @@ async function answerQuestion({ request, env }, hold) {
     await releaseUserSpend(env, id, keep);
   };
   await holdCap();
-  // The plan's web look-ups a month (lib/billing.js lookupsPerMonth, the month from its renewal day): past them, the
-  // month's answers don't look online, and their hold shrinks to fit. A finding another player's search kept costs
-  // nothing, so it isn't counted.
+  // The plan's web look-ups a month (lib/billing.js lookupsPerMonth, the month from its renewal day), a quiet guard
+  // inside its cost caps that players never see as a number: past them, the month's answers don't look online, and
+  // their hold shrinks to fit. A finding another player's search kept costs nothing, so it isn't counted, and still
+  // answers. One that would have looked gets TRAIL_COLD: a warm in-world line when it truly needs fresh news.
+  let trailCold = false;
   if ((research || quick) && plansOn(env) && !exempt && !(await perPeriod(env, app.user.id, "companion-lookup",
       poolWindow(plan, now).key, plan.lookupsPerMonth || 0))) {
     research = quick = false;
+    trailCold = true;
     await release(upgrade());
   }
   // A paying player's customization (lib/willo-custom.js): Willo's style, or their tale of the character. A failure to
@@ -190,19 +196,14 @@ async function answerQuestion({ request, env }, hold) {
     try { custom = await promptBlocks(env, app.user.id, plan, { operation, npc }); }
     catch (e) { console.warn(`companion answer: customization: ${e?.message || e}`); }
   } else if (plansOn(env) && operation === "answer") custom = { system: LORE_FOCUS, tale: false };
-  let reserved = await reserveAnswer(env, now, research, operation, quick, { paid, strong, longMemory });
-  // The shared budget is full, but this free player bought a top-up: their answer comes out of it instead, with its
-  // cost cap, and a starter answer taken for it goes back.
-  let topup;
-  if (!reserved && !paid && !compact && plansOn(env) && (topup = await useTopup(env, app.user.id))) {
-    if (pack) await returnTopup(env, pack.id);
-    [pack, paid] = [topup, true];
-    await holdCap();
-    reserved = await reserveAnswer(env, now, research, operation, quick, { paid, strong, longMemory });
+  if (trailCold) {
+    const system = [custom.system, TRAIL_COLD].filter(Boolean).join("\n\n");
+    if (new TextEncoder().encode(system).length <= CUSTOM_PROMPT_BYTES) custom = { ...custom, system };
   }
+  const reserved = await reserveAnswer(env, now, research, operation, quick, { paid, strong, longMemory });
   if (!reserved) {
     // A starter answer taken for a question that never reached the model goes back.
-    if (pack) await returnTopup(env, pack.id);
+    if (pack) await returnStarter(env, pack.id);
     return tooMany("We're at capacity for free live answers right now. Try again next month.",
       86400, await allowance(env, app.user.id, now, exempt, plan));
   }
@@ -212,12 +213,12 @@ async function answerQuestion({ request, env }, hold) {
     spoken: Boolean(style) });
   // A paid-for answer's cost goes on the player's month (lib/billing.js addUserSpend), once: what the quick look online
   // and the answer cost, as lib/companion-answers.js counts them, whether the answer came or not. It takes the place of
-  // what the answer held against its cap.
+  // what the answer held against its cap. The beta's free Hero's is kept apart (launch).
   let lookCost = 0, settled = !paid;
   const settle = async counted => {
     if (settled) return;
     settled = true;
-    await addUserSpend(env, app.user.id, lookCost + (counted || 0), now, pack?.id, held?.id);
+    await addUserSpend(env, app.user.id, lookCost + (counted || 0), now, held?.id, Boolean(plan.launch));
     held = null;
   };
   try {
@@ -255,8 +256,8 @@ async function answerQuestion({ request, env }, hold) {
       ...(dispute ? { feedback: dispute } : {}), ...(custom.tale ? { tale: true } : {}) }, { headers: noStore });
   } catch (e) {
     await settle(e?.counted);
-    // A failed answer gives its top-up answer back: the player paid for answers, not attempts.
-    if (pack) await returnTopup(env, pack.id);
+    // A failed answer gives its starter answer back: it's for answers, not attempts.
+    if (pack) await returnStarter(env, pack.id);
     console.warn(`companion answer: ${e?.message || e}`);
     return fail(502, "Couldn't get a live answer just now. Try again in a moment.");
   }

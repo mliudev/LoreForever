@@ -1,0 +1,111 @@
+{
+ "key": "quest:91775",
+ "type": "quest",
+ "name": "Book Return",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91775
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The careless handling of arcane primers like 'Fun with Elementals' poses a serious hazard when left within reach of simple subterranean creatures like kobolds."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Northshire's Abbey libraries and Goldshire's garrison work together to safeguard civilian literature and dangerous magical texts from Elwynn's pests."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is book return",
+    "book return quest",
+    "who gives book return"
+   ],
+   "answer": "Book Return is a task assigned by Marshal Dughan in Goldshire to recover books belonging to Brother Paxton that went missing in the Fargodeep Mine. Along with scattered general reading, Paxton is especially anxious to recover a magical primer titled 'Fun with Elementals.'",
+   "q": "What is the quest Book Return?"
+  },
+  {
+   "aliases": [
+    "why paxton books in mine",
+    "how did books get into fargodeep",
+    "why are books in fargodeep mine"
+   ],
+   "answer": "Brother Paxton's lost books wound up inside the Fargodeep Mine, which has recently fallen overrun by kobolds. While it is unclear whether miners, travelers, or pilfering kobolds dragged them into the tunnels, Paxton urgently wants them gathered before the books are ruined or misused.",
+   "q": "Why are Brother Paxton's books inside Fargodeep Mine?"
+  },
+  {
+   "aliases": [
+    "fun with elementals",
+    "what is fun with elementals",
+    "paxton elemental book"
+   ],
+   "answer": "'Fun with Elementals' is an introductory conjuration text Brother Paxton is desperate to recover. He fears the instructions are so elementary and simple that even a dim-witted kobold could accidentally follow them to summon an elemental servant deep within the mine.",
+   "q": "What is the book 'Fun with Elementals'?"
+  },
+  {
+   "aliases": [
+    "who is brother paxton",
+    "paxton lore",
+    "librarian paxton"
+   ],
+   "answer": "Brother Paxton is a cleric of Northshire Abbey known for his devotion to study, records, and literature. His concern over lost reading material extends beyond mere lost property, as some texts contain potent rudimentary magic.",
+   "q": "Who is Brother Paxton?"
+  },
+  {
+   "aliases": [
+    "why dughan care about books",
+    "marshal dughan books"
+   ],
+   "answer": "Marshal Dughan oversees the defense of Elwynn Forest from Goldshire. While dispatching adventurers to investigate the kobold infestation threatening Fargodeep Mine, he uses the opportunity to help Brother Paxton retrieve his missing volumes before the kobolds pose an even greater magical threat.",
+   "q": "Why is Marshal Dughan involved in retrieving books?"
+  },
+  {
+   "aliases": [
+    "can kobolds use magic",
+    "can kobolds summon elementals"
+   ],
+   "answer": "Kobolds are generally crude tunnel-dwellers known for geomancy and fire, but Brother Paxton worries that a simple instructional guide could grant them the means to conjure elemental forces, making an already dangerous infestation far worse.",
+   "q": "Could a kobold really summon an elemental?"
+  }
+ ],
+ "keywords": [
+  "book return",
+  "brother paxton",
+  "elwynn forest",
+  "fargodeep mine",
+  "fun with elementals",
+  "goldshire",
+  "kobold",
+  "marshal dughan"
+ ],
+ "related": [
+  "quest:62",
+  "quest:344",
+  "subzone:fargodeep-mine",
+  "npc:marshal-dughan",
+  "topic:kobold"
+ ],
+ "sections": [
+  {
+   "body": "While investigating the growing kobold menace within Fargodeep Mine, Marshal Dughan tasks adventurers with recovering missing volumes belonging to Brother Paxton of Northshire Abbey. Among the scattered texts lost in the dim subterranean tunnels is a particularly volatile primer titled 'Fun with Elementals.' Paxton fears that the instructions within are so accessible that even the mine's crude kobold squatters could decipher them and conjure an elemental creature in the depths.",
+   "spoiler": 0,
+   "title": "Lost Pages in the Dark"
+  },
+  {
+   "body": "Fargodeep Mine was once a prosperous gold venture for the kingdom of Stormwind, but recent troubles have allowed vermin to overrun its lower levels. As Elwynn's defenders stretch thin, recovered texts must be stored safely in a protective book bag to survive the damp, treacherous caverns. Retrieving Paxton's lost library ensures that mundane records are preserved and hazardous arcane lessons stay out of primitive hands.",
+   "spoiler": 0,
+   "title": "Knowledge in Peril"
+  }
+ ],
+ "summary": "Book Return is an Elwynn Forest quest directing adventurers to recover Brother Paxton's lost reading materials from the infested depths of Fargodeep Mine. Chief among the missing volumes is 'Fun with Elementals,' a beginner's guide that risks granting the mine's kobolds dangerous conjuration abilities if left in their clutches.",
+ "attribution": [
+  "In-game quest text: Book Return"
+ ]
+}

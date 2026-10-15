@@ -16,14 +16,13 @@
 ;   /VOICEURL=<base>     where the voice zips come from instead of this version's release, e.g.
 ;                        https://github.com/mliudev/LoreForever/releases/latest/download/ (to smoke-test a build
 ;                        whose release isn't published yet)
-;   /QA                  requires an explicit scratch /DIR; the companion's files stay under it too. No registry,
-;                        shortcuts, app launch, process stop or uninstaller; leaves the real installation alone.
+;   /QA                  requires an explicit scratch /DIR. No registry, shortcuts, website or uninstaller; leaves
+;                        the real installation alone.
 ;
 ; Built by .github/workflows/release.yml from the unzipped release zip:
 ;   iscc /DAppVersion=0.3.0 /DSourceDir=<folder holding the zip's add-on folders> /DOutputDir=dist release\installer\LoreForever.iss
-; With the companion app (LOR-132), when the release build made one, add
-;   /DCompanionDir=<the built LoreForeverCompanion folder> /DCompanionIss=<companion\packaging\companion.iss>
-; which adds a components page (the add-on; the companion). Without them, Setup is as before.
+; Willo, the companion app, is a download of its own (Willo-Setup.exe, companion/packaging/Willo.iss in the private
+; repo); this Setup used to offer it as a component.
 
 #ifndef AppVersion
   #define AppVersion "0.0.0"
@@ -68,6 +67,10 @@ UninstallFilesDir={localappdata}\LoreForever
 Uninstallable=not IsQA
 UninstallDisplayName=Lore Forever (WoW add-on)
 UninstallDisplayIcon={uninstallexe}
+; Each run's uninstall log replaces the last one instead of adding to it. Setup.exe used to install the companion app
+; (Willo) too, and an appended log would remember its files: uninstalling the add-on would then delete Willo, which
+; Willo-Setup.exe now installs in that same folder. What this run installs is what the uninstaller removes.
+UninstallLogMode=overwrite
 SetupIconFile=..\logo.ico
 WizardSmallImageFile=wizard-small.bmp,wizard-small-150.bmp,wizard-small-200.bmp
 WizardImageFile=wizard-large.bmp,wizard-large-150.bmp,wizard-large-200.bmp
@@ -717,9 +720,3 @@ begin
   end;
 end;
 
-// The companion app's part of Setup (LOR-132; see the header). It goes last: its [Setup] header ends this [Code]
-// section, its event handlers run alongside the ones above, and its #defines (it has its own VoiceBase) come after
-// every use of this file's.
-#ifdef CompanionIss
-  #include CompanionIss
-#endif

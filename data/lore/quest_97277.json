@@ -1,0 +1,104 @@
+{
+ "key": "quest:97277",
+ "type": "quest",
+ "name": "Grund and Gozwin",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97277
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Gozwin embodies the quintessential gnome tinkerer whose first instinct after surviving a vicious predator attack is worrying about the safety of his mechano-strider schematics."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Grund's quick reaction with a shotgun and stubborn campfire camaraderie reflect the steady loyalty dwarves bring when traveling alongside their gnomish allies."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Gozwin's anxiety over losing his mechanic's log shows how guarded tinkerers are regarding their mecha-walker designs and proprietary notes."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who are grund and gozwin",
+    "grund gozwin"
+   ],
+   "answer": "Grund is a shotgun-wielding dwarf camper, and Gozwin is his gnomish engineer companion. While setting up camp in the snowy hills to roast a boar, they were ambushed by a prowling snow leopard, leaving Gozwin wounded and their gear scattered.",
+   "q": "Who are Grund and Gozwin?"
+  },
+  {
+   "aliases": [
+    "what attacked gozwin",
+    "who attacked gozwin"
+   ],
+   "answer": "A fierce snow leopard prowler ambushed Gozwin from behind while Grund was preparing dinner. The beast sank its teeth into the gnome and attempted to drag him off before Grund fired a warning shot that scared the cat away.",
+   "q": "What attacked Gozwin at camp?"
+  },
+  {
+   "aliases": [
+    "why is the log important",
+    "mechanic log gozwin"
+   ],
+   "answer": "Gozwin's Mechanic's Log contains vital technical schematics and notes regarding his mecha-walker. Gozwin feared that if anyone else got their hands on his personal engineering notes, his project would be completely ruined.",
+   "q": "Why is Gozwin's Mechanic's Log so important to him?"
+  },
+  {
+   "aliases": [
+    "is gozwin okay",
+    "did gozwin survive"
+   ],
+   "answer": "Yes, Gozwin survived the ambush thanks to Grund's quick shotgun shot. He escaped with deep scratches and severe shock, though he is recovering safely while Grund tends to him.",
+   "q": "How badly hurt was Gozwin in the attack?"
+  },
+  {
+   "aliases": [
+    "where is the camp",
+    "grund camp location"
+   ],
+   "answer": "The pair's campsite lies nestled in the hills to the northwest. Adventurers are dispatched to the camp to retrieve the lost logbook and eliminate the leopard prowler that stalks the area.",
+   "q": "Where is Grund and Gozwin's camp located?"
+  },
+  {
+   "aliases": [
+    "what happened to the boar roast",
+    "leopard eating boar"
+   ],
+   "answer": "After being scared off Gozwin by Grund's gunfire, the predatory snow leopard returned to the abandoned campsite and scavenged the roast boar that Grund had been preparing for dinner.",
+   "q": "What happened to the meal Grund was preparing?"
+  }
+ ],
+ "keywords": [
+  "dwarf",
+  "gnome engineer",
+  "gozwin",
+  "grund",
+  "mecha-walker",
+  "mechanic's log",
+  "snow leopard prowler"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "While traveling together in the snowy hills, the dwarf Grund and his gnomish companion Gozwin set up an encampment for the evening. As Grund turned his back to prep a boar over the fire, a snow leopard prowler lunged from the brush and grabbed Gozwin in its jaws. Reacting instantly, Grund grabbed his trusty shotgun and blasted a round over the beast's head, startling the predator into dropping the gnome and fleeing into the cold crags.",
+   "spoiler": 0,
+   "title": "An Ambush by the Fire"
+  },
+  {
+   "body": "Although Gozwin escaped the jaws of the cat with deep scratches rather than fatal injuries, their camp was thoroughly disrupted. In the chaos of the retreat, Gozwin dropped his prized Mechanic's Log\u2014a technical notebook containing critical schematics for his mecha-walker. Terribly anxious that someone might discover his engineering secrets, the battered gnome could not rest until an adventurer agreed to venture northwest into the hills to reclaim his book and slay the prowling predator.",
+   "spoiler": 0,
+   "title": "A Tinkerer's Lost Work"
+  }
+ ],
+ "summary": "Grund and Gozwin recounts an ambush at a campsite in the snowy northwestern hills, where a dwarf and a gnome were attacked by a predatory snow leopard. Although the gnome survived thanks to his partner's shotgun, his prized mechanic's log was left behind in the commotion. Adventurers are sent into the hills to recover the delicate notes and slay the stalking beast.",
+ "attribution": [
+  "In-game quest text: Grund and Gozwin"
+ ]
+}

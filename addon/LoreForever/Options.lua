@@ -39,7 +39,7 @@ Options.DEFAULTS = {
   -- picture book on. Never in combat or on a flight, ten a day at most.
   automaticPictures = true,
   capture = true,          -- keep the quest, gossip and book text Forever shows, to share at /contribute (Capture.lua)
-  -- Live game info: a tiny block of coloured cells in the top-left corner that the companion app reads (Strip.lua,
+  -- Live game info: Willo's sky, star rings over the minimap that the companion app reads (Strip.lua, Sky.lua,
   -- LOR-416). Opt-in, never turned on by anything else: it shows on screen, and the companion has its own switch for
   -- reading it. It shows only while the Lore Forever panel is open, unless liveStripAlways.
   liveStrip = false,
@@ -47,8 +47,8 @@ Options.DEFAULTS = {
   -- The small Contribute button on quest, gossip and book windows (Capture.lua). Defaults are written into
   -- SavedVariables, so older installs (saved off) are turned on once by Log.Init's featuresOn.
   contributeButtons = true,
-  -- Get Willo in the panel's header, and offered when the add-on has no answer, until the companion app is installed
-  -- (Companion.OfferWillo, LOR-459).
+  -- "Suggest Willo in the chat": one line about the companion app when the add-on has no answer, once a play session,
+  -- until it's installed (Companion.SuggestWillo, LOR-459).
   getWillo = true,
   language = "auto",      -- "auto" (the game client's language), "enUS" or a language pack's locale
   -- Narration voices: voiceOrder (pack add-on names, "auto" = the default pack) and voiceOff (unticked ones) are
@@ -583,28 +583,31 @@ local function rows()
     { "skipHeard", L["Skip what you've heard"], L["Don't play a narration by itself again once this character has heard it. You can still play it any time; the Library ticks the ones you've heard."] },
     { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
     { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC."] },
-    { "liveStrip", L["Live game info for the companion app"], L["While the Lore Forever window is open, or while you hold %s's talk key to ask a question, shows a tiny block of colored squares in the top-left corner. Only the Lore Forever companion app on this PC reads it, so %s knows where you are, who you're targeting and your tracked quest. It isn't a hack: it doesn't read the game's memory, never presses keys or clicks, and sends nothing online. Also turn on Live game info in the companion's Settings. Untick to turn it off."]:format(ns.COMPANION_NAME, ns.COMPANION_NAME) },
-    { "liveStripAlways", L["Live game info: show it all the time"], L["Keep the squares on screen while the Lore Forever window is closed too, so %s always knows where you are. Only matters with Live game info on."]:format(ns.COMPANION_NAME) },
-    { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or set Take a journey picture in Key Bindings, AddOns. This option hides your interface for a moment, except in combat. In the companion, turn on Picture book and connect your profile. Pictures with the interface need On my profile."] },
     { "capture", L["Keep the quest text you see"], L["Keep the quest, gossip and book text Forever shows you, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it."] },
     { "contributeButtons", L["Contribute buttons"], L["A small button on quest, gossip and book windows whose text Lore Forever doesn't have yet. Click it for a link to share that text."] },
     { "tips", L["Tips at login"], L["Now and then at login, a tip in chat about something Lore Forever can do."] },
-    { "getWillo", L["Get %s button"]:format(ns.COMPANION_NAME), L["Until you install %s, Lore Forever's free companion app, a Get %s button in the panel and a suggestion when Lore Forever has no answer show where to get it. Untick to hide both."]:format(ns.COMPANION_NAME, ns.COMPANION_NAME) },
+    { "getWillo", L["Suggest %s in the chat"]:format(ns.COMPANION_NAME), L["Until you install %s, Lore Forever's free companion app, one line in the chat says where to get it when Lore Forever has no answer, at most once a session. Untick to hide it."]:format(ns.COMPANION_NAME) },
   }
-  -- No Get Willo checkbox until Willo launches (Companion.OFFER_WILLO); the saved setting is kept as it is.
+  -- No Suggest Willo checkbox until Willo launches (Companion.OFFER_WILLO); the saved setting is kept as it is.
   if not (ns.Companion and ns.Companion.OFFER_WILLO) then
     for i, row in ipairs(out) do
       if row[1] == "getWillo" then table.remove(out, i) break end
     end
   end
+  return out
+end
+
+-- The settings that only do something with Willo, the companion app (willoSection): live game info is read by Willo
+-- alone, and journey pictures reach the journey through Willo's picture book.
+local function willoRows()
+  local out = {
+    { "liveStrip", L["Live game info for the companion app"], L["While the Lore Forever window is open, or while you hold %s's talk key to ask a question, rings of stars in a blue mist show over your minimap. %s reads this little sky to know where you are, who you're targeting and your tracked quest. Only the Lore Forever companion app on this PC reads it. It isn't a hack: it doesn't read the game's memory, never presses keys or clicks, and sends nothing online. Also turn on Live game info in the companion's Settings. Untick to turn it off."]:format(ns.COMPANION_NAME, ns.COMPANION_NAME) },
+    { "liveStripAlways", L["Live game info: show it all the time"], L["Keep the sky over your minimap while the Lore Forever window is closed too, so %s always knows where you are. Only matters with Live game info on."]:format(ns.COMPANION_NAME) },
+    { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or set Take a journey picture in Key Bindings, AddOns. This option hides your interface for a moment, except in combat. In the companion, turn on Picture book and connect your profile. Pictures with the interface need On my profile."] },
+  }
   if ns.Journey and ns.Journey.PictureBookOn() then
-    for i, row in ipairs(out) do
-      if row[1] == "pictureHideUI" then
-        table.insert(out, i + 1, { "automaticPictures", L["Automatic journey pictures"],
-          L["Take a journey picture when you level up, defeat a boss or first reach a zone or dungeon. At most ten a day, never in combat or on a flight. Turn this off to take pictures only yourself."] })
-        break
-      end
-    end
+    out[#out + 1] = { "automaticPictures", L["Automatic journey pictures"],
+      L["Take a journey picture when you level up, defeat a boss or first reach a zone or dungeon. At most ten a day, never in combat or on a flight. Turn this off to take pictures only yourself."] }
   end
   return out
 end
@@ -727,16 +730,19 @@ function Options.Create()
     end
     return label
   end
-  for i, row in ipairs(rows()) do
+  -- A tick box under `anchor` (a heading or note when `first`, else the description above it), with its description
+  -- under it; returns the description, for the next one.
+  local function check(row, anchor, first)
     local key, label, tip = row[1], row[2], row[3]
     local cb = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
-    if i == 1 then cb:SetPoint("TOPLEFT", last, "BOTTOMLEFT", -2, -4) else cb:SetPoint("TOPLEFT", last, "BOTTOMLEFT", -30, -4) end
+    if first then cb:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", -2, -4) else cb:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", -30, -4) end
     local text = type(cb.Text) == "table" and cb.Text or nil
     if not text then
       text = cb:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
       text:SetPoint("LEFT", cb, "RIGHT", 4, 0)
     end
     text:SetText(label)
+    cb.label = text
     -- "New" after an update, for an option this version's notes mention (WhatsNew.lua), until Options is next opened.
     cb.newTag = ns.WhatsNew.Tag(c, text, "LEFT", "RIGHT", 8, 0)
     cb.english = english(label)
@@ -746,6 +752,7 @@ function Options.Create()
     desc:SetPoint("RIGHT", c, "RIGHT", -24, 0)
     desc:SetJustifyH("LEFT")
     desc:SetText(tip)
+    cb.desc = desc
     cb:SetScript("OnClick", function(self)
       LoreForeverDB.settings[key] = self:GetChecked() and true or false
       if key == "showSpoilers" and ns.UI and ns.UI.UpdateListen then ns.UI.UpdateListen() end
@@ -762,12 +769,12 @@ function Options.Create()
       if key == "storylines" and ns.UI and ns.UI.Refresh then ns.UI.Refresh() end
       if key == "storylines" and ns.Hooks and ns.Hooks.RefreshQuestStory then ns.Hooks.RefreshQuestStory() end
       if key == "contributeButtons" and ns.Capture then ns.Capture.UpdateAll() end
-      if key == "getWillo" and ns.UI and ns.UI.UpdateWilloButton then ns.UI.UpdateWilloButton() end
     end)
     cb.key = key
     p.checks[#p.checks + 1] = cb
-    last = desc
+    return desc, cb
   end
+  for i, row in ipairs(rows()) do last = check(row, last, i == 1) end
   local keyBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
   keyBtn:SetSize(160, 24)
   keyBtn:SetPoint("TOPLEFT", last, "BOTTOMLEFT", -26, -16)
@@ -846,7 +853,46 @@ function Options.Create()
   questBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)
   questBtn:SetScript("OnClick", function() ns.Hooks.ResetQuestButton() end)
   p.resetQuestButton = questBtn
-  local sizeBtn = sizeSection(c, windowsBtn)
+  -- Willo's settings (willoRows), together under their own heading. Without Willo they're greyed out and can't be
+  -- changed, under a note saying where to get it (LOR-459); with it they work as the others do. Installed is
+  -- Companion.Installed: Willo's LoreForever_Journey add-on, loaded at login, so a new install shows after a /reload.
+  -- Until Willo launches (Companion.OFFER_WILLO off) the section shows only to players who have Willo already.
+  local willoHead = heading(c, ns.COMPANION_NAME, windowsBtn, 24)
+  local willoNote = note(c, "", willoHead, 6)
+  p.willoChecks = {}
+  last = willoNote
+  for i, row in ipairs(willoRows()) do
+    local cb
+    last, cb = check(row, last, i == 1)
+    p.willoChecks[#p.willoChecks + 1] = cb
+  end
+  local willoLast = last
+  -- What follows lines up with the Willo heading again, not with the indented description above it (or, with no
+  -- section, with the buttons above).
+  local willoEnd = CreateFrame("Frame", nil, c)
+  willoEnd:SetSize(1, 1)
+  function p.updateWillo()
+    local on = ns.Companion.Installed()
+    local shown = on or ns.Companion.OFFER_WILLO and true or false
+    willoHead:SetShown(shown)
+    willoNote:SetShown(shown)
+    willoEnd:ClearAllPoints()
+    if shown then willoEnd:SetPoint("TOPLEFT", willoLast, "BOTTOMLEFT", -28, 0)
+    else willoEnd:SetPoint("TOPLEFT", windowsBtn, "BOTTOMLEFT", 0, 0) end
+    willoNote:SetText(on and string.format(L["These work with %s, Lore Forever's companion app on this PC."], ns.COMPANION_NAME)
+      or string.format(L["Needs %s, Lore Forever's free companion app (%s). Installed it? Type /reload."],
+        ns.COMPANION_NAME, ns.Companion.WILLO_URL))
+    for _, cb in ipairs(p.willoChecks) do
+      cb:SetShown(shown)
+      cb.desc:SetShown(shown)
+      if on then cb:Enable() else cb:Disable() end
+      cb.label:SetTextColor(T.rgba(on and T.color.tipText or T.color.faint))
+      cb.desc:SetTextColor(T.rgba(on and T.color.muted or T.color.faint))
+    end
+  end
+  p.willoNote = willoNote
+  p.updateWillo()
+  local sizeBtn = sizeSection(c, willoEnd)
   p.updateSize = sizeBtn.Update
   local bottom
   p.voice, bottom = Options.VoiceSection(c, sizeBtn)
@@ -855,6 +901,7 @@ function Options.Create()
       cb:SetChecked(LoreForeverDB.settings[cb.key] and true or false)
       cb.newTag:SetShown(ns.WhatsNew.OptionIsNew(cb.english))
     end
+    self.updateWillo()
     self.voice.ShowNew()
     ns.WhatsNew.Seen("options")   -- shown this once; gone the next time Options opens
     self.updateLanguage()

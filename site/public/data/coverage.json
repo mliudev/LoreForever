@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-13",
+ "generated": "2026-10-14",
  "forever_only": {
-  "quests_known": 208,
-  "quests_with_text": 180,
+  "quests_known": 216,
+  "quests_with_text": 186,
   "narrated": 114,
   "npcs_known": 223,
-  "npcs_with_text": 27
+  "npcs_with_text": 28
  },
  "zones": [
   {
    "zone": "Other",
    "key": "general",
-   "quests": 82,
-   "with_text": 73,
+   "quests": 90,
+   "with_text": 79,
    "narrated": 9
   },
   {
@@ -334,6 +334,20 @@
   },
   {
    "kind": "quest",
+   "id": 96821,
+   "name": "Legging It",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 92684,
+   "name": "Ornery Ornery Galestriders",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
    "id": 87288,
    "name": "Soft Saber Pelts",
    "zone": "Other",
@@ -455,13 +469,6 @@
    "kind": "npc",
    "id": 254082,
    "name": "Aarnor Galestrike",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 251913,
-   "name": "Aedi Thriceforged",
    "zone": null,
    "level": null
   },

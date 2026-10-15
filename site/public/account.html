@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261012-plans">
+<link rel="stylesheet" href="/style.css?v=20261014y">
 <script src="/header.js" defer></script>
 <script src="/js/share.js" defer></script>
 </head>
@@ -23,6 +23,7 @@
     <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
+      <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
       <a class="nl" id="nav-download" href="/downloads">Download</a>
       <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
@@ -54,6 +55,7 @@
       <li class="ac-now"><strong>Sign in with Google</strong>
         <span>The first time makes your account.</span>
         <div id="ac-google" class="ac-google"></div>
+        <p class="vp-note signin-terms">By signing in, you agree to the <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.</p>
         <p class="vp-note" id="ac-none" hidden>Sign-in isn't switched on yet. Please check back soon, or
           <a href="/discord">ask on Discord</a>.</p></li>
       <li><strong>Copy your journey in game</strong>
@@ -110,14 +112,15 @@
 
   <div id="ac-in" hidden>
     <!-- Plans (LOR-252): a card leading to /plans. Free players see what a plan adds; subscribers, their plan and when
-         it renews, and the way to Willo's style (/willo, LOR-447). Hidden while plans are off (GET /api/billing/plans
-         says on: false). -->
+         it renews (or changes to a smaller one, or ends), "Switch to <plan>" for the other plans (each opens its
+         confirm on /plans), and the way to Willo's style (/willo/style, LOR-447). Hidden while plans are off
+         (GET /api/billing/plans says on: false). -->
     <section class="ac-plan" id="ac-plan" aria-labelledby="ac-plan-title" hidden>
       <div>
         <h2 id="ac-plan-title"></h2>
         <p id="ac-plan-text"></p>
       </div>
-      <p class="ac-plan-links"><a class="btn-small btn-small-alt" id="ac-plan-willo" href="/willo" hidden>Willo's style</a>
+      <p class="ac-plan-links"><a class="btn-small btn-small-alt" id="ac-plan-willo" href="/willo/style" hidden>Willo's style</a>
         <a class="btn-small" id="ac-plan-go" href="/plans"></a></p>
     </section>
 
@@ -394,6 +397,7 @@
     try { res = await (await fetch("/api/billing/plans", { cache: "no-store" })).json(); } catch (e) { res = null; }
     const c = res?.ok && res.on ? res.current : null;
     $("ac-plan").hidden = !c;
+    if (c && location.hash === "#billing") $("ac-plan").scrollIntoView();   // Willo's Billing button (the app)
     if (!c) return;
     const day = iso => {
       const t = new Date(iso);
@@ -402,12 +406,36 @@
     const paid = c.id !== "free";
     $("ac-plan").classList.toggle("ac-plan-paid", paid);
     $("ac-plan-willo").hidden = !paid;
+    if (c.launch) {
+      // The beta's free Hero month (lib/billing.js planFor launch): Hero on us until it ends (ends: that day). Keep
+      // Hero during the beta is a trial to the free month's end (the Hero card's promo note: "until <day>, then $4.99 a
+      // month"); the 50% first months only while the beta lasts (launchEnds).
+      const keep = res.plans.find(p => p.id === "hero")?.promo;
+      $("ac-plan-title").textContent = `Beta: Hero is free until ${c.ends}`;
+      $("ac-plan-text").textContent = `${(c.answersPerMonth || 0).toLocaleString("en-US")} Willo answers this month, ` +
+        `up to ${c.answersPerDay} a day. ` +
+        (keep ? `Keep Hero with a card and nothing is charged ${keep.note}.` : "Keep Hero after it for $4.99 a month.") +
+        (res.launchEnds && res.plans.some(p => p.id !== "hero" && p.promo)
+          ? ` Champion and Legend are 50% off your first month if you join by ${res.launchEnds}.` : "");
+      $("ac-plan-go").textContent = "See plans";
+      return;
+    }
     if (paid) {
       $("ac-plan-title").textContent = `Your plan: ${c.name}`;
       $("ac-plan-text").textContent = `${(c.answersPerMonth || 0).toLocaleString("en-US")} Willo answers a month, up to ${c.answersPerDay} a day. ` +
         (c.status === "past_due" ? "Your last payment didn't go through: update your card to keep it."
-          : c.cancelAtPeriodEnd ? `It ends on ${day(c.renews)}.` : c.renews ? `It renews on ${day(c.renews)}.` : "");
-      $("ac-plan-go").textContent = "Manage plan";
+          : c.cancelAtPeriodEnd ? `It ends on ${day(c.renews)}.`
+          : c.changesTo ? `Changes to ${c.changesTo.name} on ${day(c.changesTo.at)}.`
+          : c.status === "trialing" ? `It's free until ${day(c.renews)}.`
+          : c.renews ? `It renews on ${day(c.renews)}.` : "");
+      $("ac-plan-go").textContent = c.changesTo || c.cancelAtPeriodEnd ? "Keep or change it" : "Manage plan";
+      // Switch to <plan> for the other plans for sale: /plans opens its confirm (lib/billing.js changePlan).
+      const billedId = c.id;
+      for (const old of document.querySelectorAll(".ac-plan-switch")) old.remove();
+      const links = res.plans.filter(p => p.id !== "free" && p.sellable && p.id !== billedId && p.id !== c.changesTo?.id)
+        .map(p => Object.assign(document.createElement("a"), { className: "btn-small btn-small-alt ac-plan-switch",
+          href: `/plans?switch=${p.id}`, textContent: `Switch to ${p.name}` }));
+      $("ac-plan-go").before(...links.flatMap(a => [a, " "]));
       return;
     }
     const paidPlans = res.plans.filter(p => p.id !== "free");
@@ -692,6 +720,8 @@
     if (res.ok) { e.target.reset(); status("Your account is deleted.", true); scrollTo(0, 0); load(); }
   });
 
+  // From Willo's one-click sign-in (functions/link/web.js) when its link had expired or was used: sign in here instead.
+  if (params.get("link") === "expired") status("That sign-in link from Willo has expired. Sign in here to carry on.");
   load();
 })();
 </script>

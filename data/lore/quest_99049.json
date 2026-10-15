@@ -32,7 +32,7 @@
     "what is threat from below",
     "threat from below overview"
    ],
-   "answer": "Threat from Below is a quest in Durotar wherein Horde adventurers investigate the sudden disappearance of the scout Heglan Shadeeye. Following evidence of a violent battle along the coastline, players search the disturbed terrain for clues left behind by the unknown assailants. Recovered artifacts are then brought directly to Orgnil Soulcutter in Razor Hill to assess the military peril facing the region.",
+   "answer": "Threat from Below is a quest in Durotar wherein Horde adventurers investigate the ambush on the scout Heglan Shadeeye. Following evidence of a violent battle along the coastline, players search the disturbed terrain for clues left behind by the unknown assailants. Recovered artifacts are then brought directly to Orgnil Soulscar in Razor Hill to assess the military peril facing the region.",
    "q": "What is Threat from Below?"
   },
   {
@@ -41,7 +41,7 @@
     "who is heglan",
     "heglan shadeeye lore"
    ],
-   "answer": "Heglan Shadeeye is an orc scout operating along the coast of Durotar to monitor threats bordering the Horde's heartland. While on assignment, she was ambushed at her coastal vantage point. The severe damage at the campsite indicates she put up a fierce fight against her assailants before vanishing, prompting urgent inquiries from the settlement leadership in Razor Hill.",
+   "answer": "Heglan Shadeeye is a Shattered Hand scout who kept watch over Tiragarde Keep from a hut north of it, guarding the Horde's heartland. While on assignment, she was ambushed at her coastal vantage point. The severe damage at the campsite indicates she put up a fierce fight against her assailants, prompting urgent inquiries from the settlement leadership in Razor Hill.",
    "q": "Who is Heglan Shadeeye?"
   },
   {
@@ -50,17 +50,17 @@
     "heglan attackers",
     "what attacked heglan shadeeye"
    ],
-   "answer": "Heglan Shadeeye was ambushed by naga moving southward along the Durotar shoreline. Physical evidence recovered from the skirmish, specifically a distinct banner and a fractured blade piece, confirms that the serpent beings carried out the raid. The ferocity of the encounter left both the scout missing and the attackers injured before they withdrew toward the water.",
+   "answer": "Heglan Shadeeye was ambushed by naga moving southward along the Durotar shoreline. Physical evidence recovered from the skirmish, specifically a distinct banner and a fractured blade piece, confirms that the serpent beings carried out the raid. The ferocity of the encounter left the attackers wounded as well.",
    "q": "Who attacked Heglan Shadeeye?"
   },
   {
    "aliases": [
     "who is orgnil",
-    "orgnil soulcutter",
+    "orgnil soulscar",
     "orgnil in razor hill"
    ],
-   "answer": "Orgnil Soulcutter is a prominent orc authority stationed at Razor Hill in central Durotar. Tasked with organizing the defense of the region and coordinating Horde scouts, Orgnil oversees intelligence regarding hostile incursions. When Heglan Shadeeye fails to report in, Orgnil relies on returning scouts and adventurers to identify the attackers and safeguard the settlement.",
-   "q": "Who is Orgnil Soulcutter?"
+   "answer": "Orgnil Soulscar is a prominent orc authority stationed at Razor Hill in central Durotar. Tasked with organizing the defense of the region and coordinating Horde scouts, Orgnil oversees intelligence regarding hostile incursions. When Heglan Shadeeye fails to report in, Orgnil relies on returning scouts and adventurers to identify the attackers and safeguard the settlement.",
+   "q": "Who is Orgnil Soulscar?"
   },
   {
    "aliases": [
@@ -86,7 +86,7 @@
   "heglan shadeeye",
   "horde",
   "naga",
-  "orgnil soulcutter",
+  "orgnil soulscar",
   "razor hill",
   "scout",
   "threat from below"
@@ -94,11 +94,11 @@
  "related": [
   "topic:naga",
   "subzone:razor-hill",
-  "quest:536"
+  "npc:orgnil-soulscar"
  ],
  "sections": [
   {
-   "body": "A violent skirmish along the Durotar coast leaves behind shattered earth and immediate cause for alarm among the Horde's defenders. Heglan Shadeeye, an orc scout dispatched into the field, was ambushed by an unseen adversary. Although the skirmish site clearly demonstrates that Heglan fought back fiercely and injured her attackers, she has gone missing from her post. With hostile forces moving unchecked along the eastern shoreline, Horde adventurers are called upon to survey the devastated campsite, comb the surrounding ground for clues, and determine what manner of enemy struck the scout.",
+   "body": "A violent skirmish along the Durotar coast leaves behind shattered earth and immediate cause for alarm among the Horde's defenders. Heglan Shadeeye, a Shattered Hand scout keeping watch from her post, was ambushed by an unseen adversary. The skirmish site clearly demonstrates that Heglan fought back fiercely and injured her attackers. With hostile forces moving unchecked along the eastern shoreline, Horde adventurers are called upon to survey the devastated campsite, comb the surrounding ground for clues, and determine what manner of enemy struck the scout.",
    "spoiler": 0,
    "title": "Ambush on the Durotar Coast"
   },
@@ -108,7 +108,7 @@
    "title": "The Serpent Threat"
   }
  ],
- "summary": "Threat from Below is a Horde quest centered on investigating a violent ambush along the eastern shores of Durotar. After scout Heglan Shadeeye disappears following a fierce skirmish, adventurers must inspect the devastated area for clues regarding the attackers. Uncovering physical evidence reveals an encroaching naga presence that directly endangers Razor Hill's defensive lines.",
+ "summary": "Threat from Below is a Horde quest centered on investigating a violent ambush along the eastern shores of Durotar. After scout Heglan Shadeeye is ambushed at her post in a fierce skirmish, adventurers must inspect the devastated area for clues regarding the attackers. Uncovering physical evidence reveals an encroaching threat that directly endangers Razor Hill's defensive lines.",
  "attribution": [
   "In-game quest text: Threat from Below"
  ]
