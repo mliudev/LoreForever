@@ -10,7 +10,9 @@
 //     POST /api/device/disconnect  (Authorization: Bearer <token>) -> the token stops working
 //   From our pages (signed in; POSTs with our Origin), for /link and /account:
 //     GET  /api/device/link?code=  -> {link: {code, label, expires}}: the open link with that code (404 when none)
-//     POST /api/device/approve     {code} -> connects the app showing that code to your account
+//     POST /api/device/approve     {code} -> connects the app showing that code to your account; {welcome: url} the
+//                                  first time an account connects while plans are for sale (lib/billing.js
+//                                  welcomeOnce): /link goes there instead of its connected page
 //     POST /api/device/deny        {code}
 //     GET  /api/device/list        -> {devices: [{id, label, created, last_used, last_sync}]}
 //     POST /api/device/revoke      {id} -> Disconnect
@@ -25,6 +27,7 @@ import {
 import { perMinute, perHour, slowDown } from "../../../lib/ratelimit.js";
 import { senderHash } from "../../../lib/form.js";
 import { historyEnabled } from "../../../lib/history.js";
+import { welcomeOnce } from "../../../lib/billing.js";
 
 const ok = (body = {}, status = 200) => Response.json({ ok: true, ...body }, { status, headers: noStore });
 const COMPANION = /^companion\/[\w.-]{1,24}$/;
@@ -84,7 +87,13 @@ async function decide({ env }, input, user, approve) {
   if (!(await perMinute(env, user.id, "device-link", 10))) return slowDown();
   if (!normalizeCode(input.code)) return fail(400, "Type the 8-letter code the companion shows.");
   if (!(await decideLink(env, input.code, user, approve))) return fail(404, NO_LINK);
-  return ok({ connected: approve });
+  // The first time an account connects the companion, the site may send the page to the plans instead (lib/billing.js
+  // welcomeOnce). Connecting never waits on it.
+  const welcome = approve ? await welcomeOnce(env, user.id).catch(e => {
+    console.warn(`device approve: welcome: ${e?.message || e}`);
+    return null;
+  }) : null;
+  return ok({ connected: approve, ...(welcome ? { welcome } : {}) });
 }
 
 async function list({ env }, user) {

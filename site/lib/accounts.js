@@ -29,6 +29,9 @@ const SETUP = [
   `CREATE TABLE IF NOT EXISTS users (
     id TEXT PRIMARY KEY, email TEXT UNIQUE, google_sub TEXT UNIQUE, display_name TEXT, links TEXT,
     show_public INTEGER NOT NULL DEFAULT 1, created TEXT NOT NULL, last_seen TEXT)`,
+  // Agreeing to the Terms and Privacy by signing in (recordTerms): which version of /terms (TERMS_VERSION) and when.
+  `CREATE TABLE IF NOT EXISTS terms_acceptances (
+    user_id TEXT NOT NULL, version TEXT NOT NULL, accepted TEXT NOT NULL, PRIMARY KEY (user_id, version))`,
   `CREATE TABLE IF NOT EXISTS sessions (
     token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL, created TEXT NOT NULL, expires TEXT NOT NULL)`,
   // Results too costly to work out on every view (lib/cache.js), as JSON. built: Unix seconds.
@@ -84,7 +87,7 @@ const SETUP = [
   `CREATE TABLE IF NOT EXISTS rate_limits (user_id TEXT NOT NULL, bucket TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (user_id, bucket))`,
   `CREATE TABLE IF NOT EXISTS answer_spend (month TEXT PRIMARY KEY, reserved_micro INTEGER NOT NULL DEFAULT 0,
     actual_micro INTEGER NOT NULL DEFAULT 0, calls INTEGER NOT NULL DEFAULT 0)`,
-  // What paying players' live answers cost each month, plans' and top-ups' (lib/billing.js): the shared budget leaves
+  // What paying players' live answers and hosted voice cost each month (lib/billing.js): the shared budget leaves
   // it out (lib/companion-answers.js FREE_ANSWER_SPEND), so it's made here with answer_spend, which every budget check
   // reads.
   `CREATE TABLE IF NOT EXISTS answer_user_spend (
@@ -109,6 +112,10 @@ const SETUP = [
     id TEXT PRIMARY KEY, token_hash TEXT NOT NULL UNIQUE, user_id TEXT NOT NULL, label TEXT, created TEXT NOT NULL,
     last_used TEXT, last_sync TEXT)`,
   "CREATE INDEX IF NOT EXISTS devices_user ON devices (user_id)",
+  // Willo's one-click sign-in to the site (lib/weblogin.js): a one-time link for a connected app's account, as the
+  // SHA-256 of its secret, for two minutes.
+  `CREATE TABLE IF NOT EXISTS web_logins (
+    token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL, device_id TEXT NOT NULL, created TEXT NOT NULL, expires TEXT NOT NULL)`,
   // What writing profile stories cost, per calendar month (UTC, "2026-10"): micro_usd in millionths of a dollar,
   // calls made and stories kept. Site-wide, not per account. lib/profiles.js stops writing at the monthly budget.
   `CREATE TABLE IF NOT EXISTS story_spend (
@@ -165,57 +172,61 @@ export async function setup(env) {
       return !existing.has(name);
     });
     if (missing.length) await env.DB.batch(missing.map(sql => env.DB.prepare(sql)));
-    if (existing.has("story_spend")) {
-      let columns = new Set((await env.DB.prepare("PRAGMA table_info(story_spend)").all()).results.map(row => row.name));
-      for (const column of ["voice_micro_usd", "reserved_micro"]) {
-        if (columns.has(column)) continue;
-        try { await env.DB.prepare(`ALTER TABLE story_spend ADD COLUMN ${column} INTEGER NOT NULL DEFAULT 0`).run(); }
-        catch (error) {
-          // Another cold Worker may have added it. A real failure must leave setup retryable.
-          columns = new Set((await env.DB.prepare("PRAGMA table_info(story_spend)").all()).results.map(row => row.name));
-          if (!columns.has(column)) throw error;
+    // Each table's column check below is independent of the others, so they run at once: a cold Worker waits one round
+    // trip to D1 for all of them, not one per table (/admin's first load paid for each in turn).
+    const [, , , , version] = await Promise.all([
+      existing.has("story_spend") && (async () => {
+        let columns = new Set((await env.DB.prepare("PRAGMA table_info(story_spend)").all()).results.map(row => row.name));
+        for (const column of ["voice_micro_usd", "reserved_micro"]) {
+          if (columns.has(column)) continue;
+          try { await env.DB.prepare(`ALTER TABLE story_spend ADD COLUMN ${column} INTEGER NOT NULL DEFAULT 0`).run(); }
+          catch (error) {
+            // Another cold Worker may have added it. A real failure must leave setup retryable.
+            columns = new Set((await env.DB.prepare("PRAGMA table_info(story_spend)").all()).results.map(row => row.name));
+            if (!columns.has(column)) throw error;
+          }
+          columns.add(column);
         }
-        columns.add(column);
-      }
-    }
-    if (existing.has("profile_pictures")) {
-      let columns = new Set((await env.DB.prepare("PRAGMA table_info(profile_pictures)").all()).results.map(row => row.name));
-      for (const [column, type] of [["character", "TEXT"], ["event_t", "INTEGER"]]) {
-        if (columns.has(column)) continue;
-        try { await env.DB.prepare(`ALTER TABLE profile_pictures ADD COLUMN ${column} ${type}`).run(); }
-        catch (error) {
-          columns = new Set((await env.DB.prepare("PRAGMA table_info(profile_pictures)").all()).results.map(row => row.name));
-          if (!columns.has(column)) throw error;
+      })(),
+      existing.has("profile_pictures") && (async () => {
+        let columns = new Set((await env.DB.prepare("PRAGMA table_info(profile_pictures)").all()).results.map(row => row.name));
+        for (const [column, type] of [["character", "TEXT"], ["event_t", "INTEGER"]]) {
+          if (columns.has(column)) continue;
+          try { await env.DB.prepare(`ALTER TABLE profile_pictures ADD COLUMN ${column} ${type}`).run(); }
+          catch (error) {
+            columns = new Set((await env.DB.prepare("PRAGMA table_info(profile_pictures)").all()).results.map(row => row.name));
+            if (!columns.has(column)) throw error;
+          }
+          columns.add(column);
         }
-        columns.add(column);
-      }
-    }
-    // translation_edits.reason: why lore.kit's check turned an edit down, shown on the translator's dashboard.
-    if (existing.has("translation_edits")) {
-      const columns = new Set((await env.DB.prepare("PRAGMA table_info(translation_edits)").all()).results.map(row => row.name));
-      if (!columns.has("reason")) {
-        try { await env.DB.prepare("ALTER TABLE translation_edits ADD COLUMN reason TEXT").run(); }
-        catch (error) {
-          // Another cold Worker may have added it. A real failure must leave setup retryable.
-          const now = new Set((await env.DB.prepare("PRAGMA table_info(translation_edits)").all()).results.map(row => row.name));
-          if (!now.has("reason")) throw error;
+      })(),
+      // translation_edits.reason: why lore.kit's check turned an edit down, shown on the translator's dashboard.
+      existing.has("translation_edits") && (async () => {
+        const columns = new Set((await env.DB.prepare("PRAGMA table_info(translation_edits)").all()).results.map(row => row.name));
+        if (!columns.has("reason")) {
+          try { await env.DB.prepare("ALTER TABLE translation_edits ADD COLUMN reason TEXT").run(); }
+          catch (error) {
+            // Another cold Worker may have added it. A real failure must leave setup retryable.
+            const now = new Set((await env.DB.prepare("PRAGMA table_info(translation_edits)").all()).results.map(row => row.name));
+            if (!now.has("reason")) throw error;
+          }
         }
-      }
-    }
-    // users.last_seen (LOR-304) is for /admin only, so a failure here never stops accounts working: sign-in days just
-    // aren't kept. The Worker that adds the column fills it in from the sessions kept (lib/activity.js SEEN_BACKFILL).
-    if (existing.has("users")) {
-      const columns = new Set((await env.DB.prepare("PRAGMA table_info(users)").all()).results.map(row => row.name));
-      if (!columns.has("last_seen")) {
-        let added = false;
-        try { await env.DB.prepare("ALTER TABLE users ADD COLUMN last_seen TEXT").run(); added = true; }
-        catch (error) { /* another cold Worker added it, or it can't be added: carry on either way */ }
-        if (added) {
-          try { await env.DB.batch(SEEN_BACKFILL.map(sql => env.DB.prepare(sql))); } catch (error) { /* counted from now */ }
+      })(),
+      // users.last_seen (LOR-304) is for /admin only, so a failure here never stops accounts working: sign-in days just
+      // aren't kept. The Worker that adds the column fills it in from the sessions kept (lib/activity.js SEEN_BACKFILL).
+      existing.has("users") && (async () => {
+        const columns = new Set((await env.DB.prepare("PRAGMA table_info(users)").all()).results.map(row => row.name));
+        if (!columns.has("last_seen")) {
+          let added = false;
+          try { await env.DB.prepare("ALTER TABLE users ADD COLUMN last_seen TEXT").run(); added = true; }
+          catch (error) { /* another cold Worker added it, or it can't be added: carry on either way */ }
+          if (added) {
+            try { await env.DB.batch(SEEN_BACKFILL.map(sql => env.DB.prepare(sql))); } catch (error) { /* counted from now */ }
+          }
         }
-      }
-    }
-    const version = await env.DB.prepare('SELECT version FROM history_schema WHERE version = 3').first();
+      })(),
+      env.DB.prepare('SELECT version FROM history_schema WHERE version = 3').first(),
+    ]);
     ready.set(env.DB, { history: version?.version === 3 });
   })();
   preparing.set(env.DB, preparation);
@@ -295,6 +306,21 @@ export async function endSession(env, request) {
   return cookie(request, "", 0);
 }
 
+// The Terms (public/terms.html) a sign-in agrees to: its "Updated" date. Change both together when the terms change, so
+// the next sign-in records the new version. Every sign-in page says "By signing in, you agree to the Terms and Privacy".
+export const TERMS_VERSION = "2026-10-14";
+
+// Records that this account agreed to TERMS_VERSION, once per version (the first sign-in that showed it). Never stops a
+// sign-in: a failure only leaves the record out.
+export async function recordTerms(env, userId) {
+  try {
+    await env.DB.prepare("INSERT OR IGNORE INTO terms_acceptances (user_id, version, accepted) VALUES (?, ?, ?)")
+      .bind(userId, TERMS_VERSION, new Date().toISOString()).run();
+  } catch (e) {
+    console.warn(`terms: ${e?.message || e}`);
+  }
+}
+
 // Finds the user by Google account (or by verified email, for a user made some other way), or creates one.
 export async function findOrCreateUser(env, { email, googleSub, name }) {
   await setup(env);
@@ -319,6 +345,7 @@ export async function findOrCreateUser(env, { email, googleSub, name }) {
 // (lib/voices.js). What stays is listed on public/privacy.html.
 const USER_DATA = [
   ["DELETE FROM sessions WHERE user_id = ?", u => u.id],
+  ["DELETE FROM terms_acceptances WHERE user_id = ?", u => u.id],
   ["DELETE FROM voices WHERE owner = ?", u => u.id],
   // Text already pulled into a language pack stays there (CC BY-SA), without a link back to the account.
   ["DELETE FROM translator_languages WHERE user_id = ?", u => u.id],
@@ -354,13 +381,15 @@ const USER_DATA = [
   ["DELETE FROM download_accounts WHERE user_id = ?", u => u.id],
   ["DELETE FROM excluded_accounts WHERE user_id = ?", u => u.id],
   ["DELETE FROM device_links WHERE user_id = ?", u => u.id],
+  ["DELETE FROM web_logins WHERE user_id = ?", u => u.id],
   ["DELETE FROM clip_reports WHERE user_id = ?", u => u.id],
-  // Their plan (lib/billing.js, cancelled at Stripe first, below), their top-ups and starter with any answers left, and
-  // what their live answers cost. Stripe keeps its own record of the payments.
+  // Their plan (lib/billing.js, cancelled at Stripe first, below), their finest-voice packs and starter with any left,
+  // what their live answers cost, and this month's spoken replies. Stripe keeps its own record of the payments.
   ["DELETE FROM entitlements WHERE user_id = ?", u => u.id],
   ["DELETE FROM answer_packs WHERE user_id = ?", u => u.id],
   ["DELETE FROM answer_user_spend WHERE user_id = ?", u => u.id],
   ["DELETE FROM answer_holds WHERE user_id = ?", u => u.id],
+  ["DELETE FROM voice_replies WHERE user_id = ?", u => u.id],
   // How they had Willo talk to them, and their tales (lib/willo-custom.js).
   ["DELETE FROM custom_prompts WHERE user_id = ?", u => u.id],
   ["DELETE FROM users WHERE id = ?", u => u.id],

@@ -42,10 +42,12 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import threading
 import time
 import urllib.parse
 import urllib.request
 import zipfile
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -61,6 +63,8 @@ LFS_POINTER = b"version https://git-lfs"
 PACK = r"LoreForever_(?:Voice_[A-Za-z0-9_]+|Edition_[A-Za-z0-9_]+_Audio)"
 KEEP_RELEASES = 10   # prune keeps every zip the last this many releases' tags name, so those can still be rebuilt
 GRACE = 24 * 3600    # and every zip uploaded within this many seconds: a release in progress uploads before it tags
+FETCH_WORKERS = 4    # packs fetched side by side
+UPLOAD_WORKERS = 4   # zips uploaded side by side
 README = ("Which zip on the public repo's \"audio\" release holds each voice pack's recordings, which aren't in its "
           "git history (LOR-133). scripts/release.sh writes it with each release (scripts/audio_assets.py manifest); "
           "the release workflow puts the recordings back from it (fetch). Don't edit it by hand.")
@@ -336,24 +340,57 @@ def cmd_upload(args) -> int:
         # A prerelease is never the repo's Latest, which the site's download links follow.
         gh("release", "create", TAG, "-R", args.repo, "--title", "Narration recordings", "--prerelease",
            "--latest=false", "--notes", NOTES)
-    with tempfile.TemporaryDirectory() as tmp:
+    cache = None if args.no_cache else Path(args.cache_dir).expanduser()
+    if args.out:
+        out = Path(args.out)
         for pack, e in todo:
-            files = checked_recordings(pack, e)
-            out = Path(args.out) if args.out else Path(tmp)
+            files = checked_recordings(pack, e)   # before anything is written
             out.mkdir(parents=True, exist_ok=True)
-            cache = None if args.no_cache else Path(args.cache_dir).expanduser()
-            path = cached_bundle(pack, files, e, out / e["asset"], cache)
-            if not args.out:
-                gh("release", "upload", TAG, str(path), "-R", args.repo)
-                # An upload cut short could leave a partial asset that a rerun would skip as there already.
-                assets = json.loads(gh("release", "view", TAG, "-R", args.repo, "--json", "assets").stdout)["assets"]
-                size = next((a.get("size") for a in assets if a["name"] == e["asset"]), None)
-                if size != path.stat().st_size:
-                    gh("release", "delete-asset", TAG, e["asset"], "-R", args.repo, "--yes", check=False)
-                    raise Failure(f"{e['asset']} reached the {TAG} release as {size} bytes, not "
-                                  f"{path.stat().st_size}; removed it, run the upload again")
-                path.unlink()
+            cached_bundle(pack, files, e, out / e["asset"], cache)
             print(f"  {e['asset']} ({e['bytes'] / 1e6:.0f} MB)")
+        return 0
+
+    def send(path: Path, e: dict, clobber: bool = False) -> None:
+        gh("release", "upload", TAG, str(path), "-R", args.repo, *(["--clobber"] if clobber else []))
+        # An upload cut short could leave a partial asset that a rerun would skip as there already.
+        assets = json.loads(gh("release", "view", TAG, "-R", args.repo, "--json", "assets").stdout)["assets"]
+        size = next((a.get("size") for a in assets if a["name"] == e["asset"]), None)
+        if size != path.stat().st_size:
+            gh("release", "delete-asset", TAG, e["asset"], "-R", args.repo, "--yes", check=False)
+            raise Failure(f"{e['asset']} reached the {TAG} release as {size} bytes, not "
+                          f"{path.stat().st_size}; removed it, run the upload again")
+
+    # The zips build one at a time (the bundle cache takes them in turn) while up to UPLOAD_WORKERS of them upload side
+    # by side (0.17.0: 11 zips, 2.1 GB, one after another took 1m54s); at most one more than that waits on disk. One
+    # that fails side by side goes again on its own, replacing whatever part of it reached the release.
+    room = threading.BoundedSemaphore(UPLOAD_WORKERS + 1)
+    failed = []
+
+    def upload_one(path: Path, e: dict) -> None:
+        try:
+            send(path, e)
+        except Failure as error:
+            print(f"  {e['asset']}: {error}; trying it again on its own", flush=True)
+            failed.append((path, e))   # its zip stays for that
+            return
+        finally:
+            room.release()
+        path.unlink()
+        print(f"  {e['asset']} ({e['bytes'] / 1e6:.0f} MB)", flush=True)
+
+    with tempfile.TemporaryDirectory() as tmp, ThreadPoolExecutor(UPLOAD_WORKERS) as pool:
+        futures = []
+        try:
+            for pack, e in todo:
+                room.acquire()
+                path = cached_bundle(pack, checked_recordings(pack, e), e, Path(tmp) / e["asset"], cache)
+                futures.append(pool.submit(upload_one, path, e))
+        finally:
+            for future in futures:
+                future.result()
+        for path, e in failed:
+            send(path, e, clobber=True)
+            print(f"  {e['asset']} ({e['bytes'] / 1e6:.0f} MB), on its own", flush=True)
     return 0
 
 
@@ -375,41 +412,57 @@ def cmd_fetch(args) -> int:
         print(f"no {MANIFEST.relative_to(ROOT)}: this checkout keeps its recordings in git")
         return 0
     packs = load_manifest()["packs"]
-    done = kept = 0
-    with tempfile.TemporaryDirectory() as tmp:
-        for pack, e in packs.items():
-            if not (ADDONS / pack).is_dir():
-                continue
-            if recordings(pack):
-                kept += 1
-                continue
-            base = urllib.parse.urlsplit(args.base)
-            local = base.scheme == "file" and base.netloc in ("", "localhost") and not (base.query or base.fragment)
-            path = (Path(urllib.request.url2pathname(base.path)) / e["asset"] if local
-                    else Path(tmp, e["asset"]))
-            if not local:
-                download(f"{args.base.rstrip('/')}/{e['asset']}", path)
-            audio = ADDONS / pack / "Audio"
-            with zipfile.ZipFile(path) as z:
-                for info in z.infolist():
-                    name = info.filename
-                    if info.is_dir():
-                        continue
-                    rel = name.removeprefix("Audio/")
-                    parts = rel.split("/")
-                    if rel == name or not rel or any(p in ("", ".", "..") for p in parts) or "\\" in rel:
-                        raise Failure(f"{e['asset']}: unexpected entry {name!r}")
-                    target = audio.joinpath(*parts)
-                    target.parent.mkdir(parents=True, exist_ok=True)
-                    target.write_bytes(z.read(info))
-            if not local:
-                path.unlink()
-            files = recordings(pack)
-            if len(files) != e["files"] or fingerprint(files) != e["fingerprint"]:
-                raise Failure(f"{e['asset']} doesn't hold the recordings {MANIFEST.relative_to(ROOT)} names for {pack}")
-            done += 1
-            print(f"  {pack}: {len(files)} recordings ({e['asset']})")
-    print(f"recordings: put back {done} packs' from the {TAG} release"
+    kept = 0
+    todo = []
+    for pack, e in packs.items():
+        if not (ADDONS / pack).is_dir():
+            continue
+        if recordings(pack):
+            kept += 1
+            continue
+        todo.append((pack, e))
+    base = urllib.parse.urlsplit(args.base)
+    local = base.scheme == "file" and base.netloc in ("", "localhost") and not (base.query or base.fragment)
+
+    def put_back(pack: str, e: dict, tmp: str) -> int:
+        path = (Path(urllib.request.url2pathname(base.path)) / e["asset"] if local
+                else Path(tmp, e["asset"]))
+        if not local:
+            download(f"{args.base.rstrip('/')}/{e['asset']}", path)
+        audio = ADDONS / pack / "Audio"
+        with zipfile.ZipFile(path) as z:
+            for info in z.infolist():
+                name = info.filename
+                if info.is_dir():
+                    continue
+                rel = name.removeprefix("Audio/")
+                parts = rel.split("/")
+                if rel == name or not rel or any(p in ("", ".", "..") for p in parts) or "\\" in rel:
+                    raise Failure(f"{e['asset']}: unexpected entry {name!r}")
+                target = audio.joinpath(*parts)
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(z.read(info))
+        if not local:
+            path.unlink()
+        files = recordings(pack)
+        if len(files) != e["files"] or fingerprint(files) != e["fingerprint"]:
+            raise Failure(f"{e['asset']} doesn't hold the recordings {MANIFEST.relative_to(ROOT)} names for {pack}")
+        return len(files)
+
+    # Several packs at a time, the biggest first (the Release workflow's 33 packs, 7.8 GB, one after another took
+    # 1m19s on its critical path); each is downloaded, unpacked into its own Audio/ and checked as before. Reported in
+    # the manifest's order. A failure stops the rest that haven't started.
+    with tempfile.TemporaryDirectory() as tmp, ThreadPoolExecutor(FETCH_WORKERS) as pool:
+        futures = {pack: pool.submit(put_back, pack, e, tmp)
+                   for pack, e in sorted(todo, key=lambda job: -job[1]["bytes"])}
+        try:
+            for pack, e in todo:
+                print(f"  {pack}: {futures[pack].result()} recordings ({e['asset']})", flush=True)
+        except BaseException:
+            for future in futures.values():
+                future.cancel()
+            raise
+    print(f"recordings: put back {len(todo)} packs' from the {TAG} release"
           + (f"; {kept} already had theirs" if kept else ""))
     return 0
 

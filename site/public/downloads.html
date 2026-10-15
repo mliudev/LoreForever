@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20261014w">
 <link rel="stylesheet" href="/downloads.css?v=20261011c">
 <script src="/header.js" defer></script>
 </head>
@@ -28,6 +28,7 @@
     <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
+      <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
       <a class="nl" id="nav-download" href="/downloads">Download</a>
       <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
@@ -42,14 +43,17 @@
      lines to hear and a "Get it" fold, and "Your language" with every pack in one language. Both come from
      public/data/packs.json through lib/packs.js; /js/packs.js plays the examples and runs the language picker.
      Folded at the bottom: install help and every file by language and voice (dl-voices, lib/downloads.js, with
-     filters, samples, likes and one-ZIP bundles from voices-page.js). Preserve #addon, #installer, #zip,
+     filters, samples, likes and one-ZIP bundles from voices-page.js). Preserve #addon, #installer, #zip, #willo, #community,
      #curseforge, #voices (the extras), #packs, #languages, #install, #record, each voice row's anchor, and the lore
      pages' #pack-<folder> and #packs-<tile>. -->
 <main class="wrap dl-page">
-  <section class="dl-hero" id="addon" aria-labelledby="addon-title">
-    <div class="dl-hero-main">
-      <h1 id="addon-title">Download Lore Forever</h1>
-      <p class="pitch">Every zone tells its story as you arrive. Free, no account.</p>
+  <h1 class="dl-title" id="addon-title">Downloads</h1>
+  <!-- Two choices, never one installer for both (Mike, 2026-10-14): step 1 the add-on, step 2 Willo (dl-willo). -->
+  <div class="dl-steps">
+    <section class="dl-step" id="addon" aria-labelledby="addon-h">
+      <p class="dl-step-kicker">Step 1 &middot; free forever</p>
+      <h2 id="addon-h">Lore Forever add-on</h2>
+      <p>Every zone tells its story as you arrive. Free, no account. Windows and Mac.</p>
       <div class="dl-cta">
         <a class="btn-download dl-link" id="installer" href="/download/installer" aria-label="Download the Windows installer">Download for Windows</a>
         <a class="btn-download btn-download-alt dl-link" id="curseforge" href="https://www.curseforge.com/wow/addons/lore-forever"
@@ -60,9 +64,13 @@
         · <a class="dl-link" id="zip" href="/download/zip" aria-label="Download the Lore Forever ZIP">Manual ZIP</a>
         <span class="dl-size" data-asset="latest:LoreForever.zip">Size unavailable</span>
         · On a Mac? Use CurseForge or the ZIP.</p>
-    </div>
-    <!-- dl-comes -->
-  </section>
+    </section>
+    <!-- dl-willo: step 2, Willo, the companion app (lib/willo.js willoSection) -->
+  </div>
+  <!-- dl-comes -->
+
+  <!-- dl-community: the community's own narrators (lib/downloads.js communitySection) -->
+
 
   <section class="dl-section" id="voices" aria-labelledby="voices-title">
     <span id="packs"></span>

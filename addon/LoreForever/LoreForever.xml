@@ -25,6 +25,7 @@
   <Script file="JourneyRecord.lua"/>
   <Script file="Companion.lua"/>
   <Script file="Strip.lua"/>
+  <Script file="Sky.lua"/>
   <Script file="Options.lua"/>
   <Script file="Voice.lua"/>
   <Script file="Hooks.lua"/>

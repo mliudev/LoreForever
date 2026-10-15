@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Willo, your way - Lore Forever</title>
+<meta name="description" content="Choose how Willo, the companion, talks to you, and write your own tales of the characters you meet.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css?v=20261014w">
+<script src="/header.js" defer></script>
+<script src="/js/willo.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-lore" href="/lore">Lore</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+</header>
+
+<!-- Willo, your way (LOR-447, behind the "plans" feature): Willo's style for every plan, your own
+     words and your own tales of characters from Champion. GET, PUT and DELETE /api/willo
+     (functions/api/willo.js, lib/willo-custom.js) and the character search GET /api/willo/npcs; the script is
+     /js/willo.js. Linked from /plans and the plan card on /account. -->
+<main class="wrap fb-page wl-page" id="wl-main">
+  <h1>Willo, your way</h1>
+  <p class="pitch">Choose how Willo talks to you as you play. On Champion you can also write your own version of the
+    characters you meet, and they'll talk to you that way.</p>
+  <noscript><p class="fb-status">This page needs JavaScript.</p></noscript>
+  <p class="fb-status" id="wl-status" role="status" hidden></p>
+  <p id="wl-signin" hidden><a class="btn-small" href="/account?next=/willo/style">Sign in to choose</a></p>
+
+  <section class="pl-now" id="wl-free" aria-labelledby="wl-free-title" hidden>
+    <h2 id="wl-free-title">Willo's style comes with a plan</h2>
+    <p>Hero picks how Willo talks to you, and Champion can also describe it in your own words and rewrite up to 25
+      characters as your own tales.</p>
+    <p><a class="btn-small" href="/plans">See plans</a></p>
+  </section>
+
+  <div id="wl-on" hidden>
+    <section class="fb-form" aria-labelledby="wl-style-title">
+      <h2 id="wl-style-title">Willo's style</h2>
+      <div class="wl-presets" id="wl-presets" role="radiogroup" aria-label="Willo's style"></div>
+      <label class="fb-field" id="wl-words-box" hidden><span>Your own words <span class="fb-optional">(optional)</span></span>
+        <textarea id="wl-words" rows="3" placeholder="For example: call me Captain, and keep it short when I'm in a dungeon."></textarea>
+        <small id="wl-words-count"></small>
+        <small class="wl-why" id="wl-words-why" hidden></small>
+      </label>
+      <p class="vp-note" id="wl-words-up" hidden></p>
+      <div class="fb-actions">
+        <button class="btn-small" type="button" id="wl-style-save">Save Willo's style</button>
+        <p class="fb-status" id="wl-style-status" role="status" hidden></p>
+      </div>
+    </section>
+
+    <section class="fb-form" id="wl-tales" aria-labelledby="wl-tales-title" hidden>
+      <h2 id="wl-tales-title">Your tales</h2>
+      <p class="vp-note">Write your own version of a character, and when you talk to them in game they'll be that
+        person, for you alone. They still live in this world and keep its secrets. Up to <span id="wl-tales-max">25</span>
+        characters.</p>
+      <label class="fb-field"><span>Find a character</span>
+        <input type="search" id="wl-find" autocomplete="off" placeholder="A name, like Gryan Stoutmantle"></label>
+      <ul class="wl-found" id="wl-found" aria-label="Characters"></ul>
+      <div class="wl-edit" id="wl-edit" hidden>
+        <label class="fb-field"><span>Your tale of <span id="wl-who"></span></span>
+          <textarea id="wl-tale" rows="5"></textarea>
+          <small id="wl-tale-count"></small></label>
+        <div class="fb-actions">
+          <button class="btn-small" type="button" id="wl-tale-save">Save tale</button>
+          <button class="btn-small btn-small-alt" type="button" id="wl-tale-cancel">Cancel</button>
+        </div>
+      </div>
+      <p class="fb-status" id="wl-tale-status" role="status" hidden></p>
+      <ul class="wl-list" id="wl-list" aria-label="Your tales"></ul>
+    </section>
+    <p class="vp-note" id="wl-tales-up" hidden></p>
+    <p class="vp-note">Everything you write here is checked before Willo uses it, and only your own chats use it.
+      Change or delete it any time.</p>
+  </div>
+</main>
+
+<footer class="wrap foot">
+  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
+  <p><a href="/privacy">Privacy</a>: what we keep and why. <a href="/terms">Terms</a> and <a href="/refunds">refunds</a>.</p>
+  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+    Not affiliated with or endorsed by Blizzard.</p>
+</footer>
+</body>
+</html>

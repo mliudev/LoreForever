@@ -6,9 +6,12 @@ import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { ANSWER_MODEL, ANSWER_RESERVATION_MICRO, LOOKUP_RESERVATION_MICRO } from "../lib/companion-answers.js";
+import { keepFinding, wantsSearch } from "../lib/research-cache.js";
 import { d1 } from "./helpers.mjs";
 
-const env = { DB: d1(), GEMINI_API_KEY: "test-key" };
+// RESEARCH_SHARED: these tests cover sharing a finding with the next player, which stays off in production until a search
+// provider's terms allow it (lib/research-cache.js sharedFindings); the last test checks it's off by default.
+const env = { DB: d1(), GEMINI_API_KEY: "test-key", RESEARCH_SHARED: "1" };
 const originalFetch = globalThis.fetch;
 let calls, reply;
 const found = { candidates: [{ content: { parts: [{ text: "In WoW Forever warriors earn Berserker Stance with the level 30 quest The Islander." }] },
@@ -80,6 +83,35 @@ test("no look-up when a Forever fact covers it, for lore and chat, or without re
   assert.ok(calls.every(c => !c.body.tools));
 });
 
+test("only practical or current questions and corrections no fact covers look online; where am I and lore never do", () => {
+  for (const q of ["Where am I?", "Willow, tell me, are you able to see your sky and know where you are?",
+    "Willow. Who am I looking at?", "What's this place?", "Hi Willo, what do you see?", "Tell me about Ironforge.",
+    "Tell me about the history of Ironforge.", "Where is King Magni?", "I want to learn about the orcs."])
+    assert.equal(wantsSearch(q, null, []), false, q);
+  for (const q of ["Where can I buy Simple Flour in Goldshire?", "Where am I able to buy Mild Spices?",
+    "Where is the cooking trainer in the Crossroads?", "How do I get Berserker Stance?", "What is the best way to farm cloth?",
+    "where do I go to learn mining", "What changed in the latest patch?"])
+    assert.equal(wantsSearch(q, null, []), true, q);
+  assert.equal(wantsSearch("I'm pretty sure that's Dalaran.", "correction", []), true);
+  assert.equal(wantsSearch("Where can I buy Simple Flour in Goldshire?", null, [{ asked: true }]), false, "a fact covers it");
+});
+
+test("the Great Forge 'where you are' question (10/14) gets no look-up and no earlier finding; flour in Goldshire does", async () => {
+  const question = "Willow, tell me, are you able to see your sky and know where you are?";
+  // What that answer's search kept for the next player.
+  await keepFinding(env, { question, zone: "Ironforge", faction: "Alliance" }, "WoW Forever's Great Forge is in Ironforge.",
+    [{ title: "method.gg", url: "https://www.method.gg/ironforge" }]);
+  const here = await ask(await linked(), question);
+  assert.equal(here.looked_up, "no");
+  assert.equal(here.web_search.status, "not_needed");
+  assert.equal(here.web_search.suggestions_html, "", "no Google chip");
+  assert.deepEqual(here.web_sources, []);
+  assert.ok(calls.every(c => !c.body.tools));
+  const flour = await ask(await linked(), "Where can I buy Simple Flour in Goldshire?", "Elwynn Forest");
+  assert.equal(flour.looked_up, "quick");
+  assert.equal(flour.web_search.status, "searched");
+});
+
 test("a look-up that times out or finds nothing is answered without it, and the budget settles", async () => {
   reply = body => (body.tools ? Object.assign(new Error("The operation was aborted due to timeout"), { name: "TimeoutError" }) : plain);
   const slow = await ask(await linked(), "How do I get the Whirlwind Axe?");
@@ -94,4 +126,12 @@ test("a look-up that times out or finds nothing is answered without it, and the 
   const empty = await ask(await linked(), "Where can I buy Mild Spices?");
   assert.equal(empty.looked_up, "no");
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM research_cache").get().n, 0);
+});
+
+test("by default a Google finding is never kept or served to another player (grounding terms)", async () => {
+  const { cachedFinding, keepFinding } = await import("../lib/research-cache.js");
+  const off = { DB: env.DB };
+  const parts = { question: "Where can I buy Simple Flour?", zone: "Goldshire", faction: "Alliance" };
+  assert.equal(await keepFinding(off, parts, "From the innkeeper.", [{ title: "Simple Flour", url: "https://example.com" }]), false);
+  assert.equal(await cachedFinding(off, parts), null);
 });

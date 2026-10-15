@@ -1,0 +1,109 @@
+{
+ "key": "quest:93036",
+ "type": "quest",
+ "name": "Infiltrating the Cult",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93036
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Sania Silverstream presents herself as a junior priestess, but her faith is pledged to an Elemental Lord rather than the Holy Light or Elune. True priests will recognize her pleasant religious veneer as cover for elemental worship."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Infiltrating a hostile cult through an unsuspecting recruiter plays directly to a rogue's talents for espionage, deception, and reconnaissance behind enemy lines."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is sania",
+    "sania silverstream lore",
+    "priestess sania"
+   ],
+   "answer": "Sania Silverstream is a junior priestess residing in Shen'dar Village who claims to be a missionary for a religious order called the Al'Aketh. In truth, she acts as a friendly, non-threatening recruiter drawing locals into worship of the Windlord Al'Akir.",
+   "q": "Who is Sania Silverstream?"
+  },
+  {
+   "aliases": [
+    "who are the alaketh",
+    "what is alaketh",
+    "order of alaketh"
+   ],
+   "answer": "The Al'Aketh is a cult masquerading as a conventional religious movement. Beneath their outward missionary activities, they revere Al'Akir the Windlord, the elemental lord of air, and seek to expand their influence by quietly recruiting converts from nearby settlements.",
+   "q": "What is the Order of the Al'Aketh?"
+  },
+  {
+   "aliases": [
+    "why let sania stay",
+    "why not kill sania",
+    "why is sania in the village"
+   ],
+   "answer": "The village leaders have tolerated Sania Silverstream's missionary presence to preserve a fragile illusion of peace and avoid triggering open hostilities with the cult. However, that uneasy truce is rapidly fraying, prompting the decision to investigate her covertly.",
+   "q": "Why has Shen'dar Village tolerated Sania Silverstream?"
+  },
+  {
+   "aliases": [
+    "who is the windlord",
+    "alakir lore",
+    "who is alakir"
+   ],
+   "answer": "Al'Akir the Windlord is the Elemental Lord of the skies, storms, and air. The Order of the Al'Aketh venerates him as their divine sovereign, promising a place at the Windlord's table to any who repent and join their cause.",
+   "q": "Who is the Windlord Al'Akir?"
+  },
+  {
+   "aliases": [
+    "why me",
+    "why send an adventurer",
+    "infiltrating quest reason"
+   ],
+   "answer": "Because you are an unfamiliar newcomer to Shen'dar Village, Sania and the Al'Aketh will not suspect you of working on behalf of the village leadership. Your anonymity allows you to approach her under the guise of an interested recruit without raising suspicion.",
+   "q": "Why are you asked to infiltrate the cult instead of a local?"
+  },
+  {
+   "aliases": [
+    "cult plan for village",
+    "what do the alaketh want",
+    "alaketh intentions"
+   ],
+   "answer": "The local leadership suspects that the Al'Aketh's recruiting efforts conceal broader, aggressive ambitions for Shen'dar Village. The primary goal of infiltrating the cult is to uncover these clandestine plans before the village's fragile peace collapses entirely.",
+   "q": "What are the Al'Aketh planning for Shen'dar Village?"
+  }
+ ],
+ "keywords": [
+  "al'aketh",
+  "al'akir",
+  "alaketh",
+  "alakir",
+  "infiltrating the cult",
+  "sania silverstream",
+  "shen'dar village",
+  "windlord"
+ ],
+ "related": [
+  "topic:priest"
+ ],
+ "sections": [
+  {
+   "body": "In Shen'dar Village, an uneasy truce is beginning to unravel. For some time, local authorities have tolerated the presence of Sania Silverstream, a self-proclaimed missionary living among them. She represents the Order of the Al'Aketh, an organization that dresses itself in the vestments of a benign religious movement while deploying gentle recruiters to attract unsuspecting followers. Village leaders permitted her recruitment efforts solely to avoid provoking the cult into outright conflict, but the pretense of mutual coexistence is wearing thin.",
+   "spoiler": 0,
+   "title": "A Precarious Peace"
+  },
+  {
+   "body": "Beneath the diplomatic posturing and mild missionary work lies devotion to an ancient and dangerous power: Al'Akir the Windlord, ruler of the air elementals. When approached, Sania openly introduces herself as a junior priestess in the Order of the Al'Aketh, inviting prospective initiates to learn of their sovereign and promising a place at his table. Because existing residents are too familiar to investigate her safely, newcomers to the village are tasked with gaining her confidence to uncover what the cult truly plans for Shen'dar.",
+   "spoiler": 1,
+   "title": "Beneath the Missionary's Veil"
+  }
+ ],
+ "summary": "Infiltrating the Cult is a quest in Shen'dar Village where an unfamiliar adventurer is tasked with approaching a local missionary named Sania Silverstream. Beneath her benign religious exterior, Sania recruits followers for the Al'Aketh, a cult dedicated to the Windlord Al'Akir. The mission seeks to uncover the cult's true designs for the settlement before an uneasy peace shatters.",
+ "attribution": [
+  "In-game quest text: Infiltrating the Cult"
+ ]
+}

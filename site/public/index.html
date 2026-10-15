@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20261014w">
 <script src="/header.js" defer></script>
 <!-- Brand search (LOR-465): the site's name for Google's results (WebSite), and the add-on as the thing to download
      with its CurseForge page and source (SoftwareApplication), so "Lore Forever" searches find this page, not only
@@ -65,6 +65,7 @@
     <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
+      <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
       <a class="nl" id="nav-download" href="/downloads">Download</a>
       <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
@@ -75,10 +76,10 @@
 </header>
 
 <!-- newbar:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
-<aside class="newbar" id="newbar" data-version="0.17.1" aria-label="New in 0.17.1" hidden>
+<aside class="newbar" id="newbar" data-version="0.18.0" aria-label="New in 0.18.0" hidden>
   <div class="wrap newbar-in">
-    <span class="tag tag-new">New in 0.17.1</span>
-    <a href="/whats-new#v0-17-1">Fixed</a>
+    <span class="tag tag-new">New in 0.18.0</span>
+    <a href="/whats-new#v0-18-0">Meet Willo</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-18-0">Talk to anyone</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-18-0">Chat with Willo in game</a>
     <a class="newbar-all" href="/whats-new">See what's new</a>
   </div>
   <button class="newbar-x" type="button" aria-label="Hide until the next version">&times;</button>
@@ -97,7 +98,7 @@
       <ul class="stats">
         <li>by <strong>Mike</strong></li>
         <li id="downloads"><strong>New release</strong></li>
-        <li>Version <strong>0.17.1</strong></li>
+        <li>Version <strong>0.18.0</strong></li>
         <li>Game <strong>WoW Forever 1.60.1</strong></li>
       </ul>
       <!-- Downloads, no email step. Since 2026-10-02 (Mike) the site's own download comes first: the Windows installer
@@ -148,6 +149,24 @@
 </section>
 
 <main class="wrap">
+
+  <!-- Two small cards under the hero (Mike, 2026-10-14): Willo, the companion app (everything else about her is on
+       /willo), and the community narrators, whose names showCommunity below fills from /api/credits (the players'
+       own voices, as they credit them; never our house narrators). -->
+  <div class="home-cards">
+    <a class="willo-card" href="/willo">
+      <img src="/img/wispr.svg" alt="" width="72" height="72">
+      <span><strong>Meet Willo, your little guide</strong>
+        A tiny wisp who floats along on your journey, telling you about the places you find and answering your
+        questions, out loud. <span class="willo-card-go">Say hello to Willo &rarr;</span></span>
+    </a>
+    <div class="willo-card voices-card">
+      <svg class="voices-card-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+      <span><strong>Voices from our community</strong>
+        <span id="voices-card-line">Players lend their voices to the stories.</span>
+        <a href="/downloads#community">Hear them</a> &middot; <a href="/voices/lend">Lend your voice</a></span>
+    </div>
+  </div>
 
   <!-- See your journey (player profiles, LOR-181; the sign-in pull, LOR-222): what a profile looks like, right under
        the downloads, for players who've played a while. The card is an example (Aelric isn't a real player), the same
@@ -485,8 +504,6 @@
         <ol>
           <li>Click <strong>Download for Windows</strong> at the top of this page and run <code>LoreForever-Setup.exe</code>.
             It's signed; Windows shows the publisher as Mei Liu.</li>
-          <li>If Windows shows a SmartScreen prompt, click <strong>More info</strong>, then <strong>Run anyway</strong>.
-            (New publishers can see this for a few weeks.)</li>
           <li>It finds your World of Warcraft folder and installs into <code>_classic_beta_\Interface\AddOns</code>.
             No admin rights needed. To update later, run a newer installer.</li>
           <li>Start WoW, or type <code>/reload</code> if it's already running.</li>
@@ -546,6 +563,16 @@
       <section class="tab-panel" id="changelog" role="tabpanel">
         <h2>Changelog</h2>
         <!-- changelog:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
+        <h3>0.18.0</h3>
+        <ul>
+          <li><strong>Meet Willo:</strong> Willo, Lore Forever's free companion app, now installs on her own. Ask her anything out loud or in her chat while you play. She knows your race and class, and her tips come in the same voice as her answers.</li>
+          <li><strong>Talk to anyone:</strong> target a character, from King Magni to a guard or an innkeeper, and they answer you themselves. Willo glows in their colors while they speak, and each remembers only what you said to them.</li>
+          <li><strong>Chat with Willo in game:</strong> click Willo to chat right there, scroll back through it, and start a new chat from her bubble.</li>
+          <li><strong>Willo's sky:</strong> live game info now shows as rings of stars over your minimap instead of colored squares.</li>
+          <li><strong>Willo's settings in one place:</strong> they sit together in Options, greyed out until Willo is installed.</li>
+          <li><strong>Fewer wrong answers:</strong> when Lore Forever only half-understands a question, it offers its closest matches, and "thanks" or "that's not right" get a friendly reply instead of a random story.</li>
+          <li><strong>Tidier chat and lore fixes:</strong> suggested questions sit right under the latest answer, and 17 lore entries are corrected.</li>
+        </ul>
         <h3>0.17.1</h3>
         <ul>
           <li><strong>Fixed:</strong> Lore Forever could leave a character without movement or camera keys; affected characters get their own keys back at next login.</li>
@@ -738,8 +765,7 @@
         <h3>Install in 3 steps</h3>
         <ol class="steps">
           <li><strong>Run the <a class="dl-link" href="/download/installer">Windows installer</a>.</strong> It finds
-            your WoW Forever folder. If Windows shows a SmartScreen prompt, click <strong>More info</strong>, then
-            <strong>Run anyway</strong>.</li>
+            your WoW Forever folder.</li>
           <li><strong>Start WoW</strong>, or type <code>/reload</code> if it's already running.</li>
           <li><strong>Type <code>/lore</code></strong> or press the key you pick on first login.</li>
         </ol>
@@ -896,6 +922,13 @@ document.addEventListener("visibilitychange", () => { if (!document.hidden) show
   const translators = credits.translators || [];
   const languages = new Set(translators.flatMap(p => Object.keys(p.languages || {}))).size;
   if (!voices.length && !translators.length) return;
+  // The small "Voices from our community" card under the hero: who narrates, in which language.
+  const said = [...new Set(voices.map(v => v.language ? `${v.by} narrates in ${v.language}` : `${v.by} narrates`))];
+  if (said.length) {
+    const last = said.pop();
+    document.getElementById("voices-card-line").textContent =
+      `Players lend their voices to the stories: ${said.length ? said.join(", ") + " and " : ""}${last}.`;
+  }
   const list = document.getElementById("community-voices");
   for (const v of voices) {
     const li = document.createElement("li");

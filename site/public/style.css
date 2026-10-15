@@ -107,7 +107,7 @@ code { background: #00000066; padding: 1px 5px; border-radius: 3px; font-size: 0
 .menu-head { margin: 6px 10px 2px; color: var(--gold-soft); font: 600 0.68rem/1.4 var(--heading); letter-spacing: 0.12em; text-transform: uppercase; }
 .menu-note, .menu-who { margin: 2px 10px 4px; font-size: 0.78rem; color: var(--muted); }
 .menu-who strong { color: var(--text); font-weight: 600; word-break: break-all; }
-/* Sized for the four links, signed in or out, with nothing wider than the screen from 320px up: the short labels
+/* Sized for the links (five with Willo; the narrowest phones wrap them, below), signed in or out, with nothing wider than the screen from 320px up: the short labels
    (Profile) to 960px, two rows to 840px, phone sizes to 600px. */
 @media (max-width: 960px) {
   .nav { gap: 6px 8px; }
@@ -135,6 +135,10 @@ code { background: #00000066; padding: 1px 5px; border-radius: 3px; font-size: 0
 }
 @media (max-width: 359px) {
   .nav-links .nl { font-size: 0.7rem; }
+}
+/* Five links since Willo joined (2026-10-14): on the narrowest phones they wrap onto a second row, never off screen. */
+@media (max-width: 600px) {
+  .nav-links { flex-wrap: wrap; }
 }
 
 /* Fading gold rule under the hero and section headings */
@@ -1011,28 +1015,37 @@ dd { margin: 0; }
           border-top: 1px solid var(--line); }
 .ac-app p { margin: 0; }
 .ac-app strong { color: var(--gold-soft); }
-/* Plans (LOR-252): /plans, a card per plan, yours outlined in gold, and the top-up under them (styled as .pl-now); and
-   the plan card at the top of /account. */
+/* Plans (LOR-252): /plans, a card per plan, yours outlined in gold, and the finest-voice pack under them (.pl-pack,
+   styled as .pl-now); and the plan card at the top of /account. */
 .fb-page.pl-page { max-width: 1060px; }
 .pl-now { margin: 20px 0; padding: 14px 18px; border-left: 3px solid var(--gold-soft); background: rgba(216, 178, 90, 0.07); }
 .pl-now[hidden] { display: none; }
 .pl-now h2 { margin: 0 0 4px; font: 600 1.05rem var(--heading); color: var(--gold); }
 .pl-now p { margin: 0 0 8px; }
 .pl-now p:last-child { margin-bottom: 0; }
-.pl-interval { margin: 20px 0 14px; }
 .pl-thanks { margin: 12px 0; }
 .pl-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; margin: 0 0 16px; }
 .pl-card { display: flex; flex-direction: column; padding: 16px 16px 14px; border: 1px solid var(--panel-line); border-radius: 5px;
            background: var(--panel); box-shadow: inset 0 0 0 1px #000, 0 4px 14px rgba(0, 0, 0, 0.5); }
 .pl-card.pl-mine { border-color: var(--gold); }
 .pl-card h3 { font-family: var(--heading); color: var(--gold); margin: 0 0 2px; font-size: 1.15rem; }
-.pl-price { margin: 0; color: var(--gold-soft); font-weight: 600; }
-.pl-save { min-height: 1.4em; margin: 0 0 8px; color: var(--muted); font-size: 0.82rem; }
+.pl-price { margin: 0 0 8px; color: var(--gold-soft); font-weight: 600; }
+.pl-price s { color: var(--muted); font-weight: 400; }
+.pl-tag { display: inline-block; margin-left: 4px; padding: 1px 7px; border: 1px solid var(--gold-soft); border-radius: 10px;
+          color: var(--gold); font-size: 0.75rem; font-weight: 600; vertical-align: 1px; }
+.pl-offer { margin: -4px 0 8px; color: var(--muted); font-size: 0.85rem; }
+.pl-pending { display: block; margin: 0 0 6px; color: var(--muted); font-size: 0.88rem; }
+.pl-confirm { padding: 10px 12px; border: 1px solid var(--gold-soft); border-radius: 4px; background: rgba(216, 178, 90, 0.08);
+              font-size: 0.92rem; }
+.pl-confirm p { margin: 0 0 8px; }
+.pl-confirm .pl-confirm-go { margin: 0; }
+.pl-confirm .btn-small { cursor: pointer; }
+.pl-confirm .btn-small:disabled { opacity: 0.6; cursor: wait; }
 .pl-card ul { margin: 0 0 14px; padding-left: 18px; font-size: 0.92rem; }
 .pl-card li { margin-bottom: 3px; }
 .pl-card .pl-go { margin: auto 0 0; }
-.pl-card .pl-go .btn-small, .pl-topup .pl-go .btn-small { cursor: pointer; }
-.pl-card .pl-go .btn-small:disabled, .pl-topup .pl-go .btn-small:disabled { opacity: 0.6; cursor: wait; }
+.pl-card .pl-go .btn-small, .pl-pack .pl-go .btn-small { cursor: pointer; }
+.pl-card .pl-go .btn-small:disabled, .pl-pack .pl-go .btn-small:disabled { opacity: 0.6; cursor: wait; }
 .ac-plan { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; margin: 18px 0 0;
            padding: 14px 18px; border: 1px solid #c9a24b; border-radius: 5px;
            background: linear-gradient(90deg, rgba(216, 178, 90, 0.14), rgba(8, 10, 22, 0.94) 70%); }
@@ -1617,3 +1630,65 @@ main:has(.pf-visitor) .pf-ch, main:has(.pf-visitor) .pf-chx { scroll-margin-top:
   .dl-install-panel .dl-get { white-space: normal; }
 }
 .dl-page .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+
+/* Willo, the companion app (/willo, the home page's card, /downloads' step 2): its own blue beside the add-on's gold. */
+:root { --willo: #9fc0ff; --willo-soft: #cfd8f2; --willo-line: #4f6fe8; --willo-bg: #0b1024; }
+.nl-willo { color: var(--willo); }
+.willo-card { display: flex; gap: 16px; align-items: center; margin: 22px 0 6px; padding: 14px 18px; border: 1px solid var(--willo-line);
+  border-radius: 8px; background: var(--willo-bg); color: var(--willo-soft); text-decoration: none; }
+.willo-card:hover { border-color: var(--willo); color: #fff; }
+.willo-card img { flex: none; width: 72px; height: 72px; }
+.willo-card strong { display: block; font-family: var(--heading); color: #dfe8ff; font-size: 1.1rem; }
+.willo-card-go { color: var(--willo); white-space: nowrap; }
+.wl-landing .wl-hero { display: flex; flex-wrap: wrap; gap: 28px; align-items: center; }
+.wl-hero-main { flex: 1 1 380px; min-width: 0; }
+.wl-hero-main h1 { color: #dfe8ff; }
+.wl-wisp { flex: 0 1 220px; width: 220px; max-width: 100%; height: auto; margin: 0 auto; }
+.wl-landing h2 { font-family: var(--heading); color: var(--gold); font-size: 1.5rem; margin: 34px 0 12px; }
+.wl-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 14px; margin: 0; padding: 0; list-style: none; }
+.wl-tile { padding: 16px 18px; border: 1px solid var(--panel-line); border-radius: 6px; background: var(--panel); color: var(--willo-soft); }
+.wl-tile h3 { margin: 0 0 4px; color: var(--text); font-size: 1.05rem; }
+.wl-tile p { margin: 0; }
+.wl-step-n { display: block; font-family: var(--heading); color: var(--willo); font-size: 1.6rem; line-height: 1.2; }
+.shot-placeholder { display: flex; align-items: center; justify-content: center; aspect-ratio: 16 / 9; margin: 0 0 8px; padding: 12px;
+  border: 1px dashed var(--willo-line); border-radius: 6px; color: var(--muted); font-size: 0.85rem; text-align: center; }
+.wl-voice { display: flex; flex-direction: column; gap: 6px; }
+.wl-voice audio { width: 100%; }
+.wl-voice small { color: var(--muted); }
+
+
+.pl-card .pl-promo { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; margin: 0; }
+.pl-card .pl-promo s { color: #8790ad; }
+.pl-card .pl-promo strong { color: #fff; font-size: 1.3rem; }
+.pl-tag { align-self: flex-start; margin: 0 0 6px; padding: 1px 8px; border-radius: 3px; background: var(--gold); color: #1b1300;
+  font-size: 0.78rem; font-weight: 700; }
+.wl-compare-box { overflow-x: auto; margin: 6px 0 12px; }
+.wl-compare { width: 100%; min-width: 560px; border-collapse: collapse; font-size: 0.92rem; }
+.wl-compare th, .wl-compare td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: center; }
+.wl-compare th:first-child, .wl-compare td:first-child { text-align: left; }
+.wl-compare thead th { font-family: var(--heading); color: var(--gold); }
+.wl-faq { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 14px 32px; }
+.wl-faq h3 { margin: 0 0 2px; font-size: 1rem; }
+.wl-faq p { margin: 0; color: var(--willo-soft); }
+.dl-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 18px; margin: 4px 0 8px; }
+.dl-step { display: flex; flex-direction: column; gap: 10px; padding: 20px; border: 1px solid #c9a24b; border-radius: 8px; background: #14100b; }
+.dl-step-willo { border-color: var(--willo-line); background: var(--willo-bg); }
+.dl-step-kicker { margin: 0; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700; color: var(--gold-soft); }
+.dl-step-willo .dl-step-kicker { color: var(--willo); }
+.dl-step h2 { margin: 0; font-family: var(--heading); font-size: 1.4rem; color: var(--parchment); }
+.dl-step-willo h2 { color: #dfe8ff; }
+.dl-step p { margin: 0; }
+@media (max-width: 560px) { .willo-card { align-items: flex-start; } .willo-card img { width: 56px; height: 56px; } }
+.home-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 14px; margin: 22px 0 6px; }
+.home-cards .willo-card { margin: 0; }
+.voices-card { border-color: #c9a24b; background: #14100b; color: var(--text); }
+.voices-card strong { color: var(--parchment); }
+.voices-card-icon { flex: none; width: 56px; height: 56px; fill: none; stroke: var(--gold-soft); stroke-width: 1.6; stroke-linecap: round; }
+.voices-card:hover { border-color: #c9a24b; color: var(--text); }
+.dl-title { font-family: var(--heading); color: var(--gold); margin: 6px 0 12px; }
+.cm-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 12px; margin: 10px 0 14px; padding: 0; list-style: none; }
+.cm-card { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; padding: 14px 16px; border: 1px solid #c9a24b;
+  border-radius: 6px; background: #14100b; }
+.cm-card .cm-by { flex: 1 0 100%; margin: 0; font-family: var(--heading); color: var(--parchment); font-size: 1.1rem; }
+.cm-card .cm-what { flex: 1 0 100%; margin: 0 0 4px; color: var(--muted); font-size: 0.9rem; }
+.wl-plans-line { margin: 18px 0 0; font-size: 1.05rem; }

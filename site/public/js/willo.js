@@ -1,4 +1,4 @@
-// Willo, your way (/willo, LOR-447): Willo's style (a preset, and from Champion your own words) and, from Champion,
+// Willo, your way (/willo/style, LOR-447): Willo's style (a preset, and from Champion your own words) and, from Champion,
 // your own tales of the characters you meet, found by name. It all goes through /api/willo (functions/api/willo.js); the
 // character search is /api/willo/npcs. The server checks each plan's limits again, so this page only hides what a plan
 // doesn't have. Signed out it offers sign-in; on the free plan, the way to /plans; while plans are off, says so.

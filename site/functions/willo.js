@@ -1,30 +1,30 @@
-// The link the add-on gives players who don't have Willo yet (LOR-459: its Get Willo button and its suggestion when it
-// has no answer). Add-ons can't open web pages, so players copy loreforeverwow.com/willo into a browser. Until Willo
-// launches (the add-on hides those entry points, Companion.OFFER_WILLO), it's a small "coming soon" page; at launch it
-// goes back to redirecting to the Windows installer on /downloads#installer, whose full install includes Willo. Each
-// visit is counted per day in the D1 database (bound as DB), so we can see whether the add-on sends players to Willo:
+// /willo: Willo's page (public/willo.html), where the add-on's "Get Willo" sends players (LOR-459: its Get Willo
+// button, its in-chat line and /lore willo; add-ons can't open web pages, so players copy loreforeverwow.com/willo into
+// a browser). It counts the visit per day in the D1 database (bound as DB), so we can see whether the add-on sends
+// players to Willo:
 //   SELECT day, n FROM willo_clicks ORDER BY day DESC
-// Link-preview bots get the page but aren't counted.
+// and fills the page's call to action from lib/willo.js: Willo's own download once a release has Willo-Setup.exe,
+// else word that Willo is coming. Link-preview bots get the page but aren't counted.
+
+import { loadSizes } from "../lib/packs.js";
+import { willoGet, willoPreview } from "../lib/willo.js";
 
 const SETUP = "CREATE TABLE IF NOT EXISTS willo_clicks (day TEXT PRIMARY KEY, n INTEGER NOT NULL)";
 const BOTS = /bot|crawler|spider|preview|facebookexternalhit|embedly|whatsapp|telegram|slack/i;
+const GET = /<!-- willo-get -->[\s\S]*?<!-- \/willo-get -->/;
 
-const PAGE = `<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Willo is coming soon - Lore Forever</title>
-<meta name="description" content="Willo, Lore Forever's companion app, is coming soon.">
-<link rel="icon" href="/img/logo.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css"></head>
-<body><header class="top"><div class="wrap"><span class="crumb"><a href="/">Lore Forever</a> &rsaquo;
-Willo</span></div></header>
-<main class="wrap fb-page"><h1>Willo is coming soon</h1>
-<div class="fb-done"><p>Willo, Lore Forever's companion app, isn't out yet. It's coming soon.</p>
-<p><a href="/">Back to Lore Forever</a></p></div>
-</main></body></html>`;
-
-export async function onRequestGet({ request, env, waitUntil }) {
+export async function onRequestGet({ request, env, waitUntil, next }) {
   // Counting runs after the response, so it never holds up or breaks the page.
   if (env.DB && !BOTS.test(request.headers.get("user-agent") || "")) waitUntil(count(env.DB));
-  return new Response(PAGE, { status: 200, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" } });
+  const page = await next();
+  const html = await page.text();
+  if (!GET.test(html)) return new Response(html, page);      // not the page (a missing file is the home page)
+  const [sizes, preview] = await Promise.all([loadSizes(env, request), willoPreview(env, request)]);
+  const headers = new Headers(page.headers);
+  headers.set("Cache-Control", "no-cache");
+  headers.delete("Content-Length");
+  headers.delete("ETag");
+  return new Response(html.replace(GET, () => willoGet(sizes, preview)), { status: page.status, headers });
 }
 
 async function count(db) {
@@ -35,6 +35,6 @@ async function count(db) {
       db.prepare("INSERT INTO willo_clicks (day, n) VALUES (?, 1) ON CONFLICT(day) DO UPDATE SET n = n + 1").bind(day),
     ]);
   } catch {
-    // A lost count is fine; a broken link is not.
+    // A lost count is fine; a broken page is not.
   }
 }

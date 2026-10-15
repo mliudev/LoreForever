@@ -2,7 +2,7 @@
 // of the characters they talk to. Hero picks one of four preset styles (PRESETS); Champion can also describe Willo's
 // style in their own words (STYLE_MAX characters) and write a "tale" for up to TALES_MAX characters (TALE_MAX
 // characters each), which only that player's talks with them use (launch plans, Mike, 2026-10-12: tales moved from
-// Legend to Champion). The page is /willo (public/willo.html,
+// Legend to Champion). The page is /willo/style (public/willo/style.html,
 // public/js/willo.js), the API functions/api/willo.js and functions/api/willo/npcs.js, and the companion's live
 // answers pick them up in functions/api/companion/answer.js (promptBlocks).
 //
@@ -24,7 +24,7 @@ import { perDay } from "./ratelimit.js";
 import { loadIndex, keyOf } from "./lore.js";
 
 // The styles a plan can pick. text: what the answer's prompt gets (tone only; the rules and the length stay); blurb:
-// what /willo says about it. classic is today's Willo, with nothing added.
+// what /willo/style says about it. classic is today's Willo, with nothing added.
 export const PRESETS = {
   classic: { name: "Classic", blurb: `The ${NAME} you know: warm, curious and to the point.`, text: "" },
   scholar: { name: "Scholar", blurb: "Precise and a little dry, with exact names and dates.",
@@ -156,7 +156,7 @@ export async function check(env, text, kind) {
   return { ok: verdict.ok, reason: verdict.ok ? "" : clean(verdict.reason, 200) || TURNED_AWAY };
 }
 
-// ---- What /willo shows and saves ----
+// ---- What /willo/style shows and saves ----
 
 // What the account has saved, and what its plan uses: {allowed, style: {preset, text, status, reason}, tales: [{npc,
 // text, status, reason, updated}]}, newest tale first. Everything saved is listed, whatever the plan (allowed says what

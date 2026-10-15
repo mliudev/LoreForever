@@ -34,6 +34,10 @@ for w in ([[level levels drop drops loot solo stun dps tank healer spec talent t
   farm farming respawn spawn spawns coords coordinates bugged bug buggy price cost vendor sell runs group gear
   item items damage]]):gmatch("%a+") do GAMEPLAY[w] = true end
 
+-- A mechanics question whose best match covers less of it than this is left unanswered (UI.Ask): the lore can't
+-- answer "what's the best talent build for a hunter?".
+local GAMEPLAY_COVER = 0.5
+
 local function isGameplay(question)
   for w in question:lower():gmatch("%a+") do
     if GAMEPLAY[w] then return true end
@@ -485,22 +489,10 @@ function UI.Create(engine)
     if not ns.Journey.IsShown() then ns.Log.Use("tab", "journey") end   -- usage counts (LOR-435)
     ns.Journey.Toggle()
   end, UI.historyButton)
-  -- Get Willo (LOR-459): only until the companion app is installed (UI.UpdateWilloButton).
-  UI.willoButton = headerButton(string.format(L["Get %s"], ns.COMPANION_NAME), function()
-    ns.Companion.ShowGetWillo()
-  end, UI.journeyButton, "primary")
-  UI.willoButton:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
-    GameTooltip:AddLine(string.format(L["Get %s"], ns.COMPANION_NAME))
-    T.Tip(L["Lore Forever's free companion app for Windows answers anything you ask, out loud. Click for the link."], "tipText", true)
-    GameTooltip:Show()
-  end)
-  UI.willoButton:SetScript("OnLeave", function() GameTooltip:Hide() end)
 
   UI.contextLine = f:CreateFontString(nil, "OVERLAY", T.font.place)
   UI.contextLine:SetPoint("TOPLEFT", 16, -34)
   UI.contextLine:SetPoint("RIGHT", UI.journeyButton, "LEFT", -10, 0)
-  UI.UpdateWilloButton()
   UI.contextLine:SetJustifyH("LEFT")
   if UI.contextLine.SetWordWrap then UI.contextLine:SetWordWrap(false) end
 
@@ -759,7 +751,6 @@ function UI.Create(engine)
     b:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -36, 108 - i * 22)
     b:SetScript("OnClick", function(self)
       if self.live then ns.Companion.Ask(self.live)
-      elseif self.willo then ns.Companion.ShowGetWillo(self.willo)
       elseif self.section then UI.ShowSection(self.key, self.idx)
       elseif self.key and self.idx then UI.ShowFaq(self.key, self.idx, self.via or "next")
       elseif self.key then UI.ShowEntry(self.key, self.via or "next") end
@@ -1699,6 +1690,7 @@ local function RateButtons(parent)
     if self.log.helpful ~= false then ns.Log.Feedback(self.log, false) end   -- keeps a reason given earlier
     SetRating({ up = up, down = down, rated = rated }, self.log)
     UI.ShowReport(self.log)
+    UI.SuggestWilloLine(self.log.q)   -- a wrong answer is when live answers help most (once a play session)
   end, L["Not right?"], L["Tell us what was wrong, and copy a short report to send us."])
   up:SetPoint("BOTTOMLEFT", PAD - 2, 6)
   down:SetPoint("LEFT", up, "RIGHT", 6, 0)
@@ -1983,6 +1975,7 @@ function UI.Render(keepScroll)
   end
   for i = #UI.msgs + 1, #UI.bubbles do UI.bubbles[i].frame:Hide() end
   UI.content:SetHeight(y + 8)
+  UI.PlaceNext()
   UI.listenButton = latestListen or UI.listenButton   -- the newest answer's Listen (used by /lore listen)
   UI.UpdateListen()
   if keepScroll then return end
@@ -2062,8 +2055,7 @@ function UI.Append(text)
   UI.AddMessage("note", text)
 end
 
--- items: { {key, idx?, label?, q?, name?, via?} }, or { live = question, label } to ask live answers, or
--- { willo = question, label } for the link to get Willo (no companion yet)
+-- items: { {key, idx?, label?, q?, name?, via?} }, or { live = question, label } to ask live answers
 function UI.SetNext(items, label)
   local available = {}
   for _, it in ipairs(items) do
@@ -2080,7 +2072,7 @@ function UI.SetNext(items, label)
   for i, b in ipairs(UI.nextButtons) do
     local it = items[i]
     if it then
-      b.key, b.idx, b.via, b.section, b.live, b.willo = it.key, it.idx, it.via, it.section, it.live, it.willo
+      b.key, b.idx, b.via, b.section, b.live = it.key, it.idx, it.via, it.section, it.live
       local who = it.name and (GREY .. "  (" .. esc(it.name) .. ")|r") or ""
       b.text:SetText(WHITE .. esc(it.label or it.q) .. "|r" .. who)
       b:Show()
@@ -2088,18 +2080,24 @@ function UI.SetNext(items, label)
       b:Hide()
     end
   end
+  UI.PlaceNext()
 end
 
--- Get Willo in the header only until the companion app is installed (Companion.OfferWillo); the place line gives
--- way to it.
-function UI.UpdateWilloButton()
-  local b = UI.willoButton
-  if not (b and UI.contextLine) then return end
-  local on = ns.Companion.OfferWillo()
-  b:SetShown(on)
-  UI.contextLine:ClearAllPoints()
-  UI.contextLine:SetPoint("TOPLEFT", 16, -34)
-  UI.contextLine:SetPoint("RIGHT", on and b or UI.journeyButton, "LEFT", -10, 0)
+-- The suggestions sit right under the last message while the conversation is shorter than its space, so no empty
+-- stretch reads as something missing (Mike, 10/13); once it fills the space, at the bottom above the message box.
+function UI.PlaceNext()
+  local label, sf, content = UI.nextLabel, UI.scroll, UI.content
+  if not (label and sf and content and UI.frame) then return end
+  local gap = math.floor(math.max(0, (tonumber(sf:GetHeight()) or 0) - (tonumber(content:GetHeight()) or 0)))
+  label:ClearAllPoints()
+  label:SetPoint("BOTTOMLEFT", CHAT_X + 2, 110 + gap)
+  local level = (tonumber(content:GetFrameLevel()) or 0) + 2   -- over the chat's empty space they now sit in
+  for i, b in ipairs(UI.nextButtons) do
+    b:ClearAllPoints()
+    b:SetPoint("BOTTOMLEFT", CHAT_X, 108 - i * 22 + gap)
+    b:SetPoint("BOTTOMRIGHT", UI.frame, "BOTTOMRIGHT", -36, 108 - i * 22 + gap)
+    b:SetFrameLevel(level)
+  end
 end
 
 -- Panel state ----------------------------------------------------------------------------------------------------
@@ -2120,7 +2118,6 @@ end
 function UI.Refresh()
   ns.Lang.ValidateEdition()
   if not (UI.frame and UI.frame:IsShown()) then return end
-  UI.UpdateWilloButton()
   local ctx = ns.Context.Snapshot()
   UI.ctx = ctx
   ns.Log.Map(ctx)
@@ -2335,13 +2332,12 @@ function UI.ShowWelcome(ctx, placeName, here)
     if s.idx then items[#items + 1] = { key = s.key, idx = s.idx, q = s.label } end
     if #items >= N_NEXT then break end
   end
-  if #items > 0 then
-    local try = placeName and string.format(L["Or ask anything about %s below. Try one of these:"], esc(placeName))
-      or L["Or ask anything about where you are below. Try one of these:"]
-    UI.AddMessage("note", GREY .. try .. "|r")
-  end
-  UI.SetNext(items, L["Try asking:"])
-  -- The card and its note move with you (UI.Refresh); last session's recap stays put.
+  -- The invitation heads the questions it points at, not the conversation: as a line in the chat it was left behind
+  -- between the card and the first question (Mike, 10/13).
+  local try = placeName and string.format(L["Or ask anything about %s below. Try one of these:"], esc(placeName))
+    or L["Or ask anything about where you are below. Try one of these:"]
+  UI.SetNext(items, try)
+  -- The card moves with you (UI.Refresh); last session's recap stays put.
   for _, m in ipairs(UI.msgs) do
     if m.role ~= "lore" then m.welcome = true end
   end
@@ -4532,6 +4528,22 @@ function UI.RevealLinkTarget(link)
   return key, tonumber(idx)
 end
 
+-- Willo's line under a question the add-on can't answer (LOR-459): once a play session, only without the companion
+-- (Companion.SuggestWillo). In the same voice as the answers; a click opens the link to get it, naming the question.
+local WILLO_LINK = "addon:LoreForever:willo"
+local function willoLine()
+  return "\n\n" .. UI.LINK_COLOUR .. "|H" .. WILLO_LINK .. "|h"
+    .. string.format(L["Want live answers? %s, Lore Forever's free companion app, can answer this out loud."],
+      ns.COMPANION_NAME) .. "|h|r"
+end
+
+-- The line on its own, after the red cross on an answer: same rules (Companion.SuggestWillo).
+function UI.SuggestWilloLine(question)
+  if ns.Companion.Installed() or not ns.Companion.SuggestWillo() then return end
+  UI.AddMessage("note", (willoLine():gsub("^\n+", "")))
+  UI.msgs[#UI.msgs].willo = question
+end
+
 -- heading and text are plain and get escaped; tag is already-formatted (e.g. the grey "(narrated)") and must not be.
 -- `key`: the entry it's about, for the "you" line under the heading; `subject`: the entry the text isn't to link to
 -- (defaults to key). Returns the text and the keys it links.
@@ -4597,19 +4609,41 @@ function UI.Ask(question, via)
   local ctx = UI.ctx or ns.Context.Snapshot()
   ctx.done = ns.Context.Done()   -- a quest turned in since the last snapshot counts right away
   UI.turn = (UI.turn or 0) + 1
-  local results = UI.engine:Ask(question, ctx, 4)
+  -- Chat that isn't a question ("thanks", "that's not the right answer") never pulls a random answer.
+  local chat = ns.Engine.Chatter(question)
+  local results = chat and {} or UI.engine:Ask(question, ctx, 4)
   local top = results[1]
   local log = ns.Log.Question(question, ctx, results, via, UI.turn)
   UI.lastLog = log
   local live = ns.Companion.Installed()   -- live answers are offered only once the companion app is installed
-  -- Until then, a question the add-on can't answer offers Willo instead (LOR-459).
-  local willo = not live and ns.Companion.OfferWillo()
-    and { willo = question, label = string.format(L["Get %s, the free companion app"], ns.COMPANION_NAME) } or nil
+  -- Until then, a question the add-on can't answer gets one line about Willo, once a play session (LOR-459).
+  local function unanswered(text)
+    local willo = not live and ns.Companion.SuggestWillo()
+    UI.AddMessage("note", GREY .. text .. "|r" .. (willo and willoLine() or ""), nil, nil, nil, log)
+    if willo then UI.msgs[#UI.msgs].willo = question end
+  end
+  -- A high score on a match that leaves most of the question out (Engine:Weak), or a mechanics question the lore
+  -- barely touches, is a guess: "did you mean", not an answer.
+  local weak = top and top.score >= MIN_SCORE
+    and (UI.engine:Weak(top) or (isGameplay(question) and (top.cover or 1) < GAMEPLAY_COVER))
   UI.AddMessage("user", WHITE .. esc(question) .. "|r")
-  if top and top.score >= MIN_SCORE and UI.SpoilerGate(top.key, top.kind, top.idx) then
+  if chat then
+    log.shown = "n"
+    local items = {}
+    if chat == "wrong" then
+      UI.engine.lastKey = nil
+      unanswered(L["Sorry, that wasn't it. Try asking another way, or pick something on the left."])
+    else
+      UI.AddMessage("note", GREY .. (chat == "thanks" and L["You're welcome. Ask about anything else around you."]
+        or L["Ask about the places, people and quests around you, or pick something on the left."]) .. "|r",
+        nil, nil, nil, log)
+    end
+    for _, s in ipairs(UI.engine:Suggest(ctx, N_NEXT - #items)) do items[#items + 1] = s end
+    UI.SetNext(items, L["Try:"])
+  elseif top and top.score >= MIN_SCORE and not weak and UI.SpoilerGate(top.key, top.kind, top.idx) then
     -- gated: SpoilerGate posted the warning and a Reveal chip (the revealed answer is logged and rated on its own)
     log.shown = "p"
-  elseif top and top.score >= MIN_SCORE then
+  elseif top and top.score >= MIN_SCORE and not weak then
     local heading = top.kind == "faq" and (top.title .. "  -  " .. top.name) or top.name
     local note = isGameplay(question) and (GREY
       .. string.format(L["I only know the story side, not mechanics or drops. Here's the lore of %s:"], esc(top.name)) .. "|r\n")
@@ -4627,12 +4661,13 @@ function UI.Ask(question, via)
     end
     UI.SetNext(items)
   elseif top and top.score >= GUESS_SCORE then
-    -- Not sure enough to answer: offer the closest pre-written questions instead of a wrong answer.
+    -- Not sure enough to answer (a low score, or a weak match): offer the closest pre-written questions instead of a
+    -- wrong answer.
     UI.engine.lastKey = nil
     log.shown = "g"
-    UI.AddMessage("note", GREY .. L["I'm not sure I have that. Did you mean one of these?"] .. "|r", nil, nil, nil, log)
+    unanswered(L["I'm not sure I have that. Did you mean one of these?"])
     -- Off script: live answers can answer it (one Ctrl+C), so that's offered first.
-    local items = live and { { live = question, label = L["Ask live answers instead"] } } or { willo }
+    local items = live and { { live = question, label = L["Ask live answers instead"] } } or {}
     for _, r in ipairs(results) do
       local e = UI.engine.db.entries[r.key]
       local fi = r.kind == "faq" and r.idx or 1
@@ -4643,10 +4678,8 @@ function UI.Ask(question, via)
   else
     UI.engine.lastKey = nil
     log.shown = "n"
-    UI.AddMessage("note", GREY
-      .. L["I don't have lore on that yet. Try a place, person or quest nearby, or pick something on the left."] .. "|r",
-      nil, nil, nil, log)
-    local items = live and { { live = question, label = L["Ask live answers"] } } or { willo }
+    unanswered(L["I don't have lore on that yet. Try a place, person or quest nearby, or pick something on the left."])
+    local items = live and { { live = question, label = L["Ask live answers"] } } or {}
     for _, s in ipairs(UI.engine:Suggest(ctx, N_NEXT - #items)) do items[#items + 1] = s end
     UI.SetNext(items, L["Try:"])
   end
@@ -5044,6 +5077,12 @@ local LINK_KINDS = { zone = "Place", city = "Place", dungeon = "Place", subzone 
   topic = "History", quest = "Quest", item = "Item" }
 
 function UI.LoreLinkTooltip(owner, link)
+  if link == WILLO_LINK then
+    GameTooltip:SetOwner(owner, "ANCHOR_CURSOR")
+    T.Tip(string.format(L["Get %s"], ns.COMPANION_NAME), "gold")
+    T.Tip(L["Click for the link."], "tipDim", true)
+    return GameTooltip:Show()
+  end
   local db = UI.engine and UI.engine.db
   local rk, ri = UI.RevealLinkTarget(link)
   if rk then
@@ -5069,6 +5108,10 @@ end
 
 function UI.OnLoreLink(frame, link, button)
   if button == "RightButton" then return end
+  if link == WILLO_LINK then
+    GameTooltip:Hide()
+    return ns.Companion.ShowGetWillo(frame and frame.msg and frame.msg.willo)
+  end
   local rk, ri = UI.RevealLinkTarget(link)
   if rk then
     GameTooltip:Hide()
@@ -5139,6 +5182,7 @@ function UI.PlaceChat(top)
   UI.scroll:ClearAllPoints()
   UI.scroll:SetPoint("TOPLEFT", UI.frame, "TOPLEFT", CHAT_X, UI.chatTop - (nav and NAV_H or 0))
   UI.scroll:SetPoint("BOTTOMRIGHT", UI.frame, "BOTTOMRIGHT", -34, 128)
+  UI.PlaceNext()
 end
 
 -- A row above the conversation, made the first time it's needed: Back and Forward, each naming where it goes.

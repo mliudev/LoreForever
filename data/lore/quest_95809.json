@@ -28,7 +28,7 @@
     "what is heartwoven",
     "wetlands heartwoven"
    ],
-   "answer": "Heartwoven is an Alliance quest based in the Wetlands. An adventurer aids a stranded reed gatherer out in the marshes, who crafts a woven token of reeds as a message of survival and love to deliver to Caitlin Grassman in Menethil Harbor.",
+   "answer": "Heartwoven is an Alliance quest based in the Wetlands. An adventurer aids Ardin Grassman, stranded at the excavation sites out in the marshes, who crafts a woven token of reeds as a message of survival and love to deliver to Caitlin Grassman in Menethil Harbor.",
    "q": "What is the quest Heartwoven?"
   },
   {
@@ -37,7 +37,7 @@
     "caitlin menethil harbor",
     "caitlin grassman"
    ],
-   "answer": "Caitlin Grassman is an Alliance resident waiting anxiously in Menethil Harbor. She fears for her companion's life while he is out harvesting reeds amid the hazards of the Wetlands, and is profoundly relieved when you bring her word of his survival.",
+   "answer": "Caitlin Grassman is an Alliance resident waiting anxiously in Menethil Harbor. She fears for the life of her husband, Ardin, who went out to the excavation sites amid the hazards of the Wetlands, and is profoundly relieved when you bring her word of his survival.",
    "q": "Who is Caitlin Grassman?"
   },
   {
@@ -64,7 +64,7 @@
     "who crafts the heart",
     "the survivor heartwoven"
    ],
-   "answer": "The quest is offered by a marsh gatherer who survived danger out in the wetlands. After an adventurer clears a safe path for him, he rests, gathers his bushels, and sends the adventurer ahead with a handmade token for Caitlin.",
+   "answer": "The quest is offered by Ardin Grassman, Caitlin's husband, who survived danger at the excavation sites out in the Wetlands. After an adventurer clears a safe path for him, he rests, gathers his bushels, and sends the adventurer ahead with a handmade token for Caitlin.",
    "q": "Who gives you the quest Heartwoven?"
   },
   {
@@ -73,7 +73,7 @@
     "is he alive",
     "heartwoven survivor"
    ],
-   "answer": "He was trapped or imperiled out in the wetlands while harvesting marsh reeds. Thanks to an adventurer clearing a path through the surrounding threats, he survived and was able to safely gather his bushels and head back to Menethil Harbor.",
+   "answer": "Ardin went to the excavation sites to see strange towering grasses and was trapped when agitated wildlife, spiders above all, overwhelmed the excavation team. Thanks to an adventurer clearing a path through the surrounding threats, he survived and was able to safely gather his bushels and head back to Menethil Harbor.",
    "q": "What happened to the stranded gatherer?"
   }
  ],
@@ -92,7 +92,7 @@
  ],
  "sections": [
   {
-   "body": "Out in the treacherous marshes of the Wetlands, life and labor carry constant peril. A local gatherer out harvesting reeds found himself stranded amidst the swamp's dangers until a passing traveler cleared a path through the wilderness. Exhausted but determined, he pauses to catch his breath and secure his harvest before heading back toward the safety of the port.",
+   "body": "Out in the treacherous marshes of the Wetlands, life and labor carry constant peril. Ardin Grassman, who went out to see the strange grasses at the excavation sites, found himself stranded amidst the swamp's dangers until a passing traveler cleared a path through the wilderness. Exhausted but determined, he pauses to catch his breath and secure his harvest before heading back toward the safety of the port.",
    "spoiler": 0,
    "title": "A Signal from the Marshes"
   },

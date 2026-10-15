@@ -1,0 +1,97 @@
+{
+ "key": "quest:94896",
+ "type": "quest",
+ "name": "Aid For The Refugees",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94896
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gave aid for the refugees",
+    "quest giver aid for the refugees",
+    "ealaane"
+   ],
+   "answer": "Ealaane is a refugee from Ban'aethal who escaped with others when their settlement began to collapse. She asks passing adventurers traveling toward Shadowgale Forest to recover personal belongings left behind in the ruins.",
+   "q": "Who is Ealaane?"
+  },
+  {
+   "aliases": [
+    "what is banaethal",
+    "where is banaethal",
+    "ban aethal village"
+   ],
+   "answer": "Ban'aethal was a settlement situated deep within Shadowgale Forest. Its residents were recently forced to evacuate in the middle of the night due to a sudden and bizarre catastrophe.",
+   "q": "What happened to Ban'aethal?"
+  },
+  {
+   "aliases": [
+    "why evacuate banaethal",
+    "falling into sky",
+    "ban aethal disaster"
+   ],
+   "answer": "The evacuation was triggered suddenly in the middle of the night when Ban'aethal began to fall into the sky. The village and surrounding forest became far too perilous for the residents to stay or return.",
+   "q": "Why did the villagers have to evacuate Ban'aethal?"
+  },
+  {
+   "aliases": [
+    "why need belongings",
+    "abandoned belongings",
+    "why recover belongings"
+   ],
+   "answer": "The catastrophe struck suddenly in the middle of the night, forcing the villagers to flee for their lives with virtually nothing. With the forest and ruins now overrun with danger, they rely on capable adventurers to retrieve what was left behind.",
+   "q": "Why are the villagers asking for their belongings to be retrieved?"
+  },
+  {
+   "aliases": [
+    "where is shadowgale forest",
+    "shadowgale forest lore"
+   ],
+   "answer": "Shadowgale Forest is the wooded region holding the settlement of Ban'aethal. Following the bizarre disaster that tore the village apart, the forest has grown extremely hazardous for ordinary folk.",
+   "q": "What is Shadowgale Forest?"
+  },
+  {
+   "aliases": [
+    "can refugees go back",
+    "is banaethal safe"
+   ],
+   "answer": "No. According to Ealaane, both Shadowgale Forest and the ruins of Ban'aethal are far too dangerous for the displaced residents to ever return on their own.",
+   "q": "Can the refugees return to their homes?"
+  }
+ ],
+ "keywords": [
+  "aid for the refugees",
+  "ban'aethal",
+  "banaethal",
+  "belongings",
+  "ealaane",
+  "refugees",
+  "shadowgale forest"
+ ],
+ "related": [
+  "topic:refugee"
+ ],
+ "sections": [
+  {
+   "body": "Aid for the Refugees is an appeal for assistance from Ealaane and her fellow displaced villagers. Having narrowly fled their homes deep in Shadowgale Forest, the survivors have gathered together with almost nothing to their names, hoping a passing traveler will brave the dangers they left behind.",
+   "spoiler": 0,
+   "title": "A Desperate Plea"
+  },
+  {
+   "body": "The settlement of Ban'aethal met an unthinkable fate in the dead of night when the village suddenly began to fall into the sky. The bizarre and terrifying calamity gave the inhabitants mere moments to flee, forcing them to abandon their personal possessions as the surrounding woods turned hostile and perilous.",
+   "spoiler": 0,
+   "title": "The Calamity of Ban'aethal"
+  }
+ ],
+ "summary": "Aid For The Refugees centers on the displaced survivors of Ban'aethal, a settlement deep within Shadowgale Forest that was suddenly evacuated in the middle of the night. With their home falling into the sky and the surrounding wilderness grown far too perilous to enter, the refugees rely on brave travelers to recover the belongings they had to leave behind.",
+ "attribution": [
+  "In-game quest text: Aid For The Refugees"
+ ]
+}

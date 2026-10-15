@@ -126,8 +126,8 @@ function render() {
     `$${pl.monthlyUsd.toFixed(2)} a month · ` +
     (pl.counts.map(c => `${c.n} ${c.plan} ${String(c.status).replace("_", " ")}`).join(", ") || "no subscriptions yet") +
     ` · their answers $${pl.spend.usd.toFixed(2)} (${pl.spend.players} players)` +
-    (pl.topups ? ` · ${pl.topups.sold} top-ups this month, ${pl.topups.unused.toLocaleString()} answers unused, ` +
-                 `top-up answers $${pl.topups.usd.toFixed(2)}` : "");
+    (pl.voicePacks ? ` · ${pl.voicePacks.sold} finest-voice packs this month, ${pl.voicePacks.unused.toLocaleString()} ` +
+                     `replies unused, their replies $${pl.voicePacks.usd.toFixed(2)}` : "");
 
   const days = lastDays(30);
   barChart($("c-signups"), days, days.map(d => contacts.filter(c => c.created.slice(0, 10) === d).length),

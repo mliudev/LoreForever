@@ -11,7 +11,7 @@
 // Every POST must come from our own pages (Origin check) and sends JSON.
 
 import {
-  setup, currentUser, startSession, endSession, findOrCreateUser, deleteUser, verifyGoogle, fail, noStore, sameOrigin,
+  setup, currentUser, startSession, endSession, findOrCreateUser, recordTerms, deleteUser, verifyGoogle, fail, noStore, sameOrigin,
 } from "../../../lib/accounts.js";
 import { loadVoices, linkList } from "../../../lib/voices.js";
 import { clean } from "../../../lib/form.js";
@@ -56,6 +56,7 @@ async function google({ request, env }, input) {
   const claims = await verifyGoogle(env, input.credential);
   if (!claims) return fail(401, "Google sign-in didn't go through. Please try again.");
   const user = await findOrCreateUser(env, { email: claims.email.toLowerCase(), googleSub: claims.sub, name: claims.name });
+  await recordTerms(env, user.id);   // the sign-in pages say signing in agrees to the Terms and Privacy
   return ok({}, await startSession(env, request, user.id));
 }
 

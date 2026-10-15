@@ -75,22 +75,26 @@ export const counted = column => `${column} NOT IN (SELECT user_id FROM excluded
 // Brings the list up to date before /admin counts: the accounts named in ANALYTICS_EXCLUDE (a Pages variable: emails
 // or account ids, separated by commas or spaces; test accounts go there or are left out from Contacts), and `admin`,
 // the account signed in on the browser that opened /admin with the admin key (Mike's own). A "counted" or "manual"
-// row stays as it is.
+// row stays as it is. Only what changed is written: returns how many rows changed, 0 when the list was already up to
+// date (so /admin can count while this runs, and count again only when it changed something).
 export async function syncExclusions(env, admin = null, now = Date.now()) {
   const stamp = new Date(now).toISOString();
   const listed = String(env.ANALYTICS_EXCLUDE || "").split(/[\s,;]+/).map(s => s.trim().toLowerCase())
     .filter(s => s && s.length <= 254).slice(0, 90);
-  const writes = [env.DB.prepare("DELETE FROM excluded_accounts WHERE reason = 'config'")];
+  const marks = listed.map(() => "?").join(", ");
+  const configured = `SELECT id FROM users WHERE ${listed.length ? `lower(email) IN (${marks}) OR id IN (${marks})` : "0"}`;
+  const writes = [env.DB.prepare(`DELETE FROM excluded_accounts WHERE reason = 'config' AND user_id NOT IN (${configured})`)
+    .bind(...listed, ...listed)];
   if (listed.length) {
-    const marks = listed.map(() => "?").join(", ");
-    writes.push(env.DB.prepare("INSERT OR IGNORE INTO excluded_accounts (user_id, reason, created) SELECT id, 'config', ? " +
-      `FROM users WHERE lower(email) IN (${marks}) OR id IN (${marks})`).bind(stamp, ...listed, ...listed));
+    writes.push(env.DB.prepare(`INSERT OR IGNORE INTO excluded_accounts (user_id, reason, created) SELECT id, 'config', ? ` +
+      `FROM (${configured})`).bind(stamp, ...listed, ...listed));
   }
   if (admin?.id) {
     writes.push(env.DB.prepare("INSERT OR IGNORE INTO excluded_accounts (user_id, reason, created) VALUES (?, 'admin', ?)")
       .bind(admin.id, stamp));
   }
-  await env.DB.batch(writes);
+  const results = await env.DB.batch(writes);
+  return results.reduce((n, r) => n + (r?.meta?.changes || 0), 0);
 }
 
 // From /admin's Contacts: leave an account out of the counts, or count it again (even an admin or test one).
@@ -205,9 +209,12 @@ export async function activityReport(env, now = Date.now()) {
 //               UTC), this one last: back = active that week (signed in or synced) and first seen in an earlier week
 //   cohorts     [{week, accounts, returned, w1, w2, w3, w4}] accounts by the week they were made (first signed in):
 //               how many came back on a later day, and how many were active 1, 2, 3 and 4 weeks after that week
+// The Monday its weeks start on, weeks[0].week (/admin reads the companions' weeks from it alongside the funnel).
+export const funnelFrom = (now = Date.now(), weeks = 8) =>
+  utcDay(Date.parse(weekOf(utcDay(now)) + "T00:00:00Z"), -7 * (weeks - 1));
 export async function funnelReport(env, now = Date.now(), weeks = 8) {
   const { all, first } = query(env);
-  const thisWeek = weekOf(utcDay(now)), from = utcDay(Date.parse(thisWeek + "T00:00:00Z"), -7 * (weeks - 1));
+  const from = funnelFrom(now, weeks);
   const active = `SELECT ${WEEK("day")} AS week, user_id FROM signin_days WHERE day >= ? ` +
     `UNION SELECT ${WEEK("day")}, user_id FROM usage_days WHERE day >= ?`;
   const later = k => `COALESCE(s.day >= date(c.week, '+${7 * k} days') AND s.day < date(c.week, '+${7 * (k + 1)} days'), 0)`;

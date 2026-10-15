@@ -1,0 +1,106 @@
+{
+ "key": "quest:97583",
+ "type": "quest",
+ "name": "WRIGGLE.",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97583
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Forsaken are well-accustomed to the toxic runoff and animated slimes dwelling within the Undercity's canal networks, making a slime companion a natural fit."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing the special sludge requires venturing into the canals of the Forsaken capital of Undercity to trade with local vendors."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "wriggle quest",
+    "what is wriggle",
+    "slime dance quest"
+   ],
+   "answer": "WRIGGLE. is an encounter where an adventurer befriends an excitable little slime through dancing, only to discover the creature requires specialized sustenance to keep up its energy.",
+   "q": "What is WRIGGLE.?"
+  },
+  {
+   "aliases": [
+    "where to get sludge",
+    "nutritious slime sludge vendor",
+    "feed slime undrecity"
+   ],
+   "answer": "Nutritious Slime Sludge is sold by a vendor residing within the canals of the Undercity, where alchemical waste and runoff are commonplace.",
+   "q": "Where do you find Nutritious Slime Sludge?"
+  },
+  {
+   "aliases": [
+    "how to get slime attention",
+    "tired slime",
+    "wake slime wriggle"
+   ],
+   "answer": "If the excitable slime becomes tired or distracted, dancing with it catches its attention and mirrors its playful movements.",
+   "q": "How do you catch the slime's attention if it seems tired?"
+  },
+  {
+   "aliases": [
+    "why slime eat sludge",
+    "what do slimes eat"
+   ],
+   "answer": "Slimes absorb ambient alchemical ooze and sludge to sustain themselves and regain vitality, rejuvenating after exerting energy.",
+   "q": "Why does the slime feed on sludge?"
+  },
+  {
+   "aliases": [
+    "does slime follow you",
+    "slime companion",
+    "wriggle reward"
+   ],
+   "answer": "After being nourished with its preferred sludge, the revitalized slime bonds with the adventurer and seeks to follow them around.",
+   "q": "What happens once the slime is fed?"
+  },
+  {
+   "aliases": [
+    "can alliance do wriggle",
+    "alliance slime sludge"
+   ],
+   "answer": "Because obtaining the necessary Nutritious Slime Sludge requires visiting the vendors in the canals of the Undercity, Alliance travelers will find entering the Forsaken capital extremely perilous.",
+   "q": "Can Alliance players easily obtain the sludge?"
+  }
+ ],
+ "keywords": [
+  "canals",
+  "excitable slime",
+  "nutritious slime sludge",
+  "slime",
+  "sludge",
+  "undercity",
+  "wriggle"
+ ],
+ "related": [
+  "zone:undercity"
+ ],
+ "sections": [
+  {
+   "body": "WRIGGLE. involves interacting with a lively, excitable little slime that delights in mirroring the dance movements of friendly travelers. Despite its enthusiasm, dancing quickly exhausts the small ooze, leaving it weary and in need of sustenance to restore its strength.",
+   "spoiler": 0,
+   "title": "A Dancing Slime"
+  },
+  {
+   "body": "To revitalize the tuckered-out creature, adventurers must seek out Nutritious Slime Sludge, a peculiar mixture sold within the rancid canals of the Undercity. Upon absorbing this favored foul treat, the energized slime eagerly bonds with its provider, ready to follow its new friend.",
+   "spoiler": 0,
+   "title": "Sustenance from the Canals"
+  }
+ ],
+ "summary": "WRIGGLE. is an encounter with an excitable young slime that loves to dance until it runs out of energy. To revive and befriend the creature, an adventurer must fetch a special batch of nutritious sludge from the canals of the Undercity.",
+ "attribution": [
+  "In-game quest text: WRIGGLE."
+ ]
+}

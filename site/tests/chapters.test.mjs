@@ -28,8 +28,10 @@ test("the newest chapters are shown in full; older ones fold to a line each", ()
   const html = chaptersSection(chapters(list, "Aelric"));
   assert.equal((html.match(/<article class="pf-ch"/g) || []).length, OPEN);
   assert.equal((html.match(/<details class="pf-chx"/g) || []).length, 3);
-  assert.ok(html.indexOf('id="ch-3"') < html.indexOf('id="ch-4"'), "in the order they happened");
-  assert.ok(!html.slice(0, html.indexOf('<article')).includes('id="m-'), "folded chapters list no moments");
+  const at = n => html.indexOf(`id="ch-${n}"`);
+  assert.ok(at(OPEN + 3) < at(OPEN + 2) && at(5) < at(4), "newest first, back in time (Mike, 10/14)");
+  assert.ok(at(4) < at(3) && at(3) < at(2) && at(2) < at(1), "the older ones folded below, still going back");
+  assert.ok(!html.slice(html.indexOf('class="pf-earlier"')).includes('id="m-'), "folded chapters list no moments");
 });
 
 test("a battleground is told as a battle, from older journeys and with the add-on's record of it (LOR-430)", () => {

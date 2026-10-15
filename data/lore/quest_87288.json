@@ -1,0 +1,102 @@
+{
+ "key": "quest:87288",
+ "type": "quest",
+ "name": "Soft Saber Pelts",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   87288
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "The quest highlights the practical craft of turning wild saber pelts into soft, sturdy blankets and shawls to endure cold frontier travel."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters know the delicate balance between respecting majestic predators like sabers and culling them when they encroach upon travel routes."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "why hunt sabers",
+    "why kill sabers",
+    "saber threat"
+   ],
+   "answer": "While sabers are revered as majestic beasts of the wilderness, their presence along established thoroughfares poses a constant hazard to travelers and merchants. Culling their numbers keeps the roads safe for ordinary travelers passing through the region.",
+   "q": "Why are travelers asked to hunt sabers?"
+  },
+  {
+   "aliases": [
+    "what are pelts for",
+    "saber pelt craft",
+    "blankets and shawls"
+   ],
+   "answer": "The soft and thick fur harvested from sabers is well suited for winter garments. The pelts collected from the hunt are turned into durable, warm blankets and shawls that protect against the elements.",
+   "q": "What are the saber pelts used for?"
+  },
+  {
+   "aliases": [
+    "saber pelt trade",
+    "who takes pelts"
+   ],
+   "answer": "Local merchants and crafters regularly look to trade with hunters for useful materials. In exchange for quality pelts, they offer sturdy, soft items fashioned from earlier craftwork to reward travelers who aid them.",
+   "q": "Who seeks to trade for these saber pelts?"
+  },
+  {
+   "aliases": [
+    "are sabers dangerous",
+    "saber road danger"
+   ],
+   "answer": "Yes. Large predatory cats naturally claim expansive hunting territories, often overlapping with frontier pathways. Unwary couriers and pack caravans risk sudden ambush unless the saber population near the roads is controlled.",
+   "q": "Do wild sabers pose a real threat to the roads?"
+  },
+  {
+   "aliases": [
+    "soft and sturdy reward",
+    "remembrance reward"
+   ],
+   "answer": "The recipient presents a keepsake crafted to be both soft and durable as a gesture of appreciation, serving as a practical reminder of the majestic beasts harvested along the frontier.",
+   "q": "What is given in return for the pelts?"
+  },
+  {
+   "aliases": [
+    "is hunting sabers justified",
+    "regret hunting sabers"
+   ],
+   "answer": "Even those trading for the furs acknowledge that resorting to violence against such regal creatures is unfortunate. However, protecting travelers on the roads and making full practical use of their warm pelts justifies the necessity of the hunt.",
+   "q": "How do local traders view the hunting of such majestic beasts?"
+  }
+ ],
+ "keywords": [
+  "blankets",
+  "pelts",
+  "roads",
+  "saber",
+  "shawls",
+  "soft saber pelts",
+  "trade"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Traversing the untamed paths of Azeroth requires constant vigilance against prowling predators. Large sabers frequently roam near well-traveled thoroughfares, presenting a persistent hazard to couriers, merchants, and lone adventurers. While local inhabitants admire the grace and majesty of these great cats, allowing their numbers to swell unchecked along trade routes invites deadly ambushes. Gathering hunters to keep the local roads safe serves as a necessary measure for communal survival.",
+   "spoiler": 0,
+   "title": "Securing the Wilderness Roads"
+  },
+  {
+   "body": "Hunting such impressive beasts is not done merely for sport or eradication. In frontier encampments, every resource is valued, and the dense, velvety coats of wild sabers are prized for their warmth and durability. Once brought in by capable hunters, the pelts are tailored into fine shawls and heavy blankets capable of fending off harsh weather, ensuring that nothing taken from the wild goes to waste.",
+   "spoiler": 0,
+   "title": "Warmth from the Hunt"
+  }
+ ],
+ "summary": "Soft Saber Pelts represents a trade agreement aimed at keeping wilderness roads secure from predatory cats. Hunters bring in the thick furs of local sabers so they can be crafted into warm, protective blankets and shawls.",
+ "attribution": [
+  "In-game quest text: Soft Saber Pelts"
+ ]
+}

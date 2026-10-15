@@ -3,18 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Willo, your way - Lore Forever</title>
-<meta name="description" content="Choose how Willo, the companion, talks to you, and write your own tales of the characters you meet.">
-<meta name="robots" content="noindex">
+<title>Willo - Lore Forever</title>
+<meta name="description" content="Willo, Lore Forever's free companion app: a little blue wisp who tells you about the places and people you meet in WoW Forever and answers when you ask.">
 <link rel="icon" href="/img/logo.svg" type="image/svg+xml">
 <link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
 <link rel="apple-touch-icon" href="/img/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261012-plans">
+<link rel="stylesheet" href="/style.css?v=20261014w">
 <script src="/header.js" defer></script>
-<script src="/js/willo.js" defer></script>
 </head>
 <body>
 
@@ -23,6 +21,7 @@
     <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
+      <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
       <a class="nl" id="nav-download" href="/downloads">Download</a>
       <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
@@ -32,65 +31,83 @@
   </nav>
 </header>
 
-<!-- Willo, your way (LOR-447, behind the "plans" feature): Willo's style for every plan, your own
-     words and your own tales of characters from Champion. GET, PUT and DELETE /api/willo
-     (functions/api/willo.js, lib/willo-custom.js) and the character search GET /api/willo/npcs; the script is
-     /js/willo.js. Linked from /plans and the plan card on /account. -->
-<main class="wrap fb-page wl-page" id="wl-main">
-  <h1>Willo, your way</h1>
-  <p class="pitch">Choose how Willo talks to you as you play. On Champion you can also write your own version of the
-    characters you meet, and they'll talk to you that way.</p>
-  <noscript><p class="fb-status">This page needs JavaScript.</p></noscript>
-  <p class="fb-status" id="wl-status" role="status" hidden></p>
-  <p id="wl-signin" hidden><a class="btn-small" href="/account?next=/willo">Sign in to choose</a></p>
-
-  <section class="pl-now" id="wl-free" aria-labelledby="wl-free-title" hidden>
-    <h2 id="wl-free-title">Willo's style comes with a plan</h2>
-    <p>Hero picks how Willo talks to you, and Champion can also describe it in your own words and rewrite up to 25
-      characters as your own tales.</p>
-    <p><a class="btn-small" href="/plans">See plans</a></p>
+<!-- Willo's page (functions/willo.js): where the add-on's "Get Willo" points (loreforeverwow.com/willo, LOR-459), as
+     Mike approved it on 2026-10-14 (the site mockup): the download, three steps, clips, her voices and a few questions.
+     Price-free, since the add-on links here (LOR-491: an add-on links to a download page, the paid side lives
+     elsewhere): the plans are on /plans, and one line links there. The function counts the visit and fills willo-get
+     from lib/willo.js: the download once a release (or a preview's test build) has Willo-Setup.exe, else word that
+     she's coming. The clip slots are placeholders until Mike's footage. Willo, your way (the plans' style page) is
+     /willo/style. -->
+<main class="wrap fb-page wl-landing">
+  <section class="wl-hero" aria-labelledby="wl-title">
+    <div class="wl-hero-main">
+      <h1 id="wl-title">Meet Willo</h1>
+      <p class="pitch">A little blue wisp who rides along while you play WoW Forever. Ask her anything, out loud, and the
+        world answers back.</p>
+      <!-- willo-get -->
+      <p class="wl-soon">Willo is almost here. Get the free Lore Forever add-on now, and Willo joins you soon.</p>
+      <!-- /willo-get -->
+    </div>
+    <img class="wl-wisp" src="/img/wispr.svg" alt="Willo, a glowing blue wisp" width="220" height="220">
   </section>
 
-  <div id="wl-on" hidden>
-    <section class="fb-form" aria-labelledby="wl-style-title">
-      <h2 id="wl-style-title">Willo's style</h2>
-      <div class="wl-presets" id="wl-presets" role="radiogroup" aria-label="Willo's style"></div>
-      <label class="fb-field" id="wl-words-box" hidden><span>Your own words <span class="fb-optional">(optional)</span></span>
-        <textarea id="wl-words" rows="3" placeholder="For example: call me Captain, and keep it short when I'm in a dungeon."></textarea>
-        <small id="wl-words-count"></small>
-        <small class="wl-why" id="wl-words-why" hidden></small>
-      </label>
-      <p class="vp-note" id="wl-words-up" hidden></p>
-      <div class="fb-actions">
-        <button class="btn-small" type="button" id="wl-style-save">Save Willo's style</button>
-        <p class="fb-status" id="wl-style-status" role="status" hidden></p>
-      </div>
-    </section>
+  <section aria-labelledby="wl-how">
+    <h2 id="wl-how">Wake Willo in three steps</h2>
+    <ol class="wl-tiles">
+      <li class="wl-tile"><span class="wl-step-n">1</span><h3>Get the add-on</h3>
+        <p>Free, from <a href="/downloads#addon">our downloads</a> or CurseForge. Willo listens to it to know where you
+          are.</p></li>
+      <li class="wl-tile"><span class="wl-step-n">2</span><h3>Install Willo</h3>
+        <p>Run the download. Willo finds your game by herself.</p></li>
+      <li class="wl-tile"><span class="wl-step-n">3</span><h3>Sign in and play</h3>
+        <p>Sign in with your Lore Forever account, and your wisp wakes up beside you.</p></li>
+    </ol>
+  </section>
 
-    <section class="fb-form" id="wl-tales" aria-labelledby="wl-tales-title" hidden>
-      <h2 id="wl-tales-title">Your tales</h2>
-      <p class="vp-note">Write your own version of a character, and when you talk to them in game they'll be that
-        person, for you alone. They still live in this world and keep its secrets. Up to <span id="wl-tales-max">25</span>
-        characters.</p>
-      <label class="fb-field"><span>Find a character</span>
-        <input type="search" id="wl-find" autocomplete="off" placeholder="A name, like Gryan Stoutmantle"></label>
-      <ul class="wl-found" id="wl-found" aria-label="Characters"></ul>
-      <div class="wl-edit" id="wl-edit" hidden>
-        <label class="fb-field"><span>Your tale of <span id="wl-who"></span></span>
-          <textarea id="wl-tale" rows="5"></textarea>
-          <small id="wl-tale-count"></small></label>
-        <div class="fb-actions">
-          <button class="btn-small" type="button" id="wl-tale-save">Save tale</button>
-          <button class="btn-small btn-small-alt" type="button" id="wl-tale-cancel">Cancel</button>
-        </div>
-      </div>
-      <p class="fb-status" id="wl-tale-status" role="status" hidden></p>
-      <ul class="wl-list" id="wl-list" aria-label="Your tales"></ul>
-    </section>
-    <p class="vp-note" id="wl-tales-up" hidden></p>
-    <p class="vp-note">Everything you write here is checked before Willo uses it, and only your own chats use it.
-      Change or delete it any time.</p>
-  </div>
+  <section aria-labelledby="wl-clips">
+    <h2 id="wl-clips">See Willo in action</h2>
+    <div class="wl-tiles">
+      <figure class="wl-tile"><div class="shot-placeholder">Clip coming soon: asking Willo out loud in game</div>
+        <figcaption>Hold your talk key, ask, and hear the answer.</figcaption></figure>
+      <figure class="wl-tile"><div class="shot-placeholder">Clip coming soon: a character answering as themselves</div>
+        <figcaption>The people you meet answer in voices of their own.</figcaption></figure>
+      <figure class="wl-tile"><div class="shot-placeholder">Clip coming soon: Willo's window and your journey</div>
+        <figcaption>Every answer stays in her window, beside your journey.</figcaption></figure>
+    </div>
+  </section>
+
+  <section aria-labelledby="wl-hear">
+    <h2 id="wl-hear">Hear the difference</h2>
+    <div class="wl-tiles">
+      <div class="wl-tile wl-voice"><h3>Willo's studio voice</h3><audio controls preload="none" src="/audio/willo/willo-studio.mp3"></audio>
+        <small>"There you are, friend! I was drifting about, waiting for you."</small></div>
+      <div class="wl-tile wl-voice"><h3>Willo's finest voice</h3><audio controls preload="none" src="/audio/willo/willo-finest.mp3"></audio>
+        <small>The same greeting, in her finest voice.</small></div>
+      <div class="wl-tile wl-voice"><h3>Moonwell, another of Willo's voices</h3><audio controls preload="none" src="/audio/willo/willo-moonwell.mp3"></audio>
+        <small>Pick the voice you like.</small></div>
+    </div>
+    <h3>Characters in voices of their own</h3>
+    <div class="wl-tiles">
+      <div class="wl-tile wl-voice"><h3>A dwarf</h3><audio controls preload="none" src="/audio/willo/dwarf.mp3"></audio></div>
+      <div class="wl-tile wl-voice"><h3>An orc</h3><audio controls preload="none" src="/audio/willo/orc.mp3"></audio></div>
+      <div class="wl-tile wl-voice"><h3>A night elf</h3><audio controls preload="none" src="/audio/willo/nightelf.mp3"></audio></div>
+      <div class="wl-tile wl-voice"><h3>A tauren</h3><audio controls preload="none" src="/audio/willo/tauren.mp3"></audio></div>
+    </div>
+    <p><small class="muted">"You want to know about the road ahead? Stay off it after dark&hellip;"</small></p>
+  </section>
+
+  <p class="wl-plans-line">Free to start. <a href="/plans">See what each plan adds &rarr;</a></p>
+
+
+  <section aria-labelledby="wl-faq">
+    <h2 id="wl-faq">Questions</h2>
+    <div class="wl-faq">
+      <div><h3>Does Willo play the game for me?</h3><p>Never. She listens, looks and talks. You do all the playing.</p></div>
+      <div><h3>Is the add-on still free?</h3><p>Always. Lore Forever works on its own, with every story and narration.</p></div>
+      <div><h3>Mac?</h3><p>Willo is Windows only for now. The add-on works on Mac.</p></div>
+      <div><h3>Why do I sign in?</h3><p>So Willo remembers your journey and your plan. See <a href="/privacy">what we keep</a>.</p></div>
+    </div>
+  </section>
 </main>
 
 <footer class="wrap foot">

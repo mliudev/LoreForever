@@ -123,7 +123,13 @@ const SETUP = [
   `CREATE TABLE IF NOT EXISTS usage_rollup (day TEXT NOT NULL, metric TEXT NOT NULL, installs INTEGER NOT NULL,
     n INTEGER NOT NULL, PRIMARY KEY (day, metric))`,
 ];
-export const setupFeatureUsage = env => env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
+// Once per Worker and database: every later call costs no round trip to D1.
+const ready = new WeakSet();
+export async function setupFeatureUsage(env) {
+  if (ready.has(env.DB)) return;
+  await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
+  ready.add(env.DB);
+}
 
 // The check-in's "usage" as {day: {metric: n}}, keeping only KEYS on plausible days; null when nothing usable came
 // (an older companion sends none).
@@ -224,10 +230,12 @@ export async function dailyUpkeep(env, now = Date.now()) {
 export async function featureReport(env, now = Date.now()) {
   await setupFeatureUsage(env);
   const d14 = utcDay(now, -13), d30 = utcDay(now, -29);
-  await rollupUsage(env, utcDay(now, -1), utcDay(now));
   const all = async (sql, ...args) => (await env.DB.prepare(sql).bind(...args).all()).results;
   const PLAYERS = "u.day >= ? AND u.internal = 0";
-  const [active, use, metrics, levelUse, levelSize, backUse, backSize, trend] = await Promise.all([
+  // Only the trend reads the rollups, so the rest don't wait for them.
+  const [trend, active, use, metrics, levelUse, levelSize, backUse, backSize] = await Promise.all([
+    rollupUsage(env, utcDay(now, -1), utcDay(now)).then(() => all("SELECT day, metric, installs FROM usage_rollup " +
+      "WHERE day >= ? AND (metric = '_installs' OR metric GLOB 'f:*') ORDER BY day", d30)),
     env.DB.prepare("SELECT COUNT(DISTINCT CASE WHEN day >= ? THEN install END) AS d14, COUNT(DISTINCT install) AS d30, " +
       "COUNT(*) AS days, COALESCE(SUM(json_extract(counts, '$.min') > 0), 0) AS played, " +
       "COALESCE(SUM(json_extract(counts, '$.min')), 0) AS minutes, COALESCE(SUM(json_extract(counts, '$.login')), 0) AS logins " +
@@ -247,8 +255,6 @@ export async function featureReport(env, now = Date.now()) {
         `WHERE ${PLAYERS} GROUP BY 1, 2`, d30),
     all(`WITH back AS (${BACK}) SELECT COALESCE(back.yes, 0) AS back, COUNT(DISTINCT u.install) AS installs ` +
         `FROM install_usage u LEFT JOIN back ON back.install = u.install WHERE ${PLAYERS} GROUP BY 1`, d30),
-    all("SELECT day, metric, installs FROM usage_rollup WHERE day >= ? AND (metric = '_installs' OR metric GLOB 'f:*') " +
-        "ORDER BY day", d30),
   ]);
   const levels = levelSize.map(r => ({ lv: r.lv, installs: r.installs, use: Object.fromEntries(
     levelUse.filter(x => x.lv === r.lv).map(x => [x.id, x.installs])) })).sort((a, b) => a.lv - b.lv);

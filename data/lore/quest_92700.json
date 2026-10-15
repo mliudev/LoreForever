@@ -1,0 +1,113 @@
+{
+ "key": "quest:92700",
+ "type": "quest",
+ "name": "The Grand Skyseer",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92700
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Ayessa Dawnsinger immediately recognizes travelers who resonate with the spirits and possess spiritual gifts, making the Windshapers an important contact for shamans attuned to elemental forces."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Those sensitive to spiritual auras and nature's unseen flow will find kindred philosophies among the Windshapers, who watch the subtle shifts in the skies."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is grand skyseer",
+    "ayessa dawnsinger who is she",
+    "who is ayessa"
+   ],
+   "answer": "The Grand Skyseer is Ayessa Dawnsinger, a prominent spiritual leader among the Windshapers in Valanaar. She operates from the lodge situated near the settlement's center, receiving travelers who display a resonance with the spirits and possess the rare gift known as skysight.",
+   "q": "Who is the Grand Skyseer?"
+  },
+  {
+   "aliases": [
+    "where find ayessa dawnsinger",
+    "where is grand skyseer lodge",
+    "ayessa location valanaar"
+   ],
+   "answer": "Ayessa Dawnsinger can be found residing in the Windshaper lodge located near the center of the settlement of Valanaar. She awaits travelers arriving from Shen'dar Village who carry word of recent deeds from Elder Amberwind.",
+   "q": "Where can Ayessa Dawnsinger be found?"
+  },
+  {
+   "aliases": [
+    "what are windshapers",
+    "windshaper faction valanaar"
+   ],
+   "answer": "The Windshapers are a spiritual collective present in Valanaar, led locally by Grand Skyseer Ayessa Dawnsinger. Their members study the skies and commune with the spirits, though they currently find themselves in sharp tension with another local group known as the High Order.",
+   "q": "Who are the Windshapers?"
+  },
+  {
+   "aliases": [
+    "windshapers high order conflict",
+    "why high order mad at windshapers",
+    "high order valanaar"
+   ],
+   "answer": "The Windshapers and the High Order share an uneasy coexistence marked by deep friction in the streets of Valanaar. Local authorities strictly forbid factional fighting between the two groups, especially with the looming presence of an active cult threatening the region's fragile peace.",
+   "q": "Why do the Windshapers clash with the High Order?"
+  },
+  {
+   "aliases": [
+    "what is skysight",
+    "skysight gift zephras"
+   ],
+   "answer": "Skysight is a rare spiritual perception possessed by few individuals in Zephras, allowing them to sense spiritual auras and commune with unseen forces. Ayessa Dawnsinger notes that fewer people possess this gift lately, making those with skysight vital for enduring current hardships.",
+   "q": "What is the gift of skysight?"
+  },
+  {
+   "aliases": [
+    "who is elder amberwind",
+    "amberwind shendar village"
+   ],
+   "answer": "Elder Amberwind is a respected elder stationed in Shen'dar Village who evaluates travelers and sends word ahead to Valanaar regarding their deeds and spiritual resonance, directing worthy individuals to Grand Skyseer Ayessa Dawnsinger.",
+   "q": "Who is Elder Amberwind?"
+  }
+ ],
+ "keywords": [
+  "ayessa dawnsinger",
+  "elder amberwind",
+  "high order",
+  "shen'dar village",
+  "skysight",
+  "the grand skyseer",
+  "valanaar",
+  "windshapers",
+  "zephras"
+ ],
+ "related": [
+  "npc:ayessa-dawnsinger",
+  "quest:92595"
+ ],
+ "sections": [
+  {
+   "body": "Upon arriving in the town of Valanaar, travelers are directed toward the central lodge where the Windshapers convene under the leadership of Grand Skyseer Ayessa Dawnsinger. Having caught the attention of Elder Amberwind through notable deeds in Shen'dar Village, new arrivals are welcomed into the fold of those attuned to the spirits. Yet Valanaar remains fraught with external and internal dangers, requiring newcomers to navigate fragile local politics carefully.",
+   "spoiler": 0,
+   "title": "Arrival in Valanaar"
+  },
+  {
+   "body": "Peace in Valanaar is fragile. The Windshapers maintain an open hostility with the High Order, and street skirmishes between the factions threaten to destabilize the settlement. With a shadowy cult actively menacing the region, local leaders have mandated that both factions keep their distance, prioritizing survival against common adversaries over bitter territorial feuds.",
+   "spoiler": 0,
+   "title": "Rivalries and Looming Cults"
+  },
+  {
+   "body": "Grand Skyseer Ayessa Dawnsinger observes that the spiritual perception known as skysight is becoming increasingly rare among the people of Zephras. Those who arrive displaying a strong aura and spiritual harmony are treated as essential allies, urgently needed to help the Windshapers steer through the trying times confronting their land.",
+   "spoiler": 0,
+   "title": "The Fading Skysight"
+  }
+ ],
+ "summary": "The Grand Skyseer is an introductory journey into the heart of Valanaar, directing travelers to seek an audience with Ayessa Dawnsinger at the Windshaper lodge. As tensions simmer between local factions and a shadowy cult threatens the region, the Windshapers urgently seek individuals gifted with spiritual sight.",
+ "attribution": [
+  "In-game quest text: The Grand Skyseer"
+ ]
+}

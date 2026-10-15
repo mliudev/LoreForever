@@ -1,21 +1,18 @@
--- Live game info for the companion app (LOR-416): a tiny block of solid-colour cells in the top-left corner of the
--- screen that the Lore Forever companion on this PC reads several times a second, so Willo knows where you are and what
--- you're fighting right away instead of after a /reload. Off until the player ticks Options > Live game info, and then
--- shown only while the Lore Forever panel is open or while they hold Willo's talk key to ask (Strip.Ask), unless they
--- also tick "show it all the time" (Strip.Showing).
+-- Live game info for the companion app (LOR-416): Willo's sky, rings of stars in a blue mist over the minimap
+-- (Sky.lua), that the Lore Forever companion on this PC reads several times a second, so Willo knows where you are and
+-- what you're fighting right away instead of after a /reload. Off until the player ticks Options > Live game info, and
+-- then shown only while the Lore Forever panel is open or while they hold Willo's talk key to ask (Strip.Ask), unless
+-- they also tick "show it all the time" (Strip.Showing).
 -- (LOR-57: SavedVariables reach the disk only on /reload or logout, the chat log only at logout, and add-ons can't
 -- follow the combat log, so nothing else gets game state out while you play.)
 --
--- The block: 20 x 7 square cells of 4 screen pixels each, 80 x 28 pixels at any resolution or UI scale, at the very
--- top-left of the game's picture, above every other frame.
---   Row 1      white and black cells in turn, starting with white: the companion finds the block and the cell size by
---              it, and learns what white and black look like on this screen.
---   Rows 2-7   the payload, 3 bits a cell (red, green, blue: each fully on or off; red is the high bit), left to right
---              and then down, each byte's high bit first. 31 bytes are 248 bits, then the target trailer's 5 bytes
---              and the narration's 7 (43 bytes, 344 bits); the cells left over are black. Row 7 came with the
---              narration bytes (LOR-471): companions that read format 2 in rows 2-6 never look at it.
+-- This file makes the 45 bytes below (Strip.Payload) and decides when they show; Sky.lua paints them: each of 488
+-- stars on 10 rings shines or not, the bytes then 16 Reed-Solomon bytes, with three sparkle guide stars on the rim
+-- (Sky.lua's header has the layout; companion/lore_companion/sky.py reads it). Until 0.18.0 the same bytes went into
+-- a 20 x 7 block of coloured cells in the top-left corner (3 bits a cell, under a white-and-black finder row); the
+-- companion still reads that block from older add-ons (strip.py) for one more release.
 -- The payload, format 2 (numbers big-endian; format 1 was bytes 0-19 and its CRC, in 4 rows):
---   0      0xA2: 0xA marks the block, 2 is the format
+--   0      0xA2: 0xA marks live game info, 2 is the format
 --   1      frame counter: +1 at every repaint (at least once a second, HEARTBEAT), back to 0 after 255
 --   2-3    map: C_Map.GetBestMapForUnit("player"), 0 unknown
 --   4-5    instance: GetInstanceInfo()'s map ID (0 Eastern Kingdoms, 1 Kalimdor, a dungeon's own), 65535 unknown
@@ -44,7 +41,7 @@
 --          (CreatureType ids: 1 beast, 2 dragonkin, 3 demon, 4 elemental, 5 giant, 6 undead, 7 humanoid, 8 critter,
 --          9 mechanical, 10 not specified; 0 unknown)
 --   35     CRC-8 (polynomial 0x07, start 0xFF) of bytes 10-12 and 31-34: the trailer is about this target
--- Then, into row 7, what a Lore Forever narration is doing, so Willo doesn't talk over it even after the block goes
+-- Then what a Lore Forever narration is doing, so Willo doesn't talk over it even after the sky goes
 -- away (LOR-471, Strip.Narration), all zeros meaning none plays:
 --   36     bit 7 a narration plays, bit 6 it started by itself (an arrival, a flight, a quest giver: Voice.OnGameTalk's
 --          kind), bit 5 the time is what's left of it (a complete story, whose length the add-on knows), else how
@@ -52,20 +49,22 @@
 --   37     the time's low byte: seconds, 0 to 4095
 --   38-40  the recording playing: the low 24 bits of the CRC-32 of its path (Voice.lastClip.path), 0 none; the
 --          companion finds it among the installed packs' files and reads its length
---   41-42  CRC-16 of bytes 36-40 (a whole one: under a block without row 7 the companion reads the game's picture)
--- companion/lore_companion/strip.py reads it; companion/README.md explains it for players. A new field goes in a new
--- format number, so an older companion says "update the companion" instead of misreading it (the trailer is the one
--- exception: it only adds what an older companion does without). Names never go out: the companion matches the lore
--- hashes against the same add-on's entry keys, and the model id against the add-on's own ModelRaces.lua.
--- Painting is event-driven: an event marks the block stale, and it repaints at most every MIN_GAP seconds.
+--   41-42  CRC-16 of bytes 36-40 (its own: the old block's add-ons from before it painted no row 7)
+-- Then the target's line of work, so a guard or a flight master Willo hands the word to knows what they do (Strip.Role):
+--   43     ROLES' number for it, from the line under its name or the name itself; 0 none known, no target, a player
+--   44     CRC-8 of bytes 10-12 and 43: the role is this target's (0 with no role)
+-- companion/lore_companion/sky.py reads it; companion/README.md explains it for players. A new field goes in a new
+-- format number, so an older companion says "update the companion" instead of misreading it (the trailer and the
+-- role are the exceptions: they only add what an older companion does without). Names never go out: the companion
+-- matches the lore hashes against the same add-on's entry keys, the model id against the add-on's own
+-- ModelRaces.lua, and a role is one of a few kinds of work, never the words it was read from.
+-- Painting is event-driven: an event marks the sky stale, and it repaints at most every MIN_GAP seconds.
 
 local _, ns = ...
 local Strip = {}
 ns.Strip = Strip
 
-Strip.COLS, Strip.ROWS, Strip.PIXELS = 20, 7, 4
 Strip.MARK = 0xA2
-local COLS, ROWS, PIXELS = Strip.COLS, Strip.ROWS, Strip.PIXELS
 local MIN_GAP, HEARTBEAT = 0.1, 1   -- seconds: at most ten repaints a second, at least one
 local NEAR = 5                       -- seconds a hostile nameplate's level counts after it was seen
 local CLASSES = { normal = 0, elite = 1, rare = 2, rareelite = 3, worldboss = 4, trivial = 5, minus = 6 }
@@ -109,6 +108,7 @@ local function xor(a, b)
   end
   return r
 end
+Strip.xor = xor
 local CRC = {}
 for i = 0, 255 do
   local c = i * 256
@@ -299,7 +299,7 @@ local function npcID(guid)
 end
 
 -- The target's model file id, looked at once per target (Giver.ModelOf's "strip" slot; it can load a moment after you
--- target someone, and the block repaints then). 0 for no one, another player, or a model this client can't read.
+-- target someone, and the sky repaints then). 0 for no one, another player, or a model this client can't read.
 local targetModel = { guid = nil, id = 0 }
 local function targetModelID(has, isPlayer)
   local guid = has and not isPlayer and try(UnitGUID, "target")
@@ -331,6 +331,86 @@ local function creatureType(has, isPlayer)
   return ns.Context.Usable(name) and CREATURE_TYPES[name] or 0
 end
 
+-- The target's line of work (bytes 43-44): ROLES' number, from the line under its name ("Gryphon Master", "Trade
+-- Supplies") or the name itself ("Ironforge Guard", "Innkeeper Firebrew"). English words only: on a client in another
+-- language most say nothing (0). companion/lore_companion/strip.py ROLES has the same numbers.
+Strip.ROLES = { guard = 1, gryphon = 2, windrider = 3, hippogryph = 4, bat = 5, flight = 6, innkeeper = 7, banker = 8,
+  auctioneer = 9, stable = 10, vendor = 11, trainer = 12, quartermaster = 13, battlemaster = 14, guildmaster = 15 }
+-- The line under the name, in this order: a trainer's names a craft ("Blacksmithing Trainer") and a weapon master
+-- trains, so they come before what a merchant's line says they sell.
+local TITLE_ROLES = {
+  { "gryphon master", "gryphon" }, { "wind rider master", "windrider" }, { "hippogryph master", "hippogryph" },
+  { "bat handler", "bat" }, { "flight master", "flight" }, { "innkeeper", "innkeeper" }, { "banker", "banker" },
+  { "auctioneer", "auctioneer" }, { "stable master", "stable" }, { "battlemaster", "battlemaster" },
+  { "guild master", "guildmaster" }, { "tabard", "guildmaster" }, { "quartermaster", "quartermaster" },
+  { "trainer", "trainer" }, { "weapon master", "trainer" },
+  { "vendor", "vendor" }, { "merchant", "vendor" }, { "goods", "vendor" }, { "suppl", "vendor" }, { "smith", "vendor" },
+  { "armorer", "vendor" }, { "bowyer", "vendor" }, { "fletcher", "vendor" }, { "reagent", "vendor" },
+  { "poison", "vendor" }, { "food", "vendor" }, { "drink", "vendor" }, { "baker", "vendor" }, { "butcher", "vendor" },
+  { "grocer", "vendor" }, { "trade", "vendor" }, { "weapon", "vendor" }, { "monger", "vendor" },
+}
+-- A name's own words for the work: a guard's, and the titles some names start with ("Gryphon Master Talonaxe").
+local NAME_WORDS = { guard = "guard", guards = "guard", guardsman = "guard", guardian = "guard", grunt = "guard",
+  sentinel = "guard", watcher = "guard", bluffwatcher = "guard", deathguard = "guard", patroller = "guard",
+  mountaineer = "guard", peacekeeper = "guard", watchman = "guard", sentry = "guard", innkeeper = "innkeeper",
+  banker = "banker", auctioneer = "auctioneer", battlemaster = "battlemaster", quartermaster = "quartermaster" }
+local NAME_TITLES = { { "gryphon master", "gryphon" }, { "wind rider master", "windrider" },
+  { "hippogryph master", "hippogryph" }, { "bat handler", "bat" }, { "flight master", "flight" },
+  { "stable master", "stable" } }
+
+function Strip.Role(name, title)
+  local t = type(title) == "string" and title:lower() or ""
+  local n = type(name) == "string" and name:lower() or ""
+  if t ~= "" and not t:find("^level ") then
+    for _, r in ipairs(TITLE_ROLES) do
+      if t:find(r[1], 1, true) then return Strip.ROLES[r[2]] end
+    end
+  end
+  for _, r in ipairs(NAME_TITLES) do
+    if n:find(r[1], 1, true) then return Strip.ROLES[r[2]] end
+  end
+  for word in n:gmatch("%a+") do
+    if NAME_WORDS[word] then return Strip.ROLES[NAME_WORDS[word]] end
+  end
+  return 0
+end
+
+-- The line under the target's name on its tooltip, read off a hidden tooltip of our own: "Gryphon Master", or "Level
+-- 55 Humanoid" for someone with none. nil when the client won't say.
+local scanTip
+local function titleOfTarget()
+  if scanTip == nil then
+    scanTip = try(CreateFrame, "GameTooltip", "LoreForeverRoleTip", nil, "GameTooltipTemplate") or false
+  end
+  if not scanTip then return nil end
+  local ok = pcall(function()
+    scanTip:SetOwner(_G.WorldFrame or UIParent, "ANCHOR_NONE")
+    scanTip:ClearLines()
+    scanTip:SetUnit("target")
+  end)
+  local line = ok and _G.LoreForeverRoleTipTextLeft2
+  local text = type(line) == "table" and try(line.GetText, line) or nil
+  pcall(scanTip.Hide, scanTip)
+  if ns.Context.Usable(text) and type(text) == "string" and text ~= "" then return text end
+end
+
+-- The target's role, looked at once per target. 0 for no one, another player, or work nothing names.
+local targetWork = { guid = nil, role = 0 }
+local function targetRole(has, isPlayer)
+  local guid = has and not isPlayer and try(UnitGUID, "target")
+  if not (ns.Context.Usable(guid) and type(guid) == "string") then
+    targetWork.guid, targetWork.role = nil, 0
+    return 0
+  end
+  if targetWork.guid ~= guid then
+    local name = try(UnitName, "target")
+    name = ns.Context.Usable(name) and type(name) == "string" and name or nil
+    local ok, role = pcall(Strip.Role, name, titleOfTarget())
+    targetWork.guid, targetWork.role = guid, ok and int(role, 255) or 0
+  end
+  return targetWork.role
+end
+
 local function health()
   local hp, max = try(UnitHealth, "player"), try(UnitHealthMax, "player")
   if not (ns.Context.Usable(hp) and ns.Context.Usable(max)) or type(hp) ~= "number" or type(max) ~= "number"
@@ -345,8 +425,8 @@ local function put(out, v, n)   -- v as n big-endian bytes
 end
 
 local seq = 0
--- The 31 payload bytes for what the game shows now (a new frame counter each call), then the target trailer's 5 and
--- the narration's 7.
+-- The 31 payload bytes for what the game shows now (a new frame counter each call), then the target trailer's 5, the
+-- narration's 7 and the target's line of work, 2.
 function Strip.Payload()
   seq = (seq + 1) % 256
   local out = { Strip.MARK, seq }
@@ -395,62 +475,21 @@ function Strip.Payload()
   put(narration, clip, 3)
   for _, b in ipairs(narration) do out[#out + 1] = b end
   put(out, Strip.CRC(narration), 2)
+  local role = targetRole(has, isPlayer)
+  put(out, role, 1)
+  put(out, role > 0 and Strip.CRC8({ out[11], out[12], out[13], role }) or 0, 1)
   return out
 end
 
--- The colour (0 or 1 for red, green and blue) of each data cell, row by row, for these bytes.
-function Strip.Cells(bytes)
-  local bits = {}
-  for _, b in ipairs(bytes) do
-    for i = 7, 0, -1 do bits[#bits + 1] = math.floor(b / 2 ^ i) % 2 end
-  end
-  local cells = {}
-  for c = 1, COLS * (ROWS - 1) do
-    cells[c] = { bits[c * 3 - 2] or 0, bits[c * 3 - 1] or 0, bits[c * 3] or 0 }
-  end
-  return cells
-end
-
-local frame, tex, shown, layoutKey = nil, {}, {}, nil
+local frame = nil
 local stale, lastPaint, hiddenForShot = true, -math.huge, false
 
--- Size the cells to PIXELS screen pixels each: UIParent's height spans the screen's height in pixels, whatever the
--- UI scale. Returns whether it could.
-local function layout()
-  local _, h = try(GetPhysicalScreenSize)
-  if type(h) ~= "number" or h <= 0 then h = 1080 end   -- unknown: cells of about 4 pixels; the companion measures them
-  local uh = try(UIParent.GetHeight, UIParent)
-  if type(uh) ~= "number" or uh <= 0 then return false end
-  local key = h .. ":" .. uh
-  if key == layoutKey then return true end
-  layoutKey = key
-  local cell = PIXELS * uh / h
-  frame:SetSize(COLS * cell, ROWS * cell)
-  for r = 0, ROWS - 1 do
-    for c = 0, COLS - 1 do
-      local t = tex[r * COLS + c + 1]
-      t:SetSize(cell, cell)
-      t:ClearAllPoints()
-      t:SetPoint("TOPLEFT", frame, "TOPLEFT", c * cell, -r * cell)
-    end
-  end
-  return true
-end
-
 local function paint()
-  if not layout() then return end
-  local cells = Strip.Cells(Strip.Payload())
-  for i, c in ipairs(cells) do
-    local t, key = tex[COLS + i], c[1] * 4 + c[2] * 2 + c[3]
-    if shown[i] ~= key then
-      shown[i] = key
-      t:SetColorTexture(c[1], c[2], c[3], 1)
-    end
-  end
+  ns.Sky.Paint(Strip.Payload())
   lastPaint, stale = now(), false
 end
 
--- Something the block shows changed outside its events (the target's model, once it has loaded): repaint soon.
+-- Something the sky shows changed outside its events (the target's model, once it has loaded): repaint soon.
 function Strip.Touch() stale = true end
 
 local function onEvent(_, event, unit)
@@ -459,38 +498,25 @@ local function onEvent(_, event, unit)
       and unit ~= "player" and unit ~= "target" then
     return
   end
-  if event == "DISPLAY_SIZE_CHANGED" or event == "UI_SCALE_CHANGED" then layoutKey = nil end
+  if event == "DISPLAY_SIZE_CHANGED" or event == "UI_SCALE_CHANGED" then ns.Sky.Relayout() end
   -- Keep it out of the player's own screenshots, as far as the game lets it go before the shot.
-  if event == "SCREENSHOT_STARTED" then hiddenForShot = true; frame:SetAlpha(0) end
-  if event == "SCREENSHOT_SUCCEEDED" or event == "SCREENSHOT_FAILED" then hiddenForShot = false; frame:SetAlpha(1) end
+  if event == "SCREENSHOT_STARTED" then hiddenForShot = true; ns.Sky.SetHidden(true) end
+  if event == "SCREENSHOT_SUCCEEDED" or event == "SCREENSHOT_FAILED" then hiddenForShot = false; ns.Sky.SetHidden(false) end
   stale = true
 end
 
+-- The frame that keeps time and hears the game's events for the sky (which is its own frame, Sky.lua): nothing to see.
 local function create()
   frame = CreateFrame("Frame", "LoreForeverLiveStrip", UIParent)
-  frame:SetFrameStrata("TOOLTIP")
-  pcall(frame.SetFrameLevel, frame, 10000)
+  frame:SetSize(1, 1)
   frame:SetPoint("TOPLEFT", UIParent, "TOPLEFT", 0, 0)
   frame:EnableMouse(false)
-  -- A faded interface (some add-ons fade UIParent) would blend the colours into the game behind them.
-  if frame.SetIgnoreParentAlpha then frame:SetIgnoreParentAlpha(true) end
-  for i = 1, COLS * ROWS do
-    local t = frame:CreateTexture(nil, "OVERLAY")
-    local row, col = math.floor((i - 1) / COLS), (i - 1) % COLS
-    if row == 0 then
-      local v = col % 2 == 0 and 1 or 0   -- the finder row: white, black, white, ...
-      t:SetColorTexture(v, v, v, 1)
-    else
-      t:SetColorTexture(0, 0, 0, 1)
-    end
-    tex[i] = t
-  end
   frame:SetScript("OnEvent", onEvent)
   frame:SetScript("OnUpdate", function()
     local t = now()
     if hiddenForShot or t - lastPaint < MIN_GAP then return end
     if stale or t - lastPaint >= HEARTBEAT then
-      if t - lastPaint >= HEARTBEAT then layoutKey = nil end   -- a resized window without an event
+      if t - lastPaint >= HEARTBEAT then ns.Sky.Relayout() end   -- a resized window or a moved minimap, no event
       paint()
     end
   end)
@@ -500,7 +526,7 @@ end
 function Strip.On() return S().liveStrip == true end
 
 -- Asking Willo out loud: the companion listens while its talk key is held (talk/ptt.py reads the key's state; nothing
--- is sent to the game), and the same key bound here to "Ask Willo" (Bindings.xml, runOnUp) shows the block while it's
+-- is sent to the game), and the same key bound here to "Ask Willo" (Bindings.xml, runOnUp) shows the sky while it's
 -- held and ASK_AFTER seconds after, so the companion reads where you are and who you target for that question. A key
 -- whose release the game never saw (let go in another window) stops counting after ASK_MAX.
 local ASK_AFTER, ASK_MAX = 2.5, 30
@@ -526,7 +552,7 @@ local function asking()
   return (askDown ~= nil and t - askDown < ASK_MAX) or t < askUntil
 end
 
--- Whether the block is on screen now: with Live game info on, only while the Lore Forever panel is open or while the
+-- Whether the sky is on screen now: with Live game info on, only while the Lore Forever panel is open or while the
 -- player asks Willo, unless they chose to show it all the time (liveStripAlways). Some players took a block of squares
 -- that's always there for something hacking the game; this way it shows only while they're using Lore Forever.
 function Strip.Showing()
@@ -543,7 +569,7 @@ end
 -- combat (bindings can't change in combat) and a few seconds after login, until the key really is Ask Willo. Once
 -- the first minute after login has passed, a key the player clears themselves stays cleared. Whether or not Live game
 -- info is on: the key also tells the add-on Willo is answering, so it doesn't start a narration over Willo
--- (Voice.OnWilloAsked, LOR-471); the block shows only with Live game info on.
+-- (Voice.OnWilloAsked, LOR-471); the sky shows only with Live game info on.
 local ASK, SETTLE = "LOREFOREVER_ASKWILLO", 60
 local loginAt
 function Strip.OfferAskKey()
@@ -579,7 +605,7 @@ for _, e in ipairs({ "PLAYER_ENTERING_WORLD", "UPDATE_BINDINGS", "PLAYER_REGEN_E
 end
 binder:SetScript("OnEvent", function() Strip.OfferAskKey() end)
 
--- Show or hide the block to match the settings, the panel and asking (Core.lua at login, Options, /lore live, the
+-- Show or hide the sky to match the settings, the panel and asking (Core.lua at login, Options, /lore live, the
 -- panel's OnShow and OnHide in UI.lua, the Ask Willo key); while it's hidden, nothing is registered and nothing runs.
 function Strip.Update()
   Strip.OfferAskKey()
@@ -588,12 +614,14 @@ function Strip.Update()
       frame:UnregisterAllEvents()
       frame:Hide()
     end
+    ns.Sky.Hide()
     return
   end
   if not frame then create() end
   for _, e in ipairs(EVENTS) do pcall(frame.RegisterEvent, frame, e) end
-  layoutKey, stale, hiddenForShot = nil, true, false
-  frame:SetAlpha(1)
+  stale, hiddenForShot = true, false
+  ns.Sky.Relayout()
+  ns.Sky.SetHidden(false)
   frame:Show()
   paint()
 end

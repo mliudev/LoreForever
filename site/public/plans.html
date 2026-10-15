@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Plans - Lore Forever</title>
-<meta name="description" content="Lore Forever is free. A plan gives Willo, the companion, more answers a day and more it can do.">
+<meta name="description" content="Lore Forever is free. A plan gives Willo, the companion, more answers, a richer voice and more she can do.">
 <meta name="robots" content="noindex">
 <link rel="icon" href="/img/logo.svg" type="image/svg+xml">
 <link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261012-plans">
+<link rel="stylesheet" href="/style.css?v=20261014y">
 <script src="/header.js" defer></script>
 </head>
 <body>
@@ -22,6 +22,7 @@
     <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
     <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
     <div class="nav-links">
+      <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
       <a class="nl" id="nav-download" href="/downloads">Download</a>
       <a class="nl" id="nav-lore" href="/lore">Lore</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
@@ -32,24 +33,41 @@
 </header>
 
 <!-- Plans (LOR-252, behind the "plans" feature): more of Willo, paid on Stripe's own pages. The cards list
-     lib/billing.js FEATURES. Choose: Stripe Checkout
-     (POST /api/billing/checkout); Manage billing: Stripe's billing portal (POST /api/billing/portal); both come back
-     here, Checkout with ?billing=done. The plans and the player's current one: GET /api/billing/plans
+     lib/billing.js FEATURES. Plans are monthly. Choose: Stripe Checkout
+     (POST /api/billing/checkout). With a plan, the other cards say "Switch to <plan>": a small confirm here says what
+     happens, in plain words (an upgrade's charge today is Stripe's own preview of it), and confirming switches
+     (POST /api/billing/change, lib/billing.js changePlan); a downgrade waiting for the renewal, or a cancellation,
+     shows on the player's card with "Keep <plan>". ?switch=<plan> (from /account) opens that confirm. Manage billing:
+     Stripe's billing portal for the card, invoices and cancelling (POST /api/billing/portal); both Stripe pages come
+     back here, Checkout with ?billing=done. The plans and the player's current one: GET /api/billing/plans
      (functions/api/billing/[action].js, lib/billing.js). Signed out, the cards show and Choose signs you in first.
      /account has a card that leads here, and its old #plans address comes here too. Willo's style and tales, which
-     the plans unlock, are on /willo (LOR-447). Top-ups (#topup): Buy goes to Stripe Checkout (POST /api/billing/topup)
-     and comes back with ?topup=done; the companion's offer when answers run out links here. -->
+     the plans unlock, are on /willo/style (LOR-447). The companion's offer when answers run out (the next plan up) links
+     here; answers aren't sold on their own. The welcome page
+     (?welcome=1, lib/billing.js welcomeOnce): where /link sends an account the first time it connects the companion,
+     with Willo's one line, the cards and "Continue free" on the free card, back to /link?connected=1. The beta promo
+     (lib/billing.js launchWindow, from the Pages variables LAUNCH_WEEK_START and BETA_END): its banner (the plans'
+     launch) and the line on each offer's card, both the server's words. -->
 <main class="wrap fb-page pl-page" id="pl-main">
   <h1>Plans</h1>
-  <p class="pitch">Lore Forever is free and stays free: the add-on, every narration pack and every language, and Willo,
-    the companion, to answer your questions about the world. A plan gives Willo more answers a day and more it can do:
-    check the web, see your game, talk in more voices. A top-up adds answers whenever you want more.</p>
+  <div class="lk-herald" id="pl-welcome" hidden>
+    <img src="/img/wispr.svg" alt="Willo" width="96" height="96">
+    <p class="herald-says">We're connected, friend! Chat with me free, or pick a plan: ask me out loud and I'll answer you
+      aloud for hours of play.</p>
+  </div>
+  <p class="pitch" id="pl-pitch">Lore Forever is free and stays free: the add-on, every narration pack and every
+    language, and Willo, the companion, to chat with you about the world: 20 answers a day plus 30 to start, and your first
+    30 questions out loud answered aloud. With a plan, ask out loud and Willo answers in her voice for hours of play a
+    day, and she does more: she checks the web and sees your game, and on Champion and Legend you pick her voice, or
+    hear her finest. Typed questions get text answers. With any plan, a pack of
+    Willo's finest voice adds replies in it, whenever you want more.</p>
   <noscript><p class="fb-status">This page needs JavaScript.</p></noscript>
   <p class="fb-status fb-good pl-thanks" id="pl-thanks" role="status" hidden>Thanks! Your plan is on its way; it can
     take a few seconds.</p>
   <p class="fb-status" id="pl-off" hidden>Plans aren't open yet. Everything in Lore Forever works without one.</p>
 
   <div id="pl-on" hidden>
+    <section class="pl-now" id="pl-launch" aria-label="Beta offer" hidden><p id="pl-launch-text"></p></section>
     <section class="pl-now" id="pl-now" aria-labelledby="pl-now-title" hidden>
       <h2 id="pl-now-title">Your plan</h2>
       <p id="pl-current"></p>
@@ -57,26 +75,27 @@
         id="pl-portal">Manage billing</button></p>
     </section>
 
-    <div class="fb-kinds pl-interval" role="radiogroup" aria-label="Pay monthly or yearly">
-      <label><input type="radio" name="pl-interval" value="month" checked> Monthly</label>
-      <label><input type="radio" name="pl-interval" value="year"> Yearly</label>
-    </div>
     <div class="pl-cards" id="pl-cards"></div>
+    <div id="pl-compare" hidden></div>
     <p class="fb-status" id="pl-status" role="status" hidden></p>
 
-    <section class="pl-now pl-topup" id="topup" aria-labelledby="pl-topup-title" hidden>
-      <h2 id="pl-topup-title">Top-up</h2>
-      <p id="pl-topup-what"></p>
-      <p id="pl-topup-mine" hidden></p>
-      <p class="fb-status fb-good" id="pl-topup-thanks" role="status" hidden>Thanks! Your 300 answers are on their way;
-        it can take a few seconds.</p>
-      <p class="pl-go" id="pl-topup-go"></p>
-      <p class="fb-status" id="pl-topup-status" role="status" hidden></p>
+    <!-- The finest-voice pack (lib/billing.js VOICE_PACK): for any paid plan; Buy goes to Stripe Checkout
+         (POST /api/billing/voicepack) and comes back with ?voicepack=done. No meters: what's left isn't shown. -->
+    <section class="pl-now pl-pack" id="voicepack" aria-labelledby="pl-voicepack-title" hidden>
+      <h2 id="pl-voicepack-title">Willo's finest voice</h2>
+      <p id="pl-voicepack-what"></p>
+      <p class="fb-status fb-good" id="pl-voicepack-thanks" role="status" hidden>Thanks! Willo's finest voice is on its
+        way; it can take a few seconds.</p>
+      <p class="pl-go" id="pl-voicepack-go"></p>
+      <p class="fb-status" id="pl-voicepack-status" role="status" hidden></p>
     </section>
 
-    <p>With a plan, you also choose how Willo talks to you: <a href="/willo">Willo, your way</a>.</p>
-    <p class="vp-note">Payments go through Stripe; we never see your card. Cancel or switch any time under Manage
-      billing, and your plan runs to the end of what you've paid for. Prices include tax.</p>
+    <p id="pl-yourway">With a plan, you also choose how Willo talks to you: <a href="/willo/style">Willo, your way</a>.</p>
+    <p class="vp-note" id="pl-voice-note" hidden></p>
+    <p class="vp-note">Plans are monthly. Payments go through Stripe; we never see your card. Switch plans here any
+      time: a bigger plan starts now, for the difference today; a smaller one starts when your month renews. Update your
+      card, see invoices or cancel under Manage billing; a cancelled plan runs to the end of what you've paid for.
+      Prices include tax.</p>
     <p class="vp-note">By subscribing you agree to the <a href="/terms">Terms</a>; see
       <a href="/refunds">Refunds</a>.</p>
   </div>
@@ -89,123 +108,212 @@
     Not affiliated with or endorsed by Blizzard.</p>
 </footer>
 
+<script src="/js/plan-extras.js?v=20261014x" defer></script>
 <script>
 (() => {
   const $ = id => document.getElementById(id);
   let plans = null;
   const params = new URLSearchParams(location.search);
-  // Back from Stripe's payment page: for a plan, or for a top-up.
-  let billingDone = params.get("billing") === "done", topupDone = params.get("topup") === "done";
+  // Back from Stripe's payment page: for a plan, or for a finest-voice pack.
+  let billingDone = params.get("billing") === "done", voiceDone = params.get("voicepack") === "done";
+  // The welcome page (?welcome=1): Willo's line, the cards and "Continue free", nothing else to read.
+  const welcome = params.get("welcome") === "1";
   let firstLoad = true;
   const money = cents => "$" + (cents / 100).toFixed(2);
   const day = iso => {
     const t = new Date(iso);
     return isNaN(t) ? "" : t.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
   };
-  // A message under what it's about: the plan cards' line, or the top-up's (where).
+  // A message under what it's about: the plan cards' line, or the finest-voice pack's (where).
   const say = (msg, good, where = "pl-status") => {
     $(where).hidden = !msg;
     $(where).textContent = msg || "";
     $(where).classList.toggle("fb-good", Boolean(good));
   };
-  const interval = () => document.querySelector("input[name=pl-interval]:checked").value;
+  // One of our billing calls: its answer, or why it couldn't be made.
+  const post = async (url, body) => {
+    try {
+      const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+      return await r.json().catch(() => ({ ok: false }));
+    } catch (e) { return { ok: false, error: "Couldn't reach the server. Check your connection and try again." }; }
+  };
   // Off to Stripe's page (Checkout or the billing portal), or why not.
   const go = async (url, body, button, where) => {
     button.disabled = true;
     say("", false, where);
-    let res;
-    try {
-      const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
-      res = await r.json().catch(() => ({ ok: false }));
-    } catch (e) { res = { ok: false, error: "Couldn't reach the server. Check your connection and try again." }; }
+    const res = await post(url, body);
     if (res.ok && res.url) { location.href = res.url; return; }
     button.disabled = false;
     say(res.error || "Something went wrong. Please try again.", false, where);
   };
 
+  // Switching plans (lib/billing.js changePlan): the first click asks what it would do, and the card shows that with
+  // a confirm; confirming sends the preview's quote back, so what's charged is what was shown. Keep (a waiting change
+  // or a cancellation undone) needs no confirm: nothing is charged. A double click finds the button off, and the
+  // server holds a lock for each account too.
+  async function change(planId, button, extra = {}) {
+    button.disabled = true;
+    say("");
+    const res = await post("/api/billing/change", { plan: planId, from: billed(plans.current), ...extra });
+    if (res.ok && res.url) { location.href = res.url; return; }
+    button.disabled = false;
+    if (!res.ok) {
+      say(res.error || "Something went wrong. Please try again.");
+      if (res.reload) load();
+      return;
+    }
+    if (res.preview) { confirmBox(res.preview, res.stale); return; }
+    say(res.text, true);
+    load();
+  }
+  function confirmBox(preview, stale) {
+    const slot = document.querySelector(`.pl-card[data-plan="${preview.plan}"] .pl-go`);
+    if (!slot) return;
+    const name = plans.plans.find(p => p.id === preview.plan)?.name || "";
+    const box = Object.assign(document.createElement("div"), { className: "pl-confirm" });
+    box.setAttribute("role", "group");
+    box.setAttribute("aria-label", `Switch to ${name}`);
+    if (stale) box.append(Object.assign(document.createElement("p"), { className: "vp-note",
+      textContent: "It's been a while since you looked, so here it is again." }));
+    box.append(Object.assign(document.createElement("p"), { textContent: preview.text }));
+    const yes = Object.assign(document.createElement("button"), { className: "btn-small", type: "button",
+      textContent: preview.kind === "upgrade" ? `Pay ${money(preview.amount)} and switch`
+        : preview.kind === "keep" ? `Keep ${name}` : `Switch to ${name}` });
+    const no = Object.assign(document.createElement("button"), { className: "btn-small btn-small-alt", type: "button",
+      textContent: "Not now" });
+    yes.addEventListener("click", () => { no.disabled = true; change(preview.plan, yes, { confirm: true, quote: preview.quote }); });
+    no.addEventListener("click", () => show());
+    box.append(Object.assign(document.createElement("p"), { className: "pl-confirm-go" }));
+    box.lastChild.append(yes, " ", no);
+    slot.classList.remove("vp-note");
+    slot.replaceChildren(box);
+    yes.focus();
+  }
+
+  // The plan the player pays for: the free one in the beta's free Hero month.
+  const billed = c => c.launch ? "free" : c.id;
+
   function currentPlan(c) {
+    if (c.launch) {
+      // The beta's free Hero month (lib/billing.js planFor launch): ends is the day it ends.
+      return `Beta: you're on ${c.name}, free until ${c.ends}: ${c.answersPerMonth.toLocaleString("en-US")} live ` +
+        `answers this month, up to ${c.answersPerDay} a day.`;
+    }
     if (c.id !== "free") {
-      const ends = c.cancelAtPeriodEnd ? ` It ends on ${day(c.renews)}.` : c.renews ? ` It renews on ${day(c.renews)}.` : "";
+      const monthly = money(plans.plans.find(p => p.id === c.id)?.monthly || 0);
+      const ends = c.cancelAtPeriodEnd ? ` It ends on ${day(c.renews)}.`
+        : c.changesTo ? ` It changes to ${c.changesTo.name} on ${day(c.changesTo.at)}.`
+        : c.status === "trialing" ? ` It's free until ${day(c.renews)}, then ${monthly} a month.`
+        : c.renews ? ` It renews on ${day(c.renews)}.` : "";
       const late = c.status === "past_due" ? " Your last payment didn't go through: update your card under Manage billing to keep it." : "";
       return `You're on ${c.name}: ${c.answersPerMonth.toLocaleString("en-US")} live answers a month, up to ${c.answersPerDay} a day.${ends}${late}`;
     }
     const everyday = plans.plans.find(p => p.id === "free").answersPerDay;
     // The starter's answers left (lib/billing.js creditStarter), once a companion is connected.
-    const starter = plans.topup?.starter ? ` You also have ${plans.topup.starter} starter answer${plans.topup.starter === 1 ? "" : "s"} left.` : "";
+    const starter = plans.starter ? ` You also have ${plans.starter} starter answer${plans.starter === 1 ? "" : "s"} left.` : "";
     return `You're on ${c.name}, the free plan. ` + (
       c.brake ? `Free answers are busy this month, so you get ${c.answersPerDay} a day until it ends (usually ${everyday}).`
       : `You get ${c.answersPerDay} live answers a day.`) + starter;
   }
 
-  function price(p) {
-    if (!p.monthly) return ["Free", ""];
-    if (interval() === "month") return [money(p.monthly) + " a month", ""];
-    const save = Math.round(100 - (p.yearly * 100) / (p.monthly * 12));
-    return [money(p.yearly) + " a year", save > 0 ? `Save ${save}% on monthly` : ""];
-  }
-
   function planCard(p, c) {
     const card = document.createElement("section");
-    const mine = Boolean(c) && c.id === p.id;
+    const mine = Boolean(c) && billed(c) === p.id;
     card.className = "pl-card" + (mine ? " pl-mine" : "");
+    card.dataset.plan = p.id;
     card.setAttribute("aria-label", p.name);
-    card.innerHTML = `<h3></h3><p class="pl-price"></p><p class="pl-save"></p><ul></ul><p class="pl-go"></p>`;
+    card.innerHTML = `<h3></h3><p class="pl-price"></p><ul></ul><p class="pl-go"></p>`;
     card.querySelector("h3").textContent = p.name;
-    const [cost, save] = price(p);
-    card.querySelector(".pl-price").textContent = cost;
-    card.querySelector(".pl-save").textContent = save;
+    const priceLine = card.querySelector(".pl-price");
+    if (p.promo && !window.PlanExtras) {
+      // The beta (lib/billing.js launchOffer): the usual price crossed out, what it is now, its tag and its terms.
+      // js/plan-extras.js draws this instead when it's there (show).
+      priceLine.append(Object.assign(document.createElement("s"), { textContent: money(p.monthly) }), " ",
+        Object.assign(document.createElement("strong"), { textContent: p.promo.price ? money(p.promo.price) : "Free" }), " ",
+        Object.assign(document.createElement("span"), { className: "pl-tag", textContent: p.promo.label }));
+      priceLine.after(Object.assign(document.createElement("p"), { className: "pl-offer",
+        textContent: p.promo.note.charAt(0).toUpperCase() + p.promo.note.slice(1) }));
+    } else priceLine.textContent = p.monthly ? money(p.monthly) + " a month" : "Free";
     card.querySelector("ul").replaceChildren(...p.features.map(f => Object.assign(document.createElement("li"), { textContent: f })));
     const slot = card.querySelector(".pl-go");
     const note = text => { slot.classList.add("vp-note"); slot.textContent = text; };
-    if (mine) note("Your plan");
+    const button = (text, alt) => Object.assign(document.createElement("button"),
+      { className: "btn-small" + (alt ? " btn-small-alt" : ""), type: "button", textContent: text });
+    const subscribed = Boolean(c) && billed(c) !== "free";
+    if (welcome && p.id === "free") {
+      // As plain to find as any plan's button: on to the connected page, and back to Willo.
+      slot.append(Object.assign(document.createElement("a"), { className: "btn-small", href: "/link?connected=1", textContent: "Continue free" }));
+    } else if (mine && (c.changesTo || c.cancelAtPeriodEnd)) {
+      // A downgrade waiting for the renewal, or a cancellation: Keep undoes it, with nothing charged.
+      slot.append(Object.assign(document.createElement("span"), { className: "pl-pending", textContent:
+        c.changesTo ? `Changes to ${c.changesTo.name} on ${day(c.changesTo.at)}. ` : `Ends on ${day(c.renews)}. ` }));
+      const b = button("Keep " + p.name);
+      b.addEventListener("click", () => change(p.id, b, { confirm: true }));
+      slot.append(b);
+    } else if (mine) note("Your plan");
     else if (p.id === "free") note(c ? "" : "Yours with any account");
+    else if (subscribed && c.changesTo?.id === p.id) note(`Yours from ${day(c.changesTo.at)}`);
     else if (!p.sellable) note("Coming soon");
     else if (!c) {
       // Signed out: sign in first, then back here.
       slot.append(Object.assign(document.createElement("a"), { className: "btn-small", href: "/account?next=/plans", textContent: "Sign in to choose" }));
-    } else if (c.id !== "free") {
-      // Already subscribed: switching happens on Stripe's billing portal, so nobody pays twice.
-      const b = Object.assign(document.createElement("button"), { className: "btn-small btn-small-alt", type: "button", textContent: "Switch in Manage billing" });
-      b.addEventListener("click", () => go("/api/billing/portal", {}, b));
+    } else if (subscribed) {
+      // Already subscribed: switch here, with a confirm that says what happens (change).
+      const b = button("Switch to " + p.name, true);
+      b.addEventListener("click", () => change(p.id, b));
       slot.append(b);
     } else {
-      const b = Object.assign(document.createElement("button"), { className: "btn-small", type: "button", textContent: "Choose " + p.name });
-      b.addEventListener("click", () => go("/api/billing/checkout", { plan: p.id, interval: interval() }, b));
+      // The beta's free Hero month: keeping it is Hero's checkout, free for a month from then (its trial).
+      const b = button((c.launch && p.id === "hero" && p.promo ? "Keep " : "Choose ") + p.name);
+      b.addEventListener("click", () => go("/api/billing/checkout", { plan: p.id }, b));
       slot.append(b);
     }
     return card;
   }
 
-  // The top-up card: what it is, and when signed in, the answers left and this month's count, with Buy until that's full.
-  function showTopup(t, c) {
-    $("topup").hidden = !t;
-    if (!t) return;
-    $("pl-topup-what").textContent = `Top-up: ${t.answers} answers for ${money(t.price)}. Used after your daily answers; they never expire.`;
-    $("pl-topup-mine").hidden = !c;
-    if (c) $("pl-topup-mine").textContent = `You have ${t.remaining} top-up answer${t.remaining === 1 ? "" : "s"} left · ` +
-      `${t.boughtThisMonth} of ${t.monthMax} this month.`;
-    const slot = $("pl-topup-go");
+  // The finest-voice card (lib/billing.js VOICE_PACK): what it is, and Buy for a player on a paid plan until this
+  // month's are bought. No count of what's left (Mike, 10/13: no meters). The server says whether it shows and in what
+  // words (lib/billing.js voicePackFor: Legend sees it only near the end of its month's finest replies).
+  function showVoicePack(v, c) {
+    $("voicepack").hidden = !v;
+    if (!v) return;
+    $("pl-voicepack-what").textContent = v.text;
+    const slot = $("pl-voicepack-go");
     slot.classList.remove("vp-note");
     slot.replaceChildren();
+    const note = text => { slot.classList.add("vp-note"); slot.textContent = text; };
     if (!c) {
       slot.append(Object.assign(document.createElement("a"), { className: "btn-small", href: "/account?next=/plans", textContent: "Sign in to buy" }));
-    } else if (t.boughtThisMonth >= t.monthMax) {
-      slot.classList.add("vp-note");
-      slot.textContent = `That's this month's ${t.monthMax}. You can buy more next month.`;
-    } else {
-      const b = Object.assign(document.createElement("button"), { className: "btn-small", type: "button", textContent: "Buy a top-up" });
-      b.addEventListener("click", () => go("/api/billing/topup", {}, b, "pl-topup-status"));
+    } else if (!v.open) note("With any Willo plan.");
+    else if (v.boughtThisMonth >= v.monthMax) note(`That's this month's ${v.monthMax}. You can buy more next month.`);
+    else {
+      const b = Object.assign(document.createElement("button"), { className: "btn-small", type: "button",
+        textContent: v.buy || "Buy Willo's finest voice" });
+      b.addEventListener("click", () => go("/api/billing/voicepack", {}, b, "pl-voicepack-status"));
       slot.append(b);
     }
   }
 
   function show() {
     const c = plans.current;
-    $("pl-now").hidden = !c;
+    // The beta promo's banner (lib/billing.js launchText), during the beta.
+    $("pl-launch").hidden = !plans.launch;
+    $("pl-launch-text").textContent = plans.launch || "";
+    $("pl-now").hidden = !c || welcome;
     if (c) $("pl-current").textContent = currentPlan(c);
     $("pl-manage").hidden = !c?.portal;
-    $("pl-cards").replaceChildren(...plans.plans.map(p => planCard(p, c)));
-    showTopup(plans.topup, c);
+    const cards = plans.plans.map(p => planCard(p, c));
+    $("pl-cards").replaceChildren(...cards);
+    // The beta's promo on the cards and the "What you get" table (js/plan-extras.js, from plans[].promo and
+    // compare), when that script is there.
+    if (window.PlanExtras) {
+      cards.forEach((card, i) => PlanExtras.promo(card, plans.plans[i]));
+      PlanExtras.compare($("pl-compare"), plans.plans, plans.compare);
+    }
+    // One line of fine print about Willo's finest voice (lib/billing.js VOICE_NOTE).
+    $("pl-voice-note").hidden = !plans.voiceNote;
+    $("pl-voice-note").textContent = plans.voiceNote || "";
+    showVoicePack(welcome ? null : plans.voicePack, c);
   }
 
   async function load() {
@@ -217,20 +325,32 @@
     if (!res.on) return;
     plans = res;
     show();
-    // The card only shows now, so a link to #topup (the companion's offer, Stripe's way back) scrolls to it here.
-    if (firstLoad && location.hash === "#topup") $("topup").scrollIntoView();
+    // The card only shows now, so a link to #voicepack (Stripe's way back) scrolls to it here.
+    if (firstLoad && location.hash === "#voicepack") $("voicepack").scrollIntoView();
+    // #hero, #champion...: Willo's "Available on Hero" links land on that plan's card.
+    const linked = firstLoad && location.hash.length > 1 &&
+      document.querySelector(`.pl-card[data-plan="${CSS.escape(location.hash.slice(1))}"]`);
+    if (linked) linked.scrollIntoView({ block: "center" });
+    // From /account's "Switch to <plan>": that card's confirm, once.
+    const switchTo = firstLoad && params.get("switch");
+    const ask = switchTo && document.querySelector(`.pl-card[data-plan="${CSS.escape(switchTo)}"] .pl-go button.btn-small-alt`);
+    if (ask) { ask.closest(".pl-card").scrollIntoView({ block: "center" }); ask.click(); }
     firstLoad = false;
-    if (billingDone || topupDone) {
-      // The plan or the top-up arrives by Stripe's webhook, usually within seconds: look again once.
+    if (billingDone || voiceDone) {
+      // The plan or the pack arrives by Stripe's webhook, usually within seconds: look again once.
       $("pl-thanks").hidden = !billingDone;
-      $("pl-topup-thanks").hidden = !topupDone;
-      billingDone = topupDone = false;
+      $("pl-voicepack-thanks").hidden = !voiceDone;
+      billingDone = voiceDone = false;
       history.replaceState(null, "", location.pathname + location.hash);
       setTimeout(load, 3000);
     }
   }
 
-  for (const radio of document.querySelectorAll("input[name=pl-interval]")) radio.addEventListener("change", () => plans && show());
+  if (welcome) {
+    $("pl-welcome").hidden = false;
+    $("pl-pitch").hidden = true;
+    $("pl-yourway").hidden = true;
+  }
   $("pl-portal").addEventListener("click", () => go("/api/billing/portal", {}, $("pl-portal")));
   load();
 })();

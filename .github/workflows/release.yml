@@ -1,6 +1,6 @@
-# Builds the download zip (the add-on with every default narration and the language packs) and the Windows
-# installer, publishes them as a GitHub release with that version's notes from CHANGELOG.md, and uploads the zip to
-# CurseForge. Also builds the optional narration packs (the female narrator) and adds them to the GitHub release.
+# Builds the download zip (the add-on with every default narration and the language packs), the add-on's Windows
+# installer and Willo's own (Willo-Setup.exe, the companion app), publishes them as a GitHub release with that
+# version's notes from CHANGELOG.md, and uploads the zip to CurseForge. Also builds the optional narration packs (the female narrator) and adds them to the GitHub release.
 # CurseForge refuses additional files for this project (errorCode 1011), and as normal files the CurseForge app would
 # install a pack in place of the add-on, so a voice goes to CurseForge only as its own project (release/curseforge.json,
 # the curseforge-voices job). The site's /voices links follow releases/latest.
@@ -86,22 +86,30 @@ jobs:
       - name: Fetch the recordings
         run: |
           if [ -f scripts/audio_assets.py ]; then python3 scripts/audio_assets.py fetch; fi
-      # The zip QA tested is the one that ships: scripts/release.sh puts its sha256 in the tag's message.
-      - name: Build the zip
+      # The zip QA tested is the one that ships: scripts/release.sh puts its sha256 in the tag's message. The narration
+      # packs build alongside it (scripts/release.sh's public build rehearsal runs the two side by side the same way):
+      # neither reads what the other writes (dist/LoreForever-<version>.zip, dist/packs/), and the zip's ~30 s come off
+      # the time the installer job waits.
+      # dist/extra/manifest.tsv: file, display name, version (one line per extra zip).
+      - name: Build the zip and the narration packs, side by side
         run: |
-          bash scripts/build-release.sh
+          bash scripts/build-voice-packs.sh > "$RUNNER_TEMP/packs.log" 2>&1 &
+          packs=$!
+          bash scripts/build-release.sh || { kill "$packs" 2>/dev/null; exit 1; }
           mv "dist/LoreForever-${{ steps.version.outputs.version }}.zip" dist/LoreForever.zip
           want='${{ needs.prepare.outputs.zip_sha256 }}'
           got=$(sha256sum dist/LoreForever.zip | cut -d' ' -f1)
           if [ -n "$want" ] && [ "$want" != "$got" ]; then
+            kill "$packs" 2>/dev/null
             echo "::error::The zip came out as sha256 $got, not $want, the zip scripts/release.sh built and QA tested."
             exit 1
           fi
           echo "zip sha256 $got${want:+, the one QA tested}"
-      # dist/extra/manifest.tsv: file, display name, version (one line per extra zip).
-      - name: Build the narration packs
-        run: |
-          bash scripts/build-voice-packs.sh
+          echo "::group::The narration packs"
+          rc=0; wait "$packs" || rc=$?
+          cat "$RUNNER_TEMP/packs.log"
+          echo "::endgroup::"
+          [ "$rc" = 0 ] || { echo "::error::scripts/build-voice-packs.sh failed (exit $rc; its log is above)"; exit "$rc"; }
           mkdir -p dist/extra
           mv dist/packs/*.zip dist/packs/manifest.tsv dist/extra/
           cat dist/extra/manifest.tsv
@@ -187,7 +195,7 @@ jobs:
           if (-not (Test-Path "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe")) { choco install innosetup -y --no-progress }
       # Code signing (Azure Artifact Signing). Skipped until SIGNING_PROFILE is set (after identity validation), so unsigned
       # releases keep working: AZURE_CLIENT_ID, AZURE_TENANT_ID, AZURE_SUBSCRIPTION_ID, SIGNING_ENDPOINT,
-      # SIGNING_ACCOUNT, SIGNING_PROFILE. Logged in up front: the companion app and the installer are both signed.
+      # SIGNING_ACCOUNT, SIGNING_PROFILE.
       - name: Azure login
         if: vars.SIGNING_PROFILE != ''
         uses: azure/login@v3
@@ -195,62 +203,6 @@ jobs:
           client-id: ${{ vars.AZURE_CLIENT_ID }}
           tenant-id: ${{ vars.AZURE_TENANT_ID }}
           subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
-      # The companion app (LOR-132), an optional part of Setup.exe. Its source stays in the private repo; the release
-      # recorded which commit in release/companion.ref (publish-public.sh), and the release environment's secret
-      # COMPANION_SOURCE_TOKEN reads it (read-only). Without the secret, or if anything here fails, Setup.exe ships
-      # without the companion as before, with a warning on the run, so the release never stops over it.
-      - id: companion
-        name: Which companion commit
-        shell: pwsh
-        env:
-          COMPANION_SOURCE_TOKEN: ${{ secrets.COMPANION_SOURCE_TOKEN }}
-        run: |
-          $ref = if (Test-Path release\companion.ref) { (Get-Content release\companion.ref -Raw).Trim() } else { "" }
-          if (-not $ref) { "No release\companion.ref: Setup.exe without the companion" }
-          elseif (-not $env:COMPANION_SOURCE_TOKEN) {
-            "::warning::COMPANION_SOURCE_TOKEN isn't set in the release environment, so this Setup.exe ships without the companion app."
-            $ref = ""
-          } else { "Companion source: mliudev/lore-forever at $ref" }
-          "ref=$ref" >> $env:GITHUB_OUTPUT
-      - id: companion_src
-        name: Check out the companion source (private, read-only)
-        if: steps.companion.outputs.ref != ''
-        continue-on-error: true
-        uses: actions/checkout@v4
-        with:
-          repository: mliudev/lore-forever
-          ref: ${{ steps.companion.outputs.ref }}
-          token: ${{ secrets.COMPANION_SOURCE_TOKEN }}
-          path: companion-src
-          sparse-checkout: |
-            companion
-            data/pronunciation.json
-          sparse-checkout-cone-mode: false
-      - uses: astral-sh/setup-uv@v6
-        if: steps.companion_src.outcome == 'success'
-      - id: companion_build
-        name: Build the companion
-        if: steps.companion_src.outcome == 'success'
-        continue-on-error: true
-        shell: pwsh
-        # The release's version goes into the companion (build.ps1 stamps it), so it reports which release it came with
-        # (its daily check-in, /admin's versions in use). An older companion source's build.ps1 ignores it.
-        env:
-          LORE_COMPANION_VERSION: ${{ needs.prepare.outputs.version }}
-        run: companion-src\companion\packaging\build.ps1 -Out "$env:RUNNER_TEMP\companion" -Work "$env:RUNNER_TEMP\companion-build"
-      - id: companion_sign
-        name: Sign the companion
-        if: steps.companion_build.outcome == 'success' && vars.SIGNING_PROFILE != ''
-        continue-on-error: true
-        uses: azure/artifact-signing-action@v2
-        with:
-          endpoint: ${{ vars.SIGNING_ENDPOINT }}
-          signing-account-name: ${{ vars.SIGNING_ACCOUNT }}
-          certificate-profile-name: ${{ vars.SIGNING_PROFILE }}
-          files: ${{ runner.temp }}\companion\LoreForeverCompanion\LoreForeverCompanion.exe
-          file-digest: SHA256
-          timestamp-rfc3161: http://timestamp.acs.microsoft.com
-          timestamp-digest: SHA256
       - name: Receive only verified installer inputs while Linux stages the extras
         shell: pwsh
         env:
@@ -261,27 +213,13 @@ jobs:
       - id: build
         name: Build the installer
         shell: pwsh
-        env:
-          # The companion goes in only when it built, and (when this release signs) was signed.
-          WITH_COMPANION: ${{ steps.companion_build.outcome == 'success' && (vars.SIGNING_PROFILE == '' || steps.companion_sign.outcome == 'success') }}
         run: |
           New-Item -ItemType Directory dist\stage | Out-Null
           & "$env:SystemRoot\System32\tar.exe" -xf dist\inputs\LoreForever.zip -C dist\stage
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
-          $downloads = Get-Content dist\inputs\extra\transport-downloads.json -Raw | ConvertFrom-Json
           $downloadArgs = @("/DDownloadIss=$PWD\dist\inputs\extra\installer-downloads.iss", "/DDownloadUninstallIss=$PWD\dist\inputs\extra\installer-downloads-uninstall.iss")
-          $companion = @()
-          $exe = "$env:RUNNER_TEMP\companion\LoreForeverCompanion\LoreForeverCompanion.exe"
-          if ($env:WITH_COMPANION -eq 'true' -and (Test-Path $exe)) {
-            $companion = "/DCompanionDir=$(Split-Path $exe)", "/DCompanionIss=$PWD\companion-src\companion\packaging\companion.iss"
-            "### Setup.exe includes the companion app (mliudev/lore-forever@${{ steps.companion.outputs.ref }})" >> $env:GITHUB_STEP_SUMMARY
-          } elseif ('${{ steps.companion.outputs.ref }}') {
-            "::warning::The companion app didn't check out, build or sign (see the steps above), so this Setup.exe ships without it."
-            "### Setup.exe ships without the companion app: it didn't check out, build or sign" >> $env:GITHUB_STEP_SUMMARY
-          }
-          "with_companion=$([int]($companion.Count -gt 0))" >> $env:GITHUB_OUTPUT
           & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /Q "/DAppVersion=${{ needs.prepare.outputs.version }}" `
-            "/DSourceDir=$PWD\dist\stage" "/DOutputDir=$PWD\dist" @downloadArgs @companion release\installer\LoreForever.iss
+            "/DSourceDir=$PWD\dist\stage" "/DOutputDir=$PWD\dist" @downloadArgs release\installer\LoreForever.iss
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
       - name: Sign the installer
         if: vars.SIGNING_PROFILE != ''
@@ -324,7 +262,7 @@ jobs:
               $wow = "$env:RUNNER_TEMP\wow-$selection"
               New-Item -ItemType Directory "$wow\_classic_beta_" | Out-Null
               $voices = if ($selection -eq 'base') { 'none' } else { $selection }
-              $installed = Start-Process dist\LoreForever-Setup.exe -WindowStyle Hidden -PassThru -Wait -ArgumentList '/QA','/VERYSILENT','/SUPPRESSMSGBOXES','/COMPONENTS=addon',"/DIR=$wow","/VOICES=$voices",'/VOICEURL=http://127.0.0.1:47864/'
+              $installed = Start-Process dist\LoreForever-Setup.exe -WindowStyle Hidden -PassThru -Wait -ArgumentList '/QA','/VERYSILENT','/SUPPRESSMSGBOXES',"/DIR=$wow","/VOICES=$voices",'/VOICEURL=http://127.0.0.1:47864/'
               if ($installed.ExitCode -ne 0) { throw "Installer failed for $selection" }
               python release\installer\qa\verify-install.py dist\inputs\LoreForever.zip $wow dist\inputs\extra\transport-downloads.json $selection
               if ($LASTEXITCODE) { throw "Installed bytes/downloads differ for $selection" }
@@ -332,25 +270,6 @@ jobs:
             }
           } finally { Stop-Process -Id $server.Id -ErrorAction SilentlyContinue }
           $smoke | ConvertTo-Json | Set-Content -Encoding utf8 dist\smoke.json
-      # A plain silent install leaves the companion out (it's opt-in); asking for it installs it, signed. Its narration
-      # voice (a 190 MB download from upstream) is left out here; the private repo's Companion workflow tests that.
-      - name: Smoke test (the companion app)
-        if: steps.build.outputs.with_companion == '1'
-        shell: pwsh
-        run: |
-          $wow = "$env:RUNNER_TEMP\wow-companion"
-          New-Item -ItemType Directory -Force "$wow\_classic_beta_" | Out-Null
-          $app = "$env:LOCALAPPDATA\Programs\Lore Forever Companion\LoreForeverCompanion.exe"
-          if (Test-Path $app) { Write-Error "a plain silent install shouldn't add the companion"; exit 1 }
-          Start-Process dist\LoreForever-Setup.exe -Wait -ArgumentList "/VERYSILENT", "/SUPPRESSMSGBOXES", "/DIR=$wow",
-            "/COMPONENTS=addon,companion", "/LOG=$env:RUNNER_TEMP\companion.log"
-          if (-not (Test-Path $app)) { Get-Content "$env:RUNNER_TEMP\companion.log" -Tail 40; Write-Error "the companion didn't install"; exit 1 }
-          if ('${{ vars.SIGNING_PROFILE }}') {
-            $sig = Get-AuthenticodeSignature $app
-            "companion signature: $($sig.Status); signer: $($sig.SignerCertificate.Subject)"
-            if ($sig.Status -ne 'Valid') { exit 1 }
-          }
-          "installed the companion: $((Get-ChildItem (Split-Path $app) -Recurse -File).Count) files"
       - name: Freeze the signed installer and successful install evidence
         shell: pwsh
         run: |
@@ -375,8 +294,157 @@ jobs:
           path: dist/installer-proof.json
           compression-level: 0
 
+  # Willo, the companion app, as its own download: Willo-Setup.exe (companion/packaging/Willo.iss in the private repo).
+  # A job of its own beside the zip and the add-on's installer, so it adds no time to the release: it builds the app
+  # once, signs it, packs it, signs Willo-Setup.exe and test-installs it with /QA. Its source stays private: the release
+  # recorded which commit in release/companion.ref (publish-public.sh), and the release environment's secret
+  # COMPANION_SOURCE_TOKEN reads it (read-only). It never stops a release: when it fails, the release goes out without
+  # Willo-Setup.exe (a warning in the release job), and the site's /download/willo keeps serving the last one
+  # (scripts/download_snapshot.py).
+  willo:
+    needs: prepare
+    runs-on: windows-latest
+    environment: release
+    permissions:
+      id-token: write
+      contents: write
+      actions: read
+    steps:
+      # release/companion.ref, and release/installer for Lore Forever's wizard pictures.
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.prepare.outputs.source_commit }}
+          sparse-checkout: release/installer
+      - uses: actions/checkout@v4
+        with:
+          path: ci
+          sparse-checkout: |
+            scripts
+            release
+      - id: companion
+        name: Which Willo commit
+        shell: pwsh
+        env:
+          COMPANION_SOURCE_TOKEN: ${{ secrets.COMPANION_SOURCE_TOKEN }}
+        run: |
+          $ref = if (Test-Path release\companion.ref) { (Get-Content release\companion.ref -Raw).Trim() } else { "" }
+          if (-not $ref) { "::error::No release\companion.ref: no Willo-Setup.exe in this release"; exit 1 }
+          if (-not $env:COMPANION_SOURCE_TOKEN) { "::error::COMPANION_SOURCE_TOKEN isn't set in the release environment: no Willo-Setup.exe in this release"; exit 1 }
+          "Willo source: mliudev/lore-forever at $ref"
+          "ref=$ref" >> $env:GITHUB_OUTPUT
+      - name: Check out Willo's source (private, read-only)
+        uses: actions/checkout@v4
+        with:
+          repository: mliudev/lore-forever
+          ref: ${{ steps.companion.outputs.ref }}
+          token: ${{ secrets.COMPANION_SOURCE_TOKEN }}
+          path: companion-src
+          sparse-checkout: |
+            companion
+            data/pronunciation.json
+          sparse-checkout-cone-mode: false
+      - uses: astral-sh/setup-uv@v6
+      - name: Install Inno Setup
+        shell: pwsh
+        run: |
+          if (-not (Test-Path "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe")) { choco install innosetup -y --no-progress }
+      - name: Azure login
+        if: vars.SIGNING_PROFILE != ''
+        uses: azure/login@v3
+        with:
+          client-id: ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id: ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+      # The release's version goes into the app (build.ps1 stamps it), so it reports which release it came with (its
+      # daily check-in, /admin's versions in use).
+      - name: Build Willo
+        shell: pwsh
+        env:
+          LORE_COMPANION_VERSION: ${{ needs.prepare.outputs.version }}
+        run: companion-src\companion\packaging\build.ps1 -Out "$env:RUNNER_TEMP\companion" -Work "$env:RUNNER_TEMP\companion-build"
+      - name: Sign Willo
+        if: vars.SIGNING_PROFILE != ''
+        uses: azure/artifact-signing-action@v2
+        with:
+          endpoint: ${{ vars.SIGNING_ENDPOINT }}
+          signing-account-name: ${{ vars.SIGNING_ACCOUNT }}
+          certificate-profile-name: ${{ vars.SIGNING_PROFILE }}
+          files: ${{ runner.temp }}\companion\LoreForeverCompanion\LoreForeverCompanion.exe
+          file-digest: SHA256
+          timestamp-rfc3161: http://timestamp.acs.microsoft.com
+          timestamp-digest: SHA256
+      - name: Build Willo-Setup.exe
+        shell: pwsh
+        run: |
+          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /Q "/DAppVersion=${{ needs.prepare.outputs.version }}" `
+            "/DCompanionDir=$env:RUNNER_TEMP\companion\LoreForeverCompanion" "/DOutputDir=$PWD\dist" `
+            "/DWizardDir=$PWD\release\installer" companion-src\companion\packaging\Willo.iss
+          if ($LASTEXITCODE) { exit $LASTEXITCODE }
+      - name: Sign Willo-Setup.exe
+        if: vars.SIGNING_PROFILE != ''
+        uses: azure/artifact-signing-action@v2
+        with:
+          endpoint: ${{ vars.SIGNING_ENDPOINT }}
+          signing-account-name: ${{ vars.SIGNING_ACCOUNT }}
+          certificate-profile-name: ${{ vars.SIGNING_PROFILE }}
+          files: ${{ github.workspace }}\dist\Willo-Setup.exe
+          file-digest: SHA256
+          timestamp-rfc3161: http://timestamp.acs.microsoft.com
+          timestamp-digest: SHA256
+      # Both signatures (Setup and the app inside it), and a /QA install into scratch: Willo's files land, nothing of the
+      # runner's own Windows entries changes. The full install, upgrade and sign-in screen are the private repo's
+      # Companion workflow (companion.yml).
+      - name: Check the signatures and test-install
+        shell: pwsh
+        run: |
+          $required = '${{ vars.SIGNING_PROFILE }}' -ne ''
+          $signature = [ordered]@{ required = $required; status = 'not_required'; thumbprint = '' }
+          $scratch = "$env:RUNNER_TEMP\willo-qa"
+          New-Item -ItemType Directory "$scratch\app", "$scratch\wow\_classic_beta_" -Force | Out-Null
+          $installed = Start-Process dist\Willo-Setup.exe -Wait -PassThru -ArgumentList '/QA', '/VERYSILENT', '/SUPPRESSMSGBOXES',
+            "/DIR=$scratch\app", "/GAMEDIR=$scratch\wow", "/LOG=$env:RUNNER_TEMP\willo-qa.log"
+          $app = "$scratch\app\LoreForeverCompanion.exe"
+          if ($installed.ExitCode -or -not (Test-Path $app)) { Get-Content "$env:RUNNER_TEMP\willo-qa.log" -Tail 40; throw "Willo-Setup.exe didn't install" }
+          if (Test-Path "$scratch\app\unins000.exe") { throw "/QA left an uninstaller" }
+          if ($required) {
+            foreach ($file in "dist\Willo-Setup.exe", $app) {
+              $sig = Get-AuthenticodeSignature $file
+              "$(Split-Path -Leaf $file): $($sig.Status); signer: $($sig.SignerCertificate.Subject)"
+              if ($sig.Status -ne 'Valid') { exit 1 }
+            }
+            $signature.status = 'Valid'
+            $signature.thumbprint = (Get-AuthenticodeSignature dist\Willo-Setup.exe).SignerCertificate.Thumbprint
+          }
+          $signature | ConvertTo-Json | Set-Content -Encoding utf8 dist\willo-signature.json
+          "### Willo-Setup.exe: {0:N0} MB (mliudev/lore-forever@${{ steps.companion.outputs.ref }})" -f ((Get-Item dist\Willo-Setup.exe).Length / 1MB) >> $env:GITHUB_STEP_SUMMARY
+      - name: Freeze the signed Willo installer
+        shell: pwsh
+        run: |
+          python ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" willo-manifest `
+            --setup dist/Willo-Setup.exe --signature dist/willo-signature.json --output dist/willo-proof.json
+      - name: Stage it directly from Windows
+        if: needs.prepare.outputs.published != 'true'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" stage --manifest dist/willo-proof.json --root dist
+      - uses: actions/upload-artifact@v4
+        if: needs.prepare.outputs.published == 'true'
+        with:
+          name: willo-payload-${{ github.run_attempt }}
+          path: dist/Willo-Setup.exe
+          compression-level: 0
+      # Last, after the staging upload: a proof means the asset is on the draft.
+      - uses: actions/upload-artifact@v4
+        with:
+          name: willo-proof-${{ github.run_attempt }}
+          path: dist/willo-proof.json
+          compression-level: 0
+
   release:
-    needs: [prepare, zip, installer]
+    needs: [prepare, zip, installer, willo]
+    # Willo never holds the release: it goes out without Willo-Setup.exe when the willo job failed.
+    if: ${{ !cancelled() && needs.prepare.result == 'success' && needs.zip.result == 'success' && needs.installer.result == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -399,23 +467,27 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          willo=(); [ '${{ needs.willo.result }}' = success ] && willo=(--willo)
           python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" legacy-receive \
-            --proofs dist/proofs --output dist/payload
+            --proofs dist/proofs --output dist/payload "${willo[@]}"
           python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" receive --output dist/inputs
       - name: Verify the complete staged set and publish
         env:
           GH_TOKEN: ${{ github.token }}
           VERSION: ${{ needs.prepare.outputs.version }}
           SIGNING_REQUIRED: ${{ vars.SIGNING_PROFILE != '' }}
+          WILLO: ${{ needs.willo.result }}
         run: |
-          notes=(); signed=(); legacy=()
+          notes=(); signed=(); legacy=(); willo=()
+          if [ "$WILLO" = success ]; then willo=(--willo)
+          else echo "::warning::Willo-Setup.exe didn't build (the willo job: $WILLO), so this release goes out without it; the site keeps serving the last one."; fi
           if [ -f CHANGELOG.md ] && python3 scripts/changelog.py notes "$VERSION" > notes.md; then
             notes=(--notes "$PWD/notes.md")
           fi
           if [ "$SIGNING_REQUIRED" = true ]; then signed=(--signed); fi
           if [ '${{ needs.prepare.outputs.published }}' = true ]; then legacy=(--legacy --root dist); fi
           python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" finalize \
-            --proofs dist/proofs --output dist/metadata "${notes[@]}" "${signed[@]}" "${legacy[@]}"
+            --proofs dist/proofs --output dist/metadata "${notes[@]}" "${signed[@]}" "${legacy[@]}" "${willo[@]}"
 
   # CurseForge is the main download channel. Needs the repo secret CF_API_TOKEN (CurseForge > Account > API tokens);
   # without it this job fails. The project ID and game version come from the .toc (## X-Curse-Project-ID, and

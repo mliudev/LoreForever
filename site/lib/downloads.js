@@ -203,3 +203,26 @@ export function includedLine(voices) {
   const included = voices.filter(v => v.included && v.status === "live");
   return `English text and ${list(included.map(v => `${escape(v.name.replace(/^Lore Forever /, ""))}${count(v.clips) ? ` (${v.clips.toLocaleString("en-US")} recordings)` : ""}`)) || "English male narration"} come with the main add-on.`;
 }
+
+// "Narrated by our community" on /downloads (Mike, 2026-10-14: community narrators featured): one card per live voice a
+// player made, by the name they credit (voices.json contributor.name, else credit; never our own "Lore Forever"
+// narrators, lib/credits.js HOUSE_CREDIT), with its language, recordings, sample and download, then "Lend your voice".
+// New community voices appear by themselves; their packs keep their own text and credit.
+const HOUSE = "Lore Forever";
+export function communitySection(voices, likes) {
+  const made = (voices || []).filter(v => v.status === "live" && validId(v.id) && (v.contributor?.name || v.credit)
+    && (v.contributor?.name || v.credit) !== HOUSE && (!v.owner || v.contributor) && safeDownload(v.download));
+  if (!made.length) return "";
+  const cards = made.map(v => `<li class="cm-card" id="${escape(v.id)}-community">
+      <p class="cm-by">${escape(v.contributor?.name || v.credit)}</p>
+      <p class="cm-what">${escape([v.language, count(v.clips) ? `${v.clips.toLocaleString("en-US")} recordings` : ""].filter(Boolean).join(" · "))}</p>
+      ${playButton(v)}
+      <a class="btn-small dl-get" data-pack="${escape(v.id)}" href="/download/voice/${escape(v.id)}">Download</a>
+    </li>`).join("\n");
+  return `<section class="dl-section" id="community" aria-labelledby="community-title">
+    <h2 id="community-title">Narrated by our community</h2>
+    <p class="dl-intro">Players lend their voices to the stories${made.some(v => v.sample) ? ". Press &#9654; to hear one." : ", in their own languages."}</p>
+    <ul class="cm-cards">${cards}</ul>
+    <p><a class="btn-small btn-small-alt" href="/voices/lend">Lend your voice</a></p>
+  </section>`;
+}

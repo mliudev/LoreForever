@@ -1,0 +1,99 @@
+{
+ "key": "quest:94484",
+ "type": "quest",
+ "name": "Unnerving Silence",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94484
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The loss of contact with a secluded enclave in Shadowgale Forest raises immediate concern for druids attuned to the balance of the wild. Investigating Elegael Thornpaw's silence is a matter of safeguarding brethren and untangling what has disrupted their communion."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "unnerving silence quest",
+    "what is unnerving silence"
+   ],
+   "answer": "Unnerving Silence is a mission to investigate a sudden lapse in communication from a druid conclave based in Shadowgale Forest. A concerned party asks travelers venturing that way to search a northeastern cave and discover what has befallen the secluded order.",
+   "q": "What is the quest Unnerving Silence about?"
+  },
+  {
+   "aliases": [
+    "where is elegael thornpaw",
+    "elegael thornpaw location",
+    "find thornpaw"
+   ],
+   "answer": "Elegael Thornpaw resides within a cave situated in the northeastern reaches of Shadowgale Forest. She serves as the point of contact for the secluded druid conclave located there.",
+   "q": "Where can Elegael Thornpaw be found?"
+  },
+  {
+   "aliases": [
+    "who is elegael thornpaw",
+    "thornpaw lore"
+   ],
+   "answer": "Elegael Thornpaw is a member of the druid conclave dwelling within a cave in northeastern Shadowgale Forest. Her prolonged silence and failure to send scheduled correspondence have sparked grave worries about the safety of her enclave.",
+   "q": "Who is Elegael Thornpaw?"
+  },
+  {
+   "aliases": [
+    "what is shadowgale forest",
+    "shadowgale forest conclave"
+   ],
+   "answer": "Shadowgale Forest is a wooded expanse housing a hidden druidic cave conclave in its northeastern region. Following widespread regional turmoil and the fall of Ban'aethall, communication with the forest's dwellers has grown perilously uncertain.",
+   "q": "What is Shadowgale Forest?"
+  },
+  {
+   "aliases": [
+    "what happened to banaethall",
+    "banaethall ruins lore",
+    "ban'aethall fallen"
+   ],
+   "answer": "Ban'aethall was a regional settlement or stronghold that has recently fallen into ruin. Its destruction, alongside broader unrest across the territory, has heightened fears that nearby encampments like the Shadowgale conclave may also be in danger.",
+   "q": "What is Ban'aethall?"
+  },
+  {
+   "aliases": [
+    "why did druids stop sending messages",
+    "why are druids quiet"
+   ],
+   "answer": "Scheduled messages and reports from the druids in Shadowgale Forest have ceased without explanation. Given the destruction of Ban'aethall and escalating regional tension, there is serious concern that catastrophe or hostile forces have overtaken them.",
+   "q": "Why has the druid conclave gone silent?"
+  }
+ ],
+ "keywords": [
+  "ban'aethall",
+  "druid",
+  "druid conclave",
+  "elegael thornpaw",
+  "shadowgale forest",
+  "unnerving silence"
+ ],
+ "related": [
+  "topic:druid"
+ ],
+ "sections": [
+  {
+   "body": "A quiet unease hangs over the wilderness following the fall of Ban'aethall. With that stronghold reduced to ruins and mysterious unrest stirring through the territory, established lines of contact have begun to fray. In particular, regular dispatches from a secluded druid conclave dwelling deep inside a cave in northeastern Shadowgale Forest have abruptly ceased, leaving their allies on edge.",
+   "spoiler": 0,
+   "title": "Silence in the Canopy"
+  },
+  {
+   "body": "Travelers heading toward Shadowgale Forest are tasked with tracking down Elegael Thornpaw, a prominent figure among the cave-dwelling druids. Venturing into the shadowed northeast, an investigator must discover whether the enclave has simply withdrawn into deeper communion with nature or succumbed to the same dangers that tore through Ban'aethall.",
+   "spoiler": 0,
+   "title": "Seeking the Enclave"
+  }
+ ],
+ "summary": "Unnerving Silence concerns an abrupt loss of communication from a druid enclave nestled inside a cave in northeastern Shadowgale Forest. In the wake of Ban'aethall's ruin and growing regional unrest, an investigator is dispatched to locate Elegael Thornpaw and assess the conclave's fate.",
+ "attribution": [
+  "In-game quest text: Unnerving Silence"
+ ]
+}
