@@ -313,16 +313,17 @@ function afterAudio(settled, later, provider) {
 // exactly as Willo's own reply would be. Their own voice is Inworld's (CHARACTER_MODEL), then Fish's when Inworld
 // fails or sends no audio in CHARACTER_FIRST_AUDIO_MS; when neither can, or the month's room won't hold it, the
 // character steps down to Willo's studio voice (a hosted plan), or the PC, silently. The free plan's spoken starter is
-// Willo's own voice, characters' replies too. line: one of Willo's own lines, not a reply (speakLine).
+// Willo's own voice, characters' replies too. line: one of Willo's own lines, not a reply (speakLine); reading: a line
+// that is the add-on's own short answer read aloud (LOR-547), never in the finest voice.
 //
 // later (the request's waitUntil, optional): what a said piece cost and that it was heard are written after its audio
 // has gone back, not before (its hold on the month's cap counts until then); without it, before speakPiece returns.
-export async function speakPiece(env, userId, plan, { text, voice, reply, pick, line = false }, now = new Date(),
-                                 later = null) {
+export async function speakPiece(env, userId, plan, { text, voice, reply, pick, line = false, reading = false },
+                                 now = new Date(), later = null) {
   const pv = plan?.voice;
   const free = plan?.id === "free";
   if (!plansOn(env) || !pv || (free && !pv.starter)) return { local: "plan", status: 402 };
-  if (line) return speakLine(env, userId, plan, { text, pick }, now, later);
+  if (line) return speakLine(env, userId, plan, { text, pick, reading }, now, later);
   const hostedPlan = pv.voice !== "local";
   const character = voice !== "willo" ? characterVoices(env)[voice] : null;
   const ownInworld = character?.inworld && env[PROVIDERS.inworld.key] ? character.inworld : null;
@@ -452,7 +453,11 @@ export async function speakPiece(env, userId, plan, { text, voice, reply, pick, 
 // plan's starter; and it steps down as a reply does, finest to studio to the PC, once the month won't hold a whole reply
 // in that voice or a provider fails. {audio, provider, voice: the voice that said it and its pick ("studio:sprite"), by
 // which the companion keeps it (talk/linecache.py)}, or {local, status} as speakPiece's.
-async function speakLine(env, userId, plan, { text, pick }, now, later = null) {
+//
+// reading: one of the add-on's short answers read aloud (LOR-547), a line like a tip but one a player can hear many
+// of in an evening. Never in the finest voice, which the plan's own replies keep: the studio voice at most ($1 a
+// million letters, about $0.0002 an answer), then the PC's.
+async function speakLine(env, userId, plan, { text, pick, reading = false }, now, later = null) {
   const pv = plan.voice, free = plan.id === "free", ready = readyFor(env, "willo");
   if (!ready.length) return { local: "unavailable", status: 503 };
   await setupBilling(env);
@@ -463,7 +468,7 @@ async function speakLine(env, userId, plan, { text, pick }, now, later = null) {
   } else {
     if (pv.voice === "local" && !paying(plan)) return { local: "plan", status: 402 };
     const s = await standing(env, userId, plan, now);
-    steps = [...(s.now === "finest" ? [{ voice: "finest", provider: "inworld", model: pv.model || PACK_MODEL }] : []),
+    steps = [...(s.now === "finest" && !reading ? [{ voice: "finest", provider: "inworld", model: pv.model || PACK_MODEL }] : []),
              ...(s.now !== "everyday" && pv.voice !== "local" ? [{ voice: "studio", provider: "deepinfra" }] : [])];
   }
   steps = steps.filter(s => ready.includes(s.provider));

@@ -55,13 +55,13 @@ PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "Lor
 # scripts/release.sh stamps the core's version into them too. One not in addon/ yet is skipped by both: the quest
 # givers' voices until their recordings land, and the narrators in the language packs' languages (LOR-177,
 # LoreForever_Voice_<Default|Female>_<locale>) and their quest dialogue in those languages (LOR-226,
-# LoreForever_Voice_<Default|Female>_Quests_<locale>) until they're recorded, and every other question and answer
-# (LOR-227, lore.answers: LoreForever_Voice_<Default|Female>_Answers_<Part>[_<locale>]) until its renders land, and
-# each narrator's more places and more people (LoreForever_Voice_<Default|Female>_MorePlaces/_MorePeople, complete
-# stories only) until register_full_stories.py makes them with their first stories.
+# LoreForever_Voice_<Default|Female>_Quests_<locale>) until they're recorded, and each narrator's more places and
+# more people (LoreForever_Voice_<Default|Female>_MorePlaces/_MorePeople, complete stories only) until
+# register_full_stories.py makes them with their first stories. The answers packs (LOR-227) are retired (LOR-561):
+# Willo reads the short answers aloud.
 RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR",
                  "LoreForever_Lang_ruRU", "LoreForever_Lang_ukUA", "LoreForever_Lang_itIT",
-                 "LoreForever_Voice_Default_ukUA",
+                 "LoreForever_Voice_Default_ukUA", "LoreForever_Voice_BrownieeSVoice",
                  "LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio",
                  "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female",
                  "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde",
@@ -71,45 +71,23 @@ RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_
                  "LoreForever_Voice_Default_deDE", "LoreForever_Voice_Female_deDE",
                  "LoreForever_Voice_Default_esES", "LoreForever_Voice_Female_esES",
                  "LoreForever_Voice_Default_frFR", "LoreForever_Voice_Female_frFR",
-                 "LoreForever_Voice_Default_ptBR", "LoreForever_Voice_Female_ptBR",
                  "LoreForever_Voice_Default_Quests_deDE", "LoreForever_Voice_Female_Quests_deDE",
                  "LoreForever_Voice_Default_Quests_esES", "LoreForever_Voice_Female_Quests_esES",
                  "LoreForever_Voice_Default_Quests_frFR", "LoreForever_Voice_Female_Quests_frFR",
-                 "LoreForever_Voice_Default_Quests_ptBR", "LoreForever_Voice_Female_Quests_ptBR",
-                 "LoreForever_Voice_Default_Answers_Places", "LoreForever_Voice_Default_Answers_Lore",
-                 "LoreForever_Voice_Default_Answers_People", "LoreForever_Voice_Default_Answers_Quests1",
-                 "LoreForever_Voice_Default_Answers_Quests2", "LoreForever_Voice_Default_Answers_Quests3",
-                 "LoreForever_Voice_Female_Answers_Places", "LoreForever_Voice_Female_Answers_Lore",
-                 "LoreForever_Voice_Female_Answers_People", "LoreForever_Voice_Female_Answers_Quests1",
-                 "LoreForever_Voice_Female_Answers_Quests2", "LoreForever_Voice_Female_Answers_Quests3",
-                 "LoreForever_Voice_Default_Answers_Places_deDE", "LoreForever_Voice_Default_Answers_Lore_deDE",
-                 "LoreForever_Voice_Default_Answers_People_deDE", "LoreForever_Voice_Default_Answers_Quests1_deDE",
-                 "LoreForever_Voice_Default_Answers_Quests2_deDE", "LoreForever_Voice_Default_Answers_Quests3_deDE",
-                 "LoreForever_Voice_Female_Answers_Places_deDE", "LoreForever_Voice_Female_Answers_Lore_deDE",
-                 "LoreForever_Voice_Female_Answers_People_deDE", "LoreForever_Voice_Female_Answers_Quests1_deDE",
-                 "LoreForever_Voice_Female_Answers_Quests2_deDE", "LoreForever_Voice_Female_Answers_Quests3_deDE",
-                 "LoreForever_Voice_Default_Answers_Places_esES", "LoreForever_Voice_Default_Answers_Lore_esES",
-                 "LoreForever_Voice_Default_Answers_People_esES", "LoreForever_Voice_Default_Answers_Quests1_esES",
-                 "LoreForever_Voice_Default_Answers_Quests2_esES", "LoreForever_Voice_Default_Answers_Quests3_esES",
-                 "LoreForever_Voice_Female_Answers_Places_esES", "LoreForever_Voice_Female_Answers_Lore_esES",
-                 "LoreForever_Voice_Female_Answers_People_esES", "LoreForever_Voice_Female_Answers_Quests1_esES",
-                 "LoreForever_Voice_Female_Answers_Quests2_esES", "LoreForever_Voice_Female_Answers_Quests3_esES",
-                 "LoreForever_Voice_Default_Answers_Places_frFR", "LoreForever_Voice_Default_Answers_Lore_frFR",
-                 "LoreForever_Voice_Default_Answers_People_frFR", "LoreForever_Voice_Default_Answers_Quests1_frFR",
-                 "LoreForever_Voice_Default_Answers_Quests2_frFR", "LoreForever_Voice_Default_Answers_Quests3_frFR",
-                 "LoreForever_Voice_Female_Answers_Places_frFR", "LoreForever_Voice_Female_Answers_Lore_frFR",
-                 "LoreForever_Voice_Female_Answers_People_frFR", "LoreForever_Voice_Female_Answers_Quests1_frFR",
-                 "LoreForever_Voice_Female_Answers_Quests2_frFR", "LoreForever_Voice_Female_Answers_Quests3_frFR",
-                 "LoreForever_Voice_Default_Answers_Places_ptBR", "LoreForever_Voice_Default_Answers_Lore_ptBR",
-                 "LoreForever_Voice_Default_Answers_People_ptBR", "LoreForever_Voice_Default_Answers_Quests1_ptBR",
-                 "LoreForever_Voice_Default_Answers_Quests2_ptBR", "LoreForever_Voice_Default_Answers_Quests3_ptBR",
-                 "LoreForever_Voice_Female_Answers_Places_ptBR", "LoreForever_Voice_Female_Answers_Lore_ptBR",
-                 "LoreForever_Voice_Female_Answers_People_ptBR", "LoreForever_Voice_Female_Answers_Quests1_ptBR",
-                 "LoreForever_Voice_Female_Answers_Quests2_ptBR", "LoreForever_Voice_Female_Answers_Quests3_ptBR"]
+                 "LoreForever_Voice_Default_Quests_ptBR", "LoreForever_Voice_Female_Quests_ptBR"]
+# Narration taken back until it's recorded again: out of RELEASE_PACKS, never built (alone or in a bundle,
+# scripts/build-voice-packs.sh), synced to the public repo (publish-public.sh) or uploaded (release/curseforge.json:
+# live false), off /downloads (voices.json: soon) and silent in game (addon/LoreForever/Packs.lua WITHDRAWN, so an
+# installed copy shows text). The folders stay in addon/ and their recordings in the asset store. LOR-567: the Brazilian
+# Portuguese narrators (the "male" voice was a woman, both had a European accent). To bring one back with its new
+# recordings, take it out of here and put it back in RELEASE_PACKS; leave its WITHDRAWN entry, which keeps the old copies
+# silent (the release stamps a newer version into the new one).
+PAUSED_PACKS = ["LoreForever_Voice_Default_ptBR", "LoreForever_Voice_Female_ptBR"]
 if sys.argv[2:]:
     sys.exit(f"build-release: unknown arguments: {' '.join(sys.argv[2:])} (the one zip carries every bundled pack; "
              "there's no --complete build any more)")
 AUDIO = {".mp3", ".ogg"}
+ART = {".tga", ".blp"}    # textures the add-on draws by path (Media/: Willo's sky), never in a .toc
 MAX_ZIP = 480 * 1024**2   # CurseForge's per-file upload limit
 
 def fail(msg):
@@ -144,6 +122,8 @@ src = addons / CORE
 ship[CORE] = [(src / f"{CORE}.toc", f"{CORE}.toc")] + [(src / p, p) for p in listed]
 ship[CORE] += [(src / "Bindings.xml", "Bindings.xml"), (root / "release" / "CREDITS.txt", "CREDITS.txt"),
                (src / "THIRD_PARTY.txt", "THIRD_PARTY.txt")]   # licence notices for Data/Vectors_*.lua
+ship[CORE] += [(p, p.relative_to(src).as_posix()) for p in sorted((src / "Media").rglob("*"))
+               if p.suffix.lower() in ART]   # our own art (scripts/sky_textures.py)
 # The lore data's version (ns.DB = { version = "..." } in Data/Index.lua); bundled language packs must match it.
 index = (src / "Data" / "Index.lua").read_text(encoding="utf-8")
 m = re.search(r'ns\.DB\s*=\s*\{\s*version\s*=\s*"([^"]+)"', index)
@@ -235,7 +215,7 @@ if pointers:
     fail(f"{len(pointers)} audio files are Git LFS pointers, not recordings (e.g. {pointers[0].relative_to(root)}). "
          "Fetch them first: git -c lfs.fetchexclude= lfs pull")
 text_files = [(path, f"{folder}/{arc}", folder) for folder, files in ship.items()
-              for path, arc in files if path.suffix.lower() not in AUDIO]
+              for path, arc in files if path.suffix.lower() not in AUDIO | ART]
 
 # Anything in an add-on folder that isn't shipped is probably a mistake worth seeing.
 for folder, files in ship.items():

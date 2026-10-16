@@ -12,7 +12,8 @@ import { d1, SITE } from './helpers.mjs';
 import { setup, findOrCreateUser } from '../lib/accounts.js';
 import { saveUsage, countSite } from '../lib/usage.js';
 import { snapshotStores, importAuthorStats, CF_CORE, CF_PACKS } from '../lib/stores.js';
-import { setExclusion } from '../lib/activity.js';
+import { setExclusion, markAsked } from '../lib/activity.js';
+import { setupBilling } from '../lib/billing.js';
 import { saveCheckin } from '../lib/checkins.js';
 import { readFeatureUsage, saveFeatureUsage, rollupUsage } from '../lib/featureuse.js';
 import { createHash } from 'node:crypto';
@@ -205,6 +206,24 @@ for (const [src, installer, zip] of [['lore', 34, 7], ['yt', 21, 2], ['discord',
     .run(day, 'installer', src, installer, day, 'zip', src, zip);
 }
 
+// Willo (LOR-524): her downloads for 10 days, players asking her, and plans: two paying (one a 50% first month), a
+// comped one, a trial, and the beta's offers.
+for (let ago = 0; ago < 10; ago++) {
+  const day = new Date(now - ago * 864e5).toISOString().slice(0, 10);
+  env.DB.sqlite.prepare('INSERT INTO downloads (day, file, n) VALUES (?, ?, ?)').run(day, 'willo', pick(5, 40));
+  for (const id of users.slice(0, pick(4, 14))) for (let q = pick(1, 6); q > 0; q--) await markAsked(env, id, now - ago * 864e5);
+}
+await setupBilling(env);
+for (const [i, plan, status, comp, ago] of [[2, 'legend', 'active', '', 0], [3, 'hero', 'active', '', 4],
+                                             [4, 'legend', 'active', 'owner-legend-free', 1], [5, 'hero', 'trialing', '', 2]]) {
+  env.DB.sqlite.prepare('INSERT INTO entitlements (user_id, subscription_id, plan, status, current_period_end, updated) ' +
+    'VALUES (?, ?, ?, ?, ?, ?)').run(users[i], 'sub_' + i, plan, status, iso(-20), iso(0));
+  env.DB.sqlite.prepare('INSERT INTO plan_log (subscription_id, user_id, plan, status, started, discounts, comp, updated) ' +
+    "VALUES (?, ?, ?, ?, ?, '[]', ?, ?)").run('sub_' + i, users[i], plan, status, iso(ago), comp, iso(0));
+}
+for (const [claim, ago] of [['free:a', 0], ['free:b', 0], ['free:c', 1], ['hero:d', 2], ['half:e', 0]])
+  env.DB.sqlite.prepare("INSERT INTO promo_claims (claim, subscription_id, created) VALUES (?, '', ?)").run(claim, iso(ago));
+
 // Profile views, opens from outside links and shares (LOR-151).
 for (let ago = 0; ago < 14; ago++) {
   const at = now - ago * 864e5, views = pick(3, 25);
@@ -233,10 +252,10 @@ createServer(async (req, res) => {
     // headless screenshot (no typing): msedge --headless --virtual-time-budget=5000 --screenshot=...
     if (url.pathname === '/admin' && url.searchParams.get('key') === 'local') {
       const at = JSON.stringify((url.searchParams.get('at') || '').replace(/[^a-z-]/g, ''));
-      bytes = String(bytes).replace('<script type="module">',
+      bytes = String(bytes).replace('<script type="module" src="/admin-page.js',
         '<script>try { sessionStorage.setItem("lf-admin", "local"); } catch (e) {}\n' +
         `setTimeout(() => { const s = document.getElementById(${at}); if (s) scrollTo(0, s.offsetTop - 60); }, 1500);</script>\n` +
-        '<script type="module">');
+        '<script type="module" src="/admin-page.js');
     }
     res.writeHead(200, { 'Content-Type': types[extname(path)] || 'application/octet-stream' }); res.end(bytes);
   } catch { if (!res.headersSent) res.writeHead(404); res.end(); }

@@ -1,0 +1,108 @@
+{
+ "key": "quest:98896",
+ "type": "quest",
+ "name": "Darkspear Islands Clash",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98896
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "For troll adventurers, skirmishing against hostile raiders bearing the Darkspear name in the islands touches closely on their tribe's turbulent history and maritime conflicts."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The ongoing struggles in the Darkspear Islands highlight the frontier skirmishes faced by forces defending Horde interests across the South Seas."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is this quest",
+    "darkspear islands clash summary",
+    "clash quest info"
+   ],
+   "answer": "Darkspear Islands Clash is a task calling upon adventurers to rally their allies and press the attack against hostile Darkspear Raiders amid ongoing conflict across the Darkspear Islands.",
+   "q": "What is the Darkspear Islands Clash?"
+  },
+  {
+   "aliases": [
+    "where does this happen",
+    "where are darkspear islands",
+    "clash location"
+   ],
+   "answer": "The skirmish takes place across the Darkspear Islands, an archipelago marked by fierce territorial struggles and ongoing maritime clashes.",
+   "q": "Where does this fight take place?"
+  },
+  {
+   "aliases": [
+    "who are the enemies",
+    "who do we fight",
+    "darkspear raiders target"
+   ],
+   "answer": "The directive orders combatants to defeat the Darkspear Raiders who are maintaining a hostile presence and contesting territory across the islands.",
+   "q": "Who are the Darkspear Raiders?"
+  },
+  {
+   "aliases": [
+    "why rally forces",
+    "what is the goal",
+    "how to complete clash"
+   ],
+   "answer": "The conflict requires gathering and rallying allied forces to withstand sustained counterattacks and break the lines of the opposing raiders.",
+   "q": "Why must forces be rallied for this clash?"
+  },
+  {
+   "aliases": [
+    "why is there fighting",
+    "why conflict in islands",
+    "island battle cause"
+   ],
+   "answer": "Persistent unrest and rival raiding parties have kept the Darkspear Islands engulfed in an active, unresolved struggle for control.",
+   "q": "Why does the fight in the Darkspear Islands continue?"
+  },
+  {
+   "aliases": [
+    "who gives this quest",
+    "quest giver clash",
+    "clash commander"
+   ],
+   "answer": "The directive is issued by a field commander overseeing the assault, urging soldiers on the ground to push forward without wavering.",
+   "q": "Who directs the forces in this engagement?"
+  }
+ ],
+ "keywords": [
+  "clash",
+  "darkspear islands",
+  "darkspear raiders",
+  "islands conflict",
+  "rally",
+  "skirmish",
+  "troll raiders"
+ ],
+ "related": [
+  "zone:darkspearislands"
+ ],
+ "sections": [
+  {
+   "body": "The Darkspear Islands Clash represents an active military push within the contested Darkspear Islands. Forces deployed to the theater are urged to stand fast against waves of Darkspear Raiders who continue to wage skirmishes across the beaches and interior grounds. Rather than an isolated incident, the clash forms part of a sustained campaign to secure foothold territory in the archipelago.",
+   "spoiler": 0,
+   "title": "The Archipelago at War"
+  },
+  {
+   "body": "Commanders on the front line emphasize the necessity of organization and numbers to overcome the resilient raiders. Survival and victory depend upon rallying nearby allies into a cohesive force capable of withstanding counterattacks, routing fortified raiding bands, and breaking their grip over the disputed island strongholds.",
+   "spoiler": 0,
+   "title": "Rallying the Front Line"
+  }
+ ],
+ "summary": "Darkspear Islands Clash calls upon fighters to rally their companions and defeat the hostile Darkspear Raiders contesting the archipelago. The ongoing battle demands coordinated action to stem enemy incursions across the contested island chain.",
+ "attribution": [
+  "In-game quest text: Darkspear Islands Clash"
+ ]
+}

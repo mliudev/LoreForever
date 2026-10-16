@@ -51,6 +51,38 @@ end
 
 local function plain(s) return (tostring(s or ""):gsub("|c%x%x%x%x%x%x%x%x", ""):gsub("|r", "")) end
 
+-- Narration taken back (LOR-567): pack name -> the newest version of it that must not play. Releases stamp the core's
+-- version into every pack they ship, so an installed copy at or below it is the withdrawn recording, and a re-recorded
+-- edition (released later, so a higher version) plays again with no change here. Such a pack shows as paused in the
+-- voices list and never loads, so its language shows text. The Brazilian Portuguese narrators: the "male" voice was a
+-- woman, and both had a European accent. pipeline/tests/test_release_packs.py keeps each entry at or above the
+-- folder's .toc version while the pack is out of the release.
+Packs.WITHDRAWN = {
+  LoreForever_Voice_Default_ptBR = "0.18.0",
+  LoreForever_Voice_Female_ptBR = "0.18.0",
+}
+
+local function versionAtMost(v, upto)
+  local a, b = {}, {}
+  for n in tostring(v):gmatch("%d+") do a[#a + 1] = tonumber(n) end
+  for n in tostring(upto):gmatch("%d+") do b[#b + 1] = tonumber(n) end
+  for i = 1, math.max(#a, #b) do
+    local x, y = a[i] or 0, b[i] or 0
+    if x ~= y then return x < y end
+  end
+  return true
+end
+
+-- Whether this copy of a pack is a withdrawn edition. Before loading, a version the client can't read yet doesn't
+-- count (it's read again once loaded); once loaded, a pack on the list without a readable version counts.
+local function withdrawn(rec, loaded)
+  local upto = Packs.WITHDRAWN[rec.name]
+  if not upto then return false end
+  if not rec.version then return loaded and true or false end
+  return versionAtMost(rec.version, upto)
+end
+Packs.IsWithdrawn = withdrawn
+
 local function kindOf(name)
   -- Playback shards register their receipts on the source narrator, never their own voice writer.
   if meta(name, "X-LoreForever-Transport-For") or (name:sub(1, 18) == "LoreForever_Voice_" and name:find("_Transport_", 1, true)) then return "transport" end
@@ -89,6 +121,7 @@ local function describe(rec)
   rec.author = meta(n, "Author") or rec.author
   rec.title = plain(meta(n, "Title") or rec.title or n)
   if rec.format and rec.format > Packs.FORMAT then rec.loadable, rec.reason = false, "NEWER_FORMAT" end
+  if withdrawn(rec) then rec.loadable, rec.reason = false, "WITHDRAWN" end
   return rec
 end
 
@@ -140,6 +173,7 @@ function Packs.Load(name)
   end
   if Packs.data[name] and not (rec.format and rec.format > Packs.FORMAT) then return Packs.data[name] end
   if rec.format and rec.format > Packs.FORMAT then return nil, "NEWER_FORMAT" end
+  if withdrawn(rec) then return nil, "WITHDRAWN" end
   if InCombatLockdown and InCombatLockdown() then return nil, "COMBAT" end
   Packs.loading = name
   local loaded, reason = call("LoadAddOn", name)
@@ -153,6 +187,11 @@ function Packs.Load(name)
     Packs.data[name] = nil
     rec.loadable, rec.reason = false, "NEWER_FORMAT"
     return nil, "NEWER_FORMAT"
+  end
+  if withdrawn(rec, true) then   -- its version could only be read once loaded
+    Packs.data[name] = nil
+    rec.loadable, rec.reason = false, "WITHDRAWN"
+    return nil, "WITHDRAWN"
   end
   rec.loadable, rec.reason = true, nil
   if rec.dataVersion and ns.DB and ns.DB.version and rec.dataVersion ~= ns.DB.version and ns.debug then
@@ -235,6 +274,7 @@ local REASONS = {
   INCOMPATIBLE = function() return L["Not for this game version"] end,
   COMBAT = function() return L["Can't load during combat"] end,
   NO_DATA = function() return L["Didn't load: reinstall it"] end,
+  WITHDRAWN = function() return L["Paused"] end,   -- Packs.WITHDRAWN: its language shows text until a new recording
 }
 function Packs.ReasonText(reason)
   if not reason then return nil end

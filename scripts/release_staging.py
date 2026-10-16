@@ -6,13 +6,17 @@ unpublished runs stage into a draft; only complete, digest-verified outputs go l
 """
 import argparse
 import hashlib
+import http.client
 import json
 import os
 import re
 import shutil
 import subprocess
 import tempfile
+import threading
 import time
+import urllib.error
+import urllib.request
 import zipfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -20,7 +24,8 @@ from pathlib import Path
 from installer_inputs import CONTROLS, SELECTIONS, selected_archives
 import curseforge_voices as cv
 
-STAGE_WORKERS = 5   # side-by-side uploads to the draft release (stage --workers)
+STAGE_WORKERS = 5      # side-by-side uploads to the draft release (stage --workers)
+ARTIFACT_WORKERS = 6   # artifact entries fetched side by side, each straight from storage (receive)
 
 
 WILLO = 'Willo-Setup.exe'                  # Willo's own installer: optional, the release never waits on it
@@ -143,14 +148,49 @@ def prepare(args):
     print(json.dumps(outputs))
 
 
+def installer_inputs(args, candidate):
+    """The Windows job's inputs: the QA-tested zip, the download controls and every archive the three install checks
+    fetch, each matching the frozen download contract, which must be this tag's, source's and zip's."""
+    downloads = read(args.extras / CONTROLS[0])
+    if (downloads.get('releaseVersion'), downloads.get('sourceCommit'), downloads.get('candidateZipSha256')) != (
+            args.tag.removeprefix('v'), args.commit, candidate['sha256']):
+        raise Failure('Installer downloads differ from this tag/source/QA ZIP')
+    selected = selected_archives(downloads)
+    inputs = [candidate | {'name': 'LoreForever.zip'}]
+    for n in sorted(set(CONTROLS) | selected.keys()):
+        info = row(args.extras / n)
+        if n in selected and info['sha256'] != selected[n]:
+            raise Failure('Selected installer archive differs: ' + n)
+        inputs.append(info | {'name': 'extra/' + n})
+    return downloads, inputs
+
+
+def handover(args):
+    """The Windows job's inputs as soon as they're built, before the other narration packs (0.18.0's installer waited
+    4 minutes for those): the same files and contract bundle() makes from the full proof. linux-manifest --handover
+    then checks that the full build came to the same inputs."""
+    bound = binding(args)
+    candidate = row(args.core, 'LoreForever.zip')
+    _, inputs = installer_inputs(args, candidate)
+    write_inputs(inputs, [args.core, args.extras], args.output, bound, candidate['sha256'])
+    print(json.dumps({'handedOverFiles': len(inputs), 'handedOverBytes': sum(r['bytes'] for r in inputs)}))
+
+
 def linux_manifest(args):
     bound = binding(args)
     version = args.tag.removeprefix('v')
-    downloads = read(args.extras / CONTROLS[0])
     candidate = row(args.core, 'LoreForever.zip')
-    if (downloads.get('releaseVersion'), downloads.get('sourceCommit'), downloads.get('candidateZipSha256')) != (
-            version, args.commit, candidate['sha256']):
-        raise Failure('Installer downloads differ from this tag/source/QA ZIP')
+    downloads, inputs = installer_inputs(args, candidate)
+    # The installer's downloads are frozen once its own packs are built: a pack it calls unavailable that the
+    # release has after all was built after that, and the installer would leave it out.
+    for item in downloads.get('unavailable', []):
+        if 'archive' in item and (args.extras / name(item['archive'])).exists():
+            raise Failure('Installer downloads were frozen before ' + item['archive'] + ' was built')
+    if getattr(args, 'handover', None):
+        early = read(args.handover)
+        if (early.get('version'), early.get('binding'), early.get('files'), early.get('candidateZipSha256')) != (
+                1, bound, inputs, candidate['sha256']):
+            raise Failure('The installer inputs handed to Windows differ from the full build')
     archives = []
     for line in (args.extras / 'manifest.tsv').read_text().splitlines():
         fields = line.split('\t')
@@ -163,13 +203,6 @@ def linux_manifest(args):
         raise Failure('Release extras inventory differs from the built archives')
     files = {'LoreForever.zip': args.core, **{n: args.extras / n for n in archives},
              'transport-downloads.json': args.extras / CONTROLS[0]}
-    selected = selected_archives(downloads)
-    inputs = [candidate | {'name': 'LoreForever.zip'}]
-    for n in sorted(set(CONTROLS) | selected.keys()):
-        info = row(args.extras / n)
-        if n in selected and info['sha256'] != selected[n]:
-            raise Failure('Selected installer archive differs: ' + n)
-        inputs.append(info | {'name': 'extra/' + n})
     projects = [p for p in cv.load_config() if p.get('id') and not cv.language_project(p)]
     fingerprints = cv.source_fingerprints(projects, files, version)
     proof = {'version': 1, 'producer': 'linux', 'binding': bound, 'assets': [row(p, n) for n, p in sorted(files.items())],
@@ -280,23 +313,28 @@ def stage(args):
                       'serialRetries': len(failed)}))
 
 
-def bundle(args):
-    proof = read(args.manifest)
-    if proof['binding'] != binding(args) or args.output.exists():
+def write_inputs(rows, roots, output, bound, candidate_sha):
+    if output.exists():
         raise Failure('Bundle binding differs or destination already exists')
-    args.output.mkdir(parents=True)
-    for expected in proof['installerInputs']:
+    output.mkdir(parents=True)
+    for expected in rows:
         relative = expected['name']
         local = expected | {'name': relative.split('/')[-1]}
-        source = locate(args.root, local)
-        target = args.output / relative
+        source = locate(roots, local)
+        target = output / relative
         target.parent.mkdir(parents=True, exist_ok=True)
         try:
             os.link(source, target)
         except OSError:
             shutil.copyfile(source, target)
-    write(args.output / 'inputs.json', {'version': 1, 'binding': proof['binding'], 'files': proof['installerInputs'],
-                                       'candidateZipSha256': proof['candidateZipSha256']})
+    write(output / 'inputs.json', {'version': 1, 'binding': bound, 'files': rows, 'candidateZipSha256': candidate_sha})
+
+
+def bundle(args):
+    proof = read(args.manifest)
+    if proof['binding'] != binding(args):
+        raise Failure('Bundle binding differs or destination already exists')
+    write_inputs(proof['installerInputs'], args.root, args.output, proof['binding'], proof['candidateZipSha256'])
 
 
 def verify_inputs(folder, bound):
@@ -317,21 +355,172 @@ def verify_inputs(folder, bound):
     return contract
 
 
+class Unsafe(Failure):
+    pass
+
+
+def check_members(z):
+    seen = set()
+    for item in z.infolist():
+        parts = item.filename.rstrip('/').split('/')
+        if (not parts or any(not re.fullmatch(r'[A-Za-z0-9_.-]+', part) or '..' in part for part in parts)
+                or item.filename in seen or (item.external_attr >> 16) & 0o170000 == 0o120000):
+            raise Unsafe('Unsafe or duplicate artifact path')
+        seen.add(item.filename)
+
+
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *args, **kwargs):
+        return None
+
+
+def artifact_url(repo, artifact_id):
+    """The artifact zip's signed storage URL: the API answers with a redirect to it (good for about 10 minutes)."""
+    token = os.environ.get('GH_TOKEN') or os.environ.get('GITHUB_TOKEN')
+    if not token:
+        raise Failure('No token for the artifact API')
+    api_url = os.environ.get('GITHUB_API_URL', 'https://api.github.com').rstrip('/')
+    request = urllib.request.Request(f'{api_url}/repos/{repo}/actions/artifacts/{artifact_id}/zip', headers={
+        'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json'})
+    try:
+        urllib.request.build_opener(_NoRedirect).open(request, timeout=60).close()
+    except urllib.error.HTTPError as answer:
+        location = answer.headers.get('Location', '')
+        if answer.code in (301, 302, 303, 307, 308) and location.startswith('https://'):
+            return location
+        raise Failure(f'The artifact API answered HTTP {answer.code}') from None
+    raise Failure('The artifact API gave no download location')
+
+
+class RemoteZip:
+    """The artifact's zip, read where it is stored, for zipfile: seeks are free, and reads that follow one another
+    share one HTTP range response, so each entry streams in a single request."""
+
+    def __init__(self, url, size=None):
+        self.url, self.size, self.pos, self.response, self.at = url, size, 0, None, None
+        if size is None:
+            self.size = self._open(0, 0)
+            self.drop()
+
+    def _open(self, start, end=''):
+        """Open bytes start..end (to the blob's end without one); answers the blob's size."""
+        self.drop()
+        response = urllib.request.urlopen(urllib.request.Request(self.url, headers={'Range': f'bytes={start}-{end}'}),
+                                          timeout=60)
+        found = re.fullmatch(r'bytes (\d+)-\d+/(\d+)', response.headers.get('Content-Range') or '')
+        if response.status != 206 or not found or int(found[1]) != start or (
+                self.size is not None and int(found[2]) != self.size):
+            response.close()
+            raise Failure('Artifact storage answered a range request with something else')
+        self.response, self.at = response, start
+        return int(found[2])
+
+    def drop(self):
+        if self.response is not None:
+            self.response.close()
+        self.response = None
+
+    def seekable(self):
+        return True
+
+    def tell(self):
+        return self.pos
+
+    def seek(self, offset, whence=0):
+        self.pos = (offset, self.pos + offset, self.size + offset)[whence]
+        return self.pos
+
+    def read(self, n=-1):
+        n = self.size - self.pos if n is None or n < 0 else min(n, self.size - self.pos)
+        if n <= 0:
+            return b''
+        if self.response is None or self.at != self.pos:
+            self._open(self.pos)
+        data = self.response.read(n)
+        if not data:
+            raise Failure('Artifact download ended early')
+        self.pos += len(data)
+        self.at = self.pos
+        return data
+
+    def close(self):
+        self.drop()
+
+
+def fetch_in_place(repo, artifact_id, output, workers=ARTIFACT_WORKERS):
+    """Every entry of the artifact straight from storage into output, several side by side, biggest first: no 2.4 GB
+    download into one stream, no copy of it to unzip (0.18.0's installer took 2.6 minutes for that). zipfile checks
+    each entry's CRC-32 as it streams; verify_inputs() then checks every file's SHA-256."""
+    url = artifact_url(repo, artifact_id)
+    first = RemoteZip(url)
+    with zipfile.ZipFile(first) as z:
+        check_members(z)
+        entries = sorted(z.infolist(), key=lambda item: -item.file_size)
+    first.close()
+    output.mkdir(parents=True)
+    queue = list(entries)
+    lock, failed = threading.Lock(), threading.Event()
+
+    def worker():
+        remote = RemoteZip(url, first.size)
+        try:
+            with zipfile.ZipFile(remote) as z:
+                while True:
+                    with lock:
+                        if not queue or failed.is_set():   # one gave up: the whole zip goes instead, so stop here
+                            return
+                        item = queue.pop(0)
+                    target = output.joinpath(*item.filename.rstrip('/').split('/'))
+                    if item.is_dir():
+                        target.mkdir(parents=True, exist_ok=True)
+                        continue
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    for attempt in range(3):   # a dropped connection: that entry again, from a fresh storage URL
+                        try:
+                            with z.open(item.filename) as source, target.open('wb') as stream:
+                                shutil.copyfileobj(source, stream, 4 * 1024 * 1024)
+                            break
+                        except (OSError, http.client.HTTPException, zipfile.BadZipFile, EOFError, Failure):
+                            remote.drop()
+                            if attempt == 2:
+                                raise
+                            time.sleep(1 + attempt)
+                            remote.url = artifact_url(repo, artifact_id)
+                    remote.drop()   # the rest of that response is the next entries'
+        except BaseException:
+            failed.set()
+            raise
+        finally:
+            remote.close()
+
+    with ThreadPoolExecutor(max(1, min(workers, len(entries)))) as pool:
+        for future in [pool.submit(worker) for _ in range(max(1, min(workers, len(entries))))]:
+            future.result()
+    return sum(item.file_size for item in entries)
+
+
 def extract_artifact(repo, artifact_id, output):
     if output.exists():
         raise Failure('Artifact destination already exists')
+    started = time.monotonic()
+    try:
+        size = fetch_in_place(repo, artifact_id, output)
+        print(f'fetched artifact {artifact_id} in place: {size} bytes in {time.monotonic() - started:.0f}s', flush=True)
+        return
+    except Unsafe:
+        shutil.rmtree(output, ignore_errors=True)
+        raise
+    except Exception as error:   # noqa: BLE001 - whatever went wrong in transit, the whole zip below goes again
+        shutil.rmtree(output, ignore_errors=True)
+        last = (str(error).strip().splitlines() or [type(error).__name__])[-1]
+        print(f'fetching artifact {artifact_id} in place failed ({type(error).__name__}: {last}); downloading the '
+              'whole zip instead', flush=True)
     with tempfile.TemporaryDirectory() as tmp:
         archive = Path(tmp) / 'artifact.zip'
         with archive.open('wb') as stream:
             run('api', f'repos/{repo}/actions/artifacts/{artifact_id}/zip', binary=stream)
         with zipfile.ZipFile(archive) as z:
-            seen = set()
-            for item in z.infolist():
-                parts = item.filename.rstrip('/').split('/')
-                if (not parts or any(not re.fullmatch(r'[A-Za-z0-9_.-]+', part) or '..' in part for part in parts)
-                        or item.filename in seen or (item.external_attr >> 16) & 0o170000 == 0o120000):
-                    raise Failure('Unsafe or duplicate artifact path')
-                seen.add(item.filename)
+            check_members(z)
             z.extractall(output)
 
 
@@ -554,6 +743,10 @@ def main():
     linux.add_argument('--core', type=Path, required=True)
     linux.add_argument('--extras', type=Path, required=True)
     linux.add_argument('--output', type=Path, required=True)
+    linux.add_argument('--handover', type=Path, help="the inputs.json handover wrote: the full build must agree")
+    p = sub.add_parser('handover')
+    for key in ('core', 'extras', 'output'):
+        p.add_argument('--' + key, type=Path, required=True)
     for command in ('bundle', 'stage'):
         p = sub.add_parser(command)
         p.add_argument('--manifest', type=Path, required=True)
@@ -563,7 +756,7 @@ def main():
     p = sub.add_parser('receive')
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--timeout', type=float, default=1800)
-    p.add_argument('--interval', type=float, default=10)
+    p.add_argument('--interval', type=float, default=5)
     p = sub.add_parser('installer-manifest')
     for key in ('inputs', 'setup', 'signature', 'smoke', 'output'):
         p.add_argument('--' + key, type=Path, required=True)
@@ -587,7 +780,7 @@ def main():
     try:
         if not args.repo or not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', args.repo):
             raise Failure('Require a repository')
-        {'prepare': prepare, 'linux-manifest': linux_manifest, 'bundle': bundle, 'stage': stage,
+        {'prepare': prepare, 'linux-manifest': linux_manifest, 'handover': handover, 'bundle': bundle, 'stage': stage,
          'receive': receive, 'legacy-receive': legacy_receive, 'installer-manifest': installer_manifest,
          'willo-manifest': willo_manifest, 'finalize': finalize}[args.command](args)
     except (Failure, OSError, ValueError, KeyError, TypeError, zipfile.BadZipFile) as error:

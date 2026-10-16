@@ -3,6 +3,8 @@
      here when it's a public page players should find; leave out noindex pages (contribute, account, admin). -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://loreforeverwow.com/</loc></url>
+  <url><loc>https://loreforeverwow.com/willo</loc></url>
+  <url><loc>https://loreforeverwow.com/plans</loc></url>
   <url><loc>https://loreforeverwow.com/downloads</loc></url>
   <url><loc>https://loreforeverwow.com/whats-new</loc></url>
   <url><loc>https://loreforeverwow.com/faq</loc></url>

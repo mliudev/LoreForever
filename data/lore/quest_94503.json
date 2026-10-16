@@ -1,0 +1,107 @@
+{
+ "key": "quest:94503",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94503
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Communing with primal elements and cleansing tainted water spirits is a foundational rite of the elements, reminding shamans of their eternal duty to balance nature."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The manifestation resides along the coasts of Westfall, an Alliance territory where local spirits endure the creeping blight touching the land."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is call of water",
+    "call of water westfall",
+    "westfall water quest"
+   ],
+   "answer": "Call of Water is a spiritual trial in Westfall where corrupt spirits are banished through invocations of the Light, freeing the troubled waters and allowing communion with a Minor Manifestation of Water.",
+   "q": "What is Call of Water?"
+  },
+  {
+   "aliases": [
+    "where is the minor manifestation of water",
+    "manifestation location",
+    "water spirit westfall"
+   ],
+   "answer": "The Minor Manifestation of Water is located in Westfall. It appears once the surrounding corrupt spirits are subdued and dispelled, waiting to speak with those who aided the waters.",
+   "q": "Where can the Minor Manifestation of Water be found?"
+  },
+  {
+   "aliases": [
+    "what happens during ritual",
+    "corrupt spirits call of water"
+   ],
+   "answer": "As the incantation concludes, brilliant Light erupts to disperse the corrupt spirits, causing their tainted essence to unravel and scatter like ash while water hisses into gentle mist.",
+   "q": "What happens when the corrupted spirits are cleansed?"
+  },
+  {
+   "aliases": [
+    "is corruption gone",
+    "did we save the water"
+   ],
+   "answer": "The immediate corruption is beaten back and ebbs away, but the elemental warns that vitality continues to wane, leaving the enduring protection of life in mortal hands.",
+   "q": "Is the land fully restored after completing the task?"
+  },
+  {
+   "aliases": [
+    "who can do call of water",
+    "class requirement water quest"
+   ],
+   "answer": "The quest recognizes the player's calling, giving thanks to their class for stepping forward to cleanse the spirits and shoulder the responsibility of protecting dwindling life.",
+   "q": "Who is called upon to assist the manifestation?"
+  },
+  {
+   "aliases": [
+    "why is water corrupted westfall",
+    "westfall water problem"
+   ],
+   "answer": "Corrupt spirits have disturbed the natural waters along Westfall. Although the precise origin of the taint remains subtle, their malevolent presence directly saps the living vitality of the area.",
+   "q": "Why were the water spirits corrupted in Westfall?"
+  }
+ ],
+ "keywords": [
+  "call of water",
+  "cleansing",
+  "corruption",
+  "elemental",
+  "minor manifestation of water",
+  "water spirit",
+  "westfall"
+ ],
+ "related": [
+  "npc:minor-manifestation-of-water",
+  "zone:westfall",
+  "topic:light",
+  "quest:938"
+ ],
+ "sections": [
+  {
+   "body": "In the windswept lands of Westfall, the natural balance of the waters faces contamination by corrupt spirits. The rite known as the Call of Water requires confronting this malevolence, invoking sacred words that conjure radiant Light to disperse the restless, tainted essences into harmless ash and quiet mist.",
+   "spoiler": 0,
+   "title": "Cleansing the Tainted Waters"
+  },
+  {
+   "body": "With the corrupt entities driven back, a Minor Manifestation of Water can safely emerge to commune. While the immediate corruption ebbs, the spirit cautions that the vital energies of the land continue to wane, reminding champions that preserving life is an unending vigil.",
+   "spoiler": 0,
+   "title": "The Spirit's Warning"
+  }
+ ],
+ "summary": "Call of Water is a quest centered in Westfall that tasks adventurers with purifying corrupted elemental forces. By unraveling restless spirits with radiant Light, players commune with a Minor Manifestation of Water to safeguard the region's dwindling vitality.",
+ "attribution": [
+  "In-game quest text: Call of Water"
+ ]
+}

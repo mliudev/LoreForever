@@ -1,24 +1,24 @@
 {
- "generated": "2026-10-14",
+ "generated": "2026-10-15",
  "forever_only": {
-  "quests_known": 216,
-  "quests_with_text": 186,
-  "narrated": 114,
+  "quests_known": 232,
+  "quests_with_text": 209,
+  "narrated": 111,
   "npcs_known": 223,
-  "npcs_with_text": 28
+  "npcs_with_text": 51
  },
  "zones": [
   {
    "zone": "Other",
    "key": "general",
-   "quests": 90,
-   "with_text": 79,
+   "quests": 110,
+   "with_text": 102,
    "narrated": 9
   },
   {
    "zone": "Tirisfal Glades",
    "key": "tirisfal",
-   "quests": 30,
+   "quests": 26,
    "with_text": 14,
    "narrated": 14
   },
@@ -41,7 +41,7 @@
    "key": "westfall",
    "quests": 12,
    "with_text": 12,
-   "narrated": 12
+   "narrated": 9
   },
   {
    "zone": "Dun Morogh",
@@ -166,13 +166,6 @@
  "wanted": [
   {
    "kind": "quest",
-   "id": 99144,
-   "name": "Seeking Refuge",
-   "zone": "Tirisfal Glades",
-   "level": 7
-  },
-  {
-   "kind": "quest",
    "id": 91282,
    "name": "A Second Home",
    "zone": "Tirisfal Glades",
@@ -264,27 +257,6 @@
   },
   {
    "kind": "quest",
-   "id": 96898,
-   "name": "Remnants of War",
-   "zone": "Tirisfal Glades",
-   "level": 13
-  },
-  {
-   "kind": "quest",
-   "id": 96895,
-   "name": "The Argent Emissary",
-   "zone": "Tirisfal Glades",
-   "level": 13
-  },
-  {
-   "kind": "quest",
-   "id": 96897,
-   "name": "The Cult of the Damned",
-   "zone": "Tirisfal Glades",
-   "level": 13
-  },
-  {
-   "kind": "quest",
    "id": 97891,
    "name": "Prompt Potion Runner",
    "zone": "Undercity",
@@ -296,13 +268,6 @@
    "name": "Thundering Hearts",
    "zone": "Undercity",
    "level": 33
-  },
-  {
-   "kind": "quest",
-   "id": 97223,
-   "name": "Bloodtalon Matriarch",
-   "zone": "Other",
-   "level": null
   },
   {
    "kind": "quest",
@@ -320,22 +285,15 @@
   },
   {
    "kind": "quest",
-   "id": 96822,
-   "name": "For Honor",
+   "id": 98896,
+   "name": "Darkspear Islands Clash",
    "zone": "Other",
    "level": null
   },
   {
    "kind": "quest",
-   "id": 97225,
-   "name": "Forgotten Loa Idols",
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
-   "id": 96821,
-   "name": "Legging It",
+   "id": 99123,
+   "name": "Lost in the Shadows",
    "zone": "Other",
    "level": null
   },
@@ -357,13 +315,6 @@
    "kind": "quest",
    "id": 98391,
    "name": "The Sisterhood of Elune",
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
-   "id": 96825,
-   "name": "This Fruit Could Bite Back",
    "zone": "Other",
    "level": null
   },
@@ -397,13 +348,6 @@
   },
   {
    "kind": "npc",
-   "id": 251376,
-   "name": "Tai'ree Farsight",
-   "zone": "Zephras Isle",
-   "level": 2
-  },
-  {
-   "kind": "npc",
    "id": 251374,
    "name": "Windshaper Boro",
    "zone": "Zephras Isle",
@@ -418,22 +362,8 @@
   },
   {
    "kind": "npc",
-   "id": 246152,
-   "name": "Shari Stilwell",
-   "zone": "Tirisfal Glades",
-   "level": 4
-  },
-  {
-   "kind": "npc",
    "id": 251363,
    "name": "Dalia the Collector",
-   "zone": "Zephras Isle",
-   "level": 4
-  },
-  {
-   "kind": "npc",
-   "id": 251371,
-   "name": "Falorne Fallwind",
    "zone": "Zephras Isle",
    "level": 4
   },
@@ -450,27 +380,6 @@
    "name": "Aetheen of the Gales",
    "zone": "Zephras Isle",
    "level": 5
-  },
-  {
-   "kind": "npc",
-   "id": 263399,
-   "name": "Sam Sarsaparilla",
-   "zone": "Elwynn Forest",
-   "level": 6
-  },
-  {
-   "kind": "npc",
-   "id": 265812,
-   "name": "Eleanor Shackleton",
-   "zone": "Tirisfal Glades",
-   "level": 7
-  },
-  {
-   "kind": "npc",
-   "id": 254082,
-   "name": "Aarnor Galestrike",
-   "zone": null,
-   "level": null
   },
   {
    "kind": "npc",
@@ -523,13 +432,6 @@
   },
   {
    "kind": "npc",
-   "id": 254088,
-   "name": "Corsan Earthrazer",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 185403,
    "name": "Cyriden Farseeker",
    "zone": null,
@@ -553,20 +455,6 @@
    "kind": "npc",
    "id": 251364,
    "name": "Destin Thriceforged",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 254084,
-   "name": "Elayaa Easewind",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 258098,
-   "name": "Eldrun Stormbreaker",
    "zone": null,
    "level": null
   },
@@ -600,13 +488,6 @@
   },
   {
    "kind": "npc",
-   "id": 257021,
-   "name": "Halassa Fernbreeze",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 258113,
    "name": "Ingrid Dunwald",
    "zone": null,
@@ -635,20 +516,6 @@
   },
   {
    "kind": "npc",
-   "id": 257022,
-   "name": "Messana Crestwind",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 254081,
-   "name": "Naeluna Swiftmend",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 247223,
    "name": "Nancy Songflower",
    "zone": null,
@@ -656,22 +523,8 @@
   },
   {
    "kind": "npc",
-   "id": 257020,
-   "name": "Nasalanna Windsinger",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 268238,
    "name": "Nordun Steadysight",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 257019,
-   "name": "Nyassa Swiftdraught",
    "zone": null,
    "level": null
   },
@@ -686,13 +539,6 @@
    "kind": "npc",
    "id": 275491,
    "name": "Randal Emerson",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 251903,
-   "name": "Rathiril Sunlance",
    "zone": null,
    "level": null
   },
@@ -726,20 +572,6 @@
   },
   {
    "kind": "npc",
-   "id": 267337,
-   "name": "Sally Swiftwrench",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 254086,
-   "name": "Shenaan Spellwind",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 228609,
    "name": "Sulfuron Smuggler",
    "zone": null,
@@ -763,13 +595,6 @@
    "kind": "npc",
    "id": 254358,
    "name": "Veena Vericloud",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 265944,
-   "name": "William Pickman",
    "zone": null,
    "level": null
   },

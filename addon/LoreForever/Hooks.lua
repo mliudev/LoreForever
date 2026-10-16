@@ -944,7 +944,7 @@ end
 -- Chat links -------------------------------------------------------------------------------------------------------
 
 -- A clickable chat link. kind: "faq" (key + idx), "entry" (key), "primer" (zone key), "listen" (key), "open",
--- "whatsnew".
+-- "whatsnew", "key" (the key prompt for key: "toggle", "narrate" or "willo").
 function Hooks.Link(text, kind, key, idx)
   if ns.lang and ns.lang.edition then
     -- Primers carry a bare zone key.
@@ -975,7 +975,8 @@ function Hooks.HandleLink(link)
   elseif kind == "primer" then ns.UI.ShowPrimer(key, "chatlink")
   elseif kind == "listen" then ns.UI.ListenTo(ns.UI.EntryTarget(key))
   elseif kind == "open" then ns.UI.Open(nil, nil, "chatlink")
-  elseif kind == "whatsnew" then ns.WhatsNew.Show() end
+  elseif kind == "whatsnew" then ns.WhatsNew.Show()
+  elseif kind == "key" and Hooks.KeyActions[key] then Hooks.KeyPrompt(key):Show() end
   return true
 end
 
@@ -993,8 +994,17 @@ end
 local MODIFIER = { LSHIFT = true, RSHIFT = true, LCTRL = true, RCTRL = true, LALT = true, RALT = true,
   LMETA = true, RMETA = true }
 
--- The two bindable actions: open the panel, and play the narration for what you hover or where you are.
--- Their texts are looked up when shown, after the language pack has loaded.
+-- The keys Willo can hear from outside the game (companion/lore_companion/talk/ptt.py WOW_KEYS), with no Shift, Ctrl
+-- or Alt: Ask Willo on any other key would show the sky while she never hears the question.
+local WILLO_KEYS = { BUTTON3 = true, BUTTON4 = true, BUTTON5 = true, ["`"] = true, CAPSLOCK = true, SCROLLLOCK = true,
+  PAUSE = true, INSERT = true, HOME = true, PAGEUP = true, PAGEDOWN = true }
+for n = 5, 24 do WILLO_KEYS["F" .. n] = true end
+-- The mouse buttons the prompt takes for Willo's key (the side buttons and the middle one), as the game names them.
+local MOUSE_KEYS = { MiddleButton = "BUTTON3", Button4 = "BUTTON4", Button5 = "BUTTON5" }
+
+-- The bindable actions: open the panel, play the narration for what you hover or where you are, and the key you hold
+-- to talk to Willo (Ask Willo, Strip.Ask; /lore key willo when Willo's own talk key does something else in the game,
+-- LOR-528: only a key she can hear, `takes`). Their texts are looked up when shown, after the language pack has loaded.
 local ACTIONS = {
   toggle = {
     binding = "LOREFOREVER_TOGGLE",
@@ -1010,7 +1020,24 @@ local ACTIONS = {
       return string.format(L["press %s to hear the narration for where you are or what you hover. Change it any time with /lore key narrate."], key)
     end,
   },
+  willo = {
+    binding = "LOREFOREVER_ASKWILLO",
+    ask = function()
+      return string.format(L["Pick the key you hold to talk to %s: an F key (F5 and up) or a mouse side button."],
+        ns.COMPANION_NAME)
+    end,
+    takes = function(combo) return WILLO_KEYS[combo] == true end,
+    refused = function()
+      return string.format(L["%s can't hear that key from outside the game. Pick an F key (F5 and up) or a mouse side button."],
+        ns.COMPANION_NAME)
+    end,
+    mouse = true,
+    done = function(key)
+      return string.format(L["hold %s to talk to %s. Change it any time with /lore key willo."], key, ns.COMPANION_NAME)
+    end,
+  },
 }
+Hooks.KeyActions = ACTIONS
 
 function Hooks.CurrentKey(which)
   return GetBindingKey and GetBindingKey(ACTIONS[which or "toggle"].binding)
@@ -1025,6 +1052,7 @@ local function bind(combo, which)
   local old = Hooks.CurrentKey(which)
   if old and old ~= combo then SetBinding(old) end
   SetBinding(combo, a.binding)
+  if which == "willo" then S().askWilloOwn = combo end   -- theirs: Willo's next talk key is bound beside it (Strip)
   -- The player picked this key, so it's saved, but only into bindings WoW has really loaded (Core.lua).
   if SaveBindings and GetCurrentBindingSet and ns.BindingsReady and ns.BindingsLoaded and ns.BindingsLoaded() then
     SaveBindings(GetCurrentBindingSet())
@@ -1037,7 +1065,7 @@ local function bind(combo, which)
   return true
 end
 
--- which: "toggle" (default) or "narrate".
+-- which: "toggle" (default), "narrate" or "willo".
 function Hooks.KeyPrompt(which)
   which = which or "toggle"
   if Hooks.keyFrame then
@@ -1095,11 +1123,17 @@ function Hooks.KeyPrompt(which)
     S().onboarded = true
     f:Hide()
   end)
-  f:SetScript("OnKeyDown", function(self, key)
+  local function press(self, key)
     if not self.capturing or MODIFIER[key] then return end
     if key == "ESCAPE" then return idle() end
     local combo = (IsAltKeyDown() and "ALT-" or "") .. (IsControlKeyDown() and "CTRL-" or "")
       .. (IsShiftKeyDown() and "SHIFT-" or "") .. key
+    local a = ACTIONS[self.which]
+    if a.takes and not a.takes(combo) then   -- not a key it can use: say why, and keep listening
+      self.pending = nil
+      text:SetText(a.refused() .. "\n" .. L["Escape to cancel."])
+      return
+    end
     local action = GetBindingAction and GetBindingAction(combo) or ""
     if action ~= "" and action ~= ACTIONS[self.which].binding and self.pending ~= combo then
       self.pending = combo
@@ -1112,6 +1146,12 @@ function Hooks.KeyPrompt(which)
       if self.which == "toggle" then S().onboarded = true end
       self:Hide()
     end
+  end
+  f:SetScript("OnKeyDown", press)
+  -- Willo's key can be a mouse button: a click on the prompt while it listens (the other prompts take keys only).
+  if f.EnableMouse then f:EnableMouse(true) end
+  f:SetScript("OnMouseDown", function(self, button)
+    if self.capturing and ACTIONS[self.which].mouse and MOUSE_KEYS[button] then press(self, MOUSE_KEYS[button]) end
   end)
   f:SetScript("OnShow", idle)
   f:Hide()

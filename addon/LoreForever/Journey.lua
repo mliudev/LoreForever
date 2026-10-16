@@ -129,18 +129,36 @@ function Journey.PictureShortcutsOn()
 end
 
 -- Offer a free default only: a player's existing picture binding and every other action's binding take precedence.
--- A book switched off never removes a player's saved binding.
+-- A book switched off never removes a player's saved binding. Never saved (Core.lua), so it's offered at every login;
+-- and as with Ask Willo (Strip.OfferAskKey), again whenever bindings change, on entering the world, after combat and 5
+-- and 12 s after the first try: WoW loading the saved bindings late, or Core.lua's repair of a character set 10 s in,
+-- undid a single try and left the key gone for the session (LOR-537). Once the first minute has passed, a key the
+-- player clears themselves stays cleared.
+local PICTURE, PICTURE_SETTLE, PICTURE_HINT_AFTER = "LOREFOREVER_PICTURE", 60, 11
+local pictureFirst, pictureOffered
+local function clock() return (GetTime and GetTime()) or 0 end
 function Journey.OfferPictureKey()
   if not ns.BindingsReady then return end          -- not before WoW has loaded the saved bindings (Core.lua)
+  if not pictureFirst then                         -- the first try once they're in: try again shortly too
+    pictureFirst = clock()
+    if C_Timer and C_Timer.After then
+      C_Timer.After(5, Journey.OfferPictureKeyHint)
+      C_Timer.After(12, Journey.OfferPictureKeyHint)   -- under 15 s: a short retry, not a long-lived timer
+    end
+  end
   if not Journey.PictureShortcutsOn() or try(InCombatLockdown) or type(GetBindingKey) ~= "function"
       or type(GetBindingAction) ~= "function" or type(SetBinding) ~= "function" then return end
-  local existing = try(GetBindingKey, "LOREFOREVER_PICTURE")
+  local existing = try(GetBindingKey, PICTURE)
   if existing then return existing end
+  if pictureOffered and clock() - pictureFirst > PICTURE_SETTLE then return end   -- they cleared it: theirs
   for _, key in ipairs({ "F12", "SHIFT-F12" }) do
     local action = try(GetBindingAction, key)
     if action == "" then
-      local ok, bound = pcall(SetBinding, key, "LOREFOREVER_PICTURE")
-      if ok and bound ~= false then return key end   -- never saved: offered again at the next login (Core.lua)
+      local ok, bound = pcall(SetBinding, key, PICTURE)
+      if ok and bound ~= false then   -- never saved: offered again at the next login (Core.lua)
+        pictureOffered = key
+        return key
+      end
     end
   end
 end
@@ -562,14 +580,24 @@ function Journey.Init()
 end
 
 -- Identify the usable key when it changes, including a player's own binding; unchanged reloads stay quiet. Runs once
--- the saved bindings are in (Core.lua's bindingsReady), and at login when they already are (a /reload).
+-- the saved bindings are in (Core.lua's bindingsReady), at each retry above and when bindings change. Said only once
+-- they've settled (the 12 s try or later, with the player's own keys loaded), so it never names a key a late load
+-- clears a moment after.
 function Journey.OfferPictureKeyHint()
   local key = Journey.OfferPictureKey()
+  if not (pictureFirst and clock() - pictureFirst >= PICTURE_HINT_AFTER and ns.BindingsLoaded
+      and ns.BindingsLoaded()) then return end
   if key and settings().pictureKeyHint ~= key then
     settings().pictureKeyHint = key
     say(string.format(L["Press %s or Ctrl-click the minimap book to take a journey picture. Change the key in Key Bindings > AddOns."], esc(key)))
   end
 end
+
+local pictureBinder = CreateFrame("Frame")
+for _, e in ipairs({ "PLAYER_ENTERING_WORLD", "UPDATE_BINDINGS", "PLAYER_REGEN_ENABLED" }) do
+  pcall(pictureBinder.RegisterEvent, pictureBinder, e)
+end
+pictureBinder:SetScript("OnEvent", function() pcall(Journey.OfferPictureKeyHint) end)
 
 -- "Remember my journey" was switched on in Options: start recording from here.
 function Journey.OnToggle()
@@ -2156,7 +2184,7 @@ do
       Journey.archiveNote:SetShown(ns.HistoryArchive and ns.HistoryArchive.On() and true or false)
       Journey.archiveNote:SetScript("OnEnter", function(self)
         GameTooltip:SetOwner(self, "ANCHOR_TOP")
-        ns.Theme.Tip(L["History includes play since your last save. The game saves on /reload or logout; the companion archives that save. Its receipt is read on a later reload. While the companion is offline, unarchived history grows and nothing is discarded. Older coverage may be incomplete."], "tipText", true)
+        ns.Theme.Tip(string.format(L["History includes play since your last save. The game saves on /reload or logout, and %s keeps that save on this PC; the game hears she has it at a later reload. While %s isn't running, history waits here and nothing is lost. Older history may be incomplete."], ns.COMPANION_NAME, ns.COMPANION_NAME), "tipText", true)
         GameTooltip:Show()
       end)
       Journey.archiveNote:SetScript("OnLeave", function() GameTooltip:Hide() end)

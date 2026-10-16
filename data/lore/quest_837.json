@@ -1,0 +1,115 @@
+{
+ "key": "quest:837",
+ "type": "quest",
+ "name": "Encroachment",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   837
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Securing Durotar from the native Razormane quilboar is vital to establishing a safe permanent homeland for the nascent Horde."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Having claimed Durotar as their new sovereign land, the orcs view the lingering Razormane bramble dens as an unacceptable threat to their settlements."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives encroachment",
+    "where to get encroachment",
+    "encroachment questgiver"
+   ],
+   "answer": "The quest is given by Gar'Thok, an orc officer stationed at Razor Hill in central Durotar.",
+   "q": "Who gives the quest Encroachment?"
+  },
+  {
+   "aliases": [
+    "why fight quilboar durotar",
+    "why attack razormane",
+    "quilboar conflict durotar"
+   ],
+   "answer": "When the orcs arrived in Durotar, the Razormane quilboar held much of the region. Although the Horde pushed most of them back, fortified pockets remain west of Razor Hill, threatening the safety and borders of the new orc homeland.",
+   "q": "Why is the Horde fighting the Razormane quilboar in Durotar?"
+  },
+  {
+   "aliases": [
+    "where are the quilboar camps",
+    "how to find razormane camps",
+    "encroachment location"
+   ],
+   "answer": "The Razormane encampments lie to the west of Razor Hill. You can easily spot their territory by looking for dense tangles of thorny brambles.",
+   "q": "Where are the Razormane camps located?"
+  },
+  {
+   "aliases": [
+    "who are the razormane",
+    "razormane lore",
+    "what is razormane"
+   ],
+   "answer": "The Razormane are a hostile tribe of quilboar native to the arid plains of Kalimdor. They build defensive bramble dens and fiercely resist the Horde's settlement of Durotar and the Barrens.",
+   "q": "Who are the Razormane?"
+  },
+  {
+   "aliases": [
+    "what happens after encroachment",
+    "encroachment turn in",
+    "fate of quilboar camps"
+   ],
+   "answer": "Upon turning in the quest, Gar'Thok sends word to burn down the cleared quilboar brambles and structures, cementing Horde control over the area and securing Durotar's borders.",
+   "q": "What happens once the quilboar are defeated?"
+  },
+  {
+   "aliases": [
+    "where is razor hill",
+    "what is razor hill"
+   ],
+   "answer": "Razor Hill is a fortified orc settlement in central Durotar that serves as a military and logistical hub between the Valley of Trials and Orgrimmar.",
+   "q": "What is Razor Hill's role in this conflict?"
+  }
+ ],
+ "keywords": [
+  "brambles",
+  "durotar",
+  "encroachment",
+  "gar'thok",
+  "quilboar",
+  "razor hill",
+  "razormane"
+ ],
+ "related": [
+  "npc:gar-thok",
+  "subzone:razor-hill",
+  "topic:quilboar",
+  "zone:durotar"
+ ],
+ "sections": [
+  {
+   "body": "When Thrall led the orcs to Kalimdor and founded Durotar, they found much of the harsh, arid land already inhabited by the Razormane quilboar. These aggressive, boar-like creatures proved a constant thorn in the side of the new settlement. Through sustained military efforts, the Horde drove back the bulk of their numbers, yet fortified pockets of Razormane continue to cling stubbornly to their thorned redoubts west of Razor Hill.",
+   "spoiler": 0,
+   "title": "A Thorn in Durotar's Side"
+  },
+  {
+   "body": "Gar'Thok, an officer stationed at Razor Hill, oversees the effort to purge the lingering Razormane threat once and for all. He tasks seasoned defenders with striking directly into the western bramble camps to eliminate their scouts, warriors, and dustrunners. For Gar'Thok and the Horde leadership, allowing the quilboar any foothold near Razor Hill invites disaster, and striking them here is seen as the first step toward securing Kalimdor.",
+   "spoiler": 0,
+   "title": "Gar'Thok's Offensive"
+  },
+  {
+   "body": "Eliminating the quilboar defenders clears the path for Horde forces to torch the bramble dens, preventing the Razormane from reclaiming the western foothills. By burning these structures to the ground, the Horde removes an enduring menace and secures the western perimeter of Durotar, safeguarding vital supply roads between Razor Hill and the wider realm.",
+   "spoiler": 0,
+   "title": "Clearing the Brambles"
+  }
+ ],
+ "summary": "Encroachment is a Horde quest directed by Gar'Thok at Razor Hill in central Durotar. It charges champions with striking deep into the western bramble dens to eliminate the entrenched Razormane quilboar threatening the borders of the young orc nation.",
+ "attribution": [
+  "In-game quest text: Encroachment"
+ ]
+}

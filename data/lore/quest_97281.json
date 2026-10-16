@@ -1,0 +1,114 @@
+{
+ "key": "quest:97281",
+ "type": "quest",
+ "name": "A Simmering Storm",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97281
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Horde adventurers aiding the goblin Rezlak near Drygulch Ravine help secure mysterious magical artifacts recovered from hostile harpies threatening Durotar's canyons."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The miniature electrical storm contained within the orb mirrors primal elemental forces, though harnessing it in this crude vessel raises questions about the harpies' methods."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Tinkers and engineers like Rezlak are naturally drawn to odd curiosities that spark with erratic electrical charges and swirling internal mists."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is dull stormy orb",
+    "stormy orb",
+    "orb from harpies"
+   ],
+   "answer": "The Dull Stormy Orb is a curious magical curio recovered from a harpy in Durotar. Despite its dull exterior, it buzzes with a faint electrical current, swirling dark mist, and periodic sparks contained within.",
+   "q": "What is the Dull Stormy Orb?"
+  },
+  {
+   "aliases": [
+    "who takes dull stormy orb",
+    "turn in stormy orb",
+    "where to bring orb"
+   ],
+   "answer": "The orb is brought to Rezlak, a goblin scout stationed just outside Drygulch Ravine in Durotar, who has a keen eye for peculiar curiosities and valuable salvage.",
+   "q": "Who wants the Dull Stormy Orb?"
+  },
+  {
+   "aliases": [
+    "what were harpies doing with orb",
+    "why do harpies have storm orb",
+    "harpy orb purpose"
+   ],
+   "answer": "The precise purpose remains unknown, but the harpies of Drygulch Ravine were clearly employing the orb to channel or contain electrical and stormy elemental energies.",
+   "q": "Why did the harpies have this orb?"
+  },
+  {
+   "aliases": [
+    "who is rezlak",
+    "rezlak durotar",
+    "goblin near drygulch"
+   ],
+   "answer": "Rezlak is a goblin operative working in eastern Durotar near Drygulch Ravine, affiliated with the Steamwheedle Cartel and Chief Engineer Gazlowe of Ratchet.",
+   "q": "Who is Rezlak?"
+  },
+  {
+   "aliases": [
+    "where is drygulch ravine",
+    "drygulch location",
+    "harpy canyon durotar"
+   ],
+   "answer": "Drygulch Ravine is a rugged canyon system in eastern Durotar, infested with hostile Dustwind harpies that harass travelers and disrupt local trade and settlements.",
+   "q": "Where is Drygulch Ravine?"
+  },
+  {
+   "aliases": [
+    "what does rezlak say about gazlowe",
+    "rezlak gazlowe connection"
+   ],
+   "answer": "Upon seeing the orb, Rezlak is immediately reminded of lessons and remarks from his boss, Chief Engineer Gazlowe, regarding peculiar and potentially profitable oddities.",
+   "q": "What does Rezlak think of the orb?"
+  }
+ ],
+ "keywords": [
+  "a simmering storm",
+  "drygulch ravine",
+  "dull stormy orb",
+  "durotar",
+  "dustwind",
+  "gazlowe",
+  "harpy",
+  "rezlak"
+ ],
+ "related": [
+  "subzone:drygulch-ravine",
+  "npc:rezlak",
+  "topic:harpy"
+ ],
+ "sections": [
+  {
+   "body": "While contending with the aggressive Dustwind harpies nesting throughout Drygulch Ravine, travelers may come across an unusual curiosity: the Dull Stormy Orb. Though its outer surface appears muted and worn, holding the object reveals a steady vibration of raw electrical current. Inside the sphere, dark mist churns endlessly, illuminated at random intervals by sharp internal sparks. It is unmistakable proof that the harpies were manipulating storm magic through strange relics.",
+   "spoiler": 0,
+   "title": "A Spark in the Dust"
+  },
+  {
+   "body": "Rather than leaving such volatile magic in the talons of wild harpies, the orb can be brought directly to Rezlak. Stationed at the entrance of Drygulch Ravine, the pragmatic goblin tinker takes an immediate interest in the strange relic, noting that its discovery recalls old advice from his employer in Ratchet, Chief Engineer Gazlowe. Whatever the harpies intended to brew with the miniature storm, it now sits in goblin hands.",
+   "spoiler": 0,
+   "title": "Goblin Curiosity"
+  }
+ ],
+ "summary": "A Simmering Storm begins when an adventurer recovers a strange, spark-emitting relic known as the Dull Stormy Orb from the harpies of Drygulch Ravine. Bearing the swirling miniature storm to the goblin tinker Rezlak provides insight into the harpies' odd trinkets and earns the interest of Ratchet's enterprising salvagers.",
+ "attribution": [
+  "In-game quest text: A Simmering Storm"
+ ]
+}

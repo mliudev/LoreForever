@@ -40,8 +40,9 @@ Options.DEFAULTS = {
   automaticPictures = true,
   capture = true,          -- keep the quest, gossip and book text Forever shows, to share at /contribute (Capture.lua)
   -- Live game info: Willo's sky, star rings over the minimap that the companion app reads (Strip.lua, Sky.lua,
-  -- LOR-416). Opt-in, never turned on by anything else: it shows on screen, and the companion has its own switch for
-  -- reading it. It shows only while the Lore Forever panel is open, unless liveStripAlways.
+  -- LOR-416). Opt-in: on only after an explained yes, here or in Willo (her liveGame: one switch for both apps,
+  -- LOR-544); the player's own tick or untick here (liveStripChosen) wins over hers (Strip.On). It shows only while
+  -- the Lore Forever panel is open, unless liveStripAlways.
   liveStrip = false,
   liveStripAlways = false,
   -- The small Contribute button on quest, gossip and book windows (Capture.lua). Defaults are written into
@@ -601,9 +602,9 @@ end
 -- alone, and journey pictures reach the journey through Willo's picture book.
 local function willoRows()
   local out = {
-    { "liveStrip", L["Live game info for the companion app"], L["While the Lore Forever window is open, or while you hold %s's talk key to ask a question, rings of stars in a blue mist show over your minimap. %s reads this little sky to know where you are, who you're targeting and your tracked quest. Only the Lore Forever companion app on this PC reads it. It isn't a hack: it doesn't read the game's memory, never presses keys or clicks, and sends nothing online. Also turn on Live game info in the companion's Settings. Untick to turn it off."]:format(ns.COMPANION_NAME, ns.COMPANION_NAME) },
+    { "liveStrip", L["Live game info for %s"]:format(ns.COMPANION_NAME), L["While the Lore Forever window is open, or while you hold %s's talk key to ask a question, rings of stars in a blue mist show over your minimap. %s reads this little sky to know where you are, who you're targeting and your tracked quest. Only %s, on this PC, reads it. It isn't a hack: it doesn't read the game's memory, never presses keys or clicks, and sends nothing online. Untick to turn it off."]:format(ns.COMPANION_NAME, ns.COMPANION_NAME, ns.COMPANION_NAME) },
     { "liveStripAlways", L["Live game info: show it all the time"], L["Keep the sky over your minimap while the Lore Forever window is closed too, so %s always knows where you are. Only matters with Live game info on."]:format(ns.COMPANION_NAME) },
-    { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or set Take a journey picture in Key Bindings, AddOns. This option hides your interface for a moment, except in combat. In the companion, turn on Picture book and connect your profile. Pictures with the interface need On my profile."] },
+    { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or set Take a journey picture in Key Bindings, AddOns. This option hides your interface for a moment, except in combat. Turn on Picture book in %s to keep your journey pictures."]:format(ns.COMPANION_NAME) },
   }
   if ns.Journey and ns.Journey.PictureBookOn() then
     out[#out + 1] = { "automaticPictures", L["Automatic journey pictures"],
@@ -755,6 +756,7 @@ function Options.Create()
     cb.desc = desc
     cb:SetScript("OnClick", function(self)
       LoreForeverDB.settings[key] = self:GetChecked() and true or false
+      if key == "liveStripAlways" then LoreForeverDB.settings.liveStripAlwaysOwn = true end   -- wins over Willo's yes
       if key == "showSpoilers" and ns.UI and ns.UI.UpdateListen then ns.UI.UpdateListen() end
       if key == "minimap" and ns.MinimapButton then ns.MinimapButton() end
       if key == "questButton" and ns.Hooks then
@@ -765,6 +767,10 @@ function Options.Create()
       if key == "onDemand" then ns.Voice.SetOnDemand(self:GetChecked()) end
       if key == "questDialogue" then ns.Voice.SetQuestDialogue(self:GetChecked()) end
       if key == "journey" and ns.Journey then ns.Journey.OnToggle() end
+      if key == "liveStrip" then   -- the player's own choice, over Willo's yes from now on (Strip.On)
+        LoreForeverDB.settings.liveStripChosen = true
+        if p.updateWillo then p.updateWillo() end
+      end
       if (key == "liveStrip" or key == "liveStripAlways") and ns.Strip then ns.Strip.Update() end
       if key == "storylines" and ns.UI and ns.UI.Refresh then ns.UI.Refresh() end
       if key == "storylines" and ns.Hooks and ns.Hooks.RefreshQuestStory then ns.Hooks.RefreshQuestStory() end
@@ -811,7 +817,7 @@ function Options.Create()
   sentBtn:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     GameTooltip:AddLine(L["Mark shared text as sent"])
-    T.Tip(L["For optional quest, gossip and book text contributions only. After sharing at loreforeverwow.com/contribute, mark that text as sent so the next upload carries new lines. Your journey syncs automatically in the companion and does not use this button."], "tipText", true)
+    T.Tip(L["For optional quest, gossip and book text contributions only. After sharing at loreforeverwow.com/contribute, mark that text as sent so the next upload carries new lines. Your journey syncs automatically in %s and does not use this button."]:format(ns.COMPANION_NAME), "tipText", true)
     GameTooltip:Show()
   end)
   sentBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -854,7 +860,8 @@ function Options.Create()
   questBtn:SetScript("OnClick", function() ns.Hooks.ResetQuestButton() end)
   p.resetQuestButton = questBtn
   -- Willo's settings (willoRows), together under their own heading. Without Willo they're greyed out and can't be
-  -- changed, under a note saying where to get it (LOR-459); with it they work as the others do. Installed is
+  -- changed, under a note saying where to get it (LOR-459), except that Live game info's, still ticked, can be
+  -- unticked (LOR-541: the sky kept painting with its box greyed out); with it they work as the others do. Installed is
   -- Companion.Installed: Willo's LoreForever_Journey add-on, loaded at login, so a new install shows after a /reload.
   -- Until Willo launches (Companion.OFFER_WILLO off) the section shows only to players who have Willo already.
   local willoHead = heading(c, ns.COMPANION_NAME, windowsBtn, 24)
@@ -865,8 +872,19 @@ function Options.Create()
     local cb
     last, cb = check(row, last, i == 1)
     p.willoChecks[#p.willoChecks + 1] = cb
+    local click = cb:GetScript("OnClick")
+    cb:SetScript("OnClick", function(self, ...)
+      click(self, ...)
+      p.updateWillo()   -- (unticked without Willo: greyed out again)
+    end)
   end
-  local willoLast = last
+  -- Move the sky / Put it back (Sky.OptionsRow, LOR-530), under Willo's settings; shown and greyed with them.
+  local skyRow, updateSkyRow = ns.Sky.OptionsRow(c, last)
+  skyRow:SetScript("OnShow", function()
+    local on = ns.Companion.Installed()
+    updateSkyRow(on or ns.Companion.OFFER_WILLO and true or false, on)
+  end)
+  local willoLast = skyRow
   -- What follows lines up with the Willo heading again, not with the indented description above it (or, with no
   -- section, with the buttons above).
   local willoEnd = CreateFrame("Frame", nil, c)
@@ -883,11 +901,26 @@ function Options.Create()
       or string.format(L["Needs %s, Lore Forever's free companion app (%s). Installed it? Type /reload."],
         ns.COMPANION_NAME, ns.Companion.WILLO_URL))
     for _, cb in ipairs(p.willoChecks) do
+      if cb.key == "liveStrip" then   -- on from Willo's yes (LOR-544): say so, and that unticking here wins
+        local s = LoreForeverDB.settings
+        cb.tip = cb.tip or cb.desc:GetText()
+        cb.desc:SetText(ns.Strip.OnFromWillo() and not s.liveStripChosen and not s.liveStrip
+          and (cb.tip .. " " .. string.format(L["Turned on in %s. Untick to turn it off here."], ns.COMPANION_NAME))
+          or cb.tip)
+      end
       cb:SetShown(shown)
       cb.desc:SetShown(shown)
-      if on then cb:Enable() else cb:Disable() end
-      cb.label:SetTextColor(T.rgba(on and T.color.tipText or T.color.faint))
-      cb.desc:SetTextColor(T.rgba(on and T.color.muted or T.color.faint))
+      -- Without Willo, Live game info's boxes still do something (the sky paints), so one ticked stays clickable.
+      local usable = on or (cb:GetChecked() and (cb.key == "liveStrip" or cb.key == "liveStripAlways"))
+      if usable then cb:Enable() else cb:Disable() end
+      cb.label:SetTextColor(T.rgba(usable and T.color.tipText or T.color.faint))
+      cb.desc:SetTextColor(T.rgba(usable and T.color.muted or T.color.faint))
+      if cb.key == "liveStripAlways" then   -- on from Willo's yes: say so, and that unticking here wins
+        cb.tip = cb.tip or cb.desc:GetText()
+        local fromWillo = ns.Strip.AlwaysFromWillo() and not LoreForeverDB.settings.liveStripAlwaysOwn
+        cb.desc:SetText(fromWillo and (cb.tip .. " " .. string.format(L["Turned on in %s. Untick to turn it off here."],
+          ns.COMPANION_NAME)) or cb.tip)
+      end
     end
   end
   p.willoNote = willoNote
@@ -898,8 +931,13 @@ function Options.Create()
   p.voice, bottom = Options.VoiceSection(c, sizeBtn)
   p:SetScript("OnShow", function(self)
     for _, cb in ipairs(self.checks) do
-      cb:SetChecked(LoreForeverDB.settings[cb.key] and true or false)
+      local ticked = LoreForeverDB.settings[cb.key]
+      if cb.key == "liveStripAlways" and ns.Strip then ticked = ns.Strip.Always() end
+      cb:SetChecked(ticked and true or false)
       cb.newTag:SetShown(ns.WhatsNew.OptionIsNew(cb.english))
+    end
+    for _, cb in ipairs(self.willoChecks) do   -- Live game info as it is, Willo's yes included (Strip.On, LOR-544)
+      if cb.key == "liveStrip" then cb:SetChecked(ns.Strip.On()) end
     end
     self.updateWillo()
     self.voice.ShowNew()

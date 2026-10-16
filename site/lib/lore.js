@@ -236,6 +236,117 @@ export const htmlHeaders = (env, entry) => ({
 const HEAD = `<link rel="stylesheet" href="/lore/lore.css">`;
 const SCRIPTS = `<script src="/lore/lore.js" defer></script>`;
 
+// ---- What a search result shows (LOR-22) ----
+// Search Console, 9/28-10/13: the lore pages showed on page one (mostly 5th to 10th) for their own names and
+// "wow forever <name>", and almost nobody clicked. So the title says what the page is and where ("Bandarion Keep,
+// Tirisfal Glades – WoW Forever Lore", "WANTED: Bruuz – WoW Forever Quest in The Barrens"), and the description is
+// the entry's own first sentences, whole, then what the page has, as far as it fits.
+
+const BRAND = " | Lore Forever";
+const TITLE_MAX = 60;       // about what Google shows of a title
+const DESC_MAX = 160;       // and of a description
+
+// A name to show: the few quests whose title we don't know are named by their key ("quest:95214").
+export const displayName = entry => String(entry.name || "").replace(/^quest:(\d+)$/, "Quest $1");
+
+// Where an entry is, when that isn't the entry itself: a zone page's zone is its own.
+const zoneOf = entry => (entry.zone?.name && entry.zone.path !== entry.path && entry.zone.name !== entry.name
+  ? entry.zone.name : "");
+
+// The <title>, and the same without the brand (og:title).
+export function searchTitle(entry) {
+  const name = displayName(entry);
+  const zone = zoneOf(entry);
+  const short = entry.kind === "quest" ? `${name} – WoW Forever Quest${zone ? ` in ${zone}` : ""}`
+    : entry.kind === "subzone" && zone ? `${name}, ${zone} – WoW Forever Lore`
+      : `${name} – WoW Forever Lore`;
+  return { short, full: short.length + BRAND.length <= TITLE_MAX ? short + BRAND : short };
+}
+
+// A text's sentences, split only where one ends: not after "Lt.", "St." or an initial ("John J. Keeshan"), not before a
+// lowercase word.
+const ABBR = /(?:^|[\s(])(?:Mr|Mrs|Ms|Dr|St|Mt|Lt|Sgt|Capt|Gen|Col|Maj|Jr|Sr|Prof|vs|No|[A-Z])\.$/;
+export function wholeSentences(text) {
+  const t = String(text || "").replace(/\s+/g, " ").trim();
+  const out = [];
+  let start = 0;
+  for (const m of t.matchAll(/[.!?…]+["'”’)]*\s+(?=["'“‘(]?[A-Z0-9])/g)) {
+    const end = m.index + m[0].trimEnd().length;
+    if (ABBR.test(t.slice(start, end))) continue;
+    out.push(t.slice(start, end));
+    start = m.index + m[0].length;
+  }
+  if (start < t.length) out.push(t.slice(start));
+  return out;
+}
+
+// As many whole sentences of text as fit in max characters; "" if not even the first does.
+function fit(text, max) {
+  let out = "";
+  for (const s of wholeSentences(text)) {
+    const next = out ? `${out} ${s}` : s;
+    if (next.length > max) break;
+    out = next;
+  }
+  return out;
+}
+
+// Text cut at a word to fit max characters, with "…" when it's cut.
+function cut(text, max) {
+  const t = String(text || "").replace(/\s+/g, " ").trim();
+  if (t.length <= max) return t;
+  const head = t.slice(0, max);
+  return head.slice(0, Math.max(head.lastIndexOf(" "), 1)).replace(/[\s,;:–—-]+$/, "") + "…";
+}
+
+// The meta description: the entry's summary (or, for a quest we have no summary of, the quest giver's first words) in
+// whole sentences, then what the page has (a quest's level and zone, "read aloud" when it's recorded) when that fits
+// too. A first sentence too long for the space is cut at a word.
+export function searchDescription(entry) {
+  const clips = entry.clips || [];
+  const recorded = clips.some(c => Object.keys(c.voices || {}).length);
+  const summary = entry.intro?.[0] || clips.find(c => c.part === "narration")?.paras?.[0]
+    || entry.sections?.[0]?.p?.[0] || "";
+  const zone = zoneOf(entry);
+  if (entry.kind === "quest") {
+    const level = /^Level (\d+)$/.exec(entry.levels || "")?.[1];
+    const what = `${level ? `level ${level} ` : ""}WoW Forever quest${zone ? ` in ${zone}` : ""}`;
+    const words = clips.find(c => c.part === "detail")?.paras?.join(" ") || "";
+    if (!summary) {
+      // "Mor'Ladim: a level 35 WoW Forever quest in Duskwood. “From what my scouts tell me, …”"
+      const head = `${displayName(entry)}: a ${what}.`;
+      if (!words) return head;
+      const room = DESC_MAX - head.length - 3;
+      return room > 30 ? `${head} “${fit(words, room) || cut(words, room)}”` : head;
+    }
+    const tails = [` A ${what}${recorded ? ", with the quest giver's words read aloud" : ""}.`, ` A ${what}.`];
+    for (const tail of tails) {
+      const lead = fit(summary, DESC_MAX - tail.length);
+      if (lead) return lead + tail;
+    }
+    return fit(summary, DESC_MAX) || cut(summary, DESC_MAX);
+  }
+  if (!summary) return `${displayName(entry)}: WoW Forever lore${zone ? ` from ${zone}` : ""}.`;
+  if (recorded) {
+    const tail = " Read it, or hear it read aloud.";
+    const lead = fit(summary, DESC_MAX - tail.length);
+    if (lead) return lead + tail;
+  }
+  return fit(summary, DESC_MAX) || cut(summary, DESC_MAX);
+}
+
+// Breadcrumbs for search results (schema.org BreadcrumbList), the same trail as the page's own: Lore › zone › entry.
+export function breadcrumbLd(entry) {
+  const trail = [["Lore", "/lore"]];
+  if (entry.zone?.path && entry.zone.path !== entry.path) trail.push([entry.zone.name, entry.zone.path]);
+  trail.push([displayName(entry), entry.path]);
+  const ld = {
+    "@context": "https://schema.org", "@type": "BreadcrumbList",
+    itemListElement: trail.map(([name, p], i) => ({ "@type": "ListItem", position: i + 1, name, item: `https://${HOME}${p}` })),
+  };
+  return `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script>`;
+}
+
 // ---- Pages ----
 
 // "Hear it in game" (LOR-437): the downloads that have this page's recording, linked to their row on /downloads.
@@ -311,7 +422,7 @@ export function entryPage(entry, { live = new Set(), names = {}, env, packs = []
     </section>`;
   const body = `  <article class="lp" data-key="${escape(entry.key)}">
     <p class="lp-where">${where}</p>
-    <h1>${escape(entry.name)}</h1>
+    <h1>${escape(displayName(entry))}</h1>
     ${intro}
     ${speed}
     ${sections}
@@ -326,12 +437,12 @@ export function entryPage(entry, { live = new Set(), names = {}, env, packs = []
   ${playable ? reportDialog() : ""}`;
   const crumbs = [`<a href="/lore">Lore</a>`];
   if (zone && zone.path && zone.path !== entry.path) crumbs.push(`<a href="${escape(zone.path)}">${escape(zone.name)}</a>`);
-  crumbs.push(escape(entry.name));
-  const title = !(entry.clips || []).length ? `${entry.name}: lore and story`
-    : entry.kind === "quest" ? `${entry.name}: quest dialogue read aloud` : `${entry.name}: lore and narration`;
+  crumbs.push(escape(displayName(entry)));
+  const { short, full } = searchTitle(entry);
   return page({
-    title, description: entry.description || entry.name, path: entry.path, body, crumbs: crumbs.join(" &rsaquo; "),
-    foot, scripts: SCRIPTS, robots: noindex(env, entry), head: HEAD,
+    title: short, fullTitle: full, description: searchDescription(entry), path: entry.path, body,
+    crumbs: crumbs.join(" &rsaquo; "), foot, scripts: SCRIPTS, robots: noindex(env, entry),
+    head: `${HEAD}\n${breadcrumbLd(entry)}`,
   });
 }
 
@@ -405,7 +516,7 @@ export function indexPage(index, { more, env, packs = [] } = {}) {
   </div>
   ${reportDialog()}`;
   return page({
-    title: "Hear the lore: every story",
+    title: "WoW Forever Lore: every zone, place and quest", fullTitle: "WoW Forever Lore: every zone, place and quest | Lore Forever",
     description: "Read and listen to the stories of WoW Forever's zones, places, characters, items, dungeon bosses and " +
       "quest givers, as Lore Forever tells them in game. Search, filter by zone and play.",
     path: "/lore", body, crumbs: "", foot, scripts: SCRIPTS, robots: noindex(env), head: HEAD,

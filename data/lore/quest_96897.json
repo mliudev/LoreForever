@@ -1,0 +1,113 @@
+{
+ "key": "quest:96897",
+ "type": "quest",
+ "name": "The Cult of the Damned",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96897
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Forsaken know all too well how the living cultists laid waste to Lordaeron and brought about their undeath. Stopping fresh Cult cells in Tirisfal is vital to securing the new kingdom."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests of all disciplines recognize the perversion of faith represented by the Cult of the Damned, who trade sacred devotion for dark necromancy."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Paladins swore oaths to eradicate the shadow that broke Lordaeron, making living cultists dedicated to the Scourge sworn enemies of the Light."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is cult of the damned",
+    "who are the cultists",
+    "who are dark neophytes"
+   ],
+   "answer": "The Cult of the Damned is an organization of mortals who willingly serve the Lich King and the Scourge. Rather than being raised as mindless undead, these living acolytes deliberately spread plague, sabotage defenses, and practice necromancy in service to death.",
+   "q": "What is the Cult of the Damned?"
+  },
+  {
+   "aliases": [
+    "why are cultists in tirisfal",
+    "cult in tirisfal glades"
+   ],
+   "answer": "Tirisfal Glades remains a contested borderland haunted by mindless undead, zealots of the Scarlet Crusade, and surviving pockets of Scourge influence. The Cult operates covertly in the region to undermine local resistance and advance the Scourge's dark designs.",
+   "q": "Why are members of the Cult operating in Tirisfal Glades?"
+  },
+  {
+   "aliases": [
+    "who are dark enforcers",
+    "dark neophytes role"
+   ],
+   "answer": "Dark Neophytes are fresh initiates learning dark arts and rituals, while Dark Enforcers act as the muscle guarding cult operations and enforcing discipline among their ranks. Together they form active operational cells on the ground.",
+   "q": "Who are the Dark Neophytes and Dark Enforcers?"
+  },
+  {
+   "aliases": [
+    "why living cultists worse",
+    "living servants scourge"
+   ],
+   "answer": "Mindless undead act purely on instinct or direct command, but living cultists have chosen treachery with full awareness. Their ability to blend into mortal societies and infiltrate settlements makes them far more insidious than roaming ghouls or skeletons.",
+   "q": "Why are living servants considered worse than mindless undead?"
+  },
+  {
+   "aliases": [
+    "lordaeron history repeat",
+    "fall of lordaeron cult"
+   ],
+   "answer": "Lordaeron fell not from an overt external invasion alone, but because the Cult of the Damned quietly poisoned grain supplies and betrayed their fellow citizens from within. Allowing cultists to gain a foothold invites the same catastrophe.",
+   "q": "What does the quest mean by not letting Lordaeron's history repeat itself?"
+  },
+  {
+   "aliases": [
+    "scarlet crusade relation",
+    "cult vs scarlet crusade"
+   ],
+   "answer": "The Scarlet Crusade fanatically hunts anything tainted by undeath, making both the Scourge and the Cult primary targets. This ongoing conflict leaves local inhabitants trapped between mindless horrors, zealous crusaders, and covert cultists.",
+   "q": "How does the Cult relate to the Scarlet Crusade in Tirisfal?"
+  }
+ ],
+ "keywords": [
+  "cult of the damned",
+  "dark enforcers",
+  "dark neophytes",
+  "living servants",
+  "lordaeron",
+  "necromancy",
+  "scourge",
+  "tirisfal glades"
+ ],
+ "related": [
+  "topic:scourge",
+  "zone:tirisfal",
+  "topic:lordaeron",
+  "topic:scarlet-crusade",
+  "quest:381",
+  "topic:light"
+ ],
+ "sections": [
+  {
+   "body": "The Cult of the Damned represents the mortal face of the Scourge. Composed of living men and women who swore fealty to the Lich King, these cultists act where mindless dead cannot. In Tirisfal Glades, where inhabitants already contend with roaming undead and relentless zealots of the Scarlet Crusade, newly discovered cells of Dark Neophytes and Dark Enforcers signal an insidious attempt by the Scourge to re-establish a foothold.",
+   "spoiler": 0,
+   "title": "Mortal Agents of the Scourge"
+  },
+  {
+   "body": "Lordaeron was brought to ruin not merely by marching legions of the dead, but by neighbors who betrayed neighbors. The Cult of the Damned originally infiltrated villages, poisoned granaries, and orchestrated the kingdom's collapse from the shadows. Standing vigilant against fresh Cult activity in Tirisfal is essential to ensure that history does not repeat itself in the scarred lands of the north.",
+   "spoiler": 0,
+   "title": "Lessons of the Fall"
+  }
+ ],
+ "summary": "The Cult of the Damned is a task confronting mortal servants of the Scourge active within Tirisfal Glades. By culling Dark Neophytes and Dark Enforcers, defenders prevent the Lich King's insidious living agents from repeating the subterranean betrayals that originally shattered Lordaeron.",
+ "attribution": [
+  "In-game quest text: The Cult of the Damned"
+ ]
+}

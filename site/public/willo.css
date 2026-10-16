@@ -1,0 +1,125 @@
+/* Willo's pages in the wisp's blue (body class "bw wisp"; the shared look of "The book and the wisp" is in style.css):
+   /willo, where the add-on's "Get Willo" points, and /plans. Each page's own layout; scoped to .bw so it wins over the
+   older wl-* and pl-* rules in style.css, which /account and /willo/style still use. */
+
+/* /willo: the hero, with the wisp beside the title and the download (lib/willo.js willoGet) */
+.wl-top { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px 56px; align-items: center; }
+.wl-intro { display: grid; gap: 28px; min-width: 0; }
+.wl-get { display: grid; gap: 12px; justify-items: start; }
+.bw .wl-get p { margin: 0; }
+.bw .wl-soon, .bw .wl-note { color: var(--h-text-2); font-size: 1rem; }
+.bw .wl-wisp { flex: none; width: clamp(160px, 24vw, 260px); height: auto; margin: 0 24px 0 0; filter: drop-shadow(0 0 36px #6f8fffaa);
+  animation: wl-float 6s ease-in-out infinite; }
+@keyframes wl-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+
+/* Three steps */
+.wl-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 0; padding: 0; list-style: none; }
+.wl-steps li { display: grid; gap: 8px; align-content: start; }
+.bw .wl-steps .wl-step-n { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; border: 1px solid #93b6ff66;
+  background: var(--h-wisp-wash); color: var(--h-wisp-hi); font: 700 1.1rem/1 var(--h-display); box-shadow: 0 0 18px #6f8fff33; }
+.bw .wl-steps h3 { margin: 6px 0 0; font: 700 1.15rem/1.3 var(--h-body); color: var(--h-text); }
+.bw .wl-steps p { margin: 0; color: var(--h-text-2); font-size: 1rem; }
+
+/* The clips: the player, its caption under it and the three choices beside it (js/willo-clips.js) */
+.wl-band { background: radial-gradient(900px 500px at 85% 0%, #2a3a8a40, transparent 70%), #0b0e1c; border-block: 1px solid #93b6ff1f; }
+.bw .wl-player { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 290px); grid-template-areas: "stage picks" "cap picks";
+  gap: 12px 18px; align-items: start; }
+.bw .wl-stage { grid-area: stage; border: 1px solid #93b6ff33; border-radius: var(--h-r); background: #05060a; box-shadow: 0 40px 90px -50px #3150d8; }
+.bw .wl-stage-cap { grid-area: cap; margin: 0; color: var(--h-text-2); }
+.bw .wl-picks { grid-area: picks; display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
+.bw .wl-player .wl-pick { display: grid; grid-template-columns: 110px minmax(0, 1fr); align-items: center; gap: 12px; width: 100%; padding: 8px;
+  border: 1px solid var(--h-acc-line); border-radius: var(--h-r-sm); background: var(--h-acc-panel); color: var(--h-text-2); text-align: left; cursor: pointer; }
+.bw .wl-player .wl-pick:hover { border-color: var(--h-acc-edge); }
+.bw .wl-player .wl-pick[aria-pressed="true"] { border-color: #93b6ff99; background: #16224f; color: var(--h-wisp-hi); box-shadow: 0 0 24px -8px #3a5cf0; }
+.bw .wl-player .wl-pick img { width: 110px; border-radius: 6px; }
+.bw .wl-player .wl-pick span { padding: 0; font: 600 1rem/1.25 var(--h-display); }
+
+/* Her voices and the characters' (js/players.js) */
+.wl-tracks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.wl-tracks-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.bw main .wl-chars { margin-top: 40px; }
+.bw .wl-quote { margin: 14px 0 0; color: var(--h-muted); font-style: italic; }
+.bw .wl-plans-line { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; margin: 40px 0 0; }
+.bw .wl-plans-line img { width: 44px; height: 44px; filter: drop-shadow(0 0 12px #6f8fff88); }
+.bw .wl-plans-line p { flex: 1 1 200px; margin: 0; font-size: 1.15rem; }
+.bw .wl-plans-line b { color: var(--h-wisp-hi); }
+
+/* Questions, all open */
+.bw .wl-faq { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 40px; }
+.bw .wl-faq > div { padding: 16px 0; border-top: 1px solid var(--h-line); }
+.bw .wl-faq h3 { margin: 0 0 4px; font: 700 1.05rem/1.3 var(--h-body); color: var(--h-text); }
+.bw .wl-faq p { margin: 0; color: var(--h-text-2); }
+.wl-faq-sec { padding-bottom: 72px; }
+
+/* /plans: the title and the pitch under the sky, then the beta's line, your plan, a card per plan (drawn by the page's
+   script and js/plan-extras.js), what each one gets, and the finest-voice pack. */
+.pl-hero { padding-bottom: 28px; }
+.bw .pl-hero .h-lede { margin: 18px 0 0; max-width: 74ch; font-size: 1.08rem; }
+.bw .pl-hero .fb-status { margin: 14px 0 0; }
+.pl-body { padding-block: 8px 64px; }
+.bw .lk-herald { margin: 18px 0 0; align-items: center; }
+.bw .lk-herald img { filter: drop-shadow(0 0 18px #6f8fffaa); }
+.bw .herald-says { margin: 0; max-width: 600px; padding: 14px 18px; border: 1px solid #93b6ff55; border-radius: 18px 18px 18px 4px;
+  background: linear-gradient(180deg, #1c2a63, #16224f); color: #eef3ff; font: 500 1.12rem/1.45 var(--h-body); box-shadow: 0 14px 34px -14px #3150d8; }
+.bw .fb-status { color: #ff9a8b; }
+.bw .fb-status.fb-good { color: var(--h-fresh); }
+.bw .pl-now { margin: 0 0 18px; padding: 18px 22px; border: 1px solid var(--h-acc-line); border-radius: var(--h-r); background: var(--h-acc-panel); }
+.bw .pl-now h2 { margin: 0 0 6px; font: 600 1.2rem/1.2 var(--h-display); color: var(--h-acc-hi); }
+.bw .pl-now p { color: var(--h-text-2); }
+.bw #pl-launch { border-color: #93b6ff55; background: linear-gradient(90deg, #1a2550, #0f1530 70%); }
+.bw #pl-launch p { color: var(--h-wisp-hi); font-weight: 500; }
+.bw .pl-cards { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin: 0 0 28px; }
+.bw .pl-card { padding: 22px 20px 20px; border: 1px solid var(--h-acc-line); border-radius: var(--h-r); background: var(--h-acc-panel); box-shadow: none; }
+.bw .pl-card.pl-mine { border-color: var(--h-wisp); box-shadow: 0 0 0 1px var(--h-wisp), 0 30px 70px -40px #3150d8; }
+.bw .pl-card h3 { margin: 0 0 6px; font: 600 1.25rem/1.2 var(--h-display); color: var(--h-wisp-hi); }
+.bw .pl-price { margin: 0 0 14px; font: 700 1.5rem/1.1 var(--h-body); color: var(--h-text); font-variant-numeric: tabular-nums; }
+.bw .pl-price s { color: var(--h-muted); font-weight: 500; }
+.bw .pl-card .pl-promo { margin: 0 0 14px; gap: 2px 10px; }
+.bw .pl-card .pl-promo s { color: var(--h-muted); }
+.bw .pl-card .pl-promo strong { color: var(--h-text); font: 700 1.5rem/1.1 var(--h-body); }
+.bw .pl-card .pl-promo .muted { flex-basis: 100%; color: var(--h-muted); font-size: 0.92rem; }
+.bw .pl-tag { align-self: flex-start; margin: 0 0 10px; padding: 3px 10px; border: 1px solid #93b6ff55; border-radius: 999px; background: var(--h-wisp-wash);
+  color: var(--h-wisp); font: 700 0.72rem/1.4 var(--h-body); letter-spacing: 0.08em; text-transform: uppercase; vertical-align: baseline; }
+.bw .pl-offer { margin: -8px 0 14px; color: var(--h-muted); font-size: 0.92rem; }
+.bw .pl-card ul { display: grid; gap: 7px; margin: 0 0 20px; padding: 0; list-style: none; color: var(--h-text-2); font-size: 0.98rem; line-height: 1.4; }
+.bw .pl-card li { position: relative; margin: 0; padding-left: 22px; }
+.bw .pl-card li::before { content: "\2713"; position: absolute; left: 0; color: var(--h-wisp); font-weight: 700; }
+.bw .pl-card .pl-go { margin: auto 0 0; }
+.bw .pl-card .pl-go > .btn-small { width: 100%; margin: 0; }
+.bw .pl-go.vp-note { color: var(--h-muted); font-size: 0.95rem; }
+.bw .pl-pending { color: var(--h-muted); }
+.bw .pl-confirm { padding: 12px; border: 1px solid #93b6ff55; border-radius: var(--h-r-sm); background: var(--h-wisp-wash); color: var(--h-text); font-size: 0.95rem; }
+.bw .pl-confirm .btn-small { margin: 4px 0 0; }
+.bw .wl-compare-box { margin: 0 0 28px; padding: 6px 20px 8px; border: 1px solid var(--h-acc-line); border-radius: var(--h-r); background: var(--h-night-2); }
+.bw .wl-compare-box h3 { margin: 16px 0 8px; font: 600 1.25rem/1.2 var(--h-display); color: var(--h-text); }
+.bw .wl-compare { font-size: 0.98rem; }
+.bw .wl-compare th, .bw .wl-compare td { padding: 10px; border-bottom: 1px solid var(--h-line-soft); color: var(--h-text-2); }
+.bw .wl-compare thead th { font: 600 1rem var(--h-display); color: var(--h-wisp-hi); }
+.bw .wl-compare tbody th { color: var(--h-text); font-weight: 700; }
+.bw .wl-compare tr:last-child > * { border-bottom: 0; }
+.bw .pl-body .vp-note, .bw #pl-yourway { margin: 0 0 12px; color: var(--h-muted); font-size: 0.98rem; }
+.bw #pl-yourway { color: var(--h-text-2); }
+
+@media (prefers-reduced-motion: reduce) { .bw .wl-wisp { animation: none; } }
+@media (max-width: 1020px) {
+  .wl-tracks-4, .bw .pl-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 860px) {
+  .bw .wl-player { grid-template-columns: minmax(0, 1fr); grid-template-areas: "stage" "cap" "picks"; }
+  .bw .wl-picks { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .bw .wl-player .wl-pick { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .bw .wl-player .wl-pick img { width: 100%; }
+  .wl-steps, .wl-tracks { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 760px) {
+  .wl-top { grid-template-columns: minmax(0, 1fr); }
+  .bw .wl-wisp { grid-row: 1; width: 104px; margin: 0; }
+  .wl-get { justify-items: stretch; }
+  .bw .wl-faq { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 560px) {
+  .bw .wl-player .wl-pick { padding: 5px; }
+  .bw .wl-player .wl-pick span { font-size: 0.82rem; }
+  .wl-tracks-4, .bw .pl-cards { grid-template-columns: minmax(0, 1fr); }
+  .bw .wl-plans-line .h-btn { flex: 1 1 100%; }
+}

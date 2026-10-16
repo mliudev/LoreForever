@@ -109,9 +109,22 @@ export function storyParts(story) {
   return out;
 }
 
-// Which story the recordings read: the first 16 hex of SHA-256 of the account and the story's text. Part of the
-// recordings' addresses, so they change with the story and can't be guessed from the profile.
-export const storyKey = async (userId, story) => (await sha256(`${userId}\n${story}`)).slice(0, 16);
+// Story languages whose narrator reference was replaced, with the date: their stories recorded before that are read
+// again, once, the next time their page is opened (the key changes, and record() drops the old takes). Other
+// languages keep their keys. LOR-566: the German male narrator's reference was a woman's voice until 2026-10-15.
+export const VOICE_EDITIONS = { de: "2026-10-15" };
+
+// Story languages with no narrator voice for now: their stories stay text, with no Listen and nothing recorded, until
+// a new reference lands (then drop the language here and give it a voice edition above). LOR-567: the Brazilian
+// Portuguese references are European-accented women; Mike, 2026-10-15: "pull the brazilian PT voices since they
+// don't sound right".
+export const PAUSED_LANGUAGES = new Set(["pt"]);
+
+// Which story the recordings read: the first 16 hex of SHA-256 of the account and the story's text (plus the
+// language's voice edition, if any). Part of the recordings' addresses, so they change with the story and can't be
+// guessed from the profile.
+export const storyKey = async (userId, story, lang = "en") =>
+  (await sha256(`${userId}\n${story}${VOICE_EDITIONS[lang] ? `\nvoice ${VOICE_EDITIONS[lang]}` : ""}`)).slice(0, 16);
 
 // Names the narrators say as the packs spell them for the voice (data/pronunciation.json "qwen", lore.pronounce.respell):
 // longest first, whole words only, possessives kept. English only, like the packs' respellings.
@@ -369,8 +382,9 @@ async function resend(env, p, r, origin) {
 // failed or got stuck (in the background, with waitUntil), when the key is set and the budget has room.
 export async function storyVoice(env, p, { kick = false, origin = "", waitUntil = null } = {}) {
   if (!featureOn(env, "storyvoice") || !env.DB || p?.story_source !== "written" || !p.story) return null;
+  if (PAUSED_LANGUAGES.has(p.data?.locale || "en")) return null;
   await setupStoryVoice(env);
-  const story = await storyKey(p.user_id, p.story);
+  const story = await storyKey(p.user_id, p.story, p.data?.locale || "en");
   const rows = (await env.DB.prepare("SELECT * FROM story_audio WHERE user_id = ? AND story = ? AND voice = ? ORDER BY part")
     .bind(p.user_id, story, DEFAULT_NARRATOR).all()).results;
   const later = job => (waitUntil ? waitUntil(job.catch(e => console.warn(`story voice: ${e.message}`))) : job);
@@ -418,6 +432,7 @@ export async function saveTake(env, q, body, origin) {
   const row = await env.DB.prepare("SELECT * FROM story_audio WHERE story = ? AND voice = ? AND part = ?").bind(story, voice, part).first();
   if (!row || row.status === "done") return 200;   // a story that's been replaced, or a webhook sent twice
   const p = await env.DB.prepare("SELECT user_id, story, story_source, data FROM profiles WHERE user_id = ?").bind(row.user_id).first();
+  // fal records English stories only, so their key has no voice edition
   if (!p || p.story_source !== "written" || (await storyKey(p.user_id, p.story)) !== story) return 200;
   const audio = body?.status === "OK" ? body.payload?.audio : null;
   let host = "";

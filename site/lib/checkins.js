@@ -35,13 +35,14 @@ export async function saveCheckin(env, { install, companion, addon }, now = Date
 }
 
 // Internal builds aren't players: Mike's and the QA's own companions. A companion with no version, the source's
-// unstamped 0.1.0 (release builds carry the release's version), or either version marked -dev or -preview. They're
-// left out of every count below and only counted on their own (`internal`).
+// unstamped 0.1.0 (release builds carry the release's version), or either version marked -dev, -preview or -qa (the
+// release candidates' QA builds, 0.18.0-qa10). They're left out of every count below and only counted on their own
+// (`internal`).
 export const INTERNAL = "(companion IS NULL OR companion = '0.1.0' OR companion LIKE '%-dev%' OR companion LIKE '%-preview%' " +
-  "OR addon LIKE '%-dev%' OR addon LIKE '%-preview%')";
+  "OR companion LIKE '%-qa%' OR addon LIKE '%-dev%' OR addon LIKE '%-preview%' OR addon LIKE '%-qa%')";
 // The same rule for one check-in (lib/featureuse.js marks its counts with it). LIKE is case-blind for ASCII.
 export const isInternal = ({ companion, addon }) => !companion || companion === "0.1.0" ||
-  [companion, addon].some(v => /-(dev|preview)/i.test(v || ""));
+  [companion, addon].some(v => /-(dev|preview|qa)/i.test(v || ""));
 const PLAYERS = `FROM companion_days WHERE NOT ${INTERNAL}`;
 
 // For /admin (functions/api/admin.js puts it in the funnel's "companions"), from the days kept, players' builds only:

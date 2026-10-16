@@ -37,7 +37,10 @@ export async function willoPreview(env, request) {
   }
 }
 
-const mb = bytes => Number.isSafeInteger(bytes) && bytes > 0 ? ` · ${Math.round(bytes / 1e6)} MB` : "";
+const size = bytes => Number.isSafeInteger(bytes) && bytes > 0 ? `${Math.round(bytes / 1e6)} MB` : "";
+const mb = bytes => size(bytes) ? ` · ${size(bytes)}` : "";
+// Willo's button (style.css .h-willo-btn, "The book and the wisp"): her blue, with the wisp beside the words.
+const WILLO_BUTTON = `<img src="/img/wispr.svg" alt="" width="26" height="26">Download Willo for Windows`;
 
 // What's on offer: a release's Willo-Setup.exe, else a preview's test build, else nothing yet.
 function offer(sizes, preview) {
@@ -52,12 +55,12 @@ export function willoGet(sizes, preview = null) {
   const o = offer(sizes, preview);
   if (!o) {
     return `<p class="wl-soon">Willo is almost here. Get the free Lore Forever add-on now, and Willo joins you soon.</p>
-      <p><a class="btn-download btn-download-alt" href="/downloads#addon">Get the Lore Forever add-on</a></p>`;
+      <p><a class="h-btn h-book-btn" href="/downloads#addon">Get the Lore Forever add-on</a></p>`;
   }
-  return `<p><a class="btn-download dl-link" id="willo-download" href="/download/willo?src=willo"
-      aria-label="Download Willo for Windows">Download Willo for Windows</a></p>
-      <p class="dl-cta-note">Willo-Setup.exe${mb(o.bytes)} · Windows 10 or 11 · ${o.version}</p>
-      <p>Willo walks beside the free <a href="/downloads#addon">Lore Forever add-on</a>: get that first.</p>`;
+  return `<p><a class="h-btn h-willo-btn dl-link" id="willo-download" href="/download/willo?src=willo"
+      aria-label="Download Willo for Windows">${WILLO_BUTTON}</a></p>
+      <ul class="h-meta"><li>Willo-Setup.exe</li>${size(o.bytes) ? `<li>${size(o.bytes)}</li>` : ""}<li>Windows 10 or 11</li><li>${o.version}</li></ul>
+      <p class="wl-note">Willo walks beside the free <a href="/downloads#addon">Lore Forever add-on</a>: get that first.</p>`;
 }
 
 // Step 2 on /downloads (beside step 1, the add-on): Willo's own download once there's one to get, else word that
@@ -65,12 +68,14 @@ export function willoGet(sizes, preview = null) {
 export function willoSection(sizes, preview = null) {
   const o = offer(sizes, preview);
   const get = o
-    ? `<a class="btn-download dl-link" href="/download/willo?src=downloads" aria-label="Download Willo for Windows">Download Willo for Windows</a>
+    ? `<div class="dl-cta"><a class="h-btn h-willo-btn dl-link" href="/download/willo?src=downloads" aria-label="Download Willo for Windows">${WILLO_BUTTON}</a></div>
       <p class="dl-cta-note">Willo-Setup.exe${mb(o.bytes)} · Windows 10 or 11 · ${o.version}</p>`
     : `<p>Willo is almost here. Get the add-on now, and Willo joins you soon.</p>`;
-  return `<section class="dl-step dl-step-willo" id="willo" aria-labelledby="willo-title">
-      <p class="dl-step-kicker">Step 2 &middot; free to start</p>
-      <h2 id="willo-title">Willo, the companion app</h2>
+  // tone-w: Willo's blue inside the book's gold page (style.css).
+  return `<section class="dl-step dl-step-willo tone-w" id="willo" aria-labelledby="willo-title">
+      <div class="dl-step-head"><img class="dl-step-ico" src="/img/wispr.svg" alt="" width="52" height="52">
+        <div><p class="dl-step-kicker">Step 2 &middot; free to start</p>
+        <h2 id="willo-title">Willo, the companion app</h2></div></div>
       <p>Ask anything out loud and hear the answer. Needs the add-on in your game. Sign in with your Lore Forever account
         when Willo asks.</p>
       ${get}

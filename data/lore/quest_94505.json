@@ -1,0 +1,110 @@
+{
+ "key": "quest:94505",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94505
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This trial marks a fundamental rite of passage, granting a shaman communion with water spirits and their water totem to heal and sustain life."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Unlike the Horde shamans of Kalimdor, Alliance-aligned initiates report to mentors like Norric Lochthane in Loch Modan and face trials in places like Westfall."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is norric lochthane",
+    "who gives water totem",
+    "norric loch modan"
+   ],
+   "answer": "Norric Lochthane is a shaman mentor stationed in Loch Modan. He guides initiates through their trials to understand water spirits, tests their resolve with a journey to Westfall, and presents them with their water totem upon delivering proof of their communion.",
+   "q": "Who is Norric Lochthane?"
+  },
+  {
+   "aliases": [
+    "what is shard of water",
+    "shard of water use",
+    "shard of water quest item"
+   ],
+   "answer": "The Shard of Water is the physical proof brought back from Westfall to Norric Lochthane in Loch Modan. It signifies that the initiate has communed with water, grasped its life-giving nature, and learned to combat corruption.",
+   "q": "What is the Shard of Water?"
+  },
+  {
+   "aliases": [
+    "why go to westfall",
+    "westfall water quest",
+    "journey to westfall call of water"
+   ],
+   "answer": "Initiates are sent to Westfall to understand water's life-giving power and how corruption threatens it. Even modest victories in that troubled land carry weight in demonstrating the initiate's ability to protect life.",
+   "q": "Why does the trial lead to Westfall?"
+  },
+  {
+   "aliases": [
+    "what does water totem do",
+    "why do shamans need water totem",
+    "water totem lore"
+   ],
+   "answer": "The water totem embodies a shaman's bond with the element of water. While primarily known for soothing and mending wounds through pure water, its spiritual gifts extend far beyond basic healing to encompassing preservation and vitality.",
+   "q": "What is the significance of the water totem?"
+  },
+  {
+   "aliases": [
+    "what is water is life",
+    "call of water philosophy",
+    "shaman water teachings"
+   ],
+   "answer": "The elemental philosophy taught during the trial emphasizes that water gives life, whereas corruption halts it. A shaman is charged with using water's elemental power to nurture, protect, and restore balance wherever corruption threatens living things.",
+   "q": "What lesson does the trial teach about water?"
+  },
+  {
+   "aliases": [
+    "what trial comes next",
+    "next shaman trial",
+    "what happens after call of water"
+   ],
+   "answer": "Norric Lochthane notes that an initiate's next elemental trial will not come right away. He encourages shamans to take time to practice and explore water's deeper mysteries before undertaking further trials.",
+   "q": "What comes after completing the Call of Water?"
+  }
+ ],
+ "keywords": [
+  "call of water",
+  "loch modan",
+  "norric lochthane",
+  "shaman",
+  "shard of water",
+  "water totem",
+  "westfall"
+ ],
+ "related": [
+  "item:shard-of-water",
+  "zone:lochmodan",
+  "zone:westfall"
+ ],
+ "sections": [
+  {
+   "body": "The Call of Water is a vital spiritual trial undertaken by shamans to forge a bond with the element of water. Initiates are tasked with journeying to Westfall and returning to Norric Lochthane in Loch Modan with the Shard of Water. By demonstrating their understanding of water's life-giving essence and its role in purging corruption, shamans earn their water totem and take an essential step on their elemental journey.",
+   "spoiler": 0,
+   "title": "The Path of Water"
+  },
+  {
+   "body": "The trial imparts a foundational elemental truth: water is life, and corruption brings an end to life. Shamans are charged with wielding water's restorative strength to protect the vulnerable and preserve living things. As mentor Norric Lochthane observes upon receiving the Shard of Water, the pure gifts of water reach far beyond simple physical mending, touching upon endurance, renewal, and spiritual balance.",
+   "spoiler": 0,
+   "title": "Giver of Life"
+  }
+ ],
+ "summary": "The Call of Water is an elemental rite of passage where shamans learn to commune with water spirits and wield their restorative powers. By retrieving a Shard of Water from Westfall for Norric Lochthane in Loch Modan, initiates prove their dedication and receive their water totem.",
+ "attribution": [
+  "In-game quest text: Call of Water"
+ ]
+}

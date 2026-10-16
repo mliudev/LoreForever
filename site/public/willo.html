@@ -3,18 +3,77 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Willo - Lore Forever</title>
-<meta name="description" content="Willo, Lore Forever's free companion app: a little blue wisp who tells you about the places and people you meet in WoW Forever and answers when you ask.">
+<title>Willo - Voice Companion App for WoW Forever | Lore Forever</title>
+<meta name="description" content="Ask Willo anything out loud while you play WoW Forever, and the characters you target answer as themselves. Free to start on Windows 10 and 11, with the free Lore Forever add-on.">
+<link rel="canonical" href="https://loreforeverwow.com/willo">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lore Forever">
+<meta property="og:title" content="Willo - a wisp you can talk to in WoW Forever">
+<meta property="og:description" content="Ask her anything out loud while you play, and the characters you target answer as themselves. Free to start on Windows.">
+<meta property="og:url" content="https://loreforeverwow.com/willo">
+<meta property="og:image" content="https://loreforeverwow.com/img/willo-window.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="674">
+<meta property="og:image:alt" content="Willo's window beside WoW Forever, recapping your quests in the Wetlands">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Willo - a wisp you can talk to in WoW Forever">
+<meta name="twitter:description" content="Ask her anything out loud while you play, and the characters you target answer as themselves. Free to start on Windows.">
+<meta name="twitter:image" content="https://loreforeverwow.com/img/willo-window.jpg">
+<!-- Structured data (2026-10-15 revamp): Willo as a SoftwareApplication with her two clips. Price-free like the page
+     (LOR-491): the offer says only that she's free to start. No downloadUrl: the download link appears only once a
+     release has Willo (willo-get, tests/willo-download.test.mjs). The home page refers to the same @id. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://loreforeverwow.com/willo#app",
+      "name": "Willo",
+      "description": "A companion app for WoW Forever: a little blue wisp you ask anything out loud while you play. Characters you target answer as themselves.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Windows 10, Windows 11",
+      "softwareRequirements": "The Lore Forever addon",
+      "url": "https://loreforeverwow.com/willo",
+      "image": "https://loreforeverwow.com/img/willo-window.jpg",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free to start" },
+      "isPartOf": { "@id": "https://loreforeverwow.com/#website" },
+      "subjectOf": [{ "@id": "https://loreforeverwow.com/willo#clip-ask" }, { "@id": "https://loreforeverwow.com/willo#clip-character" }]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://loreforeverwow.com/willo#clip-ask",
+      "name": "Asking Willo out loud in WoW Forever",
+      "description": "Hold your talk key, ask Willo what lies across Baradin Bay, and hear her answer.",
+      "thumbnailUrl": "https://loreforeverwow.com/video/willo/willo-ask-out-loud.jpg",
+      "contentUrl": "https://loreforeverwow.com/video/willo/willo-ask-out-loud.mp4",
+      "uploadDate": "2026-10-14",
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://loreforeverwow.com/willo#clip-character",
+      "name": "A WoW Forever character answering as himself",
+      "description": "Target Deputy Willem with Willo running, ask him a question, and he answers as himself.",
+      "thumbnailUrl": "https://loreforeverwow.com/video/willo/willo-character.jpg",
+      "contentUrl": "https://loreforeverwow.com/video/willo/willo-character.mp4",
+      "uploadDate": "2026-10-14",
+      "duration": "PT22S"
+    }
+  ]
+}
+</script>
 <link rel="icon" href="/img/logo.svg" type="image/svg+xml">
 <link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
 <link rel="apple-touch-icon" href="/img/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261014w">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css?v=20261015w">
+<link rel="stylesheet" href="/willo.css?v=20261015a">
 <script src="/header.js" defer></script>
 </head>
-<body>
+<body class="bw wisp">
 
 <header class="top">
   <nav class="wrap nav" aria-label="Lore Forever">
@@ -31,90 +90,147 @@
   </nav>
 </header>
 
-<!-- Willo's page (functions/willo.js): where the add-on's "Get Willo" points (loreforeverwow.com/willo, LOR-459), as
-     Mike approved it on 2026-10-14 (the site mockup): the download, three steps, clips, her voices and a few questions.
-     Price-free, since the add-on links here (LOR-491: an add-on links to a download page, the paid side lives
-     elsewhere): the plans are on /plans, and one line links there. The function counts the visit and fills willo-get
-     from lib/willo.js: the download once a release (or a preview's test build) has Willo-Setup.exe, else word that
-     she's coming. The clip slots are placeholders until Mike's footage. Willo, your way (the plans' style page) is
-     /willo/style. -->
-<main class="wrap fb-page wl-landing">
-  <section class="wl-hero" aria-labelledby="wl-title">
-    <div class="wl-hero-main">
-      <h1 id="wl-title">Meet Willo</h1>
-      <p class="pitch">A little blue wisp who rides along while you play WoW Forever. Ask her anything, out loud, and the
-        world answers back.</p>
-      <!-- willo-get -->
-      <p class="wl-soon">Willo is almost here. Get the free Lore Forever add-on now, and Willo joins you soon.</p>
-      <!-- /willo-get -->
-    </div>
-    <img class="wl-wisp" src="/img/wispr.svg" alt="Willo, a glowing blue wisp" width="220" height="220">
-  </section>
-
-  <section aria-labelledby="wl-how">
-    <h2 id="wl-how">Wake Willo in three steps</h2>
-    <ol class="wl-tiles">
-      <li class="wl-tile"><span class="wl-step-n">1</span><h3>Get the add-on</h3>
-        <p>Free, from <a href="/downloads#addon">our downloads</a> or CurseForge. Willo listens to it to know where you
-          are.</p></li>
-      <li class="wl-tile"><span class="wl-step-n">2</span><h3>Install Willo</h3>
-        <p>Run the download. Willo finds your game by herself.</p></li>
-      <li class="wl-tile"><span class="wl-step-n">3</span><h3>Sign in and play</h3>
-        <p>Sign in with your Lore Forever account, and your wisp wakes up beside you.</p></li>
-    </ol>
-  </section>
-
-  <section aria-labelledby="wl-clips">
-    <h2 id="wl-clips">See Willo in action</h2>
-    <div class="wl-tiles">
-      <figure class="wl-tile"><div class="shot-placeholder">Clip coming soon: asking Willo out loud in game</div>
-        <figcaption>Hold your talk key, ask, and hear the answer.</figcaption></figure>
-      <figure class="wl-tile"><div class="shot-placeholder">Clip coming soon: a character answering as themselves</div>
-        <figcaption>The people you meet answer in voices of their own.</figcaption></figure>
-      <figure class="wl-tile"><div class="shot-placeholder">Clip coming soon: Willo's window and your journey</div>
-        <figcaption>Every answer stays in her window, beside your journey.</figcaption></figure>
+<!-- Willo's page (functions/willo.js): where the add-on's "Get Willo" points (loreforeverwow.com/willo, LOR-459): the
+     download, three steps, clips, her voices and a few questions, as Mike approved it on 2026-10-14, in the wisp's blue
+     of "The book and the wisp" (2026-10-15; style.css for body class "bw wisp", willo.css). Price-free, since the
+     add-on links here (LOR-491: an add-on links to a download page, the paid side lives elsewhere): the plans are on
+     /plans, and one line links there. The function counts the visit and fills willo-get from lib/willo.js: the download
+     once a release (or a preview's test build) has Willo-Setup.exe, else word that she's coming. The voices play in
+     js/players.js, one at a time. Willo, your way (the plans' style page) is /willo/style. -->
+<main class="wl-main">
+  <section class="h-hero h-sky h-sky-w" aria-labelledby="wl-title">
+    <div class="h-wrap wl-top">
+      <div class="wl-intro">
+        <div class="h-head">
+          <p class="h-eyebrow w">A companion for WoW Forever</p>
+          <h1 id="wl-title">Meet Willo</h1>
+          <p class="h-lede">A little blue wisp who rides along while you play WoW Forever. Ask her anything, out loud, and
+            the world answers back.</p>
+        </div>
+        <div class="wl-get">
+          <!-- willo-get -->
+          <p class="wl-soon">Willo is almost here. Get the free Lore Forever add-on now, and Willo joins you soon.</p>
+          <p><a class="h-btn h-book-btn" href="/downloads#addon">Get the Lore Forever add-on</a></p>
+          <!-- /willo-get -->
+        </div>
+      </div>
+      <img class="wl-wisp" src="/img/wispr.svg" alt="Willo, a glowing blue wisp" width="220" height="220">
     </div>
   </section>
 
-  <section aria-labelledby="wl-hear">
-    <h2 id="wl-hear">Hear the difference</h2>
-    <div class="wl-tiles">
-      <div class="wl-tile wl-voice"><h3>Willo's studio voice</h3><audio controls preload="none" src="/audio/willo/willo-studio.mp3"></audio>
-        <small>"There you are, friend! I was drifting about, waiting for you."</small></div>
-      <div class="wl-tile wl-voice"><h3>Willo's finest voice</h3><audio controls preload="none" src="/audio/willo/willo-finest.mp3"></audio>
-        <small>The same greeting, in her finest voice.</small></div>
-      <div class="wl-tile wl-voice"><h3>Moonwell, another of Willo's voices</h3><audio controls preload="none" src="/audio/willo/willo-moonwell.mp3"></audio>
-        <small>Pick the voice you like.</small></div>
+  <section class="h-sec" aria-labelledby="wl-how">
+    <div class="h-wrap">
+      <h2 class="h-h2" id="wl-how">Wake Willo in three steps</h2>
+      <ol class="wl-steps">
+        <li class="h-card"><span class="wl-step-n" aria-hidden="true">1</span><h3>Get the add-on</h3>
+          <p>Free, from <a href="/downloads#addon">our downloads</a> or CurseForge. Willo listens to it to know where you
+            are.</p></li>
+        <li class="h-card"><span class="wl-step-n" aria-hidden="true">2</span><h3>Install Willo</h3>
+          <p>Run the download. Willo finds your game by herself.</p></li>
+        <li class="h-card"><span class="wl-step-n" aria-hidden="true">3</span><h3>Sign in and play</h3>
+          <p>Sign in with your Lore Forever account, and your wisp wakes up beside you.</p></li>
+      </ol>
     </div>
-    <h3>Characters in voices of their own</h3>
-    <div class="wl-tiles">
-      <div class="wl-tile wl-voice"><h3>A dwarf</h3><audio controls preload="none" src="/audio/willo/dwarf.mp3"></audio></div>
-      <div class="wl-tile wl-voice"><h3>An orc</h3><audio controls preload="none" src="/audio/willo/orc.mp3"></audio></div>
-      <div class="wl-tile wl-voice"><h3>A night elf</h3><audio controls preload="none" src="/audio/willo/nightelf.mp3"></audio></div>
-      <div class="wl-tile wl-voice"><h3>A tauren</h3><audio controls preload="none" src="/audio/willo/tauren.mp3"></audio></div>
-    </div>
-    <p><small class="muted">"You want to know about the road ahead? Stay off it after dark&hellip;"</small></p>
   </section>
 
-  <p class="wl-plans-line">Free to start. <a href="/plans">See what each plan adds &rarr;</a></p>
+  <section class="h-sec wl-band" aria-labelledby="wl-clips">
+    <div class="h-wrap">
+      <h2 class="h-h2" id="wl-clips">See Willo in action</h2>
+      <div class="wl-player" id="wl-player">
+        <div class="wl-stage" id="wl-stage">
+          <video class="wl-shot" controls preload="metadata" playsinline poster="/video/willo/willo-ask-out-loud.webp"
+            src="/video/willo/willo-ask-out-loud.mp4" aria-label="Asking Willo out loud in game what lies across Baradin Bay"></video>
+          <img class="wl-shot" src="/img/willo-window.webp" width="1200" height="676" alt="" hidden>
+        </div>
+        <p class="wl-stage-cap" id="wl-cap" aria-live="polite">Hold your talk key, ask, and hear the answer.</p>
+        <div class="wl-picks">
+          <button type="button" class="wl-pick" aria-pressed="true" aria-controls="wl-stage"
+            data-video="/video/willo/willo-ask-out-loud.mp4" data-poster="/video/willo/willo-ask-out-loud.webp"
+            data-label="Asking Willo out loud in game what lies across Baradin Bay"
+            data-caption="Hold your talk key, ask, and hear the answer.">
+            <img src="/video/willo/willo-ask-out-loud.webp" alt="" loading="lazy"><span>Ask out loud</span></button>
+          <button type="button" class="wl-pick" aria-pressed="false" aria-controls="wl-stage"
+            data-video="/video/willo/willo-character.mp4" data-poster="/video/willo/willo-character.webp"
+            data-label="Deputy Willem answering as himself"
+            data-caption="The people you meet answer in voices of their own.">
+            <img src="/video/willo/willo-character.webp" alt="" loading="lazy"><span>Characters answer</span></button>
+          <button type="button" class="wl-pick" aria-pressed="false" aria-controls="wl-stage"
+            data-image="/img/willo-window.webp"
+            data-label="Willo's window: asked what you've been up to, she recaps your quests in the Wetlands"
+            data-caption="Every answer stays in her window, beside your journey.">
+            <img src="/img/willo-window.webp" alt="" loading="lazy"><span>Her window</span></button>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section class="h-sec" aria-labelledby="wl-hear">
+    <div class="h-wrap">
+      <h2 class="h-h2" id="wl-hear">Hear the difference</h2>
+      <div class="wl-tracks">
+        <div class="h-track"><button class="h-play" type="button" aria-pressed="false" aria-label="Play Willo's studio voice" data-src="/audio/willo/willo-studio.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button><b>Willo's studio voice</b><span>"There you are, friend! I was drifting about, waiting for you."</span><div class="h-bar"><i></i></div></div>
+        <div class="h-track"><button class="h-play" type="button" aria-pressed="false" aria-label="Play Willo's finest voice" data-src="/audio/willo/willo-finest.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button><b>Willo's finest voice</b><span>The same greeting, in her finest voice.</span><div class="h-bar"><i></i></div></div>
+        <div class="h-track"><button class="h-play" type="button" aria-pressed="false" aria-label="Play Moonwell, another of Willo's voices" data-src="/audio/willo/willo-moonwell.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button><b>Moonwell, another of Willo's voices</b><span>Pick the voice you like.</span><div class="h-bar"><i></i></div></div>
+      </div>
+      <h3 class="h-h3 wl-chars">Characters in voices of their own</h3>
+      <div class="wl-tracks wl-tracks-4">
+        <div class="h-track"><button class="h-play" type="button" aria-pressed="false" aria-label="Play a dwarf answering" data-src="/audio/willo/dwarf.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button><b>A dwarf</b><div class="h-bar"><i></i></div></div>
+        <div class="h-track"><button class="h-play" type="button" aria-pressed="false" aria-label="Play an orc answering" data-src="/audio/willo/orc.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button><b>An orc</b><div class="h-bar"><i></i></div></div>
+        <div class="h-track"><button class="h-play" type="button" aria-pressed="false" aria-label="Play a night elf answering" data-src="/audio/willo/nightelf.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button><b>A night elf</b><div class="h-bar"><i></i></div></div>
+        <div class="h-track"><button class="h-play" type="button" aria-pressed="false" aria-label="Play a tauren answering" data-src="/audio/willo/tauren.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button><b>A tauren</b><div class="h-bar"><i></i></div></div>
+      </div>
+      <p class="wl-quote">"You want to know about the road ahead? Stay off it after dark&hellip;"</p>
+      <div class="h-card wl-plans-line"><img src="/img/wispr.svg" alt="" width="44" height="44"><p><b>Free to start.</b></p>
+        <a class="h-btn h-ghost h-sm" href="/plans">See what each plan adds</a></div>
+    </div>
+  </section>
 
-  <section aria-labelledby="wl-faq">
-    <h2 id="wl-faq">Questions</h2>
-    <div class="wl-faq">
-      <div><h3>Does Willo play the game for me?</h3><p>Never. She listens, looks and talks. You do all the playing.</p></div>
-      <div><h3>Is the add-on still free?</h3><p>Always. Lore Forever works on its own, with every story and narration.</p></div>
-      <div><h3>Mac?</h3><p>Willo is Windows only for now. The add-on works on Mac.</p></div>
-      <div><h3>Why do I sign in?</h3><p>So Willo remembers your journey and your plan. See <a href="/privacy">what we keep</a>.</p></div>
+  <section class="h-sec wl-faq-sec" aria-labelledby="wl-faq">
+    <div class="h-wrap">
+      <h2 class="h-h2" id="wl-faq">Questions</h2>
+      <div class="wl-faq">
+        <div><h3>Does Willo play the game for me?</h3><p>Never. She listens, looks and talks. You do all the playing.</p></div>
+        <div><h3>Is the add-on still free?</h3><p>Always. Lore Forever works on its own, with every story and narration.</p></div>
+        <div><h3>Mac?</h3><p>Willo is Windows only for now. The add-on works on Mac.</p></div>
+        <div><h3>Why do I sign in?</h3><p>So Willo remembers your journey and your plan. See <a href="/privacy">what we keep</a>.</p></div>
+      </div>
     </div>
   </section>
 </main>
 
-<footer class="wrap foot">
-  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
-  <p><a href="/privacy">Privacy</a>: what we keep and why. <a href="/terms">Terms</a> and <a href="/refunds">refunds</a>.</p>
-  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
-    Not affiliated with or endorsed by Blizzard.</p>
+<!-- The footer, as on the home page (style.css .h-foot): the optional email sign-up (js/foot.js sends it to
+     functions/api/subscribe.js, saved with this page's data-source; no confirmation email, /unsubscribe takes an
+     address off), then the site's parts in columns. -->
+<footer class="h-foot">
+  <div class="h-wrap">
+    <div class="h-foot-grid">
+      <div class="h-sign">
+        <span class="h-brand"><img src="/img/logo.svg" alt="" width="30" height="30">Lore Forever</span>
+        <p>One email when a new version is out, and your address is used for nothing else
+          (<a href="/privacy">privacy</a>). <a href="/unsubscribe">Unsubscribe anytime</a>.</p>
+        <form class="h-sub-form" id="signup" data-source="willo-page">
+          <label for="signup-email" class="h-vh">Email address</label>
+          <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
+          <input type="text" name="website" class="h-vh" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button type="submit" class="h-btn h-ghost h-sm">Notify me</button>
+          <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
+        </form>
+      </div>
+      <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/lore">Lore library</a></li><li><a href="/whats-new">What's new</a></li></ul></nav>
+      <nav aria-label="Willo"><h2>Willo</h2><ul><li><a href="/willo">Meet Willo</a></li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li><li><a href="/faq">FAQ</a></li></ul></nav>
+      <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/translate">Help translate</a></li><li><a href="/contributors">Contributors</a></li></ul></nav>
+      <nav aria-label="About"><h2>About</h2><ul><li><a href="/feedback">Send feedback</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/refunds">Refunds</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
+    </div>
+    <div class="h-legal">
+      <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+      <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+        Not affiliated with or endorsed by Blizzard.</p>
+    </div>
+  </div>
 </footer>
+<script src="/js/willo-clips.js?v=20261014z" defer></script>
+<script src="/js/players.js?v=20261015a" defer></script>
+<script src="/js/foot.js?v=20261015a" defer></script>
 </body>
 </html>

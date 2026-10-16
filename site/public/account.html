@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261014y">
+<link rel="stylesheet" href="/style.css?v=20261015w">
 <script src="/header.js" defer></script>
 <script src="/js/share.js" defer></script>
 </head>
@@ -73,8 +73,8 @@
         level, race and class, and the places, quests, people, foes, bosses, dungeons, deaths, level-ups, spells,
         mounts, professions, finds, reputation and books it lists. We don't keep the record itself, or anyone else's
         name. Those facts about your character (never your email or name) also go to the service that writes your
-        story. Your profile stays private until you make it public. If you connect the companion app, it sends the
-        same record after each <code>/reload</code> or logout, and we keep when it last did.</p>
+        story. Your profile stays private until you make it public. If you sign in to Willo, the companion app, she sends
+        the same record after each <code>/reload</code> or logout, and we keep when it last did.</p>
       <p>Delete my account (on this page once you're signed in) removes all of that at once, along with what's
         listed under your name on the site and the recordings you uploaded here. If you sent us a voice for review,
         the record of the <a href="/voices/release">narrator release</a> you signed for it is kept as proof of the
@@ -128,7 +128,7 @@
          there's a connected app, or with the companion feature on (lib/features.js). -->
     <nav class="ac-tabs" id="ac-tabs" aria-label="Your account">
       <a href="#profile" id="tab-profile" data-tab="profile">Profile</a><a href="#apps" id="tab-apps"
-        data-tab="apps" hidden>Companion</a><a href="#contribute" id="tab-contribute"
+        data-tab="apps" hidden>Willo</a><a href="#contribute" id="tab-contribute"
         data-tab="contribute">Contribute</a><a href="#account" id="tab-account" data-tab="account">Account</a>
     </nav>
 
@@ -209,11 +209,11 @@
       <section class="fb-form" aria-labelledby="ac-apps-title">
         <h2 id="ac-apps-title">Connected apps</h2>
         <div id="ac-noapps">
-          <p>The Lore Forever companion app on your PC can keep your profile up to date by itself, with no copying and
+          <p>Willo, Lore Forever's companion app, can keep your profile up to date by herself, with no copying and
             pasting.</p>
           <ol class="pf-steps">
-            <li>Get it with the Windows installer on <a href="/downloads">Downloads</a>, if you haven't yet.</li>
-            <li>In the companion, open Settings and click <strong>Connect to my profile</strong>.</li>
+            <li>Get Willo from <a href="/willo">her page</a>, if you haven't yet.</li>
+            <li>Open Willo and click <strong>Sign in to wake Willo</strong>.</li>
           </ol>
         </div>
         <div id="ac-app-list"></div>
@@ -520,11 +520,12 @@
     row.className = "ac-app";
     row.innerHTML = `<p><strong></strong><br><span class="vp-note"></span></p>
       <button class="btn-small btn-small-alt" type="button">Disconnect</button>`;
-    row.querySelector("strong").textContent = d.label || "Lore Forever companion";
+    // Every link so far is Willo; older ones carry the companion's first name (lib/devices.js LABEL).
+    row.querySelector("strong").textContent = !d.label || d.label === "Lore Forever companion" ? "Willo" : d.label;
     row.querySelector(".vp-note").textContent = "Connected " + when(d.created) +
       (d.last_sync ? " · last updated your profile " + when(d.last_sync) : " · hasn't updated your profile yet");
     row.querySelector("button").addEventListener("click", async () => {
-      if (!confirm("Disconnect this app? It stops updating your profile. You can connect it again from the companion.")) return;
+      if (!confirm("Disconnect Willo on this PC? She stops answering and updating your profile until you sign in again in her window.")) return;
       const res = await send("/api/device/revoke", { id: d.id });
       if (res.ok) { showApps(res.devices); appsStatus("Disconnected.", true); } else appsStatus(res.error);
     });
@@ -542,12 +543,12 @@
     const auto = $("pf-auto");
     if (devices.length) {
       auto.hidden = false;
-      auto.textContent = "Your companion app keeps this up to date by itself after each /reload or logout" +
-        (synced ? ` (last update ${when(synced)}).` : ". Its first update comes after your next /reload or logout.");
+      auto.textContent = "Willo keeps this up to date by herself after each /reload or logout" +
+        (synced ? ` (last update ${when(synced)}).` : ". Her first update comes after your next /reload or logout.");
     } else if (features.companion) {
       auto.hidden = false;
-      auto.textContent = "Have the Lore Forever companion on your PC? It can keep this up to date for you, with no " +
-        "copying and pasting: in its Settings, click Connect to my profile.";
+      auto.textContent = "Have Willo on your PC? She can keep this up to date for you, with no copying and pasting: " +
+        "sign in in her window.";
     } else auto.hidden = true;
   }
 
@@ -650,7 +651,7 @@
     pfStatus(done === "copied" ? "Link copied." : done === "failed" ? "Your link: " + url : "", true);
   });
   $("pf-delete").addEventListener("click", async () => {
-    const apps = $("ac-app-list").children.length ? " Your companion app is disconnected too." : "";
+    const apps = $("ac-app-list").children.length ? " Willo is disconnected too." : "";
     if (!confirm("Delete your profile? Your account stays, and you can make a new one any time." + apps)) return;
     const res = await send("/api/profile/delete");
     if (res.ok) { showProfile(null); pfStatus("Your profile is deleted.", true); loadApps(); } else pfStatus(res.error);

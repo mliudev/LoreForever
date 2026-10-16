@@ -5,7 +5,9 @@
 --                                          lore text only: spoiler flags, links and metadata stay the English ones.
 --                                          faq is the entry's own FAQs in order; fx the questions lore.questions
 --                                          appended (their add is the id), by id, so they never depend on position
---                                          and an entry may carry fx alone (no fp) while the rest of it is stale
+--                                          and an entry may carry fx alone (no fp) while the rest of it is stale;
+--                                          such an entry, or one with no translation, may also carry n: the entry's
+--                                          sourced native name, which applies whatever the English text
 --   P.names[name] = key, P.quests[title] = key
 --                                          what the game client calls NPCs, places and quests in that language
 --   P.shown[key] = name                    the same, by entry, for places and quests only: what the panel header and the
@@ -255,6 +257,24 @@ local function mergeFx(e, fx)
   end
 end
 
+-- An entry's name in the reading language (nil: it keeps its own). The English one stays as e.en, so a list search
+-- finds either. The name finds the entry in answer text too (Engine:Mentions), without taking over a name the client
+-- already uses for something else; places also get it in the zone table (primer, "Entering ...").
+local function mergeName(db, key, e, name)
+  local oldName = e.n
+  e.n = name or e.n
+  if e.n ~= oldName then
+    e.en = e.en or oldName
+    if not db.index.name[lower(e.n)] then db.index.name[lower(e.n)] = key end
+  end
+  local typ, rest = key:match("^(%a+):(.+)$")
+  if ZONE_TYPES[typ or ""] and db.zones and db.zones[rest] then
+    local z = db.zones[rest]
+    if e.n ~= z.n then z.en = z.en or z.n end
+    z.n = e.n
+  end
+end
+
 -- A frozen community language pack (P.frozen: UALL's Ukrainian, ruRU, itIT, esMX; Mike, 2026-10-12: "freeze it")
 -- is the community's text as they last sent it, and it changes only when they send edits. Where our English has moved
 -- on since a translation was made (its fp no longer matches), the translation stays rather than falling back to
@@ -299,15 +319,18 @@ function Lang.MergeEntries(db, w, merged)
     local current = e and t.fp ~= nil and t.fp == Lang.Fingerprint(e)
     local secFlags, faqFlags
     if e and not current and w.frozen and t.fp ~= nil then secFlags, faqFlags = translatedFlags(t.fp, t) end
-    if not e or (t.fp == nil and t.fx) then
-      -- gone, or only appended FAQs: the rest of the entry's translation is out of date
+    if not e then
+      -- gone
+    elseif t.fp == nil then
+      -- the rest of the entry's translation is out of date: only its appended FAQs (above) and its name, the sourced
+      -- one, which doesn't depend on the English text
+      if t.n then mergeName(db, key, e, t.n) end
     elseif not current and not w.frozen then
       skipped = skipped + 1
     else
       if current then merged[key] = true end   -- (complete-story recordings need the current translation)
-      local oldName = e.n
-      e.n, e.s, e.h = t.n or e.n, t.s or e.s, t.h or e.h
-      if e.n ~= oldName then e.en = e.en or oldName end   -- the English name, so a list search finds either
+      mergeName(db, key, e, t.n)
+      e.s, e.h = t.s or e.s, t.h or e.h
       if t.kw then
         -- Keep the English keywords too, so English names still find the entry.
         local seen, kw = {}, {}
@@ -347,15 +370,6 @@ function Lang.MergeEntries(db, w, merged)
           local o = owned[i]
           if o and (o.sp or 0) >= (faqFlags[i] or 0) then o.q, o.a, o.al = f.q or o.q, f.a or o.a, f.al or o.al end
         end
-      end
-      -- The translated name finds the entry in answer text too (Engine:Mentions), without taking over a name the
-      -- client already uses for something else; places also get it in the zone table (primer, "Entering ...").
-      if e.n ~= oldName and not db.index.name[lower(e.n)] then db.index.name[lower(e.n)] = key end
-      local typ, rest = key:match("^(%a+):(.+)$")
-      if ZONE_TYPES[typ or ""] and db.zones and db.zones[rest] then
-        local z = db.zones[rest]
-        if e.n ~= z.n then z.en = z.en or z.n end
-        z.n = e.n
       end
     end
   end

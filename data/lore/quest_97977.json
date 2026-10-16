@@ -1,0 +1,117 @@
+{
+ "key": "quest:97977",
+ "type": "quest",
+ "name": "Nature's Call",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97977
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The Gnarlpine were long-standing companions to the night elves, making their descent into hostility and madness a deeply personal tragedy for the defenders of Teldrassil."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids are attuned to the natural balance and spiritual corruption affecting the creatures of Kalimdor, making the nightmare-fueled corruption of furbolg totems an alarming development."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing the boughs of Teldrassil is essential for protecting the fledgling night elven realm and ensuring their newfound Alliance allies remain anchored on Kalimdor."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives nature's call",
+    "who is tarindrella",
+    "tarindrella location"
+   ],
+   "answer": "Tarindrella is a dryad found watching over Shadowglen in Teldrassil. Concerned by the sudden hostility of the local Gnarlpine furbolg, she directs adventurers to recover relics from their abandoned camps to investigate the source of their madness.",
+   "q": "Who gives the quest Nature's Call?"
+  },
+  {
+   "aliases": [
+    "why did gnarlpine attack",
+    "why are gnarlpine mad",
+    "what happened to gnarlpine furbolgs"
+   ],
+   "answer": "Engravings recovered from Gnarlpine totems reveal that the furbolg began suffering terrible nightmares of a looming shadow threatening to destroy them. That creeping dread warped into uncontrollable paranoia and fury, leading them to see their ancient night elf allies as enemies.",
+   "q": "Why did the Gnarlpine furbolgs turn hostile?"
+  },
+  {
+   "aliases": [
+    "where are the gnarlpine totems",
+    "find gnarlpine totems",
+    "gnarlpine camp location"
+   ],
+   "answer": "The smaller totems can be found within the abandoned Gnarlpine furbolg camps situated along the western edge of the glen, though grell and grellkin scavenging through the ruins have scattered some across the surrounding area.",
+   "q": "Where are the Gnarlpine totems located?"
+  },
+  {
+   "aliases": [
+    "why large totems ignored",
+    "can i loot big totems",
+    "big gnarlpine totem"
+   ],
+   "answer": "Tarindrella specifically advises against attempting to retrieve the larger totems found in the camps. As a dryad, she notes that she would have no idea what to do with such cumbersome carvings, preferring smaller, transportable engraved totems instead.",
+   "q": "Why can't players collect the larger totems in the camps?"
+  },
+  {
+   "aliases": [
+    "who are the gnarlpine",
+    "gnarlpine lore",
+    "are gnarlpine evil"
+   ],
+   "answer": "The Gnarlpine are a tribe of furbolg native to Teldrassil who lived alongside the night elves as peaceful allies. Their recent transformation into aggressive foes is an unnatural development caused by creeping nightmares rather than ancient malice.",
+   "q": "Who are the Gnarlpine furbolg?"
+  },
+  {
+   "aliases": [
+    "what shadow gnarlpine",
+    "what is the shadow in teldrassil",
+    "nightmares in teldrassil"
+   ],
+   "answer": "The engravings speak of an unseen Great Shadow haunting the furbolg's dreams. While the exact origin of this dark influence remains unknown, Tarindrella hopes deciphering their fate will help unravel the broader corruption afflicting Teldrassil.",
+   "q": "What is the great shadow mentioned in the totems?"
+  }
+ ],
+ "keywords": [
+  "furbolg",
+  "gnarlpine",
+  "grell",
+  "grellkin",
+  "nature's call",
+  "nightmares",
+  "shadowglen",
+  "tarindrella",
+  "teldrassil",
+  "totem"
+ ],
+ "related": [
+  "npc:tarindrella",
+  "topic:furbolg",
+  "quest:940"
+ ],
+ "sections": [
+  {
+   "body": "Nature's Call is an investigative mission in Shadowglen given by the dryad Tarindrella. Refusing to believe that the Gnarlpine furbolg would abandon centuries of friendship with the night elves without reason, she asks travelers to comb through the furbolgs' hastily abandoned camps along the western border of the glen to recover intact engraved totems.",
+   "spoiler": 0,
+   "title": "Investigating the Glen"
+  },
+  {
+   "body": "Deciphering the recovered totems reveals a tragic descent into madness. The Gnarlpine were plagued by recurring nightmares of an encroaching shadow destined to wipe them out. Over time, sheer terror curdled into blind rage, warping their minds until they viewed their longtime elven neighbors as the very shadow they feared. Tarindrella hopes these findings will shed light on the deeper malaise creeping through Teldrassil.",
+   "spoiler": 1,
+   "title": "The Shadow and the Nightmare"
+  }
+ ],
+ "summary": "Nature's Call is a Shadowglen quest where the dryad Tarindrella seeks to uncover why the local Gnarlpine furbolgs suddenly turned against their long-standing night elf allies. By gathering carved totems from their abandoned camps, adventurers help reveal the distressing spiritual corruption spreading through Teldrassil.",
+ "attribution": [
+  "In-game quest text: Nature's Call"
+ ]
+}

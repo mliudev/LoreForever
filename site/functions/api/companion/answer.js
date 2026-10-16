@@ -4,14 +4,18 @@
 import { setup, fail, noStore } from "../../../lib/accounts.js";
 import { currentDevice } from "../../../lib/devices.js";
 import { perDay, perPeriod } from "../../../lib/ratelimit.js";
+import { markAsked } from "../../../lib/activity.js";
 import { allowance, reserveAnswer, answerReservation, writeAnswer, lookUp, uncapped, personaOf, styleOf,
   COMPACTIONS_PER_DAY, ANSWER_PROMPT_BYTES, ANSWER_IMAGE_CHARS, LORE_FOCUS, TRAIL_COLD, CUSTOM_PROMPT_BYTES }
   from "../../../lib/companion-answers.js";
 import { promptParts, knowledgeFor } from "../../../lib/forever-knowledge.js";
 import { feedbackKind, logFeedback } from "../../../lib/answer-feedback.js";
-import { cachedFinding, keepFinding, findingBlock, wantsSearch } from "../../../lib/research-cache.js";
+import { cachedFinding, keepFinding, findingBlock, wantsSearch, realWorld } from "../../../lib/research-cache.js";
+import { helpBlock, helpTopics, stateOf } from "../../../lib/willo-help.js";
+import { lookupsFor, actionsFor, actionOf, offerInstead, freeKey, SAYS_DONE } from "../../../lib/willo-tools.js";
+import { WILLO_PICKS } from "../../../lib/companion-voice.js";
 import { planFor, plansOn, holdUserSpend, releaseUserSpend, addUserSpend, useStarter, returnStarter, offersFor,
-  poolWindow, overTextCap, PLANS } from "../../../lib/billing.js";
+  poolWindow, overTextCap, companionFeatures, PLANS } from "../../../lib/billing.js";
 import { promptBlocks, NPC_KEY } from "../../../lib/willo-custom.js";
 
 const CLIENT = /^companion\/[\w.-]{1,24}$/;
@@ -54,7 +58,8 @@ export async function onRequest(context) {
   return work;
 }
 
-async function answerQuestion({ request, env }, hold) {
+async function answerQuestion(context, hold) {
+  const { request, env } = context;
   const started = Date.now();
   if (!env.DB) return fail(503, "Accounts aren't set up yet.");
   await setup(env);
@@ -98,6 +103,10 @@ async function answerQuestion({ request, env }, hold) {
   if (typeof prompt !== "string" || !prompt.trim() || new TextEncoder().encode(prompt).length > ANSWER_PROMPT_BYTES)
     return fail(400, "That question has too much context. Try a shorter question.");
   if (typeof researchRequired !== "boolean") return fail(400, "Research preference must be true or false.");
+  // Willo's own state, sent with her answers (LOR-546): lifted out of the prompt, for her help to use when the
+  // question is about her (below), never otherwise.
+  let state;
+  ({ state, prompt } = stateOf(prompt));
   const now = new Date();
   const compact = operation === "compact";
   // What WoW Forever changed, for this question and place (LOR-446), looked up while the allowance is checked.
@@ -108,6 +117,11 @@ async function answerQuestion({ request, env }, hold) {
   // The plan sets the daily answers; a paying player skips the shared monthly budget and has a cost cap instead.
   const plan = await planFor(env, app.user.id, now);
   const subscriber = plan.id !== "free";
+  // Willo's daily and weekly players (lib/activity.js markAsked, LOR-524): every question counts, answered or not.
+  if (!compact) {
+    const asked = markAsked(env, app.user.id, now.getTime());
+    if (context.waitUntil) context.waitUntil(asked); else await asked;
+  }
   // The free plan, while plans are on (Mike, 2026-10-12): its answers stay with the world's lore (LORE_FOCUS below),
   // without looking online or the game picture. Willo still speaks in its own voice (style "spoken" stays).
   if (plansOn(env) && !subscriber) [researchRequired, autoResearch, image] = [false, false, null];
@@ -139,15 +153,40 @@ async function answerQuestion({ request, env }, hold) {
   const dispute = operation === "answer" ? feedbackKind(parts.question, parts.previous) : null;
   const known = knowledge ? await knowledge : { facts: [], block: "" };
   const stronger = Boolean(PLANS[plan.id]?.stronger);
-  const wantsResearch = operation === "answer" && (researchRequired || autoResearch);
+  // The site's look-ups for this question (lib/willo-tools.js lookupsFor, LOR-546). A question about Willo herself:
+  // her own help, what her app says of itself right now and, about plans, the answers left, never a look online.
+  const lookups = compact ? [] : lookupsFor(parts.question, { previous: parts.previousQuestion, persona, operation,
+    plans: plansOn(env) });
+  const usage = lookups.includes("answers_left") ? await allowance(env, app.user.id, now, exempt, plan) : null;
+  const help = lookups.includes("help") ? helpBlock(parts.question, { plans: plansOn(env), plan: plan.name,
+    client: request.headers.get("X-LF-Client"), state, usage }) : "";
+  // What her answer may offer to do for them (lib/willo-tools.js actionsFor, LOR-546 slice 2), by what the question
+  // asks of her: her voices only where the plan picks one, never the one she speaks in now (WILLO STATE's "voice now"),
+  // a talk key only the one her own check found free, and "Willo and the game" when her check says Live game info is off.
+  // Consent (slice 3): Live game info or seeing the game, only when it's off in her window, and seeing the game only on
+  // a plan with it (lib/billing.js companionFeatures).
+  const actions = help ? actionsFor(helpTopics(parts.question, { plans: plansOn(env) }), {
+    voices: plan.voice?.choice ? Object.keys(WILLO_PICKS) : [], current: /^voice now: (\w+)/m.exec(state)?.[1] || "",
+    key: freeKey(state), liveOff: /^live: (?:bad|warn)\b/m.test(state),
+    fixable: /^\w+: (?:bad|warn), .*; fix: /m.test(state), spoken: Boolean(style), plans: plansOn(env),
+    off: { live: /^live: off\b/m.test(state), sight: /\bseeing the game when asked out loud: off\b/.test(state) },
+    sight: !plansOn(env) || companionFeatures(plan).sight }) : [];
+  // The player's own world (their graphics card, the game's settings, addons, prices: lib/research-cache.js realWorld)
+  // goes stale, so it looks online typed too, not only spoken (research "auto"), where the free plan would (LOR-545).
+  // A short follow-up to one ("I'm in Seattle") is looked up with the question before it.
+  const real = lookups.includes("web");
+  const lookFor = !real ? "" : realWorld(parts.question) ? parts.question : `${parts.previousQuestion} (${parts.question})`;
+  const lookOnline = !(plansOn(env) && !subscriber);
+  const wantsResearch = operation === "answer" && (researchRequired || ((autoResearch || real) && lookOnline && !help));
   let strong = stronger && !compact;
   const longMemory = Boolean(PLANS[plan.id]?.longMemory) && compact;
   // Looking it up (LOR-446). What another player's search found for the same question here answers without searching
   // again, for required research too. research "auto" (the companion asks for it with spoken questions) looks online
   // quickly only when the lore and Forever facts can't answer: a practical or current question or a correction that no
   // fact covers (lib/research-cache.js wantsSearch). One it wouldn't look up gets no earlier finding either, so where
-  // am I or a lore question never shows web sources.
-  const searchable = wantsResearch && (researchRequired || wantsSearch(parts.question, dispute, known.facts));
+  // am I or a lore question never shows web sources. Forever facts never cover the player's own world: "the best
+  // graphics card for WoW?" shares "best" and "WoW" with facts about Dalaran.
+  const searchable = wantsResearch && (researchRequired || real || wantsSearch(parts.question, dispute, known.facts));
   let finding = searchable ? await cachedFinding(env, parts, now) : null;
   const cached = Boolean(finding);
   let research = researchRequired && !finding;
@@ -182,7 +221,9 @@ async function answerQuestion({ request, env }, hold) {
   // inside its cost caps that players never see as a number: past them, the month's answers don't look online, and
   // their hold shrinks to fit. A finding another player's search kept costs nothing, so it isn't counted, and still
   // answers. One that would have looked gets TRAIL_COLD: a warm in-world line when it truly needs fresh news.
-  let trailCold = false;
+  // The free plan never looks online, so its questions about the player's own world get the same plain line about the
+  // very latest (LOR-545: without it Flash-Lite named last year's cards as today's and made up a town's weather).
+  let trailCold = !lookOnline && operation === "answer" && !help && (real || /\b(?:weather|forecast)\b/i.test(parts.question));
   if ((research || quick) && plansOn(env) && !exempt && !(await perPeriod(env, app.user.id, "companion-lookup",
       poolWindow(plan, now).key, plan.lookupsPerMonth || 0))) {
     research = quick = false;
@@ -196,10 +237,11 @@ async function answerQuestion({ request, env }, hold) {
     try { custom = await promptBlocks(env, app.user.id, plan, { operation, npc }); }
     catch (e) { console.warn(`companion answer: customization: ${e?.message || e}`); }
   } else if (plansOn(env) && operation === "answer") custom = { system: LORE_FOCUS, tale: false };
-  if (trailCold) {
-    const system = [custom.system, TRAIL_COLD].filter(Boolean).join("\n\n");
-    if (new TextEncoder().encode(system).length <= CUSTOM_PROMPT_BYTES) custom = { ...custom, system };
-  }
+  const coldTrail = system => {
+    const cold = [system, TRAIL_COLD].filter(Boolean).join("\n\n");
+    return new TextEncoder().encode(cold).length <= CUSTOM_PROMPT_BYTES ? cold : system;
+  };
+  if (trailCold) custom = { ...custom, system: coldTrail(custom.system) };
   const reserved = await reserveAnswer(env, now, research, operation, quick, { paid, strong, longMemory });
   if (!reserved) {
     // A starter answer taken for a question that never reached the model goes back.
@@ -224,20 +266,31 @@ async function answerQuestion({ request, env }, hold) {
   try {
     // The quick look online writes a finding first (companion-answers.js lookUp), kept for the next player; the answer
     // is then written from it. Without one (no evidence, too slow) it's answered as it would have been.
-    const look = quick ? await lookUp(env, parts, now) : null;
+    const look = quick ? await lookUp(env, real ? { ...parts, question: lookFor } : parts, now, { real }) : null;
     lookCost = look?.counted || 0;
     const looked = look?.found;
     if (looked) {
       finding = { answer: looked.answer, sources: looked.web_sources, created: now.toISOString() };
       await keepFinding(env, parts, looked.answer, looked.web_sources, now);
+    } else if (real && quick) {
+      // A look at the player's own world that found nothing (Flash-Lite skips the search about 1 time in 9): the plain
+      // line about the very latest, never last year's graphics cards as today's.
+      custom = { ...custom, system: coldTrail(custom.system) };
     }
     // Required research searches instead (companion-answers.js systemPrompt), so it gets no facts.
-    const facts = research ? [] : known.facts;
-    const knowledgeText = [research ? "" : known.block, findingBlock(finding)].filter(Boolean).join("\n\n");
-    const { model_ms, counted, ...result } = await writeAnswer(env, prompt, now, research, operation,
-      { persona, style, image, facts: knowledgeText, dispute, custom: custom.system, strong, longMemory })
+    // ...and a question about the player's own world gets none either: Forever facts never answer it (above).
+    // A question about Willo herself gets none either: her help answers it, and facts about Westfall only get in its way.
+    const facts = research || real || help ? [] : known.facts;
+    const knowledgeText = [research || real || help ? "" : known.block, findingBlock(finding)].filter(Boolean).join("\n\n");
+    const { model_ms, counted, call, ...result } = await writeAnswer(env, prompt, now, research, operation,
+      { persona, style, image, facts: knowledgeText, help, dispute, custom: custom.system, strong, longMemory, actions })
       .finally(() => logged);
     await settle(counted);
+    // The one action her answer offers, checked against what was offered; never run here. An offer that came without
+    // words gets a line of hers that offers it, and one with words saying it's done already loses those words for it.
+    const action = actionOf(call, actions);
+    if (!compact && !result.answer && !action) throw new Error("Empty answer");
+    if (action && (!result.answer || SAYS_DONE.test(result.answer))) result.answer = offerInstead(result.answer, action);
     if (finding) {
       result.web_sources = finding.sources;
       result.web_search = looked ? looked.web_search : { status: "searched", queries: [], suggestions_html: "" };
@@ -250,9 +303,15 @@ async function answerQuestion({ request, env }, hold) {
     // Forever facts the answer was given; feedback: what we kept of this message ("correction", "frustration");
     // looked_up: "required", "quick" (research "auto" looked online and found something), "cached" (an earlier
     // search's finding) or "no". tale: the reply used the player's own tale, which the companion marks on it.
+    // lookups: the site's look-ups the answer was written with (lib/willo-tools.js LOOKUPS), for the companion's log.
+    // action: what the answer offers to do, {id, args, label} (lib/willo-tools.js ACTIONS), for Willo's app to show as a
+    // button and run on a tap; only with an answer of hers about herself.
+    const used = [...(facts.length ? ["forever_facts"] : []), ...(cached || research || looked ? ["web"] : []),
+      ...(help ? ["help", ...(state ? ["state"] : []), ...(usage ? ["answers_left"] : [])] : [])];
     return Response.json({ ok: true, ...result, allowance: left, timing: { model_ms, total_ms: Date.now() - started },
-      ...(compact ? {} : { forever_facts: facts.map(f => f.title),
+      ...(compact ? {} : { forever_facts: facts.map(f => f.title), lookups: used,
         looked_up: cached ? "cached" : research ? "required" : looked ? "quick" : "no" }),
+      ...(action ? { action } : {}),
       ...(dispute ? { feedback: dispute } : {}), ...(custom.tale ? { tale: true } : {}) }, { headers: noStore });
   } catch (e) {
     await settle(e?.counted);

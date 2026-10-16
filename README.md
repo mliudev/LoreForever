@@ -56,10 +56,11 @@ Other narration voices can be installed the same way. Choose your language and v
 
 ## Willo, your optional companion
 
-The Windows installer can also install Willo, a little blue wisp of light. It keeps live questions and answers in a
-visible chat, plays published lore recordings with their text, and can sync your journey and pictures to your
-connected website profile after `/reload` or logout. Profile linking and Picture Book are optional; connect your
-profile for the free live-answer allowance.
+Willo is Lore Forever's free companion app for Windows, a little blue wisp of light beside your game. Chat with her
+while you play, click her for a chat right in game, and target a character to have them answer you themselves. She
+installs on her own, separate from the add-on: `Willo-Setup.exe` on each release, or from
+[loreforeverwow.com/willo](https://loreforeverwow.com/willo), and she needs a free Lore Forever account. She can also
+sync your journey and pictures to your website profile after `/reload` or logout.
 The in-game add-on continues to work offline without Willo.
 
 ## What it does

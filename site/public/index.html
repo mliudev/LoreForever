@@ -3,32 +3,38 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lore Forever - WoW Forever Lore Addon for Zone &amp; Quest Story</title>
-<meta name="description" content="Zone, quest and dungeon lore for WoW Forever. The storyline behind every zone, quest and dungeon up to level 30, including Zephras Isle and the Hall of Thanes, without leaving the game.">
+<!-- Search (LOR-465, revamped 2026-10-15 from Search Console): "lore forever" and "wow forever lore addon" bring most
+     clicks, so the title keeps that phrase and adds narration; Willo is in the description. -->
+<title>Lore Forever - Free WoW Forever Lore Addon, Narrated</title>
+<meta name="description" content="Free WoW Forever addon: hear the story of every zone, quest and dungeon read aloud, ask about anyone you meet, and meet Willo, a companion you can talk to.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lore Forever">
-<meta property="og:title" content="Lore Forever - WoW Forever Lore Addon">
-<meta property="og:description" content="Zone, quest and dungeon lore for WoW Forever. The storyline behind every zone, quest and dungeon up to level 30, including Zephras Isle and the Hall of Thanes, without leaving the game.">
+<meta property="og:title" content="Lore Forever - Free WoW Forever Lore Addon, Narrated">
+<meta property="og:description" content="The story of every zone, quest and dungeon in WoW Forever, read aloud while you play. Plus Willo, a wisp you can talk to.">
 <link rel="canonical" href="https://loreforeverwow.com/">
 <meta property="og:url" content="https://loreforeverwow.com/">
 <meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Lore Forever, the WoW Forever lore add-on">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Lore Forever - WoW Forever Lore Addon">
-<meta name="twitter:description" content="Zone, quest and dungeon lore for WoW Forever, narrated, right in game.">
+<meta name="twitter:title" content="Lore Forever - Free WoW Forever Lore Addon, Narrated">
+<meta name="twitter:description" content="The story of every zone, quest and dungeon in WoW Forever, read aloud while you play. Plus Willo, a wisp you can talk to.">
 <meta name="twitter:image" content="https://loreforeverwow.com/img/social-card.png">
 <link rel="icon" href="img/logo.svg" type="image/svg+xml">
 <link rel="icon" href="img/logo.png" type="image/png" sizes="512x512">
 <link rel="apple-touch-icon" href="img/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="style.css?v=20261014w">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css?v=20261015w">
+<link rel="stylesheet" href="/home.css?v=20261015b">
+<link rel="preload" as="image" href="/video/willo/willo-ask-out-loud.webp" type="image/webp">
 <script src="/header.js" defer></script>
-<!-- Brand search (LOR-465): the site's name for Google's results (WebSite), and the add-on as the thing to download
-     with its CurseForge page and source (SoftwareApplication), so "Lore Forever" searches find this page, not only
-     CurseForge. Keep the claims to what's on this page. -->
+<!-- Structured data (LOR-465; revamp 2026-10-15): the site (WebSite), its author (Person), the two products
+     (SoftwareApplication: the add-on, and Willo, whose own page is /willo), Willo's two clips (VideoObject) and the
+     questions at the bottom of this page (FAQPage, word for word). Claims only what this page says; no ratings or
+     reviews, since there are none to cite. Prices live on /plans, so Willo's offer here is only "free to start". -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -38,27 +44,86 @@
       "@id": "https://loreforeverwow.com/#website",
       "name": "Lore Forever",
       "alternateName": ["LoreForever", "Lore Forever WoW", "Lore Forever addon", "loreforeverwow.com"],
-      "url": "https://loreforeverwow.com/"
+      "url": "https://loreforeverwow.com/",
+      "publisher": { "@id": "https://loreforeverwow.com/#mike" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://loreforeverwow.com/#mike",
+      "name": "Mike",
+      "url": "https://loreforeverwow.com/",
+      "sameAs": ["https://www.twitch.tv/jiuthaimike"]
     },
     {
       "@type": "SoftwareApplication",
       "@id": "https://loreforeverwow.com/#addon",
       "name": "Lore Forever",
       "alternateName": "Lore Forever addon for WoW Forever",
-      "description": "Zone, quest and dungeon lore for WoW Forever, narrated, right in game.",
+      "description": "A free WoW Forever addon that reads the story of every zone, quest and dungeon aloud as you play, and answers questions about the people, places and quests around you.",
       "applicationCategory": "GameApplication",
+      "applicationSubCategory": "World of Warcraft addon",
       "operatingSystem": "Windows, macOS",
       "url": "https://loreforeverwow.com/",
       "downloadUrl": "https://loreforeverwow.com/downloads",
       "image": "https://loreforeverwow.com/img/logo.png",
+      "author": { "@id": "https://loreforeverwow.com/#mike" },
+      "isAccessibleForFree": true,
+      "inLanguage": ["en", "de", "es", "fr", "pt"],
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
       "sameAs": ["https://www.curseforge.com/wow/addons/lore-forever", "https://github.com/mliudev/LoreForever"]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://loreforeverwow.com/willo#app",
+      "name": "Willo",
+      "description": "A companion app for WoW Forever: a little blue wisp you ask anything out loud while you play. Characters you target answer as themselves.",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Windows 10, Windows 11",
+      "softwareRequirements": "The Lore Forever addon",
+      "url": "https://loreforeverwow.com/willo",
+      "downloadUrl": "https://loreforeverwow.com/download/willo",
+      "image": "https://loreforeverwow.com/img/willo-window.jpg",
+      "author": { "@id": "https://loreforeverwow.com/#mike" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free to start; plans add more" },
+      "subjectOf": [{ "@id": "https://loreforeverwow.com/#clip-ask" }, { "@id": "https://loreforeverwow.com/#clip-character" }]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://loreforeverwow.com/#clip-ask",
+      "name": "Asking Willo out loud in WoW Forever",
+      "description": "Hold your talk key, ask Willo what lies across Baradin Bay, and hear her answer.",
+      "thumbnailUrl": "https://loreforeverwow.com/video/willo/willo-ask-out-loud.jpg",
+      "contentUrl": "https://loreforeverwow.com/video/willo/willo-ask-out-loud.mp4",
+      "uploadDate": "2026-10-14",
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://loreforeverwow.com/#clip-character",
+      "name": "A WoW Forever character answering as himself",
+      "description": "Target Deputy Willem with Willo running, ask him a question, and he answers as himself.",
+      "thumbnailUrl": "https://loreforeverwow.com/video/willo/willo-character.jpg",
+      "contentUrl": "https://loreforeverwow.com/video/willo/willo-character.mp4",
+      "uploadDate": "2026-10-14",
+      "duration": "PT22S"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://loreforeverwow.com/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Is Lore Forever free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, always: the add-on, every narration pack and every language. Willo is free to start, and her plans add more." } },
+        { "@type": "Question", "name": "Do I need Willo?", "acceptedAnswer": { "@type": "Answer", "text": "No. The add-on works on its own. Willo needs the add-on: she listens to it to know where you are." } },
+        { "@type": "Question", "name": "Does it work on Mac?", "acceptedAnswer": { "@type": "Answer", "text": "The add-on does: use the zip. Willo runs on Windows 10 and 11 for now." } },
+        { "@type": "Question", "name": "Will it spoil my quests?", "acceptedAnswer": { "@type": "Answer", "text": "No. Quests you haven't picked up stay plain, and dungeon endings sit behind a spoiler button." } },
+        { "@type": "Question", "name": "Which levels does it cover?", "acceptedAnswer": { "@type": "Answer", "text": "Every zone, city and dungeon up to level 30 in full, and place lore for each zone above that. Where Forever and Classic disagree, Forever wins." } },
+        { "@type": "Question", "name": "Does Willo play the game for me?", "acceptedAnswer": { "@type": "Answer", "text": "Never. She listens, looks and talks. You do all the playing." } }
+      ]
     }
   ]
 }
 </script>
 </head>
-<body>
+<body class="home bw">
 
 <header class="top">
   <nav class="wrap nav" aria-label="Lore Forever">
@@ -76,10 +141,10 @@
 </header>
 
 <!-- newbar:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
-<aside class="newbar" id="newbar" data-version="0.18.0" aria-label="New in 0.18.0" hidden>
+<aside class="newbar" id="newbar" data-version="0.19.0" aria-label="New in 0.19.0" hidden>
   <div class="wrap newbar-in">
-    <span class="tag tag-new">New in 0.18.0</span>
-    <a href="/whats-new#v0-18-0">Meet Willo</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-18-0">Talk to anyone</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-18-0">Chat with Willo in game</a>
+    <span class="tag tag-new">New in 0.19.0</span>
+    <a href="/whats-new#v0-19-0">Willo's sky is a star map</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-19-0">Willo lends a hand</a><span class="newbar-sep" aria-hidden="true">&middot;</span><a class="newbar-more" href="/whats-new#v0-19-0">Willo reads the short answers aloud</a>
     <a class="newbar-all" href="/whats-new">See what's new</a>
   </div>
   <button class="newbar-x" type="button" aria-label="Hide until the next version">&times;</button>
@@ -89,191 +154,167 @@
   if (seen !== bar.dataset.version) bar.hidden = false; })();</script>
 <!-- newbar:end -->
 
-<!-- Hero banner, with the Stormwind screenshot as its background. -->
-<section class="hero" style="--hero-img: url('screenshots/01-stormwind-panel.jpg')">
-  <div class="wrap hero-grid">
-    <div class="hero-main">
-      <h1>Lore Forever <span class="subtitle">- Zone &amp; Quest Story</span></h1>
-      <p class="pitch">Hear the story of where you are, and ask about the people, places and quests around you, right in game.</p>
-      <ul class="stats">
-        <li>by <strong>Mike</strong></li>
-        <li id="downloads"><strong>New release</strong></li>
-        <li>Version <strong>0.18.0</strong></li>
-        <li>Game <strong>WoW Forever 1.60.1</strong></li>
-      </ul>
-      <!-- Downloads, no email step. Since 2026-10-02 (Mike) the site's own download comes first: the Windows installer
-           (primary button), then CurseForge as a secondary button only slightly smaller. Extra voices and quest
-           dialogue have their own CurseForge projects. The installer and zip go through
-           functions/download/[file].js, which counts them in D1 and redirects to the latest GitHub release; don't
-           rename those release assets. -->
-      <div class="dl-row">
-        <div class="dl-pick">
-          <a class="btn-download dl-link" id="download" href="/download/installer">Download for Windows</a>
-          <span class="dl-other">Free &middot; finds your WoW Forever folder &middot; or the
-            <a class="dl-link" href="/download/zip">zip</a></span>
-        </div>
-        <div class="dl-pick">
-          <a class="btn-download btn-download-alt dl-link" href="https://www.curseforge.com/wow/addons/lore-forever">Get it on CurseForge</a>
-          <span class="dl-other">Extra narrator voices and quest dialogue have their own CurseForge packs.</span>
-        </div>
-      </div>
-      <p class="dl-more">Comes with the male narrator. Want another narrator?
-        <a href="/downloads#voices">Choose your voices</a> for the available recordings and install options.</p>
-      <!-- Languages (LOR-35): English comes in the main download; other text packs are separate.
-           Recorded narrator packs are available in all five languages, with partial coverage. -->
-      <p class="dl-more dl-langs-hero"><strong>In your language:</strong> English, Deutsch, Español, Français and
-        Português. English is included; download the other text-language packs separately. Once installed, they follow your WoW client's language, or pick one in Options &rsaquo; Language.
-        Recorded narrator packs have selected stories and answers in all five languages; entries without a recording stay as text.
-        <a href="/downloads#languages">Languages</a></p>
+<main>
+
+<!-- The hero: "The book and the wisp" (direction B, Mike's pick on 2026-10-15 from the revamp mockups; Patrick's two
+     products, LOR-466). The title, then two doors: Willo's (wider and first, with her clip, as Patrick asked on 10/14
+     and 10/15) and the add-on's, which leads with a narration since its stories are sound. Both show their download
+     counts; CurseForge sits lower, with Mike's card. Willo's clip plays silently as the page opens (the light 1.6 MB
+     loop, not the 6 MB clip, and not at all with reduced motion or data saver); "Play with sound" or a clip button
+     plays the full clip with sound. Downloads never ask for an email. The installer, zip and Willo go through
+     functions/download/[file].js, which counts them in D1 and redirects to the GitHub release; don't rename those
+     release assets. The h1 stays "Lore Forever" for brand search (LOR-465). -->
+<section class="h-hero h-sky" aria-labelledby="h-title">
+  <div class="h-wrap">
+    <div class="h-title">
+      <p class="h-eyebrow">Free for WoW Forever</p>
+      <h1 id="h-title">Lore Forever</h1>
+      <p class="h-tag"><span class="b">A book that tells the story.</span> <span class="w">A wisp you can talk to.</span></p>
     </div>
 
-    <!-- About the author, with the community links. Sits beside the title on desktop and right under the
-         download buttons on phones, so both are above the fold. -->
-    <aside class="author-card" aria-labelledby="author-title">
-      <div class="author-head">
-        <span class="author-avatar" aria-hidden="true">M</span>
-        <div>
-          <h2 id="author-title">Made by Mike</h2>
-          <p class="author-role">Author of Lore Forever</p>
+    <div class="h-doors">
+      <!-- Willo, the companion app. /download/willo counts the download and follows the newest release that has her;
+           willo-downloads shows her count from /api/downloads once it's above 0. Phones get a way to keep the link for
+           their PC, since Willo runs on Windows. -->
+      <article class="h-door w" id="willo" aria-labelledby="h-willo">
+        <div class="h-clip">
+          <div class="h-stage" id="hw-stage">
+            <video id="hw-video" autoplay muted loop playsinline preload="metadata" poster="/video/willo/willo-ask-out-loud.webp"
+              src="/video/willo/willo-ask-out-loud-loop.mp4" width="960" height="540" aria-label="Asking Willo out loud in game what lies across Baradin Bay"></video>
+            <img class="h-still" src="/img/willo-window.webp" width="1200" height="674" alt="Willo's window: asked what you've been up to, she recaps your quests in the Wetlands" hidden>
+            <button type="button" class="h-sound" id="hw-sound"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>Play with sound</button>
+          </div>
+          <div class="h-picks" role="group" aria-label="Willo's clips">
+            <button type="button" class="h-pick" aria-pressed="true" aria-controls="hw-stage"
+              data-video="/video/willo/willo-ask-out-loud.mp4" data-poster="/video/willo/willo-ask-out-loud.webp"
+              data-label="Asking Willo out loud in game what lies across Baradin Bay"
+              data-caption="Hold your talk key, ask, and hear the answer.">Ask out loud</button>
+            <button type="button" class="h-pick" aria-pressed="false" aria-controls="hw-stage"
+              data-video="/video/willo/willo-character.mp4" data-poster="/video/willo/willo-character.webp"
+              data-label="Deputy Willem answering as himself"
+              data-caption="Target someone and they answer as themselves.">Characters answer</button>
+            <button type="button" class="h-pick" aria-pressed="false" aria-controls="hw-stage"
+              data-label="Willo's window: asked what you've been up to, she recaps your quests in the Wetlands"
+              data-caption="Every answer stays in her window, beside your journey.">Her window</button>
+            <span class="h-cap" id="hw-cap" aria-live="polite">Hold your talk key, ask, and hear the answer.</span>
+          </div>
         </div>
-      </div>
-      <p class="author-bio">A Wrath and Cata heroic raider who always read the quest text. Mike made Lore Forever so
-        the story isn't something you have to stop and dig for.</p>
-      <!-- The only social links are the Discord and Twitch (LOR-103). -->
-      <ul class="socials">
-        <li><a class="social social-discord" href="/discord?src=site">Join the Discord</a></li>
-        <li><a class="social social-twitch" href="https://www.twitch.tv/jiuthaimike">Twitch</a></li>
-      </ul>
-    </aside>
+        <div class="h-door-body">
+          <div class="h-door-head"><img class="h-wisp" src="/img/wispr.svg" alt="" width="64" height="64">
+            <div><h2 id="h-willo">Willo</h2><span class="h-pill w">Free to start</span></div></div>
+          <p class="h-pitch">A little blue wisp who rides along while you play WoW Forever. Ask her anything, out loud, and
+            the world answers back. Target someone, and they answer as themselves.</p>
+          <a class="h-btn h-willo-btn dl-link" href="/download/willo?src=home"><img src="/img/wispr.svg" alt="" width="26" height="26">Download Willo</a>
+          <ul class="h-meta"><li id="willo-downloads" hidden></li><li>Windows 10 and 11</li><li>Needs the add-on</li><li><a href="/willo">What Willo does</a></li></ul>
+          <p class="h-small h-phone">Willo runs on your Windows PC.
+            <button type="button" id="hw-keep" data-url="https://loreforeverwow.com/willo">Copy the link for later</button></p>
+        </div>
+      </article>
+
+      <span class="h-seam" aria-hidden="true">+</span>
+
+      <!-- The add-on. scripts/changelog.py rewrites the one "Version" line on each release. Willo listens to the
+           add-on, so it's the one download everybody needs. -->
+      <article class="h-door b" id="addon" aria-labelledby="h-addon">
+        <div class="h-reading">
+          <p class="h-eyebrow b">Now reading</p>
+          <b>Stormwind City</b>
+          <div class="h-row">
+            <button class="h-play" type="button" aria-pressed="false" aria-label="Play the story of Stormwind City" data-src="/audio/stormwind.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button>
+            <div class="h-wave" aria-hidden="true"><i style="height:10px"></i><i style="height:18px"></i><i style="height:26px"></i><i style="height:14px"></i><i style="height:30px"></i><i style="height:22px"></i><i style="height:12px"></i><i style="height:28px"></i><i style="height:34px"></i><i style="height:20px"></i><i style="height:16px"></i><i style="height:26px"></i><i style="height:12px"></i><i style="height:22px"></i><i style="height:30px"></i><i style="height:18px"></i><i style="height:10px"></i><i style="height:24px"></i><i style="height:14px"></i><i style="height:28px"></i><i style="height:20px"></i><i style="height:12px"></i></div>
+          </div>
+          <span class="h-small">Default narrator &middot; 1:06</span>
+        </div>
+        <div class="h-door-body">
+          <div class="h-door-head"><img class="h-book" src="/img/logo.svg" alt="" width="56" height="56">
+            <div><h2 id="h-addon">The add-on</h2><span class="h-pill b">Free forever</span></div></div>
+          <p class="h-pitch">Hear the story of every zone, quest and dungeon as you arrive, and ask about anyone you meet,
+            right in game.</p>
+          <a class="h-btn h-book-btn dl-link" id="download" href="/download/installer">Download for Windows</a>
+          <ul class="h-meta"><li>by <strong>Mike</strong></li><li id="downloads"><strong>New release</strong></li><li>Version <strong>0.19.0</strong></li></ul>
+          <p class="h-small">Finds your WoW Forever folder by itself. On a Mac, or installing by hand? Get the
+            <a class="dl-link" href="/download/zip">zip</a>.</p>
+        </div>
+      </article>
+    </div>
+    <p class="h-pair"><b>Willo walks beside the book.</b> She listens to the add-on to know where you are, so get both.
+      The add-on works fine on its own.</p>
   </div>
 </section>
 
-<main class="wrap">
-
-  <!-- Two small cards under the hero (Mike, 2026-10-14): Willo, the companion app (everything else about her is on
-       /willo), and the community narrators, whose names showCommunity below fills from /api/credits (the players'
-       own voices, as they credit them; never our house narrators). -->
-  <div class="home-cards">
-    <a class="willo-card" href="/willo">
-      <img src="/img/wispr.svg" alt="" width="72" height="72">
-      <span><strong>Meet Willo, your little guide</strong>
-        A tiny wisp who floats along on your journey, telling you about the places you find and answering your
-        questions, out loud. <span class="willo-card-go">Say hello to Willo &rarr;</span></span>
-    </a>
-    <div class="willo-card voices-card">
-      <svg class="voices-card-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
-      <span><strong>Voices from our community</strong>
-        <span id="voices-card-line">Players lend their voices to the stories.</span>
-        <a href="/downloads#community">Hear them</a> &middot; <a href="/voices/lend">Lend your voice</a></span>
+<!-- Right under the hero: Mike's author card, and the community narrators (showCommunity below fills their names from
+     /api/credits: the players' own voices, as they credit them, never our house narrators) with CurseForge, whose own
+     projects carry the extra voices and quest dialogue. -->
+<section class="h-trust" aria-label="Who makes it">
+  <div class="h-wrap">
+    <div class="h-author">
+      <span class="h-avatar" aria-hidden="true">M</span>
+      <h2>Made by Mike</h2>
+      <span class="h-role">Author of Lore Forever</span>
+      <p class="h-bio">A Wrath and Cata heroic raider who always read the quest text. Mike made Lore Forever so the story
+        isn't something you have to stop and dig for.</p>
+      <!-- The only social links are the Discord and Twitch (LOR-103). -->
+      <ul class="h-links">
+        <li><a class="h-btn h-ghost h-sm" href="/discord?src=site">Join the Discord</a></li>
+        <li><a class="h-btn h-ghost h-sm" href="https://www.twitch.tv/jiuthaimike">Twitch</a></li>
+        <li><a class="h-btn h-ghost h-sm dl-link" href="https://www.curseforge.com/wow/addons/lore-forever">Get it on CurseForge</a></li>
+      </ul>
+    </div>
+    <div id="community">
+      <h2 class="h-vt">Voices from our community</h2>
+      <ul class="h-voices" id="community-voices" hidden></ul>
+      <p class="h-small"><span id="community-translators">Players lend Lore Forever their voices and their languages.</span>
+        <a href="/voices/lend">Lend your voice</a> &middot; <a href="/voices/studio">Narrator dashboard</a> &middot;
+        <a href="/contributors">Meet everyone who helps</a></p>
     </div>
   </div>
+</section>
 
-  <!-- See your journey (player profiles, LOR-181; the sign-in pull, LOR-222): what a profile looks like, right under
-       the downloads, for players who've played a while. The card is an example (Aelric isn't a real player), the same
-       one /account shows. Signing in is never needed to download. -->
-  <section class="journey-pull" aria-labelledby="journey-title">
-    <div class="jp-text">
-      <h2 id="journey-title">See your journey</h2>
-      <p>Lore Forever keeps a journal while you play. Paste it here and get a page about your character: every quest,
-        place and boss, the road you took, and the story so far.</p>
-      <ol class="jp-steps">
-        <li>Sign in with Google</li>
-        <li>In game: Journey &rsaquo; <strong>Copy my journey record</strong></li>
-        <li>Paste it. Your page is ready.</li>
-      </ol>
-      <p class="jp-go"><a class="btn-download jp-btn" href="/account#profile">Make your profile</a>
-        <span class="jp-note">Free, and private until you share it.<br>Downloading never needs an account.</span></p>
+<!-- The wisp's chapter: what Willo does, her voice, and her plans. The plans' prices and the beta offer come from
+     /api/billing/plans (lib/billing.js) when it answers; the words here are what it says today, for a page without
+     JavaScript. Pages the add-on links to stay price-free (LOR-491): that's /willo, not this one. -->
+<section class="h-chapter w h-sky" aria-labelledby="ch-wisp">
+  <div class="h-wrap">
+    <div class="h-ch-head"><p class="h-eyebrow w">The wisp</p><h2 id="ch-wisp">Ask out loud, and the world answers</h2>
+      <p class="h-lede">Willo is an app for your Windows PC that rides along with the add-on. Hold your talk key, ask,
+        and hear her answer.</p></div>
+    <div class="h-tiles">
+      <div class="h-tile"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg><h3>Ask out loud</h3><p>Hold your talk key and ask about anything in Azeroth. She answers in her own voice.</p></div>
+      <div class="h-tile"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><h3>Characters answer</h3><p>Target anyone, from King Magni to an innkeeper, and they answer as themselves.</p></div>
+      <div class="h-tile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18c3-6 6 2 9-4s5-6 7-8"/><circle cx="4" cy="18" r="1.6"/><circle cx="20" cy="6" r="1.6"/></svg><h3>She knows your journey</h3><p>Your race, your class and where you've been. Ask what you were up to, and she recaps it.</p></div>
+      <div class="h-tile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg><h3>Chat in game</h3><p>Click Willo to chat right there, or open her window beside your journey.</p></div>
     </div>
-    <figure class="sample-sheet" aria-label="An example profile">
-      <span class="sample-tag">Example</span>
-      <div class="ss-head">
-        <span class="vpr-avatar vpr-initial pf-alliance ss-avatar" aria-hidden="true">A</span>
-        <div>
-          <p class="ss-name">Aelric</p>
-          <p class="ss-sub">Level 24 Night Elf Druid &middot; Alliance</p>
-          <p class="ss-sub">Favorite spec: <strong>Feral Combat</strong></p>
-        </div>
-      </div>
-      <ul class="ss-stats">
-        <li><strong>186</strong><span>Quests done</span></li><li><strong>142</strong><span>Places</span></li>
-        <li><strong>311</strong><span>People met</span></li><li><strong>1,204</strong><span>Foes</span></li>
-        <li><strong>9</strong><span>Bosses</span></li><li><strong>3</strong><span>Dungeons</span></li>
-        <li><strong>14</strong><span>Deaths</span></li><li><strong>24</strong><span>Level</span></li>
+    <div class="h-hear">
+      <span>Hear her:</span>
+      <span class="h-v"><button class="h-play w" type="button" aria-pressed="false" aria-label="Play Willo's studio voice" data-src="/audio/willo/willo-studio.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button>Willo</span>
+      <span class="h-v"><button class="h-play w" type="button" aria-pressed="false" aria-label="Play an orc answering" data-src="/audio/willo/orc.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button>An orc</span>
+      <span class="h-v"><button class="h-play w" type="button" aria-pressed="false" aria-label="Play a night elf answering" data-src="/audio/willo/nightelf.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button>A night elf</span>
+    </div>
+
+    <div id="h-plans-wrap">
+      <div class="h-sub"><h3>Free to start. A plan keeps her talking.</h3><a href="/plans">Compare every plan</a></div>
+      <ul class="h-plans">
+        <li class="h-plan" data-plan="free"><span class="h-pill w" hidden></span><h3>Adventurer</h3><p class="h-price">Free</p><p>Chat with Willo: 20 answers a day. Your first 30 questions out loud are answered aloud.</p></li>
+        <li class="h-plan" data-plan="hero"><span class="h-pill w">Beta: free month</span><h3>Hero</h3><p class="h-price">$4.99 <small>a month</small></p><p>Ask out loud and she answers in her voice, up to 4 hours of play a day. She sees your game.</p></li>
+        <li class="h-plan" data-plan="champion"><span class="h-pill w">Beta: 50% off</span><h3>Champion</h3><p class="h-price">$9.99 <small>a month</small></p><p>Her studio voices, up to 8 hours a day. Characters in voices of their own. Longer memory.</p></li>
+        <li class="h-plan" data-plan="legend"><span class="h-pill w">Beta: 50% off</span><h3>Legend</h3><p class="h-price">$19.99 <small>a month</small></p><p>The most answers and Willo's finest voice. Everything in Champion.</p></li>
       </ul>
-      <ol class="pf-road ss-road"><li>Teldrassil</li><li>Darkshore</li><li>Ashenvale</li><li>The Barrens</li></ol>
-      <figcaption class="ss-story">&ldquo;Aelric's road began beneath the boughs of Teldrassil, where the young druid
-        learned the old ways before taking ship for the mainland&hellip;&rdquo;</figcaption>
-    </figure>
-  </section>
-
-  <!-- "Made with the community" (style.css .community): the players' own voices and the translators, filled from
-       /api/credits (lib/credits.js, the same people as /contributors), so only live voices and people who chose to
-       show their name. Alphabetical, never ranked. Stays hidden until there's someone to show. -->
-  <aside class="community" id="community" aria-labelledby="community-title" hidden>
-    <h2 id="community-title">Made with the community</h2>
-    <p>Players lend Lore Forever their voices and their languages. Thank you!</p>
-    <ul class="cm-voices" id="community-voices"></ul>
-    <p class="cm-more"><span id="community-translators"></span> <a href="/contributors">Meet everyone who helps</a></p>
-  </aside>
-
-  <!-- "Calling all narrators" (style.css .narrators): the same box on the home page, /voices and /downloads. -->
-  <aside class="narrators" aria-labelledby="narrators-title">
-    <div>
-      <h2 id="narrators-title">Calling all narrators</h2>
-      <p>Want to narrate Lore Forever? Record as many or as few lines as you like and upload them on the narrator
-        dashboard. Then download your own test pack and hear yourself in game before you send it in. Anything you
-        skip plays in the default voice.</p>
+      <p class="h-beta"><span id="h-beta">Beta: Hero is free for your first month, and Champion and Legend are 50% off your first month. Join by November 3.</span></p>
     </div>
-    <div class="nr-go">
-      <a class="btn-small" href="/voices/studio">Open the narrator dashboard</a>
-      <small><a href="/voices/guide">How it works</a> &middot; sign in with Google</small>
-    </div>
-  </aside>
+    <p class="h-beta">Willo needs the add-on, Windows 10 or 11, and a free Lore Forever sign-in.</p>
+  </div>
+</section>
 
-  <!-- The two headline features: narration and asking questions. -->
-  <section class="feature" aria-labelledby="listen-title">
-    <div class="feature-text">
-      <h2 id="listen-title">Hear the story of where you are</h2>
-      <p>Every zone is narrated, and so are the places and people inside it, Alliance and Horde alike. The main
-        download includes their stories, dungeon bosses and recorded answers to the questions new players ask first.</p>
-      <ul>
-        <li><strong>Plays as you arrive.</strong> Reach a zone or place and its story starts by itself. It waits
-          for the fight to end and never cuts off what you're listening to.</li>
-        <li><strong>Your quest's backstory.</strong> Open its Lore button to hear Lore Forever's recorded story.
-          Quest dialogue is a separate optional download, off by default.</li>
-        <li><strong>A player with a queue.</strong> What's playing, Back, Play and Next sit at the bottom of the
-          panel. Queue up stories with +, and the player floats on screen when you close the panel.</li>
-        <li><strong>On flights, too.</strong> Turn on flight narration and each zone's story plays as you fly over
-          it. Everything you hear is a Lore Forever narration, never your game's robot voice.</li>
-      </ul>
-      <p>Want a different narrator? Install as many voices as you like from the
-        <a href="/downloads#voices">Downloads page</a> and put them in your order: each narration plays from the
-        first voice that has it. Or <a href="/voices/studio">lend your own voice</a>.</p>
-      <p class="feature-note">Three of the narrations, exactly as they play in game:</p>
-    </div>
-    <!-- Clips copied from addon/LoreForever_Voice_Default/Audio; the read-along text is what each clip reads. -->
-    <div class="samples">
-      <figure class="audio-sample">
-        <figcaption><strong>Stormwind City</strong><span>Default narrator &middot; 1:06</span></figcaption>
-        <audio controls preload="none" src="audio/stormwind.mp3"></audio>
-        <details><summary>Read along</summary>
-          <p>Stormwind City. Stormwind City is the bustling capital of the Kingdom of Stormwind and the premier human
-            bastion in the world following the fall of Lordaeron. Rebuilt from ashes by the Stonemasons Guild after
-            its destruction in the First War, its magnificent white stone districts now house the heart of the Grand
-            Alliance. Beneath its majestic canals and cathedrals, however, the city grapples with the sudden
-            disappearance of King Varian Wrynn and brewing political intrigue. Founded over a millennium ago by the
-            descendants of the Arathi, Stormwind stood for generations as a flourishing, self-sufficient realm. That
-            golden era ended when the Orcish Horde poured through the Dark Portal, laying waste to the southern
-            continent and razing the capital to the ground in the First War. Survivors led by Sir Anduin Lothar fled
-            north across the Great Sea to Lordaeron. Following the Horde's defeat in the Second War, King Terenas
-            Menethil II and the Alliance funded a complete reconstruction. The Stonemasons Guild painstakingly
-            rebuilt the capital into New Stormwind&mdash;a gleaming citadel of polished white stone and canal-laced
-            boroughs.</p>
-        </details>
-      </figure>
-      <figure class="audio-sample">
-        <figcaption><strong>Zephras Isle</strong> <span class="tag tag-new">New in Forever</span><span>Default narrator &middot; 0:53</span></figcaption>
-        <audio controls preload="none" src="audio/zephras.mp3"></audio>
+<!-- The book's chapter: narration, asking, the journey and profile, where it works, languages. The three narrations
+     are copied from addon/LoreForever_Voice_Default/Audio, and the read-along text is what each clip reads. -->
+<section class="h-chapter b" aria-labelledby="ch-book">
+  <div class="h-wrap">
+    <div class="h-ch-head"><p class="h-eyebrow b">The book</p><h2 id="ch-book">The story of where you are, read aloud</h2>
+      <p class="h-lede">Reach a zone or place and its story starts by itself, after the fight, never cutting off what
+        you're hearing. Free, forever, with no account. It comes with the male narrator;
+        <a href="/downloads#voices">choose more voices</a>, or <a href="/voices/lend">lend your own</a>.</p></div>
+    <div class="h-tracks">
+      <div class="h-track"><button class="h-play" type="button" aria-pressed="false" aria-label="Play the story of Zephras Isle" data-src="/audio/zephras.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button><b>Zephras Isle</b><span>New in Forever &middot; 0:53</span><div class="h-bar"><i></i></div>
         <details><summary>Read along</summary>
           <p>Zephras Isle. Zephras Isle is a flying island suspended within Skywall, the Elemental Plane of air. It
             serves as the ancestral starting home of the Skyborne, whose society now faces an existential crisis as
@@ -284,11 +325,8 @@
             centuries ago, those elemental stewards vanished entirely. Deprived of their presence and guardianship,
             the latent enchantments upholding the land have slowly begun to fail, causing Zephras to slowly fracture
             and destabilize.</p>
-        </details>
-      </figure>
-      <figure class="audio-sample">
-        <figcaption><strong>Durotar</strong><span>Default narrator &middot; 1:11</span></figcaption>
-        <audio controls preload="none" src="audio/durotar.mp3"></audio>
+        </details></div>
+      <div class="h-track"><button class="h-play" type="button" aria-pressed="false" aria-label="Play the story of Durotar" data-src="/audio/durotar.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button><b>Durotar</b><span>Default narrator &middot; 1:11</span><div class="h-bar"><i></i></div>
         <details><summary>Read along</summary>
           <p>Durotar. Durotar is the arid, red-rock homeland founded by Warchief Thrall following the Third War, named
             in honor of his father, Durotan. Bounded by the Southfury River and the Great Sea, it serves as the
@@ -302,188 +340,131 @@
             landscape's natural defense and austere majesty. Bordered to the west across the Southfury River by the
             open Barrens and to the north by the ruined wilderness of Azshara, Durotar stands as living proof that
             the orcs have forged their own destiny.</p>
-        </details>
-      </figure>
+        </details></div>
+      <div class="h-track"><button class="h-play" type="button" aria-pressed="false" aria-label="Play the story of Stormwind City" data-src="/audio/stormwind.mp3"><svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg><svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button><b>Stormwind City</b><span>Default narrator &middot; 1:06</span><div class="h-bar"><i></i></div>
+        <details><summary>Read along</summary>
+          <p>Stormwind City. Stormwind City is the bustling capital of the Kingdom of Stormwind and the premier human
+            bastion in the world following the fall of Lordaeron. Rebuilt from ashes by the Stonemasons Guild after
+            its destruction in the First War, its magnificent white stone districts now house the heart of the Grand
+            Alliance. Beneath its majestic canals and cathedrals, however, the city grapples with the sudden
+            disappearance of King Varian Wrynn and brewing political intrigue. Founded over a millennium ago by the
+            descendants of the Arathi, Stormwind stood for generations as a flourishing, self-sufficient realm. That
+            golden era ended when the Orcish Horde poured through the Dark Portal, laying waste to the southern
+            continent and razing the capital to the ground in the First War. Survivors led by Sir Anduin Lothar fled
+            north across the Great Sea to Lordaeron. Following the Horde's defeat in the Second War, King Terenas
+            Menethil II and the Alliance funded a complete reconstruction. The Stonemasons Guild painstakingly
+            rebuilt the capital into New Stormwind&mdash;a gleaming citadel of polished white stone and canal-laced
+            boroughs.</p>
+        </details></div>
     </div>
-  </section>
 
-  <section class="feature feature-ask" aria-labelledby="ask-title">
-    <div class="feature-text">
-      <h2 id="ask-title">Ask about what's around you</h2>
-      <p>The panel already knows your zone, your quests and your target, and suggests questions to start with.
-        Type your own and matching questions drop down as you go. Every answer ends with follow-ups, so you can
-        keep pulling the thread.</p>
-      <ul>
-        <li><strong>"Who is this guy?"</strong> means your target.</li>
-        <li><strong>Typos in names are fine.</strong> You don't need to spell every NPC right.</li>
-        <li><strong>No made-up answers.</strong> If it isn't sure, it asks "Did you mean..." instead.</li>
-        <li><strong>Names are links.</strong> The places, people and events an answer mentions are clickable, and
-          Back and Forward retrace what you followed. Quests you haven't picked up stay plain, so nothing is
-          spoiled.</li>
-      </ul>
-      <!-- A real answer from the add-on's lore library (npc:edwin-vancleef). -->
-      <figure class="sample">
-        <div class="scroll">
-          <p class="scroll-q">Who is Edwin VanCleef?</p>
-          <p>He is the mastermind behind the Defias Brotherhood and the former Guildmaster of the Stonemasons.
-            He is the master architect who rebuilt Stormwind City after the Horde destroyed it during the First
-            War.</p>
-        </div>
-        <figcaption>A real answer from the add-on, word for word.</figcaption>
-      </figure>
-    </div>
-    <figure class="feature-shot">
-      <a href="screenshots/13-links-answer.jpg" target="_blank"><img src="screenshots/13-links-answer.jpg"
-        alt="The story of Lushwater Oasis in the panel, with The Barrens, Crossroads and Wailing Caverns as links and listed again under the answer"></a>
-      <figcaption>The story of Lushwater Oasis, with its places as links</figcaption>
-    </figure>
-  </section>
-
-  <!-- What's new in the version on this page. Keep it to what has shipped. -->
-  <section class="feature whats-new" aria-labelledby="new-title">
-    <div class="feature-text">
-      <h2 id="new-title">New: your journey, on the map</h2>
-      <p>Journey keeps a timeline of each play session, with Quests, Fights and Milestones to filter by, and a map of
-        the world beside it. Hover a moment and the map shows where it happened and the road you took there.
-        Click anything with a story to hear it in the chat. It all stays on your PC.</p>
-      <ul>
-        <li><strong>Welcome back.</strong> The first chat after you log in sums up your last session: where you
-          went, the quests you finished and the people you met.</li>
-        <li><strong>Five languages available.</strong> English is included; Deutsch, Français, Español (España) and
-          Português (Brasil) are separate <a href="/downloads#languages">text-language downloads</a>. Once installed,
-          they follow those game clients, or pick one in Options &rsaquo; Language.
-          <a href="/translate">Help translate</a> into yours.</li>
-        <li><strong>Your voices, your order.</strong> Install several voices and choose which comes first; a story
-          keeps one voice for its questions.</li>
-        <li><strong>Search the long lists.</strong> Type to find a story in the Library instead of scrolling.</li>
-      </ul>
-    </div>
-    <!-- Mike's capture, 2026-10-02 (cropped to the panel; other players' nameplates above it painted out). -->
-    <figure class="feature-shot">
-      <a href="screenshots/14-journey-stormwind.webp" target="_blank"><img src="screenshots/14-journey-stormwind.webp"
-        width="1400" height="973" loading="lazy"
+    <div class="h-split">
+      <div>
+        <h3>Ask about anyone you meet</h3>
+        <p class="h-t">The panel knows your zone, your quests and your target, and suggests questions to start with.
+          Names in an answer are links, and quests you haven't picked up stay plain, so nothing is spoiled. If it isn't
+          sure, it asks "Did you mean..." instead of making something up.</p>
+        <!-- A real answer from the add-on's lore library (npc:edwin-vancleef). -->
+        <figure class="h-scroll" style="margin:0"><p class="h-q">Who is Edwin VanCleef?</p><p>He is the mastermind
+          behind the Defias Brotherhood and the former Guildmaster of the Stonemasons. He is the master architect who
+          rebuilt Stormwind City after the Horde destroyed it during the First War.</p></figure>
+        <p class="h-small">A real answer from the add-on, word for word.</p>
+      </div>
+      <!-- Mike's capture, 2026-10-02 (cropped to the panel; other players' nameplates above it painted out). -->
+      <figure class="h-shot"><a href="/screenshots/14-journey-stormwind.webp" target="_blank"><img src="/screenshots/14-journey-stormwind.webp"
+        width="1400" height="973" loading="lazy" decoding="async"
         alt="The Lore Forever panel in Stormwind's Trade District. On the left, the Here tab with narrated places, suggested questions and your quests, above the narration player. On the right, the Journey page: today's moments, such as people met, Targorr the Dread defeated in the Stockade and places visited, with Quests, Fights and Milestones filters, beside a map of Stormwind City marking where they happened."></a>
-      <figcaption>Journey in Stormwind: your moments beside the map</figcaption>
-    </figure>
-  </section>
-
-  <!-- Real in-game captures from the Forever beta, cropped to hide player names. -->
-  <section class="shots" aria-label="Screenshots">
-    <figure class="shot">
-      <a href="screenshots/03-npc-tooltip.jpg" target="_blank"><img src="screenshots/03-npc-tooltip.jpg"
-        alt="An NPC tooltip with a one-line Lore note"></a>
-      <figcaption>A lore line on every NPC tooltip</figcaption>
-    </figure>
-    <figure class="shot">
-      <a href="screenshots/05-zone-hint-chat.jpg" target="_blank"><img src="screenshots/05-zone-hint-chat.jpg"
-        alt="A chat message on entering Zephras Isle with a clickable question and a Listen link"></a>
-      <figcaption>Enter a zone, get a question and a Listen link</figcaption>
-    </figure>
-  </section>
-
-  <section class="zones" aria-labelledby="zones-title">
-    <h2 id="zones-title">Where it works</h2>
-    <p class="zones-intro">Every zone, city and dungeon you can reach up to level 30: the quests, NPCs, subzones and
-      bosses, about 4,060 entries in all. That includes the content that's new in Forever. Above level 30 you
-      still get place lore (the zone, its subzones and notable characters), for when you wander ahead. Built for
-      the WoW Forever beta and the full launch on November 4, 2026.</p>
-    <div class="zone-grid">
-      <!-- Questions are real ones from the add-on's lore library (zone:elwynn, zone:zephras, zone:deadmines,
-           zone:hallofthanes). -->
-      <article class="zone">
-        <div class="zone-body">
-          <h3>Elwynn Forest</h3>
-          <p class="zone-where">Northshire, Goldshire and the farms, mines and camps around them</p>
-          <p class="zone-q">"Why are there kobolds inside all the mines?"</p>
-          <p class="zone-q">"Who are the bandits wearing red masks?"</p>
-        </div>
-      </article>
-      <article class="zone">
-        <div class="zone-body">
-          <h3>Zephras Isle <span class="tag tag-new">New in Forever</span></h3>
-          <p class="zone-where">Home of the Skyborne</p>
-          <p class="zone-q">"Who are the Skyborne?"</p>
-          <p class="zone-q">"Why is Zephras Isle falling apart?"</p>
-        </div>
-      </article>
-      <article class="zone">
-        <div class="zone-body">
-          <h3>The Deadmines <span class="tag">Dungeon</span></h3>
-          <p class="zone-where">Beneath Moonbrook, home of the Defias Brotherhood</p>
-          <p class="zone-q">"What is being built in Ironclad Cove?"</p>
-          <p class="zone-q">"Where is the entrance to the Deadmines located?"</p>
-        </div>
-      </article>
-      <article class="zone">
-        <div class="zone-body">
-          <h3>Hall of Thanes <span class="tag">Dungeon</span> <span class="tag tag-new">New in Forever</span></h3>
-          <p class="zone-where">One of Forever's new dungeons, primer included</p>
-          <p class="zone-q">"What bosses are inside the Hall of Thanes?"</p>
-          <p class="zone-q">"How do I gain access to the Hall of Thanes?"</p>
-        </div>
-      </article>
-      <article class="zone zone-next">
-        <div class="zone-body">
-          <h3>Levels 30 to 60</h3>
-          <p>Place lore for the rest of the world: each zone, its subzones and notable characters. Tell us where
-            you want full quest and NPC lore next.</p>
-                    <a class="btn-small" href="/discord?src=request">Vote on Discord</a>
-        </div>
-      </article>
+        <figcaption>Journey in Stormwind: your moments beside the map, kept on your PC</figcaption></figure>
     </div>
-  </section>
 
-  <div class="layout">
-    <div class="main-col">
+    <!-- See your journey (player profiles, LOR-181; the sign-in pull, LOR-222). Signing in is never needed to download. -->
+    <div class="h-split" style="grid-template-columns:minmax(0,1fr)">
+      <div>
+        <h3>Turn your journey into a page</h3>
+        <p class="h-t">Lore Forever keeps a journal while you play: every quest, place and boss, and the road you took.
+          Paste it here and get a page about your character.</p>
+        <ol class="h-steps">
+          <li>Sign in with Google</li>
+          <li>In game: Journey &rsaquo; <strong>Copy my journey record</strong></li>
+          <li>Paste it. Your page is ready.</li>
+        </ol>
+        <p class="h-go"><a class="h-btn h-ghost" href="/account#profile">Make your profile</a>
+          <span class="h-small">Free, and private until you share it. Downloading never needs an account.</span></p>
+      </div>
+    </div>
 
-      <nav class="tabs" role="tablist">
-        <button role="tab" aria-selected="true" data-tab="description">Description</button>
-        <button role="tab" aria-selected="false" data-tab="install">Install</button>
-        <button role="tab" aria-selected="false" data-tab="limits">Known limits</button>
-        <button role="tab" aria-selected="false" data-tab="changelog">Changelog</button>
-      </nav>
+    <!-- Questions are real ones from the add-on's lore library (zone:elwynn, zone:zephras, zone:deadmines,
+         zone:hallofthanes); each card links to that zone's lore page. -->
+    <div class="h-sub"><h3>Every zone, city and dungeon up to level 30</h3><a href="/lore">Browse the lore library</a></div>
+    <div class="h-zones">
+      <a class="h-zone" href="/lore/zone/elwynn"><h3>Elwynn Forest</h3><span class="h-where">Northshire, Goldshire and the farms, mines and camps around them</span><q>Who are the bandits wearing red masks?</q><span class="h-go-to">Read its story</span></a>
+      <a class="h-zone" href="/lore/zone/zephras"><h3>Zephras Isle</h3><span class="h-pill f">New in Forever</span><q>Why is Zephras Isle falling apart?</q><span class="h-go-to">Read its story</span></a>
+      <a class="h-zone" href="/lore/zone/deadmines"><h3>The Deadmines</h3><span class="h-where">Dungeon beneath Moonbrook, home of the Defias Brotherhood</span><q>What is being built in Ironclad Cove?</q><span class="h-go-to">Read its story</span></a>
+      <a class="h-zone" href="/lore/zone/hallofthanes"><h3>Hall of Thanes</h3><span class="h-pill f">New dungeon</span><q>How do I gain access to the Hall of Thanes?</q><span class="h-go-to">Read its story</span></a>
+      <a class="h-zone next" href="/discord?src=request"><h3>Levels 30 to 60</h3><span class="h-where">Place lore for every zone: its subzones and notable characters. Tell us where you want full quest lore next.</span><span class="h-go-to">Vote on Discord</span></a>
+    </div>
+    <!-- Languages (LOR-35): English comes in the main download; other text packs are separate. Recorded narrator
+         packs are in all five languages, with partial coverage, in native accents only. -->
+    <p class="h-langs"><span class="h-pill p">English</span><span class="h-pill p">Deutsch</span><span class="h-pill p">Español</span><span class="h-pill p">Français</span><span class="h-pill p">Português</span>
+      English is included; the other languages are separate downloads that follow your game's language, with native
+      narrators for selected stories. <a href="/downloads#languages">Languages</a> &middot; <a href="/translate">Help translate</a></p>
+  </div>
+</section>
 
-      <section class="tab-panel" id="description" role="tabpanel">
-        <h2>Zone lore, quest lore and storyline for WoW Forever</h2>
-        <p>Ever finish a quest chain and realize you have no idea why you just killed forty gnolls? Lore Forever
-          gives you the story behind what you're doing, without alt-tabbing to a wiki.</p>
-        <p>The first time you log in, pick a key to open it, like M for the map. Hover over an NPC and press it to
-          read about them. The panel already knows where you are and what you're working on: it suggests questions
-          about your zone and your quests, and you can type your own. Answers link to related people, places and
-          events, so you can keep pulling the thread as far as you like.</p>
-
-        <h3>Lore wherever you look</h3>
+<!-- About: the page's plain description for search ("zone lore, quest lore and storyline"), with install, the known
+     limits and the commands folded away. #install, #limits and #commands open their part (the script below). Every
+     version's changes are on What's new (scripts/changelog.py writes it). -->
+<section class="h-about" aria-labelledby="about-title">
+  <div class="h-wrap">
+    <div>
+      <h2 id="about-title">Zone lore, quest lore and storyline for WoW Forever</h2>
+      <p>Ever finish a quest chain and realize you have no idea why you just killed forty gnolls? Lore Forever gives you
+        the story behind what you're doing, without alt-tabbing to a wiki.</p>
+      <p>The first time you log in, pick a key to open it, like M for the map. Hover over an NPC and press it to read
+        about them. NPC tooltips get a one-line story, quests get a Lore button, and walking into a dungeon links a
+        primer: why you're there and the bosses in order, with the ending behind a spoiler button. Your journey stays on
+        your PC, and Options &rsaquo; Remember my journey turns it off.</p>
+      <p>Forever has its own timeline, so Lore Forever sticks to it: no story from retail's later expansions, and where
+        Forever and Classic disagree, Forever wins. Everything is inside the add-on: no account, nothing to sign up for.
+        <a href="/whats-new">What's new in each version</a></p>
+    </div>
+    <div class="h-more">
+      <details id="install"><summary>Install</summary>
+        <ol>
+          <li><strong>Windows installer:</strong> click <strong>Download for Windows</strong> above and run
+            <code>LoreForever-Setup.exe</code>. It's signed (the publisher shows as Mei Liu), finds your World of
+            Warcraft folder and installs into <code>_classic_beta_\Interface\AddOns</code>. No admin rights needed.</li>
+          <li><strong>Zip:</strong> unzip <a class="dl-link" href="/download/zip">LoreForever.zip</a> into
+            <code>World of Warcraft\_classic_beta_\Interface\AddOns</code> so you have
+            <code>AddOns\LoreForever\LoreForever.toc</code>. A doubled folder like <code>AddOns\LoreForever\LoreForever\</code> won't load.</li>
+          <li><strong>CurseForge app:</strong> open World of Warcraft, pick your Forever install (update the app or add
+            your <code>_classic_beta_</code> folder if it isn't listed), search for <strong>Lore Forever</strong> and
+            click Install. Extra narrator voices and quest dialogue are separate packs.</li>
+          <li>Start WoW, or type <code>/reload</code> if it's already running. Not showing up? On the character screen,
+            click <strong>AddOns</strong> and tick <strong>Load out of date AddOns</strong>.</li>
+        </ol>
+        <p>Quest dialogue packs stay off until you turn on <strong>Speak quest dialogue</strong> in Options. Skip them
+          if Spoken, Chatty Little NPC or another add-on already speaks your quests. <a href="/downloads#install">Step by step</a></p>
+      </details>
+      <details id="limits"><summary>Known limits</summary>
         <ul>
-          <li><strong>Tooltips.</strong> NPCs and mobs get a one-line story. Items tell you "Needed for your quest"
-            or "Starts a quest", and only ever name quests you already have, so
-            nothing is spoiled.</li>
-          <li><strong>Quests.</strong> A Lore button on the quest dialog and in the quest log opens the story behind that quest.</li>
-          <li><strong>Zone hints.</strong> Entering a zone puts a clickable question in chat. Turn it off with <code>/lore nudge</code>.</li>
-          <li><strong>Always in reach.</strong> Your key, the minimap book, the add-on compartment, or <code>/lore</code>.</li>
+          <li><strong>Above level 30:</strong> zones get place lore (the zone, subzones and notable characters), not
+            quest-by-quest lore yet. Mount Hyjal isn't covered yet.</li>
+          <li><strong>Questions:</strong> it answers from its built-in lore library. Asking with a name ("Who is
+            Hogger?") works best.</li>
+          <li><strong>Forever-only quests:</strong> some quests new in Forever may show "(no lore yet)".</li>
+          <li><strong>Settings may reset:</strong> the Forever beta sometimes doesn't load add-on settings back after
+            you log out. That's on the game side.</li>
+          <li><strong>Beta client:</strong> built for build 1.60.1. Game patches can break things, so please
+            <a href="/feedback?kind=bug">report problems</a>.</li>
         </ul>
-
-        <h3>Dungeon primers</h3>
-        <p>Walk into a dungeon and chat links a primer: why you're there, the bosses in order, and what beating the
-          final boss means (tagged as a spoiler, so it's your call). Beat a boss and chat links their story.</p>
-
-        <h3>Your journey</h3>
-        <p>Lore Forever remembers what your character has done: places, people, quests, foes and books, on a timeline
-          and a map. The first chat after you log in recaps your last session. It stays on your PC, and Options
-          &rsaquo; Remember my journey turns it off.</p>
-
-        <h3>True to Forever</h3>
-        <p>Forever has its own timeline, so Lore Forever sticks to it: no story from retail's later expansions,
-          and where Forever and Classic disagree, Forever wins.</p>
-
-        <h3>Free and offline</h3>
-        <p>Everything is inside the add-on. No account, no extra app, nothing to sign up for.</p>
-
-        <h3>Commands</h3>
-        <table>
+      </details>
+      <details id="commands"><summary>Commands</summary>
+        <div class="h-cmds"><table>
           <tr><td><code>/lore</code> or <code>/lf</code></td><td>Open or close the panel</td></tr>
           <tr><td><code>/lore &lt;question&gt;</code></td><td>Ask straight from chat, e.g. <code>/lore why is westfall so poor</code></td></tr>
           <tr><td><code>/lore key</code></td><td>Choose the key that opens the panel (<code>/lore key narrate</code>: a key that plays narration)</td></tr>
-          <tr><td><code>/lore library</code></td><td>The Library: every recorded narration by zone, your starting area first</td></tr>
+          <tr><td><code>/lore library</code></td><td>Every recorded narration by zone, your starting area first</td></tr>
           <tr><td><code>/lore journey</code></td><td>Your journey: the timeline and the map (<code>/lore sync</code> saves it now)</td></tr>
           <tr><td><code>/lore voice</code></td><td>List your narration voices in order; <code>/lore voice &lt;number or name&gt;</code> puts one first</td></tr>
           <tr><td><code>/lore autoplay</code></td><td>Narrations as you arrive on or off</td></tr>
@@ -493,442 +474,225 @@
           <tr><td><code>/lore lang</code></td><td>Choose the language, e.g. <code>/lore lang deDE</code></td></tr>
           <tr><td><code>/lore options</code></td><td>Settings: tooltips, hints, narration, voices, panel size</td></tr>
           <tr><td><code>/lore primer</code></td><td>Dungeon primer for where you are</td></tr>
+          <tr><td><code>/lore nudge</code></td><td>The question in chat as you enter a zone, on or off</td></tr>
           <tr><td><code>/lore report</code></td><td>Tell us the last answer was wrong</td></tr>
           <tr><td><code>/lore help</code></td><td>List all commands</td></tr>
-        </table>
-      </section>
-
-      <section class="tab-panel" id="install" role="tabpanel">
-        <h2>Install</h2>
-        <h3>With the Windows installer</h3>
-        <ol>
-          <li>Click <strong>Download for Windows</strong> at the top of this page and run <code>LoreForever-Setup.exe</code>.
-            It's signed; Windows shows the publisher as Mei Liu.</li>
-          <li>It finds your World of Warcraft folder and installs into <code>_classic_beta_\Interface\AddOns</code>.
-            No admin rights needed. To update later, run a newer installer.</li>
-          <li>Start WoW, or type <code>/reload</code> if it's already running.</li>
-        </ol>
-        <h3>With the zip</h3>
-        <ol>
-          <li>Click <strong>zip</strong> at the top of this page to get <code>LoreForever.zip</code>.</li>
-          <li>Open your WoW folder, then <code>_classic_beta_\Interface\AddOns</code> (create <code>Interface\AddOns</code>
-            if it isn't there). On Windows the default is
-            <code>C:\Program Files (x86)\World of Warcraft\_classic_beta_\Interface\AddOns</code>.</li>
-          <li>Unzip so you end up with <code>...\AddOns\LoreForever\LoreForever.toc</code>. A doubled folder like
-            <code>AddOns\LoreForever\LoreForever\</code> won't load.</li>
-          <li>Start WoW, or type <code>/reload</code> if it's already running.</li>
-        </ol>
-
-        <h3>With the CurseForge app</h3>
-        <p>Lore Forever is on <a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge</a>, so the app can install it and keep it updated.
-          Extra narrator voices and quest dialogue are separate CurseForge packs, listed on the <a href="/downloads#voices">Downloads page</a>.</p>
-        <ol>
-          <li>In the CurseForge app, open World of Warcraft and pick your Forever install. If it isn't listed,
-            update the app (Forever support came in September) and add your <code>_classic_beta_</code> folder, or use
-            the installer or zip above.</li>
-          <li>Search for <strong>Lore Forever</strong> and click <strong>Install</strong>.</li>
-          <li>Start the game. On the character screen, open <strong>AddOns</strong> and make sure Lore Forever is ticked.</li>
-        </ol>
-        <p>&ldquo;Game was not found or not supported&rdquo; means the app can't see your Forever install yet: do step 1,
-          or use the installer or zip above.</p>
-        <h3>Extra narrator voices</h3>
-        <p>Lore Forever comes with the male narrator. Choose extra voices and quest dialogue on the
-          <a href="/downloads#voices">Downloads page</a>, with CurseForge packs or zips for manual installs. Install the
-          packs you want, type <code>/reload</code> in game and choose your voice order in Options.
-          <a href="/downloads#install">Step by step</a>.</p>
-        <p>Quest Dialogue packs are separate optional downloads, outside the main download and story bundles.
-          Quest dialogue stays off until you turn on <strong>Speak quest dialogue</strong> in Options;
-          this also enables its play button on the quest window. Skip these packs if Spoken, Chatty Little NPC or
-          another add-on already speaks your quests. Lore Forever still narrates its own stories and recorded answers.</p>
-
-        <p>On your first login it asks you to pick a key for the panel. You can change it later with <code>/lore key</code>.</p>
-        <p>Not showing up? On the character screen, click <strong>AddOns</strong> and tick
-          <strong>Load out of date AddOns</strong>.</p>
-      </section>
-
-      <section class="tab-panel" id="limits" role="tabpanel">
-        <h2>Known limits</h2>
-        <ul>
-          <li><strong>Above level 30:</strong> zones get place lore (the zone, subzones and notable characters),
-            not quest-by-quest lore yet. Mount Hyjal isn't covered yet.</li>
-          <li><strong>Questions:</strong> it answers from its built-in lore library. When it can't find a good
-            match it says so or asks "Did you mean...". Asking with a name ("Who is Hogger?") works best.</li>
-          <li><strong>Forever-only quests:</strong> some quests new in Forever may show "(no lore yet)".</li>
-          <li><strong>Settings may reset:</strong> the Forever beta has a known bug where add-on settings don't
-            always load back after you log out. That's on the game side.</li>
-          <li><strong>Beta client:</strong> built for build 1.60.1. Game patches can break things, so please <a href="/feedback?kind=bug">report problems</a>.</li>
-        </ul>
-      </section>
-
-      <section class="tab-panel" id="changelog" role="tabpanel">
-        <h2>Changelog</h2>
-        <!-- changelog:begin (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->
-        <h3>0.18.0</h3>
-        <ul>
-          <li><strong>Meet Willo:</strong> Willo, Lore Forever's free companion app, now installs on her own. Ask her anything out loud or in her chat while you play. She knows your race and class, and her tips come in the same voice as her answers.</li>
-          <li><strong>Talk to anyone:</strong> target a character, from King Magni to a guard or an innkeeper, and they answer you themselves. Willo glows in their colors while they speak, and each remembers only what you said to them.</li>
-          <li><strong>Chat with Willo in game:</strong> click Willo to chat right there, scroll back through it, and start a new chat from her bubble.</li>
-          <li><strong>Willo's sky:</strong> live game info now shows as rings of stars over your minimap instead of colored squares.</li>
-          <li><strong>Willo's settings in one place:</strong> they sit together in Options, greyed out until Willo is installed.</li>
-          <li><strong>Fewer wrong answers:</strong> when Lore Forever only half-understands a question, it offers its closest matches, and "thanks" or "that's not right" get a friendly reply instead of a random story.</li>
-          <li><strong>Tidier chat and lore fixes:</strong> suggested questions sit right under the latest answer, and 17 lore entries are corrected.</li>
-        </ul>
-        <h3>0.17.1</h3>
-        <ul>
-          <li><strong>Fixed:</strong> Lore Forever could leave a character without movement or camera keys; affected characters get their own keys back at next login.</li>
-        </ul>
-        <h3>0.17.0</h3>
-        <ul>
-          <li><strong>More places read aloud:</strong> 237 more places have their whole story narrated by both narrators, in an optional More places download.</li>
-          <li><strong>More native voices:</strong> Spanish stories are now narrated, Portuguese gets its male narrator, and French and German get more stories, all in native accents.</li>
-          <li><strong>Lore and translation fixes:</strong> corrected lore and quest givers, native names like the Scythe of Elune, and no more doubled articles in French, German, Spanish and Portuguese.</li>
-          <li><strong>Your own key bindings are back on new characters:</strong> an earlier version could leave a new character with only Lore Forever's keys. It's put right at your next login.</li>
-        </ul>
-        <h3>0.16.0</h3>
-        <ul>
-          <li><strong>Lore that matches WoW Forever:</strong> boat routes, flight paths and what Forever changed, like every priest learning Fear Ward and the Horde starting out Hated with Dalaran. Over 1,100 lore entries corrected.</li>
-          <li><strong>Community voices always play:</strong> Densuad's Spanish edition and the Ukrainian narrator play all their recordings again, and community translations keep their own words.</li>
-          <li><strong>More of the story read aloud:</strong> the lore topics behind the world play as full stories, more answers are narrated, and two-word names are said clearly.</li>
-          <li><strong>Native accents only:</strong> German and French narration uses native voices. Spanish and Portuguese are text until their native recordings arrive.</li>
-          <li><strong>Willo:</strong> a cleaner chat layout, typing in its window works again, and it knows WoW Forever's boats, flights and changes.</li>
-          <li><strong>Live game info stays out of your way:</strong> it shows only while the Lore Forever window is open.</li>
-          <li><strong>Fixed:</strong> the quest window's Lore button no longer covers Chronicle's or Spoken's.</li>
-        </ul>
-        <h3>0.15.0</h3>
-        <ul>
-          <li><strong>Meet Willo:</strong> the companion's Sam the Squire is now Willo, a little wisp of light. When today's live answers run out, Willo answers from the lore library instead of leaving you at a dead end.</li>
-          <li><strong>Your profile tells your journey:</strong> your story first, then a chapter for each day you played, with the map beside you following the chapter you're reading.</li>
-          <li><strong>More of the story read aloud:</strong> thousands more answers and about 200 more complete stories, with two-word names like Goretusk and Runetotem said clearly.</li>
-          <li><strong>Your language:</strong> zone and quest names show in your language even on an English game client, German and French narration is back in native voices, and French and Spanish narration is on CurseForge too.</li>
-          <li><strong>Battles told as battles:</strong> Warsong Gulch, Arathi Basin, Alterac Valley and the Darkspear Islands have their story, and your journey records each battle you fight: your side, who won and how you did.</li>
-          <li><strong>Lore that fits WoW Forever:</strong> class and race lore says who can walk which path in Forever, from Forsaken paladins to gnome priests, and new entries cover Mount Hyjal and Forever's world.</li>
-          <li><strong>Hear a download before you get it:</strong> the Downloads page plays sample lines from each extra download, and Setup no longer looks stuck at the end of one.</li>
-          <li><strong>Smaller fixes:</strong> "why are they attacking me?" answers about the creature you've targeted, and <code>/lore errors</code> shows a Lua error ready to copy into Discord.</li>
-          <li><strong>Anonymous usage counts:</strong> Willo's daily check-in tells us how often each feature gets used, never what you ask, hear or write. Willo's settings turn it off.</li>
-        </ul>
-        <h3>0.14.0</h3>
-        <ul>
-          <li><strong>Talk to your target:</strong> with the companion app, target a character Lore Forever knows, like Bolvar or Thrall, and ask your question: they answer you in person.</li>
-          <li><strong>Free daily answers from Sam:</strong> connect your profile for 20 live answers a day, no key needed. Turn on Live game info and Sam knows where you are, what you're fighting and your tracked quest right away.</li>
-          <li><strong>Your picture book:</strong> the companion takes a picture when you level up, beat a boss or first reach a zone or dungeon, and your Journey shows them.</li>
-          <li><strong>Pick up where you left off:</strong> pause a story or answer and play it again to carry on from the passage you were in.</li>
-          <li><strong>More to hear:</strong> 365 more complete stories, stories fixed this week play in full again, and quest givers sound more like their people with new dwarf, goblin, human, Skyborne and troll voices.</li>
-          <li><strong>Your language:</strong> German, French, Spanish and Portuguese use the game's own names for places and people, suggested questions come translated, and Italian is its own language download.</li>
-          <li><strong>Lore fixes:</strong> about 290 entries corrected, Hilary's Necklace uses the girl's name from Forever, and a quest giver's "why does he want me to do this?" answers about the quest they gave you.</li>
-          <li><strong>Help make it better:</strong> share Forever's new quest text with a click, report a narration that sounds wrong right from the player, and lend your voice or claim a zone to narrate on the voice studio.</li>
-        </ul>
-        <h3>0.13.1</h3>
-        <ul>
-          <li><strong>Your profile stays up to date again:</strong> Sam syncs your profile automatically with the 0.13.0 add-on.</li>
-          <li><strong>The game's own names in your language:</strong> German, French, Spanish and Portuguese show the game's names for places and people, like Sturmwind and Hurlevent, instead of English ones.</li>
-        </ul>
-        <h3>0.13.0</h3>
-        <ul>
-          <li><strong>Meet Sam the Squire:</strong> Harold, the companion, has a new name and title.</li>
-          <li><strong>Sam helps with the adventure:</strong> ask about profession quests, rewards, recipes, vendors and directions as well as lore. Chats remember what you said earlier, and you can reopen, rename or delete them.</li>
-          <li><strong>Ukrainian, fully translated and narrated:</strong> Pekelnyj / UALL's translation covers every lore entry, and a Ukrainian narration download reads hundreds of stories and answers.</li>
-          <li><strong>More complete stories:</strong> 68 more lore entries play their whole story in the male narrator's voice.</li>
-          <li><strong>Shift-click to pause and resume:</strong> Shift-click the minimap button to pause what's playing and again to pick it up where you left off. Right-click opens Options.</li>
-          <li><strong>Lore fixes:</strong> about 200 entries corrected, and Dalaran's lore tells of the city's rebuilding.</li>
-          <li><strong>Smaller fixes:</strong> your level shows in your language, narrated stories keep their headings and spoiler buttons, and journey pictures sit beside the right moment.</li>
-        </ul>
-        <h3>0.12.0</h3>
-        <ul>
-          <li><strong>Complete stories:</strong> 250 lore entries now play their whole story, not just an overview, with the text to read along. Stormwind and Westfall play in both narrators' voices.</li>
-          <li><strong>Densuad's Spanish edition:</strong> choose the community's own Spanish text and narration together, as one optional download.</li>
-          <li><strong>Ukrainian and fresher translations:</strong> UALL / Pekelnyj's Ukrainian brings the whole interface and over 880 lore entries, and German, Portuguese, French and Spanish text is refreshed with community corrections.</li>
-          <li><strong>More quest answers:</strong> the male narrator reads more answers about early quests, as an optional download.</li>
-          <li><strong>Herald:</strong> its Player opens faster and remembers your volume, live answers show as text in Chat, and Chat explains how to connect your profile.</li>
-          <li><strong>Pictures beside your journey:</strong> pictures on your profile's timeline enlarge when you hover them and open when you click.</li>
-          <li><strong>Lore fixes:</strong> 167 entries corrected, with later-era identities removed.</li>
-        </ul>
-        <h3>0.11.0</h3>
-        <ul>
-          <li><strong>Herald beside your game:</strong> the Windows companion opens as its own app, with a chat, a settings page and a timeline whose pictures enlarge on hover.</li>
-          <li><strong>The Lore Player in Herald:</strong> browse the recorded lore, read along and listen with pause, seeking and speeds up to 2x, no voice downloads needed.</li>
-          <li><strong>More quest answers:</strong> more answers in the female narrator's voice and over 500 quest answers in the male narrator's, as optional downloads.</li>
-          <li><strong>Read along as you listen:</strong> a narration that starts opens its text without taking over the page you're browsing, and narration plays straight through with Stop and Restart.</li>
-          <li><strong>Your profile story stays current:</strong> syncing refreshes your profile story from your latest journey.</li>
-          <li><strong>Lore fixes:</strong> about 200 entries corrected, and Bluegill and Mosshide warriors no longer open the Warrior class story.</li>
-          <li><strong>Smaller fixes:</strong> the minimap button stays on the edge of square minimaps, hidden spoiler answers stay silent until you reveal them, and Options lists every voice and language you've installed.</li>
-        </ul>
-        <h3>0.10.0</h3>
-        <ul>
-          <li><strong>A companion for your adventure:</strong> the Windows installer can add the optional companion app. It keeps your profile up to date and answers your questions over the game, up to 20 a day free with your account connected.</li>
-          <li><strong>Pictures on your profile:</strong> the companion puts your pictures on your profile and shows where each one is, from waiting to uploaded.</li>
-          <li><strong>More answers to listen to:</strong> the female narrator's optional downloads read over 8,000 answers about people, places, lore and early quests, each question before its answer.</li>
-          <li><strong>Quest dialogue when you want it:</strong> narrated quest dialogue starts off and is its own download; turn it on in Options.</li>
-          <li><strong>Clearer downloads:</strong> the Downloads page helps you find a voice in your language, with sizes and counts.</li>
-          <li><strong>Lore fixes:</strong> 150 entries corrected, community Spanish wording back in 27 entries, and wild nightsabers no longer show Sentinel lore.</li>
-        </ul>
-        <h3>0.9.0</h3>
-        <ul>
-          <li><strong>Quest givers in their own voices:</strong> the first quest-giver voices, for male human, dwarf, Forsaken and orc quest givers, come as an optional download, and every recorded quest giver now finishes their last sentence.</li>
-          <li><strong>Only recorded voices, at your volume:</strong> Lore Forever now speaks only with its recorded narrators, and anything not yet recorded stays as text. Options sets how loud they are and which sound channel they play on.</li>
-          <li><strong>Quests in your playlist:</strong> Shift-click a quest to queue what its quest giver said, and the map's quest log has a Play button.</li>
-          <li><strong>Arrival stories in step with you:</strong> a zone's story waits for the one that's playing, plays as you land from a flight, and plays by itself only once.</li>
-          <li><strong>More answers to hear:</strong> the female narrator reads hundreds more answers about zones and places, the Spanish and French narrators read each question before its answer, and voice downloads are on CurseForge too.</li>
-          <li><strong>Your road on a map:</strong> your profile opens on a map and timeline of your travels, and every narration has its own page to hear and read at loreforeverwow.com/lore.</li>
-          <li><strong>More of your story in numbers:</strong> how you traveled, the inns you've called home, the fish you've caught, what killed you and more, on the Journey page and your profile.</li>
-          <li><strong>Lore fixes:</strong> 134 entries corrected, 12 later-era places removed, Redridge and Stonetalon said the same way everywhere, and Cutting Teeth tells its own story.</li>
-          <li><strong>Smaller fixes:</strong> a quest's storyline line no longer covers its text, and items from your mailbox, a vendor or the bank no longer count as finds.</li>
-        </ul>
-        <h3>0.8.0</h3>
-        <ul>
-          <li><strong>Your journey in numbers:</strong> the steps you walk, the foes you slay, your deaths and your time played, on the Journey page and your profile, with lines like "the road from Goldshire to Booty Bay 3 times over".</li>
-          <li><strong>Your profile, moment by moment:</strong> your page on loreforeverwow.com tells your journey as it happened. Follow a trail from any moment, like a finished quest back to whoever gave it.</li>
-          <li><strong>A better Journey page:</strong> the map follows where you actually walked, with zoom and a bigger view, and every moment, or any quest you've ever completed, opens its story.</li>
-          <li><strong>Quest givers, every time:</strong> their words play each time you open a quest, a play button hears them again, Stop cuts them off, and arrival stories no longer drown them out.</li>
-          <li><strong>Narration only when you press Play:</strong> a new choice turns off everything that plays by itself, and Lore Forever no longer talks over the game's cinematics.</li>
-          <li><strong>What's new in game:</strong> after an update, one chat line and a card in the panel show what the new version brings.</li>
-          <li><strong>Share what you find:</strong> upload the Forever quest, gossip and book text you've seen at loreforeverwow.com/contribute, and report a narration that sounds wrong from the player's right-click menu.</li>
-          <li><strong>Thank you, translators!</strong> German and Spanish players reworked about 250 lines, and everyone who helps is on the new Contributors page. On a non-English game client, Lore Forever now says how to hear the English narrators.</li>
-          <li><strong>Smaller fixes:</strong> narration plays even with the game's Dialog sound off, Reset windows brings back a lost player or panel, quests filed under the wrong story find their own, and <code>/loreforever</code> works when Chronicle also uses /lore.</li>
-        </ul>
-        <h3>0.7.0</h3>
-        <ul>
-          <li><strong>Quest givers speak:</strong> open a quest and the quest giver's words play aloud, with women in the female narrator's voice where she's recorded them.</li>
-          <li><strong>See which quests belong together:</strong> a quest that's part of a storyline says so, like "Storyline · Westfall: The Defias Brotherhood", and chat tells you who to see next.</li>
-          <li><strong>Your profile on loreforeverwow.com:</strong> sign in and paste your journey record for a page about your character, private until you share it. Downloading Lore Forever never needs an account.</li>
-          <li><strong>Plays nicely with other voice add-ons:</strong> with VoiceOver, Chronicle and similar add-ons running, quest dialogue starts off so nothing is voiced twice.</li>
-          <li><strong>The journey map shows what you've explored:</strong> zones look the way they do on your World Map.</li>
-          <li><strong>Lore fixes:</strong> 205 entries corrected and 97 removed that don't belong in this era.</li>
-          <li><strong>Smaller changes:</strong> the menu bar book button is gone (use your key, the minimap button or /lore), and translated labels fit their buttons.</li>
-        </ul>
-        <h3>0.6.0</h3>
-        <ul>
-          <li><strong>Narrations play as you arrive:</strong> reach a zone or place and its story plays by itself, after any fight and never twice, and quest givers' dialogue is narrated too.</li>
-          <li><strong>A narration player:</strong> play, pause, skip and your queue sit at the bottom of the panel, and a small copy floats on screen when you close it.</li>
-          <li><strong>Your journey, on the map:</strong> Journey opens a timeline of each play session beside a world map of where it happened, and the first chat after you log in sums up your last session.</li>
-          <li><strong>A new look:</strong> the panel wears the game's gold dialog frame over dark stone, with fewer tabs, search boxes on the long lists and a size you can change.</li>
-          <li><strong>Four languages come with the add-on:</strong> French, Spanish, German and Brazilian Portuguese switch on by themselves on those game clients.</li>
-          <li><strong>Every narration in one download:</strong> every zone's places and people come with the add-on, and you can install several voices and put them in the order you like.</li>
-          <li><strong>Clickable names in answers:</strong> the places, people and events an answer mentions link to their stories, and questions in your own words find the right answer more often.</li>
-          <li><strong>Boss stories after the fight:</strong> beat a dungeon boss and chat links their story.</li>
-          <li><strong>Smaller changes:</strong> the minimap button sits on the minimap's edge, a short tip shows at your first few logins, a missing voice says where to get it, and lore is corrected in 99 entries.</li>
-        </ul>
-        <h3>0.5.0</h3>
-        <ul>
-          <li><strong>Your journey:</strong> a new Journey tab keeps what your character has done: places discovered, people met, quests finished, foes and bosses defeated, books read and rare finds. It stays on your PC.</li>
-          <li><strong>Answers know your journey:</strong> the story of a quest you've finished or someone you've met opens with a line like "You finished this at level 12, 3 days ago, in a group."</li>
-          <li><strong>Hundreds more narrations, in both voices:</strong> 25 new zone stories, plus the places and people of the capitals, starting zones and early zones as optional downloads, with names like Feralas and Quel'Thalas said properly.</li>
-          <li><strong>Tell us when an answer is wrong:</strong> every answer has a check and a cross, and the cross gives you a short report to send, never with your character's name.</li>
-          <li><strong>For translators and narrators:</strong> a test pack shows your work in game before it ships, and you can upload a whole folder at once.</li>
-          <li><strong>Lore fixes:</strong> 126 entries corrected, 11 from later expansions removed, and places that share a name, like the Canals, answer for the zone you're in.</li>
-        </ul>
-        <h3>0.4.0</h3>
-        <ul>
-          <li><strong>A female narrator:</strong> a second narrator reads every zone story, answer and dungeon boss, as an optional download.</li>
-          <li><strong>Every dungeon boss, narrated:</strong> 52 bosses from the Deadmines to the Scarlet Monastery, spoiler-free. Target a boss and open Lore Forever for their story, and inside a dungeon the Here tab lists its bosses in order.</li>
-          <li><strong>Ask about what's in front of you:</strong> "what am I doing here?", "who leads them?" or "why can I use the Light?" answer from where you are, who you've targeted and your quest log.</li>
-          <li><strong>A narration playlist:</strong> queue narrations to play one after another, and flying over several zones plays each zone's story instead of cutting one off.</li>
-          <li><strong>More lore:</strong> about 760 quest items, every class, the first quests of the starting areas, and stories of their own for Baron Aquanis and Bazil Thredd.</li>
-          <li><strong>Lore fixes:</strong> 275 entries corrected, with twists kept behind the spoiler button, and Lordaeron and Gnomeregan said the way players say them.</li>
-          <li><strong>Smaller changes:</strong> the minimap button is on by default and Shift-click plays your playlist, your Lore key always opens the story of who you're hovering, and the window can be made narrower.</li>
-        </ul>
-        <h3>0.3.0</h3>
-        <ul>
-          <li><strong>New narrators:</strong> every zone story and answer has a new narrator, with clearer Warcraft names like Teldrassil and Gnomeregan.</li>
-          <li><strong>Choose your narrator:</strong> pick from the narration voices you've installed in Options.</li>
-          <li><strong>Community voices:</strong> players can record the stories and share their voice for others to install; anything they haven't recorded plays with the default narrator.</li>
-          <li><strong>Installing by hand?</strong> Copy both folders from the zip into AddOns and restart the game the first time.</li>
-          <li><strong>Fixes:</strong> a few narrated stories corrected, the Options page lays out properly, and the druid quest Moonglade links to Mathrengyl Bearwalker.</li>
-        </ul>
-        <h3>0.2.2</h3>
-        <ul>
-          <li><strong>Lore accuracy pass:</strong> about 560 entries corrected, from names and races to places and quest givers.</li>
-          <li><strong>Sticks to Forever's timeline:</strong> about 260 places, people and quests that don't exist yet are gone, and more twists stay behind the spoiler prompt.</li>
-        </ul>
-        <h3>0.2.1</h3>
-        <ul>
-          <li><strong>Installer fix:</strong> the Windows installer now shows its publisher correctly. The add-on itself is unchanged.</li>
-        </ul>
-        <h3>0.2.0</h3>
-        <ul>
-          <li><strong>The world up to level 30:</strong> every zone, city and dungeon up to level 30, including Zephras Isle, the Hall of Thanes and the Ruins of Lordaeron, plus place lore for the rest of the world, all true to Forever's timeline.</li>
-          <li><strong>Lore wherever you look:</strong> lore on NPC, mob and item tooltips and a Lore button on quests. Pick a key at first login and press it over an NPC to read about them.</li>
-          <li><strong>Dungeon primers:</strong> a dungeon's story before you go in.</li>
-          <li><strong>Ask anything:</strong> type-ahead questions, "Ask next" follow-ups and names that forgive typos ("Did you mean...").</li>
-          <li><strong>Listen:</strong> a Listen button, and narration as you fly.</li>
-        </ul>
-        <h3>0.1.0</h3>
-        <ul>
-          <li><strong>First release:</strong> lore for Elwynn Forest, Westfall and the Deadmines.</li>
-        </ul>
-        <!-- changelog:end -->
-      </section>
-
+        </table></div>
+      </details>
     </div>
-
-    <aside class="side-col">
-      <div class="box install-box">
-        <h3>Install in 3 steps</h3>
-        <ol class="steps">
-          <li><strong>Run the <a class="dl-link" href="/download/installer">Windows installer</a>.</strong> It finds
-            your WoW Forever folder.</li>
-          <li><strong>Start WoW</strong>, or type <code>/reload</code> if it's already running.</li>
-          <li><strong>Type <code>/lore</code></strong> or press the key you pick on first login.</li>
-        </ol>
-        <details class="zip-steps">
-          <summary>Using the zip or CurseForge?</summary>
-          <p>Unzip the <a class="dl-link" href="/download/zip">zip</a> into
-            <code>World of Warcraft\_classic_beta_\Interface\AddOns</code> so you have
-            <code>AddOns\LoreForever\LoreForever.toc</code>, then start WoW (or <code>/reload</code>). The CurseForge
-            app keeps the add-on and its separate voice packs updated; choose extra voices on the
-            <a href="/downloads#voices">Downloads page</a>.</p>
-        </details>
-        <a class="install-more" href="#install">Full install guide</a> &middot;
-        <a class="install-more" href="/downloads#voices">Narrator voices</a>
-      </div>
-      <div class="box">
-        <h3>About</h3>
-        <dl>
-          <dt>Game</dt><dd>World of Warcraft: Forever</dd>
-          <dt>Game version</dt><dd>1.60.1 (beta)</dd>
-          <dt>Full launch</dt><dd>November 4, 2026</dd>
-          <dt>Category</dt><dd>Quests &amp; Leveling, Roleplay</dd>
-          <dt>Author</dt><dd>Mike</dd>
-        </dl>
-      </div>
-      <div class="box">
-        <h3>Links</h3>
-        <ul class="links">
-          <li><a href="/downloads">All downloads</a></li>
-          <li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li>
-          <li><a href="https://www.curseforge.com/wow/addons/lore-forever">CurseForge page</a></li>
-          <li><a href="/discord?src=site">Discord</a></li>
-          <li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li>
-          <li><a href="/downloads#voices">Narration voices</a></li>
-          <li><a href="/translate">Languages and translating</a></li>
-          <li><a href="/feedback">Send feedback</a></li>
-        </ul>
-      </div>
-    </aside>
   </div>
+</section>
 
-  <!-- Optional email sign-up, at the bottom so it never stands between a visitor and the download. Saved by
-       functions/api/subscribe.js into the site's own D1 database (table subscribers). No confirmation email.
-       /unsubscribe (functions/api/unsubscribe.js) takes an address off again. -->
-  <section class="signup" aria-labelledby="signup-title">
-    <div class="signup-text">
-      <h2 id="signup-title">Hear when something new ships</h2>
-      <p>One email when a new version is out, and your address is used for nothing else
-        (<a href="/privacy">privacy</a>). <a href="/unsubscribe">Unsubscribe anytime</a>. Rather chat? News goes
-        to the <a href="/discord?src=site">Discord</a> too.</p>
+<!-- The questions players ask first. FAQPage in the structured data above repeats them word for word. -->
+<section class="h-faq-sec" aria-labelledby="faq-title">
+  <div class="h-wrap">
+    <h2 id="faq-title">Questions</h2>
+    <div class="h-faq">
+      <details open><summary>Is Lore Forever free?</summary><p>Yes, always: the add-on, every narration pack and every language. Willo is free to start, and her plans add more.</p></details>
+      <details><summary>Do I need Willo?</summary><p>No. The add-on works on its own. Willo needs the add-on: she listens to it to know where you are.</p></details>
+      <details><summary>Does it work on Mac?</summary><p>The add-on does: use the zip. Willo runs on Windows 10 and 11 for now.</p></details>
+      <details><summary>Will it spoil my quests?</summary><p>No. Quests you haven't picked up stay plain, and dungeon endings sit behind a spoiler button.</p></details>
+      <details><summary>Which levels does it cover?</summary><p>Every zone, city and dungeon up to level 30 in full, and place lore for each zone above that. Where Forever and Classic disagree, Forever wins.</p></details>
+      <details><summary>Does Willo play the game for me?</summary><p>Never. She listens, looks and talks. You do all the playing.</p></details>
     </div>
-    <form class="signup-form" id="signup" data-source="landing-page">
-      <label for="signup-email" class="visually-hidden">Email address</label>
-      <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
-      <input type="text" name="website" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
-      <button type="submit" class="btn-small">Notify me</button>
-      <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
-    </form>
-  </section>
+    <p class="h-faq-more"><a href="/faq">See what else players ask</a> &middot; Spotted a wrong answer? <a href="/feedback">Tell us</a></p>
+  </div>
+</section>
 
 </main>
 
-<footer class="wrap foot">
-  <p>Questions? <a href="/faq">See what players ask most</a>. Spotted a wrong answer? <a href="/feedback">Tell us</a>.</p>
-  <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
-  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
-  <p><a href="/privacy">Privacy</a>: what we keep and why. <a href="/terms">Terms</a> and <a href="/refunds">refunds</a>.</p>
-  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
-    Not affiliated with or endorsed by Blizzard.</p>
+<!-- The footer, with the optional email sign-up: saved by functions/api/subscribe.js into the site's own D1 database
+     (table subscribers), no confirmation email; /unsubscribe (functions/api/unsubscribe.js) takes an address off. -->
+<footer class="h-foot">
+  <div class="h-wrap">
+    <div class="h-foot-grid">
+      <div class="h-sign">
+        <span class="h-brand"><img src="/img/logo.svg" alt="" width="30" height="30">Lore Forever</span>
+        <p>One email when a new version is out, and your address is used for nothing else
+          (<a href="/privacy">privacy</a>). <a href="/unsubscribe">Unsubscribe anytime</a>.</p>
+        <form class="h-sub-form" id="signup" data-source="landing-page">
+          <label for="signup-email" class="h-vh">Email address</label>
+          <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
+          <input type="text" name="website" class="h-vh" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button type="submit" class="h-btn h-ghost h-sm">Notify me</button>
+          <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
+        </form>
+      </div>
+      <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/lore">Lore library</a></li><li><a href="/whats-new">What's new</a></li></ul></nav>
+      <nav aria-label="Willo"><h2>Willo</h2><ul><li><a href="/willo">Meet Willo</a></li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li><li><a href="/faq">FAQ</a></li></ul></nav>
+      <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/translate">Help translate</a></li><li><a href="/contributors">Contributors</a></li></ul></nav>
+      <nav aria-label="About"><h2>About</h2><ul><li><a href="/feedback">Send feedback</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/refunds">Refunds</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
+    </div>
+    <div class="h-legal">
+      <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+      <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+        Not affiliated with or endorsed by Blizzard.</p>
+    </div>
+  </div>
 </footer>
 
+<!-- The narrations and Willo's voices (one plays at a time; playing one stops Willo's clip from talking over it), and
+     the footer's sign-up. -->
+<script src="/js/players.js?v=20261015a" defer></script>
+<script src="/js/foot.js?v=20261015a" defer></script>
 <script>
 // Download count: GitHub release downloads (exact, from the public API, no key) plus CurseForge's total
 // (through shields.io).
 const GITHUB_REPO = "mliudev/LoreForever";
 const CURSEFORGE_PROJECT_ID = "1715510";
 
-// The optional sign-up at the bottom sends the email to /api/subscribe (functions/api/subscribe.js).
-// Downloads never wait on it.
-(function wireSignup() {
-  const form = document.getElementById("signup");
-  form.addEventListener("submit", e => {
-    e.preventDefault();
-    const data = JSON.stringify({ email: form.email.value, source: form.dataset.source, website: form.website.value });
-    const blob = new Blob([data], { type: "application/json" });
-    if (!(navigator.sendBeacon && navigator.sendBeacon("/api/subscribe", blob))) {
-      fetch("/api/subscribe", { method: "POST", body: blob, keepalive: true }).catch(() => {});
-    }
-    document.getElementById("signup-note").hidden = false;
-    form.reset();
-  });
+// Install, Known limits and Commands open from their address (#install, the add-on's and other pages' old links to
+// the Install tab), and scroll into view.
+(function openFromHash() {
+  const open = () => {
+    const el = document.getElementById(location.hash.slice(1));
+    if (el && el.tagName === "DETAILS") { el.open = true; el.scrollIntoView({ behavior: "smooth", block: "start" }); }
+  };
+  open();
+  window.addEventListener("hashchange", open);
 })();
 
-// Tabs. Without JavaScript all panels stay visible.
-document.body.classList.add("js");
-const tabs = document.querySelectorAll("[data-tab]");
-function showTab(id) {
-  tabs.forEach(t => t.setAttribute("aria-selected", t.dataset.tab === id));
-  document.querySelectorAll(".tab-panel").forEach(p => p.hidden = p.id !== id);
-}
-tabs.forEach(t => t.addEventListener("click", () => {
-  showTab(t.dataset.tab);
-  history.replaceState(null, "", "#" + t.dataset.tab);
-}));
-function showTabFromHash(scroll) {
-  const id = location.hash.slice(1);
-  if (!document.getElementById(id)?.classList.contains("tab-panel")) return false;
-  showTab(id);
-  if (scroll) document.querySelector(".tabs").scrollIntoView({ behavior: "smooth" });
-  return true;
-}
-if (!showTabFromHash(false)) showTab("description");
-window.addEventListener("hashchange", () => showTabFromHash(true));   // e.g. the "install guide" link
-
-
-// Download counter: GitHub release downloads plus CurseForge's total, exact, from /api/downloads
-// (functions/api/downloads.js), refreshed every minute while the page is in view. If a source is missing there, the
-// browser asks it directly, as before. Stays "New release" until the count is above 0, and never goes down (a
-// fallback can be rounder than the exact number shown a minute ago).
-let shownDownloads = 0;
+// Download counters: the add-on's (GitHub release downloads plus CurseForge's total) and Willo's, from /api/downloads
+// (functions/api/downloads.js), refreshed every minute while the page is in view. If GitHub is missing there, the
+// browser asks it directly, as before; for Willo it takes the larger of that and the site's own count. The add-on's
+// stays "New release" and Willo's stays hidden until above 0, and neither goes down (a fallback can be rounder or
+// lower than the number shown a minute ago).
+const WILLO_FILE = "Willo-Setup.exe";
+let shownDownloads = 0, shownWillo = 0;
 async function showDownloadCount() {
   const toNumber = m => {   // shields.io messages look like "0", "950", "1.2k" or "3M"
     const x = /^([\d.]+)([kKmM]?)$/.exec(m || "");
     return x ? parseFloat(x[1]) * ({ k: 1e3, K: 1e3, m: 1e6, M: 1e6 }[x[2]] || 1) : 0;
   };
   const counts = await fetch("/api/downloads").then(r => r.ok ? r.json() : {}).catch(() => ({}));
-  const github = counts.github != null ? counts.github : fetch("https://api.github.com/repos/" + GITHUB_REPO + "/releases?per_page=100")
-    .then(r => r.ok ? r.json() : [])
-    .then(rels => rels.reduce((n, rel) => n + (rel.assets || []).filter(x => /\.(zip|exe)$/i.test(x.name))
-      .reduce((a, x) => a + (x.download_count || 0), 0), 0))
-    .catch(() => 0);
+  let releases = null;   // one look at GitHub's releases, only when the server's answer lacks it
+  const assets = () => (releases ||= fetch("https://api.github.com/repos/" + GITHUB_REPO + "/releases?per_page=100")
+    .then(r => r.ok ? r.json() : []).catch(() => []))
+    .then(rels => rels.filter(rel => rel.tag_name !== "audio").flatMap(rel => rel.assets || []));
+  const sum = list => list.reduce((n, x) => n + (x.download_count || 0), 0);
+  const github = counts.github != null ? counts.github
+    : assets().then(list => sum(list.filter(x => /\.(zip|exe)$/i.test(x.name) && x.name !== WILLO_FILE)));
+  const willo = counts.willoSource === "github" ? counts.willo
+    : assets().then(list => Math.max(counts.willo || 0, sum(list.filter(x => x.name === WILLO_FILE))));
   const curseforge = counts.curseforge != null ? counts.curseforge : CURSEFORGE_PROJECT_ID
     ? fetch("https://img.shields.io/curseforge/dt/" + CURSEFORGE_PROJECT_ID + ".json")
         .then(r => r.json()).then(d => toNumber(d.message)).catch(() => 0)
     : 0;
+  const show = (el, n) => {
+    el.innerHTML = "<strong></strong> " + (n === 1 ? "download" : "downloads");
+    el.firstChild.textContent = n.toLocaleString("en-US");
+  };
   const total = Math.round((await github) + (await curseforge));
-  if (total > shownDownloads) {
-    shownDownloads = total;
-    const el = document.getElementById("downloads");
-    el.innerHTML = "<strong></strong> " + (total === 1 ? "download" : "downloads");
-    el.firstChild.textContent = total.toLocaleString("en-US");
+  if (total > shownDownloads) show(document.getElementById("downloads"), shownDownloads = total);
+  const w = Math.round(await willo || 0);
+  if (w > shownWillo) {
+    const el = document.getElementById("willo-downloads");
+    show(el, shownWillo = w);
+    el.hidden = false;
   }
 }
 showDownloadCount();
 setInterval(() => { if (!document.hidden) showDownloadCount(); }, 60000);
 document.addEventListener("visibilitychange", () => { if (!document.hidden) showDownloadCount(); });
 
-// "Made with the community": the players' voices and a line about the translators, from /api/credits. Best effort:
-// the strip stays hidden if the call fails or there's nobody to show yet. Text only (textContent), never HTML.
+// Willo's clips. The silent loop plays on its own unless the visitor asked for reduced motion or less data; then the
+// poster waits for "Play with sound". That button, or a clip button, plays the full clip with sound and controls (it's
+// a tap, so the browser allows the sound); "Her window" shows the screenshot instead.
+(function heroClips() {
+  const video = document.getElementById("hw-video");
+  const still = document.querySelector(".h-still");
+  const sound = document.getElementById("hw-sound");
+  const cap = document.getElementById("hw-cap");
+  const picks = [...document.querySelectorAll(".h-pick")];
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches || navigator.connection?.saveData) {
+    video.removeAttribute("autoplay");
+    video.preload = "none";
+    video.pause();
+  }
+  function playFull(pick) {
+    still.hidden = true;
+    sound.hidden = true;
+    video.hidden = false;
+    video.loop = false;
+    video.muted = false;
+    video.controls = true;
+    video.poster = pick.dataset.poster;
+    video.src = pick.dataset.video;
+    video.setAttribute("aria-label", pick.dataset.label);
+    video.play().catch(() => {});
+  }
+  sound.addEventListener("click", () => playFull(picks[0]));
+  for (const pick of picks) {
+    pick.addEventListener("click", () => {
+      for (const p of picks) p.setAttribute("aria-pressed", String(p === pick));
+      cap.textContent = pick.dataset.caption;
+      if (pick.dataset.video) return playFull(pick);
+      video.pause();
+      video.hidden = true;
+      sound.hidden = true;
+      still.alt = pick.dataset.label;
+      still.hidden = false;
+    });
+  }
+})();
+
+// Phones and tablets can't run Willo, so they get a way to keep her link for the PC: the share sheet where there is
+// one (send it to yourself), else the clipboard, else the address to copy by hand.
+(function keepWilloLink() {
+  const button = document.getElementById("hw-keep");
+  const url = button.dataset.url;
+  if (navigator.share) button.textContent = "Send the link to your PC";
+  button.addEventListener("click", async () => {
+    if (navigator.share) {
+      try { await navigator.share({ title: "Willo", url }); } catch (e) { /* closed the sheet */ }
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      button.textContent = "Link copied";
+    } catch (e) {
+      const code = document.createElement("code");
+      code.textContent = url;
+      button.replaceWith(code);
+    }
+  });
+})();
+
+// Willo's plans, from /api/billing/plans (lib/billing.js): each card's price and beta offer, and the offer's line.
+// Without an answer the cards keep the words they were written with; with plans switched off they go.
+(async function showPlans() {
+  const res = await fetch("/api/billing/plans").then(r => r.ok ? r.json() : null).catch(() => null);
+  if (!res?.ok) return;
+  if (!res.on) { document.getElementById("h-plans-wrap").hidden = true; return; }
+  const usd = cents => "$" + (cents / 100).toFixed(2);
+  for (const plan of res.plans || []) {
+    const card = document.querySelector(`.h-plan[data-plan="${plan.id}"]`);
+    if (!card) continue;
+    const price = card.querySelector(".h-price");
+    if (plan.monthly > 0) {
+      price.textContent = usd(plan.monthly) + " ";
+      const small = document.createElement("small");
+      small.textContent = "a month";
+      price.append(small);
+    }
+    const pill = card.querySelector(".h-pill");
+    pill.textContent = plan.promo?.label || "";
+    pill.hidden = !plan.promo;
+  }
+  const beta = document.getElementById("h-beta");
+  beta.textContent = res.launch || "";
+  beta.parentElement.hidden = !res.launch;
+})();
+
+// "Voices from our community": the players' voices and a line about the translators, from /api/credits. Best effort:
+// the default line stays if the call fails or there's nobody to show yet. Text only (textContent), never HTML.
 (async function showCommunity() {
   const credits = await fetch("/api/credits").then(r => r.ok ? r.json() : null).catch(() => null);
   if (!credits?.ok) return;
   const voices = (credits.community || []).flatMap(p => p.voices.map(v => ({ ...v, by: p.name })));
   const translators = credits.translators || [];
   const languages = new Set(translators.flatMap(p => Object.keys(p.languages || {}))).size;
-  if (!voices.length && !translators.length) return;
-  // The small "Voices from our community" card under the hero: who narrates, in which language.
-  const said = [...new Set(voices.map(v => v.language ? `${v.by} narrates in ${v.language}` : `${v.by} narrates`))];
-  if (said.length) {
-    const last = said.pop();
-    document.getElementById("voices-card-line").textContent =
-      `Players lend their voices to the stories: ${said.length ? said.join(", ") + " and " : ""}${last}.`;
-  }
   const list = document.getElementById("community-voices");
   for (const v of voices) {
     const li = document.createElement("li");
@@ -943,16 +707,11 @@ document.addEventListener("visibilitychange", () => { if (!document.hidden) show
     list.append(li);
   }
   list.hidden = !voices.length;
-  const line = document.getElementById("community-translators");
   if (translators.length) {
-    line.append((translators.length === 1 ? "1 translator" : translators.length + " translators") + " bringing it to " +
-      (languages === 1 ? "another language" : languages + " languages") + ". ");
+    document.getElementById("community-translators").textContent =
+      (translators.length === 1 ? "1 translator" : translators.length + " translators") + " bringing it to " +
+      (languages === 1 ? "another language" : languages + " languages") + ".";
   }
-  const help = document.createElement("a");
-  help.href = "/translate";
-  help.textContent = translators.length ? "Join them" : "Help translate it";
-  line.append(help, " ·");
-  document.getElementById("community").hidden = false;
 })();
 
 // Count clicks on the download links, CurseForge included (functions/api/click.js). CurseForge's own downloads

@@ -1,0 +1,113 @@
+{
+ "key": "quest:94497",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94497
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Seeking the sapta requires understanding the nature of water across different lands, attuning the spirit to its various manifestations."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Hervdana laments the lingering division between the dwarf clans, especially as Dark Iron dwarves encroach as far north as the Wetlands."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is the sapta",
+    "sapta meaning",
+    "why seek sapta"
+   ],
+   "answer": "The sapta is a sacred draught used to commune with the elemental spirits. To earn it, an initiate must seek out water in its various states and understand how it shapes the land and nourishes living things.",
+   "q": "What is the sapta?"
+  },
+  {
+   "aliases": [
+    "who gives call of water",
+    "where is hervdana",
+    "hervdana cave"
+   ],
+   "answer": "Hervdana gives the task from her cave situated above the waterfalls in the Wetlands. She acts as a guide in gathering water samples to attune an initiate to the element.",
+   "q": "Who is Hervdana?"
+  },
+  {
+   "aliases": [
+    "why estuary water",
+    "brackish water wetlands",
+    "fresh meets salt"
+   ],
+   "answer": "Estuary water represents a special confluence where highland snowmelt and fresh springs mix with ocean tides. This meeting of fresh and mineral-rich saltwater carries unique sediment and spiritual wisdom.",
+   "q": "Why gather water where the fresh meets the brackish?"
+  },
+  {
+   "aliases": [
+    "dark iron in wetlands",
+    "why are dark iron dwarves here",
+    "dark iron threat"
+   ],
+   "answer": "Dark Iron dwarves have crept northward into the Wetlands, posing an active hazard to travelers and elemental seekers trying to reach the marshes and waterfalls.",
+   "q": "What dangers lurk near the waterfalls?"
+  },
+  {
+   "aliases": [
+    "what is a vessel",
+    "vessel of water"
+   ],
+   "answer": "A vessel is an initiate who has begun actively seeking the waters' wisdom, carrying offerings of nature's waters to develop deeper elemental harmony.",
+   "q": "What does it mean to become a vessel?"
+  },
+  {
+   "aliases": [
+    "empty brown waterskin use",
+    "what skin is used"
+   ],
+   "answer": "The Empty Brown Waterskin is the vessel provided by Hervdana to collect the brackish sample from the base of the marsh waterfalls.",
+   "q": "What is the Empty Brown Waterskin used for?"
+  }
+ ],
+ "keywords": [
+  "call of water",
+  "dark iron",
+  "estuary",
+  "hervdana",
+  "sapta",
+  "waterskin",
+  "wetlands"
+ ],
+ "related": [
+  "zone:wetlands",
+  "topic:dwarf",
+  "item:empty-brown-waterskin"
+ ],
+ "sections": [
+  {
+   "body": "To earn the sapta and commune with the spirits, an initiate must seek water in its various forms. Hervdana guides seekers to observe how water moves, changes lives, and sustains the land. The journey begins with understanding estuary waters where ocean tide meets fresh highland runoff.",
+   "spoiler": 0,
+   "title": "The Way of the Sapta"
+  },
+  {
+   "body": "At the base of the waterfalls beneath Hervdana's cave, highland springwater descends into the marsh to collide with saltwater brought inland by coastal tides. Ocean tides carry sediment, minerals, and energies vastly different from clear mountain snowmelt, making the estuary a wellspring of natural wisdom.",
+   "spoiler": 0,
+   "title": "Where Fresh Meets Brackish"
+  },
+  {
+   "body": "Gathering water in the Wetlands is not without peril. In addition to the dangerous marsh fauna, Dark Iron dwarves have pushed uncomfortably far north. Hervdana observes with regret the ongoing hostility among the dwarven clans, noting how much dwarfkind could achieve if they ever set aside their feuds.",
+   "spoiler": 0,
+   "title": "Shadows in the Marsh"
+  }
+ ],
+ "summary": "Call of Water is a spiritual quest in the Wetlands guiding an initiate on the path to earning the sapta. By gathering brackish estuary water where mountain falls meet sea tides, the seeker learns the vital energies of water while navigating the hazards of the marsh.",
+ "attribution": [
+  "In-game quest text: Call of Water"
+ ]
+}

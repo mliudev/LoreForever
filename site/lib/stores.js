@@ -37,7 +37,8 @@ export const CF_CORE = 1715510;
 // The narration and language projects in release/curseforge.json that have an id (site/tests/stores.test.mjs fails
 // when the two lists differ).
 export const CF_PACKS = [1727331, 1727332, 1727333, 1727666, 1727667, 1727668, 1727669, 1731403, 1731408, 1731410,
-  1731411, 1731412, 1731414, 1731415, 1731417, 1731418, 1731419, 1731420, 1733811, 1734020, 1736067, 1740579, 1743314, 1743315];
+  1731411, 1731412, 1731414, 1731415, 1731417, 1731418, 1731419, 1731420, 1733811, 1734020,
+  1736067, 1740579, 1743314, 1743315, 1743518, 1743604, 1745680, 1745682];
 export const GITHUB_REPO = "mliudev/LoreForever";
 const HOUR = 3600e3, DAY = 864e5;
 const EVERY = { core: HOUR, pack: 6 * HOUR };
@@ -277,7 +278,8 @@ function spread(files, from, to, now) {
 //   inUse    CurseForge installs that took the last release that was newest for 20 hours or more: {n, name, hours}
 //   packs    [{project, name, downloads, recent: {n, since, days}}]: each narration or language project's total and its
 //            growth over the last 7 days, or since the first snapshot until there are 7 days of them
-//   github   {downloads, taken}: GitHub's release downloads at the latest snapshot (this site's links included)
+//   github   {downloads, taken}: GitHub's add-on release downloads at the latest snapshot (this site's links included;
+//            not Willo-Setup.exe)
 //   author   null without author numbers, else {first, last, updated, today: {day, downloads, unique}, thisWeek: {week,
 //            current, downloads, unique} (distinct downloaders this week so far, q11; last week's, current false, until
 //            this week's numbers come in), weeks: [{week, downloads, unique,

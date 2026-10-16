@@ -389,8 +389,11 @@ check("packs", {
         reason = rec.loadable == false and rec.reason or nil }
       local label = rec.name:gsub("^LoreForever_", "") .. " " .. (v or "?") .. (loaded and "" or " (not loaded)")
       table.insert((rec.kind == "voice") and voices or (rec.kind == "transport") and support or langs, label)
-      if isOwn(rec.name) then
-        if core and v and v ~= core then bad[#bad + 1] = string.format("%s is %s", rec.name, v) end
+      -- A withdrawn edition (Packs.WITHDRAWN) is an old copy on purpose: it stays paused, which is right.
+      if isOwn(rec.name) and rec.reason ~= "WITHDRAWN" then
+        -- The answer packs were retired in 0.19 (LOR-561): they stay at their last version and keep playing.
+        local retired = rec.name:find("_Answers_", 1, true) ~= nil
+        if core and v and v ~= core and not retired then bad[#bad + 1] = string.format("%s is %s", rec.name, v) end
         if rec.loadable == false and rec.reason ~= "DISABLED" then
           bad[#bad + 1] = string.format("%s can't load (%s)", rec.name, tostring(rec.reason))
         end

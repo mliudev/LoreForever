@@ -88,37 +88,83 @@ jobs:
           if [ -f scripts/audio_assets.py ]; then python3 scripts/audio_assets.py fetch; fi
       # The zip QA tested is the one that ships: scripts/release.sh puts its sha256 in the tag's message. The narration
       # packs build alongside it (scripts/release.sh's public build rehearsal runs the two side by side the same way):
-      # neither reads what the other writes (dist/LoreForever-<version>.zip, dist/packs/), and the zip's ~30 s come off
-      # the time the installer job waits.
-      # dist/extra/manifest.tsv: file, display name, version (one line per extra zip).
-      - name: Build the zip and the narration packs, side by side
+      # neither reads what the other writes (dist/LoreForever-<version>.zip, dist/packs/).
+      # The packs carry on in the background past this step. build-voice-packs.sh builds the installer's own downloads
+      # first and then lists them in $RUNNER_TEMP/packs/installer-ready, and the next two steps hand those and the zip
+      # to the Windows job while the other packs build: on 0.18.0 the installer waited 4 minutes for all of them. A tag
+      # whose build-voice-packs.sh doesn't write that list builds them all first, as before.
+      - name: Build the zip and the narration packs, side by side, the installer's packs first
         run: |
-          bash scripts/build-voice-packs.sh > "$RUNNER_TEMP/packs.log" 2>&1 &
-          packs=$!
-          bash scripts/build-release.sh || { kill "$packs" 2>/dev/null; exit 1; }
+          packs="$RUNNER_TEMP/packs"; mkdir -p "$packs"
+          # Its own log and exit status in files: nothing of this step's output stays open, so the step can end.
+          ( rc=0; LORE_INSTALLER_PACKS_READY="$packs/installer-ready" bash scripts/build-voice-packs.sh || rc=$?
+            echo "$rc" > "$packs/exit.part"; mv "$packs/exit.part" "$packs/exit" ) > "$packs/log" 2>&1 < /dev/null &
+          bash scripts/build-release.sh || exit 1
           mv "dist/LoreForever-${{ steps.version.outputs.version }}.zip" dist/LoreForever.zip
           want='${{ needs.prepare.outputs.zip_sha256 }}'
           got=$(sha256sum dist/LoreForever.zip | cut -d' ' -f1)
           if [ -n "$want" ] && [ "$want" != "$got" ]; then
-            kill "$packs" 2>/dev/null
             echo "::error::The zip came out as sha256 $got, not $want, the zip scripts/release.sh built and QA tested."
             exit 1
           fi
           echo "zip sha256 $got${want:+, the one QA tested}"
-          echo "::group::The narration packs"
-          rc=0; wait "$packs" || rc=$?
-          cat "$RUNNER_TEMP/packs.log"
-          echo "::endgroup::"
-          [ "$rc" = 0 ] || { echo "::error::scripts/build-voice-packs.sh failed (exit $rc; its log is above)"; exit "$rc"; }
-          mkdir -p dist/extra
-          mv dist/packs/*.zip dist/packs/manifest.tsv dist/extra/
-          cat dist/extra/manifest.tsv
-      - name: Freeze verified installer downloads and available transport shards
+          deadline=$((SECONDS + 1800))
+          until [ -e "$packs/installer-ready" ] || [ -e "$packs/exit" ]; do
+            [ "$SECONDS" -lt "$deadline" ] || { echo "::error::scripts/build-voice-packs.sh is still running after 30 minutes"; exit 1; }
+            sleep 1
+          done
+          if [ ! -e "$packs/installer-ready" ] && [ "$(cat "$packs/exit")" != 0 ]; then
+            rc=$(cat "$packs/exit")
+            echo "::group::The narration packs"; cat "$packs/log"; echo "::endgroup::"
+            echo "::error::scripts/build-voice-packs.sh failed (exit $rc; its log is above)"; exit "$rc"
+          fi
+          if [ -e "$packs/installer-ready" ]; then
+            echo "the installer's narration packs, ${SECONDS}s in: $(tr '\n' ' ' < "$packs/installer-ready")"
+          else
+            echo "every narration pack, ${SECONDS}s in (this tag's build-voice-packs.sh doesn't list the installer's)"
+          fi
+      - name: Freeze verified installer downloads and available transport shards, from the installer's packs
         run: |
+          shopt -s nullglob
+          mkdir -p dist/extra
+          if [ -e "$RUNNER_TEMP/packs/installer-ready" ]; then
+            mapfile -t ready < "$RUNNER_TEMP/packs/installer-ready"
+          else   # a builder without the list has built every pack already
+            ready=(); for zip in dist/packs/*.zip; do ready+=("${zip##*/}"); done
+          fi
+          for zip in "${ready[@]}"; do
+            [[ "$zip" =~ ^[A-Za-z0-9_.-]+\.zip$ ]] || { echo "::error::Unexpected installer pack name: $zip"; exit 1; }
+            mv "dist/packs/$zip" dist/extra/
+          done
           python3 scripts/installer_downloads.py --transport dist/transport --packs dist/extra --output dist/extra \
             --published-transport release/transport-downloads.json --version "${{ steps.version.outputs.version }}" \
             --source-commit "$(git rev-parse HEAD)" --candidate-zip dist/LoreForever.zip \
             --base-url "https://github.com/${{ github.repository }}/releases/download/$TAG/"
+      # Only what the installer builds and smoke-tests from, hard links to the files the release ships. linux-manifest
+      # --handover then checks that the full build came to exactly these inputs.
+      - name: Hand the installer its verified inputs while the other narration packs build
+        run: |
+          python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" handover \
+            --core dist/LoreForever.zip --extras dist/extra --output dist/windows
+      # v4 makes the current-run artifact downloadable as soon as this step ends.
+      - uses: actions/upload-artifact@v4
+        with:
+          name: installer-inputs-${{ github.run_attempt }}
+          path: dist/windows/
+          compression-level: 0
+      # dist/extra/manifest.tsv: file, display name, version (one line per extra zip).
+      - name: Wait for the other narration packs
+        run: |
+          packs="$RUNNER_TEMP/packs"; deadline=$((SECONDS + 1800))
+          until [ -e "$packs/exit" ]; do
+            [ "$SECONDS" -lt "$deadline" ] || { echo "::error::scripts/build-voice-packs.sh is still running after 30 minutes"; exit 1; }
+            sleep 1
+          done
+          echo "::group::The narration packs"; cat "$packs/log"; echo "::endgroup::"
+          rc=$(cat "$packs/exit")
+          [ "$rc" = 0 ] || { echo "::error::scripts/build-voice-packs.sh failed (exit $rc; its log is above)"; exit "$rc"; }
+          shopt -s nullglob
+          mv dist/packs/*.zip dist/packs/manifest.tsv dist/extra/
           python3 - <<'PY'
           import json
           from pathlib import Path
@@ -129,22 +175,17 @@ jobs:
                   for row in pack['shards']:
                       listing.write(row['archive'] + '\tTransport: ' + source + '\t' + manifest['releaseVersion'] + '\n')
           PY
+          cat dist/extra/manifest.tsv
+      # Also checks that the full build came to exactly the inputs handed to Windows.
       - name: Freeze source-bound asset digests and content fingerprints
         run: |
           python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" linux-manifest \
-            --core dist/LoreForever.zip --extras dist/extra --output dist/linux-proof.json
-      - name: Keep only installer build and smoke-test inputs on Windows
+            --core dist/LoreForever.zip --extras dist/extra --output dist/linux-proof.json --handover dist/windows/inputs.json
+      # Release-only files apart from the installer's (a published-tag rebuild's linux payload is only those).
+      - name: Keep the release extras apart from the installer's inputs
         run: |
           python3 scripts/installer_inputs.py --source dist/extra \
             --installer dist/installer-inputs --release dist/release-extra
-          python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" bundle \
-            --manifest dist/linux-proof.json --root dist/LoreForever.zip --root dist/installer-inputs --root dist/release-extra --output dist/windows
-      # v4 makes the small current-run artifact downloadable before this job finishes staging the large extras.
-      - uses: actions/upload-artifact@v4
-        with:
-          name: installer-inputs-${{ github.run_attempt }}
-          path: dist/windows/
-          compression-level: 0
       - name: Stage immutable assets directly from their Linux producer
         if: needs.prepare.outputs.published != 'true'
         env:
@@ -203,7 +244,9 @@ jobs:
           client-id: ${{ vars.AZURE_CLIENT_ID }}
           tenant-id: ${{ vars.AZURE_TENANT_ID }}
           subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
-      - name: Receive only verified installer inputs while Linux stages the extras
+      # Each file straight from the artifact's storage, several side by side (the whole zip through one stream if that
+      # doesn't work), then every file checked against the contract.
+      - name: Receive only verified installer inputs while Linux builds the other packs
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
@@ -245,27 +288,57 @@ jobs:
             $signature.thumbprint = $sig.SignerCertificate.Thumbprint
           }
           $signature | ConvertTo-Json | Set-Content -Encoding utf8 dist\signature.json
+      # Side by side, each into its own scratch WoW folder (they took 1.9 minutes one after another on 0.18.0). They
+      # share nothing: the installer has no SetupMutex or AppMutex, each Setup unpacks itself and its downloads into a
+      # {tmp} of its own and stages them in its own folder (.lf-download-stage), its log takes the next free name, and
+      # /QA writes no registry, shortcut or uninstaller. A check that fails side by side runs again alone, into a fresh
+      # folder, as all three ran before; only a failure there fails the release.
       - name: Three independent first-install checks against this run's downloads
         shell: pwsh
         run: |
           $downloads = Get-Content dist\inputs\extra\transport-downloads.json -Raw | ConvertFrom-Json
           $server = Start-Process python -WindowStyle Hidden -PassThru -ArgumentList '-m','http.server','47864','--bind','127.0.0.1','--directory',"$PWD\dist\inputs\extra"
-          $smoke = [ordered]@{}
+          $smoke = [ordered]@{ base = $null; female = $null; quests = $null }
+          $check = {   # one first install and its check: Setup's and verify-install.py's exit codes, and its report
+            param($selection, $wow, $root)
+            $ErrorActionPreference = 'Stop'   # in its own runspace too: whatever goes wrong is this check's result
+            try {
+              New-Item -ItemType Directory "$wow\_classic_beta_" | Out-Null
+              $voices = if ($selection -eq 'base') { 'none' } else { $selection }
+              $installed = Start-Process "$root\dist\LoreForever-Setup.exe" -WindowStyle Hidden -PassThru -Wait -ArgumentList '/QA','/VERYSILENT','/SUPPRESSMSGBOXES',"/DIR=$wow","/VOICES=$voices",'/VOICEURL=http://127.0.0.1:47864/'
+              $report, $verified = '', $null
+              if ($installed.ExitCode -eq 0) {
+                $report = (python "$root\release\installer\qa\verify-install.py" "$root\dist\inputs\LoreForever.zip" $wow "$root\dist\inputs\extra\transport-downloads.json" $selection 2>&1 | ForEach-Object { "$_" }) -join "`n"
+                $verified = $LASTEXITCODE
+              }
+              [pscustomobject]@{ Selection = $selection; Setup = $installed.ExitCode; Verify = $verified; Report = $report }
+            } catch {
+              [pscustomobject]@{ Selection = $selection; Setup = $null; Verify = $null; Report = "$_" }
+            }
+          }
           try {
             Start-Sleep 1
-            foreach ($selection in 'base','female','quests') {
+            $run = foreach ($selection in 'base','female','quests') {
               if ($selection -ne 'base' -and @($downloads.selections.$selection).Count -eq 0) {
                 "Unavailable optional selection: $selection; working base/text fallback remains" >> $env:GITHUB_STEP_SUMMARY
                 $smoke[$selection] = 'unavailable'
-                continue
-              }
-              $wow = "$env:RUNNER_TEMP\wow-$selection"
-              New-Item -ItemType Directory "$wow\_classic_beta_" | Out-Null
-              $voices = if ($selection -eq 'base') { 'none' } else { $selection }
-              $installed = Start-Process dist\LoreForever-Setup.exe -WindowStyle Hidden -PassThru -Wait -ArgumentList '/QA','/VERYSILENT','/SUPPRESSMSGBOXES',"/DIR=$wow","/VOICES=$voices",'/VOICEURL=http://127.0.0.1:47864/'
-              if ($installed.ExitCode -ne 0) { throw "Installer failed for $selection" }
-              python release\installer\qa\verify-install.py dist\inputs\LoreForever.zip $wow dist\inputs\extra\transport-downloads.json $selection
-              if ($LASTEXITCODE) { throw "Installed bytes/downloads differ for $selection" }
+              } else { $selection }
+            }
+            $root = $PWD.Path; $code = $check.ToString()
+            $results = $run | ForEach-Object -ThrottleLimit 3 -Parallel {
+              & ([scriptblock]::Create($using:code)) $_ "$env:RUNNER_TEMP\wow-$_" $using:root
+            }
+            foreach ($selection in $run) {
+              $result = @($results | Where-Object Selection -eq $selection)[0]
+              "::group::$selection, side by side: Setup exit $($result.Setup ?? 'none'), verify exit $($result.Verify ?? 'none')"
+              $result.Report
+              "::endgroup::"
+              if ($result -and $result.Setup -eq 0 -and $result.Verify -eq 0) { $smoke[$selection] = 'passed'; continue }
+              $alone = & $check $selection "$env:RUNNER_TEMP\wow-$selection-alone" $root
+              $alone.Report
+              if ($alone.Setup -ne 0) { throw "Installer failed for $selection" }
+              if ($alone.Verify -ne 0) { throw "Installed bytes/downloads differ for $selection" }
+              "::warning::The $selection first-install check failed side by side (Setup exit $($result.Setup ?? 'none'), verify exit $($result.Verify ?? 'none')) and passed alone. If that happens again, the installer doesn't take three installs at once: run these checks one after another."
               $smoke[$selection] = 'passed'
             }
           } finally { Stop-Process -Id $server.Id -ErrorAction SilentlyContinue }

@@ -1,0 +1,118 @@
+{
+ "key": "quest:98321",
+ "type": "quest",
+ "name": "Flintfire's Shipment",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98321
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Tongus Flintfire specifically welcomes gnome adventurers willing to do hard physical labor in Dun Morogh, showing genuine appreciation for their grit."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The lost shipments consist of vital ore left behind by miners who evacuated their primary dig site when wendigos attacked."
+  },
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Recovering Flintfire's shipments is crucial to keeping the local forges in Kharanos supplied with workable metal."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is tongus flintfire",
+    "tongus flintfire",
+    "quest giver"
+   ],
+   "answer": "Tongus Flintfire is a dwarf in Kharanos who relies on steady shipments of mined ore to keep his forge operational. Facing a severe supply shortage after wendigos overran his primary mining cave, he enlists travelers to brave the danger and retrieve the abandoned crates.",
+   "q": "Who is Tongus Flintfire?"
+  },
+  {
+   "aliases": [
+    "where is grizzled den",
+    "grizzled den location",
+    "where to find shipments"
+   ],
+   "answer": "The Grizzled Den is a cave system situated to the west of Kharanos in Dun Morogh. Formerly a reliable mining site, it now serves as a den for savage wendigos, forcing anyone looking for the lost ore to venture inside hostile territory.",
+   "q": "Where is the Grizzled Den located?"
+  },
+  {
+   "aliases": [
+    "why miners flee",
+    "what happened to the mine",
+    "wendigo attack"
+   ],
+   "answer": "The cave was the local miners' most reliable source of ore until hostile wendigos invaded and overran the site. The workers were forced to drop their equipment and stockpiled shipments in a desperate scramble to evacuate, miraculously making it out alive.",
+   "q": "Why was the mining cave abandoned?"
+  },
+  {
+   "aliases": [
+    "what are flintfire shipments",
+    "what is in the crates",
+    "shipment contents"
+   ],
+   "answer": "The shipments consist of extracted ore packed into crates by the miners before they were chased out. Without these materials, local metalworking and forge operations in Kharanos are brought to a grinding halt.",
+   "q": "What is inside the missing shipments?"
+  },
+  {
+   "aliases": [
+    "did miners survive",
+    "miner casualties",
+    "wendigo victims"
+   ],
+   "answer": "Despite the terrifying ferocity of the wendigos, Tongus notes with relief that all of the miners managed to escape the Grizzled Den in one piece, leaving only their supplies and ore behind.",
+   "q": "Did any miners get hurt during the attack?"
+  },
+  {
+   "aliases": [
+    "why need ore",
+    "what happens after recovery",
+    "forge running"
+   ],
+   "answer": "Securing the recovered shipments provides Tongus Flintfire with the raw metal stock required to get the local forge fired up and operational again without having to clear the entire infested cavern first.",
+   "q": "What happens once the shipments are recovered?"
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "flintfire",
+  "forge",
+  "grizzled den",
+  "kharanos",
+  "miners",
+  "ore",
+  "shipments",
+  "tongus flintfire",
+  "wendigo"
+ ],
+ "related": [
+  "subzone:kharanos",
+  "subzone:grizzled-den",
+  "quest:313",
+  "topic:gnome"
+ ],
+ "sections": [
+  {
+   "body": "In the snowy settlement of Kharanos, Tongus Flintfire faces a critical supply crisis at his forge. The region's most productive and dependable source of ore has suddenly fallen silent after savage wendigos invaded the dig site. Caught off guard by the ferocious predators, the local miners were forced to abandon their posts on a moment's notice, fleeing for their lives and leaving behind freshly packed crates of valuable ore scattered across the cavern floor.",
+   "spoiler": 0,
+   "title": "A Supply Crisis in Kharanos"
+  },
+  {
+   "body": "The overrun mine, known as the Grizzled Den, lies to the west of Kharanos. Although Tongus is thankful that every miner managed to escape the ferocious beasts in one piece, the work stoppage threatens to halt local blacksmithing entirely. Rather than waiting for an armed expedition to clear the cave, Tongus seeks daring adventurers\u2014especially gnomes willing to prove their physical resilience\u2014to slip into the wendigo lair, gather the stranded crates, and bring the vital ore back to the forge.",
+   "spoiler": 0,
+   "title": "Venturing into the Grizzled Den"
+  }
+ ],
+ "summary": "Tongus Flintfire in Kharanos is facing a severe supply shortage after savage wendigos overran his primary source of ore at the Grizzled Den. With the miners forced to abandon their crates during the evacuation, adventurers are tasked with recovering the lost shipments to keep the local forges running.",
+ "attribution": [
+  "In-game quest text: Flintfire's Shipment"
+ ]
+}

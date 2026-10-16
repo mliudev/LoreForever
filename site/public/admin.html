@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261014w">
+<link rel="stylesheet" href="/style.css?v=20261015w">
 <link rel="stylesheet" href="/admin.css">
 </head>
 <body>
@@ -40,7 +40,7 @@
   </div>
 
   <!-- Four tabs, one shown at a time, by the address's #: #overview, #growth, #players, #community, or a section in one
-       (#funnel, #curseforge, #downloads, #companions; #profiles, #signins, #features, #usage; #feedback, #voices, #clip-reports,
+       (#funnel, #curseforge, #willo-stats, #downloads, #companions; #profiles, #signins, #features, #usage; #feedback, #voices, #clip-reports,
        #translations, #edits, #contributions, #contacts). Gold badges count what's waiting on you. -->
   <nav class="ad-nav" id="nav" aria-label="Dashboard tabs">
     <a href="#overview" data-tab="overview">Overview</a>
@@ -57,10 +57,11 @@
       <a class="ad-panel ad-tile" href="#profiles"><div class="ad-label">Accounts</div><div class="ad-num" id="o-accounts">-</div><div class="ad-sub" id="o-accounts-sub"></div></a>
       <a class="ad-panel ad-tile" href="#signins"><div class="ad-label">Returning players</div><div class="ad-num" id="o-returning">-</div><div class="ad-sub" id="o-returning-sub"></div></a>
       <a class="ad-panel ad-tile" href="#companions"><div class="ad-label">Companion installs in use</div><div class="ad-num" id="o-companions">-</div><div class="ad-sub" id="o-companions-sub"></div></a>
+      <a class="ad-panel ad-tile" href="#willo-stats"><div class="ad-label">Willo players this week</div><div class="ad-num" id="o-willo">-</div><div class="ad-sub" id="o-willo-sub"></div></a>
       <a class="ad-panel ad-tile" href="#community"><div class="ad-label">Open feedback and reports</div><div class="ad-num" id="o-open">-</div><div class="ad-sub" id="o-open-sub"></div></a>
       <div class="ad-panel ad-tile"><div class="ad-label">Paid usage this month</div><div class="ad-num" id="t-stories">-</div><div class="ad-sub" id="t-stories-sub"></div></div>
       <!-- Plans (LOR-252, lib/billing.js billingReport): paying players, the monthly revenue estimate (before Stripe's
-           fees), accounts by plan and status, and what paying players' answers cost this month;
+           fees; comped and owner plans left out), accounts by plan and status, and what paying players' answers cost this month;
            finest-voice packs sold this month, their replies still unused, and what their replies cost this month. -->
       <div class="ad-panel ad-tile"><div class="ad-label">Plans</div><div class="ad-num" id="t-plans">-</div><div class="ad-sub" id="t-plans-sub"></div></div>
     </div>
@@ -131,6 +132,36 @@
       <div class="ad-panel"><h3>Narration and language packs on CurseForge</h3>
         <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Project</th><th>Total</th><th id="f-packs-recent">Last 7 days</th></tr></thead>
           <tbody id="f-packs"></tbody></table></div></div>
+    </div>
+
+    <!-- Willo (LOR-524, lib/willo-stats.js and lib/billing.js subscriptionReport, which define each number): her
+         downloads, players (accounts that asked her at least once), installs running her, and plans with comped and
+         owner ones apart. The daily stats post in Slack #analytics reads the same numbers (/api/admin's "willo"). -->
+    <h2 id="willo-stats">Willo</h2>
+    <div class="ad-charts" style="margin-top:0">
+      <div class="ad-panel"><div class="ad-stats">
+        <div class="ad-tile"><div class="ad-label">Downloads</div><div class="ad-num" id="w-dl">-</div><div class="ad-sub" id="w-dl-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Weekly players</div><div class="ad-num" id="w-wau">-</div><div class="ad-sub" id="w-wau-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Daily players</div><div class="ad-num" id="w-dau">-</div><div class="ad-sub" id="w-dau-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Running</div><div class="ad-num" id="w-run">-</div><div class="ad-sub" id="w-run-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Paying</div><div class="ad-num" id="w-pay">-</div><div class="ad-sub" id="w-pay-sub"></div></div>
+        <div class="ad-tile"><div class="ad-label">Beta offers taken</div><div class="ad-num" id="w-claims">-</div><div class="ad-sub" id="w-claims-sub"></div></div>
+      </div>
+        <p class="ad-empty" style="margin-top:10px" id="w-note"></p></div>
+      <figure class="ad-panel ad-chart" id="c-willo-dau" style="margin:0"><h3>Players who asked Willo per day, last 30 days</h3></figure>
+    </div>
+    <div class="ad-charts">
+      <div class="ad-panel"><h3>Day by day, last 14 days</h3>
+        <div class="ad-table-wrap"><table class="ad-usage"><thead><tr><th>Day</th>
+          <th title="Willo-Setup.exe through this site's link">Downloads</th>
+          <th title="Accounts that asked Willo that day">Players</th>
+          <th title="Accounts that asked Willo in the 7 days ending that day">Weekly</th><th>Questions</th>
+          <th title="Installs that sent the daily check-in that day">Running</th>
+          <th title="Plans started, comped and owner ones left out">New plans</th>
+          <th title="Plans the player cancelled (they run to the end of the month paid for)">Cancelled</th>
+          <th title="Free Hero months, Keep Hero trials and 50% first months taken">Beta offers</th><th>Voice packs</th></tr></thead>
+          <tbody id="w-days"></tbody></table></div></div>
+      <figure class="ad-panel ad-chart" id="c-willo-dl" style="margin:0"><h3>Willo downloads from this site per day, last 30 days</h3></figure>
     </div>
 
     <!-- Site and GitHub downloads. One definition of "site downloads" everywhere: add-on downloads through this site's
@@ -450,6 +481,6 @@
 
 <!-- The page's script is a file: /admin's Content-Security-Policy (public/_headers) runs no inline script.
      Bump ?v= when admin-page.js changes, since browsers keep .js for 4 hours on loreforeverwow.com. -->
-<script type="module" src="/admin-page.js?v=20261013"></script>
+<script type="module" src="/admin-page.js?v=20261015"></script>
 </body>
 </html>

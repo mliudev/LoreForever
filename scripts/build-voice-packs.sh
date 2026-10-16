@@ -109,14 +109,15 @@ DOWNLOADS = {
     # zone stories, answers, places and people (~340 MB; lore.voicepack locale keeps each under 480 MB). Skipped until
     # recorded (no folder in addon/).
     "LoreForever_Voice_Default_ukUA": (["LoreForever_Voice_Default_ukUA"], "Pekelnyj / UALL: Ukrainian stories and answers {v}"),
+    # Voices sent from the upload page (site/README.md, "Publishing a studio voice"): frozen community packs.
+    "LoreForever_Voice_BrownieeSVoice": (["LoreForever_Voice_BrownieeSVoice"], "Browniee: Teldrassil story and answers {v}"),
     "LoreForever_Voice_Default_deDE": (["LoreForever_Voice_Default_deDE"], "Male narrator: Deutsch {v}"),
     "LoreForever_Voice_Female_deDE": (["LoreForever_Voice_Female_deDE"], "Female narrator: Deutsch {v}"),
     "LoreForever_Voice_Default_esES": (["LoreForever_Voice_Default_esES"], "Male narrator: Español {v}"),
     "LoreForever_Voice_Female_esES": (["LoreForever_Voice_Female_esES"], "Female narrator: Español {v}"),
     "LoreForever_Voice_Default_frFR": (["LoreForever_Voice_Default_frFR"], "Male narrator: Français {v}"),
     "LoreForever_Voice_Female_frFR": (["LoreForever_Voice_Female_frFR"], "Female narrator: Français {v}"),
-    "LoreForever_Voice_Default_ptBR": (["LoreForever_Voice_Default_ptBR"], "Male narrator: Português {v}"),
-    "LoreForever_Voice_Female_ptBR": (["LoreForever_Voice_Female_ptBR"], "Female narrator: Português {v}"),
+    # (Both Brazilian Portuguese narrators are paused until they're recorded again: PAUSED below.)
     # Their quest dialogue in those languages, the game's own quest text (LOR-226): one zip per narrator and language
     # (~320-390 MB at 48 kbps; lore.voicepack quests --locale refuses one over the limit). Skipped until recorded.
     "LoreForever_Voice_Default_Quests_deDE": (["LoreForever_Voice_Default_Quests_deDE"],
@@ -136,17 +137,11 @@ DOWNLOADS = {
     "LoreForever_Voice_Female_Quests_ptBR": (["LoreForever_Voice_Female_Quests_ptBR"],
                                              "Female narrator: quest dialogue, Português {v}"),
 }
-# Every other question and answer (LOR-227, lore.answers PARTS): one zip per narrator, part and language (each under
-# 470 MB at 48 kbps; lore.voicepack answers refuses one over). Skipped until rendered.
-ANSWER_PARTS = {"Places": "zones and places", "Lore": "lore and items", "People": "people",
-                "Quests1": "quests, levels 1-13", "Quests2": "quests, levels 14-22", "Quests3": "quests, level 23 and up"}
+# The answers packs (LOR-227, LoreForever_Voice_<Default|Female>_Answers_<Part>[_<locale>]) are retired (LOR-547,
+# LOR-561; Mike 2026-10-15): Willo reads the short answers aloud, so they're no longer built or published. Copies
+# players already have keep playing while their text matches.
 LANGUAGES = {"": "", "_deDE": ", Deutsch", "_esES": ", Español", "_frFR": ", Français", "_ptBR": ", Português"}
-for loc, lang in LANGUAGES.items():
-    for voice, who in (("Default", "Male"), ("Female", "Female")):
-        for part, what in ANSWER_PARTS.items():
-            folder = f"LoreForever_Voice_{voice}_Answers_{part}{loc}"
-            DOWNLOADS[folder] = ([folder], f"{who} narrator: answers about {what}{lang} {{v}}")
-# New manual bundles use only available story and answer components. Quest dialogue stays a separate opt-in pack.
+# New manual bundles use only available story components. Quest dialogue stays a separate opt-in pack.
 FULL_BUNDLES = {}
 for loc, lang in (("enUS", "English"), *((k[1:], v[2:]) for k, v in LANGUAGES.items() if k)):
     for voice, who in (("Default", "Male"), ("Female", "Female")):
@@ -155,14 +150,21 @@ for loc, lang in (("enUS", "English"), *((k[1:], v[2:]) for k, v in LANGUAGES.it
         suffix = "" if loc == "enUS" else f"_{loc}"
         base = f"LoreForever_Voice_{voice}"
         folders = [base, base + "_Alliance", base + "_Horde"] if not suffix else [base + suffix]
-        folders += [base + "_Answers_" + part + suffix for part in ANSWER_PARTS]
-        FULL_BUNDLES[f"{base}_{loc}-complete"] = (folders, f"{who} narrator: {lang}, stories and answers {{v}}")
+        FULL_BUNDLES[f"{base}_{loc}-complete"] = (folders, f"{who} narrator: {lang}, stories {{v}}")
 DOWNLOADS.update(FULL_BUNDLES)
+# Narration taken back until it's recorded again (build-release.sh PAUSED_PACKS, LOR-567): no zip has it, neither its own
+# nor a bundle, and a bundle named for it (its narrator's -complete in that language) isn't built at all.
+_paused = re.search(r"^PAUSED_PACKS = \[(.*?)\]", (root / "scripts" / "build-release.sh").read_text(encoding="utf-8"),
+                    re.M | re.S)
+PAUSED = set(re.findall(r'"([^"]+)"', _paused.group(1))) if _paused else set()
+DOWNLOADS = {name: entry for name, entry in DOWNLOADS.items()
+             if name not in PAUSED and name.removesuffix("-complete") not in PAUSED and not PAUSED & set(entry[0])}
+FULL_BUNDLES = {name: entry for name, entry in FULL_BUNDLES.items() if name in DOWNLOADS}
 # zips a CurseForge project of their own takes as they are (the quest givers' voices, and each narrator and its quest
 # dialogue in each language pack's language: release/curseforge.json), and the answers packs, sized for one
 CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers", "LoreForever_Voice_Default_Quests",
                   "LoreForever_Voice_Female_Quests"} | {n for n in DOWNLOADS if re.fullmatch(
-    r"LoreForever_Voice_(Default|Female)((_Quests)?_[a-z]{2}[A-Z]{2}|_Answers_\w+|_More(Places|People))", n)}
+    r"LoreForever_Voice_(Default|Female)((_Quests)?_[a-z]{2}[A-Z]{2}|_More(Places|People))", n)}
 CURSEFORGE_MB = 480                                  # its upload API refuses bigger files
 GITHUB_ASSET_MAX = 2 * 1024**3 - 64 * 1024**2        # GitHub's release asset limit (2 GiB), less room for zip overhead
 
@@ -236,8 +238,31 @@ def source(folder):
         SOURCES[folder] = src
     return SOURCES[folder]
 CHECKED = set()   # a pack's checks hold for every zip it goes in
+# The installer's downloads first (installer_downloads.offered_archives: what Setup.exe offers and the Release
+# workflow's three install checks fetch), their recordings split first too. Once each of them is built or skipped,
+# the file LORE_INSTALLER_PACKS_READY names gets the ones built, one a line, and the workflow hands them to the
+# Windows job while the rest build. manifest.tsv keeps the table's order.
+TABLE = {name: i for i, name in enumerate(DOWNLOADS)}
+try:
+    from installer_downloads import offered_archives
+    FIRST = [n for names in offered_archives().values() for n in (a.removesuffix(".zip") for a in names) if n in TABLE]
+except ImportError:   # a scratch copy without it: the table's order, and no marker (nothing would say what's first)
+    FIRST = None
+if FIRST is not None:
+    DOWNLOADS = {**{n: DOWNLOADS[n] for n in FIRST}, **DOWNLOADS}
+READY = os.environ.get("LORE_INSTALLER_PACKS_READY") if FIRST is not None and not SIZES else None
+RANK = {}   # zip file name -> its place in the table
+def installer_packs_ready():
+    global READY
+    if READY:
+        part = Path(READY + ".part")
+        part.write_text("".join(r[0] + "\n" for r in rows), encoding="utf-8")
+        os.replace(part, READY)   # whole or not there: the workflow polls for it
+        READY = None
 edition_names_all = ("LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio")
 for name, (folders, display) in DOWNLOADS.items():
+    if name not in (FIRST or ()):
+        installer_packs_ready()
     if ONLY and not set(folders) <= ONLY:
         continue
     if name in FULL_BUNDLES:
@@ -308,11 +333,14 @@ for name, (folders, display) in DOWNLOADS.items():
                     info.external_attr = 0o644 << 16
                     z.writestr(info, p.read_bytes(), compresslevel=9)
     rows.append((path.name, display.format(v=v), v))
+    RANK[path.name] = TABLE[name]
     print(f"built {path.relative_to(root)} ({path.stat().st_size / 1024**2:.1f} MB)")
     if name in CURSEFORGE_OWN and path.stat().st_size > CURSEFORGE_MB * 1024**2:
         print(f"warning: {path.name} is over CurseForge's {CURSEFORGE_MB} MB upload limit; rebuild the pack at a lower "
               "bitrate (lore.voicepack quests --bitrate, or locale --bitrate for a narrator in another language), or "
               "split an answers part (lore.answers PARTS)")
+installer_packs_ready()   # every zip was one of the installer's (or there were none)
+rows.sort(key=lambda r: RANK[r[0]])
 if ONLY and not any(set(fs) <= ONLY for fs, _ in DOWNLOADS.values()) and not set(edition_names_all) <= ONLY:
     sys.exit(f"build-voice-packs: no download is made only of {', '.join(sorted(ONLY))} (each --pack is an addon/ folder)")
 # A contributor edition must remain a single paired artifact. Its validator also

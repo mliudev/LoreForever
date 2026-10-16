@@ -1,6 +1,7 @@
 // The upload page, /voices/studio (lib/studio.js). Anyone can browse the lines (public/voices/lines.json); uploading
 // and sending need a signed-in account (lib/accounts.js), and sending needs the narrator release.
-//   GET  /api/studio/state?voice=ID     {signedIn, release, voices, voice, takes, limits}; takes are for voice ID (or the first voice)
+//   GET  /api/studio/state?voice=ID     {signedIn, release, voices, voice, takes, limits}; takes are for voice ID (or the first voice);
+//                                       each voice has published: true once voices.json lists it as live
 //   POST /api/studio/release            {agree, adult, signature, release}: the narrator release, agreed once per account
 //                                       (and again when RELEASE_VERSION changes), asked for on the send form; adult is
 //                                       its own box, "I'm 18 or older", and required
@@ -63,11 +64,15 @@ async function state({ request, env }, user) {
   const want = new URL(request.url).searchParams.get("voice");
   const voice = voices.find(v => v.id === want) || voices[0] || null;
   const { version, agreed } = await release(env, user);
+  // Publishing doesn't touch the D1 row (it stays 'pending'): a voice is published once voices.json lists it as live
+  // under its owner. Not "soon": that pack isn't released yet.
+  const live = new Set((await loadVoices(env, request).catch(() => []))
+    .filter(v => v.status === "live" && v.owner === user.id).map(v => v.id));
   return ok({
     signedIn: true,
     user: { email: user.email, display_name: user.display_name },
     release: { version, agreed },
-    voices,
+    voices: voices.map(v => ({ ...v, published: live.has(v.id) })),
     voice: voice ? voice.id : null,
     takes: voice ? await takesOf(env, voice.id) : {},
     limits: { bytes: LIMITS.bytes, voices: LIMITS.voices },

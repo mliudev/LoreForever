@@ -546,7 +546,8 @@ function voiceBarHtml(v, lang) {
   const voiceSelect = st.voices.length > 1
     ? `<select id="st-voice" aria-label="Voice">${st.voices.map(x => `<option value="${esc(x.id)}"${x.id === v.id ? " selected" : ""}>${esc(x.name)}</option>`).join("")}</select>`
     : `<strong>${esc(v.name)}</strong>`;
-  const status = v.status === "pending" ? " · sent for review" : "";
+  const status = v.published ? ` · published: <a href="/voices/${encodeURIComponent(v.id)}">see its page</a>`
+    : v.status === "pending" ? " · sent for review" : "";
   return `<div class="st-voicebar">
       <span>Voice: ${renaming ? `<input id="st-rename" maxlength="60" value="${esc(v.name)}" aria-label="Voice name"> <button class="st-b" type="button" id="st-rename-save">Save</button>` : voiceSelect}</span>
       ${renaming ? "" : `<button class="st-b ghost" type="button" id="st-rename-open">Rename</button>`}
