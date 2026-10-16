@@ -11,7 +11,8 @@ CurseForge's WoW site takes one file per project (additional files are refused, 
 refuses files over about 500 MB (Cloudflare answers 413; 0.7.0's 701 MB zip got one). So each narrator is two
 projects, its stories and its quest dialogue, and each project's file is some add-on folders of a release zip, byte
 for byte. A project needs Lore Forever, and the CurseForge app installs that along with it. A project without an id
-yet is skipped, so nothing uploads until it exists.
+yet is skipped, so nothing uploads until it exists, and so is a paused one (narration taken back until it's recorded
+again: "paused": true, never live).
 
 A project uploads only when the narration in it changed since its last upload: CurseForge refuses an unchanged
 re-upload, and players shouldn't download the same recordings with every release. Its files are fingerprinted with
@@ -154,6 +155,10 @@ def load_config(path: Path | None = None) -> list[dict]:
             raise Failure(f"{path.name}: {name}'s 'live' is true or false")
         if p["live"] and not (pid and slug):
             raise Failure(f"{path.name}: {name} is live, so it needs its id and slug")
+        if type(p.setdefault("paused", False)) is not bool:
+            raise Failure(f"{path.name}: {name}'s 'paused' is true or false")
+        if p["paused"] and p["live"]:
+            raise Failure(f"{path.name}: {name} is paused, so it isn't live (the add-on's file mustn't name it)")
     for k in ("key", "name", "id", "slug"):
         seen = [p[k] for p in projects if p.get(k) is not None]
         if len(seen) != len(set(seen)):
@@ -603,7 +608,7 @@ def cmd_package(args) -> int:
 
 def cmd_upload(args) -> int:
     projects = load_config()
-    todo = [p for p in projects if p.get("id") and language_project(p) == args.languages]
+    todo = [p for p in projects if p.get("id") and not p.get("paused") and language_project(p) == args.languages]
     if not todo:
         print("No matching pack project has a CurseForge id yet (release/curseforge.json); nothing to upload.")
         return 0

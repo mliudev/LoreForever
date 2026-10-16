@@ -230,7 +230,7 @@ local function loginTip()
     L["Tip: entering a dungeon links its primer: who you'll face and why it matters. /lore primer brings it back."],
     L["Tip: the lore lines on NPC and item tooltips can be turned off in /lore options."],
     L["Tip: press + on any narration in the Library to build a playlist; the player at the bottom left plays it."],
-    L["Tip: your journey can become a page about your character. Open Journey, click Copy my journey record and paste it at loreforeverwow.com/account."],
+    L["Tip: /lore journey shows your road so far: the places you've seen, the people you've met and the quests you've done."],
   }
   local i = (tonumber(S().tipNext) or 1)
   if i > #tips then return end
@@ -757,15 +757,21 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore - open or close the panel (or press your key; press it over an NPC to read about them)"])
     say(L["/lore <question> - ask directly, e.g. /lore why is westfall so poor"])
     say(L["/lore key - choose the key that opens the panel; /lore key narrate - a key that plays narration"])
+    if ns.Companion.Installed() then
+      say(string.format(L["/lore key willo - the key you hold to talk to %s"], ns.COMPANION_NAME))
+    end
     say(L["/lore library - every recorded narration, grouped (your starting area first)"])
     say(L["/lore journey - what your character has done so far; /lore sync - save it now (reloads)"])
     say(L["/lore picture - take a journey picture"])
     say(L["/lore quests - every quest you've completed, by zone; click one to read its quest text again"])
     if ns.Companion.Installed() then
-      say(L["/lore ask <question> - ask live answers (the answer appears on your screen)"])
-      say(L["/lore live - live game info for the companion app on/off"])
+      say(string.format(L["/lore ask <question> - ask %s (the answer appears on your screen)"], ns.COMPANION_NAME))
+      say(string.format(L["/lore sky - move %s's sky off the minimap; /lore sky reset - put it back"], ns.COMPANION_NAME))
     elseif ns.Companion.OFFER_WILLO then
       say(string.format(L["/lore willo - where to get %s, Lore Forever's free companion app"], ns.COMPANION_NAME))
+    end
+    if ns.Companion.Installed() or ns.Strip.On() then   -- (on without Willo: the way to turn it off, LOR-541)
+      say(string.format(L["/lore live - live game info for %s on/off"], ns.COMPANION_NAME))
     end
     say(L["/lore options - settings (tooltips, hints, flight narration)"])
     say(L["/lore lang - choose the language: English, Deutsch, Español, Français or Português (Automatic follows your WoW client)"])
@@ -779,8 +785,8 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore ctx | export | visits | stats - what Lore Forever sees, for bug reports and playtests"])
     say(L["/lore errors - copy Lore Forever's recent Lua errors for a bug report"])
     say(string.format(L["Questions, requests and bug reports: %s"], DISCORD_URL))
-  elseif cmd == "key" or cmd == "key narrate" then
-    ns.Hooks.KeyPrompt(cmd == "key narrate" and "narrate" or "toggle"):Show()
+  elseif cmd == "key" or cmd == "key narrate" or cmd == "key willo" then
+    ns.Hooks.KeyPrompt(cmd:match("^key (%a+)$") or "toggle"):Show()
   elseif cmd == "narrations" or cmd == "library" then
     if not ns.UI.frame:IsShown() then ns.UI.frame:Show() end
     ns.UI.ShowTab("narrations")
@@ -836,8 +842,14 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(ns.Voice.SetOnDemand(not ns.Voice.OnDemand()) and L["Narration plays only when you press Play."]
       or L["Narration plays by itself again, as your options say."])
   elseif cmd == "live" then
-    toggleSetting("liveStrip", L["live game info for the companion app"])
-    ns.Strip.Update()
+    ns.Strip.Choose(not ns.Strip.On())   -- (on from Willo's yes: this turns it off, and the add-on's choice wins)
+    say(string.format(ns.Strip.On() and L["%s on"] or L["%s off"],
+      string.format(L["live game info for %s"], ns.COMPANION_NAME)))
+  elseif cmd == "sky" or cmd == "sky move" then
+    ns.Sky.Move(not ns.Sky.Moving())   -- again (or Done) when it's where they want it (LOR-530)
+  elseif cmd == "sky reset" or cmd == "sky back" then
+    ns.Sky.PutBack()
+    say(string.format(L["%s's sky is back on your minimap."], ns.COMPANION_NAME))
   elseif cmd == "nudge" then
     toggleSetting("zoneNudge", L["zone hints"])
   elseif cmd == "tooltips" then

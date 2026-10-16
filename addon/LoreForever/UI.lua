@@ -750,7 +750,7 @@ function UI.Create(engine)
     b:SetPoint("BOTTOMLEFT", CHAT_X, 108 - i * 22)
     b:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -36, 108 - i * 22)
     b:SetScript("OnClick", function(self)
-      if self.live then ns.Companion.Ask(self.live)
+      if self.live then UI.AskWillo(self.live, self.copy)
       elseif self.section then UI.ShowSection(self.key, self.idx)
       elseif self.key and self.idx then UI.ShowFaq(self.key, self.idx, self.via or "next")
       elseif self.key then UI.ShowEntry(self.key, self.via or "next") end
@@ -1557,7 +1557,8 @@ function UI.UpdateListen()
       b.listen:SetText(playing and L["Stop"] or L["Listen"])
       local lw = b.listen.GetTextWidth and tonumber(b.listen:GetTextWidth())
       b.listen:SetWidth(math.max(84, (lw or 64) + 20))   -- a translation can run wider than the English
-      b.listen:SetShown(recorded)
+      -- An answer with no recording: Listen asks Willo to read it, while she can (LOR-547).
+      b.listen:SetShown(recorded or ns.Companion.CanRead(t))
       -- "Add to playlist" beside Listen on recorded stories and answers.
       local qk, qi = UI.QueueRef(t)
       local can = recorded and qk and UI.CanQueue(qk, qi)
@@ -1644,59 +1645,90 @@ local function startTyping(fs, m, chips)
   end)
 end
 
--- Rating an answer (LOR-120): a check and a cross at the bottom left of every answer. The cross also opens the report
--- box (UI.ShowReport), which asks why and can copy a report code to send. Ratings are saved with the logged question.
+-- Rating an answer (LOR-120): a faint wax seal (a good answer) and a quill (not right) at the bottom left of every
+-- answer, in sepia until the mouse is on one; your answer's mark keeps its own colours, the seal stamped in red wax
+-- (Mike, 10/14: the green check and red cross broke immersion). The quill also opens the report box (UI.ShowReport),
+-- which asks why and can copy a report code to send. Ratings are saved with the logged question.
+-- The marks are the game's own icons: the wax seal on a note, cut round by a mask (the square crop where the client
+-- has no masks), and a feather, its black ground dropped by ADD.
+local MARKS = {
+  seal = { tex = "Interface\\Icons\\INV_Misc_Note_02", coords = { 15 / 64, 31 / 64, 20 / 64, 36 / 64 }, rest = 0.42 },
+  quill = { tex = "Interface\\Icons\\INV_Feather_01", coords = { 0.08, 0.92, 0.08, 0.92 }, blend = "ADD", rest = 0.5 },
+}
+local SEPIA = { 0.85, 0.78, 0.66 }
+
+-- A mark ("seal" or "quill") as button b's icon, size square in its middle.
+local function Mark(b, kind, size)
+  local m = MARKS[kind]
+  local icon = b:CreateTexture(nil, "ARTWORK")
+  icon:SetSize(size, size)
+  icon:SetPoint("CENTER")
+  icon:SetTexture(m.tex)
+  icon:SetTexCoord(unpack(m.coords))
+  if m.blend then icon:SetBlendMode(m.blend) end
+  local mask = kind == "seal" and b.CreateMaskTexture and icon.AddMaskTexture and b:CreateMaskTexture()
+  if mask then
+    mask:SetTexture(T.DISC, "CLAMPTOBLACKADDITIVE", "CLAMPTOBLACKADDITIVE")
+    mask:SetAllPoints(icon)
+    icon:AddMaskTexture(mask)
+  end
+  b.icon, b.mark = icon, m
+  return icon
+end
+
+-- Faint sepia, or (lit: under the mouse, or your answer) the mark's own colours.
+local function MarkLit(b, lit)
+  b.icon:SetDesaturated(not lit)
+  b.icon:SetVertexColor(lit and 1 or SEPIA[1], lit and 1 or SEPIA[2], lit and 1 or SEPIA[3], 1)
+  b.icon:SetAlpha(lit and 0.9 or b.mark.rest)
+end
+
 local function SetRating(b, log)
   local show = log ~= nil
   b.up:SetShown(show)
   b.down:SetShown(show)
-  b.rated:SetShown(show)
   b.up.log, b.down.log = log, log
   if not show then return end
-  local h = log.helpful
-  b.up.icon:SetAlpha((h == nil or h == true) and 1 or 0.3)
-  b.down.icon:SetAlpha((h == nil or h == false) and 1 or 0.3)
-  b.rated:SetText(h == true and (GREEN .. L["Thanks!"] .. "|r") or h == false and (GREY .. L["Noted."] .. "|r") or "")
+  b.up.lit, b.down.lit = log.helpful == true, log.helpful == false
+  MarkLit(b.up, b.up.lit)
+  MarkLit(b.down, b.down.lit)
 end
 
 local function RateButtons(parent)
-  local function button(texture, onClick, title, tip)
+  local function button(kind, onClick, title, tip)
     local b = CreateFrame("Button", nil, parent)
     b:SetSize(18, 18)
-    b:SetHitRectInsets(-3, -3, -4, -4)   -- a 24px target around the 18px icon (the two sit 6px apart)
-    local icon = b:CreateTexture(nil, "ARTWORK")
-    icon:SetAllPoints()
-    icon:SetTexture(texture)
-    b.icon = icon
-    b:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+    b:SetHitRectInsets(-3, -3, -4, -4)   -- a 24px target around the 18px button (the two sit 6px apart)
+    Mark(b, kind, 16)
     b:SetScript("OnClick", onClick)
     b:SetScript("OnEnter", function(self)
+      MarkLit(self, true)
       GameTooltip:SetOwner(self, "ANCHOR_TOP")
       GameTooltip:AddLine(title)
       T.Tip(tip, "tipText", true)
       GameTooltip:Show()
     end)
-    b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    b:SetScript("OnLeave", function(self)
+      MarkLit(self, self.lit)
+      GameTooltip:Hide()
+    end)
     b:Hide()
     return b
   end
-  local rated = Muted(parent:CreateFontString(nil, "OVERLAY", T.font.small))
   local up, down
-  up = button("Interface\\RaidFrame\\ReadyCheck-Ready", function(self)
+  up = button("seal", function(self)
     ns.Log.Feedback(self.log, true)
-    SetRating({ up = up, down = down, rated = rated }, self.log)
+    SetRating({ up = up, down = down }, self.log)
   end, L["Good answer"], L["Tells us this answer was right."])
-  down = button("Interface\\RaidFrame\\ReadyCheck-NotReady", function(self)
+  down = button("quill", function(self)
     if self.log.helpful ~= false then ns.Log.Feedback(self.log, false) end   -- keeps a reason given earlier
-    SetRating({ up = up, down = down, rated = rated }, self.log)
+    SetRating({ up = up, down = down }, self.log)
     UI.ShowReport(self.log)
     UI.SuggestWilloLine(self.log.q)   -- a wrong answer is when live answers help most (once a play session)
   end, L["Not right?"], L["Tell us what was wrong, and copy a short report to send us."])
   up:SetPoint("BOTTOMLEFT", PAD - 2, 6)
   down:SetPoint("LEFT", up, "RIGHT", 6, 0)
-  rated:SetPoint("LEFT", down, "RIGHT", 8, 0)
-  rated:Hide()
-  return up, down, rated
+  return up, down
 end
 
 local function bubbleAt(i)
@@ -1732,11 +1764,20 @@ local function bubbleAt(i)
     listen:SetSize(84, 18)
     listen:SetPoint("BOTTOMRIGHT", -6, 6)
     listen:SetText(L["Listen"])
-    listen:SetScript("OnClick", function(self) UI.ListenTo(self.target) end)
+    -- An answer with no recording that Willo reads (LOR-547): Listen asks her to read it again.
+    listen:SetScript("OnClick", function(self)
+      if ns.Companion.ListenRead(self.target) then return end
+      UI.ListenTo(self.target)
+    end)
     listen:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_TOP")
-      GameTooltip:AddLine(L["Narrated"])
-      T.Tip(L["A recorded narration of this answer."], "tipText", true)
+      if self.target and not ns.Voice.HasAudio(self.target.key) then
+        GameTooltip:AddLine(string.format(L["Read by %s"], ns.COMPANION_NAME))
+        T.Tip(string.format(L["%s reads this answer aloud on this PC."], ns.COMPANION_NAME), "tipText", true)
+      else
+        GameTooltip:AddLine(L["Narrated"])
+        T.Tip(L["A recorded narration of this answer."], "tipText", true)
+      end
       GameTooltip:Show()
     end)
     listen:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -1780,7 +1821,7 @@ local function bubbleAt(i)
     close:Hide()
     b = { frame = f, bg = bg, edge = edge, head = head, chips = chips, fs = fs, listen = listen, queue = queue, action = action,
       close = close, rows = {} }
-    b.up, b.down, b.rated = RateButtons(f)
+    b.up, b.down = RateButtons(f)
     UI.bubbles[i] = b
   end
   return b
@@ -1999,6 +2040,9 @@ end
 -- for the "In this answer" line (UI.Linker).
 -- entry: the full formatted entry, so replaying it can reuse this message; a primer or FAQ is not that story.
 function UI.AddMessage(role, text, target, actionLabel, rows, log, subject, linked, entry)
+  -- Something new in the conversation: the answer Willo was to read isn't the one on screen any more (LOR-547; an
+  -- answer that follows names itself again, UI.AfterAnswer).
+  if role ~= "note" then ns.Companion.ClearRead() end
   if UI.historyFrame then UI.historyFrame:Hide() end
   if UI.journeyPage then UI.journeyPage:Hide() end
   finishTyping()
@@ -2072,7 +2116,7 @@ function UI.SetNext(items, label)
   for i, b in ipairs(UI.nextButtons) do
     local it = items[i]
     if it then
-      b.key, b.idx, b.via, b.section, b.live = it.key, it.idx, it.via, it.section, it.live
+      b.key, b.idx, b.via, b.section, b.live, b.copy = it.key, it.idx, it.via, it.section, it.live, it.copy
       local who = it.name and (GREY .. "  (" .. esc(it.name) .. ")|r") or ""
       b.text:SetText(WHITE .. esc(it.label or it.q) .. "|r" .. who)
       b:Show()
@@ -3887,27 +3931,27 @@ function UI.CreatePlayer(parent, floating)
   p.play:SetPoint("LEFT", p.prev, "RIGHT", 4, 0)
   p.next = arrowButton(p, "Next", L["Next narration"], function() UI.PlayerNext() end)
   p.next:SetPoint("LEFT", p.play, "RIGHT", 4, 0)
-  -- Bottom right: a small cross, like the one under answers, to report the recording (ClipReport.lua, LOR-232). With
+  -- Bottom right: the quill from under answers, to report the recording (ClipReport.lua, LOR-232). With
   -- Options > Show the report button on the narration player (reportCross, on by default), it shows while a
   -- recording plays, or after one played (UI.ReportableClip). The right-click menu offers the same box either way.
   local report = CreateFrame("Button", nil, p)
   report:SetSize(14, 14)
   report:SetHitRectInsets(-4, -4, -5, -5)
   report:SetPoint("BOTTOMRIGHT", -7, 11)
-  local cross = report:CreateTexture(nil, "ARTWORK")
-  cross:SetAllPoints()
-  cross:SetTexture("Interface\\RaidFrame\\ReadyCheck-NotReady")
-  cross:SetAlpha(0.75)
-  report.icon = cross
-  report:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+  Mark(report, "quill", 14)
+  MarkLit(report, false)
   report:SetScript("OnClick", function() UI.ShowClipReport() end)
   report:SetScript("OnEnter", function(self)
+    MarkLit(self, true)
     GameTooltip:SetOwner(self, "ANCHOR_TOP")
     GameTooltip:AddLine(L["Problem with this narration?"])
     T.Tip(L["A name said wrong, the wrong voice, cut off: tell us, and it's recorded again."], "tipText", true)
     GameTooltip:Show()
   end)
-  report:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  report:SetScript("OnLeave", function(self)
+    MarkLit(self, false)
+    GameTooltip:Hide()
+  end)
   report:Hide()
   p.report = report
   -- These buttons exist only for recordings with validated real segment files.
@@ -4537,6 +4581,34 @@ local function willoLine()
       ns.COMPANION_NAME) .. "|h|r"
 end
 
+-- A short answer just shown (LOR-547): Willo reads it when she can (Companion.ShowAnswer). One with no recording, in
+-- English, once a play session without Willo gets the line that she'd read it (Companion.SuggestWillo, the same once
+-- as the line under a question with no answer); with Willo but Live game info off, a line once, ever.
+function UI.AfterAnswer(target)
+  local C = ns.Companion
+  C.ShowAnswer(target)
+  if not (target and ns.Strip and ns.Strip.SetRing and C.English()) or ns.Voice.HasAudio(target.key) then return end
+  if not C.Installed() and C.SuggestWillo() then
+    local line = L["Want answers read aloud? %s, Lore Forever's free companion app, reads them to you and answers anything else you ask."]
+    UI.AddMessage("note", UI.LINK_COLOUR .. "|H" .. WILLO_LINK .. "|h" .. string.format(line, ns.COMPANION_NAME)
+      .. "|h|r")
+  elseif C.ReadHintOnce() then
+    UI.AddMessage("note", GREY .. string.format(L["%s can read answers aloud when Live game info is on (Options)."],
+      ns.COMPANION_NAME) .. "|r")
+  end
+end
+
+-- "Ask Willo" on a question the add-on couldn't answer (LOR-560): one click sends it to her through the sky, and the
+-- book says so, with a way to copy it instead in case she isn't running; copy, or when she can't hear it that way (Live
+-- game info off, another language), the Ctrl+C box as before.
+function UI.AskWillo(question, copy)
+  local C = ns.Companion
+  if copy or not C.SendQuestion(question) then return C.Ask(question) end
+  UI.AddMessage("note", GREY .. string.format(L["Asked %s."], ns.COMPANION_NAME) .. "|r")
+  UI.SetNext({ { live = question, copy = true,
+    label = string.format(L["No answer? Copy it for %s (Ctrl+C)"], ns.COMPANION_NAME) } })
+end
+
 -- The line on its own, after the red cross on an answer: same rules (Companion.SuggestWillo).
 function UI.SuggestWilloLine(question)
   if ns.Companion.Installed() or not ns.Companion.SuggestWillo() then return end
@@ -4653,11 +4725,13 @@ function UI.Ask(question, via)
     local tag = (target and ns.Voice.HasAudio(target.key)) and narratedTag() or nil
     local text, linked = loreText(heading, top.text, top.angle, tag, top.key)
     UI.AddMessage("lore", note .. text, target, nil, nil, log, top.key, linked)
+    if target then UI.AfterAnswer(target) end
     local items = followUps(top.key, top.kind == "faq" and top.idx or nil)
     -- A confident match can still be the wrong one (Stormwind's canals answered with the Undercity's): with the
-    -- companion app installed, the last suggestion is always a way to ask live answers instead.
+    -- companion app installed, the last suggestion is always a way to ask Willo instead.
     if live then
-      items[math.min(#items + 1, N_NEXT)] = { live = question, label = L["Not what you asked? Ask live answers"] }
+      items[math.min(#items + 1, N_NEXT)] = { live = question,
+        label = string.format(L["Not what you asked? Ask %s"], ns.COMPANION_NAME) }
     end
     UI.SetNext(items)
   elseif top and top.score >= GUESS_SCORE then
@@ -4666,8 +4740,8 @@ function UI.Ask(question, via)
     UI.engine.lastKey = nil
     log.shown = "g"
     unanswered(L["I'm not sure I have that. Did you mean one of these?"])
-    -- Off script: live answers can answer it (one Ctrl+C), so that's offered first.
-    local items = live and { { live = question, label = L["Ask live answers instead"] } } or {}
+    -- Off script: Willo can answer it (one Ctrl+C), so that's offered first.
+    local items = live and { { live = question, label = string.format(L["Ask %s instead"], ns.COMPANION_NAME) } } or {}
     for _, r in ipairs(results) do
       local e = UI.engine.db.entries[r.key]
       local fi = r.kind == "faq" and r.idx or 1
@@ -4679,7 +4753,7 @@ function UI.Ask(question, via)
     UI.engine.lastKey = nil
     log.shown = "n"
     unanswered(L["I don't have lore on that yet. Try a place, person or quest nearby, or pick something on the left."])
-    local items = live and { { live = question, label = L["Ask live answers"] } } or {}
+    local items = live and { { live = question, label = string.format(L["Ask %s"], ns.COMPANION_NAME) } } or {}
     for _, s in ipairs(UI.engine:Suggest(ctx, N_NEXT - #items)) do items[#items + 1] = s end
     UI.SetNext(items, L["Try:"])
   end
@@ -4703,6 +4777,7 @@ function UI.ShowFaq(key, idx, via)
   UI.AddMessage("lore", text, target, nil, nil, UI.lastLog, key, linked)
   local m = UI.msgs[#UI.msgs]
   if via == "reveal" and m then m.spoiler = { key = key, kind = "faq", idx = idx, text = f.a } end
+  if via ~= "listen" and via ~= "player" then UI.AfterAnswer(target) end
   UI.UpdateListen()
   UI.SetNext(followUps(key, idx))
 end

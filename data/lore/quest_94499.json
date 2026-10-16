@@ -1,0 +1,107 @@
+{
+ "key": "quest:94499",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94499
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This quest is an essential step in brewing a water sapta, testing a shaman's devotion and perception across distant waterways before communing with the spirits of water."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives call of water",
+    "quest giver hervdana"
+   ],
+   "answer": "Hervdana Saegrund, located in the Wetlands, assigns this task. She studies water sources and reagents required to craft a sapta for an aspiring shaman's spiritual trials.",
+   "q": "Who gives this quest and where are they located?"
+  },
+  {
+   "aliases": [
+    "why fill waterskin redridge",
+    "stonewatch falls purpose"
+   ],
+   "answer": "Hervdana suspects that strange venom, dark magic, or corruption might be seeping over Stonewatch Falls from the old fort above, leading to deformed murlocs at the base. She needs a fresh sample to inspect.",
+   "q": "Why are you sent to collect water from Stonewatch Falls?"
+  },
+  {
+   "aliases": [
+    "are stonewatch waters tainted",
+    "is lake everstill corrupted"
+   ],
+   "answer": "No, the water itself proves completely pure and uncontaminated. Hervdana determines that the twisted state of the local murlocs stems instead from dark magic cast by regional shadowseers rather than fouled runoff.",
+   "q": "Is the water at Stonewatch Falls actually tainted?"
+  },
+  {
+   "aliases": [
+    "why are redridge murlocs mutated",
+    "stonewatch murlocs difference"
+   ],
+   "answer": "The Nightcrawler murlocs near the base of the falls are large and twisted compared to those found in the Loch or Wetlands. Hervdana concludes this change is wrought by the foul magic of local shadowseers.",
+   "q": "Why are the murlocs around Stonewatch Falls so large and twisted?"
+  },
+  {
+   "aliases": [
+    "what is sapta",
+    "call of water reward purpose"
+   ],
+   "answer": "A sapta is a ceremonial mixture that allows a shaman to pierce the veil and perceive elemental spirits. Hervdana collects pure samples from various waters to brew the reagent required for yours.",
+   "q": "What is the water sample used for?"
+  },
+  {
+   "aliases": [
+    "who is norric",
+    "norric call of water"
+   ],
+   "answer": "Norric is an associate or mentor involved in the shamanic trials whom Hervdana mentions will be pleased with your successful retrieval of the pure water sample.",
+   "q": "Who is Norric?"
+  }
+ ],
+ "keywords": [
+  "call of water",
+  "hervdana saegrund",
+  "lake everstill",
+  "nightcrawler murlocs",
+  "redridge",
+  "sapta",
+  "shadowseers",
+  "stonewatch falls",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:stonewatch-falls",
+  "subzone:lake-everstill",
+  "subzone:stonewatch",
+  "subzone:lakeshire",
+  "zone:wetlands",
+  "topic:murloc",
+  "item:empty-red-waterskin",
+  "subzone:the-loch"
+ ],
+ "sections": [
+  {
+   "body": "Hervdana Saegrund in the Wetlands dispatches aspiring shamans south to Redridge to investigate the waterways tumbling down Stonewatch Falls. While Lake Everstill nourishes the settlement of Lakeshire with pristine water, the murlocs lurking at the base of the cascade have grown into unusually massive, twisted beasts. Suspecting venom, foul sorcery, or seepage from the old fortress above, Hervdana tasks travelers with gathering a sample in an Empty Red Waterskin.",
+   "spoiler": 0,
+   "title": "A Suspect Cascade"
+  },
+  {
+   "body": "Upon inspecting the filled waterskin, Hervdana discovers that the water cascading from Everstill is entirely clean and untouched by pollution. The physical distortion observed among the local Nightcrawler murlocs is not caused by foul drinking water, but rather by the dark sorcery wielded by shadowseers lurking around Stonewatch. Proving both the purity of the falls and the dedication of the shaman, the sample serves as a vital reagent needed to brew a spiritual sapta.",
+   "spoiler": 1,
+   "title": "The True Source of Corruption"
+  }
+ ],
+ "summary": "Call of Water is a quest tasking travelers with journeying to Stonewatch Falls in Redridge to investigate suspected corruption in the runoff from Lake Everstill. By filling an Empty Red Waterskin and returning it to Hervdana Saegrund in the Wetlands, shamans uncover the true source behind mutated local murlocs while securing a key reagent for their spiritual trials.",
+ "attribution": [
+  "In-game quest text: Call of Water"
+ ]
+}

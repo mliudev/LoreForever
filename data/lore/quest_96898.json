@@ -1,0 +1,121 @@
+{
+ "key": "quest:96898",
+ "type": "quest",
+ "name": "Remnants of War",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96898
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The assault by Naxxramas threatened the very existence of the Undercity. Recovering these fragments protects your people from a Scourge resurgence on your own doorstep."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing Tirisfal Glades from lingering Scourge magic helps safeguard the Undercity and secures the Horde's vital foothold in northern Lordaeron."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Even broken and largely spent, the necrotic focusing crystals of Naxxramas retain unstable magical energy that demands extreme caution."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The lingering unholy corruption residing within the necrotic shards represents a dangerous blight that must be contained before it further defiles the land."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what are necrotic crystal fragments",
+    "what are the crystals",
+    "necrotic crystals"
+   ],
+   "answer": "They are shattered pieces of the massive necrotic focusing crystal once mounted atop the floating dread citadel Naxxramas. When the crystal was destroyed during the assault on the Undercity, shards rained down across Tirisfal Glades.",
+   "q": "What are the necrotic crystal fragments?"
+  },
+  {
+   "aliases": [
+    "why naxxramas attack",
+    "naxxramas undercity attack",
+    "what did naxxramas do here"
+   ],
+   "answer": "Naxxramas descended upon Tirisfal Glades with the direct aim of obliterating the Undercity and wiping the Forsaken off the map. A combined defense by the Forsaken and the Argent Dawn repelled the citadel, though both factions sustained heavy losses.",
+   "q": "Why did Naxxramas attack the Undercity?"
+  },
+  {
+   "aliases": [
+    "why do cultists want the crystals",
+    "what do cultists want with shards",
+    "scourge cultists crystals"
+   ],
+   "answer": "Scourge cultists are scouring Tirisfal Glades to recover the shattered fragments. Even broken and spent, the crystals hold lingering necrotic magic that the Scourge could salvage or repurpose for their unholy rituals.",
+   "q": "Why are Scourge cultists collecting the crystal fragments?"
+  },
+  {
+   "aliases": [
+    "are the crystals dangerous to touch",
+    "crystal physical contact",
+    "can necrotic crystals hurt you"
+   ],
+   "answer": "Yes. Despite being broken and largely drained of their primary charge, the fragments still harbor potent and volatile necrotic energy, making direct physical contact hazardous.",
+   "q": "Is handling the necrotic crystals dangerous?"
+  },
+  {
+   "aliases": [
+    "who fought at naxxramas",
+    "who defended undercity",
+    "argent dawn undercity defense"
+   ],
+   "answer": "The battle to defend the Undercity saw the Forsaken fighting side-by-side with the Argent Dawn against the forces of Naxxramas, suffering heavy casualties to secure the survival of the Forsaken.",
+   "q": "Who helped the Forsaken fight off Naxxramas?"
+  },
+  {
+   "aliases": [
+    "will tirisfal be clean of crystals",
+    "can they clear all the fragments",
+    "crystals left in tirisfal"
+   ],
+   "answer": "It is unlikely that the area will be cleared quickly. Because the massive crystal shattered high above the glades, fragments scattered everywhere, meaning residents will likely be pulling shards from the earth for years to come.",
+   "q": "Will all the necrotic crystals ever be cleared from Tirisfal?"
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "cultists",
+  "forsaken",
+  "naxxramas",
+  "necrotic crystal fragments",
+  "remnants of war",
+  "scourge",
+  "tirisfal glades",
+  "undercity"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "topic:forsaken",
+  "topic:scourge",
+  "topic:argent-dawn"
+ ],
+ "sections": [
+  {
+   "body": "Not long ago, the dread citadel Naxxramas loomed directly over Tirisfal Glades, seeking to wipe out the Undercity and erase the Forsaken entirely. In a desperate defense, the Forsaken and the Argent Dawn fought back the floating fortress at great cost. During the clash, the immense necrotic focusing crystal mounted atop Naxxramas was destroyed, blasting fragments across the glades below.",
+   "spoiler": 0,
+   "title": "The Shadow Over the City"
+  },
+  {
+   "body": "Though the citadel was driven off, the fallout remains embedded in the soil. Scourge cultists have moved in to retrieve the necrotic crystal fragments, hoping to harness the dark magic still lingering inside them. Collecting these shards deprives the Scourge of raw unholy power, though clearing every piece from Tirisfal will take years.",
+   "spoiler": 0,
+   "title": "Scattered Necromancy"
+  }
+ ],
+ "summary": "Remnants of War tasks adventurers with recovering shattered shards of the necrotic focusing crystal blown off Naxxramas during its assault on the Undercity. Both the Forsaken and the Argent Dawn suffered heavy losses repelling the citadel, and gathering these dangerous fragments prevents Scourge cultists from reclaiming their dark magic.",
+ "attribution": [
+  "In-game quest text: Remnants of War"
+ ]
+}

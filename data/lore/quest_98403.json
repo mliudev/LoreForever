@@ -1,0 +1,120 @@
+{
+ "key": "quest:98403",
+ "type": "quest",
+ "name": "Twisted Hatred",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98403
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Teldrassil is the fresh heart of Kaldorei resurgence, making demonic corruption festering among the native wildlife in the Cleft a direct insult and threat to your people."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The perversion of Teldrassil's natural arachnids into befouled brood strikes against the balance of nature, demanding cleansing at the hands of Cenarion defenders."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Aiding Tallonkai Swiftroot protects the settlement of Dolanaar from spreading satyr machinations within the Alliance's primary sanctuary on Kalimdor."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is xethorr",
+    "xethorr the wicked",
+    "who is the satyr"
+   ],
+   "answer": "Xethorr the Wicked is a malevolent satyr orchestrating corruption within Teldrassil. He directed Lord Melenas and made his lair in the Cleft, twisting native spiders and utilizing Mature Fel Moss to harbor his sinister schemes.",
+   "q": "Who is Xethorr the Wicked?"
+  },
+  {
+   "aliases": [
+    "where is the cleft",
+    "cleft location",
+    "where do i find xethorr"
+   ],
+   "answer": "The Cleft is a secluded area located deep in the forest to the northwest of Dolanaar on Teldrassil, where Xethorr the Wicked and his befouled brood have taken residence.",
+   "q": "Where is the Cleft located?"
+  },
+  {
+   "aliases": [
+    "why did spiders change",
+    "what are befouled webwoods",
+    "befouled webwood lore"
+   ],
+   "answer": "The Befouled Webwoods are native Teldrassil spiders corrupted by Xethorr the Wicked. The satyr twisted their minds and physiology, intending to harvest their venom for a foul demonic plan.",
+   "q": "Why are the spiders of Teldrassil befouled?"
+  },
+  {
+   "aliases": [
+    "who gave this quest",
+    "where is tallonkai",
+    "tallonkai swiftroot role"
+   ],
+   "answer": "Tallonkai Swiftroot is a night elf guardian stationed in the village of Dolanaar on Teldrassil who tasks adventurers with rooting out demonic subversion in the surrounding woods.",
+   "q": "Who is Tallonkai Swiftroot?"
+  },
+  {
+   "aliases": [
+    "mature fel moss",
+    "why collect fel moss",
+    "what is fel moss"
+   ],
+   "answer": "Mature Fel Moss is a corrupting botanical specimen carried by Xethorr the Wicked, sought by Tallonkai Swiftroot to uncover more about the satyr's true motives and ongoing work within Teldrassil.",
+   "q": "What is the Mature Fel Moss?"
+  },
+  {
+   "aliases": [
+    "melenas connection",
+    "who is lord melenas",
+    "melenas and xethorr"
+   ],
+   "answer": "Lord Melenas was acting not out of isolated malice, but at the explicit behest of Xethorr the Wicked, revealing a coordinated satyr conspiracy operating within Teldrassil.",
+   "q": "How was Lord Melenas involved?"
+  }
+ ],
+ "keywords": [
+  "befouled webwood",
+  "cleft",
+  "dolanaar",
+  "lord melenas",
+  "mature fel moss",
+  "satyr",
+  "tallonkai swiftroot",
+  "teldrassil",
+  "twisted hatred",
+  "xethorr the wicked"
+ ],
+ "related": [
+  "subzone:cleft",
+  "subzone:dolanaar",
+  "npc:tallonkai-swiftroot",
+  "topic:satyr",
+  "item:fel-moss",
+  "quest:940"
+ ],
+ "sections": [
+  {
+   "body": "The discovery that Lord Melenas did not operate in isolation reveals a darker undercurrent running through Teldrassil's wilderness. Behind Melenas stood Xethorr the Wicked, an entrenched satyr pulling strings from the shadows of the forest to undermine the tranquil boughs of the World Tree.",
+   "spoiler": 0,
+   "title": "A Shadowed Handler"
+  },
+  {
+   "body": "Taking refuge northwest of Dolanaar in the secluded enclave called the Cleft, Xethorr turned his attention to Teldrassil's native arachnids. By twisting local Webwood spiders into befouled beasts, the satyr sought to weaponize their venom for insidious demonic plots. Tallonkai Swiftroot dispatched adventurers to cull the brood and seize Xethorr's Mature Fel Moss before the corruption could spread further.",
+   "spoiler": 1,
+   "title": "The Befouled Brood of the Cleft"
+  }
+ ],
+ "summary": "Twisted Hatred is a quest in Teldrassil uncovering the puppeteer behind Lord Melenas's actions. Adventurers journey into the Cleft northwest of Dolanaar to confront Xethorr the Wicked and eradicate his corrupted spiders before his vile schemes can spread across the boughs.",
+ "attribution": [
+  "In-game quest text: Twisted Hatred"
+ ]
+}

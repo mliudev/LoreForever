@@ -1,0 +1,111 @@
+{
+ "key": "quest:94502",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94502
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This trial represents a crucial rite of passage to attune with the water spirits and earn the Water Totem, demonstrating harmony and mastery over the elemental forces."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance shamans must travel across their territories, venturing from Loch Modan into the troubled lands of Westfall to purify corrupted shrines."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is call of water",
+    "water totem quest",
+    "water quest westfall"
+   ],
+   "answer": "Call of Water is a spiritual trial for shamans seeking to commune with the elements of water. The quest tasks the petitioner with purifying a tainted shrine at Stendel's Pond in Westfall to summon a cleansed water spirit and earn their Water Totem.",
+   "q": "What is the Call of Water quest?"
+  },
+  {
+   "aliases": [
+    "who gives call of water",
+    "norric loch modan",
+    "quest giver"
+   ],
+   "answer": "The quest is given by Norric, a mentor situated in Loch Modan. He instructs petitioners in elemental rites, provides special potions, and guides them in cleansing corrupted elemental waters.",
+   "q": "Who gives this quest?"
+  },
+  {
+   "aliases": [
+    "where is stendels pond",
+    "stendel pond location",
+    "pond near moonbrook"
+   ],
+   "answer": "Stendel's Pond lies just outside Moonbrook in southwestern Westfall. Once a pure spring, it has fallen still and murky under the influence of dark, corrupting forces.",
+   "q": "Where is Stendel's Pond?"
+  },
+  {
+   "aliases": [
+    "how to cleanse pond",
+    "cleanse stendels pond",
+    "shrine ritual"
+   ],
+   "answer": "To cleanse the waters, you must defeat the corrupting presence at Stendel's Pond, take its bracers, and place them on the ancient shrine alongside the remaining drops of potion while incanting the words taught by Norric.",
+   "q": "How do you cleanse the corruption at Stendel's Pond?"
+  },
+  {
+   "aliases": [
+    "what reward call of water",
+    "water totem reward"
+   ],
+   "answer": "Completing the trial and returning proof of the cleansing to Norric in Loch Modan rewards the petitioner with their Water Totem, granting command over the elemental powers of water.",
+   "q": "What do you earn for completing this quest?"
+  },
+  {
+   "aliases": [
+    "why is stendels pond corrupted",
+    "what corrupted the pond"
+   ],
+   "answer": "The source of the darkness is uncertain. The pool lies unnaturally stagnant, surrounded by the bones of beasts, prompting concern over whether it was poisoned by Westfall's spreading malaise or acts as a fountainhead of corruption itself.",
+   "q": "Why is Stendel's Pond corrupted?"
+  }
+ ],
+ "keywords": [
+  "call of water",
+  "loch modan",
+  "moonbrook",
+  "norric",
+  "shaman",
+  "stendel's pond",
+  "water totem",
+  "westfall"
+ ],
+ "related": [
+  "subzone:stendel-s-pond",
+  "zone:westfall",
+  "zone:lochmodan",
+  "subzone:moonbrook",
+  "quest:1471"
+ ],
+ "sections": [
+  {
+   "body": "In the shadow of Moonbrook lies Stendel's Pond, once celebrated as a clear and pure spring. Dark influences sweeping across Westfall have fouled its tranquil waters, driving the local water spirits into profound silence. An aged shrine stands along the shore, neglected and draped in dust and cobwebs, waiting for someone to awaken the dormant powers within.",
+   "spoiler": 0,
+   "title": "A Spring Tainted by Shadow"
+  },
+  {
+   "body": "Norric in Loch Modan guides petitioners through the ritual required to restore balance. The rite demands facing the foul entity polluting Stendel's Pond, securing its bracers, and offering them upon the stone shrine along with drops of an alchemical draught. When the incantation is spoken, the vapors summon forth a cleansed spirit, imparting wisdom and proving the bearer worthy of the Water Totem.",
+   "spoiler": 1,
+   "title": "The Rite of Cleansing"
+  }
+ ],
+ "summary": "Call of Water is an elemental quest requiring a journey from Loch Modan to Westfall to restore balance to a corrupted spring. By purging the tainted entity at Stendel's Pond and performing an ancient ritual at the forgotten shrine, petitioners earn the favor of the water spirits and their Water Totem.",
+ "attribution": [
+  "In-game quest text: Call of Water"
+ ]
+}

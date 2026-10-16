@@ -1,0 +1,115 @@
+{
+ "key": "quest:94495",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94495
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The quest marks a vital step in learning the nature of water and obtaining a water sapta to commune with the spirits."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Hervdana recognizes the seeker as kin braving the dangerous marshlands and Dark Iron dwarves lurking nearby."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The journey takes travelers deep into the perilous Wetlands, far away from any dwarven or Alliance guard patrols."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is hervdana",
+    "hervdana saegrund",
+    "where is hervdana"
+   ],
+   "answer": "Hervdana Saegrund is a dwarf who lives with her family in a cave beneath the southern falls of the Wetlands. She aids shamans seeking communion with water and the secrets of the water sapta.",
+   "q": "Who is Hervdana Saegrund?"
+  },
+  {
+   "aliases": [
+    "what is water sapta",
+    "sapta meaning",
+    "why get water sapta"
+   ],
+   "answer": "A water sapta is a ceremonial elixir used by shamans to commune with the spirits of water. To acquire one in the eastern realms, seekers are directed to Hervdana Saegrund near the southern falls.",
+   "q": "What is the water sapta?"
+  },
+  {
+   "aliases": [
+    "where does hervdana live",
+    "where is the cave",
+    "southern falls location"
+   ],
+   "answer": "Hervdana and her family dwell secluded inside a cave located directly beneath the southern waterfalls in the Wetlands.",
+   "q": "Where can Hervdana Saegrund be found?"
+  },
+  {
+   "aliases": [
+    "why live in wetlands",
+    "wetlands dangers",
+    "dark irons wetlands"
+   ],
+   "answer": "Despite the constant danger of Dark Iron dwarves lurking throughout the marshes and the total absence of city guards, Hervdana and her kin have chosen the seclusion of the waterfall cave for their own reasons.",
+   "q": "Why does Hervdana live in the dangerous Wetlands?"
+  },
+  {
+   "aliases": [
+    "what does water mean",
+    "philosophy of water",
+    "water lesson"
+   ],
+   "answer": "Water represents rebirth, carving stone, washing away filth, and soothing the weary when pure. However, if corrupted or tainted, it ruins everything it touches.",
+   "q": "What is the lesson of water taught here?"
+  },
+  {
+   "aliases": [
+    "what kind of quest is this",
+    "who is this quest for",
+    "dwarf shaman quest"
+   ],
+   "answer": "Call of Water is a shaman rite of passage guiding initiates to understand the nature of the element and seek out the water sapta from isolated guides.",
+   "q": "What is the purpose of the Call of Water quest?"
+  }
+ ],
+ "keywords": [
+  "call of water",
+  "dwarf",
+  "hervdana saegrund",
+  "shaman",
+  "southern falls",
+  "water sapta",
+  "wetlands"
+ ],
+ "related": [
+  "quest:972",
+  "zone:wetlands",
+  "topic:dwarf",
+  "quest:938"
+ ],
+ "sections": [
+  {
+   "body": "The journey to understand water begins with a simple lesson on its dual nature: water embodies rebirth, carving stone and cleansing impurities when pure, but threatening ruin when tainted. Initiates seeking communion are sent into the wild to obtain a water sapta from those who dwell beside the element.",
+   "spoiler": 0,
+   "title": "The Nature of Water"
+  },
+  {
+   "body": "Deep in the damp marshes of the Wetlands, Hervdana Saegrund and her family make their home in a cave hidden directly beneath the southern waterfalls. Far removed from the protection of Ironforge guards, they endure the threat of Dark Iron dwarves lurking in the surrounding swamps to maintain their isolated life by the rushing falls.",
+   "spoiler": 0,
+   "title": "Shelter Beneath the Falls"
+  }
+ ],
+ "summary": "Call of Water sends spiritual seekers into the Wetlands to learn the cleansing power of water and seek the water sapta. In a secluded cave beneath the southern falls, the hermit dwarf Hervdana Saegrund greets travelers braving the wilderness.",
+ "attribution": [
+  "In-game quest text: Call of Water"
+ ]
+}

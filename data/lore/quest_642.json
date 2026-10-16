@@ -1,0 +1,116 @@
+{
+ "key": "quest:642",
+ "type": "quest",
+ "name": "The Princess Trapped",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   642
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "As practitioners who commune with the spirits of the elements, shamans will recognize Myzrael's claim of being an earth princess, though her imprisonment beneath the earth warrants careful elemental scrutiny."
+  },
+  {
+   "target": "class:Mage",
+   "text": "The use of resonant crystal shards and motes of earth energy to communicate and channel power across great distances presents a curious display of geomantic magic."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Miners venturing near Drywhisker Gorge and underground veins in Arathi will find themselves crossing paths with both the kobold infestations and the enchanted crystal shards tied to the princess."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is the trapped princess",
+    "who is talking through the crystal",
+    "who is myzrael"
+   ],
+   "answer": "The voice speaking through the crystal belongs to Myzrael, an entity who claims to be a princess of the earth imprisoned deep beneath the Arathi Highlands. Unable to break free on her own, she reaches out to passing adventurers to help her commune with the surface.",
+   "q": "Who is Myzrael?"
+  },
+  {
+   "aliases": [
+    "who imprisoned myzrael",
+    "who trapped the princess",
+    "why is myzrael underground"
+   ],
+   "answer": "According to Myzrael, she was imprisoned beneath Arathi by giants. She claims they bound her deep underground, forcing her to rely on crystal shards scattered across the region to communicate with anyone walking above.",
+   "q": "Who trapped Myzrael beneath the highlands?"
+  },
+  {
+   "aliases": [
+    "why do the kobolds have motes",
+    "drywhisker gorge motes",
+    "what are motes of myzrael"
+   ],
+   "answer": "Motes of Myzrael are crystalline or elemental fragments carried by the Drywhisker kobolds. Myzrael explains that these motes hold enough latent earth power to activate and empower the shard clusters needed to strengthen her link to the surface.",
+   "q": "What are the Motes of Myzrael?"
+  },
+  {
+   "aliases": [
+    "why are kobolds involved",
+    "drywhisker kobolds giants",
+    "kobolds working with giants"
+   ],
+   "answer": "Myzrael states that the Drywhisker kobolds living in Drywhisker Gorge are allies of the giants who imprisoned her. They guard a key crystal shard cluster in the gorge, standing between the princess and the surface.",
+   "q": "How are the Drywhisker kobolds connected to Myzrael's captors?"
+  },
+  {
+   "aliases": [
+    "how does myzrael speak",
+    "iridescent shards arathi",
+    "what are the crystal shards"
+   ],
+   "answer": "Myzrael channels her voice through mysterious iridescent crystal shards protruding from the soil of the Arathi Highlands. These formations act as geomantic transmitters, allowing her spirit or voice to pierce the subterranean depths and contact surface dwellers.",
+   "q": "How is Myzrael able to speak from underground?"
+  },
+  {
+   "aliases": [
+    "where is drywhisker gorge",
+    "where do i take the motes",
+    "drywhisker shards location"
+   ],
+   "answer": "Drywhisker Gorge is a rugged cleft situated in eastern Arathi Highlands. It is inhabited by the Drywhisker kobolds, who surround the iridescent shard cluster that Myzrael asks you to activate with the gathered motes.",
+   "q": "Where is Drywhisker Gorge located?"
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "drywhisker gorge",
+  "drywhisker kobolds",
+  "earth princess",
+  "iridescent shards",
+  "motes of myzrael",
+  "myzrael",
+  "princess of the earth",
+  "the princess trapped"
+ ],
+ "related": [
+  "zone:arathi",
+  "subzone:drywhisker-gorge",
+  "topic:kobold"
+ ],
+ "sections": [
+  {
+   "body": "Scattered across the rolling plains of the Arathi Highlands, strange crystal shards hum with distant power. Approaching them reveals a desperate voice echoing from deep subterranean caverns: Myzrael, a self-proclaimed princess of the earth. She claims that ancient giants cast her down and bound her far beneath the soil, cutting her off from the sunlit lands above. The crystals embedded in the earth represent her sole means of contacting the surface, carrying her pleas for salvation to any adventurer willing to listen.",
+   "spoiler": 0,
+   "title": "A Voice from the Stone"
+  },
+  {
+   "body": "To maintain her tenuous contact and begin breaking through her subterranean isolation, Myzrael directs travelers eastward toward Drywhisker Gorge. The gorge is infested with Drywhisker kobolds, creatures she identifies as allies of her giant captors. These kobolds carry resonant Motes of Myzrael and guard a prominent cluster of iridescent shards. By wresting these motes from the kobolds and applying their energy to the formation, rescuers can empower the crystal cluster and deepen their communication with the trapped princess.",
+   "spoiler": 0,
+   "title": "The Drywhisker Connection"
+  }
+ ],
+ "summary": "The Princess Trapped begins when adventurers uncover an iridescent crystal shard in the Arathi Highlands and hear the plea of Myzrael, a self-styled princess of the earth imprisoned deep underground. Claiming she was trapped by hostile giants, she begs travelers to confront their kobold allies in Drywhisker Gorge and restore power to her crystalline communication network.",
+ "attribution": [
+  "In-game quest text: The Princess Trapped"
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "key": "quest:97282",
+ "type": "quest",
+ "name": "Stormy Potential",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97282
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Harnessing volatile biological energy from thunder lizards to jump-start dormant devices is classic goblin ingenuity, even if the safety margins are essentially nonexistent."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Rezlak's operations support the Horde's foothold and transit across Durotar, where marauding harpies from Drygulch Ravine threaten travelers and supply caravans."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives stormy potential",
+    "where is rezlak",
+    "rezlak quest giver"
+   ],
+   "answer": "Stormy Potential is offered by Rezlak, a goblin merchant and tinkerer stationed near Drygulch Ravine in Durotar. Taking advice from Gazlowe to seize opportunity when it knocks, he seeks to restore an unpowered orb using the natural electrical charge of local beasts.",
+   "q": "Who gives the quest Stormy Potential?"
+  },
+  {
+   "aliases": [
+    "what is rezlak charging",
+    "why need thunder lizard organs",
+    "rezlak orb purpose"
+   ],
+   "answer": "Rezlak possesses an orb that is intact but completely drained of power. He hopes to supercharge it back to full strength using the electrical organs of thunder lizards so he can defend his caravan from the harpies harassing the area.",
+   "q": "What is Rezlak trying to charge with the organs?"
+  },
+  {
+   "aliases": [
+    "where find thunder lizards",
+    "thunder lizard location durotar",
+    "where are the organs"
+   ],
+   "answer": "Thunder lizards inhabit a gorge to the west of Rezlak's position near Drygulch Ravine in Durotar. Hunters must harvest their electrical organs to bring back to Rezlak.",
+   "q": "Where are the thunder lizards found?"
+  },
+  {
+   "aliases": [
+    "why thunder lizards lightning",
+    "do thunder lizards use lightning"
+   ],
+   "answer": "Despite their thunderous name, thunder lizards emit dangerous bolts of lightning rather than just roaring. As Rezlak warns, their electrical blasts are a painful lesson most travelers only get to learn once.",
+   "q": "Why are thunder lizards dangerous to harvest?"
+  },
+  {
+   "aliases": [
+    "why rezlak need defense",
+    "who attacked rezlak",
+    "harpy caravan attack"
+   ],
+   "answer": "Rezlak's caravan was ambushed by the hostile harpies infesting Drygulch Ravine. He intends to use the recharged orb as a deterrent or weapon to make the harpies think twice before attacking his shipments again.",
+   "q": "Why does Rezlak fear the harpies?"
+  },
+  {
+   "aliases": [
+    "who is gazlowe to rezlak",
+    "rezlak gazlowe advice"
+   ],
+   "answer": "Rezlak views Gazlowe, the chief engineer of Ratchet, as an experienced mentor and business inspiration. Rezlak explicitly quotes Gazlowe's business philosophy about seizing opportunity when formulating his plan to supercharge the orb.",
+   "q": "What is Rezlak's connection to Gazlowe?"
+  }
+ ],
+ "keywords": [
+  "charged organs",
+  "drygulch ravine",
+  "durotar",
+  "gazlowe",
+  "harpies",
+  "orb",
+  "rezlak",
+  "stormy potential",
+  "thunder lizard"
+ ],
+ "related": [
+  "npc:rezlak",
+  "subzone:drygulch-ravine"
+ ],
+ "sections": [
+  {
+   "body": "Near the shadow of Drygulch Ravine in Durotar, the goblin Rezlak found himself facing two problems: a caravan under constant threat from local harpies, and an intact magical orb completely depleted of power. Remembering the pragmatic advice of Ratchet's chief engineer Gazlowe\u2014to seize opportunity whenever it knocks\u2014Rezlak hatched an ambitious plan to solve both problems at once by supercharging the dormant device.",
+   "spoiler": 0,
+   "title": "Seizing Opportunity"
+  },
+  {
+   "body": "To restore the drained orb, Rezlak required a potent, immediate source of raw electricity. The gorge to the west of Drygulch Ravine is home to thunder lizards\u2014creatures known for internal organs capable of generating and conducting lethal jolts of lightning. By sending an adventurer to harvest these charged organs, Rezlak hoped to safely channel their volatile current directly into the device, giving his vulnerable supply wagons a formidable defense against future harpy ambushes.",
+   "spoiler": 0,
+   "title": "Harnessing the Storm"
+  }
+ ],
+ "summary": "Stormy Potential is a quest in Durotar given by the goblin Rezlak near Drygulch Ravine. Hoping to protect his trade caravan against marauding harpies, Rezlak seeks to supercharge a depleted orb using the potent electrical organs of native thunder lizards.",
+ "attribution": [
+  "In-game quest text: Stormy Potential"
+ ]
+}

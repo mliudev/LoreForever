@@ -1,0 +1,109 @@
+{
+ "key": "quest:6394",
+ "type": "quest",
+ "name": "Thazz'ril's Pick",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6394
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Foreman Thazz'ril relies on his enchanted pick for mineral surveys across Durotar, hoping to open new mining prospects once the local timber is cleared."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing basic tools and clearing out hostile threats like the Burning Blade Coven helps the Horde establish a firm foothold in the Valley of Trials."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is thazzril",
+    "thazzril role",
+    "foreman thazzril"
+   ],
+   "answer": "Foreman Thazz'ril oversees labor and resource gathering in the Valley of Trials, directing peons as they clear timber and prepare the land for mining operations.",
+   "q": "Who is Foreman Thazz'ril?"
+  },
+  {
+   "aliases": [
+    "why is the pick special",
+    "glowing pick",
+    "enchanted pick"
+   ],
+   "answer": "Thazz'ril placed a spell on his favorite pick so that it glows in the dark, allowing it to be easily spotted even in pitch-black cavern depths.",
+   "q": "Why does Thazz'ril's pick glow?"
+  },
+  {
+   "aliases": [
+    "where is burning blade coven",
+    "coven location",
+    "pick cave"
+   ],
+   "answer": "The Burning Blade Coven is a dark cave network located to the north of the peon lumber camp in the Valley of Trials.",
+   "q": "Where is the Burning Blade Coven?"
+  },
+  {
+   "aliases": [
+    "how did thazzril lose his pick",
+    "why leave the pick",
+    "pick left behind"
+   ],
+   "answer": "Thazz'ril left his favorite pick behind while surveying the northern cave for minerals. When he went back to retrieve it, vicious beasts and dark cultists had infested the cavern.",
+   "q": "How did Thazz'ril lose his pick?"
+  },
+  {
+   "aliases": [
+    "where inside cave",
+    "pick room",
+    "waterfall chamber"
+   ],
+   "answer": "The pick was left deep inside the cave in a subterranean chamber featuring waterfalls, resting where Thazz'ril was last surveying the rock walls.",
+   "q": "Where inside the cave was the pick left?"
+  },
+  {
+   "aliases": [
+    "thazzril future plans",
+    "what will thazzril mine"
+   ],
+   "answer": "Thazz'ril plans to find a productive cave to mine once his peons finish cutting down the surrounding timber in the Valley of Trials.",
+   "q": "What does Thazz'ril plan to do after getting his pick back?"
+  }
+ ],
+ "keywords": [
+  "burning blade coven",
+  "durotar",
+  "foreman thazz'ril",
+  "mining",
+  "pick",
+  "thazz'ril",
+  "valley of trials",
+  "waterfall"
+ ],
+ "related": [
+  "npc:foreman-thazz-ril",
+  "subzone:burning-blade-coven"
+ ],
+ "sections": [
+  {
+   "body": "Foreman Thazz'ril, the supervisor overseeing work details in the Valley of Trials, previously ventured into the northern cavern to prospect for mineral veins. While surveying the rocky interior, he accidentally left behind his prized mining pick. By the time he realized his mistake and returned to fetch it, vicious beasts and hostile inhabitants had overtaken the cavern, forcing the foreman to seek assistance from capable recruits to recover his lost tool.",
+   "spoiler": 0,
+   "title": "A Lost Tool"
+  },
+  {
+   "body": "To make his prized pick easier to use in dim subterranean depths, Thazz'ril enchanted it with a spell that causes it to glow in the dark. This magical illumination allows adventurers to easily spot the implement resting inside a waterfall chamber within the Burning Blade Coven, though retrieving it requires facing whatever dangerous creatures prowl the cavern shadows. Once returned, Thazz'ril hopes to put the pick back to work uncovering new mining opportunities across the valley.",
+   "spoiler": 0,
+   "title": "Glow in the Dark"
+  }
+ ],
+ "summary": "Foreman Thazz'ril accidentally left his favorite enchanted mining pick deep inside the northern cavern during a mineral survey. Now overrun by dangerous beasts, the cave known as the Burning Blade Coven holds the glowing tool awaiting recovery.",
+ "attribution": [
+  "In-game quest text: Thazz'ril's Pick"
+ ]
+}
