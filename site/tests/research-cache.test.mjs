@@ -6,7 +6,8 @@ import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { ANSWER_MODEL, ANSWER_RESERVATION_MICRO, LOOKUP_RESERVATION_MICRO } from "../lib/companion-answers.js";
-import { keepFinding, wantsSearch } from "../lib/research-cache.js";
+import { keepFinding, wantsSearch, realWorld } from "../lib/research-cache.js";
+import { helpBlock } from "../lib/willo-help.js";
 import { d1 } from "./helpers.mjs";
 
 // RESEARCH_SHARED: these tests cover sharing a finding with the next player, which stays off in production until a search
@@ -96,6 +97,60 @@ test("only practical or current questions and corrections no fact covers look on
   assert.equal(wantsSearch("Where can I buy Simple Flour in Goldshire?", null, [{ asked: true }]), false, "a fact covers it");
 });
 
+test("the player's own world looks online, typed too, and Willo's own help never does (LOR-545)", async () => {
+  for (const q of ["What's the best graphics card for WoW?", "Can you recommend a good laptop for playing WoW?",
+    "My FPS drops a lot in Stormwind, what can I do?", "What's a good UI addon?", "Are the servers down?",
+    "What's the weather like in Seattle today?"])
+    assert.equal(realWorld(q), true, q);
+  for (const q of ["Where can I get a ram mount?", "Any news from the front?", "What's the weather like today?",
+    "Tell me about Ironforge.", "How do I change your voice?"])
+    assert.equal(realWorld(q), false, q);
+  assert.equal(realWorld("Seattle", "What's the weather like today?"), true, "the town, after the weather");
+  assert.equal(realWorld("thanks!", "What's the best graphics card for WoW?"), false);
+  const token = await linked();
+  // Typed (no research "auto"): the look-up is its own, about the question alone, never where or who asked.
+  const typed = await ask(token, "What's the best graphics card for WoW?", "Stormwind City", { style: undefined, research: undefined });
+  assert.equal(typed.looked_up, "quick");
+  assert.match(calls[0].system, /Today is \d{4}-\d{2}-\d{2}\. Always run one or two short Google searches first for current information/);
+  assert.equal(calls[0].user, "Question: What's the best graphics card for WoW?");
+  // A question about Willo herself gets her help, and no look-up even asked out loud.
+  calls = [];
+  const self = await ask(token, "How do I change the talk key?");
+  assert.equal(self.looked_up, "no");
+  assert.equal(calls.length, 1);
+  assert.match(calls[0].system, /WILLO HELP[^]*Talk key: in your window, Settings › Willo › Talk with Willo/);
+});
+
+test("Willo's help answers questions about her and stays out of lore and the player's own world", () => {
+  for (const [q, topic] of [["How do I change your voice?", /Your voice:/], ["Why can't you see who I'm targeting?", /Seeing the game:/],
+    ["What does Legend add?", /Your plans[^]*Legend: /], ["How do I change the talk key?", /Talk key:/],
+    ["What do you keep about me?", /What you keep:/]])
+    assert.match(helpBlock(q), topic, q);
+  for (const q of ["Tell me about King Magni.", "What does the Legend of Stalvan give?", "Who is Gryan Stoutmantle?",
+    "What city is that across the bay?", "What's the best graphics card for WoW?", "What do you see?"])
+    assert.equal(helpBlock(q), "", q);
+  assert.equal(helpBlock("What does Legend add?", { plans: false }), "", "no plans for sale, no plans topic");
+  // The "Willo and the game" card is only in the Willo builds that have it.
+  assert.doesNotMatch(helpBlock("No sound from you", { client: "companion/0.18.2" }), /and the game" card/);
+  assert.match(helpBlock("No sound from you", { client: "companion/0.19.0" }), /and the game" card/);
+  assert.match(helpBlock("What does Legend add?", { usage: { remaining: 488, period: "month", resetsAt: "2026-11-13T00:00:00Z" } }),
+    /488 left this month, more on November 13/);
+});
+
+test("Willo's own state goes to her help for a question about her, and out of every other answer (LOR-546)", async () => {
+  const token = await linked();
+  const prompt = q => "PLAYER CONTEXT\nzone: Westfall\nrace: Human\nclass: Warrior\nlevel: 15\nfaction: Alliance\n\n" +
+    "WILLO STATE\nlive: bad, Live game info is unticked in the add-on\ntalking out loud: on\n\nSOURCES\n\n" + `QUESTION\n${q}`;
+  const self = await ask(token, "", "", { prompt: prompt("Why can't you see who I'm targeting?"), style: undefined });
+  assert.deepEqual(self.lookups, ["help", "state"]);
+  assert.match(calls[0].system, /RIGHT NOW in their Willo[^]*live: bad, Live game info is unticked in the add-on/);
+  assert.doesNotMatch(calls[0].user, /WILLO STATE/);
+  calls = [];
+  await ask(token, "", "", { prompt: prompt("Who are the Defias Brotherhood?"), style: undefined });
+  assert.doesNotMatch(calls[0].system, /RIGHT NOW in their|WILLO HELP \(/);
+  assert.doesNotMatch(calls[0].user, /WILLO STATE|unticked/);
+});
+
 test("the Great Forge 'where you are' question (10/14) gets no look-up and no earlier finding; flour in Goldshire does", async () => {
   const question = "Willow, tell me, are you able to see your sky and know where you are?";
   // What that answer's search kept for the next player.
@@ -106,7 +161,7 @@ test("the Great Forge 'where you are' question (10/14) gets no look-up and no ea
   assert.equal(here.web_search.status, "not_needed");
   assert.equal(here.web_search.suggestions_html, "", "no Google chip");
   assert.deepEqual(here.web_sources, []);
-  assert.ok(calls.every(c => !c.body.tools));
+  assert.ok(calls.every(c => !c.body.tools?.some(t => t.googleSearch)), "no search");
   const flour = await ask(await linked(), "Where can I buy Simple Flour in Goldshire?", "Elwynn Forest");
   assert.equal(flour.looked_up, "quick");
   assert.equal(flour.web_search.status, "searched");

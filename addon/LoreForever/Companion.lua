@@ -58,7 +58,7 @@ local function createBox()
   table.insert(UISpecialFrames, "LoreForeverLiveAnswers")
   local title = f:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
   title:SetPoint("TOP", 0, -5)
-  title:SetText(L["Live answers"])
+  title:SetText(string.format(L["Ask %s"], ns.COMPANION_NAME))
   local tip = f:CreateFontString(nil, "OVERLAY", "GameFontNormal")
   tip:SetPoint("TOPLEFT", 16, -34)
   tip:SetPoint("TOPRIGHT", -16, -34)
@@ -87,7 +87,7 @@ local function createBox()
   note:SetPoint("BOTTOMLEFT", 16, 12)
   note:SetPoint("BOTTOMRIGHT", -16, 12)
   note:SetJustifyH("LEFT")
-  note:SetText(L["Needs the Lore Forever companion app running on this PC. Esc to cancel."])
+  note:SetText(string.format(L["Needs %s running on this PC. Esc to cancel."], ns.COMPANION_NAME))
   f.eb = eb
   return f
 end
@@ -116,6 +116,140 @@ end
 function Companion.SuggestWillo()
   if Companion.suggested or not Companion.OfferWillo() then return false end
   Companion.suggested = true
+  return true
+end
+
+-- Willo reads the short answers (LOR-547, LOR-559). The narrators record the big lore; an answer with no recording of
+-- its own is Willo's to read aloud, on this PC, from the same words. The add-on only draws: the sky's outer ring
+-- (Strip.SetRing, LOR-557) names the answer on screen, a page of 5 bytes: kind 1 in bits 7-6 of the first, with a
+-- counter in bits 5-0 that goes up each time it's opened or Listen is pressed, then the CRC-32 of its id ("key#faqN",
+-- Lang.FaqID), big-endian. Willo is English only, so another language or a contributor's edition stays text.
+local readCounter, readPage = 0, nil
+local sending = nil      -- the question going round to Willo now (Companion.SendQuestion), its token
+
+local function english()
+  local lang = ns.lang
+  return not lang or (lang.locale == "enUS" and not lang.edition)
+end
+Companion.English = english
+
+-- Willo can read the add-on's answers now: she's installed, Live game info is on (so the sky shows), the sky has its
+-- outer ring, and the add-on reads in English.
+function Companion.ReadsAnswers()
+  local Strip = ns.Strip
+  return Companion.Installed() and Strip ~= nil and Strip.SetRing ~= nil and Strip.On() and english()
+end
+
+-- An answer Willo would read: a FAQ answer (target from UI.FaqTarget) with no recording of its own (that plays, as
+-- before), while she can.
+function Companion.CanRead(target)
+  local key = target and target.key
+  return type(key) == "string" and key:find("#faq%d+$") ~= nil and not ns.Voice.HasAudio(key)
+    and Companion.ReadsAnswers()
+end
+
+local function ask(target)
+  readCounter = (readCounter + 1) % 64
+  local crc = ns.Strip.CRC32(target.key)
+  readPage = { 0x40 + readCounter, math.floor(crc / 0x1000000) % 256, math.floor(crc / 0x10000) % 256,
+    math.floor(crc / 0x100) % 256, crc % 256 }
+  ns.Strip.SetRing(readPage)
+  -- What starts by itself makes way and waits while she reads, about 14 letters a second (Voice.OnWilloReads).
+  ns.Voice.OnWilloReads(math.min(45, #(target.text or "") / 14 + 2))
+end
+
+-- An answer just shown (UI.Ask, UI.ShowFaq): Willo reads it, unless it has a recording or the player only wants what
+-- they press Play on ("Narration: only when I press Play": then Listen asks her).
+function Companion.ShowAnswer(target)
+  Companion.ClearRead()
+  if Companion.CanRead(target) and not ns.Voice.OnDemand() then ask(target) end
+end
+
+-- Listen on an answer Willo reads: a story the player started pauses, and she reads it (again). False when she can't.
+function Companion.ListenRead(target)
+  if not Companion.CanRead(target) then return false end
+  if ns.UI and ns.UI.speaking then ns.UI.StopAll() end
+  ask(target)
+  return true
+end
+
+-- Nothing for her to read: another question, an entry's overview, the panel cleared. A question still going round
+-- to her stops too (the newest wins).
+function Companion.ClearRead()
+  if (readPage or sending) and ns.Strip and ns.Strip.SetRing then ns.Strip.SetRing(nil) end
+  readPage, sending = nil, nil
+end
+
+-- With Willo installed and Live game info off (not unticked by the player), the add-on says once, ever, that she'd
+-- read the answers with it on. True when it should say so now.
+function Companion.ReadHintOnce()
+  local s = LoreForeverDB and LoreForeverDB.settings
+  if not (s and Companion.Installed() and english()) or s.willoReadHint or not (ns.Strip and ns.Strip.SetRing)
+    or ns.Strip.On()
+    or (s.liveStripChosen and not s.liveStrip) then
+    return false
+  end
+  s.willoReadHint = true
+  return true
+end
+
+-- "Ask Willo" in one click (LOR-560, Mike's pick 4C): the question goes to Willo through the same outer ring, a few
+-- letters a page, with no Ctrl+C. Page 0: kind 2 and page 0 (byte 1), a counter for the question, its letter count and
+-- the CRC-8 (Strip.CRC8) of the pages after it; then pages 1..n: kind 2 and the page's number, 4 bytes of letters, 5
+-- bits each, high bit first (1-26 a-z, 27 a space, 28 ', 29 ',', 30 ?, 31 .; anything else becomes a space). Each page
+-- shows PAGE_SECONDS, and the pages go round for a few seconds, as Willo can't say she has it. English only, like her.
+local Q_MAX, PAGE_SECONDS, Q_SECONDS = 120, 0.3, 5
+local questionCounter = 0
+
+local function letterCode(ch)
+  local b = ch:byte()
+  if b >= 97 and b <= 122 then return b - 96 end
+  return (ch == "'" and 28) or (ch == "," and 29) or (ch == "?" and 30) or (ch == "." and 31) or 27
+end
+
+-- The question's pages, each a list of 5 bytes.
+function Companion.QuestionPages(q)
+  q = (q or ""):lower():gsub("%s+", " "):gsub("^ ", ""):gsub(" $", ""):sub(1, Q_MAX)
+  local bytes, acc, nbits = {}, 0, 0
+  for i = 1, #q do
+    local c = letterCode(q:sub(i, i))
+    for k = 4, 0, -1 do
+      acc, nbits = acc * 2 + math.floor(c / 2 ^ k) % 2, nbits + 1
+      if nbits == 8 then bytes[#bytes + 1], acc, nbits = acc, 0, 0 end
+    end
+  end
+  if nbits > 0 then bytes[#bytes + 1] = acc * 2 ^ (8 - nbits) end
+  while #bytes % 4 ~= 0 do bytes[#bytes + 1] = 0 end
+  questionCounter = (questionCounter + 1) % 256
+  local pages = { { 0x80, questionCounter, #q, ns.Strip.CRC8(bytes), 0 } }
+  for p = 1, #bytes / 4 do
+    local i = (p - 1) * 4
+    pages[#pages + 1] = { 0x80 + p, bytes[i + 1], bytes[i + 2], bytes[i + 3], bytes[i + 4] }
+  end
+  return pages
+end
+
+-- Send a question the add-on couldn't answer to Willo through the sky. False when she can't hear it that way (not
+-- installed, Live game info off, no outer ring yet, another language): then the Ctrl+C box, as before.
+function Companion.SendQuestion(q)
+  if not Companion.ReadsAnswers() or type(q) ~= "string" or not q:find("%a") then return false end
+  local pages = Companion.QuestionPages(q)
+  local mine = {}
+  sending = mine
+  local rounds = math.max(Q_SECONDS, 2 * #pages * PAGE_SECONDS) / PAGE_SECONDS
+  local n = 0
+  local function step()
+    if sending ~= mine then return end
+    if n >= rounds then
+      sending = nil
+      ns.Strip.SetRing(nil)
+      return
+    end
+    ns.Strip.SetRing(pages[n % #pages + 1])
+    n = n + 1
+    C_Timer.After(PAGE_SECONDS, step)
+  end
+  step()
   return true
 end
 

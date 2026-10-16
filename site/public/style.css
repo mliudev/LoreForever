@@ -136,9 +136,13 @@ code { background: #00000066; padding: 1px 5px; border-radius: 3px; font-size: 0
 @media (max-width: 359px) {
   .nav-links .nl { font-size: 0.7rem; }
 }
-/* Five links since Willo joined (2026-10-14): on the narrowest phones they wrap onto a second row, never off screen. */
+/* Five links since Willo joined (2026-10-14): on the narrowest phones they wrap onto a second row, never off screen.
+   Tighter padding up to 400px keeps them on one row at 375px (they measure 340px there, of 343px). */
 @media (max-width: 600px) {
   .nav-links { flex-wrap: wrap; }
+}
+@media (max-width: 400px) {
+  .nav-links .nl { padding: 0 2px; }
 }
 
 /* Fading gold rule under the hero and section headings */
@@ -1634,6 +1638,16 @@ main:has(.pf-visitor) .pf-ch, main:has(.pf-visitor) .pf-chx { scroll-margin-top:
 /* Willo, the companion app (/willo, the home page's card, /downloads' step 2): its own blue beside the add-on's gold. */
 :root { --willo: #9fc0ff; --willo-soft: #cfd8f2; --willo-line: #4f6fe8; --willo-bg: #0b1024; }
 .nl-willo { color: var(--willo); }
+.dl-willo { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; margin: 18px 0 6px; padding: 14px 18px;
+  border: 1px solid var(--willo-line); border-radius: 10px; background: rgba(11, 16, 36, 0.92); }
+.dl-willo img { flex: none; width: 64px; height: 64px; }
+.dl-willo-text { flex: 1 1 260px; min-width: 0; margin: 0; color: var(--willo-soft); }
+.dl-willo-text strong { display: block; font-family: var(--heading); color: #dfe8ff; font-size: 1.15rem; }
+.dl-willo-go { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.btn-willo { background: linear-gradient(180deg, #3a5fe0 0%, #22389e 55%, #16267a 100%); border-color: #9fc0ff; color: #fff; white-space: nowrap; }
+.btn-willo:hover { background: linear-gradient(180deg, #4d70f0 0%, #2a44b4 55%, #1b2f8f 100%); color: #fff; }
+.dl-willo-more { color: var(--willo); font-size: 0.95rem; }
+@media (max-width: 560px) { .dl-willo-go { flex: 1 1 100%; } .dl-willo-go .btn-willo { align-self: stretch; text-align: center; } }
 .willo-card { display: flex; gap: 16px; align-items: center; margin: 22px 0 6px; padding: 14px 18px; border: 1px solid var(--willo-line);
   border-radius: 8px; background: var(--willo-bg); color: var(--willo-soft); text-decoration: none; }
 .willo-card:hover { border-color: var(--willo); color: #fff; }
@@ -1652,6 +1666,20 @@ main:has(.pf-visitor) .pf-ch, main:has(.pf-visitor) .pf-chx { scroll-margin-top:
 .wl-step-n { display: block; font-family: var(--heading); color: var(--willo); font-size: 1.6rem; line-height: 1.2; }
 .shot-placeholder { display: flex; align-items: center; justify-content: center; aspect-ratio: 16 / 9; margin: 0 0 8px; padding: 12px;
   border: 1px dashed var(--willo-line); border-radius: 6px; color: var(--muted); font-size: 0.85rem; text-align: center; }
+.wl-shot { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; margin: 0 0 8px;
+  border: 1px solid var(--willo-line); border-radius: 6px; background: #000; }
+.wl-player { display: flex; flex-direction: column; gap: 14px; }
+.wl-stage { border: 1px solid var(--willo-line); border-radius: 10px; overflow: hidden; background: #000; }
+.wl-stage .wl-shot { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; margin: 0; border: 0; border-radius: 0; }
+.wl-stage [hidden] { display: none !important; }
+.wl-stage-cap { margin: 0; color: var(--willo-soft); }
+.wl-picks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.wl-pick { display: block; width: 100%; padding: 8px; border: 2px solid var(--panel-line); border-radius: 8px; background: var(--panel); color: var(--text); font: inherit; text-align: left; cursor: pointer; }
+.wl-pick[aria-pressed="true"] { border-color: var(--gold); }
+.wl-pick:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.wl-pick img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 4px; }
+.wl-pick span { display: block; padding: 8px 2px 2px; font-family: var(--heading); font-size: 1rem; }
+@media (max-width: 560px) { .wl-picks { gap: 8px; } .wl-pick { padding: 5px; } .wl-pick span { font-size: 0.8rem; } }
 .wl-voice { display: flex; flex-direction: column; gap: 6px; }
 .wl-voice audio { width: 100%; }
 .wl-voice small { color: var(--muted); }
@@ -1679,8 +1707,78 @@ main:has(.pf-visitor) .pf-ch, main:has(.pf-visitor) .pf-chx { scroll-margin-top:
 .dl-step-willo h2 { color: #dfe8ff; }
 .dl-step p { margin: 0; }
 @media (max-width: 560px) { .willo-card { align-items: flex-start; } .willo-card img { width: 56px; height: 56px; } }
-.home-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 14px; margin: 22px 0 6px; }
-.home-cards .willo-card { margin: 0; }
+/* Home hero, "Watch first" (2026-10-15): Willo's clip on the left with its three clip buttons under it; on the right
+   Willo's download, then the add-on's. Phones stack the clip edge to edge, then Willo, then the add-on, then the clip
+   buttons. Under the hero: the author card, the community's voices and CurseForge in a row. */
+.hw-grid { position: relative; display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(300px, 1fr); grid-template-areas: ". side" "stage side" "clips side" ". side";
+  grid-template-rows: 1fr auto auto 1fr; gap: 12px 30px; align-items: start; padding-top: 30px; padding-bottom: 30px; }
+.hw-stage { grid-area: stage; position: relative; overflow: hidden; border: 1px solid var(--willo-line); border-radius: 12px;
+  background: #000; box-shadow: 0 18px 50px #000c, 0 0 40px #4f6fe833; }
+.hw-stage video, .hw-still { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; background: #000; }
+.hw-stage [hidden] { display: none !important; }
+.hw-sound { position: absolute; left: 12px; bottom: 12px; display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px;
+  border: 1px solid #ffffff66; border-radius: 20px; background: #000000b8; color: #fff; cursor: pointer;
+  font: 600 0.9rem system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.hw-sound svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.hw-sound:hover { background: #16224f; border-color: var(--willo); }
+.hw-clips { grid-area: clips; min-width: 0; }
+.hw-picks { display: flex; flex-wrap: wrap; gap: 8px; }
+.hw-pick { min-height: 36px; padding: 6px 14px; border: 1px solid var(--panel-line); border-radius: 18px; background: var(--willo-bg);
+  color: var(--willo-soft); cursor: pointer; font: 600 0.9rem system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.hw-pick:hover { border-color: var(--willo); color: #fff; }
+.hw-pick[aria-pressed="true"] { border-color: var(--willo); background: #16224f; color: #fff; }
+.hw-pick:focus-visible, .hw-sound:focus-visible, .hw-phone button:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.hw-cap { margin: 8px 0 0; color: var(--willo-soft); text-shadow: 0 1px 2px #000; }
+.hw-side { grid-area: side; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.hw-willo { display: flex; flex-direction: column; gap: 10px; padding: 18px 20px; border: 1px solid var(--willo-line); border-radius: 10px;
+  background: radial-gradient(circle at 90% 10%, #2a3fa055, transparent 55%), rgba(11, 16, 36, 0.95); color: var(--willo-soft); }
+.hw-willo p { margin: 0; }
+.hw-willo-head { display: flex; align-items: center; gap: 12px; }
+.hw-wisp { flex: none; width: 58px; height: 58px; filter: drop-shadow(0 0 14px #5f8dff55); animation: hw-float 6s ease-in-out infinite; }
+@keyframes hw-float { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-6px) scale(1.04); } }
+@media (prefers-reduced-motion: reduce) { .hw-wisp { animation: none; } }
+.hw-new { display: inline-block; padding: 1px 8px; border-radius: 3px; background: var(--willo); color: var(--willo-bg);
+  font: 700 0.7rem/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; letter-spacing: 0.08em; text-transform: uppercase; }
+.hw-title { margin: 2px 0 0; font: 700 2.1rem/1.1 var(--heading); letter-spacing: 0.02em; color: #dfe8ff; text-shadow: 0 2px 0 #000, 0 0 20px #5f8dff55; }
+.hw-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; text-align: center; }
+.hw-btn img { width: 30px; height: 30px; margin: -6px 0 -6px -6px; }
+.hw-meta { color: var(--willo-soft); font-size: 0.92rem; }
+.hw-meta strong { color: #fff; font-variant-numeric: tabular-nums; }
+.hw-meta a { color: var(--willo); }
+.hw-phone { display: none; padding: 7px 10px; border: 1px dashed var(--willo-line); border-radius: 6px; font-size: 0.86rem; }
+.hw-phone button { margin: 2px 0 0; padding: 4px 10px; border: 1px solid var(--willo); border-radius: 4px; background: none; color: var(--willo);
+  cursor: pointer; font: 600 0.85rem system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.hw-phone code { color: #fff; }
+@media (hover: none) and (pointer: coarse) { .hw-phone { display: block; } }
+.hw-addon { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px 12px; align-items: center; padding: 16px 18px;
+  border: 1px solid #c9a24b; border-radius: 10px; background: rgba(20, 15, 9, 0.95); }
+.hw-addon > img { width: 46px; height: 46px; }
+.hw-addon-text { min-width: 0; }
+.hw-addon h1 { font-size: 1.35rem; line-height: 1.2; text-shadow: 0 2px 0 #000; }
+.hw-addon h1 .subtitle { display: block; margin-top: 2px; font-size: 0.82rem; color: var(--gold-soft); }
+.hw-addon-pitch { margin: 6px 0 0; font-size: 0.95rem; }
+.hw-addon .stats { grid-column: 1 / -1; gap: 2px 14px; font-size: 0.88rem; }
+.hw-addon-go { grid-column: 1 / -1; display: flex; flex-direction: column; align-items: flex-start; gap: 6px; margin-top: 4px; }
+.hw-addon-go .btn-download { padding: 12px 24px; font-size: 1.05rem; }
+.hw-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 14px; margin: 22px 0 6px; }
+.hw-row .willo-card { margin: 0; }
+.hw-cf { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 8px; padding: 14px 18px;
+  border: 1px solid var(--line); border-radius: 8px; background: #0d0b09cc; }
+@media (max-width: 860px) {
+  .hw-grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "stage" "side" "clips"; grid-template-rows: auto; gap: 14px; padding: 0 0 24px; }
+  .hw-stage { border-radius: 0; border-width: 0 0 1px; }
+  .hw-side, .hw-clips { padding: 0 16px; }
+  .hw-sound { left: auto; right: 10px; bottom: 10px; }
+  .hw-addon-pitch { display: none; }   /* the title says it on phones; the clip and Willo come first */
+}
+@media (max-width: 600px) {
+  .hw-willo { gap: 8px; padding: 14px 16px; }
+  .hw-pitch { display: none; }   /* the clip and its caption say it on phones */
+  .hw-wisp { width: 44px; height: 44px; }
+  .hw-title { font-size: 1.6rem; }
+  .hw-btn, .hw-addon-go .btn-download { align-self: stretch; }
+  .hw-addon { padding: 14px 16px; }
+}
 .voices-card { border-color: #c9a24b; background: #14100b; color: var(--text); }
 .voices-card strong { color: var(--parchment); }
 .voices-card-icon { flex: none; width: 56px; height: 56px; fill: none; stroke: var(--gold-soft); stroke-width: 1.6; stroke-linecap: round; }
@@ -1692,3 +1790,167 @@ main:has(.pf-visitor) .pf-ch, main:has(.pf-visitor) .pf-chx { scroll-margin-top:
 .cm-card .cm-by { flex: 1 0 100%; margin: 0; font-family: var(--heading); color: var(--parchment); font-size: 1.1rem; }
 .cm-card .cm-what { flex: 1 0 100%; margin: 0 0 4px; color: var(--muted); font-size: 0.9rem; }
 .wl-plans-line { margin: 18px 0 0; font-size: 1.05rem; }
+
+/* The book and the wisp: the look of the 2026-10-15 revamp (Mike's pick, direction B; Patrick's two products,
+   LOR-466). The add-on is the book, in candle gold; Willo is the wisp, in night blue. A page opts in with body class
+   "bw" (gold: the home page, /downloads) or "bw wisp" (blue: Willo's pages, /willo and /plans), and loads Alegreya Sans
+   for the text with Cinzel only for headings. Inside a page, tone-b or tone-w gives one block the other product's
+   colours (Willo's step on /downloads). What the pages share is here: the colours, the type, one button shape with
+   three fills (gold for the add-on, blue for Willo, outline for the rest), pills, one card, the night-sky hero, the
+   audio players (js/players.js) and the column footer with the email sign-up (js/foot.js). The older buttons that
+   scripts and lib/ still write (btn-download, btn-small and their -alt) take the same shape here, in the page's colour.
+   Each page's own layout is in home.css, willo.css (/willo and /plans) and downloads.css. Classes are h-* and colours
+   --h-*, so the header's --gold stays the game's UI gold. Element rules sit in :where() so a page's own classes win. */
+.bw {
+  --h-night: #0a0c13; --h-night-2: #0e111b; --h-panel: #131725; --h-panel-2: #181d2d;
+  --h-line: #262c40; --h-line-soft: #1c2131;
+  --h-text: #ece4d0; --h-text-2: #bdb5a2; --h-muted: #8f8977;
+  --h-gold: #e3b55c; --h-gold-hi: #f4d590; --h-gold-deep: #8a5e18; --h-gold-wash: #e3b55c14;
+  --h-wisp: #93b6ff; --h-wisp-hi: #d4e3ff; --h-wisp-wash: #6f8fff14;
+  --h-fresh: #8fd9ad;
+  --h-display: "Cinzel", Georgia, "Times New Roman", serif;
+  --h-body: "Alegreya Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --h-r: 14px; --h-r-sm: 10px;
+  background: var(--h-night);
+}
+/* The accent: the book's gold, or the wisp's blue. */
+.bw, .bw .tone-b {
+  --h-acc: var(--h-gold); --h-acc-hi: var(--h-gold-hi); --h-acc-wash: var(--h-gold-wash); --h-acc-rim: #e3b55c77;
+  --h-acc-line: #e3b55c26; --h-acc-edge: #e3b55c4d; --h-acc-panel: #15120c; --h-link: var(--h-gold-hi);
+  --h-acc-text: linear-gradient(180deg, #fbe7b4, #d9a34a 80%);
+  --h-fill: linear-gradient(180deg, #f3cf7c, #c8913a); --h-fill-ink: #1d1306; --h-fill-rim: #ffe3a6aa;
+  --h-fill-glow: 0 10px 28px -12px #e3b55caa, inset 0 1px 0 #ffffff66;
+}
+.bw.wisp, .bw .tone-w {
+  --h-acc: var(--h-wisp); --h-acc-hi: var(--h-wisp-hi); --h-acc-wash: var(--h-wisp-wash); --h-acc-rim: #93b6ff77;
+  --h-acc-line: #93b6ff2a; --h-acc-edge: #93b6ff4d; --h-acc-panel: #0f1530; --h-link: #b9cdff;
+  --h-acc-text: linear-gradient(180deg, #f1f6ff, #8fb0ff 85%);
+  --h-fill: linear-gradient(180deg, #5571f5, #2c46c6); --h-fill-ink: #fff; --h-fill-rim: #8ea6ff66;
+  --h-fill-glow: 0 10px 28px -10px #3a5cf0, inset 0 1px 0 #ffffff38;
+}
+.bw [hidden] { display: none !important; }   /* the rules below set display on images, pills and lists */
+:where(.bw) main, .h-foot { font: 400 18px/1.6 var(--h-body); color: var(--h-text); }
+:where(.bw main, .h-foot) a { color: var(--h-link); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+:where(.bw main, .h-foot) a:hover { color: #fff; }
+:where(.bw main, .h-foot) :focus-visible { outline: 2px solid var(--h-acc-hi); outline-offset: 3px; border-radius: 4px; }
+:where(.bw main) :is(h1, h2, h3) { text-wrap: balance; text-shadow: none; }
+:where(.bw main) :is(h1, h2) { font-family: var(--h-display); font-weight: 600; letter-spacing: 0.01em; line-height: 1.12; }
+:where(.bw main) code { background: #00000066; }
+.h-wrap { width: 100%; max-width: 1100px; margin-inline: auto; padding-inline: 16px; }
+.h-eyebrow { font: 700 0.74rem/1.2 var(--h-body); letter-spacing: 0.16em; text-transform: uppercase; color: var(--h-muted); }
+.h-eyebrow.b { color: var(--h-gold); } .h-eyebrow.w { color: var(--h-wisp); }
+.h-lede { font-size: 1.15rem; line-height: 1.55; color: var(--h-text-2); max-width: 60ch; }
+.h-muted { color: var(--h-muted); }
+.h-vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* A page's title block in the hero (eyebrow, title, lede), and a section's heading. */
+.h-head { display: grid; gap: 10px; }
+.bw main .h-head h1 { margin: 0; font-size: clamp(2.4rem, 5vw, 3.6rem); color: var(--h-acc-hi); text-shadow: none;
+  background: var(--h-acc-text); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.h-sec { padding-block: 56px; }
+.bw main .h-h2 { margin: 0 0 18px; font-size: clamp(1.6rem, 3vw, 2.2rem); color: var(--h-acc-hi); }
+.bw main .h-h3 { margin: 0 0 12px; font: 600 1.25rem/1.25 var(--h-display); color: var(--h-text); }
+
+/* Buttons: one shape, three fills (gold for the book, blue for the wisp, outline for the rest). */
+.h-btn, .bw main .btn-download, .bw main .btn-small { display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 52px; padding: 0 24px; border-radius: var(--h-r-sm); border: 1px solid transparent; font: 700 1.05rem/1.1 var(--h-body);
+  letter-spacing: 0.01em; text-align: center; text-decoration: none; text-shadow: none; cursor: pointer; transition: transform .15s ease, filter .2s ease; }
+.bw main a.h-btn, .h-foot .h-btn { text-decoration: none; }
+.h-btn:hover, .bw main .btn-download:hover, .bw main .btn-small:hover { transform: translateY(-1px); filter: brightness(1.06); }
+.h-btn img { width: 26px; height: 26px; }
+.bw main a.h-willo-btn, .h-willo-btn { color: #fff; background: linear-gradient(180deg, #5571f5, #2c46c6); border-color: #8ea6ff66;
+  box-shadow: 0 10px 28px -10px #3a5cf0, inset 0 1px 0 #ffffff38; }
+.bw main a.h-book-btn, .h-book-btn { color: #1d1306; background: linear-gradient(180deg, #f3cf7c, #c8913a); border-color: #ffe3a6aa;
+  box-shadow: 0 10px 28px -12px #e3b55caa, inset 0 1px 0 #ffffff66; }
+.bw main .btn-download, .bw main .btn-small, .bw main .btn-download:hover, .bw main .btn-small:hover {
+  color: var(--h-fill-ink); background: var(--h-fill); border-color: var(--h-fill-rim); box-shadow: var(--h-fill-glow); }
+.bw main a.h-ghost, .h-foot .h-ghost, .h-ghost, .bw main .btn-download-alt, .bw main .btn-small-alt,
+.bw main .btn-download-alt:hover, .bw main .btn-small-alt:hover { color: var(--h-text); background: transparent; border-color: var(--h-line); box-shadow: none; }
+.h-ghost:hover, .bw main .btn-download-alt:hover, .bw main .btn-small-alt:hover { border-color: var(--h-text-2); }
+.h-sm, .bw main .btn-small { min-height: 40px; padding: 0 16px; font-size: 0.95rem; }
+.bw main .btn-small:disabled, .bw main .btn-download:disabled { opacity: 0.6; cursor: wait; transform: none; filter: none; }
+.h-meta { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 0; padding: 0; list-style: none; color: var(--h-muted); font-size: 0.92rem; }
+.h-meta > li + li::before { content: "\00B7"; margin-right: 12px; color: var(--h-line); }
+.h-meta > li[hidden] + li::before { content: none; margin: 0; }
+.h-meta strong { color: var(--h-text); font-weight: 700; font-variant-numeric: tabular-nums; }
+.bw main .h-meta a { color: var(--h-text-2); }
+.h-pill { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px; border: 1px solid;
+  font: 700 0.72rem/1.4 var(--h-body); letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; }
+.h-pill.b { color: var(--h-gold); border-color: #e3b55c55; background: var(--h-gold-wash); }
+.h-pill.w { color: var(--h-wisp); border-color: #93b6ff55; background: var(--h-wisp-wash); }
+.h-pill.f { color: var(--h-fresh); border-color: #8fd9ad44; background: #8fd9ad10; }
+.h-pill.p { color: var(--h-text-2); border-color: var(--h-line); }
+
+/* One card: a panel in the page's colour. */
+.h-card { min-width: 0; padding: 22px; border: 1px solid var(--h-acc-line); border-radius: var(--h-r); background: var(--h-acc-panel); }
+
+/* The night sky: a few stars drawn in CSS, twinkling slowly; still with reduced motion. h-sky-w is Willo's bluer one. */
+.h-sky { position: relative; isolation: isolate; }
+.h-sky::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(1.2px 1.2px at 12% 18%, #fff9 50%, transparent 51%), radial-gradient(1px 1px at 27% 62%, #fff7 50%, transparent 51%),
+    radial-gradient(1.4px 1.4px at 41% 12%, #d4e3ffcc 50%, transparent 51%), radial-gradient(1px 1px at 58% 44%, #fff6 50%, transparent 51%),
+    radial-gradient(1.2px 1.2px at 73% 22%, #fff8 50%, transparent 51%), radial-gradient(1px 1px at 86% 70%, #d4e3ff99 50%, transparent 51%),
+    radial-gradient(1.6px 1.6px at 93% 10%, #fffb 50%, transparent 51%), radial-gradient(1px 1px at 6% 84%, #fff6 50%, transparent 51%),
+    radial-gradient(1px 1px at 34% 88%, #fff5 50%, transparent 51%), radial-gradient(1.3px 1.3px at 65% 90%, #d4e3ffaa 50%, transparent 51%),
+    radial-gradient(1px 1px at 50% 28%, #fff5 50%, transparent 51%), radial-gradient(1px 1px at 19% 40%, #fff5 50%, transparent 51%),
+    radial-gradient(1px 1px at 79% 52%, #fff5 50%, transparent 51%), radial-gradient(1.2px 1.2px at 97% 46%, #fff7 50%, transparent 51%);
+  background-size: 640px 420px; animation: h-twinkle 9s ease-in-out infinite alternate; }
+.h-sky::after { content: ""; position: absolute; inset: 0; z-index: -2; pointer-events: none;
+  background: radial-gradient(1200px 520px at 18% -10%, #2a3a8a55, transparent 70%),
+              radial-gradient(900px 480px at 92% 10%, #6b4a1a40, transparent 70%),
+              linear-gradient(180deg, #0c1020, var(--h-night) 78%); }
+.h-sky-w::after { background: radial-gradient(1200px 560px at 22% -10%, #2a3a8a77, transparent 70%),
+                              radial-gradient(800px 460px at 90% 20%, #3150d833, transparent 70%),
+                              linear-gradient(180deg, #0c1124, var(--h-night) 82%); }
+@keyframes h-twinkle { from { opacity: 0.55; } to { opacity: 1; } }
+.h-hero { padding-block: 48px 40px; }
+
+/* Players: narrations and voices, one plays at a time (js/players.js). The button alone, or in a track with its line. */
+.h-play { display: grid; place-items: center; flex: none; width: 48px; height: 48px; padding: 0; border-radius: 50%; border: 1px solid var(--h-acc-rim);
+  background: var(--h-acc-wash); color: var(--h-acc-hi); cursor: pointer; }
+.h-play svg { width: 18px; height: 18px; fill: currentColor; }
+.h-play.w { border-color: #93b6ff77; background: var(--h-wisp-wash); color: var(--h-wisp-hi); }
+.h-play .ic-pause { display: none; } .h-play[aria-pressed="true"] .ic-play { display: none; } .h-play[aria-pressed="true"] .ic-pause { display: block; }
+.h-track { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 2px 14px; align-items: center; padding: 16px 18px;
+  border: 1px solid var(--h-acc-line); border-radius: var(--h-r); background: var(--h-acc-panel); }
+.h-track .h-play { grid-row: span 2; }
+.h-track b { font: 600 1.02rem/1.25 var(--h-display); color: var(--h-acc-hi); }
+.h-track span { color: var(--h-muted); font-size: 0.9rem; }
+.h-track .h-bar { grid-column: 1 / -1; height: 3px; margin-top: 10px; border-radius: 3px; background: var(--h-line); overflow: hidden; }
+.h-track .h-bar i { display: block; width: 0; height: 100%; background: var(--h-acc); transition: width .25s linear; }
+
+/* Footer: the email sign-up, then a column per part of the site, then the fine print. */
+.h-foot { border-top: 1px solid var(--h-line-soft); background: #08090f; padding-block: 56px 40px; }
+.h-foot-lead { margin: 0 0 32px; padding-bottom: 24px; border-bottom: 1px solid var(--h-line-soft); color: var(--h-text-2); }
+.h-foot-grid { display: grid; grid-template-columns: 1.4fr repeat(4, minmax(0, 1fr)); gap: 28px; }
+.h-foot h2 { margin: 0 0 10px; font: 700 0.74rem/1.2 var(--h-body); letter-spacing: 0.16em; text-transform: uppercase; color: var(--h-muted); border: 0; padding: 0; text-shadow: none; }
+.h-foot ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.bw .h-foot ul a { color: var(--h-text-2); text-decoration: none; font-size: 0.98rem; }
+.bw .h-foot ul a:hover { color: var(--h-text); }
+.h-sign { display: grid; gap: 10px; align-content: start; }
+.h-sign .h-brand { display: flex; align-items: center; gap: 10px; color: var(--h-gold-hi); font: 700 1.12rem/1 var(--h-display); }
+.h-sign .h-brand img { width: 30px; height: 30px; }
+.h-sign p { margin: 0; color: var(--h-text-2); font-size: 0.98rem; }
+.h-sub-form { display: flex; flex-wrap: wrap; gap: 8px; }
+.h-sub-form input[type="email"] { flex: 1 1 180px; min-width: 0; height: 42px; padding: 0 12px; border-radius: var(--h-r-sm); border: 1px solid var(--h-line); background: var(--h-night); color: var(--h-text); font: 400 1rem var(--h-body); }
+.h-sub-form .signup-note { flex: 1 1 100%; color: var(--h-fresh); }
+.h-legal { margin-top: 36px; padding-top: 20px; border-top: 1px solid var(--h-line-soft); display: grid; gap: 6px; color: var(--h-muted); font-size: 0.86rem; }
+.h-legal p { margin: 0; }
+.bw .h-foot .h-legal a { color: var(--h-muted); }   /* over a page's own footer link colour */
+
+@media (prefers-reduced-motion: reduce) {
+  .h-sky::before { animation: none; }
+  .h-btn, .bw main .btn-download, .bw main .btn-small { transition: none; }
+}
+@media (max-width: 1020px) {
+  .h-foot-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .h-foot-grid .h-sign { grid-column: 1 / -1; }
+}
+@media (max-width: 760px) {
+  :where(.bw) main, .h-foot { font-size: 17px; }
+  .h-hero { padding-block: 28px; }
+  .h-sec { padding-block: 40px; }
+  .h-btn, .bw main .btn-download { min-height: 54px; }
+  .h-lede { font-size: 1.06rem; }
+}

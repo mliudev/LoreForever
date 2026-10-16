@@ -273,11 +273,14 @@ test("Willo's tips in the voice its replies get, costing what a reply would but 
   assert.equal(await userSpend(env, user.id, new Date(), { total: true }), 15 * tip.length);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM voice_replies WHERE user_id = ?").get(user.id).n, 0);
   assert.equal((await voice()).bestLeft, LEGEND_BEST_PER_MONTH);
+  // The add-on's short answer read aloud (LOR-547) is a line too, but never in the finest voice: the studio one.
+  const read = await speak({ text: tip, line: true, reading: true, pick: "moonwell" });
+  assert.deepEqual([read.status, read.voice, calls.at(-1).provider], [200, "studio:moonwell", "deepinfra"]);
   // It steps down with the replies: no room for a whole finest reply, the studio voice; none for a studio one, the PC.
   const net = PLANS.legend.totalCapMicro;
   spent(9_000_000, net - 9_000_000 - 5_000);
   assert.deepEqual([(await speak({ text: tip, line: true })).voice, calls.at(-1).provider], ["studio:sprite", "deepinfra"]);
   spent(9_000_000, net - 9_000_000 - 500);
   const out = await speak({ text: tip, line: true });
-  assert.deepEqual([out.status, out.body.reason, calls.length], [402, "spent", 2]);
+  assert.deepEqual([out.status, out.body.reason, calls.length], [402, "spent", 3]);
 });

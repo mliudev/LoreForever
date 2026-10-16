@@ -328,8 +328,8 @@ function H.StatusText()
   local s = H.Status()
   if not s then return nil end
   if s.pending > 0 then
-    return string.format(ns.L["History: %d items waiting for companion (~%.1f MB). /reload saves new play."],
-      s.pending, s.bytesEstimate / 1048576)
+    return string.format(ns.L["History: %d items waiting for %s (~%.1f MB). /reload saves new play."],
+      s.pending, ns.COMPANION_NAME, s.bytesEstimate / 1048576)
   end
   return ns.L["History archived on this PC. /reload saves new play."]
 end

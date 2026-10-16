@@ -136,6 +136,8 @@ function choiceRow(v, group, likes, languageAnchor = "") {
     : `${group.clips ? group.clips.toLocaleString("en-US") + " available recordings." : "Recording count unavailable."} Other entries remain readable as text.`;
   const requirements = edition ? `<p>Requires the matching Lore Forever core${versionTag(edition.coreVersion) ? ` (${escape(edition.coreVersion)})` : ""} with contributor edition support.${formatSize(edition.installedSize) ? ` Installed size: ${formatSize(edition.installedSize)}.` : ""} Includes both text and narration in one manual ZIP.</p>` : "";
   const questDialogue = group.extra && /_Quests(?:_|$)/.test(group.files[0].item.addon || "");
+  // Character voices aren't this narrator's voice, so they don't link to the narrator's page.
+  const characterVoices = group.extra && /_QuestGivers$/.test(group.files[0].item.addon || "");
   const name = questDialogue
     ? `Quest dialogue (${narrator})` : group.extra ? group.files[0].name : narrator;
   const assets = group.downloads.map(f => assetRef(f.item.download) || assetRef(f.href));
@@ -147,7 +149,7 @@ function choiceRow(v, group, likes, languageAnchor = "") {
     <p>
     <a class="btn-small dl-get" data-preferred-link>Get one manual ZIP</a>
     </p>
-    <p>Includes all available ${group.extra ? "recordings" : "stories and answers"} in this choice${group.translation ? " and the matching translated text" : ""}.</p>
+    <p>Includes all available ${group.extra ? "recordings" : "stories"} in this choice${group.translation ? " and the matching translated text" : ""}.</p>
     </div>
     <div class="dl-fallback">
     <h4 class="dl-fallback-title">Manual download${group.downloads.length > 1 ? "s" : ""}</h4>${group.downloads.length > 1 ? `<p class="dl-fallback-note">Install all ${group.downloads.length} ZIPs for this choice. The table shows their total compressed download size.</p>` : ""}<ul class="dl-files">${group.downloads.map(f => fileLink(f, f.id !== group.id)).join("")}</ul>
@@ -172,7 +174,7 @@ function choiceRow(v, group, likes, languageAnchor = "") {
     </td>
     <td data-label="Voice">
     <div class="dl-voice-head">${group.language === (v.language || "English") && !group.extra ? playButton(v) : ""}<div>
-    <a class="dl-narrator" href="/voices/${escape(v.id)}">${escape(name)}</a>
+    ${characterVoices ? `<span class="dl-narrator">${escape(name)}</span>` : `<a class="dl-narrator" href="/voices/${escape(v.id)}">${escape(name)}</a>`}
     <small class="dl-sub">by ${escape(v.contributor?.name || v.credit || "Community narrator")}</small>
     </div>
     </div>

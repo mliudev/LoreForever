@@ -3,7 +3,8 @@
 //
 // Files live in R2 (binding STUDIO, bucket lore-forever-voices) at studio/<user id>/<voice id>/<file stem>.<ext>;
 // D1 keeps one studio_takes row per file (tables in lib/accounts.js SETUP, so "Delete my account" removes them).
-// A voice is a row of the accounts `voices` table with a locale: 'draft' until it's sent, then 'pending'.
+// A voice is a row of the accounts `voices` table with a locale: 'draft' until it's sent, then 'pending' (also once
+// published; the page reads that from voices.json).
 // The lines come from public/voices/lines.json (pipeline: voicepack clips). Each take stores the hash of the text it
 // was recorded against, so a line whose text changes afterwards shows as "text changed" and the pack build skips it.
 

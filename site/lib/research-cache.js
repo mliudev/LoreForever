@@ -111,12 +111,37 @@ const PRACTICAL = new RegExp([
   String.raw`\bwhere\b.*\b(?:find|buy|get|learn|train)\b|\bwhere (?:do|can|should|would) (?:i|we) go\b`,
   String.raw`\b(?:used?|good) for\b|\bwhat can i do with\b|\bhow (?:do|can|would) i (?:get|find|reach|learn|unlock|make)\b`,
   String.raw`\b${PROFESSION}\b.*\b(?:quests?|skill(?:s|ing)?|train(?:er|ing)?s?|level(?:l)?ing|level up|work|benefits?|worth|recipes?)\b`,
+  // How long leveling takes in Forever (LOR-545).
+  String.raw`\bhow (?:long|many hours|many days)\b.*\blevel\b`,
   // Current: what changed in a patch.
   String.raw`\b(?:patch(?:es)?|hotfix(?:es)?|nerf(?:s|ed)?|buffed)\b|\bwhat(?:'s| has| have)? changed\b|\b(?:latest|recent) (?:update|changes?|news)\b`,
 ].join("|"), "i");
+// The player's own world (LOR-545): their computer, the game's performance, settings and addons, prices and release
+// dates, server trouble and the weather somewhere named. Card models and prices go stale, so these look online too,
+// typed or spoken, with a look-up of their own (companion-answers.js lookUp). No "ram" alone (a dwarf's mount), no
+// "news" (from the front), and nothing about Willo herself: her own help answers that (lib/willo-help.js).
+const REAL_WORLD = new RegExp([
+  String.raw`\b(?:graphics ?cards?|video ?cards?|gpus?|cpus?|processors?|rtx|gtx|radeon|geforce|nvidia|ryzen|laptops?|desktops?|computers?|pc|monitors?|ssds?|hard drives?|specs|system requirements)\b`,
+  String.raw`\b(?:\d+ ?gb|more|much) (?:of )?(?:ram|memory)\b`,
+  String.raw`\b(?:fps|frame ?rates?|lag(?:s|gy|ging)?|stutter(?:s|ing)?|latency|ping|performance|crash(?:es|ing)?|(?:graphics|video|display) settings)\b`,
+  String.raw`\b(?:addons?|add-ons?|weakauras?|macros?)\b`,
+  String.raw`\b(?:prices?|how much (?:is|are|does|do)|on sale|release date|com(?:e|es|ing) out)\b`,
+  String.raw`\b(?:servers?|realms?) (?:are |is )?(?:down|up|status|maintenance)\b|\bmaintenance\b`,
+  String.raw`\bweather\b.*\b(?:in|at|for)\s+(?!my\b|me\b|here\b|the game\b)[a-z]`,
+].join("|"), "i");
+// A short follow-up to one is one too ("under $1,000?" after a laptop, or the town after "what's the weather like?",
+// which isn't looked up without one), but not thanks.
+const OWN_WEATHER = /\b(?:weather|forecast)\b/i;
+const THANKS = /^\W*(?:thanks?|thank you|ty|ok(?:ay)?|cool|nice|great|got it|awesome|cheers|perfect)\b/i;
+export function realWorld(question, previous = "") {
+  const q = String(question || "").replace(/’/g, "'"), before = String(previous || "").replace(/’/g, "'");
+  if (REAL_WORLD.test(q)) return true;
+  return Boolean(before) && q.split(/\s+/).filter(Boolean).length <= 6 && !THANKS.test(q) &&
+    (REAL_WORLD.test(before) || OWN_WEATHER.test(before));
+}
 export function wantsSearch(question, dispute, facts) {
   if ((facts || []).some(f => f.asked)) return false;
   const q = String(question || "").replace(/’/g, "'");
   if (HERE_AND_NOW.test(q)) return false;
-  return dispute === "correction" || ASKS_SEARCH.test(q) || PRACTICAL.test(q);
+  return dispute === "correction" || ASKS_SEARCH.test(q) || PRACTICAL.test(q) || REAL_WORLD.test(q);
 }

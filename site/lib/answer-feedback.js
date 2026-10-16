@@ -28,15 +28,29 @@ export const FEEDBACK_STATUSES = ["new", "checked", "fact", "dismissed"];
 const CORRECTION = new RegExp([
   String.raw`\b(?:you(?:'re| are)|that(?:'s| is| was)|it(?:'s| is| was)|this(?:'s| is)|you(?:'ve| have) got (?:it|that)) (?:wrong|not right|incorrect|outdated|mistaken)\b`,
   String.raw`\b(?:make|take) a note\b`, String.raw`\bthat(?:'s| is) not (?:true|how it is|what|where|right)\b`,
+  String.raw`^\W*(?:wrong|not true|not right)\s*[,.!]`,
 ].join("|"), "i");
-// ...and a statement (not a question) that disagrees: "I'm pretty sure that's Dalaran", "No, this boat goes to
-// Southshore", "Actually it's rebuilt", "But I can choose undead paladin in WoW Forever".
+// ...and a statement (not a question) that disagrees: "I'm pretty sure that's Dalaran", "Actually it's rebuilt",
+// "But I can choose undead paladin in WoW Forever".
 const DISAGREES = new RegExp([
   String.raw`\bi(?:'m| am) (?:pretty |quite |fairly |very )?(?:sure|certain|positive) (?:that|it|this|they|there)\b`,
-  String.raw`^\W*(?:no|nope|wrong)\s*[,.!]`, String.raw`^\W*no,? (?:it|that|this|they|there|the)\b`,
   String.raw`^\W*actually,? (?:it|that|this|there|they)(?:'s| is| was| are| goes| sails)\b`,
   String.raw`\b(?:can|is|are|has|have|goes|does|do)\b.*\bin (?:wow )?forever\b`,
 ].join("|"), "i");
+// A "no" only disputes when it goes on to say how it is: "No, this boat goes to Southshore", "Nope, Thrall is
+// warchief". A bare "no", a "no" answering something the companion asked, or a polite one ("nope, not yet, thank
+// you", "no thanks, that's all") is just chat (nightly review, 10/15); after a question it needs an "actually".
+const NO = /^\W*(?:no|nope)\b[\s,.!]*/i;
+const NO_CLAIM = new RegExp([
+  String.raw`^(?:it|that|this|they|there|the|he|she)\b`,
+  String.raw`\b(?:actually|is|are|was|were|isn't|aren't|wasn't|weren't)\b`,
+].join("|"), "i");
+const POLITE = /\b(?:thanks?|thank you|thx|ty|not (?:yet|now|really|today)|i'?m (?:good|fine|ok|okay|set|all set)|that'?s (?:all|ok|okay|fine|it|alright)|all good|no worries|maybe later)\b/i;
+function disputingNo(text, previous) {
+  const rest = text.match(NO) ? text.replace(NO, "") : null;
+  if (!rest || POLITE.test(rest) || !NO_CLAIM.test(rest)) return false;
+  return !/\?\W*$/.test(previous) || /\bactually\b/i.test(rest);
+}
 // A player losing patience with the answers: said at the answers or at the companion, not about an item or a place.
 const FRUSTRATION = new RegExp([
   String.raw`\b(?:you(?:'re| are)|that(?:'s| is| was)|this is|your answers?(?: (?:are|is))?) (?:so |just |really )?(?:useless|worthless|pointless|nonsense|rubbish|garbage|not (?:helping|helpful|listening)|no help|stupid|dumb|making (?:things|stuff|it) up)\b`,
@@ -51,7 +65,8 @@ export function feedbackKind(said, previous = "") {
   const text = plain(said);
   if (!text || !plain(previous)) return null;
   if (FRUSTRATION.test(text)) return "frustration";
-  if (CORRECTION.test(text) || (!text.endsWith("?") && DISAGREES.test(text))) return "correction";
+  if (CORRECTION.test(text) || (!text.endsWith("?") && (DISAGREES.test(text) || disputingNo(text, plain(previous)))))
+    return "correction";
   return null;
 }
 

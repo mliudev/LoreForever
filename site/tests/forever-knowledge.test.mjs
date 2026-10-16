@@ -153,6 +153,20 @@ test("feedbackKind tells corrections and frustration after an answer from ordina
   assert.equal(feedbackKind("You're wrong about that.", ""), null, "nothing answered yet");
 });
 
+test("feedbackKind leaves a plain no or a polite decline alone (nightly review, 10/15)", () => {
+  const offered = "Refuge Pointe has an inn and a flight master. Have you found the flight master yet?";
+  const answered = "Hammerfall has a mailbox by the inn.";
+  for (const previous of [offered, answered]) {
+    for (const said of ["nope, not yet, thank you.", "No, I want to know whether Arathi Highlands has a mailbox.",
+      "no. does Arathi have a mailbox", "No thanks, that's all.", "No, that's fine, thank you!"])
+      assert.equal(feedbackKind(said, previous), null, `${said} / ${previous}`);
+    for (const said of ["No, the mailbox is actually in Refuge Pointe.", "That's wrong.", "Not true, Hammerfall has no mailbox."])
+      assert.equal(feedbackKind(said, previous), "correction", `${said} / ${previous}`);
+  }
+  // A bare "no" after a statement still disputes it: "No, it's by the bank."
+  assert.equal(feedbackKind("No, it's by the bank.", answered), "correction");
+});
+
 test("deleting an account deletes what it said about Willo's answers", async () => {
   const token = await linked();
   await flag({ request: companion("feedback", token, { question: "Q", answer: "A wrong answer", note: "mine" }), env });

@@ -257,12 +257,13 @@ export const siteNav = viewer => viewer
 // .css and .js files for 4 hours without asking (Cloudflare's Browser Cache TTL, which overrides any Cache-Control we
 // send for them), so without a new address a browser can pair a new page with the old styles and scripts (seen 10/11,
 // right after the profile was rebuilt).
-export const FRESH = "v=20261014x";
+export const FRESH = "v=20261015w";
 
 // crumbs, foot and scripts replace the voice pages' breadcrumb (under the header; "" for none), footer line and player
 // script; robots adds a robots meta tag; head adds tags after the site stylesheet (a page's own stylesheet). viewer:
 // the signed-in user the page is for (siteNav), if the Function knows.
-export function page({ title, description, path, crumb, body, image, crumbs, foot, scripts, robots, head, viewer }) {
+// fullTitle: the whole <title> when a page writes its own (the lore pages, for search); otherwise "<title> - Lore Forever".
+export function page({ title, fullTitle, description, path, crumb, body, image, crumbs, foot, scripts, robots, head, viewer }) {
   const url = "https://loreforeverwow.com" + path;
   const trail = crumbs ?? `<a href="/downloads">Downloads</a> &rsaquo; ${escape(crumb)}`;
   return `<!doctype html>
@@ -270,7 +271,7 @@ export function page({ title, description, path, crumb, body, image, crumbs, foo
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${escape(title)} - Lore Forever</title>
+<title>${escape(fullTitle || `${title} - Lore Forever`)}</title>
 <meta name="description" content="${escape(description)}">
 ${robots ? `<meta name="robots" content="${escape(robots)}">\n` : ""}<link rel="canonical" href="${url}">
 <meta property="og:type" content="website">

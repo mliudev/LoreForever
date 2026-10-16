@@ -2,7 +2,7 @@
 -- (Sky.lua), that the Lore Forever companion on this PC reads several times a second, so Willo knows where you are and
 -- what you're fighting right away instead of after a /reload. Off until the player ticks Options > Live game info, and
 -- then shown only while the Lore Forever panel is open or while they hold Willo's talk key to ask (Strip.Ask), unless
--- they also tick "show it all the time" (Strip.Showing).
+-- they also tick "show it all the time", or said yes in Willo to letting her see the game all the time (Strip.Always).
 -- (LOR-57: SavedVariables reach the disk only on /reload or logout, the chat log only at logout, and add-ons can't
 -- follow the combat log, so nothing else gets game state out while you play.)
 --
@@ -53,6 +53,8 @@
 -- Then the target's line of work, so a guard or a flight master Willo hands the word to knows what they do (Strip.Role):
 --   43     ROLES' number for it, from the line under its name or the name itself; 0 none known, no target, a player
 --   44     CRC-8 of bytes 10-12 and 43: the role is this target's (0 with no role)
+-- Beside the 45 bytes, since 0.19, the sky's outer ring carries 5 bytes of its own (Strip.SetRing, LOR-557) with
+-- their own repair bytes, which older companions never look at: LOR-547's answer on screen or question asked.
 -- companion/lore_companion/sky.py reads it; companion/README.md explains it for players. A new field goes in a new
 -- format number, so an older companion says "update the companion" instead of misreading it (the trailer and the
 -- role are the exceptions: they only add what an older companion does without). Names never go out: the companion
@@ -484,13 +486,24 @@ end
 local frame = nil
 local stale, lastPaint, hiddenForShot = true, -math.huge, false
 
+local ring = nil   -- the outer ring's 5 bytes (Strip.SetRing), nil for nothing
+
 local function paint()
-  ns.Sky.Paint(Strip.Payload())
+  -- Being moved with Live game info off (/lore sky): just stars to drag, no game info in them.
+  if Strip.On() then ns.Sky.Paint(Strip.Payload(), ring) else ns.Sky.Paint({}) end
   lastPaint, stale = now(), false
 end
 
 -- Something the sky shows changed outside its events (the target's model, once it has loaded): repaint soon.
 function Strip.Touch() stale = true end
+
+-- The 5 bytes the sky's outer ring carries from the next repaint on (LOR-557; Sky.RING), or nil for none (5 zeros).
+-- What they say is LOR-547's (the answer on screen, a question asked: its byte layout is in that issue); the ring only
+-- carries them, with repair bytes of its own, beside the 45 that Willo reads every time.
+function Strip.SetRing(bytes)
+  ring = type(bytes) == "table" and bytes or nil
+  stale = true
+end
 
 local function onEvent(_, event, unit)
   if (event == "UNIT_HEALTH" or event == "UNIT_MAXHEALTH") and unit ~= "player" and unit ~= "target" then return end
@@ -522,8 +535,28 @@ local function create()
   end)
 end
 
--- Whether the player turned Live game info on.
-function Strip.On() return S().liveStrip == true end
+-- Whether Willo says the player turned Live game info on there, after its explanation (LoreForeverJourneyData.liveGame,
+-- written by Willo, LOR-544).
+function Strip.OnFromWillo()
+  local data = _G.LoreForeverJourneyData
+  return type(data) == "table" and data.liveGame == true
+end
+
+-- Whether Live game info is on: one switch for both apps (LOR-544). The player's own tick or untick in the add-on
+-- (Options or /lore live: liveStripChosen) wins; until they make one, Willo's explained yes counts too
+-- (Strip.OnFromWillo). A player who ticked it before the choice was recorded keeps it on. Defaults write liveStrip =
+-- false, so that alone isn't a choice.
+function Strip.On()
+  local s = S()
+  if s.liveStripChosen then return s.liveStrip == true end
+  return s.liveStrip == true or Strip.OnFromWillo()
+end
+
+-- The player turns Live game info on or off in the add-on (/lore live): theirs from now on, over Willo's.
+function Strip.Choose(on)
+  S().liveStrip, S().liveStripChosen = on and true or false, true
+  Strip.Update()
+end
 
 -- Asking Willo out loud: the companion listens while its talk key is held (talk/ptt.py reads the key's state; nothing
 -- is sent to the game), and the same key bound here to "Ask Willo" (Bindings.xml, runOnUp) shows the sky while it's
@@ -552,26 +585,80 @@ local function asking()
   return (askDown ~= nil and t - askDown < ASK_MAX) or t < askUntil
 end
 
+-- Whether Willo asked for the sky all the time: the player said yes to "Let Willo see the game all the time" in her
+-- hints over the game (LoreForeverJourneyData.skyAlways, written by Willo, LOR-536).
+function Strip.AlwaysFromWillo()
+  local data = _G.LoreForeverJourneyData
+  return type(data) == "table" and data.skyAlways == true
+end
+
+-- "Live game info: show it all the time": the player's tick in Options, or Willo's yes (Strip.AlwaysFromWillo) until
+-- they tick or untick it here themselves (liveStripAlwaysOwn): their choice in the add-on wins. It only matters with
+-- Live game info on (Strip.On), which nothing turns on but the player (10/12).
+function Strip.Always()
+  local s = S()
+  if s.liveStripAlwaysOwn then return s.liveStripAlways == true end
+  return s.liveStripAlways == true or Strip.AlwaysFromWillo()
+end
+
 -- Whether the sky is on screen now: with Live game info on, only while the Lore Forever panel is open or while the
--- player asks Willo, unless they chose to show it all the time (liveStripAlways). Some players took a block of squares
+-- player asks Willo, unless they chose to show it all the time (Strip.Always). Some players took a block of squares
 -- that's always there for something hacking the game; this way it shows only while they're using Lore Forever.
 function Strip.Showing()
+  if ns.Sky.Moving() then return true end   -- the player is dragging it somewhere (Sky.Move), until they click Done
   if not Strip.On() then return false end
-  if S().liveStripAlways == true or asking() then return true end
+  if Strip.Always() or asking() then return true end
   local UI = ns.UI
   return UI and UI.frame and yes(try(UI.frame.IsShown, UI.frame)) or false
 end
 
 -- Bind Willo's talk key (LoreForeverJourneyData.talkKey, written by the companion while talking is on) to Ask Willo,
 -- only where the game has nothing on that key: a player's own binding always stays. An Ask Willo key left from an
--- older talk key moves to the new one. WoW loads its saved bindings after login (Mike's had "bind F8 NONE"), which
--- undid a single try at PLAYER_LOGIN, so it's tried again whenever bindings change, on entering the world, after
--- combat (bindings can't change in combat) and a few seconds after login, until the key really is Ask Willo. Once
--- the first minute after login has passed, a key the player clears themselves stays cleared. Whether or not Live game
--- info is on: the key also tells the add-on Willo is answering, so it doesn't start a narration over Willo
--- (Voice.OnWilloAsked, LOR-471); the sky shows only with Live game info on.
-local ASK, SETTLE = "LOREFOREVER_ASKWILLO", 60
-local loginAt
+-- older talk key (one offered here, S().askWilloKey) moves to the new one; one the player picked (/lore key willo, or
+-- Key Bindings) stays, and the talk key is bound beside it. WoW loads its saved bindings after login (Mike's had "bind
+-- F8 NONE"), which undid a single try at PLAYER_LOGIN, so it's tried again whenever bindings change, on entering the
+-- world, after combat (bindings can't change in combat) and a few seconds after login, until the key really is Ask
+-- Willo. Once the first minute after login has passed, a key the player clears themselves stays cleared. Whether or
+-- not Live game info is on: the key also tells the add-on Willo is answering, so it doesn't start a narration over
+-- Willo (Voice.OnWilloAsked, LOR-471); the sky shows only with Live game info on.
+-- A talk key that does something else in the game never reaches Ask Willo, so the add-on says so in the chat, once
+-- a login, once the bindings have settled (TAKEN_AFTER: the 12 s try, after Core.lua's 10 s repair), with the way out
+-- (LOR-528); not when the player has given Ask Willo a key of their own, which Willo follows. Saying so never changes
+-- a binding: only a key the player presses does (Hooks.KeyPrompt).
+local ASK, SETTLE, TAKEN_AFTER = "LOREFOREVER_ASKWILLO", 60, 11
+local loginAt, toldTaken
+
+-- What a key does in the game, in the game's words ("Toggle Bag 4", a macro's or spell's name), or nil.
+local function actionName(action)
+  local name = _G["BINDING_NAME_" .. action]
+  if type(name) ~= "string" and type(GetBindingName) == "function" then
+    name = try(GetBindingName, action)
+    if name == action then name = nil end
+  end
+  if type(name) ~= "string" then name = action:match("^MACRO (.+)$") or action:match("^SPELL (.+)$")
+    or action:match("^ITEM (.+)$") end
+  return type(name) == "string" and name ~= "" and name or nil
+end
+
+local function tellTaken(key, action)
+  if toldTaken or not loginAt or now() - loginAt < TAKEN_AFTER then return end
+  if not (ns.BindingsLoaded and ns.BindingsLoaded()) then return end   -- not the player's real bindings yet
+  local own = type(GetBindingKey) == "function" and try(GetBindingKey, ASK) or nil
+  if own and own ~= S().askWilloKey then return end
+  toldTaken = true
+  local L, gold = ns.L, ns.Theme.code.gold
+  local shown = try(GetBindingText, key)
+  shown = gold .. ((type(shown) == "string" and shown ~= "") and shown or key):gsub("|", "||") .. "|r"
+  local link = ns.Hooks and ns.Hooks.Link("/lore key willo", "key", "willo") or "/lore key willo"
+  local what = actionName(action)
+  local line = what
+    and L["%s listens on %s, but here %s is set to %s. Pick another key in %s, or type %s and press the key you want."]
+      :format(ns.COMPANION_NAME, shown, shown, what:gsub("|", "||"), ns.COMPANION_NAME, link)
+    or L["%s listens on %s, but here %s already does something else. Pick another key in %s, or type %s and press the key you want."]
+      :format(ns.COMPANION_NAME, shown, shown, ns.COMPANION_NAME, link)
+  DEFAULT_CHAT_FRAME:AddMessage(ns.Theme.CHAT_PREFIX .. line)
+end
+
 function Strip.OfferAskKey()
   if not ns.BindingsReady then return end -- not before WoW has loaded the saved bindings (Core.lua)
   if not loginAt then                     -- the first try once they're in: try again shortly too
@@ -588,10 +675,13 @@ function Strip.OfferAskKey()
   if not key then return end
   local action = try(GetBindingAction, key)
   if action == ASK then return key end
-  if action ~= "" and action ~= nil then return end
+  if action ~= "" and action ~= nil then
+    tellTaken(key, action)
+    return
+  end
   if S().askWilloKey == key and loginAt and now() - loginAt > SETTLE then return end   -- they cleared it: theirs
   local old = type(GetBindingKey) == "function" and try(GetBindingKey, ASK) or nil
-  if old and old ~= key then pcall(SetBinding, old) end
+  if old and old ~= key and old == S().askWilloKey and old ~= S().askWilloOwn then pcall(SetBinding, old) end
   local ok, bound = pcall(SetBinding, key, ASK)
   if ok and bound ~= false then
     S().askWilloKey = key     -- never saved: offered again at the next login (Core.lua)

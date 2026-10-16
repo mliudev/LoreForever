@@ -1630,6 +1630,14 @@ local function autoPlayingNow()
 end
 Voice.AutoPlayingNow = autoPlayingNow   -- (Strip.Narration tells Willo)
 
+-- Seconds after Willo's talk key comes up that nothing starts by itself (Voice.OnWilloAsked): Willo's answer comes in
+-- a few seconds and her spoken lines can run past half a minute (the 30 s this was ran out during long ones, LOR-532).
+-- Held down, up to WILLO_KEY_MAX (a release the game never saw: let go in another window). While it lasts, arrival
+-- stories, quest givers' and book pages and flights' zone stories wait.
+local WILLO_HOLD, WILLO_KEY_MAX = 45, 60
+local willoUntil = 0
+local function willoAnswering() return now() < willoUntil end
+
 -- Flight narration: when a taxi flight starts, and each time it crosses into a new zone, play that zone's recorded
 -- story (a zone no voice recorded passes in silence). Voice.flying notes a flight with flight narration off too:
 -- landing is arriving (Voice.OnLanded).
@@ -1643,6 +1651,7 @@ function Voice.OnTaxiCheck()
     return
   end
   if Voice.GameTalking() then return end   -- the next zone line (or PLAYER_CONTROL_LOST) tries again
+  if willoAnswering() then return end      -- the next zone line, or Willo being done (willoDone), tries again
   local zone = GetRealZoneText and GetRealZoneText()
   local zk = zone and ns.engine and ns.engine:ZoneKey(zone)
   local key = zk and "zone:" .. zk
@@ -1698,11 +1707,6 @@ local AUTO_SETTLE = 3
 -- Darkshire, and he called it "very much desynced".
 local ARRIVAL_WAIT = 90
 local TURN_GAP = 1.5   -- from the end of what played to a waiting arrival story (the playlist's gap between two)
--- Seconds after Willo's talk key comes up that nothing starts by itself (Voice.OnWilloAsked): Willo's answer comes in
--- a few seconds and its spoken lines run up to about half a minute. Held down, up to WILLO_KEY_MAX (a release the game
--- never saw: let go in another window).
-local WILLO_HOLD, WILLO_KEY_MAX = 30, 60
-local willoUntil = 0
 Voice.autoSession = {}   -- arrival stories that started by themselves (or ran out of time) this session
 
 local function inCombat()
@@ -1743,21 +1747,25 @@ end
 
 -- Where you are: the zone's key ("duskwood"), the places you're in (a set of subzone entry keys) and the subzone's.
 -- Inside some buildings Forever names the building as the zone and gives no subzone ("Darkshire Town Hall"): that's
--- one of the places you're in, and its entry says the zone.
+-- one of the places you're in, and its entry says the zone. The subzone is your own zone's (Engine:SubzoneKey): the
+-- client calls Undercity's canals "Canals" and Stormwind's "The Canals", and each city has its own story (LOR-518).
 local function where()
   local db, places = ns.DB or {}, {}
-  local function place(name)
-    local k = type(name) == "string" and name ~= "" and db.index and db.index.name[ns.Engine.lower(name)]
-    local e = k and db.entries[k]
+  local function place(k)
+    local e = k and db.entries and db.entries[k]
     if e and e.t == "subzone" then return k, e end
+  end
+  local function named(name)
+    return type(name) == "string" and name ~= "" and db.index and db.index.name[ns.Engine.lower(name)] or nil
   end
   local zone = GetRealZoneText and GetRealZoneText()
   local zk = type(zone) == "string" and zone ~= "" and ns.engine and ns.engine:ZoneKey(zone) or nil
   if not zk then
-    local k, e = place(zone)
+    local k, e = place(named(zone))
     if k then zk, places[k] = e.z, true end
   end
-  local sk = place(GetSubZoneText and GetSubZoneText())
+  local sub = GetSubZoneText and GetSubZoneText()
+  local sk = place(type(sub) == "string" and sub ~= "" and ns.engine and ns.engine:SubzoneKey(sub, zone) or nil)
   if sk then places[sk] = true end
   return zk, places, sk
 end
@@ -1835,7 +1843,7 @@ function Voice.ArrivalTurn()
     Voice.autoWaiting = nil
     return false
   end
-  if inCombat() or talking() or Voice.GameTalking() or onTaxi() or busy() or now() < willoUntil then return false end
+  if inCombat() or talking() or Voice.GameTalking() or onTaxi() or busy() or willoAnswering() then return false end
   Voice.autoWaiting = nil
   return startArrival(w)
 end
@@ -2171,6 +2179,7 @@ function Voice.OnQuestFrame(kind, recorded)
   local ours, arrival = UI.speaking and isQuestText(UI.playingId), arrivalPlaying()
   if UI.IsBusy() and not (ours or arrival) then return end   -- never over something you started
   if UI.playingId == id then return end
+  if willoAnswering() then return end   -- it waits: its turn comes when Willo is done (willoDone)
   local target = not Voice.openPages[id] and not Voice.GameTalking() and questTarget(qid, kind, recorded) or nil
   if not target then
     if ours then UI.StopAll() end   -- the last quest's page stops all the same
@@ -2196,19 +2205,36 @@ function Voice.OnGameTalk()
   UI.StopAll()
 end
 
+-- Willo is done (willoUntil has passed): what waited while she answered gets its turn, as when a fight ends. The quest
+-- giver's page still open first (a quest giver cuts off an arrival), then the book page still open, the zone you're
+-- flying over, and the arrival story that waits (it waits on for any of those).
+local function willoDone()
+  if willoAnswering() then return end
+  if Voice.questKind then pcall(Voice.OnQuestFrame, Voice.questKind, Voice.questRecorded) end
+  if Voice.bookOpen then pcall(Voice.ReadBookPage) end
+  if onTaxi() then pcall(Voice.OnTaxiCheck) end
+  Voice.ArrivalTurn()
+end
+
 -- The player holds Willo's talk key (bound to Ask Willo: Strip.Ask), so Willo, the companion app, is about to answer
 -- out loud (LOR-471): what started by itself makes way, as for the game's own talking (an arrival plays again
--- afterwards, once), and nothing starts by itself until WILLO_HOLD seconds after the key comes up. The companion has
--- no way to say when it's done, so it's a fixed allowance. What you start yourself always plays.
+-- afterwards, once), and nothing starts by itself until WILLO_HOLD seconds after the key comes up: arrival stories,
+-- quest givers' and book pages and flights' zone stories all wait (LOR-532). The companion has no way to say when
+-- it's done, so it's a fixed allowance. What you start yourself always plays.
 function Voice.OnWilloAsked(down)
   willoUntil = now() + (down and WILLO_KEY_MAX or WILLO_HOLD)
-  if down then
-    Voice.OnGameTalk()
-  elseif C_Timer and C_Timer.After then
-    C_Timer.After(WILLO_HOLD + 0.1, function()
-      if now() >= willoUntil then Voice.ArrivalTurn() end
-    end)
-  end
+  if down then Voice.OnGameTalk() end
+  if C_Timer and C_Timer.After then C_Timer.After((down and WILLO_KEY_MAX or WILLO_HOLD) + 0.1, willoDone) end
+end
+
+-- Willo reads one of the add-on's short answers aloud (Companion.ShowAnswer, LOR-547): what started by itself makes
+-- way, as for the talk key, and nothing starts by itself for `seconds`, the reading's length as the add-on reckons it
+-- (a longer hold already running stays). What you start yourself always plays, and Willo doesn't read over it.
+function Voice.OnWilloReads(seconds)
+  local untilT = now() + seconds
+  if untilT > willoUntil then willoUntil = untilT end
+  Voice.OnGameTalk()
+  if C_Timer and C_Timer.After then C_Timer.After(seconds + 0.1, willoDone) end
 end
 
 -- It ended: the waiting arrival story's turn (after settling, as after combat), unless another one still shows.
@@ -2303,7 +2329,10 @@ end
 function Voice.ReadBookPage(byHand)
   local UI = ns.UI
   if not (UI and UI.frame) then return end
-  if not byHand and (S().readBooks == false or Voice.OnDemand() or Voice.GameTalking()) then return end
+  Voice.bookOpen = true   -- (a page waiting for Willo gets its turn once she's done: willoDone)
+  if not byHand and (S().readBooks == false or Voice.OnDemand() or Voice.GameTalking() or willoAnswering()) then
+    return
+  end
   local id, title, text = bookPage()
   if not id then return end
   if byHand and UI.speaking and UI.playingId == id then return UI.StopAll() end
@@ -2324,6 +2353,7 @@ end
 
 -- The book closed: stop its page.
 function Voice.OnBookClosed()
+  Voice.bookOpen = nil
   closePages(BOOK_PREFIX)
   local UI = ns.UI
   if UI and UI.speaking and isBookText(UI.playingId) then UI.StopAll() end

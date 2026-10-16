@@ -1,0 +1,112 @@
+{
+ "key": "quest:359",
+ "type": "quest",
+ "name": "Forsaken Duties",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   359
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Maintaining vigilance against the Scourge is vital for the Forsaken, as any breach along the border directly threatens Brill and the newly claimed Undercity."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing Tirisfal Glades against Scourge incursions ensures the Horde maintains a reliable foothold in northern Lordaeron."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives forsaken duties",
+    "who starts forsaken duties",
+    "sevren quest"
+   ],
+   "answer": "Magistrate Sevren, stationed in Brill, tasks travelers with retrieving an updated reconnaissance report from the eastern Deathguard outpost.",
+   "q": "Who gives the quest Forsaken Duties?"
+  },
+  {
+   "aliases": [
+    "who is linnea",
+    "deathguard linnea location",
+    "where is linnea"
+   ],
+   "answer": "Deathguard Linnea is stationed at the Deathguard waystation east of Brill, monitoring movements along the road and guarding the approaches toward the Plaguelands.",
+   "q": "Who is Deathguard Linnea?"
+  },
+  {
+   "aliases": [
+    "what is the bulwark",
+    "bulwark defense",
+    "why is the bulwark important"
+   ],
+   "answer": "The Bulwark is the fortified border outpost separating Tirisfal Glades from the Western Plaguelands, manned to prevent the Scourge from overrunning Forsaken lands.",
+   "q": "What is The Bulwark?"
+  },
+  {
+   "aliases": [
+    "scourge in tirisfal",
+    "balnir farmstead scourge",
+    "where are the scourge leaking through"
+   ],
+   "answer": "While defenders at The Bulwark hold back the bulk of the undead army, stray Scourge forces slip through and gather around the Balnir Farmstead east of the waystation.",
+   "q": "Where are Scourge slipping past the border?"
+  },
+  {
+   "aliases": [
+    "why does sevren need a report",
+    "sevren concern"
+   ],
+   "answer": "Magistrate Sevren needs to ensure that the Scourge cannot establish a strong foothold within Tirisfal Glades, demanding constant vigilance from the Deathguard.",
+   "q": "Why does Magistrate Sevren want a status report?"
+  },
+  {
+   "aliases": [
+    "where is the waystation",
+    "how to reach linnea"
+   ],
+   "answer": "To reach the waystation from Brill, travelers follow the road south and turn east at the fork toward the eastern reaches of Tirisfal Glades.",
+   "q": "How do you get to Deathguard Linnea's post?"
+  }
+ ],
+ "keywords": [
+  "balnir farmstead",
+  "brill",
+  "deathguard linnea",
+  "forsaken duties",
+  "magistrate sevren",
+  "scourge",
+  "the bulwark",
+  "tirisfal glades"
+ ],
+ "related": [
+  "npc:magistrate-sevren",
+  "npc:deathguard-linnea",
+  "subzone:bulwark",
+  "subzone:balnir-farmstead",
+  "topic:scourge",
+  "quest:1882"
+ ],
+ "sections": [
+  {
+   "body": "Magistrate Sevren oversees the security of Brill and the surrounding countryside, keeping a nervous eye on the eastern borders of Tirisfal Glades. With the Scourge swarming across the Western Plaguelands, Sevren requires constant reconnaissance from frontline sentries to ensure undead horrors do not slip past the perimeter unnoticed. Travelers willing to assist are dispatched south and east down the main thoroughfare to gather an urgent tactical assessment from Deathguard Linnea.",
+   "spoiler": 0,
+   "title": "Vigilance on the Border"
+  },
+  {
+   "body": "Stationed at an eastern outpost along the road, Deathguard Linnea observes the frontier firsthand. Her findings confirm the magistrates fears: while the fortified position at The Bulwark successfully holds off the main Scourge host, small groups of undead manage to bypass the defenses on occasion. These stray forces have begun congregating around the nearby Balnir Farmstead, posing a localized but dangerous threat to Tirisfal Glades.",
+   "spoiler": 0,
+   "title": "Reports from the Front"
+  }
+ ],
+ "summary": "Forsaken Duties is a reconnaissance mission assigned by Magistrate Sevren in Brill to assess Scourge activity along the eastern perimeter of Tirisfal Glades. It establishes the constant threat posed by the Scourge slipping past The Bulwark and endangering local settlements.",
+ "attribution": [
+  "In-game quest text: Forsaken Duties"
+ ]
+}

@@ -83,12 +83,32 @@ test("an entry with no recording is a page of its spoiler-free text, with nothin
   const html = await res.text();
   assert.equal(res.status, 200);
   assert.equal(res.headers.get("X-Robots-Tag"), null, "indexable");
-  assert.match(html, /<title>Dalin&#39;s Heart: lore and story/);
+  assert.match(html, /<title>Dalin&#39;s Heart – WoW Forever Lore \| Lore Forever<\/title>/);
   for (const s of lore.sections.filter(s => s.spoiler === 0)) assert.ok(html.includes(`<h2>${s.title}</h2>`), s.title);
   assert.ok(html.includes("https://www.wowhead.com/forever/item="), "Look it up links its game ID");
   assert.ok(html.includes('href="/lore/quest/1476-hearts-of-the-pure"'), "an item links its quest");
   assert.ok(!html.includes("lp-clip") && !html.includes("lp-btn") && !html.includes('id="lp-report"'), "no Listen box");
   // (pipeline/tests/test_site_lore.py checks that no spoiler section of any entry reaches a page.)
+});
+
+test("search results: the title says WoW Forever and where, the description is whole sentences, breadcrumbs for Google", async () => {
+  const head = async path => {
+    const html = await (await entry(path)).text();
+    const ld = JSON.parse(/<script type="application\/ld\+json">(.*?)<\/script>/.exec(html)[1]);
+    return { title: /<title>(.*?)<\/title>/.exec(html)[1], desc: /<meta name="description" content="(.*?)">/.exec(html)[1], ld };
+  };
+  // Search Console 9/28-10/13: "bandarion keep" 158 impressions at 8.5, no clicks, with "Bandarion Keep: lore and
+  // narration" over the summary cut mid-sentence.
+  const place = await head("/lore/subzone/bandarion-keep");
+  assert.equal(place.title, "Bandarion Keep, Tirisfal Glades – WoW Forever Lore");
+  assert.match(place.desc, /^Bandarion Keep is a fortified redoubt .*\.$/);
+  assert.deepEqual(place.ld.itemListElement.map(i => [i.position, i.name, i.item]), [
+    [1, "Lore", "https://loreforeverwow.com/lore"], [2, "Tirisfal Glades", "https://loreforeverwow.com/lore/zone/tirisfal"],
+    [3, "Bandarion Keep", "https://loreforeverwow.com/lore/subzone/bandarion-keep"]]);
+  const quest = await head("/lore/quest/92706-wanted-bruuz");
+  assert.equal(quest.title, "WANTED: Bruuz – WoW Forever Quest in The Barrens");
+  assert.match(quest.desc, /\. A level 20 WoW Forever quest in The Barrens, with the quest giver&#39;s words read aloud\.$/);
+  assert.ok(quest.desc.length <= 160 + 4, quest.desc);   // + the escaped apostrophe
 });
 
 test("a page of a line or two is noindex and left out of the sitemap; the rest is indexed", async () => {

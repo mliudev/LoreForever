@@ -22,7 +22,8 @@ const LINES = {
   ] }],
 };
 
-const env = { DB: d1(), STUDIO: r2(), ASSETS: assets({ "/voices/lines.json": LINES }), ADMIN_KEY: "admin-test-key" };
+const FILES = { "/voices/lines.json": LINES };
+const env = { DB: d1(), STUDIO: r2(), ASSETS: assets(FILES), ADMIN_KEY: "admin-test-key" };
 
 async function call(method, action, { cookie, query = "", body, headers = {} } = {}) {
   const h = new Headers(headers);
@@ -193,4 +194,16 @@ test("a narrator uploads before agreeing to the release, which is asked for when
   // Signed out: nothing to upload with, but the page can still load its state.
   assert.equal((await call("PUT", "take", { body: mp3(10, 1), query: `?voice=${made.id}&line=zone%3Aelwynn` })).status, 401);
   assert.deepEqual(await (await call("GET", "state")).json(), { ok: true, signedIn: false });
+});
+
+test("a sent voice shows as published once voices.json lists it as live, though its D1 row stays pending", async () => {
+  const me = await signIn("published-voice");
+  const made = await (await call("POST", "voice", { cookie: me.cookie, body: { name: "Lumen", locale: "enUS" } })).json();
+  const published = async () => (await (await call("GET", "state", { cookie: me.cookie })).json()).voices.find(v => v.id === made.id).published;
+  assert.equal(await published(), false);
+  FILES["/voices/voices.json"] = { voices: [{ id: made.id, owner: me.user.id, status: "soon" }] };
+  assert.equal(await published(), false, "soon: its pack isn't released yet");
+  FILES["/voices/voices.json"].voices[0].status = "live";
+  assert.equal(await published(), true);
+  delete FILES["/voices/voices.json"];
 });

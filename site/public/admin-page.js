@@ -124,6 +124,8 @@ function render() {
   $("t-plans").textContent = pl.paying.toLocaleString();
   $("t-plans-sub").textContent = (pl.on ? "" : "Off (plans switched off, or no Stripe key) · ") +
     `$${pl.monthlyUsd.toFixed(2)} a month · ` +
+    (pl.trialing ? `${pl.trialing} on a trial · ` : "") +
+    (pl.comped || pl.owner ? `${(pl.comped || 0) + (pl.owner || 0)} comped or yours, not counted · ` : "") +
     (pl.counts.map(c => `${c.n} ${c.plan} ${String(c.status).replace("_", " ")}`).join(", ") || "no subscriptions yet") +
     ` · their answers $${pl.spend.usd.toFixed(2)} (${pl.spend.players} players)` +
     (pl.voicePacks ? ` · ${pl.voicePacks.sold} finest-voice packs this month, ${pl.voicePacks.unused.toLocaleString()} ` +
@@ -150,6 +152,7 @@ function render() {
   renderOverview();
   renderActivity();
   renderFunnel();
+  renderWilloStats();
   renderUsage();
   renderFeatures();
   renderFeedback();
@@ -199,6 +202,10 @@ function renderOverview() {
   $("o-companions-sub").textContent = c ? "different installs in the last 7 days" +
     (c.internal?.installs ? ` · ${c.internal.installs} internal build${c.internal.installs === 1 ? "" : "s"} left out` : "")
     : "none yet: the companion checks in from its next release";
+  const w = data.willo?.summary, ws = data.willo?.subscriptions;
+  $("o-willo").textContent = w ? n0(w.wau.day) : "-";
+  $("o-willo-sub").textContent = w ? `asked her in the 7 days to ${fmtDay(w.day)} · ${n0(w.dau.day)} that day · ` +
+    `${n0(w.downloads.total)} downloads` + (ws ? ` · ${n0(ws.paying)} paying` : "") : "no Willo numbers yet";
   const open = list => (list || []).filter(x => x.status !== "done").length;
   const fb = open(data.feedback), tr = open(data.translations) + open(data.translationReports), vo = open(data.voices);
   $("o-open").textContent = n0(fb + tr + vo);
@@ -481,6 +488,65 @@ function renderCompanions(c) {
   const days30 = lastDays(30);
   barChart($("c-companions"), days30, days30.map(d => k.days.find(x => x.day === d)?.n || 0),
     n => n + (n === 1 ? " install" : " installs"));
+}
+
+// ---- Willo (LOR-524): lib/willo-stats.js and lib/billing.js subscriptionReport define each number. The tiles show the
+// last whole UTC day, as the daily stats post in Slack #analytics does, so both say the same. ----
+const PLAN_NAMES = { hero: "Hero", champion: "Champion", legend: "Legend" };
+const plural = (n, one, many = one + "s") => `${n0(n)} ${n === 1 ? one : many}`;
+const versus = (now, before) => before ? ` (${now >= before ? "+" : "−"}${n0(Math.abs(now - before))} on the week before)` : "";
+const total = byPlan => Object.values(byPlan || {}).reduce((a, n) => a + n, 0);
+function renderWilloStats() {
+  const w = data.willo;
+  if (!w) {
+    $("w-note").textContent = "No Willo numbers: the report failed, or its tables aren't there yet.";
+    return;
+  }
+  const s = w.summary, subs = w.subscriptions, on = fmtDay(s.day);
+  $("w-dl").textContent = n0(s.downloads.total);
+  $("w-dl-sub").textContent = `since counting began · ${n0(s.downloads.day)} on ${on} · ${n0(s.downloads.week)} in the 7 days to ` +
+    `${on}${versus(s.downloads.week, s.downloads.prevWeek)} · ${n0(s.today.downloads)} today so far`;
+  // GitHub's own count of Willo-Setup.exe, a cross-check: it has downloads straight from GitHub too.
+  fetch("/api/downloads").then(r => r.json()).then(d => {
+    if (d.willoSource === "github" && d.willo != null) $("w-dl-sub").textContent += ` · GitHub: ${n0(d.willo)}`;
+  }).catch(() => {});
+  $("w-wau").textContent = n0(s.wau.day);
+  $("w-wau-sub").textContent = `asked her in the 7 days to ${on}${versus(s.wau.day, s.wau.weekAgo)}`;
+  $("w-dau").textContent = n0(s.dau.day);
+  $("w-dau-sub").textContent = `asked her on ${on}, ${plural(s.answers.day, "question")} · ${n0(s.today.dau)} today so far`;
+  $("w-run").textContent = n0(s.running.week);
+  $("w-run-sub").textContent = `installs that checked in during the 7 days to ${on}${versus(s.running.week, s.running.weekAgo)} · ` +
+    `${n0(s.running.day)} on ${on}, signed in or not`;
+  if (subs) {
+    const plans = Object.entries(subs.byPlan).filter(([, n]) => n).map(([id, n]) => `${n} ${PLAN_NAMES[id]}`).join(", ");
+    const apart = total(subs.comped) + total(subs.owner), trials = total(subs.trialing);
+    $("w-pay").textContent = n0(subs.paying);
+    $("w-pay-sub").textContent = (plans || "no paid plans yet") + ` · $${subs.monthlyUsd.toFixed(2)} a month at full price ` +
+      `($${subs.netUsd.toFixed(2)} after Stripe's fees)` + (trials ? ` · ${plural(trials, "trial")}` : "") +
+      (apart ? ` · ${n0(apart)} comped or yours, not counted` : "") + (subs.pastDue ? ` · ${n0(subs.pastDue)} past due` : "") +
+      (subs.unchecked ? ` · ${n0(subs.unchecked)} not checked for coupons yet` : "");
+    const c = subs.claims;
+    $("w-claims").textContent = n0(c.free + c.hero + c.half);
+    $("w-claims-sub").textContent = `${plural(c.free, "free Hero month")} · ${plural(c.hero, "Keep Hero trial")} · ` +
+      `${n0(c.half)} at 50% off · finest-voice packs: ${n0(subs.packs.sold)} sold ($${subs.packs.usd.toFixed(2)})` +
+      (subs.packs.refunded ? `, ${n0(subs.packs.refunded)} refunded` : "");
+  }
+  $("w-note").textContent = "Players: accounts that asked Willo at least once (admin and test accounts left out); counted " +
+    "per account from Oct 15, so the days before show only each account's latest day. Running: installs that sent " +
+    "Willo's daily check-in, with or without an account. Downloads: /download/willo on this site. Paying leaves out " +
+    "comped plans (the owner coupon) and your own accounts; the monthly figure is full price, so a 50% first month " +
+    "counts at what it renews at.";
+  const byDay = Object.fromEntries((subs?.days || []).map(d => [d.day, d]));
+  $("w-days").replaceChildren(...w.days.slice(-14).reverse().map(d => {
+    const b = byDay[d.day], cl = b?.claims;
+    return el("tr", {}, el("td", { text: fmtDay(d.day) }), el("td", { text: n0(d.downloads) }), el("td", { text: n0(d.dau) }),
+      el("td", { text: n0(d.wau) }), el("td", { text: n0(d.answers) }), el("td", { text: n0(d.running) }),
+      el("td", { text: b ? n0(b.started) : "-" }), el("td", { text: b ? n0(b.cancelled) : "-" }),
+      el("td", { text: cl ? `${cl.free} / ${cl.hero} / ${cl.half}` : "-" }), el("td", { text: b ? n0(b.packs) : "-" }));
+  }));
+  const days = w.days.map(d => d.day);
+  barChart($("c-willo-dau"), days, w.days.map(d => d.dau), n => plural(n, "player") + " asked Willo");
+  barChart($("c-willo-dl"), days, w.days.map(d => d.downloads), n => plural(n, "Willo download"));
 }
 
 // ---- usage (LOR-413) ----
@@ -1099,7 +1165,7 @@ async function act(body, onDone) {
 
 // ---- tabs: one shown at a time, chosen by the address's # (so /admin#growth or /admin#contacts links straight there) ----
 const TABS = ["overview", "growth", "players", "community"];
-const SECTION_TAB = { funnel: "growth", curseforge: "growth", downloads: "growth", companions: "growth",
+const SECTION_TAB = { funnel: "growth", curseforge: "growth", "willo-stats": "growth", downloads: "growth", companions: "growth",
                       profiles: "players", signins: "players", features: "players", usage: "players" };
 const SUBS = ["feedback", "voices", "willo", "clip-reports", "translations", "edits", "contributions", "contacts"];
 let sub = "feedback", clipsLoaded = false;

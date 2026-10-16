@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Connect the companion - Lore Forever</title>
-<meta name="description" content="Connect the Lore Forever companion app to your account, so it keeps your profile up to date by itself.">
+<title>Wake Willo - Lore Forever</title>
+<meta name="description" content="Sign in to wake Willo, Lore Forever's companion app, on your PC.">
 <meta name="robots" content="noindex">
 <link rel="icon" href="/img/logo.svg" type="image/svg+xml">
 <link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261014w">
+<link rel="stylesheet" href="/style.css?v=20261015w">
 <script src="/header.js" defer></script>
 </head>
 <body>
@@ -38,19 +38,19 @@
      account connects while plans are for sale, Connect goes on to /plans?welcome=1, whose "Continue free" comes back
      to /link?connected=1, the connected message (lib/billing.js welcomeOnce). -->
 <main class="wrap fb-page">
-  <h1>Connect the companion</h1>
+  <h1>Wake Willo</h1>
   <!-- Willo, the Lore Forever companion (LOR-266, LOR-428): the companion's own character says what connecting does. -->
   <div class="lk-herald">
     <img src="/img/wispr.svg" alt="Willo" width="96" height="96">
-    <p class="herald-says">Connect me to your account, friend, and I'll keep your profile up to date after every
-      <code>/reload</code> or logout. No more copying and pasting your journey record.</p>
+    <p class="herald-says">Sign in and connect me, friend, and I'll wake up beside your game. I'll keep your profile
+      up to date after every <code>/reload</code> or logout too.</p>
   </div>
   <noscript><p class="fb-status">This page needs JavaScript.</p></noscript>
   <p class="fb-status" id="lk-status" role="status" hidden></p>
 
   <section class="fb-done" id="lk-out" hidden>
     <h2>Sign in first</h2>
-    <p>Sign in to the account your profile is on. The first time makes your account.</p>
+    <p>Sign in with Google. The first time makes your account. Already have a profile here? Use the account it's on.</p>
     <div id="lk-google" class="ac-google"></div>
     <p class="vp-note signin-terms">By signing in, you agree to the <a href="/terms">Terms</a> and <a href="/privacy">Privacy</a>.</p>
     <p class="vp-note" id="lk-none" hidden>Sign-in isn't switched on yet. Please check back soon, or
@@ -59,22 +59,21 @@
 
   <form class="fb-form lk-enter" id="lk-enter" hidden>
     <h2>Type the code</h2>
-    <label class="pf-addr-label" for="lk-code-input">The code the companion shows</label>
+    <label class="pf-addr-label" for="lk-code-input">The code Willo shows</label>
     <div class="pf-addr-row"><input id="lk-code-input" name="code" maxlength="9" autocomplete="off" spellcheck="false"
       placeholder="XXXX-XXXX" required> <button class="btn-small" type="submit">Next</button></div>
-    <p class="vp-note">In the companion: Settings, then <strong>Connect to my profile</strong>.</p>
+    <p class="vp-note">In Willo's window, click <strong>Sign in to wake Willo</strong> and she shows it.</p>
   </form>
 
   <section class="fb-done" id="lk-ask" hidden>
-    <h2>Connect it to your account?</h2>
-    <p>Signed in as <strong id="lk-who"></strong>. The companion shows this code:</p>
+    <h2>Wake Willo on your account?</h2>
+    <p>Signed in as <strong id="lk-who"></strong>. Willo shows this code:</p>
     <p class="lk-code" id="lk-code"></p>
-    <p>Check it matches. Connect only if you just clicked <strong>Connect to my profile</strong> in the companion on
-      your own PC.</p>
-    <p class="vp-note">Once connected, the companion sends your character's journey record (the same text
+    <p>Check it matches. Connect only if you just clicked <strong>Sign in to wake Willo</strong> on your own PC.</p>
+    <p class="vp-note">Once connected, Willo wakes on this PC and sends your character's journey record (the same text
       <em>Copy my journey record</em> gives you) after each <code>/reload</code> or logout, and your profile follows.
-      It can't see or change anything else on your account. Disconnect it any time on
-      <a href="/account#apps">your account page</a> or in the companion.</p>
+      She can't see or change anything else on your account. Disconnect her any time on
+      <a href="/account#apps">your account page</a>, or sign out in her settings.</p>
     <p class="vp-actions">
       <button class="btn-small" type="button" id="lk-yes">Connect</button>
       <button class="btn-small btn-small-alt" type="button" id="lk-no">Not now</button>
@@ -83,8 +82,8 @@
 
   <section class="fb-done" id="lk-done" hidden>
     <h2 id="lk-done-title">Connected</h2>
-    <p id="lk-done-text">Go back to the companion: it finishes by itself in a few seconds, and your profile follows
-      your journey from now on. You can close this tab.</p>
+    <p id="lk-done-text">Go back to Willo: she wakes by herself in a few seconds, and your profile follows your
+      journey from now on. You can close this tab.</p>
     <p class="vp-actions"><a class="btn-small" href="/u/me">See your profile</a>
       <a class="btn-small btn-small-alt" href="/account#apps">Your account</a></p>
   </section>
@@ -170,7 +169,7 @@
   $("lk-enter").addEventListener("submit", e => {
     e.preventDefault();
     code = tidy($("lk-code-input").value);
-    if (!code) { status("Type the 8-letter code the companion shows, like BCDF-GHJK."); return; }
+    if (!code) { status("Type the 8-letter code Willo shows, like BCDF-GHJK."); return; }
     history.replaceState(null, "", "/link?code=" + code);
     ask();
   });
@@ -188,7 +187,7 @@
   $("lk-no").addEventListener("click", async () => {
     await call("/api/device/deny", { code });
     $("lk-done-title").textContent = "Not connected";
-    $("lk-done-text").textContent = "The companion won't be connected. You can close this tab, or connect it later from the companion's Settings.";
+    $("lk-done-text").textContent = "Willo stays asleep. You can close this tab, and click Sign in to wake Willo in her window when you're ready.";
     status("");
     show("lk-done");
   });

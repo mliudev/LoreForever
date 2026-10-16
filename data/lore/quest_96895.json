@@ -1,0 +1,111 @@
+{
+ "key": "quest:96895",
+ "type": "quest",
+ "name": "The Argent Emissary",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96895
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "While the Argent Dawn is neutral, Horde authorities keep a wary eye on their independent operations near the Undercity."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Seeing fellow Forsaken choose the Argent Dawn over the Undercity serves as a stark reminder of divided loyalties among the free undead."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who are the emissaries",
+    "argent dawn visitors",
+    "who came to tirisfal"
+   ],
+   "answer": "Two emissaries representing the Argent Dawn recently journeyed into Tirisfal Glades. Notably, both of these emissaries are Forsaken who have aligned themselves with the holy and neutral order rather than solely serving the Undercity.",
+   "q": "Who are the Argent emissaries?"
+  },
+  {
+   "aliases": [
+    "why are they near undercity",
+    "argent dawn mission tirisfal",
+    "what are emissaries doing"
+   ],
+   "answer": "They are tracking Scourge cultists spotted snooping around the outskirts southeast of the Undercity. The Argent Dawn is committed to hunting down Scourge remnants wherever they appear, even near major Horde settlements.",
+   "q": "Why is the Argent Dawn operating near the Undercity?"
+  },
+  {
+   "aliases": [
+    "why nervous about argent dawn",
+    "can we trust argent dawn",
+    "forsaken view of argent dawn"
+   ],
+   "answer": "Even though the Argent Dawn fights the common enemy in the Scourge, local Forsaken do not like neutral armed organizations operating unsupervised in Tirisfal Glades, regardless of whether those emissaries share their undead condition.",
+   "q": "Why are local Forsaken wary of the emissaries?"
+  },
+  {
+   "aliases": [
+    "cultists outside undercity",
+    "scourge in tirisfal",
+    "who are the cultists"
+   ],
+   "answer": "A cell of Scourge cultists has been spotted lurking southeast near the city's outskirts. Because of the lingering threat the Lich King poses to free undead, their presence immediately drew the attention of both local scouts and the Argent Dawn.",
+   "q": "What is the threat posed by the cultists?"
+  },
+  {
+   "aliases": [
+    "where to find emissary",
+    "emissary location",
+    "find argent dawn member"
+   ],
+   "answer": "One of the emissaries moved southeast toward the entrance of the Undercity, shadowing the movements of the Scourge cultists operating just outside the city walls.",
+   "q": "Where did the emissary go?"
+  },
+  {
+   "aliases": [
+    "are forsaken allowed in argent dawn",
+    "argent dawn undead",
+    "can undead join argent dawn"
+   ],
+   "answer": "Yes. Unlike the Scarlet Crusade, the Argent Dawn welcomes all who are willing to fight against the Scourge, including free-willed undead who dedicate themselves to the cause.",
+   "q": "Do the Forsaken serve in the Argent Dawn?"
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "argent emissary",
+  "cultists",
+  "forsaken",
+  "scourge cultists",
+  "tirisfal glades",
+  "undercity"
+ ],
+ "related": [
+  "topic:argent-dawn",
+  "zone:undercity",
+  "topic:scourge",
+  "topic:forsaken"
+ ],
+ "sections": [
+  {
+   "body": "Two Forsaken emissaries from the Argent Dawn have recently arrived in Tirisfal Glades, setting local authorities on edge. Although the Argent Dawn opposes the Scourge, the local Forsaken remain suspicious of any armed, neutral order operating unmonitored within their sovereign territory. Even the shared heritage of the emissaries does little to soothe their vigilance.",
+   "spoiler": 0,
+   "title": "Wary Welcome"
+  },
+  {
+   "body": "The emissaries did not come to admire the ruins of Lordaeron; they are pursuing a group of Scourge cultists discovered lurking southeast around the outskirts of the Undercity. Determined to root out the agents of the Lich King before they establish a foothold, one of the emissaries has moved into position near the city gates to monitor the enemy's movements.",
+   "spoiler": 0,
+   "title": "Cultists at the Gates"
+  }
+ ],
+ "summary": "The Argent Emissary marks the arrival of two Forsaken representatives of the Argent Dawn tracking Scourge cultists near the Undercity. Their presence underscores both the shared fight against the Scourge and the simmering tension between the neutral order and the Forsaken authorities.",
+ "attribution": [
+  "In-game quest text: The Argent Emissary"
+ ]
+}

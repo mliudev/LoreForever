@@ -62,9 +62,15 @@ An entry's page comes from its key, `<type>:<id>`, with the colon as a slash. Ev
   (`quest:cutting-teeth`) use the first quest ID it claims (`meta.ids`; `/lore/quest/788`). A key outside the
   database, or a quest with neither lore nor dialogue, is a 404 page. `test_every_entry_the_addon_ships_has_a_page`
   fails if one of the add-on's keys has no page.
-- The page title is "<name>: lore and narration" (quests: "<name>: quest dialogue read aloud"; an entry with no
-  recording: "<name>: lore and story"), the description is the entry's spoiler-safe summary cut to 155 characters, and
-  the canonical URL is the address above.
+- **What a search result shows** (`searchTitle`, `searchDescription`, `breadcrumbLd` in `lib/lore.js`). Search
+  Console (9/28-10/13) had the pages on page one for their own names and "wow forever <name>", and almost no clicks,
+  so: the title is "<name> – WoW Forever Lore" (a place: "<name>, <zone> – WoW Forever Lore"; a quest: "<name> – WoW
+  Forever Quest in <zone>"), with " | Lore Forever" when it still fits in 60 characters. The description is the
+  entry's spoiler-safe summary in whole sentences (never cut mid-sentence unless the first one is longer than 160
+  characters), then, when it fits, what the page has: a quest's level and zone and "with the quest giver's words read
+  aloud", or "Read it, or hear it read aloud." for a narration. A quest with no summary gets its level and zone and the
+  quest giver's first words. Every page has BreadcrumbList structured data (Lore › zone › entry, like the page's own
+  trail), and the canonical URL is the address above.
 - **Pages with nothing to play** (no narration, no quest dialogue: every item, most topics, and the characters and
   places that aren't narrated) show the summary, then each spoiler-free section under its own heading, then the same
   Sources, Look it up, "In <zone>", Related and "Get Lore Forever" as any page. No Listen box, no speed bar, no report

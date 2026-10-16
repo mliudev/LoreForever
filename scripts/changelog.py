@@ -11,8 +11,8 @@ order. The stamp writes them into the version's section and deletes the fragment
   changelog.py stamp VERSION        rename "## Unreleased" to "## VERSION (today)", with the fragments' notes after its
                                     own, start a fresh, empty Unreleased, and delete the fragments
   changelog.py site INDEX_HTML      write the website's copies from CHANGELOG.md: the landing page's version, its
-                                    Changelog tab and its "New in" strip, the What's new page (whats-new.html next to
-                                    it) and the newest version in header.js (the What's new dot)
+                                    "New in" strip (and a changelog block, if the page has one), the What's new page
+                                    (whats-new.html next to it) and the newest version in header.js (the What's new dot)
   changelog.py addon NOTES_LUA      write the newest version's notes for the add-on's What's new card (Notes.lua)
 
 Standard library only: the public repo's release workflow runs it too.
@@ -106,19 +106,20 @@ def site(index_html: Path) -> None:
     page, n = re.subn(r"(<li>Version <strong>)[^<]*(</strong></li>)", rf"\g<1>{released[0][0]}\g<2>", page)
     if n != 1:
         sys.exit(f"changelog: expected one '<li>Version <strong>...' in {index_html}")
+    # The landing page dropped its Changelog tab in the 2026-10-15 revamp (What's new has every version), so the
+    # block is filled only where a page still has one.
     start, end = page.find(BEGIN), page.find(END)
-    if start < 0 or end < start:
-        sys.exit(f"changelog: {index_html} has no '{BEGIN} ... {END}' block")
-    line_start = page.rfind("\n", 0, start) + 1
-    indent = page[line_start:start]
-    out = [f"{BEGIN} (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->"]
-    for version, body in released:
-        out.append(f"<h3>{version}</h3>")
-        out.append("<ul>")
-        out += [f"  <li>{_inline(item)}</li>" for item in _bullets(body)]
-        out.append("</ul>")
-    out.append(END)
-    page = page[:line_start] + "\n".join(indent + l for l in out) + page[end + len(END):]
+    if start >= 0 and end > start:
+        line_start = page.rfind("\n", 0, start) + 1
+        indent = page[line_start:start]
+        out = [f"{BEGIN} (written by scripts/changelog.py from CHANGELOG.md; edit that instead) -->"]
+        for version, body in released:
+            out.append(f"<h3>{version}</h3>")
+            out.append("<ul>")
+            out += [f"  <li>{_inline(item)}</li>" for item in _bullets(body)]
+            out.append("</ul>")
+        out.append(END)
+        page = page[:line_start] + "\n".join(indent + l for l in out) + page[end + len(END):]
     page = _fill(page, NB_BEGIN, NB_END, newbar(*released[0]), index_html)
     index_html.write_text(page)
     whats_new = index_html.with_name("whats-new.html")

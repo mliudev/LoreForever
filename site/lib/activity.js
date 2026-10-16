@@ -10,6 +10,9 @@
 //   download_accounts      (day, file, user_id, n): site downloads (functions/download/[file].js) made while signed in.
 //                          The anonymous `downloads` table counts every download either way; this sits next to it, so
 //                          "signed up -> downloaded" can be measured per account. Downloading never needs an account.
+//   answer_days            (day, user_id, n): each UTC day the account asked Willo (functions/api/companion/answer.js),
+//                          and how many questions, kept SEEN_KEEP_DAYS, for Willo's daily and weekly players
+//                          (lib/willo-stats.js). Never the question.
 // The companion's sync days are lib/usage.js's usage_days; profile updates per day (pasted or synced) are plain
 // numbers in site_counts (lib/usage.js countSite). "Delete my account" removes these rows (lib/accounts.js USER_DATA).
 
@@ -24,7 +27,13 @@ export const ACTIVITY_SETUP = [
   // with the admin key), "config" (ANALYTICS_EXCLUDE), "manual" (left out from Contacts), or "counted" (counted again
   // from Contacts, which no automatic reason overrides).
   "CREATE TABLE IF NOT EXISTS excluded_accounts (user_id TEXT PRIMARY KEY, reason TEXT NOT NULL, created TEXT NOT NULL)",
+  "CREATE TABLE IF NOT EXISTS answer_days (day TEXT NOT NULL, user_id TEXT NOT NULL, n INTEGER NOT NULL, PRIMARY KEY (day, user_id))",
+  "CREATE INDEX IF NOT EXISTS answer_days_user ON answer_days (user_id)",
 ];
+// Run once, by the Worker whose lib/accounts.js setup makes answer_days (LOR-524): the day's answers the daily limit
+// keeps (rate_limits "companion-answer:<day>", each account's latest day), so the week's count is right at once.
+export const ASKED_BACKFILL = "INSERT OR IGNORE INTO answer_days (day, user_id, n) SELECT substr(bucket, 18), user_id, n " +
+  "FROM rate_limits WHERE bucket LIKE 'companion-answer:____-__-__' AND user_id NOT LIKE 'ip:%'";
 // Run once, when lib/accounts.js setup adds users.last_seen to a database from before LOR-304: an account's last
 // sign-in is its newest kept session's (sessions last 30 days), and the days it signed in on are those sessions' and
 // the day it was made.
@@ -59,6 +68,17 @@ export async function markSeen(env, userId, lastSeen, now = Date.now()) {
   } catch (e) {
     return false;
   }
+}
+
+// One question to Willo from the account today (UTC): its count goes up by one. Never throws; an answer never depends
+// on it. The day's first one drops the days past SEEN_KEEP_DAYS.
+export async function markAsked(env, userId, now = Date.now()) {
+  if (!env.DB || !userId) return;
+  try {
+    const row = await env.DB.prepare("INSERT INTO answer_days (day, user_id, n) VALUES (?, ?, 1) " +
+      "ON CONFLICT(day, user_id) DO UPDATE SET n = n + 1 RETURNING n").bind(utcDay(now), userId).first();
+    if (row?.n === 1) await env.DB.prepare("DELETE FROM answer_days WHERE day < ?").bind(utcDay(now, -SEEN_KEEP_DAYS)).run();
+  } catch (e) { /* not counted */ }
 }
 
 // One site download by a signed-in account (the table comes from lib/accounts.js setup).

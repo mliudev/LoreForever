@@ -1,0 +1,115 @@
+{
+ "key": "quest:96243",
+ "type": "quest",
+ "name": "Call of Earth",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96243
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Heeding the call of earth is a foundational step in walking the shamanic path, binding the initiate to the deep stone and steadfast spirits of the land."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarves share an inherent bond with stone and earth, making communion with these terrestrial spirits feel natural amid the deep vaults of Dun Morogh."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance shamans in Dun Morogh begin their elemental journey right from the ancestral dwarven stronghold of Anvilmar."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is call of earth",
+    "call of earth quest",
+    "what is this quest"
+   ],
+   "answer": "Call of Earth is an introductory summons directing an aspiring shaman to begin communion with the earth spirits. It instructs the initiate to seek guidance and ground themselves in the power of the living stone.",
+   "q": "What is Call of Earth?"
+  },
+  {
+   "aliases": [
+    "who is teo hammerstorm",
+    "where is teo hammerstorm",
+    "teo hammerstorm location"
+   ],
+   "answer": "Teo Hammerstorm is a mentor located inside the dwarven stronghold of Anvilmar in Coldridge Valley. He guides initiates in communing with the earth and understanding its steady strength.",
+   "q": "Who is Teo Hammerstorm?"
+  },
+  {
+   "aliases": [
+    "where is anvilmar",
+    "what is anvilmar",
+    "anvilmar location"
+   ],
+   "answer": "Anvilmar is a sturdy holdfast forged by hammer, fire, and will, situated in the snowy expanse of Coldridge Valley within Dun Morogh. It serves as a central redoubt and training ground for young heroes.",
+   "q": "What is Anvilmar?"
+  },
+  {
+   "aliases": [
+    "why speak to earth",
+    "purpose of call of earth",
+    "shaman earth connection"
+   ],
+   "answer": "Communing with the earth allows a shaman to ground their spiritual essence, setting firm footing both beneath their soles and within their soul so they can channel the steady power of stone.",
+   "q": "Why must a shaman heed the call of earth?"
+  },
+  {
+   "aliases": [
+    "who sends call of earth",
+    "who takes call of earth",
+    "who does this quest"
+   ],
+   "answer": "The quest is aimed at developing shamans starting out in Dun Morogh, directing them to seek out experienced elemental trainers who can guide their connection to the spirits.",
+   "q": "Who undertakes this summons?"
+  },
+  {
+   "aliases": [
+    "where does call of earth take place",
+    "call of earth zone",
+    "where to go"
+   ],
+   "answer": "The journey leads to Anvilmar, nestled within Coldridge Valley in the snowy realm of Dun Morogh. Initiates must venture inside the holdfast to find their mentor.",
+   "q": "Where does this quest lead?"
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "call of earth",
+  "coldridge valley",
+  "dun morogh",
+  "earth totem",
+  "elements",
+  "shaman",
+  "teo hammerstorm"
+ ],
+ "related": [
+  "subzone:anvilmar",
+  "subzone:coldridge-valley",
+  "zone:dunmorogh"
+ ],
+ "sections": [
+  {
+   "body": "For an initiate walking the path of the elements, the call of earth is the vital first communion. While elemental energies may already stir across the skin, learning to speak directly with stone establishes a steadfast balance. It teaches the spirit how to find immovable strength, setting firm footing beneath one's boots and within the spirit itself.",
+   "spoiler": 0,
+   "title": "The Voice of Stone"
+  },
+  {
+   "body": "Initiates in the snowy reaches of Dun Morogh are directed into the shelter of Anvilmar, a massive holdfast forged by hammer, fire, and will. Within this venerable redoubt in Coldridge Valley waits Teo Hammerstorm, who instructs fledgling shamans on how to heed the rumbling earth and begin their elemental duties.",
+   "spoiler": 0,
+   "title": "The Holdfast of Anvilmar"
+  }
+ ],
+ "summary": "Call of Earth is an introductory summons calling an initiate to attune with the spirits of the stone. Directed to Coldridge Valley, the traveler must seek out Teo Hammerstorm within the dwarven holdfast of Anvilmar.",
+ "attribution": [
+  "In-game quest text: Call of Earth"
+ ]
+}

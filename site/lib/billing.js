@@ -316,7 +316,8 @@ export function planCompare(allowed = {}) {
     row("Answers a day", id => count(PLANS[id].answersPerDay)),
     row(`${NAME}'s voice: when you ask out loud`, voice),
     row("Characters' own voices", id => yes(Boolean(PLAN_VOICE[id].characters))),
-    row(`Ask out loud and ${NAME} sees your game`, id => yes(features(id).push_to_talk && features(id).sight)),
+    // Asking out loud is the voice row's (free has its first answers aloud), so this row is only sight.
+    row(`${NAME} sees your game`, id => yes(features(id).sight)),
     row("Checks the web when the lore runs out", id => yes(features(id).research)),
     row(`${NAME}'s style`, style),
     row("Longer memory", id => yes(Boolean(PLANS[id].longMemory))),
@@ -459,6 +460,11 @@ const idOf = v => typeof v === "string" ? v : typeof v?.id === "string" ? v.id :
 // are on their way or said, heard how many were said, best whether Willo's finest voice says it (PLAN_VOICE best),
 // pack the finest-voice pack that pays for it instead (VOICE_PACK), npc whether it's one of Champion's character
 // replies (PLAN_VOICE characters); older months' rows go as a new one starts.
+// plan_log (LOR-524): every subscription seen, one row each, for /admin's new and cancelled plans per day
+// (subscriptionReport): its plan, Stripe's status, when it started (start_date), when it was cancelled (canceled_at:
+// when the player asked, though the plan runs to its period's end) and ended, its discounts' ids as last seen, and
+// comp: NULL until its coupons are read (checkPlanLog), '' for a paid plan, or the coupon that makes it free
+// (COMP_COUPONS). Kept after the plan ends, and after "Delete my account" without the account (user_id NULL).
 const SETUP = [
   `CREATE TABLE IF NOT EXISTS entitlements (
     user_id TEXT PRIMARY KEY, customer_id TEXT UNIQUE, subscription_id TEXT, plan TEXT NOT NULL DEFAULT 'free',
@@ -485,6 +491,8 @@ const SETUP = [
   "CREATE INDEX IF NOT EXISTS voice_replies_period ON voice_replies (user_id, period)",
   "CREATE TABLE IF NOT EXISTS promo_claims (claim TEXT PRIMARY KEY, subscription_id TEXT NOT NULL, created TEXT NOT NULL)",
   "CREATE TABLE IF NOT EXISTS billing_locks (user_id TEXT PRIMARY KEY, until TEXT NOT NULL)",
+  `CREATE TABLE IF NOT EXISTS plan_log (subscription_id TEXT PRIMARY KEY, user_id TEXT, plan TEXT, status TEXT,
+    started TEXT, canceled TEXT, ended TEXT, discounts TEXT, comp TEXT, updated TEXT NOT NULL)`,
 ];
 // Columns added after their table was first made. Packs from before the starter were all answer top-ups (none was ever
 // sold on the live site; nothing reads that kind now).
@@ -1393,6 +1401,9 @@ async function storeSubscription(env, userId, subscription, { deduped = false } 
   ).bind(userId, idOf(subscription.customer), subscription.id, plan, interval, status,
          Number.isFinite(end) ? iso(end * 1000) : null, subscription.cancel_at_period_end || subscription.cancel_at ? 1 : 0,
          promo, next?.plan ?? null, next?.at ?? null, iso()).run();
+  // For /admin only, so it never fails the webhook.
+  try { await logSubscription(env, userId, subscription); }
+  catch (e) { console.warn(`billing: plan_log: ${e?.message || e}`); }
   return { user: userId, plan, status, ...(next ? { next: next.plan } : {}) };
 }
 
@@ -1524,12 +1535,144 @@ async function refundPack(env, charge, status = "refunded") {
 
 // ---- /admin ----
 
-// For the Plans tile: accounts by plan and status, paying players, what they bring in a month (active subscriptions,
-// before Stripe's fees) and what paying players' live answers cost this month; and
+// Coupons that make a plan free on purpose, never revenue: Mike's own Legend ("owner-legend-free", 100% off forever).
+// Any coupon that takes 100% off for more than one invoice counts the same, once Stripe's coupon can be read.
+export const COMP_COUPONS = ["owner-legend-free"];
+const LAUNCH_COUPON_IDS = Object.values(LAUNCH_COUPONS).map(c => c.id);
+
+// The coupons a subscription's discounts name ([] for none), or null when Stripe sent the discounts as ids only (the
+// webhook's fetch doesn't expand them; checkPlanLog does).
+function couponsOf(subscription) {
+  const discounts = [...(Array.isArray(subscription.discounts) ? subscription.discounts : []),
+                     ...(subscription.discount ? [subscription.discount] : [])];
+  if (discounts.some(d => typeof d === "string")) return null;
+  return discounts.map(d => d?.coupon ?? d?.source?.coupon).filter(Boolean);
+}
+
+// '' when the coupons leave it a paid plan, or the id of the one that makes it free. A coupon known by its id alone is
+// read from Stripe (read-only); one that can't be read counts as paid.
+async function compOf(env, coupons) {
+  for (const c of coupons) {
+    const id = idOf(c);
+    if (COMP_COUPONS.includes(id)) return id;
+    if (!id || LAUNCH_COUPON_IDS.includes(id)) continue;
+    const coupon = typeof c === "object" ? c
+      : await stripe(env, "GET", `coupons/${encodeURIComponent(id)}`).catch(() => null);
+    if (coupon?.percent_off === 100 && coupon.duration !== "once") return id;
+  }
+  return "";
+}
+
+// Notes what a subscription is now in plan_log (storeSubscription, checkPlanLog). Its comp stays as read while its
+// discounts don't change.
+async function logSubscription(env, userId, subscription) {
+  const coupons = couponsOf(subscription);
+  const comp = coupons ? await compOf(env, coupons) : null;
+  const at = s => Number.isFinite(s) ? iso(s * 1000) : null;
+  const planId = planOfPrice(subscription.items?.data?.[0]?.price);
+  await env.DB.prepare(
+    "INSERT INTO plan_log (subscription_id, user_id, plan, status, started, canceled, ended, discounts, comp, updated) " +
+    "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ON CONFLICT (subscription_id) DO UPDATE SET " +
+    "user_id = COALESCE(excluded.user_id, plan_log.user_id), plan = excluded.plan, status = excluded.status, " +
+    "started = excluded.started, canceled = excluded.canceled, ended = excluded.ended, " +
+    "comp = CASE WHEN excluded.comp IS NULL AND excluded.discounts = plan_log.discounts THEN plan_log.comp ELSE excluded.comp END, " +
+    "discounts = excluded.discounts, updated = excluded.updated"
+  ).bind(subscription.id, userId, PAID.includes(planId) ? planId : null, String(subscription.status || ""),
+         at(subscription.start_date ?? subscription.created), at(subscription.canceled_at), at(subscription.ended_at),
+         JSON.stringify((subscription.discounts || []).map(idOf)), comp, iso()).run();
+}
+
+// Before /admin counts plans: reads from Stripe (GET only) the subscriptions plan_log doesn't know yet, or whose
+// coupons it hasn't read, at most `limit` a load, so comps are never counted as revenue. Without a Stripe key, nothing.
+export async function checkPlanLog(env, limit = 10) {
+  if (!env.STRIPE_SECRET_KEY) return 0;
+  const { results } = await env.DB.prepare(
+    "SELECT e.user_id, e.subscription_id FROM entitlements e LEFT JOIN plan_log p ON p.subscription_id = e.subscription_id " +
+    "WHERE e.subscription_id IS NOT NULL AND (p.subscription_id IS NULL OR p.comp IS NULL) " +
+    "UNION SELECT user_id, subscription_id FROM plan_log WHERE comp IS NULL LIMIT ?").bind(limit).all();
+  const done = await Promise.all(results.map(async r => {
+    try {
+      const sub = await stripe(env, "GET", `subscriptions/${encodeURIComponent(r.subscription_id)}`, { expand: ["discounts"] });
+      await logSubscription(env, r.user_id, sub);
+      return 1;
+    } catch (e) {
+      console.warn(`billing: checking ${r.subscription_id}: ${e?.message || e}`);
+      return 0;
+    }
+  }));
+  return done.reduce((a, b) => a + b, 0);
+}
+
+// Subscriptions for /admin and the daily stats post (LOR-524), one way everywhere: every plan that's on now (paidNow)
+// is one of
+//   paying    a paid plan, active or past due: monthlyUsd (MRR: their plans' list prices, before Stripe's fees; a beta
+//             50% first month still renews at the full price) and netUsd (after the fees) count the active ones
+//   trialing  the beta's Keep Hero trial, nothing charged yet
+//   comped    free on purpose (plan_log comp: COMP_COUPONS), never revenue
+//   owner     the admin's or a test account's (lib/activity.js excluded_accounts), never revenue
+// each {hero, champion, legend}, with `unchecked`: paying plans whose coupons plan_log hasn't read yet (checkPlanLog).
+// days: the last `days` UTC days, oldest first: {day, started, cancelled, claims: {free, hero, half}, packs}, where
+// started and cancelled are plans (comped and owner ones left out) by when they started and when the player cancelled,
+// claims the beta promo's offers taken (promo_claims: free, the card-less free Hero month; hero, a Keep Hero trial;
+// half, a 50% first month) and packs finest-voice packs sold (not refunded, owner accounts left out).
+// claims and packs: the same since the start, packs with usd at VOICE_PACK's price.
+export async function subscriptionReport(env, now = new Date(), days = 30) {
+  await setupBilling(env);
+  const owner = column => `${column} IN (SELECT user_id FROM excluded_accounts WHERE reason != 'counted')`;
+  const from = new Date(now.getTime() - (days - 1) * 864e5).toISOString().slice(0, 10);
+  const all = async (sql, ...args) => (await env.DB.prepare(sql).bind(...args).all()).results;
+  const counted = `COALESCE(comp, '') = '' AND NOT ${owner("COALESCE(user_id, '')")}`;
+  const [plans, started, cancelled, claims, packs] = await Promise.all([
+    all("SELECT e.plan, e.status, e.current_period_end, p.comp, p.subscription_id IS NOT NULL AND p.comp IS NOT NULL AS checked, " +
+        `${owner("e.user_id")} AS owner FROM entitlements e LEFT JOIN plan_log p ON p.subscription_id = e.subscription_id ` +
+        "WHERE e.subscription_id IS NOT NULL"),
+    all(`SELECT substr(started, 1, 10) AS day, COUNT(*) AS n FROM plan_log WHERE started >= ? AND ${counted} GROUP BY day`, from),
+    all(`SELECT substr(canceled, 1, 10) AS day, COUNT(*) AS n FROM plan_log WHERE canceled >= ? AND ${counted} GROUP BY day`, from),
+    all("SELECT substr(claim, 1, instr(claim, ':') - 1) AS kind, substr(created, 1, 10) AS day, COUNT(*) AS n " +
+        "FROM promo_claims GROUP BY kind, day"),
+    all("SELECT substr(created, 1, 10) AS day, status, COUNT(*) AS n FROM answer_packs " +
+        `WHERE kind = 'voice' AND NOT ${owner("user_id")} GROUP BY day, status`),
+  ]);
+  const byPlan = () => Object.fromEntries(PAID.map(id => [id, 0]));
+  const out = { paying: 0, byPlan: byPlan(), trialing: byPlan(), comped: byPlan(), owner: byPlan(), pastDue: 0,
+                unchecked: 0, monthlyUsd: 0, netUsd: 0 };
+  let cents = 0, net = 0;
+  for (const r of plans) {
+    if (!paidNow(r, now)) continue;
+    const kind = r.comp ? "comped" : r.owner ? "owner" : r.status === "trialing" ? "trialing" : "byPlan";
+    out[kind][r.plan]++;
+    if (kind !== "byPlan") continue;
+    out.paying++;
+    if (!r.checked) out.unchecked++;
+    if (r.status === "past_due") out.pastDue++;
+    else { cents += PLANS[r.plan].monthly; net += PLANS[r.plan].net; }
+  }
+  out.monthlyUsd = cents / 100;
+  out.netUsd = net / 100;
+  const on = (rows, day) => rows.filter(r => r.day === day).reduce((a, r) => a + r.n, 0);
+  const kinds = day => Object.fromEntries(["free", "hero", "half"].map(k =>
+    [k, claims.filter(c => c.kind === k && (!day || c.day === day)).reduce((a, c) => a + c.n, 0)]));
+  const sold = packs.filter(p => p.status === "active");
+  out.days = [];
+  for (let i = days - 1; i >= 0; i--) {
+    const day = new Date(now.getTime() - i * 864e5).toISOString().slice(0, 10);
+    out.days.push({ day, started: on(started, day), cancelled: on(cancelled, day), claims: kinds(day), packs: on(sold, day) });
+  }
+  out.claims = kinds(null);
+  const n = sold.reduce((a, p) => a + p.n, 0);
+  out.packs = { sold: n, refunded: packs.filter(p => p.status !== "active").reduce((a, p) => a + p.n, 0),
+                usd: n * VOICE_PACK.price / 100 };
+  return out;
+}
+
+// For the Plans tile: accounts by plan and status, paying players, what they bring in a month (subscriptionReport's
+// paying and monthlyUsd: comped and owner plans left out) and what paying players' live answers cost this month; and
 // finest-voice packs: sold this month, replies bought and still unused, and what their replies cost this month.
+// subscriptions: subscriptionReport's whole report, for Willo's panel (lib/willo-stats.js).
 export async function billingReport(env, now = new Date()) {
   await setupBilling(env);
-  const [{ results }, spend, packs] = await Promise.all([
+  try { await checkPlanLog(env); } catch (e) { console.warn(`billing: plan_log: ${e?.message || e}`); }
+  const [{ results }, spend, packs, subscriptions] = await Promise.all([
     env.DB.prepare("SELECT plan, status, interval, current_period_end FROM entitlements WHERE subscription_id IS NOT NULL").all(),
     env.DB.prepare("SELECT COALESCE(SUM(micro > topup_micro), 0) AS players, COALESCE(SUM(micro - topup_micro), 0) AS micro, " +
                    "COALESCE(SUM(calls), 0) AS calls, COALESCE(SUM(topup_micro), 0) AS topup_micro " +
@@ -1537,17 +1680,17 @@ export async function billingReport(env, now = new Date()) {
     env.DB.prepare("SELECT COALESCE(SUM(substr(created, 1, 7) = ?), 0) AS sold, " +
                    "COALESCE(SUM(CASE WHEN status = 'active' THEN remaining ELSE 0 END), 0) AS unused FROM answer_packs " +
                    "WHERE kind = 'voice'").bind(month(now)).first(),
+    subscriptionReport(env, now),
   ]);
   const counts = {};
-  let paying = 0, cents = 0;
   for (const r of results) {
     const k = `${r.plan}:${r.status}`;
     counts[k] = { plan: r.plan, status: r.status, n: (counts[k]?.n || 0) + 1 };
-    if (!paidNow(r, now)) continue;
-    paying++;
-    if (r.status === "active") cents += PLANS[r.plan].monthly;
   }
-  return { on: billingOn(env), paying, counts: Object.values(counts), monthlyUsd: Math.round(cents) / 100,
+  const apart = kind => Object.values(subscriptions[kind]).reduce((a, n) => a + n, 0);
+  return { on: billingOn(env), paying: subscriptions.paying, comped: apart("comped"), owner: apart("owner"),
+           trialing: apart("trialing"), counts: Object.values(counts), monthlyUsd: subscriptions.monthlyUsd,
            spend: { usd: (spend?.micro || 0) / 1e6, players: spend?.players || 0, calls: spend?.calls || 0 },
-           voicePacks: { sold: packs?.sold || 0, unused: packs?.unused || 0, usd: (spend?.topup_micro || 0) / 1e6 } };
+           voicePacks: { sold: packs?.sold || 0, unused: packs?.unused || 0, usd: (spend?.topup_micro || 0) / 1e6 },
+           subscriptions };
 }

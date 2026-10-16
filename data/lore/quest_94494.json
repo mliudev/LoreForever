@@ -1,0 +1,106 @@
+{
+ "key": "quest:94494",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94494
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This trial marks a fundamental step in attuning to the elemental spirits, progressing from earth and fire toward understanding the fluidity and purity of water."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The gruff dwarven cadence of the mentor reflects how dwarven shamans in Forever approach communion with nature through rugged mountain paths."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is call of water",
+    "call of water quest",
+    "what is this quest"
+   ],
+   "answer": "Call of Water represents a spiritual rite of passage for shamans seeking communion with the element of water. Having already learned the steadfastness of earth, the rush of wind, and the spark of fire, the petitioner is summoned to learn water's deeper truth.",
+   "q": "What is the Call of Water?"
+  },
+  {
+   "aliases": [
+    "who gives call of water",
+    "who says the mountain waits for no one",
+    "call of water mentor"
+   ],
+   "answer": "The words are spoken by a dwarven shaman mentor guiding an initiate forward. Urging decisive action, the speaker reminds the traveler that the elements and the heights do not wait for the hesitant.",
+   "q": "Who guides this step of the journey?"
+  },
+  {
+   "aliases": [
+    "what does mountain waits for no one mean",
+    "the mountain waits for no one",
+    "mountain meaning"
+   ],
+   "answer": "It is a call to take the first step of a demanding ascent. Shamanic journeys often lead high into peaks and remote wilderness where the spirits dwell, demanding resolve rather than lingering doubt.",
+   "q": "What does it mean that the mountain waits for no one?"
+  },
+  {
+   "aliases": [
+    "why water purity",
+    "truth of waters purity",
+    "water element meaning"
+   ],
+   "answer": "In shamanic practice, each element offers distinct teachings. While stone provides stability and fire fuels resolve, water embodies cleansing, fluidity, and purity\u2014essential wisdom for balancing the spirits within oneself.",
+   "q": "What is the truth of water's purity?"
+  },
+  {
+   "aliases": [
+    "which elements come first",
+    "prerequisites for water",
+    "call of water elements"
+   ],
+   "answer": "The journey acknowledges earth, wind, and fire as foundations already felt in boot, breath, and belly before approaching water. Harmony with the elements requires mastering balance rather than pursuing a single power in isolation.",
+   "q": "How does water relate to the other elements here?"
+  },
+  {
+   "aliases": [
+    "what happens next call of water",
+    "where do i go now",
+    "next step call of water"
+   ],
+   "answer": "The initiate must take the first step toward the heights. The trial begins with an arduous trek into the mountains to seek out the source and manifestation of the water spirits directly.",
+   "q": "Where does the initiate go after hearing these words?"
+  }
+ ],
+ "keywords": [
+  "call of water",
+  "elements",
+  "mountain",
+  "purity",
+  "shaman",
+  "totem trial",
+  "water totem"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "The Call of Water marks a vital stage in a shaman's journey into elemental balance. With earth grounding every step, the rush of the wind at one's back, and the inner fire burning bright, the traveler is called to grasp the deeper nature of water. It is not merely an external force, but a spiritual reflection of purity and resilience.",
+   "spoiler": 0,
+   "title": "The Path of Purity"
+  },
+  {
+   "body": "Guided by a seasoned mentor speaking in the sturdy cadence of the peaks, the initiate is urged forward without hesitation. Shamanic communion is never handed over lightly; it demands physical effort, enduring spirit, and an ascent into rugged terrain. As the mentor warns, the mountain waits for no one, and the journey toward true understanding must begin with that decisive first step.",
+   "spoiler": 0,
+   "title": "Ascent into the Elements"
+  }
+ ],
+ "summary": "The Call of Water is a spiritual quest for shamans ready to commune with the purifying nature of the water element. Having established harmony with wind, earth, and flame, the initiate is urged to climb into the heights to discover water's true strength.",
+ "attribution": [
+  "In-game quest text: Call of Water"
+ ]
+}

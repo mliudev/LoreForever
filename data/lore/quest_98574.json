@@ -1,0 +1,109 @@
+{
+ "key": "quest:98574",
+ "type": "quest",
+ "name": "Hallowed Memorandum",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98574
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "Gnomes approaching the Light bring sharp intellect and curiosity to spiritual study, treating holy mysteries as puzzles to ponder alongside faith."
+  },
+  {
+   "target": "class:Priest",
+   "text": "This memorandum marks the start of formal priestly instruction in Coldridge Valley, introducing nascent healers to the philosophy of the Holy Light."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gave me the memorandum",
+    "who sent hallowed memorandum",
+    "where did note come from"
+   ],
+   "answer": "The memorandum was passed along by a local ally while you were assisting around Coldridge Valley, having originated from Branstock Khalder, the priest trainer residing inside Anvilmar.",
+   "q": "Who sent the Hallowed Memorandum?"
+  },
+  {
+   "aliases": [
+    "who is branstock",
+    "branstock khalder anvilmar"
+   ],
+   "answer": "Branstock Khalder is a dwarven priest trainer stationed inside Anvilmar in Coldridge Valley. He mentors fledgling priests in understanding the Light and harnessing holy forces to mend wounds or smite evil.",
+   "q": "Who is Branstock Khalder?"
+  },
+  {
+   "aliases": [
+    "can gnomes be priests",
+    "gnome connection to the light",
+    "how do gnomes view the light"
+   ],
+   "answer": "Branstock explains that gnomish curiosity and intellect serve as natural avenues for understanding the Light. Rather than treating it as a strict technical craft, he encourages viewing it as a philosophical riddle that unites thought and feeling.",
+   "q": "How do gnomes approach the Holy Light?"
+  },
+  {
+   "aliases": [
+    "what is the light according to branstock",
+    "light riddle branstock"
+   ],
+   "answer": "Branstock describes the Light not as an exacting technical discipline, but as a riddle that offers practical blessings and life lessons, discovered by uniting one's thoughts and inner emotions.",
+   "q": "What does Branstock teach about the Light?"
+  },
+  {
+   "aliases": [
+    "what does branstock teach",
+    "what can priest trainers teach"
+   ],
+   "answer": "Once a priest begins to comprehend the Light, Branstock offers guidance on channeling that power directly into protective healing prayers and holy smiting against the wicked, in exchange for modest donations.",
+   "q": "What abilities does Branstock offer to teach?"
+  },
+  {
+   "aliases": [
+    "where is anvilmar",
+    "branstock location"
+   ],
+   "answer": "Anvilmar is the central fortress and welcoming hall located in the heart of Coldridge Valley in Dun Morogh, housing trainers and refuge for dwarves and visiting gnomes.",
+   "q": "Where can Branstock Khalder be found?"
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "branstock khalder",
+  "coldridge valley",
+  "dun morogh",
+  "gnome priest",
+  "hallowed memorandum",
+  "holy light"
+ ],
+ "related": [
+  "npc:branstock-khalder",
+  "subzone:anvilmar",
+  "topic:light",
+  "topic:gnome",
+  "topic:priest",
+  "quest:99134"
+ ],
+ "sections": [
+  {
+   "body": "While assisting allies in Coldridge Valley, promising gnomish novitiates receive the Hallowed Memorandum, an introductory message directing them to seek out Branstock Khalder inside Anvilmar. Serving as a call to spiritual study, the note invites aspiring priests to begin their formal tutelage in Dun Morogh.",
+   "spoiler": 0,
+   "title": "A Summons to Anvilmar"
+  },
+  {
+   "body": "Upon presenting the memorandum, Branstock Khalder welcomes the novice into the fold. He explains that delving into the Holy Light is not a rigid technical craft, but a profound riddle requiring curiosity, keen intelligence, and harmony between intellect and emotion. Through contemplation and practice, students learn to channel these holy mysteries into restorative mending and divine retribution.",
+   "spoiler": 0,
+   "title": "Puzzles of the Faith"
+  }
+ ],
+ "summary": "The Hallowed Memorandum is a written summons directing fledgling gnome priests in Coldridge Valley to meet with Branstock Khalder inside Anvilmar. It marks the commencement of their spiritual training, framing the Holy Light as a philosophical riddle well-suited to gnomish intellect and curiosity.",
+ "attribution": [
+  "In-game quest text: Hallowed Memorandum"
+ ]
+}

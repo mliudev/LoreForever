@@ -1,0 +1,96 @@
+{
+ "key": "quest:96604",
+ "type": "quest",
+ "name": "The Great Outdoors",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96604
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Greeted with a traditional Orcish 'Lok-tar', this survival lesson offers nascent Horde adventurers fundamental grounding before setting out across treacherous territories."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is the great outdoors",
+    "the great outdoors quest"
+   ],
+   "answer": "The Great Outdoors is an introductory survival quest offered by Brakk, aimed at teaching new adventurers how to thrive in the wilderness by resting near a campfire before taking up a profession.",
+   "q": "What is The Great Outdoors?"
+  },
+  {
+   "aliases": [
+    "who is brakk",
+    "quest giver"
+   ],
+   "answer": "Brakk is an experienced outdoor survivalist who welcomes restless travelers, offering practical lessons on wilderness survival and resting by a campfire.",
+   "q": "Who is Brakk?"
+  },
+  {
+   "aliases": [
+    "boosted rest buff",
+    "campfire buff"
+   ],
+   "answer": "Resting near Brakk's Basic Campfire grants the Boosted Rest buff, demonstrating how taking shelter and recovering by an open flame revitalizes an adventurer in the wild.",
+   "q": "What is the Boosted Rest buff?"
+  },
+  {
+   "aliases": [
+    "next step after quest",
+    "what to do after campfire"
+   ],
+   "answer": "Upon learning the basics of wilderness rest, Brakk advises adventurers to visit trainers in the nearby village to study a tradeskill and learn how to construct camp fixtures tailored to their craft.",
+   "q": "What should you do after completing the quest?"
+  },
+  {
+   "aliases": [
+    "camp fixtures",
+    "what are camp fixtures"
+   ],
+   "answer": "Camp fixtures are specialized campsite installations taught by profession trainers in nearby villages, allowing travelers to adapt their camps to support their chosen tradeskills.",
+   "q": "What are camp fixtures?"
+  },
+  {
+   "aliases": [
+    "who should do this quest",
+    "is this for horde"
+   ],
+   "answer": "Any restless soul seeking fortune and glory in the wild benefits from this lesson, particularly those just beginning their journey and preparing to select a trade.",
+   "q": "Who is this training intended for?"
+  }
+ ],
+ "keywords": [
+  "boosted rest",
+  "brakk",
+  "camp fixture",
+  "campfire",
+  "the great outdoors",
+  "tradeskill",
+  "wilderness survival"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Venturing into the untamed reaches of Azeroth requires more than martial grit; it demands the basic knowledge to endure the elements. Brakk greets aspiring adventurers with a hearty 'Lok-tar', recognizing the restless spirit of those seeking fortune and glory. To survive the long road ahead, every traveler must first master the art of making camp and recovering their strength amidst the wilderness.",
+   "spoiler": 0,
+   "title": "Lessons in the Wild"
+  },
+  {
+   "body": "Taking a seat beside Brakk's Basic Campfire imparts the essentials of recuperation, granting a restorative rest in the open air. Once these survival fundamentals are understood, novice adventurers are directed toward local village craftsmen. There, they can learn tradeskills and discover how to build functional camp fixtures suited to their chosen craft.",
+   "spoiler": 0,
+   "title": "From Hearth to Craft"
+  }
+ ],
+ "summary": "The Great Outdoors is an introductory wilderness survival quest offered by Brakk to aspiring adventurers. By learning to rest beside a basic campfire, travelers discover the fundamentals of sustaining themselves in the wild before pursuing practical tradeskills.",
+ "attribution": [
+  "In-game quest text: The Great Outdoors"
+ ]
+}

@@ -14,7 +14,7 @@ import { forgetUser as forgetContributor } from "./contribute.js";
 import { RECORD_ONLY } from "./donate.js";
 import { HISTORY_SETUP, HISTORY_BASE_SETUP } from "./history-schema.js";
 import { USAGE_SETUP } from "./usage.js";
-import { ACTIVITY_SETUP, SEEN_BACKFILL, markSeen, utcDay } from "./activity.js";
+import { ACTIVITY_SETUP, SEEN_BACKFILL, ASKED_BACKFILL, markSeen, utcDay } from "./activity.js";
 import { forgetFeedback } from "./answer-feedback.js";
 import { cancelPlan } from "./billing.js";
 import { setupWilloCustom } from "./willo-custom.js";
@@ -172,6 +172,11 @@ export async function setup(env) {
       return !existing.has(name);
     });
     if (missing.length) await env.DB.batch(missing.map(sql => env.DB.prepare(sql)));
+    // Willo's askers (lib/activity.js ASKED_BACKFILL) start from what the daily limit kept; /admin only, so a failure
+    // just counts them from now.
+    if (existing.has("rate_limits") && !existing.has("answer_days")) {
+      try { await env.DB.prepare(ASKED_BACKFILL).run(); } catch (error) { /* counted from now */ }
+    }
     // Each table's column check below is independent of the others, so they run at once: a cold Worker waits one round
     // trip to D1 for all of them, not one per table (/admin's first load paid for each in turn).
     const [, , , , version] = await Promise.all([
@@ -378,6 +383,7 @@ const USER_DATA = [
   // The days they were signed in and their downloads made while signed in (lib/activity.js); the anonymous download
   // counts stay, with nothing about who.
   ["DELETE FROM signin_days WHERE user_id = ?", u => u.id],
+  ["DELETE FROM answer_days WHERE user_id = ?", u => u.id],
   ["DELETE FROM download_accounts WHERE user_id = ?", u => u.id],
   ["DELETE FROM excluded_accounts WHERE user_id = ?", u => u.id],
   ["DELETE FROM device_links WHERE user_id = ?", u => u.id],
@@ -386,6 +392,8 @@ const USER_DATA = [
   // Their plan (lib/billing.js, cancelled at Stripe first, below), their finest-voice packs and starter with any left,
   // what their live answers cost, and this month's spoken replies. Stripe keeps its own record of the payments.
   ["DELETE FROM entitlements WHERE user_id = ?", u => u.id],
+  // /admin's record of their plan stays, without the account (plans started and cancelled per day).
+  ["UPDATE plan_log SET user_id = NULL WHERE user_id = ?", u => u.id],
   ["DELETE FROM answer_packs WHERE user_id = ?", u => u.id],
   ["DELETE FROM answer_user_spend WHERE user_id = ?", u => u.id],
   ["DELETE FROM answer_holds WHERE user_id = ?", u => u.id],

@@ -1,20 +1,24 @@
--- Willo's sky (LOR-416): how Live game info shows. Rings of stars round Willo in a blue mist over the minimap, which
--- the companion app on this PC reads the 45 bytes of Strip.Payload from, by which stars shine
--- (companion/lore_companion/sky.py has the format). Strip.lua decides when it shows (Strip.Showing) and drives the
--- repaints; it replaced the block of coloured squares in the corner in 0.18.0.
+-- Willo's sky (LOR-416): how Live game info shows. Rings of stars round Willo in a see-through mist over the minimap
+-- (or wherever the player moved it: Sky.Move), which the companion app on this PC reads the 45 bytes of Strip.Payload
+-- from, by which stars shine (companion/lore_companion/sky.py has the format). Strip.lua decides when it shows
+-- (Strip.Showing) and drives the repaints; it replaced the block of coloured squares in the corner in 0.18.0.
 --
 -- The sky is a disc U sky units across; a unit is a whole number of screen pixels (Sky.Place: as big as the minimap
 -- allows, at least 2), and the sky sits on whole pixels, so every core is exact:
---   GUIDES  3 sparkles of 3 x 3 units on the rim, a white cross with black corners: the companion finds the sky by them
+--   GUIDES  3 sparkles of 3 x 3 units on the rim, a white cross on a dark lens that covers its corners: the companion
+--           finds the sky by them (white cross cells, black corner cells)
 --   SLOTS   488 star spots on 10 rings round the wisp, each a 1 x 1 unit core at (X, Y) hundredths of a unit: a white
---           star for 1, nothing (the mist) for 0. The 45 bytes, then PARITY Reed-Solomon bytes (GF(256), polynomial
---           0x11D), XORed with WHITEN, high bit first
--- On or off, not colours, so the game's colour-blind filter, gamma and HDR can't change what's read. The mist, the
--- wisp and the stars' halos are drawn under the cores and animate; the cores only change when the bytes do.
+--           star for 1, a dim one for 0. The 45 bytes, then PARITY Reed-Solomon bytes (GF(256), polynomial 0x11D),
+--           XORed with WHITEN, high bit first
+-- On or off, not colours, so the game's colour-blind filter, gamma and HDR can't change what's read. Every core is
+-- solid, lit or dim, so the map under the see-through mist can't change it either. The mist, the wisp and the stars'
+-- halos are drawn under the cores and animate; the cores only change when the bytes do. The art is ours, at full
+-- resolution (Media/Sky, made by scripts/sky_textures.py).
 
 local _, ns = ...
 local Sky = {}
 ns.Sky = Sky
+local L = ns.L
 
 Sky.U = 60
 Sky.GUIDES = { { 28, 1 }, { 52, 42 }, { 5, 42 } }
@@ -96,13 +100,41 @@ Sky.WHITEN = {
   165, 138, 12, 41, 213, 231, 58, 9, 147, 243, 215, 231, 53, 140, 93, 206, 253, 73, 168, 83, 205, 242, 179, 161,
   252, 191, 183, 57, 137, 44, 209, 80, 149, 50, 229, 134, 104
 }
+-- The outer ring (LOR-557, since 0.19): 72 more star spots on an 11th ring outside the 10, clear of the guides, with
+-- a Reed-Solomon block of their own: RING_DATA bytes (Strip.SetRing) then RING_PARITY repair bytes, XORed with
+-- RING_WHITEN, high bit first. Older companions never look at them, so the 45 bytes and format 2 stay as they are.
+Sky.RING = {
+  { 3237, 125 }, { 3466, 157 }, { 3692, 209 }, { 3913, 278 }, { 4127, 365 }, { 4334, 470 }, { 4531, 591 },
+  { 4718, 728 }, { 4893, 879 }, { 5056, 1044 }, { 5204, 1222 }, { 5337, 1411 }, { 5455, 1611 }, { 5555, 1819 },
+  { 5639, 2035 }, { 5704, 2258 }, { 5752, 2484 }, { 5780, 2714 }, { 5790, 2945 }, { 5781, 3177 }, { 5753, 3407 },
+  { 5707, 3633 }, { 5642, 3856 }, { 5559, 4072 }, { 5233, 4639 }, { 5089, 4818 }, { 4930, 4986 }, { 4759, 5140 },
+  { 4575, 5279 }, { 4381, 5403 }, { 4177, 5511 }, { 3965, 5602 }, { 3746, 5676 }, { 3523, 5732 }, { 3295, 5769 },
+  { 3065, 5788 }, { 2835, 5788 }, { 2605, 5769 }, { 2377, 5732 }, { 2154, 5676 }, { 1935, 5602 }, { 1723, 5511 },
+  { 1519, 5403 }, { 1325, 5279 }, { 1141, 5140 }, { 970, 4986 }, { 811, 4818 }, { 667, 4639 }, { 341, 4072 },
+  { 260, 3860 }, { 196, 3642 }, { 149, 3420 }, { 121, 3195 }, { 110, 2968 }, { 118, 2741 }, { 143, 2515 },
+  { 187, 2292 }, { 249, 2074 }, { 327, 1861 }, { 423, 1655 }, { 534, 1457 }, { 661, 1269 }, { 803, 1091 },
+  { 958, 926 }, { 1126, 773 }, { 1306, 634 }, { 1496, 510 }, { 1696, 402 }, { 1903, 310 }, { 2118, 235 },
+  { 2337, 177 }, { 2561, 137 }
+}
+Sky.RING_WHITEN = { 12, 52, 131, 207, 97, 90, 201, 9, 62 }
+Sky.RING_DATA, Sky.RING_PARITY = 5, 4
 Sky.WHITE_CELLS = { { 1, 0 }, { 0, 1 }, { 1, 1 }, { 2, 1 }, { 1, 2 } }
 Sky.BLACK_CELLS = { { 0, 0 }, { 2, 0 }, { 0, 2 }, { 2, 2 } }
 local U = Sky.U
-local MIN_UNIT, MAX_UNIT, FILL = 2, 8, 0.9   -- FILL: the share of the minimap's round map the sky covers
-local GLOW = "Interface\\GLUES\\Models\\UI_Draenei\\GenericGlow64"
-local DISC = "Interface\\CHARACTERFRAME\\TempPortraitAlphaMask"
+-- FILL: the share of the minimap's round map (191 of its 198 units across) the sky covers, so at 1080p with the
+-- default interface size a unit is 3 pixels (it was 2 until 0.19, with 0.9 of the whole minimap).
+local MIN_UNIT, MAX_UNIT, ROUND, FILL = 2, 8, 191 / 198, 0.95
+local MEDIA = "Interface\\AddOns\\LoreForever\\Media\\Sky\\"   -- our own art (scripts/sky_textures.py)
 local FPS = 20
+
+-- The look (LOR-531, Mike's pick: a star chart): a thin see-through wash the minimap shows through, the ten orbits
+-- the stars sit on, a rim with tick marks and faint constellation lines, our own high-resolution art. Every star spot
+-- is a solid point the decoder reads, white when lit and dim when not (on a soft dark socket), so nothing under the
+-- sky can make an unlit star look lit; the guides are bright sparkles on a dark lens that covers their whole 3 x 3.
+local STAR = { dim = { 0.20, 0.26, 0.40 }, halo = 1.6, haloRGB = { 0.72, 0.84, 1.0 }, haloA = 0.7, socket = 1.5,
+  socketA = 0.45, wisp = 0.8 }
+local SPARKLE = 18   -- units across a guide's flares
+local LENS = 6.2   -- units across a guide's lens: solid to 2.23 units out, past its corners' 2.12
 
 local xor = ns.Strip.xor
 
@@ -121,28 +153,49 @@ local function mul(a, b)
   if a == 0 or b == 0 then return 0 end
   return EXP[LOG[a] + LOG[b]]
 end
-local GEN = { 1 }
-for i = 0, Sky.PARITY - 1 do
-  local g = {}
-  for j = 1, #GEN + 1 do
-    g[j] = xor(GEN[j] or 0, mul(GEN[j - 1] or 0, EXP[i]))
+-- The Reed-Solomon generator's coefficients (highest power first) for n repair bytes.
+local GENS = {}
+local function generator(n)
+  if not GENS[n] then
+    local gen = { 1 }
+    for i = 0, n - 1 do
+      local g = {}
+      for j = 1, #gen + 1 do
+        g[j] = xor(gen[j] or 0, mul(gen[j - 1] or 0, EXP[i]))
+      end
+      gen = g
+    end
+    GENS[n] = gen
   end
-  GEN = g
+  return GENS[n]
 end
 
--- The bytes followed by their PARITY Reed-Solomon bytes.
-function Sky.Encode(bytes)
+-- The bytes followed by their n (PARITY unless given) Reed-Solomon bytes.
+function Sky.Encode(bytes, n)
+  local gen = generator(n or Sky.PARITY)
   local out = {}
   for i, b in ipairs(bytes) do out[i] = b end
-  local n = #bytes
-  for i = n + 1, n + Sky.PARITY do out[i] = 0 end
-  for i = 1, n do
+  local len = #bytes
+  for i = len + 1, len + #gen - 1 do out[i] = 0 end
+  for i = 1, len do
     local c = out[i]
     if c ~= 0 then
-      for j = 2, #GEN do out[i + j - 1] = xor(out[i + j - 1], mul(GEN[j], c)) end
+      for j = 2, #gen do out[i + j - 1] = xor(out[i + j - 1], mul(gen[j], c)) end
     end
   end
   for i, b in ipairs(bytes) do out[i] = b end   -- the division used them as scratch: the bytes themselves go first
+  return out
+end
+
+-- Which outer-ring spots shine, RING's order, for its 5 bytes (nil or fewer: zeros, "nothing").
+function Sky.RingBits(bytes)
+  local padded = {}
+  for i = 1, Sky.RING_DATA do padded[i] = bytes and bytes[i] or 0 end
+  local out = {}
+  for i, b in ipairs(Sky.Encode(padded, Sky.RING_PARITY)) do
+    b = xor(b, Sky.RING_WHITEN[i])
+    for k = 7, 0, -1 do out[#out + 1] = math.floor(b / 2 ^ k) % 2 end
+  end
   return out
 end
 
@@ -169,43 +222,68 @@ local function try(fn, ...)
   if ok then return a, b end
 end
 
+local function S() return (LoreForeverDB and LoreForeverDB.settings) or {} end
+
+-- Every star spot drawn: the 488 of SLOTS, then the outer ring's 72 (RING).
+local SPOTS = {}
+for _, xy in ipairs(Sky.SLOTS) do SPOTS[#SPOTS + 1] = xy end
+for _, xy in ipairs(Sky.RING) do SPOTS[#SPOTS + 1] = xy end
+
+-- Where the player put the sky (LOR-530: /lore sky, Options › Willo › Move the sky), its centre as a share of the
+-- screen's width and height from the bottom left; nil while it's on the minimap. Willo looks for it anywhere.
+local function movedTo()
+  local at = S().skyAt
+  if type(at) == "table" and type(at.x) == "number" and type(at.y) == "number" then return at.x, at.y end
+end
+
 -- Where the sky goes, in whole screen pixels: (left, top measured from the bottom, unit, UIParent units a pixel).
--- Centred on the minimap's round map and as big as fits in it; where there's no minimap on screen (another add-on
--- hid it), the top-right corner.
+-- Centred on the minimap's round map and as big as fits in it, or where the player moved it (as big as on the
+-- minimap); where there's no minimap on screen (another add-on hid it), the top-right corner.
 function Sky.Place()
   local _, h = try(GetPhysicalScreenSize)
   if type(h) ~= "number" or h <= 0 then h = 1080 end
   local uh, uw = try(UIParent.GetHeight, UIParent), try(UIParent.GetWidth, UIParent)
   if type(uh) ~= "number" or uh <= 0 or type(uw) ~= "number" then return nil end
   local px = uh / h
+  local wpx = math.floor(uw / px + 0.5)
   local m = _G.Minimap
   local cx, cy, mw
   if m then
     cx, cy = try(m.GetCenter, m)
     mw = try(m.GetWidth, m)
   end
+  local unit
   if m and try(m.IsVisible, m) and type(cx) == "number" and type(cy) == "number" and type(mw) == "number" and mw > 0 then
     local k = (try(m.GetEffectiveScale, m) or 1) / (try(UIParent.GetEffectiveScale, UIParent) or 1)
     cx, cy = cx * k / px, cy * k / px
-    local unit = math.floor(mw * k / px * FILL / U)
-    unit = math.max(MIN_UNIT, math.min(MAX_UNIT, unit))
-    return math.floor(cx - U * unit / 2 + 0.5), math.floor(cy + U * unit / 2 + 0.5), unit, px
+    unit = math.max(MIN_UNIT, math.min(MAX_UNIT, math.floor(mw * k / px * ROUND * FILL / U)))
+  else
+    unit = math.max(MIN_UNIT, math.min(MAX_UNIT, math.floor(h / 540)))
+    cx, cy = wpx - U * unit / 2 - 16, h - U * unit / 2 - 16
   end
-  local unit = math.max(MIN_UNIT, math.min(MAX_UNIT, math.floor(h / 540)))
-  local wpx = math.floor(uw / px + 0.5)
-  return wpx - U * unit - 16, h - 16, unit, px
+  local fx, fy = movedTo()
+  if fx then   -- kept whole on screen
+    local half = U * unit / 2
+    cx = math.max(half, math.min(wpx - half, fx * wpx))
+    cy = math.max(half, math.min(h - half, fy * h))
+  end
+  return math.floor(cx - U * unit / 2 + 0.5), math.floor(cy + U * unit / 2 + 0.5), unit, px
 end
 
-local frame, cores, halos, guides, clouds, wisp, motes = nil, {}, {}, {}, {}, {}, {}
+local frame, cores, dims, sockets, halos, guides, mists, wisp, motes = nil, {}, {}, {}, {}, {}, {}, {}, {}
 local placed, shown, lit = nil, {}, {}
-local seeds = {}
+local moving, mover, outline = false, nil, nil   -- being moved (Sky.Move), its bar and its outline
 
-local function glow(layer, sub, r, g, b, a, blend)
+-- One of our textures on the sky: tinted, at a draw layer, blended over (BLEND) or as added light (ADD). Off the pixel
+-- grid, so a glow centred between pixels stays centred (the cores the companion reads are placed on whole pixels).
+local function art(file, layer, sub, r, g, b, a, blend)
   local t = frame:CreateTexture(nil, layer, nil, sub)
-  t:SetTexture(GLOW)
+  t:SetTexture(MEDIA .. file)
   t:SetVertexColor(r, g, b)
   t:SetAlpha(a)
-  pcall(t.SetBlendMode, t, blend or "ADD")
+  pcall(t.SetBlendMode, t, blend or "BLEND")
+  pcall(t.SetSnapToPixelGrid, t, false)
+  pcall(t.SetTexelSnappingBias, t, 0)
   return t
 end
 
@@ -215,53 +293,67 @@ local function create()
   pcall(frame.SetFrameLevel, frame, 10000)
   frame:EnableMouse(false)
   if frame.SetIgnoreParentAlpha then frame:SetIgnoreParentAlpha(true) end
-  -- The mist: a deep blue disc the map shows faintly through, and lighter wisps of it drifting round.
-  local disc = frame:CreateTexture(nil, "BACKGROUND", nil, -8)
-  disc:SetTexture(DISC)
-  disc:SetVertexColor(0.05, 0.11, 0.29)
-  disc:SetAlpha(0.82)
-  disc:SetAllPoints(frame)
   local rng = 7
   local function rand()   -- a fixed sequence: the same sky every time
     rng = (rng * 1103515245 + 12345) % 2147483648
     return rng / 2147483648
   end
-  for i = 1, 9 do
-    local light = 0.8 + rand() * 0.4
-    clouds[i] = glow("BACKGROUND", -6, 0.36 * light, 0.56 * light, 0.95 * light, 0.42, "BLEND")
-    seeds[i] = { a = rand() * 6.283, r = 4 + rand() * 18, size = 12 + rand() * 12, dir = i % 2 == 0 and 1 or -1 }
-  end
-  wisp[1] = glow("BORDER", 0, 0.35, 0.63, 1.0, 0.5)     -- bloom
-  wisp[2] = glow("BORDER", 1, 0.67, 0.86, 1.0, 0.8)     -- glow
-  wisp[3] = glow("BORDER", 2, 1.0, 1.0, 1.0, 1.0)       -- heart
-  for i = 1, 4 do motes[i] = glow("BORDER", 3, 0.85, 0.94, 1.0, 0.8) end
-  for s = 1, #Sky.SLOTS do
-    local h = glow("ARTWORK", 0, 0.62, 0.78, 1.0, 0.5)
-    h.speed, h.phase, h.size = 1.2 + rand() * 2, rand() * 6.283, rand()
-    h:Hide()
-    halos[s] = h
-    local c = frame:CreateTexture(nil, "OVERLAY", nil, 7)
-    c:SetColorTexture(1, 1, 1, 1)
+  -- The chart: a thin wash, a faint nebula drifting in it (Sky.Animate), and the ink over them.
+  mists[1] = art("Wash", "BACKGROUND", -8, 1, 1, 1, 1)
+  mists[1]:SetAllPoints(frame)
+  mists[2] = art("Nebula", "BACKGROUND", -7, 1, 1, 1, 0.22, "ADD")
+  mists[3] = art("Chart", "BACKGROUND", -6, 0.6, 0.76, 1.0, 0.6)
+  mists[3]:SetAllPoints(frame)
+  wisp[1] = art("Glow", "BORDER", 0, 0.35, 0.63, 1.0, 0.5 * STAR.wisp, "ADD")   -- bloom
+  wisp[2] = art("Glow", "BORDER", 1, 0.67, 0.86, 1.0, 0.8 * STAR.wisp, "ADD")   -- glow
+  wisp[3] = art("Glow", "BORDER", 2, 1.0, 1.0, 1.0, 1.0 * STAR.wisp, "ADD")     -- heart
+  for i = 1, 4 do motes[i] = art("Glow", "BORDER", 3, 0.85, 0.94, 1.0, 0.8 * STAR.wisp, "ADD") end
+  -- Every star spot: its core (OVERLAY, white, shown when lit: what strip_sim and the companion read) and a halo when
+  -- lit; a soft socket and a dim core when not.
+  for s = 1, #SPOTS do
+    local c = frame:CreateTexture(nil, "OVERLAY", nil, 6)
     c:Hide()
     cores[s] = c
   end
+  for s = 1, #SPOTS do
+    local h = art("StarGlow", "ARTWORK", 0, STAR.haloRGB[1], STAR.haloRGB[2], STAR.haloRGB[3], STAR.haloA, "ADD")
+    h.speed, h.phase, h.size = 1.2 + rand() * 2, rand() * 6.283, rand()
+    h:Hide()
+    halos[s] = h
+    local o = art("Socket", "ARTWORK", 3, 0.01, 0.02, 0.06, STAR.socketA)
+    o:Hide()
+    sockets[s] = o
+    local d = frame:CreateTexture(nil, "ARTWORK", nil, 4)
+    d:Hide()
+    dims[s] = d
+  end
+  -- The guides: a dark lens solid over the 3 x 3 and thin flares, under the stars (a flare never lights a star's core);
+  -- the white cross over everything.
   for g = 1, #Sky.GUIDES do
-    local parts = { halo = glow("ARTWORK", 1, 0.62, 0.80, 1.0, 0.6),
-      flares = { glow("ARTWORK", 2, 0.80, 0.90, 1.0, 0.85), glow("ARTWORK", 2, 0.80, 0.90, 1.0, 0.85) }, cells = {} }
+    local parts = { cells = {} }
+    parts.lens = art("Lens", "BORDER", 5, 0.004, 0.008, 0.025, 1)
+    parts.sparkle = art("Sparkle", "BORDER", 6, 0.85, 0.93, 1.0, 0.95, "ADD")
     for _, cell in ipairs(Sky.WHITE_CELLS) do
       local t = frame:CreateTexture(nil, "OVERLAY", nil, 7)
       t:SetColorTexture(1, 1, 1, 1)
       t.cell = cell
       table.insert(parts.cells, t)
     end
-    for _, cell in ipairs(Sky.BLACK_CELLS) do
-      local t = frame:CreateTexture(nil, "OVERLAY", nil, 7)
-      t:SetColorTexture(0, 0, 0, 1)
-      t.cell = cell
-      table.insert(parts.cells, t)
-    end
     guides[g] = parts
   end
+  -- Dragged while it's being moved (Sky.Move): where it's let go is saved, and it settles there on whole pixels.
+  frame:SetMovable(true)
+  frame:SetClampedToScreen(true)
+  frame:SetScript("OnDragStart", function(self) if Sky.Moving() then self:StartMoving() end end)
+  frame:SetScript("OnDragStop", function(self)
+    self:StopMovingOrSizing()
+    if self.SetUserPlaced then self:SetUserPlaced(false) end   -- ours to keep (skyAt), not the game's layout file
+    local cx, cy = self:GetCenter()
+    local uw, uh = UIParent:GetWidth(), UIParent:GetHeight()
+    if cx and cy and uw and uh and uw > 0 and uh > 0 then S().skyAt = { x = cx / uw, y = cy / uh } end
+    Sky.Relayout()
+    if ns.Strip then ns.Strip.Update() end
+  end)
   local acc, clock = 0, 0
   frame:SetScript("OnUpdate", function(_, elapsed)
     acc, clock = acc + (elapsed or 0), clock + (elapsed or 0)
@@ -269,6 +361,33 @@ local function create()
     acc = 0
     Sky.Animate(clock)
   end)
+end
+
+-- A star core's drawn size in pixels: the decoder reads all of it at 2 pixels a unit (a square), the middle pixel at 3,
+-- the inner (unit - 2) x (unit - 2) above. A round core this big covers what's read and looks like a point; at 3 it
+-- fills the 3 x 3 (a 2-pixel one would be a 1-pixel cross with dark corners: a guide to Willo 0.18's finder).
+local function corePixels(unit)
+  if unit <= 2 then return unit end
+  return unit == 3 and 3.6 or unit - 1
+end
+
+-- A core (or a dim one) at slot xy: a square on the slot's whole pixels at 2 pixels a unit, else a round core.
+local function placeCore(t, xy, unit, px, r, g, b)
+  t:ClearAllPoints()
+  local x, y = corner(xy[1], unit), corner(xy[2], unit)
+  if unit <= 2 then
+    t:SetColorTexture(r, g, b, 1)
+    t:SetSize(unit * px, unit * px)
+    t:SetPoint("TOPLEFT", frame, "TOPLEFT", x * px, -y * px)
+  else
+    t:SetTexture(MEDIA .. "Disc")
+    t:SetVertexColor(r, g, b, 1)
+    pcall(t.SetSnapToPixelGrid, t, false)
+    pcall(t.SetTexelSnappingBias, t, 0)
+    local d = corePixels(unit) * px
+    t:SetSize(d, d)
+    t:SetPoint("CENTER", frame, "TOPLEFT", (x + unit / 2) * px, -(y + unit / 2) * px)
+  end
 end
 
 -- Lay the sky out at (left, top) pixels with `unit` pixels a unit; px is UIParent units a pixel. Cores and guides on
@@ -282,19 +401,16 @@ local function layout(left, top, unit, px)
   frame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left * px, top * px)
   frame:SetSize(U * u, U * u)
   frame.u = u
-  for s, xy in ipairs(Sky.SLOTS) do
-    local c = cores[s]
-    -- Round stars where a core is 4 pixels or more (its middle, which the companion reads, stays solid white);
-    -- below that a round texture would only blur them.
-    if unit >= 4 then
-      c:SetTexture(DISC)
-      c:SetVertexColor(1, 1, 1, 1)
-    else
-      c:SetColorTexture(1, 1, 1, 1)
+  local dim = STAR.dim
+  for s, xy in ipairs(SPOTS) do
+    placeCore(cores[s], xy, unit, px, 1, 1, 1)
+    placeCore(dims[s], xy, unit, px, dim[1], dim[2], dim[3])
+    local cx, cy = (corner(xy[1], unit) + unit / 2) * px, -(corner(xy[2], unit) + unit / 2) * px
+    for _, t in ipairs({ sockets[s], halos[s] }) do
+      t:ClearAllPoints()
+      t:SetPoint("CENTER", frame, "TOPLEFT", cx, cy)
     end
-    c:SetSize(u, u)
-    c:ClearAllPoints()
-    c:SetPoint("TOPLEFT", frame, "TOPLEFT", corner(xy[1], unit) * px, -corner(xy[2], unit) * px)
+    sockets[s]:SetSize(STAR.socket * u, STAR.socket * u)
   end
   for g, xy in ipairs(Sky.GUIDES) do
     local parts = guides[g]
@@ -303,10 +419,9 @@ local function layout(left, top, unit, px)
       t:ClearAllPoints()
       t:SetPoint("TOPLEFT", frame, "TOPLEFT", (xy[1] + t.cell[1]) * u, -(xy[2] + t.cell[2]) * u)
     end
-    parts.halo:SetSize(7 * u, 7 * u)
-    parts.flares[1]:SetSize(12 * u, 0.9 * u)
-    parts.flares[2]:SetSize(0.9 * u, 12 * u)
-    for _, t in ipairs({ parts.halo, parts.flares[1], parts.flares[2] }) do
+    parts.lens:SetSize(LENS * u, LENS * u)
+    parts.sparkle:SetSize(SPARKLE * u, SPARKLE * u)
+    for _, t in ipairs({ parts.lens, parts.sparkle }) do
       t:ClearAllPoints()
       t:SetPoint("CENTER", frame, "TOPLEFT", (xy[1] + 1.5) * u, -(xy[2] + 1.5) * u)
     end
@@ -323,52 +438,44 @@ function Sky.Animate(t)
     tex:ClearAllPoints()
     tex:SetPoint("CENTER", frame, "CENTER", x * u, -y * u)
   end
-  for i, c in ipairs(clouds) do
-    local s = seeds[i]
-    local a = s.a + t * 0.06 * s.dir
-    c:SetSize(s.size * u * 2, s.size * u * 1.5)
-    at(c, s.r * math.cos(a), s.r * math.sin(a))
-  end
+  mists[2]:SetSize(U * u * 0.96, U * u * 0.96)   -- the faint nebula in the wash turns slowly
+  at(mists[2], 0, 0)
+  pcall(mists[2].SetRotation, mists[2], 1.3 - t * 0.035)
   local bob, breathe = math.sin(t * 1.6) * 0.4, 1 + 0.08 * math.sin(t * 2.3)
   for i, size in ipairs({ 12, 6.5, 2.8 }) do
-    wisp[i]:SetSize(size * u * breathe, size * u * breathe)
+    wisp[i]:SetSize(size * STAR.wisp * u * breathe, size * STAR.wisp * u * breathe)
     at(wisp[i], 0, bob)
   end
   for i, m in ipairs(motes) do
-    local a, orbit = t * (0.8 + 0.15 * i) + i * 1.57, 3.2 + 0.6 * i
+    local a, orbit = t * (0.8 + 0.15 * i) + i * 1.57, (3.2 + 0.6 * i) * STAR.wisp
     m:SetSize(1.4 * u, 1.4 * u)
     at(m, orbit * math.cos(a), bob + orbit * 0.7 * math.sin(a))
   end
   for s in pairs(lit) do
-    local h, xy = halos[s], Sky.SLOTS[s]
+    local h = halos[s]
     local tw = 0.5 + 0.5 * math.sin(t * h.speed + h.phase)
-    -- At most 3.8 units across: the glow (which fades out evenly to its edge) is all but gone at the next core.
-    local size = (2.2 + 0.8 * h.size + 0.8 * tw) * u
+    -- At most 2.8 units across: the halo (which fades out to nothing at its edge) is gone before the next core.
+    local size = (STAR.halo + 0.7 * h.size + 0.5 * tw) * u
     h:SetSize(size, size)
-    h:SetAlpha(0.4 + 0.5 * tw)
-    at(h, xy[1] / 100 + 0.5 - U / 2, xy[2] / 100 + 0.5 - U / 2)
-  end
-  for g, parts in ipairs(guides) do
-    local tw = 0.5 + 0.5 * math.sin(t * 1.7 + g * 2)
-    parts.flares[1]:SetAlpha(0.55 + 0.35 * tw)
-    parts.flares[2]:SetAlpha(0.55 + 0.35 * tw)
+    h:SetAlpha(STAR.haloA * (0.55 + 0.45 * tw))
   end
 end
 
--- Paint these 45 bytes (Strip.Payload) into the stars, and put the sky where it goes now.
-function Sky.Paint(bytes)
+-- Paint these 45 bytes (Strip.Payload) into the stars, and the outer ring's 5 (Strip.SetRing; nil: nothing), and put
+-- the sky where it goes now.
+function Sky.Paint(bytes, ring)
   if not frame then create() end
   local left, top, unit, px = Sky.Place()
   if not left then return false end
   layout(left, top, unit, px)
-  for s, bit in ipairs(Sky.Bits(bytes)) do
+  local bits = Sky.Bits(bytes)
+  for _, bit in ipairs(Sky.RingBits(ring)) do bits[#bits + 1] = bit end
+  for s, bit in ipairs(bits) do
     if shown[s] ~= bit then
       shown[s] = bit
-      if bit == 1 then
-        cores[s]:Show(); halos[s]:Show(); lit[s] = true
-      else
-        cores[s]:Hide(); halos[s]:Hide(); lit[s] = nil
-      end
+      local on = bit == 1
+      cores[s]:SetShown(on); halos[s]:SetShown(on); dims[s]:SetShown(not on); sockets[s]:SetShown(not on)
+      lit[s] = on or nil
     end
   end
   frame:Show()
@@ -377,6 +484,7 @@ end
 
 function Sky.Hide()
   if frame then frame:Hide() end
+  if mover then mover:Hide() end
 end
 
 -- Out of the player's own screenshots, like the block (Strip.lua's SCREENSHOT_ events).
@@ -386,3 +494,98 @@ end
 
 -- The screen or the interface changed size: lay out again at the next paint.
 function Sky.Relayout() placed = nil end
+
+-- Moving the sky (LOR-530: /lore sky, Options › Willo › Move the sky). While it's being moved it shows, with an outline
+-- to drag it by and a bar under it (Done, Put it back), even with the Lore Forever window closed (Strip.Showing);
+-- without Live game info it shows no game info, just the stars (Strip.lua's paint).
+function Sky.Moving() return moving end
+
+local function chat(msg)
+  if DEFAULT_CHAT_FRAME then DEFAULT_CHAT_FRAME:AddMessage(ns.Theme.CHAT_PREFIX .. msg) end
+end
+
+local function makeMover()
+  local T = ns.Theme
+  mover = CreateFrame("Frame", "LoreForeverSkyMover", UIParent, T and T.BACKDROP_TEMPLATE or nil)
+  mover:SetFrameStrata("TOOLTIP")
+  pcall(mover.SetFrameLevel, mover, 10010)
+  mover:SetClampedToScreen(true)
+  mover:EnableMouse(true)
+  if T then T.Backdrop(mover, "popup") end
+  mover:SetSize(300, 64)
+  local text = mover:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+  text:SetPoint("TOP", 0, -10)
+  text:SetWidth(280)
+  text:SetText(string.format(L["Drag %s's sky where you want it."], ns.COMPANION_NAME))
+  local function button(label, point, x)
+    local b = T and T.Button(mover, label) or CreateFrame("Button", nil, mover, "UIPanelButtonTemplate")
+    b:SetText(label)
+    b:SetSize(110, 22)
+    b:SetPoint(point, mover, "BOTTOM", x, 10)
+    return b
+  end
+  button(L["Done"], "BOTTOMRIGHT", -4):SetScript("OnClick", function() Sky.Move(false) end)
+  button(L["Put it back"], "BOTTOMLEFT", 4):SetScript("OnClick", function() Sky.PutBack() end)
+end
+
+-- Start (true) or stop moving the sky.
+function Sky.Move(on)
+  moving = on and true or false
+  if not frame then create() end
+  frame:EnableMouse(moving)
+  if moving then
+    frame:RegisterForDrag("LeftButton")
+    if not mover then makeMover() end
+    mover:ClearAllPoints()
+    mover:SetPoint("TOP", frame, "BOTTOM", 0, -6)
+    if not outline and ns.Theme and ns.Theme.Outline then outline = ns.Theme.Outline(frame, "gold", "OVERLAY") end
+  end
+  if mover then mover:SetShown(moving) end
+  if outline then outline:SetShown(moving) end
+  if ns.Strip then ns.Strip.Update() end
+  if moving then
+    chat(string.format(L["drag %s's sky where you want it, then click Done. Put it back returns it to the minimap."],
+      ns.COMPANION_NAME))
+  end
+end
+
+-- Back on the minimap, where it starts.
+function Sky.PutBack()
+  S().skyAt = nil
+  Sky.Relayout()
+  if ns.Strip then ns.Strip.Update() end
+end
+
+function Sky.IsMoved() return movedTo() ~= nil end
+
+-- The Move the sky / Put it back row in Options › Willo (Options.lua), under `anchor`: returns the row, and a function
+-- that shows and enables its buttons (shown: the Willo section shows; on: Willo is installed).
+function Sky.OptionsRow(parent, anchor)
+  local row = CreateFrame("Frame", nil, parent)
+  row:SetSize(1, 24)
+  row:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", 0, -10)
+  local function button(label, width)
+    local b = ns.Theme.Button(parent, label)
+    b:SetSize(width, 24)
+    return b
+  end
+  local move = button(L["Move the sky..."], 150)
+  move:SetPoint("TOPLEFT", row, "TOPLEFT", 0, 0)
+  move:SetScript("OnClick", function() Sky.Move(not Sky.Moving()) end)
+  move:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(L["Move the sky..."])
+    ns.Theme.Tip(string.format(L["Drag the sky anywhere on your screen, for example when another add-on covers your minimap. %s finds it wherever it is. Same as /lore sky."], ns.COMPANION_NAME), "tipText", true)
+    GameTooltip:Show()
+  end)
+  move:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  local back = button(L["Put it back"], 130)
+  back:SetPoint("LEFT", move, "RIGHT", 10, 0)
+  back:SetScript("OnClick", function() Sky.PutBack() end)
+  local function update(shown, on)
+    move:SetShown(shown)
+    back:SetShown(shown)
+    if on then move:Enable(); back:Enable() else move:Disable(); back:Disable() end
+  end
+  return row, update
+end

@@ -267,7 +267,7 @@ test("the beta's checkout: Keep Hero with no free month is a 30-day trial, Champ
     ["Answers a day", "20 | 100 | 200 | 300"],
     ["Willo's voice: when you ask out loud", "Your first 30 answers | Studio | Pick from five | Finest"],
     ["Characters' own voices", "— | — | ✓ | ✓"],
-    ["Ask out loud and Willo sees your game", "— | ✓ | ✓ | ✓"],
+    ["Willo sees your game", "— | ✓ | ✓ | ✓"],
     ["Checks the web when the lore runs out", "— | ✓ | ✓ | ✓"],
     ["Willo's style", "— | Presets | Presets or your own words | Presets or your own words"],
     ["Longer memory", "— | — | ✓ | ✓"],

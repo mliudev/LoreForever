@@ -1,0 +1,110 @@
+{
+ "key": "quest:96655",
+ "type": "quest",
+ "name": "Camping 101: Cooking",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96655
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Cooking is the core requirement for building a basic campfire, forming the indispensable anchor for wilderness survival and campsite setup."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Adventurers starting out across Durotar can report to Cook Torka in Razor Hill to learn the foundational trade of cooking."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is camping 101 cooking",
+    "camping 101 cooking quest",
+    "what does this quest do"
+   ],
+   "answer": "Camping 101: Cooking is an introductory quest that teaches adventurers the fundamentals of outdoor survival. By learning cooking and campfire creation, adventurers gain the ability to establish their own campsites anywhere in the wild.",
+   "q": "What is the quest Camping 101: Cooking?"
+  },
+  {
+   "aliases": [
+    "who teaches cooking razor hill",
+    "who is cook torka",
+    "where is cook torka"
+   ],
+   "answer": "Cook Torka is the Horde cooking trainer located in Razor Hill in Durotar. She teaches aspiring adventurers the basics of the cooking profession and how to light a basic campfire.",
+   "q": "Who is Cook Torka?"
+  },
+  {
+   "aliases": [
+    "why do i need cooking for camping",
+    "cooking campfire connection",
+    "does camping require cooking"
+   ],
+   "answer": "Cooking is not just for preparing food; the campfire built through cooking serves as the foundational anchor for pitching a camp. Without a fire, a proper campsite cannot be maintained out in the wilderness.",
+   "q": "Why is cooking required for camping?"
+  },
+  {
+   "aliases": [
+    "where can i camp",
+    "how does camping work",
+    "campsite placement"
+   ],
+   "answer": "Once you learn the basics of cooking and campfire creation, you are able to set up a small campsite almost anywhere out in the open wilderness. Initial campsites are basic and cannot support many furnishings.",
+   "q": "Where can an adventurer set up a campsite?"
+  },
+  {
+   "aliases": [
+    "bigger campfires",
+    "upgrade campfire",
+    "how to improve campsite"
+   ],
+   "answer": "As you raise your proficiency in the cooking profession, you can learn to construct larger, more enduring campfires, allowing for greater campsite capabilities.",
+   "q": "How do you upgrade your campfire?"
+  },
+  {
+   "aliases": [
+    "campsite decorations",
+    "furnishing camp",
+    "camp furnishings trainers"
+   ],
+   "answer": "While cooking provides the campfire foundation, other tradeskill trainers across the world can teach adventurers how to craft and place additional furnishings to customize and expand their campsites.",
+   "q": "How do you obtain furnishings for a campsite?"
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping 101",
+  "camping 101: cooking",
+  "campsite",
+  "cook torka",
+  "cooking",
+  "durotar",
+  "furnishings",
+  "razor hill"
+ ],
+ "related": [
+  "subzone:razor-hill"
+ ],
+ "sections": [
+  {
+   "body": "For any wanderer setting foot beyond settlement gates, surviving the wilderness requires more than sharp steel and sturdy armor. The quest Camping 101: Cooking directs budding adventurers to Cook Torka in Razor Hill to learn the culinary arts. In the open wastes of Durotar and beyond, cooking represents far more than preparing a hot meal\u2014it is the foundational discipline required to light a reliable campfire, which serves as the heart of any campsite.",
+   "spoiler": 0,
+   "title": "The Hearth of the Wild"
+  },
+  {
+   "body": "Mastering the basics allows travelers to pitch a modest camp nearly anywhere across the frontier. While a novice campfire supports only a handful of essential furnishings, further dedication to the craft opens new possibilities. Deepening one's cooking expertise allows the construction of larger blazes, while pursuing other trade skills provides the craftsmanship needed to furnish and enhance camps into reliable bastions against the untamed wild.",
+   "spoiler": 0,
+   "title": "Building and Furnishing a Camp"
+  }
+ ],
+ "summary": "Camping 101: Cooking introduces adventurers to the essential craft of survival in the wilderness. By directing travelers to Cook Torka in Razor Hill, it teaches the fundamentals of cooking and campfire creation necessary to establish personal campsites in the wild.",
+ "attribution": [
+  "In-game quest text: Camping 101: Cooking"
+ ]
+}

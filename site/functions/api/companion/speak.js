@@ -3,7 +3,8 @@
 //        gender, "dwarf-male", said in their own voice where one is set up and the plan has one, else in Willo's),
 //        reply (the companion's id for the reply, the same for each of its pieces; optional: without it the piece is
 //        a reply of its own), line (optional, true: one of Willo's own lines, a tip or a hello, said in the voice the
-//        replies get now but never counted as one; its cost is a reply's)} -> 200 audio/mpeg; a line's X-LF-Voice
+//        replies get now but never counted as one; its cost is a reply's), reading (optional, with line: the add-on's
+//        own short answer read aloud, LOR-547, never in the finest voice)} -> 200 audio/mpeg; a line's X-LF-Voice
 //        header says which voice said it and its pick ("finest:moonwell"), by which the companion keeps it
 //   Anything else says the companion should say it in Willo's own voice on the PC: {ok: false, speak: "local", reason}
 //   with reason "off" (plans are off, 404), "plan" (the plan's replies are said on the PC, 402), "spent" (the month's
@@ -55,7 +56,8 @@ export async function onRequest({ request, env, waitUntil }) {
   // What a said piece cost is written after its audio has gone back (waitUntil): its hold already counts against the
   // month's cap, so nothing can slip past it meanwhile.
   const said = await speakPiece(env, app.user.id, plan,
-    { text, voice: body.voice, reply: body.reply ?? crypto.randomUUID(), pick, line: body.line === true }, now,
+    { text, voice: body.voice, reply: body.reply ?? crypto.randomUUID(), pick, line: body.line === true,
+      reading: body.line === true && body.reading === true }, now,
     typeof waitUntil === "function" ? waitUntil : null);
   if (!said.audio) return local(said.status, said.local);
   return new Response(said.audio, { headers: { ...noStore, "Content-Type": "audio/mpeg",

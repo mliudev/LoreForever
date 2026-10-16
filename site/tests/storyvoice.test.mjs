@@ -458,6 +458,46 @@ test("another language is read from a native speaker's reference, never the Engl
   delete env.OPENROUTER_API_KEY;
 });
 
+test("a German story recorded before its new reference is read again once; English keys are unchanged", async () => {
+  env.OPENROUTER_API_KEY = "or-test-key";
+  openrouter();
+  await putRef("de", "Lange bevor die Städte entstanden.");
+  const me = await makeProfile("hilde");
+  await setLocale("hilde", "de");
+  await setupStoryVoice(env);
+  // Takes from before 2026-10-15, under the key without the German voice edition.
+  const old = (await sha256(`${me.user.id}\n${STORY}`)).slice(0, 16), now = new Date().toISOString();
+  for (const [part, { para, text }] of storyParts(STORY).entries()) {
+    await env.DB.prepare("INSERT INTO story_audio (user_id, story, voice, part, para, chars, status, sha, sec, created, updated) " +
+      "VALUES (?, ?, 'male-narrator', ?, ?, ?, 'done', '0123456789', 1, ?, ?)").bind(me.user.id, old, part, para, text.length, now, now).run();
+    await env.STUDIO.put(takeKey(me.user.id, old, "male-narrator", part), MP3(part));
+  }
+  await viewAndWait("hilde");
+  assert.equal(speech.length, storyParts(STORY).length, "every part is read again in the new voice");
+  const fresh = await storyKey(me.user.id, STORY, "de");
+  assert.notEqual(fresh, old);
+  assert.ok((await rows()).every(r => r.story === fresh), "the old takes' rows are gone");
+  assert.ok(![...env.STUDIO.objects.keys()].some(k => k.includes(`/${old}/`)), "the old takes are gone");
+  await viewAndWait("hilde");
+  assert.equal(speech.length, storyParts(STORY).length, "only once");
+  assert.equal(await storyKey(me.user.id, STORY, "en"), old, "English stories keep their recordings");
+  assert.equal(await storyKey(me.user.id, STORY, "pt"), old, "so do languages without a new reference");
+  delete env.OPENROUTER_API_KEY;
+});
+
+test("a paused language stays text: nothing recorded and no Listen, even with its reference in place", async () => {
+  env.OPENROUTER_API_KEY = "or-test-key";
+  openrouter();
+  await putRef("pt", "Muito antes de surgirem as cidades.");
+  await makeProfile("lua");
+  await setLocale("lua", "pt");
+  const html = await viewAndWait("lua");
+  assert.equal(speech.length, 0);
+  assert.equal((await rows()).length, 0);
+  assert.equal(listenData(html), null);
+  delete env.OPENROUTER_API_KEY;
+});
+
 test("fal reads English stories only", async () => {
   await makeProfile("sombra");
   await setLocale("sombra", "es");

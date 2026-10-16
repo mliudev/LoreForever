@@ -1,0 +1,113 @@
+{
+ "key": "quest:99158",
+ "type": "quest",
+ "name": "Dawn in the Mountains",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99158
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Father Gavin embodies the gentler, restorative path of the priesthood, choosing to minister to travelers and tend wounds rather than wield weapons on the front lines of the Argent Dawn."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Providing supplies to an Argent Dawn shelter like Misty Pine Refuge aids neutral humanitarian work in contested and hazardous mountainous terrain."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Argent Dawn accepts aid and offers sanctuary regardless of allegiance, making outposts like Father Gavin's a rare safe haven in the wilderness."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is father gavin",
+    "father gavin lore",
+    "who is the priest at misty pine"
+   ],
+   "answer": "Father Gavin is a priest affiliated with the Argent Dawn stationed up in the mountains. Unlike many in his holy order who take up arms against the unholy, Gavin is dedicated primarily to healing, comforting travelers, and providing shelter at Misty Pine Refuge.",
+   "q": "Who is Father Gavin?"
+  },
+  {
+   "aliases": [
+    "what is misty pine refuge",
+    "where is misty pine refuge",
+    "misty pine refuge lore"
+   ],
+   "answer": "Misty Pine Refuge is a rest stop for mountain travelers established by Father Gavin. He renovated an old building in the wilderness to create a peaceful sanctuary where wanderers can recover, rest, and receive healing.",
+   "q": "What is Misty Pine Refuge?"
+  },
+  {
+   "aliases": [
+    "what is the argent dawn",
+    "argent dawn purpose",
+    "who are argent dawn"
+   ],
+   "answer": "The Argent Dawn is a dedicated holy order committed to seeking out and destroying unholy and unnatural threats throughout Azeroth, while offering aid and solace to those struggling to survive in troubled lands.",
+   "q": "What is the Argent Dawn?"
+  },
+  {
+   "aliases": [
+    "why candles",
+    "holy candles purpose",
+    "crate of candles delivery"
+   ],
+   "answer": "The crate of holy candles is meant to replenish Father Gavin's supplies at Misty Pine Refuge. In holy ministries and remote sanctuaries, consecrated candles are essential for religious rites, prayer, and lighting the refuge for weary travelers.",
+   "q": "Why does Father Gavin need a shipment of holy candles?"
+  },
+  {
+   "aliases": [
+    "does father gavin fight",
+    "is father gavin a fighter"
+   ],
+   "answer": "Father Gavin prefers healing and sheltering travelers over taking up a weapon. While the Argent Dawn is known for martial crusade against darkness, Gavin serves the order through compassion, hospitality, and spiritual care.",
+   "q": "Does Father Gavin take up arms like other Argent Dawn members?"
+  },
+  {
+   "aliases": [
+    "who gave this quest",
+    "where does dawn in the mountains lead"
+   ],
+   "answer": "The request asks a traveler heading into the mountains to carry a crate of holy candles directly to Father Gavin at Misty Pine Refuge, supporting his humble mountain sanctuary.",
+   "q": "What is the purpose of the quest Dawn in the Mountains?"
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "dawn in the mountains",
+  "father gavin",
+  "holy candles",
+  "misty pine refuge",
+  "priest",
+  "refuge"
+ ],
+ "related": [
+  "subzone:misty-pine-refuge",
+  "topic:argent-dawn",
+  "topic:priest",
+  "quest:938"
+ ],
+ "sections": [
+  {
+   "body": "While many within the Argent Dawn take up arms to purge unholy horrors from Azeroth, some choose the gentler calling of the Light. Father Gavin, a priest dwelling in the rugged mountain wilderness, has turned away from the blade to focus wholly on healing the afflicted and tending to the weary. Taking an abandoned structure, he restored it into Misty Pine Refuge, a safe stop for travelers facing the perils of the high passes.",
+   "spoiler": 0,
+   "title": "A Sanctuary in the Peaks"
+  },
+  {
+   "body": "Maintaining an isolated refuge in the mountains requires constant upkeep and practical devotion. To sustain his spiritual ministry and keep the lamps and altars burning, Father Gavin relies on the charity of distant allies. A delivery of consecrated candles ensures that the sanctuary remains a beacon of light, warmth, and hope amidst the unforgiving wilderness.",
+   "spoiler": 0,
+   "title": "Candles for the Light"
+  }
+ ],
+ "summary": "Dawn in the Mountains is a quest to deliver a shipment of holy candles to Father Gavin at Misty Pine Refuge. A gentle priest of the Argent Dawn, Gavin maintains this mountain shelter to heal and comfort weary travelers rather than wage war with weapons.",
+ "attribution": [
+  "In-game quest text: Dawn in the Mountains"
+ ]
+}

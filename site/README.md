@@ -73,7 +73,7 @@ desktop originals to hide player names and chat, then saved as JPEG:
 
 | File | Shows | Source |
 | --- | --- | --- |
-| `01-stormwind-panel.jpg` | The panel in Stormwind; also the blurred banner background and link-preview image | `Screenshot 2026-09-27 170347.png` |
+| `01-stormwind-panel.jpg` | The panel in Stormwind; the source of the link-preview image | `Screenshot 2026-09-27 170347.png` |
 | `02-zephras-quest-chat.jpg` | Follow-up questions about a Skyborne quest (in the "Ask" section) | `170757` |
 | `03-npc-tooltip.jpg` | Lore line on an NPC tooltip | `170337` |
 | `05-zone-hint-chat.jpg` | Zone-entry chat message with a question and Listen link | `170842` |
@@ -94,7 +94,10 @@ Left out: `171159` (item tooltip) shows a "Keep: wanted for the quest" line that
   every minute while it's open. CurseForge comes from its official API when the `CURSEFORGE_API_KEY` secret is set
   (a free key from console.curseforge.com, the freshest number), else cfwidget's exact total (about hourly), else
   shields.io's rounded badge. An optional `GITHUB_TOKEN` secret (no scopes needed) lifts GitHub's 60 calls an hour.
-  If a source fails there, the page asks it from the browser instead.
+  If a source fails there, the page asks it from the browser instead. Willo's own count (`willo`) is apart: her
+  `Willo-Setup.exe` downloads on GitHub, never in the add-on's, or the site's `/download/willo` count when GitHub fails.
+  The home page shows it under her download button once it's above 0 (from the browser's own GitHub look too, taking
+  the larger number, when the server only had the site's count).
 - **Clicks from this page:** each click on a download link (Get it on CurseForge, Windows installer or zip) adds
   one to a per-day tally in a free D1 database. It's the site's only signal for CurseForge clicks, since those
   downloads happen on CurseForge.
@@ -157,7 +160,7 @@ them next to Privacy, and /plans links them by its buttons. They state the plans
 
 `public/feedback.html` (served at https://loreforeverwow.com/feedback) posts to `functions/api/feedback.js`,
 which saves each report in the same `loreforever` D1 database (table `feedback`, created on the first report).
-Linked from the landing page's sidebar, footer and Known limits tab, the public README and the CurseForge listing.
+Linked from the landing page's footer, its FAQ and Known limits, the public README and the CurseForge listing.
 
 - **Sign-in required (LOR-106):** sending feedback needs a Lore Forever account (Google sign-in, see "Voice profiles
   and contributor accounts" below). Signed out, the page shows a "Sign in to send feedback" box instead of the form;
@@ -254,7 +257,8 @@ first three with a bold lead-in). The home page's **"New in X.Y" strip** (`#newb
 and the What's new link gets a green dot while there's a version the visitor hasn't seen. "Seen" is `lf-seen` in
 localStorage, set by opening What's new, following the strip or closing it; a first visit gets no dot, and the strip
 stays until it's closed. **All three come from `CHANGELOG.md`**: `scripts/changelog.py site` writes the page, the strip
-and `LATEST` in `header.js` along with the Changelog tab, and `scripts/release.sh` runs it at the stamp.
+and `LATEST` in `header.js` (the home page's Version line too; it has no Changelog tab since the 2026-10-15
+revamp), and `scripts/release.sh` runs it at the stamp.
 
 ## Downloads, voice list and likes
 
@@ -313,7 +317,8 @@ narrators are ordinary entries, listed like any community voice.
 - **Publishing a contributor's voice:** the submission (dashboard, webhook, or `GET /api/voices`) carries
   `voice_id` and `user_id`. Add a `voices.json` entry with `"id": <voice_id>` and `"owner": <user_id>`. Its profile
   then shows the bio the contributor writes on their account page, and their name and links if they chose to show
-  them. If they delete their account, the voice drops off the site at once (and so do their D1 rows).
+  them. If they delete their account, the voice drops off the site at once (and so do their D1 rows). A voice sent
+  from the upload page: "Publishing a studio voice" below.
 - **Pages setting:** `GOOGLE_CLIENT_ID` (plain variable, Production and Preview; the OAuth web client in the GCP
   project under mike.liu.dev@gmail.com). Its authorized JavaScript origins must include every host that serves
   `/account`: the domain, `lore-forever.pages.dev` and the develop site `develop.lore-forever.pages.dev` (test
@@ -922,7 +927,16 @@ plan, when it renews, changes or ends, "Switch to <plan>" links that open the co
 - **Off by default:** without `STRIPE_SECRET_KEY` the section stays hidden, the API answers 503 (`plans` says
   `{on: false}`), and live answers use the free plan's limits.
 - /admin's **Plans** tile: paying players, the monthly revenue estimate (before Stripe's fees), accounts by plan and status, what paying players' answers cost this month, finest-voice packs sold this
-  month, their replies still unused and what their replies cost this month.
+  month, their replies still unused and what their replies cost this month. Comped plans (a coupon in `COMP_COUPONS`,
+  such as Mike's `owner-legend-free`, or any 100%-off coupon past one invoice) and plans on admin or test accounts are
+  counted apart, never as revenue: `plan_log` keeps each subscription's dates and comp, written by the webhook, with
+  its coupons read from Stripe (GET only) when /admin loads (`checkPlanLog`).
+- **Willo analytics** (LOR-524, `lib/willo-stats.js`; /admin > Growth > Willo, and the Overview tile): downloads
+  (`/download/willo`, D1 `downloads`), daily and weekly players (accounts that asked Willo at least once that UTC day /
+  in the 7 days ending it: `answer_days`, counts only, kept 90 days), installs running her (the daily check-in), and
+  plans by `subscriptionReport` (paying by plan, MRR at full price, trials, comped, beta offers, voice packs, new and
+  cancelled per day). The "Daily Analytics" routine's Slack post in #analytics reads `/api/admin`'s `willo.summary`
+  (the last whole UTC day) and `willo.subscriptions`.
 - Tests: `site/tests/billing.test.mjs` (Stripe and Gemini mocked) and `site/tests/companion-voice.test.mjs` (the voice
   providers mocked). The lifecycle against real Stripe in test mode: `node site/tests/stripe-lifecycle.mjs` (not part
   of the suite: it needs the network and a test key) boots two local copies of the site (one inside launch week) with
@@ -1165,8 +1179,41 @@ own setup; the page only takes files. `public/voices/studio.html` + `studio.js` 
   preview) fetches the files through `GET /api/studio/export` and `/api/studio/audio` into `dist/studio/<voice id>/`,
   each brought to the narrators' level (-18 LUFS) and encoded like our packs (`--keep-levels` copies files that
   already meet the guide as they are). It prints the `voicepack build` command to run after listening. Then publish as usual
-  (a `voices.json` entry with `"id": <voice id>` and `"owner": <user id>`).
+  (a `voices.json` entry with `"id": <voice id>` and `"owner": <user id>`). The whole path is the recipe below.
 - Without the `STUDIO` binding the page says uploads aren't switched on yet and points to the folder-link form.
+
+### Publishing a studio voice
+
+The daily audience-feedback routine files a P-LOR-9 Linear issue for each voice sent for review. There's no review
+queue: takes that pass the quality bar ship. Never copy the submission's email or signature anywhere (the issue, the
+PR, a file); `GET /api/voices` has them, so read only `voice_id`, `user_id` and `credit` from it. The export has neither.
+First done for Browniee's voice (LOR-517).
+
+1. **Worktree and key:** `scripts/new-worktree.sh voice/<voice id>`, then in it `set -a; . ~/git/lore-forever/.env;
+   set +a` (FEEDBACK_KEY).
+2. **Fetch:** `cd pipeline && uv run python -m lore.voicepack studio <voice id>`. Originals land in
+   `dist/studio/<voice id>.raw/`, copies at the narrators' level in `dist/studio/<voice id>/`. It skips lines whose
+   text changed since the upload, and prints the `build` command.
+3. **Check:** `node site/tests/check-takes.mjs dist/studio/<voice id>.raw/*` runs `quality.js` on each original (exit 1
+   when one is refused). Warnings don't hold a take. Also check that each take reads its line: listen, or compare a
+   Whisper transcript with the text. Delete a refused or wrong take from `dist/studio/<voice id>/` and ship the rest.
+   Only when none pass, say why in the issue and leave the submission open.
+4. **Build:** run the printed command with the credit line from the submission, for example
+   `uv run python -m lore.voicepack build ../dist/studio/browniee-s-voice --name BrownieeSVoice --title "Browniee's
+   voice" --credit "Narrated by Browniee" --author Browniee --races "Night elf" --sample zone:teldrassil`. It writes a
+   frozen text and voice pack (each take keeps the words it read, #699). Copy `dist/LoreForever_Voice_<Name>/` into
+   `addon/`, then `python3 scripts/audio_store.py migrate LoreForever_Voice_<Name>`. That puts the recordings in the
+   asset store and gitignores its `Audio/`.
+5. **Release it:** add the folder to `RELEASE_PACKS` in `scripts/build-release.sh` and to `DOWNLOADS` in
+   `scripts/build-voice-packs.sh`. Each release then attaches `LoreForever_Voice_<Name>.zip` to the GitHub release.
+6. **Site:** add a `voices.json` entry with `"status": "soon"`, `id`, `owner` (the `user_id`), `credit`, `addon`,
+   `clips`, `coverage`, `download`
+   (`https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_<Name>.zip`) and a `sample`
+   (copy one take to `public/audio/voices/<voice id>-<place>.mp3`). The bio and links come from the contributor's
+   account. Open the PR and hand it to the release coordinator.
+7. **After the release that first ships the zip:** a small PR flips `status` to `live` (then the site goes live as
+   usual), `POST /api/admin` `{"action": "voice-status", "id": <submission id>, "status": "done"}` with the admin
+   key, and close the issue. If the contributor sends again later, repeat the same steps. Nothing else changes the pack.
 
 ## Lend your voice (/voices/lend, LOR-230)
 

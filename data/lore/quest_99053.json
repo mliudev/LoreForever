@@ -1,0 +1,118 @@
+{
+ "key": "quest:99053",
+ "type": "quest",
+ "name": "Escaping Ban'ethil",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99053
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Sentinel Lynessa Duskblossom is a sister-in-arms whose entrapment beneath the roots cuts against the night elves' sacred bond with the open stars and canopy of Teldrassil."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Ban'ethil Barrow Den is intended as a sanctuary for slumbering druids communing with the Emerald Dream, making its fall to feral furbolg an urgent crisis for Cenarion protectors."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Safeguarding Darnassus and Teldrassil requires aiding the Sentinels against the mounting hostility of corrupted native wildlife and tribes."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is lynessa duskblossom",
+    "lynessa duskblossom",
+    "who is trapped in the barrow den"
+   ],
+   "answer": "Sentinel Lynessa Duskblossom is a night elf sentinel stationed on Teldrassil. She was dispatched by the Oracle Tree to deliver a vital message to the druids resting within Ban'ethil Barrow Den, but she was ambushed and captured by Gnarlpine furbolg deep underground.",
+   "q": "Who is Sentinel Lynessa Duskblossom?"
+  },
+  {
+   "aliases": [
+    "why did lynessa go to banethil",
+    "what was lynessa's mission",
+    "oracle tree message"
+   ],
+   "answer": "She was sent on an official mission by the Oracle Tree to carry a message to the druids slumbering within Ban'ethil Barrow Den. Upon reaching the subterranean den, she discovered it had fallen to hostile furbolg before she could deliver her missive.",
+   "q": "Why did Sentinel Lynessa enter Ban'ethil Barrow Den?"
+  },
+  {
+   "aliases": [
+    "who captured lynessa",
+    "what furbolg are in banethil",
+    "gnarlpine furbolg"
+   ],
+   "answer": "She was taken captive by the Gnarlpine furbolg inhabiting the barrow den. Hostile and aggressive, the tribe ambushed her before she could escape and dragged her down into the depths, leaving her fearing she would become their next meal.",
+   "q": "Who captured Sentinel Lynessa?"
+  },
+  {
+   "aliases": [
+    "where is banethil barrow den",
+    "what is banethil barrow den",
+    "barrow den teldrassil"
+   ],
+   "answer": "Ban'ethil Barrow Den is a subterranean sanctuary located on Teldrassil, east of Dolanaar. Traditionally carved beneath the earth as a resting place for night elf druids entering deep communion, it has become overrun by corrupt Gnarlpine furbolg.",
+   "q": "What is Ban'ethil Barrow Den?"
+  },
+  {
+   "aliases": [
+    "who is kyra starsong",
+    "where do i turn in escaping banethil",
+    "dolanaar sentinel"
+   ],
+   "answer": "Sentinel Kyra Starsong is a night elf sentinel posted in the village of Dolanaar. She is a close personal friend of Lynessa Duskblossom and eagerly awaits news of Lynessa's escape and return to safety.",
+   "q": "Who is Sentinel Kyra Starsong?"
+  },
+  {
+   "aliases": [
+    "why do night elves dislike barrow dens",
+    "under the earth is no place for kaldorei"
+   ],
+   "answer": "While druids utilize barrow dens for sacred slumber, many night elf sentinels and warriors strongly dislike being trapped underground. Kaldorei culture cherishes the open night sky, the starlight of Elune, and the sheltering branches of the forest canopy over subterranean tunnels.",
+   "q": "Why does Lynessa loathe being underground?"
+  }
+ ],
+ "keywords": [
+  "ban'ethil barrow den",
+  "dolanaar",
+  "escaping ban'ethil",
+  "furbolg",
+  "gnarlpine",
+  "kaldorei",
+  "kyra starsong",
+  "lynessa duskblossom",
+  "oracle tree",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:ban-ethil-barrow-den",
+  "subzone:dolanaar",
+  "topic:furbolg",
+  "topic:druid",
+  "topic:elune"
+ ],
+ "sections": [
+  {
+   "body": "Sentinel Lynessa Duskblossom was dispatched on an urgent errand by the Oracle Tree to convey a message to the druids resting within Ban'ethil Barrow Den. What was meant to be a routine courier duty turned disastrous when she discovered the subterranean chambers thoroughly overrun by aggressive Gnarlpine furbolg. Cut off and ambushed before she could retreat, she was taken prisoner in the dark tunnels, fearing a grim demise at the hands of the tribe until an adventurer intervened to fight her to the surface.",
+   "spoiler": 0,
+   "title": "Ambushed Beneath the Roots"
+  },
+  {
+   "body": "For the kaldorei Sentinels, the subterranean gloom of a barrow den is an unnatural and abhorrent place to be trapped, far removed from the soothing starlight of Elune and the open air of Teldrassil. Following her rescue from the depths, Lynessa makes her escape back toward civilization while word of her survival is carried to Dolanaar. There, Sentinel Kyra Starsong receives the news of her friend's survival with profound relief, rewarding those who aided her comrade in defending the kaldorei people.",
+   "spoiler": 0,
+   "title": "Safe Return to Dolanaar"
+  }
+ ],
+ "summary": "Escaping Ban'ethil is a rescue mission within the subterranean barrow den on Teldrassil. Sentinel Lynessa Duskblossom, captured by aggressive Gnarlpine furbolg while delivering a message to slumbering druids, must be escorted safely back to the surface and reported safe to Dolanaar.",
+ "attribution": [
+  "In-game quest text: Escaping Ban'ethil"
+ ]
+}

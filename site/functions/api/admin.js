@@ -32,6 +32,9 @@
 // "companionWeeks" (lib/checkins.js: companion installs in use and returning, LOR-422); each null until it has a table.
 // "features": lib/featureuse.js featureReport, which features every companion install's add-on and companion used, by
 // level range and new or returning install, and the 30-day trend (LOR-435).
+// "willo": lib/willo-stats.js willoReport, Willo's downloads, daily and weekly players and installs running, with
+// "subscriptions" (plans.subscriptions, lib/billing.js subscriptionReport) (LOR-524). The "Daily Analytics" routine's
+// Slack post reads its summary.
 // Every account count leaves out the admin's and excluded accounts (lib/activity.js syncExclusions, brought up to date
 // on each load, the counts taken again when that changed anything: the account signed in on this browser,
 // ANALYTICS_EXCLUDE, and those left out by hand); users[].excluded says why.
@@ -53,6 +56,7 @@ import { storesReport } from "../../lib/stores.js";
 import { checkinReport, checkinWeeks } from "../../lib/checkins.js";
 import { featureReport } from "../../lib/featureuse.js";
 import { billingReport } from "../../lib/billing.js";
+import { willoReport } from "../../lib/willo-stats.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
 const json = (body, status = 200, headers = {}) => Response.json(body, { status, headers: { ...NO_STORE, ...headers } });
@@ -158,7 +162,7 @@ export async function onRequestGet({ request, env }) {
 
   const [[[subscribers, feedback, downloads, clicks, voices, translations, translationReports, users, signupCounts,
            signupDays], usage, activity, funnel], [spend, answerSpend], plans, contributions, site,
-         [downloadTotals, downloadSources], features, stores, companions, companionWeeks] = await Promise.all([
+         [downloadTotals, downloadSources], features, stores, companions, companionWeeks, willo] = await Promise.all([
     accountCounts,
     // Profile stories (lib/profiles.js): what this month's cost so far against the monthly budget.
     part("spend", () => Promise.all([
@@ -167,8 +171,8 @@ export async function onRequestGet({ request, env }) {
         .then(s => s || { actual_micro: 0, reserved_micro: 0, calls: 0 }),
     ])),
     // Plans (lib/billing.js): accounts by plan and status, the monthly revenue estimate, paying players' answer costs
-    // and top-ups.
-    time("plans", () => safe(billingReport(env))),
+    // and top-ups. Comped and owner plans stay out of the revenue, so it waits for excluded_accounts.
+    part("plans", () => safe(billingReport(env))),
     // Shared Forever text (LOR-236): counts by status and the latest uploads, to spot and reject spam.
     part("contributions", async () => {
       await safe(setupContrib(env));
@@ -185,6 +189,7 @@ export async function onRequestGet({ request, env }) {
     time("stores", () => safe(storesReport(env))),
     time("companions", () => safe(checkinReport(env))),
     time("companionWeeks", () => safe(checkinWeeks(env, funnelFrom(now)))),
+    part("willo", () => safe(willoReport(env, now))),
   ]);
   const signups = { ...(signupCounts || { accounts: 0, profiles: 0, public: 0, today: 0, week: 0, month: 0 }),
                     days: signupDays };
@@ -204,7 +209,8 @@ export async function onRequestGet({ request, env }) {
   if (funnel) Object.assign(funnel, { stores, companions, companionWeeks });
   return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users,
                 stories, answers, plans, contributions, signups, usage, site, downloadTotals, downloadSources, activity, funnel,
-                features }, 200, { "Server-Timing": header() });
+                features, willo: willo && { ...willo, subscriptions: plans?.subscriptions || null } },
+              200, { "Server-Timing": header() });
 }
 
 export async function onRequestPost({ request, env }) {

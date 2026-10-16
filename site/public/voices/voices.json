@@ -1,5 +1,5 @@
 {
-  "_readme": "Every voice on /voices, in page order. Adding a voice = one entry here plus its sample file under public/audio/voices/. functions/voices/index.js renders the cards from this list, functions/voices/[id].js the profile pages, and functions/download/voice/[id].js redirects to each entry's download. id is lowercase letters, digits and dashes, and never guide/submit/release/thanks/contributors/account. status: live, or soon (listed with a placeholder, no sample or download yet). download: the zip on a GitHub release, or null for a voice that comes with the add-on. Optional: bio (profile page; blank lines split paragraphs), samples (profile page; defaults to sample), avatar, curseforge, owner (a contributor's account id), donated (true for a voice made from a recording lent on /voices/lend: its pages say \"voice by <credit>\"; publish with lore.donation publish, which makes the owner row). Copy rule: never say how a voice is made. packs (optional): a voice's extra downloads, each {id, name, addon, clips, coverage, download}: its lands packs (LoreForever_Voice_<voice>_Alliance/_Horde, the places and people of that faction's zones plus the contested ones) and a complete bundle; /download/voice/<pack id> serves them, and a site path is linked as it is. The included voice's lands packs come in the main zip, so it lists none of those. A pack in another language (LOR-177: LoreForever_Voice_<Default|Female>_<locale>, one per narrator and language) has its 'language'; status soon keeps a pack off every page (and its download a 404) until it's released. The answers packs (LOR-227: LoreForever_Voice_<Default|Female>_Answers_<Part>[_<locale>], every question and answer outside the narrator's core pack, in parts that each fit one download) are listed the same way, one per part and language; their clips count only themselves. Pack ids follow the same rules.",
+  "_readme": "Every voice on /voices, in page order. Adding a voice = one entry here plus its sample file under public/audio/voices/. functions/voices/index.js renders the cards from this list, functions/voices/[id].js the profile pages, and functions/download/voice/[id].js redirects to each entry's download. id is lowercase letters, digits and dashes, and never guide/submit/release/thanks/contributors/account. status: live, or soon (listed with a placeholder, no sample or download yet). download: the zip on a GitHub release, or null for a voice that comes with the add-on. Optional: bio (profile page; blank lines split paragraphs), samples (profile page; defaults to sample), avatar, curseforge, owner (a contributor's account id), donated (true for a voice made from a recording lent on /voices/lend: its pages say \"voice by <credit>\"; publish with lore.donation publish, which makes the owner row). Copy rule: never say how a voice is made. packs (optional): a voice's extra downloads, each {id, name, addon, clips, coverage, download}: its lands packs (LoreForever_Voice_<voice>_Alliance/_Horde, the places and people of that faction's zones plus the contested ones) and a complete bundle; /download/voice/<pack id> serves them, and a site path is linked as it is. The included voice's lands packs come in the main zip, so it lists none of those. A pack in another language (LOR-177: LoreForever_Voice_<Default|Female>_<locale>, one per narrator and language) has its 'language'; status soon keeps a pack off every page (and its download a 404) until it's released. (The answers packs, LOR-227, are retired: LOR-561, Willo reads the short answers aloud.) Pack ids follow the same rules.",
   "voices": [
     {
       "id": "male-narrator",
@@ -10,8 +10,8 @@
       "addon": "LoreForever_Voice_Default",
       "status": "live",
       "included": true,
-      "clips": 987,
-      "coverage": "selected zone, capital and dungeon stories, places and people, dungeon bosses and first answers (other entries stay available as text; quest dialogue is a separate optional download)",
+      "clips": 878,
+      "coverage": "selected zone, capital and dungeon stories, places and people, and dungeon bosses (other entries stay available as text; quest dialogue is a separate optional download)",
       "tagline": "Has narrated every capital in one sitting. Doesn't blink. Declined our offer of water.",
       "bio": "The voice that comes with Lore Forever, and the first one you hear in Stormwind.\n\nHas narrated every capital in one sitting. Doesn't blink. Declined our offer of water, then a chair, then a lunch break. Knows the founding of Stormwind by heart and will tell you about it whether or not you asked.\n\nFavourite zone: all of them, in alphabetical order. Hobbies: dramatic pauses, and saying \"Thrall\" exactly right every single time.",
       "sample": {
@@ -45,7 +45,7 @@
           "status": "live",
           "included": false,
           "clips": 1844,
-          "coverage": "Reads selected quest dialogue for male human, dwarf, Forsaken and orc quest givers. Turn on Speak quest dialogue and Match the quest giver's voice in Options. Other lines use your narrator's recording where available, or stay as text. These are quest lines, separate from Lore Forever's stories and answers.",
+          "coverage": "Reads selected quest dialogue for male human, dwarf, Forsaken and orc quest givers. Turn on Speak quest dialogue and Match the quest giver's voice in Options. Other lines use your narrator's recording where available, or stay as text. These are quest lines, separate from Lore Forever's stories.",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_QuestGivers.zip"
         },
         {
@@ -65,7 +65,7 @@
           "addon": "LoreForever_Voice_Default_MorePlaces",
           "status": "live",
           "included": false,
-          "clips": 237,
+          "clips": 408,
           "coverage": "the whole story of hundreds more places in his voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MorePlaces.zip"
         },
@@ -75,7 +75,7 @@
           "addon": "LoreForever_Voice_Default_MorePeople",
           "status": "soon",
           "included": false,
-          "clips": 0,
+          "clips": 537,
           "coverage": "the whole story of hundreds more characters in his voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_MorePeople.zip"
         },
@@ -86,8 +86,8 @@
           "language": "Deutsch",
           "addon": "LoreForever_Voice_Default_deDE",
           "status": "live",
-          "clips": 644,
-          "coverage": "zone, dungeon and place stories, starting areas, dungeon bosses, people and first answers, in German (other entries stay available as text)",
+          "clips": 482,
+          "coverage": "zone, dungeon and place stories, starting areas and people, in German (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_deDE.zip"
         },
         {
@@ -96,8 +96,8 @@
           "name": "Português (Brasil)",
           "language": "Português (Brasil)",
           "addon": "LoreForever_Voice_Default_ptBR",
-          "status": "live",
-          "clips": 318,
+          "status": "soon",
+          "clips": 260,
           "coverage": "zone, dungeon and place stories, in Brazilian Portuguese (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_ptBR.zip"
         },
@@ -107,8 +107,8 @@
           "language": "Français",
           "addon": "LoreForever_Voice_Default_frFR",
           "status": "live",
-          "clips": 605,
-          "coverage": "zone, dungeon and place stories, starting areas and people, plus questions read with their answers, in French (other entries stay available as text)",
+          "clips": 509,
+          "coverage": "zone, dungeon and place stories, starting areas and people, in French (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_frFR.zip"
         },
         {
@@ -117,7 +117,7 @@
           "language": "Español",
           "addon": "LoreForever_Voice_Default_esES",
           "status": "live",
-          "clips": 407,
+          "clips": 348,
           "coverage": "zone, dungeon and place stories, in Spanish (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_esES.zip"
         },
@@ -160,300 +160,6 @@
           "clips": 0,
           "coverage": "what quest givers say, in Spanish",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Quests_esES.zip"
-        },
-        {
-          "id": "male-answers-places",
-          "name": "Answers about zones and places",
-          "addon": "LoreForever_Voice_Default_Answers_Places",
-          "status": "live",
-          "clips": 3430,
-          "coverage": "recorded answers about zones, capitals, dungeons and places (other answers stay available as text)",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Places.zip"
-        },
-        {
-          "id": "male-answers-lore",
-          "name": "Answers about lore and items",
-          "addon": "LoreForever_Voice_Default_Answers_Lore",
-          "status": "live",
-          "clips": 1223,
-          "coverage": "recorded answers about the world's lore and its items (other answers stay available as text)",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Lore.zip"
-        },
-        {
-          "id": "male-answers-people",
-          "name": "Answers about people",
-          "addon": "LoreForever_Voice_Default_Answers_People",
-          "status": "live",
-          "clips": 3277,
-          "coverage": "recorded answers about the people you meet (other answers stay available as text)",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_People.zip"
-        },
-        {
-          "id": "male-answers-quests-1",
-          "name": "Answers about quests, levels 1-13",
-          "addon": "LoreForever_Voice_Default_Answers_Quests1",
-          "status": "live",
-          "clips": 2750,
-          "coverage": "questions and answers about quests up to level 13",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests1.zip"
-        },
-        {
-          "id": "male-answers-quests-2",
-          "name": "Answers about quests, levels 14-22",
-          "addon": "LoreForever_Voice_Default_Answers_Quests2",
-          "status": "live",
-          "clips": 2442,
-          "coverage": "questions and answers about quests of levels 14 to 22",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests2.zip"
-        },
-        {
-          "id": "male-answers-quests-3",
-          "name": "Answers about quests, level 23 and up",
-          "addon": "LoreForever_Voice_Default_Answers_Quests3",
-          "status": "soon",
-          "clips": 40,
-          "coverage": "questions and answers about quests from level 23",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests3.zip"
-        },
-        {
-          "id": "male-german-answers-places",
-          "name": "Deutsch: answers about zones and places",
-          "language": "Deutsch",
-          "addon": "LoreForever_Voice_Default_Answers_Places_deDE",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about zones, capitals, dungeons and places, in German",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Places_deDE.zip"
-        },
-        {
-          "id": "male-german-answers-lore",
-          "name": "Deutsch: answers about lore and items",
-          "language": "Deutsch",
-          "addon": "LoreForever_Voice_Default_Answers_Lore_deDE",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the world's lore and its items, in German",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Lore_deDE.zip"
-        },
-        {
-          "id": "male-german-answers-people",
-          "name": "Deutsch: answers about people",
-          "language": "Deutsch",
-          "addon": "LoreForever_Voice_Default_Answers_People_deDE",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the people you meet, in German",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_People_deDE.zip"
-        },
-        {
-          "id": "male-german-answers-quests-1",
-          "name": "Deutsch: answers about quests, levels 1-13",
-          "language": "Deutsch",
-          "addon": "LoreForever_Voice_Default_Answers_Quests1_deDE",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests up to level 13, in German",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests1_deDE.zip"
-        },
-        {
-          "id": "male-german-answers-quests-2",
-          "name": "Deutsch: answers about quests, levels 14-22",
-          "language": "Deutsch",
-          "addon": "LoreForever_Voice_Default_Answers_Quests2_deDE",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests of levels 14 to 22, in German",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests2_deDE.zip"
-        },
-        {
-          "id": "male-german-answers-quests-3",
-          "name": "Deutsch: answers about quests, level 23 and up",
-          "language": "Deutsch",
-          "addon": "LoreForever_Voice_Default_Answers_Quests3_deDE",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests from level 23, in German",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests3_deDE.zip"
-        },
-        {
-          "id": "male-portuguese-answers-places",
-          "name": "Português (Brasil): answers about zones and places",
-          "language": "Português (Brasil)",
-          "addon": "LoreForever_Voice_Default_Answers_Places_ptBR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about zones, capitals, dungeons and places, in Brazilian Portuguese",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Places_ptBR.zip"
-        },
-        {
-          "id": "male-portuguese-answers-lore",
-          "name": "Português (Brasil): answers about lore and items",
-          "language": "Português (Brasil)",
-          "addon": "LoreForever_Voice_Default_Answers_Lore_ptBR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the world's lore and its items, in Brazilian Portuguese",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Lore_ptBR.zip"
-        },
-        {
-          "id": "male-portuguese-answers-people",
-          "name": "Português (Brasil): answers about people",
-          "language": "Português (Brasil)",
-          "addon": "LoreForever_Voice_Default_Answers_People_ptBR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the people you meet, in Brazilian Portuguese",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_People_ptBR.zip"
-        },
-        {
-          "id": "male-portuguese-answers-quests-1",
-          "name": "Português (Brasil): answers about quests, levels 1-13",
-          "language": "Português (Brasil)",
-          "addon": "LoreForever_Voice_Default_Answers_Quests1_ptBR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests up to level 13, in Brazilian Portuguese",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests1_ptBR.zip"
-        },
-        {
-          "id": "male-portuguese-answers-quests-2",
-          "name": "Português (Brasil): answers about quests, levels 14-22",
-          "language": "Português (Brasil)",
-          "addon": "LoreForever_Voice_Default_Answers_Quests2_ptBR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests of levels 14 to 22, in Brazilian Portuguese",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests2_ptBR.zip"
-        },
-        {
-          "id": "male-portuguese-answers-quests-3",
-          "name": "Português (Brasil): answers about quests, level 23 and up",
-          "language": "Português (Brasil)",
-          "addon": "LoreForever_Voice_Default_Answers_Quests3_ptBR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests from level 23, in Brazilian Portuguese",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests3_ptBR.zip"
-        },
-        {
-          "id": "male-french-answers-places",
-          "name": "Français: answers about zones and places",
-          "language": "Français",
-          "addon": "LoreForever_Voice_Default_Answers_Places_frFR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about zones, capitals, dungeons and places, in French",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Places_frFR.zip"
-        },
-        {
-          "id": "male-french-answers-lore",
-          "name": "Français: answers about lore and items",
-          "language": "Français",
-          "addon": "LoreForever_Voice_Default_Answers_Lore_frFR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the world's lore and its items, in French",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Lore_frFR.zip"
-        },
-        {
-          "id": "male-french-answers-people",
-          "name": "Français: answers about people",
-          "language": "Français",
-          "addon": "LoreForever_Voice_Default_Answers_People_frFR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the people you meet, in French",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_People_frFR.zip"
-        },
-        {
-          "id": "male-french-answers-quests-1",
-          "name": "Français: answers about quests, levels 1-13",
-          "language": "Français",
-          "addon": "LoreForever_Voice_Default_Answers_Quests1_frFR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests up to level 13, in French",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests1_frFR.zip"
-        },
-        {
-          "id": "male-french-answers-quests-2",
-          "name": "Français: answers about quests, levels 14-22",
-          "language": "Français",
-          "addon": "LoreForever_Voice_Default_Answers_Quests2_frFR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests of levels 14 to 22, in French",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests2_frFR.zip"
-        },
-        {
-          "id": "male-french-answers-quests-3",
-          "name": "Français: answers about quests, level 23 and up",
-          "language": "Français",
-          "addon": "LoreForever_Voice_Default_Answers_Quests3_frFR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests from level 23, in French",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests3_frFR.zip"
-        },
-        {
-          "id": "male-spanish-answers-places",
-          "name": "Español: answers about zones and places",
-          "language": "Español",
-          "addon": "LoreForever_Voice_Default_Answers_Places_esES",
-          "status": "live",
-          "clips": 2639,
-          "coverage": "questions and answers about zones, capitals, dungeons and places, in Spanish",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Places_esES.zip"
-        },
-        {
-          "id": "male-spanish-answers-lore",
-          "name": "Español: answers about lore and items",
-          "language": "Español",
-          "addon": "LoreForever_Voice_Default_Answers_Lore_esES",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the world's lore and its items, in Spanish",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Lore_esES.zip"
-        },
-        {
-          "id": "male-spanish-answers-people",
-          "name": "Español: answers about people",
-          "language": "Español",
-          "addon": "LoreForever_Voice_Default_Answers_People_esES",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the people you meet, in Spanish",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_People_esES.zip"
-        },
-        {
-          "id": "male-spanish-answers-quests-1",
-          "name": "Español: answers about quests, levels 1-13",
-          "language": "Español",
-          "addon": "LoreForever_Voice_Default_Answers_Quests1_esES",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests up to level 13, in Spanish",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests1_esES.zip"
-        },
-        {
-          "id": "male-spanish-answers-quests-2",
-          "name": "Español: answers about quests, levels 14-22",
-          "language": "Español",
-          "addon": "LoreForever_Voice_Default_Answers_Quests2_esES",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests of levels 14 to 22, in Spanish",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests2_esES.zip"
-        },
-        {
-          "id": "male-spanish-answers-quests-3",
-          "name": "Español: answers about quests, level 23 and up",
-          "language": "Español",
-          "addon": "LoreForever_Voice_Default_Answers_Quests3_esES",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests from level 23, in Spanish",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Answers_Quests3_esES.zip"
         }
       ],
       "download": null
@@ -473,10 +179,10 @@
       ],
       "curseforgeName": "Core + Alliance + Horde stories on CurseForge",
       "curseforgeLabel": "Get three story packs on CurseForge",
-      "curseforgeBundleNote": "Recorded answer packs and quest dialogue are separate.",
+      "curseforgeBundleNote": "Quest dialogue is separate.",
       "included": false,
-      "clips": 297,
-      "coverage": "selected zone, capital and dungeon stories, starting areas, dungeon bosses and first answers (other entries stay available as text)",
+      "clips": 188,
+      "coverage": "selected zone, capital and dungeon stories, starting areas and dungeon bosses (other entries stay available as text)",
       "tagline": "Asked for the candles lit and every murloc removed from the building. Got the candles.",
       "bio": "The second house voice, and an optional download: pick her in Options once she's installed.\n\nAsked for the candles lit and every murloc removed from the building. Got the candles. Rumoured to have read the whole of Durotar aloud to a very patient kodo, twice, because the kodo asked.\n\nTakes her tea the way the lore takes its villains: dark, and with a long backstory.",
       "sample": {
@@ -534,7 +240,7 @@
           "addon": "LoreForever_Voice_Female_MorePlaces",
           "status": "live",
           "included": false,
-          "clips": 237,
+          "clips": 408,
           "coverage": "the whole story of hundreds more places in her voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MorePlaces.zip"
         },
@@ -544,7 +250,7 @@
           "addon": "LoreForever_Voice_Female_MorePeople",
           "status": "soon",
           "included": false,
-          "clips": 0,
+          "clips": 541,
           "coverage": "the whole story of hundreds more characters in her voice",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_MorePeople.zip"
         },
@@ -555,10 +261,10 @@
             "female-alliance-lands",
             "female-horde-lands"
           ],
-          "bundleNote": "More recorded answers, other languages and quest dialogue are separate extras.",
-          "coverage": "selected English stories, first answers and Alliance and Horde lands; quest dialogue is a separate optional download",
+          "bundleNote": "Other languages and quest dialogue are separate extras.",
+          "coverage": "selected English stories and Alliance and Horde lands; quest dialogue is a separate optional download",
           "name": "English stories in one zip",
-          "clips": 977,
+          "clips": 868,
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female-complete.zip"
         },
         {
@@ -568,8 +274,8 @@
           "language": "Deutsch",
           "addon": "LoreForever_Voice_Female_deDE",
           "status": "live",
-          "clips": 575,
-          "coverage": "zone, dungeon and place stories, starting areas, people and first answers, in German (other entries stay available as text)",
+          "clips": 551,
+          "coverage": "zone, dungeon and place stories, starting areas, dungeon bosses and people, in German (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_deDE.zip"
         },
         {
@@ -589,8 +295,8 @@
           "language": "Français",
           "addon": "LoreForever_Voice_Female_frFR",
           "status": "live",
-          "clips": 604,
-          "coverage": "zone, dungeon and place stories, starting areas and people, plus questions read with their answers, in French (other entries stay available as text)",
+          "clips": 508,
+          "coverage": "zone, dungeon and place stories, starting areas and people, in French (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_frFR.zip"
         },
         {
@@ -599,7 +305,7 @@
           "language": "Español",
           "addon": "LoreForever_Voice_Female_esES",
           "status": "live",
-          "clips": 399,
+          "clips": 343,
           "coverage": "zone, dungeon and place stories, in Spanish (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_esES.zip"
         },
@@ -642,300 +348,6 @@
           "clips": 0,
           "coverage": "what quest givers say, in Spanish",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Quests_esES.zip"
-        },
-        {
-          "id": "female-answers-places",
-          "name": "Answers about zones and places",
-          "addon": "LoreForever_Voice_Female_Answers_Places",
-          "status": "live",
-          "clips": 3430,
-          "coverage": "recorded answers about zones, capitals, dungeons and places (other answers stay available as text)",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Places.zip"
-        },
-        {
-          "id": "female-answers-lore",
-          "name": "Answers about lore and items",
-          "addon": "LoreForever_Voice_Female_Answers_Lore",
-          "status": "live",
-          "clips": 3523,
-          "coverage": "questions and answers about the world's lore and its items",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Lore.zip"
-        },
-        {
-          "id": "female-answers-people",
-          "name": "Answers about people",
-          "addon": "LoreForever_Voice_Female_Answers_People",
-          "status": "live",
-          "clips": 3400,
-          "coverage": "questions and answers about the people you meet",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_People.zip"
-        },
-        {
-          "id": "female-answers-quests-1",
-          "name": "Answers about quests, levels 1-13",
-          "addon": "LoreForever_Voice_Female_Answers_Quests1",
-          "status": "live",
-          "clips": 2779,
-          "coverage": "questions and answers about quests up to level 13",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests1.zip"
-        },
-        {
-          "id": "female-answers-quests-2",
-          "name": "Answers about quests, levels 14-22",
-          "addon": "LoreForever_Voice_Female_Answers_Quests2",
-          "status": "live",
-          "clips": 2468,
-          "coverage": "questions and answers about quests of levels 14 to 22",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests2.zip"
-        },
-        {
-          "id": "female-answers-quests-3",
-          "name": "Answers about quests, level 23 and up",
-          "addon": "LoreForever_Voice_Female_Answers_Quests3",
-          "status": "live",
-          "clips": 3105,
-          "coverage": "recorded answers about quests from level 23 (other answers stay available as text)",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests3.zip"
-        },
-        {
-          "id": "female-german-answers-places",
-          "name": "Deutsch: answers about zones and places",
-          "language": "Deutsch",
-          "addon": "LoreForever_Voice_Female_Answers_Places_deDE",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about zones, capitals, dungeons and places, in German",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Places_deDE.zip"
-        },
-        {
-          "id": "female-german-answers-lore",
-          "name": "Deutsch: answers about lore and items",
-          "language": "Deutsch",
-          "addon": "LoreForever_Voice_Female_Answers_Lore_deDE",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the world's lore and its items, in German",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Lore_deDE.zip"
-        },
-        {
-          "id": "female-german-answers-people",
-          "name": "Deutsch: answers about people",
-          "language": "Deutsch",
-          "addon": "LoreForever_Voice_Female_Answers_People_deDE",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the people you meet, in German",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_People_deDE.zip"
-        },
-        {
-          "id": "female-german-answers-quests-1",
-          "name": "Deutsch: answers about quests, levels 1-13",
-          "language": "Deutsch",
-          "addon": "LoreForever_Voice_Female_Answers_Quests1_deDE",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests up to level 13, in German",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests1_deDE.zip"
-        },
-        {
-          "id": "female-german-answers-quests-2",
-          "name": "Deutsch: answers about quests, levels 14-22",
-          "language": "Deutsch",
-          "addon": "LoreForever_Voice_Female_Answers_Quests2_deDE",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests of levels 14 to 22, in German",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests2_deDE.zip"
-        },
-        {
-          "id": "female-german-answers-quests-3",
-          "name": "Deutsch: answers about quests, level 23 and up",
-          "language": "Deutsch",
-          "addon": "LoreForever_Voice_Female_Answers_Quests3_deDE",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests from level 23, in German",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests3_deDE.zip"
-        },
-        {
-          "id": "female-portuguese-answers-places",
-          "name": "Português (Brasil): answers about zones and places",
-          "language": "Português (Brasil)",
-          "addon": "LoreForever_Voice_Female_Answers_Places_ptBR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about zones, capitals, dungeons and places, in Brazilian Portuguese",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Places_ptBR.zip"
-        },
-        {
-          "id": "female-portuguese-answers-lore",
-          "name": "Português (Brasil): answers about lore and items",
-          "language": "Português (Brasil)",
-          "addon": "LoreForever_Voice_Female_Answers_Lore_ptBR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the world's lore and its items, in Brazilian Portuguese",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Lore_ptBR.zip"
-        },
-        {
-          "id": "female-portuguese-answers-people",
-          "name": "Português (Brasil): answers about people",
-          "language": "Português (Brasil)",
-          "addon": "LoreForever_Voice_Female_Answers_People_ptBR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the people you meet, in Brazilian Portuguese",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_People_ptBR.zip"
-        },
-        {
-          "id": "female-portuguese-answers-quests-1",
-          "name": "Português (Brasil): answers about quests, levels 1-13",
-          "language": "Português (Brasil)",
-          "addon": "LoreForever_Voice_Female_Answers_Quests1_ptBR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests up to level 13, in Brazilian Portuguese",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests1_ptBR.zip"
-        },
-        {
-          "id": "female-portuguese-answers-quests-2",
-          "name": "Português (Brasil): answers about quests, levels 14-22",
-          "language": "Português (Brasil)",
-          "addon": "LoreForever_Voice_Female_Answers_Quests2_ptBR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests of levels 14 to 22, in Brazilian Portuguese",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests2_ptBR.zip"
-        },
-        {
-          "id": "female-portuguese-answers-quests-3",
-          "name": "Português (Brasil): answers about quests, level 23 and up",
-          "language": "Português (Brasil)",
-          "addon": "LoreForever_Voice_Female_Answers_Quests3_ptBR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests from level 23, in Brazilian Portuguese",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests3_ptBR.zip"
-        },
-        {
-          "id": "female-french-answers-places",
-          "name": "Français: answers about zones and places",
-          "language": "Français",
-          "addon": "LoreForever_Voice_Female_Answers_Places_frFR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about zones, capitals, dungeons and places, in French",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Places_frFR.zip"
-        },
-        {
-          "id": "female-french-answers-lore",
-          "name": "Français: answers about lore and items",
-          "language": "Français",
-          "addon": "LoreForever_Voice_Female_Answers_Lore_frFR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the world's lore and its items, in French",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Lore_frFR.zip"
-        },
-        {
-          "id": "female-french-answers-people",
-          "name": "Français: answers about people",
-          "language": "Français",
-          "addon": "LoreForever_Voice_Female_Answers_People_frFR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the people you meet, in French",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_People_frFR.zip"
-        },
-        {
-          "id": "female-french-answers-quests-1",
-          "name": "Français: answers about quests, levels 1-13",
-          "language": "Français",
-          "addon": "LoreForever_Voice_Female_Answers_Quests1_frFR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests up to level 13, in French",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests1_frFR.zip"
-        },
-        {
-          "id": "female-french-answers-quests-2",
-          "name": "Français: answers about quests, levels 14-22",
-          "language": "Français",
-          "addon": "LoreForever_Voice_Female_Answers_Quests2_frFR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests of levels 14 to 22, in French",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests2_frFR.zip"
-        },
-        {
-          "id": "female-french-answers-quests-3",
-          "name": "Français: answers about quests, level 23 and up",
-          "language": "Français",
-          "addon": "LoreForever_Voice_Female_Answers_Quests3_frFR",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests from level 23, in French",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests3_frFR.zip"
-        },
-        {
-          "id": "female-spanish-answers-places",
-          "name": "Español: answers about zones and places",
-          "language": "Español",
-          "addon": "LoreForever_Voice_Female_Answers_Places_esES",
-          "status": "live",
-          "clips": 1488,
-          "coverage": "questions and answers about zones, capitals, dungeons and places, in Spanish",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Places_esES.zip"
-        },
-        {
-          "id": "female-spanish-answers-lore",
-          "name": "Español: answers about lore and items",
-          "language": "Español",
-          "addon": "LoreForever_Voice_Female_Answers_Lore_esES",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the world's lore and its items, in Spanish",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Lore_esES.zip"
-        },
-        {
-          "id": "female-spanish-answers-people",
-          "name": "Español: answers about people",
-          "language": "Español",
-          "addon": "LoreForever_Voice_Female_Answers_People_esES",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about the people you meet, in Spanish",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_People_esES.zip"
-        },
-        {
-          "id": "female-spanish-answers-quests-1",
-          "name": "Español: answers about quests, levels 1-13",
-          "language": "Español",
-          "addon": "LoreForever_Voice_Female_Answers_Quests1_esES",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests up to level 13, in Spanish",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests1_esES.zip"
-        },
-        {
-          "id": "female-spanish-answers-quests-2",
-          "name": "Español: answers about quests, levels 14-22",
-          "language": "Español",
-          "addon": "LoreForever_Voice_Female_Answers_Quests2_esES",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests of levels 14 to 22, in Spanish",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests2_esES.zip"
-        },
-        {
-          "id": "female-spanish-answers-quests-3",
-          "name": "Español: answers about quests, level 23 and up",
-          "language": "Español",
-          "addon": "LoreForever_Voice_Female_Answers_Quests3_esES",
-          "status": "soon",
-          "clips": 0,
-          "coverage": "questions and answers about quests from level 23, in Spanish",
-          "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Answers_Quests3_esES.zip"
         }
       ],
       "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female.zip"
@@ -948,16 +360,16 @@
       "language": "Español",
       "addon": "LoreForever_Edition_Densuad_esES_Audio",
       "clips": 804,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.18.0/LoreForever_Edition_Densuad_esES.zip",
+      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.19.0/LoreForever_Edition_Densuad_esES.zip",
       "bio": "Spanish text and narration contributed by Densuad. This edition uses its own wording and recordings together. It contains contributed overviews and answers; these are not complete story recordings.",
       "coverage": "699 contributed entries, 109 answer texts and 804 recordings, each played with Densuad’s own text. Text without a matching recording remains readable.",
       "edition": {
         "id": "densuad-esES",
         "locale": "esES",
-        "version": "3e50c32aba1f2a565c4bd3a0eaf692093e5f4f375c2abd82fd738d03827b6245",
+        "version": "0299078f19167a3e05bb6a865f5f0e0bf290b9f085a1be35b7d1f965176537c0",
         "entries": 699,
         "answers": 109,
-        "coreVersion": "0.18.0",
+        "coreVersion": "0.19.0",
         "api": 1,
         "installedSize": 704920095,
         "textAddon": "LoreForever_Edition_Densuad_esES_Text",
@@ -976,6 +388,24 @@
       "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_ukUA.zip",
       "bio": "Ukrainian narration contributed by Pekelnyj / UALL, voice Viacheslav Skoryk. The download includes the Ukrainian text pack.",
       "coverage": "699 story overviews and 109 answers across Azeroth, each played with the Ukrainian text it was recorded from. Other entries remain available as text."
+    },
+    {
+      "id": "browniee-s-voice",
+      "status": "soon",
+      "name": "Browniee's voice",
+      "credit": "Browniee",
+      "owner": "88850ab8-786f-4cba-b393-682413be1ac2",
+      "language": "English",
+      "addon": "LoreForever_Voice_BrownieeSVoice",
+      "clips": 5,
+      "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_BrownieeSVoice.zip",
+      "bio": "Browniee reads Teldrassil's story and four answers about the World Tree.",
+      "coverage": "Teldrassil's story and 4 of its answers, each played with the text Browniee recorded. Other entries remain available as text.",
+      "sample": {
+        "src": "/audio/voices/browniee-s-voice-teldrassil.mp3",
+        "title": "Teldrassil",
+        "length": "0:58"
+      }
     }
   ]
 }
