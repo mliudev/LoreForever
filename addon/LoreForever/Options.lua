@@ -862,7 +862,7 @@ function Options.Create()
   -- Willo's settings (willoRows), together under their own heading. Without Willo they're greyed out and can't be
   -- changed, under a note saying where to get it (LOR-459), except that Live game info's, still ticked, can be
   -- unticked (LOR-541: the sky kept painting with its box greyed out); with it they work as the others do. Installed is
-  -- Companion.Installed: Willo's LoreForever_Journey add-on, loaded at login, so a new install shows after a /reload.
+  -- Companion.Installed: Willo's LoreForever_Willo add-on, loaded at login, so a new install shows after a /reload.
   -- Until Willo launches (Companion.OFFER_WILLO off) the section shows only to players who have Willo already.
   local willoHead = heading(c, ns.COMPANION_NAME, windowsBtn, 24)
   local willoNote = note(c, "", willoHead, 6)

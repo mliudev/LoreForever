@@ -18,7 +18,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance shamans must travel across their territories, venturing from Loch Modan into the troubled lands of Westfall to purify corrupted shrines."
+   "text": "Alliance shamans must travel across their territories, venturing from Loch Modan into the troubled lands of Westfall to purify corrupted waters."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "water totem quest",
     "water quest westfall"
    ],
-   "answer": "Call of Water is a spiritual trial for shamans seeking to commune with the elements of water. The quest tasks the petitioner with purifying a tainted shrine at Stendel's Pond in Westfall to summon a cleansed water spirit and earn their Water Totem.",
+   "answer": "Call of Water is a spiritual trial for shamans seeking to commune with the elements of water. The quest tasks the petitioner with cleansing the corruption at Stendel's Pond in Westfall, using an old shrine there to summon a cleansed water spirit and earn their Water Totem.",
    "q": "What is the Call of Water quest?"
   },
   {
@@ -89,8 +89,7 @@
   "subzone:stendel-s-pond",
   "zone:westfall",
   "zone:lochmodan",
-  "subzone:moonbrook",
-  "quest:1471"
+  "subzone:moonbrook"
  ],
  "sections": [
   {

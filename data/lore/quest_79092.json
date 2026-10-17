@@ -1,0 +1,102 @@
+{
+ "key": "quest:79092",
+ "type": "quest",
+ "name": "Archmage Theocritus' Research Journal",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79092
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Scholars of the arcane value recoverd notes from prominent figures like Archmage Theocritus, whose research helps safeguard historical magical treatises in Ironforge's archives."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing rare texts and journals enriches the grand repository of knowledge housed within the heart of Ironforge for all Alliance scholars."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "theocritus journal turn in",
+    "what is theocritus journal"
+   ],
+   "answer": "It is a scholarly research journal belonging to the mage Archmage Theocritus, turned in to the Ironforge Library to preserve arcane knowledge and expand the archives.",
+   "q": "What is Archmage Theocritus' Research Journal?"
+  },
+  {
+   "aliases": [
+    "who is theocritus",
+    "archmage theocritus lore"
+   ],
+   "answer": "Archmage Theocritus is a renowned human mage who resides in the Tower of Azora in Elwynn Forest, studying ancient magical disturbances and artifacts.",
+   "q": "Who is Archmage Theocritus?"
+  },
+  {
+   "aliases": [
+    "where do i turn in theocritus journal",
+    "who wants theocritus journal"
+   ],
+   "answer": "The journal is brought to the archivists within the Library in Ironforge, who collect rare documents and magical manuscripts for their collection.",
+   "q": "Where is this journal brought?"
+  },
+  {
+   "aliases": [
+    "why collect magical journals",
+    "purpose of theocritus journal"
+   ],
+   "answer": "The scholars at the Ironforge Library seek to preserve arcane knowledge and study rare treatises from master spellcasters to expand their historical records.",
+   "q": "Why does the library want this journal?"
+  },
+  {
+   "aliases": [
+    "more journals to turn in",
+    "are there other books for library"
+   ],
+   "answer": "Yes, the curators encourage adventurers to continue seeking out lost magical works and historical texts across the world to aid their archival collection.",
+   "q": "Can more magical works be delivered to the library?"
+  },
+  {
+   "aliases": [
+    "what is in theocritus journal",
+    "contents of theocritus journal"
+   ],
+   "answer": "The journal contains notes and observations compiled by Archmage Theocritus during his extensive investigations into magical phenomena and arcane lore.",
+   "q": "What kind of research is contained in the journal?"
+  }
+ ],
+ "keywords": [
+  "arcane knowledge",
+  "archmage theocritus",
+  "ironforge",
+  "ironforge library",
+  "research journal",
+  "theocritus",
+  "tower of azora"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "sections": [
+  {
+   "body": "Archmage Theocritus is known throughout the Alliance as an esteemed spellcaster stationed at the Tower of Azora in the eastern reaches of Elwynn Forest. Over years of solitary study, Theocritus has investigated curious artifacts, ley line anomalies, and nearby magical threats, recording his findings within detailed journals. Recovering such a volume represents a rare opportunity to study the personal observations of a senior Kirin Tor archmage.",
+   "spoiler": 0,
+   "title": "A Master's Field Notes"
+  },
+  {
+   "body": "The Explorers' League and the caretakers of the Ironforge Library maintain one of the greatest archival repositories on the continent. By delivering Archmage Theocritus' Research Journal to their care, adventurers ensure that its arcane insights are safely preserved and cataloged alongside the historic volumes of Khaz Modan. The librarians actively welcome any further magical discoveries that can broaden their collective wisdom.",
+   "spoiler": 0,
+   "title": "Expanding the Ironforge Archives"
+  }
+ ],
+ "summary": "Archmage Theocritus' Research Journal is an arcane volume documenting the investigations of the master mage of the Tower of Azora. Delivered to the scholars of the Ironforge Library, the journal adds valuable magical insights to the great dwarven archive.",
+ "attribution": [
+  "In-game quest text: Archmage Theocritus' Research Journal"
+ ]
+}

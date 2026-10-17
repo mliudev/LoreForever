@@ -1,0 +1,106 @@
+{
+ "key": "quest:91736",
+ "type": "quest",
+ "name": "Applejack Still",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91736
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Distilling and brewing strong spirits from harvested orchard fruit is a staple craft among rustic cooks and tavern keepers across Azeroth."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "The apparatus uses mechanical condensation and plumbing to process fermented cider into concentrated liquor automatically."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is applejack still",
+    "what is this device",
+    "what does the still do"
+   ],
+   "answer": "The Applejack Still is a mechanical distillation apparatus designed to produce applejack, a potent alcoholic spirit made from apples. When examined and operated, the machine condenses fermented apple mash or cider into a clear, distilled liquor that pours directly into a bottle.",
+   "q": "What is the Applejack Still?"
+  },
+  {
+   "aliases": [
+    "what does it smell like",
+    "why does it burn",
+    "still scent"
+   ],
+   "answer": "Inspecting the device reveals a sharp, pungent scent of concentrated apples that strongly burns the nostrils. The intensity comes from the high vapor concentration produced as alcohol evaporates and re-condenses inside the metal coils.",
+   "q": "Why is the apple scent so strong around the still?"
+  },
+  {
+   "aliases": [
+    "what liquid comes out",
+    "clear liquid still",
+    "what does it dispense"
+   ],
+   "answer": "Upon operating the machine, it dispenses a clear liquid directly into a bottle. This distilled spirit is applejack, a clear and potent fruit brandy produced through the still's distillation process.",
+   "q": "What kind of liquid does the machine dispense?"
+  },
+  {
+   "aliases": [
+    "how does applejack still work",
+    "distillation process"
+   ],
+   "answer": "The still functions by heating fermented apple cider or wash, separating volatile alcohol vapors from the water and fruit solids, and condensing the vapor back into liquid. The resulting distilled spirit collects at the spout and fills an awaiting bottle.",
+   "q": "How does the distillation device operate?"
+  },
+  {
+   "aliases": [
+    "what is applejack",
+    "applejack drink"
+   ],
+   "answer": "Applejack is a traditional strong alcoholic drink made by distilling fermented apple cider. The resulting spirit is clear, aromatic, and notably higher in alcohol content than standard cider or ale.",
+   "q": "What exactly is applejack?"
+  },
+  {
+   "aliases": [
+    "is the still safe",
+    "is it dangerous"
+   ],
+   "answer": "The still produces strong alcoholic vapors potent enough to sting the nose upon inspection. While functional enough to dispense clear liquor without exploding, working with high-proof alcohol vapors and pressure requires caution.",
+   "q": "Is operating the still hazardous?"
+  }
+ ],
+ "keywords": [
+  "alcohol",
+  "apparatus",
+  "applejack",
+  "brewing",
+  "cider",
+  "distillery",
+  "liquor",
+  "still"
+ ],
+ "related": [
+  "subzone:vice"
+ ],
+ "sections": [
+  {
+   "body": "The Applejack Still is a functional distillation device constructed to refine fermented cider into high-proof spirits. Anyone stepping close to the apparatus is immediately greeted by a pungent aroma of concentrated apples sharp enough to sting the nostrils. Its piping and condensing coils efficiently extract and concentrate the essence of the orchard harvest into potent liquor.",
+   "spoiler": 0,
+   "title": "The Distillation Device"
+  },
+  {
+   "body": "Once activated and allowed to run its course, the machine condenses the vaporized alcohol into a clear, purified spirit. The finished applejack dispenses neatly into a waiting bottle at the outlet, ready for consumption or storage. Despite the rough-and-ready nature of field distilling, the apparatus reliably produces a clear and potent brew.",
+   "spoiler": 0,
+   "title": "A Clear Pour"
+  }
+ ],
+ "summary": "The Applejack Still is a distillation apparatus used to process fermented apples into high-proof liquor. Approaching the device reveals a stinging vapor of concentrated fruit, which the machine condenses and dispenses as a clear spirit.",
+ "attribution": [
+  "In-game quest text: Applejack Still"
+ ]
+}

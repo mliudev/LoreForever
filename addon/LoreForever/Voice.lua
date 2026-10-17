@@ -2080,11 +2080,8 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
   local want
   if S().voiceMatchGender ~= false then
     -- "npc" is whoever's window is open, so only the window's own page asks it (a story's Listen may be another quest).
-    local sex
-    if window and _G.UnitSex then
-      local ok, s = pcall(UnitSex, "npc")
-      sex = ok and s or nil
-    end
+    -- Giver.Sex leaves out a gender the game hides (LOR-572): the data's decides then.
+    local sex = window and ns.Giver and ns.Giver.Sex("npc") or nil
     local code = type(rec[5]) == "string" and rec[5]:sub(part - 1, part - 1) or ""
     want = (sex == 2 and "male") or (sex == 3 and "female") or GENDER_CODE[code]
   end

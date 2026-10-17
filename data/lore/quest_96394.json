@@ -1,0 +1,115 @@
+{
+ "key": "quest:96394",
+ "type": "quest",
+ "name": "The Restless Dead",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96394
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The Hall of Thanes holds the honored dead and ancestors of the dwarven people, making their sudden, violent stirring an unsettling disturbance right at the heart of their heritage."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Spirits lingering in torment or anger are a direct call to duty for those who commune with souls and guide troubled dead toward peaceful rest."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing the ancestral crypts beneath Anvilmar ensures that the keepers can maintain their sacred duties without fear of being overrun by vengeful apparitions."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is the restless dead",
+    "what is this quest",
+    "restless dead quest overview"
+   ],
+   "answer": "The Restless Dead is a task given to investigate and quell an outbreak of ghostly disturbances beneath the Hall of Thanes. Someone or something startled the entombed spirits, leaving keepers terrified to enter the vaults until the apparitions are dealt with.",
+   "q": "What is The Restless Dead quest about?"
+  },
+  {
+   "aliases": [
+    "why are the ghosts angry",
+    "who disturbed the tombs",
+    "why are apparitions awake"
+   ],
+   "answer": "An unknown disturbance deep within the vaults woke the entombed dead. As the spirits in the Hall of Thanes are described as light sleepers, whatever transpired down in the tombs startled them into a frenzy of rage and torment.",
+   "q": "Why have the spirits awakened?"
+  },
+  {
+   "aliases": [
+    "where is hall of thanes",
+    "where do restless dead spawn",
+    "hall of thanes location"
+   ],
+   "answer": "The disturbance is centered down in the crypts and vaults of the Hall of Thanes, an ancestral resting place located near Anvilmar where ancient dwarven spirits lie entombed.",
+   "q": "Where does this disturbance take place?"
+  },
+  {
+   "aliases": [
+    "who is spirit of anvilmar",
+    "spirit of anvilmar lore",
+    "who is anvilmar ghost"
+   ],
+   "answer": "The spirit of Anvilmar is an ancient and prominent soul resting in the deep tombs of the Hall of Thanes. Alongside lesser apparitions, this great spirit was roused from slumber and must be put back to peaceful rest.",
+   "q": "Who is the spirit of Anvilmar?"
+  },
+  {
+   "aliases": [
+    "who are the keepers",
+    "why do keepers need help",
+    "keepers hall of thanes"
+   ],
+   "answer": "The keepers are caretakers assigned to tend to the crypts and perform their regular duties in the Hall of Thanes. With angry spirits roaming the halls, they refuse to descend into the lower vaults until the threat is eliminated.",
+   "q": "Why do the keepers need an adventurer's help?"
+  },
+  {
+   "aliases": [
+    "what kinds of ghosts are down there",
+    "apparitions in hall of thanes",
+    "types of restless dead"
+   ],
+   "answer": "The disturbed vaults are haunted by Enraged Apparitions, Tormented Souls, and the venerable spirit of Anvilmar itself, all startled into an aggressive vigil within the burial chambers.",
+   "q": "What spirits haunt the Hall of Thanes?"
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "dwarf tombs",
+  "dwarven spirits",
+  "enraged apparitions",
+  "ghosts",
+  "hall of thanes",
+  "spirit of anvilmar",
+  "the restless dead",
+  "tormented souls"
+ ],
+ "related": [
+  "zone:hallofthanes",
+  "subzone:anvilmar"
+ ],
+ "sections": [
+  {
+   "body": "Deep beneath the surface in the Hall of Thanes, ancestral crypts hold generations of honored dead. Normally resting in quiet slumber, the spirits have been violently agitated by an unseen disturbance in the vaults. Strange noises echoing up from below have spooked the site's caretakers, who refuse to enter the lower chambers to perform their duties until order is restored. Adventurers are called upon to descend into the shadowed stone halls and quiet the agitated souls.",
+   "spoiler": 0,
+   "title": "Disturbance in the Deep Vaults"
+  },
+  {
+   "body": "The spirits resting within the Hall of Thanes are notoriously light sleepers. Whatever event or presence shook the lower tombs stirred up waves of Enraged Apparitions and Tormented Souls, turning sacred ground into a perilous haunt. Among those awakened is the revered spirit of Anvilmar, requiring a respectful yet firm hand to quell the fury of the awakened ancestors and return peace to the catacombs.",
+   "spoiler": 1,
+   "title": "Quieting the Ancestors"
+  }
+ ],
+ "summary": "The Restless Dead addresses an alarming disturbance within the crypts of the Hall of Thanes, where ancient dwarven spirits have been roused from their rest. With the caretakers terrified to enter the vaults, an adventurer must descend into the catacombs to put the angry phantoms and the spirit of Anvilmar back to sleep.",
+ "attribution": [
+  "In-game quest text: The Restless Dead"
+ ]
+}

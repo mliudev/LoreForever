@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For troll adventurers, skirmishing against hostile raiders bearing the Darkspear name in the islands touches closely on their tribe's turbulent history and maritime conflicts."
+   "text": "For troll adventurers, the Darkspear Raiders this Alliance order targets are Vol'jin's own people, defending the sacred isles of their tribe."
   },
   {
    "target": "faction:Horde",
-   "text": "The ongoing struggles in the Darkspear Islands highlight the frontier skirmishes faced by forces defending Horde interests across the South Seas."
+   "text": "This is the Alliance side of the fight for the Darkspear Islands, the sacred troll isles off Kalimdor's coast that the Horde holds against all outsiders."
   }
  ],
  "faq": [
@@ -46,7 +46,7 @@
     "who do we fight",
     "darkspear raiders target"
    ],
-   "answer": "The directive orders combatants to defeat the Darkspear Raiders who are maintaining a hostile presence and contesting territory across the islands.",
+   "answer": "The Darkspear Raiders are the Horde's troll defenders of the Darkspear Islands, the sacred isles of Vol'jin's tribe. The directive orders combatants to defeat them as they contest territory across the islands.",
    "q": "Who are the Darkspear Raiders?"
   },
   {
@@ -64,7 +64,7 @@
     "why conflict in islands",
     "island battle cause"
    ],
-   "answer": "Persistent unrest and rival raiding parties have kept the Darkspear Islands engulfed in an active, unresolved struggle for control.",
+   "answer": "The Horde and the Alliance are locked in an unresolved struggle for the islands' strongpoints: the Horde guards them as sacred troll ground, while the Alliance seeks a foothold off Kalimdor's shore.",
    "q": "Why does the fight in the Darkspear Islands continue?"
   },
   {
@@ -73,7 +73,7 @@
     "quest giver clash",
     "clash commander"
    ],
-   "answer": "The directive is issued by a field commander overseeing the assault, urging soldiers on the ground to push forward without wavering.",
+   "answer": "The directive is issued by the Alliance Brigadier General in the Alterac Mountains, urging soldiers on the ground to push forward without wavering.",
    "q": "Who directs the forces in this engagement?"
   }
  ],

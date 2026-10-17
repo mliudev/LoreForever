@@ -1,0 +1,104 @@
+{
+ "key": "quest:92684",
+ "type": "quest",
+ "name": "Ornery Ornery Galestriders",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92684
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Lowlands galestriders provide hearty cuts of tenderloin that make a substantial hot meal, offering a welcome change of pace from lean harvests and fruit."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters tracking wildlife in the Gustberry Lowlands should note the powerful kicks and aggressive temper of the local lowlands galestriders compared to their highland kin."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what are galestriders stealing",
+    "why kill galestriders",
+    "stormapple orchard"
+   ],
+   "answer": "The local galestriders have been raiding the orchard to eat the farmer's stormapples. With this season's harvest already remarkably light, the fruit theft poses a direct threat to the local food supply.",
+   "q": "Why are the galestriders causing problems for the farmer?"
+  },
+  {
+   "aliases": [
+    "how dangerous are galestriders",
+    "galestrider attacks",
+    "are galestriders strong"
+   ],
+   "answer": "Lowlands galestriders are substantially larger and more aggressive than those found in the highlands. Their powerful, well-timed kicks can easily knock a traveler down for good if they are caught off guard.",
+   "q": "How dangerous are lowlands galestriders?"
+  },
+  {
+   "aliases": [
+    "galestrider meat",
+    "what do galestriders drop",
+    "tenderloin quest"
+   ],
+   "answer": "The farmer asks travelers to cull the aggressive lowlands galestriders and collect tenderloins from the fallen beasts. The meat provides a much-needed hot meal after going without fresh meat for a long time.",
+   "q": "What does the farmer want from the galestriders?"
+  },
+  {
+   "aliases": [
+    "where are galestriders found",
+    "galestrider location",
+    "gustberry lowlands"
+   ],
+   "answer": "Ornery lowlands galestriders roam across the Gustberry Lowlands, particularly near the farmsteads and orchards where they forage for stormapples.",
+   "q": "Where are these galestriders found?"
+  },
+  {
+   "aliases": [
+    "highlands vs lowlands galestriders",
+    "galestrider varieties"
+   ],
+   "answer": "Lowlands galestriders differ from their highland counterparts primarily in size and temperament: the lowlands variety grows notably larger, displays a far nastier disposition, and delivers punishing kicks.",
+   "q": "How do lowlands galestriders compare to highlands galestriders?"
+  },
+  {
+   "aliases": [
+    "what are stormapples",
+    "orchard harvest"
+   ],
+   "answer": "Stormapples are an orchard crop cultivated in the region. Because the current season's yield is already scarce, protecting the remaining trees from foraging galestriders is critical.",
+   "q": "What are stormapples?"
+  }
+ ],
+ "keywords": [
+  "galestrider",
+  "gustberry lowlands",
+  "lowlands galestrider",
+  "orchard",
+  "ornery galestriders",
+  "stormapples",
+  "tenderloin"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "In the Gustberry Lowlands, local farmers face tough times following an already meager seasonal harvest. To make matters worse, wild galestriders have invaded the orchards, stripping branches of ripe stormapples and jeopardizing what little fruit remains. Keeping the farm viable means driving off or thinning out the boldest birds before the entire crop is lost.",
+   "spoiler": 0,
+   "title": "Defending the Orchard"
+  },
+  {
+   "body": "Unlike their smaller and comparatively calmer cousins in the highlands, the galestriders of the lowlands are towering, bad-tempered beasts. Travelers in the lowlands must approach them with extreme care, as a single well-aimed kick from their powerful legs is enough to incapacitate or kill an inattentive fighter. Taking them down yields massive tenderloins that supply hungry locals with rare, substantial meals.",
+   "spoiler": 0,
+   "title": "Lowland Terrors"
+  }
+ ],
+ "summary": "Ornery Ornery Galestriders concerns an orchard farmer in the Gustberry Lowlands struggling with a meager seasonal harvest. The local lowlands galestriders\u2014larger and more vicious than their highland kin\u2014have been raiding the orchard for stormapples and threatening the farm's livelihood. Culling the aggressive birds secures the remaining fruit while providing much-needed fresh tenderloins for dinner.",
+ "attribution": [
+  "In-game quest text: Ornery Ornery Galestriders"
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "key": "quest:99130",
+ "type": "quest",
+ "name": "An Enticing Offer",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99130
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Gatherers familiar with local flora will recognize the dual nature of duskweed, a nuisance weed whose toxic petals require careful handling when concocting potent baits."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Trackers and beast masters should take note of duskweed's toxic properties, as the resulting bait poses a severe hazard to domestic beasts and hunting companions if ingested."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is an enticing offer",
+    "what is this quest"
+   ],
+   "answer": "An Enticing Offer is a task centered on dealing with local murloc trouble while simultaneously aiding nearby farmers. It involves gathering ingredients to concoct a special toxic bait designed to deter the creatures.",
+   "q": "What is the quest An Enticing Offer?"
+  },
+  {
+   "aliases": [
+    "what is duskweed",
+    "duskweed plant",
+    "duskweed effects"
+   ],
+   "answer": "Duskweed is a common weed that infests local farm fields. While generally considered an agricultural pest, its petals are toxic in large quantities to most animals, making it an effective deterrent against pests when concentrated into bait.",
+   "q": "What is duskweed?"
+  },
+  {
+   "aliases": [
+    "how does the bait work",
+    "murloc poison bait",
+    "why make bait"
+   ],
+   "answer": "The plan is to craft bait infused with toxic duskweed petals. Rather than standard extermination, the goal is to make the bait unpleasant or harmful enough to train local murloc populations to avoid the area.",
+   "q": "How is the murloc bait intended to work?"
+  },
+  {
+   "aliases": [
+    "who is jason",
+    "dont let jason eat it",
+    "jason bait warning"
+   ],
+   "answer": "Jason is an acquaintance of the quest giver who apparently has a habit of eating questionable things. Upon concocting the toxic duskweed bait, the quest giver explicitly warns to keep Jason from trying to eat any of it.",
+   "q": "Who is Jason?"
+  },
+  {
+   "aliases": [
+    "is duskweed bait dangerous",
+    "pet poison bait"
+   ],
+   "answer": "Yes. While intended for murlocs, duskweed petals are toxic to most animals in substantial amounts. The quest giver specifically cautions that domestic pets and companions must be kept far away from the mixture.",
+   "q": "Is the murloc bait dangerous to other creatures?"
+  },
+  {
+   "aliases": [
+    "why help farmers",
+    "win win situation"
+   ],
+   "answer": "Duskweed aggressively invades cultivated farmland, causing headaches for local growers. Gathering the weed to brew bait clears the agricultural fields while simultaneously providing the materials needed to push back murlocs.",
+   "q": "Why is gathering duskweed considered a win-win?"
+  }
+ ],
+ "keywords": [
+  "an enticing offer",
+  "duskweed",
+  "jason",
+  "murloc bait",
+  "murlocs",
+  "toxic bait"
+ ],
+ "related": [
+  "topic:murloc"
+ ],
+ "sections": [
+  {
+   "body": "Dealing with pervasive murloc infestations often calls for inventive pest control rather than endless frontline skirmishes. 'An Enticing Offer' proposes a clever solution to address two local nuisances in a single stroke: crafting a specialized bait laced with duskweed to deter murlocs from encroaching onto settled lands, while clearing encroaching weeds from neighboring crop fields in the process.",
+   "spoiler": 0,
+   "title": "A Twofold Solution"
+  },
+  {
+   "body": "The core ingredient of the concoction is duskweed, a persistent wild weed that plagues nearby agricultural plots. In substantial quantities, the petals of duskweed contain potent toxins harmful to most beasts. By gathering the weed directly from troubled farmers, the fields are purged of an aggressive pest plant, while its toxic harvest provides the necessary base to train murloc packs to steer clear.",
+   "spoiler": 0,
+   "title": "The Nature of Duskweed"
+  },
+  {
+   "body": "While the resulting concoction is relatively simple to prepare, duskweed's indiscriminate toxicity makes handling it somewhat hazardous. Domestic animals and pets must be strictly kept away from the finished mixture, and the quest giver offers a parting caution to ensure that local acquaintances, namely someone named Jason, do not mistake the pungent bait for a meal.",
+   "spoiler": 0,
+   "title": "Baiting the Waters"
+  }
+ ],
+ "summary": "'An Enticing Offer' is a local initiative aimed at repelling encroaching murlocs using bait concocted from toxic duskweed. By harvesting the noxious weed directly from nearby farmland, the plan simultaneously assists local growers and establishes a deterrent against shoreline pests.",
+ "attribution": [
+  "In-game quest text: An Enticing Offer"
+ ]
+}

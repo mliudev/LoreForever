@@ -365,7 +365,7 @@ function Capture.NoteGossip(name, h)
   local kind, id = ns.Giver.ParseGUID(call(_G.UnitGUID, "npc"))
   local npcs = LoreForeverDB.texts.npcs
   if npcs and kind == "npc" then
-    npcs[name] = { id = id, sex = call(_G.UnitSex, "npc"), ctype = call(_G.UnitCreatureType, "npc") }
+    npcs[name] = { id = id, sex = ns.Giver.Sex("npc"), ctype = call(_G.UnitCreatureType, "npc") }
     if ns.HistoryArchive then ns.HistoryArchive.Text("npc", name, nil, npcs[name]) end
   end
   Capture.Note("gossip:" .. name .. "#" .. h, "gossip", name, true)
@@ -413,7 +413,7 @@ function Capture.OnSay(event, text, sender, ...)
   for _, unit in ipairs({ "target", "npc", "mouseover" }) do
     local _, uid = ns.Giver.ParseGUID(call(_G.UnitGUID, unit))
     if uid == id then
-      rec.sex, rec.ctype = call(_G.UnitSex, unit), call(_G.UnitCreatureType, unit)
+      rec.sex, rec.ctype = ns.Giver.Sex(unit), call(_G.UnitCreatureType, unit)
       break
     end
   end
@@ -496,7 +496,7 @@ local function speakerOf(unit)
   if who and kind and who.kind == kind and who.id == id then return who end
   if kind == "object" then return { kind = "object", id = id } end
   if kind == "npc" then
-    return { kind = "npc", id = id, name = call(_G.UnitName, unit), sex = call(_G.UnitSex, unit),
+    return { kind = "npc", id = id, name = call(_G.UnitName, unit), sex = ns.Giver.Sex(unit),
       ctype = call(_G.UnitCreatureType, unit) }
   end
 end
@@ -760,6 +760,13 @@ local function shareWindow()
   link:SetScript("OnEditFocusGained", function(self) self:HighlightText() end)
   link:SetScript("OnEscapePressed", function() f:Hide() end)
   link:SetScript("OnShow", fill)
+  -- Ctrl+C (Cmd+C on a Mac) in the box copies the link: Capture.Copied.
+  local function copyKey(_, key)
+    local ctrl = (_G.IsControlKeyDown and IsControlKeyDown()) or (_G.IsMetaKeyDown and IsMetaKeyDown())
+    if ctrl and key == "C" then Capture.Copied(f.line) end
+  end
+  link:SetScript("OnKeyDown", copyKey)
+  link:SetScript("OnKeyUp", copyKey)
   local done = T.Button(f, L["Done"])
   done:SetSize(90, 24)
   done:SetPoint("TOPLEFT", 16, -194)
@@ -769,8 +776,22 @@ local function shareWindow()
   return f
 end
 
--- The share window for a line: its link, selected, ready for Ctrl+C. The button then hides for that line (no asking
--- twice); the line still goes with a file upload.
+-- The link was copied: the button goes for that line (no asking twice; the line still goes with a file upload), and the
+-- window says what's next. Closing the window before copying keeps the button for another try (LOR-581: on stream the
+-- button vanished as the window opened, and after Done there was nothing left to click).
+function Capture.Copied(line)
+  local c = db()
+  if not (line and line.key and c) or c.copied[line.key] then return end
+  c.copied[line.key] = true
+  local f = Capture.window
+  if f and f.line == line then
+    f.hint:SetText(L["Copied. Paste it into your browser's address bar and press Send there."])
+  end
+  Capture.UpdateAll()
+end
+
+-- The share window for a line: its link, selected, ready for Ctrl+C (Capture.Copied). A text too long for a link is
+-- kept in the file instead, so there's nothing to copy: its button goes at once.
 function Capture.Share(line)
   local f = shareWindow()
   local link, whole = Capture.Link(line)
@@ -785,8 +806,10 @@ function Capture.Share(line)
   f.fill()   -- again once shown: the Forever client drops text set on a box that isn't visible yet (see Options)
   f.linkBox:SetFocus()
   local c = db()
-  if c and line.key then c.copied[line.key] = true end
-  Capture.UpdateAll()
+  if not whole and c and line.key then
+    c.copied[line.key] = true
+    Capture.UpdateAll()
+  end
   return link
 end
 

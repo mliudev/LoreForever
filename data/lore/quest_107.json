@@ -1,0 +1,113 @@
+{
+ "key": "quest:107",
+ "type": "quest",
+ "name": "Note to William",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   107
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers traveling through Elwynn Forest often assist the local farming families with personal crises when official guards focus solely on military threats."
+  },
+  {
+   "target": "race:Human",
+   "text": "The ongoing feud between the Stonefields and Maclures divides human neighbors in Elwynn, making sympathetic elders rely on discreet couriers."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is william pestle",
+    "william pestle goldshire",
+    "alchemist goldshire"
+   ],
+   "answer": "William Pestle is an alchemist and apothecary residing at the Lion's Pride Inn in Goldshire. He is an old acquaintance of Gramma Mildred Stonefield and is known for concocting herbal remedies and specialized draughts.",
+   "q": "Who is William Pestle?"
+  },
+  {
+   "aliases": [
+    "who sent note",
+    "gramma stonefield note",
+    "mildred stonefield"
+   ],
+   "answer": "Gramma Mildred Stonefield, the matriarch of the Stonefield farm, wrote the note. Sympathetic to the forbidden romance between her granddaughter Maybell and Tommy Joe Westfall, she hopes William Pestle can devise a solution to help them.",
+   "q": "Who sent the note to William?"
+  },
+  {
+   "aliases": [
+    "why help maybell and tommy joe",
+    "young lovers quest elwynn",
+    "stonefield maclure feud"
+   ],
+   "answer": "Maybell Maclure and Tommy Joe Stonefield are deeply in love, but their families are locked in a bitter, longstanding rivalry. Gramma Stonefield believes William Pestle may know of a potion or plan to allow the two sweethearts to be together despite the family hostility.",
+   "q": "Why are Maybell and Tommy Joe unable to be together openly?"
+  },
+  {
+   "aliases": [
+    "where is william pestle",
+    "pestle location",
+    "lion's pride inn alchemist"
+   ],
+   "answer": "William Pestle can be found staying inside the Lion's Pride Inn, the central tavern and gathering hub in the town of Goldshire within Elwynn Forest.",
+   "q": "Where can William Pestle be found?"
+  },
+  {
+   "aliases": [
+    "what is gramma stonefield first name",
+    "gramma stonefield name"
+   ],
+   "answer": "Her first name is Mildred, as revealed by William Pestle when he mentions that he has not seen Mildred in years upon receiving her letter.",
+   "q": "What is Gramma Stonefield's real name?"
+  },
+  {
+   "aliases": [
+    "what does william do with note",
+    "william pestle reaction"
+   ],
+   "answer": "Upon reading Mildred's letter, William expresses genuine sympathy for the star-crossed lovers, recalling his own youthful romances, and immediately begins pondering how his alchemical craft might aid them.",
+   "q": "How does William Pestle react to the note?"
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "goldshire",
+  "gramma stonefield",
+  "lion's pride inn",
+  "maybell maclure",
+  "mildred stonefield",
+  "note to william",
+  "tommy joe stonefield",
+  "william pestle"
+ ],
+ "related": [
+  "npc:william-pestle",
+  "npc:gramma-stonefield",
+  "quest:106",
+  "subzone:lion-s-pride-inn",
+  "subzone:goldshire",
+  "npc:ma-stonefield"
+ ],
+ "sections": [
+  {
+   "body": "The Stonefield and Maclure families have lived as neighbors in southern Elwynn Forest for years, yet their bitter feuding has made normal relations impossible. Caught squarely in the middle are young Tommy Joe Stonefield and Maybell Maclure, whose romance must be conducted in utter secrecy. While their parents harbor relentless resentment, Gramma Mildred Stonefield takes pity on the young lovers and seeks an unconventional remedy to unite them.",
+   "spoiler": 0,
+   "title": "Star-Crossed in Elwynn"
+  },
+  {
+   "body": "Believing that mundane persuasion will never sway the feuding families, Gramma Stonefield dispatches a courier north to the Lion's Pride Inn in Goldshire. Her message seeks out William Pestle, an experienced alchemist and apothecary whom Mildred has known for many years. Taking the missive in hand, William is moved by the plight of Maybell and Tommy Joe, resolving to put his alchemical knowledge to work on their behalf.",
+   "spoiler": 0,
+   "title": "An Appeal to Goldshire"
+  }
+ ],
+ "summary": "\"Note to William\" is an errand undertaken for Gramma Stonefield in southern Elwynn Forest to help two secret lovers from feuding families. By delivering Mildred's message to the apothecary William Pestle in Goldshire, adventurers seek an alchemical solution to unite young Maybell and Tommy Joe.",
+ "attribution": [
+  "In-game quest text: Note to William"
+ ]
+}

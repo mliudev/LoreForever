@@ -92,7 +92,7 @@ local function createBox()
   return f
 end
 
--- The companion app writes the LoreForever_Journey add-on whenever it runs (even with no pictures yet), so its data
+-- The companion app writes its LoreForever_Willo add-on (LoreForever_Journey before 0.20) whenever it runs (even with no pictures yet), so its data
 -- means it's installed.
 function Companion.Installed()
   return type(_G.LoreForeverJourneyData) == "table"

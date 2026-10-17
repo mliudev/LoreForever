@@ -1,0 +1,101 @@
+{
+ "key": "quest:91751",
+ "type": "quest",
+ "name": "Rough Wolf Pelts",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91751
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is helene peltskinner",
+    "helene peltskinner",
+    "who gives rough wolf pelts"
+   ],
+   "answer": "Helene Peltskinner is a local skinner and leatherworker based just outside Goldshire in Elwynn Forest. She prepares hides and fulfills craft orders for travelers and locals alike. With her husband occupied helping near Northshire Abbey, she relies on passing adventurers to gather the fresh wolf hides she needs to complete her trade work.",
+   "q": "Who is Helene Peltskinner?"
+  },
+  {
+   "aliases": [
+    "why need rough wolf pelts",
+    "why collect pelts",
+    "what does helene do with pelts"
+   ],
+   "answer": "Helene is working through a backlog of leather orders near Goldshire and requires raw materials to keep her business running. Normally, her husband hunts wolves to supply her workbench, but his commitments elsewhere in Elwynn have left her short on rough pelts. Adventurers help fill the gap by skinning local wolves for her craft.",
+   "q": "Why does Helene need wolf pelts?"
+  },
+  {
+   "aliases": [
+    "where is helene husband",
+    "helene husband",
+    "who is helene husband"
+   ],
+   "answer": "Helene's husband usually assists her with hunting wolves and procuring skins, but he is currently occupied north by Northshire Abbey. Because of his absence, Helene must contract local adventurers to bring in wolf hides so she can keep up with her workshop's ongoing pelt orders.",
+   "q": "Where is Helene's husband?"
+  },
+  {
+   "aliases": [
+    "where to find rough wolf pelts",
+    "which wolves drop pelts",
+    "wolf locations elwynn"
+   ],
+   "answer": "Rough wolf pelts are acquired from the timber wolves that roam the woodlands of Elwynn Forest surrounding Goldshire and Northshire. Those practicing the skinning trade harvest these pelts directly from beasts across the forest floor to deliver back to Helene's leatherworking post.",
+   "q": "Where are the wolves found in Elwynn Forest?"
+  },
+  {
+   "aliases": [
+    "do i need skinning for rough wolf pelts",
+    "rough wolf pelts skinning requirement",
+    "skinning quest goldshire"
+   ],
+   "answer": "Helene explicitly offers this task as an opportunity for travelers to practice the skinning trade. The objective requires actually skinning slain wolves rather than simply hunting them for casual trophy drops, making it tailored specifically for apprentices learning to harvest animal hides.",
+   "q": "Is skinning required to harvest these pelts?"
+  },
+  {
+   "aliases": [
+    "where is helene peltskinner located",
+    "helene peltskinner location",
+    "where to find helene"
+   ],
+   "answer": "Helene Peltskinner sets up her work near Goldshire, the central settlement of Elwynn Forest. She conducts her leather trade close to the township, where hunters and travelers moving along the King's Road can readily bring her freshly harvested forest hides.",
+   "q": "Where can Helene Peltskinner be found?"
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "goldshire",
+  "helene peltskinner",
+  "leatherworking",
+  "pelts",
+  "rough wolf pelts",
+  "skinning",
+  "timber wolves"
+ ],
+ "related": [
+  "subzone:goldshire",
+  "zone:elwynn"
+ ],
+ "sections": [
+  {
+   "body": "Just outside Goldshire, Helene Peltskinner works diligently to supply travelers and residents with cured leather and furs. While her husband typically hunts the prowling timber wolves of Elwynn Forest to keep her workshop supplied, duties near Northshire Abbey have taken him away from the workbench. Left with a backlog of customer orders to finish, Helene enlists the aid of passing apprentices willing to turn their skinning knives toward the local wildlife.",
+   "spoiler": 0,
+   "title": "A Skinner's Need"
+  },
+  {
+   "body": "The dense woodlands of Elwynn Forest teem with timber wolves that stalk the edges of farmlands and roadways. For novice skinners, gathering rough wolf pelts serves as practical field experience in the trade of hide harvesting. Delivering these skins allows Helene to maintain her business and keep trade flowing through Goldshire, while providing wandering hunters a chance to hone their woodcraft.",
+   "spoiler": 0,
+   "title": "Prowlers of the Forest"
+  }
+ ],
+ "summary": "Rough Wolf Pelts is an introductory skinning quest in Elwynn Forest offered by Helene Peltskinner near Goldshire. With her husband away assisting near Northshire Abbey, Helene relies on capable skinners to harvest raw hides from local wolves to complete her pending leatherworking orders.",
+ "attribution": [
+  "In-game quest text: Rough Wolf Pelts"
+ ]
+}

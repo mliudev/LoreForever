@@ -1,0 +1,102 @@
+{
+ "key": "quest:96050",
+ "type": "quest",
+ "name": "Camping 101: Fishing",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96050
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Learning the basics of cooking is essential for setting up camp, as culinary trainers teach travelers how to build the required campfire."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what does this quest teach",
+    "fish bowl craft",
+    "camping fishing reward"
+   ],
+   "answer": "This lesson teaches adventurers how to craft a Fish Bowl to furnish their campsite. It covers the fundamentals of setting up a wilderness retreat suited for fishing and relaxing away from civilized settlements.",
+   "q": "What do you learn from Camping 101: Fishing?"
+  },
+  {
+   "aliases": [
+    "where pitch camp",
+    "can i camp in town",
+    "camping location rules"
+   ],
+   "answer": "Camps cannot be pitched in the middle of town, as townsfolk take issue with travelers sprawling out in public thoroughfares. You must venture out into the wilderness to set up your site.",
+   "q": "Where can you set up a camp?"
+  },
+  {
+   "aliases": [
+    "how to start camp",
+    "do i need a campfire",
+    "camp requirements"
+   ],
+   "answer": "No wilderness camp is considered complete without a campfire. Before you begin pitching your camp, you must have a fire ready to anchor the site and provide warmth.",
+   "q": "What do you need before pitching a camp?"
+  },
+  {
+   "aliases": [
+    "how make campfire",
+    "where learn campfire",
+    "who teaches fire"
+   ],
+   "answer": "Culinary instructors and cooking trainers teach the basic art of kindling a campfire. Those who have not yet learned the basics of cooking should seek out a cook to learn how to make one.",
+   "q": "How do you learn to build a campfire?"
+  },
+  {
+   "aliases": [
+    "what is fish bowl for",
+    "camping fish bowl use",
+    "fish bowl lore"
+   ],
+   "answer": "The Fish Bowl is a decorative addition crafted for an outdoor campsite, providing an appropriate touch for any traveling angler looking to set up an outpost by the water.",
+   "q": "What is the purpose of the Fish Bowl?"
+  },
+  {
+   "aliases": [
+    "who offers camping 101",
+    "why camping lessons",
+    "camping survival guide"
+   ],
+   "answer": "Wilderness mentors offer practical guidance on frontier living, ensuring wanderers know how to properly sustain themselves, build fires, and respect settlement boundaries before heading into the wild.",
+   "q": "Why are camping lessons taught to adventurers?"
+  }
+ ],
+ "keywords": [
+  "camp",
+  "campfire",
+  "camping",
+  "cooking",
+  "fish bowl",
+  "fishing",
+  "wilderness"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Life on the road across Azeroth demands practical knowledge of the frontier. For aspiring anglers and wanderers, setting up an orderly site requires understanding basic outdoor etiquette. Townsfolk and guards frown upon travelers pitching tents and scattering gear in the center of settlements, so anyone wishing to rest must take their supplies out beyond city borders and into the open wilderness.",
+   "spoiler": 0,
+   "title": "Wilderness Etiquette"
+  },
+  {
+   "body": "A proper expedition site requires several essential amenities. Above all, no campsite is considered functional without a warm campfire, a skill traditionally imparted by culinary instructors. Once a fire is sparked, seasoned travelers can lay out specialty accoutrements such as a handcrafted Fish Bowl, transforming a simple rest stop into a fully outfitted angler's haven.",
+   "spoiler": 0,
+   "title": "The Comforts of Camp"
+  }
+ ],
+ "summary": "Camping 101: Fishing guides outdoorsmen in the essential crafts and etiquette of wilderness survival. It teaches adventurers how to create a decorative Fish Bowl for their campsite and emphasizes the necessity of learning campfire craft from a cooking trainer before heading into the wild.",
+ "attribution": [
+  "In-game quest text: Camping 101: Fishing"
+ ]
+}

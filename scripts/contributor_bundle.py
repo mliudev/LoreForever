@@ -152,15 +152,34 @@ def _counts(records, entries):
             "unavailable_script_pairings": sum(not r["exact_audio_pair"] for r in records),
             "readable_without_audio": sum(r["source_status"] == "accepted" and not r["published_audio"] for r in records)}
 
-def validate_pair(addon_root, edition_id=EDITION_ID):
+def _unhydrated_store(addon_root):
+    """The asset store's list of the audio component's recordings (name: [sha256, bytes]) when this checkout keeps
+    them there and holds no Audio/ folder for them, else None. In the private repo they live in the asset store
+    (LOR-440, release/audio-store/<pack>.json beside addon/) and only scripts/audio_store.py hydrate fills the
+    gitignored Audio/, which a sparse or pointers worktree never does. The public repo has no store manifest."""
+    path = Path(addon_root).parent / "release" / "audio-store" / f"{AUDIO_NAME}.json"
+    if (Path(addon_root) / AUDIO_NAME / "Audio").exists() or not path.is_file():
+        return None
+    store = json.loads(path.read_bytes(), object_pairs_hook=_unique_object)
+    if store.get("pack") != AUDIO_NAME or not isinstance(store.get("clips"), dict):
+        raise ValueError("malformed asset store manifest: " + path.name)
+    return store["clips"]
+
+def validate_pair(addon_root, edition_id=EDITION_ID, allow_unhydrated_store=False):
     """Validate exact paired declarations and hydrated MP3s: the frozen bundle, whatever our core Data says.
 
     Returns the checked manifest. Raises ValueError on incompatibility. No writes.
     The core must be present (version/interface); neither private intake nor provider access is needed.
+    allow_unhydrated_store: for checks that never ship the recordings (publish-public.sh --check, the shipped-pack
+    test) in a checkout that leaves the asset store's recordings out (no Audio/ at all): each recording's name, sha256
+    and size are checked against the store's manifest instead of its bytes. With an Audio/ folder every byte is
+    checked as always, and nothing that publishes, stamps or builds the pair passes it.
     """
     if edition_id != EDITION_ID:
         raise ValueError("unsupported edition ID")
     addon_root = Path(addon_root)
+    store = _unhydrated_store(addon_root) if allow_unhydrated_store else None
+    audio_dir = f"{AUDIO_NAME}/Audio/"
     paths = [addon_root / name for name in (TEXT_NAME, AUDIO_NAME)]
     if any(p.is_symlink() or (p / MANIFEST).is_symlink() for p in paths):
         raise ValueError("symlink component/manifest")
@@ -220,10 +239,16 @@ def validate_pair(addon_root, edition_id=EDITION_ID):
                 raise ValueError("symlink in edition")
             if p.is_file():
                 actual.add(f"{name}/{p.relative_to(pack).as_posix()}")
+    if store is not None:   # the recordings this checkout left in the asset store, by the names it gives them
+        actual |= {audio_dir + clip for clip in store}
     if actual != expected_names:
         raise ValueError("missing or extra contributor pack files")
     for rel, proof in expected_inventory.items():
         p = addon_root / rel
+        if store is not None and rel.startswith(audio_dir):
+            if store[rel[len(audio_dir):]] != [proof["sha256"], proof["bytes"]]:
+                raise ValueError("asset store manifest differs from the pair: " + rel)
+            continue
         if p.suffix == ".mp3":
             with p.open("rb") as f:
                 if f.read(len(LFS_HEADER)) == LFS_HEADER:
@@ -335,10 +360,15 @@ def main(argv=None):
     parser.add_argument("--addons", type=Path, default=ROOT / "addon")
     parser.add_argument("--out", type=Path)
     parser.add_argument("--versioned", action="store_true")
+    parser.add_argument("--allow-unhydrated-store", action="store_true",
+                        help="validation only: with no Audio/ here, check the recordings against the asset store's "
+                             "manifest (publish-public.sh --check)")
     args = parser.parse_args(argv)
+    if args.allow_unhydrated_store and args.out is not None:
+        parser.error("--allow-unhydrated-store only validates; a bundle needs the recordings")
     try:
         if args.out is None:
-            m = validate_pair(args.addons)
+            m = validate_pair(args.addons, allow_unhydrated_store=args.allow_unhydrated_store)
             print(json.dumps({"version": m["version"], "counts": m["counts"]}, sort_keys=True))
         else:
             print(build_bundle(args.addons, args.out, args.versioned))

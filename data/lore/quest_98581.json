@@ -1,0 +1,115 @@
+{
+ "key": "quest:98581",
+ "type": "quest",
+ "name": "Archaic Rune",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98581
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The Archaic Rune represents the very first step in a dwarven shaman's spiritual journey, validating their elemental attunement and introducing them to their primary mentor."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "This rune marks an important cultural exchange between dwarf clans, as the Wildhammer share their ancient spiritual traditions with their Bronzebeard kin in Coldridge Valley."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Wildhammer mentors bringing shamanic arts to Dun Morogh expands the Alliance's spiritual practices, establishing elemental traditions alongside the Holy Light."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "archaic rune quest",
+    "what is this rune",
+    "archaic rune item"
+   ],
+   "answer": "The Archaic Rune is an ancient stone tablet inscribed with old Wildhammer script and imbued with elemental power. It is handed to promising new adventurers in Coldridge Valley as an initial test of their spiritual potential. If an initiate possesses the inner sensitivity to read the rune, it confirms their calling to the shamanic path and directs them to speak with the trainer in Anvilmar.",
+   "q": "What is the Archaic Rune?"
+  },
+  {
+   "aliases": [
+    "who made the archaic rune",
+    "rune origin",
+    "wildhammer rune maker"
+   ],
+   "answer": "The inscriptions on the rune are crafted in the traditional style of the Wildhammer clan. It was sent by Teo Hammerstorm, a Wildhammer shaman residing inside Anvilmar, who uses the inscribed stone to identify and reach out to new initiates who possess an innate connection to the elemental spirits.",
+   "q": "Who carved the Archaic Rune?"
+  },
+  {
+   "aliases": [
+    "who is teo hammerstorm",
+    "teo hammerstorm anvilmar",
+    "shaman trainer anvilmar"
+   ],
+   "answer": "Teo Hammerstorm is a Wildhammer dwarf and shaman trainer stationed inside Anvilmar in Coldridge Valley. He has traveled to Dun Morogh to help share the ancestral shamanic teachings of his clan with the Bronzebeard dwarves, guiding new practitioners in the ways of earth, fire, water, and air.",
+   "q": "Who is Teo Hammerstorm?"
+  },
+  {
+   "aliases": [
+    "why are dwarves shamans",
+    "bronzebeard wildhammer shaman",
+    "dwarf shaman lore"
+   ],
+   "answer": "While the shamanic arts were traditionally preserved and guarded by the Wildhammer clan for many years, those elemental practices have recently passed into the care and practice of the Bronzebeard dwarves as well. Mentors like Teo Hammerstorm have stepped forward to teach Ironforge dwarves how to commune with and honor the elemental spirits.",
+   "q": "Why are Wildhammer teachings being shared with Bronzebeard dwarves?"
+  },
+  {
+   "aliases": [
+    "where to turn in archaic rune",
+    "archaic rune turn in",
+    "find teo hammerstorm"
+   ],
+   "answer": "The rune must be brought to Teo Hammerstorm, who is located inside the main lodge of Anvilmar in Coldridge Valley. Presenting the rune to him demonstrates your ability to channel the elements and unlocks further training in your fundamental shamanic spells.",
+   "q": "Where do I take the Archaic Rune?"
+  },
+  {
+   "aliases": [
+    "why can i read the rune",
+    "rune meaning",
+    "reading the archaic rune"
+   ],
+   "answer": "The Archaic Rune is imbued with the elemental energies of ancient dwarven script. Only an initiate with an innate attunement to the elemental forces can decipher its writing. Reading it successfully proves that an adventurer has the natural makings and spiritual readiness of a true shaman.",
+   "q": "What does reading the rune signify?"
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "archaic rune",
+  "bronzebeard",
+  "coldridge valley",
+  "elements",
+  "shaman",
+  "teo hammerstorm",
+  "wildhammer clan"
+ ],
+ "related": [
+  "topic:shaman",
+  "topic:wildhammer-clan",
+  "subzone:anvilmar"
+ ],
+ "sections": [
+  {
+   "body": "Fledgling adventurers in Coldridge Valley discover the Archaic Rune after assisting local allies near Anvilmar. Bearing distinctive script carved in the style of the Wildhammer clan, the stone is visibly and palpably charged with ancient elemental power. The rune serves not merely as a relic of stonecraft, but as an elemental test: only those who possess a nascent attunement to the primordial spirits can comprehend the markings etched upon its weathered surface. For those capable of reading the script, it provides clear guidance to seek out proper instruction within the nearby dwarven outpost.",
+   "spoiler": 0,
+   "title": "An Ancient Inscription"
+  },
+  {
+   "body": "Inside the great hall of Anvilmar, the Wildhammer shaman Teo Hammerstorm receives the inscribed stone. For generations, the spiritual arts of the elements remained largely preserved by the Wildhammer clan among their windswept peaks. Now, those traditions have begun to take root among the Bronzebeard dwarves of Ironforge and Dun Morogh. Hammerstorm serves as a vital bridge between the two dwarven cultures, welcoming young initiates who show a calling to commune with the elements and offering formal instruction in the disciplines of earth, air, fire, and water.",
+   "spoiler": 0,
+   "title": "Wildhammer Wisdom in Dun Morogh"
+  }
+ ],
+ "summary": "The Archaic Rune is an introductory quest given to fledgling dwarf Shamans in Dun Morogh. Imbued with elemental power from ancient Wildhammer inscriptions, this sacred tablet introduces young initiates to their elemental heritage. Delivering the stone to Teo Hammerstorm in Anvilmar marks the formal beginning of their training in the ways of earth, air, fire, and water.",
+ "attribution": [
+  "In-game quest text: Archaic Rune"
+ ]
+}

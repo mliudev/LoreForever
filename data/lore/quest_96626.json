@@ -1,0 +1,109 @@
+{
+ "key": "quest:96626",
+ "type": "quest",
+ "name": "Camping 101: Cooking",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96626
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Culinary training serves as the essential bedrock for wilderness survival, granting adventurers the skill to build basic campfires that anchor their campsites."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Novice Alliance adventurers in Elwynn Forest are directed to Cook Tomas at the Lion's Pride Inn in Goldshire to master culinary fundamentals and campfire crafting."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is camping 101 cooking",
+    "what does camping 101 teach",
+    "purpose of camping 101"
+   ],
+   "answer": "Camping 101: Cooking introduces adventurers to the fundamentals of surviving in the wilds. It guides you to take up the cooking profession, teaching you how to spark a basic campfire that serves as the centerpiece for your campsite out in the wilderness.",
+   "q": "What is the quest Camping 101: Cooking?"
+  },
+  {
+   "aliases": [
+    "who is tomas",
+    "where is tomas",
+    "tomas goldshire"
+   ],
+   "answer": "Tomas is the resident culinary trainer located in Goldshire within Elwynn Forest. Based out of the Lion's Pride Inn, he instructs aspiring adventurers in basic cooking and the art of lighting a campfire.",
+   "q": "Who is Tomas and where can he be found?"
+  },
+  {
+   "aliases": [
+    "why do i need cooking for camping",
+    "is cooking required to camp",
+    "cooking campfire relationship"
+   ],
+   "answer": "A campfire is the foundation of any wilderness encampment. Learning cooking provides the essential knowledge required to build a fire, around which an adventurer can rest and arrange their campsite furnishings.",
+   "q": "Why is cooking required to establish a campsite?"
+  },
+  {
+   "aliases": [
+    "how to upgrade campfire",
+    "can i build bigger campfires",
+    "bigger fires cooking"
+   ],
+   "answer": "Advancing your culinary expertise allows you to construct larger and sturdier fires. As your cooking skill develops, your campfire becomes a more substantial base for wilderness exploration.",
+   "q": "Can you make larger campfires as your skill improves?"
+  },
+  {
+   "aliases": [
+    "how to add camp furnishings",
+    "where do camp furnishings come from",
+    "crafting camp items"
+   ],
+   "answer": "Beyond cooking, additional campsite furnishings can be learned from other tradeskill trainers across the world. Adventurers skilled in various crafting professions can create items to decorate and enhance their wilderness camps.",
+   "q": "How do you acquire furnishings for your campsite?"
+  },
+  {
+   "aliases": [
+    "can i camp anywhere",
+    "wilderness camping rules",
+    "camp placement limits"
+   ],
+   "answer": "Once you have mastered the basics of cooking and campfire creation, you gain the ability to pitch a camp in the open wilderness. However, initial campsites are modest and support only a minimal number of furnishings until you expand your skills.",
+   "q": "Where can an adventurer set up camp?"
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping",
+  "camping 101: cooking",
+  "campsite",
+  "cooking",
+  "furnishings",
+  "goldshire",
+  "tomas"
+ ],
+ "related": [
+  "subzone:goldshire"
+ ],
+ "sections": [
+  {
+   "body": "For any adventurer braving the wilds of Azeroth, setting up camp begins with a reliable blaze. The quest Camping 101: Cooking instructs novice wanderers that culinary training is not merely about preparing hot meals; it is the vital foundation for survival in the wilderness. By mastering the cooking profession, travelers learn how to strike a proper campfire, turning an untamed clearing into a safe refuge.",
+   "spoiler": 0,
+   "title": "The Hearth in the Wild"
+  },
+  {
+   "body": "New travelers in Elwynn Forest are sent to speak with Cook Tomas in Goldshire to learn the fundamentals of the craft. Upon receiving his instruction, adventurers gain the ability to establish basic wilderness camps. While initial camps are simple and hold limited furnishings, honing one's cooking proficiency unlocks larger fires, while other crafting disciplines offer further options to furnish and customize a campsite.",
+   "spoiler": 0,
+   "title": "Instruction in Goldshire"
+  }
+ ],
+ "summary": "Camping 101: Cooking teaches budding adventurers that cooking is the fundamental cornerstone of establishing a camp in the wild. By learning the craft from Cook Tomas in Goldshire, travelers acquire the ability to build campfires and pitch their own wilderness camps.",
+ "attribution": [
+  "In-game quest text: Camping 101: Cooking"
+ ]
+}

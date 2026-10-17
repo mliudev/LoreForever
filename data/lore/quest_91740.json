@@ -1,0 +1,114 @@
+{
+ "key": "quest:91740",
+ "type": "quest",
+ "name": "Croaky's Head",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91740
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As protectors of the kingdom's heartland, Alliance champions directly aid Stormwind's overextended forces by eliminating dangerous leaders who prey on travelers. Securing the eastern border road reinforces Alliance authority between Elwynn and Redridge."
+  },
+  {
+   "target": "race:Human",
+   "text": "For the humans of Elwynn, murloc incursions threaten their homesteads and claim the lives of local town guardsmen. Slaying Croaky brings justice for the two fallen watchmen and defends the realm's heartland."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Warriors understand the brutal reality of frontline combat and the cost paid by the fallen watchmen. Stepping in to fell an aggressive tribal chieftain relieves a hard-pressed defensive line."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is croaky",
+    "croaky lore",
+    "what kind of murloc is croaky"
+   ],
+   "answer": "Croaky was a notorious murloc leader who terrorized travelers and local patrols along the waterways of eastern Elwynn Forest. Known for coordinating aggressive ambushes near the roadways, the creature posed a severe threat to regional peace until an adventurer hunted the beast down.",
+   "q": "Who was Croaky?"
+  },
+  {
+   "aliases": [
+    "merell ross",
+    "who is officer ross",
+    "ridgepoint tower commander"
+   ],
+   "answer": "Merell Ross is a member of the Stormwind city watch stationed at Ridgepoint Tower on the eastern border of Elwynn Forest. Tasked with protecting the high road into Redridge Mountains, Ross oversees security in the borderland and seeks to rally the garrison after losing guards to aggressive murloc raids.",
+   "q": "Who is Merell Ross?"
+  },
+  {
+   "aliases": [
+    "where is ridgepoint tower",
+    "ridgepoint tower location",
+    "how to find ridgepoint tower"
+   ],
+   "answer": "Ridgepoint Tower is located at the far eastern edge of Elwynn Forest, guarding the road that crosses into the Redridge Mountains. Situated east of the Eastvale Logging Camp, this stone garrison serves as a forward defensive fortification for Stormwind's guards against hostile creatures and highway bandits.",
+   "q": "Where is Ridgepoint Tower located?"
+  },
+  {
+   "aliases": [
+    "why kill croaky",
+    "why do guards want croakys head",
+    "murloc attack on ridgepoint watch"
+   ],
+   "answer": "The Stormwind watchmen stationed at Ridgepoint Tower recently suffered heavy losses, with murlocs killing two patrol members in the surrounding woods and waters. The guards wanted the murloc leader eliminated to stop ongoing ambushes along the road and initiate a concerted effort to drive the creatures out of Elwynn.",
+   "q": "Why did the guards at Ridgepoint Tower want Croaky dead?"
+  },
+  {
+   "aliases": [
+    "croakys head purpose",
+    "what happens when you kill croaky",
+    "turn in croakys head"
+   ],
+   "answer": "Delivering Croaky's Head to Ridgepoint Tower provides the garrison with confirmation that a dangerous organizer of roadside raids has fallen. With the murloc leader dead, the guards hope to regain the offensive, secure the eastern trade paths, and gradually push the encroaching murloc tribes out of Elwynn's riverbanks.",
+   "q": "What does turning in Croaky's Head accomplish for Elwynn Forest?"
+  },
+  {
+   "aliases": [
+    "why are murlocs attacking roads",
+    "elwynn murloc problem",
+    "murloc threat in elwynn"
+   ],
+   "answer": "Murlocs commonly nest along the rivers, lakes, and streams running through Elwynn Forest. Because key roads run alongside these waterways, aggressive tribes frequently ambush unsuspecting travelers, trade caravans, and isolated military patrols, overwhelming defenders with coordinated numbers and fierce, unpredictable raids.",
+   "q": "Why are murlocs such a threat along Elwynn's roads?"
+  }
+ ],
+ "keywords": [
+  "croaky",
+  "croaky's head",
+  "eastvale",
+  "elwynn forest",
+  "merell ross",
+  "murloc",
+  "ridgepoint tower",
+  "stormwind guard"
+ ],
+ "related": [
+  "subzone:ridgepoint-tower",
+  "topic:murloc"
+ ],
+ "sections": [
+  {
+   "body": "Murlocs along the rivers and streams of Elwynn Forest have grown increasingly bolder, ambushing unwary travelers and threatening vital trade routes. Among these aquatic raiders, Croaky stood out as a particularly aggressive chieftain, rallying other murlocs and leading attacks dangerously close to local roads. For merchants, farmers, and travelers moving between Elwynn and Redridge, the creature's presence turned peaceful roadways into deadly hazard zones. Striking down this aggressive raider halts a relentless series of ambushes, removing a brazen menace that openly challenged Stormwind's hold over the eastern woodland outskirts.",
+   "spoiler": 0,
+   "title": "Terror on the Eastvale Roads"
+  },
+  {
+   "body": "Ridgepoint Tower stands as Stormwind's easternmost sentinel post in Elwynn Forest, guarding the strategic crossing into Redridge Mountains. The guards stationed here, led by Officer Merell Ross, have found themselves stretched thin against the surrounding dangers. The escalating murloc aggression recently claimed the lives of two watchmen on patrol, shaking the outpost and highlighting just how vulnerable the border has become. Presenting Croaky's severed head to Officer Ross delivers tangible proof of retribution, lifting the beleaguered garrison's morale and giving the defenders an opening to finally drive the aquatic raiders back from Elwynn's borders.",
+   "spoiler": 0,
+   "title": "The Watch at Ridgepoint Tower"
+  }
+ ],
+ "summary": "Croaky's Head is the severed bounty from a menacing murloc leader who terrorized the roads of eastern Elwynn Forest. Bringing proof of the creature's death to the Stormwind guard at Ridgepoint Tower offers grim relief to a garrison grieving their fallen comrades. It marks an essential victory for local defenders struggling to secure Elwynn's contested waterways.",
+ "attribution": [
+  "In-game quest text: Croaky's Head"
+ ]
+}
