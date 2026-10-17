@@ -21,6 +21,30 @@
   // A shared or copied link adds one to the day's count (functions/api/count/[what].js, LOR-151): only the number.
   const counted = () => { try { navigator.sendBeacon("/api/count/share"); } catch (e) {} };
 
+  // The owner's Share Willo card (lib/referrals.js shareCard): Copy link shares or copies their own link; New link
+  // makes another (functions/api/share/[action].js), and the old one stops bringing friends.
+  document.addEventListener("click", async e => {
+    const willo = e.target.closest("[data-share-willo]"), renew = e.target.closest("[data-new-share]");
+    if (!willo && !renew) return;
+    const card = (willo || renew).closest(".pf-share");
+    if (willo) {
+      const url = card.querySelector("[data-share-url]").textContent, text = "Meet Willo, a wisp you can talk to in WoW Forever";
+      const done = await window.lfShare({ url, text });
+      say(willo, done === "copied" ? postIt(url, text) : done === "failed" ? "Your link: " + url : "", true);
+      return;
+    }
+    if (!confirm("Make a new link? Your old link stops bringing friends (the ones it brought stay counted).")) return;
+    renew.disabled = true;
+    let res;
+    try { res = await (await fetch("/api/share/new", { method: "POST", headers: { "Content-Type": "application/json" }, body: "{}" })).json(); }
+    catch (err) { res = { ok: false, error: "Couldn't reach the server. Check your connection and try again." }; }
+    renew.disabled = false;
+    if (!res.ok) { say(renew, res.error || "Something went wrong. Please try again."); return; }
+    card.querySelector("[data-share-url]").textContent = res.share.url;
+    card.querySelector("[data-share-tally]").textContent = res.share.tally;
+    say(renew, "Your new link is ready.", true);
+  });
+
   document.addEventListener("click", async e => {
     const share = e.target.closest("[data-share]");
     const set = e.target.closest("[data-set-public]");

@@ -9,6 +9,9 @@ import { crc32 } from "../public/voices/crc32.js";
 export const SITE = fileURLToPath(new URL("..", import.meta.url));
 export const ROOT = fileURLToPath(new URL("../..", import.meta.url));
 
+const READ = /^\s*(?:SELECT|WITH|PRAGMA)\b/i;
+const ROWS = /^\s*(?:SELECT|WITH|PRAGMA)\b|\bRETURNING\b/i;
+
 export function d1() {
   const db = new DatabaseSync(":memory:");
   const plain = r => (r ? { ...r } : null);
@@ -19,7 +22,12 @@ export function d1() {
       return r && col ? r[col] : r;
     },
     async all() { return { results: db.prepare(sql).all(...args).map(plain) }; },
-    async run() { return { meta: { changes: Number(db.prepare(sql).run(...args).changes) } }; },
+    // As D1's: a statement's rows (a SELECT's, or what RETURNING gives) come back in results, in batch() too.
+    async run() {
+      if (!ROWS.test(sql)) return { results: [], meta: { changes: Number(db.prepare(sql).run(...args).changes) } };
+      const results = db.prepare(sql).all(...args).map(plain);
+      return { results, meta: { changes: READ.test(sql) ? 0 : Number(db.prepare("SELECT changes() AS n").get().n) } };
+    },
   });
   return {
     sqlite: db,

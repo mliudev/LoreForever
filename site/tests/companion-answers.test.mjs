@@ -44,7 +44,7 @@ async function ask(token, { prompt = "PLAYER CONTEXT\nWestfall\nQUESTION\nWho is
 
 test("practical questions offer Google search without suppressing grounding metadata", async () => {
   const { token } = await linked();
-  const result = await ask(token, { prompt: "PLAYER CONTEXT\nfaction: Alliance\nzone: Westfall\nQUESTION\nWhere can I find Mild Spices?", researchRequired: true });
+  const result = await ask(token, { prompt: "PLAYER CONTEXT\nfaction: Alliance\nzone: Westfall\nQUESTION\nWhere can I find Simple Flour?", researchRequired: true });
   assert.equal(result.status, 200);
   assert.deepEqual(calls[0].body.tools, [{ googleSearch: {} }]);
   assert.equal(calls[0].body.generationConfig.responseMimeType, undefined);
@@ -53,7 +53,7 @@ test("practical questions offer Google search without suppressing grounding meta
 
 test("required research rejects an answer without usable web evidence", async () => {
   const { token } = await linked();
-  const result = await ask(token, { prompt: "QUESTION\nWhere can I find Mild Spices?", researchRequired: true });
+  const result = await ask(token, { prompt: "QUESTION\nWhere can I find Simple Flour?", researchRequired: true });
   assert.equal(result.status, 200);
   assert.equal(calls.length, 1);
   assert.match(calls[0].body.systemInstruction.parts[0].text, /MUST use Google Search now/);
@@ -62,6 +62,41 @@ test("required research rejects an answer without usable web evidence", async ()
   assert.equal(result.body.answer, VERIFICATION_FAILED);
   assert.doesNotMatch(result.body.answer, /VanCleef/);
   assert.equal(env.DB.sqlite.prepare("SELECT actual_micro FROM answer_spend").get().actual_micro, 338);
+});
+
+test("required research for a question item facts answer is answered from them, without a search", async () => {
+  const { token } = await linked();
+  const result = await ask(token, { prompt: "PLAYER CONTEXT\nfaction: Alliance\nzone: Ironforge\nQUESTION\nWhat are the stats on the Arcanite Reaper?",
+    researchRequired: true });
+  assert.equal(result.status, 200);
+  assert.equal(calls.length, 1);
+  assert.match(calls[0].url, new RegExp(`${ANSWER_MODEL}:generateContent$`));
+  assert.equal(calls[0].body.tools, undefined);
+  assert.match(calls[0].body.systemInstruction.parts[0].text, /ITEM FACTS[^]*Arcanite Reaper: rare two-hand axe/);
+  assert.notEqual(result.body.answer, VERIFICATION_FAILED);
+  assert.equal(result.body.looked_up, "facts");
+  // Companions keep a researched answer only with sources: the records the facts come from.
+  assert.equal(result.body.web_search.status, "searched");
+  assert.ok(result.body.web_sources.length > 0 && result.body.web_sources.every(s => s.url.startsWith("https://")));
+  // Asked to look it up themselves, or about what the facts don't hold, it's researched.
+  calls = [];
+  await ask(token, { prompt: "QUESTION\nCan you search online for the Arcanite Reaper's stats?", researchRequired: true });
+  assert.deepEqual(calls[0].body.tools, [{ googleSearch: {} }]);
+});
+
+test("required research a Forever fact covers is answered from it, with the client's tables as sources", async () => {
+  const { token } = await linked();
+  const result = await ask(token, { prompt: "PLAYER CONTEXT\nfaction: Alliance\nzone: Hillsbrad Foothills\nQUESTION\nWhere does the boat from Southshore go?",
+    researchRequired: true });
+  assert.equal(calls.length, 1);
+  assert.equal(calls[0].body.tools, undefined);
+  assert.match(calls[0].body.systemInstruction.parts[0].text, /FOREVER FACTS[^]*Southshore/);
+  assert.equal(result.body.looked_up, "facts");
+  assert.equal(result.body.web_search.status, "searched");
+  assert.ok(result.body.web_sources.some(s => s.url === "https://wago.tools/db2/TaxiPathNode"));
+  // A fact with no source to show (one a player checked) leaves it to research.
+  const { factSources } = await import("../lib/forever-knowledge.js");
+  assert.deepEqual(factSources([{ id: "players-1", title: "Seen", source_url: "" }]), []);
 });
 
 test("required research keeps grounded answers with usable provider citations", async () => {
@@ -166,11 +201,12 @@ test("spoken style shortens ordinary and character replies only", async () => {
   const { token } = await linked();
   const spoken = await ask(token, { persona: "willo", style: "spoken" });
   assert.equal(calls[0].body.generationConfig.maxOutputTokens, 300);
-  assert.match(system(0), /\n\nWillo says this answer out loud .*Reply with only Willo's words: .* anything after it\.$/);
+  // Willo's own answers are as long as the question needs (LOR-587); a character keeps two or three sentences.
+  assert.match(system(0), /\n\nWillo says this answer out loud .*Reply with only Willo's words, .*as long as the question needs.* anything after it\.$/);
   assert.ok(Number.isInteger(spoken.body.timing.model_ms) && Number.isInteger(spoken.body.timing.total_ms));
   await ask(token, { style: "spoken", operation: "character" });
   assert.equal(calls[1].body.generationConfig.maxOutputTokens, 300);
-  assert.match(system(1), /\n\nYou say this answer out loud .*Reply with only your spoken words/);
+  assert.match(system(1), /\n\nYou say this answer out loud .*Reply with only your spoken words: two or three short sentences/);
   await ask(token, { style: "spoken", researchRequired: true });
   await ask(token, { style: "loud" });
   assert.deepEqual(calls.slice(2).map(c => c.body.generationConfig.maxOutputTokens), [2048, 512]);
@@ -193,7 +229,7 @@ test("a spoken answer sends the player's picture to Gemini, and the allowance sa
   assert.equal(result.body.allowance.pictures, true);
   assert.deepEqual(parts(0), [{ inlineData: { mimeType: "image/jpeg", data: image } }, { text: prompt }]);
   assert.equal(calls[0].body.generationConfig.mediaResolution, "MEDIA_RESOLUTION_MEDIUM");
-  assert.match(system(0), /Willo's words: .*anything after it\.\n\nA picture of the player's game window, .* interface numbers\.$/);
+  assert.match(system(0), /Willo's words, .*anything after it\.\n\nA picture of the player's game window, .* interface numbers\.$/);
 });
 
 test("pictures outside spoken answers, or malformed ones, are ignored and the question is still answered", async () => {
@@ -289,7 +325,9 @@ test("monthly reservation shares the $100 estimated-spend gate with stories and 
   await env.DB.prepare("INSERT INTO story_spend (month, micro_usd, voice_micro_usd) VALUES (?, ?, ?)")
     .bind(month, paidBudgetMicro(env) - ANSWER_RESERVATION_MICRO - 1000, 1000).run();
   globalThis.fetch = async () => { calls.push({ failed: true }); return new Response("error", { status: 500 }); };
-  assert.equal((await ask(token)).status, 502);
+  const failed = await ask(token);
+  assert.equal(failed.status, 502);
+  assert.equal(failed.body.reason, "Gemini HTTP 500");     // for the companion's log (LOR-580)
   assert.equal((await ask(token)).status, 429);
   assert.equal(calls.length, 1);
   assert.equal(env.DB.sqlite.prepare("SELECT reserved_micro FROM answer_spend").get().reserved_micro, ANSWER_RESERVATION_MICRO);

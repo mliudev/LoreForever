@@ -1,0 +1,164 @@
+/* Player profiles (/u/<handle>, lib/profiles.js) in the book and the wisp (2026-10-16). The page keeps Mike's
+   story-first layout (10/11) and style.css's .pf-* rules; lib/voices.js page() gives it the shared frame (the night
+   sky, the column, the footer), pages.css turns the old colour names into the book's, and this sheet gives the
+   profile's own pieces the new shapes and type: the head, the owner's and visitor's bars, Listen, the story in
+   Alegreya, the chapters, the road chart, the numbers and "This could be your page". Willo's signature is in the
+   wisp's blue: she wrote the story. */
+
+/* The column: as wide as the chart needs beside the reading (style.css gave main this before). */
+@media (min-width: 1000px) { .bw .bw-in.vp-page:has(.pf-atlas) { max-width: 1392px; } }
+
+/* The bars: the owner's (dashed, theirs alone) and the visitor view's, which stays in view. */
+.bw .bw-in .pf-owner { margin: 0 0 28px; padding: 14px 18px; border: 1px dashed var(--h-acc-rim); border-radius: var(--h-r);
+  background: var(--h-acc-wash); }
+.bw .bw-in .pf-owner p { color: var(--h-text-2); }
+.bw .bw-in .pf-owner strong { color: var(--h-acc-hi); }
+.bw .bw-in .pf-owner .vp-actions { gap: 8px; margin-top: 10px; }
+.bw .bw-in .pf-visitor { border-style: solid; border-color: var(--h-acc-edge); background: var(--h-acc-panel);
+  box-shadow: 0 10px 28px -8px #000c; }
+
+/* The head: the initial in its faction's ring, the name as the page's title, the facts under it, Listen and Share at
+   its right. */
+.bw .pf-head { gap: 6px 24px; align-items: center; margin-bottom: 18px; }
+.bw .pf-head .vpr-avatar { width: 104px; height: 104px; border-width: 2px; background: radial-gradient(circle at 50% 35%, #2a2011, var(--h-night));
+  box-shadow: 0 0 0 6px var(--h-night), 0 0 32px -6px var(--h-acc-edge); font: 600 2.8rem/1 var(--h-display); color: var(--h-acc-hi); }
+.bw .pf-head .pf-alliance { border-color: #5a8fe6; }
+.bw .pf-head .pf-horde { border-color: #d0453c; }
+.bw .pf-head .pf-none { border-color: var(--h-acc-rim); }
+.bw .bw-in .pf-head h1 { margin: 0 0 6px; }
+.bw .pf-head .zone-where { margin: 0 0 4px; font-size: 1.02rem; color: var(--h-text-2); }
+.bw .pf-spec, .bw .pf-seen { color: var(--h-muted); font-size: 0.95rem; }
+.bw .pf-spec strong { color: var(--h-text); }
+.bw .pf-head .vpr-links { margin-top: 4px; font-size: 0.95rem; }
+.bw .pf-glance { margin-top: 10px; padding-top: 12px; border-top: 1px solid var(--h-line-soft); color: var(--h-muted); font-size: 0.92rem; }
+.bw .pf-head-acts { gap: 10px; }
+.bw .pf-badges { gap: 6px; margin: 6px 0 4px; }
+.bw .pf-badge { padding: 3px 10px; border: 1px solid #e3b55c55; border-radius: 999px; background: var(--h-gold-wash); color: var(--h-gold);
+  font: 700 0.7rem/1.4 var(--h-body); letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; }
+.bw .pf-badge:hover, .bw .pf-badge:focus-visible { border-color: var(--h-gold); color: var(--h-gold-hi); }
+
+/* Listen: the same pill as Share's height, its play button the book's gold. */
+.bw .pf-listen-play { min-height: 40px; padding: 4px 16px 4px 5px; border-radius: 999px; border: 1px solid var(--h-acc-rim);
+  background: var(--h-acc-wash); color: var(--h-text); font: 700 0.95rem/1 var(--h-body); }
+.bw .pf-listen-play:hover, .bw .pf-listen-play:focus-visible { border-color: var(--h-acc); background: #e3b55c22; }
+.bw .pf-listen-play.pf-on { border-color: var(--h-acc); box-shadow: 0 0 0 1px var(--h-acc), 0 0 22px -6px var(--h-acc-edge); }
+.bw .pf-listen-ic { width: 30px; height: 30px; background: var(--h-fill); color: var(--h-fill-ink); font-size: 0.72rem; }
+.bw .pf-listen-len { color: var(--h-muted); font-weight: 500; }
+.bw .pf-listen-wait { color: var(--h-text-2); }
+
+/* The tabs. */
+.bw .pf-tabs { gap: 4px; margin-top: 4px; border-bottom-color: var(--h-line); }
+.bw .pf-tabs a { padding: 12px 16px 11px; color: var(--h-text-2); font: 600 1rem var(--h-display); letter-spacing: 0.04em; }
+.bw .pf-tabs a:hover { color: var(--h-text); }
+.bw .pf-tabs a[aria-selected="true"] { color: var(--h-acc-hi); border-bottom-color: var(--h-acc); }
+.bw .pf-tabs a:focus-visible { outline-color: var(--h-acc-hi); }
+
+/* The story: the book's own page, in Alegreya, with a gold initial. */
+.bw .pf-story { padding-top: 28px; }
+.bw .bw-in .pf-story h2 { margin: 0 0 14px; }
+.bw .pf-story-text p { margin: 0 0 16px; font: 400 1.2rem/1.7 "Alegreya", Georgia, "Times New Roman", serif; color: var(--h-text); }
+.bw .pf-story-text > p:first-child::first-letter { margin: 0.04em 0.12em 0 0; font: 600 3.5em/0.8 var(--h-display); color: var(--h-gold); }
+.bw .pf-story-text.pf-playing p { color: var(--h-muted); }
+.bw .pf-story-text p.pf-reading { color: var(--h-text); }
+.bw .pf-signed { gap: 12px; margin: 6px 0 0; color: var(--h-wisp-hi); font: italic 400 1.08rem "Alegreya", Georgia, serif; }
+.bw .pf-signed img { padding: 5px; border: 1px solid #93b6ff77; background: radial-gradient(circle, #1b2a5c, #0f1530);
+  box-shadow: 0 0 20px -4px #6f8fff88; }
+
+/* A note only the owner sees, where the chapters would be. */
+.bw .pf-behind { margin: 18px 0; padding: 18px 20px; border: 1px dashed var(--h-acc-rim); border-radius: var(--h-r); background: var(--h-acc-wash); }
+.bw .bw-in .pf-behind h2 { margin: 0 0 8px; font-size: 1.3rem; }
+
+/* The road chart: the night sea in the card's corners, its buttons the shared small shape. */
+.bw .pf-atlas-cap { margin-bottom: 10px; }
+.bw .pf-atlas-title { font: 600 1.1rem/1.3 var(--h-display); color: var(--h-acc-hi); }
+.bw .pf-atlas-sub, .bw .pf-chart figcaption { color: var(--h-muted); font-size: 0.9rem; }
+.bw .pf-chart-svg { border-color: var(--h-acc-line); border-radius: var(--h-r);
+  background: radial-gradient(ellipse at 30% 40%, #18203a 0, transparent 60%), radial-gradient(ellipse at 75% 50%, #18203a 0, transparent 60%), #080b14; }
+.bw .pf-ch-coast { fill: #221f1b; }   /* the lands a warm dark earth against the night sea */
+.bw .pf-mini { border-radius: var(--h-r-sm); }
+.bw .pf-chart-tools { top: 10px; right: 10px; gap: 6px; }
+.bw .pf-chart-tools button { width: 36px; height: 36px; border-radius: var(--h-r-sm); border-color: var(--h-line); background: #0a0c13d9; color: var(--h-text); }
+.bw .pf-chart-tools button:hover, .bw .pf-chart-tools button:focus-visible { border-color: var(--h-acc-rim); color: var(--h-acc-hi); }
+.bw .pf-ch-stop text { font-family: var(--h-body); font-size: 13px; font-weight: 700; stroke: #080b14; }
+.bw .pf-ch-pin text { font-family: var(--h-body); font-size: 12px; }
+
+/* Chapters: the eyebrow, the title in Cinzel, the summary in Alegreya. */
+.bw .pf-ch { padding: 26px 0 24px; border-top-color: var(--h-line-soft); }
+.bw .pf-eyebrow, .bw .pf-earlier-title { color: var(--h-acc); font: 700 0.76rem/1.3 var(--h-body); letter-spacing: 0.14em; }
+.bw .bw-in .pf-ch h3 { margin: 6px 0; font-size: 1.5rem; line-height: 1.25; }
+.bw .pf-route { color: var(--h-muted); font-size: 0.92rem; }
+.bw .pf-sum { font: italic 400 1.14rem/1.6 "Alegreya", Georgia, serif; color: var(--h-text); }
+.bw .pf-hi li { font-size: 1rem; }
+.bw .pf-hi span { color: var(--h-text-2); }
+.bw .pf-hi strong { color: var(--h-text); font-weight: 700; }
+.bw .pf-all > summary { min-height: 38px; padding: 4px 16px; border-color: var(--h-line); border-radius: 999px; background: transparent;
+  color: var(--h-link); font: 500 0.95rem var(--h-body); }
+.bw .pf-all > summary:hover { border-color: var(--h-acc-rim); color: var(--h-text); }
+.bw .pf-all > summary .pf-n { color: var(--h-muted); }
+.bw .pf-visit h4 { color: var(--h-acc); font: 700 0.76rem/1.3 var(--h-body); letter-spacing: 0.12em; }
+.bw .pf-visit li { color: var(--h-text-2); font-size: 0.95rem; }
+.bw .pf-earlier { border-top-color: var(--h-line-soft); }
+.bw .pf-chx > summary { border-radius: var(--h-r-sm); }
+.bw .pf-chx > summary:hover { background: var(--h-acc-wash); }
+.bw .pf-chx-n { background: var(--h-acc-wash); border: 1px solid var(--h-acc-rim); color: var(--h-acc-hi); font: 700 0.78rem/1 var(--h-body); }
+.bw .pf-chx-t { font: 600 1.02rem/1.3 var(--h-display); color: var(--h-text); }
+.bw .pf-chx-d { color: var(--h-muted); font-size: 0.88rem; }
+.bw .pf-more-pics { border-top-color: var(--h-line-soft); }
+.bw .bw-in .pf-more-pics h3 { font-size: 1.15rem; color: var(--h-acc-hi); }
+.bw .pf-picture { border-color: var(--h-acc-line); border-radius: var(--h-r-sm); }
+.bw .pf-picture:hover { border-color: var(--h-acc-rim); }
+.bw .pf-history { gap: 12px 28px; }
+
+/* By the numbers: the counts as cards, the lists under small gold heads. */
+.bw .pf-nums.pf-panel { padding-top: 28px; }
+.bw .pf-stats { gap: 10px; }
+.bw .pf-stats li { padding: 14px 8px 12px; border-color: var(--h-acc-line); border-radius: var(--h-r-sm); background: var(--h-acc-panel); box-shadow: none; }
+.bw .pf-stats strong { font: 600 1.55rem/1.15 var(--h-display); color: var(--h-acc-hi); font-variant-numeric: tabular-nums; }
+.bw .pf-stats span { color: var(--h-muted); font-size: 0.85rem; }
+.bw .pf-nums .pf-stats :is(.pf-sub, .pf-dist) { color: var(--h-acc); }
+.bw .pf-fun li { color: var(--h-text-2); }
+.bw .pf-fun li::marker { color: var(--h-acc); }
+.bw .bw-in :is(.pf-nums-lists, .pf-card) h3 { margin: 0 0 6px; color: var(--h-acc); font: 700 0.78rem/1.3 var(--h-body); letter-spacing: 0.12em; text-transform: uppercase; }
+.bw .pf-nums-lists li, .bw .pf-card li { color: var(--h-text-2); }
+.bw :is(.pf-where, .pf-rank, .pf-more) { color: var(--h-muted); }
+.bw .pf-n { color: var(--h-acc); }
+.bw .pf-units { color: var(--h-muted); }
+
+/* "This could be your page", under someone else's: a blank sheet and the two ways in. */
+.bw .bw-in .pf-mine { margin: 40px 0 12px; padding: 28px; border: 1px dashed var(--h-acc-rim); border-radius: var(--h-r);
+  background: linear-gradient(160deg, #e3b55c0d, transparent 60%), var(--h-acc-panel); }
+.bw .bw-in .pf-mine h2 { margin: 0 0 10px; }
+.bw .pf-mine p { color: var(--h-text-2); }
+.bw .pf-ghost .ss-avatar { border: 2px dashed var(--h-acc-rim); background: var(--h-night); color: #e3b55c99; font-family: var(--h-display); }
+.bw .pf-ghost .ss-name { color: #f4d59099; font-family: var(--h-display); font-weight: 600; }
+.bw .pf-ghost .ss-sub { color: var(--h-muted); }
+.bw .pf-ghost .ss-stats li { border-color: var(--h-acc-line); border-radius: var(--h-r-sm); background: var(--h-night); box-shadow: none; }
+.bw .pf-ghost .ss-stats strong { color: #e3b55c66; font-family: var(--h-display); }
+.bw .pf-mine .vp-actions { gap: 10px 12px; }
+.bw .bw-in .pf-mine .pf-what { color: var(--h-text-2); }
+
+/* Share Willo, on the owner's own page where visitors get the card above (lib/referrals.js shareCard): in the wisp's
+   blue, with their link and its tally. */
+.bw .bw-in .pf-share { margin: 40px 0 12px; padding: 24px 28px; border: 1px solid #93b6ff44; border-radius: var(--h-r);
+  background: linear-gradient(160deg, #6f8fff14, transparent 60%), var(--h-acc-panel); }
+.bw .bw-in .pf-share h2 { margin: 0 0 10px; }
+.bw .pf-share p { color: var(--h-text-2); }
+.bw .pf-share .pf-share-link { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 14px 0; }
+.bw .pf-share .pf-share-link code { padding: 6px 10px; border: 1px solid var(--h-acc-line); border-radius: var(--h-r-sm);
+  background: var(--h-night); color: var(--h-text); overflow-wrap: anywhere; }
+@media (max-width: 640px) { .bw .bw-in .pf-share { padding: 20px; } }
+
+/* The picture viewer. */
+.bw .pb-dlg { border-color: var(--h-acc-line); border-radius: var(--h-r); background: var(--h-night-2); }
+.bw .pb-x { border-radius: var(--h-r-sm); }
+
+@media (max-width: 620px) {
+  /* The initial stays beside the name on a phone. */
+  .bw .pf-head { gap: 4px 16px; align-items: flex-start; }
+  .bw .pf-head .vpr-avatar { width: 64px; height: 64px; margin-top: 4px; font-size: 1.8rem; box-shadow: 0 0 0 4px var(--h-night), 0 0 24px -6px var(--h-acc-edge); }
+  .bw .pf-head-main { flex-basis: 200px; }
+  .bw .bw-in .pf-head h1 { font-size: clamp(1.9rem, 9vw, 2.3rem); }
+  .bw .pf-head-acts { margin-top: 8px; }
+  .bw .pf-story-text p { font-size: 1.12rem; }
+  .bw .bw-in .pf-mine { padding: 20px; }
+}

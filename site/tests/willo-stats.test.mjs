@@ -79,3 +79,34 @@ test("Willo's daily and weekly players: accounts that asked her, admin's left ou
   assert.deepEqual(s.downloads, { day: 40, week: 40, prevWeek: 5, total: 48 });
   assert.equal(s.today.downloads, 3);
 });
+
+test("Willo's best first: what it cost a day, and plans and returns for the players who had it against those before", async () => {
+  const { tasteReport } = await import("../lib/best-first.js");
+  const env = { DB: d1() };
+  await setup(env);
+  await setupBilling(env);
+  assert.equal(await tasteReport(env, new Date(NOW)), null, "nothing until a first answer at her best");
+  const user = async name => (await findOrCreateUser(env, { email: `${name}@example.com`, googleSub: name, name })).id;
+  const asked = (id, ...days) => days.forEach(day =>
+    env.DB.sqlite.prepare("INSERT INTO answer_days (day, user_id, n) VALUES (?, ?, 1)").run(day, id));
+  const [old, oldBack, fresh, freshPaid, test] = await Promise.all(["old", "oldback", "fresh", "paid", "tester"].map(user));
+  asked(old, "2026-10-12");
+  asked(oldBack, "2026-10-12", "2026-10-14");
+  asked(fresh, "2026-10-15");
+  asked(freshPaid, "2026-10-15");
+  asked(test, "2026-10-15");
+  for (const [id, used] of [[fresh, 20], [freshPaid, 3], [test, 5]])
+    env.DB.sqlite.prepare("INSERT INTO best_first (claim, user_id, used, started) VALUES (?, ?, ?, '2026-10-15T01:00:00Z')")
+      .run(`taste:${id}`, id, used);
+  env.DB.sqlite.prepare("INSERT INTO plan_log (subscription_id, user_id, plan, status, comp, updated) VALUES " +
+    "('sub_1', ?, 'hero', 'trialing', '', ?)").run(freshPaid, new Date(NOW).toISOString());
+  env.DB.sqlite.prepare("INSERT INTO excluded_accounts VALUES (?, 'config', ?)").run(test, new Date(NOW).toISOString());
+  env.DB.sqlite.prepare("INSERT INTO best_first_days (day, spent_micro, reserved_micro, answers, capped) VALUES " +
+    "('2026-10-15', 240000, 240000, 23, 2)").run();
+  const r = await tasteReport(env, new Date(NOW));
+  assert.deepEqual([r.tasters, r.finished, r.usd, r.capUsd], [2, 1, 0.24, 2], "the test account left out");
+  assert.equal(r.perTaster, 0.12);
+  assert.deepEqual(r.days, [{ day: "2026-10-15", usd: 0.24, answers: 23, replies: 0, lines: 0, starts: 0, capped: 2, unreachable: 0 }]);
+  assert.deepEqual(r.cohorts, { taste: { players: 2, paid: 1, returned: 0, week: 0 },
+                                before: { players: 2, paid: 0, returned: 1, week: 0 } });
+});

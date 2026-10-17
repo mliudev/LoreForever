@@ -13,7 +13,9 @@
 // (its first sentence, then the rest), each piece in one request, and is counted on its first piece, at most
 // SPEAK_MAX_CHARS letters in all; one that couldn't be said at all is given back. A finest reply, the plan's or a
 // pack's, is one Inworld said: one whose first piece the studio voice said instead goes back to the month's finest
-// ones or to its pack.
+// ones or to its pack. A reply is said in one voice, start to end (LOR-596): its pieces all go to the provider that
+// took its first (voice_replies provider), and one that fails there fails, so the companion asks again and then
+// shows the rest in captions, never in another voice.
 //
 // The free plan's spoken starter (PLAN_VOICE.free.starter): its first STARTER_ANSWERS replies ever (voice_replies,
 // period "starter", kept for good), in the studio voice, paid for by the shared free budget (reserveFreeVoice, on the
@@ -26,10 +28,16 @@
 // No player ever costs more than they pay (Mike, 2026-10-13): what the hosted voice costs goes on the player's
 // calendar month (lib/billing.js addVoiceSpend) and, with their answers, stays within their plan's net
 // (totalCapMicro). Each piece holds its cost against that first (holdUserSpend), so the voice steps down, finest to
-// studio to everyday, before the month's total would pass it; a provider that fails steps down too. Never up: the
+// studio to everyday, before the month's total would pass it; a provider that fails at a reply's start steps down too. Never up: the
 // studio voice failing goes to the everyday voice, not the dearer finest one. The companion says what the site can't in
 // the everyday voice, and tells the player once per step per month, warmly, when it comes back (voiceAllowance's back).
 // The shared budget for free players never pays for a paying player's.
+//
+// Willo's best first (lib/best-first.js, LOR-602): a player who isn't paying (the free plan, the beta's free Hero
+// month) hears the finest voice on the replies their first answers earned (speakTaste), and a character they talk to
+// in their own; Willo's own lines are in it too while the taste lasts (speakLine). Paid like the free plan's starter,
+// from the shared free budget, and held on the taste's daily cap; the voice steps down to the studio voice when Inworld
+// can't say it, and to the plan's own path once the taste is used or the day's cap is reached.
 //
 // Off while the "plans" site feature is (lib/features.js): then Willo talks on the PC, as before. Also needs the Pages
 // secrets DEEPINFRA_API_KEY and/or INWORLD_API_KEY and Willo's voice ids (HOSTED_VOICES); without them the plans'
@@ -39,6 +47,8 @@ import { plansOn, poolWindow, setupBilling, holdUserSpend, releaseUserSpend, add
   VOICE_PACK, LEGEND_BEST_MODEL, CHARACTER_MODEL } from "./billing.js";
 import { reserveFreeVoice, settleFreeVoice } from "./companion-answers.js";
 import { characterVoices, CHARACTER_KEY } from "./character-voices.js";
+import { tasteFor, tasteState, tasteDayMicro, takeVoice, giveVoice, holdDay, settleDay, countDay, TASTE_PERIOD,
+  TASTE_REPLY_MICRO, TASTE_ANSWERS } from "./best-first.js";
 
 export const PROVIDERS = {
   inworld: { key: "INWORLD_API_KEY", url: "https://api.inworld.ai/tts/v1/voice:stream" },
@@ -177,9 +187,15 @@ const starterSaid = async (env, userId) => (await env.DB.prepare(
 // its next reply gets), back (standing), choice (PLAN_VOICE), bestLeft (Legend's finest replies left this plan
 // month), starterLeft (the free plan's spoken starter replies left)}. A plan whose hosted voice isn't set up here yet is
 // "local" from the top; a plan whose voice is the PC's is "hosted" while a finest-voice pack has replies. null while
-// plans are off.
-export async function voiceAllowance(env, userId, plan, now = new Date()) {
+// plans are off. taste: the account's best first (lib/best-first.js tasteState), when the caller has it: while it's on
+// and the finest voice is set up here, now is "finest" (top stays the plan's own).
+export async function voiceAllowance(env, userId, plan, now = new Date(), taste = undefined) {
   if (!plansOn(env) || !plan?.voice) return null;
+  if (taste === undefined) taste = await tasteState(env, userId, plan, now);
+  const own = await planVoice(env, userId, plan, now);
+  return taste?.on && readyFor(env, "willo").includes("inworld") ? { ...own, tier: "hosted", now: "finest" } : own;
+}
+async function planVoice(env, userId, plan, now) {
   const pv = plan.voice, choice = Boolean(pv.choice);
   const pc = { tier: "local", top: "everyday", now: "everyday", choice };
   if (plan.id === "free") {
@@ -314,16 +330,24 @@ function afterAudio(settled, later, provider) {
 // fails or sends no audio in CHARACTER_FIRST_AUDIO_MS; when neither can, or the month's room won't hold it, the
 // character steps down to Willo's studio voice (a hosted plan), or the PC, silently. The free plan's spoken starter is
 // Willo's own voice, characters' replies too. line: one of Willo's own lines, not a reply (speakLine); reading: a line
-// that is the add-on's own short answer read aloud (LOR-547), never in the finest voice.
+// that is the add-on's own short answer read aloud (LOR-547), always said on the PC ({local: "reading"}).
 //
 // later (the request's waitUntil, optional): what a said piece cost and that it was heard are written after its audio
 // has gone back, not before (its hold on the month's cap counts until then); without it, before speakPiece returns.
 export async function speakPiece(env, userId, plan, { text, voice, reply, pick, line = false, reading = false },
                                  now = new Date(), later = null) {
+  // The add-on's short answers read aloud are always said in Willo's voice on the PC (Mike, 10/15): no provider, and
+  // nothing on the player's month or the free budget. Today's companion never asks; an older one hears this.
+  if (line && reading) return { local: "reading", status: 402 };
   const pv = plan?.voice;
   const free = plan?.id === "free";
   if (!plansOn(env) || !pv || (free && !pv.starter)) return { local: "plan", status: 402 };
-  if (line) return speakLine(env, userId, plan, { text, pick, reading }, now, later);
+  if (line) return speakLine(env, userId, plan, { text, pick }, now, later);
+  // A reply the account's best first earned is said in the finest voice (speakTaste); any other, the plan's way below.
+  if (tasteFor(env, plan)) {
+    const tasted = await speakTaste(env, userId, plan, { text, voice, reply, pick }, now, later);
+    if (tasted) return tasted;
+  }
   const hostedPlan = pv.voice !== "local";
   const character = voice !== "willo" ? characterVoices(env)[voice] : null;
   const ownInworld = character?.inworld && env[PROVIDERS.inworld.key] ? character.inworld : null;
@@ -378,13 +402,18 @@ export async function speakPiece(env, userId, plan, { text, voice, reply, pick, 
   const chars = text.length;
   const taken = await env.DB.prepare(
     "UPDATE voice_replies SET chars = chars + ?, pieces = pieces + 1 WHERE user_id = ? AND reply = ? AND period = ? " +
-    "AND chars + ? <= ? RETURNING best, npc, pack"
+    "AND chars + ? <= ? RETURNING best, npc, pack, chars"
   ).bind(chars, userId, reply, period, chars, SPEAK_MAX_CHARS).first();
   if (!taken) return { local: "long", status: 413 };
+  // The reply's letters before this piece: the month's room held a whole reply when it started, so a later piece only
+  // needs room for what's left of it, and a reply that started in a voice can finish in it.
+  const before = taken.chars - chars;
   // The reply's finest voice when it has one (a character's own: Inworld, then Fish; else Willo's Inworld voice), then
-  // studio (a PC plan has no studio voice). Each holds its cost first, while a whole reply in that voice still fits: a
-  // pack's against the pack, the free plan's starter on the shared free budget, the rest against the month's total.
-  // One that won't steps down, and so does one whose provider fails.
+  // studio (a PC plan has no studio voice). Each holds its cost first, while the rest of the reply in that voice still
+  // fits: a pack's against the pack, the free plan's starter on the shared free budget, the rest against the month's
+  // total. One that won't steps down, and so does one whose provider fails, but only while nothing else of the reply
+  // is said or on its way (the companion asks for the next piece while one plays): each first takes the reply for its
+  // provider (claim), and the reply's other pieces then go only there (LOR-596).
   const input = cast && character.cue ? `${character.cue} ${text}` : text;
   const finest = !(taken.best || taken.npc || taken.pack) ? []
     : cast ? [...(ownInworld ? [{ provider: "inworld", model: CHARACTER_MODEL, pack: taken.pack, voiceId: ownInworld,
@@ -393,10 +422,15 @@ export async function speakPiece(env, userId, plan, { text, voice, reply, pick, 
     : [{ provider: "inworld", model: taken.best ? pv.model : PACK_MODEL, pack: taken.best ? null : taken.pack }];
   const order = [...finest, ...(hostedPlan ? [{ provider: "deepinfra" }] : [])]
     .filter(s => s.voiceId || s.provider === "fish" || ready.includes(s.provider));
+  const claim = provider => env.DB.prepare("UPDATE voice_replies SET provider = ? WHERE user_id = ? AND reply = ? AND " +
+    "(provider IS NULL OR provider = ? OR (heard = 0 AND pieces = 1)) RETURNING provider")
+    .bind(provider, userId, reply, provider).first();
   let full = false;
   for (const { provider, model, pack, voiceId, firstAudioMs } of order) {
+    if (!(await claim(provider))) continue;
     const micro = provider === "fish" ? fishCost(input) : chars * rate(provider, model);
-    const need = provider === "fish" ? Math.ceil(SPEAK_MAX_CHARS * FISH_MICRO_PER_BYTE) : SPEAK_MAX_CHARS * rate(provider, model);
+    const left = SPEAK_MAX_CHARS - before;
+    const need = provider === "fish" ? Math.ceil(left * FISH_MICRO_PER_BYTE) : left * rate(provider, model);
     const hold = free ? await reserveFreeVoice(env, micro, now) : await holdUserSpend(env, userId, micro, now, pack
       ? { packId: pack, packCap: VOICE_PACK.costCapMicro, total: true, need }
       : { cap: plan.totalCapMicro, total: true, need, launch: Boolean(plan.launch) });
@@ -446,47 +480,153 @@ export async function speakPiece(env, userId, plan, { text, voice, reply, pick, 
   return full ? { local: "spent", status: 402 } : { local: "unavailable", status: 503 };
 }
 
+// The taste's voice (lib/best-first.js) is paid like the free plan's starter, from the shared monthly budget
+// (reserveFreeVoice), and held on the taste's daily cap too: {day} when both hold `micro`, else null (neither kept).
+async function holdTaste(env, micro, now) {
+  const [shared, day] = await Promise.all([reserveFreeVoice(env, micro, now), holdDay(env, micro, now)]);
+  if (shared && day) return { day };
+  await Promise.all([shared ? settleFreeVoice(env, micro, false, now) : null, day ? settleDay(env, day, 0, {}, now) : null]);
+  return null;
+}
+const settleTaste = (env, hold, micro, said, counts, now) => Promise.all([settleFreeVoice(env, micro, said, now),
+  settleDay(env, hold.day, said ? micro : 0, said ? counts : {}, now)]);
+
+// A reply in the taste's finest voice (lib/best-first.js, LOR-602): {audio, provider, voice ("finest:sprite", or
+// "studio:sprite" when Inworld couldn't and the studio voice said it)} or {local, status} as speakPiece's; null when
+// this reply isn't the taste's, so the plan's own path says it. A new reply is the taste's when the account has a
+// finest reply its taste answers earned (best_first.voices, takeVoice) and the day's cap has room for a whole one (a
+// reply the cap turns away is counted, and keeps its place for later); it's kept in voice_replies under TASTE_PERIOD,
+// counted for good, never among the plan month's or the starter's. Willo in her finest voice (Inworld, Sprite's: the
+// free plan and the free Hero month have no pick), a character in their own (Inworld, then Fish), stepping down to
+// Willo's studio voice when those fail; one voice a reply, as speakPiece's (LOR-596). A reply nothing could say gives
+// its place back. tasteDone: accounts whose taste is all said, so their replies skip the look here (this isolate's).
+const tasteDone = new Set();
+async function speakTaste(env, userId, plan, { text, voice, reply, pick }, now, later) {
+  const character = voice !== "willo" ? characterVoices(env)[voice] : null;
+  const ownInworld = character?.inworld && env[PROVIDERS.inworld.key] ? character.inworld : null;
+  const ownFish = Boolean(character && env[FISH.key] && env.STUDIO);
+  const cast = Boolean(character && (ownInworld || ownFish));
+  const ready = readyFor(env, "willo");
+  if ((!cast && !ready.includes("inworld")) || tasteDone.has(userId)) return null;
+  await setupBilling(env);
+  const [mine, owed, day] = await env.DB.batch([
+    env.DB.prepare("SELECT period FROM voice_replies WHERE user_id = ? AND reply = ?").bind(userId, reply),
+    env.DB.prepare("SELECT voices, used FROM best_first WHERE user_id = ?").bind(userId),
+    env.DB.prepare("SELECT reserved_micro FROM best_first_days WHERE day = ?").bind(now.toISOString().slice(0, 10)),
+  ]);
+  const period = mine.results?.[0]?.period, taste = owed.results?.[0];
+  if (period && period !== TASTE_PERIOD) return null;
+  if (!period) {
+    if (!(taste?.voices > 0)) {
+      if (taste?.used >= TASTE_ANSWERS) tasteDone.add(userId);
+      return null;
+    }
+    if ((day.results?.[0]?.reserved_micro || 0) + TASTE_REPLY_MICRO > tasteDayMicro(env)) {
+      await countDay(env, now, "capped");
+      return null;
+    }
+    if (!(await takeVoice(env, userId))) return null;
+    const made = await env.DB.prepare("INSERT OR IGNORE INTO voice_replies (user_id, reply, period, best, created) " +
+      "VALUES (?, ?, ?, 1, ?)").bind(userId, reply, TASTE_PERIOD, now.toISOString()).run();
+    if (!made.meta.changes) {
+      await giveVoice(env, userId);
+      return null;
+    }
+  }
+  const chars = text.length;
+  const taken = await env.DB.prepare("UPDATE voice_replies SET chars = chars + ?, pieces = pieces + 1 WHERE user_id = ? " +
+    "AND reply = ? AND period = ? AND chars + ? <= ? RETURNING chars")
+    .bind(chars, userId, reply, TASTE_PERIOD, chars, SPEAK_MAX_CHARS).first();
+  if (!taken) return { local: "long", status: 413 };
+  const first = taken.chars === chars;
+  const { name, ids } = willoVoice(env, plan, pick);
+  const input = cast && character.cue ? `${character.cue} ${text}` : text;
+  const order = [...(cast
+    ? [...(ownInworld ? [{ provider: "inworld", model: CHARACTER_MODEL, voiceId: ownInworld,
+                          firstAudioMs: CHARACTER_FIRST_AUDIO_MS }] : []), ...(ownFish ? [{ provider: "fish" }] : [])]
+    : [{ provider: "inworld", model: LEGEND_BEST_MODEL }]), { provider: "deepinfra" }]
+    .filter(s => s.voiceId || s.provider === "fish" || ready.includes(s.provider));
+  const claim = provider => env.DB.prepare("UPDATE voice_replies SET provider = ? WHERE user_id = ? AND reply = ? AND " +
+    "(provider IS NULL OR provider = ? OR (heard = 0 AND pieces = 1)) RETURNING provider")
+    .bind(provider, userId, reply, provider).first();
+  let full = false;
+  for (const { provider, model, voiceId, firstAudioMs } of order) {
+    if (!(await claim(provider))) continue;
+    const micro = provider === "fish" ? fishCost(input) : chars * rate(provider, model);
+    const hold = await holdTaste(env, micro, now);
+    if (!hold) { full = true; continue; }
+    try {
+      let audio;
+      if (provider === "fish") {
+        const ref = await reference(env, character);
+        if (!ref) throw new Error(`no reference for ${voice} in R2 (${character.r2})`);
+        audio = await fish(env, input, ref);
+      } else audio = await CALLS[provider](env, text, voiceId || ids[provider], model, firstAudioMs);
+      if (!audio.length || audio.length > MAX_AUDIO_BYTES) throw new Error(`${provider} sent ${audio.length} bytes of audio`);
+      await afterAudio(Promise.all([settleTaste(env, hold, micro, true, first ? { replies: 1 } : {}, now),
+        env.DB.prepare("UPDATE voice_replies SET heard = heard + 1 WHERE user_id = ? AND reply = ?").bind(userId, reply).run()]),
+        later, provider);
+      return { audio, provider, voice: `${provider === "deepinfra" ? "studio" : "finest"}:${cast && provider !== "deepinfra" ? voice : name}` };
+    } catch (e) {
+      await settleTaste(env, hold, micro, false, {}, now);
+      console.warn(`companion voice: a first reply: ${provider}${voiceId || provider === "fish" ? ` (${voice})` : ""}: ${e?.message || e}`);
+    }
+  }
+  const [, gone] = await env.DB.batch([
+    env.DB.prepare("UPDATE voice_replies SET chars = chars - ?, pieces = pieces - 1 WHERE user_id = ? AND reply = ?")
+      .bind(chars, userId, reply),
+    env.DB.prepare("DELETE FROM voice_replies WHERE user_id = ? AND reply = ? AND pieces <= 0 AND heard = 0")
+      .bind(userId, reply),
+  ]);
+  await Promise.all([gone.meta.changes ? giveVoice(env, userId) : null, countDay(env, now, "unreachable")]);
+  return full ? { local: "spent", status: 402 } : { local: "unavailable", status: 503 };
+}
+
 // One of Willo's own lines (nano lore's tips, its hello, "Fresh start!"; never an answer), in the voice the player's
 // replies get now (standing): finest, studio, or the PC's. It isn't a reply: it takes no place among the plan month's
 // replies, its finest ones, a character's or a pack's, nor the free plan's starter (which only has to last). Its cost
 // is a reply's: on the player's month inside the total cap (never a pack's), or the shared free budget during the free
 // plan's starter; and it steps down as a reply does, finest to studio to the PC, once the month won't hold a whole reply
 // in that voice or a provider fails. {audio, provider, voice: the voice that said it and its pick ("studio:sprite"), by
-// which the companion keeps it (talk/linecache.py)}, or {local, status} as speakPiece's.
-//
-// reading: one of the add-on's short answers read aloud (LOR-547), a line like a tip but one a player can hear many
-// of in an evening. Never in the finest voice, which the plan's own replies keep: the studio voice at most ($1 a
-// million letters, about $0.0002 an answer), then the PC's.
-async function speakLine(env, userId, plan, { text, pick, reading = false }, now, later = null) {
+// which the companion keeps it (talk/linecache.py)}, or {local, status} as speakPiece's. The add-on's short answers
+// read aloud (LOR-547) never come here: speakPiece keeps them on the PC, so they cost nothing.
+async function speakLine(env, userId, plan, { text, pick }, now, later = null) {
   const pv = plan.voice, free = plan.id === "free", ready = readyFor(env, "willo");
   if (!ready.length) return { local: "unavailable", status: 503 };
   await setupBilling(env);
+  // While the account's best first is on (lib/best-first.js), her lines are in the voice its replies get: the finest,
+  // then the studio voice, both on the taste's budget (holdTaste).
+  const taste = tasteFor(env, plan) && ready.includes("inworld") && (await tasteState(env, userId, plan, now))?.on;
   let steps;
-  if (free) {
+  if (taste) {
+    steps = [{ voice: "finest", provider: "inworld", model: LEGEND_BEST_MODEL, taste }, { voice: "studio", provider: "deepinfra", taste }];
+  } else if (free) {
     if (await starterSaid(env, userId) >= STARTER_ANSWERS) return { local: "spent", status: 402 };
     steps = [{ voice: "studio", provider: "deepinfra" }];
   } else {
     if (pv.voice === "local" && !paying(plan)) return { local: "plan", status: 402 };
     const s = await standing(env, userId, plan, now);
-    steps = [...(s.now === "finest" && !reading ? [{ voice: "finest", provider: "inworld", model: pv.model || PACK_MODEL }] : []),
+    steps = [...(s.now === "finest" ? [{ voice: "finest", provider: "inworld", model: pv.model || PACK_MODEL }] : []),
              ...(s.now !== "everyday" && pv.voice !== "local" ? [{ voice: "studio", provider: "deepinfra" }] : [])];
   }
   steps = steps.filter(s => ready.includes(s.provider));
   const { name, ids } = willoVoice(env, plan, pick);
   let full = !steps.length;
-  for (const { voice, provider, model } of steps) {
+  for (const { voice, provider, model, taste: tasted } of steps) {
     const micro = text.length * rate(provider, model);
-    const hold = free ? await reserveFreeVoice(env, micro, now) : await holdUserSpend(env, userId, micro, now,
-      { cap: plan.totalCapMicro, total: true, need: SPEAK_MAX_CHARS * rate(provider, model), launch: Boolean(plan.launch) });
+    const hold = tasted ? await holdTaste(env, micro, now) : free ? await reserveFreeVoice(env, micro, now)
+      : await holdUserSpend(env, userId, micro, now,
+        { cap: plan.totalCapMicro, total: true, need: SPEAK_MAX_CHARS * rate(provider, model), launch: Boolean(plan.launch) });
     if (!hold) { full = true; continue; }
     try {
       const audio = await CALLS[provider](env, text, ids[provider], model);
       if (!audio.length || audio.length > MAX_AUDIO_BYTES) throw new Error(`${provider} sent ${audio.length} bytes of audio`);
-      await afterAudio(free ? settleFreeVoice(env, micro, true, now)
+      await afterAudio(tasted ? settleTaste(env, hold, micro, true, { lines: 1 }, now) : free ? settleFreeVoice(env, micro, true, now)
         : addVoiceSpend(env, userId, micro, now, hold, null, Boolean(plan.launch)), later, provider);
       return { audio, provider, voice: `${voice}:${name}` };
     } catch (e) {
-      await (free ? settleFreeVoice(env, micro, false, now) : releaseUserSpend(env, hold));
+      await (tasted ? settleTaste(env, hold, micro, false, {}, now) : free ? settleFreeVoice(env, micro, false, now)
+        : releaseUserSpend(env, hold));
       console.warn(`companion voice: a line: ${provider}: ${e?.message || e}`);
     }
   }

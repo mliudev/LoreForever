@@ -1,0 +1,103 @@
+{
+ "key": "quest:91733",
+ "type": "quest",
+ "name": "Downstream",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91733
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Keeping Eastvale Logging Camp equipped with tools ensures vital timber supplies continue flowing toward Stormwind and Elwynn's settlements."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives downstream",
+    "downstream quest giver",
+    "who is ormin pelford"
+   ],
+   "answer": "Ormin Pelford offers this task near Eastvale Logging Camp. He is a worker who accidentally dumped his supply wagon into the river while hauling goods from the trading post.",
+   "q": "Who gives the quest Downstream?"
+  },
+  {
+   "aliases": [
+    "what fell in the river",
+    "lost supplies downstream",
+    "what items downstream"
+   ],
+   "answer": "The lost supplies consist of a Waterlogged Axe, a Waterlogged Saw, and a Waterlogged Toolbox that slipped into the water when Ormin Pelford's wagon tipped over.",
+   "q": "What supplies were lost in the water?"
+  },
+  {
+   "aliases": [
+    "where are the tools",
+    "where do supplies wash up",
+    "downstream location"
+   ],
+   "answer": "The crates and tools drifted downstream along the river running south of the Eastvale Logging Camp in eastern Elwynn Forest.",
+   "q": "Where did the supplies wash up?"
+  },
+  {
+   "aliases": [
+    "why can't ormin get supplies",
+    "why ormin pelford needs help"
+   ],
+   "answer": "Ormin cannot brave the riverbanks alone because predatory river murlocs and hungry forest wolves prowl the waterways where the cargo drifted.",
+   "q": "Why can't Ormin Pelford retrieve the supplies himself?"
+  },
+  {
+   "aliases": [
+    "downstream river hazards",
+    "threats downstream"
+   ],
+   "answer": "The riverbanks downstream are infested with aggressive murlocs and prowling wolves, making salvage work dangerous for an unarmed laborer.",
+   "q": "What dangers lurk along the riverbanks?"
+  },
+  {
+   "aliases": [
+    "why are tools important eastvale",
+    "logging camp timber tools"
+   ],
+   "answer": "The axes, saws, and toolboxes are essential equipment for the woodsmen of Eastvale Logging Camp, who provide raw timber for Elwynn Forest and Stormwind.",
+   "q": "Why are these tools important to Eastvale?"
+  }
+ ],
+ "keywords": [
+  "downstream",
+  "eastvale logging camp",
+  "elwynn forest",
+  "murloc",
+  "ormin pelford",
+  "waterlogged axe",
+  "waterlogged saw",
+  "waterlogged toolbox"
+ ],
+ "related": [
+  "subzone:eastvale-logging-camp",
+  "topic:murloc"
+ ],
+ "sections": [
+  {
+   "body": "While transporting a shipment of gear back from a local trading post, laborer Ormin Pelford suffered a mishap when his wagon tipped over along the waterway near Eastvale Logging Camp. The cargo tumbled into the current and was quickly swept downstream before he could secure it. Without these vital woodworking tools, the loggers face delays in their timber operations.",
+   "spoiler": 0,
+   "title": "A Mishap on the Road"
+  },
+  {
+   "body": "Retrieving the waterlogged cargo is complicated by the hazardous local wildlife. Aggressive murlocs claim the muddy shoals downstream, while predatory wolves roam the surrounding woods. Unable to fend off these threats alone, Ormin relies on hardy travelers to braze the riverbanks, salvage the submerged saw, axe, and toolbox, and bring them back safely.",
+   "spoiler": 0,
+   "title": "Perils Along the Riverbank"
+  }
+ ],
+ "summary": "Downstream is a quest in eastern Elwynn Forest tasked by Ormin Pelford at Eastvale Logging Camp. After Ormin's wagon accidentally overturns into the river, adventurers are asked to brave murlocs and wolves downstream to recover waterlogged timber supplies.",
+ "attribution": [
+  "In-game quest text: Downstream"
+ ]
+}

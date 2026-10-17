@@ -1060,6 +1060,11 @@ dd { margin: 0; }
 .ac-plan p { margin: 0; color: var(--text); font-size: 0.95rem; }
 .ac-plan .btn-small { margin: 0; white-space: nowrap; }
 .ac-plan-links { display: flex; flex-wrap: wrap; gap: 8px; }
+/* Share Willo on /account's Willo tab (lib/referrals.js): the player's link beside Copy link and New link. */
+.ac-share-link { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.ac-share-link code { padding: 5px 9px; border: 1px solid var(--panel-line); border-radius: 4px; background: rgba(8, 10, 22, 0.6);
+  overflow-wrap: anywhere; }
+.ac-share-link .btn-small { margin: 0; }
 /* Willo, your way (/willo, LOR-447): the style presets as cards, your own words, and a Legend player's tales. */
 .wl-page h2 { margin: 0 0 12px; font: 600 1.2rem var(--heading); color: var(--gold); }
 .wl-page [hidden] { display: none; }

@@ -13,6 +13,7 @@ import { storyVoice, listenBox } from "../../lib/storyvoice.js";
 import { historyEnabled, historyPage } from "../../lib/history.js";
 import { escape } from "../../lib/voices.js";
 import { countSite, BOT } from "../../lib/usage.js";
+import { shareSummary, shareCard } from "../../lib/referrals.js";
 
 const html = (body, status, cache) => new Response(body, {
   status, headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": cache, "Vary": "Cookie" },
@@ -78,7 +79,14 @@ export async function onRequestGet({ request, env, params, waitUntil }) {
       </nav>`;
     }
   }
+  // The owner's Share Willo card (lib/referrals.js); the page shows without it if it can't be read.
+  const share = owner && !asVisitor
+    ? await shareSummary(env, viewer.id, url.origin).then(s => shareCard(s, escape)).catch(e => {
+      console.warn(`profile: share card: ${e?.message || e}`);
+      return "";
+    }) : "";
   return html(profilePage(p, { links: publicLinks(user), owner: owner && !asVisitor, asVisitor, query, badges, names,
-    lore: featureOn(env, "lore"), pictures, viewer, herald: featureOn(env, "companion"), listen, historyLinks, historyJourney }), 200,
+    lore: featureOn(env, "lore"), pictures, viewer, herald: featureOn(env, "companion"), listen, historyLinks, historyJourney,
+    share }), 200,
     viewer ? "private, no-store" : "no-cache");
 }

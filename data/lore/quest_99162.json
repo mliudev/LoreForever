@@ -1,0 +1,114 @@
+{
+ "key": "quest:99162",
+ "type": "quest",
+ "name": "Treacherous Cold",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99162
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dun Morogh's peaks are the dwarven homeland, yet even seasoned mountaineers can be claimed by sudden avalanches and hostile elements in the high passes."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Mountaineers rely on their trusty rifles in the frozen wilderness, carving their names into the wooden stocks so their identities and deeds are never forgotten."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Recovering fallen mountaineers' gear ensures that Ironforge can give closure to families who sacrifice their loved ones to keep the high roads protected."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is treacherous cold",
+    "treacherous cold quest"
+   ],
+   "answer": "Treacherous Cold is a task focused on searching the snow-choked passes of Dun Morogh for mountaineers caught in sudden slides and recovering their service rifles.",
+   "q": "What is Treacherous Cold?"
+  },
+  {
+   "aliases": [
+    "why collect rifles",
+    "mountaineer rifles",
+    "why do we need their guns"
+   ],
+   "answer": "Mountaineers engrave their names directly onto the stocks of their rifles. In the freezing drifts where bodies may be buried or unrecoverable, retrieving their weapons allows Ironforge to positively identify the fallen and notify their families.",
+   "q": "Why are the mountaineers' rifles collected?"
+  },
+  {
+   "aliases": [
+    "who are the victims",
+    "who gets lost in dun morogh"
+   ],
+   "answer": "Novice mountaineers patrolling Dun Morogh are particularly susceptible to sudden avalanches, falling ice, and extreme weather in the high mountain peaks.",
+   "q": "Who is being lost in the snow?"
+  },
+  {
+   "aliases": [
+    "why cant the questgiver look",
+    "why need an adventurer"
+   ],
+   "answer": "While the questgiver typically conducts rescue and recovery sweeps after a slide, recent elemental disturbances in Dun Morogh have made venturing deep into the mountain passes far too dangerous to handle alone.",
+   "q": "Why hasn't the search been conducted already?"
+  },
+  {
+   "aliases": [
+    "where do rifles go",
+    "what happens to recovered rifles"
+   ],
+   "answer": "Recovered rifles are gathered and sent back to the city of Ironforge, where authorities ensure the personal weapons are returned to the families of the fallen mountaineers.",
+   "q": "What happens to the rifles once recovered?"
+  },
+  {
+   "aliases": [
+    "how dangerous is dun morogh",
+    "dun morogh hazards"
+   ],
+   "answer": "Dun Morogh's heights are fraught with severe cold, blinding snowslides, and unstable cliffs. Coupled with restless elemental activity, even trained dwarven patrols can quickly succumb to the environment.",
+   "q": "What makes the high passes of Dun Morogh so dangerous?"
+  }
+ ],
+ "keywords": [
+  "avalanche",
+  "dun morogh",
+  "ironforge",
+  "mountaineers",
+  "rifles",
+  "snow slide",
+  "treacherous cold"
+ ],
+ "related": [
+  "zone:dunmorogh",
+  "zone:ironforge",
+  "topic:light"
+ ],
+ "sections": [
+  {
+   "body": "The rugged, snowy crags of Dun Morogh pose a constant danger to travelers and soldiers alike. Even the hardened mountaineers of Ironforge can find themselves overwhelmed by sudden avalanches and sheets of falling ice, with novice recruits paying with their lives when winter strikes without warning.",
+   "spoiler": 0,
+   "title": "Perils of the Peaks"
+  },
+  {
+   "body": "When mountain slides bury patrols, searching the hazardous terrain becomes a grim race against time. Heightened elemental activity across the region makes thorough rescue expeditions perilous, forcing scouts to enlist brave wanderers to search the drifts for fallen mountaineers and recover their inscribed rifles before the snow conceals them forever.",
+   "spoiler": 0,
+   "title": "Grim Recovery"
+  },
+  {
+   "body": "Every Ironforge mountaineer engraves their name into the stock of their rifle, serving as a lasting mark of identification in the harshest conditions. By securing these firearms from the drifts, searchers ensure the fallen can be identified and their honored service recognized by their families back in Ironforge.",
+   "spoiler": 0,
+   "title": "Inscribed Stocks"
+  }
+ ],
+ "summary": "Treacherous Cold is a recovery effort in the treacherous high peaks of Dun Morogh following devastating snow and ice slides. Adventurers are tasked with retrieving the inscribed rifles of fallen Ironforge mountaineers to ensure their identities are confirmed and their families receive closure.",
+ "attribution": [
+  "In-game quest text: Treacherous Cold"
+ ]
+}

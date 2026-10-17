@@ -1,0 +1,107 @@
+{
+ "key": "quest:95998",
+ "type": "quest",
+ "name": "The Great Outdoors",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95998
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Campfires are a staple of field cooking, and learning proper wilderness campcraft provides the foundation for preparing meals under the open sky."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Living off the land and resting beside an open flame is second nature to wilderness stalkers, but even seasoned scouts benefit from mastering campcraft."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is sam",
+    "sam campfire quest",
+    "quest giver"
+   ],
+   "answer": "Sam is an experienced outdoorsman and seasoned traveler who takes it upon himself to teach fledgling adventurers the fundamentals of surviving in the wilds. He welcomes wandering souls to share the warmth of his fire while imparting practical outdoor wisdom.",
+   "q": "Who is Sam?"
+  },
+  {
+   "aliases": [
+    "what is boosted rest",
+    "boosted rest buff",
+    "resting by fire"
+   ],
+   "answer": "Boosted Rest represents the rejuvenating effect of resting beside a proper campfire out in the wilderness. Taking time to sit in warmth and comfort allows weary adventurers to recuperate their vitality and stay refreshed for the road ahead.",
+   "q": "What is the purpose of sitting by the campfire?"
+  },
+  {
+   "aliases": [
+    "why learn outdoorsman skills",
+    "why thrive in wilds",
+    "survival skills"
+   ],
+   "answer": "The world outside settlement walls is vast and perilous, demanding that any wanderer seeking fortune and glory learn how to sustain themselves. Proper fieldcraft ensures travelers can endure long journeys without succumbing to fatigue.",
+   "q": "Why are wilderness skills important for adventurers?"
+  },
+  {
+   "aliases": [
+    "tradeskills camping",
+    "camp fixtures",
+    "professions after this"
+   ],
+   "answer": "After learning how to establish a basic camp, tradeskill masters can teach you how to craft specialized camp fixtures tailored to your chosen profession, enhancing your capabilities while stationed out in the field.",
+   "q": "How do tradeskills relate to wilderness camping?"
+  },
+  {
+   "aliases": [
+    "next steps",
+    "what after great outdoors",
+    "after campfire quest"
+   ],
+   "answer": "Once you have rested by Sam's fire and grasped basic campcraft, Sam urges you to seek out profession trainers. Advancing in a practical craft enables you to build customized field stations suited to your trade.",
+   "q": "What should an adventurer do after completing this lesson?"
+  },
+  {
+   "aliases": [
+    "can anyone do this",
+    "who can take great outdoors",
+    "is this quest general"
+   ],
+   "answer": "The quest is open to any restless soul setting out into the wider world, regardless of background or allegiance, serving as an introductory lesson in surviving life on the road.",
+   "q": "Who can undertake The Great Outdoors?"
+  }
+ ],
+ "keywords": [
+  "basic campfire",
+  "boosted rest",
+  "camp fixture",
+  "campcraft",
+  "outdoorsman",
+  "sam",
+  "the great outdoors",
+  "tradeskill"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "The wide lands of Azeroth call to countless restless souls seeking fortune, danger, and renown. Yet raw ambition alone cannot shield a fledgling adventurer from the biting cold or exhaustion of the open road. Mastering basic wilderness craft\u2014knowing when to stop, build a fire, and gather one's strength\u2014is the quiet foundation upon which every legendary journey is built. Sam's invitation offers newcomers a chance to pause and learn these essential outdoor survival habits.",
+   "spoiler": 0,
+   "title": "Lessons by the Fire"
+  },
+  {
+   "body": "Taking shelter beside a warm campfire does more than stave off the night chill; it provides a vital moment of recuperation known as boosted rest. Seasoned survivalists recognize that endurance in the wild depends on resting properly between expeditions. Once these survival basics are understood, craftsmen and gatherers can turn their attention to tradeskills, learning how to assemble dedicated camp fixtures tailored to their specific work out in the field.",
+   "spoiler": 0,
+   "title": "Fieldcraft and Trade"
+  }
+ ],
+ "summary": "The Great Outdoors is an introductory wilderness survival quest where the traveler Sam teaches fledgling adventurers the art of roughing it in the wild. By pausing to rest beside a basic campfire, travelers learn how to sustain themselves on the road before pursuing specialized tradeskills.",
+ "attribution": [
+  "In-game quest text: The Great Outdoors"
+ ]
+}

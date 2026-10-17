@@ -12,6 +12,11 @@
 import { QUESTS, NPCS } from "./forever-quests.js";
 
 export const QUEST_FACTS_MAX_BYTES = 1800;
+// Where these facts come from, as an answer's sources when they stand in for required research (answer.js).
+export const QUEST_SOURCES = [
+  { title: "The original game's world database (VMaNGOS, patch 1.12)", url: "https://github.com/vmangos/core" },
+  { title: "Warcraft Wiki: World of Warcraft: Forever", url: "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever" },
+];
 const MAX_QUESTS = 3, MAX_NPCS = 2;
 const SMALL = new Set("a an the of to for in on and with at by from my me i is it this that".split(" "));
 const tokens = text => (String(text || "").toLowerCase().replace(/['’]/g, "").match(/[\p{L}\p{N}]+/gu) || []);
@@ -26,7 +31,7 @@ const ABOUT_A_QUEST = new RegExp([
   String.raw`\bwho (?:gave|gives|starts|started) (?:me )?(?:this|it|that)\b`,
 ].join("|"), "i");
 // About a quest the question names: a title counts with these, or with three or more of its words.
-const QUEST_WORDS = /\b(?:quests?|turn in|hand in|starts?|started|gives?|gave|giver|objectives?|drops?|where (?:is|are|do|does|can))\b/i;
+const QUEST_WORDS = /\b(?:quests?|turn in|hand in|starts?|started|gives?|gave|giver|objectives?|drops?|where (?:is|are|do|does|can)|need to (?:do|kill|collect|get|bring|find))\b/i;
 // One-word names are often words ("Shadow", "Chicken") or Willo itself as speech hears it ("Willow"): they count
 // only right after "where is", "who is", "find", "talk to".
 const ONE_WORD_NAME = name => new RegExp(String.raw`\b(?:where(?:'s| is| can i find)|who(?:'s| is)|find|talk to|speak (?:to|with)) (?:the )?${name}\b`, "i");
@@ -93,7 +98,9 @@ function questText(id, faction) {
   const parts = [`"${title}" (${bits})`];
   if (starts) parts.push(`from ${forSide(starts, faction)}`);
   if (ends) parts.push(`turn in to ${forSide(ends, faction)}`);
-  if (objectives) parts.push(`the quest asks: ${objectives.replace(/[.\s]+$/, "")}`);
+  // Objectives from a journey's quest log can keep the client's count tokens ("Collect $1oa Dry Branches"): with them
+  // Willo made up a count (the accuracy lab, 10/16: "10 of each"); "some" says no number is known.
+  if (objectives) parts.push(`the quest asks: ${objectives.replace(/\$\d+o[a-z]\s*/g, "some ").replace(/[.\s]+$/, "")}`);
   if (targets?.length) parts.push(`targets: ${targets.join("; ")}`);
   return { title: `Quest: ${title}`, text: unconfirmed(parts.join("; ") + ".") };
 }
@@ -112,14 +119,22 @@ export function questFacts({ question = "", zone = "", level = "", faction = "",
   const ids = [];
   const logged = quests.map(q => String(q.id)).filter(id => QUESTS[id]);
   const aboutQuests = QUEST_WORDS.test(question);
+  const asked = question.toLowerCase().replace(/[’]/g, "'");
   for (const key of named(question, titles.keys())) {
     const words = key.split(" ").length;
-    if (words === 1 ? !/\bquest\b/i.test(question) : !(aboutQuests || words >= 3)) continue;   // "wanted", "the defias brotherhood"
-    // Same title, several quests (a chain's steps, one per faction): the ones in their log, else the nearest level.
+    // A one-word title counts with "quest", or when the question has the whole title, small words too, and asks
+    // about a quest ("where do I turn in The Adventurer?"): "wanted" alone still doesn't.
+    const whole = titles.get(key).some(id => /\s/.test(QUESTS[id][0].trim()) && asked.includes(QUESTS[id][0].toLowerCase()));
+    if (words === 1 ? !(/\bquest\b/i.test(question) || (aboutQuests && whole)) : !(aboutQuests || words >= 3)) continue;   // "wanted", "the defias brotherhood"
+    // Same title, several quests (a chain's steps, one per faction, one per starting zone): the ones in their log, else
+    // the one where they are, else the nearest level. Forever's starting-zone quests share their titles (The Adventurer,
+    // The Great Outdoors): without the zone, an orc in Durotar was sent to Teldrassil (the accuracy lab, 10/16).
     const same = titles.get(key).filter(id => !QUESTS[id][3] || !faction || QUESTS[id][3] === faction);
     const mine = same.filter(id => logged.includes(id));
     const lv = Number(level) || 0;
-    ids.push(...(mine.length ? mine : [...same].sort((a, b) => Math.abs(QUESTS[a][1] - lv) - Math.abs(QUESTS[b][1] - lv)).slice(0, 1)));
+    const away = id => (zone && QUESTS[id][9] === zone ? 0 : 1);
+    ids.push(...(mine.length ? mine : [...same].sort((a, b) => away(a) - away(b) ||
+      Math.abs(QUESTS[a][1] - lv) - Math.abs(QUESTS[b][1] - lv)).slice(0, 1)));
   }
   if (!ids.length && logged.length) {
     // A quest in their log whose people or targets the question names, else all of them if it asks about "this quest".
@@ -139,9 +154,11 @@ export function questFacts({ question = "", zone = "", level = "", faction = "",
     if (!key.includes(" ") && !ONE_WORD_NAME(key).test(about)) continue;
     const name = names.get(key);
     const [title, where] = NPCS[name];
-    facts.push({ title: `NPC: ${name}`, text: unconfirmed(`${name}${title ? ` <${title}>` : ""} is ${where}.`) });
+    // Its zone, for the way there (lib/forever-place-facts.js): "in Thendal Village, Zephras Isle (42, 24) or ...".
+    const zone = unconfirmed(where).split(" or ")[0].replace(/^in /, "").replace(/ \(\d+, \d+\)$/, "").split(", ").at(-1);
+    facts.push({ title: `NPC: ${name}`, text: unconfirmed(`${name}${title ? ` <${title}>` : ""} is ${where}.`), zone });
   }
-  return facts.map(f => ({ ...f, asked: true }));
+  return facts.map(f => ({ ...f, asked: true, sources: QUEST_SOURCES }));
 }
 
 export function questBlock(facts) {

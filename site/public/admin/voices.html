@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="dark light">
+<title>Voice work - Lore Forever</title>
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css?v=20261016t">
+<link rel="stylesheet" href="/admin.css">
+<link rel="stylesheet" href="/admin-voices.css">
+</head>
+<body class="vw">
+
+<header class="top">
+  <div class="wrap">
+    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/admin">Dashboard</a> &rsaquo; Voice work</span>
+  </div>
+</header>
+
+<!-- Sign-in, as on /admin: the same key, kept the same way, so signing in on one page signs in the other. -->
+<main class="wrap ad-login ad-panel" id="login" hidden>
+  <h1 style="font-size:1.6rem">Voice work</h1>
+  <form id="login-form">
+    <label for="key">Admin key</label>
+    <input type="password" id="key" autocomplete="current-password" required>
+    <label class="ad-check"><input type="checkbox" id="remember"> Remember on this device</label>
+    <button type="submit" class="btn-small">Open</button>
+    <p class="ad-error" id="login-error" role="alert" hidden></p>
+  </form>
+</main>
+
+<!-- The latest snapshot the PC posted (functions/api/admin/voice-status.js, lib/voice-status.js), drawn by
+     public/admin-voices.js: the machines, what's waiting on Mike, the matrix of recordings, the jobs, PRs and events. -->
+<main class="wrap ad ad-wide" id="dash" hidden>
+  <div class="ad-bar">
+    <h1>Voice work</h1>
+    <span class="ad-meta"><button type="button" id="refresh">Refresh</button> &middot; <a href="/admin">Dashboard</a>
+      &middot; <button type="button" id="signout">Sign out</button></span>
+  </div>
+
+  <p class="vw-fresh" id="fresh" role="status" aria-live="polite">
+    <span class="vw-dot" aria-hidden="true"></span><strong id="fresh-age">Loading</strong>
+    <span class="vw-sub" id="fresh-note">The PC posts a new picture every 10 minutes.</span>
+  </p>
+  <p class="ad-error" id="load-error" role="alert" hidden></p>
+  <p class="ad-empty" id="nothing" hidden>Nothing has been posted yet. The PC sends its first picture within 10 minutes of starting.</p>
+
+  <div id="board" hidden>
+    <section aria-label="Summary">
+      <div class="vw-summary" id="summary"></div>
+      <div class="vw-machines" id="machines"></div>
+    </section>
+
+    <h2 id="matrix-h">What's recorded</h2>
+    <p class="ad-count" style="margin:0 0 8px">Each box is one kind of content in one language and voice. The number is how many recordings
+      it holds; tap a box for its note.</p>
+    <div class="vw-legend" id="legend" aria-label="Legend"></div>
+    <div class="vw-scroll" id="matrix-wrap" tabindex="0" role="region" aria-labelledby="matrix-h">
+      <table class="vw-matrix" id="matrix"></table>
+    </div>
+    <div class="ad-panel vw-detail" id="cell-detail" hidden aria-live="polite"></div>
+
+    <h2>Quest givers</h2>
+    <div class="ad-panel vw-quest" id="questgivers"></div>
+
+    <h2>Jobs</h2>
+    <div id="jobs"></div>
+
+    <h2>Pull requests</h2>
+    <div class="ad-charts" style="margin-top:0">
+      <div class="ad-panel"><h3>Open</h3><ul class="vw-list" id="prs-open"></ul></div>
+      <div class="ad-panel"><h3>Merged lately</h3><ul class="vw-list" id="prs-merged"></ul></div>
+    </div>
+
+    <h2>Recent events</h2>
+    <div class="ad-panel"><ul class="vw-list vw-events" id="events"></ul></div>
+  </div>
+</main>
+
+<script src="/admin-voices.js"></script>
+</body>
+</html>

@@ -1,0 +1,601 @@
+{
+ "format": 1,
+ "generated_at": "2026-10-16T21:12:37+00:00",
+ "machines": [
+  {
+   "id": "pc",
+   "name": "PC",
+   "hardware": "RTX 3090 Ti, WSL",
+   "state": "recording",
+   "detail": "hook start: 39-chronicler-phase1.sh",
+   "job": "39-chronicler-phase1.sh",
+   "game": null,
+   "gpu": {
+    "util": 18,
+    "mem_used_mb": 8052,
+    "mem_total_mb": 24564
+   },
+   "gentle": {
+    "mem_fraction": 0.6,
+    "duty": 0.75
+   },
+   "hold": false
+  },
+  {
+   "id": "mac",
+   "name": "Mac",
+   "hardware": "M3 Pro 18 GB",
+   "state": "recording",
+   "detail": "chunk 010/25 start: 40 ids, 39806 chars (subzone:tower-of-arathor .. subzone:workshop-entrance)",
+   "job": "chronicler-phase2 owner (Chronicler recast, MorePlaces + MorePeople, Voice Coordinator)",
+   "gpu": null,
+   "hold": false,
+   "disk": "6%",
+   "native_paused": true
+  }
+ ],
+ "jobs": [
+  {
+   "id": "chronicler-p1",
+   "machine": "pc",
+   "kind": "story",
+   "hook": "39-chronicler-phase1.sh",
+   "title": "Chronicler, phase 1: 593 zone, place, character and topic stories (male)",
+   "state": "running",
+   "unit": "batches of 40",
+   "done": 0,
+   "total": 15
+  },
+  {
+   "id": "chronicler-p2",
+   "machine": "mac",
+   "kind": "story",
+   "title": "Chronicler, phase 2: More places (408) and More people (581), male",
+   "state": "running",
+   "unit": "batches of 40",
+   "done": 9,
+   "total": 25
+  },
+  {
+   "id": "ptbr-recast",
+   "machine": "pc",
+   "kind": "native",
+   "title": "Brazilian Portuguese re-record with new voices Cronista and Sabia (LOR-567): engine test done, waiting on the accent pick",
+   "state": "paused"
+  },
+  {
+   "id": "de-native",
+   "machine": "mac",
+   "kind": "native",
+   "title": "German and Portuguese native recording paused until the LOR-567 references are recast",
+   "state": "paused"
+  },
+  {
+   "id": "mosshide",
+   "machine": "pc",
+   "kind": "retake",
+   "hook": "38-mosshide-20261015.sh",
+   "title": "Mosshide said as \"Moss-hide\" (LOR-573): 11 stories and quest lines, both voices",
+   "state": "done"
+  },
+  {
+   "id": "lor579",
+   "machine": "pc",
+   "kind": "story",
+   "hook": "38b-lor579-female-stories.sh",
+   "title": "5 missing female stories: Thelsamar, Rethiel, Command Center, Ironforge Library, SI:7 (LOR-579)",
+   "state": "done"
+  },
+  {
+   "id": "tirisfal",
+   "machine": "pc",
+   "kind": "retake",
+   "hook": "38c-tirisfal-retake.sh",
+   "title": "Tirisfal: title said differently from the story (Chronicler title check)",
+   "state": "done"
+  },
+  {
+   "id": "chronicler-p4",
+   "machine": "pc",
+   "kind": "quest",
+   "title": "Chronicler, phase 4: male quest dialogue (3,751 lines)",
+   "state": "planned"
+  },
+  {
+   "id": "items-quest-overviews",
+   "machine": "pc",
+   "kind": "story",
+   "title": "Item lore stories (741) and quest storyline overviews (2,810), both voices",
+   "state": "planned"
+  },
+  {
+   "id": "exhausted",
+   "machine": "pc",
+   "kind": "story",
+   "title": "9 long stories that keep failing their check (Moonglade, Stranglethorn, Winterspring, ...)",
+   "state": "planned"
+  }
+ ],
+ "matrix": {
+  "columns": [
+   {
+    "id": "en-m",
+    "language": "English",
+    "voice": "Male"
+   },
+   {
+    "id": "en-f",
+    "language": "English",
+    "voice": "Female"
+   },
+   {
+    "id": "de-m",
+    "language": "Deutsch",
+    "voice": "Male"
+   },
+   {
+    "id": "de-f",
+    "language": "Deutsch",
+    "voice": "Female"
+   },
+   {
+    "id": "fr-m",
+    "language": "Français",
+    "voice": "Male"
+   },
+   {
+    "id": "fr-f",
+    "language": "Français",
+    "voice": "Female"
+   },
+   {
+    "id": "es-m",
+    "language": "Español",
+    "voice": "Male"
+   },
+   {
+    "id": "es-f",
+    "language": "Español",
+    "voice": "Female"
+   },
+   {
+    "id": "pt-m",
+    "language": "Português",
+    "voice": "Male"
+   },
+   {
+    "id": "pt-f",
+    "language": "Português",
+    "voice": "Female"
+   }
+  ],
+  "rows": [
+   {
+    "id": "core",
+    "label": "Zone, place & character stories",
+    "note": "The main download's stories (zones, subzones, NPCs, topics)"
+   },
+   {
+    "id": "more-places",
+    "label": "More places",
+    "note": "Optional pack: expansion subzones as complete stories"
+   },
+   {
+    "id": "more-people",
+    "label": "More people",
+    "note": "Optional pack: expansion characters and lore topics"
+   },
+   {
+    "id": "quests",
+    "label": "Quest dialogue",
+    "note": "Quest text read aloud by the narrator"
+   },
+   {
+    "id": "answers",
+    "label": "Short answers",
+    "note": "Retired 10/15 (LOR-547): Willo reads answers live"
+   }
+  ],
+  "cells": {
+   "core|en-m": {
+    "count": 878,
+    "current": 679,
+    "status": "live",
+    "activity": "recording",
+    "note": "Re-recording in Chronicler, the new male narrator (phase 1)"
+   },
+   "quests|en-m": {
+    "count": 3751,
+    "current": 3621,
+    "status": "live",
+    "activity": "planned",
+    "note": "Chronicler re-record planned (phase 4)"
+   },
+   "core|en-f": {
+    "count": 868,
+    "current": 672,
+    "status": "live"
+   },
+   "quests|en-f": {
+    "count": 3751,
+    "current": 3621,
+    "status": "live"
+   },
+   "more-places|en-m": {
+    "count": 408,
+    "current": 408,
+    "status": "live",
+    "activity": "recording",
+    "note": "Re-recording in Chronicler on the Mac (phase 2)"
+   },
+   "more-people|en-m": {
+    "count": 572,
+    "current": 572,
+    "status": "live",
+    "activity": "recording",
+    "note": "Re-recording in Chronicler on the Mac (phase 2), incl. 35 lore topics"
+   },
+   "more-places|en-f": {
+    "count": 408,
+    "current": 408,
+    "status": "live"
+   },
+   "more-people|en-f": {
+    "count": 576,
+    "current": 576,
+    "status": "live"
+   },
+   "core|de-m": {
+    "count": 482,
+    "current": 407,
+    "status": "live",
+    "note": "Voices were swapped between the German packs; fixed in 0.19.0. Recast pending (LOR-567)"
+   },
+   "core|de-f": {
+    "count": 551,
+    "current": 407,
+    "status": "live",
+    "note": "Voices were swapped between the German packs; fixed in 0.19.0. Recast pending (LOR-567)"
+   },
+   "core|es-m": {
+    "count": 348,
+    "current": 348,
+    "status": "live",
+    "note": "Accent sounds Latin American, not Spain (LOR-567)"
+   },
+   "core|es-f": {
+    "count": 343,
+    "current": 343,
+    "status": "live",
+    "note": "Accent sounds Latin American, not Spain (LOR-567)"
+   },
+   "core|fr-m": {
+    "count": 509,
+    "current": 425,
+    "status": "live"
+   },
+   "core|fr-f": {
+    "count": 508,
+    "current": 424,
+    "status": "live"
+   },
+   "core|pt-m": {
+    "count": 0,
+    "current": 0,
+    "status": "soon",
+    "note": "Paused 0.19.0: voice was a woman with a European accent. New Brazilian voice Cronista ready (LOR-567)"
+   },
+   "quests|de-m": {
+    "count": 0,
+    "current": 0,
+    "status": "soon"
+   },
+   "quests|pt-m": {
+    "count": 0,
+    "current": 0,
+    "status": "soon"
+   },
+   "quests|fr-m": {
+    "count": 0,
+    "current": 0,
+    "status": "soon"
+   },
+   "quests|es-m": {
+    "count": 0,
+    "current": 0,
+    "status": "soon"
+   },
+   "core|pt-f": {
+    "count": 0,
+    "current": 0,
+    "status": "soon",
+    "note": "Paused 0.19.0: European accent. New Brazilian voice Sabia ready (LOR-567)"
+   },
+   "quests|de-f": {
+    "count": 0,
+    "current": 0,
+    "status": "soon"
+   },
+   "quests|pt-f": {
+    "count": 0,
+    "current": 0,
+    "status": "soon"
+   },
+   "quests|fr-f": {
+    "count": 0,
+    "current": 0,
+    "status": "soon"
+   },
+   "quests|es-f": {
+    "count": 0,
+    "current": 0,
+    "status": "soon"
+   },
+   "answers|en-m": {
+    "count": 0,
+    "current": 0,
+    "status": "retired"
+   },
+   "answers|en-f": {
+    "count": 0,
+    "current": 0,
+    "status": "retired"
+   },
+   "answers|de-m": {
+    "count": 0,
+    "current": 0,
+    "status": "retired"
+   },
+   "answers|de-f": {
+    "count": 0,
+    "current": 0,
+    "status": "retired"
+   },
+   "answers|fr-m": {
+    "count": 0,
+    "current": 0,
+    "status": "retired"
+   },
+   "answers|fr-f": {
+    "count": 0,
+    "current": 0,
+    "status": "retired"
+   },
+   "answers|es-m": {
+    "count": 0,
+    "current": 0,
+    "status": "retired"
+   },
+   "answers|es-f": {
+    "count": 0,
+    "current": 0,
+    "status": "retired"
+   },
+   "answers|pt-m": {
+    "count": 0,
+    "current": 0,
+    "status": "retired"
+   },
+   "answers|pt-f": {
+    "count": 0,
+    "current": 0,
+    "status": "retired"
+   }
+  },
+  "questgivers": {
+   "count": 3321,
+   "current": 3251,
+   "note": "All 22 people-and-gender voices re-recorded in Willo's character voices (#930), shipping next release. Dwarf, orc and high elf men now sound male (LOR-225).",
+   "activity": "next-release"
+  }
+ },
+ "prs": [
+  {
+   "number": 944,
+   "title": "Voice renders share the GPU so Windows stays smooth",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/944",
+   "updated": "2026-10-16T19:04:26Z"
+  },
+  {
+   "number": 943,
+   "title": "Keep Willo answers 14 days for the nightly check, with an off switch",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/943",
+   "updated": "2026-10-16T18:46:16Z"
+  },
+  {
+   "number": 942,
+   "title": "Willo: one hosted voice per reply on the site",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/942",
+   "updated": "2026-10-16T18:27:50Z"
+  },
+  {
+   "number": 941,
+   "title": "Catch stories that say their title differently from the body (title_sounds.py)",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/941",
+   "updated": "2026-10-16T16:52:49Z"
+  },
+  {
+   "number": 938,
+   "title": "Willo keeps one voice per answer (LOR-596)",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/938",
+   "updated": "2026-10-16T16:15:22Z"
+  },
+  {
+   "number": 937,
+   "title": "Narrators get a spelling aid for Incendicite (LOR-595)",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/937",
+   "updated": "2026-10-16T16:24:11Z"
+  },
+  {
+   "number": 936,
+   "title": "OBS can always record Willo's voice (LOR-574)",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/936",
+   "updated": "2026-10-16T16:06:31Z"
+  },
+  {
+   "number": 933,
+   "title": "narration: refresh re-record list 2026-10-16",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/933",
+   "updated": "2026-10-16T15:48:48Z"
+  },
+  {
+   "number": 930,
+   "title": "Quest givers speak in Willo's character voices",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/930",
+   "updated": "2026-10-16T08:26:49Z"
+  },
+  {
+   "number": 928,
+   "title": "Densuad's pair checks its recordings by the store manifest where they aren't hydrated (LOR-440)",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/928",
+   "updated": "2026-10-16T03:35:33Z"
+  },
+  {
+   "number": 926,
+   "title": "Willo answers at the depth asked (LOR-587)",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/926",
+   "updated": "2026-10-16T02:26:52Z"
+  },
+  {
+   "number": 923,
+   "title": "Site tests: follow the retired answer packs (LOR-561)",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/923",
+   "updated": "2026-10-16T01:40:51Z"
+  },
+  {
+   "number": 921,
+   "title": "Voices page: More people packs are live",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/921",
+   "updated": "2026-10-16T01:38:51Z"
+  },
+  {
+   "number": 919,
+   "title": "Ask Willo: answer in her chat and bubble, not the answer window",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/919",
+   "updated": "2026-10-16T02:03:57Z"
+  },
+  {
+   "number": 917,
+   "title": "Floating player: an X stops narration and hides it",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/917",
+   "updated": "2026-10-16T02:03:47Z"
+  },
+  {
+   "number": 916,
+   "title": "A plan's answers count by the month, as it's sold (LOR-585)",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/916",
+   "updated": "2026-10-16T01:54:48Z"
+  },
+  {
+   "number": 914,
+   "title": "Willo reads the add-on's short answers in her PC voice only",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/914",
+   "updated": "2026-10-16T01:54:34Z"
+  },
+  {
+   "number": 906,
+   "title": "Narrators say Mosshide right (Moss-hide, not Mosh-hides)",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/906",
+   "updated": "2026-10-16T01:54:38Z"
+  },
+  {
+   "number": 902,
+   "title": "Willo asks again quietly when an answer fails on the way (LOR-580)",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/902",
+   "updated": "2026-10-16T01:55:02Z"
+  },
+  {
+   "number": 900,
+   "title": "SelfTest: the retired answer packs don't count as out of date",
+   "state": "merged",
+   "url": "https://github.com/mliudev/lore-forever/pull/900",
+   "updated": "2026-10-15T23:09:22Z"
+  }
+ ],
+ "events": [
+  {
+   "at": "2026-10-16T21:05:05+00:00",
+   "machine": "mac",
+   "text": "chunk 009 driver exit 0 after 2797s (16 chars/s wall)"
+  },
+  {
+   "at": "2026-10-16T21:05:05+00:00",
+   "machine": "mac",
+   "text": "chunk 009 receipts: 40/40 passing -> /Users/meiliu/lore-voice-renders/chronicler-phase2/009/full/receipts-r-male.json; failed: []"
+  },
+  {
+   "at": "2026-10-16T21:05:05+00:00",
+   "machine": "mac",
+   "text": "chunk 010/25 start: 40 ids, 39806 chars (subzone:tower-of-arathor .. subzone:workshop-entrance)"
+  },
+  {
+   "at": "2026-10-16T20:18:28+00:00",
+   "machine": "mac",
+   "text": "chunk 009/25 start: 40 ids, 47238 chars (subzone:stonemaul-ruins .. subzone:tkashi-ruins)"
+  },
+  {
+   "at": "2026-10-16T19:46:58+00:00",
+   "machine": "pc",
+   "text": "hook start: 39-chronicler-phase1.sh"
+  },
+  {
+   "at": "2026-10-16T19:46:57+00:00",
+   "machine": "pc",
+   "text": "hook end: 38c-tirisfal-retake.sh exit 0"
+  },
+  {
+   "at": "2026-10-16T19:43:21+00:00",
+   "machine": "pc",
+   "text": "hook start: 38c-tirisfal-retake.sh"
+  },
+  {
+   "at": "2026-10-16T19:43:20+00:00",
+   "machine": "pc",
+   "text": "hook end: 38b-lor579-female-stories.sh exit 0"
+  },
+  {
+   "at": "2026-10-16T19:34:01+00:00",
+   "machine": "pc",
+   "text": "hook start: 38b-lor579-female-stories.sh"
+  },
+  {
+   "at": "2026-10-16T19:34:00+00:00",
+   "machine": "pc",
+   "text": "hook end: 38-mosshide-20261015.sh exit 0"
+  },
+  {
+   "at": "2026-10-16T18:53:28+00:00",
+   "machine": "pc",
+   "text": "hook start: 38-mosshide-20261015.sh"
+  },
+  {
+   "at": "2026-10-16T18:53:27+00:00",
+   "machine": "pc",
+   "text": "hook end: 37-catchup-20261015.sh exit 0"
+  }
+ ],
+ "decisions": [
+  {
+   "text": "When the new quest givers ship, listen to the orc and tauren women (pitched low) and goblin men (high by design). Changing one needs a new Willo voice design."
+  }
+ ]
+}

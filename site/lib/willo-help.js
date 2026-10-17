@@ -63,7 +63,9 @@ const TOPICS = [
       `game window" (off at first), then /reload in the game. If the stars still don't show, check that "Live game ` +
       `info for ${NAME}" is ticked in Lore Forever's Options (/lore live toggles it). Two switches, yours and the ` +
       `add-on's: when RIGHT NOW says it's unticked in the add-on, say "it's unticked in the Lore Forever add-on" with ` +
-      `that fix in the game, never "my settings" or your window (yours is on). Then you know where they are, who they target, their tracked quest ` +
+      `that fix in the game, never "my settings" or your window (yours is on). When RIGHT NOW says it's on in both but ` +
+      `you still can't tell where they are, give the two steps in the game: type /reload, and if the stars still ` +
+      `don't show, tick "Live game info for ${NAME}" in Lore Forever's Options (/lore live). Then you know where they are, who they target, their tracked quest ` +
       `and more, without a /reload each time. It shows as rings of stars in a blue mist over the minimap, while the ` +
       `Lore Forever window is open or the talk key is held. No memory reading, no key presses, nothing sent online. ` +
       `With it off you go by their last save and what they tell you, and ask where they are rather than guess. The ` +
@@ -169,8 +171,13 @@ const usageLine = usage => {
   if (!usage || !Number.isFinite(usage.remaining) || usage.unlimited) return "";
   const back = usage.resetsAt ? new Date(usage.resetsAt).toLocaleDateString("en-US", { month: "long", day: "numeric",
     timeZone: "UTC" }) : "";
+  const taste = usage.taste;
   return `- Their answers right now: ${usage.remaining.toLocaleString("en-US")} left ` +
-    `${usage.period === "month" ? "this month" : "today"}${back ? `, more on ${back}` : ""}.\n`;
+    `${usage.period === "month" ? "this month" : "today"}${back ? `, more on ${back}` : ""}.\n` +
+    // Their best first (lib/best-first.js): the Moonwell chorus sings with you, your finest voice, for their first ones.
+    (taste?.left > 0 ? `- Of their first ${taste.of} answers at your best (the Moonwell chorus sings with you: your ` +
+      `finest voice when they ask out loud${taste.why === "resting" ? "; the chorus is resting until tomorrow" : ""}), ` +
+      `${taste.left} are left.\n` : "");
 };
 
 export function helpBlock(question, { plans = true, plan = "", client = "", state = "", usage = null } = {}) {

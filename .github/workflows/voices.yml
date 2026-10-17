@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   curseforge-voices:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # not ubuntu-latest, which moves to Ubuntu 26 from 2026-10-19 (LOR-589)
     env:
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       GH_TOKEN: ${{ github.token }}
@@ -25,7 +25,7 @@ jobs:
       TAG: ${{ inputs.tag }}
     steps:
       # scripts/curseforge_voices.py, release/curseforge.json and the core's .toc (for the game version), from main
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           sparse-checkout: |
             scripts

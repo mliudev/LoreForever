@@ -179,7 +179,7 @@ test("every page gets X-Frame-Options, Referrer-Policy and the CSP, from _header
 test("/admin runs no inline script, and no page or template uses onclick= style handlers the CSP blocks", () => {
   const scriptSrc = headerRule("/admin*").match(/script-src ([^;]+)/)[1];
   assert.equal(scriptSrc.trim(), "'self'");
-  for (const page of ["public/admin.html", "public/admin/edits.html"]) {
+  for (const page of ["public/admin.html", "public/admin/edits.html", "public/admin/voices.html"]) {
     const inline = readFileSync(join(SITE, page), "utf8").match(/<script(?![^>]*\ssrc=)[^>]*>/g);
     assert.equal(inline, null, `${page}: move the script into a file; /admin's CSP won't run it inline`);
   }

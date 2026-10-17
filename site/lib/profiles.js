@@ -478,6 +478,10 @@ export const sameCharacter = (a, b) => a?.name === b?.name && a?.realm === b?.re
 
 // ---- The page ----
 
+// The book-and-wisp frame (lib/voices.js page()), with public/profile.css fitting the profile's own pieces into it and
+// Alegreya, the serif of the site's Alegreya Sans, for the story.
+const PROFILE_CSS = `<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;1,400&display=swap">
+<link rel="stylesheet" href="/profile.css?${FRESH}">`;
 const host =u => new URL(u).hostname.replace(/^www\./, "");
 // data-para: the paragraph's place, for the Listen box's read-along (lib/storyvoice.js storyParts counts the same way).
 const paragraphs = text => String(text || "").split(/\n\s*\n/).map(p => p.trim()).filter(Boolean)
@@ -648,10 +652,11 @@ const counted = (n, one, many = one + "s") => (n ? `${count(n)} ${n === 1 ? one 
 // viewing as a visitor. herald: Willo, the Lore Forever companion (LOR-266, LOR-428), signs the story (the "companion"
 // feature).
 // listen: the Listen box (lib/storyvoice.js listenBox, LOR-316), or "". historyLinks, historyJourney: saved history
-// (lib/history.js), its links and the archived moments to tell instead.
+// (lib/history.js), its links and the archived moments to tell instead. share: the owner's Share Willo card
+// (lib/referrals.js shareCard), where visitors get "This could be your page", or "".
 export function profilePage(p, { links = [], owner = false, badges = [], names = linker(null), lore = false,
                                  pictures = null, asVisitor = false, query = "", viewer = null, herald = false,
-                                 listen = "", historyLinks = "", historyJourney = null } = {}) {
+                                 listen = "", historyLinks = "", historyJourney = null, share = "" } = {}) {
   const d = p.data;
   const L = lore ? names : null;
   // The moments: the companion's journey when it has sent one (LOR-248), else the record's.
@@ -724,7 +729,7 @@ export function profilePage(p, { links = [], owner = false, badges = [], names =
     </div>
   </div>
   ${numbers}
-  ${owner ? "" : makeYourOwn()}
+  ${owner ? share : makeYourOwn()}
   <p class="vp-note">${d.since ? `Journey recorded since ${escape(d.since)}. ` : ""}${updated ? `Updated ${escape(updated)}.` : ""}</p>
   ${pictures?.length ? pictureViewer({ owner }) : ""}`;
   // The share card (lib/sharecard.js): the owner's page draws it again when the public profile has changed since.
@@ -738,6 +743,8 @@ export function profilePage(p, { links = [], owner = false, badges = [], names =
     // A link to the profile shows its share card, or before it has one, its newest picture (or the site's card).
     image: cardUrl(p) || (pictures?.length ? "https://loreforeverwow.com" + pictureUrl(pictures[0]) : undefined),
     robots: "noindex",
+    head: PROFILE_CSS,
+    source: "profile",
     foot: `<p>Played WoW Forever with Lore Forever? <a href="/account#profile">Make your own profile</a>.</p>`,
     // The page's own scripts carry FRESH, so a browser that kept an older copy fetches the one this page needs.
     scripts: ['<script src="/js/share.js" defer></script>', `<script src="/js/profile.js?${FRESH}" defer></script>`,
@@ -775,8 +782,10 @@ export function missingPage(handle, { bar = "", viewer = null } = {}) {
     crumbs: "",
     body: `  ${bar ? bar + "\n  " : ""}<h1>No profile here</h1>
   <p class="pitch">This profile doesn't exist, or its owner keeps it private.</p>
-  <p class="vp-actions"><a class="btn-small" href="/account#profile">Make your own profile</a> <a class="btn-small" href="/">What's Lore Forever?</a></p>`,
+  <p class="vp-actions"><a class="btn-small" href="/account#profile">Make your own profile</a> <a class="btn-small btn-small-alt" href="/">What's Lore Forever?</a></p>`,
     robots: "noindex",
+    head: PROFILE_CSS,
+    source: "profile",
     foot: "",
     scripts: bar ? '<script src="/js/profile.js" defer></script>' : "",
     viewer,

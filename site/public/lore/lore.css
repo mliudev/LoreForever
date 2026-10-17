@@ -61,6 +61,7 @@
 .src-forever { color: #1eff00; border-color: #1eff0077; }       /* uncommon green: Forever's own text */
 .src-community { color: #ff8000; border-color: #ff800088; }     /* legendary orange */
 .src-game { color: var(--parchment); border-color: #e9d8ad66; }
+.src-web { color: #b36bff; border-color: #b36bff88; }           /* epic purple: a fan site's facts (ForeverChanges) */
 .src-note { color: var(--muted); font-size: 0.85rem; }
 .lp-links { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 0 0 14px; padding: 0; list-style: none; }
 .lp-links li { font-size: 0.95rem; }

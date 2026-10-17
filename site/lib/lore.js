@@ -6,7 +6,7 @@
 // page works, as text with a "hear it in game" line, before anything is uploaded. Kept outside functions/ so Pages
 // doesn't route it.
 
-import { page, escape } from "./voices.js";
+import { page, escape, FRESH } from "./voices.js";
 import { featureOn } from "./features.js";
 
 // The flag: the "lore" site feature (lib/features.js), off until the recordings are in R2 and Mike says go. While
@@ -178,6 +178,7 @@ function sourceItem(s) {
   if (s.kind === "forever") return `<li><span class="src src-forever">Forever</span> ${escape(s.title)}</li>`;
   if (s.kind === "community") return `<li><span class="src src-community">Community</span> ${escape(s.title)}</li>`;
   if (s.kind === "game") return `<li><span class="src src-game">Game</span> ${escape(s.title)}</li>`;
+  if (s.kind === "web") return `<li><span class="src src-web">Web</span> <a href="${escape(s.url)}">${escape(s.title)}</a></li>`;
   return `<li class="src-note">${escape(s.title)}</li>`;
 }
 
@@ -233,7 +234,7 @@ export const htmlHeaders = (env, entry) => ({
   ...(noindex(env, entry) ? { "X-Robots-Tag": "noindex" } : {}),
 });
 
-const HEAD = `<link rel="stylesheet" href="/lore/lore.css">`;
+const HEAD = `<link rel="stylesheet" href="/lore/lore.css?${FRESH}">`;
 const SCRIPTS = `<script src="/lore/lore.js" defer></script>`;
 
 // ---- What a search result shows (LOR-22) ----

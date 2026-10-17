@@ -18,6 +18,8 @@
 //                                  {on: false} while plans are off.
 //   POST /api/billing/checkout  {plan} -> {url}: Stripe's payment page; /plans again for a player who already has a
 //                               plan (they switch with change). Plans are monthly: an interval other than "month" is a 400.
+//                               A player a creator's link brought gets the creator's first-month discount there when
+//                               no beta offer applies (lib/referrals.js creatorFor, lib/billing.js createCheckout).
 //   POST /api/billing/change    {plan, from (the plan the page showed), confirm, quote (the preview's)} -> without
 //                               confirm {preview: {kind, plan, from, text, amount, quote}}: what switching to that plan
 //                               does, in plain words (an upgrade's amount is Stripe's own preview of the charge); with
@@ -38,6 +40,7 @@ import {
   VOICE_PACK_TEXT, VOICE_NOTE,
 } from "../../../lib/billing.js";
 import { ALLOWED } from "../../../lib/willo-custom.js";
+import { creatorFor, creatorOffers, notePayment } from "../../../lib/referrals.js";
 import { perMinute, slowDown } from "../../../lib/ratelimit.js";
 
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
@@ -51,8 +54,10 @@ async function plans({ request, env }) {
     current = shown;
     [packs, pack] = await Promise.all([packsFor(env, user.id), voicePackFor(env, user.id, shown)]);
   }
-  // The beta's offers this player can still have (once each per account), by plan.
+  // The beta's offers this player can still have (once each per account), by plan; on the plans without one, the
+  // first-month discount of the creator whose link brought them (lib/referrals.js creatorOffers).
   const offers = await launchOffers(env, user?.id || null);
+  if (user) Object.assign(offers, await creatorOffers(env, user.id, offers));
   const beta = launchWeek(env);
   return ok({
     on: true, current,
@@ -84,12 +89,19 @@ async function stripePage({ request, env }, user, make, perMin = 10) {
   }
 }
 
+// A test-mode event on the live site (or the reverse) counts for nobody, as lib/billing.js applyEvent says.
+const sameMode = (env, event) => typeof event.livemode !== "boolean" ||
+  event.livemode === /^[sr]k_live_/.test(String(env.STRIPE_SECRET_KEY || ""));
+
 // Stripe sends it again until it gets a 2xx, so a failure to apply the event is a 500.
 async function webhook({ request, env }) {
   const event = await verifyWebhook(env, await request.text(), request.headers.get("Stripe-Signature"));
   if (!event) return fail(400, "That isn't a signed Stripe event.");
   try {
     await applyEvent(env, event);
+    // A paid invoice of a player a creator brought: the creator's share (lib/referrals.js notePayment). After the plan
+    // is stored, and safe to repeat, so Stripe's retry of a failure here gets another go.
+    if (event.type === "invoice.paid" && sameMode(env, event)) await notePayment(env, event.data?.object);
   } catch (e) {
     console.warn(`billing webhook ${event.type} ${event.id}: ${e?.message || e}`);
     return fail(500, "Couldn't apply that event.");
@@ -124,5 +136,6 @@ export async function onRequest(context) {
     return stripePage(context, user, () => changePlan(env, user, plan,
       { confirm: input.confirm === true, from, quote: typeof input.quote === "string" ? input.quote : null }), 30);
   }
-  return stripePage(context, user, origin => createCheckout(env, user, plan, input.interval, origin));
+  return stripePage(context, user, async origin => createCheckout(env, user, plan, input.interval, origin,
+    { creator: await creatorFor(env, user.id) }));
 }

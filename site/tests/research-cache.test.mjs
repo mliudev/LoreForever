@@ -6,7 +6,7 @@ import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { ANSWER_MODEL, ANSWER_RESERVATION_MICRO, LOOKUP_RESERVATION_MICRO } from "../lib/companion-answers.js";
-import { keepFinding, wantsSearch, realWorld } from "../lib/research-cache.js";
+import { keepFinding, wantsSearch, realWorld, searchesBefore } from "../lib/research-cache.js";
 import { helpBlock } from "../lib/willo-help.js";
 import { d1 } from "./helpers.mjs";
 
@@ -53,34 +53,34 @@ const ask = async (token, question, zone = "Ironforge", extra = {}) => (await an
     `QUESTION\n${question}`, persona: "willo", style: "spoken", research: "auto", ...extra }) }) })).json();
 
 test("a spoken practical question no fact covers is looked up first, and the next player gets the finding", async () => {
-  const first = await ask(await linked(), "How do I get the Whirlwind Axe?");
+  const first = await ask(await linked(), "Where can I buy Simple Flour?");
   assert.equal(first.looked_up, "quick");
   assert.equal(calls.length, 2, "the look-up, then the answer");
   assert.match(calls[0].url, new RegExp(`${ANSWER_MODEL}:generateContent$`));
   assert.deepEqual(calls[0].body.tools, [{ googleSearch: {} }]);
   assert.match(calls[0].system, /You look things up/);
-  assert.equal(calls[0].user, "Question: How do I get the Whirlwind Axe?\nAsked in: Ironforge, by a Human Warrior level 45 Alliance.");
+  assert.equal(calls[0].user, "Question: Where can I buy Simple Flour?\nAsked in: Ironforge, by a Human Warrior level 45 Alliance.");
   assert.equal(calls[1].body.tools, undefined);
   assert.match(calls[1].system, /EARLIER RESEARCH[^]*level 30 quest The Islander/);
   assert.equal(first.answer, "Take The Islander from your trainer at level thirty.");
   assert.equal(first.web_search.status, "searched");
   assert.equal(first.web_sources[0].title, "Berserker Stance (Forever)");
   // Another player, same question and place: no look-up, the finding with its sources.
-  const second = await ask(await linked(), "how do i get the whirlwind axe");
+  const second = await ask(await linked(), "where can i buy simple flour");
   assert.equal(second.looked_up, "cached");
   assert.equal(calls.length, 3);
   assert.equal(calls[2].body.tools, undefined);
   assert.match(calls[2].system, /EARLIER RESEARCH[^]*Berserker Stance \(Forever\)/);
   assert.equal(second.web_sources[0].url, "https://warcraft.wiki.gg/wiki/Berserker_Stance");
   // Elsewhere it's a new question.
-  assert.equal((await ask(await linked(), "How do I get the Whirlwind Axe?", "Orgrimmar")).looked_up, "quick");
+  assert.equal((await ask(await linked(), "Where can I buy Simple Flour?", "Orgrimmar")).looked_up, "quick");
 });
 
 test("no look-up when a Forever fact covers it, for lore and chat, or without research auto", async () => {
   const token = await linked();
   assert.equal((await ask(token, "Where does the boat from Southshore go?", "Hillsbrad Foothills")).looked_up, "no");
   assert.equal((await ask(token, "Tell me about Ironforge.")).looked_up, "no");
-  assert.equal((await ask(token, "How do I get the Whirlwind Axe?", "Ironforge", { research: undefined })).looked_up, "no");
+  assert.equal((await ask(token, "Where can I buy Simple Flour?", "Ironforge", { research: undefined })).looked_up, "no");
   assert.ok(calls.every(c => !c.body.tools));
 });
 
@@ -95,6 +95,13 @@ test("only practical or current questions and corrections no fact covers look on
     assert.equal(wantsSearch(q, null, []), true, q);
   assert.equal(wantsSearch("I'm pretty sure that's Dalaran.", "correction", []), true);
   assert.equal(wantsSearch("Where can I buy Simple Flour in Goldshire?", null, [{ asked: true }]), false, "a fact covers it");
+  // Mike's stream, 10/15 (LOR-593): an item's proc chance, a doubt and "search it" always look; a bare request or doubt
+  // looks up what was asked before.
+  assert.equal(wantsSearch("Hey Willow, what's the proc chance for Shoney's disarm?", null, []), true);
+  for (const q of ["Are you sure?", "Hey Willow, can you search on the interwebs?"])
+    assert.equal(wantsSearch(q, null, [{ asked: true }]), true, q);        // even when a fact seems to cover it
+  assert.deepEqual(["Hey Willow, can you search on the interwebs?", "Are you sure?", "Search for Shoni's Disarming Tool"]
+    .map(searchesBefore), [true, true, false]);
 });
 
 test("the player's own world looks online, typed too, and Willo's own help never does (LOR-545)", async () => {
@@ -169,7 +176,7 @@ test("the Great Forge 'where you are' question (10/14) gets no look-up and no ea
 
 test("a look-up that times out or finds nothing is answered without it, and the budget settles", async () => {
   reply = body => (body.tools ? Object.assign(new Error("The operation was aborted due to timeout"), { name: "TimeoutError" }) : plain);
-  const slow = await ask(await linked(), "How do I get the Whirlwind Axe?");
+  const slow = await ask(await linked(), "Where can I buy Simple Flour?");
   assert.equal(slow.answer, "Take The Islander from your trainer at level thirty.");
   assert.equal(slow.looked_up, "no");
   assert.equal(slow.web_search.status, "not_needed");
@@ -178,7 +185,7 @@ test("a look-up that times out or finds nothing is answered without it, and the 
   assert.ok(spend() >= LOOKUP_RESERVATION_MICRO && spend() < LOOKUP_RESERVATION_MICRO + ANSWER_RESERVATION_MICRO);
   // No search evidence: nothing kept, answered plainly.
   reply = body => (body.tools ? plain : plain);
-  const empty = await ask(await linked(), "Where can I buy Mild Spices?");
+  const empty = await ask(await linked(), "Where can I buy Simple Flour?");
   assert.equal(empty.looked_up, "no");
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM research_cache").get().n, 0);
 });

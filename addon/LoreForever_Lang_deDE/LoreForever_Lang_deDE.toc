@@ -2,13 +2,13 @@
 ## Title: Lore Forever - Deutsch
 ## Notes: Deutsches Sprachpaket für Lore Forever: Oberfläche, Lore-Texte und die Namen des deutschen Spielclients.
 ## Author: Mike
-## Version: 0.19.0
+## Version: 0.20.0
 ## Dependencies: LoreForever
 ## LoadOnDemand: 1
 ## X-LoreForever-Pack: lang
 ## X-LoreForever-Locale: deDE
 ## X-LoreForever-Format: 1
-## X-LoreForever-DataVersion: 2026-10-15 21:28 UTC
+## X-LoreForever-DataVersion: 2026-10-16 15:50 UTC
 ## X-LoreForever-LanguageName: Deutsch
 
 # The files load through Lang.xml, which lists them.

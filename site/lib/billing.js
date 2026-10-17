@@ -127,6 +127,9 @@ export const PAID = Object.keys(PLANS).filter(id => id !== "free");
 
 // The free plan's one-time starter: answers for each account, used after the day's free answers (creditStarter).
 export const STARTER_ANSWERS = 30;
+// Willo's best first: an account's first live answers at her best (lib/best-first.js, which uses it; kept here so the
+// plan cards can say it without the two modules loading each other first).
+export const TASTE_ANSWERS = 20;
 // Willo's voices in the companion app (companion/lore_companion/talk/tts.py KOKORO_VOICES); the free plan has its
 // default one.
 export const WILLO_VOICES = 7;
@@ -148,10 +151,14 @@ export const COMPANION_FEATURES = {
 // questions get text answers; only questions asked out loud are answered aloud (Mike, 2026-10-14), so while the
 // starter lasts a free account may ask out loud (push_to_talk) and Willo answers in her studio voice; after it, free
 // answers are text and there's no asking out loud. The same 30 spoken replies are counted. The beta's free Hero month
-// (planFor launch) is Hero's.
-export const companionFeatures = (plan, { starter = 0 } = {}) => plan.id === "free"
-  ? { ...COMPANION_FEATURES.free, voices: starter > 0 ? "default" : "none", push_to_talk: starter > 0 }
-  : COMPANION_FEATURES.paid;
+// (planFor launch) is Hero's. taste: the free plan's best first (lib/best-first.js tasteState), whose answers left ask
+// out loud, see the game and look online as a paid plan's do, and whose finest replies still owed are spoken.
+export function companionFeatures(plan, { starter = 0, taste = null } = {}) {
+  if (plan.id !== "free") return COMPANION_FEATURES.paid;
+  const asks = Boolean(taste?.on && taste.left > 0);
+  return { ...COMPANION_FEATURES.free, voices: starter > 0 || taste?.on ? "default" : "none",
+           push_to_talk: starter > 0 || asks, ...(asks ? { sight: true, research: true } : {}) };
+}
 
 // What /plans lists on each plan's card, in plain words: how it feels to play with Willo first, then the month's
 // answers. Counts, never limits: no "unlimited", "limit", "cap" or "fair use" in what players read (Mike, 2026-10-13).
@@ -163,7 +170,8 @@ const answers = plan => `${count(plan.answersPerMonth)} ${NAME} answers a month`
 // cost caps, and past it Willo answers from the lore and the searches other players' questions kept.
 const WEB = `${NAME} can check the web when the lore runs out`;
 const FIRST = {
-  free: `Chat with ${NAME}: ${PLANS.free.answersPerDay} answers a day. Your first ${STARTER_ANSWERS} questions out loud are answered aloud`,
+  free: `Chat with ${NAME}: ${PLANS.free.answersPerDay} answers a day. Your first ${TASTE_ANSWERS} at her best, in her ` +
+        `finest voice, then ${STARTER_ANSWERS} more questions out loud answered aloud`,
   hero: `Ask out loud and ${NAME} answers in her voice, up to 4 hours of play a day`,
   champion: `${NAME}'s studio voices, up to 8 hours a day`,
   legend: `The most answers and ${NAME}'s finest voice`,
@@ -434,8 +442,8 @@ const idOf = v => typeof v === "string" ? v : typeof v?.id === "string" ? v.id :
 // promo_champion_until: unused since the launch offers changed (2026-10-14); next_plan and next_plan_at: a
 // downgrade waiting for the renewal (its subscription schedule's next phase, nextOf).
 // promo_claims: the beta promo's offers each account has had (promoClaim), "<kind>:<code>" (kind hero, the trial;
-// half, a 50% first month; or free, the card-less free Hero month, whose created is the month's start and whose
-// subscription_id is '') by the same one-way code as starter_claims (or "user:<id>" without a Google ID), with the
+// half, a 50% first month; free, the card-less free Hero month, whose created is the month's start and whose
+// subscription_id is ''; or creator, a creator's first-month discount: lib/referrals.js) by the same one-way code as starter_claims (or "user:<id>" without a Google ID), with the
 // subscription that had it; kept after "Delete my account".
 // billing_locks: a plan change under way for an account (changePlan), so a double click or a second tab waits.
 // billing_events: the webhook events
@@ -459,7 +467,8 @@ const idOf = v => typeof v === "string" ? v : typeof v?.id === "string" ? v.id :
 // come one by one), period the plan month's first day (poolWindow), chars what its pieces said so far, pieces how many
 // are on their way or said, heard how many were said, best whether Willo's finest voice says it (PLAN_VOICE best),
 // pack the finest-voice pack that pays for it instead (VOICE_PACK), npc whether it's one of Champion's character
-// replies (PLAN_VOICE characters); older months' rows go as a new one starts.
+// replies (PLAN_VOICE characters), provider the one its pieces go to (LOR-596: one voice a reply); older months'
+// rows go as a new one starts.
 // plan_log (LOR-524): every subscription seen, one row each, for /admin's new and cancelled plans per day
 // (subscriptionReport): its plan, Stripe's status, when it started (start_date), when it was cancelled (canceled_at:
 // when the player asked, though the plan runs to its period's end) and ended, its discounts' ids as last seen, and
@@ -493,6 +502,15 @@ const SETUP = [
   "CREATE TABLE IF NOT EXISTS billing_locks (user_id TEXT PRIMARY KEY, until TEXT NOT NULL)",
   `CREATE TABLE IF NOT EXISTS plan_log (subscription_id TEXT PRIMARY KEY, user_id TEXT, plan TEXT, status TEXT,
     started TEXT, canceled TEXT, ended TEXT, discounts TEXT, comp TEXT, updated TEXT NOT NULL)`,
+  // Willo's best first for new players (lib/best-first.js says what each column is, LOR-602). best_first is kept after
+  // "Delete my account" without the account (user_id NULL), so a Google account's taste comes once.
+  `CREATE TABLE IF NOT EXISTS best_first (claim TEXT PRIMARY KEY, user_id TEXT, used INTEGER NOT NULL DEFAULT 0,
+    voices INTEGER NOT NULL DEFAULT 0, lookups INTEGER NOT NULL DEFAULT 0, started TEXT, finished TEXT)`,
+  "CREATE INDEX IF NOT EXISTS best_first_user ON best_first (user_id)",
+  `CREATE TABLE IF NOT EXISTS best_first_days (day TEXT PRIMARY KEY, reserved_micro INTEGER NOT NULL DEFAULT 0,
+    spent_micro INTEGER NOT NULL DEFAULT 0, answers INTEGER NOT NULL DEFAULT 0, replies INTEGER NOT NULL DEFAULT 0,
+    lines INTEGER NOT NULL DEFAULT 0, starts INTEGER NOT NULL DEFAULT 0, capped INTEGER NOT NULL DEFAULT 0,
+    unreachable INTEGER NOT NULL DEFAULT 0)`,
 ];
 // Columns added after their table was first made. Packs from before the starter were all answer top-ups (none was ever
 // sold on the live site; nothing reads that kind now).
@@ -505,7 +523,8 @@ const MIGRATE = ["ALTER TABLE answer_user_spend ADD COLUMN topup_micro INTEGER N
                  "ALTER TABLE users ADD COLUMN welcomed_at TEXT",
                  "ALTER TABLE voice_replies ADD COLUMN npc INTEGER NOT NULL DEFAULT 0",
                  "ALTER TABLE entitlements ADD COLUMN next_plan TEXT",
-                 "ALTER TABLE entitlements ADD COLUMN next_plan_at TEXT"];
+                 "ALTER TABLE entitlements ADD COLUMN next_plan_at TEXT",
+                 "ALTER TABLE voice_replies ADD COLUMN provider TEXT"];
 const ready = new WeakSet();
 export async function setupBilling(env) {
   if (ready.has(env.DB)) return;
@@ -616,9 +635,11 @@ async function creditStarter(env, userId, now) {
 }
 
 // The account's Google ID (users.google_sub) as a salted SHA-256, for starter_claims: it can be matched against a
-// Google account signing in, but doesn't hold the ID itself. null for an account without one.
+// Google account signing in, but doesn't hold the ID itself. null for an account without one. Share Willo
+// (lib/referrals.js) keys a friend by it too, so a Google account counts as a friend once, ever.
 const salts = new WeakMap();   // env.DB -> the salt, so most checks skip the lookup
-async function starterClaim(env, userId) {
+export async function starterClaim(env, userId) {
+  await setupBilling(env);
   const user = await env.DB.prepare("SELECT google_sub FROM users WHERE id = ?").bind(userId).first();
   if (!user?.google_sub) return null;
   if (!salts.has(env.DB)) {
@@ -679,6 +700,16 @@ export async function planFor(env, userId, now = new Date()) {
   return { id: free.id, name: free.name, costCapMicro: 0, lookupsPerMonth: 0, status: null, renews: null,
            cancelAtPeriodEnd: false, portal, answersPerMonth: free.answersPerMonth, ...voiceOf(free.id),
            answersPerDay: brake ? BRAKE_ANSWERS : free.answersPerDay, ...(brake ? { brake: true } : {}) };
+}
+
+// The plan an account has now, read only (no starter credited, no free Hero month started, unlike planFor): its id,
+// for what a friend's share gives the account that shared (lib/referrals.js). The beta's free Hero month is Hero.
+export async function planIdNow(env, userId, now = new Date()) {
+  if (!plansOn(env)) return "free";
+  await setupBilling(env);
+  const row = await entitlement(env, userId);
+  if (paidNow(row, now)) return row.plan;
+  return await freeHeroMonth(env, userId, launchNow(env, now)) ? "hero" : "free";
 }
 
 // The account's free Hero month ({start, end}, milliseconds) while it runs at `at` (launchNow's clock), else null.
@@ -828,17 +859,20 @@ export async function overTextCap(env, userId, plan, now = new Date()) {
 
 // ---- The starter and the finest-voice packs ----
 
-// The account's starter answers left, and its finest-voice packs (VOICE_PACK): their replies left and how many it
-// bought this month (a refunded one isn't counted): {starter, voice: {remaining, boughtThisMonth}}.
+// The account's starter answers left, its answers from friends left (Share Willo, kind 'share': lib/referrals.js), and
+// its finest-voice packs (VOICE_PACK): their replies left and how many it bought this month (a refunded one isn't
+// counted): {starter, share, voice: {remaining, boughtThisMonth}}.
 export async function packsFor(env, userId, now = new Date()) {
   await setupBilling(env);
   const row = await env.DB.prepare(
     "SELECT COALESCE(SUM(CASE WHEN status = 'active' AND kind = 'starter' THEN remaining ELSE 0 END), 0) AS starter, " +
+    "COALESCE(SUM(CASE WHEN status = 'active' AND kind = 'share' THEN remaining ELSE 0 END), 0) AS share, " +
     "COALESCE(SUM(CASE WHEN status = 'active' AND kind = 'voice' THEN remaining ELSE 0 END), 0) AS voice, " +
     "COALESCE(SUM(kind = 'voice' AND status != 'refunded' AND substr(created, 1, 7) = ?), 0) AS voice_bought " +
     "FROM answer_packs WHERE user_id = ?"
   ).bind(month(now), userId).first();
-  return { starter: row?.starter || 0, voice: { remaining: row?.voice || 0, boughtThisMonth: row?.voice_bought || 0 } };
+  return { starter: row?.starter || 0, share: row?.share || 0,
+           voice: { remaining: row?.voice || 0, boughtThisMonth: row?.voice_bought || 0 } };
 }
 
 // How /plans offers the finest-voice pack to this player (functions/api/billing/[action].js), decided here so the page
@@ -872,8 +906,19 @@ export async function useStarter(env, userId) {
   ).bind(`starter:${userId}`, userId).first();
 }
 
-// Gives back a starter answer whose live answer failed, or never reached the model (functions/api/companion/answer.js):
-// it's for answers, not attempts.
+// Takes one of the account's answers from friends (Share Willo, lib/referrals.js), the oldest pack first, in one
+// statement like useStarter: used once the plan's answers (and a free player's starter) are gone, on any plan. A
+// paying player's is a paid-for answer, so their plan's cost caps still hold it. The pack ({id, kind}), or null.
+export async function useShare(env, userId) {
+  await setupBilling(env);
+  return env.DB.prepare(
+    "UPDATE answer_packs SET remaining = remaining - 1 WHERE id = (SELECT id FROM answer_packs WHERE user_id = ? AND " +
+    "kind = 'share' AND status = 'active' AND remaining > 0 ORDER BY created, id LIMIT 1) AND remaining > 0 RETURNING id, kind"
+  ).bind(userId).first();
+}
+
+// Gives back a starter answer (or an answer from friends) whose live answer failed, or never reached the model
+// (functions/api/companion/answer.js): it's for answers, not attempts.
 export async function returnStarter(env, packId) {
   await env.DB.prepare("UPDATE answer_packs SET remaining = remaining + 1 WHERE id = ? AND status = 'active' AND remaining < answers")
     .bind(packId).run();
@@ -901,8 +946,11 @@ export function offersFor(env, plan) {
 // Stripe's payment page for a plan: {url}, or {error} for a plan that isn't for sale or a yearly one (plans are
 // monthly; interval may be left out). A player who already has a plan (in D1, or at Stripe a moment before the
 // webhook says so: paid in another tab) is sent back to /plans, where they switch (changePlan), so nobody ends up
-// with two subscriptions.
-export async function createCheckout(env, user, planId, interval, origin) {
+// with two subscriptions. creator: the creator whose link brought this account (lib/referrals.js creatorFor: {code,
+// promoId}), or null: their promotion code takes its discount off the first month (once per account, its "creator"
+// claim) when no beta offer applies, since Checkout takes one discount; and the subscription names the creator either
+// way (metadata.creator), so what it pays counts for them (lib/referrals.js notePayment).
+export async function createCheckout(env, user, planId, interval, origin, { creator = null } = {}) {
   await setupBilling(env);
   if (!sellablePlans(env).includes(planId)) return { error: "That plan isn't open yet." };
   if (interval !== undefined && interval !== null && interval !== "month") return { error: "Plans are monthly." };
@@ -932,16 +980,29 @@ export async function createCheckout(env, user, planId, interval, origin) {
   const trial = offer !== "hero" ? {}
     : ends ? { trial_end: Math.floor((Date.now() + ends - launchAt.getTime()) / 1000) }
     : { trial_period_days: BETA_HERO_DAYS };
+  const fromCreator = !offer && creator?.promoId && !(await promoClaimed(env, user.id, "creator"));
   // Payment methods come from the Dashboard's settings (so no payment_method_types here), and tax from Managed
   // Payments when it's on (so no automatic_tax): prices include tax, and players pay exactly what's listed.
-  const session = await checkoutSession(env, {
+  const params = discounts => ({
     mode: "subscription", customer, line_items: [{ price, quantity: 1 }], client_reference_id: user.id,
-    subscription_data: { metadata: { user_id: user.id, ...(offer ? { launch: offer } : {}) }, ...trial },
-    ...(offer === "half" ? { discounts: [{ coupon: LAUNCH_COUPONS[planId].id }] } : { allow_promotion_codes: true }),
+    subscription_data: { metadata: { user_id: user.id, ...(offer ? { launch: offer } : {}),
+      ...(creator?.code ? { creator: creator.code } : {}), ...(discounts && fromCreator ? { creator_offer: "1" } : {}) },
+      ...trial },
+    ...(offer === "half" ? { discounts: [{ coupon: LAUNCH_COUPONS[planId].id }] }
+      : discounts && fromCreator ? { discounts: [{ promotion_code: creator.promoId }] } : { allow_promotion_codes: true }),
     integration_identifier: INTEGRATION_ID,
     ...(env.STRIPE_MANAGED_PAYMENTS === "1" ? { managed_payments: { enabled: true } } : {}),
     success_url: `${origin}/plans?billing=done`, cancel_url: `${origin}/plans`,
   });
+  let session;
+  try { session = await checkoutSession(env, params(true)); }
+  catch (e) {
+    // A creator's promotion code Stripe won't take (switched off in the Dashboard, or this customer paid before): the
+    // checkout goes on without it, and the typed-code box is back.
+    if (!fromCreator || e.status !== 400) throw e;
+    console.warn(`billing: creator code ${creator.code} refused at checkout: ${e.message}`);
+    session = await checkoutSession(env, params(false));
+  }
   return { url: session.url };
 }
 
@@ -1388,6 +1449,8 @@ async function storeSubscription(env, userId, subscription, { deduped = false } 
   // The beta's offer it was made with (checkout's metadata.launch, or an upgrade's): the account has had it now.
   const kind = subscription.metadata?.launch;
   if (kind === "hero" || kind === "half") await promoClaim(env, userId, kind, subscription.id);
+  // A creator's first-month discount (createCheckout creator): once per account too.
+  if (subscription.metadata?.creator_offer === "1") await promoClaim(env, userId, "creator", subscription.id);
   const promo = null;   // promo_champion_until: the old Champion-month promo, gone
   await env.DB.prepare(
     "INSERT INTO entitlements (user_id, customer_id, subscription_id, plan, interval, status, current_period_end, " +
@@ -1409,8 +1472,9 @@ async function storeSubscription(env, userId, subscription, { deduped = false } 
 
 // The beta promo's offers, once per account, ever: an offer of a kind ("hero", the trial; "half", a 50% first month)
 // is claimed by the first subscription that had it, by the account's one-way Google code (starterClaim), so it
-// outlives "Delete my account" as the starter's does; the free Hero month ("free") the same way (freeHeroMonth).
-const claimOf = async (env, userId, kind) => `${kind}:${(await starterClaim(env, userId)) || `user:${userId}`}`;
+// outlives "Delete my account" as the starter's does; the free Hero month ("free") the same way (freeHeroMonth), and
+// Willo's best first ("taste", lib/best-first.js).
+export const claimOf = async (env, userId, kind) => `${kind}:${(await starterClaim(env, userId)) || `user:${userId}`}`;
 async function promoClaim(env, userId, kind, subscriptionId) {
   await env.DB.prepare("INSERT OR IGNORE INTO promo_claims (claim, subscription_id, created) VALUES (?, ?, ?)")
     .bind(await claimOf(env, userId, kind), subscriptionId, iso()).run();

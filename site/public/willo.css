@@ -1,6 +1,7 @@
 /* Willo's pages in the wisp's blue (body class "bw wisp"; the shared look of "The book and the wisp" is in style.css):
-   /willo, where the add-on's "Get Willo" points, and /plans. Each page's own layout; scoped to .bw so it wins over the
-   older wl-* and pl-* rules in style.css, which /account and /willo/style still use. */
+   /willo, where the add-on's "Get Willo" points, and /plans; /link and /willo/style load it too, for Willo's blue speech
+   bubble and the plan card (with pages.css). Each page's own layout; scoped to .bw so it wins over the older wl-* and
+   pl-* rules in style.css, which /account still uses. */
 
 /* /willo: the hero, with the wisp beside the title and the download (lib/willo.js willoGet) */
 .wl-top { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px 56px; align-items: center; }
@@ -8,6 +9,15 @@
 .wl-get { display: grid; gap: 12px; justify-items: start; }
 .bw .wl-get p { margin: 0; }
 .bw .wl-soon, .bw .wl-note { color: var(--h-text-2); font-size: 1rem; }
+/* Who sent them, from a Share Willo link (functions/willo.js, lib/referrals.js shareBanner) */
+.bw .w-shared { max-width: 560px; padding: 12px 16px; border: 1px solid #93b6ff55; border-radius: var(--h-r-sm);
+  background: var(--h-wisp-wash); color: var(--h-text); box-shadow: 0 0 24px -10px #3a5cf0; }
+.bw .w-shared p { margin: 0; font-size: 1rem; }
+.bw .w-shared strong { color: var(--h-wisp-hi); }
+/* Touch screens (phones, mostly): Willo runs on a PC, so a button that sends her link there (js/keep-link.js). */
+.bw .wl-phone { display: none; }
+@media (hover: none) and (pointer: coarse) { .bw .wl-phone { display: grid; gap: 10px; justify-items: start; } }
+.bw .wl-phone p { color: var(--h-text); font-size: 1rem; }
 .bw .wl-wisp { flex: none; width: clamp(160px, 24vw, 260px); height: auto; margin: 0 24px 0 0; filter: drop-shadow(0 0 36px #6f8fffaa);
   animation: wl-float 6s ease-in-out infinite; }
 @keyframes wl-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }

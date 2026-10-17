@@ -34,21 +34,23 @@ env:
   GH_REPO: ${{ github.repository }}
   TAG: ${{ github.event.inputs.tag || github.ref_name }}
 
+# The Linux jobs name ubuntu-24.04, not ubuntu-latest: that moves to Ubuntu 26 from 2026-10-19, and a new image under a
+# real release could change the zip the zip job must rebuild byte for byte. Moving on is its own change (LOR-589).
 jobs:
   prepare:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       version: ${{ steps.metadata.outputs.version }}
       source_commit: ${{ steps.metadata.outputs.source_commit }}
       published: ${{ steps.metadata.outputs.published }}
       zip_sha256: ${{ steps.metadata.outputs.zip_sha256 }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ env.TAG }}
           sparse-checkout: addon/LoreForever
       # The orchestration helper comes from this workflow revision, including dispatches for an older tag.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           path: ci
           sparse-checkout: |
@@ -62,14 +64,14 @@ jobs:
 
   zip:
     needs: prepare
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       version: ${{ steps.version.outputs.version }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ needs.prepare.outputs.source_commit }}
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           path: ci
           sparse-checkout: |
@@ -146,8 +148,8 @@ jobs:
         run: |
           python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" handover \
             --core dist/LoreForever.zip --extras dist/extra --output dist/windows
-      # v4 makes the current-run artifact downloadable as soon as this step ends.
-      - uses: actions/upload-artifact@v4
+      # upload-artifact (v4 on) makes the current-run artifact downloadable as soon as this step ends.
+      - uses: actions/upload-artifact@v7
         with:
           name: installer-inputs-${{ github.run_attempt }}
           path: dist/windows/
@@ -194,13 +196,13 @@ jobs:
           python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" stage \
             --manifest dist/linux-proof.json --root dist/installer-inputs --root dist/release-extra --root dist/LoreForever.zip
       # Preserve the existing published-tag rebuild contract; only this exceptional path transfers full artifacts.
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: needs.prepare.outputs.published == 'true'
         with:
           name: linux-payload-${{ github.run_attempt }}
           path: dist/release-extra/
           compression-level: 0
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: linux-proof-${{ github.run_attempt }}
           path: dist/linux-proof.json
@@ -220,11 +222,11 @@ jobs:
     steps:
       # Only what this job reads (release/installer, and release/logo.ico, which comes with it): the rest of the tree
       # is ~1 GB of recordings, and this job takes those from the zip.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ needs.prepare.outputs.source_commit }}
           sparse-checkout: release/installer
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           path: ci
           sparse-checkout: |
@@ -355,13 +357,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" stage --manifest dist/installer-proof.json --root dist
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: needs.prepare.outputs.published == 'true'
         with:
           name: installer-payload-${{ github.run_attempt }}
           path: dist/LoreForever-Setup.exe
           compression-level: 0
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: installer-proof-${{ github.run_attempt }}
           path: dist/installer-proof.json
@@ -384,11 +386,11 @@ jobs:
       actions: read
     steps:
       # release/companion.ref, and release/installer for Lore Forever's wizard pictures.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ needs.prepare.outputs.source_commit }}
           sparse-checkout: release/installer
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           path: ci
           sparse-checkout: |
@@ -406,7 +408,7 @@ jobs:
           "Willo source: mliudev/lore-forever at $ref"
           "ref=$ref" >> $env:GITHUB_OUTPUT
       - name: Check out Willo's source (private, read-only)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: mliudev/lore-forever
           ref: ${{ steps.companion.outputs.ref }}
@@ -416,7 +418,7 @@ jobs:
             companion
             data/pronunciation.json
           sparse-checkout-cone-mode: false
-      - uses: astral-sh/setup-uv@v6
+      - uses: astral-sh/setup-uv@v10.3.0
       - name: Install Inno Setup
         shell: pwsh
         run: |
@@ -501,14 +503,14 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" stage --manifest dist/willo-proof.json --root dist
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: needs.prepare.outputs.published == 'true'
         with:
           name: willo-payload-${{ github.run_attempt }}
           path: dist/Willo-Setup.exe
           compression-level: 0
       # Last, after the staging upload: a proof means the asset is on the draft.
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: willo-proof-${{ github.run_attempt }}
           path: dist/willo-proof.json
@@ -518,20 +520,20 @@ jobs:
     needs: [prepare, zip, installer, willo]
     # Willo never holds the release: it goes out without Willo-Setup.exe when the willo job failed.
     if: ${{ !cancelled() && needs.prepare.result == 'success' && needs.zip.result == 'success' && needs.installer.result == 'success' }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ needs.prepare.outputs.source_commit }}
           sparse-checkout: scripts
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           path: ci
           sparse-checkout: |
             scripts
             release
       # Keep proof directories disjoint so failed-job retries can reuse their successful earlier producer.
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           pattern: '*-proof-*'
           path: dist/proofs
@@ -569,14 +571,14 @@ jobs:
   curseforge:
     needs: [zip, release]
     if: github.event_name == 'push' || inputs.curseforge
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       GH_TOKEN: ${{ github.token }}
       VERSION: ${{ needs.zip.outputs.version }}
     steps:
       # CHANGELOG.md, scripts/changelog.py and the core's .toc
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ env.TAG }}
           sparse-checkout: |
@@ -584,7 +586,7 @@ jobs:
             addon/LoreForever
       # scripts/curseforge_voices.py and release/curseforge.json from this run's own commit, like this file: the tag on
       # a push, main on Run workflow, so a rerun for an older tag goes by today's narration projects.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           path: ci
           sparse-checkout: |
@@ -656,7 +658,7 @@ jobs:
   curseforge-voices:
     needs: [zip, release]
     if: github.event_name == 'push' || inputs.curseforge
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       GH_TOKEN: ${{ github.token }}
@@ -665,7 +667,7 @@ jobs:
     steps:
       # scripts/curseforge_voices.py, release/curseforge.json and the core's .toc (for the game version). From the commit
       # this run is for: the tag on a push, main on Run workflow, so a project id added since the tag counts.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           sparse-checkout: |
             scripts

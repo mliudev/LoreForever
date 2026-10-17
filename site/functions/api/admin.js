@@ -33,8 +33,9 @@
 // "features": lib/featureuse.js featureReport, which features every companion install's add-on and companion used, by
 // level range and new or returning install, and the 30-day trend (LOR-435).
 // "willo": lib/willo-stats.js willoReport, Willo's downloads, daily and weekly players and installs running, with
-// "subscriptions" (plans.subscriptions, lib/billing.js subscriptionReport) (LOR-524). The "Daily Analytics" routine's
-// Slack post reads its summary.
+// "subscriptions" (plans.subscriptions, lib/billing.js subscriptionReport) (LOR-524) and "taste" (lib/best-first.js
+// tasteReport: new players' first answers at Willo's best, what they cost, and conversion and retention against the
+// players before it, LOR-602). The "Daily Analytics" routine's Slack post reads its summary.
 // Every account count leaves out the admin's and excluded accounts (lib/activity.js syncExclusions, brought up to date
 // on each load, the counts taken again when that changed anything: the account signed in on this browser,
 // ANALYTICS_EXCLUDE, and those left out by hand); users[].excluded says why.
@@ -57,6 +58,7 @@ import { checkinReport, checkinWeeks } from "../../lib/checkins.js";
 import { featureReport } from "../../lib/featureuse.js";
 import { billingReport } from "../../lib/billing.js";
 import { willoReport } from "../../lib/willo-stats.js";
+import { tasteReport } from "../../lib/best-first.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
 const json = (body, status = 200, headers = {}) => Response.json(body, { status, headers: { ...NO_STORE, ...headers } });
@@ -162,7 +164,7 @@ export async function onRequestGet({ request, env }) {
 
   const [[[subscribers, feedback, downloads, clicks, voices, translations, translationReports, users, signupCounts,
            signupDays], usage, activity, funnel], [spend, answerSpend], plans, contributions, site,
-         [downloadTotals, downloadSources], features, stores, companions, companionWeeks, willo] = await Promise.all([
+         [downloadTotals, downloadSources], features, stores, companions, companionWeeks, willo, taste] = await Promise.all([
     accountCounts,
     // Profile stories (lib/profiles.js): what this month's cost so far against the monthly budget.
     part("spend", () => Promise.all([
@@ -190,6 +192,9 @@ export async function onRequestGet({ request, env }) {
     time("companions", () => safe(checkinReport(env))),
     time("companionWeeks", () => safe(checkinWeeks(env, funnelFrom(now)))),
     part("willo", () => safe(willoReport(env, now))),
+    // Willo's best first (lib/best-first.js, LOR-602): what new players' first answers at her best cost, and whether
+    // the players who had them pay and come back more than those before.
+    part("taste", () => safe(tasteReport(env, now))),
   ]);
   const signups = { ...(signupCounts || { accounts: 0, profiles: 0, public: 0, today: 0, week: 0, month: 0 }),
                     days: signupDays };
@@ -209,7 +214,7 @@ export async function onRequestGet({ request, env }) {
   if (funnel) Object.assign(funnel, { stores, companions, companionWeeks });
   return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users,
                 stories, answers, plans, contributions, signups, usage, site, downloadTotals, downloadSources, activity, funnel,
-                features, willo: willo && { ...willo, subscriptions: plans?.subscriptions || null } },
+                features, willo: willo && { ...willo, subscriptions: plans?.subscriptions || null, taste: taste || null } },
               200, { "Server-Timing": header() });
 }
 

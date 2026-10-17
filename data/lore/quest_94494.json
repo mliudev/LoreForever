@@ -37,7 +37,7 @@
     "who says the mountain waits for no one",
     "call of water mentor"
    ],
-   "answer": "The words are spoken by a dwarven shaman mentor guiding an initiate forward. Urging decisive action, the speaker reminds the traveler that the elements and the heights do not wait for the hesitant.",
+   "answer": "Eldrun Stormbreaker, the shaman trainer in Ironforge, sends the initiate to Norric Lochthane in Loch Modan. Norric speaks these words, urging decisive action and reminding the traveler that the elements and the heights do not wait for the hesitant.",
    "q": "Who guides this step of the journey?"
   },
   {
@@ -73,7 +73,7 @@
     "where do i go now",
     "next step call of water"
    ],
-   "answer": "The initiate must take the first step toward the heights. The trial begins with an arduous trek into the mountains to seek out the source and manifestation of the water spirits directly.",
+   "answer": "The initiate must take the first step. Norric Lochthane sends them on to the Wetlands to seek the water sapta from Hervdana Saegrund, who dwells in a cave beneath the southern falls.",
    "q": "Where does the initiate go after hearing these words?"
   }
  ],
@@ -99,7 +99,7 @@
    "title": "Ascent into the Elements"
   }
  ],
- "summary": "The Call of Water is a spiritual quest for shamans ready to commune with the purifying nature of the water element. Having established harmony with wind, earth, and flame, the initiate is urged to climb into the heights to discover water's true strength.",
+ "summary": "The Call of Water is a spiritual quest for shamans ready to commune with the purifying nature of the water element. Having established harmony with wind, earth, and flame, the initiate reaches Norric Lochthane in Loch Modan, who urges them to take the first step toward learning water's purity.",
  "attribution": [
   "In-game quest text: Call of Water"
  ]

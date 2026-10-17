@@ -53,11 +53,11 @@ test("/downloads: what comes with it, a tile per extra pack, each language's pac
 
 test("/downloads: a pack that isn't out yet stays off the page; a missing packs.json leaves the rest of it working", async () => {
   const voices = JSON.parse(readFileSync(join(PUBLIC, "voices/voices.json"), "utf8"));
-  const lore = voices.voices.find(v => v.id === "female-narrator").packs.find(p => p.addon === "LoreForever_Voice_Female_Answers_Lore");
+  const lore = voices.voices.find(v => v.id === "female-narrator").packs.find(p => p.addon === "LoreForever_Voice_Female_MorePlaces");
   lore.status = "soon";
   const html = await downloads({ ASSETS: assets({ "/voices/voices.json": voices }), STUDIO: await bucketWith([]) });
-  assert.ok(!ids(html).has("pack-voice-female-answers-lore"));
-  assert.ok(ids(html).has("pack-voice-female-answers-places"));
+  assert.ok(!ids(html).has("pack-voice-female-moreplaces"));
+  assert.ok(ids(html).has("pack-voice-female-morepeople"));
   const bare = await downloads({ ASSETS: assets({ "/data/packs.json": { nope: 1 } }), STUDIO: await bucketWith([]) });
   assert.match(bare, /id="voices"/);
   assert.doesNotMatch(bare, /class="pk-tile |class="pk-comes"/);

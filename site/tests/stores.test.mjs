@@ -5,7 +5,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
-import { snapshotStores, storesReport, resetSnapshotClock, CF_CORE, CF_PACKS } from "../lib/stores.js";
+import { snapshotStores, storesReport, resetSnapshotClock, CF_CORE, CF_PACKS, CF_RETIRED } from "../lib/stores.js";
 import { onRequestPost as curseforgeApi } from "../functions/api/admin/curseforge.js";
 import { d1, ROOT } from "./helpers.mjs";
 
@@ -98,5 +98,6 @@ test("author dashboard numbers: admin key only, resending changes nothing, uniqu
 test("the site keeps the same CurseForge projects as release/curseforge.json", () => {
   const { projects } = JSON.parse(readFileSync(resolve(ROOT, "release/curseforge.json"), "utf8"));
   const ids = projects.map(p => p.id).filter(id => id != null && id !== CF_CORE).sort();
-  assert.deepEqual([...CF_PACKS].sort(), ids, "add the new project's id to CF_PACKS in site/lib/stores.js");
+  const live = CF_PACKS.filter(id => !CF_RETIRED.includes(id)).sort();
+  assert.deepEqual(live, ids, "add the new project's id to CF_PACKS in site/lib/stores.js (or a retired one to CF_RETIRED)");
 });

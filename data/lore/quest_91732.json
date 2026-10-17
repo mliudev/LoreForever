@@ -1,0 +1,115 @@
+{
+ "key": "quest:91732",
+ "type": "quest",
+ "name": "Good Steel",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91732
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "High-grade steel remains scarce in post-war Elwynn, forcing smiths and craftsmen to scrounge and repurpose metal from old, abandoned industrial tools."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "The sturdy pickaxes left behind in Jasperlode Mine showcase an older, superior standard of metalworking that modern Elwynn workers struggle to match."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Supply strains across Stormwind's outlying territories mean local settlements like Eastvale Logging Camp must salvage abandoned equipment to keep their operations running."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives good steel",
+    "where do i turn in good steel",
+    "who is hagar lowe"
+   ],
+   "answer": "Hagar Lowe is a woodworker or craftsman stationed at Eastvale Logging Camp in eastern Elwynn Forest. Facing a shortage of decent tools, he asks adventurers to salvage quality steel equipment from nearby abandoned operations.",
+   "q": "Who gives the quest Good Steel?"
+  },
+  {
+   "aliases": [
+    "why get picks",
+    "why does hagar want mining tools",
+    "purpose of mining tools"
+   ],
+   "answer": "Following recent wars, quality steel is in short supply across the kingdom, leaving the camp's work tools badly worn. Hagar seeks the finely-crafted pickaxes left behind in Jasperlode Mine so he can melt down and repurpose their steel into usable lumbering tools.",
+   "q": "Why does Hagar Lowe need mining tools from Jasperlode Mine?"
+  },
+  {
+   "aliases": [
+    "what is jasperlode mine",
+    "where are the tools",
+    "jasperlode lore"
+   ],
+   "answer": "Jasperlode Mine is an old mining site located in north-eastern Elwynn Forest, north of Eastvale Logging Camp. Formerly an active operation for the kingdom, it was overrun and abandoned, leaving its finely-crafted mining equipment scattered in the depths.",
+   "q": "What is Jasperlode Mine?"
+  },
+  {
+   "aliases": [
+    "why is steel scarce",
+    "steel shortage elwynn",
+    "after the war metal shortage"
+   ],
+   "answer": "The Third War and prolonged conflicts severely disrupted production, supply lines, and trade across the human kingdoms. With resources stretched thin defending and rebuilding the realm, peripheral settlements like Eastvale must make do by salvaging durable metals from older eras.",
+   "q": "Why is good steel in short supply?"
+  },
+  {
+   "aliases": [
+    "where is eastvale logging camp",
+    "eastvale camp purpose",
+    "eastvale lumber camp"
+   ],
+   "answer": "Eastvale Logging Camp is Stormwind's primary timber harvesting settlement, located on the eastern border of Elwynn Forest near Redridge Mountains. Its woodcutters supply raw lumber to Stormwind and surrounding communities, making reliable tools vital to their work.",
+   "q": "What is Eastvale Logging Camp?"
+  },
+  {
+   "aliases": [
+    "who makes the picks",
+    "why are the picks good",
+    "mining tools quality"
+   ],
+   "answer": "The tools left behind in Jasperlode Mine were forged during an era of higher craftsmanship before recent wartime shortages compromised metal supplies. As Hagar notes, their enduring shine and durability prove they were crafted with far better steel than what is available today.",
+   "q": "What makes the tools in Jasperlode Mine so special?"
+  }
+ ],
+ "keywords": [
+  "eastvale logging camp",
+  "elwynn forest",
+  "good steel",
+  "hagar lowe",
+  "jasperlode mine",
+  "mining tools",
+  "post-war shortages",
+  "repurposing steel"
+ ],
+ "related": [
+  "subzone:jasperlode-mine",
+  "subzone:eastvale-logging-camp",
+  "quest:76"
+ ],
+ "sections": [
+  {
+   "body": "Following the devastating conflicts that have battered the human kingdoms, high-grade steel has become an increasingly scarce luxury in Elwynn Forest. At Eastvale Logging Camp, daily timber harvesting relies heavily on durable axes, saws, and hardware, but the tools currently available have suffered badly from substandard metal and constant wear. Without reliable shipments coming from Stormwind's foundries, camp craftsmen like Hagar Lowe are forced to find inventive solutions to keep the forestry camp functioning.",
+   "spoiler": 0,
+   "title": "A Kingdom's Scarcity"
+  },
+  {
+   "body": "To replace worn equipment, Hagar sets his sights on Jasperlode Mine, an abandoned excavation north of the camp. The miners who worked the rich veins before the mine's fall used finely crafted picks forged from an era when steel was plentiful and expertly tempered. Rather than letting those sturdy implements rust away in the dark, adventurers are dispatched to venture into the infested tunnels, recover the abandoned picks, and bring them back to Eastvale so their superior metal can be melted down and repurposed for the camp's lumberjacks.",
+   "spoiler": 0,
+   "title": "Salvaging the Past"
+  }
+ ],
+ "summary": "Good Steel is an Alliance quest originating at Eastvale Logging Camp in eastern Elwynn Forest. In the wake of recent conflicts, high-quality metal has become scarce, leaving the camp's woodcutting equipment worn and difficult to replace. Craftsman Hagar Lowe tasks adventurers with delving into Jasperlode Mine to salvage well-crafted pickaxes so their steel can be repurposed.",
+ "attribution": [
+  "In-game quest text: Good Steel"
+ ]
+}

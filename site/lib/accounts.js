@@ -16,8 +16,11 @@ import { HISTORY_SETUP, HISTORY_BASE_SETUP } from "./history-schema.js";
 import { USAGE_SETUP } from "./usage.js";
 import { ACTIVITY_SETUP, SEEN_BACKFILL, ASKED_BACKFILL, markSeen, utcDay } from "./activity.js";
 import { forgetFeedback } from "./answer-feedback.js";
+import { forgetAnswerLog } from "./answer-log.js";
 import { cancelPlan } from "./billing.js";
 import { setupWilloCustom } from "./willo-custom.js";
+import { FRIENDS_SETUP, FRIENDS_USER_DATA } from "./friends.js";
+import { setupReferrals, REFERRAL_USER_DATA } from "./referrals.js";
 
 const SETUP = [
   ...HISTORY_BASE_SETUP,
@@ -25,6 +28,8 @@ const SETUP = [
   ...USAGE_SETUP,
   // The days each account was signed in and its site downloads made while signed in (lib/activity.js, LOR-304, LOR-8).
   ...ACTIVITY_SETUP,
+  // Friends in Willo: who is friends with whom, their messages, shared whereabouts and reports (lib/friends.js).
+  ...FRIENDS_SETUP,
   // last_seen: the last UTC day it was signed in (lib/activity.js); setup adds it to a table from before.
   `CREATE TABLE IF NOT EXISTS users (
     id TEXT PRIMARY KEY, email TEXT UNIQUE, google_sub TEXT UNIQUE, display_name TEXT, links TEXT,
@@ -263,7 +268,7 @@ export function sameOrigin(request) {
   return request.headers.get("Origin") === new URL(request.url).origin;
 }
 
-function cookieValue(request, name) {
+export function cookieValue(request, name) {
   for (const part of (request.headers.get("Cookie") || "").split(";")) {
     const [k, ...v] = part.trim().split("=");
     if (k === name) return v.join("=");
@@ -398,8 +403,14 @@ const USER_DATA = [
   ["DELETE FROM answer_user_spend WHERE user_id = ?", u => u.id],
   ["DELETE FROM answer_holds WHERE user_id = ?", u => u.id],
   ["DELETE FROM voice_replies WHERE user_id = ?", u => u.id],
+  // Their taste of Willo's best (lib/best-first.js) stays with their Google account's one-way code, without the account.
+  ["UPDATE best_first SET user_id = NULL WHERE user_id = ?", u => u.id],
   // How they had Willo talk to them, and their tales (lib/willo-custom.js).
   ["DELETE FROM custom_prompts WHERE user_id = ?", u => u.id],
+  // Their friends, requests, messages either way, shared whereabouts and reports either way (lib/friends.js).
+  ...FRIENDS_USER_DATA,
+  // Their share link, and the friends they brought or were brought by, kept without the account (lib/referrals.js).
+  ...REFERRAL_USER_DATA,
   ["DELETE FROM users WHERE id = ?", u => u.id],
 ];
 
@@ -427,8 +438,12 @@ export async function deleteUser(env, user) {
   try { await env.DB.prepare("DELETE FROM story_audio WHERE user_id = ?").bind(user.id).run(); } catch (e) { /* none yet */ }
   // What they said was wrong with Willo's answers (lib/answer-feedback.js makes that table the first time it's used).
   try { await forgetFeedback(env, user.id); } catch (e) { /* none yet */ }
-  // lib/willo-custom.js makes its table the first time it's used: make sure it's there for the batch.
+  // The answers kept for the nightly check (lib/answer-log.js makes its tables here if they aren't there yet).
+  await forgetAnswerLog(env, user.id);
+  // lib/willo-custom.js and lib/referrals.js make their tables the first time they're used: make sure they're there
+  // for the batch.
   await setupWilloCustom(env);
+  await setupReferrals(env);
   await env.DB.batch(USER_DATA.map(([sql, arg]) => env.DB.prepare(sql).bind(arg(user))));
   // Cached credits (lib/cache.js) may still name them: the next view builds them again.
   await env.DB.prepare("DELETE FROM cached_results").run();

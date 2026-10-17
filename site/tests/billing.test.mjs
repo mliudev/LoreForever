@@ -32,7 +32,7 @@ beforeEach(async (t) => {
   await setupBilling(env);
   for (const table of ["users", "sessions", "devices", "device_links", "rate_limits", "answer_spend", "story_spend",
                        "entitlements", "billing_events", "answer_user_spend", "answer_packs", "answer_holds",
-                       "starter_claims"])
+                       "starter_claims", "best_first", "best_first_days"])
     env.DB.sqlite.exec(`DELETE FROM ${table}`);
   stripeCalls = [];
   gemini = [];
@@ -129,6 +129,10 @@ async function linkedDaysAgo(sub, days) {
 const entitle = (user, plan, status, endDays) => env.DB.prepare(
   "INSERT OR REPLACE INTO entitlements (user_id, subscription_id, plan, status, current_period_end, updated) VALUES (?, ?, ?, ?, ?, ?)"
 ).bind(user.id, `sub-${user.id}`, plan, status, new Date(NOW + endDays * 86400e3).toISOString(), new Date(NOW).toISOString()).run();
+
+// The account's first answers at Willo's best (lib/best-first.js) already had: `used` of them.
+const tasted = (user, used = 20) => env.DB.prepare("INSERT OR REPLACE INTO best_first (claim, user_id, used) VALUES (?, ?, ?)")
+  .bind(`taste:test-${user.id}`, user.id, used).run();
 
 const daily = async user => {
   const a = await allowance(env, user.id);
@@ -235,6 +239,9 @@ test("daily answers: free, Hero while active or past due, Champion, an ended per
   assert.deepEqual(await daily(hero), ["hero", 100], "a failed payment keeps the plan while Stripe retries");
   await entitle(champion, "champion", "active", 20);
   assert.deepEqual(await daily(champion), ["champion", 200]);
+  // The month's pool rides along, as plans are sold ("1,900 answers a month"): Mike's QA, 10/15.
+  const month = (await allowance(env, champion.id)).month;
+  assert.deepEqual([month.limit, month.remaining], [1900, 1900]);
   await entitle(hero, "hero", "active", -1);
   assert.deepEqual(await daily(hero), ["free", 20], "a period that ended is the free plan");
 
@@ -249,6 +256,10 @@ test("the allowance tells the companion what each plan may do", async () => {
   const free = await linkedDaysAgo("free", 3), hero = await linkedDaysAgo("hero", 3), champion = await linkedDaysAgo("champ", 3);
   await entitle(hero, "hero", "active", 20);
   await entitle(champion, "champion", "active", 20);
+  assert.deepEqual((await allowance(env, free.id)).features,
+    { voices: "default", push_to_talk: true, sight: true, npc_voices: false, research: true },
+    "its first answers at Willo's best (lib/best-first.js): asked out loud, seeing the game, looking online");
+  await tasted(free);
   assert.deepEqual((await allowance(env, free.id)).features,
     { voices: "default", push_to_talk: true, sight: false, npc_voices: false, research: false },
     "while its starter lasts, asking out loud gets an answer aloud in Willo's default voice (site/tests/companion-voice.test.mjs)");
@@ -337,7 +348,7 @@ test("a paying player skips the shared budget; past half their plan's net a mont
   const ask = async () => {
     const res = await answer({ env, request: new Request(ORIGIN + "/api/companion/answer", { method: "POST",
       headers: { "X-LF-Client": "companion/0.1.0", Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ prompt: "QUESTION\nWhere can I buy Mild Spices?", research_required: true }) }) });
+      body: JSON.stringify({ prompt: "QUESTION\nWhere can I buy Simple Flour?", research_required: true }) }) });
     return { status: res.status, body: await res.json() };
   };
   env.STORY_BUDGET_USD = "0";   // the shared budget is spent: a free player would get a 429 now
@@ -420,7 +431,7 @@ async function companionPlayer(sub, { plan, starter } = {}) {
   const ask = async (fields = {}) => {
     const res = await answer({ env, request: new Request(ORIGIN + "/api/companion/answer", { method: "POST",
       headers: { "X-LF-Client": "companion/0.1.0", Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ prompt: "QUESTION\nWhere can I buy Mild Spices?", ...fields }) }) });
+      body: JSON.stringify({ prompt: "QUESTION\nWhere can I buy Simple Flour?", ...fields }) }) });
     return { status: res.status, body: await res.json() };
   };
   return { user, ask };
@@ -555,8 +566,9 @@ test("starter answers wait for the shared budget like free ones, and one that ca
 // A stand-in JPEG: the site checks only its FF D8 FF start.
 const jpeg = Buffer.concat([Buffer.from([0xff, 0xd8, 0xff, 0xe0]), Buffer.alloc(296, 7)]).toString("base64");
 
-test("free answers stay with the lore: no looking online, no game picture, and the LORE FOCUS block", async () => {
-  const { ask } = await companionPlayer("lorekeeper");
+test("after their first 20, free answers stay with the lore: no looking online, no game picture, and the LORE FOCUS block", async () => {
+  const { user, ask } = await companionPlayer("lorekeeper");
+  await tasted(user);
   const required = await ask({ research_required: true, persona: "willo", style: "spoken", image: jpeg });
   assert.equal(required.status, 200, JSON.stringify(required.body));
   assert.equal(required.body.looked_up, "no");
@@ -571,6 +583,59 @@ test("free answers stay with the lore: no looking online, no game picture, and t
     assert.match(system, /LORE FOCUS: answer from the world's lore and story/);
     assert.match(system, /Willo says this answer out loud/, "Willo still speaks");
   }
+});
+
+test("a new free player's first 20 answers are at Willo's best, counted only when answered; the day's cap turns them away", async () => {
+  const { user, ask } = await companionPlayer("newcomer");
+  const mine = () => env.DB.prepare("SELECT used, voices, lookups FROM best_first WHERE user_id = ?").bind(user.id).first();
+  assert.deepEqual((await allowance(env, user.id)).taste, { of: 20, left: 20, on: true });
+  // Asked out loud with a picture: Willo sees the game, without the free plan's LORE FOCUS, and the answer earns one
+  // reply in her finest voice (site/tests/companion-voice.test.mjs says it).
+  const spoken = await ask({ persona: "willo", style: "spoken", image: jpeg });
+  assert.equal(spoken.status, 200, JSON.stringify(spoken.body));
+  assert.equal(gemini[0].body.contents[0].parts.length, 2, "the picture goes with it");
+  assert.doesNotMatch(gemini[0].body.systemInstruction.parts[0].text, /LORE FOCUS/);
+  assert.deepEqual(spoken.body.allowance.taste, { of: 20, left: 19, on: true });
+  // Typed, with research: it looks online, one of its few look-ups, and earns no spoken reply.
+  assert.equal((await ask({ research_required: true })).status, 200);
+  assert.deepEqual(gemini[1].body.tools, [{ googleSearch: {} }]);
+  assert.deepEqual(await mine(), { used: 2, voices: 1, lookups: 1 });
+  // Chat memory isn't a live answer, and a failed answer gives its place back.
+  assert.equal((await ask({ operation: "compact", prompt: "PREVIOUS MEMORY\nPepper" })).status, 200);
+  const working = globalThis.fetch;
+  globalThis.fetch = async () => Response.json({ error: { message: "overloaded" } }, { status: 503 });
+  try { assert.equal((await ask({ style: "spoken" })).status, 502); } finally { globalThis.fetch = working; }
+  assert.deepEqual(await mine(), { used: 2, voices: 1, lookups: 1 });
+  // The day's cap reached: the plan's own free answer (the lore, nothing online), not counted, and kept for later.
+  env.TASTE_DAY_USD = "0";
+  try {
+    const capped = await ask({ research_required: true });
+    assert.equal(capped.status, 200);
+    assert.equal(gemini.at(-1).body.tools, undefined);
+    assert.match(gemini.at(-1).body.systemInstruction.parts[0].text, /LORE FOCUS/);
+    assert.deepEqual(capped.body.allowance.taste, { of: 20, left: 18, on: false, why: "resting" });
+    assert.equal((await mine()).used, 2);
+  } finally { delete env.TASTE_DAY_USD; }
+  const day = env.DB.sqlite.prepare("SELECT answers, starts, capped, spent_micro FROM best_first_days").get();
+  assert.deepEqual([day.answers, day.starts, day.capped], [2, 1, 1]);
+  assert.ok(day.spent_micro > 0, "what they cost is on the day");
+  // All 20 used: the free path, and once per Google account, even after "Delete my account".
+  await env.DB.prepare("UPDATE best_first SET used = 20 WHERE user_id = ?").bind(user.id).run();
+  assert.deepEqual((await allowance(env, user.id)).taste, { of: 20, left: 0, on: true }, "its last finest reply is still owed");
+  await env.DB.prepare("UPDATE best_first SET voices = 0 WHERE user_id = ?").bind(user.id).run();
+  assert.deepEqual((await allowance(env, user.id)).taste, { of: 20, left: 0, on: false, why: "used" });
+  await env.DB.prepare("DELETE FROM best_first").run();
+  assert.equal((await ask()).status, 200);
+  await deleteUser(env, user);
+  const back = await companionPlayer("newcomer");
+  assert.deepEqual((await allowance(env, back.user.id)).taste.left, 19, "the same Google account keeps its count");
+});
+
+test("a paying player hears their plan; back on the free plan, the first answers at Willo's best they never had", async () => {
+  const { user, ask } = await companionPlayer("beta", { plan: "hero" });
+  assert.equal((await allowance(env, user.id)).taste, undefined, "a paying player hears their plan");
+  await env.DB.prepare("DELETE FROM entitlements").run();
+  assert.equal((await allowance(env, user.id)).taste.left, 20, "back on the free plan, the taste they never had");
 });
 
 test("Champion answers on the ordinary model with a longer chat memory: no stronger mind at launch", async () => {

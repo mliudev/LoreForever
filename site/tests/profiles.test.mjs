@@ -118,7 +118,8 @@ test("a public profile: everything on the page, the account's links but never it
   assert.match(html, /Level 24 Night Elf Druid &middot; Alliance &middot; Forever/);
   assert.match(html, /<a href="https:\/\/twitch\.tv\/aelric" rel="nofollow ugc noopener">twitch\.tv<\/a>/);
   assert.ok(!html.includes("javascript:"));
-  assert.ok(!html.includes("Real Name") && !html.includes("@example.com"), "no account name or email");
+  // The account's own address (the footer's sign-up box shows "you@example.com" as its placeholder).
+  assert.ok(!html.includes("Real Name") && !html.includes("aelric@example.com"), "no account name or email");
   for (const bit of ["Aelric's story", "The road so far", 'Teldrassil<span aria-hidden="true"> &rarr; </span>Darnassus',
     'id="ch-1"', "Chapter 1", 'href="#numbers"', "Aelric by the numbers",
     "Bosses defeated", "Edwin VanCleef", "Dungeons", "The Deadmines", "Notable kills", "Mother Fang", "Most fought",

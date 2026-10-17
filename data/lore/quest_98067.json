@@ -1,0 +1,124 @@
+{
+ "key": "quest:98067",
+ "type": "quest",
+ "name": "Eyes of the Sentinels",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98067
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The Sentinels are the traditional standing army and guardians of the night elf people, blending martial prowess with the divine blessings and watchful eyes of Elune."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Ensuring the security of Darnassus safeguards the capital of the night elves and reinforces the Alliance's primary stronghold in northern Kalimdor."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "The deployment of scout owls reflects classic night elf reconnaissance, where trained beasts and celestial avian watchers serve as natural extensions of a huntress's senses."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The Sentinels emphasize that weapons alone do not protect the kaldorei; regular prayer and the spiritual gifts of Elune are vital to their guardianship."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "eyes of the sentinels quest",
+    "what is eyes of the sentinels",
+    "eyes of the sentinels overview"
+   ],
+   "answer": "Eyes of the Sentinels is a task in Darnassus where an adventurer aids Sentinel Dalia Sunblade by stationing sentinel owls at key locations across the city to maintain vigilance against looming threats.",
+   "q": "What is Eyes of the Sentinels?"
+  },
+  {
+   "aliases": [
+    "who is dalia sunblade",
+    "dalia sunblade lore",
+    "sentinel dalia sunblade"
+   ],
+   "answer": "Sentinel Dalia Sunblade is a kaldorei guardian stationed in the Temple of the Moon in Darnassus who oversees local defensive routines and ensures watchful owls guard the city's key thoroughfares.",
+   "q": "Who is Sentinel Dalia Sunblade?"
+  },
+  {
+   "aliases": [
+    "why place sentinel owls",
+    "what do sentinel owls do",
+    "sentinel owl purpose"
+   ],
+   "answer": "Sentinel owls serve as vigilant aerial lookouts and divine scouts granted by Elune, allowing the Sentinels to survey critical gathering points and transit chokepoints throughout Darnassus.",
+   "q": "Why are Sentinel Owls being placed around Darnassus?"
+  },
+  {
+   "aliases": [
+    "owl placement spots",
+    "where do owls go",
+    "eyes of the sentinels locations"
+   ],
+   "answer": "The sentinel owls are posted at the entrance to the depths beneath Cenarion Hold to the north, the Darnassus Bank in the center of town, the inn at Craftsman's Terrace, and the city gates.",
+   "q": "Where are the Sentinel Owls placed?"
+  },
+  {
+   "aliases": [
+    "why are sentinels worried",
+    "what is wrong with teldrassil",
+    "teldrassil amiss"
+   ],
+   "answer": "Sentinel Dalia Sunblade notes that something feels amiss across the World Tree of Teldrassil, prompting the Sentinels to step up surveillance and maintain constant readiness against unseen dangers.",
+   "q": "Why are the Sentinels on high alert in Teldrassil?"
+  },
+  {
+   "aliases": [
+    "general feathermoon role",
+    "shandris feathermoon sentinels",
+    "feathermoon prayer rule"
+   ],
+   "answer": "General Shandris Feathermoon commands the Sentinels and ensures that her huntresses balance their martial responsibilities with daily devotion and prayer to the goddess Elune.",
+   "q": "What role does General Feathermoon have in the Sentinels' daily duties?"
+  }
+ ],
+ "keywords": [
+  "cenarion hold",
+  "craftsman terrace",
+  "dalia sunblade",
+  "darnassus",
+  "elune",
+  "eyes of the sentinels",
+  "feathermoon",
+  "sentinel owls",
+  "teldrassil",
+  "temple of the moon"
+ ],
+ "related": [
+  "zone:darnassus",
+  "subzone:temple-of-the-moon",
+  "topic:sentinels",
+  "topic:elune",
+  "quest:940",
+  "subzone:cenarion-hold"
+ ],
+ "sections": [
+  {
+   "body": "In the sacred sanctuary of the Temple of the Moon, Sentinel Dalia Sunblade maintains the vigil over Darnassus. Guided by General Shandris Feathermoon's decree that every warrior must balance martial prowess with spiritual devotion, Dalia arranges the deployment of watchful sentinel owls across key city hubs. Taking over these daily duties affords the sentinel valuable moments of prayer and reflection before the Moon Goddess, while ensuring the kaldorei capital remains tightly guarded.",
+   "spoiler": 0,
+   "title": "Devotion and Defense"
+  },
+  {
+   "body": "Unease hangs in the air above Teldrassil, prompting the Sentinels to double their vigilance. To guard against infiltration and unrest, sentinel owls are stationed at pivotal junctions: the depths beneath Cenarion Hold to the north, the bustling bank in the town square, the inn within Craftsman's Terrace, and the main city gates. With the local city guards assisting in their placement, these avian sentries act as silent guardians watching over all who walk the streets of the Great Tree.",
+   "spoiler": 0,
+   "title": "Watch Over Darnassus"
+  }
+ ],
+ "summary": "Eyes of the Sentinels is a Darnassus quest where players assist Sentinel Dalia Sunblade in stationing magical scout owls at critical posts throughout the night elven capital. Facing growing unease across Teldrassil, this aerial surveillance bolsters the city's defenses while allowing the Sentinels time for prayer to Elune.",
+ "attribution": [
+  "In-game quest text: Eyes of the Sentinels"
+ ]
+}

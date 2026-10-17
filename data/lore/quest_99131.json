@@ -1,0 +1,103 @@
+{
+ "key": "quest:99131",
+ "type": "quest",
+ "name": "Baited for Success",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99131
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Securing the waters and restoring local trades like fishing keeps settlements supplied while cutting down the aggressive murloc population."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Using custom-tailored poison as a pest control solution against troublesome murlocs reflects practical, understated problem solving."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives baited for success",
+    "remy bait quest",
+    "who made the bait"
+   ],
+   "answer": "Remy prepares the specialized bait for Jason Mathers, promising to explain its proper usage when Mathers comes by later in the day.",
+   "q": "Who prepared the bait for Jason Mathers?"
+  },
+  {
+   "aliases": [
+    "why does jason mathers need bait",
+    "mathers fish business",
+    "why poisoned bait"
+   ],
+   "answer": "Jason Mathers is a fisherman struggling to sell his catch due to local murlocs. The poisoned bait is intended to cull the murlocs without harming the fish he intends to catch and sell.",
+   "q": "Why does Jason Mathers need this bait?"
+  },
+  {
+   "aliases": [
+    "is the bait safe for fish",
+    "does poisoned bait kill fish"
+   ],
+   "answer": "Mathers specifically notes his concern that fish might consume it. The plan relies on the poison targeting murlocs while leaving the fish unharmed so that Mathers can resume his livelihood.",
+   "q": "Will the poisoned bait harm the fish?"
+  },
+  {
+   "aliases": [
+    "where do i turn in baited for success",
+    "baited for success quest end"
+   ],
+   "answer": "The task is completed by delivering the update directly back to Jason Mathers, letting him know Remy's preparation is underway.",
+   "q": "Where is this task completed?"
+  },
+  {
+   "aliases": [
+    "why kill murlocs here",
+    "murloc problem mathers"
+   ],
+   "answer": "Murlocs disrupt local fishing waters, making it impossible or dangerous for fishermen like Mathers to make a living until their numbers are reduced.",
+   "q": "What threat do the murlocs pose to Mathers?"
+  },
+  {
+   "aliases": [
+    "what happens after delivering the message",
+    "does mathers get the bait"
+   ],
+   "answer": "Once delivered, Mathers resolves to head over to Remy later in the day to pick up the poisoned bait and receive instructions on how to deploy it safely.",
+   "q": "What are Mathers's plans once he hears from Remy?"
+  }
+ ],
+ "keywords": [
+  "baited for success",
+  "fishing",
+  "jason mathers",
+  "murloc",
+  "poisoned bait",
+  "remy"
+ ],
+ "related": [
+  "topic:murloc"
+ ],
+ "sections": [
+  {
+   "body": "Jason Mathers depends on open waters for his fishing trade, but an infestation of aggressive murlocs has disrupted his work. Unable to sell his fish safely, he seeks a solution to rid the area of the creatures. Remy steps in to craft a specialized poisoned bait designed to thin out the local murlocs so ordinary fishing can resume.",
+   "spoiler": 0,
+   "title": "A Fisherman's Dilemma"
+  },
+  {
+   "body": "Remy prepares the toxic concoction and promises a rundown on proper deployment so the poison targets only murlocs without contaminating the fish. Upon receiving word, Mathers plans to collect the mixture later that day, hoping it will finally clear the waters and restore his livelihood.",
+   "spoiler": 1,
+   "title": "A Targeted Solution"
+  }
+ ],
+ "summary": "Baited for Success involves assisting local fisherman Jason Mathers in dealing with a disruptive murloc infestation. By coordinating with Remy to prepare a targeted poisoned bait, Mathers hopes to clear the waterways and safely resume selling his catch.",
+ "attribution": [
+  "In-game quest text: Baited for Success"
+ ]
+}
