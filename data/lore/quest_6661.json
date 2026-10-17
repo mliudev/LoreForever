@@ -1,0 +1,101 @@
+{
+ "key": "quest:6661",
+ "type": "quest",
+ "name": "Deeprun Rat Roundup",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6661
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Monty's brother uses freshly captured Deeprun vermin to prepare rat kabobs, emphasizing that the rodents must remain alive until cooking lest the meat spoil."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives deeprun rat roundup",
+    "monty deeprun tram",
+    "rat quest guy"
+   ],
+   "answer": "Monty, a pirate-talking figure stationed down in the Deeprun Tram, hands out the task. He is looking for extra hands to help manage a vermin infestation along the subterranean transit line.",
+   "q": "Who gives the Deeprun Rat Roundup quest?"
+  },
+  {
+   "aliases": [
+    "why catch rats alive",
+    "what does monty do with rats",
+    "rat kabob lore"
+   ],
+   "answer": "Monty needs the Deeprun rats captured alive so they do not go sour before his brother can prepare them into rat kabobs. If the vermin die prematurely, the meat spoils.",
+   "q": "Why does Monty need the rats captured alive?"
+  },
+  {
+   "aliases": [
+    "how to catch deeprun rats",
+    "what is the flute for",
+    "rat catcher flute deeprun"
+   ],
+   "answer": "Monty provides an enchanted Rat Catcher's Flute. Playing its melody near the vermin charms them, causing the rats to follow behind the player back to Monty's station.",
+   "q": "How do you charm and round up the rats?"
+  },
+  {
+   "aliases": [
+    "where is deeprun rat roundup",
+    "monty location",
+    "deeprun tram rats"
+   ],
+   "answer": "The quest takes place inside the Deeprun Tram, the subterranean engineering marvel connecting the Alliance cities of Stormwind and Ironforge. Monty is stationed along the tram platforms.",
+   "q": "Where does this task take place?"
+  },
+  {
+   "aliases": [
+    "who is montys brother",
+    "monty brother cook",
+    "kabob brother"
+   ],
+   "answer": "Monty mentions having a brother who cooks rat kabobs, but does not name him directly. His brother depends on a steady supply of fresh, living rats to avoid serving rancid meat.",
+   "q": "Who is Monty's brother?"
+  },
+  {
+   "aliases": [
+    "why is a pirate in the tram",
+    "monty pirate deeprun"
+   ],
+   "answer": "While Monty speaks in heavy nautical pirate slang, treating the tram like a ship's deck, he has taken up pest control duties down in the underground railway.",
+   "q": "Why does Monty talk like a pirate?"
+  }
+ ],
+ "keywords": [
+  "deeprun rat",
+  "deeprun rat roundup",
+  "deeprun tram",
+  "monty",
+  "rat catchers flute",
+  "rat kabob",
+  "vermin"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Down in the subterranean tube of the Deeprun Tram, a colorful character named Monty struggles to keep the underground transit line clear of pests. Speaking in salty sea slang and treating the tramway like a ship's deck, Monty enlists passing travelers to help round up the scurrying vermin infesting the station.",
+   "spoiler": 0,
+   "title": "Vermin Beneath the Rails"
+  },
+  {
+   "body": "Rather than exterminating the rodents outright, Monty equips helpers with a Rat Catcher's Flute that plays a charming melody to entice the Deeprun rats into following along. The creatures must be brought back alive and kicking, as Monty's brother needs fresh specimens for culinary use: specifically, turning them into rat kabobs before the meat turns sour.",
+   "spoiler": 1,
+   "title": "A Questionable Delicacy"
+  }
+ ],
+ "summary": "Deeprun Rat Roundup is an Alliance task in the Deeprun Tram where players assist Monty with pest control. Using a charming musical flute, players round up living Deeprun rats to supply Monty's brother with fresh meat for rat kabobs.",
+ "attribution": [
+  "In-game quest text: Deeprun Rat Roundup"
+ ]
+}

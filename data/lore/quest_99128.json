@@ -1,0 +1,107 @@
+{
+ "key": "quest:99128",
+ "type": "quest",
+ "name": "Slimy Menace",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99128
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Securing the shores of Crystal Lake protects local Elwynn fishermen and travelers near Goldshire from aggressive murloc raids."
+  },
+  {
+   "target": "race:Human",
+   "text": "For the people of Elwynn Forest, murloc encroachment directly threatens their waterways, food supply, and the safety of nearby settlements."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is slimy menace",
+    "slimy menace quest info",
+    "slimy menace summary"
+   ],
+   "answer": "Slimy Menace is a local task concerning the aggressive murloc population dwelling along the far shores of Crystal Lake. Left unchecked, these amphibious creatures devour the local fish and menace anyone attempting to work or travel nearby.",
+   "q": "What is the quest Slimy Menace about?"
+  },
+  {
+   "aliases": [
+    "where are murlocs crystal lake",
+    "crystal lake location",
+    "where does this happen"
+   ],
+   "answer": "The disturbance takes place across Crystal Lake in Elwynn Forest, where a band of murlocs has gathered on the opposite shoreline. Their presence disrupts the lake's natural wildlife and poses a hazard to local residents.",
+   "q": "Where do the events of this quest take place?"
+  },
+  {
+   "aliases": [
+    "why kill crystal lake murlocs",
+    "murlocs eating fish",
+    "what is the problem with murlocs"
+   ],
+   "answer": "The murlocs are rapidly depleting the lake's fish population while terrorizing the surrounding area with their vicious tempers and sharp teeth. Clearing their ranks helps protect the lake's fishing and temporarily halts their aggressive expansion.",
+   "q": "Why must the murlocs at Crystal Lake be culled?"
+  },
+  {
+   "aliases": [
+    "are murlocs gone forever",
+    "did we wipe out murlocs",
+    "will crystal lake murlocs return"
+   ],
+   "answer": "Culling the murlocs provides only a temporary reprieve. As noted upon completing the task, murlocs reproduce and regroup at an alarming rate, ensuring their numbers will quickly recover despite any initial losses.",
+   "q": "Does clearing the murlocs permanently resolve the problem?"
+  },
+  {
+   "aliases": [
+    "who gives slimy menace",
+    "slimy menace quest giver"
+   ],
+   "answer": "The task is given by an Elwynn local concerned with the state of Crystal Lake. Distressed by the murlocs' unsettling warbling and voracious appetite, they ask adventurers to thin the creatures' numbers to safeguard the fishery.",
+   "q": "Who asks for help with the slimy menace?"
+  },
+  {
+   "aliases": [
+    "what are murlocs like",
+    "murloc behavior crystal lake"
+   ],
+   "answer": "Murlocs are described as vicious, temperamental amphibious creatures with sharp teeth and an infamous, guttural warble. They gather along shores, aggressively defending their territory and attacking anything that ventures too close to their feeding grounds.",
+   "q": "What makes the murlocs such a threat?"
+  }
+ ],
+ "keywords": [
+  "crystal lake",
+  "elwynn forest",
+  "fish",
+  "goldshire",
+  "murloc",
+  "murlocs",
+  "slimy menace"
+ ],
+ "related": [
+  "subzone:crystal-lake",
+  "topic:murloc"
+ ],
+ "sections": [
+  {
+   "body": "Along the eastern shore of Crystal Lake, an aggressive enclave of murlocs has established a foothold. These savage, semi-aquatic creatures possess sharp teeth and fierce tempers, turning a once-peaceful body of water into a dangerous feeding ground. Local residents rely heavily on the lake for their daily livelihoods, but the murloc presence now threatens anyone daring to fish or approach the water's edge.",
+   "spoiler": 0,
+   "title": "Trouble at Crystal Lake"
+  },
+  {
+   "body": "Beyond the physical danger they present to travelers, the murlocs threaten to devour every fish in the lake if allowed to multiply unchecked. Thinning their numbers provides a much-needed respite for the local waters, though their eerie, echoing warbles remain a grim reminder of their tenacity. Even when scattered, murlocs replenish their ranks swiftly, ensuring that vigilant watch over the shoreline remains an ongoing necessity.",
+   "spoiler": 0,
+   "title": "An Endless Infestation"
+  }
+ ],
+ "summary": "Slimy Menace addresses a growing murloc infestation along the shores of Crystal Lake in Elwynn Forest. These aggressive creatures threaten to deplete the lake's fish supply and endanger nearby locals, requiring swift action to keep their numbers in check.",
+ "attribution": [
+  "In-game quest text: Slimy Menace"
+ ]
+}

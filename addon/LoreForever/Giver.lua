@@ -97,6 +97,15 @@ function Giver.ModelOf(unit, fn, slot)
   end
 end
 
+-- UnitSex(unit) when add-ons may use it: 1 (neither or unknown), 2 (male) or 3 (female); nil when the client hides it
+-- as a "secret" value, which errors when compared or used as a key (LOR-572: a quest turn-in's Lua error), or has none.
+function Giver.Sex(unit)
+  local sex = call(_G.UnitSex, unit)
+  local usable = ns.Context and ns.Context.Usable
+  if usable and not usable(sex) then return nil end
+  return type(sex) == "number" and sex or nil
+end
+
 -- { kind = "npc" | "object", id, name, sex (UnitSex), ctype (UnitCreatureType), model (file id), race, gender } for
 -- the unit ("npc": the quest or gossip window's), or nil for a player, a pet or no one. race (Giver.RaceOf's race
 -- file name) and gender come from the model when it's a player race's (gender from UnitSex first); model, race and
@@ -107,7 +116,7 @@ function Giver.Identify(unit)
   if not kind then return nil end
   local who = { kind = kind, id = id, name = call(_G.UnitName, unit) }
   if kind == "npc" then
-    who.sex = call(_G.UnitSex, unit)
+    who.sex = Giver.Sex(unit)
     who.ctype = call(_G.UnitCreatureType, unit)
     who.gender = GENDER[who.sex]
     Giver.ModelOf(unit, function(fileID)

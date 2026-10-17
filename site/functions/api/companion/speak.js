@@ -4,10 +4,11 @@
 //        reply (the companion's id for the reply, the same for each of its pieces; optional: without it the piece is
 //        a reply of its own), line (optional, true: one of Willo's own lines, a tip or a hello, said in the voice the
 //        replies get now but never counted as one; its cost is a reply's), reading (optional, with line: the add-on's
-//        own short answer read aloud, LOR-547, never in the finest voice)} -> 200 audio/mpeg; a line's X-LF-Voice
+//        own short answer read aloud, LOR-547: always said on the PC)} -> 200 audio/mpeg; a line's X-LF-Voice
 //        header says which voice said it and its pick ("finest:moonwell"), by which the companion keeps it
 //   Anything else says the companion should say it in Willo's own voice on the PC: {ok: false, speak: "local", reason}
-//   with reason "off" (plans are off, 404), "plan" (the plan's replies are said on the PC, 402), "spent" (the month's
+//   with reason "off" (plans are off, 404), "plan" (the plan's replies are said on the PC, 402), "reading" (the
+//   add-on's answers read aloud are always said on the PC, 402; today's companion never asks), "spent" (the month's
 //   room for the hosted voice is used, 402), "long" (the reply is past 600 letters, 413), "busy" (too many this
 //   minute, 429) or "unavailable" (no voice set up here, or no provider could say it, 503). The companion is signed in
 //   exactly as for answers (functions/api/companion/answer.js).
@@ -40,6 +41,8 @@ export async function onRequest({ request, env, waitUntil }) {
     if (new TextEncoder().encode(input).length > MAX_BODY_BYTES) return fail(413, "That's too much to say at once.");
     body = JSON.parse(input);
   } catch { return fail(400, "Couldn't read that."); }
+  // The add-on's answers read aloud: on the PC, before the minute's count or the plan are even looked at.
+  if (body?.line === true && body?.reading === true) return local(402, "reading");
   const text = typeof body?.text === "string" ? body.text.trim() : "";
   if (!text || text.length > SPEAK_MAX_CHARS) return fail(400, `Send 1 to ${SPEAK_MAX_CHARS} letters to say.`);
   if (!isVoiceKey(body.voice)) return fail(400, "Unknown voice.");

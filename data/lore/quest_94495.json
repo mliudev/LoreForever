@@ -93,8 +93,7 @@
  "related": [
   "quest:972",
   "zone:wetlands",
-  "topic:dwarf",
-  "quest:938"
+  "topic:dwarf"
  ],
  "sections": [
   {
@@ -108,7 +107,7 @@
    "title": "Shelter Beneath the Falls"
   }
  ],
- "summary": "Call of Water sends spiritual seekers into the Wetlands to learn the cleansing power of water and seek the water sapta. In a secluded cave beneath the southern falls, the hermit dwarf Hervdana Saegrund greets travelers braving the wilderness.",
+ "summary": "Call of Water sends spiritual seekers into the Wetlands to learn the cleansing power of water and seek the water sapta. In a secluded cave beneath the southern falls, the dwarf Hervdana Saegrund greets travelers braving the wilderness.",
  "attribution": [
   "In-game quest text: Call of Water"
  ]

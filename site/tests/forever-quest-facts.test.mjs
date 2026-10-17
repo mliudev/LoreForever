@@ -43,6 +43,22 @@ test("a log quest's targets by name, a quest target by name, and the player's ow
   assert.deepEqual(questFacts({ question: "Where is Shari Stilwell?" }, { character: true }), []);
 });
 
+test("a title many starting zones share is the one where the player is; a whole short title counts", () => {
+  const durotar = questFacts({ question: "Where do I turn in The Adventurer?", zone: "Durotar", level: "5", faction: "Horde" });
+  assert.deepEqual(titles(durotar), ["Quest: The Adventurer"]);
+  assert.match(durotar[0].text, /turn in to Brakk/);
+  const dunMorogh = questFacts({ question: "Who gives the quest The Great Outdoors?", zone: "Dun Morogh", level: "4",
+    faction: "Alliance" });
+  assert.match(dunMorogh[0].text, /from Eric Brighthammer/);
+  assert.deepEqual(questFacts({ question: "Who is the adventurer over there?", zone: "Durotar", faction: "Horde" }), []);
+});
+
+test("a count the quest log left as a token is never passed on as one", () => {
+  const f = questFacts({ question: "What do I need to do for Death to the Dragonmaw?", zone: "Wetlands", faction: "Alliance" });
+  assert.match(f[0].text, /the quest asks: Kill some Dragonmaw Reclaimers/);
+  assert.doesNotMatch(f[0].text, /\$\d/);
+});
+
 test("the block stays within its budget", () => {
   const facts = questFacts({ question: "what do I need to kill for these quests?", quests: ["370", "371", "372", "427"]
     .map(id => ({ id, title: "At War With The Scarlet Crusade" })) });

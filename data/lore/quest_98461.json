@@ -1,0 +1,109 @@
+{
+ "key": "quest:98461",
+ "type": "quest",
+ "name": "Unrequited Love",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98461
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This delivery connects the Alliance port of Auberdine in Darkshore directly with Menethil Harbor in the Wetlands, linking Kalimdor and the Eastern Kingdoms."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Tarrel Rockweaver and Hollee share a background in excavation, a trade central to dwarven tradition and study across Azeroth."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives unrequited love",
+    "quest giver auberdine"
+   ],
+   "answer": "Hollee gives the quest in the coastal settlement of Auberdine in Darkshore. She asks travelers boarding the boat to Menethil Harbor to deliver a personal note to an old schoolmate.",
+   "q": "Who offers the quest Unrequited Love?"
+  },
+  {
+   "aliases": [
+    "who is tarrel rockweaver",
+    "tarrel lore"
+   ],
+   "answer": "Tarrel Rockweaver is an excavator and former schoolmate of Hollee. He was dispatched to the Wetlands after their studies, where he now works near Menethil Harbor alongside his wife Merrin.",
+   "q": "Who is Tarrel Rockweaver?"
+  },
+  {
+   "aliases": [
+    "who is merrin",
+    "tarrels wife"
+   ],
+   "answer": "Merrin is Tarrel Rockweaver's wife. Hollee mentions her with visible hesitation and a furrowed brow, revealing her lingering, unreciprocated feelings for Tarrel despite his marriage.",
+   "q": "Who is Merrin?"
+  },
+  {
+   "aliases": [
+    "what is unrequited love quest about",
+    "why is it called unrequited love"
+   ],
+   "answer": "The title refers to Hollee's quiet feelings for Tarrel Rockweaver. Although they studied excavation together as close classmates, Tarrel married Merrin, leaving Hollee pining from across the sea in Auberdine.",
+   "q": "Why is the quest called Unrequited Love?"
+  },
+  {
+   "aliases": [
+    "where to find tarrel rockweaver",
+    "tarrel location wetlands"
+   ],
+   "answer": "Tarrel Rockweaver can be found near Menethil Harbor in the Wetlands, across the Great Sea from Darkshore. A passenger boat from Auberdine takes travelers directly to the harbor docks.",
+   "q": "Where is Tarrel Rockweaver located?"
+  },
+  {
+   "aliases": [
+    "what do you deliver",
+    "hollees letter"
+   ],
+   "answer": "You are asked to carry Hollee's Note to Tarrel Rockweaver to check on his well-being in the Wetlands and deliver her personal message.",
+   "q": "What item is delivered in this quest?"
+  }
+ ],
+ "keywords": [
+  "auberdine",
+  "darkshore",
+  "excavation",
+  "hollee",
+  "hollee's note",
+  "menethil harbor",
+  "merrin",
+  "tarrel rockweaver",
+  "unrequited love",
+  "wetlands"
+ ],
+ "related": [
+  "npc:tarrel-rockweaver",
+  "subzone:auberdine",
+  "subzone:menethil-harbor",
+  "zone:darkshore",
+  "zone:wetlands"
+ ],
+ "sections": [
+  {
+   "body": "In the port town of Auberdine along the misty coast of Darkshore, Hollee watches travelers boarding ships for the Eastern Kingdoms. She seeks aid from passersby to reach an old classmate, Tarrel Rockweaver, with whom she shared years studying the craft of excavation before graduation separated them across continents.",
+   "spoiler": 0,
+   "title": "A Message Across the Sea"
+  },
+  {
+   "body": "While Hollee fondly recalls Tarrel's sharp mind and skill with excavation, her composure falters at the mention of his wife, Merrin. Despite the distance and his marriage, Hollee entrusts an adventurer with a personal letter, asking them to seek out Tarrel near Menethil Harbor to ensure he is safe.",
+   "spoiler": 0,
+   "title": "Unspoken Feelings"
+  }
+ ],
+ "summary": "Unrequited Love is an Alliance delivery quest originating in Auberdine on the shores of Darkshore. Hollee asks travelers taking the vessel to Menethil Harbor to deliver a personal note to Tarrel Rockweaver, an excavation classmate for whom she still holds quiet affection.",
+ "attribution": [
+  "In-game quest text: Unrequited Love"
+ ]
+}

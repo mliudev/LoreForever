@@ -1,0 +1,113 @@
+{
+ "key": "quest:98391",
+ "type": "quest",
+ "name": "The Sisterhood of Elune",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98391
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The Sisterhood of Elune is the spiritual heart of night elf society and leadership, making answering their summons a sacred duty for any child of the stars."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priesthood in kaldorei culture is synonymous with devotion to Elune, and answering Sister Aquinne connects directly to the high traditions of the temple."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With Darnassus standing as a vital capital of the Alliance in Kalimdor, assisting the Sisterhood ensures the stability of night elf spiritual and civic governance."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is sister aquinne",
+    "aquinne darnassus",
+    "where is aquinne"
+   ],
+   "answer": "Sister Aquinne is an emissary and priestess serving the Sisterhood of Elune within the capital city of Darnassus. She receives travelers sent to assist the priesthood with urgent matters confronting the night elves.",
+   "q": "Who is Sister Aquinne?"
+  },
+  {
+   "aliases": [
+    "what is sisterhood of elune",
+    "who are the sisters of elune",
+    "night elf priestesses"
+   ],
+   "answer": "The Sisterhood of Elune is the ancient order of night elf priestesses devoted to the moon goddess Elune. Revered as spiritual guides, healers, and leaders of kaldorei culture, they oversee the spiritual welfare and defense of their people.",
+   "q": "What is the Sisterhood of Elune?"
+  },
+  {
+   "aliases": [
+    "where to turn in sisterhood of elune",
+    "sisterhood quest location",
+    "where do i go for sisterhood of elune"
+   ],
+   "answer": "You must travel to Darnassus, the great capital of the night elves atop Teldrassil. Sister Aquinne awaits your arrival within the city to deliver her briefing on behalf of the Sisterhood.",
+   "q": "Where do I need to go to complete this quest?"
+  },
+  {
+   "aliases": [
+    "why does the sisterhood need help",
+    "sisterhood trouble",
+    "what aid does sisterhood require"
+   ],
+   "answer": "Sister Aquinne indicates that the Sisterhood requires prompt outside assistance to handle pressing troubles confronting Darnassus and the surrounding night elf lands. Speaking with her unlocks further duties on their behalf.",
+   "q": "Why does the Sisterhood require aid?"
+  },
+  {
+   "aliases": [
+    "do horde get this quest",
+    "can horde do sisterhood of elune"
+   ],
+   "answer": "No. The Sisterhood of Elune is central to night elf leadership and aligned strictly with the Alliance. Darnassus is an Alliance capital, making this quest exclusive to Alliance adventurers.",
+   "q": "Can Horde characters undertake this quest?"
+  },
+  {
+   "aliases": [
+    "who leads the sisterhood of elune",
+    "sisterhood leader",
+    "tyrande sisterhood"
+   ],
+   "answer": "High Priestess Tyrande Whisperwind stands as the spiritual head of the Sisterhood of Elune and the supreme leader of the kaldorei nation, guiding her sisters from the Temple of the Moon in Darnassus.",
+   "q": "Who leads the Sisterhood of Elune?"
+  }
+ ],
+ "keywords": [
+  "aquinne",
+  "darnassus",
+  "elune",
+  "priestess",
+  "sister aquinne",
+  "sisterhood of elune",
+  "teldrassil",
+  "the sisterhood of elune"
+ ],
+ "related": [
+  "npc:sister-aquinne",
+  "zone:darnassus"
+ ],
+ "sections": [
+  {
+   "body": "\"The Sisterhood of Elune\" is a summons directing adventurers to seek out Sister Aquinne in the night elf capital of Darnassus. As representatives of Elune's faithful, the priestesses often dispatch calls for reliable champions to assist with urgent matters affecting their people and sacred lands.",
+   "spoiler": 0,
+   "title": "A Call to the Capital"
+  },
+  {
+   "body": "Upon arriving in Darnassus and locating Sister Aquinne, she expresses profound relief at your prompt arrival. Her welcome marks the start of direct service to the Sisterhood, signaling that the priestesses face mounting demands requiring trustworthy hands from outside their cloistered ranks.",
+   "spoiler": 0,
+   "title": "Reporting to Sister Aquinne"
+  }
+ ],
+ "summary": "The Sisterhood of Elune is an introductory quest directing adventurers to Darnassus to meet Sister Aquinne. Serving as the primary spiritual authority among the night elves, the Sisterhood requires swift outside aid to confront brewing challenges in their lands.",
+ "attribution": [
+  "In-game quest text: The Sisterhood of Elune"
+ ]
+}

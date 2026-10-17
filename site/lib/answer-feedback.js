@@ -35,6 +35,8 @@ const CORRECTION = new RegExp([
 const DISAGREES = new RegExp([
   String.raw`\bi(?:'m| am) (?:pretty |quite |fairly |very )?(?:sure|certain|positive) (?:that|it|this|they|there)\b`,
   String.raw`^\W*actually,? (?:it|that|this|there|they)(?:'s| is| was| are| goes| sails)\b`,
+  // "The disarming tool I have is actually an off-hand weapon" (LOR-593, Mike's stream 10/15).
+  String.raw`\b(?:is|are|was|were|it's|that's) actually\b`,
   String.raw`\b(?:can|is|are|has|have|goes|does|do)\b.*\bin (?:wow )?forever\b`,
 ].join("|"), "i");
 // A "no" only disputes when it goes on to say how it is: "No, this boat goes to Southshore", "Nope, Thrall is

@@ -1,0 +1,108 @@
+/* The book and the wisp on the rest of the site (2026-10-15): the FAQ, What's new, the lore pages, feedback,
+   contributors, the narrator and translation pages, the account and the fine print. The shared look is style.css's (body
+   class "bw"; "bw wisp" for Willo's /link); this sheet fits the older page pieces into it. A page's <main> is
+   "bw-page": the night sky (.h-sky) behind its top, then the page's column (.h-wrap.bw-in, still carrying the old page
+   class, fb-page, vp-doc and so on, for its width). Inside, the old colour names (--gold, --panel, --heading...) are
+   the new ones, so the older rules in style.css, lore.css and studio.css draw in the book's colours, and the rules
+   below give the shared pieces the new shapes: titles, cards, form fields, folds and tags. lib/voices.js page() builds
+   the same frame for the pages a Function writes (bw: true). */
+
+.bw main.bw-page { position: relative; isolation: isolate; max-width: none; min-height: 420px; margin: 0; padding: 0; }
+.bw-page ~ .h-foot { position: relative; }   /* over the sky's fade, under a short page */
+.bw-sky { position: absolute; inset: 0 0 auto; z-index: -1; height: 440px; pointer-events: none;
+  -webkit-mask-image: linear-gradient(#000 50%, transparent); mask-image: linear-gradient(#000 50%, transparent); }
+.bw-page {
+  --bg: var(--h-night); --panel: var(--h-acc-panel); --panel-line: var(--h-acc-line); --line: var(--h-line-soft);
+  --text: var(--h-text); --muted: var(--h-muted); --gold: var(--h-acc-hi); --gold-soft: var(--h-acc); --link: var(--h-link);
+  --parchment: var(--h-text); --heading: var(--h-display);
+}
+.bw .bw-in { padding-block: 52px 72px; overflow-wrap: break-word; }   /* a long path or address wraps rather than widen a phone screen */
+.bw .bw-in.fb-page, .bw .bw-in.ln-page { max-width: 792px; }
+.bw .bw-in.vp-doc, .bw .bw-in.faq-page { max-width: 852px; }
+.bw .bw-in.vp-page { max-width: 932px; }
+.bw .bw-in.wn-page { max-width: 1012px; }
+.bw .bw-in.fb-page.ac-wide { max-width: 1092px; }
+
+/* Titles: the page's in Cinzel with the accent's sheen, its line under it, then section headings. */
+.bw .bw-in h1 { margin: 0 0 14px; font: 600 clamp(2.3rem, 5vw, 3.4rem)/1.12 var(--h-display); letter-spacing: 0.01em;
+  color: var(--h-acc-hi); text-shadow: none; text-wrap: balance;
+  background: var(--h-acc-text); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.bw .bw-in h1 > * { -webkit-text-fill-color: initial; }   /* a tag in a title keeps its own colour */
+.bw .bw-in .pitch { margin: 0 0 18px; max-width: 62ch; font-size: 1.15rem; line-height: 1.55; color: var(--h-text-2); text-shadow: none; }
+.bw .bw-in h2 { font: 600 clamp(1.35rem, 2.6vw, 1.75rem)/1.2 var(--h-display); color: var(--h-acc-hi); text-wrap: balance; }
+.bw .bw-in h3 { font-family: var(--h-display); font-weight: 600; line-height: 1.3; color: var(--h-text); }
+.bw .bw-in :is(p, li, dd) { text-wrap: pretty; }
+
+/* Cards: the shared panel in the page's colour. */
+.bw .bw-in :is(.box, .fb-form, .fb-done, .zone, .audio-sample, .wn-card, .lp-clip, .lp-cta, .sample-sheet, .td-card, .st-card) {
+  border: 1px solid var(--h-acc-line); border-radius: var(--h-r); background: var(--h-acc-panel); box-shadow: none; }
+.bw .bw-in :is(.fb-form, .fb-done) { padding: 24px; }
+
+/* Form fields, buttons and folds. */
+.bw .bw-in :is(input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"]):not([type="color"]), textarea, select) {
+  border: 1px solid var(--h-line); border-radius: var(--h-r-sm); background: var(--h-night); color: var(--h-text); font-family: var(--h-body); }
+.bw .bw-in :is(input, textarea, select):focus { outline: 2px solid var(--h-acc-hi); outline-offset: 1px; border-color: transparent; }
+.bw .bw-in :is(input[type="checkbox"], input[type="radio"], input[type="range"]) { accent-color: var(--h-acc); }
+.bw .bw-in :is(button, select, input, textarea) { font-family: var(--h-body); }
+.bw .bw-in :is(.fb-form legend, .fb-field > span) { font: 700 0.8rem/1.3 var(--h-body); letter-spacing: 0.12em; text-transform: uppercase; color: var(--h-acc); }
+.bw .bw-in .fb-field > span.fb-sub { font: 400 0.95rem var(--h-body); letter-spacing: 0; text-transform: none; color: var(--h-text); }
+.bw .bw-in .fb-optional { font: 400 0.82rem var(--h-body); letter-spacing: 0; text-transform: none; color: var(--h-muted); }
+.bw .bw-in .fb-kinds label { border-color: var(--h-line); border-radius: 999px; background: transparent; padding: 7px 15px; }
+.bw .bw-in .fb-kinds label:has(:checked) { border-color: var(--h-acc-rim); background: var(--h-acc-wash); color: var(--h-acc-hi); }
+.bw .bw-in .fb-stars label { color: #454b61; }
+.bw .bw-in .fb-stars input:checked ~ label, .bw .bw-in .fb-stars:hover label:hover,
+.bw .bw-in .fb-stars:hover label:hover ~ label { color: var(--h-acc-hi); text-shadow: 0 0 10px var(--h-acc-edge); }
+.bw .bw-in .fb-stars:hover input ~ label { color: #454b61; text-shadow: none; }
+.bw .bw-in .fb-actions .btn-download { padding: 0 32px; }
+.bw .bw-in .fb-status { color: #ff8f7f; }
+.bw .bw-in .fb-status.fb-good { color: var(--h-fresh); }
+.bw .bw-in summary { color: var(--h-link); }
+.bw .bw-in summary:hover { color: #fff; }
+.bw .bw-in :is(.cb-text, .cr-text, .fb-report, .td-report, .zone-q) { border-left-color: var(--h-acc-rim); background: var(--h-acc-wash); }
+
+/* Tags and small labels: pills. */
+.bw .bw-in .tag { display: inline-flex; align-items: center; padding: 2px 9px; border-radius: 999px; font: 700 0.68rem/1.4 var(--h-body);
+  letter-spacing: 0.08em; text-transform: uppercase; vertical-align: 0.2em; }
+.bw .bw-in .tag-new { color: var(--h-fresh); border-color: #8fd9ad55; background: #8fd9ad10; }
+
+/* Tables and quiet text. */
+.bw .bw-in td { border-top-color: var(--h-line-soft); }
+.bw .bw-in :is(.vp-note, .zone-where, .file-note) { color: var(--h-muted); }
+
+/* The fine print (/privacy, /terms, /refunds, the narrator's release and terms): a reading column. */
+.bw .vp-doc h2 { margin: 40px 0 10px; font-size: clamp(1.3rem, 2.4vw, 1.6rem); }
+.bw .vp-doc h3 { font-size: 1.1rem; margin: 24px 0 6px; }
+.bw .vp-doc :is(p, li) { color: var(--h-text); }
+.bw .vp-doc .vp-version { color: var(--h-muted); }
+
+/* FAQ: the questions as a two-column list of links, then each answer. */
+.bw .faq-toc { margin: 8px 0 18px; padding: 20px 24px; border: 1px solid var(--h-acc-line); border-radius: var(--h-r); background: var(--h-acc-panel); }
+.bw .faq-toc ul { margin: 0; }
+.bw .faq-toc a { color: var(--h-text-2); text-decoration: none; }
+.bw .faq-toc a:hover { color: var(--h-acc-hi); }
+.bw .faq-q { padding: 26px 0 16px; border-bottom-color: var(--h-line-soft); }
+.bw .faq-q h2 { margin: 0 0 10px; font-size: clamp(1.25rem, 2.2vw, 1.5rem); line-height: 1.3; }
+.bw .faq-q p { line-height: 1.65; }
+
+/* What's new: the newest version's headline cards, then every version folded. */
+.bw .wn-ver { padding: 26px 0; border-bottom-color: var(--h-line-soft); }
+.bw .wn-head h2 { font-size: clamp(1.8rem, 3.4vw, 2.3rem); }
+.bw .wn-date { color: var(--h-muted); }
+.bw .wn-card { padding: 18px 20px; }
+.bw .wn-card h3 { margin: 0 0 6px; font-size: 1.1rem; color: var(--h-acc-hi); }
+.bw .wn-card p { color: var(--h-text-2); font-size: 0.98rem; }
+.bw .wn-all > summary { font: 700 1rem var(--h-body); }
+.bw .wn-all li { color: var(--h-text-2); }
+.bw .wn-all li strong { color: var(--h-text); }
+.bw .wn-ver + .wn-ver summary { font: inherit; color: inherit; }
+.bw .wn-ver + .wn-ver summary h2 { font-size: 1.35rem; color: var(--h-text); }
+.bw .wn-n { color: var(--h-link); text-decoration: none; }
+
+@media (max-width: 760px) {
+  .bw-sky { height: 360px; }
+  .bw .bw-in { padding-block: 32px 56px; }
+  .bw .faq-toc { padding: 16px 18px; }
+}
+
+.h-foot-lead p { margin: 0 0 6px; }
+.h-foot-lead p:last-child { margin: 0; }

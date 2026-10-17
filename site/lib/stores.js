@@ -34,8 +34,10 @@
 import { utcDay } from "./activity.js";
 
 export const CF_CORE = 1715510;
-// The narration and language projects in release/curseforge.json that have an id (site/tests/stores.test.mjs fails
-// when the two lists differ).
+// The narration and language projects in release/curseforge.json that have an id, plus the retired ones it no longer
+// lists (CF_RETIRED) whose downloads still count (site/tests/stores.test.mjs fails when the lists differ).
+// CF_RETIRED: the six answer packs, retired in 0.19.0 (LOR-561): no new files, but their downloads stay in the totals.
+export const CF_RETIRED = [1731417, 1731418, 1731419, 1731420, 1745680, 1745682];
 export const CF_PACKS = [1727331, 1727332, 1727333, 1727666, 1727667, 1727668, 1727669, 1731403, 1731408, 1731410,
   1731411, 1731412, 1731414, 1731415, 1731417, 1731418, 1731419, 1731420, 1733811, 1734020,
   1736067, 1740579, 1743314, 1743315, 1743518, 1743604, 1745680, 1745682];

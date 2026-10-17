@@ -1,0 +1,107 @@
+{
+ "key": "quest:97891",
+ "type": "quest",
+ "name": "Prompt Potion Runner",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97891
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The delivery showcases the fragile physical reality of Forsaken unlife, where brittle joints and decaying knees can easily derail vital Royal Apothecary Society laboratory work."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Undercity serves as a crucial hub for the Horde, though travelers must navigate its toxic slime canals to assist the Forsaken with their perilous alchemical endeavors."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives prompt potion runner",
+    "who starts prompt potion runner",
+    "who is alessandro"
+   ],
+   "answer": "The quest is given by Alessandro in the Undercity. He needs an adventurer to sprint across the slime canal because his own decaying undead knees pop out and rattle if he tries to run.",
+   "q": "Who gives this quest?"
+  },
+  {
+   "aliases": [
+    "where do you take the potion",
+    "who is doctor martin felben",
+    "prompt potion runner turn in"
+   ],
+   "answer": "The potion must be delivered to Doctor Martin Felben, who conducts alchemical experiments in the Apothecarium of the Undercity.",
+   "q": "Where does the potion need to go?"
+  },
+  {
+   "aliases": [
+    "why timed",
+    "unstable potion shelf life",
+    "why hurry"
+   ],
+   "answer": "The concoction is an unstable potion with an exceptionally short shelf life. If it is not delivered quickly across the canal, the mixture destabilizes and becomes useless.",
+   "q": "Why is the delivery timed?"
+  },
+  {
+   "aliases": [
+    "did other couriers fail",
+    "alessandro past attempts",
+    "how many potions failed"
+   ],
+   "answer": "Doctor Martin Felben notes that the previous six potions Alessandro attempted to send destabilized along the way before reaching the Apothecarium, making your successful delivery a rare triumph.",
+   "q": "Have other delivery attempts failed?"
+  },
+  {
+   "aliases": [
+    "why cant alessandro deliver it",
+    "alessandro knees"
+   ],
+   "answer": "Alessandro explains that his knees rattle and pop out whenever he tries to run, calling it another unfortunate physical side effect of undeath that prevents him from rushing the delivery himself.",
+   "q": "Why can't Alessandro deliver the potion himself?"
+  },
+  {
+   "aliases": [
+    "what does doctor felben do",
+    "what is the potion used for"
+   ],
+   "answer": "Doctor Martin Felben is an apothecary conducting experiments in the Apothecarium. While the exact formula is kept obscure, he immediately resumes his research once the stable mixture arrives.",
+   "q": "What are Doctor Felben's experiments?"
+  }
+ ],
+ "keywords": [
+  "alessandro",
+  "apothecarium",
+  "doctor martin felben",
+  "prompt potion runner",
+  "royal apothecary society",
+  "slime canal",
+  "undercity",
+  "unstable potion"
+ ],
+ "related": [
+  "subzone:apothecarium"
+ ],
+ "sections": [
+  {
+   "body": "In the subterranean corridors of the Undercity, the Forsaken alchemist Alessandro urgently needs a swift courier. Having prepared a highly volatile concoction with an extremely short shelf life, he cannot risk transporting it himself across the city's toxic slime canal due to the fragile state of his undead joints. An adventurer must sprint against the clock to ensure the brew arrives intact before it degrades into useless sludge.",
+   "spoiler": 0,
+   "title": "A Race Against Decay"
+  },
+  {
+   "body": "The destination is the Apothecarium, where Doctor Martin Felben eagerly awaits the delivery for his ongoing research. Felben reveals that the previous six couriers or attempts failed because the potions destabilized mid-transit. A timely arrival allows the doctor to continue his shadowy experiments uninterrupted, underscoring both the volatility of Royal Apothecary concoctions and the physical indignities of undeath.",
+   "spoiler": 0,
+   "title": "The Apothecarium's Demands"
+  }
+ ],
+ "summary": "Prompt Potion Runner is an urgent Undercity delivery quest where players must race an unstable concoction across the slime canal to the Apothecarium. The quest highlights the physical infirmities of undeath and the volatile nature of Forsaken alchemical research.",
+ "attribution": [
+  "In-game quest text: Prompt Potion Runner"
+ ]
+}

@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-15",
+ "generated": "2026-10-16",
  "forever_only": {
-  "quests_known": 232,
-  "quests_with_text": 209,
-  "narrated": 111,
+  "quests_known": 292,
+  "quests_with_text": 263,
+  "narrated": 108,
   "npcs_known": 223,
-  "npcs_with_text": 51
+  "npcs_with_text": 54
  },
  "zones": [
   {
    "zone": "Other",
    "key": "general",
-   "quests": 110,
-   "with_text": 102,
+   "quests": 171,
+   "with_text": 156,
    "narrated": 9
   },
   {
@@ -41,14 +41,14 @@
    "key": "westfall",
    "quests": 12,
    "with_text": 12,
-   "narrated": 9
+   "narrated": 7
   },
   {
    "zone": "Dun Morogh",
    "key": "dunmorogh",
    "quests": 8,
    "with_text": 8,
-   "narrated": 8
+   "narrated": 7
   },
   {
    "zone": "Stormwind City",
@@ -95,7 +95,7 @@
   {
    "zone": "Undercity",
    "key": "undercity",
-   "quests": 3,
+   "quests": 2,
    "with_text": 0,
    "narrated": 0
   },
@@ -257,13 +257,6 @@
   },
   {
    "kind": "quest",
-   "id": 97891,
-   "name": "Prompt Potion Runner",
-   "zone": "Undercity",
-   "level": 16
-  },
-  {
-   "kind": "quest",
    "id": 97985,
    "name": "Thundering Hearts",
    "zone": "Undercity",
@@ -271,8 +264,43 @@
   },
   {
    "kind": "quest",
+   "id": 93461,
+   "name": null,
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 91904,
+   "name": "A Sealed Crate",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 91736,
+   "name": "Applejack Still",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 79092,
+   "name": "Archmage Theocritus' Research Journal",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
    "id": 97903,
    "name": "Camping 101: First Aid",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 96050,
+   "name": "Camping 101: Fishing",
    "zone": "Other",
    "level": null
   },
@@ -292,6 +320,20 @@
   },
   {
    "kind": "quest",
+   "id": 91746,
+   "name": "Elmpaw's Head",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 96339,
+   "name": "Legacy Reward: Replica Ironforge Air Rifle",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
    "id": 99123,
    "name": "Lost in the Shadows",
    "zone": "Other",
@@ -299,8 +341,8 @@
   },
   {
    "kind": "quest",
-   "id": 92684,
-   "name": "Ornery Ornery Galestriders",
+   "id": 99160,
+   "name": "Rime's Wrath",
    "zone": "Other",
    "level": null
   },
@@ -348,13 +390,6 @@
   },
   {
    "kind": "npc",
-   "id": 251374,
-   "name": "Windshaper Boro",
-   "zone": "Zephras Isle",
-   "level": 2
-  },
-  {
-   "kind": "npc",
    "id": 251373,
    "name": "Xyton Silverwind",
    "zone": "Zephras Isle",
@@ -385,13 +420,6 @@
    "kind": "npc",
    "id": 264943,
    "name": "Afadra Dunwall",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 258568,
-   "name": "Antonio Bolero",
    "zone": null,
    "level": null
   },
@@ -504,13 +532,6 @@
    "kind": "npc",
    "id": 251365,
    "name": "Jolee Brightmeadows",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 251507,
-   "name": "Josephine Carson",
    "zone": null,
    "level": null
   },

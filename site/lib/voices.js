@@ -257,15 +257,57 @@ export const siteNav = viewer => viewer
 // .css and .js files for 4 hours without asking (Cloudflare's Browser Cache TTL, which overrides any Cache-Control we
 // send for them), so without a new address a browser can pair a new page with the old styles and scripts (seen 10/11,
 // right after the profile was rebuilt).
-export const FRESH = "v=20261015w";
+export const FRESH = "v=20261016t";
+
+const FONTS = "https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap";
+
+// The site's column footer (style.css .h-foot, as on the home page and the static pages): lead, the page's own line(s)
+// over it, if any; the optional email sign-up, which public/js/foot.js sends to /api/subscribe tagged with source (the
+// page it came from); then the site's parts in columns and the fine print.
+export function siteFoot({ lead = "", source = "site" } = {}) {
+  return `<footer class="h-foot">
+  <div class="h-wrap">
+${lead ? `    <div class="h-foot-lead">${lead}</div>\n` : ""}    <div class="h-foot-grid">
+      <div class="h-sign">
+        <span class="h-brand"><img src="/img/logo.svg" alt="" width="30" height="30">Lore Forever</span>
+        <p>One email when a new version is out, and your address is used for nothing else
+          (<a href="/privacy">privacy</a>). <a href="/unsubscribe">Unsubscribe anytime</a>.</p>
+        <form class="h-sub-form" id="signup" data-source="${escape(source)}">
+          <label for="signup-email" class="h-vh">Email address</label>
+          <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
+          <input type="text" name="website" class="h-vh" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button type="submit" class="h-btn h-ghost h-sm">Notify me</button>
+          <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
+        </form>
+      </div>
+      <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/lore">Lore library</a></li><li><a href="/whats-new">What's new</a></li></ul></nav>
+      <nav aria-label="Willo"><h2>Willo</h2><ul><li><a href="/willo">Meet Willo</a></li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li><li><a href="/faq">FAQ</a></li></ul></nav>
+      <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/translate">Help translate</a></li><li><a href="/contributors">Contributors</a></li></ul></nav>
+      <nav aria-label="About"><h2>About</h2><ul><li><a href="/feedback">Send feedback</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/refunds">Refunds</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
+    </div>
+    <div class="h-legal">
+      <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+      <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+        Not affiliated with or endorsed by Blizzard.</p>
+    </div>
+  </div>
+</footer>
+<script src="/js/foot.js?v=20261015a" defer></script>`;
+}
 
 // crumbs, foot and scripts replace the voice pages' breadcrumb (under the header; "" for none), footer line and player
 // script; robots adds a robots meta tag; head adds tags after the site stylesheet (a page's own stylesheet). viewer:
 // the signed-in user the page is for (siteNav), if the Function knows.
 // fullTitle: the whole <title> when a page writes its own (the lore pages, for search); otherwise "<title> - Lore Forever".
-export function page({ title, fullTitle, description, path, crumb, body, image, crumbs, foot, scripts, robots, head, viewer }) {
+// bw: "The book and the wisp" (2026-10-15; style.css and pages.css), on by default: the night sky behind the page's
+// top, its column, and the column footer (siteFoot, with foot as its lead line and source tagging its sign-up). The
+// player profiles (lib/profiles.js) add public/profile.css for their own pieces.
+export function page({ title, fullTitle, description, path, crumb, body, image, crumbs, foot, scripts, robots, head, viewer,
+  bw = true, source }) {
   const url = "https://loreforeverwow.com" + path;
   const trail = crumbs ?? `<a href="/downloads">Downloads</a> &rsaquo; ${escape(crumb)}`;
+  const lead = foot ?? `<p>Want a page like this for your own voice? <a href="/voices/studio">Open the narrator dashboard</a>.</p>`;
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -286,28 +328,36 @@ ${robots ? `<meta name="robots" content="${escape(robots)}">\n` : ""}<link rel="
 <link rel="apple-touch-icon" href="/img/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="${bw ? FONTS : "https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap"}">
 <link rel="stylesheet" href="/style.css?${FRESH}">
-${head ? head + "\n" : ""}<script src="/header.js" defer></script>
+${bw ? `<link rel="stylesheet" href="/pages.css?${FRESH}">\n` : ""}${head ? head + "\n" : ""}<script src="/header.js" defer></script>
 </head>
-<body>
+<body${bw ? ` class="bw${bw === "wisp" ? " wisp" : ""}"` : ""}>
 
 <header class="top">
 ${siteNav(viewer)}${trail ? `
   <div class="wrap subcrumb"><span class="crumb">${trail}</span></div>` : ""}
 </header>
+${bw ? `
+<main class="bw-page">
+  <div class="h-sky${bw === "wisp" ? " h-sky-w" : ""} bw-sky" aria-hidden="true"></div>
+  <div class="h-wrap bw-in vp-page">
+${body}
+  </div>
+</main>
 
+${siteFoot({ lead, source: source || `${path.split("/")[1] || "site"}-page` })}` : `
 <main class="wrap vp-page">
 ${body}
 </main>
 
 <footer class="wrap foot">
-  ${foot ?? `<p>Want a page like this for your own voice? <a href="/voices/studio">Open the narrator dashboard</a>.</p>`}
+  ${lead}
   <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
   <p><a href="/privacy">Privacy</a>: what we keep and why. <a href="/terms">Terms</a> and <a href="/refunds">refunds</a>.</p>
   <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
     Not affiliated with or endorsed by Blizzard.</p>
-</footer>
+</footer>`}
 ${scripts ?? '<script src="/voices/player.js" defer></script>'}
 </body>
 </html>`;

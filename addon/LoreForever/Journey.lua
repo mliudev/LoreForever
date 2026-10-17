@@ -1846,7 +1846,7 @@ do
 
   -- Pictures ------------------------------------------------------------------------------------------------------------
   -- The picture book: the companion makes game textures of your newest pictures (the picture key's, and screenshots it
-  -- matched to a shot moment), in LoreForever_Journey\Pictures, and lists them per character in LoreForeverJourneyData:
+  -- matched to a shot moment), in LoreForever_Willo\Pictures, and lists them per character in LoreForeverJourneyData:
   -- pictures = { { t, file, w, h, cap }, ... }. t is the shot moment's t (a picture is looked up by it, exactly); file is
   -- "<id>.tga"; w and h are the picture's size in pixels, at the top left of a 512x256 canvas (black around it); cap is
   -- the companion's caption, when it wrote one. A shot moment with a picture is a "Picture in ...", with the picture on
@@ -1855,7 +1855,14 @@ do
   -- won't load changes nothing: the moment stays as it was.
 
   do
-    local DIR = "Interface\\AddOns\\LoreForever_Journey\\Pictures\\"
+    -- Willo's add-on folder: LoreForeverJourneyData.folder (LoreForever_Willo); a companion before 0.20 doesn't say,
+    -- and writes LoreForever_Journey, its old name.
+    local function dir()
+      local data = _G.LoreForeverJourneyData
+      local folder = type(data) == "table" and type(data.folder) == "string"
+        and data.folder:match("^LoreForever_[%w_]+$") or "LoreForever_Journey"
+      return "Interface\\AddOns\\" .. folder .. "\\Pictures\\"
+    end
     local CANVAS_W, CANVAS_H = 512, 256
     local byT, from, fromN = {}, nil, 0   -- the pictures by t, and the list (and its length) they were read from
 
@@ -1883,7 +1890,7 @@ do
     -- SetTexture can accept a missing or newly written file and return true while GetTexture is nil (observed in the
     -- actual client). Only show a loaded texture; native IDs may be negative, so don't require a positive file ID.
     function Journey.SetPicture(tex, p)
-      local ok, set = pcall(tex.SetTexture, tex, DIR .. p.file)
+      local ok, set = pcall(tex.SetTexture, tex, dir() .. p.file)
       if not ok or set == false then return false end
       local loaded, texture = pcall(tex.GetTexture, tex)
       if not loaded or not ns.Context.Usable(texture) or not texture then return false end

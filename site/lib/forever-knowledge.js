@@ -15,6 +15,8 @@ import { FLIGHT_FACTS } from "./forever-flights.js";
 import { GAME_FACTS } from "./forever-game-facts.js";
 import { DATA_VERSION } from "./knowledge-version.js";
 import { questFacts, questBlock } from "./forever-quest-facts.js";
+import { itemFacts, itemBlock } from "./forever-item-facts.js";
+import { placeFacts, placeBlock } from "./forever-place-facts.js";
 
 // At most this much of FOREVER FACTS goes into an answer's system prompt (companion-answers.js counts it in its bound):
 // room for a travel question's two networks (boats, flights) and two docks and two flight points besides.
@@ -112,12 +114,35 @@ const FLIGHT_NETWORK = { id: "flight-network", title: "Flight paths in WoW Forev
 const TRANSPORT = /\b(?:boats?|ships?|zeppelins?|airships?|ferry|ferries|sail(?:s|ed|ing)?|docks?|piers?|harbou?rs?|tram|skycutter|voyage)\b/i;
 // Flight form, wind rider cubs and Wildhammer gryphon riders are no flight-path questions.
 const FLIGHT = /\bflight[ -]?(?:paths?|masters?|points?)\b|\bflights? (?:to|from|out|back)\b|\bfps?\b|\b(?:gryphon|griffon|wind ?rider|hippogryph|bat|flight)s? (?:masters?|handlers?)\b|\b(?:can|could|do) (?:i|we) fly\b|\bfly (?:from|to|out|back|there)\b/i;
+// Which way to go: "where do I turn for the dig site?" (heard as "what do I turn for", LOR-594: answered as a quest
+// turn-in), "which way to Menethil?". A turn-in says "turn in".
+// "Turn ... in" a few words on ("where do I turn this quest in?", "turn it in to Whelgar") is a turn-in; "in the
+// Wetlands" after the place isn't.
+const WAY = String.raw`\b(?:where|what|which way) (?:do|should|can|would) (?:i|we) (?:turn|head)\b(?!\s+in\b)(?!(?:\s+[\w']+){1,3}\s+in\b(?!\s+(?:the|a|an|this|that)\b))|\bwhich (?:way|direction|road|path)\b`;
 const GOING = new RegExp([
   String.raw`\b(?:get|go|head|travel(?:ing)?|sail|fly) (?:back |over |across )?to (?!(?:level|lvl|max|exalted|revered|honou?red|friendly|learn|train|buy|sell|find|get|kill|farm|craft|make|do|turn|complete|see|talk|speak|fish|mine|play|be|\d)\b)`,
   String.raw`\b(?:fastest|quickest|best|shortest) way (?:to|from)\b(?! (?:level|farm|make|earn|get (?:gold|exp|xp|rep)))`,
   String.raw`\bhow (?:do|can|would|should) (?:i|we) (?:get|go) there\b|\bhow (?:do|can) (?:i|we) leave\b`,
   String.raw`\b(?:get|go|travel|sail|fly) from\b[^.?!]{1,40}\bto\b`,
 ].join("|"), "i");
+// "Which way?" in words that could pass for a turn-in: the answer model reads it as "which way do I go to reach ..."
+// (wayQuestion), since a note beside the question didn't stop "turn" reading as a turn-in (LOR-594). Not a travel
+// question (GOING): a place in this zone needs its own fact, not the boats and flight paths.
+export const asksTheWay = question => new RegExp(WAY, "i").test(String(question || "").replace(/’/g, "'"));
+export const wayQuestion = question => String(question || "").replace(/’/g, "'")
+  .replace(/\b(?:where|what|which way) (?:do|should|can|would) (i|we) (?:turn|head)(?: (?:for|to|towards?))?\b/i,
+    (m, who) => `which way do ${who} go to reach`)
+  .replace(/^\W*\w/, c => c.toUpperCase());
+
+// The prompt with its question (the last QUESTION, as promptParts reads it) read as `question` instead: what the answer
+// model reads, never what the chat shows. Any RESEARCH FOCUS after it stays.
+export function withQuestion(prompt, question) {
+  const text = String(prompt || "");
+  const at = text.lastIndexOf("\nQUESTION\n");
+  if (at < 0 || !question) return text;
+  const start = at + "\nQUESTION\n".length, focus = text.indexOf("\n\nRESEARCH FOCUS:", start);
+  return text.slice(0, start) + question + (focus >= 0 ? text.slice(focus) : "");
+}
 // Which networks a question is about: { boats, flights }. A character's reply only counts boats, docks and flight
 // paths named outright: "go back to your post" is no question about the way.
 export function travelKinds(question, { character = false } = {}) {
@@ -144,6 +169,25 @@ export const SEED_FACTS = [
     text: "In WoW Forever's time Warchief Thrall leads the Horde from Orgrimmar in Durotar. Lady Sylvanas Windrunner " +
       "rules the Forsaken in the Undercity, High Chieftain Cairne Bloodhoof leads the tauren of Thunder Bluff, and " +
       "Vol'jin leads the Darkspear trolls." },
+  // Era traps (the accuracy lab, 10/16: 35% of era answers unsourced or wrong, 23% wrong): what the model remembers
+  // from later expansions. Each says only what is true now, never what comes later.
+  { id: "era-dark-portal", title: "The Dark Portal and Outland", zone: "Blasted Lands", source: WIKI,
+    text: "The Dark Portal in the Blasted Lands stands dark: its great stone frame is whole, but the rift within is " +
+      "dormant and no traveler can cross it. No one can reach Outland or anywhere in it, such as Shattrath City, by " +
+      "any road, ship or spell. Nethergarde Keep keeps watch over the portal." },
+  { id: "era-races", title: "Blood elves and draenei aren't playable", source: CLASSES,
+    text: "You can't make or play a blood elf or a draenei in WoW Forever, and there's no blood elf or draenei city " +
+      "or starting zone to travel to, such as Silvermoon City or the Exodar. The playable races are humans, " +
+      "dwarves, night elves and gnomes for the Alliance, orcs, undead (the Forsaken), tauren and trolls for the " +
+      "Horde, and the new skyborne for both." },
+  { id: "era-garrosh", title: "Garrosh Hellscream", source: WIKI,
+    text: "No one in Azeroth knows of a Garrosh Hellscream. The Hellscream the Horde remembers is Grom Hellscream, " +
+      "chieftain of the Warsong clan, who slew the demon Mannoroth in Ashenvale at the end of the Third War and " +
+      "freed the orcs from his blood curse, at the cost of his life." },
+  { id: "era-death-knights", title: "Death knights aren't a class", source: CLASSES,
+    text: "You can't make or play a death knight in WoW Forever. The classes are warriors, paladins, hunters, " +
+      "rogues, priests, shamans, mages, warlocks and druids. The death knights of this age serve the Scourge and " +
+      "are its enemies to fight." },
   { id: "forever-new-zones", title: "New zones in WoW Forever", source: WIKI,
     text: "WoW Forever adds new zones: Mount Hyjal, the Riverglades, Shen'dralas and Zephras Isle, the skyborne's " +
       "floating home. Several original zones were expanded, and Dalaran stands again in the Alterac Mountains." },
@@ -167,7 +211,9 @@ export const SEED_FACTS = [
   dungeon("ruins-of-lordaeron", "Ruins of Lordaeron", "the ruins of Lordaeron above the Undercity", "15 to 20",
     " Both factions can run it."),
   dungeon("excavation-site", "Excavation Site: Wetlands", "the Wetlands", "26 to 31",
-    " It lies above Whelgar's Excavation Site."),
+    // Where on the way (LOR-594): the lore's "western foothills" had Willo send him west from Menethil, the zone's
+    // western edge. Prospector Whelgar stands at 39, 52 (lib/forever-quests.js), Menethil Harbor at about 12, 52.
+    " It lies above Whelgar's Excavation Site, east of Menethil Harbor (about 39, 52 on your map)."),
   dungeon("drowned-city", "The Drowned City", "Stranglethorn Vale", "35 to 40"),
   dungeon("krol-dok", "Krol'dok Stronghold", "the Riverglades", "40 to 45"),
   dungeon("alcaz-prison", "Alcaz Prison", "Dustwallow Marsh", "48 to 53"),
@@ -350,8 +396,11 @@ export async function searchFacts(env, { question = "", zone = "", sub = "", fac
   const scored = found.map(r => ({ ...r, asked: hits.size > 0 && covers(r) }));
   const ranked = [...scored.filter(r => r.asked), ...scored.filter(r => !r.asked)];
   if (!travel) return ranked.slice(0, limit);
-  // The network answers any travel question, so it counts as matching it (no quick look online).
-  const first = [...all, ...docks].map(r => ({ ...r, asked: true }));
+  // The network answers any travel question, so it counts as matching it (no quick look online). A fact that answers
+  // the question besides goes before the docks, so they can't crowd it out: "how do I get to Shattrath City?" needs
+  // the one saying no one can (era-dark-portal) more than the docks.
+  const answers = ranked.filter(r => r.asked && !/^(?:travel|flight)-/.test(r.id)).slice(0, 2);
+  const first = [...all, ...answers, ...docks].map(r => ({ ...r, asked: true }));
   const seen = new Set(first.map(r => r.id));
   return [...first, ...ranked.filter(r => !seen.has(r.id))].slice(0, limit);
 }
@@ -451,23 +500,57 @@ export async function listFacts(env) {
   return results;
 }
 
+// Where facts come from, as an answer's sources when they stand in for required research (functions/api/companion/
+// answer.js; companions keep a researched answer only with sources): a fact's own page, or for what the client's own
+// data says (its boats and flights, which have no page), the client tables it's read from. A fact with neither, one a
+// player checked, gives none.
+const CLIENT_TABLES = [
+  [/^travel-/, { title: "WoW Forever's own client data: its boat and zeppelin paths", url: "https://wago.tools/db2/TaxiPathNode" }],
+  [/^flight-/, { title: "WoW Forever's own client data: its flight paths", url: "https://wago.tools/db2/TaxiPath" }],
+];
+export function factSources(facts) {
+  const out = new Map();
+  for (const f of facts || []) {
+    const own = f.sources || (/^https:\/\/\S+$/.test(f.source_url || "") ? [{ title: f.source_title || f.title, url: f.source_url }] : []);
+    for (const src of own.length ? own : CLIENT_TABLES.filter(([id]) => id.test(f.id || "")).map(([, src]) => src))
+      if (!out.has(src.url)) out.set(src.url, src);
+  }
+  return [...out.values()].slice(0, 6);
+}
+
 // The facts for an answer's system prompt. Never fails the answer: without the tables it simply has no FOREVER FACTS.
 // dataVersion: the player's add-on data version, when the companion sends it.
 export async function knowledgeFor(env, parts, { character = false, dataVersion = "" } = {}) {
-  // Quest and NPC facts need no database (lib/forever-quest-facts.js), so they come even when D1 fails.
-  let quest = [];
+  // The Forever facts' search goes out first; quest, NPC, item, town and road facts need no database
+  // (lib/forever-quest-facts.js, lib/forever-item-facts.js, lib/forever-place-facts.js), so they're found while it's
+  // out (an isolate's first item lookup reads its data, about 60 ms), and they come even when D1 fails.
+  const searched = (async () => {
+    await setupKnowledge(env);
+    return searchFacts(env, parts, FACTS_PER_ANSWER, { character });
+  })();
+  let quest = [], item = [], place = [];
   try {
     quest = questFacts(parts, { character });
   } catch (e) {
     console.warn(`quest facts: ${e?.message || e}`);
   }
   try {
-    await setupKnowledge(env);
-    const facts = await searchFacts(env, parts, FACTS_PER_ANSWER, { character });
+    item = itemFacts(parts, { character });
+  } catch (e) {
+    console.warn(`item facts: ${e?.message || e}`);
+  }
+  try {
+    place = placeFacts(parts, { character, npcZones: quest.map(f => f.zone).filter(Boolean) });
+  } catch (e) {
+    console.warn(`place facts: ${e?.message || e}`);
+  }
+  const local = [questBlock(quest), itemBlock(item), placeBlock(place)];
+  try {
+    const facts = await searched;
     const block = factsBlock(facts, { character, olderData: olderData(dataVersion) });
-    return { facts: [...quest, ...facts], block: [questBlock(quest), block].filter(Boolean).join("\n\n") };
+    return { facts: [...quest, ...item, ...place, ...facts], block: [...local, block].filter(Boolean).join("\n\n") };
   } catch (e) {
     console.warn(`forever facts: ${e?.message || e}`);
-    return { facts: quest, block: questBlock(quest) };
+    return { facts: [...quest, ...item, ...place], block: local.filter(Boolean).join("\n\n") };
   }
 }

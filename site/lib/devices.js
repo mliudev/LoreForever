@@ -108,19 +108,23 @@ export async function claimToken(env, deviceCode) {
 // ---- Using a token ----
 
 // The app and its account for a request with "Authorization: Bearer <token>", or null (no token, revoked, unused for
-// TOKEN_DAYS, or the account is gone). Notes when it was last used.
+// TOKEN_DAYS, or the account is gone). Notes when it was last used, at most every USED_EVERY_MS: Willo's friends poll
+// (lib/friends.js) calls every minute, and a write each time would cost more than it tells.
+const USED_EVERY_MS = 10 * 60e3;
 export async function currentDevice(env, request) {
   const auth = request.headers.get("Authorization") || "";
   const token = auth.startsWith("Bearer ") ? auth.slice(7).trim() : "";
   if (!env.DB || !/^[0-9a-f]{64}$/.test(token)) return null;
   const now = Date.now();
   const row = await env.DB.prepare(
-    "SELECT d.id AS device_id, d.label AS device_label, d.last_sync AS device_last_sync, u.* FROM devices d " +
-    "JOIN users u ON u.id = d.user_id WHERE d.token_hash = ? AND COALESCE(d.last_used, d.created) > ?"
+    "SELECT d.id AS device_id, d.label AS device_label, d.last_sync AS device_last_sync, d.last_used AS device_last_used, " +
+    "u.* FROM devices d JOIN users u ON u.id = d.user_id WHERE d.token_hash = ? AND COALESCE(d.last_used, d.created) > ?"
   ).bind(await sha256(token), iso(now - TOKEN_DAYS * 86400e3)).first();
   if (!row) return null;
-  await env.DB.prepare("UPDATE devices SET last_used = ? WHERE id = ?").bind(iso(now), row.device_id).run();
-  const { device_id, device_label, device_last_sync, ...user } = row;
+  if (!(now - Date.parse(row.device_last_used || "") < USED_EVERY_MS)) {
+    await env.DB.prepare("UPDATE devices SET last_used = ? WHERE id = ?").bind(iso(now), row.device_id).run();
+  }
+  const { device_id, device_label, device_last_sync, device_last_used, ...user } = row;
   return { device: { id: device_id, label: device_label, last_sync: device_last_sync }, user };
 }
 

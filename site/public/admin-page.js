@@ -2,6 +2,7 @@
 // Content-Security-Policy (public/_headers) runs no inline script, so nothing in a report can run on this page.
 
 import { mergeContacts } from "/admin-contacts.js";
+import { loadCreators } from "/admin-creators.js?v=20261016";
 import { funnelStages } from "/admin-funnel.js";
 
 const KINDS = { lore: "Wrong or missing lore", bug: "Bug", idea: "Idea or zone request", review: "Review" };
@@ -496,6 +497,17 @@ const PLAN_NAMES = { hero: "Hero", champion: "Champion", legend: "Legend" };
 const plural = (n, one, many = one + "s") => `${n0(n)} ${n === 1 ? one : many}`;
 const versus = (now, before) => before ? ` (${now >= before ? "+" : "−"}${n0(Math.abs(now - before))} on the week before)` : "";
 const total = byPlan => Object.values(byPlan || {}).reduce((a, n) => a + n, 0);
+// Players who had their first answers at Willo's best, and the ones whose first question came before it: how many
+// started a plan (trials counted, comps not) and came back.
+function tasteText(t) {
+  const today = t.days.at(-1), c = t.cohorts;
+  const side = x => `${plural(x.players, "player")}, ${pct(x.paid, x.players)} started a plan, ${pct(x.returned, x.players)} ` +
+    `came back, ${pct(x.week, x.players)} a week on`;
+  return `${n0(t.finished)} had all 20 · $${t.usd.toFixed(2)} so far, $${t.perTaster.toFixed(3)} a player` +
+    (today ? ` · $${today.usd.toFixed(2)} of the $${t.capUsd.toFixed(2)} day cap on ${fmtDay(today.day)}` +
+      (today.capped ? `, ${n0(today.capped)} past it` : "") + (today.unreachable ? `, ${n0(today.unreachable)} unsaid` : "") : "") +
+    ` · with it: ${side(c.taste)} · before it: ${side(c.before)}`;
+}
 function renderWilloStats() {
   const w = data.willo;
   if (!w) {
@@ -531,6 +543,10 @@ function renderWilloStats() {
       `${n0(c.half)} at 50% off · finest-voice packs: ${n0(subs.packs.sold)} sold ($${subs.packs.usd.toFixed(2)})` +
       (subs.packs.refunded ? `, ${n0(subs.packs.refunded)} refunded` : "");
   }
+  // Willo's best first (lib/best-first.js tasteReport): new players' first 20 answers at her best.
+  const t = w.taste;
+  $("w-taste").textContent = t ? n0(t.tasters) : "-";
+  $("w-taste-sub").textContent = t ? tasteText(t) : "starts with a new player's first answer";
   $("w-note").textContent = "Players: accounts that asked Willo at least once (admin and test accounts left out); counted " +
     "per account from Oct 15, so the days before show only each account's latest day. Running: installs that sent " +
     "Willo's daily check-in, with or without an account. Downloads: /download/willo on this site. Paying leaves out " +
@@ -1037,9 +1053,27 @@ async function willoAct(body) {
   loadWillo();
 }
 const W_KINDS = { correction: "Said it's wrong", frustration: "Frustrated", flag: "Flagged" };
+function renderFriendReports() {
+  const reports = willo.friendReports || [];
+  $("fr-count").textContent = reports.length ? reports.length + " open" : "";
+  $("fr-list").replaceChildren(...(reports.length ? reports.map(r => {
+    const done = el("button", { type: "button", class: "ad-link", text: "Done" });
+    done.addEventListener("click", () => willoAct({ action: "friend-report-done", id: r.id }));
+    return el("article", { class: "ad-report" },
+      el("div", { class: "ad-report-head" }, el("span", { class: "ad-kind", text: "Friend report" }),
+        el("span", { text: (r.reporter || "a player") + " reported " + (r.reported || "a player") +
+          (r.times > 1 ? " (reported " + r.times + " times)" : "") }),
+        el("span", { text: "#" + r.id + " · " + fmtDate(r.created) })),
+      r.note ? el("p", { class: "ad-msg" }, el("strong", { text: "Their note: " }), r.note) : null,
+      ...(r.messages.length ? r.messages.map(m => el("p", { class: "ad-msg" }, el("strong", { text: fmtDate(m.created) + ": " }), m.body))
+        : [el("p", { class: "ad-msg", text: "No messages from them." })]),
+      el("div", { class: "ad-report-foot" }, el("span", { class: "ad-actions" }, done)));
+  }) : [el("p", { class: "ad-empty", text: "Nothing here." })]));
+}
 function renderWillo() {
+  renderFriendReports();
   const rows = willo.feedback.rows.filter(r => wStatus === "all" || r.status === "new");
-  badge("n-willo", willo.feedback.rows.filter(r => r.status === "new").length);
+  badge("n-willo", willo.feedback.rows.filter(r => r.status === "new").length + (willo.friendReports || []).length);
   $("w-count").textContent = rows.length + (rows.length === 1 ? " signal" : " signals");
   $("w-zones").textContent = willo.feedback.zones.length ? "New by zone: " + willo.feedback.zones.map(z =>
     (z.zone || "unknown") + " " + z.n + (z.players > 1 ? " (" + z.players + " players)" : "")).join(" · ") : "";
@@ -1167,8 +1201,8 @@ async function act(body, onDone) {
 const TABS = ["overview", "growth", "players", "community"];
 const SECTION_TAB = { funnel: "growth", curseforge: "growth", "willo-stats": "growth", downloads: "growth", companions: "growth",
                       profiles: "players", signins: "players", features: "players", usage: "players" };
-const SUBS = ["feedback", "voices", "willo", "clip-reports", "translations", "edits", "contributions", "contacts"];
-let sub = "feedback", clipsLoaded = false;
+const SUBS = ["feedback", "voices", "willo", "clip-reports", "translations", "edits", "contributions", "contacts", "creators"];
+let sub = "feedback", clipsLoaded = false, creatorsLoaded = false;
 function route() {
   const id = decodeURIComponent(location.hash.slice(1));
   const tab = TABS.includes(id) ? id : SECTION_TAB[id] || (SUBS.includes(id) ? "community" : "overview");
@@ -1179,6 +1213,8 @@ function route() {
   document.querySelectorAll("#subnav a").forEach(a => a.setAttribute("aria-current", a.dataset.sub === sub));
   // The clip reports come from their own endpoint: only once Community is opened.
   if (tab === "community" && data && !clipsLoaded) { clipsLoaded = true; loadClipReports(); loadWillo(); }
+  // Creators (admin-creators.js) the same way, once their tab is opened.
+  if (tab === "community" && sub === "creators" && data && !creatorsLoaded) { creatorsLoaded = true; loadCreators(key); }
   if (SECTION_TAB[id]) $(id).scrollIntoView(); else scrollTo(0, 0);
   // On a narrow screen the bar scrolls sideways: keep the chosen tab in view (sideways only).
   const nav = $("nav"), current = nav.querySelector(`a[data-tab="${tab}"]`);

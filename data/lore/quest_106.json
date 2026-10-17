@@ -1,0 +1,110 @@
+{
+ "key": "quest:106",
+ "type": "quest",
+ "name": "Young Lovers",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   106
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers passing through Elwynn Forest often find themselves carrying messages between the feuding Stonefield and Maclure families, learning that local heartaches persist even amidst kingdom-wide perils."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans familiar with Elwynn Forest, the long-standing grudge between the Stonefields and Maclures is a well-known local feud, making Maybell and Tommy Joe's romance a delicate neighborhood scandal."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives young lovers",
+    "who starts young lovers",
+    "young lovers questgiver"
+   ],
+   "answer": "The quest is given by Maybell Maclure at the Maclure Vineyards in Elwynn Forest. She is desperately in love with Tommy Joe Stonefield, but their families are bitter rivals, preventing them from meeting openly.",
+   "q": "Who gives the quest Young Lovers?"
+  },
+  {
+   "aliases": [
+    "where is tommy joe stonefield",
+    "find tommy joe",
+    "tommy joe location"
+   ],
+   "answer": "Tommy Joe Stonefield can be found standing along the riverbank just west of the Stonefield Farm, which lies due west of the Maclure Vineyards in Elwynn Forest. He waits there away from the watchful eyes of his family.",
+   "q": "Where can Tommy Joe Stonefield be found?"
+  },
+  {
+   "aliases": [
+    "why are families fighting",
+    "stonefield maclure feud",
+    "why can't maybell and tommy joe see each other"
+   ],
+   "answer": "The Stonefields and the Maclures are bitter family enemies who harbor a longstanding grudge against each other. Because of this deep-seated hostility, neither family allows their children to interact, forcing the young couple to communicate through secret letters.",
+   "q": "Why are Maybell and Tommy Joe kept apart?"
+  },
+  {
+   "aliases": [
+    "what is maybell's letter",
+    "what do you deliver in young lovers",
+    "love letter elwynn"
+   ],
+   "answer": "You are tasked with delivering Maybell's Love Letter directly to Tommy Joe Stonefield at the river. The letter carries her passionate affections and reassures Tommy Joe of her devotion despite the feud between their households.",
+   "q": "What item do you deliver during this quest?"
+  },
+  {
+   "aliases": [
+    "how does tommy joe react",
+    "tommy joe response",
+    "what happens when you deliver the letter"
+   ],
+   "answer": "Upon receiving Maybell's letter, Tommy Joe is thrilled and declares that Maybell is the light of his dull life. Reading her words makes being separated unbearable, prompting him to seek a way for them to meet.",
+   "q": "How does Tommy Joe react to the letter?"
+  },
+  {
+   "aliases": [
+    "where does young lovers take place",
+    "young lovers zone",
+    "stonefield farm location"
+   ],
+   "answer": "The quest takes place in eastern Elwynn Forest, stretching between the Maclure Vineyards and the river bordering the Stonefield Farm. It is a quiet rural corner of the human kingdom troubled by petty domestic strife.",
+   "q": "Where does this quest take place?"
+  }
+ ],
+ "keywords": [
+  "elwynn forest",
+  "feud",
+  "love letter",
+  "maclure vineyards",
+  "maybell maclure",
+  "stonefield farm",
+  "tommy joe stonefield",
+  "young lovers"
+ ],
+ "related": [
+  "npc:tommy-joe-stonefield",
+  "subzone:stonefield-farm"
+ ],
+ "sections": [
+  {
+   "body": "In the pastoral fields of Elwynn Forest, a bitter feud divides two neighboring farming households: the Stonefields and the Maclures. Despite the hostility between their families, young Maybell Maclure has fallen deeply in love with Tommy Joe Stonefield. Unable to visit him openly without igniting family fury, Maybell relies on passing travelers to carry secret correspondence across the boundary lines separating the rival estates.",
+   "spoiler": 0,
+   "title": "A Forbidden Romance"
+  },
+  {
+   "body": "To keep their affection hidden from watchful relatives, Tommy Joe Stonefield spends his hours by the quiet riverbank just west of the Stonefield Farm. Delivering Maybell's letter brings him immense relief and rekindles his longing, making the separation unbearable and setting in motion further clandestine attempts to bring the young lovers together despite the feud.",
+   "spoiler": 0,
+   "title": "The Riverbank Rendezvous"
+  }
+ ],
+ "summary": "Young Lovers is an Elwynn Forest quest centered on the forbidden romance between Maybell Maclure and Tommy Joe Stonefield. With their rival families locked in a bitter feud, Maybell enlists an adventurer to secretly courier a heartfelt love letter to Tommy Joe by the riverbank.",
+ "attribution": [
+  "In-game quest text: Young Lovers"
+ ]
+}

@@ -17,6 +17,7 @@ export const LOOKUPS = {
   character: { side: "willo", what: "race, class, level, faction, professions and quest items (PLAYER CONTEXT)" },
   pc: { side: "willo", what: "graphics card, processor and memory, for a question about their computer (pc.py)" },
   state: { side: "willo", what: "Willo's own state: the Willo and the game checks, talking, seeing the game, her voice" },
+  friends: { side: "willo", what: "where the friends a question names were last seen, if they share it (FRIENDS, lib/friends.js)" },
   forever_facts: { side: "site", what: "checked WoW Forever facts and quests (lib/forever-knowledge.js)" },
   web: { side: "site", what: "a quick look online for the player's own world (lib/companion-answers.js lookUp)" },
   help: { side: "site", what: "Willo's own help (lib/willo-help.js)" },
@@ -71,7 +72,9 @@ export const SECTIONS = {
   voice: { topic: "voice", label: "Show my voices" },
   wisp: { topic: "wisp", label: "Show my settings over the game" },
   sight: { topic: "sight", label: "Show Seeing the game" },
-  live: { topic: "live", label: "Show Live game info" },
+  // Offered when her own switch is on already (off: the consent offer; unticked in the add-on: "health"), so what helps
+  // is the card's step in the game (the add-on's own switch, Mike's QA 10/15).
+  live: { topic: "live", label: "How to turn it on in the game" },
 };
 // The keys Willo hears (companion/lore_companion/talk/ptt.py KEYS), with their names as gamelink.short says them.
 export const TALK_KEYS = Object.fromEntries([

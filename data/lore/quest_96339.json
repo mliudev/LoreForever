@@ -1,0 +1,105 @@
+{
+ "key": "quest:96339",
+ "type": "quest",
+ "name": "Legacy Reward: Replica Ironforge Air Rifle",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96339
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The parcel holds a replica of an Ironforge air rifle, a commemorative nod to the famed firearms and mechanical craftsmanship of Khaz Modan."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Tinkers and gunsmiths will appreciate receiving an intricate firearm model, even if it arrived via an indifferent courier and nearly ended up at the bottom of the ocean."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who sent the package",
+    "sender of air rifle",
+    "who left the rifle"
+   ],
+   "answer": "The courier or original sender never left a name or explanation. According to the recipient holding it, someone simply dropped off the package addressed specifically to you, insisted you would eventually arrive to claim it, and vanished before any questions could be asked.",
+   "q": "Who sent this package?"
+  },
+  {
+   "aliases": [
+    "what was going to happen to the package",
+    "garbage in sea",
+    "package thrown away"
+   ],
+   "answer": "If you had not arrived in time, the package would have been thrown into the sea along with the nightly garbage. The caretaker admitted they do not run a storage service and routinely dispose of unwanted clutter into the ocean.",
+   "q": "What was almost done to the package?"
+  },
+  {
+   "aliases": [
+    "what is inside the package",
+    "replica rifle contents",
+    "package reward"
+   ],
+   "answer": "The package contains a Replica Ironforge Air Rifle, delivered as a legacy item meant specifically for you. It serves as a commemorative piece representing dwarven firearm design.",
+   "q": "What is inside the parcel?"
+  },
+  {
+   "aliases": [
+    "why did they hold it",
+    "holding mail",
+    "does this place hold packages"
+   ],
+   "answer": "The holder made it clear they do not offer mail-holding or storage services. The parcel was only kept because the mystery courier left in such a hurry that there was no opportunity to refuse delivery before they disappeared.",
+   "q": "Why was the caretaker holding the package?"
+  },
+  {
+   "aliases": [
+    "why is it called legacy reward",
+    "legacy reward lore",
+    "what does legacy mean here"
+   ],
+   "answer": "Legacy rewards in WoW Forever represent special recognitions and parcels left behind by mysterious benefactors for seasoned adventurers, waiting at designated outposts to be retrieved upon your arrival.",
+   "q": "Why is this considered a legacy reward?"
+  },
+  {
+   "aliases": [
+    "is the rifle a real weapon",
+    "can you shoot it",
+    "replica function"
+   ],
+   "answer": "It is specifically noted as a replica of an Ironforge air rifle, fashioned after the finely engineered dwarven ranged weapons rather than being a frontline battle rifle.",
+   "q": "Is the replica rifle a functional weapon?"
+  }
+ ],
+ "keywords": [
+  "air rifle",
+  "ironforge",
+  "ironforge air rifle",
+  "legacy reward",
+  "mysterious package",
+  "replica ironforge air rifle"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A mysterious parcel addressed specifically to you was dropped off with an unwilling caretaker. The unknown courier insisted you would arrive to collect it, leaving so swiftly that the receiver could not even refuse delivery. Fortunately, you arrived just before the unclaimed box was tossed into the ocean alongside the evening's refuse.",
+   "spoiler": 0,
+   "title": "A Package Awaiting Collection"
+  },
+  {
+   "body": "Inside the delivered parcel is a Replica Ironforge Air Rifle, a souvenir honoring the renowned firearm traditions of the dwarven capital. While dwarven mountaineers and marksmen carry deadly firepower through Dun Morogh, replicas like this celebrate the intricate barrelwork and pneumatic mechanisms perfected by Ironforge craftsmen.",
+   "spoiler": 0,
+   "title": "Dwarven Engineering in Miniature"
+  }
+ ],
+ "summary": "Legacy Reward: Replica Ironforge Air Rifle marks the collection of a mysterious package held on your behalf. Left behind by an unidentified messenger, the parcel was narrowly saved from being dumped into the sea before reaching your hands.",
+ "attribution": [
+  "In-game quest text: Legacy Reward: Replica Ironforge Air Rifle"
+ ]
+}

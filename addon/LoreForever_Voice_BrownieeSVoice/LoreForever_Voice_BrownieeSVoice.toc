@@ -1,0 +1,14 @@
+## Interface: 16001
+## Title: Browniee's voice
+## Notes: Recorded narration for Lore Forever.
+## Author: Browniee
+## Version: 0.20.0
+## Dependencies: LoreForever
+## LoadOnDemand: 1
+## X-LoreForever-Pack: voice
+## X-LoreForever-Locale: enUS
+## X-LoreForever-Format: 1
+## X-LoreForever-Credit: Narrated by Browniee
+## X-LoreForever-Sample: zone:teldrassil
+## X-LoreForever-Races: Night elf
+Clips.lua

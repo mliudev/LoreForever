@@ -1,0 +1,94 @@
+{
+ "key": "quest:99159",
+ "type": "quest",
+ "name": "Finding Warmth",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99159
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "finding warmth quest",
+    "what is finding warmth",
+    "finding warmth firewood"
+   ],
+   "answer": "Finding Warmth is a local task where an adventurer is asked to gather firewood to keep a welcoming hearth burning. The questgiver normally tends to the fire personally, but has grown preoccupied with other pressing chores and asks for outside assistance.",
+   "q": "What is the quest Finding Warmth about?"
+  },
+  {
+   "aliases": [
+    "why need wood",
+    "firewood finding warmth",
+    "hearth firewood"
+   ],
+   "answer": "The firewood is needed to fuel a hearth kept open to comfort and warm passing travelers and locals. Gathering wood is an ordinary chore that fell behind because the host became busy with other duties.",
+   "q": "Why is the firewood needed?"
+  },
+  {
+   "aliases": [
+    "finding warmth wet wood",
+    "damp firewood"
+   ],
+   "answer": "Some gathered logs may be too damp or wet to burn immediately upon delivery. The questgiver sets the wet pieces aside to dry out over time while using the dry wood to stoke the hearth right away.",
+   "q": "What happens to wet firewood brought in?"
+  },
+  {
+   "aliases": [
+    "who gives finding warmth",
+    "finding warmth light guide you"
+   ],
+   "answer": "While the host's specific identity is not detailed, their blessing of 'Light guide you on your tasks' indicates an individual rooted in faith or reverence toward the Holy Light, offering an open hearth to warm any soul.",
+   "q": "What kind of person offers this task?"
+  },
+  {
+   "aliases": [
+    "more quests after finding warmth",
+    "finding warmth followup"
+   ],
+   "answer": "Yes. Upon delivering the firewood, the host mentions having further tasks at hand that require an able pair of hands if the traveler is willing to help further.",
+   "q": "Are there more tasks after completing Finding Warmth?"
+  },
+  {
+   "aliases": [
+    "hearth open soul",
+    "open hearth finding warmth"
+   ],
+   "answer": "The host keeps their hearth burning to offer shelter, comfort, and warmth to anyone passing through who might need a reprieve from the cold or weary travels.",
+   "q": "Who is welcome at this hearth?"
+  }
+ ],
+ "keywords": [
+  "finding warmth",
+  "firewood",
+  "hearth",
+  "light",
+  "warmth",
+  "wood"
+ ],
+ "related": [
+  "topic:light"
+ ],
+ "sections": [
+  {
+   "body": "Finding Warmth is a simple chore undertaken to sustain a welcoming fire. The questgiver keeps an open hearth ready to warm any wandering soul, but mounting obligations have left them unable to gather fuel on their own. By stepping in to collect firewood, travelers ensure the hearth remains alight for anyone seeking shelter and comfort.",
+   "spoiler": 0,
+   "title": "A Welcoming Hearth"
+  },
+  {
+   "body": "Not all timber retrieved from the surroundings is ready for immediate burning. Upon delivery, pieces too damp or wet to catch fire are set aside to dry properly, while seasoned wood feeds the flames right away. Pleased with the timely assistance, the host quickly turns to other pressing matters that still demand attention.",
+   "spoiler": 0,
+   "title": "Tending the Fire"
+  }
+ ],
+ "summary": "Finding Warmth is a humble errand centered on keeping a welcoming hearth fueled with firewood. With the host occupied by other responsibilities, travelers are asked to gather logs so that any soul seeking warmth can find comfort. Completing the task keeps the fire burning and opens the way to further chores.",
+ "attribution": [
+  "In-game quest text: Finding Warmth"
+ ]
+}

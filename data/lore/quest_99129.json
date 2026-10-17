@@ -1,0 +1,104 @@
+{
+ "key": "quest:99129",
+ "type": "quest",
+ "name": "A Man About a Murloc",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99129
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Local settlements like lakeshores and docks frequently suffer from murloc incursions, leaving residents and guards strained across Elwynn and nearby Alliance territories."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives a man about a murloc",
+    "who starts a man about a murloc",
+    "jason murloc quest"
+   ],
+   "answer": "A local fisherman named Jason sends adventurers on this errand, seeking advice on how to stop murlocs from raiding his catches.",
+   "q": "Who gives the quest A Man About a Murloc?"
+  },
+  {
+   "aliases": [
+    "who is remy two times",
+    "remy two times elwynn",
+    "where is remy"
+   ],
+   "answer": "Remy \"Two Times\" is a resident known for his persistent complaints and warnings about murlocs, whom Jason consults for practical deterrence schemes.",
+   "q": "Who is Remy \"Two Times\"?"
+  },
+  {
+   "aliases": [
+    "why does jason need help",
+    "jason fish murlocs",
+    "murloc problem jason"
+   ],
+   "answer": "Murlocs have been encroaching on Jason's fishing spots and stealing his fish, prompting him to seek outside help to protect his livelihood.",
+   "q": "Why does Jason want to consult Remy?"
+  },
+  {
+   "aliases": [
+    "remy two times ideas",
+    "what is remy plan",
+    "remy murlocs plan"
+   ],
+   "answer": "Remy claims the town guards ignore his warnings, so he devises his own retaliatory schemes to deal with the creatures, requiring an adventurer's assistance to gather materials.",
+   "q": "What does Remy plan to do about the murlocs?"
+  },
+  {
+   "aliases": [
+    "guards murlocs elwynn",
+    "why dont guards help remy",
+    "remy guards warning"
+   ],
+   "answer": "According to Remy, he has repeatedly tried warning the local guards about the rising murloc nuisance, but they have refused to take his warnings seriously.",
+   "q": "Why haven't the guards dealt with the murlocs?"
+  },
+  {
+   "aliases": [
+    "where does a man about a murloc lead",
+    "after a man about a murloc",
+    "next quest after remy"
+   ],
+   "answer": "Speaking with Remy leads directly into his personal schemes to strike back at the local murlocs, prompting further tasks on his behalf.",
+   "q": "What happens after speaking to Remy?"
+  }
+ ],
+ "keywords": [
+  "a man about a murloc",
+  "elwynn",
+  "fish",
+  "jason",
+  "murloc",
+  "remy two times"
+ ],
+ "related": [
+  "npc:remy-two-times",
+  "topic:murloc"
+ ],
+ "sections": [
+  {
+   "body": "A local fisherman named Jason has grown fed up with murlocs raiding his catches. Knowing that Remy \"Two Times\" harbors a mutual hatred for the amphibians, Jason directs travelers to confer with Remy to see if he has devised any practical ways to drive them away from the waters.",
+   "spoiler": 0,
+   "title": "Trouble on the Water"
+  },
+  {
+   "body": "Upon being approached, Remy vents his frustration that the local guards refuse to heed his persistent warnings about the murloc threat. Rather than waiting on official help, Remy prepares his own retaliatory measures against the creatures, enlisting able travelers to assist in his plans.",
+   "spoiler": 0,
+   "title": "Remy's Retaliation"
+  }
+ ],
+ "summary": "A Man About a Murloc is an errand undertaken on behalf of a fisherman named Jason who is troubled by local murlocs raiding his fish. Jason sends adventurers to consult Remy \"Two Times\", a local eccentric harboring a deep grudge and schemes of his own against the creatures.",
+ "attribution": [
+  "In-game quest text: A Man About a Murloc"
+ ]
+}

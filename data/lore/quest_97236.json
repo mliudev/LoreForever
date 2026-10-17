@@ -1,0 +1,109 @@
+{
+ "key": "quest:97236",
+ "type": "quest",
+ "name": "Fang of Githyiss",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97236
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "As defenders of Teldrassil, young night elf adventurers in Shadowglen help safeguard the boughs of Aldrassil by eliminating dangerous monstrosities and aiding local researchers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The study of dangerous wildlife across Teldrassil aids the Alliance by ensuring young recruits and researchers understand the corrupting threats nesting near Aldrassil."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids keep close watch over the natural balance within Teldrassil, studying unusual predators and overgrown arachnids to monitor the health of the surrounding wilds."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is fang of githyiss",
+    "githyiss fang quest",
+    "fang of githyiss item"
+   ],
+   "answer": "The Fang of Githyiss is a fresh specimen taken from the great spider Githyiss. Recovering such a massive fang provides rare research material regarding the arachnid predators dwelling in the wilds surrounding Aldrassil.",
+   "q": "What is the Fang of Githyiss?"
+  },
+  {
+   "aliases": [
+    "who is githyiss",
+    "githyiss spider",
+    "where is githyiss"
+   ],
+   "answer": "Githyiss is a notably large and dangerous spider prowling the forests near Aldrassil in Shadowglen. Its size makes it a menace to travelers and an intriguing subject for local naturalists.",
+   "q": "Who or what is Githyiss?"
+  },
+  {
+   "aliases": [
+    "who turns in fang of githyiss",
+    "where do i bring the fang",
+    "spider researcher aldrassil"
+   ],
+   "answer": "The fang is brought to a scholar in Aldrassil who specializes in the study of spiders. Such researchers welcome fresh specimens to advance their understanding of local arachnid biology.",
+   "q": "Who wants the Fang of Githyiss?"
+  },
+  {
+   "aliases": [
+    "where is aldrassil",
+    "aldrassil location"
+   ],
+   "answer": "Aldrassil is the great bough and central sanctuary of Shadowglen, located within the crown of the world tree Teldrassil. It serves as a training ground and haven for young night elves.",
+   "q": "Where is Aldrassil?"
+  },
+  {
+   "aliases": [
+    "why do they study spiders in aldrassil",
+    "why study spider fangs"
+   ],
+   "answer": "Scholars and naturalists in Aldrassil study local arachnids to better understand the ecology of Shadowglen and monitor the aggressive, oversized beasts dwelling beneath the canopy of Teldrassil.",
+   "q": "Why are scholars in Aldrassil studying spider fangs?"
+  },
+  {
+   "aliases": [
+    "is this quest alliance only",
+    "can horde do fang of githyiss"
+   ],
+   "answer": "Yes. The quest takes place within Shadowglen, the night elf starting enclave atop Teldrassil, making it accessible solely to Alliance adventurers beginning their journey in Aldrassil.",
+   "q": "Can Horde players turn in the Fang of Githyiss?"
+  }
+ ],
+ "keywords": [
+  "aldrassil",
+  "fang of githyiss",
+  "githyiss",
+  "shadowglen",
+  "spider",
+  "spider study",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:aldrassil"
+ ],
+ "sections": [
+  {
+   "body": "The Fang of Githyiss is a trophy and biological sample harvested from the overgrown spider Githyiss, who lurks in the wilds of Shadowglen. A beast of such notable bulk poses a clear threat to young travelers venturing out from Aldrassil, making the recovery of its fang both a matter of safety and scientific interest. Rather than letting the creature's remains rot in the underbrush, resourceful scouts take the specimen back to the sanctuary of the great tree.",
+   "spoiler": 0,
+   "title": "A Monstrous Specimen"
+  },
+  {
+   "body": "Within Aldrassil, night elf naturalists and scholars keep close track of the wildlife roaming the forest floor. Presenting a fresh, intact fang from a creature of Githyiss's magnitude provides crucial insight into the arachnid populations flourishing beneath Teldrassil's canopy. The local researchers welcome such unexpected discoveries, utilizing the massive fang to further their ongoing studies into the aggressive fauna of the glade.",
+   "spoiler": 0,
+   "title": "Research in Aldrassil"
+  }
+ ],
+ "summary": "The Fang of Githyiss is a rare and formidable specimen taken from a giant arachnid stalking the wilds near Aldrassil. Delivering the fang to a naturalist in the sanctuary allows scholars to study the monstrous creature and monitor the predatory threats nesting within Shadowglen.",
+ "attribution": [
+  "In-game quest text: Fang of Githyiss"
+ ]
+}

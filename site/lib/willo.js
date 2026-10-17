@@ -50,7 +50,9 @@ function offer(sizes, preview) {
 }
 
 // /willo's call to action: the download once there is one, else word that Willo is on its way. In-world and
-// price-free: the add-on sends players here (Blizzard's add-on rules, LOR-491).
+// price-free: the add-on sends players here (Blizzard's add-on rules, LOR-491). Phones and tablets (willo.css
+// .wl-phone, touch screens only; many visitors come from TikTok and Instagram) also get a button that sends her link to
+// the PC (js/keep-link.js), since she runs there.
 export function willoGet(sizes, preview = null) {
   const o = offer(sizes, preview);
   if (!o) {
@@ -60,6 +62,8 @@ export function willoGet(sizes, preview = null) {
   return `<p><a class="h-btn h-willo-btn dl-link" id="willo-download" href="/download/willo?src=willo"
       aria-label="Download Willo for Windows">${WILLO_BUTTON}</a></p>
       <ul class="h-meta"><li>Willo-Setup.exe</li>${size(o.bytes) ? `<li>${size(o.bytes)}</li>` : ""}<li>Windows 10 or 11</li><li>${o.version}</li></ul>
+      <div class="wl-phone"><p>On your phone? Willo runs on your Windows PC.</p>
+        <button type="button" class="h-btn h-ghost h-sm" data-keep="https://loreforeverwow.com/willo">Copy the link for your PC</button></div>
       <p class="wl-note">Willo walks beside the free <a href="/downloads#addon">Lore Forever add-on</a>: get that first.</p>`;
 }
 

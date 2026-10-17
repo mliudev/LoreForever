@@ -1,0 +1,112 @@
+{
+ "key": "quest:98423",
+ "type": "quest",
+ "name": "The Treaty of Understanding",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98423
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "This stone tablet is a tangible record of dwarven reconciliation, showing how your ancestors put aside their feud after the mountain was contested."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The historic peace between Bronzebeard and Wildhammer dwarves formed the foundation of their modern cooperation within the Grand Alliance."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is treaty of understanding",
+    "treaty tablet",
+    "what is this treaty"
+   ],
+   "answer": "The Treaty of Understanding is an ancient dwarven stone tablet recovered from deep vaults. It records the formal peace agreement between the Bronzebeard and Wildhammer clans established directly following the conclusion of the War of the Three Hammers.",
+   "q": "What is the Treaty of Understanding?"
+  },
+  {
+   "aliases": [
+    "who wrote treaty of understanding",
+    "who made treaty of understanding",
+    "who drafted the treaty"
+   ],
+   "answer": "The treaty was drafted in the aftermath of the War of the Three Hammers during the reign of Madoran Bronzebeard, the first Bronzebeard king of Ironforge after the three clans fought for control of the mountain.",
+   "q": "Who created the treaty?"
+  },
+  {
+   "aliases": [
+    "why didnt dark iron sign",
+    "did dark iron sign treaty",
+    "dark irons not on treaty"
+   ],
+   "answer": "The Dark Iron clan refused to accept peace after the Bronzebeards took control of Ironforge. Consequently, only the Bronzebeard and Wildhammer clans signed the agreement, leaving the Dark Irons isolated and hostile.",
+   "q": "Why did the Dark Iron clan not sign the treaty?"
+  },
+  {
+   "aliases": [
+    "who wants the treaty",
+    "who do i give treaty of understanding to",
+    "where to turn in treaty"
+   ],
+   "answer": "The tablet is delivered to King Magni Bronzebeard in the High Seat of Ironforge, who values it as an invaluable relic of his ancestor Madoran and dwarven history.",
+   "q": "Who is interested in the Treaty of Understanding?"
+  },
+  {
+   "aliases": [
+    "what was the war of the three hammers",
+    "dwarf civil war",
+    "three hammers war"
+   ],
+   "answer": "The War of the Three Hammers was a bitter civil war fought between the Bronzebeard, Wildhammer, and Dark Iron dwarf clans for control of Ironforge mountain. The Bronzebeards emerged victorious, claiming the mountain while the other clans were driven out.",
+   "q": "What was the War of the Three Hammers?"
+  },
+  {
+   "aliases": [
+    "who is madoran bronzebeard",
+    "madoran bronzebeard",
+    "magni ancestor madoran"
+   ],
+   "answer": "Madoran Bronzebeard was the ancestor of King Magni Bronzebeard and the first Bronzebeard king to rule Ironforge following the civil war among the three dwarven clans.",
+   "q": "Who was Madoran Bronzebeard?"
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "ironforge",
+  "madoran bronzebeard",
+  "magni bronzebeard",
+  "peace treaty",
+  "treaty of understanding",
+  "war of the three hammers",
+  "wildhammer"
+ ],
+ "related": [
+  "npc:magni-bronzebeard",
+  "zone:ironforge",
+  "topic:dwarf",
+  "topic:dark-iron-clan"
+ ],
+ "sections": [
+  {
+   "body": "Recovered from deep within an ancient vault, the Treaty of Understanding is a historic stone tablet documenting the formal cessation of hostilities between dwarven clans. Dating to the turbulent aftermath of the War of the Three Hammers, it represents the moment peace was forged between the Bronzebeard and Wildhammer clans after the Bronzebeards secured control of Ironforge mountain.",
+   "spoiler": 0,
+   "title": "A Relic of Dwarven Reconciliation"
+  },
+  {
+   "body": "When presented with the recovered tablet, King Magni Bronzebeard recognizes it as the work of his ancestor, Madoran Bronzebeard, the first Bronzebeard king of Ironforge. While the document bears the signatures of both the Bronzebeard and Wildhammer leaders, it conspicuously lacks the mark of the Dark Iron clan, serving as a lasting testament to the enduring rift between the Dark Irons and their mountain kin.",
+   "spoiler": 0,
+   "title": "The Unsigned Peace"
+  }
+ ],
+ "summary": "The Treaty of Understanding is an ancient dwarven tablet detailing the historic peace agreement between the Bronzebeard and Wildhammer clans following the War of the Three Hammers. Recovered from subterranean depths and brought before King Magni Bronzebeard, the artifact preserves a pivotal moment in dwarven history while highlighting the bitter rift that left the Dark Iron clan excluded from the peace.",
+ "attribution": [
+  "In-game quest text: The Treaty of Understanding"
+ ]
+}

@@ -12,6 +12,7 @@
 
 import { readCheckin, saveCheckin, isInternal } from "../../../lib/checkins.js";
 import { readFeatureUsage, saveFeatureUsage, dailyUpkeep, MAX_BODY } from "../../../lib/featureuse.js";
+import { sweepAnswerLog } from "../../../lib/answer-log.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
 const answer = status => new Response(null, { status, headers: NO_STORE });
@@ -33,10 +34,9 @@ export async function onRequestPost({ request, env, waitUntil }) {
     await saveCheckin(env, checkin);
     if (usage) await saveFeatureUsage(env, checkin.install, usage, isInternal(checkin));
   } catch (e) { return answer(503); }
-  // The day's upkeep (old rows out, rollups) never holds up or fails a check-in.
-  if (usage) {
-    const upkeep = dailyUpkeep(env).catch(() => {});
-    if (typeof waitUntil === "function") waitUntil(upkeep); else await upkeep;
-  }
+  // The day's upkeep (old rows out, rollups) never holds up or fails a check-in. Every check-in also clears Willo's
+  // answers past their 14 days (lib/answer-log.js), so they go on a day nobody asks her anything too.
+  const upkeep = Promise.all([usage ? dailyUpkeep(env).catch(() => {}) : null, sweepAnswerLog(env)]);
+  if (typeof waitUntil === "function") waitUntil(upkeep); else await upkeep;
   return answer(204);
 }

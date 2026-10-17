@@ -19,6 +19,8 @@
   background: linear-gradient(180deg, #fbe7b4, #d9a34a 80%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
 .h-tag { font: 600 clamp(1.15rem, 2.2vw, 1.6rem)/1.35 var(--h-display); letter-spacing: 0.01em; }
 .h-tag .b { color: var(--h-gold-hi); } .h-tag .w { color: var(--h-wisp-hi); }
+/* Phones only: a way to Willo under the tagline, above her clip (index.html; shown in the 760px rules below). */
+.h-quick { display: none; }
 .h-doors { position: relative; display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 22px; align-items: stretch; }
 .h-door { display: grid; grid-template-rows: auto 1fr; border-radius: 18px; overflow: hidden; border: 1px solid var(--h-line); background: var(--h-panel); min-width: 0; }
 .h-door.w { border-color: #93b6ff4d; background: linear-gradient(180deg, #121a3a, #10142a 40%, var(--h-panel)); box-shadow: 0 40px 90px -50px #3150d8, inset 0 1px 0 #93b6ff26; }
@@ -188,6 +190,10 @@
 @media (max-width: 760px) {
   .home main, .home .h-foot { font-size: 17px; }
   .h-title { margin-bottom: 20px; }
+  .h-quick { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 6px; }
+  .h-quick .h-btn { min-height: 46px; padding: 0 16px; gap: 8px; }
+  .h-quick .h-btn img { width: 22px; height: 22px; }
+  .h-quick-addon { font-size: 0.95rem; font-weight: 500; }
   .h-doors { margin-inline: -16px; }
   .h-door { border-radius: 0; border-inline: 0; }
   .h-clip { padding: 0; }

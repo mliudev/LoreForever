@@ -1,0 +1,109 @@
+{
+ "key": "quest:91724",
+ "type": "quest",
+ "name": "Delicate Instruments",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91724
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Practitioners of the arcane will recognize how careless spellcasting by amateurs like the Defias rogue wizards can send wild fluctuations rolling across Elwynn, throwing sensitive magical research into chaos."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Maintaining order around the Tower of Azora is vital for securing eastern Elwynn Forest against Defias encroachment."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives delicate instruments",
+    "delicate instruments questgiver",
+    "where is hamish bergwort"
+   ],
+   "answer": "Hamish Bergwort offers this quest from within the Tower of Azora in eastern Elwynn Forest. He is conducting arcane research that requires stable magical conditions.",
+   "q": "Who offers the quest Delicate Instruments?"
+  },
+  {
+   "aliases": [
+    "what is disrupting the instruments",
+    "why are instruments disrupted",
+    "delicate instruments interference"
+   ],
+   "answer": "The delicate instruments in the Tower of Azora are suffering from arcane interference caused by local Defias bandits who have taken up crude spellcasting near Stone Cairn Lake.",
+   "q": "What is disrupting Hamish Bergwort's instruments?"
+  },
+  {
+   "aliases": [
+    "where are the rogue wizards",
+    "stone cairn lake rogue wizards",
+    "where to find defias rogue wizards"
+   ],
+   "answer": "The Defias rogue wizards gather along the shores and surrounding grounds of Stone Cairn Lake, located just north of the Tower of Azora in Elwynn Forest.",
+   "q": "Where can the Defias Rogue Wizards be found?"
+  },
+  {
+   "aliases": [
+    "why do defias have wizards",
+    "defias spellcasters",
+    "rogue wizards lore"
+   ],
+   "answer": "While primarily consisting of disgruntled laborers, highwaymen, and thieves, the Defias Brotherhood has recruited renegade dabblers in the arcane. These rogue wizards practice magic without sanction, causing erratic disruptions in the region.",
+   "q": "Why are Defias bandits practicing magic?"
+  },
+  {
+   "aliases": [
+    "what is tower of azora",
+    "azora tower elwynn",
+    "who runs tower of azora"
+   ],
+   "answer": "The Tower of Azora is an arcane spire situated in eastern Elwynn Forest, serving as a haven for human magi and scholars studying ley lines, magical anomalies, and regional security.",
+   "q": "What is the Tower of Azora?"
+  },
+  {
+   "aliases": [
+    "does stopping the wizards work",
+    "delicate instruments outcome",
+    "hamish bergwort instruments fixed"
+   ],
+   "answer": "Yes. Once you cull the Defias rogue wizards casting at Stone Cairn Lake, the ambient magical resonance calms down, allowing Hamish Bergwort's apparatus to function properly once more.",
+   "q": "Does eliminating the rogue wizards fix the problem?"
+  }
+ ],
+ "keywords": [
+  "defias brotherhood",
+  "defias rogue wizard",
+  "delicate instruments",
+  "elwynn forest",
+  "hamish bergwort",
+  "stone cairn lake",
+  "tower of azora"
+ ],
+ "related": [
+  "subzone:tower-of-azora",
+  "subzone:stone-cairn-lake"
+ ],
+ "sections": [
+  {
+   "body": "Within the Tower of Azora, Hamish Bergwort attempts to conduct delicate magical experiments, only to be repeatedly interrupted by unexplained ambient disruptions. In an arcane sanctuary where precise measurements are everything, even slight ripples in the local magical weave can ruin hours of careful work. Bergwort suspects the disruptions are not natural, but rather the result of crude spells cast nearby.",
+   "spoiler": 0,
+   "title": "Interference at the Tower"
+  },
+  {
+   "body": "The source of the magical static traces back to Stone Cairn Lake, where Defias rogue wizards have been practicing unchecked spellcraft. The Defias Brotherhood's reliance on rogue spellcasters introduces unstable, amateur magic into the Elwynn countryside. Dispatching these rogue wizards silences the magical noise, finally allowing Bergwort's sensitive instruments to register clean readings.",
+   "spoiler": 0,
+   "title": "Banditry and the Arcane"
+  }
+ ],
+ "summary": "Delicate Instruments is a quest in eastern Elwynn Forest focused on restoring magical stability to the Tower of Azora. Hamish Bergwort's sensitive equipment is being disrupted by erratic spellcasting practiced by nearby Defias rogue wizards. Resolving the disturbance requires putting an end to the amateur sorcery around Stone Cairn Lake.",
+ "attribution": [
+  "In-game quest text: Delicate Instruments"
+ ]
+}

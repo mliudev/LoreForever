@@ -4,14 +4,18 @@
 // players to Willo:
 //   SELECT day, n FROM willo_clicks ORDER BY day DESC
 // and fills the page's call to action from lib/willo.js: Willo's own download once a release has Willo-Setup.exe,
-// else word that Willo is coming. Link-preview bots get the page but aren't counted.
+// else word that Willo is coming. Link-preview bots get the page but aren't counted. ?shared=<code> (a Share Willo
+// link, functions/w/[code].js) adds who sent them above the download (lib/referrals.js shareBanner).
 
 import { loadSizes } from "../lib/packs.js";
 import { willoGet, willoPreview } from "../lib/willo.js";
+import { codeOwner, shareBanner } from "../lib/referrals.js";
+import { escape } from "../lib/voices.js";
 
 const SETUP = "CREATE TABLE IF NOT EXISTS willo_clicks (day TEXT PRIMARY KEY, n INTEGER NOT NULL)";
 const BOTS = /bot|crawler|spider|preview|facebookexternalhit|embedly|whatsapp|telegram|slack/i;
 const GET = /<!-- willo-get -->[\s\S]*?<!-- \/willo-get -->/;
+const SHARED = /<!-- willo-shared:[^>]*-->/;
 
 export async function onRequestGet({ request, env, waitUntil, next }) {
   // Counting runs after the response, so it never holds up or breaks the page.
@@ -19,12 +23,15 @@ export async function onRequestGet({ request, env, waitUntil, next }) {
   const page = await next();
   const html = await page.text();
   if (!GET.test(html)) return new Response(html, page);      // not the page (a missing file is the home page)
-  const [sizes, preview] = await Promise.all([loadSizes(env, request), willoPreview(env, request)]);
+  const shared = new URL(request.url).searchParams.get("shared");
+  const [sizes, preview, owner] = await Promise.all([loadSizes(env, request), willoPreview(env, request),
+    shared && env.DB ? codeOwner(env, shared).catch(() => null) : null]);
   const headers = new Headers(page.headers);
   headers.set("Cache-Control", "no-cache");
   headers.delete("Content-Length");
   headers.delete("ETag");
-  return new Response(html.replace(GET, () => willoGet(sizes, preview)), { status: page.status, headers });
+  return new Response(html.replace(GET, () => willoGet(sizes, preview)).replace(SHARED, () => shareBanner(owner, escape)),
+    { status: page.status, headers });
 }
 
 async function count(db) {

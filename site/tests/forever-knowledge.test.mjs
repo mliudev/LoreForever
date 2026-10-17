@@ -8,7 +8,7 @@ import { onRequestPost as flag } from "../functions/api/companion/feedback.js";
 import { onRequestGet as adminGet, onRequestPost as adminPost } from "../functions/api/admin/willo.js";
 import { findOrCreateUser, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { promptParts, travelQuestion, travelKinds, inWorld, SEED_FACTS } from "../lib/forever-knowledge.js";
+import { promptParts, travelQuestion, travelKinds, inWorld, SEED_FACTS, asksTheWay, wayQuestion } from "../lib/forever-knowledge.js";
 import { DATA_VERSION } from "../lib/knowledge-version.js";
 import { feedbackKind } from "../lib/answer-feedback.js";
 import { d1 } from "./helpers.mjs";
@@ -109,6 +109,12 @@ test("travel questions are the way somewhere, not a level, a reputation or a dru
   assert.deepEqual(travelKinds("Is there a flight path in the Riverglades?"), { boats: false, flights: true });
   assert.deepEqual(travelKinds("Where does the boat from Southshore go?"), { boats: true, flights: false });
   assert.deepEqual(travelKinds("How do I get to Mount Hyjal?"), { boats: true, flights: true });
+  // Which way to go, heard as "what do I turn for" on Mike's stream (10/15, LOR-594): read as the way there; a turn-in
+  // is left as it is.
+  assert.equal(wayQuestion("What do I turn for the dig site?"), "Which way do I go to reach the dig site?");
+  for (const q of ["Where do I turn in the Titan Relic?", "Where do I turn this quest in?", "What do I turn it in to?"])
+    assert.ok(!asksTheWay(q), q);
+  assert.ok(asksTheWay("Where do I turn for the dig site in the Wetlands?"));
   assert.ok(!travelQuestion("Wow, what's this? I'm flying. What do you see?"));
   for (const q of ["Where does this big Zeppelin go?", "How do I get to the Frey Allen from here?", "Is this the right harbor?",
     "What's the fastest way from Stormwind to Ironforge?", "How do I get to Kalimdor from here?",
@@ -141,6 +147,7 @@ test("feedbackKind tells corrections and frustration after an answer from ordina
   const answered = "Those are the towers of Ironforge.";
   for (const said of ["I'm pretty sure that's Dalaran.", "No, this boat goes to Southshore.", "You're wrong about that.",
     "Make a note that your information is outdated.", "Actually it's rebuilt now.",
+    "The disarming tool I have is actually an off-hand weapon that can disarm on a chance.",
     "But I can choose Undead Paladin in WoW Forever."]) assert.equal(feedbackKind(said, answered), "correction", said);
   for (const said of ["That's useless.", "You're not listening to me", "What are you talking about?"])
     assert.equal(feedbackKind(said, answered), "frustration", said);

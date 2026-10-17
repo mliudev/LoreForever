@@ -1,0 +1,103 @@
+{
+ "key": "quest:99127",
+ "type": "quest",
+ "name": "A Net Disaster",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99127
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Crystal Lake sits squarely in Elwynn Forest, making local disruptions directly threaten the livelihoods and supplies supporting the heart of Alliance territory."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is a net disaster",
+    "net disaster quest",
+    "crystal lake net disaster"
+   ],
+   "answer": "A Net Disaster is a quest set at Crystal Lake in Elwynn Forest. Local fishermen have noticed that the fish have stopped biting and even the minnows have vanished, prompting an investigation into the overnight traps.",
+   "q": "What is A Net Disaster?"
+  },
+  {
+   "aliases": [
+    "where are the traps",
+    "net disaster location",
+    "crystal lake traps"
+   ],
+   "answer": "The fishing traps are located submerged in Crystal Lake, placed overnight by Lee to maintain fish stock when regular hook-and-line fishing failed.",
+   "q": "Where do you inspect the fishing traps?"
+  },
+  {
+   "aliases": [
+    "who is lee",
+    "lee fisherman"
+   ],
+   "answer": "Lee is a local fisherman at Crystal Lake who set traps overnight to help secure stock when fish stopped biting normally on line and hook.",
+   "q": "Who is Lee?"
+  },
+  {
+   "aliases": [
+    "what happened to crystal lake fish",
+    "why no fish crystal lake",
+    "crystal lake empty"
+   ],
+   "answer": "The fish have completely vanished from the surface waters, with not even a single minnow visible. An inspection reveals that the overnight traps have been wrecked by new neighboring nuisances.",
+   "q": "What happened to the fish in Crystal Lake?"
+  },
+  {
+   "aliases": [
+    "who are the neighboring nuisances",
+    "net disaster nuisances",
+    "who broke the traps"
+   ],
+   "answer": "The quest giver refers to new neighboring nuisances encroaching upon Crystal Lake. In the waters and shores of Crystal Lake, aggressive murlocs have established camps and caused havoc among the local wildlife and fishing equipment.",
+   "q": "Who are the neighboring nuisances mentioned at the end?"
+  },
+  {
+   "aliases": [
+    "why does the quest giver care",
+    "crystal lake fishing business"
+   ],
+   "answer": "The quest giver relies directly on fish stocks from Crystal Lake for their livelihood. With damaged traps and empty hauls, the threat of financial ruin looms unless the disruption is stopped.",
+   "q": "Why is the lack of fish such a big problem for the fishermen?"
+  }
+ ],
+ "keywords": [
+  "a net disaster",
+  "crystal lake",
+  "elwynn forest",
+  "fish stock",
+  "fishing traps",
+  "lee",
+  "murlocs",
+  "nuisances"
+ ],
+ "related": [
+  "subzone:crystal-lake"
+ ],
+ "sections": [
+  {
+   "body": "At Crystal Lake in Elwynn Forest, local fishermen face an alarming drought in their daily catch. Empty hooks are common enough, but when not even minnows appear in the shallows, everyday angling turns into a serious mystery. To salvage what they can, overnight traps are set in hopes of pulling in basic stock.",
+   "spoiler": 0,
+   "title": "Troubled Waters at Crystal Lake"
+  },
+  {
+   "body": "Pulling the submerged traps reveals that the problem is not poor luck, but outright sabotage and destruction. Hostile neighboring nuisances along the lake's shores have ruined the traps, threatening to drive the local fishermen completely out of business unless something is done.",
+   "spoiler": 1,
+   "title": "Wrecked Traps and Neighboring Nuisances"
+  }
+ ],
+ "summary": "A Net Disaster is an Elwynn Forest quest centered on an unusual disruption at Crystal Lake. With hook-and-line fishing yielding nothing and even minnows disappearing from the shallows, adventurers are dispatched to check overnight traps. The ruined traps reveal that hostile neighboring intruders are actively wrecking local fishing gear.",
+ "attribution": [
+  "In-game quest text: A Net Disaster"
+ ]
+}

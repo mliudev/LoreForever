@@ -100,10 +100,20 @@ const HERE_AND_NOW = new RegExp([
   String.raw`\bwhat (?:is|was) this place\b|\bwhat place is this\b|\bwhat (?:do|can) you see\b|\bwhat am i (?:looking at|seeing|doing here)\b`,
   String.raw`\btell me (?:more )?about (?:this place|here|where (?:i am|i'm|we are|we're))\b`,
 ].join("|"), "i");
-const ASKS_SEARCH = /\b(?:search|look (?:it |that |this )?up|check online)\b/i;
+const ASKS_SEARCH = /\b(?:search|google|look (?:it |that |this )?up|check online|(?:on|the) (?:internet|interwebs?|web))\b/i;
+// The player doubting the last answer (LOR-593, Mike's stream 10/15: Willo was wrong twice about Shoni's Disarming
+// Tool): that's a cue to look it up, not to say it again.
+const DOUBTS = /\b(?:are you sure|you sure|(?:double|can you|could you|please) check|i don'?t think so|i doubt (?:it|that)|(?:that|this|it) (?:doesn'?t|does not|can'?t|cannot) (?:sound|be) right)\b|^\W*really\W*$/i;
+// Words that carry no topic of their own in a request to search or a doubt ("can you search on the interwebs?", "are
+// you sure?"): what to look up is then what was asked before (searchesBefore).
+const NO_TOPIC = new Set(`hey willow willo ok okay oh hmm uh um so well can could would will you please just go ahead and
+search google look it that this up for me on the internet interwebs interweb web webs online check again are sure really
+double i don't dont think doubt sounds sound right is does not doesnt doesn't that's thats can't cant be a of`.split(/\s+/));
 const PROFESSION = String.raw`(?:blacksmithing|alchemy|engineering|enchanting|leatherworking|tailoring|cooking|fishing|first aid|mining|herbalism|skinning)`;
 const PRACTICAL = new RegExp([
   String.raw`\b(?:nearest|closest|buy|sells?|sold|vendors?|merchants?|obtain|rewards?|recipes?|unlocks?|requirements?|materials?|reagents?|drops?|craft(?:ing)?|level(?:l)?ing|farming|trainers?|stance|repairs?|innkeeper|bank|auction ?house)\b`,
+  // How an item or ability works (LOR-593: "what's the proc chance for Shoni's disarm?" was answered from memory).
+  String.raw`\b(?:procs?|proc(?:'?s)? (?:chance|rate)|drop (?:rate|chance)|chance on hit|stats|dps|cooldown|armou?r value)\b`,
   // To learn a skill or spell, not to learn about a story.
   String.raw`\blearn\b(?! (?:about|more|of)\b)`,
   String.raw`\b(?:i|we|to|can|should) farm\b`,
@@ -140,8 +150,28 @@ export function realWorld(question, previous = "") {
     (REAL_WORLD.test(before) || OWN_WEATHER.test(before));
 }
 export function wantsSearch(question, dispute, facts) {
-  if ((facts || []).some(f => f.asked)) return false;
   const q = String(question || "").replace(/’/g, "'");
+  if (ASKS_SEARCH.test(q) || DOUBTS.test(q)) return true;     // asked to, or doubted: always (LOR-593)
+  if ((facts || []).some(f => f.asked)) return false;
   if (HERE_AND_NOW.test(q)) return false;
-  return dispute === "correction" || ASKS_SEARCH.test(q) || PRACTICAL.test(q) || REAL_WORLD.test(q);
+  return dispute === "correction" || PRACTICAL.test(q) || REAL_WORLD.test(q);
 }
+// The player asks to search, or doubts the answer, with no topic of their own ("can you search on the interwebs?",
+// "are you sure?"): the look-up is for what they asked before (functions/api/companion/answer.js). On 10/15 the site
+// looked up "what is WoW Forever" for "can you search on the interwebs?" (LOR-593).
+export function searchesBefore(question) {
+  const q = String(question || "").replace(/’/g, "'");
+  if (!ASKS_SEARCH.test(q) && !DOUBTS.test(q)) return false;
+  return (q.toLowerCase().match(/[a-z']+/g) || []).filter(w => !NO_TOPIC.has(w)).length <= 1;
+}
+// The player asks for a look-up or doubts the answer (LOR-593).
+export const pressedToLook = question => {
+  const q = String(question || "").replace(/’/g, "'");
+  return ASKS_SEARCH.test(q) || DOUBTS.test(q);
+};
+// Asked to look, or doubted, and the look found nothing: no guess (LOR-593). In the world's terms, as every answer.
+const NOTHING = "Nothing more could be found just now: don't guess and don't repeat your last answer as certain. Say plainly, in the world's terms, that you couldn't find a sure answer, share only what's certain, and never give a number, rate or name you weren't given.";
+export const FOUND_NOTHING = `NOTHING FOUND: the player asked you to look into this, or doubted your last answer. ${NOTHING} Never mention searches or the web.`;
+// A bare "can you search on the interwebs?" or "are you sure?" (searchesBefore): on 10/15 Willo answered the words
+// ("I cannot search the interwebs") instead of what they were about. found: EARLIER RESEARCH came with the answer.
+export const askedAgain = (before, found) => `ASKED AGAIN: the player asks you to look again into what they asked before ("${String(before || "").slice(0, 300)}"). Answer that question now${found ? ", from EARLIER RESEARCH" : `. ${NOTHING}`} Never say you can't search, and never mention searches or the web.`;

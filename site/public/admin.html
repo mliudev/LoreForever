@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261015w">
+<link rel="stylesheet" href="/style.css?v=20261016t">
 <link rel="stylesheet" href="/admin.css">
 </head>
 <body>
@@ -47,6 +47,7 @@
     <a href="#growth" data-tab="growth">Growth</a>
     <a href="#players" data-tab="players">Players</a>
     <a href="#community" data-tab="community">Community <span class="ad-badge" id="n-community"></span></a>
+    <a href="/admin/voices.html">Voice work</a>
   </nav>
 
   <!-- ===== Overview: the headline numbers, each linking to where it comes from ===== -->
@@ -146,6 +147,7 @@
         <div class="ad-tile"><div class="ad-label">Running</div><div class="ad-num" id="w-run">-</div><div class="ad-sub" id="w-run-sub"></div></div>
         <div class="ad-tile"><div class="ad-label">Paying</div><div class="ad-num" id="w-pay">-</div><div class="ad-sub" id="w-pay-sub"></div></div>
         <div class="ad-tile"><div class="ad-label">Beta offers taken</div><div class="ad-num" id="w-claims">-</div><div class="ad-sub" id="w-claims-sub"></div></div>
+        <div class="ad-tile" title="New players' first 20 answers at Willo's best (lib/best-first.js): her finest voice, a look online"><div class="ad-label">First answers at her best</div><div class="ad-num" id="w-taste">-</div><div class="ad-sub" id="w-taste-sub"></div></div>
       </div>
         <p class="ad-empty" style="margin-top:10px" id="w-note"></p></div>
       <figure class="ad-panel ad-chart" id="c-willo-dau" style="margin:0"><h3>Players who asked Willo per day, last 30 days</h3></figure>
@@ -328,6 +330,7 @@
       <a href="#edits" data-sub="edits">Edits <span class="ad-badge" id="n-edits"></span></a>
       <a href="#contributions" data-sub="contributions">Shared text <span class="ad-badge quiet" id="n-contrib"></span></a>
       <a href="#contacts" data-sub="contacts">Contacts <span class="ad-badge quiet" id="n-contacts"></span></a>
+      <a href="#creators" data-sub="creators">Creators</a>
     </nav>
     <div class="ad-sub-tab" id="sub-feedback" data-sub="feedback" hidden>
     <h2 id="feedback">Feedback</h2>
@@ -376,6 +379,10 @@
       <div id="w-list"></div>
       <h3 style="margin-top:14px">Forever facts <span class="ad-count" id="wf-count"></span></h3>
       <div id="wf-list"></div>
+      <!-- Reports on players in Willo's friends (lib/friends.js): the reporter's note and the messages kept. The player
+           reported is blocked for the reporter already; Done closes it (reports go after 90 days either way). -->
+      <h3 style="margin-top:14px">Friend reports <span class="ad-count" id="fr-count"></span></h3>
+      <div id="fr-list"></div>
     </div>
     </div>
     <div class="ad-sub-tab" id="sub-clip-reports" data-sub="clip-reports" hidden>
@@ -476,11 +483,39 @@
       </div>
     </div>
     </div>
+    <div class="ad-sub-tab" id="sub-creators" data-sub="creators" hidden>
+    <!-- Creators (LOR-503, CC-72; admin-creators.js, functions/api/admin/creators.js, lib/referrals.js): each creator's
+         link (/w/<code>) and Stripe code, what it brought and what they're owed. Payouts are by hand: "Mark paid" notes
+         one. A refund after a payment isn't taken off by itself: check Stripe before paying. -->
+    <h2 id="creators">Creators</h2>
+    <div class="ad-panel">
+      <p class="ad-count" id="cr-players"></p>
+      <div class="ad-table-wrap">
+        <table><thead><tr><th>Creator and link</th><th>Terms</th><th>Stripe code</th><th>Clicks</th><th>Connected Willo</th><th>Paid</th><th>Earned</th><th>Owed</th><th></th></tr></thead><tbody id="cr-list"></tbody></table>
+      </div>
+      <p class="fb-status" id="cr-status" role="status" hidden></p>
+      <h3 style="margin-top:14px">Add a creator, or change one's terms</h3>
+      <form id="cr-form" class="ad-filters">
+        <input id="cr-code" placeholder="code, like ziqo" aria-label="Code" required pattern="[a-z0-9][a-z0-9\-]{1,23}">
+        <input id="cr-name" placeholder="Name players see" aria-label="Name">
+        <input id="cr-contact" placeholder="Contact (email, Discord)" aria-label="Contact">
+        <label>% off first month <input id="cr-discount" type="number" min="0" max="100" placeholder="50" style="width:5em"></label>
+        <label>Their share % <input id="cr-share_pct" type="number" min="0" max="100" placeholder="20" style="width:5em"></label>
+        <label>for months <input id="cr-months" type="number" min="1" max="36" placeholder="3" style="width:4em"></label>
+        <label>Answers on connecting <input id="cr-gift" type="number" min="0" max="1000" placeholder="100" style="width:5em"></label>
+        <input id="cr-promo_id" placeholder="promo_... (only if made by hand)" aria-label="Stripe promotion code id">
+        <button type="submit">Save</button>
+      </form>
+      <p class="ad-count">Blank terms keep what they were (a new creator's: 50% off, 100 answers, 20% of 3 months). Their
+        Stripe code is their code in capitals, for their first payment only, so their audience can type it at checkout too.
+        If Stripe won't let the site make it, make it in Stripe's Dashboard and paste its id (promo_...).</p>
+    </div>
+    </div>
   </section>
 </main>
 
 <!-- The page's script is a file: /admin's Content-Security-Policy (public/_headers) runs no inline script.
      Bump ?v= when admin-page.js changes, since browsers keep .js for 4 hours on loreforeverwow.com. -->
-<script type="module" src="/admin-page.js?v=20261015"></script>
+<script type="module" src="/admin-page.js?v=20261016t"></script>
 </body>
 </html>

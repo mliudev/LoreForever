@@ -2,7 +2,9 @@
 // wow forever so we can get accurate answers like talents, classes, legacy points, etc"). Seed facts for
 // lib/forever-knowledge.js, each searched on its own, so each names its own subject. Checked against the Forever
 // client (build 1.60.1.70338: CharBaseInfo, the Trait trees, SkillLineAbility, AreaTable, Faction, Map, LFGDungeons,
-// GlobalStrings) and Blizzard's own articles; never Wowhead. Not here: anything only the client hints at that Blizzard
+// GlobalStrings) and Blizzard's own articles; never Wowhead itself. The dungeon and library facts at the end are from
+// ForeverChanges (foreverchanges.pro: the beta client, Blizzard and players' beta reports; Mike, 10/15: a source for
+// what Forever changes), as facts in our words. Not here: anything only the client hints at that Blizzard
 // hasn't announced (Gilneas, Manor Mistmantle, Hyjal Crater), Season of Discovery content in the same client, and
 // per-rank talent numbers (higher ranks aren't in the client).
 
@@ -32,6 +34,8 @@ const ZONES = { title: "Warcraft Tavern: all new zones in WoW Forever",
 const KIRIN_TOR = { title: "Icy Veins: Horde players aren't welcome in Dalaran in WoW Forever",
   url: "https://www.icy-veins.com/wow-forever/news/wow-forever-confirms-horde-players-arent-welcome-in-dalaran/" };
 const wiki = page => ({ title: `Warcraft Wiki: ${page} (Forever)`, url: `https://warcraft.wiki.gg/wiki/${page.replace(/ /g, "_")}` });
+const changes = (page, path) => ({ title: `ForeverChanges: ${page}`, url: `https://foreverchanges.pro${path}` });
+const FAVOR = changes("Merchant's Favor", "/merchants-favor");
 
 export const GAME_FACTS = [
   // Talents and the Legacy system
@@ -196,12 +200,84 @@ export const GAME_FACTS = [
       "Windshapers (Horde) and the Nightclaw Druids of its Shadowgale Forest." },
   { id: "raid-schedule", title: "When WoW Forever's raids open", source: ROADMAP,
     text: "WoW Forever's raids open on 9 December 2026: the Barrow Deeps (10 players), Hyjal Summit (20) and " +
-      "Onyxia's Lair (40). The Barrow Deeps are where Illidan Stormrage was imprisoned." },
+      "Onyxia's Lair (40). The Barrow Deeps are where Illidan Stormrage was imprisoned for ten thousand years, until " +
+      "Tyrande freed him in the Third War." },
   { id: "rep-kirin-tor", title: "Kirin Tor reputation", zone: "Alterac Mountains", source: KIRIN_TOR,
     text: "The Kirin Tor are an Alliance reputation in WoW Forever: Horde characters start Hated and don't get full " +
       "access to Dalaran, though Horde groups can run the City of Dalaran dungeon through their own quests." },
+  // LOR-578: Willo, as Marcy Baker, sent Mike to a keep with his sealed goods; she takes them herself (his stream,
+  // 10/14: "Set it over by the pile").
+  // Each camp is its own fact, so a player near one gets theirs; the crates and what Favor buys are one more.
+  { id: "three-corners-commerce", title: "The Azeroth Commerce Authority at Three Corners", zone: "Redridge Mountains",
+    source: FAVOR,
+    text: "At Three Corners in Redridge Mountains, where the roads from Elwynn Forest, Duskwood and Lakeshire meet " +
+      "(10.5, 72.7), the Azeroth Commerce Authority keeps an Alliance supply camp, new in WoW Forever. Marcy Baker, its " +
+      "Inventory Intake, takes the filled Waylaid Crates, the sealed goods adventurers bring in, right there (9.5, 71.1), " +
+      "for Merchant's Favor. The camp has no mailbox, and Redridge is contested: under PvP rules the Horde can attack there." },
+  { id: "durotar-supply-logistics", title: "Durotar Supply and Logistics near the Crossroads", zone: "The Barrens",
+    source: FAVOR,
+    text: "Just west of the Crossroads in the Barrens, on the road to Stonetalon (49.7, 29.4), Durotar Supply and " +
+      "Logistics keeps the Horde's supply camp, new in WoW Forever, its match for the Alliance's Azeroth Commerce " +
+      "Authority. Dokimi takes the filled Waylaid Crates there (50.0, 29.2), for Merchant's Favor. Both camps sell the " +
+      "same things at the same prices; this one has no mailbox." },
+  { id: "waylaid-crates", title: "Waylaid Crates and Merchant's Favor", source: FAVOR,
+    text: "WoW Forever's Waylaid Crates (such as Waylaid Crate: Apprentice Herbs) drop now and then from ordinary " +
+      "monsters of about levels 7 to 26; they're rare, so most players buy them at the auction house. Open one " +
+      "and put in any one bundle it lists, such as 20 Peacebloom or 20 Silverleaf, to fill it; no gathering profession " +
+      "is needed. Apprentice and Journeyman crates work from level 10, Expert from 20 and Artisan from 35. A filled " +
+      "crate pays 5 to 20 Merchant's Favor at a supply camp: Marcy Baker at Three Corners in Redridge for the Alliance, " +
+      "Dokimi just west of the Crossroads in the Barrens for the Horde." },
+  { id: "merchants-favor-rewards", title: "What Merchant's Favor buys", source: FAVOR,
+    text: "Merchant's Favor stays on the character that earned it. At the supply camps it buys about 317 profession " +
+      "recipes no trainer teaches, mostly 30 to 240 Favor each, from a vendor for each profession, plus a pet, a toy, a " +
+      "tabard and the Pack Kodo mount. No recipe needs the camp's reputation, which comes from Craftsman's Writs." },
   { id: "dungeon-hall-of-thanes-quests", title: "Getting into the Hall of Thanes", zone: "Dun Morogh",
     source: wiki("Hall of Thanes (instance)"),
     text: "The Hall of Thanes, beneath Ironforge, is an Alliance dungeon for levels 13 to 18. Its quest chain starts " +
       "with Earthseer Farsen overlooking Gol'Bolar Quarry in Dun Morogh and ends with Old Ironforge Incursion." },
+
+  // The new dungeons from the inside, and the library books (ForeverChanges). The last bosses stay out: the lore
+  // entries keep them in spoiler sections.
+  { id: "dungeon-hall-of-thanes-inside", title: "Inside the Hall of Thanes", zone: "Ironforge",
+    source: changes("Hall of Thanes", "/dungeons/hall-of-thanes"),
+    text: "The Hall of Thanes is the royal dwarven burial chamber deep beneath Ironforge, and someone has broken into " +
+      "it. Adventurers reach it from the High Seat. It was made for the Alliance; Horde adventurers have to sneak or " +
+      "fight their way through Ironforge to get in." },
+  { id: "dungeon-ruins-of-lordaeron-inside", title: "Inside the Ruins of Lordaeron", zone: "Tirisfal Glades",
+    source: changes("Ruins of Lordaeron", "/dungeons/ruins-of-lordaeron"),
+    text: "In the Ruins of Lordaeron dungeon, the ruined capital above the Undercity, a necromancer has moved in among " +
+      "the Scourge that still linger. Its foes include Viktor the Vile, the Abandoned, Rath'mael, the Baron, " +
+      "Witherfang and Bjork. Horde adventurers come to help the Forsaken; Alliance adventurers slip in." },
+  { id: "dungeon-ruins-of-lordaeron-quests", title: "Ruins of Lordaeron quests", zone: "Tirisfal Glades",
+    source: changes("Ruins of Lordaeron", "/dungeons/ruins-of-lordaeron"),
+    text: "Ruins of Lordaeron quests: Captain Truman, just inside the entrance, wants the Baron's head, and General " +
+      "Marcus Jonathan in Stormwind takes Bloodied Insignias (Alliance). Theodore Griffs in the Undercity wants the " +
+      "Highly Toxic Strain from Witherfang (Horde). The Crest of Lordaeron, found inside, goes to Lady Dena Kennedy " +
+      "in Stormwind or Oran Snakewrithe in the Undercity." },
+  { id: "dungeon-excavation-site-inside", title: "Inside the Excavation Site", zone: "Wetlands",
+    source: changes("Excavation Site: Wetlands", "/dungeons/excavation-site"),
+    text: "At the Excavation Site dungeon, above Whelgar's Excavation in the Wetlands, rogue titan constructs, mist " +
+      "and flashing lights trouble the dig, and the Explorers' League is taking an interest. Its foes include " +
+      "Saltspine, Shadetooth, the Highland Horror and the Relic Guardian, whose Titan Relic goes to Prospector " +
+      "Whelgar and then to High Explorer Magellas in Ironforge's Hall of Explorers." },
+  { id: "dungeon-excavation-site-quests", title: "Excavation Site quests", zone: "Wetlands",
+    source: changes("Excavation Site: Wetlands", "/dungeons/excavation-site"),
+    text: "Excavation Site quests can be taken from level 24: Dorin Songblade in Lakeshire, Redridge Mountains, asks " +
+      "adventurers to look for his brother Daewyn at the dig, and Rethiel the Greenwarden in the Wetlands wants a " +
+      "Highland Horror's root core." },
+  { id: "dalaran-dungeon-inside", title: "Getting into the City of Dalaran dungeon", zone: "Alterac Mountains",
+    source: changes("City of Dalaran", "/dungeons/city-of-dalaran"),
+    text: "The way into the City of Dalaran dungeon runs through Dalaran's sewers to a portal at the end of a long " +
+      "pipe; one group member who has done the attunement quests can bring the whole group in. Its foes include " +
+      "Atrexis the Grave Knight, Lyn the Ignored, a Mana Devourer and a Fel Ancient. Many of them take no Arcane " +
+      "damage, and its constructs and elementals can't be bled or poisoned." },
+  { id: "dalaran-quartermaster", title: "The Kirin Tor quartermaster", zone: "Alterac Mountains",
+    source: changes("City of Dalaran", "/dungeons/city-of-dalaran"),
+    text: "Kills in the City of Dalaran dungeon earn Kirin Tor reputation. At Friendly, Archmage Alvareaux, the Kirin " +
+      "Tor quartermaster in Dalaran, sells Blacksmithing, Leatherworking and Tailoring recipes; the Kirin Tor Tabard " +
+      "needs Exalted." },
+  { id: "system-library-books", title: "Library books", source: changes("Library books", "/library-books"),
+    text: "In WoW Forever the librarians of Stormwind and the Undercity reward adventurers who bring them different " +
+      "rare books found across Azeroth: ten books earn a necklace, twenty a ring, and twenty-five, from level 30, a " +
+      "bow, shield or off-hand that needs level 40. Any class can take part." },
 ];

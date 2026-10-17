@@ -1201,13 +1201,25 @@ function UI.TransportState()
   end
 end
 
+-- −10s / +10s: a recording plays from the start of a piece, so a skip lands on the start of the piece holding the
+-- time it aims at. Pieces run 9-16 s, and +10s often landed on the piece already playing and restarted it (LOR-579:
+-- "the forward and back things don't work"): forward always goes on to a later piece. One recording (no pieces) has
+-- nowhere to skip to.
 function UI.Seek(seconds)
   local state = UI.TransportState()
   if not state then return false end
-  local V, target, wasPlaying = ns.Voice, state.target, UI.speaking
+  local target, wasPlaying = state.target, UI.speaking
   local want = math.max(0, math.min(state.duration - 0.001, state.offset + seconds))
-  local parts, offset = state.row.rates[1], 0
-  for _, part in ipairs(parts) do if part.start <= want then offset = part.start else break end end
+  local parts = state.row.rates[1]
+  if #parts < 2 then return false end
+  local at, to = 1, 1   -- the piece playing (or paused in), and the one holding the time aimed at
+  for i, part in ipairs(parts) do
+    if part.start <= state.offset then at = i end
+    if part.start <= want then to = i end
+  end
+  if seconds > 0 and to <= at then to = at + 1 end
+  if to > #parts then return false end   -- already in the last piece
+  local offset = parts[to].start
   UI.RememberProgress()
   UI.progress[target.key] = { offset = offset, rate = state.rate, pack = state.row.pack, hash = state.row.hash,
     fullHash = state.row.fullHash, started = target.started }
@@ -3124,6 +3136,7 @@ local function addItem(it, quiet, deferStart)
   local pl = UI.pl
   if not it or UI.PlaylistIndex(it.id) then return false end
   pl.items[#pl.items + 1] = it
+  UI.miniClosed = nil   -- the floating player's X put it away until something joins the queue (UI.ClosePlayer)
   if not quiet then
     UI.FlashPlayer()
     showToast(GREEN .. L["Added to your playlist:"] .. "|r " .. WHITE .. esc(it.label) .. "|r"
@@ -3571,6 +3584,7 @@ end
 --   Queue           opens the playlist above the docked player (from the floating one: opens the panel on it)
 --   a thin line     how far through the playlist you are
 --   Prev · Play/Pause/Stop · Next, and "2 of 4"
+--   X               the floating one only: stop, and hide it until something plays or is queued (UI.ClosePlayer)
 -- Play with nothing queued plays everything narrated where you are (the same as Shift-clicking the minimap button).
 -- Right-click the player for its options.
 
@@ -3642,6 +3656,29 @@ function UI.PlayerNext()
   UI.PlaylistNext()
 end
 
+-- The story in the player that isn't your queue's: played by hand or on arriving, playing or paused. nil if none.
+function UI.PlayerSolo()
+  if UI.speaking then return UI.pl.state ~= "playing" and UI.activeTarget or nil end
+  local state = UI.TransportState()
+  if state and not state.target.fromPlaylist then return state.target end
+end
+
+-- The player's right-click "Clear this story" (LOR-579; Mike on stream: "need a way to clear just the solo one"): that
+-- story stops and leaves the player, its place forgotten. The queue stays: one waiting for it goes on as if it ended.
+function UI.PlayerClearStory()
+  local t = UI.PlayerSolo()
+  if not t then return false end
+  if UI.speaking then
+    ns.Voice.Stop()
+    UI.playToken, UI.speaking, UI.playingId = nil, false, nil
+  end
+  UI.progress[t.key] = nil
+  UI.activeTarget, UI.resumeTarget, UI.stoppedTarget = nil, nil, nil
+  UI.UpdateListen()
+  if UI.pl.state == "waiting" then UI.OnClipEnded() end
+  return true
+end
+
 -- The story behind what the player shows, in the chat (opening the panel if it's closed).
 function UI.PlayerOpenStory()
   local pl = UI.pl
@@ -3693,7 +3730,7 @@ local function playerMenu(p)
   local m = p.menu
   if not m then
     m = T.Backdrop(CreateFrame("Frame", nil, p, T.BACKDROP_TEMPLATE), "popup")
-    m:SetSize(SIDE_W - 8, 3 * 24 + 12)
+    m:SetSize(SIDE_W - 8, 4 * 24 + 12)
     m:SetFrameStrata("DIALOG")
     local function item(i, onClick)
       local b = TextButton(m, SIDE_W - 20, 24, T.font.small)
@@ -3704,7 +3741,11 @@ local function playerMenu(p)
     end
     m.clear = item(1, function() UI.PlaylistClear() end)
     m.clear.text:SetText(L["Clear queue"])
-    m.float = item(2, function()
+    m.story = item(2, function()
+      if UI.PlayerClearStory() then return end
+      showToast(GREY .. L["Nothing to clear: no story is playing outside your queue."] .. "|r")
+    end)
+    m.float = item(3, function()
       if LoreForeverDB and LoreForeverDB.settings then
         LoreForeverDB.settings.floatPlayer = not (settings().floatPlayer ~= false)
       end
@@ -3715,7 +3756,7 @@ local function playerMenu(p)
           .. L["floating player off. Turn it back on in /lore options (Floating player), or type /lore reset."])
       end
     end)
-    m.report = item(3, function()
+    m.report = item(4, function()
       if UI.ReportableClip() then return UI.ShowClipReport() end
       showToast(GREY .. L["Play a narration first, then report it from the player."] .. "|r")
     end)
@@ -3727,6 +3768,7 @@ local function playerMenu(p)
   m:ClearAllPoints()
   m:SetPoint("BOTTOMLEFT", p, "TOPLEFT", 0, 2)
   local on = settings().floatPlayer ~= false
+  m.story.text:SetText((UI.PlayerSolo() and "" or GREY) .. L["Clear this story"] .. (UI.PlayerSolo() and "" or "|r"))
   m.float.text:SetText((on and "|TInterface\\Buttons\\UI-CheckBox-Check:14|t " or "") .. L["Show the player when the panel is closed"])
   m.report.text:SetText((UI.ReportableClip() and "" or GREY) .. L["Report a problem with this narration"]
     .. (UI.ReportableClip() and "" or "|r"))
@@ -3843,7 +3885,24 @@ function UI.CreatePlayer(parent, floating)
   p:EnableMouse(true)
   p:SetScript("OnMouseUp", function(self, button) if button == "RightButton" then playerMenu(self) end end)
 
-  -- Queue (top right) and the title beside it.
+  -- Floating: an X in the top right corner stops what plays and puts the player away (UI.ClosePlayer; Mike,
+  -- 2026-10-15: "Maybe a minus or an X on the player as well to hide it").
+  if floating then
+    local close = CreateFrame("Button", nil, p, "UIPanelCloseButton")
+    close:SetSize(20, 20)
+    close:SetPoint("TOPRIGHT", -1, -7)
+    close:SetScript("OnClick", function() UI.ClosePlayer() end)
+    close:SetScript("OnEnter", function(self)
+      GameTooltip:SetOwner(self, "ANCHOR_TOP")
+      GameTooltip:AddLine(L["Stop and close"])
+      T.Tip(L["Hides the player until something plays again. Your queue stays."], "tipText", true)
+      GameTooltip:Show()
+    end)
+    close:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    p.close = close
+  end
+
+  -- Queue (top right, beside the floating player's X) and the title beside it.
   p.queue = playerButton(p, L["Queue"], function()
     if floating then
       if not UI.frame:IsShown() then UI.frame:Show() end
@@ -3853,7 +3912,7 @@ function UI.CreatePlayer(parent, floating)
     end
   end, L["Your queue"])
   p.queue.tip2 = L["What's playing and what's next: reorder, remove or clear. Add with + or Shift-click."]
-  p.queue:SetPoint("TOPRIGHT", -6, -6)
+  p.queue:SetPoint("TOPRIGHT", floating and -27 or -6, -6)   -- 6 px clear of the X
   -- A small list sign before "Queue": three gold lines.
   p.queue.lines = {}
   for i = 1, 3 do
@@ -4005,7 +4064,7 @@ local function updatePlayer(p)
     full = UI.playingLabel or L["narration"]
     title = GREEN .. esc(full) .. "|r"
     state = list and (pl.state == "waiting" and L["then your queue"] or L["queue paused"]) or ""
-    button, tip = transport and L["Pause"] or L["Stop"], L["Stop narration"]
+    button, tip = transport and L["Pause"] or L["Stop"], transport and L["Pause"] or L["Stop narration"]
   elseif not playing and transport and not transport.target.fromPlaylist then
     full = transport.target.label
     title, state = WHITE .. esc(full) .. "|r", L["Paused"]
@@ -4095,14 +4154,23 @@ function UI.ShowQueue(show)
   if UI.dock then updatePlayer(UI.dock) end
 end
 
+-- The floating player's X: stop whatever plays and put the player away. It comes back by itself when something plays
+-- or joins the queue (UI.UpdateNowPlaying, addItem); the queue and a paused story's place stay, so Play picks up again.
+function UI.ClosePlayer()
+  UI.miniClosed = true
+  UI.StopAll()
+  UI.UpdateNowPlaying()
+end
+
 -- Both players and the minimap button's ring: whenever something plays or the playlist changes. The floating
--- player shows only with the panel closed, while something plays or is queued.
+-- player shows only with the panel closed, while something plays or is queued, unless its X put it away.
 function UI.UpdateNowPlaying()
   local pl = UI.pl
   if UI.dock then updatePlayer(UI.dock) end
   local mini = UI.mini
   if mini then
-    local want = settings().floatPlayer ~= false and not (UI.frame and UI.frame:IsShown())
+    if UI.IsBusy() then UI.miniClosed = nil end
+    local want = settings().floatPlayer ~= false and not (UI.frame and UI.frame:IsShown()) and not UI.miniClosed
       and (UI.IsBusy() or UI.TransportState() ~= nil or #pl.items > 0)
     mini:SetShown(want and true or false)
     updatePlayer(mini)
@@ -4134,6 +4202,7 @@ function UI.ResetWindows()
   if not s then return end
   LoreForeverDB.window = nil
   s.miniPlayerPos, s.floatPlayer = nil, true
+  UI.miniClosed = nil
   s.minimap, s.minimapAngle = true, nil
   recentre(UI.frame, W, H)
   for _, name in ipairs(OTHER_WINDOWS) do recentre(_G[name]) end

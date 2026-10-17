@@ -11,12 +11,13 @@
 <link rel="apple-touch-icon" href="/img/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261015w">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css?v=20261016t">
+<link rel="stylesheet" href="/pages.css?v=20261016p">
 <script src="/header.js" defer></script>
 <script src="/js/share.js" defer></script>
 </head>
-<body>
+<body class="bw">
 
 <header class="top">
   <nav class="wrap nav" aria-label="Lore Forever">
@@ -39,7 +40,9 @@
      A link to a tab, or to anything inside one (#ac-profile, #ac-voices, #ac-translations, #ac-delete), opens it.
      Talks to functions/api/auth/[action].js and functions/api/profile/[action].js. Needs JavaScript (Sign in with
      Google does too). -->
-<main class="wrap fb-page" id="ac-main">
+<main class="bw-page">
+  <div class="h-sky bw-sky" aria-hidden="true"></div>
+  <div class="h-wrap bw-in fb-page" id="ac-main">
   <h1 id="ac-title">Your account</h1>
   <p class="pitch" id="ac-pitch" hidden></p>
   <p class="ac-signed" id="ac-signed" hidden>Signed in as <strong id="ac-who"></strong></p>
@@ -206,6 +209,17 @@
     <!-- Connected apps (LOR-148): the companion apps that keep the profile up to date, each with Disconnect.
          functions/api/device/[action].js; they connect on /link. -->
     <div class="ac-panel" id="apps" hidden>
+      <!-- Share Willo (lib/referrals.js, functions/api/share/[action].js): the player's own link, what a friend's first
+           Willo connect gives them, and what it has brought. Its words come from the site (shareWords). -->
+      <section class="fb-form" id="ac-share" aria-labelledby="ac-share-title" hidden>
+        <h2 id="ac-share-title">Share Willo</h2>
+        <p id="ac-share-about"></p>
+        <p class="ac-share-link"><code id="ac-share-url"></code>
+          <button class="btn-small" type="button" id="ac-share-copy">Copy link</button>
+          <button class="btn-small btn-small-alt" type="button" id="ac-share-new">New link</button></p>
+        <p id="ac-share-tally"></p>
+        <p class="fb-status" id="ac-share-status" role="status" hidden></p>
+      </section>
       <section class="fb-form" aria-labelledby="ac-apps-title">
         <h2 id="ac-apps-title">Connected apps</h2>
         <div id="ac-noapps">
@@ -263,13 +277,39 @@
       </form>
     </div>
   </div>
+  </div>
 </main>
 
-<footer class="wrap foot">
-  <p>Lore Forever in other languages: <a href="/translate">see the languages, or help translate</a>.</p>
-  <p><a href="/privacy">Privacy</a>: what we keep and why. <a href="/terms">Terms</a> and <a href="/refunds">refunds</a>.</p>
-  <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
-    Not affiliated with or endorsed by Blizzard.</p>
+<!-- The footer, as on the home page (style.css .h-foot): the optional email sign-up (js/foot.js sends it to
+     functions/api/subscribe.js, saved with this page's data-source; no confirmation email, /unsubscribe takes an
+     address off), then the site's parts in columns. -->
+<footer class="h-foot">
+  <div class="h-wrap">
+    <div class="h-foot-grid">
+      <div class="h-sign">
+        <span class="h-brand"><img src="/img/logo.svg" alt="" width="30" height="30">Lore Forever</span>
+        <p>One email when a new version is out, and your address is used for nothing else
+          (<a href="/privacy">privacy</a>). <a href="/unsubscribe">Unsubscribe anytime</a>.</p>
+        <form class="h-sub-form" id="signup" data-source="account-page">
+          <label for="signup-email" class="h-vh">Email address</label>
+          <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
+          <input type="text" name="website" class="h-vh" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button type="submit" class="h-btn h-ghost h-sm">Notify me</button>
+          <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
+        </form>
+      </div>
+      <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/lore">Lore library</a></li><li><a href="/whats-new">What's new</a></li></ul></nav>
+      <nav aria-label="Willo"><h2>Willo</h2><ul><li><a href="/willo">Meet Willo</a></li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li><li><a href="/faq">FAQ</a></li></ul></nav>
+      <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/translate">Help translate</a></li><li><a href="/contributors">Contributors</a></li></ul></nav>
+      <nav aria-label="About"><h2>About</h2><ul><li><a href="/feedback">Send feedback</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/refunds">Refunds</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
+    </div>
+    <div class="h-legal">
+      <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+      <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+        Not affiliated with or endorsed by Blizzard.</p>
+    </div>
+  </div>
 </footer>
 
 <script>
@@ -388,8 +428,36 @@
     $("tab-apps").hidden = !features.companion;   // until the list of apps says otherwise (showApps)
     reveal(hashId(), true);
     // Again once the sections have filled in, which moves what a link points to further down.
-    Promise.all([loadTranslations(), loadProfile(), loadApps(), loadPlan()]).then(() => reveal(hashId(), true));
+    Promise.all([loadTranslations(), loadProfile(), loadApps(), loadPlan(), loadShare()]).then(() => reveal(hashId(), true));
   }
+
+  // Share Willo: the player's link (made the first time it's asked for), Copy link and New link.
+  function showShare(s) {
+    $("ac-share").hidden = !s;
+    if (!s) return;
+    $("ac-share-about").textContent = s.about;
+    $("ac-share-url").textContent = s.url;
+    $("ac-share-tally").textContent = s.tally;
+  }
+  async function loadShare() {
+    let res;
+    try { res = await (await fetch("/api/share/mine", { cache: "no-store" })).json(); } catch (e) { res = null; }
+    showShare(res && res.ok ? res.share : null);
+  }
+  $("ac-share-copy").addEventListener("click", async () => {
+    const url = $("ac-share-url").textContent;
+    const done = await window.lfShare({ url, text: "Meet Willo, a wisp you can talk to in WoW Forever" });
+    say("ac-share-status", done === "copied" ? "Link copied. Paste it to a friend, in Discord or anywhere."
+      : done === "failed" ? "Your link: " + url : "", true);
+  });
+  $("ac-share-new").addEventListener("click", async () => {
+    if (!confirm("Make a new link? Your old link stops bringing friends (the ones it brought stay counted).")) return;
+    $("ac-share-new").disabled = true;
+    const res = await send("/api/share/new");
+    $("ac-share-new").disabled = false;
+    if (res.ok) showShare(res.share);
+    say("ac-share-status", res.ok ? "Your new link is ready." : res.error, res.ok);
+  });
 
   // The plan card (LOR-252): the way to /plans.
   async function loadPlan() {
@@ -726,5 +794,6 @@
   load();
 })();
 </script>
+<script src="/js/foot.js?v=20261015a" defer></script>
 </body>
 </html>
