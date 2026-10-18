@@ -6,7 +6,7 @@ import { test, afterEach } from "node:test";
 import assert from "node:assert/strict";
 
 import { setup, findOrCreateUser } from "../lib/accounts.js";
-import { setupBilling, billingReport } from "../lib/billing.js";
+import { setupBilling, billingReport, claimOf } from "../lib/billing.js";
 import { markAsked, utcDay } from "../lib/activity.js";
 import { willoReport } from "../lib/willo-stats.js";
 import { d1 } from "./helpers.mjs";
@@ -49,6 +49,58 @@ test("paying plans and the monthly revenue leave out comped plans and the admin'
   assert.equal(calls.length, 4, "each subscription's coupons read once");
   await billingReport(env, new Date(NOW));
   assert.equal(calls.length, 4, "and not again while nothing changed");
+});
+
+test("on a plan: everyone above Adventurer once (paid, Keep Hero trial, the beta's free Hero month, comped or owner)", async () => {
+  const env = { DB: d1(), LAUNCH_WEEK_START: "2026-10-14T00:00:00-07:00" };
+  await setup(env);
+  await setupBilling(env);
+  const at = new Date(NOW).toISOString();
+  const user = async name => (await findOrCreateUser(env, { email: `${name}@example.com`, googleSub: name, name })).id;
+  const plan = async (name, plan, status, comp = "") => {
+    const id = await user(name);
+    env.DB.sqlite.prepare("INSERT INTO entitlements (user_id, subscription_id, plan, status, current_period_end, updated) " +
+      "VALUES (?, ?, ?, ?, ?, ?)").run(id, `sub_${name}`, plan, status, new Date(NOW + 20 * 864e5).toISOString(), at);
+    env.DB.sqlite.prepare("INSERT INTO plan_log (subscription_id, user_id, plan, status, comp, updated) VALUES (?, ?, ?, ?, ?, ?)")
+      .run(`sub_${name}`, id, plan, status, comp, at);
+    return id;
+  };
+  const freeMonth = async (id, daysAgo) => env.DB.sqlite.prepare("INSERT INTO promo_claims (claim, subscription_id, created) " +
+    "VALUES (?, '', ?)").run(await claimOf(env, id, "free"), new Date(NOW - daysAgo * 864e5).toISOString());
+  await plan("paid", "hero", "active");
+  await plan("late", "champion", "past_due");
+  await plan("comped", "legend", "active", "owner-legend-free");
+  await freeMonth(await plan("keep", "hero", "trialing"), 5);       // took Keep Hero in its free month: one account, once
+  await freeMonth(await user("month"), 3);                           // a free Hero month and nothing else
+  await freeMonth(await user("month2"), 29);                         // the last day or so of one
+  await freeMonth(await user("over"), 31);                           // ended yesterday: back on Adventurer
+  const tester = await user("tester");
+  await freeMonth(tester, 1);                                        // a test account's free month
+  env.DB.sqlite.prepare("INSERT INTO excluded_accounts VALUES (?, 'config', ?)").run(tester, at);
+  env.DB.sqlite.prepare("INSERT INTO promo_claims (claim, subscription_id, created) VALUES ('hero:x', 'sub_x', ?)").run(at);
+
+  const on = async () => (await billingReport(env, new Date(NOW))).onPlan;
+  assert.deepEqual(await on(), { total: 7, paid: 2, trial: 1, freeMonth: 2, comped: 2, freeUnread: false,
+                                 byPlan: { hero: 5, champion: 1, legend: 1 } },
+    "paid and late, 1 trial, 2 free Hero months, the comped Legend and the test account's free month");
+
+  env.DB.sqlite.prepare("INSERT INTO answer_user_spend (user_id, month, launch_micro) VALUES ('x', '2026-10', 300000000)").run();
+  assert.deepEqual([(await on()).freeMonth, (await on()).total], [0, 4], "the promo's brake stops the free months");
+  assert.equal((await billingReport(env, new Date(NOW))).paying, 2, "paying is what it was");
+});
+
+test("on a plan: no free Hero months without a beta promo, and a plan that ran out isn't one", async () => {
+  const env = { DB: d1() };
+  await setup(env);
+  await setupBilling(env);
+  const user = await findOrCreateUser(env, { email: "a@example.com", googleSub: "a", name: "a" });
+  env.DB.sqlite.prepare("INSERT INTO promo_claims (claim, subscription_id, created) VALUES (?, '', ?)")
+    .run(await claimOf(env, user.id, "free"), new Date(NOW - 864e5).toISOString());
+  env.DB.sqlite.prepare("INSERT INTO entitlements (user_id, subscription_id, plan, status, current_period_end, updated) " +
+    "VALUES ('gone', 'sub_gone', 'legend', 'canceled', ?, ?)").run(new Date(NOW - 864e5).toISOString(), new Date(NOW).toISOString());
+  const { onPlan } = await billingReport(env, new Date(NOW));
+  assert.equal(onPlan.total, 0, "no LAUNCH_WEEK_START: planFor gives no free month, whatever promo_claims holds");
+  assert.deepEqual(onPlan.byPlan, { hero: 0, champion: 0, legend: 0 });
 });
 
 test("Willo's daily and weekly players: accounts that asked her, admin's left out; downloads by day and in all", async () => {

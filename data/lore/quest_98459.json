@@ -1,0 +1,107 @@
+{
+ "key": "quest:98459",
+ "type": "quest",
+ "name": "A Lack of Virtue",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98459
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance travelers passing through Menethil Harbor often run into Bart Tidewater barking orders at his crew, making this delivery a quick detour while waiting for transport across the Great Sea."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is bart tidewater",
+    "bart tidewater lore",
+    "who is captain of the maidens virtue"
+   ],
+   "answer": "Bart Tidewater is the self-proclaimed captain of the Maiden's Virtue, docked in Menethil Harbor. According to his old associate Tom Half-fish, Bart was originally an actor who bought his ship using winnings from poker games\u2014though both men accuse each other of cheating at cards.",
+   "q": "Who is Bart Tidewater?"
+  },
+  {
+   "aliases": [
+    "who is half-fish",
+    "who is tom half-fish",
+    "who gives a lack of virtue"
+   ],
+   "answer": "Tom Half-fish is an old acquaintance of Bart Tidewater who gives travelers a gift to carry across the sea to Bart. He harbors a fierce grudge against the captain, alleging that Bart is a fraud, a cheapskate, and a cheater at cards.",
+   "q": "Who is Tom Half-fish?"
+  },
+  {
+   "aliases": [
+    "what is the maidens virtue",
+    "maidens virtue ship",
+    "where is the maidens virtue"
+   ],
+   "answer": "The Maiden's Virtue is a vessel docked in Menethil Harbor in the Wetlands. Bart Tidewater claims it is the finest ship in the Great Sea, though Tom Half-fish disparagingly claims the vessel has sailed as far as a rock in Tanaris.",
+   "q": "What is the Maiden's Virtue?"
+  },
+  {
+   "aliases": [
+    "what is toms gift",
+    "what is inside toms gift",
+    "why does bart get mad at toms gift"
+   ],
+   "answer": "Tom's Gift is a package sent by Tom Half-fish to Bart Tidewater in Menethil Harbor. While the exact contents remain unopened to the courier, receiving it immediately provokes an outburst of furious insults from Bart regarding Tom's own poker cheating.",
+   "q": "What is Tom's Gift?"
+  },
+  {
+   "aliases": [
+    "who cheated at poker",
+    "did bart cheat at poker",
+    "did tom cheat at poker"
+   ],
+   "answer": "Both sailors vehemently accuse one another of cheating. Tom Half-fish insists Bart is an actor who only won enough poker hands to buy his ship by cheating, whereas Bart claims he legitimately won his vessel only after kicking Tom out of their poker circle for cheating.",
+   "q": "Who actually cheated at poker?"
+  },
+  {
+   "aliases": [
+    "how do i get to menethil harbor",
+    "boat to menethil harbor"
+   ],
+   "answer": "Travelers can reach Menethil Harbor in the Wetlands by taking a ship across the Great Sea. The quest giver notes that a direct boat service stops at the harbor on its second stop.",
+   "q": "How do you deliver the gift to Menethil Harbor?"
+  }
+ ],
+ "keywords": [
+  "a lack of virtue",
+  "bart tidewater",
+  "maidens virtue",
+  "menethil harbor",
+  "poker",
+  "tanaris",
+  "tom half-fish",
+  "toms gift",
+  "wetlands"
+ ],
+ "related": [
+  "subzone:menethil-harbor",
+  "zone:wetlands",
+  "zone:tanaris"
+ ],
+ "sections": [
+  {
+   "body": "A Lack of Virtue centers on an acrimonious rivalry between two salty seafaring gamblers: Tom Half-fish and Bart Tidewater. Tom recruits passing travelers to deliver a packaged parcel across the water to Bart in Menethil Harbor, using the delivery as a petty spiteful jab against his former companion. Along the way, Tom warns that Bart is no true sea dog at all, but rather a former actor who cheated his way through card games to purchase his command.",
+   "spoiler": 0,
+   "title": "A Bitter Grudge"
+  },
+  {
+   "body": "Upon receiving Tom's Gift on the docks of Menethil Harbor, Bart Tidewater flies into a rage at the mere mention of his old associate. Bart immediately turns the accusation around, swearing that it was Tom who cheated at cards and that Bart only earned enough coin to purchase the Maiden's Virtue after their poker circle banished Half-fish. Despite the explosive temper flare, Bart quickly catches himself, apologizes for barking at the courier, and welcomes the traveler to the harbor.",
+   "spoiler": 1,
+   "title": "Cards on the Table"
+  }
+ ],
+ "summary": "A Lack of Virtue is a delivery quest involving an enduring petty grudge between two card-playing sailors, Tom Half-fish and Bart Tidewater. Travelers carry a packaged gift across the sea to Menethil Harbor, stepping right into the middle of a mutual cheating accusation over how the Maiden's Virtue was won.",
+ "attribution": [
+  "In-game quest text: A Lack of Virtue"
+ ]
+}

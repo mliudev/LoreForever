@@ -184,6 +184,13 @@ export const SEED_FACTS = [
     text: "No one in Azeroth knows of a Garrosh Hellscream. The Hellscream the Horde remembers is Grom Hellscream, " +
       "chieftain of the Warsong clan, who slew the demon Mannoroth in Ashenvale at the end of the Third War and " +
       "freed the orcs from his blood curse, at the cost of his life." },
+  // Children who grow up later (LOR-639: "what became of his daughter?" after Edwin VanCleef got Vanessa leading the
+  // Defias, years after this age).
+  { id: "era-vanessa", title: "Edwin VanCleef's daughter", source: WIKI,
+    text: "Edwin VanCleef, leader of the Defias Brotherhood, has a young daughter, Vanessa. In this age she is only a " +
+      "child: she leads no one, takes no part in the Brotherhood's plans, and nothing more is told of her." },
+  { id: "era-thrall-family", title: "Thrall has no family of his own", source: WIKI,
+    text: "Thrall, Warchief of the Horde, has no mate and no children in this age." },
   { id: "era-death-knights", title: "Death knights aren't a class", source: CLASSES,
     text: "You can't make or play a death knight in WoW Forever. The classes are warriors, paladins, hunters, " +
       "rogues, priests, shamans, mages, warlocks and druids. The death knights of this age serve the Scourge and " +
@@ -356,7 +363,11 @@ export async function setupKnowledge(env) {
 export async function searchFacts(env, { question = "", zone = "", sub = "", faction = "" } = {}, limit = FACTS_PER_ANSWER,
   { character = false } = {}) {
   const asked = [...new Set(words(question))].slice(0, 16);
-  const place = [...new Set(words(`${sub} ${zone}`))].filter(w => !asked.includes(w)).slice(0, 6);
+  // Where they are: the zone's words, and the subzone as its whole name ("hall of arms"), never word by word: "arms"
+  // brought the warrior talents to a question asked in Ironforge's Hall of Arms, and Willo called the woman there a
+  // warrior trainer (LOR-629). A zone's words name it ("redridge", "stormwind"), and the docks and flight points need them.
+  const whole = (String(sub || "").toLowerCase().match(/[\p{L}\p{N}]+/gu) || []).join(" ");
+  const place = [...new Set([whole, ...words(zone)])].filter(w => w && !asked.includes(w)).slice(0, 6);
   const { boats, flights } = travelKinds(question, { character });
   const travel = boats || flights;
   if (!asked.length && !place.length && !travel) return [];
@@ -520,13 +531,21 @@ export function factSources(facts) {
 
 // The facts for an answer's system prompt. Never fails the answer: without the tables it simply has no FOREVER FACTS.
 // dataVersion: the player's add-on data version, when the companion sends it.
+// A short question that points back at the one before ("what became of his daughter?", "and her?", "what about
+// that?"): its facts are searched with that question too, so a follow-up gets the era facts a first question would
+// (LOR-639: after Edwin VanCleef, "his daughter" matched no fact, and Vanessa led the Defias years too early).
+const POINTS_BACK = /\b(?:his|her|hers|him|he|she|their|theirs|them|they|its|it|that one|those|the same)\b|^\W*(?:and|what about|how about)\b/i;
+export const followUp = parts => Boolean(parts.previousQuestion) && POINTS_BACK.test(parts.question) &&
+  words(parts.question).length <= 8;
+
 export async function knowledgeFor(env, parts, { character = false, dataVersion = "" } = {}) {
   // The Forever facts' search goes out first; quest, NPC, item, town and road facts need no database
   // (lib/forever-quest-facts.js, lib/forever-item-facts.js, lib/forever-place-facts.js), so they're found while it's
   // out (an isolate's first item lookup reads its data, about 60 ms), and they come even when D1 fails.
+  const asked = followUp(parts) ? { ...parts, question: `${parts.question} ${parts.previousQuestion}` } : parts;
   const searched = (async () => {
     await setupKnowledge(env);
-    return searchFacts(env, parts, FACTS_PER_ANSWER, { character });
+    return searchFacts(env, asked, FACTS_PER_ANSWER, { character });
   })();
   let quest = [], item = [], place = [];
   try {

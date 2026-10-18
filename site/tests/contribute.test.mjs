@@ -269,7 +269,7 @@ test("independence: one person's file and code from one IP stay single; a differ
   assert.equal(lines().find(r => r.text === text).uploaders, 2);
 });
 
-test("upload: what the add-on ships is dropped, the client's own text verifies, a different text is a conflict", async () => {
+test("upload: what the add-on ships is dropped, the client's own text verifies, a different text is the import's call", async () => {
   const shipped = "A huge gnoll grows more bold by the day.";
   const client = "Bring 6 Stormcrow Feathers to Warden Halvar.";
   const wiki = "The wiki's older wording of the quest.";
@@ -291,7 +291,7 @@ test("upload: what the add-on ships is dropped, the client's own text verifies, 
   assert.equal(statusOf(client), "verified");
   assert.equal(statusOf("Forever's own new wording, longer and different."), "single", "differs only from the wiki's text");
   const progress = lines().find(r => r.part === "progress");
-  assert.equal(progress.status, "conflict", "differs from the Forever client's own text: needs a second player");
+  assert.equal(progress.status, "single", "differs from the client's own text: the nightly import keeps the game's words or folds it in");
   assert.equal(progress.corrects, known.lines["quest:99001#progress"][1]);
 });
 
@@ -304,10 +304,10 @@ test("upload: two texts for one part conflict, unless they're from players of di
   assert.equal(statusOf("Thank you, lad."), "conflict");
   assert.equal(statusOf("Thanks, lad."), "conflict");
   assert.equal(statusOf("Thank you, lass."), "single");
-  // A second player confirms one: it's verified, the other stays a conflict.
+  // A second player confirms one: it's verified, and the other isn't used (more senders win, LOR-621).
   await post({ source: "file", lines: [quest(5, "complete", "Thank you, lad.", { player: "Gnome.ROGUE.2" })] }, { ip: "198.51.100.4" });
   assert.equal(statusOf("Thank you, lad."), "verified");
-  assert.equal(statusOf("Thanks, lad."), "conflict");
+  assert.equal(statusOf("Thanks, lad."), "unused");
 });
 
 test("upload: spam is held, garbage lines are skipped, never the whole upload", async () => {
@@ -485,6 +485,102 @@ test("/admin: reject everything from one sender, then restore it", async () => {
   assert.equal(statusOf("Vandal text."), "single");
   assert.equal(statusOf("Shared by both."), "verified");
   assert.equal((await adminPost({ request: adminReq("POST", { action: "contrib-reject", uploader: "drop table" }), env })).status, 400);
+});
+
+test("spam rule: only real links; a held line two players send is verified (LOR-621)", async () => {
+  await post({ source: "file", lines: [
+    quest(41, "detail", "Find the pelts.Com back with them to Stormwind.Org now."),
+    quest(41, "progress", "Gold for sale at cheapgold.com today"),
+    quest(41, "complete", "Ahhhhhhhhhhhhhhhhhhh! The ghouls are here!"),
+  ] }, { ip: "192.0.2.70" });
+  assert.equal(statusOf("Find the pelts.Com back with them to Stormwind.Org now."), "single", "a lost space isn't a link");
+  assert.equal(statusOf("Gold for sale at cheapgold.com today"), "flagged");
+  assert.equal(statusOf("Ahhhhhhhhhhhhhhhhhhh! The ghouls are here!"), "flagged");
+  await post({ source: "file", lines: [quest(41, "complete", "Ahhhhhhhhhhhhhhhhhhh! The ghouls are here!")] }, { ip: "192.0.2.71" });
+  assert.equal(statusOf("Ahhhhhhhhhhhhhhhhhhh! The ghouls are here!"), "verified");
+});
+
+test("/admin picks one text of a conflict; lore.contrib's unused report closes the loop (LOR-621)", async () => {
+  const game = "The client's own words.";
+  known = { v: 1, lines: { "quest:42#progress": ["", await textHash(game)] } };
+  forgetKnown();
+  await post({ source: "file", lines: [quest(42, "detail", "First version."), quest(42, "progress", "Another wording.")] }, { ip: "192.0.2.80" });
+  await post({ source: "file", lines: [quest(42, "detail", "Second version.")] }, { ip: "192.0.2.81" });
+  assert.deepEqual([statusOf("First version."), statusOf("Second version."), statusOf("Another wording.")], ["conflict", "conflict", "single"]);
+  const adminReq = (method, body) => new Request(ORIGIN + "/api/admin", { method, headers: { Authorization: "Bearer " + KEY,
+    "Content-Type": "application/json" }, body: body ? JSON.stringify(body) : undefined });
+  const view = await (await adminGet({ request: adminReq("GET"), env })).json();
+  const detail = view.contributions.conflicts.find(g => g.part === "detail");
+  assert.deepEqual(detail.lines.map(l => l.text), ["First version.", "Second version."]);
+  assert.equal(detail.game_differs, false);
+  assert.equal(view.contributions.conflicts.find(g => g.part === "progress"), undefined, "only the client disagrees: not a conflict");
+  const id = detail.lines[1].id;
+  const pick = async p => (await adminPost({ request: adminReq("POST", { action: "contrib-pick", id, pick: p }), env })).json();
+  assert.equal((await pick("use")).status, "verified");
+  assert.equal(statusOf("First version."), "unused");
+  const upload = env.DB.sqlite.prepare("SELECT upload_id FROM contrib_batches WHERE uploader LIKE 'h:%' ORDER BY created_at LIMIT 1").get();
+  const page = await (await receiptGet({ env, params: { id: upload.upload_id } })).text();
+  assert.match(page, /Not used: another version of it was picked/);
+  assert.equal((await pick("reset")).status, "conflict");
+  assert.equal(statusOf("First version."), "conflict");
+  // lore.contrib kept the game's own text over this one: it's unused, and says so.
+  const other = lines().find(r => r.text === "Another wording.").id;
+  const unused = await contributeAdminPost({ request: new Request(ORIGIN + "/api/contribute/unused", { method: "POST",
+    headers: { Authorization: "Bearer " + KEY, "Content-Type": "application/json" }, body: JSON.stringify({ ids: [other] }) }),
+    env, params: { action: "unused" } });
+  assert.equal((await unused.json()).unused, 1);
+  assert.equal(statusOf("Another wording."), "unused");
+});
+
+test("two versions settle by rule: cut short or a broken placeholder loses; the rest wait for /admin (LOR-621)", async () => {
+  await post({ source: "file", lines: [quest(51, "detail", "Bring me the pelts and I will"), quest(52, "detail", "Greetings, $X, hero."),
+    quest(53, "detail", "Well met, traveler.")] }, { ip: "192.0.2.90" });
+  await post({ source: "file", lines: [quest(51, "detail", "Bring me the pelts and I will reward you."),
+    quest(52, "detail", "Greetings, $N, hero."), quest(53, "detail", "Well met, stranger.")] }, { ip: "192.0.2.91" });
+  assert.deepEqual([statusOf("Bring me the pelts and I will"), statusOf("Bring me the pelts and I will reward you.")], ["unused", "single"]);
+  assert.deepEqual([statusOf("Greetings, $X, hero."), statusOf("Greetings, $N, hero.")], ["unused", "single"]);
+  assert.deepEqual([statusOf("Well met, traveler."), statusOf("Well met, stranger.")], ["conflict", "conflict"], "no rule decides");
+  // A player's own class written in folds into the game's placeholder version (both senders on one line); a name
+  // written in loses to $N; punctuation alone, to the fuller one.
+  await post({ source: "file", lines: [quest(54, "detail", "Greetings, young rogue. Train well."),
+    quest(55, "detail", "Thank you, Brightwing"), quest(56, "objectives", "Kill 10 wolves")] }, { ip: "192.0.2.92" });
+  await post({ source: "file", lines: [quest(54, "detail", "Greetings, young $C. Train well."),
+    quest(55, "detail", "Thank you, $N"), quest(56, "objectives", "Kill 10 wolves.")] }, { ip: "192.0.2.93" });
+  assert.deepEqual(["Greetings, young rogue. Train well.", "Thank you, Brightwing", "Kill 10 wolves"].map(statusOf), [undefined, "unused", "unused"]);
+  assert.deepEqual(["Greetings, young $C. Train well.", "Thank you, $N", "Kill 10 wolves."].map(statusOf), ["verified", "single", "single"]);
+  // A rule change reaches lines already waiting: /admin's settle runs every conflict through the rules again.
+  env.DB.sqlite.exec("UPDATE contrib_lines SET status = 'conflict' WHERE ref_id = '51'");
+  const res = await adminPost({ request: new Request(ORIGIN + "/api/admin", { method: "POST", headers: { Authorization: "Bearer " + KEY,
+    "Content-Type": "application/json" }, body: JSON.stringify({ action: "contrib-settle" }) }), env });
+  assert.deepEqual(await res.json(), { ok: true, before: 4, after: 2 });
+});
+
+test("versions with each player's own class filled in become one line with $C, confirmed by both (LOR-621)", async () => {
+  const a = await post({ source: "file", lines: [quest(61, "detail", "Ah, a young rogue! You will do."),
+    quest(62, "detail", "A fine human, indeed.")] }, { ip: "192.0.2.95" });
+  const b = await post({ source: "file", lines: [quest(61, "detail", "Ah, a young warrior! You will do."),
+    quest(62, "detail", "A fine night elf, indeed.")] }, { ip: "192.0.2.96" });
+  assert.deepEqual(lines().filter(r => ["61", "62"].includes(r.ref_id)).map(r => [r.text, r.status, r.uploads]),
+    [["Ah, a young $C! You will do.", "verified", 2], ["A fine $R, indeed.", "verified", 2]]);
+  for (const r of [a, b]) {   // both senders' receipts show the one line
+    const page = await (await receiptGet({ env, params: { id: r.body.receipt.split("/").pop() } })).text();
+    assert.match(page, /Ah, a young \$C! You will do\./);
+    assert.match(page, /Confirmed by a second player/);
+  }
+});
+
+test("a tie with the shipped text keeps it until a second player confirms the new one; three versions settle too (LOR-621)", async () => {
+  await post({ source: "file", lines: [quest(71, "detail", "The old words we ship.")] }, { ip: "192.0.2.97" });
+  env.DB.sqlite.exec("UPDATE contrib_lines SET status = 'shipped', shipped_in = '0.20.0' WHERE ref_id = '71'");
+  await post({ source: "file", lines: [quest(71, "detail", "Some newer words instead.")] }, { ip: "192.0.2.98" });
+  assert.equal(statusOf("Some newer words instead."), "unused");
+  await post({ source: "file", lines: [quest(71, "detail", "Some newer words instead.")] }, { ip: "192.0.2.99" });
+  assert.equal(statusOf("Some newer words instead."), "verified", "a second player: it replaces the shipped text");
+  // Three versions: the two a placeholder or a full text beats aren't used, the one left is.
+  for (const [i, text] of ["Hail, Die. Be swift.", "Hail, $N. Be swift.", "Hail, Bob. Be swift."].entries()) {
+    await post({ source: "file", lines: [quest(72, "detail", text)] }, { ip: `192.0.2.${110 + i}` });
+  }
+  assert.deepEqual(["Hail, Die. Be swift.", "Hail, $N. Be swift.", "Hail, Bob. Be swift."].map(statusOf), ["unused", "single", "unused"]);
 });
 
 test("IP hashes leave upload rows after 30 days", async () => {

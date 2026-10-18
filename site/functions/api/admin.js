@@ -7,23 +7,41 @@
 //                        "translations": [...], "translationReports": [...], "users": [...],
 //                        "stories": {month, usd, calls, written, budget, on, voiceUsd, voiceOn}}   profile stories
 //                                   this month (LOR-181) and what reading them aloud cost (LOR-316)
-//   POST /api/admin  {"action": "status", "id": 3, "status": "done" | "new"}   mark a report handled or not
+//   POST /api/admin  {"action": "status", "id": 3, "status": "done" | "new", "resolution"?: "fixed" | "kept",
+//                     "reason"?: "why it's kept"}   mark a report handled (fixed, or kept as it is and why) or not
+//                    {"action": "reports-shipped", "release": "0.21.0", "before": ISO}   after a release: the reports
+//                                                                               fixed before its commit say "Fixed in"
+//                                                                               (lib/reports.js; lore.kit shipped)
 //                    {"action": "delete-feedback", "id": 3}                     remove a report (spam, tests)
-//                    {"action": "voice-status", "id": 3, "status": "done" | "new"}   mark a voice submission handled
+//                    {"action": "voice-status", "id": 3, "status": "done" | "new" | "rejected", "reason"?}   a voice
+//                                                                               submission handled, reopened, or not used
+//                                                                               (why, for the narrator; LOR-621)
 //                    {"action": "delete-voice", "id": 3}                        remove a voice submission (spam, tests)
 //                    {"action": "status-translation", "id": 3, "status": "done" | "new"}  and "delete-translation"
 //                    {"action": "status-translation-report", "id": 3, ...}      and "delete-translation-report"
 //                    {"action": "delete-subscriber", "email": "a@b.co"}        remove an address (unsubscribe)
+//                    {"action": "email-test", "plan"?: "hero", "trial"?: true}  the thank-you email (lib/thanks.js),
+//                                                                               sent now to the site's own inbox only
+//                                                                               (hello@, Mike's): {ok, service} or {ok: false, error}
+//                    {"action": "email-status"}                                 sends nothing: {service, thanks (the
+//                                                                               feature), from, replyTo}
 //                    {"action": "contrib-reject", "uploader": "h:..."}          shared Forever text (LOR-236): every
 //                    {"action": "contrib-restore", "uploader": "h:..."}         line one sender sent stops counting, or
 //                                                                               counts again (lib/contribute.js)
+//                    {"action": "contrib-settle"}                               decide every part in conflict again by
+//                                                                               the rules (lib/contribute.js decide)
+//                    {"action": "contrib-pick", "id": 3, "pick": "use" | "skip" | "reset", "reason"?: "why"}   a part in
+//                                                                               conflict (reason: skip only, shown as
+//                                                                               "Not used: <reason>") use
+//                                                                               this text, don't, or undo (LOR-621)
 // GET also returns "contributions": {counts: {status: n}, accepted, batches: [...]} for the Contributions panel, and
 // "signups": {accounts, profiles, public, today, week, month, days: [{day, n}]} for the Profiles one,
 // "downloadTotals": [{file, n}] since the start (downloads holds the last 30 days),
 // "usage": lib/usage.js usageReport, the last 14 days of what syncing players used (LOR-413), and "downloadSources":
 // [{file, src, n}], site downloads in the last 30 days by the ?src= of their link, and "site": lib/usage.js siteReport,
 // the last 14 days of profile views, opens from outside links and shares (LOR-151). "plans": lib/billing.js
-// billingReport (LOR-252), {on, paying, counts: [{plan, status, n}], monthlyUsd, spend: {usd, players, calls},
+// billingReport (LOR-252), {on, paying, onPlan (everyone above Adventurer, each once: {total, paid, trial, freeMonth,
+// comped, byPlan}), counts: [{plan, status, n}], monthlyUsd, spend: {usd, players, calls},
 // voicePacks: {sold, unused, usd}} (finest-voice packs).
 // "activity": lib/activity.js activityReport, sign-ins per day, returning accounts and owners, profile updates by way
 // in and veterans or new players (LOR-304); "funnel": lib/activity.js funnelReport, each stage from site download to
@@ -49,16 +67,23 @@ import { authorized } from "../../lib/auth.js";
 import { setup as setupAccounts, currentUser } from "../../lib/accounts.js";
 import { storySpend, STORY_BUDGET_USD } from "../../lib/profiles.js";
 import { decodeReport, describeReport } from "../../public/report-code.js";
-import { setup as setupContrib, adminView, setUploaderRejected, loadKnown } from "../../lib/contribute.js";
+import { setup as setupContrib, adminView, setUploaderRejected, pickLine, settleConflicts, loadKnown }
+  from "../../lib/contribute.js";
+import { setupSubmissions } from "../../lib/submissions.js";
+import { setupReports, resolveReport, shipReports } from "../../lib/reports.js";
 import { usageReport, siteReport } from "../../lib/usage.js";
 import { activityReport, funnelReport, funnelFrom, syncExclusions, setExclusion, counted, utcDay }
   from "../../lib/activity.js";
 import { storesReport } from "../../lib/stores.js";
 import { checkinReport, checkinWeeks } from "../../lib/checkins.js";
 import { featureReport } from "../../lib/featureuse.js";
-import { billingReport } from "../../lib/billing.js";
+import { billingReport, PAID, PLANS, voicePicks } from "../../lib/billing.js";
+import { sendEmail, senderOf, emailService, REPLY_TO } from "../../lib/email.js";
+import { featureOn } from "../../lib/features.js";
+import { thankYouEmail } from "../../lib/thanks.js";
 import { willoReport } from "../../lib/willo-stats.js";
 import { tasteReport } from "../../lib/best-first.js";
+import { flushDigest, slackState } from "../../lib/slack-feedback.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
 const json = (body, status = 200, headers = {}) => Response.json(body, { status, headers: { ...NO_STORE, ...headers } });
@@ -80,7 +105,8 @@ function timings() {
 // Reports saved before the dashboard existed have no status column yet, and those from before sign-in (LOR-106) no
 // user_id. The users table is joined for the reply email of signed-in reports. Once all three columns are there, a
 // Worker doesn't try again for that database (a table that doesn't exist yet is tried again on the next load).
-const FEEDBACK_COLUMNS = ["status TEXT NOT NULL DEFAULT 'new'", "user_id TEXT", "report TEXT"];
+const FEEDBACK_COLUMNS = ["status TEXT NOT NULL DEFAULT 'new'", "user_id TEXT", "report TEXT", "resolution TEXT",
+  "reason TEXT", "resolved TEXT", "fixed_in TEXT"];
 const feedbackReady = new WeakSet();
 async function addStatusColumn(db) {
   if (feedbackReady.has(db)) return;
@@ -91,12 +117,15 @@ async function addStatusColumn(db) {
 
 // Every part of the dashboard runs at once, each waiting only for what it reads. A round trip to D1 can take a fifth of
 // a second from an edge far from the database, and the parts used to wait for each other in turn (4 to 7 s in all).
-export async function onRequestGet({ request, env }) {
+export async function onRequestGet({ request, env, waitUntil }) {
   if (!(await authorized(request, env))) return json({ error: "Needs the admin key." }, 401);
   if (!env.DB) return json({ error: "No D1 database bound as DB" }, 503);
+  // A feedback burst that ended with nothing after it posts its digest to Slack now (lib/slack-feedback.js).
+  waitUntil?.(flushDigest(env, new URL(request.url).origin));
   const { time, header } = timings();
   const now = Date.now();
-  const schema = time("schema", () => Promise.all([addStatusColumn(env.DB), safe(setupAccounts(env))]));
+  const schema = time("schema", () => Promise.all([addStatusColumn(env.DB), safe(setupAccounts(env)), safe(setupSubmissions(env)),
+    safe(setupReports(env))]));
   // Parts that read lib/accounts.js's tables (or feedback's columns) wait for the schema; the others, timed straight
   // away, read only tables of their own.
   const part = (name, fn) => schema.then(() => time(name, fn));
@@ -108,17 +137,18 @@ export async function onRequestGet({ request, env }) {
     time("lists", () => Promise.all([
       all("SELECT email, source, created_at FROM subscribers ORDER BY created_at DESC LIMIT 5000"),
       all("SELECT f.id, f.created, f.kind, f.rating, f.message, f.code, COALESCE(f.email, u.email) AS email, f.name, " +
-          "f.quote_ok, f.country, f.user_id, f.report, COALESCE(f.status, 'new') AS status " +
+          "f.quote_ok, f.country, f.user_id, f.report, COALESCE(f.status, 'new') AS status, f.resolution, f.reason, " +
+          "f.fixed_in " +
           "FROM feedback f LEFT JOIN users u ON u.id = f.user_id ORDER BY f.id DESC LIMIT 2000"),
       // The last 30 days for the chart (voice and language packs add rows each day, so no row cap), totals for the tile.
       all("SELECT day, file, n FROM downloads WHERE day >= date('now', '-29 days') ORDER BY day DESC"),
       safe(env.DB.prepare("SELECT COALESCE(SUM(n), 0) AS n FROM clicks").first("n")),
       all("SELECT id, created, credit, email, discord, pack, link, clips, note, release_version, adult_or_guardian, " +
-          "signature, country, status FROM voice_submissions ORDER BY id DESC LIMIT 1000"),
+          "signature, country, status, reason FROM voice_submissions ORDER BY id DESC LIMIT 1000"),
       all("SELECT id, created, locale, language, credit, email, discord, link, fix, note, terms_version, country, status " +
           "FROM translation_submissions ORDER BY id DESC LIMIT 1000"),
-      all("SELECT id, created, locale, code, place, wrong, better, email, name, country, status " +
-          "FROM translation_reports ORDER BY id DESC LIMIT 2000"),
+      all("SELECT id, created, locale, code, place, wrong, better, email, name, country, status, resolution, reason, " +
+          "fixed_in FROM translation_reports ORDER BY id DESC LIMIT 2000"),
       // Google sign-in accounts (lib/accounts.js) with what each one has done, their links and their player profile
       // (lib/profiles.js): its address, whether it's public, and the character.
       all("SELECT u.id, u.email, u.display_name, u.links, u.created, " +
@@ -178,7 +208,8 @@ export async function onRequestGet({ request, env }) {
     // Shared Forever text (LOR-236): counts by status and the latest uploads, to spot and reject spam.
     part("contributions", async () => {
       await safe(setupContrib(env));
-      return (await safe(adminView(env))) || { counts: {}, accepted: 0, batches: [] };
+      const known = await safe(loadKnown(env, request));
+      return (await safe(adminView(env, undefined, known))) || { counts: {}, accepted: 0, batches: [], conflicts: [] };
     }),
     time("site", async () => (await safe(siteReport(env, 14))) || []),
     time("downloads", () => Promise.all([
@@ -214,7 +245,10 @@ export async function onRequestGet({ request, env }) {
   if (funnel) Object.assign(funnel, { stores, companions, companionWeeks });
   return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users,
                 stories, answers, plans, contributions, signups, usage, site, downloadTotals, downloadSources, activity, funnel,
-                features, willo: willo && { ...willo, subscriptions: plans?.subscriptions || null, taste: taste || null } },
+                features, willo: willo && { ...willo, subscriptions: plans?.subscriptions || null, taste: taste || null },
+                // Slack #player-feedback forwarding (lib/slack-feedback.js): "webhook", "bot token", "log", "off" or
+                // why what's set is unused. scripts/feedback-setup.mjs checks it.
+                slackFeedback: slackState(env).state },
               200, { "Server-Timing": header() });
 }
 
@@ -227,15 +261,26 @@ export async function onRequestPost({ request, env }) {
 
   if (body.action === "status" && id > 0 && ["new", "done"].includes(body.status)) {
     await addStatusColumn(env.DB);
-    await env.DB.prepare("UPDATE feedback SET status = ? WHERE id = ?").bind(body.status, id).run();
+    await resolveReport(env, "feedback", id, body.status, body.resolution, body.reason);
     return json({ ok: true });
+  }
+  if (body.action === "reports-shipped" && /^\d{1,3}\.\d{1,3}\.\d{1,4}$/.test(String(body.release || ""))
+      && !Number.isNaN(Date.parse(String(body.before || "")))) {
+    return json({ ok: true, shipped: await shipReports(env, String(body.release), String(body.before)) });
   }
   if (body.action === "delete-feedback" && id > 0) {
     await env.DB.prepare("DELETE FROM feedback WHERE id = ?").bind(id).run();
     return json({ ok: true });
   }
-  if (body.action === "voice-status" && id > 0 && ["new", "done"].includes(body.status)) {
-    await env.DB.prepare("UPDATE voice_submissions SET status = ? WHERE id = ?").bind(body.status, id).run();
+  if (body.action === "voice-status" && id > 0 && ["new", "done", "rejected"].includes(body.status)) {
+    await setupSubmissions(env);
+    const reason = body.status === "rejected" ? String(body.reason || "").replace(/\s+/g, " ").trim().slice(0, 300) || null : null;
+    const row = await env.DB.prepare("UPDATE voice_submissions SET status = ?, reason = ? WHERE id = ? RETURNING voice_id")
+      .bind(body.status, reason, id).first();
+    // Not used: the voice is a draft again on the upload page, so the narrator can fix it and send it again.
+    if (row?.voice_id && body.status === "rejected") {
+      await env.DB.prepare("UPDATE voices SET status = 'draft' WHERE id = ? AND status = 'pending'").bind(row.voice_id).run();
+    }
     return json({ ok: true });
   }
   if (body.action === "delete-voice" && id > 0) {
@@ -246,6 +291,10 @@ export async function onRequestPost({ request, env }) {
   const TRANSLATION_TABLES = { translation: "translation_submissions", "translation-report": "translation_reports" };
   const [verb, ...rest] = String(body.action || "").split("-");
   const table = TRANSLATION_TABLES[rest.join("-")];
+  if (table === "translation_reports" && verb === "status" && id > 0 && ["new", "done"].includes(body.status)) {
+    await resolveReport(env, table, id, body.status, body.resolution, body.reason);
+    return json({ ok: true });
+  }
   if (table && verb === "status" && id > 0 && ["new", "done"].includes(body.status)) {
     await env.DB.prepare(`UPDATE ${table} SET status = ? WHERE id = ?`).bind(body.status, id).run();
     return json({ ok: true });
@@ -261,12 +310,38 @@ export async function onRequestPost({ request, env }) {
                                             await loadKnown(env, request));
     return json({ ok: true, lines });
   }
+  if (body.action === "contrib-settle") {
+    await setupContrib(env);
+    return json({ ok: true, ...(await settleConflicts(env, await loadKnown(env, request))) });
+  }
+  if (body.action === "contrib-pick" && id > 0 && ["use", "skip", "reset"].includes(body.pick)) {
+    await setupContrib(env);
+    const status = await pickLine(env, id, body.pick, await loadKnown(env, request), undefined, body.reason);
+    return status ? json({ ok: true, status }) : json({ error: "No such line." }, 404);
+  }
   // Contacts: leave an account out of the counts, or count it again (lib/activity.js setExclusion).
   if ((body.action === "exclude-account" || body.action === "count-account") && typeof body.id === "string"
       && /^[\w-]{1,64}$/.test(body.id)) {
     await setupAccounts(env);
     await setExclusion(env, body.id, body.action === "exclude-account");
     return json({ ok: true });
+  }
+  // The thank-you email (lib/thanks.js) for a plan, sent now to the site's own inbox only (REPLY_TO, which reaches
+  // Mike), to try the email service, the text and its Reply-To.
+  // Whether a new subscriber gets the thank-you here, without sending anything: the email service, the "thanks" feature,
+  // and who it's from.
+  if (body.action === "email-status") {
+    const { from, replyTo } = senderOf(env);
+    return json({ ok: true, service: emailService(env), thanks: featureOn(env, "thanks"), from, replyTo });
+  }
+  if (body.action === "email-test") {
+    const planId = PAID.includes(body.plan) ? body.plan : "hero";
+    const email = thankYouEmail({ planId, planName: PLANS[planId].name, firstName: "Mike", trial: body.trial === true,
+                                  picks: voicePicks(env), postal: senderOf(env).postal });
+    try {
+      return json({ ok: true, to: REPLY_TO, ...(await sendEmail(env, { ...email, to: REPLY_TO,
+        subject: `[Test] ${email.subject}` })) });
+    } catch (e) { return json({ ok: false, error: String(e?.message || e) }); }   // 200: the edge hides a 502's body
   }
   if (body.action === "delete-subscriber"&& typeof body.email === "string" && body.email) {
     await env.DB.prepare("DELETE FROM subscribers WHERE email = ?").bind(body.email.trim().toLowerCase()).run();

@@ -1,0 +1,114 @@
+{
+ "key": "quest:98299",
+ "type": "quest",
+ "name": "Stop the Spread",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98299
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "Skyborne adventurers are directly warned to avoid being bitten while carrying out the grim containment orders near the Greymane Wall."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The Forsaken appear uniquely immune to the worgen affliction, making containment operations viable without risk of infection to undead forces."
+  },
+  {
+   "target": "race:Human",
+   "text": "Uninfected human refugees huddled at the sealed Greymane Wall are viewed by Forsaken researchers as prime vectors for Arugal's spreading curse."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is stop the spread",
+    "stop the spread quest lore"
+   ],
+   "answer": "Stop the Spread is a mission focused on containing the worgen curse ravaging Silverpine Forest. To prevent Archmage Arugal from gaining new servants, forces are sent to eliminate human refugees near the Greymane Wall before they can succumb to the affliction.",
+   "q": "What is the quest Stop the Spread about?"
+  },
+  {
+   "aliases": [
+    "who spreads worgen curse",
+    "arugal worgen connection"
+   ],
+   "answer": "Archmage Arugal is held responsible for the presence of the worgen within Silverpine Forest, whether through his deliberate machinations or unforeseen consequences of his magic. His growing pack threatens the entire region.",
+   "q": "Who is responsible for the worgen in Silverpine?"
+  },
+  {
+   "aliases": [
+    "can forsaken become worgen",
+    "are undead immune to worgen"
+   ],
+   "answer": "According to local Forsaken research, the worgen curse cannot infect the undead. This immunity allows Forsaken operatives to confront the threat without danger of turning into beastly servants of Arugal.",
+   "q": "Can the Forsaken catch the worgen curse?"
+  },
+  {
+   "aliases": [
+    "why kill refugees",
+    "greymane wall refugees"
+   ],
+   "answer": "A large congregation of human refugees has gathered outside the sealed Greymane Wall. Because living humans are susceptible to Arugal's curse, they are considered an imminent threat of swelling the ranks of the worgen.",
+   "q": "Why are human refugees being targeted at the Greymane Wall?"
+  },
+  {
+   "aliases": [
+    "how do worgen spread",
+    "worgen curse transmission"
+   ],
+   "answer": "While it is known that the worgen curse can be transmitted through bites, the exact magical and biological mechanics of its spread remain under active investigation by researchers in Silverpine Forest.",
+   "q": "How does the worgen affliction spread?"
+  },
+  {
+   "aliases": [
+    "can the worgen curse be cured",
+    "cure for worgen"
+   ],
+   "answer": "At present, there is no known cure for the worgen affliction. Researchers are attempting to discover a remedy to halt the curse, but their immediate priority remains aggressive containment.",
+   "q": "Is there a way to stop or cure the worgen curse?"
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "curse",
+  "forsaken",
+  "greymane wall",
+  "refugees",
+  "silverpine",
+  "skyborne",
+  "stop the spread",
+  "worgen"
+ ],
+ "related": [
+  "subzone:greymane-wall",
+  "npc:arugal",
+  "topic:worgen",
+  "topic:forsaken",
+  "topic:skyborne",
+  "topic:human",
+  "topic:refugee"
+ ],
+ "sections": [
+  {
+   "body": "In Silverpine Forest, the scourge of the worgen spreads at the hands of the renegade Archmage Arugal. While the exact methods and mechanics behind the spread of this feral condition remain largely unknown, the danger it presents to the territory is undeniable. Researchers are actively working to understand the nature of the magic, but their immediate focus is preventing Arugal from amassing an unstoppable host of savage followers.",
+   "spoiler": 0,
+   "title": "The Silverpine Affliction"
+  },
+  {
+   "body": "Forsaken investigators have observed that their undead physiology makes them immune to the worgen infection. Living humans, however, possess no such natural defense. At the southern border, a desperate encampment of human refugees has clustered around the locked gates of the Greymane Wall. Fearful that these defenseless survivors will be bitten and transformed into loyal thralls for Arugal, preemptive and ruthless containment orders have been issued to purge the gathering before the affliction claims them.",
+   "spoiler": 1,
+   "title": "Containment at the Wall"
+  }
+ ],
+ "summary": "Stop the Spread is a Silverpine Forest quest concerning the containment of the worgen curse linked to Archmage Arugal. While researchers seek a way to halt the affliction, preemptive measures are ordered against living human refugees at the Greymane Wall to prevent them from turning into Arugal's servants.",
+ "attribution": [
+  "In-game quest text: Stop the Spread"
+ ]
+}

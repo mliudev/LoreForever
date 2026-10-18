@@ -1,0 +1,108 @@
+{
+ "key": "quest:96634",
+ "type": "quest",
+ "name": "Camping 101: Cooking",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96634
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Cooking is the foundational discipline of survival in the wilderness, providing the campfire necessary to anchor any outdoor campsite. Advancing in the culinary craft allows adventurers to build larger, more resilient campfires."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Novice night elf adventurers passing through Dolanaar often learn the fundamentals of bushcraft and firemaking from Zarrin before venturing deeper into the wilds of Teldrassil."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what does this quest do",
+    "camping 101 cooking purpose",
+    "why do camping 101"
+   ],
+   "answer": "Camping 101: Cooking introduces adventurers to the fundamentals of wilderness survival by directing them to learn the cooking trade. Establishing a campfire serves as the core foundation for setting up a campsite anywhere in the wild.",
+   "q": "What is the purpose of Camping 101: Cooking?"
+  },
+  {
+   "aliases": [
+    "who is zarrin",
+    "zarrin dolanaar",
+    "where is cooking trainer dolanaar"
+   ],
+   "answer": "Zarrin is a cooking trainer located in Dolanaar on Teldrassil. He teaches novice adventurers the basics of the culinary arts and how to build a basic campfire.",
+   "q": "Who is Zarrin?"
+  },
+  {
+   "aliases": [
+    "how to build camp",
+    "how does camping work",
+    "making a campsite"
+   ],
+   "answer": "Setting up a campsite starts with building a basic campfire learned through the cooking profession. While basic training allows you to pitch camp in the wilderness with modest furnishings, advancing your skills allows for larger fires and additional campsite improvements.",
+   "q": "How do you establish a campsite in the wild?"
+  },
+  {
+   "aliases": [
+    "furnishing campsite",
+    "camp decorations",
+    "campsite furnishings other professions"
+   ],
+   "answer": "While cooking provides the campfire that anchors your campsite, other tradeskill trainers across Azeroth can teach skilled craftsmen how to furnish and upgrade their campsites with specialized gear and decorations.",
+   "q": "Can you add furnishings to your campsite?"
+  },
+  {
+   "aliases": [
+    "why need cooking for camping",
+    "cooking connection to camping"
+   ],
+   "answer": "Cooking teaches adventurers how to build and maintain an open campfire out in the wild. Because a fire is the essential centerpiece of any outdoor camp, learning to cook is the first necessary step for proper wilderness camping.",
+   "q": "Why is cooking required for camping?"
+  },
+  {
+   "aliases": [
+    "can i make bigger campfires",
+    "how to upgrade campfire"
+   ],
+   "answer": "Yes. As you practice your culinary craft and raise your cooking skill, you can learn how to construct larger fires to better support your wilderness camps.",
+   "q": "Can you make larger campfires?"
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping 101",
+  "campsite",
+  "cooking",
+  "dolanaar",
+  "furnishings",
+  "wilderness survival",
+  "zarrin"
+ ],
+ "related": [
+  "npc:zarrin",
+  "subzone:dolanaar"
+ ],
+ "sections": [
+  {
+   "body": "Every long journey across the wilderness begins with the ability to build a warm fire. In Camping 101: Cooking, fledgling adventurers are directed to seek out culinary training as their initial lesson in bushcraft. Learning to cook is more than preparing meals from wild game; the essential skill of lighting a basic campfire serves as the physical and practical anchor for any outdoor camp. Without a fire to ward off the chill and keep the dark at bay, establishing a reliable campsite in the wilds is impossible.",
+   "spoiler": 0,
+   "title": "The Hearth of the Wild"
+  },
+  {
+   "body": "Learning to kindle a basic campfire grants the ability to establish modest camps throughout the wilderness. Although an entry-level camp can support only a few rudimentary furnishings, dedicated adventurers can expand their capabilities. As an adventurer hones their cooking proficiency, they unlock methods to kindle larger, sturdier blazes. Furthermore, artisans versed in other tradeskills can consult their respective trainers to learn how to craft furnishings and improvements to enrich their camps.",
+   "spoiler": 0,
+   "title": "Expanding the Campsite"
+  }
+ ],
+ "summary": "Camping 101: Cooking is an introductory quest that instructs adventurers on the essentials of wilderness camping through the art of cooking. By learning to start a campfire from local trainers like Zarrin in Dolanaar, travelers establish the necessary anchor for setting up wilderness camps. It marks the first step toward mastering outdoor survival and outfitting personal campsites.",
+ "attribution": [
+  "In-game quest text: Camping 101: Cooking"
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "key": "quest:99411",
+ "type": "quest",
+ "name": "Kyle's Gone Missing!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99411
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Ahab Wheathoof is a resident of Bloodhoof Village, making this personal errand a familiar gesture of community support across the pastures of Mulgore."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting the local villagers of Bloodhoof with everyday matters strengthens ties with the Shu'halo as they settle and defend their homeland."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is ahab wheathoof",
+    "ahab mulgore",
+    "quest giver kyle"
+   ],
+   "answer": "Ahab Wheathoof is an elder tauren living at Bloodhoof Village in Mulgore. Caring deeply for his prized dog, Kyle, Ahab turns to traveling adventurers to help locate and feed the runaway canine when he wanders too far from home.",
+   "q": "Who is Ahab Wheathoof?"
+  },
+  {
+   "aliases": [
+    "who is kyle",
+    "kyle dog",
+    "kyle the frenzied"
+   ],
+   "answer": "Kyle is Ahab Wheathoof's beloved canine pet, known as Kyle the Frenzied. Despite his ferocious title, he is Ahab's prized companion and can be pacified and lured back simply by feeding him tender strider meat.",
+   "q": "Who is Kyle the Frenzied?"
+  },
+  {
+   "aliases": [
+    "where is bloodhoof village",
+    "bloodhoof location"
+   ],
+   "answer": "Bloodhoof Village is a central tauren settlement situated in the heart of Mulgore, south of Thunder Bluff. It serves as a vital gathering hub for local tribes, traders, and herders.",
+   "q": "Where does this task take place?"
+  },
+  {
+   "aliases": [
+    "why tender strider meat",
+    "strider meat kyle",
+    "how to calm kyle"
+   ],
+   "answer": "Kyle has a particular appetite for fresh meat cut from the plainstriders wandering Mulgore. Offering tender strider meat pacifies the hungry hound and convinces him to return safely to Ahab.",
+   "q": "Why does Kyle need tender strider meat?"
+  },
+  {
+   "aliases": [
+    "why is kyle frenzied",
+    "kyle angry"
+   ],
+   "answer": "Kyle is known locally as 'the Frenzied,' roaming the plains when lost or famished. His frenzy subsides once he is properly fed by a patient traveler.",
+   "q": "Why is Kyle considered frenzied?"
+  },
+  {
+   "aliases": [
+    "kyle location",
+    "where is kyle"
+   ],
+   "answer": "Kyle wanders the open plains surrounding Bloodhoof Village in Mulgore. Travelers usually track him down by scanning the prairies nearby until they can offer him a meal.",
+   "q": "Where can Kyle be found?"
+  }
+ ],
+ "keywords": [
+  "ahab wheathoof",
+  "bloodhoof village",
+  "kyle",
+  "kyle the frenzied",
+  "kyle's gone missing!",
+  "mulgore",
+  "plainstrider",
+  "tender strider meat"
+ ],
+ "related": [
+  "subzone:bloodhoof-village",
+  "zone:mulgore"
+ ],
+ "sections": [
+  {
+   "body": "In Bloodhoof Village, elder Ahab Wheathoof worries over his wayward pet, Kyle the Frenzied. While the title might sound alarming to outsiders, Kyle is Ahab's prized puppy who has slipped away onto the grassy plains of Mulgore. Ahab asks travelers passing through the settlement to track down his unruly companion and offer him a hearty meal to calm his wild spirits.",
+   "spoiler": 0,
+   "title": "A Missing Hound"
+  },
+  {
+   "body": "Pacifying Kyle requires a cut of tender strider meat, sourced from the swift plainstriders that roam Mulgore. Presenting the treat satisfies the hungry pup, soothing his frenzied mood and nudging him safely back toward Bloodhoof Village and his grateful owner.",
+   "spoiler": 0,
+   "title": "A Simple Remedy"
+  }
+ ],
+ "summary": "Kyle's Gone Missing! is a local quest in Bloodhoof Village where Ahab Wheathoof asks passing adventurers to find his wayward dog, Kyle the Frenzied. Feeding the hungry pup a cut of tender strider meat soothes his temper and ensures his safe return home.",
+ "attribution": [
+  "In-game quest text: Kyle's Gone Missing!"
+ ]
+}

@@ -5,12 +5,14 @@
 //   GET  /api/voices  returns the submissions, newest first. Needs the admin key (lib/auth.js).
 // Optional Pages setting (Settings > Variables and Secrets):
 //   VOICES_WEBHOOK    Discord webhook URL; each submission is posted there (never the email address or signature)
+//   SLACK_FEEDBACK_WEBHOOK  Slack #player-feedback; each submission is forwarded there (lib/slack-feedback.js)
 // The table, the release version and the webhook message are in lib/submissions.js, shared with the upload page.
 
 import { authorized } from "../../lib/auth.js";
 import { clean, ticked, EMAIL, senderHash } from "../../lib/form.js";
 import { currentUser, claimVoice } from "../../lib/accounts.js";
 import { loadVoices } from "../../lib/voices.js";
+import { forwardFeedback } from "../../lib/slack-feedback.js";
 import { RELEASE_VERSION, PER_DAY, setupSubmissions, sentToday, insertSubmission, notify } from "../../lib/submissions.js";
 
 // Shared-folder links we can open: Google Drive, Dropbox, OneDrive (personal and work).
@@ -56,7 +58,8 @@ export async function onRequestPost(context) {
 }
 
 // Returns {} when the submission was saved, or {status, error} with a message for the narrator.
-async function save({ request, env, waitUntil }, json) {
+async function save(context, json) {
+  const { request, env, waitUntil } = context;
   if (!env.DB) return { status: 503, error: "Submissions aren't set up yet. Please ask on Discord." };
   let input;
   try {
@@ -111,6 +114,7 @@ async function save({ request, env, waitUntil }, json) {
   row.id = await insertSubmission(env, row);
 
   if (env.VOICES_WEBHOOK) waitUntil(notify(env.VOICES_WEBHOOK, row));
+  if (row.id) forwardFeedback(context, "voice-submission", row);
   return {};
 }
 

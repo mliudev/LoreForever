@@ -58,6 +58,18 @@ test("a question about the Southshore boat is answered with Forever's route, not
   assert.equal(body.feedback, undefined);
 });
 
+test("a follow-up that points back gets the era facts its subject would (LOR-639)", async () => {
+  const token = await linked();
+  const after = (before, q) => ask(token, "PLAYER CONTEXT\nzone: Durotar\n\n" + conversation(before, "...") +
+    "\n\nSOURCES\n\nQUESTION\n" + q);
+  // "Is he married?" names no one: only the question before it says who.
+  assert.ok((await after("Who is Thrall?", "Is he married?")).forever_facts.includes("Thrall has no family of his own"));
+  assert.ok(!(await after("Who is Thrall?", "Where is the nearest inn?")).forever_facts
+    .includes("Thrall has no family of his own"), "a question of its own isn't searched with the one before");
+  assert.ok((await after("Who is Edwin VanCleef?", "What became of his daughter?")).forever_facts
+    .includes("Edwin VanCleef's daughter"));
+});
+
 test("an older add-on's lore gives way to newer Forever facts; the current one and an old companion's don't (LOR-471)", async () => {
   const token = await linked();
   const prompt = "PLAYER CONTEXT\nzone: Hillsbrad Foothills\n\nSOURCES\n\nQUESTION\nWhere does the boat from Southshore go?";

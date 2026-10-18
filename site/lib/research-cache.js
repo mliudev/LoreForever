@@ -123,6 +123,13 @@ const PRACTICAL = new RegExp([
   String.raw`\b${PROFESSION}\b.*\b(?:quests?|skill(?:s|ing)?|train(?:er|ing)?s?|level(?:l)?ing|level up|work|benefits?|worth|recipes?)\b`,
   // How long leveling takes in Forever (LOR-545).
   String.raw`\bhow (?:long|many hours|many days)\b.*\blevel\b`,
+  // How a class plays, which Forever changed most (LOR-627: "a shaman tank build for WoW Forever" was answered from
+  // the original game, "shamans can't tank"): builds, specs, talents, rotations and roles.
+  String.raw`\b(?:specs?|speci[fa]li[sz]ations?|talents?|rotations?|tank(?:s|ing)?|healer|best in slot|bis)\b`,
+  // A class build, never building a city ("how many years did it take to build Ironforge?").
+  String.raw`\b(?:class|warrior|paladin|hunter|rogue|priest|shaman|mage|warlock|druid|tank|heal(?:er|ing)?|dps|pvp|pve|level(?:l)?ing|raid|dungeon|talent|best|good)\s+(?:\w+\s+)?builds?\b`,
+  // What Forever changed or added, by name: "did Forever change ...", "is X still in WoW Forever?".
+  String.raw`\bforever\b.*\b(?:change[ds]?|different|new|added|removed|still|anymore)\b|\b(?:change[ds]?|different|new|added|removed|still)\b.*\bin (?:wow )?forever\b`,
   // Current: what changed in a patch.
   String.raw`\b(?:patch(?:es)?|hotfix(?:es)?|nerf(?:s|ed)?|buffed)\b|\bwhat(?:'s| has| have)? changed\b|\b(?:latest|recent) (?:update|changes?|news)\b`,
 ].join("|"), "i");

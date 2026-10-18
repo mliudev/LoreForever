@@ -46,7 +46,7 @@
 import { plansOn, poolWindow, setupBilling, holdUserSpend, releaseUserSpend, addVoiceSpend, userSpend, STARTER_ANSWERS,
   VOICE_PACK, LEGEND_BEST_MODEL, CHARACTER_MODEL } from "./billing.js";
 import { reserveFreeVoice, settleFreeVoice } from "./companion-answers.js";
-import { characterVoices, CHARACTER_KEY } from "./character-voices.js";
+import { characterVoices, CHARACTER_KEY, CHARACTER_VOICES, voiceLabel, hasAzeroth } from "./character-voices.js";
 import { tasteFor, tasteState, tasteDayMicro, takeVoice, giveVoice, holdDay, settleDay, countDay, TASTE_PERIOD,
   TASTE_REPLY_MICRO, TASTE_ANSWERS } from "./best-first.js";
 
@@ -68,17 +68,53 @@ const MAX_AUDIO_BYTES = 2 * 1024 * 1024;   // a 600-letter piece is well under a
 // A reply's id: the companion's, the same for each of its pieces.
 export const REPLY_ID = /^[A-Za-z0-9_-]{8,40}$/;
 
-// Willo's five hosted voices (Mike, 2026-10-13), by the name the companion sends as a piece's pick: each provider's
-// voice id (each Chatterbox voice, the studio voice, is a clone of the Inworld design of the same name, the finest).
-// Sprite is every hosted plan's; a plan with PLAN_VOICE choice (Champion, Legend) says its player's pick (willoPick).
+// Willo's own hosted voices, by the name the companion sends as a piece's pick: each provider's voice id (each
+// Chatterbox voice, the studio voice, is a clone of the Inworld design of the same name, the finest). Her five (Mike,
+// 2026-10-13), each followed by his male partner (LOR-610, Mike, 2026-10-16: "done kept them all"; ids in
+// ~/lore-voice-renders/experiments/willo-voice/r1/kept.json). Sprite is every hosted plan's; a plan with PLAN_VOICE
+// choice (Champion, Legend) says its player's pick (willoPick).
 export const DEFAULT_PICK = "sprite";
 export const WILLO_PICKS = {
   sprite: { inworld: "humble-aspen-1573__design-voice-9e34aa30", deepinfra: "3mv3hv3v3pqpntlw1wf3" },
+  puck: { inworld: "humble-aspen-1573__design-voice-5cb263a1", deepinfra: "rbo1dwi5xclqs2rgluhk" },
   sunbeam: { inworld: "humble-aspen-1573__design-voice-3c3710eb", deepinfra: "amd1vu97liqiczmceyvn" },
+  daybreak: { inworld: "humble-aspen-1573__design-voice-a6ed38f4", deepinfra: "wh1ewt31iudvyhcxb3s6" },
   moonwell: { inworld: "humble-aspen-1573__design-voice-1a47e9a9", deepinfra: "1lm6bxrwur1pipen43ce" },
+  moonshade: { inworld: "humble-aspen-1573__design-voice-ca232d30", deepinfra: "zm3m3nyoafxmfmdhrc5n" },
   fenlight: { inworld: "humble-aspen-1573__design-voice-22a59081", deepinfra: "py2zcbsej5mt9mnunjnn" },
+  fenfire: { inworld: "humble-aspen-1573__design-voice-f9cba8a2", deepinfra: "ewvqqr1bcwlipqlvpffd" },
   starling: { inworld: "humble-aspen-1573__design-voice-fa611e40", deepinfra: "3gkdtxqxel3rzbktyly6" },
+  kestrel: { inworld: "humble-aspen-1573__design-voice-b10f5442", deepinfra: "npdmreavbnjhdjr5kt7q" },
 };
+// The five every companion knows; her male partners came with the Voices of Azeroth (picksFor).
+const FIRST_FIVE = ["sprite", "sunbeam", "moonwell", "fenlight", "starling"];
+// Voices of Azeroth (LOR-609, Mike, 2026-10-16: "yes, start it for the next release"): a plan with choice may also
+// pick one of the people-and-gender character voices (lib/character-voices.js) as Willo's everyday voice, by its slot
+// ("dwarf-male"): she borrows it, and characters who answer in person keep their own. Its finest voice is the slot's
+// Inworld clone (character-voices.js inworld), its studio voice a Chatterbox clone of the same reference, here
+// (~/lore-voice-renders/experiments/willo-voice/azeroth.py); HOSTED_VOICES by the slot's name replaces either.
+export const AZEROTH_STUDIO = {
+  "dwarf-female": "6ehpzvsatxh68puj8zpj", "dwarf-male": "al479rk4wzxum85mjmho", "forsaken-female": "p56dz8d9cop6d1vcqlim",
+  "forsaken-male": "m37sh5db0aw8v70ot59w", "gnome-female": "nqp4j1122ziuhncoe06c", "gnome-male": "y0r8r1e4eba0uka3mwv1",
+  "goblin-female": "ri3plic4681fapq5r097", "goblin-male": "0hztttmrhtlb8bq3pow6", "highelf-female": "0257e3ifx42ghq5j1bo8",
+  "highelf-male": "zds5q3ot7g3grpug47ap", "human-female": "bpbq49k6rdxtxqvdmub0", "human-male": "hv2ffug7hb8r2d2ha22l",
+  "nightelf-female": "x9kpm8tny2yedjaiquay", "nightelf-male": "qy47s0jonl1kbd3eo8yq", "orc-female": "jof7in80gcv3n9t7kw0p",
+  "orc-male": "k275zcoo9107rf43jtxf", "skyborne-female": "3iaymnan1zj4ldxj9rcj", "skyborne-male": "3byfsilqgwivdbxrt4qe",
+  "tauren-female": "1zs5jnu59ws84c9uu44x", "tauren-male": "6bbl2x6amrzmu9dm3y0g", "troll-female": "8uzpdu2eira3gxiptfbu",
+  "troll-male": "s59hrhio6uwb4qmousbw",
+};
+export const AZEROTH_PICKS = Object.keys(CHARACTER_VOICES).filter(slot => voiceLabel(slot));
+const isPick = pick => Object.hasOwn(WILLO_PICKS, pick) || AZEROTH_PICKS.includes(pick);
+// The picks a companion can offer: her first five, and her male partners and the Voices of Azeroth for a companion
+// that has them (lib/character-voices.js hasAzeroth), so an older one is never offered a voice it can't switch to.
+export const picksFor = client => hasAzeroth(client) ? [...Object.keys(WILLO_PICKS), ...AZEROTH_PICKS] : [...FIRST_FIVE];
+// The pick a voice's name in WILLO STATE ("voice now: Moonwell", "voice now: Dwarf, man") is, or "" (a voice on the
+// PC, "Heart (on this PC)", is none of them).
+export function pickNamed(name) {
+  const said = String(name || "").trim().toLowerCase();
+  return Object.keys(WILLO_PICKS).find(p => p === said)
+    || AZEROTH_PICKS.find(p => voiceLabel(p).toLowerCase() === said) || "";
+}
 
 // The hosted voices, by the companion's voice key: each provider's voice id. Only Willo's own, Sprite's ids (the
 // player's pick replaces them, willoIds): characters who answer in person speak in Willo's voice too. The Pages
@@ -106,9 +142,13 @@ export const FISH_MICRO_PER_BYTE = 15 * 1.055;
 const MAX_REFERENCE_BYTES = 4 * 1024 * 1024;   // a reference is 11 to 22 s of 24 kHz mono WAV, about 1 MB
 const fishCost = text => Math.ceil(new TextEncoder().encode(text).length * FISH_MICRO_PER_BYTE);
 const VOICE_ID = /^[\w .:/@-]{1,200}$/;
-// HOSTED_VOICES and WILLO_PICKS with the Pages variable's ids over them.
+// HOSTED_VOICES, WILLO_PICKS and the Voices of Azeroth (each slot's Inworld clone, and its studio clone) with the
+// Pages variable's ids over them.
 export function hostedVoices(env) {
-  const voices = Object.fromEntries([...Object.entries(WILLO_PICKS), ...Object.entries(HOSTED_VOICES)]
+  const azeroth = Object.entries(characterVoices(env)).filter(([slot]) => AZEROTH_PICKS.includes(slot))
+    .map(([slot, c]) => [slot, { ...(c.inworld ? { inworld: c.inworld } : {}),
+                                 ...(AZEROTH_STUDIO[slot] ? { deepinfra: AZEROTH_STUDIO[slot] } : {}) }]);
+  const voices = Object.fromEntries([...Object.entries(WILLO_PICKS), ...azeroth, ...Object.entries(HOSTED_VOICES)]
     .map(([k, v]) => [k, { ...v }]));
   let extra = {};
   try { extra = env?.HOSTED_VOICES ? JSON.parse(env.HOSTED_VOICES) : {}; }
@@ -124,14 +164,16 @@ export function hostedVoices(env) {
   return voices;
 }
 
-// The pick a plan's player hears: theirs when the plan has choice and it's one of WILLO_PICKS, else Sprite.
-export const willoPick = (plan, pick) =>
-  plan?.voice?.choice && Object.hasOwn(WILLO_PICKS, pick) ? pick : DEFAULT_PICK;
-// Willo's voice for that pick: {name, ids} (Sprite's, "willo", when the pick has no ids here).
+// The pick a plan's player hears: theirs when the plan has choice and it's one of WILLO_PICKS or the Voices of
+// Azeroth, else Sprite.
+export const willoPick = (plan, pick) => plan?.voice?.choice && isPick(pick) ? pick : DEFAULT_PICK;
+// Willo's voice for that pick: {name, ids, names (by provider, the pick each id is: Sprite's, "willo", where the pick
+// has no id there, so a pick without a studio clone says the studio voice's replies as Sprite)}.
 function willoVoice(env, plan, pick) {
-  const voices = hostedVoices(env), name = willoPick(plan, pick), ids = voices[name];
-  return Object.keys(PROVIDERS).some(p => env?.[PROVIDERS[p].key] && ids?.[p]) ? { name, ids }
-    : { name: DEFAULT_PICK, ids: voices.willo };
+  const voices = hostedVoices(env), name = willoPick(plan, pick), own = voices[name] || {};
+  const ids = {}, names = {};
+  for (const p of Object.keys(PROVIDERS)) [ids[p], names[p]] = own[p] ? [own[p], name] : [voices.willo[p], DEFAULT_PICK];
+  return { name, ids, names };
 }
 const willoIds = (env, plan, pick) => willoVoice(env, plan, pick).ids;
 
@@ -539,7 +581,7 @@ async function speakTaste(env, userId, plan, { text, voice, reply, pick }, now, 
     .bind(chars, userId, reply, TASTE_PERIOD, chars, SPEAK_MAX_CHARS).first();
   if (!taken) return { local: "long", status: 413 };
   const first = taken.chars === chars;
-  const { name, ids } = willoVoice(env, plan, pick);
+  const { ids, names } = willoVoice(env, plan, pick);
   const input = cast && character.cue ? `${character.cue} ${text}` : text;
   const order = [...(cast
     ? [...(ownInworld ? [{ provider: "inworld", model: CHARACTER_MODEL, voiceId: ownInworld,
@@ -566,7 +608,7 @@ async function speakTaste(env, userId, plan, { text, voice, reply, pick }, now, 
       await afterAudio(Promise.all([settleTaste(env, hold, micro, true, first ? { replies: 1 } : {}, now),
         env.DB.prepare("UPDATE voice_replies SET heard = heard + 1 WHERE user_id = ? AND reply = ?").bind(userId, reply).run()]),
         later, provider);
-      return { audio, provider, voice: `${provider === "deepinfra" ? "studio" : "finest"}:${cast && provider !== "deepinfra" ? voice : name}` };
+      return { audio, provider, voice: `${provider === "deepinfra" ? "studio" : "finest"}:${cast && provider !== "deepinfra" ? voice : names[provider]}` };
     } catch (e) {
       await settleTaste(env, hold, micro, false, {}, now);
       console.warn(`companion voice: a first reply: ${provider}${voiceId || provider === "fish" ? ` (${voice})` : ""}: ${e?.message || e}`);
@@ -610,7 +652,7 @@ async function speakLine(env, userId, plan, { text, pick }, now, later = null) {
              ...(s.now !== "everyday" && pv.voice !== "local" ? [{ voice: "studio", provider: "deepinfra" }] : [])];
   }
   steps = steps.filter(s => ready.includes(s.provider));
-  const { name, ids } = willoVoice(env, plan, pick);
+  const { ids, names } = willoVoice(env, plan, pick);
   let full = !steps.length;
   for (const { voice, provider, model, taste: tasted } of steps) {
     const micro = text.length * rate(provider, model);
@@ -623,7 +665,7 @@ async function speakLine(env, userId, plan, { text, pick }, now, later = null) {
       if (!audio.length || audio.length > MAX_AUDIO_BYTES) throw new Error(`${provider} sent ${audio.length} bytes of audio`);
       await afterAudio(tasted ? settleTaste(env, hold, micro, true, { lines: 1 }, now) : free ? settleFreeVoice(env, micro, true, now)
         : addVoiceSpend(env, userId, micro, now, hold, null, Boolean(plan.launch)), later, provider);
-      return { audio, provider, voice: `${voice}:${name}` };
+      return { audio, provider, voice: `${voice}:${names[provider]}` };
     } catch (e) {
       await (tasted ? settleTaste(env, hold, micro, false, {}, now) : free ? settleFreeVoice(env, micro, false, now)
         : releaseUserSpend(env, hold));

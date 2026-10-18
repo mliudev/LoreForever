@@ -7,7 +7,7 @@
 
 import { test, beforeEach, afterEach } from "node:test";
 import assert from "node:assert/strict";
-import { mkdtempSync, writeFileSync } from "node:fs";
+import { mkdtempSync, writeFileSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { spawnSync } from "node:child_process";
@@ -17,9 +17,10 @@ import { onRequest as speakApi } from "../functions/api/companion/speak.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { setupBilling, planFor, poolWindow, CHAMPION_CHARACTER_REPLIES, LEGEND_BEST_PER_MONTH, VOICE_PACK,
-  CHARACTER_MODEL } from "../lib/billing.js";
-import { CHARACTER_VOICES, characterVoices } from "../lib/character-voices.js";
-import { FISH_MICRO_PER_BYTE, MICRO_PER_CHAR, CHARACTER_FIRST_AUDIO_MS, PROVIDER_MS } from "../lib/companion-voice.js";
+  CHARACTER_MODEL, AZEROTH_VOICES } from "../lib/billing.js";
+import { CHARACTER_VOICES, characterVoices, voiceLabel, voicePhrase, refusal, hasAzeroth } from "../lib/character-voices.js";
+import { FISH_MICRO_PER_BYTE, MICRO_PER_CHAR, CHARACTER_FIRST_AUDIO_MS, PROVIDER_MS, AZEROTH_PICKS, AZEROTH_STUDIO }
+  from "../lib/companion-voice.js";
 
 import { d1, r2 } from "./helpers.mjs";
 
@@ -219,4 +220,25 @@ test("A slot's Inworld voice says it first; Fish when Inworld fails or is slow; 
   slow.clear();
   assert.equal(await speak("One more, mon.", "troll-male"), 200);
   assert.equal(calls.at(-1).provider, "deepinfra", "the month's character replies are said: Willo's studio voice");
+});
+
+test("Voices of Azeroth (LOR-609): every people and gender, named alike here and in the companion, with both clones", () => {
+  assert.deepEqual([voiceLabel("dwarf-male"), voiceLabel("nightelf-female"), voiceLabel("kobold-male"), voiceLabel("x")],
+    ["Dwarf, man", "Night elf, woman", "", ""]);
+  assert.deepEqual([voicePhrase("orc-male"), voicePhrase("forsaken-female"), voicePhrase("highelf-male")],
+    ["an orc man's voice", "a Forsaken woman's voice", "a high elf man's voice"]);
+  assert.equal(AZEROTH_PICKS.length, AZEROTH_VOICES);
+  for (const slot of AZEROTH_PICKS) {
+    assert.ok(CHARACTER_VOICES[slot].inworld && AZEROTH_STUDIO[slot], `${slot}: its finest and its studio voice`);
+    assert.equal(refusal(slot, CHARACTER_VOICES[slot]), null, slot);
+  }
+  // The companion's picker (talk/tts.py AZEROTH_VOICES) names the same slots the same way.
+  const tts = readFileSync(fileURLToPath(new URL("../../companion/lore_companion/talk/tts.py", import.meta.url)), "utf8");
+  const people = [...(/_PEOPLE = \[([^]*?)\]\n/.exec(tts)?.[1] || "").matchAll(/\("(\w+)", "([^"]+)"\)/g)];
+  const theirs = Object.fromEntries(people.flatMap(([, key, name]) => [[`${key}-male`, `${name}, man`],
+    [`${key}-female`, `${name}, woman`]]));
+  assert.deepEqual(theirs, Object.fromEntries(AZEROTH_PICKS.map(slot => [slot, voiceLabel(slot)])));
+  // A companion before them is never offered one (Willo's help, her set_voice offer).
+  assert.deepEqual(["companion/0.20.0", "companion/0.20.1", "companion/1.0.0", "companion/dev", ""].map(hasAzeroth),
+    [false, true, true, false, false]);
 });

@@ -21,6 +21,7 @@
 //
 // Pages settings: the R2 binding STUDIO (bucket lore-forever-voices), D1 as DB, and GOOGLE_CLIENT_ID for sign-in.
 
+import { communityPacks, closeRetaken } from "../../../lib/clipreports.js";
 import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/accounts.js";
 import { authorized } from "../../../lib/auth.js";
 import { clean, ticked, senderHash } from "../../../lib/form.js";
@@ -30,6 +31,7 @@ import {
   cleanRaces, racesLabel,
 } from "../../../lib/studio.js";
 import { RELEASE_VERSION, PER_DAY, setupSubmissions, sentToday, insertSubmission, notify } from "../../../lib/submissions.js";
+import { forwardFeedback } from "../../../lib/slack-feedback.js";
 import { testPack } from "../../../lib/voicepack.js";
 import { PLAYABLE } from "../../../public/voices/testpack.js";
 import { crcHex } from "../../../public/voices/crc32.js";
@@ -68,11 +70,17 @@ async function state({ request, env }, user) {
   // under its owner. Not "soon": that pack isn't released yet.
   const live = new Set((await loadVoices(env, request).catch(() => []))
     .filter(v => v.status === "live" && v.owner === user.id).map(v => v.id));
+  // Each voice's last review (LOR-621): waiting, reviewed (being built into a pack) or not used, and why.
+  await setupSubmissions(env);
+  const { results: reviews } = await env.DB.prepare(
+    `SELECT voice_id, status, reason FROM voice_submissions WHERE user_id = ? AND id IN
+       (SELECT MAX(id) FROM voice_submissions WHERE user_id = ? GROUP BY voice_id)`).bind(user.id, user.id).all();
+  const review = Object.fromEntries(reviews.map(r => [r.voice_id, { status: r.status, reason: r.reason || null }]));
   return ok({
     signedIn: true,
     user: { email: user.email, display_name: user.display_name },
     release: { version, agreed },
-    voices: voices.map(v => ({ ...v, published: live.has(v.id) })),
+    voices: voices.map(v => ({ ...v, published: live.has(v.id), review: review[v.id] || null })),
     voice: voice ? voice.id : null,
     takes: voice ? await takesOf(env, voice.id) : {},
     limits: { bytes: LIMITS.bytes, voices: LIMITS.voices },
@@ -226,6 +234,11 @@ async function take(context, user) {
            /^[0-9a-f]{8}$/.test(crc) ? crc : null, now),
     env.DB.prepare("UPDATE voices SET updated = ? WHERE id = ?").bind(now, v.id),
   ]);
+  // A new take of a line players reported in this voice's published pack closes those reports (LOR-621).
+  try {
+    const pack = [...(await communityPacks(env, request)).entries()].find(([, c]) => c.id === v.id)?.[0];
+    if (pack) await closeRetaken(env, pack, lineId);
+  } catch (e) { /* the take is saved; the reports wait for the next one */ }
   return ok({ take: { file_name: clean(fileName, 120) || null, ext: kind.ext, bytes: body.byteLength, duration_ms: duration,
                       hash, checks: JSON.parse(checks), crc32: /^[0-9a-f]{8}$/.test(crc) ? crc : null, created: now } });
 }
@@ -257,7 +270,8 @@ function sentSummary(lines, takes, locale) {
   return `${n} line${n === 1 ? "" : "s"} (${locale}): ${named}`;
 }
 
-async function send({ request, env, waitUntil }, user, input) {
+async function send(context, user, input) {
+  const { request, env, waitUntil } = context;
   const v = await ownVoice(env, user, input.voice);
   if (!v || !v.locale) return fail(404, "That isn't one of your voices.");
   const { agreed, row } = await release(env, user);
@@ -282,9 +296,23 @@ async function send({ request, env, waitUntil }, user, input) {
     note: clean(input.note, 2000) || null, release_version: row.version, adult_or_guardian: row.adult_or_guardian,
     signature: row.signature, country: request.cf?.country || null, sender, user_id: user.id, voice_id: v.id,
   };
-  s.id = await insertSubmission(env, s);
+  // One row per submission (LOR-621): sending again while the last one is still waiting brings that row up to date
+  // (what it has now, the credit and note) instead of adding another to the review queue.
+  const open = await env.DB.prepare(
+    "SELECT id FROM voice_submissions WHERE voice_id = ? AND user_id = ? AND status = 'new' ORDER BY id DESC LIMIT 1"
+  ).bind(v.id, user.id).first();
+  if (open) {
+    await env.DB.prepare(
+      "UPDATE voice_submissions SET credit = ?, discord = ?, pack = ?, clips = ?, note = ?, release_version = ?, " +
+      "adult_or_guardian = ?, signature = ? WHERE id = ?"
+    ).bind(s.credit, s.discord, s.pack, s.clips, s.note, s.release_version, s.adult_or_guardian, s.signature, open.id).run();
+    s.id = open.id;
+  } else {
+    s.id = await insertSubmission(env, s);
+  }
   await env.DB.prepare("UPDATE voices SET status = 'pending', updated = ? WHERE id = ?").bind(now, v.id).run();
   if (env.VOICES_WEBHOOK) waitUntil(notify(env.VOICES_WEBHOOK, s));
+  if (s.id) forwardFeedback(context, "voice-submission", s);   // once per submission row (lib/slack-feedback.js)
   return ok({ lines: current });
 }
 

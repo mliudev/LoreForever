@@ -93,3 +93,18 @@ test("setup adds the reason column to an existing translation_edits", async () =
   await setup(old);
   assert.ok(old.DB.sqlite.prepare("PRAGMA table_info(translation_edits)").all().some(c => c.name === "reason"));
 });
+
+test("pulled with outcomes, then shipped: only edits on main before the release commit (LOR-621)", async () => {
+  const ids = env.DB.sqlite.prepare("SELECT id FROM translation_edits WHERE status IN ('new', 'accepted') ORDER BY id").all().map(r => r.id);
+  await call("pulled", { body: { ids: ids.slice(0, 2), outcomes: { [ids[0]]: "landed", [ids[1]]: "unusable" },
+    reasons: { [ids[1]]: "the English changed since" } } });
+  const row = id => env.DB.sqlite.prepare("SELECT status, outcome, reason, shipped_in FROM translation_edits WHERE id = ?").get(id);
+  assert.deepEqual({ ...row(ids[1]) }, { status: "pulled", outcome: "unusable", reason: "the English changed since", shipped_in: null });
+  const cut = new Date(Date.now() + 1000).toISOString();
+  await new Promise(r => setTimeout(r, 1100));
+  await call("pulled", { body: { ids: [ids[2]], outcomes: { [ids[2]]: "landed" } } });   // on main after the release commit
+  assert.equal((await call("shipped", { body: { release: "0.21.0", before: cut } })).body.shipped, 1);
+  assert.deepEqual([row(ids[0]).shipped_in, row(ids[1]).shipped_in, row(ids[2]).shipped_in], ["0.21.0", null, null]);
+  assert.equal((await call("shipped", { body: { release: "0.21.0", before: cut } })).body.shipped, 0, "marking again changes nothing");
+  assert.equal((await call("shipped", { body: { release: "x", before: cut } })).status, 400);
+});

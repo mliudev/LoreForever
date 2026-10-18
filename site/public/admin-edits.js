@@ -4,25 +4,9 @@
 const $ = id => document.getElementById(id);
 const PAGE = 100;
 
-// ---- the admin key, kept as /admin keeps it: sessionStorage, or localStorage when "Remember" is ticked ----
-function getKey() {
-  try { return sessionStorage.getItem("lf-admin") || localStorage.getItem("lf-admin"); } catch (e) { return null; }
-}
-let memoryKey = null;   // used when storage is blocked
-function setKey(k, remember) {
-  memoryKey = k;
-  try { sessionStorage.removeItem("lf-admin"); localStorage.removeItem("lf-admin"); } catch (e) {}
-  if (k) try { (remember ? localStorage : sessionStorage).setItem("lf-admin", k); } catch (e) {}
-}
-const key = () => memoryKey || getKey();
-
-function signOut(message) {
-  setKey(null);
-  $("dash").hidden = true;
-  $("login").hidden = false;
-  $("login-error").textContent = message || "";
-  $("login-error").hidden = !message;
-}
+// The admin key, sign-in, Sign out, Refresh and the frame are admin-shell.js's (window.lfAdmin), shared with /admin.
+const key = () => lfAdmin.key();
+const signOut = message => lfAdmin.signOut(message);
 
 async function api(path, body) {
   const r = await fetch("/api/translations/" + path, {
@@ -224,9 +208,17 @@ function updateSelection() {
   $("all-on-page").checked = changeable.length > 0 && changeable.every(e => selected.has(e.id));
 }
 
+// A reject asks for a reason the translator then reads on their dashboard ("Not used: <why>.", LOR-621); Cancel stops,
+// an empty one rejects without.
 async function decideIds(ids, status) {
   if (!ids.length) return;
-  try { await api("decide", { ids, status }); } catch (e) { failed(e); return; }
+  let reasons;
+  if (status === "rejected") {
+    const why = prompt(`Why? The translator sees this (optional).`, "");
+    if (why === null) return;
+    if (why.trim()) reasons = Object.fromEntries(ids.map(id => [id, why.trim()]));
+  }
+  try { await api("decide", { ids, status, ...(reasons ? { reasons } : {}) }); } catch (e) { failed(e); return; }
   refresh();
 }
 
@@ -243,22 +235,14 @@ async function load() {
     $("dash").hidden = false;
     showView();
     await loadEdits();
-    $("updated").textContent = "Updated " + new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+    lfAdmin.updated();
   } catch (e) {
     if (e.message !== "unauthorized") alert("Couldn't load the edits: " + e.message);
   }
   $("refresh").disabled = false;
 }
 
-// ---- wiring ----
-$("login-form").addEventListener("submit", e => {
-  e.preventDefault();
-  setKey($("key").value.trim(), $("remember").checked);
-  $("key").value = "";
-  load();
-});
-$("signout").addEventListener("click", () => signOut());
-$("refresh").addEventListener("click", load);
+// ---- wiring (sign-in, Sign out and Refresh: lfAdmin.start) ----
 $("tq").addEventListener("input", renderTranslators);
 document.querySelectorAll("[data-status]").forEach(b => b.addEventListener("click", () => {
   view.status = b.dataset.status;
@@ -285,4 +269,4 @@ $("reject-sel").addEventListener("click", () => {
 });
 $("restore-sel").addEventListener("click", () => decideIds(edits.filter(e => selected.has(e.id) && e.status === "rejected").map(e => e.id), "new"));
 
-if (key()) load(); else signOut();
+lfAdmin.start(load);

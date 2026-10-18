@@ -34,8 +34,8 @@ for files, and `functions/_middleware.js` for Function responses, which Pages do
 allows scripts only from this site, Google sign-in, Turnstile and Cloudflare's analytics beacon, and **never from an
 `onclick=`-style attribute** (`script-src-attr 'none'`), so attach handlers with `addEventListener`
 (`tests/hashes.test.mjs` fails on one). A new third-party script needs its host added in both places. `/admin*`
-adds a stricter one: no inline `<script>` at all (its scripts are `admin-page.js` and `admin-edits.js`) and nothing
-fetched from other sites.
+adds a stricter one: no inline `<script>` at all (its scripts are `admin-shell.js`, `admin-page.js`,
+`admin-voices.js` and `admin-edits.js`) and nothing fetched from other sites.
 
 ## Fill in before going live
 
@@ -193,6 +193,8 @@ Linked from the landing page's footer, its FAQ and Known limits, the public READ
 | --- | --- |
 | `FEEDBACK_KEY` | Any long random string. Needed to read reports; without it, reading is off. |
 | `FEEDBACK_WEBHOOK` | Optional. A Discord webhook URL (Channel settings > Integrations > Webhooks, in a private channel). Each report is posted there as it comes in, with the name and a short account tag, never the email address. |
+| `SLACK_FEEDBACK_WEBHOOK` / `SLACK_BOT_TOKEN` | Optional. A Slack incoming webhook for #player-feedback (`https://hooks.slack.com/services/...`) or a Slack app's bot token (`xoxb-...`, `chat:write`; posts to `SLACK_FEEDBACK_CHANNEL`, default #player-feedback), or `log` for a dry run that writes each message to the Functions log instead. `node scripts/feedback-setup.mjs` sets them from `.env`; `/api/admin`'s `slackFeedback` says which is in use (`webhook`, `bot token`) or why neither works. Every player feedback source on the site is forwarded as it's saved, as the player's own words: this form, bad-translation reports and translations, voice submissions and lent voices, clip reports, Willo's wrong-answer flags, corrections and frustration, and friend reports (counts only). Never an email, account id, IP address or contact handle; a name only where the player chose to show it. More than 20 in a minute turn into one digest line. Code: `lib/slack-feedback.js` (LOR-641). |
+| `FEEDBACK_FORWARD_KEY` | Optional. A long random string shared with the feedback forwarder Worker (`workers/feedback`), which hands over mail to hello@, new Discord posts and YouTube and CurseForge comments for Slack through `POST /api/feedback/forward`. Without it that endpoint is off. Setup: `workers/feedback/README.md`. |
 | `TURNSTILE_SECRET` | Optional, only if spam shows up. Create a Turnstile widget (Cloudflare dashboard > Turnstile, domain `loreforeverwow.com`), put its secret here and its site key in `TURNSTILE_SITE_KEY` at the top of the `<script>` in `public/feedback.html`. Set both or neither: a secret without the site key turns every report away. |
 
 **Reading reports:**
@@ -780,10 +782,18 @@ plan, when it renews, changes or ends, "Switch to <plan>" links that open the co
   before the month's total would pass the plan's net; a provider that fails steps down too, never up. Anything but
   audio (`{speak: "local", reason}`) means the companion says it on the PC. The cost goes on the player's month in
   `answer_user_spend` (`voice_micro`, apart from the text cap) and `answer_spend` (`addVoiceSpend`), never the free
-  budget. Willo's five hosted voices (Mike, 2026-10-13) are `WILLO_PICKS` in `lib/companion-voice.js`: Sprite,
-  Sunbeam, Moonwell, Fenlight and Starling, each an Inworld design (the finest voice) and its Chatterbox clone (the
-  studio voice). A piece's optional `pick` names one: said on a plan with `PLAN_VOICE` choice (Champion, Legend),
-  Sprite on any other plan and for an unknown name (`willoPick`). `HOSTED_VOICES.willo` is Sprite's ids; the Pages
+  budget. Willo's own hosted voices are `WILLO_PICKS` in `lib/companion-voice.js`: her five (Mike, 2026-10-13),
+  Sprite, Sunbeam, Moonwell, Fenlight and Starling, each followed by his male partner (LOR-610, 2026-10-16: Puck,
+  Daybreak, Moonshade, Fenfire, Kestrel), each an Inworld design (the finest voice) and its Chatterbox clone (the
+  studio voice). The **Voices of Azeroth** (LOR-609, Mike, 2026-10-16) are picks too, by slot (`AZEROTH_PICKS`:
+  `"dwarf-male"`, named "Dwarf, man" by `lib/character-voices.js voiceLabel`): Willo borrows one of the 22
+  people-and-gender character voices as her everyday voice, its Inworld clone the finest voice and a Chatterbox clone of
+  the same reference (`AZEROTH_STUDIO`) the studio voice; characters who answer in person keep their own, and a slot
+  whose rights aren't cleared any more is Sprite. A piece's optional `pick` names one: said on a plan with
+  `PLAN_VOICE` choice (Champion, Legend), Sprite on any other plan and for an unknown name (`willoPick`); a pick with no
+  id at a provider is Sprite there. Willo's help and her `set_voice` offer name the male partners and the Voices of Azeroth only to a
+  companion whose picker has them (`hasAzeroth`, its `X-LF-Client` after 0.20.0), and /plans' words wait for the
+  `azeroth` site feature (`lib/features.js`). `HOSTED_VOICES.willo` is Sprite's ids; the Pages
   variable `HOSTED_VOICES` (JSON, `{"willo": {...}}` or by a pick's name) replaces ids. Needs the Pages secrets **`DEEPINFRA_API_KEY`** and/or
   **`INWORLD_API_KEY`**; without them, or without Willo's voice id, a paid plan's replies stay on the PC. Off with the
   `plans` feature (404, everything on the PC).
@@ -1013,6 +1023,31 @@ Behind the same `plans` feature: while it's off, nothing reaches a prompt and th
   a model on the player's own PC later. Table `custom_prompts`; Delete my account removes its rows.
 - Tests: `site/tests/willo-custom.test.mjs` (Gemini mocked).
 
+### Thank-you email to new subscribers (LOR-640)
+
+- A new subscriber gets one short note from Mike (`lib/thanks.js`: the text, by plan; a Keep Hero trial gets "Thanks
+  for trying Hero!"). `storeSubscription` asks for it whenever it stores a paid plan; only a subscription that started
+  in the last 2 days is thanked, and the account's `email_sends` row (`thanks:<user id>`) stops a second one, so
+  Stripe's retries, a checkout's several events, renewals, plan changes and a plan started again later send nothing.
+  The beta's card-less free Hero month isn't a subscription and sends nothing. The plan lines follow /plans (Champion's
+  voice count is `voicePicks`: 5 now, 32 once the `azeroth` feature is on). A failed send drops its row, so the
+  checkout's next event tries again; it never fails the webhook.
+- `lib/email.js` is the site's one sender, for any feature (`sendOnce(env, {id, kind, userId, message})`), through
+  **Cloudflare Email Sending** on Mike's account (Operations set up loreforeverwow.com: cf-bounce MX/SPF/DKIM and
+  `_dmarc` p=reject). Pages has no `send_email` binding, so it uses Cloudflare's REST API with the secret
+  `CLOUDFLARE_EMAIL_TOKEN` and the plain variable `CLOUDFLARE_ACCOUNT_ID`; an `EMAIL` binding (a Worker's), Resend and
+  Postmark are fallbacks behind the same interface. From and Reply-To are `hello@loreforeverwow.com` (Email Routing
+  forwards it to Mike's Gmail); `EMAIL_FROM` is used only when it's an @loreforeverwow.com address. With no service
+  set, it only logs "would send" and notes the start (`email_sends.status = 'off'`), so nothing goes back later.
+- **The site feature `thanks`** (`lib/features.js`) holds the thank-you back the same way until Mike approves its text;
+  turn it on then (`thanks: true`, or `SITE_FEATURES` in Production).
+- `POST /api/admin {"action": "email-test", "plan": "champion", "trial": false}` (admin key) sends the thank-you for
+  that plan now, subject "[Test] ...", to `hello@loreforeverwow.com` only, whatever the feature: for the service, the
+  text and its Reply-To.
+- Every email has a List-Unsubscribe header and a footer link to `/unsubscribe`, which now also keeps a SHA-256 of the
+  address in `email_optouts`; `sendOnce` never sends to one.
+- Tests: `site/tests/billing.test.mjs` ("a new subscriber gets one thank-you email", Cloudflare's API mocked).
+
 ## Contributors and credit (LOR-239)
 
 `/contributors` (`functions/contributors.js`, page and queries in `lib/credits.js`) thanks everyone who helps, in
@@ -1230,6 +1265,19 @@ own setup; the page only takes files. `public/voices/studio.html` + `studio.js` 
 - Without the `STUDIO` binding the page says uploads aren't switched on yet and points to the folder-link form.
 
 ### Publishing a studio voice
+
+**One command, on its own (LOR-621):** in a worktree with the admin key (`set -a; . ~/git/lore-forever/.env; set +a`),
+`cd pipeline && uv run python -m lore.voicepack publish-studio <voice id>` (`--dry-run` first: fetch, check and build
+only). It fetches the takes, drops any below the quality bar, builds the frozen pack, uploads
+`LoreForever_Voice_<Name>.zip` to the public repo's `voices` release (the Voice packs release, its own asset, replaced
+on a re-send), writes the `voices.json` entry as live with that download (an entry already out keeps its name, credit,
+bio and other hand-written parts; `version` goes up), copies the sample, and marks the submission done. Commit
+`voices.json` and the sample in a site-only PR: it goes live on merge, no add-on release needed. When no take passes,
+it stops: say why on the submission (/admin › Voices › Not used…). A pack that ships inside every add-on release
+(`RELEASE_PACKS`, like Browniee's) is refused: publish it the old way below, or ask the Release Coordinator to drop it
+from the release first so the two copies can't drift.
+
+The old way, by hand:
 
 The daily audience-feedback routine files a P-LOR-9 Linear issue for each voice sent for review. There's no review
 queue: takes that pass the quality bar ship. Never copy the submission's email or signature anywhere (the issue, the
@@ -1469,8 +1517,19 @@ scheme the add-on will link to, is in [LORE_PAGES.md](LORE_PAGES.md).
 
 ## Private dashboard
 
-https://loreforeverwow.com/admin has four tabs, one shown at a time and chosen by the address's `#` (so
-`/admin#growth` or `/admin#contacts` links straight there; a section's id opens its tab):
+https://loreforeverwow.com/admin has six tabs. Five are one page, one shown at a time and chosen by the address's `#`
+(so `/admin#growth` or `/admin#contacts` links straight there; a section's id opens its tab); **Voice work** is its own
+page, `/admin/voices`, and Community's translation edits open `/admin/edits`.
+
+**One frame on every admin page** (Mike 10/17: Voice work opened a page without the tabs): `public/admin-shell.js`
+draws the header (breadcrumb, Sign out), the tabs, the sign-in form and the title bar (Updated, Refresh) at the top
+of `<body>` on `/admin`, `/admin/voices` and `/admin/edits`, before the page's own markup, and keeps the admin key for
+all three (`window.lfAdmin`: `key`, `signOut`, `start(load)`, `updated`, `current(tab, trail)`). A page names itself
+on `<body data-page="..." data-title="...">`. One stylesheet, `public/admin.css`, styles them all (Voice work's pills,
+matrix and machine cards included), dark like the site and light when the device asks, every colour a token at its
+top. On a phone the tabs wrap into two rows and stop sticking; wide tables and Voice work's matrix scroll inside
+their box, never the page. A new admin page loads `admin.css` and `admin-shell.js` the same way and gets a tab in
+`TABS` (or a trail in `PAGE_TRAIL`) in `admin-shell.js`.
 
 - **Overview** (`#overview`): the headline numbers, each linking to where it comes from: unique CurseForge
   downloaders this week, the newest release's CurseForge installs, accounts, returning players, companion installs in
@@ -1478,9 +1537,13 @@ https://loreforeverwow.com/admin has four tabs, one shown at a time and chosen b
 - **Growth** (`#growth`): the funnel (`#funnel`), CurseForge (`#curseforge`), site and GitHub downloads
   (`#downloads`) and companion installs (`#companions`).
 - **Players** (`#players`): profiles (`#profiles`), sign-ins and veterans or new players (`#signins`), usage (`#usage`).
+- **Costs** (`#costs`): what Lore Forever costs, readable in five seconds (see "Costs" below).
 - **Community** (`#community`): feedback, voices, clip reports, translations, edits, shared text and contacts, one at a
   time (`#feedback` ... `#contacts`), each with its badge; the tab's own badge adds up the gold ones. The clip
   reports load when the tab is first opened.
+- **Voice work** (`/admin/voices`: `public/admin/voices.html`, `admin-voices.js`): the latest picture the voice PC
+  posts every 10 minutes (`functions/api/admin/voice-status.js`): machines, what's waiting on Mike, the recordings
+  matrix, quest givers, jobs, PRs and events. It asks for a new picture every minute.
 
 **Every count leaves out the admin's and test accounts** (`excluded_accounts`, `lib/activity.js syncExclusions`): the
 account signed in on the browser that opens /admin with the key (Mike's own), the emails or account ids in the Pages
@@ -1536,10 +1599,39 @@ version) count nowhere and are named on their own.
   (a release's display name) and metric (downloads, unique, userDays). Idempotent, so each daily run resends 90 days.
   `GET /api/admin/curseforge` says what's stored. A routine in Mike's browser reads the dashboard and posts from his
   /admin tab; no CurseForge credential reaches the site.
+- **Costs** (`#costs`, and a tile on Overview): the newest snapshot of what the services cost, from
+  `GET /api/admin/costs`. Top row: estimated cost this month, the budget with an over/under state (colour and words),
+  money in so far (Stripe gross, fees, net) and the one thing that needs attention (an over-budget total named by its
+  biggest service, a service past 75% of its cap, a prepaid balance with under a week left, or figures over 10 days
+  old). Then the services biggest first, with a share bar each, and a "Not checked" list. Totals and shares are worked
+  out in the page (`public/admin-costs.js`), never stored. Snapshots are **admin-only**: they live in D1
+  (`cost_snapshots`, `lib/costs.js`), never in a public file, and the Function answers `Cache-Control: no-store`.
+  `POST /api/admin/costs` (same key as `/api/admin`; a browser must send it from our own pages) replaces the latest
+  snapshot when `taken_at` is the same day, else adds one; the newest 30 are kept for a later trend. Anything off the
+  shape gets a 400 saying what. The Operations session posts a fresh one after checking the vendors' dashboards:
+
+  ```json
+  {"taken_at": "2026-10-16", "budget_monthly": 100,
+   "revenue": {"gross": 34.96, "fees": 6.60, "net": 28.36, "note": "optional text"},
+   "services": [{"name": "Google Gemini API", "use": "what it's for", "kind": "usage",
+                 "month_to_date": 248.01, "monthly_estimate": 300, "cap": 300, "balance": 24.26,
+                 "note": "short text", "renews": "2026-11-13 or billed 1st of month"}],
+   "not_checked": ["Claude Max plan price"]}
+  ```
+
+  `taken_at` is a date (`YYYY-MM-DD`, or a full ISO time). Money is plain US-dollar numbers, 0 to 1,000,000.
+  `kind` is `fixed` (a subscription), `usage` (pay for what's used) or `prepaid` (a balance that runs down).
+  `use`, `cap`, `balance`, `note`, `renews` and `revenue` are optional; `cap` shows "% used" and `balance` on a
+  prepaid service shows days left at its pace. Up to 60 services, 40 not-checked lines, 64 KB. The first snapshot
+  (2026-10-16) is seeded by `migrations/cost-snapshots.sql`:
+  `npx wrangler d1 execute <DB name> --remote --file site/migrations/cost-snapshots.sql`. The Function creates the
+  table itself, so POSTing works without the migration; the migration only adds the seed, and only while the table is
+  empty. Sample data: the local dashboard above (`tests/smoke-admin-usage.mjs`) loads the seed.
 - **Companion installs** (LOR-422): today, 7 and 30 days, returning installs and versions in use, players' builds
   only.
   Sample data: `node site/tests/smoke-admin-usage.mjs`, then http://localhost:8766/admin with the key `local`
-  (`/admin?key=local` signs in by itself, for a headless screenshot).
+  (`/admin?key=local` signs in by itself, for a headless screenshot; `/admin/voices?key=local` and
+  `/admin/edits?key=local` too, with the voice status fixture and a few made-up Willo signals and edits).
 - **Clip reports:** reports on recordings per clip and voice (how many people, why, which names), the latest reports,
   and "Reject all from this uploader" / Restore for spam (see "Clip reports" above). Nothing to approve.
 - **Translation edits:** saved, pulled and rejected per language; the edits have their own page, **/admin/edits**

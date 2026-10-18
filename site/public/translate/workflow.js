@@ -26,9 +26,18 @@ export function editNote(edit, english, currentText, draft, staleEntry = false) 
   if (edit?.status === "rejected") {
     // The automated check's note (lore.kit pull); a rejection from /admin has none.
     const reason = String(edit.reason || "").trim().replace(/[.\s]+$/, "");
-    return [reason ? `Not used: ${reason}. Fix it and save again.` : "Your last edit wasn't used; this is the current text.", "td-no"];
+    return [reason ? `Not used: ${reason}. Fix it and save again.` : "Your last edit wasn't used. It's below; save it again to send it back.", "td-no"];
   }
-  if (edit?.status === "pulled") return ["Processed: no longer pending. Check the current translation; this does not confirm a merge or release.", "td-ok"];
+  if (edit?.status === "pulled") {
+    // What lore.kit did with it (LOR-621). Edits pulled before it said fall back to comparing with the current text.
+    const reason = String(edit.reason || "").trim().replace(/[.\s]+$/, "");
+    if (edit.outcome === "unusable") return [reason ? `Not used: ${reason}.` : "Not used.", "td-no"];
+    if (edit.outcome === "superseded") return ["Not used: a later edit of this line went in instead.", "td-no"];
+    if (edit.outcome === "landed" || edit.outcome === "same" || edit.text === currentText) {
+      return [edit.shipped_in ? `In the language: shipped in ${edit.shipped_in}.` : "In the language.", "td-ok"];
+    }
+    return ["Not used: this line has changed since. Check the current text.", "td-no"];
+  }
   if (!currentText) return [staleEntry ? "English changed: translate this line again." : "Not translated yet.", "td-todo"];
   return ["", ""];
 }

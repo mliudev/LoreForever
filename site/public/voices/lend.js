@@ -277,6 +277,8 @@ function donationHtml(d) {
         <li>Type <code>/reload</code> in game.</li>
         <li>Choose <b>${esc(d.pack?.title || "your voice")}</b> under Options › AddOns › Lore Forever › Narration voice.</li></ol>
       <p>Tell us what you think on <a href="/discord?src=voices">Discord</a>. Don't like it? Withdraw it below.</p>`,
+    declined: `<p>We couldn't make a voice from this recording${d.reason ? `: ${esc(d.reason)}` : ""}. Sorry! A new
+      recording in a quiet room, read at an easy pace, usually works. Send one below.</p>`,
     published: `<p>Your voice is in the voice list${d.voice ? `: <a href="/voices/${esc(d.voice)}">see its page</a>` : ""}. Players
       hear it as "voice by ${esc(d.credit)}". You can write its description on <a href="/account">your account page</a>.</p>`,
   }[d.status] || "";
@@ -290,7 +292,7 @@ function donationHtml(d) {
         ? `<form id="ln-credit" class="ln-inline"><label class="fb-field"><span>Credit</span><input name="credit" maxlength="60" value="${esc(d.credit)}"></label>
             <button class="st-b" type="submit">Save</button></form>`
         : `<p>Players see: <b>voice by ${esc(d.credit)}</b> <button class="st-b ghost" type="button" id="ln-credit-edit">Change</button></p>`}
-      ${d.status === "donated" ? `<p><button class="st-b" type="button" id="ln-again">Send a new recording instead</button></p>` : ""}
+      ${d.status === "donated" || d.status === "declined" ? `<p><button class="st-b" type="button" id="ln-again">Send a new recording instead</button></p>` : ""}
     </section>
     <section class="ln-card ln-withdraw" id="withdraw"><h2>Withdraw my voice</h2>
       <p>Changed your mind? Withdraw any time. We delete your recording and test pack at once, the copy on our computer the

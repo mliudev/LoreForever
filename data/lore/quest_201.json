@@ -1,0 +1,113 @@
+{
+ "key": "quest:201",
+ "type": "quest",
+ "name": "Investigate the Camp",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   201
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "A rumored gathering of big-game hunters led by the renowned Hemet Nesingwary naturally draws tracking and marksmanship enthusiasts looking to test their mettle in the jungle."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Hemet Nesingwary is among the most famous dwarven marksmen and adventurers, making his presence in the distant southern wilds of Stranglethorn Vale a point of pride and curiosity."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who wants camp investigated",
+    "who gave this quest",
+    "krazek booty bay"
+   ],
+   "answer": "Krazek, an operative stationed in the neutral goblin port of Booty Bay, commissions travelers to seek out the encampment and report back its exact whereabouts.",
+   "q": "Who gives the task to investigate the camp?"
+  },
+  {
+   "aliases": [
+    "hemet nesingwary stranglethorn",
+    "who is hemet nesingwary",
+    "famous dwarf hunter stranglethorn"
+   ],
+   "answer": "Hemet Nesingwary is a renowned dwarven big-game hunter and explorer. Word has reached Booty Bay that he is among the hunters camping near Lake Nazferiti, sparking interest due to his extensive reputation and connections.",
+   "q": "Who is Hemet Nesingwary?"
+  },
+  {
+   "aliases": [
+    "hunters camp location",
+    "where is nesingwary camp",
+    "where is the camp upriver"
+   ],
+   "answer": "The hunters have established their campsite upriver from the Venture Company's mining operations along Lake Nazferiti in northern Stranglethorn Vale.",
+   "q": "Where is the hunters' camp located?"
+  },
+  {
+   "aliases": [
+    "why does krazek care",
+    "why investigate hunters",
+    "krazek motive"
+   ],
+   "answer": "Normally a remote hunters' camp wouldn't draw much interest from Booty Bay, but reports that a figure as influential and well-connected as Hemet Nesingwary is present raised caution and curiosity.",
+   "q": "Why is Krazek interested in this hunting camp?"
+  },
+  {
+   "aliases": [
+    "venture company connection",
+    "are hunters with venture co",
+    "venture co lake nazferiti"
+   ],
+   "answer": "The hunters are not part of the Venture Company; their campsite simply lies upriver from the goblin syndicate's mining outfit near Lake Nazferiti, serving as a geographic landmark.",
+   "q": "What is the hunters' relationship to the Venture Company?"
+  },
+  {
+   "aliases": [
+    "what do you do after finding camp",
+    "who to report to",
+    "where to turn in investigate camp"
+   ],
+   "answer": "Once the campsite along the river has been located and scouted, you return south to Booty Bay to deliver the report directly to Krazek.",
+   "q": "To whom do you report after finding the camp?"
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "hemet nesingwary",
+  "hunters camp",
+  "investigate the camp",
+  "krazek",
+  "lake nazferiti",
+  "stranglethorn vale",
+  "venture company"
+ ],
+ "related": [
+  "quest:5762",
+  "subzone:lake-nazferiti",
+  "subzone:booty-bay",
+  "topic:venture-company",
+  "topic:hunter"
+ ],
+ "sections": [
+  {
+   "body": "Reports circulating through the docks of Booty Bay speak of an expedition of big-game hunters encamped in the northern jungles of Stranglethorn Vale. Word has reached Krazek that the camp lies along the river just past the Venture Company's busy mining claim near Lake Nazferiti. In a lawless jungle teeming with dangers and competing interests, unexplained armed encampments always demand a watchful eye.",
+   "spoiler": 0,
+   "title": "Reports in the Jungle"
+  },
+  {
+   "body": "What makes this particular expedition notable is the rumored presence of Hemet Nesingwary himself. The renowned dwarven marksman is known throughout the lands as an elite explorer with influential ties. Krazek prefers to take no chances with powerful figures operating in the hinterlands, sending scouts upriver to confirm whether the legendary hunter has truly arrived.",
+   "spoiler": 0,
+   "title": "A Renowned Marksman"
+  }
+ ],
+ "summary": "Investigate the Camp is an expedition task originating in Booty Bay to scout a newly established hunters' campsite in Stranglethorn Vale. Commissioned by Krazek, it tasks travelers with confirming rumors that the legendary dwarven marksman Hemet Nesingwary has arrived near Lake Nazferiti.",
+ "attribution": [
+  "In-game quest text: Investigate the Camp"
+ ]
+}

@@ -11,7 +11,11 @@
 //   user_hash SHA-256 of the account id, so independent players can be counted without naming anyone
 //   status    "new", then "checked" (looked at, nothing to change), "fact" (became a Forever fact: fact_id) or
 //             "dismissed" (spam, a joke, a test)
-// Nothing here is shown to other players. A correction never becomes a shared fact without checking.
+// Nothing here is shown to other players. A correction never becomes a shared fact without checking. Each new signal
+// is also forwarded to Slack #player-feedback when SLACK_FEEDBACK_WEBHOOK is set (lib/slack-feedback.js), with the
+// account's character names taken out.
+
+import { forwardFeedback } from "./slack-feedback.js";
 
 const SETUP = [
   `CREATE TABLE IF NOT EXISTS answer_feedback (
@@ -85,18 +89,26 @@ const clip = (s, n) => (typeof s === "string" ? s : "").trim().slice(0, n) || nu
 
 // Kept this long, then deleted (public/privacy.html says so); facts made from them stay.
 export const KEEP_DAYS = 90;
+const SAME_SIGNAL_MS = 10_000;
 
 // Keep one signal, and now and then let the old ones go. Never throws: feedback must never cost the player their
-// answer.
-export async function logFeedback(env, userId, { kind, said, question, answer, zone, sub, persona, spoken } = {}) {
+// answer. forward: {context (the Pages context), names (character names to take out), client (X-LF-Client)} to
+// forward a new signal to Slack.
+export async function logFeedback(env, userId, { kind, said, question, answer, zone, sub, persona, spoken } = {},
+                                  { context = null, names = [], client = null } = {}) {
   if (!FEEDBACK_KINDS.includes(kind) || !clip(said, 1)) return false;
   try {
     await setupFeedback(env);
-    const now = new Date();
-    await env.DB.prepare("INSERT INTO answer_feedback (kind, said, question, answer, zone, sub, persona, spoken, " +
-      "user_hash, created) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)").bind(kind, clip(said, 600), clip(question, 600),
-      clip(answer, 1200), clip(zone, 80), clip(sub, 80), clip(persona, 16), spoken ? 1 : 0, await userHash(userId),
-      now.toISOString()).run();
+    const now = new Date(), hash = await userHash(userId);
+    // The same signal again within SAME_SIGNAL_MS (a double press: LOR-623, two rows half a second apart) is one.
+    const row = await env.DB.prepare("INSERT INTO answer_feedback (kind, said, question, answer, zone, sub, persona, spoken, " +
+      "user_hash, created) SELECT ?, ?, ?, ?, ?, ?, ?, ?, ?, ? WHERE NOT EXISTS (SELECT 1 FROM answer_feedback " +
+      "WHERE user_hash = ? AND kind = ? AND question IS ? AND answer IS ? AND created > ?) RETURNING id").bind(kind, clip(said, 600),
+      clip(question, 600), clip(answer, 1200), clip(zone, 80), clip(sub, 80), clip(persona, 16), spoken ? 1 : 0, hash,
+      now.toISOString(), hash, kind, clip(question, 600), clip(answer, 1200),
+      new Date(now.getTime() - SAME_SIGNAL_MS).toISOString()).first();
+    if (row && context) forwardFeedback(context, "willo", { id: row.id, kind, said, question, answer, zone, sub, persona,
+      spoken, userId, names, client });
     if (Math.random() < 0.05) {
       await env.DB.prepare("DELETE FROM answer_feedback WHERE created < ?")
         .bind(new Date(now.getTime() - KEEP_DAYS * 864e5).toISOString()).run();

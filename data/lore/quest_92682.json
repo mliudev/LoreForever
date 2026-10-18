@@ -1,0 +1,102 @@
+{
+ "key": "quest:92682",
+ "type": "quest",
+ "name": "Make Yourself Useful",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92682
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "While rogue bandits are busy betraying their own crew for an early bite of stormapples, seasoned rogues will recognize the classic lack of discipline among amateur thieves."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is ferauu",
+    "ferauu lore",
+    "ferauu bandit leader"
+   ],
+   "answer": "Ferauu is a bandit leader who extorts the Windfield Orchard, demanding a regular tribute or 'take' of the harvest. He maintains ruthless discipline over his crew, though evidently not enough to stop some hungry lackeys from sneaking in early behind his back.",
+   "q": "Who is Ferauu?"
+  },
+  {
+   "aliases": [
+    "what is windfield orchard",
+    "windfield orchard lore",
+    "stormapple orchard"
+   ],
+   "answer": "Windfield Orchard is a local farming ground known for producing stormapples. The orchard operates under duress, forced to pay off Ferauu's bandit gang with portions of its fruit harvest to keep the peace.",
+   "q": "What is Windfield Orchard?"
+  },
+  {
+   "aliases": [
+    "why kill hungry bandits",
+    "why are bandits at the orchard",
+    "hungry bandits lore"
+   ],
+   "answer": "Hungry Bandits affiliated with Ferauu have jumped the gun, sneaking into the orchard ahead of the scheduled harvest pickup to steal stormapples for themselves. Because they broke ranks and are tampering with the crop, the orchard keeper puts adventurers to work clearing them out.",
+   "q": "Why are hungry bandits prowling the stormapple trees?"
+  },
+  {
+   "aliases": [
+    "what are stormapples",
+    "ripe stormapples"
+   ],
+   "answer": "Stormapples are a variety of fruit cultivated at Windfield Orchard. They are prized enough to serve both as everyday sustenance and as the extortion payment demanded by local criminal gangs like Ferauu's.",
+   "q": "What are stormapples?"
+  },
+  {
+   "aliases": [
+    "does ferauu know about the bandits",
+    "ferauu double cross"
+   ],
+   "answer": "No, Ferauu is unaware that these specific bandits came early. As noted by the orchard keeper, these outlaws went rogue and would likely be executed by Ferauu himself if he caught them pocketing the harvest before his arrival.",
+   "q": "Does Ferauu know his bandits are sneaking into the orchard?"
+  },
+  {
+   "aliases": [
+    "who gives make yourself useful",
+    "make yourself useful quest giver"
+   ],
+   "answer": "The quest is offered by the caretaker at Windfield Orchard, who watches the groves from a nearby window. Faced with bold new arrivals looking for work or food, the keeper tests their mettle by sending them against the intruding bandits.",
+   "q": "Who tasks you with Make Yourself Useful?"
+  }
+ ],
+ "keywords": [
+  "bandits",
+  "ferauu",
+  "hungry bandits",
+  "make yourself useful",
+  "orchard",
+  "ripe stormapples",
+  "stormapples",
+  "windfield orchard"
+ ],
+ "related": [
+  "topic:rogue"
+ ],
+ "sections": [
+  {
+   "body": "At Windfield Orchard, farming is complicated by extortion. A bandit leader named Ferauu and his crew have established an arrangement to collect their regular cut of the fruit harvest. However, lack of discipline within the bandit ranks means that petty outlaws cannot always wait for their boss's scheduled visit, sneaking in early to pick over the trees.",
+   "spoiler": 0,
+   "title": "Trouble at Windfield Orchard"
+  },
+  {
+   "body": "Rather than enduring undisciplined thieves among the stormapple trees, the orchard caretaker puts ambitious newcomers to work before Ferauu's scheduled arrival. Adventurers are tasked with securing the ripe stormapple yield and dispatching the hungry bandits trespassing among the trees. The keeper notes that Ferauu would likely execute these rogues himself for going behind his back and tampering with the cut.",
+   "spoiler": 0,
+   "title": "Thieves Among Thieves"
+  }
+ ],
+ "summary": "Make Yourself Useful is an assignment at Windfield Orchard where adventurers help secure the stormapple crop against undisciplined bandits. An extortionist named Ferauu is due to collect his regular share of the harvest, but hungry outlaws have broken ranks to pilfer the trees ahead of time. Dealing with these rogue thieves earns the respect of the watchful orchard keeper.",
+ "attribution": [
+  "In-game quest text: Make Yourself Useful"
+ ]
+}

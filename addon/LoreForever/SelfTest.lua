@@ -453,12 +453,14 @@ check("panel", {
     end
     c.box = rect(f)
     expect("panel opens on screen", not why, why or (c.box and ("at " .. fmt(c.box)) or "shown"))
-    widgets("panel: header, tabs, conversation, message box, player", {
+    local parts = {
       { "Here tab", UI.tabs[1], true }, { "Library tab", UI.tabs[2], true }, { "New chat", UI.newButton, true },
       { "History", UI.historyButton, true }, { "Journey", UI.journeyButton, true }, { "where you are", UI.contextLine, true },
       { "conversation", UI.scroll }, { "message box", UI.input }, { "player", UI.dock },
       { "player's Play", UI.dock and UI.dock.play }, { "player's Queue", UI.dock and UI.dock.queue, true },
-    }, c.box)
+    }
+    if ns.Companion.OfferWillo() then parts[#parts + 1] = { "Willo's icon", UI.willoIcon } end   -- LOR-601
+    widgets("panel: header, tabs, conversation, message box, player", parts, c.box)
     local extra = {}
     if UI.tab ~= "here" or UI.narrView:IsShown() then extra[1] = "the Library shows instead" end
     widgets("Here tab", { { "list", UI.hereView }, { "heading", UI.hereHeader, true },

@@ -6,7 +6,9 @@ import assert from "node:assert/strict";
 import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { actionsFor } from "../lib/willo-tools.js";
+import { actionsFor, actionOf, offerLine } from "../lib/willo-tools.js";
+import { picksFor, pickNamed, AZEROTH_PICKS } from "../lib/companion-voice.js";
+import { ACTIONS_MAX_BYTES } from "../lib/companion-answers.js";
 import { d1 } from "./helpers.mjs";
 
 const env = { DB: d1(), GEMINI_API_KEY: "test-key" };
@@ -85,6 +87,30 @@ test("money is a tap in her window: never offered out loud, never without plans 
   const voice = actionsFor(["voice"], { voices: ["sprite", "moonwell"], current: "Sprite" });
   assert.deepEqual(voice.find(d => d.name === "set_voice").parameters.properties.voice.enum, ["moonwell"]);
   assert.ok(!names(["voice"], {}).includes("set_voice"));
+});
+
+test("the Voices of Azeroth are offered only to a companion whose picker has them, in players' words (LOR-609)", () => {
+  assert.deepEqual(picksFor("companion/0.20.0"), ["sprite", "sunbeam", "moonwell", "fenlight", "starling"]);
+  assert.equal(picksFor("companion/0.1.0").length, 5, "a build without a release version: her own five");
+  // From then: her five with their male partners (LOR-610), then the Voices of Azeroth.
+  assert.deepEqual(picksFor("companion/0.20.1").slice(0, 10), ["sprite", "puck", "sunbeam", "daybreak", "moonwell",
+    "moonshade", "fenlight", "fenfire", "starling", "kestrel"]);
+  assert.deepEqual(picksFor("companion/0.20.1").slice(10), AZEROTH_PICKS);
+  assert.equal(picksFor("companion/0.21.0").length, 32);
+  // WILLO STATE's "voice now" names her voice as Settings does: never offered the one she has.
+  assert.deepEqual([pickNamed("Dwarf, man"), pickNamed("Sprite"), pickNamed("Heart "), pickNamed("")], ["dwarf-male", "sprite", "", ""]);
+  const all = ["problems", "talk", "voice", "wisp", "sight", "live", "plans", "chat"];
+  const offered = actionsFor(all, { voices: picksFor("companion/0.21.0"), current: "dwarf-male", key: "f9",
+    off: { live: true, sight: true }, plans: true });
+  const enumOf = offered.find(d => d.name === "set_voice").parameters.properties.voice.enum;
+  assert.ok(enumOf.includes("nightelf-female") && !enumOf.includes("dwarf-male"));
+  assert.ok(new TextEncoder().encode(JSON.stringify(offered)).length <= ACTIONS_MAX_BYTES, "every action at once still fits");
+  const action = actionOf({ name: "set_voice", args: { voice: "nightelf-female" } }, offered);
+  assert.deepEqual([action.label, offerLine(action)], ["Switch to Night elf, woman",
+    "How about a night elf woman's voice? Want me to switch?"]);
+  assert.equal(offerLine({ id: "set_voice", args: { voice: "orc-male" } }), "How about an orc man's voice? Want me to switch?");
+  assert.equal(offerLine({ id: "set_voice", args: { voice: "moonwell" } }), "How about Moonwell? Want me to switch?");
+  assert.equal(offerLine({ id: "set_voice", args: { voice: "kestrel" } }), "How about Kestrel? Want me to switch?");
 });
 
 test("consent is offered only for what's off in her window, and seeing the game only on a plan with it", () => {

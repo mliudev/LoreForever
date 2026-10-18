@@ -36,10 +36,11 @@
 import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/accounts.js";
 import {
   billingOn, setupBilling, sellablePlans, planFor, packsFor, createCheckout, createVoicePack, createPortal, changePlan,
-  verifyWebhook, applyEvent, launchWeek, launchText, launchEnds, launchOffers, voicePackFor, planCompare, PLANS, FEATURES, VOICE_PACK,
+  verifyWebhook, applyEvent, launchWeek, launchText, launchEnds, launchOffers, voicePackFor, planCompare, PLANS, planFeatures, VOICE_PACK,
   VOICE_PACK_TEXT, VOICE_NOTE,
 } from "../../../lib/billing.js";
 import { ALLOWED } from "../../../lib/willo-custom.js";
+import { featureOn } from "../../../lib/features.js";
 import { creatorFor, creatorOffers, notePayment } from "../../../lib/referrals.js";
 import { perMinute, slowDown } from "../../../lib/ratelimit.js";
 
@@ -59,12 +60,14 @@ async function plans({ request, env }) {
   const offers = await launchOffers(env, user?.id || null);
   if (user) Object.assign(offers, await creatorOffers(env, user.id, offers));
   const beta = launchWeek(env);
+  // The Voices of Azeroth in the plans' words once the released companion has them (lib/features.js azeroth).
+  const azeroth = featureOn(env, "azeroth"), features = planFeatures({ azeroth });
   return ok({
     on: true, current,
     plans: Object.values(PLANS).filter(p => !p.hidden).map(p => ({ id: p.id, name: p.name, monthly: p.monthly,
       answersPerDay: p.answersPerDay, answersPerMonth: p.answersPerMonth, sellable: sellable.includes(p.id),
-      features: FEATURES[p.id], ...(offers[p.id] && sellable.includes(p.id) ? { promo: offers[p.id] } : {}) })),
-    compare: planCompare(ALLOWED),
+      features: features[p.id], ...(offers[p.id] && sellable.includes(p.id) ? { promo: offers[p.id] } : {}) })),
+    compare: planCompare(ALLOWED, { azeroth }),
     ...(packs ? { starter: packs.starter } : {}),
     voicePack: pack && { price: VOICE_PACK.price, replies: VOICE_PACK.replies, monthMax: VOICE_PACK.monthMax, ...pack,
       ...(packs ? { boughtThisMonth: packs.voice.boughtThisMonth, open: current.id !== "free" && !current.launch } : {}) },

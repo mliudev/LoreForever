@@ -495,6 +495,11 @@ function UI.Create(engine)
   UI.contextLine:SetPoint("RIGHT", UI.journeyButton, "LEFT", -10, 0)
   UI.contextLine:SetJustifyH("LEFT")
   if UI.contextLine.SetWordWrap then UI.contextLine:SetWordWrap(false) end
+  -- Willo's icon (LOR-601, Mike's pick: the title bar, in a gold ring), left of Journey for players without her
+  -- (Companion.CreateIcon); the place name ends before it while it shows (UI.UpdateWilloIcon).
+  UI.willoIcon = ns.Companion.CreateIcon(f, 24)
+  UI.willoIcon:SetPoint("RIGHT", UI.journeyButton, "LEFT", -10, 0)
+  UI.UpdateWilloIcon()
 
   -- Sidebar: its own tinted column with a divider, so it reads as navigation rather than conversation.
   local side = Area(f, "side")
@@ -2178,6 +2183,7 @@ function UI.Refresh()
   UI.ctx = ctx
   ns.Log.Map(ctx)
   UI.contextLine:SetText(esc(ns.Context.Describe(ctx)):gsub("||c", "|c"):gsub("||r", "|r"))
+  UI.UpdateWilloIcon()
 
   local here, placeName, bosses, targetKey = UI.HereItems(ctx)
   UI.hereHeader:SetText(string.format(L["Here: %s"], esc(placeName or "?")))
@@ -4410,6 +4416,7 @@ function UI.Clear()
   for _, b in ipairs(UI.bubbles) do b.frame:Hide() end
   UI.content:SetHeight(100)
   UI.engine.lastKey = nil
+  UI.unanswered = nil
   UI.engine.asked = {}
   UI.SetNext({})
   UI.NavClear()
@@ -4678,6 +4685,30 @@ function UI.AskWillo(question, copy)
     label = string.format(L["No answer? Copy it for %s (Ctrl+C)"], ns.COMPANION_NAME) } })
 end
 
+-- Willo's icon shows while the add-on may suggest her (Companion.OfferWillo: not once she's installed, nor with
+-- Options › Suggest Willo unticked); without it, the place name has its room back.
+function UI.UpdateWilloIcon()
+  local icon = UI.willoIcon
+  if not icon then return end
+  local on = ns.Companion.OfferWillo() and true or false
+  icon:SetShown(on)
+  UI.contextLine:SetPoint("RIGHT", on and icon or UI.journeyButton, "LEFT", -10, 0)
+end
+
+-- What Willo's icon talks about (Companion.IconLine): the story or answer on screen ({ name = }), the question the
+-- add-on just couldn't answer ({ question = }), or else where you are ({ place = }). A page over the chat (Journey,
+-- History) hides what's in it, so then only the place.
+function UI.WilloTopic()
+  local ctx = UI.ctx
+  local place = ctx and (ctx.subzone ~= "" and ctx.subzone or ctx.zone) or nil
+  local over = (UI.journeyPage and UI.journeyPage:IsShown()) or (UI.historyFrame and UI.historyFrame:IsShown())
+  local key = not over and UI.engine and UI.engine.lastKey
+  local e = key and UI.engine.db.entries[key]
+  if e and e.n then return { name = e.n } end
+  if not over and UI.unanswered then return { question = UI.unanswered } end
+  return { place = place ~= "" and place or nil }
+end
+
 -- The line on its own, after the red cross on an answer: same rules (Companion.SuggestWillo).
 function UI.SuggestWilloLine(question)
   if ns.Companion.Installed() or not ns.Companion.SuggestWillo() then return end
@@ -4757,8 +4788,10 @@ function UI.Ask(question, via)
   local log = ns.Log.Question(question, ctx, results, via, UI.turn)
   UI.lastLog = log
   local live = ns.Companion.Installed()   -- live answers are offered only once the companion app is installed
+  UI.unanswered = nil   -- the question Willo's icon offers her for (UI.WilloTopic)
   -- Until then, a question the add-on can't answer gets one line about Willo, once a play session (LOR-459).
   local function unanswered(text)
+    UI.unanswered = question
     local willo = not live and ns.Companion.SuggestWillo()
     UI.AddMessage("note", GREY .. text .. "|r" .. (willo and willoLine() or ""), nil, nil, nil, log)
     if willo then UI.msgs[#UI.msgs].willo = question end

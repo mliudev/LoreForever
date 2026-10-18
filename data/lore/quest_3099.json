@@ -1,0 +1,109 @@
+{
+ "key": "quest:3099",
+ "type": "quest",
+ "name": "Tainted Scroll",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3099
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Maximillion initiates newly awakened Forsaken warlocks in Deathknell, framing demonology and subjugation as the ultimate assertion of mastery and freedom."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Forsaken warlocks draw a dark parallel between breaking free from the Scourge and seeking out demonic servants to command for their own survival."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who sends tainted scroll",
+    "who gave me tainted scroll",
+    "tainted scroll sender"
+   ],
+   "answer": "The scroll is delivered bearing the personal seal of Maximillion, the warlock trainer stationed in Deathknell, who seeks out newly awakened practitioners of the dark arts.",
+   "q": "Who sent the Tainted Scroll?"
+  },
+  {
+   "aliases": [
+    "who is maximillion",
+    "maximillion deathknell",
+    "warlock trainer deathknell"
+   ],
+   "answer": "Maximillion is the warlock trainer in Deathknell who instructs newly raised Forsaken in the dark arts of summoning and controlling demonic entities.",
+   "q": "Who is Maximillion?"
+  },
+  {
+   "aliases": [
+    "what is tainted scroll",
+    "what does scroll say",
+    "scroll message"
+   ],
+   "answer": "The scroll is a missive sent to newly awakened warlocks, reflecting on freedom, power, and the nature of servitude, urging the reader to visit Maximillion for deeper instruction.",
+   "q": "What is written on the Tainted Scroll?"
+  },
+  {
+   "aliases": [
+    "is maximillion a traitor",
+    "does maximillion betray sylvanas",
+    "maximillion loyalty"
+   ],
+   "answer": "Maximillion explicitly states he is no traitor to Lady Sylvanas. He claims the Banshee Queen would appreciate his perspective, arguing her own pursuit of self-determination broke their Scourge shackles.",
+   "q": "Is Maximillion a traitor to Lady Sylvanas?"
+  },
+  {
+   "aliases": [
+    "where to find maximillion",
+    "maximillion location"
+   ],
+   "answer": "Maximillion resides in Deathknell, the ruined settlement in Tirisfal Glades where newly risen Forsaken first emerge from their graves.",
+   "q": "Where can I find Maximillion?"
+  },
+  {
+   "aliases": [
+    "why warlock quest tainted scroll",
+    "tainted scroll purpose"
+   ],
+   "answer": "The quest serves as the introductory calling for newly raised Forsaken warlocks, initiating them into their class training and guiding them to their local mentor in Deathknell.",
+   "q": "What is the purpose of this quest?"
+  }
+ ],
+ "keywords": [
+  "deathknell",
+  "forsaken",
+  "maximillion",
+  "scourge",
+  "sylvanas",
+  "tainted scroll",
+  "tirisfal glades",
+  "warlock"
+ ],
+ "related": [
+  "subzone:deathknell",
+  "topic:forsaken",
+  "topic:scourge"
+ ],
+ "sections": [
+  {
+   "body": "Shortly after newly risen Forsaken begin clearing out mindless Scourge remnants around Deathknell, an ominous missive arrives bearing the seal of Maximillion, the local warlock trainer. The scroll beckons the recipient to contemplate the nature of servitude and autonomy before returning to the ruined settlement to speak with him directly.",
+   "spoiler": 0,
+   "title": "A Dark Summons"
+  },
+  {
+   "body": "Upon answering the summons, Maximillion reveals his philosophy on power and subjugation. Having broken free from the Lich King's mindless grasp, he argues that a slave remains a slave regardless of the master unless they seize true authority. In his eyes, mastering demonic servants is not treachery against Sylvanas, but rather the natural culmination of the Forsaken struggle for self-determination and respect.",
+   "spoiler": 1,
+   "title": "The Philosophy of Control"
+  }
+ ],
+ "summary": "The Tainted Scroll is an early quest in Deathknell that directs newly awakened Forsaken warlocks to their trainer, Maximillion. Through this missive, Maximillion invites the initiate to embrace power and dark servitude as a means of securing genuine freedom.",
+ "attribution": [
+  "In-game quest text: Tainted Scroll"
+ ]
+}

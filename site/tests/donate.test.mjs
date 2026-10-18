@@ -209,6 +209,20 @@ test("Delete my account deletes the files and the credit, and keeps the signed r
   assert.equal((await call("GET", "audio", { query: `?id=${d.id}`, headers: ADMIN })).status, 404);
 });
 
+test("a declined recording says why on the donor's page, and a new one starts over (LOR-621)", async () => {
+  const me = await signIn("rowan");
+  await agree(me);
+  const d = (await json(await send(me))).donation;
+  const declined = await json(await call("POST", "status", { headers: ADMIN,
+    body: { id: d.id, status: "declined", why: "too much background noise" } }));
+  assert.equal(declined.status, 200, declined.error);
+  const page = await json(await call("GET", "state", { cookie: me.cookie }));
+  assert.deepEqual([page.donation.status, page.donation.reason], ["declined", "too much background noise"]);
+  const again = await json(await send(me, mp3(DONATE.minBytes + 7000)));
+  assert.equal(again.status, 200, again.error);
+  assert.deepEqual([again.donation.id, again.donation.status, again.donation.reason], [d.id, "donated", null]);
+});
+
 test("a day's sample uploads are capped", async () => {
   const me = await signIn("busy");
   await agree(me);

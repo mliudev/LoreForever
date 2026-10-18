@@ -1,0 +1,110 @@
+{
+ "key": "quest:94792",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94792
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "For hunters, mastering the art of taming wild beasts is a defining rite of passage that fundamentally alters how they survive the wilderness. A loyal companion provides essential combat protection and vigilance, forging an enduring partnership between tracker and beast."
+  },
+  {
+   "target": "class:Druid",
+   "text": "While druids do not keep animal companions in the manner of hunters, the quest's emphasis on preserving the delicate balance of nature reflects core druidic teachings. Interacting with forest wildlife with care and restraint honors the natural equilibrium they are sworn to protect."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "taming the beast quest",
+    "what is taming the beast",
+    "hunter pet quest"
+   ],
+   "answer": "This quest serves as essential training for adventurers seeking to bond with wild creatures. Under the instruction of Josephine Carson, novices learn how to approach and pacify a wild Rockhide Boar using a specialized Taming Rod. The exercise teaches aspiring hunters how an animal companion can help them survive the wilderness while underscoring the importance of respecting the balance of nature.",
+   "q": "What is the purpose of the quest Taming the Beast?"
+  },
+  {
+   "aliases": [
+    "josephine carson",
+    "who gives taming the beast",
+    "taming rod quest giver"
+   ],
+   "answer": "Josephine Carson is a mentor who instructs adventurers on the delicate art of managing animal companions. She provides the Taming Rod and assigns students the task of practicing their abilities on a Rockhide Boar in the nearby woods. Josephine emphasizes that learning to work alongside beasts requires patience, practice, and a mindful awareness of nature's delicate balance.",
+   "q": "Who is Josephine Carson?"
+  },
+  {
+   "aliases": [
+    "taming rod",
+    "what does the taming rod do",
+    "how to use taming rod"
+   ],
+   "answer": "The Taming Rod is a specialized implement provided by Josephine Carson to facilitate animal training. Adventurers take the rod into the forest to pacify and tame a wild Rockhide Boar. It enables novices to safely practice commanding a beast without causing lasting harm to the local fauna, and it must be returned to Josephine once the trial is complete.",
+   "q": "What is the Taming Rod used for?"
+  },
+  {
+   "aliases": [
+    "why get a pet",
+    "beast companion benefits",
+    "why tame beasts"
+   ],
+   "answer": "Navigating the perils of the wild alone exposes travelers to severe hazards and ambush. An animal companion offers dependable protection, shared vigilance, and formidable aid in combat, making dangerous circumstances far easier to endure. A loyal beast acts as both a fierce frontline guardian and a trusted companion during long and hazardous expeditions across untamed lands.",
+   "q": "Why do hunters need animal companions?"
+  },
+  {
+   "aliases": [
+    "which boar do i tame",
+    "rockhide boar target",
+    "taming the beast mob"
+   ],
+   "answer": "The trial requires adventurers to venture into the forest and tame a Rockhide Boar using the provided Taming Rod. These sturdy beasts serve as an ideal test for practicing basic animal handling skills, teaching travelers how to maintain composure and discipline when facing aggressive wildlife before returning to report their progress to Josephine Carson.",
+   "q": "What creature must be tamed during this trial?"
+  },
+  {
+   "aliases": [
+    "balance of nature meaning",
+    "nature balance taming",
+    "why respect nature"
+   ],
+   "answer": "Josephine Carson warns that subduing wild beasts must always be approached with caution and respect rather than greed or force. The natural order is delicate, and recklessly disrupting local wildlife or abusing creatures upsets the environmental equilibrium. True mastery over beasts requires understanding and honoring their place in the ecosystem rather than treating them merely as disposable tools.",
+   "q": "Why does Josephine Carson emphasize the balance of nature?"
+  }
+ ],
+ "keywords": [
+  "animal companion",
+  "balance of nature",
+  "beast taming",
+  "hunter pet",
+  "josephine carson",
+  "rockhide boar",
+  "taming rod",
+  "taming the beast"
+ ],
+ "related": [
+  "item:taming-rod",
+  "quest:456"
+ ],
+ "sections": [
+  {
+   "body": "For many wanderers of the wilds, venturing alone through untamed territories is an invitation to danger. An animal companion provides not only fierce protection in battle, but steadfast companionship through grueling journeys. Learning how to form such a bond is a vital milestone for any aspiring hunter or tracker. Through the guidance of Josephine Carson, novices are entrusted with a specialized Taming Rod and instructed to seek out a Rockhide Boar within the forest. Calming and directing such a creature serves as a foundational trial, proving whether a traveler possesses the focus and composure required to guide a beast without succumbing to fear or provoking needless bloodshed.",
+   "spoiler": 0,
+   "title": "Bonding with Beasts"
+  },
+  {
+   "body": "Mastering wild animals carries profound ethical and ecological responsibilities. As Josephine Carson reminds her pupils, drawing beasts into service must never degenerate into reckless exploitation, as the balance of nature remains fragile and must always be upheld. The taming process is not about cruelty or dominance, but about establishing harmony and discipline between beast and master. Using the enchanted rod allows a novice to safely practice handling a formidable creature like a Rockhide Boar without permanently depleting the local wildlife. Once the fundamentals of commanding and soothing the beast are achieved, the rod is returned, demonstrating that respect for the natural order comes before pride.",
+   "spoiler": 0,
+   "title": "The Balance of Nature"
+  }
+ ],
+ "summary": "Taming the Beast is an introductory trial where aspiring adventurers learn the art of pacifying and bonding with wild animal companions. Guided by Josephine Carson, initiates take a Taming Rod into the forest to tame a Rockhide Boar and practice essential survival skills. The task demonstrates that surviving harsh frontiers is far easier alongside a loyal beast, provided one honors and preserves the delicate balance of nature.",
+ "attribution": [
+  "In-game quest text: Taming the Beast"
+ ]
+}

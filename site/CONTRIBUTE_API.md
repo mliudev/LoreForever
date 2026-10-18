@@ -111,12 +111,13 @@ contrib_batches(upload_id TEXT PRIMARY KEY, user_id TEXT, nick, ip_hash, source,
 | --- | --- |
 | `single` | one sender so far. **Accepted** once older than 48 hours: with few contributors, single-source is how anything ships |
 | `verified` | two or more independent senders (a different IP hash and a different account or install, above), or it matches the Forever client's own text in our harvest |
-| `conflict` | another text for the same part from a player of the same gender (gendered `$g` lines from a man and a woman don't conflict), or it differs from the Forever client's own text; kept side by side, accepted only once verified |
-| `flagged` | looks like spam (a web address, a run of 15 of one character); never accepted on one sender |
+| `conflict` | another text for the same part from a player of the same gender (gendered `$g` lines from a man and a woman don't conflict), or it differs from the Forever client's own text; kept side by side, accepted only once verified, or once /admin picks one |
+| `flagged` | looks like a real link (a scheme, `www.`, a Discord invite, a bare lower-case domain as a word of its own) or a run of 15 of one character; never accepted on one sender, verified like any line by two |
+| `unused` | not used: /admin picked another text for the part (`picked` 1 on it) or turned this one down (`picked` -1), or lore.contrib kept the game's own text over it (`POST /api/contribute/unused`) |
 | `rejected` | every sender of it was rejected from /admin (Restore brings it back) |
 | `shipped` | in a release (`POST /api/contribute/shipped`) |
 
-**Accepted** = `verified`, or `single` older than 48 hours (a flagged line has status `flagged`, so it never is). Lists
+**Accepted** = `verified`, or `single` older than 48 hours (a flagged line on one sender has status `flagged`, so it isn't). Lists
 of who found what also count `shipped` (`lib/credits.js` uses the same rule). A line identical to text the add-on
 already ships isn't stored at all and counts as known. What the add-on ships and what the Forever client gave us come
 from `site/public/contribute/known.json` (`uv run python -m lore.known_text`, rewritten by
@@ -195,6 +196,12 @@ only lines whose status changed, or that became accepted by age, after then. Rep
 
 Admin key: `{ids: [...], release: "0.8.0"}` -> those lines become `shipped` with `shipped_in` (a rejected line
 stays rejected). Reply `{ok, shipped: <count>}`.
+
+### POST /api/contribute/unused
+
+Admin key: `{ids: [...]}` -> lines lore.contrib took and kept other text over (its ledger outcome `conflict`) become
+`unused` (`picked` -1), so their senders' receipts say "Not used". Lines already shipped, rejected or picked from /admin
+stay as they are; sending the same ids again changes nothing. Reply `{ok, unused: <count>}`.
 
 ### /admin
 

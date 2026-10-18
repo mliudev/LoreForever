@@ -8,7 +8,8 @@
 import { saveReport, fail } from "../../lib/clipreports.js";
 import { noStore } from "../../lib/accounts.js";
 
-export async function onRequestPost({ request, env }) {
+export async function onRequestPost(context) {
+  const { request, env } = context;
   const json = (request.headers.get("Content-Type") || "").includes("application/json");
   let input;
   try {
@@ -16,6 +17,6 @@ export async function onRequestPost({ request, env }) {
   } catch (e) {
     return fail(400, "Couldn't read the report.");
   }
-  const { status, body } = await saveReport(env, request, input);
+  const { status, body } = await saveReport(env, request, input, context);
   return Response.json(body, { status, headers: noStore });
 }

@@ -1,0 +1,101 @@
+{
+ "key": "quest:94485",
+ "type": "quest",
+ "name": "Tears of the Lady",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94485
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists and field healers value Lady's Tear for its sticky antiseptic secretions, which can quickly bind open flesh and prevent infection in wilderness emergencies."
+  },
+  {
+   "target": "class:Priest",
+   "text": "While priests channel the Light to mend mortal injuries, natural poultices like Lady's Tear serve as crucial physical dressings for wounded survivors when magical relief is stretched thin."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is tears of the lady",
+    "tears of the lady quest info"
+   ],
+   "answer": "Tears of the Lady is a recovery effort directed by Elegael in Shadowgale. Wounded comrades remain trapped in Nightclaw Den, and Elegael requires local flora to brew an urgent poultice to keep them alive.",
+   "q": "What is the quest Tears of the Lady about?"
+  },
+  {
+   "aliases": [
+    "what is ladys tear",
+    "ladys tear moss",
+    "what is lady's tear moss"
+   ],
+   "answer": "Lady's Tear is a spindly moss that grows near the bases of trees throughout the Shadowgale woods. It secretes a naturally sticky sap that serves as a powerful antiseptic, making it ideal for dressing and binding open wounds.",
+   "q": "What is Lady's Tear?"
+  },
+  {
+   "aliases": [
+    "who is elegael",
+    "quest giver tears of the lady"
+   ],
+   "answer": "Elegael is the survivor who organizes the medical effort in Shadowgale. Having left wounded companions behind in the Nightclaw Den, Elegael gathers medicinal supplies to prepare treatments before returning to help them.",
+   "q": "Who is Elegael?"
+  },
+  {
+   "aliases": [
+    "what is nightclaw den",
+    "where is nightclaw den"
+   ],
+   "answer": "Nightclaw Den is a location near Shadowgale where several of Elegael's injured allies are stranded. Their condition is precarious, prompting the desperate rush to gather healing ingredients.",
+   "q": "What is the Nightclaw Den?"
+  },
+  {
+   "aliases": [
+    "why need ladys tear",
+    "what does the moss do"
+   ],
+   "answer": "The moss provides a crucial antiseptic secretion needed to compound a medical poultice. This sticky substance seals open gashes and fights off infection for the survivors left behind in the den.",
+   "q": "Why does Elegael need Lady's Tear moss?"
+  },
+  {
+   "aliases": [
+    "where does ladys tear grow",
+    "finding ladys tear"
+   ],
+   "answer": "Lady's Tear moss typically clings to the base of the trees throughout the Shadowgale forest. While Elegael gathered what was immediately reachable, more must be scavenged from the surrounding woods.",
+   "q": "Where is Lady's Tear moss found?"
+  }
+ ],
+ "keywords": [
+  "elegael",
+  "lady's tear",
+  "moss",
+  "nightclaw den",
+  "poultice",
+  "shadowgale",
+  "tears of the lady"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "In the shadowed depths of Shadowgale, Elegael urgently seeks aid to treat companions trapped within the Nightclaw Den. With critically injured allies awaiting rescue, conventional supplies are lacking, requiring field medicine scavenged directly from the surrounding wilderness. The effort hinges on securing natural remedies before time runs out for those left behind.",
+   "spoiler": 0,
+   "title": "Desperate Remedies in Shadowgale"
+  },
+  {
+   "body": "The vital component of Elegael's planned poultice is Lady's Tear, a spindly moss clinging to tree bases across Shadowgale. The plant produces a viscous, sticky secretion with natural antiseptic properties, capable of sealing open gashes and shielding traumatic wounds from worsening in the damp wild. Delivering enough moss allows Elegael to prepare the dressings necessary to stabilize the fallen.",
+   "spoiler": 0,
+   "title": "The Healing Moss"
+  }
+ ],
+ "summary": "Tears of the Lady is an urgent mercy task undertaken for Elegael in the forest of Shadowgale. To treat wounded comrades left stranded in the Nightclaw Den, travelers must scour local tree trunks for Lady's Tear, an antiseptic moss vital for binding severe wounds.",
+ "attribution": [
+  "In-game quest text: Tears of the Lady"
+ ]
+}

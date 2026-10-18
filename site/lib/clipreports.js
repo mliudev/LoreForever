@@ -12,10 +12,15 @@
 //                        clip and voice (sending again updates it)
 //   sender               the day's hash of the sender's IP (lib/form.js senderHash), for the daily cap
 //   status               open | done (recorded again, or the text changed) | kept (nothing to change) | rejected (spam)
+//   fixed_in             the release that carried the new recording of one of our voices (shipReports, LOR-621)
+// A report on a community voice (a player's pack in public/voices/voices.json, with an owner) goes to that voice's
+// narrator instead (LOR-621): their My contributions lists it (narratorReports), and their next take of that line in
+// the upload page closes it (closeRetaken).
 
 import { setup as setupAccounts, currentUser, sameOrigin, noStore } from "./accounts.js";
 import { senderHash } from "./form.js";
 import { REASONS, MAX, normalizeVoice, splitClip, cleanText, decodeClipReport } from "../public/clip-report-code.js";
+import { forwardFeedback } from "./slack-feedback.js";
 
 export const PER_DAY = 30;                         // new reports one sender can make per day
 export const STATUSES = ["open", "done", "kept", "rejected"];
@@ -72,8 +77,9 @@ export async function openCounts(env, { clips = null, voice = null, byVoice = fa
   return out;
 }
 
-// Saves one report. Returns {status, body} for the response.
-export async function saveReport(env, request, input) {
+// Saves one report. Returns {status, body} for the response. A new report goes on to Slack #player-feedback when
+// `context` (the Pages context) is given and SLACK_FEEDBACK_WEBHOOK is set (lib/slack-feedback.js).
+export async function saveReport(env, request, input, context = null) {
   if (!env.DB) return { status: 503, body: { ok: false, error: "Reports aren't set up yet. Please tell us on Discord." } };
   if (input && String(input.website || "").trim()) return { status: 200, body: { ok: true } };   // honeypot
   const { report: r, error } = readReport(input);
@@ -110,6 +116,7 @@ export async function saveReport(env, request, input) {
     ).bind(now, now, r.clip, r.hash, r.voice, r.reason, r.name, r.say_as, r.note, r.version, r.locale, r.source,
            user ? user.id : null, sender, uploader, request.cf?.country || null).first();
     id = row?.id;
+    if (context && id) forwardFeedback(context, "clip-report", { ...r, id, signedIn: Boolean(user) });
   }
   const open = (await openCounts(env, { clips: [r.clip], voice: r.voice }))[r.clip] || 0;
   return { status: 200, body: { ok: true, id, open, signedIn: Boolean(user) } };
@@ -143,6 +150,48 @@ export async function resolveReports(env, ids, status) {
     changed += res.meta?.changes || 0;
   }
   return changed;
+}
+
+// After release X.Y.Z (scripts/post-release.sh, lore.clipreports shipped): reports on our own voices closed as recorded
+// again before its release commit (`before`) were fixed in it. A community voice's pack goes out on its own, so its
+// reports (packs: their folder names) never get our version. Returns how many were marked.
+export async function shipReports(env, release, before, packs = []) {
+  await setup(env);
+  const skip = packs.length ? ` AND voice NOT IN (${packs.map(() => "?").join(", ")})` : "";
+  const res = await env.DB.prepare(
+    `UPDATE clip_reports SET fixed_in = ? WHERE status = 'done' AND fixed_in IS NULL AND resolved IS NOT NULL
+       AND resolved <= ?${skip}`).bind(release, new Date(before).toISOString(), ...packs).run();
+  return res.meta?.changes || 0;
+}
+
+// Community voices: {pack folder name: {id, owner, name}} from voices.json (lib/voices.js loadVoices), the packs a
+// player recorded. Empty when voices.json can't be read.
+export async function communityPacks(env, request) {
+  const { loadVoices } = await import("./voices.js");
+  let voices = [];
+  try { voices = await loadVoices(env, request); } catch (e) { /* no list: no community packs */ }
+  return new Map(voices.filter(v => v.owner && v.addon)
+    .map(v => [v.addon, { id: v.id, owner: v.owner, name: v.name, live: v.status === "live" }]));
+}
+
+// The open reports on one narrator's voices, for their My contributions: what's wrong with which line, never who said
+// so (no uploader, account or country).
+export async function narratorReports(env, packs) {
+  if (!packs.length) return [];
+  const { results } = await env.DB.prepare(
+    `SELECT clip, voice, reason, name, say_as, note, created FROM clip_reports
+     WHERE status = 'open' AND voice IN (${packs.map(() => "?").join(", ")}) ORDER BY id DESC LIMIT 100`).bind(...packs).all();
+  return results;
+}
+
+// The narrator uploaded a new take of a line (functions/api/studio/[action].js): the open reports on that line in
+// their voice's pack are done.
+export async function closeRetaken(env, pack, lineId) {
+  const res = await env.DB.prepare(
+    `UPDATE clip_reports SET status = 'done', resolved = ? WHERE status = 'open' AND voice = ?
+       AND (clip = ? OR clip LIKE ? ESCAPE '\\')`
+  ).bind(new Date().toISOString(), pack, lineId, lineId.replace(/[\\%_]/g, c => "\\" + c) + "@%").run();
+  return res.meta?.changes || 0;
 }
 
 // Rejects everything one uploader sent that's still open (spam, vandalism), or with restore, brings it back.

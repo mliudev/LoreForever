@@ -16,6 +16,7 @@ import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accoun
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { setupBilling, planFor, companionFeatures, INTEGRATION_ID, PLANS } from "../lib/billing.js";
 import { allowance, ANSWER_MODEL, RESEARCH_MODEL } from "../lib/companion-answers.js";
+import { optOut } from "../lib/email.js";
 
 import { d1 } from "./helpers.mjs";
 
@@ -32,7 +33,7 @@ beforeEach(async (t) => {
   await setupBilling(env);
   for (const table of ["users", "sessions", "devices", "device_links", "rate_limits", "answer_spend", "story_spend",
                        "entitlements", "billing_events", "answer_user_spend", "answer_packs", "answer_holds",
-                       "starter_claims", "best_first", "best_first_days"])
+                       "starter_claims", "best_first", "best_first_days", "email_sends", "email_optouts"])
     env.DB.sqlite.exec(`DELETE FROM ${table}`);
   stripeCalls = [];
   gemini = [];
@@ -200,6 +201,84 @@ test("a paid checkout makes the account Hero, deletion makes it free, and a repl
   assert.equal((await hook(paid)).status, 200);
   assert.equal(stripeCalls.length, fetched, "a replayed event isn't applied again");
   assert.equal((await planFor(env, user.id)).id, "free");
+});
+
+test("a new subscriber gets one thank-you email: never twice for retries or a checkout's several events, never on a renewal or a plan change", async () => {
+  const thanks = id => env.DB.sqlite.prepare("SELECT status FROM email_sends WHERE id = ?").get(`thanks:${id}`)?.status;
+  const started = (id, user, customer, daysAgo, key) =>
+    (subscriptions[id] = { ...subscription(id, user.id, { key }), customer, start_date: NOW / 1000 - daysAgo * 86400 });
+  const event = (id, type, object) => ({ id, type, data: { object } });
+  const created = (id, sub) => event(id, "customer.subscription.created", { id: sub });
+
+  // Cloudflare's email REST API, as Production sends: the first send fails, the rest go through.
+  const sent = [];
+  const stripeFetch = globalThis.fetch;
+  globalThis.fetch = async (url, options = {}) => {
+    if (new URL(url).hostname !== "api.cloudflare.com") return stripeFetch(url, options);
+    sent.push({ url: String(url), auth: options.headers.Authorization, body: JSON.parse(options.body) });
+    return sent.length === 1 ? Response.json({ success: false, errors: [{ code: 10001, message: "overloaded" }] }, { status: 500 })
+      : Response.json({ success: true, errors: [], result: { delivered: [], permanent_bounces: [], queued: ["x"] } });
+  };
+  Object.assign(env, { CLOUDFLARE_EMAIL_TOKEN: "cf-test-token", CLOUDFLARE_ACCOUNT_ID: "acct1" });
+  try {
+    // With the "thanks" feature switched off, a start is only noted as "would send", never sent.
+    env.SITE_FEATURES = "plans,-thanks";
+    const early = await player("early");
+    started("sub_early", early, "cus_early", 0);
+    assert.equal((await hook(created("evt_early", "sub_early"))).status, 200);
+    assert.deepEqual([thanks(early.id), sent.length], ["off", 0]);
+    // From here on, Production's settings: SITE_FEATURES "plans", and "thanks" on by default (lib/features.js).
+    env.SITE_FEATURES = "plans";
+
+    const user = await player("aelric");
+    started("sub_new", user, "cus_new", 0);
+    // The first try fails at the email service: the plan is stored anyway, and the next event tries again.
+    assert.equal((await hook(created("evt_new_1", "sub_new"))).status, 200);
+    assert.equal((await planFor(env, user.id)).id, "hero");
+    assert.equal(thanks(user.id), undefined);
+    // A checkout's other events arrive together: one email between them.
+    const checkout = event("evt_new_2", "checkout.session.completed", { id: "cs_new", object: "checkout.session",
+      mode: "subscription", customer: "cus_new", client_reference_id: user.id, subscription: "sub_new", payment_status: "paid" });
+    const paid = event("evt_new_3", "invoice.paid", { customer: "cus_new", parent: { subscription_details: { subscription: "sub_new" } } });
+    assert.deepEqual((await Promise.all([hook(checkout), hook(paid)])).map(r => r.status), [200, 200]);
+    assert.equal(sent.length, 2);
+    const { url, auth, body } = sent[1];
+    assert.deepEqual([url, auth], ["https://api.cloudflare.com/client/v4/accounts/acct1/email/sending/send",
+      "Bearer cf-test-token"]);
+    // From and Reply-To are the site's own inbox (DMARC p=reject: only @loreforeverwow.com), Reply-To as its own field.
+    assert.deepEqual([body.to, body.from, body.reply_to, body.subject, body.headers],
+      [["aelric@example.com"], { address: "hello@loreforeverwow.com", name: "Mike from Lore Forever" },
+       "hello@loreforeverwow.com", "Thanks for picking up Hero!",
+       { "List-Unsubscribe": "<https://loreforeverwow.com/unsubscribe>" }]);
+    assert.match(body.text, /^Hey aelric!/);
+    assert.equal(thanks(user.id), "sent");
+    // An event applied again (Stripe retries one the site failed), and a plan change, send nothing more.
+    assert.equal((await hook({ ...paid, id: "evt_new_5" })).status, 200);
+    started("sub_new", user, "cus_new", 0, "champion_monthly");
+    assert.equal((await hook(event("evt_new_4", "customer.subscription.updated", { id: "sub_new" }))).status, 200);
+    assert.equal((await planFor(env, user.id)).id, "champion");
+
+    // A subscriber from before the email: their renewal isn't a start.
+    const old = await player("veteran");
+    started("sub_old", old, "cus_old", 40);
+    assert.equal((await hook(event("evt_old", "invoice.paid", { customer: "cus_old",
+      parent: { subscription_details: { subscription: "sub_old" } } }))).status, 200);
+    assert.equal((await planFor(env, old.id)).id, "hero");
+    assert.equal(thanks(old.id), undefined);
+
+    // An address that unsubscribed gets nothing.
+    const quiet = await player("quiet");
+    await optOut(env, "Quiet@Example.com");
+    started("sub_quiet", quiet, "cus_quiet", 0);
+    assert.equal((await hook(created("evt_quiet", "sub_quiet"))).status, 200);
+    assert.equal(thanks(quiet.id), "opted_out");
+    assert.equal(sent.length, 2);
+  } finally {
+    delete env.CLOUDFLARE_EMAIL_TOKEN;
+    delete env.CLOUDFLARE_ACCOUNT_ID;
+    env.SITE_FEATURES = "plans";
+    globalThis.fetch = stripeFetch;
+  }
 });
 
 test("a whole refund of the current period's payment ends the plan; an older month's or an upgrade's is goodwill", async () => {
@@ -571,7 +650,7 @@ test("after their first 20, free answers stay with the lore: no looking online, 
   await tasted(user);
   const required = await ask({ research_required: true, persona: "willo", style: "spoken", image: jpeg });
   assert.equal(required.status, 200, JSON.stringify(required.body));
-  assert.equal(required.body.looked_up, "no");
+  assert.equal(required.body.looked_up, "off");          // asked to look; the free plan never does (LOR-627)
   const auto = await ask({ research: "auto", persona: "willo", style: "spoken", image: jpeg });
   assert.equal(auto.status, 200);
   assert.equal(gemini.length, 2, "no quick look online before either");

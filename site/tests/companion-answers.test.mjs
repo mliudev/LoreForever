@@ -34,7 +34,9 @@ async function linked(sub = "aelric") {
   return { user, token: (await claimToken(env, link.device_code)).token };
 }
 
-async function ask(token, { prompt = "PLAYER CONTEXT\nWestfall\nQUESTION\nWho is VanCleef?", method = "POST", headers = {}, researchRequired, operation, persona, style, image } = {}) {
+// A question no fact covers (era-vanessa names VanCleef since LOR-639; a real NPC has NPC facts), so research isn't
+// answered from facts.
+async function ask(token, { prompt = "PLAYER CONTEXT\nWestfall\nQUESTION\nWho is Zarnok Brightwhistle?", method = "POST", headers = {}, researchRequired, operation, persona, style, image } = {}) {
   const request = new Request("https://example.test/api/companion/answer", { method,
     headers: { "X-LF-Client": "companion/0.1.0", "Authorization": `Bearer ${token || ""}`,
       "Content-Type": "application/json", ...headers }, body: method === "GET" ? undefined : JSON.stringify({ prompt, research_required: researchRequired, operation, persona, style, image }) });
@@ -181,7 +183,7 @@ test("allowances belong to accounts; missing or revoked tokens cannot spend", as
 });
 
 const SAM_INTRO = "You are Sam the Squire, Lore Forever's herald, personal agent and squire.";
-const WILLO_INTRO = "You are Willo, Lore Forever's companion: a small, warm, curious blue wisp of light who rides along beside the player, with a squire's kindness and loyalty.";
+const WILLO_INTRO = "You are Willo, Lore Forever's companion: a small, warm, curious blue wisp of light who rides along beside the player, kind and loyal. You are always this wisp: you go wherever the player goes, with no post, duty, rank or home of your own to keep, and in play-acting you answer warmly and briefly as yourself.";
 const system = n => calls[n].body.systemInstruction.parts[0].text;
 
 test("persona willo swaps only the companion's introduction; anything else keeps Sam", async () => {

@@ -24,6 +24,7 @@ import { authorized } from "../../../../lib/auth.js";
 import { clean, ticked } from "../../../../lib/form.js";
 import { sniff, cleanChecks, setupStudio } from "../../../../lib/studio.js";
 import { perDay } from "../../../../lib/ratelimit.js";
+import { forwardFeedback } from "../../../../lib/slack-feedback.js";
 import { PLAYABLE } from "../../../../public/voices/testpack.js";
 import {
   CONSENT_VERSION, DONATE, STATUSES, RECORD_ONLY, donationKey, newId, consentOf, activeDonation, view, notifyDonation,
@@ -63,11 +64,12 @@ async function consent({ env }, user, input) {
   return ok();
 }
 
-async function sample({ request, env, waitUntil }, user) {
+async function sample(context, user) {
+  const { request, env, waitUntil } = context;
   const { agreed, row: terms } = await consentOf(env, user);
   if (!agreed) return fail(403, "Please agree to the terms first.");
   const old = await activeDonation(env, user.id);
-  if (old && old.status !== "donated") {
+  if (old && !["donated", "declined"].includes(old.status)) {
     return fail(409, "We've started making your voice from your recording. To send a new one, withdraw this one first.");
   }
   if (Number(request.headers.get("Content-Length") || 0) > DONATE.maxBytes) return fail(413, "That file is over 25 MB.");
@@ -96,7 +98,8 @@ async function sample({ request, env, waitUntil }, user) {
   if (old) {
     await env.DB.prepare(
       "UPDATE voice_donations SET credit = ?, r2_key = ?, ext = ?, bytes = ?, duration_ms = ?, checks = ?, crc32 = ?, script = ?, " +
-      "consent_version = ?, signature = ?, consented = ?, adult = ?, updated = ? WHERE id = ? AND status = 'donated'"
+      "consent_version = ?, signature = ?, consented = ?, adult = ?, updated = ?, status = 'donated', reason = NULL " +
+      "WHERE id = ? AND status IN ('donated', 'declined')"
     ).bind(...fields, id).run();
   } else {
     try {
@@ -111,6 +114,7 @@ async function sample({ request, env, waitUntil }, user) {
   }
   const d = await activeDonation(env, user.id);
   if (env.VOICES_WEBHOOK) waitUntil(notifyDonation(env.VOICES_WEBHOOK, d, old ? "replaced" : "new"));
+  forwardFeedback(context, "voice-donation", { ...d, kind: old ? "replaced" : "new" });
   return ok({ donation: view(d) });
 }
 
@@ -133,7 +137,8 @@ async function deleteFiles(env, d) {
   } while (cursor);
 }
 
-async function withdraw({ env, waitUntil }, user, input) {
+async function withdraw(context, user, input) {
+  const { env, waitUntil } = context;
   const d = await activeDonation(env, user.id);
   if (!d || (input.id && clean(input.id, 20) !== d.id)) return fail(404, "There's nothing to withdraw: you have no voice lent to us.");
   await deleteFiles(env, d);
@@ -145,6 +150,7 @@ async function withdraw({ env, waitUntil }, user, input) {
   // A published voice drops off the site at once: its voices.json entry needs a `voices` row with this owner.
   if (d.voice_id) await env.DB.prepare("DELETE FROM voices WHERE id = ? AND owner = ? AND locale IS NULL").bind(d.voice_id, user.id).run();
   if (env.VOICES_WEBHOOK) waitUntil(notifyDonation(env.VOICES_WEBHOOK, d, "withdrawn"));
+  forwardFeedback(context, "voice-donation", { ...d, kind: "withdrawn" });
   return ok({ withdrawn: stamp });
 }
 
@@ -181,7 +187,7 @@ async function exportAll({ env }) {
 
 async function setStatus({ env }, input) {
   const status = clean(input.status, 20);
-  if (!STATUSES.includes(status) || status === "withdrawn") return fail(400, "status: donated, rendering, ready or published.");
+  if (!STATUSES.includes(status) || status === "withdrawn") return fail(400, "status: donated, rendering, ready, published or declined.");
   const d = await env.DB.prepare("SELECT * FROM voice_donations WHERE id = ?").bind(clean(input.id, 20)).first();
   if (!d) return fail(404, "No such donation.");
   if (d.status === "withdrawn") return fail(410, "Withdrawn by the donor: leave it out.");
@@ -194,7 +200,10 @@ async function setStatus({ env }, input) {
     const v = await env.DB.prepare("SELECT owner FROM voices WHERE id = ?").bind(voiceId).first();
     if (v.owner !== d.owner) return fail(409, `The voice id ${voiceId} belongs to someone else. Pick another.`);
   }
-  await env.DB.prepare("UPDATE voice_donations SET status = ?, voice_id = ?, updated = ? WHERE id = ?").bind(status, voiceId, now(), d.id).run();
+  // declined (LOR-621): why, in plain words, for the donor's page ("We couldn't make a voice from this recording: ...").
+  const reason = status === "declined" ? clean(input.why, 200) || null : null;
+  await env.DB.prepare("UPDATE voice_donations SET status = ?, voice_id = ?, reason = ?, updated = ? WHERE id = ?")
+    .bind(status, voiceId, reason, now(), d.id).run();
   return ok({ status, voice_id: voiceId, owner: d.owner });
 }
 

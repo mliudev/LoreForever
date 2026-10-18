@@ -3,8 +3,9 @@
 // and shares (LOR-151), sign-in days, profiles with levels and time played and profile updates (LOR-304), downloads
 // while signed in (LOR-8) and so the funnel (LOR-10), 100 accounts over 7 weeks, CurseForge and GitHub counts per
 // release (LOR-421) and companion check-ins (LOR-422) with their usage counts (LOR-435), through the real lib/usage.js,
-// lib/activity.js, lib/stores.js, lib/checkins.js, lib/featureuse.js and functions/api/admin.js on an in-memory D1. No
-// network, no real data.
+// lib/activity.js, lib/stores.js, lib/checkins.js, lib/featureuse.js and functions/api/admin.js on an in-memory D1.
+// /admin/voices shows tests/fixtures/voice-status.json through the real functions/api/admin/voice-status.js;
+// Community > Willo and /admin/edits show a few made-up rows (SAMPLE_WILLO, SAMPLE_EDITS below). No network, no real data.
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { resolve, extname } from 'node:path';
@@ -13,15 +14,18 @@ import { setup, findOrCreateUser } from '../lib/accounts.js';
 import { saveUsage, countSite } from '../lib/usage.js';
 import { snapshotStores, importAuthorStats, CF_CORE, CF_PACKS } from '../lib/stores.js';
 import { setExclusion, markAsked } from '../lib/activity.js';
-import { setupBilling } from '../lib/billing.js';
+import { setupBilling, claimOf } from '../lib/billing.js';
 import { saveCheckin } from '../lib/checkins.js';
 import { readFeatureUsage, saveFeatureUsage, rollupUsage } from '../lib/featureuse.js';
 import { createHash } from 'node:crypto';
 import { onRequestGet as admin } from '../functions/api/admin.js';
+import { onRequestGet as costs } from '../functions/api/admin/costs.js';
+import { onRequestGet as voiceStatus, onRequestPost as postVoiceStatus } from '../functions/api/admin/voice-status.js';
 
 const origin = 'http://localhost:8766';
 const env = { DB: d1(), ADMIN_KEY: 'local' };
 await setup(env);
+env.DB.sqlite.exec(await readFile(new URL('../migrations/cost-snapshots.sql', import.meta.url), 'utf8'));   // the Costs tab's first snapshot
 
 let seed = 413;
 const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
@@ -207,7 +211,7 @@ for (const [src, installer, zip] of [['lore', 34, 7], ['yt', 21, 2], ['discord',
 }
 
 // Willo (LOR-524): her downloads for 10 days, players asking her, and plans: two paying (one a 50% first month), a
-// comped one, a trial, and the beta's offers.
+// comped one, a trial, two free Hero months and the beta's offers.
 for (let ago = 0; ago < 10; ago++) {
   const day = new Date(now - ago * 864e5).toISOString().slice(0, 10);
   env.DB.sqlite.prepare('INSERT INTO downloads (day, file, n) VALUES (?, ?, ?)').run(day, 'willo', pick(5, 40));
@@ -221,7 +225,11 @@ for (const [i, plan, status, comp, ago] of [[2, 'legend', 'active', '', 0], [3, 
   env.DB.sqlite.prepare('INSERT INTO plan_log (subscription_id, user_id, plan, status, started, discounts, comp, updated) ' +
     "VALUES (?, ?, ?, ?, ?, '[]', ?, ?)").run('sub_' + i, users[i], plan, status, iso(ago), comp, iso(0));
 }
-for (const [claim, ago] of [['free:a', 0], ['free:b', 0], ['free:c', 1], ['hero:d', 2], ['half:e', 0]])
+// The beta promo is on (its start), so On a plan counts the free Hero months of accounts 6 and 7; account 5 took Keep Hero
+// in its own (the trial above), so it is counted once.
+env.LAUNCH_WEEK_START = iso(9);
+for (const [claim, ago] of [[await claimOf(env, users[5], 'free'), 0], [await claimOf(env, users[6], 'free'), 0],
+                            [await claimOf(env, users[7], 'free'), 1], ['hero:d', 2], ['half:e', 0]])
   env.DB.sqlite.prepare("INSERT INTO promo_claims (claim, subscription_id, created) VALUES (?, '', ?)").run(claim, iso(ago));
 
 // Profile views, opens from outside links and shares (LOR-151).
@@ -231,6 +239,40 @@ for (let ago = 0; ago < 14; ago++) {
     for (let i = 0; i < n; i++) await countSite(env, [metric], at);
   }
 }
+
+// Voice work: the fixture, posted as a few pictures over the last hour so the sparkline has a line.
+const voiceSample = JSON.parse(await readFile(new URL('./fixtures/voice-status.json', import.meta.url), 'utf8'));
+for (let i = 5; i >= 0; i--) {
+  await postVoiceStatus({ env, request: new Request(origin + '/api/admin/voice-status', { method: 'POST',
+    headers: { Authorization: 'Bearer local', 'Content-Type': 'application/json' },
+    body: JSON.stringify({ ...voiceSample, generated_at: new Date(now - (i * 10 + 4) * 60e3).toISOString() }) }) });
+}
+
+// Community > Willo (functions/api/admin/willo.js GET): two signals, two facts, a friend report. Long words on purpose.
+const SAMPLE_WILLO = { ok: true,
+  feedback: { counts: [], zones: [{ zone: 'Elwynn Forest', n: 2, players: 2 }],
+    rows: [{ id: 41, kind: 'correction', status: 'new', sub: 'Hogger', zone: 'Elwynn Forest', created: iso(0), spoken: true,
+             said: 'Hogger is in the Forest\'s Edge camp, not Jasperlode Mine. https://example.invalid/a-very-long-link-without-any-spaces-to-break-on/quest/176',
+             question: 'Where is Hogger?', answer: 'Hogger prowls the hills near Jasperlode Mine, east of Goldshire.' },
+           { id: 40, kind: 'frustration', status: 'new', sub: '', zone: 'Westfall', created: iso(1),
+             said: 'She keeps telling me about the Defias when I asked about the farms.', question: 'Who owns Saldean\'s farm?',
+             answer: 'The Defias Brotherhood holds much of Westfall these days.' }] },
+  facts: [{ id: 'f-hogger', origin: 'mike', title: 'Hogger\'s camp', zone: 'Elwynn Forest',
+            text: 'On Forever, Hogger and his gnolls camp at Forest\'s Edge in southwest Elwynn.', source_title: 'Checked by Mike' },
+          { id: 'f-seed', origin: 'seed', title: 'Goldshire inn', zone: 'Elwynn Forest',
+            text: 'The Lion\'s Pride Inn is in Goldshire.', source_url: 'https://example.invalid/goldshire', source_title: 'Forever notes' }],
+  friendReports: [{ id: 3, reporter: 'Aelric', reported: 'Grimbold', times: 2, created: iso(0), note: 'Spamming gold-selling links.',
+                    messages: [{ created: iso(0), body: 'cheap gold at example.invalid' }] }] };
+// /admin/edits (functions/api/translations/[action].js summary and review) and Community > Edits.
+const SAMPLE_EDITS = { ok: true,
+  locales: [{ locale: 'deDE', saved: 42, pulled: 1310, rejected: 3, last: iso(0) }, { locale: 'frFR', saved: 7, pulled: 880, rejected: 0, last: iso(1) }],
+  translators: [{ user_id: 'u1', display_name: 'Lena', email: 'lena@example.invalid', locales: 'deDE', saved: 40, pulled: 1200, rejected: 3, week: 61, last: iso(0) },
+                { user_id: 'u2', display_name: 'Camille', email: 'camille@example.invalid', locales: 'frFR,deDE', saved: 9, pulled: 990, rejected: 0, week: 12, last: iso(1) }] };
+const SAMPLE_REVIEW = { ok: true, total: 2, edits: [
+  { id: 901, locale: 'deDE', string_id: 'zone.elwynn.intro', en: 'Elwynn Forest, the heart of the Kingdom of Stormwind.',
+    text: 'Der Wald von Elwynn, das Herz des Königreichs Sturmwind.', user_id: 'u1', display_name: 'Lena', email: 'lena@example.invalid', status: 'new', updated: iso(0) },
+  { id: 902, locale: 'frFR', string_id: 'npc.marshal_dughan.greeting', en: 'Ach, it\'s another adventurer.',
+    text: 'Ah, encore un aventurier.', user_id: 'u2', display_name: 'Camille', email: 'camille@example.invalid', status: 'new', updated: iso(1) }] };
 
 const publicRoot = resolve(SITE, 'public');
 const types = { '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.png': 'image/png', '.webp': 'image/webp',
@@ -242,20 +284,31 @@ createServer(async (req, res) => {
       const response = await admin({ env, request: new Request(url, { headers: req.headers }) });
       res.writeHead(response.status, Object.fromEntries(response.headers)); res.end(await response.text()); return;
     }
-    if (url.pathname === '/api/translations/summary' || url.pathname === '/api/clip-report/export') {
-      res.writeHead(200, { 'Content-Type': 'application/json' }); res.end('{}'); return;
+    if (url.pathname === '/api/admin/costs') {
+      const response = await costs({ env, request: new Request(url, { headers: req.headers }) });
+      res.writeHead(response.status, Object.fromEntries(response.headers)); res.end(await response.text()); return;
     }
-    const path = resolve(publicRoot, '.' + decodeURIComponent(url.pathname === '/admin' ? '/admin.html' : url.pathname));
+    if (url.pathname === '/api/admin/voice-status') {
+      const response = await voiceStatus({ env, request: new Request(url, { headers: req.headers }) });
+      res.writeHead(response.status, Object.fromEntries(response.headers)); res.end(await response.text()); return;
+    }
+    const sample = { '/api/admin/willo': SAMPLE_WILLO, '/api/translations/summary': SAMPLE_EDITS,
+                     '/api/translations/review': SAMPLE_REVIEW }[url.pathname];
+    if (sample || url.pathname === '/api/clip-report/export') {
+      res.writeHead(200, { 'Content-Type': 'application/json' }); res.end(JSON.stringify(sample || {})); return;
+    }
+    // Pages serves /admin/voices from admin/voices.html (and /admin from admin.html).
+    const page = url.pathname === '/admin' ? '/admin.html' : /^\/admin\/[a-z]+$/.test(url.pathname) ? url.pathname + '.html' : url.pathname;
+    const path = resolve(publicRoot, '.' + decodeURIComponent(page));
     if (!path.startsWith(publicRoot + '/')) { res.writeHead(404); res.end(); return; }
     let bytes = await readFile(path);
-    // /admin?key=local opens signed in with the local key, and &at=<section id> scrolls there once it has loaded, for a
-    // headless screenshot (no typing): msedge --headless --virtual-time-budget=5000 --screenshot=...
-    if (url.pathname === '/admin' && url.searchParams.get('key') === 'local') {
+    // /admin?key=local (or /admin/voices?key=local) opens signed in with the local key, and &at=<section id> scrolls
+    // there once it has loaded, for a headless screenshot (no typing): msedge --headless --virtual-time-budget=5000 --screenshot=...
+    if (page.endsWith('.html') && url.searchParams.get('key') === 'local') {
       const at = JSON.stringify((url.searchParams.get('at') || '').replace(/[^a-z-]/g, ''));
-      bytes = String(bytes).replace('<script type="module" src="/admin-page.js',
+      bytes = String(bytes).replace('</head>',
         '<script>try { sessionStorage.setItem("lf-admin", "local"); } catch (e) {}\n' +
-        `setTimeout(() => { const s = document.getElementById(${at}); if (s) scrollTo(0, s.offsetTop - 60); }, 1500);</script>\n` +
-        '<script type="module" src="/admin-page.js');
+        `setTimeout(() => { const s = document.getElementById(${at}); if (s) scrollTo(0, s.offsetTop - 60); }, 1500);</script>\n</head>`);
     }
     res.writeHead(200, { 'Content-Type': types[extname(path)] || 'application/octet-stream' }); res.end(bytes);
   } catch { if (!res.headersSent) res.writeHead(404); res.end(); }

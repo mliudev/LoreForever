@@ -1,0 +1,109 @@
+{
+ "key": "quest:97922",
+ "type": "quest",
+ "name": "Camping 101: Leatherworking",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97922
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Adele Fielder notes that no wilderness campsite is complete without a campfire, urging travelers to train in cooking to learn how to kindle a proper blaze."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Based out of Goldshire in Elwynn Forest, this training guides Alliance leatherworkers toward practical survival crafts for their journeys across Azeroth."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives tent training",
+    "adele fielder location",
+    "leatherworking tent teacher"
+   ],
+   "answer": "Adele Fielder can be found in the town of Goldshire within Elwynn Forest. She teaches qualified leatherworkers how to fashion sturdy survival tents once they have demonstrated proficiency in their craft.",
+   "q": "Who teaches leatherworkers how to craft tents?"
+  },
+  {
+   "aliases": [
+    "why make tent",
+    "what does tent do",
+    "tent benefits"
+   ],
+   "answer": "A well-crafted tent shelters travelers from extreme weather, keeping them cool on sweltering days and dry during heavy rain. More importantly, it provides adventurers with the rest they need to remain sharp while traveling through the wilderness.",
+   "q": "What purpose does a crafted tent serve?"
+  },
+  {
+   "aliases": [
+    "can i pitch tent in town",
+    "where can i use tent",
+    "tent in stormwind or goldshire"
+   ],
+   "answer": "Tents cannot simply be pitched anywhere; townsfolk frown upon travelers cluttering streets or town centers with campsites. Adventurers are expected to take their gear out into the wilderness to set up camp properly.",
+   "q": "Can you pitch a tent inside a town?"
+  },
+  {
+   "aliases": [
+    "what else do i need for camp",
+    "tent campfire requirement",
+    "how to complete campsite"
+   ],
+   "answer": "A tent alone does not make a functional campsite. Adele Fielder emphasizes that every proper camp requires a campfire, which provides warmth and practical utility in the wild.",
+   "q": "What else is needed alongside a tent to complete a camp?"
+  },
+  {
+   "aliases": [
+    "who teaches campfire",
+    "how to learn campfire",
+    "fire for camp"
+   ],
+   "answer": "Culinary trainers and local cooks teach the fundamentals of lighting a campfire. Adventurers preparing to camp are directed to study the culinary arts so they know how to build a reliable fire wherever they roam.",
+   "q": "Where can a traveler learn to build a campfire?"
+  },
+  {
+   "aliases": [
+    "tent skill requirements",
+    "how to get tent recipe",
+    "when can i craft tent"
+   ],
+   "answer": "Aspiring leatherworkers must first demonstrate proficiency in leatherworking before Adele Fielder will instruct them in crafting a tent. Once sufficient craft mastery is shown, the technique can be learned.",
+   "q": "When can a leatherworker learn to craft a camping tent?"
+  }
+ ],
+ "keywords": [
+  "adele fielder",
+  "campfire",
+  "camping",
+  "elwynn forest",
+  "goldshire",
+  "leatherworking",
+  "tent",
+  "wilderness survival"
+ ],
+ "related": [
+  "subzone:goldshire"
+ ],
+ "sections": [
+  {
+   "body": "For an adventurer wandering far beyond town gates, shelter is as vital as armor. Leatherworkers in Elwynn Forest are directed to Adele Fielder in Goldshire to expand their craft beyond simple belts and tunics. Once a crafter demonstrates proficiency with hide and needle, Adele shares the practical art of assembling a durable camp tent designed to withstand harsh weather on long overland expeditions.",
+   "spoiler": 0,
+   "title": "Shelter for the Open Road"
+  },
+  {
+   "body": "A finished tent provides more than just aesthetic cover; it keeps weary travelers cool under scorching suns, dry during driving rainstorms, and well-rested between perilous encounters. However, wilderness etiquette and civic ordinances matter: Goldshire locals and city guards do not tolerate campsites pitched in the middle of town streets. Crafters must head into the open wilderness to set up camp, and Adele reminds all wanderers that no campsite is complete without a proper campfire learned from a culinary trainer.",
+   "spoiler": 0,
+   "title": "The Essentials of Campcraft"
+  }
+ ],
+ "summary": "Camping 101: Leatherworking directs apprentice leatherworkers to Adele Fielder in Goldshire to learn the craft of making a travel tent. Pitching a tent in the wild offers shelter and rest against harsh weather, providing adventurers a vital survival tool outside settled towns.",
+ "attribution": [
+  "In-game quest text: Camping 101: Leatherworking"
+ ]
+}

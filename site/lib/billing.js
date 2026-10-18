@@ -11,7 +11,8 @@
 // How a subscription reaches us: /plans asks POST /api/billing/checkout (functions/api/billing/[action].js), which
 // makes a Stripe Checkout page (createCheckout) and sends the player there. Stripe then calls our webhook
 // (POST /api/billing/webhook) with signed events (verifyWebhook); applyEvent fetches the subscription from Stripe and
-// stores what it says now in `entitlements`, so an event that comes twice or out of order changes nothing. Switching
+// stores what it says now in `entitlements`, so an event that comes twice or out of order changes nothing (and a new
+// subscriber gets one thank-you email from Mike: lib/thanks.js). Switching
 // plan happens on /plans itself (changePlan: POST /api/billing/change); the card, invoices and cancelling on Stripe's
 // billing portal (createPortal), which offers no plan changes. We never see card details: D1 keeps
 // the plan, its status and dates, and Stripe's ids for the customer and the subscription. "Delete my account" cancels
@@ -68,6 +69,7 @@
 
 import { featureOn } from "./features.js";
 import { COMPANION_NAME } from "./brand.js";
+import { thankSubscriber } from "./thanks.js";
 
 // Who says each plan's answers out loud (LOR-490, Mike, 2026-10-13): "local" (Willo's voices made on the player's PC,
 // free to us), "chatterbox" (its studio voices: DeepInfra's Chatterbox Turbo, lib/companion-voice.js) or "inworld" (its
@@ -133,9 +135,20 @@ export const TASTE_ANSWERS = 20;
 // Willo's voices in the companion app (companion/lore_companion/talk/tts.py KOKORO_VOICES); the free plan has its
 // default one.
 export const WILLO_VOICES = 7;
-// Willo's hosted voices a plan with PLAN_VOICE choice picks from (lib/companion-voice.js WILLO_PICKS).
+// Willo's hosted voices a plan with PLAN_VOICE choice picks from (lib/companion-voice.js WILLO_PICKS), and the Voices of
+// Azeroth it picks from too (AZEROTH_VOICES, lib/companion-voice.js AZEROTH_PICKS, LOR-609): what /plans and the
+// Stripe blurbs say of them waits for the site feature "azeroth" (lib/features.js: on in the release whose companion
+// has them in its picker).
+// Her male partners (WILLO_PARTNERS, LOR-610) count among her own once "azeroth" is on too.
 export const HOSTED_PICKS = 5;
-const pickLine = `Pick ${COMPANION_NAME}'s voice from ${HOSTED_PICKS}`;
+export const WILLO_PARTNERS = 5;
+export const AZEROTH_VOICES = 22;
+// How many voices Champion and Legend pick Willo's from, as /plans says it (the thank-you email, lib/thanks.js).
+export const voicePicks = env => featureOn(env, "azeroth") ? HOSTED_PICKS + WILLO_PARTNERS + AZEROTH_VOICES : HOSTED_PICKS;
+const pickLine = azeroth => azeroth
+  ? `Pick ${COMPANION_NAME}'s voice: her own ${HOSTED_PICKS + WILLO_PARTNERS}, women's and men's, or one of ` +
+    `${AZEROTH_VOICES} voices of Azeroth's peoples`
+  : `Pick ${COMPANION_NAME}'s voice from ${HOSTED_PICKS}`;
 
 // What the companion app may do on each plan, sent with the allowance (lib/companion-answers.js `features`): Willo's
 // session turns its own features on or off by it. voices: "all" of Willo's voices, only its "default" one, or "none"
@@ -176,13 +189,16 @@ const FIRST = {
   champion: `${NAME}'s studio voices, up to 8 hours a day`,
   legend: `The most answers and ${NAME}'s finest voice`,
 };
-export const FEATURES = {
+// azeroth: the Voices of Azeroth are in the picker (the site feature "azeroth", or the asking companion has them).
+export const planFeatures = ({ azeroth = false } = {}) => ({
   free: [FIRST.free, "The whole add-on, every narration pack and language"],
   hero: [FIRST.hero, answers(PLANS.hero), WEB, `${NAME} sees your game`, `Preset ${NAME} styles`],
-  champion: [FIRST.champion, pickLine, answers(PLANS.champion), WEB, `${NAME}'s longer memory`,
+  champion: [FIRST.champion, pickLine(azeroth), answers(PLANS.champion), WEB, `${NAME}'s longer memory`,
              `Write ${NAME}'s personality`, "Rewrite NPCs as your own tale", `Create your own ${NAME} voice (coming soon)`],
-  legend: [FIRST.legend, pickLine, answers(PLANS.legend), WEB, "Everything in Champion"],
-};
+  legend: [FIRST.legend, pickLine(azeroth), answers(PLANS.legend), WEB, "Everything in Champion"],
+});
+const AZEROTH = featureOn(null, "azeroth");   // the code's own switch: the Stripe blurbs have no request
+export const FEATURES = planFeatures({ azeroth: AZEROTH });
 // /plans' one line of fine print about the finest voice.
 export const VOICE_NOTE = `${NAME}'s finest voice for your first ${count(LEGEND_BEST_PER_MONTH)} replies each month, ` +
   "then her studio voice.";
@@ -192,9 +208,9 @@ export const VOICE_NOTE = `${NAME}'s finest voice for your first ${count(LEGEND_
 export const BLURBS = {
   hero: `${FIRST.hero}: ${answers(PLANS.hero)}, and ${NAME} sees your game. ${WEB}.`,
   champion: `${FIRST.champion}: ${answers(PLANS.champion)}, ${NAME}'s ` +
-            `longer memory, ${NAME}'s personality in your words, and NPCs rewritten as your own tale. ${pickLine}. ` +
+            `longer memory, ${NAME}'s personality in your words, and NPCs rewritten as your own tale. ${pickLine(AZEROTH)}. ` +
             `Everything in Hero too. Create your own ${NAME} voice (coming soon).`,
-  legend: `${FIRST.legend}: ${answers(PLANS.legend)}, and everything in Champion. ${pickLine}.`,
+  legend: `${FIRST.legend}: ${answers(PLANS.legend)}, and everything in Champion. ${pickLine(AZEROTH)}.`,
 };
 
 // For sale unless BILLING_PLANS says otherwise. A hidden plan is never for sale or listed.
@@ -304,10 +320,11 @@ export function launchOffer(env, planId, now = launchNow(env)) {
 
 // The plans side by side (GET /api/billing/plans compare, for /willo's and /plans' table): [{label, values: {free,
 // hero, champion, legend}}], all strings ("✓" and "—" for yes and no), from PLANS, PLAN_VOICE and COMPANION_FEATURES,
-// and allowed (lib/willo-custom.js ALLOWED: what each plan may customize; passed in, since that file reads this one).
+// and allowed (lib/willo-custom.js ALLOWED: what each plan may customize; passed in, since that file reads this one);
+// azeroth: the Voices of Azeroth count among the picks (planFeatures).
 // Look-ups are never a count here (WEB).
 const WORDS = ["none", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
-export function planCompare(allowed = {}) {
+export function planCompare(allowed = {}, { azeroth = false } = {}) {
   const row = (label, of) => ({ label, values: Object.fromEntries(Object.keys(PLANS).map(id => [id, of(id)])) });
   const yes = on => on ? "✓" : "—";
   const paid = id => id !== "free";
@@ -316,7 +333,8 @@ export function planCompare(allowed = {}) {
     const v = PLAN_VOICE[id];
     if (v.starter) return `Your first ${STARTER_ANSWERS} answers`;
     if (v.voice === "inworld") return "Finest";
-    return v.choice ? `Pick from ${WORDS[HOSTED_PICKS] || HOSTED_PICKS}` : "Studio";
+    const picks = HOSTED_PICKS + (azeroth ? WILLO_PARTNERS + AZEROTH_VOICES : 0);
+    return v.choice ? `Pick from ${WORDS[picks] || picks}` : "Studio";
   };
   const style = id => (allowed[id] || []).includes("words") ? "Presets or your own words"
     : (allowed[id] || []).includes("presets") ? "Presets" : "—";
@@ -638,6 +656,8 @@ async function creditStarter(env, userId, now) {
 // Google account signing in, but doesn't hold the ID itself. null for an account without one. Share Willo
 // (lib/referrals.js) keys a friend by it too, so a Google account counts as a friend once, ever.
 const salts = new WeakMap();   // env.DB -> the salt, so most checks skip the lookup
+const claimHash = async (salt, googleSub) =>
+  hex(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(`${salt}:${googleSub}`)));
 export async function starterClaim(env, userId) {
   await setupBilling(env);
   const user = await env.DB.prepare("SELECT google_sub FROM users WHERE id = ?").bind(userId).first();
@@ -648,7 +668,7 @@ export async function starterClaim(env, userId) {
       .bind(hex(crypto.getRandomValues(new Uint8Array(32)))).run();
     salts.set(env.DB, (await env.DB.prepare("SELECT salt FROM billing_salt WHERE id = 1").first()).salt);
   }
-  return hex(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(`${salts.get(env.DB)}:${user.google_sub}`)));
+  return claimHash(salts.get(env.DB), user.google_sub);
 }
 
 // The plan an account has right now: {id, name, answersPerDay, answersPerMonth, lookupsPerMonth, costCapMicro (the text
@@ -1467,6 +1487,9 @@ async function storeSubscription(env, userId, subscription, { deduped = false } 
   // For /admin only, so it never fails the webhook.
   try { await logSubscription(env, userId, subscription); }
   catch (e) { console.warn(`billing: plan_log: ${e?.message || e}`); }
+  // A new subscriber's thank-you from Mike, once per account (lib/thanks.js); it never fails the webhook either.
+  if (plan !== "free") await thankSubscriber(env, userId, subscription,
+    { id: plan, name: PLANS[plan].name, picks: voicePicks(env), trial: status === "trialing" });
   return { user: userId, plan, status, ...(next ? { next: next.plan } : {}) };
 }
 
@@ -1667,6 +1690,41 @@ export async function checkPlanLog(env, limit = 10) {
   return done.reduce((a, b) => a + b, 0);
 }
 
+// The beta's free Hero months running at `now`, for subscriptionReport's onPlan: {players, owner}, the accounts that have
+// one and no plan some other way (covered: the ids on a paid plan now), real players and owner or test accounts
+// (excluded_accounts) apart. A free month is a promo_claims row, "free:<the account's one-way Google code>" ("free:user:<id>"
+// without a Google ID) with created = its start (freeHeroMonth), so which account has it is found by coding the ones that
+// could matter (those with a subscription, and the owner ones) the same way (claimHash; read only, and no salt yet means
+// no coded claim yet). planFor gives a free month only while the promo (and BETA_HERO_DAYS after it) runs and the promo's
+// brake hasn't tripped, so the same holds here. A claim that matches none of them is an ordinary player's; it also
+// counts an account deleted during its month (the claim outlives "Delete my account").
+async function freeHeroMonths(env, now, covered) {
+  const at = launchNow(env, now).getTime(), week = launchWindow(env);
+  if (!week || at >= week.end + BETA_HERO_DAYS * DAY_MS || await launchSpend(env, week) >= LAUNCH_WEEK_BRAKE_MICRO)
+    return { players: 0, owner: 0 };
+  const all = async (sql, ...args) => (await env.DB.prepare(sql).bind(...args).all()).results;
+  const claims = (await all("SELECT claim FROM promo_claims WHERE claim LIKE 'free:%' AND created <= ? AND created > ?",
+    iso(at), iso(at - BETA_HERO_DAYS * DAY_MS))).map(r => r.claim);
+  if (!claims.length) return { players: 0, owner: 0 };
+  const [owners, users, salt] = await Promise.all([
+    all("SELECT user_id FROM excluded_accounts WHERE reason != 'counted'"),
+    all("SELECT id, google_sub FROM users WHERE id IN (SELECT user_id FROM excluded_accounts WHERE reason != 'counted') " +
+        "OR id IN (SELECT user_id FROM entitlements WHERE subscription_id IS NOT NULL)"),
+    env.DB.prepare("SELECT salt FROM billing_salt WHERE id = 1").first(),
+  ]);
+  const ownerIds = new Set(owners.map(o => o.user_id)), who = new Map();   // claim -> "covered", "owner" or ""
+  for (const u of users) {
+    const code = !u.google_sub ? `user:${u.id}` : salt ? await claimHash(salt.salt, u.google_sub) : null;
+    if (code) who.set(`free:${code}`, covered.has(u.id) ? "covered" : ownerIds.has(u.id) ? "owner" : "");
+  }
+  const out = { players: 0, owner: 0 };
+  for (const claim of claims) {
+    const kind = who.get(claim);
+    if (kind !== "covered") out[kind === "owner" ? "owner" : "players"]++;
+  }
+  return out;
+}
+
 // Subscriptions for /admin and the daily stats post (LOR-524), one way everywhere: every plan that's on now (paidNow)
 // is one of
 //   paying    a paid plan, active or past due: monthlyUsd (MRR: their plans' list prices, before Stripe's fees; a beta
@@ -1680,6 +1738,12 @@ export async function checkPlanLog(env, limit = 10) {
 // claims the beta promo's offers taken (promo_claims: free, the card-less free Hero month; hero, a Keep Hero trial;
 // half, a 50% first month) and packs finest-voice packs sold (not refunded, owner accounts left out).
 // claims and packs: the same since the start, packs with usd at VOICE_PACK's price.
+// onPlan (Mike, 2026-10-17: count everyone above Adventurer, not only the paying): every account on a plan now, each
+// counted once, whatever got it there: {total, paid (= paying), trial (Keep Hero), freeMonth (the beta's free Hero
+// month, running now), comped (comped and owner plans, and an owner account's free Hero month), byPlan: {hero,
+// champion, legend}, freeUnread}. The free Hero month isn't a subscription but a promo_claims row, which
+// freeHeroMonths reads; one whose account is on a plan some other way (its Keep Hero trial, say) is left out.
+// freeUnread: that read failed, so freeMonth is 0 for now.
 export async function subscriptionReport(env, now = new Date(), days = 30) {
   await setupBilling(env);
   const owner = column => `${column} IN (SELECT user_id FROM excluded_accounts WHERE reason != 'counted')`;
@@ -1687,7 +1751,7 @@ export async function subscriptionReport(env, now = new Date(), days = 30) {
   const all = async (sql, ...args) => (await env.DB.prepare(sql).bind(...args).all()).results;
   const counted = `COALESCE(comp, '') = '' AND NOT ${owner("COALESCE(user_id, '')")}`;
   const [plans, started, cancelled, claims, packs] = await Promise.all([
-    all("SELECT e.plan, e.status, e.current_period_end, p.comp, p.subscription_id IS NOT NULL AND p.comp IS NOT NULL AS checked, " +
+    all("SELECT e.user_id, e.plan, e.status, e.current_period_end, p.comp, p.subscription_id IS NOT NULL AND p.comp IS NOT NULL AS checked, " +
         `${owner("e.user_id")} AS owner FROM entitlements e LEFT JOIN plan_log p ON p.subscription_id = e.subscription_id ` +
         "WHERE e.subscription_id IS NOT NULL"),
     all(`SELECT substr(started, 1, 10) AS day, COUNT(*) AS n FROM plan_log WHERE started >= ? AND ${counted} GROUP BY day`, from),
@@ -1701,8 +1765,10 @@ export async function subscriptionReport(env, now = new Date(), days = 30) {
   const out = { paying: 0, byPlan: byPlan(), trialing: byPlan(), comped: byPlan(), owner: byPlan(), pastDue: 0,
                 unchecked: 0, monthlyUsd: 0, netUsd: 0 };
   let cents = 0, net = 0;
+  const covered = new Set();   // the accounts on a paid plan now, of any kind
   for (const r of plans) {
     if (!paidNow(r, now)) continue;
+    covered.add(r.user_id);
     const kind = r.comp ? "comped" : r.owner ? "owner" : r.status === "trialing" ? "trialing" : "byPlan";
     out[kind][r.plan]++;
     if (kind !== "byPlan") continue;
@@ -1713,6 +1779,15 @@ export async function subscriptionReport(env, now = new Date(), days = 30) {
   }
   out.monthlyUsd = cents / 100;
   out.netUsd = net / 100;
+  const free = await freeHeroMonths(env, now, covered).catch(e => {
+    console.warn(`billing: free Hero months: ${e?.message || e}`);
+    return null;
+  });
+  const sum = counts => Object.values(counts).reduce((a, n) => a + n, 0);
+  const onPlan = Object.fromEntries(PAID.map(id => [id, out.byPlan[id] + out.trialing[id] + out.comped[id] + out.owner[id]]));
+  onPlan.hero += (free?.players || 0) + (free?.owner || 0);
+  out.onPlan = { total: sum(onPlan), paid: out.paying, trial: sum(out.trialing), freeMonth: free?.players || 0,
+                 comped: sum(out.comped) + sum(out.owner) + (free?.owner || 0), byPlan: onPlan, freeUnread: !free };
   const on = (rows, day) => rows.filter(r => r.day === day).reduce((a, r) => a + r.n, 0);
   const kinds = day => Object.fromEntries(["free", "hero", "half"].map(k =>
     [k, claims.filter(c => c.kind === k && (!day || c.day === day)).reduce((a, c) => a + c.n, 0)]));
@@ -1729,8 +1804,9 @@ export async function subscriptionReport(env, now = new Date(), days = 30) {
   return out;
 }
 
-// For the Plans tile: accounts by plan and status, paying players, what they bring in a month (subscriptionReport's
-// paying and monthlyUsd: comped and owner plans left out) and what paying players' live answers cost this month; and
+// For the Plans tile: accounts by plan and status, paying players, everyone on a plan (onPlan), what the paying ones
+// bring in a month (subscriptionReport's paying and monthlyUsd: comped and owner plans left out) and what paying
+// players' live answers cost this month; and
 // finest-voice packs: sold this month, replies bought and still unused, and what their replies cost this month.
 // subscriptions: subscriptionReport's whole report, for Willo's panel (lib/willo-stats.js).
 export async function billingReport(env, now = new Date()) {
@@ -1753,7 +1829,7 @@ export async function billingReport(env, now = new Date()) {
   }
   const apart = kind => Object.values(subscriptions[kind]).reduce((a, n) => a + n, 0);
   return { on: billingOn(env), paying: subscriptions.paying, comped: apart("comped"), owner: apart("owner"),
-           trialing: apart("trialing"), counts: Object.values(counts), monthlyUsd: subscriptions.monthlyUsd,
+           trialing: apart("trialing"), onPlan: subscriptions.onPlan, counts: Object.values(counts), monthlyUsd: subscriptions.monthlyUsd,
            spend: { usd: (spend?.micro || 0) / 1e6, players: spend?.players || 0, calls: spend?.calls || 0 },
            voicePacks: { sold: packs?.sold || 0, unused: packs?.unused || 0, usd: (spend?.topup_micro || 0) / 1e6 },
            subscriptions };

@@ -4,6 +4,7 @@
 import { mergeContacts } from "/admin-contacts.js";
 import { loadCreators } from "/admin-creators.js?v=20261016";
 import { funnelStages } from "/admin-funnel.js";
+import { costsView, dollars, KIND_WORDS } from "/admin-costs.js";
 
 const KINDS = { lore: "Wrong or missing lore", bug: "Bug", idea: "Idea or zone request", review: "Review" };
 const $ = id => document.getElementById(id);
@@ -12,18 +13,10 @@ let fbStatus = "new";
 let voStatus = "new";
 let trStatus = "new";
 
-// The key lives in sessionStorage, or localStorage when "Remember" is ticked. Best effort: storage can be blocked.
-function store(remember) { try { return remember ? localStorage : sessionStorage; } catch (e) { return null; } }
-function getKey() {
-  try { return sessionStorage.getItem("lf-admin") || localStorage.getItem("lf-admin"); } catch (e) { return null; }
-}
-let memoryKey = null;   // used when storage is blocked
-function setKey(key, remember) {
-  memoryKey = key;
-  try { sessionStorage.removeItem("lf-admin"); localStorage.removeItem("lf-admin"); } catch (e) {}
-  if (key) try { store(remember).setItem("lf-admin", key); } catch (e) {}
-}
-const key = () => memoryKey || getKey();
+// The admin key, sign-in, Sign out, Refresh and the tabs' frame are admin-shell.js's (window.lfAdmin), shared with
+// /admin/voices and /admin/edits.
+const key = () => lfAdmin.key();
+const signOut = message => lfAdmin.signOut(message);
 
 async function api(method, body) {
   const r = await fetch("/api/admin", {
@@ -37,14 +30,6 @@ async function api(method, body) {
   return res;
 }
 
-function signOut(message) {
-  setKey(null);
-  $("dash").hidden = true;
-  $("login").hidden = false;
-  $("login-error").textContent = message || "";
-  $("login-error").hidden = !message;
-}
-
 async function load() {
   $("refresh").disabled = true;
   try {
@@ -53,9 +38,10 @@ async function load() {
     $("dash").hidden = false;
     render();
     loadEdits();                 // its gold badge counts toward Community's
+    loadCosts();
     clipsLoaded = false;         // the clip reports load when Community opens
     route();
-    $("updated").textContent = "Updated " + new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+    lfAdmin.updated();
   } catch (e) {
     if (e.message !== "unauthorized") alert("Couldn't load the dashboard: " + e.message);
   }
@@ -206,7 +192,7 @@ function renderOverview() {
   const w = data.willo?.summary, ws = data.willo?.subscriptions;
   $("o-willo").textContent = w ? n0(w.wau.day) : "-";
   $("o-willo-sub").textContent = w ? `asked her in the 7 days to ${fmtDay(w.day)} · ${n0(w.dau.day)} that day · ` +
-    `${n0(w.downloads.total)} downloads` + (ws ? ` · ${n0(ws.paying)} paying` : "") : "no Willo numbers yet";
+    `${n0(w.downloads.total)} downloads` + (ws ? ` · ${n0(ws.paying)} paying` + (ws.onPlan ? ` · ${n0(ws.onPlan.total)} on a plan` : "") : "") : "no Willo numbers yet";
   const open = list => (list || []).filter(x => x.status !== "done").length;
   const fb = open(data.feedback), tr = open(data.translations) + open(data.translationReports), vo = open(data.voices);
   $("o-open").textContent = n0(fb + tr + vo);
@@ -537,6 +523,16 @@ function renderWilloStats() {
       `($${subs.netUsd.toFixed(2)} after Stripe's fees)` + (trials ? ` · ${plural(trials, "trial")}` : "") +
       (apart ? ` · ${n0(apart)} comped or yours, not counted` : "") + (subs.pastDue ? ` · ${n0(subs.pastDue)} past due` : "") +
       (subs.unchecked ? ` · ${n0(subs.unchecked)} not checked for coupons yet` : "");
+    // Everyone above Adventurer, each once (subscriptionReport onPlan): paid or not, trial, free Hero month, comped or yours.
+    const op = subs.onPlan;
+    if (op) {
+      $("w-plan").textContent = n0(op.total);
+      $("w-plan-sub").replaceChildren(
+        `${n0(op.paid)} paid · ${n0(op.trial)} trial · ${n0(op.freeMonth)} free Hero month · ${n0(op.comped)} comped`,
+        document.createElement("br"),
+        Object.entries(PLAN_NAMES).map(([id, name]) => `${name} ${n0(op.byPlan[id])}`).join(" · ") +
+          (op.freeUnread ? " · free Hero months not counted: couldn't read them" : ""));
+    }
     const c = subs.claims;
     $("w-claims").textContent = n0(c.free + c.hero + c.half);
     $("w-claims-sub").textContent = `${plural(c.free, "free Hero month")} · ${plural(c.hero, "Keep Hero trial")} · ` +
@@ -551,7 +547,8 @@ function renderWilloStats() {
     "per account from Oct 15, so the days before show only each account's latest day. Running: installs that sent " +
     "Willo's daily check-in, with or without an account. Downloads: /download/willo on this site. Paying leaves out " +
     "comped plans (the owner coupon) and your own accounts; the monthly figure is full price, so a 50% first month " +
-    "counts at what it renews at.";
+    "counts at what it renews at. On a plan counts every account above Adventurer once, however it got there: paid, " +
+    "a Keep Hero trial, the beta's free Hero month while it runs, comped or yours.";
   const byDay = Object.fromEntries((subs?.days || []).map(d => [d.day, d]));
   $("w-days").replaceChildren(...w.days.slice(-14).reverse().map(d => {
     const b = byDay[d.day], cl = b?.claims;
@@ -774,6 +771,23 @@ function rateBar(done, started) {
   return el("span", { class: "ad-rate" }, el("span", { text: pct(done, started) }), bar);
 }
 
+// A report's close buttons (LOR-621): Fixed, or Keep as is with why (the sender reads it on My contributions); Reopen.
+function resolveButtons(done, send) {
+  if (done) {
+    const b = el("button", { type: "button", class: "ad-link", text: "Reopen" });
+    b.addEventListener("click", () => send("new", null, null));
+    return b;
+  }
+  const fixed = el("button", { type: "button", class: "ad-link", text: "Fixed" });
+  fixed.addEventListener("click", () => send("done", "fixed", null));
+  const kept = el("button", { type: "button", class: "ad-link", text: "Keep as is…" });
+  kept.addEventListener("click", () => {
+    const why = prompt("Why does it stay as it is? The sender reads this.", "");
+    if (why !== null) send("done", "kept", why);
+  });
+  return el("span", {}, fixed, " ", kept);
+}
+
 function renderFeedback() {
   const kind = $("kind").value;
   const list = data.feedback.filter(f =>
@@ -783,8 +797,8 @@ function renderFeedback() {
   if (!list.length) { box.replaceChildren(el("p", { class: "ad-empty", text: "Nothing here." })); return; }
   box.replaceChildren(...list.map(f => {
     const done = f.status === "done";
-    const toggle = el("button", { type: "button", class: "ad-link", text: done ? "Reopen" : "Mark done" });
-    toggle.addEventListener("click", () => act({ action: "status", id: f.id, status: done ? "new" : "done" }, () => f.status = done ? "new" : "done"));
+    const toggle = resolveButtons(done, (status, resolution, reason) => act({ action: "status", id: f.id, status, resolution, reason },
+      () => Object.assign(f, { status, resolution, reason })));
     const del = el("button", { type: "button", class: "ad-link ad-danger", text: "Delete" });
     del.addEventListener("click", () => {
       if (confirm("Delete report #" + f.id + " for good?")) act({ action: "delete-feedback", id: f.id }, () => data.feedback = data.feedback.filter(x => x !== f));
@@ -800,7 +814,7 @@ function renderFeedback() {
         f.code ? el("span", {}, "Code ", el("code", { text: f.code })) : null,
         f.name ? el("span", { text: f.name + (f.quote_ok ? " (OK to quote)" : "") }) : f.quote_ok ? el("span", { text: "OK to quote" }) : null,
         f.email ? el("a", { href: "mailto:" + encodeURIComponent(f.email).replace("%40", "@"), text: f.email }) : null,
-        el("span", { class: "ad-actions" }, toggle, del)));
+        el("span", { class: "ad-actions" }, toggle, reject, del)));
   }));
 }
 
@@ -808,14 +822,21 @@ function renderFeedback() {
 const safeLink = url => /^https:\/\//i.test(url || "") ? el("a", { href: url, target: "_blank", rel: "noopener noreferrer", text: url }) : el("span", { text: url || "" });
 
 function renderVoices() {
-  const list = (data.voices || []).filter(v => voStatus === "all" || (voStatus === "done" ? v.status === "done" : v.status !== "done"));
+  const list = (data.voices || []).filter(v => voStatus === "all" || (voStatus === "done" ? v.status !== "new" : v.status === "new"));
   $("vo-count").textContent = list.length + (list.length === 1 ? " submission" : " submissions");
   const box = $("vo-list");
   if (!list.length) { box.replaceChildren(el("p", { class: "ad-empty", text: "Nothing here." })); return; }
   box.replaceChildren(...list.map(v => {
-    const done = v.status === "done";
+    const done = v.status !== "new";
     const toggle = el("button", { type: "button", class: "ad-link", text: done ? "Reopen" : "Mark done" });
     toggle.addEventListener("click", () => act({ action: "voice-status", id: v.id, status: done ? "new" : "done" }, () => v.status = done ? "new" : "done"));
+    // Not used (LOR-621): the narrator reads the reason on the upload page and My contributions.
+    const reject = done ? null : el("button", { type: "button", class: "ad-link ad-danger", text: "Not used…" });
+    reject?.addEventListener("click", () => {
+      const reason = prompt("Why isn't it used? The narrator reads this.", "");
+      if (reason === null) return;
+      act({ action: "voice-status", id: v.id, status: "rejected", reason }, () => { v.status = "rejected"; v.reason = reason; });
+    });
     const del = el("button", { type: "button", class: "ad-link ad-danger", text: "Delete" });
     del.addEventListener("click", () => {
       if (confirm("Delete voice submission #" + v.id + " for good? This also removes the record of their agreement.")) {
@@ -830,6 +851,7 @@ function renderVoices() {
       el("p", { class: "ad-msg" }, el("strong", { text: "Recordings: " }), safeLink(v.link)),
       el("p", { class: "ad-msg" }, el("strong", { text: "Clips: " }), v.clips),
       v.note ? el("p", { class: "ad-msg" }, el("strong", { text: "Note: " }), v.note) : null,
+      v.status === "rejected" ? el("p", { class: "ad-msg" }, el("strong", { text: "Not used: " }), v.reason || "(no reason)") : null,
       el("div", { class: "ad-report-foot" },
         v.email ? el("a", { href: "mailto:" + encodeURIComponent(v.email).replace("%40", "@"), text: v.email }) : null,
         v.discord ? el("span", { text: "Discord: " + v.discord }) : null,
@@ -854,8 +876,11 @@ function renderTranslations() {
     const done = t.status === "done";
     const report = t.kind === "translation-report";
     const source = report ? "translationReports" : "translations";
-    const toggle = el("button", { type: "button", class: "ad-link", text: done ? "Reopen" : "Mark done" });
-    toggle.addEventListener("click", () => act({ action: "status-" + t.kind, id: t.id, status: done ? "new" : "done" },
+    const toggle = report
+      ? resolveButtons(done, (status, resolution, reason) => act({ action: "status-" + t.kind, id: t.id, status, resolution, reason },
+        () => Object.assign(data[source].find(x => x.id === t.id), { status, resolution, reason })))
+      : el("button", { type: "button", class: "ad-link", text: done ? "Reopen" : "Mark done" });
+    if (!report) toggle.addEventListener("click", () => act({ action: "status-" + t.kind, id: t.id, status: done ? "new" : "done" },
       () => data[source].find(x => x.id === t.id).status = done ? "new" : "done"));
     const del = el("button", { type: "button", class: "ad-link ad-danger", text: "Delete" });
     del.addEventListener("click", () => {
@@ -887,7 +912,7 @@ function renderTranslations() {
 }
 
 // ---- shared Forever text (LOR-236): counts by status and the latest uploads ----
-const CB_STATUS = ["single", "verified", "conflict", "flagged", "rejected", "shipped"];
+const CB_STATUS = ["single", "verified", "conflict", "flagged", "unused", "rejected", "shipped"];
 function renderContributions() {
   const c = data.contributions || { counts: {}, accepted: 0, batches: [] };
   const total = CB_STATUS.reduce((a, s) => a + (c.counts[s] || 0), 0);
@@ -896,6 +921,7 @@ function renderContributions() {
       + ` · ${c.accepted.toLocaleString()} accepted (verified, or single for 48 hours)`
     : "Nothing shared yet.";
   badge("n-contrib", total);
+  renderConflicts(c.conflicts || []);
   const box = $("cb-list");
   if (!c.batches.length) { box.replaceChildren(el("tr", {}, el("td", { colspan: "8", class: "ad-empty", text: "No uploads yet." }))); return; }
   box.replaceChildren(...c.batches.map(b => {
@@ -916,6 +942,38 @@ function renderContributions() {
   }));
 }
 
+// Parts in conflict (LOR-621): each text sent for one part, with Use this / Don't use / Undo.
+const CB_PART = { detail: "quest text", objectives: "objectives", progress: "progress", complete: "completion", title: "title" };
+function renderConflicts(groups) {
+  $("cb-conflicts-head").hidden = !groups.length;
+  $("cb-conflicts").replaceChildren(...groups.map(g => {
+    const where = g.kind === "quest" ? `Quest ${g.ref_id} · ${CB_PART[g.part] || g.part}`
+      : g.kind === "book" ? `${g.ref_id} · page ${g.part}`
+      : `${g.kind} · ${g.ref_id.startsWith("n:") ? g.ref_id.slice(2) : g.speaker || "NPC " + g.ref_id}`;
+    return el("article", { class: "ad-report" },
+      el("div", { class: "ad-report-head" }, el("span", { class: "ad-kind", text: where }),
+        el("span", { text: g.locale + (g.game_differs ? " · the game's own text differs from all of these" : "") })),
+      ...g.lines.map(l => {
+        const pick = (p, text, cls = "ad-link") => {
+          const b = el("button", { type: "button", class: cls, text });
+          b.addEventListener("click", () => {
+            const reason = p === "skip" ? prompt("Why isn't it used? The sender reads it (optional).", "") : null;
+            if (p === "skip" && reason === null) return;
+            act({ action: "contrib-pick", id: l.id, pick: p, ...(reason ? { reason } : {}) }, () => load());
+          });
+          return b;
+        };
+        return el("p", { class: "ad-msg" + (l.status === "unused" ? " done" : "") },
+          el("strong", { text: `${l.status} · ${l.uploaders} sender${l.uploaders === 1 ? "" : "s"}${l.player ? " · " + l.player : ""}: ` }),
+          l.text, " ",
+          el("span", { class: "ad-actions" },
+            l.picked ? pick("reset", "Undo") : null,
+            l.picked !== 1 ? pick("use", "Use this") : null,
+            l.picked !== -1 ? pick("skip", "Don't use", "ad-link ad-danger") : null));
+      }));
+  }));
+}
+
 // ---- translation edits: counts per language here; the edits themselves are on /admin/edits ----
 async function loadEdits() {
   const box = $("ed-list");
@@ -930,6 +988,7 @@ async function loadEdits() {
   }
   const sum = k => res.locales.reduce((a, l) => a + l[k], 0);
   badge("n-edits", sum("saved"));   // gold: saved edits waiting for a pull
+  communityBadge();
   const people = res.translators.length;
   $("ed-count").textContent = res.locales.length
     ? `${sum("saved").toLocaleString()} saved · ${sum("pulled").toLocaleString()} pulled · ${sum("rejected").toLocaleString()} rejected` +
@@ -1197,8 +1256,88 @@ async function act(body, onDone) {
   catch (e) { if (e.message !== "unauthorized") alert("That didn't work: " + e.message); }
 }
 
+// ---- costs (lib/costs.js, admin-costs.js): the snapshot Operations posted; GET /api/admin/costs ----
+async function loadCosts() {
+  const tiles = $("costs-tiles");
+  try {
+    const r = await fetch("/api/admin/costs", { cache: "no-store", headers: { Authorization: "Bearer " + key() } });
+    if (r.status === 401) { signOut("That key didn't work."); return; }
+    const res = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(res.error || "Request failed (" + r.status + ")");
+    if (!res.snapshot) {
+      tiles.replaceChildren();
+      $("costs-rows").replaceChildren();
+      $("costs-unchecked-list").replaceChildren();
+      $("costs-empty").textContent = "No cost snapshot has been posted yet.";
+      $("costs-empty").hidden = false;
+      $("o-costs").textContent = "-";
+      $("o-costs-sub").textContent = "no snapshot yet";
+      return;
+    }
+    renderCosts(costsView(res.snapshot), res.kept);
+  } catch (e) {
+    tiles.replaceChildren();
+    $("costs-empty").textContent = "Couldn't load the costs: " + e.message;
+    $("costs-empty").hidden = false;
+  }
+}
+const SEVERITY_WORDS = { good: "On track", warn: "Watch this", crit: "Act on this" };
+function costTile(label, severity, ...kids) {
+  return el("div", { class: "ad-panel ad-tile" + (severity ? " ad-" + severity : "") },
+    el("div", { class: "ad-label", text: label }), ...kids);
+}
+function renderCosts(v, kept) {
+  $("costs-empty").hidden = true;
+  const rev = v.revenue;
+  $("costs-tiles").replaceChildren(
+    costTile("Estimated this month", v.budgetState.severity,
+      el("div", { class: "ad-num", text: dollars(v.estimate) }),
+      el("div", { class: "ad-sub", text: dollars(v.monthToDate) + " so far" })),
+    costTile("Budget " + dollars(v.budget) + " a month", v.budgetState.severity,
+      el("div", { class: "ad-num", text: pctOf(v.estimate, v.budget) }),
+      el("span", { class: "ad-state", text: v.budgetState.words }),
+      el("div", { class: "ad-sub", text: "of the budget, at this month's pace" })),
+    costTile("Money in so far", rev ? "" : null,
+      el("div", { class: "ad-num", text: rev ? dollars(rev.net, true) : "-" }),
+      el("div", { class: "ad-sub", text: rev ? dollars(rev.gross, true) + " gross, " + dollars(rev.fees, true) + " fees, net after fees" : "not reported" }),
+      rev?.note ? el("div", { class: "ad-sub", text: rev.note }) : null),
+    costTile("Needs attention", v.attention.severity,
+      el("div", { class: "ad-num ad-words", text: v.attention.title }),
+      el("span", { class: "ad-state", text: SEVERITY_WORDS[v.attention.severity] }),
+      el("div", { class: "ad-sub", text: v.attention.detail })));
+
+  $("costs-rows").replaceChildren(...v.services.map(s => el("tr", {},
+    el("td", {}, el("strong", { text: s.name }), s.use ? el("span", { class: "ad-sub", text: s.use }) : null),
+    el("td", { "data-label": "Kind", text: KIND_WORDS[s.kind] || s.kind }),
+    el("td", { class: "ad-money", "data-label": "So far", text: dollars(s.month_to_date) }),
+    el("td", { class: "ad-money", "data-label": "Month", text: dollars(s.monthly_estimate) }),
+    el("td", { class: "ad-share", "data-label": "Share" }, el("div", { class: "ad-rate" },
+      el("span", { text: Math.round(s.share * 100) + "%" }),
+      el("div", { class: "ad-rate-bar" }, el("span", { style: "width:" + Math.max(s.share > 0 ? 2 : 0, s.share * 100) + "%" })))),
+    el("td", { class: "ad-money", "data-label": "Balance or cap" }, ...balanceOrCap(s)),
+    el("td", { "data-label": "Renews", text: s.renews || "" }),
+    el("td", { class: "ad-note", text: s.note || "" }))));
+
+  const none = !v.notChecked.length;
+  $("costs-unchecked-list").replaceChildren(...v.notChecked.map(t => el("li", { text: t })));
+  $("costs-unchecked-list").hidden = none;
+  $("costs-foot").textContent = (none ? "Every service has been checked. " : "") +
+    "Figures as of " + fmtDay(v.takenAt.slice(0, 10)) + " · " + kept + (kept === 1 ? " snapshot" : " snapshots") + " kept.";
+
+  $("o-costs").textContent = dollars(v.estimate);
+  $("o-costs-sub").textContent = v.budgetState.words + " (" + dollars(v.budget) + ")";
+  $("o-costs-tile").className = "ad-panel ad-tile ad-" + v.budgetState.severity;
+}
+const pctOf = (n, of) => of ? Math.round(n / of * 100) + "%" : "-";
+function balanceOrCap(s) {
+  const out = [];
+  if (s.balance != null) out.push(el("div", { text: dollars(s.balance) + " left" + (s.runway != null && s.runway < 30 ? " (~" + Math.floor(s.runway) + " days)" : "") }));
+  if (s.cap != null) out.push(el("div", { text: "cap " + dollars(s.cap) + (s.capUsed != null ? ", " + Math.round(s.capUsed * 100) + "% used" : "") }));
+  return out.length ? out : [""];
+}
+
 // ---- tabs: one shown at a time, chosen by the address's # (so /admin#growth or /admin#contacts links straight there) ----
-const TABS = ["overview", "growth", "players", "community"];
+const TABS = ["overview", "growth", "players", "costs", "community"];
 const SECTION_TAB = { funnel: "growth", curseforge: "growth", "willo-stats": "growth", downloads: "growth", companions: "growth",
                       profiles: "players", signins: "players", features: "players", usage: "players" };
 const SUBS = ["feedback", "voices", "willo", "clip-reports", "translations", "edits", "contributions", "contacts", "creators"];
@@ -1208,30 +1347,22 @@ function route() {
   const tab = TABS.includes(id) ? id : SECTION_TAB[id] || (SUBS.includes(id) ? "community" : "overview");
   if (SUBS.includes(id)) sub = id;
   document.querySelectorAll(".ad-tab").forEach(t => { t.hidden = t.dataset.tab !== tab; });
-  document.querySelectorAll("#nav a").forEach(a => a.setAttribute("aria-current", a.dataset.tab === tab));
   document.querySelectorAll(".ad-sub-tab").forEach(s => { s.hidden = s.dataset.sub !== sub; });
   document.querySelectorAll("#subnav a").forEach(a => a.setAttribute("aria-current", a.dataset.sub === sub));
+  // The tab, breadcrumb, heading and window title (admin-shell.js): "Dashboard › Community › Feedback".
+  const label = a => a.firstChild.textContent.trim();
+  const tabLink = $("nav").querySelector(`a[data-tab="${tab}"]`), subLink = $("subnav").querySelector(`a[data-sub="${sub}"]`);
+  lfAdmin.current(tab, tab === "community" ? [[label(tabLink), "#community"], [label(subLink)]] : [[label(tabLink)]]);
   // The clip reports come from their own endpoint: only once Community is opened.
   if (tab === "community" && data && !clipsLoaded) { clipsLoaded = true; loadClipReports(); loadWillo(); }
   // Creators (admin-creators.js) the same way, once their tab is opened.
   if (tab === "community" && sub === "creators" && data && !creatorsLoaded) { creatorsLoaded = true; loadCreators(key); }
   if (SECTION_TAB[id]) $(id).scrollIntoView(); else scrollTo(0, 0);
-  // On a narrow screen the bar scrolls sideways: keep the chosen tab in view (sideways only).
-  const nav = $("nav"), current = nav.querySelector(`a[data-tab="${tab}"]`);
-  const left = current.offsetLeft - nav.offsetLeft, right = left + current.offsetWidth;
-  if (left < nav.scrollLeft || right > nav.scrollLeft + nav.clientWidth) nav.scrollLeft = left - 16;
 }
 addEventListener("hashchange", route);
+route();   // the tab shows in the frame before the numbers arrive
 
 // ---- wiring ----
-$("login-form").addEventListener("submit", e => {
-  e.preventDefault();
-  setKey($("key").value.trim(), $("remember").checked);
-  $("key").value = "";
-  load();
-});
-$("signout").addEventListener("click", () => signOut());
-$("refresh").addEventListener("click", load);
 $("kind").addEventListener("change", renderFeedback);
 document.querySelectorAll("[data-status]").forEach(b => b.addEventListener("click", () => {
   fbStatus = b.dataset.status;
@@ -1275,4 +1406,4 @@ $("ccsv").addEventListener("click", () => downloadCsv("contacts",
      linkHosts(u).join(" "), u.voices, u.languages, u.takes, u.edits, u.feedback, u.created, c.created];
    })]));
 
-if (key()) load(); else signOut();
+lfAdmin.start(load);

@@ -546,7 +546,10 @@ function voiceBarHtml(v, lang) {
   const voiceSelect = st.voices.length > 1
     ? `<select id="st-voice" aria-label="Voice">${st.voices.map(x => `<option value="${esc(x.id)}"${x.id === v.id ? " selected" : ""}>${esc(x.name)}</option>`).join("")}</select>`
     : `<strong>${esc(v.name)}</strong>`;
+  // What became of the last send (LOR-621): waiting, reviewed, or not used and why (then it's a draft to send again).
   const status = v.published ? ` · published: <a href="/voices/${encodeURIComponent(v.id)}">see its page</a>`
+    : v.review?.status === "rejected" ? ` · not used${v.review.reason ? `: ${esc(v.review.reason)}` : ""}. Fix it and send it again`
+    : v.status === "pending" && v.review?.status === "done" ? " · reviewed: we're building your pack"
     : v.status === "pending" ? " · sent for review" : "";
   return `<div class="st-voicebar">
       <span>Voice: ${renaming ? `<input id="st-rename" maxlength="60" value="${esc(v.name)}" aria-label="Voice name"> <button class="st-b" type="button" id="st-rename-save">Save</button>` : voiceSelect}</span>
@@ -713,8 +716,8 @@ function sendHtml(done, total, counts) {
       to every line, build your pack, and list it on the Voices page with your name on it.</p>
     <p><a class="btn-small" href="${esc(signInHref())}">Sign in to start</a></p></section>`;
   if (sent) return `<section class="st-send" id="st-send"><h2>Sent for review</h2>
-    <p>Thanks! We'll listen to your ${lines_(sent)}, build your pack and get back to you by email. You can keep uploading;
-      send again when you've added more.</p><button class="st-b" type="button" id="st-send-again">Send again</button></section>`;
+    <p>Thanks! We'll listen to your ${lines_(sent)} and build your pack. Questions are welcome on
+      <a href="/discord?src=studio">Discord</a>. You can keep uploading; send again when you've added more.</p><button class="st-b" type="button" id="st-send-again">Send again</button></section>`;
   return `<section class="st-send" id="st-send"><h2>Send for review</h2>
     <ul><li><strong>${lines_(done)}</strong> uploaded. The other ${total - done} play in the default voice.</li>
       ${counts.warn ? `<li>${lines_(counts.warn)} need${counts.warn === 1 ? "s" : ""} a look. You can send them anyway; we'll tell you if one won't work.</li>` : ""}

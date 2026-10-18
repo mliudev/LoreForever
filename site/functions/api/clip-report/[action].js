@@ -4,11 +4,14 @@
 //   GET  /api/clip-report/export[?status=open|all|done|kept|rejected][&since=<id>]   admin key: every field
 //   POST /api/clip-report/resolve  {ids: [...], status: "done" | "kept" | "open"}    admin key (lore.clipreports done)
 //   POST /api/clip-report/reject   {uploader, restore?: true}   admin key: spam; restore brings them back (/admin)
+//   POST /api/clip-report/shipped  {release, before}   admin key: reports on our voices recorded again before that
+//                                  release's commit say "Fixed in <release>" (lore.clipreports shipped, LOR-621)
 // The admin key is the one /api/admin takes (lib/auth.js: Authorization: Bearer <ADMIN_KEY or FEEDBACK_KEY>).
 
 import { authorized } from "../../../lib/auth.js";
 import { noStore } from "../../../lib/accounts.js";
-import { openCounts, exportReports, resolveReports, rejectUploader, fail, STATUSES } from "../../../lib/clipreports.js";
+import { openCounts, exportReports, resolveReports, rejectUploader, shipReports, communityPacks, fail, STATUSES }
+  from "../../../lib/clipreports.js";
 import { CLIP_ID, normalizeVoice } from "../../../public/clip-report-code.js";
 
 const ADMIN = { ...noStore, "X-Robots-Tag": "noindex" };
@@ -31,7 +34,7 @@ export async function onRequest({ request, env, params }) {
   if (action === "counts") {
     return request.method === "GET" ? counts(request, env) : fail(405, "Use GET.");
   }
-  if (!["export", "resolve", "reject"].includes(action)) return fail(404, "No such action.");
+  if (!["export", "resolve", "reject", "shipped"].includes(action)) return fail(404, "No such action.");
   if (!(await authorized(request, env))) return Response.json({ ok: false, error: "Needs the admin key." }, { status: 401, headers: ADMIN });
   if (!env.DB) return Response.json({ ok: false, error: "No D1 database bound as DB" }, { status: 503, headers: ADMIN });
 
@@ -47,6 +50,13 @@ export async function onRequest({ request, env, params }) {
   if (request.method !== "POST") return fail(405, "Use POST.");
   let body;
   try { body = await request.json(); } catch (e) { return fail(400, "Expected JSON."); }
+  if (action === "shipped") {
+    const release = String(body.release || "");
+    if (!/^\d{1,3}\.\d{1,3}\.\d{1,4}$/.test(release)) return fail(400, "release: like 0.21.0.");
+    if (Number.isNaN(Date.parse(String(body.before || "")))) return fail(400, "before: the release commit's time.");
+    const packs = [...(await communityPacks(env, request)).keys()];
+    return Response.json({ ok: true, shipped: await shipReports(env, release, String(body.before), packs) }, { headers: ADMIN });
+  }
   if (action === "resolve") {
     if (!["done", "kept", "open"].includes(body.status)) return fail(400, "status: done, kept or open.");
     const changed = await resolveReports(env, body.ids, body.status);

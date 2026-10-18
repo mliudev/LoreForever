@@ -1,0 +1,101 @@
+{
+ "key": "quest:92683",
+ "type": "quest",
+ "name": "Flutterfly Dust",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92683
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "what is flutterfly dust",
+    "flutterfly dust use",
+    "what is the dust for"
+   ],
+   "answer": "According to the local resident gathering it, the wing dust dropped by giant flutterflies has practical household applications when collected in sufficient quantities. However, the exact purpose remains deliberately vague, as the quest giver deflects questions with claims that it is for general 'stuff and things.'",
+   "q": "What is flutterfly dust used for?"
+  },
+  {
+   "aliases": [
+    "where are flutterflies",
+    "flutterfly location",
+    "gustberry lowlands bugs"
+   ],
+   "answer": "Giant flutterflies can be found fluttering across the outer fields near the local orchard, particularly roaming the Gustberry Lowlands. They share these fields with nearby bandit threats that make gathering dangerous for isolated residents.",
+   "q": "Where are flutterflies found?"
+  },
+  {
+   "aliases": [
+    "are flutterflies dangerous",
+    "do flutterflies attack",
+    "flutterfly behavior"
+   ],
+   "answer": "Flutterflies are generally docile, calm creatures that usually flee when disturbed. However, if swatted or provoked, some will take offense and surprise adventurers by defending themselves before releasing their wing dust.",
+   "q": "Are flutterflies aggressive?"
+  },
+  {
+   "aliases": [
+    "how to get dust",
+    "flutterfly swatter",
+    "collect flutterfly dust"
+   ],
+   "answer": "Adventurers use a specialized Flutterfly Swatter to deliver a firm swat to the oversized insects. The startled or agitated creatures shake their rumps as they react, scattering a gatherable pile of wing dust onto the ground.",
+   "q": "How is flutterfly dust collected?"
+  },
+  {
+   "aliases": [
+    "why need help",
+    "bandit threat gustberry",
+    "why quest giver asks"
+   ],
+   "answer": "The homestead resident who needs the dust lives alone and cannot easily leave the house to harvest it, as bandits lurking throughout the surrounding lowlands pose too severe a threat to risk venturing far into the fields.",
+   "q": "Why does the resident need someone else to gather the dust?"
+  },
+  {
+   "aliases": [
+    "why so secret",
+    "secret dust recipe"
+   ],
+   "answer": "The quest giver refuses to divulge the exact household use for the messy dust, nervously waving off inquiries with 'things and stuff.' Whether it is an embarrassing personal chore, an unorthodox craft, or simply private business remains unexplained.",
+   "q": "Why is the resident evasive about the dust's true purpose?"
+  }
+ ],
+ "keywords": [
+  "bandits",
+  "flutterfly",
+  "flutterfly dust",
+  "flutterfly swatter",
+  "gustberry lowlands",
+  "orchard",
+  "wing dust"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "The outer fields and orchards of the Gustberry Lowlands are home to giant flutterflies, picturesque winged insects that drift lazily through the rural landscape. While their gentle appearance lends a pastoral charm to the area, their fluttering wings shed a fine, pervasive dust that can be gathered in bulk. Though primarily wild insects, their presence draws the attention of nearby homesteaders who seek to harvest this airborne byproduct for practical domestic needs.",
+   "spoiler": 0,
+   "title": "The Giants of Gustberry"
+  },
+  {
+   "body": "Harvesting flutterfly dust requires a surprisingly blunt approach: striking the large insects with a Flutterfly Swatter. Most flutterflies simply panic and take to the air when struck, shaking their rumps and dropping piles of loose powder behind them. Occasionally, however, an agitated flutterfly will turn and strike back when provoked, proving that even docile garden bugs have their limits when swatted.",
+   "spoiler": 0,
+   "title": "Swatters and Shakes"
+  },
+  {
+   "body": "Collecting the dust is a messy, clinging endeavor that tends to coat clothing and gear for weeks. While the local requester eagerly awaits the delivery due to lurking bandits making solo trips into the fields too dangerous, the final destination of the dust is kept tightly under wraps. Pressed on how it will be used, the homesteader only offers evasive dismissals about general 'stuff and things.'",
+   "spoiler": 0,
+   "title": "Unspoken Applications"
+  }
+ ],
+ "summary": "Flutterfly Dust is a local task in the Gustberry Lowlands involving the harvesting of powder from giant, winged flutterflies. While the insects are usually docile, isolated homesteaders rely on travelers to gather the messy substance due to the constant threat of roving bandits.",
+ "attribution": [
+  "In-game quest text: Flutterfly Dust"
+ ]
+}

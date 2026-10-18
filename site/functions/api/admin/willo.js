@@ -11,6 +11,8 @@
 //                           review found sources) or "players" (2+ independent players said the same)
 //                          {"action": "fact-remove", "id": "<fact id>"}   out of answers (kept as the record)
 //                          {"action": "friend-report-done", "id": 3}   a friend report looked at (lib/friends.js)
+//                          {"action": "answer-log-rescrub", "dry_run"?}   the kept answers scrubbed of names again
+//                           (lib/answer-log.js rescrubAnswerLog): counts and the changed row ids, never their text
 // The GET also has friendReports: reports on players in Willo's friends, not looked at yet (lib/friends.js openReports).
 // The nightly review (scheduled task "nightly-willo-feedback") uses the same calls as /admin.
 // Same key as /api/admin ("Authorization: Bearer <key>"), and a browser must send it from our own pages (Origin).
@@ -18,7 +20,7 @@
 import { authorized } from "../../../lib/auth.js";
 import { sameOrigin } from "../../../lib/accounts.js";
 import { feedbackReport, setFeedbackStatus } from "../../../lib/answer-feedback.js";
-import { answerLogReport } from "../../../lib/answer-log.js";
+import { answerLogReport, rescrubAnswerLog } from "../../../lib/answer-log.js";
 import { addFact, removeFact, listFacts } from "../../../lib/forever-knowledge.js";
 import { openReports, closeReport } from "../../../lib/friends.js";
 
@@ -64,5 +66,6 @@ export async function onRequestPost({ request, env }) {
     return json({ ok: true, id: factId });
   }
   if (body.action === "fact-remove") return json({ ok: await removeFact(env, body.id) });
+  if (body.action === "answer-log-rescrub") return json({ ok: true, ...await rescrubAnswerLog(env, { dryRun: body.dry_run === true }) });
   return json({ ok: false, error: "Unknown action." }, 400);
 }

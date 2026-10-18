@@ -507,6 +507,16 @@ do
   end
 end
 
+-- The character's guild, for Willo's friends (LOR-511: friends in the same guild; Willo sends it only while the player
+-- shares where they are). Right after login the game may not know it yet: keep the saved one until it does, and drop
+-- it only once the game says the character is in no guild.
+local function noteGuild(c)
+  if not c then return end
+  local name = try(GetGuildInfo, "player")
+  if type(name) == "string" and name ~= "" then c.guild = name
+  elseif try(IsInGuild) == false then c.guild = nil end
+end
+
 -- Create or update this character's record (the sheet and the server's completed list).
 local function open()
   local j = LoreForeverDB.journey
@@ -523,6 +533,7 @@ local function open()
   local info = ns.Context.Character()
   c.race, c.raceName, c.class, c.className = info.race, info.raceName, info.class, info.className
   c.faction, c.sex, c.level = info.faction, info.sex, info.level
+  noteGuild(c)
   -- The server's list can come back empty this early: keep the saved one and ask again at the next quest log update.
   local ids = completedQuests()
   if new then
@@ -3266,7 +3277,11 @@ local handlers = {
   TIME_PLAYED_MSG = onPlayed,   -- when the player types /played (the add-on never asks: it would print in chat)
   ITEM_TEXT_BEGIN = onBookBegin,
   ITEM_TEXT_READY = onBookPage,
+  PLAYER_GUILD_UPDATE = function(unit)
+    if unit == nil or unit == "player" then noteGuild(char) end
+  end,
   PLAYER_LOGOUT = function()
+    noteGuild(char)
     add("logout")
     countOnline()
     pcall(countStory)

@@ -5,6 +5,7 @@
 //   POST /api/friends/add      {who}          a profile name, @name, /u/<name> or a share link -> {state, id, ...list}
 //   POST /api/friends/accept   {id}           POST /api/friends/decline {id} (also cancels one you sent)
 //   POST /api/friends/remove   {id}           POST /api/friends/block {id}   POST /api/friends/unblock {id}
+//   POST /api/friends/pass     {id}           "Not now" to the list's `suggested` (whoever shared Willo with you)
 //   POST /api/friends/report   {id, note?}    keeps their latest messages to you for review, then blocks them
 //   POST /api/friends/share    {on}           share where you are with friends; off deletes what was shared
 //   POST /api/friends/send     {to, text}     -> {message}
@@ -15,9 +16,11 @@
 
 import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/accounts.js";
 import { currentDevice } from "../../../lib/devices.js";
+import { forwardFeedback } from "../../../lib/slack-feedback.js";
 import { perMinute, perHour, perDay, slowDown } from "../../../lib/ratelimit.js";
 import {
   FriendError, friendsList, friendCounts, addFriend, answerRequest, removeFriend, blockPlayer, unblockPlayer, reportPlayer,
+  passPlayer,
   setSharing, sendMessage, conversation, readPresence, savePresence,
   ASKS_PER_DAY, MESSAGES_PER_MINUTE, MESSAGES_PER_DAY, REPORTS_PER_DAY, PRESENCE_PER_HOUR,
 } from "../../../lib/friends.js";
@@ -54,11 +57,18 @@ const POSTS = {
   remove: change(({ env }, input, user) => removeFriend(env, user.id, id(input.id))),
   block: change(({ env }, input, user) => blockPlayer(env, user.id, id(input.id))),
   unblock: change(({ env }, input, user) => unblockPlayer(env, user.id, id(input.id))),
+  pass: change(({ env }, input, user) => passPlayer(env, user.id, id(input.id))),
   report: async (context, input, user) => {
     if (!(await perDay(context.env, user.id, "friends-report", REPORTS_PER_DAY))) {
       return tooMany("That's a lot of reports for one day. Write to us on the feedback page if something's wrong.");
     }
-    return change(({ env }) => reportPlayer(env, user.id, id(input.id), id(input.note)))(context, input, user);
+    // Slack #player-feedback hears that a report came in, and how many that player has: never who or what.
+    let filed = null;
+    const res = await change(async ({ env }) => {
+      filed = await reportPlayer(env, user.id, id(input.id), id(input.note));
+    })(context, input, user);
+    if (filed?.id) forwardFeedback(context, "friend-report", filed);
+    return res;
   },
   share: change(({ env }, input, user) => setSharing(env, user.id, input.on === true)),
   send: async ({ env }, input, user) => {

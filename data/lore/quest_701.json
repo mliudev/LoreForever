@@ -1,0 +1,108 @@
+{
+ "key": "quest:701",
+ "type": "quest",
+ "name": "Guile of the Raptor",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   701
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Tor'gan seeks to reignite the dormant warrior spirit in Gor'mul, using the cunning and ferocity of raptors to remind him of martial strength."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "This ritual reflects Horde traditions of drawing upon primal beasts and natural spirits to restore purpose to a listless or troubled comrade."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is tor'gan",
+    "torgan",
+    "quest giver"
+   ],
+   "answer": "Tor'gan is a shamanistic or spiritual figure seeking to aid Gor'mul. Believing that Gor'mul has lost touch with his inner strength, Tor'gan gathers reagents to craft an item imbued with beast magic to reawaken him.",
+   "q": "Who is Tor'gan?"
+  },
+  {
+   "aliases": [
+    "who is gormul",
+    "why help gormul",
+    "dormant warrior"
+   ],
+   "answer": "Gor'mul is an individual who has lost his fighting spirit and let the warrior within him go dormant. Tor'gan intends to infuse him with primal predator essence so he can witness new power and rise to fight again.",
+   "q": "Who is Gor'mul?"
+  },
+  {
+   "aliases": [
+    "why raptor hearts",
+    "what are hearts for",
+    "raptor magic"
+   ],
+   "answer": "Tor'gan requires twelve raptor hearts to fashion both a physical talisman and the enchantment needed to imbue Gor'mul. Primal magic often uses the hearts of predators to channel their inherent instincts, guile, and predatory power.",
+   "q": "Why does Tor'gan need raptor hearts?"
+  },
+  {
+   "aliases": [
+    "where to get hearts",
+    "which raptors",
+    "highland fleshstalkers"
+   ],
+   "answer": "The required hearts are taken from Highland Fleshstalkers, predatory raptors known for their relentless hunting prowess and cunning. Tor'gan considers their hearts potent enough to fuel the awakening spell.",
+   "q": "Where do the raptor hearts come from?"
+  },
+  {
+   "aliases": [
+    "what is guile of the raptor",
+    "what power",
+    "raptor guile meaning"
+   ],
+   "answer": "The guile of the raptor represents the cunning, swift reflexes, and lethal instinct of the predator. Tor'gan believes channeling this specific nature will cut through Gor'mul's lethargy and revive his combat instincts.",
+   "q": "What does the guile of the raptor signify?"
+  },
+  {
+   "aliases": [
+    "is gormul cured",
+    "what happens after ritual",
+    "does it work"
+   ],
+   "answer": "Tor'gan crafts the item and weaves the spell using the gathered hearts, aiming to demonstrate new power to Gor'mul and awaken his dormant warrior identity so he can reclaim his path.",
+   "q": "What is the ultimate goal of the ritual?"
+  }
+ ],
+ "keywords": [
+  "dormant warrior",
+  "gor'mul",
+  "guile of the raptor",
+  "highland fleshstalkers",
+  "raptor hearts",
+  "tor'gan",
+  "warrior"
+ ],
+ "related": [
+  "topic:warrior"
+ ],
+ "sections": [
+  {
+   "body": "Tor'gan works to restore a listless compatriot named Gor'mul, whose warrior spirit has fallen dormant. Rather than relying on simple persuasion, Tor'gan turns to primal magic to shock Gor'mul back into action. By crafting a charm imbued with the essence of wild predators, he hopes to reintroduce Gor'mul to martial resolve and demonstrate the strength of their new power.",
+   "spoiler": 0,
+   "title": "Awakening the Dormant Warrior"
+  },
+  {
+   "body": "To channel the predatory instincts of the wild, Tor'gan requires the hearts of Highland Fleshstalkers. In shamanic and primal traditions, the heart of a cunning hunter carries its ferocity and guile. Tor'gan weaves both a physical token and a spell from these trophies, aiming to infuse Gor'mul directly with the predator's cunning so he can rediscover his true calling.",
+   "spoiler": 0,
+   "title": "The Heart of the Predator"
+  }
+ ],
+ "summary": "Guile of the Raptor is a quest in which Tor'gan seeks to awaken the dormant warrior spirit within Gor'mul. By harvesting the hearts of Highland Fleshstalkers, Tor'gan plans to fashion an enchanted item imbued with the cunning and predatory power of the raptor.",
+ "attribution": [
+  "In-game quest text: Guile of the Raptor"
+ ]
+}

@@ -3,7 +3,8 @@
 //                                       languages: {locale: strings}, strings}], finders: [{name, links, lines}],
 //                                       community: [{name, voices: [{id, name, language}]}]}: community is the
 //                                       players' own voices, for the home page's "Made with the community" strip.
-//   GET /api/credits?release=0.8.0     {ok, release, lines, names}: the community lines that shipped in that release
+//   GET /api/credits?release=0.8.0     {ok, release, lines, names, edits, translators}: the community lines and the
+//                                       translation edits (LOR-621) that shipped in that release
 //                                       (`lore.contrib mark-shipped`) and the finders to thank, for the credit line
 //                                       scripts/post-release.sh adds to the Discord announcement draft.
 // Alphabetical, accepted work only, names only of people who chose to show them.

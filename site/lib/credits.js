@@ -29,6 +29,19 @@ const count = n => String(Math.trunc(Number(n) || 0)).replace(/\B(?=(\d{3})+(?!\
 const plural = (n, one, many = one + "s") => `${count(n)} ${n === 1 ? one : many}`;
 const cleanName = (s, max = 60) => String(s ?? "").replace(/\s+/g, " ").replace(/[\u0000-\u001f\u007f]/g, "").trim().slice(0, max);
 
+// ---- Translators of one release (LOR-621) ----
+
+async function releaseTranslators(env, release) {
+  const edits = await env.DB.prepare("SELECT COUNT(*) AS n FROM translation_edits WHERE shipped_in = ?").bind(release).first("n");
+  if (!edits) return { edits: 0, translators: [] };
+  const { results } = await env.DB.prepare(
+    `SELECT DISTINCT u.display_name AS name FROM translation_edits e JOIN users u ON u.id = e.user_id
+     WHERE e.shipped_in = ? AND u.show_public = 1 AND u.display_name IS NOT NULL`).bind(release).all();
+  const translators = [...new Set(results.map(r => cleanName(r.name)).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }));
+  return { edits, translators };
+}
+
 // ---- Text finders ----
 
 // Everyone credited for finding accepted (or shipped) lines: [{name, lines, first (unix seconds), links}],
@@ -45,19 +58,27 @@ export async function textFinders(env, now = Date.now()) {
 }
 
 // The lines that shipped in one release (status shipped, shipped_in = release; `lore.contrib mark-shipped` sets them)
-// and who to thank: {ok, release, lines, names}. lines counts every shipped line, anonymous ones included; names only
-// the people shown (above). ok is false when the database couldn't be read.
+// and who to thank: {ok, release, lines, names, edits, translators}. lines counts every shipped line, anonymous ones
+// included; names only the people shown (above). edits and translators (LOR-621): the translation edits that shipped in
+// it (translation_edits.shipped_in, `lore.kit shipped` sets it) and their translators who show their name,
+// alphabetical. ok is false when the database couldn't be read.
 export async function releaseCredits(env, release) {
-  if (!env.DB) return { ok: false, release, lines: 0, names: [] };
+  if (!env.DB) return { ok: false, release, lines: 0, names: [], edits: 0, translators: [] };
   try {
     await setup(env);
-    const lines = await env.DB.prepare("SELECT COUNT(*) AS n FROM contrib_lines WHERE status = 'shipped' AND shipped_in = ?")
-      .bind(release).first("n");
-    const names = lines ? (await contributors(env, undefined, { release })).map(p => p.name) : [];
-    return { ok: true, release, lines: lines || 0, names };
+    const tr = await releaseTranslators(env, release);
+    let lines = 0, names = [];
+    try {
+      lines = await env.DB.prepare("SELECT COUNT(*) AS n FROM contrib_lines WHERE status = 'shipped' AND shipped_in = ?")
+        .bind(release).first("n");
+      names = lines ? (await contributors(env, undefined, { release })).map(p => p.name) : [];
+    } catch (e) {
+      // No contrib_lines yet is a real answer (nothing shipped); anything else means we don't know.
+      if (!/no such table/i.test(String(e?.message))) throw e;
+    }
+    return { ok: true, release, lines: lines || 0, names, ...tr };
   } catch (e) {
-    // No contrib_lines yet is a real answer (nothing shipped); anything else means we don't know.
-    return { ok: /no such table/i.test(String(e?.message)), release, lines: 0, names: [] };
+    return { ok: false, release, lines: 0, names: [], edits: 0, translators: [] };
   }
 }
 

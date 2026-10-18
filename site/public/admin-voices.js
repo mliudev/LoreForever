@@ -6,25 +6,9 @@ const $ = id => document.getElementById(id);
 const REFRESH_MS = 60e3;     // asks the site for the latest this often
 const AMBER_MIN = 30, RED_MIN = 120;   // minutes before the picture counts as late, then as stale
 
-// ---- the admin key, kept as /admin keeps it: sessionStorage, or localStorage when "Remember" is ticked ----
-function getKey() {
-  try { return sessionStorage.getItem("lf-admin") || localStorage.getItem("lf-admin"); } catch (e) { return null; }
-}
-let memoryKey = null;   // used when storage is blocked
-function setKey(k, remember) {
-  memoryKey = k;
-  try { sessionStorage.removeItem("lf-admin"); localStorage.removeItem("lf-admin"); } catch (e) {}
-  if (k) try { (remember ? localStorage : sessionStorage).setItem("lf-admin", k); } catch (e) {}
-}
-const key = () => memoryKey || getKey();
-
-function signOut(message) {
-  setKey(null);
-  $("dash").hidden = true;
-  $("login").hidden = false;
-  $("login-error").textContent = message || "";
-  $("login-error").hidden = !message;
-}
+// The admin key, sign-in, Sign out, Refresh and the frame are admin-shell.js's (window.lfAdmin), shared with /admin.
+const key = () => lfAdmin.key();
+const signOut = message => lfAdmin.signOut(message);
 
 async function fetchStatus() {
   const r = await fetch("/api/admin/voice-status", { cache: "no-store", headers: { Authorization: "Bearer " + key() } });
@@ -84,7 +68,7 @@ function renderFresh() {
   const mins = (Date.now() - made) / 60e3;
   const level = mins > RED_MIN ? "bad" : mins > AMBER_MIN ? "warn" : "ok";
   box.classList.add(level);
-  $("fresh-age").textContent = "Updated " + ago(Date.now() - made);
+  $("fresh-age").textContent = "Picture from " + ago(Date.now() - made);
   $("fresh-note").textContent = level === "ok"
     ? "The PC posts a new picture every 10 minutes."
     : "The PC posts every 10 minutes, so it may have stopped: this is " + (level === "bad" ? "stale" : "late") + ".";
@@ -368,6 +352,7 @@ async function load() {
     $("login").hidden = true;
     $("dash").hidden = false;
     $("load-error").hidden = true;
+    lfAdmin.updated();
     if (same) tick(); else render();   // nothing new from the PC: leave the page alone (scroll, focus, an open note)
   } catch (e) {
     if (e.message !== "unauthorized") {
@@ -381,15 +366,7 @@ async function load() {
   loading = false;
 }
 
-// ---- wiring ----
-$("login-form").addEventListener("submit", e => {
-  e.preventDefault();
-  setKey($("key").value.trim(), $("remember").checked);
-  $("key").value = "";
-  load();
-});
-$("signout").addEventListener("click", () => signOut());
-$("refresh").addEventListener("click", load);
+// ---- wiring (sign-in, Sign out and Refresh: lfAdmin.start) ----
 setInterval(() => { if (!document.hidden && key()) load(); }, REFRESH_MS);
 // The ages ("4 min ago") keep moving between loads.
 function tick() {
@@ -401,4 +378,4 @@ function tick() {
 setInterval(tick, 30e3);
 document.addEventListener("visibilitychange", () => { if (!document.hidden && key()) load(); });
 
-if (key()) load(); else signOut();
+lfAdmin.start(load);

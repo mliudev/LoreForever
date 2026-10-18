@@ -7,6 +7,7 @@
 // Optional Pages setting (Settings > Variables and Secrets):
 //   TRANSLATIONS_WEBHOOK  Discord webhook URL; each submission and bad-translation report is posted there (never the
 //                         email address)
+//   SLACK_FEEDBACK_WEBHOOK  Slack #player-feedback; each submission is forwarded there (lib/slack-feedback.js)
 // Bad-translation reports are functions/api/translations/report.js; likes are functions/api/translations/like.js.
 //
 // TERMS_VERSION is the contributor agreement the form shows (public/translate/submit.html). When its wording changes,
@@ -16,6 +17,7 @@ import { authorized } from "../../lib/auth.js";
 import { clean, ticked, EMAIL, senderHash, postWebhook } from "../../lib/form.js";
 import { errorPage, LOCALE } from "../../lib/translations.js";
 import { currentUser } from "../../lib/accounts.js";
+import { forwardFeedback } from "../../lib/slack-feedback.js";
 
 const TERMS_VERSION = "2026-09-30";
 
@@ -83,7 +85,8 @@ export async function onRequestPost(context) {
 }
 
 // Returns {} when the submission was saved, or {status, error} with a message for the translator.
-async function save({ request, env, waitUntil }, json) {
+async function save(context, json) {
+  const { request, env, waitUntil } = context;
   if (!env.DB) return { status: 503, error: "Submissions aren't set up yet. Please ask on Discord." };
   let input;
   try {
@@ -142,6 +145,7 @@ async function save({ request, env, waitUntil }, json) {
          request.cf?.country || null, sender, user.id).first();
 
   if (env.TRANSLATIONS_WEBHOOK) waitUntil(notify(env.TRANSLATIONS_WEBHOOK, { ...s, id: row?.id }));
+  if (row?.id) forwardFeedback(context, "translation", { ...s, id: row.id });
   return {};
 }
 

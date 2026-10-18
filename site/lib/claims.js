@@ -8,8 +8,10 @@
 //
 // Rules: one active claim per narrator (another once it's done or let go); one active or done claim per zone and
 // language (D1 unique indexes, so two people can't take the same zone at once). A claim is done once the voice has a
-// take of every line of the zone in its language; it expires after EXPIRE_DAYS with no upload in the zone. Both are
-// worked out from studio_takes whenever claims are read (refreshClaims), so uploading needs no change.
+// take of every line of the zone in its language and the voice was sent for review (LOR-621: a zone recorded but never
+// sent shouldn't stay locked); it expires after EXPIRE_DAYS with no upload in the zone. Both are worked out from
+// studio_takes and voices whenever claims are read (refreshClaims), so uploading needs no change. A done claim whose
+// voice is a draft again (never sent, or not used) is active again, and expires like any.
 // Table studio_claims is in lib/accounts.js SETUP (deleted with the account).
 
 import { zoneList, zoneProgress, expiresAt } from "../public/voices/zone-list.js";
@@ -30,7 +32,24 @@ const zonesOf = (lines, locale, cache) => (cache[locale] ||= Object.fromEntries(
 // Brings every active claim up to date: done once its zone is fully recorded, expired after EXPIRE_DAYS without an
 // upload in the zone. A zone that's no longer in lines.json (or has no text in the language any more) expires too.
 export async function refreshClaims(env, lines, now = new Date()) {
-  const { results: active } = await env.DB.prepare("SELECT * FROM studio_claims WHERE status = 'active'").all();
+  const stamp0 = now.toISOString();
+  // Sent: the voice went for review (voices.status pending; published voices stay pending in D1, lib/studio.js).
+  const { results: unsent } = await env.DB.prepare(
+    `SELECT id FROM studio_claims c WHERE c.status = 'done'
+       AND NOT EXISTS (SELECT 1 FROM voices v WHERE v.id = c.voice_id AND v.status IN ('pending', 'published'))`).all();
+  for (const c of unsent) {
+    // Active again, unless the narrator is on another zone already (one active claim each): then it's let go.
+    try {
+      await env.DB.prepare("UPDATE studio_claims SET status = 'active', finished = NULL, updated = ? WHERE id = ? AND status = 'done'")
+        .bind(stamp0, c.id).run();
+    } catch (e) {
+      await env.DB.prepare("UPDATE studio_claims SET status = 'expired', updated = ? WHERE id = ? AND status = 'done'")
+        .bind(stamp0, c.id).run();
+    }
+  }
+  const { results: active } = await env.DB.prepare(
+    `SELECT c.*, EXISTS (SELECT 1 FROM voices v WHERE v.id = c.voice_id AND v.status IN ('pending', 'published')) AS sent
+     FROM studio_claims c WHERE c.status = 'active'`).all();
   if (!active.length) return;
   const takes = await takesByVoice(env, active.map(c => c.voice_id)), cache = {};
   const stamp = now.toISOString();
@@ -38,7 +57,7 @@ export async function refreshClaims(env, lines, now = new Date()) {
     const zone = zonesOf(lines, c.locale, cache)[c.zone];
     const p = zone ? zoneProgress(zone, takes[c.voice_id] || {}) : null;
     let status = null;
-    if (p && p.total && p.done >= p.total) status = "done";
+    if (p && p.total && p.done >= p.total && c.sent) status = "done";
     else if (!zone || expiresAt(c.created, p.last) <= stamp) status = "expired";
     if (!status) continue;
     await env.DB.prepare("UPDATE studio_claims SET status = ?, updated = ?, finished = ? WHERE id = ? AND status = 'active'")

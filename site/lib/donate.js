@@ -36,6 +36,7 @@ export const RECORD_ONLY = "credit = NULL, r2_key = NULL, ext = NULL, bytes = NU
 const MIGRATE = [
   "ALTER TABLE voice_donations ADD COLUMN consented TEXT",   // when the donor agreed to the terms (donation_release.created)
   "ALTER TABLE voice_donations ADD COLUMN adult INTEGER",    // the "18 or older" box, as signed
+  "ALTER TABLE voice_donations ADD COLUMN reason TEXT",      // why it was declined (LOR-621), for the donor's page
 ];
 let migrated = false;
 export async function setupDonations(env) {
@@ -55,7 +56,8 @@ export const DONATE = {
   perDay: 10,                    // sample uploads per account per day
 };
 
-export const STATUSES = ["donated", "rendering", "ready", "published", "withdrawn"];
+// declined (LOR-621): we couldn't make a voice from the sample (reason says why); the donor can send a new one.
+export const STATUSES = ["donated", "rendering", "ready", "published", "declined", "withdrawn"];
 
 export const donationKey = (owner, id, name) => `studio/${owner}/_donation/${id}/${name}`;
 
@@ -84,6 +86,7 @@ export function view(d) {
     checks, script: d.script, consent: d.consent_version, created: d.created, updated: d.updated,
     pack: d.pack_key ? { lines: d.pack_lines, bytes: d.pack_bytes, title: d.pack_title } : null,
     voice: d.status === "published" ? d.voice_id : null, withdrawn: d.withdrawn || null,
+    reason: d.status === "declined" ? d.reason || null : null,
   };
 }
 

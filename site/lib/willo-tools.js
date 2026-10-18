@@ -8,7 +8,8 @@
 // side: where a look-up runs. "willo": Willo's app on the player's PC, which sends what it found with the question (in
 // the prompt's sections, companion/lore_companion/answer.py); "site": here, while the answer is written.
 import { realWorld } from "./research-cache.js";
-import { helpTopics } from "./willo-help.js";
+import { helpTopics, helpQuestion } from "./willo-help.js";
+import { voiceLabel, voicePhrase } from "./character-voices.js";
 
 export const LOOKUPS = {
   lore: { side: "willo", what: "the add-on's lore library for the question, the place and the target (SOURCES)" },
@@ -28,9 +29,9 @@ export const LOOKUPS = {
 // plans, the answers left, and never a look online; one about the player's own world (lib/research-cache.js realWorld)
 // gets the web, where their plan looks online (functions/api/companion/answer.js). previous: the question before, for
 // a short follow-up. A character's reply and chat memory get none.
-export function lookupsFor(question, { previous = "", persona = "willo", operation = "answer", plans = false } = {}) {
+export function lookupsFor(question, { previous = "", answered = "", persona = "willo", operation = "answer", plans = false } = {}) {
   if (operation !== "answer") return [];
-  const topics = persona === "willo" ? helpTopics(question, { plans }) : [];
+  const topics = persona === "willo" ? helpTopics(helpQuestion(question, previous, answered), { plans }) : [];
   if (topics.length) return ["help", "state", ...(topics.includes("plans") ? ["answers_left"] : [])];
   return realWorld(question, previous) ? ["web"] : [];
 }
@@ -84,6 +85,9 @@ export const TALK_KEYS = Object.fromEntries([
   ["scroll_lock", "Scroll Lock"], ["pause", "Pause"], ["insert", "Insert"], ["home", "Home"], ["page_up", "Page Up"],
   ["page_down", "Page Down"]]);
 const titled = id => id.charAt(0).toUpperCase() + id.slice(1);
+// A voice as players read it: "Moonwell", or a voice of Azeroth's ("Dwarf, man"; in a sentence "a dwarf man's voice").
+const voiceName = id => voiceLabel(id) || titled(id);
+const voiceSaid = id => voicePhrase(id) || titled(id);
 
 // What the answer is told when it's offered actions: a few lines, so the answer costs about the same.
 export const ACTION_RULES = "WILLO ACTIONS: besides answering, you can do the things in the functions you're given, " +
@@ -104,7 +108,7 @@ export function freeKey(state) {
 // The actions offered for one of Willo's answers, as provider-neutral declarations ({name, description, parameters}:
 // JSON Schema), for the answer model's adapter (lib/companion-answers.js maps them to Gemini's functionDeclarations).
 // topics: helpTopics of the question; voices: the voices the player's plan picks from (lib/companion-voice.js
-// WILLO_PICKS when the plan has choice), never the one she speaks in now (current); key: a talk key the game doesn't use
+// picksFor when the plan has choice), never the one she speaks in now (current); key: a talk key the game doesn't use
 // (freeKey), the only one set_talk_key offers, so she never moves it onto a key the game has; liveOff: her own check
 // says Live game info doesn't work (WILLO STATE's live line, bad or warn), so its card gives way to "Willo and the
 // game", which says which side is off and how to fix the game's (with "Live game info", Flash-Lite blamed her own
@@ -136,7 +140,8 @@ export function actionsFor(topics, { voices = [], current = "", key = "", liveOf
     description: "Seeing the game is off in your window: with it on you'd see their screen when they ask out loud. " +
       "This shows them how it works, and they turn it on themselves." });
   if (has("set_voice") && picks.length) out.push({ name: "set_voice",
-    description: "Switch your voice to another of the voices their plan has.",
+    description: "Switch your voice to another of the voices their plan has" + (picks.some(v => voiceLabel(v))
+      ? ": your own, or one you borrow from Azeroth's peoples, by people and gender (dwarf-male)." : "."),
     parameters: { type: "object", properties: { voice: { type: "string", enum: picks } }, required: ["voice"] } });
   if (keyed) out.push({ name: "set_talk_key",
     description: `Move your talk key to ${TALK_KEYS[key]}, which the game doesn't use.`,
@@ -179,7 +184,7 @@ export function actionOf(call, offered) {
     open_plans: () => "Open Plans",
     open_billing: () => "Open Billing",
     send_feedback: () => "Tell us what's wrong",
-    set_voice: () => `Switch to ${titled(args.voice)}`,
+    set_voice: () => `Switch to ${voiceName(args.voice)}`,
     new_chat: () => "Start a new chat",
     set_talk_key: () => `Use ${TALK_KEYS[args.key]}`,
     // (The … : a tap shows how it works first, and the player turns it on there.)
@@ -207,7 +212,7 @@ export function offerLine(action) {
     open_plans: "The Plans page has what each plan adds.",
     open_billing: "Your billing has your payments.",
     send_feedback: "I can't fix that one myself. Want to tell the people who made me?",
-    set_voice: `How about ${titled(action.args.voice || "")}? Want me to switch?`,
+    set_voice: `How about ${voiceSaid(action.args.voice || "")}? Want me to switch?`,
     new_chat: "Want a fresh chat? This one stays in your list.",
     set_talk_key: `${TALK_KEYS[action.args.key] || "Another key"} is free. Want me to use it?`,
     live_game_info: "With Live game info on, I'd know where you are and who you target. Want to see how it works?",

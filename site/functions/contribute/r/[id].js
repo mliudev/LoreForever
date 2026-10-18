@@ -41,7 +41,8 @@ export function receiptPage(r) {
   <p class="pitch">Shared ${escape(when(b.created_at))}: ${summary}.</p>
   ${b.rejected ? '<p class="vp-note">This upload was set aside as spam, so its lines aren\'t used.</p>' : ""}
   <p class="vp-note">New lines are accepted after 48 hours, or as soon as a second player shares the same words.
-    Accepted lines go into the next update; this page shows where each one is. Keep the link to come back.</p>
+    Accepted lines go into Lore Forever with an update, unless the game's own text already says it differently; this
+    page shows where each one is. Keep the link to come back.</p>
   ${r.lines.length ? `<ul class="cr-lines">\n${rows}\n  </ul>` : `<p>Nothing new in this upload: everything in it was already in Lore Forever. Thanks all the same!</p>`}
   <p><a class="btn-small" href="/contribute">Share more</a></p>`;
   return page({

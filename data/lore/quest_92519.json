@@ -1,0 +1,107 @@
+{
+ "key": "quest:92519",
+ "type": "quest",
+ "name": "Ward Restocking",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92519
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The outpost of Hammerfall relies on steady shipments of tonics and medicine to keep its soldiers, defenders, and travelers standing against threats in the Arathi Highlands."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Apothecary Jorell represents the Royal Apothecary Society's far-flung presence in Arathi, though his erratic behavior and toxic experiments at Go'Shek Farm frustrate even his allies."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives ward restocking",
+    "quest giver ward restocking",
+    "doctor gregory victor quest"
+   ],
+   "answer": "Doctor Gregory Victor, the trauma surgeon overseeing the trauma ward and infirmary in Hammerfall, gives this task to dependable travelers. He needs reliable couriers to retrieve medical supplies when regular channels fail.",
+   "q": "Who offers the quest Ward Restocking?"
+  },
+  {
+   "aliases": [
+    "where is apothecary jorell",
+    "jorell lab location",
+    "where to find tonics"
+   ],
+   "answer": "Apothecary Jorell operates out of a small shack at Go'Shek Farm, located south and slightly west of Hammerfall along the road in the Arathi Highlands.",
+   "q": "Where is Apothecary Jorell located?"
+  },
+  {
+   "aliases": [
+    "why go to goshek farm",
+    "what is at goshek farm"
+   ],
+   "answer": "Doctor Gregory Victor sends travelers to Go'Shek Farm because Apothecary Jorell failed to deliver an urgently needed crate of antidotes and elixirs to the Hammerfall infirmary.",
+   "q": "Why does Doctor Gregory Victor send you to Go'Shek Farm?"
+  },
+  {
+   "aliases": [
+    "what are packaged tonics",
+    "what items do you pick up"
+   ],
+   "answer": "You must collect a case of Packaged Tonics containing antidotes and elixirs prepared by Apothecary Jorell to replenish the dwindling stocks of the Hammerfall medical ward.",
+   "q": "What supplies are needed for the ward?"
+  },
+  {
+   "aliases": [
+    "what happened to jorell",
+    "is jorell dead",
+    "why didn't jorell deliver"
+   ],
+   "answer": "Doctor Gregory Victor suspects that Jorell either poisoned himself again by concocting brews in his poorly-ventilated workshop shack or simply neglected his obligations to the ward.",
+   "q": "Why hasn't Apothecary Jorell delivered the supplies himself?"
+  },
+  {
+   "aliases": [
+    "where do tonics go",
+    "who to turn in ward restocking"
+   ],
+   "answer": "Once gathered from Go'Shek Farm, the case of tonics must be brought back to Doctor Gregory Victor at the medical ward in Hammerfall.",
+   "q": "Where must the supplies be delivered?"
+  }
+ ],
+ "keywords": [
+  "apothecary jorell",
+  "arathi highlands",
+  "doctor gregory victor",
+  "go'shek farm",
+  "hammerfall",
+  "packaged tonics",
+  "ward restocking"
+ ],
+ "related": [
+  "subzone:hammerfall",
+  "subzone:go-shek-farm",
+  "npc:doctor-gregory-victor"
+ ],
+ "sections": [
+  {
+   "body": "At the Horde settlement of Hammerfall in the Arathi Highlands, Doctor Gregory Victor tends to the wounded and ailing in the outpost's medical ward. Keeping the infirmary functional demands a regular supply of remedies, antidotes, and elixirs, which are usually provided by the Forsaken apothecary stationed nearby. When these deliveries stall, Victor must enlist capable travelers to step in and keep the clinic stocked.",
+   "spoiler": 0,
+   "title": "A Shortage in the Ward"
+  },
+  {
+   "body": "Apothecary Jorell conducts his alchemical experiments out of a cramped, poorly-ventilated shack at Go'Shek Farm, south and west of Hammerfall. According to Doctor Victor, Jorell's absence is nothing out of the ordinary; the eccentric Forsaken chemist is notorious for either ignoring his official duties or accidentally succumbing to his own noxious concoctions. Couriers sent to retrieve the packaged tonics are expected to find the medicine waiting, regardless of whether Jorell is present.",
+   "spoiler": 0,
+   "title": "The Recluse of Go'Shek Farm"
+  }
+ ],
+ "summary": "Ward Restocking is a task in the Arathi Highlands where travelers assist Doctor Gregory Victor in Hammerfall. With the outpost's infirmary running short on vital elixirs, couriers are dispatched to retrieve neglected supplies from Apothecary Jorell's lab at Go'Shek Farm.",
+ "attribution": [
+  "In-game quest text: Ward Restocking"
+ ]
+}

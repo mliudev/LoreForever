@@ -84,13 +84,23 @@ test("voice status: the sparkline counts live recordings that are up to date, an
   assert.deepEqual(summarize({ format: 1, generated_at: "x" }), { current: 0, count: 0, done: 0, total: 0 });
 });
 
-test("the dashboard page: a real page, noindex, with the script and the key sign-in /admin uses", () => {
+test("the dashboard page: a real page, noindex, in the frame every admin page shares, with the key sign-in /admin uses", () => {
   const html = readFileSync(SITE + "public/admin/voices.html", "utf8");
   assert.match(html, /<meta name="robots" content="noindex/);
   assert.match(html, /<script src="\/admin-voices\.js/);
   assert.doesNotMatch(html, /<script(?![^>]*\bsrc=)[^>]*>/, "/admin runs no inline script");
-  assert.match(readFileSync(SITE + "public/admin.html", "utf8"), /href="\/admin\/voices\.html"/, "linked from /admin");
   const js = readFileSync(SITE + "public/admin-voices.js", "utf8");
   assert.match(js, /\/api\/admin\/voice-status/);
-  assert.match(js, /lf-admin/);
+  assert.match(js, /lfAdmin\.start\(load\)/, "signs in through admin-shell.js, as /admin does");
+  // One frame (admin-shell.js): the same tabs and sign-in on /admin, /admin/voices and /admin/edits (Mike 10/17: the
+  // Voice work tab opened a page without the tabs).
+  const shell = readFileSync(SITE + "public/admin-shell.js", "utf8");
+  assert.match(shell, /"\/admin\/voices"/, "Voice work is a tab in the frame");
+  assert.match(shell, /lf-admin/);
+  for (const page of ["public/admin.html", "public/admin/voices.html", "public/admin/edits.html"]) {
+    const src = readFileSync(SITE + page, "utf8");
+    assert.match(src, /<body[^>]*>\s*(<!--[\s\S]*?-->\s*)?<script src="\/admin-shell\.js\?v=/, `${page}: the frame comes first in <body>`);
+    assert.match(src, /<link rel="stylesheet" href="\/admin\.css\?v=/, `${page}: the one admin stylesheet`);
+    assert.doesNotMatch(src, /id="login"|class="ad-nav"/, `${page}: the frame draws the sign-in and the tabs`);
+  }
 });

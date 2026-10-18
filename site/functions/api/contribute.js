@@ -16,6 +16,7 @@ import { currentUser, sameOrigin, noStore, fail, setup as setupAccounts } from "
 import { perHour } from "../../lib/ratelimit.js";
 import { LIMITS, RATE, setup, cleanLine, cleanNick, loadKnown, ingest, uploaderOf, ipHashOf, expireHashes, nowSec }
   from "../../lib/contribute.js";
+import { currentDevice } from "../../lib/devices.js";
 
 export async function onRequestPost({ request, env, waitUntil }) {
   if (!env.DB) return fail(503, "Sharing text isn't switched on yet.");
@@ -69,7 +70,11 @@ export async function onRequestPost({ request, env, waitUntil }) {
 
   const user = await currentUser(env, request);
   const install = typeof body.install === "string" && /^[0-9a-f]{64}$/.test(body.install) ? body.install : null;
-  const who = { user, nick: cleanNick(body.nick), ipHash, install };
+  // Willo connected to the player's account sends its token (LOR-621): the upload is that account's, privately, so it
+  // shows on their My contributions and counts as one sender with their other uploads. Public credit doesn't change:
+  // only the credit name typed in Willo's settings (nick) is ever shown, never the account.
+  const account = !user && companion ? (await currentDevice(env, request))?.user || null : null;
+  const who = { user, account, nick: cleanNick(body.nick), ipHash, install };
   who.uploader = uploaderOf(who);
   const known = await loadKnown(env, request);
   const meta = { invalid, version: typeof body.version === "string" ? body.version.slice(0, 24) : null,

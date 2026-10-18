@@ -1,0 +1,102 @@
+{
+ "key": "quest:92685",
+ "type": "quest",
+ "name": "The Hills Have Eyes",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92685
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "Aamelia jokes darkly about stitching a blanket out of blood-stained bandit masks for Ferauu, showing a rather gruesome appreciation for needlecraft."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "hills have eyes quest",
+    "what is this quest",
+    "what is the hills have eyes"
+   ],
+   "answer": "\"The Hills Have Eyes\" is a defense quest given by Aamelia at her farm. Facing an imminent raid by Ferauu's gang of highwaymen, she directs adventurers into the northern hills to ambush the bandits and retrieve their blood-stained masks before they can strike.",
+   "q": "What is The Hills Have Eyes?"
+  },
+  {
+   "aliases": [
+    "who gives the hills have eyes",
+    "who is aamelia",
+    "quest giver aamelia"
+   ],
+   "answer": "Aamelia is a farmstead defender who has spent weeks in dread waiting for bandits to overrun her homestead. Striking back at the highwaymen gives her renewed hope to face Ferauu's looming raid.",
+   "q": "Who gives the quest The Hills Have Eyes?"
+  },
+  {
+   "aliases": [
+    "who is ferauu",
+    "ferauu boss",
+    "bandit leader ferauu"
+   ],
+   "answer": "Ferauu is the leader of the highwayman bandits operating around the Gustberry Lowlands. He and his thugs have been threatening Aamelia's farm and are poised to launch an attack.",
+   "q": "Who is Ferauu?"
+  },
+  {
+   "aliases": [
+    "gustberry lowlands bandits",
+    "where are the bandits",
+    "bandit camp hills"
+   ],
+   "answer": "The Highwayman Bandits inhabit camps throughout the Gustberry Lowlands, including a small encampment perched in the hills directly north of Aamelia's farm.",
+   "q": "Where are the highwayman bandits located?"
+  },
+  {
+   "aliases": [
+    "why collect masks",
+    "why blood stained masks",
+    "what are the masks for"
+   ],
+   "answer": "Aamelia demands blood-stained masks as proof that the bandits were made to suffer and caught off guard. Taking them down beforehand helps even the odds against Ferauu's impending raid.",
+   "q": "Why does Aamelia want blood-stained bandit masks?"
+  },
+  {
+   "aliases": [
+    "what happens after the hills have eyes",
+    "next quest aamelia",
+    "ferauu attack"
+   ],
+   "answer": "After decimating the hill camp, Aamelia feels hope returning to her farm. However, Ferauu and his remaining thugs are due to arrive at any moment, setting the stage for a final stand.",
+   "q": "What happens after completing the quest?"
+  }
+ ],
+ "keywords": [
+  "aamelia",
+  "bandit masks",
+  "blood-stained bandit masks",
+  "ferauu",
+  "gustberry lowlands",
+  "highwayman bandits",
+  "the hills have eyes"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "In the Gustberry Lowlands, a farmer named Aamelia faces an impending assault from a ring of outlaws led by Ferauu. Rather than waiting passively for doom to arrive at her doorstep, she urges travelers to launch a preemptive strike against a bandit encampment in the hills to the north. By taking out the highwaymen before they muster their attack, she aims to thin their ranks and buy precious time.",
+   "spoiler": 0,
+   "title": "A Preemptive Strike"
+  },
+  {
+   "body": "As proof of the ambush, Aamelia asks for blood-stained masks stripped from the fallen highwaymen. She jokes grimly about stitching them into a blanket to present to Ferauu, reveling in the knowledge that her tormentors were met with fierce resistance. Thinning the northern camp shatters weeks of hopeless waiting, giving her the courage to make a stand when Ferauu and his main band finally arrive.",
+   "spoiler": 1,
+   "title": "Renewed Hope and Retribution"
+  }
+ ],
+ "summary": "\"The Hills Have Eyes\" is a quest in the Gustberry Lowlands where the beleaguered farmer Aamelia takes a stand against highwayman bandits. Adventurers launch a preemptive strike on an encampment in the northern hills to diminish the bandit forces before their leader, Ferauu, launches a raid.",
+ "attribution": [
+  "In-game quest text: The Hills Have Eyes"
+ ]
+}

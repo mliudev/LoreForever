@@ -15,7 +15,8 @@ const CLIENT = /^companion\/[\w.-]{1,24}$/;
 const MAX_BODY_BYTES = 8 * 1024;
 export const FLAGS_PER_DAY = 50;
 
-export async function onRequestPost({ request, env }) {
+export async function onRequestPost(context) {
+  const { request, env } = context;
   if (!env.DB) return fail(503, "Accounts aren't set up yet.");
   if (!CLIENT.test(request.headers.get("X-LF-Client") || "") || request.headers.get("Origin"))
     return fail(403, "This is for the Lore Forever companion app.");
@@ -33,6 +34,6 @@ export async function onRequestPost({ request, env }) {
   if (!(await perDay(env, app.user.id, "companion-flag", FLAGS_PER_DAY))) return fail(429, "Thanks, that's plenty for today.");
   const ok = await logFeedback(env, app.user.id, { kind: "flag", said: str(body.note).trim() || "Wrong answer",
     question: str(body.question), answer: str(body.answer), zone: str(body.zone), sub: str(body.sub), persona: "willo",
-    spoken: body.spoken === true });
+    spoken: body.spoken === true }, { context, client: request.headers.get("X-LF-Client") });
   return ok ? Response.json({ ok: true }, { headers: noStore }) : fail(503, "Couldn't send that just now.");
 }

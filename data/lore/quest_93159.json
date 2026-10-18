@@ -1,0 +1,104 @@
+{
+ "key": "quest:93159",
+ "type": "quest",
+ "name": "The Strange Hermit",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93159
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druids attuned to nature may appreciate the hermit's interaction with the local forest spirits, though his inability to truly converse with them contrasts with a druid's deeper communion."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Tinkers and craftsmen may relate to the hermit finding solace in building things by hand to furnish his lonely dwelling."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "strange hermit",
+    "hermit identity",
+    "who is the hermit"
+   ],
+   "answer": "The strange hermit is an eccentric, hooded individual living in isolation within Shadowgale Forest. Unaccustomed to regular social interaction, he spends his time tending to handmade possessions and communing with local woodland spirits rather than other people.",
+   "q": "Who is the strange hermit?"
+  },
+  {
+   "aliases": [
+    "where is the hermit",
+    "shadowgale forest location",
+    "hermit zone"
+   ],
+   "answer": "The hermit makes his home secluded deep among the trees of Shadowgale Forest, living well off the beaten path where few travelers ever wander.",
+   "q": "Where does the hermit live?"
+  },
+  {
+   "aliases": [
+    "why is the hermit alone",
+    "hermit isolation",
+    "hermit backstory"
+   ],
+   "answer": "He admits he lived somewhere else entirely before retreating to the forest. While he remains quite vague about his past, he chose a quiet life surrounded only by things he built and the wild spirits of the woods.",
+   "q": "Why does the hermit live by himself?"
+  },
+  {
+   "aliases": [
+    "hermit talking to spirits",
+    "forest spirits shadowgale",
+    "hermit friends"
+   ],
+   "answer": "He considers the local forest spirits his companions, although they do not carry on normal speech. Instead, they sing to him, which he finds pleasant even if it fails to provide the conversational depth of a fellow mortal.",
+   "q": "Can the hermit speak with forest spirits?"
+  },
+  {
+   "aliases": [
+    "hermit crafts",
+    "what did hermit build"
+   ],
+   "answer": "The hermit mentions having several handcrafted items and structures that keep him occupied, finding comfort and contentment in simple handmade belongings.",
+   "q": "What has the hermit built in the forest?"
+  },
+  {
+   "aliases": [
+    "strange hermit quest",
+    "speak to hermit"
+   ],
+   "answer": "The quest involves approaching the nervous hermit in Shadowgale Forest to strike up a friendly conversation and hear what little he is willing to share about his reclusive existence.",
+   "q": "What happens during the quest 'The Strange Hermit'?"
+  }
+ ],
+ "keywords": [
+  "forest spirits",
+  "handcrafted",
+  "hermit",
+  "hooded figure",
+  "loner",
+  "shadowgale forest",
+  "strange hermit"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Deep within the secluded canopy of Shadowgale Forest lives an enigmatic, hooded recluse known simply as the Strange Hermit. Far removed from settled towns and standard trade routes, he spends his days in quiet isolation among the trees. When approached, his awkward speech and nervous demeanor show how long he has lived without ordinary companionship, making even a basic greeting an unfamiliar challenge.",
+   "spoiler": 0,
+   "title": "A Recluse in the Woods"
+  },
+  {
+   "body": "Though solitary, the hermit insists he has all the company and provisions he needs. He confides that he once lived somewhere else before settling here, choosing to make a life surrounded by handmade trinkets and the local forest spirits. While the wild spirits frequently sing to him, he admits that melodic choruses cannot entirely replace speaking with someone who can truly answer back.",
+   "spoiler": 0,
+   "title": "Spirits and Simple Things"
+  }
+ ],
+ "summary": "The Strange Hermit is an introductory quest in Shadowgale Forest focusing on a shy, hooded recluse living away from civilization. Seeking conversation after long isolation, the hermit shares glimpses of his simple handcrafted life and his bond with the local singing forest spirits.",
+ "attribution": [
+  "In-game quest text: The Strange Hermit"
+ ]
+}

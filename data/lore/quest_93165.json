@@ -1,0 +1,108 @@
+{
+ "key": "quest:93165",
+ "type": "quest",
+ "name": "Mercy Falls on Deaf Ears",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93165
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "mercy falls on deaf ears quest",
+    "what is this quest",
+    "quest overview"
+   ],
+   "answer": "Mercy Falls on Deaf Ears is a quest where an adventurer is hired to retaliate against the Al'Aketh cultists following a disastrous attack on a local enclave. The petitioner seeks retribution, requiring adventurers to slay cultists and return their severed ears as undeniable proof of the kill in exchange for coin and trust.",
+   "q": "What is Mercy Falls on Deaf Ears?"
+  },
+  {
+   "aliases": [
+    "who are the alaketh",
+    "alaketh cultists lore",
+    "who are al'aketh"
+   ],
+   "answer": "The Al'Aketh are a sect of accursed cultists known for bringing ruin and tragedy to neighboring settlements. They maintain a hostile presence across the Gustberry Lowlands, Shadowgale Forest, and the Shrine of Akir, provoking open blood feuds with those who reside in the surrounding territories.",
+   "q": "Who are the Al'Aketh?"
+  },
+  {
+   "aliases": [
+    "where are alaketh cultists",
+    "alaketh locations",
+    "where to find cultists"
+   ],
+   "answer": "Al'Aketh cultists can be encountered in three distinct areas: the dense canopies of Shadowgale Forest, the sacred grounds around the Shrine of Akir, and throughout the Gustberry Lowlands. Slaying cultists in any of these territories yields the proof demanded by the grieving enclave.",
+   "q": "Where can Al'Aketh cultists be found?"
+  },
+  {
+   "aliases": [
+    "why ears",
+    "why do they want cultist ears",
+    "ears proof"
+   ],
+   "answer": "Severed ears serve as tangible, undeniable proof of death in a brutal wilderness conflict where blood must be repaid with blood. Because the enclave harbors deep hatred toward the Al'Aketh following a severe tragedy, they demand physical trophies to ensure every bounty paid corresponds to a dead cultist.",
+   "q": "Why does the quest giver collect cultist ears?"
+  },
+  {
+   "aliases": [
+    "nightclaw faction",
+    "who are nightclaw",
+    "nightclaw secrets lore"
+   ],
+   "answer": "The Nightclaw represent a secretive enclave that has suffered heavy losses due to the Al'Aketh cult's depredations. While wary of strangers, they hold closely guarded secrets and lore, offering outsiders eventual access to their inner mysteries if they prove their loyalty by destroying their cultist enemies.",
+   "q": "Who are the Nightclaw?"
+  },
+  {
+   "aliases": [
+    "what did the alaketh do",
+    "what happened to the enclave",
+    "alaketh tragedy"
+   ],
+   "answer": "The quest giver speaks of a great tragedy visited directly upon the Nightclaw enclave by the Al'Aketh, which sparked an uncompromising blood feud. While specific casualties and details are not enumerated in the bounty itself, the incident was horrific enough that the survivors demand total vengeance with no mercy.",
+   "q": "What tragedy did the Al'Aketh cause?"
+  },
+  {
+   "aliases": [
+    "nightclaw secrets",
+    "what secrets does nightclaw have",
+    "what does nightclaw reveal"
+   ],
+   "answer": "The exact nature of the Nightclaw's secrets is guarded within their enclave and not disclosed immediately to outsiders. The quest giver promises that adventurers who continually aid their fight against the Al'Aketh and prove themselves true friends will eventually be granted access to this hidden knowledge.",
+   "q": "What are the Nightclaw's secrets?"
+  }
+ ],
+ "keywords": [
+  "al'aketh",
+  "blood feud",
+  "cultists",
+  "ears",
+  "gustberry lowlands",
+  "mercy falls on deaf ears",
+  "nightclaw",
+  "shadowgale forest",
+  "shrine of akir"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "The feud between the Nightclaw enclave and the Al'Aketh cultists is bitter and merciless. Following an unspecified but devastating tragedy inflicted upon the enclave, the survivors have abandoned any hope of peaceful reconciliation. To avenge their fallen kin, they turn to wandering adventurers and mercenaries, demanding violent retribution. In exchange for cutting down the cultists and taking their ears as grim proof of the deed, the enclave offers cold coin and the prospect of deeper trust.",
+   "spoiler": 0,
+   "title": "Blood for Blood"
+  },
+  {
+   "body": "The Al'Aketh operate across several wilderness areas, spreading their influence throughout the Gustberry Lowlands, the darkened woods of Shadowgale Forest, and the ancient Shrine of Akir. Their dark practices and fanatical nature have earned them the hatred of local inhabitants. By targeting their encampments across these territories, travelers not only weaken the cult's presence but also earn favor with the secretive Nightclaw, who guard their own esoteric mysteries closely until an outsider proves their loyalty.",
+   "spoiler": 0,
+   "title": "The Al'Aketh Menace"
+  }
+ ],
+ "summary": "Mercy Falls on Deaf Ears is a bounty offered by a grieving enclave seeking violent vengeance against the Al'Aketh cult. After suffering a terrible tragedy at the cultists' hands, the enclave promises coin and access to the Nightclaw's hidden lore in exchange for trophies harvested from their slain enemies. Taking up this task plunges travelers directly into the conflict spreading across Shadowgale Forest and surrounding territories.",
+ "attribution": [
+  "In-game quest text: Mercy Falls on Deaf Ears"
+ ]
+}

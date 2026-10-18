@@ -7,7 +7,7 @@ import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { ANSWER_MODEL, ANSWER_RESERVATION_MICRO, LOOKUP_RESERVATION_MICRO } from "../lib/companion-answers.js";
 import { keepFinding, wantsSearch, realWorld, searchesBefore } from "../lib/research-cache.js";
-import { helpBlock } from "../lib/willo-help.js";
+import { helpBlock, helpQuestion } from "../lib/willo-help.js";
 import { d1 } from "./helpers.mjs";
 
 // RESEARCH_SHARED: these tests cover sharing a finding with the next player, which stays off in production until a search
@@ -131,8 +131,15 @@ test("the player's own world looks online, typed too, and Willo's own help never
 test("Willo's help answers questions about her and stays out of lore and the player's own world", () => {
   for (const [q, topic] of [["How do I change your voice?", /Your voice:/], ["Why can't you see who I'm targeting?", /Seeing the game:/],
     ["What does Legend add?", /Your plans[^]*Legend: /], ["How do I change the talk key?", /Talk key:/],
-    ["What do you keep about me?", /What you keep:/]])
+    ["What do you keep about me?", /What you keep:/],
+    // LOR-623: turning her off got the add-on's folder to delete; her window's character gate got "no need to pick".
+    ["How do I turn you off?", /never hides or removes you[^]*tray icon › Quit/],
+    ["I don't see the option to pick a character but it says I have to pick a character", /Choose a character with a saved game account first" means/]])
     assert.match(helpBlock(q), topic, q);
+  // A short follow-up to a question about her gets the same help, by the question or by her answer before it.
+  assert.match(helpBlock(helpQuestion("it isnt there", "How do I turn you off?")), /tray icon › Quit/);
+  assert.match(helpBlock(helpQuestion("what now", "it isnt there", "Right-click your tray icon › Quit.")), /tray icon › Quit/);
+  assert.equal(helpBlock(helpQuestion("and the inn?", "Where is Goldshire?", "South of Northshire.")), "");
   for (const q of ["Tell me about King Magni.", "What does the Legend of Stalvan give?", "Who is Gryan Stoutmantle?",
     "What city is that across the bay?", "What's the best graphics card for WoW?", "What do you see?"])
     assert.equal(helpBlock(q), "", q);
@@ -140,6 +147,14 @@ test("Willo's help answers questions about her and stays out of lore and the pla
   // The "Willo and the game" card is only in the Willo builds that have it.
   assert.doesNotMatch(helpBlock("No sound from you", { client: "companion/0.18.2" }), /and the game" card/);
   assert.match(helpBlock("No sound from you", { client: "companion/0.19.0" }), /and the game" card/);
+  // The Voices of Azeroth only for a Willo whose picker has them (LOR-609); her own five for every other.
+  assert.doesNotMatch(helpBlock("How do I change your voice?", { client: "companion/0.20.0" }), /Azeroth/);
+  assert.match(helpBlock("How do I change your voice?", { client: "companion/0.20.0" }), /one of five voices there/);
+  assert.match(helpBlock("How do I change your voice?", { client: "companion/0.21.0" }),
+    /your own ten, a woman's and a man's voice of each kind \(Sprite[^]*Puck[^]*Kestrel[^]*"Voices of Azeroth"[^]*dwarf, Forsaken[^]*keep their own/);
+  assert.match(helpBlock("What does Champion add?", { client: "companion/0.21.0" }), /her own 10, women's and men's, or one of 22 voices of Azeroth's peoples/);
+  assert.doesNotMatch(helpBlock("How do I change your voice?", { client: "companion/0.20.0" }), /Puck|Kestrel/);
+  assert.match(helpBlock("What does Champion add?", { client: "companion/0.20.0" }), /Pick Willo's voice from 5/);
   assert.match(helpBlock("What does Legend add?", { usage: { remaining: 488, period: "month", resetsAt: "2026-11-13T00:00:00Z" } }),
     /488 left this month, more on November 13/);
 });
@@ -178,7 +193,7 @@ test("a look-up that times out or finds nothing is answered without it, and the 
   reply = body => (body.tools ? Object.assign(new Error("The operation was aborted due to timeout"), { name: "TimeoutError" }) : plain);
   const slow = await ask(await linked(), "Where can I buy Simple Flour?");
   assert.equal(slow.answer, "Take The Islander from your trainer at level thirty.");
-  assert.equal(slow.looked_up, "no");
+  assert.equal(slow.looked_up, "empty");                // it looked and found nothing in time
   assert.equal(slow.web_search.status, "not_needed");
   // A timed-out look-up's charges are unknown: its part stays reserved; the answer part settles on usage.
   const spend = () => env.DB.sqlite.prepare("SELECT reserved_micro FROM answer_spend").get().reserved_micro;
@@ -186,7 +201,7 @@ test("a look-up that times out or finds nothing is answered without it, and the 
   // No search evidence: nothing kept, answered plainly.
   reply = body => (body.tools ? plain : plain);
   const empty = await ask(await linked(), "Where can I buy Simple Flour?");
-  assert.equal(empty.looked_up, "no");
+  assert.equal(empty.looked_up, "empty");
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM research_cache").get().n, 0);
 });
 

@@ -16,9 +16,6 @@
 #                                                         pack each, once recorded
 #   LoreForever_Voice_<Default|Female>_Quests_<locale>.zip  either narrator's quest dialogue in one of those languages
 #                                                         (LOR-226, the game's own quest text), once recorded
-#   LoreForever_Voice_<Default|Female>_Answers_<Part>[_<locale>].zip  every other question and answer (LOR-227,
-#                                                         lore.answers: Places, Lore, People, Quests1-3), in English or
-#                                                         one of those languages, once its renders land
 # They all follow the core's version (scripts/release.sh stamps it into their .toc files, like the default pack's).
 # A pack whose folder isn't in addon/ is skipped with a note.
 # The main download comes from scripts/build-release.sh; it carries the default (male) narrator's core and lands packs.
@@ -109,8 +106,8 @@ DOWNLOADS = {
     # zone stories, answers, places and people (~340 MB; lore.voicepack locale keeps each under 480 MB). Skipped until
     # recorded (no folder in addon/).
     "LoreForever_Voice_Default_ukUA": (["LoreForever_Voice_Default_ukUA"], "Pekelnyj / UALL: Ukrainian stories and answers {v}"),
-    # Voices sent from the upload page (site/README.md, "Publishing a studio voice"): frozen community packs.
-    "LoreForever_Voice_BrownieeSVoice": (["LoreForever_Voice_BrownieeSVoice"], "Browniee: Teldrassil story and answers {v}"),
+    # Voices sent from the upload page go out on their own now, on the public repo's "voices" release
+    # (lore.voicepack publish-studio, LOR-621), not with each release.
     "LoreForever_Voice_Default_deDE": (["LoreForever_Voice_Default_deDE"], "Male narrator: Deutsch {v}"),
     "LoreForever_Voice_Female_deDE": (["LoreForever_Voice_Female_deDE"], "Female narrator: Deutsch {v}"),
     "LoreForever_Voice_Default_esES": (["LoreForever_Voice_Default_esES"], "Male narrator: Español {v}"),

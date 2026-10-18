@@ -6,7 +6,8 @@ import assert from "node:assert/strict";
 import { onRequest } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { logAnswer, sweepAnswerLog, answerLogReport, setupAnswerLog, KEEP_DAYS } from "../lib/answer-log.js";
+import { logAnswer, sweepAnswerLog, answerLogReport, setupAnswerLog, rescrubAnswerLog, scrubNames, KEEP_DAYS }
+  from "../lib/answer-log.js";
 import { d1 } from "./helpers.mjs";
 
 const env = { DB: d1(), GEMINI_API_KEY: "test-key" };
@@ -63,4 +64,30 @@ test("answers older than 14 days are deleted, and never read back", async () => 
   await logAnswer(env, "u1", { question: "Q?", outcome: "failed", error: "Gemini HTTP 503" }, { now: start });
   await logAnswer(env, "u1", { question: "New?", outcome: "answered" }, { now: later });
   assert.deepEqual(rows().map(r => r.question), ["New?"], "a new answer clears the old ones too");
+});
+
+// LOR-628: Willo answered in Czech and called the player "Húrine"; only the exact name was taken out.
+test("inflected, possessive and accent-less forms of a name are taken out too", () => {
+  const names = ["Húrin-Forever", "Lena"];
+  assert.equal(scrubNames("Ahoj Húrine! Hurinovi patří meč. HURIN's sword, Hurins too.", names),
+    "Ahoj {player}! {player} patří meč. {player}'s sword, {player} too.");
+  assert.equal(scrubNames("Leno, Leny a Lenou; lens, length and Forever stay.", names),
+    "{player}, {player} a {player}; lens, length and Forever stay.");
+});
+
+test("rows kept before the wider scrub are scrubbed again, by the account the site knows", async () => {
+  const { user } = await linked();
+  await env.DB.prepare("INSERT INTO profiles (user_id, handle, data, created, updated) VALUES (?, ?, ?, ?, ?)")
+    .bind(user.id, "hurin", JSON.stringify({ name: "Húrin" }), "2026-10-17", "2026-10-17").run();
+  const now = new Date();
+  await logAnswer(env, user.id, { question: "Kde je Brill?", answer: "Húrine, Brill je na východ.", outcome: "answered" },
+    { now });
+  assert.equal(rows()[0].answer, "{player}, Brill je na východ.", "the site's own names scrub new rows");
+  env.DB.sqlite.prepare("UPDATE answer_log SET answer = ?").run("Húrine, Brill je na východ.");   // as kept before
+  const dry = await rescrubAnswerLog(env, { dryRun: true });
+  assert.deepEqual([dry.rows, dry.players, dry.matched, dry.changed], [1, 1, 1, [rows()[0].id]]);
+  assert.equal(rows()[0].answer, "Húrine, Brill je na východ.", "a dry run changes nothing");
+  await rescrubAnswerLog(env);
+  assert.equal(rows()[0].answer, "{player}, Brill je na východ.");
+  assert.deepEqual((await rescrubAnswerLog(env)).changed, [], "nothing left to change");
 });

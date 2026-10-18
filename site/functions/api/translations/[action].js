@@ -8,7 +8,7 @@
 //
 // Signed in (session cookie):
 //   GET  /api/translations/me                  {user, languages, stats: {locale: {new, accepted, rejected, pulled}}}
-//   GET  /api/translations/edits?locale=deDE   your edits in that language: [{string_id, text, status, reason, updated}]
+//   GET  /api/translations/edits?locale=deDE   your edits in that language: [{string_id, text, status, reason, outcome, shipped_in, updated}]
 //   GET  /api/translations/reports?locale=deDE open bad-translation reports for that language (no names or emails)
 //   GET  /api/translations/pack?locale=deDE    your test pack: a zip of LoreForever_LangTest_deDE/ with your saved
 //                                              edits that aren't pulled or rejected (lib/langtest.js); headers
@@ -26,8 +26,10 @@
 //                                     {user: "<id>", locale?, status}: all of one translator's saved (or rejected) edits
 //   GET  /api/translations/export?locale=deDE             saved edits not pulled or rejected, and the language's likes,
 //                                                         for lore.kit pull and lore.kit community
-//   POST /api/translations/pulled     {ids: [...]}: lore.kit pull marks what it imported (lore.kit community: what
-//                                     has landed on main)
+//   POST /api/translations/pulled     {ids: [...], outcomes?: {id: landed | same | superseded | unusable}, reasons?: {id:
+//                                     why}}: lore.kit pull marks what it imported (lore.kit community: what it's done
+//                                     with, and what became of each: on main, already there, replaced, or not usable)
+//   POST /api/translations/shipped    {release, before}: edits on main before that release's commit shipped in it
 // Signed-in POSTs must come from our own pages (Origin check) and send JSON.
 
 import { authorized } from "../../../lib/auth.js";
@@ -62,10 +64,12 @@ async function me({ env, request }) {
   const user = await currentUser(env, request);
   if (!user) return ok({ user: null });
   const { results } = await env.DB.prepare(
-    "SELECT locale, status, COUNT(*) AS n FROM translation_edits WHERE user_id = ? GROUP BY locale, status"
+    // A pulled edit lore.kit couldn't use (unusable, or a later edit went in instead) counts as rejected: not used.
+    "SELECT locale, CASE WHEN status = 'pulled' AND outcome IN ('unusable', 'superseded') THEN 'rejected' ELSE status END AS s, " +
+    "COUNT(*) AS n FROM translation_edits WHERE user_id = ? GROUP BY locale, s"
   ).bind(user.id).all();
   const stats = {};
-  for (const r of results) (stats[r.locale] ||= { new: 0, accepted: 0, rejected: 0, pulled: 0 })[r.status] = r.n;
+  for (const r of results) (stats[r.locale] ||= { new: 0, accepted: 0, rejected: 0, pulled: 0 })[r.s] = r.n;
   return ok({
     user: { display_name: user.display_name, email: user.email, show_public: Boolean(user.show_public) },
     languages: await languagesOf(env, user),
@@ -77,7 +81,7 @@ async function edits({ env, request }, user) {
   const locale = localeParam(request);
   if (!locale) return fail(400, "Pick a language.");
   const { results } = await env.DB.prepare(
-    "SELECT string_id, en, text, status, reason, updated FROM translation_edits WHERE user_id = ? AND locale = ? ORDER BY id"
+    "SELECT string_id, en, text, status, reason, outcome, shipped_in, updated FROM translation_edits WHERE user_id = ? AND locale = ? ORDER BY id"
   ).bind(user.id, locale).all();
   return ok({ edits: results });
 }
@@ -347,19 +351,42 @@ async function exportAccepted({ env, request }) {
   return ok({ edits: results, likes: (await likeCounts(env))[locale] || 0 });
 }
 
+// outcomes {id: landed | same | superseded | unusable} and reasons {id: why} (unusable ones) are what the translator's
+// dashboard shows: "In the language" or "Not used: <why>" (LOR-621). An older lore.kit sends neither.
+const OUTCOMES = new Set(["landed", "same", "superseded", "unusable"]);
 async function pulled({ env }, input) {
   const ids = idList(input);
+  const outcomes = input.outcomes && typeof input.outcomes === "object" ? input.outcomes : {};
+  const reasons = input.reasons && typeof input.reasons === "object" ? input.reasons : {};
+  const outcomeOf = id => (OUTCOMES.has(outcomes[id]) ? outcomes[id] : null);
+  const reasonOf = id => (outcomeOf(id) === "unusable" && String(reasons[id] ?? "").replace(/\s+/g, " ").trim().slice(0, 200)) || null;
   if (ids.length) {
     await env.DB.batch(ids.map(id => env.DB.prepare(
-      "UPDATE translation_edits SET status = 'pulled' WHERE id = ? AND status IN ('new', 'accepted')").bind(id)));
+      "UPDATE translation_edits SET status = 'pulled', outcome = ?, reason = ?, pulled_at = ? WHERE id = ? AND status IN ('new', 'accepted')"
+    ).bind(outcomeOf(id), reasonOf(id), new Date().toISOString(), id)));
   }
   return ok({ updated: ids.length });
+}
+
+// {release: "0.21.0", before: ISO time of the release commit}: the edits lore.kit found on main (landed or already
+// there) before that release was cut, and not marked yet, shipped in it (scripts/post-release.sh, LOR-621). The
+// translator's My contributions then says "Shipped in 0.21.0".
+async function shipped({ env }, input) {
+  const release = String(input.release || "");
+  const before = String(input.before || "");
+  if (!/^\d{1,3}\.\d{1,3}\.\d{1,4}$/.test(release)) return fail(400, "release: like 0.21.0.");
+  if (Number.isNaN(Date.parse(before))) return fail(400, "before: the release commit's time.");
+  const res = await env.DB.prepare(
+    `UPDATE translation_edits SET shipped_in = ? WHERE status = 'pulled' AND outcome IN ('landed', 'same')
+       AND shipped_in IS NULL AND pulled_at IS NOT NULL AND pulled_at <= ?`
+  ).bind(release, new Date(before).toISOString()).run();
+  return ok({ shipped: res.meta?.changes || 0 });
 }
 
 const USER_GETS = { edits, reports, pack };
 const USER_POSTS = { languages, save, import: importEdits };
 const ADMIN_GETS = { review, summary, export: exportAccepted };
-const ADMIN_POSTS = { decide, pulled };
+const ADMIN_POSTS = { decide, pulled, shipped };
 
 export async function onRequest(context) {
   const { request, env, params } = context;
