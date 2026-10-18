@@ -1,0 +1,103 @@
+{
+ "key": "quest:93737",
+ "type": "quest",
+ "name": "The Broken Construct",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93737
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Tinkers and engineers will recognize the frustration of dealing with a broken construct whose mechanical inner workings require tedious troubleshooting."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is riaani nightwind",
+    "riaani",
+    "construct mechanic"
+   ],
+   "answer": "Riaani Nightwind is a tinkerer working diligently on a disabled mechanical construct. Though initially skeptical of newcomers sent his way, he is in need of assistance to get the machine operational again.",
+   "q": "Who is Riaani Nightwind?"
+  },
+  {
+   "aliases": [
+    "who sent me to riaani",
+    "ayessa",
+    "who is ayessa"
+   ],
+   "answer": "Ayessa is an associate who directs adventurers to assist Riaani Nightwind with his ongoing mechanical troubles. Her referral is what convinces Riaani to consider putting a newcomer to work.",
+   "q": "Who is Ayessa?"
+  },
+  {
+   "aliases": [
+    "what is the construct",
+    "what machine is riaani fixing",
+    "broken machine"
+   ],
+   "answer": "The construct is a mechanical creation currently suffering from mechanical failures. Riaani Nightwind is found buried deep in its innards trying to determine what parts and tasks are required to repair it.",
+   "q": "What is the broken construct?"
+  },
+  {
+   "aliases": [
+    "what does riaani want me to do",
+    "broken construct task",
+    "how to help riaani"
+   ],
+   "answer": "Upon arriving from Ayessa, you must first give Riaani a moment to step away from the construct's inner workings and explain the situation so you can receive instructions on how best to assist.",
+   "q": "What does Riaani need help with?"
+  },
+  {
+   "aliases": [
+    "why does riaani call me a novice",
+    "is riaani rude",
+    "riaani dialogue"
+   ],
+   "answer": "Riaani is completely engrossed in technical labor and somewhat impatient when interrupted. He views most adventurers as untrained novices until they prove capable of following mechanical instructions.",
+   "q": "Why is Riaani skeptical of your help?"
+  },
+  {
+   "aliases": [
+    "where is vice",
+    "vice subzone"
+   ],
+   "answer": "Vice is the surrounding locale tied to the presence of Riaani Nightwind and his engineering efforts on the broken construct.",
+   "q": "Where does this work take place?"
+  }
+ ],
+ "keywords": [
+  "ayessa",
+  "broken construct",
+  "construct",
+  "engineering",
+  "riaani nightwind",
+  "the broken construct",
+  "vice"
+ ],
+ "related": [
+  "subzone:vice"
+ ],
+ "sections": [
+  {
+   "body": "The Broken Construct begins when an adventurer is dispatched by Ayessa to aid Riaani Nightwind. Riaani is hard at work attempting to diagnose a damaged construct, his attention completely absorbed by the device's inner components. Though he is surprised to receive outside help and doubts whether an untrained traveler can handle delicate mechanical work, he agrees to outline a few necessary tasks once he pulls himself out of the machinery.",
+   "spoiler": 0,
+   "title": "Assisting the Artisan"
+  },
+  {
+   "body": "Constructs require precise assembly and careful calibration, making any breakdown a serious setback for an engineer. Riaani Nightwind finds himself shoulder-deep in mechanical parts, seeking an extra set of hands to gather materials or perform field tests. Listening carefully to Riaani's briefing marks the first step toward getting the inert machine functioning once again.",
+   "spoiler": 0,
+   "title": "Troubleshooting Machinery"
+  }
+ ],
+ "summary": "The Broken Construct involves lending aid to Riaani Nightwind, who is shoulder-deep inside the innards of an inoperable machine. Sent as an assistant by Ayessa, travelers must listen to Riaani's plans to discover how they can help restore the device.",
+ "attribution": [
+  "In-game quest text: The Broken Construct"
+ ]
+}

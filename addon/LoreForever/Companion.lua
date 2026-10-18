@@ -98,10 +98,11 @@ function Companion.Installed()
   return type(_G.LoreForeverJourneyData) == "table"
 end
 
--- Get Willo (LOR-459): players without the companion meet it as one line in the chat when the add-on has no answer
--- (UI.Ask, once a play session), in Options above the settings that need it, and with /lore willo. Add-ons can't open
--- web pages, so it's a link to copy. The free download only; never plans, prices or sign-in (Blizzard's add-on policy,
--- LOR-491). Options › Suggest Willo in the chat turns the chat line off.
+-- Get Willo (LOR-459): players without the companion meet it as her icon in the panel's title bar (LOR-601,
+-- Companion.CreateIcon), one line in the chat when the add-on has no answer (UI.Ask, once a play session), in Options
+-- above the settings that need it, and with /lore willo. Add-ons can't open web pages, so it's a link to copy. The free
+-- download only; never plans, prices or sign-in (Blizzard's add-on policy, LOR-491). Options › Suggest Willo turns the
+-- icon and the chat line off.
 Companion.WILLO_URL = "loreforeverwow.com/willo"
 -- Off until Willo launches: no chat line, /lore willo, Suggest Willo checkbox or Options Willo section (that one still
 -- shows to players who have Willo). true brings back all the entry points.
@@ -294,14 +295,15 @@ local function createWillo()
   off:SetPoint("BOTTOMLEFT", 16, 12)
   off:SetPoint("BOTTOMRIGHT", -16, 12)
   off:SetJustifyH("LEFT")
-  off:SetText(string.format(L["Not interested? Untick Suggest %s in the chat in /lore options."], ns.COMPANION_NAME))
+  off:SetText(string.format(L["Not interested? Untick Suggest %s in /lore options."], ns.COMPANION_NAME))
   f.text, f.hint, f.eb, f.fill = text, hint, eb, fill
   return f
 end
 
--- question: what the player just asked that the add-on couldn't answer (nil from /lore willo).
-function Companion.ShowGetWillo(question)
-  ns.Log.Use("getWillo", question and "chat" or "slash")
+-- question: what the player just asked that the add-on couldn't answer (nil from /lore willo). via: where it was
+-- opened from, for the usage counts ("icon"; default chat with a question, else slash).
+function Companion.ShowGetWillo(question, via)
+  ns.Log.Use("getWillo", via or (question and "chat" or "slash"))
   willo = willo or createWillo()
   local name = ns.COMPANION_NAME
   question = question and question:match("^%s*(.-)%s*$")
@@ -315,6 +317,87 @@ function Companion.ShowGetWillo(question)
   willo:Show()
   willo.fill()   -- again once shown: the Forever client drops text set on a box that isn't visible yet
   willo.eb:SetFocus()
+end
+
+-- Willo's icon (LOR-601, Mike's design 10/17): her wisp in a small gold ring, glowing softly, always in the panel for
+-- players without her. The mouse over it gets one line from her, matched to what's on screen (UI.WilloTopic); a click
+-- opens the Get Willo box above. Shown when the chat line may be (Companion.OfferWillo: not with Willo installed, nor
+-- with Options › Suggest Willo unticked), but not once a session: it's quiet, so it stays. Our own art
+-- (scripts/willo_icon_texture.py) and the sky's soft glow, tinted her blue.
+local MEDIA = "Interface\\AddOns\\LoreForever\\Media\\"
+local GLOW = { 0.42, 0.66, 1 }
+
+-- Her line for the tooltip: about the story on screen, the question the add-on couldn't answer, or else one of a few
+-- in turn. topic: UI.WilloTopic()'s { name = } or { question = }, or nil.
+local LINES = {
+  function(name, place)
+    return place and string.format(L["%s could tell you more about %s, out loud."], name, place)
+  end,
+  function(name) return string.format(L["Ask %s anything about Azeroth, and she answers out loud."], name) end,
+  function(name) return string.format(L["%s knows where you are and what you're after, and talks you through it."], name) end,
+}
+function Companion.IconLine(topic, turn)
+  local name = ns.COMPANION_NAME
+  if topic and topic.question then return string.format(L["%s can answer this, out loud."], name) end
+  if topic and topic.name then return string.format(L["%s could tell you more about %s, out loud."], name, topic.name) end
+  local place = topic and topic.place
+  for i = 0, #LINES - 1 do
+    local line = LINES[((turn or 1) - 1 + i) % #LINES + 1](name, place)
+    if line then return line end
+  end
+end
+
+function Companion.CreateIcon(parent, size)
+  local b = CreateFrame("Button", nil, parent)
+  b:SetSize(size, size)
+  local glow = b:CreateTexture(nil, "BACKGROUND")
+  glow:SetTexture(MEDIA .. "Sky\\Glow")
+  if glow.SetBlendMode then glow:SetBlendMode("ADD") end
+  glow:SetVertexColor(GLOW[1], GLOW[2], GLOW[3], 0.8)
+  glow:SetSize(size * 2.1, size * 2.1)
+  glow:SetPoint("CENTER")
+  local art = b:CreateTexture(nil, "ARTWORK")
+  art:SetTexture(MEDIA .. "Willo\\Icon")
+  art:SetAllPoints()
+  local hi = b:CreateTexture(nil, "HIGHLIGHT")
+  hi:SetTexture(MEDIA .. "Sky\\Glow")
+  if hi.SetBlendMode then hi:SetBlendMode("ADD") end
+  hi:SetVertexColor(0.75, 0.9, 1, 0.6)
+  hi:SetSize(size * 1.2, size * 1.2)
+  hi:SetPoint("CENTER")
+  -- A slow breath, not a blink: the glow fades to a third and back every few seconds.
+  local pulse = glow.CreateAnimationGroup and glow:CreateAnimationGroup()
+  if pulse then
+    local a = pulse:CreateAnimation("Alpha")
+    if a and a.SetFromAlpha then
+      a:SetFromAlpha(1)
+      a:SetToAlpha(0.35)
+      a:SetDuration(2.2)
+      if a.SetSmoothing then a:SetSmoothing("IN_OUT") end
+    end
+    pulse:SetLooping("BOUNCE")
+    b:SetScript("OnShow", function() pulse:Play() end)
+    pulse:Play()
+  end
+  b.turn = 0
+  b:SetScript("OnEnter", function(self)
+    self.turn = self.turn + 1
+    ns.Log.Use("willoIcon", "hover")
+    local topic = ns.UI and ns.UI.WilloTopic and ns.UI.WilloTopic() or nil
+    GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
+    GameTooltip:AddLine(ns.COMPANION_NAME)
+    ns.Theme.Tip(Companion.IconLine(topic, self.turn), "tipText", true)
+    ns.Theme.Tip(L["She's Lore Forever's free companion app: a little wisp beside your game."], "tipText", true)
+    ns.Theme.Tip(L["Click for the link to get her."], "tipDim")
+    GameTooltip:Show()
+  end)
+  b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  b:SetScript("OnClick", function()
+    GameTooltip:Hide()
+    local topic = ns.UI and ns.UI.WilloTopic and ns.UI.WilloTopic() or nil
+    Companion.ShowGetWillo(topic and topic.question, "icon")
+  end)
+  return b
 end
 
 function Companion.Ask(question)

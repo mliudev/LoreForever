@@ -1,0 +1,112 @@
+{
+ "key": "quest:98025",
+ "type": "quest",
+ "name": "WANTED: Jai'vhanel",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98025
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Auberdine Village Council relies on Alliance adventurers and night elf sentinels to keep Darkshore's vital coastal highways safe from maddened predators."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Night elf druids closely observe the wildlife of Darkshore, making the sudden madness and aggression of a noble bird like Jai'vhanel an alarming ecological disturbance."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Known as Swordfeather, this fierce jet-black raptor is an aggressive stalker near the mountains of Darkshore whose hunting habits turned lethally erratic."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is jaivhanel",
+    "what is jaivhanel",
+    "who is swordfeather"
+   ],
+   "answer": "Jai'vhanel, also known by the moniker 'Swordfeather', is a large owl distinguished by her jet black feathers. Normally a wild creature native to the forests of Darkshore, she has succumbed to madness and turned aggressively hostile toward travelers.",
+   "q": "Who is Jai'vhanel?"
+  },
+  {
+   "aliases": [
+    "why kill jaivhanel",
+    "why is there a bounty on jaivhanel",
+    "why is the owl attacked"
+   ],
+   "answer": "The Auberdine Village Council issued a formal bounty on Jai'vhanel because she has gone mad and started attacking travelers walking along the main road near Auberdine, posing a severe danger to local transit.",
+   "q": "Why is there a bounty on Jai'vhanel?"
+  },
+  {
+   "aliases": [
+    "where is jaivhanel",
+    "jaivhanel location",
+    "where to find swordfeather"
+   ],
+   "answer": "Jai'vhanel was last spotted north of the ancient Ameth'Aran ruins in Darkshore, prowling close to the base of the eastern mountains.",
+   "q": "Where can Jai'vhanel be found?"
+  },
+  {
+   "aliases": [
+    "who posted the bounty",
+    "who wants jaivhanel dead"
+   ],
+   "answer": "The bounty was posted by the Auberdine Village Council, who oversee civil security and local welfare for the coastal settlement and surrounding roads.",
+   "q": "Who posted the bounty on Jai'vhanel?"
+  },
+  {
+   "aliases": [
+    "who takes proof of death",
+    "where to turn in jaivhanel feather",
+    "glynda nalshea bounty"
+   ],
+   "answer": "Bounty hunters must present one of Jai'vhanel's jet black feathers as proof of her demise to Sentinel Glynda Nal'Shea, stationed in the town of Auberdine.",
+   "q": "Who collects the reward for Jai'vhanel?"
+  },
+  {
+   "aliases": [
+    "what is proof of death for jaivhanel",
+    "what item proves jaivhanel died"
+   ],
+   "answer": "Anyone claiming the council's bounty must retrieve and present one of Jai'vhanel's distinct jet black feathers to prove the mad bird has been slain.",
+   "q": "What proof is needed to claim the bounty?"
+  }
+ ],
+ "keywords": [
+  "ameth'aran",
+  "auberdine",
+  "black owl",
+  "darkshore",
+  "glynda nal'shea",
+  "jai'vhanel",
+  "swordfeather",
+  "wanted: jai'vhanel"
+ ],
+ "related": [
+  "subzone:auberdine",
+  "subzone:ameth-aran"
+ ],
+ "sections": [
+  {
+   "body": "A posted notice from the Auberdine Village Council alerts travelers along the coastal roads of Darkshore to a dangerous menace. A prominent local owl known as Jai'vhanel, nicknamed 'Swordfeather', has succumbed to a sudden madness. Rather than keeping to the dense wilderness, she has begun ambushing travelers and couriers journeying near Auberdine, transforming an ordinary woodland predator into a critical hazard for the settlement.",
+   "spoiler": 0,
+   "title": "A Threat on the Road"
+  },
+  {
+   "body": "To secure the safety of the roadways, the council has placed an open bounty on Jai'vhanel's head. Slayers are directed to track the black-feathered raptor to her hunting grounds north of the ruins of Ameth'Aran, along the mountain base. Hunters must bring back one of her distinctive jet black feathers to Sentinel Glynda Nal'Shea in Auberdine to verify the kill and collect their reward.",
+   "spoiler": 0,
+   "title": "The Council's Bounty"
+  }
+ ],
+ "summary": "WANTED: Jai'vhanel is an Alliance bounty posted by the Auberdine Village Council in Darkshore. The notice calls for the elimination of Jai'vhanel, a maddened black owl known as 'Swordfeather' that has begun ambushing travelers along the road near Auberdine. Adventurers must hunt the creature near the ruins of Ameth'Aran and bring proof of her death to Sentinel Glynda Nal'Shea.",
+ "attribution": [
+  "In-game quest text: WANTED: Jai'vhanel"
+ ]
+}

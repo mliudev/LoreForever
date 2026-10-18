@@ -1,0 +1,107 @@
+{
+ "key": "quest:92468",
+ "type": "quest",
+ "name": "Call of Earth",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92468
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Obtaining your first totem marks the beginning of communion with the elemental forces. It serves as an indispensable physical focus to channel earth-aligned spells and rites."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "For the Skyborne seeking to reconnect with the winds, mastering the earth is an essential first step. The path to hearing the wind begins by grounding oneself in the solid foundations of the earth."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is boro",
+    "windshaper boros location",
+    "where is thendal grove"
+   ],
+   "answer": "Windshaper Boros (referred to as Boro) resides in Thendal Grove. As an elder practitioner and crafter, he guides initiates in understanding the elemental spirits and shapes their focal totems from elemental gifts.",
+   "q": "Who is Windshaper Boros?"
+  },
+  {
+   "aliases": [
+    "what is rough quartz",
+    "shard of earth",
+    "quartz use"
+   ],
+   "answer": "The Rough Quartz is an elemental shard granted directly by an earth spirit as proof of your meeting and communion. Windshaper Boros uses it as the foundational core and heart of your crafted Earth Totem.",
+   "q": "What is the purpose of the Rough Quartz?"
+  },
+  {
+   "aliases": [
+    "what does earth totem do",
+    "totem purpose",
+    "why need totem"
+   ],
+   "answer": "An Earth Totem acts as a personal focal implement required to commune with the spirits of the earth and channel earth-based spells. Beyond signifying status as an initiate, it anchors the practitioner to the world's elemental foundations.",
+   "q": "Why is an Earth Totem necessary?"
+  },
+  {
+   "aliases": [
+    "why start with earth",
+    "seeking the winds",
+    "all four elements"
+   ],
+   "answer": "While practitioners may strive to hear and sing the songs of the winds, the winds represent only one facet of the world's elemental balance. One must first study and master all four elements, beginning with the stability, patience, and strength of the earth.",
+   "q": "Why must one commune with earth before speaking with the winds?"
+  },
+  {
+   "aliases": [
+    "where is thendal grove",
+    "thendal grove zone"
+   ],
+   "answer": "Thendal Grove is the sanctuary where Windshaper Boros tends to elemental matters and instructs novices embarking upon their shamanic journey.",
+   "q": "Where is Thendal Grove located?"
+  },
+  {
+   "aliases": [
+    "what elements ask",
+    "earth philosophy"
+   ],
+   "answer": "The earth spirit teaches that size does not matter, for even the smallest stone can endure long after greater things crumble. It demands patience, inner strength, and the pursuit of wisdom in exchange for mutual respect and harmony.",
+   "q": "What wisdom does the earth spirit impart?"
+  }
+ ],
+ "keywords": [
+  "call of earth",
+  "earth totem",
+  "elements",
+  "rough quartz",
+  "shaman",
+  "thendal grove",
+  "windshaper boro",
+  "windshaper boros"
+ ],
+ "related": [
+  "item:rough-quartz"
+ ],
+ "sections": [
+  {
+   "body": "The quest begins when an earth spirit grants an initiate a shard of Rough Quartz as living proof of their communion. The spirit instructs the bearer to take this token to Windshaper Boros in Thendal Grove, explaining that even the smallest fragment carries enduring strength. The spirits demand patience, resilience, and wisdom before granting their favor and respect.",
+   "spoiler": 0,
+   "title": "The Earth's Gift"
+  },
+  {
+   "body": "Windshaper Boros uses the Rough Quartz as the core to fashion an Earth Totem. He reminds the initiate that the elemental path is multifaceted: although their ultimate desire may be to hear and sing the songs of the wind, true mastery requires understanding all four elemental forces, starting with the unyielding ground beneath their feet.",
+   "spoiler": 0,
+   "title": "The Four Elements and the Totem"
+  }
+ ],
+ "summary": "Call of Earth is a sacred trial of communion where an initiate obtains a piece of Rough Quartz from an earth spirit. Brought to Windshaper Boros in Thendal Grove, this mineral shard becomes the core of the practitioner's first Earth Totem, grounding their bond with the elemental forces.",
+ "attribution": [
+  "In-game quest text: Call of Earth"
+ ]
+}

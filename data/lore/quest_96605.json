@@ -1,0 +1,97 @@
+{
+ "key": "quest:96605",
+ "type": "quest",
+ "name": "The Great Outdoors",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96605
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Campfires and wilderness survival form the foundation of cooking in the field, making camp craft a natural complement to preparing meals under the open sky."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is the great outdoors",
+    "the great outdoors quest"
+   ],
+   "answer": "The Great Outdoors is an introductory wilderness survival quest offered by Kaga. It introduces fledgling adventurers to the fundamentals of surviving in the wilds, resting by a campfire, and preparing for professional trades.",
+   "q": "What is The Great Outdoors?"
+  },
+  {
+   "aliases": [
+    "who is kaga",
+    "kaga questgiver"
+   ],
+   "answer": "Kaga is a seasoned traveler and outdoor mentor who guides aspiring adventurers in the basics of wilderness survival. He maintains a basic campfire where newcomers can learn to rest and recover.",
+   "q": "Who offers this quest?"
+  },
+  {
+   "aliases": [
+    "boosted rest",
+    "what is boosted rest buff"
+   ],
+   "answer": "Boosted Rest is the beneficial state of relaxation gained by sitting peacefully beside Kaga's Basic Campfire. It represents the rejuvenating effect of resting properly at a wilderness campsite.",
+   "q": "What is the Boosted Rest buff?"
+  },
+  {
+   "aliases": [
+    "camp fixtures lore",
+    "trade camp fixtures"
+   ],
+   "answer": "After mastering basic wilderness resting, tradeskill trainers in nearby settlements can teach adventurers how to construct specialized camp fixtures tailored to their chosen crafts.",
+   "q": "What are camp fixtures?"
+  },
+  {
+   "aliases": [
+    "why rest at campfire",
+    "campfire resting"
+   ],
+   "answer": "Surviving outside civilized towns demands learning how to make camp and recover stamina. Sitting by a campfire allows adventurers to gain warmth, focus, and rested recovery between perilous journeys.",
+   "q": "Why does Kaga have you sit by the campfire?"
+  },
+  {
+   "aliases": [
+    "what next after great outdoors",
+    "after kaga quest"
+   ],
+   "answer": "Upon learning how to properly rest in the wilds, Kaga advises seeking out profession trainers in the nearby village to learn a trade and acquire recipes for trade-specific camp fixtures.",
+   "q": "What should you do after completing this lesson?"
+  }
+ ],
+ "keywords": [
+  "boosted rest",
+  "camp fixture",
+  "campfire",
+  "kaga",
+  "survival",
+  "the great outdoors",
+  "tradeskill",
+  "wilderness"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Every adventurer setting foot beyond the safety of civilization quickly discovers that raw courage is not enough to survive the frontier. The Great Outdoors introduces newcomers to the vital necessity of wilderness acclimation. Taught by the experienced traveler Kaga, this brief lesson reminds fledgling heroes that thriving in unexplored territories begins with knowing how to establish a camp and endure the open elements.",
+   "spoiler": 0,
+   "title": "Lessons of the Wild"
+  },
+  {
+   "body": "A simple campfire is often all that stands between an explorer and the exhaustion of the untamed wilderness. By taking a seat beside Kaga's hearth and gaining the Boosted Rest buff, adventurers discover the recuperative power of camp life. Once the fundamentals of wilderness rest are understood, Kaga urges travelers to visit nearby settlement artisans to learn tradeskills and master the crafting of professional camp fixtures.",
+   "spoiler": 0,
+   "title": "The Hearth and the Craft"
+  }
+ ],
+ "summary": "The Great Outdoors is an introductory quest that instructs aspiring adventurers in the fundamental arts of wilderness survival. Guided by the traveler Kaga, newcomers learn how to recuperate beside a basic campfire before advancing to learn tradeskills and craft specialized camp fixtures.",
+ "attribution": [
+  "In-game quest text: The Great Outdoors"
+ ]
+}

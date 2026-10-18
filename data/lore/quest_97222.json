@@ -1,0 +1,100 @@
+{
+ "key": "quest:97222",
+ "type": "quest",
+ "name": "Gatehouse Goods",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97222
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Helping arrange discreet deliveries through Trias' Cheese keeps goods flowing smoothly between local Stormwind shopkeepers and adjacent gatehouse personnel."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Operating quietly around Trias' Cheese and minding subtle architectural details like inward-swinging doors is second nature to those who appreciate discretion."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is gatehouse goods",
+    "gatehouse goods quest"
+   ],
+   "answer": "Gatehouse Goods is a local delivery errand in Stormwind involving Trias' Cheese and the adjacent gatehouse. A courier is asked to haul a shipment up the stairs and drop it off outside the gatehouse stockroom door.",
+   "q": "What is Gatehouse Goods?"
+  },
+  {
+   "aliases": [
+    "trias cheese gatehouse",
+    "where is delivery going"
+   ],
+   "answer": "The delivery goes up the stairs inside Trias' Cheese shop. Although Trias' Cheese is an independent business, its building shares a floor with the gatehouse, allowing direct drop-offs right outside their stockroom.",
+   "q": "Where is the shipment supposed to be delivered?"
+  },
+  {
+   "aliases": [
+    "why not deliver inside",
+    "who picks up the crate"
+   ],
+   "answer": "The recipient specifically instructs the courier to leave the crate outside the stockroom door rather than bringing it inside. The gatehouse guards notice the arrival and send someone on regular pickup duty to carry it in as they return to post.",
+   "q": "Why is the crate left outside the door instead of brought inside?"
+  },
+  {
+   "aliases": [
+    "inward door trias",
+    "stockroom door hinge"
+   ],
+   "answer": "The stockroom hinge opens inward specifically so packages and goods dropped outside the doorway will not block the door or trap people inside.",
+   "q": "Why does the stockroom door open inward?"
+  },
+  {
+   "aliases": [
+    "is trias cheese part of gatehouse",
+    "trias cheese stock"
+   ],
+   "answer": "No, Trias' Cheese is not part of the gatehouse and does not share stocking inventory. However, the two establishments share a building floor, making the upper stairs a convenient transfer point.",
+   "q": "Is Trias' Cheese affiliated with the gatehouse?"
+  },
+  {
+   "aliases": [
+    "who gives gatehouse goods",
+    "who accepts the delivery"
+   ],
+   "answer": "The task is arranged by local operators who expect professional respect and mutual discretion, acknowledging reliable couriers once the drop-off is successfully carried out without obstructing the threshold.",
+   "q": "Who oversees the delivery of the goods?"
+  }
+ ],
+ "keywords": [
+  "delivery",
+  "elling trias",
+  "gatehouse goods",
+  "gatehouse shipment",
+  "stockroom",
+  "stormwind",
+  "trias cheese"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Gatehouse Goods entails a straightforward delivery task nestled within the bustling streets of Stormwind. The job requires carrying a gatehouse shipment up the interior stairs of Trias' Cheese. While the famed cheese shop is an entirely distinct business with its own separate inventory, its physical structure shares a floor with the neighboring gatehouse facilities. This architectural quirk makes the shop's upper landing a practical passage for moving supplies between neighboring quarters without disturbing the front avenues.",
+   "spoiler": 0,
+   "title": "Shared Quarters and Shared Floors"
+  },
+  {
+   "body": "The delivery protocol is precise: couriers must leave the crate directly outside the stockroom door rather than carrying it inside. Regular gatehouse guards keep an eye on incoming traffic and assign personnel to retrieve packages as they return to their posts. Furthermore, the stockroom's door is deliberately built with inward-swinging hinges, ensuring that goods stacked outside will never block the entryway or hinder those inside from moving freely.",
+   "spoiler": 0,
+   "title": "A Practical Drop-off"
+  }
+ ],
+ "summary": "Gatehouse Goods is a local Stormwind task involving the transport of a shipment up the stairs within Trias' Cheese. Because the cheese shop shares a floor with the adjacent gatehouse, goods can be quietly dropped outside the stockroom door for guards to collect. The arrangement highlights the tight, interconnected urban design of Stormwind's commercial and defensive quarters.",
+ "attribution": [
+  "In-game quest text: Gatehouse Goods"
+ ]
+}

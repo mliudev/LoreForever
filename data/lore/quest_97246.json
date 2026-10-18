@@ -1,0 +1,109 @@
+{
+ "key": "quest:97246",
+ "type": "quest",
+ "name": "Meal Appeal",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97246
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Life inside the walls of Orgrimmar is not solely about warfare and defense; everyday matters like feeding children running through the Valley of Strength keep the city's community alive."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Even in the harsh culture of the orcs, parents like Thatog worry about their children neglecting meals for play in the streets of Durotar's capital."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is thatog",
+    "quest giver thatog",
+    "thatog orgrimmar"
+   ],
+   "answer": "Thatog is a busy orc parent stationed in Orgrimmar whose daily responsibilities prevent him from stepping away to supervise his young son, Migi. Concerned that Migi is skipping his meals while playing with friends, Thatog enlists a willing adventurer to pick up and deliver food for the boy.",
+   "q": "Who is Thatog?"
+  },
+  {
+   "aliases": [
+    "where is migi",
+    "migi location",
+    "find migi"
+   ],
+   "answer": "Migi spends his days playing games with his friends in the capital city. Thatog notes that the children can almost certainly be found roughhousing and playing behind Grommash Hold in Orgrimmar.",
+   "q": "Where can Migi be found?"
+  },
+  {
+   "aliases": [
+    "where is borstan firepit",
+    "borstans firepit location",
+    "borstan lunch"
+   ],
+   "answer": "Borstan runs Borstan's Firepit, a local food establishment in Orgrimmar. Thatog asks travelers to stop there first and inform Borstan that they are picking up a pre-arranged lunch to deliver to Migi personally.",
+   "q": "What is Borstan's Firepit?"
+  },
+  {
+   "aliases": [
+    "why does migi skip lunch",
+    "migi starving",
+    "why is migi not eating"
+   ],
+   "answer": "Like many energetic young orcs, Migi gets so absorbed in playing all day with his friends behind Grommash Hold that he forgets or chooses not to stop by Borstan's Firepit for food, frequently arriving home at the end of the day completely starved.",
+   "q": "Why does Migi forget to eat?"
+  },
+  {
+   "aliases": [
+    "who is migi",
+    "migi orc kid",
+    "thatogs son"
+   ],
+   "answer": "Migi is the young son of Thatog. He roams Orgrimmar playing games with a group of friends, prioritizing his playtime over returning home or picking up his prepared meals.",
+   "q": "Who is Migi?"
+  },
+  {
+   "aliases": [
+    "meal appeal quest goal",
+    "what to do meal appeal",
+    "meal appeal task"
+   ],
+   "answer": "The task requires stopping by Borstan's Firepit to let Borstan know Thatog sent you for Migi's lunch, and then delivering the food directly to Migi behind Grommash Hold so the boy does not go hungry during his games.",
+   "q": "What is the objective of Meal Appeal?"
+  }
+ ],
+ "keywords": [
+  "borstan",
+  "borstans firepit",
+  "grommash hold",
+  "lunch delivery",
+  "meal appeal",
+  "migi",
+  "orgrimmar",
+  "thatog"
+ ],
+ "related": [
+  "subzone:grommash-hold"
+ ],
+ "sections": [
+  {
+   "body": "In the bustling red-rock avenues of Orgrimmar, everyday domestic life continues alongside the drills of grunt warriors and the machinations of the Horde. Thatog, bound to his daily post by duty, finds himself unable to keep a watchful eye over his energetic young son, Migi. Left to his own devices, Migi spends from morning till dusk racing through the city streets with his friends, consistently neglecting his stomach until returning home famished.",
+   "spoiler": 0,
+   "title": "A Parent's Duty in Orgrimmar"
+  },
+  {
+   "body": "Rather than let the boy go hungry yet another afternoon, Thatog arranges for a hot meal at Borstan's Firepit. Because Migi will not bother to stop his games to pick up lunch himself, Thatog asks passing adventurers to act as a personal courier. The errand takes travelers from Borstan's cookfire to the open yard behind Grommash Hold, where Migi and the rest of the neighborhood youths can almost always be found caught up in their childhood games.",
+   "spoiler": 0,
+   "title": "Delivery Behind the Hold"
+  }
+ ],
+ "summary": "Meal Appeal is an Orgrimmar errand given by Thatog, an orc tied down by his daily duties who worries his young son Migi is skipping meals to play. Travelers are asked to pick up a prepared lunch from Borstan's Firepit and track down Migi playing behind Grommash Hold. It offers a grounded look at domestic family life within the Horde's capital.",
+ "attribution": [
+  "In-game quest text: Meal Appeal"
+ ]
+}

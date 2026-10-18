@@ -2,34 +2,28 @@
   "_readme": "Which zip on the public repo's \"audio\" release holds each voice pack's recordings, which aren't in its git history (LOR-133). scripts/release.sh writes it with each release (scripts/audio_assets.py manifest); the release workflow puts the recordings back from it (fetch). Don't edit it by hand.",
   "packs": {
     "LoreForever_Voice_Default": {
-      "asset": "LoreForever_Voice_Default-2f4a324150a8f11b.zip",
-      "fingerprint": "2f4a324150a8f11b4fa02e3795373f2a432d8c32717c8154a1b2f03401b12198",
-      "files": 335,
-      "bytes": 170380744
+      "asset": "LoreForever_Voice_Default-ae0f0fba4da32a48.zip",
+      "fingerprint": "ae0f0fba4da32a486b2ee575316cd404cf45518cc74361b89e0e8ba05dccbb37",
+      "files": 317,
+      "bytes": 150079762
     },
     "LoreForever_Voice_Default_Alliance": {
-      "asset": "LoreForever_Voice_Default_Alliance-e6da58cbde4949c3.zip",
-      "fingerprint": "e6da58cbde4949c3258c7df6c5c873da97fa727a930d703e43026f03cd10ced0",
-      "files": 613,
-      "bytes": 253303314
+      "asset": "LoreForever_Voice_Default_Alliance-bce5ddc4ec254b75.zip",
+      "fingerprint": "bce5ddc4ec254b751fb315b2c0aa8ba94c92e323bb1b5899967796eaaecba474",
+      "files": 769,
+      "bytes": 254362863
     },
     "LoreForever_Voice_Default_Horde": {
-      "asset": "LoreForever_Voice_Default_Horde-ae5cb577dd2e87eb.zip",
-      "fingerprint": "ae5cb577dd2e87ebeba26697ed6e656efe9c399fa41a0ca714014bb1224cd5d0",
-      "files": 425,
-      "bytes": 176561693
+      "asset": "LoreForever_Voice_Default_Horde-0263ab9f53fa8f33.zip",
+      "fingerprint": "0263ab9f53fa8f33dc42998a1671cf847fa71aa8f96991758dde961ecf97276b",
+      "files": 490,
+      "bytes": 159984291
     },
     "LoreForever_Voice_Default_ukUA": {
       "asset": "LoreForever_Voice_Default_ukUA-5de5d7915e08c9ad.zip",
       "fingerprint": "5de5d7915e08c9ad6aefa86477c9928ac2316e37bf643306ea221ac9ab11f322",
       "files": 808,
       "bytes": 318455490
-    },
-    "LoreForever_Voice_BrownieeSVoice": {
-      "asset": "LoreForever_Voice_BrownieeSVoice-8a359ae120787121.zip",
-      "fingerprint": "8a359ae120787121b953c04ecb0b866ff543cbc3bd4fcbd10e66eb732564d547",
-      "files": 5,
-      "bytes": 1089424
     },
     "LoreForever_Edition_Densuad_esES_Audio": {
       "asset": "LoreForever_Edition_Densuad_esES_Audio-28051d2defbda6a3.zip",
@@ -38,34 +32,34 @@
       "bytes": 699171220
     },
     "LoreForever_Voice_Default_Quests": {
-      "asset": "LoreForever_Voice_Default_Quests-59c6fdb3d02197eb.zip",
-      "fingerprint": "59c6fdb3d02197eb8ac1543e39d02cef8cac28f832a9ed7cd6e2cc1c72bec564",
-      "files": 3751,
-      "bytes": 340693621
+      "asset": "LoreForever_Voice_Default_Quests-5701b1c1a242932f.zip",
+      "fingerprint": "5701b1c1a242932f156daf19303840ad7edae9c7a2dea7c4fd0dacfca3444d8d",
+      "files": 4053,
+      "bytes": 368974518
     },
     "LoreForever_Voice_Female": {
-      "asset": "LoreForever_Voice_Female-eae2736d3755818b.zip",
-      "fingerprint": "eae2736d3755818b859ef4e6521a2b03346a3dfe6d3e493b317bd281ef299d83",
-      "files": 329,
-      "bytes": 169857925
+      "asset": "LoreForever_Voice_Female-2481341adb3caad2.zip",
+      "fingerprint": "2481341adb3caad27d60e6f4be4a66ec54922ecebc304cd2bd7ef02ece5ea0c2",
+      "files": 388,
+      "bytes": 200820391
     },
     "LoreForever_Voice_Female_Alliance": {
-      "asset": "LoreForever_Voice_Female_Alliance-1d35c528ac66ad57.zip",
-      "fingerprint": "1d35c528ac66ad574b2fb0408a3dadf5663feac1f2925b2c3b930094618a8053",
-      "files": 608,
-      "bytes": 260999048
+      "asset": "LoreForever_Voice_Female_Alliance-9b632ffb6cdac09b.zip",
+      "fingerprint": "9b632ffb6cdac09bde9602bb43a643279e09864d08c0a63d285d3cf122a0cddb",
+      "files": 688,
+      "bytes": 287632362
     },
     "LoreForever_Voice_Female_Horde": {
-      "asset": "LoreForever_Voice_Female_Horde-9623d316878a863b.zip",
-      "fingerprint": "9623d316878a863b7bd37ab102b2d662aa217f45884f8f83ed8baed498bda166",
-      "files": 424,
-      "bytes": 182699010
+      "asset": "LoreForever_Voice_Female_Horde-18336eeeffa985b5.zip",
+      "fingerprint": "18336eeeffa985b50e157ffe316d66aeb334fe3e3845d598559ebf50766161f0",
+      "files": 464,
+      "bytes": 193538983
     },
     "LoreForever_Voice_Female_Quests": {
-      "asset": "LoreForever_Voice_Female_Quests-7d949509a4c820ea.zip",
-      "fingerprint": "7d949509a4c820eae8f8b9c76e2af78ec307d79aaa29ddce7eddc4094512fc56",
-      "files": 3751,
-      "bytes": 359188161
+      "asset": "LoreForever_Voice_Female_Quests-37b50fd54d263685.zip",
+      "fingerprint": "37b50fd54d263685f71ce7d872964b199922a284e6a80fac44b75c1d0a255d43",
+      "files": 4052,
+      "bytes": 389927415
     },
     "LoreForever_Voice_QuestGivers": {
       "asset": "LoreForever_Voice_QuestGivers-befd351149e01d17.zip",
@@ -74,10 +68,10 @@
       "bytes": 295169470
     },
     "LoreForever_Voice_Default_MorePlaces": {
-      "asset": "LoreForever_Voice_Default_MorePlaces-6534b0baf3d47957.zip",
-      "fingerprint": "6534b0baf3d47957cf3ffd174f0180acf800af0120a76feb65ebe04db9fed070",
-      "files": 408,
-      "bytes": 152286626
+      "asset": "LoreForever_Voice_Default_MorePlaces-0109ef004102e361.zip",
+      "fingerprint": "0109ef004102e3617db0794835deb2036960081ec31856ceac0be89912a09e91",
+      "files": 410,
+      "bytes": 152902436
     },
     "LoreForever_Voice_Default_MorePeople": {
       "asset": "LoreForever_Voice_Default_MorePeople-6c84e8228c949127.zip",
@@ -86,10 +80,10 @@
       "bytes": 203130228
     },
     "LoreForever_Voice_Female_MorePlaces": {
-      "asset": "LoreForever_Voice_Female_MorePlaces-e3081db69c386014.zip",
-      "fingerprint": "e3081db69c3860142c17b0566677d07365174bfec1acf1c9efc96fbc2bd39562",
-      "files": 408,
-      "bytes": 157997416
+      "asset": "LoreForever_Voice_Female_MorePlaces-a6400086f7c472b8.zip",
+      "fingerprint": "a6400086f7c472b84db29631c6a83083a5d41d94c9826bf2509e3a113ad807fc",
+      "files": 410,
+      "bytes": 158642066
     },
     "LoreForever_Voice_Female_MorePeople": {
       "asset": "LoreForever_Voice_Female_MorePeople-5448eea205eb4cca.zip",

@@ -1,0 +1,115 @@
+{
+ "key": "quest:684",
+ "type": "quest",
+ "name": "WANTED: Marez Cowl",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   684
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance garrison at Refuge Pointe under Captain Nials is fighting desperately to reclaim Stromgarde, making high-ranking Syndicate targets like Marez Cowl top strategic priorities."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Marez Cowl represents the darker occult wing of the Syndicate, demonstrating how political renegades readily turn to demonic summoning to expand their influence."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "As an open trafficker with demonic entities among the ruins of an ancient human kingdom, Cowl stands as an affront to the Holy Light and the defense of Stromgarde."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is marez cowl",
+    "marez cowl background",
+    "who is she"
+   ],
+   "answer": "Marez Cowl is a high-level operative and advisor within the Syndicate. Far from a mere foot soldier, she wields considerable influence within the criminal organization and is recognized as a cunning, dangerous warlock known for trafficking with demonic forces.",
+   "q": "Who is Marez Cowl?"
+  },
+  {
+   "aliases": [
+    "where to find marez cowl",
+    "marez cowl location",
+    "where is marez"
+   ],
+   "answer": "Marez Cowl resides within the Syndicate-controlled section of the ruined city of Stromgarde in the Arathi Highlands. Anyone attempting to hunt her must navigate deeply entrenched criminal forces to locate her sanctum.",
+   "q": "Where is Marez Cowl located?"
+  },
+  {
+   "aliases": [
+    "who posted bounty marez cowl",
+    "who wants marez cowl dead",
+    "who pays bounty"
+   ],
+   "answer": "The bounty is offered on behalf of the Alliance military forces stationed in the Arathi Highlands. It is overseen by Captain Nials, who commands the Alliance stronghold at Refuge Pointe.",
+   "q": "Who posted the bounty on Marez Cowl?"
+  },
+  {
+   "aliases": [
+    "why is marez cowl wanted",
+    "why bounty on marez cowl",
+    "why kill marez cowl"
+   ],
+   "answer": "She is wanted because of her critical leadership role in the Syndicate and her active practice of demonic summoning within Stromgarde. Her presence poses an immediate threat to the Alliance garrison struggling to reclaim the ruined kingdom.",
+   "q": "Why is there a bounty on her head?"
+  },
+  {
+   "aliases": [
+    "what makes marez cowl dangerous",
+    "marez cowl powers",
+    "is marez cowl strong"
+   ],
+   "answer": "Marez is not just a political conspirator; she is an accomplished warlock who actively summons and bargains with demons. Hunters are explicitly warned to exercise extreme caution when confronting her and her demonic minions.",
+   "q": "What kind of magic does Marez Cowl use?"
+  },
+  {
+   "aliases": [
+    "where turn in marez cowl bounty",
+    "where is captain nials",
+    "turn in marez head"
+   ],
+   "answer": "Once Marez Cowl is slain, her head must be delivered directly to Captain Nials at Refuge Pointe, the primary Alliance outpost in the Arathi Highlands.",
+   "q": "Where do you turn in the bounty for Marez Cowl?"
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "bounty",
+  "captain nials",
+  "marez cowl",
+  "refuge pointe",
+  "stromgarde",
+  "syndicate",
+  "warlock"
+ ],
+ "related": [
+  "subzone:refuge-pointe",
+  "topic:syndicate",
+  "topic:warlock"
+ ],
+ "sections": [
+  {
+   "body": "WANTED: Marez Cowl is an Alliance bounty decree posted to eliminate one of the Syndicate's key leadership figures in the Arathi Highlands. Marez Cowl serves as a high-ranking advisor and field operative within the organization, orchestrating their activities in the ruined capital of Stromgarde. By placing a price on her head, Alliance commanders at Refuge Pointe aim to decapitate the Syndicate's local command structure.",
+   "spoiler": 0,
+   "title": "A Price on Syndicate Leadership"
+  },
+  {
+   "body": "Unlike typical brigands or dispossessed nobles among the Syndicate, Marez Cowl is a practitioner of dark sorcery. She is known as a cunning warlock who openly traffics with demonic powers to enforce her will and defend Syndicate territory. Approaching her lair within Stromgarde requires confronting not only cutthroats and conspirators, but the fell entities she commands.",
+   "spoiler": 0,
+   "title": "The Warlock of Stromgarde"
+  }
+ ],
+ "summary": "WANTED: Marez Cowl is an Alliance bounty quest issued against a high-ranking Syndicate operative entrenched within the ruins of Stromgarde. As both an influential advisor and a dark warlock trafficking with demons, Cowl represents a severe threat to the Alliance forces attempting to secure the Arathi Highlands.",
+ "attribution": [
+  "In-game quest text: WANTED: Marez Cowl"
+ ]
+}

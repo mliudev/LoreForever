@@ -46,11 +46,21 @@ function Lang.Dotted(s)
   return s
 end
 
+-- The copy key the copy boxes name. A Mac client copies from an edit box with Cmd+C, not Ctrl+C, and its fonts have no
+-- "⌘", so there the strings say Cmd+C (the translations say Ctrl+C, or Strg+C in German). UI strings get it through L.
+Lang.mac = (IsMacClient and IsMacClient()) and true or false
+function Lang.Keys(s)
+  if Lang.mac and type(s) == "string" and (s:find("Ctrl+C", 1, true) or s:find("Strg+C", 1, true)) then
+    return (s:gsub("Ctrl%+C", "Cmd+C"):gsub("Strg%+C", "Cmd+C"))
+  end
+  return s
+end
+
 -- Lang.fallbacks: the UI strings looked up that have no translation (in English, all of them), for /lore qa.
 Lang.fallbacks = {}
 ns.L = setmetatable({}, { __index = function(_, k)
   if k ~= nil then Lang.fallbacks[k] = true end
-  return Lang.Dotted(k)
+  return Lang.Keys(Lang.Dotted(k))
 end })
 local L = ns.L
 
@@ -539,9 +549,9 @@ local function init(lang)
   db.fullclips, db.fullclipsLocale = {}, rec.locale
 
   local overlayOK = ow and Lang.OverlayEntries(db, ow)   -- before the merge: fp is over the English
-  for k, v in pairs((tw and tw.ui) or {}) do rawset(L, k, Lang.Dotted(v)) end
+  for k, v in pairs((tw and tw.ui) or {}) do rawset(L, k, Lang.Keys(Lang.Dotted(v))) end
   for k, v in pairs((ow and ow.ui) or {}) do
-    if type(v) == "string" and v ~= "" then rawset(L, k, Lang.Dotted(v)) end
+    if type(v) == "string" and v ~= "" then rawset(L, k, Lang.Keys(Lang.Dotted(v))) end
   end
   local merged = {}
   if tw then

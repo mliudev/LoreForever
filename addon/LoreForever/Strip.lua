@@ -334,10 +334,13 @@ local function creatureType(has, isPlayer)
 end
 
 -- The target's line of work (bytes 43-44): ROLES' number, from the line under its name ("Gryphon Master", "Trade
--- Supplies") or the name itself ("Ironforge Guard", "Innkeeper Firebrew"). English words only: on a client in another
--- language most say nothing (0). companion/lore_companion/strip.py ROLES has the same numbers.
+-- Supplies") or the name itself ("Ironforge Guard", "Innkeeper Firebrew"); untitled: the line under the name is only their
+-- level, so Willo never lends them a neighbour's work (LOR-629: Finaida Earthbore, beside the Hall of Arms' warrior
+-- trainer, was called one). English words only: on a client in another language most say nothing (0).
+-- companion/lore_companion/strip.py ROLES has the same numbers.
 Strip.ROLES = { guard = 1, gryphon = 2, windrider = 3, hippogryph = 4, bat = 5, flight = 6, innkeeper = 7, banker = 8,
-  auctioneer = 9, stable = 10, vendor = 11, trainer = 12, quartermaster = 13, battlemaster = 14, guildmaster = 15 }
+  auctioneer = 9, stable = 10, vendor = 11, trainer = 12, quartermaster = 13, battlemaster = 14, guildmaster = 15,
+  untitled = 16 }
 -- The line under the name, in this order: a trainer's names a craft ("Blacksmithing Trainer") and a weapon master
 -- trains, so they come before what a merchant's line says they sell.
 local TITLE_ROLES = {
@@ -374,7 +377,7 @@ function Strip.Role(name, title)
   for word in n:gmatch("%a+") do
     if NAME_WORDS[word] then return Strip.ROLES[NAME_WORDS[word]] end
   end
-  return 0
+  return t:find("^level ") and Strip.ROLES.untitled or 0
 end
 
 -- The line under the target's name on its tooltip, read off a hidden tooltip of our own: "Gryphon Master", or "Level

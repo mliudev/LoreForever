@@ -1,0 +1,125 @@
+{
+ "key": "quest:97539",
+ "type": "quest",
+ "name": "Silky Sutures",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97539
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Hammerfall represents a vital Horde stronghold in the Arathi Highlands, making Doctor Victor's efforts to keep its defenders healthy and battle-ready critical to the faction's regional survival."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Doctor Gregory Victor brings the pragmatic, unsentimental medical expertise characteristic of the Forsaken to Hammerfall, utilizing improvised highland resources to keep the clinic functional."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is victor",
+    "gregory victor lore",
+    "hammerfall doctor"
+   ],
+   "answer": "Doctor Gregory Victor is the resident medical officer and trauma surgeon overseeing the infirmary at Hammerfall in the Arathi Highlands. Possessing a mordant wit and a no-nonsense approach to battlefield triage, he works tirelessly to treat wounded guards and laborers. Despite severe supply shortages and unrepaired siege damage across the outpost, Victor remains determined to prevent the medical ward from succumbing to neglect.",
+   "q": "Who is Doctor Gregory Victor?"
+  },
+  {
+   "aliases": [
+    "why spider silk",
+    "surgical spidersilk use",
+    "spider silk sutures"
+   ],
+   "answer": "The infirmary in Hammerfall is almost entirely out of standard medical supplies and equipment. Under extreme battlefield pressure, Doctor Victor relies on improvisation, twisting strong highland spider silk into effective surgical sutures to sew up lacerations and wounds. The spider silk provides durable thread capable of holding torn flesh together when proper clinical sutures are unavailable.",
+   "q": "Why does Doctor Victor need spider silk?"
+  },
+  {
+   "aliases": [
+    "hammerfall status",
+    "why is hammerfall damaged",
+    "state of hammerfall"
+   ],
+   "answer": "Hammerfall is in a state of visible neglect and physical distress. Old siege damage remains completely unrepaired along the encampment's defenses, giving Doctor Victor the impression that administrative neglect has become official policy. The base suffers from a lack of consistent outside aid and supplies, leaving its stationed guards, laborers, and medical staff forced to fend for themselves.",
+   "q": "What condition is Hammerfall in during this quest?"
+  },
+  {
+   "aliases": [
+    "arathi spiders",
+    "where to find spidersilk",
+    "surgical spidersilk location"
+   ],
+   "answer": "The spiders stalk the wilderness of the Arathi Highlands surrounding the Hammerfall encampment. Adventurers venturing outside the outpost's walls must hunt these aggressive arachnids across the highland plains to harvest the surgical spidersilk needed for Doctor Victor's field sutures before returning safely to the clinic.",
+   "q": "Where do the spiders for this quest come from?"
+  },
+  {
+   "aliases": [
+    "doctor humor",
+    "spider silk infection",
+    "victor jokes"
+   ],
+   "answer": "When presented with the gathered spider silk, Doctor Victor jokes that a little infection is the least of a wounded soldier's concerns when being stitched back together. This dark humor reflects the grim reality of frontline triage in Hammerfall, where preventing severe blood loss and fatal trauma on the battlefield takes precedence over sterile clinical luxury.",
+   "q": "Why is Doctor Victor sarcastic about infection?"
+  },
+  {
+   "aliases": [
+    "why no supplies",
+    "hammerfall supply shortage",
+    "lack of help hammerfall"
+   ],
+   "answer": "Hammerfall sits in a contested and isolated position within the Arathi Highlands, surrounded by hostile threats and cut off from steady supply lines. Outside reinforcement and logistical deliveries arrive infrequently, leaving the outpost's garrison and medical ward to endure chronic shortages of raw materials, tools, and basic healing supplies.",
+   "q": "Why are supplies so scarce at Hammerfall?"
+  },
+  {
+   "aliases": [
+    "who does victor treat",
+    "hammerfall patients",
+    "clinic patients"
+   ],
+   "answer": "The infirmary answers directly to Doctor Gregory Victor and is responsible for treating the laborers and guards stationed at Hammerfall. With the outpost under constant strain from highland dangers and structural damage, maintaining the physical health of these defenders is essential to keeping the settlement fortified and functional.",
+   "q": "Who does the infirmary in Hammerfall treat?"
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "doctor gregory victor",
+  "field sutures",
+  "hammerfall",
+  "infirmary",
+  "silky sutures",
+  "spider silk",
+  "surgical spidersilk"
+ ],
+ "related": [
+  "npc:doctor-gregory-victor",
+  "subzone:hammerfall",
+  "zone:arathi"
+ ],
+ "sections": [
+  {
+   "body": "Hammerfall endures in the rugged Arathi Highlands, but the encampment shows visible signs of prolonged strain. Unrepaired siege damage marks the perimeter, leading the local physician, Doctor Gregory Victor, to bitterly observe that neglect seems to be official policy. Despite the crumbling fortifications and lack of broader support, Victor refuses to let the decay claim his infirmary. Maintaining a working clinic is essential for keeping the laborers and sentinel guards upright and ready for conflict.",
+   "spoiler": 0,
+   "title": "The Crumbling Outpost"
+  },
+  {
+   "body": "Dwindling supplies have left the Hammerfall medical ward on the brink of exhaustion, forcing Doctor Victor to turn to battlefield improvisation. When conventional bandages and stitches run scarce, the tough, tensile silk harvested from highland spiders can be twisted into surprisingly resilient field sutures. Though Victor dryly quips about the risk of infection being the least of a wounded soldier's concerns, harvesting the silk provides the infirmary with the vital equipment needed to patch up wounded defenders in a hostile territory.",
+   "spoiler": 0,
+   "title": "Makeshift Medical Supplies"
+  },
+  {
+   "body": "Operating a frontline clinic under siege conditions requires a hardened temperament, which Doctor Gregory Victor displays in abundance. Greeting travelers with mordant jokes about grave prognoses and spider-string stitches, the physician masks the grim reality of Hammerfall's isolation. Regular aid remains rare in the highlands, making any assistance from visiting champions crucial to sustaining the clinic. Through improvised remedies and stubborn defiance, Victor ensures that Hammerfall's wounded receive care even when the outpost around them seems abandoned to rot.",
+   "spoiler": 0,
+   "title": "Gallows Humor in Hammerfall"
+  }
+ ],
+ "summary": "Silky Sutures is a Horde quest in the Arathi Highlands offered by Doctor Gregory Victor in the outpost of Hammerfall. Frustrated by unrepaired siege damage and dwindling medical supplies, the camp's resident physician recruits adventurers to gather venomous highland spider silk for use as emergency field sutures. The task highlights the desperate, resource-starved conditions facing the defenders of Hammerfall as they struggle to keep their guards and laborers on their feet.",
+ "attribution": [
+  "In-game quest text: Silky Sutures"
+ ]
+}

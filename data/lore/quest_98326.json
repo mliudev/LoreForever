@@ -1,0 +1,110 @@
+{
+ "key": "quest:98326",
+ "type": "quest",
+ "name": "Frosthowl",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98326
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Hardy dwarven fishers endure biting cold across Dun Morogh's frozen lakes, making predatory wendigo attacks an ever-present hazard to local homesteaders and livelihoods."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Keeping the icy paths and fishing spots near Brewnall and Kharanos safe from aggressive predators falls squarely on local Alliance adventurers."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is frosthowl",
+    "what is frosthowl",
+    "frosthowl wendigo"
+   ],
+   "answer": "Frosthowl is a loud, aggressive wendigo lurking in Dun Morogh. Known for roaring and terrorizing the frozen waterways, the beast recently attacked a local dwarven fisher and made off with her husband's hard-earned catch.",
+   "q": "Who is Frosthowl?"
+  },
+  {
+   "aliases": [
+    "where is frosthowl",
+    "frosthowl location",
+    "where is the wendigo hiding"
+   ],
+   "answer": "Frosthowl has taken refuge deep within the Grizzled Den, a cave system located to the southeast of the frozen lake where Paxton fishes.",
+   "q": "Where can Frosthowl be found?"
+  },
+  {
+   "aliases": [
+    "what did frosthowl steal",
+    "why kill frosthowl",
+    "what did the wendigo take"
+   ],
+   "answer": "Frosthowl ambushed a dwarven fisher and stole a full sack of fish that her husband, Paxton, had spent days catching on the frozen lake. Adventurers are asked to hunt down the beast and recover the stolen haul.",
+   "q": "What did Frosthowl steal?"
+  },
+  {
+   "aliases": [
+    "who is paxton",
+    "paxton dun morogh",
+    "paxton fisher"
+   ],
+   "answer": "Paxton is a dwarven fisherman who spent days out on the frozen lake trying to bring in a modest catch. His wife tasks passing travelers with tracking down Frosthowl after the beast stole their only sack of fish.",
+   "q": "Who is Paxton?"
+  },
+  {
+   "aliases": [
+    "what is the grizzled den",
+    "grizzled den wendigo cave",
+    "where do wendigos live in dun morogh"
+   ],
+   "answer": "The Grizzled Den is a known wendigo lair situated to the southeast of the frozen lake in Dun Morogh, serving as a dark retreat for beasts like Frosthowl to hoard scavenged meat and stolen supplies.",
+   "q": "What is the Grizzled Den?"
+  },
+  {
+   "aliases": [
+    "how did frosthowl get its name",
+    "why called frosthowl",
+    "loudmouth wendigo"
+   ],
+   "answer": "The wendigo is referred to as a loudmouth whose thunderous roars and howls echo across the snowy plains, threatening to scare away the fish and terrifying anyone working the frozen lakes.",
+   "q": "Why is the beast named Frosthowl?"
+  }
+ ],
+ "keywords": [
+  "dun morogh",
+  "frosthowl",
+  "frozen lake",
+  "grizzled den",
+  "ice fishing",
+  "paxton",
+  "stolen fish",
+  "wendigo"
+ ],
+ "related": [
+  "subzone:grizzled-den",
+  "quest:313"
+ ],
+ "sections": [
+  {
+   "body": "Ice fishing across the freezing waters of Dun Morogh is grueling, bitter labor. A dwarven fisher and her husband, Paxton, spent days out on the frozen lake braving biting winds just to harvest a single sack of fish. Their hard work was abruptly undone when Frosthowl, a menacing and thunderous wendigo, ambushed the camp and made off with their entire haul into the snowy wilderness.",
+   "spoiler": 0,
+   "title": "A Stolen Haul"
+  },
+  {
+   "body": "Frosthowl is not just an ordinary scavenger; the beast is notorious for its booming roars that rattle the ice and scare off the lake's sparse fish. After snatching the fisher's supply sack, the drooling creature retreated deep into the dark tunnels of the Grizzled Den to the southeast, leaving the stranded fishers desperate for someone to confront the monster and retrieve their stolen goods.",
+   "spoiler": 0,
+   "title": "The Loudmouth of the Grizzled Den"
+  }
+ ],
+ "summary": "Frosthowl is a quest in Dun Morogh tasking adventurers with recovering a stolen sack of fish from a thieving wendigo. The beast ambushed a local dwarven fisher and fled into the depths of the Grizzled Den.",
+ "attribution": [
+  "In-game quest text: Frosthowl"
+ ]
+}

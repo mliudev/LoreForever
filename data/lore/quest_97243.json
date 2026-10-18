@@ -1,0 +1,111 @@
+{
+ "key": "quest:97243",
+ "type": "quest",
+ "name": "Call of Fire",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97243
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Heeding the call of the elements is fundamental to shamanic training, and even in Skywall, communing with fire requires dedicated guidance and ancestral reverence."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "Though native to the winds of Skywall, Skyborne travelers and Windshapers recognize that balance requires acknowledging all four primal elements."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives call of fire",
+    "who do i take the torch to",
+    "olariaan swiftburn"
+   ],
+   "answer": "Olariaan Swiftburn is a shen'dorei member of the Windshapers who possesses an innate attunement to fire. He resides at the Shrine of Flames tucked along the edge of Gustberry Lowlands, west of Valanaar.",
+   "q": "Who is Olariaan Swiftburn?"
+  },
+  {
+   "aliases": [
+    "where is shrine of flames",
+    "gustberry lowlands location",
+    "how to find olariaan"
+   ],
+   "answer": "The Shrine of Flames is located in the Gustberry Lowlands within Skywall. It sits secluded along the edge of the floating island expanse, directly west of Valanaar.",
+   "q": "Where is the Shrine of Flames?"
+  },
+  {
+   "aliases": [
+    "why fire in skywall",
+    "elemental plane fire",
+    "isnt skywall just air"
+   ],
+   "answer": "Although Skywall is predominantly the elemental domain of air, it remains an integral part of the broader Elemental Plane. The spirits of all four elements still resonate across its reaches for those attuned enough to listen.",
+   "q": "Why is fire being studied in Skywall?"
+  },
+  {
+   "aliases": [
+    "what is the dormant flame",
+    "torch of dormant flame",
+    "what item do i carry"
+   ],
+   "answer": "The Torch of Dormant Flame is an elemental focus carried to Olariaan Swiftburn, serving as the conduit for an initiate seeking instruction in communing with fire.",
+   "q": "What is the Torch of Dormant Flame?"
+  },
+  {
+   "aliases": [
+    "who are windshapers",
+    "windshaper faction"
+   ],
+   "answer": "The Windshapers are practitioners within Skywall who navigate and shape elemental forces, counting among their ranks individuals of varied origins such as the shen'dorei.",
+   "q": "Who are the Windshapers?"
+  },
+  {
+   "aliases": [
+    "what does olariaan teach",
+    "fire training skywall"
+   ],
+   "answer": "Olariaan Swiftburn instructs disciples on how to heed the call of fire, emphasizing that mastering primal forces within the demanding domain of Skywall requires great perseverance.",
+   "q": "What does this quest lead to?"
+  }
+ ],
+ "keywords": [
+  "call of fire",
+  "elemental plane",
+  "gustberry lowlands",
+  "olariaan swiftburn",
+  "shen'dorei",
+  "shrine of flames",
+  "skywall",
+  "torch of dormant flame",
+  "valanaar",
+  "windshapers"
+ ],
+ "related": [
+  "quest:1524",
+  "topic:skywall",
+  "topic:elemental-plane"
+ ],
+ "sections": [
+  {
+   "body": "Even within Skywall, the domain ruled by the air elementals, the broader currents of the Elemental Plane remain connected. The spirits of earth, water, and fire still speak to those with the sensitivity to hear them. The Windshapers count among their fellowship individuals uniquely receptive to these other forces, including Olariaan Swiftburn, a shen'dorei who fosters a deep attunement with the element of fire.",
+   "spoiler": 0,
+   "title": "Voices Across the Elemental Plane"
+  },
+  {
+   "body": "Initiates are entrusted with the Torch of Dormant Flame and directed toward the Gustberry Lowlands. Far out along the island rim, tucked west of Valanaar, stands the Shrine of Flames. There, Olariaan Swiftburn receives the dormant flame, offering to instruct aspiring students in answering the demanding call of fire amidst the churning currents of the air realm.",
+   "spoiler": 0,
+   "title": "The Shrine of Flames"
+  }
+ ],
+ "summary": "Call of Fire sends an initiate through the winds of Skywall to seek out Olariaan Swiftburn, a shen'dorei Windshaper attuned to the element of fire. By bringing the Torch of Dormant Flame to the Shrine of Flames in the Gustberry Lowlands, the traveler begins learning to heed the call of the flame even within the domain of air.",
+ "attribution": [
+  "In-game quest text: Call of Fire"
+ ]
+}

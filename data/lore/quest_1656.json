@@ -1,0 +1,107 @@
+{
+ "key": "quest:1656",
+ "type": "quest",
+ "name": "A Task Unfinished",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1656
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Young tauren undergo demanding trials on Red Cloud Mesa to prove their maturity and strength, where tribal and family obligations often test their endurance as much as ritual challenges."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Bloodhoof Village serves as a vital gathering hub for travelers in Mulgore, offering welcoming shelter and warm hearths for members of the Horde traversing the plains."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is a task unfinished",
+    "task unfinished quest info",
+    "who gives a task unfinished"
+   ],
+   "answer": "A Task Unfinished is an errand given by an exhausted young tauren on Red Cloud Mesa. Overwhelmed by the ongoing trials of their Rite of Strength, the youth asks a passing traveler to deliver a bundle of furs to the innkeeper in Bloodhoof Village on their behalf.",
+   "q": "What is the quest A Task Unfinished?"
+  },
+  {
+   "aliases": [
+    "who is innkeeper kauth",
+    "where is kauth",
+    "bloodhoof village innkeeper"
+   ],
+   "answer": "Innkeeper Kauth runs the local inn in Bloodhoof Village in Mulgore. He provides a welcoming resting place, warm blankets, and hospitality to tired travelers making their way across the plains from the high mesas.",
+   "q": "Who is Innkeeper Kauth?"
+  },
+  {
+   "aliases": [
+    "why deliver furs",
+    "what are the furs for",
+    "bundle of furs mulgore"
+   ],
+   "answer": "The bundle of furs is a delivery requested by the young tauren's father for Innkeeper Kauth. Kauth uses these sturdy furs as warm blankets for guests seeking shelter and rest at his inn in Bloodhoof Village.",
+   "q": "Why are the furs being delivered to the inn?"
+  },
+  {
+   "aliases": [
+    "why can't the quester deliver the furs",
+    "why does the youth need help"
+   ],
+   "answer": "The young tauren is currently undertaking the Rite of Strength on Red Cloud Mesa. The physical demands of the trial leave them far too exhausted to travel all the way down to Bloodhoof Village without failing their sacred rite or collapsing from fatigue.",
+   "q": "Why couldn't the young tauren deliver the furs themselves?"
+  },
+  {
+   "aliases": [
+    "what is the rite of strength",
+    "rite of strength tauren trial"
+   ],
+   "answer": "The Rite of Strength is one of the foundational coming-of-age trials for young tauren on the mesa. It tests their physical stamina, resilience, and capability as rising protectors of their tribe.",
+   "q": "What is the Rite of Strength?"
+  },
+  {
+   "aliases": [
+    "where is bloodhoof village",
+    "bloodhoof village location"
+   ],
+   "answer": "Bloodhoof Village is a primary settlement located in the rolling plains of Mulgore, down from the sheltered heights of Red Cloud Mesa. It features central tribal amenities including an open inn, crafting supplies, and trade outposts.",
+   "q": "Where is Bloodhoof Village situated?"
+  }
+ ],
+ "keywords": [
+  "a task unfinished",
+  "bloodhoof village",
+  "bundle of furs",
+  "innkeeper kauth",
+  "mulgore",
+  "red cloud mesa",
+  "rite of strength",
+  "tauren"
+ ],
+ "related": [
+  "subzone:bloodhoof-village",
+  "quest:757"
+ ],
+ "sections": [
+  {
+   "body": "High upon Red Cloud Mesa, young tauren face rigorous trials of passage to prove their readiness for the wider world. Balancing traditional rites against ordinary tribal chores can push a youth to the brink of physical exhaustion. Faced with an unfinished Rite of Strength and an urgent chore from their father, one young tauren seeks the aid of a passing traveler to carry a bundle of furs down the mesa.",
+   "spoiler": 0,
+   "title": "Trials on the Mesa"
+  },
+  {
+   "body": "The destination for the furs is Bloodhoof Village, a welcoming haven resting in the open plains below. Innkeeper Kauth eagerly receives the delivery, intending to turn the pelt bundle into warm blankets for weary wanderers. The errand highlights both the hospitality of the plains tauren and the importance of rest, showing that community support underpins every solitary trial of strength.",
+   "spoiler": 0,
+   "title": "Hearth and Shelter"
+  }
+ ],
+ "summary": "A Task Unfinished is a simple delivery quest highlighting the strain young tauren endure during their coming-of-age rites on Red Cloud Mesa. Overburdened by the demands of their trials and a filial chore, an exhausted youth asks a passing traveler to carry a bundle of furs down to Innkeeper Kauth in Bloodhoof Village.",
+ "attribution": [
+  "In-game quest text: A Task Unfinished"
+ ]
+}

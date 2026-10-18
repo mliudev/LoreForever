@@ -1726,7 +1726,7 @@ P.transport["subzone:mosshide-fen"] = {
   fullHash = "8ad353",
   text = "Mosshide Fen. Mosshide Fen is a swampy, treacherous tract in the eastern Wetlands overrun by the Mosshide gnoll tribe. Dotted with primitive encampments, it is one of the most perilous regions for travelers venturing off the main trade roads. Sprawling across the murky eastern reaches of the Wetlands, Mosshide Fen serves as the primary domain of the aggressive Mosshide gnolls. The swamp here is dense and tangled, dotted with rough lean-tos and bone-strewn camps. Under the vicious command of pack leaders like Gnawbone, the gnolls fiercely guard their muddy claims, readily ambushing and devouring any travelers, scouts, or prospectors foolish enough to wander into their hunting grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mosshide-fen-4747ee428a5cdb48a58f/1-0000.mp3", duration = 42.1616327, start = 0},
+    {file = "Audio/Transport/full_subzone_mosshide-fen-8f35226de691eae8194a/1-0000.mp3", duration = 41.4563265, start = 0},
   },
 }
 P.transport["subzone:nat-s-landing"] = {
@@ -2638,7 +2638,7 @@ P.transport["subzone:sundown-marsh"] = {
   fullHash = "c087da",
   text = "Sundown Marsh. Sundown Marsh marks the deepest, westernmost reaches of the Wetlands where stagnant waters meet treacherous wildlife. Despite the prowling raptors, oozes, and gnolls, an eccentric pair maintains a solitary homestead along its muddy borders. Sundown Marsh sits tucked into the northwest of the Wetlands, characterized by deep water, thick mud, and a dense population of predators. Giant crocolisks, shifting oozes, roaming raptors, and territorial Mosshide gnolls roam freely through the mist. The hazardous terrain keeps most passing travelers strictly to the main cobblestone road connecting Menethil Harbor to Ironforge, leaving this deep corner largely untamed. Amid the hazards of the marsh stands a lonely stone cottage topped with a churning windmill. There, the gnome Fradd Swiftgear and the dwarf Wenna Silkbeard make an unlikely living scavenging the bog. They peddle curiosities and rare trade recipes recovered from the mire to travelers brave enough to navigate the marsh's aggressive denizens.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sundown-marsh-79e478488b322798441e/1-0000.mp3", duration = 63.5036735, start = 0},
+    {file = "Audio/Transport/full_subzone_sundown-marsh-1f204dd46647968cb716/1-0000.mp3", duration = 65.9853061, start = 0},
   },
 }
 P.transport["subzone:sunnyglade"] = {

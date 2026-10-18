@@ -1,0 +1,129 @@
+{
+ "key": "quest:678",
+ "type": "quest",
+ "name": "Call to Arms",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   678
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Securing Hammerfall is vital for the Horde's foothold in the Eastern Kingdoms, and culling the aggressive Boulderfist ogres keeps the outpost from being overwhelmed."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Hammerfall is named after Warchief Orgrim Doomhammer, giving orcs a deeply personal stake in driving out any rival brutes who threaten this memorial stronghold."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Drum Fel's demand for tenacity against brute force and arcane power offers warriors a direct test of combat endurance and martial honor."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Confronting Boulderfist Magi allows mages to counter brute-force spellcasters who bend arcane energies to primitive, destructive ends."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives call to arms",
+    "drum fel quest",
+    "call to arms questgiver"
+   ],
+   "answer": "The quest is offered by Drum Fel, an officer stationed within the fortified Horde outpost of Hammerfall in the northeastern Arathi Highlands. Seeking capable champions to safeguard the stronghold's fragile position, Fel tasks proven fighters with striking out against dangerous regional adversaries to demonstrate their martial discipline and raw strength.",
+   "q": "Who gives the Call to Arms quest?"
+  },
+  {
+   "aliases": [
+    "boulderfist location",
+    "where are the ogres",
+    "boulderfist lair arathi"
+   ],
+   "answer": "The Boulderfist ogre settlement lies to the southwest of Hammerfall, situated along the path leading toward the Thandol Span, the great dwarven bridge to the Wetlands. The ogres occupy earthen dens and earthen mounds in the highlands, where both their physical brawlers and spellcasters congregate in force.",
+   "q": "Where is the Boulderfist lair located?"
+  },
+  {
+   "aliases": [
+    "call to arms kill count",
+    "which ogres to kill",
+    "call to arms targets"
+   ],
+   "answer": "Drum Fel instructs warriors to eliminate ten Boulderfist Brutes and four Boulderfist Magi before returning to Hammerfall. The brutes rely on heavy melee assaults, while the magi support them from afar with arcane spells, making them significantly more dangerous than standard highway skirmishers in Arathi.",
+   "q": "Which enemies need to be defeated for this task?"
+  },
+  {
+   "aliases": [
+    "why fight boulderfists",
+    "are boulderfists hostile to horde",
+    "ogre threat in arathi"
+   ],
+   "answer": "The Boulderfists have established a fortified foothold in Arathi and have repeatedly challenged the Horde garrison at Hammerfall. Their proximity to key transit routes toward the southern dwarven bridge threatens Horde scouting and supply lines. Drum Fel considers them a genuine rival force that must be actively contained through regular martial strikes.",
+   "q": "Why are the Boulderfist ogres considered a threat to Hammerfall?"
+  },
+  {
+   "aliases": [
+    "drum fel quote",
+    "return in spirit meaning",
+    "come in body or spirit"
+   ],
+   "answer": "Drum Fel\u2019s grim remark reflects the uncompromising warrior ethos of the Horde in Arathi. He expects his fighters to succeed and return alive, but respects anyone who falls fighting valiantly against formidable foes. In his eyes, showing tenacity and fearlessness against overwhelming ogre strength brings honor, regardless of whether one survives the bloody encounter.",
+   "q": "What does Drum Fel mean by returning in body or in spirit?"
+  },
+  {
+   "aliases": [
+    "is call to arms horde only",
+    "alliance call to arms arathi",
+    "can alliance do this quest"
+   ],
+   "answer": "No, this Call to Arms is strictly a Horde quest issued by Drum Fel inside Hammerfall. Alliance forces operate out of Refuge Pointe to the west and view both Hammerfall's defenders and the Boulderfist ogres as hostile enemies competing for dominance over the Arathi Highlands.",
+   "q": "Can Alliance players undertake this quest?"
+  },
+  {
+   "aliases": [
+    "why kill magi",
+    "boulderfist magi importance",
+    "boulderfist brute and magus"
+   ],
+   "answer": "Targeting both types of ogres neutralizes the Boulderfists' combined-arms tactical advantage. The brutes form the muscular frontline that absorbs blows, while the magi wield destructive magic from the rear. Defeating both types ensures the clan cannot mount an organized counteroffensive against Hammerfall.",
+   "q": "Why does Drum Fel target both brutes and magi?"
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "boulderfist",
+  "boulderfist brute",
+  "boulderfist magi",
+  "call to arms",
+  "drum fel",
+  "hammerfall",
+  "ogres",
+  "thandol span"
+ ],
+ "related": [
+  "npc:drum-fel",
+  "subzone:hammerfall",
+  "subzone:maul-subzone"
+ ],
+ "sections": [
+  {
+   "body": "At the isolated Horde redoubt of Hammerfall, survival demands unwavering martial strength. Drum Fel, recognizing the growing capabilities of travelers aiding the outpost, refuses to let anyone rest on easy victories. Rather than facing minor skirmishers, warriors must prove their mettle against what Fel considers a genuine threat: the hulking Boulderfist ogres. These brutes have consistently harassed the Horde expedition and tested the resolve of Hammerfall\u2019s defenders. Fel offers simple terms for the task\u2014warriors are expected to return successful in flesh or honorably in spirit, with praise promised for sheer tenacity in battle.",
+   "spoiler": 0,
+   "title": "A Test of Mettle"
+  },
+  {
+   "body": "The Boulderfist clan has established an entrenched lair southwest of Hammerfall, extending their territory toward the grand dwarven bridge connecting Arathi to the Wetlands. Unlike undisciplined beasts, the ogres command both crushing physical power and lethal mystical arts, fielding durable brutes alongside cunning magi. Their aggressive presence poses a direct challenge to the Horde's supply lines and regional dominance. By ordering the destruction of ten Boulderfist brutes and four magi, Drum Fel seeks to blunt their strength, ensuring the Boulderfists understand that the warriors of Hammerfall will neither yield ground nor tolerate rivals in Arathi.",
+   "spoiler": 0,
+   "title": "The Boulderfist Threat"
+  }
+ ],
+ "summary": "Call to Arms is a Horde martial trial issued by Drum Fel at the Hammerfall outpost in the Arathi Highlands. Having proven their basic combat readiness, adventurers are ordered southwest toward the dwarven bridge to engage the dangerous Boulderfist ogres. Eliminating both front-line brutes and spellcasting magi tests the warrior's resolve while protecting the Horde's vulnerable foothold in Arathi.",
+ "attribution": [
+  "In-game quest text: Call to Arms"
+ ]
+}

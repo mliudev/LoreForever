@@ -1,0 +1,130 @@
+{
+ "key": "quest:97921",
+ "type": "quest",
+ "name": "Camping 101: Herbalism",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97921
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "This quest elevates herbalism from a simple gathering trade into an active camp-support role, enabling botanists to craft Incense Candles that assist traveling companions."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests and other devoted healers benefit greatly from resting near Incense Candles, which lift spirits and help restore vital energy during wilderness expeditions."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages in the field value the soothing botanical properties of Incense Candles, making an herbalist companion especially desirable for long wilderness travels."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "With Herbalist Pomeroy residing in Elwynn Forest, Alliance adventurers enjoy easy proximity to this specialized campsite instruction."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "camping 101 herbalism quest",
+    "herbalism camping quest",
+    "what is camping 101 herbalism"
+   ],
+   "answer": "Camping 101: Herbalism is an introductory quest that instructs experienced herbalists on how to expand their gathering trade into camping utility. It directs players to travel to Elwynn Forest to meet Herbalist Pomeroy, who teaches how to craft specialized Incense Candles for field campsites.",
+   "q": "What is Camping 101: Herbalism?"
+  },
+  {
+   "aliases": [
+    "who teaches herbalism camping",
+    "camping 101 trainer",
+    "where is herbalist pomeroy",
+    "herbalist pomeroy location"
+   ],
+   "answer": "Herbalist Pomeroy teaches the herbalism camping recipe. She can be found in Elwynn Forest, where she shares her knowledge of local plants and guides skilled gatherers on how to craft aromatic Incense Candles to enhance their campsite rests.",
+   "q": "Who teaches the camping recipe for herbalists?"
+  },
+  {
+   "aliases": [
+    "what do herbalists make for camping",
+    "herbalism camp item",
+    "incense candle herbalism",
+    "what does camping 101 teach"
+   ],
+   "answer": "Completing this training allows herbalists to craft an Incense Candle for their campsite. Built using gathered herbs and botanical materials, the candle releases soothing aromas that raise spirits and provide a welcome benefit for spellcasters and healers resting in the wild.",
+   "q": "What item do herbalists learn to craft from this quest?"
+  },
+  {
+   "aliases": [
+    "camping 101 herbalism requirements",
+    "when can i get camping 101 herbalism",
+    "herbalism skill needed for camping 101"
+   ],
+   "answer": "You must practice the Herbalism profession and demonstrate sufficient gathering proficiency before receiving this task. Once your herbalism skill has advanced beyond the novice level, instructors consider you experienced enough to learn how to prepare botanical camp utilities from Herbalist Pomeroy.",
+   "q": "What are the requirements to start Camping 101: Herbalism?"
+  },
+  {
+   "aliases": [
+    "what does incense candle do",
+    "why make incense candle",
+    "incense candle benefits",
+    "herbalism incense candle use"
+   ],
+   "answer": "Incense Candles release soothing herbal fragrances that uplift morale and restore mental focus. In the field, spellcasters and healers expend tremendous energy channeling magical powers, making the spiritual and magical boost granted by these scented candles particularly valuable during wilderness recoveries.",
+   "q": "Why are Incense Candles useful for adventuring parties?"
+  },
+  {
+   "aliases": [
+    "camping 101 herbalism zone",
+    "where to turn in camping 101 herbalism",
+    "elwynn forest herbalism quest"
+   ],
+   "answer": "The objective leads adventurers to Elwynn Forest, the lush woodland territory surrounding the city of Stormwind. Players journey into the Elwynn countryside to consult Herbalist Pomeroy, completing the assignment and unlocking their ability to create botanical camping supplies.",
+   "q": "Where does this quest take place?"
+  },
+  {
+   "aliases": [
+    "can anyone make incense candle",
+    "is incense candle herbalism only",
+    "do i need herbalism for incense candle"
+   ],
+   "answer": "No, crafting the Incense Candle is tied directly to the Herbalism profession. The recipe relies on specialized understanding of wild plants, floral preservation, and aromatic essences taught specifically by Herbalist Pomeroy to adventurers who gather botanicals.",
+   "q": "Can non-herbalists craft the Incense Candle?"
+  }
+ ],
+ "keywords": [
+  "camp",
+  "camping 101",
+  "campsite",
+  "elwynn forest",
+  "healers",
+  "herbalism",
+  "herbalist pomeroy",
+  "incense candle",
+  "spellcasters"
+ ],
+ "related": [
+  "zone:elwynn"
+ ],
+ "sections": [
+  {
+   "body": "For wandering herbalists, harvesting herbs across the wilds of Azeroth serves purposes well beyond brewing basic restorative draughts or selling bundles of flowers to city merchants. As practitioners hone their gathering craft, opportunities arise to apply their floral knowledge toward wilderness survival. Field camps require more than just a roaring fire and dry bedroll; maintaining the endurance and mental acuity of a traveling party demands specialized comforts. Experienced foragers recognize that certain plants hold aromatic properties capable of invigorating weary minds. By directing promising herbalists toward established mentors, this task bridges simple gathering with practical fieldcraft, proving that a keen eye for nature's bounty can sustain an entire expedition far from civilization.",
+   "spoiler": 0,
+   "title": "Botanical Utilities for the Road"
+  },
+  {
+   "body": "Aspiring herbalists seeking to expand their campsite craft are sent into the heart of Elwynn Forest to consult with Herbalist Pomeroy. Well-versed in the botanical varieties of the surrounding woodlands, Pomeroy understands how dried petals, aromatic stems, and natural resins can be blended into functional camp gear. Rather than using herbs solely for alchemy flasks, she instructs gatherers in the construction of an Incense Candle. When burned at a campsite, this fragrant creation soothes exhausted travelers and lifts the spirits of mana-reliant companions. Finding Pomeroy and proving one's competence with the sickle ensures that an herbalist becomes an indispensable asset to any adventuring party venturing into the untamed wild.",
+   "spoiler": 0,
+   "title": "The Guidance of Herbalist Pomeroy"
+  }
+ ],
+ "summary": "Camping 101: Herbalism is a training quest that directs skilled gatherers to seek specialized wilderness instruction in Elwynn Forest. Upon demonstrating proficiency in harvesting flora, herbalists are pointed toward Herbalist Pomeroy to learn the art of crafting campsite utilities. Completing this training unlocks the ability to create Incense Candles, botanical aids designed to bolster the focus and spirits of spellcasters resting in the field.",
+ "attribution": [
+  "In-game quest text: Camping 101: Herbalism"
+ ]
+}

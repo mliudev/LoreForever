@@ -1,0 +1,114 @@
+{
+ "key": "quest:755",
+ "type": "quest",
+ "name": "Rites of the Earthmother",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   755
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The Rites of the Earthmother represent the foundational spiritual journey for young tauren, testing their readiness to serve their tribe and revere the Earthmother."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Understanding these sacred trials offers insight into the spiritual heart of the tauren allies who have recently joined the Horde."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "For aspiring shamans, undertaking rites blessed by tribal seers is an essential initial step toward communion with the elements and the spirits of Mulgore."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druidic candidates begin their path of harmony with nature by respecting the sacred guidance of the tribal elders and seers."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who starts rites of the earthmother",
+    "quest giver"
+   ],
+   "answer": "The quest is initiated by Chief Hawkwind in Camp Narache, who directs young adventurers to seek out Seer Graytongue in the surrounding hills.",
+   "q": "Who gives the quest Rites of the Earthmother?"
+  },
+  {
+   "aliases": [
+    "where is seer graytongue",
+    "graytongue location",
+    "find graytongue"
+   ],
+   "answer": "Seer Graytongue dwells in the hills located directly south of Camp Narache in the Red Cloud Mesa of Mulgore.",
+   "q": "Where can I find Seer Graytongue?"
+  },
+  {
+   "aliases": [
+    "what are rites of the earthmother",
+    "earthmother trials lore"
+   ],
+   "answer": "The Rites of the Earthmother are traditional sacred trials of passage undertaken by tauren youths to prove their wisdom, strength, and devotion to their people and beliefs.",
+   "q": "What are the Rites of the Earthmother?"
+  },
+  {
+   "aliases": [
+    "who is seer graytongue",
+    "graytongue role"
+   ],
+   "answer": "Seer Graytongue is a respected spiritual elder residing south of Camp Narache who oversees and guides initiates through the sacred trials of the Earthmother.",
+   "q": "Who is Seer Graytongue?"
+  },
+  {
+   "aliases": [
+    "who is chief hawkwind",
+    "hawkwind role"
+   ],
+   "answer": "Chief Hawkwind is the tribal leader presiding over Camp Narache on the Red Cloud Mesa, tasked with preparing young tauren before sending them to the seers.",
+   "q": "Who is Chief Hawkwind?"
+  },
+  {
+   "aliases": [
+    "what do i need to do",
+    "how to complete quest"
+   ],
+   "answer": "You only need to journey south from Camp Narache into the hills and speak with Seer Graytongue to report your readiness for the trials.",
+   "q": "What is required to complete this task?"
+  }
+ ],
+ "keywords": [
+  "camp narache",
+  "chief hawkwind",
+  "earthmother",
+  "red cloud mesa",
+  "rites of the earthmother",
+  "seer graytongue",
+  "tauren"
+ ],
+ "related": [
+  "npc:seer-graytongue",
+  "npc:chief-hawkwind",
+  "subzone:camp-narache",
+  "quest:763"
+ ],
+ "sections": [
+  {
+   "body": "Upon the Red Cloud Mesa, Chief Hawkwind directs young tauren seeking to prove themselves to Seer Graytongue. Residing in the quiet hills directly south of Camp Narache, Graytongue oversees the spiritual beginnings of the youth. This simple journey marks the formal threshold between everyday camp life and the serious commitments demanded by tribal custom.",
+   "spoiler": 0,
+   "title": "The Threshold of the Trials"
+  },
+  {
+   "body": "The Earthmother is central to the creation beliefs and everyday existence of the tauren. Her rites serve as sacred trials of maturity, resilience, and spiritual depth. As Seer Graytongue cautions all who arrive at his sanctuary, embarking upon the Rites of the Earthmother is no light endeavor, requiring total dedication to the traditions of the mesa.",
+   "spoiler": 0,
+   "title": "Embracing the Earthmother"
+  }
+ ],
+ "summary": "Rites of the Earthmother marks the beginning of an initiate's spiritual journey on Red Cloud Mesa. Directed by Chief Hawkwind, travelers seek out Seer Graytongue in the southern hills of Camp Narache. Undertaking these venerable ceremonies is considered a vital trial of passage for tauren coming of age.",
+ "attribution": [
+  "In-game quest text: Rites of the Earthmother"
+ ]
+}

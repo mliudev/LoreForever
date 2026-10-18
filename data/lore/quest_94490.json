@@ -1,0 +1,111 @@
+{
+ "key": "quest:94490",
+ "type": "quest",
+ "name": "Ripped Missive",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94490
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druids will find bitter tragedy in this letter, which reveals that the slaughtered druids of the den were simply in the way of cultists seeking an ancient pylon."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is ripped missive",
+    "ripped missive quest",
+    "bloodstained note haalien"
+   ],
+   "answer": "The Ripped Missive is a bloodstained, torn letter discovered tucked behind the bracer of Haalien following a battle. It contains critical intelligence exposing the motives behind a cultist assault on a druid den in Shadowgale Forest.",
+   "q": "What is the Ripped Missive?"
+  },
+  {
+   "aliases": [
+    "who dropped the ripped missive",
+    "where did ripped missive come from",
+    "who is haalien"
+   ],
+   "answer": "The missive is recovered directly from Haalien, found slipped behind one of their bracers after a violent confrontation. The letter was damaged and stained with blood during the combat.",
+   "q": "Where is the missive recovered from?"
+  },
+  {
+   "aliases": [
+    "who wants the ripped missive",
+    "who do i give ripped missive to",
+    "elegael thornpaw missive"
+   ],
+   "answer": "The missive is initially brought to Elegael Thornpaw in Shadowgale Forest. Upon reading the document, Elegael directs that it be delivered swiftly to Lotheluum in Valanaar to warn of potential treachery.",
+   "q": "Who should receive the Ripped Missive?"
+  },
+  {
+   "aliases": [
+    "why did cultists attack the druid den",
+    "cultist motive druid den",
+    "why did haalien attack"
+   ],
+   "answer": "The letter reveals that the cultists did not target the druid den out of hatred for the druids themselves, but rather to secure a pylon situated there. The druids residing within were mercilessly slaughtered merely because they stood in the cultists' way.",
+   "q": "Why did the cultists attack the druid den?"
+  },
+  {
+   "aliases": [
+    "where did the orders come from",
+    "who sent haalien",
+    "valanaar traitor"
+   ],
+   "answer": "The missive indicates that the cultists' orders originated from Valanaar, suggesting that a traitor is actively hiding and orchestrating operations from within the settlement.",
+   "q": "Where did the attack orders originate?"
+  },
+  {
+   "aliases": [
+    "who is lotheluum",
+    "why take missive to lotheluum",
+    "lotheluum valanaar"
+   ],
+   "answer": "Lotheluum is a contact located in Valanaar. Elegael Thornpaw orders the adventurer to take the missive to Lotheluum to alert them that the cultists' deadly orders trace back to someone hidden in Valanaar.",
+   "q": "Who is Lotheluum and why must they be notified?"
+  }
+ ],
+ "keywords": [
+  "cultist",
+  "druid den",
+  "elegael thornpaw",
+  "haalien",
+  "lotheluum",
+  "pylon",
+  "ripped missive",
+  "shadowgale forest",
+  "valanaar"
+ ],
+ "related": [
+  "topic:druid"
+ ],
+ "sections": [
+  {
+   "body": "Tucked behind the bracer of Haalien, this torn and bloodstained document holds grim intelligence concerning the recent violence in Shadowgale Forest. Recovered after a fierce skirmish, the scrap of writing sheds light on the dark intentions of the cultists who fell upon the local druid den, offering vital clues for those seeking justice for the fallen.",
+   "spoiler": 0,
+   "title": "Bloodstained Orders"
+  },
+  {
+   "body": "Upon presenting the parchment to Elegael Thornpaw in the Shadowgale Forest, the horrifying truth of the raid comes to light. The cultists did not strike out of a specific feud with the druids; they came seeking a mysterious pylon, murdering the den's inhabitants simply because they were an inconvenience in their path. Enraged by the senseless massacre, Elegael vows vengeance against any cultists remaining in the forest.",
+   "spoiler": 1,
+   "title": "Senseless Slaughter"
+  },
+  {
+   "body": "Beyond revealing the cultists' focus on the pylon, the missive bears a far more alarming revelation: the directive appears to have originated from Valanaar itself. This grim realization points to a traitor operating from within the settlement. To uncover the conspiracy before more lives are lost, the missive must be carried without delay to Lotheluum in Valanaar.",
+   "spoiler": 2,
+   "title": "Treachery in Valanaar"
+  }
+ ],
+ "summary": "The Ripped Missive is a blood-spattered letter recovered from Haalien that sheds light on a brutal cultist assault against a druid den in Shadowgale Forest. Its contents expose the callous motives behind the slaughter and hint at dangerous subversion originating from within Valanaar.",
+ "attribution": [
+  "In-game quest text: Ripped Missive"
+ ]
+}

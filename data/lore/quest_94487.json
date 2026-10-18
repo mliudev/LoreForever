@@ -1,0 +1,103 @@
+{
+ "key": "quest:94487",
+ "type": "quest",
+ "name": "Unwanted and Unworthy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94487
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The Al'Aketh Cultists spilled the blood of local druids during their unprovoked assault on Zephras, making this strike a direct act of vengeance and defense of nature's balance."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who are alaketh",
+    "alaketh cult",
+    "who are the cultists"
+   ],
+   "answer": "The Al'Aketh Cultists are storm-obsessed cultists operating on the island of Zephras. According to Elegael, they were once regarded as merely foolish or having 'clouds between their ears,' but they abruptly turned to brutal violence against the local druids.",
+   "q": "Who are the Al'Aketh Cultists?"
+  },
+  {
+   "aliases": [
+    "who is elegael",
+    "quest giver elegael"
+   ],
+   "answer": "Elegael is a shen'dorei protector or druid affiliated with Zephras who was ambushed by the Al'Aketh Cultists. Distressed by the betrayal and bloodshed of young lives, Elegael seeks retribution and the recovery of stolen ancestral heirlooms.",
+   "q": "Who is Elegael?"
+  },
+  {
+   "aliases": [
+    "bloodied heirlooms",
+    "why collect heirlooms",
+    "what are the heirlooms"
+   ],
+   "answer": "The bloodied heirlooms belonged to young shen'dorei who were drawn into the Al'Aketh Cult. Elegael gathers them so they can eventually be returned to the High Elder's collection and passed down to a more worthy future generation.",
+   "q": "What are the bloodied heirlooms?"
+  },
+  {
+   "aliases": [
+    "shendorei meaning",
+    "who are shendorei"
+   ],
+   "answer": "The shen'dorei are the people inhabiting Zephras. Elegael views the treacherous Al'Aketh Cultists as having forfeited their right to be called shen'dorei due to their violent betrayal and desecration of the island's harmony.",
+   "q": "What are the shen'dorei?"
+  },
+  {
+   "aliases": [
+    "shadowgale forest location",
+    "where is shadowgale"
+   ],
+   "answer": "Shadowgale Forest is a wooded region located on Zephras where Al'Aketh Footsoldiers and Stormchasers operate and where the unprovoked ambush against the druids took place.",
+   "q": "Where is Shadowgale Forest?"
+  },
+  {
+   "aliases": [
+    "why did cultists attack",
+    "cult motives",
+    "why ambush druids"
+   ],
+   "answer": "The cultists' exact motives remain an unsettling mystery to Elegael. Although long dismissed as harmless zealots, their sudden, vicious uprising shattered the delicate balance maintained on the island.",
+   "q": "Why did the Al'Aketh Cultists ambush the druids?"
+  }
+ ],
+ "keywords": [
+  "al'aketh",
+  "bloodied heirlooms",
+  "elegael",
+  "footsoldiers",
+  "heirlooms",
+  "shadowgale forest",
+  "shen'dorei",
+  "stormchasers",
+  "zephras"
+ ],
+ "related": [
+  "topic:druid"
+ ],
+ "sections": [
+  {
+   "body": "The peaceful balance of Zephras was abruptly shattered when the Al'Aketh Cultists launched a surprise ambush against the local druids in Shadowgale Forest. Elegael, once dismissive of these zealots as harmless dreamers with 'clouds between their ears,' was caught off guard by the sheer brutality of their assault. The attack left druid blood spilled across the forest floor, prompting a demand for swift retribution against the Footsoldiers and Stormchasers responsible.",
+   "spoiler": 0,
+   "title": "Ambush in Shadowgale Forest"
+  },
+  {
+   "body": "To Elegael, the cultists' betrayal stripped them of their heritage: they no longer deserve to be called shen'dorei, nor do their remains deserve the winds of their homeland. Many of the cultists were young individuals with promising futures cut short by fanaticism. By reclaiming their bloodied heirlooms, adventurers help ensure these sacred items are returned to the High Elder, awaiting a wiser and more worthy generation.",
+   "spoiler": 0,
+   "title": "Tainted Heirlooms and Lost Youth"
+  }
+ ],
+ "summary": "Unwanted and Unworthy is a quest on Zephras where adventurers aid Elegael in retaliating against the Al'Aketh Cultists after a bloody ambush in Shadowgale Forest. By slaying the cultists and recovering stolen heirlooms, players avenge fallen druids and reclaim sacred ancestral relics for the High Elder.",
+ "attribution": [
+  "In-game quest text: Unwanted and Unworthy"
+ ]
+}
