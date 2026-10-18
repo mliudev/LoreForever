@@ -272,6 +272,13 @@ test("the beta's checkout: Keep Hero with no free month is a 30-day trial, Champ
     ["Willo's style", "— | Presets | Presets or your own words | Presets or your own words"],
     ["Longer memory", "— | — | ✓ | ✓"],
   ]);
+  assert.match(fresh.plans.find(p => p.id === "champion").features.join("\n"), /^Pick Willo's voice from 5$/m);
+  // The Voices of Azeroth in the plans' words once the release that has them turns "azeroth" on (LOR-609).
+  const azeroth = await (await billing({ env: { ...week, SITE_FEATURES: `${week.SITE_FEATURES || ""},azeroth` },
+    params: { action: "plans" }, request: new Request(ORIGIN + "/api/billing/plans") })).json();
+  assert.equal(azeroth.compare[1].values.champion, "Pick from 32");
+  assert.match(azeroth.plans.find(p => p.id === "legend").features.join("\n"),
+    /^Pick Willo's voice: her own 10, women's and men's, or one of 22 voices of Azeroth's peoples$/m);
 });
 
 test("the beta's free Hero is apart from the free budget, and past its brake free accounts are on Free", async () => {

@@ -1,0 +1,99 @@
+{
+ "key": "quest:91746",
+ "type": "quest",
+ "name": "Elmpaw's Head",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91746
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Taking down a formidable beast like Elmpaw and claiming a physical trophy is the quintessential mark of a skilled tracker and hunter."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is elmpaw",
+    "what is elmpaw",
+    "elmpaw boss"
+   ],
+   "answer": "Elmpaw is a formidable creature whose defeat is considered an impressive feat. While specific details on its species are scarce, hunters seek out the beast to claim its head as a prized trophy.",
+   "q": "Who or what is Elmpaw?"
+  },
+  {
+   "aliases": [
+    "why want head",
+    "elmpaw head turn in",
+    "what is trophy for"
+   ],
+   "answer": "The quest giver prepares the head to be mounted and displayed, noting that wealthy collectors pay handsomely to have such exotic trophies decorating their mantles.",
+   "q": "Why does the quest giver want Elmpaw's head?"
+  },
+  {
+   "aliases": [
+    "who buys trophy",
+    "elmpaw buyers",
+    "who wants elmpaw head"
+   ],
+   "answer": "The quest giver deals with wealthy collectors who value exotic beast trophies for display in their homes. Once properly prepared, the mounted head fetches a high price among these enthusiasts.",
+   "q": "Who are the collectors interested in the trophy?"
+  },
+  {
+   "aliases": [
+    "how hard is elmpaw",
+    "is elmpaw tough"
+   ],
+   "answer": "The quest giver describes taking down Elmpaw as very impressive, suggesting the beast is a notable challenge or rare prowler rather than an ordinary wild creature.",
+   "q": "Is Elmpaw a dangerous target?"
+  },
+  {
+   "aliases": [
+    "is elmpaw head a bounty",
+    "who posted elmpaw quest"
+   ],
+   "answer": "It functions as a bounty and trophy trade. An adventurer defeats Elmpaw in the wild, harvests the head, and brings it to an interested party who rewards them before preparing the mount for resale.",
+   "q": "What kind of task is Elmpaw's Head?"
+  },
+  {
+   "aliases": [
+    "elmpaw location",
+    "where to find elmpaw"
+   ],
+   "answer": "Elmpaw roams the wilderness where adventurers and big-game trackers cross paths with dangerous beasts. Bring its head back to the collector once you have triumphed.",
+   "q": "Where can Elmpaw be found?"
+  }
+ ],
+ "keywords": [
+  "beast",
+  "collector",
+  "elmpaw",
+  "head",
+  "hunter",
+  "mantle",
+  "trophy"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Elmpaw's Head marks the conclusion of a hunt against the creature known as Elmpaw. Felling such a beast is regarded as an impressive accomplishment by wilderness trackers and collectors alike, who value tangible proof of victory over dangerous wildlife.",
+   "spoiler": 0,
+   "title": "The Fallen Beast"
+  },
+  {
+   "body": "Upon presenting Elmpaw's severed head, the hunter is rewarded directly by an enterprising handler. Rather than letting the remains go to waste, the recipient prepares and mounts the trophy to sell to affluent patrons looking to adorn their mantles with fierce wild prizes.",
+   "spoiler": 0,
+   "title": "A Collector's Prize"
+  }
+ ],
+ "summary": "Elmpaw's Head is a trophy quest rewarding an adventurer for hunting down the formidable beast Elmpaw. The creature's head is traded to an artisan who prepares mounted trophies for wealthy collectors.",
+ "attribution": [
+  "In-game quest text: Elmpaw's Head"
+ ]
+}

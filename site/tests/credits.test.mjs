@@ -126,7 +126,14 @@ test("/contributors's text finders are /api/contribute/contributors, through the
 
   // Shipped in a release: the credit line counts every line, anonymous ones too, and names the shown finders.
   env.DB.sqlite.exec("UPDATE contrib_lines SET status = 'shipped', shipped_in = '0.9.0' WHERE ref_id IN ('501', '503', '504', '505')");
-  assert.deepEqual(await releaseCredits(env, "0.9.0"), { ok: true, release: "0.9.0", lines: 4, names: ["Alice", "Wanderer"] });
+  // ...and the translation edits it carried (LOR-621): every one counted, shown translators named.
+  const shippedEdit = env.DB.sqlite.prepare("INSERT INTO translation_edits (user_id, locale, string_id, en, text, created, updated, " +
+    "status, outcome, shipped_in) VALUES (?, 'deDE', ?, 'E', 'T', 'now', 'now', 'pulled', 'landed', '0.9.0')");
+  shippedEdit.run(alice.id, "ui:901");
+  shippedEdit.run(bob.id, "ui:902");
+  assert.deepEqual(await releaseCredits(env, "0.9.0"), { ok: true, release: "0.9.0", lines: 4, names: ["Alice", "Wanderer"],
+    edits: 2, translators: ["Alice"] });
+  env.DB.sqlite.exec("DELETE FROM translation_edits WHERE string_id IN ('ui:901', 'ui:902')");
   assert.deepEqual((await textFinders(env)).map(p => [p.name, p.lines]), [["Alice", 2], ["Wanderer", 1]], "shipped lines still count");
 });
 

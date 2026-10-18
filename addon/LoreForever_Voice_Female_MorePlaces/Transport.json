@@ -5593,9 +5593,9 @@
     "subzone:mosshide-fen": {
       "1": [
         {
-          "duration": 42.161632653061226,
-          "file": "Audio/Transport/full_subzone_mosshide-fen-4747ee428a5cdb48a58f/1-0000.mp3",
-          "sha256": "4b01d2e6f4353ae729f6d63a2e79329dae18cde18b1a3f0ef561aec1582e2fdd",
+          "duration": 41.456326530612245,
+          "file": "Audio/Transport/full_subzone_mosshide-fen-8f35226de691eae8194a/1-0000.mp3",
+          "sha256": "70d05098f5232a99b3b0bd0f311341438f95252ff269cc3937d348f696cc5efb",
           "start": 0
         }
       ],
@@ -5607,12 +5607,12 @@
         ]
       },
       "fullHash": "8ad353",
-      "generation": "3ab58b409f9c306a9c92",
+      "generation": "bc2a5d8265071509d738",
       "hash": "8ad353",
       "source": {
-        "duration": 42.187755,
+        "duration": 41.456327,
         "file": null,
-        "sha256": "4747ee428a5cdb48a58f8e9b6b93501249a0055a2f7c34845e92bda419cbaa59"
+        "sha256": "8f35226de691eae8194a645aca8e180b1f09d8c4da10d2e9704e0da503bcd861"
       },
       "text": "Mosshide Fen. Mosshide Fen is a swampy, treacherous tract in the eastern Wetlands overrun by the Mosshide gnoll tribe. Dotted with primitive encampments, it is one of the most perilous regions for travelers venturing off the main trade roads. Sprawling across the murky eastern reaches of the Wetlands, Mosshide Fen serves as the primary domain of the aggressive Mosshide gnolls. The swamp here is dense and tangled, dotted with rough lean-tos and bone-strewn camps. Under the vicious command of pack leaders like Gnawbone, the gnolls fiercely guard their muddy claims, readily ambushing and devouring any travelers, scouts, or prospectors foolish enough to wander into their hunting grounds."
     },
@@ -8557,9 +8557,9 @@
     "subzone:sundown-marsh": {
       "1": [
         {
-          "duration": 63.503673469387756,
-          "file": "Audio/Transport/full_subzone_sundown-marsh-79e478488b322798441e/1-0000.mp3",
-          "sha256": "1896498010e2715130724570f53af6e4ea1c1294ea6c9f2a763d1ffec54dc1e9",
+          "duration": 65.98530612244897,
+          "file": "Audio/Transport/full_subzone_sundown-marsh-1f204dd46647968cb716/1-0000.mp3",
+          "sha256": "b59646d31179bb04ad4cca90eb5a0abb82c58eed958937d5677dfed2a009c092",
           "start": 0
         }
       ],
@@ -8571,12 +8571,12 @@
         ]
       },
       "fullHash": "c087da",
-      "generation": "a575d679f7139bf37812",
+      "generation": "32e2ba9ebf4f10be33a7",
       "hash": "c087da",
       "source": {
-        "duration": 63.529796,
+        "duration": 66.011429,
         "file": null,
-        "sha256": "79e478488b322798441e8fe95e96c6a41aed7d638a64bb4f3a9cae7c1c8abc05"
+        "sha256": "1f204dd46647968cb716dac1bef2783c7d360beb1cc96e7b955d819b020dbc19"
       },
       "text": "Sundown Marsh. Sundown Marsh marks the deepest, westernmost reaches of the Wetlands where stagnant waters meet treacherous wildlife. Despite the prowling raptors, oozes, and gnolls, an eccentric pair maintains a solitary homestead along its muddy borders. Sundown Marsh sits tucked into the northwest of the Wetlands, characterized by deep water, thick mud, and a dense population of predators. Giant crocolisks, shifting oozes, roaming raptors, and territorial Mosshide gnolls roam freely through the mist. The hazardous terrain keeps most passing travelers strictly to the main cobblestone road connecting Menethil Harbor to Ironforge, leaving this deep corner largely untamed. Amid the hazards of the marsh stands a lonely stone cottage topped with a churning windmill. There, the gnome Fradd Swiftgear and the dwarf Wenna Silkbeard make an unlikely living scavenging the bog. They peddle curiosities and rare trade recipes recovered from the mire to travelers brave enough to navigate the marsh's aggressive denizens."
     },
@@ -10833,12 +10833,6 @@
       2049,
       2781
     ],
-    "1896498010e2715130724570f53af6e4ea1c1294ea6c9f2a763d1ffec54dc1e9": [
-      370,
-      990,
-      1290,
-      2118
-    ],
     "18f6db2c58fc78b4996a1aba894cd25065d4913595169a61f9b897626f24ab7c": [
       429,
       1027,
@@ -11305,10 +11299,6 @@
       2491,
       2801
     ],
-    "4b01d2e6f4353ae729f6d63a2e79329dae18cde18b1a3f0ef561aec1582e2fdd": [
-      580,
-      1120
-    ],
     "4b8159268a76d376476761b94f22217cde8039813c23ff4cfab5ed2bcd622d60": [
       865,
       1319,
@@ -11633,6 +11623,10 @@
       1386,
       1969,
       2405
+    ],
+    "70d05098f5232a99b3b0bd0f311341438f95252ff269cc3937d348f696cc5efb": [
+      334,
+      1112
     ],
     "715bf9ba9d5999e8854772ca2989c3a3179c7ec7e6fbdb08a622ac1782f562a3": [
       294,
@@ -12256,6 +12250,13 @@
     "b55f924b35bd50ad6995727a48a335990a415a1663ff9ad2ad58f66ba25db267": [
       426,
       1020
+    ],
+    "b59646d31179bb04ad4cca90eb5a0abb82c58eed958937d5677dfed2a009c092": [
+      403,
+      710,
+      1050,
+      1951,
+      2200
     ],
     "b72d6e9f9a8b6f3abcc35436031b11337ac86f508237d6084e60f9423bb4c1de": [
       382,
@@ -12910,6 +12911,15 @@
     ]
   },
   "pack": "LoreForever_Voice_Female_MorePlaces",
-  "retired": [],
+  "retired": [
+    {
+      "file": "Audio/Transport/full_subzone_mosshide-fen-4747ee428a5cdb48a58f/1-0000.mp3",
+      "sha256": "4b01d2e6f4353ae729f6d63a2e79329dae18cde18b1a3f0ef561aec1582e2fdd"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_sundown-marsh-79e478488b322798441e/1-0000.mp3",
+      "sha256": "1896498010e2715130724570f53af6e4ea1c1294ea6c9f2a763d1ffec54dc1e9"
+    }
+  ],
   "version": 1
 }

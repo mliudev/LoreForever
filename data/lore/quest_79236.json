@@ -1,0 +1,110 @@
+{
+ "key": "quest:79236",
+ "type": "quest",
+ "name": "Cherry for Your Thoughts?",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79236
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance members will be interested to learn that the raiders striking human and dwarven encampments were not operating under the authority of the Horde, but were hired by a private patron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde adventurers can find vindication in Tokal's admission, which clarifies that the attacks carried out against Alliance camps were private mercenary contracts rather than official Horde aggression."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is tokal",
+    "tokal booty bay",
+    "cherry grog quest giver"
+   ],
+   "answer": "Tokal is an operative or mercenary found taking refuge in the pirate haven of Booty Bay. Facing scrutiny over recent raids on human and dwarven settlements, she offers to tell the full story of who she was working for to anyone willing to buy her a Cherry Grog.",
+   "q": "Who is Tokal?"
+  },
+  {
+   "aliases": [
+    "why buy cherry grog",
+    "cherry grog tokal",
+    "what does tokal want"
+   ],
+   "answer": "Tokal is reluctant to share the sensitive details of her past contracts while dry. Buying her a Cherry Grog loosens her tongue, getting her to explain who privately funded the raids against the Alliance camps.",
+   "q": "Why does Tokal want a Cherry Grog?"
+  },
+  {
+   "aliases": [
+    "who hired tokal",
+    "did horde attack alliance camps",
+    "was horde behind the raids"
+   ],
+   "answer": "According to Tokal, the raids on human and dwarven encampments were not ordered by the Horde. While rumors claimed the Horde was responsible, she insists her group was working under a private mercenary contract.",
+   "q": "Was the Horde responsible for pillaging the human and dwarven camps?"
+  },
+  {
+   "aliases": [
+    "who is the marshal",
+    "is tokal hiding from marshal",
+    "marshal looking for tokal"
+   ],
+   "answer": "Tokal fears pursuit by a marshal investigating the pillaging of human and dwarven settlements. She is careful to make sure anyone approaching her in Booty Bay is not an agent sent to bring her to justice.",
+   "q": "Why is Tokal worried about a marshal?"
+  },
+  {
+   "aliases": [
+    "where to get cherry grog",
+    "cherry grog location",
+    "booty bay grog"
+   ],
+   "answer": "Cherry Grog is a beverage that can be procured from tavern keepers and barkeepers in Booty Bay. Delivering a mug of this drink to Tokal satisfies her demand and prompts her to disclose her tale.",
+   "q": "Where do you get Cherry Grog for Tokal?"
+  },
+  {
+   "aliases": [
+    "why is tokal in booty bay",
+    "tokal hiding place"
+   ],
+   "answer": "Booty Bay serves as a neutral, freebooter port outside the strict jurisdiction of both the Alliance and the Horde. For a mercenary lying low after pillaging human and dwarven encampments, it provides an ideal hideout.",
+   "q": "Why is Tokal staying in Booty Bay?"
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "cherry for your thoughts",
+  "cherry grog",
+  "marshal",
+  "mercenary",
+  "pillaging",
+  "private contract",
+  "tokal"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "topic:horde",
+  "topic:human"
+ ],
+ "sections": [
+  {
+   "body": "In the bustling port of Booty Bay, an individual named Tokal is keeping a low profile while watching out for law enforcement. A series of aggressive raids recently devastated human and dwarven camps, fueling rumors that the Horde had orchestrated the attacks. When approached by travelers who clearly do not work for the inquiring marshal, Tokal is quick to push back against the widespread narrative, offering a different version of events in exchange for a drink.",
+   "spoiler": 0,
+   "title": "The Whispers in Booty Bay"
+  },
+  {
+   "body": "Tokal readily admits to participating in the pillaging of human and dwarven outposts, but firmly denies that the raids were carried out on behalf of the Horde. Instead, she claims her band was operating under private contract for an undisclosed third party. Before revealing the full account of who financed the operation and why, she insists on being brought a refreshing Cherry Grog.",
+   "spoiler": 1,
+   "title": "Private Mercenaries"
+  }
+ ],
+ "summary": "In Booty Bay, a mercenary named Tokal is seeking a drink in exchange for the truth behind recent attacks on human and dwarven outposts. While rumors point the finger at the Horde, Tokal insists her group was operating under a private mercenary contract.",
+ "attribution": [
+  "In-game quest text: Cherry for Your Thoughts?"
+ ]
+}

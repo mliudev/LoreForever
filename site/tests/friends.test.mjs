@@ -7,7 +7,9 @@ import assert from "node:assert/strict";
 import { onRequest as friendsApi } from "../functions/api/friends/[action].js";
 import { findOrCreateUser, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { parseWho, cleanMessage, MESSAGE_MAX } from "../lib/friends.js";
+import { parseWho, cleanMessage, MESSAGE_MAX, friendOffer } from "../lib/friends.js";
+import { shareCode, newShareCode, codeOwner, setupReferrals } from "../lib/referrals.js";
+import { escape } from "../lib/voices.js";
 
 import { d1 } from "./helpers.mjs";
 
@@ -17,8 +19,8 @@ const TABLES = ["friend_people", "friend_edges", "friend_messages", "friend_repo
                 "devices", "device_links"];
 beforeEach(async () => {
   await setup(env);
-  for (const t of TABLES) env.DB.sqlite.exec(`DELETE FROM ${t}`);
-  env.DB.sqlite.exec("DROP TABLE IF EXISTS share_codes");
+  await setupReferrals(env);
+  for (const t of [...TABLES, "share_codes", "referrals", "creators"]) env.DB.sqlite.exec(`DELETE FROM ${t}`);
 });
 
 // A player with a profile (handle, character name) and Willo connected.
@@ -144,21 +146,77 @@ test("where you are is shared only after you say yes, only with friends, and tur
   assert.equal(env.DB.sqlite.prepare("SELECT progress FROM friend_people WHERE progress IS NOT NULL").all().length, 0);
 });
 
-test("a player's share link makes friends at once; a creator's link adds no one", async () => {
+test("a shared note carries the guild and the week, cleaned, and a week older than a week goes", async () => {
   const sam = await player("sam"), ana = await player("ana");
-  // lib/referrals.js's table: lowercase codes; a creator's code has no player account.
-  env.DB.sqlite.exec("CREATE TABLE share_codes (code TEXT PRIMARY KEY, user_id TEXT, kind TEXT, created TEXT, retired TEXT)");
-  env.DB.sqlite.prepare("INSERT INTO share_codes VALUES (?, ?, 'player', '2026-10-16', NULL)").run("k7p2qmx", ana.user.id);
-  env.DB.sqlite.prepare("INSERT INTO share_codes VALUES (?, NULL, 'creator', '2026-10-16', NULL)").run("ziqo");
-  env.DB.sqlite.prepare("INSERT INTO share_codes VALUES (?, ?, 'player', '2026-10-01', '2026-10-10')").run("oldcode", ana.user.id);
-  assert.equal((await sam.call("add", { who: "https://loreforeverwow.com/w/K7P2QMX" })).body.state, "friends");
+  const { bId: anaId } = await befriend(sam, ana);
+  await Promise.all([sam.call("share", { on: true }), ana.call("share", { on: true })]);
+  await sam.call("presence", { guild: "Dawnbringers" });
+  await ana.call("presence", { zone: "Duskwood", guild: "Dawnbringers",
+    week: { levels: 3, quests: -5, zones: ["Duskwood", 7, "x".repeat(200)], bosses: ["A", "B", "C", "D"], extra: 1 } });
+  const list = (await sam.call("list")).body;
+  assert.equal(list.me.guild, "Dawnbringers");
+  const p = list.friends.find(f => f.id === anaId).progress;
+  assert.equal(p.guild, "Dawnbringers");
+  assert.deepEqual(p.week, { levels: 3, zones: ["Duskwood", "x".repeat(64)], quests: 0, bosses: ["A", "B", "C"] });
+  env.DB.sqlite.prepare("UPDATE friend_people SET progress_at = ? WHERE user_id = ?")
+    .run(new Date(Date.now() - 8 * 864e5).toISOString(), ana.user.id);
+  const old = (await sam.call("list")).body.friends.find(f => f.id === anaId).progress;
+  assert.equal(old.week, null);
+  assert.equal(old.zone, "Duskwood");
+});
+
+// A creator's link as /admin makes it (lib/referrals.js saveCreator, without Stripe).
+function creatorLink(code) {
+  env.DB.sqlite.prepare("INSERT INTO creators (code, name, discount, share_pct, months, gift, created) " +
+    "VALUES (?, 'Ziqo', 50, 20, 3, 100, '2026-10-16')").run(code);
+  env.DB.sqlite.prepare("INSERT INTO share_codes (code, kind, created) VALUES (?, 'creator', '2026-10-16')").run(code);
+}
+
+test("a player's share link makes friends at once; a creator's link or a retired one adds no one", async () => {
+  const sam = await player("sam"), ana = await player("ana"), bo = await player("bo-1");
+  const old = await shareCode(env, ana.user.id), code = await newShareCode(env, ana.user.id);
+  creatorLink("ziqo");
+  assert.equal((await sam.call("add", { who: `https://loreforeverwow.com/w/${code.toUpperCase()}` })).body.state, "friends");
   assert.equal((await ana.call("list")).body.friends[0].name, "Sam");
   const creator = await sam.call("add", { who: "loreforeverwow.com/w/ziqo?src=yt" });
   assert.equal(creator.status, 400);
   assert.match(creator.body.error, /creator's link/);
-  assert.equal((await ana.call("add", { who: "loreforeverwow.com/w/oldcode" })).status, 404);
-  assert.equal((await sam.call("add", { who: "loreforeverwow.com/w/nosuch1" })).status, 404);
+  assert.equal((await bo.call("add", { who: `loreforeverwow.com/w/${old}` })).status, 404);    // "New link" retired it
+  assert.equal((await sam.call("add", { who: "loreforeverwow.com/w/nosuch2" })).status, 404);
   assert.equal((await sam.call("add", { who: "sam" })).status, 400);
+});
+
+test("someone a friend's link brought to Willo is offered to add them, until they do or say Not now", async () => {
+  const ana = await player("ana"), sam = await player("sam"), bo = await player("bo-1");
+  const code = await shareCode(env, ana.user.id);
+  const brought = (friend) => env.DB.sqlite.prepare("INSERT INTO referrals (user_id, code, kind, sharer_id, created) " +
+    "VALUES (?, ?, 'player', ?, '2026-10-16')").run(friend.user.id, code, ana.user.id);
+  brought(sam);
+  brought(bo);
+  // Ana's name only once her profile is public (Share Willo's rule), never her account's name.
+  assert.equal((await sam.call("list")).body.suggested.name, null);
+  env.DB.sqlite.prepare("UPDATE profiles SET public = 1 WHERE user_id = ?").run(ana.user.id);
+  const offer = (await sam.call("list")).body.suggested;
+  assert.equal(offer.name, "Ana");
+  assert.doesNotMatch(JSON.stringify(offer), /Real Name|example\.com/);
+  assert.equal((await sam.call("add", { who: offer.who })).body.state, "friends");
+  assert.equal((await sam.call("list")).body.suggested, null);
+  assert.equal((await bo.call("pass", { id: (await bo.call("list")).body.suggested.id })).body.suggested, null);
+  assert.deepEqual((await bo.call("list")).body.friends, []);
+  // Adding them after all still works.
+  assert.equal((await bo.call("add", { who: "ana" })).body.state, "asked");
+});
+
+test("/willo?shared=<code> offers a signed-in visitor to add the link's player, never to themselves", async () => {
+  const ana = await player("ana"), sam = await player("sam");
+  const owner = await codeOwner(env, await shareCode(env, ana.user.id));
+  const offer = await friendOffer(env, owner, sam.user, escape);
+  assert.match(offer, /data-add-friend="[a-z0-9]{7}"/);
+  assert.match(offer, /Add them as a friend/);          // Ana's profile isn't public: no name for a stranger
+  assert.equal(await friendOffer(env, owner, ana.user, escape), "");
+  assert.equal(await friendOffer(env, owner, null, escape), "");
+  await sam.call("add", { who: owner.code });
+  assert.match(await friendOffer(env, owner, sam.user, escape), /are friends in Willo/);
 });
 
 test("Delete my account removes their friends, messages, shared whereabouts and reports, on both sides", async () => {

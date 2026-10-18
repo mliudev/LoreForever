@@ -1,0 +1,109 @@
+{
+ "key": "quest:98545",
+ "type": "quest",
+ "name": "Leonid's Letter",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98545
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Leonid's history with the Dark Lady prevents him from stepping into Undercity himself, highlighting the political tensions between independent undead and Sylvanas's loyalists."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Navigating into the Forsaken capital on behalf of an outsider allows Horde adventurers easy access to Undercity's Trade Quarter amenities."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives leonid letter",
+    "leonid barthalomew",
+    "leonid quest giver"
+   ],
+   "answer": "Leonid is an experienced soldier who maintains delicate relations with various factions. Due to a complicated past with Lady Sylvanas Windrunner, he avoids entering Undercity directly and relies on wandering adventurers to carry messages to his acquaintances.",
+   "q": "Who is Leonid and why won't he enter Undercity?"
+  },
+  {
+   "aliases": [
+    "where is glix xizzix",
+    "who is glix xizzix",
+    "undercity goblin barber"
+   ],
+   "answer": "Glix Xizzix is a goblin stationed within the bustling Trade Quarter of Undercity. He appears to operate near or around grooming services, keeping a lost-and-found assortment left behind by absent-minded undead patrons.",
+   "q": "Who is Glix Xizzix?"
+  },
+  {
+   "aliases": [
+    "leonid dark lady history",
+    "leonid and sylvanas"
+   ],
+   "answer": "Leonid acknowledges having a 'somewhat colorful history' with Sylvanas Windrunner, the Banshee Queen of the Forsaken. Rather than risk provoking her or her guards, he employs neutral third parties to handle his business inside the city.",
+   "q": "What is Leonid's history with the Dark Lady?"
+  },
+  {
+   "aliases": [
+    "glix xizzix leonid naxxramas",
+    "how do glix and leonid know each other"
+   ],
+   "answer": "Glix remembers Leonid as a seasoned veteran from intense military struggles against the Scourge, recalling times when the dread citadel Naxxramas rained destruction upon them.",
+   "q": "How do Leonid and Glix know each other?"
+  },
+  {
+   "aliases": [
+    "quest reward glix",
+    "why lost and found"
+   ],
+   "answer": "Leonid told the courier that Glix would gladly pay a tip, but Glix had made no such promise. Grudgingly complying, the goblin offers odd trinkets gathered from the salon's lost and found left behind by forgetful Forsaken customers.",
+   "q": "Why does Glix reward you with lost-and-found items?"
+  },
+  {
+   "aliases": [
+    "where to deliver leonid letter",
+    "trade quarter delivery"
+   ],
+   "answer": "The letter is brought down into the Forsaken capital of Undercity, directly into the Trade Quarter where merchants, artisans, and goblins conduct business under the watchful eyes of the Royal Apothecary Society and city guards.",
+   "q": "Where is the letter delivered?"
+  }
+ ],
+ "keywords": [
+  "dark lady",
+  "glix xizzix",
+  "leonid",
+  "lost and found",
+  "naxxramas",
+  "sealed letter",
+  "sylvanas",
+  "trade quarter",
+  "undercity"
+ ],
+ "related": [
+  "zone:undercity",
+  "subzone:trade-quarter",
+  "topic:forsaken",
+  "topic:goblin"
+ ],
+ "sections": [
+  {
+   "body": "Leonid needs a courier to transport a sealed letter to an acquaintance in Undercity. Because of past friction and a fraught relationship with Lady Sylvanas Windrunner, Leonid chooses not to walk the halls of the Forsaken capital himself, entrusting a traveling neutral party to pass past the city's guards without raising alarm.",
+   "spoiler": 0,
+   "title": "An Outsider's Errand"
+  },
+  {
+   "body": "The recipient is Glix Xizzix, an opportunistic goblin doing business in the Trade Quarter of Undercity. Upon receiving the message, Glix reminisces about surviving alongside Leonid under the shadow of the Scourge citadel Naxxramas. Though surprised and annoyed by Leonid's promise of compensation, Glix reluctantly pays out from the assorted lost-and-found items left behind by careless undead clientele.",
+   "spoiler": 0,
+   "title": "Old Comrades in the Trade Quarter"
+  }
+ ],
+ "summary": "Leonid's Letter is a delivery quest directing travelers into the depths of Undercity. Wary of entering the Forsaken capital himself due to a strained past with Lady Sylvanas Windrunner, Leonid hires an impartial courier to deliver a message to Glix Xizzix, an old goblin acquaintance stationed in the Trade Quarter.",
+ "attribution": [
+  "In-game quest text: Leonid's Letter"
+ ]
+}

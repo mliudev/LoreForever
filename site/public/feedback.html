@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261016t">
+<link rel="stylesheet" href="/style.css?v=20261017a">
 <link rel="stylesheet" href="/pages.css?v=20261016p">
 <script src="/header.js" defer></script>
 </head>
@@ -42,8 +42,7 @@
   <div class="h-sky bw-sky" aria-hidden="true"></div>
   <div class="h-wrap bw-in fb-page">
   <h1>Feedback</h1>
-  <p class="pitch">Found a wrong answer, hit a bug, or want your zone next? Tell us here. Every report is read, and
-    lore fixes go into the next update.</p>
+  <p class="pitch">Found a wrong answer, hit a bug, or want your zone next? Tell us here. Every report is read.</p>
 
   <!-- Sending feedback needs a Lore Forever account (Google sign-in, LOR-106; functions/api/auth/[action].js). The
        form starts hidden: the script shows it when signed in, or the sign-in box when not. Signing in needs
@@ -100,7 +99,7 @@
     <!-- Filled in by the module script at the bottom when the code is a report from the add-on's "Copy report". -->
     <div class="fb-report" id="fb-report" hidden></div>
 
-    <!-- No email field: a reply goes to the account's email. The name starts as the account's name. -->
+    <!-- No email field: nothing is emailed back (LOR-621). The name starts as the account's name. -->
     <label class="fb-field">
       <span>Name or character <span class="fb-optional">(optional)</span></span>
       <input type="text" name="name" id="fb-name" maxlength="60" autocomplete="nickname" placeholder="e.g. Thaelric">
@@ -124,7 +123,7 @@
 
   <section class="fb-done" id="fb-done" hidden>
     <h2>Thank you!</h2>
-    <p>Got it. If there's news, we'll write to the email on your account.</p>
+    <p>Got it. We read every report.</p>
     <p><a href="/feedback" id="fb-again">Send another</a> &middot; <a href="/">Back to Lore Forever</a> &middot;
       <a href="/discord?src=feedback">Chat on Discord</a></p>
   </section>
@@ -136,7 +135,7 @@
      address off), then the site's parts in columns. -->
 <footer class="h-foot">
   <div class="h-wrap">
-    <p class="h-foot-lead">Reports are kept only to improve Lore Forever. Your account's email is used only to reply to you.</p>
+    <p class="h-foot-lead">Reports are kept only to improve Lore Forever.</p>
     <div class="h-foot-grid">
       <div class="h-sign">
         <span class="h-brand"><img src="/img/logo.svg" alt="" width="30" height="30">Lore Forever</span>

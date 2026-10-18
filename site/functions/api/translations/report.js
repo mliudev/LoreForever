@@ -3,11 +3,15 @@
 //                                  wrong, and optionally better wording. A JSON post gets {"ok": true} or
 //                                  {"ok": false, "error": ...}; a plain form post is sent on to /translate/reported.
 //   GET  /api/translations/report  returns the reports, newest first. Needs the admin key (lib/auth.js).
-// Reports go to TRANSLATIONS_WEBHOOK too, when it's set (see functions/api/translations.js).
+// Reports go to TRANSLATIONS_WEBHOOK too, when it's set (see functions/api/translations.js), and to Slack
+// #player-feedback when SLACK_FEEDBACK_WEBHOOK is (lib/slack-feedback.js).
 
 import { authorized } from "../../../lib/auth.js";
 import { clean, EMAIL, senderHash, postWebhook } from "../../../lib/form.js";
 import { errorPage, LOCALE } from "../../../lib/translations.js";
+import { currentUser } from "../../../lib/accounts.js";
+import { setupReports } from "../../../lib/reports.js";
+import { forwardFeedback } from "../../../lib/slack-feedback.js";
 
 const SETUP = `CREATE TABLE IF NOT EXISTS translation_reports (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -21,8 +25,11 @@ const SETUP = `CREATE TABLE IF NOT EXISTS translation_reports (
   name TEXT,
   country TEXT,
   sender TEXT NOT NULL,
-  status TEXT NOT NULL DEFAULT 'new'
+  status TEXT NOT NULL DEFAULT 'new',
+  user_id TEXT, resolution TEXT, reason TEXT, resolved TEXT, fixed_in TEXT
 )`;
+// user_id: the sender's account when signed in, so the report shows on their My contributions; resolution, reason,
+// resolved, fixed_in: what became of it (lib/reports.js, LOR-621).
 
 const PER_DAY = 20;   // reports one sender can make per day
 
@@ -48,7 +55,8 @@ export async function onRequestPost(context) {
   return Response.redirect(new URL("/translate/reported", request.url).href, 303);
 }
 
-async function save({ request, env, waitUntil }, json) {
+async function save(context, json) {
+  const { request, env, waitUntil } = context;
   if (!env.DB) return { status: 503, error: "Reports aren't set up yet. Please tell us on Discord." };
   let input;
   try {
@@ -75,16 +83,20 @@ async function save({ request, env, waitUntil }, json) {
   const now = new Date().toISOString();
   const sender = await senderHash(env, request.headers.get("CF-Connecting-IP") || "", now.slice(0, 10));
   await env.DB.prepare(SETUP).run();
+  await setupReports(env);
+  const user = await currentUser(env, request).catch(() => null);
   const sent = await env.DB.prepare("SELECT COUNT(*) AS n FROM translation_reports WHERE sender = ? AND created >= ?")
     .bind(sender, now.slice(0, 10)).first("n");
   if (sent >= PER_DAY) return { status: 429, error: "That's a lot of reports for one day. Thank you! Please send the rest tomorrow, or on Discord." };
 
   const row = await env.DB.prepare(
-    "INSERT INTO translation_reports (created, locale, code, place, wrong, better, email, name, country, sender) " +
-    "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id"
-  ).bind(now, r.locale, r.code, r.place, r.wrong, r.better, r.email, r.name, request.cf?.country || null, sender).first();
+    "INSERT INTO translation_reports (created, locale, code, place, wrong, better, email, name, country, sender, user_id) " +
+    "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id"
+  ).bind(now, r.locale, r.code, r.place, r.wrong, r.better, r.email, r.name, request.cf?.country || null, sender,
+         user?.id || null).first();
 
   if (env.TRANSLATIONS_WEBHOOK) waitUntil(notify(env.TRANSLATIONS_WEBHOOK, { ...r, id: row?.id }));
+  if (row?.id) forwardFeedback(context, "translation-report", { ...r, id: row.id });
   return {};
 }
 

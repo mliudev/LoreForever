@@ -11,6 +11,7 @@
 //   FEEDBACK_KEY      secret for reading reports; without it GET is disabled
 //   TURNSTILE_SECRET  Cloudflare Turnstile secret; when set, every report needs a valid Turnstile token
 //   FEEDBACK_WEBHOOK  Discord webhook URL; each report is posted there (never the email address)
+//   SLACK_FEEDBACK_WEBHOOK  Slack #player-feedback; each report is forwarded there (lib/slack-feedback.js, LOR-641)
 // A report code from the add-on's "Copy report" (LOR-120, public/report-code.js) is decoded on save: the decoded
 // question context is kept as JSON in `report`, and spelled out in the Discord post. With a code, the message is
 // optional (it defaults to the reason).
@@ -19,6 +20,8 @@ import { clean, ticked, senderHash, postWebhook } from "../../lib/form.js";
 import { hasBearer } from "../../lib/auth.js";
 import { currentUser, sameOrigin, setup as setupAccounts } from "../../lib/accounts.js";
 import { decodeReport, describeReport, REASONS } from "../../public/report-code.js";
+import { setupReports } from "../../lib/reports.js";
+import { forwardFeedback } from "../../lib/slack-feedback.js";
 
 const SETUP = `CREATE TABLE IF NOT EXISTS feedback (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -41,6 +44,7 @@ const MIGRATE = ["ALTER TABLE feedback ADD COLUMN user_id TEXT", "ALTER TABLE fe
 
 async function setupTable(env) {
   await env.DB.prepare(SETUP).run();
+  await setupReports(env);   // status and what became of it (lib/reports.js, LOR-621)
   for (const sql of MIGRATE) {
     try { await env.DB.prepare(sql).run(); } catch (e) {}
   }
@@ -93,7 +97,8 @@ export async function onRequestPost(context) {
 }
 
 // Returns {} when the report was saved, or {status, error} with a message for the player.
-async function save({ request, env, waitUntil }, json) {
+async function save(context, json) {
+  const { request, env, waitUntil } = context;
   if (!env.DB) return { status: 503, error: "Feedback isn't set up yet." };
   if (!sameOrigin(request)) return { status: 403, error: "Please use the form on loreforeverwow.com." };
 
@@ -138,13 +143,14 @@ async function save({ request, env, waitUntil }, json) {
     .bind(user.id, now.slice(0, 10)).first("n");
   if (sent >= PER_DAY) return { status: 429, error: "That's a lot of reports for one day. Thanks! Please try again tomorrow." };
 
-  await env.DB.prepare(
+  const row = await env.DB.prepare(
     "INSERT INTO feedback (created, kind, rating, message, code, email, name, quote_ok, country, sender, user_id, " +
-    "report) VALUES (?, ?, ?, ?, ?, NULL, ?, ?, ?, ?, ?, ?)"
+    "report) VALUES (?, ?, ?, ?, ?, NULL, ?, ?, ?, ?, ?, ?) RETURNING id"
   ).bind(now, f.kind, f.rating, f.message, f.code, f.name, f.quote_ok,
-         request.cf?.country || null, sender, f.user_id, report ? JSON.stringify(report) : null).run();
+         request.cf?.country || null, sender, f.user_id, report ? JSON.stringify(report) : null).first();
 
   if (env.FEEDBACK_WEBHOOK) waitUntil(notify(env.FEEDBACK_WEBHOOK, f));
+  if (row?.id) forwardFeedback(context, "feedback", { ...f, id: row.id, label: KINDS[f.kind] });
   return {};
 }
 

@@ -385,11 +385,14 @@ jobs:
       contents: write
       actions: read
     steps:
-      # release/companion.ref, and release/installer for Lore Forever's wizard pictures.
+      # release/companion.ref, release/installer for Lore Forever's wizard pictures, and the add-on's lore for the
+      # vectors Willo ships with (LOR-613).
       - uses: actions/checkout@v7
         with:
           ref: ${{ needs.prepare.outputs.source_commit }}
-          sparse-checkout: release/installer
+          sparse-checkout: |
+            release/installer
+            addon/LoreForever/Data
       - uses: actions/checkout@v7
         with:
           path: ci
@@ -430,13 +433,32 @@ jobs:
           client-id: ${{ vars.AZURE_CLIENT_ID }}
           tenant-id: ${{ vars.AZURE_TENANT_ID }}
           subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+      # The last release's lore vectors (its lore-vectors artifact), so this one works out only the entries the lore
+      # changed since: seconds instead of minutes. Without them (the first time, or an expired artifact) it does all.
+      - name: Last release's lore vectors
+        continue-on-error: true
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $run = gh run list -R $env:GITHUB_REPOSITORY --workflow release.yml --status success -L 1 --json databaseId -q '.[0].databaseId'
+          if ($run) { gh run download $run -R $env:GITHUB_REPOSITORY -n lore-vectors -D "$env:RUNNER_TEMP\lore-seed" }
       # The release's version goes into the app (build.ps1 stamps it), so it reports which release it came with (its
-      # daily check-in, /admin's versions in use).
+      # daily check-in, /admin's versions in use). The lore's vectors go in beside it (LOR-613): Willo's search by
+      # meaning is ready from her first answer, with nothing to work out on the player's PC.
       - name: Build Willo
         shell: pwsh
         env:
           LORE_COMPANION_VERSION: ${{ needs.prepare.outputs.version }}
-        run: companion-src\companion\packaging\build.ps1 -Out "$env:RUNNER_TEMP\companion" -Work "$env:RUNNER_TEMP\companion-build"
+        run: |
+          companion-src\companion\packaging\build.ps1 -Out "$env:RUNNER_TEMP\companion" -Work "$env:RUNNER_TEMP\companion-build" `
+            -Lore addon\LoreForever -LoreSeed "$env:RUNNER_TEMP\lore-seed\lore-vectors.npz"
+      - uses: actions/upload-artifact@v7
+        with:
+          name: lore-vectors
+          path: ${{ runner.temp }}\companion\lore-vectors.npz
+          if-no-files-found: ignore
+          retention-days: 90
       - name: Sign Willo
         if: vars.SIGNING_PROFILE != ''
         uses: azure/artifact-signing-action@v2

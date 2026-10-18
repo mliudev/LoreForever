@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261016t">
+<link rel="stylesheet" href="/style.css?v=20261017a">
 <link rel="stylesheet" href="/pages.css?v=20261016p">
 <script src="/header.js" defer></script>
 </head>
@@ -52,7 +52,7 @@
   <div class="h-sky bw-sky" aria-hidden="true"></div>
   <div class="h-wrap bw-in vp-page vp-doc">
   <h1>Privacy</h1>
-  <p class="vp-version">Updated 2026-10-16</p>
+  <p class="vp-version">Updated 2026-10-17</p>
   <p class="pitch">What this site keeps about you, why, who else handles it, and how to get rid of it. The add-on
     itself can't send anything anywhere: it runs inside your game, and you only share what you copy out of it.</p>
 
@@ -69,7 +69,9 @@
   <ul>
     <li><strong>Your account</strong>, if you sign in: when you agreed to the Terms (by signing in) and which version,
       and your Google account ID, email address and name, from Google
-      sign-in. We use them to sign you in and to reach you about your feedback and what you contribute. A cookie
+      sign-in. We use them to sign you in and to reach you about your feedback and what you contribute. When you
+      start a plan, your email address and first name also get you one thank-you email from Mike, only that one,
+      and we note that it was sent (not what it said). A cookie
       keeps you signed in for 30 days. We also note the days you're signed in on the site (only the date, kept for 90
       days, and the latest one while you have the account), and when you download Lore Forever from this site while
       signed in, that your account downloaded it that day. We look at these only added up over everyone, to see how
@@ -129,7 +131,8 @@
       removing or blocking a friend deletes your conversation with them for both of you. If you report a player, we
       keep their latest messages to you and your note for 90 days to look into it.</li>
     <li><strong>Sharing where you are with friends</strong>, off until you turn it on in the companion app: while it's
-      on, the companion sends your character's name, level, zone and the quest you're tracking, and your friends (only
+      on, the companion sends your character's name, level, zone, the quest you're tracking, your guild's name and what
+      you did in the last week (levels gained, new places, quests finished, bosses beaten), and your friends (only
       them) can see it and ask Willo about it. We keep only the latest; turning it off deletes it.</li>
     <li><strong>The companion app's daily check-in</strong>: once a day the companion app tells us it's in use, with a
       random number made on your PC (scrambled) and the app's and the add-on's version numbers, with no account, name
@@ -151,7 +154,10 @@
       agreed to. The recording is kept private and used only to make your voice, on our own computer.</li>
     <li><strong>Shared game text</strong>: the quest, gossip and book text you share from the add-on, on the
       <a href="/contribute">Contribute</a> page or from the companion if you turn that on, with the race, class and
-      gender of the character who saw it (never its name) and the credit name you give, if any.</li>
+      gender of the character who saw it (never its name) and the credit name you give, if any. When Willo is
+      connected to your account, what it shares is linked to your account so you can see it under My contributions
+      on your account page. Only the credit name you type in Willo's settings is ever shown publicly, never your
+      account.</li>
     <li><strong>Willo's style and your tales</strong>, if you have a plan: the style you pick, what you write about how
       Willo should talk to you, your own versions of characters, and whether our check let them through. Google's API
       does that check, and only your own chats use them.</li>
@@ -177,7 +183,8 @@
   <h2>Who else handles it</h2>
   <ul>
     <li><strong>Cloudflare</strong> hosts the site and stores everything above (its database and file storage). It
-      also counts visits, without cookies, and runs Turnstile, a spam check, when we switch it on.</li>
+      also counts visits, without cookies, runs Turnstile, a spam check, when we switch it on, and sends that one
+      thank-you email (it gets your email address and the email itself, with your first name in it).</li>
     <li><strong>Google</strong> handles sign-in, serves the site's fonts, writes profile stories (from your
       character's facts, never your email or name) and writes Willo's answers in the companion app (from your
       question and its game context, with the picture of the game window if you let Willo see the game, never your
@@ -211,8 +218,8 @@
     kept to improve Willo's answers, the downloads noted for your account, your profile, its pictures and connected apps, your share link, your voices and every recording you uploaded, the release
     you agreed to in the voice studio, a voice you lent (its recording, test pack and credit), the narration and
     picture reports you sent while signed in, the languages and edits on your translation dashboard, and your friends
-    in Willo: your friend list and requests, the messages you sent and got, where you shared you are, and reports
-    you sent or that were sent about you.</p>
+    in Willo: your friend list and requests, the messages you sent and got, where you shared you are, reports
+    you sent or that were sent about you, and the note that we sent you a thank-you email.</p>
   <p>Some things stay, and here's why:</p>
   <ul>
     <li><strong>The record of a voice you sent</strong> (the name you signed, email, Discord, country, the release
@@ -228,7 +235,8 @@
     <li><strong>Text and recordings already in a released version</strong> of Lore Forever stay in it, under
       CC BY-SA, with no link to your account.</li>
     <li><strong>Your email list sign-up</strong> isn't tied to your account: <a href="/unsubscribe">unsubscribe</a>
-      to leave.</li>
+      to leave. Unsubscribing keeps a scrambled (hashed) copy of the address, not the address itself, so nothing we
+      send reaches it again.</li>
     <li><strong>That your Google account had Willo's free starter answers</strong> stays, as a one-way code made from
       your Google ID (not the ID itself), so deleting your account and signing in again doesn't bring them back. The
       same goes for the beta offer (a free Hero month, a Hero kept free to that month's end, and 50% off a first month): that
@@ -250,7 +258,7 @@
     <li>Stop the companion app updating your profile, and sending its usage counts with it: Disconnect it under
       Connected apps on your account page (that also signs Willo out), or turn off keeping your profile up to date in the companion. Turn off
       "Share anonymous usage counts" in the companion's settings to stop its daily check-in and the counts with it.</li>
-    <li>Leave the email list: <a href="/unsubscribe">unsubscribe</a>.</li>
+    <li>Stop all email from us, the list and the thank-you email: <a href="/unsubscribe">unsubscribe</a>.</li>
     <li>Anything else, like seeing what we hold about you or removing a voice you sent: ask on
       <a href="/discord">Discord</a>.</li>
   </ul>

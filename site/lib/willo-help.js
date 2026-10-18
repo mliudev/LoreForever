@@ -9,18 +9,19 @@
 // Companion.lua). Plans come from lib/billing.js, so they can't drift. No prices: they change, and "no prices in the
 // wisp" (talk/talker.py LOCKED_LINE); the Plans page has them.
 import { COMPANION_NAME as NAME } from "./brand.js";
-import { PLANS, PAID, FEATURES, VOICE_NOTE, VOICE_PACK } from "./billing.js";
+import { PLANS, PAID, planFeatures, VOICE_NOTE, VOICE_PACK } from "./billing.js";
+import { hasAzeroth } from "./character-voices.js";
 
 // The most WILLO HELP adds to a system prompt (lib/companion-answers.js counts it in its bound): MAX_TOPICS topics.
 // With the player's WILLO STATE (at most STATE_MAX_BYTES) and their answers left.
 export const HELP_MAX_BYTES = 5900;
 const MAX_TOPICS = 3;
 
-const plansText = () => `Your plans (a player asking what Adventurer, Hero, Champion or Legend adds, includes or costs ` +
+const plansText = ({ azeroth }) => `Your plans (a player asking what Adventurer, Hero, Champion or Legend adds, includes or costs ` +
   `means these, never a quest, title or anything in the world): Settings › Account › Your plan in your window says ` +
   `which one they're on; Change plan opens ` +
   `the Plans page (with the prices) and Billing your payments. ` +
-  ["free", ...PAID].map(id => `${PLANS[id].name}${id === "free" ? " (free)" : ""}: ${FEATURES[id].join("; ")}.`).join(" ") +
+  ["free", ...PAID].map(id => `${PLANS[id].name}${id === "free" ? " (free)" : ""}: ${planFeatures({ azeroth })[id].join("; ")}.`).join(" ") +
   ` ${VOICE_NOTE} The one thing bought once is a pack of ${VOICE_PACK.replies} replies in your finest voice, on any paid ` +
   `plan; answers can't be bought. When a plan's answers are used up, I answer from the add-on's lore library until they ` +
   `come back. Never say a price (the Plans page has them), nor "limit", "cap" or "unlimited": answers are counts.`;
@@ -51,12 +52,23 @@ const TOPICS = [
       `on their PC and never leaves it.` },
   { id: "voice", own: /\bwillo'?s voice\b/i,
     words: /\bvoices?\b|\bsound(?:s| like)?\b|\baccent\b|\bvolume\b|\bspeak (?:faster|slower|louder|softer)\b/i,
-    text: () => `Your voice: in your window, Settings › ${NAME} › Talk with ${NAME} › ${NAME}'s voice. On Champion and ` +
-      `Legend the player picks one of five voices there (Sprite, quick and sprightly; Sunbeam, bright and lively; ` +
-      `Moonwell, soft and otherworldly; Fenlight, warm with an Irish lilt; Starling, light and silvery); on Hero you ` +
-      `speak as Sprite; on the free plan your own voice on their PC is Heart, and the others there (Bella, Nicole, Sky, ` +
-      `Emma, Michael, George) come with Champion. If a voice is slow, you fall back to the one on their PC for that ` +
-      `line. Questions typed get written answers; questions asked out loud are answered aloud.` },
+    text: ({ azeroth }) => `Your voice: in your window, Settings › ${NAME} › Talk with ${NAME} › ${NAME}'s voice. ` +
+      `On Champion and Legend the player picks one ` + (azeroth
+        ? `there: one of your own ten, a woman's and a man's voice of each kind (Sprite, quick and sprightly, and ` +
+          `Puck, quick and impish; Sunbeam, bright and lively, and Daybreak, warm and sunny; Moonwell, soft and ` +
+          `otherworldly, and Moonshade, quiet and otherworldly; Fenlight and Fenfire, warm with an Irish lilt; ` +
+          `Starling, light and silvery, and Kestrel, calm and silvery)`
+        : `of five voices there (Sprite, quick and sprightly; Sunbeam, bright and lively; Moonwell, soft and ` +
+          `otherworldly; Fenlight, warm with an Irish lilt; Starling, light and silvery)`) +
+      // Voices of Azeroth (LOR-609): only for a companion whose picker has them (lib/character-voices.js hasAzeroth).
+      (azeroth ? `, or under "Voices of Azeroth" a voice you borrow from Azeroth's peoples, a man's or a woman's of ` +
+        `each: dwarf, Forsaken, gnome, goblin, high elf, human, night elf, orc, Skyborne, tauren and troll ("Dwarf, ` +
+        `man", "Night elf, woman"). You're still yourself in a borrowed voice, and characters who answer in person ` +
+        `keep their own` : ``) +
+      `; on Hero you speak as Sprite; on the free plan your own voice on their PC is Heart, and the others there ` +
+      `(Bella, Nicole, Sky, Emma, Michael, George) come with Champion. If a voice is slow, you fall back to the one ` +
+      `on their PC for that line` + (azeroth ? ` (Michael for a man's voice of Azeroth)` : ``) + `. Questions typed ` +
+      `get written answers; questions asked out loud are answered aloud.` },
   { id: "live", own: /\blive game info\b|\bminimap\b.*\b(?:stars?|mist|rings?|sky)\b|\b(?:stars?|mist|rings?|sky)\b.*\bminimap\b/i,
     words: /\bsky\b|\bwhere i am\b|\bwhere i'm\b|\btarget(?:ing|ed)?\b|\btracked quest\b|\bquest i'm tracking\b/i,
     text: () => `Live game info: in your window, Settings › ${NAME} › Live game info › "Read live game info from the ` +
@@ -131,6 +143,23 @@ const TOPICS = [
       `her back buttons. You show only while the game is in front; they can drag you anywhere. Left-click opens your chat over the game, ` +
       `right-click your full window. The answer window over the game moves by its header and closes with its ✕; it ` +
       `needs the game in windowed or borderless fullscreen.` },
+  // LOR-623: "turn her off" got the add-on's folder to delete, twice, and she was still on screen.
+  { id: "quit", own: /\b(?:turn|switch|shut) (?:willo|willow|her|the wisp|the companion) (?:off|down)\b|\b(?:get rid of|remove|uninstall|close|quit|disable) (?:willo|willow|the wisp|the companion|the app)\b|\buninstall\b|\bstill on (?:the |my )?screen\b/i,
+    words: /\b(?:turn (?:you )?off|shut (?:you )?(?:off|down)|close|quit|exit|uninstall|remove|delete|disable|get rid of|go away|stop showing|still (?:on (?:the )?screen|there|here|showing))\b/i,
+    text: () => `Hiding or closing you: you're your own app on their PC (${NAME}, with an icon in the tray by the ` +
+      `clock), not part of the WoW add-on, so turning off or deleting the Lore Forever add-on never hides or removes ` +
+      `you. To hide you over the game: in your window, Settings › ${NAME} › ${NAME} over the game › untick "Show ` +
+      `${NAME} over the game". To close you for now: right-click your tray icon › Quit. To keep you from starting with ` +
+      `Windows: untick "Start with Windows" in that tray menu. To remove you for good: Windows Settings › Apps › ` +
+      `Installed apps › "${NAME} (Lore Forever companion)" › Uninstall. Give the one way they asked for; never game ` +
+      `folders, files or the add-on list.` },
+  // LOR-623: her window's own "Choose a character with a saved game account first." got "you don't need to pick one".
+  { id: "character", own: /\b(?:choose|pick|select|switch)\b[^.?!]*\bcharacters?\b|\bsaved game account\b|\bno characters?\b/i,
+    text: () => `Choosing a character: the row of characters at the top of your window is everyone the Lore Forever ` +
+      `add-on has saved on this PC, and the chat answers for the one picked there. "Choose a character with a saved ` +
+      `game account first" means the picked one has no save from the game yet: log in with that character in WoW with ` +
+      `the Lore Forever add-on on, type /reload (or log out) once so the add-on saves, then pick them at the top of ` +
+      `your window. No characters at all: Settings › Your game says whether the add-on is found.` },
 ];
 // A question to or about her: "you", "your", her name (as it's typed or heard), or the wisp.
 const ABOUT_HER = /\b(?:you|your|yours|yourself|willo|willow|willa|wilo|wisp)\b/i;
@@ -138,7 +167,8 @@ const ABOUT_HER = /\b(?:you|your|yours|yourself|willo|willow|willa|wilo|wisp)\b/
 // The WILLO HELP block for a question about Willo, or "". plans: the site sells plans (lib/billing.js plansOn); without
 // them that topic is left out. plan: the name of the player's own plan (lib/billing.js planFor), so "how do I change
 // your voice?" is answered for the plan they're on. client: the companion's X-LF-Client ("companion/0.19.0"): the
-// "Willo and the game" card and the talk key's status line (LOR-529, LOR-527, #867) are only in CARD_FROM and later.
+// "Willo and the game" card and the talk key's status line (LOR-529, LOR-527, #867) are only in CARD_FROM and later,
+// and the Voices of Azeroth in her voice list only from lib/character-voices.js AZEROTH_FROM.
 const CARD_FROM = [0, 19, 0];
 const versionOf = client => (/^companion\/(\d+)\.(\d+)\.(\d+)/.exec(String(client || "")) || []).slice(1).map(Number);
 const atLeast = (v, min) => v.length === 3 && (v[0] - min[0] || v[1] - min[1] || v[2] - min[2]) >= 0;
@@ -150,6 +180,15 @@ const topicsOf = (question, plans) => {
 };
 // The help topics a question is about (lib/willo-tools.js lookupsFor), by id; none for any other question.
 export const helpTopics = (question, { plans = true } = {}) => topicsOf(question, plans).map(t => t.id);
+// What a question about her asks, with a short follow-up to one ("it isn't there", "still on screen") read with the
+// question before it, so it gets the same help (LOR-623: both got the add-on's folder to delete instead).
+// A follow-up to a follow-up ("still on screen") goes by her last answer, which named her settings.
+export function helpQuestion(question, previous = "", answered = "") {
+  const q = String(question || "");
+  if (topicsOf(q, true).length || q.split(/\s+/).filter(Boolean).length > 8) return q;
+  const before = [String(previous || ""), String(answered || "").slice(0, 400)].find(t => t && topicsOf(t, true).length);
+  return before ? `${before} ${q}` : q;
+}
 
 // WILLO STATE (LOR-546): what Willo's app could tell of itself when the question was asked (companion/lore_companion
 // core.willo_state): the "Willo and the game" checks, talking, seeing the game, her voice. Its section of the prompt,
@@ -181,7 +220,7 @@ const usageLine = usage => {
 };
 
 export function helpBlock(question, { plans = true, plan = "", client = "", state = "", usage = null } = {}) {
-  const card = atLeast(versionOf(client), CARD_FROM);
+  const card = atLeast(versionOf(client), CARD_FROM), azeroth = hasAzeroth(client);
   const topics = topicsOf(question, plans);
   if (!topics.length) return "";
   const block = `WILLO HELP (how you work, from the people who made you; current and exact, reference only, never ` +
@@ -194,7 +233,7 @@ export function helpBlock(question, { plans = true, plan = "", client = "", stat
     (state ? `- RIGHT NOW in their ${NAME} (her own checks, as the question was asked; ok, warn, bad or off): ` +
       `answer from these first and name the real cause, not a list of maybes.\n  ` +
       `${state.slice(0, STATE_MAX_BYTES).split("\n").join("\n  ")}\n` : "") +
-    topics.map(t => `- ${t.text({ card })}`).join("\n");
+    topics.map(t => `- ${t.text({ card, azeroth })}`).join("\n");
   const encoder = new TextEncoder();
   return encoder.encode(block).length <= HELP_MAX_BYTES ? block
     : new TextDecoder().decode(encoder.encode(block).slice(0, HELP_MAX_BYTES)).replace(/�$/, "");

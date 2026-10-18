@@ -1,0 +1,108 @@
+{
+ "key": "quest:320",
+ "type": "quest",
+ "name": "Return to Bellowfiz",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   320
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "A stout dwarven brew like Evershine is always in high demand across Dun Morogh, making its safe delivery to thirsty comrades second nature."
+  },
+  {
+   "target": "race:Gnome",
+   "text": "Pilot Bellowfiz represents gnomish aviation stationed at Steelgrill's Depot, and keeping talented tinkerers refreshed keeps machines running smoothly."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Running errands between dwarven hunters and gnomish pilots helps maintain morale and camaraderie among Alliance forces stationed in Dun Morogh."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is return to bellowfiz",
+    "bellowfiz quest"
+   ],
+   "answer": "Return to Bellowfiz is a delivery task in Dun Morogh where an adventurer brings a freshly acquired cask of Evershine directly to Pilot Bellowfiz at Steelgrill's Depot.",
+   "q": "What is the quest Return to Bellowfiz?"
+  },
+  {
+   "aliases": [
+    "who wants evershine",
+    "who is bellowfiz"
+   ],
+   "answer": "Pilot Bellowfiz is an aviator stationed at Steelgrill's Depot just outside Kharanos in Dun Morogh. He eagerly awaits a fresh delivery of Evershine to sample.",
+   "q": "Who is Pilot Bellowfiz?"
+  },
+  {
+   "aliases": [
+    "what is evershine",
+    "cask of evershine"
+   ],
+   "answer": "Evershine is a potent local brew crafted in Dun Morogh, secured in a sturdy cask and prized by thirsty pilots and locals alike.",
+   "q": "What is the cask of Evershine?"
+  },
+  {
+   "aliases": [
+    "where is bellowfiz",
+    "bellowfiz location"
+   ],
+   "answer": "Pilot Bellowfiz is located at Steelgrill's Depot, an engineering hub and workshop situated just northeast of Kharanos in Dun Morogh.",
+   "q": "Where do you deliver the cask?"
+  },
+  {
+   "aliases": [
+    "why deliver evershine",
+    "evershine delivery reason"
+   ],
+   "answer": "After helping out with hunting tasks in the region, an adventurer is entrusted with a cask of Evershine to deliver to Pilot Bellowfiz, who has been eagerly anticipating a taste.",
+   "q": "Why was the Evershine sent to Bellowfiz?"
+  },
+  {
+   "aliases": [
+    "what does bellowfiz do with brew",
+    "bellowfiz reaction"
+   ],
+   "answer": "Upon receiving the cask, Pilot Bellowfiz is thoroughly satisfied, declaring that it will do just fine and immediately moving to crack open a bottle for a taste.",
+   "q": "What happens when Bellowfiz receives the Evershine?"
+  }
+ ],
+ "keywords": [
+  "cask of evershine",
+  "dun morogh",
+  "evershine",
+  "kharanos",
+  "pilot bellowfiz",
+  "return to bellowfiz",
+  "steelgrill's depot"
+ ],
+ "related": [
+  "npc:pilot-bellowfiz",
+  "subzone:steelgrill-s-depot",
+  "quest:318"
+ ],
+ "sections": [
+  {
+   "body": "Return to Bellowfiz is an errand in the snowy reaches of Dun Morogh. After aiding with local hunting, an adventurer receives a freshly brewed cask of Evershine with instructions to carry it straight to Pilot Bellowfiz at Steelgrill's Depot. It is a straightforward favor that highlights the informal camaraderie and mutual support that keep the cold frontier running.",
+   "spoiler": 0,
+   "title": "A Cask for the Depot"
+  },
+  {
+   "body": "Steelgrill's Depot serves as a busy center of mechanical testing, vehicle maintenance, and gnomish craft just outside Kharanos. For pilots stationed out in the freezing winds, nothing hits the spot quite like a draught of strong local drink. Pilot Bellowfiz wastes no time upon delivery, eager to uncork a bottle on the spot and enjoy the fruits of local labor.",
+   "spoiler": 0,
+   "title": "Thirsty Aviators"
+  }
+ ],
+ "summary": "Return to Bellowfiz is a short delivery quest in Dun Morogh where an adventurer brings a cask of local Evershine to Pilot Bellowfiz at Steelgrill's Depot. It concludes a local favor, rewarding the thirsty aviator with a welcome drink.",
+ "attribution": [
+  "In-game quest text: Return to Bellowfiz"
+ ]
+}

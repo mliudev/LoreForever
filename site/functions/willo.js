@@ -11,6 +11,8 @@ import { loadSizes } from "../lib/packs.js";
 import { willoGet, willoPreview } from "../lib/willo.js";
 import { codeOwner, shareBanner } from "../lib/referrals.js";
 import { escape } from "../lib/voices.js";
+import { currentUser } from "../lib/accounts.js";
+import { friendOffer } from "../lib/friends.js";
 
 const SETUP = "CREATE TABLE IF NOT EXISTS willo_clicks (day TEXT PRIMARY KEY, n INTEGER NOT NULL)";
 const BOTS = /bot|crawler|spider|preview|facebookexternalhit|embedly|whatsapp|telegram|slack/i;
@@ -24,14 +26,17 @@ export async function onRequestGet({ request, env, waitUntil, next }) {
   const html = await page.text();
   if (!GET.test(html)) return new Response(html, page);      // not the page (a missing file is the home page)
   const shared = new URL(request.url).searchParams.get("shared");
-  const [sizes, preview, owner] = await Promise.all([loadSizes(env, request), willoPreview(env, request),
-    shared && env.DB ? codeOwner(env, shared).catch(() => null) : null]);
+  // A player's link opened by someone signed in: an "Add <name> as a friend" button under who sent them (LOR-611).
+  const [sizes, preview, owner, viewer] = await Promise.all([loadSizes(env, request), willoPreview(env, request),
+    shared && env.DB ? codeOwner(env, shared).catch(() => null) : null,
+    shared && env.DB ? currentUser(env, request).catch(() => null) : null]);
+  const offer = await friendOffer(env, owner, viewer, escape).catch(() => "");
   const headers = new Headers(page.headers);
   headers.set("Cache-Control", "no-cache");
   headers.delete("Content-Length");
   headers.delete("ETag");
-  return new Response(html.replace(GET, () => willoGet(sizes, preview)).replace(SHARED, () => shareBanner(owner, escape)),
-    { status: page.status, headers });
+  return new Response(html.replace(GET, () => willoGet(sizes, preview))
+    .replace(SHARED, () => shareBanner(owner, escape) + offer), { status: page.status, headers });
 }
 
 async function count(db) {

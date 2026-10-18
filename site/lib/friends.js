@@ -5,25 +5,31 @@
 //
 // Adding: by profile handle (a request the other player accepts) or by their share link, /w/<code> (lib/referrals.js,
 // one link for friends and referrals): a player's link counts as its owner's yes, so it makes friends at once; a
-// creator's link belongs to no player account, so it adds no one. Either side can remove the other, block (which also
-// removes) and report (which also blocks). A blocked player can't add or write to whoever blocked them, and isn't told.
+// creator's link belongs to no player account, so it adds no one. The link adds: pasted in Willo's Add a friend, the
+// "Add <name> as a friend" button on /willo?shared=<code> for a signed-in visitor (friendOffer), and, for someone the
+// link brought to Willo, the Friends tab's offer to add whoever shared it (sharedBy, LOR-611). Either side can remove
+// the other, block (which also removes) and report (which also blocks). A blocked player can't add or write to whoever
+// blocked them, and isn't told.
 //
 // Messages: text only, between friends only, kept MESSAGE_KEEP_DAYS and then deleted. Removing or blocking a friend
 // deletes the conversation for both. Nothing is ever sent to the game (no whispers) and Willo never acts in it.
 //
 // Progress: off until the player turns on "Share where I am with friends". While it's on, the companion sends a small
-// note (character, level, zone, subzone, tracked quest) when they change (presence, at most PRESENCE_PER_HOUR); only
+// note (character, level, zone, subzone, tracked quest, guild, and their week: levels, new places, quests and bosses of
+// the last 7 days, LOR-511) when they change (presence, at most PRESENCE_PER_HOUR); only
 // friends see it. Turning it off deletes the note. Nothing else about the player is shown to friends: their
 // character's name and profile handle (and the profile's link when it's public), never the account's name or email.
 //
 // Tables (in lib/accounts.js SETUP and USER_DATA, so "Delete my account" removes them):
 //   friend_people (user_id, pid, share, progress, progress_at, created)   pid: the random id friends see
 //   friend_edges (user_id, other_id, state, created, updated)   one row per side: state is "friends", "asked" (user
-//     asked other), "asking" (other asked user) or "blocked" (user blocked other; the other side has no row)
+//     asked other), "asking" (other asked user), "blocked" (user blocked other; the other side has no row) or "passed"
+//     (user said "Not now" to adding whoever shared Willo with them; the other side has no row)
 //   friend_messages (id, sender, recipient, body, created, seen)
 //   friend_reports (id, reporter, reported, messages, note, created, status)   kept REPORT_KEEP_DAYS
 
 import { validHandle } from "./profiles.js";
+import { codeOwner } from "./referrals.js";
 
 export const MESSAGE_KEEP_DAYS = 90;
 export const REPORT_KEEP_DAYS = 90;
@@ -118,31 +124,51 @@ export function parseWho(text) {
   return validHandle(word.toLowerCase()) ? { handle: word.toLowerCase(), code: word } : { code: word };
 }
 
-// The owner of a share link's code: {userId, creator} or null (unknown or retired). The codes are lib/referrals.js's
-// (lowercase; a creator's code has no player account, userId null); until that table exists, no link resolves.
-// TODO after the referrals PR merges: referrals.js codeOwner instead (it also checks a creator's own retirement).
+// The player a share link belongs to and whether it's a creator's (lib/referrals.js codeOwner, live codes only):
+// {userId, creator, name} or null.
 export async function linkOwner(env, code) {
-  try {
-    const row = await env.DB.prepare("SELECT user_id, kind FROM share_codes WHERE code = ? AND retired IS NULL")
-      .bind(String(code).toLowerCase()).first();
-    return row ? { userId: row.kind === "creator" ? null : row.user_id || null, creator: row.kind === "creator" } : null;
-  } catch (e) { return null; }
+  const owner = await codeOwner(env, code).catch(() => null);
+  return owner ? { userId: owner.userId, creator: owner.kind === "creator", name: owner.name } : null;
 }
 
 // ---- The list ----
 
+// What a friend shares, as the list shows it: their note, when it was sent and how many minutes ago. Their week covers
+// the 7 days before the note, so it goes once the note is older than that.
+const WEEK_MINUTES = 7 * 24 * 60;
 const progressOf = (row, now) => {
   if (!row.share || !row.progress) return null;
   try {
     const p = JSON.parse(row.progress);
-    return { ...p, at: row.progress_at, ago: Math.max(0, Math.round((now - Date.parse(row.progress_at)) / 60000)) };
+    const ago = Math.max(0, Math.round((now - Date.parse(row.progress_at)) / 60000));
+    return { ...p, ...(ago > WEEK_MINUTES ? { week: null } : {}), at: row.progress_at, ago };
   } catch (e) { return null; }
 };
 
-// Everything Willo's Friends tab shows, in one go: {me, friends, incoming, outgoing, blocked, unread}. Friends come
-// newest conversation first; a friend's progress only while they share it.
+// The player whose share link brought this account to Willo (lib/referrals.js referrals), while that link still works
+// and the two have nothing between them yet (no friendship, request, block, or "Not now": a "passed" row): Willo's
+// Friends tab offers to add them. {id, name, who: the link's code} or null; null too before referrals' tables exist.
+// name: as Share Willo shows a sharer (lib/referrals.js codeOwner), their character only when their profile is public,
+// else null ("A friend"); never the account's name or email.
+async function sharedBy(env, userId, now) {
+  let row;
+  try {
+    row = await env.DB.prepare(
+      "SELECT r.code, r.sharer_id, CASE WHEN pr.public = 1 THEN json_extract(pr.data, '$.name') END AS name FROM referrals r " +
+      "JOIN share_codes s ON s.code = r.code AND s.retired IS NULL LEFT JOIN profiles pr ON pr.user_id = r.sharer_id " +
+      "WHERE r.user_id = ? AND r.sharer_id IS NOT NULL AND r.sharer_id <> r.user_id AND NOT EXISTS (SELECT 1 FROM friend_edges e " +
+      "WHERE (e.user_id = r.user_id AND e.other_id = r.sharer_id) OR (e.user_id = r.sharer_id AND e.other_id = r.user_id))"
+    ).bind(userId).first();
+  } catch (e) { return null; }
+  if (!row) return null;
+  const them = await person(env, row.sharer_id, now);
+  return { id: them.pid, name: row.name ? String(row.name).slice(0, 40) : null, who: row.code };
+}
+
+// Everything Willo's Friends tab shows, in one go: {me, friends, incoming, outgoing, blocked, unread, suggested}.
+// Friends come newest conversation first; a friend's progress only while they share it. suggested: sharedBy's.
 export async function friendsList(env, userId, now = Date.now()) {
-  const [me, mine, edges, unread, last] = await Promise.all([
+  const [me, mine, edges, unread, last, suggested] = await Promise.all([
     person(env, userId, now),
     env.DB.prepare("SELECT handle, json_extract(data, '$.name') AS name FROM profiles WHERE user_id = ?").bind(userId).first(),
     env.DB.prepare(
@@ -159,12 +185,15 @@ export async function friendsList(env, userId, now = Date.now()) {
       "SELECT MAX(id) FROM friend_messages WHERE sender = ? OR recipient = ? " +
       "GROUP BY CASE WHEN sender = ? THEN recipient ELSE sender END)"
     ).bind(userId, userId, userId, userId).all(),
+    sharedBy(env, userId, now),
   ]);
   const unreadBy = new Map(unread.results.map(r => [r.pid, r.n]));
   const lastBy = new Map(last.results.map(r => [r.pid, r]));
   const who = r => ({ id: r.pid, handle: r.handle || null, name: r.name || r.handle || "A Lore Forever player" });
-  const out = { me: { id: me.pid, handle: mine?.handle || null, name: mine?.name || null, share: Boolean(me.share) },
-                friends: [], incoming: [], outgoing: [], blocked: [], unread: 0 };
+  // me.guild: the player's own guild, from what they share (so the tab can mark friends in it); null when not sharing.
+  const out = { me: { id: me.pid, handle: mine?.handle || null, name: mine?.name || null, share: Boolean(me.share),
+                      guild: progressOf(me, now)?.guild || null },
+                friends: [], incoming: [], outgoing: [], blocked: [], unread: 0, suggested };
   for (const r of edges.results) {
     if (r.state === "friends") {
       const m = lastBy.get(r.pid), n = unreadBy.get(r.pid) || 0;
@@ -296,17 +325,41 @@ export async function unblockPlayer(env, userId, pid) {
     .bind(userId, other).run();
 }
 
-// A report keeps the latest messages `pid` sent the player, for review, then blocks them.
+// "Not now" on the Friends tab's offer to add whoever shared Willo with the player (sharedBy): a row on the player's
+// side only, so the offer doesn't come back; adding them later replaces it.
+export async function passPlayer(env, userId, pid, now = Date.now()) {
+  const other = await needPid(env, pid);
+  await env.DB.prepare("INSERT INTO friend_edges (user_id, other_id, state, created, updated) VALUES (?, ?, 'passed', ?, ?) " +
+    "ON CONFLICT (user_id, other_id) DO NOTHING").bind(userId, other, iso(now), iso(now)).run();
+}
+
+// The "Add <name> as a friend" offer on /willo?shared=<code> (functions/willo.js, public/js/friend-add.js) for a
+// signed-in visitor: a player's live link, not their own, nothing blocked either way. HTML, or "".
+export async function friendOffer(env, owner, viewer, escape) {
+  if (!owner || owner.kind !== "player" || !viewer || viewer.id === owner.userId) return "";
+  const [mine, theirs] = await Promise.all([edge(env, viewer.id, owner.userId), edge(env, owner.userId, viewer.id)]);
+  if (mine === "blocked" || theirs === "blocked") return "";
+  const name = escape(owner.name || "them");
+  if (mine === "friends") return `<p class="w-friend">You and ${name} are friends in Willo.</p>`;
+  return `<p class="w-friend"><button class="btn-small" type="button" data-add-friend="${escape(owner.code)}">` +
+    `Add ${name} as a friend</button> <span class="w-friend-status" role="status" data-add-friend-status></span></p>`;
+}
+
+// A report keeps the latest messages `pid` sent the player, for review, then blocks them. Returns what Slack may be
+// told (lib/slack-feedback.js): {id, times (that player's reports kept), messages (how many kept), note (one given)}.
 export async function reportPlayer(env, userId, pid, note, now = Date.now()) {
   const other = await needPid(env, pid);
   const { results } = await env.DB.prepare("SELECT id, body, created FROM friend_messages WHERE sender = ? AND recipient = ? " +
     "ORDER BY id DESC LIMIT ?").bind(other, userId, REPORTED_MESSAGES).all();
-  await env.DB.batch([
-    env.DB.prepare("INSERT INTO friend_reports (reporter, reported, messages, note, created) VALUES (?, ?, ?, ?, ?)")
-      .bind(userId, other, JSON.stringify(results.reverse()), String(note || "").trim().slice(0, 500) || null, iso(now)),
+  const kept = String(note || "").trim().slice(0, 500) || null;
+  const [added, , count] = await env.DB.batch([
+    env.DB.prepare("INSERT INTO friend_reports (reporter, reported, messages, note, created) VALUES (?, ?, ?, ?, ?) RETURNING id")
+      .bind(userId, other, JSON.stringify(results.reverse()), kept, iso(now)),
     env.DB.prepare("DELETE FROM friend_reports WHERE created < ?").bind(daysAgo(REPORT_KEEP_DAYS, now)),
+    env.DB.prepare("SELECT COUNT(*) AS n FROM friend_reports WHERE reported = ?").bind(other),
   ]);
   await blockPlayer(env, userId, pid, now);
+  return { id: added.results[0]?.id, times: count.results[0]?.n || 1, messages: results.length, note: Boolean(kept) };
 }
 
 // ---- Messages ----
@@ -376,8 +429,17 @@ export function readPresence(input) {
   if (!input || typeof input !== "object") return null;
   const level = Number.isInteger(input.level) && input.level >= 1 && input.level <= 100 ? input.level : null;
   const out = { character: short(input.character, 32), level, zone: short(input.zone), sub: short(input.sub),
-                quest: short(input.quest, 120) };
+                quest: short(input.quest, 120), guild: short(input.guild, 48), week: readWeek(input.week) };
   return Object.values(out).some(v => v !== null) ? out : null;
+}
+
+// Their week (LOR-511, companion friends.py week_of): {levels, zones, quests, bosses} of the last 7 days, or null.
+function readWeek(w) {
+  if (!w || typeof w !== "object") return null;
+  const n = v => (Number.isInteger(v) && v >= 0 && v <= 1000 ? v : 0);
+  const names = (v, most) => (Array.isArray(v) ? v.map(x => short(x)).filter(Boolean).slice(0, most) : []);
+  const out = { levels: n(w.levels), zones: names(w.zones, 4), quests: n(w.quests), bosses: names(w.bosses, 3) };
+  return out.levels || out.quests || out.zones.length || out.bosses.length ? out : null;
 }
 
 // Stores the note, only while the player shares it. True when stored.

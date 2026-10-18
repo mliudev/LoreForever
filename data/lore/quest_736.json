@@ -1,0 +1,109 @@
+{
+ "key": "quest:736",
+ "type": "quest",
+ "name": "The Star, the Hand and the Heart",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   736
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Acquiring Yagyin's Digest to establish a new flock represents a pivotal step in expanding the reach and occult mastery of your dark order."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Operating out of the Undercity, Keeper Bel'dugur guides Forsaken practitioners seeking to delve deeper into forbidden rites under the city's shadowed spires."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is keeper bel'dugur",
+    "bel'dugur role",
+    "beldugur undercity"
+   ],
+   "answer": "Keeper Bel'dugur is an occult figure residing in the Undercity who assists members of his dark brotherhood. He guards potent lore and requires candidates to prove their competence before entrusting them with sacred texts.",
+   "q": "Who is Keeper Bel'dugur?"
+  },
+  {
+   "aliases": [
+    "what is yagyin's digest",
+    "yagyins digest purpose",
+    "yagyin digest book"
+   ],
+   "answer": "Yagyin's Digest is a specialized instructional text necessary for founding and leading a new chapter or gathering a fresh flock within a secretive occult order.",
+   "q": "What is Yagyin's Digest?"
+  },
+  {
+   "aliases": [
+    "what items does bel'dugur need",
+    "beldugurs note items",
+    "three items of power"
+   ],
+   "answer": "Bel'dugur requires three specific items of power. Because their names are too forbidden or perilous to utter aloud, he sets them down quietly in a written note for the petitioner to recover.",
+   "q": "What items does Keeper Bel'dugur ask for?"
+  },
+  {
+   "aliases": [
+    "why can't bel'dugur say the item names",
+    "cannot utter names",
+    "unspoken item names"
+   ],
+   "answer": "Keeper Bel'dugur explicitly notes that he cannot utter the names of these three relics aloud, indicating they possess dark, sacred, or volatile power that demands discretion.",
+   "q": "Why are the names of the requested items not spoken aloud?"
+  },
+  {
+   "aliases": [
+    "what does gathering a flock mean",
+    "opening a chapter",
+    "our order chapter"
+   ],
+   "answer": "Gathering a flock refers to recruiting followers and establishing a functioning independent chapter of their brotherhood, proving one's readiness to guide other practitioners of the craft.",
+   "q": "What does it mean to gather another flock?"
+  },
+  {
+   "aliases": [
+    "where does this quest take place",
+    "bel'dugur location",
+    "quest hand in location"
+   ],
+   "answer": "The quest centers around Keeper Bel'dugur, who is stationed within the subterranean Forsaken capital of the Undercity.",
+   "q": "Where is this quest centered?"
+  }
+ ],
+ "keywords": [
+  "bel'dugur's note",
+  "keeper bel'dugur",
+  "order",
+  "the star the hand and the heart",
+  "three items of power",
+  "undercity",
+  "yagyin's digest"
+ ],
+ "related": [
+  "npc:keeper-bel-dugur",
+  "zone:undercity"
+ ],
+ "sections": [
+  {
+   "body": "Within the shadowed corridors of the Undercity, ambitious practitioners seeking to lead their own circle turn to Keeper Bel'dugur. To establish a new flock and open a chapter of their order, an aspiring leader requires Yagyin's Digest, an authoritative text of ritual lore guarded by the keeper. Bel'dugur stands ready to support his fellow brother, but demands proof of worthiness before yielding such authority.",
+   "spoiler": 0,
+   "title": "A Test of Brotherhood"
+  },
+  {
+   "body": "Keeper Bel'dugur will not part with Yagyin's Digest lightly. He requires three distinct items of power to fulfill his side of the exchange. These relics carry such perilous or sacred significance that their names cannot even be spoken aloud; Bel'dugur instead pens them onto a private note. Only a practitioner capable of tracking down and retrieving all three unspoken artifacts proves worthy of founding their own chapter.",
+   "spoiler": 0,
+   "title": "The Unspoken Relics"
+  }
+ ],
+ "summary": "The Star, the Hand and the Heart is an Undercity quest wherein Keeper Bel'dugur tests an aspiring leader seeking to establish a new chapter of their order. To earn the essential Yagyin's Digest, the petitioner must track down three items of power whose names Bel'dugur dares not speak aloud.",
+ "attribution": [
+  "In-game quest text: The Star, the Hand and the Heart"
+ ]
+}

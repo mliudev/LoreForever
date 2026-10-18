@@ -173,6 +173,39 @@ export const CHARACTER_VOICES = {
   }
 };
 
+// Voices of Azeroth (LOR-609, Mike, 2026-10-16): on a plan that picks Willo's voice (Champion and up) she may borrow
+// any of these as her everyday voice (lib/companion-voice.js AZEROTH_STUDIO), named as players say them, "Dwarf, man"
+// or "Night elf, woman" (companion/lore_companion/talk/tts.py AZEROTH_VOICES says the same). The people, as a name
+// starts; how a sentence says one: PEOPLE_WORDS.
+export const PEOPLE = { dwarf: "Dwarf", forsaken: "Forsaken", gnome: "Gnome", goblin: "Goblin", highelf: "High elf",
+  human: "Human", nightelf: "Night elf", orc: "Orc", skyborne: "Skyborne", tauren: "Tauren", troll: "Troll" };
+const PEOPLE_WORDS = { forsaken: "Forsaken", skyborne: "Skyborne" };
+const slotParts = slot => {
+  const [, people, gender] = /^([a-z]+)-(male|female)$/.exec(String(slot || "")) || [];
+  return Object.hasOwn(PEOPLE, people || "") ? { people, man: gender === "male" } : null;
+};
+// "dwarf-male" -> "Dwarf, man"; "" for a slot that isn't one of our peoples.
+export function voiceLabel(slot) {
+  const p = slotParts(slot);
+  return p ? `${PEOPLE[p.people]}, ${p.man ? "man" : "woman"}` : "";
+}
+// "dwarf-male" -> "a dwarf man's voice", "nightelf-female" -> "a night elf woman's voice"; "" as voiceLabel.
+export function voicePhrase(slot) {
+  const p = slotParts(slot);
+  if (!p) return "";
+  const words = `${PEOPLE_WORDS[p.people] || PEOPLE[p.people].toLowerCase()} ${p.man ? "man" : "woman"}`;
+  return `${/^[aeiou]/i.test(words) ? "an" : "a"} ${words}'s voice`;
+}
+
+// The first companion with the Voices of Azeroth in its picker, and Willo's male partners (LOR-610) with them, by its
+// X-LF-Client ("companion/0.21.0"): any release after 0.20.0. What the site offers or says of them (Willo's help, her
+// set_voice offer) waits for one; an older companion only knows her first five.
+export const AZEROTH_FROM = [0, 20, 1];
+export function hasAzeroth(client) {
+  const v = (/^companion\/(\d+)\.(\d+)\.(\d+)/.exec(String(client || "")) || []).slice(1).map(Number);
+  return v.length === 3 && (v[0] - AZEROTH_FROM[0] || v[1] - AZEROTH_FROM[1] || v[2] - AZEROTH_FROM[2]) >= 0;
+}
+
 // A provenance that names a source we have the rights to: our own design, a consented actor, or an open license.
 const RIGHTS = /\b(?:own design|our design|designed by us|consent(?:ed|ing)?|licen[cs]ed?|cc0|cc[- ]by|public domain)\b/i;
 export const rightsCleared = provenance => typeof provenance === "string" && RIGHTS.test(provenance);

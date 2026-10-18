@@ -3,53 +3,26 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
 <meta name="robots" content="noindex, nofollow">
 <title>Dashboard - Lore Forever</title>
-<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261016t">
-<link rel="stylesheet" href="/admin.css">
+<link rel="stylesheet" href="/style.css?v=20261017a">
+<link rel="stylesheet" href="/admin.css?v=20261017d">
 </head>
-<body>
-
-<header class="top">
-  <div class="wrap">
-    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; Dashboard</span>
-  </div>
-</header>
-
-<!-- Sign-in. The key is ADMIN_KEY (or FEEDBACK_KEY) from the Pages project; the API refuses everything without it. -->
-<main class="wrap ad-login ad-panel" id="login" hidden>
-  <h1 style="font-size:1.6rem">Dashboard</h1>
-  <form id="login-form">
-    <label for="key">Admin key</label>
-    <input type="password" id="key" autocomplete="current-password" required>
-    <label class="ad-check"><input type="checkbox" id="remember"> Remember on this device</label>
-    <button type="submit" class="btn-small">Open dashboard</button>
-    <p class="ad-error" id="login-error" role="alert" hidden></p>
-  </form>
-</main>
+<body data-page="dashboard" data-title="Dashboard">
+<!-- The header, tabs, sign-in and title bar are drawn by admin-shell.js, the same on every admin page (/admin,
+     /admin/voices, /admin/edits). The tabs are the address's #: #overview, #growth, #players, #costs, #community, or a
+     section in one (#funnel, #curseforge, #willo-stats, #downloads, #companions; #profiles, #signins, #features, #usage;
+     #feedback, #voices, #willo, #clip-reports, #translations, #edits, #contributions, #contacts, #creators). Voice work
+     is its own page, /admin/voices, in the same frame. Gold badges count what's waiting on you. The key is ADMIN_KEY (or
+     FEEDBACK_KEY) from the Pages project; the API refuses everything without it. -->
+<script src="/admin-shell.js?v=20261017d"></script>
 
 <main class="wrap ad" id="dash" hidden>
-  <div class="ad-bar">
-    <h1>Dashboard</h1>
-    <span class="ad-meta"><span id="updated"></span> &middot; <button type="button" id="refresh">Refresh</button>
-      &middot; <button type="button" id="signout">Sign out</button></span>
-  </div>
-
-  <!-- Four tabs, one shown at a time, by the address's #: #overview, #growth, #players, #community, or a section in one
-       (#funnel, #curseforge, #willo-stats, #downloads, #companions; #profiles, #signins, #features, #usage; #feedback, #voices, #clip-reports,
-       #translations, #edits, #contributions, #contacts). Gold badges count what's waiting on you. -->
-  <nav class="ad-nav" id="nav" aria-label="Dashboard tabs">
-    <a href="#overview" data-tab="overview">Overview</a>
-    <a href="#growth" data-tab="growth">Growth</a>
-    <a href="#players" data-tab="players">Players</a>
-    <a href="#community" data-tab="community">Community <span class="ad-badge" id="n-community"></span></a>
-    <a href="/admin/voices.html">Voice work</a>
-  </nav>
-
   <!-- ===== Overview: the headline numbers, each linking to where it comes from ===== -->
   <section class="ad-tab" id="tab-overview" data-tab="overview">
     <div class="ad-tiles">
@@ -60,6 +33,7 @@
       <a class="ad-panel ad-tile" href="#companions"><div class="ad-label">Companion installs in use</div><div class="ad-num" id="o-companions">-</div><div class="ad-sub" id="o-companions-sub"></div></a>
       <a class="ad-panel ad-tile" href="#willo-stats"><div class="ad-label">Willo players this week</div><div class="ad-num" id="o-willo">-</div><div class="ad-sub" id="o-willo-sub"></div></a>
       <a class="ad-panel ad-tile" href="#community"><div class="ad-label">Open feedback and reports</div><div class="ad-num" id="o-open">-</div><div class="ad-sub" id="o-open-sub"></div></a>
+      <a class="ad-panel ad-tile" href="#costs" id="o-costs-tile"><div class="ad-label">Costs this month (estimate)</div><div class="ad-num" id="o-costs">-</div><div class="ad-sub" id="o-costs-sub"></div></a>
       <div class="ad-panel ad-tile"><div class="ad-label">Paid usage this month</div><div class="ad-num" id="t-stories">-</div><div class="ad-sub" id="t-stories-sub"></div></div>
       <!-- Plans (LOR-252, lib/billing.js billingReport): paying players, the monthly revenue estimate (before Stripe's
            fees; comped and owner plans left out), accounts by plan and status, and what paying players' answers cost this month;
@@ -146,6 +120,7 @@
         <div class="ad-tile"><div class="ad-label">Daily players</div><div class="ad-num" id="w-dau">-</div><div class="ad-sub" id="w-dau-sub"></div></div>
         <div class="ad-tile"><div class="ad-label">Running</div><div class="ad-num" id="w-run">-</div><div class="ad-sub" id="w-run-sub"></div></div>
         <div class="ad-tile"><div class="ad-label">Paying</div><div class="ad-num" id="w-pay">-</div><div class="ad-sub" id="w-pay-sub"></div></div>
+        <div class="ad-tile" title="Every account above Adventurer right now, each once: paid, Keep Hero trials, the beta's free Hero month, and comped or your own (lib/billing.js subscriptionReport onPlan)"><div class="ad-label">On a plan</div><div class="ad-num" id="w-plan">-</div><div class="ad-sub" id="w-plan-sub"></div></div>
         <div class="ad-tile"><div class="ad-label">Beta offers taken</div><div class="ad-num" id="w-claims">-</div><div class="ad-sub" id="w-claims-sub"></div></div>
         <div class="ad-tile" title="New players' first 20 answers at Willo's best (lib/best-first.js): her finest voice, a look online"><div class="ad-label">First answers at her best</div><div class="ad-num" id="w-taste">-</div><div class="ad-sub" id="w-taste-sub"></div></div>
       </div>
@@ -320,6 +295,21 @@
   </section>
 
   <!-- ===== Community: what people send, one part at a time ===== -->
+  <!-- ===== Costs (lib/costs.js, public/admin-costs.js): the latest snapshot the Operations session posted to
+       /api/admin/costs. Totals and shares are worked out in the page; the shape is in site/README.md "Costs". ===== -->
+  <section class="ad-tab" id="tab-costs" data-tab="costs" hidden>
+    <div class="ad-tiles" id="costs-tiles"></div>
+    <h2 id="costs-services">Where it goes</h2>
+    <div class="ad-panel">
+      <div class="ad-table-wrap"><table class="ad-costs"><thead><tr><th>Service</th><th>Kind</th><th>So far</th><th>Month</th>
+        <th>Share</th><th>Balance or cap</th><th>Renews</th><th>Note</th></tr></thead><tbody id="costs-rows"></tbody></table></div>
+      <p class="ad-empty" id="costs-empty" hidden></p>
+    </div>
+    <h2 id="costs-unchecked">Not checked</h2>
+    <div class="ad-panel"><ul class="ad-unchecked" id="costs-unchecked-list"></ul>
+      <p class="ad-empty" id="costs-foot" style="margin-top:10px"></p></div>
+  </section>
+
   <section class="ad-tab" id="tab-community" data-tab="community" hidden>
     <nav class="ad-subnav" id="subnav" aria-label="Community">
       <a href="#feedback" data-sub="feedback">Feedback <span class="ad-badge" id="n-feedback"></span></a>
@@ -430,7 +420,7 @@
     <div class="ad-panel">
       <div class="ad-filters">
         <span class="ad-count" id="ed-count"></span>
-        <a class="btn-small" href="/admin/edits" style="margin-left:auto">Open the edits page</a>
+        <a class="ad-btn" href="/admin/edits" style="margin-left:auto">Open the edits page</a>
       </div>
       <div class="ad-table-wrap">
         <table><thead><tr><th>Language</th><th>Saved</th><th>Pulled</th><th>Rejected</th><th>Last edit</th></tr></thead><tbody id="ed-list"></tbody></table>
@@ -448,6 +438,11 @@
         <table><thead><tr><th>When</th><th>Who</th><th>From</th><th>New</th><th>Confirmed</th><th>Known</th><th>Add-on</th><th></th></tr></thead><tbody id="cb-list"></tbody></table>
       </div>
     </div>
+    <!-- Parts with two texts (LOR-621): neither ships until a second player matches one, or you pick here. "Use this"
+         makes a text verified (the others become "Not used" for their senders); "Don't use" sets one aside. Where the
+         game's own text differs from all of them, the nightly import keeps the game's text anyway. -->
+    <h3 id="cb-conflicts-head" hidden>Two versions: pick one</h3>
+    <div id="cb-conflicts"></div>
     </div>
     <div class="ad-sub-tab" id="sub-contacts" data-sub="contacts" hidden>
     <!-- Accounts and subscribers share one row per email. Only an actual subscription opts them into release news. -->
@@ -516,6 +511,6 @@
 
 <!-- The page's script is a file: /admin's Content-Security-Policy (public/_headers) runs no inline script.
      Bump ?v= when admin-page.js changes, since browsers keep .js for 4 hours on loreforeverwow.com. -->
-<script type="module" src="/admin-page.js?v=20261016t"></script>
+<script type="module" src="/admin-page.js?v=20261017e"></script>
 </body>
 </html>

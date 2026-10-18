@@ -1,0 +1,122 @@
+{
+ "key": "quest:94864",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94864
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This trial marks a defining rite of passage for apprentice hunters, transforming simple tracking skills into a deep, empathetic attunement with beasts of the wild."
+  },
+  {
+   "target": "race:Human",
+   "text": "For human hunters training in Elwynn Forest, taming native wildlife teaches the importance of coexisting with the kingdom's natural predators rather than merely eradicating them."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Skilled beast masters bolster the Alliance's wilderness scouts, providing disciplined companions capable of defending homesteads and patrolling trade roads across Stormwind's territories."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives taming the beast",
+    "taming the beast quest giver",
+    "josephine carson quest"
+   ],
+   "answer": "Josephine Carson oversees this trial for hunters training in Elwynn Forest. She evaluates the hunter's progress after they have successfully tamed lesser beasts, providing the necessary guidance and the Taming Rod needed to tame the forest bear. Once the trial is complete, hunters return the rod directly to her to mark the completion of their training.",
+   "q": "Who assigns this trial to hunters?"
+  },
+  {
+   "aliases": [
+    "prerequisite beasts for taming",
+    "what did i tame before bear",
+    "beasts tamed before this"
+   ],
+   "answer": "Before undertaking the challenge of taming a Young Forest Bear, hunters must first prove their skill and patience by taming a boar and a wolf. These preliminary trials demonstrate that the hunter can handle both aggressive and pack-oriented beasts before attempting to confront the sheer strength and brawn of Elwynn's bears.",
+   "q": "Which beasts must be tamed before this challenge?"
+  },
+  {
+   "aliases": [
+    "why tame young forest bear",
+    "young forest bear purpose",
+    "why bears in elwynn"
+   ],
+   "answer": "The Young Forest Bear represents the brawn and might of Elwynn Forest's wildlife. While boars and wolves test a hunter's ability to handle quick or resilient beasts, the bear serves as the ultimate test of endurance, respect, and physical courage. Earning the trust of such a powerful predator demonstrates complete mastery over basic beast handling.",
+   "q": "Why are hunters sent after a Young Forest Bear?"
+  },
+  {
+   "aliases": [
+    "taming rod purpose",
+    "what does taming rod do",
+    "why use taming rod"
+   ],
+   "answer": "The Taming Rod is a specialized training implement provided by Josephine Carson to assist hunters in calming wild animals. It channels the focus required to soothe an aggressive Young Forest Bear without slaying it, allowing the hunter to forge a peaceful bond. Once the trial concludes, the rod is returned to Carson as training is finalized.",
+   "q": "What is the purpose of the Taming Rod?"
+  },
+  {
+   "aliases": [
+    "why does elwynn balance matter",
+    "elwynn forest balance",
+    "taming and forest balance"
+   ],
+   "answer": "Taming wildlife is seen as an essential practice for maintaining the natural balance of Elwynn Forest. By approaching predators with respect and restraint rather than hunting them down, hunters help preserve harmony between the local ecosystem and the humanoid settlements throughout the region, ensuring dangerous beasts are guided peacefully rather than destroyed.",
+   "q": "How does taming beasts help Elwynn Forest?"
+  },
+  {
+   "aliases": [
+    "what happens after taming the bear",
+    "hunter training completion",
+    "attunement to beasts meaning"
+   ],
+   "answer": "Completing this final task deepens a hunter's intrinsic attunement to beasts of the wild. By earning the trust of Elwynn's mightiest creature, the hunter moves beyond simple hunting techniques and masters the spiritual connection necessary to form lifelong partnerships with animal companions across Azeroth.",
+   "q": "What does completing this lesson signify for a hunter?"
+  },
+  {
+   "aliases": [
+    "young forest bear location",
+    "where to find bears in elwynn",
+    "forest bear elwynn"
+   ],
+   "answer": "Young Forest Bears roam the wooded areas of Elwynn Forest, living among the dense trees alongside wolves and spiders. Hunters venturing out from nearby settlements must track these burly creatures through the forest undergrowth to administer the taming rod and fulfill Carson's final directive.",
+   "q": "Where are Young Forest Bears found?"
+  }
+ ],
+ "keywords": [
+  "attunement to beasts",
+  "beast training",
+  "elwynn forest",
+  "hunter quest",
+  "josephine carson",
+  "taming rod",
+  "taming the beast",
+  "young forest bear"
+ ],
+ "related": [
+  "item:taming-rod"
+ ],
+ "sections": [
+  {
+   "body": "Aspiring hunters in Elwynn Forest undergo rigorous training to understand the wild creatures sharing their lands. Having already demonstrated command over the cunning wolf and the hardy boar, hunters face a final test of courage and patience. Josephine Carson directs them to confront the Young Forest Bear, the burliest and mightiest of the forest's common predators. This rite tests whether a hunter can withstand the bear's raw strength and earn its trust rather than simply subjugating it.",
+   "spoiler": 0,
+   "title": "The Final Trial of the Hunt"
+  },
+  {
+   "body": "The lesson behind taming Elwynn's wildlife is rooted in respect rather than dominion. Forest bears represent the brawn and vitality of the woodland, playing a vital role in maintaining the natural order. By using a specially prepared Taming Rod, hunters learn to quiet the beast's aggression and establish a genuine bond of mutual understanding. Successfully calming such a formidable animal deepens the hunter's spiritual attunement to the wild, completing their foundational lessons under Carson's guidance.",
+   "spoiler": 0,
+   "title": "Respect and Balance in Elwynn"
+  }
+ ],
+ "summary": "Taming the Beast is the culmination of a hunter's early training in Elwynn Forest, overseen by Josephine Carson. After demonstrating mastery over boars and wolves, hunters are tasked with using a Taming Rod to pacify and gain the trust of a Young Forest Bear. This final trial deepens a hunter's attunement to beasts and maintains the woodland's natural balance through respect and skill.",
+ "attribution": [
+  "In-game quest text: Taming the Beast"
+ ]
+}

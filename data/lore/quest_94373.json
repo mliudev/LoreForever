@@ -1,0 +1,119 @@
+{
+ "key": "quest:94373",
+ "type": "quest",
+ "name": "Call of Earth",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94373
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "The Call of Earth marks an early initiation into communion with the spirits of stone and soil, culminating in the preparation of an earthen sapta."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Offered in Coldridge Valley near Anvilmar, this trial connects dwarven fortitude and mountain heritage with the enduring patience of the earth itself."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "This rite tests fledgling defenders against the encroaching Frostmane trolls dwelling in the caves south of Anvilmar."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives call of earth",
+    "quest giver call of earth",
+    "teo hammerstorm quest"
+   ],
+   "answer": "Teo Hammerstorm, an elder guide located in Anvilmar within Coldridge Valley, offers the trial. He instructs young initiates in the ways of stone and charges them to prove their resolve before the spirits of the earth.",
+   "q": "Who offers the Call of Earth quest?"
+  },
+  {
+   "aliases": [
+    "call of earth objectives",
+    "what do i need for call of earth",
+    "frostmane pendants quest"
+   ],
+   "answer": "You must venture south of Anvilmar to the cave inhabited by Frostmane trolls and recover two Frostmane Bear Pendants, which the trolls craft from Iceclaw bears. Delivering these to Teo Hammerstorm fulfills the trial.",
+   "q": "What does Teo Hammerstorm ask you to do?"
+  },
+  {
+   "aliases": [
+    "where are frostmane bear pendants",
+    "how to get frostmane bear pendants",
+    "frostmane cave anvilmar"
+   ],
+   "answer": "The pendants are carried by the Frostmane trolls living in a cave situated to the south of Anvilmar. These talismans are crafted from local Iceclaw bears and worn by the trolls dwelling within the den.",
+   "q": "Where do you find the Frostmane Bear Pendants?"
+  },
+  {
+   "aliases": [
+    "what is a sapta",
+    "earth sapta dwarf",
+    "what does teo hammerstorm craft"
+   ],
+   "answer": "A sapta is a ceremonial mixture or draught prepared by spiritual mentors to attune a practitioner to the elemental spirits. Upon completing this trial, Teo crafts an earthen sapta to allow you to walk the true path of the earth.",
+   "q": "What reward does Teo Hammerstorm prepare upon completion?"
+  },
+  {
+   "aliases": [
+    "why kill frostmane trolls",
+    "why frostmane pendants"
+   ],
+   "answer": "Confronting the Frostmane trolls demonstrates the physical grit and spiritual resilience required to commune with the earth. By claiming the bear pendants from hostile trolls in their den, the initiate proves worthy of the mountain's enduring favor.",
+   "q": "Why must initiates face the Frostmane trolls for this trial?"
+  },
+  {
+   "aliases": [
+    "earth virtues teo hammerstorm",
+    "wisdom of the mountain"
+   ],
+   "answer": "Teo teaches that patience is the earth's greatest virtue, noting how it endures while mountains crumble and rivers slowly carve valleys. He emphasizes that stone shields those who respect it, but warns that even bedrock can shift if slighted.",
+   "q": "What does Teo Hammerstorm teach about the nature of earth?"
+  }
+ ],
+ "keywords": [
+  "anvilmar",
+  "call of earth",
+  "coldridge valley",
+  "earth totem",
+  "frostmane",
+  "frostmane bear pendant",
+  "iceclaw bear",
+  "sapta",
+  "shaman",
+  "teo hammerstorm"
+ ],
+ "related": [
+  "subzone:anvilmar",
+  "topic:troll"
+ ],
+ "sections": [
+  {
+   "body": "At Anvilmar in Coldridge Valley, the mentor Teo Hammerstorm watches over initiates ready to walk the rugged path of the earth. Viewing the land as a stout and unyielding foundation, Teo guides young wanderers to heed the wisdom of the mountains. He warns that while stone serves as an enduring shield, its favor is not given lightly, requiring true grit and deep respect before any secrets of the soil will be shared.",
+   "spoiler": 0,
+   "title": "The Wisdom of Stone"
+  },
+  {
+   "body": "To demonstrate readiness, an initiate must face the Frostmane trolls lurking in a cave to the south. These trolls fashion coarse pendants from the ferocious Iceclaw bears that roam the frozen heights. Reclaiming two of these bear pendants from the troll den serves as tangible proof that the petitioner possesses the stubborn resolve and fortitude expected by the elemental spirits.",
+   "spoiler": 0,
+   "title": "Trial in the Frostmane Den"
+  },
+  {
+   "body": "Upon presenting the pendants to Teo Hammerstorm, the elder commends the initiate's patience\u2014the earth's finest virtue, which outlasts crumbling peaks and carved river valleys. In recognition of this proven respect, Teo sets to work preparing an earthen sapta, an essential catalyst enabling the initiate to perceive and walk the true path of the elements.",
+   "spoiler": 1,
+   "title": "The Earthen Sapta"
+  }
+ ],
+ "summary": "The Call of Earth is a sacred trial overseen by Teo Hammerstorm in Anvilmar, testing initiates in the patience and resilience of stone. Aspirants must confront the Frostmane trolls to the south to claim their bear pendants before being granted an earthen sapta.",
+ "attribution": [
+  "In-game quest text: Call of Earth"
+ ]
+}

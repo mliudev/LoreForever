@@ -30,10 +30,13 @@ const SETUP = `CREATE TABLE IF NOT EXISTS voice_submissions (
   sender TEXT NOT NULL,
   status TEXT NOT NULL DEFAULT 'new',
   user_id TEXT,
-  voice_id TEXT
+  voice_id TEXT,
+  reason TEXT
 )`;
 // Columns added after the table was first made (LOR-85). ALTER fails once a column exists; that's fine.
-const MIGRATE = ["ALTER TABLE voice_submissions ADD COLUMN user_id TEXT", "ALTER TABLE voice_submissions ADD COLUMN voice_id TEXT"];
+// reason (LOR-621): why a submission wasn't used, shown on the narrator's My contributions.
+const MIGRATE = ["ALTER TABLE voice_submissions ADD COLUMN user_id TEXT", "ALTER TABLE voice_submissions ADD COLUMN voice_id TEXT",
+  "ALTER TABLE voice_submissions ADD COLUMN reason TEXT"];
 
 export async function setupSubmissions(env) {
   await env.DB.prepare(SETUP).run();

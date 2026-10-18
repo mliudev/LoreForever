@@ -1,0 +1,104 @@
+{
+ "key": "quest:99123",
+ "type": "quest",
+ "name": "Lost in the Shadows",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99123
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "The quest highlights a fundamental hunter discipline: patience and stalking like a tiger rather than charging recklessly like a hungry raptor."
+  },
+  {
+   "target": "race:Troll",
+   "text": "Pal'juh's name and temperament reflect young Darkspear hunters eager to prove their prowess in the wilderness before mastering restraint."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is paljuh",
+    "paljuh lore",
+    "pal'juh"
+   ],
+   "answer": "Pal'juh is a promising young hunter known for heading out into danger on her own. While talented, she has a reputation for acting rashly and finding herself trapped or overwhelmed by beasts and the wilds.",
+   "q": "Who is Pal'juh?"
+  },
+  {
+   "aliases": [
+    "what happened in lost in the shadows",
+    "lost in the shadows quest lore",
+    "lost in the shadows story"
+   ],
+   "answer": "In 'Lost in the Shadows', Pal'juh ventured out alone and got into trouble yet again. An adventurer was needed to track her down and assist her before she came to serious harm.",
+   "q": "What happens during the quest 'Lost in the Shadows'?"
+  },
+  {
+   "aliases": [
+    "why raptor tiger",
+    "raptor than a tiger meaning",
+    "hunter raptor tiger"
+   ],
+   "answer": "The comparison refers to hunting technique and discipline. A raptor lunges aggressively without caution or forethought, whereas a tiger waits, stalks patiently, and strikes with precision and calculated cunning.",
+   "q": "Why does the quest giver say Pal'juh acts more like a raptor than a tiger?"
+  },
+  {
+   "aliases": [
+    "who turns in lost in the shadows",
+    "lost in the shadows questgiver"
+   ],
+   "answer": "The quest concludes with a mentor or peer who knows Pal'juh well enough to anticipate her recklessness, expressing relief that someone stepped in to rescue the headstrong tracker.",
+   "q": "Who receives the report for Lost in the Shadows?"
+  },
+  {
+   "aliases": [
+    "did paljuh learn her lesson",
+    "is paljuh okay"
+   ],
+   "answer": "Pal'juh made it through the ordeal thanks to outside intervention, though those who oversee her remain watchful over whether she will truly learn the danger of wandering off solo.",
+   "q": "Does Pal'juh learn her lesson from this misadventure?"
+  },
+  {
+   "aliases": [
+    "is paljuh a good hunter",
+    "paljuh skill"
+   ],
+   "answer": "She is considered a promising hunter with plenty of raw talent and bravery, but her mentors caution that instinct alone cannot replace tactical patience when tracking dangerous prey.",
+   "q": "Is Pal'juh considered a skilled hunter?"
+  }
+ ],
+ "keywords": [
+  "hunter",
+  "lost in the shadows",
+  "pal'juh",
+  "paljuh",
+  "raptor",
+  "tiger"
+ ],
+ "related": [
+  "topic:hunter"
+ ],
+ "sections": [
+  {
+   "body": "'Lost in the Shadows' involves locating and rescuing Pal'juh, a talented but hotheaded hunter who ventured out alone into hostile territory. Unwilling to wait for support, she found herself in over her head, requiring outside assistance to ensure her safe return.",
+   "spoiler": 0,
+   "title": "A Reckless Scout"
+  },
+  {
+   "body": "Upon Pal'juh's rescue, her overseers note that while her potential as a scout and tracker is undeniable, she charges headlong like a raptor rather than stalking with the patience of a tiger. Surviving the ordeal serves as a stark reminder of the wilderness's unforgiving nature.",
+   "spoiler": 0,
+   "title": "Patience of the Hunt"
+  }
+ ],
+ "summary": "'Lost in the Shadows' is a quest involving the rescue of Pal'juh, an impetuous hunter who ventured into danger alone. Her rescue highlights the delicate balance between raw aggression and patient stalking required of wilderness trackers.",
+ "attribution": [
+  "In-game quest text: Lost in the Shadows"
+ ]
+}

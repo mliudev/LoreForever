@@ -1,4 +1,5 @@
-// Takes an address off the email list, from /unsubscribe (public/unsubscribe.html). Self-serve: no account and no
+// Takes an address off the email list, and off anything else the site emails (lib/email.js optOut: the thank-you to a
+// new subscriber), from /unsubscribe (public/unsubscribe.html). Self-serve: no account and no
 // confirmation email. It answers "Done" whether or not the address was on the list, so the form can't tell anyone
 // who's on it.
 //   POST /api/unsubscribe  {"email": "..."}  -> {"ok": true}, or {"ok": false, "error": ...} for a bad address, a post
@@ -9,6 +10,7 @@
 import { sameOrigin } from "../../lib/accounts.js";
 import { perDayFromIp } from "../../lib/ratelimit.js";
 import { SETUP, PER_DAY, listEmail } from "../../lib/subscribers.js";
+import { optOut } from "../../lib/email.js";
 
 const DONE = "Done. That address won't get any more emails from us.";
 const NO_STORE = { "Cache-Control": "no-store" };
@@ -55,5 +57,7 @@ async function remove(request, env, json) {
     env.DB.prepare(SETUP),
     env.DB.prepare("DELETE FROM subscribers WHERE email = ?").bind(email),
   ]);
+  // And nothing else the site sends (lib/email.js) reaches it either.
+  await optOut(env, email);
   return {};
 }

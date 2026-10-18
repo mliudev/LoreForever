@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261016t">
+<link rel="stylesheet" href="/style.css?v=20261017a">
 <link rel="stylesheet" href="/pages.css?v=20261016p">
 <script src="/header.js" defer></script>
 <style>.td-narrated { border-left: 3px solid var(--gold-soft); padding-left: 10px; } #td-recording details p { white-space: pre-wrap; }</style>
@@ -582,9 +582,13 @@ function stringRow(id, english, cat) {
   const copy = el("button", { type: "button", class: "tl-link td-copy", text: "Copy the English" });
   copy.addEventListener("click", () => { box.value = english; box.focus(); box.dispatchEvent(new Event("input")); });
   const old = state.mine[id];
+  // An edit that wasn't used keeps its words here, under the current text, so they can be fixed and sent again (LOR-621).
+  const unused = old && old.text && old.text !== (state.store.text[id] || "")
+    && (old.status === "rejected" || (old.status === "pulled" && ["unusable", "superseded"].includes(old.outcome)));
   const retained = old && ["new", "accepted"].includes(old.status) && !usableEdit(old, english) ?
     el("details", {}, el("summary", { text: "Your saved edit before the English changed" }),
-      el("p", { lang: "en", text: old.en || "The saved English could not be checked." }), el("p", { text: old.text })) : null;
+      el("p", { lang: "en", text: old.en || "The saved English could not be checked." }), el("p", { text: old.text }))
+    : unused ? el("details", {}, el("summary", { text: "Your edit that wasn't used" }), el("p", { text: old.text })) : null;
   const narrated = linkContext && narrationFields(linkContext, state.recordingLine).has(id);
   return el("div", { class: "td-row" + (narrated ? " td-narrated" : ""), "data-string": id },
     el("div", { class: "td-en" }, el("span", { class: "td-label", text: fieldLabel(id) + (narrated ? " · In this recording" : "") }), el("p", { lang: "en", text: english })),
@@ -598,8 +602,14 @@ function renderProgress() {
   $("td-meter").querySelector("span").style.width = Math.min(100, p) + "%";
   $("td-meter").setAttribute("aria-valuenow", p);
   const n = Object.values(state.mine).filter(m => m.status === "new" || m.status === "accepted").length;
-  const done = Object.values(state.mine).filter(m => m.status === "pulled").length;
-  const mine = [n ? `${fmt(n)} saved, awaiting import` : "", done ? `${fmt(done)} processed, no longer pending` : ""].filter(Boolean).join(", ");
+  // Pulled edits say what became of them (LOR-621): in the language, or not used, like rejected ones. Edits pulled
+  // before that are "imported earlier" here; each row's note compares them with the current text.
+  const mineAll = Object.values(state.mine), count = f => mineAll.filter(f).length;
+  const used = count(m => m.status === "pulled" && ["landed", "same"].includes(m.outcome));
+  const unused = count(m => m.status === "rejected" || (m.status === "pulled" && ["unusable", "superseded"].includes(m.outcome)));
+  const earlier = count(m => m.status === "pulled" && !m.outcome);
+  const mine = [n ? `${fmt(n)} saved, awaiting import` : "", used ? `${fmt(used)} in the language` : "",
+    unused ? `${fmt(unused)} not used` : "", earlier ? `${fmt(earlier)} imported earlier` : ""].filter(Boolean).join(", ");
   $("td-progress-text").textContent = `${lang.name || state.locale}: ${p < 1 && p > 0 ? "less than 1" : Math.floor(p)}% text coverage.`
     + (mine ? ` Your edits: ${mine}.` : " Every line you translate or check counts.");
 }

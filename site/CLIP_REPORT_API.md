@@ -77,6 +77,9 @@ Public, cached 5 minutes. Open reports per clip, never their text.
 - `GET /api/clip-report/export?status=open|done|kept|rejected|all&since=<id>`: every field, newest first, up to
   5,000: `{ok, reports: [{id, created, updated, clip, hash, voice, reason, name, say_as, note, version, locale,
   source, uploader, signed_in, country, status, resolved}]}`. `uploader` is `u:<user id>` or `ip:<day's hash>`.
+- `POST /api/clip-report/shipped` `{release, before}` (LOR-621): reports on our voices closed (`done`) before that
+  release's commit get `fixed_in`, so the reporter's My contributions says "Fixed in X.Y.Z". A community voice's
+  reports are left out: its narrator closes them with a new take on the upload page, and its pack goes out on its own.
 - `POST /api/clip-report/resolve` `{ids: [...], status: "done" | "kept" | "open"}`: done = recorded again (or the
   text changed), kept = nothing to change (a name Mike picked by ear). Rejected reports stay rejected.
 - `POST /api/clip-report/reject` `{uploader, restore?: true}`: rejects every open report from one uploader (spam), or

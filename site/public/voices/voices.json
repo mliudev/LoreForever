@@ -1,5 +1,5 @@
 {
-  "_readme": "Every voice on /voices, in page order. Adding a voice = one entry here plus its sample file under public/audio/voices/. functions/voices/index.js renders the cards from this list, functions/voices/[id].js the profile pages, and functions/download/voice/[id].js redirects to each entry's download. id is lowercase letters, digits and dashes, and never guide/submit/release/thanks/contributors/account. status: live, or soon (listed with a placeholder, no sample or download yet). download: the zip on a GitHub release, or null for a voice that comes with the add-on. Optional: bio (profile page; blank lines split paragraphs), samples (profile page; defaults to sample), avatar, curseforge, owner (a contributor's account id), donated (true for a voice made from a recording lent on /voices/lend: its pages say \"voice by <credit>\"; publish with lore.donation publish, which makes the owner row). Copy rule: never say how a voice is made. packs (optional): a voice's extra downloads, each {id, name, addon, clips, coverage, download}: its lands packs (LoreForever_Voice_<voice>_Alliance/_Horde, the places and people of that faction's zones plus the contested ones) and a complete bundle; /download/voice/<pack id> serves them, and a site path is linked as it is. The included voice's lands packs come in the main zip, so it lists none of those. A pack in another language (LOR-177: LoreForever_Voice_<Default|Female>_<locale>, one per narrator and language) has its 'language'; status soon keeps a pack off every page (and its download a 404) until it's released. (The answers packs, LOR-227, are retired: LOR-561, Willo reads the short answers aloud.) Pack ids follow the same rules.",
+  "_readme": "Every voice on /voices, in page order. Adding a voice = one entry here plus its sample file under public/audio/voices/. functions/voices/index.js renders the cards from this list, functions/voices/[id].js the profile pages, and functions/download/voice/[id].js redirects to each entry's download. id is lowercase letters, digits and dashes, and never guide/submit/release/thanks/contributors/account. status: live, or soon (listed with a placeholder, no sample or download yet). download: the zip on a GitHub release, or null for a voice that comes with the add-on. Optional: bio (profile page; blank lines split paragraphs), samples (profile page; defaults to sample), avatar, curseforge, owner (a contributor's account id), version (a pack published on its own on the voices release: lore.voicepack publish-studio, LOR-621), donated (true for a voice made from a recording lent on /voices/lend: its pages say \"voice by <credit>\"; publish with lore.donation publish, which makes the owner row). Copy rule: never say how a voice is made. packs (optional): a voice's extra downloads, each {id, name, addon, clips, coverage, download}: its lands packs (LoreForever_Voice_<voice>_Alliance/_Horde, the places and people of that faction's zones plus the contested ones) and a complete bundle; /download/voice/<pack id> serves them, and a site path is linked as it is. The included voice's lands packs come in the main zip, so it lists none of those. A pack in another language (LOR-177: LoreForever_Voice_<Default|Female>_<locale>, one per narrator and language) has its 'language'; status soon keeps a pack off every page (and its download a 404) until it's released. (The answers packs, LOR-227, are retired: LOR-561, Willo reads the short answers aloud.) Pack ids follow the same rules.",
   "voices": [
     {
       "id": "male-narrator",
@@ -10,7 +10,7 @@
       "addon": "LoreForever_Voice_Default",
       "status": "live",
       "included": true,
-      "clips": 878,
+      "clips": 879,
       "coverage": "selected zone, capital and dungeon stories, places and people, and dungeon bosses (other entries stay available as text; quest dialogue is a separate optional download)",
       "tagline": "Has narrated every capital in one sitting. Doesn't blink. Declined our offer of water.",
       "bio": "The voice that comes with Lore Forever, and the first one you hear in Stormwind.\n\nHas narrated every capital in one sitting. Doesn't blink. Declined our offer of water, then a chair, then a lunch break. Knows the founding of Stormwind by heart and will tell you about it whether or not you asked.\n\nFavourite zone: all of them, in alphabetical order. Hobbies: dramatic pauses, and saying \"Thrall\" exactly right every single time.",
@@ -54,7 +54,7 @@
           "addon": "LoreForever_Voice_Default_Quests",
           "status": "live",
           "included": false,
-          "clips": 3751,
+          "clips": 4053,
           "coverage": "recorded quest dialogue in his voice; turn on Speak quest dialogue in Options to hear it",
           "curseforge": "https://www.curseforge.com/wow/addons/lore-forever-quest-dialogue-male-narrator",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Default_Quests.zip"
@@ -220,7 +220,7 @@
           "id": "female-horde-lands",
           "name": "Horde lands",
           "addon": "LoreForever_Voice_Female_Horde",
-          "clips": 295,
+          "clips": 296,
           "coverage": "selected places and people in Horde and contested zones (other entries stay available as text)",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Horde.zip"
         },
@@ -230,7 +230,7 @@
           "name": "Quest dialogue (optional)",
           "addon": "LoreForever_Voice_Female_Quests",
           "included": false,
-          "clips": 3751,
+          "clips": 4052,
           "coverage": "recorded quest dialogue in her voice; turn on Speak quest dialogue in Options to hear it",
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female_Quests.zip"
         },
@@ -264,7 +264,7 @@
           "bundleNote": "Other languages and quest dialogue are separate extras.",
           "coverage": "selected English stories and Alliance and Horde lands; quest dialogue is a separate optional download",
           "name": "English stories in one zip",
-          "clips": 868,
+          "clips": 869,
           "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_Female-complete.zip"
         },
         {
@@ -360,16 +360,16 @@
       "language": "Español",
       "addon": "LoreForever_Edition_Densuad_esES_Audio",
       "clips": 804,
-      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.20.0/LoreForever_Edition_Densuad_esES.zip",
+      "download": "https://github.com/mliudev/LoreForever/releases/download/v0.21.0/LoreForever_Edition_Densuad_esES.zip",
       "bio": "Spanish text and narration contributed by Densuad. This edition uses its own wording and recordings together. It contains contributed overviews and answers; these are not complete story recordings.",
       "coverage": "699 contributed entries, 109 answer texts and 804 recordings, each played with Densuad’s own text. Text without a matching recording remains readable.",
       "edition": {
         "id": "densuad-esES",
         "locale": "esES",
-        "version": "13056d668961cfa51a42c61dea20d95a65c551b7630ef36c5e5a67ca4297dab5",
+        "version": "ef66f49af5494633a03bc7fc47400d599e5c043518a43bd97a1cd3c1e3e53fc3",
         "entries": 699,
         "answers": 109,
-        "coreVersion": "0.20.0",
+        "coreVersion": "0.21.0",
         "api": 1,
         "installedSize": 704920095,
         "textAddon": "LoreForever_Edition_Densuad_esES_Text",
@@ -391,21 +391,22 @@
     },
     {
       "id": "browniee-s-voice",
-      "status": "soon",
+      "status": "live",
       "name": "Browniee's voice",
       "credit": "Browniee",
       "owner": "88850ab8-786f-4cba-b393-682413be1ac2",
       "language": "English",
       "addon": "LoreForever_Voice_BrownieeSVoice",
       "clips": 5,
-      "download": "https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever_Voice_BrownieeSVoice.zip",
-      "bio": "Browniee reads Teldrassil's story and four answers about the World Tree.",
-      "coverage": "Teldrassil's story and 4 of its answers, each played with the text Browniee recorded. Other entries remain available as text.",
+      "version": "0.21.0",
+      "download": "https://github.com/mliudev/LoreForever/releases/download/voices/LoreForever_Voice_BrownieeSVoice.zip",
+      "coverage": "The stories of Teldrassil and Shadowglen, each played with the text Browniee recorded. Other entries remain available as text.",
       "sample": {
         "src": "/audio/voices/browniee-s-voice-teldrassil.mp3",
         "title": "Teldrassil",
         "length": "0:58"
-      }
+      },
+      "bio": "Browniee reads the stories of Teldrassil and Shadowglen."
     }
   ]
 }

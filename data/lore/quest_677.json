@@ -1,0 +1,116 @@
+{
+ "key": "quest:677",
+ "type": "quest",
+ "name": "Call to Arms",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   677
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Hammerfall stands isolated in the Arathi Highlands, surrounded by hostile forces; defending the outpost from aggressive native factions is essential to securing a permanent Horde foothold in human-dominated lands."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Built on the grounds of a former Second War internment camp, Hammerfall is a symbol of liberation for orcs, making the defense of their new settlement against hostile neighbors deeply personal."
+  },
+  {
+   "target": "race:Troll",
+   "text": "For Darkspear trolls serving Thrall's Horde, fighting the hostile Witherbark forest trolls highlights the sharp divide between their people and tribes that rejected the new Horde."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives call to arms",
+    "where is drum fel",
+    "quest giver call to arms"
+   ],
+   "answer": "Call to Arms is given by Drum Fel, an orc stationed at the Horde outpost of Hammerfall in the northeastern Arathi Highlands. He coordinates defensive and offensive strikes to ensure the survival of the encampment against neighboring threats.",
+   "q": "Who offers the quest Call to Arms?"
+  },
+  {
+   "aliases": [
+    "why kill witherbark",
+    "why attack trolls arathi",
+    "what did witherbark do"
+   ],
+   "answer": "The Witherbark tribe of forest trolls has aligned with the Boulderfist ogres to purge the Horde from the Arathi Highlands. Having rejected peaceful coexistence and turned their backs on the Horde, their aggressive posture leaves Hammerfall with no choice but to strike first.",
+   "q": "Why is Hammerfall targeting the Witherbark trolls?"
+  },
+  {
+   "aliases": [
+    "where are witherbark trolls",
+    "witherbark camp location",
+    "where to find axe throwers arathi"
+   ],
+   "answer": "The Witherbark trolls inhabit several settlements and camps located south of Hammerfall in the Arathi Highlands, including deep within Witherbark Village near the mountains.",
+   "q": "Where are the Witherbark trolls located?"
+  },
+  {
+   "aliases": [
+    "who are boulderfist",
+    "ogres in arathi",
+    "boulderfist troll alliance"
+   ],
+   "answer": "The Boulderfist ogres are a brutal clan residing in the Arathi Highlands. According to Drum Fel, they have entered an alliance of convenience with the Witherbark trolls to eradicate the Horde's presence in the highlands.",
+   "q": "What role do the Boulderfist ogres play in this conflict?"
+  },
+  {
+   "aliases": [
+    "what is hammerfall",
+    "hammerfall lore",
+    "why is horde in arathi"
+   ],
+   "answer": "Hammerfall is the primary Horde outpost in the Arathi Highlands, named in memory of Warchief Orgrim Doomhammer. Situated on the site of an old Alliance internment camp, it serves as a hard-won sanctuary and military bastion for the Horde in the Eastern Kingdoms.",
+   "q": "What is Hammerfall and why does it need defending?"
+  },
+  {
+   "aliases": [
+    "are witherbark in the horde",
+    "are forest trolls friendly to horde",
+    "darkspear vs witherbark"
+   ],
+   "answer": "No. While the jungle trolls of the Darkspear tribe are members of the Horde, the Witherbark are forest trolls native to the Eastern Kingdoms. They harbor deep hostility toward outsiders and have violently rejected any overtures from the Horde.",
+   "q": "Are the Witherbark trolls part of the Horde?"
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "axe thrower",
+  "boulderfist",
+  "call to arms",
+  "drum fel",
+  "hammerfall",
+  "headhunter",
+  "witch doctor",
+  "witherbark"
+ ],
+ "related": [
+  "npc:drum-fel",
+  "subzone:hammerfall",
+  "topic:troll"
+ ],
+ "sections": [
+  {
+   "body": "From the fortified sanctuary of Hammerfall, Drum Fel organizes a preemptive military strike against the hostile native powers of the Arathi Highlands. Surrounded by old human ruins and aggressive local factions, the Horde settlement faces an imminent threat from a cooperative pact formed between the indigenous Witherbark forest trolls and the brute Boulderfist ogres. Rather than allowing their enemies to dictate the terms of survival, Drum Fel calls on champions to take the offensive.",
+   "spoiler": 0,
+   "title": "Defending Hammerfall"
+  },
+  {
+   "body": "The initial offensive focuses south of Hammerfall, targeting the heart of Witherbark territory. The Witherbark have turned their backs on any diplomacy, choosing instead to conspire with the Boulderfist ogres to purge the Horde from the highlands. By culling their specialized axe throwers, headhunters, and witch doctors, Hammerfall seeks to shatter their martial leadership and demonstrate that the Horde is here to stay.",
+   "spoiler": 0,
+   "title": "The Witherbark Threat"
+  }
+ ],
+ "summary": "Call to Arms is a Horde military initiative directed by Drum Fel from the outpost of Hammerfall in the Arathi Highlands. Threatened by an alliance between the local Witherbark forest trolls and Boulderfist ogres, the Horde launches a preemptive campaign against the Witherbark to secure their foothold in the region.",
+ "attribution": [
+  "In-game quest text: Call to Arms"
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "key": "quest:97244",
+ "type": "quest",
+ "name": "Call of Fire",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97244
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "Priests may find Skypriest Faladiel's corruption and fall from grace notable, as his sacred calling was twisted from calling the flame into betrayal and murder of his own order."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shamans attuned to fire and elemental rites will recognize the severe, primal nature of feeding a traitor's essence to the flames to intensify their sacred power."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is faladiel",
+    "faladiel backstory",
+    "skypriest faladiel lore"
+   ],
+   "answer": "Skypriest Faladiel was once a devoted caller of the flame and a stalwart member of the Windshapers. Like many among the Al'Aketh, he bartered his loyalties away in pursuit of power, turning on his kin and staining his hands with their blood.",
+   "q": "Who is Skypriest Faladiel?"
+  },
+  {
+   "aliases": [
+    "why kill faladiel",
+    "why do windshapers want faladiel dead",
+    "faladiel betrayal"
+   ],
+   "answer": "The Windshapers seek retribution because Faladiel betrayed them for power and murdered his former brothers and sisters. Under Windshaper creed, blood is paid with blood, making his execution both justice and retribution.",
+   "q": "Why do the Windshapers want Faladiel killed?"
+  },
+  {
+   "aliases": [
+    "why faladiel heart",
+    "what is heart for",
+    "ritual reagent heart"
+   ],
+   "answer": "Faladiel's heart serves as a potent ritual reagent. The Windshapers believe that the flames eagerly devour the offering of a traitor's heart, growing hotter and burning far more intensely when fed upon it.",
+   "q": "Why do the Windshapers need Faladiel's heart?"
+  },
+  {
+   "aliases": [
+    "where is faladiel",
+    "skypriest faladiel location",
+    "find faladiel"
+   ],
+   "answer": "Skypriest Faladiel has taken refuge at a farm in the Gustberry Lowlands, located to the northeast past Valanaar, just south of the Shrine of Akir.",
+   "q": "Where can Skypriest Faladiel be found?"
+  },
+  {
+   "aliases": [
+    "who are windshapers",
+    "windshaper creed",
+    "windshapers faction"
+   ],
+   "answer": "The Windshapers are an order bound by a strict and unyielding creed where treachery is never forgotten and blood is always repaid in blood. They practice flame-calling and sacred elemental rituals.",
+   "q": "What is the creed of the Windshapers?"
+  },
+  {
+   "aliases": [
+    "what are alaketh",
+    "faladiel alaketh",
+    "alaketh traitors"
+   ],
+   "answer": "The Al'Aketh are a faction or group known to have members who traded away their former allegiances and honor in exchange for personal power, with Faladiel being a prominent example among their skypriests.",
+   "q": "What is the Al'Aketh's connection to this mission?"
+  }
+ ],
+ "keywords": [
+  "al'aketh",
+  "call of fire",
+  "faladiel",
+  "faladiel's heart",
+  "gustberry lowlands",
+  "shrine of akir",
+  "skypriest faladiel",
+  "valanaar",
+  "windshapers"
+ ],
+ "related": [
+  "quest:92595",
+  "topic:priest"
+ ],
+ "sections": [
+  {
+   "body": "Call of Fire tasks adventurers with hunting down Skypriest Faladiel, a former Windshaper who abandoned his loyalties to join the Al'Aketh. Once a dedicated caller of flame, Faladiel chose power over allegiance, turning on his fellow order members and leaving their blood upon his hands. The Windshapers dispatch an agent to deliver their uncompromising judgment upon him.",
+   "spoiler": 0,
+   "title": "A Traitor Among the Flame"
+  },
+  {
+   "body": "Faladiel has secluded himself at a farm within the Gustberry Lowlands, situated northeast past Valanaar and just south of the Shrine of Akir. Slaying the rogue skypriest serves more than mere vengeance; the Windshapers require his heart as a grisly component for an upcoming ritual, believing that consuming the heart of a betrayer allows their sacred flames to burn with unmatched intensity.",
+   "spoiler": 0,
+   "title": "Reckoning in the Lowlands"
+  },
+  {
+   "body": "Upon receiving the heart, the Windshapers reaffirm their creed that blood must answer for blood. Yet Faladiel's demise marks only a single phase of their work, as the heart is merely one part of what must feed their ceremonial fire before their rites can be concluded.",
+   "spoiler": 1,
+   "title": "Blood Paid with Blood"
+  }
+ ],
+ "summary": "Call of Fire is a quest from the Windshapers commanding the execution of Skypriest Faladiel, a former brother who betrayed his order for power. Adventurers must track the rogue skypriest to the Gustberry Lowlands and retrieve his heart to fuel a powerful elemental ritual.",
+ "attribution": [
+  "In-game quest text: Call of Fire"
+ ]
+}

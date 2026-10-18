@@ -1,0 +1,123 @@
+{
+ "key": "quest:671",
+ "type": "quest",
+ "name": "Foul Magics",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   671
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "Orcs have a deep, painful history with demonic corruption, and residual fel magic can physically cause their blood to boil and stir unnatural rage. Tor'gan's visceral reaction near Northfold Manor highlights the enduring sensitivity orcs share toward demonic summoning."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "With Hammerfall standing as the Horde's lone outpost in the Arathi Highlands, the presence of dark summoners operating just to the west poses a direct security threat to the settlement."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks are intimately familiar with the rituals and binding reagents required to summon demons, making the bloodstone amulets found at Northfold Manor objects of particular interest."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "foul magics quest giver",
+    "who starts foul magics",
+    "torgan quest arathi"
+   ],
+   "answer": "The quest is offered by Tor'gan, an orc located in Hammerfall, the Horde stronghold in the Arathi Highlands. Tor'gan senses a disturbing demonic presence nearby and asks adventurers to investigate Northfold Manor to discover what dark powers are at work.",
+   "q": "Who gives the quest Foul Magics?"
+  },
+  {
+   "aliases": [
+    "northfold manor location",
+    "where is northfold manor",
+    "find northfold manor arathi"
+   ],
+   "answer": "Northfold Manor is located to the west of Hammerfall in the northern hills of the Arathi Highlands. Once a human homestead, the estate has become a site for covert demonic summonings using bloodstone charms.",
+   "q": "Where is Northfold Manor located?"
+  },
+  {
+   "aliases": [
+    "what is bloodstone amulet",
+    "bloodstone amulet purpose",
+    "why bloodstone amulets"
+   ],
+   "answer": "Bloodstone amulets are magical foci used to assist in demonic summoning rituals. Tor'gan discovered that practitioners at Northfold Manor employ these stones to channel dark magic, though individual amulets become depleted once their power is drained during a summoning.",
+   "q": "What are Bloodstone Amulets used for?"
+  },
+  {
+   "aliases": [
+    "why torgan blood boils",
+    "torgan rage northfold",
+    "why does torgan get angry"
+   ],
+   "answer": "Tor'gan experiences a violent physical reaction near Northfold Manor due to the lingering demonic summoning energies. For orcs, exposure to fel magic agitates the remnants of the blood curse, causing their blood to boil and igniting uncontrollable rage.",
+   "q": "Why does Tor'gan feel rage near Northfold Manor?"
+  },
+  {
+   "aliases": [
+    "why wont torgan go to northfold",
+    "why torgan doesnt go back",
+    "why cant torgan get amulets"
+   ],
+   "answer": "Tor'gan refuses to return to Northfold Manor because the residual demonic power stirs a dangerous rage within him. Fearing that he might lose control or succumb to the corruptive influence, he enlists outside adventurers to recover the amulets on his behalf.",
+   "q": "Why does Tor'gan refuse to return to Northfold Manor?"
+  },
+  {
+   "aliases": [
+    "how many bloodstone amulets",
+    "bloodstone amulet count",
+    "foul magics objective count"
+   ],
+   "answer": "Tor'gan asks for ten bloodstone amulets from Northfold Manor. Because the single amulet he found on the ground was completely depleted, he requires multiple charged specimens to properly examine and understand the rituals taking place there.",
+   "q": "How many Bloodstone Amulets are needed?"
+  },
+  {
+   "aliases": [
+    "who is at northfold manor",
+    "who is summoning demons northfold",
+    "northfold manor cultists"
+   ],
+   "answer": "Dark practitioners have taken over Northfold Manor to conduct illicit demonic summonings. Their dark rituals and the resulting fel residue drew Tor'gan's attention from Hammerfall, prompting the Horde's investigation into the estate.",
+   "q": "Who is summoning demons at Northfold Manor?"
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "bloodstone",
+  "bloodstone amulet",
+  "demonic summoning",
+  "foul magics",
+  "hammerfall",
+  "northfold manor",
+  "tor'gan"
+ ],
+ "related": [
+  "subzone:northfold-manor",
+  "subzone:hammerfall"
+ ],
+ "sections": [
+  {
+   "body": "Tor'gan, an orc stationed at the Horde outpost of Hammerfall, began noticing an unsettling disturbance drifting through the Arathi Highlands. For an orc, demonic energies are not merely an abstract threat; they evoke a visceral, biological reaction rooted in the history of the blood curse. As Tor'gan tracked the source of his agitation westward toward Northfold Manor, the ambient corruption caused his blood to boil and stoked an involuntary rage within him. Recognizing the telltale aftermath of demonic summoning, he retreated before the dark influence overwhelmed his senses, seeking outside help instead of returning himself.",
+   "spoiler": 0,
+   "title": "A Simmering Rage"
+  },
+  {
+   "body": "At Northfold Manor, Tor'gan discovered physical evidence of dark rituals: an amulet carved from bloodstone lying on the ground. These magical charms are actively employed to facilitate and stabilize demonic summoning rituals. The specific amulet Tor'gan managed to recover was already depleted of its magical reserves, making thorough magical analysis impossible. In order to investigate the full extent of the summoning and determine what entities were brought forth, he charges Horde travelers with heading into Northfold Manor to retrieve ten intact bloodstone amulets from the practitioners residing there.",
+   "spoiler": 0,
+   "title": "The Bloodstone Amulets"
+  }
+ ],
+ "summary": "Foul Magics is a Horde quest originating in Hammerfall within the Arathi Highlands. Tor'gan senses a disturbing demonic presence to the west and discovers traces of dark summoning rituals at Northfold Manor. He asks adventurers to venture into the manor and retrieve bloodstone amulets used in these summonings so he can study their dark magic.",
+ "attribution": [
+  "In-game quest text: Foul Magics"
+ ]
+}

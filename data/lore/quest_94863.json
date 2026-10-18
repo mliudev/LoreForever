@@ -1,0 +1,102 @@
+{
+ "key": "quest:94863",
+ "type": "quest",
+ "name": "Taming the Beast",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94863
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "This training marks an essential rite of passage for hunters, teaching the patience and respect required to commune with fierce predators of the wild."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "taming the beast quest",
+    "gray forest wolf quest",
+    "tame wolf lesson"
+   ],
+   "answer": "Taming the Beast is a hunter training trial where a trainer tasks an aspiring hunter with tracking down and taming a Gray Forest Wolf using an enchanted Taming Rod.",
+   "q": "What is the quest Taming the Beast?"
+  },
+  {
+   "aliases": [
+    "who gives taming the beast",
+    "who is josephine carson",
+    "where to turn in taming the beast"
+   ],
+   "answer": "Josephine Carson serves as the instructor for this trial. She provides the Taming Rod and evaluates your bond with the forest's beasts before taking the rod back upon completion.",
+   "q": "Who gives and completes this quest?"
+  },
+  {
+   "aliases": [
+    "what do i tame",
+    "which beast",
+    "target of taming the beast"
+   ],
+   "answer": "You are instructed to tame a Gray Forest Wolf, moving up from your previous practice with boars to a fiercer forest predator.",
+   "q": "What creature do you have to tame?"
+  },
+  {
+   "aliases": [
+    "what does taming rod do",
+    "why use taming rod",
+    "taming rod lore"
+   ],
+   "answer": "The Taming Rod is an instructional tool provided by Josephine Carson to help an apprentice hunter soothe and form a temporary bond with a wild Gray Forest Wolf without causing permanent harm.",
+   "q": "What is the Taming Rod used for?"
+  },
+  {
+   "aliases": [
+    "taming previous lesson",
+    "what was tamed before wolf"
+   ],
+   "answer": "Before facing the Gray Forest Wolf, you demonstrated your initial command of beast handling by mastering how to tame a forest boar.",
+   "q": "What did the hunter tame before this trial?"
+  },
+  {
+   "aliases": [
+    "do you keep wolf",
+    "is wolf permanent pet"
+   ],
+   "answer": "No, the trial is designed as a focused lesson in mastering the technique of beast bonding. Once you have practiced your skills, you return the Taming Rod to Josephine Carson.",
+   "q": "Do you keep the Gray Forest Wolf as a permanent companion?"
+  }
+ ],
+ "keywords": [
+  "beast taming",
+  "gray forest wolf",
+  "hunter",
+  "hunter training",
+  "josephine carson",
+  "taming rod",
+  "taming the beast"
+ ],
+ "related": [
+  "item:taming-rod"
+ ],
+ "sections": [
+  {
+   "body": "A hunter's connection with the wild requires more than mere tracking and marksmanship; it demands the respect and patience needed to earn a wild creature's trust. After proving their foundational skills on simple boars, aspiring hunters are presented with a far fiercer challenge: venturing into the forest to tame a Gray Forest Wolf. Under the watchful eye of trainer Josephine Carson, the hunter is entrusted with an enchanted rod to calm the predator and learn the delicate balance between hunter and beast.",
+   "spoiler": 0,
+   "title": "The Path of the Hunter"
+  },
+  {
+   "body": "Josephine Carson provides the hunter with a specialized Taming Rod, designed to channel a calming influence that allows the hunter to approach dangerous wildlife. The task requires patience and precision, as the wolf must be approached without lethal force while its natural aggression is gently overcome. Once the bond is practiced and the hunter proves capable of harmonizing with the beast's spirit, the rod is returned to Josephine as proof of growing mastery over the wild.",
+   "spoiler": 0,
+   "title": "A Test of Instinct and Trust"
+  }
+ ],
+ "summary": "Taming the Beast is a hunter training lesson overseen by Josephine Carson. After learning the fundamentals of beast handling with a boar, the aspiring hunter must use a Taming Rod to earn the trust of a fiercer Gray Forest Wolf.",
+ "attribution": [
+  "In-game quest text: Taming the Beast"
+ ]
+}

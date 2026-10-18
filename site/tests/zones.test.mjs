@@ -118,9 +118,12 @@ test("a narrator claims a zone, records it, and it's theirs on the list; then th
   assert.deepEqual({ ...z.claim, since: undefined }, { credit: "Aelric", status: "active", done: 1, total: 3, since: undefined, finished: null, voice: va });
   assert.doesNotMatch(JSON.stringify(await board()), /Real-Name/);
 
-  // Every line recorded: done, still credited, and the narrator can claim another.
+  // Every line recorded: still active until the voice is sent for review (LOR-621: a zone recorded but never sent
+  // doesn't stay locked); then done, still credited, and the narrator can claim another.
   await upload(a, va, "zone:elwynn#faq1");
   await upload(a, va, "subzone:goldshire");
+  assert.equal(zoneOf(await board(), "elwynn").claim.status, "active", "recorded, not sent yet");
+  env.DB.sqlite.prepare("UPDATE voices SET status = 'pending' WHERE id = ?").run(va);   // sent for review
   z = zoneOf(await board(), "elwynn");
   assert.equal(z.claim.status, "done");
   assert.ok(z.claim.finished);
@@ -137,6 +140,10 @@ test("a narrator claims a zone, records it, and it's theirs on the list; then th
   assert.equal(zoneOf(await board(), "durotar").claim, null);
   assert.equal((await zones("POST", "release", { cookie: a.cookie, body: { id: next.body.claim.id } })).status, 404);
   assert.equal((await zones("POST", "claim", { cookie: b.cookie, body: { voice: vb, zone: "durotar" } })).status, 200);
+
+  // Not used after all (/admin: the voice is a draft again): the zone is open again, its claim active to finish.
+  env.DB.sqlite.prepare("UPDATE voices SET status = 'draft' WHERE id = ?").run(va);
+  assert.equal(zoneOf(await board(), "elwynn").claim.status, "active");
 });
 
 test("a claim expires after 14 days without an upload in its zone; an upload keeps it", async () => {
@@ -175,4 +182,31 @@ test("each language has its own claims; Delete my account removes a narrator's c
   await deleteUser(env, e.user);
   assert.equal(zoneOf(await board("?locale=deDE"), "elwynn").claim, null);
   assert.equal(await env.DB.prepare("SELECT COUNT(*) AS n FROM studio_claims WHERE owner = ?").bind(e.user.id).first("n"), 0);
+});
+
+test("sending again updates the waiting submission; not used says why and makes the voice a draft (LOR-621)", async () => {
+  const { RELEASE_VERSION } = await import("../lib/submissions.js");
+  const { onRequestPost: adminPost } = await import("../functions/api/admin.js");
+  const me = await signIn("corin");
+  const v = await voiceOf(me, "Corin's voice");
+  await upload(me, v, "zone:duskwood");
+  assert.equal((await studio("POST", "release", { cookie: me.cookie,
+    body: { agree: true, adult: true, signature: "Corin Example", release: RELEASE_VERSION } })).status, 200);
+  const sendIt = note => studio("POST", "send", { cookie: me.cookie, body: { voice: v, credit: "Corin", note } });
+  assert.equal((await sendIt("first")).status, 200);
+  assert.equal((await sendIt("second")).status, 200);
+  const rows = env.DB.sqlite.prepare("SELECT id, note, status FROM voice_submissions WHERE voice_id = ?").all(v);
+  assert.deepEqual(rows.map(r => [r.note, r.status]), [["second", "new"]], "one row per submission");
+
+  env.ADMIN_KEY = "k";
+  const res = await adminPost({ request: new Request(ORIGIN + "/api/admin", { method: "POST",
+    headers: { Authorization: "Bearer k", "Content-Type": "application/json" },
+    body: JSON.stringify({ action: "voice-status", id: rows[0].id, status: "rejected", reason: "too quiet to hear" }) }), env });
+  assert.equal(res.status, 200);
+  const st = (await studio("GET", "state", { cookie: me.cookie, query: `?voice=${v}` })).body;
+  const mine = st.voices.find(x => x.id === v);
+  assert.deepEqual([mine.status, mine.review], ["draft", { status: "rejected", reason: "too quiet to hear" }]);
+  assert.equal((await sendIt("fixed")).status, 200);
+  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM voice_submissions WHERE voice_id = ?").get(v).n, 2,
+    "a send after one that wasn't used is a new submission");
 });

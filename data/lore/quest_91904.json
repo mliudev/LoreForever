@@ -1,0 +1,100 @@
+{
+ "key": "quest:91904",
+ "type": "quest",
+ "name": "A Sealed Crate",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91904
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "sealed crate purpose",
+    "what is a sealed crate",
+    "what are sealed crates for"
+   ],
+   "answer": "Sealed crates represent trade cargo that was intercepted or displaced along commercial paths. Adventurers who recover these abandoned goods can turn them in to merchants and local recipients to secure the freight and receive financial compensation for their salvage efforts.",
+   "q": "What is a sealed crate?"
+  },
+  {
+   "aliases": [
+    "who lost the crates",
+    "why are crates lost",
+    "why crates on the road"
+   ],
+   "answer": "A recent surge in banditry and organized thievery has plagued regional trade routes. Highwaymen and rogue opportunists regularly ambush supply caravans and haulers, resulting in shipments being stolen, abandoned, or dropped along the road.",
+   "q": "Why are these crates lying around?"
+  },
+  {
+   "aliases": [
+    "who buys sealed crates",
+    "who wants sealed crates",
+    "crate turn in"
+   ],
+   "answer": "Caravan coordinators, quartermasters, and trade merchants accept recovered crates to assemble consolidated freight piles and sort the cargo back into regular supply lines, compensating anyone who rescues their missing stock.",
+   "q": "Who wants these crates returned?"
+  },
+  {
+   "aliases": [
+    "can i open a sealed crate",
+    "whats inside the crate",
+    "open sealed crate"
+   ],
+   "answer": "The crates remain locked and sealed for transit to ensure the security of their trade merchandise. Handing them over intact allows logistical handlers to process the goods and distribute payment to recoverers without tampering.",
+   "q": "Can you look inside a sealed crate?"
+  },
+  {
+   "aliases": [
+    "more crates",
+    "can i turn in more crates",
+    "are crates repeatable"
+   ],
+   "answer": "Yes. With highway robbery still widespread along major thoroughfares, merchants actively seek additional recovered freight and encourage wanderers to bring in any further displaced crates they locate across the wild.",
+   "q": "Can you return more sealed crates in the future?"
+  },
+  {
+   "aliases": [
+    "bandit attacks trade routes",
+    "thieves stealing goods",
+    "who is raiding the roads"
+   ],
+   "answer": "Thieves and cutpurses have grown increasingly bold across trade territories, targeting merchant shipments to pilfer valuable wares and disrupting commercial distribution between settlements.",
+   "q": "Who is intercepting the trade routes?"
+  }
+ ],
+ "keywords": [
+  "a sealed crate",
+  "bandits",
+  "caravan",
+  "cargo",
+  "crate",
+  "delivery",
+  "merchants",
+  "sealed crate",
+  "thieves",
+  "trade routes"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Wagon trails and shipping lanes have become treacherous due to a sharp rise in ambushes by bandits and thieves targeting trade caravans. Unsuspecting haulers and couriers frequently lose their shipments when caught unawares, leaving heavy sealed crates abandoned along wild roads and wilderness paths until someone recovers them.",
+   "spoiler": 0,
+   "title": "Stolen Cargo and Imperiled Roads"
+  },
+  {
+   "body": "Merchants and supply coordinators maintain standing bounties for the safe return of missing merchandise. Adventurers who retrieve displaced crates and haul them back to regional collection points help restore compromised distribution lines, earning direct monetary compensation for safeguarding commerce.",
+   "spoiler": 0,
+   "title": "Securing the Supply Chain"
+  }
+ ],
+ "summary": "A Sealed Crate is a turn-in task involving recovered trade goods that have fallen into the hands of highwaymen or were lost along commercial routes. Adventurers return intercepted cargo to trade handlers to secure regional supply lines and receive payment.",
+ "attribution": [
+  "In-game quest text: A Sealed Crate"
+ ]
+}

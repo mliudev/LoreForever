@@ -21,6 +21,7 @@ import { cancelPlan } from "./billing.js";
 import { setupWilloCustom } from "./willo-custom.js";
 import { FRIENDS_SETUP, FRIENDS_USER_DATA } from "./friends.js";
 import { setupReferrals, REFERRAL_USER_DATA } from "./referrals.js";
+import { EMAIL_SETUP, EMAIL_USER_DATA } from "./email.js";
 
 const SETUP = [
   ...HISTORY_BASE_SETUP,
@@ -30,6 +31,8 @@ const SETUP = [
   ...ACTIVITY_SETUP,
   // Friends in Willo: who is friends with whom, their messages, shared whereabouts and reports (lib/friends.js).
   ...FRIENDS_SETUP,
+  // The emails the site sent each account (only that one was sent), and unsubscribed addresses (lib/email.js).
+  ...EMAIL_SETUP,
   // last_seen: the last UTC day it was signed in (lib/activity.js); setup adds it to a table from before.
   `CREATE TABLE IF NOT EXISTS users (
     id TEXT PRIMARY KEY, email TEXT UNIQUE, google_sub TEXT UNIQUE, display_name TEXT, links TEXT,
@@ -54,7 +57,7 @@ const SETUP = [
   `CREATE TABLE IF NOT EXISTS translation_edits (
     id INTEGER PRIMARY KEY AUTOINCREMENT, user_id TEXT NOT NULL, locale TEXT NOT NULL, string_id TEXT NOT NULL,
     en TEXT NOT NULL, text TEXT NOT NULL, created TEXT NOT NULL, updated TEXT NOT NULL,
-    status TEXT NOT NULL DEFAULT 'new', reviewed TEXT, reason TEXT)`,
+    status TEXT NOT NULL DEFAULT 'new', reviewed TEXT, reason TEXT, outcome TEXT, pulled_at TEXT, shipped_in TEXT)`,
   "CREATE INDEX IF NOT EXISTS translation_edits_user ON translation_edits (user_id, locale, string_id)",
   "CREATE INDEX IF NOT EXISTS translation_edits_status ON translation_edits (status, locale)",
   // The upload page (/voices/studio, lib/studio.js): one file per line of a voice, kept in R2 (binding STUDIO) under
@@ -75,7 +78,8 @@ const SETUP = [
   "CREATE UNIQUE INDEX IF NOT EXISTS studio_claims_zone ON studio_claims (zone, locale) WHERE status IN ('active', 'done')",
   "CREATE UNIQUE INDEX IF NOT EXISTS studio_claims_owner ON studio_claims (owner) WHERE status = 'active'",
   // "Lend your voice" (LOR-230, lib/donate.js): a donated sample (in R2 under studio/<user id>/_donation/<id>/) that we
-  // make a narrator voice from. status: donated, rendering, ready (a test pack is up), published or withdrawn (the
+  // make a narrator voice from. status: donated, rendering, ready (a test pack is up), published, declined (we couldn't
+  // make a voice from it; reason says why, LOR-621) or withdrawn (the
   // sample, test pack and credit gone; the row stays as the record of the agreement and its withdrawal, and after
   // "Delete my account" without the account: owner ""). One donation that isn't withdrawn per account.
   // donation_release: the donation terms each donor agreed to, like studio_release; each donation copies it
@@ -84,7 +88,7 @@ const SETUP = [
     id TEXT PRIMARY KEY, owner TEXT NOT NULL, status TEXT NOT NULL, credit TEXT, r2_key TEXT, ext TEXT, bytes INTEGER,
     duration_ms INTEGER, checks TEXT, crc32 TEXT, script TEXT, consent_version TEXT NOT NULL, signature TEXT NOT NULL,
     pack_key TEXT, pack_bytes INTEGER, pack_lines INTEGER, pack_title TEXT, voice_id TEXT, created TEXT NOT NULL,
-    updated TEXT NOT NULL, withdrawn TEXT, consented TEXT, adult INTEGER)`,
+    updated TEXT NOT NULL, withdrawn TEXT, consented TEXT, adult INTEGER, reason TEXT)`,
   "CREATE UNIQUE INDEX IF NOT EXISTS voice_donations_owner ON voice_donations (owner) WHERE status != 'withdrawn'",
   `CREATE TABLE IF NOT EXISTS donation_release (
     user_id TEXT PRIMARY KEY, version TEXT NOT NULL, signature TEXT NOT NULL, adult INTEGER NOT NULL, created TEXT NOT NULL)`,
@@ -132,7 +136,7 @@ const SETUP = [
     id INTEGER PRIMARY KEY AUTOINCREMENT, created TEXT NOT NULL, updated TEXT NOT NULL, clip TEXT NOT NULL, hash TEXT,
     voice TEXT NOT NULL, reason TEXT NOT NULL, name TEXT, say_as TEXT, note TEXT, version TEXT, locale TEXT, source TEXT,
     user_id TEXT, sender TEXT NOT NULL, uploader TEXT NOT NULL, country TEXT, status TEXT NOT NULL DEFAULT 'open',
-    resolved TEXT)`,
+    resolved TEXT, fixed_in TEXT)`,
   "CREATE INDEX IF NOT EXISTS clip_reports_clip ON clip_reports (clip, voice, status)",
   "CREATE INDEX IF NOT EXISTS clip_reports_uploader ON clip_reports (uploader, status)",
   // The picture book (lib/pictures.js): pictures the companion took in game and put on the player's profile, in R2
@@ -184,7 +188,8 @@ export async function setup(env) {
     }
     // Each table's column check below is independent of the others, so they run at once: a cold Worker waits one round
     // trip to D1 for all of them, not one per table (/admin's first load paid for each in turn).
-    const [, , , , version] = await Promise.all([
+    // The history schema's version is the last result, whatever checks come before it.
+    const version = (await Promise.all([
       existing.has("story_spend") && (async () => {
         let columns = new Set((await env.DB.prepare("PRAGMA table_info(story_spend)").all()).results.map(row => row.name));
         for (const column of ["voice_micro_usd", "reserved_micro"]) {
@@ -210,15 +215,25 @@ export async function setup(env) {
           columns.add(column);
         }
       })(),
-      // translation_edits.reason: why lore.kit's check turned an edit down, shown on the translator's dashboard.
+      // clip_reports.fixed_in (LOR-621): the release that carried the new recording (POST /api/clip-report/shipped).
+      existing.has("clip_reports") && (async () => {
+        const has = async () => (await env.DB.prepare("PRAGMA table_info(clip_reports)").all()).results.some(c => c.name === "fixed_in");
+        if (await has()) return;
+        try { await env.DB.prepare("ALTER TABLE clip_reports ADD COLUMN fixed_in TEXT").run(); }
+        catch (error) { if (!(await has())) throw error; }   // another cold Worker added it
+      })(),
+      // translation_edits.reason: why lore.kit's check turned an edit down, shown on the translator's dashboard;
+      // .outcome: what lore.kit did with a pulled edit (landed, same, superseded, unusable), .pulled_at when, and
+      // .shipped_in the first release that carried it (POST /api/translations/shipped) (LOR-621).
       existing.has("translation_edits") && (async () => {
         const columns = new Set((await env.DB.prepare("PRAGMA table_info(translation_edits)").all()).results.map(row => row.name));
-        if (!columns.has("reason")) {
-          try { await env.DB.prepare("ALTER TABLE translation_edits ADD COLUMN reason TEXT").run(); }
+        for (const column of ["reason", "outcome", "pulled_at", "shipped_in"]) {
+          if (columns.has(column)) continue;
+          try { await env.DB.prepare(`ALTER TABLE translation_edits ADD COLUMN ${column} TEXT`).run(); }
           catch (error) {
             // Another cold Worker may have added it. A real failure must leave setup retryable.
             const now = new Set((await env.DB.prepare("PRAGMA table_info(translation_edits)").all()).results.map(row => row.name));
-            if (!now.has("reason")) throw error;
+            if (!now.has(column)) throw error;
           }
         }
       })(),
@@ -236,7 +251,7 @@ export async function setup(env) {
         }
       })(),
       env.DB.prepare('SELECT version FROM history_schema WHERE version = 3').first(),
-    ]);
+    ])).at(-1);
     ready.set(env.DB, { history: version?.version === 3 });
   })();
   preparing.set(env.DB, preparation);
@@ -411,6 +426,8 @@ const USER_DATA = [
   ...FRIENDS_USER_DATA,
   // Their share link, and the friends they brought or were brought by, kept without the account (lib/referrals.js).
   ...REFERRAL_USER_DATA,
+  // That we sent them a thank-you email (lib/email.js). An unsubscribed address's hash isn't the account's, so it stays.
+  ...EMAIL_USER_DATA,
   ["DELETE FROM users WHERE id = ?", u => u.id],
 ];
 

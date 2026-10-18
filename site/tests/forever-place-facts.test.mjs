@@ -43,6 +43,15 @@ test("the way to a zone: the roads and passes, and the flight, ship or tram that
   assert.doesNotMatch(text("how do I get to Durotar?", { zone: "Tirisfal Glades" }), /zeppelin|Undercity/);
 });
 
+test("each fact names its sources, so typed research it answers is answered from it (LOR-614)", () => {
+  const urls = (question, context) => placeFacts({ question, faction: "Alliance", ...context })
+    .flatMap(f => f.sources.map(s => s.url));
+  assert.ok(urls("Is there a bank in Booty Bay?", {}).includes("https://github.com/vmangos/core"));
+  const alterac = urls("How do I get to Alterac?", { zone: "Wetlands", sub: "Menethil Harbor" });
+  assert.ok(alterac.includes("https://warcraft.wiki.gg/wiki/Alterac_Mountains_(Classic)"), alterac.join(" "));
+  assert.ok(alterac.includes("https://wago.tools/db2/TaxiPath") && alterac.includes("https://wago.tools/db2/TaxiPathNode"));
+});
+
 test("no facts for questions about something else, nor for a character's reply", () => {
   for (const question of ["Tell me about the Wetlands.", "Who leads the Defias Brotherhood?", "How do I get to Fray Island?"])
     assert.equal(text(question, { zone: "Wetlands" }), "", question);

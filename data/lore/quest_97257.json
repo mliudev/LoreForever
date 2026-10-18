@@ -1,0 +1,115 @@
+{
+ "key": "quest:97257",
+ "type": "quest",
+ "name": "Call of Fire",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97257
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This rite marks a pivotal initiation for shamans, granting them mastery over fire and awarding them their Fire Totem upon completion."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "Administered by the Windshapers in Skywall, this trial reflects Skyborne shamanic traditions honoring the elemental planes."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is call of fire",
+    "call of fire quest",
+    "what is this quest about"
+   ],
+   "answer": "Call of Fire is a sacred rite of passage where an aspiring shaman assists in summoning spirits of flame and capturing the Eternal Flame. Carrying this sacred fire to Valanaar proves the initiate's respect for the elemental plane and grants them their Fire Totem.",
+   "q": "What is the Call of Fire?"
+  },
+  {
+   "aliases": [
+    "who is olariaan",
+    "olariaan role",
+    "who starts the ritual"
+   ],
+   "answer": "Olariaan is the ritual leader who directs the ceremony at the Brazier of Offering. He places the necessary materials upon the altar and calls forth the spirits of flame to ignite the Eternal Flame.",
+   "q": "Who is Olariaan?"
+  },
+  {
+   "aliases": [
+    "what is the eternal flame",
+    "eternal flame skywall"
+   ],
+   "answer": "The Eternal Flame is a manifestation of the spirits of flame called forth from the Firelands during the Windshaper ritual. Initiates must capture it on a torch and kindle the Brazier of Eternal Flames in Valanaar.",
+   "q": "What is the Eternal Flame?"
+  },
+  {
+   "aliases": [
+    "why does eternal flame dissipate",
+    "why rush to valanaar",
+    "flames of firelands skywall"
+   ],
+   "answer": "The raw elemental fire summoned originates from the Firelands, and its intense heat quickly dissipates within the air-dominated realm of Skywall. Initiates must move swiftly to ensure the torch does not burn out before reaching Valanaar.",
+   "q": "Why must the flame be carried quickly to Valanaar?"
+  },
+  {
+   "aliases": [
+    "who are the windshapers",
+    "windshaper faction"
+   ],
+   "answer": "The Windshapers are an order residing in Skywall who guide initiates through elemental trials. They honor the balance and power of the elemental planes and oversee the granting of totems.",
+   "q": "Who are the Windshapers?"
+  },
+  {
+   "aliases": [
+    "call of fire reward",
+    "fire totem reward",
+    "what do you get from call of fire"
+   ],
+   "answer": "Completing the ritual and successfully relighting the brazier in Valanaar earns the initiate their Fire Totem, a vital tool and focus for channeling fiery elemental powers.",
+   "q": "What is the reward for completing the trial?"
+  }
+ ],
+ "keywords": [
+  "call of fire",
+  "eternal flame",
+  "fire totem",
+  "firelands",
+  "olariaan",
+  "skywall",
+  "valanaar",
+  "windshapers"
+ ],
+ "related": [
+  "quest:92579",
+  "quest:92595",
+  "topic:skywall",
+  "topic:elemental-plane"
+ ],
+ "sections": [
+  {
+   "body": "The Call of Fire is a sacred trial of elemental attunement conducted within Skywall. Led by Olariaan of the Windshapers, initiates gather at the Brazier of Offering to invoke the spirits of flame from the Firelands. If the offerings are deemed worthy, the spirits ignite the altar with the sacred Eternal Flame, ready to be harnessed by a worthy aspirant.",
+   "spoiler": 0,
+   "title": "The Ritual of Flame"
+  },
+  {
+   "body": "Once lit, the Eternal Flame must be captured onto a torch and carried swiftly across Skywall to Valanaar. Because the energies of the Firelands naturally weaken and disperse in the swirling atmosphere of the elemental air realm, the initiate faces a race against time to reach the Brazier of Eternal Flames before the flame dies out.",
+   "spoiler": 0,
+   "title": "The Journey to Valanaar"
+  },
+  {
+   "body": "Rekindling the brazier at Valanaar proves the initiate's discipline and reverence toward the elements. In recognition of this achievement, the Windshapers bestow the initiate with their Fire Totem. As taught by the elders, elemental power readily serves those who respect it, but will mercilessly consume those who do not.",
+   "spoiler": 0,
+   "title": "The Fire Totem"
+  }
+ ],
+ "summary": "Call of Fire is a shamanic rite of passage overseen by the Windshapers within Skywall. Initiates must aid in invoking spirits of flame, capture the Eternal Flame, and race against time to kindle the brazier at Valanaar. Successfully completing the trial proves one's respect for the elements and earns the initiate their Fire Totem.",
+ "attribution": [
+  "In-game quest text: Call of Fire"
+ ]
+}

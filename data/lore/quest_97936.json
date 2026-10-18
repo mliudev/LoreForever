@@ -1,0 +1,112 @@
+{
+ "key": "quest:97936",
+ "type": "quest",
+ "name": "Camping 101: Skinning",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97936
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Horde skinners operating in Mulgore can visit Bloodhoof Village to learn how to make functional camp gear from their gathered hides."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Yonn Deepcut teaches skinners in the heart of Mulgore how to craft comfortable chairs out of beast hides for wilderness rest."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "A proper camp requires a warm campfire to accompany seating, which culinary trainers throughout the world can teach an adventurer to start."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is camping 101 skinning",
+    "camping skinning quest",
+    "what does this quest do"
+   ],
+   "answer": "Camping 101: Skinning is an introductory task directing proficient skinners to seek out a specialized instructor in Mulgore. Upon demonstrating skill in harvesting hides, skinners learn how to fashion a Camp Chair to furnish their wilderness camps.",
+   "q": "What is Camping 101: Skinning?"
+  },
+  {
+   "aliases": [
+    "who teaches camp chair",
+    "who to talk to for camping skinning",
+    "where is yonn deepcut"
+   ],
+   "answer": "Yonn Deepcut, a skinner stationed in Bloodhoof Village within Mulgore, teaches the technique for crafting a Camp Chair once an adventurer demonstrates proficiency in harvesting beast hides.",
+   "q": "Who teaches the Camp Chair recipe?"
+  },
+  {
+   "aliases": [
+    "what does a camp chair do",
+    "camp chair use",
+    "why make a camp chair"
+   ],
+   "answer": "A Camp Chair provides a comfortable place to rest when pitching camp out in the wild. Taking time to sit and relax helps adventurers recover their strength and stay in peak condition for upcoming battles.",
+   "q": "What is a Camp Chair used for?"
+  },
+  {
+   "aliases": [
+    "where can i make a camp",
+    "can i camp in town",
+    "camp chair in city"
+   ],
+   "answer": "Townspeople frown upon travelers setting up camps in the middle of settlements. Adventurers must head out into the wilderness to set up their camps and test out their crafted gear.",
+   "q": "Where can you set up a camp?"
+  },
+  {
+   "aliases": [
+    "what else do i need for camp",
+    "campfire needed",
+    "do i need a fire to camp"
+   ],
+   "answer": "A camp is not complete without a roaring campfire. Adventurers must build a fire before establishing their camp, a fundamental skill commonly taught by culinary trainers and cooks.",
+   "q": "What else is required to set up a camp?"
+  },
+  {
+   "aliases": [
+    "where is bloodhoof village",
+    "bloodhoof village location"
+   ],
+   "answer": "Bloodhoof Village is a major tauren settlement situated in the windswept plains of Mulgore, home to various tradespeople including skinning trainers.",
+   "q": "Where is Bloodhoof Village located?"
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "camp chair",
+  "campfire",
+  "camping 101",
+  "camping 101: skinning",
+  "mulgore",
+  "skinning",
+  "yonn deepcut"
+ ],
+ "related": [
+  "subzone:bloodhoof-village"
+ ],
+ "sections": [
+  {
+   "body": "Harvesting the hides and pelts of fallen beasts is one of the most practical survival skills on Azeroth. Beyond tanning leather for armor and gear, a resourceful skinner can turn rough animal skins into wilderness comforts. For travelers who spend long weeks traversing wild territories, learning how to work hides into resting equipment makes the difference between exhaustion and staying sharp in combat.",
+   "spoiler": 0,
+   "title": "Hides of the Wild"
+  },
+  {
+   "body": "In Mulgore, skinners are directed to Bloodhoof Village to speak with Yonn Deepcut. Once a skinner demonstrates basic proficiency in harvesting beast hides, Yonn imparts the craft of stitching together a Camp Chair. Settlers in towns and villages do not welcome travelers pitching tents in the middle of streets, so these chairs are designed specifically for wilderness use, paired with a crackling campfire taught by local cooks.",
+   "spoiler": 0,
+   "title": "Lessons in Bloodhoof Village"
+  }
+ ],
+ "summary": "Camping 101: Skinning guides skilled hide-gatherers to Bloodhoof Village to expand their practical field craft. Under the instruction of Yonn Deepcut, skinners learn to fashion beast pelts into comfortable Camp Chairs for wilderness survival. This training emphasizes the importance of rest and preparation when journeying far beyond the safety of civilization.",
+ "attribution": [
+  "In-game quest text: Camping 101: Skinning"
+ ]
+}

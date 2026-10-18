@@ -1,0 +1,106 @@
+{
+ "key": "quest:750",
+ "type": "quest",
+ "name": "The Hunt Continues",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   750
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren coming of age in Red Cloud Mesa, learning that every part of a beast must serve the tribe\u2014from food to clothing and shelter\u2014is an essential rite of passage."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "This task reinforces the core hunting philosophy of the plains: stalking beasts with purpose, taking only what is needed, and never viewing animals as simple sport or trophies."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "why hunt cougars",
+    "what are cougar pelts for",
+    "mountain cougar pelts use"
+   ],
+   "answer": "The pelts of the mountain cougars are vital practical resources for Camp Narache. Grull Hawkwind explains that the hides are needed to craft warm clothing for the tribe's children and to repair and reinforce the village's tents.",
+   "q": "Why does the tribe need mountain cougar pelts?"
+  },
+  {
+   "aliases": [
+    "who gives the hunt continues",
+    "quest giver camp narache"
+   ],
+   "answer": "The hunt is assigned by Grull Hawkwind, a prominent hunter in Camp Narache and the son of Chief Hawkwind. He guides novice adventurers in learning the essential duties of supporting the settlement.",
+   "q": "Who offers this quest?"
+  },
+  {
+   "aliases": [
+    "where are the cougars",
+    "mountain cougars location",
+    "where to find mountain cougar"
+   ],
+   "answer": "The mountain cougars prowl the rocky ridges and rolling hills lying just to the south of Camp Narache on the Red Cloud Mesa.",
+   "q": "Where are the mountain cougars found?"
+  },
+  {
+   "aliases": [
+    "how to impress chief hawkwind",
+    "chief hawkwind son"
+   ],
+   "answer": "Grull Hawkwind is the son of Chief Hawkwind, the tribal leader at Camp Narache. Grull promises to speak to his father on your behalf and share word of your generous deeds if you supply the needed pelts.",
+   "q": "What is Grull Hawkwind's connection to Chief Hawkwind?"
+  },
+  {
+   "aliases": [
+    "tauren hunting philosophy",
+    "why hunt in mulgore"
+   ],
+   "answer": "Among the tauren, hunting is never treated as sport or trophy taking. Every beast taken from the land is meant to sustain the community, honoring the plains by using hide, meat, and bone to preserve the tribe's survival.",
+   "q": "What does this hunt teach about tauren tradition?"
+  },
+  {
+   "aliases": [
+    "are cougar pelts valuable",
+    "why are cougar pelts prized"
+   ],
+   "answer": "Cougar pelts are thick, durable, and well suited to withstand the elements on the windswept plains. Because they provide warmth for young children and material strong enough to patch dwellings, they are prized by village elders.",
+   "q": "Why are mountain cougar pelts considered highly valued?"
+  }
+ ],
+ "keywords": [
+  "camp narache",
+  "chief hawkwind",
+  "grull hawkwind",
+  "mountain cougar pelts",
+  "red cloud mesa",
+  "tauren hunting",
+  "the hunt continues"
+ ],
+ "related": [
+  "npc:grull-hawkwind",
+  "subzone:camp-narache",
+  "npc:chief-hawkwind"
+ ],
+ "sections": [
+  {
+   "body": "In Camp Narache, young hunters are taught that taking a beast is never an idle pursuit or a search for trophies. Grull Hawkwind charges fledgling adventurers with venturing into the southern hills of Red Cloud Mesa to track down mountain cougars. Rather than proving martial prowess alone, the task emphasizes responsibility to the community, showing that true hunters must provide essential provisions for their people.",
+   "spoiler": 0,
+   "title": "The Purpose of the Hunt"
+  },
+  {
+   "body": "Life on the mesa demands durable materials to withstand the open elements. Grull explains that the cougar hides are urgently needed to sew clothing for the tribe's children and to mend worn hide tents throughout Camp Narache. Proving oneself capable of securing these prized pelts earns the gratitude of the elders, and Grull promises to bring word of the hunter's selfless contributions directly to his father, Chief Hawkwind.",
+   "spoiler": 0,
+   "title": "Shelter for the Tribe"
+  }
+ ],
+ "summary": "The Hunt Continues is an early rite of passage assigned by Grull Hawkwind in Camp Narache. It tasks aspiring hunters with gathering mountain cougar pelts from the southern hills to clothe the tribe's children and mend their tents.",
+ "attribution": [
+  "In-game quest text: The Hunt Continues"
+ ]
+}

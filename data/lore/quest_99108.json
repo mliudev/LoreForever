@@ -1,0 +1,108 @@
+{
+ "key": "quest:99108",
+ "type": "quest",
+ "name": "Sparring Match",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99108
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "While Tang Stonehoof cannot train non-warriors in their specific disciplines, his sparring ring emphasizes the warrior philosophy: that combat fundamentals, courage, and sharpening one's martial resolve benefit any adventurer."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "Tang Stonehoof uses traditional tauren turns of phrase like 'sharpen their horns' to describe testing one's mettle, welcoming any willing adversary into the sparring arena regardless of their origins."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is tang stonehoof",
+    "tang stonehoof lore",
+    "quest giver"
+   ],
+   "answer": "Tang Stonehoof is a combat instructor who oversees the local sparring arena. Even for those walking paths other than that of a warrior, Tang offers combat tutelage and invites promising adventurers to test their mettle in direct battle against novices or willing peers.",
+   "q": "Who is Tang Stonehoof?"
+  },
+  {
+   "aliases": [
+    "sparring match goal",
+    "what to do sparring match",
+    "who to fight"
+   ],
+   "answer": "The trial requires defeating three opponents in the arena\u2014either other willing adventurers in duels or Novice Warriors stationed there under Tang Stonehoof's guidance. The purpose is to demonstrate readiness and martial ability in direct combat.",
+   "q": "What does Tang Stonehoof require for the sparring match?"
+  },
+  {
+   "aliases": [
+    "can non warriors do this",
+    "why sparring for other classes",
+    "not a warrior"
+   ],
+   "answer": "Tang Stonehoof believes that every adventurer, regardless of whether they wield blade, bow, or magic, benefits from facing direct combat. In his arena, lineage and specific class disciplines matter far less than the will to test oneself and hone martial resolve.",
+   "q": "Why does a warrior instructor train other classes?"
+  },
+  {
+   "aliases": [
+    "where fight novices",
+    "arena location",
+    "where is the ring"
+   ],
+   "answer": "The contest takes place right before Tang Stonehoof in the open sparring arena, where novice combatants train and willing challengers can face each other on equal footing.",
+   "q": "Where does the sparring match take place?"
+  },
+  {
+   "aliases": [
+    "can i fight players",
+    "duel players for quest",
+    "novice warriors or players"
+   ],
+   "answer": "Yes. Tang Stonehoof accepts victories over either Novice Warriors training in the arena or other adventurers defeated in formal duels, caring only that you test your abilities against willing adversaries.",
+   "q": "Can you duel other players instead of the novice warriors?"
+  },
+  {
+   "aliases": [
+    "sparring match reward",
+    "what does tang give you"
+   ],
+   "answer": "Upon proving yourself against three adversaries, Tang acknowledges your skill with hope for the new generation, offering medical supplies to tend your wounds in preparation for the harsh road ahead.",
+   "q": "What does Tang Stonehoof say when you complete the match?"
+  }
+ ],
+ "keywords": [
+  "arena",
+  "combat training",
+  "duel",
+  "novice warrior",
+  "sparring",
+  "sparring match",
+  "tang stonehoof"
+ ],
+ "related": [
+  "topic:warrior",
+  "subzone:vice"
+ ],
+ "sections": [
+  {
+   "body": "Overseen by the veteran instructor Tang Stonehoof, the sparring match invites adventurers of all backgrounds into the ring to test their mettle. Though Tang specifically acknowledges those who walk paths outside the warrior tradition, he maintains that martial discipline and direct battle offer universal wisdom to any traveler in a dangerous world.",
+   "spoiler": 0,
+   "title": "The Sparring Grounds"
+  },
+  {
+   "body": "Within Tang Stonehoof's arena, distinctions of lineage and preferred weaponry fall away. Whether wielding sword, bow, or spellcraft, challengers are tasked with proving their combat readiness by defeating three willing opponents\u2014either the training Novice Warriors or fellow adventurers in duels. Overcoming these bouts earns Tang's respect and bandages to dress the wounds of honest combat.",
+   "spoiler": 0,
+   "title": "Sharpening the Horns"
+  }
+ ],
+ "summary": "Sparring Match is an introductory trial overseen by the martial instructor Tang Stonehoof. Designed to test newcomers regardless of their class or background, the trial challenges adventurers to defeat three arena novices or fellow duelists to prove their mettle in direct combat.",
+ "attribution": [
+  "In-game quest text: Sparring Match"
+ ]
+}

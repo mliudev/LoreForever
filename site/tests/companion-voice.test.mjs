@@ -13,7 +13,8 @@ import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { setupBilling, planFor, poolWindow, userSpend, overTextCap, PLANS, LEGEND_BEST_PER_MONTH, LEGEND_BEST_MODEL,
   STARTER_ANSWERS } from "../lib/billing.js";
 import { allowance, answerBudgetUsed } from "../lib/companion-answers.js";
-import { willoPick } from "../lib/companion-voice.js";
+import { willoPick, AZEROTH_STUDIO, AZEROTH_PICKS } from "../lib/companion-voice.js";
+import { CHARACTER_VOICES } from "../lib/character-voices.js";
 
 import { d1 } from "./helpers.mjs";
 
@@ -133,6 +134,41 @@ test("Willo speaks as Sprite; Champion and Legend in the voice the player picks,
   assert.equal(await idOf(legend, "fenlight"), "humble-aspen-1573__design-voice-22a59081", "Fenlight's finest voice");
   // A hosted voice on a plan without a choice is always Sprite.
   assert.equal(willoPick({ voice: { voice: "chatterbox", choice: false } }, "moonwell"), "sprite");
+});
+
+test("Voices of Azeroth (LOR-609): Champion and Legend may pick a people's voice as Willo's; NPCs keep their own", async () => {
+  const champion = await companionPlayer("champ", "champion"), legend = await companionPlayer("legend", "legend");
+  const hero = await companionPlayer("hero", "hero");
+  const idOf = async (player, body) => {
+    const said = await player.speak({ text: "Lok'tar ogar.", ...body });
+    assert.equal(said.status, 200);
+    return [calls.at(-1).provider, calls.at(-1).body.voice_id ?? calls.at(-1).body.voiceId, said.voice];
+  };
+  assert.equal(AZEROTH_PICKS.length, 22);
+  // Champion's studio voice: the slot's Chatterbox clone; Legend's finest: its Inworld clone, the same reference.
+  assert.deepEqual(await idOf(champion, { pick: "dwarf-male" }), ["deepinfra", AZEROTH_STUDIO["dwarf-male"], null]);
+  assert.deepEqual(await idOf(legend, { pick: "nightelf-female" }),
+    ["inworld", CHARACTER_VOICES["nightelf-female"].inworld, null]);
+  // Her own lines in the borrowed voice too, kept by the companion under its name.
+  assert.deepEqual(await idOf(champion, { pick: "orc-female", line: true, text: "Westfall was farmland once." }),
+    ["deepinfra", AZEROTH_STUDIO["orc-female"], "studio:orc-female"]);
+  // Her male partners (LOR-610) are her own picks too, in both voices.
+  assert.deepEqual((await idOf(champion, { pick: "puck" })).slice(0, 2), ["deepinfra", "rbo1dwi5xclqs2rgluhk"]);
+  assert.deepEqual((await idOf(legend, { pick: "kestrel" })).slice(0, 2),
+    ["inworld", "humble-aspen-1573__design-voice-b10f5442"]);
+  // Hero has no choice, and a slot that isn't one of ours is no pick: Sprite.
+  assert.deepEqual((await idOf(hero, { pick: "dwarf-male" })).slice(0, 2), ["deepinfra", "willo-studio"]);
+  assert.deepEqual((await idOf(champion, { pick: "kobold-male" })).slice(0, 2), ["deepinfra", "willo-studio"]);
+  assert.equal(willoPick({ voice: { voice: "chatterbox", choice: true } }, "troll-male"), "troll-male");
+  assert.equal(willoPick({ voice: { voice: "chatterbox", choice: false } }, "troll-male"), "sprite");
+  // An orc who answers in person keeps an orc's own voice, whatever Willo borrows (LOR-477).
+  assert.deepEqual((await idOf(champion, { voice: "orc-male", pick: "dwarf-female" })).slice(0, 2),
+    ["inworld", CHARACTER_VOICES["orc-male"].inworld]);
+  // A slot whose rights aren't cleared any more is never said, for Willo either: Sprite instead.
+  env.CHARACTER_VOICES = JSON.stringify({ "dwarf-male": { ...CHARACTER_VOICES["dwarf-male"], provenance: "a trailer" } });
+  try {
+    assert.deepEqual((await idOf(champion, { pick: "dwarf-male" })).slice(0, 2), ["deepinfra", "willo-studio"]);
+  } finally { delete env.CHARACTER_VOICES; }
 });
 
 test("Champion: every reply in Chatterbox, counted once across its pieces, its cost apart from the text cap", async () => {

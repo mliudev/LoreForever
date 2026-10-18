@@ -12,6 +12,7 @@ export const INVITES = {
   addon: "PJm2w3kvEe",    // the add-on's /lore help (no invite of its own; told apart by src here)
   voices: "PJm2w3kvEe",   // the Voices page and the voice-pack guide (same: counted here, shares the site invite)
   translate: "PJm2w3kvEe", // the Translate page, the translator kit and its forms (same: shares the site invite)
+  email: "PJm2w3kvEe",    // the thank-you email to a new subscriber (lib/thanks.js; same: shares the site invite)
 };
 
 export const SETUP =

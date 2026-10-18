@@ -1,0 +1,108 @@
+{
+ "key": "quest:97924",
+ "type": "quest",
+ "name": "Camping 101: Skinning",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97924
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Skinners learning to build a field camp are advised to consult a cook, as no campsite is complete without a basic campfire to keep warm and prepare meals."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Novice Alliance skinners visiting Elwynn Forest are directed to Helene Peltskinner in Goldshire to expand their wilderness survival craft."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is camping 101 skinning",
+    "what does this quest do",
+    "skinning camp chair quest"
+   ],
+   "answer": "Camping 101: Skinning is an introductory training task that directs proficient skinners to learn how to craft a Camp Chair from harvested beast hides, expanding their wilderness survival capabilities.",
+   "q": "What is Camping 101: Skinning?"
+  },
+  {
+   "aliases": [
+    "who teaches camp chair",
+    "helene peltskinner location",
+    "where to turn in camping 101 skinning"
+   ],
+   "answer": "Helene Peltskinner, a leatherworking and skinning trainer located in Goldshire within Elwynn Forest, teaches skilled skinners how to craft the chair.",
+   "q": "Who teaches skinners how to craft a Camp Chair?"
+  },
+  {
+   "aliases": [
+    "what does a camp chair do",
+    "why make a camp chair",
+    "camp chair purpose"
+   ],
+   "answer": "A Camp Chair provides an adventurer with a comfortable seat at their campsite to rest and recuperate, ensuring they stay in peak condition for travel and combat in the wild.",
+   "q": "What is the purpose of crafting a Camp Chair?"
+  },
+  {
+   "aliases": [
+    "can i camp in town",
+    "where can i place camp chair",
+    "camping in goldshire"
+   ],
+   "answer": "Town residents generally dislike campsites being pitched in the middle of settlements. Adventurers are expected to venture out into the wilderness before setting up their chairs and camps.",
+   "q": "Where can adventurers set up camp?"
+  },
+  {
+   "aliases": [
+    "what do i need for a camp",
+    "do i need a fire to camp",
+    "campfire requirement"
+   ],
+   "answer": "Every proper campsite requires a basic campfire before setting up gear. Adventurers without fire-making knowledge are encouraged to learn the culinary arts from a local cook.",
+   "q": "What else is required to build a complete campsite?"
+  },
+  {
+   "aliases": [
+    "who can learn camp chair",
+    "can non skinners do this",
+    "skinning requirement camping"
+   ],
+   "answer": "This particular camping craft is tailored for skinners who have demonstrated proficiency in harvesting hides from fallen beasts, putting their leather gathered in the field to practical survival use.",
+   "q": "Who is eligible to learn this camping craft?"
+  }
+ ],
+ "keywords": [
+  "camp chair",
+  "campfire",
+  "camping 101: skinning",
+  "goldshire",
+  "helene peltskinner",
+  "skinning",
+  "wilderness camping"
+ ],
+ "related": [
+  "subzone:goldshire"
+ ],
+ "sections": [
+  {
+   "body": "For wilderness hunters and scouts, the art of harvesting beast hides provides more than trade goods and armor scraps. Seasoned skinners can fashion field amenities like a Camp Chair, allowing travelers to sit, rest their limbs, and maintain peak physical condition during long treks through dangerous lands. Helene Peltskinner in Goldshire instructs proficient skinners on how to turn raw beast pelts into comfortable campsite seating.",
+   "spoiler": 0,
+   "title": "Creature Comforts in the Wild"
+  },
+  {
+   "body": "Setting up a field rest requires respect for local settlements and proper outdoor preparation. Most townspeople frown upon adventurers pitching personal camps in the town square, requiring travelers to head into the wilderness before unrolling their gear. Furthermore, no field site is truly viable without a campfire, leading many skinners to study basic culinary arts to master fire-building.",
+   "spoiler": 0,
+   "title": "Rules of the Campsite"
+  }
+ ],
+ "summary": "Camping 101: Skinning is an introductory instruction task for proficient skinners traveling through Elwynn Forest. It directs adventurers to Helene Peltskinner in Goldshire to learn how to fashion a Camp Chair out of harvested hides. Learning to craft personal camp furnishings allows wilderness travelers to rest and recuperate far beyond the safety of settled towns.",
+ "attribution": [
+  "In-game quest text: Camping 101: Skinning"
+ ]
+}

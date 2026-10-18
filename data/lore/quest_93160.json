@@ -1,0 +1,102 @@
+{
+ "key": "quest:93160",
+ "type": "quest",
+ "name": "The Forest's Bounty",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93160
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Gathering Shadowgale acorns showcases how local wild nuts can be roasted into simple forest fare, making it of keen interest to culinary foragers."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives the forest bounty quest",
+    "who wants acorns",
+    "quest giver forests bounty"
+   ],
+   "answer": "A nervous forager resting near Shadowgale Forest requests assistance. Having collected all the safe acorns nearby, they need a hardy adventurer to venture deeper into the woods where dangerous wildlife roams.",
+   "q": "Who asks you to gather the acorns?"
+  },
+  {
+   "aliases": [
+    "where are shadowgale acorns",
+    "acorn location",
+    "shadowgale forest acorns"
+   ],
+   "answer": "Shadowgale Acorns are scattered across the ground beneath the canopy of Shadowgale Forest. Foragers must search the forest floor while staying watchful for hostile predators lurking among the trees.",
+   "q": "Where are the acorns found?"
+  },
+  {
+   "aliases": [
+    "why dangerous shadowgale forest",
+    "what raptor birds",
+    "why is gathering acorns dangerous"
+   ],
+   "answer": "The forest floor is prowled by predatory raptor-like birds. These aggressive creatures make straying far from camp extremely hazardous for ordinary folk who lack martial training to defend themselves.",
+   "q": "Why is collecting acorns dangerous here?"
+  },
+  {
+   "aliases": [
+    "what are shadowgale acorns for",
+    "roasted acorns",
+    "why gather acorns"
+   ],
+   "answer": "The acorns serve as a hearty wild food source. Once collected, they are meant to be roasted over a fire into a warm, nutty snack to share with those willing to brave the forest beasts.",
+   "q": "What are the acorns used for?"
+  },
+  {
+   "aliases": [
+    "what raptor bird thing",
+    "raptor birds in shadowgale",
+    "forest raptors"
+   ],
+   "answer": "The quest giver describes them as dangerous 'raptor-bird things' hunting in Shadowgale Forest. These avian or reptilian predators are large enough and vicious enough to view an unwary traveler as their next meal.",
+   "q": "What are the raptor-bird creatures mentioned in the forest?"
+  },
+  {
+   "aliases": [
+    "are shadowgale acorns edible raw",
+    "how to cook shadowgale acorns",
+    "eating forest acorns"
+   ],
+   "answer": "While tough or bitter off the ground, the forager specifically notes that Shadowgale Acorns become a delicious treat once properly roasted over heat.",
+   "q": "How are the acorns prepared for eating?"
+  }
+ ],
+ "keywords": [
+  "acorns",
+  "cooking",
+  "foraging",
+  "raptor-bird",
+  "shadowgale acorns",
+  "shadowgale forest",
+  "the forest's bounty"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A cautious forager seeking food in Shadowgale Forest finds themselves in a bind. While acorns lie scattered across the woodland floor, the surrounding trees are prowled by fierce, raptor-like creatures. Having gathered whatever fell near safety, the forager depends on passing travelers to venture into the wilder groves so that neither goes hungry.",
+   "spoiler": 0,
+   "title": "A Perilous Foraging Run"
+  },
+  {
+   "body": "Shadowgale Acorns provide hearty sustenance for those who know how to prepare them. Though bitter or tough in the raw, roasting them over a crackling fire transforms the wild harvest into a rich, roasted treat. Braving the predatory birds among the timber turns a simple woodland scavenge into a warm meal shared in the wilderness.",
+   "spoiler": 0,
+   "title": "Roasting the Harvest"
+  }
+ ],
+ "summary": "The Forest's Bounty is a local quest in Shadowgale Forest where a timid forager asks for help collecting fallen acorns. Fierce predatory raptor-birds prowl the deeper woods, making harvesting too perilous without an adventurer's protection. The gathered acorns are then roasted into a tasty forest meal.",
+ "attribution": [
+  "In-game quest text: The Forest's Bounty"
+ ]
+}

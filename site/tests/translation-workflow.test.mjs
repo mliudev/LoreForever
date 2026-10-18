@@ -51,6 +51,12 @@ test('stale pending edit is retained but never replaces the current translation 
   assert.match(h.row('zone:elwynn/n').querySelector('.td-note').textContent, /Your saved edit is kept/);
   assert.equal(h.calls.filter(c => c.url === '/api/translations/save').length, 0);
 });
+test('a rejected edit keeps its words under the current text, with why (LOR-621)', async () => {
+  const h = await setup({ edits: [{ string_id: 'zone:elwynn/n', en: 'Elwynn Forest', text: 'Bad proposal', status: 'rejected', reason: 'name left in English' }] });
+  assert.equal(h.row('zone:elwynn/n').querySelector('textarea').value, 'French Elwynn Forest');
+  assert.equal(h.row('zone:elwynn/n').querySelector('details').children[1].textContent, 'Bad proposal');
+  assert.match(h.row('zone:elwynn/n').querySelector('.td-note').textContent, /^Not used: name left in English\./);
+});
 test('failed check stays unsaved and prevents returning to recording', async () => {
   const h = await setup({ saveReply: { ok: false, error: 'Offline' } });
   await h.row('zone:elwynn/n').querySelector('.td-lgtm').fire('click');
@@ -72,11 +78,17 @@ test('malformed entry/line/voice input never creates arbitrary return paths', ()
   const context = workflow.recordingContext(new URLSearchParams('entry=zone:elwynn&line=zone:other%23faq1&voice=../evil'));
   assert.deepEqual(context, { entry: 'zone:elwynn', line: 'zone:elwynn', voice: '' });
   assert.equal(workflow.usableEdit({ status: 'new', text: 'French' }, 'English'), false);
-  assert.match(workflow.editNote({ status: 'pulled' }, 'English', 'French', false)[0], /does not confirm a merge or release/);
+  // A pulled edit says what became of it: in the language, or not used and why (LOR-621), never one word for both.
+  assert.deepEqual(workflow.editNote({ status: 'pulled', outcome: 'landed', text: 'Mine' }, 'English', 'Other', false), ['In the language.', 'td-ok']);
+  assert.deepEqual(workflow.editNote({ status: 'pulled', outcome: 'unusable', reason: 'the English changed since' }, 'English', 'French', false),
+    ['Not used: the English changed since.', 'td-no']);
+  assert.match(workflow.editNote({ status: 'pulled', outcome: 'superseded' }, 'English', 'French', false)[0], /^Not used: a later edit/);
+  assert.equal(workflow.editNote({ status: 'pulled', text: 'French' }, 'English', 'French', false)[0], 'In the language.');
+  assert.match(workflow.editNote({ status: 'pulled', text: 'Mine' }, 'English', 'French', false)[0], /^Not used: this line has changed since/);
   assert.match(workflow.editNote({ status: 'pulled' }, 'English', '', false, true)[0], /English changed: translate this line again/);
   assert.equal(workflow.editNote({ status: 'rejected', reason: 'name left in English.' }, 'English', 'French', false)[0],
     'Not used: name left in English. Fix it and save again.');
-  assert.match(workflow.editNote({ status: 'rejected', reason: null }, 'English', 'French', false)[0], /wasn't used; this is the current text/);
+  assert.match(workflow.editNote({ status: 'rejected', reason: null }, 'English', 'French', false)[0], /wasn't used. It's below; save it again/);
 });
 test('failed autosave preserves the text and language when the contributor tries to switch', async () => {
   const h = await setup({ saveReply: { ok: false, error: 'Offline' } }); const box = h.row('zone:elwynn/n').querySelector('textarea');

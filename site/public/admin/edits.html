@@ -3,46 +3,26 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
 <meta name="robots" content="noindex, nofollow">
-<title>Translation edits - Lore Forever</title>
+<title>Translation edits - Dashboard - Lore Forever</title>
 <link rel="icon" href="/img/logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261016t">
-<link rel="stylesheet" href="/admin.css">
+<link rel="stylesheet" href="/style.css?v=20261017a">
+<link rel="stylesheet" href="/admin.css?v=20261017d">
 </head>
-<body>
-
-<header class="top">
-  <div class="wrap">
-    <span class="crumb"><a href="/">Lore Forever</a> &rsaquo; <a href="/admin">Dashboard</a> &rsaquo; Translation edits</span>
-  </div>
-</header>
-
-<!-- Sign-in, as on /admin: the same key, kept the same way, so signing in on one page signs in the other. -->
-<main class="wrap ad-login ad-panel" id="login" hidden>
-  <h1 style="font-size:1.6rem">Translation edits</h1>
-  <form id="login-form">
-    <label for="key">Admin key</label>
-    <input type="password" id="key" autocomplete="current-password" required>
-    <label class="ad-check"><input type="checkbox" id="remember"> Remember on this device</label>
-    <button type="submit" class="btn-small">Open</button>
-    <p class="ad-error" id="login-error" role="alert" hidden></p>
-  </form>
-</main>
+<body data-page="edits" data-title="Translation edits">
+<!-- The header, tabs, sign-in and title bar: admin-shell.js, the same on every admin page. -->
+<script src="/admin-shell.js?v=20261017d"></script>
 
 <!-- Every edit from /translate/dashboard (functions/api/translations/[action].js: summary, review, decide), a page at a
      time. No approval step: a saved edit goes into the language with the next `lore.kit pull` unless it's rejected
      here. The filters live in the address (?status=&locale=&user=&q=&page=), so /admin links straight to a language
      or a translator and Refresh keeps the view. -->
-<main class="wrap ad ad-wide" id="dash" hidden>
-  <div class="ad-bar">
-    <h1>Translation edits</h1>
-    <span class="ad-meta"><span id="updated"></span> &middot; <button type="button" id="refresh">Refresh</button>
-      &middot; <button type="button" id="signout">Sign out</button></span>
-  </div>
-  <p class="ad-count" style="margin:6px 0 0">No approval step: every saved edit goes into its language with the next
+<main class="wrap ad" id="dash" hidden>
+  <p class="ad-count ad-intro">No approval step: every saved edit goes into its language with the next
     <code>lore.kit pull</code> unless it's rejected here (spam, vandalism, a native speaker's report on Discord).
     Restore undoes a reject. Pulled edits are already in <code>data/i18n</code> and don't change here.</p>
 
@@ -93,6 +73,6 @@
 
 <!-- The page's script is a file: /admin's Content-Security-Policy (public/_headers) runs no inline script.
      Bump ?v= when admin-edits.js changes, since browsers keep .js for 4 hours on loreforeverwow.com. -->
-<script src="/admin-edits.js?v=20261012"></script>
+<script src="/admin-edits.js?v=20261017d"></script>
 </body>
 </html>

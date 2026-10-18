@@ -12,11 +12,35 @@
 //                      way without flying (flight points must be found first), and the zones to walk through with
 //                      the roads and passes between them: ROADS below, in our words from the zones' pages on Warcraft
 //                      Wiki (the Classic ones; the Forever ones for the Riverglades and Shen'dralas).
-// A character's reply gets none: these give the game's map coordinates.
+// A character's reply gets none: these give the game's map coordinates. Each fact carries its sources, so a typed
+// question the companion wants researched is answered from it instead (LOR-614; answer.js, lib/forever-knowledge.js
+// factSources): a service, the tables the towns are built from; the way there, the zones' wiki pages its roads come
+// from and the client tables of the flights and ships it takes.
 import { TOWNS, FLIGHTS } from "./forever-services.js";
 
 export const PLACE_FACTS_MAX_BYTES = 1400;
 const MAX_LISTED = 3;
+export const SERVICE_SOURCES = [
+  { title: "WoW Forever's own client data: its map areas and city districts", url: "https://wago.tools/db2/WMOAreaTable" },
+  { title: "The original game's world database (VMaNGOS, patch 1.12)", url: "https://github.com/vmangos/core" },
+];
+const FLIGHT_SOURCE = { title: "WoW Forever's own client data: its flight paths", url: "https://wago.tools/db2/TaxiPath" };
+const RIDE_SOURCE = { title: "WoW Forever's own client data: its boat and zeppelin paths", url: "https://wago.tools/db2/TaxiPathNode" };
+// The zone's page the roads come from: the Classic one where the wiki keeps one apart from today's.
+const FOREVER_PAGES = { "Mount Hyjal": "Mount Hyjal (Forever)" };
+const PLAIN_PAGES = new Set(["Stormwind City", "Ironforge", "Darnassus", "Orgrimmar", "Undercity", "Thunder Bluff",
+  "Moonglade", "Riverglades", "Shen'dralas", "Zephras Isle"]);
+const zonePage = zone => {
+  const page = FOREVER_PAGES[zone] || (PLAIN_PAGES.has(zone) ? zone : `${zone.replace(/^The /, "")} (Classic)`);
+  return { title: `Warcraft Wiki: ${page}`, url: `https://warcraft.wiki.gg/wiki/${encodeURIComponent(page.replace(/ /g, "_")).replace(/%2F/g, "/")}` };
+};
+// A route's sources: the pages of the zones it walks into (the destination first), then the tables of its rides.
+function routeSources(...paths) {
+  const steps = paths.flat().filter(Boolean);
+  const walked = [...new Set(steps.filter(e => !e.ride).map(e => e.to).reverse())].slice(0, 3);
+  return [...walked.map(zonePage), ...(steps.some(e => e.ride?.fly) ? [FLIGHT_SOURCE] : []),
+    ...(steps.some(e => e.ride && !e.ride.fly) ? [RIDE_SOURCE] : [])];
+}
 
 // Zones you can walk between: [zone, zone, which way the second lies from the first, the road or pass going there,
 // and coming back when that reads differently].
@@ -298,14 +322,15 @@ function serviceFacts(parts, roles, place) {
   for (const role of roles) {
     const line = town && listing(town, role, faction);
     if (line) {
-      facts.push({ title: `${town}: ${role}`, text: line });
+      facts.push({ title: `${town}: ${role}`, text: line, sources: SERVICE_SOURCES });
       continue;
     }
     // Not in that town, or no town named: the zone's towns that have it, else the nearest.
     const lead = town ? `${has(town, "", true)} ${role}. ` : "";
     const here = townsIn(zone).filter(t => t !== town && !hostile(t, faction) && hasRole(t, role, faction));
     if (here.length) {
-      facts.push({ title: `${role} in ${zone}`, text: lead + here.slice(0, 2).map(t => listing(t, role, faction)).join(" ") });
+      facts.push({ title: `${role} in ${zone}`, text: lead + here.slice(0, 2).map(t => listing(t, role, faction)).join(" "),
+        sources: SERVICE_SOURCES });
       continue;
     }
     const offers = town && town !== zone ? summary(town, faction) : "";
@@ -313,7 +338,8 @@ function serviceFacts(parts, roles, place) {
     const there = near.map(({ town: t, path }) => `${listing(t, role, faction)} The way: ${joinSteps(path.steps)}.`);
     const none = town ? lead : `No town in ${the(zone)} has ${article(role)} ${role}. `;
     facts.push({ title: `${role} near ${zone}`,
-      text: `${none}${offers ? `${offers} ` : ""}${there.length ? `The nearest: ${there.join(" ")}` : ""}`.trim() });
+      text: `${none}${offers ? `${offers} ` : ""}${there.length ? `The nearest: ${there.join(" ")}` : ""}`.trim(),
+      sources: [...SERVICE_SOURCES, ...routeSources(...near.map(n => n.path.steps))] });
   }
   return facts;
 }
@@ -388,7 +414,9 @@ function routeFacts(parts, target, origin) {
   if (!from || !places().zones.has(from) || !places().zones.has(to)) return [];
   const label = target.town || target.landmark || "";
   const where = label ? `${label} is in ${the(to)}${target.town ? townAt(target.town) : ""}${ISLANDS[label] ? `, ${ISLANDS[label]}` : ""}.` : "";
-  if (from === to) return where ? [{ title: `Where ${label} is`, text: where }] : [];
+  // Where a town is comes from its services' places; Feathermoon's ferry from the client's boat paths.
+  const placed = [...(target.town ? SERVICE_SOURCES : [zonePage(to)]), ...(ISLANDS[label] ? [RIDE_SOURCE] : [])];
+  if (from === to) return where ? [{ title: `Where ${label} is`, text: where, sources: placed }] : [];
   const route = fly => {
     const all = shortest(from, faction, { fly });
     let best = all.get(to);
@@ -417,7 +445,8 @@ function routeFacts(parts, target, origin) {
     const roads = (places().edges.get(to) || []).filter(e => !e.ride && e.dir).map(e => `${the(e.to)} to the ${e.dir}`);
     if (roads.length) text += ` ${The(to)} borders ${list(roads)}.`;
   }
-  return [{ title: `The way to ${label || to}`, text }];
+  const sources = [...routeSources(best.steps, ground?.steps, walk || [], direct ? [direct] : []), ...(where ? placed : [])];
+  return [{ title: `The way to ${label || to}`, text, sources: [...new Map(sources.map(s => [s.url, s])).values()] }];
 }
 
 // A question about the way somewhere ("how do I get to", "which way to", "where is <zone>"), or about where an NPC the

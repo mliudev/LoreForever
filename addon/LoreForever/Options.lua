@@ -48,8 +48,8 @@ Options.DEFAULTS = {
   -- The small Contribute button on quest, gossip and book windows (Capture.lua). Defaults are written into
   -- SavedVariables, so older installs (saved off) are turned on once by Log.Init's featuresOn.
   contributeButtons = true,
-  -- "Suggest Willo in the chat": one line about the companion app when the add-on has no answer, once a play session,
-  -- until it's installed (Companion.SuggestWillo, LOR-459).
+  -- "Suggest Willo": until the companion app is installed, her icon by Journey (LOR-601) and one line about her when
+  -- the add-on has no answer, once a play session (Companion.SuggestWillo, LOR-459).
   getWillo = true,
   language = "auto",      -- "auto" (the game client's language), "enUS" or a language pack's locale
   -- Narration voices: voiceOrder (pack add-on names, "auto" = the default pack) and voiceOff (unticked ones) are
@@ -587,7 +587,7 @@ local function rows()
     { "capture", L["Keep the quest text you see"], L["Keep the quest, gossip and book text Forever shows you, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it."] },
     { "contributeButtons", L["Contribute buttons"], L["A small button on quest, gossip and book windows whose text Lore Forever doesn't have yet. Click it for a link to share that text."] },
     { "tips", L["Tips at login"], L["Now and then at login, a tip in chat about something Lore Forever can do."] },
-    { "getWillo", L["Suggest %s in the chat"]:format(ns.COMPANION_NAME), L["Until you install %s, Lore Forever's free companion app, one line in the chat says where to get it when Lore Forever has no answer, at most once a session. Untick to hide it."]:format(ns.COMPANION_NAME) },
+    { "getWillo", L["Suggest %s"]:format(ns.COMPANION_NAME), L["Until you install %s, Lore Forever's free companion app, her small glowing icon sits beside Journey, and one line in the chat says where to get her when Lore Forever has no answer, at most once a session. Untick to hide both."]:format(ns.COMPANION_NAME) },
   }
   -- No Suggest Willo checkbox until Willo launches (Companion.OFFER_WILLO); the saved setting is kept as it is.
   if not (ns.Companion and ns.Companion.OFFER_WILLO) then
@@ -765,6 +765,7 @@ function Options.Create()
       end
       if (key == "floatPlayer" or key == "reportCross") and ns.UI.UpdateNowPlaying then ns.UI.UpdateNowPlaying() end
       if key == "onDemand" then ns.Voice.SetOnDemand(self:GetChecked()) end
+      if key == "getWillo" and ns.UI.UpdateWilloIcon then ns.UI.UpdateWilloIcon() end
       if key == "questDialogue" then ns.Voice.SetQuestDialogue(self:GetChecked()) end
       if key == "journey" and ns.Journey then ns.Journey.OnToggle() end
       if key == "liveStrip" then   -- the player's own choice, over Willo's yes from now on (Strip.On)

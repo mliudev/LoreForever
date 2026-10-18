@@ -656,6 +656,16 @@ dd { margin: 0; }
 .td-note.td-no { color: #ff7b6b; }
 .td-copy { font-size: 0.82rem; }
 .ac-langs { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0 0 12px; }
+/* My contributions (/account, LOR-621): a fold per kind, each item with what became of it. */
+.ac-mine details { border-top: 1px solid var(--line); padding: 8px 0; }
+.ac-mine summary { cursor: pointer; color: var(--gold); }
+.ac-mine ul { list-style: none; margin: 8px 0 0; padding: 0; }
+.ac-mine li { padding: 8px 0; border-top: 1px dashed var(--line); overflow-wrap: anywhere; }
+.ac-mine q { display: block; margin: 4px 0 0; color: var(--text); quotes: none; }
+.ac-mine small { display: block; color: var(--muted); }
+.ac-st { font-size: 0.88rem; color: var(--muted); }
+.ac-st-shipped, .ac-st-in, .ac-st-accepted, .ac-st-done { color: #1eff00; }
+.ac-st-unused, .ac-st-rejected { color: #ff7b6b; }
 .ac-langs .fb-check { margin: 0; }
 .tl-credits { font-size: 0.88rem; }
 .tl-credits span { color: var(--muted); }

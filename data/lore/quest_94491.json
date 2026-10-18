@@ -1,0 +1,105 @@
+{
+ "key": "quest:94491",
+ "type": "quest",
+ "name": "The Fate of the Den",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94491
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druids feel the weight of this tragedy acutely, as the fallen at the den were their fellows whose secluded refuge was betrayed to hostile cultists."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "lotheluum",
+    "who is lotheluum",
+    "lotheluum npc"
+   ],
+   "answer": "Lotheluum is a figure residing in Valanaar who receives reports concerning the druid den. Upon learning of the assault and reviewing the recovered missive, he expresses profound grief for his fallen fellows and vows to bring the evidence of betrayal directly to the High Elder.",
+   "q": "Who is Lotheluum?"
+  },
+  {
+   "aliases": [
+    "what happened at the den",
+    "druid den attack",
+    "fate of the den backstory"
+   ],
+   "answer": "The druid den suffered a devastating strike by hostile cultists, leaving many defenders dead. Although the immediate threat was suppressed with the aid of an adventurer, the surviving protectors were badly battered and discovered evidence that the attack was guided by an insider.",
+   "q": "What happened at the druid den?"
+  },
+  {
+   "aliases": [
+    "what does the missive say",
+    "den missive",
+    "traitor missive"
+   ],
+   "answer": "The missive reveals that a correspondent concealed within the settlement of Valanaar has been secretly feeding intelligence to the cult. This intelligence suggests that the deadly raid on the den was made possible through local sabotage and espionage.",
+   "q": "What does the recovered missive reveal?"
+  },
+  {
+   "aliases": [
+    "who is the high elder",
+    "valanaar high elder",
+    "high elder"
+   ],
+   "answer": "The High Elder is a prominent authority in Valanaar to whom Lotheluum answers. Due to the severe nature of the casualties and the threat of an active traitor, Lotheluum immediately escalates the missive and news of the tragedy to the High Elder.",
+   "q": "Who is the High Elder mentioned by Lotheluum?"
+  },
+  {
+   "aliases": [
+    "who attacked the den",
+    "who attacked druid den",
+    "den cultists"
+   ],
+   "answer": "The assault was carried out by members of a cult operating in the region. The cultists managed to inflict catastrophic losses on the den's inhabitants thanks to guidance from an informant sheltered in Valanaar.",
+   "q": "Who was responsible for attacking the druid den?"
+  },
+  {
+   "aliases": [
+    "why do we deliver the missive",
+    "quest giver injured",
+    "why cant the survivor go to valanaar"
+   ],
+   "answer": "The survivor at the den was too wounded to endure the trek to Valanaar after the attack. In addition to being physically unfit for the journey, the survivor stayed behind to eliminate remaining cultists while sending an adventurer to sound the alarm.",
+   "q": "Why could the survivor at the den not deliver the missive personally?"
+  }
+ ],
+ "keywords": [
+  "cultists",
+  "druid den",
+  "high elder",
+  "lotheluum",
+  "missive",
+  "the fate of the den",
+  "traitor",
+  "valanaar"
+ ],
+ "related": [
+  "topic:druid"
+ ],
+ "sections": [
+  {
+   "body": "Following a violent incursion by cultists at the druid den, the surviving defenders find themselves battered and mourning the loss of their comrades. While the immediate crisis was stabilized with outside aid, the physical and emotional devastation is immense. Those who fell cannot be restored, and the wounded survivors remain in no condition to undertake a long trek while lingering cultists still roam nearby.",
+   "spoiler": 0,
+   "title": "Tragedy at the Den"
+  },
+  {
+   "body": "A recovered missive confirms that the cult did not act at random; someone concealed within Valanaar has been actively leaking intelligence to them. When presented with the dispatch, Lotheluum expresses utter horror over the slaughter of his fellows and the terrifying implication that an accomplice or traitor walks free in their settlement. Determined that their sacrifice will not be forgotten, he brings the evidence straight to the High Elder.",
+   "spoiler": 1,
+   "title": "Treachery in Valanaar"
+  }
+ ],
+ "summary": "The Fate of the Den recounts the grim aftermath of a cultist assault upon a secluded druid den. An adventurer is dispatched to carry a recovered missive to Lotheluum in Valanaar, delivering news of severe casualties. The dispatch uncovers a deeply troubling reality: someone within Valanaar has been feeding vital information to the enemy.",
+ "attribution": [
+  "In-game quest text: The Fate of the Den"
+ ]
+}

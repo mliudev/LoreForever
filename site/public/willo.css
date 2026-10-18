@@ -14,6 +14,9 @@
   background: var(--h-wisp-wash); color: var(--h-text); box-shadow: 0 0 24px -10px #3a5cf0; }
 .bw .w-shared p { margin: 0; font-size: 1rem; }
 .bw .w-shared strong { color: var(--h-wisp-hi); }
+/* A signed-in visitor's "Add <name> as a friend" under it (lib/friends.js friendOffer, js/friend-add.js) */
+.bw .w-friend { margin: 10px 0 0; color: var(--h-text-2); font-size: 0.95rem; }
+.bw .w-friend .btn-small { margin: 0 10px 0 0; }
 /* Touch screens (phones, mostly): Willo runs on a PC, so a button that sends her link there (js/keep-link.js). */
 .bw .wl-phone { display: none; }
 @media (hover: none) and (pointer: coarse) { .bw .wl-phone { display: grid; gap: 10px; justify-items: start; } }

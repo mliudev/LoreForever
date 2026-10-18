@@ -1,0 +1,109 @@
+{
+ "key": "quest:92467",
+ "type": "quest",
+ "name": "Call of Earth",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92467
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Communing with the elements begins with potent elixirs like saptas, grounding the shaman's spirit to commune directly with elemental spirits."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "Even while adrift high in the endless sea of clouds and estranged from the spirits of the four winds, the earth offers the first steady foundation for understanding."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is earth sapta",
+    "sapta explanation",
+    "what does sapta do"
+   ],
+   "answer": "A sapta is a special magical potion brewed to bind a shaman's spirit to a specific element. When ingested by someone with sufficient willpower, it unveils hidden elemental spirits that ordinary senses cannot perceive.",
+   "q": "What is an Earth Sapta?"
+  },
+  {
+   "aliases": [
+    "where to drink earth sapta",
+    "rise of spirits location",
+    "where is rise of spirits"
+   ],
+   "answer": "The Earth Sapta must be consumed at the Rise of Spirits, a sacred site located up the pass northeast of the quest giver. Saptas must always be consumed in sacred grounds rather than ordinary locations.",
+   "q": "Where must the Earth Sapta be consumed?"
+  },
+  {
+   "aliases": [
+    "why drink sapta at sacred place",
+    "can i drink sapta anywhere"
+   ],
+   "answer": "Saptas are potent ritual concoctions designed to link mortal spirits directly to the elements. According to shamanic teachings, they must strictly be drunk within designated sacred places to properly commune with the spirits.",
+   "q": "Why must saptas only be drunk in sacred places?"
+  },
+  {
+   "aliases": [
+    "who is child of the four winds",
+    "why child of four winds"
+   ],
+   "answer": "The elemental spirit at the Rise of Spirits greets the initiate as a child of the four winds who is searching for answers about why the winds have departed and how their favor might be restored.",
+   "q": "Why does the spirit address the seeker as a 'child of the four winds'?"
+  },
+  {
+   "aliases": [
+    "why did the winds leave",
+    "where did winds go"
+   ],
+   "answer": "The spirits of the winds have grown distant, but their exact motives and wanderings remain unknown even to the earth spirit at the Rise of Spirits.",
+   "q": "Why have the spirits of the winds left?"
+  },
+  {
+   "aliases": [
+    "why earth first",
+    "how does earth help with winds"
+   ],
+   "answer": "The earth represents unyielding strength and resolve. Even amid an endless sea of clouds, all creatures remain tethered to the earth, and mastering its stability is the first step toward regaining communion with the four winds.",
+   "q": "How does communing with the earth help someone reconnect with the winds?"
+  }
+ ],
+ "keywords": [
+  "call of earth",
+  "earth sapta",
+  "elements",
+  "four winds",
+  "rise of spirits",
+  "shaman",
+  "spirits"
+ ],
+ "related": [
+  "quest:1462"
+ ],
+ "sections": [
+  {
+   "body": "To perceive the unseen elemental world, shamans utilize saptas\u2014potent magical brews specifically formulated to align a mortal spirit with a particular elemental realm. When consumed by those possessing sufficient resolve, a sapta opens one's spiritual vision to elemental manifestations that are otherwise hidden from mortal sight. Because of their profound nature, these potions are closely guarded secrets known only to select practitioners.",
+   "spoiler": 0,
+   "title": "The Nature of the Sapta"
+  },
+  {
+   "body": "Ritual tradition strictly demands that saptas be consumed solely within sacred sites. For communion with the earth, initiates are directed northeast through a pass to the Rise of Spirits. Drinking the draught upon these consecrated grounds allows the seeker to pierce the veil and behold what the spirits wish to reveal.",
+   "spoiler": 0,
+   "title": "The Rise of Spirits"
+  },
+  {
+   "body": "Upon drinking the Earth Sapta, an initiate meets an elemental guide who recognizes them as a child of the four winds seeking to understand why the winds have departed. While the earth spirit cannot explain the enigmatic motives of the wind spirits, it offers teachings on the steadfast resolve and strength of the earth. Even high within an endless sea of clouds, anchoring oneself to the earth is the necessary first step to speaking with the winds once more.",
+   "spoiler": 1,
+   "title": "Strength of the Earth"
+  }
+ ],
+ "summary": "Call of Earth is a sacred trial in which an elemental initiate drinks an Earth Sapta at the Rise of Spirits to pierce the veil between worlds. Guided by an elemental spirit, the seeker learns the endurance and steadfast resolve of the earth as the foundation for rekindling their lost bond with the winds.",
+ "attribution": [
+  "In-game quest text: Call of Earth"
+ ]
+}

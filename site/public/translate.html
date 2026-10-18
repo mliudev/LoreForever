@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261016t">
+<link rel="stylesheet" href="/style.css?v=20261017a">
 <link rel="stylesheet" href="/pages.css?v=20261016p">
 <script src="/header.js" defer></script>
 </head>
@@ -192,16 +192,10 @@
         <span>How would you say it? <span class="fb-optional">(optional)</span></span>
         <textarea name="better" rows="3" maxlength="4000"></textarea>
       </label>
-      <div class="fb-pair">
-        <label class="fb-field">
-          <span>Name <span class="fb-optional">(optional, for the credits)</span></span>
-          <input type="text" name="name" maxlength="100" autocomplete="nickname">
-        </label>
-        <label class="fb-field">
-          <span>Email <span class="fb-optional">(optional, only if you'd like a reply)</span></span>
-          <input type="email" name="email" maxlength="200" autocomplete="email" placeholder="you@example.com">
-        </label>
-      </div>
+      <label class="fb-field">
+        <span>Name <span class="fb-optional">(optional, for the credits)</span></span>
+        <input type="text" name="name" maxlength="100" autocomplete="nickname">
+      </label>
       <label class="fb-trap" aria-hidden="true">Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
       <div class="fb-actions">
         <button type="submit" class="btn-download" id="tr-send">Send report</button>
@@ -210,7 +204,7 @@
     </form>
     <div class="fb-done" id="tr-done" hidden>
       <h2>Thank you!</h2>
-      <p>We'll fix it in the next update of that language. <button type="button" class="tl-link" id="tr-again">Report
+      <p>We'll look at it for the next update of that language. <button type="button" class="tl-link" id="tr-again">Report
         another</button></p>
     </div>
   </section>

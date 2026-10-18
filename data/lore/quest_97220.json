@@ -1,0 +1,100 @@
+{
+ "key": "quest:97220",
+ "type": "quest",
+ "name": "Philmor's Favor",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97220
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Assisting with deliveries throughout Stormwind's Trade District keeps city logistics moving smoothly while dockhands remain in short supply."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives philmor's favor",
+    "philmor quest giver"
+   ],
+   "answer": "The quest is offered to help relieve the cargo schedule around Stormwind when local operations run short on dockhands.",
+   "q": "Who needs help with this delivery?"
+  },
+  {
+   "aliases": [
+    "where do i take the package",
+    "trias cheese delivery",
+    "where is the gatehouse entrance"
+   ],
+   "answer": "The shipment must be brought to the stockroom entrance of the Gatehouse, which is reached through the second floor of Trias' Cheese shop in Stormwind's Trade District.",
+   "q": "Where is the delivery destination?"
+  },
+  {
+   "aliases": [
+    "who is elaine",
+    "elaine trias cheese"
+   ],
+   "answer": "Elaine is the mistress at Trias' Cheese shop who is accustomed to handling discreet cargo shipments headed toward the adjacent Gatehouse stockroom.",
+   "q": "Who receives the shipment?"
+  },
+  {
+   "aliases": [
+    "what is in the package",
+    "gatehouse delivery contents"
+   ],
+   "answer": "The shipment contains delicate goods bound for the Gatehouse. According to local handlers, deliveries often arrive with special discretion to facilitate ceremonial surprises arranged for guard officers.",
+   "q": "What is inside the Gatehouse shipment?"
+  },
+  {
+   "aliases": [
+    "why trias cheese gatehouse",
+    "secret entrance trias cheese"
+   ],
+   "answer": "The upper floor of Trias' Cheese shop houses an access point to the Gatehouse stockroom, allowing discreet passage and cargo drop-offs without parading goods through the main military entrance.",
+   "q": "Why is a military stockroom accessed through a cheese shop?"
+  },
+  {
+   "aliases": [
+    "why short dockhands",
+    "stormwind dockhands shortage"
+   ],
+   "answer": "Staffing shortages have left dockside and cargo handlers short-handed throughout the week, forcing logistics coordinators to rely on passing travelers to keep deliveries on schedule.",
+   "q": "Why are dockhands in short supply?"
+  }
+ ],
+ "keywords": [
+  "elaine",
+  "gatehouse",
+  "gatehouse shipment",
+  "philmor",
+  "philmor's favor",
+  "stormwind",
+  "trade district",
+  "trias' cheese"
+ ],
+ "related": [
+  "subzone:trade-district"
+ ],
+ "sections": [
+  {
+   "body": "A persistent shortage of dockhands across Stormwind has strained the city's routine freight operations. To keep local cargo schedules from falling behind, handlers look for reliable travelers willing to haul sensitive crates directly into the commercial quarter.",
+   "spoiler": 0,
+   "title": "Strained Logistics in Stormwind"
+  },
+  {
+   "body": "The shipment is marked for the Gatehouse, but its drop-off is anything but conventional. Rather than passing through the main guardhouse entryway, the crate is carried up to the second floor of Trias' Cheese shop in the Trade District. The shop conceals a stockroom entrance used to quietly move supplies and ceremonial gifts intended for the guard's officers away from prying eyes.",
+   "spoiler": 0,
+   "title": "Discreet Deliveries at Trias' Cheese"
+  }
+ ],
+ "summary": "Philmor's Favor is a delivery task in Stormwind prompted by an ongoing shortage of local dockhands. Couriers are asked to transport a delicate Gatehouse shipment to a secluded stockroom entrance situated on the second floor of Trias' Cheese shop in the Trade District.",
+ "attribution": [
+  "In-game quest text: Philmor's Favor"
+ ]
+}

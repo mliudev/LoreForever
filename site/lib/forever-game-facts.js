@@ -31,6 +31,8 @@ const DUNGEONS = { title: "Warcraft Tavern: all new dungeons and raids in WoW Fo
   url: "https://www.warcrafttavern.com/forever/news/all-new-dungeons-raids-in-wow-forever-revealed-at-blizzcon/" };
 const ZONES = { title: "Warcraft Tavern: all new zones in WoW Forever",
   url: "https://www.warcrafttavern.com/forever/news/all-new-zones-areas-in-wow-forever-revealed-at-blizzcon/" };
+const HUMAN_RACIALS = { title: "Warcraft Tavern: human racial abilities in WoW Forever",
+  url: "https://www.warcrafttavern.com/forever/guides/human-racials/" };
 const KIRIN_TOR = { title: "Icy Veins: Horde players aren't welcome in Dalaran in WoW Forever",
   url: "https://www.icy-veins.com/wow-forever/news/wow-forever-confirms-horde-players-arent-welcome-in-dalaran/" };
 const wiki = page => ({ title: `Warcraft Wiki: ${page} (Forever)`, url: `https://warcraft.wiki.gg/wiki/${page.replace(/ /g, "_")}` });
@@ -119,12 +121,26 @@ export const GAME_FACTS = [
       "at 30 and 40; buff totems last 5 minutes, Windfury and Flametongue Totems buff the party, and Fire Nova is a " +
       "spell. Elemental Mastery is gone; Lava Burst, Rage of the Farseer and Riptide are the 31-point talents, and " +
       "Maelstrom Weapon is a talent." },
+  // LOR-627: "a shaman tank build for WoW Forever?" got "shamans have no tanking specialization" from the original game.
+  { id: "tank-shaman", title: "Shaman tanking in WoW Forever", source: MAGE_SHAMAN,
+    text: "WoW Forever Enhancement shamans can tank small groups: the 21-point Enhancement talent Spirit Weapons raises " +
+      "their threat while Rockbiter Weapon is on (and lowers it without Rockbiter), and Improved Stormstrike can reset " +
+      "Stormstrike's cooldown when they dodge or parry. They tank with a shield and a one-handed weapon, as a " +
+      "temporary tank for small groups and dungeons, not a raid's main tank." },
   // Races
   { id: "racials-alliance", title: "Alliance racials in WoW Forever", source: CLIENT,
     text: "WoW Forever gives each race two active and two passive racials. Humans: Will to Survive, Perception, " +
       "Sword Specialization, The Human Spirit; dwarves: Stoneform, Find Treasure, Mace Specialization, Big Game " +
       "Hunter; night elves: Shadowmeld, Elune's Light, Quickness, Wisp Spirit; gnomes: Escape Artist, Eureka!, " +
       "Expansive Mind, Engineering Specialization. Diplomacy, Gun Specialization and resistance racials are gone." },
+  // LOR-555: the launch video's first answer made a human warrior "best" for Sword Specialization and "your spirit
+  // helps you endure"; Spirit does little for a warrior.
+  { id: "racials-human", title: "What human racials do in WoW Forever", source: HUMAN_RACIALS,
+    text: "In WoW Forever humans' Will to Survive (active) removes every stun on them, from players and creatures " +
+      "alike; Perception (active) reveals stealthed and invisible enemies for a short while, pressed by hand; Sword " +
+      "Specialization adds 2% critical strike chance; and The Human Spirit raises Spirit by 5%, which speeds health " +
+      "and mana regeneration out of combat: it helps those who cast with mana most, and a warrior, who fights on " +
+      "rage, very little." },
   { id: "racials-horde", title: "Horde racials in WoW Forever", source: CLIENT,
     text: "WoW Forever Horde racials: orcs Blood Fury, Shatter Curse, Hardiness, Axe Specialization; undead Will of " +
       "the Forsaken, Cannibalize, Touch of the Grave, Underwater Breathing; tauren War Stomp, Cultivation, Endurance, " +

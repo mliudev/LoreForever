@@ -1,19 +1,19 @@
 {
- "generated": "2026-10-16",
+ "generated": "2026-10-17",
  "forever_only": {
-  "quests_known": 292,
-  "quests_with_text": 263,
-  "narrated": 108,
+  "quests_known": 316,
+  "quests_with_text": 292,
+  "narrated": 214,
   "npcs_known": 223,
-  "npcs_with_text": 54
+  "npcs_with_text": 58
  },
  "zones": [
   {
    "zone": "Other",
    "key": "general",
-   "quests": 171,
-   "with_text": 156,
-   "narrated": 9
+   "quests": 195,
+   "with_text": 185,
+   "narrated": 110
   },
   {
    "zone": "Tirisfal Glades",
@@ -27,7 +27,7 @@
    "key": "zephras",
    "quests": 25,
    "with_text": 25,
-   "narrated": 24
+   "narrated": 25
   },
   {
    "zone": "Wetlands",
@@ -41,7 +41,7 @@
    "key": "westfall",
    "quests": 12,
    "with_text": 12,
-   "narrated": 7
+   "narrated": 11
   },
   {
    "zone": "Dun Morogh",
@@ -264,7 +264,7 @@
   },
   {
    "kind": "quest",
-   "id": 93461,
+   "id": 92849,
    "name": null,
    "zone": "Other",
    "level": null
@@ -292,22 +292,8 @@
   },
   {
    "kind": "quest",
-   "id": 97903,
-   "name": "Camping 101: First Aid",
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
    "id": 96050,
    "name": "Camping 101: Fishing",
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
-   "id": 97949,
-   "name": "Camping 101: Skinning",
    "zone": "Other",
    "level": null
   },
@@ -320,8 +306,8 @@
   },
   {
    "kind": "quest",
-   "id": 91746,
-   "name": "Elmpaw's Head",
+   "id": 99411,
+   "name": "Kyle's Gone Missing!",
    "zone": "Other",
    "level": null
   },
@@ -341,29 +327,8 @@
   },
   {
    "kind": "quest",
-   "id": 99160,
-   "name": "Rime's Wrath",
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
-   "id": 87288,
-   "name": "Soft Saber Pelts",
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
-   "id": 98391,
-   "name": "The Sisterhood of Elune",
-   "zone": "Other",
-   "level": null
-  },
-  {
-   "kind": "quest",
-   "id": 99052,
-   "name": "Threat from Below",
+   "id": 95212,
+   "name": "Never Saddle on Quality",
    "zone": "Other",
    "level": null
   },
@@ -523,13 +488,6 @@
   },
   {
    "kind": "npc",
-   "id": 258930,
-   "name": "Isaac Chan",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 251365,
    "name": "Jolee Brightmeadows",
    "zone": null,
@@ -546,13 +504,6 @@
    "kind": "npc",
    "id": 268238,
    "name": "Nordun Steadysight",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 263644,
-   "name": "Pherry Leftee",
    "zone": null,
    "level": null
   },

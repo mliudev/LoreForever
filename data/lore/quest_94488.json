@@ -1,0 +1,102 @@
+{
+ "key": "quest:94488",
+ "type": "quest",
+ "name": "The Ties That Bind",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94488
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The Cenarion Circle holds the preservation of balance and kinship sacred, making Haalien's betrayal and bloodspill among fellow circle druids an especially grave offense against the order."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives ties that bind",
+    "quest giver shadowgale",
+    "who is elegael thornpaw"
+   ],
+   "answer": "Elegael Thornpaw is a druid stationed in the Shadowgale Forest. Grappling with an incursion of cultists, she directs adventurers to hunt down Commander Haalien after discovering his hand in the bloodshed.",
+   "q": "Who offers the quest The Ties That Bind?"
+  },
+  {
+   "aliases": [
+    "who is haalien",
+    "commander haalien lore",
+    "haalien background"
+   ],
+   "answer": "Commander Haalien was formerly a druid of the Cenarion Circle who vanished months prior to the cultist attacks. Rather than falling victim to the encroaching darkness, he willingly joined the hostile cultists and rose to command their forces against his kin.",
+   "q": "Who is Commander Haalien?"
+  },
+  {
+   "aliases": [
+    "why kill haalien",
+    "haalien crime",
+    "what did haalien do"
+   ],
+   "answer": "Haalien abandoned his druidic circle to command cultists who slaughtered innocent lives and spilled the blood of his brethren. Because of his actions and the danger he poses to the forest, Elegael orders his execution.",
+   "q": "Why does Elegael want Commander Haalien dead?"
+  },
+  {
+   "aliases": [
+    "elegael haalien related",
+    "how do elegael and haalien know each other"
+   ],
+   "answer": "Commander Haalien is Elegael Thornpaw's cousin. While deeply enraged by his crimes, she admits that executing her own flesh and blood directly would have been a bitter burden, prompting her to enlist an adventurer's help.",
+   "q": "What is the connection between Elegael Thornpaw and Haalien?"
+  },
+  {
+   "aliases": [
+    "shadowgale forest cultists",
+    "why are cultists in shadowgale"
+   ],
+   "answer": "The exact motives behind the cultists' presence in Shadowgale Forest remain baffling even to the local druids. However, their ranks are spearheaded by former circle members like Haalien, who directed violence and bloodshed against the forest's defenders.",
+   "q": "Why are cultists present in the Shadowgale Forest?"
+  },
+  {
+   "aliases": [
+    "where does ties that bind happen",
+    "shadowgale forest location"
+   ],
+   "answer": "The events of the quest unfold within the Shadowgale Forest, where Elegael Thornpaw investigates the cultist invasion and confronts the grim reality of her cousin's betrayal.",
+   "q": "Where does this quest take place?"
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "commander haalien",
+  "cultists",
+  "druid",
+  "elegael thornpaw",
+  "haalien",
+  "shadowgale forest",
+  "the ties that bind"
+ ],
+ "related": [
+  "topic:druid"
+ ],
+ "sections": [
+  {
+   "body": "In the depths of Shadowgale Forest, druids encounter a vicious cultist presence sowing terror and bloodshed. For Elegael Thornpaw, the attack is compounded by a bitter discovery: the scent of a former circle druid named Haalien hangs over the slaughter. Having vanished months earlier, Haalien did not perish in the wilds, but instead threw his lot in with the invading cultists, taking command of their violent campaign against his former kin.",
+   "spoiler": 0,
+   "title": "Betrayal in the Forest"
+  },
+  {
+   "body": "Haalien's betrayal goes deeper than broken vows to the Cenarion Circle. Upon the presentation of the fallen commander's severed head, Elegael reveals that Haalien was her own cousin. Though filled with fury at his atrocities, striking down her own kin proved too heavy a burden to bear alone. His death puts a bloody end to a renegade whose malice cost numerous innocent lives.",
+   "spoiler": 1,
+   "title": "Blood and Kinship"
+  }
+ ],
+ "summary": "The Ties That Bind is a quest in the Shadowgale Forest centering on a bitter betrayal within the druidic circle. Elegael Thornpaw discovers that a missing circle druid, Haalien, has joined the attacking cultists as a commander and orders his execution. The task reveals the painful personal cost of duty when family turns against their own kind.",
+ "attribution": [
+  "In-game quest text: The Ties That Bind"
+ ]
+}

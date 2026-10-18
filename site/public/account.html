@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261016t">
+<link rel="stylesheet" href="/style.css?v=20261017a">
 <link rel="stylesheet" href="/pages.css?v=20261016p">
 <script src="/header.js" defer></script>
 <script src="/js/share.js" defer></script>
@@ -36,8 +36,9 @@
 
 <!-- The one Lore Forever account page. Signed out, it's the sign-in pull. Signed in, four tabs, by what players come
      for: Profile (#profile: the profile, LOR-181, and the name and links it shows), Companion (#apps: the connected
-     companion apps, LOR-148), Contribute (#contribute: voices and translations) and Account (#account: sign out, delete).
-     A link to a tab, or to anything inside one (#ac-profile, #ac-voices, #ac-translations, #ac-delete), opens it.
+     companion apps, LOR-148), My contributions (#contribute: what became of everything you sent, LOR-621, then voices
+     and translations) and Account (#account: sign out, delete).
+     A link to a tab, or to anything inside one (#ac-profile, #ac-mine, #ac-voices, #ac-translations, #ac-delete), opens it.
      Talks to functions/api/auth/[action].js and functions/api/profile/[action].js. Needs JavaScript (Sign in with
      Google does too). -->
 <main class="bw-page">
@@ -132,7 +133,7 @@
     <nav class="ac-tabs" id="ac-tabs" aria-label="Your account">
       <a href="#profile" id="tab-profile" data-tab="profile">Profile</a><a href="#apps" id="tab-apps"
         data-tab="apps" hidden>Willo</a><a href="#contribute" id="tab-contribute"
-        data-tab="contribute">Contribute</a><a href="#account" id="tab-account" data-tab="account">Account</a>
+        data-tab="contribute">My contributions</a><a href="#account" id="tab-account" data-tab="account">Account</a>
     </nav>
 
     <div class="ac-panel" id="profile">
@@ -237,6 +238,13 @@
 
     <div class="ac-panel" id="contribute" hidden>
       <p class="ac-lead">Lore Forever's narration and translations come from players like you.</p>
+      <!-- My contributions (LOR-621): everything this account sent and what became of it, from
+           functions/api/contributions.js (lib/contributions.js). Only your own; nothing is emailed. -->
+      <section class="fb-form ac-mine" id="ac-mine" aria-labelledby="ac-mine-title">
+        <h2 id="ac-mine-title">What you sent</h2>
+        <p class="vp-note" id="ac-mine-sum">Loading…</p>
+        <div id="ac-mine-list"></div>
+      </section>
       <section class="fb-form" id="ac-voices" aria-labelledby="ac-voices-title">
         <h2 id="ac-voices-title">Your voices</h2>
         <p class="vp-note" id="ac-novoices">None yet. Record some lines and your voice shows here right away, and on
@@ -428,7 +436,140 @@
     $("tab-apps").hidden = !features.companion;   // until the list of apps says otherwise (showApps)
     reveal(hashId(), true);
     // Again once the sections have filled in, which moves what a link points to further down.
-    Promise.all([loadTranslations(), loadProfile(), loadApps(), loadPlan(), loadShare()]).then(() => reveal(hashId(), true));
+    Promise.all([loadTranslations(), loadProfile(), loadApps(), loadPlan(), loadShare(), loadMine()]).then(() => reveal(hashId(), true));
+  }
+
+  // My contributions (LOR-621): what became of each thing you sent, by kind, newest first. Each kind is a fold whose
+  // summary counts its states; the receipt pages of your shared text are linked under it.
+  const STATE_WORDS = { shipped: "shipped", in: "in the language", accepted: "accepted", done: "done", waiting: "waiting",
+    unused: "not used", rejected: "rejected", withdrawn: "withdrawn" };
+  const languageName = locale => {
+    try { return new Intl.DisplayNames(["en"], { type: "language" }).of(locale.slice(0, 2)); } catch (e) { return locale; }
+  };
+  const PART_WORDS = { detail: "quest text", objectives: "objectives", progress: "progress", complete: "completion", title: "title" };
+  const lineWhere = l => l.kind === "quest" ? `Quest ${l.ref_id}, ${PART_WORDS[l.part] || l.part}`
+    : l.kind === "book" ? `${l.ref_id}, page ${l.part}`
+    : `${l.kind === "say" ? "Said aloud" : "Gossip"}: ${l.ref_id.startsWith("n:") ? l.ref_id.slice(2) : l.speaker || "NPC " + l.ref_id}`;
+  function mineItem(title, text, st, when) {
+    const li = document.createElement("li");
+    const head = document.createElement("strong");
+    head.textContent = title;
+    const s = document.createElement("span");
+    s.className = "ac-st ac-st-" + st.key;
+    s.textContent = st.label;
+    li.append(head, " ", s);
+    if (text) {
+      const q = document.createElement("q");
+      // The game's placeholders as the add-on shows them: $N is your character's name.
+      const words = text.replace(/\$([NCR])/g, (m, c) => ({ N: "<name>", C: "<class>", R: "<race>" })[c]);
+      q.textContent = words.length > 240 ? words.slice(0, 240) + "…" : words;
+      li.append(q);
+    }
+    if (when) {
+      const t = document.createElement("small");
+      t.textContent = "Sent " + new Date(when).toLocaleDateString([], { month: "short", day: "numeric", year: "numeric" });
+      li.append(t);
+    }
+    return li;
+  }
+  function mineGroup(name, counts, total, items, extra) {
+    const d = document.createElement("details");
+    const sum = document.createElement("summary");
+    const parts = Object.entries(counts).filter(([, n]) => n).sort((a, b) => b[1] - a[1])
+      .map(([k, n]) => `${n.toLocaleString()} ${STATE_WORDS[k] || k}`);
+    sum.textContent = `${name}: ${parts.join(", ")}`;
+    const ul = document.createElement("ul");
+    ul.append(...items);
+    d.append(sum, ul);
+    if (total > items.length) {
+      const more = document.createElement("p");
+      more.className = "vp-note";
+      more.textContent = `The newest ${items.length} of ${total.toLocaleString()}.`;
+      d.append(more);
+    }
+    if (extra) d.append(extra);
+    return d;
+  }
+  // A clip id in words: "zone:stormwind#faq3" is "Stormwind, question 3", "npc:edwin-vancleef" "Edwin Vancleef".
+  const clipWords = clip => {
+    const [entry, sub] = String(clip).split("@")[0].split("#");
+    const name = (entry.split(":")[1] || entry).split("-").filter(Boolean).map(w => w[0].toUpperCase() + w.slice(1)).join(" ");
+    return name + (!sub ? "" : sub.startsWith("faq") ? `, question ${sub.slice(3)}` : `, ${PART_WORDS[sub] || sub}`);
+  };
+  const countOf = list => list.reduce((c, x) => (c[x.state.key] = (c[x.state.key] || 0) + 1, c), {});
+  async function loadMine() {
+    let m;
+    try { m = await (await fetch("/api/contributions", { cache: "no-store" })).json(); } catch (e) { m = null; }
+    if (!m || !m.ok) { $("ac-mine-sum").textContent = "Couldn't load what you sent. Please reload."; return; }
+    const groups = [];
+    const tr = m.translations;
+    if (tr.total || tr.files.length) {
+      const items = tr.items.map(e => mineItem(languageName(e.locale), e.text, e.state, e.when));
+      items.push(...tr.files.map(f => mineItem(`A ${f.language} translation file`, "", f.state, f.when)));
+      const counts = { ...tr.counts };
+      for (const f of tr.files) counts[f.state.key] = (counts[f.state.key] || 0) + 1;
+      groups.push(mineGroup("Translations", counts, tr.total + tr.files.length, items));
+    }
+    const li = m.lines;
+    if (li.total) {
+      let extra = null;
+      if (li.receipts.length) {
+        extra = document.createElement("p");
+        extra.className = "vp-note";
+        extra.append("Each upload's receipt: ", ...li.receipts.flatMap((r, i) => {
+          const a = document.createElement("a");
+          a.href = "/contribute/r/" + r.id;
+          a.textContent = new Date(r.when).toLocaleDateString([], { month: "short", day: "numeric" });
+          return i ? [", ", a] : [a];
+        }));
+      }
+      groups.push(mineGroup("Shared Forever text", li.counts, li.total, li.items.map(l => mineItem(lineWhere(l), l.text, l.state, l.when)), extra));
+    }
+    if (m.voices.length) {
+      const what = v => v.what === "lent" ? "Your lent voice" : v.what === "claim" ? `Zone claim: ${v.name}` : `Sent for review: ${v.name}`;
+      groups.push(mineGroup("Voices", countOf(m.voices), m.voices.length, m.voices.map(v => mineItem(what(v), "", v.state, v.when))));
+    }
+    // Reports on your own voices (LOR-621): the lines to record again on the upload page; a new take closes them.
+    if ((m.voice_reports || []).length) {
+      const vr = m.voice_reports;
+      const items = vr.map(r => mineItem(`${r.voice}: ${clipWords(r.clip)}`,
+        [r.reason + (r.name ? ` (${r.name}${r.say_as ? `, say it like ${r.say_as}` : ""})` : ""), r.note].filter(Boolean).join(". "),
+        { key: "waiting", label: "Record it again on the upload page" }, r.when));
+      const extra = document.createElement("p");
+      extra.className = "vp-note";
+      const a = document.createElement("a");
+      a.href = "/voices/studio" + (vr[0].voice_id ? "?voice=" + encodeURIComponent(vr[0].voice_id) : "");
+      a.textContent = "Open the upload page";
+      extra.append("Players reported these lines in your voice. A new take closes the report. ", a);
+      groups.push(mineGroup("Reports on your voices", { waiting: vr.length }, vr.length, items, extra));
+    }
+    // Feedback, bad-translation reports and Willo's "Wrong answer" flags (LOR-621).
+    if ((m.feedback || []).length) {
+      groups.push(mineGroup("Feedback", countOf(m.feedback), m.feedback.length, m.feedback.map(f => mineItem(f.what, f.text, f.state, f.when))));
+    }
+    if ((m.translation_reports || []).length) {
+      groups.push(mineGroup("Translation reports", countOf(m.translation_reports), m.translation_reports.length,
+        m.translation_reports.map(r => mineItem(languageName(r.locale), r.text, r.state, r.when))));
+    }
+    if ((m.willo || []).length) {
+      groups.push(mineGroup("Wrong answers you flagged", countOf(m.willo), m.willo.length,
+        m.willo.map(f => mineItem(f.question || "An answer from Willo", f.text, f.state, f.when))));
+    }
+    if (m.reports.length) {
+      groups.push(mineGroup("Reports on recordings", countOf(m.reports), m.reports.length,
+        m.reports.map(r => mineItem(`${r.reason}${r.name ? ` (${r.name})` : ""}: ${clipWords(r.clip)}`, "", r.state, r.when))));
+    }
+    $("ac-mine-sum").textContent = groups.length
+      ? "Everything you sent from this account, and what became of it."
+      : "Nothing yet. Translate a line, share Forever text, record your voice or report a recording, and it shows here.";
+    // Credit needs a shown name (lib/credits.js): say so where people look at what they sent (LOR-621).
+    if (groups.length && !$("ac-profile").show_public.checked) {
+      const a = document.createElement("a");
+      a.href = "#ac-links-title";
+      a.textContent = "Show my name and links";
+      $("ac-mine-sum").append(" Your name isn't on the Contributors page yet: tick ", a, " under Profile to be thanked by name.");
+    }
+    $("ac-mine-list").replaceChildren(...groups);
   }
 
   // Share Willo: the player's link (made the first time it's asked for), Copy link and New link.

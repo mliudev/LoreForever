@@ -66,7 +66,7 @@ function done(result, receipts, marked) {
   if (result.confirmed) parts.push(`${n(result.confirmed, "line", "lines")} someone else had shared, now confirmed`);
   if (result.known) parts.push(`${n(result.known, "line", "lines")} it already had`);
   $("cb-done-text").textContent = parts.join(", ") + ". New lines are accepted after 48 hours, or as soon as a "
-    + "second player shares the same words, and then go into the next update.";
+    + "second player shares the same words. Your receipt shows what happens to each one.";
   const links = receipts.filter(Boolean).map((r, i) => {
     const a = document.createElement("a");
     a.href = r;

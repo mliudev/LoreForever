@@ -1,0 +1,119 @@
+{
+ "key": "quest:92698",
+ "type": "quest",
+ "name": "What Is My Purpose?",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92698
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers will find the Malfunctioning Cyclone Construct an intriguing case of ancient automation, noting how its internal logic loops persist despite centuries of wear and complete lack of technical maintenance."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Shamans may take particular interest in the construct's operational decline, as local accounts link its abandonment and failure directly to the departure of the wind elementals from the region."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is the construct",
+    "cyclone construct",
+    "giant construct in fields"
+   ],
+   "answer": "The Malfunctioning Cyclone Construct is an ancient armored automaton that wanders aimlessly through local fields. Once maintained by the Windshapers, it has fallen into disrepair over decades of neglect. It endlessly repeats broken vocal fragments questioning its purpose and reporting operational errors from beneath its armored plating.",
+   "q": "What is the Malfunctioning Cyclone Construct?"
+  },
+  {
+   "aliases": [
+    "aamelia windfield",
+    "who is aamelia",
+    "orchard npc"
+   ],
+   "answer": "Aamelia Windfield is a local resident living near the orchard where the malfunctioning construct wanders. She possesses knowledge regarding the history of the machine, explaining that it has paced the fields for decades since the wind elementals departed, and that its creators, the Windshapers, used to care for such devices.",
+   "q": "Who is Aamelia Windfield?"
+  },
+  {
+   "aliases": [
+    "construct purpose",
+    "what did the construct do",
+    "construct job"
+   ],
+   "answer": "The exact original purpose of the construct has been lost to time. According to Aamelia Windfield, a resident named Alvarion believed it may have hauled harvests to market or tended livestock centuries ago before the current orchard existed, potentially dating back as far as a thousand years.",
+   "q": "What was the construct's original purpose?"
+  },
+  {
+   "aliases": [
+    "windshapers",
+    "who made the construct",
+    "who maintains cyclone constructs"
+   ],
+   "answer": "The Windshapers are an ancient group known for creating and maintaining cyclone constructs. In earlier ages, they took responsibility for servicing these automated machines, though the local farmhands have not petitioned them for assistance in modern times due to the lack of any pressing danger or necessity.",
+   "q": "Who are the Windshapers?"
+  },
+  {
+   "aliases": [
+    "why is construct talking",
+    "function error construct",
+    "what is it saying"
+   ],
+   "answer": "The construct suffers from severe mechanical or operational malfunction, likely caused by decades without maintenance following the departure of the wind elementals. When approached, it emits disjointed phrases such as 'function error' and 'what is function', suggesting its directive processing is trapped in an unresolved questioning loop.",
+   "q": "Why is the construct repeating fragmented words?"
+  },
+  {
+   "aliases": [
+    "why ignore the construct",
+    "why not fix construct",
+    "is the construct dangerous"
+   ],
+   "answer": "The construct poses no threat to the inhabitants or their orchards, merely roaming peacefully among the trees and crops. While residents like Aamelia Windfield have spoken about petitioning the Windshapers for maintenance, the issue has never been urgent enough to warrant action, leading locals to simply ignore it.",
+   "q": "Why haven't the locals repaired or dismantled the construct?"
+  },
+  {
+   "aliases": [
+    "alvarion",
+    "who is alvarion",
+    "alvarion theory"
+   ],
+   "answer": "Alvarion is a local mentioned by Aamelia Windfield who investigated the history of the wandering construct. He theorized that the machine originally performed agrarian labor, either hauling gathered harvests to market or herding livestock long before the surrounding terrain was converted into an orchard.",
+   "q": "Who is Alvarion?"
+  }
+ ],
+ "keywords": [
+  "aamelia windfield",
+  "alvarion",
+  "construct",
+  "cyclone construct",
+  "malfunctioning cyclone construct",
+  "orchard",
+  "what is my purpose",
+  "wind elementals",
+  "windshapers"
+ ],
+ "related": [
+  "quest:92595"
+ ],
+ "sections": [
+  {
+   "body": "Deep within the fields stands a towering Cyclone Construct, aimlessly pacing across the land while trapped in a broken operational loop. Those who approach the armored giant can hear muffled, fragmented speech vibrating from beneath its heavy plates, endlessly repeating errors and questioning its own fundamental function. Decades of isolation have left the machine hollow of purpose, its internal directives corrupted or forgotten. While towering and formidable in appearance, the automaton poses no active threat to passersby, existing instead as a melancholic relic of an older era whose voice has been reduced to static queries echoing over the soil.",
+   "spoiler": 0,
+   "title": "The Wandering Construct"
+  },
+  {
+   "body": "When questioned about the machine, the local resident Aamelia Windfield reveals that the automaton has wandered the surrounding fields for decades, seemingly ever since the wind elementals departed. A local named Alvarion speculated that the machine once hauled bountiful harvests to distant markets or tended livestock centuries ago, long before the land was transformed into an orchard. In bygone ages, a group known as the Windshapers built and maintained these cyclone constructs. Although the orchard workers have occasionally discussed petitioning the Windshapers to repair the machine, the matter has never been urgent, leaving the construct to roam unbothered and largely ignored.",
+   "spoiler": 0,
+   "title": "Forgotten Labor and the Windshapers"
+  }
+ ],
+ "summary": "\"What Is My Purpose?\" is a quest centered on a giant Malfunctioning Cyclone Construct wandering aimlessly through agricultural fields. Repeating broken fragments of speech beneath its armor plating, the ancient machine has forgotten its original duties after decades of neglect following the departure of the wind elementals. Investigating the construct leads adventurers to consult local orchardist Aamelia Windfield to learn about its mysterious past and former caretakers.",
+ "attribution": [
+  "In-game quest text: What Is My Purpose?"
+ ]
+}

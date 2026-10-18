@@ -6,11 +6,13 @@
 //   GET  /api/contribute/export?since=<unix>&status=accepted   admin key: {now, lines: [{id, kind, ref_id, part,
 //                                      locale, build, text, status, accepted, uploaders, found_by, first_seen, ...}]}
 //   POST /api/contribute/shipped       admin key: {ids: [...], release: "0.8.0"} -> those lines become shipped
+//   POST /api/contribute/unused        admin key: {ids: [...]} -> lines lore.contrib didn't use because the game's own
+//                                      text says it differently become unused (LOR-621): {ok, unused: n}
 // The admin key is /api/admin's (lib/auth.js), as "Authorization: Bearer <key>" or "X-Admin-Key: <key>".
 
 import { authorized } from "../../../lib/auth.js";
 import { noStore, fail, setup as setupAccounts } from "../../../lib/accounts.js";
-import { setup, stats, contributors, exportLines, markShipped, receipt, EXPORT_STATUSES, nowSec }
+import { setup, stats, contributors, exportLines, markShipped, markUnused, loadKnown, receipt, EXPORT_STATUSES, nowSec }
   from "../../../lib/contribute.js";
 
 const cached = body => Response.json(body, { headers: { "Cache-Control": "public, max-age=300" } });
@@ -59,13 +61,17 @@ export async function onRequestGet({ request, env, params }) {
 }
 
 export async function onRequestPost({ request, env, params }) {
-  if (params.action !== "shipped") return fail(404, "Unknown.");
+  if (params.action !== "shipped" && params.action !== "unused") return fail(404, "Unknown.");
   if (!(await authorized(request, env))) return fail(401, "Needs the admin key.");
   if (!env.DB) return fail(503, "No D1 database bound as DB");
   let body;
   try { body = await request.json(); } catch (e) { return fail(400, "Expected JSON."); }
   const ids = Array.isArray(body?.ids) ? body.ids.map(Number).filter(n => Number.isInteger(n) && n > 0) : [];
   if (!ids.length || ids.length > 50000) return fail(400, "ids: a list of line ids.");
+  if (params.action === "unused") {
+    await ready(env);
+    return Response.json({ ok: true, unused: await markUnused(env, ids, await loadKnown(env, request)) }, { headers: noStore });
+  }
   if (!/^\d{1,3}\.\d{1,3}\.\d{1,4}$/.test(String(body.release || ""))) return fail(400, "release: like 0.8.0.");
   await ready(env);
   return Response.json({ ok: true, shipped: await markShipped(env, ids, body.release) }, { headers: noStore });

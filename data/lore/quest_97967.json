@@ -1,0 +1,93 @@
+{
+ "key": "quest:97967",
+ "type": "quest",
+ "name": "Camping 101: Fishing",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97967
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives fish bowl",
+    "where is fenn fairweather",
+    "fish bowl trainer"
+   ],
+   "answer": "Fenn Fairweather resides in Shen'dar Village. Once you have demonstrated adequate proficiency in your fishing trade, Fenn can teach you how to craft a Fish Bowl to furnish and brighten your campsite.",
+   "q": "Who teaches the Fish Bowl camping craft?"
+  },
+  {
+   "aliases": [
+    "what does fish bowl do",
+    "fish bowl buff",
+    "camping fish bowl effect"
+   ],
+   "answer": "A Fish Bowl serves as a decorative fixture for your camp that brings a touch of comfort and cheer to you and your companions. A well-maintained camp and high spirits keep adventurers sharp and bolster their readiness for dangerous trials in the field.",
+   "q": "What purpose does a Fish Bowl serve at camp?"
+  },
+  {
+   "aliases": [
+    "where is shendar village",
+    "shen'dar village location"
+   ],
+   "answer": "Shen'dar Village is a settlement that serves as a gathering place for tradesfolk and instructors, including Fenn Fairweather. Practitioners of fishing travel there to learn practical camping crafts suited to their skills.",
+   "q": "Where is Shen'dar Village?"
+  },
+  {
+   "aliases": [
+    "camping fishing requirements",
+    "when can i learn fish bowl",
+    "how to start camping fishing"
+   ],
+   "answer": "You must first demonstrate solid basic proficiency as an angler before you can take up the craft. Once you have honed your fishing skill, instructors in Shen'dar Village will share the methods for assembling camp fixtures like the Fish Bowl.",
+   "q": "What skill is required to learn this camping craft?"
+  },
+  {
+   "aliases": [
+    "why fishing for camping",
+    "fishing usefulness in camp"
+   ],
+   "answer": "Beyond simply hauling in catches for sustenance, an angler's keen eye and patience can contribute to camp life in unexpected ways. Displaying a fresh catch in a crafted bowl offers tranquil familiarity and uplifts morale during long wilderness expeditions.",
+   "q": "Why does fishing matter for wilderness camping?"
+  },
+  {
+   "aliases": [
+    "who is fenn fairweather",
+    "fenn fairweather lore"
+   ],
+   "answer": "Fenn Fairweather is an artisan and instructor located in Shen'dar Village. Fenn recognizes the practical comforts of wilderness life and shares specialized knowledge of camp fixtures with skilled fishermen.",
+   "q": "Who is Fenn Fairweather?"
+  }
+ ],
+ "keywords": [
+  "camping",
+  "camping 101: fishing",
+  "fenn fairweather",
+  "fish bowl",
+  "fishing",
+  "shen'dar village"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Life in the wilderness demands more than sharp blades and sturdy armor; keeping morale high in the field can mean the difference between triumph and exhaustion. While fishing is often treated purely as a quiet pastime or a means to harvest provisions, skilled anglers can turn their craft toward improving campsite comfort. By capturing live fish and preparing dedicated fixtures, a traveler can transform a bleak encampment into a welcoming sanctuary.",
+   "spoiler": 0,
+   "title": "Comforts of the Hearth"
+  },
+  {
+   "body": "In Shen'dar Village, the artisan Fenn Fairweather shares trade secrets with seasoned fishermen who understand the patience of the rod and reel. Those who demonstrate sufficient skill can learn to fashion a Fish Bowl\u2014a simple camp fixture designed to bring cheer and relaxation to weary companions. Maintaining high spirits out in the wilds helps keep party members focused and resolute when facing looming dangers.",
+   "spoiler": 0,
+   "title": "The Artisan of Shen'dar"
+  }
+ ],
+ "summary": "Camping 101: Fishing directs aspiring anglers to discover how their patience with a rod and line can elevate wilderness expeditions. By seeking out Fenn Fairweather in Shen'dar Village, proficient fishermen can learn to craft a decorative Fish Bowl fixture to bolster morale and camp comfort.",
+ "attribution": [
+  "In-game quest text: Camping 101: Fishing"
+ ]
+}

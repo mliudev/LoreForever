@@ -1,0 +1,112 @@
+{
+ "key": "quest:3101",
+ "type": "quest",
+ "name": "Consecrated Letter",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3101
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "As wielders of the Holy Light, paladins are charged with representing its virtues and serving as beacons of hope to their allies in Northshire and beyond."
+  },
+  {
+   "target": "race:Human",
+   "text": "For humans beginning their service at Northshire Abbey, the letter emphasizes their responsibility to act as honorable symbols in a Kingdom troubled by recent trials."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Representatives of the Holy Light are expected to conduct themselves with honor, upholding the moral standing and defense of the Alliance."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is consecrated letter",
+    "consecrated letter quest"
+   ],
+   "answer": "The Consecrated Letter is an introductory summons directed to an initiate of the Holy Light in Northshire Valley. It directs the bearer to their class trainer at Northshire Abbey to establish their training and remind them of their sacred duties.",
+   "q": "What is the Consecrated Letter?"
+  },
+  {
+   "aliases": [
+    "who gives consecrated letter",
+    "who sends consecrated letter"
+   ],
+   "answer": "New paladin adventurers begin with the letter in their possession upon arriving in Northshire Valley, carrying it as proof of their calling to present to their trainer at Northshire Abbey.",
+   "q": "Where does the Consecrated Letter come from?"
+  },
+  {
+   "aliases": [
+    "who turns in consecrated letter",
+    "who reads consecrated letter"
+   ],
+   "answer": "The letter is delivered to Brother Sammuel, the paladin trainer stationed near the entrance of Northshire Abbey in Elwynn Forest.",
+   "q": "Who receives the Consecrated Letter?"
+  },
+  {
+   "aliases": [
+    "what does the trainer teach",
+    "why train with the trainer"
+   ],
+   "answer": "The trainer serves as a mentor in the ways of the Holy Light, instructing the initiate in martial techniques, defensive blessings, and sacred spells as they gain practical combat experience in the valley.",
+   "q": "What role does the trainer play after reading the letter?"
+  },
+  {
+   "aliases": [
+    "why am i a symbol",
+    "holy light symbol"
+   ],
+   "answer": "Those who channel the Holy Light are seen as visible paragons of faith and virtue. Both friends and foes recognize the power of the Light, making its wielders prominent figures whose conduct reflects upon the faith itself.",
+   "q": "Why does the letter mention being a symbol?"
+  },
+  {
+   "aliases": [
+    "where is northshire abbey",
+    "where do i take the letter"
+   ],
+   "answer": "Northshire Abbey lies in the peaceful northern valley of Elwynn Forest, serving as a sanctuary of faith and the primary recruitment grounds for defenders of the Kingdom of Stormwind.",
+   "q": "Where does this training take place?"
+  }
+ ],
+ "keywords": [
+  "brother sammuel",
+  "consecrated letter",
+  "elwynn forest",
+  "holy light",
+  "northshire",
+  "northshire abbey",
+  "paladin",
+  "trainer"
+ ],
+ "related": [
+  "topic:light"
+ ],
+ "sections": [
+  {
+   "body": "The Consecrated Letter marks the formal beginning of an initiate's journey in Northshire Valley. Addressed to newly arrived wielders of the Holy Light, the document calls the bearer to seek out their trainer at Northshire Abbey to formalize their instruction and accept their responsibilities within the Kingdom of Stormwind.",
+   "spoiler": 0,
+   "title": "A Sacred Calling"
+  },
+  {
+   "body": "Upon presenting the letter, the initiate is reminded of the weight carried by their vocation. The Holy Light shines visibly within those who channel it, making them immediate symbols of hope to allies and clear targets for their adversaries. The trainer emphasizes that such power demands disciplined conduct and an awareness of one's public example.",
+   "spoiler": 0,
+   "title": "Carrying the Light"
+  },
+  {
+   "body": "Beyond spiritual obligations, the letter establishes an ongoing relationship between student and mentor. As the initiate tests their mettle against the local threats confronting Northshire, they are expected to return regularly to the abbey grounds to unlock deeper understandings of combat and divine grace.",
+   "spoiler": 0,
+   "title": "Guidance and Discipline"
+  }
+ ],
+ "summary": "The Consecrated Letter is an introductory summons carried by initiates of the Holy Light arriving in Northshire Valley. It directs the bearer to report to their class trainer at Northshire Abbey to begin their training and embrace their role as a visible symbol of faith.",
+ "attribution": [
+  "In-game quest text: Consecrated Letter"
+ ]
+}

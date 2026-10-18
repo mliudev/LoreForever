@@ -13,17 +13,19 @@ import { feedbackKind, logFeedback } from "../../../lib/answer-feedback.js";
 import { logAnswer } from "../../../lib/answer-log.js";
 import { cachedFinding, keepFinding, findingBlock, wantsSearch, realWorld, searchesBefore, pressedToLook, FOUND_NOTHING,
   askedAgain } from "../../../lib/research-cache.js";
-import { helpBlock, helpTopics, stateOf } from "../../../lib/willo-help.js";
+import { helpBlock, helpTopics, helpQuestion, stateOf } from "../../../lib/willo-help.js";
 import { lookupsFor, actionsFor, actionOf, offerInstead, freeKey, SAYS_DONE } from "../../../lib/willo-tools.js";
-import { WILLO_PICKS } from "../../../lib/companion-voice.js";
+import { picksFor, pickNamed } from "../../../lib/companion-voice.js";
 import { planFor, plansOn, holdUserSpend, releaseUserSpend, addUserSpend, useStarter, useShare, returnStarter, offersFor,
   poolWindow, overTextCap, companionFeatures, PLANS } from "../../../lib/billing.js";
 import { promptBlocks, NPC_KEY } from "../../../lib/willo-custom.js";
 import { takeTaste, returnTaste, takeTasteLookup, holdDay, settleDay } from "../../../lib/best-first.js";
 
 const CLIENT = /^companion\/[\w.-]{1,24}$/;
-// What the facts don't hold, so a question about it is still researched when the companion asks.
-const NOT_IN_FACTS = /\b(?:rewards?|xp|experience|prices?|costs?|worth|auction|how much)\b/i;
+// What the facts don't hold, so a question about it is still researched when the companion asks. "Auction" is a
+// price, but the auction house or its auctioneers are a place the town facts hold ("where's the auction house in
+// Ironforge?", LOR-614).
+const NOT_IN_FACTS = /\b(?:rewards?|xp|experience|prices?|costs?|worth|auction(?!(?: ?house|eers?)\b)|how much)\b/i;
 const MAX_BODY_BYTES = 64 * 1024; // JSON escaping can expand a valid 16 KB Unicode prompt.
 // A spoken question may also carry a picture (base64, a byte per character); the rest of the body keeps MAX_BODY_BYTES.
 const MAX_PICTURE_BODY_BYTES = MAX_BODY_BYTES + ANSWER_IMAGE_CHARS;
@@ -179,22 +181,26 @@ async function answerQuestion(context, hold) {
   // The free plan, while plans are on (Mike, 2026-10-12): its answers stay with the world's lore (LORE_FOCUS below),
   // without looking online or the game picture, except its best first. Willo still speaks (style "spoken" stays).
   const freePath = plansOn(env) && !subscriber && !taste;
+  const askedToLook = researchRequired === true || autoResearch;   // what the companion asked for, before the plan
   if (freePath) [researchRequired, autoResearch, image] = [false, false, null];
   const stronger = Boolean(PLANS[plan.id]?.stronger);
   // The site's look-ups for this question (lib/willo-tools.js lookupsFor, LOR-546). A question about Willo herself:
   // her own help, what her app says of itself right now and, about plans, the answers left, never a look online.
-  const lookups = compact ? [] : lookupsFor(parts.question, { previous: parts.previousQuestion, persona, operation,
+  const lookups = compact ? [] : lookupsFor(parts.question, { previous: parts.previousQuestion, answered: parts.previous, persona, operation,
     plans: plansOn(env) });
   const usage = lookups.includes("answers_left") ? await allowance(env, app.user.id, now, exempt, plan) : null;
-  const help = lookups.includes("help") ? helpBlock(parts.question, { plans: plansOn(env), plan: plan.name,
+  const helpAsked = compact ? "" : helpQuestion(parts.question, parts.previousQuestion, parts.previous);   // a follow-up reads with what it follows
+  const help = lookups.includes("help") ? helpBlock(helpAsked, { plans: plansOn(env), plan: plan.name,
     client: request.headers.get("X-LF-Client"), state, usage }) : "";
   // What her answer may offer to do for them (lib/willo-tools.js actionsFor, LOR-546 slice 2), by what the question
-  // asks of her: her voices only where the plan picks one, never the one she speaks in now (WILLO STATE's "voice now"),
-  // a talk key only the one her own check found free, and "Willo and the game" when her check says Live game info is off.
+  // asks of her: her voices only where the plan picks one (the Voices of Azeroth too for a companion that has them,
+  // lib/companion-voice.js picksFor), never the one she speaks in now (WILLO STATE's "voice now"), a talk key only the
+  // one her own check found free, and "Willo and the game" when her check says Live game info is off.
   // Consent (slice 3): Live game info or seeing the game, only when it's off in her window, and seeing the game only on
   // a plan with it (lib/billing.js companionFeatures).
-  const actions = help ? actionsFor(helpTopics(parts.question, { plans: plansOn(env) }), {
-    voices: plan.voice?.choice ? Object.keys(WILLO_PICKS) : [], current: /^voice now: (\w+)/m.exec(state)?.[1] || "",
+  const actions = help ? actionsFor(helpTopics(helpAsked, { plans: plansOn(env) }), {
+    voices: plan.voice?.choice ? picksFor(request.headers.get("X-LF-Client")) : [],
+    current: pickNamed(/^voice now: ([^(\n]+)/m.exec(state)?.[1]),
     key: freeKey(state), liveOff: /^live: (?:bad|warn)\b/m.test(state),
     fixable: /^\w+: (?:bad|warn), .*; fix: /m.test(state), spoken: Boolean(style), plans: plansOn(env),
     off: { live: /^live: off\b/m.test(state), sight: /\bseeing the game when asked out loud: off\b/.test(state) },
@@ -315,7 +321,8 @@ async function answerQuestion(context, hold) {
   // Kept while the answer is written; logFeedback never throws.
   const logged = dispute && logFeedback(env, app.user.id, { kind: dispute, said: parts.question,
     question: parts.previousQuestion, answer: parts.previous, zone: parts.zone, sub: parts.sub, persona,
-    spoken: Boolean(style) });
+    spoken: Boolean(style) }, { context, names,
+    client: request.headers.get("X-LF-Client") });
   // A paid-for answer's cost goes on the player's month (lib/billing.js addUserSpend), once: what the quick look online
   // and the answer cost, as lib/companion-answers.js counts them, whether the answer came or not. It takes the place of
   // what the answer held against its cap. The beta's free Hero's is kept apart (launch).
@@ -401,7 +408,13 @@ async function answerQuestion(context, hold) {
     // button and run on a tap; only with an answer of hers about herself.
     const used = [...(facts.length ? ["forever_facts"] : []), ...(cached || research || looked ? ["web"] : []),
       ...(help ? ["help", ...(state ? ["state"] : []), ...(usage ? ["answers_left"] : [])] : [])];
-    const lookedUp = cached ? "cached" : research ? "required" : fromFacts ? "facts" : looked ? "quick" : "no";
+    // "empty": it looked and found nothing; "off": the companion asked and the rule would look, but the plan (the free
+    // plan never looks online), its month's look-ups or the day's budget said no. The nightly check tells those apart
+    // from a question the rule let go (LOR-627: 42 of 42 kept answers said "no").
+    const offline = !research && !quick && !cached && !fromFacts && operation === "answer" && !help &&
+      (real || (askedToLook && wantsSearch(parts.question, dispute, known.facts)));
+    const lookedUp = cached ? "cached" : research ? "required" : fromFacts ? "facts" : looked ? "quick"
+      : quick ? "empty" : offline ? "off" : "no";
     await keepAnswer({ answer: result.answer, action: action?.id, model: result.model, model_ms, looked_up: lookedUp,
       lookups: used, facts: facts.map(f => f.title), outcome: result.answer === VERIFICATION_FAILED ? "unverified" : "answered" });
     return Response.json({ ok: true, ...result, allowance: left, timing: { model_ms, total_ms: Date.now() - started },
