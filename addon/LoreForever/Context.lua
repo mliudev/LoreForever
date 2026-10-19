@@ -7,8 +7,8 @@ ns.Context = Context
 
 local function try(fn, ...)
   if type(fn) ~= "function" then return nil end
-  local ok, a, b, c, d, e, f = pcall(fn, ...)
-  if ok then return a, b, c, d, e, f end
+  local ok, a, b, c, d, e, f, g = pcall(fn, ...)
+  if ok then return a, b, c, d, e, f, g end
   return nil
 end
 
@@ -17,6 +17,17 @@ local RACE_NAMES = { NightElf = "Night Elf", Scourge = "Undead", BloodElf = "Blo
 
 local function titleCase(s)
   return s and (s:sub(1, 1):upper() .. s:sub(2):lower()) or nil
+end
+
+-- Whether the game's controller interface is on (LOR-481). Its navigation reacts at once, in the caller's code, to a
+-- game window opening or closing, a frame being made on one, a game popup or the interface hiding. Started from an
+-- add-on, that runs tainted: the controller's binding state is then tainted for the session, and every window after
+-- gets "Lore Forever tried to call SetPreferredGamepadInteractTarget()" (clicking Ignore or Disable can crash the
+-- game). So with it on, nothing of ours does any of those; a /reload clears what's already tainted.
+function Context.GamepadUI()
+  local IU = _G.InputUtil
+  if type(IU) ~= "table" then return false end
+  return try(IU.IsGamepadUIEnabled) == true
 end
 
 function Context.Place()
@@ -119,26 +130,27 @@ function Context.Items()
   return questItems
 end
 
--- Profession names with skill. Modern GetProfessions first, then the classic skill-line list.
+-- Profession names with skill (rank) and the skill they can reach now (max: the rank their training allows). Modern
+-- GetProfessions first, then the classic skill-line list.
 function Context.Professions()
   local out = {}
   if GetProfessions then
     local list = { try(GetProfessions) }
     for _, idx in pairs(list) do
       if idx then
-        local name, _, rank = try(GetProfessionInfo, idx)
-        if name then out[#out + 1] = { name = name, rank = rank } end
+        local name, _, rank, max = try(GetProfessionInfo, idx)
+        if name then out[#out + 1] = { name = name, rank = rank, max = max } end
       end
     end
   end
   if #out == 0 and GetNumSkillLines then
     local inProf = false
     for i = 1, (try(GetNumSkillLines) or 0) do
-      local name, isHeader, _, rank = try(GetSkillLineInfo, i)
+      local name, isHeader, _, rank, _, _, max = try(GetSkillLineInfo, i)
       if isHeader then
         inProf = name == (TRADE_SKILLS or "Professions") or name == (SECONDARY_SKILLS or "Secondary Skills")
       elseif inProf and name then
-        out[#out + 1] = { name = name, rank = rank }
+        out[#out + 1] = { name = name, rank = rank, max = max }
       end
     end
   end

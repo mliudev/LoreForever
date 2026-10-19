@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<link rel="stylesheet" href="/style.css?v=20261017a">
+<link rel="stylesheet" href="/style.css?v=20261018r">
 <link rel="stylesheet" href="/admin.css?v=20261017d">
 </head>
 <body data-page="dashboard" data-title="Dashboard">
@@ -355,13 +355,40 @@
     </div>
     </div>
     <div class="ad-sub-tab" id="sub-willo" data-sub="willo" hidden>
-    <!-- Willo's answers (LOR-446, functions/api/admin/willo.js): what players said was wrong, were frustrated by or
-         flagged, with what Willo had said. "Make it a fact" adds a checked Forever fact that every answer about it
+    <!-- Willo's answers (LOR-446, functions/api/admin/willo.js): the review queue (lib/answer-feedback.js): what players
+         marked Not right, said was wrong, were frustrated by or flagged, and the kept answers whose signals say they
+         missed, with what Willo had said. "Make it a fact" adds a checked Forever fact that every answer about it
          then gets; "Checked" means nothing to change. Badge: new signals. -->
-    <h2 id="willo">Willo's answers</h2>
+    <!-- Willo quality (the feedback loop, lib/willo-quality.js defines each number): report and frustration rates from
+         the kept answers (only players with "Help improve Willo's answers" on), what's asked most and what fails most
+         by topic, the questions asked most, and the apps' anonymous failure counts. -->
+    <h2 id="willo-quality">Willo quality</h2>
+    <div class="ad-panel">
+      <div class="ad-filters" role="group" aria-label="Willo quality window">
+        <button type="button" data-wqdays="7" aria-pressed="true">Last 7 days</button>
+        <button type="button" data-wqdays="14" aria-pressed="false">Last 14 days</button>
+        <span class="ad-count" id="wq-note"></span>
+      </div>
+      <div class="ad-stats" id="wq-tiles"></div>
+      <div class="ad-charts">
+        <div><h3>Asked most, by topic</h3><div class="ad-table-wrap"><table><thead><tr><th>Topic</th><th>Asked</th>
+          <th>Players</th><th title="Reported, corrected, asked again, gave up, or failed">Missed</th><th>Miss rate</th></tr></thead>
+          <tbody id="wq-asked"></tbody></table></div></div>
+        <div><h3>Failing most (3+ asked)</h3><div class="ad-table-wrap"><table><thead><tr><th>Topic</th><th>Asked</th>
+          <th>Missed</th><th>Miss rate</th></tr></thead><tbody id="wq-failing"></tbody></table></div></div>
+      </div>
+      <h3 style="margin-top:14px">Questions asked most</h3>
+      <div class="ad-table-wrap"><table><thead><tr><th>Question</th><th>Topic</th><th>Asked</th><th>Players</th><th>Missed</th></tr></thead>
+        <tbody id="wq-questions"></tbody></table></div>
+      <h3 style="margin-top:14px">From every install <span class="ad-count">(anonymous daily counts, numbers only)</span></h3>
+      <p class="ad-msg" id="wq-installs"></p>
+    </div>
+    <h2 id="willo">Review queue</h2>
     <div class="ad-panel">
       <div class="ad-filters" role="group" aria-label="Filter Willo feedback">
-        <button type="button" data-wstatus="new" aria-pressed="true">New</button>
+        <button type="button" data-wstatus="open" aria-pressed="true">Open</button>
+        <button type="button" data-wstatus="new" aria-pressed="false">New</button>
+        <button type="button" data-wstatus="fixed" aria-pressed="false">Fixed</button>
         <button type="button" data-wstatus="all" aria-pressed="false">All</button>
         <span class="ad-count" id="w-count"></span>
       </div>
@@ -479,31 +506,55 @@
     </div>
     </div>
     <div class="ad-sub-tab" id="sub-creators" data-sub="creators" hidden>
-    <!-- Creators (LOR-503, CC-72; admin-creators.js, functions/api/admin/creators.js, lib/referrals.js): each creator's
-         link (/w/<code>) and Stripe code, what it brought and what they're owed. Payouts are by hand: "Mark paid" notes
-         one. A refund after a payment isn't taken off by itself: check Stripe before paying. -->
+    <!-- Creators and players' invites (LOR-503, CC-72; admin-creators.js, functions/api/admin/creators.js,
+         lib/referrals.js): applications to approve, the month's payout list (paid by hand with "Mark paid", or by Stripe
+         transfer once Stripe payouts are on), each creator's link and numbers, the last commissions and payouts, and
+         how players' own invites are doing. A refund or dispute takes its commission back by itself. -->
     <h2 id="creators">Creators</h2>
     <div class="ad-panel">
-      <p class="ad-count" id="cr-players"></p>
+      <p class="ad-count" id="ct-switch"></p>
+      <p class="fb-status" id="ct-status" role="status" hidden></p>
+      <h3>Applications</h3>
       <div class="ad-table-wrap">
-        <table><thead><tr><th>Creator and link</th><th>Terms</th><th>Stripe code</th><th>Clicks</th><th>Connected Willo</th><th>Paid</th><th>Earned</th><th>Owed</th><th></th></tr></thead><tbody id="cr-list"></tbody></table>
+        <table><thead><tr><th>Who</th><th>Channel</th><th>Audience</th><th>Note</th><th>Code</th><th></th></tr></thead><tbody id="ct-apps"></tbody></table>
       </div>
-      <p class="fb-status" id="cr-status" role="status" hidden></p>
+      <h3 style="margin-top:14px">Payout list <span class="ad-count" id="ct-month"></span></h3>
+      <div class="ad-table-wrap">
+        <table><thead><tr><th>Creator</th><th>Due</th><th>Ready</th><th>Taken back</th><th>In hold</th><th>How</th><th></th></tr></thead><tbody id="ct-due"></tbody></table>
+      </div>
+      <p class="ad-count" id="ct-held"></p>
+      <h3 style="margin-top:14px">Creators</h3>
+      <div class="ad-table-wrap">
+        <table><thead><tr><th>Creator and link</th><th>Terms</th><th>Clicks</th><th>Joined</th><th>Asked Willo</th><th>Paying</th><th>Earned</th><th>Not paid yet</th><th>Payouts</th><th></th></tr></thead><tbody id="ct-list"></tbody></table>
+      </div>
       <h3 style="margin-top:14px">Add a creator, or change one's terms</h3>
-      <form id="cr-form" class="ad-filters">
-        <input id="cr-code" placeholder="code, like ziqo" aria-label="Code" required pattern="[a-z0-9][a-z0-9\-]{1,23}">
-        <input id="cr-name" placeholder="Name players see" aria-label="Name">
-        <input id="cr-contact" placeholder="Contact (email, Discord)" aria-label="Contact">
-        <label>% off first month <input id="cr-discount" type="number" min="0" max="100" placeholder="50" style="width:5em"></label>
-        <label>Their share % <input id="cr-share_pct" type="number" min="0" max="100" placeholder="20" style="width:5em"></label>
-        <label>for months <input id="cr-months" type="number" min="1" max="36" placeholder="3" style="width:4em"></label>
-        <label>Answers on connecting <input id="cr-gift" type="number" min="0" max="1000" placeholder="100" style="width:5em"></label>
-        <input id="cr-promo_id" placeholder="promo_... (only if made by hand)" aria-label="Stripe promotion code id">
+      <form id="ct-form" class="ad-filters">
+        <input id="ct-code" placeholder="code, like ziqo" aria-label="Code" required pattern="[a-z0-9][a-z0-9\-]{1,23}">
+        <input id="ct-name" placeholder="Name players see" aria-label="Name">
+        <input id="ct-contact" placeholder="Contact (email, Discord)" aria-label="Contact">
+        <input id="ct-account" placeholder="Their account's email (for the dashboard)" aria-label="Account email">
+        <label>Their share % <input id="ct-share_pct" type="number" min="0" max="100" placeholder="70" style="width:5em"></label>
+        <label>of months <input id="ct-months" type="number" min="1" max="36" placeholder="1" style="width:4em"></label>
+        <label>Fans: % off first month <input id="ct-discount" type="number" min="0" max="100" placeholder="0" style="width:5em"></label>
+        <label>Fans: answers on connecting <input id="ct-gift" type="number" min="0" max="1000" placeholder="0" style="width:5em"></label>
+        <input id="ct-promo_id" placeholder="promo_... (only if made by hand)" aria-label="Stripe promotion code id">
         <button type="submit">Save</button>
       </form>
-      <p class="ad-count">Blank terms keep what they were (a new creator's: 50% off, 100 answers, 20% of 3 months). Their
-        Stripe code is their code in capitals, for their first payment only, so their audience can type it at checkout too.
-        If Stripe won't let the site make it, make it in Stripe's Dashboard and paste its id (promo_...).</p>
+      <p class="ad-count">Blank terms keep what they were (a new creator's: 70% of the first month, nothing extra for
+        their fans). A fan discount makes a Stripe code (their code in capitals, first payment only) they can type at
+        checkout too; if Stripe won't let the site make it, make it in Stripe's Dashboard and paste its id (promo_...).</p>
+      <h3 style="margin-top:14px">Commissions <span class="ad-count">(the last 100)</span></h3>
+      <div class="ad-table-wrap">
+        <table><thead><tr><th>Paid</th><th>Creator</th><th>Invoice</th><th>Paid (no tax)</th><th>Share</th><th>State</th></tr></thead><tbody id="ct-ledger"></tbody></table>
+      </div>
+      <h3 style="margin-top:14px">Payouts made</h3>
+      <div class="ad-table-wrap">
+        <table><thead><tr><th>When</th><th>Creator</th><th>Amount</th><th>How</th><th>Stripe transfer</th><th>Note</th></tr></thead><tbody id="ct-payouts"></tbody></table>
+      </div>
+      <h3 style="margin-top:14px">Players' invites</h3>
+      <p class="ad-count" id="ct-players"></p>
+      <p class="ad-count" id="ct-voids"></p>
+      <p class="ad-count" id="ct-rewards"></p>
     </div>
     </div>
   </section>
@@ -511,6 +562,6 @@
 
 <!-- The page's script is a file: /admin's Content-Security-Policy (public/_headers) runs no inline script.
      Bump ?v= when admin-page.js changes, since browsers keep .js for 4 hours on loreforeverwow.com. -->
-<script type="module" src="/admin-page.js?v=20261017e"></script>
+<script type="module" src="/admin-page.js?v=20261018w"></script>
 </body>
 </html>

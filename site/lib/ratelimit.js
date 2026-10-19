@@ -43,6 +43,13 @@ export async function perPeriod(env, userId, scope, period, limit) {
   return (await bump(env, userId, scope, `${scope}:${period}`)) <= limit;
 }
 
+// Takes back a use perDay or perPeriod counted, for a caller that counts before it knows it should (a live answer counts
+// its day and its month while it checks its plan's cap, all at once, LOR-654), and finds it shouldn't have.
+const unbump = (env, userId, bucket) => env.DB.prepare(
+  "UPDATE rate_limits SET n = n - 1 WHERE user_id = ? AND bucket = ? AND n > 0").bind(userId, bucket).run();
+export const unDay = (env, userId, scope, now = new Date()) => unbump(env, userId, `${scope}:${now.toISOString().slice(0, 10)}`);
+export const unPeriod = (env, userId, scope, period) => unbump(env, userId, `${scope}:${period}`);
+
 // Counts one request from this sender today (UTC); false once they're over `limit` today. The sender is the daily IP
 // hash (lib/form.js), kept as user_id "ip:<hash>". That hash is new every day, so the first request of a day drops
 // the scope's older rows for every sender, not just this one.

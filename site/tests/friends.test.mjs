@@ -257,3 +257,48 @@ test("what players type to add someone, and what a message keeps", () => {
   assert.equal(cleanMessage(" \n "), "");
   assert.equal([...cleanMessage("é".repeat(MESSAGE_MAX + 5))].length, MESSAGE_MAX);
 });
+
+// LOR-674: a friend shows as Willo connected while their Willo has been in touch lately, away after, and nothing at all
+// once they turn "Show when my Willo is on" off; the minute poll's stamp moves when someone comes or goes.
+test("friends see each other as online or away, never more, and only while each shows it", async () => {
+  const sam = await player("sam"), ana = await player("ana");
+  const { bId: anaId } = await befriend(sam, ana);
+  const ana_ = () => (sam.call("list")).then(r => r.body.friends.find(f => f.id === anaId));
+  assert.equal((await ana_()).online, true, "Willo connected");
+  const was = (await sam.call("counts")).body.stamp;
+  const quiet = new Date(Date.now() - 20 * 60e3).toISOString();
+  env.DB.sqlite.prepare("UPDATE devices SET last_used = ? WHERE user_id = ?").run(quiet, ana.user.id);
+  assert.equal((await ana_()).online, false, "away after a while without a word from her Willo");
+  assert.notEqual((await sam.call("counts")).body.stamp, was, "the poll sees her go");
+  assert.doesNotMatch(JSON.stringify((await sam.call("list")).body), new RegExp(quiet), "never when she was last on");
+  const off = await ana.call("online", { show: false });
+  assert.equal(off.body.me.online, false);
+  assert.equal((await ana_()).online, null, "not shown at all once she turns it off");
+  assert.equal((await ana.call("online", { show: true })).body.me.online, true);
+});
+
+// LOR-674: "Willo, send this to Mike": a message may carry a card, whose words stand in for the text for a Willo that
+// shows only text; and the sender can take a message back while it's unread.
+test("a shared quest goes as a card with plain words beside it; an unread message can be taken back", async () => {
+  const sam = await player("sam"), ana = await player("ana");
+  const { aId: samId, bId: anaId } = await befriend(sam, ana);
+  const card = { kind: "quest", title: "The Defias  Brotherhood", detail: "Westfall, from Gryan Stoutmantle", ref: "65" };
+  const sent = (await sam.call("send", { to: anaId, card })).body.message;
+  assert.equal(sent.text, "Shared a quest: The Defias Brotherhood\nWestfall, from Gryan Stoutmantle");
+  assert.deepEqual(sent.card, { kind: "quest", title: "The Defias Brotherhood", detail: "Westfall, from Gryan Stoutmantle", ref: "65" });
+  assert.equal((await sam.call("send", { to: anaId, card: { kind: "gold", title: "1,000 gold" } })).status, 400);
+  assert.equal((await sam.call("send", { to: anaId, card: { kind: "place" } })).status, 400, "a card needs a title");
+  const withText = (await sam.call("send", { to: anaId, text: "Meet me here", card: { kind: "place", title: "Goldshire, Elwynn Forest" } })).body.message;
+  assert.equal(withText.text, "Meet me here");
+  assert.equal((await ana.call("list")).body.friends[0].last.kind, "place");
+
+  // Taken back while unread; not someone else's, not once read.
+  assert.equal((await ana.call("unsend", { id: withText.id })).status, 404);
+  assert.deepEqual((await sam.call("unsend", { id: withText.id })).body, { ok: true, removed: true });
+  assert.equal((await sam.call("unsend", { id: withText.id })).status, 404);
+  const read = (await ana.call("messages", undefined, `?with=${samId}`)).body.messages;
+  assert.deepEqual(read.map(m => m.card?.kind), ["quest"]);
+  assert.equal((await sam.call("unsend", { id: sent.id })).status, 409, "she read it");
+  const mine = (await sam.call("messages", undefined, `?with=${anaId}`)).body.messages;
+  assert.equal(mine[0].seen, true);
+});

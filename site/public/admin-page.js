@@ -2,7 +2,7 @@
 // Content-Security-Policy (public/_headers) runs no inline script, so nothing in a report can run on this page.
 
 import { mergeContacts } from "/admin-contacts.js";
-import { loadCreators } from "/admin-creators.js?v=20261016";
+import { loadCreators } from "/admin-creators.js?v=20261018";
 import { funnelStages } from "/admin-funnel.js";
 import { costsView, dollars, KIND_WORDS } from "/admin-costs.js";
 
@@ -651,7 +651,8 @@ function renderUsage() {
 
 // ---- feature use from every companion install (LOR-435, lib/featureuse.js featureReport) ----
 const PICKS = [
-  ["voice", "Voice", { default: "Default narrator", female: "Female narrator", edition: "An edition's own voice",
+  ["voice", "Voice", { default: "Default narrator", female: "Female narrator",
+                       original: "Original male narrator", edition: "An edition's own voice",
                        other: "Another voice", none: "No narration" }],
   ["lang", "Language shown", null], ["client", "Game client's language", null],
 ];
@@ -814,7 +815,7 @@ function renderFeedback() {
         f.code ? el("span", {}, "Code ", el("code", { text: f.code })) : null,
         f.name ? el("span", { text: f.name + (f.quote_ok ? " (OK to quote)" : "") }) : f.quote_ok ? el("span", { text: "OK to quote" }) : null,
         f.email ? el("a", { href: "mailto:" + encodeURIComponent(f.email).replace("%40", "@"), text: f.email }) : null,
-        el("span", { class: "ad-actions" }, toggle, reject, del)));
+        el("span", { class: "ad-actions" }, toggle, del)));
   }));
 }
 
@@ -917,10 +918,13 @@ function renderContributions() {
   const c = data.contributions || { counts: {}, accepted: 0, batches: [] };
   const total = CB_STATUS.reduce((a, s) => a + (c.counts[s] || 0), 0);
   $("cb-counts").textContent = total
-    ? `${total.toLocaleString()} lines: ` + CB_STATUS.filter(s => c.counts[s]).map(s => `${c.counts[s].toLocaleString()} ${s}`).join(" · ")
-      + ` · ${c.accepted.toLocaleString()} accepted (verified, or single for 48 hours)`
+    ? `${c.accepted.toLocaleString()} accepted and waiting for the nightly import and the next release ` +
+      `(verified, or single for 48 hours) · ${(c.counts.shipped || 0).toLocaleString()} shipped · ` +
+      `${total.toLocaleString()} lines ever: ` + CB_STATUS.filter(s => c.counts[s]).map(s => `${c.counts[s].toLocaleString()} ${s}`).join(" · ")
     : "Nothing shared yet.";
-  badge("n-contrib", total);
+  // The grey badge is what's still on its way in, so it falls as releases ship them (Mike, 10/17: the all-time total
+  // read as a backlog that never moved).
+  badge("n-contrib", c.accepted);
   renderConflicts(c.conflicts || []);
   const box = $("cb-list");
   if (!c.batches.length) { box.replaceChildren(el("tr", {}, el("td", { colspan: "8", class: "ad-empty", text: "No uploads yet." }))); return; }
@@ -1086,11 +1090,13 @@ document.querySelectorAll("[data-crstatus]").forEach(b => b.addEventListener("cl
   loadClipReports();
 }));
 
-// ---- Willo's answers (their own endpoint): flagged answers and the Forever facts ----
-let wStatus = "new";
+// ---- Willo's answers (their own endpoint): Willo quality, the review queue and the Forever facts ----
+let wStatus = "open";
+let wqDays = 7;
 let willo = { feedback: { counts: [], rows: [], zones: [] }, facts: [] };
-async function wApi(method, body) {
-  const r = await fetch("/api/admin/willo", {
+let quality = null;
+async function wApi(method, body, query = "") {
+  const r = await fetch("/api/admin/willo" + query, {
     method, cache: "no-store",
     headers: { Authorization: "Bearer " + key(), ...(body ? { "Content-Type": "application/json" } : {}) },
     body: body ? JSON.stringify(body) : undefined,
@@ -1100,6 +1106,7 @@ async function wApi(method, body) {
   return res;
 }
 async function loadWillo() {
+  loadQuality();
   try { willo = await wApi("GET"); }
   catch (e) {
     $("w-list").replaceChildren(el("p", { class: "ad-empty", text: "Couldn't load Willo's feedback: " + e.message }));
@@ -1107,11 +1114,61 @@ async function loadWillo() {
   }
   renderWillo();
 }
+async function loadQuality() {
+  try { quality = (await wApi("GET", null, "?quality=1&days=" + wqDays)).quality; }
+  catch (e) { $("wq-note").textContent = "Couldn't load Willo quality: " + e.message; return; }
+  renderQuality();
+}
+const rated = r => (r === null || r === undefined ? "–" : (Math.round(r * 1000) / 10) + "%");
+function renderQuality() {
+  const q = quality;
+  if (!q) return;
+  $("wq-note").textContent = q.answers + " kept answers from " + q.players + (q.players === 1 ? " player" : " players") +
+    " (only players with Help improve Willo's answers on)";
+  const tile = (label, num, sub, title = "") => el("div", { class: "ad-tile", ...(title ? { title } : {}) },
+    el("div", { class: "ad-label", text: label }), el("div", { class: "ad-num", text: String(num) }),
+    el("div", { class: "ad-sub", text: sub }));
+  const open = (q.reports.open.new || 0) + (q.reports.open.triaged || 0);
+  $("wq-tiles").replaceChildren(
+    tile("Report rate", rated(q.report_rate), q.reported + " marked Not right of " + q.answers, "Kept answers marked Not right"),
+    tile("Frustration rate", rated(q.frustration_rate), q.missed + " answers missed",
+      "Kept answers followed by a correction, frustration, never mind, the same question again, or typing right after asking out loud"),
+    tile("Failed", rated(q.failure_rate), q.failed + " answers failed"),
+    tile("Voice", rated(q.voice.drop_rate), q.voice.voice_dropped + " never played · " + q.voice.interrupted + " cut off",
+      "Of spoken answers: her voice never played; and how often the player cut her off"),
+    tile("Reports", q.reports.said, q.reports.signals + " signals · " + q.liked + " thumbs up", "Reports players sent (words or taps) in the window, and the queue's signals"),
+    tile("Open in the queue", open, (q.reports.open.triaged || 0) + " triaged · " + q.reports.fixed + " fixed",
+      "New and triaged rows; fixed in the window"));
+  const row = cells => el("tr", {}, ...cells.map(c => el("td", { text: String(c) })));
+  const empty = (n, text) => el("tr", {}, el("td", { colspan: String(n), class: "ad-empty", text }));
+  const topics = q.topics.asked_top;
+  $("wq-asked").replaceChildren(...(topics.length ? topics.slice(0, 13).map(t => row([t.label, t.asked, t.players, t.missed + t.failed, rated(t.miss_rate)]))
+    : [empty(5, "No kept answers yet.")]));
+  const failing = q.topics.failing_top.filter(t => t.missed + t.failed > 0);
+  $("wq-failing").replaceChildren(...(failing.length ? failing.slice(0, 8).map(t => row([t.label, t.asked, t.missed + t.failed, rated(t.miss_rate)]))
+    : [empty(4, "Nothing missed yet.")]));
+  const label = Object.fromEntries(topics.map(t => [t.topic, t.label]));
+  $("wq-questions").replaceChildren(...(q.questions.length ? q.questions.map(x => row([x.question, label[x.topic] || x.topic, x.asked, x.players, x.missed]))
+    : [empty(5, "No question asked twice yet.")]));
+  const i = q.installs;
+  const kinds = o => Object.entries(o).map(([k, n]) => k.replace(/_/g, " ") + " " + n).join(", ") || "none";
+  $("wq-installs").textContent = i.answer + " live answers · " + i.report + " Not right · " + i.like + " thumbs up · " + i.interrupt +
+    " cut off · failed: " + kinds(i.afail) + " · voice: " + kinds(i.vfail) + " · takes: " + kinds(i.take);
+}
+document.querySelectorAll("[data-wqdays]").forEach(b => b.addEventListener("click", () => {
+  wqDays = Number(b.dataset.wqdays);
+  document.querySelectorAll("[data-wqdays]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  loadQuality();
+}));
 async function willoAct(body) {
   try { await wApi("POST", body); } catch (e) { alert("That didn't work: " + e.message); return; }
   loadWillo();
 }
-const W_KINDS = { correction: "Said it's wrong", frustration: "Frustrated", flag: "Flagged" };
+const W_KINDS = { report: "Not right", correction: "Said it's wrong", misheard: "Misheard", frustration: "Frustrated",
+  gave_up: "Gave up", flag: "Flagged", signal: "Signals" };
+const W_REASONS = { wrong_fact: "wrong fact", not_my_question: "didn't answer the question", too_long: "too long",
+  too_short: "too short", couldnt_hear: "couldn't hear her", other: "something else" };
+const W_OPEN = ["new", "triaged"], W_FIXED = ["fixed", "fact"];
 function renderFriendReports() {
   const reports = willo.friendReports || [];
   $("fr-count").textContent = reports.length ? reports.length + " open" : "";
@@ -1131,9 +1188,10 @@ function renderFriendReports() {
 }
 function renderWillo() {
   renderFriendReports();
-  const rows = willo.feedback.rows.filter(r => wStatus === "all" || r.status === "new");
+  const rows = willo.feedback.rows.filter(r => wStatus === "all" || (wStatus === "open" ? W_OPEN.includes(r.status)
+    : wStatus === "fixed" ? W_FIXED.includes(r.status) : r.status === wStatus));
   badge("n-willo", willo.feedback.rows.filter(r => r.status === "new").length + (willo.friendReports || []).length);
-  $("w-count").textContent = rows.length + (rows.length === 1 ? " signal" : " signals");
+  $("w-count").textContent = rows.length + (rows.length === 1 ? " row" : " rows");
   $("w-zones").textContent = willo.feedback.zones.length ? "New by zone: " + willo.feedback.zones.map(z =>
     (z.zone || "unknown") + " " + z.n + (z.players > 1 ? " (" + z.players + " players)" : "")).join(" · ") : "";
   const box = $("w-list");
@@ -1153,19 +1211,32 @@ function renderWillo() {
       willoAct({ action: "fact-add", title, text, zone: r.zone || "", source_url,
         source_title: source_url ? "" : "Checked by Mike", feedback_id: r.id });
     });
-    return el("article", { class: "ad-report" + (r.status === "new" ? "" : " done") },
+    const fixed = button("Fixed", () => {
+      const how = prompt("How was it fixed? fact, lore, prompt, code or voice", "lore");
+      if (!how) return;
+      const ref = prompt("Where (a fact id or PR #), or leave empty:", "") || "";
+      willoAct({ action: "queue-fixed", ids: [r.id], how: how.trim(), ref });
+    });
+    const open = W_OPEN.includes(r.status);
+    const tags = [(r.reasons || []).map(x => W_REASONS[x] || x).join(", "), (r.signals || []).join(", ").replace(/_/g, " "),
+      r.topic, r.source, r.class ? "class: " + r.class.replace(/_/g, " ") : "", r.followup ? "wants to hear when fixed" : ""]
+      .filter(Boolean).join(" · ");
+    return el("article", { class: "ad-report" + (open ? "" : " done") },
       el("div", { class: "ad-report-head" },
         el("span", { class: "ad-kind", text: W_KINDS[r.kind] || r.kind }),
         el("span", { text: [r.sub, r.zone].filter(Boolean).join(", ") + (r.spoken ? " · out loud" : "") }),
-        el("span", { text: "#" + r.id + " · " + fmtDate(r.created) + " · " + r.status + (r.fact_id ? " → " + r.fact_id : "") })),
-      el("p", { class: "ad-msg" }, el("strong", { text: "Player: " }), r.said),
+        el("span", { text: "#" + r.id + " · " + fmtDate(r.created) + " · " + r.status + (r.fact_id ? " → " + r.fact_id : "") +
+          (r.fixed_how ? " (" + r.fixed_how + (r.fixed_ref ? " " + r.fixed_ref : "") + ")" : "") +
+          (r.told_at ? " · told" : "") })),
+      el("p", { class: "ad-msg" }, el("strong", { text: r.kind === "signal" ? "What happened: " : "Player: " }), r.said),
+      tags ? el("p", { class: "ad-msg", text: tags }) : null,
       r.question ? el("p", { class: "ad-msg" }, el("strong", { text: "They had asked: " }), r.question) : null,
       r.answer ? el("p", { class: "ad-msg" }, el("strong", { text: "Willo said: " }), r.answer) : null,
       r.note ? el("p", { class: "ad-msg" }, el("strong", { text: "Checked: " }), r.note) : null,
       el("div", { class: "ad-report-foot" }, el("span", { class: "ad-actions" },
-        r.status === "new" ? fact : null,
-        r.status === "new" ? button("Checked", () => willoAct({ action: "feedback-status", id: r.id, status: "checked" })) : null,
-        r.status === "new" ? button("Dismiss", () => willoAct({ action: "feedback-status", id: r.id, status: "dismissed" }), " ad-danger")
+        open ? fact : null, open ? fixed : null,
+        open ? button("Checked", () => willoAct({ action: "feedback-status", id: r.id, status: "checked" })) : null,
+        open ? button("Dismiss", () => willoAct({ action: "feedback-status", id: r.id, status: "dismissed" }), " ad-danger")
           : button("Reopen", () => willoAct({ action: "feedback-status", id: r.id, status: "new" })))));
   }));
   const facts = willo.facts;

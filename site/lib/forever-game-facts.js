@@ -38,6 +38,86 @@ const KIRIN_TOR = { title: "Icy Veins: Horde players aren't welcome in Dalaran i
 const wiki = page => ({ title: `Warcraft Wiki: ${page} (Forever)`, url: `https://warcraft.wiki.gg/wiki/${page.replace(/ /g, "_")}` });
 const changes = (page, path) => ({ title: `ForeverChanges: ${page}`, url: `https://foreverchanges.pro${path}` });
 const FAVOR = changes("Merchant's Favor", "/merchants-favor");
+const VMANGOS = { title: "The original game's world database (VMaNGOS, patch 1.12)", url: "https://github.com/vmangos/core" };
+const TOWN_DATA = { title: "WoW Forever's own client data: who stands where in its towns (Lore Forever)", url: "" };
+const RIDING_GUIDE = { title: "Warcraft Tavern: riding skill and trainers in WoW Forever",
+  url: "https://www.warcrafttavern.com/forever/guides/riding/" };
+
+// Forever's riding, for the facts below and Willo's goals (lib/willo-goals.js, LOR-665), so both say the same numbers.
+// By riding skill: the level it's trained at, the trainer's price in gold (Warcraft Tavern's guide; Blizzard's panel:
+// learning it gives your first mount) and what a mount from your people's vendor costs (Forever's client, ItemSparse
+// BuyPrice of the level 40 and 60 racial mounts: 20 and 200 gold). honoredOff: off both once you're Honored with your
+// home city (the guide).
+export const RIDING = {
+  75: { name: "Riding", level: 40, gold: 100, mounts: 20, speed: 60 },
+  150: { name: "Journeyman riding", level: 60, gold: 1000, mounts: 200, speed: 100 },
+};
+export const RIDING_HONORED_OFF = 0.1;
+
+// A profession's ranks: the skill each takes it to, and the skill and level a trainer teaches it from. Forever keeps the
+// original professions (Blizzard's panel); its client holds the rank spells (SkillLineAbility: Apprentice, Journeyman,
+// Expert, Artisan for each) but not who teaches them when, so these are the original game's (VMaNGOS npc_trainer, the
+// same for every crafting and gathering profession). Without them she said "Expert at 150" and "Artisan at 225" (the
+// blind check, 10/18).
+export const PROFESSION_RANKS = [
+  { name: "Apprentice", cap: 75, from: 0, level: 5 },
+  { name: "Journeyman", cap: 150, from: 50, level: 10 },
+  { name: "Expert", cap: 225, from: 125, level: 20 },
+  { name: "Artisan", cap: 300, from: 200, level: 35 },
+];
+// Who teaches Artisan, by profession and faction: the trainers Forever's town data titles "Artisan …" (lib/forever-
+// services.js). The gathering professions' Artisan teachers aren't in it, nor the secondary ones' (a quest).
+export const ARTISAN_TRAINERS = {
+  Alchemy: { Alliance: "Ainethil on Darnassus's Craftsmen's Terrace", Horde: "Doctor Herbert Halsey in the Undercity's Apothecarium" },
+  Blacksmithing: { Alliance: "Bengus Deepforge at Ironforge's Great Forge", Horde: "Saru Steelfury in Orgrimmar's Valley of Honor" },
+  Engineering: { Alliance: "Springspindle Fizzlegear in Ironforge's Tinker Town", Horde: "Roxxik in Orgrimmar's Valley of Honor" },
+  Leatherworking: { Alliance: "Telonis on Darnassus's Craftsmen's Terrace", Horde: "Una in Thunder Bluff" },
+  Enchanting: { Alliance: "Kitta Firewind at the Tower of Azora in Elwynn Forest", Horde: "Hgarth at Sun Rock Retreat in Stonetalon Mountains" },
+  Tailoring: { Alliance: "Georgio Bolero in Stormwind's Mage Quarter", Horde: "Josef Gregorian in the Undercity's Magic Quarter" },
+};
+// Each people's riding trainer (Forever's town data, lib/forever-services.js: its client's creatures where they stand)
+// and home city, by the add-on's race token, and the mounts its vendor sells (the client's vendor lists, as the item
+// facts give them; the answer log 10/18: a gnome at Steelgrill's Depot was told mechanostriders aren't mounts). The skyborne's trainer isn't known yet. Willo's goals (lib/willo-goals.js)
+// and the riding-trainers fact say the same: without the fact in play, she sent a human to "the riding trainer in
+// Stormwind's Cathedral District" (the blind check, 10/18).
+export const RIDING_PEOPLES = {
+  Human: { people: "Humans", side: "Alliance", city: "Stormwind", trainer: "Randal Hunter at Eastvale Logging Camp in Elwynn Forest",
+    mounts: "horses", vendor: "Katie Hunter at Eastvale Logging Camp in Elwynn Forest" },
+  Dwarf: { people: "Dwarves", side: "Alliance", city: "Ironforge", trainer: "Ultham Ironhorn at Amberstill Ranch in Dun Morogh",
+    mounts: "rams", vendor: "Veron Amberstill at Amberstill Ranch in Dun Morogh" },
+  Gnome: { people: "Gnomes", side: "Alliance", city: "Gnomeregan Exiles", trainer: "Binjy Featherwhistle at Steelgrill's Depot in Dun Morogh",
+    mounts: "mechanostriders", vendor: "Milli Featherwhistle at Steelgrill's Depot in Dun Morogh" },
+  NightElf: { people: "Night elves", side: "Alliance", city: "Darnassus", trainer: "Jartsam in Darnassus",
+    mounts: "frostsabers", vendor: "Lelanai in Darnassus's Cenarion Enclave" },
+  Orc: { people: "Orcs", side: "Horde", city: "Orgrimmar", trainer: "Kildar in Orgrimmar's Valley of Honor",
+    mounts: "wolves", vendor: "Ogunaro Wolfrunner in Orgrimmar's Valley of Honor" },
+  Troll: { people: "Trolls", side: "Horde", city: "Darkspear Trolls", trainer: "Xar'Ti at Sen'jin Village in Durotar",
+    mounts: "raptors", vendor: "Zjolnir at Sen'jin Village in Durotar" },
+  Tauren: { people: "Tauren", side: "Horde", city: "Thunder Bluff", trainer: "Kar Stormsinger at Bloodhoof Village in Mulgore",
+    mounts: "kodos", vendor: "Harb Clawhoof at Bloodhoof Village in Mulgore" },
+  Scourge: { people: "The Forsaken", side: "Horde", city: "Undercity", trainer: "Velma Warnam in Brill, Tirisfal Glades",
+    mounts: "skeletal horses", vendor: "Zachariah Post in Brill, Tirisfal Glades" },
+};
+// A race by the add-on's token or its English name ("Night Elf", "Undead"), to its RIDING_PEOPLES entry, or null.
+const RACE_NAMES = { "night elf": "NightElf", nightelf: "NightElf", undead: "Scourge", forsaken: "Scourge",
+  scourge: "Scourge", human: "Human", dwarf: "Dwarf", gnome: "Gnome", orc: "Orc", troll: "Troll", tauren: "Tauren" };
+export const ridingPeople = race =>
+  RIDING_PEOPLES[RACE_NAMES[String(race || "").toLowerCase().replace(/\s+/g, " ").trim()] || ""] || null;
+// The riding-trainers fact for a player whose people is known names only theirs: given all eight, she mixed them up
+// (the PM's live runs, 10/18: a human was sent to Unger Statforth, to Bralla Cloudwing and to Katie Hunter "at the
+// Stormwind stables", who sells horses at Eastvale).
+export const ridingTrainerFor = race => {
+  const own = ridingPeople(race);
+  return own && `In WoW Forever each people learns to ride from its own riding trainer. ${own.people} learn from ` +
+    `${own.trainer}.${own.side === "Alliance" ? " There's no riding trainer inside Stormwind." : ""}`;
+};
+// The mounts fact for a player whose people is known: theirs and where they're sold.
+export const ridingMountsFor = race => {
+  const own = ridingPeople(race);
+  return own && `In WoW Forever learning riding gives you your first mount, so you don't buy one. ${own.people} ride ` +
+    `${own.mounts}: ${own.vendor} sells more for ${RIDING[75].mounts} gold each at level ${RIDING[75].level}, and swift ` +
+    `ones for ${RIDING[150].mounts} gold at level ${RIDING[150].level}.`;
+};
 
 export const GAME_FACTS = [
   // Talents and the Legacy system
@@ -178,9 +258,41 @@ export const GAME_FACTS = [
   { id: "system-riding", title: "Riding and mounts", source: PANEL,
     text: "In WoW Forever, as in The Burning Crusade, learning riding gives you your first mount; Blizzard hasn't " +
       "announced flying." },
+  { id: "riding-costs", title: "Riding: level and cost", source: RIDING_GUIDE,
+    text: `In WoW Forever you learn riding at level ${RIDING[75].level} from your people's riding trainer for ` +
+      `${RIDING[75].gold} gold (${RIDING[75].speed}% faster), and it gives you your first mount. Journeyman riding ` +
+      `(${RIDING[150].speed}% faster) is level ${RIDING[150].level} and ${RIDING[150].gold.toLocaleString("en-US")} gold. ` +
+      `Once you're Honored with your home city, both cost ${RIDING_HONORED_OFF * 100}% less.` },
+  { id: "riding-trainers", title: "Riding trainers", source: CLIENT,
+    text: "In WoW Forever each people learns to ride from its own riding trainer: " + Object.values(RIDING_PEOPLES)
+      .map(p => `${p.people} from ${p.trainer}`).join("; ") + ". There's no riding trainer inside Stormwind." },
+  { id: "profession-ranks", title: "Profession ranks and when to train them", source: VMANGOS,
+    text: "In WoW Forever, as in the original game, each profession has four ranks, learned from a trainer: " +
+      PROFESSION_RANKS.map(r => `${r.name} takes your skill to ${r.cap}` + (r.from ? `, taught from skill ${r.from} at ` +
+        `level ${r.level}` : "")).join("; ") + ". You can learn the next rank as soon as you have its skill and level, " +
+      "well before you reach your cap. Cooking, First Aid and Fishing learn Expert from a book and Artisan from a quest." },
+  { id: "artisan-trainers", title: "Artisan trainers", source: TOWN_DATA,
+    text: "In WoW Forever Artisan (skill 200 to 300) is taught by one trainer per profession for each side: " +
+      Object.entries(ARTISAN_TRAINERS).map(([p, t]) => `${p}: ${t.Alliance} (Alliance), ${t.Horde} (Horde)`).join("; ") + "." },
+  { id: "riding-mounts", title: "Mounts from your people's vendor", source: CLIENT,
+    text: `In WoW Forever learning riding gives you your first mount, so you don't buy one. Only if you want more, your ` +
+      `people's mount vendor sells them for ${RIDING[75].mounts} gold each at level ${RIDING[75].level}, and swift ones ` +
+      `for ${RIDING[150].mounts} gold at level ${RIDING[150].level}.` },
   { id: "system-professions", title: "Professions in WoW Forever", source: PANEL,
     text: "WoW Forever keeps the original professions with over 600 new recipes; Blizzard hasn't announced " +
       "Jewelcrafting or Inscription. Camping gives each profession camp objects." },
+  // What gear carries in this age (the 10/18 cause grid: a hunter told to stack Haste and critical strike rating,
+  // from a look-up of today's game). From Forever's own item tables: no item has a rating, and its only "haste" is an
+  // attack-speed enchant.
+  { id: "system-gear-stats", title: "Gear stats in WoW Forever", source: CLIENT,
+    text: "Gear in WoW Forever carries Strength, Agility, Stamina, Intellect and Spirit, armor and resistances, attack " +
+      "power, spell damage and healing, and percent chances, such as \"Improves your chance to hit by 1%\" or \"to get " +
+      "a critical strike by 1%\". There are no stat ratings, and no haste, mastery or versatility stats." },
+  // "What are gems for?" got lore about druids' gems (the 10/18 cause grid). From Forever's item tables.
+  { id: "system-gems", title: "Gems in WoW Forever", source: CLIENT,
+    text: "Gems in WoW Forever, such as Tigerseye, Malachite, Shadowgem, Moss Agate, Jade and Citrine, are trade goods: " +
+      "blacksmiths and engineers use them most, leatherworkers, tailors and enchanters in a few recipes, and they " +
+      "sell to vendors or other players. Gear has no gem sockets, and there's no Jewelcrafting." },
   { id: "system-pvp-ranks", title: "PvP ranks", source: PVP,
     text: "WoW Forever's PvP ranks 1 to 14 are earned with Rank Points from battlegrounds, PvP quests and each " +
       "season's weekly tasks, with a weekly cap; rewards include mounts at rank 11 and epic weapons at 14." },
@@ -214,10 +326,13 @@ export const GAME_FACTS = [
     text: "Zephras Isle, the skyborne starting zone for levels 1 to 12, is a floating island in Skywall, the " +
       "Elemental Plane of Air; Valanaar is its hub. Skyborne reputations are the High Order (Alliance), the " +
       "Windshapers (Horde) and the Nightclaw Druids of its Shadowgale Forest." },
+  // The last sentence (10/18, "How do I get Thunderfury?") follows the roadmap, whose three raids leave Molten Core and
+  // Blackwing Lair out (foreverchanges.pro names no raids). When Blizzard announces either, change it here.
   { id: "raid-schedule", title: "When WoW Forever's raids open", source: ROADMAP,
     text: "WoW Forever's raids open on 9 December 2026: the Barrow Deeps (10 players), Hyjal Summit (20) and " +
       "Onyxia's Lair (40). The Barrow Deeps are where Illidan Stormrage was imprisoned for ten thousand years, until " +
-      "Tyrande freed him in the Third War." },
+      "Tyrande freed him in the Third War. Molten Core and Blackwing Lair aren't among the raids announced so far, " +
+      "so their gear and the legendary weapons from them, such as Thunderfury and Sulfuras, can't be earned for now." },
   { id: "rep-kirin-tor", title: "Kirin Tor reputation", zone: "Alterac Mountains", source: KIRIN_TOR,
     text: "The Kirin Tor are an Alliance reputation in WoW Forever: Horde characters start Hated and don't get full " +
       "access to Dalaran, though Horde groups can run the City of Dalaran dungeon through their own quests." },

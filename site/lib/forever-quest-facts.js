@@ -36,6 +36,11 @@ const QUEST_WORDS = /\b(?:quests?|turn in|hand in|starts?|started|gives?|gave|gi
 // only right after "where is", "who is", "find", "talk to".
 const ONE_WORD_NAME = name => new RegExp(String.raw`\b(?:where(?:'s| is| can i find)|who(?:'s| is)|find|talk to|speak (?:to|with)) (?:the )?${name}\b`, "i");
 const NEVER = new Set(["willow", "willo"]);
+// A first name alone ("I don't see Deneb, the first aid trainer"), the answer log 10/18: only a townsperson's (one with
+// a title: a trainer, a vendor) whose first name no one else has and that isn't a word of a quest title or another name,
+// and only right after "where is", "see", "find", "looking for".
+// (Never after "the": "where is the count?" asks for a kind of person, not Count Remington Ridgewell.)
+const FIRST_NAME = name => new RegExp(String.raw`\b(?:where(?:s| is| can i find| do i find)|who(?:s| is)|find|see|seen|looking for|talk to|speak (?:to|with)) ${name}\b`, "i");
 // Their target, only when the question points at it.
 const POINTED = /\b(?:he|him|his|she|her|they|them|this (?:guy|person|npc|one)|that (?:guy|person|npc|one)|who(?:'s| is) this)\b/i;
 
@@ -66,7 +71,20 @@ function indexes() {
     const key = significant(name).join(" ");
     if (key && !NEVER.has(key)) names.set(key, name);
   }
-  return (index = { titles, names });
+  const words = new Set([...titles.keys()].flatMap(k => k.split(" ")));
+  const counts = new Map();
+  for (const name of Object.keys(NPCS)) {
+    const [first, ...rest] = tokens(name);
+    rest.forEach(w => words.add(w));
+    if (rest.length) counts.set(first, (counts.get(first) || 0) + 1);
+  }
+  const firsts = new Map();
+  for (const [name, [title]] of Object.entries(NPCS)) {
+    const [first, ...rest] = tokens(name);
+    if (rest.length && title && !name.startsWith('"') && first.length >= 5 && counts.get(first) === 1 && !words.has(first) &&
+      !/(?:ed|ing|ly|ous|ful)$/.test(first) && !NEVER.has(first)) firsts.set(first, name);
+  }
+  return (index = { titles, names, firsts });
 }
 
 // The keys (title or name words) the question has every word of, longest first.
@@ -111,10 +129,30 @@ const unconfirmed = text => text.replace(/ in the original game\b/g, "");
 
 // The quests and NPCs this question is about, as facts (asked: they answer it, so no quick look-up). A character's
 // reply gets none: these speak of the game, its data and map coordinates.
+// A quest the question means by what it rewards ("doing this quest for my whirlwind axe": the item facts say it's a
+// reward from Whirlwind Weapon), with the rest of its chain: the other quests its giver gives there, in order. Bath'rah's
+// Cyclonian holds what to collect (Liferoot, Bloodscalp Tusks, the Essence of the Exile), and Willo had made up "forty
+// Bloodtalon Prey" (the gold set, 10/18).
+export function questChain(title, { faction = "" } = {}) {
+  const { titles } = indexes();
+  faction = /^(alliance|horde)$/i.test(faction) ? faction[0].toUpperCase() + faction.slice(1).toLowerCase() : "";
+  const id = (titles.get(significant(title).join(" ")) || []).find(i => QUESTS[i][0].toLowerCase() === title.toLowerCase())
+    || Object.keys(QUESTS).find(i => QUESTS[i][0].toLowerCase() === title.toLowerCase());
+  if (!id) return [];
+  // Its chain: quests started at the same place (Bath'rah or Bath'rah's Cauldron, in Chillwind Point) within five
+  // levels of it, so his level-52 elementals stay out.
+  const place = q => /\bin (.+)$/.exec(q[4] || "")?.[1]?.replace(/ in the original game$/, "").replace(/ \(\d+, \d+\)$/, "") || "";
+  const here = place(QUESTS[id]), level = QUESTS[id][1];
+  const chain = Object.keys(QUESTS).filter(i => i !== id && here && place(QUESTS[i]) === here &&
+    Math.abs(QUESTS[i][1] - level) <= 5 && (!QUESTS[i][3] || !faction || QUESTS[i][3] === faction))
+    .sort((a, b) => Number(a) - Number(b));
+  return [id, ...chain].slice(0, MAX_QUESTS + 1).map(i => questText(i, faction)).filter(Boolean);
+}
+
 export function questFacts({ question = "", zone = "", level = "", faction = "", target = "", quests = [] } = {},
   { character = false } = {}) {
   if (character || !question) return [];
-  const { titles, names } = indexes();
+  const { titles, names, firsts } = indexes();
   faction = /^(alliance|horde)$/i.test(faction) ? faction[0].toUpperCase() + faction.slice(1).toLowerCase() : "";
   const ids = [];
   const logged = quests.map(q => String(q.id)).filter(id => QUESTS[id]);
@@ -149,14 +187,20 @@ export function questFacts({ question = "", zone = "", level = "", faction = "",
   }
   const facts = [...new Set(ids)].slice(0, MAX_QUESTS).map(id => questText(id, faction)).filter(Boolean);
   const about = POINTED.test(question) ? `${question} ${target}` : question;
-  for (const key of named(about, names.keys()).slice(0, MAX_NPCS + 2)) {
-    if (facts.filter(f => f.title.startsWith("NPC:")).length >= MAX_NPCS) break;
-    if (!key.includes(" ") && !ONE_WORD_NAME(key).test(about)) continue;
-    const name = names.get(key);
+  const npc = name => {
     const [title, where] = NPCS[name];
     // Its zone, for the way there (lib/forever-place-facts.js): "in Thendal Village, Zephras Isle (42, 24) or ...".
     const zone = unconfirmed(where).split(" or ")[0].replace(/^in /, "").replace(/ \(\d+, \d+\)$/, "").split(", ").at(-1);
     facts.push({ title: `NPC: ${name}`, text: unconfirmed(`${name}${title ? ` <${title}>` : ""} is ${where}.`), zone });
+  };
+  for (const key of named(about, names.keys()).slice(0, MAX_NPCS + 2)) {
+    if (facts.filter(f => f.title.startsWith("NPC:")).length >= MAX_NPCS) break;
+    if (!key.includes(" ") && !ONE_WORD_NAME(key).test(about)) continue;
+    npc(names.get(key));
+  }
+  if (!facts.some(f => f.title.startsWith("NPC:"))) {
+    const first = [...new Set(tokens(about))].find(w => firsts.has(w) && FIRST_NAME(w).test(about.replace(/['’]/g, "")));
+    if (first) npc(firsts.get(first));
   }
   return facts.map(f => ({ ...f, asked: true, sources: QUEST_SOURCES }));
 }

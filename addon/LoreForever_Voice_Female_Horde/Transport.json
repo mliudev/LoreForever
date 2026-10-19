@@ -1352,6 +1352,32 @@
       },
       "text": "Agama'gor. Agama'gor is a major Bristleback quilboar encampment situated in the southern Barrens, nestled just north of the road leading west toward Mulgore from Camp Taurajo. It represents a constant thorn in the side of the nearby Horde outpost, teeming with hostile quilboar fiercely clinging to their rugged territory. Sprawling across the dusty plains of the southern Barrens, Agama'gor serves as a fortified settlement for the aggressive Bristleback tribe of quilboar. Located dangerously close to Camp Taurajo, the quilboar here maintain a dense network of brambles, huts, and crude totems. Their heavy presence poses an active threat to travelers moving between the Barrens and the grassy hills of Mulgore, prompting Horde scouts and hunters to wage a perpetual war of containment against them. Beyond the general animosity between the Horde and the quilboar, Agama'gor is a prime source of the mysterious, crimson stones known as Blood Shards. Found on the Bristleback inhabiting this village, these geomantic minerals are prized by Mangletooth, a quilboar exile held captive at Camp Taurajo. Driven by ancient beliefs tied to Agamaggan's sacred essence, adventurers often raid Agama'gor to harvest these shards and trade them for potent tribal charms."
     },
+    "subzone:agamand-mills": {
+      "1": [
+        {
+          "duration": 88.18938775510205,
+          "file": "Audio/Transport/full_subzone_agamand-mills-d48a0a3f41b62a555330/1-0000.mp3",
+          "sha256": "2f76d258f81981bb1e5c3020d3f42e7113ef7b1cb6d346ef58f600d26ba0f4b8",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "fae041",
+      "generation": "b29955f5f7d8c7698038",
+      "hash": "6bc02f",
+      "source": {
+        "duration": 88.21551,
+        "file": null,
+        "sha256": "d48a0a3f41b62a55533026387030ba098c53678676f8a4b212816b25adcbce19"
+      },
+      "text": "Agamand Mills. Agamand Mills is a sprawling farm and windmill complex nestled in the northern heights of Tirisfal Glades. Once the proud estate of the wealthy Agamand dynasty, it has fallen into ruin and stands as the largest Scourge stronghold in the region. The wealthy Agamand family built their estate around a vast milling network across northern Tirisfal. When the Third War broke out and the Scourge swept across Lordaeron, the patriarch Gregor Agamand refused to flee, fortifying the compound and convincing his retainers and laborers to make their stand. Their provisions and stone walls might have held, but their youngest son, Devlin Agamand, betrayed his blood. Devlin slaughtered the estate watchmen and let the walking dead into the sleeping quarters. Crippled from within, the remaining defenders were wiped out, and the family joined the mindless ranks of the undead. Today, the Agamand Mills are the most entrenched bastion of the Scourge in Tirisfal Glades, posing an immediate threat to the Forsaken realm. The rotting windmills now churn above infested fields of wights, zombies, and skeletal horrors. Beneath the estate, Captain Dargol commands the garrison from the deep Agamand Family Crypt, practicing necromancy to reanimate generations of Agamand ancestors. From Brill, Magistrate Sevren and the Deathguards wage an active campaign to clear the mills and purge the Scourge presence before it can march upon the Undercity."
+    },
     "subzone:ambermill": {
       "1": [
         {
@@ -2235,6 +2261,32 @@
         "sha256": "86619dab861ce8be04a5217e1f598469ec2f95d025e40b887a83c1957bfe853f"
       },
       "text": "Garren's Haunt. Garren's Haunt is an abandoned farmstead nestled in northern Tirisfal Glades. Once a prosperous human homestead, the farm fell to ruin when the Scourge wiped out the Garren family, leaving the overgrown grounds overrun by feral Rot Hide gnolls. Before the Third War, this farmstead supported a family and produced bountiful harvests under the Kingdom of Lordaeron. When the Plague of Undeath swept across the countryside, the Scourge descended upon the farm and slaughtered Garren and his kin. Today, the fields lie gray and withered, the farmhouse and barn decaying under the perpetual gloom of Tirisfal. Rather than standard Scourge patrols, Garren's Haunt has been claimed by the Rot Hide gnolls—a pack of undead-tainted scavengers led by the vicious Maggot Eye. These scavengers aggressively defend their reclaimed territory, picking clean whatever remains of the farm and savaging any travelers or Forsaken patrols passing along northern Tirisfal."
+    },
+    "subzone:gates-of-orgrimmar": {
+      "1": [
+        {
+          "duration": 77.19183673469388,
+          "file": "Audio/Transport/full_subzone_gates-of-orgrimmar-14132303be2950d2c71a/1-0000.mp3",
+          "sha256": "5fea5f1403b4e4fa41e395400f5e46ce8172ba58bf7ac48f50a185fbae490402",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "58a8fd",
+      "generation": "2eb006ff49b80b2b8fd9",
+      "hash": "ed08c0",
+      "source": {
+        "duration": 77.191837,
+        "file": null,
+        "sha256": "14132303be2950d2c71a5fb4d1213163211cfe2262fb351411f428c36439e4f0"
+      },
+      "text": "Gates of Orgrimmar. The Gates of Orgrimmar form the imposing southern threshold of the Horde capital, carved directly into the red rock of northern Durotar. Flanked by heavy timber and iron battlements, this grand entryway connects the arid wastes outside to the busy commons of the Valley of Strength. It stands as a physical declaration of orcish endurance and martial strength. Framed by towering wooden palisades, massive iron spikes, and fortified watchtowers, the main gate guards the primary chasm cutting into the mountains sheltering Orgrimmar. For travelers approaching from Razor Hill and the scrublands of Durotar, the entrance serves as both a welcoming monument and a stark deterrent to any who would threaten the new Horde. Heavily armed Orgrimmar Grunts patrol the approach, keeping vigilant watch over all traffic entering the city. Passing beneath the shadowed arch of the gates leads directly into the Valley of Strength, the civic and martial heart of Orgrimmar. The gate tunnel acts as an acoustic and tactical bottleneck, funneling envoys, merchants, and warriors past watchful sentries. It represents the realization of Warchief Thrall's dream: a secure sanctuary carved from the harsh desert where the disparate peoples of the Horde can walk united without fear."
     },
     "subzone:gold-road": {
       "1": [
@@ -3683,12 +3735,6 @@
       964,
       1247
     ],
-    "28b6544607cb8f196be04a6a708e290b03913e4b28733b42c4147a981ceb61ee": [
-      589,
-      938,
-      1437,
-      1928
-    ],
     "2ad1759ada1a530e960abe4a7c0f07b7c63fd720c6a2019305cc4f21f90e7bbe": [
       251,
       866,
@@ -3747,6 +3793,14 @@
       1126,
       2118,
       2673
+    ],
+    "2f76d258f81981bb1e5c3020d3f42e7113ef7b1cb6d346ef58f600d26ba0f4b8": [
+      842,
+      1288,
+      1751,
+      2398,
+      2635,
+      3040
     ],
     "32fb144c2ac0d298b1386229c814b25fb1f2934f3d0cff1b630c48cb9d9ce254": [
       874,
@@ -4022,6 +4076,13 @@
       1049,
       1400,
       1955
+    ],
+    "5fea5f1403b4e4fa41e395400f5e46ce8172ba58bf7ac48f50a185fbae490402": [
+      359,
+      718,
+      1951,
+      2262,
+      2579
     ],
     "601fca41b5c258bac88d50d23b5b5f4c0372feee52d4a174295d453e3cd433bf": [
       941
@@ -4890,9 +4951,6 @@
       855,
       1297
     ],
-    "ee3c500da5bb3a74a74163cb7663a0896d6c7d40ac64b2d4ed31830c45a4a107": [
-      659
-    ],
     "eefc03e6be88e49db935b9b35d880f151d34919710cca56f1aac32c5ed72609d": [
       947,
       1312,
@@ -5029,147 +5087,5 @@
     ]
   },
   "pack": "LoreForever_Voice_Female_Horde",
-  "retired": [
-    {
-      "file": "Audio/Transport/full_npc_baine-bloodhoof-5ebcba5c495d93bbe2e0/1-0000.mp3",
-      "sha256": "06160c89d09a8ef691aba7aa52e583d6e0ad50c324d5d18b312667c0d4a17dcc"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_drygulch-ravine-aa003537faff01378413/1-0000.mp3",
-      "sha256": "12263324bc440734202421bf62145024a307fa0822142606ce241baf99e7c9e5"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_elder-rise-cc425221c6e7925327bd/1-0000.mp3",
-      "sha256": "da5ee98c4ac36c211b57180fb6180a0454c6a31b28423c30f2ce4cd5476f645d"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_razor-hill-d49d07938c5ea7068e08/1-0000.mp3",
-      "sha256": "0b776fdff5a6a12470bf2ad9db82835cada53ad953917a9e26e4f4bea5749209"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_razorwind-canyon-87ed2d2070498e35dadd/1-0000.mp3",
-      "sha256": "dab9aa9f953ed06bda98b8f7529a4a1b0155e053eb4319591dd95fa48ed5fe41"
-    },
-    {
-      "file": "Audio/Transport/full_npc_arugal-21a33363f11d258b25d8/1-0000.mp3",
-      "sha256": "505d03e95dd68e71ce0f929ab9e4024cecc8623d99f1a041d82e1449e0c5656d"
-    },
-    {
-      "file": "Audio/Transport/full_npc_canaga-earthcaller-7a65589a53391553ec54/1-0000.mp3",
-      "sha256": "f89c61888ce87a1feccc646f9e7a1e752c9710d4aa8ae400f8a2b0c8170ce5a2"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_ambermill-92b1c304b401cf6ee3c0/1-0000.mp3",
-      "sha256": "aa71e9fe27bb9aa6f577cf34994e8b076752185ee36def7f5c242586407a1179"
-    },
-    {
-      "file": "Audio/Transport/full_npc_anastasia-hartwell-91a6cdfcf810f6905cc6/1-0000.mp3",
-      "sha256": "7877a7198ccb6484f8fad5a9e03bb3fc8d134c5bfe4b6ced64460a8c231d0275"
-    },
-    {
-      "file": "Audio/Transport/full_npc_baine-bloodhoof-533d1c6f8ea65e3f5fd4/1-0000.mp3",
-      "sha256": "94552b543944af20cf1861ffb76f3fc6a46a12b7984629715ecf2b8ae065c199"
-    },
-    {
-      "file": "Audio/Transport/full_npc_brewmaster-drohn-67b100d9314b6e15902e/1-0000.mp3",
-      "sha256": "a27fc68f6b5c8c98cfd9d3cd93bff5acb44b457a1b65dd6a61fbe783438e005f"
-    },
-    {
-      "file": "Audio/Transport/full_npc_cairne-bloodhoof-8674c1d49fdd824e7095/1-0000.mp3",
-      "sha256": "49d0acb89f53b78b0e5ad3c15e36de41a1d9b278c53fe1c1fffb6d92072f0de2"
-    },
-    {
-      "file": "Audio/Transport/full_npc_coleman-farthing-828a23ab3e2821fcdf06/1-0000.mp3",
-      "sha256": "ff9393ab3a21f57e0933ef8150aa36cc9e540abc3361c98646d7e02f09ad1708"
-    },
-    {
-      "file": "Audio/Transport/full_npc_dalar-dawnweaver-d1c850a64b54ee51884a/1-0000.mp3",
-      "sha256": "fd45dc3d4d4dad4363cc961448b11f4879d816f4cfb28b54ce9962282250fd39"
-    },
-    {
-      "file": "Audio/Transport/full_npc_darsok-swiftdagger-52b8d1d182c9486b586a/1-0000.mp3",
-      "sha256": "5eb3578bae6121356b48a6bc432e843091cb114be7db5ec7b008742a7edd1fa9"
-    },
-    {
-      "file": "Audio/Transport/full_npc_devrak-02b7421cf3bfbc9c847c/1-0000.mp3",
-      "sha256": "39d6a94b380d3e48dac7ddbb4eeafbace5d69c5fc00ae7a45250c0b8cca61a48"
-    },
-    {
-      "file": "Audio/Transport/full_npc_gazrog-fa40cc4ec0a53c748f1d/1-0000.mp3",
-      "sha256": "60388ef7cca3e14b17fc48a667bb869600f137811a1600aa047f6b2a939a7fbd"
-    },
-    {
-      "file": "Audio/Transport/full_npc_kadrak-dacf444ef9dd43f4d0b3/1-0000.mp3",
-      "sha256": "e02f67a62e207c5553a78dce77c982f14386c9002232594127b5579db5a46e1e"
-    },
-    {
-      "file": "Audio/Transport/full_npc_shadow-priest-allister-69c84b4ab70a81d70166/1-0000.mp3",
-      "sha256": "0af78832d401e22c0d96f53d8823fe6453c1b1e594c588522727373e634691b0"
-    },
-    {
-      "file": "Audio/Transport/full_npc_thork-cd130321249473365731/1-0000.mp3",
-      "sha256": "d15f2ac797bf86045218e848eea2116e8cc25bd80f7494bd0c47763d9ff183bc"
-    },
-    {
-      "file": "Audio/Transport/full_npc_varimathras-6951430949c2d5f0f3f9/1-0000.mp3",
-      "sha256": "3ea7ffd7edd81d59dc96a9d8fe3a5683457ef1664a926ca4ae869f9536d1ac99"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_ambermill-7ff45bd298226d80ba8e/1-0000.mp3",
-      "sha256": "01e5c0f95ac859e6be9d949d084274d164b2d03cc503579b069a97e6f0b361de"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_bladefist-bay-fbd6f1fc872bad878b9e/1-0000.mp3",
-      "sha256": "8a23ba2d5c5aa64e343dad7a8f0f09b97a07c3050455431004c9b4042a982082"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_bloodhoof-village-89b4998e84668f9078ff/1-0000.mp3",
-      "sha256": "f3919ed39d08b6bee76f410324e8235b6fbe13aaedf0586f62d0c598e6576fac"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_cleft-of-shadow-9be75ff8f1c8e98ce66d/1-0000.mp3",
-      "sha256": "8168d880ec9627fc40d0b2164f487581b3489f425f4a06c3a58717b04d151feb"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_drygulch-ravine-1c6591d296e278d350e0/1-0000.mp3",
-      "sha256": "08d2e9b2c77699f7b3bdd0ef24c7b01944ee3b5b3af8fd085fc930c0745983dd"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_grol-dom-farm-d144e044eeec17644d22/1-0000.mp3",
-      "sha256": "3e31ef7c8cd714d4c818e4a2e478157fa90dc90477cbbd1cac89c0c0a1f1089f"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_hall-of-legends-0137c1d099f096193841/1-0000.mp3",
-      "sha256": "d382170f4542ac113a4497654c4221b1dcb588d9b3750973ed851f2e7ee15431"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_kodo-rock-8d63f75c34e604cf7676/1-0000.mp3",
-      "sha256": "cd70e1cd5ea92afb11ce6cddb60f7aa9c4cbf790b5957f256c6e1475637ca40a"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_north-tide-s-run-79092869f2e6de0c8897/1-0000.mp3",
-      "sha256": "93d55404e48a8b7962c61c683766eb7cf5f464bef6f5367ab7fc9c3ec21095fa"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_razor-hill-watchtower-f2d7e71322d8862684c5/1-0000.mp3",
-      "sha256": "2f1675d8cf61bb0332dcaa276daa117068f036d71ee88ae1dffedc70e51827f4"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_red-rocks-bacba831c6511d5bf230/1-0000.mp3",
-      "sha256": "738e27ef5ca8b9ccf8e584f711088feb89469a3f518c7829045cecba683fd4db"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_scuttle-coast-f17172ce150c7fed904c/1-0000.mp3",
-      "sha256": "d8eb5800b23712fe3819c8770db8d1d84a2d42ad5f1448bee3263b23ee0081f7"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_solliden-farmstead-2e96daf56054faccf5a8/1-0000.mp3",
-      "sha256": "5ffa8c2ef966eb4bf244eb4210098cf080355bea55abcae594c00f8d7cb619a9"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_the-den-011180c8a5dfe680b5db/1-0000.mp3",
-      "sha256": "476596f58a2bdcb0b4b30c8e9578e6f23edc69ec25ed345eac951d5fdfc19285"
-    }
-  ],
   "version": 1
 }

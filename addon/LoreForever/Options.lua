@@ -12,6 +12,10 @@ Options.DEFAULTS = {
   storylines = true,       -- say a quest is part of a storyline, under its title and on its entry (Storyline.lua)
   storylineChat = true,    -- turning in a storyline quest names who gives the next one (Storyline.OnTurnIn)
   floatPlayer = true,      -- the narration player floats on screen while the panel is closed (UI.UpdateNowPlaying)
+  -- The words of the narration playing, on screen in step with the voice while the panel is closed (Subtitles.lua,
+  -- LOR-344); subtitleScale is Subtitle size (Subtitles.SCALES), subtitlePos where it was Shift-dragged to.
+  subtitles = true,
+  subtitleScale = 1,
   reportCross = true,      -- a cross on the narration player that reports the recording (ClipReport.lua, LOR-232);
                            -- the player's right-click menu offers it either way (turned on once for older installs:
                            -- Log.Init's featuresOn)
@@ -537,6 +541,10 @@ function Options.VoiceSection(c, anchor)
     section.items = items
   end
 
+  function section.MakeRows(n)
+    for i = 1, n do row(i):Hide() end
+  end
+
   -- A sample started or stopped (Voice.Preview, Voice.Stop, or it ended): relabel the Sample buttons.
   function section.UpdateSamples()
     for _, r in ipairs(rows) do
@@ -572,7 +580,8 @@ local function rows()
     { "storylineChat", L["Storyline hints in chat"], L["When you turn in a quest that's part of a storyline, say in chat who to see next."] },
     { "minimap", L["Minimap button"], L["Also show a book button on the minimap."] },
     { "questButton", L["Lore button on the quest window"], L["A Lore button on the quest giver's window opens the quest's story. It keeps clear of other add-ons' buttons; Shift-drag it to put it somewhere else. Untick to hide it: the story is still in the Lore Forever panel."] },
-    { "floatPlayer", L["Floating player"], L["While the panel is closed, show the narration player on screen when something plays or is queued. Drag it to move it."] },
+    { "floatPlayer", L["Floating player"], L["While the panel is closed, show the narration player on screen when something plays or waits in your playlist. Drag it to move it."] },
+    { "subtitles", L["Subtitles"], L["While a narration plays and the panel is closed, show its words at the bottom of the screen, in step with the voice. Shift-drag them to move them; Reset windows puts them back."] },
     { "reportCross", L["Show the report button on the narration player"], L["A small cross on the player to tell us a narration sounds wrong: a name said wrong, the wrong voice, cut off. Right-clicking the player offers it too."] },
     { "typing", L["Typing animation"], L["Answers type in quickly. Click an answer to show it all at once."] },
     { "chatLinks", L["Clickable names in answers"], L["Names of places, people and events in an answer open their own story. Shift-click one to add it to your playlist."] },
@@ -703,6 +712,39 @@ local function sizeSection(c, anchor)
   return btn
 end
 
+-- Subtitle size, beside Panel size: how big the subtitles' words are. A pick shows a sample for a few seconds, over
+-- the settings window, so you see the size and where they go.
+local function subtitleSizeSection(c, anchor)
+  local head = heading(c, L["Subtitle size"], anchor, 18)
+  head:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", -2, -18)   -- level with Panel size's heading, not its button
+  local btn, list = dropDown("LoreForeverSubtitleSizePick", c, 200)
+  btn:SetPoint("TOPLEFT", head, "BOTTOMLEFT", 2, -6)
+  local names = { L["Small"], L["Normal"], L["Large"], L["Larger"] }
+  local function items()
+    local out, label = {}, nil
+    local cur = ns.Subtitles.Scale()
+    for i, v in ipairs(ns.Subtitles.SCALES) do
+      out[i] = { value = v, label = string.format("%s (%d%%)", names[i] or "", math.floor(v * 100 + 0.5)) }
+      if v == cur then label = out[i].label end
+    end
+    return out, cur, label or out[2].label
+  end
+  function btn.Update()
+    local _, _, label = items()
+    btn:SetText(label)
+  end
+  btn:SetScript("OnClick", function()
+    local all, cur = items()
+    list.Toggle(all, cur, function(ch)
+      ns.Subtitles.SetScale(ch.value)
+      ns.Subtitles.Sample()
+      btn.Update()
+    end)
+  end)
+  btn.Update()
+  return btn
+end
+
 function Options.Create()
   if Options.panel then return Options.panel end
   local p = CreateFrame("Frame", "LoreForeverOptions")
@@ -764,6 +806,7 @@ function Options.Create()
         ns.Hooks.UpdateQuestPlayButton()
       end
       if (key == "floatPlayer" or key == "reportCross") and ns.UI.UpdateNowPlaying then ns.UI.UpdateNowPlaying() end
+      if key == "subtitles" and ns.Subtitles then ns.Subtitles.Set(self:GetChecked()) end
       if key == "onDemand" then ns.Voice.SetOnDemand(self:GetChecked()) end
       if key == "getWillo" and ns.UI.UpdateWilloIcon then ns.UI.UpdateWilloIcon() end
       if key == "questDialogue" then ns.Voice.SetQuestDialogue(self:GetChecked()) end
@@ -927,9 +970,14 @@ function Options.Create()
   p.willoNote = willoNote
   p.updateWillo()
   local sizeBtn = sizeSection(c, willoEnd)
-  p.updateSize = sizeBtn.Update
+  local subtitleBtn = subtitleSizeSection(c, sizeBtn)
+  p.updateSize = function() sizeBtn.Update(); subtitleBtn.Update() end
   local bottom
-  p.voice, bottom = Options.VoiceSection(c, sizeBtn)
+  p.voice, bottom = Options.VoiceSection(c, subtitleBtn)
+  -- The voice rows are made now, hidden, not as the settings window first shows the page: a frame made on an open game
+  -- window taints the controller interface (LOR-481, Context.GamepadUI). One per voice installed, and "auto"; filling
+  -- them waits for the page, since that loads packs.
+  p.voice.MakeRows(#ns.Packs.List("voice") + 1)
   p:SetScript("OnShow", function(self)
     for _, cb in ipairs(self.checks) do
       local ticked = LoreForeverDB.settings[cb.key]
@@ -994,11 +1042,15 @@ function Options.Open()
 end
 
 -- Right-click on the minimap button: close the settings window if it's showing Lore Forever's page,
--- otherwise open it there (also when it's open on another add-on's page).
+-- otherwise open it there (also when it's open on another add-on's page). With the controller interface on it only
+-- opens (the controller's Back closes it): a window closed from our code taints the controller (LOR-481). Opening is
+-- safe either way, as the game opens the window itself (SETTINGS_PANEL_OPEN).
 function Options.Toggle()
   local p, win = Options.panel, _G.SettingsPanel or _G.InterfaceOptionsFrame
   -- The window itself must be showing: until it first displays our page, the page has no parent and counts as
   -- visible on its own, which made the first right-click try to close a window that wasn't open.
-  if p and win and win:IsShown() and p:IsVisible() and _G.HideUIPanel then return HideUIPanel(win) end
+  if p and win and win:IsShown() and p:IsVisible() and _G.HideUIPanel and not ns.Context.GamepadUI() then
+    return HideUIPanel(win)
+  end
   Options.Open()
 end

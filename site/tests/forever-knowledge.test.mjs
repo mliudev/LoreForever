@@ -87,7 +87,9 @@ test("asking how to get somewhere brings Forever's boat and zeppelin network, ev
   const token = await linked();
   const body = await ask(token, "PLAYER CONTEXT\nzone: Ironforge\nsub: Military Ward\n\nSOURCES\n\nQUESTION\n" +
     "How do I get to Fray Island from here?", { style: "spoken", research: "auto" });
-  assert.equal(body.forever_facts[0], "Every boat and zeppelin in WoW Forever");
+  // Fray Island is a place of its own now (the gold set, 10/18): the way there first, the network with it.
+  assert.equal(body.forever_facts[0], "The way to Fray Island");
+  assert.ok(body.forever_facts.includes("Every boat and zeppelin in WoW Forever"), body.forever_facts.join(", "));
   assert.match(systems[0], /FOREVER FACTS[^]*Stormwind Harbor to Auberdine/);
   assert.equal(body.looked_up, "no");   // the network covers it: no quick look online
 });
@@ -237,4 +239,53 @@ test("promptParts reads the question, place and last answer the companion sent, 
   assert.equal(c.question, "Where does the boat go?");
   assert.equal(c.zone, "Hillsbrad Foothills");
   assert.equal(c.sub, "Southshore");
+});
+
+test("a yes to her own offer asks the offer, and the riding trainers are the player's own people's", async () => {
+  // 10/18 live runs: "Want me to tell you where to train?" "Yes." found no riding facts, and she named the wrong
+  // trainer 2 runs in 5; asked straight out, a human heard of three different trainers.
+  const { knowledgeFor, offerTaken } = await import("../lib/forever-knowledge.js");
+  const offer = "You learn riding at level 40, and it gives you your first mount. Want me to tell you where to train?";
+  assert.equal(offerTaken({ question: "Yes.", previous: offer }), "Want me to tell you where to train?");
+  assert.equal(offerTaken({ question: "yes please, Willo!", previous: offer }), "Want me to tell you where to train?");
+  assert.equal(offerTaken({ question: "Yes.", previous: "The Defias began as the Stonemasons." }), "");
+  assert.equal(offerTaken({ question: "Yes, but where is Brill?", previous: offer }), "");
+  const env = { DB: d1() };
+  const base = { zone: "Elwynn Forest", sub: "Goldshire", faction: "Alliance", race: "Human", class: "Warrior", level: "40",
+    target: "", quests: [] };
+  const yes = await knowledgeFor(env, { ...base, question: "Yes.", previous: offer, previousQuestion: "When can I get a mount?" });
+  assert.match(yes.block, /Randal Hunter \(\d+, \d+\)/);
+  const asked = await knowledgeFor(env, { ...base, question: "Where can I learn riding?", previous: "", previousQuestion: "" });
+  assert.match(asked.block, /Humans learn from Randal Hunter at Eastvale Logging Camp/);
+  assert.doesNotMatch(asked.block, /Ultham Ironhorn|Kildar|Velma Warnam/);
+});
+
+test("another people's version of a quest the quest facts place here leaves the sources", async () => {
+  // The gold set, 10/18: seven "The Great Outdoors" entries; Willo named Raan, Kaga, Brakk or Sam in Dun Morogh.
+  const { otherVersions } = await import("../lib/forever-knowledge.js");
+  const fact = { title: "Quest: The Great Outdoors", text: "\"The Great Outdoors\" (level 6, Alliance, Dun Morogh); from Eric Brighthammer in Dun Morogh (47, 54)." };
+  const src = t => `=== The Great Outdoors (quest) ===\n${t}`;
+  const prompt = ["PLAYER CONTEXT\nzone: Dun Morogh", `SOURCES\n${src("Raan teaches the wilds.")}`, src("At Eric's campfire you rest."),
+    src("Lyreena guides hunters."), "=== Dun Morogh (zone) ===\nSnowy.", "RECENT CONVERSATION (oldest first)\n[]",
+    "QUESTION\nWho gives the quest The Great Outdoors?"].join("\n\n");
+  const kept = otherVersions(prompt, [fact]);
+  assert.match(kept, /Eric's campfire/);
+  assert.doesNotMatch(kept, /Raan|Lyreena/);
+  assert.match(kept, /=== Dun Morogh \(zone\) ===\nSnowy\.\n\nRECENT CONVERSATION \(oldest first\)\n\[\]\n\nQUESTION\nWho gives/);
+  // None names the giver: all of them go (the right one wasn't found), the rest stays; only one version: it stays.
+  const none = otherVersions(prompt, [{ ...fact, text: fact.text.replace("Eric Brighthammer", "Someone Else") }]);
+  assert.doesNotMatch(none, /\(quest\)/);
+  assert.match(none, /^PLAYER CONTEXT\nzone: Dun Morogh\n\nSOURCES\n=== Dun Morogh \(zone\) ===\nSnowy\.\n\nRECENT CONVERSATION/);
+  assert.equal(otherVersions(src("Raan teaches.") + "\n\nQUESTION\nx", [fact]), src("Raan teaches.") + "\n\nQUESTION\nx");
+});
+
+test("a quest done for an item's sake brings its chain", async () => {
+  // The gold set, 10/18: "doing this quest for my whirlwind axe... what else do I need?" got "forty Bloodtalon Prey".
+  const { knowledgeFor } = await import("../lib/forever-knowledge.js");
+  const k = await knowledgeFor({ DB: d1() }, { question: "I am doing this quest for my whirlwind axe. What else do I need to collect?",
+    zone: "Stormwind City", sub: "", faction: "Alliance", race: "Human", class: "Warrior", level: "40", previous: "",
+    previousQuestion: "", target: "", quests: [] });
+  assert.match(k.block, /"Cyclonian".*Liferoot.*Bloodscalp Tusk.*Essence of the Exile/);
+  assert.match(k.block, /"Essence of the Exile".*Thundering Charm/);
+  assert.doesNotMatch(k.block, /Mastering the Elements/);
 });

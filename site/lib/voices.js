@@ -257,7 +257,7 @@ export const siteNav = viewer => viewer
 // .css and .js files for 4 hours without asking (Cloudflare's Browser Cache TTL, which overrides any Cache-Control we
 // send for them), so without a new address a browser can pair a new page with the old styles and scripts (seen 10/11,
 // right after the profile was rebuilt).
-export const FRESH = "v=20261017a";
+export const FRESH = "v=20261018r";
 
 const FONTS = "https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap";
 
@@ -282,7 +282,7 @@ ${lead ? `    <div class="h-foot-lead">${lead}</div>\n` : ""}    <div class="h-f
       </div>
       <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/lore">Lore library</a></li><li><a href="/whats-new">What's new</a></li></ul></nav>
       <nav aria-label="Willo"><h2>Willo</h2><ul><li><a href="/willo">Meet Willo</a></li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li><li><a href="/faq">FAQ</a></li></ul></nav>
-      <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/translate">Help translate</a></li><li><a href="/contributors">Contributors</a></li></ul></nav>
+      <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/translate">Help translate</a></li><li><a href="/contributors">Contributors</a></li><li><a href="/creators">Creator program</a></li></ul></nav>
       <nav aria-label="About"><h2>About</h2><ul><li><a href="/feedback">Send feedback</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/refunds">Refunds</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
     </div>
     <div class="h-legal">

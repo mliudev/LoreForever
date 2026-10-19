@@ -171,6 +171,7 @@ local function voiceKind()
   if ns.lang and ns.lang.edition then return "edition" end
   if v == "auto" or v:find("^LoreForever_Voice_Default") then return "default" end
   if v:find("^LoreForever_Voice_Female") then return "female" end
+  if v:find("^LoreForever_Voice_Original") then return "original" end   -- (the male narrator before the Chronicler)
   return "other"
 end
 

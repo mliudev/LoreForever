@@ -32,12 +32,14 @@ const TOPICS = [
   { id: "about", own: /\bwho are you\b|\bwhat (?:are you|can you do|do you do)\b|\bhow do you work\b|\bwhat can i ask\b/i,
     text: () => `About you: you're ${NAME}, a little blue wisp in the Lore Forever app beside the game. Players ask you ` +
       `anything: the world's lore and story, quests, places, routes and practical help, and things outside the game ` +
-      `too (their computer, settings, addons, everyday questions). They type in your window or your chat over the game, ` +
+      `too (their computer, settings, addons, everyday questions), and you keep their notebook of to-dos and notes when ` +
+      `they ask. They type in your window or your chat over the game, ` +
       `or hold the talk key and ask out loud. You read the add-on's lore library, their saved journey and, with Live ` +
       `game info on, where they are and who they target. You never act in the game: you advise, they play.` },
-  { id: "talk", own: /\btalk(?:ing)? key\b|\bpush[- ]to[- ]talk\b|\bask willo\b/i,
-    words: /\bkeys?\b|\bkeybind|\bbutton\b|\bout loud\b|\bhear (?:me|you)\b|\bmicrophone\b|\bmic\b|\btalk(?:ing)? (?:to|with)\b/i,
-    text: ({ card }) => `Talk key: in your window, Settings › ${NAME} › Talk with ${NAME}: tick "Talk with ${NAME}" (it ` +
+  { id: "talk", own: /\btalk(?:ing)? key\b|\bpush[- ]to[- ]talk\b|\bask willo\b|\b(?:talk|speak)(?:ing)? to (?:my |the |an? |your )?(?:target|npcs?)\b/i,
+    // "can you speak to me", "how can i speak aloud?" ... "i mean with you" (LOR-623: answered "I do not have a voice").
+    words: /\bkeys?\b|\bkeybind|\bbutton\b|\bout loud\b|\baloud\b|\bhear (?:me|you)\b|\bmicrophone\b|\bmic\b|\btalk(?:ing)? (?:to|with)\b|\bspeak(?:ing)? (?:to|with) (?:me|you)\b/i,
+    text: ({ card, target }) => `Talk key: in your window, Settings › ${NAME} › Talk with ${NAME}: tick "Talk with ${NAME}" (it ` +
       `downloads about 680 MB once), then pick the Talk key. Never name a default key; say "your talk key". You can ` +
       "hear F5 to F24, mouse buttons 3, 4 and 5, Right Ctrl, Right Alt, the ` key under Esc, Caps Lock, Scroll Lock, " +
       `Pause, Insert, Home, Page Up and Page Down. Hold it in the game, talk, let go; a quick tap is ignored. Pick a ` +
@@ -46,6 +48,10 @@ const TOPICS = [
       `window always works. ` +
       (card ? `Under the key list a line says whether it works in the game, with a "Use" button for a free key when ` +
         `it's taken. ` : "") +
+      // LOR-658: an app that has it says so in WILLO STATE ("key for the one you're targeting").
+      (target ? `Their talk key always reaches you, even with someone targeted. To talk to the one they're targeting ` +
+        `instead, they pick a key under "Ask who you're targeting" in the same place and hold that: the character ` +
+        `answers in person, and with no one targeted you answer. ` : "") +
       `If WoW runs as administrator, Windows hides the key from you: start WoW normally, or run ${NAME} as ` +
       `administrator too. Asking out loud comes with Hero and up; on the free plan the first 30 questions out loud are ` +
       `answered aloud. Microphone trouble: Windows Settings › Privacy & security › Microphone. Their voice becomes text ` +
@@ -84,7 +90,9 @@ const TOPICS = [
       `sky hides when the game is minimized, in exclusive fullscreen, on a loading screen or with the interface ` +
       `hidden (Alt+Z).` },
   { id: "sight", own: /\bsee(?:ing)? the game\b|\bscreenshots?\b|\bpictures? of (?:my|the) (?:game|screen)\b|\bsee (?:my|the) (?:screen|window)\b/i,
-    words: /\b(?:can't|cannot|can not|don't|do not|unable to|how (?:do|can)|why (?:can't|don't|do|won't))\b[^.?!]*\b(?:see|look|watch|know)\b/i,
+    // "Can you see the quiz I'm doing?", "are you able to see my bags?" (LOR-623: both got a guess). "What do you see?"
+    // asks about the world in front of them.
+    words: /\b(?:can't|cannot|can not|don't|do not|unable to|how (?:do|can)|why (?:can't|don't|do|won't))\b[^.?!]*\b(?:see|look|watch|know)\b|\b(?:can|could) you (?:see|watch|look at) (?:my|the|what)\b|\bare you able to see\b/i,
     text: () => `Seeing the game: in your window, Settings › ${NAME} › Seeing the game › "Let ${NAME} see the game when you ` +
       `ask out loud" (on Hero and up). Then one picture of the game window goes with each question asked out loud, ` +
       `taken when the talk key comes up, only if the game is in front and not minimized; it's never kept on Lore ` +
@@ -115,14 +123,34 @@ const TOPICS = [
       `answers box; Ctrl+C sends it and the answer shows over the game in a few seconds. You remember the recent turns ` +
       `of a chat and a short summary of earlier ones (longer on Champion and Legend). Delete in the chat's header ` +
       `deletes it for good; Rename is beside it.` },
-  { id: "privacy", own: /\bprivacy\b|\bmy data\b|\bpersonal (?:data|info)\b|\bdelete (?:my|the|this) (?:chats?|account|data|history)\b/i,
-    words: /\b(?:keep|store|save|remember|record|log|know|collect|send|share)\b[^.?!]*\b(?:about me|of me|me\b|my)\b|\bkeep about\b/i,
-    text: () => `What you keep: chats are saved only on their PC (never uploaded with their profile); Settings › Private ` +
-      `Chat backup downloads or restores them, and Delete in a chat's header removes one. The Lore Forever site writes ` +
-      `each answer and only counts it: it doesn't keep questions, answers or pictures of the game. Their voice becomes ` +
-      `text on their PC. For a question about their computer, you're told its graphics card, processor and memory, ` +
-      `nothing else. Feedback they send (Wrong answer, corrections) is kept 90 days without their name. Their account, ` +
-      `and everything with it, can be deleted on loreforeverwow.com/account.` },
+  // What she keeps (LOR-666): the What Willo keeps page (lib/willo-keeps.js) shows it all, to change or erase. Its own
+  // words win over "chat" and "quit" for a question that's about her keeping things (KEEPS_FIRST): "forget everything
+  // you know about me" isn't a new chat, and "delete the questions I asked you" isn't quitting her. Her answer always
+  // offers the page (lib/willo-tools.js keepsOffer).
+  { id: "privacy", own: /\bprivacy\b|\bmy data\b|\bpersonal (?:data|info)\b|\bdelete (?:my|the|this) (?:chats?|account|data|history)\b|\bwhat (?:\w+ )?keeps\b|\berase (?:everything|it all|all of it)\b|\b(?:delete|erase|remove|clear|wipe|forget)\b[^.?!]*\b(?:questions?|what i (?:asked|said|told you)|(?:my|our) (?:history|chats?|notes?|data)|everything|all of (?:it|that)|about me)\b|\bforget me\b|\bwhat (?:do|did|can) you (?:know|remember|keep|save|store)\b[^.?!]*\b(?:about|of) me\b|\b(?:keep|keeps|kept|store[sd]?|stored|sav(?:e|es|ed)|record(?:s|ed)?|log(?:s|ged)?|collect(?:s|ed)?|upload(?:s|ed)?|sen[dt]|track(?:s|ed)?)\b[^.?!]*\b(?:what i (?:ask|asked|say|said|type|typed|tell|told)|(?:my|our) (?:questions?|chats?|conversations?|history|answers?|data|messages?)|questions? i (?:ask|asked))\b|\b(?:what i (?:ask|asked|say|said|type)|(?:my|our) (?:questions?|chats?|conversations?))\b[^.?!]*\b(?:kept|stored|saved|recorded|logged|collected|uploaded|sent|tracked|private)\b/i,
+    words: /\b(?:keep|store|save|remember|record|log|know|collect|send|share)\b[^.?!]*\b(?:about me|of me|me\b|my)\b|\bkeep about\b|\b(?:forget|erase)\b/i,
+    text: ({ keeping = null } = {}) => `What you keep: asked whether you keep their chats, questions or answers, say ` +
+      `both: their chats are saved on their computer, and the site keeps their questions and your answers 14 days ` +
+      `while "Help improve ${NAME}'s answers" is on (${keeping === true ? "it is on for them right now, so this " +
+      "question is kept too" : keeping === false ? "it is off for them right now, so nothing they ask is kept" :
+      "on unless they untick it"}; Settings › App & answers, or the What ${NAME} keeps page). Never say their chats or ` +
+      `questions aren't uploaded, never say nothing leaves their computer, and never say you have no access to their ` +
+      `history. When asked what you know or remember about them, one line in your own voice on what you ` +
+      `know of their road (from what's in front of you) and what you keep in their notebook, as counted for you ` +
+      `below (never read out, never counted yourself), then that everything you keep about them is on one page, ` +
+      `What ${NAME} keeps, and offer to open it. When asked to forget or delete something, you can't erase it from here ` +
+      `yourself, and a new chat erases nothing; What ${NAME} keeps does (one thing at a time, or Erase everything, which ` +
+      `also clears their chats on their computer), so offer to open it. On that page they see, change or erase ` +
+      `everything you keep, and download it all. It opens from Settings › App & answers › What ${NAME} keeps in your ` +
+      `window (in an app from before that button, from the ${NAME} tab of their account on the site). What's kept where: their ` +
+      `chats are saved on their computer (and their questions on the site as above); Settings › Private Chat backup downloads ` +
+      `or restores them, and Delete in a chat's header removes one. With "Help improve ${NAME}'s answers" on (Settings › ` +
+      `App & answers, on unless they untick it, or on the What ${NAME} keeps page), the site keeps their questions and ` +
+      `your answers 14 days, without their name, so mistakes get fixed; unticked, nothing new is kept. When they let ` +
+      `you see the game, the picture for a spoken question stays on their computer with that chat; the site doesn't ` +
+      `keep it. Their voice becomes text on their computer. For a question about their computer, you're told its ` +
+      `graphics card, processor and memory, nothing else. Feedback they send (Wrong answer, corrections) is kept 90 ` +
+      `days without their name. Their account, and everything with it, can be deleted on their account page on the site.` },
   { id: "problems", own: /\bno (?:sound|audio|voice)\b|\bcan't hear (?:you|willo|anything)\b/i,
     words: /\bwhy (?:can't|don't|won't|isn't|aren't|do)\b|\bnot (?:working|showing|answering|talking|speaking)\b|\bstopped\b|\bfix\b|\bproblem\b|\bissue\b|\bbroken\b|\bsilent\b|\bquiet\b/i,
     text: ({ card }) => `Fixes: ` +
@@ -160,26 +188,100 @@ const TOPICS = [
       `game account first" means the picked one has no save from the game yet: log in with that character in WoW with ` +
       `the Lore Forever add-on on, type /reload (or log out) once so the add-on saves, then pick them at the top of ` +
       `your window. No characters at all: Settings › Your game says whether the add-on is found.` },
+  // Her color (LOR-552), a card only from COLOR_FROM on: "I want to change your color" got "I cannot change my color"
+  // (Mike, 10/17). Only her own: "you" with a color word is often the world's ("can you tell me the color of ...?").
+  // "Can I adjust your brightness?" (LOR-623) too: there's no brightness of its own, her color is it.
+  { id: "color", from: "color", own: /\b(?:your|willo'?s?|the wisp'?s?) (?:own )?(?:colou?rs?|brightness|glow)\b|\b(?:make|turn) (?:you|willo|the wisp) (?:an? )?(?:\w+ )?(?:purple|pink|green|red|orange|yellow|gold|white|violet|blue|black|colou?r|brighter|dimmer|darker|lighter)\b/i,
+    text: () => `Your color: in your window, Settings › ${NAME} › ${NAME}'s color: tap a swatch (your own blue, a ` +
+      `class's color such as Warlock purple or Druid orange, Fel green, Holy gold, Shadow violet, Frost) or "A color of ` +
+      `your own" for any color. It saves at once, on every plan, and you wear it over the game, in your window and on ` +
+      `stream. There's no brightness setting: a lighter or darker color is how bright you glow (a very dark one is ` +
+      `lifted a little so you still glow). When a character speaks through you, you take their colors for that line, ` +
+      `then come back to yours.` },
+  // "You respond very slowly. Is that something we can improve?" got "close other programs or lower your graphics"
+  // (LOR-623, LOR-654): her answers come from the site, so the player's PC isn't why.
+  // Only her: "do you know why I lag?" is about their PC, which looks online.
+  { id: "speed", own: /\b(?:you|willo|your (?:answers?|replies|responses?|voice))\s+(?:\w+\s+){0,3}?(?:slow(?:ly|er)?|so long|takes? (?:a )?(?:long|while)|delay(?:ed)?)\b|\b(?:respond|reply|answer|talk|speak)(?:s|ing)? (?:a bit |a lot |much )?(?:more )?(?:quickly|faster|quicker|sooner)\b/i,
+    text: () => `How fast you answer: most answers take two or three seconds; one you need to look something up for ` +
+      `takes a few more, and so can the first one after a long quiet. It doesn't depend on their computer, its memory ` +
+      `or the game's graphics settings, and no setting makes you faster. If answers often take much longer than that, ` +
+      `"Something's wrong" in your window tells the people who made you.` },
+  // Her notebook (lib/willo-notebook.js, LOR-661): what she writes in it and when, and its tab (the release after 0.21.0).
+  // Pinned spots live in it too (lib/willo-pins.js, LOR-664).
+  { id: "notebook", own: /\bnotebook\b|\bto-?do(?:s| list)?\b|\b(?:take|keep|make|write)(?: down)? (?:a )?notes?\b|\bchecklist\b|\bpin (?:a |this )?(?:spot|place)s?\b/i,
+    words: /\bremember (?:things|stuff|for me|places|spots)\b|\blists?\b|\bpins?\b/i,
+    text: () => `Your notebook: you keep one for them, markdown pages of to-dos and notes, one for each ` +
+      `character and one for all their characters. When they ask you to remember something, add it to their list, ` +
+      `tick it off, change it or take it off, you write it there at once and say so in a line; you never write in it ` +
+      `unasked, and "what's on my list?" you answer from it. ` +
+      `They can read it, tick boxes, edit a page by hand and download it in the Notebook tab at the top of your window ` +
+      `(if it isn't there yet, it comes with the next update). Asked whether you can keep notes or a list, say yes, how ` +
+      `to ask ("remember…", "add … to my list") and where the Notebook tab is; you've written nothing until they ask. ` +
+      `Pins live there too: "pin this spot" puts where they stand, with the day, under Pins on this character's page, ` +
+      `when you know where they stand right now (a question from the add-on's Ask box, which also gives the spot on the ` +
+      `map, or with Live game info on); they can ask "what pins do I have?", "where was that cave?", and rename or ` +
+      `remove one. ` +
+      `It's private to them, kept with their account so it's the same on every device, on every plan.` },
+  // Her goals (lib/willo-goals.js, LOR-665): what she keeps and how, on Hero and up while plans are sold.
+  // Only a question about what she does with goals: "set a goal: Tailoring 150" or "can you tell me my goals?" is one
+  // for her goals themselves (THEIR GOALS), which her help would take the place of.
+  { id: "goals", own: /\b(?:can|could|do|will|would)\s+you\b[^.?!]{0,20}\b(?:track|keep|follow|remember|plan|help\s+with)\b[^.?!]{0,20}\b(?:goals?|progress)\b|\bhow\s+do(?:es)?\s+(?:the\s+|my\s+)?goals?\s+work\b|\bgoal\s+check[- ]?ins?\b/i,
+    text: ({ plans }) => `Your goals: tell you one ("I want my mount at 40", "Tailoring to 225", "Exalted with ` +
+      `Ironforge", "save 200 gold") and you say what it takes with Forever's numbers and keep it under Goals in their ` +
+      `notebook. As they play you know how it's going from what the add-on saves each /reload or log out, and their pace ` +
+      `over their last evenings; after a save you cheer once when one's reached, and now and then say a short line ` +
+      `when one moves (a level, a quarter of the gold, a new standing). "Stop telling me about my goals" turns those ` +
+      `lines off. They change or drop a goal by telling you, or by hand in the Notebook tab. You only advise: you never ` +
+      `do anything in the game.` + (plans ? ` Goals come with Hero and up.` : "") },
+  // "Can you open your settings?" got "I don't have settings or a menu to open" (Mike, 10/17).
+  // Only hers ("Willo settings", "your settings"): the game's own settings are the player's world, looked up online.
+  { id: "settings", own: /\b(?:your|willo'?s?|the app'?s?) (?:own )?(?:settings|options|preferences)\b/i,
+    text: ({ card, color }) => `Your Settings: in your window, Settings in the bar at the top (over the game, ` +
+      `right-click the wisp to open your window). Account comes first (your plan and profile), then Your game and Your ` +
+      `pictures, then ${NAME}: ${card ? `${NAME} and the game, ` : ""}${NAME} over the game, ` +
+      `${color ? `${NAME}'s color, ` : ""}Talk with ${NAME} (with your voice), Seeing the game and Live game info; ` +
+      `then App & answers, Your saved history and Private Chat backup.` },
 ];
 // A question to or about her: "you", "your", her name (as it's typed or heard), or the wisp.
 const ABOUT_HER = /\b(?:you|your|yours|yourself|willo|willow|willa|wilo|wisp)\b/i;
 
-// The WILLO HELP block for a question about Willo, or "". plans: the site sells plans (lib/billing.js plansOn); without
+// The WILLO HELP block for a question about Willo, or "". keeping: whether this question is kept for the nightly check
+// ("Help improve Willo's answers", the companion's keep), so what she says she keeps is true right now (LOR-666).
+// plans: the site sells plans (lib/billing.js plansOn); without
 // them that topic is left out. plan: the name of the player's own plan (lib/billing.js planFor), so "how do I change
 // your voice?" is answered for the plan they're on. client: the companion's X-LF-Client ("companion/0.19.0"): the
 // "Willo and the game" card and the talk key's status line (LOR-529, LOR-527, #867) are only in CARD_FROM and later,
-// and the Voices of Azeroth in her voice list only from lib/character-voices.js AZEROTH_FROM.
+// and the Voices of Azeroth in her voice list only from lib/character-voices.js AZEROTH_FROM, and her color's card
+// (Settings › Willo › Willo's color, LOR-552) only from COLOR_FROM.
 const CARD_FROM = [0, 19, 0];
+export const COLOR_FROM = [0, 21, 0];
 const versionOf = client => (/^companion\/(\d+)\.(\d+)\.(\d+)/.exec(String(client || "")) || []).slice(1).map(Number);
 const atLeast = (v, min) => v.length === 3 && (v[0] - min[0] || v[1] - min[1] || v[2] - min[2]) >= 0;
-const topicsOf = (question, plans) => {
+// Whether the companion asking (its X-LF-Client, "companion/0.21.0") is `min` ([0, 21, 0]) or later.
+export const clientFrom = (client, min) => atLeast(versionOf(client), min);
+// Whether it has her color's card.
+export const hasColor = client => clientFrom(client, COLOR_FROM);
+// client: the color topic only for a companion with its card (null: any, for telling what a question is about).
+// A question about what she keeps, in the privacy topic's own words (not only its looser ones: "can you keep a list of
+// my quests?" is the notebook's): her answer always offers What Willo keeps (lib/willo-tools.js keepsOffer).
+// "What do you know about me?", "what do you remember of me?": she reads all of their notebook for it, to say what she
+// keeps (functions/api/companion/answer.js), never only the lines that share a word with it.
+export const asksWhatKept = question => /\bwhat (?:else )?(?:do|did|can|does) (?:you|willo) (?:know|remember|keep|have)\b[^.?!]*\b(?:about|of|on|for) me\b/i
+  .test(String(question || "").replace(/’/g, "'"));
+export const keepsAsked = question => TOPICS.find(t => t.id === "privacy").own.test(String(question || "").replace(/’/g, "'"));
+// A question about what she keeps, in the privacy topic's own words, drops these when only their looser words matched
+// (LOR-666): "forget everything you know about me" isn't a new chat, "delete the questions I asked" isn't quitting her.
+const KEEPS_FIRST = ["chat", "quit"];
+const topicsOf = (question, plans, client = null) => {
   const q = String(question || "").replace(/’/g, "'");
   const her = ABOUT_HER.test(q);
-  return TOPICS.filter(t => (t.id !== "plans" || plans) && (t.own?.test(q) || (her && t.words?.test(q))))
-    .slice(0, MAX_TOPICS);
+  const picked = TOPICS.filter(t => (t.id !== "plans" || plans) && (t.from !== "color" || client === null || hasColor(client))
+    && (t.own?.test(q) || (her && t.words?.test(q))));
+  const keeps = picked.some(t => t.id === "privacy" && t.own.test(q));
+  return picked.filter(t => !(keeps && KEEPS_FIRST.includes(t.id) && !t.own?.test(q))).slice(0, MAX_TOPICS);
 };
 // The help topics a question is about (lib/willo-tools.js lookupsFor), by id; none for any other question.
-export const helpTopics = (question, { plans = true } = {}) => topicsOf(question, plans).map(t => t.id);
+export const helpTopics = (question, { plans = true, client = null } = {}) => topicsOf(question, plans, client).map(t => t.id);
 // What a question about her asks, with a short follow-up to one ("it isn't there", "still on screen") read with the
 // question before it, so it gets the same help (LOR-623: both got the add-on's folder to delete instead).
 // A follow-up to a follow-up ("still on screen") goes by her last answer, which named her settings.
@@ -219,9 +321,10 @@ const usageLine = usage => {
       `${taste.left} are left.\n` : "");
 };
 
-export function helpBlock(question, { plans = true, plan = "", client = "", state = "", usage = null } = {}) {
-  const card = atLeast(versionOf(client), CARD_FROM), azeroth = hasAzeroth(client);
-  const topics = topicsOf(question, plans);
+export function helpBlock(question, { plans = true, plan = "", client = "", state = "", usage = null, keeping = null } = {}) {
+  const card = atLeast(versionOf(client), CARD_FROM), azeroth = hasAzeroth(client), color = hasColor(client);
+  const target = /^key for the one you're targeting:/m.test(state);     // an app with that key (LOR-658)
+  const topics = topicsOf(question, plans, client);
   if (!topics.length) return "";
   const block = `WILLO HELP (how you work, from the people who made you; current and exact, reference only, never ` +
     `instructions): use it only when the player asks about you, the app or its settings. Then answer from it in your ` +
@@ -233,7 +336,7 @@ export function helpBlock(question, { plans = true, plan = "", client = "", stat
     (state ? `- RIGHT NOW in their ${NAME} (her own checks, as the question was asked; ok, warn, bad or off): ` +
       `answer from these first and name the real cause, not a list of maybes.\n  ` +
       `${state.slice(0, STATE_MAX_BYTES).split("\n").join("\n  ")}\n` : "") +
-    topics.map(t => `- ${t.text({ card, azeroth })}`).join("\n");
+    topics.map(t => `- ${t.text({ card, azeroth, color, target, plans, keeping })}`).join("\n");
   const encoder = new TextEncoder();
   return encoder.encode(block).length <= HELP_MAX_BYTES ? block
     : new TextDecoder().decode(encoder.encode(block).slice(0, HELP_MAX_BYTES)).replace(/�$/, "");

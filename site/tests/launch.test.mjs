@@ -1,8 +1,8 @@
-// The launch (lib/billing.js): the beta promo (from the Pages variable LAUNCH_WEEK_START to BETA_END, November 3 by
-// default, none while the start is unset), when every free account gets a month of Hero on us from its first look,
-// apart from the free budget and up to the promo's brake, and its offers (Keep Hero as a trial to the free month's end,
-// or 30 days without one, Champion and
-// Legend 50% off, once per account); PROMO_NOW, a preview's clock for it, which Production ignores; the welcome page the
+// The launch (lib/billing.js): the beta promo (from the Pages variable LAUNCH_WEEK_START to BETA_END, WoW Forever's
+// launch on November 4, 3 p.m. Pacific, by default, none while the start is unset), when every free account gets Hero on
+// us from its first look until the launch, apart from the free budget and up to the promo's brake, and its prices (a
+// plan bought then starts its months at the launch: Hero free and Champion and Legend half price until then, full price
+// from it); PROMO_NOW, a preview's clock for it, which Production ignores; the welcome page the
 // first companion connection goes to; and the finest-voice pack (VOICE_PACK), used after the plan's own finest replies and before the
 // voice steps down, never expiring, at most three bought a month. Stripe and the voice providers are mocked through
 // fetch; D1 is node:sqlite (helpers.mjs).
@@ -26,9 +26,9 @@ import { d1 } from "./helpers.mjs";
 const ORIGIN = "https://preview.example";
 const NOW = Date.parse("2026-10-20T12:00:00Z");
 // The promo's start as the ship step would set it: the release published at noon on October 21, Los Angeles time.
-// Its end: BETA_END unset, so the beta's last moment, November 3, 23:59:59 Pacific.
+// Its end: BETA_END unset, so the launch, November 4, 3 p.m. Pacific.
 const LAUNCH_WEEK_START = "2026-10-21T19:00:00.000Z";
-const START = Date.parse(LAUNCH_WEEK_START), END = Date.parse("2026-11-03T23:59:59-08:00");
+const START = Date.parse(LAUNCH_WEEK_START), END = Date.parse("2026-11-04T15:00:00-08:00");
 const MONTH = 30 * 86400e3;
 const env = { DB: d1(), STRIPE_SECRET_KEY: "sk_test_123", STRIPE_WEBHOOK_SECRET: "whsec_test", SITE_FEATURES: "plans",
               LAUNCH_WEEK_START,
@@ -65,6 +65,7 @@ beforeEach(async (t) => {
     if (route === "GET subscriptions") return Response.json({ data: Object.values(subscriptions)
       .filter(s => s.customer === u.searchParams.get("customer")) });
     if (route === "GET checkout/sessions") return Response.json({ data: [] });
+    if (options.method === "GET" && path.startsWith("coupons/")) return Response.json({ id: path.slice(8), percent_off: 50 });
     if (options.method === "GET" && path.startsWith("payment_intents/"))
       return Response.json({ id: path.slice(16), latest_charge: { refunded: false, amount_refunded: 0, disputed: false } });
     if (route === "POST customers") return Response.json({ id: "cus_1" });
@@ -122,60 +123,57 @@ const MINUTE = 60e3, HOUR = 60 * MINUTE, DAY = 24 * HOUR;
 const la = ms => new Intl.DateTimeFormat("en-US", { timeZone: "America/Los_Angeles", year: "numeric", month: "2-digit",
   day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).format(ms);
 
-test("the beta: a full month of Hero for every free account from its first look, even past November 3", async () => {
-  assert.equal(la(END), "11/03/2026, 23:59", "the beta's last minute, by default");
+test("the beta: Hero on us for every free account from its first look, until the launch", async () => {
+  assert.equal(la(END), "11/04/2026, 15:00", "the launch, by default");
   const { user } = await player("visitor");
   const at = async (ms, e = env, who = user) => {
     const p = await planFor(e, who.id, new Date(ms));
     return [p.id, p.answersPerDay, p.launch];
   };
   assert.deepEqual(await at(START - MINUTE), ["free", 20, undefined], "nothing before the release");
-  assert.deepEqual(await at(START + HOUR), ["hero", 100, true], "its month starts at its first look in the beta");
-  assert.deepEqual(await at(END + DAY), ["hero", 100, true], "and runs past the beta's end");
-  assert.deepEqual(await at(START + HOUR + MONTH - MINUTE), ["hero", 100, true], "30 days");
-  assert.deepEqual(await at(START + HOUR + MONTH), ["free", 20, undefined], "then back on Free by itself");
-  // Hero's plan for the month: its answers a day and its 900 in one pool, its voices and push-to-talk.
+  assert.deepEqual(await at(START + HOUR), ["hero", 100, true], "its Hero starts at its first look in the beta");
+  assert.deepEqual(await at(END - MINUTE), ["hero", 100, true], "and runs to the launch");
+  assert.deepEqual(await at(END), ["free", 20, undefined], "then back on Free by itself: full price from launch");
+  // Hero's plan until then: its answers a day and its 900 in one pool, its voices and push-to-talk.
   const hero = await planFor(env, user.id, new Date(START + 2 * HOUR));
   assert.deepEqual([hero.since, hero.until, hero.ends, hero.answersPerMonth],
-    [new Date(START + HOUR).toISOString(), new Date(START + HOUR + MONTH).toISOString(), "November 20", 900]);
-  assert.equal(poolWindow(hero, new Date(START + 2 * HOUR)).resetsAt, hero.until, "one pool for the month");
-  assert.equal(poolWindow(hero, new Date(END + DAY)).resetsAt, hero.until);
+    [new Date(START + HOUR).toISOString(), new Date(END).toISOString(), "November 4", 900]);
+  assert.equal(poolWindow(hero, new Date(START + 2 * HOUR)).resetsAt, hero.until, "one pool for it");
+  assert.equal(poolWindow(hero, new Date(END - DAY)).resetsAt, hero.until);
   const left = await allowance(env, user.id, new Date(START + 2 * HOUR));
   assert.deepEqual([left.plan.id, left.limit, left.period, left.features.voices, left.features.push_to_talk],
     ["hero", 100, "day", "all", true]);
-  // An account first seen near the end has its own 30 days; one first seen after it has none.
+  // An account first seen near the end has Hero until the launch too; one first seen after it has none.
   const { user: late } = await player("late"), { user: after } = await player("after");
   assert.deepEqual(await at(END - HOUR, env, late), ["hero", 100, true]);
-  assert.equal((await planFor(env, late.id, new Date(END + 20 * DAY))).ends, "December 3");
-  assert.deepEqual(await at(END + MINUTE, env, after), ["free", 20, undefined], "joined after the beta");
-  assert.deepEqual(await at(END + DAY, env, after), ["free", 20, undefined]);
-  // Once per Google account: deleting it and signing in again keeps the month's start.
+  assert.equal((await planFor(env, late.id, new Date(END - MINUTE))).ends, "November 4");
+  assert.deepEqual(await at(END + MINUTE, env, after), ["free", 20, undefined], "joined after the launch");
+  // Once per Google account: deleting it and signing in again keeps its start.
   await deleteUser(env, user);
   const { user: again } = await player("visitor");
   assert.notEqual(again.id, user.id);
-  assert.equal((await planFor(env, again.id, new Date(END))).until, hero.until, "the same month, not a new one");
-  assert.deepEqual(await at(START + HOUR + MONTH + DAY, env, again), ["free", 20, undefined]);
+  assert.equal((await planFor(env, again.id, new Date(END - HOUR))).since, hero.since, "the same one, not a new one");
+  assert.deepEqual(await at(END + DAY, env, again), ["free", 20, undefined]);
 
-  // The copy: the banner and the cards' offers during the beta (Mike, 2026-10-14).
-  assert.equal(launchText(env), "Beta: Hero is free for your first month, and Champion and Legend are 50% off your " +
-    "first month. Join by November 3.");
+  // The copy: the banner and the cards' prices during the beta (Mike, 2026-10-17).
+  assert.equal(launchText(env), "Half price during the beta. Full price from launch, November 4.");
   assert.equal(launchOffer(env, "hero", new Date(START - MINUTE)), null, "nothing before the release");
   assert.deepEqual(launchOffer(env, "hero", new Date(START)),
-    { price: 0, label: "Beta: free month", note: "until November 20, then $4.99 a month" }, "a trial from today");
-  assert.deepEqual(launchOffer(env, "champion", new Date(END)),
-    { price: 499, label: "Beta: 50% off", note: "your first month, then $9.99" }, "$4.99, exactly, to the last minute");
+    { price: 0, label: "Beta: free", note: "until November 4, then $4.99 a month" });
+  assert.deepEqual(launchOffer(env, "champion", new Date(END - MINUTE)),
+    { price: 499, label: "Beta: half price", note: "until November 4, then $9.99 a month" }, "to the last minute");
   assert.deepEqual(launchOffer(env, "legend", new Date(START)),
-    { price: 999, label: "Beta: 50% off", note: "your first month, then $19.99" }, "$9.99, exactly");
-  assert.equal(launchOffer(env, "hero", new Date(END + 1000)), null);
-  assert.equal(launchOffer(env, "champion", new Date(END + 1000)), null, "no coupon after the beta");
+    { price: 999, label: "Beta: half price", note: "until November 4, then $19.99 a month" });
+  assert.equal(launchOffer(env, "hero", new Date(END)), null);
+  assert.equal(launchOffer(env, "champion", new Date(END)), null, "full price from the launch");
   assert.equal(launchOffer(env, "free", new Date(START)), null);
-  // BETA_END moves the end; one that isn't a date-time with its zone is the default.
+  // BETA_END moves the launch; one that isn't a date-time with its zone is the default.
   const early = { ...env, BETA_END: "2026-10-24T23:59:59-07:00" };
-  assert.match(launchText(early), /Join by October 24\.$/);
+  assert.match(launchText(early), /from launch, October 24\.$/);
   assert.equal(launchOffer(early, "champion", new Date(Date.parse("2026-10-25T08:00:00Z"))), null);
   const { user: newcomer } = await player("newcomer");
   assert.deepEqual(await at(Date.parse("2026-10-25T08:00:00Z"), early, newcomer), ["free", 20, undefined]);
-  assert.match(launchText({ ...env, BETA_END: "soon" }), /Join by November 3\.$/);
+  assert.match(launchText({ ...env, BETA_END: "soon" }), /from launch, November 4\.$/);
   // Unset, or not a date-time with its zone: no promo, whenever it is.
   for (const set of [undefined, "", "next week", "2026-10-21"]) {
     const off = { ...env, LAUNCH_WEEK_START: set };
@@ -185,36 +183,7 @@ test("the beta: a full month of Hero for every free account from its first look,
   }
 });
 
-test("Keep Hero during a free Hero month: its trial ends when that month does, so the offer is one month", async () => {
-  const { user } = await player("member");
-  const cookie = (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
-  const at = (ms, extra = {}) => ({ ...env, PROMO_NOW: new Date(ms).toISOString(), ...extra });
-  const plans = async e => (await billing({ env: e, params: { action: "plans" }, request: new Request(ORIGIN + "/api/billing/plans",
-    { headers: { Cookie: cookie } }) })).json();
-  const checkout = async e => {
-    stripeCalls = [];
-    const res = await billing({ env: e, params: { action: "checkout" }, request: new Request(ORIGIN + "/api/billing/checkout",
-      { method: "POST", headers: { Cookie: cookie, Origin: ORIGIN, "Content-Type": "application/json" }, body: JSON.stringify({ plan: "hero" }) }) });
-    assert.equal(res.status, 200, await res.clone().text());
-    const b = stripeCalls.find(c => c.route === "POST checkout/sessions").body;
-    return { trialEnd: b.get("subscription_data[trial_end]"), trialDays: b.get("subscription_data[trial_period_days]") };
-  };
-  // Its first look (/plans here) starts its month.
-  const monthEnd = START + HOUR + MONTH;
-  assert.equal((await plans(at(START + HOUR))).current.until, new Date(monthEnd).toISOString());
-  const later = START + 5 * DAY;
-  assert.deepEqual(await checkout(at(later)), { trialEnd: String(Math.floor((NOW + monthEnd - later) / 1000)), trialDays: null },
-    "the trial ends with the free month (as far from the real clock as from the preview's)");
-  assert.equal((await plans(at(later))).plans.find(p => p.id === "hero").promo.note, "until November 20, then $4.99 a month",
-    "the card says that day");
-  // A beta that runs longer: near the month's end, Checkout's 48 hours at least; after it, 30 days from then.
-  const long = { BETA_END: new Date(START + 40 * DAY).toISOString() };
-  assert.deepEqual(await checkout(at(monthEnd - HOUR, long)),
-    { trialEnd: String(Math.floor((NOW + TRIAL_MIN_SECONDS * 1000) / 1000)), trialDays: null });
-  assert.deepEqual(await checkout(at(monthEnd + DAY, long)), { trialEnd: null, trialDays: "30" }, "no free month running");
-});
-
-test("the beta's checkout: Keep Hero with no free month is a 30-day trial, Champion and Legend 50% off, once per account", async () => {
+test("the beta's checkout: the plan's months start at the launch; Hero free and Champion and Legend half price until then", async () => {
   const { user } = await player("buyer");
   const cookie = (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
   // The promo's clock on a preview (PROMO_NOW), so checkout sees the beta.
@@ -225,26 +194,27 @@ test("the beta's checkout: Keep Hero with no free month is a 30-day trial, Champ
       { method: "POST", headers: { Cookie: cookie, Origin: ORIGIN, "Content-Type": "application/json" }, body: JSON.stringify({ plan }) }) });
     assert.equal(res.status, 200, await res.clone().text());
     const b = stripeCalls.find(c => c.route === "POST checkout/sessions").body;
-    return { trialEnd: b.get("subscription_data[trial_end]"), trialDays: b.get("subscription_data[trial_period_days]"),
+    return { anchor: b.get("subscription_data[billing_cycle_anchor]"), proration: b.get("subscription_data[proration_behavior]"),
+             trial: b.get("subscription_data[trial_end]") ?? b.get("subscription_data[trial_period_days]"),
              coupon: b.get("discounts[0][coupon]"), codes: b.get("allow_promotion_codes"),
              launch: b.get("subscription_data[metadata][launch]") };
   };
-  const week = at(START + 2 * DAY);
-  assert.deepEqual(await checkout("hero", week),
-    { trialEnd: null, trialDays: "30", coupon: null, codes: "true", launch: "hero" }, "nothing charged for a full month");
-  assert.deepEqual(await checkout("champion", week),
-    { trialEnd: null, trialDays: null, coupon: "lore_forever_launch_champion", codes: null, launch: "half" },
-    "the coupon Checkout shows, and no promotion codes beside it");
-  assert.deepEqual((await checkout("legend", week)).coupon, "lore_forever_launch_legend");
-  // On the beta's last day too: the full 30 days, past its end.
-  assert.deepEqual((await checkout("hero", at(END - HOUR))).trialDays, "30");
-  // After the beta: nothing, Hero's trial or a coupon.
-  assert.deepEqual(await checkout("champion", at(END + MINUTE)),
-    { trialEnd: null, trialDays: null, coupon: null, codes: "true", launch: null });
-  assert.deepEqual(await checkout("hero", at(END + MINUTE)),
-    { trialEnd: null, trialDays: null, coupon: null, codes: "true", launch: null });
+  // The anchor is as far from the real clock (NOW) as the launch is from the preview's.
+  const day = START + 2 * DAY, anchor = String(Math.floor((NOW + END - day) / 1000));
+  assert.deepEqual(await checkout("hero", at(day)),
+    { anchor, proration: "none", trial: null, coupon: null, codes: "true", launch: "hero" },
+    "Hero: nothing charged until the launch, then $4.99 a month from it");
+  assert.deepEqual(await checkout("champion", at(day)),
+    { anchor, proration: "create_prorations", trial: null, coupon: "lore_forever_beta_half", codes: null, launch: "half" },
+    "Champion: half price for the days until the launch (the coupon Checkout shows, no promotion codes beside it)");
+  assert.deepEqual((await checkout("legend", at(day))).coupon, "lore_forever_beta_half");
+  // The last minute before the launch too; from the launch, full price as always.
+  assert.equal((await checkout("champion", at(END - MINUTE))).anchor, String(Math.floor((NOW + MINUTE) / 1000)));
+  for (const plan of ["hero", "champion"])
+    assert.deepEqual(await checkout(plan, at(END)), { anchor: null, proration: null, trial: null, coupon: null, codes: "true",
+      launch: null }, `${plan} after the launch`);
 
-  // Once each, ever: a subscription that had an offer (its metadata.launch) claims it, ended or not.
+  // The beta is a price until the launch, not an offer used once: buying, cancelling and buying again has it too.
   const customer = env.DB.sqlite.prepare("SELECT customer_id FROM entitlements WHERE user_id = ?").get(user.id).customer_id;
   for (const [id, launch] of [["sub_trial", "hero"], ["sub_half", "half"]]) {
     subscriptions[id] = { id, object: "subscription", customer, status: "canceled", created: Math.floor((START + DAY) / 1000),
@@ -253,44 +223,46 @@ test("the beta's checkout: Keep Hero with no free month is a 30-day trial, Champ
                         price: { id: "price_hero_m", lookup_key: "hero_monthly", recurring: { interval: "month" } } }] } };
     await hook({ id: `evt_${++events}`, type: "customer.subscription.deleted", data: { object: { id, customer } } });
   }
-  assert.deepEqual(await checkout("hero", week), { trialEnd: null, trialDays: null, coupon: null, codes: "true", launch: null },
-    "buying, cancelling and buying again: no second trial");
-  assert.equal((await checkout("legend", week)).coupon, null, "nor a second 50% month, Champion's or Legend's");
-  const offers = await (await billing({ env: week, params: { action: "plans" }, request: new Request(ORIGIN + "/api/billing/plans",
+  assert.equal((await checkout("legend", at(day))).coupon, "lore_forever_beta_half");
+  const week = at(day);
+  const cards = await (await billing({ env: week, params: { action: "plans" }, request: new Request(ORIGIN + "/api/billing/plans",
     { headers: { Cookie: cookie } }) })).json();
-  assert.deepEqual(offers.plans.map(p => [p.id, p.promo?.label ?? null]), [["free", null], ["hero", null], ["champion", null],
-    ["legend", null]], "the cards stop offering them");
+  assert.deepEqual(cards.plans.map(p => [p.id, p.promo?.label ?? null, p.promo?.note ?? null]), [["free", null, null],
+    ["hero", "Beta: free", "until November 4, then $4.99 a month"], ["champion", "Beta: half price", "until November 4, then $9.99 a month"],
+    ["legend", "Beta: half price", "until November 4, then $19.99 a month"]]);
+  assert.equal(cards.launch, "Half price during the beta. Full price from launch, November 4.");
   const fresh = await (await billing({ env: week, params: { action: "plans" }, request: new Request(ORIGIN + "/api/billing/plans") })).json();
-  assert.deepEqual(fresh.plans.map(p => p.promo?.price ?? null), [null, 0, 499, 999], "signed out, every offer shows");
+  assert.deepEqual(fresh.plans.map(p => p.promo?.price ?? null), [null, 0, 499, 999], "signed out, the same");
   // The plans side by side, for /willo's table (planCompare), from the plans themselves.
   assert.deepEqual(fresh.compare.map(r => [r.label, Object.values(r.values).join(" | ")]), [
     ["Answers a day", "20 | 100 | 200 | 300"],
-    ["Willo's voice: when you ask out loud", "Your first 30 answers | Studio | Pick from five | Finest"],
+    ["Willo's voice: when you ask out loud", "Your first 30 answers | Studio | Pick from 32 | Finest"],
     ["Characters' own voices", "— | — | ✓ | ✓"],
     ["Willo sees your game", "— | ✓ | ✓ | ✓"],
     ["Checks the web when the lore runs out", "— | ✓ | ✓ | ✓"],
     ["Willo's style", "— | Presets | Presets or your own words | Presets or your own words"],
     ["Longer memory", "— | — | ✓ | ✓"],
   ]);
-  assert.match(fresh.plans.find(p => p.id === "champion").features.join("\n"), /^Pick Willo's voice from 5$/m);
-  // The Voices of Azeroth in the plans' words once the release that has them turns "azeroth" on (LOR-609).
-  const azeroth = await (await billing({ env: { ...week, SITE_FEATURES: `${week.SITE_FEATURES || ""},azeroth` },
-    params: { action: "plans" }, request: new Request(ORIGIN + "/api/billing/plans") })).json();
-  assert.equal(azeroth.compare[1].values.champion, "Pick from 32");
-  assert.match(azeroth.plans.find(p => p.id === "legend").features.join("\n"),
+  // The Voices of Azeroth in the plans' words, on since 0.21.0 shipped them (LOR-609).
+  assert.match(fresh.plans.find(p => p.id === "legend").features.join("\n"),
     /^Pick Willo's voice: her own 10, women's and men's, or one of 22 voices of Azeroth's peoples$/m);
+  // With "azeroth" off, her own five again.
+  const own = await (await billing({ env: { ...week, SITE_FEATURES: `${week.SITE_FEATURES || ""},-azeroth` },
+    params: { action: "plans" }, request: new Request(ORIGIN + "/api/billing/plans") })).json();
+  assert.equal(own.compare[1].values.champion, "Pick from five");
+  assert.match(own.plans.find(p => p.id === "champion").features.join("\n"), /^Pick Willo's voice from 5$/m);
 });
 
 test("the beta's free Hero is apart from the free budget, and past its brake free accounts are on Free", async () => {
   const { user } = await player("crowd"), { user: other } = await player("busy");
-  const at = new Date(START + DAY), later = new Date(END + 5 * DAY);
+  const at = new Date(START + DAY), later = new Date(END - DAY);
   // What the free months' answers cost, as an answer is reserved and then settled: never the shared free budget's.
   env.DB.sqlite.prepare("INSERT INTO answer_spend (month, reserved_micro, actual_micro, calls) VALUES (?, ?, ?, 1)")
     .run(at.toISOString().slice(0, 7), LAUNCH_WEEK_BRAKE_MICRO - 2, LAUNCH_WEEK_BRAKE_MICRO - 2);
   await addUserSpend(env, other.id, LAUNCH_WEEK_BRAKE_MICRO - 2, at, null, true);
   assert.equal(await answerBudgetUsed(env, at), 0, "none of it is the $100 free budget's");
   assert.equal((await planFor(env, user.id, at)).launch, true, "under the brake");
-  // A month that runs past the beta counts toward the same brake.
+  // Its days in November count toward the same brake.
   await addUserSpend(env, other.id, 1, later, null, true);
   assert.equal((await planFor(env, user.id, later)).launch, true, "still under it, in November");
   await addUserSpend(env, other.id, 1, later, null, true);

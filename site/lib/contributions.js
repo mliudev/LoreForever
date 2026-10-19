@@ -8,6 +8,7 @@ import { shownStatus, nowSec, ACCEPT_AFTER } from "./contribute.js";
 import { setupSubmissions } from "./submissions.js";
 import { communityPacks, narratorReports } from "./clipreports.js";
 import { setupReports, reportOutcome } from "./reports.js";
+import { sentFeedback } from "./answer-feedback.js";
 
 const LIMIT = 100;   // items listed per kind, newest first; the counts cover everything
 const safe = async query => { try { return await query; } catch (e) { return null; } };   // a table not made yet
@@ -167,22 +168,20 @@ async function onMyVoices(env, user, packs) {
     clip: r.clip, reason: REASONS[r.reason] || r.reason, name: r.name, say_as: r.say_as, note: r.note, when: r.created }));
 }
 
-// Feedback and bad-translation reports sent while signed in, and Willo's "Wrong answer" flags and corrections (kept
-// 90 days, lib/answer-feedback.js; matched by the same hash of the account id it keeps), each with what became of it.
+// Feedback and bad-translation reports sent while signed in, and Willo's "Not right" reports, flags and corrections
+// (kept 90 days, lib/answer-feedback.js sentFeedback), each with what became of it.
 const FEEDBACK_KINDS = { lore: "Wrong or missing lore", bug: "Something broken", idea: "An idea or zone request", review: "A review" };
-const WILLO_STATE = { new: ["waiting", "Waiting: we look at every one"], checked: ["done", "Checked: nothing to change"],
-  fact: ["shipped", "Fixed: Willo knows it now"], dismissed: ["done", "Set aside"] };
+const WILLO_STATE = { new: ["waiting", "Waiting: we look at every one"], triaged: ["waiting", "Looking into it"],
+  checked: ["done", "Checked: nothing to change"], fact: ["shipped", "Fixed: Willo knows it now"],
+  fixed: ["shipped", "Fixed: Willo knows it now"], dismissed: ["done", "Set aside"] };
 async function sentReports(env, user) {
   await safe(setupReports(env));
-  const hash = [...new Uint8Array(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(`answer-feedback:${user.id}`)))]
-    .map(b => b.toString(16).padStart(2, "0")).join("");
   const [fb, tr, flags] = await Promise.all([
     rows(env.DB.prepare(`SELECT created, kind, message, status, resolution, reason, fixed_in FROM feedback
       WHERE user_id = ? ORDER BY id DESC LIMIT ${LIMIT}`).bind(user.id).all()),
     rows(env.DB.prepare(`SELECT created, locale, wrong, status, resolution, reason, fixed_in FROM translation_reports
       WHERE user_id = ? ORDER BY id DESC LIMIT ${LIMIT}`).bind(user.id).all()),
-    rows(env.DB.prepare(`SELECT created, kind, said, question, status FROM answer_feedback
-      WHERE user_hash = ? AND kind IN ('flag', 'correction') ORDER BY id DESC LIMIT ${LIMIT}`).bind(hash).all()),
+    safe(sentFeedback(env, user.id, LIMIT)).then(r => r || []),
   ]);
   return {
     feedback: fb.map(f => ({ what: FEEDBACK_KINDS[f.kind] || "Feedback", text: f.message, when: f.created, state: reportOutcome(f) })),

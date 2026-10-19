@@ -1483,18 +1483,26 @@ end
 local ARTICLES = {}
 for _, a in ipairs({ "the", "der", "die", "das", "den", "o", "a", "os", "as" }) do ARTICLES[a .. " "] = "" end
 
--- First word of every name -> the most words a name starting with it has, so most words are passed over at once.
+-- First word of every name -> how many words the names it starts have ({ [2] = true, [5] = true, most = 5 }), so most
+-- words are passed over at once and only lengths some name has are tried. Words as Linkify counts them: "Mission:
+-- Possible But Not Probable" starts with "mission" and has 5. Names of up to 4 words, and quest titles up to
+-- LONG_TITLE (LOR-634: "Components for the Enchanted Gold Bloodrobe" never linked).
+local LONG_TITLE = 10
 function Engine:LinkStarts()
-  local names = self.db.index.name
+  local names, entries = self.db.index.name, self.db.entries
   if self.linkStarts and self.linkStartsFor == names then return self.linkStarts end
   local starts = {}
-  for name in pairs(names) do
+  for name, key in pairs(names) do
     local n, first = 0, nil
-    for w in name:gmatch("%S+") do
+    for w in name:gmatch("[%w'%-\128-\255]+") do
       n = n + 1
       first = first or w
     end
-    if first and n <= 4 and n > (starts[first] or 0) then starts[first] = n end
+    if first and n <= ((entries[key] and entries[key].t == "quest") and LONG_TITLE or 4) then
+      local lens = starts[first] or {}
+      starts[first], lens[n] = lens, true
+      if n > (lens.most or 0) then lens.most = n end
+    end
   end
   self.linkStarts, self.linkStartsFor = starts, names
   return starts
@@ -1536,19 +1544,32 @@ function Engine:Linkify(text, opts)
   end
   local out, last, i = {}, 1, 1
   local function find(i)
-    local most = starts[toks[i].low] or starts[toks[i].full]
-    if not most then return nil end
-    for n = math.min(most, #toks - i + 1), 1, -1 do
-      local j, ok = i + n - 1, true
-      -- The words of a name are separated by single spaces; a possessive inside one counts as part of it.
-      for t = i, j - 1 do
-        if not spaced(t) then ok = false; break end
+    -- The word as written and without a possessive: "Mist's Edge" starts with "mist's", "Mist" with "mist".
+    local a, b = starts[toks[i].low], starts[toks[i].full]
+    if not (a or b) then return nil end
+    local most = math.min(math.max(a and a.most or 0, b and b.most or 0), #toks - i + 1)
+    -- A long title only as a title, capitalized ("A Warden of the Horde", "the Crone of the Kraul"), not the same words
+    -- in a sentence ("in search of Menara Voidrender" is about her).
+    if most > 4 and not (toks[i].cap or toks[i + 1].cap) then most = 4 end
+    -- The words of a name are separated by single spaces; a possessive inside one counts as part of it. run: how many
+    -- words from here are; heads[k]: the first k of them as a name's leading words.
+    local run, heads = 1, { toks[i].full }
+    while run < most and spaced(i + run - 1) do
+      heads[run + 1] = heads[run] .. " " .. toks[i + run].full
+      run = run + 1
+    end
+    for n = most, 1, -1 do
+      local j, phrase = i + n - 1, nil
+      if (a and a[n]) or (b and b[n]) then   -- (a name starting with this word has n words)
+        if n <= run then
+          phrase = n > 1 and (heads[n - 1] .. " " .. toks[j].low) or toks[j].low
+        else
+          -- Punctuation between a title's words ("Mission: Possible But Not Probable", "Legacy Reward: Replica
+          -- Ironforge Air Rifle"): only the very words as written, from its first to its last (LOR-634).
+          phrase = Engine.lower(m:sub(toks[i].a, toks[j].b))
+        end
       end
-      if ok then
-        local parts = {}
-        for t = i, j - 1 do parts[#parts + 1] = toks[t].full end
-        parts[#parts + 1] = toks[j].low
-        local phrase = table.concat(parts, " ")
+      if phrase then
         local key = names[phrase]
         local e = key and entries[key]
         -- Single words only count when capitalized, so "light" in a sentence doesn't mean the Holy Light.

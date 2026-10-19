@@ -1,6 +1,8 @@
-// Share Willo (lib/referrals.js): a player's own share link and what it has brought.
-//   GET  /api/share/mine       -> {share: {code, url, friends, earned, perShare, month: {counted, max}, left}}
-//                                 (lib/referrals.js shareSummary): /account, the profile and Willo's window
+// Inviting friends (lib/referrals.js): a player's own invite link and how far it has brought them.
+//   GET  /api/share/mine       -> {share: {code, url, joined, waiting, friends, progress: {have, goal, left, bonusLeft,
+//                                 months, ...}, month: {counted, max}, left, rewards: [{kind, status, text}], invite,
+//                                 grows, about, tally, earned, waitingNote}} (lib/referrals.js shareSummary): /account,
+//                                 the profile and Willo's window (older Willos show about and tally)
 //   POST /api/share/new        -> the same, with a new code: the old link stops bringing friends (those it brought
 //                                 already stay counted)
 //   GET  /api/share/info?code= -> {name, kind ("player" | "creator"), self (it's the signed-in player's own)}: who a

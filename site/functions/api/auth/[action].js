@@ -18,10 +18,11 @@ import { clean } from "../../../lib/form.js";
 import { setupStudio } from "../../../lib/studio.js";
 import { featureOn } from "../../../lib/features.js";
 import { forgetTranslatorCredits } from "../../../lib/translations.js";
+import { noteJoin, noteBrowser } from "../../../lib/referrals.js";
 
-const ok = (body = {}, cookie) => {
+const ok = (body = {}, ...cookies) => {
   const headers = new Headers(noStore);
-  if (cookie) headers.set("Set-Cookie", cookie);
+  for (const cookie of cookies) if (cookie) headers.append("Set-Cookie", cookie);
   return Response.json({ ok: true, ...body }, { headers });
 };
 
@@ -57,7 +58,12 @@ async function google({ request, env }, input) {
   if (!claims) return fail(401, "Google sign-in didn't go through. Please try again.");
   const user = await findOrCreateUser(env, { email: claims.email.toLowerCase(), googleSub: claims.sub, name: claims.name });
   await recordTerms(env, user.id);   // the sign-in pages say signing in agrees to the Terms and Privacy
-  return ok({}, await startSession(env, request, user.id));
+  // Inviting friends (lib/referrals.js): the browser is noted with the account (its own random code, one-way), and an
+  // account made just now in a browser that opened a share link joins as its friend. Signing in never fails on them.
+  const browser = await noteBrowser(env, request, user.id);
+  if (Date.now() - Date.parse(user.created) < 60e3)
+    await noteJoin(env, request, user).catch(e => console.warn(`sign-in: share: ${e?.message || e}`));
+  return ok({}, await startSession(env, request, user.id), browser);
 }
 
 async function logout({ request, env }) {

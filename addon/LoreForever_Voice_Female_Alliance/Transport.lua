@@ -1449,6 +1449,14 @@ P.transport["subzone:mortwake-s-tower"] = {
     {file = "Audio/Transport/full_subzone_mortwake-s-tower-3650eaced67f4090e527/1-0000.mp3", duration = 42.4489796, start = 0},
   },
 }
+P.transport["subzone:mystral-lake"] = {
+  hash = "00b79a",
+  fullHash = "a74b6d",
+  text = "Mystral Lake. Mystral Lake is the largest body of water in Ashenvale, resting in the south-central forest just below Silverwind Refuge. Its deep waters draw travelers from both the Alliance and the Horde. Spanning a vast expanse south of Silverwind Refuge and east of Talondeep Vale, Mystral Lake is the largest lake in Ashenvale. The night elves keep watch over it from their outpost at Silverwind Refuge on its northern shore, and travelers from both the Horde and the Alliance frequently find their journeys pulling them to its banks. Mystral Lake draws attention across faction lines. Horde shaman traveling the path of elemental communion seek out its deep waters during their trials to understand the element of water. The raw primal resonance of the lake makes it an essential pilgrimage site for those learning to bind and respect the tidal spirits.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_mystral-lake-5e7b2715ea916bc2c7b1/1-0000.mp3", duration = 51.2, start = 0},
+  },
+}
 P.transport["subzone:nightsong-woods"] = {
   hash = "a3ca6c",
   fullHash = "1708a3",

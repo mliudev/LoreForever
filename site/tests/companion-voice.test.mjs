@@ -6,6 +6,7 @@
 
 import { test, beforeEach, afterEach } from "node:test";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 
 import { onRequest as speakApi } from "../functions/api/companion/speak.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
@@ -13,15 +14,17 @@ import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { setupBilling, planFor, poolWindow, userSpend, overTextCap, PLANS, LEGEND_BEST_PER_MONTH, LEGEND_BEST_MODEL,
   STARTER_ANSWERS } from "../lib/billing.js";
 import { allowance, answerBudgetUsed } from "../lib/companion-answers.js";
-import { willoPick, AZEROTH_STUDIO, AZEROTH_PICKS } from "../lib/companion-voice.js";
+import { willoPick, hostedSpellings, AZEROTH_STUDIO, AZEROTH_PICKS } from "../lib/companion-voice.js";
 import { CHARACTER_VOICES } from "../lib/character-voices.js";
 
-import { d1 } from "./helpers.mjs";
+import { d1, assets } from "./helpers.mjs";
 
 const ORIGIN = "https://preview.example";
 const NOW = Date.parse("2026-10-11T12:00:00Z");
+// The names respelled for the voices, as the site ships them (pipeline/lore/site_lore.py hosted_respellings).
+const HOSTED = JSON.parse(readFileSync(new URL("../public/lore/data/respell-hosted.json", import.meta.url), "utf8"));
 const env = { DB: d1(), GEMINI_API_KEY: "test-key", SITE_FEATURES: "plans", DEEPINFRA_API_KEY: "di-test",
-              INWORLD_API_KEY: "iw-test",
+              INWORLD_API_KEY: "iw-test", ASSETS: assets({ "/lore/data/respell-hosted.json": HOSTED }),
               HOSTED_VOICES: JSON.stringify({ willo: { deepinfra: "willo-studio", inworld: "willo-finest" } }) };
 const originalFetch = globalThis.fetch;
 // Two made-up MP3 halves: Inworld streams them as two chunks, DeepInfra sends them whole.
@@ -69,7 +72,7 @@ async function companionPlayer(sub, plan) {
       body: JSON.stringify({ voice: "willo", ...body }) }) });
     const type = res.headers.get("Content-Type") || "";
     return { status: res.status, type, voice: res.headers.get("X-LF-Voice"),
-             body: type.startsWith("audio/") ? Buffer.from(await res.arrayBuffer()) : await res.json() };
+             body: type.startsWith("audio/") ? Buffer.from(await res.arrayBuffer()) : res.status === 204 ? null : await res.json() };
   };
   const voice = async () => (await allowance(env, user.id)).voice;
   // `n` replies already said this plan month by the finest voice.
@@ -420,4 +423,113 @@ test("a free player's first answers asked out loud are said in Willo's finest vo
   tasted(20, 0);
   assert.equal((await voice()).now, "studio");
   assert.equal((await speak({ text: "Westfall was farmland once.", line: true })).voice, "studio:sprite");
+});
+
+test("a piece asked for again counts its letters once, and a later piece's voice gets the time the companion waits", async () => {
+  // LOR-673: the companion gave up on a slow later piece and asked again; the site had counted its letters when it
+  // started, so the second ask counted them twice and a reply past about 300 letters was refused as too long (413),
+  // the rest of it in captions. Each piece is numbered now, and counted once.
+  const { user, speak } = await companionPlayer("again", "hero");
+  const row = () => env.DB.sqlite.prepare("SELECT chars, pieces FROM voice_replies WHERE user_id = ? AND reply = 'long-reply'")
+    .get(user.id);
+  const first = "Thrall leads the Horde from Orgrimmar.", rest = "x".repeat(300);
+  assert.equal((await speak({ text: first, reply: "long-reply", piece: 0 })).status, 200);
+  assert.equal((await speak({ text: rest, reply: "long-reply", piece: 1 })).status, 200);
+  const again = await speak({ text: rest, reply: "long-reply", piece: 1 });
+  assert.equal(again.status, 200, JSON.stringify(again.body));
+  assert.deepEqual({ ...row() }, { chars: first.length + rest.length, pieces: 2 });
+  // Asked again and nothing can say it: the letters an earlier ask counted stay; the reply isn't given back.
+  failing.add("deepinfra");
+  assert.equal((await speak({ text: rest, reply: "long-reply", piece: 1 })).status, 503);
+  failing.clear();
+  assert.deepEqual({ ...row() }, { chars: first.length + rest.length, pieces: 2 });
+  // A piece that couldn't be said the first time is counted when it's asked for again.
+  failing.add("deepinfra");
+  assert.equal((await speak({ text: "And Durotar.", reply: "long-reply", piece: 2 })).status, 503);
+  failing.clear();
+  assert.equal((await speak({ text: "And Durotar.", reply: "long-reply", piece: 2 })).status, 200);
+  assert.deepEqual({ ...row() }, { chars: first.length + rest.length + "And Durotar.".length, pieces: 3 });
+  assert.equal((await speak({ text: "y", reply: "long-reply", piece: 31 })).status, 400);
+  // An older companion numbers nothing: each ask counts, as before.
+  assert.equal((await speak({ text: rest + "!", reply: "old-reply" })).status, 200);
+  assert.equal((await speak({ text: rest + "!", reply: "old-reply" })).body.reason, "long", "301 letters twice");
+
+  // A later piece's voice may take longer than a first piece's 2.5 s (LATER_PIECE_MS); a first piece may not.
+  const slow = globalThis.fetch;
+  globalThis.fetch = async (url, options) => {
+    await new Promise((done, stop) => {
+      const t = setTimeout(done, 2700);
+      options.signal?.addEventListener("abort", () => { clearTimeout(t); stop(options.signal.reason); });
+    });
+    return slow(url, options);
+  };
+  try {
+    assert.equal((await speak({ text: "A slow first piece.", reply: "slow-reply", piece: 0 })).status, 503);
+    globalThis.fetch = slow;
+    assert.equal((await speak({ text: "Hello.", reply: "slow-two", piece: 0 })).status, 200);
+    globalThis.fetch = async (url, options) => {
+      await new Promise(done => setTimeout(done, 2700));
+      return slow(url, options);
+    };
+    assert.equal((await speak({ text: "A slow later piece.", reply: "slow-two", piece: 1 })).status, 200);
+  } finally { globalThis.fetch = slow; }
+});
+
+test("a reply the companion gave up on before its first piece came back gives back its place, not what it cost", async () => {
+  // LOR-673: the companion waits PIECE_WAIT for a reply's first piece, then says the whole reply in Willo's own voice on
+  // the PC; the piece it gave up on was still said and counted here, so a player lost a finest reply they never heard.
+  env.UNHEARD_SETTLE_MS = "0";
+  try {
+    const legend = await companionPlayer("legend-late", "legend");
+    await legend.saidBest(LEGEND_BEST_PER_MONTH - 1);
+    assert.equal((await legend.speak({ text: "Strength and honor.", reply: "reply-late" })).status, 200);
+    assert.equal((await legend.voice()).bestLeft, 0);
+    const cost = await userSpend(env, legend.user.id, new Date(), { total: true });
+    assert.deepEqual(await legend.speak({ reply: "reply-late", unheard: true }), { status: 204, type: "", voice: null, body: null });
+    assert.equal((await legend.voice()).bestLeft, 1, "the finest reply is back");
+    assert.equal(await userSpend(env, legend.user.id, new Date(), { total: true }), cost, "what it cost stays counted");
+    await legend.speak({ reply: "reply-late", unheard: true });
+    assert.equal((await legend.voice()).bestLeft, 1, "given back once");
+    assert.equal((await legend.speak({ reply: "not a reply id!", unheard: true })).status, 400);
+
+    // The free plan's starter, and a new player's finest reply (best first): each back where it came from.
+    const free = await companionPlayer("free-late");
+    assert.equal((await free.speak({ text: "Welcome, traveler.", reply: "starter-late" })).status, 200);
+    assert.equal((await free.voice()).starterLeft, STARTER_ANSWERS - 1);
+    await free.speak({ reply: "starter-late", unheard: true });
+    assert.equal((await free.voice()).starterLeft, STARTER_ANSWERS);
+    free.tasted(1, 1);
+    assert.equal((await free.speak({ text: "Welcome, traveler.", reply: "taste-late" })).voice, "finest:sprite");
+    const owed = () => env.DB.sqlite.prepare("SELECT voices FROM best_first WHERE user_id = ?").get(free.user.id).voices;
+    assert.equal(owed(), 0);
+    await free.speak({ reply: "taste-late", unheard: true });
+    assert.equal(owed(), 1, "the finest reply her taste answer earned is owed again");
+
+    // Only a reply from the last couple of minutes: the app says so the moment it gives up.
+    assert.equal((await legend.speak({ text: "Long ago.", reply: "reply-old" })).status, 200);
+    env.DB.sqlite.prepare("UPDATE voice_replies SET created = ? WHERE reply = 'reply-old'").run(new Date(NOW - 600e3).toISOString());
+    const before = (await legend.voice()).bestLeft;
+    await legend.speak({ reply: "reply-old", unheard: true });
+    assert.equal((await legend.voice()).bestLeft, before);
+  } finally { delete env.UNHEARD_SETTLE_MS; }
+});
+
+test("names are sent to the providers respelled so they're said right (LOR-653); every other word is as written", async () => {
+  // The line players heard wrong: "Dun Morogh" came out "Dunmarogue" and "Arathi" was corrected by a player.
+  for (const name of ["Dun Morogh", "Arathi", "Teldrassil"]) assert.ok(HOSTED[name], `${name} is in the shipped list`);
+  const text = "Deneb Walker is in Stromgarde Keep in the Arathi Highlands, past Dun Morogh. Teldrassil's far.";
+  const said = text.replace("Dun Morogh", HOSTED["Dun Morogh"]).replace("Arathi", HOSTED.Arathi)
+    .replace("Teldrassil", HOSTED.Teldrassil);
+  assert.notEqual(said, text);
+
+  // Chatterbox (a Champion's reply), Inworld (a Legend's finest), and one of Willo's own lines in that voice.
+  const champion = await companionPlayer("champ", "champion"), legend = await companionPlayer("legend", "legend");
+  assert.equal((await champion.speak({ text, reply: "reply-names" })).status, 200);
+  assert.equal((await legend.speak({ text, reply: "reply-names" })).status, 200);
+  assert.equal((await legend.speak({ text, line: true })).status, 200);
+  assert.deepEqual(calls.map(c => [c.provider, c.body.text]), [["deepinfra", said], ["inworld", said], ["inworld", said]]);
+
+  // A deploy without the list (a missing file is the site's home page, not a 404) sends the text as written.
+  const home = { ASSETS: { fetch: async () => new Response("<!doctype html><title>Lore Forever</title>") } };
+  assert.deepEqual(await hostedSpellings(home, ORIGIN), {});
 });

@@ -189,6 +189,9 @@ local function spot()
   end
   return try(string.format, "%d:%d:%d", m, math.floor(x * 1000 + 0.5), math.floor(y * 1000 + 0.5))
 end
+-- Where you stand right now, the same way: a question copied for Willo carries it, so "pin this spot" keeps the
+-- spot on the map (Companion.Payload, LOR-664).
+Journey.Here = spot
 
 local function add(kind, fields)
   if not (char and Journey.On()) then return nil end
@@ -582,6 +585,7 @@ function Journey.Init()
     onlineFrom = loginAt
     pcall(countDay)
     takeStock()
+    if ns.Stock then pcall(ns.Stock.Take, char) end   -- what Willo's goals count (Stock.lua)
   else
     char = db.journey.chars[(Journey.CharKey())]
   end
@@ -665,8 +669,10 @@ StaticPopupDialogs["LOREFOREVER_JOURNEY_SYNC"] = {
   preferredIndex = STATICPOPUP_NUMDIALOGS,   -- the last popup slot, so other add-ons' popups don't taint ours
 }
 
--- Ask before saving: Update my journey and /lore sync.
+-- Ask before saving: Update my journey and /lore sync. With the controller interface on it saves at once: a game popup
+-- shown from our code taints the controller for the session (LOR-481), and the click or command already asked.
 function Journey.AskSync()
+  if ns.Context.GamepadUI() then return Journey.Sync() end
   local d = StaticPopupDialogs["LOREFOREVER_JOURNEY_SYNC"]
   d.text = L["Save your journey now? This reloads the interface for a few seconds."]
   d.button1, d.button2 = L["Save and reload"], CANCEL or L["Cancel"]
@@ -2585,20 +2591,27 @@ local function factions()
   local byIndex = R and R.GetFactionDataByIndex
   local n = (byIndex and try(R.GetNumFactions)) or try(GetNumFactions) or 0
   for i = 1, n do
-    local name, st, header, withRep, id
+    local name, st, header, withRep, id, lo, hi, v
     if byIndex then
       local d = try(byIndex, i)
-      if type(d) == "table" then name, st, header, withRep, id = d.name, d.reaction, d.isHeader, d.isHeaderWithRep, d.factionID end
+      if type(d) == "table" then
+        name, st, header, withRep, id = d.name, d.reaction, d.isHeader, d.isHeaderWithRep, d.factionID
+        lo, hi, v = d.currentReactionThreshold, d.nextReactionThreshold, d.currentStanding
+      end
     elseif GetFactionInfo then
-      local ok, a, _, c, _, _, _, _, _, h, _, r, _, _, f = pcall(GetFactionInfo, i)
-      if ok then name, st, header, withRep, id = a, c, h, r, f end
+      local ok, a, _, c, b0, b1, bv, _, _, h, _, r, _, _, f = pcall(GetFactionInfo, i)
+      if ok then name, st, header, withRep, id, lo, hi, v = a, c, h, r, f, b0, b1, bv end
     end
     if usable(name) and type(st) == "number" and (not header or withRep) then
-      out[#out + 1] = { name = name, st = st, id = id }
+      -- lo, hi, v: the standing's bar (from, to, where you are), for Willo's goals (Stock.lua).
+      out[#out + 1] = { name = name, st = st, id = id, lo = lo, hi = hi, v = v }
     end
   end
   return out
 end
+
+-- The reputation list as it is now (Stock.lua takes it for Willo's goals).
+Journey.Factions = factions
 
 local function onStanding(name, st)
   local was = standing[name]
@@ -3024,9 +3037,15 @@ do
     return ok and (value == nil or (ns.Context.Usable(value) and value == false))
   end
 
+  -- With the controller interface on, the interface never hides for a picture: hiding it from our code taints the
+  -- controller for the session (LOR-481). The key's pictures keep the interface; automatic ones need a clean shot.
+  local function canHideUI()
+    return settings().pictureHideUI ~= false and not try(InCombatLockdown) and not ns.Context.GamepadUI()
+  end
+
   local function automaticOK()
     return char and Journey.On() and Journey.PictureBookOn() and settings().automaticPictures ~= false
-      and settings().pictureHideUI ~= false and clear(InCombatLockdown)
+      and canHideUI() and clear(InCombatLockdown)
       and clear(UnitAffectingCombat, "player") and clear(UnitOnTaxi, "player")
   end
 
@@ -3081,7 +3100,7 @@ do
     if automatic and not automaticOK() then return end
     local p = {}
     taking = p
-    if settings().pictureHideUI ~= false and not try(InCombatLockdown) and try(UIParent.IsShown, UIParent) then
+    if canHideUI() and try(UIParent.IsShown, UIParent) then
       if pcall(UIParent.Hide, UIParent) then hid = p end
     end
     local function snap()
@@ -3282,6 +3301,7 @@ local handlers = {
   end,
   PLAYER_LOGOUT = function()
     noteGuild(char)
+    if ns.Stock then pcall(ns.Stock.Take, char, true) end   -- what Willo's goals count, as the game saves (Stock.lua)
     add("logout")
     countOnline()
     pcall(countStory)

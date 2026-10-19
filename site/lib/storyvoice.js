@@ -36,6 +36,7 @@ import { sha256 } from "./accounts.js";
 import { sniff } from "./studio.js";
 import { storySpend, budgetMicro } from "./profiles.js";
 import { answerBudgetUsed, reserveOtherPaid } from "./companion-answers.js";
+import { respell, loadRespell } from "./respell.js";
 
 // Known narrator ids, retained for stored recordings and embedding uploads. Profiles use one narrator for now;
 // a later setting can select a narrator without changing how the recordings are stored.
@@ -112,7 +113,8 @@ export function storyParts(story) {
 // Story languages whose narrator reference was replaced, with the date: their stories recorded before that are read
 // again, once, the next time their page is opened (the key changes, and record() drops the old takes). Other
 // languages keep their keys. LOR-566: the German male narrator's reference was a woman's voice until 2026-10-15.
-export const VOICE_EDITIONS = { de: "2026-10-15" };
+// LOR-567: German and Castilian Spanish have new native narrators (the packs' recast) since 2026-10-18.
+export const VOICE_EDITIONS = { de: "2026-10-18", es: "2026-10-18" };
 
 // Story languages with no narrator voice for now: their stories stay text, with no Listen and nothing recorded, until
 // a new reference lands (then drop the language here and give it a voice edition above). LOR-567: the Brazilian
@@ -127,30 +129,8 @@ export const storyKey = async (userId, story, lang = "en") =>
   (await sha256(`${userId}\n${story}${VOICE_EDITIONS[lang] ? `\nvoice ${VOICE_EDITIONS[lang]}` : ""}`)).slice(0, 16);
 
 // Names the narrators say as the packs spell them for the voice (data/pronunciation.json "qwen", lore.pronounce.respell):
-// longest first, whole words only, possessives kept. English only, like the packs' respellings.
-export function respell(text, names) {
-  const list = Object.keys(names || {}).sort((a, b) => b.length - a.length);
-  if (!list.length) return text;
-  const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const re = new RegExp(`(?<![\\p{L}\\p{N}_'’])(${list.map(esc).join("|")})(?![\\p{L}\\p{N}_])`, "gu");
-  return text.replace(re, m => names[m]);
-}
-
-const respellings = new WeakMap();
-async function loadRespell(env, origin) {
-  const assets = env?.ASSETS;
-  if (!assets) return {};
-  if (respellings.has(assets)) return respellings.get(assets);
-  try {
-    const res = await assets.fetch(new URL(RESPELL, origin));
-    if (res.ok) {
-      const names = await res.json();
-      respellings.set(assets, names);
-      return names;
-    }
-  } catch (e) {}
-  return {};
-}
+// respell() in lib/respell.js, English only, like the packs' respellings.
+const loadNames = (env, origin) => loadRespell(env, origin, RESPELL);
 
 // ---- Recording ----
 
@@ -283,7 +263,7 @@ async function partText(env, origin, p, part) {
   const parts = storyParts(p.story);
   if (!parts[part]) return null;
   const lang = p.data?.locale || "en";
-  return { text: lang === "en" ? respell(parts[part].text, await loadRespell(env, origin)) : parts[part].text, lang };
+  return { text: lang === "en" ? respell(parts[part].text, await loadNames(env, origin)) : parts[part].text, lang };
 }
 
 // Records profile `p`'s story (storyKey `story`) in the default narrator: one row per part and voice, each sent to
@@ -292,7 +272,7 @@ export async function record(env, p, story, origin) {
   if (!(await budgetLeft(env))) { console.warn("story voice: budget"); return; }
   const parts = storyParts(p.story);
   const lang = p.data?.locale || "en";
-  const names = lang === "en" ? await loadRespell(env, origin) : {};
+  const names = lang === "en" ? await loadNames(env, origin) : {};
   const now = new Date().toISOString();
   const voice = DEFAULT_NARRATOR;
   if (engine(env) === "fish") {

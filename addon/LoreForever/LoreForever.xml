@@ -19,6 +19,7 @@
   <Script file="HistoryArchive.lua"/>
   <Script file="Log.lua"/>
   <Script file="Journey.lua"/>
+  <Script file="Stock.lua"/>
   <Script file="Battle.lua"/>
   <Script file="Capture.lua"/>
   <Script file="JourneyMap.lua"/>
@@ -34,6 +35,7 @@
   <Script file="WhatsNew.lua"/>
   <Script file="UI.lua"/>
   <Script file="ClipReport.lua"/>
+  <Script file="Subtitles.lua"/>
   <Script file="SelfTest.lua"/>
   <Script file="Core.lua"/>
 </Ui>

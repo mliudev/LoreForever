@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Partition frozen release extras into minimal installer inputs and release-only files.
 
-The union of the base/female/quests smoke cases is derived from the generated
+The union of the base/female/quests/original smoke cases is derived from the generated
 download contract. Files are moved without rewriting them; new releases upload the release files directly from
 their producer. Published-tag rebuilds can still merge the disjoint artifacts. No rendering, network, or publication.
 """
@@ -13,7 +13,7 @@ import shutil
 from pathlib import Path
 
 CONTROLS = ('transport-downloads.json', 'installer-downloads.iss', 'installer-downloads-uninstall.iss')
-SELECTIONS = ('base', 'female', 'quests')
+SELECTIONS = ('base', 'female', 'quests', 'original')
 
 
 def archive_name(value):
@@ -23,12 +23,12 @@ def archive_name(value):
 
 
 def selected_archives(manifest):
-    """Return archive -> SHA256 for every download used by the three smoke cases."""
+    """Return archive -> SHA256 for every download the smoke cases use."""
     if manifest.get('version') != 1 or manifest.get('rates') != ['1']:
         raise ValueError('Unsupported installer download contract')
     sources = set()
-    for selection in SELECTIONS:
-        sources.update(manifest['selections'][selection])
+    for selection in SELECTIONS:   # (a release from before a choice existed has none of it)
+        sources.update(manifest['selections'].get(selection, []))
     rows = [row for row in manifest['downloads'] if row['selection'] in SELECTIONS]
     rows += [row for source in sources for row in manifest['packs'].get(source, {}).get('shards', [])]
     result = {}

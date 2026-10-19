@@ -96,7 +96,7 @@ local function queueTooltip(id)
     GameTooltip:AddLine(L["Remove from playlist"])
   else
     GameTooltip:AddLine(L["Add to playlist"])
-    T.Tip(L["Queues this narration after the others in your playlist (Queue, bottom left)."], "tipText", true)
+    T.Tip(L["Adds this narration after the others in your playlist (Playlist, bottom left)."], "tipText", true)
   end
 end
 
@@ -470,8 +470,8 @@ function UI.Create(engine)
   f:Hide()
   table.insert(UISpecialFrames, "LoreForeverFrame")   -- Escape closes it, like the map
 
-  -- Header: where you are, then the panel-wide actions (Journey, History, New chat), each sized to its label so
-  -- German and Portuguese fit. Narrating the area is the player's Play (bottom left).
+  -- Header: where you are, then the panel-wide actions (Journey, History, New chat, Options), each sized to its label
+  -- so German and Portuguese fit. Narrating the area is the player's Play (bottom left).
   local function headerButton(label, onClick, anchor, kind)
     local b = PanelButton(f, kind)
     b:SetHeight(22)
@@ -482,7 +482,27 @@ function UI.Create(engine)
     b:SetScript("OnClick", onClick)
     return b
   end
-  UI.newButton = headerButton(L["New chat"], function() UI.Clear() end)
+  -- Options (the PM's pick, LOR-673): a gear at the end of the title bar opens them on click, as a right-click on the
+  -- minimap button does. Before, only that, the add-on menu and /lore options reached them, and players who hide the
+  -- minimap button had no way to see there was any.
+  local gear = PanelButton(f)
+  gear:SetSize(26, 22)
+  gear:SetPoint("TOPRIGHT", -14, -30)
+  local cog = gear:CreateTexture(nil, "ARTWORK")
+  cog:SetTexture("Interface\\Icons\\INV_Misc_Gear_01")
+  cog:SetTexCoord(0.08, 0.92, 0.08, 0.92)
+  cog:SetSize(16, 16)
+  cog:SetPoint("CENTER")
+  gear:SetScript("OnClick", function() ns.Options.Open() end)
+  gear:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_BOTTOMLEFT")
+    GameTooltip:AddLine(L["Options"])
+    T.Tip(L["Narration, voices, sizes and what plays by itself."], "tipDim", true)
+    GameTooltip:Show()
+  end)
+  gear:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  UI.optionsButton = gear
+  UI.newButton = headerButton(L["New chat"], function() UI.Clear() end, gear)
   UI.historyButton = headerButton(L["History"], function() UI.ToggleHistory() end, UI.newButton)
   -- Journey opens a page over the conversation, like History.
   UI.journeyButton = headerButton(L["Journey"], function()
@@ -607,21 +627,21 @@ function UI.Create(engine)
     UI.suggestions[i] = b
   end
 
-  -- Inside a dungeon: its bosses in encounter order, each opening its story, with play, + and "Queue all".
+  -- Inside a dungeon: its bosses in encounter order, each opening its story, with play, + and "Add all".
   UI.bossHeader = Header(hereView, L["Bosses, in order"])
   local queueAll = TextButton(hereView, 70, 16, T.font.small, T.color.add)
   queueAll.text:SetJustifyH("CENTER")
   queueAll.text:SetPoint("TOPLEFT", 2, -1)
   queueAll.text:SetPoint("BOTTOMRIGHT", -2, 1)
   if queueAll.text.SetWordWrap then queueAll.text:SetWordWrap(false) end
-  queueAll.text:SetText(L["Queue all"])
+  queueAll.text:SetText(L["Add all"])
   local qaw = T.TextWidth(queueAll.text)
   if qaw and qaw > 0 then queueAll:SetWidth(math.max(70, math.min(130, qaw + 10))) end
   queueAll:SetPoint("BOTTOMRIGHT", UI.bossHeader.rule, "TOPRIGHT", 0, 2)
   queueAll:SetScript("OnClick", function() UI.QueueBosses(UI.hereBosses) end)
   queueAll:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Queue all"])
+    GameTooltip:AddLine(L["Add all to your playlist"])
     T.Tip(L["Adds each narrated boss's story to your playlist, in order. Spoilers stay out."], "tipText", true)
     GameTooltip:Show()
   end)
@@ -1378,6 +1398,7 @@ local function startTarget(target, fromPlaylist, keepProgress)
   -- zone story is its playlist item's. Read once: the same target played again later is the player's doing.
   local byItself = target.byItself
   target.byItself = nil
+  if not byItself then ns.Voice.questWaiting = nil end   -- what you start outranks a quest giver's page waiting
   if fromPlaylist then
     local cur = UI.pl.items[UI.pl.pos]
     byItself = byItself or (cur and cur.flight)
@@ -1476,6 +1497,7 @@ end
 -- Stop any narration, whatever started it. A playlist pauses at the item it was on. A whole recording played by hand
 -- (no saved position) is remembered so Shift-click can play it again (UI.ResumeStopped).
 function UI.StopAll()
+  ns.Voice.questWaiting, ns.Voice.questLeftover = nil, nil   -- a quest giver's page waiting its turn goes too
   UI.RememberProgress()
   local t = UI.activeTarget
   if UI.speaking and t and not t.fromPlaylist and not ns.Voice.transport then UI.stoppedTarget = t end
@@ -2128,7 +2150,8 @@ function UI.SetNext(items, label)
     end
   end
   items = available
-  UI.nextLabel:SetText(label or L["Suggested:"])
+  UI.nextFull = label or L["Suggested:"]   -- UI.PlaceNext fits it to the column
+  UI.nextLabel:SetText(UI.nextFull)
   UI.nextLabel:SetShown(#items > 0)
   for i, b in ipairs(UI.nextButtons) do
     local it = items[i]
@@ -2152,6 +2175,13 @@ function UI.PlaceNext()
   local gap = math.floor(math.max(0, (tonumber(sf:GetHeight()) or 0) - (tonumber(content:GetHeight()) or 0)))
   label:ClearAllPoints()
   label:SetPoint("BOTTOMLEFT", CHAT_X + 2, 110 + gap)
+  -- The invitation over the welcome's questions is a long sentence, longer still in some languages: where it doesn't
+  -- fit the column (a narrow panel), the short heading stands in rather than running off the panel (ptBR, 10/18).
+  if UI.nextFull then
+    label:SetText(UI.nextFull)
+    local w, room = T.TextWidth(label), (tonumber(UI.frame:GetWidth()) or W) - CHAT_X - 40
+    if w and w > room then label:SetText(L["Suggested:"]) end
+  end
   local level = (tonumber(content:GetFrameLevel()) or 0) + 2   -- over the chat's empty space they now sit in
   for i, b in ipairs(UI.nextButtons) do
     b:ClearAllPoints()
@@ -2591,12 +2621,13 @@ end
 
 -- The list, by zone, so hundreds of places and people stay easy to browse. Items:
 --   { section = "Capitals" }                                              a heading over zone groups
---   { zone = zk, label = "Elwynn Forest", count = 31, open = true, tag = "you are here" }   a zone to open or close
+--   { zone = zk, label = "Elwynn Forest", count = 31, open = true, tag = "you are here", keys = {...} }   a zone to
+--                                                                                  open or close, its stories to queue
 --   { key = "zone:elwynn", label = "Elwynn Forest", faqs = 2, bosses = 3, depth = 1 }       a story in it
 -- Where you are and your own starting zone come first and start open; every other zone starts closed. Within a
--- zone: its own story first, then its places, then its people, by name. Clicking a zone header flips it
--- (UI.narrZone remembers that for the session).
-local KIND_ORDER = { zone = 0, city = 0, dungeon = 0, subzone = 1, npc = 2 }
+-- zone: its own story first, then its places, its people, its quests' stories and its items', by name. Clicking a
+-- zone header flips it (UI.narrZone remembers that for the session).
+local KIND_ORDER = { zone = 0, city = 0, dungeon = 0, subzone = 1, npc = 2, topic = 3, quest = 4, item = 5 }
 local SEARCH_CAP = 120   -- stories a Library search lists at most (each is a row of frames)
 
 local function minLevel(z)
@@ -2689,7 +2720,9 @@ function UI.NarrationItems(ctx)
       if open == nil then open = (zk == here or zk == home) end
       for _, k in ipairs(list) do hits[#hits + 1] = { k = k } end
     end
-    out[#out + 1] = { zone = zk, label = label, count = count, open = open, tag = tag }
+    local keys = {}   -- what its + queues (UI.QueueGroup): the stories it lists, open or closed
+    for i, h in ipairs(hits) do keys[i] = h.k end
+    out[#out + 1] = { zone = zk, label = label, count = count, open = open, tag = tag, keys = keys }
     if not open then return end
     for _, h in ipairs(hits) do
       if searching and shown >= SEARCH_CAP then
@@ -2858,6 +2891,21 @@ function UI.RefreshNarrations()
       more:SetScript("OnLeave", function() GameTooltip:Hide() end)
       row.more = more
       row.add = QueueButton(row, ROW_H - 4)
+      -- A zone's own green + (UI.QueueGroup): all of its stories into the playlist.
+      local all = TextButton(row, 20, ROW_H - 4, T.font.body, T.color.add)
+      all.text:SetJustifyH("CENTER")
+      all.text:SetText("+")
+      all:SetPoint("RIGHT", -2, 0)
+      all:SetScript("OnClick", function(self) UI.QueueGroup(self.keys, self.label) end)
+      all:SetScript("OnEnter", function(self)
+        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+        GameTooltip:AddLine(L["Add all to your playlist"])
+        T.Tip(L["Adds every story listed here to your playlist, in this order. Spoilers stay out."], "tipText", true)
+        GameTooltip:Show()
+      end)
+      all:SetScript("OnLeave", function() GameTooltip:Hide() end)
+      all:Hide()
+      row.all = all
       UI.narrRows[i] = row
     end
     row:ClearAllPoints()
@@ -2868,6 +2916,7 @@ function UI.RefreshNarrations()
     row.more.key, row.more.bosses, row.more.open = it.key, it.bosses, it.kidsOpen
     row.more:Hide()
     row.add:Hide()
+    row.all:Hide()
     if it.section or it.note then
       row.icon:Hide()
       row.text:SetPoint("TOPLEFT", 4, -2)
@@ -2882,9 +2931,11 @@ function UI.RefreshNarrations()
       row.icon:SetTexture(it.open and "Interface\\Buttons\\UI-MinusButton-Up" or "Interface\\Buttons\\UI-PlusButton-Up")
       row.icon:Show()
       row.text:SetPoint("TOPLEFT", 20, -2)
-      row.text:SetPoint("BOTTOMRIGHT", -4, 2)
+      row.text:SetPoint("BOTTOMRIGHT", -28, 2)
       row.text:SetText(T.code.zone .. esc(it.label) .. "|r" .. GREY .. "  " .. it.count
         .. (it.tag and ("  " .. esc(it.tag)) or "") .. "|r")
+      row.all.keys, row.all.label = it.keys, it.label
+      row.all:Show()
       y = y + ROW_H
     else
       local id = it.idx and (faqID(it.key, it.idx)) or it.key
@@ -3246,6 +3297,31 @@ function UI.QueueHere()
     showToast(GREEN .. L["Playing everything narrated here:"] .. "|r " .. WHITE .. esc(place or "") .. "|r"
       .. GREY .. "  (" .. string.format(n == 1 and L["%d narration"] or L["%d narrations"], n) .. ")|r")
   end
+  return n
+end
+
+-- A Library zone's green + (LOR-582, Mike on stream: "I kinda wanna have an ability to queue all of these"): the
+-- stories it lists join the playlist in that order, a dungeon's bosses right after its own story (as QueueHere does).
+-- Spoilers and what's queued already stay out; the first one starts if nothing plays. Returns how many joined.
+function UI.QueueGroup(keys, label)
+  local zones, n = UI.engine.db.zones, 0
+  local function add(k)
+    if UI.CanQueue(k) and not UI.PlaylistIndex(k) and UI.PlaylistAdd(k, nil, true) then n = n + 1 end
+  end
+  for _, k in ipairs(keys or {}) do
+    add(k)
+    local z = zones[k:match("^zone:(.+)$") or ""]
+    for _, bk in ipairs(z and z.t == "dungeon" and z.b or {}) do add(bk) end
+  end
+  if n > 0 then
+    ns.Log.Use("pl", "add")
+    UI.FlashPlayer()
+    showToast(GREEN .. L["Added to your playlist:"] .. "|r " .. WHITE .. esc(label or "") .. "|r"
+      .. GREY .. "  (" .. string.format(n == 1 and L["%d narration"] or L["%d narrations"], n) .. ")|r")
+  else
+    note(L["Everything here is already in your playlist."])
+  end
+  if UI.tab == "narrations" then UI.RefreshNarrations() end
   return n
 end
 
@@ -3651,7 +3727,7 @@ function UI.PlayerPlay()
       UI.ListenTo(zt)
     end
   else
-    showToast(GREY .. L["Nothing here is narrated yet. Press + on any story in the Library to queue it."] .. "|r")
+    showToast(GREY .. L["Nothing here is narrated yet. Press + on any story in the Library to add it to your playlist."] .. "|r")
   end
 end
 
@@ -3736,7 +3812,7 @@ local function playerMenu(p)
   local m = p.menu
   if not m then
     m = T.Backdrop(CreateFrame("Frame", nil, p, T.BACKDROP_TEMPLATE), "popup")
-    m:SetSize(SIDE_W - 8, 4 * 24 + 12)
+    m:SetSize(SIDE_W - 8, 5 * 24 + 12)
     m:SetFrameStrata("DIALOG")
     local function item(i, onClick)
       local b = TextButton(m, SIDE_W - 20, 24, T.font.small)
@@ -3746,10 +3822,10 @@ local function playerMenu(p)
       return b
     end
     m.clear = item(1, function() UI.PlaylistClear() end)
-    m.clear.text:SetText(L["Clear queue"])
+    m.clear.text:SetText(L["Clear playlist"])
     m.story = item(2, function()
       if UI.PlayerClearStory() then return end
-      showToast(GREY .. L["Nothing to clear: no story is playing outside your queue."] .. "|r")
+      showToast(GREY .. L["Nothing to clear: no story is playing outside your playlist."] .. "|r")
     end)
     m.float = item(3, function()
       if LoreForeverDB and LoreForeverDB.settings then
@@ -3766,6 +3842,8 @@ local function playerMenu(p)
       if UI.ReportableClip() then return UI.ShowClipReport() end
       showToast(GREY .. L["Play a narration first, then report it from the player."] .. "|r")
     end)
+    -- Subtitles: the words of what plays, at the bottom of the screen (Subtitles.lua, LOR-344). Options has the same tick.
+    m.subtitles = item(5, function() ns.Subtitles.Set(not ns.Subtitles.On()) end)
     m:SetScript("OnHide", nil)
     m:Hide()   -- a new frame starts shown, which made the first right-click only close it
     p.menu = m
@@ -3778,6 +3856,7 @@ local function playerMenu(p)
   m.float.text:SetText((on and "|TInterface\\Buttons\\UI-CheckBox-Check:14|t " or "") .. L["Show the player when the panel is closed"])
   m.report.text:SetText((UI.ReportableClip() and "" or GREY) .. L["Report a problem with this narration"]
     .. (UI.ReportableClip() and "" or "|r"))
+  m.subtitles.text:SetText((ns.Subtitles.On() and "|TInterface\\Buttons\\UI-CheckBox-Check:14|t " or "") .. L["Show subtitles"])
   m:Show()
 end
 
@@ -3892,34 +3971,35 @@ function UI.CreatePlayer(parent, floating)
   p:SetScript("OnMouseUp", function(self, button) if button == "RightButton" then playerMenu(self) end end)
 
   -- Floating: an X in the top right corner stops what plays and puts the player away (UI.ClosePlayer; Mike,
-  -- 2026-10-15: "Maybe a minus or an X on the player as well to hide it").
+  -- 2026-10-15: "Maybe a minus or an X on the player as well to hide it"). The client's X art fills its button, so it
+  -- keeps the title bar's 6 px from the edge (inside the gold rim) and sits level with Queue.
   if floating then
     local close = CreateFrame("Button", nil, p, "UIPanelCloseButton")
     close:SetSize(20, 20)
-    close:SetPoint("TOPRIGHT", -1, -7)
+    close:SetPoint("TOPRIGHT", -6, -7)
     close:SetScript("OnClick", function() UI.ClosePlayer() end)
     close:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_TOP")
       GameTooltip:AddLine(L["Stop and close"])
-      T.Tip(L["Hides the player until something plays again. Your queue stays."], "tipText", true)
+      T.Tip(L["Hides the player until something plays again. Your playlist stays."], "tipText", true)
       GameTooltip:Show()
     end)
     close:SetScript("OnLeave", function() GameTooltip:Hide() end)
     p.close = close
   end
 
-  -- Queue (top right, beside the floating player's X) and the title beside it.
-  p.queue = playerButton(p, L["Queue"], function()
+  -- Playlist (top right, beside the floating player's X) and the title beside it.
+  p.queue = playerButton(p, L["Playlist"], function()
     if floating then
       if not UI.frame:IsShown() then UI.frame:Show() end
       UI.ShowQueue(true)
     else
       UI.ShowQueue(not (UI.plView and UI.plView:IsShown()))
     end
-  end, L["Your queue"])
+  end, L["Your playlist"])
   p.queue.tip2 = L["What's playing and what's next: reorder, remove or clear. Add with + or Shift-click."]
-  p.queue:SetPoint("TOPRIGHT", floating and -27 or -6, -6)   -- 6 px clear of the X
-  -- A small list sign before "Queue": three gold lines.
+  p.queue:SetPoint("TOPRIGHT", floating and -32 or -6, -6)   -- 6 px clear of the X
+  -- A small list sign before "Playlist": three gold lines.
   p.queue.lines = {}
   for i = 1, 3 do
     local ln = T.Area(p.queue, "gold", "ARTWORK")
@@ -4069,7 +4149,7 @@ local function updatePlayer(p)
   if oneOff then
     full = UI.playingLabel or L["narration"]
     title = GREEN .. esc(full) .. "|r"
-    state = list and (pl.state == "waiting" and L["then your queue"] or L["queue paused"]) or ""
+    state = list and (pl.state == "waiting" and L["then your playlist"] or L["playlist paused"]) or ""
     button, tip = transport and L["Pause"] or L["Stop"], transport and L["Pause"] or L["Stop narration"]
   elseif not playing and transport and not transport.target.fromPlaylist then
     full = transport.target.label
@@ -4082,7 +4162,7 @@ local function updatePlayer(p)
     state = string.format(L["%d of %d"], pl.pos, n)
     if not ours then state = L["Paused"] .. "  " .. state end
     if pl.state == "playing" then
-      button, tip = transport and L["Pause"] or L["Stop"], transport and L["Pause your queue"] or L["Stop narration"]
+      button, tip = transport and L["Pause"] or L["Stop"], transport and L["Pause your playlist"] or L["Stop narration"]
     else
       button, tip = transport and L["Play"] or L["Restart"],
         transport and L["Resume starts at the previous audio segment."] or L["Click to play it from the start"]
@@ -4114,7 +4194,7 @@ local function updatePlayer(p)
   p.play:SetText(button)   -- hidden; the sign shows it
   p.play.tip = tip
   T.SetIcon(p.play, button == L["Pause"] and "pause" or (button == L["Stop"] and "stop" or "play"))
-  p.queue:SetText(list and (L["Queue"] .. " " .. GREEN .. n .. "|r") or L["Queue"])
+  p.queue:SetText(list and (L["Playlist"] .. " " .. GREEN .. n .. "|r") or L["Playlist"])
   fitButton(p.queue, 58)
   p.queue:SetWidth((tonumber(p.queue:GetWidth()) or 58) + 12)   -- room for the list sign
   local open = not p.floating and UI.plView and UI.plView:IsShown()
@@ -4186,6 +4266,7 @@ function UI.UpdateNowPlaying()
   if ns.SetButtonsPlaying then ns.SetButtonsPlaying(UI.IsBusy()) end
   if ns.Hooks and ns.Hooks.UpdateQuestPlayButton then ns.Hooks.UpdateQuestPlayButton() end
   if UI.plView and UI.plView:IsShown() then UI.RefreshPlaylist() end
+  if ns.Subtitles then ns.Subtitles.Wake() end   -- the words of what plays (Subtitles.lua)
 end
 
 -- Options > Reset windows and /lore reset (LOR-241): every window back to where it starts, and the floating player and
@@ -4220,10 +4301,11 @@ function UI.ResetWindows()
   end
   if ns.MinimapButton then ns.MinimapButton() end
   if UI.buttonMenu then UI.buttonMenu:Hide() end   -- it hangs off the minimap button, which may have moved
+  if ns.Subtitles then ns.Subtitles.Reset() end   -- (Shift-dragged somewhere: back above the action bars)
   UI.UpdateNowPlaying()
   local op = ns.Options and ns.Options.panel   -- open on our page: its ticks follow
   if op and op:IsVisible() and op:GetScript("OnShow") then op:GetScript("OnShow")(op) end
-  DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. L["windows reset: the panel, the floating player and the minimap button are back where they started. The player shows while the panel is closed and something plays or is queued."])
+  DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. L["windows reset: the panel, the floating player and the minimap button are back where they started. The player shows while the panel is closed and something plays or waits in your playlist."])
 end
 
 -- History ----------------------------------------------------------------------------------------------------------

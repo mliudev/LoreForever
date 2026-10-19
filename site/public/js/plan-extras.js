@@ -2,7 +2,8 @@
 // GET /api/billing/plans fields lib/billing.js adds: plans[].promo {price (US cents now), label, note}, only while it
 // applies to the account, and compare [{label, values: {<plan id>: text}}]. Never priced in the page itself. Styles:
 // style.css .pl-tag, .pl-promo, .wl-compare. /plans' own script calls these after it draws its cards:
-//   PlanExtras.promo(cardElement, plan)        a "50% off" tag and the struck-through price, when plan.promo is set
+//   PlanExtras.promo(cardElement, plan)        the beta's tag ("Beta: half price") and the struck-through price, when
+//                                              plan.promo is set
 //   PlanExtras.compare(boxElement, plans, rows) the table into box (a <div>), shown only when rows has any
 window.PlanExtras = (() => {
   const el = (tag, cls, text) => {

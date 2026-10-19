@@ -98,11 +98,17 @@ export async function claimToken(env, deviceCode) {
     "DELETE FROM device_links WHERE code_hash = ? AND status = 'approved' RETURNING user_id, label"
   ).bind(hash).first();
   if (!taken?.user_id) return { gone: "expired" };
+  return issueToken(env, taken.user_id, taken.label || LABEL);
+}
+
+// A new app token for the account (a claimed link, or the iPhone app's Sign in with Apple): {token, device}. Only the
+// token's hash is kept.
+export async function issueToken(env, userId, label = LABEL) {
   const token = randomHex(), id = crypto.randomUUID(), now = iso();
   await env.DB.prepare(
     "INSERT INTO devices (id, token_hash, user_id, label, created, last_used) VALUES (?, ?, ?, ?, ?, ?)"
-  ).bind(id, await sha256(token), taken.user_id, taken.label || LABEL, now, now).run();
-  return { token, device: { id, label: taken.label || LABEL, created: now } };
+  ).bind(id, await sha256(token), userId, label, now, now).run();
+  return { token, device: { id, label, created: now } };
 }
 
 // ---- Using a token ----

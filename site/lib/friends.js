@@ -11,8 +11,16 @@
 // the other, block (which also removes) and report (which also blocks). A blocked player can't add or write to whoever
 // blocked them, and isn't told.
 //
-// Messages: text only, between friends only, kept MESSAGE_KEEP_DAYS and then deleted. Removing or blocking a friend
-// deletes the conversation for both. Nothing is ever sent to the game (no whispers) and Willo never acts in it.
+// Messages: text, between friends only, kept MESSAGE_KEEP_DAYS and then deleted. Removing or blocking a friend deletes
+// the conversation for both. Nothing is ever sent to the game (no whispers) and Willo never acts in it. A message may
+// carry a card (LOR-674, "Willo, send this to Mike": readCard): a place, an item, a quest, a character or a story, as a
+// kind, a title and a few words; its text then says the same in plain words, so an older Willo shows it as a message.
+// The sender can take a message back while it's unread (unsendMessage: the Undo under Willo's "Sent").
+//
+// Online (LOR-674, Patrick's "Mike — Willo connected"): a friend shows as online while their Willo has been in touch
+// with the site in the last ONLINE_MINUTES (devices.last_used, which the minute poll keeps within 10 minutes), else
+// away. Never when or where they were: only online or away, and nothing at all for a player who turned "Show when my
+// Willo is on" off (friend_people.hide_online).
 //
 // Progress: off until the player turns on "Share where I am with friends". While it's on, the companion sends a small
 // note (character, level, zone, subzone, tracked quest, guild, and their week: levels, new places, quests and bosses of
@@ -41,20 +49,25 @@ export const MESSAGES_PER_MINUTE = 20;
 export const MESSAGES_PER_DAY = 500;
 export const REPORTS_PER_DAY = 10;
 export const PRESENCE_PER_HOUR = 60;
+export const ONLINE_MINUTES = 12;         // devices.last_used is kept within 10 minutes of the app's last call
+export const UNSEND_MINUTES = 10;         // a message can be taken back this long, while it's unread
+// What a card may be (readCard), and how its text reads for a Willo that doesn't draw cards.
+export const CARD_KINDS = { place: "a place", item: "an item", quest: "a quest", character: "someone", lore: "a story" };
+const CARD_TITLE_MAX = 120, CARD_DETAIL_MAX = 600, CARD_REF_MAX = 64;
 const PAGE = 50;                          // messages per read
 const REPORTED_MESSAGES = 30;             // the latest messages a report keeps for review
 
 export const FRIENDS_SETUP = [
   `CREATE TABLE IF NOT EXISTS friend_people (
     user_id TEXT PRIMARY KEY, pid TEXT NOT NULL UNIQUE, share INTEGER NOT NULL DEFAULT 0, progress TEXT,
-    progress_at TEXT, created TEXT NOT NULL)`,
+    progress_at TEXT, created TEXT NOT NULL, hide_online INTEGER NOT NULL DEFAULT 0)`,
   `CREATE TABLE IF NOT EXISTS friend_edges (
     user_id TEXT NOT NULL, other_id TEXT NOT NULL, state TEXT NOT NULL, created TEXT NOT NULL, updated TEXT NOT NULL,
     PRIMARY KEY (user_id, other_id))`,
   "CREATE INDEX IF NOT EXISTS friend_edges_other ON friend_edges (other_id)",
   `CREATE TABLE IF NOT EXISTS friend_messages (
     id INTEGER PRIMARY KEY AUTOINCREMENT, sender TEXT NOT NULL, recipient TEXT NOT NULL, body TEXT NOT NULL,
-    created TEXT NOT NULL, seen INTEGER NOT NULL DEFAULT 0)`,
+    created TEXT NOT NULL, seen INTEGER NOT NULL DEFAULT 0, card TEXT)`,
   "CREATE INDEX IF NOT EXISTS friend_messages_to ON friend_messages (recipient, seen, sender)",
   "CREATE INDEX IF NOT EXISTS friend_messages_from ON friend_messages (sender, recipient)",
   "CREATE INDEX IF NOT EXISTS friend_messages_created ON friend_messages (created)",
@@ -62,6 +75,9 @@ export const FRIENDS_SETUP = [
     id INTEGER PRIMARY KEY AUTOINCREMENT, reporter TEXT NOT NULL, reported TEXT NOT NULL, messages TEXT NOT NULL,
     note TEXT, created TEXT NOT NULL, status TEXT NOT NULL DEFAULT 'open')`,
 ];
+
+// Columns added after their tables were first made (lib/accounts.js setup adds the missing ones): table -> [column, type].
+export const FRIENDS_COLUMNS = { friend_people: [["hide_online", "INTEGER NOT NULL DEFAULT 0"]], friend_messages: [["card", "TEXT"]] };
 
 // What "Delete my account" runs (lib/accounts.js USER_DATA): every row that names the account, either side.
 export const FRIENDS_USER_DATA = [
@@ -88,12 +104,13 @@ const PID = /^[0-9a-f]{16}$/;
 
 // The account's own row (made the first time): {pid, share, progress, progress_at}.
 export async function person(env, userId, now = Date.now()) {
-  const row = await env.DB.prepare("SELECT pid, share, progress, progress_at FROM friend_people WHERE user_id = ?")
+  const read = () => env.DB.prepare("SELECT pid, share, progress, progress_at, hide_online FROM friend_people WHERE user_id = ?")
     .bind(userId).first();
+  const row = await read();
   if (row) return row;
   await env.DB.prepare("INSERT INTO friend_people (user_id, pid, share, created) VALUES (?, ?, 0, ?) " +
     "ON CONFLICT (user_id) DO NOTHING").bind(userId, newPid(), iso(now)).run();
-  return env.DB.prepare("SELECT pid, share, progress, progress_at FROM friend_people WHERE user_id = ?").bind(userId).first();
+  return read();
 }
 
 // The account behind a friend id, or null.
@@ -172,15 +189,17 @@ export async function friendsList(env, userId, now = Date.now()) {
     person(env, userId, now),
     env.DB.prepare("SELECT handle, json_extract(data, '$.name') AS name FROM profiles WHERE user_id = ?").bind(userId).first(),
     env.DB.prepare(
-      "SELECT e.state, e.updated, p.pid, p.share, p.progress, p.progress_at, pr.handle, pr.public, " +
-      "json_extract(pr.data, '$.name') AS name FROM friend_edges e JOIN friend_people p ON p.user_id = e.other_id " +
+      "SELECT e.state, e.updated, p.pid, p.share, p.progress, p.progress_at, p.hide_online, pr.handle, pr.public, " +
+      "json_extract(pr.data, '$.name') AS name, CASE WHEN e.state = 'friends' AND p.hide_online = 0 THEN " +
+      "EXISTS (SELECT 1 FROM devices d WHERE d.user_id = e.other_id AND d.last_used > ?) END AS online " +
+      "FROM friend_edges e JOIN friend_people p ON p.user_id = e.other_id " +
       "LEFT JOIN profiles pr ON pr.user_id = e.other_id WHERE e.user_id = ? ORDER BY e.updated DESC LIMIT 500"
-    ).bind(userId).all(),
+    ).bind(onlineSince(now), userId).all(),
     env.DB.prepare("SELECT p.pid, COUNT(*) AS n FROM friend_messages m JOIN friend_people p ON p.user_id = m.sender " +
       "WHERE m.recipient = ? AND m.seen = 0 GROUP BY m.sender").bind(userId).all(),
     // The latest message with each friend, either way.
     env.DB.prepare(
-      "SELECT m.id, m.sender, m.body, m.created, p.pid FROM friend_messages m JOIN friend_people p " +
+      "SELECT m.id, m.sender, m.body, m.created, m.card, p.pid FROM friend_messages m JOIN friend_people p " +
       "ON p.user_id = CASE WHEN m.sender = ? THEN m.recipient ELSE m.sender END WHERE m.id IN (" +
       "SELECT MAX(id) FROM friend_messages WHERE sender = ? OR recipient = ? " +
       "GROUP BY CASE WHEN sender = ? THEN recipient ELSE sender END)"
@@ -191,16 +210,20 @@ export async function friendsList(env, userId, now = Date.now()) {
   const lastBy = new Map(last.results.map(r => [r.pid, r]));
   const who = r => ({ id: r.pid, handle: r.handle || null, name: r.name || r.handle || "A Lore Forever player" });
   // me.guild: the player's own guild, from what they share (so the tab can mark friends in it); null when not sharing.
+  // me.online: whether their friends see when their Willo is on ("Show when my Willo is on").
   const out = { me: { id: me.pid, handle: mine?.handle || null, name: mine?.name || null, share: Boolean(me.share),
-                      guild: progressOf(me, now)?.guild || null },
+                      guild: progressOf(me, now)?.guild || null, online: !me.hide_online },
                 friends: [], incoming: [], outgoing: [], blocked: [], unread: 0, suggested };
   for (const r of edges.results) {
     if (r.state === "friends") {
       const m = lastBy.get(r.pid), n = unreadBy.get(r.pid) || 0;
       out.unread += n;
+      // online: true (Willo connected), false (away), or null when they don't show it.
       out.friends.push({
         ...who(r), unread: n, url: r.public && r.handle ? `/u/${r.handle}` : null, since: r.updated,
-        last: m ? { id: m.id, text: m.body.slice(0, 140), at: m.created, mine: m.sender === userId } : null,
+        online: r.hide_online ? null : Boolean(r.online),
+        last: m ? { id: m.id, text: m.body.slice(0, 140), at: m.created, mine: m.sender === userId,
+                    ...(m.card ? { kind: cardOf(m.card)?.kind || null } : {}) } : null,
         progress: progressOf(r, now),
       });
     } else if (r.state === "asking") out.incoming.push({ ...who(r), at: r.updated });
@@ -212,15 +235,27 @@ export async function friendsList(env, userId, now = Date.now()) {
 }
 
 // Just the counts, for the companion's minute poll (reads only, one query): {unread, incoming, stamp}. stamp changes
-// whenever a message comes in or the list changes, so the companion fetches the whole list only then.
-export async function friendCounts(env, userId) {
+// whenever a message comes in, the list changes or a friend comes online or goes away, so the companion fetches the
+// whole list only then.
+const onlineSince = now => iso(now - ONLINE_MINUTES * 60e3);
+const fnv = text => {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < text.length; i++) h = Math.imul(h ^ text.charCodeAt(i), 0x01000193);
+  return (h >>> 0).toString(36);
+};
+export async function friendCounts(env, userId, now = Date.now()) {
   const row = await env.DB.prepare(
     "SELECT (SELECT COUNT(*) FROM friend_messages WHERE recipient = ? AND seen = 0) AS unread, " +
     "(SELECT COALESCE(MAX(id), 0) FROM friend_messages WHERE recipient = ?) AS last_in, " +
     "(SELECT COUNT(*) FROM friend_edges WHERE user_id = ? AND state = 'asking') AS incoming, " +
-    "(SELECT COUNT(*) || '.' || COALESCE(MAX(updated), '') FROM friend_edges WHERE user_id = ?) AS edges"
-  ).bind(userId, userId, userId, userId).first();
-  return { unread: row?.unread || 0, incoming: row?.incoming || 0, stamp: `${row?.last_in || 0}.${row?.edges || ""}` };
+    "(SELECT COUNT(*) || '.' || COALESCE(MAX(updated), '') FROM friend_edges WHERE user_id = ?) AS edges, " +
+    "(SELECT GROUP_CONCAT(p.pid) FROM friend_edges e JOIN friend_people p ON p.user_id = e.other_id WHERE e.user_id = ? " +
+    "AND e.state = 'friends' AND p.hide_online = 0 AND EXISTS (SELECT 1 FROM devices d WHERE d.user_id = e.other_id " +
+    "AND d.last_used > ?)) AS online"
+  ).bind(userId, userId, userId, userId, userId, onlineSince(now)).first();
+  const online = String(row?.online || "").split(",").filter(Boolean).sort().join(",");
+  return { unread: row?.unread || 0, incoming: row?.incoming || 0,
+           stamp: `${row?.last_in || 0}.${row?.edges || ""}.${online ? fnv(online) : "0"}` };
 }
 
 // ---- Adding, answering, removing, blocking ----
@@ -381,19 +416,56 @@ async function needFriend(env, userId, pid) {
   return row.user_id;
 }
 
-const asMessage = (userId, r) => ({ id: r.id, mine: r.sender === userId, text: r.body, at: r.created });
+// A card as it's kept: {kind (CARD_KINDS), title, detail?, ref?}, each cleaned and cut to its length, or null when it
+// isn't one (an unknown kind, no title).
+const cardText = (v, max) => (typeof v === "string" ? cleanMessage(v).replace(/\s*\n\s*/g, "\n").slice(0, max).trim() : "");
+export function readCard(input) {
+  if (!input || typeof input !== "object" || !Object.hasOwn(CARD_KINDS, input.kind)) return null;
+  const title = cardText(input.title, CARD_TITLE_MAX).replace(/\s+/g, " ");
+  if (!title) return null;
+  const detail = cardText(input.detail, CARD_DETAIL_MAX), ref = short(input.ref, CARD_REF_MAX);
+  return { kind: input.kind, title, ...(detail ? { detail } : {}), ...(ref ? { ref } : {}) };
+}
+const cardOf = json => { try { return readCard(JSON.parse(json)); } catch (e) { return null; } };
+// A card in plain words, for a message without text of its own, and for a Willo that shows only text: "Shared a quest:
+// The Defias Brotherhood", then its words.
+export const cardWords = card => cleanMessage(`Shared ${CARD_KINDS[card.kind]}: ${card.title}` +
+  (card.detail ? `\n${card.detail}` : ""));
 
-// Sends `text` to friend `pid`. The caller checks the rate limits first.
-export async function sendMessage(env, userId, pid, text, now = Date.now()) {
-  const body = cleanMessage(text);
+const asMessage = (userId, r) => {
+  const card = r.card ? cardOf(r.card) : null;
+  return { id: r.id, mine: r.sender === userId, text: r.body, at: r.created, ...(card ? { card } : {}),
+           ...(r.sender === userId ? { seen: Boolean(r.seen) } : {}) };
+};
+
+// Sends `text` to friend `pid`, with a card (readCard's) when one comes: then the text is optional, and the card's
+// words stand in for it. The caller checks the rate limits first.
+export async function sendMessage(env, userId, pid, text, now = Date.now(), card = null) {
+  const shared = card ? readCard(card) : null;
+  if (card && !shared) throw new FriendError(400, "That can't be sent.");
+  const body = cleanMessage(text) || (shared ? cardWords(shared) : "");
   if (!body) throw new FriendError(400, "Write something first.");
   const other = await needFriend(env, userId, pid);
-  const row = await env.DB.prepare("INSERT INTO friend_messages (sender, recipient, body, created) VALUES (?, ?, ?, ?) RETURNING id")
-    .bind(userId, other, body, iso(now)).first();
+  const row = await env.DB.prepare("INSERT INTO friend_messages (sender, recipient, body, created, card) VALUES (?, ?, ?, ?, ?) " +
+    "RETURNING id").bind(userId, other, body, iso(now), shared ? JSON.stringify(shared) : null).first();
   // Old messages go, a few at a time, as new ones come.
   await env.DB.prepare("DELETE FROM friend_messages WHERE id IN (SELECT id FROM friend_messages WHERE created < ? LIMIT 200)")
     .bind(daysAgo(MESSAGE_KEEP_DAYS, now)).run();
-  return { id: row.id, mine: true, text: body, at: iso(now) };
+  return { id: row.id, mine: true, text: body, at: iso(now), ...(shared ? { card: shared } : {}), seen: false };
+}
+
+// Takes back the player's own message `id` while the friend hasn't read it and it's at most UNSEND_MINUTES old (the
+// Undo under what Willo sent). {removed: true}, or a FriendError saying why not.
+export async function unsendMessage(env, userId, id, now = Date.now()) {
+  const n = Number(id);
+  if (!Number.isInteger(n) || n <= 0) throw new FriendError(400, "Choose a message first.");
+  const row = await env.DB.prepare("SELECT seen, created FROM friend_messages WHERE id = ? AND sender = ?").bind(n, userId).first();
+  if (!row) throw new FriendError(404, "That message isn't there any more.");
+  if (row.seen) throw new FriendError(409, "They've read it already.");
+  if (Date.parse(row.created) < now - UNSEND_MINUTES * 60e3) throw new FriendError(409, "It's too late to take that back.");
+  const res = await env.DB.prepare("DELETE FROM friend_messages WHERE id = ? AND sender = ? AND seen = 0").bind(n, userId).run();
+  if (!res.meta.changes) throw new FriendError(409, "They've read it already.");
+  return { removed: true };
 }
 
 // The conversation with friend `pid`: the newest PAGE messages (oldest first), or those after message id `after`, or
@@ -448,6 +520,12 @@ export async function savePresence(env, userId, presence, now = Date.now()) {
   const res = await env.DB.prepare("UPDATE friend_people SET progress = ?, progress_at = ? WHERE user_id = ? AND share = 1")
     .bind(JSON.stringify(presence), iso(now), userId).run();
   return res.meta.changes > 0;
+}
+
+// "Show when my Willo is on": whether friends see this player as online or away (on unless they turn it off).
+export async function setOnlineShown(env, userId, show, now = Date.now()) {
+  await person(env, userId, now);
+  await env.DB.prepare("UPDATE friend_people SET hide_online = ? WHERE user_id = ?").bind(show ? 0 : 1, userId).run();
 }
 
 // Turns sharing on or off. Off deletes the note at once.

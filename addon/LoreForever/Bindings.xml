@@ -17,4 +17,7 @@
   <Binding name="LOREFOREVER_ASKWILLO" category="ADDONS" runOnUp="true">
     LoreForever_AskWillo(keystate)
   </Binding>
+  <Binding name="LOREFOREVER_ASKTARGET" category="ADDONS" runOnUp="true">
+    LoreForever_AskTarget(keystate)
+  </Binding>
 </Bindings>

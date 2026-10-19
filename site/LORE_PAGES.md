@@ -17,7 +17,7 @@ the sitemap and linked from the header and from player profiles. How it was turn
    checkout leaves out the recordings):
 
    ```bash
-   scripts/new-worktree.sh --pointers ~/wt/upload-narration && cd ~/wt/upload-narration && git lfs pull
+   scripts/new-worktree.sh --pointers ~/wt/upload-narration && cd ~/wt/upload-narration && python3 scripts/audio_store.py hydrate
    scripts/upload-narration-r2.sh            # --dry-run first if you like
    ```
 

@@ -81,14 +81,19 @@ export async function takeTaste(env, userId, plan, now = new Date(), { spoken = 
   if (!tasteFor(env, plan)) return null;
   await setupBilling(env);
   const at = iso(now.getTime());
-  const take = () => env.DB.prepare(
+  const taking = () => env.DB.prepare(
     "UPDATE best_first SET used = used + 1, voices = voices + ?, started = COALESCE(started, ?), " +
     "finished = CASE WHEN used + 1 >= ? THEN ? ELSE finished END WHERE user_id = ? AND used < ? AND " +
     "COALESCE((SELECT reserved_micro FROM best_first_days WHERE day = ?), 0) < ? RETURNING claim, used"
-  ).bind(spoken ? 1 : 0, at, TASTE_ANSWERS, at, userId, TASTE_ANSWERS, dayOf(now), tasteDayMicro(env)).first();
-  let row = await take();
+  ).bind(spoken ? 1 : 0, at, TASTE_ANSWERS, at, userId, TASTE_ANSWERS, dayOf(now), tasteDayMicro(env));
+  const take = () => taking().first();
+  // The take and, for when it takes nothing, the account's row as it stands, in one round trip: most accounts that
+  // aren't paying have used their 20, and each of their answers waited for both one after the other (LOR-654).
+  const [took, stands] = await env.DB.batch([taking(),
+    env.DB.prepare("SELECT used FROM best_first WHERE user_id = ?").bind(userId)]);
+  let row = took.results?.[0];
   if (!row) {
-    const mine = await env.DB.prepare("SELECT used FROM best_first WHERE user_id = ?").bind(userId).first();
+    const mine = stands.results?.[0];
     if (mine) {
       if (mine.used < TASTE_ANSWERS) await countDay(env, now, "capped");
       return null;
@@ -123,14 +128,20 @@ export async function takeTasteLookup(env, taste) {
 
 // Holds `micro` on the day's cap, while it fits: {day, micro}, or null. settleDay then keeps what it cost.
 export async function holdDay(env, micro, now = new Date()) {
+  return heldDay(await env.DB.batch(holdDayStatements(env, micro, now)), micro, now);
+}
+// holdDay's statements, for a caller that batches them with its own (lib/companion-voice.js: a taste piece's claim on
+// its reply); also: {sql, binds}, one more condition on the hold. heldDay reads the batch's results.
+export function holdDayStatements(env, micro, now = new Date(), also = null) {
   const day = dayOf(now);
-  const [, held] = await env.DB.batch([
+  return [
     env.DB.prepare("INSERT OR IGNORE INTO best_first_days (day) VALUES (?)").bind(day),
     env.DB.prepare("UPDATE best_first_days SET reserved_micro = reserved_micro + ? WHERE day = ? AND " +
-      "reserved_micro + ? <= ? RETURNING reserved_micro").bind(micro, day, micro, tasteDayMicro(env)),
-  ]);
-  return held.results?.length ? { day, micro } : null;
+      `reserved_micro + ? <= ?${also ? ` AND ${also.sql}` : ""} RETURNING reserved_micro`)
+      .bind(micro, day, micro, tasteDayMicro(env), ...(also ? also.binds : [])),
+  ];
 }
+export const heldDay = (results, micro, now = new Date()) => (results.at(-1)?.results?.length ? { day: dayOf(now), micro } : null);
 
 const COUNTS = ["answers", "replies", "lines", "starts", "capped", "unreachable"];
 // What a held taste cost (spent; 0 gives the hold back) and what it was (counts: {answers: 1, ...}), on the hold's day

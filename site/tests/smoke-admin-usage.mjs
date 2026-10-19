@@ -5,7 +5,9 @@
 // release (LOR-421) and companion check-ins (LOR-422) with their usage counts (LOR-435), through the real lib/usage.js,
 // lib/activity.js, lib/stores.js, lib/checkins.js, lib/featureuse.js and functions/api/admin.js on an in-memory D1.
 // /admin/voices shows tests/fixtures/voice-status.json through the real functions/api/admin/voice-status.js;
-// Community > Willo and /admin/edits show a few made-up rows (SAMPLE_WILLO, SAMPLE_EDITS below). No network, no real data.
+// Community > Willo is the real functions/api/admin/willo.js over made-up kept answers, reports and signals (Willo
+// quality and the review queue, seedWillo below) and a made-up friend report; /admin/edits shows a few made-up rows
+// (SAMPLE_EDITS below). No network, no real data.
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { resolve, extname } from 'node:path';
@@ -19,6 +21,10 @@ import { saveCheckin } from '../lib/checkins.js';
 import { readFeatureUsage, saveFeatureUsage, rollupUsage } from '../lib/featureuse.js';
 import { createHash } from 'node:crypto';
 import { onRequestGet as admin } from '../functions/api/admin.js';
+import { onRequestGet as willoGet, onRequestPost as willoPost } from '../functions/api/admin/willo.js';
+import { logAnswer, tagAnswer } from '../lib/answer-log.js';
+import { logFeedback, markFixed, triageFeedback, setupFeedback, REASONS } from '../lib/answer-feedback.js';
+import { signalsFor, queueWorthy, signalWords, newAnswerId } from '../lib/answer-signals.js';
 import { onRequestGet as costs } from '../functions/api/admin/costs.js';
 import { onRequestGet as voiceStatus, onRequestPost as postVoiceStatus } from '../functions/api/admin/voice-status.js';
 
@@ -248,21 +254,102 @@ for (let i = 5; i >= 0; i--) {
     body: JSON.stringify({ ...voiceSample, generated_at: new Date(now - (i * 10 + 4) * 60e3).toISOString() }) }) });
 }
 
-// Community > Willo (functions/api/admin/willo.js GET): two signals, two facts, a friend report. Long words on purpose.
-const SAMPLE_WILLO = { ok: true,
-  feedback: { counts: [], zones: [{ zone: 'Elwynn Forest', n: 2, players: 2 }],
-    rows: [{ id: 41, kind: 'correction', status: 'new', sub: 'Hogger', zone: 'Elwynn Forest', created: iso(0), spoken: true,
-             said: 'Hogger is in the Forest\'s Edge camp, not Jasperlode Mine. https://example.invalid/a-very-long-link-without-any-spaces-to-break-on/quest/176',
-             question: 'Where is Hogger?', answer: 'Hogger prowls the hills near Jasperlode Mine, east of Goldshire.' },
-           { id: 40, kind: 'frustration', status: 'new', sub: '', zone: 'Westfall', created: iso(1),
-             said: 'She keeps telling me about the Defias when I asked about the farms.', question: 'Who owns Saldean\'s farm?',
-             answer: 'The Defias Brotherhood holds much of Westfall these days.' }] },
-  facts: [{ id: 'f-hogger', origin: 'mike', title: 'Hogger\'s camp', zone: 'Elwynn Forest',
-            text: 'On Forever, Hogger and his gnolls camp at Forest\'s Edge in southwest Elwynn.', source_title: 'Checked by Mike' },
-          { id: 'f-seed', origin: 'seed', title: 'Goldshire inn', zone: 'Elwynn Forest',
-            text: 'The Lion\'s Pride Inn is in Goldshire.', source_url: 'https://example.invalid/goldshire', source_title: 'Forever notes' }],
-  friendReports: [{ id: 3, reporter: 'Aelric', reported: 'Grimbold', times: 2, created: iso(0), note: 'Spamming gold-selling links.',
-                    messages: [{ created: iso(0), body: 'cheap gold at example.invalid' }] }] };
+// Community > Willo (functions/api/admin/willo.js, for real): 30 players' kept answers over 12 days through the real
+// lib/answer-log.js, with what came after each (lib/answer-signals.js: asked again, cut off, a 👎 with reasons...), and
+// the review queue that makes, a few rows triaged and fixed. A made-up friend report on top (long words on purpose).
+const QUESTIONS = [
+  ['Westfall', 'Where is Sentinel Hill?'], ['Westfall', 'Who leads the Defias Brotherhood?'],
+  ['Elwynn Forest', 'Where is Hogger?'], ['Elwynn Forest', 'Where do I turn in the wolf quest?'],
+  ['Hillsbrad Foothills', 'Where does the boat from Southshore go?'], ['Alterac Mountains', 'Is Dalaran open in Forever?'],
+  ['Ironforge', 'Where do I train mining?'], ['Ironforge', 'Where is the flight master?'],
+  ['Stranglethorn Vale', 'Is this sword an upgrade for a rogue?'], ['Duskwood', 'Who was Stalvan Mistmantle?'],
+  ['Mount Hyjal', 'How do I get to Mount Hyjal?'], ['Riverglades', 'What level is the Riverglades for?'],
+];
+async function seedWillo() {
+  const reasons = [['wrong_fact'], ['wrong_fact', 'too_long'], ['not_my_question'], ['too_long'], ['couldnt_hear']];
+  for (let p = 0; p < 30; p++) {
+    const user = `willo-player-${p}`;
+    let last = null;
+    for (let i = 0; i < pick(4, 14); i++) {
+      const at = new Date(now - pick(0, 11) * 864e5 - pick(0, 80000) * 1000);
+      const [zone, q] = QUESTIONS[pick(0, QUESTIONS.length - 1)];
+      const ref = newAnswerId(), spoken = rnd() < 0.5, failed = rnd() < 0.04;
+      await logAnswer(env, user, { operation: 'answer', spoken, zone, question: q, answer: `A made-up answer about ${q.toLowerCase()}`,
+        model: 'flash-lite', model_ms: pick(500, 1500), total_ms: pick(700, 2600), looked_up: rnd() < 0.2 ? 'quick' : 'no',
+        lookups: ['forever_facts'], outcome: failed ? 'failed' : 'answered', ref }, { now: at });
+      // What came next: the same question again soon after, cut off, voice dropped, or a 👎 with reasons.
+      const hard = /Southshore|Dalaran|Hyjal|Riverglades/.test(q);
+      const tags = signalsFor({ question: rnd() < (hard ? 0.3 : 0.08) ? q : 'And then?', previousQuestion: q, spoken: rnd() < 0.5,
+        last: { answer_id: ref, ms: pick(5, 90) * 1000, spoken, failed, heard: spoken ? (rnd() < 0.08 ? 'interrupted'
+          : rnd() < 0.05 ? 'dropped' : 'full') : null } });
+      if (tags.length) await tagAnswer(env, user, { ref, tags }, { now: at });
+      if (queueWorthy(tags, null)) await logFeedback(env, user, { kind: 'signal', said: signalWords(tags), question: q,
+        answer: `A made-up answer about ${q.toLowerCase()}`, zone, spoken, answerRef: ref, signals: tags }, { now: at });
+      if (rnd() < (hard ? 0.18 : 0.03)) {
+        const why = reasons[pick(0, 4)];
+        await logFeedback(env, user, { kind: 'report', said: why.map(r => REASONS[r]).join(', '), question: q, zone, spoken,
+          answer: `A made-up answer about ${q.toLowerCase()}`, answerRef: ref, reasons: why,
+          source: ['window', 'overgame', 'iphone'][pick(0, 2)], followup: rnd() < 0.4 }, { now: at });
+        await tagAnswer(env, user, { ref, tags: ['reported'] }, { now: at });
+      } else if (rnd() < 0.05) await tagAnswer(env, user, { ref, tags: ['liked'] }, { now: at });
+      last = ref;
+    }
+  }
+  await logFeedback(env, 'willo-player-3', { kind: 'correction', said: 'Hogger is in the Forest\'s Edge camp, not Jasperlode Mine. https://example.invalid/a-very-long-link-without-any-spaces-to-break-on/quest/176',
+    question: 'Where is Hogger?', answer: 'Hogger prowls the hills near Jasperlode Mine, east of Goldshire.', zone: 'Elwynn Forest',
+    sub: 'Hogger', spoken: true, source: 'voice' });
+  const ids = env.DB.sqlite.prepare("SELECT id FROM answer_feedback WHERE kind = 'report' ORDER BY id").all().map(r => r.id);
+  await triageFeedback(env, ids.slice(0, 6), { cls: 'missing_fact', note: 'No Forever fact for the Southshore boat yet', goldId: 'player-0001' });
+  await triageFeedback(env, ids.slice(6, 8), { cls: 'retrieval', note: 'The Hyjal entry exists; the search missed it' });
+  await markFixed(env, ids.slice(0, 3), { how: 'fact', ref: 'fact-southshore-boat' });
+}
+// WILLO_EXPORT=<folder>: Willo quality from a real export instead (answers.json: GET /api/admin/willo?answers=1&limit=1000,
+// willo.json: GET /api/admin/willo), its signals worked out from each player's next question by the same rules
+// (lib/answer-signals.js), for a screenshot of real numbers. The export stays out of the repo.
+async function seedExport(folder) {
+  const { readFileSync } = await import('node:fs');
+  const { feedbackKind } = await import('../lib/answer-feedback.js');
+  const { topicOf, sameQuestion } = await import('../lib/answer-signals.js');
+  const rows = JSON.parse(readFileSync(`${folder}/answers.json`, 'utf8')).answers.rows;
+  const fb = JSON.parse(readFileSync(`${folder}/willo.json`, 'utf8')).feedback.rows;
+  await setupFeedback(env);                     // the queue's table and the answer log's
+  env.DB.sqlite.exec('DELETE FROM answer_log');
+  const byPlayer = new Map();
+  for (const r of rows) (byPlayer.get(r.player) || byPlayer.set(r.player, []).get(r.player)).push(r);
+  const tagsOf = new Map();
+  for (const list of byPlayer.values()) {
+    list.sort((a, b) => a.created.localeCompare(b.created));
+    list.forEach((row, i) => {
+      const next = list[i + 1];
+      if (!next) return;
+      const sounds = /\b(?:pronounced?|pronunciation|you called it)\b/i.test(next.question);
+      const dispute = next.operation === 'answer' && !sounds ? feedbackKind(next.question, row.answer || '') : null;
+      const t = signalsFor({ question: next.question, previousQuestion: row.question, spoken: Boolean(next.spoken), dispute,
+        sounds, answered: Boolean(row.answer), last: { ms: Date.parse(next.created) - Date.parse(row.created),
+          failed: row.outcome === 'failed', spoken: Boolean(row.spoken) } });
+      if (t.length) tagsOf.set(row.id, t);
+    });
+  }
+  const reported = new Set(fb.filter(f => ['flag', 'report'].includes(f.kind)).map(f => String(f.question || '').toLowerCase().trim()));
+  const put = env.DB.sqlite.prepare('INSERT INTO answer_log (created, player, operation, npc, spoken, zone, sub, question, ' +
+    'answer, action, model, model_ms, total_ms, looked_up, lookups, outcome, error, ref, signals, topic) ' +
+    'VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)');
+  for (const r of rows) {
+    const t = [...(tagsOf.get(r.id) || []), ...(reported.has(String(r.question).toLowerCase().trim()) ? ['reported'] : [])];
+    put.run(new Date(now - (Date.parse(rows.at(-1).created) - Date.parse(r.created))).toISOString(), r.player, r.operation,
+      r.npc, r.spoken, r.zone, r.sub, r.question, r.answer, r.action, r.model, r.model_ms, r.total_ms, r.looked_up, r.lookups,
+      r.outcome, r.error, newAnswerId(), t.join(',') || null,
+      topicOf(r.question, { operation: r.operation, lookups: String(r.lookups || '').split(','), action: r.action }));
+  }
+  const putFb = env.DB.sqlite.prepare('INSERT INTO answer_feedback (kind, said, question, answer, zone, sub, persona, spoken, ' +
+    'user_hash, status, fact_id, note, created) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)');
+  for (const f of fb) putFb.run(f.kind, f.said, f.question, f.answer, f.zone, f.sub, f.persona, f.spoken, f.player,
+    f.status, f.fact_id, f.note, f.created);
+  void sameQuestion;
+}
+if (process.env.WILLO_EXPORT) await seedExport(process.env.WILLO_EXPORT); else await seedWillo();
+const SAMPLE_FRIEND_REPORTS = [{ id: 3, reporter: 'Aelric', reported: 'Grimbold', times: 2, created: iso(0), note: 'Spamming gold-selling links.',
+  messages: [{ created: iso(0), body: 'cheap gold at example.invalid' }] }];
 // /admin/edits (functions/api/translations/[action].js summary and review) and Community > Edits.
 const SAMPLE_EDITS = { ok: true,
   locales: [{ locale: 'deDE', saved: 42, pulled: 1310, rejected: 3, last: iso(0) }, { locale: 'frFR', saved: 7, pulled: 880, rejected: 0, last: iso(1) }],
@@ -292,7 +379,16 @@ createServer(async (req, res) => {
       const response = await voiceStatus({ env, request: new Request(url, { headers: req.headers }) });
       res.writeHead(response.status, Object.fromEntries(response.headers)); res.end(await response.text()); return;
     }
-    const sample = { '/api/admin/willo': SAMPLE_WILLO, '/api/translations/summary': SAMPLE_EDITS,
+    if (url.pathname === '/api/admin/willo') {
+      const body = req.method === 'POST' ? await new Promise(ok => { let b = ''; req.on('data', c => (b += c)); req.on('end', () => ok(b)); }) : undefined;
+      const request = new Request(url, { method: req.method, headers: Object.fromEntries(Object.entries(req.headers)
+        .filter(([k]) => k !== 'origin' && k !== 'host')), body });
+      const response = await (req.method === 'POST' ? willoPost : willoGet)({ env, request });
+      let text = await response.text();
+      if (req.method === 'GET' && !url.search) text = JSON.stringify({ ...JSON.parse(text), friendReports: SAMPLE_FRIEND_REPORTS });
+      res.writeHead(response.status, Object.fromEntries(response.headers)); res.end(text); return;
+    }
+    const sample = { '/api/translations/summary': SAMPLE_EDITS,
                      '/api/translations/review': SAMPLE_REVIEW }[url.pathname];
     if (sample || url.pathname === '/api/clip-report/export') {
       res.writeHead(200, { 'Content-Type': 'application/json' }); res.end(JSON.stringify(sample || {})); return;

@@ -46,7 +46,7 @@ $qaRejected=RunSetup 'reject-missing-directory' @('/VOICES=none')
 $qaRejectedEmpty=RunSetup 'reject-empty-directory' @('/DIR=','/VOICES=none')
 $qaReport.qa_directory_guard=($qaRejected.exit_code -ne 0 -and $qaRejectedEmpty.exit_code -ne 0)
 $qaManifest=Join-Path $qaProof.download_directory 'transport-downloads.json'
-foreach($qaCase in @(@{id='INSTALL1';selection='base';voices='none'},@{id='INSTALL2';selection='female';voices='female'},@{id='INSTALL3';selection='quests';voices='quests'})){
+foreach($qaCase in @(@{id='INSTALL1';selection='base';voices='none'},@{id='INSTALL2';selection='female';voices='female'},@{id='INSTALL3';selection='quests';voices='quests'},@{id='INSTALL4';selection='original';voices='original'})){
   $qaResult=[ordered]@{id=$qaCase.id;selection=$qaCase.selection;status='untested';steps=@()}
   $qaReport.cases+=@($qaResult)
   try {

@@ -188,7 +188,9 @@ test("cache read and write failures do not fail public metadata", async () => {
   assert.equal((await res.json()).latestTag, "v0.9.0");
 });
 
-test("rate limits and retry headers set safe bounded internal cooldowns", async () => {
+test("rate limits and retry headers set safe bounded internal cooldowns", async t => {
+  // A still clock: a second ticking over mid-test would make a 900 s reset read as 899.
+  t.mock.timers.enable({ apis: ["Date"], now: 1_800_000_000_000 });
   const reset = Math.floor(Date.now() / 1000) + 900;
   const date = new Date(Date.now() + 600000).toUTCString();
   const cases = [
