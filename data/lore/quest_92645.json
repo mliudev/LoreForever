@@ -1,0 +1,105 @@
+{
+ "key": "quest:92645",
+ "type": "quest",
+ "name": "Breaking the Breaker",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92645
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "The invocation of the four winds to bless the hero echoes the traditions and beliefs of Skyborne culture facing down dangerous cultists in the lowlands."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Confronting Commander Belguilos means going toe-to-toe with an aggressive former peacekeeper who earned the fearsome title 'the Breaker.'"
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is belguilos",
+    "who is the breaker",
+    "cult commander"
+   ],
+   "answer": "Belguilos, known as 'the Breaker,' is a formidable commander directing a cultist attack. Before joining the cult, she served as a peacekeeper, though contemporaries remember her as having always been deeply unsettling and prone to violence even then.",
+   "q": "Who is Belguilos the Breaker?"
+  },
+  {
+   "aliases": [
+    "where is belguilos",
+    "belguilos location",
+    "where to find the breaker"
+   ],
+   "answer": "Commander Belguilos is stationed at the villa situated at the base of the hill within the Gustberry Lowlands. Her position there allows her to coordinate the cultist offensive against the local defenders.",
+   "q": "Where can Commander Belguilos be found?"
+  },
+  {
+   "aliases": [
+    "why kill belguilos",
+    "cult attack reason",
+    "why is breaker dangerous"
+   ],
+   "answer": "Local defenders are facing an onslaught from cultists that is virtually impossible to repel while Belguilos directs the assault. Eliminating her breaks the cult's leadership, giving the defenders a real chance to survive.",
+   "q": "Why must Belguilos be eliminated?"
+  },
+  {
+   "aliases": [
+    "what was belguilos before",
+    "was belguilos good",
+    "peacekeeper cultist"
+   ],
+   "answer": "Belguilos originally served as a peacekeeper before the cult escalated out of control. However, those who knew her noted she was notably 'off' even during her days enforcing order, making her subsequent rise as a brutal cult leader unsurprising.",
+   "q": "What was Belguilos's past before joining the cult?"
+  },
+  {
+   "aliases": [
+    "four winds meaning",
+    "who says four winds bless you"
+   ],
+   "answer": "The blessing invokes the four winds, a traditional expression of profound relief and gratitude used by the defenders after learning that the terrifying cult commander has been permanently stopped.",
+   "q": "What is the significance of the blessing of the four winds?"
+  },
+  {
+   "aliases": [
+    "what is gustberry lowlands",
+    "where is breaker quest"
+   ],
+   "answer": "The Gustberry Lowlands encompass the contested ground where the cult assault is unfolding, with a villa at the base of the hill where Commander Belguilos can be found.",
+   "q": "What are the Gustberry Lowlands?"
+  }
+ ],
+ "keywords": [
+  "belguilos",
+  "breaking the breaker",
+  "commander belguilos",
+  "cult commander",
+  "gustberry lowlands",
+  "peacekeeper",
+  "the breaker",
+  "villa"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "The Gustberry Lowlands are under intense assault by aggressive cultists, and local defenders find themselves pushed to the brink of survival. Repelling the assault appears nearly impossible without striking directly at the head of the operation: Commander Belguilos, feared by all as 'the Breaker.' Slaying her at her base villa is deemed a perilous, near-suicidal task, yet remaining passive guarantees the defenders' doom.",
+   "spoiler": 0,
+   "title": "A Desperate Defense"
+  },
+  {
+   "body": "Long before she took command of the cultist host, Belguilos was an enforcer of order, serving as a peacekeeper. Yet even in those days, those around her recognized something deeply unsettling in her demeanor. When the cult's influence spread out of control, she fully embraced its extremism, and she is now the cult's commander, a veritable terror.",
+   "spoiler": 0,
+   "title": "The Fallen Peacekeeper"
+  }
+ ],
+ "summary": "Breaking the Breaker is a desperate military strike against Commander Belguilos, a terrifying former peacekeeper who now leads a dangerous cult assault in the Gustberry Lowlands. Eliminating her at her hillside villa offers the beleaguered defenders their only real chance of surviving the onslaught.",
+ "attribution": [
+  "In-game quest text: Breaking the Breaker"
+ ]
+}

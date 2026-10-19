@@ -1,0 +1,120 @@
+{
+ "key": "quest:95214",
+ "type": "quest",
+ "name": "Stolen Blasting Powder",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95214
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Gol'Bolar Quarry fuels Ironforge's stonecraft and excavation efforts. Allowing subterranean troggs to weaponize mining explosives right outside King Magni's doorstep is a humiliating security failure for any dwarven supervisor."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The supply lines and stone works of Dun Morogh are vital to the Alliance's mountain stronghold. Keeping the peace and guarding dangerous munitions ensures the safety of the High Seat in nearby Ironforge."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Blasting powder is an indispensable tool for clearing rock and opening veins in deep digs, but handling it requires discipline\u2014losing bulk kegs to wild cave-dwellers is every quarrymaster's nightmare."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is thesten",
+    "quarrymaster thesten",
+    "who gives this quest"
+   ],
+   "answer": "Quarrymaster Thesten oversees excavation operations at Gol'Bolar Quarry in Dun Morogh. Responsible for the safety and productivity of the dig site, he finds himself in an embarrassing predicament after a massive stockpile of industrial blasting powder goes missing under his watch.",
+   "q": "Who is Quarrymaster Thesten?"
+  },
+  {
+   "aliases": [
+    "where is stolen blasting powder",
+    "trogg location",
+    "powder location"
+   ],
+   "answer": "The powder was carried off by the troggs infesting the crags and dens immediately east of Gol'Bolar Quarry. Adventurers are sent into those rocky outcrops to pry the volatile kegs and sacks back from the creatures before disaster strikes.",
+   "q": "Where can the stolen blasting powder be found?"
+  },
+  {
+   "aliases": [
+    "why troggs steal powder",
+    "what do troggs want with powder"
+   ],
+   "answer": "Troggs are primitive, subterranean creatures driven by basic cunning and territorial aggression. While they scavenged the powder kegs from the quarry workers, Quarrymaster Thesten fears that even clumsy experimentation could lead to them accidentally igniting the explosives.",
+   "q": "Why did the troggs steal the blasting powder?"
+  },
+  {
+   "aliases": [
+    "how powerful is powder",
+    "magni throne room powder",
+    "is the powder dangerous"
+   ],
+   "answer": "According to Quarrymaster Thesten, the missing keg held enough volatile explosive powder to blast King Magni's throne room into an open-air courtyard. If detonated all at once in the enclosed quarry or caverns, the force would be devastating.",
+   "q": "How dangerous is the stolen blasting powder?"
+  },
+  {
+   "aliases": [
+    "why keep it secret",
+    "thesten secret",
+    "dont mention incident"
+   ],
+   "answer": "When you return the powder, Thesten pays you and asks that you not mention this little incident to anyone. He doesn't say why, but losing so much explosive to the troggs is clearly something he'd rather keep quiet.",
+   "q": "Why does Quarrymaster Thesten want the incident kept quiet?"
+  },
+  {
+   "aliases": [
+    "what is gol bolar",
+    "gol bolar quarry",
+    "where is golbolar"
+   ],
+   "answer": "Gol'Bolar Quarry is a prominent dwarven excavation site in eastern Dun Morogh, responsible for quarrying stone for construction and engineering projects throughout the realm. Its deep pits regularly contend with subterranean pests like troggs emerging from the rock.",
+   "q": "What is Gol'Bolar Quarry?"
+  }
+ ],
+ "keywords": [
+  "blasting powder",
+  "dun morogh",
+  "explosives",
+  "gol'bolar quarry",
+  "ironforge",
+  "king magni",
+  "quarrymaster thesten",
+  "thesten",
+  "troggs"
+ ],
+ "related": [
+  "subzone:gol-bolar-quarry",
+  "topic:trogg",
+  "quest:95213"
+ ],
+ "sections": [
+  {
+   "body": "At Gol'Bolar Quarry in Dun Morogh, dwarven operations depend heavily on heavy blasting charges to break stone and open deep veins. However, security slipped when primitive troggs lurking in the nearby crags managed to make off with an entire bulk shipment of high-grade blasting powder. Quarrymaster Thesten was left scrambling to find capable hands before the thief pack stumbled into accidental detonation.",
+   "spoiler": 0,
+   "title": "A Missing Stockpile"
+  },
+  {
+   "body": "The sheer volume of missing material is staggering: Thesten notes the keg held enough explosive force to reduce King Magni Bronzebeard's grand throne room into an open-air courtyard. The troggs carried the volatile plunder east into their rough foothill camps. Left to their own devices, it would only be a matter of time before the brutes discovered fire or struck stone against spark.",
+   "spoiler": 0,
+   "title": "A Powder Keg in the Crags"
+  },
+  {
+   "body": "Once the stolen charges are pried from the troggs and safely returned to the quarry depot, Thesten breathes a heavy sigh of relief. The quarrymaster rewards the adventurer with a discreet plea not to mention the little incident to anyone.",
+   "spoiler": 1,
+   "title": "Quiet Resolution"
+  }
+ ],
+ "summary": "Stolen Blasting Powder is a quest at Gol'Bolar Quarry in Dun Morogh where adventurers must recover missing munitions. Primitive troggs have made off with enough explosive powder to level a fortress wing, forcing Quarrymaster Thesten to recruit discreet help before a catastrophe occurs.",
+ "attribution": [
+  "In-game quest text: Stolen Blasting Powder"
+ ]
+}

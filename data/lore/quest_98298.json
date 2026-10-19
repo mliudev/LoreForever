@@ -1,0 +1,123 @@
+{
+ "key": "quest:98298",
+ "type": "quest",
+ "name": "Arugal's Folly",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98298
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken based in the Sepulcher, unraveling the true nature of the worgen outbreak in Silverpine is vital to securing Lordaeron from uncontrollable feral threats."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde adventurers aiding Dalar Dawnweaver help safeguard Silverpine Forest from both rampant feral predators and the neighboring human settlements succumbing to the affliction."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Practitioners of the arcane can appreciate Dalar's analytical deconstruction of Arugal's so-called magical curse, discerning the difference between binding enchantments and transmissible afflictions."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives arugals folly",
+    "where do i turn in arugals folly",
+    "quest giver arugals folly"
+   ],
+   "answer": "The quest is offered and completed by Dalar Dawnweaver, an arcane researcher and Forsaken mage stationed at the Sepulcher in Silverpine Forest.",
+   "q": "Who gives the quest Arugal's Folly?"
+  },
+  {
+   "aliases": [
+    "what does dalar think of arugal",
+    "did arugal make worgen",
+    "arugal fraud"
+   ],
+   "answer": "Dalar Dawnweaver concludes that Archmage Arugal is an arrogant fraud. Dalar argues that Arugal possessed barely enough magical prowess to temporarily bind the worgen, rather than create or originate them, exposing the so-called 'Curse of Arugal' as a sham.",
+   "q": "Why does Dalar Dawnweaver consider Arugal a fraud?"
+  },
+  {
+   "aliases": [
+    "where are the worgen bits",
+    "greymane wall worgen",
+    "where to go arugals folly"
+   ],
+   "answer": "To complete the quest, adventurers travel south through Silverpine Forest toward the Greymane Wall, where the feral worgen prowl near the local human settlements. Slaying these beasts yields the worgen bits Dalar requires for his investigation.",
+   "q": "Where do you find the worgen bits for Dalar?"
+  },
+  {
+   "aliases": [
+    "can worgen curse be cured",
+    "does arugal remedy work",
+    "is there a cure for worgen"
+   ],
+   "answer": "No remedy is discovered here. Because Dalar finds that Arugal did not create the worgen affliction in the first place, any remedies or counter-spells concocted by Arugal are completely useless, leaving the Forsaken to search elsewhere for a true solution.",
+   "q": "Does Dalar find a cure for the worgen curse?"
+  },
+  {
+   "aliases": [
+    "how does the curse spread",
+    "worgen spreading to humans",
+    "who is getting infected"
+   ],
+   "answer": "Dalar notes that the worgen affliction appears to be spreading directly to the nearby human populations by the Greymane Wall through physical encounters and bites, rather than via an overarching arcane ritual or spell cast by Arugal.",
+   "q": "How is the worgen affliction spreading near the Greymane Wall?"
+  },
+  {
+   "aliases": [
+    "what does dalar learn from the bits",
+    "conclusion arugals folly",
+    "arugals folly lore reveal"
+   ],
+   "answer": "Examining the anatomical pieces of the slain worgen proves to Dalar that their curse has nothing to do with Arugal's sorcery. While it confirms his rival's magical incompetence, it also confirms that the worgen curse remains an active, unexplained threat without a working antidote.",
+   "q": "What does Dalar conclude after inspecting the worgen bits?"
+  }
+ ],
+ "keywords": [
+  "arugal",
+  "arugal's folly",
+  "dalar dawnweaver",
+  "greymane wall",
+  "silverpine forest",
+  "the sepulcher",
+  "worgen bits",
+  "worgen curse"
+ ],
+ "related": [
+  "npc:dalar-dawnweaver",
+  "npc:arugal",
+  "subzone:greymane-wall",
+  "subzone:sepulcher",
+  "topic:worgen",
+  "topic:human"
+ ],
+ "sections": [
+  {
+   "body": "Stationed at the Sepulcher in Silverpine Forest, the Forsaken mage Dalar Dawnweaver seeks to dismantle the mystique of his rival, Archmage Arugal. After examining enchanted shackles, Dalar determines that Arugal lacked the raw power to manifest or originate the worgen packs terrorizing the region. Instead, Arugal merely possessed minor enchantments capable of momentarily binding the beasts, leaving the true mechanics and genesis of their beastly contagion an open mystery.",
+   "spoiler": 0,
+   "title": "Exposing the Archmage"
+  },
+  {
+   "body": "Seeking empirical evidence, Dalar dispatches adventurers southward to the imposing fortifications of the Greymane Wall. In the surrounding wilderness, feral worgen have begun assailing and infecting nearby human populations. By cutting down the ravenous creatures and retrieving anatomical tissue samples, investigators provide Dalar with the direct physical specimens needed to analyze the biological and magical reality of the affliction.",
+   "spoiler": 0,
+   "title": "The Beastly Incursion"
+  },
+  {
+   "body": "Upon inspecting the harvested worgen remains, Dalar gleefully declares victory over Arugal's academic reputation, confirming the archmage had no hand in the affliction's origin. However, the revelation carries a grim consequence for the Forsaken: if Arugal never invented the curse, then the purported remedies and counter-measures he devised are completely worthless, leaving the true mystery of the worgen outbreak entirely unsolved.",
+   "spoiler": 1,
+   "title": "A Bitter Vindication"
+  }
+ ],
+ "summary": "Arugal's Folly is a Forsaken quest in Silverpine Forest where Dalar Dawnweaver investigates the true origin of the worgen prowling near the Greymane Wall. By analyzing harvested worgen remains, Dalar seeks to prove that Archmage Arugal was an imposter who merely bound the creatures rather than conjured their curse.",
+ "attribution": [
+  "In-game quest text: Arugal's Folly"
+ ]
+}

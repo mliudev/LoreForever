@@ -1,0 +1,115 @@
+{
+ "key": "quest:95349",
+ "type": "quest",
+ "name": "The Earthen Ring",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95349
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "For Skyborne adventurers departing Valanaar, this journey marks their historic arrival into Azeroth as an advance vanguard. Leaving behind the cult troubles of their homeland, they take their first steps onto the rolling plains of Mulgore."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "As the native caretakers of Mulgore, Tauren witness the arrival of new travelers from Zephras descending upon their ancestral plains. Welcoming these skybound visitors provides an early connection to allies establishing a foothold in their lands."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Windshapers and Shaman share a deep reverence for the elements, relying on the favor of the winds to guide their aerial crossing. Arriving under the banner of the Earthen Ring connects them directly to elemental traditions taking root in Mulgore."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "why go to azeroth",
+    "windshaper mission",
+    "why are windshapers in mulgore"
+   ],
+   "answer": "A vanguard of Windshapers is sent ahead to establish a presence on Azeroth while their leaders remain behind in Valanaar. Recent troubles involving a local cult disrupted the original travel plans, delaying the rest of the group. As a result, this advance party journeys forward alone to make landfall and secure a foothold until reinforcements can follow.",
+   "q": "Why are the Windshapers traveling to Azeroth?"
+  },
+  {
+   "aliases": [
+    "who is alaana",
+    "alaana stormwalker role",
+    "where is alaana stormwalker"
+   ],
+   "answer": "Alaana Stormwalker is the contact waiting to receive arriving Windshapers upon their touchdown in Mulgore. She welcomes travelers arriving from Zephras, observing that establishing a secure presence in these new lands will require time. While preparations get underway, she advises newly arrived adventurers to explore the surrounding region and prepare for the dangers of Azeroth.",
+   "q": "Who is Alaana Stormwalker?"
+  },
+  {
+   "aliases": [
+    "why the delay",
+    "what cult delayed travel",
+    "why stay in valanaar"
+   ],
+   "answer": "The main voyage from Valanaar was postponed due to recent troubling events involving a local cult. Dealing with these cultist complications forced expedition leaders to remain behind at the lodge to finish their business. Rather than halting the mission entirely, they dispatched a small vanguard of Windshapers aboard a skycutter to lead the way to Azeroth.",
+   "q": "Why was the main departure delayed?"
+  },
+  {
+   "aliases": [
+    "how to reach mulgore",
+    "where is the ship",
+    "how do you travel to azeroth"
+   ],
+   "answer": "Travelers make the journey by boarding a skycutter ship docked just outside the lodge in Valanaar. This vessel carries the vanguard across the sky to the plains of Mulgore, serving as the primary transport connecting Zephras with the lands of Azeroth during the initial expedition.",
+   "q": "How do travelers journey from Valanaar to Mulgore?"
+  },
+  {
+   "aliases": [
+    "where is zephras",
+    "what is zephras",
+    "zephras lore"
+   ],
+   "answer": "Zephras is the home or origin of the incoming adventurers arriving aboard the skycutter. When travelers reach Mulgore, Alaana Stormwalker identifies them as newcomers hailing from Zephras, noting that favorable winds have guided their crossing into the unfamiliar and dangerous territory of Azeroth.",
+   "q": "What is Zephras?"
+  },
+  {
+   "aliases": [
+    "what to do in mulgore",
+    "next steps after arriving",
+    "what to do next"
+   ],
+   "answer": "Newly arrived adventurers are encouraged to scout and explore the surrounding lands of Mulgore. Because establishing a settled presence takes time, familiarizing oneself with the nearby terrain, creatures, and local threats is essential preparation for navigating this exciting yet hazardous new world.",
+   "q": "What should adventurers do upon arriving in Mulgore?"
+  }
+ ],
+ "keywords": [
+  "alaana stormwalker",
+  "banu-alah",
+  "cult",
+  "mulgore",
+  "skycutter",
+  "the earthen ring",
+  "valanaar",
+  "windshapers",
+  "zephras"
+ ],
+ "related": [
+  "zone:mulgore",
+  "quest:567"
+ ],
+ "sections": [
+  {
+   "body": "Travelers departing for Azeroth must adjust their plans due to recent disruptions caused by cult activity in Valanaar. While senior leaders remain behind at the lodge to conclude urgent business and quell the cultist threat, a small vanguard of Windshapers is dispatched ahead. Journeying to the docks just outside the lodge, these pioneers board a skycutter vessel bound across the skies. Though their commanders promise to join them soon, the initial expedition rests entirely on the shoulders of this advance group, sent forward to establish a presence before the rest can follow.",
+   "spoiler": 0,
+   "title": "Departure from Valanaar"
+  },
+  {
+   "body": "Upon landing in the rolling plains of Mulgore, arriving adventurers from Zephras are welcomed by Alaana Stormwalker. Establishing a foothold in Azeroth will take time and careful effort, leaving newcomers encouraged to scout the surrounding territory and acclimatize to their new surroundings. While the winds favor the incoming expedition, Azeroth remains an unfamiliar and perilous realm. Familiarizing oneself with the local terrain, wildlife, and neighboring inhabitants is an essential first step before the remaining travelers from Valanaar arrive to join the effort.",
+   "spoiler": 0,
+   "title": "Arrival in Mulgore"
+  }
+ ],
+ "summary": "This journey marks the arrival of the Windshapers from Zephras to Azeroth as an advance vanguard following delays caused by cultist activity in Valanaar. Boarding a skycutter ship outside the lodge, travelers make landfall in Mulgore to meet Alaana Stormwalker and begin acclimating to a vast and dangerous new world.",
+ "attribution": [
+  "In-game quest text: The Earthen Ring"
+ ]
+}

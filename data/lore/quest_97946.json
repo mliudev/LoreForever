@@ -1,0 +1,112 @@
+{
+ "key": "quest:97946",
+ "type": "quest",
+ "name": "Camping 101: Leatherworking",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97946
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Rogues traveling through the wilds rely on good rest and shelter to stay sharp, making a personal leather tent an invaluable survival tool."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Setting up a proper campsite requires a warm campfire, an essential skill taught by culinary trainers across the land."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives camping 101 leatherworking",
+    "who teaches camping 101",
+    "nadyia maneweaver"
+   ],
+   "answer": "The quest directs an aspiring leatherworker to speak with Nadyia Maneweaver, located along the road stretching from Dolanaar toward Darnassus on Teldrassil.",
+   "q": "Who teaches this camping skill?"
+  },
+  {
+   "aliases": [
+    "what does camping 101 teach",
+    "tent recipe",
+    "what do i learn from camping 101"
+   ],
+   "answer": "It instructs leatherworkers on how to craft their very own camping tent, designed to keep travelers cool during hot days and dry through rainy weather out in the wilderness.",
+   "q": "What do leatherworkers learn from this quest?"
+  },
+  {
+   "aliases": [
+    "where can i pitch my tent",
+    "can i pitch a tent in town",
+    "camping in cities"
+   ],
+   "answer": "Tents cannot be pitched inside settlements or city centers, as townsfolk do not appreciate camps in the middle of town. Travelers must venture outside into the open wilderness to set up their campsite.",
+   "q": "Where can you pitch a camp tent?"
+  },
+  {
+   "aliases": [
+    "what do i need for a campsite",
+    "campfire requirement",
+    "do i need a campfire for tent"
+   ],
+   "answer": "Every proper camp requires a lit campfire alongside the tent before it can be established. Basic campfire creation is customarily learned from cooking trainers.",
+   "q": "What else is required to set up a camp?"
+  },
+  {
+   "aliases": [
+    "why build a tent",
+    "tent rest benefit",
+    "why camp"
+   ],
+   "answer": "A reliable tent provides shelter from the elements, ensuring that adventurers get sufficient rest to stay alert and sharp while journeying far from inns.",
+   "q": "Why is having a tent useful for travelers?"
+  },
+  {
+   "aliases": [
+    "where is nadyia maneweaver",
+    "nadyia location",
+    "road to darnassus trainer"
+   ],
+   "answer": "Nadyia Maneweaver can be found stationed along the main road leading from the village of Dolanaar toward the night elf capital of Darnassus.",
+   "q": "Where is Nadyia Maneweaver located?"
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping",
+  "darnassus",
+  "dolanaar",
+  "leatherworking",
+  "nadyia maneweaver",
+  "tent",
+  "wilderness"
+ ],
+ "related": [
+  "subzone:dolanaar",
+  "zone:darnassus",
+  "quest:487",
+  "topic:rogue"
+ ],
+ "sections": [
+  {
+   "body": "For adventurers journeying across the wild reaches of Kalimdor, resting beneath the open sky presents harsh challenges from sudden downpours to blistering heat. Skilled leatherworkers are taught to fashion durable shelters from hides and pelts, allowing travelers to establish a reliable sanctuary wherever their travels take them. By crafting a personal camp tent, wanderers ensure they secure the rest necessary to keep their reflexes sharp and their wits keen far beyond the safety of local inns.",
+   "spoiler": 0,
+   "title": "Shelter in the Wilderness"
+  },
+  {
+   "body": "Along the forest road that winds between the settlement of Dolanaar and the boughs of Darnassus, Nadyia Maneweaver offers her guidance to proficient leatherworkers. She imparts the craft of stitching sturdy tents suited for life on the trail. However, a tent alone does not make a functional camp; travelers must also know how to kindle a campfire, a fundamental survival craft taught by cooks, and must remember to pitch their shelters in the open wilds rather than cluttering town streets.",
+   "spoiler": 0,
+   "title": "The Road from Dolanaar"
+  }
+ ],
+ "summary": "Camping 101: Leatherworking introduces skilled crafters on Teldrassil to the art of crafting outdoor survival shelters. By seeking out Nadyia Maneweaver along the road between Dolanaar and Darnassus, leatherworkers learn to fashion durable tents that shield travelers from harsh weather across their wilderness journeys.",
+ "attribution": [
+  "In-game quest text: Camping 101: Leatherworking"
+ ]
+}

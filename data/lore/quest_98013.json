@@ -1,0 +1,111 @@
+{
+ "key": "quest:98013",
+ "type": "quest",
+ "name": "Swelling Forces",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98013
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The naga roaming these ruins were once Highborne kindred of the night elves. Seeing them return to desecrate and pillage the ancient forests alongside dark cultists is a bitter betrayal."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance forces defending the sacred forests around Darkshore and the Grove of the Ancients must contend with a coordinated front between the naga and the Twilight's Hammer."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives swelling forces",
+    "arbal quest giver",
+    "where is arbal"
+   ],
+   "answer": "Swelling Forces is given by Arbal, who directs adventurers from the Grove of the Ancients to confront the hostile naga forces gathering in the ruins to the northeast.",
+   "q": "Who gives the quest Swelling Forces?"
+  },
+  {
+   "aliases": [
+    "why kill naga",
+    "naga in the ruins",
+    "stormscale threat"
+   ],
+   "answer": "The Stormscale naga have overrun the nearby ruins and are threatening the surrounding woodlands. More alarmingly, they appear to be aiding the Twilight's Hammer cult, bringing violence to the very lands they once called home.",
+   "q": "Why are the naga being targeted in this quest?"
+  },
+  {
+   "aliases": [
+    "who are the stormscale naga",
+    "naga origins",
+    "cursed highborne"
+   ],
+   "answer": "As Arbal notes, the naga were once Highborne elves of ancient Kalimdor who suffered a terrible curse. Though they once inhabited these grand cities, they have returned as twisted serpents seeking conquest and devastation.",
+   "q": "What is the connection between the naga and the ruins?"
+  },
+  {
+   "aliases": [
+    "twilights hammer naga",
+    "why naga working with cult"
+   ],
+   "answer": "The quest reveals that the naga are assisting the shadowy Twilight's Hammer cult. While their exact arrangements remain veiled, Arbal warns that their alliance can bring only further ruin and misery to the ancient forests.",
+   "q": "What is the naga's connection to the Twilight's Hammer?"
+  },
+  {
+   "aliases": [
+    "where are the ruins",
+    "where to find stormscale"
+   ],
+   "answer": "The ruins lie to the northeast of the Grove of the Ancients. Adventurers are sent there to curb the swelling Stormscale host by hunting down their myrmidons, sorceresses, and warriors.",
+   "q": "Where do the Stormscale forces gather?"
+  },
+  {
+   "aliases": [
+    "why does arbal hate naga",
+    "unforgivable arbal"
+   ],
+   "answer": "To Arbal, pillaging one's own ancient homeland at the behest of a dark master is utterly unforgivable. Whatever nobility the Highborne once held has been completely erased by their descent into cruelty and dark alliances.",
+   "q": "Why does Arbal consider the naga's actions unforgivable?"
+  }
+ ],
+ "keywords": [
+  "arbal",
+  "grove of the ancients",
+  "highborne",
+  "myrmidon",
+  "naga",
+  "sorceress",
+  "stormscale",
+  "swelling forces",
+  "twilight's hammer"
+ ],
+ "related": [
+  "quest:952",
+  "topic:naga",
+  "topic:highborne",
+  "topic:twilight-s-hammer",
+  "topic:warrior"
+ ],
+ "sections": [
+  {
+   "body": "From the Grove of the Ancients, Arbal watches the northeast ruins with grave concern. Cursed Highborne, transformed into the serpent-like naga of the Stormscale tribe, have occupied the remnants of their once-magnificent civilization. Rather than resting peacefully in memory, the sunken stones now echo with the slithering march of an encroaching army. Arbal tasks defenders with venturing into the ruins to cut down their growing numbers before their strength spills outward into the wider forest.",
+   "spoiler": 0,
+   "title": "Serpents in the Sunken City"
+  },
+  {
+   "body": "The presence of the Stormscale naga is more than simple territorial aggression. Arbal reveals that these twisted former Highborne are aiding the nihilistic Twilight's Hammer cult. For creatures to desecrate and pillage the very forests that once granted them shelter\u2014especially in service to sinister, shadowy masters\u2014is an unforgivable offense. Curbing their numbers is an urgent necessity to prevent the cult and their serpentine allies from tightening their grip on the land.",
+   "spoiler": 1,
+   "title": "An Unholy Alliance"
+  }
+ ],
+ "summary": "Swelling Forces is a quest in which Arbal commands adventurers from the Grove of the Ancients to cull the rising Stormscale naga occupying the ruins to the northeast. These cursed former Highborne threaten the woodlands by aligning themselves with the insidious Twilight's Hammer cult. Taking up arms against them is vital to protecting the ancient forest from further devastation.",
+ "attribution": [
+  "In-game quest text: Swelling Forces"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "key": "quest:91905",
+ "type": "quest",
+ "name": "A Sealed Crate",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91905
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "what is inside the sealed crate",
+    "crate contents",
+    "whats in the crate"
+   ],
+   "answer": "The exact contents remain unspecified, but the crate represents recovered commercial cargo intercepted along trade routes. Merchants and handlers are eager to stockpile and secure these goods away from thieves.",
+   "q": "What is inside the sealed crate?"
+  },
+  {
+   "aliases": [
+    "why are crates lost",
+    "who is stealing crates",
+    "bandits stealing trade goods"
+   ],
+   "answer": "An uprising of bandits and thieves has been intercepting trade routes, scattering shipments and leaving commercial crates abandoned or stolen across the region.",
+   "q": "Why are these crates lying around?"
+  },
+  {
+   "aliases": [
+    "who takes the crates",
+    "where do the crates go",
+    "turn in crates"
+   ],
+   "answer": "Local merchants and trade coordinators receive recovered crates, adding them to secured stockpiles and compensating adventurers who salvage them from danger.",
+   "q": "Who wants these crates returned?"
+  },
+  {
+   "aliases": [
+    "can i find more crates",
+    "repeatable crates",
+    "more sealed crates"
+   ],
+   "answer": "Yes. With bandit activity persistently disrupting overland transit, local handlers continually pay adventurers to retrieve any other crates found scattered along trade corridors.",
+   "q": "Can more sealed crates be recovered?"
+  },
+  {
+   "aliases": [
+    "bandit trade routes",
+    "trade disruptions",
+    "why are roads unsafe"
+   ],
+   "answer": "Trade routes face constant pressure from opportunistic bandits and outlaws who prey on unguarded caravans, prompting merchants to pay bounties for recovered cargo.",
+   "q": "What is threatening the trade routes?"
+  },
+  {
+   "aliases": [
+    "sealed crate purpose",
+    "why seal the crate"
+   ],
+   "answer": "The quest text doesn't say why it is sealed. It is simply a lost crate of cargo that you bring back to the handlers, who set it on their pile and pay you for it.",
+   "q": "Why is the crate sealed?"
+  }
+ ],
+ "keywords": [
+  "bandits",
+  "cargo",
+  "crate",
+  "delivery",
+  "merchants",
+  "salvage",
+  "sealed crate",
+  "thieves",
+  "trade routes"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A surge of outlaw activity along established trade routes has left merchant caravans vulnerable and cargo scattered. Highway bandits and thieves routinely ambushed supply lines, making unrecovered shipments a frequent sight in contested lands. Adventurers who secure these abandoned or stolen containers help maintain local commerce against lawlessness.",
+   "spoiler": 0,
+   "title": "Disrupted Trade Routes"
+  },
+  {
+   "body": "Local trade recipients and handlers depend on freelance couriers to recover lost goods and return them to storage depots. Each returned crate bolsters local stockpiles and denies outlaws the fruits of highway robbery, earning salvage workers fair compensation for braving dangerous roads.",
+   "spoiler": 0,
+   "title": "Recovered Cargo"
+  }
+ ],
+ "summary": "A Sealed Crate represents merchant cargo recovered from trade routes disrupted by bandits and outlaws. Trade recipients pay adventurers to retrieve these scattered goods and secure them against rising highway crime.",
+ "attribution": [
+  "In-game quest text: A Sealed Crate"
+ ]
+}

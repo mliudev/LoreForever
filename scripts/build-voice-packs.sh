@@ -141,6 +141,24 @@ DOWNLOADS = {
     "LoreForever_Voice_Female_deDE": (["LoreForever_Voice_Female_deDE"], "Female narrator: Deutsch {v}"),
     "LoreForever_Voice_Default_esES": (["LoreForever_Voice_Default_esES"], "Male narrator: Español {v}"),
     "LoreForever_Voice_Female_esES": (["LoreForever_Voice_Female_esES"], "Female narrator: Español {v}"),
+    # Their people and lore topics in German, Castilian, Brazilian Portuguese and French (LOR-567; French 10/19): one narrator's ~1,600 stories in those languages
+    # don't fit in one zip, so these extend the narrator like English MorePeople. Skipped until recorded.
+    "LoreForever_Voice_Default_MorePeople_deDE": (["LoreForever_Voice_Default_MorePeople_deDE"],
+                                                  "Male narrator: more people, Deutsch {v}"),
+    "LoreForever_Voice_Female_MorePeople_deDE": (["LoreForever_Voice_Female_MorePeople_deDE"],
+                                                 "Female narrator: more people, Deutsch {v}"),
+    "LoreForever_Voice_Default_MorePeople_esES": (["LoreForever_Voice_Default_MorePeople_esES"],
+                                                  "Male narrator: more people, Español {v}"),
+    "LoreForever_Voice_Female_MorePeople_esES": (["LoreForever_Voice_Female_MorePeople_esES"],
+                                                 "Female narrator: more people, Español {v}"),
+    "LoreForever_Voice_Default_MorePeople_ptBR": (["LoreForever_Voice_Default_MorePeople_ptBR"],
+                                                  "Male narrator: more people, Português {v}"),
+    "LoreForever_Voice_Female_MorePeople_ptBR": (["LoreForever_Voice_Female_MorePeople_ptBR"],
+                                                 "Female narrator: more people, Português {v}"),
+    "LoreForever_Voice_Default_MorePeople_frFR": (["LoreForever_Voice_Default_MorePeople_frFR"],
+                                                  "Male narrator: more people, Français {v}"),
+    "LoreForever_Voice_Female_MorePeople_frFR": (["LoreForever_Voice_Female_MorePeople_frFR"],
+                                                 "Female narrator: more people, Français {v}"),
     "LoreForever_Voice_Default_frFR": (["LoreForever_Voice_Default_frFR"], "Male narrator: Français {v}"),
     "LoreForever_Voice_Female_frFR": (["LoreForever_Voice_Female_frFR"], "Female narrator: Français {v}"),
     # Italian (10/18): the stories the Italian community's pack has, read by native narrators. Skipped until recorded.
@@ -195,7 +213,7 @@ FULL_BUNDLES = {name: entry for name, entry in FULL_BUNDLES.items() if name in D
 CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers", "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female_Quests",
                   "LoreForever_Voice_Original-complete", "LoreForever_Voice_Original_Quests"} | {
     n for n in DOWNLOADS if re.fullmatch(
-    r"LoreForever_Voice_(Default|Female|Original)((_Quests)?_[a-z]{2}[A-Z]{2}|_More(Places|People|Items|Quests[12]))", n)}
+    r"LoreForever_Voice_(Default|Female|Original)((_Quests|_MorePeople)?_[a-z]{2}[A-Z]{2}|_More(Places|People|Items|Quests[12]))", n)}
 CURSEFORGE_MB = 480                                  # its upload API refuses bigger files
 GITHUB_ASSET_MAX = 2 * 1024**3 - 64 * 1024**2        # GitHub's release asset limit (2 GiB), less room for zip overhead
 

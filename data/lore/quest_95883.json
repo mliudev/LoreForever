@@ -1,0 +1,111 @@
+{
+ "key": "quest:95883",
+ "type": "quest",
+ "name": "The Tortured Soul",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95883
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Channeling tormented souls and assembling dark rites at ancient offering stones reflect the grim, manipulative nature of demonic and shadow magic."
+  },
+  {
+   "target": "race:Undead",
+   "text": "Silverpine Forest is Forsaken territory, where remnants of dark magic and lingering suffering constantly threaten the borders of Lordaeron."
+  },
+  {
+   "target": "class:Priest",
+   "text": "The ritual relies on foul energy ripped from suffering spirits, standing in stark opposition to the restorative principles of the Holy Light."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is the tortured soul quest",
+    "tortured soul silverpine",
+    "beren peril quest"
+   ],
+   "answer": "The Tortured Soul is a quest set at Beren's Peril in Silverpine Forest. It involves investigating an unfinished dark ritual at an offering stone and seeking out the soul of a tormented creature nearby to complete the rite's components.",
+   "q": "What is The Tortured Soul?"
+  },
+  {
+   "aliases": [
+    "where is the ritual",
+    "where is beren's peril",
+    "offering stone location"
+   ],
+   "answer": "The ritual altar and its ominous offering stone are located at Beren's Peril, a mountainous and perilous enclave nestled within Silverpine Forest.",
+   "q": "Where does this ritual take place?"
+  },
+  {
+   "aliases": [
+    "what is needed for ritual",
+    "ritual components berens peril"
+   ],
+   "answer": "According to a scrap of a note left at the altar, almost all materials have been hastily assembled except for two vital components: an offering of blood and a Tortured Soul.",
+   "q": "What components are required for the ritual?"
+  },
+  {
+   "aliases": [
+    "where to get tortured soul",
+    "who has the soul"
+   ],
+   "answer": "The quest text notes that the nearby creatures inhabiting Beren's Peril appear tortured enough to yield the essence needed to empower the offering stone.",
+   "q": "Where do you find the Tortured Soul?"
+  },
+  {
+   "aliases": [
+    "what happens when you bring soul",
+    "turn in tortured soul"
+   ],
+   "answer": "Bringing the tortured soul to the offering stone causes it to emit a foul energy, bringing the dark ceremony one step closer to its completion.",
+   "q": "What happens when the Tortured Soul is brought to the altar?"
+  },
+  {
+   "aliases": [
+    "who made the ritual",
+    "who wrote the note"
+   ],
+   "answer": "The exact creator of the ritual is unstated, but notes and hastily gathered materials indicate that someone fled or assembled the altar in extreme haste among the hostile denizens of Beren's Peril.",
+   "q": "Who created the ritual at Beren's Peril?"
+  }
+ ],
+ "keywords": [
+  "beren's peril",
+  "foul energy",
+  "offering of blood",
+  "offering stone",
+  "ritual",
+  "silverpine forest",
+  "the tortured soul"
+ ],
+ "related": [
+  "quest:95884",
+  "quest:95885",
+  "quest:516",
+  "zone:silverpine"
+ ],
+ "sections": [
+  {
+   "body": "At Beren's Peril in Silverpine Forest lies an altar bearing the remains of a hastily assembled dark ritual. A scrawled note left amidst the unceremonious clutter indicates that most ingredients have already been gathered, leaving only an offering of blood and a Tortured Soul to finish the work.",
+   "spoiler": 0,
+   "title": "A Hasty Rite"
+  },
+  {
+   "body": "The denizens dwelling within the crags of Beren's Peril endure severe agony, making them prime targets to harvest the tortured essence required by the rite. Presenting the harvested soul to the ominous offering stone draws forth a surge of foul magical energy, advancing the ritual toward fulfillment.",
+   "spoiler": 1,
+   "title": "Foul Energies Unleashed"
+  }
+ ],
+ "summary": "The Tortured Soul is a quest centered around a hastily assembled ritual altar at Beren's Peril in Silverpine Forest. To advance the dark rites prescribed by an abandoned note, adventurers must retrieve a soul steeped in suffering from the perilous crags nearby.",
+ "attribution": [
+  "In-game quest text: The Tortured Soul"
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "key": "quest:297",
+ "type": "quest",
+ "name": "Gathering Idols",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   297
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven excavators are driven to recover ancient artifacts from trogg-infested ruins to unlock their historical secrets."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers assist dwarven expeditions in securing dangerous relics before savage troggs cause further havoc."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is magmar fellhew",
+    "quest giver",
+    "magmar"
+   ],
+   "answer": "Magmar Fellhew is an excavator seeking to recover carved stone idols recently unearthed at an excavation site before troggs overran the area.",
+   "q": "Who is Magmar Fellhew?"
+  },
+  {
+   "aliases": [
+    "what are carved stone idols",
+    "strange idols",
+    "excavated idols"
+   ],
+   "answer": "They are mysterious carved stone relics unearthed at an excavation site. They possess an unsettling power that drives nearby troggs into a berserk frenzy.",
+   "q": "What are the carved stone idols?"
+  },
+  {
+   "aliases": [
+    "why troggs berserk",
+    "idols make troggs crazy",
+    "trogg rage"
+   ],
+   "answer": "The idols exert a strange, inexplicable influence over the troggs, inciting wild fury and driving them completely berserk when in their possession.",
+   "q": "Why do the idols make the troggs go berserk?"
+  },
+  {
+   "aliases": [
+    "why get idols",
+    "purpose of gathering idols",
+    "magmar study"
+   ],
+   "answer": "Magmar Fellhew wants the idols safely retrieved so he can study their origins and properties, and to remove such volatile artifacts from trogg clutches.",
+   "q": "Why does Magmar Fellhew want the idols collected?"
+  },
+  {
+   "aliases": [
+    "who surfaced at the site",
+    "trogg invasion",
+    "excavation overrun"
+   ],
+   "answer": "Troggs surfaced abruptly from within the excavation site shortly after the idols were discovered, driving the excavators away from the ruins.",
+   "q": "What happened at the excavation site?"
+  },
+  {
+   "aliases": [
+    "where to find idols",
+    "who has idols",
+    "carved stone idol location"
+   ],
+   "answer": "The carved stone idols are carried by the troggs infesting the excavation site where the relics were originally unearthed.",
+   "q": "Where are the idols found?"
+  }
+ ],
+ "keywords": [
+  "berserk",
+  "carved stone idols",
+  "excavation",
+  "gathering idols",
+  "magmar fellhew",
+  "ruins",
+  "troggs"
+ ],
+ "related": [
+  "topic:trogg"
+ ],
+ "sections": [
+  {
+   "body": "Shortly before savage troggs surfaced and overran the excavation site, researchers uncovered a large cache of strange, carved stone idols. The unexpected trogg assault forced the expedition to flee the ruins before any formal study could begin. Now, the savage creatures clutch the ancient relics, prowling the site and preventing any peaceful return.",
+   "spoiler": 0,
+   "title": "The Unearthed Relics"
+  },
+  {
+   "body": "Beyond simply stealing the relics, the troggs appear deeply influenced by them. The strange carvings exert an unsettling power that sends the creatures into an uncontrollable, berserk rage. To understand what these artifacts truly are and to quell the violent frenzy gripping the area, Magmar Fellhew seeks to pry the idols from trogg hands and study them safely.",
+   "spoiler": 0,
+   "title": "A Savage Frenzy"
+  }
+ ],
+ "summary": "Gathering Idols is a task assigned by Magmar Fellhew to retrieve mysterious carved stone relics from an overrun excavation site. The newly unearthed idols exert a strange influence on the local troggs, driving them into a violent frenzy.",
+ "attribution": [
+  "In-game quest text: Gathering Idols"
+ ]
+}

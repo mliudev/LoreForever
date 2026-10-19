@@ -1,0 +1,122 @@
+{
+ "key": "quest:98065",
+ "type": "quest",
+ "name": "Crown of the Earth",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98065
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Delivering sacred moonwell water directly highlights the dual leadership of the kaldorei, caught between Tyrande's priesthood and Fandral's druids."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Serving High Priestess Tyrande Whisperwind reinforces the vital role Elune's clergy plays in guiding and governing night elf society."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Tyrande's sharp words regarding Arch Druid Fandral Staghelm underscore the growing friction within the Cenarion Circle in Malfurion's absence."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Gaining an audience with the leader of Darnassus offers a glimpse into the internal political strains facing one of the Alliance's key capitals."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is crown of the earth",
+    "crown of the earth quest",
+    "quest crown of the earth"
+   ],
+   "answer": "Crown of the Earth is a quest in Darnassus where an adventurer brings a ceremonial container of Moonwell Remnants to High Priestess Tyrande Whisperwind inside the Temple of the Moon. It marks a moment of direct communion with the night elves' supreme leader.",
+   "q": "What is Crown of the Earth?"
+  },
+  {
+   "aliases": [
+    "who is tyrande whisperwind",
+    "where is tyrande",
+    "high priestess tyrande"
+   ],
+   "answer": "Tyrande Whisperwind is the High Priestess of Elune and the political leader of the night elves. She oversees Darnassus from the upper tier of the Temple of the Moon, bearing the burden of guiding her people during troubled times.",
+   "q": "Who is Tyrande Whisperwind?"
+  },
+  {
+   "aliases": [
+    "why bring moonwell remnants to tyrande",
+    "what are moonwell remnants",
+    "sacred water darnassus"
+   ],
+   "answer": "The Moonwell Remnants consist of sacred water blessed by Elune. Given its holy nature, it is transferred into a ceremonial vessel and brought to Tyrande so that she may receive and safeguard it on behalf of the goddess.",
+   "q": "Why are the Moonwell Remnants brought to Tyrande?"
+  },
+  {
+   "aliases": [
+    "tyrande fandral tension",
+    "why does tyrande dislike staghelm",
+    "fandral vs tyrande"
+   ],
+   "answer": "While Malfurion Stormrage is absent, Arch Druid Fandral Staghelm leads the druids, but Tyrande firmly maintains that governing Darnassus and leading the kaldorei remains her responsibility alone, refusing to let druidic authority eclipse Elune's priesthood.",
+   "q": "What is the dispute between Tyrande and Fandral Staghelm?"
+  },
+  {
+   "aliases": [
+    "where is malfurion",
+    "what happened to malfurion",
+    "malfurion absence"
+   ],
+   "answer": "Malfurion Stormrage is currently absent from Darnassus, leaving a leadership vacuum among the druids that Arch Druid Fandral Staghelm has stepped in to fill, heightening political tension with Tyrande.",
+   "q": "Where is Malfurion during this quest?"
+  },
+  {
+   "aliases": [
+    "temple of the moon location",
+    "where is temple of the moon",
+    "where to find tyrande"
+   ],
+   "answer": "The Temple of the Moon is located in the heart of Darnassus. It serves as the primary sanctuary for the Sisterhood of Elune, with Tyrande holding audience on the upper level directly above the main sanctuary floor.",
+   "q": "Where is the Temple of the Moon?"
+  }
+ ],
+ "keywords": [
+  "crown of the earth",
+  "darnassus",
+  "elune",
+  "fandral staghelm",
+  "malfurion",
+  "moonwell remnants",
+  "temple of the moon",
+  "tyrande whisperwind"
+ ],
+ "related": [
+  "npc:tyrande-whisperwind",
+  "subzone:temple-of-the-moon",
+  "zone:darnassus",
+  "topic:elune",
+  "topic:druid",
+  "quest:2519"
+ ],
+ "sections": [
+  {
+   "body": "After collecting the sacred Moonwell Remnants, adventurers are directed to transfer the blessed water into a ceremonial vessel and deliver it directly to Tyrande Whisperwind. The High Priestess of Elune presides high within the Temple of the Moon in Darnassus, watching over the city and offering her goddess's light to all who enter. Delivering such sacred water into her care is considered an honor and an act of devotion to Elune.",
+   "spoiler": 0,
+   "title": "Audience with the High Priestess"
+  },
+  {
+   "body": "Upon receiving the remnants, Tyrande expresses deep gratitude for saving the blessed water, yet her thoughts quickly turn to the political strains gripping Darnassus. In Malfurion Stormrage's absence, Arch Druid Fandral Staghelm has taken command of druidic affairs, but Tyrande makes it abundantly clear that governing the kaldorei is her burden alone. While she urges respect for Staghelm's station, the exchange reveals sharp friction between the Sisterhood of Elune and the Cenarion Circle.",
+   "spoiler": 1,
+   "title": "Tensions in Leadership"
+  }
+ ],
+ "summary": "Crown of the Earth is a Darnassus quest in which adventurers deliver purified Moonwell Remnants to High Priestess Tyrande Whisperwind. Taking place inside the Temple of the Moon, the encounter reveals the sacred significance of Elune's waters and the growing political tension between Tyrande and Arch Druid Fandral Staghelm.",
+ "attribution": [
+  "In-game quest text: Crown of the Earth"
+ ]
+}

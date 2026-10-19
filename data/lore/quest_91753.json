@@ -1,0 +1,107 @@
+{
+ "key": "quest:91753",
+ "type": "quest",
+ "name": "An Enchanting Lesson",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91753
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "While scholarly mages often scoff at subterranean vermin, Kitta Firewind reminds practitioners that even primitive creatures can reveal unexpected truths about manipulating raw magical currents."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Studying within the Tower of Azora in Elwynn Forest provides Alliance adventurers insight into both academic wizardry and the surprisingly magical pests infesting their lands."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives an enchanting lesson",
+    "quest giver enchanting lesson",
+    "kitta firewind quest"
+   ],
+   "answer": "Kitta Firewind, an enchanter residing within the Tower of Azora in Elwynn Forest, offers this lesson to help adventurers balance scholarly magical theory with hands-on practice.",
+   "q": "Who gives the quest An Enchanting Lesson?"
+  },
+  {
+   "aliases": [
+    "where is tower of azora",
+    "tower of azora location"
+   ],
+   "answer": "The Tower of Azora stands in eastern Elwynn Forest, serving as a bastion of magical study and wizardry amid the farmlands and woods of the human kingdom.",
+   "q": "Where is the Tower of Azora located?"
+  },
+  {
+   "aliases": [
+    "can kobolds do magic",
+    "kobold geomancers magic",
+    "do kobolds have enchantments"
+   ],
+   "answer": "Despite having no formal schooling or scholarly traditions, kobolds\u2014particularly geomancers\u2014possess an instinctive knack for binding basic cantrips and enchantments into their crude wax effigies.",
+   "q": "How do kobolds know how to use magic?"
+  },
+  {
+   "aliases": [
+    "what are wax effigies",
+    "crude wax effigies",
+    "kobold wax magic"
+   ],
+   "answer": "Crude Wax Effigies are primitive items fashioned by kobold geomancers. Although unsophisticated, they hold bound magical energies that can be unraveled and studied through disenchanting.",
+   "q": "What are the wax effigies used for?"
+  },
+  {
+   "aliases": [
+    "what is luminous residue",
+    "how to get luminous residue"
+   ],
+   "answer": "Luminous Residue is the residual essence obtained after deconstructing and disenchanting the crude wax effigies carried by kobold geomancers. It serves as tangible proof of their innate cantrips.",
+   "q": "What is Luminous Residue?"
+  },
+  {
+   "aliases": [
+    "lesson of the quest",
+    "what does kitta firewind teach"
+   ],
+   "answer": "Kitta Firewind teaches that theoretical knowledge and practical experimentation are two inseparable sides of the same coin, urging students to study practical magic wherever it appears.",
+   "q": "What is the main takeaway of Kitta Firewind's lesson?"
+  }
+ ],
+ "keywords": [
+  "an enchanting lesson",
+  "disenchanting",
+  "elwynn forest",
+  "kitta firewind",
+  "kobold geomancer",
+  "luminous residue",
+  "tower of azora",
+  "wax effigy"
+ ],
+ "related": [
+  "subzone:tower-of-azora",
+  "topic:kobold"
+ ],
+ "sections": [
+  {
+   "body": "Academic rigor is an essential pillar of arcane study, but true mastery demands grounding in practical application. In the Tower of Azora, Kitta Firewind challenges apprentice enchanters to look beyond polished libraries and examine magic where it appears naturally. Even the uneducated kobolds scratching beneath Elwynn Forest manage to channel cantrips into everyday talismans, demonstrating that magical instinct often defies formal schooling.",
+   "spoiler": 0,
+   "title": "Theory and Practice"
+  },
+  {
+   "body": "Kobold geomancers shape Crude Wax Effigies imbued with simple folk enchantments. By obtaining these effigies and carefully unraveling the bound magics through disenchantment, an observant student extracts Luminous Residue. Deconstructing these crude charms proves that understanding the fundamental threads of enchantment requires observing how raw magic behaves in the field, not merely reading about it in dusty grimoires.",
+   "spoiler": 0,
+   "title": "Primitive Cantrips"
+  }
+ ],
+ "summary": "An Enchanting Lesson is a quest offered by Kitta Firewind at the Tower of Azora in Elwynn Forest. It instructs practitioners to examine the crude wax effigies of kobold geomancers, proving that practical experimentation is just as vital to enchantment as formal arcane theory.",
+ "attribution": [
+  "In-game quest text: An Enchanting Lesson"
+ ]
+}

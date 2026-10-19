@@ -1,0 +1,108 @@
+{
+ "key": "quest:99153",
+ "type": "quest",
+ "name": "The One That Got Away",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99153
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Paladins sworn to purge necromantic threats will recognize the danger of a Scourge focusing crystal left active, especially one capable of animating or bolstering undead beneath the ground."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests familiar with combating dark magic understand how unholy relics can corrupt surrounding areas if not recovered and cleansed promptly."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives the one that got away",
+    "who starts this quest",
+    "quest giver the one that got away"
+   ],
+   "answer": "The quest is given by Ephram Barbaro, who reaches out after hearing about your previous efforts dealing with cultists near the remnants of the battle with Naxxramas.",
+   "q": "Who gives the quest The One That Got Away?"
+  },
+  {
+   "aliases": [
+    "what is the crystal fragment",
+    "what does the crystal do",
+    "why is the crystal dangerous"
+   ],
+   "answer": "It is a lingering shard of a Scourge focusing crystal carried off by an escaped cultist. Ephram Barbaro notes that it still holds power and is either raising undead or making existing ones stronger beneath Shadowvale.",
+   "q": "What is the focusing crystal fragment?"
+  },
+  {
+   "aliases": [
+    "where is the crystal hidden",
+    "crystal location shadowvale",
+    "where to find crystal fragment"
+   ],
+   "answer": "According to Ephram Barbaro's intelligence, the fugitive cultist fled beneath Shadowvale with the relic, hiding it somewhere underground where its power continues to seep out.",
+   "q": "Where is the crystal fragment located?"
+  },
+  {
+   "aliases": [
+    "who escaped with the crystal",
+    "cultist with crystal",
+    "the one that got away meaning"
+   ],
+   "answer": "The title refers to a cultist who managed to slip away following the confrontation at the remnants of the battle with Naxxramas, taking an active shard of a focusing crystal with them.",
+   "q": "Who is 'the one that got away'?"
+  },
+  {
+   "aliases": [
+    "what happens when you return the crystal",
+    "turn in the one that got away",
+    "ephram barbaro favorite part"
+   ],
+   "answer": "Upon returning the recovered crystal fragment, Ephram Barbaro commends your speed and remarks that it is time to move onto his favorite part of handling the situation.",
+   "q": "What happens when you return the crystal to Ephram Barbaro?"
+  },
+  {
+   "aliases": [
+    "naxxramas battle remnants cultists",
+    "how does ephram know you",
+    "prerequisites the one that got away"
+   ],
+   "answer": "Ephram mentions that word travels quickly among the ranks, specifically noting prior work dealt against cultists lingering around the remnants of the battle with Naxxramas.",
+   "q": "How does Ephram Barbaro know about you?"
+  }
+ ],
+ "keywords": [
+  "crystal fragment",
+  "cultist",
+  "ephram barbaro",
+  "focusing crystal",
+  "naxxramas",
+  "shadowvale",
+  "the one that got away"
+ ],
+ "related": [
+  "quest:376"
+ ],
+ "sections": [
+  {
+   "body": "Following a clash with cultists around the remnants of the battle with Naxxramas, news travels quickly among the ranks. Ephram Barbaro seeks out capable adventurers after learning that a lone cultist slipped through the perimeter, carrying off an active piece of a Scourge focusing crystal.",
+   "spoiler": 0,
+   "title": "A Fugitive in the Shadows"
+  },
+  {
+   "body": "Intelligence points to the subterranean passages beneath Shadowvale, where the escaped cultist fled. The fragment still holds dark necromantic energy, suspected of either reanimating the dead or bolstering hostile forces lurking underground. Barbaro charges adventurers with tracking down and securing the hidden crystal before its power causes greater catastrophe.",
+   "spoiler": 0,
+   "title": "The Threat Beneath Shadowvale"
+  }
+ ],
+ "summary": "The One That Got Away is a quest offered by Ephram Barbaro to track down a rogue cultist who escaped a skirmish near Naxxramas remnants. The fugitive fled beneath Shadowvale carrying an active fragment of a focusing crystal that threatens to empower or reanimate the dead.",
+ "attribution": [
+  "In-game quest text: The One That Got Away"
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "key": "quest:91920",
+ "type": "quest",
+ "name": "Wild Eyes",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91920
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Forsaken soldiers constantly contend with the physical decay of undeath, relying on the Royal Apothecary Society's grim concoctions to maintain their failing strength."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Forsaken war effort in Silverpine Forest depends heavily on Apothecary Renferrel's research at the Sepulcher to sustain frontline scouts and Deathstalkers."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Deathstalkers serve as the elite scouts and assassins of the Forsaken, making their physical restoration a top operational priority in the region."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives wild eyes",
+    "wild eyes quest giver",
+    "who asks for murloc eyes"
+   ],
+   "answer": "An ailing Forsaken Deathstalker in Silverpine Forest asks you to help restore their fading strength. Facing a second death if Renferrel's failing concoctions do not improve, they take a desperate gamble on alternative ingredients.",
+   "q": "Who asks you to gather murloc eyes?"
+  },
+  {
+   "aliases": [
+    "why murloc eyes",
+    "what are murloc eyes for",
+    "murloc eyes potion"
+   ],
+   "answer": "The Deathstalker notices a swarm of murlocs infesting the shores of Lake Lordamere and suggests harvesting their eyes. They hope the novel component will expand Apothecary Renferrel's experimentation beyond his narrow obsession with hearts.",
+   "q": "Why does the quest require murloc eyes?"
+  },
+  {
+   "aliases": [
+    "renferrel reaction",
+    "what does renferrel say",
+    "does renferrel like the eyes"
+   ],
+   "answer": "Apothecary Renferrel initially scoffs, blaming the potion's failure on an inadequate number of hearts rather than his formula. However, he admits he had not considered using murloc anatomy and agrees to integrate them to restore the Deathstalker.",
+   "q": "How does Apothecary Renferrel react to the delivery?"
+  },
+  {
+   "aliases": [
+    "where is apothecary renferrel",
+    "renferrel location",
+    "where to turn in wild eyes"
+   ],
+   "answer": "Apothecary Renferrel conducts his dark research at the Sepulcher, the primary Forsaken outpost nestled in Silverpine Forest.",
+   "q": "Where is Apothecary Renferrel located?"
+  },
+  {
+   "aliases": [
+    "why did potion fail",
+    "why did renferrels potion not work",
+    "deathstalker potion failure"
+   ],
+   "answer": "According to Renferrel, the potion failed because only three hearts were provided instead of the six called for by the recipe. The ailing Deathstalker, however, felt the formula showed no noticeable results regardless.",
+   "q": "Why did Renferrel's original potion fail to work?"
+  },
+  {
+   "aliases": [
+    "renferrel heart obsession",
+    "why does renferrel want hearts"
+   ],
+   "answer": "Apothecary Renferrel has developed a tunnel-vision fascination with using animal hearts in his restorative mixtures, blinding him to other biological specimens until presented with murloc eyes.",
+   "q": "What is Apothecary Renferrel obsessed with?"
+  }
+ ],
+ "keywords": [
+  "apothecary renferrel",
+  "deathstalker",
+  "forsaken alchemy",
+  "lake lordamere",
+  "murloc eyes",
+  "sepulcher",
+  "silverpine forest",
+  "wild eyes"
+ ],
+ "related": [
+  "npc:apothecary-renferrel",
+  "subzone:sepulcher",
+  "topic:murloc"
+ ],
+ "sections": [
+  {
+   "body": "In Silverpine Forest, an ailing Forsaken Deathstalker faces the grim reality of bodily decay and a potential second death. Dissatisfied with the ineffective draughts brewed by Apothecary Renferrel, the scout risks Renferrel's notorious wrath by seeking an alternative cure along the creature-ridden shores of Lake Lordamere.",
+   "spoiler": 0,
+   "title": "Desperate Measures"
+  },
+  {
+   "body": "Suspecting that Renferrel's recent obsession with harvesting hearts has blinded him to other viable alchemical reagents, the Deathstalker directs adventurers to collect murloc eyes. Presenting the peculiar organs to Renferrel at the Sepulcher finally prompts the eccentric apothecary to broaden his experiments and revitalize the fading scout.",
+   "spoiler": 1,
+   "title": "New Reagents at the Sepulcher"
+  }
+ ],
+ "summary": "Wild Eyes is a Silverpine Forest quest where an ailing Forsaken scout seeks a cure to prevent a permanent second death. Frustrated by Apothecary Renferrel's ineffective heart-based concoctions, the scout tasks adventurers with gathering murloc eyes from Lake Lordamere to force a breakthrough in the apothecary's research.",
+ "attribution": [
+  "In-game quest text: Wild Eyes"
+ ]
+}

@@ -72,13 +72,13 @@ local function standing(st)
 end
 
 -- The sections, in the order they're shown, and how an event becomes a line in one (nil: not in the record).
-local SECTIONS = { "places", "quests", "people", "bosses", "battles", "kills", "loot", "levels", "spells", "mounts",
-  "profs", "rep", "deaths", "books", "shots" }
+local SECTIONS = { "places", "quests", "people", "bosses", "battles", "kills", "seen", "loot", "levels", "spells",
+  "mounts", "profs", "rep", "deaths", "books", "shots" }
 local function titles(whole)
   -- A record that starts mid-life lists the places it recorded, not new ones (Journey.Whole).
   return { places = whole and L["New places, in order"] or L["Places recorded, in order"], quests = L["Quests done"],
     people = L["People met"], battles = L["Battles"],
-    bosses = L["Bosses defeated"], kills = L["Notable kills"], loot = L["Loot and quest rewards"],
+    bosses = L["Bosses defeated"], kills = L["Notable kills"], seen = L["Rares seen"], loot = L["Loot and quest rewards"],
     levels = L["Level-ups"], spells = L["Spells learned"], mounts = L["Mounts"], profs = L["Profession milestones"],
     rep = L["Reputation"], deaths = L["Deaths"], books = L["Books read"], shots = L["Screenshots"] }
 end
@@ -103,6 +103,8 @@ local function entry(e, quests)
     return "bosses", join(" · ", e.n, place(e), party(e))
   elseif k == "kill" and e.n and NOTABLE[e.cls or ""] then
     return "kills", join(" · ", e.n, rank(e.cls), place(e), party(e))
+  elseif k == "seen" and e.n then
+    return "seen", join(" · ", e.n, rank(e.cls), place(e))
   elseif k == "lvl" then
     return "levels", join(" · ", string.format(L["Reached level %d"], e.lv or 0), place(e))
   elseif k == "death" then
@@ -117,7 +119,7 @@ local function entry(e, quests)
   elseif k == "spell" and e.n then
     return "spells", join(" · ", e.n, place(e))
   elseif k == "mount" then
-    return "mounts", join(" · ", e.n or L["A new mount"], place(e))
+    return "mounts", join(" · ", e.n or L["A new mount"], e.how == "bought" and L["bought"] or nil, place(e))
   elseif k == "prof" and e.n then
     return "profs", join(" · ", e.n .. " " .. (e.r or 0), place(e))
   elseif k == "rep" and e.n then

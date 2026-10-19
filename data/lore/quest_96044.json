@@ -1,0 +1,120 @@
+{
+ "key": "quest:96044",
+ "type": "quest",
+ "name": "Camping 101: Blacksmithing",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96044
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Aspiring smiths can learn to craft field utilities like the sharpening wheel, extending their craft beyond city forges to support allies out in the wild."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Warriors rely on keen edges in the heat of battle and benefit directly when blacksmiths bring sharpening wheels to an expedition's camp."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "A sharp dagger is an essential tool of the trade for rogues, making a camp sharpening wheel a welcome sight between field contracts."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "With Kharanos nestled in the snowy foothills of Dun Morogh, dwarven smiths take pride in keeping cold steel sharp and ready for any road."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is tognus flintfire",
+    "where is tognus",
+    "tognus flintfire location"
+   ],
+   "answer": "Tognus Flintfire is a blacksmithing instructor located in the town of Kharanos in Dun Morogh. He provides training to smiths who have demonstrated sufficient proficiency in their trade, teaching them how to fashion specialized campsite gear.",
+   "q": "Who is Tognus Flintfire?"
+  },
+  {
+   "aliases": [
+    "what does sharpening wheel do",
+    "sharpening wheel camp",
+    "sharpening wheel purpose"
+   ],
+   "answer": "The sharpening wheel is a camping utility crafted by blacksmiths. When set up at an adventurer's camp, it offers a dedicated workstation where weapon-wielding allies like warriors and rogues can hone and maintain the cutting edges of their blades in the field.",
+   "q": "What is a Sharpening Wheel?"
+  },
+  {
+   "aliases": [
+    "who needs sharpening wheel",
+    "warriors sharpening wheel",
+    "rogues sharpening wheel"
+   ],
+   "answer": "Warriors and rogues benefit most from having a sharpening wheel at camp, as their combat effectiveness depends heavily on maintaining razor-sharp edges on their blades, axes, and daggers during extended travels away from town forges.",
+   "q": "Why do warriors and rogues care about the Sharpening Wheel?"
+  },
+  {
+   "aliases": [
+    "where is kharanos",
+    "kharanos location",
+    "finding kharanos"
+   ],
+   "answer": "Kharanos is a bustling dwarven settlement located just southwest of Ironforge in the snowy peaks of Dun Morogh. It serves as a vital staging hub and trading post for travelers, miners, and craftsmen navigating the mountain passes.",
+   "q": "Where is Kharanos?"
+  },
+  {
+   "aliases": [
+    "camping 101 blacksmithing requirement",
+    "when can i learn sharpening wheel",
+    "smithing camp training"
+   ],
+   "answer": "Smiths must first show basic proficiency in their trade before Tognus Flintfire will instruct them in crafting campsite gear. Once you have practiced the fundamentals at an anvil, he will teach you to forge the portable wheel.",
+   "q": "What is required to learn this camping item?"
+  },
+  {
+   "aliases": [
+    "why craft camp items",
+    "blacksmithing camping items",
+    "smithing utility in wild"
+   ],
+   "answer": "Camping items allow blacksmiths to support adventuring parties outside settled towns. Rather than forcing companions to return to a full city forge for basic weapon upkeep, a portable utility like a sharpening wheel provides essential maintenance under the open sky.",
+   "q": "Why do blacksmiths craft camping items?"
+  }
+ ],
+ "keywords": [
+  "blacksmithing",
+  "blades",
+  "camp",
+  "camping 101",
+  "dun morogh",
+  "kharanos",
+  "sharpening wheel",
+  "tognus flintfire",
+  "weapons"
+ ],
+ "related": [
+  "subzone:kharanos",
+  "topic:warrior",
+  "topic:rogue"
+ ],
+ "sections": [
+  {
+   "body": "Camping 101: Blacksmithing directs fledgling smiths to learn the art of field utility. While any town forge can fashion a breastplate or a sword, traveling adventurers require upkeep far beyond the comfort of city walls. Smiths who prove their basic proficiency are pointed toward Kharanos, where master craftsmen share methods for turning raw metal into portable camp tools that keep blades keen on long journeys.",
+   "spoiler": 0,
+   "title": "Field Maintenance for the Open Road"
+  },
+  {
+   "body": "In the snowy settlement of Kharanos, Tognus Flintfire instructs capable smiths in the construction of the sharpening wheel. Setting up one of these grinding stones at a campsite turns an ordinary resting ground into a temporary armory, drawing warriors and rogues eager to grind nicks and dull edges out of their steel before the next march.",
+   "spoiler": 0,
+   "title": "The Master of Kharanos"
+  }
+ ],
+ "summary": "Camping 101: Blacksmithing is an introductory task directing smiths to Tognus Flintfire in Kharanos. Through him, craftsmen learn to construct a portable sharpening wheel to maintain weapons at campsites in the wilderness.",
+ "attribution": [
+  "In-game quest text: Camping 101: Blacksmithing"
+ ]
+}

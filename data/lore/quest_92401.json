@@ -1,0 +1,114 @@
+{
+ "key": "quest:92401",
+ "type": "quest",
+ "name": "A Frightened Request",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92401
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Human",
+   "text": "The fall of Lordaeron remains one of the deepest tragedies in human memory. For humans, Edward's desperate search is a poignant reminder of the countless families torn apart when Prince Arthas betrayed and slaughtered his own people."
+  },
+  {
+   "target": "race:Undead",
+   "text": "The ruins above the Undercity are claimed by the Forsaken, who rose from the kingdom's ashes. Living humans wandering through the shattered capital's graveyard reflect the lingering ghosts of the past in lands the Forsaken now hold."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests dedicated to spiritual healing and comfort can readily understand the unbearable grief and spiritual unrest driving a father to search an overrun graveyard for his lost son."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is edward",
+    "edward heartweaver lore",
+    "husband in ruins"
+   ],
+   "answer": "Edward Heartweaver is a grieving human father whose son vanished during the Scourge's destruction of Lordaeron. Tormented by guilt over never recovering his child's body, Edward made weekly pilgrimages to search the overgrown graveyard within the capital's ruins until he mysteriously disappeared.",
+   "q": "Who is Edward Heartweaver?"
+  },
+  {
+   "aliases": [
+    "why did edward go to lordaeron",
+    "edward heartweaver graveyard",
+    "why search lordaeron ruins"
+   ],
+   "answer": "Edward ventured into the Ruins of Lordaeron to search for the remains of his son, who was lost when Prince Arthas razed the capital city. Burdened by grief and the lack of closure, Edward refused to stop combing the ruins' dangerous graveyard despite his wife's warnings.",
+   "q": "Why did Edward go to the Ruins of Lordaeron?"
+  },
+  {
+   "aliases": [
+    "why are lordaeron ruins dangerous",
+    "what is in lordaeron ruins",
+    "ruins of lordaeron threats"
+   ],
+   "answer": "Since the Scourge sacked the capital in the Third War, the surface ruins of Lordaeron have become overrun with dangerous creatures and hostile forces. Ordinary civilians cannot safely travel there, making any prolonged search of the old grounds extremely perilous.",
+   "q": "Why are the Ruins of Lordaeron so dangerous?"
+  },
+  {
+   "aliases": [
+    "who gives a frightened request",
+    "a frightened request questgiver",
+    "edward wife quest"
+   ],
+   "answer": "The quest is offered by Edward Heartweaver's anxious wife. Unable to face the deadly horrors lurking in the ruined kingdom herself, she turns to passing adventurers to locate her husband after he fails to return from his weekly search.",
+   "q": "Who offers the quest A Frightened Request?"
+  },
+  {
+   "aliases": [
+    "what happened to the son",
+    "edward heartweaver son",
+    "lost son in lordaeron"
+   ],
+   "answer": "The Heartweavers' son was lost during the fall of Lordaeron when Prince Arthas and his undead forces decimated the city. The child's body was never found in the chaos, leaving his father consumed with sorrow and unanswered questions.",
+   "q": "What happened to Edward's son?"
+  },
+  {
+   "aliases": [
+    "what do i do in a frightened request",
+    "a frightened request goal",
+    "how to complete a frightened request"
+   ],
+   "answer": "The quest requires adventurers to journey into the hazardous Ruins of Lordaeron and investigate what happened to Edward Heartweaver. Players must brave the overrun city grounds to discover his ultimate fate and bring answers to his waiting wife.",
+   "q": "What is the objective of A Frightened Request?"
+  }
+ ],
+ "keywords": [
+  "a frightened request",
+  "arthas",
+  "edward heartweaver",
+  "heartweaver",
+  "lordaeron graveyard",
+  "missing husband",
+  "ruins of lordaeron",
+  "scourge"
+ ],
+ "related": [
+  "zone:ruinsoflordaeron",
+  "topic:lordaeron"
+ ],
+ "sections": [
+  {
+   "body": "When Prince Arthas and the Scourge razed the capital city of Lordaeron during the Third War, countless families were torn apart in the carnage. Among those shattered by the tragedy was the Heartweaver family, who lost their young son during the fall of the kingdom. Because the boy's body was never recovered amidst the devastation, his father, Edward Heartweaver, was consumed by overwhelming sorrow and unresolved guilt. Unable to let go of the past or accept the finality of their loss, Edward began making perilous weekly pilgrimages into the overrun graveyard of the ruined capital, desperate to locate any trace of his child's remains.",
+   "spoiler": 0,
+   "title": "A Father's Grief"
+  },
+  {
+   "body": "The surface ruins of Lordaeron are no longer a place of quiet remembrance. Overrun by hostile entities and lurking horrors in the aftermath of the city's destruction, the grounds remain exceptionally treacherous for ordinary citizens. Despite repeated warnings and pleas from his frightened wife, Edward refused to abandon his weekly vigil. When his routine journey stretched into an unexplained absence of several days, his desperate wife reached out to capable adventurers, asking them to brave the dangers of the ruins and discover her husband's ultimate fate.",
+   "spoiler": 0,
+   "title": "The Perils of the Ruins"
+  }
+ ],
+ "summary": "A Frightened Request is a quest concerning the disappearance of Edward Heartweaver within the perilous Ruins of Lordaeron. Consumed by grief after his son was lost during the fall of the capital, Edward repeatedly traveled to the ruined city's graveyard in search of his child's remains before vanishing. An adventurer is asked to brave the dangerous ruins to uncover his ultimate fate.",
+ "attribution": [
+  "In-game quest text: A Frightened Request"
+ ]
+}

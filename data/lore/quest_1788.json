@@ -1,0 +1,109 @@
+{
+ "key": "quest:1788",
+ "type": "quest",
+ "name": "The Tome of Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1788
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This trial marks a paladin's passage into true service to the Light, mastering the sacred power to return fallen companions to life."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stormwind's paladins train under the Cathedral of Light, strengthening the kingdom's defenses by preserving the lives of Alliance defenders."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "tome of divinity",
+    "what is this quest",
+    "tome of divinity paladin"
+   ],
+   "answer": "The Tome of Divinity represents a culminating trial for paladins learning to wield the Holy Light. In this stage, an initiate reports back to Duthorian Rall after proving capable of channeling the Light to bring back the fallen.",
+   "q": "What is The Tome of Divinity?"
+  },
+  {
+   "aliases": [
+    "who is duthorian",
+    "duthorian rall role",
+    "where is duthorian"
+   ],
+   "answer": "Duthorian Rall is a high-ranking paladin trainer stationed in Stormwind's Cathedral of Light who oversees the development of paladin initiates and judges their readiness to wield sacred rites.",
+   "q": "Who is Duthorian Rall?"
+  },
+  {
+   "aliases": [
+    "symbol of life purpose",
+    "what did symbol of life do"
+   ],
+   "answer": "The Symbol of Life is a sacred focus used to call upon the Light to restore life to the deceased. Proving the ability to channel its power shows an initiate is ready to command the paladin's power of resurrection.",
+   "q": "What is the Symbol of Life?"
+  },
+  {
+   "aliases": [
+    "who is henze",
+    "henze lore",
+    "henze paladin quest"
+   ],
+   "answer": "Henze is an ally who fell in the field and was restored to life using the Symbol of Life during the initiate's trials, demonstrating that the paladin possessed the resolve and faith needed to reverse death.",
+   "q": "Who was Henze?"
+  },
+  {
+   "aliases": [
+    "paladin resurrection lore",
+    "how do paladins revive"
+   ],
+   "answer": "Resurrection is considered one of a paladin's highest honors. By attuning directly to the Holy Light and demonstrating deep faith, a paladin learns to call fallen companions back from the threshold of death.",
+   "q": "How does a paladin earn the power of resurrection?"
+  },
+  {
+   "aliases": [
+    "kings advisors script",
+    "what script goes to stormwind"
+   ],
+   "answer": "The script is the Defias papers taken from the island. Gazin Tenorm will carry them to the King's advisors once Duthorian Rall has looked them over, as proof that the Defias have infiltrated Elwynn.",
+   "q": "Why is the script being taken to the King's advisors?"
+  }
+ ],
+ "keywords": [
+  "duthorian",
+  "duthorian rall",
+  "henze",
+  "paladin",
+  "resurrection",
+  "stormwind",
+  "symbol of life",
+  "the tome of divinity",
+  "tome of divinity"
+ ],
+ "related": [
+  "npc:duthorian-rall",
+  "topic:light",
+  "topic:stormwind-kingdom"
+ ],
+ "sections": [
+  {
+   "body": "After completing a trial in the field and using the Symbol of Life to restore the fallen Henze, an aspiring paladin returns to the Cathedral of Light in Stormwind. The Defias papers recovered from the island are slated to go to the King's advisors through Gazin Tenorm, but first Duthorian Rall awaits word of the initiate's success.",
+   "spoiler": 0,
+   "title": "Return to the Cathedral"
+  },
+  {
+   "body": "Calling upon the Light to bring back the dead is not a skill granted lightly. In Duthorian Rall's eyes, successfully channeling the Symbol of Life proves an initiate possesses the faith and spiritual strength necessary for one of the paladin order's greatest callings: the power of resurrection. By mastering this rite, the paladin stands ready to safeguard allies on future battlefields across the kingdom.",
+   "spoiler": 0,
+   "title": "The Gift of Resurrection"
+  }
+ ],
+ "summary": "The Tome of Divinity is a pivotal trial of faith and devotion for paladins in Stormwind. By proving mastery over the sacred Symbol of Life and restoring a fallen ally, an initiate earns the solemn blessing of resurrection from Duthorian Rall.",
+ "attribution": [
+  "In-game quest text: The Tome of Divinity"
+ ]
+}

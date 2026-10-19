@@ -1,0 +1,108 @@
+{
+ "key": "quest:3091",
+ "type": "quest",
+ "name": "Simple Note",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3091
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "For young tauren starting their journey in Red Cloud Mesa, this note reinforces that martial duty to protect the tribe stands shoulder-to-shoulder with spiritual callings like shamanism and druidism."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "Harutt Thunderhorn guides novice tauren warriors, teaching them to temper their martial pride and shoulder the heavy burden of defending Camp Narache from marauding centaur."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who sent simple note",
+    "who wrote the note",
+    "sender simple note"
+   ],
+   "answer": "The note is sent by Harutt Thunderhorn, the warrior trainer at Camp Narache, through a messenger who seeks out young tauren ready to begin their martial discipline.",
+   "q": "Who wrote the Simple Note?"
+  },
+  {
+   "aliases": [
+    "who is harutt",
+    "harutt thunderhorn",
+    "where is harutt"
+   ],
+   "answer": "Harutt Thunderhorn is a tauren warrior trainer stationed at Camp Narache in Mulgore. He trains new warriors who seek the glory of battle and the ancestral ways of tribal warfare.",
+   "q": "Who is Harutt Thunderhorn?"
+  },
+  {
+   "aliases": [
+    "why is the note important",
+    "what does the note say"
+   ],
+   "answer": "The note calls newly awakened warriors to meet their trainer and reminds them that frontline defenders and hunters are just as vital to the tribe as druids and shamans.",
+   "q": "What is the purpose of the Simple Note?"
+  },
+  {
+   "aliases": [
+    "why fight centaur",
+    "tauren centaur conflict"
+   ],
+   "answer": "The tauren of Mulgore face constant threats along their borders from hostile centaur packs. Warriors like Harutt are tasked with training tribal defenders to hunt them and protect the camp.",
+   "q": "Why are warriors called upon to hunt centaur?"
+  },
+  {
+   "aliases": [
+    "camp narache location",
+    "where is camp narache"
+   ],
+   "answer": "Camp Narache is the ancestral training camp and starting settlement for the young tauren of the Hawkwind tribe, at the edge of Red Cloud Mesa in Mulgore.",
+   "q": "Where is Camp Narache located?"
+  },
+  {
+   "aliases": [
+    "tauren rites of passage",
+    "what rites do tauren take"
+   ],
+   "answer": "Every member of the tribe, whether a warrior, hunter, shaman, or druid, must undergo the shared ancestral rites of the tribe to prove their strength, humility, and dedication to their people.",
+   "q": "What are the tribal rites Harutt mentions?"
+  }
+ ],
+ "keywords": [
+  "camp narache",
+  "centaur",
+  "harutt thunderhorn",
+  "mulgore",
+  "red cloud mesa",
+  "simple note",
+  "tauren",
+  "warrior"
+ ],
+ "related": [
+  "subzone:camp-narache",
+  "topic:centaur",
+  "topic:shaman",
+  "topic:druid"
+ ],
+ "sections": [
+  {
+   "body": "Upon arriving at Camp Narache, young warriors receive a brief summons delivered by a camp messenger. Written by the veteran trainer Harutt Thunderhorn, the Simple Note urges the fledgling fighter to report immediately to begin their practical training in defense of the tribe.",
+   "spoiler": 0,
+   "title": "A Summons to Battle"
+  },
+  {
+   "body": "While the Shu'halo deeply revere their spiritual leaders, Harutt reminds his students that physical defenders carry an equal burden. Warriors are called to patrol tribal borders, hunt predatory centaur packs, and protect their peaceful kin from outside aggression. Despite the glory found in battle, every warrior must remain humble and complete the same traditional rites as any shaman or druid.",
+   "spoiler": 0,
+   "title": "The Defender's Burden"
+  }
+ ],
+ "summary": "The Simple Note is a brief written summons delivered to novice tauren warriors in Camp Narache by a local messenger. Written by the trainer Harutt Thunderhorn, it calls young fighters to report for duty, reminding them of the essential role warriors play alongside druids and shamans in defending tribal borders from centaur.",
+ "attribution": [
+  "In-game quest text: Simple Note"
+ ]
+}

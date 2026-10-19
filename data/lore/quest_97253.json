@@ -1,0 +1,117 @@
+{
+ "key": "quest:97253",
+ "type": "quest",
+ "name": "Parts and Pieces",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97253
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Tinkerers and engineers can appreciate the irony of a sophisticated mechanical contraption falling victim to crude piracy. Salvaging Wrenix's complicated parts offers a firsthand reminder of the dangers of deploying automated prototypes into hostile camps without proper physical safeguards."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is wrenix",
+    "wrenix the wretched lore",
+    "ratchet wrenix"
+   ],
+   "answer": "Wrenix the Wretched is an eccentric tinkerer residing in the neutral port town of Ratchet. Facing an aggressive crew of marauders along the coast to the south, Wrenix attempted to resolve the pirate issue through technological innovation. After several hired mercenaries failed to survive their missions, he built and dispatched an automated machine to handle the threat, only to have it swiftly dismantled.",
+   "q": "Who is Wrenix the Wretched?"
+  },
+  {
+   "aliases": [
+    "wrenix previous mercenaries",
+    "what happened to the other adventurers",
+    "who did wrenix send first"
+   ],
+   "answer": "Before resorting to mechanical automation, Wrenix hired five or six different adventurers to eliminate the pirate threat south of Ratchet. Not a single one of those operatives returned alive, proving how lethal and well-defended the pirate camps truly are. Their grim demise prompted Wrenix to conclude that relying on flesh-and-blood mercenaries was both inefficient and fatal.",
+   "q": "What happened to the earlier mercenaries Wrenix hired?"
+  },
+  {
+   "aliases": [
+    "why send a machine",
+    "wrenix robot plan",
+    "why did wrenix use a contraption"
+   ],
+   "answer": "Wrenix constructed and dispatched a mechanical device because his previous attempts using living mercenaries had resulted in total failure and loss of life. Believing that a clockwork creation could succeed where mortal fighters fell\u2014or at least avoid further casualties\u2014he sent the machine directly into the encampment, expecting mechanical ingenuity to overcome the pirates.",
+   "q": "Why did Wrenix send a machine to fight the pirates?"
+  },
+  {
+   "aliases": [
+    "how was the machine destroyed",
+    "how did pirates dismantle the robot",
+    "pirates scimitar screwdrivers"
+   ],
+   "answer": "The pirates proved surprisingly inventive when confronted with Wrenix's construct. Using their curved scimitars as makeshift screwdrivers, the raiders rapidly pried the machine apart before Wrenix could transmit commands redirecting it back toward Ratchet. They dismantled the contraption down to its frame and scattered its intricate components all across their encampment.",
+   "q": "How did the pirates dismantle Wrenix's machine?"
+  },
+  {
+   "aliases": [
+    "where are the parts",
+    "upper pirate camp location",
+    "handfuls of complicated parts location"
+   ],
+   "answer": "The components of Wrenix's shattered machine are located within the upper pirate camp situated along the coastline south of Ratchet. After stripping the device with their scimitars, the pirates left its intricate pieces scattered on the ground throughout their hilltop camp. Adventurers must slip into the camp and collect five handfuls of these complicated parts.",
+   "q": "Where are the complicated parts located?"
+  },
+  {
+   "aliases": [
+    "is parts and pieces safe",
+    "why does wrenix think you will survive",
+    "wrenix survival odds"
+   ],
+   "answer": "Wrenix believes this assignment offers far better odds of survival because it is purely a salvage operation rather than an open assault. The previous mercenaries were instructed to eradicate the pirate presence directly, whereas this retrieval mission simply requires slipping into the upper encampment, gathering five handfuls of scattered machine components from the dirt, and returning to Ratchet.",
+   "q": "Why does Wrenix believe this retrieval mission is safer?"
+  },
+  {
+   "aliases": [
+    "what are complicated parts",
+    "why does wrenix need the parts",
+    "what does wrenix do with the parts"
+   ],
+   "answer": "The complicated parts are the specialized gears, springs, and precision mechanical fittings that powered Wrenix's automated construct. Because his attempt to neutralize the pirate problem ended in the machine being taken apart, Wrenix needs these delicate pieces retrieved so his valuable engineering craftsmanship and materials do not go entirely to waste.",
+   "q": "What are the Complicated Parts needed for?"
+  }
+ ],
+ "keywords": [
+  "complicated parts",
+  "machine",
+  "parts and pieces",
+  "pirate",
+  "pirates",
+  "ratchet",
+  "scimitars",
+  "upper pirate camp",
+  "wrenix the wretched"
+ ],
+ "related": [
+  "npc:wrenix-the-wretched",
+  "subzone:ratchet",
+  "topic:pirate"
+ ],
+ "sections": [
+  {
+   "body": "Pirate activity along the coast south of Ratchet has grown increasingly troublesome for the port's residents and tradesfolk. Seeking to handle the marauders without risking any more coin on expendable hired hands, the tinkerer Wrenix the Wretched took matters into his own hands. After sending five or six mercenaries who all failed to return alive, Wrenix devised what seemed like an inspired alternative: sending an automated machine to deal with the raiders. Rather than putting another living soul at risk, the mechanical construct was dispatched to resolve the encampment problem autonomously.",
+   "spoiler": 0,
+   "title": "A Mechanical Solution"
+  },
+  {
+   "body": "The inventive deployment did not go as smoothly as planned. The pirates occupying the encampments south of town proved surprisingly resourceful with their blades, quickly discovering that curved scimitars could double as makeshift screwdrivers. Before Wrenix could send instructions directing the machine to retreat back toward Ratchet, the marauders pried the mechanism apart and scattered its delicate components all over their upper camp. Now, instead of eliminating the pirate presence, the inventor requires a daring scout to slip into the encampment and gather up five handfuls of the complicated mechanical parts left behind in the dirt.",
+   "spoiler": 0,
+   "title": "Scimitars and Screwdrivers"
+  }
+ ],
+ "summary": "Parts and Pieces is a retrieval quest offered by Wrenix the Wretched in the port town of Ratchet. After several mercenaries failed to survive encounters with the local pirates, Wrenix deployed a mechanical contraption to handle the threat, only for the raiders to dismantle it into scrap. Adventurers are tasked with heading to the pirates' upper camp to recover the scattered machinery before further harm is done.",
+ "attribution": [
+  "In-game quest text: Parts and Pieces"
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "key": "quest:79091",
+ "type": "quest",
+ "name": "Archmage Antonidas: The Unabridged Autobiography",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79091
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Archmage Antonidas was one of the Kirin Tor's greatest leaders and a paragon of arcane scholarship. Studying his life and personal writings offers vital insights for any practitioner of the arcane arts."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The tome originates from the great library in the Hall of Explorers in Ironforge, though the scholars receiving it seem unconcerned about depriving the dwarven archivists of such a rare volume."
+  },
+  {
+   "target": "race:Human",
+   "text": "Antonidas was a revered human archmage who led the Kirin Tor and Dalaran through the Second and Third Wars, making his unabridged autobiography a precious piece of human history."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Antonidas stood as a pillar of the Alliance of Lordaeron against the Orcish Horde and the Scourge, making his personal memoirs a treasured historical record across Alliance lands."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who was antonidas",
+    "archmage antonidas lore",
+    "antonidas backstory"
+   ],
+   "answer": "Archmage Antonidas was the longtime leader of the Kirin Tor and ruler of the magical city-state of Dalaran. A legendary master of the arcane, he served as a key councilor to the Alliance of Lordaeron during the Second War and warned King Terenas about the plague before falling in defense of Dalaran during the Third War.",
+   "q": "Who was Archmage Antonidas?"
+  },
+  {
+   "aliases": [
+    "what is this book",
+    "unabridged autobiography book",
+    "antonidas tome"
+   ],
+   "answer": "It is the comprehensive, unabridged autobiography written by Archmage Antonidas himself, detailing his life, scholarship, and leadership within Dalaran. Given his stature as the head of the Kirin Tor, his personal writings represent an invaluable historical and magical record.",
+   "q": "What is the unabridged autobiography?"
+  },
+  {
+   "aliases": [
+    "where is the book from",
+    "did this come from ironforge",
+    "ironforge library book"
+   ],
+   "answer": "The volume was acquired from the library in Ironforge, housed within the dwarven stronghold's Hall of Explorers. Dwarven explorers and archivists frequently collect historical and magical texts from across the eastern continents.",
+   "q": "Where did this book come from?"
+  },
+  {
+   "aliases": [
+    "why collect magical books",
+    "who wants antonidas book",
+    "why does the library want this"
+   ],
+   "answer": "Scholars and librarians constantly seek out powerful or historic magical texts to expand their archives and preserve arcane knowledge, especially works written by legendary magi that might otherwise be lost or hidden in foreign collections.",
+   "q": "Why is this book being sought after?"
+  },
+  {
+   "aliases": [
+    "did antonidas die",
+    "how did antonidas die",
+    "what happened to antonidas"
+   ],
+   "answer": "Archmage Antonidas perished during the Third War when the fallen Prince Arthas Menethil and the Scourge invaded Dalaran. Antonidas raised a powerful magical barrier to defend the city and its secrets, but Arthas breached the defenses and struck him down to claim the Book of Medivh.",
+   "q": "What happened to Archmage Antonidas?"
+  },
+  {
+   "aliases": [
+    "will ironforge miss the book",
+    "stealing from ironforge library"
+   ],
+   "answer": "The recipient casually dismisses any concern about the dwarves noticing its absence, musing that the expansive Ironforge archives are vast enough that one missing tome will likely go completely unnoticed.",
+   "q": "Will the Ironforge library notice the book is gone?"
+  }
+ ],
+ "keywords": [
+  "antonidas",
+  "arcane",
+  "archmage antonidas",
+  "autobiography",
+  "dalaran",
+  "hall of explorers",
+  "ironforge",
+  "kirin tor",
+  "library",
+  "mage"
+ ],
+ "related": [
+  "subzone:library-ironforge",
+  "zone:ironforge"
+ ],
+ "sections": [
+  {
+   "body": "Archmage Antonidas was among the most brilliant minds of Azeroth, serving for decades as the venerable leader of the Kirin Tor and ruler of Dalaran. His unabridged autobiography chronicles his rise through the ranks of the Violet Citadel, his mastery of the arcane, and his leadership during the tumultuous eras of the Second and Third Wars. For scholars and practitioners of magic, Antonidas's firsthand recollections provide an unmatched window into Dalaran's inner workings and the arcane arts.",
+   "spoiler": 0,
+   "title": "The Words of the Grand Magus"
+  },
+  {
+   "body": "Before arriving in its new home, this rare manuscript rested in the grand library of Ironforge, curated alongside ancient titan relics and dwarven histories in the Hall of Explorers. The dwarves possess vast collections of texts gathered from ruins and foreign kingdoms across Azeroth, making their archives a treasure trove for rare literature. However, arcane scholars elsewhere are eager to claim such works for their own collections, confident that the busy dwarven archivists will never notice a single missing volume.",
+   "spoiler": 0,
+   "title": "From the Great Library of Ironforge"
+  }
+ ],
+ "summary": "This quest involves recovering the comprehensive personal memoirs of Archmage Antonidas, the revered late leader of the Kirin Tor. Originally housed within the grand archives of Ironforge, the rare tome provides irreplaceable insight into the history of Dalaran and high arcane scholarship.",
+ "attribution": [
+  "In-game quest text: Archmage Antonidas: The Unabridged Autobiography"
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "key": "quest:97973",
+ "type": "quest",
+ "name": "Camping 101: Tailoring",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97973
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "Tailors learn to craft inspirational Faction Banners that bolster camp morale and energize allies in the field."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is this quest",
+    "camping 101 tailoring quest",
+    "tailoring camping banner"
+   ],
+   "answer": "Camping 101: Tailoring directs promising tailors to seek out specialized instruction in field craft. Once you demonstrate sufficient skill in tailoring, you can learn to create a decorative and inspiring Faction Banner for wilderness campsites.",
+   "q": "What is Camping 101: Tailoring?"
+  },
+  {
+   "aliases": [
+    "taleen shimmerthread",
+    "who teaches tailoring banner",
+    "where is taleen shimmerthread"
+   ],
+   "answer": "Taleen Shimmerthread is an expert tailor located in Shen'dar Village. She instructs skilled crafters on how to weave camping items specific to tailoring, including banners that raise spirits in camp.",
+   "q": "Who is Taleen Shimmerthread?"
+  },
+  {
+   "aliases": [
+    "where is shendar village",
+    "shendar village location"
+   ],
+   "answer": "Shen'dar Village is the settlement where Taleen Shimmerthread resides. Tailors travel there to receive specialized guidance on applying their cloth-working craft to camping gear.",
+   "q": "Where is Shen'dar Village?"
+  },
+  {
+   "aliases": [
+    "faction banner camping",
+    "what does tailoring make for camp",
+    "tailoring camp item"
+   ],
+   "answer": "A Faction Banner is a camping item crafted by tailors. On any battlefield or harsh expedition, maintaining inspiration and morale is vital, and planting a banner provides energizing presence to those resting at camp.",
+   "q": "What camping item can tailors learn to craft?"
+  },
+  {
+   "aliases": [
+    "how to learn faction banner",
+    "tailoring requirements camping banner"
+   ],
+   "answer": "You must show proficiency in the tailoring tradeskill before Taleen Shimmerthread in Shen'dar Village will teach you the pattern to weave a Faction Banner for your camp.",
+   "q": "What are the requirements to learn the camping banner?"
+  },
+  {
+   "aliases": [
+    "why make a faction banner",
+    "camping banner morale"
+   ],
+   "answer": "Morale and inspiration are critical on any campaign. Tailors stitch faction banners to display allegiance and provide an energizing focal point that sustains adventurers through grueling journeys.",
+   "q": "Why are faction banners valuable at camp?"
+  }
+ ],
+ "keywords": [
+  "camp banner",
+  "camping",
+  "camping 101: tailoring",
+  "faction banner",
+  "shen'dar village",
+  "tailoring",
+  "taleen shimmerthread",
+  "tradeskill"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Camping 101: Tailoring guides clothworkers to expand their craft beyond simple garments and bags. In the untamed wild, survival demands more than warm attire; a proper campsite can mean the difference between endurance and defeat. Tailors are encouraged to seek advanced instruction to turn bolts of woven fabric into symbols of unity and fortitude.",
+   "spoiler": 0,
+   "title": "The Weaver's Contribution to Camp"
+  },
+  {
+   "body": "The quest directs aspiring tailors to Shen'dar Village, where Taleen Shimmerthread offers instruction in camping crafts. Those who have developed sufficient skill in tailoring can learn the methods needed to fashion a Faction Banner. Stitched with care and planted proudly at camp, such a banner serves as an inspirational rallying point, boosting morale and keeping allies energized for the trials ahead.",
+   "spoiler": 0,
+   "title": "Instruction in Shen'dar Village"
+  }
+ ],
+ "summary": "Camping 101: Tailoring introduces clothiers to the art of crafting specialized equipment for wilderness campsites. By demonstrating skill to Taleen Shimmerthread in Shen'dar Village, tailors learn to sew an inspirational Faction Banner that raises spirits and sustains camp morale.",
+ "attribution": [
+  "In-game quest text: Camping 101: Tailoring"
+ ]
+}

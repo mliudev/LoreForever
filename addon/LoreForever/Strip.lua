@@ -54,7 +54,9 @@
 --   43     ROLES' number for it, from the line under its name or the name itself; 0 none known, no target, a player
 --   44     CRC-8 of bytes 10-12 and 43: the role is this target's (0 with no role)
 -- Beside the 45 bytes, since 0.19, the sky's outer ring carries 5 bytes of its own (Strip.SetRing, LOR-557) with
--- their own repair bytes, which older companions never look at: LOR-547's answer on screen or question asked.
+-- their own repair bytes, which older companions never look at: LOR-547's answer on screen or question asked, and
+-- where you stand on the map when it carries neither (LOR-672, spotPage below), or now and then the purse instead
+-- (Strip.Purse), so "how much gold do I have?" has the number as it is now (the answer log, 10/18).
 -- companion/lore_companion/sky.py reads it; companion/README.md explains it for players. A new field goes in a new
 -- format number, so an older companion says "update the companion" instead of misreading it (the trailer and the
 -- role are the exceptions: they only add what an older companion does without). Names never go out: the companion
@@ -79,7 +81,7 @@ local EVENTS = { "PLAYER_ENTERING_WORLD", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS"
   "UNIT_CLASSIFICATION_CHANGED", "PLAYER_REGEN_DISABLED", "PLAYER_REGEN_ENABLED", "PLAYER_DEAD", "PLAYER_ALIVE",
   "PLAYER_UNGHOST", "PLAYER_UPDATE_RESTING", "PLAYER_CONTROL_LOST", "PLAYER_CONTROL_GAINED", "GROUP_ROSTER_UPDATE",
   "QUEST_WATCH_LIST_CHANGED", "QUEST_WATCH_UPDATE", "QUEST_LOG_UPDATE", "DISPLAY_SIZE_CHANGED", "UI_SCALE_CHANGED",
-  "NAME_PLATE_UNIT_ADDED", "SCREENSHOT_STARTED", "SCREENSHOT_SUCCEEDED", "SCREENSHOT_FAILED" }
+  "NAME_PLATE_UNIT_ADDED", "SCREENSHOT_STARTED", "SCREENSHOT_SUCCEEDED", "SCREENSHOT_FAILED", "PLAYER_MONEY" }
 
 local function S() return (LoreForeverDB and LoreForeverDB.settings) or {} end
 local function now() return (GetTime and GetTime()) or 0 end
@@ -491,9 +493,78 @@ local stale, lastPaint, hiddenForShot = true, -math.huge, false
 
 local ring = nil   -- the outer ring's 5 bytes (Strip.SetRing), nil for nothing
 
+-- Where you stand, on the outer ring (LOR-672), so "pin this spot" said out loud or typed in Willo's window keeps the
+-- spot on the map, as a question copied from the Ask box does: a page of kind 3 (bits 7-6 of byte 0; its low 6 bits
+-- 0, or 1 when an answer is still on screen between its pages), then 32 bits, x (10 bits) and y (10 bits) in
+-- thousandths of the map in bytes 2-3 (Journey.Here), and the low 12 bits of the CRC-16 (Strip.CRC) of that map, x and
+-- y, 2 bytes each: the page is about this map. It goes when the ring carries nothing else (never in a dungeon or on a
+-- flight, Journey.Here's nil); while an answer is on screen (kind 1), every SPOT_EVERY-th repaint, only for a Willo
+-- that says she knows the page (Strip.SpotFromWillo): an older one takes any other page as the answer gone, and would
+-- stop reading it; never over a question going round (kind 2).
+local SPOT_EVERY = 4
+local spotTurn = 0
+
+local function spotPage(payload, between)
+  local here = ns.Journey and ns.Journey.Here and ns.Journey.Here()
+  local m, x, y
+  if type(here) == "string" then m, x, y = here:match("^(%d+):(%d+):(%d+)$") end
+  m, x, y = tonumber(m), tonumber(x), tonumber(y)
+  if not (m and x and y) or x > 1000 or y > 1000 or m ~= payload[3] * 256 + payload[4] then return nil end
+  local check = Strip.CRC({ math.floor(m / 256) % 256, m % 256, math.floor(x / 256), x % 256,
+    math.floor(y / 256), y % 256 }) % 4096
+  local v = x * 4194304 + y * 4096 + check            -- x * 2^22 + y * 2^12 + check: 32 bits
+  return { 0xC0 + (between and 1 or 0), math.floor(v / 16777216) % 256, math.floor(v / 65536) % 256,
+    math.floor(v / 256) % 256, v % 256 }
+end
+Strip.SpotPage = spotPage
+
+-- Whether the Willo on this PC reads where you stand from the ring (LoreForeverJourneyData.skySpot, LOR-672).
+function Strip.SpotFromWillo()
+  local data = _G.LoreForeverJourneyData
+  return type(data) == "table" and data.skySpot == true
+end
+
+-- The purse (the answer log, 10/18: "how much gold do I have in my bag?" three times, and Willo never knew): a page
+-- of kind 3 with its low 6 bits 2 (LOR-672's spot reader takes only 0 and 1), then GetMoney()'s copper, big-endian;
+-- nil when the game doesn't say. It shares the idle ring with where you stand: every PURSE_EVERY-th repaint, the
+-- first after the money changes, and every one where there's no spot (a dungeon, a flight).
+local PURSE_EVERY = 4
+local purseTurn, purseDue = 0, true
+
+function Strip.Purse()
+  local c = tonumber((try(GetMoney)))
+  if not c or c < 0 then return nil end
+  c = math.min(math.floor(c), 0xFFFFFFFF)
+  return { 0xC2, math.floor(c / 0x1000000) % 256, math.floor(c / 0x10000) % 256, math.floor(c / 0x100) % 256, c % 256 }
+end
+
+local function idlePage(payload)
+  purseTurn = (purseTurn + 1) % PURSE_EVERY
+  local purse = (purseDue or purseTurn == 0) and Strip.Purse()
+  if purse then
+    purseDue = false
+    return purse
+  end
+  return spotPage(payload) or Strip.Purse()
+end
+
+local function ringFor(payload)
+  if ring == nil then return idlePage(payload) end
+  if math.floor(ring[1] / 64) == 1 and Strip.SpotFromWillo() then
+    spotTurn = (spotTurn + 1) % SPOT_EVERY
+    if spotTurn == 0 then return spotPage(payload, true) or ring end
+  end
+  return ring
+end
+
 local function paint()
   -- Being moved with Live game info off (/lore sky): just stars to drag, no game info in them.
-  if Strip.On() then ns.Sky.Paint(Strip.Payload(), ring) else ns.Sky.Paint({}) end
+  if Strip.On() then
+    local payload = Strip.Payload()
+    ns.Sky.Paint(payload, ringFor(payload))
+  else
+    ns.Sky.Paint({})
+  end
   lastPaint, stale = now(), false
 end
 
@@ -509,6 +580,7 @@ function Strip.SetRing(bytes)
 end
 
 local function onEvent(_, event, unit)
+  if event == "PLAYER_MONEY" then purseDue = true end
   if (event == "UNIT_HEALTH" or event == "UNIT_MAXHEALTH") and unit ~= "player" and unit ~= "target" then return end
   if (event == "UNIT_LEVEL" or event == "UNIT_FACTION" or event == "UNIT_CLASSIFICATION_CHANGED")
       and unit ~= "player" and unit ~= "target" then
@@ -546,9 +618,9 @@ function Strip.OnFromWillo()
 end
 
 -- Whether Live game info is on: one switch for both apps (LOR-544). The player's own tick or untick in the add-on
--- (Options or /lore live: liveStripChosen) wins; until they make one, Willo's explained yes counts too
--- (Strip.OnFromWillo). A player who ticked it before the choice was recorded keeps it on. Defaults write liveStrip =
--- false, so that alone isn't a choice.
+-- (Options or /lore live: liveStripChosen) wins, until Willo answers again (Strip.SyncWillo); until they make one,
+-- Willo's explained yes counts too (Strip.OnFromWillo). A player who ticked it before the choice was recorded keeps
+-- it on. Defaults write liveStrip = false, so that alone isn't a choice.
 function Strip.On()
   local s = S()
   if s.liveStripChosen then return s.liveStrip == true end
@@ -599,12 +671,30 @@ function Strip.AlwaysFromWillo()
 end
 
 -- "Live game info: show it all the time": the player's tick in Options, or Willo's yes (Strip.AlwaysFromWillo) until
--- they tick or untick it here themselves (liveStripAlwaysOwn): their choice in the add-on wins. It only matters with
--- Live game info on (Strip.On), which nothing turns on but the player (10/12).
+-- they tick or untick it here themselves (liveStripAlwaysOwn): their choice in the add-on wins, until Willo answers
+-- again (Strip.SyncWillo). It only matters with Live game info on (Strip.On), which nothing turns on but the player
+-- (10/12).
 function Strip.Always()
   local s = S()
   if s.liveStripAlwaysOwn then return s.liveStripAlways == true end
   return s.liveStripAlways == true or Strip.AlwaysFromWillo()
+end
+
+-- The newer choice wins, Willo's or the player's here. A tick or untick in the add-on (liveStripChosen,
+-- liveStripAlwaysOwn) only beats Willo's answer as she gave it then: at login this remembers what she said
+-- (liveStripSeen, liveStripAlwaysSeen), and when she has said something else since, hers counts again. Without it
+-- an old untick here beat her newer yes for good, and the sky showed only while talking to her (LOR-676). For "all
+-- the time", nothing remembered counts as "no", so a player stuck that way gets it back on the first login with this.
+-- Live game info itself is the player's consent (10/12, 10/15: an untick here wins): nothing remembered starts from
+-- her answer as it is now, so only a yes she gives after this login can turn it back on.
+function Strip.SyncWillo()
+  local s = S()
+  if s.liveStripSeen == nil then s.liveStripSeen = Strip.OnFromWillo() end
+  for _, k in ipairs({ { "liveStripSeen", "liveStripChosen", Strip.OnFromWillo() },
+                       { "liveStripAlwaysSeen", "liveStripAlwaysOwn", Strip.AlwaysFromWillo() } }) do
+    local seen, own, willo = k[1], k[2], k[3]
+    if (s[seen] == true) ~= willo then s[own], s[seen] = nil, willo end
+  end
 end
 
 -- Whether the sky is on screen now: with Live game info on, only while the Lore Forever panel is open or while the

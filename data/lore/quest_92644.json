@@ -1,0 +1,104 @@
+{
+ "key": "quest:92644",
+ "type": "quest",
+ "name": "Unfortunate News",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92644
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "The recovered artifact is a damaged, glowing blue crystal recovered from a cultist, hinting at arcane or mystical practices under investigation by High Elder Shadowsong."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is unfortunate news",
+    "unfortunate news quest",
+    "unfortunate news wow forever"
+   ],
+   "answer": "\"Unfortunate News\" is a quest in WoW Forever that follows the death of a defecting cultist. After discovering the turncoat slain, you recover a mysterious glowing crystal from the corpse and report back to High Elder Shadowsong.",
+   "q": "What is the quest Unfortunate News?"
+  },
+  {
+   "aliases": [
+    "who is the dead turncoat",
+    "who died in unfortunate news",
+    "turncoat cultist"
+   ],
+   "answer": "The turncoat was a defecting cultist whom an adventurer was sent to meet or secure. However, they were killed before they could speak or escape, leaving behind only their still-warm corpse and a damaged crystal.",
+   "q": "Who was the turncoat cultist?"
+  },
+  {
+   "aliases": [
+    "who is shadowsong in valanaar",
+    "where is talanaanis shadowsong",
+    "talanaanis shadowsong"
+   ],
+   "answer": "Talanaanis Shadowsong is an elf, the High Elder located in Valanaar. He directs investigations into the cultists and receives the damaged crystal found on the turncoat's body.",
+   "q": "Who is High Elder Shadowsong?"
+  },
+  {
+   "aliases": [
+    "what is the glowing crystal",
+    "blue crystal from cultist",
+    "damaged crystal unfortunate news"
+   ],
+   "answer": "It is a small, glowing blue crystal recovered from beneath the fallen turncoat cultist. Although visibly damaged, High Elder Shadowsong finds it interesting and considers it a clue worthy of further study.",
+   "q": "What is the damaged blue crystal?"
+  },
+  {
+   "aliases": [
+    "where is valanaar",
+    "valanaar location",
+    "turn in unfortunate news"
+   ],
+   "answer": "Valanaar is the settlement or outpost where High Elder Talanaanis Shadowsong resides and where you return to deliver your report and the salvaged crystal.",
+   "q": "Where does this quest take place?"
+  },
+  {
+   "aliases": [
+    "what quest comes before unfortunate news",
+    "unfortunate news prequel",
+    "the turncoat quest"
+   ],
+   "answer": "This quest immediately follows \"The Turncoat,\" in which an adventurer sets out to find the defecting cultist, only to arrive too late to save them.",
+   "q": "How does this quest connect to The Turncoat?"
+  }
+ ],
+ "keywords": [
+  "cultist",
+  "glowing crystal",
+  "shadowsong",
+  "talanaanis shadowsong",
+  "turncoat",
+  "unfortunate news",
+  "valanaar"
+ ],
+ "related": [
+  "quest:92643"
+ ],
+ "sections": [
+  {
+   "body": "In WoW Forever, \"Unfortunate News\" recounts the grim aftermath of an attempted rendezvous with a defecting cultist. An adventurer dispatched to meet the turncoat discovers the informer already slain, their body still warm when reached. Tucked beneath the corpse is a small, glowing blue crystal\u2014damaged, yet still humming with enough presence to warrant an immediate report to High Elder Talanaanis Shadowsong in Valanaar.",
+   "spoiler": 0,
+   "title": "A Broken Rendezvous"
+  },
+  {
+   "body": "Upon returning to Valanaar alone, the adventurer delivers word that the turncoat died before any testimony could be gathered. While the loss of a live contact is a serious setback, the recovered blue crystal catches the High Elder's eye. He finds the damaged crystal interesting and takes it from you.",
+   "spoiler": 1,
+   "title": "Shadowsong's Investigation"
+  }
+ ],
+ "summary": "Unfortunate News is a quest in WoW Forever following an attempt to contact a defecting cultist. Arriving to find the informant already dead, the adventurer recovers a damaged, glowing blue crystal from the body and delivers it to High Elder Talanaanis Shadowsong in Valanaar.",
+ "attribution": [
+  "In-game quest text: Unfortunate News"
+ ]
+}

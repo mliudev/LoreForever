@@ -1,0 +1,112 @@
+{
+ "key": "quest:86667",
+ "type": "quest",
+ "name": "Snowbound",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   86667
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Norric Lochthane's reliance on minor elemental couriers and frozen reagents highlights the localized shamanic traditions and elemental studies practiced within Khaz Modan."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The exchange between Norric Lochthane and Grenhild offers a window into dwarven mentorship and elemental scholarship around the peaks and shores of Loch Modan."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "norric lochthane lore",
+    "who is norric",
+    "norric loch modan"
+   ],
+   "answer": "Norric Lochthane is an experienced shaman living in a cottage along the northwest coast of the Loch in Loch Modan. He is the former teacher of Grenhild and continues to pursue private shamanic workings. He is skilled enough with elemental magic to employ minor elementals as couriers across the wilderness.",
+   "q": "Who is Norric Lochthane?"
+  },
+  {
+   "aliases": [
+    "who is grenhild",
+    "grenhild loch modan",
+    "grenhild mentor"
+   ],
+   "answer": "Grenhild is an elemental researcher stationed in Loch Modan. Having studied magic under Norric Lochthane, she respects his craft but has dedicated her own efforts to investigating the behavior of local elementals in the field, leaving her little time to travel.",
+   "q": "Who is Grenhild?"
+  },
+  {
+   "aliases": [
+    "why does norric want snow",
+    "snow for shamanic workings",
+    "jar of snow purpose"
+   ],
+   "answer": "Norric requested the snow specifically to assist with his shamanic workings and mystical research. However, he also hoped the request would serve as an invitation for his former student, Grenhild, to come visit his home in person.",
+   "q": "Why does Norric need a jar of snow?"
+  },
+  {
+   "aliases": [
+    "where to find snow",
+    "south gate pass snow location",
+    "how to get jar of snow"
+   ],
+   "answer": "The snow is scooped up near the tunnel entrance at South Gate Pass, high in the mountains between Dun Morogh and Loch Modan. Thanks to the cold mountain elevation, snow remains there throughout the year, allowing travellers to pack it into an insulated ceramic jar.",
+   "q": "Where is the snow gathered for this quest?"
+  },
+  {
+   "aliases": [
+    "why cant grenhild go",
+    "why does grenhild need help",
+    "grenhild busy"
+   ],
+   "answer": "Grenhild is actively engaged in observing and studying the local elementals of Loch Modan. Because her field research demands continuous attention, she cannot leave her post to make the trek to South Gate Pass and down to Norric's lakeside residence.",
+   "q": "Why couldn't Grenhild deliver the snow herself?"
+  },
+  {
+   "aliases": [
+    "norric courier",
+    "elemental messenger",
+    "how did norric contact grenhild"
+   ],
+   "answer": "Rather than using an ordinary dwarven runner or post, Norric summoned and dispatched a minor elemental to deliver his message to Grenhild. This unusual courier reflects his comfort with the elemental arts and shamanic practices.",
+   "q": "How did Norric send his request to Grenhild?"
+  }
+ ],
+ "keywords": [
+  "grenhild",
+  "jar of snow",
+  "loch modan",
+  "minor elemental",
+  "norric lochthane",
+  "shamanic workings",
+  "snowbound",
+  "south gate pass",
+  "the loch"
+ ],
+ "related": [
+  "topic:shaman",
+  "subzone:the-loch",
+  "subzone:south-gate-pass"
+ ],
+ "sections": [
+  {
+   "body": "While conducting field research on the local elementals of Loch Modan, Grenhild received an unexpected courier: a minor elemental sent by her former mentor, Norric Lochthane. Norric sent word that he urgently required fresh, unmelted snow to assist in his shamanic workings. Rather than question the eccentric methods of her old teacher, Grenhild sought an adventurer to fetch the snow so she could remain focused on her elemental studies. The errand required gathering snow from South Gate Pass, where frigid drafts preserve snowdrifts year-round, and sealing it securely inside a specially crafted ceramic jar designed to insulate against the valley heat.",
+   "spoiler": 0,
+   "title": "An Unusual Request"
+  },
+  {
+   "body": "Norric Lochthane resides in a quiet cottage along the northwest coast of the Loch, pursuing his shamanic arts away from bustling settlements. When the jar of snow is delivered to his doorstep, Norric is visibly pleased to receive the cold reagent for his mystical research, yet his reaction hints at a deeper motive behind the errand. He openly laments that Grenhild did not make the journey to visit him in person. The request was not merely a matter of magical reagents, but an aging mentor's quiet hope to reconnect with a former pupil who has since embarked on her own independent path.",
+   "spoiler": 0,
+   "title": "Teacher and Pupil"
+  }
+ ],
+ "summary": "Snowbound is a local delivery quest in Loch Modan undertaken on behalf of Grenhild, who is studying local elementals. Her former mentor, Norric Lochthane, requested a jar of unmelted snow gathered from South Gate Pass for his shamanic workings. Delivering the chilly reagent reveals the enduring personal bond and quiet longing between an aging shaman and his former student.",
+ "attribution": [
+  "In-game quest text: Snowbound"
+ ]
+}

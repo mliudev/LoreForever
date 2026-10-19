@@ -1,0 +1,105 @@
+{
+ "key": "quest:98042",
+ "type": "quest",
+ "name": "It's All Fun and Games Until...",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98042
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The investigation touches directly upon night elven vigilance against ancient corruption, prompting immediate involvement from Darnassus."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance adventurers bringing troubled discoveries to night elf authorities help ensure dangerous relics are examined and contained by Darnassian scholars."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives its all fun and games until",
+    "thundris quest",
+    "who turns in its all fun and games until"
+   ],
+   "answer": "The quest is brought to and concluded with Thundris, who listens to the troubled adventurer and examines the item or evidence presented before preparing it for transport.",
+   "q": "Who is involved in completing this quest?"
+  },
+  {
+   "aliases": [
+    "why send to darnassus",
+    "darnassus study",
+    "ancient evil darnassus"
+   ],
+   "answer": "Thundris identifies the artifact or finding as bearing the mark of an ancient evil. Thundris says he will see it brought to Darnassus at once for further study, and he does not say more than that.",
+   "q": "Why is the object being sent to Darnassus?"
+  },
+  {
+   "aliases": [
+    "what is the ancient evil",
+    "mark of ancient evil meaning"
+   ],
+   "answer": "Thundris identifies the finding as bearing the mark of an ancient evil, though specific details regarding its exact origins remain guarded pending closer study in the night elven capital.",
+   "q": "What is the ancient evil referenced by Thundris?"
+  },
+  {
+   "aliases": [
+    "meaning of ande'thoras-ethil",
+    "andethoras ethil night elf phrase",
+    "darnassian farewell thundris"
+   ],
+   "answer": "'Ande'thoras-ethil' is a Darnassian phrase that Thundris speaks as he finishes talking with you, after saying the find will be taken to Darnassus.",
+   "q": "What does 'Ande'thoras-ethil' mean?"
+  },
+  {
+   "aliases": [
+    "what happens after its all fun and games until",
+    "next quest after fun and games",
+    "to darnassus followup"
+   ],
+   "answer": "Following the revelation of the ancient corruption, Thundris prepares the disturbing relic for immediate transport to Darnassus so scholars in the capital can examine it.",
+   "q": "What happens after completing the quest?"
+  },
+  {
+   "aliases": [
+    "is its all fun and games alliance only",
+    "who can do its all fun and games until"
+   ],
+   "answer": "The matter is handled through Darnassian leadership and night elf figures like Thundris, centering on threats brought before the authorities of the night elves.",
+   "q": "Which faction handles this investigation?"
+  }
+ ],
+ "keywords": [
+  "ancient evil",
+  "ande'thoras-ethil",
+  "darnassus",
+  "mark of an ancient evil",
+  "night elf",
+  "thundris"
+ ],
+ "related": [
+  "zone:darnassus"
+ ],
+ "sections": [
+  {
+   "body": "A troubling discovery leads an adventurer to Thundris, seeking counsel on an unsettling matter. Upon hearing the adventurer's report and inspecting what was brought forth, Thundris falls into a quiet contemplation, recognizing dark signs that cannot be casually dismissed.",
+   "spoiler": 0,
+   "title": "A Troubling Report"
+  },
+  {
+   "body": "Examining the matter closely, Thundris discerns the unmistakable mark of an ancient evil clinging to the discovery. Realizing the danger goes far beyond a local mishap, Thundris resolves to dispatch the relic immediately to Darnassus, entrusting it to the capital's scholars and priests for rigorous study and containment.",
+   "spoiler": 1,
+   "title": "The Mark of Ancient Evil"
+  }
+ ],
+ "summary": "It's All Fun and Games Until... is a quest concerning a deeply troubling discovery brought before Thundris. Recognizing the unmistakable mark of an ancient evil, Thundris arranges for the relic to be sent immediately to Darnassus for further study.",
+ "attribution": [
+  "In-game quest text: It's All Fun and Games Until..."
+ ]
+}

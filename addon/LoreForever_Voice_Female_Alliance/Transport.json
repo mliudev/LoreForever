@@ -29,9 +29,9 @@
     "npc:althea-ebonlocke": {
       "1": [
         {
-          "duration": 75.57224489795918,
-          "file": "Audio/Transport/full_npc_althea-ebonlocke-02d434638473e8465f25/1-0000.mp3",
-          "sha256": "863292a1b122b1c82585b6655277dacdad2146c0d41d05592f505c24876c332e",
+          "duration": 78.3934693877551,
+          "file": "Audio/Transport/full_npc_althea-ebonlocke-6c7461f22357c47a1552/1-0000.mp3",
+          "sha256": "d9463a2bd03d31231f44cfff7d2cc1fe332aed3bb77efa08fcd71abde05e124f",
           "start": 0
         }
       ],
@@ -43,12 +43,12 @@
         ]
       },
       "fullHash": "83a8ad",
-      "generation": "8cc0b9bf62648a7ec127",
+      "generation": "0490ccaa113973157a3e",
       "hash": "9ae60d",
       "source": {
-        "duration": 75.546063,
+        "duration": 78.393469,
         "file": null,
-        "sha256": "02d434638473e8465f256750270b5e4959aea3c3d44147ddba4581002a6b2ce5"
+        "sha256": "6c7461f22357c47a1552b3c86cd79ddfc793d266118c9b394ccdd4e1276ccd5c"
       },
       "text": "Althea Ebonlocke. Commander Althea Ebonlocke leads the Night Watch, the beleaguered town guard protecting Darkshire from the terrors of Duskwood. A relative of Mayor Ello Ebonlocke, she shoulders the defense of an isolated region abandoned by Stormwind's regular military. She organizes patrols, tasks adventurers with culling local horrors, and coordinates the town's survival against constant monstrous threats. While her relative, Mayor Ello Ebonlocke, handles civil governance within the town hall, Commander Althea directs Darkshire's thin line of physical defense. When Stormwind failed to deploy royal troops to guard Duskwood against creeping horrors, the citizenry formed the Night Watch. Under Althea's steady, unyielding command, these volunteers patrol the fog-shrouded roads, keeping skeletal undead, ferocious wolves, and spiders from overrunning the town perimeter. Althea is pragmatic and understands the limits of her militia. Outnumbered and continually bleeding recruits, she freely enlists passing mercenaries and travelers to thin the threats at Darkshire's doorstep. She directs campaigns against the ghouls and skeletons at the tranquil and sorrowful graveyards of the forest, while remaining vigilant against darker rumors stirring deep in the woods."
     },
@@ -81,9 +81,9 @@
     "npc:athridas-bearmantle": {
       "1": [
         {
-          "duration": 61.15265306122449,
-          "file": "Audio/Transport/full_npc_athridas-bearmantle-be7a7dec9c489f826007/1-0000.mp3",
-          "sha256": "abb4fa1320c8e631f5c46c092676817af4b064b9dfc09c352fdfd8e049a9e1d7",
+          "duration": 60.55183673469388,
+          "file": "Audio/Transport/full_npc_athridas-bearmantle-5124a22177eecb5ca451/1-0000.mp3",
+          "sha256": "074524d98eaad5c7dde924e9d32a020b4733b48a9462210f806146a45a2c8134",
           "start": 0
         }
       ],
@@ -95,12 +95,12 @@
         ]
       },
       "fullHash": "a9a383",
-      "generation": "ee21c72b7aab624e1962",
+      "generation": "13d92657323a0874e313",
       "hash": "b2434d",
       "source": {
-        "duration": 61.1265,
+        "duration": 60.551837,
         "file": null,
-        "sha256": "be7a7dec9c489f8260071da92730cd66971c59162f43e4b76e57cf22078afc08"
+        "sha256": "5124a22177eecb5ca4515170643a910455c448adf8cccc454346e2ac1e9921d7"
       },
       "text": "Athridas Bearmantle. Athridas Bearmantle is a night elf druid residing in Dolanaar within the boughs of Teldrassil. Tasked with safeguarding the local settlement, he directs young adventurers to investigate the encroaching corruption affecting the local wildlife and the nearby Gnarlpine furbolgs. Stationed within Dolanaar, Athridas Bearmantle stands as an early line of defense for the night elves emerging from Shadowglen. As the boughs of the newly grown world tree Teldrassil exhibit unnatural signs of decay and unrest, Athridas works tirelessly to coordinate local scouting efforts and protect the peaceful township from surrounding threats. Much of Athridas's concern centers on the neighboring Gnarlpine tribe of furbolgs. Once peaceful neighbors, the Gnarlpine have succumbed to a spreading madness and corruption that poisons their shamans and chieftains, driving them into violent frenzy against the Kaldorei. Athridas mobilizes willing champions to contain the threat and unearth the deeper taint taking root in the wilderness."
     },
@@ -211,9 +211,9 @@
     "npc:captain-stoutfist": {
       "1": [
         {
-          "duration": 69.40734693877552,
-          "file": "Audio/Transport/full_npc_captain-stoutfist-84a8f0b1f3274ab7e1bb/1-0000.mp3",
-          "sha256": "1612c6c98ad5ae01531c370204931e3ec3c20975996c794330081e3af1f6aa6e",
+          "duration": 70.71346938775511,
+          "file": "Audio/Transport/full_npc_captain-stoutfist-61537e940f53da9b2e86/1-0000.mp3",
+          "sha256": "43ba7bec12c3b7dd3cab4bc0f5ff303cdb4f856fc3041297b270aa5fadbd0440",
           "start": 0
         }
       ],
@@ -225,12 +225,12 @@
         ]
       },
       "fullHash": "6e313c",
-      "generation": "1bd2df29d4d62780b9b7",
+      "generation": "96a4446857177bedcd38",
       "hash": "41d02e",
       "source": {
-        "duration": 69.381188,
+        "duration": 70.713469,
         "file": null,
-        "sha256": "84a8f0b1f3274ab7e1bb8d6002f67540911e145ff9f578db53a7ff19cfe5ec66"
+        "sha256": "61537e940f53da9b2e86dcba0b40bf8b59e97a434bd1e0f803b0c00ae5d77c08"
       },
       "text": "Captain Stoutfist. Captain Stoutfist is the dwarven officer in charge of military defenses at Menethil Harbor in the Wetlands. With the Dragonmaw clan pushing aggressively out of their marshland strongholds, Stoutfist coordinates defensive maneuvers and counter-offensives to ensure the vital Alliance port does not fall. Menethil Harbor serves as the principal deepwater port connecting Ironforge and Stormwind to the marshy lowlands of the Wetlands and the sea beyond. As the town's commanding officer, Captain Stoutfist bears the heavy burden of keeping its docks, civilian populace, and garrison secure against surrounding threats. The marshlands are notoriously hazardous, but the biggest peril to the settlement is an organized surge from renegade orcs. The Dragonmaw clan, entrenched within the Wetlands since the Second War, has begun pushing their operations directly toward the roadways and passes. By infiltrating Dun Algaz, they threaten to sever the overland lifeline connecting Loch Modan and Ironforge to Menethil Harbor. Facing a severe shortage of troops, Captain Stoutfist relies on visiting Alliance volunteers recommended by Mountaineer Valstag Ironjaw to stem the tide."
     },
@@ -445,9 +445,9 @@
     "npc:duthorian-rall": {
       "1": [
         {
-          "duration": 80.16979591836736,
-          "file": "Audio/Transport/full_npc_duthorian-rall-9a4149d7e964ae7338b1/1-0000.mp3",
-          "sha256": "c3394335e7ea2e9abd3bf663e6c8259f4dcc5048aa63172e43aa19934dd14eb4",
+          "duration": 82.46857142857144,
+          "file": "Audio/Transport/full_npc_duthorian-rall-fbdb651a458c75e5a734/1-0000.mp3",
+          "sha256": "fbf20665bd80222a67be7b4e320779b5381eca0d2be7171b2f46535629e052b5",
           "start": 0
         }
       ],
@@ -459,12 +459,12 @@
         ]
       },
       "fullHash": "557a46",
-      "generation": "3c9fa982b1abd79ded56",
+      "generation": "4875a49e828188635270",
       "hash": "3eadf2",
       "source": {
-        "duration": 80.143625,
+        "duration": 82.468571,
         "file": null,
-        "sha256": "9a4149d7e964ae7338b1dada00f526e46c24bc899518bc8a4ee99c2f3f0b933a"
+        "sha256": "fbdb651a458c75e5a734c219d3397cee234931deb17cf09f507293edd71df913"
       },
       "text": "Duthorian Rall. Duthorian Rall is a respected human knight of the Silver Hand stationed within Stormwind's Cathedral of Light. Renowned as one of the most influential paladins in the Alliance, he oversees the training and spiritual trials of emerging holy warriors. He guides recruits through solemn vows of charity, valor, and devotion to defend Azeroth against the Scourge and lurking domestic threats. Standing within the vaulted transept of the Cathedral of Light, Duthorian Rall represents the venerable traditions of the Knights of the Silver Hand. With the kingdom unsettled by internal strife and the missing King Varian Wrynn, Duthorian shoulders the vital duty of instilling righteous discipline in fresh initiates. Respected paladins in the field, including Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge, direct promising recruits to his guidance to begin their sacred trials. Duthorian teaches that martial power without moral foundation is hollow. Through the Tome of Divinity, he tests a paladin's capacity for empathy, requiring acts of mercy and selfless service across Stormwind before entrusting them with deeper mysteries. His trials culminate in testing candidates with the Symbol of Life near Heroes' Vigil, sending them to aid wounded allies and teach them to channel the Light's miraculous power to restore fallen comrades from death."
     },
@@ -731,9 +731,9 @@
     "npc:grif-wildheart": {
       "1": [
         {
-          "duration": 112.19591836734695,
-          "file": "Audio/Transport/full_npc_grif-wildheart-95c3668ad2b380974348/1-0000.mp3",
-          "sha256": "c63679ab7af4da0791c5c3374198fe60a11b35f6ff8dfb297b309410e07536fc",
+          "duration": 118.90938775510205,
+          "file": "Audio/Transport/full_npc_grif-wildheart-1a1b0b4547348a09d4a0/1-0000.mp3",
+          "sha256": "76d8701db22882ee3c308926d8b115bf2fa9972f60cd84fda2f0d05e25ef4a40",
           "start": 0
         }
       ],
@@ -745,12 +745,12 @@
         ]
       },
       "fullHash": "372d83",
-      "generation": "7193f68aa9bf48f26c99",
+      "generation": "b3110e80fea89d540a96",
       "hash": "8a3f66",
       "source": {
-        "duration": 112.16975,
+        "duration": 118.909388,
         "file": null,
-        "sha256": "95c3668ad2b380974348d6d2c40e23cc13c550083dfda04fbfab7558e63b3a8b"
+        "sha256": "1a1b0b4547348a09d4a05adb11864a17fb0893bc53f4637c6ac0e4fbdef8544c"
       },
       "text": "Grif Wildheart. Grif Wildheart is a seasoned dwarven hunter trainer stationed outside the Thunderbrew Distillery in Kharanos. Renowned among the local mountaineers for his deep affinity with wildlife, he instructs budding marksmen in tracking, marksmanship, and the rites of beast taming. For young hunters emerging from Coldridge Valley, Grif provides the vital bridge between firing a rifle and walking alongside a loyal animal companion. While many Ironforge dwarves prefer the fiery warmth of a forge or the steady clink of pickaxes, Grif Wildheart has dedicated his life entirely to the frozen wilderness of Dun Morogh. Local mountaineers half-jokingly say he spends a bit too much time with four-legged beasts, but none dispute his mastery of the wild. Having spent years tracking across snowbound ridges alongside seasoned hunting companions, Grif possesses an intimate understanding of the natural predators that roam the crags. When young dwarf hunters finish their preliminary trials in Coldridge Valley, they are directed straight to Kharanos to seek Grif's guidance. While he sharpens their aim and teaches essential wilderness survival tricks, his true specialty lies in forging bonds between hunter and beast. Through a sequence of rigorous trials, Grif sends his pupils out into the freezing wastes with a taming rod to test their mettle against Dun Morogh's iconic predators: Large Crag Boars, Snow Leopards, and Ice Claw Bears. Once a hunter demonstrates the will and composure needed to calm three distinct wild beasts, Grif's tutelage in Kharanos reaches its conclusion. Recognizing that a hunter must also learn to feed, discipline, and train their new ally, he sends his graduates up the mountainside to Ironforge. There, under the great vaulted roofs of the dwarven capital, novice hunters report to master beast trainers to learn the deeper art of caring for their permanent lifelong companion."
     },
@@ -1069,9 +1069,9 @@
     "npc:lord-ello-ebonlocke": {
       "1": [
         {
-          "duration": 84.08816326530612,
-          "file": "Audio/Transport/full_npc_lord-ello-ebonlocke-3e35f16926c002da717c/1-0000.mp3",
-          "sha256": "7c0d45c7a76e26200d4d09ed80033b484eb085f8cbbb9bc2fd0cef70b550d7e8",
+          "duration": 85.1069387755102,
+          "file": "Audio/Transport/full_npc_lord-ello-ebonlocke-e54ac0dea131dc6a8c63/1-0000.mp3",
+          "sha256": "f12dd4a16a3113ff41bf3cf012d325eda0bbd009336341985ca80aaa29f160c7",
           "start": 0
         }
       ],
@@ -1083,12 +1083,12 @@
         ]
       },
       "fullHash": "dc02b6",
-      "generation": "934ead25b138c2bae2b1",
+      "generation": "dc73e8de41a37182ff06",
       "hash": "7891a4",
       "source": {
-        "duration": 84.062,
+        "duration": 85.106939,
         "file": null,
-        "sha256": "3e35f16926c002da717ce17cfb7746031abf9147e2df31c80bb6ed52a3b4e50f"
+        "sha256": "e54ac0dea131dc6a8c6362e914326f52a5c535e3af4a0cc64b4b4e221ec846b6"
       },
       "text": "Lord Ello Ebonlocke. Lord Ello Ebonlocke is the mayor of Darkshire and the leader of its governing council, stationed inside the Darkshire Town Hall. Surrounded by darkness and creeping horrors, he struggles daily to maintain order and protect his besieged citizens despite receiving little aid from Stormwind. Seated in the gloom of the Darkshire Town Hall, Lord Ello Ebonlocke bears the heavy burden of governing a settlement on the brink of ruin. Once part of the prosperous rural haven known as Grand Hamlet, Darkshire is now smothered by perpetual shadow and besieged by ravenous ghouls, skeletal abominations, and feral beasts. Ello presides over the Council of Darkshire, striving against impossible odds to keep the remnants of civilization functioning while Stormwind turns a blind eye to their plight. Because Stormwind's garrison refuses to spare soldiers for the borderlands, Darkshire relies almost entirely on local volunteer militias like the Night Watch, commanded by his relative, Althea Ebonlocke. When neighboring leaders like Magistrate Solomon of Lakeshire plead for reinforcements to combat Blackrock orcs, Lord Ebonlocke must make agonizing choices. As he solemnly explains to messengers from Redridge, Darkshire cannot spare a single blade: sending their guards beyond the forest's edge would leave their own homes to be instantly overrun by the surrounding evils."
     },
@@ -1485,9 +1485,9 @@
     "npc:rethiel-the-greenwarden": {
       "1": [
         {
-          "duration": 69.09387755102041,
-          "file": "Audio/Transport/full_npc_rethiel-the-greenwarden-a9f28361646e34d0f6b8/1-0000.mp3",
-          "sha256": "7f80a4f41ce55a770b3a39527a18da5e1b92a84531bbfbe91c5da3e02bc51540",
+          "duration": 66.63836734693878,
+          "file": "Audio/Transport/full_npc_rethiel-the-greenwarden-fc10cd7bf85ab7259254/1-0000.mp3",
+          "sha256": "0f3d51973b5587b81d698d447d186bd44a4376c8390cc4d93d125275462981b4",
           "start": 0
         }
       ],
@@ -1499,12 +1499,12 @@
         ]
       },
       "fullHash": "b32ba5",
-      "generation": "f8017dc3dc049307c135",
+      "generation": "281cd3e643dc35e0978d",
       "hash": "e402f1",
       "source": {
-        "duration": 69.12,
+        "duration": 66.638367,
         "file": null,
-        "sha256": "a9f28361646e34d0f6b8d22bdda6053d046ed2177a2f816a0160e878717e8eda"
+        "sha256": "fc10cd7bf85ab725925410062c4ceaae6dc47d71796d461c81b169a76ae8422f"
       },
       "text": "Rethiel the Greenwarden. Rethiel the Greenwarden is an ancient, sentient bog beast residing in the Green Belt within the Wetlands. Deeply attuned to the natural balance of the marsh, he watches over the land and enlists travelers to cull threats that disrupt its harmony. Standing amidst the damp thickets of the Green Belt, Rethiel is a towering creature of moss, peat, and primal plant life. While many bog beasts in the marshlands wander aimlessly as aggressive predators, Rethiel possesses a rare, conscious awareness and a sorrowful voice. He perceives the wetlands not merely as murky terrain, but as a living ecosystem that currently cries out under the weight of foreign predation and corruption. Rethiel seeks to alleviate the suffering of the Wetlands by dispatching sympathetic adventurers against its major agitators. He urges visitors to hunt down destructive Mosshide gnolls who ravage the wildlife, strip them of the crude flints they use to burn the marsh's living trees, and thin out the diseased fen creepers that fester in the marsh waters. Through these cullings, he hopes to restore peace to the wounded soil."
     },
@@ -1537,9 +1537,9 @@
     "npc:senani-thunderheart": {
       "1": [
         {
-          "duration": 68.44081632653061,
-          "file": "Audio/Transport/full_npc_senani-thunderheart-1fdff69854c199907214/1-0000.mp3",
-          "sha256": "641c114a4257b265a9f5dd12456914878d2f7d17824f64be3a475760c7b3d176",
+          "duration": 67.99673469387756,
+          "file": "Audio/Transport/full_npc_senani-thunderheart-89f231dc9c4ef11aefa0/1-0000.mp3",
+          "sha256": "9cfcda3c506d59f109ad2536b6dd0b376982031c9b11abc557c9e1625cd9a813",
           "start": 0
         }
       ],
@@ -1551,12 +1551,12 @@
         ]
       },
       "fullHash": "e1d6f1",
-      "generation": "8ad305a017f2caf53247",
+      "generation": "404f9225d8b8bd4ba8ea",
       "hash": "720529",
       "source": {
-        "duration": 68.440813,
+        "duration": 67.996735,
         "file": null,
-        "sha256": "1fdff69854c199907214baa2854dc415986a5db01c9f035566f0dbcef4611557"
+        "sha256": "89f231dc9c4ef11aefa0053491dd1d1f0efac4854534833f0c2931db057731b5"
       },
       "text": "Senani Thunderheart. Senani Thunderheart is a tauren huntress stationed at Splintertree Post in Ashenvale, just north of the Barrens. Serving the Horde, she tests the mettle of passing travelers by challenging them to pursue the fierce wild predators that roam the ancient forest. Through her trials, hunters prove their skill while thinning the deadly beasts prowling near Horde territory. Found keeping camp at Splintertree Post, Senani Thunderheart represents the hunting traditions of the tauren amid the shadowed groves of Ashenvale. Far from the open plains of Mulgore, she directs Horde adventurers to test their tracking and combat prowess against the forest's apex beasts. She views the hunt as both an honorable challenge and a necessary ritual to survive in an untamed, contested land. Senani oversees the traditional hunting trials of Ashenvale, directing hunters toward three notorious predators: the bear Ursangous, the cat Shadumbra, and the hippogryph Sharptalon. Claiming their tokens—a paw, a head, and a claw—is a rite of passage that demonstrates a hunter's respect for the land and dominion over its fiercest denizens."
     },
@@ -2213,9 +2213,9 @@
     "subzone:beggar-s-haunt": {
       "1": [
         {
-          "duration": 79.43836734693878,
-          "file": "Audio/Transport/full_subzone_beggar-s-haunt-c50dc1da79444880cced/1-0000.mp3",
-          "sha256": "efc7d7bcffed40bb6523c674d78b531794c974e951f317ce7d15b2882e02d66a",
+          "duration": 79.59510204081633,
+          "file": "Audio/Transport/full_subzone_beggar-s-haunt-629ed6b80eebe88bd6ea/1-0000.mp3",
+          "sha256": "fb4052abbcb6de8e2766f8c9ecf7c408fee8c56fcbe1c3beb9e598b4d0853725",
           "start": 0
         }
       ],
@@ -2227,12 +2227,12 @@
         ]
       },
       "fullHash": "ceea9d",
-      "generation": "0830c040e5b05298dfac",
+      "generation": "b99ec7161d2fc32af75f",
       "hash": "534809",
       "source": {
-        "duration": 79.412188,
+        "duration": 79.595102,
         "file": null,
-        "sha256": "c50dc1da79444880ccedac14f5956b946787bb0b29a8d376731cd98454c1345e"
+        "sha256": "629ed6b80eebe88bd6ea1718e83fa30792e18b35a64190d612d2791b389b4d78"
       },
       "text": "Beggar's Haunt. Beggar's Haunt is an abandoned Stormwind scout tower perched on a hillside in northeastern Duskwood, near the mountain road to Deadwind Pass. While originally built to keep watch over the kingdom's eastern borders, it has become an outpost for Forsaken infiltrators deep within Alliance territory. Perched above the foggy hills east of Manor Mistmantle, Beggar's Haunt was once an active observation post manned by the Stormwind Guard to secure the eastern approaches to the realm. As the region fell into the gloom of modern Duskwood and kingdom patrols withdrew to Darkshire, the stone tower was abandoned to the elements. Today, its commanding vantage point serves a far more sinister purpose: agents of the Forsaken, including members of the Royal Apothecary Society and Deathstalkers, use the ruined stronghold to conduct research and monitor the region under the Alliance's nose. Behind the tower, a steep, twisting path descends to a secluded pool and waterfall known as Knight's Hollow. Here lies an unmarked grave flanked by two ominous hooded stone statues resembling the guardians flanking the Dark Portal. Nearby resting plots, including the burial site of an Unknown Soldier, speak to forgotten clashes fought along this frontier long before the Forsaken moved into the watchtower."
     },
@@ -2369,9 +2369,9 @@
     "subzone:cathedral-of-light": {
       "1": [
         {
-          "duration": 80.43102040816326,
-          "file": "Audio/Transport/full_subzone_cathedral-of-light-afa40ed399292b7a4f29/1-0000.mp3",
-          "sha256": "c0f15d592258786b1272a62707f6243dd7bdccaca4a25e5466d3cea7ca124c1a",
+          "duration": 70.0865306122449,
+          "file": "Audio/Transport/full_subzone_cathedral-of-light-d486e011a8645565afe5/1-0000.mp3",
+          "sha256": "73a24749f0b86bf27e1a66a01457cac2ae1356178d4e136c5fefe94f95a7a316",
           "start": 0
         }
       ],
@@ -2383,12 +2383,12 @@
         ]
       },
       "fullHash": "08f7ed",
-      "generation": "687238d8de46192fe99b",
+      "generation": "e89889f45f739aade23e",
       "hash": "39f342",
       "source": {
-        "duration": 80.404875,
+        "duration": 70.086531,
         "file": null,
-        "sha256": "afa40ed399292b7a4f29af14942c1dcb4566b146536501a84ac0723ee66b40dc"
+        "sha256": "d486e011a8645565afe5574f3a3f568d369e55831e33f68858fa52e90ff63b4d"
       },
       "text": "Cathedral of Light. The Cathedral of Light is the spiritual heart of Stormwind City and the primary sanctuary of the Church of the Holy Light. Standing tall over Cathedral Square, it serves as the central bastion for human priesthood and the Knights of the Silver Hand. Rebuilt after its devastation during the First War under the guidance of Archbishop Alonsus Faol and then-Bishop Benedictus, the Cathedral of Light stands as a towering beacon of resilience. With the fall of Lordaeron to the Scourge during the Third War, the seat of the Church shifted south to Stormwind. Today, Archbishop Benedictus shepherds the faithful from this grand hall, providing spiritual guidance to the entire Alliance. Beyond serving as a house of prayer and healing, the cathedral acts as the primary headquarters for the remaining Knights of the Silver Hand in the southern kingdoms. High-ranking figures such as Lord Grayson Shadowbreaker and Duthorian Rall train promising squires through the sacred trials of the Tome of Valor and the Tome of Divinity. Alongside them, High Priestess Laurena guides devout acolytes in the deepest tenets of the Light, preparing holy champions to defend the realm against the rising threat of the Defias Brotherhood and the Scourge."
     },
@@ -2473,9 +2473,9 @@
     "subzone:clean-zone": {
       "1": [
         {
-          "duration": 80.3265306122449,
-          "file": "Audio/Transport/full_subzone_clean-zone-7f3dec1a0949675333da/1-0000.mp3",
-          "sha256": "5e40f78cf46f0548452ff37e6067725660bd4256440cd71bcf63adaef77ff562",
+          "duration": 85.4465306122449,
+          "file": "Audio/Transport/full_subzone_clean-zone-39e980e0039f0c92f33c/1-0000.mp3",
+          "sha256": "1115de0c52884b4ac1177bd5b1743c1a43d51f49972f78d32c950690b84de20f",
           "start": 0
         }
       ],
@@ -2487,12 +2487,12 @@
         ]
       },
       "fullHash": "601284",
-      "generation": "ec7c39d85190e83c1405",
+      "generation": "c5ecb177606a39523090",
       "hash": "eb67fa",
       "source": {
-        "duration": 80.300375,
+        "duration": 85.446531,
         "file": null,
-        "sha256": "7f3dec1a0949675333da6b50689ac1356af0e5ba5ca7a28af5811cf9f0d816fc"
+        "sha256": "39e980e0039f0c92f33cbd5ca5ad09d59d11535ac20c94bf67e3897474be0934"
       },
       "text": "Clean Zone. The Clean Zone is a fortified, decontamination enclave nestled inside the ruined city of Gnomeregan just past the upper Hall of Gears. It serves as the sole safe haven within the irradiated facility where uncorrupted gnomish forces hold ground against surrounding troggs and leper gnomes. Here, field medics, technicians, and specialized Sparklematic machines offer respite and salvage operations amid the radioactive ruins. While most of Gnomeregan succumbed to Mekkatorque's disastrous venting of radioactive waste, the Clean Zone remains untainted. Positioned strategically between the trogg-infested Dormitory below and the contested corridors of the Hall of Gears above, it acts as a fortified forward base. Resolute gnome defenders, technicians, and field medics hold the barricades day and night, ensuring Alliance expeditions have a stable staging ground to regroup, mend wounds, and maintain machinery. Beyond serving as a military redoubt, the Clean Zone is a hub for salvaging the lost capital. Gnomish engineers installed Sparklematic 5200 units to chemically scrub and wash grime-encrusted relics hauled out of the city's radioactive underbelly. Technicians and merchants like Tink Sprocketwhistle process these reclaimed gears and baubles, outfitting adventurers while studying the lingering toxic fallout that plagues the deep tunnels."
     },
@@ -2603,9 +2603,9 @@
     "subzone:cragpool-lake": {
       "1": [
         {
-          "duration": 33.436734693877554,
-          "file": "Audio/Transport/full_subzone_cragpool-lake-23b2f93ff5252609d189/1-0000.mp3",
-          "sha256": "6906609c39d7cffe733fd1e9e0e18067346154897053e82cb9411b08a69cfd4a",
+          "duration": 31.686530612244898,
+          "file": "Audio/Transport/full_subzone_cragpool-lake-19f649f6f6f8af992097/1-0000.mp3",
+          "sha256": "b13a46c1aac0ad07be6efd2a8a3b6b302046d682f13f25fd2d5f9a8f38880dfa",
           "start": 0
         }
       ],
@@ -2617,12 +2617,12 @@
         ]
       },
       "fullHash": "20297c",
-      "generation": "1ac22d6853d7c8883520",
+      "generation": "b1b4d9fe2682d62d75aa",
       "hash": "b9f011",
       "source": {
-        "duration": 33.410563,
+        "duration": 31.686531,
         "file": null,
-        "sha256": "23b2f93ff5252609d189c4f1ae2df970dbacd349e770c0946fc3df0a7f0001b2"
+        "sha256": "19f649f6f6f8af99209771c7d834f85663b449573b0bfe228f0935ef7b1278b8"
       },
       "text": "Cragpool Lake. Cragpool Lake is a body of water tucked inside Windshear Crag in the Stonetalon Mountains. Looming above its dark waters sits a massive timber structure erected by the Venture Company. Nestled within Windshear Crag, Cragpool Lake lies directly beneath the towering logging apparatus built by the Venture Company. An enormous wooden structure spans above the water, serving as the vantage point from which Gerenzo Wrenchwhistle oversees operations across the mountain valley. Venture Company workers occupy the platforms overhead."
     },
@@ -2759,9 +2759,9 @@
     "subzone:demon-fall-ridge": {
       "1": [
         {
-          "duration": 67.73551020408163,
-          "file": "Audio/Transport/full_subzone_demon-fall-ridge-bbc5f08029d6218ad042/1-0000.mp3",
-          "sha256": "e6c23ac9653db8ef4c1b5ea24546117930561886593b1f1767670827ee781555",
+          "duration": 68.23183673469389,
+          "file": "Audio/Transport/full_subzone_demon-fall-ridge-953e7251a9e1f772a1a0/1-0000.mp3",
+          "sha256": "6078f7abb209cdd8247fe2ae111af9f1173d94c77cd3b9ba2797962698685be9",
           "start": 0
         }
       ],
@@ -2773,12 +2773,12 @@
         ]
       },
       "fullHash": "66ada5",
-      "generation": "a8f8d5cc3a2fa38b8763",
+      "generation": "e39ef657e3752428d642",
       "hash": "e9a7af",
       "source": {
-        "duration": 67.709375,
+        "duration": 68.231837,
         "file": null,
-        "sha256": "bbc5f08029d6218ad0423b727a99b7fc0ad81c2b44cbfccc958c26af64c8caf0"
+        "sha256": "953e7251a9e1f772a1a00cabf75a1571a9a268fa7f91d56b08acf6f9e5a86b3c"
       },
       "text": "Demon Fall Ridge. Demon Fall Ridge is a blighted highland in south-eastern Ashenvale, overlooking the canyon where Mannoroth fell. Swarming with lesser demons and corrupting magic, the ridge centers around a desecrated night elf barrow den claimed by the Burning Legion. Rising directly west and above Demon Fall Canyon, Demon Fall Ridge is stained with lingering fel residue from the Third War. While the canyon below marks the site of the catastrophic clash between Grommash Hellscream and the pit lord Mannoroth, this high ground serves as a staging area for surviving demonic invaders. Lesser demons patrol the rocky cliffs, defiling the ancient woodland and threatening any travelers traversing the southern border of Ashenvale. Carved into the side of the ridge rests an abandoned night elf barrow den, hollowed out and converted into a stronghold of dark sorcery. Rather than slumbering druids, the subterranean passages teem with fel fiends. Deep in the subterranean depths lurks Diathorus the Seeker, a cunning dreadlord who rules over this conclave, directing the remaining demonic remnants throughout the forest."
     },
@@ -2863,9 +2863,9 @@
     "subzone:dun-garok": {
       "1": [
         {
-          "duration": 76.27755102040817,
-          "file": "Audio/Transport/full_subzone_dun-garok-3abf3a0a81c5f7449461/1-0000.mp3",
-          "sha256": "6af8269530e6128a733f89064c1d33cb8443f9c055513723cc37d29ee2e0a4ff",
+          "duration": 75.67673469387755,
+          "file": "Audio/Transport/full_subzone_dun-garok-15387d99afdebaffd258/1-0000.mp3",
+          "sha256": "0e438a0880a6ddee4692ea75470acd46b8b8f1fef68e0e4c1aeec41821a3ea13",
           "start": 0
         }
       ],
@@ -2877,12 +2877,12 @@
         ]
       },
       "fullHash": "cc52c2",
-      "generation": "bb65599e70945cddf36c",
+      "generation": "00cee8f462cfb5dc235e",
       "hash": "53341e",
       "source": {
-        "duration": 76.251375,
+        "duration": 75.676735,
         "file": null,
-        "sha256": "3abf3a0a81c5f744946172d6d5388ce27ba4e4154c80af13142c7141022e042a"
+        "sha256": "15387d99afdebaffd258a5deea515f14fd6f1c28bbfb88732a65b575de6d0348"
       },
       "text": "Dun Garok. Dun Garok is a fortified dwarven mountain bastion situated in the southeastern heights of the Hillsbrad Foothills. Commanded by Captain Ironhill, the outpost's stalwart garrison defends regional Alliance interests and nearby operations like the Azurelode Mine against hostile encroachment. To the Forsaken of Tarren Mill, this entrenched dwarven stronghold stands as a constant military threat bordering their domain. Carved into the craggy southeastern hills of Hillsbrad Foothills, Dun Garok stands as a heavily defended redoubt of Ironforge mountaineers and riflemen. Commanded by Captain Ironhill, the dwarves here maintain a critical defensive perimeter, shielding human settlements in Hillsbrad and securing vital operations at the Azurelode Mine. Their sturdy stone architecture and deep entrenchments provide the Alliance with an anchor against nearby threats. Because of its close proximity to Tarren Mill, Dun Garok is viewed by the Forsaken as an intolerable intrusion on their southern border. Sylvanas Windrunner's forces loathe the presence of heavily armed dwarven troops so close to their stronghold, routinely plotting to infiltrate the fortress, break its defenses, and eliminate Captain Ironhill's garrison to secure Forsaken dominion over Hillsbrad."
     },
@@ -2915,9 +2915,9 @@
     "subzone:durnholde-keep": {
       "1": [
         {
-          "duration": 87.40571428571428,
-          "file": "Audio/Transport/full_subzone_durnholde-keep-73fb7990eedb7933b3eb/1-0000.mp3",
-          "sha256": "3747f6ff5f2dc160642584018e5c86b0c83bec6ec39bc8f6afff6ee6c0265db7",
+          "duration": 90.61877551020409,
+          "file": "Audio/Transport/full_subzone_durnholde-keep-069818c6a5b33cb3a013/1-0000.mp3",
+          "sha256": "3cf784e749577f980956a41b2bfb725123ef19750f9cff6e3ea9cb2b18ac2cc7",
           "start": 0
         }
       ],
@@ -2929,12 +2929,12 @@
         ]
       },
       "fullHash": "e2bf92",
-      "generation": "f60c0d61efe817d69946",
+      "generation": "807e47af40238ff74a76",
       "hash": "e5a6ac",
       "source": {
-        "duration": 87.379563,
+        "duration": 90.618776,
         "file": null,
-        "sha256": "73fb7990eedb7933b3eb0094a8f21a09b11858ce5bb1edb6abec4e568ff1bbe2"
+        "sha256": "069818c6a5b33cb3a013d1349e0604e0518c76f7fa94ab0f4ac9b564fd45bf23"
       },
       "text": "Durnholde Keep. Durnholde Keep is a shattered fortress situated east of Tarren Mill in the Hillsbrad Foothills. Once the nerve center of the Alliance's orc internment camps and the place where Warchief Thrall was raised as a captive gladiator, it now lies in ruin, occupied by outlaws of the Syndicate. Built by the Alliance, Durnholde served as the headquarters overseeing the southern internment camps following the Second War. Commanded by the ambitious and corrupt Lieutenant General Aedelas Blackmoore, it functioned as both an administrative fortress and a gladiatorial arena. It was here that Blackmoore raised the orphaned infant Go'el, naming him Thrall and training him to fight for sport and profit. Aided by Taretha Foxton, Thrall escaped captivity and later united the dispersed orc clans under the banner of the new Horde. Returning to Durnholde, Thrall laid siege to the fortress, slew Blackmoore, and called upon the earth spirits to shatter its walls. Since its collapse prior to the Third War, Durnholde Keep has remained a scarred heap of masonry. In the vacuum left by Lordaeron's fall, the aristocratic bandits of the Syndicate took refuge among the ramparts. Operating out of the broken bailey and towers, these dispossessed Alterac nobles and cutthroats prey upon travelers across the Hillsbrad Foothills, turning a former instrument of martial law into a heavily fortified rogue outpost."
     },
@@ -2967,9 +2967,9 @@
     "subzone:dwarven-district": {
       "1": [
         {
-          "duration": 60.13387755102041,
-          "file": "Audio/Transport/full_subzone_dwarven-district-7f67911c84f00e09f703/1-0000.mp3",
-          "sha256": "fea51dde6f7c4b16c2d1fe0fc3dfaae1b5faf3b9d3cf4ce13f6c366bee45b740",
+          "duration": 45.29632653061225,
+          "file": "Audio/Transport/full_subzone_dwarven-district-0a0690f479868a1cd609/1-0000.mp3",
+          "sha256": "17ab1747a72e5627bd59b4f65011af70ce3435b765877361d3df718dcd4cefbb",
           "start": 0
         }
       ],
@@ -2981,12 +2981,12 @@
         ]
       },
       "fullHash": "3e08a4",
-      "generation": "5b2162eb27b1c7da6e88",
+      "generation": "b80ca3f11db580908a93",
       "hash": "55fdc5",
       "source": {
-        "duration": 60.10775,
+        "duration": 45.296327,
         "file": null,
-        "sha256": "7f67911c84f00e09f703b65c1f1117dd0ec1cb168518b308223f78251eef61d8"
+        "sha256": "0a0690f479868a1cd6091af127a0fb4f281161b34969d233d4ba413b7b9cd97f"
       },
       "text": "Dwarven District. Tucked into the northern corner of Stormwind City, the Dwarven District is a bustling industrial enclave filled with roaring furnaces, ringing anvils, and thick smog. Home to many of the city's dwarven craftsmen, it serves as the beating mechanical heart of the city. The northern quarter of Stormwind is home to the city's dwarven artisans, smiths, and engineers and their trades. The district retains the unmistakable character of Ironforge, dominated by heavy stone masonry, sprawling smelting operations, and bustling craft shops. Shops such as Potts' Plates provide a familiar haven for craftspeople from Khaz Modan. It also houses the Stormwind portal to the Deeprun Tram, tethering the human capital directly to Ironforge."
     },
@@ -3149,9 +3149,9 @@
     "subzone:fel-rock": {
       "1": [
         {
-          "duration": 66.87346938775511,
-          "file": "Audio/Transport/full_subzone_fel-rock-6dc62dc3bdca0e11c844/1-0000.mp3",
-          "sha256": "ac5efe54dbdcde6c8d844e49501339d9efae9964e8db1c6b3f8ad3416d24045c",
+          "duration": 64.54857142857144,
+          "file": "Audio/Transport/full_subzone_fel-rock-cc7e7301b87bab665975/1-0000.mp3",
+          "sha256": "36455c9c1068cd6beff13d1e29d43a31ad03c7f02c470ac95dfd894eae88b924",
           "start": 0
         }
       ],
@@ -3163,12 +3163,12 @@
         ]
       },
       "fullHash": "b574cf",
-      "generation": "8e70faad863b627e3f84",
+      "generation": "e4608f56385b62cb7b5b",
       "hash": "2d904e",
       "source": {
-        "duration": 66.847313,
+        "duration": 64.548571,
         "file": null,
-        "sha256": "6dc62dc3bdca0e11c84490d0ca33f315a3e74b6845a78106e8c9e5289ef45045"
+        "sha256": "cc7e7301b87bab6659751eae776dcadf208728226df4bfe6f9d4ac885d3d70bd"
       },
       "text": "Fel Rock. Fel Rock is a blighted cavern hidden within the woods just north of Dolanaar on the boughs of Teldrassil. Once a tranquil hollow, it has fallen into corruption under the influence of the satyr Lord Melenas and his horde of vicious grells. Tucked away in the forested hills north of Dolanaar, Fel Rock was once an ordinary, peaceful cavern carved into the wood and stone of Teldrassil. Today, it stands as an unsettling reminder of the creeping taint encroaching on the world tree. Twisted roots and unnatural shadows dominate the cavern interior, overrun by swarms of wild grells and grellkin. The corruption within Fel Rock stems from the presence of Lord Melenas, a wicked satyr who has claimed the hollow as a stronghold. From deep within the cave, he orchestrates the spread of malevolent corruption right under the watchful gaze of the night elf sentinels. Druids from Dolanaar, particularly Tallonkai Swiftroot, actively enlist capable defenders to cleanse the cave and slay Melenas before his foul blight can spread further into the surrounding woodlands."
     },
@@ -3461,9 +3461,9 @@
     "subzone:great-forge": {
       "1": [
         {
-          "duration": 67.84,
-          "file": "Audio/Transport/full_subzone_great-forge-c77f001e289af1264775/1-0000.mp3",
-          "sha256": "64dd5e0858a1714f768dd04e7c473890e66f6e76eb15beafdb60c6850cfed717",
+          "duration": 64.47020408163266,
+          "file": "Audio/Transport/full_subzone_great-forge-fbf6071944dbb8665d87/1-0000.mp3",
+          "sha256": "e9c8c2f9bb71f12249bf11fbf27677ac5a6cc52915fe523252b8b47bd6e6a299",
           "start": 0
         }
       ],
@@ -3475,21 +3475,21 @@
         ]
       },
       "fullHash": "c25726",
-      "generation": "212ee2f98a2c1274a0bd",
+      "generation": "96c4bbe176e8687ea775",
       "hash": "7d64f8",
       "source": {
-        "duration": 67.813875,
+        "duration": 64.470204,
         "file": null,
-        "sha256": "c77f001e289af1264775a259f469b812d26150e8692003cfba58d642f5b7eb24"
+        "sha256": "fbf6071944dbb8665d87597977e9ded3cc9449386a9258cbe71aae00a29882f8"
       },
       "text": "Great Forge. The Great Forge is the fiery heart and namesake of the dwarven capital of Ironforge. Situated at the very center of the city, its massive furnaces and famed Great Anvil never rest, producing legendary armaments and serving as the bustling center of civic life. The Great Forge was the very first structure built by the early dwarves beneath Ironforge Mountain, and the grand capital grew in concentric rings around it. Molten stone and slag pour constantly from giant foundries into glowing channels, illuminating the cavern with an amber haze. At its center stands the massive Great Anvil, overseen by Master of the Forge Myolor Sunderfury. Renowned masters of metalwork gather around its rim, hammering out armor, tools, and weapons day and night. Beyond its smithing operations, the Great Forge is the bustling crossroads of the entire mountain city. Ringed with guild offices, supply shops, and the city's primary gryphon roost maintained by Gryth Thurden, travelers from every corner of the Alliance mingle amid the clatter of hammers."
     },
     "subzone:great-lift": {
       "1": [
         {
-          "duration": 79.22938775510204,
-          "file": "Audio/Transport/full_subzone_great-lift-bcbf8c1caa67364afaa1/1-0000.mp3",
-          "sha256": "5489af83ca845971c7f147b9040a9ce1802a6e46dd93c6c23b8bc02510498c20",
+          "duration": 79.41224489795918,
+          "file": "Audio/Transport/full_subzone_great-lift-4102ab6b8010eb0a5780/1-0000.mp3",
+          "sha256": "1ec8f0e11819f2361fb0e14f7cb4be82330ee7f6e4a70aeab588644bc86a6354",
           "start": 0
         }
       ],
@@ -3501,12 +3501,12 @@
         ]
       },
       "fullHash": "aaa58f",
-      "generation": "374377f7b1160408b407",
+      "generation": "a3b756f5d15a58571532",
       "hash": "0d098a",
       "source": {
-        "duration": 79.20325,
+        "duration": 79.412245,
         "file": null,
-        "sha256": "bcbf8c1caa67364afaa16794a39778e605105bf61281dfe06885528354a1950d"
+        "sha256": "4102ab6b8010eb0a5780eff98cfaf9e3d219b60efd446173c1ffcf252614e6d1"
       },
       "text": "Great Lift. The Great Lift is a massive, tauren-engineered elevator system perched on the southern edge of the Barrens. It serves as the primary route lowering travelers and supplies hundreds of feet into the sheer canyon basin of Thousand Needles. Despite its strategic value, aggressive quilboar encroaching through the southern wastes have made approaching the rim increasingly perilous. Spanning the sheer cliff edge between the southern Barrens and the canyon floor of Thousand Needles, the Great Lift stands as a marvel of practical tauren construction. Built using heavy timber, braided rope, and counterweighted pulleys, its paired platforms carry caravans, couriers, and warriors safely across a vertical precipice that would otherwise break any wagon. At the top and bottom platforms, tauren like Brave Moonhorn and Grish Longrunner maintain watch, keeping travelers informed of the road ahead and ensuring cargo passes smoothly. Operating the lift has become increasingly hazardous due to the hostile territory above it. Aggressive quilboar tribes in the southern Barrens have expanded aggressively southward, choking the road toward the lift and threatening to cut off Thousand Needles from the northern trails entirely. Those who make the long journey south must constantly fend off razorfen raiders before they can ever step foot onto the wooden platforms."
     },
@@ -3539,9 +3539,9 @@
     "subzone:greenpaw-village": {
       "1": [
         {
-          "duration": 79.04653061224491,
-          "file": "Audio/Transport/full_subzone_greenpaw-village-e763a95256d454fd8042/1-0000.mp3",
-          "sha256": "88c1627fb951eaaddf750efbb561bbd2451ca9a8890fac3fa6b744deee0f5654",
+          "duration": 76.87836734693877,
+          "file": "Audio/Transport/full_subzone_greenpaw-village-b5feecdf9ea27d867aa4/1-0000.mp3",
+          "sha256": "f9722331532102b0f6450e5a708527e5df3bafaa5e60e2655684deb46b36c88b",
           "start": 0
         }
       ],
@@ -3553,12 +3553,12 @@
         ]
       },
       "fullHash": "fd5b37",
-      "generation": "9d0bf038827f6d063be7",
+      "generation": "7261a9691cd5cbc2a099",
       "hash": "dfe18e",
       "source": {
-        "duration": 79.020375,
+        "duration": 76.878367,
         "file": null,
-        "sha256": "e763a95256d454fd80425cd705ae868e1dc43e7ecd6623c893497ca66e677014"
+        "sha256": "b5feecdf9ea27d867aa4bcad297bfaf81f938cbe2ff2b9bd09d13e3171c337fa"
       },
       "text": "Greenpaw Village. Greenpaw Village is a furbolg settlement nestled in central Ashenvale, situated between Raynewood Retreat and Silverwind Refuge. It serves as the primary home of the Foulweald tribe, led by Chief Murgut and the shaman Oakpaw. Gripped by demonic corruption and embattled by outside forces, the village is an active conflict point for both Alliance and Horde travelers. Situated south of Raynewood Retreat and northeast of Silverwind Refuge, Greenpaw Village was once a quiet home for the forest's ursine denizens. In the wake of the Third War, its resident furbolgs—the Foulweald tribe—succumbed to the insidious corruption tainting Ashenvale's soil and spirits. Under the dominion of Chief Murgut and their corrupted spiritual guide, Shaman Oakpaw, the Foulweald have become hostile and unstable, attacking any travelers who stray into their forest territory. Because of their relentless aggression and proximity to major roadways, Greenpaw Village draws hostility from every side. Alliance sentinels and night elf druids seek to purge the mad furbolgs to protect their nearby outposts and sacred moonwells. Simultaneously, Horde forces advancing into Ashenvale have fought bloody skirmishes against the Foulweald as both factions push through the ancient woodland."
     },
@@ -3773,9 +3773,9 @@
     "subzone:high-seat": {
       "1": [
         {
-          "duration": 76.59102040816327,
-          "file": "Audio/Transport/full_subzone_high-seat-13aef33305e3f889a35e/1-0000.mp3",
-          "sha256": "814bf0c9d342f11aca7950b1fefcbbe5cc591ffbf371e2c40e97f36582fd7d05",
+          "duration": 79.51673469387755,
+          "file": "Audio/Transport/full_subzone_high-seat-8194426e4425e796a2b7/1-0000.mp3",
+          "sha256": "92220ebfa008a433a31bf60ce465e34a1f856e7f90805c169833bb81afb40b2f",
           "start": 0
         }
       ],
@@ -3787,12 +3787,12 @@
         ]
       },
       "fullHash": "bfc556",
-      "generation": "53f1257a407bd6065ab7",
+      "generation": "af69baa91f0d5e4e9861",
       "hash": "736ded",
       "source": {
-        "duration": 76.564875,
+        "duration": 79.516735,
         "file": null,
-        "sha256": "13aef33305e3f889a35eb887e96af40284d453550c98008b57e5c8ed2a87d3df"
+        "sha256": "8194426e4425e796a2b790ffaec6541c4476bedf91f3f3941c6dbdf5557c35c6"
       },
       "text": "High Seat. The High Seat is the grand throne room of Ironforge, situated between the Commons and the Great Forge. From this elevated chamber, King Magni Bronzebeard presides over the dwarven realm alongside his royal advisors and historians. The room also houses the sealed passageway leading down into the ancient depths of Old Ironforge. Overlooking the vibrant bustling rings of Ironforge, the High Seat serves as the royal seat of power for the kingdom of Khaz Modan. Within this vaulted chamber, King Magni Bronzebeard hears petitioners, holds council with his advisors, and directs the defense of the Alliance's northern bastions. Flanked by royal dignitaries such as Royal Historian Archesonus and Senator Barin Redstone, the High Seat remains a symbol of unyielding Bronzebeard authority and dwarven resilience amid troubling times across Azeroth. Behind the majestic stone appointments of the throne room lies a heavy doorway leading into the shadowy expanse of Old Ironforge. These lower ruins represent the original, ancestral halls carved out by the dwarves before the city was reconfigured around the Great Forge. Guarded and sealed to general traffic, the portal reminds visitors of the vast antiquity and cavernous history resting beneath the modern capital's stones."
     },
@@ -3825,9 +3825,9 @@
     "subzone:iceflow-lake": {
       "1": [
         {
-          "duration": 52.27102040816327,
-          "file": "Audio/Transport/full_subzone_iceflow-lake-0c50d0da5bf7b89febd4/1-0000.mp3",
-          "sha256": "eb3077cbfeff7e6ec8e5c97dde0927ebb72cb141dbe189b24d9f82685ccb873c",
+          "duration": 56.08489795918368,
+          "file": "Audio/Transport/full_subzone_iceflow-lake-8094f4b2b2980a4b1203/1-0000.mp3",
+          "sha256": "ded51b1dcf199894b511e3fb5d3f4ceddc09fd72368583fe1f9e9dcc24514321",
           "start": 0
         }
       ],
@@ -3839,21 +3839,21 @@
         ]
       },
       "fullHash": "65d9ec",
-      "generation": "ba1717a5f4f0dea597e5",
+      "generation": "835f451739d3fdf1e8d4",
       "hash": "bdc55f",
       "source": {
-        "duration": 52.244875,
+        "duration": 56.11102,
         "file": null,
-        "sha256": "0c50d0da5bf7b89febd43caef3cb56a732981eb49199eef735dd0cadfb18a613"
+        "sha256": "8094f4b2b2980a4b1203104faa9ce633f8ab05ab3a8fa4e131d3714c133ac578"
       },
       "text": "Iceflow Lake. Iceflow Lake is a frigid, partially frozen body of water situated in western Dun Morogh, directly north of Brewnall Village. Despite the relentless frost, local dwarves maintain fishing holes through the sheet ice to secure fresh water and fish. The snow-covered islands in the center of the lake are prowled by aggressive winter wolves and their alpha, Timber. Spanning western Dun Morogh just outside Brewnall Village, Iceflow Lake battles the bitter Khaz Modan climate year-round. Thick ice sheets continually creep across the surface, forcing local residents like Paxton Ganter to regularly clear holes for ice fishing and drinking water. While the shore provides sustenance, the islands rising from the middle of the lake are far less welcoming. A fierce pack of wild wolves has made these icy mounds their territory, dominated by the notoriously savage gray worg known as Timber."
     },
     "subzone:iris-lake": {
       "1": [
         {
-          "duration": 68.93714285714286,
-          "file": "Audio/Transport/full_subzone_iris-lake-7da8bd98db7433777963/1-0000.mp3",
-          "sha256": "e1b7db7b29ea49c5514a1368506f67ae3c7358640d6a108720d65b0a54eff5cf",
+          "duration": 67.89224489795919,
+          "file": "Audio/Transport/full_subzone_iris-lake-a669c973311bae05184c/1-0000.mp3",
+          "sha256": "f40dc5f02497270128c6ca5dbfc582098e7ae428429b8aa843c0206284ad11d1",
           "start": 0
         }
       ],
@@ -3865,12 +3865,12 @@
         ]
       },
       "fullHash": "056396",
-      "generation": "534c573452484df8b0ec",
+      "generation": "73aa51ae50213cfabda1",
       "hash": "841e73",
       "source": {
-        "duration": 68.911,
+        "duration": 67.892245,
         "file": null,
-        "sha256": "7da8bd98db7433777963206bd2a8332f3a765cbacc5f6929642155cbbe24dd01"
+        "sha256": "a669c973311bae05184cc103b5ed2e2c5f91edb0372c6d7c253a78094358a7d6"
       },
       "text": "Iris Lake. Iris Lake is a blighted body of water resting in north-central Ashenvale, east of Astranaar. Once pristine, its waters have turned a sickly yellowish-green from demonic corruption seeping down from Felwood, and hostile bog beasts now prowl its shores. Nestled between Astranaar and the moonwell tended by Shael'dryn, Iris Lake stands as a grim reminder of the wounds inflicted during the Third War. Fel energies drifting south from the tainted heights of Felwood have poisoned the basin, turning its once-clear waters into a foul, sickly yellow-green mire. The corruption has twisted the native plant life and water spirits, raising aggressive bog beasts that lash out at any traveler who wanders near. Despite the severe pollution choking the lake, sacred remnants of the past still linger along its edges. Rare crystalline stones known as Elune's Tears can sometimes be found resting along the muddy banks. Keepers of elven traditions, such as Shael'dryn, seek these holy stones to aid in purifying tainted moonwells and resisting the spreading demonic blight across Ashenvale."
     },
@@ -3903,9 +3903,9 @@
     "subzone:ironband-s-excavation-site": {
       "1": [
         {
-          "duration": 69.01551020408164,
-          "file": "Audio/Transport/full_subzone_ironband-s-excavation-site-6d5fcd94b2e962d8dd9f/1-0000.mp3",
-          "sha256": "03f906780ab8581322f7d400708a03fb754c1cc84b5836bd4fcf58ec9980905b",
+          "duration": 72.22857142857143,
+          "file": "Audio/Transport/full_subzone_ironband-s-excavation-site-77f5843f6f3bc7f42a91/1-0000.mp3",
+          "sha256": "557276d596cc371180a098c838ff553d15771a332f1219fb3977d8f5ec13f178",
           "start": 0
         }
       ],
@@ -3917,21 +3917,21 @@
         ]
       },
       "fullHash": "57f23b",
-      "generation": "a1be7e19ccc5464c8d49",
+      "generation": "9e8c7f4049695319ff14",
       "hash": "f20f66",
       "source": {
-        "duration": 68.989375,
+        "duration": 72.254694,
         "file": null,
-        "sha256": "6d5fcd94b2e962d8dd9fe9c86bbbbe5e4083c6643b9ec2901f9b12ea8b4f28ef"
+        "sha256": "77f5843f6f3bc7f42a917f2067413a5f35b7b509ca1cb3eed07c62d5d837d980"
       },
       "text": "Ironband's Excavation Site. Ironband's Excavation Site is an expansive dwarven dig located in southeastern Loch Modan, just south of the lake and southwest of Farstrider Lodge. Led by Prospector Ironband, the archaeological operation was abruptly halted when aggressive, volatile troggs overran the trenches. Spurred by the dwarven drive to uncover their ancient Titan origins, Prospector Ironband established this sprawling digsite along the rugged cliffs of southeastern Loch Modan. What began as a promising excavation quickly turned into a disaster when the digging disturbed an unusually fierce and large breed of subterranean troggs. The creatures surged from the earth, driving back the miners and setting up camp amidst the scattered tools, broken carts, and half-excavated relics. Much like archaeological efforts in the Badlands, Wetlands, and Uldaman, the site sits in dangerous limbo. Surviving prospectors cling to the edges of the perimeter, desperate to reclaim their stolen gear and protect exposed artifacts—including strange ancient statues left behind by long-forgotten builders—from being smashed or carried off by the ravenous trogg infestation."
     },
     "subzone:ironforge-airfield": {
       "1": [
         {
-          "duration": 70.06040816326531,
-          "file": "Audio/Transport/full_subzone_ironforge-airfield-aac91398aa3a3a668db6/1-0000.mp3",
-          "sha256": "845b568f77c74ab396d7d881cfe13f882bbd457d03a3c453855d7a8eaedd9b92",
+          "duration": 70.66122448979593,
+          "file": "Audio/Transport/full_subzone_ironforge-airfield-2781d1505dfd6b4fd263/1-0000.mp3",
+          "sha256": "7204a39e6b6a4af95bd510b2a51e7464748b1350496d35e4f6988d8b3c020233",
           "start": 0
         }
       ],
@@ -3943,12 +3943,12 @@
         ]
       },
       "fullHash": "d67a5b",
-      "generation": "71b2dfbef907185e498c",
+      "generation": "ee609796253e316ede45",
       "hash": "ba9b56",
       "source": {
-        "duration": 70.03425,
+        "duration": 70.661224,
         "file": null,
-        "sha256": "aac91398aa3a3a668db67864d52c567d5a859e01b8e7601c35b90394ef27b999"
+        "sha256": "2781d1505dfd6b4fd26360a55c659c4cb8af11136d5f64159ee16ba4bc267903"
       },
       "text": "Ironforge Airfield. Tucked away high in the snowy peaks northeast of Ironforge, this remote dwarven airstrip serves as a proving ground and staging area for gnome flying machines and dwarven mountaineers. Unmarked by main roads, the plateau overlooks the jagged crags of Dun Morogh and the steep descent toward the Wetlands. Perched far above the beaten trails of Dun Morogh, the high-altitude airfield is a quiet marvel of Alliance cooperation. Sheltered by surrounding mountain peaks, dwarven masonry anchors the blustery ridgelines while gnomish flying machines sit parked along open landing strips. Mountaineers keep watch over the perimeter alongside engineers busy wrenching gears and inspecting steam-belching engines in the biting cold. Despite its isolation, the airfield is far from serene. The surrounding valley features frozen waters and crags contested by Frostmane trolls, who dwell in nearby caves and constantly harass the dwarven sentries. In the shadow of the peaks, dwarven defenders and Stormpike patrols clash regularly with troll raiders across the ice, keeping the remote installation in a state of quiet, vigilant standoff."
     },
@@ -4319,9 +4319,9 @@
     "subzone:lordamere-lake": {
       "1": [
         {
-          "duration": 89.65224489795919,
-          "file": "Audio/Transport/full_subzone_lordamere-lake-57505d68ab2fa281c3e9/1-0000.mp3",
-          "sha256": "f57689972c5a1a8db597156e2671591efb82f95c3e69626fe1edeaecab63ae75",
+          "duration": 89.36489795918368,
+          "file": "Audio/Transport/full_subzone_lordamere-lake-1b84538ad68f7def2466/1-0000.mp3",
+          "sha256": "0d254354ebb31a776a43be39bf1ef5163dc8cf737a55acb69a7a956e439d49fb",
           "start": 0
         }
       ],
@@ -4333,12 +4333,12 @@
         ]
       },
       "fullHash": "0ca19c",
-      "generation": "1aca76f986438ed40aa9",
+      "generation": "76003c736cfd11c0cae0",
       "hash": "db632d",
       "source": {
-        "duration": 89.626063,
+        "duration": 89.364898,
         "file": null,
-        "sha256": "57505d68ab2fa281c3e93be9058d0c9a79887633498a78c58df5a09daa1e9f82"
+        "sha256": "1b84538ad68f7def24665eb2ee9284cefc3febf134b43fd61130e2015117a713"
       },
       "text": "Lordamere Lake. Lordamere Lake is one of the largest bodies of freshwater in the Eastern Kingdoms, bordered by Tirisfal Glades, Silverpine Forest, and the Alterac Mountains. Once the bustling aquatic heart of human civilization in the north, its cold waters and islands are now haunted by Scourge necromancers, feral murlocs, and the spreading shadow of the undead. In the golden age of the Alliance of Lordaeron, Lordamere Lake sat at the crossroads of human power. The Capital City of Lordaeron guarded its northern shores, the sorcerous city-state of Dalaran rose near its southern reach, and the kingdom of Alterac lined its mountainous eastern edge. Merchant vessels and fishing boats once crossed its broad, mist-covered expanse without fear. Following the devastation of the Third War, the lake was transformed from a hub of commerce into a natural barrier dividing the Forsaken-held lands of Tirisfal and Silverpine from the treacherous heights of Alterac. Today, navigating the dark waters of Lordamere is fraught with peril. At the center of the lake sits Fenris Isle, where the Scourge necromancer Thule Ravenclaw and his Rot Hide gnolls hold out against the Forsaken. Further east lie the Dawning Isles, completely overrun by aggressive Vile Fin murlocs. From the ruins around Dalaran to the shoreline of the Undercity, the lake is no longer a peaceful highway, but a drowned frontier contested by remnant monsters and the armies of the dead."
     },
@@ -4501,9 +4501,9 @@
     "subzone:mirkfallon-lake": {
       "1": [
         {
-          "duration": 78.10612244897959,
-          "file": "Audio/Transport/full_subzone_mirkfallon-lake-b315782b6b9247719aac/1-0000.mp3",
-          "sha256": "f37b931bc8a0fb0ec3e6e65a5e50a29c2686634bca74f8093213d4901bc3de9b",
+          "duration": 75.91183673469388,
+          "file": "Audio/Transport/full_subzone_mirkfallon-lake-e82f7e7bfae9ba0e2c45/1-0000.mp3",
+          "sha256": "cfb7d6e77beb2c277fcc79c292e82ad9062e41d809c174c496b6de4942387d0a",
           "start": 0
         }
       ],
@@ -4515,12 +4515,12 @@
         ]
       },
       "fullHash": "9efc93",
-      "generation": "8c9bfbba84d012015a68",
+      "generation": "6719bf770ec97f3b592d",
       "hash": "6f02da",
       "source": {
-        "duration": 78.08,
+        "duration": 75.911837,
         "file": null,
-        "sha256": "b315782b6b9247719aac156a011f615b158ea6f7614cdb4f23c8a4ca4157a292"
+        "sha256": "e82f7e7bfae9ba0e2c4504f72b370847d3831dd350fba6c71401eb589d0cee7a"
       },
       "text": "Mirkfallon Lake. Mirkfallon Lake sits in a central highland basin in the Stonetalon Mountains, nestled beneath the sheer cliffs of Windshear Crag. Its waters and surrounding banks teem with native wildlife, including aggressive slimes, roaming thunder lizards, and descending wyverns. Positioned at the geographic center of the Stonetalon range, Mirkfallon Lake rests between the mountain passes leading south toward the Webwinder Path and north toward Stonetalon Peak. Fed by highland runoff, the lake offers a fertile oasis amidst the craggy peaks, drawing thunder lizards down to drink and wyverns from their roosts high above. The waters are also inhabited by strange, bubbling slimes, turning an otherwise serene mountain tarn into a hazardous crossing for lone travelers. Paths crisscross the lake basin in all directions. To the east, rocky tracks ascend into Windshear Crag and the logging operations running deep into the forested valleys. Travelers pressing north past the lake climb toward night elven sanctums and tauren heights, while those skirting south must contend with venomous spider hollows. As a result, the shores of Mirkfallon Lake often serve as an unpredictable crossing point for explorers and scouts navigating the contested mountains."
     },
@@ -4657,9 +4657,9 @@
     "subzone:mor-shan-rampart": {
       "1": [
         {
-          "duration": 71.52326530612245,
-          "file": "Audio/Transport/full_subzone_mor-shan-rampart-a2eaeebd76aaffa52739/1-0000.mp3",
-          "sha256": "fde285617f74cff1510acf6c350ad4042a5b3f71a0fc03e25d8f40f4155d2c53",
+          "duration": 69.66857142857143,
+          "file": "Audio/Transport/full_subzone_mor-shan-rampart-7fcad303c7e17a86e022/1-0000.mp3",
+          "sha256": "46452c44890773770b95dd852c14543f1ec43f0e5d9e6f5583c41831d9cdf7cf",
           "start": 0
         }
       ],
@@ -4671,12 +4671,12 @@
         ]
       },
       "fullHash": "36ca11",
-      "generation": "e704829bb34904ada4f1",
+      "generation": "bde349977209e4a6657a",
       "hash": "9b9d12",
       "source": {
-        "duration": 71.497125,
+        "duration": 69.668571,
         "file": null,
-        "sha256": "a2eaeebd76aaffa52739735e8a8a1a341d9e476c9d95738f1e15cf8da1d7e8a0"
+        "sha256": "7fcad303c7e17a86e022f2a3d644313647d5739d988a25ea8a7427f7fe9e683a"
       },
       "text": "Mor'shan Rampart. The Mor'shan Rampart is a heavily fortified Horde barricade positioned at the northern border of the Barrens, guarding the entrance to Ashenvale. Constructed primarily by the Warsong clan, it shields Horde territory from night elf counterattacks while serving as a staging ground for incursions deeper into the forest. Standing at the northern terminus of the Gold Road, the Mor'shan Rampart marks the transition between the arid plains of the Barrens and the ancient canopies of Ashenvale. Built from heavy timber, defensive palisades, and fortified watchtowers, this bulwark was raised to stem the retaliatory strikes of night elven forces outraged by the Horde's logging operations. It acts both as a shield securing the northern gate to Kalimdor's interior and as a forward staging post for raiding parties pushing north toward Astranaar. Manned primarily by battle-hardened fighters affiliated with the Warsong clan, the rampart remains under constant military readiness. From these parapets, sentries monitor the tree line for night elf scouts and archers, keeping open supply lines between the frontline outposts of Ashenvale and the greater Horde settlements to the south."
     },
@@ -4839,9 +4839,9 @@
     "subzone:park": {
       "1": [
         {
-          "duration": 77.16571428571429,
-          "file": "Audio/Transport/full_subzone_park-bec259cdf87071419dad/1-0000.mp3",
-          "sha256": "f9a3f9bdb9043db071d617562031e9f92486698ed0f628ff08b55ff8426c3a37",
+          "duration": 75.57224489795918,
+          "file": "Audio/Transport/full_subzone_park-350661e9d1738f89c24b/1-0000.mp3",
+          "sha256": "c5b8660512ba5bef5bc4acc2c88233484d1c8f5db79b7670eca2b2d835803173",
           "start": 0
         }
       ],
@@ -4853,12 +4853,12 @@
         ]
       },
       "fullHash": "f5847d",
-      "generation": "007ba7feb7bbcd2e46f7",
+      "generation": "7088ebc187987481a421",
       "hash": "718cba",
       "source": {
-        "duration": 77.139563,
+        "duration": 75.572245,
         "file": null,
-        "sha256": "bec259cdf87071419dad145471e2fdc9c3711e658fa966195e8e601250319931"
+        "sha256": "350661e9d1738f89c24b186a4fbf92ab5033bf241ebe91b02f34b153ab00b7a0"
       },
       "text": "Park. Tucked along the western edge of Stormwind City between Cathedral Square and the Mage Quarter, the Park is a lush sanctuary of greenery and quiet reflection. Devoted to nature and leisure amidst the bustling stone capital, it serves as the primary haven for visiting night elves and houses the only druid trainers in the Eastern Kingdoms. While the rest of Stormwind is dominated by cobbled walkways, towering limestone ramparts, and crowded market stalls, the Park offers a tranquil breath of wilderness. Originally established as a quiet place of recreation for the city's populace, it naturally transformed into an enclave for night elf emissaries and travelers arriving from across the Great Sea. Sheltered beneath shaded canopies and surrounding a central Moonwell, the district brings a sliver of Kalimdor's sacred glades into the heart of the human kingdom. For the night elves, the Park is a vital foothold in foreign lands. Here, Kaldorei priests such as Nara Meideros tend to visiting pilgrims, and druidic mentors offer their guidance to those devoted to the wild. The district also serves as a peaceful retreat where weary adventurers rest their eyes from the clatter of the Trade District and the solemn duties of the Cathedral."
     },
@@ -4891,9 +4891,9 @@
     "subzone:pool-of-ask-ar": {
       "1": [
         {
-          "duration": 82.93877551020408,
-          "file": "Audio/Transport/full_subzone_pool-of-ask-ar-13701213421f86f72516/1-0000.mp3",
-          "sha256": "eda9ce52964758706aebd2fc550be812d282f5728956ebf39bfcc72aa486743c",
+          "duration": 83.01714285714286,
+          "file": "Audio/Transport/full_subzone_pool-of-ask-ar-2e5f350ecb86544de1df/1-0000.mp3",
+          "sha256": "e406d032626161a776740c44df47788d2e79ebbba67bebc915a43b65463e26d0",
           "start": 0
         }
       ],
@@ -4905,12 +4905,12 @@
         ]
       },
       "fullHash": "b3dabf",
-      "generation": "bdbb75203b9078caec34",
+      "generation": "b882ca2574c613ddc357",
       "hash": "f02918",
       "source": {
-        "duration": 82.912625,
+        "duration": 83.017143,
         "file": null,
-        "sha256": "13701213421f86f72516102edb6b4fd36c584dab94776a4b3b03aa7911c4f4ce"
+        "sha256": "2e5f350ecb86544de1dfd1256137731f8959ee6543683777d74e08c1db431b3f"
       },
       "text": "Pool of Ask'ar. The Pool of Ask'ar is a sprawling, submerged cavern lake located deep within Blackfathom Deeps. Teeming with aquatic beasts and foul naga invaders, its waters conceal ancient night elven architecture alongside hidden passageways that wind deeper into the corrupted sanctuary. Situated just beyond the Drowned Sacellum, the Pool of Ask'ar fills a massive subterranean vault with murky, cold water. The natural caverns and ancient stonework have become a nesting ground for oversized snapping turtles and deep-sea crabs, overseen by the enormous ancient chelonian known as Ghamoo-ra. The naga who have taken over the temple utilize this submerged threshold as a defensive staging ground, guarding the waterlogged approaches that lead deeper into the complex toward Lady Sarevess and the Moonshrine Ruins. Beyond its monstrous fauna and hostile patrols, the waters of the pool hide valuable relics from the shrine's pre-Sundering past. Submerged ledges and hidden alcoves along the cavern's edges conceal lost artifacts, including the valuable Lorgalis Manuscript sought by the dwarven scholar Gerrig Bonegrip of Ironforge. Swimming through the flooded southern passageways brings travelers out into dry tunnels guarded by vile murlocs and Old God cultists, marking the pool as the critical aquatic crossroads of Blackfathom Deeps."
     },
@@ -4943,9 +4943,9 @@
     "subzone:ravenholdt-manor": {
       "1": [
         {
-          "duration": 100.67591836734694,
-          "file": "Audio/Transport/full_subzone_ravenholdt-manor-b897b4ebd3f992abfede/1-0000.mp3",
-          "sha256": "74fbc06d5ce22625b6e6b3b4ae6575bf7b35a5acc2b983b7c5feb53bc1a26032",
+          "duration": 90.46204081632654,
+          "file": "Audio/Transport/full_subzone_ravenholdt-manor-15daacda440a5001a08b/1-0000.mp3",
+          "sha256": "3c7dcc45aaf78e3678a0614de575029ececb9e52ae7017fde1ac6e7139f56486",
           "start": 0
         }
       ],
@@ -4957,12 +4957,12 @@
         ]
       },
       "fullHash": "7a0788",
-      "generation": "d120c1037dab92f8421f",
+      "generation": "4df288e48b6e4ef5b9c0",
       "hash": "f5c7d7",
       "source": {
-        "duration": 100.64975,
+        "duration": 90.462041,
         "file": null,
-        "sha256": "b897b4ebd3f992abfede29a6cc0bae7d164895322cc3f5338187b779b4d0222e"
+        "sha256": "15daacda440a5001a08b61409faec192342b5eef552ab47c0256a8a6dde6a02d"
       },
       "text": "Ravenholdt Manor. Tucked away high in the mountains above Hillsbrad Foothills, Ravenholdt Manor serves as the secluded headquarters for the guild of thieves and assassins known as Ravenholdt. Overseen by Lord Jorach Ravenholdt, the estate provides a discreet haven where practitioners of stealth hone their craft far from the eyes of authorities. Hidden behind a narrow mountain pass and a winding cave northwest of Durnholde Keep, Ravenholdt Manor sits isolated on the borderlands of the Alterac Mountains. The property belongs to Lord Jorach Ravenholdt, a nobleman who maintains a disciplined enclave of rogues, assassins, and intelligence operatives. The grounds feature a tranquil garden and an outdoor training arena overseen by martial experts like Master Kang, providing a disciplined space to practice lockpicking, poison-crafting, and close-quarters combat. While the manor welcomes those with a talent for skullduggery, clumsy outsiders and unwanted visitors are treated with cold suspicion by the manor's watchful sentries. Prior to the First War, the land surrounding the manor was part of the kingdom of Alterac, reflected in the weathered orange tiles of the manor's roof. In the turbulent wake of Alterac's ruin, the fallen nobles of the Syndicate sought to control the region, placing them in direct conflict with Ravenholdt. For Jorach's followers, every skirmish fought across Hillsbrad and Alterac is part of a silent war to maintain their sovereign haven."
     },
@@ -5203,9 +5203,9 @@
     "subzone:ruins-of-stardust": {
       "1": [
         {
-          "duration": 77.24408163265306,
-          "file": "Audio/Transport/full_subzone_ruins-of-stardust-c7309c1cefea8ec120ab/1-0000.mp3",
-          "sha256": "8ec79f1eefb0c694ff73419bb11e2f44fd16f3bef009d3474dfebbd39bf0f1df",
+          "duration": 76.46040816326531,
+          "file": "Audio/Transport/full_subzone_ruins-of-stardust-6233fcc9396f672d0321/1-0000.mp3",
+          "sha256": "8ffb2fe5f175ba15bbd23fee8493f0f9abc03da87169ac917f8a7cf069781f8a",
           "start": 0
         }
       ],
@@ -5217,12 +5217,12 @@
         ]
       },
       "fullHash": "75b00e",
-      "generation": "86df1d9763a4ab27e369",
+      "generation": "4581f51a1c14cdd51512",
       "hash": "c2d7dd",
       "source": {
-        "duration": 77.217938,
+        "duration": 76.486531,
         "file": null,
-        "sha256": "c7309c1cefea8ec120abc6e09dad573f8fa721684865fc806003c0f4f3f08e25"
+        "sha256": "6233fcc9396f672d0321b890aa72a70fc8984e0147d1210044c196ea00d812c7"
       },
       "text": "Ruins of Stardust. The Ruins of Stardust are an ancient, fallen night elven holy sanctuary nestled on a lake island in southwestern Ashenvale. Once a serene place of worship, the island's waters and native bog beasts have suffered corruption from demonic rot washing down from Felwood. Despite this pervasive blight, luminous stardust shrubs still thrive amidst the crumbling stones, retaining potent restorative power. Resting on a solitary island south of Astranaar, the Ruins of Stardust were once a venerated night elf holy site. Today, an eerie, sickly yellowish-green hue hangs over the water—a consequence of foul demonic rot draining south from Felwood, much like at nearby Iris Lake. The local plant life has twisted into hostile bog beasts that prowl the fallen masonry, their temperaments warped by the tainted lake. Despite the corruption saturating the soil and shoreline, the island possesses an unyielding spark of resilience. Scattered among the ruins are stardust shrubs, blooming unmarred by the demonic taint. Their leaves and blossoms hold remarkable cleansing and healing virtues, attracting shamans, herbalists, and local night elf defenders seeking remedies against Ashenvale's encroaching decay."
     },
@@ -5567,9 +5567,9 @@
     "subzone:splithoof-crag": {
       "1": [
         {
-          "duration": 64.75755102040817,
-          "file": "Audio/Transport/full_subzone_splithoof-crag-765b8bc94df7d23ff2ee/1-0000.mp3",
-          "sha256": "ee493b386ae15057471cf2a6a4d33e6ef4cbceebaf45759d178290d6b1fe5e8f",
+          "duration": 68.85877551020408,
+          "file": "Audio/Transport/full_subzone_splithoof-crag-d1c16ef3be9748a1fa34/1-0000.mp3",
+          "sha256": "ebaeabfe8d2c9666c47a321c8db5edfea48620ed32e9b0919bee074643c42444",
           "start": 0
         }
       ],
@@ -5581,21 +5581,21 @@
         ]
       },
       "fullHash": "aa9fd3",
-      "generation": "7ca5e93d12cd0af3974a",
+      "generation": "864c28b53a7d78040d49",
       "hash": "3b7798",
       "source": {
-        "duration": 64.731375,
+        "duration": 68.884898,
         "file": null,
-        "sha256": "765b8bc94df7d23ff2ee979d8fcf2842f0bb7d052c3967553992fdecbb680a13"
+        "sha256": "d1c16ef3be9748a1fa34ef5a460f8fa696c3c3da4adbcf82db2586399607b2fa"
       },
       "text": "Splithoof Crag. Splithoof Crag is a fortified settlement of the Galak centaur, tucked along the northern cliffs of Thousand Needles. It serves as one of the tribe's major enclaves alongside the high mesas, guarding the entrance to Splithoof Hold. Travelers traversing the canyon floor must contend with aggressive Galak patrols roaming near the bluffs. Nestled against the sheer northern rock face of Thousand Needles, Splithoof Crag sits just east of the towering Darkcloud Pinnacle. It is an established enclave of the Galak centaur, complete with crude tent encampments and dirt pathways cutting through the crags. At the heart of the village against the cliffside lies Splithoof Hold, a subterranean cavern holding the Cloven Hoof, an ancient relic of the centaur safeguarded by a sacred brazier. The Galak fiercely contest this corner of the canyon, clashing with any travelers, Horde expeditions, or tauren scouting parties wandering beneath their bluffs. While the Grimtotem occupy the soaring pinnacles nearby, the centaur hold firm control of this canyon ravine and the caverns burrowed deep beneath the stone."
     },
     "subzone:splithoof-hold": {
       "1": [
         {
-          "duration": 50.33795918367347,
-          "file": "Audio/Transport/full_subzone_splithoof-hold-50a5c739eafe7b950852/1-0000.mp3",
-          "sha256": "603e4c9e4d74b2dc6e74cada4f85ae0738d89e1fa77d73f0a4f06147e3095293",
+          "duration": 52.55836734693878,
+          "file": "Audio/Transport/full_subzone_splithoof-hold-126522b251fb47e464de/1-0000.mp3",
+          "sha256": "70d4db9a3fa29e7067343d34f7a96bb3b16e88bbabc634dd3be408f40a807996",
           "start": 0
         }
       ],
@@ -5607,12 +5607,12 @@
         ]
       },
       "fullHash": "b723c0",
-      "generation": "fffcb26e85c455486232",
+      "generation": "6bc0de78233509d85bd2",
       "hash": "e99c84",
       "source": {
-        "duration": 50.311813,
+        "duration": 52.58449,
         "file": null,
-        "sha256": "50a5c739eafe7b950852517f513c63f43727feb44f7ec74561089752612a1328"
+        "sha256": "126522b251fb47e464def590c00eac85f503745da935d405939eb9e6d6c32e3b"
       },
       "text": "Splithoof Hold. Splithoof Hold is a deep cavern stronghold carved into the stone of Splithoof Crag in Thousand Needles. Held by the Galak centaur tribe, the cavern serves as a fortified den and houses the Ancient Brazier, a site holding an eternally burning sacred flame. Tucked away inside Splithoof Crag, Splithoof Hold serves as a fortified redoubt for the Galak centaur. Unlike the windswept canyon floor, this enclosed cave offers them shelter, defensible chokepoints, and a secure sanctuary from rival tribes and travelers passing through the Needles. Deep within the shadowed recesses of the hold lies an ancient brazier cradling the Sacred Flame. This mystic fire burns incessantly, serving as a focal point of power and ritual reverence for the centaur and an object of deep curiosity for spiritual wanderers across the canyon."
     },
@@ -5645,9 +5645,9 @@
     "subzone:stone-cairn-lake": {
       "1": [
         {
-          "duration": 83.5395918367347,
-          "file": "Audio/Transport/full_subzone_stone-cairn-lake-e2fa78eaf9b46a99062f/1-0000.mp3",
-          "sha256": "4116ae115e445ef067202b35a802ad63327a9a3bea418f59c1fe04ce08eb9d65",
+          "duration": 81.92,
+          "file": "Audio/Transport/full_subzone_stone-cairn-lake-35f9ba543399a8bb223d/1-0000.mp3",
+          "sha256": "1d75c78f6a95c48dfbea961edac2b08959c8bce6a0cd096356aec15380a14880",
           "start": 0
         }
       ],
@@ -5659,12 +5659,12 @@
         ]
       },
       "fullHash": "3ff038",
-      "generation": "86c7146850f4e1eca36e",
+      "generation": "6e3ad280b76dad3ee118",
       "hash": "c731f3",
       "source": {
-        "duration": 83.513438,
+        "duration": 81.92,
         "file": null,
-        "sha256": "e2fa78eaf9b46a99062ff388acac751e39715038f70394b2177cd31aecaccd10"
+        "sha256": "35f9ba543399a8bb223d882cfa51b55f54654ba44663f3094cc53be5fe3a2cba"
       },
       "text": "Stone Cairn Lake. Stone Cairn Lake is a ring-shaped body of water resting in northeastern Elwynn Forest. At its center lies an island crowned with Heroes' Vigil, a memorial to the fallen of the First War. Once a tranquil site for reflection, the lake is now troubled by hostile murlocs along its shores and renegade wizards occupying the isle. Stone Cairn Lake earns its name from the prominent stone memorial erected on the large island in its center. Known as Heroes' Vigil, this monument was raised to honor the heavy loss of human life suffered during the First War against the Orcish Horde. Families and pilgrims once traveled safely to the island to pay respects to the fallen, gazing across the calm waters at the solemn stonework. Today, however, dangerous renegade wizards have established a camp directly beside the memorial, turning a place of sacred remembrance into a hostile redoubt. Surrounding the ring-shaped lake is a scenic shoreline that has grown increasingly dangerous for locals and travelers. A tribe of aggressive murlocs has claimed the southern banks, erecting crude huts along the waterline and harassing anyone who draws near. Beyond its dangers, the hills and outcrops encircling the lake are rich in mineral veins, making the perimeter a frequent destination for prospectors and miners willing to brave the local threats."
     },
@@ -5723,9 +5723,9 @@
     "subzone:stonetalon-peak": {
       "1": [
         {
-          "duration": 79.83020408163266,
-          "file": "Audio/Transport/full_subzone_stonetalon-peak-d50c193181cab0ef02c8/1-0000.mp3",
-          "sha256": "162046c9e9457265263995529489c3ae41b7f88c3cc78b186bf02a375dcac796",
+          "duration": 79.20326530612245,
+          "file": "Audio/Transport/full_subzone_stonetalon-peak-6f217f0eec977fe57ed4/1-0000.mp3",
+          "sha256": "c4faa4a66a4f09258f03fd7cd5ebaecc3199667a5e46d71bc4604766cc17320f",
           "start": 0
         }
       ],
@@ -5737,12 +5737,12 @@
         ]
       },
       "fullHash": "ec5821",
-      "generation": "886ebf24e04506d43780",
+      "generation": "9ba18f2243e0127716e5",
       "hash": "465f86",
       "source": {
-        "duration": 79.804063,
+        "duration": 79.203265,
         "file": null,
-        "sha256": "d50c193181cab0ef02c840234980e4ae4f0c3bdf61b25002a58a448e0893a777"
+        "sha256": "6f217f0eec977fe57ed40c0af177d4850ea195df7d92cc1467d89b7ff32ba30a"
       },
       "text": "Stonetalon Peak. Stonetalon Peak is an ancient night elven sanctuary tucked into a verdant alpine valley at the northwestern edge of the Stonetalon Mountains. Sacred to the kaldorei and cared for by local druids, it serves as the primary bastion of the Alliance in these craggy heights. Perched high above the arid dust of the lower ranges, Stonetalon Peak opens into a lush, mist-shrouded sanctuary. Long considered sacred and steeped in ancient magic, the valley holds ruins dating back millennia to when the region housed temples honoring Queen Azshara before the Great Sundering. In the modern era, kaldorei Sentinels and druids have restored a measure of peaceful stewardship here, maintaining a tranquil refuge complete with a barrow den and a vital Alliance flight roost. Beyond its idyllic forests and ancient ruins, Stonetalon Peak holds historic weight from the Third War. Guided by the visions of Medivh, both Jaina Proudmoore's human expedition and Thrall's Horde scaled these perilous heights in search of the elusive Oracle dwelling within the mountain's deep caverns. That fateful encounter forced mortal enemies to set aside their blades, laying the foundation for the uneasy pact that stood against the Burning Legion at Mount Hyjal. Today, the peak remains firmly under Sentinel watch, though Horde incursions in the lowlands keep the defenders vigilant."
     },
@@ -5775,9 +5775,9 @@
     "subzone:stonewatch-keep": {
       "1": [
         {
-          "duration": 93.44,
-          "file": "Audio/Transport/full_subzone_stonewatch-keep-73c96301736ab402ddf6/1-0000.mp3",
-          "sha256": "0a4bb178f9d34e714b32908cb042786d720b87f5bf4cfcf1056c5a62ce0f35d6",
+          "duration": 91.71591836734694,
+          "file": "Audio/Transport/full_subzone_stonewatch-keep-eb63a00c0454f63c7dc4/1-0000.mp3",
+          "sha256": "801013398849a6f6af76001fd1e29f31a945ef806db2afd5092e29c9316d179d",
           "start": 0
         }
       ],
@@ -5789,12 +5789,12 @@
         ]
       },
       "fullHash": "55fb96",
-      "generation": "51a462af2534f8e8c639",
+      "generation": "2ae4dcb6f71e549479b9",
       "hash": "3f0834",
       "source": {
-        "duration": 93.413875,
+        "duration": 91.715918,
         "file": null,
-        "sha256": "73c96301736ab402ddf63abe28f8e27b08b37e7cbbe88cc0c2f18a4921df407c"
+        "sha256": "eb63a00c0454f63c7dc4a6ac66e5c06d03620291044bf907d4d509306cd1ed3c"
       },
       "text": "Stonewatch Keep. Stonewatch Keep is a fortified stone stronghold looming in eastern Redridge Mountains, once built and manned by the Kingdom of Stormwind. It has fallen to an invading host of Blackrock orcs, serving as the forward operational base from which their warlords terrorize Lakeshire. Stonewatch Keep originally defended the eastern ridges and guarded the settlers of Lakeshire against hostile incursions. That peace shattered when the renegade warlock Morganth struck an alliance with the Blackrock clan. Bolstered by dark magic, the orcs stormed the fortress with vicious ferocity, overwhelming the human defenders and taking the keep for themselves. Although Morganth later abandoned his allies to raise the nearby Tower of Ilgalar and subjugate local gnolls, the Blackrock invaders successfully consolidated their grip over Stonewatch, transforming a former bastion of the Alliance into a fortified staging ground for their assault on the valley. Now occupied by a heavy garrison of Blackrock warriors, the keep is overseen by the formidable orcish warlord Gath'Ilzogg and his brutal lieutenant, Tharil'zun. From the stone ramparts, these commanders coordinate raids across Redridge, taking prisoners such as Stormwind's Corporal Keeshan. With the kingdom's military spread thin and unable to dispatch a full regiment to liberate the fortress, Magistrate Solomon and Marshal Marris have been forced to hire mercenary champions to infiltrate the stronghold and execute the Blackrock leadership before Lakeshire is completely overrun."
     },
@@ -5879,9 +5879,9 @@
     "subzone:sun-rock-retreat": {
       "1": [
         {
-          "duration": 78.44571428571429,
-          "file": "Audio/Transport/full_subzone_sun-rock-retreat-be4fc9bab7c82ef66915/1-0000.mp3",
-          "sha256": "2ac00698de0aa5722d30c152ed368c9d1d4e99cbc51f8e989aea9c89bcb6a0f1",
+          "duration": 78.70693877551021,
+          "file": "Audio/Transport/full_subzone_sun-rock-retreat-551cd812f9b1e7a8aae5/1-0000.mp3",
+          "sha256": "ccd0d4b47af724cc34175067048490668fc7b337723f7198f7e4045b0fb69c19",
           "start": 0
         }
       ],
@@ -5893,12 +5893,12 @@
         ]
       },
       "fullHash": "b9eaec",
-      "generation": "70b65369f70d743d7fb7",
+      "generation": "4b08ab85ceefb8766754",
       "hash": "d91992",
       "source": {
-        "duration": 78.419563,
+        "duration": 78.706939,
         "file": null,
-        "sha256": "be4fc9bab7c82ef669152ed6e660e197a3a4dd76f4c635cf77f4d035221d79a3"
+        "sha256": "551cd812f9b1e7a8aae5fffe01fff79356ee757212ab12bab232c1e6ec8c80a9"
       },
       "text": "Sun Rock Retreat. Sun Rock Retreat is a hidden Horde sanctuary nestled high within the central peaks of the Stonetalon Mountains, just south of Mirkfallon Lake. Dominated by tauren and orcish forces, it serves as the Horde's primary staging ground and supply post in the region. Beyond its strategic utility, the settlement rests upon sacred ground long revered by the tauren for its deep spiritual resonance. Tucked away in a mountain basin south of Mirkfallon Lake, Sun Rock Retreat has long held spiritual importance for the tauren. According to ancient tradition, An'she, the Sun, kissed the very mountain peak where the village stands. For generations before the Horde's arrival, tauren shamans and pilgrims journeyed here to perform rituals bridging the mortal veil, drawing strength from the land's strong bond to the spirit world. Today, Sun Rock Retreat serves as the Horde's principal base of operations across the Stonetalon Mountains. Orcs and tauren work side by side to establish a secure foothold against hostile harpy broods, local night elf sentinels, and the industrial pillaging of the Venture Company. As a central hub connecting trade and flight routes between Thunder Bluff, the Crossroads, and the borders of Ashenvale, the retreat provides shelter, provisions, and spiritual guidance to those braving the crags."
     },
@@ -5983,9 +5983,9 @@
     "subzone:the-loch": {
       "1": [
         {
-          "duration": 62.11918367346939,
-          "file": "Audio/Transport/full_subzone_the-loch-d09de04dee5d05c38768/1-0000.mp3",
-          "sha256": "f42f47465b09d91a50344d5d93903570f8eb792cfcfeb3d1fe87b77f9592e173",
+          "duration": 61.10040816326531,
+          "file": "Audio/Transport/full_subzone_the-loch-db2b76a6adf89f9c3445/1-0000.mp3",
+          "sha256": "908d29231573a8f8133d9d46572dc2da6bdaec8176ead4a81e3d40bdb18d099b",
           "start": 0
         }
       ],
@@ -5997,12 +5997,12 @@
         ]
       },
       "fullHash": "5a51fa",
-      "generation": "8e207e0de6cd719916d0",
+      "generation": "bb4546a6dd302216e4e9",
       "hash": "913e57",
       "source": {
-        "duration": 62.093063,
+        "duration": 61.126531,
         "file": null,
-        "sha256": "d09de04dee5d05c387680e4341cb59b3efed4c7386c636869b64586aa78e761a"
+        "sha256": "db2b76a6adf89f9c3445451e2bbde075666b5b267419551a20f2ca14279a96db"
       },
       "text": "The Loch. The Loch is the vast freshwater lake that dominates the valley of Loch Modan. Held back by the monumental Stonewrought Dam, it is the largest body of water on Khaz Modan and the lifeblood of the surrounding dwarven settlements. Spanning the center of Loch Modan, The Loch is among the largest inland lakes in the known world, rivaled only by Lordamere Lake and Darrowmere Lake in the north. Its waters support local fishermen and provide a peaceful backdrop for the town of Thelsamar and nearby hunting lodges. Beneath its calm surface, however, prowl aggressive threshadons and freshwater beasts that make swimming across a perilous venture. The Loch exists in its current tranquil state thanks to masterwork dwarven engineering. To the north stands the massive Stonewrought Dam, an architectural marvel built across the mountain cleft to prevent the lake from flooding out into the Wetlands below. Maintaining this colossal structure is essential to preserving the valley's ecosystem and keeping Khaz Modan secure."
     },
@@ -6347,9 +6347,9 @@
     "subzone:warsong-labor-camp": {
       "1": [
         {
-          "duration": 76.72163265306122,
-          "file": "Audio/Transport/full_subzone_warsong-labor-camp-a972617a962a5c39b0dd/1-0000.mp3",
-          "sha256": "ffac8f18976974145aa09484b70c5a052eac76531bc06027a4d753e5e97ef829",
+          "duration": 74.78857142857143,
+          "file": "Audio/Transport/full_subzone_warsong-labor-camp-02829bcc6c6fdffe0829/1-0000.mp3",
+          "sha256": "9299457b293988192692115d4e61293bba72a2bc67680b4459fe04a0744b6418",
           "start": 0
         }
       ],
@@ -6361,21 +6361,21 @@
         ]
       },
       "fullHash": "bcc159",
-      "generation": "50d1372e8fa30fc45383",
+      "generation": "44c965f4d07643514ddd",
       "hash": "c0acc1",
       "source": {
-        "duration": 76.6955,
+        "duration": 74.788571,
         "file": null,
-        "sha256": "a972617a962a5c39b0ddf0167a0a63f93928fb1dad5472da16947c65fe7138fd"
+        "sha256": "02829bcc6c6fdffe08294dfd6fa5c83e7a628d4f8708a5d3f4b12779ac2062a8"
       },
       "text": "Warsong Labor Camp. The Warsong Labor Camp is an isolated Horde timber-harvesting outpost tucked away in southeastern Ashenvale. Operated by Warsong loggers and defended by orcish sentries, the work site cuts lumber to fuel the growth of Durotar while braving the hostility of the surrounding forest. Situated east of Fallen Sky Lake and southwest of the Dor'Danil Barrow Den, the Warsong Labor Camp exists for one vital purpose: harvesting the dense timber of Ashenvale. The dry plains of Durotar offer little usable lumber to build cities like Orgrimmar, forcing the Warsong clan to push deep into the contested woods. Staffed by hardy loggers and orcish guards, the site operates in relative isolation, grinding through ancient trees despite the ever-present threat of night elf scouts and passing Alliance warbands. Because of its remote location far from the main road and fortified bases like Splintertree Post, the camp is exceptionally vulnerable. Alliance raiders often strike the working peons and watchmen, knowing reinforcements will not arrive swiftly. To the night elves, every felled tree is an act of sacrilege, turning this mundane logging camp into a perennial flashpoint in the regional war."
     },
     "subzone:warsong-lumber-camp": {
       "1": [
         {
-          "duration": 107.65061224489796,
-          "file": "Audio/Transport/full_subzone_warsong-lumber-camp-f050b3899f2008f76edc/1-0000.mp3",
-          "sha256": "a4587dbd34d05ca84fde935171d904bc16ac8b6f06ec8ad6c2f3145ee54ee6b1",
+          "duration": 109.32244897959184,
+          "file": "Audio/Transport/full_subzone_warsong-lumber-camp-3f9960fac1ce00d538ec/1-0000.mp3",
+          "sha256": "d4826343019ab65a2237f285633dcbcb68786140671f9489ad95d505887920d0",
           "start": 0
         }
       ],
@@ -6387,12 +6387,12 @@
         ]
       },
       "fullHash": "1a6803",
-      "generation": "0dfc8641025e69eae0bc",
+      "generation": "dc783935efc58770453d",
       "hash": "a95ecf",
       "source": {
-        "duration": 107.624438,
+        "duration": 109.348571,
         "file": null,
-        "sha256": "f050b3899f2008f76edce7afd02f09565ecaffcb9fadbd61163cf82ca03db147"
+        "sha256": "3f9960fac1ce00d538ecb97bd2f6e247b2b969bbcdfdde50dac0507898927ef3"
       },
       "text": "Warsong Lumber Camp. The Warsong Lumber Camp is a fortified orc logging operation deep in Ashenvale, run by the Warsong clan to harvest timber for the Horde. Anchored by the fortified Kargathia Keep, it stands as both an economic lifeline for nearby Horde settlements and an unrelenting provocation to the night elves. The constant sound of goblin-built shredders chewing through ancient boughs makes this clearing a primary flashpoint of the forest war. Carved straight out of the dense canopy of eastern Ashenvale, the Warsong Lumber Camp is the industrial engine fueling the Horde's expansion across Kalimdor. Orc peons and hired goblin engineers strip the forest with whirring shredders, processing towering trunks into lumber to reinforce outpost walls like nearby Splintertree Post and build up the fledgling nation of Durotar. The camp is heavily fortified against constant night elf counterattacks, centering on the stockades of Kargathia Keep and an active kennel for the clan's fierce war wolves. For the Warsong, every felled tree is survival and strength; for the native Sentinels, every saw blade is an act of sacrilege. The Warsong clan's presence in these woods dates back to the Third War, when Grom Hellscream first led his warriors into the sacred groves to claim wood for the Horde. That initial deforestation ignited the fury of the demigod Cenarius and brought down the ancient wrath of the night elves. Though the modern camp operates under the banners of Thrall's Horde, the old animosities burn just as fiercely. Surrounded by untamed timber, hostile elves, and the lingering demonic corruption around neighboring Felfire Hill, the camp's defenders remain armed around the clock, harvesting trees with axes in hand and ready to drop their timber to repel the next ambush."
     },
@@ -6425,9 +6425,9 @@
     "subzone:whelgar-s-excavation-site": {
       "1": [
         {
-          "duration": 46.863673469387756,
-          "file": "Audio/Transport/full_subzone_whelgar-s-excavation-site-985c93349cfa55edc3a3/1-0000.mp3",
-          "sha256": "a5bef1d228dae093edc532c1a7204b732d5b99c37ee95aee0b6ca68c8588352f",
+          "duration": 48.3265306122449,
+          "file": "Audio/Transport/full_subzone_whelgar-s-excavation-site-b405e8fa73c73b5399a0/1-0000.mp3",
+          "sha256": "07cc56e60f4d72a65559be9df6e47a92ed3e180efdf15942424f787024ef6e18",
           "start": 0
         }
       ],
@@ -6439,12 +6439,12 @@
         ]
       },
       "fullHash": "aa1d65",
-      "generation": "0d7740156b53a34939ca",
+      "generation": "b5983131840525bed41e",
       "hash": "981de7",
       "source": {
-        "duration": 46.8375,
+        "duration": 48.326531,
         "file": null,
-        "sha256": "985c93349cfa55edc3a37ff00b6ca5f17ad3db8e743f604788165d963300b9c7"
+        "sha256": "b405e8fa73c73b5399a0bd1902ea470d60025a5b8a9cc5cc4ea27eaa32d3bdfd"
       },
       "text": "Whelgar's Excavation Site. Whelgar's Excavation Site is a dwarven archaeological dig in the western foothills of the Wetlands. Intended to unearth ancient Titan relics and prehistoric secrets, the expedition ended in disaster when vicious mottled raptors overran the quarry. The surviving excavators are now trapped on a ridge overlooking the dig, cut off from their findings. Spearheaded by dwarven prospectors searching for ancient fossils and earthen mysteries, the excavation carved out a massive quarry between Menethil Harbor and Dun Modr. However, unearthing prehistoric remnants drew the wrath of native mottled raptors. Overwhelmed and under-equipped, the archaeologists retreated to a ridge overlooking the dig site, leaving their tents, tools, and unearthed relics scattered among prowling predators."
     },
@@ -6581,7 +6581,10 @@
   },
   "cuts": {
     "0154db0db806760ffc4eca20b09bd20d7604e0c42287290bffdf5fb37ebc7116": [
+      279,
+      674,
       964,
+      1714,
       1965
     ],
     "01d43e1a91726731a631f924481b733b644d06b3106669425ff0a66b8551463b": [
@@ -6603,19 +6606,16 @@
     ],
     "03b8ccef28d89364c7d52bfd1316e0337b832c446ec2155a1d7544bf62023bfe": [
       390,
+      729,
       1025,
       1988,
+      2163,
       2594
     ],
     "03e63ea858724692369dbdd244ec7188e8296fb3b7f3676ae8de58675b68b2e3": [
       294,
       1040,
       1356
-    ],
-    "03f906780ab8581322f7d400708a03fb754c1cc84b5836bd4fcf58ec9980905b": [
-      1041,
-      1402,
-      2022
     ],
     "0692063d74b8cbe55537c2fe92bd553d75cc1bd0b9f5c9d4685ad418eb05823d": [
       638,
@@ -6624,17 +6624,25 @@
       2121,
       2687
     ],
+    "074524d98eaad5c7dde924e9d32a020b4733b48a9462210f806146a45a2c8134": [
+      269,
+      653,
+      929,
+      1192,
+      1471,
+      1658,
+      2049
+    ],
+    "07cc56e60f4d72a65559be9df6e47a92ed3e180efdf15942424f787024ef6e18": [
+      266,
+      630,
+      774,
+      1283
+    ],
     "0a0b050a120f91ca5174fdc5861779d0e07163eaa6dcccf7ec9b6bddfd071619": [
       867,
       1494,
       2092
-    ],
-    "0a4bb178f9d34e714b32908cb042786d720b87f5bf4cfcf1056c5a62ce0f35d6": [
-      894,
-      1136,
-      1509,
-      2578,
-      2914
     ],
     "0b1dfc5bc80ee9f67684c5958c97bea5265dee9e321bb6e177d8f93fa6d1ea35": [
       345,
@@ -6648,17 +6656,35 @@
       1325
     ],
     "0be430115ce39ab006b2560820ec1f576a951f64b6b48d20a824c226ca25201d": [
+      285,
       923,
+      1390,
       1567,
+      2102,
       2453,
       2895
     ],
     "0c8133c69883ba86c19988db219cca38e702ced5960c2868bd62cba35bfd6d54": [
       284,
+      591,
       1019,
+      1381,
+      1815,
       1973,
       2341,
       2681
+    ],
+    "0d254354ebb31a776a43be39bf1ef5163dc8cf737a55acb69a7a956e439d49fb": [
+      391,
+      850,
+      1107,
+      1249,
+      1581,
+      1812,
+      2325,
+      2498,
+      2826,
+      3045
     ],
     "0dadae96bfdf07bac655e7180bc72a46c3b5885ac268a7a84d4bbd6d90c29565": [
       625,
@@ -6673,15 +6699,38 @@
       1423
     ],
     "0dfd2fe6436dd931544f64cca4f232e0acd9d1d712b3c171ba9d76ff06ee0c19": [
+      343,
       938,
-      1209
+      1209,
+      1348
+    ],
+    "0e438a0880a6ddee4692ea75470acd46b8b8f1fef68e0e4c1aeec41821a3ea13": [
+      367,
+      960,
+      1759,
+      2010,
+      2318
     ],
     "0eb39a9240f42bce48f9d329a5ed5d49fdec67f84867509b97d25668bae5a730": [
+      404,
       941,
+      1208,
+      1422,
+      1587,
       1917,
       2163
     ],
+    "0f3d51973b5587b81d698d447d186bd44a4376c8390cc4d93d125275462981b4": [
+      253,
+      573,
+      892,
+      1261,
+      1618,
+      1890,
+      2251
+    ],
     "0fd1bb144ec2ae7947d9a296dffce6795f26eaf565cb7b822bc01218df626642": [
+      266,
       662,
       1007,
       1409,
@@ -6693,40 +6742,50 @@
       575,
       1081
     ],
+    "1115de0c52884b4ac1177bd5b1743c1a43d51f49972f78d32c950690b84de20f": [
+      379,
+      1111,
+      1416,
+      1787,
+      2254,
+      2501,
+      2895
+    ],
     "1146e846b9b286746f22059bca8155f7f34666200af2547c2df9ecdb554826e7": [
       908,
       1303,
+      1456,
       2004,
+      2205,
       2678
     ],
     "1216a9cf3f8a553e0d4fadaed02306914f63299b335819b7a42e93e756bc45ce": [
+      578,
       957,
+      1441,
       1973
     ],
     "14fb2242081fc2941b7006b3dfffc25c7762f8b6fc9a379d84830fe227175735": [
+      270,
       562,
       832,
-      1724
-    ],
-    "1612c6c98ad5ae01531c370204931e3ec3c20975996c794330081e3af1f6aa6e": [
-      249,
-      986,
-      1984
-    ],
-    "162046c9e9457265263995529489c3ae41b7f88c3cc78b186bf02a375dcac796": [
-      921,
-      1329,
-      1988,
-      2415,
-      2783
+      993,
+      1146,
+      1489,
+      1627
     ],
     "1657d0864173976d8c5f1bc2b5f120305aaaa002bbd7c005cc9e2ad396e49126": [
+      267,
+      569,
       804,
+      1244,
       1398,
       1716,
+      1982,
       2446
     ],
     "16e33bc2fb4d4d486dbddff4647321b7ed7a69c0879d17e3fbb7a347b2523d4e": [
+      330,
       504,
       842,
       1248
@@ -6747,6 +6806,12 @@
       3493,
       4251
     ],
+    "17ab1747a72e5627bd59b4f65011af70ce3435b765877361d3df718dcd4cefbb": [
+      411,
+      631,
+      896,
+      1494
+    ],
     "1a9bce6d1a18cc54a9bf5596b6d745b17a3b3729851f9587c787c3ce76341bbd": [
       585,
       1145
@@ -6764,11 +6829,16 @@
     ],
     "1b0d3d4ac6ad5c5a6241517f224b72bb8a6c808959f297a3a9249e69cd1b6bfa": [
       398,
+      624,
       858,
-      1137
+      1022
     ],
     "1c7e07694e35f51d9ae324ea5b5ad8f7033c74e9bacd00d2cb5587eb6457d00f": [
+      348,
+      640,
       1100,
+      1292,
+      1452,
       1854,
       2286
     ],
@@ -6779,9 +6849,30 @@
       2236,
       2599
     ],
+    "1d75c78f6a95c48dfbea961edac2b08959c8bce6a0cd096356aec15380a14880": [
+      246,
+      497,
+      824,
+      1071,
+      1400,
+      1721,
+      2097,
+      2361,
+      2700,
+      2925
+    ],
     "1eb38280723ac48505ac28b171d4218b89b591eae1c0bbf65e0f068656634ac8": [
       1026,
       1391
+    ],
+    "1ec8f0e11819f2361fb0e14f7cb4be82330ee7f6e4a70aeab588644bc86a6354": [
+      521,
+      836,
+      1373,
+      1697,
+      2115,
+      2323,
+      2738
     ],
     "1fcc2a6fb0963405bd70c6d43525e960a9d70bd0d031fc1908d3a68a1e3c6fd0": [
       550,
@@ -6793,8 +6884,12 @@
       1025
     ],
     "207a680806c9550ea1b66d3b0a87d91f5da0c5f81118a50cb16367e7eeb9ab9b": [
+      316,
       770,
+      1160,
+      1545,
       1786,
+      2030,
       2415,
       2703
     ],
@@ -6814,7 +6909,9 @@
     ],
     "234c31627a773cf8781d60c85de1582e0f8da0fd480e0341241f1abdd0cd2bf2": [
       382,
+      712,
       991,
+      1196,
       1453
     ],
     "23d43260178515ad8f236dd421221b9013918f288fbb168b05e7d9c57f7895a0": [
@@ -6825,7 +6922,9 @@
       2847
     ],
     "2550e141bc37137548a0f0c114849a67936d6bbd0e451cd1ac1785196a0ce821": [
+      587,
       910,
+      1235,
       1605,
       1944
     ],
@@ -6834,30 +6933,46 @@
       1247
     ],
     "25b448d4348cc2bbf6d5e5ef48ee3793cb06af27b87c5201f6096139a52c00a4": [
+      467,
+      736,
       1059,
-      1351
+      1351,
+      1557
     ],
     "264c4bcdcc205546ca7675cfb96d7ae78c2c77704ddc9e75b775b0a418827cad": [
+      251,
+      537,
       870,
+      1176,
+      1447,
       1768,
       2177,
+      2537,
       2787,
       3110
     ],
     "2769fd580c0596f208442a2f62833a0c47f628375671c5bd8fc5fd9890efe4e9": [
+      215,
       981,
+      1281,
       1428,
+      1641,
       1976,
+      2327,
       2625
     ],
     "28d73d724004f3c24af556821488dc5e429ecc80a6426949fd678b88eb61b023": [
+      296,
+      612,
       850,
       1335
     ],
     "29086a443a5b1bbe27d412462a5b6a0fd606efa5445eeb56bd121443c52fc7d7": [
       246,
+      570,
       959,
       1298,
+      1616,
       1967,
       2232
     ],
@@ -6875,13 +6990,6 @@
       728,
       1795
     ],
-    "2ac00698de0aa5722d30c152ed368c9d1d4e99cbc51f8e989aea9c89bcb6a0f1": [
-      344,
-      899,
-      1890,
-      2541,
-      2797
-    ],
     "2add36f1fb81176dcbd188ea7036695e750dc66b63d2ef7ffd321f1d1ac02fc0": [
       612,
       888,
@@ -6893,7 +7001,10 @@
       4046
     ],
     "2b9a50ede38ddd91e6b8bec4e37c498f6ee0ecc8b9c99767d851044b4dce0c66": [
+      198,
       613,
+      753,
+      891,
       1150,
       1911,
       2185
@@ -6903,9 +7014,13 @@
     ],
     "2dbc762a0d7cd22486140865e741cfefa6beb8ae0a487689c4d5d96ea7317912": [
       494,
+      922,
       1197,
+      1449,
       1936,
+      2289,
       2500,
+      2688,
       3200
     ],
     "2dfb2677033a005b54c357eb40655fdaf152c2e05cbf8fcb82b5125310a3f74c": [
@@ -6921,21 +7036,24 @@
       1075
     ],
     "2e3051b87af8f9b92a1ba6980134b7ad4883659cd4fc60c6d7acf2b9dd9b3c50": [
+      357,
       734,
       1051,
       2039,
-      2294
+      2228
     ],
     "2e5a22104e1edb2a3024e65c3c89976522423f4764f6e80b0a00f8c21933a710": [
       364,
+      749,
       1070,
       1362,
-      1732
+      1609
     ],
     "2e5cd6304909a9f1b1e49b70afd2c1e6d9579ca7af6ae9758bfecbd69f54ec67": [
       995,
+      1204,
       1649,
-      2035
+      1912
     ],
     "2ed8d5dd11b002e606ecdeb320b0e910ed09965aac0418cd34911195ee01b5c8": [
       814,
@@ -6944,28 +7062,41 @@
       2276
     ],
     "2f52db3a7dccac73f634bc8dcf3e7df4715e128a3187b2dd2b35dbfcc570d761": [
+      331,
+      747,
       1037,
       1504,
       1903,
       2280
     ],
     "304c100c322f9753973ae82ad29216053e11c5a28c4231e0c6e9d2e5e68ed171": [
+      238,
       626,
       926,
+      1756,
       1925,
       2312
     ],
     "31b5c296dabddff3e38b3c65db0ebef73496d8c836d10f9dd96f918c4cf1155a": [
+      181,
       356,
+      754,
       1024,
+      1225,
+      1361,
+      1539,
       1745,
+      2640,
       2820,
+      3076,
       3244
     ],
     "327a762a2cf84abe5da247e8d757963af23ce5a56c71cc3e6ad44c8a68b1a226": [
       367,
+      826,
       1017,
       1492,
+      1966,
       2135
     ],
     "33a85ad4463468880e69e46b5d7dae1e9ed44a06209a9f6d08f367bb3653a4e8": [
@@ -6974,8 +7105,10 @@
       1582
     ],
     "348eefa1493f205f64b0d493903f856e7903a44d03edea0f8dd46d2f6a09a81a": [
-      337,
+      229,
+      471,
       923,
+      1102,
       1560,
       1883,
       2469,
@@ -6988,6 +7121,15 @@
       986,
       1822
     ],
+    "36455c9c1068cd6beff13d1e29d43a31ad03c7f02c470ac95dfd894eae88b924": [
+      267,
+      556,
+      879,
+      1102,
+      1386,
+      1669,
+      1961
+    ],
     "36e43096bd37d2952c453a32d9175e554858602365564a83932ce6dce34d6f5c": [
       307,
       864,
@@ -6997,19 +7139,18 @@
       2774,
       3031
     ],
-    "3747f6ff5f2dc160642584018e5c86b0c83bec6ec39bc8f6afff6ee6c0265db7": [
-      552,
-      1007,
-      1989,
-      2336,
-      2827
-    ],
     "37b71c6659fcf622e4bcc6381f798d7b5e565818eb55d17751801ebd3b122e9a": [
+      756,
       1084,
+      1369,
+      1764,
       2105
     ],
     "384e68f654792e8e8c07241b431b0fea69dfa06cc1de072b201f647ea79673f7": [
+      237,
       453,
+      621,
+      841,
       1194
     ],
     "3884dee9d9d87f45d10c5ad01a71a53281a1f4f95f0d1dce36f2c99973af3f2b": [
@@ -7033,33 +7174,57 @@
       1833
     ],
     "3c537930a9ecaa5f53938ded605578e771242bf6215c2e7d8138db00c70f75e4": [
+      217,
       941,
       1309,
       1731,
       2054,
+      2273,
       2478
     ],
     "3c6159f1c0823c989061cb5cd2aee32e107b2e3c95a289f0ff97295d0a8e9351": [
       896,
       1177,
+      1473,
       1802,
+      2029,
+      2167,
       2336,
+      2479,
       2627
+    ],
+    "3c7dcc45aaf78e3678a0614de575029ececb9e52ae7017fde1ac6e7139f56486": [
+      407,
+      748,
+      950,
+      1131,
+      1496,
+      2029,
+      2173,
+      2441,
+      2785,
+      3131
+    ],
+    "3cf784e749577f980956a41b2bfb725123ef19750f9cff6e3ea9cb2b18ac2cc7": [
+      711,
+      994,
+      1181,
+      1390,
+      1540,
+      1691,
+      2021,
+      2243,
+      2383,
+      2652,
+      2930
     ],
     "3e6f6c37798925baed2ffc273aa93d4f6d2ac7fc96940a96697588a1457879ee": [
       1035
     ],
     "3fa9647c8d42f768c99f20b8746cc61e5ba41b73ada962dbd3bc99a37d4c1518": [
+      303,
       796,
       1743
-    ],
-    "4116ae115e445ef067202b35a802ad63327a9a3bea418f59c1fe04ce08eb9d65": [
-      486,
-      1061,
-      1420,
-      1771,
-      2175,
-      2768
     ],
     "41dc71b5c618e366c82ca7914c917e92126ab88f3e037de4c6aeb08a177d0684": [
       921,
@@ -7073,11 +7238,23 @@
       2651
     ],
     "439a0015a72c75b1a4b78173ec5ad7cfaaa26ce1841006a69d046a43b0288f9a": [
+      262,
+      586,
       875,
       1170,
       1869,
       2183,
-      2564
+      2564,
+      2729,
+      2963
+    ],
+    "43ba7bec12c3b7dd3cab4bc0f5ff303cdb4f856fc3041297b270aa5fadbd0440": [
+      723,
+      1045,
+      1435,
+      1701,
+      2030,
+      2350
     ],
     "4515f90bc17e3d98c1944609ea5cf0eb4e1bf01e75c63b537ea162d2f5189ecd": [
       1057,
@@ -7086,6 +7263,13 @@
     "45e92b80d51d823ea8d4cd648ebb4403bc50ac6a503421d9195054194b4697c6": [
       569,
       1140
+    ],
+    "46452c44890773770b95dd852c14543f1ec43f0e5d9e6f5583c41831d9cdf7cf": [
+      337,
+      736,
+      1101,
+      1559,
+      2204
     ],
     "484b14aba0a2c88750d7d3830ec2c5df51aeabd658ba9bf234b73d15bac243a7": [
       1049,
@@ -7098,16 +7282,21 @@
       2401
     ],
     "49a8da32a635b438791135d95f6b4847bf309bedcb38cfd35a5ab6afafd58e0c": [
+      158,
+      308,
       891,
       1158,
+      1439,
       1766,
       2129
     ],
     "49b7067af5598305a55a3f7e0833398b8af6b34f17e1d39bcd3807dc424f2593": [
       456,
+      711,
       1044,
       1410,
       1785,
+      1978,
       2145
     ],
     "4a22e7627d9bebd30ab206e53cf205586a4344336791a2dd3df41098fc2d1ea4": [
@@ -7125,13 +7314,17 @@
     ],
     "4bffd0f85cd656e0920396a65a795021ce8b8fb0ccdfc9d8b4a89ab8c130ff98": [
       761,
+      977,
       1212,
       1658
     ],
     "4d15556c8e8424376d33e6fcdd15184f5f5ca2c2915c8cfce3dafd0e16e103b4": [
       638,
+      906,
+      1335,
       1728,
-      2106
+      2106,
+      2291
     ],
     "4e6df6d21f3e617bbb7618c9c3c8c14f0a0b8a7f66cb0fd54e120ad5318219cc": [
       772,
@@ -7139,7 +7332,10 @@
       1680
     ],
     "4ea25836daa4b064b6b3305f74bac70a0d0b4f4ca020d9985be26a27b45e02f0": [
+      701,
       989,
+      1366,
+      1540,
       1758
     ],
     "4f0805df0d6d11a17539ee0ba3f90deddcdcde17fc0d0f91620bb2d66578a993": [
@@ -7149,34 +7345,54 @@
     "513c47f2db1bbb07a250d9ae7e66ef23156813af4e1cd47825278e892ff81f35": [
       640,
       897,
+      1571,
+      1755,
       1938,
-      2270
+      2118,
+      2270,
+      2433
     ],
     "51a225b8f1158c3cd7f4e058777c4458b985b2f2f241cbfbd1dd8011b7505fa9": [
+      263,
+      597,
       978,
+      1258,
       1630,
       1875
     ],
     "5433491e3d0ae1d67fc8c0c96a43d1ab2a259fac7577774d373ec8424d12fa86": [
       279,
+      586,
+      873,
       1153,
+      1442,
       1602,
+      1821,
       2148
     ],
     "545ce04713b53735f117be0d43ad0e427d6ca17ca9d57cf1631ac294fb623e1a": [
       353,
+      669,
       1107,
+      1258,
       1516
     ],
-    "5489af83ca845971c7f147b9040a9ce1802a6e46dd93c6c23b8bc02510498c20": [
-      811,
-      1662,
-      2731
-    ],
     "5551b369df7c4ac2e015826f610b62b89efac42a3a931b5b2f55efba32f3da1c": [
+      256,
+      394,
       588,
+      722,
       953,
       1375
+    ],
+    "557276d596cc371180a098c838ff553d15771a332f1219fb3977d8f5ec13f178": [
+      412,
+      713,
+      870,
+      1126,
+      1504,
+      1858,
+      2132
     ],
     "5606f762fd23063cd3600c6408e8a71387d59208c43c0189b0607f220d1da224": [
       846,
@@ -7198,15 +7414,20 @@
       2407
     ],
     "586fc6782f8d1d0b28f0daff066077a790bffe274e913b7c50de49fe6e8d1985": [
+      790,
       1104,
+      1329,
       2224,
       2537
     ],
     "58d527da593e58509bda09395e242a4a0bcc516fe43d80c4932506021afd1202": [
+      576,
       906,
+      1066,
       1260,
       1634,
-      1951
+      1951,
+      2128
     ],
     "593d6137b746214e17b64ad3faacbef1c6bd39071302e5840617460ee974c73b": [
       994
@@ -7218,7 +7439,11 @@
       2221
     ],
     "5c1612968714990207c9f60fff54fab11a0e9c9a9b73981d87ba1941322eafa3": [
-      1098
+      363,
+      605,
+      881,
+      1098,
+      1273
     ],
     "5c8d94e087ceb1276caf837dcd871cff0e3c8988b7fe7704fe593b615250efa2": [
       795,
@@ -7229,18 +7454,15 @@
       1114,
       1449
     ],
-    "5e40f78cf46f0548452ff37e6067725660bd4256440cd71bcf63adaef77ff562": [
-      643,
-      960,
-      1249,
-      2038,
-      2273,
-      2682
-    ],
     "5ee40c723964b80f57fe76fbf71965db50e8f21a9a07c53148c24ab84e18acee": [
+      307,
       694,
+      1205,
       1495,
+      2093,
+      2268,
       2569,
+      2761,
       2955
     ],
     "5efd314a498252451b11fc876d590c4fd7c44e7dd8f1ac35e06a2740d3833059": [
@@ -7258,22 +7480,32 @@
       1898
     ],
     "6014a389c56b3e835a3abe4e770962914c2d8bfcb88e0a20f98efca2345219f4": [
+      532,
       889,
       1285,
+      1696,
       1926,
+      2183,
       2525
     ],
-    "603e4c9e4d74b2dc6e74cada4f85ae0738d89e1fa77d73f0a4f06147e3095293": [
-      839,
-      1279,
-      1516
+    "6078f7abb209cdd8247fe2ae111af9f1173d94c77cd3b9ba2797962698685be9": [
+      298,
+      628,
+      763,
+      954,
+      1385,
+      1703,
+      2016,
+      2232
     ],
     "6134542f79f55d1236a2ace83df723148b398cdd102efc58c000e87770003ce9": [
       1119
     ],
     "617e9ed9c26b0afe85041aafee97c09d4ecc4f64d7e710c221deed7f416f1fc3": [
+      394,
       1107,
       1467,
+      1834,
       2212,
       2867
     ],
@@ -7294,7 +7526,9 @@
     ],
     "629ed1f29480c0d45e5c9d2ac2009130aa4173de14a7d9858a8bcc9d98ad8f29": [
       313,
+      716,
       1081,
+      1304,
       1802,
       2110
     ],
@@ -7307,13 +7541,10 @@
     "6304e0bb0a63fa0e6222af965edfdbe8784917b5d9705d5069e692e0f810700d": [
       360,
       1067,
+      1263,
+      1548,
       1846,
       2252
-    ],
-    "641c114a4257b265a9f5dd12456914878d2f7d17824f64be3a475760c7b3d176": [
-      859,
-      1215,
-      1805
     ],
     "64388f2b6000f278db06391dc31f0fa4d7de13d4ce571ecb2a21544c9be08a8a": [
       226,
@@ -7327,9 +7558,11 @@
       1836
     ],
     "64a05f9a733b8986f4f006f729ab4bf7e76f34679bc742756313a6e549383b63": [
+      316,
       689,
       992,
       1687,
+      2523,
       2807,
       3224
     ],
@@ -7338,13 +7571,6 @@
       1017,
       1676
     ],
-    "64dd5e0858a1714f768dd04e7c473890e66f6e76eb15beafdb60c6850cfed717": [
-      702,
-      1073,
-      1398,
-      2158,
-      2438
-    ],
     "64e34544f55583ae271d3136e4ab53bb559c1617331faa57509b29f129e6a6b1": [
       1043,
       2106,
@@ -7352,8 +7578,12 @@
       3225
     ],
     "6567ef8394f708345090ca5989f2455344810a4a52d05c2b8d6936dc65cca1a4": [
+      303,
+      535,
+      709,
       982,
       1652,
+      2357,
       2627
     ],
     "65796c7e0464982db0ba37749f46af6a44f6396c3b95bea935130a0301ae8823": [
@@ -7377,19 +7607,19 @@
     ],
     "68808668671d98f73aeac23c70a17c2fdcbced9c1800b07866c56a529aafc431": [
       992,
+      1201,
+      1401,
       1923,
       2245
     ],
     "68c65d2582decf914d0fff29416468e412ddf382bd6fc4f0afd8589d39c84c44": [
       372,
+      643,
       914,
       1451,
       1924,
+      2177,
       2661
-    ],
-    "6906609c39d7cffe733fd1e9e0e18067346154897053e82cb9411b08a69cfd4a": [
-      490,
-      778
     ],
     "69b09dbd9d3e7b5202defd2d1f051780ff7d40378e3a00b2760645a6ec6e8cad": [
       675,
@@ -7412,11 +7642,6 @@
       1812,
       2217
     ],
-    "6af8269530e6128a733f89064c1d33cb8443f9c055513723cc37d29ee2e0a4ff": [
-      993,
-      2004,
-      2333
-    ],
     "6e26609e95e3bf47d08a08a6dfcf81917ec65d442c20099e433c83c769d6832c": [
       1067,
       1685,
@@ -7426,7 +7651,11 @@
     ],
     "6ea2a72b404058b9fa785325c6478da0a288029851f3b1a3125a64e7d9d161a1": [
       251,
+      527,
+      893,
       1122,
+      1338,
+      1648,
       1886,
       2175
     ],
@@ -7435,27 +7664,40 @@
       1292,
       1966
     ],
+    "70d4db9a3fa29e7067343d34f7a96bb3b16e88bbabc634dd3be408f40a807996": [
+      638,
+      921,
+      1373,
+      1608
+    ],
     "7125d9d885538092027579695a386f94a42064a385f6d14ef02871193d170dc0": [
       596
+    ],
+    "7204a39e6b6a4af95bd510b2a51e7464748b1350496d35e4f6988d8b3c020233": [
+      425,
+      717,
+      1015,
+      1401,
+      1900,
+      2281
+    ],
+    "73a24749f0b86bf27e1a66a01457cac2ae1356178d4e136c5fefe94f95a7a316": [
+      276,
+      573,
+      1008,
+      1264,
+      1874
     ],
     "73fad98d06701d8ca49c2a15cc144fa1878aea21aba79a0dc57a28b8a3dabb56": [
       1138,
       1855,
+      2123,
       2294,
       2723
     ],
     "744a5da68ca59ae803bc577501edd2c7479025d641650fd5d6c975376b0dec2e": [
       848,
       1292
-    ],
-    "74fbc06d5ce22625b6e6b3b4ae6575bf7b35a5acc2b983b7c5feb53bc1a26032": [
-      717,
-      1101,
-      1454,
-      1992,
-      2392,
-      2742,
-      3524
     ],
     "75585ee71f1825b182be1238f825ee111e5fd237a26a6c13035d01a14de5e77d": [
       841,
@@ -7470,10 +7712,26 @@
     "76324378d98cb329cbecbdbb45d1d67d79cb4ad7c1d34db011c20b424ef6d7b9": [
       863
     ],
+    "76d8701db22882ee3c308926d8b115bf2fa9972f60cd84fda2f0d05e25ef4a40": [
+      548,
+      1023,
+      1780,
+      2187,
+      2358,
+      2517,
+      2864,
+      3408,
+      3790,
+      4023,
+      4161
+    ],
     "76f00a2e374bca9848dacb05123994ae02cdd4eda7e4bdbb7543be567da91541": [
       282,
+      954,
       1121,
-      1983
+      1509,
+      1983,
+      2183
     ],
     "77584fecb8fac60d871b4bb822d30570158b5bd9d3e40f7836d6f7931f79ed23": [
       636,
@@ -7485,7 +7743,10 @@
       1243
     ],
     "78752369557ce3a264250f434f9f89d0b6dc17927a6d001d8622a65da5d2ba9e": [
+      349,
       1014,
+      1347,
+      1590,
       1784
     ],
     "79d02fb48872f44a2c30b9879751d8dca2c0a5bfc0af387e98bf93e81807e24b": [
@@ -7494,8 +7755,11 @@
       1291
     ],
     "79d482e7221feefd5840aeabc33f92380332566a36e8de6efa86efa28d863d0d": [
+      232,
+      705,
       1034,
       1453,
+      1620,
       1871,
       2320,
       2588
@@ -7527,6 +7791,8 @@
       2328
     ],
     "7bf71ef67474c6b42f9da083c3a61b8c18ac30ae16397be1cba09437d71b5a18": [
+      286,
+      537,
       976,
       1257
     ],
@@ -7536,12 +7802,6 @@
       1326,
       1606,
       1908
-    ],
-    "7c0d45c7a76e26200d4d09ed80033b484eb085f8cbbb9bc2fd0cef70b550d7e8": [
-      689,
-      1016,
-      1867,
-      2745
     ],
     "7d5467ae3af7e30c18f5863366dacadc84ddc441c6731759d0693156ffcb694c": [
       916,
@@ -7559,16 +7819,14 @@
       1123,
       1450
     ],
-    "7f80a4f41ce55a770b3a39527a18da5e1b92a84531bbfbe91c5da3e02bc51540": [
-      380,
-      1024,
-      1385,
-      1997
-    ],
-    "814bf0c9d342f11aca7950b1fefcbbe5cc591ffbf371e2c40e97f36582fd7d05": [
-      1095,
-      2027,
-      2329
+    "801013398849a6f6af76001fd1e29f31a945ef806db2afd5092e29c9316d179d": [
+      349,
+      634,
+      1085,
+      1455,
+      1701,
+      2135,
+      2848
     ],
     "8156935b97176466a0547ee1464de4894ac56674a55b9bacf67de7774c57ce00": [
       323,
@@ -7577,37 +7835,34 @@
     ],
     "820f2905ae299ee83a30665eb7ceeb2070ca80d92ddabe6aa52835135c69fdc2": [
       343,
+      712,
       961,
       1744,
       2109,
+      2353,
       2680
     ],
     "8331e9809ea5a22b6228e139eae39cc68e0c31175a6df4b8138b961747468474": [
+      183,
       486,
       828
     ],
     "83bf8a03f9ca22f49e054187d6eb9593c236c0794d2f759597ef9aecbe52346d": [
+      182,
+      726,
       1036,
       1429,
+      1769,
+      1915,
       2072,
+      2368,
       2651,
       2924
-    ],
-    "845b568f77c74ab396d7d881cfe13f882bbd457d03a3c453855d7a8eaedd9b92": [
-      988,
-      1859,
-      2248
     ],
     "86328f105c8341018167f36c23bfe2fa76ae70423a74aa112359056fbc6434cf": [
       571,
       924,
       1838
-    ],
-    "863292a1b122b1c82585b6655277dacdad2146c0d41d05592f505c24876c332e": [
-      904,
-      1551,
-      2000,
-      2523
     ],
     "8637c36665e1bbfed0546fc5a1157c793146e8f4ce72b0adcd4a80d1666adddd": [
       546,
@@ -7623,9 +7878,12 @@
     ],
     "877e9f64e11b3e032a0b6c2a501c0682fb4c3c6869ee5b8b83580a262097a9ba": [
       253,
+      432,
       583,
+      812,
       1074,
       1446,
+      1751,
       2006,
       2486
     ],
@@ -7633,13 +7891,6 @@
       233,
       933,
       1306
-    ],
-    "88c1627fb951eaaddf750efbb561bbd2451ca9a8890fac3fa6b744deee0f5654": [
-      549,
-      887,
-      1268,
-      2084,
-      2687
     ],
     "89924b50b7f53dcfe2f2f8fdff93eec6fa5b2731da57e8ea271ddad59aa8ea50": [
       827,
@@ -7655,17 +7906,24 @@
       3164
     ],
     "8b15a9da8ab586723deecd18792f144f7740ce733a006db0be432ac68c8fe336": [
+      205,
       806,
       1246,
+      1381,
+      1528,
       1776
     ],
     "8c011ec63bc063ed08fd3b407cdce40d11014234740c5860daae9e1234a0be98": [
-      285,
+      166,
+      397,
+      544,
       699,
       1045,
+      1323,
       1492,
+      1797,
       2021,
-      2281
+      2174
     ],
     "8c019e9d5b3fe824f99200dae90faf4cd6ba27e13bf7b3733020222af4ac00e4": [
       280,
@@ -7674,23 +7932,30 @@
       1789
     ],
     "8c18a7c843046cd3452ffd13382947671226cfbedd5111b2a81a1ff4e5365d3b": [
-      375,
+      273,
+      679,
       980,
-      2126,
+      1288,
+      2023,
       2464,
       2868
     ],
     "8c827bde7cb3b34ab926284dc3875558deb845b7ddde0f532da91d60cbfb545e": [
       1056,
+      1270,
       1493,
       1966,
       2418,
-      3177
+      3092
     ],
     "8cbc9caf2e03ea548aec7298ebf4dcda337bc34f1dad2133a807de54d5c3c53a": [
+      248,
+      403,
       781,
       1449,
+      1633,
       2066,
+      2303,
       2633,
       2978
     ],
@@ -7708,12 +7973,6 @@
       951,
       1390
     ],
-    "8ec79f1eefb0c694ff73419bb11e2f44fd16f3bef009d3474dfebbd39bf0f1df": [
-      995,
-      1304,
-      2045,
-      2531
-    ],
     "8effafe32bfb00ed3d475357d7c1e9c3c49c0cdb343e7efeb7747bf98eac57f6": [
       983,
       1985
@@ -7728,10 +7987,49 @@
       1262,
       1535
     ],
-    "957bccb6b0df579e69d96c1e4401aa5dbe884a65e1a1456448dd2dfa22dc5be2": [
+    "8ffb2fe5f175ba15bbd23fee8493f0f9abc03da87169ac917f8a7cf069781f8a": [
       309,
+      982,
+      1272,
+      1679,
+      1990,
+      2495
+    ],
+    "908d29231573a8f8133d9d46572dc2da6bdaec8176ead4a81e3d40bdb18d099b": [
+      197,
+      919,
+      1189,
+      1494,
+      1688,
+      2083
+    ],
+    "92220ebfa008a433a31bf60ce465e34a1f856e7f90805c169833bb81afb40b2f": [
+      273,
+      592,
+      831,
+      1159,
+      1574,
+      1793,
+      2106,
+      2411,
+      2812
+    ],
+    "9299457b293988192692115d4e61293bba72a2bc67680b4459fe04a0744b6418": [
+      291,
+      704,
+      877,
+      1108,
+      1941,
+      2277,
+      2538
+    ],
+    "957bccb6b0df579e69d96c1e4401aa5dbe884a65e1a1456448dd2dfa22dc5be2": [
+      166,
+      309,
+      583,
       883,
       1141,
+      1380,
       1871
     ],
     "95e31f0c31c79a01405ef1184557993b1fd4092de78712ae44eab3676587db10": [
@@ -7746,13 +8044,19 @@
       1865
     ],
     "98ce4fae6b203c05ba0701b1a61116e8bddc13476366316b73c3a310abf19b8d": [
+      169,
+      384,
+      734,
       1048,
+      1328,
       1542,
+      1679,
       2210,
       2626
     ],
     "9ad8056963337ed147556bcff77df9e34688cf43eae80e1d6e709fb42403679d": [
       378,
+      734,
       1027,
       1388,
       1798,
@@ -7760,14 +8064,19 @@
       2543
     ],
     "9b5bc03fe9c082b593856925e21e708cf20b02a505b758490814c8ae9d1437e9": [
+      305,
+      654,
       946,
+      1131,
       1453,
       1846,
+      2089,
       2400
     ],
     "9b67d10649aed91d2c803681d7481890e89ab2b6fc5b85cdb25af4892aed492d": [
       292,
       670,
+      872,
       1040,
       1427,
       1767
@@ -7782,8 +8091,16 @@
     "9c125c5987d8655e28fe70e210b7db177c79c676874b9e8b00f041ed1772ee3e": [
       254,
       951,
+      1219,
       1412,
       1961
+    ],
+    "9cfcda3c506d59f109ad2536b6dd0b376982031c9b11abc557c9e1625cd9a813": [
+      297,
+      630,
+      891,
+      1231,
+      1804
     ],
     "9d655c065a26e530b1a96bb24c37b9264b1368d2e508d1b6f55701c45be33496": [
       679,
@@ -7796,8 +8113,10 @@
       2177
     ],
     "9f5e6af978d1a814e803a24d8c8632eb1f7a8e413625518d4ca3cd7c9a906f8b": [
+      142,
       573,
-      963,
+      854,
+      1466,
       1854
     ],
     "a014c3ad2c690f8688c8693509e4ab5d635e9b8b301a8aca684a96414ec55222": [
@@ -7805,31 +8124,33 @@
       1538
     ],
     "a09fccccb1e25460c15ecde89a68f3b2b36130ca9ca9002b2215752e260580f7": [
+      218,
+      416,
       806,
+      1208,
       1550,
       1933,
       2295
     ],
     "a25b08b98c531900db284ef4079b85970d0daebe740afac4ae1ef2b246636f91": [
+      451,
+      659,
+      854,
       1007,
+      1257,
+      1394,
       1680
     ],
     "a2ec97d8fb5409bd1babd5b8dc3541bf293a4dde8e24ee469ce44b0bfc687597": [
+      292,
       587,
       907,
+      1054,
       1281
     ],
     "a3bf078bfddbb0f8b7059a0406fcc41954f195978c972d9a56ad4481f653dd17": [
       719,
       1092
-    ],
-    "a4587dbd34d05ca84fde935171d904bc16ac8b6f06ec8ad6c2f3145ee54ee6b1": [
-      1034,
-      1944,
-      2352,
-      3012,
-      3323,
-      3834
     ],
     "a4fc5533436baa44de2abe1d99eb4a60de48f934a5073f1980228a4a6e497ab8": [
       343,
@@ -7838,15 +8159,14 @@
       1549
     ],
     "a5b73275d9b165adb4d40c4f7acd857acf0c78ed655e90d200e80587d6e81f12": [
+      235,
       540,
+      721,
+      862,
       1123,
+      1771,
       2239,
       2492
-    ],
-    "a5bef1d228dae093edc532c1a7204b732d5b99c37ee95aee0b6ca68c8588352f": [
-      817,
-      1214,
-      1623
     ],
     "a63cde0407dcb510b335f2db8a9d059a058e295c7d008b4b4db4cbdd459ff78a": [
       654,
@@ -7862,16 +8182,8 @@
       727,
       1248
     ],
-    "abb4fa1320c8e631f5c46c092676817af4b064b9dfc09c352fdfd8e049a9e1d7": [
-      928,
-      2056
-    ],
-    "ac5efe54dbdcde6c8d844e49501339d9efae9964e8db1c6b3f8ad3416d24045c": [
-      582,
-      1474,
-      2056
-    ],
     "aca33ed41bb3d49dc1e5a93ef86a2ee1fd05ecb832381facf0606e417131529c": [
+      545,
       1024,
       1489,
       1743
@@ -7898,10 +8210,15 @@
       2209
     ],
     "ae70506de07ce0a6722a70d647680a94ab54e1199c8f6aaa7fa083762671c303": [
+      311,
+      661,
       945,
+      1215,
+      1565,
       1956,
       2331,
-      2872
+      2872,
+      3066
     ],
     "af0c6f3d83ab248cc734cd327438819185751348dcf21c342e988e719a89638c": [
       880,
@@ -7925,8 +8242,10 @@
       1355
     ],
     "b042c4195fa2a92883ac19cff291137e1072f042665a3004759812b2081ec083": [
+      258,
       857,
       1166,
+      1445,
       1676,
       1950,
       2237
@@ -7939,7 +8258,9 @@
     ],
     "b075e46bc3eb7109a9c90f076f1a8e6cd252b94e2104ed37cb671ec8dfbb6704": [
       339,
+      693,
       982,
+      1226,
       1532
     ],
     "b10d18324b5cf9f77831baed2df9927f7df1947e60a9e7895680f2d41ba3612f": [
@@ -7954,26 +8275,44 @@
       1868,
       2273
     ],
+    "b13a46c1aac0ad07be6efd2a8a3b6b302046d682f13f25fd2d5f9a8f38880dfa": [
+      244,
+      452,
+      727
+    ],
     "b1c85d1fbc9ac7787c8656fd0f19675a00960004af7e0ba0da85b0be9c8d8265": [
+      663,
       913,
+      1264,
+      1751,
       1994,
       2438
     ],
     "b3007f2a0cf3822818f92ee8bf49f6698d11d74b895773094d812fc4b1758d32": [
+      257,
+      626,
       837,
       1932,
       2215,
       2515
     ],
     "b3881a57f12e1cf420e8bb9cd58dbcc9280d8dc30027beb79021650b61baa354": [
+      313,
+      704,
       1063,
-      1457,
+      1323,
+      1689,
+      1836,
+      2000,
       2283,
       2671
     ],
     "b3e15a34334445770a1e7d64922a5c0547aba988791df5910e0c75d04113dd76": [
       804,
+      1147,
+      1379,
       1911,
+      2315,
       2543
     ],
     "b41a5ceaa4c48b98d1eb205a2c8aa2356a70397174a179970314477c1e2004ba": [
@@ -7983,7 +8322,9 @@
     ],
     "b574d5fd421ac7f998ce73e875640628ebb4557527b6556b508590c65a2906b3": [
       868,
+      1151,
       1415,
+      1626,
       1922
     ],
     "b5b7578248c9de4fbf086e98bf439430ac7d2471138c64018f261a40e73069d1": [
@@ -7994,6 +8335,7 @@
     ],
     "b6a4aea0c9b0ecc28b6c9fe5b0aef5c12dacd1c7a41a9a939f10cdc42c84232f": [
       306,
+      677,
       970,
       1638,
       1958,
@@ -8004,20 +8346,26 @@
       798
     ],
     "b750d202a1d8c4d808e446cf4d6d107fb2e10d16ade4b922b3213657589d4dc1": [
+      626,
       977
     ],
     "b7a1328409cf45abcb4dd874f11ff3f21145695c950982735ac78646f6c961e2": [
       566,
       1077,
+      1630,
       1999,
       2379,
-      3064
+      2613,
+      2953
     ],
     "b8fe43e8d37907f61bbc67208e6d9ea2e2390d8f82d6ec0e5582d9606a43c4ce": [
       903,
       1671
     ],
     "b908e89fb66a2a07578f27f9ec4f7dabc199e87eda06f09f9df09e2d1d918dc4": [
+      170,
+      372,
+      613,
       897,
       1296,
       2036,
@@ -8035,15 +8383,22 @@
       1696
     ],
     "baeccf9049ce5da84a19f90659f83dd9acc941c04417ea687da9a7443f04b9d6": [
+      275,
+      468,
       664,
       969,
-      1413,
+      1302,
+      1571,
       1920,
-      2810
+      2366,
+      2810,
+      2986
     ],
     "bb0008a8008fc207e35fa9949820c844a9b5964f8157672dcaa449f8ee624e56": [
+      250,
       650,
       980,
+      1365,
       2023,
       2451
     ],
@@ -8061,29 +8416,34 @@
       1694
     ],
     "be406f0587227ac1072bf728bf95bb27c476c1f9ae79b1f56ba024cd5bd0d1f3": [
+      429,
+      756,
       1120,
+      1267,
+      1507,
       1717
     ],
     "be7e7fd022799b9f2700daf070099c0470ad6a3985e78f7062f65f070cfee46c": [
+      400,
+      687,
       958,
       1519,
       1804
     ],
     "c00a208814b25b4fa409a38f388dcdce93e6fc1fafcc6264ca45f1cd3ea513c1": [
+      665,
       1001,
       1291
     ],
     "c0e6cb1876c1ff2f722394ae237eaae4c1c32bf3e67cadfb0125aa1320e5b65d": [
+      302,
+      623,
       897,
+      1257,
       1613,
+      1813,
       2130,
       2404
-    ],
-    "c0f15d592258786b1272a62707f6243dd7bdccaca4a25e5466d3cea7ca124c1a": [
-      575,
-      991,
-      1549,
-      2596
     ],
     "c168c173cc78b5b83a2f38213dbf6d44211b1acfa4b389812238ac6eed59bb4d": [
       1049,
@@ -8093,30 +8453,36 @@
       672,
       966
     ],
-    "c3394335e7ea2e9abd3bf663e6c8259f4dcc5048aa63172e43aa19934dd14eb4": [
-      866,
-      1219,
-      1614,
-      2040,
-      2597
+    "c4faa4a66a4f09258f03fd7cd5ebaecc3199667a5e46d71bc4604766cc17320f": [
+      344,
+      626,
+      953,
+      1353,
+      1769,
+      2024,
+      2463
+    ],
+    "c5b8660512ba5bef5bc4acc2c88233484d1c8f5db79b7670eca2b2d835803173": [
+      225,
+      804,
+      1205,
+      1661,
+      2048,
+      2540
     ],
     "c5bd073345adcbff739ceecfb2087b811e02595784ed182667e4eb7f3c81947f": [
+      265,
+      611,
       961,
       1373,
+      1617,
       2107,
+      2444,
       2670
     ],
     "c5e917f1458301b1e64dc5a81d35fe01afb74b5d81c1af85934e060f6d198a0b": [
       973,
       1416
-    ],
-    "c63679ab7af4da0791c5c3374198fe60a11b35f6ff8dfb297b309410e07536fc": [
-      519,
-      972,
-      2081,
-      2734,
-      3575,
-      3918
     ],
     "c66d99c644fff67ff544c96b6e340a84fb76e2b0c500293b2b3b6024846364d8": [
       829,
@@ -8136,10 +8502,12 @@
     "c74c816023e104440ed6b1dc92e77b86c140319656eb9a90e9c14eef12c51f07": [
       633,
       902,
+      1079,
       1457,
       1900,
       2215,
-      2638
+      2638,
+      2790
     ],
     "c7568b1eef59057f87c62550a8c4e592b819c76e987cfef7281dad013acb104d": [
       480,
@@ -8165,6 +8533,8 @@
       2388
     ],
     "c8cbca25e72b8f8a93b149e50830e9b29d72896d6d88d21dba1a47b862c0001a": [
+      252,
+      473,
       644,
       956,
       1388
@@ -8195,14 +8565,27 @@
       1409,
       1680
     ],
+    "ccd0d4b47af724cc34175067048490668fc7b337723f7198f7e4045b0fb69c19": [
+      376,
+      656,
+      949,
+      1251,
+      1491,
+      1905,
+      2182
+    ],
     "cd52a749afb10322d5dfa8d35d594fa03d5a9a94adeda042a7d1519f859b5584": [
       346,
       1108,
       1992
     ],
     "cdc76efe8606a9b5db2925f87a8d6c2289c13c794ed3e4f14c185f21aa9a69aa": [
+      223,
+      726,
       1029,
+      1253,
       1925,
+      2147,
       2363
     ],
     "cf085fd8e806007dffcba15b6cf85d52897ce41f8d0f45281bbdab3ce0971f49": [
@@ -8216,12 +8599,22 @@
       1046,
       1300
     ],
+    "cfb7d6e77beb2c277fcc79c292e82ad9062e41d809c174c496b6de4942387d0a": [
+      670,
+      1108,
+      1315,
+      1508,
+      1648,
+      1844,
+      2243
+    ],
     "d091364f252f77b2529526d606bc5eaec71fbf16e6d0b59db4280c4b46db061b": [
       658,
       1128,
       1388
     ],
     "d0b11467b3a2fee2dcbae8ecdea573f4d404bdd35558a4c0e87eceb043f4fac9": [
+      279,
       807,
       1240,
       1777,
@@ -8245,22 +8638,42 @@
       902
     ],
     "d288e36d3e255728e5c6d5c1b8bbc36508a5386893c629578d391c2d8967bd77": [
+      380,
       692,
+      1027,
       1253,
+      1662,
+      1862,
       2351,
+      2693,
       3013,
       3468
     ],
     "d2990997dbcdeb8a7b40c9ad767fc967e3c651d0e7ea5660ab50eb2501b95f8f": [
       1011,
-      1316
+      1316,
+      1455
     ],
     "d3e0092b056c8bd55bb93ec7ca576f796769bbcbbf460ded4d25605ad2225121": [
+      629,
       946,
       1448,
       1948,
       2322,
       2889
+    ],
+    "d4826343019ab65a2237f285633dcbcb68786140671f9489ad95d505887920d0": [
+      240,
+      383,
+      751,
+      1083,
+      1477,
+      2010,
+      2191,
+      2429,
+      2573,
+      2733,
+      3081
     ],
     "d4cecf8819ce714ace33bdc724968c9824ace0a6f39b032188d044d9e5bf6ebc": [
       1014,
@@ -8272,6 +8685,7 @@
     ],
     "d601c419451ee10c4c7c151ce379b2feca12b88210d8528cc61ab3fbfa7a0b75": [
       528,
+      846,
       1593
     ],
     "d777bafd87dd3d5504b7033fcb0c622e9f877cf69ae485688e9a604155f7b224": [
@@ -8280,7 +8694,11 @@
       1674
     ],
     "d786d504897ea5bebed40f7ab0edcbc7a3c4af52c8b57e6ac4072619aa59d76d": [
+      232,
+      533,
+      703,
       920,
+      1168,
       1341,
       1816,
       2234,
@@ -8291,6 +8709,17 @@
       936,
       1319,
       1584
+    ],
+    "d9463a2bd03d31231f44cfff7d2cc1fe332aed3bb77efa08fcd71abde05e124f": [
+      136,
+      311,
+      604,
+      954,
+      1093,
+      1390,
+      2112,
+      2279,
+      2613
     ],
     "d989fbe3e5ff80b539d2ae77305f0c5b574489353a65498a99b4de399f60cc49": [
       685,
@@ -8309,20 +8738,26 @@
       1768
     ],
     "da774ab1b081d76c46f99642c234cfa4eb7a01d58feee610ad0c82328a08bfa7": [
-      402,
+      283,
       954,
       1529
     ],
     "db5534d5ecf3ed748ed3462428e754ce54b7d74aaebdd34e57e670598b8c95de": [
+      476,
       737,
+      1148,
       1429,
+      1673,
       1989,
       2456
     ],
     "db5e71e3804287fe38762346447cced53c49844daccd8eb9c9a4bf1efec23f53": [
       312,
+      650,
       937,
+      1184,
       1377,
+      1593,
       2108,
       3137,
       3500
@@ -8338,9 +8773,14 @@
       1394
     ],
     "dd6ea27e20798010ef5f90c6a8d4de28cca8d732634960f288d6336b5f2b2b78": [
+      294,
+      628,
+      805,
       1016,
       1688,
       1983,
+      2271,
+      2574,
       2720
     ],
     "ddc3c3a4b79927bff241368a49fb66520143c29f6c526f0201c97fea574bb843": [
@@ -8349,9 +8789,17 @@
     ],
     "ddd29e0b65fc85294ef9a8bc3e3b1017c2bf8bb8bc9e60c638fb4e3070292ad3": [
       382,
+      589,
       947,
       1453,
       1817
+    ],
+    "ded51b1dcf199894b511e3fb5d3f4ceddc09fd72368583fe1f9e9dcc24514321": [
+      356,
+      653,
+      905,
+      1227,
+      1839
     ],
     "dff576aaf8e53b39a865aa85910904be68c7adbbb7edc39145e97760c5d3c31a": [
       758,
@@ -8365,6 +8813,7 @@
     "e01962b9b094a6f81a9c4603dc49226a9380b46243afdda31d740c3904761274": [
       312,
       975,
+      1827,
       2050,
       2723
     ],
@@ -8380,23 +8829,23 @@
     ],
     "e15424e1bb6a2eb79c7530f85677e88bdc6342b84134b531576a534dd4a57651": [
       271,
+      600,
       988,
       1768,
+      1978,
       2141
     ],
     "e168210cf6bf842b02da91e27672751251958d50069f2bd96d18efec8bbbc836": [
       628,
       889,
       1243,
+      1586,
       1875,
+      2111,
       2276,
       2854,
+      3070,
       3248
-    ],
-    "e1b7db7b29ea49c5514a1368506f67ae3c7358640d6a108720d65b0a54eff5cf": [
-      973,
-      1982,
-      2246
     ],
     "e2b599b88f3a8d06883bbd8675e5baff66645f71270264e6e39fe3760e70b887": [
       938,
@@ -8407,6 +8856,14 @@
       3950,
       4224
     ],
+    "e406d032626161a776740c44df47788d2e79ebbba67bebc915a43b65463e26d0": [
+      276,
+      707,
+      1004,
+      1441,
+      1900,
+      2695
+    ],
     "e415f06178e67d45086a669246ddefba66c130ea44d2133e4ef3327dfb7cfb39": [
       923,
       1286
@@ -8416,33 +8873,41 @@
       908,
       1220
     ],
-    "e6c23ac9653db8ef4c1b5ea24546117930561886593b1f1767670827ee781555": [
-      300,
-      922,
-      1379,
-      1702,
-      2022,
-      2351
-    ],
     "e720c4036b88355160ccf6772c50464c997ce2bd887a4fc5c25841a0d27a8d53": [
       291,
       978,
       1276
     ],
     "e74e5b0f99881f975cd5737a8942378b9fa2b0e9613df52935bc8e4bd22fbafe": [
+      278,
       730,
       1634,
       2172,
       2541
     ],
     "e952f5b01d3d4f0ef3af76e23bc8d97cc0a420cb0b662a11dd5dfd9efb3d4e33": [
+      216,
       515,
       940,
       1405
     ],
-    "eb3077cbfeff7e6ec8e5c97dde0927ebb72cb141dbe189b24d9f82685ccb873c": [
-      1122,
-      1479
+    "e9c8c2f9bb71f12249bf11fbf27677ac5a6cc52915fe523252b8b47bd6e6a299": [
+      232,
+      673,
+      1023,
+      1334,
+      1806,
+      2043
+    ],
+    "ebaeabfe8d2c9666c47a321c8db5edfea48620ed32e9b0919bee074643c42444": [
+      181,
+      583,
+      814,
+      1135,
+      1462,
+      1871,
+      2255,
+      2401
     ],
     "ec789648d151c01043994fb4bcb5aa95d796c87b26bee7a89ce06e6b23dba93c": [
       259,
@@ -8455,7 +8920,10 @@
       1450
     ],
     "ed8504337779b721aba587d2fafdb604227cc48f33610da301124ff6a5cd4eb1": [
+      338,
+      755,
       1077,
+      1897,
       2151,
       2628
     ],
@@ -8464,42 +8932,41 @@
       1256,
       1600
     ],
-    "eda9ce52964758706aebd2fc550be812d282f5728956ebf39bfcc72aa486743c": [
-      988,
-      1891,
-      2690
-    ],
     "edac1ab44bcf4f93ad2af0c28a1e40a515d0d670c4aea70fda2b1aa038bc1b07": [
       786,
       1168,
       1704
     ],
-    "ee493b386ae15057471cf2a6a4d33e6ef4cbceebaf45759d178290d6b1fe5e8f": [
-      274,
-      747,
-      1048,
-      1769,
-      2102
-    ],
     "ef38df08278083a83a3de96bc55401c1005c7fae9a319099082a752efe31c51d": [
+      318,
       780,
       1140,
+      1420,
+      1765,
+      2053,
       2285,
       2535
-    ],
-    "efc7d7bcffed40bb6523c674d78b531794c974e951f317ce7d15b2882e02d66a": [
-      355,
-      1074,
-      2079,
-      2670
     ],
     "f02241414b65718534e8867e141acf2570de01304b5321d8506c683a30eafc34": [
       846,
       1584,
       2022
     ],
+    "f12dd4a16a3113ff41bf3cf012d325eda0bbd009336341985ca80aaa29f160c7": [
+      344,
+      716,
+      1042,
+      1519,
+      1926,
+      2428,
+      2819,
+      3027
+    ],
     "f27d2de16d2bff5d517ee58f745b638ecb75c4465054000dc87aa15321b5ea3b": [
+      350,
+      637,
       913,
+      1083,
       1541
     ],
     "f2eecfa5dba179040bf0883a909182aea4cb8460795db8112a82135ab4c5b63c": [
@@ -8507,37 +8974,41 @@
       1513
     ],
     "f2f593023373edf907b79e64af5ad008f0d4cecef2f61172f32ca082bfd87d67": [
+      241,
       744,
+      1052,
+      1326,
       1572,
       1945,
-      3002
+      2694,
+      3002,
+      3202
     ],
     "f322b33ae65caba5b70892dc2859f29eddcb5690f7e359781b2bef38a5734f80": [
       359,
       918,
       1573,
       1974,
+      2164,
       2415
     ],
-    "f37b931bc8a0fb0ec3e6e65a5e50a29c2686634bca74f8093213d4901bc3de9b": [
-      331,
-      670,
-      1120,
-      1535,
-      1878,
-      2293,
-      2669
-    ],
     "f391f09d56ae961f0a151c5604cc08724e01579df2cc92e75bd7214110214766": [
+      324,
       651,
       995,
       1340,
+      1756,
       2016
     ],
-    "f42f47465b09d91a50344d5d93903570f8eb792cfcfeb3d1fe87b77f9592e173": [
-      909,
-      1740,
-      2123
+    "f40dc5f02497270128c6ca5dbfc582098e7ae428429b8aa843c0206284ad11d1": [
+      260,
+      662,
+      809,
+      1008,
+      1380,
+      1687,
+      1931,
+      2190
     ],
     "f4a870ab1de40bb61f9fb4d13b849ecb4ee2d278e01e006257107da6b52c280e": [
       715,
@@ -8553,19 +9024,16 @@
       957,
       1462
     ],
-    "f57689972c5a1a8db597156e2671591efb82f95c3e69626fe1edeaecab63ae75": [
-      810,
-      1474,
-      2157,
-      2993
-    ],
     "f5fd0c89fedd79796454a8f29243498411be4a41fa19116ca53d8c59ff4babcb": [
       1004,
+      1314,
       1651,
+      1933,
       2214,
       2497
     ],
     "f60475ea478155e4b56aef50ac0666e04f4b39d81958e5fca5a8007366c58f8d": [
+      600,
       807,
       1124,
       1518
@@ -8576,14 +9044,20 @@
       2081
     ],
     "f6c8ecfd7e482097469518c1cadd8df1dad42d2463f7cfdb7d55f60717bc53bf": [
+      318,
+      667,
       1002,
       1353,
+      1497,
+      1717,
       1948
     ],
     "f6ed1af89f29af9d9ee04e80bddc021dd0070c2a6c4b3764c558301c17bd3864": [
-      391,
+      294,
       804,
+      1006,
       1418,
+      1730,
       2144
     ],
     "f721007888a2d29d6e9f1a3a3108aef91e3d5b3a16c27dd35d77c87448a4e09f": [
@@ -8595,9 +9069,11 @@
       3590
     ],
     "f74cf8891724dd6f4a1a311d1758bb49bf9deb1b071ac07fe74c570129bef85b": [
+      280,
       672,
       1006,
       1303,
+      1499,
       1726
     ],
     "f7a2eb4c616aa68150aa6583f9edadfdbfa76fbd48a06ac71651d62a58ef5a0d": [
@@ -8609,6 +9085,16 @@
       898,
       1824,
       2240
+    ],
+    "f9722331532102b0f6450e5a708527e5df3bafaa5e60e2655684deb46b36c88b": [
+      193,
+      342,
+      580,
+      916,
+      1255,
+      2022,
+      2316,
+      2608
     ],
     "f993b63a0c351fea675fa138421b6dc2464a7f594e7a4c9e4edb23a584df9dd9": [
       717,
@@ -8622,16 +9108,13 @@
       1364,
       1751
     ],
-    "f9a3f9bdb9043db071d617562031e9f92486698ed0f628ff08b55ff8426c3a37": [
-      428,
-      846,
-      1681,
-      2054,
-      2585
-    ],
     "fa41256aa9c738fda30b75b513f3e3b0ff6fcff388fdcf6f92722edb24e02f16": [
+      373,
+      666,
       993,
+      1576,
       1996,
+      2455,
       2887,
       3250
     ],
@@ -8645,6 +9128,23 @@
       1427,
       1674
     ],
+    "fb4052abbcb6de8e2766f8c9ecf7c408fee8c56fcbe1c3beb9e598b4d0853725": [
+      337,
+      683,
+      823,
+      1115,
+      1459,
+      2102,
+      2373,
+      2676
+    ],
+    "fbf20665bd80222a67be7b4e320779b5381eca0d2be7171b2f46535629e052b5": [
+      920,
+      1273,
+      1677,
+      2108,
+      2691
+    ],
     "fc00032b7d1acb0715e2ad1680959b0ad2dc6c2f80d4e60e47478f9d686b9e99": [
       913,
       1823,
@@ -8652,46 +9152,36 @@
       2484
     ],
     "fc89df02d5431c56325fbcc1b5c9b9de7e6bd6483a4b2e2fcc9d09ae9931edeb": [
+      590,
       838,
+      1104,
       1333,
+      1606,
       2007,
       2585
-    ],
-    "fde285617f74cff1510acf6c350ad4042a5b3f71a0fc03e25d8f40f4155d2c53": [
-      762,
-      1150,
-      1642,
-      2012,
-      2318
     ],
     "fe6843339824005360be1e4dd5c4d61b8a48420d3af574b0e01db8adc7c5fe14": [
       950,
       1314
     ],
-    "fea51dde6f7c4b16c2d1fe0fc3dfaae1b5faf3b9d3cf4ce13f6c366bee45b740": [
-      770,
-      1418,
-      1843
-    ],
     "feeb34f9ea92f7501e6c7451760f56f20dd6c0c148669a613b837d5de6fcdc0e": [
+      481,
+      640,
       825,
       1288,
       1556
     ],
     "ff45efd95ddefe84992b982e1651ecddb5c83cf9c781b190aaf6493d5d4e57a6": [
+      260,
       560,
       1087,
       1565
     ],
     "ff6e589af0762d0311ac2c84ccb65cbfa19ff7322e7d908bc9c72e81027d8295": [
+      197,
+      616,
       928,
       1225
-    ],
-    "ffac8f18976974145aa09484b70c5a052eac76531bc06027a4d753e5e97ef829": [
-      738,
-      1186,
-      2323,
-      2600
     ]
   },
   "pack": "LoreForever_Voice_Female_Alliance",

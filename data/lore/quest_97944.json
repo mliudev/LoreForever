@@ -1,0 +1,107 @@
+{
+ "key": "quest:97944",
+ "type": "quest",
+ "name": "Camping 101: Herbalism",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97944
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists discover that harvesting flora serves practical wilderness survival beyond alchemy, providing raw botanical ingredients to craft camp utilities like incense candles."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance herbalists operating around Teldrassil are directed to Dolanaar to learn specialized fieldcraft techniques from local night elf practitioners."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elves have long understood the ambient and restorative properties of nature's herbs, sharing these traditions at settlements like Dolanaar."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is camping 101 herbalism",
+    "camping herbalism quest"
+   ],
+   "answer": "Camping 101: Herbalism is an introductory profession task that directs skilled gatherers to study specialized wilderness craftsmanship. It guides herbalists to learn how to prepare camp goods from the flora they harvest in the field.",
+   "q": "What is the purpose of this quest?"
+  },
+  {
+   "aliases": [
+    "what does incense candle do",
+    "incense candle benefit"
+   ],
+   "answer": "An Incense Candle provides an invigorating atmosphere at a campsite, lifting spirits and offering a soothing boost that spellcasters and healers rely upon to maintain their magical focus.",
+   "q": "What does an Incense Candle do for a camp?"
+  },
+  {
+   "aliases": [
+    "who teaches incense candle",
+    "who is malorne bladeleaf",
+    "bladeleaf dolanaar"
+   ],
+   "answer": "Malorne Bladeleaf is an instructor residing in Dolanaar who possesses the knowledge to craft herbalist camping supplies, specifically instructing proficient gatherers in fashioning Incense Candles.",
+   "q": "Who is Malorne Bladeleaf?"
+  },
+  {
+   "aliases": [
+    "where is dolanaar",
+    "dolanaar location"
+   ],
+   "answer": "Dolanaar is a night elf settlement situated on the island of Teldrassil, serving as a regional hub for travelers, trainers, and woodland crafters.",
+   "q": "Where does this quest take you?"
+  },
+  {
+   "aliases": [
+    "who benefits from incense candle",
+    "is incense candle for casters"
+   ],
+   "answer": "Healers and spellcasters benefit most directly from the serene, focused environment created by an Incense Candle, helping replenish their spirits and magical fortitude during wilderness expeditions.",
+   "q": "Why are Incense Candles useful to magic users?"
+  },
+  {
+   "aliases": [
+    "when can i learn incense candle",
+    "herbalism skill requirement camping"
+   ],
+   "answer": "Gatherers must demonstrate sufficient practical skill and proficiency in herbalism before Malorne Bladeleaf is willing to share the craft of fashioning camp utilities.",
+   "q": "What is required before Malorne Bladeleaf will teach you?"
+  }
+ ],
+ "keywords": [
+  "camping",
+  "camping 101: herbalism",
+  "dolanaar",
+  "herbalism",
+  "incense candle",
+  "malorne bladeleaf",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:dolanaar"
+ ],
+ "sections": [
+  {
+   "body": "Herbalism is far more than simply wandering the meadows to pluck blossoms. While gatherers often sell their finds or supply alchemists, experienced wilderness travelers know that wild flora can be fashioned directly into valuable camp equipment. Learning to prepare harvested botanicals for survival purposes ensures that a gathered yield directly supports extended journeys in the field.",
+   "spoiler": 0,
+   "title": "More Than Picking Flowers"
+  },
+  {
+   "body": "In the settlement of Dolanaar, an instructor named Malorne Bladeleaf teaches proficient herbalists how to craft an Incense Candle. These aromatic candles create a focused, high-spirited sanctuary around a camp fire, providing a revitalizing presence that healers and spellcasters appreciate when restoring their magical energies between perils.",
+   "spoiler": 0,
+   "title": "The Soothing Flame of Dolanaar"
+  }
+ ],
+ "summary": "Camping 101: Herbalism introduces gatherers to the practical survival applications of their trade. By visiting Malorne Bladeleaf in Dolanaar, skilled herbalists learn to craft soothing Incense Candles that bolster healers and spellcasters around the campfire.",
+ "attribution": [
+  "In-game quest text: Camping 101: Herbalism"
+ ]
+}

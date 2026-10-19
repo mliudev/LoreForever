@@ -369,6 +369,110 @@
       "live": true
     },
     {
+      "key": "male-more-people-dede",
+      "name": "Lore Forever - German Narration: More People (Male Narrator)",
+      "about": "the male narrator in German: the whole story of hundreds more characters, plus factions, peoples and lore topics",
+      "from": "LoreForever_Voice_Default_MorePeople_deDE.zip",
+      "folders": ["LoreForever_Voice_Default_MorePeople_deDE"],
+      "file": "Lore Forever more people (male narrator), German {v}",
+      "core": "optional",
+      "requires": [],
+      "id": 1754443,
+      "slug": "lore-forever-german-narration-more-people-male",
+      "live": false
+    },
+    {
+      "key": "female-more-people-dede",
+      "name": "Lore Forever - German Narration: More People (Female Narrator)",
+      "about": "the female narrator in German: the whole story of hundreds more characters, plus factions, peoples and lore topics",
+      "from": "LoreForever_Voice_Female_MorePeople_deDE.zip",
+      "folders": ["LoreForever_Voice_Female_MorePeople_deDE"],
+      "file": "Lore Forever more people (female narrator), German {v}",
+      "core": "optional",
+      "requires": [],
+      "id": 1754444,
+      "slug": "lore-forever-german-narration-more-people-female",
+      "live": false
+    },
+    {
+      "key": "male-more-people-eses",
+      "name": "Lore Forever - Spanish Narration: More People (Male Narrator)",
+      "about": "the male narrator in Spanish: the whole story of hundreds more characters, plus factions, peoples and lore topics",
+      "from": "LoreForever_Voice_Default_MorePeople_esES.zip",
+      "folders": ["LoreForever_Voice_Default_MorePeople_esES"],
+      "file": "Lore Forever more people (male narrator), Spanish {v}",
+      "core": "optional",
+      "requires": [],
+      "id": null,
+      "slug": null,
+      "live": false
+    },
+    {
+      "key": "female-more-people-eses",
+      "name": "Lore Forever - Spanish Narration: More People (Female Narrator)",
+      "about": "the female narrator in Spanish: the whole story of hundreds more characters, plus factions, peoples and lore topics",
+      "from": "LoreForever_Voice_Female_MorePeople_esES.zip",
+      "folders": ["LoreForever_Voice_Female_MorePeople_esES"],
+      "file": "Lore Forever more people (female narrator), Spanish {v}",
+      "core": "optional",
+      "requires": [],
+      "id": null,
+      "slug": null,
+      "live": false
+    },
+    {
+      "key": "male-more-people-ptbr",
+      "name": "Lore Forever - Portuguese Narration: More People (Male Narrator)",
+      "about": "the male narrator in Brazilian Portuguese: the whole story of hundreds more characters, plus factions, peoples and lore topics",
+      "from": "LoreForever_Voice_Default_MorePeople_ptBR.zip",
+      "folders": ["LoreForever_Voice_Default_MorePeople_ptBR"],
+      "file": "Lore Forever more people (male narrator), Portuguese {v}",
+      "core": "optional",
+      "requires": [],
+      "id": null,
+      "slug": null,
+      "live": false
+    },
+    {
+      "key": "female-more-people-ptbr",
+      "name": "Lore Forever - Portuguese Narration: More People (Female Narrator)",
+      "about": "the female narrator in Brazilian Portuguese: the whole story of hundreds more characters, plus factions, peoples and lore topics",
+      "from": "LoreForever_Voice_Female_MorePeople_ptBR.zip",
+      "folders": ["LoreForever_Voice_Female_MorePeople_ptBR"],
+      "file": "Lore Forever more people (female narrator), Portuguese {v}",
+      "core": "optional",
+      "requires": [],
+      "id": null,
+      "slug": null,
+      "live": false
+    },
+    {
+      "key": "male-more-people-frfr",
+      "name": "Lore Forever - French Narration: More People (Male Narrator)",
+      "about": "the male narrator in French: the whole story of hundreds more characters, plus factions, peoples and lore topics",
+      "from": "LoreForever_Voice_Default_MorePeople_frFR.zip",
+      "folders": ["LoreForever_Voice_Default_MorePeople_frFR"],
+      "file": "Lore Forever more people (male narrator), French {v}",
+      "core": "optional",
+      "requires": [],
+      "id": null,
+      "slug": null,
+      "live": false
+    },
+    {
+      "key": "female-more-people-frfr",
+      "name": "Lore Forever - French Narration: More People (Female Narrator)",
+      "about": "the female narrator in French: the whole story of hundreds more characters, plus factions, peoples and lore topics",
+      "from": "LoreForever_Voice_Female_MorePeople_frFR.zip",
+      "folders": ["LoreForever_Voice_Female_MorePeople_frFR"],
+      "file": "Lore Forever more people (female narrator), French {v}",
+      "core": "optional",
+      "requires": [],
+      "id": null,
+      "slug": null,
+      "live": false
+    },
+    {
       "key": "portuguese",
       "name": "Lore Forever - Portuguese Narration (Male Narrator)",
       "about": "Brazilian Portuguese translations (text only: the narration is paused while it's re-recorded, LOR-567)",
@@ -404,8 +508,8 @@
       "file": "Lore Forever male narrator, Italian {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1753615,
+      "slug": "lore-forever-italian-narration-male-narrator",
       "live": false
     },
     {
@@ -417,8 +521,8 @@
       "file": "Lore Forever female narrator, Italian {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1753616,
+      "slug": "lore-forever-italian-narration-female-narrator",
       "live": false
     },
     {
@@ -459,8 +563,8 @@
       "core": "optional",
       "requires": [],
       "suggests": ["male-frfr"],
-      "id": null,
-      "slug": null,
+      "id": 1754446,
+      "slug": "lore-forever-french-quest-dialogue-male-narrator",
       "live": false
     },
     {
@@ -473,8 +577,8 @@
       "core": "optional",
       "requires": [],
       "suggests": ["female-frfr"],
-      "id": null,
-      "slug": null,
+      "id": 1754448,
+      "slug": "lore-forever-french-quest-dialogue-female-narrator",
       "live": false
     },
     {

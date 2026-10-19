@@ -1,0 +1,110 @@
+{
+ "key": "quest:97290",
+ "type": "quest",
+ "name": "Unending Torment",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97290
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Forsaken adventurers are intimately familiar with being branded abominations by the living. Assisting Master Apothecary Faranell reinforces their commitment to the Royal Apothecary Society's grim work."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde champions operating in Lordaeron frequently observe the chilling ruthlessness of their Forsaken allies. Faranell's delight in breaking stubborn captives highlights the dark pragmatism at work within the Undercity."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "unending torment quest",
+    "what is unending torment",
+    "unending torment lore"
+   ],
+   "answer": "Unending Torment is a quest associated with the Royal Apothecary Society. An adventurer interrogates or investigates an uncooperative prisoner or entity who refuses to offer any assistance and insults them as an abomination. The adventurer must then deliver news of this failure to Master Apothecary Faranell within the Undercity.",
+   "q": "What is Unending Torment?"
+  },
+  {
+   "aliases": [
+    "who starts unending torment",
+    "unending torment quest giver",
+    "where to get unending torment"
+   ],
+   "answer": "The quest begins after interacting with a defiant subject who rejects any cooperation, cursing the player as an abomination before ordering them away. The exact captive remains nameless in the initial exchange, directing the frustrated adventurer to take their findings back to the leadership of the Royal Apothecary Society.",
+   "q": "Who gives the quest Unending Torment?"
+  },
+  {
+   "aliases": [
+    "who is faranell",
+    "master apothecary faranell",
+    "apothecary faranell role"
+   ],
+   "answer": "Master Apothecary Faranell is the head of the Royal Apothecary Society, based in the Apothecarium beneath the ruins of Lordaeron in the Undercity. He oversees the Forsaken alchemists and researchers developing new plagues, concoctions, and poisons to defend the Forsaken and eradicate their enemies across Azeroth.",
+   "q": "Who is Master Apothecary Faranell?"
+  },
+  {
+   "aliases": [
+    "why abomination",
+    "who calls you abomination",
+    "why is the prisoner angry"
+   ],
+   "answer": "The captive views the undead and their agents with profound disgust, which is a common sentiment among the living and enemies of the Forsaken. Denouncing the visitor as an abomination reflects the deep prejudice and horror that outsiders feel toward the animated dead who now dwell in the Undercity.",
+   "q": "Why does the speaker call the player an abomination?"
+  },
+  {
+   "aliases": [
+    "where to turn in unending torment",
+    "unending torment turn in",
+    "who to report to unending torment"
+   ],
+   "answer": "The findings from the uncooperative subject must be delivered directly to Master Apothecary Faranell in the Undercity. Faranell resides deep within the Apothecarium, surrounded by bubbling cauldrons, laboratory vats, and fellow researchers dedicated to crafting lethal concoctions for Lady Sylvanas Windrunner and the Forsaken.",
+   "q": "Where must you report after completing the task?"
+  },
+  {
+   "aliases": [
+    "faranell reaction",
+    "what does faranell say",
+    "does faranell get mad"
+   ],
+   "answer": "Master Apothecary Faranell is thoroughly pleased by the subject's stubborn refusal to cooperate. Rather than becoming angry over the impasse, he considers it an entertaining challenge. The head apothecary relishes testing the limits of difficult subjects using the grim and ruthless methods pioneered by the Royal Apothecary Society.",
+   "q": "How does Master Apothecary Faranell react to the subject's defiance?"
+  }
+ ],
+ "keywords": [
+  "abomination",
+  "apothecarium",
+  "faranell",
+  "forsaken",
+  "master apothecary faranell",
+  "royal apothecary society",
+  "undercity",
+  "unending torment"
+ ],
+ "related": [
+  "npc:master-apothecary-faranell",
+  "zone:undercity"
+ ],
+ "sections": [
+  {
+   "body": "The Royal Apothecary Society frequently deals with test subjects, prisoners, and hostile entities who harbor nothing but hatred for the Forsaken. In Unending Torment, an investigator encounters an uncooperative individual who openly despises the petitioner, calling them an abomination and vehemently refusing to provide any assistance. The subject's desperate defiance highlights the sheer revulsion and hostility that many living or captive beings direct toward the undead of Lordaeron.",
+   "spoiler": 0,
+   "title": "Defiance in the Shadows"
+  },
+  {
+   "body": "Reporting the captive's refusal back to Master Apothecary Faranell in the Undercity produces an unexpected reaction. Rather than expressing frustration at the lack of immediate progress, the head of the Royal Apothecary Society welcomes the resistance with wicked enthusiasm. To Faranell, an unyielding subject is not a failed interrogation, but an intriguing challenge\u2014one that invites the cruel ingenuity and experimental methods practiced within the Apothecarium.",
+   "spoiler": 0,
+   "title": "Faranell's Ambition"
+  }
+ ],
+ "summary": "Unending Torment is a task undertaken on behalf of the Royal Apothecary Society in the Undercity. An emissary confronts a defiant captive or subject who refuses to cooperate, calling the petitioner an abomination. Reporting this defiance back to Master Apothecary Faranell elicits satisfaction rather than disappointment, as the apothecary leader relishes the opportunity to break a difficult subject.",
+ "attribution": [
+  "In-game quest text: Unending Torment"
+ ]
+}

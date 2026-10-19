@@ -1,0 +1,108 @@
+{
+ "key": "quest:98021",
+ "type": "quest",
+ "name": "Journey to Sentinel Hill",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98021
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Westfall is an Alliance territory desperate for support, yet Stormwind has left local commanders pleading for reinforcements and relying on whatever volunteers arrive."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The frontier commander in Sentinel Hill may grumble about being sent a 'skinny elf' rather than seasoned Stormwind infantry, but Sentinel Hill needs all the aid it can get."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is journey to sentinel hill",
+    "journey to sentinel hill quest",
+    "sentinel hill quest"
+   ],
+   "answer": "Journey to Sentinel Hill is an Alliance quest that directs adventurers into the frontier territory of Westfall. It introduces newcomers to the local defenders garrisoned at Sentinel Hill, who have been pleading for aid from Stormwind without receiving adequate official reinforcements.",
+   "q": "What is Journey to Sentinel Hill?"
+  },
+  {
+   "aliases": [
+    "who is begging stormwind for aid",
+    "sentinel hill garrison",
+    "why sentinel hill needs help"
+   ],
+   "answer": "The military leadership stationed at Sentinel Hill has been begging Stormwind for reinforcements for months to handle the troubles plaguing Westfall. Instead of regular troops, local leadership is forced to rely on whatever individual adventurers happen to show up.",
+   "q": "Why is Sentinel Hill asking for help?"
+  },
+  {
+   "aliases": [
+    "skinny elf quote",
+    "why skinny elf",
+    "sentinel hill elf comment"
+   ],
+   "answer": "Upon completing the journey, the commander notes having begged Stormwind for aid for months only to be sent a skinny elf. Grumbling that beggars cannot be choosers, the commander quickly resolves to put the newly arrived adventurer straight to work.",
+   "q": "Why does the quest text mention a skinny elf?"
+  },
+  {
+   "aliases": [
+    "why won't stormwind help westfall",
+    "stormwind neglecting westfall",
+    "stormwind westfall aid"
+   ],
+   "answer": "Stormwind's royal government is currently distracted and strained, leaving outer territories like Westfall largely neglected. Sentinel Hill has made repeated appeals for help over several months, but official royal support remains absent, leaving local commanders to depend on volunteers.",
+   "q": "Why hasn't Stormwind sent proper reinforcements?"
+  },
+  {
+   "aliases": [
+    "where is sentinel hill",
+    "what is sentinel hill",
+    "sentinel hill location"
+   ],
+   "answer": "Sentinel Hill is the central military outpost and bastion of the People's Militia in Westfall. It stands as the primary line of defense against the lawlessness, Defias bandits, and gnolls overrunning the region's farmlands.",
+   "q": "What is Sentinel Hill?"
+  },
+  {
+   "aliases": [
+    "what to do in westfall",
+    "westfall next quests",
+    "what happens after arriving in westfall"
+   ],
+   "answer": "Once you report in at Sentinel Hill, the local defenders waste no time putting you to work. Adventurers are tasked with helping manage the numerous threats across the plains and farmlands of Westfall.",
+   "q": "What happens after reaching Sentinel Hill?"
+  }
+ ],
+ "keywords": [
+  "journey to sentinel hill",
+  "peoples militia",
+  "sentinel hill",
+  "skinny elf",
+  "stormwind",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall",
+  "topic:stormwind-kingdom"
+ ],
+ "sections": [
+  {
+   "body": "Journey to Sentinel Hill marks an adventurer's arrival into the beleaguered region of Westfall. The outpost of Sentinel Hill serves as the main bastion of defense for the surrounding farmlands, yet its garrison finds itself chronically understaffed and overlooked by the royal court. When travelers arrive to offer assistance, the local commander wastes little time questioning their pedigree, eager to put any willing hands to work.",
+   "spoiler": 0,
+   "title": "Arrival on the Frontier"
+  },
+  {
+   "body": "For months, the leadership at Sentinel Hill has pleaded with Stormwind for military reinforcements to secure the region against encroaching threats. The kingdom's neglect has forced local commanders to accept whatever help comes through the door\u2014even if that means greeting a newly arrived adventurer with dry remarks about expecting an army and receiving a skinny elf instead. In Westfall, beggars cannot afford to be choosers.",
+   "spoiler": 0,
+   "title": "Pleas to Stormwind"
+  }
+ ],
+ "summary": "Journey to Sentinel Hill directs Alliance adventurers into the troubled farmlands of Westfall to report to the outpost at Sentinel Hill. Frustrated by months of unanswered pleas for royal reinforcements from Stormwind, local commanders are ready to put any willing traveler straight to work.",
+ "attribution": [
+  "In-game quest text: Journey to Sentinel Hill"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "key": "quest:86614",
+ "type": "quest",
+ "name": "Silver of the Waves",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   86614
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "silver of the waves",
+    "what is silver of the waves",
+    "hair clip quest"
+   ],
+   "answer": "Silver of the Waves is a task that begins when an adventurer sifts through discarded fishing knickknacks and flotsam. Amid the rusty hooks and tangled wires lies a tarnished silver hair clip engraved with initials, prompting a search to return the personal keepsake to its rightful owner.",
+   "q": "What is Silver of the Waves?"
+  },
+  {
+   "aliases": [
+    "kd monogram",
+    "whose hair clip is it",
+    "who is kd"
+   ],
+   "answer": "The clip is engraved with the initials 'K.D.' While the debris gives no immediate hint of the owner's full name, someone busy with daily chores recognizes the piece immediately upon its return, grateful to recover a lost accessory they assumed was gone forever.",
+   "q": "Whose hair clip is found in the debris?"
+  },
+  {
+   "aliases": [
+    "where was the hair clip found",
+    "hair clip location"
+   ],
+   "answer": "The hair clip was discovered among miscellaneous debris alongside ordinary fishing tackle, including broken spools of wire and rusty hooks. It seems to have been lost near the water or swept up with fishing refuse before being salvaged.",
+   "q": "Where was the hair clip lost?"
+  },
+  {
+   "aliases": [
+    "silver clip condition",
+    "is the hair clip broken"
+   ],
+   "answer": "Although slightly corroded from exposure to water and the elements, the silver hair clip remains ornate and structurally intact. Its owner remarks that with just a little effort and polish, the silver piece will easily shine right back up.",
+   "q": "What condition is the hair clip in?"
+  },
+  {
+   "aliases": [
+    "who gives the quest",
+    "how do you start silver of the waves"
+   ],
+   "answer": "The task begins upon inspecting a pile of discarded fishing refuse and debris. Finding the monogrammed hair clip nestled among ruined spools and hooks gives you the objective to seek out who might have misplaced it.",
+   "q": "How does this quest begin?"
+  },
+  {
+   "aliases": [
+    "hair clip reward",
+    "why return the hair clip"
+   ],
+   "answer": "Returning a personal keepsake lost to the tides or shoreline is a simple act of goodwill. Relieved to recover an accessory thought lost for good, the owner gladly sets aside their busy chores to reward the finder for their trouble.",
+   "q": "Why is returning the hair clip significant?"
+  }
+ ],
+ "keywords": [
+  "chores",
+  "fishing debris",
+  "hair clip",
+  "k.d.",
+  "monogram",
+  "silver keepsake",
+  "silver of the waves"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "While rummaging through discarded debris and fishing castoffs\u2014amid rusted hooks and broken wire spools\u2014an observant traveler might uncover something far more delicate: an ornate silver hair clip bearing the monogram 'K.D.' Though slightly tarnished by moisture and weather, the craftsmanship remains evident beneath the corrosion.",
+   "spoiler": 0,
+   "title": "A Keepsake in the Flotsam"
+  },
+  {
+   "body": "Tracking down the owner leads to a hardworking local caught up in the rush of daily chores. The relief is immediate upon seeing the heirloom returned; though presumed lost for good to the waters, the silver piece requires only a bit of polishing to regain its original luster, earning the finder heartfelt gratitude.",
+   "spoiler": 0,
+   "title": "Restoring the Shine"
+  }
+ ],
+ "summary": "Silver of the Waves involves recovering a tarnished, monogrammed silver hair clip found abandoned among discarded fishing debris. Returning the lost keepsake to its owner brings a welcome reprieve from their daily chores and restores a treasured possession once thought lost to the tide.",
+ "attribution": [
+  "In-game quest text: Silver of the Waves"
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "key": "quest:97275",
+ "type": "quest",
+ "name": "Whuut's the Rush",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97275
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Gatherers and herbalists will appreciate the lesson at the heart of this errand: understanding the properties of everyday weeds like speargrass and cattail can be just as vital to the craft as hunting down legendary blooms."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Yelmak mentors aspiring alchemists in the ways of patience, resourcefulness, and respect for local Kalimdor ingredients rather than squandering precious supplies."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is whuut",
+    "whuut backstory",
+    "about whuut"
+   ],
+   "answer": "Whuut is a young alchemical prodigy who is eager to experiment with the rarest herbs in existence. While undeniably talented, his rush to brew with exotic reagents leads him to overlook the fundamentals of the alchemical trade.",
+   "q": "Who is Whuut?"
+  },
+  {
+   "aliases": [
+    "who gives this quest",
+    "yelmak role",
+    "who is yelmak"
+   ],
+   "answer": "Yelmak is an experienced alchemist who acts as a mentor in the shop. Concerned that Whuut is squandering precious supplies, Yelmak concocts a simple tonic to demonstrate that true mastery begins with humble, local ingredients.",
+   "q": "Who is Yelmak?"
+  },
+  {
+   "aliases": [
+    "what is yelmak's lesson",
+    "why does yelmak send the potion",
+    "point of the quest"
+   ],
+   "answer": "Yelmak wants to teach Whuut patience and respect for foundational alchemy. By showing that an effective potion can be brewed using ordinary flora like speargrass and cattail, he hopes to curb Whuut's habit of rushing directly to rare, unstudied herbs.",
+   "q": "Why does Yelmak send you with a potion for Whuut?"
+  },
+  {
+   "aliases": [
+    "what is in the potion",
+    "yelmak potion reagents",
+    "quick tonic ingredients"
+   ],
+   "answer": "Yelmak brews the demonstration tonic using nothing more than ordinary speargrass and cattail, proving to his apprentice that common roadside vegetation can yield remarkable results when prepared with a careful touch.",
+   "q": "What ingredients did Yelmak use in his potion?"
+  },
+  {
+   "aliases": [
+    "what was whuut brewing",
+    "rare herbs whuut wants",
+    "what reagents did whuut use"
+   ],
+   "answer": "Before being interrupted, Whuut was eagerly reaching for some of the most precious and legendary flora in Azeroth, specifically Black Lotus and Mountain Silversage, completely bypassing everyday ingredients.",
+   "q": "Which rare reagents was Whuut trying to work with?"
+  },
+  {
+   "aliases": [
+    "does whuut change his mind",
+    "whuut reaction to potion",
+    "outcome of whuut's the rush"
+   ],
+   "answer": "Upon sampling the tonic and learning its humble recipe, Whuut is stunned that common plants could produce such a brew. He humbly admits that Yelmak is right and resolves to pay closer attention to the everyday flora he previously dismissed.",
+   "q": "Does Whuut learn his lesson?"
+  }
+ ],
+ "keywords": [
+  "alchemy",
+  "black lotus",
+  "cattail",
+  "herbalism",
+  "mountain silversage",
+  "potion",
+  "speargrass",
+  "whuut",
+  "yelmak"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "In the bustle of the alchemy shop, raw talent often collides with reckless ambition. Whuut is recognized as a genuine prodigy, possessing natural instinct behind the stirring rod. However, his impatience leads him to burn through the shop's rarest reagents without first establishing a firm grasp on foundational brewing techniques. Before he even learns the subtle balance of common herbs, he seeks out legendary plants, treating alchemy as a race rather than a discipline.",
+   "spoiler": 0,
+   "title": "The Eager Prodigy"
+  },
+  {
+   "body": "To rein in his apprentice without stifling his passion, Yelmak crafts a lesson in a vial. Rather than scolding Whuut, Yelmak brews a refined potion using only common speargrass and cattail via a quick tonic method. Delivered into Whuut's hands while the youth is daydreaming over Black Lotus and Mountain Silversage, the humble mixture reveals that true alchemical mastery comes from technique, patience, and respect for everyday flora.",
+   "spoiler": 0,
+   "title": "A Lesson in a Vial"
+  }
+ ],
+ "summary": "Whuut's the Rush is an alchemical errand highlighting the tension between raw talent and disciplined craftsmanship. Yelmak tasks an adventurer with delivering a humble, carefully brewed tonic to his prodigy apprentice Whuut, demonstrating that true mastery begins with everyday plants rather than squandering rare reagents.",
+ "attribution": [
+  "In-game quest text: Whuut's the Rush"
+ ]
+}

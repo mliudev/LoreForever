@@ -1,0 +1,105 @@
+{
+ "key": "quest:97242",
+ "type": "quest",
+ "name": "Yelmak's Medley",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97242
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This errand takes place directly inside Orgrimmar's Valley of Honor, helping keep order and smooth over ruffled tempers within the capital's alchemical trade."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "Gathering fresh cattails and speargrass along the city's watercourses highlights how local flora right inside Orgrimmar can be used for concoctions and herbal brews."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives yelmaks medley",
+    "quest giver yelmak medley"
+   ],
+   "answer": "Kor'geld, located in Yelmak's Alchemy and Potions in Orgrimmar's Valley of Honor, offers the task on behalf of the shop's master alchemist.",
+   "q": "Who offers the quest Yelmak's Medley?"
+  },
+  {
+   "aliases": [
+    "who is whuut",
+    "yelmak apprentice",
+    "whuut orgrimmar"
+   ],
+   "answer": "Whuut is an apprentice mixer training under Yelmak in the Valley of Honor. Known for his stubborn pride, he has been breaking equipment rather than admitting he needs guidance or assistance.",
+   "q": "Who is Whuut?"
+  },
+  {
+   "aliases": [
+    "what is yelmak's medley recipe",
+    "what does yelmak want to brew"
+   ],
+   "answer": "It is a special home-brewed mixture concocted by master alchemist Yelmak using fresh cattail and speargrass cuttings to subtly soothe or temper his proud apprentice's sour mood.",
+   "q": "What is the purpose of the home-brewed medley?"
+  },
+  {
+   "aliases": [
+    "where to find cattails and speargrass",
+    "valley of honor cuttings"
+   ],
+   "answer": "The wild cattails and speargrass grow directly along the freshwater streams and pools flowing through the Valley of Honor in Orgrimmar.",
+   "q": "Where are the ingredients gathered?"
+  },
+  {
+   "aliases": [
+    "why does korgeld need help",
+    "why cant korgeld pick plants"
+   ],
+   "answer": "Kor'geld cannot leave Yelmak's Alchemy and Potions because Whuut would immediately realize the shop staff was secretly going out of their way to cater to his difficult temperament.",
+   "q": "Why doesn't Kor'geld gather the cuttings personally?"
+  },
+  {
+   "aliases": [
+    "where is yelmak alchemy and potions",
+    "yelmak shop location"
+   ],
+   "answer": "Yelmak's Alchemy and Potions is situated in the Valley of Honor, an eastern district of the Horde capital of Orgrimmar known for its waterways, warrior barracks, and artisan shops.",
+   "q": "Where is Yelmak's Alchemy and Potions located?"
+  }
+ ],
+ "keywords": [
+  "alchemy",
+  "cattail",
+  "kor'geld",
+  "orgrimmar",
+  "speargrass",
+  "valley of honor",
+  "whuut",
+  "yelmak",
+  "yelmak's medley"
+ ],
+ "related": [
+  "subzone:valley-of-honor"
+ ],
+ "sections": [
+  {
+   "body": "Inside Yelmak's Alchemy and Potions in Orgrimmar's Valley of Honor, life is complicated by the stubborn pride of the shop's young apprentice, Whuut. Rather than asking for help or admitting when he is out of his depth, the fledgling mixer has taken to breaking shop equipment in frustration. To curb the damage and settle the youth's volatile temper without bruising his fragile ego, master alchemist Yelmak devises a calming home-brewed concoction.",
+   "spoiler": 0,
+   "title": "Trouble in the Laboratory"
+  },
+  {
+   "body": "The recipe calls for a fresh harvest of wild cuttings from the cattails and speargrass that thrive along the water flows winding through the Valley of Honor. Kor'geld cannot step away from the shop without tipping off the suspicious apprentice, requiring a discrete third party to collect the riparian plants. Once gathered, the botanical mixture is prepared to subtly manage Whuut's attitude and restore peace to the alchemy shop.",
+   "spoiler": 0,
+   "title": "Soothing Local Flora"
+  }
+ ],
+ "summary": "Yelmak's Medley is an Orgrimmar quest centered on easing tensions inside Yelmak's Alchemy and Potions in the Valley of Honor. Master alchemist Yelmak seeks to curb the destructive clumsiness and stubborn pride of his apprentice Whuut by preparing a soothing home-brewed mixture made from local water plants.",
+ "attribution": [
+  "In-game quest text: Yelmak's Medley"
+ ]
+}

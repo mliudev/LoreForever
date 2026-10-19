@@ -1,0 +1,112 @@
+{
+ "key": "quest:94413",
+ "type": "quest",
+ "name": "A Magical Affront",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94413
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "For practitioners of the arcane, the surfacing leylines on Zephras provide rare, direct access to raw mystical energy, making their preservation a matter of great scholarly and magical interest."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Druids may find themselves caught in philosophical tension, as the Windshapers view the exposed leylines as wounding scars across the natural landscape in desperate need of healing."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "The Windshapers seek to calm and heal disturbances across Zephras, putting their elemental and natural stewardship directly at odds with orders harnessing raw magical flows."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who are the windshapers",
+    "what are windshapers",
+    "windshapers zephras"
+   ],
+   "answer": "The Windshapers are a group active on Zephras who view the surfaced leylines not as a gift of raw energy, but as unnatural wounds or scars on the land that must be healed. Their efforts put them in direct opposition with orders seeking to study and channel the leylines.",
+   "q": "Who are the Windshapers?"
+  },
+  {
+   "aliases": [
+    "why kill windshapers",
+    "why fight the windshapers",
+    "windshaper conflict"
+   ],
+   "answer": "An order studying the leylines on Zephras needs access to their surfaced power to advance their mystical understanding. Because the Windshapers actively attempt to 'heal' and shut down or mend these leylines, the order views their actions as an intolerable affront and demands they be driven away.",
+   "q": "Why does the order want the Windshapers driven off?"
+  },
+  {
+   "aliases": [
+    "what are leylines zephras",
+    "zephras leylines",
+    "surface leylines"
+   ],
+   "answer": "Leylines are conduits of mystical energy traversing the world. On Zephras, these channels have recently broken out onto the surface, exposing direct magical power that permeates the land and granting arcane practitioners unprecedented access to study it.",
+   "q": "What are the leylines on Zephras?"
+  },
+  {
+   "aliases": [
+    "where is the leyline forest",
+    "leyline location",
+    "forest to southwest"
+   ],
+   "answer": "The contested leyline mentioned in this task lies within the forest to the southwest on Zephras, where Windshapers have gathered to begin closing or mending the exposed magical surge.",
+   "q": "Where is the contested leyline located?"
+  },
+  {
+   "aliases": [
+    "why do windshapers want to heal leylines",
+    "are leylines harmful zephras",
+    "healing the scars"
+   ],
+   "answer": "The Windshapers perceive the sudden rupture and emergence of raw subterranean energies through the earth as violent scars across Zephras. In their view, restoring natural balance requires mending the tears, directly contradicting arcane spellcasters who wish to keep them open.",
+   "q": "Why do the Windshapers consider the leylines scars?"
+  },
+  {
+   "aliases": [
+    "what is zephras",
+    "where does a magical affront take place",
+    "zephras lore"
+   ],
+   "answer": "Zephras is the land where these exposed leylines have emerged. The sudden appearance of raw magical power across its surface has made it a flashpoint between those who seek to master its arcane energies and those who view them as unnatural breaches in need of restoration.",
+   "q": "What is the significance of Zephras in this conflict?"
+  }
+ ],
+ "keywords": [
+  "a magical affront",
+  "arcane",
+  "leyline",
+  "leylines",
+  "scars",
+  "windshapers",
+  "zephras"
+ ],
+ "related": [
+  "quest:92595"
+ ],
+ "sections": [
+  {
+   "body": "On the surface of Zephras, ancient subterranean conduits of raw magic have recently broken through the earth. For the scholars and practitioners of the local order, this emergence is an invaluable boon. Direct, tangible contact with the leylines grants them unprecedented insight into the arcane currents that permeate the region, vastly expanding their magical mastery.",
+   "spoiler": 0,
+   "title": "Unveiled Currents"
+  },
+  {
+   "body": "Not everyone regards the exposed energies as a miracle. The Windshapers view the breaches as open wounds and destructive scars torn across the face of Zephras. Determined to heal the wounded earth, they gather at the rupture sites to suppress or mend the exposed leylines. To the order relying on that raw power, this interference is an intolerable threat, prompting them to send adventurers southwest into the forest to drive the Windshapers back.",
+   "spoiler": 0,
+   "title": "Scars and Strife"
+  }
+ ],
+ "summary": "A Magical Affront is a quest on Zephras centering on a clash over recently surfaced leylines. While a local order seeks to harness and study the exposed arcane energies, the Windshapers view the breaches as scars upon the earth that must be healed, sparking direct conflict in the southwestern forest.",
+ "attribution": [
+  "In-game quest text: A Magical Affront"
+ ]
+}

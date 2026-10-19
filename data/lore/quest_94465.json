@@ -1,0 +1,110 @@
+{
+ "key": "quest:94465",
+ "type": "quest",
+ "name": "Call of Fire",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94465
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "This trial tests an aspiring shaman's dedication to commune with the elemental spirits of fire, requiring them to carry a sacred torch to an isolated peak in Loch Modan."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The quest dialogue reflects dwarven speech and directs initiates beyond the Valley of Kings into the rugged crags of Khaz Modan."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "While common travelers across Alliance territories see only barren mountain stone, keepers of the shrine guard ancient elemental secrets hidden from ordinary eyes."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is call of fire",
+    "shaman fire quest loch modan",
+    "fire totem quest"
+   ],
+   "answer": "Call of Fire is a rite of passage for an initiate seeking to earn their fire totem. The quest directs the petitioner into the crags of Loch Modan to present the Torch of the Dormant Flame to Braldir Ashmantle at a sacred mountain peak.",
+   "q": "What is the Call of Fire quest?"
+  },
+  {
+   "aliases": [
+    "who is braldir ashmantle",
+    "shrine keeper loch modan"
+   ],
+   "answer": "Braldir Ashmantle is the keeper who guards the Shrine of the Dormant Flame high in the crags of Loch Modan. He turns away ordinary travelers and treasure seekers, welcoming only those who bear the Torch of the Dormant Flame.",
+   "q": "Who is Braldir Ashmantle?"
+  },
+  {
+   "aliases": [
+    "where is shrine of the dormant flame",
+    "dormant flame location"
+   ],
+   "answer": "The Shrine of the Dormant Flame is perched high in the crags of Loch Modan, reached by following a hidden path that winds beyond the Valley of Kings.",
+   "q": "Where is the Shrine of the Dormant Flame located?"
+  },
+  {
+   "aliases": [
+    "what is the torch of the dormant flame",
+    "torch of the dormant flame purpose"
+   ],
+   "answer": "The Torch of the Dormant Flame is a ritual token carried by initiates to demonstrate their earnest intent and readiness to commune with elemental fire. Braldir Ashmantle requires seeing the torch before granting audience.",
+   "q": "What is the purpose of the Torch of the Dormant Flame?"
+  },
+  {
+   "aliases": [
+    "why go to loch modan",
+    "why is the fire shrine in loch modan"
+   ],
+   "answer": "The sacred elemental peak housing the Shrine of the Dormant Flame overlooks Loch Modan beyond the Valley of Kings, chosen for its seclusion away from casual travelers.",
+   "q": "Why must the petitioner travel to Loch Modan?"
+  },
+  {
+   "aliases": [
+    "what happens after finding braldir",
+    "how to get fire totem"
+   ],
+   "answer": "Upon reaching Braldir Ashmantle and proving their intent with the torch, the initiate must kindle the flame at the shrine's brazier to return it burning and properly earn the totem of fire.",
+   "q": "How is the fire totem earned through this trial?"
+  }
+ ],
+ "keywords": [
+  "braldir ashmantle",
+  "call of fire",
+  "fire totem",
+  "loch modan",
+  "shaman",
+  "shrine of the dormant flame",
+  "torch of the dormant flame",
+  "valley of kings"
+ ],
+ "related": [
+  "item:torch-of-the-dormant-flame",
+  "zone:lochmodan",
+  "topic:alliance"
+ ],
+ "sections": [
+  {
+   "body": "Earning the totem of fire demands more than raw physical prowess. Initiates are tasked with carrying the unlit Torch of the Dormant Flame high into the crags of Loch Modan. Hidden beyond the stone carvings of the Valley of Kings, an arduous ascent leads to an isolated mountain summit where the elements hold sway far above the roads of mortal travelers.",
+   "spoiler": 0,
+   "title": "The Path Beyond the Valley of Kings"
+  },
+  {
+   "body": "High on the windswept peak stands Braldir Ashmantle, the guardian charged with watching over the Shrine of the Dormant Flame. Unprepared wanderers and fortune hunters climbing these heights discover only silence and bare stone. To true initiates bearing the sacred torch, Braldir reveals a deeper elemental power that sleeps within the shrine's brazier, waiting to be rekindled.",
+   "spoiler": 0,
+   "title": "The Shrine of the Dormant Flame"
+  }
+ ],
+ "summary": "Call of Fire is a sacred trial undertaken by initiates seeking to prove their spiritual readiness to wield elemental flame. Petitioners must carry the Torch of the Dormant Flame along a secluded mountain path in Loch Modan to seek Braldir Ashmantle at the Shrine of the Dormant Flame.",
+ "attribution": [
+  "In-game quest text: Call of Fire"
+ ]
+}
