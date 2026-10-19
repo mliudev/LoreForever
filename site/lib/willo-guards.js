@@ -148,11 +148,44 @@ export function evidenceOf(prompt, question = "") {
 
 // All of them, for one written answer. own: Willo's own answer (not a character's); researched: required research,
 // whose search results aren't in `supplied`, so its coordinates stay.
+// Where they were last, said as such (the vision check, 10/19): with only the place the game last saved, she said "You
+// are standing right in the heart of Sentinel Hill" or "right here in Darkshire" 6 times in 12. Present-tense
+// "you are in/at" becomes "you were last in/at", "right here" becomes "there", and words that don't say it's from
+// where they were last start "From <place>, where you were last, ".
+// Only before a place (a name, or the heart, edge or town of one): "since you are at level 18" stays as it is.
+// (Case by hand, not /i: with it, \p{Lu} takes "level" too.)
+const YOU_ARE_AT = /\b([Yy]ou)(?:'re| are)(?: (?:standing|currently|now|still))*(?: right)? (in|at|near|by) (?=(?:the )?(?:heart|town|edge|middle|center|centre|outskirts|village|city|camp|ruins|gates?) of\b|the(?: \p{Ll}+){1,2} (?:in|of) \p{Lu}|(?:the )?\p{Lu})/gu;
+const LAST_SAID = /\bwhere you were last\b|\byou were last\b|\blast (?:saved|saw)\b|\bif you(?:'re| are)(?: not| no longer| still)\b|\banymore\b/i;
+const OPENERS = /^(?:The|You|Your|Head|Go|Take|Fly|Travel|Walk|Ride|It|There|A|An|Just|To|Follow|Find|Look|Make|Once|First|If|When|Since)\b/;
+export function fromWhereLast(text, place) {
+  if (typeof text !== "string" || !text.trim() || !place) return text;
+  let out = text.replace(YOU_ARE_AT, (_, you, at) => `${you} were last ${at} `)
+    // "at the inn here in Sentinel Hill": the "here" goes (the vision check: 2 of 3).
+    .replace(/\b(?:right )?here (?=(?:in|at) \p{Lu})/gu, "").replace(/\bright here\b/gi, "there").replace(/\b(?:is |are )?just ahead of you\b/gi, m => m.replace(/just ahead of you/i, "near there"));
+  if (!LAST_SAID.test(out)) {
+    const town = String(place).split(",")[0].trim();     // the town, not its zone too
+    // Words that name the town already get it after its first mention, not the town twice (the vision re-check,
+    // 10/19: "From Darkshire, where you were last, to reach the Wetlands from Darkshire, ...").
+    // (An apostrophe her words may drop: "Gromgol Base Camp".)
+    const named = new RegExp(`\\b${town.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/['’]/g, "['’]?")}\\b`, "i").exec(out);
+    if (named) {
+      const end = named.index + named[0].length;
+      out = `${out.slice(0, end)}, where you were last${/^[.,!?;:]/.test(out.slice(end)) ? "" : ","}${out.slice(end)}`;
+    } else {
+      const first = out.trimStart();
+      const rest = OPENERS.test(first) ? first[0].toLowerCase() + first.slice(1) : first;
+      out = `From ${town}, where you were last, ${rest}`;
+    }
+  }
+  return out;
+}
+
 export function guardAnswer(answer, { supplied = "", own = true, researched = false, prompt = "", question = "",
-  names = [] } = {}) {
+  names = [], savedPlace = "" } = {}) {
   if (typeof answer !== "string" || !answer) return answer;
   let text = researched ? answer : unsuppliedPlaces(answer, supplied);
   if (own) text = inWorld(asCompanion(text));
+  if (own && savedPlace) text = fromWhereLast(text, savedPlace);
   const spellings = soundSpellings(playerLines(prompt, question).filter(l => SOUNDS.test(l)), names);
   return spellings.size ? spelledRight(text, spellings) : text;
 }

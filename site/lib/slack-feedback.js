@@ -178,6 +178,18 @@ export const SOURCES = {
              `from the ${r.source === "addon" ? "add-on" : one(r.source, 12)}`, r.signedIn ? "signed in" : ""],
     }),
   },
+  // Lore Forever's own Lua errors and blocked actions, sent by the companion app after the player said yes
+  // (lib/addon-errors.js): one post per message (its sig), the first time any install sends it.
+  "addon-error": {
+    icon: ":warning:", key: e => e.sig,
+    format: e => ({
+      title: /^ADDON_ACTION_(FORBIDDEN|BLOCKED)/.test(e.msg) ? "New add-on error · blocked action" : "New add-on error · Lua error",
+      text: [plain(e.msg, 400), e.stack ? plain(String(e.stack).split("\n").slice(0, 3).join("\n"), 300) : ""]
+        .filter(Boolean).join("\n"),
+      meta: [e.v ? "add-on " + one(e.v, 20) : "", e.client ? "WoW " + one(e.client, 24) : "", e.locale ? one(e.locale, 8) : "",
+             `${Number(e.n) || 1}× on that PC`, "sent from Willo"],
+    }),
+  },
   // Willo's answers (lib/answer-feedback.js logFeedback): flags, corrections and frustration. userId and names are
   // only for taking the account's character names out, never posted.
   willo: {
@@ -251,6 +263,16 @@ export const SOURCES = {
       meta: [c.author ? one(c.author, 40) : "", c.reply ? "a reply" : "", c.when ? one(c.when, 30) : ""],
     }),
   },
+  // Willo plan cancellations from Stripe's webhook (lib/cancellations.js noteCancellation): one line each, made there
+  // from the plan, how long it was kept, what it paid and the reason (cancellationLine), with what the player wrote on
+  // Stripe's page. Never the account, a name or an email.
+  cancellation: {
+    icon: ":door:", tab: "retention", oneLine: true, key: c => c.id,
+    format: c => ({
+      title: one(c.title, 120),
+      meta: [...(Array.isArray(c.parts) ? c.parts : []).map(p => one(p, 80)), c.comment ? `"${one(c.comment, 200)}"` : ""],
+    }),
+  },
 };
 export const EXTERNAL = ["email", "discord", "youtube", "curseforge"];
 const YOUTUBE_LINK = /^https:\/\/www\.youtube\.com\/watch\?v=[\w-]{6,20}&lc=[\w.-]{1,120}$/;
@@ -265,10 +287,13 @@ const adminLink = (base, tab) => `<${base}/admin#${tab}|open in /admin>`;
 export async function message(env, source, item, base) {
   const s = SOURCES[source];
   const { title, text, meta } = await s.format(item, env);
+  const link = s.link ? s.link(item) : s.tab ? adminLink(base, s.tab) : "";
+  // A one-line source: the title and its details on the same line.
+  if (s.oneLine) return [`${s.icon} *${title}*`, ...meta.filter(Boolean), link].filter(Boolean).join(" · ");
   return [
     `${s.icon} *${title}*`,
     text ? quote(text) : "",
-    [...meta.filter(Boolean), s.link ? s.link(item) : s.tab ? adminLink(base, s.tab) : ""].filter(Boolean).join(" · "),
+    [...meta.filter(Boolean), link].filter(Boolean).join(" · "),
   ].filter(Boolean).join("\n");
 }
 
@@ -294,7 +319,8 @@ async function post(slack, text) {
 const LABELS = { feedback: "site feedback", "translation-report": "bad translations", translation: "translations",
   "voice-submission": "voice submissions", "voice-donation": "lent voices", "clip-report": "clip reports",
   willo: "Willo answers", "friend-report": "friend reports", email: "emails", discord: "Discord posts",
-  youtube: "YouTube comments", curseforge: "CurseForge comments" };
+  youtube: "YouTube comments", curseforge: "CurseForge comments", "addon-error": "add-on errors",
+  cancellation: "plan cancellations" };
 
 // The items held back by a burst in minutes before `minute`, posted as one line. Claimed in one statement, so two
 // requests never post the same ones.

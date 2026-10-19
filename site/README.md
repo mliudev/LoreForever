@@ -124,6 +124,11 @@ Left out: `171159` (item tooltip) shows a "Keep: wanted for the quest" line that
 - **Companion check-ins** (LOR-422, `lib/checkins.js`, `POST /api/companion/checkin`): once a day the companion sends
   a hashed random install id and the companion's and add-on's versions, with `X-LF-Client: companion/<version>`.
   `companion_days (day, install, companion, addon)`, kept 90 days; no account, no IP. The companion's setting turns it off.
+- **Lore Forever's error reports** (`lib/addon-errors.js`, `POST /api/companion/addon-errors`): only after the player
+  said yes in the companion app, it sends the add-on's own Lua errors and blocked actions from `LoreForeverDB.errors`
+  (message, top of the stack, count, times, versions, locale) with the check-in's hashed install id. `addon_errors (sig,
+  install, ...)`, one row per message and install, kept 90 days after last seen; no account, no IP. A message no install
+  sent before goes to Slack #player-feedback once. `GET` with the admin key lists them, the most players first.
 - **The daily IP hash** (`senderHash` in `lib/form.js`) is how every form and like counts "one sender per day" without
   keeping addresses: SHA-256 of that day's random salt, the day and the IP, cut to 24 hex characters. The salts are in
   D1 `daily_salts` (created on first use). The request that makes a new day's salt also deletes the salts from
@@ -552,8 +557,10 @@ to `/account#profile` when there's none yet).
     that the companion keeps it up to date. Until the companion ships in Setup.exe (LOR-132), the invitation to
     connect it waits for the `companion` feature (below); connecting, updates and the list work either way.
 - **Companion live answers:** `POST /api/companion/answer` takes the same linked-device token as profile sync and a
-  capped lore/context prompt and optional boolean `research_required`. Ordinary replies use
-  `gemini-3.1-flash-lite` without search, with minimal thinking and 512 output tokens. Required research uses
+  capped lore/context prompt and optional boolean `research_required`. Willo's own answers use
+  `gemini-3.1-flash-lite` (`ANSWER_MODEL`, `SIGHT_MODEL`) without search, with minimal thinking and 512 output tokens,
+  and Legend's (`smarter`) `gemini-3.6-flash` (`SMART_MODEL`; the model bake-off and Mike's pick, 10/19), back on
+  Flash-Lite past its text cap. Character replies, chat memory and quick look-ups use Flash-Lite (`LITE_MODEL`). Required research uses
   `gemini-3.8-flash` with native Google Search, low thinking and 2,048 output tokens. It discards answers without
   usable provider citations and never falls back to remembered gameplay advice. Timeouts are 8 and 35 seconds,
   with no automatic retry. Both count toward the account's live answers per UTC day: 20 while the `plans` feature is
@@ -654,8 +661,8 @@ to `/account#profile` when there's none yet).
     days (followups when fixed, a year at most), signals after 14, all with the account (deleteUser) or from What Willo
     keeps; public/privacy.html says so. Rows from before 10/18 move to the salted key with `feedback-rehash`.
   - **Accounting:** all three paths reserve their own bounded input/output estimate against the shared $100 monthly
-    budget before calling the provider. Ordinary replies and compaction use Flash-Lite's $0.25/$1.50 per million
-    input/output tokens. Research uses [Google's published pricing](https://ai.google.dev/gemini-api/docs/pricing),
+    budget before calling the provider, at its model's rates (`modelFor`): Flash-Lite's $0.25/$1.50 per million
+    input/output tokens, or Flash's for her answers and research. Research uses [Google's published pricing](https://ai.google.dev/gemini-api/docs/pricing),
     checked 2026-10-09: Flash $0.75/$3.75 through 2026-12-31 and $1.50/$7.50 from 2027-01-01 UTC. Output includes
     thinking; retrieval tokens are excluded. Research also reserves 32 queries at $0.014 each, using the higher
     announced Flash rates in advance. The prompt asks for three queries; Google provides no hard query cap.
@@ -772,13 +779,15 @@ plan, when it renews, changes or ends, "Switch to <plan>" links that open the co
     (`LEGEND_BEST_MODEL`, Inworld TTS 2 Flash) for the first `LEGEND_BEST_PER_MONTH` (1,900) replies of its plan month,
     then the studio voices, and everything in Champion. A reply counts as a finest one only once Inworld said a piece
     of it: one whose first piece the studio voice says (Inworld down, or no room for it) gives its place back. On the ordinary model, like the others: the stronger one
-    (`stronger`) costs three times as much.
+    (`stronger`, 3.8 Flash) costs what Legend's on 3.6 Flash do but is over a second slower. Legend's answers are on
+    the smarter model (`smarter`, 3.6 Flash), pictures too.
   - **Cost caps** (`costCapMicro`, `totalCapMicro`, from each plan's `net`, what it brings after Stripe's fees): a
     paying player's live answers may cost half the net in a calendar month (Hero $2.18, Champion $4.52, Legend $9.20),
-    and answers and hosted voice together the whole net ($4.37, $9.05, $18.41). At about $0.0018 an answer and $0.05 a
-    look-up, a maxed month's answers cost about $2.12, $4.42 and $9.20, so the text cap is rarely reached; past it
-    (`overTextCap`), the plan's answers wait for the next month as when its pool is used, and come from the add-on's
-    lore library. Which plan gets which voice is one line in `PLAN_VOICE`; `choice` says whether its
+    and answers and hosted voice together the whole net ($4.37, $9.05, $18.41). At about $0.0012 an answer on Flash-Lite
+    and $0.05 a look-up, a maxed Hero or Champion month stays under it; Legend's on 3.6 Flash (about $0.0035, twice that
+    from 2027) reach it after about 2,050 answers. Past it (`capState` "lite") her answers step down to Flash-Lite without looking
+    online; once answers and hosted voice reach the whole net ("capped"), the plan's answers wait for the next month
+    as when its pool is used, and come from the add-on's lore library. Which plan gets which voice is one line in `PLAN_VOICE`; `choice` says whether its
     player may pick among Willo's hosted voices. Willo's own voice on the PC (Kokoro) only stands in.
   The Pages variable `BILLING_PLANS` (e.g. `hero,champion`) changes which are for sale.
 - **Spoken replies** (LOR-490, `lib/companion-voice.js`): the free plan's spoken starter (its cost held on the shared
@@ -1021,13 +1030,17 @@ answers and count from their first question.
 
 **Creators.** They apply on `/creators` (signed in; the page also has the creator terms, public since Mike's go on
 10/18) and /admin's Creators tab approves them, or /admin adds one; their link is readable (`/w/ziqo`) and tied to their
-account, which opens their dashboard on `/creators` (clicks, sign-ups, activated, paying, earned, payouts). They earn 70%
+account, which opens their dashboard on `/creators` (clicks, sign-ups, activated, paying, earned, payouts). They earn 60%
 of what a subscriber they brought pays (without tax) for their first paid month (a beta checkout's days before it and
 an upgrade within it count; later months are ours), one row per invoice in `creator_earnings`, payable 30 days after
 the payment; a refund or a dispute takes it back (from the next payout if it was paid). /admin's payout list shows who's
 owed at least $10, paid by hand ("Mark paid") or, once Stripe Connect is set up and "Stripe payouts" is switched on
-there, by a Stripe transfer to the Express account the creator set up from their dashboard. A fan discount or gift
-answers only when /admin gives that creator some (the Stripe promotion code is made then).
+there, by a Stripe transfer to the Express account the creator set up from their dashboard. Their audience gets 15%
+off its first month (Mike and Patrick's deal, 10/19, LOR-691): the creator's Stripe promotion code (their code in
+capitals, first payment only, made when /admin saves the creator) comes off at checkout for someone their link
+brought, and anyone may type it there, which makes that subscriber the creator's too. Not with a beta offer (Checkout
+takes one discount). Creators saved before keep their own terms; /admin edits them. Gift answers only when /admin
+gives that creator some.
 
 - Endpoints: `GET /api/share/mine`, `POST /api/share/new`, `GET /api/share/info?code=`
   (`functions/api/share/[action].js`); `/w/<code>` (`functions/w/[code].js`); `GET /api/creators/me`,
@@ -1164,7 +1177,7 @@ The "Make a voice" card on `/voices` leads to four pages under `public/voices/`:
 | `/voices/guide` | The narrator guide: clip list, reading, recording settings, file names, partial packs, rights, sending. It replaces the long `release/public/VOICE_PACKS.md`, which is now a short pointer here (the public repo still gets it). |
 | `/voices/clips.csv` | The clip list: `voicepack clips` output (id, file name, suggested narrator, text, hash). **`scripts/release.sh` rebuilds it in its Stamp step** and commits it with the version bump, so it goes live with the site at the end of each release. To refresh it between releases: `cd pipeline && uv run python -m lore.voicepack clips --out ../site/public/voices/clips.csv`. Served as a download (`public/_headers`) and excluded from Functions in `_routes.json`. |
 | `/voices/studio` | The upload page, the main way to send a voice (see "Upload page" below). |
-| `/voices/lines.json` | The clip list as the upload page shows it: grouped like the add-on's Narrations tab, with the question, text, hash and pronunciation hints of each line in English and in every language that has a current translation of it. Written by `voicepack clips` next to `clips.csv` (so `scripts/release.sh` refreshes both). Excluded from Functions. |
+| `/voices/lines.json` | The clip list as the upload page shows it: grouped like the add-on's Narrations tab, with the question, English text, hash and pronunciation hints of each line in English and in every language that has a current translation of it. Each other language's text is in `/voices/lines/<locale>.json` (`{line id: text}`; Pages refuses any file over 25 MiB, so the text can't all sit in one file), fetched by the upload page for the language it shows. Written by `voicepack clips` next to `clips.csv` (so `scripts/release.sh` refreshes both). Excluded from Functions (so is `/voices/lines/*`). |
 | `/voices/submit` | The folder-link form (below), kept for people who'd rather share a folder. Sends the narrator to `/voices/thanks`. |
 | `/voices/release` | The narrator release, a plain-language agreement with a version date (see "Changing the release" below). |
 | `/voices/zones` | Who narrates which zone ("Claim a zone", below): `functions/voices/zones.js`, built on the server. Noindex and unlinked while the `zones` feature is off. |

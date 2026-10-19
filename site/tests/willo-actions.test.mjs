@@ -198,3 +198,13 @@ test("the key for the one you're targeting: told only by a Willo that has it", (
   assert.match(helpBlock("How do I talk to my target?", { state }), /under "Ask who you're targeting"/);
   assert.doesNotMatch(helpBlock("How do I talk to my target?", { state: state.split("\n")[0] }), /Ask who you're targeting/);
 });
+
+test("her friends: where they come from, never the game's social panel (QA 10/19)", () => {
+  for (const q of ["Are any of my friends online?", "Where are my friends?", "How do I add a friend?", "Who's on my friends list?"]) {
+    assert.deepEqual(helpTopics(q), ["friends"], q);
+  }
+  assert.match(helpBlock("Are any of my friends online?"), /Friends tab[^.]*next to Notebook/);
+  for (const q of ["My friend and I want to run the Deadmines, any tips?", "Who are Thrall's friends?"]) {
+    assert.deepEqual(helpTopics(q), [], q);
+  }
+});

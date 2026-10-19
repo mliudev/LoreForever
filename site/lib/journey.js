@@ -492,8 +492,12 @@ function sheet(line, T) {
 
 export const JOURNEY_V = 1;
 export const MAX_MOMENTS = 2000;
+// seen (LOR-672): a rare only seen, first time, with its rank (companion profile.py JOURNEY_KINDS), so Willo for iPhone's
+// journey questions find it (lib/willo-recall.js); the profile's road doesn't show it (lib/trails.js skips a kind it
+// has no section for).
 const JOURNEY_KINDS = new Set(["zone", "qa", "qt", "npc", "boss", "kill", "lvl", "death", "book", "loot", "mount", "rep", "shot",
-  "bg"]);
+  "bg", "seen"]);
+const SEEN = new Set(["rare", "rareelite"]);
 const BG_OUT = new Set(["win", "loss", "draw"]);
 const HOW = new Set(["walk", "flight", "hearth", "boat", "corpse", "portal", "instance"]);
 const NOTABLE = new Set(["elite", "rare", "rareelite", "worldboss"]);
@@ -529,6 +533,8 @@ export function readJourney(input, data = null, now = new Date()) {
         if (m.new) e.new = 1;
         if (m.inst) e.inst = 1;
         if (HOW.has(m.how)) e.how = m.how;
+        // Their level then (a first arrival's, LOR-672: synced from #1235 on), for "when did I first reach …?"
+        if (int(m.lv, 1, 100)) e.lv = m.lv;
         break;
       case "qa": case "qt":
         if (!(e.id = int(m.id, 1, 9999999))) continue;
@@ -536,6 +542,14 @@ export function readJourney(input, data = null, now = new Date()) {
       case "kill":
         if (!e.n || !NOTABLE.has(m.cls)) continue;
         e.cls = m.cls;
+        break;
+      case "seen":   // a rare in sight, never fought then (LOR-672)
+        if (!e.n || !SEEN.has(m.cls)) continue;
+        e.cls = m.cls;
+        break;
+      case "mount":  // the game's announced mount, its spell, or one bought from a vendor (how: "bought", LOR-672)
+        if (!e.n) continue;
+        if (m.how === "bought") e.how = "bought";
         break;
       case "lvl":
         if (!(e.lv = int(m.lv, 2, 100))) continue;

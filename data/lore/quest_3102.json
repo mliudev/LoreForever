@@ -1,0 +1,113 @@
+{
+ "key": "quest:3102",
+ "type": "quest",
+ "name": "Encrypted Letter",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3102
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "This encrypted dispatch marks a young rogue's introduction to Jorik Kerridan and the wider underworld, offering early advice on navigating factions like SI:7 and the Defias without losing independence."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Even behind the pious walls of Northshire Abbey, the Kingdom of Stormwind's shadow operatives quietly recruit and train promising agents for the conflicts ahead."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who sent encrypted letter",
+    "who gave me encrypted letter",
+    "who wrote the encrypted letter"
+   ],
+   "answer": "The letter is sealed with the personal insignia of Jorik Kerridan, the rogue trainer stationed in Northshire Valley. It is delivered to promising novices returning from scouting the nearby kobold camps.",
+   "q": "Who sent the Encrypted Letter?"
+  },
+  {
+   "aliases": [
+    "where is jorik",
+    "where to find jorik kerridan",
+    "jorik location"
+   ],
+   "answer": "Jorik Kerridan keeps a low profile in the quiet stable tucked behind Northshire Abbey. He deliberately stays out of plain sight to avoid drawing unwanted attention to his covert work.",
+   "q": "Where is Jorik Kerridan located?"
+  },
+  {
+   "aliases": [
+    "why encrypted letter",
+    "what is encrypted letter for",
+    "why is letter encrypted"
+   ],
+   "answer": "The letter serves as a discreet invitation for rising rogues to introduce themselves to their local trainer. Because rogues trade in secrecy, correspondence is encrypted to keep sensitive training business away from prying eyes around the Abbey.",
+   "q": "What is the purpose of the Encrypted Letter?"
+  },
+  {
+   "aliases": [
+    "who wants rogues",
+    "factions interested in rogues",
+    "who covets rogue skills"
+   ],
+   "answer": "According to Jorik Kerridan, various factions across Azeroth covet the talents of skilled rogues. These include adventuring parties, Stormwind's covert intelligence arm SI:7, and even outlaws like the Defias Brotherhood who seek spies inside Stormwind.",
+   "q": "Which organizations are looking to recruit rogues?"
+  },
+  {
+   "aliases": [
+    "jorik advice",
+    "what does jorik tell you",
+    "rogue advice jorik"
+   ],
+   "answer": "Jorik urges you to remain your own person and never let powerful groups bully you into working against your will. He reminds rogues that they hold the cards before the game is done, emphasizing independence and caution.",
+   "q": "What advice does Jorik Kerridan give?"
+  },
+  {
+   "aliases": [
+    "why hide in stables",
+    "why is jorik behind abbey",
+    "why quiet in stables"
+   ],
+   "answer": "Jorik prefers the secluded stables behind Northshire Abbey because the spot is nice, quiet, and draws very little attention. Covert trainers and operatives prefer to meet without being noticed by the Abbey's clergy or guards.",
+   "q": "Why does Jorik Kerridan stay in the stable?"
+  }
+ ],
+ "keywords": [
+  "defias brotherhood",
+  "encrypted letter",
+  "jorik kerridan",
+  "northshire abbey",
+  "northshire valley",
+  "rogue trainer",
+  "si:7"
+ ],
+ "related": [
+  "subzone:northshire-abbey",
+  "quest:2300",
+  "topic:defias-brotherhood",
+  "topic:stormwind-kingdom",
+  "topic:kobold",
+  "quest:65"
+ ],
+ "sections": [
+  {
+   "body": "Behind the tranquil and pious exterior of Northshire Abbey, covert talents are quietly recruited and honed. The Encrypted Letter is handed to promising novices after dealing with the encroaching kobold vermin, bearing the seal of Jorik Kerridan. Addressed discreetly to keep matters away from the inquisitive gaze of priests and paladins, the dispatch directs its bearer to a secluded rendezvous in the stables behind the Abbey.",
+   "spoiler": 0,
+   "title": "A Discreet Summons"
+  },
+  {
+   "body": "Jorik Kerridan stays in the stables precisely because it is quiet and draws little scrutiny. Welcoming newcomers who arrive unnoticed, he wastes no time explaining the harsh reality awaiting thieves and scouts in the wider world. Powerful organizations\u2014from Stormwind's royal intelligence agency SI:7 to the rebellious Defias Brotherhood\u2014constantly seek stealthy operatives. Jorik counsels personal autonomy above all else, warning novices never to be pushed around by powerful syndicates and reminding them that a clever rogue holds all the cards.",
+   "spoiler": 0,
+   "title": "Shadows in Northshire"
+  }
+ ],
+ "summary": "The Encrypted Letter is a covert summons delivered to promising rogues at Northshire Abbey, sealed with the insignia of Jorik Kerridan. It introduces new operatives to their trainer in the secluded stables, providing early counsel on surviving the dangerous interests of organizations like SI:7 and the Defias Brotherhood.",
+ "attribution": [
+  "In-game quest text: Encrypted Letter"
+ ]
+}

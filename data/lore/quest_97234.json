@@ -1,0 +1,105 @@
+{
+ "key": "quest:97234",
+ "type": "quest",
+ "name": "Reading Room",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97234
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance travelers frequently visit the Royal Library within Stormwind Keep, where civic and scholarly exchanges maintain the city's intellectual life."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "reading room quest",
+    "what is reading room",
+    "reading room story"
+   ],
+   "answer": "Reading Room is a task involving Roy's Book Club, a gathering of readers who discuss storied legends and literature. The quest asks an adventurer to take a wrapped bundle of less popular works over to the Stormwind library to trade them for more modern tomes.",
+   "q": "What is the Reading Room quest?"
+  },
+  {
+   "aliases": [
+    "who is roy",
+    "roys book club",
+    "book club leader"
+   ],
+   "answer": "Roy runs an active reading club where members gather to debate the deeper meanings of storied legends and literature. He maintains an arrangement with the Stormwind library to rotate reading material, returning borrowed tomes in pristine condition.",
+   "q": "Who is Roy?"
+  },
+  {
+   "aliases": [
+    "where do books go",
+    "stormwind library drop off",
+    "wrapped reading material delivery"
+   ],
+   "answer": "The wrapped reading material is delivered directly to the library in Stormwind. The librarian there recognizes the distinctive wrapping technique used by Roy's club and readily accepts the swap for fresh modern writing.",
+   "q": "Where are the books being taken?"
+  },
+  {
+   "aliases": [
+    "why trade books",
+    "why return tomes",
+    "exchange reading material"
+   ],
+   "answer": "The club is cycling out some of its less popular literature in exchange for more modern and thought-provoking writing, relying on an established borrowing arrangement with the city library.",
+   "q": "Why are the books being exchanged?"
+  },
+  {
+   "aliases": [
+    "what does librarian think",
+    "is book club allowed",
+    "library arrangement"
+   ],
+   "answer": "The Stormwind librarian is quite pleased with the arrangement, noting that Roy's club consistently returns loaned materials in excellent condition and treats all texts with care, regardless of how provocative the subject matter might be.",
+   "q": "How does the Stormwind librarian view the book club?"
+  },
+  {
+   "aliases": [
+    "complimentary club refreshments",
+    "club perks",
+    "what refreshments"
+   ],
+   "answer": "The club offers complimentary refreshments to patrons and helpers who assist with running their book exchanges between the reading venue and the city archives.",
+   "q": "What are the club refreshments mentioned?"
+  }
+ ],
+ "keywords": [
+  "books",
+  "legends",
+  "librarian",
+  "reading room",
+  "roy's book club",
+  "stormwind library",
+  "tomes"
+ ],
+ "related": [
+  "quest:579",
+  "topic:stormwind-kingdom"
+ ],
+ "sections": [
+  {
+   "body": "In the bustling capital of Stormwind, literature lovers gather under the banner of Roy's Book Club to dissect classical legends and debate provocative writings. The club keeps its discussions fresh by rotating through texts, exchanging older or less popular works for newer, more engaging volumes from the city's vast repository.",
+   "spoiler": 0,
+   "title": "Literary Pursuits in Stormwind"
+  },
+  {
+   "body": "To keep their reading roster current, the club relies on an established lending agreement with the Stormwind library. Roy packages the club's returned volumes using a signature wrapping technique, allowing adventurers to courier the bundles straight to the librarian in exchange for a new list of modern tomes.",
+   "spoiler": 0,
+   "title": "The Library Exchange"
+  }
+ ],
+ "summary": "Reading Room centers on an exchange between Roy's Book Club and the Stormwind library. Adventurers assist the club by couriering a wrapped parcel of older literature to the library in order to procure modern writing for member discussions.",
+ "attribution": [
+  "In-game quest text: Reading Room"
+ ]
+}

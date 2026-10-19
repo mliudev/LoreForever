@@ -1,0 +1,133 @@
+{
+ "key": "quest:272",
+ "type": "quest",
+ "name": "Trial of the Sea Lion",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   272
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This trial is a rite of passage exclusive to druids, testing their spiritual maturity and balance before they are permitted to commune with aquatic spirits and adopt the form of the sea lion."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "As long-standing custodians of Moonglade and the Cenarion Circle, night elf druids revere the teachings of Dendrite Starblaze and the sacred ground surrounding the Shrine of Remulos."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "For tauren druids newly welcomed into the Cenarion Circle, undertaking the trial in Moonglade strengthens their communion with nature spirits and deepens their ties with their night elf mentors."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "trial of the sea lion quest",
+    "what is trial of the sea lion",
+    "sea lion trial"
+   ],
+   "answer": "The Trial of the Sea Lion is a pivotal druid quest in Moonglade that tests an initiate's understanding of aquatic life. It requires the druid to recover two separate pendant halves representing agility and endurance, assemble them at the Shrine of Remulos, and present the completed talisman to Dendrite Starblaze. Passing this trial is a necessary milestone toward unlocking the druid's Aquatic Form.",
+   "q": "What is the Trial of the Sea Lion?"
+  },
+  {
+   "aliases": [
+    "who gives trial of the sea lion",
+    "where to start trial of the sea lion",
+    "trial of the sea lion quest giver"
+   ],
+   "answer": "The warden Tajarri at the Shrine of Remulos in Moonglade gives the trial. Initiates consult local denizens for guidance, join the halves near the shrine, and then take the finished Pendant of the Sea Lion to Dendrite Starblaze, a night elf druid in the village of Nighthaven.",
+   "q": "Who gives the Trial of the Sea Lion quest?"
+  },
+  {
+   "aliases": [
+    "what are the pendant halves",
+    "pendant halves meaning",
+    "agility and endurance halves"
+   ],
+   "answer": "The two pendant halves represent the dual traits that define the sea lion aspect: agility and endurance. One half embodies the grace and swiftness required to glide smoothly through deep water, while the other embodies the stamina and resilience needed to survive prolonged aquatic journeys. Druids must respect and embody both traits equally to master their shapeshifting arts.",
+   "q": "What do the two pendant halves represent?"
+  },
+  {
+   "aliases": [
+    "how to find pendant halves",
+    "where to find the pendant halves",
+    "pendant of the sea lion halves location"
+   ],
+   "answer": "To discover where the Half Pendant of Aquatic Agility and the Half Pendant of Aquatic Endurance are hidden, initiates must speak with the residents of Moonglade. The local druids and villagers provide critical clues regarding the distant water bodies where each half was lost or concealed.",
+   "q": "Where are the pendant halves located?"
+  },
+  {
+   "aliases": [
+    "how to combine pendant halves",
+    "where to fuse pendant halves",
+    "where is shrine of remulos pendant"
+   ],
+   "answer": "The two halves cannot simply be combined anywhere; they must be joined together in the immediate vicinity of the Shrine of Remulos in Moonglade. The sacred aura of Keeper Remulos's shrine provides the spiritual resonance required to unite the powers of agility and endurance into a single functional talisman.",
+   "q": "Where do you assemble the Pendant of the Sea Lion?"
+  },
+  {
+   "aliases": [
+    "why agility and endurance",
+    "sea lion traits druid",
+    "meaning of the sea lion trial"
+   ],
+   "answer": "According to Dendrite Starblaze, neither agility nor endurance can function effectively on its own beneath the water. Moving quickly without stamina leads to rapid exhaustion, while enduring without swiftness leaves a swimmer helpless against powerful currents. Harmonizing both traits is essential for any druid seeking to fully embody the spirit of the sea lion.",
+   "q": "Why must druids balance agility and endurance?"
+  },
+  {
+   "aliases": [
+    "what do you get from trial of the sea lion",
+    "sea lion trial reward",
+    "does this give aquatic form"
+   ],
+   "answer": "Completing the Trial of the Sea Lion grants the restored Pendant of the Sea Lion and fulfills the major trial required to earn Aquatic Form. By proving mastery over the lessons of agility and endurance, the initiate establishes the spiritual foundation needed to shapeshift into a creature capable of breathing and swimming swiftly underwater.",
+   "q": "What is gained by completing the trial?"
+  }
+ ],
+ "keywords": [
+  "aquatic form",
+  "dendrite starblaze",
+  "half pendant of aquatic agility",
+  "half pendant of aquatic endurance",
+  "moonglade",
+  "nighthaven",
+  "pendant of the sea lion",
+  "shrine of remulos",
+  "trial of the sea lion"
+ ],
+ "related": [
+  "item:pendant-of-the-sea-lion",
+  "npc:dendrite-starblaze",
+  "quest:31",
+  "npc:remulos",
+  "subzone:nighthaven",
+  "quest:5921"
+ ],
+ "sections": [
+  {
+   "body": "To gain the ability to navigate Azeroth's deep waters, druid initiates must undertake tests of attunement in the sacred glade of Moonglade. The Trial of the Sea Lion represents the second of these essential rites, following earlier preparations in their spiritual training. Supervised by Dendrite Starblaze in the village of Nighthaven, the trial challenges druids to comprehend how two distinct traits\u2014graceful speed and resilient stamina\u2014must exist in balance. Without grasping both dimensions of the sea lion's nature, an initiate cannot hope to harness its form or withstand the perils of the ocean depths.",
+   "spoiler": 0,
+   "title": "The Path to Aquatic Form"
+  },
+  {
+   "body": "The physical and spiritual heart of the trial requires reassembling the Pendant of the Sea Lion from two severed halves. One half channels the agility of the sea lion aspect, reflecting its capacity to glide effortlessly through turbulent currents. The other half draws upon the creature's boundless endurance, representing the fortitude needed to dive long into freezing water without faltering. Initiates must consult the inhabitants of Moonglade for clues to uncover these dispersed relics across the world, demonstrating both their resourcefulness and their willingness to seek guidance within their sacred sanctuary.",
+   "spoiler": 0,
+   "title": "Agility and Endurance"
+  },
+  {
+   "body": "Once both relics are secured, the initiate must bring the pieces into proximity with the Shrine of Remulos to bind them back into a single talisman. The Keeper's sanctum provides the tranquil, potent energies necessary to meld the disparate powers of agility and endurance into harmony. Presenting the restored Pendant of the Sea Lion to Dendrite Starblaze in Nighthaven seals the completion of the trial. With this token in hand, the druid demonstrates their readiness to embrace the sea lion aspect and finally awaken their aquatic form.",
+   "spoiler": 0,
+   "title": "The Shrine of Remulos"
+  }
+ ],
+ "summary": "The Trial of the Sea Lion is a sacred rite undertaken by druids in Moonglade on their journey to master Aquatic Form. Initiates are tasked with recovering two scattered pendant halves that embody the sea lion's agility and endurance, then uniting them at the Shrine of Remulos. By forging the complete Pendant of the Sea Lion, the druid proves their harmony with the water and prepares to channel the creature's spirit.",
+ "attribution": [
+  "In-game quest text: Trial of the Sea Lion"
+ ]
+}

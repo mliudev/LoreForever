@@ -85,6 +85,7 @@ T.color = {
   mapShine = { 1, 1, 1, 0.55 },          -- the light on a bead, and its glow under the mouse
   mapRing = { 1, 1, 1, 0.9 },            -- the ring around the moment the map shows
   mapCount = { 0.08, 0.06, 0.02, 1 },    -- how many moments a bead stands for, on the bead
+  mapPin = { 0.45, 0.78, 1, 1 },         -- a spot pinned with Willo (LOR-672): her blue, in a white ring
   url = { 1, 1, 1, 1 },                  -- addresses to copy (Options)
 }
 

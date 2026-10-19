@@ -70,7 +70,7 @@ P.transport["subzone:bay-of-storms"] = {
   fullHash = "15636f",
   text = "Bay of Storms. The Bay of Storms is an expansive, tempestuous gulf carving into the rugged eastern cliffs of Azshara. Its churning waters harbor ancient ruins, submerged caverns, and perilous marine beasts that make seafaring along this coast hazardous. Opening out toward the Great Sea, the Bay of Storms defines much of Azshara's dramatic coastal geography. Far from a tranquil harbor, its turbulent waters and rocky outcrops are home to dangerous wildlife and ancient aquatic threats. Within and along its waters lie landmarks like the sunken Temple of Arkkoran, the coral reefs of Hetaera's Clutch, and Scalebeard's Cave, leaving the bay largely avoided by casual sailors and claimed instead by coastal monsters.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bay-of-storms-856ea8ef6624eabbb66d/1-0000.mp3", duration = 42.0832653, start = 0},
+    {file = "Audio/Transport/full_subzone_bay-of-storms-712e2b81b9da87bba2af/1-0000.mp3", duration = 42.3183673, start = 0},
   },
 }
 P.transport["subzone:bear-s-head"] = {
@@ -110,7 +110,7 @@ P.transport["subzone:blackchar-cave"] = {
   fullHash = "f60128",
   text = "Blackchar Cave. Blackchar Cave is a mysterious, sealed-off cavern tucked into the southwestern crags of Searing Gorge, close to the base of Blackrock Mountain. Its entrance is choked with impassable rubble and rock. Tucked away against the scorching crags near the approaches to Blackrock Mountain, Blackchar Cave presents a solid wall of stone where a deep cavern entrance might once have been. Heavy rubble and scorched slag choke the opening, preventing anyone from exploring whatever tunnels lie deeper within the mountain roots. The desolate terrain around it is scorched by ash and magma, offering little comfort to wanderers.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_blackchar-cave-b36ce516cc9860fd8c76/1-0000.mp3", duration = 33.9591837, start = 0},
+    {file = "Audio/Transport/full_subzone_blackchar-cave-afe7579d3d990a9fc948/1-0000.mp3", duration = 35.2130612, start = 0},
   },
 }
 P.transport["subzone:blackfathom-deeps"] = {
@@ -118,7 +118,7 @@ P.transport["subzone:blackfathom-deeps"] = {
   fullHash = "e8e718",
   text = "Blackfathom Deeps. Blackfathom Deeps is a flooded subterranean temple ruin buried beneath the Zoram Strand along Ashenvale's northwestern coast. Once a glorious house of worship dedicated to the moon goddess Elune, its drowned halls have been overtaken by naga, satyr, and the sinister Twilight's Hammer cult. Before the Great Sundering shattered ancient Kalimdor ten thousand years ago, this complex was a temple dedicated to the goddess Elune, complete with its own moonwell. When the Well of Eternity collapsed, the shrine sank beneath the ocean waves, presumed lost forever. Over millennia, receding shorelines and subterranean shifting left its remains partly flooded beneath the cliffs of Ashenvale.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_blackfathom-deeps-3d945ef8db180b576f3c/1-0000.mp3", duration = 41.7697959, start = 0},
+    {file = "Audio/Transport/full_subzone_blackfathom-deeps-91838e843082318a3d0b/1-0000.mp3", duration = 41.6130612, start = 0},
   },
 }
 P.transport["subzone:blackrock-mountain"] = {
@@ -150,7 +150,7 @@ P.transport["subzone:blackwood-lake"] = {
   fullHash = "4842fc",
   text = "Blackwood Lake. Blackwood Lake is a blighted body of water situated in the southern Eastern Plaguelands, teeming with hostile, corrupted elementals. The area is haunted by memories of tragedy and war, watched over by a small frontline camp of the Argent Dawn. Like so much of the Eastweald, Blackwood Lake has been poisoned by the rampant plague of undeath. Diseased and foul water elementals churn beneath the murky surface, attacking anyone who ventures near the shoreline.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_blackwood-lake-f12c9d33a92523dc084b/1-0000.mp3", duration = 26.6971429, start = 0},
+    {file = "Audio/Transport/full_subzone_blackwood-lake-f5bee6e2f1c93a0930f7/1-0000.mp3", duration = 28.5257143, start = 0},
   },
 }
 P.transport["subzone:bloodfen-burrow"] = {
@@ -230,7 +230,7 @@ P.transport["subzone:boulder-gor"] = {
   fullHash = "244b74",
   text = "Boulder'gor. Boulder'gor is a rugged hill in the western Arathi Highlands, situated directly north of the ruined human kingdom of Stromgarde. It serves as an active encampment for the Boulderfist ogres and their unusual allies among the Witherbark forest trolls. Rising just north of the crumbling ramparts of Stromgarde Keep, Boulder'gor is a steep bluff claimed by the Boulderfist clan. Within its shadows sits the Boulderfist Outpost mound, making it a central bastion of ogre power across the highlands. Uniquely, the ogres here share their fires and fortifications with forest trolls of the Witherbark tribe, including shadowy spellcasters who lend their dark magic to the clan's brute force. This mutual cooperation poses an ongoing danger to any travelers passing along the central roads of Arathi. The slopes around Boulder'gor look down over the open highlands of western Arathi. Hemmed between the Syndicate-infiltrated ruins of Stromgarde and the wild elemental sites of the plains, Boulder'gor remains a heavily guarded and hostile stronghold of tribal solidarity against both Alliance and Horde wanderers.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_boulder-gor-489150083d339b2f61c1/1-0000.mp3", duration = 63.3730612, start = 0},
+    {file = "Audio/Transport/full_subzone_boulder-gor-3df7eac70d30526a83f1/1-0000.mp3", duration = 63.8432653, start = 0},
   },
 }
 P.transport["subzone:boulderfist-hall"] = {
@@ -238,7 +238,7 @@ P.transport["subzone:boulderfist-hall"] = {
   fullHash = "1a8fb6",
   text = "Boulderfist Hall. Boulderfist Hall is a heavily fortified ogre mound nestled in the southern hills of the Arathi Highlands, just north of Thandol Span. It serves as the local stronghold for the Boulderfist ogres, who exert their brute influence across the neighboring trade routes and valleys under the command of Kor'gresh Coldrage. Carved into the rugged southern bluffs of the Arathi Highlands, Boulderfist Hall is the principal redoubt of the Boulderfist clan in the region. Sheltered within its earthen ramparts and deep caverns, ogre brutes and magi maintain a fortified settlement mere steps from Witherbark Village and the strategic bridge at Thandol Span. Deep within the mound lurks their regional chieftain, Kor'gresh Coldrage, alongside enforcers like Phalanax. From this stronghold, the ogres project violent control over the surrounding roads, making any peaceful transit between Arathi and the Wetlands perilous for travelers and supply caravans alike.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_boulderfist-hall-d0204c990250f57065d7/1-0000.mp3", duration = 53.4204082, start = 0},
+    {file = "Audio/Transport/full_subzone_boulderfist-hall-9d311b4b7330cf5d0980/1-0000.mp3", duration = 53.2114286, start = 0},
   },
 }
 P.transport["subzone:boulderfist-outpost"] = {
@@ -270,7 +270,7 @@ P.transport["subzone:broken-pillar"] = {
   fullHash = "f2ef54",
   text = "Broken Pillar. The Broken Pillar is a weathered cluster of ancient troll ruins jutting from the dunes south of Gadgetzan. It serves as an isolated research post for the goblin prospector and scientist Marvon Rivetseeker, who studies the enigmatic artifacts buried beneath the surrounding sands. Rising out of the sands south of Gadgetzan and east of the treacherous Abyssal Sands, the Broken Pillar marks the remnants of ancient troll architecture long swallowed by Tanaris. Despite the desolate surroundings and encroaching desert beasts, the site offers rare clues to the continent's prehistoric civilisations. Marvon Rivetseeker, a goblin researcher originally based out of Ratchet, has established a lonely camp beside the shattered stonework to examine curious relics known as Gahz'ridian scattered across the waste.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_broken-pillar-25d860cb61ec4168fcd2/1-0000.mp3", duration = 45.9755102, start = 0},
+    {file = "Audio/Transport/full_subzone_broken-pillar-a0a70d9d5a4db0e0b6b3/1-0000.mp3", duration = 45.4530612, start = 0},
   },
 }
 P.transport["subzone:bronzebeard-encampment"] = {
@@ -294,7 +294,7 @@ P.transport["subzone:bulwark"] = {
   fullHash = "ce9e4c",
   text = "Bulwark. The Bulwark is a fortified outpost straddling the border between Tirisfal Glades and the Western Plaguelands. Maintained jointly by the Forsaken and the neutral Argent Dawn, it serves as the Horde's front line against the Scourge and the primary launching point for expeditions into the tainted east. Positioned squarely on the eastern border of Tirisfal Glades, the Bulwark is the final barrier protecting the Forsaken heartland from the blighted horrors of the Western Plaguelands. Today, rough wooden palisades and heavily armed guards defend the pass against roaming undead. It represents an uneasy but necessary collaboration, where Forsaken forces coordinate alongside the Argent Dawn to recruit seasoned champions of the Horde, turning back the minions of the Lich King before they spill into Tirisfal.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bulwark-34d1dcb3b9f051c4b5c0/1-0000.mp3", duration = 44.7477551, start = 0},
+    {file = "Audio/Transport/full_subzone_bulwark-6aac853bdb9e6c9c8218/1-0000.mp3", duration = 45.3746939, start = 0},
   },
 }
 P.transport["subzone:caer-darrow"] = {
@@ -302,7 +302,7 @@ P.transport["subzone:caer-darrow"] = {
   fullHash = "4ba08b",
   text = "Caer Darrow. Caer Darrow is a fortified island situated in Darrowmere Lake in the Western Plaguelands. Formerly the aristocratic seat of the noble House Barov, the island's keep was secretly sold to Kel'Thuzad and transformed into the necromantic school of Scholomance, leaving the above-ground town plagued by wandering phantoms. Long before the Scourge, Caer Darrow was a strategic stronghold of Lordaeron that housed an ancient elven runestone. During the Second War, the Horde sacked the fortress and carved up the runestone to craft Gul'dan's Altars of Storms. When Lord Uther the Lightbringer sailed to offer relief to the survivors, his fleet was ambushed by Alterac privateers—an act of treachery that exposed Alterac's betrayal to the Alliance.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_caer-darrow-3d73864ef0bc7453bf4d/1-0000.mp3", duration = 43.3110204, start = 0},
+    {file = "Audio/Transport/full_subzone_caer-darrow-22773c7d0928dc3b0560/1-0000.mp3", duration = 41.2212245, start = 0},
   },
 }
 P.transport["subzone:camp-e-thok"] = {
@@ -382,7 +382,7 @@ P.transport["subzone:chamber-of-atonement"] = {
   fullHash = "2fe9fe",
   text = "Chamber of Atonement. The Chamber of Atonement is the grim entrance hall to the Graveyard wing within the Scarlet Monastery. Here, beneath stone arches hung with iron chains, the Scarlet Crusade subjects captured undead and other perceived heretics to brutal interrogation and torture before casting their remains into the cloister beyond. Serving as the threshold to the Forlorn Cloister, the Chamber of Atonement is far from a sanctuary of peaceful prayer. Instead, the Scarlet Crusade has converted the grand entryway into a house of pain, outfitted with racks, shackles, and burning braziers. Zealous inquisitors use these instruments to extract confessions and torment captives, viewing excruciating pain as the only fitting penance for unholy beings. The chamber echoes constantly with the cries of the damned, presided over by cruel taskmasters who ensure that those who enter rarely walk out whole. The chamber is overseen by Interrogator Vishas, one of the Crusade's most sadistic practitioners of coercion. Vishas takes grotesque pride in breaking the resolve of anyone caught crossing the monastery's boundaries. Among his prized victims is the Forsaken captive Vorrel Sengutz, who has endured endless weeks of torment at Vishas's hands. The cruelty practiced within these walls proves to outsiders that the Scarlet Crusade's crusade for purity has twisted into wanton sadism.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_chamber-of-atonement-4414e1548660bd2eb295/1-0000.mp3", duration = 77.4791837, start = 0},
+    {file = "Audio/Transport/full_subzone_chamber-of-atonement-bff61b1aba3ac0aae44a/1-0000.mp3", duration = 77.2702041, start = 0},
   },
 }
 P.transport["subzone:chillwind-camp"] = {
@@ -478,7 +478,7 @@ P.transport["subzone:crypt-badlands"] = {
   fullHash = "ac0f4c",
   text = "Crypt (Badlands). Tucked away high in the dusty hills of the Badlands lies a secluded underground tomb known simply as the Crypt. Inside rests the silent remnant of an ancient warrior: an armored skeleton seated upon a stone throne, flanked by urns, chests, and a massive relic sword. Perched southeast of Hammertoe's Digsite along an unmarked earthen path rising up the hillside, the Badlands Crypt is easily missed by passersby. Down in its dark stone chambers sits an armored skeleton poised atop a throne. Resting beside the remains is the Sword of the Barbarian King, surrounded by scattered bones, urns, and forgotten chests. While miners and adventurers frequent the surrounding gullies in search of dwarven ruins and riches, the true origin and history of this seated sovereign remain a mystery lost to the arid wastes.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_crypt-badlands-7a1c5466dc8e2c7d1196/1-0000.mp3", duration = 48.2742857, start = 0},
+    {file = "Audio/Transport/full_subzone_crypt-badlands-81bedd5d9deab8eaac6d/1-0000.mp3", duration = 50.8865306, start = 0},
   },
 }
 P.transport["subzone:crypt-stromgarde-keep"] = {
@@ -486,7 +486,7 @@ P.transport["subzone:crypt-stromgarde-keep"] = {
   fullHash = "c8399f",
   text = "Crypt (Stromgarde Keep). Deep within the ruins of Stromgarde Keep lies the royal crypt, situated past the sanctum chapel in the heart of the district held by the surviving Stromgarde defenders. It holds the tomb of the fallen King Thoras Trollbane and the ancestral treasures of his dynasty. Guarded closely by Prince Galen and faithful caretakers, the vault remains a sanctuary of royal honor amid a shattered kingdom. Hidden beneath the Sanctum of Stromgarde Keep, this subterranean burial vault serves as the final resting place of King Thoras Trollbane, the warrior monarch who led Stromgarde through the Second War. Despite the devastation engulfing the city—split among Syndicate rogues and Boulderfist ogres—the remaining Stromgarde militia fiercely maintains their grip on this quarter. Prince Galen Trollbane personally watches over the crypts alongside dedicated royal caretakers, ensuring his father's body and legacy remain undisturbed by the scavengers and enemies outside. Beyond housing the royal dead, the crypt safeguards prized artifacts belonging to the Trollbane lineage. Chief among these relics is Trol'kalar, the ancient runed greatsword forged centuries ago to slay trolls. Entrusted to the sworn protection of caretakers such as Alaric, Nevlin, and Weston, the chamber and its treasures are secured with powerful safeguards. Galen and his loyalists guard the tomb relentlessly, well aware that rival factions and hostile trolls across Arathi would covet the blade's ancient power.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_crypt-stromgarde-keep-a86582ba25552e02449f/1-0000.mp3", duration = 86.3608163, start = 0},
+    {file = "Audio/Transport/full_subzone_crypt-stromgarde-keep-4173542dac417bc14f33/1-0000.mp3", duration = 85.0808163, start = 0},
   },
 }
 P.transport["subzone:crystal-shore"] = {
@@ -502,7 +502,7 @@ P.transport["subzone:crystal-vale"] = {
   fullHash = "8839d8",
   text = "Crystal Vale. Tucked away in the far northwestern corner of Silithus, the Crystal Vale is a remote canyon dominated by jagged mineral spires and swirling elemental forces. Earth and air elementals roam its rocky flats, guarding rich veins of raw ore. It is also a site of potent summoning magic, deeply tied to the ancient elemental lords. The Crystal Vale stands distinct from the barren desert sands of southern Silithus. Framed by steep cliffs, the basin is filled with shimmering crystalloid formations, roaming earthen elementals, and roaring whirlwinds of living air. Rich deposits of thorium draw occasional daring prospectors, but the vale is far from quiet. The elemental beings here are inherently hostile to intruders, guarding a realm that feels steeped in the primal conflicts of primordial Azeroth.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_crystal-vale-1ad7aef3475b780f53c9/1-0000.mp3", duration = 49.2930612, start = 0},
+    {file = "Audio/Transport/full_subzone_crystal-vale-151462c00151f052e87b/1-0000.mp3", duration = 49.5281633, start = 0},
   },
 }
 P.transport["subzone:crystalvein-mine"] = {
@@ -582,7 +582,7 @@ P.transport["subzone:darrow-hill"] = {
   fullHash = "153e10",
   text = "Darrow Hill. Darrow Hill is an elevated expanse of rugged grassland nestled in northern Hillsbrad Foothills directly beneath the Headland. While mountain lions and stags graze across its open slopes, feral yetis lurk inside the Foothill Caverns that pit the hillside. Rich with veins of Alterac Granite, it serves as a treacherous frontier where natural beasts and rival travelers constantly clash. Rising along the base of the northern mountains below the Headland, Darrow Hill bridges the rolling pasture of southern Hillsbrad with the jagged, colder heights of Alterac. Mountain lions and stags stalk through the tall grasses, sharing the rocky slopes with towering yetis that spill out from the Foothill Caverns. Beyond its feral wildlife, the cavern walls hide deposits of dense Alterac Granite, drawing quarry workers, miners, and adventurers straight into harm's way. Caught between contentious regional claims, its trails remain notoriously dangerous for travelers of either faction caught unawares.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_darrow-hill-d86fd41c86c998d4183d/1-0000.mp3", duration = 60.1338776, start = 0},
+    {file = "Audio/Transport/full_subzone_darrow-hill-629af207ed126dda4a6a/1-0000.mp3", duration = 57.364898, start = 0},
   },
 }
 P.transport["subzone:darrowmere-lake"] = {
@@ -638,7 +638,7 @@ P.transport["subzone:dire-maul"] = {
   fullHash = "bc95e8",
   text = "Dire Maul. Dire Maul is the ruined expanse of Eldre'Thalas, an ancient Highborne city hidden deep in the wilderness of Feralas. Once built to safeguard Queen Azshara's arcane secrets, its crumbling plazas and towering coliseums are now divided between occupying Gordok ogres, invading satyrs, and the withered remnants of its original elven caretakers. Twelve thousand years ago, Eldre'Thalas served as a wondrous bastion for Queen Azshara's favored sorcerers, the Shen'dralar. When the Well of Eternity collapsed during the Great Sundering, Prince Tortheldrin wove a magical barrier that shielded the city from ruin. Severed from their source of magic, the surviving Highborne trapped a colossal demon named Immol'thar beneath their sanctum, siphoning its fel essence to sustain their immortality and arcane powers for millennia.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dire-maul-0f97bd2c4306395de9c0/1-0000.mp3", duration = 47.3338776, start = 0},
+    {file = "Audio/Transport/full_subzone_dire-maul-625ad93060cd5cdc1815/1-0000.mp3", duration = 46.9681633, start = 0},
   },
 }
 P.transport["subzone:direforge-hill"] = {
@@ -654,7 +654,7 @@ P.transport["subzone:dragonmaw-gates"] = {
   fullHash = "e436f2",
   text = "Dragonmaw Gates. The Dragonmaw Gates are a series of imposing fortifications along the mountain road leading up from the eastern Wetlands. Built to guard the steep ascent to the mountain fortress of Grim Batol, these heavy barricades bar entry into the cursed heights of the dwarven ruins. Carved into the rugged peaks bordering the eastern Wetlands, the Dragonmaw Gates seal the winding road that climbs into the mountains toward Grim Batol. Named after the Dragonmaw clan of orcs who held the dwarven mountain city during the Second War, these defensive barriers remain deeply fortified checkpoints. Anyone attempting to ascend toward the heights must contend with the lingering perils of the pass, where powerful drakes and grim reminders of the clan's dark history still cast a long shadow. Though the Dragonmaw orcs were broken and scattered following the destruction of the Demon Soul, the mountain path remains exceptionally dangerous. Powerful red dragons have been seen watching over the winding slopes and perches around the gates. Between monstrous drakes and remnants of the Dragonmaw clan lurking in the nearby hills, the gates stand as a firm barrier against any travelers bold enough to venture up the heights.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dragonmaw-gates-8c648eca672ffe2a679b/1-0000.mp3", duration = 66.5338776, start = 0},
+    {file = "Audio/Transport/full_subzone_dragonmaw-gates-97ff4e2897ac728ac5dc/1-0000.mp3", duration = 64.7836735, start = 0},
   },
 }
 P.transport["subzone:dragonmurk"] = {
@@ -678,7 +678,7 @@ P.transport["subzone:dreadmaul-rock"] = {
   fullHash = "e7f301",
   text = "Dreadmaul Rock. Dreadmaul Rock is a towering crag and cave complex rising out of the fiery wastes of the Burning Steppes. It serves as the primary base of operations for the Firegut ogres, who make their home within its winding, subterranean mounds. Towering above the scorched plains of the Burning Steppes, Dreadmaul Rock is a massive stone formation carved out by a labyrinthine cave system. Though its name hints at a possible connection to the Dreadmaul ogres of the Blasted Lands, the rock is held firmly by the Firegut clan. These brutish ogres use the elevated paths, crags, and interior earthen mounds as a defended encampment, dominating the surrounding wasteland and menacing anyone attempting to traverse the northern slopes toward Blackrock Spire.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dreadmaul-rock-3e7740a3a8a066bda7eb/1-0000.mp3", duration = 42.9714286, start = 0},
+    {file = "Audio/Transport/full_subzone_dreadmaul-rock-6d1abd317c27d318595f/1-0000.mp3", duration = 43.0497959, start = 0},
   },
 }
 P.transport["subzone:dreadmurk-shore"] = {
@@ -742,7 +742,7 @@ P.transport["subzone:dustbowl"] = {
   fullHash = "7c9fec",
   text = "Dustbowl. The Dustbowl is a sprawling, arid expanse in the northwestern Badlands, lying between the Horde outpost of Kargath and the central Valley of Fangs. Swept by scouring desert winds, it is a harsh wilderness populated by scavengers, prowling beasts, and wandering elementals. It is also the site of Camp Wurg, making it a frequent crossing point for travelers braving the wasteland. Stretching across the northwest of the Badlands, the Dustbowl is characterized by dry gulches, cracked clay, and relentless winds that stir up choking plumes of grit. Despite the barren landscape, tough desert flora persists in the form of hardy cacti and scattered, gnarled trees. The open flatland presents constant danger to unguided wayfarers, who must contend with predatory coyotes, circling buzzards, and living rock elementals born of the rugged earth. Tucked within this scrubland lies Camp Wurg, providing a recognizable landmark amidst the otherwise desolate expanse.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dustbowl-67af20e61447dd94c6a3/1-0000.mp3", duration = 58.1485714, start = 0},
+    {file = "Audio/Transport/full_subzone_dustbowl-1adb7b4c476cd550c0e1/1-0000.mp3", duration = 59.7942857, start = 0},
   },
 }
 P.transport["subzone:dustfire-valley"] = {
@@ -830,7 +830,7 @@ P.transport["subzone:faldir-s-cove"] = {
   fullHash = "318500",
   text = "Faldir's Cove. Faldir's Cove is a secluded natural harbor nestled along the southern coastline of the Arathi Highlands. Steeped in human history, it is traditionally remembered as the departure point from which early settlers sailed south to found Stormwind. Today, it serves as an emergency shelter for stranded Blackwater Raiders whose fleet ran afoul of local hazards. Tucked away behind the rugged bluffs south of Stromgarde Keep, Faldir's Cove is linked to the mainland by a concealed cave tunnel. The cove honors the memory of Faldir, the ancient Arathor explorer whose expedition set sail from these very shores to cross the Great Sea and establish the southern kingdom of Stormwind. In the present day, however, its quiet waters house a very different crowd: an expedition of Blackwater Raiders from Booty Bay, led by Captains Steelgut and O'Breen, who sailed north pursuing ancient elven treasures only to end up trapped in the bay. The Blackwater venture turned catastrophic upon reaching the Arathi coast. Strange and unnatural tides conjured by the territorial naga dwelling on the offshore Drowned Reef shattered two of their three vessels. Only the Harbinger survived intact, limping into Faldir's Cove. With the naga prowling the waters and their navigation charts resting beneath the waves, the surviving pirates and their gnomish researchers find themselves marooned, reliant on neutral travelers to battle the aquatic horrors and recover sunken salvage.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_faldir-s-cove-df56516d0d24d0c3fd2f/1-0000.mp3", duration = 83.2522449, start = 0},
+    {file = "Audio/Transport/full_subzone_faldir-s-cove-7fde17b675ea8004b701/1-0000.mp3", duration = 83.9053061, start = 0},
   },
 }
 P.transport["subzone:fallow-sanctuary"] = {
@@ -886,7 +886,7 @@ P.transport["subzone:fire-plume-ridge"] = {
   fullHash = "75417b",
   text = "Fire Plume Ridge. Fire Plume Ridge is the active volcano rising directly from the center of Un'Goro Crater. Its searing slopes and subterranean magma channels fuel the crater's geysers and steam pools while playing host to fierce fire elementals. Towering over the primeval basin of Un'Goro, Fire Plume Ridge stands in sharp contrast to the surrounding lush jungle. Lava steadily cascades down its scorched rock faces, carving a landscape of ash and basalt. Subterranean magma arteries spiderweb outward beneath the soil from the ridge, fueling the bubbling geysers and hot springs scattered across the basin. The oppressive heat here is legendary—far exceeding ordinary volcanic temperatures according to goblin measuring devices—making it perilous for ill-prepared explorers to wander without ample water and shade. The volcano is an elemental furnace teeming with living flame. Living flares and roving fire elementals patrol the glowing flows, drawn to the concentration of pure subterranean heat. Deep within a cavern near the volcanic summit resides Blazerunner, the undisputed master among Un'Goro's elemental denizens. Venturing high up the ridge means navigating both lethal heat and volatile elemental spirits that aggressively defend their fiery domain.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_fire-plume-ridge-9a99838fcf0f90c2a6fc/1-0000.mp3", duration = 72.9861224, start = 0},
+    {file = "Audio/Transport/full_subzone_fire-plume-ridge-506fa351a01600574967/1-0000.mp3", duration = 75.0497959, start = 0},
   },
 }
 P.transport["subzone:firewatch-ridge"] = {
@@ -902,7 +902,7 @@ P.transport["subzone:flame-crest"] = {
   fullHash = "521b67",
   text = "Flame Crest. Flame Crest is a rugged neutral outpost perched atop a rocky ledge overlooking the volcanic wastes of the Burning Steppes. Accessed only across a crude span, this precarious encampment serves as a forward staging ground against the Dark Horde entrenched in Blackrock Mountain. It provides essential aerial connections and a haven for scouts, beast collectors, and strategists. Situated high on an isolated stone outcropping, Flame Crest commands a watchful view over the scorched ash and lava plains of the Burning Steppes. Reached only by crossing a narrow, rickety wooden bridge, the outpost is naturally defensible against the prowling beasts and roaming orc warbands of the wastes. Wind riders roost along the heights, connecting the camp back across the Redridge range to Kargath, Stonard, Thorium Point, and Rog'mar in the Riverglades. Flame Crest is more than just a wind rider roost; it is a critical forward watchpoint over the Blackrock clan entrenched within Blackrock Spire. Here, deep in hostile territory, scouts gather intelligence, lay plans to break the renegade Dark Horde, and trade with eccentric loners like the pet master Kibler in his nearby cave.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_flame-crest-09711cc92fea050dc7a0/1-0000.mp3", duration = 63.8171429, start = 0},
+    {file = "Audio/Transport/full_subzone_flame-crest-49f3172e6536ee4457cd/1-0000.mp3", duration = 66.56, start = 0},
   },
 }
 P.transport["subzone:foothold-citadel"] = {
@@ -926,7 +926,7 @@ P.transport["subzone:forgotten-pool"] = {
   fullHash = "aa83c6",
   text = "Forgotten Pool. The Forgotten Pool is a submerged cavern tucked deep beneath the flooded corridors of Blackfathom Deeps. Located beyond the Moonshrine Ruins, this quiet dead-end serves as the aquatic lair of monstrous deep-sea predators lurking in the subterranean dark. Reaching the Forgotten Pool requires diving into the sunken subterranean waterways extending past the Moonshrine Ruins. Cut off from dry ground, the pool is an isolated, stagnant cavern completely flooded by dark waters. Away from the chanting Twilight's Hammer cultists and the patrolling naga, this secluded pocket serves as the lair of the ancient aquatic terror known as Old Serra'kis, keeping the beast hidden in the flooded dark.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_forgotten-pool-6ba0ceea4c0f9ad97cbf/1-0000.mp3", duration = 40.4636735, start = 0},
+    {file = "Audio/Transport/full_subzone_forgotten-pool-ba1a45ebdb3de9882547/1-0000.mp3", duration = 40.6465306, start = 0},
   },
 }
 P.transport["subzone:forlorn-cloister"] = {
@@ -966,7 +966,7 @@ P.transport["subzone:frostsaber-rock"] = {
   fullHash = "896282",
   text = "Frostsaber Rock. Frostsaber Rock is a towering stone promontory rising above the snowy northern reaches of Winterspring. It serves as the primary sanctuary and training grounds for the noble frostsaber cats of the region. Rising high above the frozen wastes of northern Winterspring, Frostsaber Rock commands a sweeping view of the snowbound wild. The crag is named for the fierce, majestic frostsaber predators that prowl the slopes and valleys below. At its highest apex resides Rivern Frostwind, a solitary night elf dedicated to raising and tending these beasts. For champions loyal to the Alliance willing to brave the harsh conditions and prove their devotion, Rivern offers the rare privilege of learning to raise, tame, and ride one of these legendary snowy mounts.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_frostsaber-rock-23a76c86fce06cedca05/1-0000.mp3", duration = 42.8408163, start = 0},
+    {file = "Audio/Transport/full_subzone_frostsaber-rock-0b0e37b95f0d472851cf/1-0000.mp3", duration = 43.4677551, start = 0},
   },
 }
 P.transport["subzone:frostwhisper-gorge"] = {
@@ -1070,7 +1070,7 @@ P.transport["subzone:golakka-hot-springs"] = {
   fullHash = "185852",
   text = "Golakka Hot Springs. Golakka Hot Springs is a geothermal basin in western Un'Goro Crater, nestled just north of Terror Run. Its bubbling pools and erupting geysers are fueled by the intense volcanic activity of nearby Fire Plume Ridge. The mineral-rich waters attract eccentric researchers, alchemists in search of exotic reagents, and wandering water elementals known as Steaming Furies. Situated in the western reaches of Un'Goro Crater, the Golakka Hot Springs are a direct product of the subterranean heat radiating from Fire Plume Ridge. Scalding water bubbles continuously to the surface, shaping tiered mineral terraces and violently erupting geysers. The environment is heavily prowled by Steaming Furies, elemental manifestations born from the convergence of subterranean groundwater and volcanic heat. Despite the danger, the springs frequently draw explorers, herbalists, and researchers fascinated by the crater's unique geology. The unique properties of Golakka's waters have drawn interest beyond simple sightseeing. Alchemists value the geothermally enriched spring water as a potent catalytic reagent, even utilizing it in delicate concotions such as love potions. The geothermal vent also hosts quirky visitors, such as Spark Nilminer perched atop the central geyser vent, and draws the researcher Krakle, who seeks to decipher how the hot springs directly tap into the volcanic heart of the crater.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_golakka-hot-springs-718c2a11e64a147094c2/1-0000.mp3", duration = 80.8489796, start = 0},
+    {file = "Audio/Transport/full_subzone_golakka-hot-springs-209a6d2ea0345f9718ed/1-0000.mp3", duration = 82.6514286, start = 0},
   },
 }
 P.transport["subzone:gordok-commons"] = {
@@ -1158,7 +1158,7 @@ P.transport["subzone:hall-of-champions"] = {
   fullHash = "533d9f",
   text = "Hall of Champions. The Hall of Champions is the inner sanctum of the Scarlet Monastery's armory wing. It serves as the seat of Herod, the Scarlet Champion, and a proving ground for the Scarlet Crusade's elite. Situated past the Footman's Armory, the Hall of Champions lies at the heart of the monastery's armory wing. Here Herod, the Scarlet Champion, holds sway over the Crusade's fiercest fighters, and Scarlet trainees harden their resolve to purge Lordaeron of all undead and outsiders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hall-of-champions-42f15effb1a71468aa4b/1-0000.mp3", duration = 25.2865306, start = 0},
+    {file = "Audio/Transport/full_subzone_hall-of-champions-330f6b6796942d2e9de1/1-0000.mp3", duration = 27.637551, start = 0},
   },
 }
 P.transport["subzone:hall-of-masks"] = {
@@ -1182,7 +1182,7 @@ P.transport["subzone:harborage"] = {
   fullHash = "889fff",
   text = "Harborage. The Harborage is a quiet settlement of exiled Draenor natives situated in the northern reaches of the Swamp of Sorrows. While many of their afflicted kin wandering the surrounding bogs have succumbed to madness and primal hostility, the inhabitants here have managed to hold onto their sanity and wits. They live cautiously along the waterline, seeking peace amidst a harsh and unforgiving wilderness. Tucked away against the northern mountains of the Swamp of Sorrows, the Harborage stands in stark contrast to the feral tribes wandering the nearby waters. Constructed of rugged leather shelters and adorned with mysterious hanging crystals, this small encampment provides sanctuary to exiled Draenor survivors who have refused to surrender their minds. Under the guidance of elders like Magtoor, they maintain a fragile, civilized enclave while remaining watchful of the hostile wilderness, native predators, and the feral tribes of their fallen brothers lurking just beyond their perimeter.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_harborage-95d5cb05de0ee9223b70/1-0000.mp3", duration = 55.04, start = 0},
+    {file = "Audio/Transport/full_subzone_harborage-6d0c50fc84e5f7fc1f4a/1-0000.mp3", duration = 55.3534694, start = 0},
   },
 }
 P.transport["subzone:hearthglen"] = {
@@ -1214,7 +1214,7 @@ P.transport["subzone:high-wilderness"] = {
   fullHash = "c281ef",
   text = "High Wilderness. The High Wilderness is an expansive, untamed stretch of primordial forest covering much of western Feralas. Bordered by the Verdantis River to the east and the Forgotten Coast to the west, it shelters a wide array of wildlife, wandering treants, and dangerous beasts beneath its towering emerald canopy. Stretching across the western half of Feralas, the High Wilderness represents the quintessential untamed wilderness of southern Kalimdor. Thick foliage and colossal trees block out much of the sky, creating a lush expanse teeming with wolves, bears, hippogryphs, and yetis. Ancient treants wander among the roots, while aggressive ogre clans establish footholds in the shaded clearings. Navigating this vast green expanse requires vigilance, as the dense brush hides both natural predators and lingering primeval hazards.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_high-wilderness-7dc73c955a1b1263a86e/1-0000.mp3", duration = 47.1771429, start = 0},
+    {file = "Audio/Transport/full_subzone_high-wilderness-51b8ce536aa069ec77cb/1-0000.mp3", duration = 47.5428571, start = 0},
   },
 }
 P.transport["subzone:hive-ashi"] = {
@@ -1222,7 +1222,7 @@ P.transport["subzone:hive-ashi"] = {
   fullHash = "93c9da",
   text = "Hive'Ashi. Hive'Ashi is a sprawling silithid colony dominating the northern sands of Silithus. As one of three major insectoid hives in the region, its creeping tunnels and towering mounds churn with countless hostile workers, defenders, and stingers. Situated in northern Silithus, Hive'Ashi serves as a prime hive-complex for the re-emerging silithid swarms. Its chitinous spires carve out a distinct territory among the dunes, sending foraging workers and venomous defenders south and east toward the Swarming Pillar. Anyone seeking to understand the strange, coordinated intelligence stirring within the desert wastes inevitably finds their path leading directly into the dangerous, buzzing tunnels beneath these mounds. Cenarion scouts stationed across Silithus monitor Hive'Ashi closely, commissioning brave combatants to thin its ranks and retrieve reconnaissance reports from deep within the colony. The glyphs and coordinated behavior documented within Ashi suggest that these mindless-looking insects share an eerie, singular will. As their numbers swell, the hive threatens to spill beyond northern Silithus entirely, making the eradication of its brood a top priority for those watching the southern borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hive-ashi-ab69929442efa1e66673/1-0000.mp3", duration = 70.4261224, start = 0},
+    {file = "Audio/Transport/full_subzone_hive-ashi-fa2958e8b49780fb47bf/1-0000.mp3", duration = 70.9485714, start = 0},
   },
 }
 P.transport["subzone:hive-regal"] = {
@@ -1238,7 +1238,7 @@ P.transport["subzone:hive-zora"] = {
   fullHash = "e4ed19",
   text = "Hive'Zora. Hive'Zora is one of the three major silithid colony mounds dominating the arid expanse of Silithus. Located along the western edge of the desert, this teeming subterranean hive crawls with aggressive insectoid castes serving the greater swarm. Rising out of the barren sand dunes of western Silithus, Hive'Zora serves as a bustling hub of insectoid activity. Great, porous stone spires and mounds mark the entrances into deep subterranean tunnels dug out by silithid burrowers. Waywatchers and reavers patrol the perimeter relentlessly, while tunneling castes and hive sisters brood within the depths below. For the Cenarion Circle and other scouts keeping watch over the desert, the hive represents a terrifying sign of the insectoid menace steadily reclaiming the ancient frontier.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hive-zora-97866e660454595e5cbc/1-0000.mp3", duration = 45.9493878, start = 0},
+    {file = "Audio/Transport/full_subzone_hive-zora-b3384d73e8b37755bfd4/1-0000.mp3", duration = 46.9681633, start = 0},
   },
 }
 P.transport["subzone:horizon-scout"] = {
@@ -1302,7 +1302,7 @@ P.transport["subzone:itharius-s-cave"] = {
   fullHash = "918520",
   text = "Itharius's Cave. Itharius's Cave is a secluded hollow tucked into the far southwestern cliffs of the Swamp of Sorrows. It serves as the refuge of the enigmatic Itharius, who appears to be a high elf and tends to the brood of green dragonkin inhabiting the surrounding marsh. Tucked away in the treacherous, moss-draped crags of the southwestern Swamp of Sorrows, this damp cavern shelters the recluse Itharius. Outside its mouth, unruly green whelps wander the mire. Though he appears to be a high elf, a folk who rarely wander so far south into wild swamps alone, Itharius keeps a watchful eye on these young dragonkin as they grow, living alongside them in quiet isolation.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_itharius-s-cave-6029ee33841ba6a060aa/1-0000.mp3", duration = 38.6873469, start = 0},
+    {file = "Audio/Transport/full_subzone_itharius-s-cave-45f371346aa2046151fa/1-0000.mp3", duration = 38.8179592, start = 0},
   },
 }
 P.transport["subzone:jadefire-run"] = {
@@ -1358,7 +1358,7 @@ P.transport["subzone:kargath"] = {
   fullHash = "9a30bb",
   text = "Kargath. Kargath is a fortified Horde outpost perched in the western Badlands, serving as their sole foothold in Khaz Modan. Established by the Kargath Expeditionary Force under Warchief Thrall's orders, the settlement anchors crucial transit lines across the Eastern Kingdoms while staging operations toward Blackrock Mountain and the excavation at Uldaman. Named in honor of the Shattered Hand chieftain Kargath Bladefist, the outpost of Kargath stands as the Horde's solitary settlement throughout the mountain realms of Khaz Modan. Surrounded by arid wastes, aggressive wildlife, and hostile dwarven factions, the garrison provides a vital midway sanctuary for travelers crossing the continent. Its flight master bridges the long divide between northern holdings like the Undercity and Hammerfall and southern redoubts like Stonard and Grom'gol Base Camp. Dispatched on direct orders from Warchief Thrall, the Kargath Expeditionary Force maintains a dual objective in the region. Troops make frequent forays into the ancient titan halls of Uldaman to uncover why Ironforge's Prospectors prize the dig site so dearly. Concurrently, scouts labor to carve a path through the Searing Gorge into Blackrock Mountain, seeking to strike at Rend Blackhand's false 'Dark Horde' while contending with the entrenched Dark Iron dwarves.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_kargath-f8b9c694a6cae38a0478/1-0000.mp3", duration = 74.8408163, start = 0},
+    {file = "Audio/Transport/full_subzone_kargath-ccec1462d21f46554757/1-0000.mp3", duration = 73.4302041, start = 0},
   },
 }
 P.transport["subzone:kodo-graveyard"] = {
@@ -1518,7 +1518,7 @@ P.transport["subzone:lost-rigger-cove"] = {
   fullHash = "9b12d4",
   text = "Lost Rigger Cove. Tucked away along the eastern cliffs of Tanaris, Lost Rigger Cove serves as the primary base of operations for the Southsea Pirates in the region. Shielded by towering desert mountains on three sides, this hidden port boasts docks, fortified encampments, and an active shipyard constructing new pirate vessels. Naturally fortified by sheer rock walls on almost every side, Lost Rigger Cove provides the Southsea Freebooters an ideal maritime stronghold on Kalimdor's southeastern edge. Here, pirate cutthroats, dockworkers, and brigands haul salvage and assemble fresh hulls right under the noses of Gadgetzan's authorities. The cove allows the Southseas to project power across the Great Sea while raiding trade routes between Ratchet, Booty Bay, and coastal settlements. The pirates do not hold their cove unchallenged. The goblins of Gadgetzan and nearby Steamwheedle Port resent the raiders on their doorstep and pay mercenaries to slaughter the Southseas, thin their ranks, and disrupt their operations.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_lost-rigger-cove-0d644a4fcf2fe7c06329/1-0000.mp3", duration = 57.4955102, start = 0},
+    {file = "Audio/Transport/full_subzone_lost-rigger-cove-294db005de84843d74b3/1-0000.mp3", duration = 59.5853061, start = 0},
   },
 }
 P.transport["subzone:lower-wilds"] = {
@@ -1526,7 +1526,7 @@ P.transport["subzone:lower-wilds"] = {
   fullHash = "26adae",
   text = "Lower Wilds. The Lower Wilds form the eastern threshold of Feralas, where the humid forests meet the arid canyons of Thousand Needles. The main road cutting through these woods connects Thalanaar at the border to the settlements further west, flanked by ancient greenery and unpredictable woodland creatures. Spanning the eastern reaches of Feralas, the Lower Wilds serve as the natural transition between the sun-baked ravines of Thousand Needles and the deep, primordial jungle to the west. Travelers entering the zone must traverse this stretch of forest along the main highway, past the elven outpost of Thalanaar guarding the mountain pass. The dense canopies here house ancient treants, alongside indigenous wildlife that makes straying from the beaten path perilous. Because it links the southern wilderness to the eastern territories, the Lower Wilds see frequent movement of travelers, scouts, and couriers. While the night elves hold the gateway at Thalanaar, the Horde maintains Camp Mojache further inland. The road winding through the Lower Wilds is therefore a critical lifeline for anyone moving supplies across southern Kalimdor, fraught with both nature's hazards and faction tensions.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_lower-wilds-5316193014ec94762c28/1-0000.mp3", duration = 66.3510204, start = 0},
+    {file = "Audio/Transport/full_subzone_lower-wilds-d71f8fb808fcf686a431/1-0000.mp3", duration = 65.9853061, start = 0},
   },
 }
 P.transport["subzone:magram-village"] = {
@@ -1574,7 +1574,7 @@ P.transport["subzone:marshal-s-refuge"] = {
   fullHash = "aafcef",
   text = "Marshal's Refuge. Marshal's Refuge is a precarious, neutral haven tucked into the northern cliffs of Un'Goro Crater. Established by Williden Marshal and his expedition party, it serves as an emergency redoubt after the basin's primeval beasts routed their lower camps. When Williden and Hol'anyee Marshal led their expedition into Un'Goro Crater, they drastically underestimated the ferocity of its prehistoric denizens. After their initial base camps were repeatedly overrun by rampaging beasts, the battered survivors scrambled up into the cavernous northern cliffside to escape slaughter. Re-established as Marshal's Refuge, the camp clings high above the jungle floor, offering the only stable resting ground, basic supplies, and flight masters for weary explorers in the northern crater. Because Un'Goro Crater contains ancient biological wonders and mysterious crystal formations, Marshal's Refuge attracts a motley band of researchers, fortune seekers, and eccentric wanderers. Naturalists from many lands, including dwarven scholars and gnomish tinkers, share the crowded ledge alongside the surviving Marshal crew. From here, scouts strike out toward volcanic summits like Fire Plume Ridge or bubbling landmarks like the Golakka Hot Springs, hoping to catalog the primordial wilderness before it consumes them.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_marshal-s-refuge-dc750bc47f3e167268d7/1-0000.mp3", duration = 75.2326531, start = 0},
+    {file = "Audio/Transport/full_subzone_marshal-s-refuge-c5295377d0657388cfcc/1-0000.mp3", duration = 73.6391837, start = 0},
   },
 }
 P.transport["subzone:marshlands"] = {
@@ -1582,7 +1582,7 @@ P.transport["subzone:marshlands"] = {
   fullHash = "0f7e57",
   text = "Marshlands. The Marshlands is a sprawling, sodden marsh occupying the southeastern reach of Un'Goro Crater. Sitting directly at the base of the winding ramp down from Tanaris, it is often the first wilderness newcomers witness upon entering the primeval basin. Descending the steep trail from the arid expanse of Tanaris brings travelers directly into the humid mire of the Marshlands. Navigating anywhere else along the sheer crater rim invites a lethal fall, making this treacherous swath of wetlands the primary threshold into Un'Goro. Dense canopies, standing water, and mud conceal abundant packs of fierce raptors, including venomous varieties that stalk the reeds. Amid the damp clearings, explorers can find Blue Power Crystals scattered across the earth, unique to this quarter of the crater. Despite the constant danger of predators, several solitary wilderness experts maintain outposts across the marsh. Perched upon a prominent earthen mound, the tauren hunter Torwa Pathfinder keeps watch over the primeval fauna. Across the wetlands, the troll Mor'vek studies and trains native ravasaurs.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_marshlands-f05671f607fcfe0b368a/1-0000.mp3", duration = 65.8285714, start = 0},
+    {file = "Audio/Transport/full_subzone_marshlands-a9a8e0ca93ca43f2955a/1-0000.mp3", duration = 65.9853061, start = 0},
   },
 }
 P.transport["subzone:master-s-cellar"] = {
@@ -1622,7 +1622,7 @@ P.transport["subzone:menethil-keep"] = {
   fullHash = "646a33",
   text = "Menethil Keep. Menethil Keep is the stone stronghold dominating the skyline of Menethil Harbor in the Wetlands. Marked by four sturdy watchtowers, it serves as the administrative heart and defensive bastion of the Alliance port, housing the local militia commander, Captain Stoutfist. Rising above the wooden docks and soggy marshes of the Wetlands, Menethil Keep is the central military strongpoint of Menethil Harbor. With four stone watchtowers gazing out over the town and the bay, the fortress offers a commanding view against seaward raiders, renegades, and the encroaching swamp beasts. Inside, Captain Stoutfist oversees the defense of the port, directing the town militia and organizing patrols to safeguard Alliance interests throughout the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_menethil-keep-a1e0649e3a2193055220/1-0000.mp3", duration = 41.9787755, start = 0},
+    {file = "Audio/Transport/full_subzone_menethil-keep-e9d07f0a79b18f3f6949/1-0000.mp3", duration = 42.004898, start = 0},
   },
 }
 P.transport["subzone:mirage-flats"] = {
@@ -1638,7 +1638,7 @@ P.transport["subzone:misty-reed-post"] = {
   fullHash = "69eb9c",
   text = "Misty Reed Post. Misty Reed Post is a rugged Horde encampment situated between Stagalbog and the Misty Reed Strand in the eastern reaches of the Swamp of Sorrows. Established as a frontline watch under the authority of Stonard, it serves to monitor the dangerous wetlands and the treacherous coastline. Tucked away in the humid gloom between the Stagalbog and the eastern shore, Misty Reed Post is little more than a spartan camp under Stonard's banner. It is manned by a handful of Stonard hunters, a shaman, Katar, and Tok'Kar, who oversees the watch. Conditions are rough, offering no fortified shelter from the marsh's hostile wildlife and lingering damp. Tok'Kar harbors quiet ambitions that the Horde command in Stonard will one day reinforce the position with a sturdy orcish burrow or watchtower, though for now, the scouts must hold the marsh with tents, campfire smoke, and sharpened steel.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_misty-reed-post-dd6045ea26e3e5cd5536/1-0000.mp3", duration = 49.7893878, start = 0},
+    {file = "Audio/Transport/full_subzone_misty-reed-post-c5fa8047a24d5cd45f16/1-0000.mp3", duration = 51.3828571, start = 0},
   },
 }
 P.transport["subzone:misty-reed-strand"] = {
@@ -1758,7 +1758,7 @@ P.transport["subzone:nethander-stead"] = {
   fullHash = "fd1a45",
   text = "Nethander Stead. Nethander Stead is an abandoned farmstead lying along the road just east of Southshore in the Hillsbrad Foothills. Once a working human farm, it has fallen into ruin and is completely overrun by the Mudsnout gnoll pack. The fields are overgrown with giant white mushrooms known as Mudsnout Blossoms, attracting the interest of Forsaken alchemists. Situated within sight of Southshore's eastern borders, Nethander Stead was once an active piece of the region's agricultural belt. Like much of the eastern foothills, the farm was abandoned as regional security eroded and wild packs moved in. Today, it serves as the sole enclave of the Mudsnout gnolls in the foothills. The brutes dwell among the ruined fences and outbuildings, aggressively driving off any travelers who wander too close to their claimed territory.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_nethander-stead-efd98cc22a19c0cbd816/1-0000.mp3", duration = 45.2702041, start = 0},
+    {file = "Audio/Transport/full_subzone_nethander-stead-ae66146a42d785a5eea3/1-0000.mp3", duration = 47.6995918, start = 0},
   },
 }
 P.transport["subzone:nethergarde-keep"] = {
@@ -1806,7 +1806,7 @@ P.transport["subzone:northpass-tower"] = {
   fullHash = "f8c431",
   text = "Northpass Tower. Northpass Tower is a ruined Lordaeron scout tower situated in the northern reaches of the Eastern Plaguelands along the road to Quel'Thalas. Shattered during the Third War, it still overlooks the northern road toward the elven lands. Built by the Kingdom of Lordaeron to guard the vital thoroughfare leading north into Quel'Thalas, Northpass Tower was reduced to a broken shell during the Scourge invasion. Despite its shattered stonework, the tower's elevated position retains immense tactical value, overlooking the blight-choked frontier between Stratholme's blighted outskirts and the distant elven lands. No garrison mans the tower today. Its broken walls stand along a road now haunted by the Scourge, a reminder of the watch Lordaeron once kept over the route to Quel'Thalas.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_northpass-tower-a346e26d385885d8a6d4/1-0000.mp3", duration = 44.2514286, start = 0},
+    {file = "Audio/Transport/full_subzone_northpass-tower-5d4cc9ebeee2681624ad/1-0000.mp3", duration = 44.9567347, start = 0},
   },
 }
 P.transport["subzone:northridge-lumber-camp"] = {
@@ -1822,7 +1822,7 @@ P.transport["subzone:noxious-glade"] = {
   fullHash = "8bd37c",
   text = "Noxious Glade. Tucked away in the hills just north of Light's Hope Chapel, the Noxious Glade is a secluded basin steeped in concentrated plague. Choked with toxic green air and darkened soil, it functions as a nearby redoubt for Scourge operations right under the Argent Dawn's nose. While the Argent Dawn maintains its vigil at Light's Hope Chapel, an encampment of the Scourge lurks directly in the hills above them to the north. The Noxious Glade suffers from an infection far more severe than much of the surrounding terrain: the air hangs thick with a sickly green mist, and the soil has rotted into deep bruised purples. Within the hollow, the undead have erected ziggurats, a slaughterhouse for cobbling together abominations, and a plague cauldron that continuously spews pestilence into the atmosphere. Because of its close proximity to the chapel, the glade poses a persistent threat to travelers, couriers, and holy warriors working out of Light's Hope. The Scourge forces entrenched here construct foul monstrosities and brew toxins undisturbed by the sunlight, kept hidden by the surrounding natural ridge until an unwary traveler climbs the path directly into their midst.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_noxious-glade-a07f91993f421ae810ad/1-0000.mp3", duration = 68.3102041, start = 0},
+    {file = "Audio/Transport/full_subzone_noxious-glade-68283bad0d0deaeee76c/1-0000.mp3", duration = 66.4816327, start = 0},
   },
 }
 P.transport["subzone:noxious-lair"] = {
@@ -1838,7 +1838,7 @@ P.transport["subzone:old-port-authority"] = {
   fullHash = "317c58",
   text = "Old Port Authority. The Old Port Authority is a bustling, multi-vendor warehouse nestled along the boardwalks of Booty Bay. Beneath its roof, travelers browse everything from exotic pets and firearms to hearty rations and finely crafted weapons. Perched inside the pirate haven of Booty Bay, the Old Port Authority serves as an indoor marketplace divided into distinct stalls, and its interior buzzes with brisk commerce. Merchants hawk general adventuring supplies, firearms, bows, food, and weapons to scoundrels and privateers alike. It also houses exotic imports, offering colorful birds and nautical oddities straight off the docks to anyone with coin.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_old-port-authority-3473c945ecc47074dba7/1-0000.mp3", duration = 36.8065306, start = 0},
+    {file = "Audio/Transport/full_subzone_old-port-authority-8dad19c0d119037f9ec5/1-0000.mp3", duration = 37.7730612, start = 0},
   },
 }
 P.transport["subzone:oneiros"] = {
@@ -1918,7 +1918,7 @@ P.transport["subzone:pool-of-tears"] = {
   fullHash = "4c49cb",
   text = "Pool of Tears. The Pool of Tears is a large, murky lake dominating the eastern reaches of the Swamp of Sorrows. Deep beneath its surface lies the sunken Temple of Atal'Hakkar, brought low by the Green Dragonflight to contain the horrors within. Today, vicious frenzies patrol the turbid waters, and ancient troll ruins litter its drowned banks. Long ago, fanatical Atal'ai trolls raised a monumental ziggurat to their bloodthirsty god, Hakkar the Soulflayer. Horrified by the blasphemies taking place within, the Dragon Aspect Ysera shattered the ground beneath the structure, submerging the massive temple into the depths of the marsh. The existing lake flooded over the temple ruins. While the dragons sought to bury the evil forever, the ziggurat still stands beneath the silt and waves, and green drakes remain vigilant in the area to keep its corruption sealed. Navigating the murky lake is treacherous for any adventurer heading toward the sunken halls. Flesh-eating frenzies infest the waters, while Atal'ai artifacts and drowned stonework remain scattered across the muddy floor. Travelers must brave these hostile shallows to access the upper passages of the submerged temple, where cultists and lingering dragon guardians vie for control of the dark sanctuary.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_pool-of-tears-8ba8254ac19630a2513a/1-0000.mp3", duration = 72.9861224, start = 0},
+    {file = "Audio/Transport/full_subzone_pool-of-tears-85fec9356220286dccea/1-0000.mp3", duration = 72.4114286, start = 0},
   },
 }
 P.transport["subzone:purgation-isle"] = {
@@ -1934,7 +1934,7 @@ P.transport["subzone:quagmire"] = {
   fullHash = "0cdc02",
   text = "Quagmire. The Quagmire comprises the sprawling, treacherous heart of central Dustwallow Marsh. Bound by Brackenwall Village to the north and the Dragonmurk to the south, its waterlogged flats are notoriously difficult to navigate. Hostile beasts and ravenous oozes make any journey through this central fen perilous. Occupying the wide expanse between Lost Point in the west and Dustwallow Bay in the east, the Quagmire represents the wild core of the marsh. Footing is unreliable at best, with solid earth constantly giving way to murky water and clinging mud. Travelers must contend with predatory crocolisks lurking beneath the scum, aggressive spiders nesting in the dead brush, and strange oozes that seep through the muck. Beyond its natural hazards, the Quagmire serves as an unpredictable crossroads for the sentient powers contesting the swamp. Tucked away within the bog lies Tabetha's Farm, a lonely refuge for practitioners seeking hermit wisdom amid the dangers of the swamp.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_quagmire-4fd09252ac21450686a0/1-0000.mp3", duration = 57.0514286, start = 0},
+    {file = "Audio/Transport/full_subzone_quagmire-0c9c7270697722f7c00c/1-0000.mp3", duration = 56.32, start = 0},
   },
 }
 P.transport["subzone:quel-lithien-lodge"] = {
@@ -1974,7 +1974,7 @@ P.transport["subzone:ravaged-twilight-camp"] = {
   fullHash = "627dda",
   text = "Ravaged Twilight Camp. Tucked away in the secluded Crystal Vale of northwestern Silithus, the Ravaged Twilight Camp sits ruined among towering mineral formations. It serves as an isolated redoubt for the eccentric hermit Highlord Demitrian, a devotee of the Windseeker. While the Twilight's Hammer maintains numerous active outposts across the sands of Silithus, this broken encampment in the Crystal Vale tells a different story. Nestled far from the primary cult fortresses, the camp lies largely ruined and deserted, save for Highlord Demitrian. A servant of Thunderaan, Demitrian lingers amidst the stones, seemingly abandoned by or detached from the wider Twilight hierarchy while brooding over elemental bindings and the lost power of the Windseeker.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ravaged-twilight-camp-a3d2a64a7422f977f8a8/1-0000.mp3", duration = 43.2326531, start = 0},
+    {file = "Audio/Transport/full_subzone_ravaged-twilight-camp-46c0a5f8f7d0187b7617/1-0000.mp3", duration = 42.7363265, start = 0},
   },
 }
 P.transport["subzone:ravencrest-monument"] = {
@@ -1998,7 +1998,7 @@ P.transport["subzone:refuge-pointe"] = {
   fullHash = "d2e89d",
   text = "Refuge Pointe. Refuge Pointe is the primary redoubt for the Alliance and the surviving remnants of Stromgarde within the Arathi Highlands. Perched centrally along the highlands' trade road, it serves as a staging ground to reclaim the shattered capital of Stromgarde Keep and hold back rival forces across the region. Following the devastation of the Third War and the catastrophic fall of Stromgarde Keep, the bulk of Stromgarde's surviving populace fled south toward friendlier lands. Those who remained formed a resolute vanguard, digging in at Refuge Pointe under Captain Nials. Composed of battle-hardened Stromgarde soldiers, League of Arathor forces, and supporting Alliance specialists, the encampment represents the kingdom's last organized stand in its ancestral homeland. Refuge Pointe is constantly on the brink of being overwhelmed. Hemmed in by the Forsaken and the Horde based out of Hammerfall, Witherbark trolls, Syndicate rogues, and Boulderfist ogres, the garrison has zero reserves to spare. When dwarven commanders at the battered Thandol Span desperately requested reinforcements to fight off the Dark Iron clan, Captain Nials had to refuse. Every sword, shield, and scrap of supply stationed at Refuge Pointe must remain dedicated to defending the highlands and preparing a counteroffensive to retake Stromgarde Keep.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_refuge-pointe-e3ac6047b896f7f90ca2/1-0000.mp3", duration = 75.8073469, start = 0},
+    {file = "Audio/Transport/full_subzone_refuge-pointe-eabb52edacf13d0c30e3/1-0000.mp3", duration = 76.2253061, start = 0},
   },
 }
 P.transport["subzone:roguefeather-den"] = {
@@ -2078,7 +2078,7 @@ P.transport["subzone:ruins-of-kel-theril"] = {
   fullHash = "b07b46",
   text = "Ruins of Kel'Theril. The Ruins of Kel'Theril are the shattered remnants of an ancient night elven city bordering the frozen expanse of Lake Kel'Theril in central Winterspring. Destroyed ten thousand years ago during the Great Sundering, its frostbitten stone pillars and temples remain haunted by the tormented spirits of Highborne who perished in the cataclysm. Long before Winterspring became a frozen highland, Kel'Theril stood as a grand settlement of the ancient night elven empire. When the Well of Eternity collapsed during the Great Sundering, the city was blasted into ruin and buried beneath ice and snow. The disaster caught the residing Highborne unaware, binding their souls to the snowbound stones. Today, the spirits of these former spellcasters linger among the frostbitten arches, endlessly reliving their final, catastrophic moments. Travelers braving central Winterspring encounter restless, spectral Highborne haunting the ruined lakeside colonnades. These phantoms are often hostile, driven mad by millenniums of isolation and the violent magic that tore their civilization apart. However, a few sorrowful apparitions, such as the Remorseful Highborne, seek out travelers willing to hear their lingering laments and make peace with their forgotten past.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ruins-of-kel-theril-5816f5f5c58d2d7ea0c9/1-0000.mp3", duration = 73.0906122, start = 0},
+    {file = "Audio/Transport/full_subzone_ruins-of-kel-theril-abe31b67b9eeeca985c0/1-0000.mp3", duration = 68.8065306, start = 0},
   },
 }
 P.transport["subzone:ruins-of-lordaeron"] = {
@@ -2086,7 +2086,7 @@ P.transport["subzone:ruins-of-lordaeron"] = {
   fullHash = "17c1ee",
   text = "Ruins of Lordaeron. The Ruins of Lordaeron are the hollowed-out surface remnants of Capital City, the once-glorious heart of humanity's northern empire. Destroyed when Prince Arthas murdered his father and unleashed the Scourge, the blasted courtyards and throne room now serve as the fortified gateway to the Undercity below. Capital City was once the radiant summit of human civilization, uniting the northern realms under King Terenas Menethil II. When Prince Arthas returned from Northrend carrying the cursed runeblade Frostmourne, the celebrations turned into a slaughterhouse. Arthas slew his father on the throne, leaving the metropolis to rot under Scourge rule. Following the civil war that tore the Scourge apart, Lady Sylvanas Windrunner claimed the devastated palace, securing the surface while expanding the crypts and dungeons beneath into the Undercity. The palace ruins remain psychically scarred by their violent fall. Travelers walking through the entryway and courtyards often hear the ghostly chime of celebration bells, hushed murmurs of adoring crowds, and the chilling dialogue between Arthas and his father just before the regicide. Blood still stains the floor of the grand throne room, and those possessing magical detection can glimpse spectral citizens eternally reliving the afternoon their prince doomed them all.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ruins-of-lordaeron-c0d0582ce1c8db902eee/1-0000.mp3", duration = 74.7102041, start = 0},
+    {file = "Audio/Transport/full_subzone_ruins-of-lordaeron-1084e94804a7598bc9d4/1-0000.mp3", duration = 77.9755102, start = 0},
   },
 }
 P.transport["subzone:ruins-of-ravenwind"] = {
@@ -2102,7 +2102,7 @@ P.transport["subzone:ruins-of-thaurissan"] = {
   fullHash = "d3e727",
   text = "Ruins of Thaurissan. The Ruins of Thaurissan are the scorched remnants of the Dark Iron clan's original surface capital in the Burning Steppes. Once a proud city nestled in the lush northern reaches of the Redridge Mountains, it was blasted to cinders during the War of the Three Hammers when Sorcerer-Thane Thaurissan inadvertently summoned the Firelord, Ragnaros. Roughly two centuries ago, following their exile from Ironforge after the death of High King Modimus Anvilmar, the Dark Iron clan journeyed south and established Thaurissan City. At the climax of the War of the Three Hammers, facing total defeat by the combined forces of the Bronzebeard and Wildhammer clans, Sorcerer-Thane Thaurissan sought an ultimate weapon to turn the tide. He and seven trusted sorcerers channeled ancient magic deep beneath the earth. Instead of an obedient servant, their ritual ripped open a conduit to the Elemental Plane and summoned Ragnaros the Firelord. The cataclysmic eruption shattered the surrounding mountains, burned the verdant landscape into the ashen Burning Steppes, raised the volcano of Blackrock Mountain, and incinerated the city.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ruins-of-thaurissan-12d897806af725d76739/1-0000.mp3", duration = 62.2759184, start = 0},
+    {file = "Audio/Transport/full_subzone_ruins-of-thaurissan-a78c2c9beaa27b184c5e/1-0000.mp3", duration = 63.1118367, start = 0},
   },
 }
 P.transport["subzone:ruins-of-uldum"] = {
@@ -2118,7 +2118,7 @@ P.transport["subzone:ruins-of-zul-mamwe"] = {
   fullHash = "91306f",
   text = "Ruins of Zul'Mamwe. Tucked away in a mountainous pocket south of the Mosh'Ogg Ogre Mound, the Ruins of Zul'Mamwe serve as a heavily fortified stronghold for the Skullsplitter troll tribe. Enclosed by steep cliffs on almost all sides, the ancient stone platforms now teem with fierce jungle trolls under the rule of their ruthless chieftain, Ana'thek the Cruel. The Ruins of Zul'Mamwe represent one of the primary seats of power for the Skullsplitter tribe in central Stranglethorn Vale. Cradled within a natural mountain amphitheater, the site has only a single open approach from the north, making it an exceptional defensive redoubt. From atop its weathered ziggurats and stone terraces, Chief Ana'thek the Cruel directs his warriors and witch doctors, defending their territory fiercely against both intruding adventurers and rival jungle troll tribes. Like many of the stone settlements dotting the jungle, Zul'Mamwe is a relic of the ancient Gurubashi Empire that once held undisputed dominion over the southern reaches of the continent. Although the grand empire splintered long ago into squabbling, hostile factions, modern Skullsplitters fiercely guard these ancestral stones, continuing age-old tribal rituals amid the overgrown masonry and broken monoliths.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ruins-of-zul-mamwe-d6131564f00afdc6c5a5/1-0000.mp3", duration = 72.0979592, start = 0},
+    {file = "Audio/Transport/full_subzone_ruins-of-zul-mamwe-a1dd6b7a275476f9ae60/1-0000.mp3", duration = 69.4334694, start = 0},
   },
 }
 P.transport["subzone:rustmaul-dig-site"] = {
@@ -2142,7 +2142,7 @@ P.transport["subzone:salty-sailor-tavern"] = {
   fullHash = "51b3a7",
   text = "Salty Sailor Tavern. The Salty Sailor Tavern is the beating heart of Booty Bay's social life, serving as the port's primary inn and watering hole. Run by the goblin Innkeeper Skindle, it welcomes scoundrels, mercenaries, and travelers from both factions seeking respite from the perils of the jungle. Perched amidst the wooden tiers of Booty Bay, the Salty Sailor Tavern offers warm beds and strong drinks under the watchful eye of the Blackwater Raiders. Behind the bar stands Innkeeper Skindle, keeping glasses filled while a menagerie of buccaneers, traders, and adventurers mingle on neutral ground. Outside the establishment hangs a massive, curious curio—a Zul'Gurub Protector Stone—serving as a strange trophy in this bustling den of commerce.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_salty-sailor-tavern-013a3baccfa9aee81b13/1-0000.mp3", duration = 42.5795918, start = 0},
+    {file = "Audio/Transport/full_subzone_salty-sailor-tavern-60eda06e0258d320baba/1-0000.mp3", duration = 43.0497959, start = 0},
   },
 }
 P.transport["subzone:sanctum-stromgarde-keep"] = {
@@ -2158,7 +2158,7 @@ P.transport["subzone:sandsorrow-watch"] = {
   fullHash = "d38ab2",
   text = "Sandsorrow Watch. Sandsorrow Watch is a sprawling desert outpost located just west of Gadgetzan in Tanaris. The surrounding dunes and ruins are overrun by hostile Sandfury trolls and their reanimated dead, who also hold the eastern watch tower overlooking the waste. Situated directly west of the bustling goblin trading hub of Gadgetzan, Sandsorrow Watch is a grim borderland in the Tanaris desert. The broad expanse is dominated by the Sandfury tribe, who aggressively defend the arid territory alongside legions of shambling troll zombies. An elevated watch tower at the eastern edge anchors the position, providing a fortified vantage point amidst the encroaching desert wilderness and the hostile indigenous tribes. Even the watch tower at the eastern edge, within sight of Gadgetzan's walls, is held by the Sandfury. From its heights the Sandfury keep a wary eye on the goblin town, and travelers leaving through Gadgetzan's western gate walk almost directly into their territory, a constant reminder of the volatile frontier tension between Tanaris's opportunistic settlers and the native sand trolls.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sandsorrow-watch-cf39b876352b8720ba90/1-0000.mp3", duration = 64.4179592, start = 0},
+    {file = "Audio/Transport/full_subzone_sandsorrow-watch-e219de6271d51f84dc6a/1-0000.mp3", duration = 65.0971429, start = 0},
   },
 }
 P.transport["subzone:sar-theris-strand"] = {
@@ -2262,7 +2262,7 @@ P.transport["subzone:scarlet-monastery-library"] = {
   fullHash = "228f48",
   text = "Scarlet Monastery Library. The Library is the eastern wing of the Scarlet Monastery in Tirisfal Glades, once dedicated to holy scholarship and Lordaeron's priesthood. Now guarded by battle hounds and zealots, it houses ancient archives and rare tomes fiercely coveted by scholars and mages from both factions. Before the Third War, the monastery served as a center for learning and enlightenment for Lordaeron's priesthood. The eastern cloisters housed vast archives of religious thought, historical records, and arcane treatises. When the Scarlet Crusade fortified the monastery against the Scourge, they retained these repositories, turning the quiet halls into an armed redoubt. Today, beastmasters run tracking hounds through the courtyards while battle-mages patrol the shelves, guarding historic volumes like the Compendium of the Fallen and ancient research on the Titans against outsiders. Breaching the Library requires navigating past Houndmaster Loksey in the Huntsman's Cloister, whose trained hounds sniff out infiltrators seeking passage into the inner chambers. Beyond the Gallery of Treasures lies the Athenaeum, overseen by Arcanist Doan. A formidable mage who wields devastating fire and protective sorcery, Doan studies in isolation, fiercely defending the Crusade's hoarded knowledge from any who venture into the heart of the complex.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_scarlet-monastery-library-30a89dffdee5571884e1/1-0000.mp3", duration = 71.8628571, start = 0},
+    {file = "Audio/Transport/full_subzone_scarlet-monastery-library-7a2c1889fdb2f4bf74ae/1-0000.mp3", duration = 73.7436735, start = 0},
   },
 }
 P.transport["subzone:scholomance"] = {
@@ -2438,7 +2438,7 @@ P.transport["subzone:sorrowmurk"] = {
   fullHash = "371d92",
   text = "Sorrowmurk. The Sorrowmurk is the treacherous wetland expanse lying directly east of the Pool of Tears in the Swamp of Sorrows. Long dominated by patrolling green dragonkin guarding the approach to the Sunken Temple, it remains one of the most perilous regions in the eastern marshes. Stretching out along the eastern edge of the Pool of Tears, the Sorrowmurk is a dense and murky mire that borders the Forbidding Sea. For years, the waters and tangled boughs have crawled with ferocious green dragonspawn and towering drakes, remnants of the brood sent to watch over the submerged temple of Atal'Hakkar. Their presence ensures that only seasoned travelers dare wander through its sodden reaches.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sorrowmurk-ecb38b4ae71970abd4dd/1-0000.mp3", duration = 38.635102, start = 0},
+    {file = "Audio/Transport/full_subzone_sorrowmurk-7bfa85d5ed0768eb0582/1-0000.mp3", duration = 37.7730612, start = 0},
   },
 }
 P.transport["subzone:south-seas"] = {
@@ -2454,7 +2454,7 @@ P.transport["subzone:southern-savage-coast"] = {
   fullHash = "cdc0cc",
   text = "Southern Savage Coast. The Southern Savage Coast encompasses the long strand of beaches and tidal waters hugging southwestern Stranglethorn Vale. Flanked by the treacherous depths of the South Seas, these shores are home to prowling wildlife, hostile naga, and the ever-present threat of coastal raiders. Stretching down the western edge of the southern jungle, the Southern Savage Coast marks where the mainland gives way to the warm currents of the South Seas. Divided from the northern Savage Coast by the submerged ruins and perils of the Vile Reef, this coastline skirts inlets near the Gurubashi Arena and Nek'mani Wellspring before tapering off past Booty Bay and Janeiro's Point. While the beaches offer open ground compared to the suffocating interior jungle, travelers must contend with aggressive reptilian predators, predatory naga hunting the shallows, and passing corsairs scanning the strand for easy prey.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_southern-savage-coast-304e5875c326800a4010/1-0000.mp3", duration = 49.6587755, start = 0},
+    {file = "Audio/Transport/full_subzone_southern-savage-coast-14f08b0f104ca1bb80e0/1-0000.mp3", duration = 50.6514286, start = 0},
   },
 }
 P.transport["subzone:southfury-river"] = {
@@ -2494,7 +2494,7 @@ P.transport["subzone:southshore-town-hall"] = {
   fullHash = "fa8d97",
   text = "Southshore Town Hall. Southshore Town Hall serves as the administrative seat of the southern coast of Hillsbrad Foothills, standing as one of the last functioning centers of Lordaeron's civil authority. From inside, Magistrate Henry Maleb coordinates local defenses and governs the town's surviving populace. The hall is a vital hub for the Alliance as they struggle to maintain a foothold in the plagued north. While much of Lordaeron lies shattered under Scourge corruption and Forsaken expansion, Southshore's town hall maintains the semblance of an intact human government. Magistrate Henry Maleb oversees daily governance from his office here, working alongside officials like Kundric Zanden to secure resources and preserve civic order. In a region surrounded by aggressive undead, Syndicate rogues, and Hillsbrad's fierce border skirmishes, the hall is the nerve center directing the town's survival against constant threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_southshore-town-hall-c9d37e1edaa33b56e257/1-0000.mp3", duration = 50.5730612, start = 0},
+    {file = "Audio/Transport/full_subzone_southshore-town-hall-a034c6dc4d09169fcaa7/1-0000.mp3", duration = 50.155102, start = 0},
   },
 }
 P.transport["subzone:southwind-village"] = {
@@ -2590,7 +2590,7 @@ P.transport["subzone:stormwind-city"] = {
   fullHash = "3d2c67",
   text = "Stormwind City. Stormwind City is the majestic capital of the Kingdom of Stormwind and the military and political heart of the Alliance. Rebuilt from ashes following its destruction in the First War, it stands as the greatest remaining bastion of human power in Azeroth following the fall of the northern kingdoms. Founded over a millennium ago by Arathi descendants migrating south, Stormwind flourished as a vibrant coastal capital ringed by stone ramparts and powered by swift rivermills. That grandeur ended in the First War when the Orcish Horde besieged the city, breached its defenses, and burned it to the ground, forcing Sir Anduin Lothar to lead surviving refugees across the Great Sea to Lordaeron. Following the victory of the Alliance in the Second War, the Stonemasons' Guild undertook the monumental task of rebuilding the capital into the gleaming fortress of white stone, canal networks, and towering spires that stands north of Elwynn Forest today. With Lordaeron shattered by the Scourge and Dalaran heavily ruined during the Third War, Stormwind City serves as the primary refuge and stronghold for mankind. Its broad avenues and defensive walls are patrolled by the disciplined Stormwind City Guard, while the spires of the Cathedral of Light guide faith and devotion across the southern kingdoms. Yet beneath its orderly districts and ceremonial gates lies quiet political turmoil: King Varian Wrynn has mysteriously vanished, leaving his young son Anduin on the throne under the regency of Highlord Bolvar Fordragon and the whispered counsel of royal advisor Lady Katrana Prestor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-city-91525a9dde3280e5ad95/1-0000.mp3", duration = 90.3314286, start = 0},
+    {file = "Audio/Transport/full_subzone_stormwind-city-cc27185116bf578c9ecd/1-0000.mp3", duration = 92.1338776, start = 0},
   },
 }
 P.transport["subzone:stratholme"] = {
@@ -2678,7 +2678,7 @@ P.transport["subzone:tahonda-ruins"] = {
   fullHash = "fc168a",
   text = "Tahonda Ruins. The Tahonda Ruins are the sun-bleached remnants of an ancient tauren settlement swallowed by the salt and sand of the Shimmering Flats. Little is remembered of the villagers who once lived here, and dangerous Saltstone basilisks now stalk among the decaying tent poles and shredded leather. Situated in the southern reaches of the Shimmering Flats near the pass into Tanaris, the Tahonda Ruins stand as a somber monument to an abandoned tauren past. The village fell long ago, its weathered structures gradually engulfed by shifting white salt crusts. While some suspect the local Saltstone basilisks drove the inhabitants away, odd clues linger on the surviving structures. Two distinct sets of three parallel tears cut through the leather of a ruined lodge, suggesting the village met a violent end at the claws of powerful predators or hostile invaders before the desert claimed what remained.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tahonda-ruins-069dcddd14c704227777/1-0000.mp3", duration = 50.442449, start = 0},
+    {file = "Audio/Transport/full_subzone_tahonda-ruins-57670790557645d85890/1-0000.mp3", duration = 51.1216327, start = 0},
   },
 }
 P.transport["subzone:tainted-scar"] = {
@@ -2758,7 +2758,7 @@ P.transport["subzone:terrorweb-tunnel"] = {
   fullHash = "85b009",
   text = "Terrorweb Tunnel. Terrorweb Tunnel is a subterranean passage carving through the mountains between Terrordale and the Thondroril River. Infested with the Scourge's undead nerubian crypt fiends, it forms a hazardous subterranean shortcut across the western border of the Eastern Plaguelands. Bored straight through the mountains flanking the Thondroril River, the Terrorweb Tunnel links the contaminated village of Terrordale with the riverbanks to the south. Rather than typical ghouls or skeletal sentries, this dark subterranean bypass is claimed entirely by crypt fiends—mummified nerubian arachnids raised into servitude by the Lich King. Traveling the length of the passage cuts out long circuits around the mountain slopes, but requires navigating thick webs and avoiding towering nerubian overseers that patrol the dark.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_terrorweb-tunnel-4e715cae95d49c169b73/1-0000.mp3", duration = 44.9567347, start = 0},
+    {file = "Audio/Transport/full_subzone_terrorweb-tunnel-c4f46c69a203e8325fa9/1-0000.mp3", duration = 45.6097959, start = 0},
   },
 }
 P.transport["subzone:thalanaar"] = {
@@ -2854,7 +2854,7 @@ P.transport["subzone:tidefury-cove"] = {
   fullHash = "84c730",
   text = "Tidefury Cove. Tidefury Cove is a treacherous stretch of water and rocky shallows along the southeastern coast of Dustwallow Marsh, south of Theramore Isle. Renowned for its hazardous reefs and wrecked vessels, it serves as a secluded haven for roaming makrura and solitary anglers. Tucked away at the far end of Dustwallow Bay between Theramore Isle and the Wyrmbog, Tidefury Cove presents a notorious navigational hazard to passing sailors. Jagged reefs and shifting shoals have claimed multiple vessels over the years, leaving rotting wooden hulks half-submerged in the tideline. Today, the ruined ships are crawled over by opportunistic makrura, turning the cove into a dangerous, isolated stretch of coastline visited mostly by hardy scavengers or quiet hermits seeking distance from Theramore's busy docks. During the invasion of Durotar, the shores of Tidefury Cove became a crucial strategic battleground. Admiral Daelin Proudmoore's Kul Tiran expedition fortified the coast with an imposing coastal fortress and guard towers to command the approaches to Theramore. To break Proudmoore's grip, Thrall marshaled the combined strength of the young Horde—uniting orcs, Darkspear trolls, and tauren alongside Rexxar and the Stonemaul ogres—to storm the shoreline and dismantle the Kul Tiran beachhead before pressing directly toward the island fortress.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tidefury-cove-a4029b3abf6f7c3bc4f8/1-0000.mp3", duration = 78.7853061, start = 0},
+    {file = "Audio/Transport/full_subzone_tidefury-cove-e312ccbefc2894ff5d7e/1-0000.mp3", duration = 76.5387755, start = 0},
   },
 }
 P.transport["subzone:timbermaw-hold"] = {
@@ -2878,7 +2878,7 @@ P.transport["subzone:tkashi-ruins"] = {
   fullHash = "016605",
   text = "Tkashi Ruins. The Tkashi Ruins are ancient stone remnants situated southwest of Nesingwary's Expedition in northern Stranglethorn Vale. Overrun by hostile Bloodscalp trolls, the site remains a stronghold of the tribe. Perched southwest of Hemet Nesingwary's hunting camp, the crumbling stone masonry of the Tkashi Ruins marks the ancient domain of Stranglethorn's jungle trolls. Today, the encampment is heavily occupied by the Bloodscalp tribe, who aggressively defend the territory and practice their shamanistic rituals among the vines and decayed stone. While Hemet Nesingwary noted passing through the ruins without trouble in his hunting memoirs, modern travelers find the trolls far less accommodating, guarding valuable tribal relics buried among the rubble.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tkashi-ruins-dd93e3ca436f1f71857f/1-0000.mp3", duration = 43.5722449, start = 0},
+    {file = "Audio/Transport/full_subzone_tkashi-ruins-862848494b6825335ed5/1-0000.mp3", duration = 42.9714286, start = 0},
   },
 }
 P.transport["subzone:tower-of-arathor"] = {
@@ -2902,7 +2902,7 @@ P.transport["subzone:twilight-base-camp"] = {
   fullHash = "fc6dd1",
   text = "Twilight Base Camp. The Twilight Base Camp is a fortified outpost of the Twilight's Hammer cult situated in the arid wastes of Silithus. It serves as an active ritual site where cultists convene to commune with elemental powers and orchestrate their apocalyptic agenda. The camp is characterized by strange wind stones and heavily armed cult zealots. Perched among the desolate sands of Silithus, the Twilight Base Camp is one of several enclaves established by the Twilight's Hammer cult. The outpost brims with zealots, geomancers, and stonecallers dedicated to summoning devastating elemental forces. Surrounded by jagged ritual stones, the camp acts as a staging ground where leaders like Twilight Keeper Havunth and Twilight Lord Everun direct efforts to hasten Azeroth's end, standing in open defiance of the Cenarion Hold forces attempting to restore balance to the region. Scattered throughout the outpost are mysterious monuments known as wind stones, ranging in power from lesser conduits to greater monoliths. Through cryptic incantations and cult regalia, the Twilight's Hammer uses these focal points to pull chaotic elemental spirits directly into the physical realm. Disrupting these rituals remains a top priority for travelers and scouts hoping to prevent the cult's influence from spreading across Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_twilight-base-camp-33cc2e14aac74867a639/1-0000.mp3", duration = 74.1616327, start = 0},
+    {file = "Audio/Transport/full_subzone_twilight-base-camp-c4796958e4382ba547b9/1-0000.mp3", duration = 74.6318367, start = 0},
   },
 }
 P.transport["subzone:twilight-outpost"] = {
@@ -2934,7 +2934,7 @@ P.transport["subzone:twin-colossals"] = {
   fullHash = "8c0cc8",
   text = "Twin Colossals. The Twin Colossals are a pair of towering, sheer-faced mesas that dominate the northwestern skyline of Feralas. Rising high above the canopy, the narrow passage between their sheer cliffs forms the primary overland route connecting Feralas with the arid wastes of Desolace to the north. Towering over the western reaches of Feralas, the Twin Colossals stand as the highest landforms in the region. Their vertical rock faces cut a striking silhouette against the sky, serving as unmistakable landmarks for travelers venturing south out of Desolace. While the lower slopes merge into the dense jungle and the lands stretching toward the Forgotten Coast, the summits are isolated plateaus far above the forest floor. Scaling the vertical cliffs on foot is impossible, yet the summits are not entirely deserted. An intrepid night elf named Marli Wishrunner assists travelers seeking passage to the eastern peak. Those who ascend find a tranquil pond perched atop the stone mesa—though it is inhabited by an unusually large makrura named Diamond Head. To aid adventurers in returning to earth, Kalin Windflight offers sturdy parachutes to descend back into the jungle canopy below.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_twin-colossals-3613409139cb1c689790/1-0000.mp3", duration = 70.3216327, start = 0},
+    {file = "Audio/Transport/full_subzone_twin-colossals-5643fc9c4c7efc9baa16/1-0000.mp3", duration = 67.1869388, start = 0},
   },
 }
 P.transport["subzone:tyr-s-hand"] = {
@@ -3070,7 +3070,7 @@ P.transport["subzone:vice"] = {
   fullHash = "1f5c10",
   text = "Vice. The Vice is a rugged, desolate expanse of Deadwind Pass situated along the road leading toward Karazhan. It serves as the territory of the Deadwind ogres, who maintain rough mounds and scattered camps in defiance of the land's grim isolation. Travelers passing through must navigate both their crude brutality and their surprisingly adept wielders of dark magic. Stretching across the southern stretches of Deadwind Pass, the Vice is defined by barren earth, jagged rock faces, and crude mounds erected by the Deadwind ogre clan. While the surrounding canyon is largely abandoned to vengeful ghosts and scavenger vultures, these ogres have carved out a stubborn foothold directly beside the main path approaching Karazhan. Why they chose such a bleak and magically scarred waste remains an enduring mystery, but any traveler passing between Duskwood and the Swamp of Sorrows quickly learns they defend their camps with fierce territorial violence. Unlike mere highwaymen, the ogres dwelling in the Vice possess both heavy martial strength and dangerous arcane talent. Alongside hulking bruisers, Deadwind warlocks practice crude yet lethal fel sorceries among the earthen mounds. Their presence so close to the abandoned seat of Medivh suggests a hunger for residual magical power, making the canyon a lethal gauntlet for wandering scholars and solitary scouts alike.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_vice-2197bf9318107f5d225d/1-0000.mp3", duration = 81.0318367, start = 0},
+    {file = "Audio/Transport/full_subzone_vice-8cf1de1ba8d93cf3dcf5/1-0000.mp3", duration = 79.4906122, start = 0},
   },
 }
 P.transport["subzone:vile-reef"] = {
@@ -3078,7 +3078,7 @@ P.transport["subzone:vile-reef"] = {
   fullHash = "3cc250",
   text = "Vile Reef. The Vile Reef is a submerged, vibrant coral shelf lying off the western coast of Stranglethorn Vale near Grom'gol Base Camp. Beneath its waters, aggressive murlocs make their home among ancient sunken troll ruins, giant clams, and coastal shipwrecks. Stretching beneath the waves of the Great Sea just offshore from Grom'gol Base Camp, the Vile Reef is known for its vivid marine growth and perilous inhabitants. The seabed is dotted with the weathered stonework of submerged troll ruins alongside the enigmatic Altar of the Tides. Flocks of territorial murlocs lurk among the coral shelves and shattered timbers of passing vessels, fiercely defending the shallow waters and preying upon any diver who braves the deep in search of giant clams and rare blue pearls.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_vile-reef-f40c2e2d680839171225/1-0000.mp3", duration = 45.5053061, start = 0},
+    {file = "Audio/Transport/full_subzone_vile-reef-5b8acb2cc98703a15736/1-0000.mp3", duration = 43.3632653, start = 0},
   },
 }
 P.transport["subzone:wailing-caverns"] = {
@@ -3142,7 +3142,7 @@ P.transport["subzone:wild-shore"] = {
   fullHash = "f85fca",
   text = "Wild Shore. The Wild Shore is the southernmost coastline of Stranglethorn Vale, where the jungle meets the waves of the South Seas. It serves as a staging ground and anchorage for the Bloodsail Buccaneers, whose ships lie moored along the shallows. Stretching along the bottom tip of the continent, the Wild Shore marks the border where Stranglethorn Vale plunges into the South Seas. To the northwest lies the fortified inlet of Booty Bay, while a shallow ocean strait separates the mainland beach from Jaguero Isle to the east. The beach continues northeast toward the Crystal Shore. Because of its secluded position away from the Blackwater Raiders' direct cannons, the coast has become a hotbed of piratical activity and wild perils. The shore is heavily occupied by the Bloodsail Buccaneers, who anchor their wooden ships in the surf and pitch camps along the sand. These swashbucklers use the beaches to stage operations, store illicit cargo, and plan strikes against their goblin rivals. Travelers must also contend with natural hazards of the shore, including prowling beasts and Gorlash, a colossal sea giant who stomps through the surf, crushing anyone caught lingering along the tide line.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_wild-shore-1155b38446cb8b8e2277/1-0000.mp3", duration = 68.7542857, start = 0},
+    {file = "Audio/Transport/full_subzone_wild-shore-e914eb50044cad6d5f0e/1-0000.mp3", duration = 66.8734694, start = 0},
   },
 }
 P.transport["subzone:windbreak-canyon"] = {
@@ -3214,7 +3214,7 @@ P.transport["subzone:writhing-haunt"] = {
   fullHash = "5d7915",
   text = "Writhing Haunt. The Writhing Haunt is a blighted farmstead situated east of the Ruins of Andorhal in the Western Plaguelands. Once fertile land that fed Lordaeron, it has been seized by the Scourge and transformed into a toxic spreading ground for plague vapors. Like many of the old human homesteads surrounding Andorhal, the farmstead now called the Writhing Haunt fell swiftly during the Third War. Today, the fields do not grow crops but instead harvest rot. The Scourge planted an enormous plague cauldron squarely in the center of the tilled earth, continuously venting noxious, diseased vapors into the air. Rotting ghouls, freezing ghouls, and fetid zombies wander the overgrown furrows, guarding the machinery under the command of Cauldron Lord Razarch. Despite the omnipresent danger of the Scourge and the choking miasma from the cauldron, the farm is not entirely abandoned. Inside one of the dilapidated farmhouses lingers Mulgris Deepriver, a tauren druid who came to these lands to heal the damage done to nature. Stricken by the plague himself and unable to cure the suffering beasts, he asks capable travelers to grant the diseased wolves and other wildlife a swift and merciful release.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_writhing-haunt-59527826ab1b7843b73f/1-0000.mp3", duration = 69.0938776, start = 0},
+    {file = "Audio/Transport/full_subzone_writhing-haunt-e83eb08f56293081cb04/1-0000.mp3", duration = 69.12, start = 0},
   },
 }
 P.transport["subzone:wyrmbog"] = {

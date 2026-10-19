@@ -20,7 +20,8 @@ test("pin questions: pin, manage, read; and only those", () => {
     "delete that pin", "unpin the cave"]) {
     assert.deepEqual(three(pinIntent(q)), { add: false, manage: true, read: true }, q);
   }
-  for (const q of ["What pins do I have?", "Where was that cave I pinned?", "show me my spots"]) {
+  for (const q of ["What pins do I have?", "Where was that cave I pinned?", "show me my spots",
+    "Where did I pin the fishing spot?", "When did I pin that cave?", "did I pin this spot already?"]) {
     assert.deepEqual(three(pinIntent(q)), { add: false, manage: false, read: true }, q);
   }
   for (const q of ["Where is Fargodeep Mine?", "Remember when we fought Hogger?", "What's this place?", "Who is Gryan?"]) {

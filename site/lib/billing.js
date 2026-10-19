@@ -109,12 +109,16 @@ export const PLAN_VOICE = {
 // its renewal day (poolWindow), so a month paid for never holds two pools; the free plan's is the calendar month.
 // The cost caps (Mike, 2026-10-13): a paying player's live answers may cost us half of their plan's net in a calendar
 // month (costCapMicro, the text cap, millionths of a dollar), and their answers and hosted voice together the whole of
-// it (totalCapMicro). Past the text cap their answers come from the add-on's lore library (as when the month's pool is
-// used) until the next month; the hosted voice steps down to a cheaper one, then to Willo's own voice on the PC, before
-// the total would pass. Sized so the caps are rarely reached: at about $0.0018 an answer and $0.05 a look-up, a maxed
-// Hero month costs about $2.12, Champion's $4.42 and Legend's $9.20 of text. longMemory: chat memory keeps twice as much.
-// stronger: answers and character replies on the stronger model (lib/companion-answers.js RESEARCH_MODEL); no plan has
-// it, since it costs three times as much.
+// it (totalCapMicro). Past the text cap their answers step down to Flash-Lite without looking online (capState "lite"),
+// and once the total is reached they come from the add-on's lore library (as when the month's pool is used) until the
+// next month; the hosted voice steps down to a cheaper one, then to Willo's own voice on the PC, before the total would
+// pass. At about $0.0012 an answer on Flash-Lite and $0.05 a look-up, a maxed Hero or Champion month stays under its
+// text cap; Legend's answers on 3.6 Flash (smarter: about $0.0035 each, twice that from 2027) reach it after about
+// 2,050 answers (1,040 from 2027) of its 4,000; players ask about 11 a day they play.
+// longMemory: chat memory keeps twice as much. smarter: her answers, pictures too, on the smarter model
+// (lib/companion-answers.js SMART_MODEL, Gemini 3.6 Flash; Mike, 10/19: "yes to both": Legend's only). stronger:
+// answers and character replies on the stronger model (RESEARCH_MODEL); no plan has it: 3.8 Flash costs what 3.6 Flash
+// does but is over a second slower to her first word (the model bake-off, 10/19).
 const caps = net => ({ net, costCapMicro: Math.floor(net / 2) * 10_000, totalCapMicro: net * 10_000 });
 export const PLANS = {
   free: { id: "free", name: "Adventurer", monthly: 0, answersPerDay: 20, answersPerMonth: 600,
@@ -124,7 +128,7 @@ export const PLANS = {
   champion: { id: "champion", name: "Champion", monthly: 999, answersPerDay: 200, answersPerMonth: 1900,
               lookupsPerMonth: 20, longMemory: true, ...caps(905) },
   legend: { id: "legend", name: "Legend", monthly: 1999, answersPerDay: 300, answersPerMonth: 4000,
-            lookupsPerMonth: 40, longMemory: true, ...caps(1841) },
+            lookupsPerMonth: 40, longMemory: true, smarter: true, ...caps(1841) },
 };
 export const PAID = Object.keys(PLANS).filter(id => id !== "free");
 
@@ -594,7 +598,9 @@ const idOf = v => typeof v === "string" ? v : typeof v?.id === "string" ? v.id :
 // (subscriptionReport): its plan, Stripe's status, when it started (start_date), when it was cancelled (canceled_at:
 // when the player asked, though the plan runs to its period's end) and ended, its discounts' ids as last seen, and
 // comp: NULL until its coupons are read (checkPlanLog), '' for a paid plan, or the coupon that makes it free
-// (COMP_COUPONS). Kept after the plan ends, and after "Delete my account" without the account (user_id NULL).
+// (COMP_COUPONS). Kept after the plan ends, and after "Delete my account" without the account (user_id NULL). source:
+// where its checkout started (createCheckout's source: "welcome", "plans", a link from Willo's app such as
+// "willo-empty"), first seen wins; NULL for one made before it was kept, or not through Checkout.
 const SETUP = [
   `CREATE TABLE IF NOT EXISTS entitlements (
     user_id TEXT PRIMARY KEY, customer_id TEXT UNIQUE, subscription_id TEXT, plan TEXT NOT NULL DEFAULT 'free',
@@ -647,6 +653,8 @@ const MIGRATE = ["ALTER TABLE answer_user_spend ADD COLUMN topup_micro INTEGER N
                  "ALTER TABLE entitlements ADD COLUMN promo_champion_until TEXT",
                  "ALTER TABLE answer_user_spend ADD COLUMN launch_micro INTEGER NOT NULL DEFAULT 0",
                  "ALTER TABLE users ADD COLUMN welcomed_at TEXT",
+                 // Where a plan's checkout started (createCheckout source), for pricing.
+                 "ALTER TABLE plan_log ADD COLUMN source TEXT",
                  "ALTER TABLE voice_replies ADD COLUMN npc INTEGER NOT NULL DEFAULT 0",
                  "ALTER TABLE entitlements ADD COLUMN next_plan TEXT",
                  "ALTER TABLE entitlements ADD COLUMN next_plan_at TEXT",
@@ -849,7 +857,7 @@ export async function planFor(env, userId, now = new Date()) {
              lookupsPerMonth: plan.lookupsPerMonth, costCapMicro: plan.costCapMicro, totalCapMicro: plan.totalCapMicro,
              ...voiceOf(plan.id), status: row.status, renews: row.current_period_end,
              cancelAtPeriodEnd: Boolean(row.cancel_at_period_end), ...next, portal,
-             ...(row.gap_from === "active" ? { paidBefore: true } : {}) };
+             ...(row.gap_from === "active" ? { paidBefore: true } : {}), ...(plan.smarter ? { smarter: true } : {}) };
   }
   // The beta's free Hero month: looked for while one can still be running (until the launch). A read that failed ahead
   // is read again here, so its error is this one's, as before.
@@ -873,7 +881,8 @@ export async function planFor(env, userId, now = new Date()) {
     return { id: p.id, name: p.name, answersPerDay: p.answersPerDay, answersPerMonth: p.answersPerMonth,
              lookupsPerMonth: p.lookupsPerMonth, costCapMicro: p.costCapMicro, totalCapMicro: p.totalCapMicro,
              ...voiceOf(p.id), launch: true, reward: true, since: grant.starts, until: grant.ends,
-             ends: pacificDay(Date.parse(grant.ends)), status: null, renews: null, cancelAtPeriodEnd: false, portal };
+             ends: pacificDay(Date.parse(grant.ends)), status: null, renews: null, cancelAtPeriodEnd: false, portal,
+             ...(p.smarter ? { smarter: true } : {}) };
   }
   const brake = spent > BRAKE_MICRO;
   const free = PLANS.free;
@@ -1104,13 +1113,21 @@ export async function userSpend(env, userId, now = new Date(), { total = false, 
   return row?.micro || 0;
 }
 
-// A paying player whose answers this calendar month have cost their plan's text cap (costCapMicro, half its net): their
-// plan's answers wait for the next month, as when its pool is used (lib/companion-answers.js allowance,
-// functions/api/companion/answer.js). Never for the free plan, which the shared budget and the brake look after.
-// The beta's free Hero has Hero's, on its own answers.
-export async function overTextCap(env, userId, plan, now = new Date()) {
-  return plan.id !== "free" && plan.costCapMicro > 0 &&
-    await userSpend(env, userId, now, { launch: Boolean(plan.launch) }) >= plan.costCapMicro;
+// Where a paying player's calendar month stands against their plan's caps (her answers on 3.6 Flash, Mike, 10/19; the
+// step-down is the pricing session's): "under" its text cap (costCapMicro, half its net); "lite" past it, when her
+// answers go back to Flash-Lite (lib/companion-answers.js modelFor), not looking online, rather than to the lore library
+// earlier than on Flash-Lite before; "capped" once its answers and hosted voice together have cost the plan's whole net
+// (totalCapMicro), when the plan's answers wait for the next month, as when its pool is used
+// (lib/companion-answers.js allowance, functions/api/companion/answer.js), so no player costs more than they pay.
+// Never for the free plan, which the shared budget and the brake look after. The beta's free Hero has Hero's, on its
+// own answers.
+export async function capState(env, userId, plan, now = new Date()) {
+  if (plan.id === "free" || !(plan.costCapMicro > 0)) return "under";
+  await setupBilling(env);
+  const launch = Boolean(plan.launch);
+  const row = await env.DB.prepare(`SELECT ${ownSpend({ launch })} AS text, ${ownSpend({ total: true, launch })} AS total `
+    + "FROM answer_user_spend WHERE user_id = ? AND month = ?").bind(userId, month(now)).first();
+  return (row?.total || 0) >= plan.totalCapMicro ? "capped" : (row?.text || 0) >= plan.costCapMicro ? "lite" : "under";
 }
 
 // ---- The starter and the finest-voice packs ----
@@ -1205,8 +1222,11 @@ export function offersFor(env, plan) {
 // with two subscriptions. creator: the creator whose link brought this account (lib/referrals.js creatorFor: {code,
 // promoId}), or null: their promotion code takes its discount off the first month (once per account, its "creator"
 // claim) when no beta offer applies, since Checkout takes one discount; and the subscription names the creator either
-// way (metadata.creator), so what it pays counts for them (lib/referrals.js notePayment).
-export async function createCheckout(env, user, planId, interval, origin, { creator = null } = {}) {
+// way (metadata.creator), so what it pays counts for them (lib/referrals.js notePayment). source: where the checkout
+// started, as /plans says it (CHECKOUT_SOURCE: "welcome", "plans", "willo-empty"...), kept on the subscription
+// (metadata.source) and in plan_log, so /admin can tell which moments sell plans; anything else is left out.
+export const CHECKOUT_SOURCE = /^[a-z][a-z-]{0,29}$/;
+export async function createCheckout(env, user, planId, interval, origin, { creator = null, source = null } = {}) {
   await setupBilling(env);
   if (!sellablePlans(env).includes(planId)) return { error: "That plan isn't open yet." };
   if (interval !== undefined && interval !== null && interval !== "month") return { error: "Plans are monthly." };
@@ -1241,7 +1261,8 @@ export async function createCheckout(env, user, planId, interval, origin, { crea
   const params = discounts => ({
     mode: "subscription", customer, line_items: [{ price, quantity: 1 }], client_reference_id: user.id,
     subscription_data: { metadata: { user_id: user.id, ...(offer ? { launch: offer } : {}),
-      ...(creator?.code ? { creator: creator.code } : {}), ...(discounts && fromCreator ? { creator_offer: "1" } : {}) },
+      ...(creator?.code ? { creator: creator.code } : {}), ...(discounts && fromCreator ? { creator_offer: "1" } : {}),
+      ...(CHECKOUT_SOURCE.test(source || "") ? { source } : {}) },
       ...anchor },
     ...(coupon ? { discounts: [{ coupon }] }
       : discounts && fromCreator ? { discounts: [{ promotion_code: creator.promoId }] } : { allow_promotion_codes: true }),
@@ -1462,7 +1483,7 @@ function nextOf(schedule, plan) {
 
 // The plan a Stripe price is for: by its lookup key, or, for an older price whose key moved to a newer one
 // (scripts/stripe-setup.mjs), by its product (lore_forever_<plan>).
-function planOfPrice(price) {
+export function planOfPrice(price) {
   const byKey = String(price?.lookup_key || "").replace(/_(monthly|yearly)$/, "");
   return PAID.includes(byKey) ? byKey : String(idOf(price?.product) || "").replace(/^lore_forever_/, "");
 }
@@ -1905,15 +1926,16 @@ async function logSubscription(env, userId, subscription) {
   const at = s => Number.isFinite(s) ? iso(s * 1000) : null;
   const planId = planOfPrice(subscription.items?.data?.[0]?.price);
   await env.DB.prepare(
-    "INSERT INTO plan_log (subscription_id, user_id, plan, status, started, canceled, ended, discounts, comp, updated) " +
-    "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ON CONFLICT (subscription_id) DO UPDATE SET " +
+    "INSERT INTO plan_log (subscription_id, user_id, plan, status, started, canceled, ended, discounts, comp, updated, " +
+    "source) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ON CONFLICT (subscription_id) DO UPDATE SET " +
     "user_id = COALESCE(excluded.user_id, plan_log.user_id), plan = excluded.plan, status = excluded.status, " +
     "started = excluded.started, canceled = excluded.canceled, ended = excluded.ended, " +
     "comp = CASE WHEN excluded.comp IS NULL AND excluded.discounts = plan_log.discounts THEN plan_log.comp ELSE excluded.comp END, " +
-    "discounts = excluded.discounts, updated = excluded.updated"
+    "discounts = excluded.discounts, updated = excluded.updated, source = COALESCE(plan_log.source, excluded.source)"
   ).bind(subscription.id, userId, PAID.includes(planId) ? planId : null, String(subscription.status || ""),
          at(subscription.start_date ?? subscription.created), at(subscription.canceled_at), at(subscription.ended_at),
-         JSON.stringify((subscription.discounts || []).map(idOf)), comp, iso()).run();
+         JSON.stringify((subscription.discounts || []).map(idOf)), comp, iso(),
+         CHECKOUT_SOURCE.test(subscription.metadata?.source || "") ? subscription.metadata.source : null).run();
 }
 
 // Before /admin counts plans: reads from Stripe (GET only) the subscriptions plan_log doesn't know yet, or whose
@@ -2065,7 +2087,7 @@ export async function subscriptionReport(env, now = new Date(), days = 30) {
 export async function billingReport(env, now = new Date()) {
   await setupBilling(env);
   try { await checkPlanLog(env); } catch (e) { console.warn(`billing: plan_log: ${e?.message || e}`); }
-  const [{ results }, spend, packs, subscriptions] = await Promise.all([
+  const [{ results }, spend, packs, subscriptions, sources] = await Promise.all([
     env.DB.prepare("SELECT plan, status, interval, current_period_end FROM entitlements WHERE subscription_id IS NOT NULL").all(),
     env.DB.prepare("SELECT COALESCE(SUM(micro > topup_micro), 0) AS players, COALESCE(SUM(micro - topup_micro), 0) AS micro, " +
                    "COALESCE(SUM(calls), 0) AS calls, COALESCE(SUM(topup_micro), 0) AS topup_micro " +
@@ -2074,6 +2096,10 @@ export async function billingReport(env, now = new Date()) {
                    "COALESCE(SUM(CASE WHEN status = 'active' THEN remaining ELSE 0 END), 0) AS unused FROM answer_packs " +
                    "WHERE kind = 'voice'").bind(month(now)).first(),
     subscriptionReport(env, now),
+    // Where each plan's checkout started (plan_log source), comped plans left out: which moments sell plans.
+    env.DB.prepare("SELECT COALESCE(source, '') AS source, plan, COUNT(*) AS n FROM plan_log " +
+                   "WHERE plan IS NOT NULL AND (comp IS NULL OR comp = '') GROUP BY source, plan ORDER BY n DESC").all()
+      .then(r => r.results),
   ]);
   const counts = {};
   for (const r of results) {
@@ -2085,5 +2111,5 @@ export async function billingReport(env, now = new Date()) {
            trialing: apart("trialing"), onPlan: subscriptions.onPlan, counts: Object.values(counts), monthlyUsd: subscriptions.monthlyUsd,
            spend: { usd: (spend?.micro || 0) / 1e6, players: spend?.players || 0, calls: spend?.calls || 0 },
            voicePacks: { sold: packs?.sold || 0, unused: packs?.unused || 0, usd: (spend?.topup_micro || 0) / 1e6 },
-           subscriptions };
+           subscriptions, sources };
 }

@@ -1,0 +1,113 @@
+{
+ "key": "quest:95216",
+ "type": "quest",
+ "name": "The New Plague",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95216
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Royal Apothecary Society relentlessly pursues toxins capable of harming both the living and the dead to secure Forsaken supremacy and protect their fledgling nation."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "While the Horde tolerates the Forsaken as tactical allies in the Eastern Kingdoms, the sinister biological experiments brewing in the Apothecarium often raise unease among more honorable members."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives the new plague",
+    "theodore griffs",
+    "who is theodore griffs"
+   ],
+   "answer": "Theodore Griffs is an apothecary researcher operating out of the Apothecarium in the Undercity. He investigates potent toxins and exotic specimens to synthesize compounds for the Forsaken, showing little regard for anyone who fails to appreciate delicate alchemical craft.",
+   "q": "Who is Theodore Griffs?"
+  },
+  {
+   "aliases": [
+    "what is witherfang",
+    "where is witherfang",
+    "ruins of lordaeron arthropod"
+   ],
+   "answer": "Witherfang is a deadly, venomous arthropod found lurking in the Ruins of Lordaeron above the Undercity. It produces a remarkably corrosive toxin capable of dissolving even resilient undead flesh.",
+   "q": "What is Witherfang?"
+  },
+  {
+   "aliases": [
+    "what does theodore want with witherfang",
+    "why collect the highly toxic strain"
+   ],
+   "answer": "Theodore Griffs seeks to study Witherfang's venom to determine how its toxins eat through undead flesh, hoping to reverse engineer the substance into potent strains for the Forsaken's alchemical arsenal.",
+   "q": "Why does Theodore Griffs want Witherfang's venom?"
+  },
+  {
+   "aliases": [
+    "why was theodore angry",
+    "did i ruin the sample"
+   ],
+   "answer": "Theodore Griffs hoped the specimen would be kept intact or carefully harvested rather than slain outright. While annoyed that Witherfang was killed, he still managed to recover enough residual ichor from the remains to study its properties.",
+   "q": "Why is Theodore Griffs upset when you return?"
+  },
+  {
+   "aliases": [
+    "apothecarium purpose",
+    "why is the apothecarium important"
+   ],
+   "answer": "The Apothecarium serves as the research center of the Royal Apothecary Society beneath Lordaeron. Described as the Undercity's most vital quarter, it is dedicated to testing virulent strains, concocting alchemical weapons, and experimenting on exotic creatures.",
+   "q": "What is the purpose of the Apothecarium?"
+  },
+  {
+   "aliases": [
+    "how is the venom transmitted",
+    "transmission method"
+   ],
+   "answer": "According to Theodore Griffs, the most potent and reliable vector for virulent transmission is always through direct introduction into the bloodstream.",
+   "q": "How does Theodore believe virulent strains are best transmitted?"
+  }
+ ],
+ "keywords": [
+  "apothecarium",
+  "ichor",
+  "ruins of lordaeron",
+  "the new plague",
+  "theodore griffs",
+  "toxic strain",
+  "undercity",
+  "witherfang"
+ ],
+ "related": [
+  "subzone:apothecarium",
+  "zone:undercity",
+  "zone:ruinsoflordaeron",
+  "topic:lordaeron"
+ ],
+ "sections": [
+  {
+   "body": "In the damp recesses of the Apothecarium, the Royal Apothecary Society continually gathers virulent agents from across Azeroth. Theodore Griffs, one of its dedicated researchers, tracks exotic beasts and deadly contaminants to fuel Forsaken alchemical innovation. Hearing rumors of a venomous creature prowling the shattered stone above, Griffs dispatches adventurers to acquire a viable sample before the opportunity slips away.",
+   "spoiler": 0,
+   "title": "The Apothecary's Ambition"
+  },
+  {
+   "body": "The target of the research is Witherfang, a venomous arthropod stalking the surface ruins of Lordaeron. Its venom possesses the rare and terrifying quality of decomposing not only living tissue, but also dead and preserved flesh. For an apothecary working to refine biological warfare and safeguard the Forsaken kingdom, uncovering how such a toxin bypasses necrotic resistance offers invaluable chemical insight.",
+   "spoiler": 0,
+   "title": "A Flesh-Dissolving Toxin"
+  },
+  {
+   "body": "Although Griffs expresses frustration when adventurers destroy Witherfang instead of securing it alive, the gathered ichor provides sufficient material for analysis. By breaking down the creature's bodily fluids, the apothecary intends to reverse engineer the venom's virulent mechanics, ensuring that even a crushed arthropod contributes to the burgeoning chemical prowess of the Undercity.",
+   "spoiler": 1,
+   "title": "Reverse Engineering the Ichor"
+  }
+ ],
+ "summary": "The New Plague is a research endeavor undertaken by Theodore Griffs within the Apothecarium of the Undercity. Investigating reports of a lethal arthropod in the ruins above whose venom consumes even undead flesh, Griffs seeks to analyze and reverse engineer the organism's deadly toxins.",
+ "attribution": [
+  "In-game quest text: The New Plague"
+ ]
+}

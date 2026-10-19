@@ -7,7 +7,7 @@
 // /admin/voices shows tests/fixtures/voice-status.json through the real functions/api/admin/voice-status.js;
 // Community > Willo is the real functions/api/admin/willo.js over made-up kept answers, reports and signals (Willo
 // quality and the review queue, seedWillo below) and a made-up friend report; /admin/edits shows a few made-up rows
-// (SAMPLE_EDITS below). No network, no real data.
+// (SAMPLE_EDITS below); Growth > Retention shows made-up plans (seeded below). No network, no real data.
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { resolve, extname } from 'node:path';
@@ -27,6 +27,8 @@ import { logFeedback, markFixed, triageFeedback, setupFeedback, REASONS } from '
 import { signalsFor, queueWorthy, signalWords, newAnswerId } from '../lib/answer-signals.js';
 import { onRequestGet as costs } from '../functions/api/admin/costs.js';
 import { onRequestGet as voiceStatus, onRequestPost as postVoiceStatus } from '../functions/api/admin/voice-status.js';
+import { onRequestGet as retention, onRequestPost as postRetention } from '../functions/api/admin/retention.js';
+import { setupCancellations } from '../lib/cancellations.js';
 
 const origin = 'http://localhost:8766';
 const env = { DB: d1(), ADMIN_KEY: 'local' };
@@ -361,6 +363,34 @@ const SAMPLE_REVIEW = { ok: true, total: 2, edits: [
   { id: 902, locale: 'frFR', string_id: 'npc.marshal_dughan.greeting', en: 'Ach, it\'s another adventurer.',
     text: 'Ah, encore un aventurier.', user_id: 'u2', display_name: 'Camille', email: 'camille@example.invalid', status: 'new', updated: iso(1) }] };
 
+// Growth > Retention (functions/api/admin/retention.js, for real): 14 made-up plans over 5 weeks, a few cancelled with the
+// reason they picked, two Keep Hero trials that first pay at the launch, and Mike's comped Legend (left out).
+await setupBilling(env);
+await setupCancellations(env);
+{
+  const DAY_MS = 86400e3, now = Date.now(), at = days => new Date(now - days * DAY_MS).toISOString();
+  const PLANS_SEEN = [[34, 'hero', null], [33, 'champion', null], [31, 'hero', 4, 'too_expensive', 'Fun, but I only play on weekends'],
+    [27, 'hero', null], [24, 'legend', 15, 'unused'], [22, 'hero', null], [20, 'hero', 2, 'missing_features', 'Wanted her to read quest text'],
+    [16, 'champion', null], [15, 'hero', null], [13, 'hero', 1, null], [9, 'hero', null, null, null, 0], [8, 'hero', null],
+    [6, 'hero', 5, 'switched_service', null, 0], [3, 'champion', null]];
+  PLANS_SEEN.forEach(([days, plan, cancelledAfter, feedback, comment, paid = plan === 'hero' ? 499 : 999], i) => {
+    const id = `sub_smoke_${i}`, canceled = cancelledAfter === null ? null : at(days - cancelledAfter);
+    // Their accounts, so Ask why offers Write… (no email service here: a note says "not sent").
+    env.DB.sqlite.prepare("INSERT OR IGNORE INTO users (id, email, google_sub, display_name, created) VALUES (?, ?, ?, ?, ?)")
+      .run(`u_smoke_${i}`, `cancelled${i}@example.invalid`, `smoke-cancelled-${i}`, `Ana${i}`, at(days));
+    env.DB.sqlite.prepare("INSERT INTO plan_log (subscription_id, user_id, plan, status, started, canceled, discounts, comp, updated) " +
+      "VALUES (?, ?, ?, ?, ?, ?, '[]', '', ?)").run(id, `u_smoke_${i}`, plan, paid ? 'active' : 'trialing', at(days), canceled, at(0));
+    env.DB.sqlite.prepare("INSERT INTO plan_payments_read (subscription_id, read) VALUES (?, ?)").run(id, at(0));
+    if (paid) env.DB.sqlite.prepare("INSERT INTO plan_payments (invoice_id, subscription_id, cents, paid) VALUES (?, ?, ?, ?)").run(`in_${id}`, id, paid, at(days));
+    if (canceled) env.DB.sqlite.prepare("INSERT INTO plan_cancellations (id, subscription_id, plan, kind, at, started, ends, days, " +
+      "paid_cents, trial, reason, feedback, comment, counted, created, user_id) VALUES (?, ?, ?, 'scheduled', ?, ?, ?, ?, ?, ?, " +
+      "'cancellation_requested', ?, ?, 1, ?, ?)").run(`evt_${id}`, id, plan, canceled, at(days), at(days - 30), cancelledAfter, paid, paid ? 0 : 1,
+      feedback ?? null, comment ?? null, at(0), `u_smoke_${i}`);
+  });
+  env.DB.sqlite.prepare("INSERT INTO plan_log (subscription_id, user_id, plan, status, started, discounts, comp, updated) " +
+    "VALUES ('sub_smoke_mike', 'u_mike', 'legend', 'active', ?, '[]', 'owner-legend-free', ?)").run(at(30), at(0));
+}
+
 const publicRoot = resolve(SITE, 'public');
 const types = { '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.png': 'image/png', '.webp': 'image/webp',
                 '.html': 'text/html' };
@@ -369,6 +399,12 @@ createServer(async (req, res) => {
     const url = new URL(req.url, origin);
     if (url.pathname === '/api/admin') {
       const response = await admin({ env, request: new Request(url, { headers: req.headers }) });
+      res.writeHead(response.status, Object.fromEntries(response.headers)); res.end(await response.text()); return;
+    }
+    if (url.pathname === '/api/admin/retention') {
+      const body = req.method === 'POST' ? await new Promise(ok => { let b = ''; req.on('data', c => b += c); req.on('end', () => ok(b)); }) : undefined;
+      const request = new Request(url, { method: req.method, headers: req.headers, body });
+      const response = await (req.method === 'POST' ? postRetention : retention)({ env, request });
       res.writeHead(response.status, Object.fromEntries(response.headers)); res.end(await response.text()); return;
     }
     if (url.pathname === '/api/admin/costs') {

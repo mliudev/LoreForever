@@ -386,6 +386,18 @@ test("9. dropping a goal takes its line out with the notebook's own tool; the he
   assert.equal(page(user).body, MOUNT_GOAL);
 });
 
+test("LOR-686: dropping the last goal takes its Goals heading too, and she says it once", async () => {
+  const { user, token } = await linked();
+  write(user, "## To do\n- [ ] Hogger\n\n" + MOUNT_GOAL);
+  reply = body => {
+    const n = /(\d+)\. \[ \] Riding at level 40/.exec(system(body))?.[1];
+    return called("notebook_remove", { answer: "That goal's gone: riding at level 40.", items: [Number(n)] });
+  };
+  const out = await ask(token, "forget my mount goal");
+  assert.equal(out.answer, "Goal dropped: riding at level 40 for 100 gold.");
+  assert.equal(page(user).body, "## To do\n- [ ] Hogger\n");
+});
+
 test("12. the wrong-number guard: a gold amount she wasn't given becomes the plan's own line", async () => {
   const { user, token } = await linked();
   write(user, MOUNT_GOAL);

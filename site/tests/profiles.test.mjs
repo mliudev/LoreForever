@@ -7,7 +7,8 @@ import { onRequestGet as profileGet } from "../functions/u/[handle].js";
 
 import { onRequest as authApi } from "../functions/api/auth/[action].js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
-import { STORY_MODEL } from "../lib/profiles.js";
+import { STORY_MODEL, profilePage } from "../lib/profiles.js";
+import { readJourney, parseRecord } from "../lib/journey.js";
 
 import { d1, assets } from "./helpers.mjs";
 import { RECORD } from "./fixtures/journey/record.mjs";
@@ -438,4 +439,14 @@ test("Delete my profile, and Delete my account, remove it; /u/me finds yours", a
   await api("import", { cookie: me.cookie, body: { record: RECORD } });
   await deleteUser(env, me.user);
   assert.equal(await row(me.user.id), null);
+});
+
+test("the profile's \"Last seen\" is never a battleground: the place before it (LOR-685)", () => {
+  const t = Date.UTC(2026, 9, 18, 18) / 1000;
+  const journey = readJourney({ v: 1, tz: 0, moments: [
+    { k: "zone", t, z: "Ironforge", s: "Hall of Arms", new: 1 }, { k: "qt", t: t + 60, z: "Ironforge", s: "Hall of Arms", q: "Arms" },
+    { k: "zone", t: t + 600, z: "Darkspear Islands", inst: 1, how: "instance" }, { k: "death", t: t + 700, z: "Darkspear Islands" }] });
+  const parsed = parseRecord(RECORD);
+  const html = profilePage({ handle: "hurin", data: parsed.data || parsed, journey, updated: new Date().toISOString() });
+  assert.match(html, /<p class="pf-seen">Last seen in Ironforge &middot;/);
 });

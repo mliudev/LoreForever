@@ -113,14 +113,15 @@ export function storyParts(story) {
 // Story languages whose narrator reference was replaced, with the date: their stories recorded before that are read
 // again, once, the next time their page is opened (the key changes, and record() drops the old takes). Other
 // languages keep their keys. LOR-566: the German male narrator's reference was a woman's voice until 2026-10-15.
-// LOR-567: German and Castilian Spanish have new native narrators (the packs' recast) since 2026-10-18.
-export const VOICE_EDITIONS = { de: "2026-10-18", es: "2026-10-18" };
+// LOR-567: German and Castilian Spanish have new native narrators (the packs' recast) since 2026-10-18, Brazilian
+// Portuguese since 2026-10-19.
+export const VOICE_EDITIONS = { de: "2026-10-18", es: "2026-10-18", pt: "2026-10-19" };
 
 // Story languages with no narrator voice for now: their stories stay text, with no Listen and nothing recorded, until
-// a new reference lands (then drop the language here and give it a voice edition above). LOR-567: the Brazilian
-// Portuguese references are European-accented women; Mike, 2026-10-15: "pull the brazilian PT voices since they
-// don't sound right".
-export const PAUSED_LANGUAGES = new Set(["pt"]);
+// a new reference lands (then drop the language here and give it a voice edition above). LOR-567: Brazilian
+// Portuguese was paused 2026-10-15 to 10-19 ("pull the brazilian PT voices since they don't sound right") until its
+// recast references, male Cronista and female Sábia, landed.
+export const PAUSED_LANGUAGES = new Set([]);
 
 // Which story the recordings read: the first 16 hex of SHA-256 of the account and the story's text (plus the
 // language's voice edition, if any). Part of the recordings' addresses, so they change with the story and can't be

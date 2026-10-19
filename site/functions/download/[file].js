@@ -18,6 +18,7 @@ import { currentUser } from "../../lib/accounts.js";
 import { countAccountDownload } from "../../lib/activity.js";
 import { loadSizes } from "../../lib/packs.js";
 import { willoTag, willoUrl, willoPreview, WILLO_FILE } from "../../lib/willo.js";
+import { noteDownload } from "../../lib/sources.js";
 
 const RELEASE = "https://github.com/mliudev/LoreForever/releases/latest/download/";
 const FILES = { installer: "LoreForever-Setup.exe", zip: "LoreForever.zip", complete: "LoreForever.zip", willo: WILLO_FILE };
@@ -53,7 +54,8 @@ export async function onRequestGet({ params, env, request, waitUntil }) {
         ] : []),
       ]);
     } catch (e) {}   // never block a download on the counter
-    const counting = countForAccount(env, request, params.file, day);
+    // Also under where the browser's visits started (lib/sources.js: its first source, the lf_src cookie).
+    const counting = Promise.all([countForAccount(env, request, params.file, day), noteDownload(env, request, params.file)]);
     if (waitUntil) waitUntil(counting); else await counting;
   }
   if (params.file === "willo") {

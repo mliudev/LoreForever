@@ -1,0 +1,103 @@
+{
+ "key": "quest:92881",
+ "type": "quest",
+ "name": "The High Elder's Request",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92881
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "The cult's interest in anchor pylons and the involvement of an enigmatic skypriest at the western watchtower present a troubling development for priests studying divine or ritual manipulation."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is talaanis shadowsong",
+    "high elder shadowsong",
+    "where is shadowsong"
+   ],
+   "answer": "High Elder Talaanis Shadowsong is a leader located in Valanaar. Faced with coordinated cult activity against the region's watchtowers, he seeks capable adventurers to pursue promising leads on the cult's true intentions.",
+   "q": "Who is High Elder Shadowsong?"
+  },
+  {
+   "aliases": [
+    "what is valanaar",
+    "valanaar location"
+   ],
+   "answer": "Valanaar serves as a settlement or sanctuary where High Elder Talaanis Shadowsong is stationed, coordinating defenses and investigating cult incursions against local anchor pylons and towers.",
+   "q": "Where is Valanaar?"
+  },
+  {
+   "aliases": [
+    "why were watchtowers attacked",
+    "western and eastern watchtowers",
+    "watchtower attacks"
+   ],
+   "answer": "Coordinated attacks struck both the western and eastern watchtowers. Defenders suspect these assaults were not random raids, but deliberate maneuvers meant to target or manipulate the nearby anchor pylons.",
+   "q": "Why were the watchtowers attacked?"
+  },
+  {
+   "aliases": [
+    "what are anchor pylons",
+    "cult anchor pylons",
+    "why anchor pylons"
+   ],
+   "answer": "Anchor pylons are critical defensive or regional structures. Intelligence gathered from the assault on the western watchtower suggests a hostile cult is specifically attempting to interfere with or subvert them.",
+   "q": "What are the anchor pylons?"
+  },
+  {
+   "aliases": [
+    "who was the skypriest",
+    "western watchtower skypriest",
+    "skypriest role"
+   ],
+   "answer": "A skypriest was involved in the incident at the western watchtower. The details reported from that encounter led leadership to deduce the cult's broader scheme regarding the anchor pylons.",
+   "q": "Who was the skypriest at the western watchtower?"
+  },
+  {
+   "aliases": [
+    "what cult is this",
+    "who attacked the towers"
+   ],
+   "answer": "An aggressive cult has orchestrated simultaneous strikes against the region's watchtowers. Their exact nature and deeper motives remain under investigation as High Elder Shadowsong works to unravel their plans.",
+   "q": "What cult is targeting the watchtowers?"
+  }
+ ],
+ "keywords": [
+  "anchor pylons",
+  "eastern watchtower",
+  "shadowsong",
+  "skypriest",
+  "talaanis shadowsong",
+  "the high elder's request",
+  "valanaar",
+  "western watchtower"
+ ],
+ "related": [
+  "quest:93926"
+ ],
+ "sections": [
+  {
+   "body": "Recent coordinated assaults on both the western and eastern watchtowers have revealed a troubling pattern. What initially seemed like scattered skirmishes now points toward a calculated offensive directed against local anchor pylons. Reports from the confrontation with a skypriest at the western watchtower first exposed the cult's interest in these structures, prompting authorities to treat the towers' defense as a matter of urgent concern.",
+   "spoiler": 0,
+   "title": "Trouble at the Watchtowers"
+  },
+  {
+   "body": "Recognizing the escalating threat to the anchor pylons, leadership directs adventurers to speak directly with High Elder Talaanis Shadowsong in Valanaar. Holding a promising lead regarding the cult's movement, the High Elder seeks experienced allies prepared to track the enemy and counter whatever ritual or sabotage they intend to unleash.",
+   "spoiler": 0,
+   "title": "Audience in Valanaar"
+  }
+ ],
+ "summary": "The High Elder's Request sends adventurers to consult with High Elder Talaanis Shadowsong in Valanaar following coordinated assaults on the region's watchtowers. Reports from the western watchtower indicate that a hostile cult is targeting the local anchor pylons.",
+ "attribution": [
+  "In-game quest text: The High Elder's Request"
+ ]
+}

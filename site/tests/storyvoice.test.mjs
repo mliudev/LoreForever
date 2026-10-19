@@ -11,7 +11,7 @@ import { onRequest as takeGet } from "../functions/audio/story/[file].js";
 import { onRequest as profileApi } from "../functions/api/profile/[action].js";
 import { findOrCreateUser, startSession, setup, deleteUser, sha256 } from "../lib/accounts.js";
 import { parseRecord } from "../lib/journey.js";
-import { storyParts, storyKey, hookToken, embeddingKey, referenceKey, transcriptKey, takeKey, NARRATORS, DEFAULT_NARRATOR, setupStoryVoice, CHUNK, MAX_TRIES, MICRO_USD_PER_CHAR, MICRO_USD_PER_BYTE, FISH_MODEL, mp3Seconds } from "../lib/storyvoice.js";
+import { storyParts, storyKey, hookToken, embeddingKey, referenceKey, transcriptKey, takeKey, NARRATORS, DEFAULT_NARRATOR, PAUSED_LANGUAGES, setupStoryVoice, CHUNK, MAX_TRIES, MICRO_USD_PER_CHAR, MICRO_USD_PER_BYTE, FISH_MODEL, mp3Seconds } from "../lib/storyvoice.js";
 import { d1, r2, assets } from "./helpers.mjs";
 import { RECORD } from "./fixtures/journey/record.mjs";
 
@@ -481,7 +481,8 @@ test("a German story recorded before its new reference is read again once; Engli
   await viewAndWait("hilde");
   assert.equal(speech.length, storyParts(STORY).length, "only once");
   assert.equal(await storyKey(me.user.id, STORY, "en"), old, "English stories keep their recordings");
-  assert.equal(await storyKey(me.user.id, STORY, "pt"), old, "so do languages without a new reference");
+  assert.equal(await storyKey(me.user.id, STORY, "fr"), old, "so do languages without a new reference");
+  assert.notEqual(await storyKey(me.user.id, STORY, "pt"), old, "Brazilian Portuguese has new narrators too (LOR-567)");
   assert.notEqual(await storyKey(me.user.id, STORY, "es"), old, "Spanish has new narrators too (LOR-567)");
   delete env.OPENROUTER_API_KEY;
 });
@@ -489,14 +490,19 @@ test("a German story recorded before its new reference is read again once; Engli
 test("a paused language stays text: nothing recorded and no Listen, even with its reference in place", async () => {
   env.OPENROUTER_API_KEY = "or-test-key";
   openrouter();
-  await putRef("pt", "Muito antes de surgirem as cidades.");
-  await makeProfile("lua");
-  await setLocale("lua", "pt");
-  const html = await viewAndWait("lua");
-  assert.equal(speech.length, 0);
-  assert.equal((await rows()).length, 0);
-  assert.equal(listenData(html), null);
-  delete env.OPENROUTER_API_KEY;
+  PAUSED_LANGUAGES.add("pt");   // none is paused now (LOR-567 brought Portuguese back); pause one for the test
+  try {
+    await putRef("pt", "Muito antes de surgirem as cidades.");
+    await makeProfile("lua");
+    await setLocale("lua", "pt");
+    const html = await viewAndWait("lua");
+    assert.equal(speech.length, 0);
+    assert.equal((await rows()).length, 0);
+    assert.equal(listenData(html), null);
+  } finally {
+    PAUSED_LANGUAGES.delete("pt");
+    delete env.OPENROUTER_API_KEY;
+  }
 });
 
 test("fal reads English stories only", async () => {

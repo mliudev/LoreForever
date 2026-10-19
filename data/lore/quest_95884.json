@@ -1,0 +1,109 @@
+{
+ "key": "quest:95884",
+ "type": "quest",
+ "name": "The Offering Stone",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95884
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Forsaken and Horde adventurers securing Silverpine Forest must keep a watchful eye on suspicious rituals and cultist activities lingering in the shadowy crags of Beren's Peril."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "The sight of an offering stone littered with dark implements points to ritualistic practices, warranting close study by practitioners of the dark arts."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is offering stone",
+    "offering stone silverpine",
+    "what is this stone"
+   ],
+   "answer": "The Offering Stone is a weathered stone altar located within Beren's Peril in Silverpine Forest. It appears to serve as a focal point for mysterious preparations and dark rituals, scattered with bizarre implements and ritual items.",
+   "q": "What is the Offering Stone?"
+  },
+  {
+   "aliases": [
+    "where is offering stone",
+    "offering stone location",
+    "find offering stone"
+   ],
+   "answer": "The Offering Stone is situated within Beren's Peril, a mountainous and perilous area located in southern Silverpine Forest.",
+   "q": "Where can the Offering Stone be found?"
+  },
+  {
+   "aliases": [
+    "who made the offering stone",
+    "who uses offering stone",
+    "who is performing the ritual"
+   ],
+   "answer": "The damaged note recovered nearby leaves the identity of the ritualists obscure, but the tools and items left on the stone indicate someone was actively preparing an offering or dark rite in the area.",
+   "q": "Who created or uses the Offering Stone?"
+  },
+  {
+   "aliases": [
+    "what note",
+    "scrap of note silverpine",
+    "what does the note say"
+   ],
+   "answer": "The scrap of note is mostly weathered and illegible, yet legible fragments clearly detail preparations for an upcoming ritual and point to the presence of an offering stone nearby.",
+   "q": "What does the mysterious note say?"
+  },
+  {
+   "aliases": [
+    "what items are on the stone",
+    "what implements on stone",
+    "offering stone items"
+   ],
+   "answer": "The rough surface of the stone is littered with strange tools, ritual implements, and miscellaneous items arranged for an offering.",
+   "q": "What is found on the Offering Stone?"
+  },
+  {
+   "aliases": [
+    "what ritual offering stone",
+    "why an offering stone",
+    "what offering silverpine"
+   ],
+   "answer": "While the exact nature of the rite is not fully detailed in the surviving fragments of the note, the stone is prepared specifically as an altar where items or sacrifices are laid out for a ritual.",
+   "q": "What kind of ritual is being performed here?"
+  }
+ ],
+ "keywords": [
+  "beren's peril",
+  "implements",
+  "offering stone",
+  "ritual",
+  "scrap of note",
+  "silverpine forest",
+  "the offering stone"
+ ],
+ "related": [
+  "quest:516",
+  "zone:silverpine"
+ ],
+ "sections": [
+  {
+   "body": "A weathered scrap of paper found in Silverpine Forest speaks of strange ritual preparations. Though time and moisture have rendered most of the writing illegible, enough fragments remain to uncover mentions of a ritual and an offering stone situated somewhere nearby. Travelers who follow these clues into the crags of Beren's Peril can locate the crude altar tucked away in the wilderness.",
+   "spoiler": 0,
+   "title": "A Tattered Note"
+  },
+  {
+   "body": "Upon locating the Offering Stone in Beren's Peril, its rough surface reveals evidence of recent and unsettling activity. Strange implements and bizarre items lie scattered across the rock, confirming that someone has been actively using the site to stage an offering or dark rite far from prying eyes.",
+   "spoiler": 0,
+   "title": "The Ritual Site"
+  }
+ ],
+ "summary": "The Offering Stone is a ritual altar hidden away in Beren's Peril in Silverpine Forest. Discovered through fragments of a weathered note, the stone is strewn with bizarre implements and items meant for an unknown offering. Investigating the site reveals active ritual preparations taking place in the shadowed wilderness.",
+ "attribution": [
+  "In-game quest text: The Offering Stone"
+ ]
+}

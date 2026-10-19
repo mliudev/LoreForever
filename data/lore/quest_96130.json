@@ -1,0 +1,105 @@
+{
+ "key": "quest:96130",
+ "type": "quest",
+ "name": "Chakuyak",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96130
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "The hunt reflects the tauren ethos of balancing reverence for nature's creatures with the practical duty to protect the tribe and honor slain beasts by utilizing their pelts."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Tracking an unusually fierce, solitary alpha wolf across the wooded hills requires patience, keen senses, and respect for wild predators."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is chakuyak",
+    "who is chakuyak",
+    "is chakuyak a wolf"
+   ],
+   "answer": "Chakuyak is an unusually aggressive and large prairie wolf stalking the hills near Stonebull Lake in Mulgore. She has earned a distinct name due to the threat she poses to travelers coming through the region.",
+   "q": "Who or what is Chakuyak?"
+  },
+  {
+   "aliases": [
+    "where to find chakuyak",
+    "chakuyak spot",
+    "where does chakuyak roam"
+   ],
+   "answer": "Chakuyak stalks the wooded terrain directly west of Stonebull Lake, wandering stealthily between tree stands along the hills.",
+   "q": "Where is Chakuyak located?"
+  },
+  {
+   "aliases": [
+    "why kill chakuyak",
+    "chakuyak threat"
+   ],
+   "answer": "While local prairie wolves are a natural part of Mulgore's wildlife, Chakuyak has grown unusually bold and aggressive, directly menacing travelers entering the territory from abroad.",
+   "q": "Why must Chakuyak be hunted down?"
+  },
+  {
+   "aliases": [
+    "what happens to chakuyak pelt",
+    "chakuyak fur"
+   ],
+   "answer": "The questgiver ensures that taking the life of such a magnificent beast is not in vain; her pelt is preserved and put to good use so that nothing is wasted.",
+   "q": "What happens to Chakuyak's pelt after the hunt?"
+  },
+  {
+   "aliases": [
+    "should i group for chakuyak",
+    "is chakuyak hard to solo"
+   ],
+   "answer": "Chakuyak is exceptionally fierce and dangerous compared to ordinary wolves, and travelers often band together in small hunting parties to track and bring her down safely.",
+   "q": "Do I need a group to hunt Chakuyak?"
+  },
+  {
+   "aliases": [
+    "who rewards chakuyak hunt",
+    "chakuyak chief"
+   ],
+   "answer": "The hunter who assigns the task promises to speak high praises of your deed directly to the tribe's chief upon the beast's defeat and the return of her pelt.",
+   "q": "Who acknowledges your victory over Chakuyak?"
+  }
+ ],
+ "keywords": [
+  "chakuyak",
+  "mulgore",
+  "prairie wolf",
+  "stonebull lake",
+  "tauren hunt",
+  "travelers",
+  "wolf pelt"
+ ],
+ "related": [
+  "subzone:stonebull-lake",
+  "quest:567"
+ ],
+ "sections": [
+  {
+   "body": "Among the prairie wolves roaming the grassy plateaus and rolling hills of Mulgore, an exceptionally fierce alpha female known as Chakuyak has distinguished herself by her relentless aggression. Stalking the tree stands west of Stonebull Lake, she has turned from ordinary game into a direct hazard for travelers arriving from abroad, prompting local hunters to mark her for removal before innocent wanderers are harmed.",
+   "spoiler": 0,
+   "title": "The Shadow of Stonebull Lake"
+  },
+  {
+   "body": "For the local tribes, ending the life of a magnificent predator like Chakuyak is met with somber reverence rather than boastful cruelty. Slaying her is viewed as a necessary act of protection for travelers and villagers alike. In keeping with nomadic customs, her thick pelt is brought back to be carefully cured and utilized so that the spirit and sacrifice of the great wolf are honored and not squandered.",
+   "spoiler": 0,
+   "title": "Reverence and Necessity"
+  }
+ ],
+ "summary": "Chakuyak is an exceptionally aggressive prairie wolf stalking the tree stands west of Stonebull Lake in Mulgore. Posing a growing threat to passing travelers, she has been marked for hunting by local tribesfolk who seek to secure the region while honoring the fallen beast's pelt.",
+ "attribution": [
+  "In-game quest text: Chakuyak"
+ ]
+}

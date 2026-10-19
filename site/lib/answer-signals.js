@@ -116,7 +116,7 @@ export const queueWorthy = (tags, dispute) => !dispute && weightOf(tags) >= 2;
 // What a question is about, by its words (no model): the demand view groups by it. Willo's own help, her notebook and a
 // character answering in person come from how it was answered; the rest from the question.
 export const TOPICS = {
-  next: "What to do next", here: "Who or what is here", quest: "Quests", place: "Places and the way there",
+  next: "What to do next", here: "Who or what is here", quest: "Quests", route: "Routes: getting somewhere", place: "Places",
   item: "Items and gear", profession: "Professions", class: "Classes, spells and stats", dungeon: "Dungeons and raids",
   progress: "Leveling, reputation, gold, mounts", lore: "Lore and story", willo: "Willo herself",
   notebook: "Notebook, goals and pins", character: "Characters in person", chat: "Chat and greetings",
@@ -129,13 +129,16 @@ const RULES = [
   ["willo", /\b(?:your (?:settings|colou?r|voice|name|light)|(?:can|could|do|will) you (?:speak|talk|see|hear|open|change|switch|understand|remember|tell me when)|speak (?:aloud|to me|out loud)|switch to \w+|change your|about you(?:rself)?|who are you|what can you do|did you do|my friends?)\b/i],
   ["next", /\bwhat (?:should|can|do) i do\b|\bwhat now\b|\bwhere should i go\b|\bnext steps?\b|\bgive me \w+ steps\b|\bwhat(?:'s| is) next\b/i],
   ["here", /\bwho(?:'s| is| do you think) (?:this|that)\b|\bthis guy\b|\bwhat am i looking at\b|\bwhat is (?:this|that)(?: place)?\W*$|\bwhat(?:'s| is) (?:he|she|it|that \w+) doing\b|\bwhat is going on\b|\bis this (?:enemy|mob|monster)\b|\bwhat is he guarding\b/i],
+  // The way somewhere, apart from where a place is (the PM, 10/19: routes on their own on the accuracy card); a level
+  // or a skill to get to isn't a place ("how do I get to 150 skinning?"), and where a boat leaves from is one.
+  ["route", /\bhow (?:do|can|would|should|to) (?:i |we )?(?:get|go|travel|make (?:my|our) way)(?: back| over)? (?:to|into|there|from)\b(?! (?:level|lvl|\d))|\b(?:get|go|travel|head|fly) (?:back )?to\b(?! (?:level|lvl|\d))|\b(?:fastest|quickest|best|shortest) way\b|\bway (?:to|from)\b|\broute\b|\bdirections?\b|\b(?:get|take|catch|ride|hop on)(?: a| the)? (?:boat|ship|zeppelin|tram|flight)s? (?:to|from)\b|\bis there an? (?:boat|ship|zeppelin|tram|flight)\b|\bwhich way\b|\bhow far\b/i],
   ["quest", /\bquests?\b|\bturn(?:-| )?in\b|\bquest ?giver\b|\bobjective\b|\bwhere do i (?:take|bring|hand)\b/i],
   ["profession", /\b(?:trainers?|teach me|train(?:ing)?|professions?|herbalism|herbs?|mining|ore|skinning|alchemy|potions?|blacksmith(?:ing)?|enchant(?:ing|er)?|engineer(?:ing)?|tailor(?:ing)?|leatherworking|cooking|fishing|first aid|recipes?|skill (?:up|points?))\b/i],
   ["item", /\b(?:items?|weapons?|armou?r|swords?|axes?|maces?|daggers?|staff|staves|bows?|guns?|shields?|rings?|trinkets?|necklace|cloak|helm|boots|gloves|drops?|loot|bis|gear|upgrades?|vendors? (?:sell|has))\b/i],
   ["class", /\b(?:talents?|specs?|rotation|spells?|abilit(?:y|ies)|warriors?|paladins?|hunters?|rogues?|priests?|shamans?|mages?|warlocks?|druids?|class(?:es)?|pet|totems?|strength|stamina|agility|intellect|spirit|attack power|armou?r|crit(?:ical)?|dodge|parry|regen(?:eration)?|damage|dps|tank(?:ing)?|heal(?:er|ing)?|macros?|#showtooltip|cooldowns?)\b/i],
   ["dungeon", /\b(?:dungeons?|raids?|instances?|deadmines|stockade|wailing caverns|shadowfang|blackfathom|gnomeregan|scarlet monastery|razorfen|uldaman|zul'?farrak|maraudon|sunken temple|blackrock|scholomance|stratholme|dire maul|molten core|onyxia|boss(?:es)?)\b/i],
   ["place", /\bwhere\b|\bhow (?:do|can|to) i? ?(?:get|go|reach|find)\b|\bget (?:out of|there|to)\b|\bway to\b|\bdirections?\b|\bboats?\b|\bzeppelins?\b|\bfl(?:y|ight) ?(?:path|master)?\b|\bfly to\b|\bportals?\b|\bnorth|\bsouth|\beast\b|\bwest\b|\b(?:zone|town|village|city|camp|keep|harbou?r|graveyard|inn)\b|\bthis place\b|\bthrough (?:the )?\w+|\b(?:find|direct me to|take me to) (?:the|a)\b/i],
-  ["progress", /\b(?:level(?:ing)?|xp|experience|reputation|rep|honou?r|gold|money|silver|mounts?|riding|bags?|bank|auction)\b/i],
+  ["progress", /\b(?:level(?:ing)?|xp|experience|reputation|rep|honou?r|gold|money|silver(?! lining)|mounts?|riding|bags?|bank|auction)\b/i],
   ["lore", /\b(?:who (?:is|was|were|are|leads|led|rules|ruled|founded|killed|made)|history|story|backstory|lore|what happened|legend|king|queen|prince|war|why (?:is|was|did|are|were)|tell me (?:a little )?(?:more )?(?:bit )?about|tell me more|what can you tell me about|what is \w+|what are the)\b/i],
 ];
 export function topicOf(question, { operation = "answer", lookups = [], action = null } = {}) {

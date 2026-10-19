@@ -1,0 +1,97 @@
+{
+ "key": "quest:79976",
+ "type": "quest",
+ "name": "This Must Be The Place",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79976
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who wrote the note",
+    "note author",
+    "who left the message"
+   ],
+   "answer": "The identity of the author is not stated in the note. The writer only explains that they have decided to take their work underground to prevent it from falling into the wrong hands, leaving behind an abandoned campsite and equipment.",
+   "q": "Who wrote the torn note?"
+  },
+  {
+   "aliases": [
+    "what underground work",
+    "why take work underground",
+    "what work"
+   ],
+   "answer": "The exact nature of the author's work remains unrevealed. They mention going back underground solely to keep their research or creations safe from unspecified adversaries who might misuse them.",
+   "q": "What work is being taken underground?"
+  },
+  {
+   "aliases": [
+    "did i miss them",
+    "where did they go",
+    "where is the author"
+   ],
+   "answer": "Whoever occupied the site packed up in haste and slipped away just moments before anyone arrived. Their destination is unknown, though their note hints they may have relocated to another secluded hideout.",
+   "q": "Where did the campsite's occupant go?"
+  },
+  {
+   "aliases": [
+    "what is left behind",
+    "supplies at camp",
+    "what was in the pack"
+   ],
+   "answer": "The traveler left behind an inadequately secured sleeping bag that unravels on the ground, heavy canvas rolled over assorted equipment, and a discarded pack containing miscellaneous gear.",
+   "q": "What was left behind at the campsite?"
+  },
+  {
+   "aliases": [
+    "is there another hideout",
+    "next camp",
+    "more clues"
+   ],
+   "answer": "The torn scrap of paper leaves it ambiguous whether these are parting words or an intentional breadcrumb leading toward the author's next subterranean haven.",
+   "q": "Is this a clue leading to another hideout?"
+  },
+  {
+   "aliases": [
+    "who are the wrong hands",
+    "wrong hands meaning",
+    "who is chasing the author"
+   ],
+   "answer": "The note does not specify who the 'wrong hands' are. The author clearly feared pursuit or theft, prompting a hasty withdrawal before their efforts could be compromised.",
+   "q": "Who are the 'wrong hands' mentioned in the note?"
+  }
+ ],
+ "keywords": [
+  "abandoned camp",
+  "equipment pack",
+  "hideout",
+  "sleeping bag",
+  "this must be the place",
+  "torn note",
+  "underground"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A hasty departure has unfolded at this secluded spot, where an unknown traveler recently broke camp. All that remains is an inadequately secured sleeping bag unrolling underfoot, heavy canvas bundled over assorted gear, and a small scrap of paper torn just large enough to fit a hurried parting message. Whoever was camping here vanished moments before anyone could catch up with them.",
+   "spoiler": 0,
+   "title": "A Hasty Departure"
+  },
+  {
+   "body": "The message left behind reveals that the author decided to take their work back underground to ensure it does not fall into the wrong hands. It remains an open question whether the note represents a final farewell or a subtle clue pointing toward the researcher's next covert sanctuary, leaving their abandoned equipment behind for whoever stumbled upon the site.",
+   "spoiler": 1,
+   "title": "Into the Underground"
+  }
+ ],
+ "summary": "This Must Be The Place marks the site of a recently abandoned campsite whose occupant vanished just moments prior. A torn note left behind reveals that the mysterious author has taken their work underground to keep it out of the wrong hands.",
+ "attribution": [
+  "In-game quest text: This Must Be The Place"
+ ]
+}

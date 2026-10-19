@@ -63,6 +63,8 @@
 // "subscriptions" (plans.subscriptions, lib/billing.js subscriptionReport) (LOR-524) and "taste" (lib/best-first.js
 // tasteReport: new players' first answers at Willo's best, what they cost, and conversion and retention against the
 // players before it, LOR-602). The "Daily Analytics" routine's Slack post reads its summary.
+// "planUsage": lib/plan-usage.js planUsageReport, the last 14 days by plan: which limits turned live answers away,
+// which voices said the replies (or why the PC did) and the Willo voices players picked, for pricing decisions.
 // Every account count leaves out the admin's and excluded accounts (lib/activity.js syncExclusions, brought up to date
 // on each load, the counts taken again when that changed anything: the account signed in on this browser,
 // ANALYTICS_EXCLUDE, and those left out by hand); users[].excluded says why.
@@ -92,6 +94,7 @@ import { featureOn } from "../../lib/features.js";
 import { thankYouEmail } from "../../lib/thanks.js";
 import { willoReport } from "../../lib/willo-stats.js";
 import { tasteReport } from "../../lib/best-first.js";
+import { planUsageReport } from "../../lib/plan-usage.js";
 import { flushDigest, slackState } from "../../lib/slack-feedback.js";
 
 const NO_STORE = { "Cache-Control": "no-store", "X-Robots-Tag": "noindex" };
@@ -203,7 +206,8 @@ export async function onRequestGet({ request, env, waitUntil }) {
 
   const [[[subscribers, feedback, downloads, clicks, voices, translations, translationReports, users, signupCounts,
            signupDays], usage, activity, funnel], [spend, answerSpend], plans, contributions, site,
-         [downloadTotals, downloadSources], features, stores, companions, companionWeeks, willo, taste] = await Promise.all([
+         [downloadTotals, downloadSources], features, stores, companions, companionWeeks, willo, taste, planUsage] =
+    await Promise.all([
     accountCounts,
     // Profile stories (lib/profiles.js): what this month's cost so far against the monthly budget.
     part("spend", () => Promise.all([
@@ -235,6 +239,8 @@ export async function onRequestGet({ request, env, waitUntil }) {
     // Willo's best first (lib/best-first.js, LOR-602): what new players' first answers at her best cost, and whether
     // the players who had them pay and come back more than those before.
     part("taste", () => safe(tasteReport(env, now))),
+    // What each plan's players use (lib/plan-usage.js): limits hit, voices that said their replies, picks.
+    part("planUsage", () => safe(planUsageReport(env, { now }))),
   ]);
   const signups = { ...(signupCounts || { accounts: 0, profiles: 0, public: 0, today: 0, week: 0, month: 0 }),
                     days: signupDays };
@@ -255,6 +261,7 @@ export async function onRequestGet({ request, env, waitUntil }) {
   return json({ subscribers, feedback, downloads, clicks: clicks || 0, voices, translations, translationReports, users,
                 stories, answers, plans, contributions, signups, usage, site, downloadTotals, downloadSources, activity, funnel,
                 features, willo: willo && { ...willo, subscriptions: plans?.subscriptions || null, taste: taste || null },
+                planUsage: planUsage || null,
                 // Slack #player-feedback forwarding (lib/slack-feedback.js): "webhook", "bot token", "log", "off" or
                 // why what's set is unused. scripts/feedback-setup.mjs checks it.
                 slackFeedback: slackState(env).state },

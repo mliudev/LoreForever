@@ -1,0 +1,124 @@
+{
+ "key": "quest:92421",
+ "type": "quest",
+ "name": "Light's Justice",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92421
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Forsaken bodies cannot regenerate decaying flesh on their own, making the harvesting of limbs from Scourge remnants a gruesome necessity to keep their wounded and soldiers whole."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Morbin Lightbane identifies openly as a paladin of the Forsaken, showing that devotion to holy warfare and martial duty can persist in undeath under the Dark Lady's service."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Securing the Ruins of Lordaeron above Undercity protects the Horde's vital northern capital and reinforces their fragile stronghold in the Eastern Kingdoms."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives lights justice",
+    "who is morbin lightbane",
+    "quest giver"
+   ],
+   "answer": "Morbin Lightbane is a Forsaken paladin residing in the Undercity. Dedicated to carrying out Lady Sylvanas's will, he tends to the physical survival of his undead kin while honoring the memory and mission of his fallen captain, Garek Bandarion.",
+   "q": "Who is Morbin Lightbane?"
+  },
+  {
+   "aliases": [
+    "why intact limbs",
+    "why do forsaken need limbs",
+    "why harvest body parts"
+   ],
+   "answer": "Forsaken flesh naturally decays and cannot heal or reknit on its own. To repair damaged bodies and keep their dwindling fighting forces active, the Forsaken must scavenge intact limbs from fallen undead above in the ruins.",
+   "q": "Why are intact limbs needed?"
+  },
+  {
+   "aliases": [
+    "who was captain bandarion",
+    "captain garek bandarion lore",
+    "garek bandarion"
+   ],
+   "answer": "Captain Garek Bandarion was a revered commander whose efforts focused on cleansing Lordaeron of Scourge remnants and healing his Forsaken kin. Though he has fallen, his followers continue his work in his memory.",
+   "q": "Who was Captain Garek Bandarion?"
+  },
+  {
+   "aliases": [
+    "where do scourge roam",
+    "where are intact limbs found",
+    "ruins of lordaeron scourge"
+   ],
+   "answer": "The limbs are gathered in the Ruins of Lordaeron, the surface city directly above the Undercity, where unaligned Scourge invaders still wander in dangerous numbers despite ongoing Forsaken efforts to purge them.",
+   "q": "Where are the Scourge forces located?"
+  },
+  {
+   "aliases": [
+    "can forsaken be paladins",
+    "undead paladins lore",
+    "forsaken paladin"
+   ],
+   "answer": "Morbin Lightbane explicitly calls himself a paladin of the Forsaken. While traditional human paladins serve the Holy Light, Morbin channels his martial devotion toward serving Sylvanas Windrunner and protecting his people.",
+   "q": "Are there paladins among the Forsaken?"
+  },
+  {
+   "aliases": [
+    "what does lights justice mean",
+    "why is it called lights justice",
+    "quest name meaning"
+   ],
+   "answer": "The title invokes the concept of divine retribution, repurposed by Morbin Lightbane. For him, delivering justice means scouring the mindless Scourge from Lordaeron's capital and turning their remains into salvation for the Forsaken.",
+   "q": "What does 'Light's Justice' signify for the Forsaken?"
+  }
+ ],
+ "keywords": [
+  "forsaken paladin",
+  "garek bandarion",
+  "intact limbs",
+  "light's justice",
+  "morbin lightbane",
+  "ruins of lordaeron",
+  "scourge",
+  "undercity"
+ ],
+ "related": [
+  "zone:ruinsoflordaeron",
+  "zone:undercity",
+  "topic:forsaken",
+  "topic:paladin",
+  "topic:scourge",
+  "topic:lordaeron",
+  "topic:light"
+ ],
+ "sections": [
+  {
+   "body": "Directly above the Undercity, mindless Scourge remnants continue to prowl the ruined surface streets of Lordaeron's former capital. Despite the Dark Lady's triumph over the dreadlords and the founding of the Forsaken kingdom, clearing the surface remains a grinding, costly effort. The invading undead threaten the gateway to the Undercity and continually deplete the defensive forces dispatched to reclaim the fallen kingdom.",
+   "spoiler": 0,
+   "title": "The Scourge Above"
+  },
+  {
+   "body": "Undead bodies do not naturally mend; rotting tissues and shattered sinew cannot reknit on their own. To sustain their fighting numbers, Morbin Lightbane directs warriors to harvest intact limbs from the destroyed Scourge in the ruins above. These salvaged parts provide crucial grafts and replacements, offering wounded Forsaken a chance to endure and fight another day.",
+   "spoiler": 0,
+   "title": "Flesh and Bone"
+  },
+  {
+   "body": "Morbin Lightbane carries out this grim duty in honor of his late commander, Captain Garek Bandarion. Remembering Bandarion's pledge to heal their people and liberate Lordaeron from Scourge occupation, Morbin sees the destruction of their mindless enemies and the restoration of their kin as the true embodiment of justice under the Banshee Queen.",
+   "spoiler": 0,
+   "title": "A Captain's Legacy"
+  }
+ ],
+ "summary": "Light's Justice is a Forsaken quest issued by Morbin Lightbane in the Undercity. Tasked with purging the lingering Scourge from the Ruins of Lordaeron above, adventurers gather intact limbs needed to repair and sustain their decaying Forsaken brethren.",
+ "attribution": [
+  "In-game quest text: Light's Justice"
+ ]
+}

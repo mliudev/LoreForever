@@ -1,0 +1,111 @@
+{
+ "key": "quest:99152",
+ "type": "quest",
+ "name": "As Above, So Below",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99152
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Paladins view any undetected Scourge presence as an immediate peril, making the investigation of reanimation magic beneath Shadowvale a pressing duty."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests trained against the unholy are naturally concerned by dark reanimation arts festering directly beneath an inhabited settlement."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages will note the lingering reanimation magic clinging to the glowing bones, which hints at specific necromantic techniques hiding beneath the town."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is as above so below",
+    "as above so below quest"
+   ],
+   "answer": "As Above, So Below is a task assigned by Hilda the Breaker to investigate a hidden Scourge presence festering beneath the settlement of Shadowvale. While trainees are drilled at Bandarion Keep, an adventurer is sent below the town to collect reanimated bone samples.",
+   "q": "What is As Above, So Below?"
+  },
+  {
+   "aliases": [
+    "who gives as above so below",
+    "who is hilda the breaker",
+    "quest giver hilda"
+   ],
+   "answer": "Hilda the Breaker is an exacting instructor preparing recruits at Bandarion Keep. Tough and uncompromising, she demands results from anyone under her command, preferring a recruit return on a stretcher over returning empty-handed.",
+   "q": "Who gives the quest As Above, So Below?"
+  },
+  {
+   "aliases": [
+    "where is shadowvale",
+    "shadowvale location"
+   ],
+   "answer": "Shadowvale is a town located to the southwest of Bandarion Keep. While surface troubles involve a group known as the Tarnished, its subterranean cellars conceal a far more insidious undead infestation.",
+   "q": "Where is Shadowvale located?"
+  },
+  {
+   "aliases": [
+    "what are the cellars below shadowvale",
+    "scourge in shadowvale cellars",
+    "threat beneath shadowvale"
+   ],
+   "answer": "The cellars beneath Shadowvale have become infested with reanimated undead. Left unchecked, this concealed Scourge presence threatens to erupt into a full-scale uprising against nearby Bandarion Keep.",
+   "q": "What threat lurks beneath Shadowvale?"
+  },
+  {
+   "aliases": [
+    "why collect glowing bones",
+    "faintly glowing bones purpose",
+    "reanimation magic bones"
+   ],
+   "answer": "Hilda requires bones that still retain the residual magical aura of their reanimation. By studying these faintly glowing remains, defenders hope to understand how necromancers orchestrated the uprising without being detected.",
+   "q": "Why does Hilda need faintly glowing bones?"
+  },
+  {
+   "aliases": [
+    "who are the tarnished",
+    "tarnished shadowvale"
+   ],
+   "answer": "The Tarnished are an adversarial faction active on the surface in Shadowvale. Though they pose an active concern to the area, Hilda considers the hidden Scourge nest beneath the town to be an even more dangerous threat.",
+   "q": "Who are the Tarnished in Shadowvale?"
+  }
+ ],
+ "keywords": [
+  "as above so below",
+  "bandarion keep",
+  "glowing bones",
+  "hilda the breaker",
+  "reanimation magic",
+  "scourge",
+  "shadowvale",
+  "tarnished"
+ ],
+ "related": [
+  "subzone:bandarion-keep",
+  "topic:scourge"
+ ],
+ "sections": [
+  {
+   "body": "At Bandarion Keep, Hilda the Breaker oversees the rigorous preparation of defenders against surrounding perils. While surface eyes remain fixed on the troubled settlement of Shadowvale to the southwest\u2014where a hostile faction known as the Tarnished causes regular unrest\u2014a much darker danger has taken root out of sight. In the dark cellars beneath the town, an undetected Scourge presence gathers strength, threatening to erupt into a sudden assault on the keep if allowed to grow unchecked.",
+   "spoiler": 0,
+   "title": "The Hidden Threat"
+  },
+  {
+   "body": "Unwilling to let green trainees march blindly into subterranean crypts, Hilda dispatches seasoned adventurers on a direct crash course into the cellars beneath Shadowvale. Rather than a mere extermination sweep, the primary objective is intelligence gathering: recovering skeletal remains that still crackle with lingering reanimation magic. Examining these faintly glowing bones offers defenders a vital chance to decipher how such dark necromancy operated right beneath their feet without notice.",
+   "spoiler": 1,
+   "title": "Magic in the Cellars"
+  }
+ ],
+ "summary": "As Above, So Below is a mission given by Hilda the Breaker at Bandarion Keep to confront a hidden Scourge infiltration beneath nearby Shadowvale. By recovering bones still humming with fresh reanimation magic, defenders seek to understand how the undead gathered undetected right under the town.",
+ "attribution": [
+  "In-game quest text: As Above, So Below"
+ ]
+}

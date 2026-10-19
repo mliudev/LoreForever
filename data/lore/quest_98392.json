@@ -1,0 +1,114 @@
+{
+ "key": "quest:98392",
+ "type": "quest",
+ "name": "Darkness in the Glade",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98392
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The spread of fel corruption through sacred boughs like the Oracle Glade strikes directly at the kaldorei effort to nurture and protect Teldrassil."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Sentinel Cloudsbreak represents Darnassus's military vigilance, working to identify demonic contamination threatening Alliance lands."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The presence of fel moss contaminating wildlife and leather fibers signals an unnatural blight afflicting the natural balance of the World Tree."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is darkness in the glade",
+    "darkness in the glade quest"
+   ],
+   "answer": "Darkness in the Glade is an assignment directed by Sentinel Arynia Cloudsbreak in the Oracle Glade. After noticing unnatural taint in harpy leather belts, she sends adventurers to retrieve amulets from harpy leaders to verify the source of the affliction.",
+   "q": "What is Darkness in the Glade?"
+  },
+  {
+   "aliases": [
+    "who gives darkness in the glade",
+    "quest giver oracle glade"
+   ],
+   "answer": "Sentinel Arynia Cloudsbreak offers this task. She is stationed in the Oracle Glade watching over the boughs of Teldrassil and investigating odd disturbances among the resident harpies.",
+   "q": "Who gives this quest?"
+  },
+  {
+   "aliases": [
+    "why kill harpy leaders",
+    "why get amulets",
+    "harpy amulets reason"
+   ],
+   "answer": "Sentinel Cloudsbreak found tainted fibers in leather belts taken from common harpies and needed further proof. She suspected the harpy leadership carried jewelry displaying the true nature and origin of the spreading blight.",
+   "q": "Why does Arynia want amulets from the harpy leaders?"
+  },
+  {
+   "aliases": [
+    "which harpies have amulets",
+    "harpy leaders oracle glade"
+   ],
+   "answer": "The amulets belong to three prominent leaders nesting to the west: Hatescreech, Windmistress Gaedress, and Witchmother Arysa.",
+   "q": "Which harpy leaders hold the amulets?"
+  },
+  {
+   "aliases": [
+    "what is corrupting the harpies",
+    "what is the green swirl",
+    "origin of glade darkness"
+   ],
+   "answer": "The corruption stems from fel moss. When Arynia examines the recovered amulets, she identifies foul green swirls within their gemstones, confirming fel moss is contaminating the region.",
+   "q": "What is causing the corruption in the glade?"
+  },
+  {
+   "aliases": [
+    "fel moss elsewhere",
+    "is shadowglen corrupted"
+   ],
+   "answer": "Yes, Sentinel Cloudsbreak notes that reports of fel moss turning the environment against the night elves have also surfaced from Shadowglen and other boughs across the world tree.",
+   "q": "Has this corruption appeared anywhere else?"
+  }
+ ],
+ "keywords": [
+  "arynia cloudsbreak",
+  "arysa",
+  "darkness in the glade",
+  "fel moss",
+  "gaedress",
+  "harpies",
+  "hatescreech",
+  "oracle glade",
+  "teldrassil"
+ ],
+ "related": [
+  "npc:sentinel-arynia-cloudsbreak",
+  "subzone:oracle-glade",
+  "item:fel-moss",
+  "topic:harpy",
+  "subzone:shadowglen"
+ ],
+ "sections": [
+  {
+   "body": "In the tranquil canopies of the Oracle Glade, Sentinel Arynia Cloudsbreak noticed something amiss among the local harpy flocks. Leather belts recovered from the creatures showed an unnatural taint woven directly through the material. Suspecting demonic intrusion rather than ordinary beast aggression, Cloudsbreak needed definitive evidence before sounding an alarm to Darnassus.",
+   "spoiler": 0,
+   "title": "Tainted Fibers"
+  },
+  {
+   "body": "Cloudsbreak directed champions into the western nests to strike down the flight's matriarchs: Hatescreech, Windmistress Gaedress, and Witchmother Arysa. Each leader carried an amulet bearing visible traces of their power. Upon inspecting the stones, the Sentinel discovered foul green swirls encased within the gems, confirming that fel moss was actively warping the harpies and seeping into the sacred boughs.",
+   "spoiler": 1,
+   "title": "A Blight Confirmed"
+  }
+ ],
+ "summary": "Darkness in the Glade is an investigation led by Sentinel Arynia Cloudsbreak into tainted leather belts collected from harpies in the Oracle Glade. Recovering amulets from the harpy matriarchs confirms that demonic fel moss corruption has taken root in Teldrassil's boughs.",
+ "attribution": [
+  "In-game quest text: Darkness in the Glade"
+ ]
+}

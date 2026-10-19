@@ -1,0 +1,109 @@
+{
+ "key": "quest:97938",
+ "type": "quest",
+ "name": "Camping 101: Alchemy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97938
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance alchemists adventuring across Teldrassil are guided directly to Dolanaar to enhance their wilderness survival skills with magical camp utilities."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "Night elf herbalists and alchemists operating from Dolanaar combine natural botany with camp craft to support spellcasters in the wild."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is camping 101 alchemy",
+    "camping 101 alchemy quest",
+    "alchemy camp quest"
+   ],
+   "answer": "Camping 101: Alchemy is an instructional task directing novice alchemists to Dolanaar. It teaches travelers how to apply their potion-making skills toward establishing functional camp utilities in the wilderness.",
+   "q": "What is Camping 101: Alchemy?"
+  },
+  {
+   "aliases": [
+    "who is cyndra kindwhisper",
+    "cyndra kindwhisper location",
+    "where is cyndra kindwhisper"
+   ],
+   "answer": "Cyndra Kindwhisper is an alchemy instructor located in the night elf settlement of Dolanaar on Teldrassil. She instructs practitioners who have demonstrated sufficient skill in brewing and crafting specialized camping items.",
+   "q": "Who teaches this camping skill?"
+  },
+  {
+   "aliases": [
+    "what does a mana well do",
+    "mana well camp item",
+    "mana well lore"
+   ],
+   "answer": "A Mana Well is a specialized wilderness installation crafted by alchemists for their campsites. It provides a refreshing source of arcane restoration that attracts spellcasters and healers needing to replenish their magical reserves on the road.",
+   "q": "What is a Mana Well?"
+  },
+  {
+   "aliases": [
+    "where is dolanaar",
+    "how to get to dolanaar",
+    "dolanaar location"
+   ],
+   "answer": "Dolanaar is a night elf village situated in central Teldrassil, serving as a key hub for young adventurers and tradecraft trainers after leaving Shadowglen.",
+   "q": "Where does this quest take you?"
+  },
+  {
+   "aliases": [
+    "who benefits from mana wells",
+    "who uses mana wells",
+    "mana well spellcasters"
+   ],
+   "answer": "Healers and spellcasting travelers benefit most from Mana Wells, as the conjured or brewed fonts offer vital refreshment and replenishment during taxing journeys far from towns.",
+   "q": "Who benefits from an alchemist's camp installation?"
+  },
+  {
+   "aliases": [
+    "when can i learn the mana well",
+    "camping 101 requirements",
+    "skill proficiency needed"
+   ],
+   "answer": "Alchemists must first demonstrate proficiency in their foundational brewing and potion craft before Cyndra Kindwhisper will instruct them in assembling camping utilities like the Mana Well.",
+   "q": "What is required before learning to craft a Mana Well?"
+  }
+ ],
+ "keywords": [
+  "alchemy",
+  "camp",
+  "camping 101",
+  "camping 101: alchemy",
+  "cyndra kindwhisper",
+  "dolanaar",
+  "mana well",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:dolanaar"
+ ],
+ "sections": [
+  {
+   "body": "Camping 101: Alchemy directs practicing alchemists to adapt their potion-crafting skills for life on the road. Rather than merely brewing draughts in laboratory glassware, adventurers learn to create field installations that sustain traveling parties throughout extended wilderness journeys.",
+   "spoiler": 0,
+   "title": "Field Craft for Alchemists"
+  },
+  {
+   "body": "The quest instructs adventurers to seek out Cyndra Kindwhisper in Dolanaar once they demonstrate basic proficiency in their trade. She imparts the technique for erecting a Mana Well at camp, a refreshing font tailored specifically to aid mana-reliant healers and spellcasters venturing far from taverns and settlements.",
+   "spoiler": 0,
+   "title": "The Mana Well of Dolanaar"
+  }
+ ],
+ "summary": "Camping 101: Alchemy is an introductory quest that bridges basic potion-making with wilderness survival. Alchemists are directed to Cyndra Kindwhisper in Dolanaar to learn how to construct a refreshing Mana Well for their campsites, providing vital magical replenishment to traveling casters and healers.",
+ "attribution": [
+  "In-game quest text: Camping 101: Alchemy"
+ ]
+}

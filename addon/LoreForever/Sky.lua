@@ -273,6 +273,7 @@ end
 local frame, cores, dims, sockets, halos, guides, mists, wisp, motes = nil, {}, {}, {}, {}, {}, {}, {}, {}
 local placed, shown, lit = nil, {}, {}
 local moving, mover, outline = false, nil, nil   -- being moved (Sky.Move), its bar and its outline
+local dragging = false                            -- held by the mouse right now (OnDragStart until it's let go)
 
 -- One of our textures on the sky: tinted, at a draw layer, blended over (BLEND) or as added light (ADD). Off the pixel
 -- grid, so a glow centred between pixels stays centred (the cores the companion reads are placed on whole pixels).
@@ -344,8 +345,15 @@ local function create()
   -- Dragged while it's being moved (Sky.Move): where it's let go is saved, and it settles there on whole pixels.
   frame:SetMovable(true)
   frame:SetClampedToScreen(true)
-  frame:SetScript("OnDragStart", function(self) if Sky.Moving() then self:StartMoving() end end)
-  frame:SetScript("OnDragStop", function(self)
+  frame:SetScript("OnDragStart", function(self)
+    if Sky.Moving() then dragging = true; self:StartMoving() end
+  end)
+  -- Let go (OnDragStop, or the button coming up on it without one): saved, laid out there. Held, the strip's
+  -- once-a-second relayout leaves it alone (Sky.Paint); it used to put it back where it was saved, so it jumped back
+  -- under the mouse ("it keeps jumping back to where it was", Discord, 10/18).
+  local function letGo(self)
+    if not dragging then return end
+    dragging = false
     self:StopMovingOrSizing()
     if self.SetUserPlaced then self:SetUserPlaced(false) end   -- ours to keep (skyAt), not the game's layout file
     local cx, cy = self:GetCenter()
@@ -353,7 +361,10 @@ local function create()
     if cx and cy and uw and uh and uw > 0 and uh > 0 then S().skyAt = { x = cx / uw, y = cy / uh } end
     Sky.Relayout()
     if ns.Strip then ns.Strip.Update() end
-  end)
+  end
+  frame:SetScript("OnDragStop", letGo)
+  frame:SetScript("OnMouseUp", letGo)
+  frame:SetScript("OnHide", function(self) if dragging then dragging = false; self:StopMovingOrSizing() end end)
   local acc, clock = 0, 0
   frame:SetScript("OnUpdate", function(_, elapsed)
     acc, clock = acc + (elapsed or 0), clock + (elapsed or 0)
@@ -429,6 +440,18 @@ local function layout(left, top, unit, px)
   Sky.Animate(0)
 end
 
+-- The Done / Put it back bar (Sky.Move) under the sky, or over it where there's no room under it: never on it. The sky
+-- takes the mouse while it's being moved, and a bar pushed onto it at the bottom of the screen took no clicks.
+local function placeMover()
+  if not mover then return end
+  local bottom, h = frame:GetBottom(), mover:GetHeight()
+  local side = (bottom and h and bottom - 6 - h < 0) and "over" or "under"
+  if mover.side == side and mover.on == placed then return end
+  mover.side, mover.on = side, placed
+  mover:ClearAllPoints()
+  if side == "over" then mover:SetPoint("BOTTOM", frame, "TOP", 0, 6) else mover:SetPoint("TOP", frame, "BOTTOM", 0, -6) end
+end
+
 -- The moving parts at time t (seconds): the mist drifts round, the wisp breathes and bobs with its motes circling,
 -- the lit stars' halos twinkle. Every halo stays smaller than the gap to the next star, and the cores are on top.
 function Sky.Animate(t)
@@ -467,7 +490,10 @@ function Sky.Paint(bytes, ring)
   if not frame then create() end
   local left, top, unit, px = Sky.Place()
   if not left then return false end
-  layout(left, top, unit, px)
+  if not dragging then
+    layout(left, top, unit, px)
+    if moving then placeMover() end
+  end
   local bits = Sky.Bits(bytes)
   for _, bit in ipairs(Sky.RingBits(ring)) do bits[#bits + 1] = bit end
   for s, bit in ipairs(bits) do
@@ -507,11 +533,19 @@ end
 local function makeMover()
   local T = ns.Theme
   mover = CreateFrame("Frame", "LoreForeverSkyMover", UIParent, T and T.BACKDROP_TEMPLATE or nil)
-  mover:SetFrameStrata("TOOLTIP")
-  pcall(mover.SetFrameLevel, mover, 10010)
+  -- The game's dialog layer at its own level, like Options' dropdown list, whose buttons take clicks. Over the sky
+  -- (TOOLTIP, at the game's highest level) with a level past it, Done and Put it back took no clicks in Mike's game
+  -- (10/18 and 10/19); the bar is never on the sky (placeMover), so the sky staying on top costs nothing.
+  mover:SetFrameStrata("FULLSCREEN_DIALOG")
+  if mover.SetToplevel then mover:SetToplevel(true) end
   mover:SetClampedToScreen(true)
   mover:EnableMouse(true)
-  if T then T.Backdrop(mover, "popup") end
+  if T then   -- solid, like the key prompt: the game world doesn't show through behind its words
+    local bg = T.Area(mover, "dock")
+    bg:SetPoint("TOPLEFT", 2, -2)
+    bg:SetPoint("BOTTOMRIGHT", -2, 2)
+    T.Backdrop(mover, "dock")
+  end
   mover:SetSize(300, 64)
   local text = mover:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
   text:SetPoint("TOP", 0, -10)
@@ -536,8 +570,8 @@ function Sky.Move(on)
   if moving then
     frame:RegisterForDrag("LeftButton")
     if not mover then makeMover() end
-    mover:ClearAllPoints()
-    mover:SetPoint("TOP", frame, "BOTTOM", 0, -6)
+    mover.side = nil
+    placeMover()
     if not outline and ns.Theme and ns.Theme.Outline then outline = ns.Theme.Outline(frame, "gold", "OVERLAY") end
   end
   if mover then mover:SetShown(moving) end

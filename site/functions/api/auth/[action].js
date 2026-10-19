@@ -19,6 +19,7 @@ import { setupStudio } from "../../../lib/studio.js";
 import { featureOn } from "../../../lib/features.js";
 import { forgetTranslatorCredits } from "../../../lib/translations.js";
 import { noteJoin, noteBrowser } from "../../../lib/referrals.js";
+import { noteSignup } from "../../../lib/sources.js";
 
 const ok = (body = {}, ...cookies) => {
   const headers = new Headers(noStore);
@@ -61,8 +62,11 @@ async function google({ request, env }, input) {
   // Inviting friends (lib/referrals.js): the browser is noted with the account (its own random code, one-way), and an
   // account made just now in a browser that opened a share link joins as its friend. Signing in never fails on them.
   const browser = await noteBrowser(env, request, user.id);
-  if (Date.now() - Date.parse(user.created) < 60e3)
+  // And where the browser's visits started, for an account made just now (lib/sources.js: never throws).
+  if (Date.now() - Date.parse(user.created) < 60e3) {
     await noteJoin(env, request, user).catch(e => console.warn(`sign-in: share: ${e?.message || e}`));
+    await noteSignup(env, request, user);
+  }
   return ok({}, await startSession(env, request, user.id), browser);
 }
 

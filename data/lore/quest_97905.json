@@ -1,0 +1,105 @@
+{
+ "key": "quest:97905",
+ "type": "quest",
+ "name": "Camping 101: Herbalism",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97905
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "Herbalists learn to craft incense candles from gathered plants to bring warmth, aromatic scent, and utility to wilderness camps."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Basic culinary training teaches travelers how to kindle a proper campfire, which forms the necessary center of any camp."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is incense candle",
+    "incense candle use",
+    "camping herbalism item"
+   ],
+   "answer": "An incense candle is an aromatic camping utility crafted by herbalists. Blending wild botanicals, it is designed to be burned at a wilderness campsite alongside a roaring campfire.",
+   "q": "What is an incense candle?"
+  },
+  {
+   "aliases": [
+    "where to make camp",
+    "can i camp in town",
+    "camping in cities"
+   ],
+   "answer": "Camps cannot be pitched inside town centers, as townsfolk take issue with travelers sprawling out in public thoroughfares. Anyone wishing to test out an incense candle and set up camp must journey out into the open wilderness.",
+   "q": "Where can you set up a camp?"
+  },
+  {
+   "aliases": [
+    "how to make campfire",
+    "campfire needed for camp",
+    "cook campfire camping"
+   ],
+   "answer": "Every functional camp requires a roaring campfire at its core. Basic campfire-building techniques are taught by cooking trainers across Azeroth, so travelers should study entry-level culinary arts before venturing out.",
+   "q": "Why do you need a campfire to set up a camp?"
+  },
+  {
+   "aliases": [
+    "who teaches campfires",
+    "learn to build fire",
+    "cooking trainer fire"
+   ],
+   "answer": "Cooking trainers teach travelers how to kindle a simple campfire. Learning the rudiments of the culinary craft provides the foundation needed to spark a blaze in the wild.",
+   "q": "Who teaches how to make a campfire?"
+  },
+  {
+   "aliases": [
+    "herbalism connection to camping",
+    "why herbalism camping",
+    "what does herbalism give for camps"
+   ],
+   "answer": "Herbalism supplies the aromatic plants and resins needed to craft specialized incense candles, enriching the campsite environment with soothing natural botanicals harvested across the wilds.",
+   "q": "How does herbalism tie into camping?"
+  },
+  {
+   "aliases": [
+    "can i light incense candle without fire",
+    "incense candle campfire requirement"
+   ],
+   "answer": "A camp is considered incomplete without a proper campfire. Travelers are instructed to establish a campfire first before seeking to settle in and enjoy the benefits of an incense candle.",
+   "q": "Do you need a campfire to use an incense candle?"
+  }
+ ],
+ "keywords": [
+  "camp",
+  "campfire",
+  "camping",
+  "cooking",
+  "herbalism",
+  "incense candle",
+  "wilderness"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Survival in the wilds of Azeroth demands more than just a blade; it requires the knowledge to turn gathered flora into practical comforts. Through herbalism, gatherers learn to fashion their own incense candles, transforming forage into soothing aromatics fit for trail life. Because townsfolk frown upon pitch-tents cluttering city streets, these candles are designed for use far beyond guarded settlement walls.",
+   "spoiler": 0,
+   "title": "Aromatic Craft of the Wild"
+  },
+  {
+   "body": "No camp in the wilderness is truly complete without the welcoming glow of an open fire. Setting up camp requires a proper campfire at its center before an incense candle can be put to good use. While herbalists provide the aromatic burn, travelers must look to the culinary arts to learn basic fire-starting techniques from cooks across the land.",
+   "spoiler": 0,
+   "title": "The Heart of the Campsite"
+  }
+ ],
+ "summary": "Camping 101: Herbalism introduces gatherers to the craft of fashioning incense candles from wild botanicals. It emphasizes the foundational rules of wilderness living, from building a proper campfire to leaving civilized towns behind before pitching camp.",
+ "attribution": [
+  "In-game quest text: Camping 101: Herbalism"
+ ]
+}

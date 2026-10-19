@@ -1,0 +1,122 @@
+{
+ "key": "quest:1644",
+ "type": "quest",
+ "name": "The Tome of Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1644
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "As part of the trials tied to the Tome of Divinity, caring for the vulnerable and offering selfless charity in Stormwind tests a paladin's devotion to compassion and the Light."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Stephanie Turner uses simple bolts of linen cloth to stitch together essential shirts and pants for the orphan children under her care."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The plight of war orphans in Stormwind highlights the human toll of recent Scourge attacks across the northern Alliance realms."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is stephanie turner",
+    "stephanie turner stormwind",
+    "orphanage caretaker"
+   ],
+   "answer": "Stephanie Turner is a compassionate woman living in Stormwind who dedicates her life to caring for children orphaned by the Scourge. She works tirelessly to feed, clothe, and shelter them, relying heavily on community charity and the efforts of her husband John.",
+   "q": "Who is Stephanie Turner?"
+  },
+  {
+   "aliases": [
+    "why linen cloth",
+    "what is linen used for",
+    "cloth for stephanie"
+   ],
+   "answer": "Stephanie needs linen cloth to sew shirts and pants for the orphaned children. With her hands full finding food and maintaining their shelter, having raw cloth provided spares her the time and strain of gathering materials herself.",
+   "q": "Why does Stephanie Turner need linen cloth?"
+  },
+  {
+   "aliases": [
+    "who is john",
+    "where is john",
+    "stephanie turners husband"
+   ],
+   "answer": "John is Stephanie Turner's husband. He travels away from Stormwind to collect essential supplies and materials, venturing as far as the dwarven city of Ironforge despite disliking the time spent away from his family.",
+   "q": "Who is John and where has he gone?"
+  },
+  {
+   "aliases": [
+    "why are there orphans in stormwind",
+    "scourge orphans stormwind",
+    "what happened to children parents"
+   ],
+   "answer": "Most of the children in Stephanie's care lost their families during the devastating Scourge attacks across the northern kingdoms over the past decade. Displaced refugees and survivors brought many of these parentless youths south to Stormwind.",
+   "q": "Why are there so many orphaned children in Stormwind?"
+  },
+  {
+   "aliases": [
+    "tome of divinity meaning",
+    "why is this a paladin quest",
+    "paladin charity quest"
+   ],
+   "answer": "The Tome of Divinity tests an aspiring paladin's core virtues, foremost among them being charity and compassion. Aiding an overburdened caretaker with basic supplies proves that a servant of the Light protects the humble just as readily as they face monsters.",
+   "q": "How does helping Stephanie relate to the Tome of Divinity?"
+  },
+  {
+   "aliases": [
+    "bad year stormwind",
+    "something in the air",
+    "stormwind troubles"
+   ],
+   "answer": "Stephanie notes that this year has felt far rougher than past ones, as if something in the air is signaling a huge change, though she admits she can't say what.",
+   "q": "What does Stephanie mean about 'something in the air'?"
+  }
+ ],
+ "keywords": [
+  "charity",
+  "john turner",
+  "linen cloth",
+  "orphans",
+  "paladin",
+  "scourge",
+  "stephanie turner",
+  "stormwind",
+  "tome of divinity"
+ ],
+ "related": [
+  "topic:light",
+  "topic:stormwind-kingdom",
+  "topic:scourge",
+  "zone:ironforge"
+ ],
+ "sections": [
+  {
+   "body": "In the bustling streets of Stormwind, Stephanie Turner tends to a household of children left without families following the devastation wrought by the Scourge in northern lands over the last decade. While her husband John travels abroad to gather resources, Stephanie shoulders the daily burden of keeping the children fed, warm, and sheltered. Even basic necessities like clean clothes require considerable effort and time she rarely has to spare.",
+   "spoiler": 0,
+   "title": "The Orphans of War"
+  },
+  {
+   "body": "Aspiring paladins seeking to master the lessons of the Tome of Divinity are called to demonstrate selfless charity rather than martial prowess. By delivering bolts of linen cloth to Stephanie, an initiate lifts an immediate weight from her shoulders, allowing her to stitch shirts and pants for the children while keeping her focus on their shelter and nourishment. Through such humble aid, the Light's protectors prove their dedication to safeguarding the weak.",
+   "spoiler": 0,
+   "title": "A Trial of Compassion"
+  },
+  {
+   "body": "Though Stephanie perseveres through daily hardship, she notes that the current year has grown noticeably harsher. With her husband forced to make prolonged, difficult journeys as far as Ironforge for supplies, the strain on common citizens reflects broader unease across the kingdom. Even amidst the safety of the capital's high stone walls, the lingering shadows of recent northern tragedies remain deeply felt.",
+   "spoiler": 0,
+   "title": "Strains on the Capital"
+  }
+ ],
+ "summary": "The Tome of Divinity is a paladin quest in Stormwind where initiates provide linen cloth to Stephanie Turner, a caretaker watching over children orphaned by the Scourge. By assisting her in clothing the youths while her husband gathers supplies in Ironforge, the quest demonstrates the vital paladin virtue of selfless charity.",
+ "attribution": [
+  "In-game quest text: The Tome of Divinity"
+ ]
+}

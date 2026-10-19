@@ -1,0 +1,101 @@
+{
+ "key": "quest:93065",
+ "type": "quest",
+ "name": "Prepare for Battle",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93065
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "For front-line fighters, this mobilization represents the vital prelude to combat where checking gear and forming ranks alongside allies decide the flow of the upcoming battle."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is valennia stormfist",
+    "valennia stormfist",
+    "stormfist"
+   ],
+   "answer": "Valennia Stormfist is an organizer coordinating the Peacekeepers' muster in the Gustberry Lowlands. She oversees final preparations along the eastern road leading north out of town before forces move out.",
+   "q": "Who is Valennia Stormfist?"
+  },
+  {
+   "aliases": [
+    "who are the peacekeepers",
+    "peacekeepers",
+    "peacekeeper force"
+   ],
+   "answer": "The Peacekeepers are an organized local military or defense contingent currently mobilizing their forces to face a looming threat outside of town.",
+   "q": "Who are the Peacekeepers?"
+  },
+  {
+   "aliases": [
+    "where is gustberry lowlands",
+    "gustberry lowlands location",
+    "gustberry lowlands"
+   ],
+   "answer": "The Gustberry Lowlands is the regional staging ground where local defense forces gather, specifically situated along the road leading north out of town.",
+   "q": "Where are the Gustberry Lowlands?"
+  },
+  {
+   "aliases": [
+    "what are they preparing for",
+    "why prepare for battle",
+    "what is the battle"
+   ],
+   "answer": "The Peacekeepers are gearing up to march out in force, calling on all capable allies to complete their gear checks and rally at the town's perimeter before the expedition launches.",
+   "q": "What are the Peacekeepers preparing for?"
+  },
+  {
+   "aliases": [
+    "where is the muster point",
+    "where to meet valennia",
+    "rendezvous point"
+   ],
+   "answer": "The muster point is located along the eastern road that heads north out of town, chosen to allow the company to assemble in formation before marching into the field.",
+   "q": "Where is the rendezvous point for the march?"
+  },
+  {
+   "aliases": [
+    "how does the muster finish",
+    "what does valennia say",
+    "we are as ready as we will ever be"
+   ],
+   "answer": "Upon reporting in, Valennia Stormfist carries out a final check-in with the assembled ranks, acknowledging that the forces are as ready as they will ever be to march forth into danger.",
+   "q": "What happens once everyone is assembled?"
+  }
+ ],
+ "keywords": [
+  "eastern road",
+  "gustberry lowlands",
+  "mobilization",
+  "peacekeepers",
+  "prepare for battle",
+  "valennia stormfist"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "As regional tensions escalate, the local defense forces known as the Peacekeepers have sounded the call to arms. Troops and volunteers are ordered to secure their equipment, ready their weapons, and assemble for an organized march into the surrounding territory.",
+   "spoiler": 0,
+   "title": "A Call to Muster"
+  },
+  {
+   "body": "The staging area for the departing expedition is situated along the eastern road that heads north out of town into the Gustberry Lowlands. There, organizer Valennia Stormfist conducts a final inspection and roll call to ensure every fighter is fully prepared before the company marches into harm's way.",
+   "spoiler": 0,
+   "title": "The Gathering at Gustberry Lowlands"
+  }
+ ],
+ "summary": "Prepare for Battle marks the mobilization of the Peacekeepers as they assemble their forces to march out from town. Adventurers are called to make their final preparations and rendezvous with Valennia Stormfist in the Gustberry Lowlands before the company departs.",
+ "attribution": [
+  "In-game quest text: Prepare for Battle"
+ ]
+}

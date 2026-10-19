@@ -1,0 +1,109 @@
+{
+ "key": "quest:97292",
+ "type": "quest",
+ "name": "Unending Torment",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97292
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Master Apothecary Faranell leads the Royal Apothecary Society in the Undercity, and punishing enemies of the Dark Lady like Garithos is central to Forsaken retribution."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting Faranell in the Undercity demonstrates the severe methods the Forsaken employ against those who have crossed them and the Banshee Queen."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is othmar",
+    "what othmar",
+    "othmar garithos"
+   ],
+   "answer": "Othmar refers to Grand Marshal Othmar Garithos, the former human commander who formed an uneasy alliance with Sylvanas Windrunner during the reclamation of Lordaeron before being betrayed and killed by the Forsaken. Master Apothecary Faranell has acquired his remains to subject him to continuing torment and experimentation.",
+   "q": "Who is Othmar?"
+  },
+  {
+   "aliases": [
+    "why torturing othmar",
+    "what did othmar do",
+    "crimes against sylvanas"
+   ],
+   "answer": "Othmar Garithos worked alongside Sylvanas Windrunner to take back Capital City from the dreadlords, but held deep contempt for non-humans and sought to reclaim Lordaeron entirely for humanity. The Forsaken hold him accountable for crimes against the Dark Lady, deeming perpetual chemical torment fitting retribution for his arrogance and past actions.",
+   "q": "Why is Othmar being tormented?"
+  },
+  {
+   "aliases": [
+    "faranell role",
+    "who gives unending torment",
+    "apothecary faranell"
+   ],
+   "answer": "Master Apothecary Faranell is the head of the Royal Apothecary Society in the Apothecarium of the Undercity. He oversees the development of novel serums, toxins, and plagues, and directly directs this operation against Othmar.",
+   "q": "Who is Master Apothecary Faranell?"
+  },
+  {
+   "aliases": [
+    "what is hissing serum",
+    "serum effects",
+    "faranell serum"
+   ],
+   "answer": "The Hissing Serum is an alchemical concoction brewed by Master Apothecary Faranell designed to simmer flesh and induce excruciating pain. It is fed into a dripping apparatus suspended directly above Othmar's suspended body.",
+   "q": "What does the Hissing Serum do?"
+  },
+  {
+   "aliases": [
+    "othmar dead or alive",
+    "is garithos alive",
+    "state of othmar"
+   ],
+   "answer": "Othmar is undead. Garithos was slain by the Dark Lady herself, and his head has been reattached to an abomination's body that twitches to life. Faranell refers to him as their 'new guest' and plans to keep him suffering under the dripping serum.",
+   "q": "Is Othmar alive or undead?"
+  },
+  {
+   "aliases": [
+    "faranell future plans",
+    "what happens to othmar next",
+    "othmar future"
+   ],
+   "answer": "Master Apothecary Faranell intends to let Othmar's flesh simmer under the dripping apparatus while keeping a watchful eye on him. Faranell states he has extensive plans for Othmar's future, using the wretch for ongoing experiments and retribution.",
+   "q": "What does Faranell plan to do with Othmar next?"
+  }
+ ],
+ "keywords": [
+  "apothecarium",
+  "dark lady",
+  "garithos",
+  "hissing serum",
+  "master apothecary faranell",
+  "othmar",
+  "undercity",
+  "unending torment"
+ ],
+ "related": [
+  "npc:master-apothecary-faranell"
+ ],
+ "sections": [
+  {
+   "body": "In the damp corridors of the Undercity's Apothecarium, Master Apothecary Faranell conducts severe experiments to ensure the enemies of the Forsaken never rest peacefully. For this task, Faranell has prepared a caustic substance known as Hissing Serum, intended to drip endlessly onto a captive subject suspended beneath an alchemical apparatus.",
+   "spoiler": 0,
+   "title": "Apothecary Retribution"
+  },
+  {
+   "body": "The subject of Faranell's apparatus is none other than Othmar, the remains of Grand Marshal Garithos. Having committed crimes against the Dark Lady, Faranell considers constant chemical torment the least he deserves. The serum is channeled into the suspended framework above Othmar's body to steadily simmer his flesh, ensuring the fallen commander serves as an object of enduring punishment and study.",
+   "spoiler": 1,
+   "title": "The Fate of Garithos"
+  }
+ ],
+ "summary": "Unending Torment is an Undercity quest assigned by Master Apothecary Faranell within the Apothecarium. Players assist the Royal Apothecary Society by introducing a caustic Hissing Serum into a dripping contraption positioned over the remains of Othmar. The task serves as enduring retribution for past crimes committed against the Dark Lady.",
+ "attribution": [
+  "In-game quest text: Unending Torment"
+ ]
+}

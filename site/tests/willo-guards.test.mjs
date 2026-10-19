@@ -1,7 +1,7 @@
 // Willo's last checks in code (lib/willo-guards.js), on the 10/18 answer log's own answers.
 import test from "node:test";
 import assert from "node:assert/strict";
-import { guardAnswer, evidenceOf } from "../lib/willo-guards.js";
+import { guardAnswer, evidenceOf, fromWhereLast } from "../lib/willo-guards.js";
 
 const FACTS = "TOWN AND ROAD FACTS\n- Menethil Harbor, in the Wetlands, has a first aid trainer: Fremal Doohickey in the " +
   "Deepwater Tavern (11, 61).";
@@ -39,4 +39,27 @@ test("a player's note on how a name sounds never becomes its spelling (LOR-653)"
   assert.equal(guardAnswer("Helm's Bed Lake is a frozen lake in southeastern Dun Moreau.",
     { prompt, question: "What is Helm's Bed Lake?", names: ["Dun Morogh", "Helm's Bed Lake"] }),
   "Helm's Bed Lake is a frozen lake in southeastern Dun Morogh.");
+});
+
+test("the place the game last saved is said as where they were last, never where they are (the vision check, 10/19)", () => {
+  const at = "Sentinel Hill, Westfall";
+  assert.equal(fromWhereLast("You are standing right in the heart of Sentinel Hill, where Innkeeper Heather keeps the inn.", at),
+    "You were last in the heart of Sentinel Hill, where Innkeeper Heather keeps the inn.");
+  assert.equal(fromWhereLast("You can find repair services right here.", at),
+    "From Sentinel Hill, where you were last, you can find repair services there.");
+  assert.equal(fromWhereLast("Dungar Longdrink is the nearest gryphon master.", at),
+    "From Sentinel Hill, where you were last, Dungar Longdrink is the nearest gryphon master.", "a name stays as it is");
+  assert.equal(fromWhereLast("If you're not in Sentinel Hill anymore, tell me where you are.", at),
+    "If you're not in Sentinel Hill anymore, tell me where you are.", "it says so already");
+  assert.equal(guardAnswer("You are at Sentinel Hill.", { savedPlace: at }), "You were last at Sentinel Hill.");
+  assert.equal(fromWhereLast("To reach the Wetlands from Sentinel Hill, fly to Stormwind.", at),
+    "To reach the Wetlands from Sentinel Hill, where you were last, fly to Stormwind.", "the town once, not twice");
+  assert.equal(fromWhereLast("Your trainer is there in Sentinel Hill.", at), "Your trainer is there in Sentinel Hill, where you were last.");
+  assert.equal(fromWhereLast("You are standing right at the inn in Sentinel Hill.", at), "You were last at the inn in Sentinel Hill.");
+  assert.equal(fromWhereLast("You are at the inn here in Sentinel Hill.", at), "You were last at the inn in Sentinel Hill.");
+  assert.equal(fromWhereLast("Booty Bay is south from Gromgol Base Camp.", "Grom'gol Base Camp, Stranglethorn Vale"),
+    "Booty Bay is south from Gromgol Base Camp, where you were last.", "her words may drop the apostrophe");
+  assert.equal(fromWhereLast("Since you are at level 18, try the Deadmines.", at),
+    "From Sentinel Hill, where you were last, since you are at level 18, try the Deadmines.", "only a place is where they were");
+  assert.equal(guardAnswer("You are at Sentinel Hill."), "You are at Sentinel Hill.", "live: as it is");
 });

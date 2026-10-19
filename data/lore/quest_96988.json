@@ -1,0 +1,129 @@
+{
+ "key": "quest:96988",
+ "type": "quest",
+ "name": "Source of Power",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96988
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "The Forsaken rely heavily on the ruthless innovations of the Royal Apothecary Society to carve out their survival in Lordaeron. Aiding Doctor Felben advances the faction's research into arcane fleshcraft under the watch of the Dark Lady."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde adventurers operating in Lordaeron support the Forsaken's efforts to secure advanced military assets against their surrounding rivals while Dalaran is crippled by its own rogue creations."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Mages will find grim irony in Dalaran's magical constructs turning on their masters, only for their sophisticated arcane power sources to be plundered for gruesome alchemical experiments in Undercity."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers can appreciate the intricate craft behind Dalaran's autonomous sentries, even as their delicate arcane power cores are torn out to fuel horrific fleshcraft abominations."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives source of power",
+    "source of power quest giver",
+    "martin felben quest"
+   ],
+   "answer": "The quest is given by Doctor Martin Felben, an apothecary residing in the Forsaken capital of Undercity. Felben is an ambitious researcher seeking to prove his alchemical talents to the Royal Apothecary Society and Lady Sylvanas Windrunner by developing brand-new military monstrosities.",
+   "q": "Who gives the quest Source of Power?"
+  },
+  {
+   "aliases": [
+    "what happened in dalaran",
+    "dalaran under siege",
+    "why are constructs attacking dalaran"
+   ],
+   "answer": "Dalaran is currently under siege by its own arcane constructs, which have turned against their creators. The resulting chaos and fighting within the magical city create a rare opportunity for outsiders to slip into Dalaran and salvage the powerful magical components driving these rogue sentries.",
+   "q": "What is happening in Dalaran during this quest?"
+  },
+  {
+   "aliases": [
+    "why collect sentry cores",
+    "what does felben need cores for",
+    "felben sentry core plan"
+   ],
+   "answer": "Doctor Felben intends to harness the arcane energy within Dalaran's sentry cores to augment Forsaken abominations. By synthesizing raw arcane machinery with fleshcraft, he hopes to create an army of arcane-powered abominations that will prove his alchemical mastery to Lady Sylvanas Windrunner.",
+   "q": "Why does Doctor Felben want the construct cores?"
+  },
+  {
+   "aliases": [
+    "source of power objectives",
+    "how many cores do i need",
+    "what to collect for source of power"
+   ],
+   "answer": "Adventurers are tasked with traveling into the city of Dalaran to confront the rogue constructs and gather six Cracked Sentry Cores. Once acquired, these volatile magical relics must be transported back to Doctor Martin Felben in the Undercity to fuel his ongoing experiments.",
+   "q": "What are the objectives for Source of Power?"
+  },
+  {
+   "aliases": [
+    "felben apothecaries goal",
+    "who leads the royal apothecary society",
+    "felben dark lady recognition"
+   ],
+   "answer": "Doctor Martin Felben seeks recognition and rapid advancement within the Forsaken hierarchy. By presenting Lady Sylvanas Windrunner with a formidable force of arcane-infused abominations, he hopes to impress the Dark Lady enough to be named the head of the Royal Apothecary Society.",
+   "q": "What is Doctor Felben's goal within the Royal Apothecary Society?"
+  },
+  {
+   "aliases": [
+    "why forsaken want dalaran magic",
+    "undercity dalaran constructs",
+    "forsaken interest in dalaran"
+   ],
+   "answer": "The Royal Apothecary Society and the Forsaken constantly seek unconventional weapons and power sources to ensure their survival in Lordaeron. Exploiting the magical city of Dalaran while its defenses collapse from within allows Forsaken apothecaries to acquire sophisticated arcane components without formally engaging the magi in open warfare.",
+   "q": "Why are the Forsaken scavenging Dalaran's technology?"
+  },
+  {
+   "aliases": [
+    "where to find cracked sentry cores",
+    "cracked sentry core location",
+    "dalaran sentry core drops"
+   ],
+   "answer": "The Cracked Sentry Cores are gathered from the rogue constructs that are currently laying siege to the city of Dalaran. Players must fight these hostile enchanted guardians across the magical city to extract the necessary intact components for Doctor Felben's research in Undercity.",
+   "q": "Where are the Cracked Sentry Cores found?"
+  }
+ ],
+ "keywords": [
+  "abominations",
+  "arcane constructs",
+  "cracked sentry core",
+  "dalaran",
+  "doctor martin felben",
+  "royal apothecary society",
+  "source of power",
+  "sylvanas windrunner",
+  "undercity"
+ ],
+ "related": [
+  "topic:royal-apothecary-society",
+  "subzone:dalaran",
+  "zone:undercity"
+ ],
+ "sections": [
+  {
+   "body": "Chaos within the magical city of Dalaran has created an opening that the Forsaken are eager to exploit. With Dalaran's own arcane constructs rampaging out of control and laying siege to the magi, Doctor Martin Felben sees a golden opportunity amidst the turmoil. Rather than offering aid to the besieged sorcerers, the apothecary seeks to scavenge the arcane cores powering these rogue guardians. Dalaran has long guarded its magical research fiercely, but its current vulnerability leaves its enchanted sentries ripe for the picking by opportunistic researchers operating out of the Undercity.",
+   "spoiler": 0,
+   "title": "An Opportunistic Harvest"
+  },
+  {
+   "body": "Doctor Felben's interest in the cracked sentry cores is driven entirely by personal ambition within the Royal Apothecary Society. By infusing Forsaken abominations with volatile Dalaran construct magic, Felben dreams of raising a devastating army of arcane-powered flesh beasts. Such a horrific breakthrough, he calculates, would capture the undivided attention of Lady Sylvanas Windrunner and demonstrate his unmatched alchemical genius. Ultimately, Felben hopes this creation might elevate his standing dramatically, perhaps even securing him leadership over the Royal Apothecary Society itself, a faction where ruthless cunning and potent results dictate survival and rank.",
+   "spoiler": 0,
+   "title": "Ambition in the Apothecary Society"
+  }
+ ],
+ "summary": "Source of Power is an Undercity quest commissioned by Doctor Martin Felben, who seeks to capitalize on the turmoil within Dalaran. While the magical city is under siege by its own rogue constructs, Felben tasks adventurers with securing their arcane cores. His ambition is to synthesize Dalaran's magical tech with Forsaken fleshcraft to build arcane-infused abominations and catch the eye of the Dark Lady.",
+ "attribution": [
+  "In-game quest text: Source of Power"
+ ]
+}

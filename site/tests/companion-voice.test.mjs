@@ -11,7 +11,7 @@ import { readFileSync } from "node:fs";
 import { onRequest as speakApi } from "../functions/api/companion/speak.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { setupBilling, planFor, poolWindow, userSpend, overTextCap, PLANS, LEGEND_BEST_PER_MONTH, LEGEND_BEST_MODEL,
+import { setupBilling, planFor, poolWindow, userSpend, capState, PLANS, LEGEND_BEST_PER_MONTH, LEGEND_BEST_MODEL,
   STARTER_ANSWERS } from "../lib/billing.js";
 import { allowance, answerBudgetUsed } from "../lib/companion-answers.js";
 import { willoPick, hostedSpellings, AZEROTH_STUDIO, AZEROTH_PICKS } from "../lib/companion-voice.js";
@@ -335,7 +335,7 @@ test("the voice steps down, finest to studio to the PC, before a month would cos
   assert.deepEqual([out.status, out.body.speak, out.body.reason], [402, "local", "spent"]);
   assert.equal(calls.length, 1);
   assert.ok(await userSpend(env, user.id, new Date(), { total: true }) <= net);
-  assert.equal(await overTextCap(env, user.id, await planFor(env, user.id)), false,
+  assert.notEqual(await capState(env, user.id, await planFor(env, user.id)), "capped",
     "the voice's cost never takes the answers away");
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM voice_replies").get().n, 1, "the reply nothing said is gone");
 });

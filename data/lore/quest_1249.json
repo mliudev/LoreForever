@@ -1,0 +1,108 @@
+{
+ "key": "quest:1249",
+ "type": "quest",
+ "name": "The Missing Diplomat",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1249
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The investigation into the missing diplomat pulls Alliance adventurers into the shadowy underworld connecting Stormwind's political circles to the docks of the Wetlands."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Underground operatives and handlers like Elling Trias rely on quiet legwork and street contacts to track down figures who slip through the cracks."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is slim",
+    "slim missing diplomat",
+    "caught slim"
+   ],
+   "answer": "Slim is a shady contact in Menethil Harbor caught during the investigation into the missing diplomat, surprising local contacts who did not expect him to be the one involved.",
+   "q": "Who is Slim?"
+  },
+  {
+   "aliases": [
+    "elling trias",
+    "who is elling",
+    "elling stormwind"
+   ],
+   "answer": "Elling Trias is an influential figure operating out of Stormwind City who maintains an underground network of former rogues and informants across Alliance lands.",
+   "q": "Who is Elling?"
+  },
+  {
+   "aliases": [
+    "where does this happen",
+    "menethil harbor missing diplomat",
+    "wetlands diplomat"
+   ],
+   "answer": "This leg of the investigation unfolds in Menethil Harbor, a port town in the Wetlands that connects the kingdom of Ironforge to distant shores and Stormwind trade routes.",
+   "q": "Where does this part of the investigation take place?"
+  },
+  {
+   "aliases": [
+    "what is the missing diplomat",
+    "missing diplomat quest",
+    "who is missing"
+   ],
+   "answer": "The Missing Diplomat is an investigation into the disappearance of an important envoy from Stormwind, tracing covert operatives, conspirators, and underworld contacts across the kingdom and beyond.",
+   "q": "What is the Missing Diplomat quest chain about?"
+  },
+  {
+   "aliases": [
+    "why is elling mentioned",
+    "trias cheese",
+    "elling trias connection"
+   ],
+   "answer": "The contact in Menethil Harbor previously worked with Elling Trias in Stormwind's underground circles and avoids letting Elling know he misses the old life, lest he be summoned back to the capital.",
+   "q": "Why does the contact warn against mentioning this to Elling?"
+  },
+  {
+   "aliases": [
+    "what happened in menethil harbor",
+    "menethil lead",
+    "slim caught"
+   ],
+   "answer": "After tracking leads to the Wetlands port of Menethil Harbor, the investigator confronts and catches Slim, confirming local suspicions about illicit underground activities in town.",
+   "q": "What happened with the investigation in Menethil Harbor?"
+  }
+ ],
+ "keywords": [
+  "elling trias",
+  "menethil harbor",
+  "missing diplomat",
+  "slim",
+  "stormwind",
+  "the missing diplomat",
+  "wetlands"
+ ],
+ "related": [
+  "topic:stormwind-kingdom"
+ ],
+ "sections": [
+  {
+   "body": "The search for Stormwind's missing envoy leads investigators far north of the capital into the damp port of Menethil Harbor. Behind the town's busy docks and weathered taverns lies an underground current of shady dealers and covert runners operating right under the local guard's nose. Tracking leads through this coastal hub requires dealing directly with individuals who know the darker side of Alliance territory.",
+   "spoiler": 0,
+   "title": "Undercurrents in Menethil Harbor"
+  },
+  {
+   "body": "Apprehending Slim brings a surprising breakthrough in the search, catching local informants off guard that he was directly entangled in the affair. While the capture provides critical answers, it also stirs up memories for retired operatives resting in the Wetlands, who must balance helping the Crown against the risk of being dragged back into the scheming underworld of Stormwind.",
+   "spoiler": 1,
+   "title": "A Familiar Rogue"
+  }
+ ],
+ "summary": "The Missing Diplomat is an extensive investigation into the disappearance of a vital Stormwind envoy, tracing shadowy leads from the capital to distant ports. In Menethil Harbor, the inquiry crosses paths with underworld figures and old operatives tied to Stormwind's intelligence network.",
+ "attribution": [
+  "In-game quest text: The Missing Diplomat"
+ ]
+}

@@ -7,7 +7,8 @@
 -- LoreForeverDB.journey = { v = 2, chars = { ["Name-Realm"] = {
 --   name, realm, race, raceName, class, className, faction, sex, level, first, lastSync,
 --   completed = { questID, ... },        the server's list, refreshed at every login
---   seen = { place = { ["Zone|Subzone"] = t }, npc = { [name] = t }, mob = {...}, book = {...}, boss = {...} },
+--   seen = { place = { ["Zone|Subzone"] = t }, npc = { [name] = t }, mob = {...}, book = {...}, boss = {...},
+--            rare = {...} },
 --   kills = { [name] = n },
 --   tally = { walk = { [land] = yards }, kinds = { [creature type] = kills }, ranks = { [classification] = kills },
 --             deaths, online, played, playedAt },   the journey in numbers (The tally, below; LOR-246)
@@ -24,7 +25,11 @@
 --   lvl z, s   death z, s, pt   npc n, z, s (first meeting)   kill n, z, s (first kill; cls for elites and rares,
 --   pt for elites)   boss n, key, z, s, pt   book n, z, s (first read)   bind n, z, s   taxi from, to, z, s
 --   rep n, st, was, z, s                      a standing change (st, was: 1 Hated .. 8 Exalted)
---   mount id, n, z, s   spell id, n, z, s (a new spell, not a higher rank)
+--   mount id, n, z, s, item, how             a new mount (how = "bought": its item came from a vendor, the auction
+--                                             house, the mail or a trade, item its ID; id the mount's, when known)
+--   seen n, cls, z, s                         a rare you saw (your target, under the mouse or by its nameplate), the
+--                                             first time, unless you'd slain one of that name (LOR-672)
+--   spell id, n, z, s (a new spell, not a higher rank)
 --   shot z, s, pt, tg, q, cb, inst, pic, f, clean
 --                                             a screenshot, and what you were doing then (for its caption): tg your
 --                                             target when it's nobody's character or pet, { n, cls, ty, lv, boss,
@@ -530,7 +535,7 @@ local function open()
   c.name, c.realm = name, realm
   c.events = type(c.events) == "table" and c.events or {}
   c.seen = type(c.seen) == "table" and c.seen or {}
-  for _, k in ipairs({ "place", "npc", "mob", "book", "boss" }) do c.seen[k] = c.seen[k] or {} end
+  for _, k in ipairs({ "place", "npc", "mob", "book", "boss", "rare" }) do c.seen[k] = c.seen[k] or {} end
   c.kills = c.kills or {}
   if type(c.trail) ~= "table" then c.trail = nil end   -- made with the first point kept
   local info = ns.Context.Character()
@@ -632,7 +637,8 @@ end
 
 -- The companion's data -----------------------------------------------------------------------------------------------
 
--- What the companion wrote for this character: { pictures = { {t, file, w, h, cap}, ... } (Pictures, below) }, or nil.
+-- What the companion wrote for this character: { pictures = { {t, file, w, h, cap}, ... } (Pictures, below), pins =
+-- { {n, note, z, s, x, y, d}, ... } (Journey.Pins) }, or nil.
 function Journey.Data()
   local data = _G.LoreForeverJourneyData
   if type(data) ~= "table" then return end
@@ -895,7 +901,9 @@ do
     elseif e.k == "taxi" then
       return string.format(L["Flew to %s"], e.to or where or "?"), e.from and string.format(L["from %s"], e.from) or ""
     elseif e.k == "rep" then return string.format(L["%s with %s"], standingText(e.st), e.n or "?"), sub(L["Reputation"], where)
-    elseif e.k == "mount" then return e.n or L["A new mount"], sub(L["New mount"], where)
+    elseif e.k == "mount" then
+      return e.n or L["A new mount"], sub(e.how == "bought" and L["Mount bought"] or L["New mount"], where)
+    elseif e.k == "seen" then return e.n, sub(L["Rare spotted"], where)
     elseif e.k == "spell" then return e.n, sub(L["Learned"], where)
     elseif e.k == "loot" then return e.n, sub(e.qid and L["Quest reward"] or L["Found"], where)
     elseif e.k == "prof" then return (e.n or "?") .. " " .. (e.r or 0), sub(L["Profession milestone"], where)
@@ -961,7 +969,7 @@ do
 
   -- Each event kind's filter, and each filter's colour (its chip's dot, the row's dot and the map's).
   local FILTER_OF = { qa = "quest", qt = "quest", qx = "quest", boss = "fight", kill = "fight", death = "fight",
-    bg = "fight", lvl = "mile", zone = "mile", mount = "mile", rep = "mile", prof = "mile", loot = "mile" }
+    bg = "fight", seen = "fight", lvl = "mile", zone = "mile", mount = "mile", rep = "mile", prof = "mile", loot = "mile" }
   local COLOR = { quest = { 1, 0.82, 0 }, fight = { 0.92, 0.42, 0.32 }, mile = { 0.62, 0.83, 1 },
     other = { 0.8, 0.8, 0.8 } }
   COLOR.done = COLOR.quest
@@ -1372,6 +1380,32 @@ do
     search:SetHeight(20)
     search:SetPoint("RIGHT", close, "LEFT", -8, 0)
     Journey.search = search
+    -- On a page too narrow for the map beside the list, Map opens it in its own window (QA 10/19: at the panel's usual
+    -- width there was no way to see the map, or Willo's pins on it). It starts on the newest moment with a spot.
+    local mapButton = ns.Theme.Button(view)
+    mapButton:SetHeight(22)
+    mapButton:SetPoint("RIGHT", search, "LEFT", -8, 0)   -- the search box makes room for it (Refresh)
+    mapButton:SetText(L["Map"])
+    mapButton:SetWidth(math.max(50, math.floor((T.TextWidth(mapButton:GetFontString()) or 30) + 24)))
+    mapButton:SetScript("OnClick", function()
+      local list = Journey.mapMoments or {}
+      if not Journey.focus then
+        for i = #list, 1, -1 do
+          if list[i].spot then Journey.focus = list[i] break end
+        end
+        Journey.focus = Journey.focus or list[#list]
+      end
+      Journey.ShowBigMap()
+    end)
+    mapButton:SetScript("OnEnter", function(self)
+      GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
+      GameTooltip:AddLine(L["Map"])
+      T.Tip(L["Opens the map large. Esc closes it."], "tipText", true)
+      GameTooltip:Show()
+    end)
+    mapButton:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    mapButton:Hide()
+    Journey.mapButton = mapButton
 
     local who = ns.Theme.Muted(view:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall"))
     who:SetPoint("TOPLEFT", head, "BOTTOMLEFT", 0, -4)
@@ -1503,6 +1537,32 @@ do
 
   -- Show moment m (one of Journey.mapMoments) on the maps (beside the list, and the large one when it's open): its
   -- zone, or its continent with Whole journey.
+  -- The spots this character pinned with Willo (LOR-672), as Willo last wrote them (LoreForeverJourneyData, read at
+  -- login or /reload): { {spot, title, sub, foot}, ... } for the journey map, the ones with a map spot. A pin's place
+  -- is its zone's name and x, y out of 100 on that zone's map (the notebook's line: Fargodeep Mine, Elwynn Forest
+  -- (south, 41, 65)), so its map is found by the zone's name.
+  local pinsOf, pinsList
+  function Journey.Pins()
+    local data = Journey.Data()
+    local pins = type(data) == "table" and type(data.pins) == "table" and data.pins or nil
+    if pins == pinsOf and pinsList then return pinsList end
+    pinsOf, pinsList = pins, {}
+    local Map = ns.JourneyMap
+    for _, p in ipairs(pins or {}) do
+      local x, y = tonumber(type(p) == "table" and p.x), tonumber(type(p) == "table" and p.y)
+      local m = x and y and Map and type(p.z) == "string" and Map.ZoneNamed(p.z)
+      local spot = m and x >= 0 and x <= 100 and y >= 0 and y <= 100 and Map.Place(m, x / 100, y / 100) or nil
+      if spot and type(p.n) == "string" and p.n ~= "" then
+        local place = (type(p.s) == "string" and p.s ~= "" and p.s ~= p.z) and (p.s .. ", " .. p.z) or p.z
+        local pinned = string.format(L["Pinned with %s"], ns.COMPANION_NAME or "Willo")
+        local when = type(p.d) == "string" and p.d ~= "" and (pinned .. ", " .. p.d) or pinned
+        pinsList[#pinsList + 1] = { spot = spot, title = p.n, sub = type(p.note) == "string" and p.note or nil,
+          foot = place .. " · " .. when }
+      end
+    end
+    return pinsList
+  end
+
   function Journey.FocusMap(m, animate)
     if not m then return end
     local small = Journey.map and Journey.map:IsShown()
@@ -1511,9 +1571,11 @@ do
     Journey.focus = m
     local list, at = Journey.mapMoments or {}, nil
     for i, x in ipairs(list) do if x == m then at = i end end
+    local pins = Journey.Pins()
     for _, f in ipairs({ small and Journey.map or false, big and Journey.bigWin.map or false }) do
       if f then
         ns.JourneyMap.Focus(f, list, m, Journey.mapWhole, animate)
+        ns.JourneyMap.SetPins(f, pins)
         ns.JourneyMap.SetSteps(f, at and at > 1, at and at < #list)
       end
     end
@@ -2160,6 +2222,11 @@ do
     local was = Journey.focus and Journey.focus.ev
     Journey.mapMoments, Journey.focus = moments, nil
     local small = Journey.map and mapW > 0 and #moments > 0
+    if Journey.mapButton then
+      local showMap = (Journey.map and char and filter ~= "done" and mapW == 0 and #moments > 0) and true or false
+      Journey.mapButton:SetShown(showMap)
+      if search then search:SetWidth(showMap and 110 or 170) end   -- room for Map beside the title
+    end
     if Journey.map then
       Journey.map:SetShown(small and true or false)
       if small then
@@ -2573,12 +2640,80 @@ local function onLearned(id)
   add("spell", { id = id, n = name, z = z, s = s })
 end
 
+-- Rares you only saw, and mounts you bought (LOR-672), so "where did I see that rare?" finds one you never fought and
+-- "when did I get my first mount?" one a vendor sold you. In a block of its own (the main chunk has room for only 200
+-- locals).
+local onSeen, mountKnown, boughtMount
+do
+  local RARES = { rare = true, rareelite = true }
+  -- A rare that shows itself, as your target, under the mouse or by its nameplate: a "seen" moment, once ever for a
+  -- name, and never for one you've slain (that's its kill). Not a corpse, another player or anyone's pet.
+  function onSeen(unit)
+    if type(unit) ~= "string" or not char then return end
+    local cls = try(UnitClassification, unit)
+    if not (usable(cls) and RARES[cls]) then return end
+    if try(UnitIsPlayer, unit) or try(UnitIsDead, unit) or try(UnitPlayerControlled, unit) then return end
+    local name = try(UnitName, unit)
+    if not usable(name) then return end
+    char.seen.rare = char.seen.rare or {}
+    if char.seen.rare[name] or char.seen.mob[name] then return end
+    char.seen.rare[name] = time()
+    local z, s = here()
+    add("seen", { n = name, cls = cls, z = z, s = s })
+  end
+
+  -- The mounts this character's journey has, by mount ID and by name (built from its events once, then kept up).
+  local known
+  function mountKnown(id, name)
+    if not known then
+      known = {}
+      for _, e in ipairs(char.events) do
+        if e.k == "mount" then
+          if e.id then known[e.id] = true end
+          if e.n then known[e.n] = true end
+        end
+      end
+    end
+    local seen = (id and known[id]) or (name and known[name])
+    if id then known[id] = true end
+    if name then known[name] = true end
+    return seen
+  end
+
+  -- An item that's a mount: the one the collection says it teaches (C_MountJournal.GetMountFromItem), else 0 for an
+  -- item of the Mount kind (class 15 Miscellaneous, subclass 5 Mount); nil for anything else.
+  local function mountOf(item)
+    local MJ = _G.C_MountJournal
+    local id = MJ and try(MJ.GetMountFromItem, item)
+    if type(id) == "number" and id > 0 then return id end
+    local I = _G.C_Item
+    local fn = (I and I.GetItemInfoInstant) or _G.GetItemInfoInstant
+    if type(fn) ~= "function" then return nil end
+    local ok, _, _, _, _, _, class, sub = pcall(fn, item)
+    if ok and class == 15 and sub == 5 then return 0 end
+  end
+
+  -- A mount's item that came through a window (a vendor, the auction house, the mail, a trade): a mount moment, once,
+  -- as a mount learned later from that same item isn't another (onMount). True when it was a mount.
+  function boughtMount(item, name)
+    local id = mountOf(item)
+    if not id then return false end
+    id = id > 0 and id or nil
+    if mountKnown(id, name) then return true end
+    local z, s = here()
+    add("mount", { id = id, n = name, item = item, how = "bought", z = z, s = s })
+    return true
+  end
+end
+
 local function onMount(id)
   id = type(id) == "number" and id or nil
   local MJ = _G.C_MountJournal
   local name = id and MJ and try(MJ.GetMountInfoByID, id)
+  name = usable(name) and name or nil
+  if id and mountKnown(id, name) then return end   -- bought before, from its item (boughtMount)
   local z, s = here()
-  add("mount", { id = id, n = usable(name) and name or nil, z = z, s = s })
+  add("mount", { id = id, n = name, z = z, s = s })
 end
 
 -- Reputation and professions: what they were when last looked at this session (faction -> standing 1-8, profession
@@ -2776,6 +2911,7 @@ local function onLoot(msg)
   local ql, at = quality(msg, id) or 0, try(GetTime) or 0
   -- From the mail, a vendor, a trade or the bank (looked at now: a reward is kept a second later), never what you made.
   local window = kind ~= "created" and fromWindow(at)
+  if window and boughtMount(id, name) then return end   -- a mount from a vendor: a new mount, not a find (LOR-672)
   local z, s = here()
   local function keep()
     local quest = kind == "pushed" and rewardOf(id, at, window) or nil
@@ -3315,6 +3451,10 @@ local handlers = {
     if not skillQueued then skillQueued = true; later(1, scanSkills) end
   end,
   NEW_MOUNT_ADDED = onMount,
+  -- A rare in sight (LOR-672): your target, under the mouse, or by its nameplate.
+  PLAYER_TARGET_CHANGED = function() onSeen("target") end,
+  UPDATE_MOUSEOVER_UNIT = function() onSeen("mouseover") end,
+  NAME_PLATE_UNIT_ADDED = function(unit) onSeen(unit) end,
   LEARNED_SPELL_IN_SKILL_LINE = onLearned,
   LEARNED_SPELL_IN_TAB = onLearned,   -- older clients' name for it (Forever has the one above)
   CHAT_MSG_LOOT = onLoot,

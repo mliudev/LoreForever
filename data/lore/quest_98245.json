@@ -1,0 +1,113 @@
+{
+ "key": "quest:98245",
+ "type": "quest",
+ "name": "Razormaw Needling",
+ "era": "forever",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   98245
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Howin Kindfeather shares the bitter Wildhammer and Ironforge dwarf hatred for both the Dark Iron clan and the Dragonmaw orcs who ravaged the Wetlands and Grim Batol."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing protective gear against dragonfire aids the ongoing Alliance struggle against dragonkin and Dragonmaw forces holding the eastern marshes."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives razormaw needling",
+    "who is howin kindfeather",
+    "quest giver razormaw needling"
+   ],
+   "answer": "Howin Kindfeather gives this task in the Wetlands. He harbors a deep grudge against the Dark Iron dwarves, the Dragonmaw clan, and the drakes they rode, and seeks to craft dragonfire-resistant armor from whelp scales.",
+   "q": "Who gives the quest Razormaw Needling?"
+  },
+  {
+   "aliases": [
+    "why does howin want raptor teeth",
+    "purpose of razormaw incisors",
+    "what are the teeth for"
+   ],
+   "answer": "Howin is working with tough dragon whelp scales to fashion protective armor, but the hide is too dense to stitch together easily. He needs the sharp, sturdy incisors of Razormaw raptors to craft a set of puncture awls strong enough to pierce the scales without breaking.",
+   "q": "Why does Howin Kindfeather need Razormaw incisors?"
+  },
+  {
+   "aliases": [
+    "where to find razormaw raptors",
+    "razormaw raptor location wetlands",
+    "where are the raptors"
+   ],
+   "answer": "Razormaw raptors prowl two primary hunting grounds in the Wetlands: Raptor Ridge in the highlands to the northeast, and Saltspray Glen situated to the northwest toward the coast.",
+   "q": "Where are the Razormaw raptors located?"
+  },
+  {
+   "aliases": [
+    "what armor is howin making",
+    "whelp scale armor wetlands",
+    "why whelp scales"
+   ],
+   "answer": "Howin is stitching together dragon whelp scales into protective gear. The scales provide substantial defense against fiery breath weapons, offering vital protection against dragons and the Dragonmaw clan's drakes.",
+   "q": "What is Howin Kindfeather making with the whelp scales?"
+  },
+  {
+   "aliases": [
+    "why hate dark irons and dragonmaw",
+    "howin enemies",
+    "why does howin hate dragonmaw"
+   ],
+   "answer": "The Wetlands and surrounding mountains bear deep scars from both the Dark Iron clan and the Dragonmaw orcs, who enslaved red dragons during the Second War. Howin despises both factions alongside their flying mounts, and is determined to redress the balance.",
+   "q": "Why does Howin hate the Dark Irons and Dragonmaw?"
+  },
+  {
+   "aliases": [
+    "what is an awl",
+    "razormaw awls",
+    "how are raptor teeth used as tools"
+   ],
+   "answer": "An awl is a slender, pointed hand tool used to punch holes in tough hides and leather prior to sewing. By fitting intact raptor incisors onto handles or using their natural taper, Howin creates durable awls capable of piercing dragon scales without snapping.",
+   "q": "What does Howin turn the raptor incisors into?"
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "dragonmaw",
+  "howin kindfeather",
+  "raptor ridge",
+  "raptors",
+  "razormaw incisors",
+  "razormaw needling",
+  "saltspray glen",
+  "wetlands",
+  "whelp scales"
+ ],
+ "related": [
+  "subzone:raptor-ridge",
+  "subzone:saltspray-glen",
+  "zone:wetlands"
+ ],
+ "sections": [
+  {
+   "body": "In the sodden reaches of the Wetlands, Howin Kindfeather harbors an abiding fury toward the enemies that have plagued the region: the treacherous Dark Iron dwarves, the brutal Dragonmaw orcs, and the fire-breathing drakes they brought into battle. Seeking to strike back and protect against dragonfire, Howin works to assemble protective armor using dragon whelp scales. However, the resilient hides prove notoriously difficult to sew together without specialized crafting tools.",
+   "spoiler": 0,
+   "title": "Tools of Retribution"
+  },
+  {
+   "body": "To punch through the durable whelp hide, Howin requires tools far sharper and sturdier than ordinary metal needles, which easily warp or dull against dragon scales. He turns to the native Razormaw raptors that stalk Raptor Ridge in the northeast and Saltspray Glen in the northwest. Named for their lethal, needle-sharp dentition, whole Razormaw incisors serve as pristine awls, piercing tough scales without shattering under pressure.",
+   "spoiler": 0,
+   "title": "Fangs as Needles"
+  }
+ ],
+ "summary": "Razormaw Needling is a Wetlands quest where Howin Kindfeather tasks travelers with harvesting incisors from local Razormaw raptors. Howin aims to fashion durable awls from their sharp teeth in order to pierce and stitch together dragon whelp scales for flame-resistant armor.",
+ "attribution": [
+  "In-game quest text: Razormaw Needling"
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "key": "quest:97326",
+ "type": "quest",
+ "name": "Rocks to Rests",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97326
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Taking time to help young orcs behind the Warchief's stronghold shows that even in a warrior society, community and everyday life in Orgrimmar matter."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orc youths making their own games behind Grommash Hold reflect the everyday upbringing of the next generation growing up in the heart of Durotar."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives rocks to rests",
+    "thra orgrimmar",
+    "who is thra"
+   ],
+   "answer": "Thra is a young orc playing games with friends in the open clearing tucked behind Grommash Hold in Orgrimmar. Noticeably observant and playful, Thra asks passing adventurers for a helping hand to improve their play area.",
+   "q": "Who gives the quest Rocks to Rests?"
+  },
+  {
+   "aliases": [
+    "where is rocks to rests",
+    "thra location",
+    "where behind grommash hold"
+   ],
+   "answer": "The quest takes place in the clearing directly behind Grommash Hold, the seat of Warchief Thrall in the Valley of Wisdom within Orgrimmar. The children gather in this relatively clear dirt spot away from the heavy traffic of the fortress.",
+   "q": "Where does this quest take place?"
+  },
+  {
+   "aliases": [
+    "why rocks",
+    "what are smooth boulders for",
+    "why boulders"
+   ],
+   "answer": "Thra and the other youths need smooth, medium-sized rocks to serve as makeshift chairs and tables. Without furniture, they are forced to sit directly in the dirt while setting up and playing their miniature games.",
+   "q": "Why does Thra need smooth boulders?"
+  },
+  {
+   "aliases": [
+    "what game are they playing",
+    "thra game orgrimmar",
+    "figures behind grommash hold"
+   ],
+   "answer": "Thra and their companions are playing an informal tabletop game using small figures spread out on the ground. The smooth boulders provide stable surfaces to place figures and sit comfortably while playing.",
+   "q": "What game is being played behind Grommash Hold?"
+  },
+  {
+   "aliases": [
+    "is rocks to rests dangerous",
+    "any combat rocks to rests"
+   ],
+   "answer": "No, Rocks to Rests is a simple, peaceful errand rather than a military operation or combat trial. It relies entirely on brute strength to haul heavy boulders back to the children's game spot.",
+   "q": "Does Rocks to Rests involve fighting?"
+  },
+  {
+   "aliases": [
+    "what happens after rocks to rests",
+    "what does thra do with rocks"
+   ],
+   "answer": "Once the eight smooth boulders are delivered, Thra and the children scoot them into position across the dirt clearing, using the flat sides to create seating and tables for their tabletop figures.",
+   "q": "What do the children do with the boulders once delivered?"
+  }
+ ],
+ "keywords": [
+  "durotar",
+  "grommash hold",
+  "orcs",
+  "orgrimmar",
+  "rocks to rests",
+  "smooth boulders",
+  "tabletop",
+  "thra"
+ ],
+ "related": [
+  "subzone:grommash-hold"
+ ],
+ "sections": [
+  {
+   "body": "Tucked into the dirt clearing just behind Grommash Hold in Orgrimmar, a group of young orcs gather away from the stern gaze of the fortress guards. The spot offers ample open ground for setting up miniature figures, yet it lacks any proper furniture, forcing the youngsters to play while seated directly in the dust.",
+   "spoiler": 0,
+   "title": "A Quiet Corner of Orgrimmar"
+  },
+  {
+   "body": "Spotting a passing adventurer, a youth named Thra asks for assistance hauling eight medium-sized, smooth boulders to their play spot. Thanks to their flat sides, the hefty stones serve as sturdy makeshift chairs and low tables, letting the youths arrange their games comfortably without having to sit in the dirt.",
+   "spoiler": 0,
+   "title": "Makeshift Furniture"
+  }
+ ],
+ "summary": "Rocks to Rests is a lighthearted errand for Thra, an orc youth playing games with friends behind Grommash Hold in Orgrimmar. The children need an adventurer's strength to haul smooth boulders into their clearing to use as makeshift chairs and tables. It offers a charming glimpse into the everyday life and games of the younger generation growing up within the Horde capital.",
+ "attribution": [
+  "In-game quest text: Rocks to Rests"
+ ]
+}

@@ -158,6 +158,9 @@ test("the two layers split on the mark; her words are cut at a sentence within S
     "the zeppelin from Tirisfal Glades. Walk west through the gates to the Valley of Wisdom." }, "no mark: its start, unlisted");
   assert.deepEqual(splitLayers(`Go [east](https://example.com).\n ~~~ \nSee https://example.com now.`),
     { say: "Go east.", text: "See  now." });
+  // Glued to her last sentence (3.6 Flash, the vision check 10/19): she never says the mark or what comes after it.
+  assert.deepEqual(splitLayers("You're in the Trade District.~~~That is Hurin, by the bank."),
+    { say: "You're in the Trade District.", text: "That is Hurin, by the bank." });
   const words = "Thrall leads the Horde. ".repeat(30);
   const cut = sayOf(words);
   assert.ok(cut.length <= SAY_MAX_CHARS && cut.endsWith("Horde."));

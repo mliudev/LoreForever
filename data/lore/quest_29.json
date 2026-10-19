@@ -1,0 +1,108 @@
+{
+ "key": "quest:29",
+ "type": "quest",
+ "name": "Trial of the Lake",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   29
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The trial tests the swiftness and adaptability essential to druids, serving as a rite of passage honoring Keeper Remulos in Moonglade."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is trial of the lake",
+    "purpose of trial of the lake",
+    "what is this quest"
+   ],
+   "answer": "The Trial of the Lake is a test of agility and focus set in Moonglade. Initiates dive into the cold depths of Lake Elune'ara to retrieve a decaying Shrine Bauble, rushing it across the haven to the Shrine of Remulos before its energy dissipates.",
+   "q": "What is the Trial of the Lake?"
+  },
+  {
+   "aliases": [
+    "where is shrine of remulos",
+    "shrine location",
+    "remulos shrine moonglade"
+   ],
+   "answer": "The Shrine of Remulos is situated in northwestern Moonglade. Dedicated to Keeper Remulos and his guidance of the Cenarion Circle, it is guarded and maintained by the warden Tajarri.",
+   "q": "Where is the Shrine of Remulos located?"
+  },
+  {
+   "aliases": [
+    "who is tajarri",
+    "tajarri moonglade",
+    "shrine warden tajarri"
+   ],
+   "answer": "Tajarri is one of Moonglade's trusted wardens, charged with tending the Shrine of Remulos. She oversees the completion of the Trial of the Lake and welcomes initiates who bring the bauble to honor the shrine.",
+   "q": "Who is Tajarri?"
+  },
+  {
+   "aliases": [
+    "what is shrine bauble",
+    "why does bauble decay",
+    "shrine bauble purpose"
+   ],
+   "answer": "A Shrine Bauble is a relic retrieved from the bed of Lake Elune'ara. It decays rapidly once taken from the water, requiring the bearer to race swiftly to activate it at the Shrine of Remulos as an offering of tribute.",
+   "q": "What is a Shrine Bauble?"
+  },
+  {
+   "aliases": [
+    "who is keeper remulos",
+    "remulos lore",
+    "why honor remulos"
+   ],
+   "answer": "Keeper Remulos is a revered keeper of the grove who guides the Cenarion Circle in preserving nature and maintaining balance. The shrine in northwestern Moonglade stands as a lasting tribute to his leadership and principles.",
+   "q": "Why is Keeper Remulos honored at this shrine?"
+  },
+  {
+   "aliases": [
+    "what does using bauble do",
+    "why activate bauble at shrine"
+   ],
+   "answer": "Activating the bauble at the Shrine of Remulos pays tribute to the sacred balance maintained by the Cenarion Circle and acknowledges the shrine's enduring spiritual importance within Moonglade.",
+   "q": "What does offering the bauble at the shrine signify?"
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "lake elune'ara",
+  "moonglade",
+  "remulos",
+  "shrine bauble",
+  "shrine of remulos",
+  "tajarri",
+  "trial of the lake"
+ ],
+ "related": [
+  "subzone:lake-elune-ara",
+  "npc:remulos",
+  "topic:cenarion-circle",
+  "quest:5921",
+  "topic:elune"
+ ],
+ "sections": [
+  {
+   "body": "The Trial of the Lake is an introductory rite overseen by the guardians of Moonglade. Aspirants are charged with diving into the tranquil waters of Lake Elune'ara to recover a delicate Shrine Bauble resting along the sunken lakebed. Because the bauble rapidly decays once disturbed from its resting place, the trial demands sharp physical dexterity, keen senses, and swift movement to carry it overland before its magic fades.",
+   "spoiler": 0,
+   "title": "A Test of Dexterity"
+  },
+  {
+   "body": "Upon securing the bauble, runners must hurry to the Shrine of Remulos in northwestern Moonglade. The monument stands as a lasting tribute to Keeper Remulos, who guides the Cenarion Circle in the preservation of nature and world balance. Activating the bauble at the shrine serves as a ceremonial nod to its significance within the Circle. There, the trusted warden Tajarri greets initiates who successfully overcome the trial's time limit and competition.",
+   "spoiler": 0,
+   "title": "Tribute to the Keeper"
+  }
+ ],
+ "summary": "The Trial of the Lake is a timed challenge held in Moonglade that tests an initiate's physical dexterity and speed. Aspirants must dive into Lake Elune'ara to retrieve an unstable Shrine Bauble and rush it to the Shrine of Remulos before it decays. Successful completion earns recognition from the warden Tajarri and honors the Cenarion Circle's dedication to balance.",
+ "attribution": [
+  "In-game quest text: Trial of the Lake"
+ ]
+}

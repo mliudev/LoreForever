@@ -3,9 +3,9 @@
     "npc:anastasia-hartwell": {
       "1": [
         {
-          "duration": 94.66775510204081,
-          "file": "Audio/Transport/full_npc_anastasia-hartwell-acb43b281fb787c3964b/1-0000.mp3",
-          "sha256": "dfb04c8e4fbe5f445ebfdd055c25f9023860af1559db1e232aca61f6dbcd1c49",
+          "duration": 92.13387755102042,
+          "file": "Audio/Transport/full_npc_anastasia-hartwell-626df899b278aba8eba1/1-0000.mp3",
+          "sha256": "f877ca81a339df07c918d4e2686c9f367235b387fa99602af58ad13e81fea923",
           "start": 0
         }
       ],
@@ -17,12 +17,12 @@
         ]
       },
       "fullHash": "920d02",
-      "generation": "93dbc0bfefa2345fdf8b",
+      "generation": "f5785fc23fa7d9cbe70e",
       "hash": "b4d21f",
       "source": {
-        "duration": 94.667755,
+        "duration": 92.16,
         "file": null,
-        "sha256": "acb43b281fb787c3964b360a6371b35a9cff96336f1d6232aef0fd4a525e0e3a"
+        "sha256": "626df899b278aba8eba1064702dce570281d9f844e912cec31e00dac3cc94fa1"
       },
       "text": "Anastasia Hartwell. Anastasia Hartwell is a prominent Forsaken mage trainer residing in the Magic Quarter of the Undercity. She guides fledgling and developing spellcasters in mastering the arcane arts and oversees vital magical research and field missions across Lordaeron and beyond. Standing within the dark, echoing chambers of the Undercity's Magic Quarter, Anastasia Hartwell instructs Forsaken and Horde mages in channeling arcane energies. Though the kingdom of Lordaeron fell to ruin, former human practitioners like Anastasia have preserved their scholarly traditions in undeath. She maintains that magic demands strict discipline, warning any traveler she meets that careless incantations will quickly consume the untrained. Beyond fundamental spell instruction, Anastasia directs promising students toward vital field investigations. She sends mages to the Balnir Farmstead in eastern Tirisfal Glades to gather snapdragons that show how far the plague has spread, and into Algernon's alchemist shop in the Apothecarium to capture the invisible creatures of pure magic behind a strange disturbance. Through her tasks, practitioners learn that mastering magic means confronting its dangers directly, even within their own city. Anastasia's connections reach well beyond the borders of Tirisfal. As Horde spellcasters grow in proficiency, she coordinates with fellow trainers in distant lands, such as Deino in Orgrimmar, and directs advanced students toward solitary masters like Tabetha in the swamplands of Dustwallow Marsh. Her guidance ensures that Forsaken mages remain woven into the wider tapestry of the Horde's magical pursuits."
     },
@@ -55,9 +55,9 @@
     "npc:apothecary-renferrel": {
       "1": [
         {
-          "duration": 44.09469387755102,
-          "file": "Audio/Transport/full_npc_apothecary-renferrel-494c34f16eb70064a325/1-0000.mp3",
-          "sha256": "16f3802a74aa77155d87026ff0437eaa333f5605d653d83307cdf78bea8a87e8",
+          "duration": 46.26285714285714,
+          "file": "Audio/Transport/full_npc_apothecary-renferrel-924fe151c15cb17e7de7/1-0000.mp3",
+          "sha256": "bbc93309b978269da4e2a1fcf1987fc407bc5cff20f53e5db12247bdd6900024",
           "start": 0
         }
       ],
@@ -69,12 +69,12 @@
         ]
       },
       "fullHash": "c766c8",
-      "generation": "8f130cf3804d1cf5ef71",
+      "generation": "76d960a3444c7c7cd752",
       "hash": "c766c8",
       "source": {
-        "duration": 44.068563,
+        "duration": 46.262857,
         "file": null,
-        "sha256": "494c34f16eb70064a325b64bc2cb73aeed2e3cb2a353cd7cdcf748bd08ea5886"
+        "sha256": "924fe151c15cb17e7de791ed26679341b056247da52dad89e31da17420cabcc4"
       },
       "text": "Apothecary Renferrel. Apothecary Renferrel is a prominent member of the Royal Apothecary Society stationed at the Sepulcher in Silverpine Forest. Tasked with advancing the Forsaken's alchemical endeavors, he coordinates extensive field research into the region's corrupted wildlife and undead threats. Travelers through Silverpine frequently assist him with gathering volatile reagents and investigating dangerous Scourge remnants. Operating out of the Sepulcher, Renferrel serves as one of the Royal Apothecary Society's chief field researchers in Silverpine Forest. While Undercity houses the grand laboratories and high leadership of the society, Renferrel handles the practical, muddy work of securing native biological specimens, refining potent concoctions, and analyzing the grim ecology of Lordaeron's western border."
     },
@@ -133,9 +133,9 @@
     "npc:baine-bloodhoof": {
       "1": [
         {
-          "duration": 118.43918367346939,
-          "file": "Audio/Transport/full_npc_baine-bloodhoof-3774fdbaae40ed954753/1-0000.mp3",
-          "sha256": "8649cd8d6a96ef6cef1c69120bdbe5b4a72962fb9c47a2a2c4e1e4e521e34e11",
+          "duration": 115.95755102040816,
+          "file": "Audio/Transport/full_npc_baine-bloodhoof-599ceb882240c9680b53/1-0000.mp3",
+          "sha256": "3dc4588359f2ebd1229151e32d024bdbd9d93f2c35496ea0e6848d0aa0f9be19",
           "start": 0
         }
       ],
@@ -147,12 +147,12 @@
         ]
       },
       "fullHash": "a23dd3",
-      "generation": "0fcf897afc84fbf88957",
+      "generation": "91ed84a874eea224ee23",
       "hash": "f3766e",
       "source": {
-        "duration": 118.439184,
+        "duration": 115.957551,
         "file": null,
-        "sha256": "3774fdbaae40ed9547538c76362e5e5eb55f613a876e09d2fe6b6692c81c3e54"
+        "sha256": "599ceb882240c9680b5344f0f790ce7c68a9b45abfff8ed8a0f72996ed5efff0"
       },
       "text": "Baine Bloodhoof. Baine Bloodhoof is the son of High Chieftain Cairne Bloodhoof and the acting protector of Bloodhoof Village in Mulgore. While his father governs the tribes from the towering heights of Thunder Bluff, Baine directly oversees local defense, investigating encroaching industrial exploitation and defending against feral predators. He serves as an essential bridge between youthful tauren braves and the ancestral wisdom of his clan. Born to Cairne, Baine spent his youth traveling alongside his nomadic people before they claimed the rich grasslands of Mulgore. His early life was marked by the ever-present threat of the centaur clans. Shortly after the Third War, a centaur warband under Khiragg captured young Baine, plunging Cairne into a grief-stricken stupor that nearly shattered the newly founded settlements. It was only through the courage of the champion Rexxar that Baine was liberated from captivity. That rescue restored Cairne's spirit, allowing the tauren to stand with Thrall's Horde against the invading Kul Tirans and secure their foothold on the continent. Rather than lingering in the relative comfort of the capital mesas, Baine chooses to reside among his kin in Bloodhoof Village. As Cairne advances in age, Baine carries an increasing burden of stewardship, representing the next generation of tauren leadership. He directs braves and visiting allies to combat the unruly Palemane gnolls who pester the borders, and keeps a watchful eye on suspicious outside influences threatening Mulgore's natural balance. Beyond territorial border clashes, Baine faces modern encroachers unconcerned with spiritual balance. To the east, the goblin Venture Company cuts deep into the sacred landscape, while dwarven prospectors from Bael Modan dig into ancestral soil at the Bael'dun Digsite. Baine advocates for a firm yet measured response: attempting to warn the miners and destroy their destructive equipment rather than rushing into senseless bloodshed. He warns that the dwarves' violent digging is hurting the spirits of the earth, though the miners refuse to listen."
     },
@@ -341,9 +341,9 @@
     "npc:coleman-farthing": {
       "1": [
         {
-          "duration": 82.52081632653062,
-          "file": "Audio/Transport/full_npc_coleman-farthing-538a215a9dc9208f8c74/1-0000.mp3",
-          "sha256": "4872a32a69efd50e3238efe3ff201e3fb2e204fac99afa71048ec7a5a2fbc9c6",
+          "duration": 83.5657142857143,
+          "file": "Audio/Transport/full_npc_coleman-farthing-8bee3d6dd7c15990381a/1-0000.mp3",
+          "sha256": "cbacc1f6f269fdb767ff19adebdfea04a380770dd3ffbe13dfa01209dd71f060",
           "start": 0
         }
       ],
@@ -355,12 +355,12 @@
         ]
       },
       "fullHash": "4f6f44",
-      "generation": "0d904dbe6035d7bce8e2",
+      "generation": "a4679e94b4a735a15865",
       "hash": "e6c443",
       "source": {
-        "duration": 82.520816,
+        "duration": 83.591837,
         "file": null,
-        "sha256": "538a215a9dc9208f8c745461e6d6cbe1519a796ce7e066ddf7002077bc2b2fe1"
+        "sha256": "8bee3d6dd7c15990381a7a7c42f4d6578518664b72e284ffbae615baef4f4012"
       },
       "text": "Coleman Farthing. Coleman Farthing is a bitter Forsaken survivor residing in the Gallows' End Tavern in Brill. In life, he worked for the wealthy Agamand dynasty at their extensive flour mills in northern Tirisfal. Convinced to stay and defend the estate against the Scourge, he died alongside his fellow laborers, and now dedicates his undeath to exacting vengeance on his former masters. Before the Third War, Coleman Farthing earned an honest living as a laborer at the Agamand Mills, the largest milling and agricultural operation in Tirisfal Glades. When the Scourge poured across Lordaeron, the aristocratic Agamand family refused to flee their valuable lands. Instead, they urged their household and laborers to take up arms alongside them, promising they could hold the farmsteads against the undead horde. Coleman and his fellow workers stayed, believing their masters—a decision that cost every last one of them their lives. Raised into undeath only to break free under the banner of the Forsaken, Coleman harbors a burning hatred for the Agamands. Rather than blaming only the Scourge, he blames the sheer hubris and greed of his employers for tricking their staff into an impossible last stand. Now loitering in Brill's tavern, Coleman enlists Horde champions to march into the blighted mills, cut down the risen Agamand kin, and plunder the heirloom weapons housed within their family crypt so that the last of their honor is stripped away."
     },
@@ -471,9 +471,9 @@
     "npc:devrak": {
       "1": [
         {
-          "duration": 100.8065306122449,
-          "file": "Audio/Transport/full_npc_devrak-6c98aa51298fbd8d5ca0/1-0000.mp3",
-          "sha256": "fc815c67c71d20d8331e6252ef969728b4dfefff9ad18a3a7b75c2d9245e0d55",
+          "duration": 93.88408163265306,
+          "file": "Audio/Transport/full_npc_devrak-97aaaf5fd913a4003910/1-0000.mp3",
+          "sha256": "4ff5bad32a29cf581a9ca50ce24dd5e2f08fc864633359bc48a053a9bde8137c",
           "start": 0
         }
       ],
@@ -485,12 +485,12 @@
         ]
       },
       "fullHash": "043b9e",
-      "generation": "922f26f157bd821d89d6",
+      "generation": "0b3ceb965425178e52fe",
       "hash": "5e8cff",
       "source": {
-        "duration": 100.780375,
+        "duration": 93.910204,
         "file": null,
-        "sha256": "6c98aa51298fbd8d5ca017be99694fcac5e5ba66d9eac519d39839b53beca182"
+        "sha256": "97aaaf5fd913a4003910f830cc550ec3f3679261bd5ac1d68c2a6b0f301287a3"
       },
       "text": "Devrak. Devrak is an orc wind rider master stationed at the Crossroads in the Barrens. Serving as the primary aerial conduit of central Kalimdor, he oversees the Horde's network of wyverns shuttling supplies and couriers between Durotar, Mulgore, and frontier outposts. He also ensures that crucial logistics, such as game meats and prepared hides, travel smoothly to the Horde's capitals. Positioned at the intersection of Kalimdor's major trade routes, Devrak tends the wyverns that keep the Horde unified across vast distances. The Crossroads sits exposed under the baking sun, vulnerable to quilboar, centaur, and Alliance scouts alike, making rapid aerial transit indispensable. Devrak handles both seasoned wayfarers and untested messengers, pairing riders with trained wind riders capable of crossing the savannah and reaching the mountain heights of Mulgore or the stone canyons of Durotar. Beyond ferrying travelers, Devrak plays a vital role in frontier logistics. The hunters of the Barrens harvest meat and pelts in abundance, which Devrak helps channel directly to the cooking fires of Orgrimmar and the tanners of Thunder Bluff. By introducing budding couriers to flight masters across the continents, he cements the aerial lifeline that feeds the Horde's heartlands. Flight masters in contested frontier territories cannot afford to be defenseless. Devrak is far more than a simple beast handler; when the Crossroads falls under attack, he calls upon enraged wyverns to tear into hostile intruders with venomous stingers and talons, making his roost a dangerous target for anyone bold enough to strike the settlement."
     },
@@ -757,9 +757,9 @@
     "npc:kadrak": {
       "1": [
         {
-          "duration": 68.07510204081633,
-          "file": "Audio/Transport/full_npc_kadrak-426cd66499a9dae9d19f/1-0000.mp3",
-          "sha256": "48e5e3449036f1fd75ed2807c4493d0405b8043cf06d75a6d56460ffaa4036d8",
+          "duration": 67.76163265306123,
+          "file": "Audio/Transport/full_npc_kadrak-9e126034b2715a0a8f58/1-0000.mp3",
+          "sha256": "aa94a257b45b0af02c61601c4c5be9491d719cfc50c28bb890981199117040a9",
           "start": 0
         }
       ],
@@ -771,12 +771,12 @@
         ]
       },
       "fullHash": "63acf5",
-      "generation": "70fefa3d70622c74e8fc",
+      "generation": "5818a233fe3c6c1266a6",
       "hash": "5a62d3",
       "source": {
-        "duration": 68.048938,
+        "duration": 67.761633,
         "file": null,
-        "sha256": "426cd66499a9dae9d19f4f662fd57e186d72975ca66c4ebc84209d76b7840daf"
+        "sha256": "9e126034b2715a0a8f58bfa440453fdcd6c5f19aec3bfe02918684b11dddfe42"
       },
       "text": "Kadrak. Kadrak is a seasoned orc commander stationed at the Mor'shan Rampart on the border between the Barrens and Ashenvale. Tasked with safeguarding the northern frontier, he coordinates the flow of dispatches and reinforcements into the contested forest. For Horde adventurers pushing past the arid plains, Kadrak serves as the gateway to the ongoing struggle against the night elves. Standing atop the fortified timber barricades of the Mor'shan Rampart, Kadrak watches over the primary route connecting the Barrens to Ashenvale. The border is a precarious frontier: to the south lie the sun-scorched plains claimed by the Horde, while to the north loom the ancient woods guarded fiercely by the night elves. Kadrak ensures that the defensive perimeter remains unbroken against encroaching Sentinels and hostile woodland creatures. Beyond holding the line, Kadrak manages essential military intelligence between the Barrens and the forward logging camps deeper in the forest. He receives couriers bearing critical combat reports from the Warsong Outriders and coordinates the movement of supplies and fresh blood into outpost hubs like Splintertree Post. Those reporting to him are promptly directed into the heart of the territorial war."
     },
@@ -809,9 +809,9 @@
     "npc:magistrate-sevren": {
       "1": [
         {
-          "duration": 60.89142857142858,
-          "file": "Audio/Transport/full_npc_magistrate-sevren-324d64635921173f53ab/1-0000.mp3",
-          "sha256": "13821d7c3ad3b4013554ebb6c0c5552e2ba0bb30f16d67a0027ad6defeba32bd",
+          "duration": 58.88,
+          "file": "Audio/Transport/full_npc_magistrate-sevren-41d2a1f2ce1fe18e738e/1-0000.mp3",
+          "sha256": "ba6e7c1bc1c9fa0e8b5f062548540cd2b94d85331676073e2c99a9750a8c8ab0",
           "start": 0
         }
       ],
@@ -823,12 +823,12 @@
         ]
       },
       "fullHash": "5ad408",
-      "generation": "9cc616afbd43a9b1bbaf",
+      "generation": "f80ec510d7b6e43e7781",
       "hash": "3a159d",
       "source": {
-        "duration": 60.86525,
+        "duration": 58.88,
         "file": null,
-        "sha256": "324d64635921173f53ab88c65c35baad6f152b37cd0071097083f5e730bcbb2a"
+        "sha256": "41d2a1f2ce1fe18e738ea3d2ac54fcda26c41c2806da02ac0fdec08385d95d26"
       },
       "text": "Magistrate Sevren. Magistrate Sevren is the chief administrative official presiding over the settlement of Brill in Tirisfal Glades. Standing inside the town hall, he organizes early Forsaken defense and directs arriving champions to stabilize the territory around the Undercity. Operating from the town hall in Brill, Magistrate Sevren coordinates civil authority and strategic efforts in the lands just north of the Undercity. As new Forsaken step forth into Tirisfal Glades, Sevren assesses local crises and dispatches adventurers to restore order, secure ruined infrastructure, and suppress persistent threats lingering in the surrounding hills. Sevren's primary concerns center on the preservation and recovery of the Tirisfal dead. Local graverobbers, rot hides, and rogue undead disrupt burial grounds, threatening the emerging dominion of Sylvanas Windrunner. Sevren ensures that ancestral tombs—such as the Agamand Family Crypt—are reclaimed and that deserters or uncooperative forces do not subvert Forsaken authority in the region."
     },
@@ -1069,9 +1069,9 @@
     "npc:shadow-priest-allister": {
       "1": [
         {
-          "duration": 76.85224489795918,
-          "file": "Audio/Transport/full_npc_shadow-priest-allister-0aa8d5b78fad0d47adb2/1-0000.mp3",
-          "sha256": "c88d25ecc80db31982a29deb4bf41ef3dc481642e36f14723afeab155c1f91e4",
+          "duration": 76.53877551020409,
+          "file": "Audio/Transport/full_npc_shadow-priest-allister-c341ea2a51e68dde6b1b/1-0000.mp3",
+          "sha256": "3c0f4d9a60774a21f682082d9b10402ea4fb7876c8d3f5187a817713d092a748",
           "start": 0
         }
       ],
@@ -1083,12 +1083,12 @@
         ]
       },
       "fullHash": "62aa61",
-      "generation": "3e26788720c28dddc66e",
+      "generation": "2ebdee06f28bec9235b8",
       "hash": "2322b9",
       "source": {
-        "duration": 76.852245,
+        "duration": 76.538776,
         "file": null,
-        "sha256": "0aa8d5b78fad0d47adb2ffbc29d019180f5612a6105f00f05cf56ac9582e744e"
+        "sha256": "c341ea2a51e68dde6b1b7b8b43710f8be4a02408459374f0cf56843be9283ec8"
       },
       "text": "Shadow Priest Allister. Shadow Priest Allister is a Forsaken priest stationed at the Sepulcher in Silverpine Forest. Overseeing intelligence and tactical efforts in the region, he coordinates operations to monitor Dalaran's wizards and secure the borders of Lordaeron for the Dark Lady. Operating out of the Sepulcher, Shadow Priest Allister directs Forsaken reconnaissance throughout Silverpine Forest. From this central crypt settlement, he tracks nearby threats ranging from renegade humans and beastly incursions to the arcane machinations unfolding around Dalaran. Allister's chief concern lies with the surviving mages of Dalaran, particularly those occupying Ambermill and probing across the borders. Unwilling to let the Kirin Tor entrench themselves in Forsaken lands, he dispatches agents to intercept Dalaran messengers, decipher arcane runes, and determine the wizards' long-term ambitions. Beyond his duties as a field strategist, Allister is a cynical philosopher of the shadow. He is the author of 'Holy Bologna: What the Light Won't Tell You'—a scathing treatise criticizing traditional holy doctrine. The text explores the harsh realities of undeath and how the Holy Light fails those discarded by life, a work that has somehow circulated as far afield as the ruins of Dire Maul in Kalimdor."
     },
@@ -1147,9 +1147,9 @@
     "npc:sputtervalve": {
       "1": [
         {
-          "duration": 97.20163265306122,
-          "file": "Audio/Transport/full_npc_sputtervalve-bb4cd72d1a4c8b6f0e08/1-0000.mp3",
-          "sha256": "ffd1fa1c2f86a244ffd181bd54dc7fcc46fa0f3edf1f7b249efbd1c0818923e2",
+          "duration": 97.9591836734694,
+          "file": "Audio/Transport/full_npc_sputtervalve-20069ca03b1f603d878a/1-0000.mp3",
+          "sha256": "87760790f5bc482124b63e1835fa91d17c1bd58c9adbd54b15e9c7e2608cc433",
           "start": 0
         }
       ],
@@ -1161,12 +1161,12 @@
         ]
       },
       "fullHash": "7f241e",
-      "generation": "e8d7754c75f99dbbfa2f",
+      "generation": "17b694b6aed6446d54da",
       "hash": "5b5869",
       "source": {
-        "duration": 97.1755,
+        "duration": 97.985306,
         "file": null,
-        "sha256": "bb4cd72d1a4c8b6f0e0808799fc9058981738a277bd927336604044eb3822021"
+        "sha256": "20069ca03b1f603d878a120bcc89abdce3c5f943d66324466fab39196b45fe78"
       },
       "text": "Sputtervalve. Sputtervalve is a stressed goblin engineer stationed in the port town of Ratchet. Serving the Tinkers' Union under Director Riddlevox, he oversees regional shredder research and development under crushing corporate deadlines. To keep his standing, he frequently hires adventurers to engage in industrial espionage against the rival Venture Company. Operating out of Ratchet, Sputtervalve answers to Director Riddlevox of the Tinkers' Union. Put in charge of shredder development, he quickly discovered that keeping pace with modern mechanization is brutal work. Facing fierce competition and an unforgiving deadline, Sputtervalve found himself with few working prototypes of his own. Rather than admit failure to the Union, he turned toward the classic goblin solution: stealing better designs from whoever built them first. Sputtervalve's primary target is the Venture Company's drilling operation at the Sludge Fen to the northwest. Their latest shredder models boast interchangeable hands, refined control grips, and advanced internal mechanisms like the elusive samophlange. Desperate to crack their secrets, Sputtervalve dispatched his associate Wizzlecrank into the Fen for 'field research,' only for the operative to get trapped, forcing Sputtervalve to hire wandering mercenaries to recover stolen technology and rescue his partner. Beyond his shredder dilemmas, Sputtervalve acts as a general point of contact for strange curiosities passing through the Barrens. When adventurers drag bizarre, corrupter-infused artifacts out of the Wailing Caverns—such as a glowing shard—Sputtervalve knows enough about the local landscape to direct them away from gadgetry and toward the isolated druids encamped above the caverns."
     },
@@ -1174,8 +1174,8 @@
       "1": [
         {
           "duration": 80.53551020408163,
-          "file": "Audio/Transport/full_npc_strahad-farsan-3de05ada35350377054c/1-0000.mp3",
-          "sha256": "7a52f6f89ccb5176ffcbf6b10d43b0b5551220df833d6831fbad9159e511cf78",
+          "file": "Audio/Transport/full_npc_strahad-farsan-6a3c253f7860e6fa0609/1-0000.mp3",
+          "sha256": "4c4a1f712a94696c030901d7b708152c1697d7757dd4cee48bb9599ea1667572",
           "start": 0
         }
       ],
@@ -1187,12 +1187,12 @@
         ]
       },
       "fullHash": "5c1ec3",
-      "generation": "bc76d6428d2a22d78d3b",
+      "generation": "c104d4278cef23553750",
       "hash": "cb26a9",
       "source": {
-        "duration": 80.509375,
+        "duration": 80.53551,
         "file": null,
-        "sha256": "3de05ada35350377054cab3b35554f61dce56010d6e0a6e2d7c95b254b3d3840"
+        "sha256": "6a3c253f7860e6fa0609adacd9edc9c81cdca1750c41961e2d18a701fd19e2e8"
       },
       "text": "Strahad Farsan. Strahad Farsan is a master human warlock who dwells in a secluded stone tower overlooking Ratchet in the Barrens. Renowned across faction lines, he operates outside conventional Alliance and Horde politics, training aspiring summoners in the dangerous arts of binding higher demons. Practitioners of fel magic from Stormwind, Orgrimmar, and the Undercity alike seek his severe guidance. Perched on the bluffs above the goblin port of Ratchet, Strahad Farsan's tower stands apart from the bustling trade docks below. Ratchet's neutrality offers Strahad the freedom to conduct perilous demonic summonings away from the prying eyes of Alliance magistrates or Horde shamans. Surrounded by his acolytes, he studies the deeper mysteries of the Twisting Nether in relative seclusion, unbothered by petty territorial squabbles. Strahad earned his formidable reputation through direct, deadly experience. When first binding a felhunter into service, he barely escaped with his life—an ordeal that left him both acutely cautious and unyielding in his expectations. Despite his human heritage, he has earned the respect of shadowy figures across Azeroth, including Gakin the Darkbinder in Stormwind and demonic scholars in the Undercity and Orgrimmar. Warlocks of any banner who wish to command creatures as volatile as felhunters or fiery steeds are inevitably directed to his doorstep."
     },
@@ -1277,9 +1277,9 @@
     "npc:thotar": {
       "1": [
         {
-          "duration": 74.94530612244898,
-          "file": "Audio/Transport/full_npc_thotar-24e38352fa4229092651/1-0000.mp3",
-          "sha256": "c671db47864edbd39ecf86d2d16d0249a8a652a67633cbd65daf8c833a1f46c1",
+          "duration": 72.6465306122449,
+          "file": "Audio/Transport/full_npc_thotar-e6eb7a346c211fae031b/1-0000.mp3",
+          "sha256": "9eeadea0e8760eef29faf13ee2ef3f4cead61829ec13c9f778194fd152e28a68",
           "start": 0
         }
       ],
@@ -1291,12 +1291,12 @@
         ]
       },
       "fullHash": "b2cb21",
-      "generation": "8c62f13acbbd47eb4076",
+      "generation": "b9020f8e62a30a5549e0",
       "hash": "04d3c4",
       "source": {
-        "duration": 74.919125,
+        "duration": 72.646531,
         "file": null,
-        "sha256": "24e38352fa42290926510dd9ba05605aa98f784d3e870b2529103a3f1c3e3141"
+        "sha256": "e6eb7a346c211fae031b31b8b4462cb04d744970c49c62d35338901ae7c96bba"
       },
       "text": "Thotar. Thotar is a seasoned orc hunter trainer stationed in the settlement of Razor Hill in Durotar. He guides aspiring Horde scouts and marksmen in the ancient traditions of tracking, archery, and bonding with wild beasts. For young orcs and trolls taking their first steps outside the Valley of Trials, he provides the foundational rites needed to master Kalimdor's rugged fauna. Perched within the fortified hub of Razor Hill, Thotar serves as a veteran instructor for marksmen of the Horde. While new recruits learn the very basics in the Valley of Trials, it falls to Thotar to guide hunters as they face the harsher predatory wilderness of Durotar. Drawing upon traditions passed down through countless generations of orcs, he teaches not only marksmanship, but the deeper respect required to live alongside and direct Kalimdor's deadliest creatures. Thotar plays a crucial role in introducing young hunters to the ancient art of beast taming. Through a sequence of trials, he sends novices into the arid canyons to pacify and commune with native beasts, such as venomous scorpid, armored surf crawlers, and cunning boars. By guiding these young scouts through the sacred rites of taming, Thotar ensures the Horde's trackers build a loyal bond with nature rather than merely attempting to dominate it by force."
     },
@@ -1433,9 +1433,9 @@
     "npc:yaw-sharpmane": {
       "1": [
         {
-          "duration": 46.88979591836735,
-          "file": "Audio/Transport/full_npc_yaw-sharpmane-f95cc10a413bd443708d/1-0000.mp3",
-          "sha256": "4ec4d714fd181a60273cfc428772f4bcfd6ebea5976e848331f3950973b3d931",
+          "duration": 47.12489795918368,
+          "file": "Audio/Transport/full_npc_yaw-sharpmane-9944d111805038cc6497/1-0000.mp3",
+          "sha256": "9194ef0befbca5135e6a705e272e45304128da824dffd0acb2a852bb0c887cfa",
           "start": 0
         }
       ],
@@ -1447,12 +1447,12 @@
         ]
       },
       "fullHash": "6da706",
-      "generation": "c21c3dfa6cd9e38e2a9c",
+      "generation": "5c1bc797987ff0af96c0",
       "hash": "b315d3",
       "source": {
-        "duration": 46.889796,
+        "duration": 47.15102,
         "file": null,
-        "sha256": "f95cc10a413bd443708dd76a7536596c8f35e131cc4e4d88b8a5deadfad7b828"
+        "sha256": "9944d111805038cc6497df1881d6c244977f2bc9bb8a854bf4c0f8cc62d2a668"
       },
       "text": "Yaw Sharpmane. Yaw Sharpmane is an experienced tauren hunter trainer stationed in Bloodhoof Village in Mulgore. He guides young hunters venturing out from Camp Narache, helping them master the wild beasts of their ancestral plains. Positioned amidst the tents and fires of Bloodhoof Village, Yaw Sharpmane serves the Shu'halo as an instructor in the ways of marksmanship, tracking, and survival. Young hunters who have proven themselves in Red Cloud Mesa are directed to Yaw to hone their craft as they step onto the broader plains of Mulgore. Yaw's most essential role is guiding novice hunters through the ancient rite of taming wild beasts. He tasks initiates with bonding with the native fauna of Mulgore, testing their patience and respect for the natural balance before instructing them on how to properly care for and train a permanent companion."
     },
@@ -1615,9 +1615,9 @@
     "subzone:bael-dun-keep": {
       "1": [
         {
-          "duration": 81.81551020408163,
-          "file": "Audio/Transport/full_subzone_bael-dun-keep-7300bfb44e3520f600b4/1-0000.mp3",
-          "sha256": "1ba599401e74c6d94875b8d0b7024391cdb63a9864d5fb36bcc6cb85a916408f",
+          "duration": 77.42693877551021,
+          "file": "Audio/Transport/full_subzone_bael-dun-keep-1ca35b77f4e5c0bde577/1-0000.mp3",
+          "sha256": "e5119dafcece142d345cf7ac289df84f82be2f61f84ef8432a695eab37c1d1e6",
           "start": 0
         }
       ],
@@ -1629,12 +1629,12 @@
         ]
       },
       "fullHash": "6cfda8",
-      "generation": "b499a171efe47f95743b",
+      "generation": "912fe06bcb3923739e31",
       "hash": "6ce2f8",
       "source": {
-        "duration": 81.789375,
+        "duration": 77.426939,
         "file": null,
-        "sha256": "7300bfb44e3520f600b488a2e85073a3e162f94f578298e349deadc469f5571f"
+        "sha256": "1ca35b77f4e5c0bde577047626872e9d2eca677cc2e7239087b8d5ada8ca88e5"
       },
       "text": "Bael'dun Keep. Bael'dun Keep is an imposing dwarven fortification overlooking the Bael Modan excavation in the southern Barrens. Under the command of General Twinbraid, this fortress anchors the Alliance's controversial presence in the region, bringing them into violent conflict with the surrounding Horde territories. Constructed according to designs by the dwarven architect Haggis Boatmurder, Bael'dun Keep serves as the fortified military heart of the Ironforge presence in the southern Barrens. Towering over the expansive excavation trenches of Bael Modan, the fortress protects the Prospectors and archaeologists searching for ancient titan artifacts. Heavily armed with ironworks and artillery, its garrison maintains a vigilant watch, securing dwarven supply lines and projecting Alliance martial power straight into Kalimdor's heartland. The construction of Bael'dun Keep and the adjoining digsite did not come peacefully; it displaced the local Stonespire tribe of tauren from their ancestral home. Now, Bael'dun sits as a simmering flashpoint in the Barrens. Nearby Horde outposts view the fortress as a flagrant military intrusion, while Gann Stonespire wages a personal war of vengeance against the invaders. Between aggrieved tauren, opportunistic scouts, and suspicious outposts like Camp Taurajo, the keep is constantly under threat of raid and sabotage."
     },
@@ -1667,9 +1667,9 @@
     "subzone:balnir-farmstead": {
       "1": [
         {
-          "duration": 48.3265306122449,
-          "file": "Audio/Transport/full_subzone_balnir-farmstead-c8ca5016c19f99ac360d/1-0000.mp3",
-          "sha256": "f3d995a4a2b966787a2c43615c19158247581f7a0c7d17408ac6c2054732d626",
+          "duration": 47.51673469387755,
+          "file": "Audio/Transport/full_subzone_balnir-farmstead-e24412efd3f31930fa0a/1-0000.mp3",
+          "sha256": "4455fd72ab5aa6e9c1ea910ec0d594211d8a98ccfc0d991c95924dd680be9853",
           "start": 0
         }
       ],
@@ -1681,21 +1681,21 @@
         ]
       },
       "fullHash": "dc1bf8",
-      "generation": "1413bb2b4f68cf43c6cd",
+      "generation": "ee99dc0df2259c47d478",
       "hash": "542d38",
       "source": {
-        "duration": 48.300375,
+        "duration": 47.542857,
         "file": null,
-        "sha256": "c8ca5016c19f99ac360df370977f5235de4099d3ad7c4cc45dfaef097cbcc35e"
+        "sha256": "e24412efd3f31930fa0a28e2e0b82682657801f14fb5dc9453a6f040e3f5396a"
       },
       "text": "Balnir Farmstead. The Balnir Farmstead is a derelict estate in eastern Tirisfal Glades, northeast of the Ruins of Lordaeron. Once a working farm of the Balnir family, the lands now lie ruined and infested by wandering Scourge that slip past the Bulwark. For generations, the Balnir family worked their homestead in the rolling hills of eastern Tirisfal, and their garden of snapdragons still blooms among the ruins. When the Scourge swept through Lordaeron during the Third War, the farm was overrun and its people lost, leaving the buildings to rot. In the wake of the Third War, the ruins serve as a foothold for mindless Scourge slipping past the Bulwark. Forsaken deathguards watch the farm warily, while Undercity magi harvest surviving snapdragons from the garden to test how deeply plague corruption has crept into the soil."
     },
     "subzone:bandarion-keep": {
       "1": [
         {
-          "duration": 68.91102040816327,
-          "file": "Audio/Transport/full_subzone_bandarion-keep-ad00a82a3d041a876a99/1-0000.mp3",
-          "sha256": "837dee2d15ef79d79ce0b1b1494e799442c4a965903e6a684c2b0856be118cdf",
+          "duration": 70.87020408163265,
+          "file": "Audio/Transport/full_subzone_bandarion-keep-68b80d985e6e1760eab6/1-0000.mp3",
+          "sha256": "52c1e9b9a0914d28d7ff49498e7837aa33ded5bb3a155c5f576bd20b7eb87bfc",
           "start": 0
         }
       ],
@@ -1707,12 +1707,12 @@
         ]
       },
       "fullHash": "3bdf1f",
-      "generation": "6d31ae55f8dc1f996f70",
+      "generation": "1dc39e21ccb77917a315",
       "hash": "99d14c",
       "source": {
-        "duration": 68.884875,
+        "duration": 70.870204,
         "file": null,
-        "sha256": "ad00a82a3d041a876a99d589c6d82306131106742c7606e575a45d8c850da26e"
+        "sha256": "68b80d985e6e1760eab6c3d70447bdb1907a2e69cdd6cb92d6596dc6e7787f4b"
       },
       "text": "Bandarion Keep. Bandarion Keep is a fortified redoubt associated with Tyr's Watch, nestled in the western reaches of Tirisfal Glades near the Whispering Forest. Named in honor of Garek Bandarion, the outpost serves as an isolated bulwark amidst lingering threats across the woodland frontier. Its defenders contend with everything from hostile coastal murlocs to roving zealots and unstable undead. Situated near the secluded Whispering Forest in western Tirisfal Glades, Bandarion Keep stands as a solitary sentinel for the Forsaken. Named after Garek Bandarion, this stronghold is closely tied to Tyr's Watch. Quartermasters like Jorin Croge work diligently to keep the garrison supplied despite its remote and challenging position far from the bustling courtyards of the Undercity. Holding the keep is no quiet assignment. The outpost faces constant danger from Vile Fin murloc raids along nearby waters, probing skirmishes by the Scarlet Crusade, and stray, mindless Scourge thralls shambling through the gloom. Worse still are internal perils: certain paladins struggling to adjust to their unlife as Forsaken have succumbed to madness, turning their weapons against their own kindred."
     },
@@ -1927,9 +1927,9 @@
     "subzone:brill": {
       "1": [
         {
-          "duration": 81.03183673469388,
-          "file": "Audio/Transport/full_subzone_brill-bf9495e5ee662da9ad3c/1-0000.mp3",
-          "sha256": "a595ffec1a4a19ba008683bf11b24ff81c2f15e559769a8f0a1a8f5a56c9a0ab",
+          "duration": 83.33061224489796,
+          "file": "Audio/Transport/full_subzone_brill-fa7ad7f30f8d6a127dae/1-0000.mp3",
+          "sha256": "95e0ab710e34685399c33bc8a0235c8aa27778bd9ac16622c097a7cc6ece248f",
           "start": 0
         }
       ],
@@ -1941,21 +1941,21 @@
         ]
       },
       "fullHash": "9c997a",
-      "generation": "213328acc94c4855c8cf",
+      "generation": "102bc0818bfe4c2059d1",
       "hash": "7657f6",
       "source": {
-        "duration": 81.005688,
+        "duration": 83.330612,
         "file": null,
-        "sha256": "bf9495e5ee662da9ad3c75ff6f9b459bc7089ece7ed6eaa407db3f1fd43c692e"
+        "sha256": "fa7ad7f30f8d6a127daeb0e4328e3111a0a61dc2f67243248aac7bc11b053fda"
       },
       "text": "Brill. Brill is the primary Forsaken settlement in the heart of Tirisfal Glades, situated just north of the Ruins of Lordaeron. Once a prosperous human town, it now serves as the administrative and military hub for newly awakened undead stepping beyond the confines of Deathknell. Before the Third War, Brill was a lively village under the sway of regional nobles such as the Barov and Agamand families. That prosperity ended when Kel'Thuzad chose the area for the Cult of the Damned's earliest experiments with the Plague of Undeath. The devastating blight swept through the population so quickly that local militia were driven out, leaving a sprawling mass graveyard in its wake.\n\nNow rebuilt by the Forsaken under the leadership of Magistrate Sevren, the town retains its weathered Lordaeron architecture beneath an atmosphere of grim purpose. Brill functions as the regional command center, coordinating defenses against Scarlet Crusade incursions, roaming Scourge remnants, and native beasts warped by necromantic decay. Beyond local defense, Brill is an essential crossroads linking Tirisfal Glades to the wider Horde. Overhead, the goblin-operated zeppelin tower provides transit south toward Durotar and deep into Stranglethorn Vale. Within the settlement, Gallows' End Tavern serves not only as a dark shelter for travelers, but also as a makeshift laboratory where captured Scarlet zealots are interrogated and subjected to apothecarial testing."
     },
     "subzone:brill-town-hall": {
       "1": [
         {
-          "duration": 44.01632653061225,
-          "file": "Audio/Transport/full_subzone_brill-town-hall-2d9844272569d8af38fb/1-0000.mp3",
-          "sha256": "012043a896dc109b1e91805bfc74a2f65b54cafafd3df5adb967e5d2c9f0e984",
+          "duration": 43.859591836734694,
+          "file": "Audio/Transport/full_subzone_brill-town-hall-4083d38d45c22ba8b619/1-0000.mp3",
+          "sha256": "33066df5a830b2f9943ecbe3c83a938dd3eb51a3026a7e85758e9fad95c830a9",
           "start": 0
         }
       ],
@@ -1967,12 +1967,12 @@
         ]
       },
       "fullHash": "6f3d1f",
-      "generation": "e08fe4c21f09848cf056",
+      "generation": "58f5de81cddad700766b",
       "hash": "6f3d1f",
       "source": {
-        "duration": 43.990188,
+        "duration": 43.859592,
         "file": null,
-        "sha256": "2d9844272569d8af38fbd791f4f1e856b2cc9b15bad016f6772bb56064e5e100"
+        "sha256": "4083d38d45c22ba8b619ae121b1c60ffd3f69d02fc8fbdd7118f3043bc1ee646"
       },
       "text": "Brill Town Hall. Brill Town Hall is the administrative heart of the settlement of Brill in central Tirisfal Glades. Standing as the most prominent structure in town, it serves as the civic headquarters from which the Forsaken govern their local holdings and coordinate the defense of the glades. While much of Lordaeron lies shattered and ruined, Brill Town Hall remains standing as a functioning civic center under undead rule. Inside, Magistrate Sevren directs town affairs from his podium, handing out vital commissions and directives to Forsaken adventurers. Aside from the Defiler's Den in the Arathi Highlands, it is one of the only recognized town halls in the known world actively run by the Forsaken, serving as a bleak parody and functional continuation of old Lordaeron's municipal bureaucracy."
     },
@@ -2057,9 +2057,9 @@
     "subzone:cavern-of-mists": {
       "1": [
         {
-          "duration": 47.02040816326531,
-          "file": "Audio/Transport/full_subzone_cavern-of-mists-9ec6d89684c37a5d13a6/1-0000.mp3",
-          "sha256": "7208ceec5f9a992717d47750a4e9adadc3b2926f2bf0b2b7972e02b0948ee8a3",
+          "duration": 50.25959183673469,
+          "file": "Audio/Transport/full_subzone_cavern-of-mists-24cb433f0457f5500938/1-0000.mp3",
+          "sha256": "5803953cc6e75a2afbf32b37062d87bd05f5cc8961488117145ca6343fb6ad8c",
           "start": 0
         }
       ],
@@ -2071,12 +2071,12 @@
         ]
       },
       "fullHash": "8bdf48",
-      "generation": "dbde185c4b540e4f9654",
+      "generation": "40cca54174238b49cc0f",
       "hash": "8bdf48",
       "source": {
-        "duration": 46.99425,
+        "duration": 50.259592,
         "file": null,
-        "sha256": "9ec6d89684c37a5d13a60ed4c234d09376376f1b39da7c32e1f26d107169ee09"
+        "sha256": "24cb433f0457f55009382f51a5e647bae19f1e8ecbe58a3bdee72e7970c78edc"
       },
       "text": "Cavern of Mists. The Cavern of Mists is the expansive outer antechamber leading into the depths of the Wailing Caverns. Fed by subterranean geysers that erupt through the rock, its central pool and hanging fog harbor strange, mutated wildlife roaming just outside the portal threshold. Before descending into the true heart of the Wailing Caverns, travelers must navigate the Cavern of Mists. Thick, warm vapor hangs permanently in the air, fed by natural geysers erupting from the cavern floor into a deep central pool. Though it serves as an entryway, it is far from peaceful. Swarms of raptors, serpents, oozes, and semi-aquatic threshadons wander the ledges and waters, alongside notorious beasts like the hydra Trigore the Lasher. It provides adventurers an ominous preview of the unnatural growth festering deeper below."
     },
@@ -2265,9 +2265,9 @@
     "subzone:dawning-isles": {
       "1": [
         {
-          "duration": 61.7534693877551,
-          "file": "Audio/Transport/full_subzone_dawning-isles-d149063c7f6f2e8a904d/1-0000.mp3",
-          "sha256": "7fa7bc23a40e47c6a924ea00da19ccf9fdab903369f9f9d71145d2169bb55a43",
+          "duration": 60.865306122448985,
+          "file": "Audio/Transport/full_subzone_dawning-isles-bc22302cb2654a6a94f3/1-0000.mp3",
+          "sha256": "9a188a1e1b23b3fad2012f3c33bc23a69500b6420f3f9b1a52daa0266af780a4",
           "start": 0
         }
       ],
@@ -2279,12 +2279,12 @@
         ]
       },
       "fullHash": "8dc242",
-      "generation": "c867ff6196a5e7134eea",
+      "generation": "03b642307c9227a42697",
       "hash": "bcbfa8",
       "source": {
-        "duration": 61.727313,
+        "duration": 60.891429,
         "file": null,
-        "sha256": "d149063c7f6f2e8a904d60aaf9d8967ac539c3caddbd03d6ad5e36453d0823bb"
+        "sha256": "bc22302cb2654a6a94f34a709f6d47a97dc9016c0376bc8ca6595a7bbc848b41"
       },
       "text": "Dawning Isles. The Dawning Isles are a cluster of low-lying islets situated within Lordamere Lake along the eastern edge of Silverpine Forest. Once idyllic retreats, they have succumbed to the blight of the Plague of Undeath and are overrun by aggressive murlocs. Before the Third War, the Dawning Isles were known as scenic keys resting on the calm, clear waters of Lordamere Lake. When the Plague of Undeath swept across Lordaeron, corruption seeped into the lake's shallows. The vegetation turned pallid and rotting, driving away idyllic peacefulness. Today, the Vile Fin murloc tribe dominates the muddy shores and tangled brush, aggressively defending their burgeoning colonies from anyone seeking to traverse the lake. Murlocs were not always the only danger on the isles. Bog beasts once prowled the blighted islets alongside them, but the bog beasts have since vanished. In their absence the Vile Fin population has swelled to the point that the murlocs now control the isles outright, turning what was once a quiet chain of keys into their stronghold on Lordamere Lake."
     },
@@ -2395,9 +2395,9 @@
     "subzone:drag": {
       "1": [
         {
-          "duration": 80.92734693877551,
-          "file": "Audio/Transport/full_subzone_drag-eb2847218b2ad61348b7/1-0000.mp3",
-          "sha256": "07d5ea2f89becbdab4e957744fdf417fade21860cc5a38fd551717ad51f03ba6",
+          "duration": 77.42693877551021,
+          "file": "Audio/Transport/full_subzone_drag-18a6fccd4981ae836321/1-0000.mp3",
+          "sha256": "a70d4f8f5bd6cb08129eb3b75597543b50b294e813490533047df517f14b4821",
           "start": 0
         }
       ],
@@ -2409,12 +2409,12 @@
         ]
       },
       "fullHash": "48f0c2",
-      "generation": "81d7d48c5ee5c7e52660",
+      "generation": "458c225f18208ae7f471",
       "hash": "1a62df",
       "source": {
-        "duration": 80.901188,
+        "duration": 77.426939,
         "file": null,
-        "sha256": "eb2847218b2ad61348b7298522c1682529661bcfabbab27c7da278ce7edcaca9"
+        "sha256": "18a6fccd4981ae83632109fc5e9dba7eab14b8d41ed4a9fbde946531a3dd14b8"
       },
       "text": "Drag. The Drag is a bustling, shaded thoroughfare carved into the red rock of Orgrimmar, linking the Valley of Strength to the Valley of Honor and the Valley of Wisdom. Known throughout Durotar as the heart of the capital's commerce, its canyon walls are lined with crafters, traders, and artisans. It also conceals the cavernous descent into the notorious Cleft of Shadow. Tucked deep between the red canyon walls of Orgrimmar, the Drag serves as the commercial backbone of the Horde's capital. While the Valley of Strength focuses on military muster and administrative command, the Drag is where daily city life unfolds. Shaded under high cliffs and hides, the street is thick with the smells of tanning vats, bubbling alchemical cauldrons, and the clatter of tinkerers' gears. Craftsmen of almost every discipline gather here to practice their trades and teach aspiring adventurers, from leatherworking and tailoring to goblin-led engineering workshops like Nogg's Machine Shop. Beyond housing merchant storefronts and salvage houses, the Drag occupies an uneasy position within Orgrimmar's social geography. Nestled along its canyon face lies the guarded entrance to the subterranean Cleft of Shadow. This makes the Drag an inescapable crossroads where honest tradesmen, shaman on their way to the Valley of Wisdom, and secretive practitioners of dark arts brush shoulders beneath the dim, dusty overhangs of the canyon."
     },
@@ -2629,9 +2629,9 @@
     "subzone:faol-s-rest": {
       "1": [
         {
-          "duration": 85.08081632653061,
-          "file": "Audio/Transport/full_subzone_faol-s-rest-7f0161bee7cc3e6b9143/1-0000.mp3",
-          "sha256": "e40484cb543f6082168e24bfeb7a3d273080400d9ba2f552e7b137fc6ad823d0",
+          "duration": 87.09224489795919,
+          "file": "Audio/Transport/full_subzone_faol-s-rest-a237b01a0c49331cb757/1-0000.mp3",
+          "sha256": "a8969ffc2fe98cf82e82427f22fd45920bddc63e4e835f19792bfce0200e2502",
           "start": 0
         }
       ],
@@ -2643,12 +2643,12 @@
         ]
       },
       "fullHash": "d5a0a5",
-      "generation": "51ccbad2356d9d340b8f",
+      "generation": "28bbd6d06fec2bef941c",
       "hash": "ea0320",
       "source": {
-        "duration": 85.054688,
+        "duration": 87.118367,
         "file": null,
-        "sha256": "7f0161bee7cc3e6b9143343045923492819fe912144c9c4ddf1a035358488d1c"
+        "sha256": "a237b01a0c49331cb757ad4adbf6b2134357b18fbdbf7e14baffcde50c15619c"
       },
       "text": "Faol's Rest. Faol's Rest is a quiet, neglected gravesite situated in eastern Tirisfal Glades, just southwest of the Scarlet Monastery. It was erected as the tomb of Archbishop Alonsus Faol, the revered spiritual patriarch who founded the Knights of the Silver Hand. Today, untended beneath the blighted canopy, it serves as a release graveyard for those who perish near the monastery. Before the Third War devastated Lordaeron, this secluded hollow was a place of solemn pilgrimage. It holds the stone tomb of Archbishop Alonsus Faol, who led the Church of the Holy Light through the dark days of the Second War and instituted the order of paladins to protect humanity. Faol passed away peacefully prior to the arrival of the Scourge, spared the mortal agony of seeing his kingdom fall. In those brighter years, mourners regularly journeyed up the road from Capital City to leave offerings and pay respects to the beloved patriarch. When the Plague of Undeath swept across Lordaeron, Tirisfal withered, and the pilgrims vanished. Today, the monument sits abandoned and cracked in the shadows beneath the Scarlet Monastery's high bluffs. The wild brush has reclaimed the pathways, and the tomb itself lies still amid the damp mist. For adventurers striving against the zealots of the Scarlet Crusade or the lingering terrors of Tirisfal, this forgotten resting place now serves primarily as a quiet threshold where fallen spirits briefly regroup before returning to the fray."
     },
@@ -3097,9 +3097,9 @@
     "subzone:hidden-path": {
       "1": [
         {
-          "duration": 62.87673469387755,
-          "file": "Audio/Transport/full_subzone_hidden-path-8f5fdd11119e362ffae0/1-0000.mp3",
-          "sha256": "797cc719fb279d2b5ca5cf4dfdbf0ca3c148de0d9797ef4fca888d01bbfa83e0",
+          "duration": 64.54857142857144,
+          "file": "Audio/Transport/full_subzone_hidden-path-4e147a4d7bd281f9c870/1-0000.mp3",
+          "sha256": "f27079a853d36e6267d6eb10961066ef2ac5a2ad1e7c20b9311e1520dba14afc",
           "start": 0
         }
       ],
@@ -3111,12 +3111,12 @@
         ]
       },
       "fullHash": "786c14",
-      "generation": "6dd9aaeac401be935f1e",
+      "generation": "3df22e78a266f75f9ec6",
       "hash": "cf7e7a",
       "source": {
-        "duration": 62.850563,
+        "duration": 64.548571,
         "file": null,
-        "sha256": "8f5fdd11119e362ffae0223af46f46ec5104f5d184a38f2d2c04c22264c3cc8e"
+        "sha256": "4e147a4d7bd281f9c870578419da9c55c5f8f51fbecfb8d98cde162461433006"
       },
       "text": "Hidden Path. The Hidden Path is a secluded mountain trail winding through the crags above the Valley of Trials in Durotar. It serves as a rite of passage for aspiring shaman seeking the sacred Spirit Rock, while offering an overlooked vantage overlooking the rugged borders of the Barrens. Carved into the red peaks bordering the Valley of Trials, the Hidden Path is intentionally difficult to spot from the canyon floor. Young shaman are directed here by their mentors to prove their awareness and discipline before communing with the spirits at Spirit Rock. Along the trail's highest reaches, travelers are treated to expansive panoramic views stretching westward toward the rolling savannas of the Barrens. Beyond its spiritual importance, the path cuts a precarious breach through the natural fortifications enclosing the valley. A low pass along the route provides a direct back door toward Ratchet and the road to Orgrimmar. Because it circumvents the standard canyon checkpoints, vigilant defenders fear that bold Alliance infiltrators could exploit this quiet trail to slip directly into the Horde's primary proving grounds."
     },
@@ -3175,9 +3175,9 @@
     "subzone:ivar-patch": {
       "1": [
         {
-          "duration": 42.161632653061226,
-          "file": "Audio/Transport/full_subzone_ivar-patch-1cd0c94a1bac8e56576f/1-0000.mp3",
-          "sha256": "2df8519b4f6ccb463819dad254898947c5186839721788bbf45963e84fc1d50d",
+          "duration": 41.2995918367347,
+          "file": "Audio/Transport/full_subzone_ivar-patch-dc0335aac809daebdbb0/1-0000.mp3",
+          "sha256": "a0329fc5384fe2415b12e359f701b2f76853e2497137ff1a8be8b5228ae84412",
           "start": 0
         }
       ],
@@ -3189,12 +3189,12 @@
         ]
       },
       "fullHash": "a329fb",
-      "generation": "e049c6f57d143839f42d",
+      "generation": "d517d9fb227d24fcb179",
       "hash": "a329fb",
       "source": {
-        "duration": 42.1355,
+        "duration": 41.299592,
         "file": null,
-        "sha256": "1cd0c94a1bac8e56576f4118d810de55cfdeef86b668b85ff69803d55ba0c456"
+        "sha256": "dc0335aac809daebdbb0ed8820a8ba602e788d8a8a988aa74f1bb53429632421"
       },
       "text": "Ivar Patch. The Ivar Patch is a blighted pumpkin farm located in northern Silverpine Forest. Once a thriving agricultural homestead of Lordaeron, its residents were wiped out during the Third War and transformed into ravenous, mindlessly hostile ghouls. Before the Third War swept through Lordaeron, this pumpkin patch was a prosperous homestead owned by a farmer named Ivar, who employed a lively crew of farmhands and servants. When the Scourge unleashed the Plague of Undeath across the countryside, the farm was consumed completely. Rather than rising with their minds intact like the free-willed Forsaken, Ivar, his family, and his laborers were reduced to rotting, feral ghouls bound to prowl the ruined soil."
     },
@@ -3357,9 +3357,9 @@
     "subzone:merchant-coast": {
       "1": [
         {
-          "duration": 43.46775510204082,
-          "file": "Audio/Transport/full_subzone_merchant-coast-0cd588a2ab5edd711b02/1-0000.mp3",
-          "sha256": "1a542a3173b953169cc5c6b7addbebf1ba2ddff3de7cc69121c0d4a567e9fa9e",
+          "duration": 44.64326530612245,
+          "file": "Audio/Transport/full_subzone_merchant-coast-1008ca862041dd5a2461/1-0000.mp3",
+          "sha256": "fa0fe5b456fa28b25b8c7465bdefd7537b58064cb49ae2ecd065bb565dfe61b4",
           "start": 0
         }
       ],
@@ -3371,12 +3371,12 @@
         ]
       },
       "fullHash": "7eeccd",
-      "generation": "b1274a2cff40582cbae4",
+      "generation": "adcf89b4df6aeb5cc058",
       "hash": "7eeccd",
       "source": {
-        "duration": 43.441625,
+        "duration": 44.669388,
         "file": null,
-        "sha256": "0cd588a2ab5edd711b021999696c0b20345655bab9138180b0463430156dd973"
+        "sha256": "1008ca862041dd5a24614db78b0170448835a26ff583e0b12316bf692f71e308"
       },
       "text": "Merchant Coast. The Merchant Coast is the stretch of eastern shoreline in the Barrens bordering the Great Sea. Dominated by the bustling goblin port of Ratchet, the coast derives its name from lucrative sea trade, though it remains constantly contested by pirates. Running along the eastern edge of the Barrens, the Merchant Coast serves as a vital maritime artery connecting central Kalimdor to the Eastern Kingdoms and Theramore. Its name honors the industrious goblin traders of the Steamwheedle Cartel, whose neutral port of Ratchet handles cargo for anyone with coin. However, the open sea lanes attract more than merchant vessels: Southsea Freebooters prowl the sands and nearby waters, preying on merchant ships and setting up illicit operations along the beaches."
     },
@@ -3565,9 +3565,9 @@
     "subzone:pools-of-vision": {
       "1": [
         {
-          "duration": 69.32897959183674,
-          "file": "Audio/Transport/full_subzone_pools-of-vision-07a61382ea66230e0748/1-0000.mp3",
-          "sha256": "f9a961d0ef10fbd043b4df5ef264a169580ea9d41cdcae0249107760bf8212d9",
+          "duration": 68.7804081632653,
+          "file": "Audio/Transport/full_subzone_pools-of-vision-fa1d4c9cebf44f835c76/1-0000.mp3",
+          "sha256": "d5651dbf4c4a13d835b829aa456e2cafb3b977d2d40366ee0c74d55224bb0808",
           "start": 0
         }
       ],
@@ -3579,21 +3579,21 @@
         ]
       },
       "fullHash": "2db754",
-      "generation": "7a75ea904822164ecc03",
+      "generation": "bcc71387d6f3cacb28df",
       "hash": "d6c90f",
       "source": {
-        "duration": 69.302813,
+        "duration": 68.806531,
         "file": null,
-        "sha256": "07a61382ea66230e07481e448b2f9a7877d167c3ee9be236ba12e9ed501a0c73"
+        "sha256": "fa1d4c9cebf44f835c76b6aad5f1dcf68de1fe75eeab628dd640e5f2d243146d"
       },
       "text": "Pools of Vision. The Pools of Vision are a subterranean cavern nestled beneath Spirit Rise in Thunder Bluff. Marked by still waters and dim caverns, this secluded subterranean space serves as the primary enclave for the Forsaken within the tauren capital. While the sunlit peaks of Thunder Bluff belong to the wind, earth, and sky, the Pools of Vision plunge directly beneath Spirit Rise into shadowy seclusion. Accessible from a discreet cave path off the bridge leading to the rise, this subterranean grotto offers subterranean respite quite unlike the open-air lodges above. Here, misty waters pool in the dark, creating an isolated atmosphere where Horde spellcasters gather far from the bustling central mesas. Within Thunder Bluff, the Pools of Vision function as the de facto base of operations for the Forsaken. Travelers from the eastern continent find kindred souls here: undead priests practicing their shadowed arts, mages conjuring arcane portals, and emissaries of the Defilers seeking recruits for their campaigns in the Arathi Highlands. Whether tucked away by tauren skepticism or by the Forsaken's own natural preference for the dark, this quiet refuge bridges Lordaeron's undead with their Kalimdor allies."
     },
     "subzone:pyrewood-village": {
       "1": [
         {
-          "duration": 44.59102040816327,
-          "file": "Audio/Transport/full_subzone_pyrewood-village-609f7795041d2aac3297/1-0000.mp3",
-          "sha256": "a93ec0138f74fb01a23273396ab99740972423629f055f59eac78935de905803",
+          "duration": 43.59836734693878,
+          "file": "Audio/Transport/full_subzone_pyrewood-village-033552729c8f8db13ada/1-0000.mp3",
+          "sha256": "796bff652b636a41460ed1bc3302adef4a19843e0a92b7e42414d337033144af",
           "start": 0
         }
       ],
@@ -3605,12 +3605,12 @@
         ]
       },
       "fullHash": "109325",
-      "generation": "a75ee3fefb8169f93879",
+      "generation": "3b875b92dca6949aeb0c",
       "hash": "29f9ca",
       "source": {
-        "duration": 44.564875,
+        "duration": 43.62449,
         "file": null,
-        "sha256": "609f7795041d2aac32973befa7934c3030ecc8d44c4d1f0172c27cb186613e46"
+        "sha256": "033552729c8f8db13ada91999e1cf765b97c80619a3342e1274e2175e974d68e"
       },
       "text": "Pyrewood Village. Pyrewood Village is an isolated human settlement nestled in southern Silverpine Forest beneath Shadowfang Keep. Originally part of Gilneas before being stranded outside the Greymane Wall, its living residents harbor a horrific secret brought upon them by the mad archmage Arugal. Pyrewood was once a prosperous Gilnean settlement. When King Genn Greymane chose to isolate his kingdom behind the massive Greymane Wall following the Second War, Pyrewood was left on the northern side. Cut off from their homeland, the townsfolk were left entirely defenseless during the Third War as the Scourge marched across Lordaeron. Though they managed to survive the initial wave of the undead, their true nightmare began when the mage Arugal took refuge in the fortress above."
     },
@@ -3695,9 +3695,9 @@
     "subzone:ravaged-caravan": {
       "1": [
         {
-          "duration": 43.91183673469388,
-          "file": "Audio/Transport/full_subzone_ravaged-caravan-26630d5553d4ec43f45d/1-0000.mp3",
-          "sha256": "254244959cad818dfb1518e3f937cced205c8d01fc097cf0defea06a296e4676",
+          "duration": 43.78122448979592,
+          "file": "Audio/Transport/full_subzone_ravaged-caravan-ccc6391690a3959d1e44/1-0000.mp3",
+          "sha256": "31fcc6554e97fa6de12c27dac2951b960136bcea6a899b6df6e0e81980bf8a83",
           "start": 0
         }
       ],
@@ -3709,12 +3709,12 @@
         ]
       },
       "fullHash": "53b146",
-      "generation": "a5603d62947f94a0eeec",
+      "generation": "7e167a2bf5fc51a02c52",
       "hash": "53b146",
       "source": {
-        "duration": 43.885688,
+        "duration": 43.781224,
         "file": null,
-        "sha256": "26630d5553d4ec43f45d024cf51de0d4ce1521c3f1a454d623a015f1c34355bb"
+        "sha256": "ccc6391690a3959d1e4419f81a93ba48eb37cfcf9747e4fea26510c62ff7f445"
       },
       "text": "Ravaged Caravan. The Ravaged Caravan is a smoldering wreck located on the northeastern shore of Stonebull Lake in Mulgore. Once a supply convoy bound for Supervisor Fizsprocket's mining operations, it was ambushed and destroyed by local tauren determined to halt goblin exploitation of their homeland. Perched on a rise above Stonebull Lake, the Ravaged Caravan marks an early clash between the tauren of Bloodhoof Village and the encroaching Venture Company. Sent to deliver mining supplies, blueprints, and equipment to Supervisor Fizsprocket's dig site, the caravan was cut off and wrecked by tauren defenders before it could reach its destination. Despite the devastation, stubborn Venture Co. survivors still cling to the ruined wagons and smoldering crates, jealously guarding what little cargo remains."
     },
@@ -4033,9 +4033,9 @@
     "subzone:screaming-gully": {
       "1": [
         {
-          "duration": 43.885714285714286,
-          "file": "Audio/Transport/full_subzone_screaming-gully-1a45c0b800f06d72cc09/1-0000.mp3",
-          "sha256": "2ba487caa204a6a2e1a8d02424b92d3b91c8ba840223b43b4f550d2c3f5f9197",
+          "duration": 46.419591836734696,
+          "file": "Audio/Transport/full_subzone_screaming-gully-4360655d19aa732693a8/1-0000.mp3",
+          "sha256": "c02c8a8d6128c2dd468f790965b7a914c71d9de6da633381bc0adc93e37c73b9",
           "start": 0
         }
       ],
@@ -4047,12 +4047,12 @@
         ]
       },
       "fullHash": "1e60ff",
-      "generation": "31691e9ba652b7628d90",
+      "generation": "3147caaa960ad900f33b",
       "hash": "1e60ff",
       "source": {
-        "duration": 43.859563,
+        "duration": 46.419592,
         "file": null,
-        "sha256": "1a45c0b800f06d72cc09f2a5e6e146a07500344b845ff81156bacb7c70c4cef2"
+        "sha256": "4360655d19aa732693a82b447f53ebe7a483f692d39026efd50d0e1143bb7479"
       },
       "text": "Screaming Gully. Screaming Gully is the first sprawling subterranean cavern encountered just beyond the entrance of the Wailing Caverns. Bathed in unnatural fungal glow and shallow waters, it serves as the outer redoubt for the corrupted Druids of the Fang and their mutated beasts. Stepping through the threshold of the Wailing Caverns leads directly into Screaming Gully, an echoing chasm where the wind groans through subterranean fissures. Far from the arid Barrens above, the gully is choked with damp overgrowth, humid mist, and aggressive wildlife twisted by the Emerald Nightmare. The Fanglord Lady Anacondra oversees the chamber, surrounded by acolytes of the Druids of the Fang and vicious deviate raptors, while ancient snapping turtles like Kresh patrol the shallow waterways below."
     },
@@ -4267,9 +4267,9 @@
     "subzone:skull-rock": {
       "1": [
         {
-          "duration": 38.55673469387755,
-          "file": "Audio/Transport/full_subzone_skull-rock-48ff54cd7aab0a15e380/1-0000.mp3",
-          "sha256": "096191154b8d6e796f0a6a6ef63084520264d2b5160ca59fe82d60aeb2318cae",
+          "duration": 39.60163265306122,
+          "file": "Audio/Transport/full_subzone_skull-rock-7b862450792123842c17/1-0000.mp3",
+          "sha256": "213e3d63f354ca67776b5bb8a15ce4f4c67d13144e4e6b68ad1d721c2fda13f1",
           "start": 0
         }
       ],
@@ -4281,12 +4281,12 @@
         ]
       },
       "fullHash": "e26161",
-      "generation": "720769d206aa4cf721e3",
+      "generation": "47b38c7fc40f366ff100",
       "hash": "e26161",
       "source": {
-        "duration": 38.530563,
+        "duration": 39.627755,
         "file": null,
-        "sha256": "48ff54cd7aab0a15e3805b823284e5164bf6be1db89eea10352711e24630ce70"
+        "sha256": "7b862450792123842c17e775ff7f8b5c5eae32791ca89326a75f110a13db3f77"
       },
       "text": "Skull Rock. Skull Rock is a cavern tucked into the eastern coastal cliffs of Durotar, just east of Orgrimmar. It serves as a fortified coven for the demonic Burning Blade cult right under the capital's nose. Hidden beneath the crags of northeastern Durotar, Skull Rock is one of the most perilous strongholds of the Burning Blade cult in the region. Dark cultists, fel-worshipping orcs, and summoners gather deep within the winding tunnels to practice demonic arts and weave conspiracies against the nascent Horde. The cell is led by the dangerous warlock Gazz'uz, whose operations pose an imminent threat to the nearby gates of Orgrimmar and travelers traversing the eastern shoreline."
     },
@@ -4319,9 +4319,9 @@
     "subzone:solliden-farmstead": {
       "1": [
         {
-          "duration": 64.0,
-          "file": "Audio/Transport/full_subzone_solliden-farmstead-b0282d2bfce43d24604e/1-0000.mp3",
-          "sha256": "f3b91bb2198acca5a1e93e49b4a24fb6540c37f83b42b3f3c79ced4aaf7b8fea",
+          "duration": 63.503673469387756,
+          "file": "Audio/Transport/full_subzone_solliden-farmstead-b62aff3ba9bcf0cd6a4b/1-0000.mp3",
+          "sha256": "baf3143743a2871858d34f22c5615f0631533b9c7919e1dff59aa1e18c92ac5d",
           "start": 0
         }
       ],
@@ -4333,12 +4333,12 @@
         ]
       },
       "fullHash": "f848b9",
-      "generation": "b4aa7e7e1c366398b7fa",
+      "generation": "f980189181cf51039450",
       "hash": "d466c1",
       "source": {
-        "duration": 64.0,
+        "duration": 63.529796,
         "file": null,
-        "sha256": "b0282d2bfce43d24604e2328c8cb1b6dfaaf74f8e7e64012fae12442d8d50764"
+        "sha256": "b62aff3ba9bcf0cd6a4bb0fd5fdc8cd0407339de69fec9f4aac55771cb16bfd9"
       },
       "text": "Solliden Farmstead. Solliden Farmstead is an active human pumpkin farm nestled in western Tirisfal Glades, just north of Deathknell. It represents a rare anomaly in northern Lordaeron: living native farmers who survived the Plague of Undeath and cling fiercely to their soil under the shadow of the Scarlet Crusade. While most of Lordaeron fell to ruin and rot, the fields of Solliden Farmstead still produce healthy crops. Today, these surviving human farmers live under the watchful shield of the Scarlet Crusade patrolling from a nearby tower. Traumatized and insular, they defend their homestead with unyielding hostility, striking at any outsiders who draw near—Horde and Alliance alike. To the Forsaken just emerging from Deathknell, Solliden is both a threat and a resource. The Royal Apothecary Society eyes the farm's pristine pumpkins as prime organic testing material for brewing their New Plague. Meanwhile, Forsaken officers like Deathguard Simmer send fledgling recruits to raid the fields, steal those pumpkins for Apothecary Johaan in Brill, and teach the living a lesson."
     },
@@ -4397,9 +4397,9 @@
     "subzone:spirit-rise": {
       "1": [
         {
-          "duration": 55.98040816326531,
-          "file": "Audio/Transport/full_subzone_spirit-rise-4893cf06358955e53e2a/1-0000.mp3",
-          "sha256": "0cd95ed03542f031f1169b72b9122ab0743009ba81ced615bf7b06d3fe4641d4",
+          "duration": 54.778775510204085,
+          "file": "Audio/Transport/full_subzone_spirit-rise-8e6bd2ee6c0e9fa0d224/1-0000.mp3",
+          "sha256": "e229f2bfe462850fee32a53e153617aa1f7fe16f68eca57125e4e20d3562a491",
           "start": 0
         }
       ],
@@ -4411,21 +4411,21 @@
         ]
       },
       "fullHash": "3c058b",
-      "generation": "cad54edc90d8b0cf35b9",
+      "generation": "7fce5f79ac58248fe086",
       "hash": "df15d2",
       "source": {
-        "duration": 55.95425,
+        "duration": 54.778776,
         "file": null,
-        "sha256": "4893cf06358955e53e2a889b8a1093291bf09fa82c5c9de6cabe39c8f2feb98c"
+        "sha256": "8e6bd2ee6c0e9fa0d224ff392cbb877d597a0e2a7f1f1f52cb1c2354f7775607"
       },
       "text": "Spirit Rise. Spirit Rise is the northwest mesa of Thunder Bluff, serving as the tauren capital's premier sanctum for spiritual and shamanic study. Overseen by spiritual guides such as the Skychaser tribe, it features sacred training halls above and descends into the cavernous Pools of Vision below. Perched high upon the bluffs overlooking the plains of Mulgore, Spirit Rise is devoted to communion with the elements and ancestor spirits. Connected to the central mesa by rope bridges, it houses the Hall of Spirits and the Spiritual Healing pavilion, where young and veteran shaman gather to deepen their connection with the earth, air, fire, and water. The Skychaser tribe maintains a strong presence across the rise, guiding seekers through ancient traditions. Beneath the breezy huts and open-air totem shrines lies an entrance burrowing into the mesa itself: the steamy Pools of Vision, a sacred subterranean cavern where seers peer into spirit-touched waters."
     },
     "subzone:spirit-rock": {
       "1": [
         {
-          "duration": 39.65387755102041,
-          "file": "Audio/Transport/full_subzone_spirit-rock-93b34b9660aa081e5c53/1-0000.mp3",
-          "sha256": "9cac9081a866be3a6c5aba8883d8c3fe53b743a41338bd64dffba10e71ffd0be",
+          "duration": 39.13142857142857,
+          "file": "Audio/Transport/full_subzone_spirit-rock-52069aadafe628626e07/1-0000.mp3",
+          "sha256": "ba04ec8a240b6ed003cecf34b059d3b4cac7debb700d296c0aa9ab8b27562365",
           "start": 0
         }
       ],
@@ -4437,12 +4437,12 @@
         ]
       },
       "fullHash": "92be84",
-      "generation": "18e5f534e0025b90a7a6",
+      "generation": "e40dd5455ff36f3b4192",
       "hash": "92be84",
       "source": {
-        "duration": 39.62775,
+        "duration": 39.131429,
         "file": null,
-        "sha256": "93b34b9660aa081e5c5304f764f244057cbc9d4b9ec6bdcf7945cc4aab417b15"
+        "sha256": "52069aadafe628626e07ea80eed9dc4e62ade09fa51d440b482a0661e4082fee"
       },
       "text": "Spirit Rock. Spirit Rock is a sacred crag perched in the rugged bluffs above the Valley of Trials in Durotar. Reached by a winding trail known as the Hidden Path, it serves as a secluded holy site where initiates commune directly with the elemental forces of the land. Overlooking the red canyon where young Horde warriors and scouts begin their training, Spirit Rock stands as an altar of communion. Isolated from the clatter of the Valley of Trials, it is approached only via the Hidden Path winding up the rocky ridgeline. Aspiring shaman make pilgrimages to this desolate outcrop to drink the traditional sapta, piercing the veil of the physical world to hear the rumblings and whisperings of the earth itself."
     },
@@ -4579,9 +4579,9 @@
     "subzone:thunder-ridge": {
       "1": [
         {
-          "duration": 49.99836734693878,
-          "file": "Audio/Transport/full_subzone_thunder-ridge-e3ad3cacf77070887d16/1-0000.mp3",
-          "sha256": "b862daae4f294ae2d0ac9b73a59b3440a1285b93e02c4ccd1950c39b62516850",
+          "duration": 51.8530612244898,
+          "file": "Audio/Transport/full_subzone_thunder-ridge-64f9ceb5ac2d93ffb2ea/1-0000.mp3",
+          "sha256": "0c088f0b99b24ba5b9daa67cd67851aa852fc0dd32fb4fb9758ab4a0e021b031",
           "start": 0
         }
       ],
@@ -4593,12 +4593,12 @@
         ]
       },
       "fullHash": "0c26be",
-      "generation": "d6e9cc381c415222fe9a",
+      "generation": "9f8169ef872eb4a651e8",
       "hash": "25df62",
       "source": {
-        "duration": 49.972188,
+        "duration": 51.853061,
         "file": null,
-        "sha256": "e3ad3cacf77070887d1676f49a3f92e5f6a4ceb26a81dbf361f3d409a284a5d7"
+        "sha256": "64f9ceb5ac2d93ffb2ea67cd08eaf9818791cedfb4b36ad44fb07e7bff254a91"
       },
       "text": "Thunder Ridge. Thunder Ridge is a rugged canyon in western Durotar, situated just southwest of Orgrimmar along the banks of the Southfury River. Once a lush grove of ancient trees inhabited by herds of thunder lizards, the canyon has suffered severe deforestation from human lumber operations and dark sorcery. Today, the agitated beasts and lingering cultists pose an ongoing threat to nearby settlements. Not long ago, Thunder Ridge was a rare green haven in arid Durotar, sustained by ancient trees. Its tranquil balance shattered shortly after the Third War when human interlopers from Kul Tiras began felling its timber, driving the native thunder lizards into a frenzy. Later, fel sorcery wielded by the Burning Blade finished the destruction, stripping the canopy and leaving behind a barren, exposed gorge where angry lightning-spewing beasts now roam unrestrained."
     },
@@ -4709,9 +4709,9 @@
     "subzone:trade-quarter": {
       "1": [
         {
-          "duration": 62.77224489795918,
-          "file": "Audio/Transport/full_subzone_trade-quarter-9f6620740c8b27ce8c8d/1-0000.mp3",
-          "sha256": "7a8d5bcb6d119529e01ecd32a02cbbdfebf1f245c0c57b9ec7fdd1153a8cc4f5",
+          "duration": 60.160000000000004,
+          "file": "Audio/Transport/full_subzone_trade-quarter-6f72f0b8650d113513aa/1-0000.mp3",
+          "sha256": "ccafb6ba2f705caaf1609d06d44be8a6ebcbc966a73624217980d13dba8136ce",
           "start": 0
         }
       ],
@@ -4723,12 +4723,12 @@
         ]
       },
       "fullHash": "98a689",
-      "generation": "e89bcd83a044131605c8",
+      "generation": "bbff05dfbae8d5e11cf1",
       "hash": "98a689",
       "source": {
-        "duration": 62.746063,
+        "duration": 60.16,
         "file": null,
-        "sha256": "9f6620740c8b27ce8c8d90b49ea60db374feabdcd6a5e1c93693f49155fb201a"
+        "sha256": "6f72f0b8650d113513aa0207e08391b1e719378f7632f107b18514665e57d360"
       },
       "text": "Trade Quarter. The Trade Quarter forms the central core of the Undercity, resting directly beneath the lifts from the Ruins of Lordaeron. It functions as the beating economic heart of the Forsaken, housing their primary bank vaults, auction market, and essential civic services. From this concentric hub, vaulted corridors branch outward into the surrounding districts. Descending from the shattered surface of Lordaeron, travelers step off the lifts into the echoing stone expanse of the Trade Quarter. Designed around a tiered, circular layout, its central platform holds the city coffers and central bank, framed by bridges spanning noxious runoff canals. Surrounding terraces buzz with vendors, guild registries, and auctioneers bargaining amidst the eerie gloom. Even basic accommodations reflect Forsaken pragmatism: the local inn offers unlined wooden caskets rather than soft beds. From this central nexus, stone archways lead outward into the city's specialized quarters, making it the unavoidable crossroads for any business conducted within the capital."
     },
@@ -5055,20 +5055,21 @@
       815,
       1582
     ],
-    "012043a896dc109b1e91805bfc74a2f65b54cafafd3df5adb967e5d2c9f0e984": [
-      577,
-      1182
-    ],
     "015300c3b45c51e7b5b31bdaf490ee1e77bce5bd7b9b8c81c00dd9fef2b62022": [
       802,
       1089,
       1551,
+      1865,
       2070
     ],
     "01fc7cdcf3dda1e7e8b419999285ddcf46a5211d53a656626b45f4e0ff50960f": [
+      206,
+      379,
       555,
+      790,
       1138,
-      1614
+      1614,
+      1833
     ],
     "04731dfa96d2f495067b21bb673978fd6b654417c737af1d3132baed34cd39a6": [
       255,
@@ -5082,6 +5083,7 @@
       4057
     ],
     "077d814cf4e374fbb709af2c9cfc804e38014f33e4be40ca5c624e5c32f68276": [
+      186,
       505,
       831,
       1098
@@ -5089,17 +5091,6 @@
     "07c5310f2d5e510a46b652058d5874ac487602345ffac8f4a368ed1f039fe288": [
       778,
       1458
-    ],
-    "07d5ea2f89becbdab4e957744fdf417fade21860cc5a38fd551717ad51f03ba6": [
-      348,
-      819,
-      1682,
-      2414
-    ],
-    "096191154b8d6e796f0a6a6ef63084520264d2b5160ca59fe82d60aeb2318cae": [
-      239,
-      730,
-      1108
     ],
     "0aea4cbe0ef7706567230efb5f60ebb3e5592cad999c91d2014d6bca78f30078": [
       406,
@@ -5109,13 +5100,14 @@
     "0b0e34cc10892b56beb80093084f2238880e8dc7cb7c8e5ff3d0aa3f34f0edd3": [
       316,
       741,
+      956,
       1675
     ],
-    "0cd95ed03542f031f1169b72b9122ab0743009ba81ced615bf7b06d3fe4641d4": [
-      638,
-      951,
-      1447,
-      1682
+    "0c088f0b99b24ba5b9daa67cd67851aa852fc0dd32fb4fb9758ab4a0e021b031": [
+      313,
+      695,
+      1182,
+      1577
     ],
     "0d0fdd01f00e625e6951a0a6add50f21abc28dc07e2deece990636496b88f357": [
       537,
@@ -5125,7 +5117,9 @@
       279,
       596,
       981,
+      1315,
       1652,
+      1949,
       2166,
       2505
     ],
@@ -5138,11 +5132,14 @@
       1370
     ],
     "1191c606da115203809980f24efed23b0ddd6802e21612cc5211689885965d97": [
+      287,
       644
     ],
     "11bdcb21ba0260b308c9f6a4fa9f4496cc7a09724c2c3e7fad08bc03e3dac12a": [
       625,
-      1287
+      995,
+      1287,
+      1473
     ],
     "129481481f352eb9df7c49cd99f3d94e995ed5831b2d0b1adc60d4d3483bf1aa": [
       407,
@@ -5155,18 +5152,15 @@
       1001,
       1596
     ],
-    "13821d7c3ad3b4013554ebb6c0c5552e2ba0bb30f16d67a0027ad6defeba32bd": [
-      560,
-      1604,
-      1911
-    ],
     "149fdc6335319723430fa2efd9c7443a00b55d573e43e72e9f5b1b4b51a51611": [
       336,
       1167,
       1546
     ],
     "158734f86033cb022e7d67ca300ce952f08fb3aca77d60d2f854dc6539a45b06": [
+      226,
       576,
+      841,
       1107,
       1496,
       1824,
@@ -5177,6 +5171,7 @@
       932,
       1310,
       1626,
+      1887,
       2333,
       2667
     ],
@@ -5186,13 +5181,10 @@
       1105,
       1897
     ],
-    "16f3802a74aa77155d87026ff0437eaa333f5605d653d83307cdf78bea8a87e8": [
-      285,
-      875
-    ],
     "17158368fe7c9a9af5aa5a0e62316fdc506a07625dd04ec935d9a7fdaee10e79": [
       498,
       732,
+      1038,
       1386,
       1684
     ],
@@ -5211,8 +5203,9 @@
       400,
       796,
       1168,
+      1349,
       1604,
-      2096,
+      1966,
       2559
     ],
     "1a47f658c428add76f01a4e889249dd1db635cb3ea99e7d9650c73deae1b7407": [
@@ -5220,24 +5213,12 @@
       944,
       1294
     ],
-    "1a542a3173b953169cc5c6b7addbebf1ba2ddff3de7cc69121c0d4a567e9fa9e": [
-      556,
-      1230,
-      1504
-    ],
-    "1ba599401e74c6d94875b8d0b7024391cdb63a9864d5fb36bcc6cb85a916408f": [
-      304,
-      687,
-      1090,
-      1456,
-      2234,
-      2754
-    ],
     "1da44ce75cd9713d3ae33eef46648c3517a40f1f66a4c58ff0da47fed167c972": [
       291,
       779,
       1190,
       1559,
+      1801,
       2096,
       2405
     ],
@@ -5255,16 +5236,26 @@
       322,
       735,
       1473,
+      1692,
       1858,
       2165
     ],
     "205a3c8d002a00f14506139105b09c2581e40deb1f8e1898bd5b94f63f3c4d61": [
       810
     ],
+    "213e3d63f354ca67776b5bb8a15ce4f4c67d13144e4e6b68ad1d721c2fda13f1": [
+      248,
+      464,
+      758
+    ],
     "2180e148bf52ae296abcfc0b4fec87a07d1cf0112ff345f9eef89cdd184edaea": [
+      282,
       586,
+      821,
       1213,
       1578,
+      1767,
+      1960,
       2181
     ],
     "2420a645650a9e5bec239bdf424520ddbe9681d4dcfb3f7b9510bf0314eb562b": [
@@ -5286,15 +5277,12 @@
     ],
     "2475064369a3d8ddfcfe5fbe839a8439dae01b2d8c7a044b40b5ff3627cbd79b": [
       322,
+      683,
       1135,
       1510,
       1996,
+      2136,
       2712
-    ],
-    "254244959cad818dfb1518e3f937cced205c8d01fc097cf0defea06a296e4676": [
-      235,
-      918,
-      1323
     ],
     "256c1f9f778be10a4e017e7c014c63673a7b122fdba3a46710dd3d6505c13dec": [
       628,
@@ -5327,6 +5315,7 @@
       1218
     ],
     "29cd8ddfb78be3248d905e7a879343d4b9228c82a7b8b32cdba573dfe4968123": [
+      287,
       536,
       898,
       1234,
@@ -5340,19 +5329,23 @@
       2232,
       2542
     ],
-    "2ba487caa204a6a2e1a8d02424b92d3b91c8ba840223b43b4f550d2c3f5f9197": [
-      575,
-      1213
-    ],
     "2c2d5a9be09a794f31e56b2c4d06b39c1c3f8546ef56299386c9e1e3f0cbe08f": [
+      231,
       479,
+      974,
       1176,
+      1366,
+      1602,
+      1961,
       2112,
-      2442,
+      2311,
+      2553,
       2724
     ],
     "2ccf07e80262e2fa98fc1556442a58fe18db6e74b6feb9dd6a57df6e434c5cf9": [
+      263,
       563,
+      735,
       939,
       1262
     ],
@@ -5364,10 +5357,6 @@
       2074,
       2431
     ],
-    "2df8519b4f6ccb463819dad254898947c5186839721788bbf45963e84fc1d50d": [
-      595,
-      1199
-    ],
     "2efcaea742a509e6be7a0673469abdb7a1aba6e9b942d9789fa4b1a71ad52501": [
       399,
       699,
@@ -5375,17 +5364,33 @@
       1331
     ],
     "2f3c91fdd782c93a2b53ee8c40c80075d024482f20df688a811390ae24dfe993": [
+      240,
       525,
+      872,
       1125,
       1434
+    ],
+    "31fcc6554e97fa6de12c27dac2951b960136bcea6a899b6df6e0e81980bf8a83": [
+      240,
+      697,
+      1147,
+      1353
     ],
     "32bdeffe77721a069b3334166e488946fc8124f1eb87d901c29a0355c3def20a": [
       781,
       1165
     ],
     "32ec0d3dc9aed174730eab8a84c210ab4338a2bce671141e0ec0082c79dba4e8": [
-      275,
-      1282
+      179,
+      1030,
+      1282,
+      1492
+    ],
+    "33066df5a830b2f9943ecbe3c83a938dd3eb51a3026a7e85758e9fad95c830a9": [
+      220,
+      576,
+      861,
+      1161
     ],
     "33b70d430b1f29bc32fd52f1eff18c236db5140d433641905a928c4d9a6c73d6": [
       556,
@@ -5402,18 +5407,42 @@
     ],
     "3b3b2f3fad0f5752f31209d111c670566f12678188ae03d7ef62b4d5fc1a492c": [
       701,
+      952,
       1243,
       1632,
+      1940,
       2292
     ],
     "3b9586fd45655b9173f7baf5dfb175ff939c47559b5cec4e778097c37230c67f": [
       999,
       1397
     ],
+    "3c0f4d9a60774a21f682082d9b10402ea4fb7876c8d3f5187a817713d092a748": [
+      597,
+      869,
+      1258,
+      1564,
+      2006,
+      2200,
+      2484
+    ],
     "3d9f84ee5693f4cfea58ab07232e24e4d2764fd3ac1cb4df1853c5ad0e21cbdf": [
       488,
       1035,
       1422
+    ],
+    "3dc4588359f2ebd1229151e32d024bdbd9d93f2c35496ea0e6848d0aa0f9be19": [
+      710,
+      931,
+      1183,
+      1347,
+      1903,
+      2511,
+      2799,
+      3248,
+      3485,
+      3866,
+      4211
     ],
     "3e634b5dd59fdcdfde7585c460bedf5f0cbdb4d38c223c91847b97468ae2aad9": [
       504,
@@ -5424,21 +5453,28 @@
     ],
     "3fbff70291bc0b1d4d05b29a248262f945a5e498b84b479771bdfe741594008e": [
       315,
+      642,
       881,
+      1170,
       1314,
+      1498,
+      1695,
       1924,
+      2089,
       2313
     ],
     "4031fd25a208eff97b3bb17d5669fa7f932fa795668a75d38b646d51cd93fc63": [
       279,
       567,
-      932,
+      812,
       1294
     ],
     "41f705f4380bc26c23b53e5be0c103722827230e4e9c1a500a7a3a0df7a3a972": [
       323,
+      569,
       773,
       1102,
+      1414,
       1668
     ],
     "41f93180ff6c87a628f10cf0ab2f2195f08a44e9f46ead912590a4facea3eea8": [
@@ -5467,16 +5503,23 @@
       936
     ],
     "436db2e4e9a75bca804c52c56e7f22f3701a17860713705043aa3deb7c4a5dda": [
+      241,
       512,
       761,
       1769,
       2022
     ],
     "44513f577f18a6d6d321c6a068988e24cfaf2e3f96dbebab96e7f4d4d6bc8f71": [
+      243,
       587,
       985,
+      1239,
       1610,
       2013
+    ],
+    "4455fd72ab5aa6e9c1ea910ec0d594211d8a98ccfc0d991c95924dd680be9853": [
+      563,
+      1223
     ],
     "44e824b549203bec21589ef3e7ff57e71092ea0fb8b6c396c32ea8a338776852": [
       584,
@@ -5485,14 +5528,19 @@
     ],
     "4517dbef37258254dd2330eb08b97eb6b0d684302edb5af1c7bad80a9f1116a2": [
       507,
+      721,
       1044,
+      1273,
       1518,
       1891,
       2303
     ],
     "4607f8355ddc8aa7affc1fbee7d5e107899357a4b35e8e372c68dd3703970a26": [
+      190,
+      372,
       574,
-      1207
+      875,
+      1103
     ],
     "47f0f692a5e99c2042de3edd9a6deb863b6bb1176b00a3ee4056367c265316f5": [
       390,
@@ -5505,20 +5553,6 @@
       1109,
       1444,
       1938
-    ],
-    "4872a32a69efd50e3238efe3ff201e3fb2e204fac99afa71048ec7a5a2fbc9c6": [
-      433,
-      823,
-      1232,
-      1775,
-      2331,
-      2633
-    ],
-    "48e5e3449036f1fd75ed2807c4493d0405b8043cf06d75a6d56460ffaa4036d8": [
-      561,
-      988,
-      1548,
-      2091
     ],
     "49e59c3f6c3b0eac1ee230b60b36a8fc87cc20f7a81e1140133b199e80c8c700": [
       424,
@@ -5542,7 +5576,17 @@
     ],
     "4bf02917acfdd867cf1879778adb0ce7c50571da213bb12f85f4fc18bdd038d9": [
       792,
+      1065,
       1451
+    ],
+    "4c4a1f712a94696c030901d7b708152c1697d7757dd4cee48bb9599ea1667572": [
+      287,
+      902,
+      1197,
+      1535,
+      1760,
+      2413,
+      2805
     ],
     "4d60d4739569aad1a6dce7ef5fabee73de517c58fceef93ca112478921ee8c81": [
       340,
@@ -5550,7 +5594,9 @@
       1327,
       1566,
       2075,
-      2604
+      2320,
+      2604,
+      2833
     ],
     "4e22e6e1415d373c4ffd358528b810221207b78a06c707a3a3acec35df22e20b": [
       623,
@@ -5559,10 +5605,6 @@
       1969,
       2334,
       2710
-    ],
-    "4ec4d714fd181a60273cfc428772f4bcfd6ebea5976e848331f3950973b3d931": [
-      536,
-      1181
     ],
     "4ec549cd036c54f33f9a97bc826ca715fa8c1dd3ef5e92115914f8d098913ef1": [
       821,
@@ -5582,10 +5624,21 @@
     ],
     "4fd5bb7ee9ba21189dd9a40b8101b398600d8507d055910c0f254e13b217eda2": [
       474,
+      769,
       992,
+      1322,
       1675,
       1931,
       2195
+    ],
+    "4ff5bad32a29cf581a9ca50ce24dd5e2f08fc864633359bc48a053a9bde8137c": [
+      610,
+      1557,
+      2025,
+      2210,
+      2534,
+      2855,
+      3046
     ],
     "50854f14c11f0da796615ac0dedbc00183879ddf713cc430167c748e8ddad1be": [
       276,
@@ -5595,19 +5648,32 @@
     "508b7ae28c84c607022ea9bc9524b5686283c6d802af41d78b9f69fce581b18b": [
       337,
       691,
+      1045,
       1228,
+      1435,
       1865,
+      2137,
       2490
     ],
     "50d2db23d4816b0a7d30f7557f7a1930835c9abd420df54f937e07df1470e3e0": [
       319,
+      654,
       980,
       1573,
+      1876,
       2076
     ],
     "524f1a1f4ad2c4b889c17d2e210f876ba169154c7a953283efa996ed35817dc6": [
       884,
       1496
+    ],
+    "52c1e9b9a0914d28d7ff49498e7837aa33ded5bb3a155c5f576bd20b7eb87bfc": [
+      862,
+      1047,
+      1410,
+      1785,
+      2196,
+      2359
     ],
     "5421afd3ed47deb926c0a5b9d04584dac7ddf7f5347d8a495689801412bc3cfe": [
       313,
@@ -5621,7 +5687,9 @@
       1327
     ],
     "55d8ee1eaebf5a24db365c4d10c7ea3817d74fd684007ad0b7641cdf2f781382": [
+      216,
       525,
+      784,
       1048
     ],
     "55f4969d9b9d174aabbd4fb2dea6e85c84a75b17c955630bc121e62b4e771eab": [
@@ -5631,7 +5699,9 @@
       1901
     ],
     "567e32a25a0720dd26a005dc222ab78c743ccf88950627008e94fcd9cd577479": [
+      198,
       573,
+      823,
       1123,
       1762
     ],
@@ -5643,20 +5713,28 @@
     ],
     "56a31f17e563549e45cc137699416203ffb469a09432efc6947bca80aa5e1082": [
       297,
+      567,
       877,
+      1067,
       1402
     ],
     "56fe62968715f73970726f9948c1121a9a87c65fb96a48bb7a14fea70260a555": [
-      397,
+      299,
+      503,
       773,
       1165,
+      1471,
+      1779,
+      1917,
       2124,
+      2384,
       2723
     ],
     "57336dea58d3c94448b2caad3c8865cb55eaede5b3b18f23b8d36108c0925526": [
       246,
       657,
       974,
+      1180,
       1415
     ],
     "57556b52c5f3c921953489fa955affb00e276db59ae7475c3963fb231f031a5e": [
@@ -5669,8 +5747,18 @@
       1175,
       1713
     ],
+    "5803953cc6e75a2afbf32b37062d87bd05f5cc8961488117145ca6343fb6ad8c": [
+      236,
+      628,
+      877,
+      1198,
+      1335,
+      1736
+    ],
     "5b337756325450e8de0b6721999ac0ea7e1c033c69fe44bf446f740cbaaac691": [
+      274,
       630,
+      919,
       1220,
       1575
     ],
@@ -5678,6 +5766,7 @@
       803,
       1348,
       1837,
+      2091,
       2425
     ],
     "5bfcc0ae9566f0c8d6caed3ae2db7d5edeee5248ba69855f64146867d5bcc4e5": [
@@ -5685,21 +5774,31 @@
       644,
       1015,
       1726,
+      1982,
       2334
     ],
     "5c5870fde92fad0160cca863d0104c7246357fb9282e1c8f140704204555c8d8": [
+      332,
       589,
-      1286
+      828,
+      1086,
+      1286,
+      1484
     ],
     "5c75103339e55054893531fe8a5594e7a3691d67eec98ad9b82763d388abb3ac": [
       350,
+      665,
       979,
+      1276,
       1591
     ],
     "5c89b0b46bce48a2184b01deef3ef3ba8da35b9fad83a3548fb1f26564de2e91": [
       518,
+      744,
       1167,
+      1392,
       1569,
+      1822,
       2145,
       2375,
       2759
@@ -5709,13 +5808,20 @@
       1330
     ],
     "5ef143b52d10dad94ac7c300b5e38a6167321e336b09d5e85559f88cecf3b449": [
+      286,
+      518,
+      759,
       962,
       1258
     ],
     "5ef970860179b587a7bca172ab6ccaf526e5dfd1df5799ad7bce9b8c3d14b9d1": [
+      314,
       663,
+      1015,
+      1254,
       1400,
-      1653
+      1653,
+      1824
     ],
     "60cbf4337c9d23e1e7e93a96bf66ec4c2f6b35c4d7e3e2cae8703cb6dafe2720": [
       801,
@@ -5736,14 +5842,19 @@
       2772
     ],
     "62574487ec70a3225caf08180e15adfc284ea7dcfaab2cae53d25b261174c647": [
+      249,
       540,
+      820,
       1056,
+      1381,
       1551
     ],
     "62e339f68a0bf8c110b9f2f62cf869aaf2166412f28587d64e276807a5c8491e": [
       780,
       1125,
+      1447,
       1731,
+      1997,
       2391
     ],
     "630caaf07876b067ebb2bc280a16b1237450c2512020f4c622fe1726521e3cdd": [
@@ -5784,9 +5895,12 @@
     ],
     "6726308ae55e67aacd368f8a3bf87d8fbbe285788814bd3c54dc0290905738e6": [
       279,
+      421,
       664,
       1003,
+      1275,
       1620,
+      1895,
       2125
     ],
     "68b9791fee54abcd31f1493ade88855735d2c47e0224290b6b7c7d37d082baa4": [
@@ -5803,8 +5917,12 @@
       1237
     ],
     "6ac6918c82d12ecac96682d40d136316b45482bad6a234c3a0b4c89e765cd208": [
+      141,
+      367,
       516,
-      1056,
+      747,
+      927,
+      1192,
       1528,
       2067,
       2391
@@ -5817,8 +5935,11 @@
       2518
     ],
     "6d7f38580a9bbef63055a17557907e5ad4998491e85e79a372e86c7a78614976": [
+      205,
       585,
+      831,
       983,
+      1137,
       1402,
       1709
     ],
@@ -5830,27 +5951,35 @@
     ],
     "6e58941bb95104a9d7950ab2e4b10255d93817f8ca65731b6e750c65a1f1fd4b": [
       708,
+      1032,
       1313,
       1576
     ],
     "6e5a3079d1dac3951ffb09a8f3f6d9855b6ceb3084bfeffad1f23e8126909390": [
+      290,
       572,
+      862,
       1108,
       1732,
+      2099,
       2281,
       2563
     ],
     "6f6a914cc249abbde91837297c3b603b439882dfae36285b2dbfbfa73149cae3": [
       252,
       535,
+      795,
       1138,
       1584
     ],
     "70667add90c861fe5c980eab2e3d7ecb71680267f70f4ea3f34b2191b8dbd0ed": [
+      273,
       541,
-      950,
+      837,
+      1153,
       1544,
-      1831
+      1831,
+      1978
     ],
     "7068eb28de19ff4ce278855f0abfd608650e8ca6529a419982a08e57027951f7": [
       317,
@@ -5870,14 +5999,14 @@
       1278
     ],
     "71b4caa1bab372db29242ffecd2582a254b48f99fd5e5e0d9eb8e0e19f8d8560": [
+      257,
+      653,
+      919,
       1133,
+      1304,
       1509,
       1941,
-      2266
-    ],
-    "7208ceec5f9a992717d47750a4e9adadc3b2926f2bf0b2b7972e02b0948ee8a3": [
-      1110,
-      1613
+      2155
     ],
     "720d18f7b95d904bd85d12c973757becdb1f6b347e602d73b579c963c46e4887": [
       1037,
@@ -5896,9 +6025,12 @@
       2950
     ],
     "7495674a4fd2085345322f530af76e5bd70e7ffd6bec5de47bbae08bd6bad231": [
+      362,
       610,
+      844,
       1113,
       1426,
+      1751,
       2005
     ],
     "74e92999580d2be1a1ef4d8a081664faca04d587956931e37f4cc27407c65080": [
@@ -5907,6 +6039,7 @@
       1323
     ],
     "75b1909988a871e0b749d05b39211e92a9e536cdb8888c3718064589fb363891": [
+      318,
       514,
       773,
       1063
@@ -5944,31 +6077,16 @@
       1003,
       1523
     ],
-    "797cc719fb279d2b5ca5cf4dfdbf0ca3c148de0d9797ef4fca888d01bbfa83e0": [
-      613,
-      1156,
-      1798,
-      2117
+    "796bff652b636a41460ed1bc3302adef4a19843e0a92b7e42414d337033144af": [
+      642,
+      1062,
+      1365
     ],
     "7a1b404a60b10dadebfcb99526b1eea67d14bf89ada2fd588891c3387ef28ba0": [
       745,
       1177,
       1592,
       1943
-    ],
-    "7a52f6f89ccb5176ffcbf6b10d43b0b5551220df833d6831fbad9159e511cf78": [
-      277,
-      656,
-      1193,
-      2018,
-      2366,
-      2780
-    ],
-    "7a8d5bcb6d119529e01ecd32a02cbbdfebf1f245c0c57b9ec7fdd1153a8cc4f5": [
-      274,
-      902,
-      1467,
-      2040
     ],
     "7ab66891e5dbea3cfcbb760e8c41fd64d653b42dbfbabe587a8c7fc3098903b8": [
       363,
@@ -5979,6 +6097,8 @@
     "7b480c537eb0bac1513b3fefb19cc79b3d6dd1fdd5b27d34830d216f6037bc5c": [
       333,
       886,
+      1083,
+      1305,
       1484
     ],
     "7c7f6fa28daafcbf56d69a8c020ef34ab197ed1b50f56b12ce56bb34a666cbab": [
@@ -5990,15 +6110,20 @@
     ],
     "7cf75cfb5cfd5c319ae1325674ebd689d0ce63e4c40aa10ed281143011059179": [
       606,
+      986,
       1277
     ],
     "7d403c0d3e24fd6e8fa50cedb8418925e91518fc4b4a7b7ad8ee94a1333cef97": [
+      248,
       577,
+      897,
       1103
     ],
     "7d80d43d671531cbb3654692157dfe90a7dda5a6dd55afe032595aef0b72483b": [
       1117,
       1600,
+      1802,
+      2000,
       2137
     ],
     "7e6707f7e3d2f723b44741e00731ce5df2c767537928a6ce003884aa1ebdf01f": [
@@ -6009,13 +6134,6 @@
     "7f19d0a821bbe9c62ce11dc4422f13abc4c3f32967b3af95816ab5e1a8bf6f2e": [
       793,
       1184
-    ],
-    "7fa7bc23a40e47c6a924ea00da19ccf9fdab903369f9f9d71145d2169bb55a43": [
-      557,
-      1012,
-      1593,
-      1939,
-      2183
     ],
     "8073b4deba53ec37098942ba4c698f40e8120e067cc12f977f82f5cecd383360": [
       671,
@@ -6031,13 +6149,6 @@
       1016,
       1363
     ],
-    "837dee2d15ef79d79ce0b1b1494e799442c4a965903e6a684c2b0856be118cdf": [
-      360,
-      898,
-      1229,
-      1781,
-      2295
-    ],
     "85406327ab9d2262cda48061dd239dbacdc6b00efdd37a38c8392ae41ed6bbcb": [
       579,
       1043,
@@ -6050,16 +6161,17 @@
       1368,
       1614
     ],
-    "8649cd8d6a96ef6cef1c69120bdbe5b4a72962fb9c47a2a2c4e1e4e521e34e11": [
-      259,
-      709,
-      1228,
-      1786,
-      2349,
-      2914,
-      3350,
-      3955,
-      4313
+    "87760790f5bc482124b63e1835fa91d17c1bd58c9adbd54b15e9c7e2608cc433": [
+      189,
+      508,
+      762,
+      1218,
+      1494,
+      1796,
+      2017,
+      2369,
+      2925,
+      3227
     ],
     "892130c2bbd0d8f84840c748a7c3b00325fd1460e11834db33d7624e4028852a": [
       562,
@@ -6102,10 +6214,19 @@
     "8f2af6ae013c2caeb2f56f5b4bb2ac2c00a97d76be2f8294df85c519446307c7": [
       290,
       664,
+      999,
+      1154,
       1343,
+      1546,
       1731
     ],
+    "9194ef0befbca5135e6a705e272e45304128da824dffd0acb2a852bb0c887cfa": [
+      850,
+      1175,
+      1399
+    ],
     "91a1d61ac41d965c99445954512c90d68c1eb4780441f45196dc325edfeb9f20": [
+      311,
       529,
       853,
       1223
@@ -6117,18 +6238,31 @@
     ],
     "95663ee60553e4b581d0c044b34aac8bfb3976e6e334c05c0fc7ed41da3182f0": [
       294,
-      785,
+      655,
+      964,
       1261,
+      1455,
+      1635,
       1980,
+      2311,
       2538
     ],
     "958ffef31d9a8e66225e16a730ba8a9256abb66b97b9aec87df01731dee119ae": [
+      283,
       543,
       835
     ],
     "95b8f5e543f463bf4321485651383a3daf548c8d1562f2c37109d1ce36e5bc79": [
       863,
       1334
+    ],
+    "95e0ab710e34685399c33bc8a0235c8aa27778bd9ac16622c097a7cc6ece248f": [
+      927,
+      1200,
+      1836,
+      2224,
+      2449,
+      2722
     ],
     "97adbb86e4652ece07b669e95533a7ae635b543c1757ea7c18ac879469154bd5": [
       635,
@@ -6138,11 +6272,20 @@
     "97f855253cb38a4a4b64bb9ed9f1ec5b25e512d10984359929b22aadc50f03b0": [
       323,
       699,
+      1066,
       1301
     ],
     "9952294f99f5aedd00085be653fa9b2fc60c807f70f43e83f349fc371d80614f": [
       601,
       846
+    ],
+    "9a188a1e1b23b3fad2012f3c33bc23a69500b6420f3f9b1a52daa0266af780a4": [
+      299,
+      561,
+      821,
+      1019,
+      1207,
+      1923
     ],
     "9a74354b21f90682912c998e6f7ddf05585601917d02f83dd29efb372f40434a": [
       520,
@@ -6159,14 +6302,20 @@
       929,
       1324
     ],
-    "9cac9081a866be3a6c5aba8883d8c3fe53b743a41338bd64dffba10e71ffd0be": [
-      561,
-      1118
-    ],
     "9e1af614f0cf32708ebad4c2f0b1281d0043befc4958cf7eabf0f7f169a78deb": [
+      245,
       528,
       808,
+      1050,
       1391
+    ],
+    "9eeadea0e8760eef29faf13ee2ef3f4cead61829ec13c9f778194fd152e28a68": [
+      217,
+      816,
+      1053,
+      1803,
+      2000,
+      2396
     ],
     "9f42cde74e796e8032677472f84cb3b5327089bef6c1c8c947eee961d775e810": [
       345,
@@ -6185,6 +6334,12 @@
       1005,
       1375
     ],
+    "a0329fc5384fe2415b12e359f701b2f76853e2497137ff1a8be8b5228ae84412": [
+      202,
+      572,
+      938,
+      1175
+    ],
     "a0572bbbf1103b5dda8896a6d3901a07e7f214355fe0ceab025fb4301009b8a9": [
       512,
       861,
@@ -6194,6 +6349,7 @@
       254,
       630,
       934,
+      1325,
       1473,
       2060,
       2389
@@ -6207,18 +6363,15 @@
     ],
     "a4bd1ca78966707b257f063455da37bb6613e587e90031a173c5ca99363fa450": [
       330,
+      505,
       684,
       997,
       1369,
+      1670,
       1992,
-      2467
-    ],
-    "a595ffec1a4a19ba008683bf11b24ff81c2f15e559769a8f0a1a8f5a56c9a0ab": [
-      590,
-      851,
-      1403,
-      2372,
-      2644
+      2163,
+      2467,
+      2622
     ],
     "a6bc164e985f652074644d58254980c98cca93fd5d5312b886902ed0005b46df": [
       605,
@@ -6226,19 +6379,38 @@
       1415,
       1666
     ],
+    "a70d4f8f5bd6cb08129eb3b75597543b50b294e813490533047df517f14b4821": [
+      313,
+      1024,
+      1624,
+      2312,
+      2523,
+      2755
+    ],
+    "a8969ffc2fe98cf82e82427f22fd45920bddc63e4e835f19792bfce0200e2502": [
+      222,
+      625,
+      910,
+      1142,
+      1552,
+      1827,
+      2113,
+      2285,
+      2600,
+      2837
+    ],
     "a91c9b076903b761ee8d5d786f66283e26ae59e3e46e5ee52f30226a8eff7b96": [
       308,
       928,
       1600
     ],
-    "a93ec0138f74fb01a23273396ab99740972423629f055f59eac78935de905803": [
-      696,
-      1152
-    ],
     "a9db2711f5ffe0d21359439485e88d5ec518edaf83e04f7a13494048519f6c87": [
+      364,
       726,
       1025,
+      1331,
       1707,
+      1929,
       2189
     ],
     "a9e4742b3ad8872fc3fbc2fbc3b380838e8e00a542e3978784a5fa2681a2f491": [
@@ -6246,6 +6418,14 @@
       943,
       1364,
       1618
+    ],
+    "aa94a257b45b0af02c61601c4c5be9491d719cfc50c28bb890981199117040a9": [
+      520,
+      779,
+      1107,
+      1515,
+      1773,
+      2069
     ],
     "af3adddec82267f2c93e30f9e8d013a61550e869f03d7d276f771ec7df3e9ea9": [
       789,
@@ -6264,6 +6444,7 @@
     "b10c6eb3dc66cfedc15a689ccf83cccfaa22ac46d99ae7be25e0a4b9c420d104": [
       360,
       977,
+      1280,
       1699,
       2009
     ],
@@ -6282,10 +6463,6 @@
       942,
       1318
     ],
-    "b862daae4f294ae2d0ac9b73a59b3440a1285b93e02c4ccd1950c39b62516850": [
-      312,
-      854
-    ],
     "b86f8ca7c55c8253ff3b3bffbd54b40dce99b25deb7843dcb233a808784092f0": [
       238,
       666,
@@ -6293,20 +6470,51 @@
       1805
     ],
     "b98d72fc88b211086dd614a39bf9de03cc0cc625d615ed689ab9b23ff7c94df8": [
+      300,
       679,
       1017,
       1347,
+      1701,
       2029,
       2295
+    ],
+    "ba04ec8a240b6ed003cecf34b059d3b4cac7debb700d296c0aa9ab8b27562365": [
+      562,
+      841
+    ],
+    "ba6e7c1bc1c9fa0e8b5f062548540cd2b94d85331676073e2c99a9750a8c8ab0": [
+      244,
+      559,
+      990,
+      1367,
+      1557,
+      1853
+    ],
+    "baf3143743a2871858d34f22c5615f0631533b9c7919e1dff59aa1e18c92ac5d": [
+      295,
+      688,
+      927,
+      1213,
+      1562,
+      1762,
+      2037
     ],
     "bb29824f429a87a9d6a2fc48f3775b15f73eb99433f8ed941cb4cbb12232565e": [
       685,
       1560
     ],
     "bb6329d64e97ccf3830c47c108c9f451edf8acb03585c52611304be658cc2ab7": [
+      200,
       475,
+      657,
       1756,
+      2060,
       2326
+    ],
+    "bbc93309b978269da4e2a1fcf1987fc407bc5cff20f53e5db12247bdd6900024": [
+      288,
+      647,
+      939
     ],
     "bda56c581cbc0b8e8323f1f47b45b9f0750ba2852b455bf7895e5fc94ce165fe": [
       783,
@@ -6316,15 +6524,24 @@
     "bdcb5ed49f70c47210238384e8d18da138d25b830190b7457efeb082d62ff77c": [
       366,
       810,
+      1206,
       1575,
       1807,
+      2008,
       2417,
       2662
     ],
     "be1c05ae53965b519b7c37501ca516ff48101d15690b28a7a9ecf70fc79edfe5": [
       347,
       1066,
+      1268,
       1500
+    ],
+    "c02c8a8d6128c2dd468f790965b7a914c71d9de6da633381bc0adc93e37c73b9": [
+      266,
+      596,
+      925,
+      1286
     ],
     "c47d9b504c0875a8b652f5a8f66d821a1a382001889eb15c140f3a69b203f921": [
       645,
@@ -6332,10 +6549,11 @@
       1596
     ],
     "c545a54eb8245c6134062e3b9c699c324ed04347230531e774ca14a0270966c9": [
+      211,
       395,
       949,
       1649,
-      2276,
+      2190,
       2630
     ],
     "c5831d0c33227bbd86a691f877e2fae3cd422bd4239965bb071afb94d026ce74": [
@@ -6347,12 +6565,6 @@
       849,
       1186
     ],
-    "c671db47864edbd39ecf86d2d16d0249a8a652a67633cbd65daf8c833a1f46c1": [
-      1044,
-      1408,
-      1847,
-      2481
-    ],
     "c67b44cf62b8bc888add587a072281023d19a736e0e76a51f748e8ac1d445dad": [
       279,
       699,
@@ -6363,6 +6575,7 @@
       3227
     ],
     "c6d06a21656f3cdc19115b5504c57cadd10a49e2af4776e891f40719a5d17b8b": [
+      256,
       546,
       896,
       1483
@@ -6371,13 +6584,6 @@
       354,
       999,
       1475
-    ],
-    "c88d25ecc80db31982a29deb4bf41ef3dc481642e36f14723afeab155c1f91e4": [
-      643,
-      1271,
-      2000,
-      2290,
-      2727
     ],
     "c8da050f55cda23ea093be333fd2a9ccc249ac448750bfa8e34a7901bcbb1e51": [
       538,
@@ -6404,6 +6610,24 @@
       1395,
       1889
     ],
+    "cbacc1f6f269fdb767ff19adebdfea04a380770dd3ffbe13dfa01209dd71f060": [
+      207,
+      848,
+      1249,
+      1507,
+      1804,
+      2062,
+      2231,
+      2663
+    ],
+    "ccafb6ba2f705caaf1609d06d44be8a6ebcbc966a73624217980d13dba8136ce": [
+      564,
+      754,
+      1010,
+      1384,
+      1622,
+      1932
+    ],
     "cd8cde4e90fbb9b8be6e24b5e38798bea378242b21ff98130f078cf328e7b79e": [
       534,
       971,
@@ -6415,7 +6639,9 @@
       1814
     ],
     "cf50dcbaf36923f4c24c51cec3d29e7d6a6dc4350d3cdd0b53a5f82de5695fcb": [
+      304,
       626,
+      906,
       1124,
       2074
     ],
@@ -6431,6 +6657,7 @@
       1426
     ],
     "d0d3cfbf52c74d57f292553c6538edd8758c127bab73aafba9d5badfe44ec46f": [
+      255,
       600,
       915
     ],
@@ -6443,6 +6670,7 @@
       1111
     ],
     "d33df0e8b167605cc3e794de11bc557f8c3a2e958fd6701b8f1ada7e22da152a": [
+      365,
       515,
       786,
       1489,
@@ -6455,6 +6683,12 @@
       2014,
       2312
     ],
+    "d5651dbf4c4a13d835b829aa456e2cafb3b977d2d40366ee0c74d55224bb0808": [
+      530,
+      870,
+      1909,
+      2289
+    ],
     "d80a790b43359780320f36e2565fea9231b8b8a9d81f09cf3c174d4bf8df4e88": [
       703,
       1214,
@@ -6463,13 +6697,16 @@
     ],
     "d8bcb5e58343323b7cfd724eaf8a91da5e2884eda151a25ec800292854f227ff": [
       290,
+      713,
       920,
       1380,
+      1589,
       1871,
       2133
     ],
     "d906075d07e466c35a45228685df1e134d65ba2a002d227444f8989d5258684b": [
       637,
+      1012,
       1367
     ],
     "d926d27d60d1e77dc2dc0c9431c001b493689816eca86dd0913f7e0dbce19a46": [
@@ -6509,23 +6746,22 @@
       1947,
       2333
     ],
-    "dfb04c8e4fbe5f445ebfdd055c25f9023860af1559db1e232aca61f6dbcd1c49": [
-      929,
-      1242,
-      1549,
-      2398,
-      2846,
-      3399
-    ],
     "e0c49f3418ae379b3847d5fe0ad4244a0c52c57e17289b1e8f17ccf5a0baf49a": [
+      143,
+      282,
       474,
+      641,
       836,
+      1055,
       1552,
+      1768,
       1976,
       2277
     ],
     "e0f0d514f12dca3918f415d2b31b252529045c7e11a880e20668f87f2eee22da": [
+      256,
       548,
+      882,
       1160
     ],
     "e0f32926e8a9c3181dd1ea86663c55a0d94cf104e2397d035978f1a508398457": [
@@ -6533,17 +6769,31 @@
       1026,
       1442,
       2100,
+      2353,
       2552
     ],
-    "e40484cb543f6082168e24bfeb7a3d273080400d9ba2f552e7b137fc6ad823d0": [
-      635,
-      894,
-      1552,
-      2097,
-      2754
+    "e229f2bfe462850fee32a53e153617aa1f7fe16f68eca57125e4e20d3562a491": [
+      327,
+      681,
+      1415,
+      1647,
+      1873
+    ],
+    "e5119dafcece142d345cf7ac289df84f82be2f61f84ef8432a695eab37c1d1e6": [
+      256,
+      496,
+      640,
+      807,
+      1022,
+      1392,
+      1805,
+      2157,
+      2616
     ],
     "e536d34632147bd0236bada6f182124949dfede7bca0c2b4bfe276a1fc2fe8b0": [
+      277,
       601,
+      889,
       1094
     ],
     "e9ec4fc16033b7fd091c86f5b9883f40e84497a7899397e24bb29c45e2bdcf29": [
@@ -6556,11 +6806,13 @@
     "ecb7a3ea03fe45c59454a096467e89e58a7c3e1d7e1e26453819ea5bad2afa0e": [
       273,
       640,
+      836,
       1127,
       1414
     ],
     "eccbfef7f1a81b2c5e8a62cea5e6b026eb18b4af0cff50a8c9d100165e6377a5": [
       548,
+      755,
       1085,
       1393,
       2130,
@@ -6572,25 +6824,34 @@
     ],
     "ed44360699d69b539d05271b733296a8d1d2b688326f21303b36006633a8ac3f": [
       1363,
+      1586,
+      1732,
       1918,
       2174,
       2909
     ],
     "edad48ebe7cc28333dddd45e6159e8782bf2a5675e9516b294714e6b28acbab8": [
+      184,
+      396,
+      574,
       719,
+      1064,
       1340
     ],
     "eec1a1a1cb99611ddff488a43c00abbb91c30e26d180c4a3f9dfb839cba8a113": [
       324,
       912,
+      1106,
       1362,
-      1844
+      1568,
+      1735
     ],
     "f036b58c6c01a39aabb7e23e2b3364d3a60e661ed8e13d124a261f3300879772": [
       549,
       921
     ],
     "f0ee386e0eb8eb6f653451f65611c36a4d58ef8db452fb9d312da81e145b2b24": [
+      272,
       630,
       889,
       1317
@@ -6604,7 +6865,9 @@
     ],
     "f217c5585ff59a03f2ae80ea28dffaaa3cd725be499019e10ca5e2d64f3190cd": [
       496,
+      789,
       970,
+      1135,
       1320,
       1592,
       1975
@@ -6614,9 +6877,19 @@
       910,
       1421
     ],
+    "f27079a853d36e6267d6eb10961066ef2ac5a2ad1e7c20b9311e1520dba14afc": [
+      263,
+      643,
+      923,
+      1208,
+      1542,
+      1812
+    ],
     "f2f1dd582c03e863dfc12127bcee4ba7badf59454446778a023d18ec0972de7a": [
       657,
       1250,
+      1545,
+      1799,
       1994
     ],
     "f2f895f2024e84588c12f3c1c052d4a059ccd0bee28dda6343338a60fabd4569": [
@@ -6627,52 +6900,57 @@
       2187,
       2788
     ],
-    "f3b91bb2198acca5a1e93e49b4a24fb6540c37f83b42b3f3c79ced4aaf7b8fea": [
-      303,
-      713,
-      1243,
-      1778,
-      2038
-    ],
-    "f3d995a4a2b966787a2c43615c19158247581f7a0c7d17408ac6c2054732d626": [
-      559,
-      1218,
-      1458
-    ],
     "f5f237fa330cc730176f1ae3272cd3b776a2583a5d01b6c78b7631eb659cefa8": [
       330,
       878,
       1201,
       1610,
+      1955,
       2358
     ],
     "f6cdb704f78c4a26742c375ac28d5f83217f491287cd275e34449f69242c2b4b": [
+      304,
       723,
+      1018,
       1476
     ],
     "f73ac5f12c503ff463c44ac571a1bc2c19dac3cb5dc6772437f261d792f65fae": [
+      177,
       553,
+      819,
       1132
     ],
     "f7b1106e0e47f529e2bd1bbf6069f5cf061e8d93b704b12c3f9f275a49a91bfb": [
       471,
+      756,
       1108
     ],
-    "f9a961d0ef10fbd043b4df5ef264a169580ea9d41cdcae0249107760bf8212d9": [
-      554,
-      882,
-      1241,
-      1776
+    "f877ca81a339df07c918d4e2686c9f367235b387fa99602af58ad13e81fea923": [
+      609,
+      1292,
+      1606,
+      2377,
+      2772,
+      3312
     ],
     "f9e93a76a86203530d81a9eddfddaf3f185548322e78a0240770c1112a804836": [
       808,
       1227,
       1675
     ],
+    "fa0fe5b456fa28b25b8c7465bdefd7537b58064cb49ae2ecd065bb565dfe61b4": [
+      210,
+      921,
+      1265,
+      1551
+    ],
     "fa192392174aa513620bd45b35592a6882dc537c8b7986efd2d0ccc1b8bdb9b4": [
+      175,
       332,
       685,
+      871,
       1166,
+      1453,
       1626,
       1986,
       2399
@@ -6682,33 +6960,20 @@
       1341,
       1967
     ],
-    "fc815c67c71d20d8331e6252ef969728b4dfefff9ad18a3a7b75c2d9245e0d55": [
-      625,
-      1250,
-      1674,
-      2197,
-      2776,
-      3270
-    ],
     "fcf5e2ad648cb2a984a5c39a64eed5eec5334ec0438a33a2e8287fd72a7781ea": [
       252,
+      640,
       892,
       1184,
       1527,
-      1885
+      1885,
+      2034
     ],
     "fed92f0c824f380a4883b40ecf7ba909afac99a957f8367668654ec107e0afde": [
       307,
+      596,
       888,
       1334
-    ],
-    "ffd1fa1c2f86a244ffd181bd54dc7fcc46fa0f3edf1f7b249efbd1c0818923e2": [
-      482,
-      932,
-      1197,
-      1995,
-      2881,
-      3168
     ]
   },
   "pack": "LoreForever_Voice_Default_Horde",

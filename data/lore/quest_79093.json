@@ -1,0 +1,109 @@
+{
+ "key": "quest:79093",
+ "type": "quest",
+ "name": "Rumi of Gnomeregan: The Collected Works",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79093
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "For gnomes seeking to preserve their culture and intellectual contributions after the fall of Gnomeregan, ensuring the collected writings of thinkers like Rumi are safely archived is a vital matter of heritage."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Scholars of the arcane value rare and curious writings recovered from across Azeroth, especially works that expand the collective understanding of magical theory and history."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The scholars and curators of the Alliance continually seek to recover and protect valuable literature and magical texts for the shared knowledge of the Alliance."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "rumi of gnomeregan quest",
+    "what is rumi of gnomeregan",
+    "who is rumi"
+   ],
+   "answer": "Rumi of Gnomeregan: The Collected Works is a task involving the recovery and contribution of a notable compilation of gnomish writings. An adventurer delivers these literary materials to a scholar building a library's collection, to ensure valuable knowledge is preserved and studied.",
+   "q": "What is Rumi of Gnomeregan: The Collected Works?"
+  },
+  {
+   "aliases": [
+    "where do i turn in rumi works",
+    "who takes rumi books",
+    "rumi collection turn in"
+   ],
+   "answer": "The collected works are turned in to a curator or scholar maintaining a library's collection. The recipients seek out significant writings and magical treatises to expand their archives.",
+   "q": "Where are these collected works delivered?"
+  },
+  {
+   "aliases": [
+    "why collect rumi books",
+    "purpose of rumi of gnomeregan",
+    "why library wants rumi"
+   ],
+   "answer": "Scholars and archivists actively gather rare texts, historical treatises, and magical manuscripts from throughout the world to ensure vital scholarship is preserved, particularly writings originating from Gnomeregan.",
+   "q": "Why does the library want these collected works?"
+  },
+  {
+   "aliases": [
+    "who was rumi of gnomeregan",
+    "rumi lore",
+    "rumi author"
+   ],
+   "answer": "Rumi of Gnomeregan is an intellectual or magical author whose compiled writings are sought after by archivists. With Gnomeregan largely overrun, surviving collections of gnomish thought and lore represent precious records of their scholarly traditions.",
+   "q": "Who is Rumi of Gnomeregan?"
+  },
+  {
+   "aliases": [
+    "are there more books to find",
+    "can i bring more texts",
+    "more magical works library"
+   ],
+   "answer": "Yes, the archivists welcome additional discoveries. Curators encourage adventurers to continue seeking out rare or significant magical treatises and historical works that can be added to the collection.",
+   "q": "Can more books be brought to the library after this?"
+  },
+  {
+   "aliases": [
+    "rumi quest requirements",
+    "who can turn in rumi works",
+    "alliance only rumi"
+   ],
+   "answer": "The task is undertaken by Alliance adventurers assisting scholars in safeguarding historical and arcane literature. Anyone who recovers these valuable texts can present them to the archives to aid scholarly research.",
+   "q": "Who can complete this task?"
+  }
+ ],
+ "keywords": [
+  "collected works",
+  "gnomeregan lore",
+  "gnomish writings",
+  "library",
+  "magical works",
+  "rumi of gnomeregan"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Rumi of Gnomeregan: The Collected Works represents an effort to preserve notable gnomish literature and intellectual achievements. Following the devastating loss of Gnomeregan to the trogg infestation, much of the gnomes' written heritage was scattered, buried, or threatened with destruction. Scholars and archivists working out of libraries and centers of learning actively seek out surviving manuscripts, treatises, and compiled writings to ensure the wisdom and ingenuity of gnomish thinkers are not lost to time.",
+   "spoiler": 0,
+   "title": "Preserving Gnomish Thought"
+  },
+  {
+   "body": "When adventurers discover these collected volumes in the field and deliver them to the archives, curators eagerly incorporate them into their growing repositories. Archivists view every recovered manuscript as an expansion of collective understanding, encouraging travelers to bring in any further magical or historical texts they uncover. Through these contributions, knowledge remains accessible to scholars, mages, and historians laboring to safeguard Azeroth's scholarly legacy.",
+   "spoiler": 0,
+   "title": "Archival Recovery"
+  }
+ ],
+ "summary": "Rumi of Gnomeregan: The Collected Works involves recovering and turning in a compiled volume of gnomish writings to expand a library's collection. By delivering these rare texts, adventurers assist scholars in safeguarding valuable historical and magical knowledge from being lost.",
+ "attribution": [
+  "In-game quest text: Rumi of Gnomeregan: The Collected Works"
+ ]
+}

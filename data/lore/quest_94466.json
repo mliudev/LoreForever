@@ -1,0 +1,122 @@
+{
+ "key": "quest:94466",
+ "type": "quest",
+ "name": "Call of Fire",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94466
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "Communing with fire requires forging an elemental bond through a dedicated sapta, leading toward communion with the Eternal Flame and acquiring the fire totem."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Braldir Ashmantle guides initiates in Loch Modan with an earthen, dwarven perspective on elemental fire, viewing it as the breath of the forge and creation rather than mere destruction."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Set in the dwarven territory of Loch Modan, this trial grounds shamanic rites firmly within Alliance lands against local trogg and kobold threats."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is call of fire",
+    "what is this quest",
+    "call of fire purpose"
+   ],
+   "answer": "Call of Fire is a rite of passage for aspiring shaman seeking communion with the Eternal Flame. To commune with fire spirits and claim a fire totem, one must first prepare a fire sapta to bind their mortal spirit to the element.",
+   "q": "What is the purpose of Call of Fire?"
+  },
+  {
+   "aliases": [
+    "who gives call of fire",
+    "who is braldir ashmantle",
+    "braldir ashmantle location"
+   ],
+   "answer": "Braldir Ashmantle is an elemental guide residing in Loch Modan. He instructs initiates in the balance of fire and prepares the necessary fire sapta once the proper elemental reagents are gathered.",
+   "q": "Who is Braldir Ashmantle?"
+  },
+  {
+   "aliases": [
+    "what is a fire sapta",
+    "what does a sapta do",
+    "why need sapta"
+   ],
+   "answer": "A fire sapta is an elemental draught or preparation crafted from fire-bound reagents. Drinking or using it attunes and binds the shaman's spirit to the elemental plane of fire, enabling vision and communion with the Eternal Flame.",
+   "q": "What is a fire sapta?"
+  },
+  {
+   "aliases": [
+    "where do i get fire tar",
+    "fire tar location",
+    "kobold caves fire tar"
+   ],
+   "answer": "Fire tar is carried by Tunnel Rat Geomancers inhabiting the kobold caves in the northern reaches of Loch Modan. The geomancers utilize the tar for their primitive flame crafts.",
+   "q": "Where is the fire tar found?"
+  },
+  {
+   "aliases": [
+    "where do i get reagent pouch",
+    "stonesplinter seer pouch",
+    "stonesplinter pouch location"
+   ],
+   "answer": "The reagent pouch must be taken from Stonesplinter Seers lurking in the southern hills of Loch Modan. These trogg mystics use the pouches to hold reagents tied to elemental magic.",
+   "q": "Where is the Stonesplinter reagent pouch found?"
+  },
+  {
+   "aliases": [
+    "braldir view on fire",
+    "meaning of fire loch modan",
+    "dwarven fire philosophy"
+   ],
+   "answer": "Rather than treating fire as mindless destruction, Braldir teaches that fire is forge, life, and the breath of creation. It exists in balance with other forces, tempering cold stone and giving warmth and purpose to existence.",
+   "q": "How does Braldir Ashmantle view the element of fire?"
+  }
+ ],
+ "keywords": [
+  "braldir ashmantle",
+  "call of fire",
+  "eternal flame",
+  "fire sapta",
+  "fire tar",
+  "fire totem",
+  "loch modan",
+  "stonesplinter seer",
+  "tunnel rat geomancer"
+ ],
+ "related": [
+  "zone:lochmodan",
+  "item:fire-tar",
+  "item:reagent-pouch-shaman",
+  "topic:kobold"
+ ],
+ "sections": [
+  {
+   "body": "In the rugged crags of Loch Modan, an elemental mentor named Braldir Ashmantle oversees the path for initiates seeking the power of flame. Communing with the fire spirits is no simple invocation; a mortal spirit must first be attuned to the burning element through a sacred concoction known as a fire sapta. Without this preparation, the heat of the Eternal Flame would consume rather than enlighten. Braldir requires petitioners to prove their resolve by gathering two crucial reagents bound to flame from the hostile inhabitants of the valley.",
+   "spoiler": 0,
+   "title": "The Path to the Flame"
+  },
+  {
+   "body": "Crafting a fire sapta requires substances rich in elemental resonance. To the north, Tunnel Rat Geomancers harvest sticky fire tar within their labyrinthine warrens, fueling their subterranean magic. To the south, trogg mystics known as Stonesplinter Seers carry reagent pouches filled with primitive elemental charms across the rugged hills. Claiming these items demands contending with two of Loch Modan's most entrenched pests, wresting the materials needed to bind an initiate's soul to flame.",
+   "spoiler": 0,
+   "title": "Reagents of the Earth and Spark"
+  },
+  {
+   "body": "Upon receiving the reagents, Braldir Ashmantle offers wisdom that tempers raw destruction with patience. To the seasoned mentor, fire is far more than fury and ash\u2014it represents life, the craft of the forge, and the very breath of creation. True mastery of the elements lies in balance: just as shadow gives meaning to light, flame prevents stone from remaining merely cold memory. Mastering the flame requires knowing when to blend rather than merely burn.",
+   "spoiler": 0,
+   "title": "The Tempering of Wisdom"
+  }
+ ],
+ "summary": "Call of Fire is an elemental trial in Loch Modan where initiates prepare to commune with the Eternal Flame and earn their fire totem. Guided by Braldir Ashmantle, candidates must gather elemental reagents from local kobolds and troggs to brew a binding fire sapta. The journey teaches that fire is not merely an instrument of ruin, but the forge and breath of life itself.",
+ "attribution": [
+  "In-game quest text: Call of Fire"
+ ]
+}

@@ -11,6 +11,7 @@
 import { COMPANION_NAME as NAME } from "./brand.js";
 import { PLANS, PAID, planFeatures, VOICE_NOTE, VOICE_PACK } from "./billing.js";
 import { hasAzeroth } from "./character-voices.js";
+import { CLEAR_ALL } from "./willo-notebook.js";
 
 // The most WILLO HELP adds to a system prompt (lib/companion-answers.js counts it in its bound): MAX_TOPICS topics.
 // With the player's WILLO STATE (at most STATE_MAX_BYTES) and their answers left.
@@ -26,8 +27,20 @@ const plansText = ({ azeroth }) => `Your plans (a player asking what Adventurer,
   `plan; answers can't be bought. When a plan's answers are used up, I answer from the add-on's lore library until they ` +
   `come back. Never say a price (the Plans page has them), nor "limit", "cap" or "unlimited": answers are counts.`;
 
+// A topic's own words with more alternatives joined on (other patterns').
+const orElse = (...patterns) => new RegExp(patterns.map(r => r.source).join("|"), "i");
+// Where their notes are: "where are my notes?", "how do I see my list?", "where did you write it down?", "how do I see
+// where you've written it down?" (the stream, 10/18: it got the Settings, and the app opened them). The notebook's, whatever
+// else the words say: the sight topic's "how do I … see" yields to it.
+const FIND_NOTES = /\b(?:where|how)\b[^.?!]{0,40}\b(?:(?:my|your|our)\s+(?:shopping\s+)?(?:notes?|notebook|to-?dos?|lists?(?!\s+of\b)|checklist)|(?:written|wrote|write|noted|jotted|saved|put)\s+(?:(?:it|that|this|them|things|stuff|all\s+that)\s+)?down|what\s+you(?:'ve|\s+have)?\s+(?:written|wrote|noted|jotted|saved|kept)|the\s+notes?\s+you)\b/i;
+// Asked where their notes are, or where she wrote something: her answer says where it was written, which is no claim of
+// a change now (functions/api/companion/answer.js keeps it; QA 10/19, after a reminder she'd just set, "Where did you
+// write that down?" got "I haven't changed your notebook yet").
+export const asksWhereNotes = question => FIND_NOTES.test(String(question || "").replace(/’/g, "'"));
+
 // words: what a question about the topic says. own: words that mean the app by themselves ("talk key"); the others
-// count only in a question to or about her ("your voice", "can't you see").
+// count only in a question to or about her ("your voice", "can't you see"); unless: words that take a topic's looser ones
+// back, for a question that's about another's.
 const TOPICS = [
   { id: "about", own: /\bwho are you\b|\bwhat (?:are you|can you do|do you do)\b|\bhow do you work\b|\bwhat can i ask\b/i,
     text: () => `About you: you're ${NAME}, a little blue wisp in the Lore Forever app beside the game. Players ask you ` +
@@ -93,6 +106,7 @@ const TOPICS = [
     // "Can you see the quiz I'm doing?", "are you able to see my bags?" (LOR-623: both got a guess). "What do you see?"
     // asks about the world in front of them.
     words: /\b(?:can't|cannot|can not|don't|do not|unable to|how (?:do|can)|why (?:can't|don't|do|won't))\b[^.?!]*\b(?:see|look|watch|know)\b|\b(?:can|could) you (?:see|watch|look at) (?:my|the|what)\b|\bare you able to see\b/i,
+    unless: FIND_NOTES,
     text: () => `Seeing the game: in your window, Settings › ${NAME} › Seeing the game › "Let ${NAME} see the game when you ` +
       `ask out loud" (on Hero and up). Then one picture of the game window goes with each question asked out loud, ` +
       `taken when the talk key comes up, only if the game is in front and not minimized; it's never kept on Lore ` +
@@ -127,7 +141,9 @@ const TOPICS = [
   // words win over "chat" and "quit" for a question that's about her keeping things (KEEPS_FIRST): "forget everything
   // you know about me" isn't a new chat, and "delete the questions I asked you" isn't quitting her. Her answer always
   // offers the page (lib/willo-tools.js keepsOffer).
-  { id: "privacy", own: /\bprivacy\b|\bmy data\b|\bpersonal (?:data|info)\b|\bdelete (?:my|the|this) (?:chats?|account|data|history)\b|\bwhat (?:\w+ )?keeps\b|\berase (?:everything|it all|all of it)\b|\b(?:delete|erase|remove|clear|wipe|forget)\b[^.?!]*\b(?:questions?|what i (?:asked|said|told you)|(?:my|our) (?:history|chats?|notes?|data)|everything|all of (?:it|that)|about me)\b|\bforget me\b|\bwhat (?:do|did|can) you (?:know|remember|keep|save|store)\b[^.?!]*\b(?:about|of) me\b|\b(?:keep|keeps|kept|store[sd]?|stored|sav(?:e|es|ed)|record(?:s|ed)?|log(?:s|ged)?|collect(?:s|ed)?|upload(?:s|ed)?|sen[dt]|track(?:s|ed)?)\b[^.?!]*\b(?:what i (?:ask|asked|say|said|type|typed|tell|told)|(?:my|our) (?:questions?|chats?|conversations?|history|answers?|data|messages?)|questions? i (?:ask|asked))\b|\b(?:what i (?:ask|asked|say|said|type)|(?:my|our) (?:questions?|chats?|conversations?))\b[^.?!]*\b(?:kept|stored|saved|recorded|logged|collected|uploaded|sent|tracked|private)\b/i,
+  { id: "privacy", own: orElse(/\bprivacy\b|\bmy data\b|\bpersonal (?:data|info)\b|\bdelete (?:my|the|this) (?:chats?|account|data|history)\b|\bwhat (?:\w+ )?keeps\b|\berase (?:everything|it all|all of it)\b|\b(?:delete|erase|remove|clear|wipe|forget)\b[^.?!]*\b(?:questions?|what i (?:asked|said|told you)|(?:my|our) (?:history|chats?|notes?|data)|everything|all of (?:it|that)|about me)\b|\bforget me\b|\bwhat (?:do|did|can) you (?:know|remember|keep|save|store)\b[^.?!]*\b(?:about|of) me\b|\b(?:keep|keeps|kept|store[sd]?|stored|sav(?:e|es|ed)|record(?:s|ed)?|log(?:s|ged)?|collect(?:s|ed)?|upload(?:s|ed)?|sen[dt]|track(?:s|ed)?)\b[^.?!]*\b(?:what i (?:ask|asked|say|said|type|typed|tell|told)|(?:my|our) (?:questions?|chats?|conversations?|history|answers?|data|messages?)|questions? i (?:ask|asked))\b|\b(?:what i (?:ask|asked|say|said|type)|(?:my|our) (?:questions?|chats?|conversations?))\b[^.?!]*\b(?:kept|stored|saved|recorded|logged|collected|uploaded|sent|tracked|private)\b/i,
+      // "Clear your notes", "wipe my notebook": she has no clear-all, and the page that has it is hers to offer.
+      CLEAR_ALL),
     words: /\b(?:keep|store|save|remember|record|log|know|collect|send|share)\b[^.?!]*\b(?:about me|of me|me\b|my)\b|\bkeep about\b|\b(?:forget|erase)\b/i,
     text: ({ keeping = null } = {}) => `What you keep: asked whether you keep their chats, questions or answers, say ` +
       `both: their chats are saved on their computer, and the site keeps their questions and your answers 14 days ` +
@@ -208,14 +224,22 @@ const TOPICS = [
       `"Something's wrong" in your window tells the people who made you.` },
   // Her notebook (lib/willo-notebook.js, LOR-661): what she writes in it and when, and its tab (the release after 0.21.0).
   // Pinned spots live in it too (lib/willo-pins.js, LOR-664).
-  { id: "notebook", own: /\bnotebook\b|\bto-?do(?:s| list)?\b|\b(?:take|keep|make|write)(?: down)? (?:a )?notes?\b|\bchecklist\b|\bpin (?:a |this )?(?:spot|place)s?\b/i,
+  { id: "notebook", own: orElse(/\bnotebook\b|\bto-?do(?:s| list)?\b|\b(?:take|keep|make|write)(?: down)? (?:a )?notes?\b|\bchecklist\b|\bpin (?:a |this )?(?:spot|place)s?\b/i,
+      FIND_NOTES, CLEAR_ALL),
     words: /\bremember (?:things|stuff|for me|places|spots)\b|\blists?\b|\bpins?\b/i,
     text: () => `Your notebook: you keep one for them, markdown pages of to-dos and notes, one for each ` +
       `character and one for all their characters. When they ask you to remember something, add it to their list, ` +
       `tick it off, change it or take it off, you write it there at once and say so in a line; you never write in it ` +
       `unasked, and "what's on my list?" you answer from it. ` +
-      `They can read it, tick boxes, edit a page by hand and download it in the Notebook tab at the top of your window ` +
-      `(if it isn't there yet, it comes with the next update). Asked whether you can keep notes or a list, say yes, how ` +
+      `Where it is: the Notebook tab in the bar at the top of your window, right next to Chat. It is never in Settings, ` +
+      `and Settings has no Notes, so never send them there for it (if the tab isn't there yet, it comes with the next ` +
+      `update). On it they read each page, tick the box beside a to-do, press Edit to change a page by hand (then Save ` +
+      `or Cancel), press Undo for the last change, and Download notebook; their reminders show under Reminders, each ` +
+      `with an × to cancel it. To remove lines, they ask you ("take the linen off my list") or press Edit on the page, ` +
+      `delete the lines and press Save. There are no trash icons or delete buttons on single lines, and you can't clear ` +
+      `the whole notebook yourself: never say you cleared, emptied or wiped it, or point at buttons that don't exist. ` +
+      `Everything you keep, the notebook too, can be erased on the What ${NAME} keeps page (offer to open it). ` +
+      `Asked whether you can keep notes or a list, say yes, how ` +
       `to ask ("remember…", "add … to my list") and where the Notebook tab is; you've written nothing until they ask. ` +
       `Pins live there too: "pin this spot" puts where they stand, with the day, under Pins on this character's page, ` +
       `when you know where they stand right now (a question from the add-on's Ask box, which also gives the spot on the ` +
@@ -233,6 +257,15 @@ const TOPICS = [
       `when one moves (a level, a quarter of the gold, a new standing). "Stop telling me about my goals" turns those ` +
       `lines off. They change or drop a goal by telling you, or by hand in the Notebook tab. You only advise: you never ` +
       `do anything in the game.` + (plans ? ` Goals come with Hero and up.` : "") },
+  // Her friends (LOR-674): "are any of my friends online?" with none added got "I cannot see your friends list… check
+  // your social panel in the game" (QA 10/19), as if the Friends tab didn't exist. Their friends themselves are in the
+  // FRIENDS section Willo's app writes (lib/friends-note.js); this says where they come from.
+  { id: "friends", own: /\b(?:my|any|of my)\s+friends?\b[^.?!]{0,30}\b(?:online|on\s+now|playing|around|on\s+willo|up\s+to|doing)\b|\bwhere\s+(?:are|is)\s+my\s+friends?\b|\bfriends?\s+(?:list|tab)\b|\badd(?:ing)?\s+(?:a\s+|my\s+|some\s+)?friends?\b|\bhow\s+do\s+(?:i|we)\s+(?:make|get|find)\s+friends\b/i,
+    text: () => `Your friends: other players they add in the Friends tab at the top of your window (next to Notebook), ` +
+      `by their friend's profile name or the link their friend sent; the friend says yes first. For friends who share ` +
+      `it, you know whether they're out in the world and where they were last seen (the FRIENDS section, when there is ` +
+      `one). No FRIENDS section means they haven't ` +
+      `added any friends to you yet: say so and how to add one. You can't see the game's own friends list.` },
   // "Can you open your settings?" got "I don't have settings or a menu to open" (Mike, 10/17).
   // Only hers ("Willo settings", "your settings"): the game's own settings are the player's world, looked up online.
   { id: "settings", own: /\b(?:your|willo'?s?|the app'?s?) (?:own )?(?:settings|options|preferences)\b/i,
@@ -276,7 +309,7 @@ const topicsOf = (question, plans, client = null) => {
   const q = String(question || "").replace(/’/g, "'");
   const her = ABOUT_HER.test(q);
   const picked = TOPICS.filter(t => (t.id !== "plans" || plans) && (t.from !== "color" || client === null || hasColor(client))
-    && (t.own?.test(q) || (her && t.words?.test(q))));
+    && (t.own?.test(q) || (her && t.words?.test(q) && !t.unless?.test(q))));
   const keeps = picked.some(t => t.id === "privacy" && t.own.test(q));
   return picked.filter(t => !(keeps && KEEPS_FIRST.includes(t.id) && !t.own?.test(q))).slice(0, MAX_TOPICS);
 };

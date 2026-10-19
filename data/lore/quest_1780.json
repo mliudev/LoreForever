@@ -1,0 +1,110 @@
+{
+ "key": "quest:1780",
+ "type": "quest",
+ "name": "The Tome of Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1780
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The Tome of Divinity tests an aspiring paladin's commitment to selfless service, teaching that devotion to the Holy Light requires tangible acts of charity and protection for ordinary citizens."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The trials reinforce Stormwind's spiritual foundation, reminding Alliance defenders that true strength lies in safeguarding the vulnerable among their people."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is tome of divinity",
+    "tome of divinity quest",
+    "paladin trial quest"
+   ],
+   "answer": "The Tome of Divinity represents a foundational series of trials undertaken by aspiring paladins. Administered through mentors at the Cathedral of Light in Stormwind, the quest tasks initiates with demonstrating moral virtue, charity, and duty by directly helping citizens in need across the kingdom.",
+   "q": "What is the Tome of Divinity?"
+  },
+  {
+   "aliases": [
+    "who is duthorian rall",
+    "paladin trainer stormwind",
+    "duthorian rall role"
+   ],
+   "answer": "Duthorian Rall is a senior paladin trainer stationed in the Cathedral of Light in Stormwind City. He guides fledgling paladins through their spiritual education and moral trials, evaluating whether their deeds reflect true adherence to the virtues of the Holy Light.",
+   "q": "Who is Duthorian Rall?"
+  },
+  {
+   "aliases": [
+    "tome of divinity purpose",
+    "why do paladins do this",
+    "what does this quest teach"
+   ],
+   "answer": "The trial instills the fundamental paladin ethos that wielding the Light requires humility, selfless sacrifice, and service to others. Rather than focusing solely on martial prowess, it emphasizes compassion, charity, and moral obligations toward the people of Azeroth.",
+   "q": "What is the lesson behind this trial?"
+  },
+  {
+   "aliases": [
+    "where does this quest take place",
+    "where to turn in tome of divinity",
+    "cathedral of light quest"
+   ],
+   "answer": "The quest centers around the Cathedral of Light, the grand spiritual sanctuary located in the Cathedral Square of Stormwind City. Initiates venture out to assist the populace before reporting their deeds back to Duthorian Rall within the cathedral.",
+   "q": "Where does this quest take place?"
+  },
+  {
+   "aliases": [
+    "who was helped in this quest",
+    "children charity quest",
+    "who received aid"
+   ],
+   "answer": "In this stage of the trial, aid was brought to those in dire need, including young children. The recipient expresses profound gratitude, noting that paladins in Stormwind must never turn their backs on the innocent and destitute.",
+   "q": "Who did the quest help?"
+  },
+  {
+   "aliases": [
+    "why does charity matter to paladins",
+    "paladins and the poor",
+    "charity holy light"
+   ],
+   "answer": "Charity and defense of the innocent are central pillars of the Holy Light. Duthorian Rall stresses that personal sacrifice and valuing the well-being of others above oneself form the bedrock of a paladin's sacred calling.",
+   "q": "Why does Duthorian Rall emphasize charity?"
+  }
+ ],
+ "keywords": [
+  "cathedral of light",
+  "charity",
+  "duthorian rall",
+  "holy light",
+  "paladin trial",
+  "stormwind",
+  "tome of divinity"
+ ],
+ "related": [
+  "npc:duthorian-rall",
+  "topic:light",
+  "topic:stormwind-kingdom"
+ ],
+ "sections": [
+  {
+   "body": "The Tome of Divinity represents a defining rite of passage for paladins in the service of the Holy Light. Stationed at the Cathedral of Light in Stormwind City, Duthorian Rall oversees these trials, sending initiates out to prove their dedication not through martial glory, but through moral rectitude and selfless deeds for the kingdom's citizens.",
+   "spoiler": 0,
+   "title": "A Trial of Virtue"
+  },
+  {
+   "body": "Upon returning from aiding the vulnerable\u2014delivering needed relief to children and earning their heartfelt gratitude\u2014initiates report their actions back to Duthorian Rall. Impressed by acts that place others above oneself, the mentor reminds them that charity, compassion, and duty to the people of Azeroth are the true measures of one who walks the path of the Light.",
+   "spoiler": 0,
+   "title": "The Virtue of Selflessness"
+  }
+ ],
+ "summary": "The Tome of Divinity is a sacred trial undertaken by paladins seeking to prove their devotion to the Holy Light. Guided by Duthorian Rall in Stormwind's Cathedral of Light, initiates must demonstrate selflessness, charity, and an unwavering commitment to protect those in need.",
+ "attribution": [
+  "In-game quest text: The Tome of Divinity"
+ ]
+}

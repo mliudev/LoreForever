@@ -115,7 +115,13 @@ test("\"no, I meant…\" and \"never mind\" are reports too, and a polite never 
 
 test("topics by the question's words, and by how it was answered", () => {
   assert.equal(topicOf("Where do I turn in the Defias quest?"), "quest");
-  assert.equal(topicOf("How do I get to Booty Bay?"), "place");
+  assert.equal(topicOf("How do I get to Booty Bay?"), "route");
+  assert.equal(topicOf("What's the fastest way to the Wetlands from where I am?"), "route");
+  assert.equal(topicOf("Where is the closest graveyard?"), "place");
+  assert.equal(topicOf("How do I get to 150 skinning?"), "profession");
+  assert.equal(topicOf("Where can I get a flight to Booty Bay?"), "route");
+  assert.equal(topicOf("Where is the Southshore boat?"), "place");
+  assert.equal(topicOf("Is there any silver lining to their story?"), "lore");
   assert.equal(topicOf("Is this sword an upgrade?"), "item");
   assert.equal(topicOf("Where do I train herbalism?"), "profession");
   assert.equal(topicOf("Who was Arthas?"), "lore");

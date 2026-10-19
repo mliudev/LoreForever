@@ -25,7 +25,7 @@
 //
 // Creators (LOR-503, CC-72). Creators apply on /creators (applyCreator) and /admin approves them (decideApplication),
 // or /admin adds one; each gets a readable link (/w/ziqo) tied to their own account, which opens their dashboard on
-// /creators (creatorDashboard). They earn share_pct% (CREATOR_DEFAULTS: 70) of what each subscriber they brought pays
+// /creators (creatorDashboard). They earn share_pct% (CREATOR_DEFAULTS: 60) of what each subscriber they brought pays
 // in their first paid month (months: 1), without tax (notePayment); later months are ours. A first month is the first
 // invoice for a whole month (a beta checkout's few half-price days before it count too, and so does an upgrade within
 // it). Each paid invoice is a row in creator_earnings, payable PAYOUTS.holdDays after it was paid; a refund or a
@@ -33,7 +33,9 @@
 // payout list (payoutList) has every creator owed at least PAYOUTS.minimumCents: /admin pays them by hand ("Mark paid")
 // or, once Mike has Stripe Connect and switches "Stripe payouts" on (referral_settings stripe_payouts), with a Stripe
 // transfer to the Express account the creator set up from their dashboard (startConnect, payCreator). Their audience
-// gets a discount or answers only when /admin gives that creator some (discount, gift; none by default). The creator
+// gets discount% off their first month (CREATOR_DEFAULTS: 15), through the creator's Stripe promotion code (their code
+// in capitals, syncPromo): taken off at checkout for someone their link brought, or typed there by anyone, which makes
+// that subscriber the creator's too (notePayment). Gift answers only when /admin gives that creator some. The creator
 // terms are on /creators; anything legal is Mike's to look over.
 //
 // The tables (made by setupReferrals; "Delete my account" removes or strips the account's rows, REFERRAL_USER_DATA):
@@ -68,9 +70,11 @@ export const REWARDS = {
   monthCounts: "activated",  // what moves the free month on: "activated" friends, or only those who "paid" a month
   perMonth: 10,              // friends who count in one calendar month, at most (so at most one free month a month)
 };
-// A creator's terms unless /admin says otherwise: their audience gets nothing extra (discount, gift), and they get
-// sharePct% of each subscriber's first `months` paid months.
-export const CREATOR_DEFAULTS = { discount: 0, sharePct: 70, months: 1, gift: 0 };
+// A creator's terms unless /admin says otherwise (Mike and Patrick's deal, 10/19 call, LOR-691: "60% of the first month
+// of the plan", and "a 15% discount" for their audience with the creator's code): they get sharePct% of each
+// subscriber's first `months` paid months, and their audience discount% off its first month (and no gift answers).
+// Creators made before keep their own terms.
+export const CREATOR_DEFAULTS = { discount: 15, sharePct: 60, months: 1, gift: 0 };
 // Payouts: a commission is payable holdDays after its invoice was paid (refunds and disputes come first), and a
 // creator is paid once at least minimumCents is payable (less carries over to the next month).
 export const PAYOUTS = { holdDays: 30, minimumCents: 1000 };
@@ -937,16 +941,30 @@ export async function stripePayoutsOn(env) {
   await setupReferrals(env);
   return (await env.DB.prepare("SELECT value FROM referral_settings WHERE key = ?").bind(SETTING).first())?.value === "on";
 }
+// A creator's Express account, as Stripe is asked to make it (startConnect, and the switch's probe). In the US,
+// Stripe's standard Express account: card payments and transfers together (asking for transfers alone needs Stripe's
+// approval: "Your platform needs approval for accounts to have requested the transfers capability without the
+// card_payments capability", 10/19). Outside the US, transfers only, under the recipient service agreement
+// (cross-border payouts: such an account can't take payments, and card_payments isn't allowed on it). channel: the
+// creator's channel, as their website, so Stripe's form doesn't ask for one.
+export function connectAccount({ country = "US", email = null, channel = null, metadata = {} } = {}) {
+  const us = country === "US", url = /^https:\/\/[^\s/]+\.[^\s]+$/i.test(channel || "") ? channel : null;
+  return { type: "express", country, ...(email ? { email } : {}),
+    capabilities: us ? { card_payments: { requested: true }, transfers: { requested: true } } : { transfers: { requested: true } },
+    ...(us ? {} : { tos_acceptance: { service_agreement: "recipient" } }),
+    ...(url ? { business_profile: { url } } : {}), metadata };
+}
+
 // /admin's switch, once Mike has Stripe Connect: creators can then set up payouts from their dashboard, and /admin
-// pays with Stripe transfers. Turning it on proves the site's key can make Express accounts (Connect is set up and
-// the key may write them): it makes one, empty, and deletes it again. Listing accounts proves nothing (it works
-// without Connect), and Stripe checks a request's fields before whether Connect is on.
+// pays with Stripe transfers. Turning it on proves the site's key can make a creator's Express account (Connect is set
+// up, the key may write them, and Stripe takes the account as startConnect asks for it): it makes one, empty, and
+// deletes it again. Listing accounts proves nothing (it works without Connect), and Stripe checks a request's fields
+// before whether Connect is on.
 export async function setStripePayouts(env, on) {
   await setupReferrals(env);
   if (on) {
     try {
-      const probe = await stripe(env, "POST", "accounts", { type: "express", country: "US",
-        capabilities: { transfers: { requested: true } }, metadata: { probe: "lore-forever payouts switch" } });
+      const probe = await stripe(env, "POST", "accounts", connectAccount({ metadata: { probe: "lore-forever payouts switch" } }));
       await stripe(env, "DELETE", `accounts/${encodeURIComponent(probe.id)}`).catch(e =>
         console.warn(`referrals: payouts probe ${probe.id} not deleted: ${e?.message || e}`));
     } catch (e) { return { error: `Stripe said no to Connect: ${e.message}` }; }
@@ -1041,8 +1059,8 @@ export async function payCreator(env, code, { method = "manual", note = "", now 
   return { payout: await env.DB.prepare("SELECT * FROM creator_payouts WHERE id = ?").bind(id).first() };
 }
 
-// A creator's Express account and Stripe's onboarding page for it (their dashboard's "Set up payouts"): {url} or
-// {error}. country: theirs (two letters); outside the US, Stripe's recipient agreement (payouts only).
+// A creator's Express account (connectAccount) and Stripe's onboarding page for it (their dashboard's "Set up
+// payouts"): {url} or {error}. country: theirs (two letters); outside the US, Stripe's recipient agreement (payouts only).
 const COUNTRY = /^[A-Z]{2}$/;
 export async function startConnect(env, creator, origin, { country = "US", email = null } = {}) {
   if (!(await stripePayoutsOn(env))) return { error: "Payouts through Stripe aren't open yet. We'll pay you by hand until then." };
@@ -1051,10 +1069,12 @@ export async function startConnect(env, creator, origin, { country = "US", email
   let id = creator.connect_id;
   try {
     if (!id) {
-      const acct = await stripe(env, "POST", "accounts", { type: "express", country, ...(email ? { email } : {}),
-        capabilities: { transfers: { requested: true } }, metadata: { creator: creator.code },
-        ...(country !== "US" ? { tos_acceptance: { service_agreement: "recipient" } } : {}) },
-        { idempotencyKey: `lf-connect-${creator.code}-${country}` });
+      const make = (channel, key) => stripe(env, "POST", "accounts",
+        connectAccount({ country, email, channel, metadata: { creator: creator.code } }), { idempotencyKey: key });
+      const key = `lf-connect-${creator.code}-${country}`;
+      // A channel link Stripe won't take as a website: their account is made without it (its form asks instead).
+      const acct = await make(creator.channel, key).catch(e => e.status === 400 && /business_profile|url/i.test(e.message)
+        ? make(null, `${key}-nourl`) : Promise.reject(e));
       id = acct.id;
       await env.DB.prepare("UPDATE creators SET connect_id = ?, connect_country = ?, connect_ready = 0 WHERE code = ?")
         .bind(id, country, creator.code).run();
@@ -1120,7 +1140,8 @@ async function creatorNumbers(env, code, now) {
 }
 
 // The signed-in creator's dashboard (/creators, functions/api/creators/[action].js me): their link and terms, their
-// numbers, and how they're paid: {code, name, url, terms: {sharePct, months, holdDays, minimum}, numbers, payouts:
+// numbers, and how they're paid: {code, name, url, promoCode (what their audience types at checkout, once Stripe has
+// it; else null), terms: {sharePct, months, discount, gift, holdDays, minimum}, numbers, payouts:
 // {stripe (payouts on), connect (set up), ready, next (the 1st of next month), last {cents, when, method}}}, or null
 // when the account isn't a creator.
 export async function creatorDashboard(env, userId, origin, now = new Date()) {
@@ -1135,6 +1156,7 @@ export async function creatorDashboard(env, userId, origin, now = new Date()) {
   ]);
   const next = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 1)).toISOString();
   return { code: creator.code, name: creator.name, url: shareUrl(origin, creator.code), retired: Boolean(creator.retired),
+           promoCode: creator.promo_id && creator.discount > 0 ? creator.promo_code || null : null,
            terms: { sharePct: creator.share_pct, months: creator.months, discount: creator.discount, gift: creator.gift,
                     holdDays: PAYOUTS.holdDays, minimum: PAYOUTS.minimumCents },
            numbers,

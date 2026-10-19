@@ -410,16 +410,20 @@ function Sub.Create()
   f.track, f.fill = track, fill
 
   -- Shift-drag moves it. The mouse is taken only while Shift is held over it, so it never stops a click from
-  -- turning the camera.
+  -- turning the camera. After Options' Move the subtitles... (or /lore subtitles) a plain drag moves it too, for a
+  -- while (Sub.Moving), and a few seconds more after each drop.
   f:RegisterForDrag("LeftButton")
   f:SetScript("OnDragStart", function(self)
-    if not IsShiftKeyDown() then return end
-    self.dragging = true
+    local plain = Sub.Moving()
+    if not (plain or IsShiftKeyDown()) then return end
+    self.dragging, self.plainDrag = true, plain
     self:StartMoving()
   end)
   f:SetScript("OnDragStop", function(self)
     self:StopMovingOrSizing()
     self.dragging = nil
+    if self.plainDrag then Sub.moveUntil = math.max(Sub.moveUntil or 0, now() + 5) end
+    self.plainDrag = nil
     Sub.Drop()
   end)
   Sub.frame = f
@@ -709,8 +713,9 @@ function Sub.Tick(elapsed)
   local target, clip = wanted()
   local story = Sub.story
   if Sub.sample and not target then
-    if now() < Sub.sample.untilT then target, story = Sub.sample.target, Sub.sample end
-    if now() >= Sub.sample.untilT then Sub.sample = nil end
+    -- (A sample stays while it's being moved, and while Move the subtitles... is on.)
+    if now() < Sub.sample.untilT or f.dragging or Sub.Moving() then target, story = Sub.sample.target, Sub.sample
+    else Sub.sample = nil end
   elseif target and (not story or story.target ~= target or story.clip ~= clip) then
     Sub.sample = nil
     story = Sub.Begin(target, clip)
@@ -750,11 +755,18 @@ function Sub.Tick(elapsed)
       f:SetAlpha(a)
     end
   end
-  -- The mouse only while Shift is held over it (to drag it), never otherwise.
-  local grab = f:IsShown() and (f.dragging or (IsShiftKeyDown and IsShiftKeyDown() and f:IsMouseOver())) or false
+  -- The mouse only while Shift is held over it (to drag it), or while it's being moved (Sub.Moving); never otherwise.
+  local grab = f:IsShown() and (f.dragging or Sub.Moving()
+    or (IsShiftKeyDown and IsShiftKeyDown() and f:IsMouseOver())) or false
   if grab ~= (f.grabbing or false) then
     f.grabbing = grab
     f:EnableMouse(grab)
+  end
+  -- Over every window (Options' covers the middle of the screen) while a sample shows or it's being moved.
+  local high = (Sub.sample or Sub.Moving()) and true or false
+  if high ~= (f.high or false) then
+    f.high = high
+    f:SetFrameStrata(high and "FULLSCREEN_DIALOG" or "LOW")
   end
   -- Nothing playing (or subtitles off) and nothing left to fade: asleep until UI.UpdateNowPlaying wakes it. While
   -- something plays behind the panel or one of our windows, it looks a few times a second for the way to clear.
@@ -766,10 +778,10 @@ end
 
 -- A sample over everything for a few seconds, after the size changes in Options (nothing may be playing, and the
 -- settings window covers the middle of the screen): how big the words are, where they go.
-function Sub.Sample(seconds)
-  local f = Sub.Create()
+function Sub.Sample(seconds, text)
+  Sub.Create()
   local target = { key = "", id = "subtitle-sample", label = L["Subtitles"],
-    text = L["The words of a narration show here as the voice reads them. Shift-drag them to move them."] }
+    text = text or L["The words of a narration show here as the voice reads them. Shift-drag them to move them."] }
   local words, weight = Sub.Words(target.text)
   local story = { target = target, title = target.label, text = target.text, words = words, weight = weight,
     share = 0.45, untilT = now() + (seconds or 6) }
@@ -777,11 +789,25 @@ function Sub.Sample(seconds)
   layout(story)
   Sub.Place()
   Sub.Wake()
-  f:SetFrameStrata("FULLSCREEN_DIALOG")
-  if C_Timer and C_Timer.After then
-    C_Timer.After((seconds or 6) + 0.6, function() if not Sub.sample then f:SetFrameStrata("LOW") end end)
-  end
   return story
+end
+
+-- Options' Move the subtitles... and /lore subtitles: for 30 seconds a plain drag moves the band (a few seconds more
+-- after each drop). It's the one playing if one shows; otherwise a sample says where to drag. Dropping keeps the place.
+local MOVE_FOR = 30
+function Sub.Moving() return (Sub.moveUntil or 0) > now() end
+function Sub.Move()
+  Sub.moveUntil = now() + MOVE_FOR
+  if not wanted() then
+    Sub.Sample(MOVE_FOR, L["Drag these words where you want them. Let go and they stay there."])
+  end
+  Sub.Wake()
+end
+
+-- Options' Put them back and /lore subtitles reset: the usual place, with a sample there when nothing shows.
+function Sub.PutBack()
+  Sub.Reset()
+  if not (wanted() or Sub.sample) then Sub.Sample() end
 end
 
 function Sub.Wake()

@@ -81,9 +81,9 @@
     "npc:altsoba-ragetotem": {
       "1": [
         {
-          "duration": 42.21387755102041,
-          "file": "Audio/Transport/full_npc_altsoba-ragetotem-875cb582c9c8c3d318cf/1-0000.mp3",
-          "sha256": "26a20165c139bfa17227abc3d0783fba1389e70ba9e431e619babdcfe2dc173c",
+          "duration": 40.6465306122449,
+          "file": "Audio/Transport/full_npc_altsoba-ragetotem-6d88b35da65cb275701c/1-0000.mp3",
+          "sha256": "24b532cb069d309b7da398fa7a5273c9c12b12100fe454f9d41e745dc1ba83a4",
           "start": 0
         }
       ],
@@ -95,12 +95,12 @@
         ]
       },
       "fullHash": "7a3fd1",
-      "generation": "68e3b8e667f313975927",
+      "generation": "1994a4676f6fd5da38a4",
       "hash": "7a3fd1",
       "source": {
-        "duration": 42.18775,
+        "duration": 40.646531,
         "file": null,
-        "sha256": "875cb582c9c8c3d318cf422be23d05b8c972b379d4a12dcc6a90aade2d9f0e84"
+        "sha256": "6d88b35da65cb275701c85820155f1b79e345206f28587f3fa04dacf5eb8ead6"
       },
       "text": "Altsoba Ragetotem. Altsoba Ragetotem is a tauren weaponsmith stationed at Bloodvenom Post in Felwood. From this remote Horde outpost, he keeps passing champions armed with reliable maces, staves, and axes to face the blighted horrors of the forest. Bloodvenom Post is a treacherous outpost, situated in the heart of Felwood amidst demonic corruption and tainted wildlife. Maintaining a supply line out here is a grim necessity, and Altsoba Ragetotem does his part by outfitting Horde scouts and travelers. Whether someone requires a sturdy crescent axe or a heavy war maul, Altsoba ensures warriors heading into the corrupted timberlands do not enter the fray unarmed."
     },
@@ -263,9 +263,9 @@
     "npc:archaeologist-flagongut": {
       "1": [
         {
-          "duration": 70.19102040816327,
-          "file": "Audio/Transport/full_npc_archaeologist-flagongut-9be678f5898d311ce34d/1-0000.mp3",
-          "sha256": "ead03d4827ed90ca7f1f77d603c5885484f14629a78aac830199222392cc9472",
+          "duration": 71.65387755102041,
+          "file": "Audio/Transport/full_npc_archaeologist-flagongut-2e38463edf17f83feaf5/1-0000.mp3",
+          "sha256": "b25e0670c3f80d3e8f6791c068a52b39e778d058816591d581230cc8d4ca0b5e",
           "start": 0
         }
       ],
@@ -277,12 +277,12 @@
         ]
       },
       "fullHash": "3529ab",
-      "generation": "29e01d9993f1ef2f4ef7",
+      "generation": "fd858d3d4ff4a6d1fcf2",
       "hash": "3529ab",
       "source": {
-        "duration": 70.164875,
+        "duration": 71.68,
         "file": null,
-        "sha256": "9be678f5898d311ce34d5cd352be3b5db467b67ab39f38f71433d498a83687be"
+        "sha256": "2e38463edf17f83feaf5fe9e484f20ffe090e124ea1a770fb7f0117dfb1ee5fd"
       },
       "text": "Archaeologist Flagongut. Archaeologist Flagongut is a dwarven scholar representing the Explorers' League, stationed within the Deepwater Tavern at Menethil Harbor. Though originally en route to the local dig at the Whelgar Excavation Site, he becomes an important contact for field reports traveling across the sea from Darkshore. Archaeologist Flagongut can be found resting with a mug in hand at the Deepwater Tavern in Menethil Harbor. Like many members of Ironforge's Explorers' League, he traveled west across Khaz Modan aiming to assist with discoveries near the Whelgar Excavation Site in the Wetlands. Despite being far from the high halls of the library, he maintains vital ties with field researchers, helping process lost relics and reports ferried across the Great Sea from remote expeditions. Dwarven curiosity is rarely confined to one continent. When the mysterious fossil that the absent-minded Prospector Remtravel unearthed in Darkshore is sent on to him by Chief Archaeologist Greywhisker in Darnassus, Flagongut is amazed: he once brought a fossil much like it to the Explorers' League's annual conference in Ironforge, convinced it held a power that could somehow be unlocked."
     },
@@ -913,9 +913,9 @@
     "npc:bink": {
       "1": [
         {
-          "duration": 49.99836734693878,
-          "file": "Audio/Transport/full_npc_bink-a1082f1c826d139da6db/1-0000.mp3",
-          "sha256": "04f8ff5fc7ed65fd9226d6288c887c5f91e650334edb2287d9d46bd12f300802",
+          "duration": 49.6065306122449,
+          "file": "Audio/Transport/full_npc_bink-ed01029c000f744940d8/1-0000.mp3",
+          "sha256": "60510b762cc0c6041e24031e6e83d2a6b8248e813e6f15f493bee015e5f324bc",
           "start": 0
         }
       ],
@@ -927,12 +927,12 @@
         ]
       },
       "fullHash": "521d22",
-      "generation": "9e4316b39e5fd124ca68",
+      "generation": "656365a1bcdd1d82810e",
       "hash": "521d22",
       "source": {
-        "duration": 49.972188,
+        "duration": 49.606531,
         "file": null,
-        "sha256": "a1082f1c826d139da6db4c068b5d4391be70c23d8be121b2d40e967fc20ab9a6"
+        "sha256": "ed01029c000f744940d831bb95d32651b28fab087ce86f10c8d58231b44f5875"
       },
       "text": "Bink. Bink is a gnome mage trainer who resides within the Hall of Mysteries in Ironforge's Mystic Ward. Quick-witted and enthusiastic, she guides aspiring spellcasters through the intricacies of the arcane arts and connects them with prominent wizards across the Alliance. Located in the Mystic Ward of Ironforge, Bink stands among the gathered scholars, priests, and arcanists in the Hall of Mysteries. Like many gnomes driven from Gnomeregan, she has adapted to life within the dwarven mountain stronghold, offering her keen intellect and knowledge of arcane craft to those learning the path of the mage. She is well connected to wizards across the Eastern Kingdoms and Kalimdor, regularly pointing promising apprentices toward greater mentors such as High Sorcerer Andromath in Stormwind or Tabetha in Dustwallow Marsh."
     },
@@ -1095,9 +1095,9 @@
     "npc:braenna-flintcrag": {
       "1": [
         {
-          "duration": 50.285714285714285,
-          "file": "Audio/Transport/full_npc_braenna-flintcrag-fa51c64a72278f1dfbfc/1-0000.mp3",
-          "sha256": "43319b1ed7ed69147b783dd70a865bbfb7dd46ff52f3079dda816a0316860afb",
+          "duration": 49.2930612244898,
+          "file": "Audio/Transport/full_npc_braenna-flintcrag-54f520423d59a5e92b77/1-0000.mp3",
+          "sha256": "1d5f2daacdd7e079b36dcc34803e9df205ce3cfbb75c3abbe8124c8227af5ef8",
           "start": 0
         }
       ],
@@ -1109,12 +1109,12 @@
         ]
       },
       "fullHash": "4a9c7e",
-      "generation": "370058e6dfcba0f81edf",
+      "generation": "96e782eee5dca3f4d927",
       "hash": "4a9c7e",
       "source": {
-        "duration": 50.259563,
+        "duration": 49.293061,
         "file": null,
-        "sha256": "fa51c64a72278f1dfbfc1b92943a5c64dc2aab7a3465169d4557cdd0bd559c48"
+        "sha256": "54f520423d59a5e92b773651892ec27794adec061cc32068ecdccc7f614352d3"
       },
       "text": "Braenna Flintcrag. Braenna Flintcrag is a dwarven priest trainer stationed within the Hall of Mysteries in Ironforge's Mystic Ward. She instructs devout followers of the Holy Light, guiding dwarven acolytes as they develop their spiritual disciplines and healing arts. She also passes word to visiting night elf priests when they are called home to the Temple of the Moon in Darnassus. Residing within the quiet alcoves of the Hall of Mysteries in Ironforge's Mystic Ward, Braenna Flintcrag serves the Alliance as a dedicated priest trainer. While Ironforge is renowned for its roaring forges and martial warriors, devout dwarves like Braenna tend to the spiritual welfare of Khaz Modan. She mentors novices answering the call of the Holy Light, teaching the dual disciplines of restorative mending and defensive warding required to survive in an increasingly dangerous world."
     },
@@ -1537,9 +1537,9 @@
     "npc:captain-rugelfuss": {
       "1": [
         {
-          "duration": 63.164081632653065,
-          "file": "Audio/Transport/full_npc_captain-rugelfuss-6ec4b17fb1eed591cdd0/1-0000.mp3",
-          "sha256": "f1c8d7a53ba896b069d96d653bc7a726697fdf1d37f91a5f16bed9aef47ebb51",
+          "duration": 63.11183673469388,
+          "file": "Audio/Transport/full_npc_captain-rugelfuss-2d052027f015214a0778/1-0000.mp3",
+          "sha256": "69c61ee4e2a9d7d62381c307c69deb13fdb68fc658664027d192d3b5f6979f31",
           "start": 0
         }
       ],
@@ -1551,21 +1551,21 @@
         ]
       },
       "fullHash": "dd2047",
-      "generation": "9e85eb5333c693e0f70e",
+      "generation": "a45b60edbab88444cd46",
       "hash": "dd2047",
       "source": {
-        "duration": 63.137938,
+        "duration": 63.111837,
         "file": null,
-        "sha256": "6ec4b17fb1eed591cdd05bf0777f29bbad51131ac2e3d6eccb266f91e7ef9b04"
+        "sha256": "2d052027f015214a07783a13e98002a6a518fac140f56effa37e0ef9eaa92ab1"
       },
       "text": "Captain Rugelfuss. Captain Rugelfuss is a stern dwarven officer stationed at the southern gate in the Valley of Kings. Tasked with securing the border of Loch Modan, he organizes the defense against a sudden and aggressive trogg uprising. Positioned near the monumental carved arches of the Valley of Kings, Captain Rugelfuss oversees the southern gateway into Loch Modan. With Alliance forces stretched thin across the world, Ironforge relies on veteran officers like him to keep the home territories secure. Rugelfuss dismisses military pomp and formalities, preferring to focus entirely on the grim reality facing the border. The primary crisis demanding Rugelfuss's attention is the swelling trogg threat. Unearthed from ancient caverns and surging into the highlands, these savage brutes have overwhelmed outlying dwarven patrols and established fortified footholds nearby. Under the banner of defending the King's lands, the captain recruits capable travelers to cull their ranks and push the creatures back from the roadway."
     },
     "npc:captain-shatterskull": {
       "1": [
         {
-          "duration": 42.34448979591837,
-          "file": "Audio/Transport/full_npc_captain-shatterskull-bcf9660a98981bcf52c6/1-0000.mp3",
-          "sha256": "4d2e75ba5cedc54a87a476f9fc5f7be49ce34c3982a5b85e6756b15cd07a564d",
+          "duration": 43.46775510204082,
+          "file": "Audio/Transport/full_npc_captain-shatterskull-345b460d79e1ba386851/1-0000.mp3",
+          "sha256": "8175d0d54834aa994685f86449acb95b8a1bb97479a5800d73376a885959df85",
           "start": 0
         }
       ],
@@ -1577,21 +1577,21 @@
         ]
       },
       "fullHash": "280772",
-      "generation": "9b3beec9478baf8c7cc8",
+      "generation": "1e8bf25f656cae92dfce",
       "hash": "280772",
       "source": {
-        "duration": 42.318313,
+        "duration": 43.467755,
         "file": null,
-        "sha256": "bcf9660a98981bcf52c663929df76bb830340f67c7ced0af9978cef7f8cb69b1"
+        "sha256": "345b460d79e1ba386851d09ec69076641105464f81dffeb4cb99f449c5be1429"
       },
       "text": "Captain Shatterskull. Captain Shatterskull is a seasoned orc commander stationed at the Mor'shan Base Camp on the northern frontier of the Barrens. Serving as a crucial bulwark for the Horde, he coordinates efforts to repulse night elf forces contesting the border near Warsong Gulch. Positioned at Mor'shan Base Camp along the edge of Ashenvale, Captain Shatterskull serves on the front lines of the Horde's territorial clashes. Beside fellow officers like Kadrak, Shatterskull works to maintain the Horde's foothold against night elf sentinels and Silverwing forces striving to reclaim the borderlands. His post demands relentless vigilance, as the conflict over Ashenvale's timber and ancient lands constantly threatens to spill over into the Barrens."
     },
     "npc:captain-thalo-thas-brightsun": {
       "1": [
         {
-          "duration": 84.66285714285715,
-          "file": "Audio/Transport/full_npc_captain-thalo-thas-brightsun-b4a38930fdb3defa5b6f/1-0000.mp3",
-          "sha256": "577519f73109ced1b3eb851a654905121067ad2e734cc97af6e5fa6c076ce50d",
+          "duration": 84.68897959183674,
+          "file": "Audio/Transport/full_npc_captain-thalo-thas-brightsun-d4c7a2174636a8d5f95d/1-0000.mp3",
+          "sha256": "04798c154d92402f3ff4fb04908a1a743f1bd204889c78734f460f92eccafe88",
           "start": 0
         }
       ],
@@ -1603,12 +1603,12 @@
         ]
       },
       "fullHash": "706a4e",
-      "generation": "6e6f3ad729a6c7f4801c",
+      "generation": "93b1a2ee3a34d34e3d7f",
       "hash": "706a4e",
       "source": {
-        "duration": 84.636688,
+        "duration": 84.68898,
         "file": null,
-        "sha256": "b4a38930fdb3defa5b6fb1694beada22ddbc1087ffedb23a41a5f64bd6ebfcdb"
+        "sha256": "d4c7a2174636a8d5f95d25869e5319b2fd68ee42fadbdba64141aedd164b7168"
       },
       "text": "Captain Thalo'thas Brightsun. Captain Thalo'thas Brightsun is a privateer affiliated with the Steamwheedle Cartel, stationed at the docks of Ratchet. Despite keeping a cordial demeanor toward traveling Alliance members, he harbors intense resentment toward the Theramore forces at Northwatch Hold who dare fire upon his vessels. Operating out of the bustling neutral port of Ratchet, Captain Thalo'thas Brightsun leads the Thalo'dan Privateers under the broad banner of the Steamwheedle Cartel. In theory, Ratchet's merchants welcome all flags so long as their coin is good, but maritime trade along the Barrens coast is fraught with danger. Just south of the port lies Northwatch Hold, an aggressive Alliance fortification whose heavy artillery threatens neutral sea lanes. Brightsun maintains an outward neutrality toward visiting travelers, but he has reached his limit with the belligerent garrison firing on his fleet. Because full-scale conflict would endanger Ratchet's neutrality, Brightsun cannot deploy an open armada against the fortress. Instead, he looks to capable Horde mercenaries to settle the score. He discreetly arranges strikes against Northwatch Hold to silence the fortress's cannons and secure the freedom of his captured crew. By employing Horde auxiliaries rather than provoking a direct Alliance retaliation against the cartel, Brightsun protects his shipping interests while keeping Ratchet's official ledger clean."
     },
@@ -1875,9 +1875,9 @@
     "npc:christoph-jeffcoat": {
       "1": [
         {
-          "duration": 55.56244897959184,
-          "file": "Audio/Transport/full_npc_christoph-jeffcoat-4d2ee75f44070f9dc7a1/1-0000.mp3",
-          "sha256": "0404717362a65c7d6eb3bfe5c8b3edd9c0fe723108a788adb715a11281c54556",
+          "duration": 53.86448979591837,
+          "file": "Audio/Transport/full_npc_christoph-jeffcoat-b07a29b9ba9058369eca/1-0000.mp3",
+          "sha256": "1798d971dd517b29f8cedb47af0d6d0bdcc92d9a590f78d126765a237cc8fd01",
           "start": 0
         }
       ],
@@ -1889,12 +1889,12 @@
         ]
       },
       "fullHash": "1756eb",
-      "generation": "9e06e1e3ea22725855ce",
+      "generation": "f95971ce2feb59fab36b",
       "hash": "1756eb",
       "source": {
-        "duration": 55.536313,
+        "duration": 53.86449,
         "file": null,
-        "sha256": "4d2ee75f44070f9dc7a1fded1b338fa18725a4e3056d5c8c62d5029a69774a5c"
+        "sha256": "b07a29b9ba9058369ecaffcb3f5d7689aa033693007556abbc37744f3eed7c74"
       },
       "text": "Christoph Jeffcoat. Christoph Jeffcoat is a Forsaken merchant stationed in the settlement of Tarren Mill within the Hillsbrad Foothills. He supplies local crafters and travelers with essential trade goods, cooking seasonings, and specialty recipes. In an active war zone contested by the Alliance and the Syndicate, his mundane wares keep the northern Horde war effort running. While Tarren Mill stands as the Forsaken's military stronghold in Hillsbrad Foothills, a garrison cannot fight on malice alone. Christoph Jeffcoat handles the quiet, practical side of occupation, vending reagents, tools, threads, and spices to soldiers and traveling artisans. From the soothing spices required for local culinary recipes like turtle bisque to rare schematics and alchemical vials, Jeffcoat ensures that Horde forces passing through southern Lordaeron are fully provisioned for the battles against Southshore and the regional perils."
     },
@@ -2447,9 +2447,9 @@
     "npc:deathguard-humbert": {
       "1": [
         {
-          "duration": 39.523265306122454,
-          "file": "Audio/Transport/full_npc_deathguard-humbert-1eb8b1693a6dd991f273/1-0000.mp3",
-          "sha256": "6837e3939b3590e4e92a93cdc328cf74ee8eae36bb0fda25963e0e703ee07fbf",
+          "duration": 42.18775510204082,
+          "file": "Audio/Transport/full_npc_deathguard-humbert-ea84542c23b4a7c366c5/1-0000.mp3",
+          "sha256": "4dea90322d0cff85ebeec0b33e7c470fec807779de3171977e580b9d5d30410b",
           "start": 0
         }
       ],
@@ -2461,12 +2461,12 @@
         ]
       },
       "fullHash": "a68967",
-      "generation": "74541cde1671372e6477",
+      "generation": "57da60d433a2a27c56f5",
       "hash": "a68967",
       "source": {
-        "duration": 39.497125,
+        "duration": 42.187755,
         "file": null,
-        "sha256": "1eb8b1693a6dd991f2738ccd71c12c3ee2c4c87aead95af934f341bc1d1aa4b7"
+        "sha256": "ea84542c23b4a7c366c5ba6ffdfe60e9c3ab1e87782cf337a5f737fd6c7d4fd7"
       },
       "text": "Deathguard Humbert. Deathguard Humbert is a Forsaken sentry stationed in Tarren Mill within the Hillsbrad Foothills. Assigned to monitor the encroaching Alliance presence, he finds himself in an embarrassing predicament after losing his military gear to the dwarves of Dun Garok. While tasked with maintaining Tarren Mill's perimeter against regional threats, Deathguard Humbert suffered a humiliating setback. Sent by High Executor Darthalia to watch Dun Garok from a hidden camp, he left one morning to gather firewood, and dwarven scouts from Dun Garok made off with his prized sword and assorted equipment, leaving the undead soldier desperate to salvage his pride and armament before high command takes notice."
     },
@@ -2525,9 +2525,9 @@
     "npc:deathguard-simmer": {
       "1": [
         {
-          "duration": 49.632653061224495,
-          "file": "Audio/Transport/full_npc_deathguard-simmer-b4b67ebf8474d8b1b992/1-0000.mp3",
-          "sha256": "d89ff6e9d6dffcddbca1c4f4eeb2f933636642379677ed7dbaccdce4831c6a8e",
+          "duration": 50.18122448979592,
+          "file": "Audio/Transport/full_npc_deathguard-simmer-8b8339b657d4109cccce/1-0000.mp3",
+          "sha256": "32356dff18e8357d02d41a91c128d2691baeecedf99593218701102a3da5aca2",
           "start": 0
         }
       ],
@@ -2539,12 +2539,12 @@
         ]
       },
       "fullHash": "da14de",
-      "generation": "a8f57a785b40824daf1d",
+      "generation": "518b7fd37bff1895efc4",
       "hash": "da14de",
       "source": {
-        "duration": 49.6065,
+        "duration": 50.181224,
         "file": null,
-        "sha256": "b4b67ebf8474d8b1b9924616b6fcdca2171c3aeb50ae275c9bc63ac835bd8771"
+        "sha256": "8b8339b657d4109ccccecd3628dcd5d198ffedd83fca28b429024d9be9b05327"
       },
       "text": "Deathguard Simmer. Deathguard Simmer is a Forsaken soldier stationed just outside Deathknell in Tirisfal Glades. He sizes up newly risen Forsaken and sends them to raid the human pumpkin farm to the west, patrolled by the Scarlet Crusade, for reagents the apothecaries of Brill need. Posted just outside Deathknell, Deathguard Simmer represents the Forsaken military line holding the border between the safe haven of Deathknell and the wider perils of Tirisfal Glades. The region crawls with living humans—most notably the fanatical Scarlet Crusade—who view all undead as abominations to be purged with fire and blade. Simmer tests fledgling Forsaken by sending them west to the Solliden Farmstead, where the Scarlet Crusade patrols from its nearby tower, to steal ten pumpkins and carry them to Apothecary Johaan in Brill."
     },
@@ -2603,9 +2603,9 @@
     "npc:deathstalker-rane-yorick": {
       "1": [
         {
-          "duration": 41.53469387755102,
-          "file": "Audio/Transport/full_npc_deathstalker-rane-yorick-39af935a3c1e4645bb98/1-0000.mp3",
-          "sha256": "7ec77e82b64acb1568d7122338a1c3611956a55c9c486904b9607f85c388ac1f",
+          "duration": 44.329795918367346,
+          "file": "Audio/Transport/full_npc_deathstalker-rane-yorick-a7a8aa2105473dcc5876/1-0000.mp3",
+          "sha256": "e510b2949e1f5cea7e08a99469196537427c4f3ef712b2f9f27f61c2ea2cba00",
           "start": 0
         }
       ],
@@ -2617,21 +2617,21 @@
         ]
       },
       "fullHash": "09cd14",
-      "generation": "abbdcc3d5c1a1de5fd06",
+      "generation": "bfd4f07e8b4b937c6f88",
       "hash": "09cd14",
       "source": {
-        "duration": 41.508563,
+        "duration": 44.329796,
         "file": null,
-        "sha256": "39af935a3c1e4645bb9873ea8b7994e825448f61d6bbb142b2126f5c4e31bd90"
+        "sha256": "a7a8aa2105473dcc5876bf249766625ce0203a7f4e75356782ebec93c28167c5"
       },
       "text": "Rane Yorick. Deathstalker Rane Yorick is an operative of the Forsaken intelligence guild stationed deep in Silverpine Forest. Together with her brother Quinn, she was sent to scout the farms of northern Silverpine and report to High Executor Hadrec. The Deathstalkers serve as Lady Sylvanas Windrunner's eyes, ears, and blades across Lordaeron. Operating out of shadows and hidden posts, agents like Rane Yorick monitor the wilderness for threats that could disrupt Forsaken dominion. When sent to scout northern Silverpine Forest, Rane and her brother Quinn found themselves hemmed in by surrounding feral dangers, turning an undercover reconnaissance mission into a battle for survival."
     },
     "npc:deathstalker-vincent": {
       "1": [
         {
-          "duration": 52.715102040816326,
-          "file": "Audio/Transport/full_npc_deathstalker-vincent-1d688511e15b548eeab3/1-0000.mp3",
-          "sha256": "a5033885fd67e2d4b9865f04df4d51da201d11c738b28043d5ce6a3664ef76c2",
+          "duration": 51.77469387755102,
+          "file": "Audio/Transport/full_npc_deathstalker-vincent-dbb58a0905cdd0faf0a6/1-0000.mp3",
+          "sha256": "fb1f489405a336bf7705a181911660238b229ca8687be2c127d0a723f7cad18a",
           "start": 0
         }
       ],
@@ -2643,12 +2643,12 @@
         ]
       },
       "fullHash": "05abf8",
-      "generation": "c0b87b5d3216cc547a3d",
+      "generation": "c6530ce128a156c01e70",
       "hash": "05abf8",
       "source": {
-        "duration": 52.688938,
+        "duration": 51.774694,
         "file": null,
-        "sha256": "1d688511e15b548eeab3aa3c7c270fe9813ed545a914897db03ac2faea02fae4"
+        "sha256": "dbb58a0905cdd0faf0a6cd126a82d8aee809d4363c74cf1ae2e2de802171b77a"
       },
       "text": "Deathstalker Vincent. Deathstalker Vincent was a Forsaken scout sent alongside Deathstalker Adamant to infiltrate Shadowfang Keep. Slain by the mad mage Arugal, his corpse remains inside the stronghold as a grim warning to any who challenge the feral worgen within. Before the Forsaken could launch a full-scale assault against the beasts holding Shadowfang Keep, intelligence on the fortress's interior was desperately needed. Two operatives from the Deathstalkers, the intelligence arm of the Forsaken, slipped past the barricades: Vincent and Adamant. Their mission ended in disaster. While Adamant was captured and locked away in a dungeon cell, Vincent was dragged directly before Shadowfang's master. Refusing to bend the knee or serve Arugal's dark designs, Vincent was executed on the spot, his body discarded on the stone floor to rot as a testament to the mage's fury."
     },
@@ -2733,9 +2733,9 @@
     "npc:deputy-feldon": {
       "1": [
         {
-          "duration": 44.72163265306123,
-          "file": "Audio/Transport/full_npc_deputy-feldon-8ca97fda7ad240ab1b84/1-0000.mp3",
-          "sha256": "9ab9f5520019b3f9543b884515e802a20bde6f4ed7ea4cb9388e28b861dfc928",
+          "duration": 44.251428571428576,
+          "file": "Audio/Transport/full_npc_deputy-feldon-8e6deb57cfc395dea0ec/1-0000.mp3",
+          "sha256": "b207b310d209a796e1283b16c367e5988ee78a6f2b6140c8047bc2e23e46d2b3",
           "start": 0
         }
       ],
@@ -2747,21 +2747,21 @@
         ]
       },
       "fullHash": "f210e7",
-      "generation": "e04359cbf09528f9892f",
+      "generation": "d752c056fdd3fc0432a1",
       "hash": "f210e7",
       "source": {
-        "duration": 44.747755,
+        "duration": 44.251429,
         "file": null,
-        "sha256": "8ca97fda7ad240ab1b84193e330125de4fad44d1a351852712564cb5ae04492d"
+        "sha256": "8e6deb57cfc395dea0ecda45c5a1f09bd5bc16de625562874521d57cc6d2750b"
       },
       "text": "Deputy Feldon. Deputy Feldon is a member of the Redridge town guard stationed just south of the Great Lakeshire Bridge. Tasked with watching the primary road into Lakeshire, he keeps a nervous vigil against the aggressive gnoll packs creeping toward the town perimeter. Standing watch near the southern approach to the Lakeshire bridge, Deputy Feldon represents an overextended town guard fighting to keep basic trade and travel routes open. With the Blackrock orcs pressing from the north and gnoll packs overrunning the southern hills, guardsmen like Feldon are stretched to their limits. Unable to leave his post without compromising the town's perimeter, he relies on passing adventurers to cull the gnolls encroaching on the roadway before they can cut Lakeshire off entirely."
     },
     "npc:deputy-rainer": {
       "1": [
         {
-          "duration": 81.99836734693878,
-          "file": "Audio/Transport/full_npc_deputy-rainer-5fd0c760d782a311530a/1-0000.mp3",
-          "sha256": "e078ec965d52f741d364e25d46832d0ceb6c93678e11fd52cead36cb6c7617bf",
+          "duration": 80.37877551020408,
+          "file": "Audio/Transport/full_npc_deputy-rainer-cd2d515c15d1f47cacd3/1-0000.mp3",
+          "sha256": "426aaf4abb16ef95b7e35a4b38273f5dceee218228f89ab92c8efe570a9fe0d5",
           "start": 0
         }
       ],
@@ -2773,12 +2773,12 @@
         ]
       },
       "fullHash": "9075b0",
-      "generation": "4ed500421f24002c9065",
+      "generation": "78eb40fd0d673851941a",
       "hash": "9075b0",
       "source": {
-        "duration": 81.972188,
+        "duration": 80.378776,
         "file": null,
-        "sha256": "5fd0c760d782a311530af85195e912871f75585817c6fe0e089a820c7d5c9c63"
+        "sha256": "cd2d515c15d1f47cacd3c86195576e8fb54a1eac4b78b7e6f5aebb5c77b72554"
       },
       "text": "Deputy Rainer. Deputy Rainer is a Stormwind Army officer stationed outside Westbrook Garrison along Elwynn Forest's western boundary. Tasked with holding the line against encroaching gnoll packs and bandits bleeding over from Westfall, he coordinates local defense efforts when official military reinforcements fail to arrive. Westbrook Garrison serves as Elwynn Forest's westernmost bulwark, positioned just along the boundary road leading into Westfall. As political paralysis in Stormwind City keeps the bulk of the army stationed abroad or tied up in bureaucracy, border posts like Westbrook are left severely understaffed. Deputy Rainer stands outside the tower to organize what little defense the garrison can muster. With local roads constantly threatened by aggressive Riverpaw gnolls and wandering thieves, Rainer is forced to rely on passing travelers and mercenary adventurers rather than official crown regiments to keep the forest trails secure. Beyond managing the immediate threat of the Riverpaw pack and cautioning travelers against the infamous gnoll chieftain Hogger, Rainer serves as a vital communications link to the troubled lands beyond the river. Knowing that the chaos plaguing Elwynn's borders originates in the lawless farmlands to the west, he directs capable volunteers across the threshold into Westfall, pointing them toward Gryan Stoutmantle and the struggling People's Militia."
     },
@@ -2937,6 +2937,32 @@
         "sha256": "ac8358ba7aa4e037801f9873f945ff45f728b8cc07f39bd79b18da8c7679f558"
       },
       "text": "Donyal Tovald. Donyal Tovald is a human steward serving in the Royal Library within Stormwind Keep. Under an initiative begun by the young King Anduin Wrynn, he oversees the care of the kingdom's books and works to distribute copies of historical texts to the broader public. Located in the quiet alcoves of the Royal Library wing within Stormwind Keep, Donyal Tovald tends to the kingdom's vast collection of historical accounts, scrolls, and scholarly volumes. While the library primarily serves the nobility and royal court, young King Anduin Wrynn has sponsored an initiative to make knowledge more accessible to ordinary citizens. Tovald handles the preservation and copying of these texts, helping ensure that the lessons and triumphs of the Alliance are not forgotten amidst the kingdom's turbulent political climate."
+    },
+    "npc:doomsayer-wiserunner": {
+      "1": [
+        {
+          "duration": 41.456326530612245,
+          "file": "Audio/Transport/full_npc_doomsayer-wiserunner-ca47efc50c775b356e50/1-0000.mp3",
+          "sha256": "f03add7654cba620c703fdce8a15ffb8e99d4f373287f2a2e2acdef1805f8746",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "1b6f7d",
+      "generation": "7a2a8e563179c02889a9",
+      "hash": "1b6f7d",
+      "source": {
+        "duration": 41.456327,
+        "file": null,
+        "sha256": "ca47efc50c775b356e509d2ecb071bc181e4b547da4b3f8da72a45393df9a6ed"
+      },
+      "text": "Seer Wiserunner. This respected tauren elder is known as Seer Wiserunner, serving his people faithfully in the rolling hills of Mulgore. From a cave in the hills northwest of Bloodhoof Village, he aids young tauren braves as they undertake the traditional rites of passage that lead toward spiritual adulthood. Seer Wiserunner stands among the gentle bluffs of Mulgore as an elder and mystic of the shu'halo. When young tauren complete their initial trials of strength and vision, they are sent to seek his counsel during their ancestral rites. He interprets visions of the Earth Mother and guides the youth on how to honor their forebears, offering the steady wisdom that binds the scattered nomadic tribes into a unified community."
     },
     "npc:doras": {
       "1": [
@@ -3123,9 +3149,9 @@
     "npc:einar-stonegrip": {
       "1": [
         {
-          "duration": 51.74857142857143,
-          "file": "Audio/Transport/full_npc_einar-stonegrip-4844ccb20617dc2f4323/1-0000.mp3",
-          "sha256": "c1aff74615f113380cce1fc9fc5f84ecbf13f2fc36076be516ca6c5210229a2a",
+          "duration": 49.136326530612244,
+          "file": "Audio/Transport/full_npc_einar-stonegrip-7b6535ea989aaec0d690/1-0000.mp3",
+          "sha256": "1c75c82b0e1fc77ea593993cad0e4b4b967bc33d27bbb90dbc77c90d78032c65",
           "start": 0
         }
       ],
@@ -3137,12 +3163,12 @@
         ]
       },
       "fullHash": "41bfd5",
-      "generation": "5230a63d7738848c01e6",
+      "generation": "7c1f4839f50dc2b13979",
       "hash": "41bfd5",
       "source": {
-        "duration": 51.722438,
+        "duration": 49.136327,
         "file": null,
-        "sha256": "4844ccb20617dc2f4323c0ee6bbb0bc31b95b71baffca5b244fb45466ab88845"
+        "sha256": "7b6535ea989aaec0d69070f5dd78990ca3dc39933131421bd58655065d936d5b"
       },
       "text": "Einar Stonegrip. Einar Stonegrip is a dwarven trapper stationed along the main crossroads of the Wetlands. Rather than risk an uncomfortable reunion with his estranged wife in Menethil Harbor, he relies on passing adventurers to haul his crocolisk skins to town. Perched at the central intersection connecting Dun Algaz, Dun Modr, and Menethil Harbor, Einar Stonegrip earns his living braving the sodden marshes of the Wetlands. He hunts the local crocolisks for their sturdy hides, supplying leatherworkers and merchants along the coast. Though rugged enough to wrestle reptiles out of the mire, he is thoroughly cowed by domestic strife. Embroiled in a bitter falling-out with his wife, Sida, Einar stays out on the road, hiring travelers to deliver his bundles of skins to his trading partner James Halloran rather than set foot in Menethil Harbor himself."
     },
@@ -3565,9 +3591,9 @@
     "npc:fallen-hero-of-the-horde": {
       "1": [
         {
-          "duration": 57.83510204081633,
-          "file": "Audio/Transport/full_npc_fallen-hero-of-the-horde-e335fcd14b30d72e9eb1/1-0000.mp3",
-          "sha256": "aec98541da6707b937b4df3447698a41913bb8a4761f37db551bac550edb0192",
+          "duration": 59.820408163265306,
+          "file": "Audio/Transport/full_npc_fallen-hero-of-the-horde-d7b9e3c0e5e69a75c015/1-0000.mp3",
+          "sha256": "22757b31f26d4aa9443be208fcfe86a43e44f4e2134859bdcb83e00e7acfe3bd",
           "start": 0
         }
       ],
@@ -3579,12 +3605,12 @@
         ]
       },
       "fullHash": "dd927c",
-      "generation": "6e9bdfeb8ebaef742945",
+      "generation": "9d5331ebf4f3acd1cb1a",
       "hash": "dd927c",
       "source": {
-        "duration": 57.808938,
+        "duration": 59.846531,
         "file": null,
-        "sha256": "e335fcd14b30d72e9eb169b51fe33ed4a7ca18b334806403ce7232f9a8987d88"
+        "sha256": "d7b9e3c0e5e69a75c015d513ed1c5ff4949daf5944b9f957b7226e09a79e06fb"
       },
       "text": "Fallen Hero of the Horde. The Fallen Hero of the Horde is the lingering spirit of an orc warrior standing watch on the southern road out of the Swamp of Sorrows. Bound by regret and dishonor, he warns passing travelers of the horrors awaiting them in the Blasted Lands and seeks champions willing to deliver his tortured soldiers from demonic bondage. In life, this warrior was a celebrated champion dispatched with a handpicked regiment of soldiers to investigate the Blasted Lands and report back on the presence of the Burning Legion. His dispatch never made it; the courier sent north toward Stonard was ambushed and slain by the Swamp Talker and his murlocs. Stranded without orders or reinforcements, the commander eventually marched his soldiers south into the shattered wastes to confront the growing darkness. It was a fatal misjudgment. Overwhelmed by demonic forces, his army was scattered, captured, and subjected to horrific torment at the hands of the dreadlord Razelikh the Defiler."
     },
@@ -3721,9 +3747,9 @@
     "npc:felgur-twocuts": {
       "1": [
         {
-          "duration": 41.53469387755102,
-          "file": "Audio/Transport/full_npc_felgur-twocuts-bebd19985e7d890b399e/1-0000.mp3",
-          "sha256": "931b2f48e28ad8274b60e224c03eb2c1f76a0e751ff8acf6aa1466d1018b33ba",
+          "duration": 41.456326530612245,
+          "file": "Audio/Transport/full_npc_felgur-twocuts-95a45b2bf1fb04614424/1-0000.mp3",
+          "sha256": "5e06f9192c742fa22e6e5e30978d4d25bae1f586d07eba51a488632aea214faf",
           "start": 0
         }
       ],
@@ -3735,21 +3761,21 @@
         ]
       },
       "fullHash": "d3e48a",
-      "generation": "034923ec4c31443becda",
+      "generation": "fb1f03512ad6bb9f8e59",
       "hash": "d3e48a",
       "source": {
-        "duration": 41.508563,
+        "duration": 41.456327,
         "file": null,
-        "sha256": "bebd19985e7d890b399e385c9b6e19a6c67007d07e0bcfdffdd1863b022482d8"
+        "sha256": "95a45b2bf1fb046144242a992d3f5fecf10c30d7b59f361c51cd0595bbf27dbb"
       },
       "text": "Felgur Twocuts. Felgur Twocuts is a blunt orc scout stationed at Ghost Walker Post in Desolace. He coordinates Horde efforts against the regional centaur clans. Standing watch amid the bleak expanse of Ghost Walker Post in central Desolace, Felgur Twocuts has little patience for pleasantries. As a forward scout for the Horde, he assesses the threats facing travelers and settlers venturing west through the mountains, particularly the local Kolkar centaur. Felgur directs Horde champions to cull the local centaur chieftains and collect bounties on the warring tribes who threaten to overrun the region. He is a central contact for anyone seeking to secure the Horde's foothold in Desolace."
     },
     "npc:felix-whindlebolt": {
       "1": [
         {
-          "duration": 44.826122448979596,
-          "file": "Audio/Transport/full_npc_felix-whindlebolt-20c3413e91975f8eb068/1-0000.mp3",
-          "sha256": "11f89523541a4a0fa18b3e7d44047e0235c03b454f454c61809595dfba65b0b2",
+          "duration": 44.87836734693878,
+          "file": "Audio/Transport/full_npc_felix-whindlebolt-a1d9d8f7c734062ee384/1-0000.mp3",
+          "sha256": "3897931c9eb24c108b1be26d4625add73aca03489a7826895e7355e9d13212c8",
           "start": 0
         }
       ],
@@ -3761,12 +3787,12 @@
         ]
       },
       "fullHash": "ee02bb",
-      "generation": "e8dda55a9034729f76f4",
+      "generation": "ec604ddfbc4235c01af6",
       "hash": "ee02bb",
       "source": {
-        "duration": 44.8,
+        "duration": 44.90449,
         "file": null,
-        "sha256": "20c3413e91975f8eb068aa0ec802489b70b27c57a8e9b0103be1cc45f59e8cdf"
+        "sha256": "a1d9d8f7c734062ee3841cea8deb036c5f12abbebe2829f4d5a1a54299f09d1a"
       },
       "text": "Felix Whindlebolt. Felix Whindlebolt is a displaced gnome refugee taking shelter at Anvilmar in Coldridge Valley. In his haste to flee the radiation flooding Gnomeregan, he lost his personal belongings, and hostile Frostmane trolls made off with them. Following the tragic fall of Gnomeregan, thousands of gnomes found themselves wandering the freezing reaches of Dun Morogh in search of safety. Felix Whindlebolt fled the irradiated city in such haste that he lost all his personal belongings and tools. To make matters worse, Frostmane ice trolls carried his chest, his box and his bucket of bolts back to their camps southwest of Anvilmar, leaving him stranded, destitute, and relying on sympathetic wanderers to retrieve his stolen gear."
     },
@@ -4085,9 +4111,9 @@
     "npc:gar-thok": {
       "1": [
         {
-          "duration": 102.66122448979593,
-          "file": "Audio/Transport/full_npc_gar-thok-893492c6323c3e1e5cf0/1-0000.mp3",
-          "sha256": "2e3ab3da45a9b28b702fd7d55f945a1b109fde91d44777f052b0be80d23226ce",
+          "duration": 103.3665306122449,
+          "file": "Audio/Transport/full_npc_gar-thok-ec5ae0c223659b9a8c9c/1-0000.mp3",
+          "sha256": "6cb7316b2f0f6b236978ae2cd2242d07aad7ce681273210a7bc40adcc29b96d2",
           "start": 0
         }
       ],
@@ -4099,12 +4125,12 @@
         ]
       },
       "fullHash": "d415c1",
-      "generation": "806016e81b16ba65b082",
+      "generation": "a574538838ee3796cad0",
       "hash": "d415c1",
       "source": {
-        "duration": 102.635063,
+        "duration": 103.366531,
         "file": null,
-        "sha256": "893492c6323c3e1e5cf0c710b20b641cbd20d9016870de1bbebb48aa65acf24e"
+        "sha256": "ec5ae0c223659b9a8c9c0572b26555a6303ff9d53bdfabebeffc2e1563003b46"
       },
       "text": "Gar'Thok. Gar'Thok is a veteran orc warrior and outpost commander stationed at Razor Hill in Durotar. Having survived the initial Kul Tiras landings on Durotar's coast, he now coordinates local defense against human encroachers and native threats. He directs young Horde recruits stepping out of the Valley of Trials to secure the red wastes of the new homeland. Following the Third War, Gar'Thok marched to Durotar under Warchief Thrall and served as a lieutenant under Nazgrel during the earliest days of building the new homeland. When the half-ogre wanderer Rexxar first arrived in Durotar, it was Gar'Thok who alerted him to the aggressive quilboar raiding their perimeter, enlisting the beastmaster to safeguard the fragile new settlement. Gar'Thok's resolve was tested when Grand Admiral Daelin Proudmoore's Kul Tiras fleet landed along the eastern shores of Durotar. Stationed at an outlying watch post, Gar'Thok witnessed his garrison overwhelmed and brutally slaughtered by naval marines. Though his forces were decimated, Gar'Thok survived the onslaught. The memory of that surprise assault cemented his vigilance against the surviving marines who still occupy Tiragarde Keep and the coastal shipwrecks. Today, Gar'Thok oversees the martial defense of central Durotar from the barracks of Razor Hill. He wastes no time with pleasantries, immediately tasking emerging Horde warriors, shamans, and scouts with clearing out hostile Kul Tiran remnants, repossessing salvaged supplies, and recovering military orders left in the coastal ruins. To him, the safety of Durotar is far from guaranteed, requiring constant pressure against any who question the Horde's right to this soil."
     },
@@ -4189,9 +4215,9 @@
     "npc:gelkak-gyromast": {
       "1": [
         {
-          "duration": 49.21469387755102,
-          "file": "Audio/Transport/full_npc_gelkak-gyromast-c2c808cacc1f014aca6d/1-0000.mp3",
-          "sha256": "640e8aefa71765a8cb46bf0596a021c4b56763938208619d5d3e2ce12da743f1",
+          "duration": 49.136326530612244,
+          "file": "Audio/Transport/full_npc_gelkak-gyromast-9a71fa772185e1b61d20/1-0000.mp3",
+          "sha256": "9449ab161d347f179147cfcedebeab9657643c362a9e7b07a95b6af1ce11eae5",
           "start": 0
         }
       ],
@@ -4203,12 +4229,12 @@
         ]
       },
       "fullHash": "b8c76e",
-      "generation": "cff36296df049f6a2281",
+      "generation": "696ca185e0f03b072fcf",
       "hash": "b8c76e",
       "source": {
-        "duration": 49.188563,
+        "duration": 49.136327,
         "file": null,
-        "sha256": "c2c808cacc1f014aca6d3ee9e3e081ddb324e9749cfff5e2cdf4d263ddf59bb2"
+        "sha256": "9a71fa772185e1b61d2045842491af171c9f80c295de00302afd1fcdbcd8007a"
       },
       "text": "Gelkak Gyromast. Gelkak Gyromast is a gnome who talks like a pirate captain, found stranded along the foggy shoreline of Mist's Edge in northern Darkshore. His ship was sunk offshore by threshadons, and he wants his mechanical first mate, the Threshwackonator 4100, back in working order. Perched on the desolate northern coast of Darkshore just west of the ancient Ruins of Mathystra, Gelkak Gyromast represents a peculiar sight among the gloomy night elven shores. Talking like an old sea dog, the self-styled captain lost his ship to the threshadons just offshore. When he washed up on the misty sands, the key to his mechanical first mate, the Threshwackonator 4100, broke on the rocks, and its pieces were carried off by the crawlers, foreststriders and murlocs rummaging through the wreckage."
     },
@@ -4267,9 +4293,9 @@
     "npc:gerrig-bonegrip": {
       "1": [
         {
-          "duration": 17.162448979591836,
-          "file": "Audio/Transport/full_npc_gerrig-bonegrip-7e75a9fb4f0d0c1c3779/1-0000.mp3",
-          "sha256": "b2fdb3265de1322f672c485f2e453e1b5a8f2be3e52828cb4f6f6913fb759654",
+          "duration": 17.47591836734694,
+          "file": "Audio/Transport/full_npc_gerrig-bonegrip-03c4e0c75fc861e9c8a3/1-0000.mp3",
+          "sha256": "ab3faa52c8d3b2b2706dcdeff86768322fd0a049ef433e7484d79931507eac26",
           "start": 0
         }
       ],
@@ -4281,12 +4307,12 @@
         ]
       },
       "fullHash": "4021d7",
-      "generation": "f4d7b781431883734c8b",
+      "generation": "28117c09aac71c99e69d",
       "hash": "4021d7",
       "source": {
-        "duration": 17.136313,
+        "duration": 17.475918,
         "file": null,
-        "sha256": "7e75a9fb4f0d0c1c3779669b64bade6f6b497d82e20fe64f96578cf9ac3a7095"
+        "sha256": "03c4e0c75fc861e9c8a3285d2efbab417b7472f858def200f9223b3d76546139"
       },
       "text": "Gerrig Bonegrip. Gerrig Bonegrip is an unassuming dwarven shopkeeper tucked away in the shadowy corridors of Ironforge's Forlorn Cavern. Behind the counter of Bonegrip's Runes and Dooms, he quietly buys and sells esoteric texts concerning dark rituals and forgotten ancient powers."
     },
@@ -5125,9 +5151,9 @@
     "npc:harken-windtotem": {
       "1": [
         {
-          "duration": 39.96734693877551,
-          "file": "Audio/Transport/full_npc_harken-windtotem-e6d806cd858735836024/1-0000.mp3",
-          "sha256": "0a494ac63a4ffd425c9019624325fca4587ffbaf37cc69c26fb9308a6015507d",
+          "duration": 41.22122448979592,
+          "file": "Audio/Transport/full_npc_harken-windtotem-e5574ca5c0089fb5e63e/1-0000.mp3",
+          "sha256": "b27bf9dd3e80dec9192b7693c92df2f8576ca9c3d613979888e392faf2bae4a8",
           "start": 0
         }
       ],
@@ -5139,12 +5165,12 @@
         ]
       },
       "fullHash": "5035a6",
-      "generation": "39726947124f5e3566bb",
+      "generation": "6e1cfbddb84a7afa47cc",
       "hash": "5035a6",
       "source": {
-        "duration": 39.941188,
+        "duration": 41.221224,
         "file": null,
-        "sha256": "e6d806cd85873583602444fff6cf0786263956a1fc44c17ca3d0b07be4784e39"
+        "sha256": "e5574ca5c0089fb5e63e6aa844c6e03b26f35e4906568e39d44a3b2ca13b53bf"
       },
       "text": "Harken Windtotem. Harken Windtotem is a tauren huntsman residing in Bloodhoof Village in Mulgore. Dedicated to the traditions of his people, he tasks young hunters and travelers with proving their tracking and foraging skills across the golden plains. Situated near the heart of Bloodhoof Village, Harken Windtotem serves as an instructor and guide for those learning the hunting ways of the tauren. Life on the plains of Mulgore demands respect for the natural world alongside the practical skill to sustain one's tribe. Harken evaluates young adventurers by directing them to hunt the native swoops that circle the mesas, collecting their quills to gauge a hunter's patience, aim, and ability to harvest without waste."
     },
@@ -5203,9 +5229,9 @@
     "npc:hegnar-rumbleshot": {
       "1": [
         {
-          "duration": 40.59428571428572,
-          "file": "Audio/Transport/full_npc_hegnar-rumbleshot-b556d7271543e917d553/1-0000.mp3",
-          "sha256": "bfe868d329c5df797c653009f135f405339d655c97e7fee511b97ac8e51f99ab",
+          "duration": 41.2995918367347,
+          "file": "Audio/Transport/full_npc_hegnar-rumbleshot-62dfad8350faeec88118/1-0000.mp3",
+          "sha256": "7a3db71ab053cf90bf6adfcfa8b42f86456022d86ae2e03bf1ba56f4fcdd8d90",
           "start": 0
         }
       ],
@@ -5217,21 +5243,21 @@
         ]
       },
       "fullHash": "7a7f0a",
-      "generation": "8dfb88ee41bae878b5b7",
+      "generation": "a168dfe97d9221eb14b9",
       "hash": "7a7f0a",
       "source": {
-        "duration": 40.568125,
+        "duration": 41.299592,
         "file": null,
-        "sha256": "b556d7271543e917d553c7224c2edad7014e7c9c131eeedd28b89d3a233ff4d0"
+        "sha256": "62dfad8350faeec88118381de06291d9e3285a8d4e4ae5a289601b5bb2f7def8"
       },
       "text": "Hegnar Rumbleshot. Hegnar Rumbleshot is a dwarven gunsmith stationed along the snowy roadway leading from Coldridge Pass toward Kharanos. He maintains a busy shooting range and equips local hunters and mountaineers with firearms and ammunition. Set up at a small campsite between Coldridge Pass and Kharanos, Hegnar Rumbleshot caters to dwarven marksmen, travelers, and the local militia. His camp features a popular shooting range where mountain folk hone their aim against the wild beasts prowling Dun Morogh. Supplying so many eager shooters means Hegnar burns through munitions at a brisk pace, leaving him perpetually reliant on fresh shipments of ammunition from his supplier, the dwarf engineer Loslor Rudge."
     },
     "npc:henze-faulk": {
       "1": [
         {
-          "duration": 47.203265306122454,
-          "file": "Audio/Transport/full_npc_henze-faulk-0524cee3238954a5778b/1-0000.mp3",
-          "sha256": "29c60408a62fb41ae42854605262d333ef4d5134a452acfff819c08d8a89b3d8",
+          "duration": 49.2930612244898,
+          "file": "Audio/Transport/full_npc_henze-faulk-28d640102b06d57d27c7/1-0000.mp3",
+          "sha256": "02263dd09601c31a13a72407f013291c12a595df6ddfa47b060aa3570de67a47",
           "start": 0
         }
       ],
@@ -5243,21 +5269,21 @@
         ]
       },
       "fullHash": "97f1c7",
-      "generation": "76c9ebbf01c609fd3665",
+      "generation": "1c21074b59162d14fa9a",
       "hash": "97f1c7",
       "source": {
-        "duration": 47.177125,
+        "duration": 49.293061,
         "file": null,
-        "sha256": "0524cee3238954a5778b37a6cfaf9b65fd9141969e9fdc2fd3a02169f830c41b"
+        "sha256": "28d640102b06d57d27c79a8404dab5f5877aaabfd1ba80e05f07c6190441da56"
       },
       "text": "Henze Faulk. Henze Faulk is a dwarven adventurer found lying near death on the stone circle outside Heroes' Vigil in Elwynn Forest. Struck down by the Defias Brotherhood while shielding his companion, he serves as a pivotal test for aspiring paladins learning to wield the gift of resurrection. Near the ancient stone ring east of Stormwind sits Heroes' Vigil, a place often haunted by Defias bandits prowling the Elwynn woods. Henze Faulk and his friend Gazin Tenorm were ambushed here by Defias marauders. Putting himself in harm's way to ensure Gazin's survival, Henze fell to the bandits' blades. While his companion survived to summon aid from the Cathedral of Light, Henze's body remains on the threshold of life and death, awaiting the divine intervention of a paladin carrying a Symbol of Life."
     },
     "npc:heralath-fallowbrook": {
       "1": [
         {
-          "duration": 59.1934693877551,
-          "file": "Audio/Transport/full_npc_heralath-fallowbrook-fb128c1b65ef2211203e/1-0000.mp3",
-          "sha256": "b28c562a683f6ed59dac9f87db04b787342cedb069c39460501d13d7413abbeb",
+          "duration": 59.924897959183674,
+          "file": "Audio/Transport/full_npc_heralath-fallowbrook-98e16d1fe54b79003e3a/1-0000.mp3",
+          "sha256": "cbd82243651fecdf620ce76b0e2b5df7ecf26b11279378bf58b31ee07bea1b10",
           "start": 0
         }
       ],
@@ -5269,12 +5295,12 @@
         ]
       },
       "fullHash": "a2bd25",
-      "generation": "7f0f97e3909b0519482e",
+      "generation": "435980235b29f36fe8af",
       "hash": "a2bd25",
       "source": {
-        "duration": 59.167313,
+        "duration": 59.924898,
         "file": null,
-        "sha256": "fb128c1b65ef2211203ee17a073f2579ed361dac3aaf8833099a176e151ca423"
+        "sha256": "98e16d1fe54b79003e3a5317bea77b94ea5554c8e9c5bb4a1ebfc9b7cf71450d"
       },
       "text": "Heralath Fallowbrook. Heralath Fallowbrook is a dying night elf druid imprisoned deep within Razorfen Kraul. Dispatched to investigate the thorny corruption surrounding the remains of the Ancient Agamaggan, he was captured and brutalized by the Razorfen tribe. With his final breaths, he seeks to send word of his fate and a cherished pendant back to his wife in Darnassus. Sent by his people to investigate the ancient boar god Agamaggan and the spreading briars choking the southern Barrens, Heralath Fallowbrook sought the root of Razorfen Kraul's corruption. Instead of unearthing answers, the night elf was taken prisoner by the quilboar. Locked in a squalid pen and relentlessly beaten, Heralath succumbed to severe wounds and raging fever. Before fading entirely, he shared what he knew with a fellow captive, the dwarf Henrig Lonebrow, urging him to warn the sentinel outpost at Thalanaar about the aggression stirred up by the quilboar crone Charlga Razorflank."
     },
@@ -6009,9 +6035,9 @@
     "npc:kali-remik": {
       "1": [
         {
-          "duration": 45.270204081632656,
-          "file": "Audio/Transport/full_npc_kali-remik-95e558631e310bec7382/1-0000.mp3",
-          "sha256": "bf7b2ae0c094f95f674d900157af525b0bdd17b24a1662ff4235032847f26daa",
+          "duration": 44.904489795918366,
+          "file": "Audio/Transport/full_npc_kali-remik-88d3e199af7c7a643686/1-0000.mp3",
+          "sha256": "7e97e44c356ba860c942d5198cb85648188224d04cb16181e2b8c18cab15892a",
           "start": 0
         }
       ],
@@ -6023,12 +6049,12 @@
         ]
       },
       "fullHash": "90e156",
-      "generation": "83b13880edac88a72a98",
+      "generation": "dc5d31e96bd2b7a580d1",
       "hash": "90e156",
       "source": {
-        "duration": 45.244063,
+        "duration": 44.90449,
         "file": null,
-        "sha256": "95e558631e310bec73821ffa51af4f9aaa9bee816759781afe3f3f9cd438cfc4"
+        "sha256": "88d3e199af7c7a6436864d5fa7acd5344a68283c83e65adaea3e4e22402e81ed"
       },
       "text": "Kali Remik. Kali Remik is a Darkspear troll hunter who spends her time lending guidance to travelers across the Horde's heartland. Familiar with the ways of tracking and survival in Durotar, she directs young hunters to Thotar in Razor Hill to learn the taming of beasts. Kali Remik is a seasoned jungle troll tracker well-acquainted with the arid wastes of Durotar and the bustling hubs of the Horde. In coastal settlements like Sen'jin Village, she watches over young scouts taking their first steps outside the Valley of Trials. Knowing when a novice outgrows the local training grounds, she steps in to direct promising marksmen toward Thotar in Razor Hill to begin their path as beastmasters, ensuring the Horde's frontier ranks stay sharp and disciplined."
     },
@@ -6087,9 +6113,9 @@
     "npc:kaplak": {
       "1": [
         {
-          "duration": 50.25959183673469,
-          "file": "Audio/Transport/full_npc_kaplak-d7476ce11d5d2da26c2e/1-0000.mp3",
-          "sha256": "a9f8b235df2eb7b8b357c9debec4b09f8a3cdf2f94c758b9d63e0ed488ae73ec",
+          "duration": 48.16979591836735,
+          "file": "Audio/Transport/full_npc_kaplak-f05d791be1dbec24d397/1-0000.mp3",
+          "sha256": "3003491b1ffd1c87cbbf0431a099c04d2bf85b77ddf2c454df343f50106533f5",
           "start": 0
         }
       ],
@@ -6101,12 +6127,12 @@
         ]
       },
       "fullHash": "2e0e10",
-      "generation": "3ed997cb5adf69d76d0f",
+      "generation": "2bd7bfd33d431e0bfbbb",
       "hash": "2e0e10",
       "source": {
-        "duration": 50.233438,
+        "duration": 48.169796,
         "file": null,
-        "sha256": "d7476ce11d5d2da26c2e50ed2efcace8077ef54946c381fc9adaf2b448c08923"
+        "sha256": "f05d791be1dbec24d397b5dafae7fa4f0c4e9536562ff64d56562848ffd0d833"
       },
       "text": "Kaplak. Kaplak is an orc rogue trainer stationed in Razor Hill in central Durotar. He instructs young orcs and trolls in the arts of stealth, subterfuge, and bladecraft, preparing them for service to the Horde before dispatching them into Orgrimmar. Tucked away in the settlement of Razor Hill, Kaplak serves as a foundational instructor for fledgling Horde rogues emerging from the Valley of Trials. Where traditional orc culture glorifies open combat and roaring charges, Kaplak teaches the colder, quieter disciplines necessary for survival: stalking unseen, picking locks, and striking lethal blows from behind. Once his students outgrow his tutelage in the dusty red ravines of Durotar, he directs them north to the capital of Orgrimmar to deepen their craft among senior guild operatives."
     },
@@ -6165,9 +6191,9 @@
     "npc:karos-razok": {
       "1": [
         {
-          "duration": 44.51265306122449,
-          "file": "Audio/Transport/full_npc_karos-razok-1d1413ef996238c97ed2/1-0000.mp3",
-          "sha256": "aebc988e017e9afc7d6fb285975e46683009519feabe48d6f142737db368ebaa",
+          "duration": 44.826122448979596,
+          "file": "Audio/Transport/full_npc_karos-razok-29f064d06f1801e29362/1-0000.mp3",
+          "sha256": "e4f876f465db862e539f598eb1bc65bf73a44dcf1b45b3aba05b33114a4aae00",
           "start": 0
         }
       ],
@@ -6179,12 +6205,12 @@
         ]
       },
       "fullHash": "e3f4ae",
-      "generation": "17186bb8139a7ad471cf",
+      "generation": "dc4cf5c2eb77b9f81e02",
       "hash": "e3f4ae",
       "source": {
-        "duration": 44.4865,
+        "duration": 44.826122,
         "file": null,
-        "sha256": "1d1413ef996238c97ed24b3b6faf46fa3e2402454c0fa626b0b7a4840784cb62"
+        "sha256": "29f064d06f1801e29362cfe1ebfd138f303a047fd9b66ae66fe8086dd6fbd868"
       },
       "text": "Karos Razok. Karos Razok is the Forsaken bat handler stationed at the Sepulcher in Silverpine Forest. He oversees the roost of undead fliers that connect this contested frontier outpost directly to the Undercity and other Horde strongholds. Perched on the wooden platform above the crypts of the Sepulcher, Karos Razok tends to the skeletal bats vital for Forsaken communications. With Silverpine Forest infested by Moonrage worgen, rogue Dalaran magi, and the human remnants of Ambermill, overland travel along the northern road is treacherous. Razok ensures that messengers, fresh recruits, and vital supplies can cross above the haunted canopy, keeping the front line linked straight back to the capital in Tirisfal Glades."
     },
@@ -6295,9 +6321,9 @@
     "npc:keeper-bel-varil": {
       "1": [
         {
-          "duration": 40.568163265306126,
-          "file": "Audio/Transport/full_npc_keeper-bel-varil-c0699d9f2ffcaf3d6de8/1-0000.mp3",
-          "sha256": "0269779486f5782d0f1267bcc32cebfd0c010c013f9485d0a3ce6d5404f0c19a",
+          "duration": 42.00489795918367,
+          "file": "Audio/Transport/full_npc_keeper-bel-varil-f0299108a6f0fd03234a/1-0000.mp3",
+          "sha256": "5d48c6faa88a29301fe89d8631286a087bc4c59568786ade42ca8855fe26962a",
           "start": 0
         }
       ],
@@ -6309,12 +6335,12 @@
         ]
       },
       "fullHash": "20ef1f",
-      "generation": "a3d962d2a5fe4216defd",
+      "generation": "18744b15c6a92afb75d9",
       "hash": "20ef1f",
       "source": {
-        "duration": 40.542,
+        "duration": 42.03102,
         "file": null,
-        "sha256": "c0699d9f2ffcaf3d6de8eab6a462a164c77d215032337c51da18dabc18eabd96"
+        "sha256": "f0299108a6f0fd03234a303ef48d8db2b19186a9e0644768050abf3533c8fa7b"
       },
       "text": "Keeper Bel'varil. Keeper Bel'varil is a Forsaken caretaker and researcher stationed at Tarren Mill in the Hillsbrad Foothills. Working closely alongside Wordeen Voidglare, he directs Horde adventurers to gather magical relics and binding materials from the surrounding lands to further their occult studies. Amid the besieged village of Tarren Mill, Keeper Bel'varil quietly supports the Forsaken's magical and alchemical research. While royal apothecaries and soldiers occupy themselves with the Alliance garrison down the road at Southshore, Bel'varil focuses on practical sorcery, dispatching travelers to recover stone tokens and binding bracers from nearby elemental and enchanted threats."
     },
@@ -6893,9 +6919,9 @@
     "npc:lanka-farshot": {
       "1": [
         {
-          "duration": 43.25877551020408,
-          "file": "Audio/Transport/full_npc_lanka-farshot-030b496b9fe53d4a53d3/1-0000.mp3",
-          "sha256": "5d61b1a528dd2466c4ea12e8845e9e14a157569434eaa4f4c36a7a8e7150735e",
+          "duration": 42.08326530612245,
+          "file": "Audio/Transport/full_npc_lanka-farshot-7f54065a9b5c4fd7785f/1-0000.mp3",
+          "sha256": "aa0a812d0f1c2895ec82dc7bfe5d4b9af16b5464e79893337f58f7a720cbeccd",
           "start": 0
         }
       ],
@@ -6907,12 +6933,12 @@
         ]
       },
       "fullHash": "22ea15",
-      "generation": "89bc0dd8c14760c2db4b",
+      "generation": "85df69a532096cd35d9d",
       "hash": "22ea15",
       "source": {
-        "duration": 43.232625,
+        "duration": 42.109388,
         "file": null,
-        "sha256": "030b496b9fe53d4a53d3f402073562df7b206a9f28989b4423fb46f1836b9e73"
+        "sha256": "7f54065a9b5c4fd7785fb7bd9163ea677f5a844abf52e1375d3a8ca5875e6781"
       },
       "text": "Lanka Farshot. Lanka Farshot is a tauren hunter trainer stationed at Camp Narache within the Red Cloud Mesa. He guides novice tauren hunters as they take their first steps in tracking, marksmanship, and surviving the plains of Mulgore. Standing watch over Camp Narache, Lanka Farshot greets new tauren called to the path of the hunter. Fresh recruits arrive carrying an etched note directing them to seek his counsel. Under his steady eye, apprentices learn the fundamentals of ranged combat, tracking prey, and respecting the wild beasts that roam the grassy plains of Mulgore. His teachings ensure that every young hunter serves as a capable scout and provider for the tribe."
     },
@@ -7023,9 +7049,9 @@
     "npc:lieutenant-haggerdin": {
       "1": [
         {
-          "duration": 63.39918367346939,
-          "file": "Audio/Transport/full_npc_lieutenant-haggerdin-d4a52195d50790946208/1-0000.mp3",
-          "sha256": "9116f5e63098cc6ef232f2ff9c940d9dcc02742585361d781fe2148079b82144",
+          "duration": 61.1265306122449,
+          "file": "Audio/Transport/full_npc_lieutenant-haggerdin-4bbfc362f6bb4ad0032b/1-0000.mp3",
+          "sha256": "4d7cb9d6f34f5133ccc9e6f34de1a6ca5f5d7204da2d85deec89a9eee5fcd990",
           "start": 0
         }
       ],
@@ -7037,12 +7063,12 @@
         ]
       },
       "fullHash": "233c07",
-      "generation": "08b98733391b81a74da5",
+      "generation": "0d2b44589ecf1e0e50e3",
       "hash": "233c07",
       "source": {
-        "duration": 63.373063,
+        "duration": 61.126531,
         "file": null,
-        "sha256": "d4a52195d50790946208896bb8cfb577e520362dcdb50bf0c0baadb20f27720a"
+        "sha256": "4bbfc362f6bb4ad0032b7763b03717b9a60be32d88dbc3759206dab25cdcbabf"
       },
       "text": "Lieutenant Haggerdin. Lieutenant Haggerdin is a dwarven officer stationed upon the Headland in the Alterac Mountains. Standing watch outside the fortified gate to Alterac Valley, he acts as the primary recruitment and liaison officer for the Stormpike Guard. He evaluates aspiring Alliance champions and rewards those who prove their valor against the Frostwolf Clan. Perched in the snowy heights of the Headland above the Hillsbrad Foothills, Lieutenant Haggerdin oversees the muster point for the Alliance's ongoing campaign in Alterac Valley. Dwarven banners flutter beside the massive wooden gate as recruits and veterans assemble under his watchful eye, preparing to plunge into the frigid warzone. Serving the Stormpike Expedition, Haggerdin ensures that only tested warriors represent Ironforge and the Grand Alliance in the valley. Through challenges like the Proving Grounds, he tasks recruits with recovering banners and relics, and bestows official commendations, insignias, and rank recognitions as soldiers rise through the ranks of the Stormpike Guard."
     },
@@ -7231,9 +7257,9 @@
     "npc:lord-arkkoroc": {
       "1": [
         {
-          "duration": 43.93795918367347,
-          "file": "Audio/Transport/full_npc_lord-arkkoroc-d2dfdf37d5eb3c91149e/1-0000.mp3",
-          "sha256": "8bd7ee0efa8a0c319caf88cee1210e461f19d9167c5de8ca658be1c4c81c7b5a",
+          "duration": 43.859591836734694,
+          "file": "Audio/Transport/full_npc_lord-arkkoroc-9ee3f4b58d7b0272a3e9/1-0000.mp3",
+          "sha256": "5de0af915d0b4bf05e6251b4344616acd488a1b06f3bf22b727e4963792ebaf7",
           "start": 0
         }
       ],
@@ -7245,21 +7271,21 @@
         ]
       },
       "fullHash": "a5ed65",
-      "generation": "fe4be2ff9fbb5eb36d4c",
+      "generation": "f77f7fd27d7bb9752bb6",
       "hash": "a5ed65",
       "source": {
-        "duration": 43.911813,
+        "duration": 43.859592,
         "file": null,
-        "sha256": "d2dfdf37d5eb3c91149eef51bbc7d35c73f626cdc81c5192d8de2bf7c53768d8"
+        "sha256": "9ee3f4b58d7b0272a3e99e9569fae5638d5b2eca45981ef2c99b25cfd375ab6d"
       },
       "text": "Lord Arkkoroc. Lord Arkkoroc is an ancient, towering sea giant who dwells within the ruined Temple of Arkkoran along the ragged coast of Azshara. Described by the demon hunter Loramus Thalipedes as a lesser deity, he holds sway over the surrounding waters and commands lesser sea giants who serve as his sons. Reclining amidst the brine-crusted ruins of the Temple of Arkkoran, Lord Arkkoroc is far more than a typical sea giant. To hermits like Loramus Thalipedes, this colossal being is considered a lesser deity whose divine will shapes the surrounding waters. His sons patrol the crags and shallows around the sanctuary, enforcing his quiet dominion over Azshara's tempestuous shores."
     },
     "npc:lord-baurles-k-wishock": {
       "1": [
         {
-          "duration": 53.394285714285715,
-          "file": "Audio/Transport/full_npc_lord-baurles-k-wishock-7d8704521766915e9821/1-0000.mp3",
-          "sha256": "e65d54ef09d5a1b7f6a88e59f9c5500ae141bb1996f88a3a1023b7eca59ad7eb",
+          "duration": 55.222857142857144,
+          "file": "Audio/Transport/full_npc_lord-baurles-k-wishock-85615f50522cf6cff929/1-0000.mp3",
+          "sha256": "0f914abdd7ca2cb4be0cd1fdee8993fb8f361ee3a29b01e02bcf4d68b242749b",
           "start": 0
         }
       ],
@@ -7271,12 +7297,12 @@
         ]
       },
       "fullHash": "588998",
-      "generation": "9c469b2bfe620e455134",
+      "generation": "caac3b5d6c96b2af9d52",
       "hash": "588998",
       "source": {
-        "duration": 53.368125,
+        "duration": 55.222857,
         "file": null,
-        "sha256": "7d8704521766915e9821d82c5426bb9cb7a010e818cd652578693eb0bf4ad528"
+        "sha256": "85615f50522cf6cff9291748f45aa5d5d7b51308487e75cf5c93f35f20ababf0"
       },
       "text": "Lord Baurles K. Wishock. Lord Baurles K. Wishock is a nobleman residing in Stormwind Keep's Petitioner's Chamber. Known among barkeeps for his unpaid tabs and fondness for strong drink, he stumbled upon darker dealings than mere drunkenness in the city's underbelly. Holding court among the petitioners and dignitaries within Stormwind Keep, Lord Baurles K. Wishock is a member of the influential House of Nobles. Despite his elevated station, Wishock developed a habit of frequenting the dive bars of the Mage Quarter, especially the Slaughtered Lamb, leaving behind substantial unpaid bills. While drinking there, however, he caught wind of the warlock coven practicing dark arts in the cellars beneath the floorboards. Determined to shut the tavern down, Wishock began petitioning fellow nobles for a formal investigation—unaware that uncovering demonic cabals in Stormwind rarely goes unpunished."
     },
@@ -7491,9 +7517,9 @@
     "npc:lyria-du-lac": {
       "1": [
         {
-          "duration": 44.40816326530612,
-          "file": "Audio/Transport/full_npc_lyria-du-lac-3624cee0d272fbedc972/1-0000.mp3",
-          "sha256": "8b4624c82048cfa2a1748c1f81571e04a30563ce27316722ec037e20456615bd",
+          "duration": 44.01632653061225,
+          "file": "Audio/Transport/full_npc_lyria-du-lac-77345617987014cf0ca7/1-0000.mp3",
+          "sha256": "393fbd8789c767622b665ef96d3eed89edecd60b804684a6174bb4bd3f936e9d",
           "start": 0
         }
       ],
@@ -7505,12 +7531,12 @@
         ]
       },
       "fullHash": "ee7d67",
-      "generation": "ead16cae5cdb81b2153d",
+      "generation": "6f3c735cc81d939769b3",
       "hash": "ee7d67",
       "source": {
-        "duration": 44.382,
+        "duration": 44.016327,
         "file": null,
-        "sha256": "3624cee0d272fbedc9725ae1657df39a539273c5449307259270227a66b20a53"
+        "sha256": "77345617987014cf0ca70e8842ed8f9e06706ec00c9e8f4c2d898fa96560522b"
       },
       "text": "Lyria Du Lac. Lyria Du Lac is a human warrior trainer stationed in Goldshire within Elwynn Forest. Tucked away just behind the village smithy, she drills novice combatants and guides young warriors as they begin mastering their stances and arms. While Goldshire's Lion's Pride Inn bustles with travellers and its blacksmith hammers away at local trade goods, Lyria Du Lac keeps to the yard behind the forge. Experienced in martial discipline, she serves the Alliance by instructing fledgeling warriors fresh from Northshire Abbey. She evaluates their readiness and introduces them to specialized combat techniques, ensuring that those who take up shield and blade for Stormwind can hold their own against the encroaching threats of Elwynn Forest."
     },
@@ -7539,6 +7565,32 @@
         "sha256": "e4be7ea5cd90626d467cf7a219a518101f830e095118d387d844955c2b01643f"
       },
       "text": "Ma Stonefield. Ma Stonefield is a human matriarch residing at the Stonefield Farm in western Elwynn Forest. Standing right outside the family homestead alongside Auntie Bernice, she deals with the daily hardships of rural farm life amidst neighboring rivalries and pest troubles. Standing beside her family cottage in southwestern Elwynn Forest, Ma Stonefield watches over the farmstead alongside \"Auntie\" Bernice Stonefield. Life between the neighboring Maclure homestead and the nearby pumpkin patches is rarely peaceful. Local wild boars continuously threaten the family crops, and none poses a greater nuisance than Princess, an enormous prize sow notorious for trampling fields and devouring hard-earned harvests."
+    },
+    "npc:mad-magus-tirth": {
+      "1": [
+        {
+          "duration": 50.02448979591837,
+          "file": "Audio/Transport/full_npc_mad-magus-tirth-55913d22aa03ec0a1eea/1-0000.mp3",
+          "sha256": "10b60e67c7d9411ca7fe9ad3a6dafd730536d110481c6586b01ff8d502373b43",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "808534",
+      "generation": "ad481914986f8c524fee",
+      "hash": "808534",
+      "source": {
+        "duration": 50.02449,
+        "file": null,
+        "sha256": "55913d22aa03ec0a1eea625f2ac6214060585624684f69b5ad31b3e4212230ba"
+      },
+      "text": "Magus Tirth. Magus Tirth is an eccentric human wizard dwelling out on the salt flats of the Mirage Raceway in Thousand Needles. Known locally for breeding chickens and tormenting his polymorphed apprentice, he is also a scholar of formidable arcane lore who has squandered valuable tomes on racing bets. While most mages of his caliber study in the libraries of Dalaran or Stormwind, Magus Tirth has taken up residence amid the grease and roar of the Shimmering Flats. Surrounded by speeding rocket cars, Tirth peddles chickens to passersby, drinks, gambles, and has long since cursed his unfortunate apprentice, 'Plucky' Johnson, into poultry form. Despite this eccentric demeanor, Tirth possesses genuine arcane mastery, having authored esoteric texts on magical power before losing them to reckless wagers on the speedway."
     },
     "npc:magga": {
       "1": [
@@ -7777,9 +7829,9 @@
     "npc:mardant-strongoak": {
       "1": [
         {
-          "duration": 38.81795918367347,
-          "file": "Audio/Transport/full_npc_mardant-strongoak-132d2f861b4015f10c08/1-0000.mp3",
-          "sha256": "be34671640a8f07db335d98efa1d53153028cbef3c459b03b20acf5297bb6a56",
+          "duration": 40.48979591836735,
+          "file": "Audio/Transport/full_npc_mardant-strongoak-33ae4fbd25822c5677d1/1-0000.mp3",
+          "sha256": "5752d2608b0648def8fa95080b6b007a9463b2f5959609950dcca7b6a2c00b0e",
           "start": 0
         }
       ],
@@ -7791,21 +7843,21 @@
         ]
       },
       "fullHash": "e9f8c2",
-      "generation": "bb469b3a97a5ff8e9244",
+      "generation": "8cd002cb5d84cf571271",
       "hash": "e9f8c2",
       "source": {
-        "duration": 38.791813,
+        "duration": 40.489796,
         "file": null,
-        "sha256": "132d2f861b4015f10c08cd236561decd796e311350db326342a4102253065cdc"
+        "sha256": "33ae4fbd25822c5677d1ff46c12f61c12a4ecabd543c57db731ad01cc3af3d6c"
       },
       "text": "Mardant Strongoak. Mardant Strongoak is a night elf druid trainer residing in Aldrassil in the heart of Teldrassil. He guides fledgling druids in communing with the spirits of nature and introduces them to the mysteries of the Emerald Dream. Within the boughs of Aldrassil, young night elves who feel the call of the wild turn to Mardant Strongoak. His primary task is teaching novitiates how to open their senses to nature spirits, interpret their murmurs, and channel rejuvenating magics. For those taking their initial steps as protectors of the wild, he is often the first master to unveil the vast complexities and ancient perils of the Emerald Dream."
     },
     "npc:marek-ironheart": {
       "1": [
         {
-          "duration": 43.70285714285714,
-          "file": "Audio/Transport/full_npc_marek-ironheart-5deb0111c6214dcb0e47/1-0000.mp3",
-          "sha256": "77732c2758f39c5614b1924860fb346cbc27ee68960f0cf424f5c49bc1d3c914",
+          "duration": 44.4865306122449,
+          "file": "Audio/Transport/full_npc_marek-ironheart-4e6cff3659c9ab55a114/1-0000.mp3",
+          "sha256": "a506172969d3f94f30944d1ba7a5a95a74e040fe5440d5c7884e408fda2a04aa",
           "start": 0
         }
       ],
@@ -7817,21 +7869,21 @@
         ]
       },
       "fullHash": "de3fd0",
-      "generation": "e606ae486b998c75e213",
+      "generation": "f4e14e03b77bde10060b",
       "hash": "de3fd0",
       "source": {
-        "duration": 43.676688,
+        "duration": 44.486531,
         "file": null,
-        "sha256": "5deb0111c6214dcb0e4749678644a24c2f14f0a4121ce8628ac64bf5392f0801"
+        "sha256": "4e6cff3659c9ab55a11420e0514f63dc9451cc7fc4956337d8fc4a1b66fae1bd"
       },
       "text": "Marek Ironheart. Marek Ironheart is a veteran dwarven hunter stationed at the Farstrider Lodge in south-eastern Loch Modan. Dedicated to the traditions of the wild, he tests wandering travelers and marksmen alike before welcoming them into the ranks of the lodge's honored hunters. Perched on the scenic ridge overlooking the lake, the Farstrider Lodge serves as an outpost for the finest marksmen and trackers in the dwarven lands. Marek Ironheart embodies this frontier spirit. Unimpressed by titles or talk, Marek requires anyone seeking the lodge's respect to demonstrate their practical prowess against the varied beasts roaming Loch Modan, proving they have the patience and nerve demanded of a true stalker of the wild."
     },
     "npc:marisa-du-paige": {
       "1": [
         {
-          "duration": 43.36326530612245,
-          "file": "Audio/Transport/full_npc_marisa-du-paige-b19422d20bcd01d99929/1-0000.mp3",
-          "sha256": "83fd58670225c7e10d7bbc0b7ddf5f79d5d7c08a9cce4fef2bdcca2fcbd1a8e1",
+          "duration": 45.139591836734695,
+          "file": "Audio/Transport/full_npc_marisa-du-paige-1128b8a6ca83e473c331/1-0000.mp3",
+          "sha256": "9a31e0c8b3d6849d6ca035398dddc49256ba9713e717c6278d0f3e80cf5469e4",
           "start": 0
         }
       ],
@@ -7843,12 +7895,12 @@
         ]
       },
       "fullHash": "383ab6",
-      "generation": "fce6cf989a384954fbc6",
+      "generation": "edd37d7a56123816e7d7",
       "hash": "383ab6",
       "source": {
-        "duration": 43.337125,
+        "duration": 45.139592,
         "file": null,
-        "sha256": "b19422d20bcd01d99929788cb2db8d4ce3dba00d50872985a3934ea8a9038042"
+        "sha256": "1128b8a6ca83e473c331639151edc06c7630bb810fe093f68c55b3a91c3d6254"
       },
       "text": "Marisa du'Paige. Marisa du'Paige is a rare human rogue spellcaster found lurking within the sprawling cave network outside the entrance to the Deadmines in southwestern Westfall. Aligned with the outlaws operating beneath Moonbrook, she wields arcane magic alongside the laborers and highwaymen guarding the tunnels. Deep inside the winding caverns that lead toward the Deadmines beneath Moonbrook, most defenders are rough-hewn cutpurses, renegade miners, and thugs. Marisa du'Paige stands out among them as a skilled human mage. While most spellcasters of the kingdom train within the sanctioned halls of Stormwind's Mage Quarter or serve the Kirin Tor, du'Paige has cast her lot with the outlaws and brigands hiding in Westfall's subterranean depths."
     },
@@ -8606,6 +8658,32 @@
       },
       "text": "Morgan Pestle. Morgan Pestle is a human alchemist and shopkeeper who runs Pestle's Apothecary in the Trade District of Stormwind City. Working closely with his brother William Pestle in Goldshire, he handles supplies and alchemical research for the capital. Operating out of Pestle's Apothecary along the busy thoroughfares of Stormwind's Trade District, Morgan Pestle provides alchemical goods, reagents, and practical remedies to city residents and passing travelers. While his brother William maintains a workshop at the Lion's Pride Inn in Goldshire, Morgan keeps the family trade rooted in the heart of the kingdom's capital, receiving shipments, such as his brother's candles, from the rural heartlands."
     },
+    "npc:morgan-the-collector": {
+      "1": [
+        {
+          "duration": 43.284897959183674,
+          "file": "Audio/Transport/full_npc_morgan-the-collector-13bf9a6e76c8befd0f2e/1-0000.mp3",
+          "sha256": "72ee1730d13618ff17c85d904e0e9219888e03f87c7bc803760c1a853b8b9650",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ab8716",
+      "generation": "3f86b3bab334368e8756",
+      "hash": "ab8716",
+      "source": {
+        "duration": 43.31102,
+        "file": null,
+        "sha256": "13bf9a6e76c8befd0f2ec36397885a9c93db484a78bd08f1ee1c5d263e587fd3"
+      },
+      "text": "Morgan the Collector. Morgan the Collector is a high-ranking Defias operative overseeing the Brotherhood's extortion and gathering activities across Elwynn Forest. Based in the overrun Brackwell Pumpkin Patch, he coordinates local thievery right under the nose of the Goldshire guard. Morgan earned his epithet by skimming gold from the mines of Elwynn Forest on behalf of the Defias Brotherhood. While common bandits harass wayfarers along the roads, Morgan directs organized shakedowns and collects stolen coin and supplies to funnel deeper into the Brotherhood's network. He has made his headquarters inside the farmhouse at the Brackwell Pumpkin Patch, surrounded by loyal enforcers including Surena Caledon and Erlan Drudgemoor."
+    },
     "npc:mountaineer-barleybrew": {
       "1": [
         {
@@ -8661,9 +8739,9 @@
     "npc:mountaineer-stormpike": {
       "1": [
         {
-          "duration": 65.14938775510204,
-          "file": "Audio/Transport/full_npc_mountaineer-stormpike-74d8511f82236e96e08d/1-0000.mp3",
-          "sha256": "0307ff3022795fb245e5836f34fc56f1b1679640dcb236b90c560c14c6173113",
+          "duration": 66.95183673469388,
+          "file": "Audio/Transport/full_npc_mountaineer-stormpike-d36670d5618154e9c282/1-0000.mp3",
+          "sha256": "7fd0cd05b06b75b121440f7d713e68208ea69273edc197f07a5ac1525ecdc95e",
           "start": 0
         }
       ],
@@ -8675,12 +8753,12 @@
         ]
       },
       "fullHash": "6cdfaa",
-      "generation": "810179f33a6d4e0662a5",
+      "generation": "8a9ea8e2756ffd4a1074",
       "hash": "6cdfaa",
       "source": {
-        "duration": 65.12325,
+        "duration": 66.951837,
         "file": null,
-        "sha256": "74d8511f82236e96e08d1db24469aea704b8b2b6b132b4fe01604626f034f132"
+        "sha256": "d36670d5618154e9c28215fd2e14a7d81038c191ca5c4a6b4118b8dcd0e503ff"
       },
       "text": "Mountaineer Stormpike. Mountaineer Stormpike is an Ironforge mountaineer stationed at Algaz Station in northern Loch Modan. Watching over the mountain pass leading toward the Wetlands, he works tirelessly to keep vital supply routes safe from lurking troggs and kobolds. As a proud member of the Stormpike clan, his loyalty lies squarely with Ironforge and the safety of dwarven lands. Perched along the northern border of Loch Modan, Algaz Station serves as a critical checkpoint before the perilous descent into the Wetlands. Mountaineer Stormpike is stationed here amid rocky crags and constant wilderness threats. His primary duty is maintaining the line of communication and keeping the roads open for travelers and supply convoys traversing through Dun Algaz. The northern reaches of Loch Modan are plagued by relentless pests, from kobolds infesting nearby digs to subterranean troggs. Stormpike routinely enlists passing adventurers to disrupt these threats, particularly targeting the kobolds who have moved into the Silver Stream Mine and put their filthy paws on the Miners' League's stored dwarven tools."
     },
@@ -8791,9 +8869,9 @@
     "npc:nalpak": {
       "1": [
         {
-          "duration": 34.40326530612245,
-          "file": "Audio/Transport/full_npc_nalpak-63fab465c0cfe88e59a7/1-0000.mp3",
-          "sha256": "b46ff74d32efebd3d1fc99d48b1f30e5567934e6d057fe60210c8b610d26e278",
+          "duration": 34.89959183673469,
+          "file": "Audio/Transport/full_npc_nalpak-46b77a142737cc2a49af/1-0000.mp3",
+          "sha256": "e3cd46bd0c24d6919c6632c7d118a225e958d79414d58bfa794bf046eecfcfbd",
           "start": 0
         }
       ],
@@ -8805,12 +8883,12 @@
         ]
       },
       "fullHash": "935353",
-      "generation": "35c12ab920f9535a1a3d",
+      "generation": "e5aeb98997282ff624ba",
       "hash": "935353",
       "source": {
-        "duration": 34.377125,
+        "duration": 34.899592,
         "file": null,
-        "sha256": "63fab465c0cfe88e59a7818b41f8c65753599a51debedda17990abe0e32f8f5d"
+        "sha256": "46b77a142737cc2a49afaac024bcb5822f0b8f2670de9bb28b156bf9949377a6"
       },
       "text": "Nalpak. Nalpak is a tauren druid disciple who watches over the troubled Wailing Caverns in the Barrens. Stationed in the high cliff-cave overlooking the cavern entrance, he enlists passing adventurers to help contain the nightmare twisting the subterranean ecosystem. Perched inside a hidden cavern directly above the mouth of the Wailing Caverns, Nalpak remains loyal to the vision of Naralex. While his master lies trapped in a corrupted slumber deep below, Nalpak works to keep the spreading corruption at bay. He asks adventurers to gather deviate hides for use as leather."
     },
@@ -9259,9 +9337,9 @@
     "npc:ormak-grimshot": {
       "1": [
         {
-          "duration": 47.49061224489796,
-          "file": "Audio/Transport/full_npc_ormak-grimshot-e40f8f7a43da7a600d66/1-0000.mp3",
-          "sha256": "c3c038ba39dd750a983642ede916c974f76f7e149190298ce6d02618dbc1613a",
+          "duration": 47.0465306122449,
+          "file": "Audio/Transport/full_npc_ormak-grimshot-daa1d9743f624970c62b/1-0000.mp3",
+          "sha256": "9fad07ef1805f53e5ac858e5d6cfacbdb3a4cfdde2fa75d2cf6f976b75a1f490",
           "start": 0
         }
       ],
@@ -9273,12 +9351,12 @@
         ]
       },
       "fullHash": "632d01",
-      "generation": "00fc5556307e0cb9f553",
+      "generation": "11b4906b598e1b950c76",
       "hash": "632d01",
       "source": {
-        "duration": 47.464438,
+        "duration": 47.046531,
         "file": null,
-        "sha256": "e40f8f7a43da7a600d6630f8b994028574086f277e291a7d441755b67aac3570"
+        "sha256": "daa1d9743f624970c62b4a2606df383e0324ac142cafed11d2501a6a690d8b4e"
       },
       "text": "Ormak Grimshot. Ormak Grimshot is an experienced orc hunter trainer residing in the Hunter's Hall within Orgrimmar's Valley of Honor. Accompanied by his loyal wolf, Grimfang, he instructs young hunters of the Horde in tracking, marksmanship, and bonding with wild beasts. Stationed within the Hunter's Hall in the Valley of Honor, Ormak Grimshot serves as a cornerstone of martial instruction for the Horde's trackers and marksmen. Alongside his companion wolf, Grimfang, Ormak imparts the foundational discipline needed to survive Kalimdor's harsh wilderness. For orc and troll hunters arriving from their trials in Durotar, he provides vital guidance on the sacred art of taming and commanding wild beasts, ensuring every hunter forms an enduring bond with their animal partner."
     },
@@ -9337,9 +9415,9 @@
     "npc:orphan-matron-battlewail": {
       "1": [
         {
-          "duration": 42.76244897959184,
-          "file": "Audio/Transport/full_npc_orphan-matron-battlewail-22ca0dabd99319e9e9fe/1-0000.mp3",
-          "sha256": "b0480e0637b6da581b42efd451822c282cf1d738a8bb5ba0d92df5b737a6ff11",
+          "duration": 45.374693877551024,
+          "file": "Audio/Transport/full_npc_orphan-matron-battlewail-b80cb6227c75c53a81a4/1-0000.mp3",
+          "sha256": "a2bbcc6d96ba311a69238bcccabdf53f98fe64012a4609a2958cf9110919ff6a",
           "start": 0
         }
       ],
@@ -9351,12 +9429,12 @@
         ]
       },
       "fullHash": "88a336",
-      "generation": "992493023402bffb7196",
+      "generation": "5e13cb30c0a4155b2d0e",
       "hash": "88a336",
       "source": {
-        "duration": 42.736313,
+        "duration": 45.374694,
         "file": null,
-        "sha256": "22ca0dabd99319e9e9fee94b807d0ff41b1f5356d78d572c4e1f0be20bfcb75f"
+        "sha256": "b80cb6227c75c53a81a4250361b853d854bc4238c493836098be0c64e7394168"
       },
       "text": "Orphan Matron Battlewail. Orphan Matron Battlewail manages the Horde orphanage in Orgrimmar's Valley of Honor. Together with her fellow caretaker Tosamina, she shelters and raises young orc children who have lost their families to continuous warfare. War takes a constant toll across Azeroth, and the young capital of Orgrimmar bears witness to those costs. Orphan Matron Battlewail tends to the youngsters who lost their kin to violence, ensuring that the next generation of the Horde is protected, sheltered, and nurtured. Working alongside Tosamina in the Valley of Honor, Battlewail opens the orphanage doors to passing adventurers, especially during festive traditions like Children's Week when travelers are called upon to mentor these youths."
     },
@@ -9415,9 +9493,9 @@
     "npc:overlord-mok-morokk": {
       "1": [
         {
-          "duration": 48.06530612244898,
-          "file": "Audio/Transport/full_npc_overlord-mok-morokk-ee607003ac2eb8f83222/1-0000.mp3",
-          "sha256": "75d1d6d5b33ec461a6fc4d0ce71156e69fd802df31c80d871eaf58127d450388",
+          "duration": 49.05795918367347,
+          "file": "Audio/Transport/full_npc_overlord-mok-morokk-ffec17d393cbbdd3b67e/1-0000.mp3",
+          "sha256": "e72bb2554cafa8da1e2fe186c4e770f8804fb6b9e5480f6f2d3604b3b9d76b0d",
           "start": 0
         }
       ],
@@ -9429,12 +9507,12 @@
         ]
       },
       "fullHash": "72d0f6",
-      "generation": "bcfa6b495692eb93bdc9",
+      "generation": "31cfe0b0cfbdf5df3169",
       "hash": "72d0f6",
       "source": {
-        "duration": 48.039125,
+        "duration": 49.057959,
         "file": null,
-        "sha256": "ee607003ac2eb8f832226098417b9b155d6d44c804852d6b46f20178781fcf65"
+        "sha256": "ffec17d393cbbdd3b67eb51ac5b7091b82992a06837f9a8810d8014ed1657e4a"
       },
       "text": "Overlord Mok'Morokk. Overlord Mok'Morokk is the brute chieftain of the Stonemaul ogres, presiding over Brackenwall Village in Dustwallow Marsh. Originally appointed by Rexxar for his strength, he has become a tyrannical and cowardly ruler who refuses to defend his clan against the black dragonflight. When Rexxar bested the previous chieftain Kor'gall and led the Stonemaul clan in defense of Durotar, he left Mok'Morokk in command, seeing promise in his sheer martial strength. That faith proved misplaced. Mok'Morokk quickly succumbed to the corrupting influence of absolute authority, ruling through intimidation and self-indulgence rather than stewardship. Instead of caring for his kin, he demands unearned tribute, lounges in Brackenwall Village, and bullies anyone who questions his command."
     },
@@ -9519,9 +9597,9 @@
     "npc:pilot-hammerfoot": {
       "1": [
         {
-          "duration": 46.968163265306124,
-          "file": "Audio/Transport/full_npc_pilot-hammerfoot-0dbb653b89b3eee9ad2b/1-0000.mp3",
-          "sha256": "ba132ca1f4b02bdb330a06ce2d8f669feb55c3641a04e035cd990b123786ef75",
+          "duration": 46.419591836734696,
+          "file": "Audio/Transport/full_npc_pilot-hammerfoot-cc82689609d01e9b4c39/1-0000.mp3",
+          "sha256": "5b148e0442d121a1736eb33401fa71a8abda979291035bb51b399b54095d94d5",
           "start": 0
         }
       ],
@@ -9533,12 +9611,12 @@
         ]
       },
       "fullHash": "699800",
-      "generation": "355d884127df1a140683",
+      "generation": "4f9ffc0aeb91c60e8d6e",
       "hash": "699800",
       "source": {
-        "duration": 46.942,
+        "duration": 46.419592,
         "file": null,
-        "sha256": "0dbb653b89b3eee9ad2b8f5c67168d8aa938c300ee33f0fa9517de03d2e3cb78"
+        "sha256": "cc82689609d01e9b4c39e8e6ac4ca816a85c809238de27c3d9b25a44286ee6c3"
       },
       "text": "Pilot Hammerfoot. Pilot Hammerfoot is a dwarven siege engine pilot of the Ironforge Siege Brigade, stationed near the mountain passes connecting Dun Morogh and Loch Modan. Worried for a fellow pilot lost in the hills, he seeks willing adventurers to search for his friend. His presence highlights the dangers faced by dwarves along the high alpine ridges. Ironforge's siege engines are the pride of its Siege Brigade, but driving them across harsh mountainous terrain carries extreme risk. Stationed at the North Gate Outpost overlooking the border between Dun Morogh and Loch Modan, Pilot Hammerfoot guards the pilots' engines and watches the mountain passes. When a pilot goes missing, finding him quickly becomes a priority, especially with savage beasts prowling the nearby hills."
     },
@@ -9623,9 +9701,9 @@
     "npc:piznik": {
       "1": [
         {
-          "duration": 50.75591836734694,
-          "file": "Audio/Transport/full_npc_piznik-6caff96a16750760f06a/1-0000.mp3",
-          "sha256": "b64b360500609211fddb901dcd8a5c292198f1e341275709feff492644591b0c",
+          "duration": 54.099591836734696,
+          "file": "Audio/Transport/full_npc_piznik-68b3630077652e005380/1-0000.mp3",
+          "sha256": "fff0990a0a7249436b9b07b89bef4ea9c34f0de8f3bd485297bff9585cb5fc12",
           "start": 0
         }
       ],
@@ -9637,12 +9715,12 @@
         ]
       },
       "fullHash": "cc8b2e",
-      "generation": "eddff10e5cec87275867",
+      "generation": "675ef4e31eb63a632411",
       "hash": "cc8b2e",
       "source": {
-        "duration": 50.72975,
+        "duration": 54.099592,
         "file": null,
-        "sha256": "6caff96a16750760f06a31a669d6d67e9dc00e1220cda4233adb04a83d70c890"
+        "sha256": "68b3630077652e005380fe046d1df447584eba879b1221f180925c3f92735a31"
       },
       "text": "Piznik. Piznik is a disgruntled goblin surveyor hiding deep within Windshear Mine in the Stonetalon Mountains. Once a high-ranking overseer in the local Venture Company operations, he was sidelined by the ruthless Gerenzo Wrenchwhistle. Now nursing a grudge, Piznik secretly gathers intel to undermine his former workplace. Before Gerenzo Wrenchwhistle seized supreme authority over Windshear Crag, Piznik held the enviable title of second-in-command across the entire operation. However, corporate restructuring in the Venture Company is unforgiving. Once Gerenzo took full control, Piznik found himself pushed aside and relegated to the murky depths of Windshear Mine. Rather than accepting his demotion quietly, Piznik bides his time underground, keeping a watchful eye on mine movements and quietly plotting revenge against the boss who demoted him."
     },
@@ -9831,9 +9909,9 @@
     "npc:prospector-stormpike": {
       "1": [
         {
-          "duration": 47.17714285714286,
-          "file": "Audio/Transport/full_npc_prospector-stormpike-105fbd6012175d67fa06/1-0000.mp3",
-          "sha256": "7116c50f9ad9aac853fe31ba967c15034d30df519dbb77bfc7ccd8b21f8ba101",
+          "duration": 50.416326530612245,
+          "file": "Audio/Transport/full_npc_prospector-stormpike-5c9b223b4ed523da3838/1-0000.mp3",
+          "sha256": "634311667dae6f4565483ab89d4cd269b8193b4ccf16efbe5e183e947a609ba3",
           "start": 0
         }
       ],
@@ -9845,12 +9923,12 @@
         ]
       },
       "fullHash": "451fce",
-      "generation": "0a5659ad3f2a6838c8c3",
+      "generation": "f6e8c1c8283cfb41bc3b",
       "hash": "451fce",
       "source": {
-        "duration": 47.151,
+        "duration": 50.416327,
         "file": null,
-        "sha256": "105fbd6012175d67fa064e501726a9a9d42780632d0e02dfa857a3d173755489"
+        "sha256": "5c9b223b4ed523da38386fe52d0c8d694fff761ae52b66a71150d95963892f05"
       },
       "text": "Prospector Stormpike. Prospector Stormpike is a blunt, short-tempered dwarf stationed within the Library of the Hall of Explorers in Ironforge. A member of the renowned Stormpike clan, he oversees logistical support for distant archaeological digs and lends his sharp intellect to deciphering coded missives. Tucked away amid the towering bookshelves of the Hall of Explorers, Prospector Stormpike coordinates excavation efforts across Khaz Modan and beyond. Despite his gruff demeanor and impatience with idle chatter, he is deeply dedicated to uncovering dwarven history, keeping distant sites supplied with essentials like blasting powder. Beneath his rough exterior lies a keen analytical mind skilled at breaking intricate ciphers, making him an unexpected asset to Alliance scouts dealing with clandestine threats."
     },
@@ -10169,9 +10247,9 @@
     "npc:remulos": {
       "1": [
         {
-          "duration": 88.65959183673469,
-          "file": "Audio/Transport/full_npc_remulos-f677954e23e38133da63/1-0000.mp3",
-          "sha256": "375efc346738940f9df9f8527a368bb28d2382998f1ac7ed347a31dc5978b63a",
+          "duration": 85.26367346938775,
+          "file": "Audio/Transport/full_npc_remulos-af8565e5458ad1e00ecb/1-0000.mp3",
+          "sha256": "e4b6fc4fce4f7eaa755f5dc2c850960e0e41dccf5546a4c9d7fd45b00d34474a",
           "start": 0
         }
       ],
@@ -10183,12 +10261,12 @@
         ]
       },
       "fullHash": "7912ea",
-      "generation": "246761f070b38262cd54",
+      "generation": "8f16cb424af86bc0c8db",
       "hash": "7912ea",
       "source": {
-        "duration": 88.633438,
+        "duration": 85.289796,
         "file": null,
-        "sha256": "f677954e23e38133da639c4ea1f7a2bd0c2fb2bd228eb5adc44fadc033f8315d"
+        "sha256": "af8565e5458ad1e00ecb558c5ae8c00e5cf372e2a53bd8296efa4fc7acfaa84c"
       },
       "text": "Remulos. Keeper Remulos is a demigod son of Cenarius and the venerable protector of Moonglade. Alongside Archdruid Fandral Staghelm and Hamuul Runetotem, he helps guide the Cenarion Circle in the absence of his fallen father and the sleeping Malfurion Stormrage. Unlike Staghelm, Remulos prioritizes the broader balance of nature over night elven isolationism. Keeper Remulos is an immortal keeper of the grove, bearing the lower body of a great stag and the antlered torso of an ancient dryad-father. He watches over Moonglade, the sacred sanctuary of Azeroth's druids nestled north of Mount Hyjal. While Malfurion Stormrage remains trapped in the Emerald Dream, Remulos provides divine authority and counsel to the mortals of the Cenarion Circle. He remains deeply invested in healing Azeroth's scars, offering aid to druids pursuing their sacred rites around Lake Elune'ara. Remulos frequently finds himself at ideological odds with Archdruid Fandral Staghelm. While Staghelm champions night elven supremacy and sought to restore their lost immortality through Teldrassil, Remulos vehemently opposed the planting of the new World Tree as an act of hubris. Defying Staghelm's isolationist faction, Remulos welcomed Hamuul Runetotem and the tauren into the Cenarion Circle, sharing nature's closely guarded mysteries with their shamans-turned-druids to restore the land collectively."
     },
@@ -10244,6 +10322,32 @@
       },
       "text": "Renato Gallina. Renato Gallina is an energetic barker found promoting business in Stormwind City's bustling Trade District. A member of the Gallina winemaking family, his job is to drum up patrons and direct thirsty travelers to the family winery nestled along the city canals. Standing amidst the busy stalls of the Trade District, Renato Gallina spends his days calling out to passers-by, boldly proclaiming that his family sells the finest vintages in all of Stormwind. His family operates the Gallina Winery located nearby along the Canals, and Renato serves as their public promoter, handing out pamphlets that passers-by can bring to his sister Suzetta at the shop for a free bottle of wine."
     },
+    "npc:renee-lauer": {
+      "1": [
+        {
+          "duration": 53.1330612244898,
+          "file": "Audio/Transport/full_npc_renee-lauer-24960c1035b7abbd8d2e/1-0000.mp3",
+          "sha256": "b001fd31611d4e0dc5c5d795a322a3cd392e10fdd9b5f8de6a0a4a566f1eeeb9",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "5570c5",
+      "generation": "4b14393e0e04e3c8e3c2",
+      "hash": "5570c5",
+      "source": {
+        "duration": 53.133061,
+        "file": null,
+        "sha256": "24960c1035b7abbd8d2e1ea092cd698fb49ca178b303ce9c054be9f2b0cb2bc3"
+      },
+      "text": "Innkeeper Renee. Innkeeper Renee runs the Gallows' End Tavern in Brill, offering shelter, food, and drink to the Forsaken and to Horde travelers passing through Tirisfal Glades. Renee keeps the Gallows' End Tavern, the inn at the heart of Brill. Behind her counter she sells food, drink and general goods, and she welcomes weary newcomers to rest their bones, remarking that the Forsaken certainly do have huge appetites. For the undead of Tirisfal, her tavern is a cozy little place where victims of the plague try to make their way in the world. Renee's inn is often a newcomer's first stop in Brill. Calvin Montague of Deathknell sends fresh adventurers to her with a nondescript letter, word she has been eagerly waiting for. Below her floorboards, the tavern's cellar also holds a captured Scarlet Crusade zealot."
+    },
     "npc:renzik-the-shiv": {
       "1": [
         {
@@ -10273,9 +10377,9 @@
     "npc:rezlak": {
       "1": [
         {
-          "duration": 47.804081632653066,
-          "file": "Audio/Transport/full_npc_rezlak-a08fd6b781069aaa0337/1-0000.mp3",
-          "sha256": "3237a2effd407c7159b37f9368250a72cfc0538d81adcf80e26cc6c831903bcc",
+          "duration": 47.93469387755102,
+          "file": "Audio/Transport/full_npc_rezlak-b7a35e1dd5622b912441/1-0000.mp3",
+          "sha256": "234e1e9247b590647f97c1570526112b30df1923eb31a44c3640a9b75ea5db20",
           "start": 0
         }
       ],
@@ -10287,12 +10391,12 @@
         ]
       },
       "fullHash": "3f346e",
-      "generation": "58099da4b7e3ebd58beb",
+      "generation": "d090e8e83ff37ff3f234",
       "hash": "3f346e",
       "source": {
-        "duration": 47.777938,
+        "duration": 47.934694,
         "file": null,
-        "sha256": "a08fd6b781069aaa0337e85cb48c0ab91254b5606d7535e638d7ce9a93d38c4b"
+        "sha256": "b7a35e1dd5622b9124418d5418b60e4500000ea5d895a473b13f131ddf9cb610"
       },
       "text": "Rezlak. Rezlak is a goblin entrepreneur and member of the Tinkers' Union stationed along the dusty roads of Durotar south of Orgrimmar. He hires traveling adventurers to salvage his missing supplies and clear out the harpies preying on his supply caravans. Perched beside the canyon roads connecting Razor Hill to Orgrimmar, Rezlak represents the Tinkers' Union—a goblin syndicate focused on engineering, supply lines, and industrial pragmatism. Rezlak cares little for the factional tensions of Kalimdor so long as business runs smoothly. When the fierce Dustwind harpies raided his cargo caravans and made the supply routes unsafe, Rezlak stayed put, preferring to contract out the dangerous work of extermination and recovery to any passerby willing to turn a profit."
     },
@@ -11131,9 +11235,9 @@
     "npc:sentinel-velene-starstrike": {
       "1": [
         {
-          "duration": 72.09795918367347,
-          "file": "Audio/Transport/full_npc_sentinel-velene-starstrike-f8b23fd15c911a2d9212/1-0000.mp3",
-          "sha256": "72bc8fe8111ed5863224dc79c8305728c2a13e652a85ee225d12c90f2d7fc460",
+          "duration": 68.07510204081633,
+          "file": "Audio/Transport/full_npc_sentinel-velene-starstrike-3e7b86a422cdfc5b831a/1-0000.mp3",
+          "sha256": "4fea94795d3f2fd0046455f9267497df764992fafcb1a635dae2627d3ad31f6c",
           "start": 0
         }
       ],
@@ -11145,21 +11249,21 @@
         ]
       },
       "fullHash": "af0648",
-      "generation": "3fd0a7f1c6dd41a1a246",
+      "generation": "661bc59a6caac9aaa8af",
       "hash": "af0648",
       "source": {
-        "duration": 72.071813,
+        "duration": 68.075102,
         "file": null,
-        "sha256": "f8b23fd15c911a2d92127e5dcfb328af93d7969d279d9c8fec1f8e7242b38df6"
+        "sha256": "3e7b86a422cdfc5b831a7c9b72d35b69c507057abed0dc277cd7bcae7fa68ff2"
       },
       "text": "Sentinel Velene Starstrike. Sentinel Velene Starstrike is a night elf guardian stationed at Silverwind Refuge in central Ashenvale. Tasked with protecting the sanctuary and the surrounding waters, she confronts encroaching unnatural threats such as rogue elementals and foul sorcerers. Her vigilance helps safeguard the ancient woodland from corrupting magical interference. Stationed beside the clear waters of Mystral Lake, Sentinel Velene Starstrike maintains a watchful vigil from Silverwind Refuge. Like many night elf sentinels scattered throughout Ashenvale, her primary duty is preserving the balance of the forest and repelling threats to elven sanctuaries. The serene grove serves as a vital rest stop for travelers traversing the central woods, making her presence essential to the area's ongoing safety. The peace around Silverwind Refuge is fragile. Velene keeps close watch over Mystral Lake, where erratic elemental spirits and reckless mage summoners disrupt the natural rhythm of the wilderness. Through her direction, champions are dispatched to suppress rogue water elementals and put an end to the careless practitioners disturbing the spirits of the land."
     },
     "npc:serge-hinott": {
       "1": [
         {
-          "duration": 49.08408163265306,
-          "file": "Audio/Transport/full_npc_serge-hinott-575b7ad4b6fadb8b756f/1-0000.mp3",
-          "sha256": "ad62ef4f3be55cc22f28cd1a43da1097107a9b6b5fe07e2ada1fe081a87f0247",
+          "duration": 48.71836734693878,
+          "file": "Audio/Transport/full_npc_serge-hinott-fb2041d5401279c72bb8/1-0000.mp3",
+          "sha256": "465dc814807a4a031acb945e5344743ce4a82d7139221cfa5755e92ca8df43b9",
           "start": 0
         }
       ],
@@ -11171,12 +11275,12 @@
         ]
       },
       "fullHash": "360d69",
-      "generation": "c8e43676caad94a17e18",
+      "generation": "d3b0f7d35389d9f32d00",
       "hash": "360d69",
       "source": {
-        "duration": 49.057938,
+        "duration": 48.74449,
         "file": null,
-        "sha256": "575b7ad4b6fadb8b756f0fda91bb088a233dfa3f652e21857919b59a85494c48"
+        "sha256": "fb2041d5401279c72bb89e3d294cd8fa3b56e0de6851db77590a76761ab25cfe"
       },
       "text": "Serge Hinott. Serge Hinott is a Forsaken alchemist stationed in Tarren Mill in the Hillsbrad Foothills. Working closely alongside Apothecary Lydon, he assists the Royal Apothecary Society with brewing concoctions, antidotes, and reagents essential to the Forsaken war effort. Positioned beside Apothecary Lydon in the fortified settlement of Tarren Mill, Serge Hinott plays a crucial supporting role for Forsaken operations in Hillsbrad Foothills. While Lydon focuses on broader chemical development and aggressive plague research against neighboring human settlements like Southshore, Hinott manages specialized brewing tasks. His expertise includes preparing restorative salves and critical antidotes required when field agents and scouts encounter dangerous poisons and toxic mishaps."
     },
@@ -11261,9 +11365,9 @@
     "npc:shelene-rhobart": {
       "1": [
         {
-          "duration": 44.30367346938775,
-          "file": "Audio/Transport/full_npc_shelene-rhobart-6f055ec93a6e1e7979a8/1-0000.mp3",
-          "sha256": "f75e44e94ba9530c7f2501057308b45eb8438623fc38cb21875b4de339d31acf",
+          "duration": 44.564897959183675,
+          "file": "Audio/Transport/full_npc_shelene-rhobart-705be13681ebf496b64f/1-0000.mp3",
+          "sha256": "f854f6073661a82ee10a0d147c21b7c0692b390f560fc5d64af43590d88efbb9",
           "start": 0
         }
       ],
@@ -11275,12 +11379,12 @@
         ]
       },
       "fullHash": "f1f5bc",
-      "generation": "7f83944e015a7835feaa",
+      "generation": "2e6beb56690050e4fc37",
       "hash": "f1f5bc",
       "source": {
-        "duration": 44.2775,
+        "duration": 44.59102,
         "file": null,
-        "sha256": "6f055ec93a6e1e7979a8ceda731bda7c9e90999b94f7a7edbdedb7d8df8da33d"
+        "sha256": "705be13681ebf496b64f62441cca42afc967d3f80d9d06351bf8faa90c9e9c4e"
       },
       "text": "Shelene Rhobart. Shelene Rhobart is a Forsaken leatherworking trainer stationed along the road in Tirisfal Glades. Operating out of a Deathguard waystation, she supplies cured hides and leathercraft training to support the Forsaken's military and logistical efforts across the blighted lands. Shelene Rhobart plies her trade at a Deathguard waystation, an outpost situated southeast of Brill along the main road toward the ruins of Lordaeron. Even in undeath, practical crafts remain essential for survival and war. Shelene works with animal pelts collected from the prowling beasts of Tirisfal, refining tough hides into armor, straps, and field gear to supply local Forsaken patrols contending with both the Scourge and Scarlet crusaders."
     },
@@ -11339,9 +11443,9 @@
     "npc:sicco-thermaplugg": {
       "1": [
         {
-          "duration": 46.36734693877551,
-          "file": "Audio/Transport/full_npc_sicco-thermaplugg-2a010338479a0af8428e/1-0000.mp3",
-          "sha256": "7de2ae3705dd5ed14d645f0e82b4e67131aa143e32da41667db8e693094bc1d1",
+          "duration": 47.93469387755102,
+          "file": "Audio/Transport/full_npc_sicco-thermaplugg-ab4450b8d5c7978b3ced/1-0000.mp3",
+          "sha256": "0a905bad974489b26f57f40c3b59f5cdc2e6a2e1df05b1beceb88ca730fb8f06",
           "start": 0
         }
       ],
@@ -11353,12 +11457,12 @@
         ]
       },
       "fullHash": "dee2a8",
-      "generation": "a04819e853c6fdbcf212",
+      "generation": "e1c2277ce83a037baa98",
       "hash": "dee2a8",
       "source": {
-        "duration": 46.341188,
+        "duration": 47.934694,
         "file": null,
-        "sha256": "2a010338479a0af8428e9c409cacca122391bde0cf7f39fa27b6b1712fed92d9"
+        "sha256": "ab4450b8d5c7978b3ced497be0a3e6a867f3421da17acb83f1bb14bbcdbd629e"
       },
       "text": "Mekgineer Thermaplugg. Mekgineer Thermaplugg is the self-proclaimed ruler of ruined Gnomeregan and the greatest traitor in gnomish history. Once the trusted chief advisor of High Tinker Gelbin Mekkatorque, he orchestrated the catastrophic irradiation of the underground city in a twisted bid to seize power. Now thoroughly deranged and transformed into a leper gnome, he commands the irradiated halls from within a massive mechanical battle suit. Mekgineer Thermaplugg served for many years as chief advisor to High Tinker Gelbin Mekkatorque, who trusted him completely. All the while, Thermaplugg secretly coveted the office of High Tinker. What finally drove him to betray that trust, whether power or wealth, not even Mekkatorque can say; the High Tinker can only note that Thermaplugg would have had both in time."
     },
@@ -11469,9 +11573,9 @@
     "npc:skuerto": {
       "1": [
         {
-          "duration": 53.185306122448985,
-          "file": "Audio/Transport/full_npc_skuerto-cfa64a5c542f4514dea1/1-0000.mp3",
-          "sha256": "6dd2f3ac74b5ed1b131e1791e8dff3418b8bb443eeff7c30ca7ed3ba08a7ee60",
+          "duration": 53.760000000000005,
+          "file": "Audio/Transport/full_npc_skuerto-6b7f5ae1ed782b102fb4/1-0000.mp3",
+          "sha256": "0e3c0957e9c80e556e7fec824d4c6a070de313d435bf06b3b691136b6e99a986",
           "start": 0
         }
       ],
@@ -11483,12 +11587,12 @@
         ]
       },
       "fullHash": "e46e3c",
-      "generation": "3a3aaaff60b779ad17a6",
+      "generation": "f30b4b93f54e7857e5d1",
       "hash": "e46e3c",
       "source": {
-        "duration": 53.211429,
+        "duration": 53.76,
         "file": null,
-        "sha256": "cfa64a5c542f4514dea115cbeee49ca251c67ea6f72d51f2470647de0d9913db"
+        "sha256": "6b7f5ae1ed782b102fb423b7f5ab2922d7998488aba31908e88477db213b0372"
       },
       "text": "Skuerto. Skuerto is a dwarven scout stationed at Refuge Pointe in the Arathi Highlands. Sent there by Archmage Malin alongside Apprentice Kryten, he aids the Alliance in the field, helping secure magical relics on Malin's behalf. Skuerto, a dwarf of Ironforge, works as a scout in the dangerous Arathi Highlands. Stationed alongside Apprentice Kryten at Refuge Pointe, he works under the direction of Archmage Malin to recover arcane reagents and potent magical artifacts that once belonged to Malin's old master, Archmage Trelane. Despite the harsh conditions of the Highlands, Skuerto takes considerable pride in his wilderness scouting and reacts poorly to anyone questioning his competence. His work regularly brushes up against regional perils, from the hostile Syndicate and Boulderfist ogres to dangerous ancient entities tied to the land."
     },
@@ -11573,9 +11677,9 @@
     "npc:stitches": {
       "1": [
         {
-          "duration": 44.120816326530615,
-          "file": "Audio/Transport/full_npc_stitches-db33b4e90c4590b1165f/1-0000.mp3",
-          "sha256": "ab37ce182eca3fcfe76482fc02e3cb5838f1cfee0d75ec4a1874ce020875a3c9",
+          "duration": 44.64326530612245,
+          "file": "Audio/Transport/full_npc_stitches-04366e2151d665b10403/1-0000.mp3",
+          "sha256": "7b8b5039bee0307a35af15948a0f21d05156767e27fac8f9a6e9e60dc6180461",
           "start": 0
         }
       ],
@@ -11587,12 +11691,12 @@
         ]
       },
       "fullHash": "65e750",
-      "generation": "cf39d71886c0718640e2",
+      "generation": "1f2055e615da0cd3eabe",
       "hash": "65e750",
       "source": {
-        "duration": 44.094688,
+        "duration": 44.669388,
         "file": null,
-        "sha256": "db33b4e90c4590b1165f72db48a4f89c3afcc4126c33054e69a87e79c31a53e8"
+        "sha256": "04366e2151d665b104036d573d6113c6b87d5f40be9d1982404d0db33ed7727a"
       },
       "text": "Stitches. Stitches is a colossal, stitched-together undead abomination stalking Duskwood's main thoroughfare. His march threatens travelers, the Night Watch, and the town of Darkshire. Stitches is an undead abomination assembled from harvested corpses and unholy sorcery. Appearing near Abercrombie's shack northeast of Raven Hill Cemetery, the lumbering monstrosity immediately sets out eastward along the road toward Darkshire. Imbued with immense physical strength and relentless malice, Stitches tears through any Night Watch checkpoints stationed along the thoroughfare—including the defense camp across from Vul'Gol Ogre Mound and the outpost outside the Rotting Orchard—bringing outright slaughter to unwary travelers and town defenders alike."
     },
@@ -11781,9 +11885,9 @@
     "npc:takar-the-seer": {
       "1": [
         {
-          "duration": 74.71020408163265,
-          "file": "Audio/Transport/full_npc_takar-the-seer-fe41581cd77bf71b3889/1-0000.mp3",
-          "sha256": "46f66de5de9e0dfb2a2c98a53e5b6fa890a8d2c558780d5b0e776d5f09a240c8",
+          "duration": 74.63183673469388,
+          "file": "Audio/Transport/full_npc_takar-the-seer-43edb1d8406739e8e335/1-0000.mp3",
+          "sha256": "b429a1310811769b4657f0685f9c5f74a6f7964914b6896556d165a618fa66a0",
           "start": 0
         }
       ],
@@ -11795,12 +11899,12 @@
         ]
       },
       "fullHash": "5a2a5b",
-      "generation": "7d87b03b7573d8dfc1d1",
+      "generation": "8579d1f323acc5a456a2",
       "hash": "5a2a5b",
       "source": {
-        "duration": 74.684063,
+        "duration": 74.631837,
         "file": null,
-        "sha256": "fe41581cd77bf71b388985064b3d3b34beb5051ceed5aad2aa3db4811a67d7ca"
+        "sha256": "43edb1d8406739e8e335ad4caef638b03a2a3ca1b1a2df6bf78a15ccc8d47f61"
       },
       "text": "Takar the Seer. Takar the Seer is an elusive human hermit encamped deep within the Barrens, east of Camp Taurajo. Despite sitting entirely within Horde-dominated territory, he maintains allegiance to the Alliance and assists certain travelers with esoteric occult knowledge. Dwelling alone beneath a simple tent east of Camp Taurajo, Takar the Seer seems out of place amid the dry plains of the Barrens. Surrounding lands are watched constantly by tauren braves and orc patrols, yet Takar remains undisturbed in his remote clearing. Hostile to curious Horde interlopers but rarely eager to initiate violence, he keeps a sharp eye on the horizon and prefers solitude. His isolated existence suggests deliberate seclusion, far from the bustling politics of Stormwind. Though solitary, Takar is not entirely detached from the wider world. Initiates of darker arts—particularly Alliance warlocks sent from the Eastern Kingdoms—seek his cryptic guidance when attempting to bind dangerous otherworldly entities. His deep understanding of unseen forces and soulcraft makes his remote camp a vital, if perilous, pilgrimage site for practitioners looking to bind and command demons."
     },
@@ -12067,9 +12171,9 @@
     "npc:tenaron-stormgrip": {
       "1": [
         {
-          "duration": 50.5730612244898,
-          "file": "Audio/Transport/full_npc_tenaron-stormgrip-68be13d96cfc4a06d7a8/1-0000.mp3",
-          "sha256": "4d9675a31b59c3bb146d3f5b678b5a55994e9298d2c0294750dd6798cdcecf77",
+          "duration": 49.21469387755102,
+          "file": "Audio/Transport/full_npc_tenaron-stormgrip-b329ad93eb0bd806fc39/1-0000.mp3",
+          "sha256": "dcf8efaa89fd39bb7006152d3ad2323ad469dcf12b99e151c5c0720c1f512db9",
           "start": 0
         }
       ],
@@ -12081,21 +12185,21 @@
         ]
       },
       "fullHash": "f4f9b8",
-      "generation": "8ce2836b9f765d91af72",
+      "generation": "166df5c1711e2e1dcff3",
       "hash": "f4f9b8",
       "source": {
-        "duration": 50.546938,
+        "duration": 49.214694,
         "file": null,
-        "sha256": "68be13d96cfc4a06d7a8b6e1bae1738630aa4e4a7c2088e91ed18e99937bb48c"
+        "sha256": "b329ad93eb0bd806fc3961bc20c42f06bb21dffdad75d7701641fd6a78cb579d"
       },
       "text": "Tenaron Stormgrip. Tenaron Stormgrip is a night elf guide high within Aldrassil, the central tree of Shadowglen. He teaches young kaldorei the recent history of their people while asking them to gather moonwell water. Perched upon the winding wooden platforms of Aldrassil, Tenaron Stormgrip stands as an early mentor to young night elves stepping forth from the boughs of Shadowglen. From his vantage point, he monitors the health of the local woods and the vital moonwells that sustain them. His role is to instruct novices in understanding their profound spiritual connection to the World Tree. Tenaron begins the journey known as Crown of the Earth. He sends initiates to gather a phial of water from the moonwell north of Aldrassil, teaching them what followed the Battle of Mount Hyjal. The journey continues through Teldrassil and into Darnassus."
     },
     "npc:teronis-corpse": {
       "1": [
         {
-          "duration": 43.80734693877551,
-          "file": "Audio/Transport/full_npc_teronis-corpse-a3e2804de8f1e2b3c44c/1-0000.mp3",
-          "sha256": "9607513be05ebe2368bdbdd805c1114437835047f85da319690a4c00bae29583",
+          "duration": 43.44163265306123,
+          "file": "Audio/Transport/full_npc_teronis-corpse-cb87e4af7753a8a707cf/1-0000.mp3",
+          "sha256": "0b542f3a73509db42df43d5fda25ceee28e0bb831f52fa79ad1c62f6ad1a444d",
           "start": 0
         }
       ],
@@ -12107,12 +12211,12 @@
         ]
       },
       "fullHash": "9c8853",
-      "generation": "e05881c59b956b9d3b54",
+      "generation": "55fdeca29247b9bdcbb0",
       "hash": "9c8853",
       "source": {
-        "duration": 43.781188,
+        "duration": 43.467755,
         "file": null,
-        "sha256": "a3e2804de8f1e2b3c44cdd93bd9015d92e9ebb7c53a4a1025bc377638014f65b"
+        "sha256": "cb87e4af7753a8a707cf98ee4b71ff5a75f8b151441ad47afd6ea9d607f6e6f0"
       },
       "text": "Teronis' Corpse. Teronis' Corpse lies on a secluded island within Lake Falathim in western Ashenvale. Before his untimely demise, this night elf scout was dispatched from Astranaar on a crucial mission to recover Dartol's Rod to aid in cleansing the forest. Sent forth by Raene Wolfrunner from the settlement of Astranaar, Teronis was tasked with recovering the lost rod of Dartol, an ancient night elf relic capable of purifying corrupted woodland magic. His search brought him deep into the waters of Lake Falathim, but the journey turned fatal when hostile murlocs swarmed the island. Teronis fell in battle, leaving his journal behind and the rod's radiant gemstone plundered by the lake's aggressive amphibians."
     },
@@ -12561,9 +12665,9 @@
     "npc:treshala-fallowbrook": {
       "1": [
         {
-          "duration": 37.120000000000005,
-          "file": "Audio/Transport/full_npc_treshala-fallowbrook-37a05a84a4391d1ec06f/1-0000.mp3",
-          "sha256": "c94c78ea2242f8f9206467ee1593babc739a76e77e6f462459b8509d9546fe8f",
+          "duration": 37.459591836734695,
+          "file": "Audio/Transport/full_npc_treshala-fallowbrook-7616cdcf8f1515176c3f/1-0000.mp3",
+          "sha256": "c9096f015839a58a720081cbc723c9467bac00cda4ed861c00cc60948b68e062",
           "start": 0
         }
       ],
@@ -12575,12 +12679,12 @@
         ]
       },
       "fullHash": "ae05c6",
-      "generation": "d0a7c068cf556cc603c4",
+      "generation": "d98662400694349e6973",
       "hash": "ae05c6",
       "source": {
-        "duration": 37.12,
+        "duration": 37.459592,
         "file": null,
-        "sha256": "37a05a84a4391d1ec06f92761731d7e8d0d81fb6597af8da4836c0ef07e9aee3"
+        "sha256": "7616cdcf8f1515176c3f354879b55d3d1dda65892cc88063547061450830f1d6"
       },
       "text": "Treshala Fallowbrook. Treshala Fallowbrook is a night elf residing quietly on the upper level of the Tradesmen's Terrace in Darnassus. She is the wife of Heralath Fallowbrook, whose work has taken him far from home into the thorny depths of Razorfen Kraul in the Barrens. Treshala Fallowbrook keeps a modest vigil on the second floor of a workshop in Darnassus's Tradesmen's Terrace. Her husband, Heralath, journeyed to the brambled depths of Razorfen Kraul in the Barrens, and she waits at home for word of him. The two are joined by a pendant of bonding, a keepsake of their marriage that Heralath carried with him into the quilboar's warrens."
     },
@@ -12639,9 +12743,9 @@
     "npc:ukor": {
       "1": [
         {
-          "duration": 51.14775510204082,
-          "file": "Audio/Transport/full_npc_ukor-0c6c7cb6fef8223109e5/1-0000.mp3",
-          "sha256": "2f9f552d8e2a62fb16caafa284914021571f50f5cbd3b1b4061117115de6bc00",
+          "duration": 49.92,
+          "file": "Audio/Transport/full_npc_ukor-1cda28e7900b6fdb00f5/1-0000.mp3",
+          "sha256": "8c8ea15930847083413fd8efdeec5cefb459c86942008e35a3ea2743787b8852",
           "start": 0
         }
       ],
@@ -12653,12 +12757,12 @@
         ]
       },
       "fullHash": "38e96b",
-      "generation": "6f5324bffd8380229cba",
+      "generation": "f92447b26aeaaba01150",
       "hash": "38e96b",
       "source": {
-        "duration": 51.147755,
+        "duration": 49.946122,
         "file": null,
-        "sha256": "0c6c7cb6fef8223109e57c236f1eb02935c2f2f5122f998c64cabdb2ab0b1933"
+        "sha256": "1cda28e7900b6fdb00f52c053d00d9d474232aa08cde46cd0208ca59cbdc0e69"
       },
       "text": "Ukor. Ukor is an orc peon resting near the eastern path outside the Valley of Trials in Durotar. Eager to help his people, he carried supplies all the way from Razor Hill, only to find the training grounds already had plenty of provisions. While many orc peons spend their lives under the watchful eye of harsh taskmasters cutting lumber or hauling rocks, Ukor attempted to perform a service of his own initiative. Tasked or inspired to bring food from Razor Hill to the recruits training in the Valley of Trials, he made the dangerous trek across Durotar's red plains past prowling scorpid and boars. Upon arrival, he discovered the Valley was already well-stocked and had no need for his bundle. Exhausted and somewhat disheartened by the roadside, he relies on passing young adventurers to return the unused provisions back north to Innkeeper Grosk."
     },
@@ -12769,9 +12873,9 @@
     "npc:uzzek": {
       "1": [
         {
-          "duration": 41.95265306122449,
-          "file": "Audio/Transport/full_npc_uzzek-1e58760c1c68e4d7e33a/1-0000.mp3",
-          "sha256": "adae5e4cd7ad130e37e921b3b379b46b5dbf8ef7ed824580dbddf87a15222b69",
+          "duration": 40.568163265306126,
+          "file": "Audio/Transport/full_npc_uzzek-eaf7facf1d1dd37934c4/1-0000.mp3",
+          "sha256": "58eb8d03c022d3311cfd0da94f4eeaaa676fae3b7537618cab1b14c84a33bc18",
           "start": 0
         }
       ],
@@ -12783,12 +12887,12 @@
         ]
       },
       "fullHash": "146e19",
-      "generation": "8ba59e0925de29d3427e",
+      "generation": "081715f3f74ae41124e1",
       "hash": "146e19",
       "source": {
-        "duration": 41.9265,
+        "duration": 40.568163,
         "file": null,
-        "sha256": "1e58760c1c68e4d7e33a9c37d80e03dffd0ad15d306b76f754d1bac5fbc4722e"
+        "sha256": "eaf7facf1d1dd37934c431d52bd7e55f7a68931ed0f62f03c9de47de66234183"
       },
       "text": "Uzzek. Uzzek is a battle-hardened orc veteran stationed just southwest of the Far Watch Post in the Barrens. Having survived countless skirmishes across Kalimdor, he now helps evaluate and temper promising Horde warriors who journey through the arid plains. Perched southwest of Far Watch Post along the eastern border of the Barrens, Uzzek represents the enduring grit of the Horde's frontline fighters. Having endured brutal combat throughout the recent wars, he serves as an instructor and trial-giver to younger warriors seeking to master their defensive disciplines. To prove oneself to Uzzek requires testing one's mettle against the savage wildlife and raiders that plague the arid crossing."
     },
@@ -12821,9 +12925,9 @@
     "npc:vanndar-stormpike": {
       "1": [
         {
-          "duration": 86.88326530612245,
-          "file": "Audio/Transport/full_npc_vanndar-stormpike-17504bdc93593c32c627/1-0000.mp3",
-          "sha256": "9a696e252022a5298cc832040aca1787b15098a9918218d6557dac67d0b4614c",
+          "duration": 83.35673469387756,
+          "file": "Audio/Transport/full_npc_vanndar-stormpike-6551e5321dca5999abe8/1-0000.mp3",
+          "sha256": "da46a96141dbd2ddbf05e9b251f844c83b49159db257020dd4ec925f85c99318",
           "start": 0
         }
       ],
@@ -12835,12 +12939,12 @@
         ]
       },
       "fullHash": "fef05e",
-      "generation": "f3ac18eafc89ea11ebf3",
+      "generation": "5853d9826c006ae21af5",
       "hash": "fef05e",
       "source": {
-        "duration": 86.857125,
+        "duration": 83.356735,
         "file": null,
-        "sha256": "17504bdc93593c32c62789263e5110ec7f276ae58ed2f1468fa6c6660a103e75"
+        "sha256": "6551e5321dca5999abe8330413c8e3b32e2fe16434a636f85b941ca775808dd3"
       },
       "text": "Vanndar Stormpike. Vanndar Stormpike is a fierce dwarf mountain king who commands the Stormpike Expedition from the northern fortress of Dun Baldar. Searching the frozen peaks of Alterac Valley for ancient relics and raw resources, he leads the Alliance's unyielding war against the Frostwolf orcs. A veteran mountain king of Ironforge, Vanndar Stormpike spearheads the dwarven excavation into Alterac Valley. Following the Third War, he marched the Stormpike Guard into the northern mountains seeking hidden mineral riches and long-lost titan artifacts. Settling into the fortified redoubt of Dun Baldar, Vanndar views the valley as an ancestral right and rightful Alliance territory. He directs military outposts, defensive bunkers, and frontline pushes with grim dwarven resolve, determined that no retreat will ever be sounded under his watch. Vanndar's relentless mining and prospecting encroached directly onto the home of the Frostwolf clan, sparking brutal mountain warfare. Despite orcish demands to withdraw, Vanndar refuses to yield an inch of ground, vowing that Alterac Valley will belong to the dwarves. From his throne room deep within Dun Baldar, flanked by his marshals and bodyguards, he personally oversees the defense against Frostwolf incursions while dispatching Alliance champions to break the enemy lines and claim the valley once and for all."
     },
@@ -13003,9 +13107,9 @@
     "npc:veronica-nials": {
       "1": [
         {
-          "duration": 69.92979591836735,
-          "file": "Audio/Transport/full_npc_veronica-nials-f2a8a5a59151627e1070/1-0000.mp3",
-          "sha256": "e233530a64e44d02f083a4cd7543f285693cf77fb835a29fce2c1b16a73363d8",
+          "duration": 74.57959183673469,
+          "file": "Audio/Transport/full_npc_veronica-nials-14d24b06b877518905d4/1-0000.mp3",
+          "sha256": "ee3a0c35210d91882d7fe71db970efaa870adf2f0c2ed0572ea54b0a9d43df0b",
           "start": 0
         }
       ],
@@ -13017,12 +13121,12 @@
         ]
       },
       "fullHash": "d35954",
-      "generation": "7d322f7b2732ce04cdb5",
+      "generation": "5625213ba048e69fedb1",
       "hash": "d35954",
       "source": {
-        "duration": 69.903625,
+        "duration": 74.579592,
         "file": null,
-        "sha256": "f2a8a5a59151627e1070c1e6d3dbbe739cb2782307dee8f79b00f9b6dcb72417"
+        "sha256": "14d24b06b877518905d417adcd20c56fdf8095f3b7d861d951c2c2f1952662c1"
       },
       "text": "Veronica Nials. Captain Veronica Nials is an officer of the Stromgarde military stationed at Refuge Pointe in the Arathi Highlands. Amid the kingdom's collapse, she coordinates defensive operations against the Syndicate and ogres that overrun the fallen capital. Following the Third War, the human kingdom of Stromgarde shattered, leaving its remnants struggling to survive against invading Boulderfist ogres and the treachery of the Syndicate. Captain Veronica Nials stands as one of the central commanders of the surviving Stromgarde defenders at Refuge Pointe. Tasked with holding the line, she directs Alliance champions against key Syndicate leadership, such as Lord Falconcrest and the warlock Marez Cowl, while striving to recover fallen soldiers' badges so their grieving families can find closure. Captain Nials's loyalties are strictly tied to her battered homeland. When Rhag Garmason and the dwarven defenders of Dun Modr begged for Stromgarde's assistance after Dark Iron saboteurs devastated the Thandol Span, Nials was forced to turn them away. Bound by honor and duty, her troops cannot spare a single blade beyond the Arathi Highlands while their own ancestral kingdom remains occupied."
     },
@@ -13341,9 +13445,9 @@
     "npc:wiley-the-black": {
       "1": [
         {
-          "duration": 51.17387755102041,
-          "file": "Audio/Transport/full_npc_wiley-the-black-36e4140612e99d1f0725/1-0000.mp3",
-          "sha256": "0f0b98b67b359fafe1177291fe02d6d2d1e0046f4caa85f7d799cdfdb3ad1849",
+          "duration": 51.69632653061225,
+          "file": "Audio/Transport/full_npc_wiley-the-black-23604b2d612fdd88ab14/1-0000.mp3",
+          "sha256": "382893167ee8d01cd21479dba182a04aab2a93e90401df446a5ee6d3dc709c53",
           "start": 0
         }
       ],
@@ -13355,21 +13459,21 @@
         ]
       },
       "fullHash": "706682",
-      "generation": "4ebd8876fa31417666be",
+      "generation": "d03b593ba6e11caa763f",
       "hash": "706682",
       "source": {
-        "duration": 51.14775,
+        "duration": 51.696327,
         "file": null,
-        "sha256": "36e4140612e99d1f072577bbf6bd15432b7ad9b7718aab5b71501542dc8e7e5e"
+        "sha256": "23604b2d612fdd88ab14d3abee8024e88ce44d24a5c191c8150f330e329290be"
       },
       "text": "Wiley the Black. Wiley the Black is an elusive rogue currently lying low at the Lakeshire Inn in Redridge. Though shady and reticent, he owes a life-debt to Gryan Stoutmantle and serves as a vital underworld contact regarding the Defias Brotherhood. Tucked away inside the Lakeshire Inn, Wiley the Black keeps a low profile away from the open turmoil of Westfall and the gnoll-infested borders of Redridge. Despite his roguish nature and questionable past, Wiley is bound by honor to Gryan Stoutmantle, commander of the People's Militia. Stoutmantle once saved Wiley's life—though Stoutmantle grumbles that he should have let the scoundrel rot when he had the chance. When the People's Militia desperately needs insight into the inner workings of the Defias conspiracy, Wiley is the informant they turn to, reluctantly parting with covert intelligence to clear his debt."
     },
     "npc:willem": {
       "1": [
         {
-          "duration": 67.1869387755102,
-          "file": "Audio/Transport/full_npc_willem-b4a38ae94de2c52d0f39/1-0000.mp3",
-          "sha256": "3abab748189fa13018cc74bb74320fe5c60e4e98e53263b505ae837d2d179a03",
+          "duration": 68.2057142857143,
+          "file": "Audio/Transport/full_npc_willem-a77e5dc599a82b425b3c/1-0000.mp3",
+          "sha256": "0da478bb1f24a708c314aa018cf7e2584f9b3ef8e2c644f96a871d0e8659ac10",
           "start": 0
         }
       ],
@@ -13381,12 +13485,12 @@
         ]
       },
       "fullHash": "c641b8",
-      "generation": "56d789d3407d4467388e",
+      "generation": "46e9d1d8344fb6025734",
       "hash": "c641b8",
       "source": {
-        "duration": 67.160813,
+        "duration": 68.231837,
         "file": null,
-        "sha256": "b4a38ae94de2c52d0f390d96eea15598f411cf2a3edf4622f645efcdd7c499e2"
+        "sha256": "a77e5dc599a82b425b3cb34d887fe42c1fb7a66ee8a9db388261906d4b801284"
       },
       "text": "Willem. Deputy Willem is a human soldier of the Stormwind Army stationed directly outside Northshire Abbey. Serving under Marshal McBride, he acts as the primary field liaison directing new recruits to handle local threats in Northshire Valley. His immediate focus is suppressing the growing encroachment of the Defias Brotherhood. Standing just steps from the gates of Northshire Abbey, Deputy Willem represents the frontline presence of the Stormwind Army in the valley. With the kingdom's military stretched thin across multiple territories, local security falls heavily on small detachments like McBride's garrison. Willem evaluates incoming volunteers, assigning them immediate tasks to assist local residents and safeguard the valley's perimeter. Willem's most pressing concern is the brazen activity of the Defias Brotherhood. Bandits sporting red bandanas have pushed directly into Northshire, stealing supplies, menacing local farmers like Milly Osworth, and establishing footholds around the surrounding vineyards and hills. Willem coordinates bounties on known cutthroats such as Garrick Padfoot to break their leadership before they can seize the abbey grounds."
     },
@@ -13731,9 +13835,9 @@
     "npc:zaldimar-wefhellt": {
       "1": [
         {
-          "duration": 42.99755102040817,
-          "file": "Audio/Transport/full_npc_zaldimar-wefhellt-a10e593676ca9348fbaa/1-0000.mp3",
-          "sha256": "bb750328c56840a4a40839842cbb605c6d654e8deed62ffd13f0ec5cc4b41cf7",
+          "duration": 42.8930612244898,
+          "file": "Audio/Transport/full_npc_zaldimar-wefhellt-0fb783089938be16c210/1-0000.mp3",
+          "sha256": "c89043c8f48403a9144a6c93a46ac50e92d2ca5894249622398bc656f9b4defb",
           "start": 0
         }
       ],
@@ -13745,12 +13849,12 @@
         ]
       },
       "fullHash": "560701",
-      "generation": "c41b48f92119f10fceac",
+      "generation": "ee461a56388d4d0f8a1f",
       "hash": "560701",
       "source": {
-        "duration": 42.971375,
+        "duration": 42.893061,
         "file": null,
-        "sha256": "a10e593676ca9348fbaa05f90a57b95be319efc0b1d88902d9554482f78697c8"
+        "sha256": "0fb783089938be16c21027971f1b2b264bf64c90c292b2f656dd26c5b6748c31"
       },
       "text": "Zaldimar Wefhellt. Zaldimar Wefhellt is a human mage trainer stationed on the upper floor of the Lion's Pride Inn in Goldshire. He serves as an instructor for fledgling spellcasters passing through Elwynn Forest before sending them along to higher practitioners in Stormwind City. While Goldshire's Lion's Pride Inn is best known for weary travelers, rowdy adventurers, and local gossip, its upper rooms house instructors of various trades. Tucked into one of the second-floor chambers, Zaldimar Wefhellt instructs novice mages in the foundational arts of the arcane, fire, and frost. Once an apprentice outgrows his early tutelage, he directs them north to the Mage Quarter in Stormwind to study under Jennea Cannon."
     },
@@ -13861,9 +13965,9 @@
     "npc:zargh": {
       "1": [
         {
-          "duration": 38.63510204081633,
-          "file": "Audio/Transport/full_npc_zargh-c6cc4dcb28c130790c2b/1-0000.mp3",
-          "sha256": "2e6efa68acd09789c79e8531f038fd52f3ca483d5b1c3a2351927deb27a78f58",
+          "duration": 38.66122448979592,
+          "file": "Audio/Transport/full_npc_zargh-daa00a0c7f08a924699f/1-0000.mp3",
+          "sha256": "77cea8c82e3cea0c42e64f2c52a8aebe855b79b57bf693f1b4dd29acb09cb9dc",
           "start": 0
         }
       ],
@@ -13875,21 +13979,21 @@
         ]
       },
       "fullHash": "88bcfb",
-      "generation": "adbe0c698b5d7ee86a8e",
+      "generation": "d0b3aa73080f7098cf04",
       "hash": "88bcfb",
       "source": {
-        "duration": 38.608938,
+        "duration": 38.661224,
         "file": null,
-        "sha256": "c6cc4dcb28c130790c2b50213aecbb440b389bdfeb837b0664e798d4aeeaae32"
+        "sha256": "daa00a0c7f08a924699f25ebbfbc8ef8f90aac2a63a81ab185bd96ace9d69c05"
       },
       "text": "Zargh. Zargh is an orc meat merchant stationed at the Crossroads in the Barrens. Aside from providing provisions to travelers, he frequently supplies choice cuts of local game to Innkeeper Gryshka in Orgrimmar. Amid the bustle of the Crossroads, Zargh tends his shop selling various cuts of cured meat, shank, and game taken from the surrounding plains. For adventurers pushing deep into the harsh wilderness, his stocks provide vital nourishment. Beyond basic trade, he maintains close ties with the Horde capital, regularly shipping carefully selected meats across Durotar to Gryshka, the innkeeper of the Valley of Strength."
     },
     "npc:zarlman-two-moons": {
       "1": [
         {
-          "duration": 70.58285714285715,
-          "file": "Audio/Transport/full_npc_zarlman-two-moons-a63642807ad18ef4ff81/1-0000.mp3",
-          "sha256": "7852c74600f4e50905b24afd7c1da642c39caef71a225998e8ddaf709d80712d",
+          "duration": 73.74367346938776,
+          "file": "Audio/Transport/full_npc_zarlman-two-moons-df852cfa162758611372/1-0000.mp3",
+          "sha256": "ba5dc8b25868fddfee5f72296a28e1d4b75f66082bf958ee81064b27c213ce78",
           "start": 0
         }
       ],
@@ -13901,12 +14005,12 @@
         ]
       },
       "fullHash": "50597d",
-      "generation": "66494dd1fe74fc098e78",
+      "generation": "0aa3d8f6eb9c728ced56",
       "hash": "50597d",
       "source": {
-        "duration": 70.556688,
+        "duration": 73.769796,
         "file": null,
-        "sha256": "a63642807ad18ef4ff81a1cb7828abd0c9460ec53203940098c23b22deea91ff"
+        "sha256": "df852cfa16275861137256ec35e3645179c541b0a8185d91f238d614bf2b31b5"
       },
       "text": "Zarlman Two-Moons. Zarlman Two-Moons is a revered tauren mystic residing in Bloodhoof Village in central Mulgore. While Baine Bloodhoof oversees the village's daily earthly affairs, Zarlman guides its spiritual life and communions with the spirits. He plays a vital role in initiating young tauren into adulthood through the sacred Rite of Vision. Within Bloodhoof Village, leadership is divided between the physical and the mystical. Baine Bloodhoof commands the settlement's defense and temporal needs, but it is Zarlman Two-Moons who maintains the harmony of the spirit world. In a culture deeply rooted in reverence for the Earth Mother and ancestral wisdom, Zarlman serves as a conduit between the everyday struggles of the plains and the timeless voices of the past. Zarlman's most crucial duty to his people is administering the Rite of Vision, a traditional trial every maturing tauren must undertake. By guiding initiates to prepare sacred draughts and listen closely to ancestral portents, he helps young hunters, shamans, and warriors discover their destined path and spirit guides. Under his instruction, initiates learn that physical strength on the plains means little without spiritual clarity."
     },
@@ -14095,9 +14199,9 @@
     "topic:alliance": {
       "1": [
         {
-          "duration": 144.48326530612246,
-          "file": "Audio/Transport/full_topic_alliance-f42034abc83b97532a36/1-0000.mp3",
-          "sha256": "c98b703f7171aaa733caf18dece0f236146f7d562f3988a9c2d07503705e810e",
+          "duration": 143.4122448979592,
+          "file": "Audio/Transport/full_topic_alliance-13eb0ffaaeb73dd12c41/1-0000.mp3",
+          "sha256": "0f197efdc33dbfbeef3db4a8fa3ac764e4a3da200bc2fa5f6aba9706739649e4",
           "start": 0
         }
       ],
@@ -14109,12 +14213,12 @@
         ]
       },
       "fullHash": "74ab08",
-      "generation": "d028093039ca61b10631",
+      "generation": "aeb5defcf3f683a5c75f",
       "hash": "74ab08",
       "source": {
-        "duration": 144.457125,
+        "duration": 143.412245,
         "file": null,
-        "sha256": "f42034abc83b97532a3631abd7bfa2d23a4ba3d0881fe2d40ff2807a83819bea"
+        "sha256": "13eb0ffaaeb73dd12c4167546901bb385f944e212e876c9328e9a0ce00fde539"
       },
       "text": "Alliance. The Alliance is a grand coalition of mortal races bound by shared ideals of honor, duty, and the defense of order across Azeroth. Born out of the ashes of the northern kingdom of Lordaeron, its current heart beats in Stormwind City, united alongside the dwarves of Ironforge, the exiled gnomes, and the night elves of Kalimdor. The modern Alliance descends from the original Alliance of Lordaeron, founded when Sir Anduin Lothar led Stormwind refugees north during the Second War to unite the Seven Kingdoms, dwarves, and high elves against the Old Horde. While the Scourge and the Third War decimated the north—leaving Lordaeron in ruins and driving the survivors into scattered resistance—the restored Kingdom of Stormwind rose to fill the void. Today, Stormwind stands as the preeminent seat of human leadership, carrying the banners of honor and faith into a fractured world. The faction's backbone in the Eastern Kingdoms relies on the steadfast bond between humans and the dwarves of Ironforge under King Magni Bronzebeard. Alongside the dwarves reside the gnomes, driven from Gnomeregan by a devastating trogg uprising. Guided by High Tinker Gelbin Mekkatorque, the exiled gnomes lend their brilliant engineering to the Alliance war effort, believing the coalition's survival is paramount to ever reclaiming their irradiated home. Across the Great Sea, the reclusive night elves abandoned millennia of isolation after the Battle of Mount Hyjal. Reeling from the loss of their immortality and engaged in bitter territorial clashes against the Horde over logging in Ashenvale, the kaldorei allied with their newfound mortal companions. Though cultural friction remains—and some traditionalists decry the presence of humans and dwarves in ancient forests—the Alliance provides vital military and diplomatic cooperation to safeguard Kalimdor against demonic remnants and Horde expansion. Despite its outward strength, the Alliance is beset by internal strain. King Varian Wrynn vanished under mysterious circumstances en route to a diplomatic summit, leaving his young son Anduin on the throne under Highlord Bolvar Fordragon's regency. Relations with former human allies are fractured: the maritime kingdom of Kul Tiras keeps its distance, while Sylvanas Windrunner's undead Forsaken now hold the ruins of Lordaeron."
     },
@@ -14143,6 +14247,32 @@
         "sha256": "b2c9eeb2fbe1b68e94bdde584205501b71308739566e4856fdce1537895e8f68"
       },
       "text": "Brotherhood of Northshire. The Brotherhood of Northshire is a holy human clerical order dedicated to the Church of the Holy Light, based out of Northshire Abbey in Elwynn Forest. Originally known as the Clerics of Northshire, the order suffered catastrophic losses during the First War before being reformed under Archbishop Alonsus Faol. Today, the Brotherhood serves as both a spiritual sanctuary and the primary training ground for fledgling Alliance defenders. Centuries ago, pious missionaries traveled south from Lordaeron into the kingdom of Stormwind, establishing Northshire Abbey to minister to the people and soothe the realm through the Holy Light. Originally known as the Holy Order of Northshire Clerics, their compassion was legendary—they even tended to injured gnolls and jungle trolls during past border wars. When the Orcish Horde crossed through the Dark Portal, the clerics marched bravely to the front lines without armor or weapons to heal fallen soldiers. Because their healing sustained the Stormwind Army, the orcs ruthlessly targeted them. The order was decimated, the abbey was ransacked and burned, and the surviving clerics were forced to flee north across the sea to Southshore with Sir Anduin Lothar. The slaughter of the Northshire clerics sent shockwaves through the human kingdoms. Realizing that faith alone could not withstand an axe without armor and martial discipline, Archbishop Alonsus Faol resolved to create warriors who possessed both the sacred powers of the Light and the martial mastery of a knight. Drawing upon the surviving clerics and devout knights, Faol formed the Knights of the Silver Hand, giving rise to humanity's first paladins. In this way, the sacrifice of Northshire's fallen healers became the very foundation for the holy warriors who broke the Horde in the Second War. Following the reclamation of Stormwind and the destruction of the Dark Portal, Archbishop Faol oversaw the rebuilding of Northshire Abbey and reorganized the order as the Brotherhood of Northshire. Now in 25 ADP, Northshire Abbey stands as a quiet yet vital center where new recruits gather to begin their service to the realm. Under figures like Priestess Anetta, Brother Sammuel, and Brother Paxton, the Brotherhood attends to the spiritual health of the valley, preserves ancient texts in their library, and trains the next generation of defenders to confront brigands, wolves, and the gathering shadows across Elwynn Forest."
+    },
+    "topic:centaur": {
+      "1": [
+        {
+          "duration": 144.71836734693878,
+          "file": "Audio/Transport/full_topic_centaur-95c1f816fc8e86af3a2c/1-0000.mp3",
+          "sha256": "eb29327bcd519713436852e122db08bbd3f8d66a9b68c3a8c5e454b67ebbf8fa",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "39eea6",
+      "generation": "3c311d59a2888fb4239d",
+      "hash": "39eea6",
+      "source": {
+        "duration": 144.718367,
+        "file": null,
+        "sha256": "95c1f816fc8e86af3a2c301e46ff410f5ad991bfdd27e9040573e1449c24a6b5"
+      },
+      "text": "Centaur. Centaur are a violent, horse-bodied humanoid race whose nomadic clans dominate the arid plains of central Kalimdor. Born from the tragic union between the demigod Zaetar and the earth princess Theradras, they spent centuries driving the tauren toward extinction before the newly arrived orcish Horde intervened. Centaur legend traces the race to the caverns of Maraudon beneath Desolace. There, Zaetar, one of the immortal sons of the demigod Cenarius, and Princess Theradras, daughter of the elemental lord Therazane, sired the first centaur. Upon their emergence, the barbaric offspring turned on their father and killed him. Grief-stricken, Theradras trapped Zaetar's spirit within the winding caverns of Maraudon, yet she shielded her vicious children, who swiftly multiplied across Kalimdor. Following their emergence, the centaur expanded outward from Desolace, waging a brutal war of attrition against Kalimdor's native populations. The nomadic tauren suffered the most: driven from their fertile ancestral homeland of Mulgore, they were chased relentlessly across the Barrens. Centaur warbands treated the tauren as prey, burning settlements and hunting them for sport. By the time of the Third War, centuries of relentless pursuit had brought the tauren to the precipice of extinction, leaving them desperately fleeing endless marauders across the savannah. Everything shifted when Warchief Thrall and the newly arrived orcish Horde landed upon Kalimdor. Thrall formed a pact with Cairne Bloodhoof, uniting orcish steel with tauren might. Together, they crushed the aggressive Kolkar warbands, broke their grip on the plains, and enabled the tauren to safely establish Thunder Bluff and reclaim Mulgore. This alliance ended the nomadic exile of the tauren and established a debt of blood and honor that permanently bound them into the Horde. Despite their staggering defeats, centaur remain an active threat across central Kalimdor. Their society is divided into warring clans—primarily the Kolkar, Gelkis, Magram, and Maraudine—each led by a khan and locked in perpetual blood feuds over territory and water. While their internal squabbles keep them from uniting into an unstoppable horde, aggressive raiding parties continue to strike at trade caravans and settlements across Durotar, the Barrens, Thousand Needles, and the borders of Mulgore."
     },
     "topic:defias-brotherhood": {
       "1": [
@@ -14407,9 +14537,9 @@
     "topic:leper-gnome": {
       "1": [
         {
-          "duration": 103.47102040816327,
-          "file": "Audio/Transport/full_topic_leper-gnome-12d619e158dfd740dae9/1-0000.mp3",
-          "sha256": "df162447b5230613b0c7e31eeedf4adc6dc92fe6636506320ee4ebbd00f38ee8",
+          "duration": 104.25469387755102,
+          "file": "Audio/Transport/full_topic_leper-gnome-944b85b204ad8ae3bf0a/1-0000.mp3",
+          "sha256": "c8081c15e4b95f830dee85de827ad8c697d739e6d33ca50e8ffad9bfe6be2de7",
           "start": 0
         }
       ],
@@ -14421,12 +14551,12 @@
         ]
       },
       "fullHash": "68c181",
-      "generation": "5c8d53781a365122a479",
+      "generation": "3b1e73e9758dc9681428",
       "hash": "68c181",
       "source": {
-        "duration": 103.444875,
+        "duration": 104.280816,
         "file": null,
-        "sha256": "12d619e158dfd740dae973e86913f7a9ca38ca7149882919778bd3a2526201b7"
+        "sha256": "944b85b204ad8ae3bf0a9272f85f131a209e4c15f306d6966b40e1382758f338"
       },
       "text": "Leper gnome. Leper gnomes are the tragic, mutated survivors of Gnomeregan's catastrophic irradiation during the Third War. Maddened by toxic fallout and lingering fumes, most have sworn fealty to the usurper Mekgineer Thermaplugg, fiercely defending their ruined city against all outsiders. When trogg invaders breached Gnomeregan during the Third War, Mekgineer Thermaplugg advised High Tinker Gelbin Mekkatorque to flood the city with radioactive toxins. Thermaplugg claimed the poison would exterminate the troggs while sparing the gnomish population. Instead, the catastrophe wiped out eighty percent of the city's inhabitants. Those who survived within the sealed lower levels were warped in mind and flesh by toxic fallout, mutating into pale, pustulant wretches dubbed leper gnomes. Thermaplugg himself succumbed to the poisonous fallout, losing both his complexion and his sanity. Naming himself techno-overlord and King of Gnomeregan, he gathered the crazed survivors in the Tinkers' Court. In their fractured mental state, many leper gnomes perceive all surface dwellers as trogg intruders, driving them to attack returning rescue parties with frantic savagery. They pilot salvaged mechanical constructs and assemble volatile ordnance, guarding Thermaplugg's twisted kingdom with fanatical devotion. While the majority remain trapped within Gnomeregan's contaminated corridors, a handful of leper gnomes have found their way into the wider world. Driven by desperation or dark ambition, individuals have turned up among the Dark Iron dwarves in Blackrock Depths, operated machinery for the Venture Company in Stonetalon, or taken up service as lab assistants under the Forsaken's Royal Apothecary Society in the bowels of the Undercity."
     },
@@ -14459,9 +14589,9 @@
     "topic:light": {
       "1": [
         {
-          "duration": 92.65632653061225,
-          "file": "Audio/Transport/full_topic_light-062ec988fc60d870a599/1-0000.mp3",
-          "sha256": "1dd55844aeff4d3f9fe7da24c228394899cd914f4d30b3e0a88f7671b7f6839d",
+          "duration": 91.24571428571429,
+          "file": "Audio/Transport/full_topic_light-6b888a04e7b774c18e82/1-0000.mp3",
+          "sha256": "ae5568cfc92d7cce34f95337e64f4d24a8b044bb9cc297e3607843c704a61ce7",
           "start": 0
         }
       ],
@@ -14473,12 +14603,12 @@
         ]
       },
       "fullHash": "e0a88a",
-      "generation": "425a36f7cedcf1e111ef",
+      "generation": "04ddb252b76bafee7e8c",
       "hash": "e0a88a",
       "source": {
-        "duration": 92.630188,
+        "duration": 91.245714,
         "file": null,
-        "sha256": "062ec988fc60d870a599b8627e287927eac0c56912f21c85188a6ea29a21b9c0"
+        "sha256": "6b888a04e7b774c18e821b15dfff446f7aa0445ed4d7bf40b9b565d775972cd8"
       },
       "text": "Light. The Light is a boundless primal cosmic force whose energy connects and suffuses all living things across creation. Manifested in the mortal realm as Holy magic, it responds to willpower, meditation, and unyielding faith to mend flesh, shield allies, and purge darkness. The Light is an omnipresent force of living energy. When brought into Azeroth, it manifests as Holy magic. Its power flows through living souls as a connective tissue, binding mortal hearts together. While mortals often personify it as a conscious protector, the Light fundamentally answers the absolute conviction of the soul calling upon it. To channel the Light requires intense self-abnegation, disciplined meditation, and unshakable willpower. Practitioners—most famously the priests of the Church of the Holy Light and the holy paladins—train for years to become clear, empty vessels for its radiance. Through their devotion, the Light manifests as restorative warmth to mend mortal wounds, brilliant wards to shelter the innocent, or searing fire to strike down demons and the risen undead. While humanity and the dwarves revere the Light through formal scripture, other cultures access its brilliance through different spiritual traditions. The night elves channel sacred moonlight through devotion to the goddess Elune, weaving holy magic that cleanses and protects. The tauren honor the sun deity An'she in their own spiritual traditions."
     },
@@ -14823,9 +14953,9 @@
     "topic:syndicate": {
       "1": [
         {
-          "duration": 147.38285714285715,
-          "file": "Audio/Transport/full_topic_syndicate-caca12665f15f9c90cff/1-0000.mp3",
-          "sha256": "e2a532f204c61e1ea962df1e63c4b4e82f1a5d62dd5786ddbd2cfb586e75ca63",
+          "duration": 143.51673469387757,
+          "file": "Audio/Transport/full_topic_syndicate-d6d8dc58a64e0dda167f/1-0000.mp3",
+          "sha256": "93889003d8e7ae0859de7a2b5570aecb1205cb4c7d744fa70b43879237c66741",
           "start": 0
         }
       ],
@@ -14837,12 +14967,12 @@
         ]
       },
       "fullHash": "3c279e",
-      "generation": "4a8200bc2be0a6b4c278",
+      "generation": "247d779c5c3bf47d351d",
       "hash": "3c279e",
       "source": {
-        "duration": 147.356688,
+        "duration": 143.542857,
         "file": null,
-        "sha256": "caca12665f15f9c90cff7bd3628705f5009bb19de22df885dc9845ffec993662"
+        "sha256": "d6d8dc58a64e0dda167f25fa91a6f2cb6f47b124b49827416e16dace748c9e1d"
       },
       "text": "Syndicate. The Syndicate is a widespread human criminal organization founded and led by dispossessed nobles of the fallen kingdom of Alterac. Operating out of fortified strongholds across the Alterac Mountains, Hillsbrad Foothills, and the ruins of Stromgarde Keep, they wage an uncompromising war against both the Alliance and the Horde to restore their lost aristocracy. When the kingdom of Alterac collapsed in dishonor following King Aiden Perenolde's treachery during the Second War, its aristocracy was stripped of land and title. Refusing to accept their exile, the remaining Alteraci nobility banded together under the late king's son, Prince Aliden Perenolde. Adopting distinctive orange bandanas and standardizing their ranks with hired thugs, highwaymen, and hedge wizards, they forged the Syndicate. To the outside world, they behave like common brigands, raiding caravans, ambushing travelers, and running extortion rings. In truth, their criminal enterprises exist solely to fund an organized effort to reconquer their ancestral domains and subjugate surrounding lands. The Syndicate maintains entrenched footholds across northern Lordaeron. In the snowy Alterac Mountains, they fortified the ruined town of Strahnbrad and established encampments throughout the Uplands and Dandred's Fold. To the south, they hold the crumbling remnants of Durnholde Keep in the Hillsbrad Foothills, using it as a springboard to harass Southshore and raid supply routes. Further east across the Thoradin's Wall, Lord Falconcrest marshals an occupying Syndicate army inside the historic ruins of Stromgarde Keep in Arathi, actively battling the battered Stromgarde Militia for mastery over the Arathi Highlands. Unlike ordinary outlaws, the Syndicate harbors grand ideological ambitions that earn them the hatred of almost every regional faction. They view the Alliance as mortal enemies who stole their rightful heritage, frequently targeting Southshore officials such as Magistrate Henry Maleb. Towards the Horde, their stance is openly supremacist: following the philosophies of Aedelas Blackmoore, they view orcs merely as beasts fit for slave labor and seek to rebuild the internment camp system. Sylvanas Windrunner's Forsaken execute captured Syndicate members on sight, while the clandestine thieves' guild of Ravenholdt wages a constant shadow war against their sloppy, arrogant operatives."
     },
@@ -14875,9 +15005,9 @@
     "topic:war-of-the-ancients": {
       "1": [
         {
-          "duration": 135.28816326530614,
-          "file": "Audio/Transport/full_topic_war-of-the-ancients-ea40b3a04bcf9924a636/1-0000.mp3",
-          "sha256": "c8df15c313f4435dc10a8dc9c85b56582a8ba7275448052146fc025a1621a062",
+          "duration": 135.0530612244898,
+          "file": "Audio/Transport/full_topic_war-of-the-ancients-b9d789cc37a695792b65/1-0000.mp3",
+          "sha256": "1b7c09fa9ba36711866386c22b21284f6783e9eae8342d9f47442c05cb849955",
           "start": 0
         }
       ],
@@ -14889,12 +15019,12 @@
         ]
       },
       "fullHash": "782b64",
-      "generation": "ce71085a6684088f6d38",
+      "generation": "ca6d4a9fd657f3e90837",
       "hash": "782b64",
       "source": {
-        "duration": 135.262,
+        "duration": 135.053061,
         "file": null,
-        "sha256": "ea40b3a04bcf9924a63652e18b462d90971e2829b70309847f8d0aeb8d2ef308"
+        "sha256": "b9d789cc37a695792b658660dbffd49669b5a49dcf7c0da8d3d4f04b771c2d17"
       },
       "text": "War of the Ancients. Ten thousand years ago, the reckless sorcery of Queen Azshara and her Highborne tore a portal through the Well of Eternity, unleashing the demonic Burning Legion onto Azeroth. Led by the young druid Malfurion Stormrage, his brother Illidan, and Priestess Tyrande Whisperwind, a desperate coalition of night elves, dragons, and ancient forest demigods repelled the invaders. The resulting destruction of the Well triggered the Great Sundering, violently shattering the ancient continent of Kalimdor and permanently altering the face of the world. At the height of the ancient Kaldorei Empire, Queen Azshara and her elite caste of sorcerers, the Highborne, relentlessly drew upon the vast arcane depths of the Well of Eternity. Their reckless manipulation sent massive ripples into the Great Dark Beyond, attracting Sargeras, the master of the Burning Legion. Entranced by promises of ultimate power and perfection, Azshara and her advisor Xavius opened a trans-dimensional rift within the Well. Legions of felhounds, felguard, doomguard, and monstrous commanders poured into the capital city of Zin-Azshari, slaughtering all non-Highborne and beginning their crusade to purge the world of life. Horrified by the slaughter, night elves outside the Highborne caste rallied to resist. The resistance was led by remarkable heroes: the first mortal druid Malfurion Stormrage, the devout priestess of Elune Tyrande Whisperwind, and Malfurion's gifted brother Illidan. Together they gathered the common night elves into a desperate frontline against the Legion's onslaught. The war escalated to world-shattering proportions when the demigod Cenarius rallied the ancient Wild Gods and dragonflights into the fray. Determined to stop Sargeras himself from stepping foot onto Azeroth, Malfurion and the resistance made a desperate push to collapse the portal over the Well of Eternity. Their desperate gambit succeeded in casting the demonic host back into the Twisting Nether, but the strain proved too great. The Well violently imploded, triggering the Great Sundering that shattered Kalimdor into separate continents and flooded the center of the world, birthing the Great Sea and forever marking Kaldorei culture."
     },
@@ -15006,19 +15136,17 @@
       1740,
       2135
     ],
-    "0269779486f5782d0f1267bcc32cebfd0c010c013f9485d0a3ce6d5404f0c19a": [
-      265,
-      963
+    "02263dd09601c31a13a72407f013291c12a595df6ddfa47b060aa3570de67a47": [
+      313,
+      464,
+      676,
+      1007,
+      1214,
+      1454
     ],
     "02ffbc477594297d269bc59abdee2bd0f420b86e2d254e366bed7123088c62b9": [
       1141,
       1969
-    ],
-    "0307ff3022795fb245e5836f34fc56f1b1679640dcb236b90c560c14c6173113": [
-      590,
-      1194,
-      1728,
-      2046
     ],
     "033fb6e2a2e03236e8ef32cedfa4e9049ff316e80ac8665b8347f62156c1b29f": [
       966,
@@ -15049,11 +15177,6 @@
       4254,
       5189
     ],
-    "0404717362a65c7d6eb3bfe5c8b3edd9c0fe723108a788adb715a11281c54556": [
-      858,
-      1183,
-      1551
-    ],
     "040bde146f6d3a506b0bb268ede41c6993663d3faedaac20fb10103479095e2f": [
       909,
       1396,
@@ -15066,10 +15189,15 @@
       1333,
       1691
     ],
-    "04f8ff5fc7ed65fd9226d6288c887c5f91e650334edb2287d9d46bd12f300802": [
-      661,
-      983,
-      1442
+    "04798c154d92402f3ff4fb04908a1a743f1bd204889c78734f460f92eccafe88": [
+      320,
+      1099,
+      1461,
+      1757,
+      2065,
+      2363,
+      2532,
+      2826
     ],
     "05015b76325b3100e9d2cea010c7a6a377a8c437eba8323a5eeae7bc6b36ee44": [
       559,
@@ -15140,9 +15268,12 @@
       935,
       1255
     ],
-    "0a494ac63a4ffd425c9019624325fca4587ffbaf37cc69c26fb9308a6015507d": [
-      836,
-      1131
+    "0a905bad974489b26f57f40c3b59f5cdc2e6a2e1df05b1beceb88ca730fb8f06": [
+      301,
+      665,
+      965,
+      1275,
+      1454
     ],
     "0a992f100417cd44b6eeff863c37092986884b1a43ac45e42bef0a12454d0918": [
       630,
@@ -15161,18 +15292,58 @@
       949,
       1647
     ],
+    "0b542f3a73509db42df43d5fda25ceee28e0bb831f52fa79ad1c62f6ad1a444d": [
+      249,
+      618,
+      1078,
+      1384
+    ],
     "0cd8de532d57bb8abd58014b39d20f18b4dec3e58bd59dcfd1f57c4f2faa1f3c": [
       925
+    ],
+    "0da478bb1f24a708c314aa018cf7e2584f9b3ef8e2c644f96a871d0e8659ac10": [
+      562,
+      735,
+      1045,
+      1390,
+      1692,
+      1871,
+      2329
     ],
     "0e0ac8034e33480fa2c7b8db96e0a911464ac545cee3260e03b99fa1bbeb1447": [
       882,
       1247,
       1596
     ],
-    "0f0b98b67b359fafe1177291fe02d6d2d1e0046f4caa85f7d799cdfdb3ad1849": [
-      582,
-      982,
-      1285
+    "0e3c0957e9c80e556e7fec824d4c6a070de313d435bf06b3b691136b6e99a986": [
+      571,
+      823,
+      1343,
+      1708
+    ],
+    "0f197efdc33dbfbeef3db4a8fa3ac764e4a3da200bc2fa5f6aba9706739649e4": [
+      842,
+      996,
+      1344,
+      1769,
+      2127,
+      2669,
+      2964,
+      3164,
+      3439,
+      3752,
+      3903,
+      4170,
+      4472,
+      4662,
+      4879,
+      5097,
+      5327
+    ],
+    "0f914abdd7ca2cb4be0cd1fdee8993fb8f361ee3a29b01e02bcf4d68b242749b": [
+      632,
+      961,
+      1413
     ],
     "0fab9371fa919e0abebe79874896ea8764eadbf9c3e41b365703e06f735df174": [
       875,
@@ -15188,6 +15359,12 @@
       889,
       1257
     ],
+    "10b60e67c7d9411ca7fe9ad3a6dafd730536d110481c6586b01ff8d502373b43": [
+      271,
+      670,
+      1061,
+      1695
+    ],
     "11c0847eb22bffab518b968ec9c64b3f7887e8b68c4af5697d60f693216348a2": [
       1013,
       1363
@@ -15196,11 +15373,6 @@
       1008,
       1407,
       1717
-    ],
-    "11f89523541a4a0fa18b3e7d44047e0235c03b454f454c61809595dfba65b0b2": [
-      291,
-      949,
-      1202
     ],
     "125bfb327a6a548795021c873133dbc5232b03b4da979f84445682c895ce1bc6": [
       771,
@@ -15256,6 +15428,12 @@
       519,
       1064
     ],
+    "1798d971dd517b29f8cedb47af0d6d0bdcc92d9a590f78d126765a237cc8fd01": [
+      1098,
+      1270,
+      1485,
+      1762
+    ],
     "17a68358b263de22221ccbe1adb951a71bd093bcb420110aa3ccc0d40d27c5d2": [
       1046,
       1535
@@ -15295,6 +15473,21 @@
       403,
       984
     ],
+    "1b7c09fa9ba36711866386c22b21284f6783e9eae8342d9f47442c05cb849955": [
+      301,
+      438,
+      926,
+      1302,
+      1736,
+      2046,
+      2391,
+      2807,
+      3004,
+      4046,
+      4210,
+      4428,
+      4720
+    ],
     "1b911d69dab73bdabd06fe55cc553fcbacad5ef2bba36db867ebe758e605932c": [
       638,
       985,
@@ -15310,6 +15503,13 @@
       1433,
       1744
     ],
+    "1c75c82b0e1fc77ea593993cad0e4b4b967bc33d27bbb90dbc77c90d78032c65": [
+      583,
+      791,
+      975,
+      1206,
+      1416
+    ],
     "1c83b2c9db08431d3be4f5817f4861c7cbe6f63684336f2106ded19bafcea9be": [
       583,
       1407
@@ -15317,15 +15517,15 @@
     "1c944c5e9a0b46cad7979e6f6f46c1ce889bb9a175eddc1ea694e081cc9b7fe5": [
       947
     ],
+    "1d5f2daacdd7e079b36dcc34803e9df205ce3cfbb75c3abbe8124c8227af5ef8": [
+      257,
+      542,
+      784,
+      1516
+    ],
     "1d9acdbe79da0efb13398f3150887d9ebe3545ed2499ba5d6dd972e48a881861": [
       885,
       1249
-    ],
-    "1dd55844aeff4d3f9fe7da24c228394899cd914f4d30b3e0a88f7671b7f6839d": [
-      799,
-      1320,
-      2302,
-      3339
     ],
     "1e05b78e966db341697cd3130485b0352d3bfc228d885346ca787bd2657b25ab": [
       562,
@@ -15395,6 +15595,12 @@
       2911,
       3158
     ],
+    "22757b31f26d4aa9443be208fcfe86a43e44f4e2134859bdcb83e00e7acfe3bd": [
+      781,
+      1203,
+      1498,
+      1830
+    ],
     "227c64ad1ba47f7ac14e8eb03c6ab2010a9364d98b933c88e945832e41fdd955": [
       626,
       929,
@@ -15412,6 +15618,13 @@
       435,
       888,
       1244
+    ],
+    "234e1e9247b590647f97c1570526112b30df1923eb31a44c3640a9b75ea5db20": [
+      346,
+      630,
+      788,
+      1115,
+      1339
     ],
     "23ba7b8890b4b34df17635c4f48ac5d2f0e5ffae5be680563ceaadcfd4253d19": [
       922,
@@ -15433,6 +15646,11 @@
     "248888cf4b729b18b237d070efbd5aa6f96c08353293aad3713386692905e832": [
       810,
       1460
+    ],
+    "24b532cb069d309b7da398fa7a5273c9c12b12100fe454f9d41e745dc1ba83a4": [
+      228,
+      573,
+      1165
     ],
     "24b5fbc6ba26259bc9f2b32cb1afce7476b7e60ee61972e02ff99f6518773d81": [
       447,
@@ -15456,10 +15674,6 @@
       1072,
       1446
     ],
-    "26a20165c139bfa17227abc3d0783fba1389e70ba9e431e619babdcfe2dc173c": [
-      890,
-      1237
-    ],
     "27bab3bedb90ad1fa44afb04fe01ecce9f3e734d4745f88bd16152d8c26d2126": [
       791,
       1765
@@ -15467,9 +15681,6 @@
     "29c508303571daee227406e3c4b6254ffaf4b18f35b00e8d64586ca653b715a5": [
       797,
       1633
-    ],
-    "29c60408a62fb41ae42854605262d333ef4d5134a452acfff819c08d8a89b3d8": [
-      979
     ],
     "29ed58015f0311a2485b07cae31ec8fec31db8b588eccb27737c9e755bbb6fdd": [
       959,
@@ -15540,21 +15751,9 @@
       2669,
       3085
     ],
-    "2e3ab3da45a9b28b702fd7d55f945a1b109fde91d44777f052b0be80d23226ce": [
-      879,
-      1279,
-      1752,
-      2095,
-      2854
-    ],
     "2e54ee30f0ed0c4219ce3c6241837903595e7573dc63ea099cd6732917b9295f": [
       814,
       1801
-    ],
-    "2e6efa68acd09789c79e8531f038fd52f3ca483d5b1c3a2351927deb27a78f58": [
-      489,
-      845,
-      1235
     ],
     "2f17d3193fce2b2bf53735cab250d90684f2a47d7f9f0d87f7b140bd483a282c": [
       795,
@@ -15573,15 +15772,18 @@
       1052,
       1733
     ],
-    "2f9f552d8e2a62fb16caafa284914021571f50f5cbd3b1b4061117115de6bc00": [
-      622,
-      1017,
-      1632
-    ],
     "2fb1b923c05f30ee22b2b8087aeb9d1323b9d7ae980c2d74b61cd60f54de0289": [
       325,
       899,
       1498
+    ],
+    "3003491b1ffd1c87cbbf0431a099c04d2bf85b77ddf2c454df343f50106533f5": [
+      226,
+      612,
+      949,
+      1126,
+      1295,
+      1493
     ],
     "30886e1abdafd1bb0cfb09cc3fa78beeb2cdfecf02a1cfb4fb0e77b915383edb": [
       381,
@@ -15617,10 +15819,12 @@
       982,
       1359
     ],
-    "3237a2effd407c7159b37f9368250a72cfc0538d81adcf80e26cc6c831903bcc": [
-      343,
-      1052,
-      1292
+    "32356dff18e8357d02d41a91c128d2691baeecedf99593218701102a3da5aca2": [
+      637,
+      1053,
+      1267,
+      1457,
+      1765
     ],
     "325d18929506303e5af16a9789b33f9951f89364832d894cefbcfba2a128eeb8": [
       993,
@@ -15676,13 +15880,6 @@
       1035,
       1328
     ],
-    "375efc346738940f9df9f8527a368bb28d2382998f1ac7ed347a31dc5978b63a": [
-      898,
-      1253,
-      1867,
-      2185,
-      2830
-    ],
     "37857db1514e6c7ee71e757e35b1ab3efa921495b301ea5003de6c30c074ed55": [
       969,
       1291,
@@ -15700,6 +15897,24 @@
       895,
       1337
     ],
+    "382893167ee8d01cd21479dba182a04aab2a93e90401df446a5ee6d3dc709c53": [
+      308,
+      572,
+      970,
+      1295,
+      1566
+    ],
+    "3897931c9eb24c108b1be26d4625add73aca03489a7826895e7355e9d13212c8": [
+      270,
+      576,
+      882,
+      1144
+    ],
+    "393fbd8789c767622b665ef96d3eed89edecd60b804684a6174bb4bd3f936e9d": [
+      252,
+      939,
+      1240
+    ],
     "396b6cd0bd68c483c5153c8010ff93e69dc86eb6544b8418f2321017a61613e6": [
       1069,
       2019,
@@ -15711,12 +15926,6 @@
     "3a00e9ed08b1c1bb02e70294023cba209751c6ede3f639eedd2a7d335cb4a12c": [
       607,
       1021
-    ],
-    "3abab748189fa13018cc74bb74320fe5c60e4e98e53263b505ae837d2d179a03": [
-      994,
-      1368,
-      1859,
-      2309
     ],
     "3b4580c779cf7db655f6be50d7d4d48131021cd01235c561f9976d2608f184a6": [
       601,
@@ -15808,15 +16017,18 @@
       1964,
       2697
     ],
+    "426aaf4abb16ef95b7e35a4b38273f5dceee218228f89ab92c8efe570a9fe0d5": [
+      539,
+      735,
+      1019,
+      1615,
+      2133,
+      2559
+    ],
     "42d6a9ae6bf84c52a0b102465ef99dc0223086b1ba61261d4caebd04705d366c": [
       248,
       1054,
       1478
-    ],
-    "43319b1ed7ed69147b783dd70a865bbfb7dd46ff52f3079dda816a0316860afb": [
-      824,
-      1204,
-      1535
     ],
     "44bd4d0248d4278872dd07d981a5ed0403095e9b851ec99ceb7527e35b9a1570": [
       609,
@@ -15851,6 +16063,12 @@
       898,
       1203
     ],
+    "465dc814807a4a031acb945e5344743ce4a82d7139221cfa5755e92ca8df43b9": [
+      704,
+      888,
+      1105,
+      1391
+    ],
     "466b9cb09c1e88b4ccc5bd349e3bc1969b84cc8ce4060e3258379db491e1b57b": [
       665,
       1588
@@ -15858,12 +16076,6 @@
     "46d8eaffa6fb9c94a0898588c59a4d51da8b8958f9e351245e590c9c7f4ec8d5": [
       868,
       1434
-    ],
-    "46f66de5de9e0dfb2a2c98a53e5b6fa890a8d2c558780d5b0e776d5f09a240c8": [
-      997,
-      1340,
-      1676,
-      2104
     ],
     "471eed0871eb8d4616e187083271436799481c09289c4099ab806aa4525aa915": [
       352,
@@ -15920,19 +16132,20 @@
       1001,
       1366
     ],
-    "4d2e75ba5cedc54a87a476f9fc5f7be49ce34c3982a5b85e6756b15cd07a564d": [
-      872,
-      1304
-    ],
-    "4d9675a31b59c3bb146d3f5b678b5a55994e9298d2c0294750dd6798cdcecf77": [
-      508,
-      1140,
-      1388
+    "4d7cb9d6f34f5133ccc9e6f34de1a6ca5f5d7204da2d85deec89a9eee5fcd990": [
+      546,
+      787,
+      1184,
+      1528,
+      1816
     ],
     "4dd9703e6236c8c8d50606d9c3dda9b01bdee11463c3ec400aa755a8fdfc3767": [
       885,
       2010,
       2482
+    ],
+    "4dea90322d0cff85ebeec0b33e7c470fec807779de3171977e580b9d5d30410b": [
+      919
     ],
     "4e6309af945aea8dc8ac8ca1d8de79015e834fefeef4de91a6aafe60caf22475": [
       525,
@@ -15955,6 +16168,11 @@
       1055,
       1432,
       2018
+    ],
+    "4fea94795d3f2fd0046455f9267497df764992fafcb1a635dae2627d3ad31f6c": [
+      1092,
+      1463,
+      1791
     ],
     "4fef1a3e8eb31c094484430f30b9f5803c65c7f5dfb45b8f3e4df73ffdda4c55": [
       239,
@@ -16036,12 +16254,11 @@
     "560e1849e5babc755a338a19daf559d3dca537fdf4cf0f0e6bfa74bb8caef8af": [
       824
     ],
-    "577519f73109ced1b3eb851a654905121067ad2e734cc97af6e5fa6c076ce50d": [
-      274,
-      1024,
-      1386,
-      1682,
-      2816
+    "5752d2608b0648def8fa95080b6b007a9463b2f5959609950dcca7b6a2c00b0e": [
+      285,
+      560,
+      797,
+      1168
     ],
     "57f33a12f07c4072bf91c5e94bd0d02f4f609dd952cfa068cab54a5bd40e77ea": [
       928,
@@ -16057,6 +16274,11 @@
       736,
       1235,
       1571
+    ],
+    "58eb8d03c022d3311cfd0da94f4eeaaa676fae3b7537618cab1b14c84a33bc18": [
+      276,
+      910,
+      1275
     ],
     "5955065b21828aa6390bd05f615ad21913038d0e0803f491ec1f857bf250905a": [
       818,
@@ -16085,6 +16307,12 @@
       855,
       1185
     ],
+    "5b148e0442d121a1736eb33401fa71a8abda979291035bb51b399b54095d94d5": [
+      625,
+      815,
+      1117,
+      1523
+    ],
     "5b9bd9fd134cddfdcda7e1cc338c6035e718a803c8cc5f95c3ff170c1ce70a90": [
       574,
       1182
@@ -16097,10 +16325,10 @@
     "5c9699d9607b686950ffbe0718aaa082f02f1ae82420f8eaf910992d0ade7bc2": [
       824
     ],
-    "5d61b1a528dd2466c4ea12e8845e9e14a157569434eaa4f4c36a7a8e7150735e": [
-      589,
-      1024,
-      1446
+    "5d48c6faa88a29301fe89d8631286a087bc4c59568786ade42ca8855fe26962a": [
+      296,
+      692,
+      991
     ],
     "5da52df4f1786967f8b4bed24b2554ff8ec759cbd17eabd151cd8dadc1285c4e": [
       566,
@@ -16116,6 +16344,19 @@
       2666,
       3019
     ],
+    "5de0af915d0b4bf05e6251b4344616acd488a1b06f3bf22b727e4963792ebaf7": [
+      363,
+      903,
+      1043,
+      1382
+    ],
+    "5e06f9192c742fa22e6e5e30978d4d25bae1f586d07eba51a488632aea214faf": [
+      230,
+      383,
+      576,
+      963,
+      1412
+    ],
     "5f6758af5c556a67d03db7750ee1dfc0ab86330375dc6cc3c96e7b9ca0cb5ed5": [
       522,
       1098
@@ -16124,6 +16365,11 @@
       901,
       1300,
       1612
+    ],
+    "60510b762cc0c6041e24031e6e83d2a6b8248e813e6f15f493bee015e5f324bc": [
+      644,
+      958,
+      1416
     ],
     "60a5f9052361a0c5487ab51d83d7fccbd9b3aee3e12f874f5e71db3536c664ac": [
       299,
@@ -16172,15 +16418,19 @@
       914,
       1382
     ],
+    "634311667dae6f4565483ab89d4cd269b8193b4ccf16efbe5e183e947a609ba3": [
+      320,
+      727,
+      871,
+      1088,
+      1228,
+      1525
+    ],
     "63600fab697f6c4b6bad42fbe6d90b2cc848656e1ec97bcdb4c14a16fd63471c": [
       843,
       1869,
       2263,
       2510
-    ],
-    "640e8aefa71765a8cb46bf0596a021c4b56763938208619d5d3e2ce12da743f1": [
-      360,
-      1098
     ],
     "649f3e438f2d2370e5912526e69bacf924cd7f3317bbe44c7dcac72bcecd1384": [
       889
@@ -16192,9 +16442,6 @@
     "66b0144ec4c4a37fb57e7b823c2bb2f260a2a0800f58328665b17b81b07d5fc9": [
       854,
       1382
-    ],
-    "6837e3939b3590e4e92a93cdc328cf74ee8eae36bb0fda25963e0e703ee07fbf": [
-      816
     ],
     "68dd0a497cb896e5c01405d22b0e92b1df2a3bebd915a51d475d6800620d6f01": [
       819,
@@ -16211,6 +16458,12 @@
       906,
       1622
     ],
+    "69c61ee4e2a9d7d62381c307c69deb13fdb68fc658664027d192d3b5f6979f31": [
+      857,
+      1184,
+      1485,
+      2074
+    ],
     "6a6d4a4973aa0b6e5956af253c7f74f39f28d954306917059cdc8ac9f8f151b8": [
       902,
       1270,
@@ -16226,6 +16479,18 @@
     "6aefa5969e1da7a25c1995ab88c9f8002c88dbdedbe0e278131a40beba76c6dc": [
       308,
       1040
+    ],
+    "6cb7316b2f0f6b236978ae2cd2242d07aad7ce681273210a7bc40adcc29b96d2": [
+      262,
+      600,
+      843,
+      1267,
+      1744,
+      2063,
+      2493,
+      2820,
+      3062,
+      3641
     ],
     "6d55193ec6a9fea6919a5090cebfdbc14518c4ba032e95da48418118ba3474fc": [
       524,
@@ -16244,11 +16509,6 @@
       1805,
       2125,
       2396
-    ],
-    "6dd2f3ac74b5ed1b131e1791e8dff3418b8bb443eeff7c30ca7ed3ba08a7ee60": [
-      800,
-      1331,
-      1685
     ],
     "6e1f5e8df910194f5a68af3729ac0d967fbf8a72ccad95e3e3532e0a0740a784": [
       808,
@@ -16282,11 +16542,6 @@
       900,
       1255
     ],
-    "7116c50f9ad9aac853fe31ba967c15034d30df519dbb77bfc7ccd8b21f8ba101": [
-      293,
-      1003,
-      1423
-    ],
     "71704b45b8665c82d998e96e26b49ac4f5a39bcaa08a95062c082266164be51f": [
       757,
       1199
@@ -16297,12 +16552,6 @@
       1784,
       2690
     ],
-    "72bc8fe8111ed5863224dc79c8305728c2a13e652a85ee225d12c90f2d7fc460": [
-      877,
-      1582,
-      2039,
-      2456
-    ],
     "72c70392206f033908318df221680b7577b615d527e32086ccd309f901d2c438": [
       243,
       1158,
@@ -16312,6 +16561,11 @@
       265,
       764,
       1112
+    ],
+    "72ee1730d13618ff17c85d904e0e9219888e03f87c7bc803760c1a853b8b9650": [
+      354,
+      903,
+      1324
     ],
     "7310e7de219985b3257d4add90dabf8ef0f5d290ce4ed85115388061ca4cdee4": [
       988,
@@ -16356,11 +16610,6 @@
       1043,
       1908
     ],
-    "75d1d6d5b33ec461a6fc4d0ce71156e69fd802df31c80d871eaf58127d450388": [
-      666,
-      1087,
-      1520
-    ],
     "7652fd903d40e2228ae7ef9985b404a559bda85d7ead72fdd7c84b6f87f603f1": [
       788,
       1167,
@@ -16373,22 +16622,17 @@
       3406,
       3844
     ],
-    "77732c2758f39c5614b1924860fb346cbc27ee68960f0cf424f5c49bc1d3c914": [
-      303,
-      1097
-    ],
     "779a398c995f5da2ac34507d8647fc78c6ce22c3b7e4db6463c8fbb2fdf49ed4": [
       664,
       1134,
       1807,
       2709
     ],
-    "7852c74600f4e50905b24afd7c1da642c39caef71a225998e8ddaf709d80712d": [
-      572,
-      979,
-      1741,
-      2055,
-      2477
+    "77cea8c82e3cea0c42e64f2c52a8aebe855b79b57bf693f1b4dd29acb09cb9dc": [
+      215,
+      518,
+      862,
+      1075
     ],
     "78b122d8359f50eab184034cdb648b5dce12d4cb90d86455f48b70cf3a52d85f": [
       613,
@@ -16409,6 +16653,11 @@
     "79dfb51ba757b648df982f32c0905b3bad6a2901028bf105b4a09a5c75f35d31": [
       297,
       1122
+    ],
+    "7a3db71ab053cf90bf6adfcfa8b42f86456022d86ae2e03bf1ba56f4fcdd8d90": [
+      304,
+      847,
+      1118
     ],
     "7a6092be362832c38209c891b0f1d6ba95bc21ead64081db23d1340f909aeaed": [
       357,
@@ -16446,6 +16695,12 @@
       968,
       1375
     ],
+    "7b8b5039bee0307a35af15948a0f21d05156767e27fac8f9a6e9e60dc6180461": [
+      242,
+      424,
+      639,
+      998
+    ],
     "7c07fcad0b5dc3582d514ac737bc9e328b156180b6297b559256bb2888e9b924": [
       695,
       1051,
@@ -16464,11 +16719,6 @@
       1091,
       2040
     ],
-    "7de2ae3705dd5ed14d645f0e82b4e67131aa143e32da41667db8e693094bc1d1": [
-      636,
-      944,
-      1486
-    ],
     "7e2734c4f1e68b9504b73b607d20837e96049c6540dc74db070e36a795fdc1d6": [
       945,
       1193
@@ -16478,14 +16728,24 @@
       1064,
       1409
     ],
-    "7ec77e82b64acb1568d7122338a1c3611956a55c9c486904b9607f85c388ac1f": [
-      1131
+    "7e97e44c356ba860c942d5198cb85648188224d04cb16181e2b8c18cab15892a": [
+      287,
+      421,
+      610,
+      924
     ],
     "7f95623bb2b5bdf6b50dc341a4c8366fc724061fea3088f073b64bc8a886e20a": [
       272,
       869,
       1197,
       1463
+    ],
+    "7fd0cd05b06b75b121440f7d713e68208ea69273edc197f07a5ac1525ecdc95e": [
+      579,
+      869,
+      1220,
+      1426,
+      1779
     ],
     "80ec252f038310a1b42a54c105347f403554e5366e7a230cf9f08e28ba498582": [
       871,
@@ -16498,6 +16758,10 @@
       1012,
       1788,
       2789
+    ],
+    "8175d0d54834aa994685f86449acb95b8a1bb97479a5800d73376a885959df85": [
+      945,
+      1354
     ],
     "81b7c767f8ca09314b13fab2d96e247020c8c0c913675511a64ac172af903c7b": [
       513,
@@ -16538,9 +16802,6 @@
       1583,
       2212,
       2526
-    ],
-    "83fd58670225c7e10d7bbc0b7ddf5f79d5d7c08a9cce4fef2bdcca2fcbd1a8e1": [
-      1070
     ],
     "8467097ab3a94b1741201c17d61554e737645447632468bd0f832ab95ded7578": [
       912,
@@ -16630,19 +16891,15 @@
       854,
       1174
     ],
-    "8b4624c82048cfa2a1748c1f81571e04a30563ce27316722ec037e20456615bd": [
-      584,
-      964,
-      1257
-    ],
     "8b8119f87fb8418406d6d14b905ca1fb7ed54b1c6c64fdf4975090769e6a583f": [
       898,
       1410
     ],
-    "8bd7ee0efa8a0c319caf88cee1210e461f19d9167c5de8ca658be1c4c81c7b5a": [
-      344,
-      1023,
-      1366
+    "8c8ea15930847083413fd8efdeec5cefb459c86942008e35a3ea2743787b8852": [
+      247,
+      566,
+      841,
+      1586
     ],
     "8e00b21ea7e31f07e8cd8cc7b53d646c099de1e565f4b192fa07eeab469b22dd": [
       975,
@@ -16667,12 +16924,6 @@
       865,
       1412
     ],
-    "9116f5e63098cc6ef232f2ff9c940d9dcc02742585361d781fe2148079b82144": [
-      818,
-      1227,
-      1886,
-      2253
-    ],
     "914ea664a119292904dd9a304b05bb30170d0ba597c7e31ed94cc9f1c683ac90": [
       991,
       1316
@@ -16694,14 +16945,30 @@
       2742,
       3083
     ],
-    "931b2f48e28ad8274b60e224c03eb2c1f76a0e751ff8acf6aa1466d1018b33ba": [
-      1072,
-      1417
+    "93889003d8e7ae0859de7a2b5570aecb1205cb4c7d744fa70b43879237c66741": [
+      831,
+      1103,
+      1886,
+      2199,
+      2568,
+      2715,
+      3019,
+      3397,
+      3951,
+      5061,
+      5252
     ],
     "93a6cdb5852ddefa0a66852b767b354b5bc5f52b41cdaf2b6329447f146e0a37": [
       766,
       1088,
       1778
+    ],
+    "9449ab161d347f179147cfcedebeab9657643c362a9e7b07a95b6af1ce11eae5": [
+      359,
+      707,
+      1099,
+      1358,
+      1531
     ],
     "9551dfd8de10e2bb8feca09d569f25db614774e8ca458bb7cae1dd9275fce747": [
       551,
@@ -16721,11 +16988,6 @@
     "959c09b0113bde459008f0ddde685f605cb46e3b17ffc98aa0e070d82667b9b3": [
       955,
       1264
-    ],
-    "9607513be05ebe2368bdbdd805c1114437835047f85da319690a4c00bae29583": [
-      245,
-      1070,
-      1390
     ],
     "9800f3bbbfd6b354796495ef4aa693d8eee2cf4a4ddde7e8b31b312929889584": [
       788,
@@ -16763,20 +17025,15 @@
       926,
       1357
     ],
-    "9a696e252022a5298cc832040aca1787b15098a9918218d6557dac67d0b4614c": [
-      997,
-      1650,
-      2034,
-      2753
+    "9a31e0c8b3d6849d6ca035398dddc49256ba9713e717c6278d0f3e80cf5469e4": [
+      407,
+      704,
+      1060,
+      1224
     ],
     "9a71e4bb19fd6a14d37c6e11cbd1b581b1ffab48ae101022c69aab2edc365005": [
       774,
       1772
-    ],
-    "9ab9f5520019b3f9543b884515e802a20bde6f4ed7ea4cb9388e28b861dfc928": [
-      615,
-      982,
-      1323
     ],
     "9aed6594515b8ccb018e347b1fdeab98f1082a2607864f60c4ac466ce6d5a274": [
       841,
@@ -16826,6 +17083,11 @@
       457,
       798
     ],
+    "9fad07ef1805f53e5ac858e5d6cfacbdb3a4cfdde2fa75d2cf6f976b75a1f490": [
+      310,
+      1003,
+      1334
+    ],
     "a0f1ac7c5391cdeb3b52496c3563e0c44f31429bc7fb3ce59d466a35b9f79bfa": [
       1026,
       1418,
@@ -16866,6 +17128,11 @@
       620,
       856
     ],
+    "a2bbcc6d96ba311a69238bcccabdf53f98fe64012a4609a2958cf9110919ff6a": [
+      566,
+      828,
+      1225
+    ],
     "a3f04bc0009534d62497fc73bdeb9f74a41e46db65b4fab5b49293fe7e15fc13": [
       980,
       1285
@@ -16899,15 +17166,14 @@
       978,
       1493
     ],
-    "a5033885fd67e2d4b9865f04df4d51da201d11c738b28043d5ce6a3664ef76c2": [
-      634,
-      968,
-      1372,
-      1634
-    ],
     "a503a352b7a29da209286d83792b8a48538e06fc32278aeb7f63f284ec0fe4a8": [
       910,
       1835
+    ],
+    "a506172969d3f94f30944d1ba7a5a95a74e040fe5440d5c7884e408fda2a04aa": [
+      285,
+      650,
+      999
     ],
     "a53d702652622009c68b8dd0a42450360f591465dce1066c0e6531e5f9534280": [
       517,
@@ -16985,9 +17251,12 @@
       998,
       1387
     ],
-    "a9f8b235df2eb7b8b357c9debec4b09f8a3cdf2f94c758b9d63e0ed488ae73ec": [
-      956,
-      1530
+    "aa0a812d0f1c2895ec82dc7bfe5d4b9af16b5464e79893337f58f7a720cbeccd": [
+      260,
+      463,
+      809,
+      1003,
+      1406
     ],
     "aa62d3270a522b3b6aed9a62923f77a726448ef8e6a5718e097dba2a642aa0d9": [
       916,
@@ -17003,9 +17272,8 @@
       897,
       1326
     ],
-    "ab37ce182eca3fcfe76482fc02e3cb5838f1cfee0d75ec4a1874ce020875a3c9": [
-      425,
-      1012
+    "ab3faa52c8d3b2b2706dcdeff86768322fd0a049ef433e7484d79931507eac26": [
+      312
     ],
     "ab46964915d35076b8ec5659625a4d9762b7f615bba9e7d2864db619e8e62840": [
       894
@@ -17015,10 +17283,6 @@
       1008,
       1281
     ],
-    "ad62ef4f3be55cc22f28cd1a43da1097107a9b6b5fe07e2ada1fe081a87f0247": [
-      1107,
-      1520
-    ],
     "adace9665f60dcf31ff8903ed46ab314619d49e315c5743f74ba0b57f2dab2b7": [
       611,
       1043,
@@ -17026,24 +17290,27 @@
       2463,
       2725
     ],
-    "adae5e4cd7ad130e37e921b3b379b46b5dbf8ef7ed824580dbddf87a15222b69": [
-      956,
-      1336
+    "ae5568cfc92d7cce34f95337e64f4d24a8b044bb9cc297e3607843c704a61ce7": [
+      288,
+      672,
+      927,
+      1156,
+      1534,
+      1675,
+      1813,
+      2206,
+      2503,
+      2664,
+      2822,
+      2992,
+      3287
     ],
-    "aebc988e017e9afc7d6fb285975e46683009519feabe48d6f142737db368ebaa": [
-      573,
-      886,
-      1328
-    ],
-    "aec98541da6707b937b4df3447698a41913bb8a4761f37db551bac550edb0192": [
-      728,
-      1154,
-      1443,
-      1839
-    ],
-    "b0480e0637b6da581b42efd451822c282cf1d738a8bb5ba0d92df5b737a6ff11": [
-      770,
-      1167
+    "b001fd31611d4e0dc5c5d795a322a3cd392e10fdd9b5f8de6a0a4a566f1eeeb9": [
+      544,
+      1034,
+      1346,
+      1507,
+      1821
     ],
     "b090a6f951a60af28bf7ad32119a9ddbe54bedf1ed4ae81714da89734b0347ee": [
       486,
@@ -17055,18 +17322,30 @@
       1863,
       2535
     ],
-    "b28c562a683f6ed59dac9f87db04b787342cedb069c39460501d13d7413abbeb": [
-      855,
-      1297,
-      1757
+    "b207b310d209a796e1283b16c367e5988ee78a6f2b6140c8047bc2e23e46d2b3": [
+      252,
+      954,
+      1300
+    ],
+    "b25e0670c3f80d3e8f6791c068a52b39e778d058816591d581230cc8d4ca0b5e": [
+      359,
+      748,
+      1000,
+      1380,
+      1812,
+      1988,
+      2444
+    ],
+    "b27bf9dd3e80dec9192b7693c92df2f8576ca9c3d613979888e392faf2bae4a8": [
+      213,
+      656,
+      878,
+      1166
     ],
     "b2c55a90508f6e0ae3f08ea460c2505b640e038153d8da9bd57d06e4cfa4fc75": [
       522,
       1064,
       1870
-    ],
-    "b2fdb3265de1322f672c485f2e453e1b5a8f2be3e52828cb4f6f6913fb759654": [
-      321
     ],
     "b307a7be6e7e76a3d7b14bbf8e433d073c1de7c13f1f3d87ef07b95a2453691e": [
       921,
@@ -17088,9 +17367,14 @@
       1035,
       1635
     ],
-    "b46ff74d32efebd3d1fc99d48b1f30e5567934e6d057fe60210c8b610d26e278": [
-      594,
-      886
+    "b429a1310811769b4657f0685f9c5f74a6f7964914b6896556d165a618fa66a0": [
+      271,
+      632,
+      953,
+      1279,
+      1614,
+      2033,
+      2475
     ],
     "b5d13c02eb52e53e07ead06f5004177e31d8f85bf2e5694278cb423119ce7cf6": [
       882,
@@ -17119,11 +17403,6 @@
     "b628cd897bfa9c162f045143bf17f07d8925e0f8bc7922ca48b1079d33089b58": [
       982,
       1404
-    ],
-    "b64b360500609211fddb901dcd8a5c292198f1e341275709feff492644591b0c": [
-      537,
-      1112,
-      1581
     ],
     "b685b4626b5a3d5a63bda0d79586992a52d49cbae604c3e59313d4e2269d54e4": [
       272,
@@ -17167,10 +17446,16 @@
       967,
       1324
     ],
-    "ba132ca1f4b02bdb330a06ce2d8f669feb55c3641a04e035cd990b123786ef75": [
-      417,
-      1122,
-      1521
+    "ba5dc8b25868fddfee5f72296a28e1d4b75f66082bf958ee81064b27c213ce78": [
+      426,
+      590,
+      813,
+      1014,
+      1358,
+      1774,
+      2099,
+      2338,
+      2584
     ],
     "ba7ceba2f8e3ba0aa6b803d49d9ebe248681421d8c29a84c4464de1b62e9cfdd": [
       784,
@@ -17188,11 +17473,6 @@
       2540,
       3111,
       3443
-    ],
-    "bb750328c56840a4a40839842cbb605c6d654e8deed62ffd13f0ec5cc4b41cf7": [
-      618,
-      988,
-      1352
     ],
     "bba7173440d9b4ea014c7139eb1fcbc9e08038eb2002cedc38964a375e212ba1": [
       936,
@@ -17239,10 +17519,6 @@
       731,
       1397
     ],
-    "be34671640a8f07db335d98efa1d53153028cbef3c459b03b20acf5297bb6a56": [
-      519,
-      1102
-    ],
     "be4a70ffe123980f2e9db52facde264cfc674d39c79f3b71dacdd7ae03927c68": [
       921,
       1285
@@ -17251,20 +17527,6 @@
       655,
       991,
       1329
-    ],
-    "bf7b2ae0c094f95f674d900157af525b0bdd17b24a1662ff4235032847f26daa": [
-      302,
-      922,
-      1229
-    ],
-    "bfe868d329c5df797c653009f135f405339d655c97e7fee511b97ac8e51f99ab": [
-      518,
-      835,
-      1114
-    ],
-    "c1aff74615f113380cce1fc9fc5f84ecbf13f2fc36076be516ca6c5210229a2a": [
-      994,
-      1472
     ],
     "c2612ebb4bdeb63d0869f829b29caa2eb31f38687183d98b642abfc50275a2b5": [
       954,
@@ -17282,10 +17544,6 @@
     "c3bbb0026d79330b6e419321c6d9c0bcf5e3bf8ee95a6e96e07e92e1d045af62": [
       895,
       1273
-    ],
-    "c3c038ba39dd750a983642ede916c974f76f7e149190298ce6d02618dbc1613a": [
-      999,
-      1349
     ],
     "c3c803281b4c7763dcc5f900b9aeac84e7de167020a4b298e1b07310dc5535b6": [
       916,
@@ -17352,6 +17610,17 @@
       647,
       1031
     ],
+    "c8081c15e4b95f830dee85de827ad8c697d739e6d33ca50e8ffad9bfe6be2de7": [
+      289,
+      678,
+      1065,
+      1282,
+      2039,
+      2300,
+      2691,
+      3022,
+      3343
+    ],
     "c85a754cabe6c0baf73886136daa2710f37f65f2b9dd8bb8e3f371890d32d5ee": [
       991,
       1532,
@@ -17361,35 +17630,18 @@
       3270,
       3723
     ],
-    "c8df15c313f4435dc10a8dc9c85b56582a8ba7275448052146fc025a1621a062": [
-      432,
-      898,
-      2025,
-      2387,
-      2844,
-      3269,
-      4013,
-      4709
+    "c89043c8f48403a9144a6c93a46ac50e92d2ca5894249622398bc656f9b4defb": [
+      596,
+      998,
+      1349
     ],
-    "c94c78ea2242f8f9206467ee1593babc739a76e77e6f462459b8509d9546fe8f": [
-      282,
-      826,
-      1155
+    "c9096f015839a58a720081cbc723c9467bac00cda4ed861c00cc60948b68e062": [
+      284,
+      599,
+      1161
     ],
     "c965a260ab704ce340dbb1e61e6e65f301f3521a4d28f229a1d6c868bee2213c": [
       996
-    ],
-    "c98b703f7171aaa733caf18dece0f236146f7d562f3988a9c2d07503705e810e": [
-      352,
-      843,
-      1388,
-      1811,
-      2715,
-      3217,
-      3499,
-      3943,
-      4505,
-      5120
     ],
     "ca0ce89895051b6c029b5c8ce7c6a15e46e57d07549097345f3a83547b2d27af": [
       555,
@@ -17405,6 +17657,12 @@
       945,
       1328,
       1790
+    ],
+    "cbd82243651fecdf620ce76b0e2b5df7ecf26b11279378bf58b31ee07bea1b10": [
+      721,
+      867,
+      1508,
+      1781
     ],
     "cbfd6117e716c9eda386f1371009d7435ed42e26601296f2980a4193971e3b84": [
       647,
@@ -17545,10 +17803,6 @@
       1110,
       1868
     ],
-    "d89ff6e9d6dffcddbca1c4f4eeb2f933636642379677ed7dbaccdce4831c6a8e": [
-      1018,
-      1420
-    ],
     "d9acce1837d5a61a95321c1602053a4a338b9b367a09aeeff29c8abc175076d1": [
       334,
       875,
@@ -17562,6 +17816,15 @@
       1111,
       1954,
       2494
+    ],
+    "da46a96141dbd2ddbf05e9b251f844c83b49159db257020dd4ec925f85c99318": [
+      331,
+      679,
+      980,
+      1294,
+      1605,
+      1991,
+      2649
     ],
     "da6bdaeb4d21799d8f766b7d242753b9f03baa1da776ee7222ff493c7321d0fd": [
       624,
@@ -17579,6 +17842,13 @@
       1018,
       1427,
       1660
+    ],
+    "dcf8efaa89fd39bb7006152d3ad2323ad469dcf12b99e151c5c0720c1f512db9": [
+      281,
+      496,
+      846,
+      1083,
+      1319
     ],
     "de970d2b4a5b1e609ee19bbc10b514cc7dea957b0ab305a10177e0a3567a58cd": [
       823,
@@ -17598,11 +17868,6 @@
       1166,
       1590
     ],
-    "df162447b5230613b0c7e31eeedf4adc6dc92fe6636506320ee4ebbd00f38ee8": [
-      984,
-      1983,
-      2995
-    ],
     "df8e8551f99f3abaa67247ee73295018157e671192143b26d0e3d610e290a6f4": [
       998,
       1834
@@ -17616,13 +17881,6 @@
       885,
       1319,
       1634
-    ],
-    "e078ec965d52f741d364e25d46832d0ceb6c93678e11fd52cead36cb6c7617bf": [
-      303,
-      994,
-      1617,
-      2143,
-      2621
     ],
     "e0f026097cfe63d4e2ba93cd86a37850b2dcbd625a74aa4dfff1b85dc7ffe0ae": [
       367,
@@ -17668,21 +17926,8 @@
       5506,
       6075
     ],
-    "e233530a64e44d02f083a4cd7543f285693cf77fb835a29fce2c1b16a73363d8": [
-      559,
-      926,
-      1968,
-      2382
-    ],
-    "e2a532f204c61e1ea962df1e63c4b4e82f1a5d62dd5786ddbd2cfb586e75ca63": [
-      369,
-      950,
-      1388,
-      1940,
-      2246,
-      3084,
-      4035,
-      5162
+    "e3cd46bd0c24d6919c6632c7d118a225e958d79414d58bfa794bf046eecfcfbd": [
+      878
     ],
     "e417f8136fec2f5e713d6a4faf231afd01fb458a36e949e67ecaf3ff2e5a3867": [
       656,
@@ -17692,15 +17937,40 @@
       2365,
       2987
     ],
+    "e4b6fc4fce4f7eaa755f5dc2c850960e0e41dccf5546a4c9d7fd45b00d34474a": [
+      653,
+      902,
+      1233,
+      1509,
+      1859,
+      2168,
+      2396,
+      2803,
+      3062
+    ],
+    "e4f876f465db862e539f598eb1bc65bf73a44dcf1b45b3aba05b33114a4aae00": [
+      575,
+      907,
+      1048,
+      1335
+    ],
+    "e510b2949e1f5cea7e08a99469196537427c4f3ef712b2f9f27f61c2ea2cba00": [
+      322,
+      616,
+      861,
+      1171
+    ],
     "e596f072643b024a7fd78aa0759fafa945ea12db4c4988c831cf5b7fde067160": [
       982,
       1354
     ],
-    "e65d54ef09d5a1b7f6a88e59f9c5500ae141bb1996f88a3a1023b7eca59ad7eb": [
-      591,
-      912,
-      1351,
-      1635
+    "e72bb2554cafa8da1e2fe186c4e770f8804fb6b9e5480f6f2d3604b3b9d76b0d": [
+      189,
+      324,
+      680,
+      1096,
+      1383,
+      1543
     ],
     "e7490a6c91e053b4e09fdac84ae963bad11f347ee563a6f784effa3d24049456": [
       351,
@@ -17729,11 +17999,21 @@
       974,
       1537
     ],
-    "ead03d4827ed90ca7f1f77d603c5885484f14629a78aac830199222392cc9472": [
-      697,
-      933,
-      1947,
-      2329
+    "eb29327bcd519713436852e122db08bbd3f8d66a9b68c3a8c5e454b67ebbf8fa": [
+      321,
+      514,
+      750,
+      926,
+      1354,
+      1551,
+      1944,
+      2623,
+      2870,
+      3494,
+      3708,
+      4083,
+      4360,
+      4603
     ],
     "eb5e1560027e192181178564041a9fdaa22db0c3c2e828a1d502edf90b8d9c67": [
       251,
@@ -17787,6 +18067,14 @@
       938,
       1423
     ],
+    "ee3a0c35210d91882d7fe71db970efaa870adf2f0c2ed0572ea54b0a9d43df0b": [
+      565,
+      972,
+      1260,
+      1853,
+      2025,
+      2401
+    ],
     "ee622cc4f5a4a7e382d5d0d5cece85822529284edb613a5f47a9a98f36fe94ba": [
       328,
       1044,
@@ -17810,6 +18098,12 @@
       935,
       1702
     ],
+    "f03add7654cba620c703fdce8a15ffb8e99d4f373287f2a2e2acdef1805f8746": [
+      294,
+      680,
+      922,
+      1213
+    ],
     "f04c91ad2b22159b8450e5032988e4bb0bcc900a545cced4deebfc9989bfc48f": [
       773,
       1259,
@@ -17821,11 +18115,6 @@
     "f1c0ebeb43375a935259601c1c618a184bd5a729a5e0d920048abf62a224c748": [
       1040,
       1518
-    ],
-    "f1c8d7a53ba896b069d96d653bc7a726697fdf1d37f91a5f16bed9aef47ebb51": [
-      837,
-      1685,
-      2090
     ],
     "f1d46862524deddb0fb23b04c404b69b28e9d9773967b64eacec15715d1420cd": [
       871,
@@ -17846,10 +18135,6 @@
       1040,
       1318
     ],
-    "f75e44e94ba9530c7f2501057308b45eb8438623fc38cb21875b4de339d31acf": [
-      265,
-      995
-    ],
     "f79df02b525d33e069fc55fbcf28400360b7a9bd113a8622e8ff74e3ac3e8a95": [
       943,
       1231,
@@ -17865,6 +18150,11 @@
       884,
       1185,
       1472
+    ],
+    "f854f6073661a82ee10a0d147c21b7c0692b390f560fc5d64af43590d88efbb9": [
+      625,
+      959,
+      1164
     ],
     "f8c0a5811f2a1f2e5e237833276271e26690a924d1df7ff3f1a2fdb50b937dfb": [
       840,
@@ -17900,6 +18190,13 @@
       630,
       1069,
       1922
+    ],
+    "fb1f489405a336bf7705a181911660238b229ca8687be2c127d0a723f7cad18a": [
+      288,
+      932,
+      1240,
+      1593,
+      1810
     ],
     "fb718edc52f2b680ef44ff38debbc2bc3d44b74eaf68167be38882ba712b1c60": [
       835,
@@ -17977,6 +18274,14 @@
       2695,
       3019,
       3359
+    ],
+    "fff0990a0a7249436b9b07b89bef4ea9c34f0de8f3bd485297bff9585cb5fc12": [
+      587,
+      814,
+      1173,
+      1334,
+      1650,
+      1846
     ]
   },
   "pack": "LoreForever_Voice_Female_MorePeople",

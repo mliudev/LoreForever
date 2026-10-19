@@ -1,8 +1,9 @@
 // The creator program (lib/referrals.js, LOR-503, CC-72): /creators' page, for a signed-in account.
 //   GET  /api/creators/me       -> {signedIn, creator (lib/referrals.js creatorDashboard: their link, terms, numbers and
 //                                  payouts; null when the account isn't a creator), application ({status: "pending" |
-//                                  "approved" | "declined", ...} or null), program: {sharePct, months, holdDays,
-//                                  minimum (US cents)}, stripe (payouts through Stripe are on)}
+//                                  "approved" | "declined", ...} or null), program: {sharePct, months, discount (the
+//                                  audience's % off its first month), holdDays, minimum (US cents)}, stripe (payouts
+//                                  through Stripe are on)}
 //   POST /api/creators/apply    {name, channel (a link), audience?, contact?, note?, agree: true} -> {application}
 //   POST /api/creators/payouts  {country (two letters)} -> {url}: Stripe's page to set up the creator's payouts (their
 //                               Express account), once Stripe payouts are on
@@ -15,8 +16,8 @@ import { creatorDashboard, applicationOf, applyCreator, creatorOfUser, startConn
   CREATOR_DEFAULTS, PAYOUTS } from "../../../lib/referrals.js";
 
 const ok = body => Response.json({ ok: true, ...body }, { headers: noStore });
-const program = { sharePct: CREATOR_DEFAULTS.sharePct, months: CREATOR_DEFAULTS.months, holdDays: PAYOUTS.holdDays,
-                  minimum: PAYOUTS.minimumCents };
+const program = { sharePct: CREATOR_DEFAULTS.sharePct, months: CREATOR_DEFAULTS.months, discount: CREATOR_DEFAULTS.discount,
+                  holdDays: PAYOUTS.holdDays, minimum: PAYOUTS.minimumCents };
 
 export async function onRequest({ request, env, params }) {
   const action = String(params.action);

@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import vm from "node:vm";
-import { studioContext, editorLink, studioSignIn, refreshCatalog, scriptReviewNote } from "../public/voices/studio-workflow.js";
+import { studioContext, editorLink, studioSignIn, refreshCatalog, loadLocaleText, scriptReviewNote } from "../public/voices/studio-workflow.js";
 
 const english = { id: "english", locale: "enUS", name: "English voice" };
 const french = { id: "french", locale: "frFR", name: "French voice" };
@@ -27,11 +27,24 @@ test("catalog refresh keeps the working catalog on network, HTTP and malformed-d
   assert.equal(options.cache, "no-store");
 });
 
+test("loadLocaleText puts a language's text from lines/<locale>.json on the lines, once", async () => {
+  const data = { groups: [{ stories: [{ lines: [{ id: "a", text: { enUS: "A" } }, { id: "b", text: { enUS: "B" } }] }] }] };
+  const urls = [];
+  const fetcher = async url => { urls.push(url); return { ok: true, json: async () => ({ a: "Ah" }) }; };
+  assert.equal(await loadLocaleText(fetcher, data, "enUS"), true);
+  assert.deepEqual(urls, []);
+  assert.equal(await loadLocaleText(fetcher, data, "frFR"), true);
+  assert.equal(await loadLocaleText(fetcher, data, "frFR"), true);
+  assert.deepEqual(urls, ["/voices/lines/frFR.json"]);
+  assert.deepEqual(data.groups[0].stories[0].lines.map(l => l.text.frFR), ["Ah", undefined]);
+  assert.equal(await loadLocaleText(async () => ({ ok: false }), data, "deDE"), false);
+});
+
 async function studio(fetcher, search = "") {
   const app = { addEventListener() {}, querySelectorAll: () => [] };
   const source = await readFile(new URL("../public/voices/studio.js", import.meta.url), "utf8");
   const context = vm.createContext({
-    studioContext, editorLink, studioSignIn, refreshCatalog, scriptReviewNote,
+    studioContext, editorLink, studioSignIn, refreshCatalog, loadLocaleText, scriptReviewNote,
     document: { getElementById: () => app }, window: { addEventListener() {} }, location: { search }, navigator: { language: "en-US" },
     localStorage: { getItem: () => null, setItem() {} }, fetch: fetcher,
     URLSearchParams, Blob, Uint8Array, Set, console,

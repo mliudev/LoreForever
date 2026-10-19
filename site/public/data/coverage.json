@@ -1,19 +1,19 @@
 {
- "generated": "2026-10-17",
+ "generated": "2026-10-19",
  "forever_only": {
-  "quests_known": 316,
-  "quests_with_text": 292,
-  "narrated": 214,
+  "quests_known": 426,
+  "quests_with_text": 391,
+  "narrated": 271,
   "npcs_known": 223,
-  "npcs_with_text": 58
+  "npcs_with_text": 64
  },
  "zones": [
   {
    "zone": "Other",
    "key": "general",
-   "quests": 195,
-   "with_text": 185,
-   "narrated": 110
+   "quests": 305,
+   "with_text": 284,
+   "narrated": 168
   },
   {
    "zone": "Tirisfal Glades",
@@ -27,7 +27,7 @@
    "key": "zephras",
    "quests": 25,
    "with_text": 25,
-   "narrated": 25
+   "narrated": 24
   },
   {
    "zone": "Wetlands",
@@ -41,14 +41,14 @@
    "key": "westfall",
    "quests": 12,
    "with_text": 12,
-   "narrated": 11
+   "narrated": 12
   },
   {
    "zone": "Dun Morogh",
    "key": "dunmorogh",
    "quests": 8,
    "with_text": 8,
-   "narrated": 7
+   "narrated": 8
   },
   {
    "zone": "Stormwind City",
@@ -111,7 +111,7 @@
    "key": "darnassus",
    "quests": 1,
    "with_text": 1,
-   "narrated": 1
+   "narrated": 0
   },
   {
    "zone": "Duskwood",
@@ -139,7 +139,7 @@
    "key": "mulgore",
    "quests": 1,
    "with_text": 1,
-   "narrated": 1
+   "narrated": 0
   },
   {
    "zone": "Silverpine Forest",
@@ -264,14 +264,21 @@
   },
   {
    "kind": "quest",
-   "id": 92849,
-   "name": null,
+   "id": 91899,
+   "name": "A Sealed Crate",
    "zone": "Other",
    "level": null
   },
   {
    "kind": "quest",
    "id": 91904,
+   "name": "A Sealed Crate",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 91905,
    "name": "A Sealed Crate",
    "zone": "Other",
    "level": null
@@ -285,6 +292,13 @@
   },
   {
    "kind": "quest",
+   "id": 79091,
+   "name": "Archmage Antonidas: The Unabridged Autobiography",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
    "id": 79092,
    "name": "Archmage Theocritus' Research Journal",
    "zone": "Other",
@@ -292,8 +306,36 @@
   },
   {
    "kind": "quest",
-   "id": 96050,
-   "name": "Camping 101: Fishing",
+   "id": 79096,
+   "name": "Ataeric: On Arcane Curiosities",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 79097,
+   "name": "Baxtan: On Destructive Magics",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 97905,
+   "name": "Camping 101: Herbalism",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 96031,
+   "name": "Camping 101: Leatherworking",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 96046,
+   "name": "Camping 101: Mining",
    "zone": "Other",
    "level": null
   },
@@ -301,6 +343,13 @@
    "kind": "quest",
    "id": 98896,
    "name": "Darkspear Islands Clash",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 93739,
+   "name": "Exploring the Horde",
    "zone": "Other",
    "level": null
   },
@@ -327,8 +376,36 @@
   },
   {
    "kind": "quest",
-   "id": 95212,
-   "name": "Never Saddle on Quality",
+   "id": 78124,
+   "name": "Nar'thalas Almanac",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 79093,
+   "name": "Rumi of Gnomeregan: The Collected Works",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 78143,
+   "name": "Secrets of the Dreamers",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 94947,
+   "name": "Welcome to Azeroth",
+   "zone": "Other",
+   "level": null
+  },
+  {
+   "kind": "quest",
+   "id": 93090,
+   "name": "What Comes Next",
    "zone": "Other",
    "level": null
   },
@@ -341,22 +418,8 @@
   },
   {
    "kind": "npc",
-   "id": 251379,
-   "name": "Dorii Brightwhisper",
-   "zone": "Zephras Isle",
-   "level": 2
-  },
-  {
-   "kind": "npc",
    "id": 251368,
    "name": "Elatrell Featherlight",
-   "zone": "Zephras Isle",
-   "level": 2
-  },
-  {
-   "kind": "npc",
-   "id": 251373,
-   "name": "Xyton Silverwind",
    "zone": "Zephras Isle",
    "level": 2
   },
@@ -404,22 +467,8 @@
   },
   {
    "kind": "npc",
-   "id": 277042,
-   "name": "Bezza Shearshave",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
    "id": 228610,
    "name": "Blackrock Bootlegger",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 267279,
-   "name": "Cadoc Winterheart",
    "zone": null,
    "level": null
   },
@@ -434,13 +483,6 @@
    "kind": "npc",
    "id": 252172,
    "name": "Danarii Bellowveil",
-   "zone": null,
-   "level": null
-  },
-  {
-   "kind": "npc",
-   "id": 258572,
-   "name": "Dani'ill",
    "zone": null,
    "level": null
   },

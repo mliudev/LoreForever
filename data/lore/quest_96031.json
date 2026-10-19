@@ -1,0 +1,103 @@
+{
+ "key": "quest:96031",
+ "type": "quest",
+ "name": "Camping 101: Leatherworking",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96031
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "A campfire is an indispensable centerpiece of any wilderness campsite. Learning basic cooking ensures an adventurer can kindle flames to sustain a camp out in the wilds."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "camp tent use",
+    "where pitch tent",
+    "can i camp in town"
+   ],
+   "answer": "Townsfolk frown upon setting up camp tents in the middle of streets or city squares. An adventurer must venture out into the untamed wilderness where there is plenty of open ground to pitch a tent properly.",
+   "q": "Where can you pitch a camp tent?"
+  },
+  {
+   "aliases": [
+    "need fire for camp",
+    "camp requirements",
+    "how to camp"
+   ],
+   "answer": "A camp tent alone does not make a functional camp. You also need a proper campfire burning alongside the tent before a true campsite can be established.",
+   "q": "What else is required besides a tent to pitch a camp?"
+  },
+  {
+   "aliases": [
+    "learn campfire",
+    "who teaches campfire",
+    "cooking fire"
+   ],
+   "answer": "Trainers versed in the culinary arts teach the basics of preparing food, which includes how to kindle and maintain a basic campfire. Seeking out a cooking trainer provides the knowledge required to light a fire anywhere.",
+   "q": "Where do adventurers learn to build a campfire?"
+  },
+  {
+   "aliases": [
+    "camping 101 leatherworking",
+    "leather camp tent",
+    "tent crafting leatherworking"
+   ],
+   "answer": "Leatherworkers use cured hides, pelts, and sturdy stitching to fashion durable shelter coverings capable of withstanding rough wilderness elements. This practical craft allows wanderers to assemble a reliable shelter from animal hides.",
+   "q": "How does leatherworking relate to crafting camp tents?"
+  },
+  {
+   "aliases": [
+    "why camp out",
+    "camping purpose",
+    "wilderness survival camp"
+   ],
+   "answer": "Venturing far beyond settled outposts exposes travelers to the elements and perilous terrain. Having portable shelter and a warm fire offers a secure haven to rest and recuperate when away from inns and settlements.",
+   "q": "Why do adventurers establish camps in the wilderness?"
+  },
+  {
+   "aliases": [
+    "camping town rules",
+    "no tents in town",
+    "why cant i pitch tent in city"
+   ],
+   "answer": "Settlements and towns have established inns and private lodgings for travelers. Erecting tents across public streets clutters thoroughfares and causes disturbances, so locals insist that camps remain out in the wild.",
+   "q": "Why do townsfolk object to setting up tents inside town?"
+  }
+ ],
+ "keywords": [
+  "camp tent",
+  "campfire",
+  "camping",
+  "cooking",
+  "leatherworking",
+  "shelter",
+  "tent",
+  "wilderness"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Crafting a personal shelter is an essential milestone for any tradesperson working with hides and leather. A sturdy leather tent provides wanderers with a reliable barrier against harsh weather, wind, and the chill of night when traveling across open terrain. However, local townsfolk frown upon having personal shelters pitched across crowded streets or marketplace squares, meaning an adventurer must head beyond city gates into the untamed wilderness to pitch their shelter.",
+   "spoiler": 0,
+   "title": "Pitching Shelter in the Wild"
+  },
+  {
+   "body": "A pitched tent is only half of what makes a sustainable campsite. A proper camp requires a roaring campfire to stave off the darkness, ward off cold winds, and provide a hearth in dangerous lands. Because building and tending a fire is foundational to preparing meals in the field, adventurers are guided to seek instruction from culinary masters and cooking trainers to learn how to kindle a campfire before establishing camp.",
+   "spoiler": 0,
+   "title": "The Warmth of a Campfire"
+  }
+ ],
+ "summary": "Camping 101: Leatherworking guides craftsmen in utilizing cured hides to create their very own portable wilderness shelter. It emphasizes the necessities of surviving away from civilization, reminding adventurers that a true camp requires both a pitched tent in the wild and a roaring campfire taught by culinary trainers.",
+ "attribution": [
+  "In-game quest text: Camping 101: Leatherworking"
+ ]
+}

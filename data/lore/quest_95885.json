@@ -1,0 +1,111 @@
+{
+ "key": "quest:95885",
+ "type": "quest",
+ "name": "The Offering of Blood",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95885
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks are well-accustomed to dark rites and bargaining with souls, though even seasoned practitioners of the fel might feel a chill at performing a blood sacrifice at an ancient, unknown stone."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Priests concerned with the fate of departed spirits will find the use of a tortured soul in an ominous blood ritual morally unsettling, regardless of whether it puts the entity to rest."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "where is this quest",
+    "where is offering of blood",
+    "beren's peril quest"
+   ],
+   "answer": "The Offering of Blood takes place at the Offering Stone located within Beren's Peril in Silverpine Forest. The area is fraught with peril and shadowed by dark, lingering magic.",
+   "q": "Where does this ritual take place?"
+  },
+  {
+   "aliases": [
+    "what is the offering stone",
+    "offering stone berens peril",
+    "altar in berens peril"
+   ],
+   "answer": "The Offering Stone is a mysterious ancient monument situated in Beren's Peril. It demands a dark ritual\u2014specifically an offering of blood from a willing sacrifice\u2014to unlock or drain the power slumbering within it.",
+   "q": "What is the Offering Stone?"
+  },
+  {
+   "aliases": [
+    "who is the tortured soul",
+    "what is tortured soul",
+    "what sacrifice is needed"
+   ],
+   "answer": "The ritual requires a Tortured Soul, acting as the 'willing sacrifice' mentioned in recovered note scraps. The soul is presented at the Offering Stone to fulfill the blood offering demanded by the ancient relic.",
+   "q": "What is the Tortured Soul used for?"
+  },
+  {
+   "aliases": [
+    "what happens to the stone",
+    "does the stone break",
+    "what happens after the ritual"
+   ],
+   "answer": "Upon completing the ritual, the dark energy animating the Offering Stone is completely drained. Devoid of purpose, the rough stone cracks and crumbles apart, leaving behind something glittering among its remnants.",
+   "q": "What happens when the offering is completed?"
+  },
+  {
+   "aliases": [
+    "who built the offering stone",
+    "purpose of offering of blood",
+    "why was stone made"
+   ],
+   "answer": "The exact origins and ultimate purpose of the stone remain an enigma. Although completing the rite successfully drains the stone's latent energy and destroys it, whoever originally created the monument and for what grand design remains unknown.",
+   "q": "Who created the stone and why?"
+  },
+  {
+   "aliases": [
+    "what is berens peril",
+    "berens peril lore",
+    "why is it called berens peril"
+   ],
+   "answer": "Beren's Peril is a rocky landmark in Silverpine Forest known for wild beasts and hidden dangers. The presence of the Offering Stone reveals that dark rites and restless souls have also left their mark upon the place.",
+   "q": "What is Beren's Peril?"
+  }
+ ],
+ "keywords": [
+  "beren's peril",
+  "blood ritual",
+  "offering of blood",
+  "offering stone",
+  "sacrifice",
+  "silverpine forest",
+  "the offering of blood",
+  "tortured soul"
+ ],
+ "related": [
+  "quest:95884",
+  "quest:95883",
+  "quest:516"
+ ],
+ "sections": [
+  {
+   "body": "Deep within the crags of Beren's Peril lies the Offering Stone, an ominous relic waiting for a final, dark transaction. Following clues from discarded note scraps that call for a willing sacrifice, adventurers are led to bring forth the offering of blood needed to satisfy the altar's lingering magic. Approaching the stone with the restless essence brings an overpowering sense of dread.",
+   "spoiler": 0,
+   "title": "The Final Rite"
+  },
+  {
+   "body": "Offering the Tortured Soul to the stone initiates a profound reaction, siphoning the lingering power out of the ancient monument. Rather than awakening a greater terror, the blood ritual exhausts the relic completely. Stripped of its arcane purpose, the rough stone fractures and collapses into rubble, revealing a glittering reward buried inside the shattered fragments.",
+   "spoiler": 1,
+   "title": "Cracking the Stone"
+  }
+ ],
+ "summary": "The Offering of Blood is a mysterious ritual performed at the Offering Stone in Beren's Peril. Using a Tortured Soul, adventurers give an offering of blood at the stone, as the scrap of note called for.",
+ "attribution": [
+  "In-game quest text: The Offering of Blood"
+ ]
+}

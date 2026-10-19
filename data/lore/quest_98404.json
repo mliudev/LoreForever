@@ -1,0 +1,125 @@
+{
+ "key": "quest:98404",
+ "type": "quest",
+ "name": "The Great Windborne Cat Spirit",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98404
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "This rite is an essential milestone for druids learning to channel the agility, stealth, and predatory instinct of the wild cat. Proving that one embodies cunning and ferocity is required before the spirit will impart its shapeshifting blessing."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The Stormrage Barrow Den carries the name of one of the most prominent night elven druidic lineages. Exploring its depths connects Kaldorei practitioners directly to the ancient barrow heritage and ancestral spirits of their people."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "windborne cat spirit",
+    "who is saeyleenan",
+    "cat spirit lore"
+   ],
+   "answer": "The Great Windborne Cat Spirit is a wild patron that guides young druids in mastering feline shapeshifting. Manifesting through the Avatar of Saeyleenan, the spirit embodies the core predatory virtues of cunning, stealth, and ferocity. Rather than granting its form freely, it tests aspirants through a sacred trial to ensure they respect the predatory instincts and nature of the cat.",
+   "q": "Who is the Great Windborne Cat Spirit?"
+  },
+  {
+   "aliases": [
+    "avatar of saeyleenan",
+    "who is avatar saeyleenan",
+    "saeyleenan npc"
+   ],
+   "answer": "The Avatar of Saeyleenan is the physical presence and speaker for the Great Windborne Cat Spirit. Positioned west of the Stormrage Barrow Den, the avatar oversees the druidic trial of the region. It assigns seekers the task of recovering the stolen or hidden barrow relics and evaluates whether an initiate has demonstrated sufficient stealth and cunning to earn the feline blessing.",
+   "q": "What is the Avatar of Saeyleenan?"
+  },
+  {
+   "aliases": [
+    "three relics",
+    "relic of the claw",
+    "stormrage barrow den relics"
+   ],
+   "answer": "The trial requires recovering three specific relics from within the Stormrage Barrow Den: the Relic of the Fang, the Relic of the Claw, and the Relic of the Silent Shadow. Together, these artifacts symbolize the essential physical weapons and elusive stealth that define the cat spirit's form, proving an initiate's reverence for every aspect of the predator.",
+   "q": "What relics are required for the trial?"
+  },
+  {
+   "aliases": [
+    "stormrage barrow den location",
+    "where is barrow den",
+    "where to find relics"
+   ],
+   "answer": "The Stormrage Barrow Den lies just east of the Avatar of Saeyleenan. The subterranean chambers serve as the testing ground for the druidic trial, housing the three sacred relics. Initiates must venture down into these darkened halls while avoiding the dangerous enraged spirits that wander the tunnels.",
+   "q": "Where is the Stormrage Barrow Den located?"
+  },
+  {
+   "aliases": [
+    "why are spirits enraged",
+    "enraged spirits barrow den",
+    "barrow den guardians"
+   ],
+   "answer": "The Stormrage Barrow Den has become overrun by powerful enraged spirits that attack any living intruder on sight. Rather than serving as willing guardians, these hostile entities represent an active danger within the barrow den, forcing aspiring druids to utilize cunning and stealth to retrieve the relics rather than engaging in direct combat.",
+   "q": "Why are enraged spirits guarding the barrow den?"
+  },
+  {
+   "aliases": [
+    "how to stealth barrow den",
+    "statue stealth buff",
+    "how to avoid enraged spirits"
+   ],
+   "answer": "A stone statue standing at the entrance to the Stormrage Barrow Den grants seekers a temporary blessing of stealth. Because young initiates have not yet earned their own innate cat form or prowling abilities, this protective enchantment allows them to slip past the vigilant, hostile spirits unnoticed to secure the relics.",
+   "q": "How do seekers sneak past the enraged spirits?"
+  },
+  {
+   "aliases": [
+    "trial reward",
+    "what do you get from cat spirit",
+    "cat spirit blessing"
+   ],
+   "answer": "Upon returning the Relic of the Fang, Relic of the Claw, and Relic of the Silent Shadow, the Avatar of Saeyleenan deems the seeker worthy of the Great Windborne Cat Spirit's blessing. This rite marks the initiate's understanding of the cat's true nature, granting them the spiritual approval needed to embody the predator's shape.",
+   "q": "What reward or blessing is granted upon completing the trial?"
+  }
+ ],
+ "keywords": [
+  "avatar of saeyleenan",
+  "cat form",
+  "druid trial",
+  "enraged spirits",
+  "relic of the claw",
+  "relic of the fang",
+  "relic of the silent shadow",
+  "saeyleenan",
+  "stormrage barrow den",
+  "the great windborne cat spirit"
+ ],
+ "related": [
+  "topic:druid"
+ ],
+ "sections": [
+  {
+   "body": "To draw upon the power of the great cat spirit, aspirants must prove they possess the temperament of the predator. True harmony with the cat demands an understanding of cunning and patience, paired with explosive ferocity when cornered. The spirit does not grant its gift lightly to those who simply demand power; instead, it tests whether a seeker can think, move, and strike like the feline hunters of the wild. Only by demonstrating these inner traits can an initiate hope to earn the right to take the cat's physical shape.",
+   "spoiler": 0,
+   "title": "The Trial of Cunning and Stealth"
+  },
+  {
+   "body": "The test sends seekers into the gloom of the nearby Stormrage Barrow Den, located just east of the spirit's avatar. Deep within these subterranean halls lie three sacred tokens: the Relic of the Fang, the Relic of the Claw, and the Relic of the Silent Shadow. However, claiming them is far from straightforward. The barrow den has become infested with enraged spirits that violently strike at any intruder on sight. To survive the cavern and reach the relics, a seeker cannot rely on brute force alone, but must tread carefully through the darkness.",
+   "spoiler": 0,
+   "title": "The Stormrage Barrow Den"
+  },
+  {
+   "body": "At the center of this trial is the Avatar of Saeyleenan, the physical manifestation through which the Great Windborne Cat Spirit speaks to young initiates. Understanding that untutored seekers lack the natural stealth of a seasoned predator, a statue placed at the entrance of the barrow den offers a temporary blessing of concealment. Those who successfully slip past the frenzied spirits and return all three relics prove they have absorbed the lessons of the predator. In return, the Avatar recognizes their worthiness and imparts the blessing needed to assume the cat form.",
+   "spoiler": 0,
+   "title": "The Avatar of Saeyleenan"
+  }
+ ],
+ "summary": "The Great Windborne Cat Spirit is a sacred trial of cunning and stealth set before aspiring druids. Initiates must venture into the nearby Stormrage Barrow Den to recover three ancient relics while slipping past hostile, enraged spirits. Passing this spiritual rite proves one's mastery over the feline virtues of stealth, ferocity, and cunning, earning the blessing to wield the cat form.",
+ "attribution": [
+  "In-game quest text: The Great Windborne Cat Spirit"
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "key": "quest:92643",
+ "type": "quest",
+ "name": "The Turncoat",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92643
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "Infiltration, defection, and ambush are familiar territory. Cultists breaking ranks expect silence or a blade, and the assassins waiting outside prove that secrecy cut both ways in the highlands."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is the turncoat",
+    "who was the defector",
+    "turncoat identity"
+   ],
+   "answer": "The turncoat is a former member of the Al'Aketh cult who claimed to possess crucial knowledge regarding the cult's true intentions for the island. In exchange for protection, he offered to defect and reveal what he knew.",
+   "q": "Who is the turncoat?"
+  },
+  {
+   "aliases": [
+    "who are the alaketh",
+    "alaketh cult",
+    "what is alaketh"
+   ],
+   "answer": "The Al'Aketh are an enigmatic cult operating in the region. Their secret plans and ultimate objectives for the island remain hidden behind heavy secrecy and zealotry, leading local authorities to take serious risks to extract any deserters willing to talk.",
+   "q": "What is the Al'Aketh?"
+  },
+  {
+   "aliases": [
+    "where is the turncoat hiding",
+    "turncoat location",
+    "where to find the turncoat"
+   ],
+   "answer": "The defector holed up in a secluded residence situated just northwest of Valanaar, nestled within the highlands. The remote house was chosen as a hiding place while awaiting extraction under promises of protection.",
+   "q": "Where is the defector hiding?"
+  },
+  {
+   "aliases": [
+    "what happened to the turncoat",
+    "did the defector die",
+    "who killed the turncoat"
+   ],
+   "answer": "By the time anyone reached the secluded highland residence, assassins had already tracked the defector down and slain him. Any hope of questioning him alive vanished upon discovering his body inside the house.",
+   "q": "What happened to the defector?"
+  },
+  {
+   "aliases": [
+    "what shiny object",
+    "turncoat shiny item",
+    "shiny reflection body"
+   ],
+   "answer": "Upon inspecting the dead defector's body after dispatching the assassins outside, a glinting reflection catches the eye. Whatever shiny item he carried remained behind, hinting that his secrets might not have died with him entirely.",
+   "q": "What did the turncoat leave behind?"
+  },
+  {
+   "aliases": [
+    "why did the cultist defect",
+    "turncoat motive",
+    "why betray alaketh"
+   ],
+   "answer": "The cultist claims to know the Al'Aketh's true intentions for the island and will only come in with assurances of protection. The quest doesn't say what drove him to defect.",
+   "q": "Why did the cultist decide to defect?"
+  }
+ ],
+ "keywords": [
+  "al'aketh",
+  "cultist",
+  "defector",
+  "highlands",
+  "the turncoat",
+  "turncoat",
+  "valanaar"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A clandestine contact from within the ranks of the Al'Aketh offers a rare opportunity to pierce the cult's secrecy. Claiming knowledge of the organization's true intentions for the island, a cultist has broken faith and offered to defect, demanding firm assurances of protection in exchange for what he knows. Given how tightly guarded the cult's plans are, any lead into their inner workings justifies the danger of reaching out.",
+   "spoiler": 0,
+   "title": "A Broken Oath"
+  },
+  {
+   "body": "The defector fled to a secluded residence tucked into the highlands northwest of Valanaar, waiting in isolation for a discreet escort. Reaching him requires navigating into the hills with utmost caution, as the meeting carries an undeniable risk of being an Al'Aketh ambush designed to draw out prying adversaries.",
+   "spoiler": 0,
+   "title": "The Highland Hideout"
+  },
+  {
+   "body": "Any hope of a peaceful extraction shatters upon arriving at the secluded highland house. Assassins have already tracked the defector down and struck him down before an escort could arrive. Amid the aftermath and the fallen assassins outside, a gleaming reflection caught on the dead turncoat's body reveals that he may still have left an answer behind.",
+   "spoiler": 1,
+   "title": "Silence in the Highlands"
+  }
+ ],
+ "summary": "The Turncoat centers on an Al'Aketh cultist attempting to defect and trade the cult's true intentions for the island in exchange for safe harbor. Dispatched to extract him from a secluded retreat in the highlands northwest of Valanaar, travelers must uncover whether this secret meeting is a genuine breakthrough or a deadly trap.",
+ "attribution": [
+  "In-game quest text: The Turncoat"
+ ]
+}

@@ -16,7 +16,8 @@
 //                                  (launchText) during the beta, else null; launchEnds: its last day ("November 3"),
 //                                  else null (both for /account's plan card too).
 //                                  {on: false} while plans are off.
-//   POST /api/billing/checkout  {plan} -> {url}: Stripe's payment page; /plans again for a player who already has a
+//   POST /api/billing/checkout  {plan, source?} -> {url}: Stripe's payment page (source: where it started, as /plans
+//                               says it, kept on the subscription for /admin); /plans again for a player who already has a
 //                               plan (they switch with change). Plans are monthly: an interval other than "month" is a 400.
 //                               A player a creator's link brought gets the creator's first-month discount there when
 //                               no beta offer applies (lib/referrals.js creatorFor, lib/billing.js createCheckout).
@@ -42,7 +43,9 @@ import {
 import { ALLOWED } from "../../../lib/willo-custom.js";
 import { featureOn } from "../../../lib/features.js";
 import { creatorFor, creatorOffers, notePayment, reverseCommission } from "../../../lib/referrals.js";
+import { notePaidSource } from "../../../lib/sources.js";
 import { perMinute, slowDown } from "../../../lib/ratelimit.js";
+import { CANCEL_EVENTS, noteCancellation, notePlanPayment } from "../../../lib/cancellations.js";
 
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
 
@@ -97,7 +100,8 @@ const sameMode = (env, event) => typeof event.livemode !== "boolean" ||
   event.livemode === /^[sr]k_live_/.test(String(env.STRIPE_SECRET_KEY || ""));
 
 // Stripe sends it again until it gets a 2xx, so a failure to apply the event is a 500.
-async function webhook({ request, env }) {
+async function webhook(context) {
+  const { request, env } = context;
   const event = await verifyWebhook(env, await request.text(), request.headers.get("Stripe-Signature"));
   if (!event) return fail(400, "That isn't a signed Stripe event.");
   try {
@@ -105,9 +109,15 @@ async function webhook({ request, env }) {
     // A paid invoice of a player a creator brought: the creator's share (lib/referrals.js notePayment). After the plan
     // is stored, and safe to repeat, so Stripe's retry of a failure here gets another go.
     if (event.type === "invoice.paid" && sameMode(env, event)) await notePayment(env, event.data?.object);
+    // And under where the paying account came from (lib/sources.js), once per invoice.
+    if (event.type === "invoice.paid" && sameMode(env, event)) await notePaidSource(env, event.data?.object);
     // A refund or a dispute of a payment a creator earned on takes that commission back (reverseCommission).
     if ((event.type === "charge.refunded" || event.type === "charge.dispute.created") && sameMode(env, event))
       await reverseCommission(env, event.data?.object, event.type === "charge.refunded" ? "refunded" : "disputed");
+    // A plan cancelled, ended or kept after all, and what plans have paid, for /admin's Retention and the team's Slack
+    // (lib/cancellations.js). Neither ever throws: they're only for those counts.
+    if (CANCEL_EVENTS.includes(event.type) && sameMode(env, event)) await noteCancellation(context, event);
+    if (event.type === "invoice.paid" && sameMode(env, event)) await notePlanPayment(env, event.data?.object);
   } catch (e) {
     console.warn(`billing webhook ${event.type} ${event.id}: ${e?.message || e}`);
     return fail(500, "Couldn't apply that event.");
@@ -143,5 +153,5 @@ export async function onRequest(context) {
       { confirm: input.confirm === true, from, quote: typeof input.quote === "string" ? input.quote : null }), 30);
   }
   return stripePage(context, user, async origin => createCheckout(env, user, plan, input.interval, origin,
-    { creator: await creatorFor(env, user.id) }));
+    { creator: await creatorFor(env, user.id), source: input.source }));
 }

@@ -1,0 +1,127 @@
+{
+ "key": "quest:97934",
+ "type": "quest",
+ "name": "Camping 101: Leatherworking",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97934
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Crafting portable leather shelters aligns naturally with the nomadic traditions and wilderness survival heritage of the tauren tribes across the plains of Mulgore."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde travelers crossing the expansive and arid terrain of Kalimdor depend on rugged camping gear to survive far from fortified strongholds."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Cooking trainers teach the art of building a proper campfire, which is essential for turning a simple leather tent into a fully functioning, warm campsite."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "leatherworking tent quest",
+    "what does camping 101 teach",
+    "leatherworking camp item"
+   ],
+   "answer": "The quest directs leatherworkers to learn how to construct a personal camp tent for their travels. A sturdy tent offers vital protection against harsh weather, keeping travelers cool under blistering heat and dry during downpours, while ensuring they find adequate rest out in the wilderness.",
+   "q": "What does this quest teach leatherworkers?"
+  },
+  {
+   "aliases": [
+    "who teaches tent crafting",
+    "chaw stronghide tent",
+    "leatherworking tent trainer"
+   ],
+   "answer": "Chaw Stronghide, located in Bloodhoof Village in Mulgore, instructs leatherworkers in the creation of camping shelters. He agrees to share his knowledge of tent making once a leatherworker demonstrates adequate proficiency in their craft, passing along traditional survival techniques suited for long expeditions across the wild.",
+   "q": "Who teaches leatherworkers how to craft camp tents?"
+  },
+  {
+   "aliases": [
+    "where can i pitch tent",
+    "can i camp in town",
+    "tent placement"
+   ],
+   "answer": "Camp tents must be pitched out in the open wilderness rather than within populated settlements. Town residents and village elders do not appreciate travelers setting up private shelters in the middle of town squares or bustling roads, so wanderers must venture into the wild countryside to test their new gear.",
+   "q": "Where can travelers set up their camp tents?"
+  },
+  {
+   "aliases": [
+    "why do i need a campfire",
+    "cooking campfire tent",
+    "tent and fire"
+   ],
+   "answer": "A proper wilderness camp is incomplete without a crackling campfire to provide light, warmth, and sustenance. While a leatherworker crafts the sheltering tent, starting a fire requires basic survival culinary techniques. Travelers are encouraged to visit local cooks to learn how to build and maintain a campfire before heading into the wild.",
+   "q": "Why is a campfire needed alongside a tent?"
+  },
+  {
+   "aliases": [
+    "where is bloodhoof village",
+    "bloodhoof village location",
+    "how to find chaw stronghide"
+   ],
+   "answer": "Bloodhoof Village is a prominent tauren settlement located in central Mulgore, situated south of Thunder Bluff along the shores of Stonebull Lake. It serves as a vital community hub for local hunters, gatherers, and artisans, offering training, trade supplies, and guidance for travelers exploring the surrounding plains.",
+   "q": "Where is Bloodhoof Village located?"
+  },
+  {
+   "aliases": [
+    "is cooking needed for camping",
+    "do i need cooking",
+    "campfire cooking basics"
+   ],
+   "answer": "While cooking is not strictly mandatory for stitching together a leather tent, learning the culinary arts is strongly advised for any camper. Cooks teach travelers how to kindle basic campfires, which are essential for completing an outdoor camp, warming the night air, and preparing food on long journeys through unsettled lands.",
+   "q": "Do you need cooking skill to maintain a proper campsite?"
+  },
+  {
+   "aliases": [
+    "benefits of camping tent",
+    "why make a tent",
+    "what does tent do"
+   ],
+   "answer": "A camp tent offers reliable shelter from the unforgiving elements of the frontier, shielding wanderers from intense heat during sunny days and keeping them dry through heavy rain. Resting inside a well-made tent ensures that an adventurer stays refreshed, alert, and ready to face danger while exploring distant territories.",
+   "q": "What benefits does a camp tent provide to a traveler?"
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "campfire",
+  "camping 101",
+  "chaw stronghide",
+  "leatherworking",
+  "mulgore",
+  "shelter",
+  "tent"
+ ],
+ "related": [
+  "subzone:bloodhoof-village"
+ ],
+ "sections": [
+  {
+   "body": "For leatherworkers navigating the wild expanses of Kalimdor, knowing how to stitch together a sturdy tent is as essential as curing a hide. A well-crafted tent shields weary travelers from the scorching midday sun and keeps the relentless prairie rains at bay. More than simple canvas and leather, it provides a quiet sanctuary where an adventurer can properly rest and recover their strength before facing the next trial across the open plains.",
+   "spoiler": 0,
+   "title": "Shelters for the Open Plains"
+  },
+  {
+   "body": "In the peaceful tauren settlement of Bloodhoof Village, nestled among the golden grasses of Mulgore, Chaw Stronghide passes down the practical secrets of wilderness survival. Chaw recognizes when a leatherworker has developed the necessary skill to handle heavier hides and rugged stitching. Once a craftsman proves their proficiency, he instructs them on how to construct a durable camp tent designed to withstand the elements during long journeys away from civilization.",
+   "spoiler": 0,
+   "title": "The Craft of Chaw Stronghide"
+  },
+  {
+   "body": "Pitching a tent requires good judgment and respect for local settlements. Village folk frown upon travelers cluttering their central paths and thoroughfares with personal campsites, meaning leatherworkers must venture out into the wild frontier before staking down their shelters. Furthermore, no wilderness camp is truly complete without the warmth and protection of a crackling fire, prompting wanderers to consult skilled cooks to learn how to kindle a proper campfire.",
+   "spoiler": 0,
+   "title": "Camps in the Wild"
+  }
+ ],
+ "summary": "Camping 101: Leatherworking directs aspiring leatherworkers to Bloodhoof Village in Mulgore to learn the art of constructing portable camp tents. By mastering this essential craft under Chaw Stronghide, travelers can establish protective wilderness shelters to stay rested and resilient on their journeys. It highlights the importance of self-reliance, wilderness survival, and outdoor preparation across the frontier.",
+ "attribution": [
+  "In-game quest text: Camping 101: Leatherworking"
+ ]
+}

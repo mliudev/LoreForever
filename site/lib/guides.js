@@ -1,10 +1,11 @@
 // Guides and lore articles (LOR-414): /guides lists them and /guides/<slug> is one article. Patrick writes them in
-// Markdown; each is a file in public/guides/articles/<slug>.md with a short header (site/GUIDES.md says how to add
-// one), and public/guides/articles/index.json lists them (rebuilt by `node scripts/guides-index.mjs`, checked by
-// tests/guides.test.mjs). Every article ends with the download call to action (CTA below: one place to point it at
-// Willo later). Kept outside functions/ so Pages doesn't route it.
+// Markdown, in the editor at /guides/edit (lib/guides-cms.js: saved in D1, pictures in R2, live at once) or as a file
+// in public/guides/articles/<slug>.md with a short header (site/GUIDES.md says how), listed in
+// public/guides/articles/index.json (rebuilt by `node scripts/guides-index.mjs`, checked by tests/guides.test.mjs). The
+// editor's copy of an article wins over a file with the same address. Every article ends with the download call to
+// action (CTA below: one place to point it at Willo later). Kept outside functions/ so Pages doesn't route it.
 
-import { page, escape } from "./voices.js";
+import { page, escape, FRESH } from "./voices.js";
 
 export const ARTICLES = "/guides/articles";
 export const HOME = "https://loreforeverwow.com";
@@ -18,7 +19,7 @@ export const CTA = {
 };
 export const KINDS = { lore: "Lore", tutorial: "Guide" };
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-const HEAD = `<link rel="stylesheet" href="/lore/lore.css">\n<link rel="stylesheet" href="/guides/guides.css">`;
+export const HEAD = `<link rel="stylesheet" href="/lore/lore.css">\n<link rel="stylesheet" href="/guides/guides.css?${FRESH}">`;
 
 // ---- The article file ----
 
@@ -53,10 +54,19 @@ export function problems(slug, meta) {
 
 // ---- Markdown (the plain subset articles use) ----
 
-// Inline: **bold**, *italic*, `code` and [links](url). Text is escaped first, so an article can't inject HTML.
+// A picture's address: one of ours (/guides/img/..., /img/...) or https. Anything else (javascript:, //other) is dropped.
+const safeImage = url => /^(\/(?!\/)|https:\/\/)/.test(url) ? url : "";
+const IMAGE = /^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)$/;
+
+// Inline: **bold**, *italic*, `code`, [links](url) and ![pictures](url "caption"). Text is escaped first, so an
+// article can't inject HTML.
 function inline(s) {
   let out = escape(s);
   out = out.replace(/`([^`]+)`/g, "<code>$1</code>");
+  out = out.replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+&quot;(.*?)&quot;)?\)/g, (_, alt, url, title) => {
+    const src = safeImage(url);
+    return src ? `<img src="${src}" alt="${alt}" loading="lazy"${title ? ` title="${title}"` : ""}>` : "";
+  });
   out = out.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, text, url) => {
     const safe = /^(https?:\/\/|\/|#)/.test(url) ? url : "#";
     const ext = /^https?:\/\//.test(safe) && !safe.startsWith(HOME) ? ' rel="noopener"' : "";
@@ -69,9 +79,10 @@ function inline(s) {
 const anchor = s => s.toLowerCase().replace(/<[^>]+>/g, "").replace(/&[a-z#0-9]+;/g, "").replace(/[^a-z0-9]+/g, "-")
   .replace(/^-|-$/g, "");
 
-// Headings (## and ###; a # becomes ## since the page's title is the h1), paragraphs, "- " and "1. " lists and "> "
-// quotes. Returns the HTML and the questions under a "## FAQ" (or "## Questions") heading: each "### question" and
-// the text under it, for the page's FAQ structured data.
+// Headings (## and ###; a # becomes ## since the page's title is the h1), paragraphs, "- " and "1. " lists, "> "
+// quotes, and pictures: a picture on a line of its own is a figure, its "caption" under it. Returns the HTML and the
+// questions under a "## FAQ" (or "## Questions") heading: each "### question" and the text under it, for the page's
+// FAQ structured data.
 export function renderMarkdown(md) {
   const lines = String(md || "").replace(/\r\n?/g, "\n").split("\n");
   const html = [];
@@ -80,9 +91,15 @@ export function renderMarkdown(md) {
   const flushPara = () => {
     if (!para.length) return;
     const text = para.join(" ");
+    const pic = text.match(IMAGE);
+    para = [];
+    if (pic) {
+      const img = inline(text);
+      if (img) html.push(`<figure class="gd-fig">${img}${pic[3] ? `<figcaption>${inline(pic[3])}</figcaption>` : ""}</figure>`);
+      return;
+    }
     html.push(`<p>${inline(text)}</p>`);
     if (q) q.a.push(text);
-    para = [];
   };
   const flushList = () => {
     if (!list) return;
@@ -142,8 +159,26 @@ async function asset(env, request, path) {
   }
 }
 
-// index.json: [{slug, title, description, date, kind, draft}], newest first.
-export async function loadIndex(env, request) {
+// The editor's rows (lib/guides-cms.js), or none: no D1 here (tests), or no table yet (nothing saved in the editor).
+// Reads never create the table; the editor's first save does.
+export async function editorRows(env, sql, ...args) {
+  if (!env.DB) return [];
+  try {
+    return (await env.DB.prepare(sql).bind(...args).all()).results;
+  } catch {
+    return [];
+  }
+}
+
+const newestFirst = (a, b) => (b.date || "").localeCompare(a.date || "") || a.slug.localeCompare(b.slug);
+
+// An editor row as an article: {slug, meta, body}, like a file's.
+export const rowArticle = r => ({ slug: r.slug, body: r.body || "", meta: {
+  title: r.title, description: r.description, date: r.date, kind: r.kind, draft: !!r.draft,
+  ...(r.updated ? { updated: r.updated } : {}), ...(r.author ? { author: r.author } : {}) } });
+
+// The files' index.json: [{slug, title, description, date, kind, draft}], newest first.
+export async function fileIndex(env, request) {
   const res = await asset(env, request, `${ARTICLES}/index.json`);
   try {
     return res ? await res.json() : [];
@@ -152,7 +187,24 @@ export async function loadIndex(env, request) {
   }
 }
 
-export async function loadArticle(env, request, slug) {
+// Every article, newest first: the files' index with the editor's rows on top (a row replaces the file with its
+// address; a deleted row hides it).
+export async function loadIndex(env, request) {
+  const [files, rows] = await Promise.all([fileIndex(env, request),
+    editorRows(env, "SELECT slug, title, description, date, updated, kind, draft, deleted FROM guides")]);
+  const by = new Map(files.map(a => [a.slug, a]));
+  for (const r of rows) {
+    if (r.deleted) by.delete(r.slug);
+    else {
+      const { meta } = rowArticle(r);
+      by.set(r.slug, { slug: r.slug, title: meta.title, description: meta.description, date: meta.date,
+        ...(meta.updated ? { updated: meta.updated } : {}), kind: meta.kind, draft: meta.draft });
+    }
+  }
+  return [...by.values()].sort(newestFirst);
+}
+
+export async function loadFileArticle(env, request, slug) {
   if (!SLUG.test(slug || "")) return null;
   const res = await asset(env, request, `${ARTICLES}/${slug}.md`);
   if (!res) return null;
@@ -161,8 +213,15 @@ export async function loadArticle(env, request, slug) {
   return meta.title ? { slug, meta, body } : null;
 }
 
+export async function loadArticle(env, request, slug) {
+  if (!SLUG.test(slug || "")) return null;
+  const [row] = await editorRows(env, "SELECT * FROM guides WHERE slug = ?", slug);
+  if (row) return row.deleted ? null : rowArticle(row);
+  return loadFileArticle(env, request, slug);
+}
+
 export const published = index => index.filter(a => !a.draft);
-// A draft is served (for review: Mike reads it at its address) but kept out of search, the list and the sitemap.
+// A draft is served (for review at its address) but kept out of search, the list and the sitemap.
 export const htmlHeaders = robots => ({
   "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-cache",
   ...(robots ? { "X-Robots-Tag": robots } : {}),
@@ -185,8 +244,29 @@ const foot = `<p>Lore Forever is a fan project. Story details follow WoW Forever
 
 // ---- Pages ----
 
+// The article as the page shows it, with its call to action: the editor's preview (lib/guides-cms.js) uses it alone.
+export function articleBody(article, index = []) {
+  return articleParts(article, index).bodyHtml;
+}
+
+// The first picture in the article, as a full address, for the page's social card.
+const socialImage = body => {
+  const url = safeImage(String(body || "").match(/!\[[^\]]*\]\(([^)\s]+)/)?.[1] || "");
+  return url.startsWith("/") ? HOME + url : url || undefined;
+};
+
 // /guides/<slug>: one article, with Article (and, when it has a FAQ, FAQPage) structured data.
 export function articlePage({ slug, meta, body }, index = []) {
+  const { bodyHtml, data } = articleParts({ slug, meta, body }, index);
+  const path = `/guides/${slug}`;
+  return page({
+    title: meta.title, description: meta.description || meta.title, path, body: `${bodyHtml}\n  ${data.join("\n  ")}`,
+    crumbs: `<a href="/guides">Guides</a> &rsaquo; ${escape(meta.title)}`, foot, scripts: "",
+    robots: meta.draft ? "noindex" : undefined, head: HEAD, image: socialImage(body),
+  });
+}
+
+function articleParts({ slug, meta, body }, index) {
   const path = `/guides/${slug}`;
   const { html, faq } = renderMarkdown(body);
   const kind = KINDS[meta.kind] || "Guide";
@@ -219,13 +299,8 @@ export function articlePage({ slug, meta, body }, index = []) {
     </div>
     ${related}
   </article>
-  ${ctaHtml}
-  ${data.join("\n  ")}`;
-  return page({
-    title: meta.title, description: meta.description || meta.title, path, body: bodyHtml,
-    crumbs: `<a href="/guides">Guides</a> &rsaquo; ${escape(meta.title)}`, foot, scripts: "",
-    robots: meta.draft ? "noindex" : undefined, head: HEAD,
-  });
+  ${ctaHtml}`;
+  return { bodyHtml, data };
 }
 
 // /guides: the published articles, newest first. noindex while there are none.

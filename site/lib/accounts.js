@@ -17,11 +17,14 @@ import { USAGE_SETUP } from "./usage.js";
 import { ACTIVITY_SETUP, SEEN_BACKFILL, ASKED_BACKFILL, markSeen, utcDay } from "./activity.js";
 import { forgetFeedback } from "./answer-feedback.js";
 import { forgetAnswerLog } from "./answer-log.js";
+import { setupPlanUsage, PLAN_USAGE_USER_DATA } from "./plan-usage.js";
 import { forgetKeeps } from "./willo-keeps.js";
 import { cancelPlan } from "./billing.js";
 import { setupWilloCustom } from "./willo-custom.js";
 import { FRIENDS_SETUP, FRIENDS_USER_DATA, FRIENDS_COLUMNS } from "./friends.js";
 import { setupReferrals, REFERRAL_USER_DATA } from "./referrals.js";
+import { setupSources, SOURCES_USER_DATA } from "./sources.js";
+import { setupCancellations, CANCELLATIONS_USER_DATA } from "./cancellations.js";
 import { EMAIL_SETUP, EMAIL_USER_DATA } from "./email.js";
 import { NOTEBOOK_SETUP, NOTEBOOK_USER_DATA } from "./willo-notebook.js";
 
@@ -436,10 +439,14 @@ const USER_DATA = [
   ["DELETE FROM entitlements WHERE user_id = ?", u => u.id],
   // /admin's record of their plan stays, without the account (plans started and cancelled per day).
   ["UPDATE plan_log SET user_id = NULL WHERE user_id = ?", u => u.id],
+  // So does the record of a plan they cancelled (lib/cancellations.js): when, how long, the reason they gave.
+  ...CANCELLATIONS_USER_DATA,
   ["DELETE FROM answer_packs WHERE user_id = ?", u => u.id],
   ["DELETE FROM answer_user_spend WHERE user_id = ?", u => u.id],
   ["DELETE FROM answer_holds WHERE user_id = ?", u => u.id],
   ["DELETE FROM voice_replies WHERE user_id = ?", u => u.id],
+  // Which limits turned their answers away and which voices said their replies, by day (lib/plan-usage.js).
+  ...PLAN_USAGE_USER_DATA,
   // Their taste of Willo's best (lib/best-first.js) stays with their Google account's one-way code, without the account.
   ["UPDATE best_first SET user_id = NULL WHERE user_id = ?", u => u.id],
   // How they had Willo talk to them, and their tales (lib/willo-custom.js).
@@ -448,6 +455,8 @@ const USER_DATA = [
   ...FRIENDS_USER_DATA,
   // Their share link, and the friends they brought or were brought by, kept without the account (lib/referrals.js).
   ...REFERRAL_USER_DATA,
+  // Where they came from (lib/sources.js); the day's counts stay, with nothing about who.
+  ...SOURCES_USER_DATA,
   // That we sent them a thank-you email (lib/email.js). An unsubscribed address's hash isn't the account's, so it stays.
   ...EMAIL_USER_DATA,
   // Their notebook, every page (lib/willo-notebook.js).
@@ -461,6 +470,7 @@ export async function deleteUser(env, user) {
   // A plan that could still charge them is cancelled at Stripe first: when that fails, it throws (with `billing` set)
   // before anything is deleted, so they can try again. This also makes lib/billing.js's tables for the batch below.
   await cancelPlan(env, user.id);
+  await setupPlanUsage(env);
   // Their uploaded recordings (R2 keys studio/<user id>/...), pictures (pictures/<user id>/...) and their story's
   // recordings (story-voice/<user id>/..., lib/storyvoice.js) go first, so no file outlives its row.
   if (env.STUDIO) {
@@ -488,6 +498,8 @@ export async function deleteUser(env, user) {
   // for the batch.
   await setupWilloCustom(env);
   await setupReferrals(env);
+  await setupSources(env);
+  await setupCancellations(env);
   await env.DB.batch(USER_DATA.map(([sql, arg]) => env.DB.prepare(sql).bind(arg(user))));
   // Cached credits (lib/cache.js) may still name them: the next view builds them again.
   await env.DB.prepare("DELETE FROM cached_results").run();

@@ -1,0 +1,112 @@
+{
+ "key": "quest:99260",
+ "type": "quest",
+ "name": "Fillion's Mission",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99260
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Arcanists following the Supreme Magister's plans will appreciate the delicate magical calculations required to pilot skycutter vessels through planar turbulence."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "The quest touches directly on the struggle of your people to establish safe travel lanes between Skywall and Azeroth amidst factional friction."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is fillion",
+    "fillion backstory",
+    "fillion wow"
+   ],
+   "answer": "Fillion is an emissary or scout sent by the Supreme Magister to collect vital readings on elemental energy flows from the Overlook Standing Stones. After being rescued by an adventurer, he remains too weakened to complete his original assignment.",
+   "q": "Who is Fillion?"
+  },
+  {
+   "aliases": [
+    "who is supreme magister",
+    "elaadrin evengale",
+    "who is elaadrin"
+   ],
+   "answer": "Elaadrin Evengale is the Supreme Magister residing in Valanaar. He directs efforts to navigate the elemental plane safely and coordinates the retrieval of planar data to secure travel between Skywall and Azeroth.",
+   "q": "Who is Supreme Magister Elaadrin Evengale?"
+  },
+  {
+   "aliases": [
+    "why is data important",
+    "what data fillion lost",
+    "elemental data skywall"
+   ],
+   "answer": "The data tracks elemental energy currents gathered at the Overlook Standing Stones. It is critical for the mathematical calculations required to safely navigate skycutter ships through the elemental plane to Azeroth without being destroyed.",
+   "q": "Why was Fillion's data so important?"
+  },
+  {
+   "aliases": [
+    "who are windshapers",
+    "windshapers lore",
+    "windshaper rivals"
+   ],
+   "answer": "The Windshapers are a faction that has reportedly secured their own method of planar travel. According to Supreme Magister Evengale, they jealously guard this secret due to dogmatic hubris rather than sharing it for the wider good of their people.",
+   "q": "Who are the Windshapers?"
+  },
+  {
+   "aliases": [
+    "what are skycutters",
+    "skycutter ship",
+    "sky cutter"
+   ],
+   "answer": "Skycutters are specialized vessels designed to fly through the elemental planes. Guiding them requires precise readings of elemental energy flows; otherwise, attempts to steer them between Skywall and Azeroth will end in catastrophe.",
+   "q": "What are skycutters?"
+  },
+  {
+   "aliases": [
+    "who are alaketh",
+    "al'aketh",
+    "alaketh lore"
+   ],
+   "answer": "The Al'Aketh are an antagonistic or disdained faction referenced by Supreme Magister Evengale. He compares the selfish and dogmatic behavior of the Windshapers directly to them.",
+   "q": "Who are the Al'Aketh?"
+  }
+ ],
+ "keywords": [
+  "elaadrin evengale",
+  "elemental plane",
+  "fillion",
+  "overlook standing stones",
+  "skycutter",
+  "skywall",
+  "valanaar",
+  "windshapers"
+ ],
+ "related": [
+  "quest:92699",
+  "topic:skywall",
+  "topic:elemental-plane",
+  "quest:92595"
+ ],
+ "sections": [
+  {
+   "body": "Fillion was dispatched to the Overlook Standing Stones to gather crucial readings on elemental energy currents. These readings form the foundation of calculations necessary to steer skycutter vessels between Skywall and Azeroth. Following an ordeal that required his rescue, Fillion finds himself unable to finish his task, and the vital data is presumed lost. Unable to continue his mission in his wounded state, he directs his rescuer to report to the Supreme Magister.",
+   "spoiler": 0,
+   "title": "A Perilous Assignment"
+  },
+  {
+   "body": "In the settlement of Valanaar, Supreme Magister Elaadrin Evengale receives the report of Fillion's survival with relief, but laments the lost research. Without reliable navigational data, opening safe passage routes across the Elemental Plane faces severe complications. Matters are further aggravated by reports that rival Windshapers have acquired their own means of planar transit, yet refuse to share it, prioritizing factional secrecy over collective welfare.",
+   "spoiler": 1,
+   "title": "Planar Strife in Valanaar"
+  }
+ ],
+ "summary": "Fillion's Mission follows the aftermath of a reconnaissance effort to map elemental currents at the Overlook Standing Stones. The gathered data was intended to chart safe navigation lanes for skycutter ships traveling between Skywall and Azeroth, but the surveyor's incapacitation imperils the entire endeavor.",
+ "attribution": [
+  "In-game quest text: Fillion's Mission"
+ ]
+}

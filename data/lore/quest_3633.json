@@ -1,0 +1,107 @@
+{
+ "key": "quest:3633",
+ "type": "quest",
+ "name": "Goblin Engineering",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3633
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Goblin engineering represents one of the two major specialized traditions available to master engineers, focusing specifically on volatile munitions, heavy explosive yield, and catastrophic destruction."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Engineers pursuing the goblin craft rely heavily on refined ores, blasting powders, and solid stones to fuel their relentless production of incendiaries and bombs."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is goblin engineering",
+    "goblin spec",
+    "goblin engineering quest"
+   ],
+   "answer": "Goblin Engineering is a specialized discipline of engineering focused squarely on the philosophy and power of high-yield explosions. Practitioners dedicate their skills to crafting powerful explosives, bombs, and heavy destructive devices rather than the intricate gadgets favored by their gnomish counterparts.",
+   "q": "What is Goblin Engineering?"
+  },
+  {
+   "aliases": [
+    "goblin vs gnome engineering",
+    "gnomish or goblin",
+    "difference goblin gnome engineering"
+   ],
+   "answer": "While gnomish engineering centers around strange utility devices, complex tinkering, and inventive gadgets, goblin engineering focuses entirely on sheer firepower, blasting powders, and volatile destructive yield. Goblin-crafted inventions are famously aggressive, effective, and inherently hazardous to handle.",
+   "q": "How does goblin engineering differ from gnomish engineering?"
+  },
+  {
+   "aliases": [
+    "who teaches goblin engineering",
+    "where to learn goblin engineering",
+    "goblin engineering trainer"
+   ],
+   "answer": "Goblin engineering is taught by master goblin engineers who seek out capable recruits willing to embrace the hazardous craft of explosions and blasting powder. Prominent trainers include Master Engineer Nixx Sprocketspring in Gadgetzan, who tests aspiring candidates before imparting the trade.",
+   "q": "Who teaches the goblin engineering discipline?"
+  },
+  {
+   "aliases": [
+    "goblin engineering danger",
+    "do goblin explosives blow up",
+    "is goblin engineering safe"
+   ],
+   "answer": "Danger is considered an accepted cost of business among goblin inventors. Their schematic designs maximize explosive output and concussive force, which naturally leads to unpredictable malfunctions, sudden detonations, and personal risk for the artisan handling them.",
+   "q": "Is goblin engineering dangerous to practice?"
+  },
+  {
+   "aliases": [
+    "can anyone learn goblin engineering",
+    "alliance goblin engineering",
+    "horde goblin engineering"
+   ],
+   "answer": "Both Alliance and Horde engineers can train in goblin engineering once they reach adequate proficiency in the craft. Goblin tinkerers operate primarily through neutral cartels such as the Steamwheedle Cartel, gladly welcoming anyone with steady hands, sufficient coin, and a love for explosive force.",
+   "q": "Can both factions learn goblin engineering?"
+  },
+  {
+   "aliases": [
+    "why pick goblin engineering",
+    "what does goblin engineering make",
+    "goblin engineering items"
+   ],
+   "answer": "Artisans pursue goblin engineering for its unmatched destructive capability. The discipline yields lethal combat explosives, mortar guns, land mines, and portable rockets designed to obliterate opposition on the battlefield.",
+   "q": "Why would an engineer choose the goblin discipline?"
+  }
+ ],
+ "keywords": [
+  "blasting powder",
+  "bombs",
+  "engineering",
+  "explosives",
+  "gadgetzan",
+  "goblin engineering",
+  "nixx sprocketspring",
+  "steamwheedle cartel"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Engineering in Azeroth divides cleanly into two distinct philosophies, and the goblin school of thought revolves almost entirely around violent combustion. Where other inventors craft delicate clockwork mechanisms or subtle contrivances, goblin tinkerers harness the volatile power of blasting powder to forge tools of staggering devastation. To enter the ranks of goblin engineering is to embrace fire, shrapnel, and concussive force as the ultimate solutions to practical problems.",
+   "spoiler": 0,
+   "title": "The Art of the Detonation"
+  },
+  {
+   "body": "The goblin engineering tradition does not disguise its hazards. Recruits are introduced directly to volatile compounds, heavy incendiaries, and prototypes that are just as likely to singe their creator's eyebrows as level an opposing barricade. Practitioners pride themselves on maximizing yield and raw destructive potential, welcoming any brave engineer who values decisive firepower over fragile safety regulations.",
+   "spoiler": 0,
+   "title": "Volatility and Power"
+  }
+ ],
+ "summary": "Goblin Engineering is a specialized craft path for master inventors who seek total mastery over explosive power and volatile concussive ordnance. Driven by high-yield blasting powders and relentless firepower, it offers an unapologetically destructive alternative to intricate tinkering.",
+ "attribution": [
+  "In-game quest text: Goblin Engineering"
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "key": "quest:79097",
+ "type": "quest",
+ "name": "Baxtan: On Destructive Magics",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79097
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Scholarly treatises on destructive magic are of natural interest to mages, who study the balance between arcane power and destructive forces."
+  },
+  {
+   "target": "class:Warlock",
+   "text": "Practitioners who delve into volatile or forbidden powers recognize the academic interest scholars have in understanding destructive arcana."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Expanding the knowledge housed within Alliance libraries strengthens the scholarly foundation of the entire Alliance."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is baxtan on destructive magics",
+    "what is this quest",
+    "baxtan quest"
+   ],
+   "answer": "This quest involves delivering Baxtan's treatise on destructive magics to a library scholar, contributing to the collection of magical works.",
+   "q": "What is the quest 'Baxtan: On Destructive Magics'?"
+  },
+  {
+   "aliases": [
+    "who is baxtan",
+    "baxtan npc",
+    "where is baxtan"
+   ],
+   "answer": "Baxtan is the author of the treatise On Destructive Magics. The scholar who takes it in is the one collecting significant tomes and magical treatises for the library.",
+   "q": "Who is Baxtan?"
+  },
+  {
+   "aliases": [
+    "what kind of books does baxtan want",
+    "baxtan book collection",
+    "more books for baxtan"
+   ],
+   "answer": "The library's scholar seeks scholarly and magical works that can benefit the collection, welcoming any further treatises on magic discovered across the world.",
+   "q": "What kinds of books is Baxtan looking for?"
+  },
+  {
+   "aliases": [
+    "where does the book go",
+    "which library",
+    "ironforge library collection"
+   ],
+   "answer": "The texts gathered are brought into the collection of the library that takes them in, preserving knowledge of the arcane and dangerous arts for study.",
+   "q": "Where does this magical knowledge end up?"
+  },
+  {
+   "aliases": [
+    "why study destructive magic",
+    "destructive magics lore"
+   ],
+   "answer": "Scholars catalog destructive magics to better comprehend the hazards, theoretical mechanics, and manifestations of potent arcane energies.",
+   "q": "Why does the library collect works on destructive magic?"
+  },
+  {
+   "aliases": [
+    "are there more quests for baxtan",
+    "can i turn in more books"
+   ],
+   "answer": "Yes. The scholar invites adventurers to keep bringing any additional magical works they uncover, indicating an ongoing effort to gather lore.",
+   "q": "Can you bring more magical works to Baxtan?"
+  }
+ ],
+ "keywords": [
+  "arcane",
+  "baxtan",
+  "book",
+  "destructive magics",
+  "library",
+  "magic",
+  "tome"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "The quest represents the ongoing effort of scholars to catalog and preserve arcane lore. When adventurers uncover texts examining the volatile nature of destructive magics, delivering them into careful academic custody ensures that the power and peril of such arts are understood rather than lost.",
+   "spoiler": 0,
+   "title": "A Tome of Ruinous Arts"
+  },
+  {
+   "body": "The library serves as a repository for history, science, and the arcane. Its scholar oversees the acquisition of rare volumes, welcoming travellers who recover forgotten treatises from dangerous corners of the world to expand the library's collective knowledge.",
+   "spoiler": 0,
+   "title": "Curating the Library's Lore"
+  }
+ ],
+ "summary": "Baxtan: On Destructive Magics is a scholarly turn-in quest where an adventurer delivers Baxtan's treatise on destructive spells to a library scholar. Recovering such works aids the library's archivists in expanding their understanding of volatile arcane energies.",
+ "attribution": [
+  "In-game quest text: Baxtan: On Destructive Magics"
+ ]
+}

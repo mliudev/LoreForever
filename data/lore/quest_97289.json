@@ -1,0 +1,112 @@
+{
+ "key": "quest:97289",
+ "type": "quest",
+ "name": "Unending Torment",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97289
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "For the Forsaken, experimenting on the remains of Grand Marshal Garithos represents poetic justice and a direct reminder of Lady Sylvanas's conquest of Lordaeron."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The macabre reanimation of Grand Marshal Garithos's remains illustrates the gruesome fate awaiting Alliance leaders who crossed the Banshee Queen in Lordaeron."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Assisting the Royal Apothecary Society with reanimation experiments in the Undercity demonstrates the Forsaken's dark craft and their vengeance against former oppressors."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is othmar",
+    "othmar identity",
+    "who was othmar"
+   ],
+   "answer": "Othmar refers to Grand Marshal Othmar Garithos, a notorious military commander who led Alliance remnants in Lordaeron after the Third War. He was despised by non-humans, and Master Apothecary Faranell says the Dark Lady had the pleasure of dispatching him herself.",
+   "q": "Who was Othmar?"
+  },
+  {
+   "aliases": [
+    "why reanimate othmar",
+    "purpose of reviving head",
+    "what secrets othmar"
+   ],
+   "answer": "The Forsaken wish to pry valuable secrets from him that he took to his grave. By placing his preserved head near a prepared abomination host, the Forsaken can extract information directly from the revived remains.",
+   "q": "Why are the Forsaken reanimating Othmar's remains?"
+  },
+  {
+   "aliases": [
+    "who killed othmar",
+    "how did othmar die",
+    "othmar death"
+   ],
+   "answer": "Master Apothecary Faranell says Lady Sylvanas Windrunner, the Dark Lady, had the pleasure of dispatching Grand Marshal Garithos herself.",
+   "q": "How did Othmar die?"
+  },
+  {
+   "aliases": [
+    "head of the baron othmar",
+    "why called head of the baron"
+   ],
+   "answer": "The Baron is the name of the towering abomination in the Ruins of Lordaeron whose head this was. Faranell reveals that the head once belonged to Grand Marshal Garithos.",
+   "q": "Why is the quest item called the Head of the Baron?"
+  },
+  {
+   "aliases": [
+    "where is othmars body",
+    "abomination location undercity"
+   ],
+   "answer": "The headless abomination constructed to receive Othmar's head is kept in an adjoining chamber within the Undercity, awaiting reanimation at the hands of Forsaken practitioners.",
+   "q": "Where is Othmar's new body located?"
+  },
+  {
+   "aliases": [
+    "what happens when body wakes",
+    "completion reaction othmar"
+   ],
+   "answer": "When placed near the assembled construct, the stitched flesh twitches violently to life. Upon regaining consciousness, the remains immediately panic as they relive the terror of Garithos's final living moments.",
+   "q": "What happens when the construct awakens?"
+  }
+ ],
+ "keywords": [
+  "abomination",
+  "forsaken",
+  "garithos",
+  "grand marshal",
+  "head of the baron",
+  "othmar",
+  "sylvanas",
+  "undercity",
+  "unending torment"
+ ],
+ "related": [
+  "zone:undercity",
+  "topic:alliance"
+ ],
+ "sections": [
+  {
+   "body": "In the subterranean laboratory depths of the Undercity, Forsaken practitioners stitch together monstrous abominations from discarded remnants of the dead. Yet among countless preserved skulls, one relic carries exceptional historical spite: the severed head of Grand Marshal Othmar Garithos, the arrogant commander who led surviving Alliance forces across Lordaeron before meeting his demise at the hands of the Dark Lady.",
+   "spoiler": 0,
+   "title": "A Trophy of Conquest"
+  },
+  {
+   "body": "The Forsaken do not merely keep Garithos's head as a trophy of war. By preparing a cobbled abomination body to serve as a new host, Forsaken necromancers intend to interrogate the former Grand Marshal and uncover Alliance secrets locked within his severed skull. When the head is brought to the lifeless construct, the assembled abomination surges with agonizing awareness, reliving its gruesome final moments in unending torment.",
+   "spoiler": 1,
+   "title": "Secrets of the Grave"
+  }
+ ],
+ "summary": "Unending Torment is an Undercity quest involving the reanimation of the severed head of Grand Marshal Othmar Garithos. The Forsaken seek to interrogate their former Alliance foe by preparing a stitched abomination to serve as his new vessel.",
+ "attribution": [
+  "In-game quest text: Unending Torment"
+ ]
+}

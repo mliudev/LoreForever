@@ -1,0 +1,101 @@
+{
+ "key": "quest:92849",
+ "type": "quest",
+ "name": "The Missing Scholar",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92849
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is fillion",
+    "fillion flamebreeze",
+    "missing scholar npc"
+   ],
+   "answer": "Fillion Flamebreeze is a scholar who was returning from an assignment at the Overlook Standing Stones when he was ambushed by hostile Windshapers. Left bleeding and unconscious outside a nearby cave, he was dragged inside by a massive winged predator.",
+   "q": "Who is Fillion Flamebreeze?"
+  },
+  {
+   "aliases": [
+    "what are overlook standing stones",
+    "overlook stones assignment",
+    "fillion mission"
+   ],
+   "answer": "The Overlook Standing Stones were the site of Fillion Flamebreeze's scholarly assignment prior to his ambush. While the precise nature of his research there is unclear, his journey back from the stones led directly into the ambush by Windshapers.",
+   "q": "What was Fillion doing at the Overlook Standing Stones?"
+  },
+  {
+   "aliases": [
+    "who attacked fillion",
+    "what are windshapers",
+    "windshaper ambush"
+   ],
+   "answer": "Fillion was ambushed and battered by assailants known as Windshapers. Rather than finishing him off directly, they forced him to the mouth of a nearby cave and abandoned him there while he was bleeding and barely conscious.",
+   "q": "Who attacked Fillion Flamebreeze?"
+  },
+  {
+   "aliases": [
+    "what cave beast",
+    "winged monster fillion",
+    "what took fillion"
+   ],
+   "answer": "A massive winged beast nested in the cave north of the ambush site scooped up an unconscious Fillion from the cave entrance. It dragged him into the depths of its lair to feed itself and its hungry younglings.",
+   "q": "What creature took Fillion into the cave?"
+  },
+  {
+   "aliases": [
+    "how to find fillion",
+    "where is the missing scholar",
+    "fillion cave location"
+   ],
+   "answer": "Clues left at the site of his misfortune point toward a cave situated just to the north. Searching inside the cave reveals Fillion trapped within the beast's nesting grounds, awaiting rescue before he can be devoured.",
+   "q": "Where can Fillion Flamebreeze be found?"
+  },
+  {
+   "aliases": [
+    "did fillion survive",
+    "what happens to fillion flamebreeze",
+    "save missing scholar"
+   ],
+   "answer": "Fillion survives his ordeal thanks to timely intervention within the cave. If an adventurer had not tracked him down and intervened, he would have been served as dinner to the winged beast and its offspring.",
+   "q": "What was the fate of the missing scholar?"
+  }
+ ],
+ "keywords": [
+  "fillion",
+  "fillion flamebreeze",
+  "overlook standing stones",
+  "the missing scholar",
+  "windshapers",
+  "winged beast"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Signs of misfortune along the trail suggest that the scholar Fillion Flamebreeze met with foul play during his travels. Following the trail of his disappearance leads northward toward the maw of a dark cave, where the missing researcher may still cling to life and await aid.",
+   "spoiler": 0,
+   "title": "The Vanished Researcher"
+  },
+  {
+   "body": "Fillion Flamebreeze had been returning from a scholarly assignment out at the Overlook Standing Stones when hostile Windshapers ambushed him. The attackers battered him relentlessly before dragging him to the cave entrance and abandoning him to bleed out, leaving him utterly helpless against whatever lurked within.",
+   "spoiler": 1,
+   "title": "Ambush by the Windshapers"
+  },
+  {
+   "body": "As Fillion lay fading on the threshold of the cavern, a massive winged beast emerged from the dark and dragged him inside. The creature brought him deep into its lair to serve as prey for its younglings, a grim fate averted only by a timely rescue.",
+   "spoiler": 1,
+   "title": "Lair of the Winged Beast"
+  }
+ ],
+ "summary": "The Missing Scholar follows the search for Fillion Flamebreeze, a researcher who vanished while returning from an assignment at the Overlook Standing Stones. An investigation of the trail leads into a nearby northern cave where Fillion was dragged by a predatory winged beast.",
+ "attribution": [
+  "In-game quest text: The Missing Scholar"
+ ]
+}

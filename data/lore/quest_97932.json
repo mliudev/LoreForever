@@ -1,0 +1,113 @@
+{
+ "key": "quest:97932",
+ "type": "quest",
+ "name": "Camping 101: Fishing",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97932
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "Every proper campsite requires a basic campfire to get started, making basic culinary training a natural complement to any fisherman's field camp."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Horde anglers travelling through Mulgore can learn to craft camp fixtures from Uthan Stillwater at Bloodhoof Village."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "fish bowl camp",
+    "fish bowl what do",
+    "fish bowl benefit"
+   ],
+   "answer": "A Fish Bowl serves as a decorative camp fixture crafted by proficient fishermen. It is designed to bring cheer and comfort to adventurers resting in the wilderness, keeping morale high so they remain sharp and capable in battle.",
+   "q": "What does the Fish Bowl do for a campsite?"
+  },
+  {
+   "aliases": [
+    "where learn fish bowl",
+    "who teaches fish bowl",
+    "uthan stillwater location"
+   ],
+   "answer": "Uthan Stillwater teaches the craft in Bloodhoof Village, located in the rolling plains of Mulgore. He instructs anglers who have already demonstrated sufficient proficiency in their fishing skill.",
+   "q": "Who teaches the Fish Bowl recipe?"
+  },
+  {
+   "aliases": [
+    "camp in town",
+    "why cant i camp in bloodhoof village",
+    "camping inside cities"
+   ],
+   "answer": "Townspeople and village guards generally frown upon travelers pitching full camps and lighting fires in the middle of settled streets. Camps must be pitched out in the wild open country instead.",
+   "q": "Why can't you pitch camp inside a settlement?"
+  },
+  {
+   "aliases": [
+    "campfire camping requirement",
+    "need fire for camp",
+    "camping basics fire"
+   ],
+   "answer": "A proper campsite cannot function without a campfire at its heart. Travelers without the skill to kindle one are advised to seek out a cooking trainer to master the art of starting a fire before setting up camp.",
+   "q": "What else is required to set up a camp?"
+  },
+  {
+   "aliases": [
+    "fishing proficiency camping",
+    "when can i get fish bowl",
+    "camping 101 fishing requirements"
+   ],
+   "answer": "The training requires demonstrated proficiency in fishing before Uthan Stillwater will share the secrets of crafting camp fixtures. Novice anglers will need to spend some time by the water honing their craft first.",
+   "q": "What requirements are needed before learning the Fish Bowl?"
+  },
+  {
+   "aliases": [
+    "why bring fish bowl camping",
+    "camp fish bowl lore"
+   ],
+   "answer": "Life on the road across Azeroth is grim and exhausting. Small touches of domestic life and peaceful hobbies, like watching a fish in a bowl by the fire, provide a rare spark of joy that bolsters an adventurer's spirit.",
+   "q": "Why would an adventurer want a Fish Bowl while camping?"
+  }
+ ],
+ "keywords": [
+  "bloodhoof village",
+  "campfire",
+  "camping",
+  "camping 101: fishing",
+  "fish bowl",
+  "fishing",
+  "mulgore",
+  "uthan stillwater"
+ ],
+ "related": [
+  "subzone:bloodhoof-village"
+ ],
+ "sections": [
+  {
+   "body": "Anglers traveling through Mulgore can turn their quiet pastime into practical camp craft through Camping 101: Fishing. Adventurers who have proved their proficiency with rod and reel are directed to seek out Uthan Stillwater in Bloodhoof Village. Rather than merely supplying food, skilled fishermen learn to craft a domestic fixture for wilderness life: a personal Fish Bowl to brighten the campsite.",
+   "spoiler": 0,
+   "title": "Angling in the Wild"
+  },
+  {
+   "body": "A Fish Bowl might seem an odd companion for hard-bitten wanderers, but a comfortable resting spot pays dividends on the road. The little fixture brings a welcome touch of levity and tranquility to the harsh wild, bolstering morale for anyone resting by the flames. As seasoned survivalists know, high spirits translate directly into sharper instincts and greater resilience in combat.",
+   "spoiler": 0,
+   "title": "Comforts of Camp"
+  },
+  {
+   "body": "Pitching a camp requires both respect for local customs and sound fundamentals. Settlements like Bloodhoof Village do not tolerate travelers setting up temporary campsites in the middle of town, meaning the Fish Bowl can only be tested out in the open wilderness. Furthermore, no campsite can be established without a proper campfire, requiring aspiring campers to seek out culinary trainers to master basic fire-making.",
+   "spoiler": 0,
+   "title": "Campfire and Open Country"
+  }
+ ],
+ "summary": "Camping 101: Fishing introduces anglers to the art of outfitting wilderness campsites with handmade comforts. By demonstrating proficiency to Uthan Stillwater in Bloodhoof Village, fishermen learn to craft a Fish Bowl that brings morale-boosting cheer to travelers resting in the wild.",
+ "attribution": [
+  "In-game quest text: Camping 101: Fishing"
+ ]
+}

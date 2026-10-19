@@ -1,0 +1,108 @@
+{
+ "key": "quest:96875",
+ "type": "quest",
+ "name": "Beasts of Thunder Ridge",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96875
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As the Horde establishes its presence in Durotar, supplies gathered from the surrounding wilderness directly fuel the fortification and growth of Orgrimmar."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Orcish construction relies on rugged, durable materials harvested by hunters and laborers to withstand the elements of Durotar."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what are the hides for",
+    "why rough lizard hide",
+    "what are thunder ridge hides used for"
+   ],
+   "answer": "The rough lizard hides harvested in Thunder Ridge are far too coarse and thick for crafting wearable armor, but their toughness makes them ideal for structural purposes. Peons in Orgrimmar use them to line the walls and roofs of newly constructed buildings to protect against the harsh elements.",
+   "q": "Why does Orgrimmar need lizard hides from Thunder Ridge?"
+  },
+  {
+   "aliases": [
+    "who is kamari",
+    "kamari orgrimmar",
+    "who gives beasts of thunder ridge"
+   ],
+   "answer": "Kamari is a leatherworker in the Horde capital of Orgrimmar who supplies the city's builders and peons with sturdy pelts and hides needed for ongoing construction projects.",
+   "q": "Who is Kamari?"
+  },
+  {
+   "aliases": [
+    "where is thunder ridge",
+    "thunder ridge location",
+    "thunder ridge durotar"
+   ],
+   "answer": "Thunder Ridge is a rugged canyon located within the arid territory of Durotar, known for the lizards whose thick hides Kamari wants for the city's new buildings.",
+   "q": "Where is Thunder Ridge located?"
+  },
+  {
+   "aliases": [
+    "why cured light hides",
+    "what are the cured hides for"
+   ],
+   "answer": "Alongside the heavy lizard hides, Kamari requires cured light hides to complement the heavier materials, testing an adventurer's broader familiarity and skill with leather processing.",
+   "q": "Why are cured light hides requested along with lizard hides?"
+  },
+  {
+   "aliases": [
+    "why is orgrimmar building",
+    "orgrimmar expansion"
+   ],
+   "answer": "As the newly established capital of the Horde, Orgrimmar is under continuous construction and expansion to house growing numbers of orcs and their allies, creating constant demand for raw materials.",
+   "q": "Why is Orgrimmar expanding so rapidly?"
+  },
+  {
+   "aliases": [
+    "can you wear lizard hides",
+    "is rough lizard hide armor"
+   ],
+   "answer": "Rough lizard hides from Thunder Ridge are typically too thick and rigid to fashion into flexible armor, making their primary practical value structural rather than wearable.",
+   "q": "Can the lizard hides from Thunder Ridge be made into armor?"
+  }
+ ],
+ "keywords": [
+  "beasts of thunder ridge",
+  "cured light hide",
+  "durotar",
+  "kamari",
+  "leatherworking",
+  "orgrimmar",
+  "peons",
+  "rough lizard hide",
+  "thunder ridge"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "subzone:thunder-ridge"
+ ],
+ "sections": [
+  {
+   "body": "As the Horde carves its home out of the arid lands of Durotar, the capital city of Orgrimmar remains in a state of continuous expansion. New dwellings, workshops, and defensive fortifications require a steady stream of lumber, stone, and animal skins. While timber must be hauled from farther afield, the local fauna of Durotar provides a rugged supply of durable hides for the city's peons and builders.",
+   "spoiler": 0,
+   "title": "A Growing Capital"
+  },
+  {
+   "body": "In the depths of Thunder Ridge, the native lizards grow tough, weathered hides. Although these pelts are generally too thick and stiff to be tailored into wearable leather armor, their resilience makes them exceptional construction material. When properly harvested, they serve to line the ceilings and walls of Orgrimmar's timber and stone structures, shielding the interiors from the bludgeoning sun and sudden canyon winds.",
+   "spoiler": 0,
+   "title": "Beasts of the Canyon"
+  }
+ ],
+ "summary": "Beasts of Thunder Ridge is a quest in Orgrimmar given by the leatherworker Kamari, who supports the ongoing expansion of the Horde capital. Adventurers are dispatched to the crags of Thunder Ridge to harvest durable lizard hides and provide cured pelts to reinforce the city's newly erected structures.",
+ "attribution": [
+  "In-game quest text: Beasts of Thunder Ridge"
+ ]
+}

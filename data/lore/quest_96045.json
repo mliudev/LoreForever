@@ -1,0 +1,108 @@
+{
+ "key": "quest:96045",
+ "type": "quest",
+ "name": "Camping 101: Alchemy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96045
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "A proper campsite requires a basic campfire, a practical skill taught by culinary trainers across the realms to complement specialized campsite crafts."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Aspiring alchemists visiting the dwarven stronghold of Ironforge can consult Vosur Brakthel to learn how to enhance their expeditions with restorative concoctions."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who teaches camping 101 alchemy",
+    "vosur brakthel role",
+    "who is vosur brakthel"
+   ],
+   "answer": "Vosur Brakthel is an alchemy trainer residing in the mountain city of Ironforge. He instructs emerging alchemists on how to apply their potion-making expertise toward crafting a Mana Well to support adventurers out in the field.",
+   "q": "Who is Vosur Brakthel?"
+  },
+  {
+   "aliases": [
+    "what does a mana well do",
+    "mana well purpose",
+    "why make a mana well"
+   ],
+   "answer": "A Mana Well is a campsite installation concocted by an alchemist to restore spellcasters and healers. When placed at a camp in the wilds, it offers casters a refreshing draught to replenish their mystical energies during long journeys.",
+   "q": "What is a Mana Well?"
+  },
+  {
+   "aliases": [
+    "can i camp in ironforge",
+    "camping in town",
+    "where to place mana well"
+   ],
+   "answer": "Townsfolk generally frown upon pitching camps within the city streets. Alchemists looking to construct a campsite and deploy their Mana Well must travel out beyond city walls into the wilderness.",
+   "q": "Can you set up a camp inside Ironforge?"
+  },
+  {
+   "aliases": [
+    "campfire requirement",
+    "do i need cooking for camping",
+    "how to start a camp"
+   ],
+   "answer": "Every campsite requires a basic campfire as its core. Adventurers who do not yet know how to build a fire are advised to seek out a cooking trainer to learn basic culinary fire-making before setting out.",
+   "q": "What else is needed to set up a camp?"
+  },
+  {
+   "aliases": [
+    "when can i learn mana well",
+    "mana well requirements",
+    "camping 101 requirements"
+   ],
+   "answer": "Vosur Brakthel offers to instruct alchemists once they have taken up the profession and demonstrated a measure of proficiency in their craft. Once seasoned enough, the secrets of assembling a Mana Well are imparted.",
+   "q": "When can an alchemist learn to make a Mana Well?"
+  },
+  {
+   "aliases": [
+    "who benefits from mana well",
+    "mana well classes",
+    "who uses mana well"
+   ],
+   "answer": "The Mana Well primarily benefits spellcasters and healers such as mages, priests, and druids, who rely heavily on replenishing their mana reserves while venturing far from town taverns and hearthstones.",
+   "q": "Who benefits most from a Mana Well at camp?"
+  }
+ ],
+ "keywords": [
+  "alchemy",
+  "campfire",
+  "camping",
+  "camping 101: alchemy",
+  "ironforge",
+  "mana well",
+  "vosur brakthel"
+ ],
+ "related": [
+  "zone:ironforge"
+ ],
+ "sections": [
+  {
+   "body": "For alchemists braving the untamed reaches of Azeroth, brewing vials in a quiet laboratory is only half the craft. In the grand dwarven capital of Ironforge, the alchemist Vosur Brakthel instructs practitioners on how to adapt their delicate trade to the rigors of wilderness survival. By demonstrating proficiency in alchemy, an adventurer learns to distill their knowledge into crafting a Mana Well\u2014a portable campsite fixture designed to sustain companions in the field.",
+   "spoiler": 0,
+   "title": "Brewing for the Road"
+  },
+  {
+   "body": "While a Mana Well provides a refreshing boon for weary healers and spellcasters, it cannot stand on its own in the middle of a cobblestone street. City dwellers take a dim view of travelers pitching tents inside urban centers, meaning such works must be brought into the wilderness. Furthermore, no encampment is complete without the warm embers of a proper campfire, sending aspiring camp-makers to seek guidance from local cooks before striking out into the wild.",
+   "spoiler": 0,
+   "title": "Wilderness Campsites"
+  }
+ ],
+ "summary": "Camping 101: Alchemy introduces budding alchemists in Ironforge to practical fieldcraft under the guidance of Vosur Brakthel. By learning to construct a Mana Well for their wilderness camps, alchemists can provide vital rejuvenation to spellcasters and healers on the road.",
+ "attribution": [
+  "In-game quest text: Camping 101: Alchemy"
+ ]
+}

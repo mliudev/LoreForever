@@ -1,0 +1,109 @@
+{
+ "key": "quest:78143",
+ "type": "quest",
+ "name": "Secrets of the Dreamers",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   78143
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Scholarly arcanists are uniquely suited to seek out obscure tomes and magical texts across Azeroth to enrich institutional archives."
+  },
+  {
+   "target": "class:Druid",
+   "text": "Given the reference to the Dreamers, writings tied to nature magic and the Emerald Dream carry profound significance for practitioners of the Cenarion arts."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scholars, particularly those who keep great repositories, rely on adventurous champions to recover lost knowledge from dangerous locales."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is secrets of the dreamers",
+    "secrets of dreamers quest",
+    "what do you do in this quest"
+   ],
+   "answer": "Secrets of the Dreamers is a quest focused on recovering magical works and obscure knowledge to expand a scholarly collection. Adventurers acquire relevant materials out in the world and turn them in to enrich the archives of researchers.",
+   "q": "What is the purpose of the quest Secrets of the Dreamers?"
+  },
+  {
+   "aliases": [
+    "who wants secrets of the dreamers",
+    "who gives this quest",
+    "where to turn in secrets of the dreamers"
+   ],
+   "answer": "The quest is received and turned in by a scholar overseeing a library's collection, who asks travelling adventurers to bring in magical works.",
+   "q": "Who collects these magical texts?"
+  },
+  {
+   "aliases": [
+    "what is the collection",
+    "which library is this for",
+    "where do the books go"
+   ],
+   "answer": "The recovered writings are added directly to an institutional library's growing archives, ensuring rare lore and magical discoveries are cataloged and preserved for Alliance scholars and researchers.",
+   "q": "Where are the recovered works stored?"
+  },
+  {
+   "aliases": [
+    "who are the dreamers",
+    "dreamers lore",
+    "why is it called dreamers"
+   ],
+   "answer": "The Dreamers traditionally refers to the druidic practitioners attuned to the Emerald Dream or ancient sleeping entities bound to nature's slumber. Magical works bearing their secrets preserve mysterious primal power.",
+   "q": "What does the title refer to by \"the Dreamers\"?"
+  },
+  {
+   "aliases": [
+    "can i turn in more books",
+    "is this repeatable",
+    "more magical works"
+   ],
+   "answer": "The archivists actively welcome continued contributions. Whenever you discover additional magical works that might benefit the collection during your journeys, you are encouraged to bring them in to aid further research.",
+   "q": "Can you bring more magical works after finishing the quest?"
+  },
+  {
+   "aliases": [
+    "why gather magical books",
+    "why does the library need magic tomes"
+   ],
+   "answer": "Libraries and researchers across the Alliance constantly seek to expand their understanding of arcane, natural, and obscure arcana. Lost or scattered treatises contain insights that help scholars uncover the deeper history and mysteries of the world.",
+   "q": "Why is collecting these magical writings important to scholars?"
+  }
+ ],
+ "keywords": [
+  "arcane",
+  "dreamers",
+  "library",
+  "magical works",
+  "scholars",
+  "secrets of the dreamers",
+  "tomes"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "The quest Secrets of the Dreamers involves recovering rare magical texts and historical treatises from across the realm. Scholars dedicated to chronicling Azeroth's arcane mysteries rely on travelling adventurers to unearth forgotten works and bring them safely to the archives. Rather than letting precious knowledge languish in ancient ruins or private hoards, these collection efforts ensure that critical lore is studied and preserved for future generations.",
+   "spoiler": 0,
+   "title": "Recovering Forgotten Lore"
+  },
+  {
+   "body": "Upon turning in these treatises, the archivists integrate them into their permanent collections, expanding the repository's understanding of magical phenomena. In a library like this one, researchers constantly seek obscure manuscripts touching upon everything from the Emerald Dream to arcane theory. The work is never entirely complete, and scholars remain eager for any further magical writings uncovered in the field.",
+   "spoiler": 0,
+   "title": "Expanding the Archives"
+  }
+ ],
+ "summary": "Secrets of the Dreamers tasks adventurers with recovering rare magical writings to enrich scholarly archives. By turning in these discovered treatises, explorers help a library's scholars expand their collection of ancient lore.",
+ "attribution": [
+  "In-game quest text: Secrets of the Dreamers"
+ ]
+}

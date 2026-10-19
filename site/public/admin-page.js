@@ -3,6 +3,9 @@
 
 import { mergeContacts } from "/admin-contacts.js";
 import { loadCreators } from "/admin-creators.js?v=20261018";
+import { loadSources } from "/admin-sources.js?v=20261019g";
+import { loadRetention } from "/admin-retention.js?v=20261019w";
+import { loadPlansUsage } from "/admin-plans.js?v=20261019q";
 import { funnelStages } from "/admin-funnel.js";
 import { costsView, dollars, KIND_WORDS } from "/admin-costs.js";
 
@@ -1409,25 +1412,40 @@ function balanceOrCap(s) {
 
 // ---- tabs: one shown at a time, chosen by the address's # (so /admin#growth or /admin#contacts links straight there) ----
 const TABS = ["overview", "growth", "players", "costs", "community"];
-const SECTION_TAB = { funnel: "growth", curseforge: "growth", "willo-stats": "growth", downloads: "growth", companions: "growth",
+const SECTION_TAB = { sources: "growth", retention: "growth", "plans-usage": "growth", funnel: "growth", curseforge: "growth", "willo-stats": "growth", downloads: "growth", companions: "growth",
                       profiles: "players", signins: "players", features: "players", usage: "players" };
 const SUBS = ["feedback", "voices", "willo", "clip-reports", "translations", "edits", "contributions", "contacts", "creators"];
-let sub = "feedback", clipsLoaded = false, creatorsLoaded = false;
+// Growth's parts (#growth-subnav): Sources, Retention, Plans & usage, and the funnel with everything after it.
+const GSUBS = { sources: "sources", retention: "retention", "plans-usage": "plans-usage", funnel: "main", curseforge: "main",
+                "willo-stats": "main", downloads: "main", companions: "main" };
+let gsub = "sources";
+let sub = "feedback", clipsLoaded = false, creatorsLoaded = false, sourcesLoaded = false, retentionLoaded = false, plansLoaded = false;
 function route() {
   const id = decodeURIComponent(location.hash.slice(1));
   const tab = TABS.includes(id) ? id : SECTION_TAB[id] || (SUBS.includes(id) ? "community" : "overview");
   if (SUBS.includes(id)) sub = id;
+  if (GSUBS[id]) gsub = GSUBS[id];
   document.querySelectorAll(".ad-tab").forEach(t => { t.hidden = t.dataset.tab !== tab; });
   document.querySelectorAll(".ad-sub-tab").forEach(s => { s.hidden = s.dataset.sub !== sub; });
   document.querySelectorAll("#subnav a").forEach(a => a.setAttribute("aria-current", a.dataset.sub === sub));
+  document.querySelectorAll(".ad-gsub").forEach(s => { s.hidden = s.dataset.gsub !== gsub; });
+  document.querySelectorAll("#growth-subnav a").forEach(a => a.setAttribute("aria-current", a.dataset.gsub === gsub));
   // The tab, breadcrumb, heading and window title (admin-shell.js): "Dashboard › Community › Feedback".
   const label = a => a.firstChild.textContent.trim();
   const tabLink = $("nav").querySelector(`a[data-tab="${tab}"]`), subLink = $("subnav").querySelector(`a[data-sub="${sub}"]`);
-  lfAdmin.current(tab, tab === "community" ? [[label(tabLink), "#community"], [label(subLink)]] : [[label(tabLink)]]);
+  const gsubLink = $("growth-subnav").querySelector(`a[data-gsub="${gsub}"]`);
+  lfAdmin.current(tab, tab === "community" ? [[label(tabLink), "#community"], [label(subLink)]]
+    : tab === "growth" ? [[label(tabLink), "#growth"], [label(gsubLink)]] : [[label(tabLink)]]);
   // The clip reports come from their own endpoint: only once Community is opened.
   if (tab === "community" && data && !clipsLoaded) { clipsLoaded = true; loadClipReports(); loadWillo(); }
   // Creators (admin-creators.js) the same way, once their tab is opened.
   if (tab === "community" && sub === "creators" && data && !creatorsLoaded) { creatorsLoaded = true; loadCreators(key); }
+  // Sources (admin-sources.js) once its part of Growth is opened.
+  if (tab === "growth" && gsub === "sources" && data && !sourcesLoaded) { sourcesLoaded = true; loadSources(key); }
+  // Retention (admin-retention.js) the same way.
+  if (tab === "growth" && gsub === "retention" && data && !retentionLoaded) { retentionLoaded = true; loadRetention(key); }
+  // Plans & usage (admin-plans.js) the same way.
+  if (tab === "growth" && gsub === "plans-usage" && data && !plansLoaded) { plansLoaded = true; loadPlansUsage(key); }
   if (SECTION_TAB[id]) $(id).scrollIntoView(); else scrollTo(0, 0);
 }
 addEventListener("hashchange", route);

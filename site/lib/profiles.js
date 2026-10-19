@@ -678,8 +678,8 @@ export function profilePage(p, { links = [], owner = false, badges = [], names =
     ? `<p class="vpr-links">${links.map(u => `<a href="${escape(u)}" rel="nofollow ugc noopener">${escape(host(u))}</a>`).join(" &middot; ")}</p>`
     : "";
   const updated = shortDate(p.updated);
-  // Where they were last seen, from the newest moment that names a place.
-  const last = [...list].reverse().find(m => m.e?.zone);
+  // Where they were last seen, from the newest moment that names a place, never a battleground (LOR-685).
+  const last = [...list].reverse().find(m => m.e?.zone && !m.e.battleground && !battleground(m.e.zone));
   const seen = last ? `<p class="pf-seen">Last seen in ${escape(last.e.zone)}${dayText(last.day) ? ` &middot; ${escape(dayText(last.day))}` : ""}</p>` : "";
   const lands = new Set(chs.flatMap(c => c.lands.map(l => l.key)));
   const glance = [counted(chs.length, "chapter"), counted(new Set(list.map(m => m.day).filter(Boolean)).size, "day on the road", "days on the road"),

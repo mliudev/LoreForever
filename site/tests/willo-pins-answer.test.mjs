@@ -180,7 +180,7 @@ test("clear all my pins: she asks once, and a yes takes this character's pins of
       JSON.stringify([{ player: "Clear all my pins.", willo: asked.answer }]) + "\n\nQUESTION\nyes", persona: "willo",
       notebook: { character: HURIN } }) }) })).json();
   assert.equal(yes.answer, "Cleared Húrin's pins: the elite cave, Hogger's hill. Undo in the Notebook tab brings them back.");
-  assert.equal(page(user, `char:${HURIN}`).body, "## To do\n- [ ] Linen cloth\n\n## Pins\n");
+  assert.equal(page(user, `char:${HURIN}`).body, "## To do\n- [ ] Linen cloth\n");   // and the Pins heading (LOR-686)
   assert.equal(yes.notebook.change, "remove");
   // Out loud too, where the notebook's view numbers only a few lines: every pin goes.
   env.DB.sqlite.prepare("UPDATE notebook_pages SET body = ? WHERE user_id = ? AND page = ?")

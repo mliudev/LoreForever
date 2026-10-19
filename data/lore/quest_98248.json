@@ -1,0 +1,102 @@
+{
+ "key": "quest:98248",
+ "type": "quest",
+ "name": "Shipping Label",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98248
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Horde adventurers traversing the Barrens frequently encounter Durotar Supply and Logistics operations, helping maintain critical commerce and supply lines between Durotar and central Kalimdor."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is the shipping label",
+    "shipping label quest",
+    "torn shipping label"
+   ],
+   "answer": "It is a document affixed to a fully stocked crate that details return instructions for Durotar Supply and Logistics, directing lost or empty containers back to their post near the Crossroads.",
+   "q": "What is the Shipping Label?"
+  },
+  {
+   "aliases": [
+    "where do i take the shipping label",
+    "who wants the shipping label",
+    "shipping label turn in"
+   ],
+   "answer": "The label directs couriers to deliver it to personnel stationed at the Durotar Supply and Logistics trade hub, located due west of the Crossroads in the Barrens.",
+   "q": "Where should the label be delivered?"
+  },
+  {
+   "aliases": [
+    "what is durotar supply and logistics",
+    "durotar supply outpost"
+   ],
+   "answer": "Durotar Supply and Logistics is a commercial freight outfit operating across Durotar and the Barrens, handling cargo transport, crate collection, and logistical support throughout Horde territories.",
+   "q": "What is Durotar Supply and Logistics?"
+  },
+  {
+   "aliases": [
+    "who was the crate meant for",
+    "crate recipient"
+   ],
+   "answer": "The intended recipient's name is completely torn away from the label, leaving only the return instructions and the company's origin information intact on the crate.",
+   "q": "Who was the shipment originally intended for?"
+  },
+  {
+   "aliases": [
+    "where is the trade outpost",
+    "durotar supply location crossroads"
+   ],
+   "answer": "According to the directions and crude map marked upon the label, the outpost is established conveniently due west of the Crossroads settlement in the Barrens.",
+   "q": "Where is the Durotar Supply and Logistics trade outpost located?"
+  },
+  {
+   "aliases": [
+    "do they pay for returned crates",
+    "durotar supply compensation"
+   ],
+   "answer": "Yes, the printed notice explicitly promises that couriers returning damaged shipments, labels, or empty crates will be compensated for their time and effort upon delivery to their hub.",
+   "q": "Does Durotar Supply and Logistics compensate travelers for returning crates?"
+  }
+ ],
+ "keywords": [
+  "crate",
+  "crossroads",
+  "durotar supply and logistics",
+  "shipping label",
+  "the barrens",
+  "trade outpost"
+ ],
+ "related": [
+  "subzone:crossroads",
+  "zone:barrens",
+  "zone:durotar",
+  "quest:98247"
+ ],
+ "sections": [
+  {
+   "body": "Affixed to a freshly restocked cargo crate, this torn document carries the logistical instructions of Durotar Supply and Logistics. While the recipient's name has been stripped away by travel and wear, the origin header clearly identifies the freight company operating out of Horde territories. A crudely sketched route map beside the text directs couriers straight toward the outfit's staging grounds in the central plains.",
+   "spoiler": 0,
+   "title": "A Wayward Manifest"
+  },
+  {
+   "body": "The notice invites travelers to haul wayward containers, damaged goods, or proof of salvage to their trade outpost situated directly west of the Crossroads. Operating in the harsh expanse of the Barrens, Durotar Supply and Logistics relies heavily on independent haulers and wayfarers to recover scattered freight, guaranteeing compensation for those who assist in keeping regional supply channels flowing smoothly.",
+   "spoiler": 0,
+   "title": "Frontier Commerce"
+  }
+ ],
+ "summary": "A torn delivery manifest found on a restocked freight container directs couriers to a regional merchant hub in the Barrens. Durotar Supply and Logistics relies on traveling wanderers to recover lost crates and return paperwork to their post west of the Crossroads. Completing the return maintains essential supply chains and trade commerce across central Kalimdor.",
+ "attribution": [
+  "In-game quest text: Shipping Label"
+ ]
+}

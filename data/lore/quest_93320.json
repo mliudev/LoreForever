@@ -1,0 +1,102 @@
+{
+ "key": "quest:93320",
+ "type": "quest",
+ "name": "Tower Defense",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93320
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Defensive holds against numerically superior forces test stamina as much as skill, demanding disciplined frontline fighters to prevent total collapse."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is tower defense",
+    "tower defense quest",
+    "what is this quest"
+   ],
+   "answer": "Tower Defense is an urgent defensive effort where defenders struggle to hold a position against overwhelming numbers. While the immediate line holds, attrition and exhaustion threaten to break the defense unless a decisive countermeasure is found.",
+   "q": "What is Tower Defense about?"
+  },
+  {
+   "aliases": [
+    "who attacks in tower defense",
+    "who are we fighting",
+    "tower defense enemy"
+   ],
+   "answer": "The attackers field superior numbers compared to the defenders, pressing hard enough to gradually wear down the garrison and force a tense stalemate. Specific affiliations remain unrecorded beyond their dangerous numbers.",
+   "q": "Who are the defenders fighting?"
+  },
+  {
+   "aliases": [
+    "why are defenders tired",
+    "stalemate at the tower",
+    "status of the fight"
+   ],
+   "answer": "The defenders are beginning to tire from prolonged combat under relentless assault. Facing superior numbers without relief, the garrison risks losing ground unless action is taken quickly to break the stalemate.",
+   "q": "What is the current status of the defenders?"
+  },
+  {
+   "aliases": [
+    "did we win tower defense",
+    "how does tower defense end",
+    "what happens after holding them off"
+   ],
+   "answer": "Holding off the assault is only a temporary reprieve rather than a final victory. The forces on the ground recognize that fatigue will overcome them unless an immediate plan breaks the deadlock.",
+   "q": "Does holding the line resolve the battle?"
+  },
+  {
+   "aliases": [
+    "where is tower defense located",
+    "tower defense zone",
+    "what tower is this"
+   ],
+   "answer": "The defense takes place at a fortified outpost under siege, where defensive forces are stretched thin by constant pressure from numerous hostile combatants.",
+   "q": "Where does this defense take place?"
+  },
+  {
+   "aliases": [
+    "what needs to be done next",
+    "how to win the siege",
+    "breaking the stalemate"
+   ],
+   "answer": "The defenders must devise a fast strategy to break the siege and turn the tide before their exhausted frontline gives way under the weight of enemy numbers.",
+   "q": "What is needed to turn the tide?"
+  }
+ ],
+ "keywords": [
+  "defenders",
+  "exhaustion",
+  "fortification",
+  "outpost",
+  "siege",
+  "stalemate",
+  "tower defense"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Tower Defense centers on a desperate stand at a fortified position under heavy assault. The garrison manages to hold back the initial onslaught, but the enemy commands greater numbers and continues to press the advantage. With fatigue setting in among the surviving fighters, the temporary barrier between survival and defeat grows increasingly fragile.",
+   "spoiler": 0,
+   "title": "A Beleaguered Defense"
+  },
+  {
+   "body": "Despite maintaining a defensive perimeter, time works against the defending garrison. Prolonged skirmishing against superior numbers steadily depletes their energy, turning the engagement into a grueling war of attrition. To survive the siege, the defenders urgently require a decisive action to shatter the stalemate before their lines buckle.",
+   "spoiler": 0,
+   "title": "The Threat of Attrition"
+  }
+ ],
+ "summary": "Tower Defense marks a desperate holdout against overwhelming numbers at a fortified position. While the frontline defenders maintain a temporary stalemate, mounting exhaustion threatens to collapse the defense without swift intervention.",
+ "attribution": [
+  "In-game quest text: Tower Defense"
+ ]
+}
