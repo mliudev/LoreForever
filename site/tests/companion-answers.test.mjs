@@ -336,6 +336,23 @@ test("monthly reservation shares the $100 estimated-spend gate with stories and 
   assert.equal(await storyBudgetLeft(env), false);
 });
 
+test("a failed answer gives back the day it was counted on, so the companion's second ask costs one answer", async () => {
+  // LOR-673: a 502 kept the day's count, and the companion asks once more by itself (LOR-580): two answers for one.
+  const { token, user } = await linked();
+  const today = () => env.DB.sqlite.prepare("SELECT n FROM rate_limits WHERE user_id = ? AND bucket LIKE 'companion-answer:%'")
+    .get(user.id)?.n ?? 0;
+  const answering = globalThis.fetch;
+  globalThis.fetch = async () => { calls.push({ failed: true }); return new Response("error", { status: 503 }); };
+  const failed = await ask(token);
+  assert.equal(failed.status, 502);
+  assert.equal(today(), 0, "the failed answer kept the day's count");
+  globalThis.fetch = answering;
+  const again = await ask(token);
+  assert.equal(again.status, 200, JSON.stringify(again.body));
+  assert.equal(today(), 1);
+  assert.equal(again.body.allowance.remaining, ANSWERS_PER_DAY - 1);
+});
+
 test("a successful answer without usage data keeps its full budget reservation", async () => {
   const { token } = await linked();
   globalThis.fetch = async () => Response.json({ candidates: [{ content: { parts: [
@@ -558,4 +575,12 @@ test("published January pricing changes research spend while ordinary Flash-Lite
     assert.equal(ordinary.actual_micro - research.actual_micro, 125);
     assert.equal(ordinary.reserved_micro - research.reserved_micro, 125, "ordinary replies release their own unused estimate");
   }
+});
+
+test("knowledge over its bound keeps the blocks that fit, in order, never none", async () => {
+  const { knowledgeWithin } = await import("../lib/companion-answers.js");
+  const quest = "QUEST AND NPC FACTS:\n- one", place = "TOWN AND ROAD FACTS:\n- two", big = `FOREVER FACTS:\n- ${"x".repeat(80)}`;
+  assert.equal(knowledgeWithin(`${quest}\n\n${place}`, 1000), `${quest}\n\n${place}`);
+  assert.equal(knowledgeWithin(`${quest}\n\n${big}\n\n${place}`, 60), `${quest}\n\n${place}`);
+  assert.equal(knowledgeWithin(`FACTS:\n- a\n- ${"y".repeat(50)}`, 20), "FACTS:\n- a");
 });

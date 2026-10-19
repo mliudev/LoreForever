@@ -1,0 +1,308 @@
+<!doctype html>
+<!-- The creator terms below: Mike's go on 2026-10-18 (as written; not legal advice). Keep in step with lib/referrals.js -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creator program - Lore Forever</title>
+<meta name="description" content="Show Willo to your audience and earn 70% of the first month of every subscriber you bring.">
+<link rel="canonical" href="https://loreforeverwow.com/creators">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lore Forever creator program">
+<meta property="og:description" content="Show Willo to your audience and earn 70% of the first month of every subscriber you bring.">
+<meta property="og:url" content="https://loreforeverwow.com/creators">
+<meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
+<link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="/img/logo.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cinzel:wght@600;700&display=swap">
+<link rel="stylesheet" href="/style.css?v=20261018r">
+<link rel="stylesheet" href="/pages.css?v=20261016p">
+<script src="/header.js" defer></script>
+<script src="/js/share.js" defer></script>
+</head>
+<body class="bw">
+
+<header class="top">
+  <nav class="wrap nav" aria-label="Lore Forever">
+    <script>(c => { c.add("hd-wait"); try { if (JSON.parse(localStorage.getItem("lf-features")).lore === false) c.add("hd-nolore"); } catch (e) {} })(document.documentElement.classList)</script>
+    <a class="brand" href="/"><img src="/img/logo.svg" alt="" width="30" height="30"><span>Lore Forever</span></a>
+    <div class="nav-links">
+      <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
+      <a class="nl" id="nav-download" href="/downloads">Download</a>
+      <a class="nl" id="nav-lore" href="/lore">Lore</a>
+      <a class="nl" id="nav-new" href="/whats-new">What's new</a>
+      <a class="nl" id="nav-community" href="/feedback">Community</a>
+    </div>
+    <div class="head-actions"><a class="nl nl-pf" id="nav-profile" href="/account#profile"><svg class="nl-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span class="hd-wide">Make your profile</span><span class="hd-narrow">Profile</span></a></div>
+  </nav>
+</header>
+
+
+<!-- The creator program (lib/referrals.js, functions/api/creators/[action].js; LOR-503, CC-72; Patrick's Coaching 74
+     spec): what it is, the apply form for a signed-in account, an approved creator's dashboard (their link, clicks,
+     sign-ups, activated, paying, commission and payouts), and the creator terms. The numbers come from the site
+     (GET /api/creators/me: program, the creator's own terms), so this page never states a rate the code doesn't pay.
+     Public since Mike's go on the terms (2026-10-18): in the footer and the sitemap. -->
+<main class="bw-page">
+  <div class="h-sky bw-sky" aria-hidden="true"></div>
+  <div class="h-wrap bw-in vp-page vp-doc">
+  <h1>Bring your audience to Willo</h1>
+  <p class="pitch">Play WoW Forever on stream or make videos about it, and like Willo? Show her to your audience.
+    Every viewer who starts a plan through your link earns you <strong data-rate>70%</strong> of their first month.
+    No sponsorship deal and no script: try her first, and join if you like her.</p>
+
+  <!-- An approved creator's dashboard (creatorDashboard). -->
+  <section id="cp-dash" data-cp hidden aria-labelledby="cp-dash-title">
+    <h2 id="cp-dash-title">Your dashboard</h2>
+    <p class="ac-share-link"><code id="cp-url"></code>
+      <button class="btn-small" type="button" id="cp-copy">Copy link</button></p>
+    <p class="vp-note" id="cp-terms"></p>
+    <ul class="cp-tiles" id="cp-tiles" aria-label="What your link brought"></ul>
+    <div class="cp-box" aria-labelledby="cp-pay-title">
+      <h3 id="cp-pay-title">Payouts</h3>
+      <p id="cp-money"></p>
+      <p class="vp-note" id="cp-next"></p>
+      <p class="vp-note" id="cp-last" hidden></p>
+      <div id="cp-connect" hidden>
+        <form class="cp-form" id="cp-connect-form">
+          <label for="cp-country">Where you live</label>
+          <select id="cp-country">
+            <option value="US">United States</option><option value="CA">Canada</option><option value="GB">United Kingdom</option>
+            <option value="IE">Ireland</option><option value="DE">Germany</option><option value="FR">France</option>
+            <option value="ES">Spain</option><option value="IT">Italy</option><option value="NL">Netherlands</option>
+            <option value="BE">Belgium</option><option value="AT">Austria</option><option value="SE">Sweden</option>
+            <option value="DK">Denmark</option><option value="FI">Finland</option><option value="NO">Norway</option>
+            <option value="PL">Poland</option><option value="PT">Portugal</option><option value="CH">Switzerland</option>
+            <option value="AU">Australia</option><option value="NZ">New Zealand</option>
+          </select>
+          <button class="btn-small" type="submit">Set up payouts with Stripe</button>
+        </form>
+        <p class="vp-note">Stripe sends the money to your bank and may ask for your ID and tax details. Somewhere else?
+          Tell us on <a href="/discord?src=creators">Discord</a> and we'll pay you by hand.</p>
+      </div>
+      <p id="cp-stripe" hidden><button class="btn-small btn-small-alt" type="button" id="cp-stripe-btn">Your payouts on Stripe</button></p>
+      <p class="fb-status" id="cp-pay-status" role="status" hidden></p>
+    </div>
+    <h3>By month</h3>
+    <div class="cp-table-wrap"><table class="cp-table">
+      <thead><tr><th>Month</th><th>Sign-ups</th><th>Asked Willo</th><th>Paying</th><th>Earned</th></tr></thead>
+      <tbody id="cp-months"></tbody></table></div>
+  </section>
+
+  <h2>How it works</h2>
+  <ol class="cp-steps">
+    <li><strong>Apply</strong> below with a link to your channel. We read every application ourselves.</li>
+    <li><strong>Get your link</strong>, like <code>loreforeverwow.com/w/yourname</code>, and a dashboard on this page
+      with your clicks, sign-ups and earnings.</li>
+    <li><strong>Earn <span data-rate>70%</span> of each subscriber's first month.</strong> When someone who came
+      through your link starts a plan, you get that share of what they pay for their first month, before tax. Later
+      months are ours.</li>
+    <li><strong>Get paid monthly.</strong> A commission can be paid <span data-hold>30</span> days after the payment
+      it comes from, once you're owed at least <span data-min>$10</span>.</li>
+  </ol>
+
+  <!-- Apply (applyCreator): signed in; one open application per account. -->
+  <section id="cp-apply" aria-labelledby="cp-apply-title">
+    <h2 id="cp-apply-title">Apply</h2>
+    <p id="cp-signin" data-cp hidden><a class="btn-small" href="/account?next=/creators">Sign in to apply</a></p>
+    <p id="cp-state" data-cp hidden></p>
+    <form class="fb-form" id="cp-form" data-cp hidden>
+      <label class="fb-field"><span>Your name, as your audience knows it</span>
+        <input name="name" maxlength="60" required autocomplete="nickname"></label>
+      <label class="fb-field"><span>Your channel or page</span>
+        <input name="channel" type="url" maxlength="200" required placeholder="https://twitch.tv/you"></label>
+      <label class="fb-field"><span>Audience <span class="fb-optional">(optional)</span></span>
+        <input name="audience" maxlength="60" placeholder="About 2,000 followers"></label>
+      <label class="fb-field"><span>How to reach you</span>
+        <input name="contact" maxlength="200" placeholder="Email or Discord name">
+        <small>We use the email on your account if you leave this empty.</small></label>
+      <label class="fb-field"><span>Anything else <span class="fb-optional">(optional)</span></span>
+        <textarea name="note" maxlength="500" rows="3"></textarea></label>
+      <label class="fb-check"><input type="checkbox" name="agree" required> <span>I agree to the
+        <a href="#terms">creator terms</a>.</span></label>
+      <p class="fb-actions"><button class="btn-small" type="submit">Apply</button>
+        <span class="fb-status" id="cp-apply-status" role="status" hidden></span></p>
+    </form>
+  </section>
+
+  <h2 id="terms">Creator terms</h2>
+  <!-- Mike said go on these as written (2026-10-18). Still worth his look, later: the rate and first-month rule (lib/referrals.js
+       CREATOR_DEFAULTS, notePayment), the 30-day hold and $10 minimum (PAYOUTS), taxes (Stripe Connect Express collects
+       tax details and can file 1099s for US creators, a paid Stripe option), disclosure (FTC in the US), paying
+       creators outside the US (Stripe's cross-border payouts), and whether Stripe Managed Payments allows transfers to
+       connected accounts. -->
+  <ul>
+    <li><strong>Who can join.</strong> Creators we approve. We can say no, and we can end the program, or your part in
+      it, at any time; we tell you first, and what you earned before that is still paid, unless it broke these terms.</li>
+    <li><strong>What counts.</strong> Someone counts for you when they open your link, then make their Lore Forever
+      account or connect Willo for the first time within 30 days. People who already used Willo don't count, and
+      neither does anyone who came through another link first.</li>
+    <li><strong>What you earn.</strong> <span data-rate>70%</span> of what they pay for their first month of a plan,
+      before tax: their first full month, and any days or upgrade they paid for before it ends. Later months, and
+      anything else they buy, are ours.</li>
+    <li><strong>Refunds and disputes.</strong> If a payment is refunded or disputed, its commission is taken back, from
+      your next payout if it was paid already.</li>
+    <li><strong>Not allowed.</strong> Signing up yourself or accounts you control, paying for someone with your own
+      card, ads that bid on our names, spam, saying Willo is made or endorsed by Blizzard, or promising viewers money
+      back. Commissions from any of these don't count.</li>
+    <li><strong>Say it's a partnership.</strong> Tell your audience your link earns you money, wherever your platform or
+      the law asks you to (in the US, the FTC's endorsement rules).</li>
+    <li><strong>Payouts.</strong> Once a month, in US dollars, through Stripe once you've set up payouts on this page, or
+      by hand until then. A commission can be paid <span data-hold>30</span> days after its payment; we pay once you're
+      owed at least <span data-min>$10</span>, and less carries over. Taxes on what you earn are yours.</li>
+    <li><strong>Changes.</strong> We may change the rate or these terms. A change only applies to people who join
+      through your link after we've told you about it.</li>
+    <li><strong>Our names.</strong> You may use the Lore Forever and Willo names, and screenshots of them, to show
+      Willo to your audience. These terms sit alongside the site's <a href="/terms">Terms</a>.</li>
+  </ul>
+  </div>
+</main>
+
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const usd = cents => `$${((cents || 0) / 100).toFixed(2)}`;
+  const n0 = n => (n || 0).toLocaleString("en-US");
+  const day = iso => new Date(iso).toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
+  const monthName = key => new Date(key + "-01T00:00:00Z").toLocaleDateString(undefined, { month: "long", year: "numeric", timeZone: "UTC" });
+  const say = (id, text, good) => { const el = $(id); el.textContent = text || ""; el.hidden = !text; el.classList.toggle("fb-good", Boolean(good)); };
+  const post = async (url, body) => {
+    try {
+      const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body || {}) });
+      return await r.json();
+    } catch (e) { return { ok: false, error: "Couldn't reach the site. Please try again." }; }
+  };
+  // The program's numbers, from the site, wherever the page states them.
+  function numbers(p, mine) {
+    const rate = mine?.sharePct ?? p.sharePct;
+    document.querySelectorAll("[data-rate]").forEach(el => { el.textContent = `${rate}%`; });
+    document.querySelectorAll("[data-hold]").forEach(el => { el.textContent = String(p.holdDays); });
+    document.querySelectorAll("[data-min]").forEach(el => { el.textContent = usd(p.minimum).replace(".00", ""); });
+  }
+  function dashboard(c, stripeOn) {
+    $("cp-dash").hidden = false;
+    $("cp-url").textContent = c.url;
+    const t = c.terms, perks = [t.discount && `${t.discount}% off their first month`, t.gift && `${n0(t.gift)} extra answers`].filter(Boolean);
+    $("cp-terms").textContent = `You earn ${t.sharePct}% of each subscriber's first ${t.months === 1 ? "month" : `${t.months} months`}.` +
+      (perks.length ? ` Your audience gets ${perks.join(" and ")}.` : "") + (c.retired ? " Your link is switched off." : "");
+    const x = c.numbers;
+    $("cp-tiles").replaceChildren(...[[n0(x.clicks), "Clicks"], [n0(x.signups), "Sign-ups"], [n0(x.activated), "Asked Willo"],
+      [n0(x.paying), "Paying"], [usd(x.earned), "Earned"], [usd(x.paidOut), "Paid to you"]].map(([v, label]) => {
+      const li = document.createElement("li");
+      li.append(Object.assign(document.createElement("strong"), { textContent: v }), Object.assign(document.createElement("span"), { textContent: label }));
+      return li;
+    }));
+    $("cp-money").textContent = `Ready to pay: ${usd(x.payable)}. In the ${t.holdDays}-day hold: ${usd(x.held)}.` +
+      (x.reversed ? ` Taken back for refunds: ${usd(x.reversed)}.` : "");
+    const p = c.payouts;
+    $("cp-next").textContent = `Next payout: ${day(p.next)}, if at least ${usd(t.minimum)} is ready by then.`;
+    $("cp-last").hidden = !p.last;
+    if (p.last) $("cp-last").textContent = `Last payout: ${usd(p.last.cents)} on ${day(p.last.when)}` +
+      (p.last.method === "stripe" ? ", through Stripe." : ", by hand.");
+    $("cp-connect").hidden = !(stripeOn && !p.ready);
+    $("cp-stripe").hidden = !(p.connect);
+    if (!stripeOn) $("cp-next").textContent += " For now we pay by hand (a bank transfer or PayPal), and we'll write to you before the first one.";
+    else if (p.connect && !p.ready) $("cp-next").textContent += " Stripe is still checking your payout details.";
+    $("cp-months").replaceChildren(...(x.months || []).map(m => {
+      const tr = document.createElement("tr");
+      for (const v of [monthName(m.month), n0(m.signups), n0(m.activated), n0(m.paying), usd(m.earned)])
+        tr.append(Object.assign(document.createElement("td"), { textContent: v }));
+      return tr;
+    }));
+    if (!(x.months || []).length) $("cp-months").innerHTML = '<tr><td colspan="5">Nothing yet: share your link!</td></tr>';
+  }
+  async function load() {
+    let res;
+    try { res = await (await fetch("/api/creators/me", { cache: "no-store" })).json(); } catch (e) { res = null; }
+    if (!res?.ok) return;
+    numbers(res.program, res.creator?.terms);
+    for (const el of document.querySelectorAll("[data-cp]")) el.hidden = true;
+    if (!res.signedIn) { $("cp-signin").hidden = false; return; }
+    if (res.creator) {
+      dashboard(res.creator, res.stripe);
+      $("cp-state").hidden = false;
+      $("cp-state").textContent = "You're in the program. Your link and numbers are above.";
+      return;
+    }
+    const a = res.application;
+    if (a?.status === "pending") {
+      $("cp-state").hidden = false;
+      $("cp-state").textContent = `Thanks, ${a.name}! We got your application on ${day(a.created)} and will write to you soon.`;
+      return;
+    }
+    if (a?.status === "declined") {
+      $("cp-state").hidden = false;
+      $("cp-state").textContent = "We couldn't take your application this time. You can apply again later.";
+    }
+    $("cp-form").hidden = false;
+  }
+  $("cp-form").addEventListener("submit", async e => {
+    e.preventDefault();
+    const f = e.target, btn = f.querySelector("button");
+    btn.disabled = true;
+    const res = await post("/api/creators/apply", { name: f.name.value, channel: f.channel.value, audience: f.audience.value,
+      contact: f.contact.value, note: f.note.value, agree: f.agree.checked });
+    btn.disabled = false;
+    if (!res.ok) return say("cp-apply-status", res.error);
+    await load();
+  });
+  $("cp-copy").addEventListener("click", async () => {
+    const url = $("cp-url").textContent;
+    const done = await window.lfShare({ url, text: "Meet Willo, a wisp you can talk to in WoW Forever" });
+    say("cp-pay-status", done === "copied" ? "Link copied." : done === "failed" ? "Your link: " + url : "", true);
+  });
+  $("cp-connect-form").addEventListener("submit", async e => {
+    e.preventDefault();
+    const res = await post("/api/creators/payouts", { country: $("cp-country").value });
+    if (res.ok) location.href = res.url; else say("cp-pay-status", res.error);
+  });
+  $("cp-stripe-btn").addEventListener("click", async () => {
+    const res = await post("/api/creators/stripe");
+    if (res.ok) location.href = res.url; else say("cp-pay-status", res.error);
+  });
+  const back = new URLSearchParams(location.search).get("payouts");
+  load().then(() => {
+    if (back === "done") say("cp-pay-status", "Thanks! Stripe is checking your details; payouts go there once it's done.", true);
+    if (back === "again") say("cp-pay-status", "That link ran out. Press Set up payouts with Stripe again.");
+  });
+})();
+</script>
+
+<!-- The footer, as on the home page (style.css .h-foot): the optional email sign-up (js/foot.js sends it to
+     functions/api/subscribe.js, saved with this page's data-source; no confirmation email, /unsubscribe takes an
+     address off), then the site's parts in columns. -->
+<footer class="h-foot">
+  <div class="h-wrap">
+    <div class="h-foot-grid">
+      <div class="h-sign">
+        <span class="h-brand"><img src="/img/logo.svg" alt="" width="30" height="30">Lore Forever</span>
+        <p>One email when a new version is out, and your address is used for nothing else
+          (<a href="/privacy">privacy</a>). <a href="/unsubscribe">Unsubscribe anytime</a>.</p>
+        <form class="h-sub-form" id="signup" data-source="creators-page">
+          <label for="signup-email" class="h-vh">Email address</label>
+          <input type="email" name="email" id="signup-email" required placeholder="you@example.com" autocomplete="email">
+          <input type="text" name="website" class="h-vh" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button type="submit" class="h-btn h-ghost h-sm">Notify me</button>
+          <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
+        </form>
+      </div>
+      <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/lore">Lore library</a></li><li><a href="/whats-new">What's new</a></li></ul></nav>
+      <nav aria-label="Willo"><h2>Willo</h2><ul><li><a href="/willo">Meet Willo</a></li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li><li><a href="/faq">FAQ</a></li></ul></nav>
+      <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/translate">Help translate</a></li><li><a href="/contributors">Contributors</a></li><li><a href="/creators">Creator program</a></li></ul></nav>
+      <nav aria-label="About"><h2>About</h2><ul><li><a href="/feedback">Send feedback</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/refunds">Refunds</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>
+    </div>
+    <div class="h-legal">
+      <p>Lore text is adapted from the <a href="https://warcraft.wiki.gg">Warcraft Wiki</a> under
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+      <p>Lore Forever is a fan-made add-on. World of Warcraft and Warcraft are trademarks of Blizzard Entertainment, Inc.
+        Not affiliated with or endorsed by Blizzard.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/foot.js?v=20261015a" defer></script>
+</body>
+</html>

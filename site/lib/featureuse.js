@@ -51,6 +51,8 @@ export const KEYS = {
     offline: "Willo answers from the lore library (live answers used up)", freecap: "free live answers used up",
     psync: "profile updates sent", picnew: "pictures added to the picture book", picup: "pictures put on the profile",
     listen: "narrations played in the companion",
+    report: "Willo answers marked Not right", like: "Willo answers given a thumbs up",
+    interrupt: "times the player cut Willo off mid-answer",
   },
   byKind: {
     play: NARRATION, done: NARRATION, autoplay: NARRATION, autodone: NARRATION, userplay: NARRATION, userdone: NARRATION,
@@ -58,10 +60,16 @@ export const KEYS = {
     asked: ["typed", "slash", "hover", "quest", "next", "complete", "primer", "link", "other"],
     pl: ["add", "quest", "here", "play", "next", "prev", "jump", "clear"],
     lv: ["0", "10", "20", "30", "40", "50", "60"],
-    voice: ["default", "female", "edition", "other", "none"],
+    voice: ["default", "female", "original", "edition", "other", "none"],
     lang: LOCALES, client: LOCALES,
     on: [...ADDON_SETTINGS, ...COMPANION_SETTINGS], off: [...ADDON_SETTINGS, ...COMPANION_SETTINGS],
     set: COMPANION_SETTINGS.filter(s => s !== "connected"),
+    // Willo's failures (the feedback loop, 10/18; lib/willo-quality.js): answers that failed by why, her voice not
+    // playing as it should (the PC's own voice took over, the rest came as captions, the speakers wouldn't open), and
+    // takes asked out loud by how they ended ("asked" is the one that worked).
+    afail: ["no_reach", "tangled", "signed_out", "out_of_answers"],
+    vfail: ["pc", "captions", "sound"],
+    take: ["asked", "mic", "mic_silent", "ears", "cut_off", "empty", "short"],
   },
 };
 // KEYS-END
@@ -106,6 +114,8 @@ export const FEATURES = [
   ["picbook", "Picture book", ["picnew"]],
   ["picup", "Pictures put on the profile", ["picup"]],
   ["listen", "Narration in the companion", ["listen"]],
+  ["willo.report", "Marked a Willo answer Not right", ["report"]],
+  ["willo.like", "Gave a Willo answer a thumbs up", ["like"]],
   ["settings", "Changed a companion setting", ["set.*"]],
   ["errors", "Had a Lua error", ["err"]],
 ];

@@ -207,7 +207,7 @@ def linux_manifest(args):
     fingerprints = cv.source_fingerprints(projects, files, version)
     proof = {'version': 1, 'producer': 'linux', 'binding': bound, 'assets': [row(p, n) for n, p in sorted(files.items())],
              'installerInputs': inputs, 'candidateZipSha256': candidate['sha256'], 'curseforge': fingerprints,
-             'smokeSelections': {s: s == 'base' or bool(downloads['selections'][s]) for s in SELECTIONS}}
+             'smokeSelections': {s: s == 'base' or bool(downloads['selections'].get(s)) for s in SELECTIONS}}
     write(args.output, proof)
     print(json.dumps({'releaseFiles': len(files), 'releaseBytes': sum(p.stat().st_size for p in files.values()),
                       'windowsFiles': len(inputs), 'windowsBytes': sum(r['bytes'] for r in inputs)}))

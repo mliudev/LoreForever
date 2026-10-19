@@ -62,14 +62,6 @@
    ],
    "answer": "Riaani is completely engrossed in technical labor and somewhat impatient when interrupted. He views most adventurers as untrained novices until they prove capable of following mechanical instructions.",
    "q": "Why is Riaani skeptical of your help?"
-  },
-  {
-   "aliases": [
-    "where is vice",
-    "vice subzone"
-   ],
-   "answer": "Vice is the surrounding locale tied to the presence of Riaani Nightwind and his engineering efforts on the broken construct.",
-   "q": "Where does this work take place?"
   }
  ],
  "keywords": [
@@ -78,12 +70,9 @@
   "construct",
   "engineering",
   "riaani nightwind",
-  "the broken construct",
-  "vice"
+  "the broken construct"
  ],
- "related": [
-  "subzone:vice"
- ],
+ "related": [],
  "sections": [
   {
    "body": "The Broken Construct begins when an adventurer is dispatched by Ayessa to aid Riaani Nightwind. Riaani is hard at work attempting to diagnose a damaged construct, his attention completely absorbed by the device's inner components. Though he is surprised to receive outside help and doubts whether an untrained traveler can handle delicate mechanical work, he agrees to outline a few necessary tasks once he pulls himself out of the machinery.",

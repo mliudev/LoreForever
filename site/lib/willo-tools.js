@@ -8,7 +8,7 @@
 // side: where a look-up runs. "willo": Willo's app on the player's PC, which sends what it found with the question (in
 // the prompt's sections, companion/lore_companion/answer.py); "site": here, while the answer is written.
 import { realWorld } from "./research-cache.js";
-import { helpTopics, helpQuestion } from "./willo-help.js";
+import { helpTopics, helpQuestion, clientFrom, keepsAsked } from "./willo-help.js";
 import { voiceLabel, voicePhrase } from "./character-voices.js";
 
 export const LOOKUPS = {
@@ -19,6 +19,7 @@ export const LOOKUPS = {
   pc: { side: "willo", what: "graphics card, processor and memory, for a question about their computer (pc.py)" },
   state: { side: "willo", what: "Willo's own state: the Willo and the game checks, talking, seeing the game, her voice" },
   friends: { side: "willo", what: "where the friends a question names were last seen, if they share it (FRIENDS, lib/friends.js)" },
+  notebook: { side: "site", what: "their notebook: all of it asked about or written in, else lines sharing a word (lib/willo-notebook.js)" },
   forever_facts: { side: "site", what: "checked WoW Forever facts and quests (lib/forever-knowledge.js)" },
   web: { side: "site", what: "a quick look online for the player's own world (lib/companion-answers.js lookUp)" },
   help: { side: "site", what: "Willo's own help (lib/willo-help.js)" },
@@ -32,8 +33,13 @@ export const LOOKUPS = {
 export function lookupsFor(question, { previous = "", answered = "", persona = "willo", operation = "answer", plans = false } = {}) {
   if (operation !== "answer") return [];
   const topics = persona === "willo" ? helpTopics(helpQuestion(question, previous, answered), { plans }) : [];
-  if (topics.length) return ["help", "state", ...(topics.includes("plans") ? ["answers_left"] : [])];
-  return realWorld(question, previous) ? ["web"] : [];
+  // A short follow-up that names nothing of hers ("Is there any way to change that?") is about what came before: the
+  // game's own interface there looks online rather than taking her help from her last answer (LOR-652: it got a
+  // made-up Combat setting, then a second one).
+  const own = topics.length && helpTopics(question, { plans }).length;
+  if (topics.length && (own || !realWorld(question, previous, answered)))
+    return ["help", "state", ...(topics.includes("plans") ? ["answers_left"] : [])];
+  return realWorld(question, previous, answered) ? ["web"] : [];
 }
 
 // Actions (LOR-546 slice 2): what one of Willo's answers may offer to do, at most one, from this fixed list. The site
@@ -47,12 +53,20 @@ export function lookupsFor(question, { previous = "", answered = "", persona = "
 // same explanation her Settings card gives, and only a click on its Turn on turns it on, never a spoken yes; Undo turns
 // it off. topics: the help topics (lib/willo-help.js) a question has to touch for it.
 export const ACTIONS = {
-  open_settings: { side: "willo", confirm: "tap", topics: ["problems", "talk", "voice", "wisp", "sight", "live"],
+  open_settings: { side: "willo", confirm: "tap", topics: ["problems", "talk", "voice", "wisp", "sight", "live", "color",
+    "settings"],
     what: "opens a card in her Settings (SECTIONS)" },
   open_plans: { side: "willo", confirm: "tap", money: true, topics: ["plans", "voice"],
     what: "opens the Plans page in the browser, signed in (/api/account/open); never buys" },
   open_billing: { side: "willo", confirm: "tap", money: true, topics: ["plans"],
     what: "opens Billing in the browser, signed in (/api/account/open)" },
+  // What Willo keeps (LOR-666, lib/willo-keeps.js): only from the app that has it (KEEPS_FROM), in her window.
+  open_keeps: { side: "willo", confirm: "tap", topics: ["privacy"],
+    what: "opens What Willo keeps in the browser, signed in (/api/account/open): everything she keeps, to change or erase" },
+  // "Willo, send this to Mike" (LOR-674): offered only by the site's own fixed answer to a send (lib/friend-send.js),
+  // never to the answer model (no topics). Undo takes the message back while the friend hasn't read it.
+  send_to_friend: { side: "willo", confirm: "yes", undo: true, topics: [],
+    what: "sends a friend a place, item, quest, character or story as a message (/api/friends/send, a card)" },
   send_feedback: { side: "willo", confirm: "send", topics: ["problems"],
     what: `fills in "Something's wrong" with a note; the player presses Send` },
   set_voice: { side: "willo", confirm: "yes", undo: true, topics: ["voice"],
@@ -66,7 +80,12 @@ export const ACTIONS = {
   see_the_game: { side: "willo", confirm: "consent", undo: true, topics: ["sight"],
     what: "seeing the game when asked out loud (Hero and up), turned on by the player's click under its explanation" },
 };
-// The Settings cards open_settings opens, by the help topic that asks for it, with its button's words.
+// The Settings cards open_settings opens, by the help topic that asks for it, with its button's words. from: only for a
+// companion that has it (companion/lore_companion/actions.py SECTIONS), by its X-LF-Client: 0.21.0 has her color's card
+// but drops a button to it, so color and settings from the release after it.
+const SECTIONS_FROM = [0, 21, 1];
+// open_keeps: the release after 0.21.0 has it (companion/lore_companion/actions.py PAGES).
+const KEEPS_FROM = [0, 21, 1];
 export const SECTIONS = {
   health: { topic: "problems", label: "Show what's working" },
   talk: { topic: "talk", label: "Show the talk key" },
@@ -76,6 +95,10 @@ export const SECTIONS = {
   // Offered when her own switch is on already (off: the consent offer; unticked in the add-on: "health"), so what helps
   // is the card's step in the game (the add-on's own switch, Mike's QA 10/15).
   live: { topic: "live", label: "How to turn it on in the game" },
+  // Her color's card, and her Settings for a question about them (Mike, 10/17: "I was expecting one of those chips to
+  // open settings").
+  color: { topic: "color", label: "Show my colors", from: SECTIONS_FROM },
+  settings: { topic: "settings", label: "Open my Settings", from: SECTIONS_FROM },
 };
 // The keys Willo hears (companion/lore_companion/talk/ptt.py KEYS), with their names as gamelink.short says them.
 export const TALK_KEYS = Object.fromEntries([
@@ -98,6 +121,17 @@ export const ACTION_RULES = "WILLO ACTIONS: besides answering, you can do the th
 // Asked out loud: the wisp never sells.
 export const SPOKEN_ACTION_RULE = "Out loud, never name a plan or a price.";
 
+// A question that asks for another voice of hers: switching it, a voice of their choosing, someone she could sound like.
+// A voice only talked about ("just testing your various voices") offers her voices' card instead, never a switch: Mike,
+// 10/17, out loud, got "Switch to Starling" for that, beside her words offering a dwarf or a night elf.
+export const WANTS_VOICE = /\b(?:switch|change|swap|use|pick|choose|set)\b[^.?!]*\bvoices?\b|\bvoices?\b[^.?!]*\b(?:switch|change|swap|instead)\b|\b(?:different|another|other|new|deeper|lower|higher|softer|calmer|male|female|man's|woman's)\b[^.?!]*\bvoices?\b|\b(?:sound|speak|talk) (?:like|as) (?:an? )?\w+|\bswitch to\b/i;
+// That, or one of her voices by name ("use Moonwell"). asked null: any question (a caller without one).
+const wantsVoice = (asked, picks) => {
+  if (asked === null) return true;
+  const q = String(asked).replace(/’/g, "'");
+  return WANTS_VOICE.test(q) || picks.some(v => !voiceLabel(v) && new RegExp(`\\b${v}\\b`, "i").test(q));
+};
+
 // The free key Willo's own check found for her talk key (WILLO STATE's talk line: "fix: the Use F9 button in Settings ›
 // Willo and the game", companion/lore_companion/gamelink.py), as its TALK_KEYS id, or "".
 export function freeKey(state) {
@@ -115,9 +149,11 @@ export function freeKey(state) {
 // switch about half the time, 10/15); fixable: her checks name a fix for something off (then no "Something's wrong":
 // Flash-Lite offered it instead of the fix); off: what she says is off in her own window (WILLO STATE: {live, sight}),
 // the only time she offers to turn it on; sight: the plan lets her see the game (Hero and up while plans are sold);
-// spoken: asked out loud, so nothing about money; plans: the site sells plans.
+// spoken: asked out loud, so nothing about money; plans: the site sells plans; client: the companion's X-LF-Client, for
+// the sections only some have (SECTIONS from; null: all); asked: the question, for set_voice only when it asks for
+// another voice (WANTS_VOICE; null: any).
 export function actionsFor(topics, { voices = [], current = "", key = "", liveOff = false, fixable = false,
-  off = {}, sight = true, spoken = false, plans = false } = {}) {
+  off = {}, sight = true, spoken = false, plans = false, client = null, asked = null } = {}) {
   const on = new Set(topics || []);
   const has = id => ACTIONS[id].topics.some(t => on.has(t)) && !(ACTIONS[id].money && (spoken || !plans));
   const picks = voices.filter(v => v !== String(current).toLowerCase());
@@ -129,7 +165,8 @@ export function actionsFor(topics, { voices = [], current = "", key = "", liveOf
   // The talk key's card only when she can't set a free key herself; with Live game info off, only "Willo and the game"
   // for the live topic (and not Seeing the game, which a question about her target touches too).
   const offLive = liveOff && on.has("live");
-  const sections = Object.keys(SECTIONS).filter(s => !(s === "talk" && keyed) && !(s === "live" && live)
+  const sections = Object.keys(SECTIONS).filter(s => !(SECTIONS[s].from && client !== null && !clientFrom(client, SECTIONS[s].from))
+    && !(s === "talk" && keyed) && !(s === "live" && live)
     && !(s === "sight" && (see || live)) && (offLive && (s === "live" || s === "sight")
     ? false : on.has(SECTIONS[s].topic) || (s === "health" && offLive)));
   const out = [];
@@ -139,14 +176,15 @@ export function actionsFor(topics, { voices = [], current = "", key = "", liveOf
   if (see) out.push({ name: "see_the_game",
     description: "Seeing the game is off in your window: with it on you'd see their screen when they ask out loud. " +
       "This shows them how it works, and they turn it on themselves." });
-  if (has("set_voice") && picks.length) out.push({ name: "set_voice",
+  if (has("set_voice") && picks.length && wantsVoice(asked, picks)) out.push({ name: "set_voice",
     description: "Switch your voice to another of the voices their plan has" + (picks.some(v => voiceLabel(v))
       ? ": your own, or one you borrow from Azeroth's peoples, by people and gender (dwarf-male)." : "."),
     parameters: { type: "object", properties: { voice: { type: "string", enum: picks } }, required: ["voice"] } });
   if (keyed) out.push({ name: "set_talk_key",
     description: `Move your talk key to ${TALK_KEYS[key]}, which the game doesn't use.`,
     parameters: { type: "object", properties: { key: { type: "string", enum: [key] } }, required: ["key"] } });
-  if (has("new_chat")) out.push({ name: "new_chat",
+  // Not for a question about what she keeps: a new chat erases nothing (open_keeps is its offer, keepsOffer).
+  if (has("new_chat") && !on.has("privacy")) out.push({ name: "new_chat",
     description: "Start a new chat once they tap it; this one stays in their list, and nothing is deleted." });
   // "Something's wrong" only when her own checks know no fix: with one, that fix is the answer.
   if (has("send_feedback") && !fixable) out.push({ name: "send_feedback",
@@ -155,7 +193,7 @@ export function actionsFor(topics, { voices = [], current = "", key = "", liveOf
     parameters: { type: "object", properties: { note: { type: "string", description: "What's wrong, in one short " +
       "sentence in the player's words." } }, required: ["note"] } });
   if (sections.length) out.push({ name: "open_settings",
-    description: "Show the card in your own window's Settings: what's working, and your own switches. It can't change " +
+    description: "Show the card in your own window's Settings: what's working, your own switches, your color. It can't change " +
       "anything in the game or its add-on, so a fix there is still theirs to do in the game.",
     parameters: { type: "object", properties: { section: { type: "string", enum: sections } }, required: ["section"] } });
   // Plans for a voice only when the plan has no other voice to switch to.
@@ -163,7 +201,17 @@ export function actionsFor(topics, { voices = [], current = "", key = "", liveOf
     description: "Open the Plans page (what each plan adds, with prices) in their browser. It never buys anything." });
   if (has("open_billing")) out.push({ name: "open_billing",
     description: "Open their billing (payments, receipts, cancelling) in their browser." });
+  if (has("open_keeps") && keepsAsked(asked) && !spoken && (client === null || clientFrom(client, KEEPS_FROM))) out.push({ name: "open_keeps",
+    description: "Open What Willo keeps in their browser: everything you keep about them, where they can change or " +
+      "erase any of it." });
   return out;
+}
+
+// A question about what she keeps always ends with the page's button (LOR-666's blind check: Flash-Lite answered "what
+// do you know about me?" from the player's context and never offered it, and offered a new chat for "forget
+// everything"): open_keeps, whenever it was offered, whatever the model called.
+export function keepsOffer(offered) {
+  return (offered || []).some(d => d.name === "open_keeps") ? { id: "open_keeps", args: {}, label: "Open What Willo keeps" } : null;
 }
 
 // The one action an answer offers, from the model's function call: {id, args, label}, or null for anything not offered,
@@ -183,6 +231,7 @@ export function actionOf(call, offered) {
     open_settings: () => SECTIONS[args.section].label,
     open_plans: () => "Open Plans",
     open_billing: () => "Open Billing",
+    open_keeps: () => "Open What Willo keeps",
     send_feedback: () => "Tell us what's wrong",
     set_voice: () => `Switch to ${voiceName(args.voice)}`,
     new_chat: () => "Start a new chat",
@@ -211,6 +260,7 @@ export function offerLine(action) {
     open_settings: "I can show you where that is in my Settings.",
     open_plans: "The Plans page has what each plan adds.",
     open_billing: "Your billing has your payments.",
+    open_keeps: "Everything I keep for you is on one page, where you can change or erase any of it.",
     send_feedback: "I can't fix that one myself. Want to tell the people who made me?",
     set_voice: `How about ${voiceSaid(action.args.voice || "")}? Want me to switch?`,
     new_chat: "Want a fresh chat? This one stays in your list.",

@@ -61,8 +61,9 @@
 //                            into the wrong place can't charge anyone.
 //   LAUNCH_WEEK_START        when the beta promo starts (an ISO date-time with its zone): the ship step sets it in
 //                            Production when the Willo release publishes. Unset, there's no promo (launchWindow).
-//   BETA_END                 optional: when the beta promo ends (an ISO date-time with its zone); unset, or not such a
-//                            date-time, BETA_END_DEFAULT (November 3, 2026, 23:59:59 Pacific).
+//   BETA_END                 optional: when the beta promo ends and full price starts, WoW Forever's launch (an ISO
+//                            date-time with its zone); unset, or not such a date-time, BETA_END_DEFAULT (November 4,
+//                            2026, 3 p.m. Pacific).
 //   PROMO_NOW                a preview's clock for the beta promo (test-mode Stripe only; Production ignores it).
 // scripts/stripe-setup.mjs makes the products, prices, portal settings and webhook from the constants below.
 // Kept outside functions/ so Pages doesn't route it.
@@ -157,8 +158,8 @@ const pickLine = azeroth => azeroth
 // characters answer in Willo's own voice (older companions still read it); research: answers that check the web (the
 // site also enforces it).
 export const COMPANION_FEATURES = {
-  free: { voices: "default", push_to_talk: false, sight: false, npc_voices: false, research: false },
-  paid: { voices: "all", push_to_talk: true, sight: true, npc_voices: true, research: true },
+  free: { voices: "default", push_to_talk: false, sight: false, npc_voices: false, research: false, reminders: false },
+  paid: { voices: "all", push_to_talk: true, sight: true, npc_voices: true, research: true, reminders: true },
 };
 // starter: the free plan's spoken starter replies left (lib/companion-voice.js voiceAllowance starterLeft). Typed
 // questions get text answers; only questions asked out loud are answered aloud (Mike, 2026-10-14), so while the
@@ -192,7 +193,8 @@ const FIRST = {
 // azeroth: the Voices of Azeroth are in the picker (the site feature "azeroth", or the asking companion has them).
 export const planFeatures = ({ azeroth = false } = {}) => ({
   free: [FIRST.free, "The whole add-on, every narration pack and language"],
-  hero: [FIRST.hero, answers(PLANS.hero), WEB, `${NAME} sees your game`, `Preset ${NAME} styles`],
+  hero: [FIRST.hero, answers(PLANS.hero), WEB, `${NAME} sees your game`, `${NAME} keeps your goals and tracks them`,
+         `Preset ${NAME} styles`],
   champion: [FIRST.champion, pickLine(azeroth), answers(PLANS.champion), WEB, `${NAME}'s longer memory`,
              `Write ${NAME}'s personality`, "Rewrite NPCs as your own tale", `Create your own ${NAME} voice (coming soon)`],
   legend: [FIRST.legend, pickLine(azeroth), answers(PLANS.legend), WEB, "Everything in Champion"],
@@ -231,91 +233,86 @@ export const VOICE_PACK_BLURB = `${VOICE_PACK.replies} replies in ${COMPANION_NA
   "plan's own. Yours until you use them.";
 
 // The beta promo (LOR-500, Mike, 2026-10-14: "If you sign up during the beta, you get half off or free hero for a
-// month", and no monthly plan cut off before its month ends). It runs from the moment the Willo release publishes to
-// the end of the WoW Forever beta (launchWindow): the start is the Pages variable LAUNCH_WEEK_START (an ISO date-time
-// with its zone, e.g. "2026-10-20T18:30:00Z"; named for the launch week it first started), which the ship step sets
-// in Production when it publishes the release, and the end is BETA_END, the same kind of date-time, or
-// BETA_END_DEFAULT when that's unset or not one. LAUNCH_WEEK_START unset or not such a date-time: no promo at all,
-// nothing on /plans.
-// - A full month of Hero, on us, with no card (planFor, with launch: true): a signed-in free account's month starts
-//   the first time its plan is looked at during the beta (signing in on /account or /plans, or the companion's first
-//   check; freeHeroMonth) and lasts BETA_HERO_DAYS days from then, past the beta's end too. Once per Google account,
-//   ever (its "free" claim in promo_claims, with the month's start), so deleting the account and coming back doesn't
-//   start another. It's Hero's plan: Hero's 900 answers for the month (one pool, from the month's start: poolWindow
-//   reads `until`) and 100 a day, look-ups, sight, styles, and all of Willo's voices on the PC with push-to-talk; they
-//   don't count toward the free plan's month. When the month ends the account is on the free plan again by itself.
+// month"; then 2026-10-17: "the promise for the plans is half off for the beta period only, then full price for when
+// the full game launches"). It runs from the moment the Willo release publishes to WoW Forever's launch
+// (launchWindow): the start is the Pages variable LAUNCH_WEEK_START (an ISO date-time with its zone, e.g.
+// "2026-10-20T18:30:00Z"; named for the launch week it first started), which the ship step sets in Production when it
+// publishes the release, and the end is BETA_END, the same kind of date-time, or BETA_END_DEFAULT (the launch,
+// November 4, 3 p.m. Pacific: Blizzard) when that's unset or not one. LAUNCH_WEEK_START unset or not such a
+// date-time: no promo at all, nothing on /plans. The launch is every plan's pay day: from it, everyone pays full price.
+// - Hero on us, with no card (planFor, with launch: true): a signed-in free account's free Hero month starts the first
+//   time its plan is looked at during the beta (signing in on /account or /plans, or the companion's first check;
+//   freeHeroMonth) and runs to the launch (or BETA_HERO_DAYS, if that's sooner). Once per Google account, ever (its
+//   "free" claim in promo_claims, with the month's start), so deleting the account and coming back doesn't start
+//   another. It's Hero's plan: Hero's 900 answers (one pool: poolWindow reads `until`) and 100 a day, look-ups, sight,
+//   styles, and all of Willo's voices on the PC with push-to-talk; they don't count toward the free plan's month.
+//   At the launch the account is on the free plan again by itself.
 // - What those answers cost is kept apart (answer_user_spend.launch_micro): never the shared free budget's, nor a plan
 //   bought later's; Hero's cost caps hold it for each account. Once the promo's total passes LAUNCH_WEEK_BRAKE_MICRO,
 //   free accounts are on the free plan (months under way stop, no new one starts), and nothing says so.
-// - The offers (launchOffer), on a checkout during the beta, each once per account, ever (promoClaim: buying,
-//   cancelling and buying again, or deleting the account and coming back, doesn't bring a second):
-//   - "Keep Hero": a Hero bought during the beta is a Stripe trial, so the offer stays one month of Hero (Mike,
-//     2026-10-14: "a month", not up to two): bought during the account's free Hero month, the trial ends when that
-//     month does (trial_end; at least TRIAL_MIN_SECONDS on, Checkout's shortest trial); with no free month running,
-//     BETA_HERO_DAYS days from that day (trial_period_days). Nothing is charged until then, even past the beta, and
-//     $4.99 a month after (keepHeroEnds).
-//   - 50% off the first month of Champion or Legend (LAUNCH_COUPONS: an amount_off coupon each, duration once, so the
-//     price lands on exactly $4.99 and $9.99), on its checkout during the beta, or on an upgrade then (changePlan; one
-//     from a Hero trial ends the trial and starts the paid month now, so the confirm says the discounted month).
-//     The first month's caps are the plan's own (no extra room); every later month is the plan's as always.
-//   The first-month-of-Champion promo for a Hero bought then went (entitlements.promo_champion_until is unused).
-// - /plans says so (launchText: a banner; the cards' crossed-out prices and tags) during the beta, with its last day in
-//   Pacific time; a free Hero month and a Hero trial say the day they end.
-export const BETA_END_DEFAULT = "2026-11-03T23:59:59-08:00";
+// - A plan bought during the beta (createCheckout) starts its months at the launch (billing_cycle_anchor), so its
+//   first full charge is then and every month after is the full price. Until then: "Keep Hero" is free (no
+//   proration: nothing charged before the launch), and Champion and Legend are half price for the days left (a
+//   prorated first invoice with BETA_HALF on it: 50% off, once). An upgrade then is half price for the days left too
+//   (changePlan), and one from a plan that's free until the launch (a Stripe trial: Keep Hero, or a plan moved to
+//   the launch by payDay) keeps it free until then. The plans bought before this (the 11 of 2026-10-18) were moved to
+//   the launch by payDay, with what they'd paid for the days after it credited back.
+// - /plans and /account say so (launchText: "Half price during the beta. Full price from launch, November 4."; the
+//   cards' crossed-out prices and tags) during the beta; a free Hero month and Keep Hero say the day they end.
+export const BETA_END_DEFAULT = "2026-11-04T15:00:00-08:00";
 export const BETA_HERO_DAYS = 30;
 const DAY_MS = 86400e3;
-// Checkout's shortest trial_end (48 hours, and a little).
+// Checkout's shortest trial_end (48 hours, and a little): the soonest payDay moves a plan to.
 export const TRIAL_MIN_SECONDS = 2 * 86400 + 600;
-// Stripe's coupons for the 50% first months, made by scripts/stripe-setup.mjs (test mode, and --live at the ship).
-// name: what Checkout and the invoice show (Stripe takes 40 characters at most; the script updates it).
+// The beta's half price (BETA_HALF): Stripe's coupon for the days until the launch, 50% off once (the prorated first
+// invoice, or an upgrade's), for Champion and Legend. Stripe won't put an amount_off coupon on a prorated first
+// invoice, so it's a percent_off one; made by scripts/stripe-setup.mjs, or by the site itself the first time it's
+// needed (betaCoupon). name: what Checkout and the invoice show (40 characters at most).
+export const BETA_HALF = { id: "lore_forever_beta_half", percentOff: 50, name: "Beta: half price until launch",
+                           plans: ["champion", "legend"] };
+// The first months' $5 and $10 off from before (2026-10-14 to 10-18): no longer offered, kept for the subscriptions that
+// had them (/admin's comps leave them out) and for scripts/stripe-setup.mjs.
 export const LAUNCH_COUPONS = {
   champion: { id: "lore_forever_launch_champion", amountOff: 500, name: "Beta: 50% off your first month" },
   legend: { id: "lore_forever_launch_legend", amountOff: 1000, name: "Beta: 50% off your first month" },
 };
-// Which once-per-account claim an offer is: the Hero trial, or a 50% first month (Champion's or Legend's, one of them).
-// The free Hero month's claim is "free" (freeHeroMonth).
-const offerKind = planId => planId === "hero" ? "hero" : LAUNCH_COUPONS[planId] ? "half" : null;
+// Which beta price a plan has, for its metadata.launch and promo_claims (/admin's counts): Hero free ("hero"), or
+// Champion's or Legend's half price ("half"). The free Hero month's claim is "free" (freeHeroMonth).
+const offerKind = planId => planId === "hero" ? "hero" : BETA_HALF.plans.includes(planId) ? "half" : null;
 export const LAUNCH_WEEK_BRAKE_MICRO = 300_000_000;
 const ISO_MOMENT = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2}(\.\d{1,3})?)?(Z|[+-]\d{2}:\d{2})$/;
 const moment = v => { const s = String(v ?? "").trim(); return ISO_MOMENT.test(s) ? Date.parse(s) : NaN; };
-// The beta promo, from LAUNCH_WEEK_START to BETA_END (both included): {start, end} (milliseconds), or null when the
-// start isn't set to an ISO date-time (or isn't before the end).
+// The beta promo, from LAUNCH_WEEK_START to BETA_END (the launch, not included): {start, end} (milliseconds), or null
+// when the start isn't set to an ISO date-time (or isn't before the end).
 export function launchWindow(env) {
   const start = moment(env?.LAUNCH_WEEK_START), set = moment(env?.BETA_END);
   const end = Number.isFinite(set) ? set : Date.parse(BETA_END_DEFAULT);
   return Number.isFinite(start) && end > start ? { start, end } : null;
 }
-// Whether `at` (a Date: launchNow's, or when a subscription was made) is in the beta promo.
+// Whether `at` (a Date: launchNow's, or when a subscription was made) is in the beta promo: before the launch.
 export function launchWeek(env, at = launchNow(env)) {
   const week = launchWindow(env), ms = at?.getTime?.();
-  return Boolean(week) && Number.isFinite(ms) && ms >= week.start && ms <= week.end;
+  return Boolean(week) && Number.isFinite(ms) && ms >= week.start && ms < week.end;
 }
-// A day as players read it: "November 3" (Pacific time, where the promo is told).
+// A day as players read it: "November 4" (Pacific time, where the promo is told).
 const pacificDay = ms => new Date(ms).toLocaleDateString("en-US", { month: "long", day: "numeric",
   timeZone: "America/Los_Angeles" });
-// The beta promo's last day: "November 3".
+// The launch's day, the beta promo's end: "November 4".
 export const launchEnds = env => {
   const week = launchWindow(env);
   return week ? pacificDay(week.end) : "";
 };
-// /plans' banner during the beta; "" with no promo.
+// The line /plans (its banner) and /account show during the beta; "" with no promo.
 export const launchText = env => launchWindow(env)
-  ? `Beta: Hero is free for your first month, and Champion and Legend are 50% off your first month. ` +
-    `Join by ${launchEnds(env)}.` : "";
+  ? `Half price during the beta. Full price from launch, ${launchEnds(env)}.` : "";
 const usd = cents => `$${(cents / 100).toFixed(2)}`;
-// A plan card's beta offer (now: launchNow's), as GET /api/billing/plans sends it (plans[].promo): {price (US cents the
-// player pays now; the usual price is the plan's monthly), label, note}, or null (not the beta, Adventurer, or not an
-// offer plan). Hero's note is the day a trial started now is free until: BETA_HERO_DAYS on here, and the end of the
-// account's free Hero month while one runs (launchOffers, keepHeroEnds).
-const heroNote = ms => `until ${pacificDay(ms)}, then ${usd(PLANS.hero.monthly)} a month`;
+// A plan card's beta price (now: launchNow's), as GET /api/billing/plans sends it (plans[].promo): {price (US cents a
+// month until the launch; the usual price is the plan's monthly), label, note}, or null (not the beta, or Adventurer).
 export function launchOffer(env, planId, now = launchNow(env)) {
   if (!launchWeek(env, now)) return null;
-  const plan = PLANS[planId];
-  if (planId === "hero") return { price: 0, label: "Beta: free month",
-    note: heroNote(now.getTime() + BETA_HERO_DAYS * DAY_MS) };
-  const coupon = LAUNCH_COUPONS[planId];
-  return coupon ? { price: plan.monthly - coupon.amountOff, label: "Beta: 50% off",
-    note: `your first month, then ${usd(plan.monthly)}` } : null;
+  const plan = PLANS[planId], kind = offerKind(planId), until = `until ${launchEnds(env)}, then ${usd(plan.monthly)} a month`;
+  if (kind === "hero") return { price: 0, label: "Beta: free", note: until };
+  return kind === "half" ? { price: Math.floor(plan.monthly / 2), label: "Beta: half price", note: until } : null;
 }
 
 // The plans side by side (GET /api/billing/plans compare, for /willo's and /plans' table): [{label, values: {free,
@@ -349,27 +346,131 @@ export function planCompare(allowed = {}, { azeroth = false } = {}) {
     row("Longer memory", id => yes(Boolean(PLANS[id].longMemory))),
   ];
 }
-// The offers an account can still have (each once, promoClaimed), by plan: all of them signed out (userId null). Hero's
-// says the day this account's trial would end (keepHeroEnds).
+// The beta prices by plan (launchOffer), the same for every account: the beta is a price until the launch, not an offer
+// used once.
 export async function launchOffers(env, userId, now = launchNow(env)) {
   const out = {};
   for (const id of PAID) {
     const offer = launchOffer(env, id, now);
-    if (!offer || (userId && await promoClaimed(env, userId, offerKind(id)))) continue;
-    const ends = id === "hero" && userId ? await keepHeroEnds(env, userId, now) : null;
-    out[id] = ends ? { ...offer, note: heroNote(ends) } : offer;
+    if (offer) out[id] = offer;
   }
   return out;
 }
 
-// When a Keep Hero trial started at `at` (launchNow's clock) ends, so the beta's offer stays one month of Hero: the
-// account's free Hero month's end while one runs (at least TRIAL_MIN_SECONDS on, Checkout's shortest trial), in
-// milliseconds; null with none running, for BETA_HERO_DAYS from the day it starts. Read only: a checkout never starts a
-// free month.
-async function keepHeroEnds(env, userId, at) {
-  await setupBilling(env);
-  const month = await freeHeroMonth(env, userId, at);
-  return month ? Math.max(month.end, at.getTime() + TRIAL_MIN_SECONDS * 1000) : null;
+// BETA_HALF's id once Stripe has it (made the first time it's needed, with the site's own key), or null when it can't
+// be made (the key may not write coupons: then scripts/stripe-setup.mjs, or the Dashboard, makes it). Looked up once
+// per isolate and Stripe mode.
+const couponsReady = new Set();
+export async function betaCoupon(env) {
+  const mode = /^[sr]k_live_/.test(String(env.STRIPE_SECRET_KEY || "")) ? "live" : "test";
+  if (couponsReady.has(mode)) return BETA_HALF.id;
+  try {
+    await stripe(env, "GET", `coupons/${BETA_HALF.id}`);
+  } catch (e) {
+    if (e.status !== 404) { console.warn(`billing: reading coupon ${BETA_HALF.id}: ${e.message}`); return null; }
+    try {
+      await stripe(env, "POST", "coupons", { id: BETA_HALF.id, name: BETA_HALF.name, percent_off: BETA_HALF.percentOff,
+        duration: "once", applies_to: { products: BETA_HALF.plans.map(id => `lore_forever_${id}`) } },
+        { idempotencyKey: `coupon-${BETA_HALF.id}` });
+    } catch (e2) {
+      console.warn(`billing: can't make coupon ${BETA_HALF.id}: ${e2.message}`);
+      return null;
+    }
+  }
+  couponsReady.add(mode);
+  return BETA_HALF.id;
+}
+
+// Every live subscription in this deployment's Stripe (active, trialing, past_due), as Stripe has them now.
+async function liveSubscriptionsAll(env) {
+  const subs = [];
+  for (const status of ["active", "trialing", "past_due"]) {
+    let after = null;
+    do {
+      const page = await stripe(env, "GET", "subscriptions",
+        { status, limit: 100, ...(after ? { starting_after: after } : {}) });
+      subs.push(...(page?.data || []));
+      after = page?.has_more ? page.data.at(-1)?.id : null;
+    } while (after);
+  }
+  return subs;
+}
+
+// The launch as every plan's pay day (Mike, 2026-10-17: "the promise for the plans is half off for the beta period
+// only, then full price for when the full game launches"), for the plans bought before checkout anchored them there
+// (/admin's "pay-day", once, at 2026-10-18 03:30 UTC for the 11 then): every live plan's next charge on `at` (an ISO
+// date-time with its zone; the launch, launchWindow's end, unless given), a Stripe trial to it with no proration
+// (Stripe's way to move a billing date: nothing charged or credited by the move). A paying plan's
+// month already paid runs past it, so with `credit` the part of what it paid for those days goes back as a credit on
+// the account's Stripe balance, which that charge uses first (so nobody pays twice for the same days); without it,
+// those days are lost. What a plan paid is its paid invoices (amount_paid over 0) whose period runs past the day, each
+// in proportion: a 50% first month credits half as much, and a comped plan or a trial nothing. The charge on the day
+// is Stripe's own preview of the plan's next invoice (its price and any discount still on it), less the credit.
+// A plan the player cancelled is never charged again: a trial (nothing paid) ends on the day, and a paid one when
+// what it paid for ends (its cancellation moves with it; no credit, since nothing more is charged).
+// Dry (the default) only reads; otherwise each one not on the day yet is moved (its metadata says pay_day, and
+// play_gap_from what it was: entitlements.gap_from) and its credit added once (an idempotency key per subscription).
+// Once a plan is on the day, Stripe's preview already has its credit, so the charge shown is the preview's.
+// {at, credit, dry, counts, totals: {charge, credit} (US cents), subscriptions: [{id, plan, status, from, to (ISO),
+// lastPaid, unusedDays, credit, charge (US cents), why, error}]}: ids and amounts only. Or {error}.
+export async function payDay(env, { at, credit = false, dry = true } = {}) {
+  const day = at === undefined || at === null ? launchWindow(env)?.end ?? NaN : moment(at);
+  if (!Number.isFinite(day)) return { error: "Give the day as an ISO date-time with its zone (at)." };
+  if (!dry && day < Date.now() + TRIAL_MIN_SECONDS * 1000) return { error: "That day is too soon for a trial to end on." };
+  const subs = await liveSubscriptionsAll(env);
+  const counts = {}, rows = [], totals = { charge: 0, credit: 0 };
+  for (const sub of subs) {
+    const item = sub.items?.data?.[0], plan = planOfPrice(item?.price), status = String(sub.status || "");
+    const from = status === "trialing" && Number.isFinite(sub.trial_end) ? sub.trial_end
+      : item?.current_period_end ?? sub.current_period_end;
+    const cancelling = Boolean(sub.cancel_at_period_end || (Number.isFinite(sub.cancel_at) && sub.cancel_at > 0));
+    const row = { id: sub.id, plan: PAID.includes(plan) ? plan : null, status,
+                  from: Number.isFinite(from) ? iso(from * 1000) : null, to: iso(day), ...(cancelling ? { cancelling } : {}) };
+    let why = !row.plan ? "not a plan" : status === "past_due" ? "payment failing" : null, error;
+    if (!why) {
+      try {
+        // What it paid for days after the pay day: each paid invoice's share of its period past it.
+        const { data: invoices } = await stripe(env, "GET", "invoices", { subscription: sub.id, status: "paid", limit: 20 });
+        let lastPaid = 0, owed = 0, unused = 0, paidEnd = 0;
+        for (const invoice of invoices || []) {
+          if (!(invoice.amount_paid > 0)) continue;
+          lastPaid ||= invoice.amount_paid;
+          const period = (invoice.lines?.data || []).map(l => l.period).find(p => p?.end > p?.start);
+          paidEnd = Math.max(paidEnd, (period?.end || 0) * 1000);
+          if (!period || period.end * 1000 <= day) continue;
+          const left = (period.end * 1000 - Math.max(day, period.start * 1000)) / ((period.end - period.start) * 1000);
+          owed += invoice.amount_paid * left;
+          unused = Math.max(unused, (period.end * 1000 - day) / DAY_MS);
+        }
+        // A cancelled plan has no next invoice (Stripe says so): nothing is charged.
+        const next = cancelling ? null
+          : await stripe(env, "POST", "invoices/create_preview", { customer: idOf(sub.customer), subscription: sub.id });
+        const end = cancelling && paidEnd > day ? paidEnd : day;
+        const back = credit && !cancelling ? Math.round(owed) : 0;
+        why = from === Math.floor(end / 1000) && sub.metadata?.pay_day === iso(day) ? "already on the day"
+          : dry ? "would move" : "moved";
+        const credited = why === "already on the day" ? 0 : back;   // on the day, the preview has it already
+        Object.assign(row, { to: iso(end), lastPaid, unusedDays: Math.round(unused * 10) / 10, credit: back,
+                             charge: cancelling ? 0 : Math.max(0, (next?.amount_due ?? 0) - credited) });
+        totals.charge += row.charge;
+        totals.credit += back;
+        if (!dry && why === "moved") {
+          const key = `lf-payday-${iso(day).slice(0, 10)}-${sub.id}`;
+          await stripe(env, "POST", `subscriptions/${encodeURIComponent(sub.id)}`, { trial_end: Math.floor(end / 1000),
+            proration_behavior: "none", ...(cancelling && !sub.cancel_at_period_end ? { cancel_at: Math.floor(end / 1000) } : {}),
+            metadata: { pay_day: iso(day),
+              play_gap_from: sub.metadata?.play_gap_from || status } },
+            { idempotencyKey: key });
+          if (back > 0) await stripe(env, "POST", `customers/${encodeURIComponent(idOf(sub.customer))}/balance_transactions`,
+            { amount: -back, currency: "usd", description: "Days already paid for after the launch" },
+            { idempotencyKey: `${key}-credit` });
+        }
+      } catch (e) { why = "failed"; error = String(e?.message || e); }
+    }
+    counts[why] = (counts[why] || 0) + 1;
+    rows.push({ ...row, why, ...(error ? { error } : {}) });
+  }
+  return { at: iso(day), credit, dry, counts, totals, subscriptions: rows };
 }
 
 // A deployment that isn't Production, for trying the beta promo before and after it (PROMO_NOW below): Stripe in test mode (a
@@ -458,7 +559,9 @@ const idOf = v => typeof v === "string" ? v : typeof v?.id === "string" ? v.id :
 // entitlements: one row per account that ever opened checkout. plan: free unless the subscription is in ACTIVE;
 // interval: month (a yearly one from before is kept as it was); current_period_end: when the paid period ends (ISO);
 // promo_champion_until: unused since the launch offers changed (2026-10-14); next_plan and next_plan_at: a
-// downgrade waiting for the renewal (its subscription schedule's next phase, nextOf).
+// downgrade waiting for the renewal (its subscription schedule's next phase, nextOf); gap_from: what the subscription
+// was when its next charge was moved to the launch (payDay; gapFrom: "active", a paying plan; "trialing", a trial), else
+// NULL.
 // promo_claims: the beta promo's offers each account has had (promoClaim), "<kind>:<code>" (kind hero, the trial;
 // half, a 50% first month; free, the card-less free Hero month, whose created is the month's start and whose
 // subscription_id is ''; or creator, a creator's first-month discount: lib/referrals.js) by the same one-way code as starter_claims (or "user:<id>" without a Google ID), with the
@@ -525,6 +628,11 @@ const SETUP = [
   `CREATE TABLE IF NOT EXISTS best_first (claim TEXT PRIMARY KEY, user_id TEXT, used INTEGER NOT NULL DEFAULT 0,
     voices INTEGER NOT NULL DEFAULT 0, lookups INTEGER NOT NULL DEFAULT 0, started TEXT, finished TEXT)`,
   "CREATE INDEX IF NOT EXISTS best_first_user ON best_first (user_id)",
+  // Plan months given, not bought (giveFreeMonth: a free month for the friends a player brought, lib/referrals.js):
+  // the plan, from `starts` to `ends` (ISO), on us. id: what gave it (the reward's id), so it's given once.
+  `CREATE TABLE IF NOT EXISTS plan_grants (id TEXT PRIMARY KEY, user_id TEXT NOT NULL, plan TEXT NOT NULL,
+    starts TEXT NOT NULL, ends TEXT NOT NULL, reason TEXT NOT NULL, created TEXT NOT NULL)`,
+  "CREATE INDEX IF NOT EXISTS plan_grants_user ON plan_grants (user_id, ends)",
   `CREATE TABLE IF NOT EXISTS best_first_days (day TEXT PRIMARY KEY, reserved_micro INTEGER NOT NULL DEFAULT 0,
     spent_micro INTEGER NOT NULL DEFAULT 0, answers INTEGER NOT NULL DEFAULT 0, replies INTEGER NOT NULL DEFAULT 0,
     lines INTEGER NOT NULL DEFAULT 0, starts INTEGER NOT NULL DEFAULT 0, capped INTEGER NOT NULL DEFAULT 0,
@@ -542,15 +650,20 @@ const MIGRATE = ["ALTER TABLE answer_user_spend ADD COLUMN topup_micro INTEGER N
                  "ALTER TABLE voice_replies ADD COLUMN npc INTEGER NOT NULL DEFAULT 0",
                  "ALTER TABLE entitlements ADD COLUMN next_plan TEXT",
                  "ALTER TABLE entitlements ADD COLUMN next_plan_at TEXT",
-                 "ALTER TABLE voice_replies ADD COLUMN provider TEXT"];
-const ready = new WeakSet();
-export async function setupBilling(env) {
-  if (ready.has(env.DB)) return;
-  await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
-  for (const sql of MIGRATE) {
-    try { await env.DB.prepare(sql).run(); } catch (e) {}   // fails once the column exists
-  }
-  ready.add(env.DB);
+                 "ALTER TABLE voice_replies ADD COLUMN provider TEXT",
+                 "ALTER TABLE entitlements ADD COLUMN gap_from TEXT",
+                 // The pieces of a reply whose letters are counted, one bit each (lib/companion-voice.js PIECE_BIT).
+                 "ALTER TABLE voice_replies ADD COLUMN bits INTEGER NOT NULL DEFAULT 0"];
+// The column checks go out at once (each fails once its column exists): one after another, a fresh Worker waited a round
+// trip to D1 for each before a live answer could start, about 2 s for a player far from the database (LOR-654).
+// Callers at the same moment share one setup.
+const ready = new WeakMap();
+export function setupBilling(env) {
+  if (!ready.has(env.DB)) ready.set(env.DB, (async () => {
+    await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
+    await Promise.all(MIGRATE.map(sql => env.DB.prepare(sql).run().catch(() => {})));
+  })().catch(e => { ready.delete(env.DB); throw e; }));
+  return ready.get(env.DB);
 }
 
 // ---- Stripe ----
@@ -614,6 +727,14 @@ async function portalConfiguration(env) {
 // ---- Plans ----
 
 const entitlement = (env, userId) => env.DB.prepare("SELECT * FROM entitlements WHERE user_id = ?").bind(userId).first();
+// What a subscription was when its next charge was moved (entitlements.gap_from: payDay's, or the play gap's of
+// 2026-10-18 before it), from its metadata: "active" (a paying plan, now a Stripe trial to the launch), "trialing" or
+// "checkout"; else null.
+const GAP_FROM = ["active", "trialing", "checkout"];
+const gapFrom = sub => {
+  const from = sub?.metadata?.play_gap_from;
+  return (sub.metadata?.pay_day || sub.metadata?.play_gap) && GAP_FROM.includes(from) ? from : null;
+};
 
 // Whether a stored subscription still gives its plan: a status in ACTIVE and a paid period that hasn't ended.
 function paidNow(row, now = new Date()) {
@@ -637,9 +758,12 @@ async function paidSpend(env, now) {
 // once, or a companion connected again, never credit it twice; the row stays at 0 once it's used up. And once per
 // Google account (security review L3): its claim (starterClaim) is kept after "Delete my account", so deleting the
 // account and signing in again doesn't bring another. The pack and the claim go in one batch.
-async function creditStarter(env, userId, now) {
+// credited: whether the account's starter was there when planFor read it, ahead (true or false; null: look again).
+const hasStarter = (env, userId) =>
+  env.DB.prepare("SELECT 1 AS y FROM answer_packs WHERE id = ?").bind(`starter:${userId}`).first().then(Boolean);
+async function creditStarter(env, userId, now, credited = null) {
   const id = `starter:${userId}`;
-  if (await env.DB.prepare("SELECT 1 AS y FROM answer_packs WHERE id = ?").bind(id).first()) return;
+  if (credited ?? await hasStarter(env, userId)) return;
   const claim = await starterClaim(env, userId);
   await env.DB.batch([
     env.DB.prepare(
@@ -658,10 +782,23 @@ async function creditStarter(env, userId, now) {
 const salts = new WeakMap();   // env.DB -> the salt, so most checks skip the lookup
 const claimHash = async (salt, googleSub) =>
   hex(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(`${salt}:${googleSub}`)));
+// An account's Google ID never changes once it has one, so a Worker keeps the ones it has read: a live answer looked it
+// up two or three times, a round trip each (the plan's free Hero month, the starter and Willo's best first, LOR-654).
+// One without (an Apple sign-in) is read again each time, since it can be linked to Google later.
+const googleSubs = new WeakMap();   // env.DB -> Map(user id -> Google ID)
+const GOOGLE_SUBS_KEPT = 5000;
 export async function starterClaim(env, userId) {
   await setupBilling(env);
-  const user = await env.DB.prepare("SELECT google_sub FROM users WHERE id = ?").bind(userId).first();
-  if (!user?.google_sub) return null;
+  if (!googleSubs.has(env.DB)) googleSubs.set(env.DB, new Map());
+  const kept = googleSubs.get(env.DB);
+  let googleSub = kept.get(userId);
+  if (!googleSub) {
+    googleSub = (await env.DB.prepare("SELECT google_sub FROM users WHERE id = ?").bind(userId).first())?.google_sub;
+    if (!googleSub) return null;
+    if (kept.size >= GOOGLE_SUBS_KEPT) kept.clear();
+    kept.set(userId, googleSub);
+  }
+  const user = { google_sub: googleSub };
   if (!salts.has(env.DB)) {
     // Two isolates can get here at once: both insert, one wins, and both read back the winner's salt.
     await env.DB.prepare("INSERT OR IGNORE INTO billing_salt (id, salt) VALUES (1, ?)")
@@ -678,8 +815,9 @@ export async function starterClaim(env, userId) {
 // brake's when it applies (with brake: true), and the account gets its starter (creditStarter). During its free Hero
 // month (the beta promo, freeHeroMonth) a free account has Hero's plan instead, with launch: true, since and until
 // (the month's start and end, ISO) and ends (its end as players read it, "November 20"). A "Keep Hero" bought during
-// the beta is Hero with status "trialing" until renews (its free month's end, or BETA_HERO_DAYS on: keepHeroEnds). changesTo: {id, name,
-// at}, a downgrade waiting for the renewal (changePlan).
+// the beta starts its months at the launch (renews). changesTo: {id, name, at}, a downgrade waiting for the renewal
+// (changePlan). paidBefore: a paying plan whose next charge was moved to the launch (payDay), so a Stripe trial
+// ("trialing") until renews, though it's paid for.
 const voiceOf = id => ({ voice: { ...PLAN_VOICE[id] } });
 export async function planFor(env, userId, now = new Date()) {
   // Plans switched off: everyone has the free plan with the answers from before plans, whatever is stored, and Willo
@@ -689,6 +827,18 @@ export async function planFor(env, userId, now = new Date()) {
              cancelAtPeriodEnd: false, portal: false };
   }
   await setupBilling(env);
+  // What a free account's plan needs is read while its entitlement is (only reads: the starter is credited after),
+  // one round trip to D1 instead of three for the free plan and its beta Hero month (LOR-654).
+  const at = launchNow(env, now), week = launchWindow(env);
+  const promo = Boolean(week) && at.getTime() < week.end;
+  const quiet = p => p.catch(() => null);   // a paying plan doesn't need them; a free one reads them again on a failure
+  const ahead = Promise.all([quiet(paidSpend(env, now)), promo ? quiet(launchSpend(env, week)) : null,
+    promo ? quiet((async () => {
+      const claim = await claimOf(env, userId, "free");
+      return { claim, row: await promoRow(env, claim) };
+    })()) : null, quiet(hasStarter(env, userId))]);
+  // A plan month given for bringing friends (giveFreeMonth), read alongside too: a failed read is no month.
+  const granted = grantNow(env, userId, now).catch(() => null);
   const row = await entitlement(env, userId);
   const portal = Boolean(row?.subscription_id);
   if (paidNow(row, now)) {
@@ -698,22 +848,32 @@ export async function planFor(env, userId, now = new Date()) {
     return { id: plan.id, name: plan.name, answersPerDay: plan.answersPerDay, answersPerMonth: plan.answersPerMonth,
              lookupsPerMonth: plan.lookupsPerMonth, costCapMicro: plan.costCapMicro, totalCapMicro: plan.totalCapMicro,
              ...voiceOf(plan.id), status: row.status, renews: row.current_period_end,
-             cancelAtPeriodEnd: Boolean(row.cancel_at_period_end), ...next, portal };
+             cancelAtPeriodEnd: Boolean(row.cancel_at_period_end), ...next, portal,
+             ...(row.gap_from === "active" ? { paidBefore: true } : {}) };
   }
-  // The beta's free Hero month: looked for while one can still be running (the promo, and BETA_HERO_DAYS after it).
-  const at = launchNow(env, now), week = launchWindow(env);
-  const promo = Boolean(week) && at.getTime() < week.end + BETA_HERO_DAYS * DAY_MS;
-  const [spent, , launchSpent] = await Promise.all([paidSpend(env, now), creditStarter(env, userId, now),
-    promo ? launchSpend(env, week) : null]);
-  // Hero's plan, on us, for the account's month, until the promo's brake.
-  const freeMonth = launchSpent !== null && launchSpent < LAUNCH_WEEK_BRAKE_MICRO
-    ? await freeHeroMonth(env, userId, at, week) : null;
+  // The beta's free Hero month: looked for while one can still be running (until the launch). A read that failed ahead
+  // is read again here, so its error is this one's, as before.
+  const [spentAhead, launchAhead, promoAhead, credited] = await ahead;
+  const spent = spentAhead ?? await paidSpend(env, now);
+  const launchSpent = !promo ? null : launchAhead ?? await launchSpend(env, week);
+  // Hero's plan, on us, for the account's month, until the promo's brake; looked for while the starter is credited.
+  const [, freeMonth] = await Promise.all([creditStarter(env, userId, now, credited),
+    launchSpent !== null && launchSpent < LAUNCH_WEEK_BRAKE_MICRO ? freeHeroMonth(env, userId, at, week, promoAhead) : null]);
   if (freeMonth) {
     const hero = PLANS.hero;
     return { id: hero.id, name: hero.name, answersPerDay: hero.answersPerDay, answersPerMonth: hero.answersPerMonth,
              lookupsPerMonth: hero.lookupsPerMonth, costCapMicro: hero.costCapMicro, totalCapMicro: hero.totalCapMicro,
              ...voiceOf(hero.id), launch: true, since: iso(freeMonth.start), until: iso(freeMonth.end),
              ends: pacificDay(freeMonth.end), status: null, renews: null, cancelAtPeriodEnd: false, portal };
+  }
+  // A free month for the friends they brought: that plan, on us like the beta's month (launch), with reward: true.
+  const grant = await granted;
+  if (grant) {
+    const p = PLANS[grant.plan];
+    return { id: p.id, name: p.name, answersPerDay: p.answersPerDay, answersPerMonth: p.answersPerMonth,
+             lookupsPerMonth: p.lookupsPerMonth, costCapMicro: p.costCapMicro, totalCapMicro: p.totalCapMicro,
+             ...voiceOf(p.id), launch: true, reward: true, since: grant.starts, until: grant.ends,
+             ends: pacificDay(Date.parse(grant.ends)), status: null, renews: null, cancelAtPeriodEnd: false, portal };
   }
   const brake = spent > BRAKE_MICRO;
   const free = PLANS.free;
@@ -727,28 +887,93 @@ export async function planFor(env, userId, now = new Date()) {
 export async function planIdNow(env, userId, now = new Date()) {
   if (!plansOn(env)) return "free";
   await setupBilling(env);
-  const row = await entitlement(env, userId);
+  const [row, grant] = await Promise.all([entitlement(env, userId), grantNow(env, userId, now).catch(() => null)]);
   if (paidNow(row, now)) return row.plan;
-  return await freeHeroMonth(env, userId, launchNow(env, now)) ? "hero" : "free";
+  if (await freeHeroMonth(env, userId, launchNow(env, now))) return "hero";
+  return grant?.plan || "free";
+}
+
+// The plan the account pays for now, read only: {plan, renews (false once they've cancelled it)}, or null (the free
+// plan, the beta's free Hero month or a month given: nothing billed).
+export async function billedPlan(env, userId, now = new Date()) {
+  if (!plansOn(env)) return null;
+  await setupBilling(env);
+  const row = await entitlement(env, userId);
+  return paidNow(row, now) ? { plan: row.plan, renews: !row.cancel_at_period_end } : null;
+}
+
+// The plan month given to the account that runs at `now` (plan_grants: {plan, starts, ends}), or null.
+async function grantNow(env, userId, now = new Date()) {
+  const at = iso(now.getTime());
+  const row = await env.DB.prepare("SELECT plan, starts, ends FROM plan_grants WHERE user_id = ? AND starts <= ? AND ends > ? " +
+    "ORDER BY starts LIMIT 1").bind(userId, at, at).first();
+  return row && PLANS[row.plan] && row.plan !== "free" ? row : null;
+}
+
+// A free month of the account's plan, for `id` (what earned it: lib/referrals.js's reward, once), applied with no
+// manual step:
+// - A paying plan that renews: a credit on their Stripe balance as big as their next month's charge (Stripe's own
+//   preview of it, its discounts in, the balance they have left out; at most the plan's price, which is also what's
+//   credited when the preview fails), which the next invoice uses first. Stripe's idempotency key is the reward's, so
+//   a retry never credits twice.
+// - Anyone else (the free plan, the beta's free Hero month, a plan they cancelled): a month of the plan on us
+//   (plan_grants), `freePlan` on the free plan, theirs when they're cancelling (from the day it ends), starting when
+//   any month they have already ends.
+// {method: "credit" | "grant", plan, cents (a credit's), stripeId (its balance transaction), starts, ends (a
+// grant's, ISO)}. Throws when Stripe fails, so the caller can try again.
+export const GRANT_DAYS = 30;
+export async function giveFreeMonth(env, userId, { id, freePlan = "hero", description = "A free month", now = new Date() }) {
+  await setupBilling(env);
+  const row = await entitlement(env, userId);
+  const paying = paidNow(row, now);
+  if (paying && !row.cancel_at_period_end && row.customer_id && row.subscription_id && env.STRIPE_SECRET_KEY) {
+    const plan = PLANS[row.plan];
+    let cents = plan.monthly;
+    try {
+      const next = await stripe(env, "POST", "invoices/create_preview", { customer: row.customer_id, subscription: row.subscription_id });
+      if (Number.isFinite(next?.total) && next.total > 0) cents = Math.min(next.total, plan.monthly);
+    } catch (e) { console.warn(`billing: free month ${id}: no preview (${e?.message || e}), the plan's price`); }
+    const txn = await stripe(env, "POST", `customers/${encodeURIComponent(row.customer_id)}/balance_transactions`,
+      { amount: -cents, currency: "usd", description, metadata: { reward: id } }, { idempotencyKey: `lf-reward-${id}` });
+    return { method: "credit", plan: plan.id, cents, stripeId: txn?.id || null };
+  }
+  const [grant, last, beta] = await Promise.all([grantNow(env, userId, now),
+    env.DB.prepare("SELECT MAX(ends) AS ends FROM plan_grants WHERE user_id = ?").bind(userId).first(),
+    freeHeroMonth(env, userId, launchNow(env, now))]);
+  const plan = paying ? row.plan : grant?.plan || freePlan;
+  const starts = Math.max(now.getTime(), paying ? Date.parse(row.current_period_end) || 0 : 0,
+    beta ? beta.end - launchNow(env, now).getTime() + now.getTime() : 0, Date.parse(last?.ends || "") || 0);
+  const ends = starts + GRANT_DAYS * DAY_MS;
+  await env.DB.prepare("INSERT OR IGNORE INTO plan_grants (id, user_id, plan, starts, ends, reason, created) VALUES (?, ?, ?, ?, ?, ?, ?)")
+    .bind(id, userId, plan, iso(starts), iso(ends), description, iso(now.getTime())).run();
+  const kept = await env.DB.prepare("SELECT plan, starts, ends FROM plan_grants WHERE id = ?").bind(id).first();
+  return { method: "grant", plan: kept.plan, starts: kept.starts, ends: kept.ends };
 }
 
 // The account's free Hero month ({start, end}, milliseconds) while it runs at `at` (launchNow's clock), else null.
 // It starts the first time this is asked during the beta promo (week: launchWindow's), as the account's "free" claim
 // in promo_claims (created: the month's start; by its one-way Google code, so once per Google account, even after
-// "Delete my account"), and lasts BETA_HERO_DAYS days, past the beta's end too. Read first, so only an account's
-// first look writes; without `week`, it only reads (keepHeroEnds).
-async function freeHeroMonth(env, userId, at, week = null) {
-  const claim = await claimOf(env, userId, "free"), ms = at.getTime();
-  const read = () => env.DB.prepare("SELECT created FROM promo_claims WHERE claim = ?").bind(claim).first();
-  let row = await read();
+// "Delete my account"), and runs to the launch (or BETA_HERO_DAYS days, if that's sooner: freeMonthEnd). Read first,
+// so only an account's first look writes; without `week`, it only reads.
+// ahead: {claim, row}, the account's claim and its promo_claims row as planFor read them ahead, or null.
+const promoRow = (env, claim) => env.DB.prepare("SELECT created FROM promo_claims WHERE claim = ?").bind(claim).first();
+async function freeHeroMonth(env, userId, at, week = null, ahead = null) {
+  const claim = ahead?.claim || await claimOf(env, userId, "free");
+  const ms = at.getTime();
+  const read = () => promoRow(env, claim);
+  let row = ahead ? ahead.row : await read();
   if (!row && week && ms >= week.start && ms <= week.end) {
     await env.DB.prepare("INSERT OR IGNORE INTO promo_claims (claim, subscription_id, created) VALUES (?, '', ?)")
       .bind(claim, iso(ms)).run();
     row = await read();
   }
-  const start = Date.parse(row?.created ?? ""), end = start + BETA_HERO_DAYS * DAY_MS;
+  const start = Date.parse(row?.created ?? ""), end = freeMonthEnd(env, start);
   return Number.isFinite(start) && ms >= start && ms < end ? { start, end } : null;
 }
+
+// When a free Hero month started at `start` (milliseconds) ends: at the launch (Mike, 2026-10-17: full price from
+// launch), or BETA_HERO_DAYS on if that's sooner.
+const freeMonthEnd = (env, start) => Math.min(start + BETA_HERO_DAYS * DAY_MS, launchWindow(env)?.end ?? Infinity);
 
 // What the beta's free Hero months have cost so far, site-wide (answer_user_spend.launch_micro, from the promo's
 // first calendar month on: the months run past its end), for its brake. week: launchWindow's.
@@ -790,24 +1015,35 @@ export const HOLD_SECONDS = 300;
 // for the text cap not its hosted voice either.
 const ownSpend = ({ total = false, launch = false } = {}) =>
   launch ? "launch_micro" : `micro - topup_micro - launch_micro${total ? "" : " - voice_micro"}`;
-export async function holdUserSpend(env, userId, micro, now = new Date(),
-  { packId = null, packCap = VOICE_PACK.costCapMicro, cap = 0, total = false, need = micro, launch = false } = {}) {
+export async function holdUserSpend(env, userId, micro, now = new Date(), opts = {}) {
   await setupBilling(env);
+  const hold = holdStatements(env, userId, micro, now, opts);
+  if (!hold) return null;
+  const [, held] = await env.DB.batch(hold.statements);
+  return held.meta.changes ? hold.id : null;
+}
+
+// holdUserSpend's statements, for a caller that runs them in a batch with its own (lib/companion-voice.js: a hosted
+// piece's claim on its reply, one round trip for both): {id, statements}, held when the last one changed a row; null
+// when there's nothing to hold against (no pack, no cap). also: {sql, binds}, one more condition on the hold.
+export function holdStatements(env, userId, micro, now = new Date(),
+  { packId = null, packCap = VOICE_PACK.costCapMicro, cap = 0, total = false, need = micro, launch = false } = {},
+  also = null) {
   if (!packId && !(cap > 0)) return null;
   const id = crypto.randomUUID(), since = iso(now.getTime() - HOLD_SECONDS * 1000);
   const spent = packId ? "(SELECT spent_micro FROM answer_packs WHERE id = ?)"
     : `COALESCE((SELECT ${ownSpend({ total, launch })} FROM answer_user_spend WHERE user_id = ? AND month = ?), 0)`;
   // A hosted piece must fit whole; an answer only needs the cap not reached yet (its cost is known once it's written).
   const fits = total ? "+ ? <= ?" : "< ?";
-  const [, held] = await env.DB.batch([
+  return { id, statements: [
     env.DB.prepare("DELETE FROM answer_holds WHERE user_id = ? AND created <= ?").bind(userId, since),
     env.DB.prepare(
       "INSERT INTO answer_holds (id, user_id, pack_id, micro, created) SELECT ?, ?, ?, ?, ? WHERE " +
-      `${spent} + (SELECT COALESCE(SUM(micro), 0) FROM answer_holds WHERE user_id = ? AND pack_id IS ? AND created > ?) ${fits}`
+      `${spent} + (SELECT COALESCE(SUM(micro), 0) FROM answer_holds WHERE user_id = ? AND pack_id IS ? AND created > ?) ${fits}` +
+      (also ? ` AND ${also.sql}` : "")
     ).bind(id, userId, packId, micro, iso(now.getTime()), ...(packId ? [packId] : [userId, month(now)]),
-           userId, packId, since, ...(total ? [need] : []), packId ? packCap : cap),
-  ]);
-  return held.meta.changes ? id : null;
+           userId, packId, since, ...(total ? [need] : []), packId ? packCap : cap, ...(also ? also.binds : [])),
+  ] };
 }
 
 // Gives back a hold (holdUserSpend), for an answer that ended without being written; with `keep`, only down to that,
@@ -988,18 +1224,17 @@ export async function createCheckout(env, user, planId, interval, origin, { crea
     // A plan's checkout page left open in another tab could start a second subscription: earlier ones are closed first.
     await closeOpenCheckouts(env, customer);
   }
-  // The beta's offer for this plan, if the account hasn't had it (launchOffer): Hero's trial (Checkout shows it, and the
-  // day it's free until), to the end of the account's free Hero month while one runs, else BETA_HERO_DAYS from the day
-  // the subscription starts (keepHeroEnds); or the 50% first month's coupon, which Checkout shows (and then takes no
-  // promotion codes: Stripe allows one or the other). metadata.launch says which, so the webhook records the claim
-  // (storeSubscription). A trial_end is as far from the real clock as from the promo's (PROMO_NOW on a preview), since
-  // Stripe wants one in its future.
-  const kind = offerKind(planId), launchAt = launchNow(env);
-  const offer = launchOffer(env, planId, launchAt) && !(await promoClaimed(env, user.id, kind)) ? kind : null;
-  const ends = offer === "hero" ? await keepHeroEnds(env, user.id, launchAt) : null;
-  const trial = offer !== "hero" ? {}
-    : ends ? { trial_end: Math.floor((Date.now() + ends - launchAt.getTime()) / 1000) }
-    : { trial_period_days: BETA_HERO_DAYS };
+  // The beta (launchWeek): the plan's months start at the launch (billing_cycle_anchor; as far from the real clock as
+  // from the promo's, PROMO_NOW on a preview, since Stripe wants it in its future), its first full charge then. Until
+  // then Hero is free (no proration) and Champion and Legend half price for the days left (a prorated first invoice
+  // with BETA_HALF on it, which Checkout shows and then takes no promotion codes: Stripe allows one or the other). If
+  // Stripe has no BETA_HALF and the site can't make it (betaCoupon), they're free until then rather than full price.
+  // metadata.launch says which, so the webhook records the claim for /admin (storeSubscription).
+  const launchAt = launchNow(env), week = launchWindow(env);
+  const offer = launchWeek(env, launchAt) ? offerKind(planId) : null;
+  const coupon = offer === "half" ? await betaCoupon(env) : null;
+  const anchor = offer ? { billing_cycle_anchor: Math.floor((Date.now() + week.end - launchAt.getTime()) / 1000),
+                           proration_behavior: coupon ? "create_prorations" : "none" } : {};
   const fromCreator = !offer && creator?.promoId && !(await promoClaimed(env, user.id, "creator"));
   // Payment methods come from the Dashboard's settings (so no payment_method_types here), and tax from Managed
   // Payments when it's on (so no automatic_tax): prices include tax, and players pay exactly what's listed.
@@ -1007,8 +1242,8 @@ export async function createCheckout(env, user, planId, interval, origin, { crea
     mode: "subscription", customer, line_items: [{ price, quantity: 1 }], client_reference_id: user.id,
     subscription_data: { metadata: { user_id: user.id, ...(offer ? { launch: offer } : {}),
       ...(creator?.code ? { creator: creator.code } : {}), ...(discounts && fromCreator ? { creator_offer: "1" } : {}) },
-      ...trial },
-    ...(offer === "half" ? { discounts: [{ coupon: LAUNCH_COUPONS[planId].id }] }
+      ...anchor },
+    ...(coupon ? { discounts: [{ coupon }] }
       : discounts && fromCreator ? { discounts: [{ promotion_code: creator.promoId }] } : { allow_promotion_codes: true }),
     integration_identifier: INTEGRATION_ID,
     ...(env.STRIPE_MANAGED_PAYMENTS === "1" ? { managed_payments: { enabled: true } } : {}),
@@ -1250,15 +1485,22 @@ async function upgradePlan(env, user, sub, state, planId, { confirm, quote }) {
   const price = await priceId(env, lookupKey(planId));
   if (!price) throw new Error(`No Stripe price has the lookup key ${lookupKey(planId)}; run scripts/stripe-setup.mjs`);
   const name = PLANS[planId].name;
-  // A Hero trial (the beta's "Keep Hero") ends now: the new plan's paid month starts today. The beta's 50% first
-  // month comes with an upgrade to Champion or Legend then, once per account (its coupon on this very invoice).
-  const trialing = sub.status === "trialing";
-  const coupon = launchOffer(env, planId) && !(await promoClaimed(env, user.id, "half")) ? LAUNCH_COUPONS[planId].id : null;
-  // The coupon goes on the new price's item (duration once: this change's invoice), the same in the preview and the
-  // change, so what's shown is what's charged.
+  // The beta (launchWeek: before the launch, every plan's pay day). A plan that's free until the launch (a Stripe
+  // trial: Keep Hero, or a paid plan moved to the launch by payDay) stays so: the new plan starts now and nothing is
+  // charged until the launch, then its full price. A paid one is charged now for the days left, at half price
+  // (BETA_HALF on the new price's item, duration once: this change's invoice; the same in the preview and the change,
+  // so what's shown is what's charged), and the full price from the launch. After the launch, a trial ends now: the
+  // new plan's paid month starts today.
+  const trialing = sub.status === "trialing", beta = launchWeek(env);
+  const keep = trialing && beta;
+  const coupon = beta && !keep && offerKind(planId) === "half" ? await betaCoupon(env) : null;
   const change = { items: [{ id: state.item.id, price, ...(coupon ? { discounts: [{ coupon }] } : {}) }],
-                   proration_behavior: "always_invoice", ...(trialing ? { trial_end: "now" } : {}) };
+                   proration_behavior: keep ? "none" : "always_invoice", ...(trialing && !keep ? { trial_end: "now" } : {}) };
   const q = confirm ? await readQuote(env, quote, { u: user.id, s: sub.id, f: state.plan, t: planId, c: coupon }) : null;
+  const after = `then ${money(PLANS[planId].monthly)} a month`;
+  if (keep && !q) return { ...(confirm ? { stale: true } : {}), preview: { kind: "upgrade", plan: planId, from: state.plan,
+    amount: 0, text: `${name} starts now, with nothing to pay until ${dayOf(state.ends)}: ${after}.`,
+    quote: await makeQuote(env, { u: user.id, s: sub.id, f: state.plan, t: planId, c: coupon, amount: 0, renews: state.ends }) } };
   if (!q) {
     // Stripe's own invoice for the change, made now: what the confirm says is what's charged.
     const preview = await stripe(env, "POST", "invoices/create_preview", { customer: idOf(sub.customer),
@@ -1268,8 +1510,7 @@ async function upgradePlan(env, user, sub, state, planId, { confirm, quote }) {
     const amount = preview.amount_due;
     // When the month after this one is charged: the period's end, or a month from now after a trial.
     const renews = Math.max(state.ends || 0, ...(preview.lines?.data || []).map(l => l.period?.end || 0));
-    const today = trialing ? `${coupon ? "your first month at 50% off" : "your first month"}`
-      : `${coupon ? "the rest of this month, at 50% off" : "the rest of this month"}`;
+    const today = trialing ? "your first month" : coupon ? "the days until launch, at half price" : "the rest of this month";
     return { ...(confirm ? { stale: true } : {}), preview: { kind: "upgrade", plan: planId, from: state.plan, amount,
       text: `${name} starts now. You'll pay ${money(amount)} today for ${today}, then ` +
             `${money(PLANS[planId].monthly)} on ${dayOf(renews)}.`,
@@ -1279,8 +1520,9 @@ async function upgradePlan(env, user, sub, state, planId, { confirm, quote }) {
   if (state.schedule) await releaseSchedule(env, state.schedule.id);
   let updated;
   try {
+    // A kept trial makes no invoice, so there's no payment to wait for.
     updated = await stripe(env, "POST", `subscriptions/${sub.id}`, { ...change,
-      ...(Number.isFinite(q.at) ? { proration_date: q.at } : {}), payment_behavior: "pending_if_incomplete",
+      ...(Number.isFinite(q.at) ? { proration_date: q.at } : {}), ...(keep ? {} : { payment_behavior: "pending_if_incomplete" }),
       expand: ["latest_invoice"] }, { idempotencyKey: `lf-upgrade-${q.n}` });
   } catch (e) {
     if (e.status === 409) return { error: "Your last change is still going through. One moment.", reload: true };
@@ -1298,6 +1540,8 @@ async function upgradePlan(env, user, sub, state, planId, { confirm, quote }) {
     await stripe(env, "POST", `subscriptions/${sub.id}`, { metadata: { launch: "half" } });
   }
   if (state.cancelling) await stripe(env, "POST", `subscriptions/${sub.id}`, { cancel_at_period_end: false });
+  if (keep) return { done: true, charged: 0,
+    text: `You're on ${name} now, with nothing to pay until ${dayOf(q.renews || state.ends)}: ${after}.` };
   const paid = invoice?.amount_paid ?? q.amount;
   return { done: true, charged: paid, invoice: invoice?.id,
            text: `You're on ${name} now. You paid ${money(paid)} today, then ${money(PLANS[planId].monthly)} on ` +
@@ -1317,14 +1561,15 @@ async function downgradePlan(env, user, sub, state, planId, { confirm, quote }) 
   if (state.cancelling) await stripe(env, "POST", `subscriptions/${sub.id}`, { cancel_at_period_end: false });
   if (state.schedule) await releaseSchedule(env, state.schedule.id);
   // This period on the plan they have, then the lower one; released after it, so the subscription carries on by
-  // itself. Nothing is prorated either way. A discount the subscription has (a promotion code) stays on both.
+  // itself. Nothing is prorated either way. A discount the subscription has (a promotion code) stays on both. A trial
+  // (free until the launch) stays one to its end, so nothing is charged before the lower plan starts.
   const schedule = await stripe(env, "POST", "subscription_schedules", { from_subscription: sub.id },
     { idempotencyKey: `lf-downgrade-${q.n}` });
   const now = schedule.phases?.[0] || {};
   const discounts = (now.discounts || []).map(d => d.discount ? { discount: idOf(d.discount) } : { coupon: idOf(d.coupon) });
   await stripe(env, "POST", `subscription_schedules/${schedule.id}`, { end_behavior: "release", proration_behavior: "none",
     phases: [{ items: [{ price: state.item.price.id, quantity: 1 }], start_date: now.start_date, end_date: state.ends,
-               proration_behavior: "none", discounts },
+               proration_behavior: "none", discounts, ...(sub.status === "trialing" ? { trial_end: state.ends } : {}) },
              { items: [{ price, quantity: 1 }], duration: { interval: "month", interval_count: 1 },
                proration_behavior: "none", discounts }] },
     { idempotencyKey: `lf-downgrade-phases-${q.n}` });
@@ -1474,22 +1719,24 @@ async function storeSubscription(env, userId, subscription, { deduped = false } 
   const promo = null;   // promo_champion_until: the old Champion-month promo, gone
   await env.DB.prepare(
     "INSERT INTO entitlements (user_id, customer_id, subscription_id, plan, interval, status, current_period_end, " +
-    "cancel_at_period_end, promo_champion_until, next_plan, next_plan_at, updated) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) " +
+    "cancel_at_period_end, promo_champion_until, next_plan, next_plan_at, gap_from, updated) " +
+    "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) " +
     "ON CONFLICT (user_id) DO UPDATE SET " +
     "customer_id = COALESCE(excluded.customer_id, entitlements.customer_id), subscription_id = excluded.subscription_id, " +
     "plan = excluded.plan, interval = excluded.interval, status = excluded.status, " +
     "current_period_end = excluded.current_period_end, cancel_at_period_end = excluded.cancel_at_period_end, " +
     "promo_champion_until = excluded.promo_champion_until, next_plan = excluded.next_plan, " +
-    "next_plan_at = excluded.next_plan_at, updated = excluded.updated"
+    "next_plan_at = excluded.next_plan_at, gap_from = excluded.gap_from, updated = excluded.updated"
   ).bind(userId, idOf(subscription.customer), subscription.id, plan, interval, status,
          Number.isFinite(end) ? iso(end * 1000) : null, subscription.cancel_at_period_end || subscription.cancel_at ? 1 : 0,
-         promo, next?.plan ?? null, next?.at ?? null, iso()).run();
+         promo, next?.plan ?? null, next?.at ?? null, gapFrom(subscription), iso()).run();
   // For /admin only, so it never fails the webhook.
   try { await logSubscription(env, userId, subscription); }
   catch (e) { console.warn(`billing: plan_log: ${e?.message || e}`); }
-  // A new subscriber's thank-you from Mike, once per account (lib/thanks.js); it never fails the webhook either.
-  if (plan !== "free") await thankSubscriber(env, userId, subscription,
-    { id: plan, name: PLANS[plan].name, picks: voicePicks(env), trial: status === "trialing" });
+  // A new subscriber's thank-you from Mike, once per account (lib/thanks.js); it never fails the webhook either. Its
+  // trial is the beta's Keep Hero from before the launch anchor (a paid plan moved to the launch is a trial too).
+  if (plan !== "free") await thankSubscriber(env, userId, subscription, { id: plan, name: PLANS[plan].name,
+    picks: voicePicks(env), trial: status === "trialing" && subscription.metadata?.launch === "hero" });
   return { user: userId, plan, status, ...(next ? { next: next.plan } : {}) };
 }
 
@@ -1625,7 +1872,7 @@ async function refundPack(env, charge, status = "refunded") {
 // Coupons that make a plan free on purpose, never revenue: Mike's own Legend ("owner-legend-free", 100% off forever).
 // Any coupon that takes 100% off for more than one invoice counts the same, once Stripe's coupon can be read.
 export const COMP_COUPONS = ["owner-legend-free"];
-const LAUNCH_COUPON_IDS = Object.values(LAUNCH_COUPONS).map(c => c.id);
+const LAUNCH_COUPON_IDS = [...Object.values(LAUNCH_COUPONS).map(c => c.id), BETA_HALF.id];
 
 // The coupons a subscription's discounts name ([] for none), or null when Stripe sent the discounts as ids only (the
 // webhook's fetch doesn't expand them; checkPlanLog does).
@@ -1695,16 +1942,18 @@ export async function checkPlanLog(env, limit = 10) {
 // (excluded_accounts) apart. A free month is a promo_claims row, "free:<the account's one-way Google code>" ("free:user:<id>"
 // without a Google ID) with created = its start (freeHeroMonth), so which account has it is found by coding the ones that
 // could matter (those with a subscription, and the owner ones) the same way (claimHash; read only, and no salt yet means
-// no coded claim yet). planFor gives a free month only while the promo (and BETA_HERO_DAYS after it) runs and the promo's
+// no coded claim yet). planFor gives a free month only while the promo runs (until the launch) and the promo's
 // brake hasn't tripped, so the same holds here. A claim that matches none of them is an ordinary player's; it also
 // counts an account deleted during its month (the claim outlives "Delete my account").
 async function freeHeroMonths(env, now, covered) {
   const at = launchNow(env, now).getTime(), week = launchWindow(env);
-  if (!week || at >= week.end + BETA_HERO_DAYS * DAY_MS || await launchSpend(env, week) >= LAUNCH_WEEK_BRAKE_MICRO)
+  if (!week || at >= week.end || await launchSpend(env, week) >= LAUNCH_WEEK_BRAKE_MICRO)
     return { players: 0, owner: 0 };
   const all = async (sql, ...args) => (await env.DB.prepare(sql).bind(...args).all()).results;
-  const claims = (await all("SELECT claim FROM promo_claims WHERE claim LIKE 'free:%' AND created <= ? AND created > ?",
-    iso(at), iso(at - BETA_HERO_DAYS * DAY_MS))).map(r => r.claim);
+  // A month runs to the launch, or BETA_HERO_DAYS from its start if that's sooner (freeMonthEnd).
+  const claims = (await all("SELECT claim, created FROM promo_claims WHERE claim LIKE 'free:%' AND created <= ? AND created > ?",
+    iso(at), iso(at - BETA_HERO_DAYS * DAY_MS)))
+    .filter(r => freeMonthEnd(env, Date.parse(r.created)) > at).map(r => r.claim);
   if (!claims.length) return { players: 0, owner: 0 };
   const [owners, users, salt] = await Promise.all([
     all("SELECT user_id FROM excluded_accounts WHERE reason != 'counted'"),
@@ -1728,7 +1977,8 @@ async function freeHeroMonths(env, now, covered) {
 // Subscriptions for /admin and the daily stats post (LOR-524), one way everywhere: every plan that's on now (paidNow)
 // is one of
 //   paying    a paid plan, active or past due: monthlyUsd (MRR: their plans' list prices, before Stripe's fees; a beta
-//             50% first month still renews at the full price) and netUsd (after the fees) count the active ones
+//             half price still renews at the full price) and netUsd (after the fees) count the active ones; a paying
+//             plan moved to the launch (payDay) is a Stripe trial until then, and counted here
 //   trialing  the beta's Keep Hero trial, nothing charged yet
 //   comped    free on purpose (plan_log comp: COMP_COUPONS), never revenue
 //   owner     the admin's or a test account's (lib/activity.js excluded_accounts), never revenue
@@ -1751,7 +2001,8 @@ export async function subscriptionReport(env, now = new Date(), days = 30) {
   const all = async (sql, ...args) => (await env.DB.prepare(sql).bind(...args).all()).results;
   const counted = `COALESCE(comp, '') = '' AND NOT ${owner("COALESCE(user_id, '')")}`;
   const [plans, started, cancelled, claims, packs] = await Promise.all([
-    all("SELECT e.user_id, e.plan, e.status, e.current_period_end, p.comp, p.subscription_id IS NOT NULL AND p.comp IS NOT NULL AS checked, " +
+    all("SELECT e.user_id, e.plan, e.status, e.current_period_end, e.gap_from, p.comp, " +
+        "p.subscription_id IS NOT NULL AND p.comp IS NOT NULL AS checked, " +
         `${owner("e.user_id")} AS owner FROM entitlements e LEFT JOIN plan_log p ON p.subscription_id = e.subscription_id ` +
         "WHERE e.subscription_id IS NOT NULL"),
     all(`SELECT substr(started, 1, 10) AS day, COUNT(*) AS n FROM plan_log WHERE started >= ? AND ${counted} GROUP BY day`, from),
@@ -1769,7 +2020,9 @@ export async function subscriptionReport(env, now = new Date(), days = 30) {
   for (const r of plans) {
     if (!paidNow(r, now)) continue;
     covered.add(r.user_id);
-    const kind = r.comp ? "comped" : r.owner ? "owner" : r.status === "trialing" ? "trialing" : "byPlan";
+    // A paying plan moved to the launch (payDay) is a Stripe trial until then, and still a paying one.
+    const kind = r.comp ? "comped" : r.owner ? "owner" : r.status === "trialing" && r.gap_from !== "active" ? "trialing"
+      : "byPlan";
     out[kind][r.plan]++;
     if (kind !== "byPlan") continue;
     out.paying++;

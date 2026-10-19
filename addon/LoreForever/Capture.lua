@@ -625,7 +625,7 @@ function Capture.PlaceBook()
   end
 end
 
--- The buttons, made the first time they're needed; their places follow the Lore and play buttons (Hooks.lua).
+-- The buttons' places follow the Lore and play buttons (Hooks.lua).
 local hooked
 function Capture.Hook()
   if hooked or not ns.Hooks then return end
@@ -667,22 +667,26 @@ local function make(key)
 end
 Capture.buttons = buttons
 
+-- All four, made at login with the Lore buttons (Hooks.Init), never as a window opens: the controller interface
+-- rescans a game window when a frame is made on it, and from our code that taints it for the session (LOR-481,
+-- Context.GamepadUI).
+function Capture.MakeButtons()
+  for _, key in ipairs({ "quest", "gossip", "book", "log" }) do make(key) end
+end
+
 Capture.questPart = nil
 function Capture.UpdateQuest(part)
   Capture.questPart = part or Capture.questPart
-  make("quest")
   show("quest", Capture.questPart and Capture.QuestLine(Capture.questPart))
   if ns.Hooks.PlaceQuestRow then ns.Hooks.PlaceQuestRow() end   -- the row is longer (or shorter) now
   Capture.PlaceQuest()
 end
 
 function Capture.UpdateGossip()
-  make("gossip")
   show("gossip", Capture.GossipLine())
 end
 
 function Capture.UpdateBook()
-  make("book")
   show("book", Capture.BookLine())
   Capture.PlaceBook()
 end
@@ -690,7 +694,7 @@ end
 -- On the map's quest log: beside play and Lore at the right end of the bar above the quest's text, or there itself
 -- (Hooks.AtLogRow).
 function Capture.UpdateQuestLog(questID)
-  local b = make("log")
+  local b = buttons.log
   if not b then return end
   if not (b.parent.IsShown and b.parent:IsShown()) then return show("log", nil) end   -- the log is closed
   show("log", Capture.QuestLogLine(questID))

@@ -336,17 +336,17 @@ test("the allowance tells the companion what each plan may do", async () => {
   await entitle(hero, "hero", "active", 20);
   await entitle(champion, "champion", "active", 20);
   assert.deepEqual((await allowance(env, free.id)).features,
-    { voices: "default", push_to_talk: true, sight: true, npc_voices: false, research: true },
+    { voices: "default", push_to_talk: true, sight: true, npc_voices: false, research: true, reminders: false },
     "its first answers at Willo's best (lib/best-first.js): asked out loud, seeing the game, looking online");
   await tasted(free);
   assert.deepEqual((await allowance(env, free.id)).features,
-    { voices: "default", push_to_talk: true, sight: false, npc_voices: false, research: false },
+    { voices: "default", push_to_talk: true, sight: false, npc_voices: false, research: false, reminders: false },
     "while its starter lasts, asking out loud gets an answer aloud in Willo's default voice (site/tests/companion-voice.test.mjs)");
   assert.deepEqual(companionFeatures(PLANS.free, { starter: 0 }),
-    { voices: "none", push_to_talk: false, sight: false, npc_voices: false, research: false }, "after it: text, typed");
+    { voices: "none", push_to_talk: false, sight: false, npc_voices: false, research: false, reminders: false }, "after it: text, typed");
   for (const user of [hero, champion]) {
     assert.deepEqual((await allowance(env, user.id)).features,
-      { voices: "all", push_to_talk: true, sight: true, npc_voices: true, research: true });
+      { voices: "all", push_to_talk: true, sight: true, npc_voices: true, research: true, reminders: true });
   }
 });
 
@@ -571,6 +571,53 @@ test("a failed answer gives its starter answer back", async () => {
   globalThis.fetch = async () => Response.json({ error: { message: "overloaded" } }, { status: 503 });
   try { assert.equal((await ask()).status, 502); } finally { globalThis.fetch = working; }
   assert.deepEqual(starterLeft(user), [30], "the player gets answers, not attempts");
+});
+
+// D1 failing for one statement: `sql` (a pattern) with any bound value starting `arg`, from the moment it's asked.
+function failingD1(sql, arg = "") {
+  const prepare = env.DB.prepare;
+  env.DB.prepare = text => {
+    const st = prepare(text);
+    const broken = { first: async () => { throw new Error("D1_ERROR: Network connection lost."); },
+                     run: async () => { throw new Error("D1_ERROR: Network connection lost."); } };
+    return { ...st, bind: (...args) => sql.test(text) && args.some(a => String(a).startsWith(arg))
+      ? { ...st.bind(...args), ...broken } : st.bind(...args) };
+  };
+  return () => { env.DB.prepare = prepare; };
+}
+
+test("a failed answer gives back the day and the month it was counted on, however it fails (LOR-673)", async () => {
+  // A paid plan counts each answer on the day and on its month's pool (from Sept 30, its renewal day).
+  const { user, ask } = await companionPlayer("unlucky", { plan: "hero" });
+  const counts = () => Object.fromEntries(env.DB.sqlite.prepare("SELECT bucket, n FROM rate_limits WHERE user_id = ? " +
+    "AND bucket IN ('companion-answer:2026-10-11', 'companion-month:2026-09-30')").all(user.id).map(r => [r.bucket.split(":")[0], r.n]));
+  assert.equal((await ask()).status, 200);
+  assert.deepEqual(counts(), { "companion-answer": 1, "companion-month": 1 });
+
+  // The model failing: both back, so the companion's second ask (LOR-580) costs the one answer.
+  const working = globalThis.fetch;
+  globalThis.fetch = async () => Response.json({ error: { message: "overloaded" } }, { status: 503 });
+  try { assert.equal((await ask()).status, 502); } finally { globalThis.fetch = working; }
+  assert.deepEqual(counts(), { "companion-answer": 1, "companion-month": 1 });
+
+  // D1 failing on the month's count after the day's went in: the day's goes back.
+  let fixed = failingD1(/INSERT INTO rate_limits/, "companion-month:");
+  try { assert.equal((await ask()).status, 502); } finally { fixed(); }
+  assert.deepEqual(counts(), { "companion-answer": 1, "companion-month": 1 });
+
+  // An error after counting, before the answer is written (a look online's hold on the plan's cost cap): both go back.
+  fixed = failingD1(/INSERT INTO answer_holds/);
+  try { assert.equal((await ask({ research_required: true })).status, 502); } finally { fixed(); }
+  assert.deepEqual(counts(), { "companion-answer": 1, "companion-month": 1 });
+  assert.equal(gemini.length, 1, "the hold failed before anything was asked of the model");
+
+  // The shared budget refusing a free player's answer (the "at capacity" 429): the day's count goes back.
+  const free = await companionPlayer("crowded", { starter: 30 });
+  env.STORY_BUDGET_USD = "0";
+  try { assert.equal((await free.ask()).status, 429); } finally { delete env.STORY_BUDGET_USD; }
+  assert.equal(env.DB.sqlite.prepare("SELECT n FROM rate_limits WHERE user_id = ? AND bucket = 'companion-answer:2026-10-11'")
+    .get(free.user.id)?.n ?? 0, 0);
+  assert.deepEqual(starterLeft(free.user), [30]);
 });
 
 test("out of answers: Willo's words for when they come back, Hero the free plan's one offer, nothing for Legend", async () => {

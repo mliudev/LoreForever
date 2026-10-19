@@ -12,9 +12,10 @@
 // DATA_VERSION is the add-on data they were checked against. A player whose add-on is older is told so (factsBlock).
 
 import { FLIGHT_FACTS } from "./forever-flights.js";
-import { GAME_FACTS } from "./forever-game-facts.js";
+import { GAME_FACTS, ridingMountsFor, ridingTrainerFor } from "./forever-game-facts.js";
+import { LOOP_FACTS } from "./forever-loop-facts.js";
 import { DATA_VERSION } from "./knowledge-version.js";
-import { questFacts, questBlock } from "./forever-quest-facts.js";
+import { questFacts, questBlock, questChain } from "./forever-quest-facts.js";
 import { itemFacts, itemBlock } from "./forever-item-facts.js";
 import { placeFacts, placeBlock } from "./forever-place-facts.js";
 
@@ -37,6 +38,10 @@ const DALARAN = { title: "Warcraft Tavern: City of Dalaran dungeon in the WoW Fo
   url: "https://www.warcrafttavern.com/forever/news/city-of-dalaran-dungeon-legacy-points-now-live-in-the-wow-forever-beta/" };
 const CLIENT = { title: "WoW Forever's own quest text (Lore Forever library)", url: "https://loreforeverwow.com/lore" };
 const SEEN = { title: "Seen in game by Mike (Lore Forever), 2026-10-11", url: "" };
+const wikiPage = page => ({ title: `Warcraft Wiki: ${page}`, url: `https://warcraft.wiki.gg/wiki/${page.replace(/ /g, "_")}` });
+const LOST_IN_BATTLE = wikiPage("Lost in Battle"), RORIAN = wikiPage("Rorian the Dayseeker");
+// This era's numbers: patch 1.1.1's (at most ten minutes, 25% durability), not the page's current ones.
+const RES_SICKNESS = wikiPage("Resurrection Sickness"), IRONFORGE = wikiPage("Ironforge");
 
 const dungeon = (id, name, zone, levels, more = "") => ({ id: `dungeon-${id}`, title: `${name} (dungeon)`, zone,
   text: `${name} is one of WoW Forever's new five-player dungeons, in ${zone}, for about levels ${levels}.${more}`, source: WIKI });
@@ -136,6 +141,32 @@ export const wayQuestion = question => String(question || "").replace(/’/g, "'
 
 // The prompt with its question (the last QUESTION, as promptParts reads it) read as `question` instead: what the answer
 // model reads, never what the chat shows. Any RESEARCH FOCUS after it stays.
+// The companion's SOURCES without another people's version of a quest its facts place here: each people has its own
+// "The Great Outdoors", and with seven of them in the sources Willo named Raan, Kaga, Brakk or Sam for a human in Dun
+// Morogh, where the quest facts say Eric Brighthammer (the gold set, 10/18). When two or more sections share a quest
+// fact's title, those that don't name its giver go, all of them when none does (the right one may not have been found).
+export function otherVersions(prompt, facts = []) {
+  let text = String(prompt || "");
+  for (const f of facts) {
+    const title = /^Quest: (.+)$/.exec(f?.title || "")?.[1];
+    const giver = /\bfrom ([^;(]+?) in /.exec(f?.text || "")?.[1]?.trim();
+    if (!title || !giver) continue;
+    const head = `=== ${title} (quest) ===\n`;
+    const sections = [];
+    for (let at = text.indexOf(head); at >= 0; at = text.indexOf(head, at + head.length)) {
+      // A source is its heading and one paragraph (answer.py: the entry's summary on one line).
+      const next = text.indexOf("\n\n", at + head.length);
+      sections.push([at, next < 0 ? text.length : next]);
+    }
+    if (sections.length < 2) continue;
+    const first = giver.split(" ")[0];
+    const names = ([a, b]) => text.slice(a, b).includes(first);
+    for (const [a, b] of sections.filter(s => !names(s)).reverse())
+      text = text.slice(0, a) + text.slice(b + 2 <= text.length && text.slice(b, b + 2) === "\n\n" ? b + 2 : b);
+  }
+  return text;
+}
+
 export function withQuestion(prompt, question) {
   const text = String(prompt || "");
   const at = text.lastIndexOf("\nQUESTION\n");
@@ -195,6 +226,49 @@ export const SEED_FACTS = [
     text: "You can't make or play a death knight in WoW Forever. The classes are warriors, paladins, hunters, " +
       "rogues, priests, shamans, mages, warlocks and druids. The death knights of this age serve the Scourge and " +
       "are its enemies to fight." },
+  // Where the great figures are now (the 10/18 cause grid, "Why Willo Misses": "Who is the Lich King?", "Where is
+  // Arthas now?", "What happened to Illidan?", "Tell me about Deathwing" and Magni's brothers came out thin or wrong;
+  // given the facts, the same model got them right).
+  { id: "era-lich-king", title: "The Lich King and Arthas", source: WIKI,
+    text: "The Lich King is Arthas Menethil, the fallen prince of Lordaeron: at the end of the Third War he climbed the " +
+      "Frozen Throne in Icecrown, in Northrend, put on the Helm of Domination and became one with Ner'zhul, the first " +
+      "Lich King. From there he rules the Scourge." },
+  { id: "era-illidan", title: "Where Illidan Stormrage is", source: WIKI,
+    text: "Illidan Stormrage, freed in the Third War from ten thousand years in the Barrow Deeps beneath Mount Hyjal, " +
+      "was beaten by Arthas at the Frozen Throne and withdrew to Outland, where no one from Azeroth can follow him in " +
+      "this age." },
+  { id: "era-deathwing", title: "Deathwing and his children", source: WIKI,
+    text: "Deathwing, the black dragonflight's fallen Aspect, hasn't been seen since his defeat at Grim Batol after the " +
+      "Second War, and no one knows where he is. His children are active: Nefarian holds Blackwing Lair at the top of " +
+      "Blackrock Spire, and Onyxia has her lair in Dustwallow Marsh." },
+  { id: "magni-brothers", title: "Magni Bronzebeard's brothers", zone: "Ironforge", source: WIKI,
+    text: "King Magni Bronzebeard of Ironforge is the eldest of three brothers. Muradin, the middle one, is believed " +
+      "dead in Northrend since the day Prince Arthas took up Frostmourne; Brann, the youngest, is the explorer and " +
+      "archaeologist of the Explorers' League. No chronicle tells when Magni took the throne: he was already king " +
+      "in the Second War, when he held Ironforge against the orcs and pledged it to the Alliance." },
+  // What players ask about that the lore entries leave out or blur (the 10/18 answer log and gold set: Mankrik's wife
+  // was "missing" and "the Dayseeker" an elder's rank).
+  { id: "mankrik-wife", title: "Mankrik's wife", zone: "The Barrens", source: LOST_IN_BATTLE,
+    text: "Mankrik at the Crossroads in the Barrens asks Horde adventurers from level 14 to find some sign of his wife, " +
+      "lost when quilboar overran the small tauren camp they were fighting in (the quest Lost in Battle). She didn't " +
+      "survive. Head south from the Crossroads to the bridge near where the trail from the Lushwater Oasis meets the " +
+      "road: her body, the Beaten Corpse, lies in front of one of the two huts west of it, at about 49, 50 on the " +
+      "Barrens map. Look her over, then take the news back to Mankrik." },
+  { id: "rorian-dayseeker", title: "Rorian the Dayseeker", zone: "Zephras Isle", source: RORIAN,
+    text: "Rorian the Dayseeker stands in Thendal Village on Zephras Isle, at about 42, 24 on the map. He starts the " +
+      "young skyborne's first quests, among them the first of each class's path, and Coming of Age ends with him. " +
+      "No one on the isle says what his title, the Dayseeker, means." },
+  // The two-layer answers' wrong claims (10/18, #1195): the graveyard "inside Ironforge" and the lava as "a visual
+  // glitch", where nothing she was given said otherwise.
+  { id: "death-spirit-healer", title: "When you die", source: RES_SICKNESS,
+    text: "When you die, you release your spirit and walk as a ghost from the nearest graveyard. Run back to your body " +
+      "to come back to life where you fell, or let the Spirit Healer at the graveyard raise you there: from level 11 " +
+      "that costs a quarter of your gear's durability and leaves you with Resurrection Sickness, all your attributes " +
+      "and damage down by three quarters for up to ten minutes. Death isn't permanent, except on Hardcore." },
+  // Its words are the lava's, not the city's: with "Ironforge" in it, it came to every question asked there.
+  { id: "ironforge-lava", title: "Lava and magma falls of the dwarven capital", source: IRONFORGE,
+    text: "The lava pouring from above in the dwarven capital is the earth's own magma: it runs in falls through the " +
+      "city's molten heart and feeds the Great Forge, whose fires never go out." },
   { id: "forever-new-zones", title: "New zones in WoW Forever", source: WIKI,
     text: "WoW Forever adds new zones: Mount Hyjal, the Riverglades, Shen'dralas and Zephras Isle, the skyborne's " +
       "floating home. Several original zones were expanded, and Dalaran stands again in the Alterac Mountains." },
@@ -252,6 +326,8 @@ export const SEED_FACTS = [
       "collections (transmog, mounts, pets and toys), first and last names, rulesets instead of realms, reworked " +
       "talents and racials, and the Darkspear Islands battleground. The level cap stays at 60." },
   ...GAME_FACTS,
+  // The nightly miss loop's facts (pipeline/lore/miss_loop.py), each from a review-queue miss.
+  ...LOOP_FACTS.map(({ feedback_ids, ...fact }) => fact),
 ];
 // The seed's version: a hash of every seed fact, so any edit reseeds D1 on the next answer, with nothing to bump.
 const fnv1a = text => {
@@ -538,10 +614,28 @@ const POINTS_BACK = /\b(?:his|her|hers|him|he|she|their|theirs|them|they|its|it|
 export const followUp = parts => Boolean(parts.previousQuestion) && POINTS_BACK.test(parts.question) &&
   words(parts.question).length <= 8;
 
+// A short yes to her own offer ("Want me to tell you where to train?" "Yes."): what it asks is the offer and the
+// question before it (the PM's live runs, 10/18: on a bare "Yes." the riding facts went unfound, and she named the
+// wrong trainer 2 runs in 5). Returns the offer, or "".
+const YES = /^\W*(?:yes|yeah|yea|yep|yup|sure|please|ok|okay|alright|all right|go on|go ahead|do it|tell me|show me|absolutely|of course|definitely|i do|i would|why not|that would be (?:great|nice|good|helpful))\b(?:[\s,!.]+(?:please|thanks|thank you|willo|willow|sure|yes|do|go on|tell me))*\W*$/i;
+export function offerTaken({ question = "", previous = "" } = {}) {
+  if (!previous || !YES.test(String(question).replace(/’/g, "'"))) return "";
+  return (String(previous).match(/[^.!?]*\?/g) || []).at(-1)?.trim() || "";
+}
+// The parts as the question means them: a yes to an offer asks the offer.
+export function meant(parts) {
+  const offer = offerTaken(parts);
+  return offer ? { ...parts, question: `${parts.previousQuestion || ""} ${offer}`.trim() } : parts;
+}
+// A fact as it reads for this player: the riding trainers and mounts of their own people.
+const OWN = { "riding-trainers": ridingTrainerFor, "riding-mounts": ridingMountsFor };
+const forPlayer = (facts, parts) => facts.map(f => (OWN[f.id]?.(parts.race) ? { ...f, text: OWN[f.id](parts.race) } : f));
+
 export async function knowledgeFor(env, parts, { character = false, dataVersion = "" } = {}) {
   // The Forever facts' search goes out first; quest, NPC, item, town and road facts need no database
   // (lib/forever-quest-facts.js, lib/forever-item-facts.js, lib/forever-place-facts.js), so they're found while it's
   // out (an isolate's first item lookup reads its data, about 60 ms), and they come even when D1 fails.
+  parts = character ? parts : meant(parts);
   const asked = followUp(parts) ? { ...parts, question: `${parts.question} ${parts.previousQuestion}` } : parts;
   const searched = (async () => {
     await setupKnowledge(env);
@@ -555,6 +649,15 @@ export async function knowledgeFor(env, parts, { character = false, dataVersion 
   }
   try {
     item = itemFacts(parts, { character });
+    // A quest they're doing for an item's sake: its chain (forever-quest-facts.js questChain), ahead of quests matched
+    // by words alone.
+    const reward = !character && /\bquests?\b/i.test(parts.question)
+      && item.map(f => /\ba reward from the quest ([^;.]+?)(?:[;.]|$)/.exec(f.text || "")?.[1]).find(Boolean);
+    if (reward) {
+      const chain = questChain(reward.trim(), parts).map(f => ({ ...f, asked: true }));
+      const have = new Set(chain.map(f => f.title));
+      quest = [...chain, ...quest.filter(f => !have.has(f.title) && f.title.startsWith("NPC:"))];
+    }
   } catch (e) {
     console.warn(`item facts: ${e?.message || e}`);
   }
@@ -565,7 +668,7 @@ export async function knowledgeFor(env, parts, { character = false, dataVersion 
   }
   const local = [questBlock(quest), itemBlock(item), placeBlock(place)];
   try {
-    const facts = await searched;
+    const facts = forPlayer(await searched, parts);
     const block = factsBlock(facts, { character, olderData: olderData(dataVersion) });
     return { facts: [...quest, ...item, ...place, ...facts], block: [...local, block].filter(Boolean).join("\n\n") };
   } catch (e) {

@@ -8,6 +8,7 @@ import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { SITE, r2 } from "./helpers.mjs";
 import { MANIFEST_KEY } from "../lib/lore.js";
+import { visiblePacks } from "../lib/packs.js";
 import { onRequestGet as downloadsGet } from "../functions/downloads/index.js";
 import { onRequestGet as entryGet } from "../functions/lore/[type]/[id].js";
 import { onRequestGet as indexGet } from "../functions/lore/index.js";
@@ -37,7 +38,12 @@ test("/downloads: what comes with it, a tile per extra pack, each language's pac
   const html = await downloads({ ASSETS: assets(), STUDIO: await bucketWith([inR2.audio]) });
   assert.match(html, /Comes with it/);
   assert.match(html, /Add more, if you like/);
-  for (const g of packs.groups) assert.ok(ids(html).has(`packs-${g.id}`), `card ${g.id}`);
+  // A card for every group with a pack that's out (the original male narrator's stay "soon" until a release has them).
+  const voices = JSON.parse(readFileSync(join(PUBLIC, "voices/voices.json"), "utf8")).voices;
+  const out = visiblePacks(packs, voices, JSON.parse(readFileSync(join(PUBLIC, "translate/packs.json"), "utf8")).packs);
+  for (const g of packs.groups) {
+    if (g.packs.some(f => out.has(f))) assert.ok(ids(html).has(`packs-${g.id}`), `card ${g.id}`);
+  }
   // The counts are the generated ones, never typed in: the female narrator's stories pack, as packs.json has it.
   const female = packs.packs.LoreForever_Voice_Female;
   assert.ok(html.includes(`${female.recordings.toLocaleString("en-US")} recordings: `), "female narrator's count");

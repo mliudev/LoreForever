@@ -9,15 +9,16 @@
 //   - Hashed: D1 keeps only the link's SHA-256 (web_logins, lib/accounts.js SETUP), like sessions and device tokens.
 //   - Bound to the app: a link signs in only the account of the app that asked, and only while that app is still
 //     connected (Disconnect on /account or Sign out in the app, and its open links stop working).
-//   - `next` is an allowlist (safeNext): /plans or /account, an optional ?from=willo-<word> for counting where players
-//     came from, and an optional #anchor. Never another site, so it's no open redirect.
+//   - `next` is an allowlist (safeNext): /plans, /account, /privacy or /willo/keeps (What Willo keeps, LOR-666), an
+//     optional ?from=willo-<word> for counting where players came from, and an optional #anchor. Never another site,
+//     so it's no open redirect.
 // A link that's expired, used or made up lands on the sign-in page (/account) with a plain line, never an error page.
 
 import { sha256 } from "./accounts.js";
 
 export const WEB_LOGIN_SECONDS = 120;
 
-const NEXT = /^\/(plans|account)(\?from=willo-[a-z]{1,20})?(#[a-z][a-z0-9-]{0,30})?$/;
+const NEXT = /^\/(plans|account|privacy|willo\/keeps)(\?from=willo-[a-z]{1,20})?(#[a-z][a-z0-9-]{0,30})?$/;
 
 // `next` when it's one of the pages Willo may open, else null.
 export const safeNext = next => typeof next === "string" && NEXT.test(next) ? next : null;

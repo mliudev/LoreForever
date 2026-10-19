@@ -113,6 +113,46 @@
 .bw .pl-body .vp-note, .bw #pl-yourway { margin: 0 0 12px; color: var(--h-muted); font-size: 0.98rem; }
 .bw #pl-yourway { color: var(--h-text-2); }
 
+/* What Willo keeps (/willo/keeps, LOR-666): a card per kind of kept thing, its items as a quiet list with Change and
+   Erase under each, a character picker on top. Phone first: buttons wrap under the text and stay a thumb wide. */
+.bw .wk-page .wk-card { margin: 0 0 18px; }
+.bw .wk-page .wk-card h2 { margin: 0 0 6px; }
+.bw .wk-page .wk-card > .vp-note { margin: 0 0 10px; }
+.bw .wk-chars { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+.bw .wk-chars button { min-height: 36px; padding: 6px 14px; border: 1px solid var(--h-line); border-radius: 999px;
+  background: transparent; color: var(--h-text-2); font: 500 0.95rem var(--h-body); }
+.bw .wk-chars button[aria-pressed="true"] { border-color: var(--h-acc-rim); background: var(--h-acc-wash); color: var(--h-acc-hi); }
+.bw .wk-kept { margin: 0 0 12px; color: var(--h-muted); font-size: 0.9rem; }
+.bw .wk-page .wk-switch { margin: 0 0 12px; color: var(--h-text-2); }
+.bw .wk-top { margin: 0 0 14px; }
+.bw .wk-none { margin: 0; color: var(--h-muted); font-style: italic; }
+.bw .wk-page h3.wk-who { margin: 16px 0 4px; font-size: 1.05rem; color: var(--h-acc-hi); }
+.bw .wk-list { margin: 0; padding: 0; list-style: none; }
+.bw .wk-item { padding: 12px 0; border-top: 1px solid var(--h-line-soft); }
+.bw .wk-item:first-child { border-top: 0; }
+.bw .wk-text { margin: 0; color: var(--h-text); white-space: pre-wrap; }
+.bw .wk-done .wk-text { color: var(--h-muted); text-decoration: line-through; }
+.bw .wk-meta { margin: 2px 0 0; color: var(--h-muted); font-size: 0.88rem; }
+.bw .wk-reply { margin: 6px 0 0; font-size: 0.95rem; }
+.bw .wk-reply p { margin: 6px 0 0; padding-left: 12px; border-left: 2px solid var(--h-line); color: var(--h-text-2); white-space: pre-wrap; }
+.bw .wk-tools { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 0; }
+.bw .wk-tools button, .bw .wk-foot .wk-erase { min-height: 36px; padding: 5px 14px; border: 1px solid var(--h-line);
+  border-radius: var(--h-r-sm); background: transparent; color: var(--h-text-2); font: 500 0.92rem var(--h-body); }
+.bw .wk-tools button:hover, .bw .wk-foot .wk-erase:hover { border-color: var(--h-acc-rim); color: var(--h-text); }
+.bw .wk-page .wk-armed, .bw .wk-page .wk-armed:hover { border-color: #ff8f7f; background: #ff8f7f1f; color: #ffb3a8; }
+.bw .wk-edit { width: 100%; margin: 0 0 4px; padding: 8px 10px; font-size: 1rem; }
+.bw .wk-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 14px 0 0; }
+.bw .wk-foot .btn-small { margin: 0; }
+.bw .wk-confirm { margin: 12px 0 0; padding: 14px; border: 1px solid #ff8f7f66; border-radius: var(--h-r-sm); background: #ff8f7f12; }
+.bw .wk-confirm p { margin: 0 0 8px; }
+.bw .wk-confirm ul { margin: 0 0 12px; padding-left: 20px; }
+.bw .wk-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 0; }
+.bw .wk-links .btn-small { margin: 0; }
+@media (max-width: 560px) {
+  .bw .wk-page .wk-card { padding: 18px 16px; }
+  .bw .wk-tools button { flex: 1 1 0; }
+}
+
 @media (prefers-reduced-motion: reduce) { .bw .wl-wisp { animation: none; } }
 @media (max-width: 1020px) {
   .wl-tracks-4, .bw .pl-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }

@@ -582,6 +582,9 @@ function Strip.Ask(down)
   Strip.Update()
 end
 _G.LoreForever_AskWillo = function(keystate) Strip.Ask(keystate ~= "up") end
+-- The key for asking the one you're targeting (LOR-658: the talk key always reaches Willo, and the character you target
+-- answers on this one): the sky shows the same way, so Willo reads who that is.
+_G.LoreForever_AskTarget = function(keystate) Strip.Ask(keystate ~= "up") end
 
 local function asking()
   local t = now()
@@ -624,11 +627,14 @@ end
 -- Willo. Once the first minute after login has passed, a key the player clears themselves stays cleared. Whether or
 -- not Live game info is on: the key also tells the add-on Willo is answering, so it doesn't start a narration over
 -- Willo (Voice.OnWilloAsked, LOR-471); the sky shows only with Live game info on.
+-- The key for asking the one you're targeting (LoreForeverJourneyData.targetKey, LOR-658, when the player picked one in
+-- Willo) becomes Ask who you're targeting the same way, after the talk key; one offered for it before that isn't
+-- it any more is let go, so it's free for the talk key.
 -- A talk key that does something else in the game never reaches Ask Willo, so the add-on says so in the chat, once
 -- a login, once the bindings have settled (TAKEN_AFTER: the 12 s try, after Core.lua's 10 s repair), with the way out
 -- (LOR-528); not when the player has given Ask Willo a key of their own, which Willo follows. Saying so never changes
 -- a binding: only a key the player presses does (Hooks.KeyPrompt).
-local ASK, SETTLE, TAKEN_AFTER = "LOREFOREVER_ASKWILLO", 60, 11
+local ASK, ASK_TARGET, SETTLE, TAKEN_AFTER = "LOREFOREVER_ASKWILLO", "LOREFOREVER_ASKTARGET", 60, 11
 local loginAt, toldTaken
 
 -- What a key does in the game, in the game's words ("Toggle Bag 4", a macro's or spell's name), or nil.
@@ -662,6 +668,23 @@ local function tellTaken(key, action)
   DEFAULT_CHAT_FRAME:AddMessage(ns.Theme.CHAT_PREFIX .. line)
 end
 
+-- `key` bound to `action` where the game has nothing on it (S()[mine]: the key offered for it before). An older key
+-- offered for it moves to this one, unless the player picked that one (S()[own]). Returns the key once it's `action`,
+-- or nil and what the game does with the key instead.
+local function offer(key, action, mine, own)
+  local current = try(GetBindingAction, key)
+  if current == action then return key end
+  if current ~= "" and current ~= nil then return nil, current end
+  if S()[mine] == key and loginAt and now() - loginAt > SETTLE then return end   -- they cleared it: theirs
+  local old = type(GetBindingKey) == "function" and try(GetBindingKey, action) or nil
+  if old and old ~= key and old == S()[mine] and old ~= (own and S()[own]) then pcall(SetBinding, old) end
+  local ok, bound = pcall(SetBinding, key, action)
+  if ok and bound ~= false then
+    S()[mine] = key     -- never saved: offered again at the next login (Core.lua)
+    return key
+  end
+end
+
 function Strip.OfferAskKey()
   if not ns.BindingsReady then return end -- not before WoW has loaded the saved bindings (Core.lua)
   if not loginAt then                     -- the first try once they're in: try again shortly too
@@ -674,22 +697,22 @@ function Strip.OfferAskKey()
   if try(InCombatLockdown) or type(GetBindingAction) ~= "function"
       or type(SetBinding) ~= "function" then return end
   local data = _G.LoreForeverJourneyData
-  local key = type(data) == "table" and type(data.talkKey) == "string" and data.talkKey ~= "" and data.talkKey or nil
-  if not key then return end
-  local action = try(GetBindingAction, key)
-  if action == ASK then return key end
-  if action ~= "" and action ~= nil then
-    tellTaken(key, action)
-    return
+  local function named(v) return type(v) == "string" and v ~= "" and v or nil end
+  local key = type(data) == "table" and named(data.talkKey) or nil
+  local target = type(data) == "table" and named(data.targetKey) or nil
+  local was = S().askTargetKey
+  if was and was ~= target and try(GetBindingAction, was) == ASK_TARGET then
+    pcall(SetBinding, was)
+    S().askTargetKey = nil
   end
-  if S().askWilloKey == key and loginAt and now() - loginAt > SETTLE then return end   -- they cleared it: theirs
-  local old = type(GetBindingKey) == "function" and try(GetBindingKey, ASK) or nil
-  if old and old ~= key and old == S().askWilloKey and old ~= S().askWilloOwn then pcall(SetBinding, old) end
-  local ok, bound = pcall(SetBinding, key, ASK)
-  if ok and bound ~= false then
-    S().askWilloKey = key     -- never saved: offered again at the next login (Core.lua)
-    return key
+  local bound
+  if key then
+    local action
+    bound, action = offer(key, ASK, "askWilloKey", "askWilloOwn")
+    if action then tellTaken(key, action) end
   end
+  if target and target ~= key then offer(target, ASK_TARGET, "askTargetKey") end
+  return bound
 end
 
 local binder = CreateFrame("Frame")

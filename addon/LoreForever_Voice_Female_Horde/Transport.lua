@@ -417,6 +417,14 @@ P.transport["subzone:agama-gor"] = {
     {file = "Audio/Transport/full_subzone_agama-gor-8fcb00ff36b3efdea655/1-0000.mp3", duration = 76.5387755, start = 0},
   },
 }
+P.transport["subzone:agamand-mills"] = {
+  hash = "6bc02f",
+  fullHash = "fae041",
+  text = "Agamand Mills. Agamand Mills is a sprawling farm and windmill complex nestled in the northern heights of Tirisfal Glades. Once the proud estate of the wealthy Agamand dynasty, it has fallen into ruin and stands as the largest Scourge stronghold in the region. The wealthy Agamand family built their estate around a vast milling network across northern Tirisfal. When the Third War broke out and the Scourge swept across Lordaeron, the patriarch Gregor Agamand refused to flee, fortifying the compound and convincing his retainers and laborers to make their stand. Their provisions and stone walls might have held, but their youngest son, Devlin Agamand, betrayed his blood. Devlin slaughtered the estate watchmen and let the walking dead into the sleeping quarters. Crippled from within, the remaining defenders were wiped out, and the family joined the mindless ranks of the undead. Today, the Agamand Mills are the most entrenched bastion of the Scourge in Tirisfal Glades, posing an immediate threat to the Forsaken realm. The rotting windmills now churn above infested fields of wights, zombies, and skeletal horrors. Beneath the estate, Captain Dargol commands the garrison from the deep Agamand Family Crypt, practicing necromancy to reanimate generations of Agamand ancestors. From Brill, Magistrate Sevren and the Deathguards wage an active campaign to clear the mills and purge the Scourge presence before it can march upon the Undercity.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_agamand-mills-d48a0a3f41b62a555330/1-0000.mp3", duration = 88.1893878, start = 0},
+  },
+}
 P.transport["subzone:ambermill"] = {
   hash = "dab7a5",
   fullHash = "09465b",
@@ -687,6 +695,14 @@ P.transport["subzone:garren-s-haunt"] = {
   text = "Garren's Haunt. Garren's Haunt is an abandoned farmstead nestled in northern Tirisfal Glades. Once a prosperous human homestead, the farm fell to ruin when the Scourge wiped out the Garren family, leaving the overgrown grounds overrun by feral Rot Hide gnolls. Before the Third War, this farmstead supported a family and produced bountiful harvests under the Kingdom of Lordaeron. When the Plague of Undeath swept across the countryside, the Scourge descended upon the farm and slaughtered Garren and his kin. Today, the fields lie gray and withered, the farmhouse and barn decaying under the perpetual gloom of Tirisfal. Rather than standard Scourge patrols, Garren's Haunt has been claimed by the Rot Hide gnolls—a pack of undead-tainted scavengers led by the vicious Maggot Eye. These scavengers aggressively defend their reclaimed territory, picking clean whatever remains of the farm and savaging any travelers or Forsaken patrols passing along northern Tirisfal.",
   ["1"] = {
     {file = "Audio/Transport/full_subzone_garren-s-haunt-86619dab861ce8be04a5/1-0000.mp3", duration = 57.5216327, start = 0},
+  },
+}
+P.transport["subzone:gates-of-orgrimmar"] = {
+  hash = "ed08c0",
+  fullHash = "58a8fd",
+  text = "Gates of Orgrimmar. The Gates of Orgrimmar form the imposing southern threshold of the Horde capital, carved directly into the red rock of northern Durotar. Flanked by heavy timber and iron battlements, this grand entryway connects the arid wastes outside to the busy commons of the Valley of Strength. It stands as a physical declaration of orcish endurance and martial strength. Framed by towering wooden palisades, massive iron spikes, and fortified watchtowers, the main gate guards the primary chasm cutting into the mountains sheltering Orgrimmar. For travelers approaching from Razor Hill and the scrublands of Durotar, the entrance serves as both a welcoming monument and a stark deterrent to any who would threaten the new Horde. Heavily armed Orgrimmar Grunts patrol the approach, keeping vigilant watch over all traffic entering the city. Passing beneath the shadowed arch of the gates leads directly into the Valley of Strength, the civic and martial heart of Orgrimmar. The gate tunnel acts as an acoustic and tactical bottleneck, funneling envoys, merchants, and warriors past watchful sentries. It represents the realization of Warchief Thrall's dream: a secure sanctuary carved from the harsh desert where the disparate peoples of the Horde can walk united without fear.",
+  ["1"] = {
+    {file = "Audio/Transport/full_subzone_gates-of-orgrimmar-14132303be2950d2c71a/1-0000.mp3", duration = 77.1918367, start = 0},
   },
 }
 P.transport["subzone:gold-road"] = {

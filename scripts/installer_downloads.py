@@ -16,10 +16,19 @@ from pathlib import Path
 
 CORE_PACKS = ['LoreForever_Voice_Default', 'LoreForever_Voice_Default_Alliance', 'LoreForever_Voice_Default_Horde']
 QUEST_PACKS = ['LoreForever_Voice_Default_Quests']   # (the answers packs are retired: LOR-561)
-# More places and people (complete stories only): each narrator's go with that narrator's choice, the male narrator's
-# with "more narration" (quests). One folder per zip, installed once built.
-MORE_PACKS = {'female': ['LoreForever_Voice_Female_MorePlaces', 'LoreForever_Voice_Female_MorePeople'],
-              'quests': ['LoreForever_Voice_Default_MorePlaces', 'LoreForever_Voice_Default_MorePeople']}
+# More places and people, item stories and quest stories (complete stories only): each narrator's go with that
+# narrator's choice, the male narrator's with "more narration" (quests). One folder per zip, installed once built.
+MORE = ('MorePlaces', 'MorePeople', 'MoreItems', 'MoreQuests1', 'MoreQuests2')
+MORE_PACKS = {'female': ['LoreForever_Voice_Female_' + s for s in MORE],
+              'quests': ['LoreForever_Voice_Default_' + s for s in MORE],
+              'original': ['LoreForever_Voice_Original_MorePlaces', 'LoreForever_Voice_Original_MorePeople']}
+# A narrator's stories and lands in one zip (build-voice-packs.sh's <voice>-complete), the first zip of its choice:
+# the female narrator, and the original male narrator (his own voice since the Chronicler took over the default packs).
+COMPLETE = {'female': ['LoreForever_Voice_Female', 'LoreForever_Voice_Female_Alliance', 'LoreForever_Voice_Female_Horde'],
+            'original': ['LoreForever_Voice_Original', 'LoreForever_Voice_Original_Alliance',
+                         'LoreForever_Voice_Original_Horde']}
+# The optional choices, in the order of the installer's voice table (release/installer/LoreForever.iss InitVoices).
+CHOICES = ('female', 'quests', 'original')
 NAME = re.compile(r'LoreForever(?:_[A-Za-z0-9_-]+)?')
 LIMIT = 480 * 1024 * 1024
 
@@ -28,7 +37,8 @@ def offered_archives():
     """The zips Setup.exe offers, by choice, in the order build() reads them. build-voice-packs.sh builds these first,
     so the Release workflow can hand them to the Windows job while the other narration packs build."""
     return {'female': ['LoreForever_Voice_Female-complete.zip'] + [name + '.zip' for name in MORE_PACKS['female']],
-            'quests': [name + '.zip' for name in QUEST_PACKS + MORE_PACKS['quests']]}
+            'quests': [name + '.zip' for name in QUEST_PACKS + MORE_PACKS['quests']],
+            'original': ['LoreForever_Voice_Original-complete.zip'] + [name + '.zip' for name in MORE_PACKS['original']]}
 
 
 def sha(path):
@@ -68,10 +78,10 @@ def build(transport, packs, output, version, base, source_commit, candidate_zip)
         raise ValueError('Require the exact source commit')
     zip_folders(candidate_zip, version)
     output.mkdir(parents=True, exist_ok=True)
-    result = {'version': 1, 'releaseVersion': version, 'sourceCommit': source_commit, 'candidateZipSha256': sha(candidate_zip), 'packs': {}, 'downloads': [], 'selections': {'base': CORE_PACKS, 'female': [], 'quests': []}, 'unavailable': []}
+    result = {'version': 1, 'releaseVersion': version, 'sourceCommit': source_commit, 'candidateZipSha256': sha(candidate_zip), 'packs': {}, 'downloads': [], 'selections': {'base': CORE_PACKS, **{choice: [] for choice in CHOICES}}, 'unavailable': []}
     # Only explicit options; languages remain available as manual source pack selections.
     offered = offered_archives()
-    female = packs / offered['female'][0]
+    complete = {packs / offered[choice][0]: choice for choice in COMPLETE}
     for selection, names in offered.items():
         for path in (packs / name for name in names):
             if not path.is_file():
@@ -81,11 +91,10 @@ def build(transport, packs, output, version, base, source_commit, candidate_zip)
             target = output / path.name
             if target.resolve() != path.resolve():
                 shutil.copyfile(path, target)
-            if path == female:
-                expected = ['LoreForever_Voice_Female', 'LoreForever_Voice_Female_Alliance', 'LoreForever_Voice_Female_Horde']
-                if folders != expected:
-                    raise ValueError('Unexpected female archive folders')
-                result['selections']['female'] = folders + result['selections']['female']
+            if path in complete:
+                if folders != COMPLETE[complete[path]]:
+                    raise ValueError('Unexpected ' + selection + ' archive folders')
+                result['selections'][selection] = folders + result['selections'][selection]
             else:
                 if folders != [path.stem]:
                     raise ValueError('Unexpected ' + selection + ' archive folders: ' + str(path))
@@ -173,10 +182,10 @@ def build(transport, packs, output, version, base, source_commit, candidate_zip)
             lines += ["    if not PrepareDownload('%s', '%s', '%s', '%s', '%s') then Ok := False;" % (row['archive'], row['sha256'], row['addon'], source, row['receiptSha256'])]
         lines += ["    if FinishDownloadGroup(Ok) then PruneTransport('%s', '%s');" % (source, ';'.join(pack['required'])), '  end;']
     lines += ['end;', '', 'procedure ConfigureAvailableVoices();', 'begin']
-    for index, selection in enumerate(('female', 'quests')):
+    for index, selection in enumerate(CHOICES):
         if result['selections'][selection]:
             lines.append("  VoiceFolders[%s] := '%s';" % (index, ';'.join(result['selections'][selection])))
-    indices = [index for index, selection in enumerate(('female', 'quests')) if result['selections'][selection]]
+    indices = [index for index, selection in enumerate(CHOICES) if result['selections'][selection]]
     for target, original in enumerate(indices):
         if target != original:
             for field in ('VoiceIds', 'VoiceNames', 'VoiceAssets', 'VoiceFolders'):

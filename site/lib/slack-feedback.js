@@ -101,7 +101,12 @@ const minutes = ms => { const s = Math.round(ms / 1000); return `${Math.floor(s 
 // Each: {icon, tab (the /admin#tab, or null), link?(item) (its own page instead), key(item), format(item) -> {title,
 // text?, meta[]}}. Async formats may read D1. EXTERNAL ones come from the forwarder Worker, not the site's own saves.
 
-const WILLO_KINDS = { flag: "Wrong answer flagged", correction: "Player corrected her", frustration: "Player frustrated" };
+const WILLO_KINDS = { report: "Answer marked Not right", flag: "Wrong answer flagged", correction: "Player corrected her",
+  misheard: "Player said she misheard", frustration: "Player frustrated", gave_up: "Player gave up on an answer" };
+const WILLO_SOURCES = { window: "her window", overgame: "over the game", overlay: "the answer window", iphone: "iPhone",
+  voice: "said out loud", typed: "typed" };
+const WILLO_REASONS = { wrong_fact: "wrong fact", not_my_question: "didn't answer the question", too_long: "too long",
+  too_short: "too short", couldnt_hear: "couldn't hear her", other: "something else" };
 const DONATION = { new: "Voice lent", replaced: "Lent voice re-recorded", withdrawn: "Lent voice withdrawn" };
 
 export const SOURCES = {
@@ -185,7 +190,9 @@ export const SOURCES = {
         title: `Willo · ${WILLO_KINDS[w.kind] || one(w.kind, 20)}`,
         text: [text(w.said), w.question ? `Asked: "${text(w.question)}"` : "",
                w.answer ? `Willo said: "${plain(scrubNames(String(w.answer), names), 300)}"` : ""].filter(Boolean).join("\n"),
-        meta: [where(w.zone, w.sub), w.spoken ? "spoken" : "", w.persona && w.persona !== "willo" ? one(w.persona, 16) : "",
+        meta: [Array.isArray(w.reasons) && w.reasons.length ? w.reasons.map(r => WILLO_REASONS[r] || one(r, 20)).join(", ") : "",
+               where(w.zone, w.sub), WILLO_SOURCES[w.source] || (w.spoken ? "spoken" : ""),
+               w.persona && w.persona !== "willo" ? one(w.persona, 16) : "",
                w.client ? one(String(w.client).replace(/^companion\//, "Willo "), 30) : ""],
       };
     },

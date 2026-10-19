@@ -23,7 +23,8 @@ export const HASH = /^[0-9a-f]{6}$/;
 const VOICE = /^LoreForever_Voice_[A-Za-z0-9_]{1,48}$/;
 const PREFIX = "LoreForever_Voice_";
 // The site's names for our narrators (public/voices/voices.json ids) -> their packs.
-const SITE_VOICES = { "male-narrator": "LoreForever_Voice_Default", "female-narrator": "LoreForever_Voice_Female" };
+const SITE_VOICES = { "male-narrator": "LoreForever_Voice_Default", "female-narrator": "LoreForever_Voice_Female",
+  "original-male-narrator": "LoreForever_Voice_Original" };
 
 // A voice as the folder name of its narrator's pack, so reports from the add-on (which names the pack that played,
 // lands and quest dialogue packs included) and from the site (voices.json ids) group together:
@@ -35,7 +36,7 @@ export function normalizeVoice(v) {
   let s = String(v ?? "").trim();
   if (SITE_VOICES[s]) return SITE_VOICES[s];
   if (!s.startsWith(PREFIX)) s = PREFIX + s;
-  s = s.replace(/^(LoreForever_Voice_(?:Default|Female))(?:_(?:Alliance|Horde|Quests|Answers_[A-Z][a-z]+\d?))+(_[a-z]{2}[A-Z]{2})?$/, "$1$2");
+  s = s.replace(/^(LoreForever_Voice_(?:Default|Female|Original))(?:_(?:Alliance|Horde|Quests|Answers_[A-Z][a-z]+\d?))+(_[a-z]{2}[A-Z]{2})?$/, "$1$2");
   return VOICE.test(s) ? s : null;
 }
 

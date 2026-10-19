@@ -139,7 +139,7 @@ def reject_pointers(pack: str, files: list[tuple[str, Path]]) -> None:
     pointers = [n for n, p in files if p.stat().st_size <= 1024 and p.read_bytes().startswith(LFS_POINTER)]
     if pointers:
         raise Failure(f"{len(pointers)} files in addon/{pack}/Audio are Git LFS pointers, not recordings (e.g. "
-                      f"{pointers[0]}). Fetch them first: git -c lfs.fetchexclude= lfs pull")
+                      f"{pointers[0]}). Fetch them first: python3 scripts/audio_store.py hydrate")
 
 
 def checked_recordings(pack: str, entry: dict) -> list[tuple[str, Path]]:
@@ -149,7 +149,7 @@ def checked_recordings(pack: str, entry: dict) -> list[tuple[str, Path]]:
         content = path.read_bytes()
         if len(content) <= 1024 and content.startswith(LFS_POINTER):
             raise Failure(f"addon/{pack}/Audio/{name} contains Git LFS pointers, not recordings. "
-                          "Fetch them first: git -c lfs.fetchexclude= lfs pull")
+                          "Fetch them first: python3 scripts/audio_store.py hydrate")
         size += len(content)
         fp.update(hashlib.sha256(name.encode()).digest() + hashlib.sha256(content).digest())
     if len(files) != entry["files"] or size != entry["bytes"] or fp.hexdigest() != entry["fingerprint"]:

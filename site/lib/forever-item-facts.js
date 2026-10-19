@@ -12,7 +12,14 @@
 // ("where do I mine silver?"). A recipe item one of them is learned from comes with it. A question about a profession
 // ("best way from 125 blacksmithing to 150?") gets its ranks and the trainers' recipes for that skill. Each counts as
 // answering the question (asked), so a covered question skips its quick look-up; lore questions get none.
+//
+// Who sells or teaches it is told for the player (10/18, "Where can I find a leaded vial?" in Stormwind was sent to
+// Gadgetzan and Lakeshire): their own side's first, then those in their town, their zone and on their continent. What a
+// material is made into says what that is used for, a quest it's needed for says who gives it and where (from
+// lib/forever-quests.js, in memory like the rest), and a world drop says what kind of creature drops it.
 import { itemData } from "./forever-items.js";
+import { QUESTS } from "./forever-quests.js";
+import { districtAt } from "./forever-place-facts.js";
 
 export const ITEM_FACTS_MAX_BYTES = 1800;
 // Where these facts come from, as an answer's sources when they stand in for required research (answer.js).
@@ -24,6 +31,19 @@ const MAX_FACTS = 3, MAX_SPAN = 7, MAX_RECIPES = 6;
 const QUALITY = ["poor", "common", "uncommon", "rare", "epic", "legendary", "artifact"];
 const squash = s => String(s || "").toLowerCase().replace(/['’]/g, "").replace(/[^\p{L}\p{N}]+/gu, "");
 const wordsOf = s => String(s || "").toLowerCase().replace(/['’]/g, "").match(/[\p{L}\p{N}]+/gu) || [];
+const MAX_SELLERS = 3, MAX_QUESTS = 3;
+const KIND_CUE = /\b(?:buy|sells?|sold|vendors?|where (?:can|do|should|would) i (?:get|find|buy)|find)\b/i;
+// The continent of each zone the zone map names, so a seller on the player's continent comes before one overseas.
+const LAND = new Map();
+for (const [land, zones] of [
+  ["K", "Teldrassil|Darnassus|Darkshore|Ashenvale|Azshara|Felwood|Winterspring|Moonglade|Stonetalon Mountains|Desolace|" +
+    "The Barrens|Orgrimmar|Durotar|Mulgore|Thunder Bluff|Dustwallow Marsh|Feralas|Thousand Needles|Tanaris|Un'Goro Crater|" +
+    "Silithus|Shen'dralas|Mount Hyjal|Dire Maul|Ruins of Ahn'Qiraj"],
+  ["E", "Stormwind City|Elwynn Forest|Westfall|Duskwood|Redridge Mountains|Dun Morogh|Ironforge|Loch Modan|Wetlands|" +
+    "Arathi Highlands|Hillsbrad Foothills|Alterac Mountains|Silverpine Forest|Tirisfal Glades|Undercity|Western Plaguelands|" +
+    "Eastern Plaguelands|The Hinterlands|Stranglethorn Vale|Swamp of Sorrows|Blasted Lands|Badlands|Searing Gorge|" +
+    "Burning Steppes|Deadwind Pass|Riverglades|Blackrock Depths|Deeprun Tram"],
+]) for (const zone of zones.split("|")) LAND.set(squash(zone), land);
 // A one-word name counts only when the question asks about an item ("what is swiftthistle used for?", "the cooldown
 // on my hearthstone"), and never for words that are the world's story or an everyday word first.
 const ITEM_CUE = /\b(?:stats?|procs?|drops?|dropped|recipes?|craft(?:ed|ing)?|make|makes|made|use|used|useful|uses|sells?|sold|buy|farm|find|get|gather|pick|cooldown|equip|cost|worth|needs?|for|what (?:is|are|does|do)|where)\b/i;
@@ -82,6 +102,7 @@ function indexes() {
   const family = new Map();         // squashed words after the first ("blastingpowder") -> [names]
   const starts = new Map();         // first three letters -> [[name, words]] (misheard names)
   const metals = new Map();         // "silver" -> {ore: "Silver Ore", bar: "Silver Bar"}
+  const plural = new Map();         // a two-word name's second word ("arrow") -> [names]
   const all = Object.entries(items).map(([name, row]) => [name, row, wordsOf(name)]);
   for (const [name, , words] of all) exact.set(words.join(""), name);
   const add = (key, name) => { if (key && !exact.has(key)) exact.set(key, name); };
@@ -98,6 +119,11 @@ function indexes() {
       if (!family.has(key)) family.set(key, []);
       family.get(key).push(name);
     }
+    // Two words: the plural of the second asks for the kind ("arrows" for Rough, Sharp and Razor Arrow).
+    if (words.length === 2 && words[1].length >= 3 && !SMALL.has(words[0])) {
+      if (!plural.has(words[1])) plural.set(words[1], []);
+      plural.get(words[1]).push(name);
+    }
     if (words.length >= 2 && words[0].length >= 3) {
       const key = words[0].slice(0, 3);
       if (!starts.has(key)) starts.set(key, []);
@@ -108,7 +134,7 @@ function indexes() {
       metals.set(key, { ...metals.get(key), [words.at(-1)]: name });
     }
   }
-  return (index = { exact, family, starts, metals, items, kinds, professions });
+  return (index = { exact, family, plural, starts, metals, items, kinds, professions });
 }
 
 // The name a run of question words is, as written or with a plural or "the" taken off.
@@ -164,6 +190,19 @@ function named(text, question, { loose = true } = {}) {
     for (let i = 0; i + n <= words.length; i++) {
       if (Array.from({ length: n }, (_, j) => i + j).some(j => used.has(j))) continue;
       const span = words.slice(i, i + n);
+      // A kind by its plural, asked where to buy or find it: "where can I buy arrows?" (the answer log, 10/18).
+      if (n === 1 && loose && /s$/.test(span[0]) && KIND_CUE.test(question || "")) {
+        const kin = idx.plural.get(span[0].replace(/(?:es|s)$/, "")) || idx.plural.get(span[0].replace(/s$/, ""));
+        if (kin?.length >= 2 && !exact.has(span[0])) {
+          used.add(i);
+          // What a vendor sells first, then the commonest and lowest: Rough Arrow before a quest's Feathered Arrow.
+          const row = x => idx.items[x];
+          const order = x => [row(x)[5]?.length ? 0 : 1, /quest/.test(idx.kinds[row(x)[1]] || "") ? 1 : 0, row(x)[0], rank(x)];
+          const by = (a, b) => order(a).reduce((d, v, k) => d || v - order(b)[k], 0);
+          found.push(...[...kin].sort(by).slice(0, MAX_FACTS).map(x => [i, x]));
+          continue;
+        }
+      }
       if (n === 1 && span[0].length < 5) continue;
       let names = [];
       const name = lookup(span, exact);
@@ -212,16 +251,117 @@ function rank(name) {
 }
 
 const sideName = s => (s === "A" ? "Alliance" : s === "H" ? "Horde" : "");
-// Vendors and trainers of the player's side, and those who serve both; the other side's only when there are no others.
-function people(list, faction) {
-  const mine = faction ? list.filter(([, side]) => !side || side === faction[0]) : list;
-  return (mine.length ? mine : list).map(([name, side, at]) =>
-    `${name}${side && side !== faction?.[0] ? ` (${sideName(side)})` : ""}${at ? ` in ${at}` : ""}`).join("; ");
+
+// Where the player is: the town and zone they named (squashed), and their continent. A seller's place reads
+// "Mage Quarter, Stormwind City (56, 86)", "Ironforge (46, 27)" or just a dungeon's name.
+function whereIs({ zone = "", sub = "" } = {}) {
+  const [z, s] = [squash(zone), squash(sub)];
+  return { zone: z, sub: s, land: LAND.get(z) || LAND.get(s) || "" };
+}
+// 0: in their town or subzone, 1: in their zone, 2: on their continent, 3: elsewhere.
+function nearness(here, at) {
+  const names = String(at || "").split(" (")[0].split(",").map(squash).filter(Boolean);
+  const [sub, zone] = [names[0], names.at(-1)];
+  if (here.sub && (sub === here.sub || zone === here.sub)) return 0;
+  if (here.zone && (zone === here.zone || sub === here.zone)) return 1;
+  return here.land && LAND.get(zone) === here.land ? 2 : 3;
 }
 
-function howLearned(how, profession, faction) {
+// Vendors and trainers of the player's side, and those who serve both (the other side's only when there are no others),
+// the ones nearest the player first; the data's own order (the shops about the item's trade first) breaks ties.
+function people(list, faction, here, limit = Infinity) {
+  const mine = faction ? list.filter(([, side]) => !side || side === faction[0]) : list;
+  return (mine.length ? mine : list).map((p, i) => [here ? nearness(here, p[2]) : 0, i, p])
+    .sort((a, b) => a[0] - b[0] || a[1] - b[1]).slice(0, limit)
+    .map(([, , [name, side, at]]) =>
+      `${name}${side && side !== faction?.[0] ? ` (${sideName(side)})` : ""}${at ? ` in ${withDistrict(at)}` : ""}`).join("; ");
+}
+
+// "Stormwind City (56, 86)" with the district it's in when the town data makes it plain: "Mage Quarter, Stormwind City
+// (56, 86)" (lib/forever-place-facts.js districtAt).
+function withDistrict(at) {
+  const m = /^([^,(]+?) \((\d+), (\d+)\)(.*)$/.exec(at);
+  const room = m && districtAt(m[1], Number(m[2]), Number(m[3]));
+  return room ? `${room}, ${at}` : at;
+}
+
+function howLearned(how, profession, faction, here) {
   return how.map(h => h === "T" ? `taught by ${profession} trainers`
-    : Array.isArray(h) ? `taught by ${people(h, faction)}` : `learned from ${h}`).join("; ");
+    : Array.isArray(h) ? `taught by ${people(h, faction, here)}` : `learned from ${h}`).join("; ");
+}
+
+const USE = /^(.+?) \((\d+)\): (.+)$/;
+const MATERIAL = /^(?:trade good|reagent)/;
+// One hop on from a material: what the product of a recipe is itself used for ("Copper Bar: Blacksmithing and
+// Engineering, and with Tin Bar into Bronze Bar"). A material whose only use is another material said nothing else.
+function onward(product, current) {
+  const { items, kinds } = indexes();
+  const row = items[product];
+  if (!row || !MATERIAL.test(kinds[row[1]] || "")) return "";
+  const professions = [], into = [];
+  for (const u of row[7] || []) {
+    const m = USE.exec(u);
+    if (!m) continue;
+    const made = m[3].split(", ");
+    // A short list of materials is a step on: what else goes in with this one, and what it makes.
+    if (Number(m[2]) <= 2 && made.length === Number(m[2]) && made.every(p => MATERIAL.test(kinds[items[p]?.[1]] || ""))) {
+      for (const p of made) {
+        const parts = ((items[p][4] || []).find(r => r[5]?.split(", ").some(x => x.replace(/^\d+ /, "") === product))?.[5] || "")
+          .split(", ").map(x => x.replace(/^\d+ /, "")).filter(x => x && x !== product);
+        into.push(`${parts.length ? `with ${parts.join(" and ")} ` : ""}into ${p}`);
+      }
+    } else professions.push(m[1]);
+  }
+  // Only the same profession again ("Bolt of Linen Cloth: Tailoring" under Tailoring) is nothing new.
+  const more = professions.filter(p => p !== current);
+  const bits = [more.length ? `used in ${more.slice(0, 3).join(", ")}` : "", ...into.slice(0, 2)].filter(Boolean);
+  return bits.length ? ` (itself ${bits.join(", and ")})` : "";
+}
+const usedIn = u => {
+  const m = USE.exec(u);
+  if (!m || Number(m[2]) > 2) return `used in ${u}`;
+  return `used in ${m[1]} (${m[2]}): ${m[3].split(", ").map(p => p + onward(p, m[1])).join(", ")}`;
+};
+
+// The quests an item is needed for (the data lists their titles, "; " apart, with the side of those only one side has),
+// each with who gives it and where, and who it's turned in to when that's another: Crocolisk Skins are wanted for
+// Crocolisk Hunting, and it's Marek Ironheart at the Farstrider Lodge who gives it. The player's side's first, those in
+// their zone before the rest.
+let questTitles = null;
+const questsNamed = title => {
+  if (!questTitles) {
+    questTitles = new Map();
+    for (const q of Object.values(QUESTS)) questTitles.set(q[0].trim(), [...(questTitles.get(q[0].trim()) || []), q]);
+  }
+  return questTitles.get(title.trim()) || [];
+};
+// "Alliance: A in ...; Horde: B in ..." keeps the player's side; places only the original game backs are said plainly.
+function plain(text, faction) {
+  let s = String(text || "");
+  if (faction && /^(?:Alliance|Horde): /.test(s))
+    s = s.split(/; (?=(?:Alliance|Horde|Either): )/).filter(p => !/^(?:Alliance|Horde): /.test(p) || p.startsWith(`${faction}: `))
+      .map(p => p.replace(/^(?:Alliance|Horde|Either): /, "")).join("; ");
+  return s.replace(/ in the original game\b/g, "");
+}
+function needed(entry, faction, here) {
+  const rows = entry.slice("needed for the quest ".length).split("; ").map(tag => {
+    const [, title, side = ""] = /^(.*?)(?: \((Alliance|Horde)\))?$/.exec(tag);
+    const found = questsNamed(title);
+    const fits = found.filter(q => !faction || !q[3] || q[3] === faction);
+    const q = fits.find(x => here.zone && squash(x[9]) === here.zone) || fits[0] || found[0];
+    return { title, q, side: side || q?.[3] || "" };
+  });
+  const mine = rows.filter(r => !faction || !r.side || r.side === faction);
+  const shown = (mine.length ? mine : rows)
+    .map((r, i) => [here.zone && squash(r.q?.[9]) === here.zone ? 0 : 1, i, r]).sort((a, b) => a[0] - b[0] || a[1] - b[1])
+    .slice(0, MAX_QUESTS).map(x => x[2]);
+  const text = shown.map(({ title, q, side }) => {
+    const [from, to] = [plain(q?.[4], faction), plain(q?.[5], faction)];
+    return title + (side && side !== faction ? ` (${side})` : "") +
+      (from ? `, ${from.startsWith("the item ") ? "started by" : "given by"} ${from}` : "") +
+      (to && to !== from ? `, turned in to ${to}` : "");
+  }).join("; ");
+  return `needed for the quest${shown.length > 1 ? "s" : ""} ${text}`;
 }
 
 const colors = (yellow, gray) => `yellow ${yellow}, green ${Math.floor((yellow + gray) / 2)}, gray ${gray}`;
@@ -234,7 +374,7 @@ function focusOf(question) {
   return "about";
 }
 
-function itemText(name, faction, focus) {
+function itemText(name, faction, focus, here) {
   const { items, kinds } = indexes();
   const [quality, kind, level, about = [], made = [], sold = [], found = [], uses = [], old = "", changed = 0] = items[name];
   const head = `${name}${old ? ` (once called ${old})` : ""}: ${QUALITY[quality] || ""} ${kinds[kind] || "item"}` +
@@ -244,12 +384,33 @@ function itemText(name, faction, focus) {
     made: made.map(([prof, at, yellow, gray, count, reagents, how]) =>
       `made with ${prof} (${at ? `learned at ${at}; ` : ""}${colors(yellow, gray)})` +
       `${reagents ? ` from ${reagents}` : ""}${count !== "1" ? `, making ${count}` : ""}` +
-      `${how?.length ? `; ${howLearned(how, prof, faction)}` : ""}`).join("; "),
-    found: [sold.length ? `sold by ${people(sold, faction)}` : "", ...found].filter(Boolean).join("; "),
-    uses: uses.map(u => (u.startsWith("needed") ? u : `used in ${u}`)).join("; "),
+      `${how?.length ? `; ${howLearned(how, prof, faction, here)}` : ""}`).join("; "),
+    found: [sold.length ? `sold by ${people(sold, faction, here, MAX_SELLERS)}` : "", ...found].filter(Boolean).join("; "),
+    uses: uses.map(u => (u.startsWith("needed") ? needed(u, faction, here) : usedIn(u))).join("; "),
   };
-  const order = [focus, ...["about", "made", "found", "uses"].filter(k => k !== focus)];
+  // A quest item is for its quest: asked about, it says what the quest is before where it drops.
+  const lead = focus === "about" && kinds[kind] === "quest item" ? "uses" : focus;
+  const order = [lead, ...["about", "made", "found", "uses"].filter(k => k !== lead)];
   return [head, ...order.map(k => parts[k]).filter(Boolean)].join(". ") + ".";
+}
+
+// "What are gems for?": the stones as one group, by the crafts that use them (10/18 the answer was about quest gems and
+// corruption). They are miners' finds and creature drops, and the records have no Jewelcrafting.
+const GEMS = ["Malachite", "Tigerseye", "Shadowgem", "Moss Agate", "Lesser Moonstone", "Citrine", "Jade", "Aquamarine",
+  "Star Ruby", "Blue Sapphire", "Large Opal", "Azerothian Diamond", "Huge Emerald", "Black Diamond"];
+function gemsText() {
+  const { items, professions } = indexes();
+  const have = GEMS.filter(g => items[g]);
+  const crafts = new Map();
+  for (const g of have) for (const u of items[g][7] || []) {
+    const m = USE.exec(u);
+    if (m) crafts.set(m[1], (crafts.get(m[1]) || 0) + Number(m[2]));
+  }
+  const list = [...crafts].sort((a, b) => b[1] - a[1]).map(([p]) => p);
+  return `Gems (${have.join(", ")}): stones that miners find in ore veins and creatures drop. They are crafting materials ` +
+    `used in ${list.join(", ")} recipes. ` +
+    `${"Jewelcrafting" in professions ? "" : "Jewelcrafting isn't one of the professions in the records. "}` +
+    `Each is its own item: ask about one by name for where it comes from.`;
 }
 
 // The skill number a question gives, in figures or words ("one twenty five", "a hundred and fifteen").
@@ -285,13 +446,13 @@ export function skillNumber(question) {
 }
 
 // A profession's ranks, and the trainers' recipes that still teach at that skill (orange first).
-function professionText(profession, question, faction) {
+function professionText(profession, question, faction, here) {
   const { professions } = indexes();
   const [ranks = [], recipes = []] = professions[profession] || [];
   const skill = skillNumber(question);
   const parts = [];
   const rankText = ([name, max, at, level, how]) => `${name} (up to ${max}${at ? `, from skill ${at}` : ""}` +
-    `${level ? `, level ${level}` : ""}): ${howLearned(how, profession, faction)}`;
+    `${level ? `, level ${level}` : ""}): ${howLearned(how, profession, faction, here)}`;
   // At a skill, the rank that holds it and the one after it first: at 150, First Aid's Journeyman is full, and past it
   // is Expert, from a book (Willo had sent them to Artisan's quest).
   const at = skill ? ranks.findIndex(([, max]) => max >= skill) : -1;
@@ -320,9 +481,11 @@ function professionText(profession, question, faction) {
 
 // The items, recipes and professions this question is about, as facts (asked: they answer it, so no quick look-up).
 // A character's reply gets none: these speak of the game's records.
-export function itemFacts({ question = "", previousQuestion = "", previous = "", faction = "" } = {}, { character = false } = {}) {
+export function itemFacts({ question = "", previousQuestion = "", previous = "", faction = "", zone = "", sub = "" } = {},
+  { character = false } = {}) {
   if (character || !question) return [];
   faction = /^(alliance|horde)$/i.test(faction) ? faction[0].toUpperCase() + faction.slice(1).toLowerCase() : "";
+  const here = whereIs({ zone, sub });
   const q = String(question).replace(/[’]/g, "'");
   const { items } = indexes();
   // The question's own items; then, for a follow-up about getting or using something, the question before it ("the
@@ -337,9 +500,11 @@ export function itemFacts({ question = "", previousQuestion = "", previous = "",
   const asksProfession = profession && (PROFESSION_CUE.test(q) || skillNumber(q) > 0) && indexes().professions[profession];
   const focus = focusOf(q);
   const facts = [];
+  // Gems as a group, when no stone is named.
+  if (!names.length && /\bgems?\b/i.test(q) && ITEM_CUE.test(q)) facts.push({ title: "Item: Gems", text: gemsText() });
   const add = name => {
     if (facts.length < MAX_FACTS && !facts.some(f => f.title === `Item: ${name}`))
-      facts.push({ title: `Item: ${name}`, text: itemText(name, faction, focus) });
+      facts.push({ title: `Item: ${name}`, text: itemText(name, faction, focus, here) });
   };
   for (const name of names.slice(0, asksProfession ? MAX_FACTS - 1 : MAX_FACTS)) {
     add(name);
@@ -348,7 +513,7 @@ export function itemFacts({ question = "", previousQuestion = "", previous = "",
       if (typeof h === "string" && items[h]) add(h);
   }
   if (asksProfession) {
-    const text = professionText(profession, q, faction);
+    const text = professionText(profession, q, faction, here);
     if (text) facts.push({ title: `Profession: ${profession}`, text });
     // The rank they're after, when a book or manual teaches it, with who sells it: past 150 First Aid is Expert,
     // from Expert First Aid - Under Wraps.

@@ -482,6 +482,7 @@ test("a German story recorded before its new reference is read again once; Engli
   assert.equal(speech.length, storyParts(STORY).length, "only once");
   assert.equal(await storyKey(me.user.id, STORY, "en"), old, "English stories keep their recordings");
   assert.equal(await storyKey(me.user.id, STORY, "pt"), old, "so do languages without a new reference");
+  assert.notEqual(await storyKey(me.user.id, STORY, "es"), old, "Spanish has new narrators too (LOR-567)");
   delete env.OPENROUTER_API_KEY;
 });
 

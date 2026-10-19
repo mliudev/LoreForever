@@ -8,7 +8,10 @@
 //   POST /api/friends/pass     {id}           "Not now" to the list's `suggested` (whoever shared Willo with you)
 //   POST /api/friends/report   {id, note?}    keeps their latest messages to you for review, then blocks them
 //   POST /api/friends/share    {on}           share where you are with friends; off deletes what was shared
-//   POST /api/friends/send     {to, text}     -> {message}
+//   POST /api/friends/send     {to, text, card?} -> {message}: card (LOR-674), a place, item, quest, character or story
+//                                            (lib/friends.js readCard); with one, text is optional
+//   POST /api/friends/unsend   {id}           takes back your message while it's unread, for UNSEND_MINUTES -> {removed}
+//   POST /api/friends/online   {show}         whether friends see when your Willo is on (on unless you turn it off)
 //   POST /api/friends/presence {character?, level?, zone?, sub?, quest?} -> {stored}: only kept while sharing is on
 // The list-changing POSTs answer with the new list too, so the companion redraws from one round trip.
 // From the companion: X-LF-Client: companion/<version>, no Origin, Authorization: Bearer <device token>. From our
@@ -20,7 +23,7 @@ import { forwardFeedback } from "../../../lib/slack-feedback.js";
 import { perMinute, perHour, perDay, slowDown } from "../../../lib/ratelimit.js";
 import {
   FriendError, friendsList, friendCounts, addFriend, answerRequest, removeFriend, blockPlayer, unblockPlayer, reportPlayer,
-  passPlayer,
+  passPlayer, setOnlineShown, unsendMessage,
   setSharing, sendMessage, conversation, readPresence, savePresence,
   ASKS_PER_DAY, MESSAGES_PER_MINUTE, MESSAGES_PER_DAY, REPORTS_PER_DAY, PRESENCE_PER_HOUR,
 } from "../../../lib/friends.js";
@@ -71,12 +74,17 @@ const POSTS = {
     return res;
   },
   share: change(({ env }, input, user) => setSharing(env, user.id, input.on === true)),
+  online: change(({ env }, input, user) => setOnlineShown(env, user.id, input.show === true)),
   send: async ({ env }, input, user) => {
     if (!(await perMinute(env, user.id, "friends-send", MESSAGES_PER_MINUTE))) return slowDown();
     if (!(await perDay(env, user.id, "friends-send-day", MESSAGES_PER_DAY))) {
       return tooMany("That's a lot of messages for one day. Try again tomorrow.");
     }
-    return ok({ message: await sendMessage(env, user.id, id(input.to), input.text) });
+    return ok({ message: await sendMessage(env, user.id, id(input.to), input.text, Date.now(), input.card ?? null) });
+  },
+  unsend: async ({ env }, input, user) => {
+    if (!(await perMinute(env, user.id, "friends-send", MESSAGES_PER_MINUTE))) return slowDown();
+    return ok(await unsendMessage(env, user.id, input.id));
   },
   presence: async ({ env }, input, user) => {
     if (!(await perHour(env, user.id, "friends-presence", PRESENCE_PER_HOUR))) return slowDown();

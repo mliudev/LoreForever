@@ -11,12 +11,21 @@
 //                      (FLIGHTS from the client's flight paths; RIDES from lib/forever-knowledge.js TRAVEL_FACTS), the
 //                      way without flying (flight points must be found first), and the zones to walk through with
 //                      the roads and passes between them: ROADS below, in our words from the zones' pages on Warcraft
-//                      Wiki (the Classic ones; the Forever ones for the Riverglades and Shen'dralas).
+//                      Wiki (the Classic ones; the Forever ones for the Riverglades and Shen'dralas). A dungeon or raid
+//                      of the original game is a place too ("how do I get to the Scarlet Monastery?"): the way to its
+//                      zone and where the way in is (lib/dungeon-places.js).
+//                      The way knows whose land it crosses (LOR-670: an Alliance warrior was sent through the Undercity
+//                      and offered the Sepulcher's flight point): the other side's flights, ships and zeppelins are
+//                      never offered, a walk through their zones is the last resort, and the zones that are theirs are
+//                      named, with what their guards do.
 // A character's reply gets none: these give the game's map coordinates. Each fact carries its sources, so a typed
 // question the companion wants researched is answered from it instead (LOR-614; answer.js, lib/forever-knowledge.js
 // factSources): a service, the tables the towns are built from; the way there, the zones' wiki pages its roads come
 // from and the client tables of the flights and ships it takes.
 import { TOWNS, FLIGHTS } from "./forever-services.js";
+import { DUNGEONS, ZONE_SIDES } from "./dungeon-places.js";
+import { ZONES } from "./forever-zones.js";
+import { ridingPeople } from "./forever-game-facts.js";
 
 export const PLACE_FACTS_MAX_BYTES = 1400;
 const MAX_LISTED = 3;
@@ -30,10 +39,10 @@ const RIDE_SOURCE = { title: "WoW Forever's own client data: its boat and zeppel
 const FOREVER_PAGES = { "Mount Hyjal": "Mount Hyjal (Forever)" };
 const PLAIN_PAGES = new Set(["Stormwind City", "Ironforge", "Darnassus", "Orgrimmar", "Undercity", "Thunder Bluff",
   "Moonglade", "Riverglades", "Shen'dralas", "Zephras Isle"]);
-const zonePage = zone => {
-  const page = FOREVER_PAGES[zone] || (PLAIN_PAGES.has(zone) ? zone : `${zone.replace(/^The /, "")} (Classic)`);
-  return { title: `Warcraft Wiki: ${page}`, url: `https://warcraft.wiki.gg/wiki/${encodeURIComponent(page.replace(/ /g, "_")).replace(/%2F/g, "/")}` };
-};
+const wikiPage = page => ({ title: `Warcraft Wiki: ${page}`,
+  url: `https://warcraft.wiki.gg/wiki/${encodeURIComponent(page.replace(/ /g, "_")).replace(/%2F/g, "/")}` });
+const zonePage = zone =>
+  wikiPage(FOREVER_PAGES[zone] || (PLAIN_PAGES.has(zone) ? zone : `${zone.replace(/^The /, "")} (Classic)`));
 // A route's sources: the pages of the zones it walks into (the destination first), then the tables of its rides.
 function routeSources(...paths) {
   const steps = paths.flat().filter(Boolean);
@@ -71,13 +80,13 @@ const ROADS = [
   ["Silverpine Forest", "Tirisfal Glades", "north", "along the road north past the Sepulcher", "along the road south toward the Sepulcher"],
   ["Tirisfal Glades", "Undercity", "", "down through the Ruins of Lordaeron", "up through the Ruins of Lordaeron"],
   ["Tirisfal Glades", "Western Plaguelands", "east", "through the Bulwark"],
-  ["Alterac Mountains", "Western Plaguelands", "northeast", ""],
+  ["Alterac Mountains", "Western Plaguelands", "northeast", "along the east road through Strahnbrad and Chillwind Point", "down the road south through Chillwind Point and Strahnbrad"],
   ["Western Plaguelands", "Eastern Plaguelands", "east", ""],
   ["Western Plaguelands", "The Hinterlands", "southeast", "through the Plaguemist Ravine"],
   ["Riverglades", "Redridge Mountains", "southwest", "through Blackrock Pass west of the Bristle Hills, or Redridge Pass south of them"],
   ["Riverglades", "Badlands", "northwest", "north of Twilight's Shroud"],
   ["Riverglades", "Swamp of Sorrows", "south", "through Redridge Pass, south of the Bristle Hills"],
-  ["Riverglades", "Burning Steppes", "west", "west of the Bristle Hills, then north through Blackrock Pass", "south through Blackrock Pass, then east of the Bristle Hills"],
+  ["Riverglades", "Burning Steppes", "west", "of the Bristle Hills, then north through Blackrock Pass", "through Blackrock Pass, then round the Bristle Hills"],
   ["Durotar", "Orgrimmar", "", "through the city gates", "out through the city gates"],
   ["Durotar", "The Barrens", "west", "over the bridge across the Southfury River"],
   ["The Barrens", "Mulgore", "west", "along the road west from Camp Taurajo", "along the road east toward Camp Taurajo"],
@@ -121,6 +130,11 @@ const RIDES = [
 // A flight costs a little more than a walk to the next zone, so a short walk beats it, a long trip takes it; it needs
 // its flight points found first.
 const FLIGHT_COST = 1.2;
+// Walking into a zone the other side holds costs a good deal more than a flight (guards there attack on sight), so the
+// way goes round it or flies to the nearest friendly flight point and walks the rest; a trip that must end there still does.
+const HOSTILE_COST = 2;
+const SIDE_OF = new Map(Object.entries(ZONE_SIDES).flatMap(([side, zones]) => zones.map(z => [z, side])));
+const foe = (zone, faction) => Boolean(faction && SIDE_OF.get(zone) && SIDE_OF.get(zone) !== faction);
 const OPPOSITE = { north: "south", south: "north", east: "west", west: "east", northeast: "southwest",
   southwest: "northeast", northwest: "southeast", southeast: "northwest" };
 const THE = new Set(["Wetlands", "Arathi Highlands", "Hillsbrad Foothills", "Alterac Mountains", "Redridge Mountains",
@@ -138,13 +152,23 @@ const ZONE_ALIASES = {
   "Dustwallow Marsh": ["dustwallow"], "Un'Goro Crater": ["ungoro", "un goro"], "Mount Hyjal": ["hyjal"],
   "Zephras Isle": ["zephras"], "Deadwind Pass": ["deadwind"], "Swamp of Sorrows": ["swamp of sorrow"],
   "Western Plaguelands": ["western plagues"], "Eastern Plaguelands": ["eastern plagues"], "Riverglades": ["river glades"],
+  // The answer log 10/18: speech heard Darnassus as "their nazis".
+  "Darnassus": ["darnasus", "darnassis", "darnasis", "dar nassus", "their nazis"], "Ironforge": ["iron forge"],
+  "Thunder Bluff": ["thunderbluff"], "Orgrimmar": ["orgrimar", "orgrimmer"], "Teldrassil": ["teldrasil", "tel drassil"],
+  "Ashenvale": ["ashen vale"], "Duskwood": ["dusk wood"],
 };
 // Places with no services of their own that players head for, and their zones.
 const LANDMARKS = { "Dalaran": "Alterac Mountains", "Stormwind Harbor": "Stormwind City", "Skywatcher Plateau": "Mulgore",
-  "Valanaar": "Zephras Isle", "Steamwheedle Port": "Tanaris", "Powderfuse Port": "Riverglades" };
+  "Valanaar": "Zephras Isle", "Steamwheedle Port": "Tanaris", "Powderfuse Port": "Riverglades", "Fray Island": "The Barrens" };
+// What speech hears for a landmark (the gold set, 10/18: "How do I get to the Frey Allen from here?" was taken for the
+// Hall of Thanes; it's Fray Island, where warriors earn Berserker Stance).
+// The answer log 10/18: "What is the quickest way to Dalran from here" (typed) got an airship from Brill that isn't there.
+const LANDMARK_ALIASES = { "Fray Island": ["frey allen", "fray allen", "frey island", "fray isle", "frey isle"],
+  "Dalaran": ["dalran", "dalron", "dalarin", "dahlaran", "dollaran", "delaran"] };
 const CAPITALS = new Set(["Stormwind City", "Ironforge", "Darnassus", "Orgrimmar", "Undercity", "Thunder Bluff"]);
 // Towns off their zone's shore (TRAVEL_FACTS): how to cross.
-const ISLANDS = { "Feathermoon Stronghold": "on Sardor Isle off the coast: the Feathermoon ferry crosses from the mainland" };
+const ISLANDS = { "Feathermoon Stronghold": "on Sardor Isle off the coast: the Feathermoon ferry crosses from the mainland",
+  "Fray Island": "an island off the Barrens' eastern coast, south of Ratchet" };
 // A town's first word alone names it ("Menethil", "Theramore"), unless it's a common word or another place's.
 const NOT_ALONE = /^(?:valley|ruins|tower|crystal|silverwind|stonewrought|stonebull|brightwater|iceflow|amberstill|refuge|darkspear|eastvale|tanner|lights|shrine|oracle|camp|cold|farstrider)$/;
 
@@ -187,7 +211,13 @@ function places() {
   }
   const taken = new Set(names.map(n => n[0]));
   for (const [first, place] of firsts) if (place && !taken.has(first)) names.push([first, place]);
-  for (const [name, zone] of Object.entries(LANDMARKS)) names.push([norm(name).trim(), { landmark: name, zone }]);
+  for (const [name, zone] of Object.entries(LANDMARKS)) {
+    names.push([norm(name).trim(), { landmark: name, zone }]);
+    for (const heard of LANDMARK_ALIASES[name] || []) names.push([heard, { landmark: name, zone }]);
+  }
+  // A dungeon or raid, by its name and the short names players use; it is in the first zone its way in lies in.
+  for (const dungeon of DUNGEONS)
+    for (const name of [dungeon[0].replace(/^the /, ""), ...dungeon[1]]) names.push([norm(name).trim(), { dungeon, zone: dungeon[2][0] }]);
   names.sort((a, b) => b[0].length - a[0].length);
   return (graph = { zones, edges, names });
 }
@@ -200,7 +230,7 @@ function named(question) {
       const end = i + name.length + 1;
       if (taken.some(([s, e]) => i < e && s < end)) continue;
       taken.push([i, end]);
-      out.push({ ...place, at: i });
+      out.push({ ...place, at: i, said: name });
     }
   }
   return out.sort((a, b) => a.at - b.at);
@@ -217,11 +247,14 @@ const SERVICES = [
   ["auction house", /\bauction(?:eer|eers| house|s)?\b|\bah\b/],
   ["inn", /\binn(?:s|keeper|keepers)?\b|\btavern\b|\bhearth ?stone\b|\bset (?:my|your) (?:home|hearth)\b/],
   ["mailbox", /\bmail ?(?:box(?:es)?)?\b|\bpost ?box\b/],
-  ["flight master", /\bflight ?(?:master|path|point)s?\b|\b(?:gryphon|griffon|wind ?rider|hippogryph|bat) (?:master|handler)s?\b/],
+  // A gryphon, as a ride, is the flight master's (LOR-652: "Where do I catch a Griffin and Stormwind?" got a made-up
+  // flight master); a bat only as one ("bat handler", "catch a bat"), since bats are creatures too.
+  ["flight master", /\bfl(?:ight|y) ?(?:master|path|point)s?\b|\b(?:gryphon|griffin|griffon|wind ?rider|hippogryph|bat) (?:master|handler)s?\b|\b(?:gryphon|griffin|griffon|wind ?rider|hippogryph)s?\b|\b(?:catch|take|ride|get|grab|hop on) (?:a |the )?bats?\b/],
   ["battlemaster", /\bbattle ?masters?\b|\bbattle ?grounds?\b|\bqueue for (?:av|wsg|ab|alterac|warsong|arathi)\b/],
   ["stable master", /\bstable ?(?:master|s)?\b/],
   ["guild master", /\bguild ?master\b|\b(?:make|create|start|form) a guild\b|\bguild charter\b|\btabard\b/],
-  ["riding trainer", /\briding (?:trainer|skill|instructor)\b|\blearn (?:to |how to )?ride\b/],
+  // "Where can I learn riding?" got Goldshire's warrior trainer (10/18); in Forever riding brings the first mount.
+  ["riding trainer", /\briding (?:trainer|skill|instructor|lessons?)\b|\blearn(?:ing)? (?:to |how to )?(?:ride|riding)\b|\b(?:train|get|learn) (?:my )?riding\b|\bwhere\b.*\briding\b|\b(?:get|buy|earn) (?:a |my |my first |the )?(?:mount|horse)\b/],
   ["weapon master", /\bweapon ?masters?\b|\blearn (?:to use )?(?:swords?|axes?|maces?|daggers?|staves|staffs?|polearms?|bows?|guns?|crossbows?|fist weapons?|thrown)\b/],
   ["pet trainer", /\b(?:pet|demon) trainer\b/],
 ];
@@ -267,14 +300,41 @@ const has = (town, note = "", no = false) => {
   return `${town}, in ${the(zone)}${note}, has${no ? " no" : ""}`;
 };
 
+// The district of a capital a spot is in, from the town data's people standing at it: within a step of someone, and
+// everyone within two steps in the same district (Maria Lumere's Leaded Vials at (56, 86) are where the Mage Quarter's
+// alchemy trainer stands; told "in the Trade District" without it, the gold set, 10/18). "" when it isn't clear.
+export function districtAt(town, x, y) {
+  if (!CAPITALS.has(town) || x == null || y == null) return "";
+  const near = Object.values(TOWNS[town]?.[2] || {}).flat().filter(e => e[2] && e[3] != null)
+    .map(e => [Math.hypot(e[3] - x, e[4] - y), e[2]]).filter(([d]) => d <= 2).sort((a, b) => a[0] - b[0]);
+  return near.length && near[0][0] <= 1 && near.every(([, r]) => r === near[0][1]) ? near[0][1] : "";
+}
+
+// Who works at a place that's one place however many people stand at it.
+const PEOPLE_AT = { bank: "bankers", "auction house": "auctioneers", inn: "innkeepers" };
+
 function listing(town, role, faction) {
   const all = mine(TOWNS[town]?.[2]?.[role] || [], faction);
   if (!all.length) return null;
   const side = TOWNS[town][1];
-  const note = side && faction && side !== faction ? ` (a ${side} town)` : "";
+  // A town no side holds (Booty Bay, Ratchet, Gadgetzan) says it's open to both: "can I use it as Alliance?".
+  const note = side && faction && side !== faction ? ` (a ${side} town)`
+    : !side && faction && town !== TOWNS[town][0] ? " (open to both sides)" : "";
   if (role === "mailbox") {
     const where = all.slice(0, MAX_LISTED).map(e => `${e[2] ? `in ${room(e[2])} ` : ""}${coords(e).trim()}`);
     return `${has(town, note)} ${all.length > 1 ? `mailboxes: ${list(where)}` : `a mailbox ${where[0]}`}.`;
+  }
+  // One bank, auction house or inn with several people at it, not several of them ("Booty Bay has 2 banks" was told as
+  // two banks; the gold set, 10/18).
+  const staff = PEOPLE_AT[role];
+  if (staff && all.length > 1) {
+    const shown = all.slice(0, MAX_LISTED);
+    // "in the Valley of Strength" once when they all stand there; "auctioneers" not before "Auctioneer Buckler".
+    const one = shown.every(e => e[2] && e[2] === shown[0][2]) ? shown[0][2] : "";
+    const who = e => `${e[0]}${!one && e[2] ? ` in ${room(e[2])}` : ""}${coords(e)}`;
+    const titled = shown.every(e => e[0].toLowerCase().startsWith(staff.slice(0, -1)));
+    return `${has(town, note)} ${article(role)} ${role}${one ? ` in ${room(one)}` : ""}, with ${titled ? "" : `${staff} `}` +
+      `${list(shown.map(who))}.`;
   }
   const many = all.length > 1 ? `${all.length > MAX_LISTED ? "several" : all.length} ${role}s` : `${article(role)} ${role}`;
   return `${has(town, note)} ${many}: ${list(all.slice(0, MAX_LISTED).map(e => who(e, role)))}.`;
@@ -307,6 +367,19 @@ function nearestWith(zone, role, faction, skip) {
   return out.slice(0, 2);
 }
 
+// The player's own people's riding trainer, where they stand and the way there from the zone, or null for a people
+// without one known (the skyborne).
+function ownRidingTrainer(parts, zone, faction) {
+  const own = ridingPeople(parts.race);
+  const name = own?.trainer.split(/ (?:at|in) /)[0];
+  const town = name && Object.keys(TOWNS).find(t => (TOWNS[t][2]["riding trainer"] || []).some(e => e[0] === name));
+  if (!town) return null;
+  const path = TOWNS[town][0] !== zone && shortest(zone, faction, { fly: false }).get(TOWNS[town][0]);
+  const way = path && path.steps.length ? ` The way from ${the(zone)}: ${joinSteps(path.steps)}.` : "";
+  return { title: "Your people's riding trainer", sources: [...SERVICE_SOURCES, ...(way ? routeSources(path.steps) : [])],
+    text: `${own.people} learn to ride from their own people's trainer. ${listing(town, "riding trainer", "")}${way}` };
+}
+
 function serviceFacts(parts, roles, place) {
   const faction = sideOf(parts.faction);
   // The town: the one named, else the zone named, else where they stand.
@@ -320,6 +393,12 @@ function serviceFacts(parts, roles, place) {
   if (!zone || !places().zones.has(zone)) return [];
   const facts = [];
   for (const role of roles) {
+    // Each people rides from its own trainer, not the nearest one (lib/forever-game-facts.js RIDING_PEOPLES).
+    const own = role === "riding trainer" && ownRidingTrainer(parts, zone, faction);
+    if (own) {
+      facts.push(own);
+      continue;
+    }
     const line = town && listing(town, role, faction);
     if (line) {
       facts.push({ title: `${town}: ${role}`, text: line, sources: SERVICE_SOURCES });
@@ -346,8 +425,9 @@ function serviceFacts(parts, roles, place) {
 
 // ---- the way ----
 // The cheapest routes from a zone to every zone: Map(zone -> {cost, steps}), the other side's rides left out, and
-// one side's flights when the side isn't known; fly: false leaves out every flight.
-function shortest(from, faction, { fly = true } = {}) {
+// one side's flights when the side isn't known; fly: false leaves out every flight, ride: false every ride, and a
+// walk into a zone the other side holds costs more (HOSTILE_COST).
+function shortest(from, faction, { fly = true, ride = true } = {}) {
   const { edges } = places();
   const best = new Map([[from, { cost: 0, steps: [] }]]);
   const queue = [from];
@@ -355,9 +435,10 @@ function shortest(from, faction, { fly = true } = {}) {
     queue.sort((a, b) => best.get(a).cost - best.get(b).cost);
     const z = queue.shift(), here = best.get(z);
     for (const e of edges.get(z) || []) {
+      if (e.ride && !ride) continue;
       if (e.side && faction && e.side !== faction) continue;
       if (e.ride?.fly && (!fly || (e.side && !faction))) continue;
-      const cost = here.cost + e.cost;
+      const cost = here.cost + e.cost + (!e.ride && foe(e.to, faction) ? HOSTILE_COST : 0);
       if (!best.has(e.to) || best.get(e.to).cost > cost + 1e-9) {
         best.set(e.to, { cost, steps: [...here.steps, e] });
         queue.push(e.to);
@@ -366,21 +447,8 @@ function shortest(from, faction, { fly = true } = {}) {
   }
   return best;
 }
-// The fewest zones to walk through, or null.
-function walking(from, to) {
-  const { edges } = places();
-  const seen = new Map([[from, []]]), queue = [from];
-  while (queue.length) {
-    const z = queue.shift();
-    if (z === to) return seen.get(z);
-    for (const e of edges.get(z) || []) {
-      if (e.ride || seen.has(e.to)) continue;
-      seen.set(e.to, [...seen.get(z), e]);
-      queue.push(e.to);
-    }
-  }
-  return null;
-}
+// The zones to walk through, round the other side's where it can, or null.
+const walking = (from, to, faction) => shortest(from, faction, { fly: false, ride: false }).get(to)?.steps || null;
 const at = (stop, zone) => `${stop}${zone.startsWith(stop) ? "" : ` in ${the(zone)}`}`;
 const stepText = e => (e.ride?.fly ? `fly from ${e.ride.from} to ${at(e.ride.to, e.to)}${e.via ? ` (changing at ${list(e.via)})` : ""}`
   : e.ride ? `take ${e.ride.how} from ${e.ride.from} to ${at(e.ride.to, e.to)}`
@@ -408,22 +476,41 @@ function townAt(town) {
   return ` (${mid(3)}, ${mid(4)})`;
 }
 
+// "Silverpine Forest and Tirisfal Glades are Horde land, where the guards attack Alliance players on sight."
+function landNote(zones, side) {
+  if (!zones.length) return "";
+  const names = zones.map((z, i) => (i ? the(z) : The(z)));
+  return `${list(names)} ${names.length > 1 ? "are" : "is"} ${side} land, where the guards attack ${side === "Horde" ? "Alliance" : "Horde"} players on sight.`;
+}
+
 function routeFacts(parts, target, origin) {
   const faction = sideOf(parts.faction);
-  const from = origin?.zone || parts.zone, to = target.zone;
-  if (!from || !places().zones.has(from) || !places().zones.has(to)) return [];
-  const label = target.town || target.landmark || "";
-  const where = label ? `${label} is in ${the(to)}${target.town ? townAt(target.town) : ""}${ISLANDS[label] ? `, ${ISLANDS[label]}` : ""}.` : "";
-  // Where a town is comes from its services' places; Feathermoon's ferry from the client's boat paths.
-  const placed = [...(target.town ? SERVICE_SOURCES : [zonePage(to)]), ...(ISLANDS[label] ? [RIDE_SOURCE] : [])];
+  const from = origin?.zone || parts.zone;
+  if (!from || !places().zones.has(from)) return [];
+  // A dungeon's way in may lie in either of two zones (Blackrock Mountain): the one nearer to the asker.
+  const dungeon = target.dungeon;
+  let to = target.zone;
+  if (dungeon?.[2].length > 1) {
+    const reach = shortest(from, faction);
+    to = dungeon[2].reduce((a, z) => ((reach.get(z)?.cost ?? Infinity) < (reach.get(a)?.cost ?? Infinity) ? z : a));
+  }
+  if (!places().zones.has(to)) return [];
+  const stop = target.town || target.landmark || "";
+  const label = stop || dungeon?.[0] || "";
+  const where = dungeon ? `${label[0].toUpperCase()}${label.slice(1)} ${dungeon[3]}.`
+    : label ? `${label} is in ${the(to)}${target.town ? townAt(target.town) : ""}${ISLANDS[label] ? `, ${ISLANDS[label]}` : ""}.` : "";
+  // Where a town is comes from its services' places; Feathermoon's ferry from the client's boat paths; a dungeon's
+  // entrance from the wiki pages that name it.
+  const placed = [...(dungeon ? [].concat(dungeon[4] || []).map(wikiPage) : []),
+    ...(target.town ? SERVICE_SOURCES : [zonePage(to)]), ...(ISLANDS[label] ? [RIDE_SOURCE] : [])];
   if (from === to) return where ? [{ title: `Where ${label} is`, text: where, sources: placed }] : [];
   const route = fly => {
     const all = shortest(from, faction, { fly });
     let best = all.get(to);
     // A ship or flight that lands in the town itself beats walking to it across its zone (Ratchet: the boat from
     // Booty Bay, not the road down the Barrens).
-    if (label) for (const [z, path] of all) for (const e of places().edges.get(z) || []) {
-      if (e.to !== to || e.ride?.to !== label || (e.side && faction && e.side !== faction) || (e.ride.fly && !fly)) continue;
+    if (stop) for (const [z, path] of all) for (const e of places().edges.get(z) || []) {
+      if (e.to !== to || e.ride?.to !== stop || (e.side && faction && e.side !== faction) || (e.ride.fly && !fly)) continue;
       if (!best || path.cost + e.cost - 1 <= best.cost) best = { cost: path.cost + e.cost - 1, steps: [...path.steps, e] };
     }
     return best;
@@ -432,16 +519,22 @@ function routeFacts(parts, target, origin) {
   if (!best) return [];
   let text = `From ${the(from)} to ${label || the(to)}: ${joinSteps(best.steps)}.`;
   if (flies(best.steps)) text += " (Flights need their flight points found first.)";
+  if (where) text += ` ${where}`;
+  // The other side's land on the way and at the end (a town the ship or flight lands in is the asker's to visit; a
+  // neutral town in their zone, like Ratchet, is safe; a dungeon lies in the zone itself); without a side, the end's.
+  const ends = target.town ? hostile(target.town, faction) : dungeon || !best.steps.at(-1)?.ride;
+  const foes = faction ? [...new Set([...best.steps.filter(e => !e.ride).map(e => e.to), ...(ends ? [to] : [])])].filter(z => foe(z, faction))
+    : !target.town && SIDE_OF.get(to) ? [to] : [];
+  if (foes.length) text += ` ${landNote(foes, SIDE_OF.get(foes[0]))}`;
   const ground = flies(best.steps) && route(false);
   if (ground && ground.steps.length <= 5) text += ` Without flying: ${joinSteps(ground.steps)}.`;
-  const walk = rides((ground || best).steps) && walking(from, to);
+  const walk = rides((ground || best).steps) && walking(from, to, faction);
   if (walk && walk.length <= 4) text += ` On foot instead: ${joinSteps(walk)}.`;
   // A walk next door, when a flight goes straight there too (Lakeshire to Farholde Keep in the Riverglades).
   const direct = !flies(best.steps) && faction && (places().edges.get(from) || [])
     .find(e => e.ride?.fly && e.to === to && (!e.side || e.side === faction));
   if (direct) text += ` Or fly from ${direct.ride.from} to ${direct.ride.to}, once you've found its flight point.`;
-  if (where) text += ` ${where}`;
-  if (!target.npc && /\bwhere\b/i.test(parts.question)) {
+  if (!target.npc && !dungeon && /\bwhere\b/i.test(parts.question)) {
     const roads = (places().edges.get(to) || []).filter(e => !e.ride && e.dir).map(e => `${the(e.to)} to the ${e.dir}`);
     if (roads.length) text += ` ${The(to)} borders ${list(roads)}.`;
   }
@@ -451,10 +544,80 @@ function routeFacts(parts, target, origin) {
 
 // A question about the way somewhere ("how do I get to", "which way to", "where is <zone>"), or about where an NPC the
 // quest facts placed in another zone stands (they give the place; this gives the way there).
-const WAY = /\b(?:get|go|head|travel|walk|run|ride|fly|make (?:my|our) way|reach) (?:back |over |across |down |up |out )?to\b|\b(?:way|route|road|path|directions?) (?:to|from)\b|\bhow (?:far|long)\b|\bwhich way\b|\bhow (?:do|can|would) (?:i|we) (?:get|go) (?:there|from)\b/;
+const WAY = /\b(?:get|go|head|travel|walk|run|ride|fly|make (?:my|our) way|reach) (?:back |over |across |down |up |out )?(?:to|into)\b|\b(?:way|route|road|path|directions?) (?:to|from)\b|\b(?:flights?|boats?|ships?|zeppelins?|trams?) to\b|\bhow (?:far|long)\b|\bwhich way\b|\bhow (?:do|can|would) (?:i|we) (?:get|go) (?:there|from)\b/;
 const WHERE = /\bwhere(?:s| is| are| was)\b|\bwhere can i find\b/;
+// A dungeon's name is also in questions about what drops in it, who's inside and how to beat it ("where is the best
+// loot in the Deadmines?"), and a way counts as an answer, so the research is skipped: only a question that asks for
+// the way to it, with nothing but small words between the ask and the name, does.
+const SMALL = "(?: (?:the|a|an|to|into|in|of|for|entrance|portal|door|way|back|over|across|down|up|out|there|inside|instance|dungeon|raid))*";
+const TO_DUNGEON = new RegExp("\\b(?:(?:get|go|head|travel|walk|run|ride|fly|port|teleport|reach|find|locate|enter|entering|" +
+  "take me|bring me|lead me|guide me|show me|wheres?|where (?:is|are|was|do i find|do i go|can i find|can i go|do i enter|can i enter)|" +
+  `directions?|route|path|road|way|entrance|portal|how (?:far|long)(?: is it)?)|from(?: \\S+){1,4} to)${SMALL} $`);
 
 // The place facts for a question: its services, else the way. npcZones: zones of NPCs the quest facts named.
+// ---- cards ----
+// "Tell me about Brill", "what's in Southshore?", "what level is Durotar?": what the place is for a traveler, from the
+// tables (the gold set, 10/18: Brill's answer had none of its zeppelins, inn or trainers, and Durotar's no levels,
+// towns or borders). Its story comes from the lore entries.
+const ABOUT = /\btell me (?:more )?about\b|\bmore about\b|\bwhat(?:s| is) (?:there )?(?:in|at)\b|\bwhat levels?\b|\bwhat can (?:i|we) (?:do|find|get) (?:in|at)\b|\bdescribe\b|\bwhat(?:s| is) (?:the )?(?:zone|town|village|place) of\b/;
+// ...but not one about its story: "Tell me about the history of Ironforge" is the lore entries'.
+const STORY = /\b(?:history|story|stories|lore|legends?|past|founded|built|who (?:built|founded|rules|leads))\b/;
+const levelsOf = zone => (ZONES[zone] ? `levels ${ZONES[zone][0]} to ${ZONES[zone][1]}` : "");
+const landOf = zone => (SIDE_OF.get(zone) ? `${SIDE_OF.get(zone)} land` : "");
+const stopIn = (stop, town) => stop === town || new RegExp(`\\b(?:near|outside|of) ${town}$`).test(stop);
+
+// The ships, zeppelins and flights out of a town: "From the zeppelin tower near Brill, the zeppelin to ...".
+function departures(town, faction) {
+  const out = [];
+  const rides = RIDES.flatMap(r => [[r[1], r[3], r[2], r[4], r[5]], [r[3], r[1], r[0], r[4], r[5]]])
+    .filter(([stop, , , , side]) => stopIn(stop, town) && !(side && faction && side !== faction));
+  for (const stop of [...new Set(rides.map(r => r[0]))]) {
+    const legs = rides.filter(r => r[0] === stop).map(([, to, zone, how]) => `${how} to ${at(to, zone)}`);
+    out.push(`From ${stop === town ? town : stop}: ${list(legs)}.`);
+  }
+  const flights = FLIGHTS.filter(f => f[0] === town && !(f[4] && faction && f[4] !== faction)).map(f => f[2]);
+  if (flights.length) out.push(`Its flight master flies to ${list([...new Set(flights)].slice(0, 6))}.`);
+  return out.join(" ");
+}
+
+function townCard(town, faction) {
+  const [zone, side] = TOWNS[town];
+  const levels = levelsOf(zone);
+  const what = CAPITALS.has(town) ? `${town} is ${side ? `the ${side} capital` : "a capital"}`
+    : `${town} is ${side ? `${article(side.toLowerCase())} ${side} town` : "a town"} in ${the(zone)}${levels ? ` (${levels})` : ""}` +
+      `${townAt(town) ? `, at${townAt(town)} on its map` : ""}`;
+  return [`${what}.`, summary(town, faction), departures(town, faction)].filter(Boolean).join(" ");
+}
+
+function zoneCard(zone, faction) {
+  const bits = [landOf(zone), levelsOf(zone) && `for ${levelsOf(zone)}`].filter(Boolean);
+  const out = [`${The(zone)}${bits.length ? ` is ${bits.join(", ")}` : " is a zone"}.`];
+  const towns = townsIn(zone).filter(t => t !== zone)
+    .sort((a, b) => hostile(a, faction) - hostile(b, faction) || Object.keys(TOWNS[b][2]).length - Object.keys(TOWNS[a][2]).length)
+    .slice(0, 4).map(t => (TOWNS[t][1] && TOWNS[t][1] !== SIDE_OF.get(zone) ? `${t} (${TOWNS[t][1]})` : t));
+  if (towns.length) out.push(`Its towns include ${list(towns)}.`);
+  const edges = places().edges.get(zone) || [];
+  const roads = edges.filter(e => !e.ride && e.dir).map(e => `${the(e.to)} to the ${e.dir}`);
+  if (roads.length) out.push(`It borders ${list([...new Set(roads)])}.`);
+  const gates = edges.filter(e => !e.ride && !e.dir && CAPITALS.has(e.to)).map(e => e.to);
+  if (gates.length) out.push(`${list([...new Set(gates)])} ${gates.length > 1 ? "open" : "opens"} off it.`);
+  const points = [...new Set(FLIGHTS.filter(f => f[1] === zone && !(f[4] && faction && f[4] !== faction)).map(f => f[0]))];
+  if (points.length) out.push(`Flight points: ${list(points.slice(0, 4))}.`);
+  const dungeons = DUNGEONS.filter(d => d[2].includes(zone)).map(d => d[0]);
+  if (dungeons.length) out.push(`${dungeons.length > 1 ? "Dungeons" : "Dungeon"}: ${list(dungeons.slice(0, 4))}.`);
+  return out.join(" ");
+}
+
+function cardFacts(parts, target) {
+  const faction = sideOf(parts.faction);
+  const town = target.town || (CAPITALS.has(target.zone) && !target.landmark ? target.zone : "");
+  if (town && TOWNS[town]) return [{ title: `About ${town}`, text: townCard(town, faction), sources: SERVICE_SOURCES }];
+  if (target.landmark || target.dungeon || !places().zones.has(target.zone)) return [];
+  const page = ZONES[target.zone]?.[2];
+  return [{ title: `About ${the(target.zone)}`, text: zoneCard(target.zone, faction),
+    sources: [...(page ? [wikiPage(page)] : []), ...SERVICE_SOURCES] }];
+}
+
 export function placeFacts(parts = {}, { character = false, npcZones = [] } = {}) {
   if (character || !parts.question) return [];
   const q = norm(parts.question);
@@ -465,11 +628,19 @@ export function placeFacts(parts = {}, { character = false, npcZones = [] } = {}
   const targets = said.filter(p => p !== origin);
   let facts = [];
   if (roles.length) facts = serviceFacts(parts, roles, targets[0] || null);
-  else if (targets.length && (WAY.test(q) || (WHERE.test(q) && !targets[0].town)))
+  else if (targets.length && (targets[0].dungeon ? TO_DUNGEON.test(q.slice(0, targets[0].at + 1))
+    : WAY.test(q) || (WHERE.test(q) && !targets[0].town)))
     facts = routeFacts(parts, targets[0], origin);
   else if (!targets.length && npcZones[0] && npcZones[0] !== parts.zone && (WHERE.test(q) || WAY.test(q)))
     facts = routeFacts(parts, { zone: npcZones[0], npc: true }, null);
-  return facts.slice(0, 3).map(f => ({ ...f, asked: true }));
+  // A card is background for a question about the place, not its answer: its story and look-ups still go ahead.
+  else if (targets.length && ABOUT.test(q) && !STORY.test(q)) return cardFacts(parts, targets[0]).map(f => ({ ...f, asked: false }));
+  // A name as speech heard it says which place it is: handed Darnassus's facts for "their nazis", she still took it
+  // for Nijel's Point (the blind check, 10/18).
+  const heard = [origin, ...targets].find(p => p?.said && !p.dungeon &&
+    !norm(p.town || p.landmark || p.zone).includes(` ${p.said} `));
+  const note = heard ? `"${heard.said}" is ${heard.town || heard.landmark || the(heard.zone)}. ` : "";
+  return facts.slice(0, 3).map((f, i) => ({ ...f, text: i ? f.text : note + f.text, asked: true }));
 }
 
 export function placeBlock(facts) {

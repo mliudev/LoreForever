@@ -1,0 +1,4936 @@
+[
+ {
+  "label": "hero first piece",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 23,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [],
+   "answer_user_spend": [
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 23,
+     "calls": 0,
+     "voice_micro": 23,
+     "launch_micro": 0,
+     "topup_micro": 0
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 23,
+     "actual_micro": 23,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "hero next piece",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [],
+   "answer_user_spend": [
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 50,
+     "calls": 0,
+     "voice_micro": 50,
+     "launch_micro": 0,
+     "topup_micro": 0
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 50,
+     "actual_micro": 50,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "hero next piece again",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [],
+   "answer_user_spend": [
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 77,
+     "calls": 0,
+     "voice_micro": 77,
+     "launch_micro": 0,
+     "topup_micro": 0
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 77,
+     "actual_micro": 77,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "hero old app piece",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 13,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 2,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [],
+   "answer_user_spend": [
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 90,
+     "calls": 0,
+     "voice_micro": 90,
+     "launch_micro": 0,
+     "topup_micro": 0
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 90,
+     "actual_micro": 90,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "hero old app piece 2",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 2,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [],
+   "answer_user_spend": [
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 107,
+     "calls": 0,
+     "voice_micro": 107,
+     "launch_micro": 0,
+     "topup_micro": 0
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 107,
+     "actual_micro": 107,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "hero past 600",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [],
+   "answer_user_spend": [
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 697,
+     "actual_micro": 697,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "hero past 600 more",
+  "status": 413,
+  "voice": null,
+  "out": "long",
+  "providers": [],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [],
+   "answer_user_spend": [
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 697,
+     "actual_micro": 697,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "pack reply",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "inworld"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 19,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 1
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 285,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 285,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 285
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 982,
+     "actual_micro": 982,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "pack reply piece 2",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "inworld"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 1192,
+     "actual_micro": 1192,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "legend last finest",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "inworld"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-1",
+     "period": "2026-09-30",
+     "chars": 19,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1900,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 285,
+     "calls": 0,
+     "voice_micro": 285,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 1477,
+     "actual_micro": 1477,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "legend then studio",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-1",
+     "period": "2026-09-30",
+     "chars": 19,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 302,
+     "calls": 0,
+     "voice_micro": 302,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 1494,
+     "actual_micro": 1494,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "legend unheard",
+  "status": 204,
+  "voice": null,
+  "out": null,
+  "providers": [],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1900,
+     "best": 1899,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 302,
+     "calls": 0,
+     "voice_micro": 302,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 1494,
+     "actual_micro": 1494,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "legend finest again",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "inworld"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 1749,
+     "actual_micro": 1749,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "champion reply",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "champion",
+     "reply": "champ-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "champion",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "champion",
+     "month": "2026-10",
+     "micro": 15,
+     "calls": 0,
+     "voice_micro": 15,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 1764,
+     "actual_micro": 1764,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "champion provider down",
+  "status": 503,
+  "voice": null,
+  "out": "unavailable",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "champion",
+     "reply": "champ-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "champion",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "champion",
+     "month": "2026-10",
+     "micro": 15,
+     "calls": 0,
+     "voice_micro": 15,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 1764,
+     "actual_micro": 1764,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "free starter reply",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "champion",
+     "reply": "champ-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "free",
+     "reply": "free-reply-1",
+     "period": "starter",
+     "chars": 18,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "champion",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "free",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    },
+    {
+     "id": "starter:free",
+     "user_id": "free",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "champion",
+     "month": "2026-10",
+     "micro": 15,
+     "calls": 0,
+     "voice_micro": 15,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 1782,
+     "actual_micro": 1782,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "free starter piece 2",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "champion",
+     "reply": "champ-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "free",
+     "reply": "free-reply-1",
+     "period": "starter",
+     "chars": 35,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "champion",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "free",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    },
+    {
+     "id": "starter:free",
+     "user_id": "free",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "champion",
+     "month": "2026-10",
+     "micro": 15,
+     "calls": 0,
+     "voice_micro": 15,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 1799,
+     "actual_micro": 1799,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "free starter spent",
+  "status": 402,
+  "voice": null,
+  "out": "spent",
+  "providers": [],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "champion",
+     "reply": "champ-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "free",
+     "reply": "free-reply-1",
+     "period": "starter",
+     "chars": 35,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "champion",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "free",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "spentfree",
+     "period": "starter",
+     "n": 30,
+     "best": 0,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    },
+    {
+     "id": "starter:free",
+     "user_id": "free",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:spentfree",
+     "user_id": "spentfree",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "champion",
+     "month": "2026-10",
+     "micro": 15,
+     "calls": 0,
+     "voice_micro": 15,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 1799,
+     "actual_micro": 1799,
+     "calls": 0
+    }
+   ],
+   "best_first": [],
+   "best_first_days": []
+  }
+ },
+ {
+  "label": "taste finest",
+  "status": 200,
+  "voice": "finest:sprite",
+  "out": "audio",
+  "providers": [
+   "inworld"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "champion",
+     "reply": "champ-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "free",
+     "reply": "free-reply-1",
+     "period": "starter",
+     "chars": 35,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-1",
+     "period": "taste",
+     "chars": 18,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "champion",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "free",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "spentfree",
+     "period": "starter",
+     "n": 30,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "taste",
+     "period": "taste",
+     "n": 1,
+     "best": 1,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    },
+    {
+     "id": "starter:free",
+     "user_id": "free",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:spentfree",
+     "user_id": "spentfree",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:taste",
+     "user_id": "taste",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "champion",
+     "month": "2026-10",
+     "micro": 15,
+     "calls": 0,
+     "voice_micro": 15,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 2069,
+     "actual_micro": 2069,
+     "calls": 0
+    }
+   ],
+   "best_first": [
+    {
+     "user_id": "taste",
+     "used": 2,
+     "voices": 1
+    }
+   ],
+   "best_first_days": [
+    {
+     "day": "2026-10-11",
+     "reserved_micro": 270,
+     "spent_micro": 270,
+     "replies": 1,
+     "lines": 0,
+     "capped": 0,
+     "unreachable": 0
+    }
+   ]
+  }
+ },
+ {
+  "label": "taste finest piece 2",
+  "status": 200,
+  "voice": "finest:sprite",
+  "out": "audio",
+  "providers": [
+   "inworld"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "champion",
+     "reply": "champ-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "free",
+     "reply": "free-reply-1",
+     "period": "starter",
+     "chars": 35,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-1",
+     "period": "taste",
+     "chars": 34,
+     "pieces": 2,
+     "heard": 2,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "champion",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "free",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "spentfree",
+     "period": "starter",
+     "n": 30,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "taste",
+     "period": "taste",
+     "n": 1,
+     "best": 1,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    },
+    {
+     "id": "starter:free",
+     "user_id": "free",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:spentfree",
+     "user_id": "spentfree",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:taste",
+     "user_id": "taste",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "champion",
+     "month": "2026-10",
+     "micro": 15,
+     "calls": 0,
+     "voice_micro": 15,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 2309,
+     "actual_micro": 2309,
+     "calls": 0
+    }
+   ],
+   "best_first": [
+    {
+     "user_id": "taste",
+     "used": 2,
+     "voices": 1
+    }
+   ],
+   "best_first_days": [
+    {
+     "day": "2026-10-11",
+     "reserved_micro": 510,
+     "spent_micro": 510,
+     "replies": 1,
+     "lines": 0,
+     "capped": 0,
+     "unreachable": 0
+    }
+   ]
+  }
+ },
+ {
+  "label": "taste line",
+  "status": 200,
+  "voice": "finest:sprite",
+  "out": "audio",
+  "providers": [
+   "inworld"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "champion",
+     "reply": "champ-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "free",
+     "reply": "free-reply-1",
+     "period": "starter",
+     "chars": 35,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-1",
+     "period": "taste",
+     "chars": 34,
+     "pieces": 2,
+     "heard": 2,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 3
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "champion",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "free",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "spentfree",
+     "period": "starter",
+     "n": 30,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "taste",
+     "period": "taste",
+     "n": 1,
+     "best": 1,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    },
+    {
+     "id": "starter:free",
+     "user_id": "free",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:spentfree",
+     "user_id": "spentfree",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:taste",
+     "user_id": "taste",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "champion",
+     "month": "2026-10",
+     "micro": 15,
+     "calls": 0,
+     "voice_micro": 15,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 2714,
+     "actual_micro": 2714,
+     "calls": 0
+    }
+   ],
+   "best_first": [
+    {
+     "user_id": "taste",
+     "used": 2,
+     "voices": 1
+    }
+   ],
+   "best_first_days": [
+    {
+     "day": "2026-10-11",
+     "reserved_micro": 915,
+     "spent_micro": 915,
+     "replies": 1,
+     "lines": 1,
+     "capped": 0,
+     "unreachable": 0
+    }
+   ]
+  }
+ },
+ {
+  "label": "taste inworld down",
+  "status": 200,
+  "voice": "studio:sprite",
+  "out": "audio",
+  "providers": [
+   "inworld",
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "champion",
+     "reply": "champ-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "free",
+     "reply": "free-reply-1",
+     "period": "starter",
+     "chars": 35,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-1",
+     "period": "taste",
+     "chars": 34,
+     "pieces": 2,
+     "heard": 2,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 3
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-2",
+     "period": "taste",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "champion",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "free",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "spentfree",
+     "period": "starter",
+     "n": 30,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "taste",
+     "period": "taste",
+     "n": 2,
+     "best": 2,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    },
+    {
+     "id": "starter:free",
+     "user_id": "free",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:spentfree",
+     "user_id": "spentfree",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:taste",
+     "user_id": "taste",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "champion",
+     "month": "2026-10",
+     "micro": 15,
+     "calls": 0,
+     "voice_micro": 15,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 2731,
+     "actual_micro": 2731,
+     "calls": 0
+    }
+   ],
+   "best_first": [
+    {
+     "user_id": "taste",
+     "used": 2,
+     "voices": 0
+    }
+   ],
+   "best_first_days": [
+    {
+     "day": "2026-10-11",
+     "reserved_micro": 932,
+     "spent_micro": 932,
+     "replies": 2,
+     "lines": 1,
+     "capped": 0,
+     "unreachable": 0
+    }
+   ]
+  }
+ },
+ {
+  "label": "taste day cap",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "champion",
+     "reply": "champ-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "free",
+     "reply": "free-reply-1",
+     "period": "starter",
+     "chars": 35,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-1",
+     "period": "taste",
+     "chars": 34,
+     "pieces": 2,
+     "heard": 2,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 3
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-2",
+     "period": "taste",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-3",
+     "period": "starter",
+     "chars": 12,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "champion",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "free",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "spentfree",
+     "period": "starter",
+     "n": 30,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "taste",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "taste",
+     "period": "taste",
+     "n": 2,
+     "best": 2,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    },
+    {
+     "id": "starter:free",
+     "user_id": "free",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:spentfree",
+     "user_id": "spentfree",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:taste",
+     "user_id": "taste",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "champion",
+     "month": "2026-10",
+     "micro": 15,
+     "calls": 0,
+     "voice_micro": 15,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 2743,
+     "actual_micro": 2743,
+     "calls": 0
+    }
+   ],
+   "best_first": [
+    {
+     "user_id": "taste",
+     "used": 2,
+     "voices": 1
+    }
+   ],
+   "best_first_days": [
+    {
+     "day": "2026-10-11",
+     "reserved_micro": 932,
+     "spent_micro": 932,
+     "replies": 2,
+     "lines": 1,
+     "capped": 1,
+     "unreachable": 0
+    }
+   ]
+  }
+ },
+ {
+  "label": "capped studio",
+  "status": 200,
+  "voice": null,
+  "out": "audio",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "capped",
+     "reply": "capped-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "champion",
+     "reply": "champ-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "free",
+     "reply": "free-reply-1",
+     "period": "starter",
+     "chars": 35,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-1",
+     "period": "taste",
+     "chars": 34,
+     "pieces": 2,
+     "heard": 2,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 3
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-2",
+     "period": "taste",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-3",
+     "period": "starter",
+     "chars": 12,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "capped",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "champion",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "free",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "spentfree",
+     "period": "starter",
+     "n": 30,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "taste",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "taste",
+     "period": "taste",
+     "n": 2,
+     "best": 2,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    },
+    {
+     "id": "starter:free",
+     "user_id": "free",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:spentfree",
+     "user_id": "spentfree",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:taste",
+     "user_id": "taste",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "capped",
+     "month": "2026-10",
+     "micro": 18405015,
+     "calls": 1,
+     "voice_micro": 9405015,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "champion",
+     "month": "2026-10",
+     "micro": 15,
+     "calls": 0,
+     "voice_micro": 15,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 2758,
+     "actual_micro": 2758,
+     "calls": 0
+    }
+   ],
+   "best_first": [
+    {
+     "user_id": "taste",
+     "used": 2,
+     "voices": 1
+    }
+   ],
+   "best_first_days": [
+    {
+     "day": "2026-10-11",
+     "reserved_micro": 932,
+     "spent_micro": 932,
+     "replies": 2,
+     "lines": 1,
+     "capped": 1,
+     "unreachable": 0
+    }
+   ]
+  }
+ },
+ {
+  "label": "capped spent",
+  "status": 402,
+  "voice": null,
+  "out": "spent",
+  "providers": [],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "capped",
+     "reply": "capped-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "champion",
+     "reply": "champ-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "free",
+     "reply": "free-reply-1",
+     "period": "starter",
+     "chars": 35,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-1",
+     "period": "taste",
+     "chars": 34,
+     "pieces": 2,
+     "heard": 2,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 3
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-2",
+     "period": "taste",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-3",
+     "period": "starter",
+     "chars": 12,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "capped",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "champion",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "free",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "spentfree",
+     "period": "starter",
+     "n": 30,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "taste",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "taste",
+     "period": "taste",
+     "n": 2,
+     "best": 2,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    },
+    {
+     "id": "starter:free",
+     "user_id": "free",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:spentfree",
+     "user_id": "spentfree",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:taste",
+     "user_id": "taste",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "capped",
+     "month": "2026-10",
+     "micro": 18409500,
+     "calls": 1,
+     "voice_micro": 9409500,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "champion",
+     "month": "2026-10",
+     "micro": 15,
+     "calls": 0,
+     "voice_micro": 15,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 697,
+     "calls": 0,
+     "voice_micro": 697,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 2758,
+     "actual_micro": 2758,
+     "calls": 0
+    }
+   ],
+   "best_first": [
+    {
+     "user_id": "taste",
+     "used": 2,
+     "voices": 1
+    }
+   ],
+   "best_first_days": [
+    {
+     "day": "2026-10-11",
+     "reserved_micro": 932,
+     "spent_micro": 932,
+     "replies": 2,
+     "lines": 1,
+     "capped": 1,
+     "unreachable": 0
+    }
+   ]
+  }
+ },
+ {
+  "label": "hero line",
+  "status": 200,
+  "voice": "studio:sprite",
+  "out": "audio",
+  "providers": [
+   "deepinfra"
+  ],
+  "tables": {
+   "voice_replies": [
+    {
+     "user_id": "capped",
+     "reply": "capped-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "champion",
+     "reply": "champ-reply-1",
+     "period": "2026-09-30",
+     "chars": 15,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "free",
+     "reply": "free-reply-1",
+     "period": "starter",
+     "chars": 35,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-1",
+     "period": "2026-09-30",
+     "chars": 50,
+     "pieces": 2,
+     "heard": 3,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 3
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-2",
+     "period": "2026-09-30",
+     "chars": 30,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 0
+    },
+    {
+     "user_id": "hero",
+     "reply": "hero-reply-3",
+     "period": "2026-09-30",
+     "chars": 590,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-2",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "legend",
+     "reply": "legend-reply-3",
+     "period": "2026-09-30",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 1
+    },
+    {
+     "user_id": "packed",
+     "reply": "pack-reply-1",
+     "period": "2026-09-30",
+     "chars": 33,
+     "pieces": 2,
+     "heard": 2,
+     "best": 0,
+     "npc": 0,
+     "pack": "pack-1",
+     "provider": "inworld",
+     "bits": 3
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-1",
+     "period": "taste",
+     "chars": 34,
+     "pieces": 2,
+     "heard": 2,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "inworld",
+     "bits": 3
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-2",
+     "period": "taste",
+     "chars": 17,
+     "pieces": 1,
+     "heard": 1,
+     "best": 1,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    },
+    {
+     "user_id": "taste",
+     "reply": "taste-reply-3",
+     "period": "starter",
+     "chars": 12,
+     "pieces": 1,
+     "heard": 1,
+     "best": 0,
+     "npc": 0,
+     "pack": null,
+     "provider": "deepinfra",
+     "bits": 1
+    }
+   ],
+   "voice_reply_counts": [
+    {
+     "user_id": "capped",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "champion",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "free",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "hero",
+     "period": "2026-09-30",
+     "n": 3,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "legend",
+     "period": "2026-09-30",
+     "n": 1901,
+     "best": 1900,
+     "npc": 0
+    },
+    {
+     "user_id": "packed",
+     "period": "2026-09-30",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "spentfree",
+     "period": "starter",
+     "n": 30,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "taste",
+     "period": "starter",
+     "n": 1,
+     "best": 0,
+     "npc": 0
+    },
+    {
+     "user_id": "taste",
+     "period": "taste",
+     "n": 2,
+     "best": 2,
+     "npc": 0
+    }
+   ],
+   "answer_packs": [
+    {
+     "id": "pack-1",
+     "user_id": "packed",
+     "kind": "voice",
+     "answers": 400,
+     "remaining": 399,
+     "spent_micro": 495,
+     "status": "active"
+    },
+    {
+     "id": "starter:free",
+     "user_id": "free",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:spentfree",
+     "user_id": "spentfree",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    },
+    {
+     "id": "starter:taste",
+     "user_id": "taste",
+     "kind": "starter",
+     "answers": 30,
+     "remaining": 30,
+     "spent_micro": 0,
+     "status": "active"
+    }
+   ],
+   "answer_user_spend": [
+    {
+     "user_id": "capped",
+     "month": "2026-10",
+     "micro": 18409500,
+     "calls": 1,
+     "voice_micro": 9409500,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "champion",
+     "month": "2026-10",
+     "micro": 15,
+     "calls": 0,
+     "voice_micro": 15,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "hero",
+     "month": "2026-10",
+     "micro": 721,
+     "calls": 0,
+     "voice_micro": 721,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "legend",
+     "month": "2026-10",
+     "micro": 557,
+     "calls": 0,
+     "voice_micro": 557,
+     "launch_micro": 0,
+     "topup_micro": 0
+    },
+    {
+     "user_id": "packed",
+     "month": "2026-10",
+     "micro": 495,
+     "calls": 0,
+     "voice_micro": 0,
+     "launch_micro": 0,
+     "topup_micro": 495
+    }
+   ],
+   "answer_holds": [],
+   "answer_spend": [
+    {
+     "month": "2026-10",
+     "reserved_micro": 2782,
+     "actual_micro": 2782,
+     "calls": 0
+    }
+   ],
+   "best_first": [
+    {
+     "user_id": "taste",
+     "used": 2,
+     "voices": 1
+    }
+   ],
+   "best_first_days": [
+    {
+     "day": "2026-10-11",
+     "reserved_micro": 932,
+     "spent_micro": 932,
+     "replies": 2,
+     "lines": 1,
+     "capped": 1,
+     "unreachable": 0
+    }
+   ]
+  }
+ }
+]

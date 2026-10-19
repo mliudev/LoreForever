@@ -317,7 +317,7 @@ end
 -- none: a translation whose English moved on keeps its name, summary, keywords and angles, and each section or own
 -- FAQ, by position, where our flag there is at least the one it was translated under (so text translated from a
 -- spoiler never shows outside one; anything else there stays English).
-function Lang.MergeEntries(db, w, merged)
+function Lang.MergeEntries(db, w, merged, touched)
   -- The word-piece vectors that re-rank answers by meaning (Engine:VecOf) are English; over translated text they
   -- mislead ("Was ist die Bruderschaft der Defias?" went to a quest), so a merged pack switches them off.
   if next(w.entries or {}) then db.vectors = nil end
@@ -325,6 +325,7 @@ function Lang.MergeEntries(db, w, merged)
   merged = merged or {}
   for key, t in pairs(w.entries or {}) do
     local e = db.entries[key]
+    if e and touched then touched[key] = true end
     if e and t.fx then mergeFx(e, t.fx) end   -- by id, whatever else changed
     local current = e and t.fp ~= nil and t.fp == Lang.Fingerprint(e)
     local secFlags, faqFlags
@@ -553,10 +554,11 @@ local function init(lang)
   for k, v in pairs((ow and ow.ui) or {}) do
     if type(v) == "string" and v ~= "" then rawset(L, k, Lang.Keys(Lang.Dotted(v))) end
   end
-  local merged = {}
+  local merged, touched = {}, {}
+  lang.merging = touched   -- every entry the merge has changed so far, should it fail partway (Lang.Init)
   if tw then
     lang.shown = tw.shown   -- the reading language's own client names, for display (Lang.Shown)
-    local skipped = Lang.MergeEntries(db, tw, merged)
+    local skipped = Lang.MergeEntries(db, tw, merged, touched)
     if ns.debug and skipped > 0 then note("%d translated entries skipped: the English changed since", skipped) end
     if tw.stop and ns.Engine then ns.Engine.AddStopWords(tw.stop) end
     -- A frozen pack's search index says itself which data it was built over (refreshed with our data while the
@@ -601,7 +603,7 @@ local function init(lang)
       if same then db.fullclips[key] = hash end
     end
   end
-  lang.merged = merged   -- scoped contributed recordings require text that actually merged
+  lang.merged, lang.merging = merged, nil   -- scoped contributed recordings require text that actually merged
   lang.locale, lang.name, lang.pack = rec.locale, rec.languageName or rec.locale, rec.name
   ns.readingLocale = rec.locale
 end
@@ -770,6 +772,16 @@ function Lang.Init()
   if not ok then
     lang.notes[#lang.notes + 1] = string.format(L["The language pack failed to load (%s); some text may be English."],
       tostring(err))
+    -- The add-on stays in English, but what merged before the failure is translated text that still has the English
+    -- recordings' hashes: drop those, so an English voice never reads over German words (LOR-620). Those entries show as
+    -- text; the rest stays English, recordings and all.
+    local db, merging = ns.DB, lang.merging
+    lang.merging = nil
+    for _, hashes in ipairs({ merging and db and db.clipHash or {}, merging and db and db.answerHash or {} }) do
+      for id in pairs(hashes) do
+        if merging[id:match("^(.-)#faq%d+$") or id] then hashes[id] = nil end
+      end
+    end
   end
   if ns.Theme and ns.Theme.SetLanguageFonts then ns.Theme.SetLanguageFonts(lang.locale) end
   return lang

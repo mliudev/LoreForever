@@ -1,9 +1,9 @@
 // Plans (LOR-252, lib/billing.js): what /plans and the plan card on /account show, and the Stripe pages they send players to.
 //   GET  /api/billing/plans     -> {on, plans: [{id, name, monthly (US cents), answersPerDay, answersPerMonth,
-//                                  sellable, features, promo (the beta's, lib/billing.js launchOffer: {price (US
-//                                  cents paid now: 0, 499, 999), label ("Beta: free month" | "Beta: 50% off"), note
-//                                  ("until November 13, then $4.99 a month" | "your first month, then $9.99")}, only while it
-//                                  applies to this player now: left out once their once-ever offer is used)}] (not
+//                                  sellable, features, promo (the beta's price until the launch, lib/billing.js
+//                                  launchOffer: {price (US cents a month until then: 0, 499, 999), label ("Beta: free"
+//                                  | "Beta: half price"), note ("until November 4, then $4.99 a month")}, during the
+//                                  beta)}] (not
 //                                  hidden ones), compare (lib/billing.js planCompare: [{label, values: {free, hero,
 //                                  champion, legend}}], strings, "✓" and "—" for yes and no), current, starter (the
 //                                  free plan's starter answers left), voiceNote (the fine print about Willo's finest
@@ -14,7 +14,7 @@
 //                                  changesTo for a downgrade waiting for the renewal), or null when signed out, when
 //                                  there's no starter, boughtThisMonth or open either. launch: the beta promo's banner
 //                                  (launchText) during the beta, else null; launchEnds: its last day ("November 3"),
-//                                  else null.
+//                                  else null (both for /account's plan card too).
 //                                  {on: false} while plans are off.
 //   POST /api/billing/checkout  {plan} -> {url}: Stripe's payment page; /plans again for a player who already has a
 //                               plan (they switch with change). Plans are monthly: an interval other than "month" is a 400.
@@ -41,7 +41,7 @@ import {
 } from "../../../lib/billing.js";
 import { ALLOWED } from "../../../lib/willo-custom.js";
 import { featureOn } from "../../../lib/features.js";
-import { creatorFor, creatorOffers, notePayment } from "../../../lib/referrals.js";
+import { creatorFor, creatorOffers, notePayment, reverseCommission } from "../../../lib/referrals.js";
 import { perMinute, slowDown } from "../../../lib/ratelimit.js";
 
 const ok = (body = {}) => Response.json({ ok: true, ...body }, { headers: noStore });
@@ -105,6 +105,9 @@ async function webhook({ request, env }) {
     // A paid invoice of a player a creator brought: the creator's share (lib/referrals.js notePayment). After the plan
     // is stored, and safe to repeat, so Stripe's retry of a failure here gets another go.
     if (event.type === "invoice.paid" && sameMode(env, event)) await notePayment(env, event.data?.object);
+    // A refund or a dispute of a payment a creator earned on takes that commission back (reverseCommission).
+    if ((event.type === "charge.refunded" || event.type === "charge.dispute.created") && sameMode(env, event))
+      await reverseCommission(env, event.data?.object, event.type === "charge.refunded" ? "refunded" : "disputed");
   } catch (e) {
     console.warn(`billing webhook ${event.type} ${event.id}: ${e?.message || e}`);
     return fail(500, "Couldn't apply that event.");

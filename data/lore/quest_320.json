@@ -18,11 +18,11 @@
   },
   {
    "target": "race:Gnome",
-   "text": "Pilot Bellowfiz represents gnomish aviation stationed at Steelgrill's Depot, and keeping talented tinkerers refreshed keeps machines running smoothly."
+   "text": "Pilot Bellowfiz is a dwarven siege-engine driver stationed at Steelgrill's Depot, and keeping hardworking engineers refreshed keeps the machines running smoothly."
   },
   {
    "target": "faction:Alliance",
-   "text": "Running errands between dwarven hunters and gnomish pilots helps maintain morale and camaraderie among Alliance forces stationed in Dun Morogh."
+   "text": "Running errands between dwarven hunters and dwarven pilots helps maintain morale and camaraderie among Alliance forces stationed in Dun Morogh."
   }
  ],
  "faq": [
@@ -39,7 +39,7 @@
     "who wants evershine",
     "who is bellowfiz"
    ],
-   "answer": "Pilot Bellowfiz is an aviator stationed at Steelgrill's Depot just outside Kharanos in Dun Morogh. He eagerly awaits a fresh delivery of Evershine to sample.",
+   "answer": "Pilot Bellowfiz is a dwarven driver of a siege engine, stationed at Steelgrill's Depot just outside Kharanos in Dun Morogh. He eagerly awaits a fresh delivery of Evershine to sample.",
    "q": "Who is Pilot Bellowfiz?"
   },
   {
@@ -55,7 +55,7 @@
     "where is bellowfiz",
     "bellowfiz location"
    ],
-   "answer": "Pilot Bellowfiz is located at Steelgrill's Depot, an engineering hub and workshop situated just northeast of Kharanos in Dun Morogh.",
+   "answer": "Pilot Bellowfiz is located at Steelgrill's Depot, an engineering hub and workshop situated just east of Kharanos in Dun Morogh.",
    "q": "Where do you deliver the cask?"
   },
   {
@@ -101,7 +101,7 @@
    "title": "Thirsty Aviators"
   }
  ],
- "summary": "Return to Bellowfiz is a short delivery quest in Dun Morogh where an adventurer brings a cask of local Evershine to Pilot Bellowfiz at Steelgrill's Depot. It concludes a local favor, rewarding the thirsty aviator with a welcome drink.",
+ "summary": "Return to Bellowfiz is a short delivery quest in Dun Morogh where an adventurer brings a cask of local Evershine to Pilot Bellowfiz at Steelgrill's Depot. It concludes a local favor, rewarding the thirsty driver with a welcome drink.",
  "attribution": [
   "In-game quest text: Return to Bellowfiz"
  ]

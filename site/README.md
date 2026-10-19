@@ -637,11 +637,22 @@ to `/account#profile` when there's none yet).
     pretty sure that's Dalaran") or is frustrated ("that's useless") gets a short note not to argue (and low thinking,
     2,048 more output tokens, so a wrong player is gently corrected rather than agreed with), and is kept in
     `answer_feedback` with the question and answer it disputes (from the prompt's RECENT CONVERSATION), the zone and
-    a hashed account id; the answer returns `feedback: "correction" | "frustration"`. `POST /api/companion/feedback`
-    (same device token; `{question, answer, note?, zone?, sub?, spoken?}`, 50 a day) keeps a player's Wrong answer
-    flag. /admin's Community → Willo lists them (`GET`/`POST /api/admin/willo`, the admin key): mark checked or
-    dismissed, or make one a Forever fact that later answers get. Rows go after 90 days and with the account
-    (deleteUser); public/privacy.html says so.
+    the answer log's salted player key; "no, I meant…" (`misheard`) and "never mind" (`gave_up`) are kept the same way,
+    with no note in her prompt. The answer returns `feedback: "correction" | "misheard" | "frustration" | "gave_up"`.
+  - **The feedback loop (10/18; `lib/answer-signals.js`, `lib/willo-quality.js`):** every answer returns `answer_id`
+    (kept as `answer_log.ref`, a failed one's 502 too). `POST /api/companion/feedback` (same device token; `{question,
+    answer, answer_id?, good?, reasons?, note?, followup?, source?, zone?, sub?, spoken?}`, 50 👎 and 300 👍 a day): 👎
+    "Not right" with quick reasons is a `report` row (an older app's Wrong answer, a `flag`), and tags the kept answer
+    `reported`; `good: true` only tags it `liked`. The next question may carry `last: {answer_id, ms, heard, failed,
+    retried, spoken}` (read only with `keep`): word rules and those facts tag the earlier answer (rephrased, cut off,
+    voice dropped, asked again after a failure, typed right after a spoken miss...), after the reply, never a model
+    call; weight 2+ is a `signal` row. One review queue: /admin's Community → Willo (Willo quality: report and
+    frustration rates, topics asked most and failing most, the questions asked most, the apps' failure counts) and
+    `GET /api/admin/willo?queue=1` for the accuracy loop, which writes back `queue-triage` (class, gold case) and
+    `queue-fixed`. A fixed report whose player ticked "Tell me when it's fixed" comes back once in `GET
+    /api/keeps/changes` `learned`, for her to say in-world; `POST /api/keeps/told` marks it said. Reports go after 90
+    days (followups when fixed, a year at most), signals after 14, all with the account (deleteUser) or from What Willo
+    keeps; public/privacy.html says so. Rows from before 10/18 move to the salted key with `feedback-rehash`.
   - **Accounting:** all three paths reserve their own bounded input/output estimate against the shared $100 monthly
     budget before calling the provider. Ordinary replies and compaction use Flash-Lite's $0.25/$1.50 per million
     input/output tokens. Research uses [Google's published pricing](https://ai.google.dev/gemini-api/docs/pricing),
@@ -780,7 +791,10 @@ plan, when it renews, changes or ends, "Switch to <plan>" links that open the co
   its cost ($1 a million letters for Chatterbox, $15 for Inworld TTS 2 Flash, $25 for TTS 2) against the total cap
   first (`holdUserSpend` with `total`), so the voice steps down, finest to studio to the everyday voice on the PC,
   before the month's total would pass the plan's net; a provider that fails steps down too, never up. Anything but
-  audio (`{speak: "local", reason}`) means the companion says it on the PC. The cost goes on the player's month in
+  audio (`{speak: "local", reason}`) means the companion says it on the PC. A provider is sent the text with the
+  lexicon's names respelled so it says them right ("Dun Morogh" as "Doon Mor-uh": `lib/respell.js`,
+  `/lore/data/respell-hosted.json`, from `data/pronunciation.json` "hosted" else "qwen"); only what a provider is sent,
+  never what the companion shows, and the cost and the 600 letters count what the companion sent. The cost goes on the player's month in
   `answer_user_spend` (`voice_micro`, apart from the text cap) and `answer_spend` (`addVoiceSpend`), never the free
   budget. Willo's own hosted voices are `WILLO_PICKS` in `lib/companion-voice.js`: her five (Mike, 2026-10-13),
   Sprite, Sunbeam, Moonwell, Fenlight and Starling, each followed by his male partner (LOR-610, 2026-10-16: Puck,
@@ -850,51 +864,57 @@ plan, when it renews, changes or ends, "Switch to <plan>" links that open the co
   the checkout session as Stripe returns it, not from the event's copy; an event from the other mode (test on live,
   or the reverse) is ignored, and the webhook works whenever Stripe is set up, plans on or off.
 - **The beta promo** (LOR-500, Mike, 2026-10-14: "If you sign up during the beta, you get half off or free hero for a
-  month"; it replaced the 7-day launch week): from the moment the Willo release publishes to the end of the WoW
-  Forever beta. The Pages variable **`LAUNCH_WEEK_START`** (an ISO date-time with its zone, e.g.
-  `2026-10-20T18:30:00Z`) is the start: the ship step sets it in Production when it publishes the release. The end is
-  **`BETA_END`** (the same kind of date-time), or `BETA_END_DEFAULT` (`2026-11-03T23:59:59-08:00`) when that's unset
-  or not one (`launchWindow` in `lib/billing.js`). Without a `LAUNCH_WEEK_START` there's no promo at all: no banner, no
-  offers, no free month.
-  - **A free Hero month, no card:** a signed-in free account's month starts the first time its plan is looked at
-    during the beta (signing in on /account or /plans, or the companion's first check; `freeHeroMonth`) and lasts
-    `BETA_HERO_DAYS` (30) days, past the beta's end too. Once per Google account, ever: its `free` claim in
-    `promo_claims` (by the same one-way Google code as the starter's, kept after Delete my account) holds the month's
-    start. It's Hero's plan (`planFor`, `launch: true`, with `since`, `until` and `ends`, its last day in Pacific
-    time): Hero's 900 answers for the month (one pool; `poolWindow` anchors on `until`) and 100 a day, look-ups, sight,
-    styles, all of Willo's voices on the PC and push-to-talk, none of it counted toward the free plan's month. When
-    the month ends the account is on the free plan again, by itself. Their cost goes in
-    `answer_user_spend.launch_micro`: out of the shared free budget like any paid-for answer, held by Hero's cost caps
-    on its own, and never counted against a plan the player buys later. Once the promo's total passes
-    `LAUNCH_WEEK_BRAKE_MICRO` ($300, apart from the $100 free budget), free accounts get the free plan (months under
-    way stop, no new one starts), silently.
-  - **The offers** (`launchOffer`), on a checkout during the beta, each once per account, ever (`promo_claims`, kind
-    `hero` or `half`): **Keep Hero** is Hero's checkout with a Stripe trial, so the offer stays one month of
-    Hero (Mike, 2026-10-14: "a month", not up to two): during the account's free Hero month it ends when that month
-    does (`trial_end`, at least `TRIAL_MIN_SECONDS` on, Checkout's shortest), and with none running it's 30 days from
-    that day (`trial_period_days`; `keepHeroEnds`). Nothing is charged until then, even past the beta, and $4.99 a
-    month after; **Champion and Legend** are 50% off their first month, by an amount_off coupon each
-    (`LAUNCH_COUPONS`, $5 and $10, duration once, named "Beta: 50% off your first month", made and renamed by
-    `scripts/stripe-setup.mjs`), on Checkout (shown there; no promotion codes then) and on an upgrade during the beta
-    (on the new price's item, the same in the confirm's preview, so the amount shown is the amount charged; an upgrade
-    from the Hero trial ends the trial and starts the paid month now). The first discounted month keeps the plan's own
-    caps.
-  - **The copy:** /plans shows `launchText` ("Beta: Hero is free for your first month, and Champion and Legend are
-    50% off your first month. Join by November 3.") as a banner during the beta, and the cards cross out the usual
-    price with a tag and their terms (GET /api/billing/plans `plans[].promo`: {price, label, note}: 0, "Beta: free
-    month", "until November 13, then $4.99 a month", the day a trial started now is free until, which is the end of
-    the account's free month while one runs; 499, "Beta: 50% off",
-    "your first month, then $9.99"), only while the player can still have that offer; `launchEnds` is the beta's last
-    day. A free Hero month sees "Beta: you're on Hero, free until ..." and Keep Hero; /account says "Beta: Hero is free
-    until ...", and a trial "It's free until ...". The same response's `compare` (`planCompare`: [{label, values:
-    {free, hero, champion, legend}}], strings with "✓" and "—") is the plans side by side for /willo's table, made from
-    `PLANS`, `PLAN_VOICE`, `COMPANION_FEATURES` and `lib/willo-custom.js` `ALLOWED`. A finest-voice pack is for a paid
-    plan, so not for the free Hero month.
+  month"; then 2026-10-17: "the promise for the plans is half off for the beta period only, then full price for when
+  the full game launches"): from the moment the Willo release publishes to WoW Forever's launch. The Pages variable
+  **`LAUNCH_WEEK_START`** (an ISO date-time with its zone, e.g. `2026-10-20T18:30:00Z`) is the start: the ship step
+  sets it in Production when it publishes the release. The end is **`BETA_END`** (the same kind of date-time), or
+  `BETA_END_DEFAULT` (`2026-11-04T15:00:00-08:00`, the launch: Blizzard) when that's unset or not one (`launchWindow`
+  in `lib/billing.js`). Without a `LAUNCH_WEEK_START` there's no promo at all: no banner, no prices, no free month.
+  The launch is every plan's pay day: from it, everyone pays full price.
+  - **Hero on us, no card:** a signed-in free account's free Hero month starts the first time its plan is looked at
+    during the beta (signing in on /account or /plans, or the companion's first check; `freeHeroMonth`) and runs to
+    the launch (or `BETA_HERO_DAYS`, 30, if that's sooner). Once per Google account, ever: its `free` claim in
+    `promo_claims` (by the same one-way Google code as the starter's, kept after Delete my account) holds its start.
+    It's Hero's plan (`planFor`, `launch: true`, with `since`, `until` and `ends`, its last day in Pacific time):
+    Hero's 900 answers (one pool; `poolWindow` anchors on `until`) and 100 a day, look-ups, sight, styles, all of
+    Willo's voices on the PC and push-to-talk, none of it counted toward the free plan's month. At the launch the
+    account is on the free plan again, by itself. Its cost goes in `answer_user_spend.launch_micro`: out of the shared
+    free budget like any paid-for answer, held by Hero's cost caps on its own, and never counted against a plan the
+    player buys later. Once the promo's total passes `LAUNCH_WEEK_BRAKE_MICRO` ($300, apart from the $100 free
+    budget), free accounts get the free plan (Hero under way stops, none starts), silently.
+  - **Buying during the beta** (`createCheckout`): the plan's months start at the launch (Checkout's
+    `subscription_data.billing_cycle_anchor`), so its first full charge is then. Until then **Keep Hero** is free
+    (`proration_behavior: none`: nothing charged before the launch), and **Champion and Legend** are half price for
+    the days left (a prorated first invoice with `BETA_HALF`, a 50%-off-once coupon, on it; Stripe takes no amount_off
+    coupon there). Every account gets the beta's prices, not once only; `metadata.launch` (`hero` or `half`) still
+    records a `promo_claims` row for /admin. `BETA_HALF` is made by `scripts/stripe-setup.mjs`, or by the site the
+    first time it's needed (`betaCoupon`; `POST /api/admin {"action": "beta-coupon"}` checks it): if Stripe has none
+    and the site's key can't make it, Champion and Legend are free until the launch instead of full price. An
+    **upgrade** during the beta is half price for the days left (the coupon on the change's invoice), and one from a
+    plan that's free until the launch (a Stripe trial) keeps it free until then; a downgrade keeps a trial a trial.
+  - **The plans from before the anchor** (the 11 live on 2026-10-18) were moved to the launch by `payDay`
+    (`POST /api/admin {"action": "pay-day"}`, `scripts/pay-day.mjs`; a dry run unless told otherwise, once per plan):
+    a Stripe trial to the launch with no proration, and with `credit`, what each had paid for days after the launch
+    went back as a Stripe balance credit off that first charge (a 50% first month credits half; a cancelled plan is
+    never charged again). `site/tests/stripe-pay-day.mjs` checks all of it against Stripe test mode on test clocks. A
+    paying plan moved so is "trialing" in Stripe until the launch and still counted as paying on /admin
+    (`entitlements.gap_from`, `planFor` `paidBefore`). The +14-day play gap tried first (`PLAY_GAP_START`/`END`) is
+    gone; those Pages variables do nothing now.
+  - **The copy:** /plans' banner and /account's plan card show `launchText` ("Half price during the beta. Full price
+    from launch, November 4.") during the beta, and the cards cross out the usual price with a tag and their terms (GET
+    /api/billing/plans `plans[].promo`: {price, label, note}: 0, "Beta: free", "until November 4, then $4.99 a month";
+    499, "Beta: half price", "until November 4, then $9.99 a month"); `launchEnds` is the launch's day. A free Hero
+    month sees "Beta: you're on Hero, free until ..."; /account says "Beta: Hero is free until ...", a trial "It's free
+    until ...", and a paid plan moved to the launch "It renews on ...". The Terms' "Beta offer" says the same. The same
+    response's `compare` (`planCompare`: [{label, values: {free, hero, champion, legend}}], strings with "✓" and "—")
+    is the plans side by side for /willo's table, made from `PLANS`, `PLAN_VOICE`, `COMPANION_FEATURES` and
+    `lib/willo-custom.js` `ALLOWED`. A finest-voice pack is for a paid plan, so not for the free Hero month.
   - To try it on a preview (develop), set `LAUNCH_WEEK_START` (and `BETA_END`, if you like) there and `PROMO_NOW` (an
     ISO date-time) as that deployment's clock for the promo; only a test-mode Stripe key reads `PROMO_NOW`, so
     Production never does.
   - Stripe Dashboard: turn on the trial-ending reminder (Settings > Billing > Subscriptions and emails > "Send a
-    reminder email 7 days before a free trial ends"), so a Keep Hero trial never renews by surprise.
+    reminder email 7 days before a free trial ends"), so a trial (Keep Hero, or a plan moved to the launch) never
+    renews by surprise.
 - **The welcome page** (Mike, 2026-10-13; `welcomeOnce` in `lib/billing.js`): the first time an account connects the
   companion on /link (`POST /api/device/approve`), while plans are for sale and it has none, the reply carries
   `welcome: "/plans?welcome=1"` and the page goes there instead of its connected message: Willo's one warm line, the
@@ -981,23 +1001,37 @@ plan, when it renews, changes or ends, "Switch to <plan>" links that open the co
   throwaway D1s, puts each scenario's customer on a Stripe test clock, posts Stripe's real events to the local webhook
   signed with a local secret, prints a PASS/FAIL table and deletes its test clocks.
 
-### Share Willo and creator links (LOR-253, LOR-503)
+### Inviting friends and the creator program (LOR-253, LOR-503, LOR-617)
 
-Every player has a link of their own, `loreforeverwow.com/w/<code>` (`lib/referrals.js`), on /account's Willo tab, on
-their own profile and in Willo's window (Settings > Account). Opening it keeps the code in a 30-day cookie and goes to
-/willo, which says who sent them. When that browser then connects Willo for an account new to her, the sharer gets a
-tenth of their plan's month in answers (Free 60, Hero 90, Champion 190, Legend 400), for up to 10 friends a calendar
-month, once per Google account. Those answers are used after the plan's own (and a free player's starter): a free
-player's from the shared budget, a paying player's within their plan's cost caps. "New link" retires the old code.
+Patrick's two loops (Coaching 74, 2026-10-16), kept apart in `lib/referrals.js`: players invite friends and earn
+product; approved creators bring subscribers and earn cash. The numbers are in one place there (`REWARDS`,
+`CREATOR_DEFAULTS`, `PAYOUTS`), Mike's to change.
 
-Creators are added on /admin's Creators tab: a readable code (`/w/ziqo`), and terms (default 50% off the first month,
-100 answers on connecting, and 20% of what their players pay in their first 3 months). The site makes their Stripe
-promotion code (the code in capitals, first payment only), or takes one made by hand. Checkout applies it by itself
-for a player their link brought when no beta offer applies, and typed at checkout it counts for them too. Paid
-invoices are kept per creator (`creator_earnings`); payouts are by hand, and "Mark paid" notes one.
+**Players.** Every player has a link of their own, `loreforeverwow.com/w/<code>`, on /account's Willo tab, on their
+own profile and in Willo's window (Settings, and the Friends tab). Opening it keeps the code in a 30-day cookie and goes
+to /willo, which says who sent them. A friend *joins* when their account is made in that browser (or, for an account
+new to Willo, when it first connects Willo there), and *counts* once Willo has given them a first real answer. Only the
+inviter earns: the fifth friend of each ten gives bonus answers (half the plan's month), the tenth a free month (a
+Stripe balance credit as big as the next charge on a paying plan, `lib/billing.js giveFreeMonth`; a month of Hero on us,
+`plan_grants`, on the free plan), each once (`referral_rewards`), at most 10 friends a calendar month. Guards (a friend
+that fails one is kept as void, with the reason, on /admin): once per Google account, not the inviter's own account,
+browser (`lf_b` cookie, `browser_seen`), computer (`X-LF-Machine`, Willo's one-way code, `devices.machine`) or card
+(Stripe fingerprint), not another friend's computer, not a throwaway address. Friends counted before 10/18 kept their
+answers and count from their first question.
+
+**Creators.** They apply on `/creators` (signed in; the page also has the creator terms, public since Mike's go on
+10/18) and /admin's Creators tab approves them, or /admin adds one; their link is readable (`/w/ziqo`) and tied to their
+account, which opens their dashboard on `/creators` (clicks, sign-ups, activated, paying, earned, payouts). They earn 70%
+of what a subscriber they brought pays (without tax) for their first paid month (a beta checkout's days before it and
+an upgrade within it count; later months are ours), one row per invoice in `creator_earnings`, payable 30 days after
+the payment; a refund or a dispute takes it back (from the next payout if it was paid). /admin's payout list shows who's
+owed at least $10, paid by hand ("Mark paid") or, once Stripe Connect is set up and "Stripe payouts" is switched on
+there, by a Stripe transfer to the Express account the creator set up from their dashboard. A fan discount or gift
+answers only when /admin gives that creator some (the Stripe promotion code is made then).
 
 - Endpoints: `GET /api/share/mine`, `POST /api/share/new`, `GET /api/share/info?code=`
-  (`functions/api/share/[action].js`); `/w/<code>` (`functions/w/[code].js`); `/api/admin/creators`.
+  (`functions/api/share/[action].js`); `/w/<code>` (`functions/w/[code].js`); `GET /api/creators/me`,
+  `POST /api/creators/apply | payouts | stripe` (`functions/api/creators/[action].js`); `/api/admin/creators`.
 - Tests: `site/tests/referrals.test.mjs`.
 
 ### Willo customization (LOR-447)

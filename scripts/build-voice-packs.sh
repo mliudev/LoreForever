@@ -10,9 +10,11 @@
 #   LoreForever_Voice_<Default|Female>_Quests.zip         optional English quest dialogue, downloaded deliberately
 #   LoreForever_Voice_<Default|Female>_MorePlaces.zip / _MorePeople.zip  more subzone and people stories (complete
 #                                                         stories only), once registered
+#   LoreForever_Voice_<Default|Female>_MoreItems.zip / _MoreQuests1.zip / _MoreQuests2.zip  item stories and quest
+#                                                         stories (levels 1-19, 20+), the same way
 #   LoreForever_Voice_QuestGivers.zip                     quest givers' voices: quest dialogue in each quest giver's
 #                                                         race and gender (its own CurseForge project: under 480 MB)
-#   LoreForever_Voice_<Default|Female>_<locale>.zip       either narrator in deDE, esES, frFR or ptBR (LOR-177), one
+#   LoreForever_Voice_<Default|Female>_<locale>.zip       either narrator in deDE, esES, frFR, ptBR or itIT (LOR-177), one
 #                                                         pack each, once recorded
 #   LoreForever_Voice_<Default|Female>_Quests_<locale>.zip  either narrator's quest dialogue in one of those languages
 #                                                         (LOR-226, the game's own quest text), once recorded
@@ -25,8 +27,8 @@
 # folder<TAB>bytes" (that folder's share of the zip: its recordings stored, the rest deflated as here, plus zip
 # headers), and "skipped<TAB>zip<TAB>why" for a bundle over GitHub's limit (scripts/release_sizes.py, LOR-443).
 # --pack NAME (repeatable) limits it to the zips made only of those packs, and hydrates only those from the asset
-# store: `--sizes --pack <a store pack>` works in a pointers worktree (new-worktree.sh --pointers), as Git LFS
-# packs it leaves out don't need their recordings.
+# store: `--sizes --pack <a store pack>` works in a pointers worktree (new-worktree.sh --pointers), where no other
+# pack's recordings are needed.
 # Usage: scripts/build-voice-packs.sh [--versioned | --sizes] [--pack NAME ...]
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -36,7 +38,8 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
     || [ "$(git -C "$ROOT" config --bool core.sparseCheckout 2>/dev/null)" != true ]; } \
   && [ "$(git -C "$ROOT" ls-files -t -- addon/LoreForever_Voice_Default/Audio/ 2>/dev/null | head -c 1)" != S ] \
   || { echo "${0##*/}: this checkout is sparse. In your own worktree, run 'git sparse-checkout disable' first; or make" \
-         "a full one: scripts/new-worktree.sh --pointers <path> (and 'git lfs pull' there for the recordings)" >&2; exit 1; }
+         "a full one: scripts/new-worktree.sh --pointers <path>" \
+         "(and 'python3 scripts/audio_store.py hydrate' there for the recordings)" >&2; exit 1; }
 # Packs in the asset store (LOR-440): their recordings into the gitignored Audio/ first, every clip checked against
 # its manifest. The public repo has no store (its workflow puts recordings back with audio_assets.py fetch).
 ONLY=()
@@ -102,6 +105,32 @@ DOWNLOADS = {
     "LoreForever_Voice_Default_MorePeople": (["LoreForever_Voice_Default_MorePeople"], "Male narrator: more people {v}"),
     "LoreForever_Voice_Female_MorePlaces": (["LoreForever_Voice_Female_MorePlaces"], "Female narrator: more places {v}"),
     "LoreForever_Voice_Female_MorePeople": (["LoreForever_Voice_Female_MorePeople"], "Female narrator: more people {v}"),
+    # Item stories and quest stories (levels 1-19, levels 20+), the same way.
+    "LoreForever_Voice_Default_MoreItems": (["LoreForever_Voice_Default_MoreItems"], "Male narrator: item stories {v}"),
+    "LoreForever_Voice_Default_MoreQuests1": (["LoreForever_Voice_Default_MoreQuests1"],
+                                              "Male narrator: quest stories, levels 1-19 {v}"),
+    "LoreForever_Voice_Default_MoreQuests2": (["LoreForever_Voice_Default_MoreQuests2"],
+                                              "Male narrator: quest stories, levels 20+ {v}"),
+    "LoreForever_Voice_Female_MoreItems": (["LoreForever_Voice_Female_MoreItems"], "Female narrator: item stories {v}"),
+    "LoreForever_Voice_Female_MoreQuests1": (["LoreForever_Voice_Female_MoreQuests1"],
+                                             "Female narrator: quest stories, levels 1-19 {v}"),
+    "LoreForever_Voice_Female_MoreQuests2": (["LoreForever_Voice_Female_MoreQuests2"],
+                                             "Female narrator: quest stories, levels 20+ {v}"),
+    # The original male narrator (voicepack.OWN_PACKS), a voice of his own since the Chronicler took over the main
+    # download's stories: his stories and lands in one zip, as the female narrator's, and his more places and people.
+    "LoreForever_Voice_Original": (["LoreForever_Voice_Original"], "Original male narrator: core {v}"),
+    "LoreForever_Voice_Original_Alliance": (["LoreForever_Voice_Original_Alliance"],
+                                            "Original male narrator: Alliance lands {v}"),
+    "LoreForever_Voice_Original_Horde": (["LoreForever_Voice_Original_Horde"], "Original male narrator: Horde lands {v}"),
+    "LoreForever_Voice_Original-complete": (["LoreForever_Voice_Original", "LoreForever_Voice_Original_Alliance",
+                                             "LoreForever_Voice_Original_Horde"],
+                                            "Original male narrator: stories and lands {v}"),
+    "LoreForever_Voice_Original_MorePlaces": (["LoreForever_Voice_Original_MorePlaces"],
+                                              "Original male narrator: more places {v}"),
+    "LoreForever_Voice_Original_MorePeople": (["LoreForever_Voice_Original_MorePeople"],
+                                              "Original male narrator: more people {v}"),
+    "LoreForever_Voice_Original_Quests": (["LoreForever_Voice_Original_Quests"],
+                                          "Original male narrator: quest dialogue {v}"),
     # Both narrators in the language packs' languages (LOR-177): one zip per narrator and language, each holding the
     # zone stories, answers, places and people (~340 MB; lore.voicepack locale keeps each under 480 MB). Skipped until
     # recorded (no folder in addon/).
@@ -114,6 +143,9 @@ DOWNLOADS = {
     "LoreForever_Voice_Female_esES": (["LoreForever_Voice_Female_esES"], "Female narrator: Español {v}"),
     "LoreForever_Voice_Default_frFR": (["LoreForever_Voice_Default_frFR"], "Male narrator: Français {v}"),
     "LoreForever_Voice_Female_frFR": (["LoreForever_Voice_Female_frFR"], "Female narrator: Français {v}"),
+    # Italian (10/18): the stories the Italian community's pack has, read by native narrators. Skipped until recorded.
+    "LoreForever_Voice_Default_itIT": (["LoreForever_Voice_Default_itIT"], "Male narrator: Italiano {v}"),
+    "LoreForever_Voice_Female_itIT": (["LoreForever_Voice_Female_itIT"], "Female narrator: Italiano {v}"),
     # (Both Brazilian Portuguese narrators are paused until they're recorded again: PAUSED below.)
     # Their quest dialogue in those languages, the game's own quest text (LOR-226): one zip per narrator and language
     # (~320-390 MB at 48 kbps; lore.voicepack quests --locale refuses one over the limit). Skipped until recorded.
@@ -137,7 +169,8 @@ DOWNLOADS = {
 # The answers packs (LOR-227, LoreForever_Voice_<Default|Female>_Answers_<Part>[_<locale>]) are retired (LOR-547,
 # LOR-561; Mike 2026-10-15): Willo reads the short answers aloud, so they're no longer built or published. Copies
 # players already have keep playing while their text matches.
-LANGUAGES = {"": "", "_deDE": ", Deutsch", "_esES": ", Español", "_frFR": ", Français", "_ptBR": ", Português"}
+LANGUAGES = {"": "", "_deDE": ", Deutsch", "_esES": ", Español", "_frFR": ", Français", "_ptBR": ", Português",
+             "_itIT": ", Italiano"}
 # New manual bundles use only available story components. Quest dialogue stays a separate opt-in pack.
 FULL_BUNDLES = {}
 for loc, lang in (("enUS", "English"), *((k[1:], v[2:]) for k, v in LANGUAGES.items() if k)):
@@ -159,9 +192,10 @@ DOWNLOADS = {name: entry for name, entry in DOWNLOADS.items()
 FULL_BUNDLES = {name: entry for name, entry in FULL_BUNDLES.items() if name in DOWNLOADS}
 # zips a CurseForge project of their own takes as they are (the quest givers' voices, and each narrator and its quest
 # dialogue in each language pack's language: release/curseforge.json), and the answers packs, sized for one
-CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers", "LoreForever_Voice_Default_Quests",
-                  "LoreForever_Voice_Female_Quests"} | {n for n in DOWNLOADS if re.fullmatch(
-    r"LoreForever_Voice_(Default|Female)((_Quests)?_[a-z]{2}[A-Z]{2}|_More(Places|People))", n)}
+CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers", "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female_Quests",
+                  "LoreForever_Voice_Original-complete", "LoreForever_Voice_Original_Quests"} | {
+    n for n in DOWNLOADS if re.fullmatch(
+    r"LoreForever_Voice_(Default|Female|Original)((_Quests)?_[a-z]{2}[A-Z]{2}|_More(Places|People|Items|Quests[12]))", n)}
 CURSEFORGE_MB = 480                                  # its upload API refuses bigger files
 GITHUB_ASSET_MAX = 2 * 1024**3 - 64 * 1024**2        # GitHub's release asset limit (2 GiB), less room for zip overhead
 
@@ -301,12 +335,12 @@ for name, (folders, display) in DOWNLOADS.items():
         # (A pack of complete stories only, MorePlaces/MorePeople, has its recordings under Audio/Transport/.)
         if not (addons / f / "Clips.lua").is_file() or not any(p.is_file() for p in (addons / f / "Audio").rglob("*.*")):
             sys.exit(f"build-voice-packs: {f} has no Clips.lua or no recordings")
-        # Audio is stored with Git LFS: a checkout that never fetched it has pointer files instead of recordings.
+        # Audio lived in Git LFS until 10/18: a checkout of an older commit has pointer files instead of recordings.
         pointers = [p for p in (addons / f / "Audio").rglob("*") if p.is_file() and p.stat().st_size <= 1024
                     and p.read_bytes().startswith(b"version https://git-lfs")]
         if pointers:
             sys.exit(f"build-voice-packs: {len(pointers)} files in {f}/Audio are Git LFS pointers, not recordings "
-                     f"(e.g. {pointers[0].name}). Fetch them first: git -c lfs.fetchexclude= lfs pull")
+                     f"(e.g. {pointers[0].name}). Fetch them first: python3 scripts/audio_store.py hydrate")
     path = out / (f"{name}-{v}.zip" if VERSIONED else f"{name}.zip")
     locale = re.search(r"_([a-z]{2}[A-Z]{2})(?:-complete)?$", name)
     lang = language_files(locale.group(1)) if locale and locale.group(1) != "enUS" else None

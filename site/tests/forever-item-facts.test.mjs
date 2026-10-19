@@ -49,6 +49,26 @@ test("what the facts say is the world's records: who makes it, how many, and the
   assert.match(ask("What's the proc chance for Shoni's Disarming Tool?")[0].text, /how often isn't known/);
 });
 
+test("sellers are the player's own side's, in their town and zone first; quests say who gives them; cloth drops from people", () => {
+  // 10/18: asked in Stormwind, Leaded Vials were sent to Gadgetzan and Lakeshire (Maria Lumere never made the list).
+  const stormwind = { zone: "Stormwind City", sub: "Trade District", faction: "Alliance" };
+  const vial = ask("Where can I find a leaded vial?", stormwind)[0].text;
+  assert.match(vial, /sold by Maria Lumere in .*Stormwind City/);
+  assert.doesNotMatch(vial.split(". used in")[0], /Gadgetzan|Lakeshire|Orgrimmar/);
+  const horde = ask("Where can I find a leaded vial?", { zone: "Orgrimmar", faction: "Horde" })[0].text;
+  assert.match(horde, /sold by [^.]*in Orgrimmar/);
+  assert.doesNotMatch(horde.split(". used in")[0], /Stormwind|\(Alliance\)/);
+  // A material that only goes into another one says what that is for.
+  assert.match(ask("What is copper ore used for?")[0].text, /Copper Bar \(itself used in Blacksmithing, Engineering, and with Tin Bar into Bronze Bar\)/);
+  // A quest it's needed for comes with who gives it, and where.
+  assert.match(ask("tell me about those crocolisk skins")[0].text, /Crocolisk Hunting, given by Marek Ironheart in .*Loch Modan/);
+  assert.match(ask("Where do I get linen cloth?", { zone: "Elwynn Forest" })[0].text, /level 9-25, mostly humanoids \(people\)/);
+  // Gems with no stone named: the crafts that use them, and no Jewelcrafting.
+  const gems = ask("What are gems for?");
+  assert.deepEqual(titles(gems), ["Item: Gems"]);
+  assert.match(gems[0].text, /Blacksmithing.*Jewelcrafting isn't one of the professions/);
+});
+
 test("a profession question gets its ranks and the trainers' recipes for that skill", () => {
   assert.equal(skillNumber("what's the best way to go from one twenty five blacksmithing to one fifty?"), 125);
   assert.equal(skillNumber("higher than one fifty"), 150);
@@ -77,4 +97,12 @@ test("the block stays within its bound", () => {
   assert.match(block, /^ITEM FACTS/);
   assert.ok(new TextEncoder().encode(block).length <= ITEM_FACTS_MAX_BYTES);
   assert.equal(itemBlock([]), "");
+});
+
+test("a seller in a capital says the district the town data places them in", async () => {
+  // The gold set, 10/18: Maria Lumere's Leaded Vials were told "in the Trade District"; she's in the Mage Quarter.
+  const { itemFacts } = await import("../lib/forever-item-facts.js");
+  const text = itemFacts({ question: "Where can I find a leaded vial?", zone: "Stormwind City", faction: "Alliance" })
+    .map(f => f.text).join("\n");
+  assert.match(text, /Maria Lumere in Mage Quarter, Stormwind City \(56, 86\)/);
 });

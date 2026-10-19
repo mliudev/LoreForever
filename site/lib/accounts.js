@@ -17,11 +17,13 @@ import { USAGE_SETUP } from "./usage.js";
 import { ACTIVITY_SETUP, SEEN_BACKFILL, ASKED_BACKFILL, markSeen, utcDay } from "./activity.js";
 import { forgetFeedback } from "./answer-feedback.js";
 import { forgetAnswerLog } from "./answer-log.js";
+import { forgetKeeps } from "./willo-keeps.js";
 import { cancelPlan } from "./billing.js";
 import { setupWilloCustom } from "./willo-custom.js";
-import { FRIENDS_SETUP, FRIENDS_USER_DATA } from "./friends.js";
+import { FRIENDS_SETUP, FRIENDS_USER_DATA, FRIENDS_COLUMNS } from "./friends.js";
 import { setupReferrals, REFERRAL_USER_DATA } from "./referrals.js";
 import { EMAIL_SETUP, EMAIL_USER_DATA } from "./email.js";
+import { NOTEBOOK_SETUP, NOTEBOOK_USER_DATA } from "./willo-notebook.js";
 
 const SETUP = [
   ...HISTORY_BASE_SETUP,
@@ -33,6 +35,8 @@ const SETUP = [
   ...FRIENDS_SETUP,
   // The emails the site sent each account (only that one was sent), and unsubscribed addresses (lib/email.js).
   ...EMAIL_SETUP,
+  // Willo's notebook: each account's pages of notes and to-dos, a character's and the account's (lib/willo-notebook.js).
+  ...NOTEBOOK_SETUP,
   // last_seen: the last UTC day it was signed in (lib/activity.js); setup adds it to a table from before.
   `CREATE TABLE IF NOT EXISTS users (
     id TEXT PRIMARY KEY, email TEXT UNIQUE, google_sub TEXT UNIQUE, display_name TEXT, links TEXT,
@@ -121,6 +125,9 @@ const SETUP = [
     id TEXT PRIMARY KEY, token_hash TEXT NOT NULL UNIQUE, user_id TEXT NOT NULL, label TEXT, created TEXT NOT NULL,
     last_used TEXT, last_sync TEXT)`,
   "CREATE INDEX IF NOT EXISTS devices_user ON devices (user_id)",
+  // Sign in with Apple from the iPhone app (findOrCreateAppleUser): Apple's stable subject for the player's Apple ID.
+  "CREATE TABLE IF NOT EXISTS apple_logins (sub TEXT PRIMARY KEY, user_id TEXT NOT NULL, created TEXT NOT NULL)",
+  "CREATE INDEX IF NOT EXISTS apple_logins_user ON apple_logins (user_id)",
   // Willo's one-click sign-in to the site (lib/weblogin.js): a one-time link for a connected app's account, as the
   // SHA-256 of its secret, for two minutes.
   `CREATE TABLE IF NOT EXISTS web_logins (
@@ -250,6 +257,20 @@ export async function setup(env) {
           }
         }
       })(),
+      // Friends' columns added since their tables (lib/friends.js FRIENDS_COLUMNS: online or away, cards, LOR-674).
+      ...Object.entries(FRIENDS_COLUMNS).map(([table, added]) => existing.has(table) && (async () => {
+        const columns = async () => new Set((await env.DB.prepare(`PRAGMA table_info(${table})`).all()).results.map(r => r.name));
+        let have = await columns();
+        for (const [column, type] of added) {
+          if (have.has(column)) continue;
+          try { await env.DB.prepare(`ALTER TABLE ${table} ADD COLUMN ${column} ${type}`).run(); }
+          catch (error) {
+            // Another cold Worker may have added it. A real failure must leave setup retryable.
+            have = await columns();
+            if (!have.has(column)) throw error;
+          }
+        }
+      })()),
       env.DB.prepare('SELECT version FROM history_schema WHERE version = 3').first(),
     ])).at(-1);
     ready.set(env.DB, { history: version?.version === 3 });
@@ -333,7 +354,7 @@ export async function endSession(env, request) {
 
 // The Terms (public/terms.html) a sign-in agrees to: its "Updated" date. Change both together when the terms change, so
 // the next sign-in records the new version. Every sign-in page says "By signing in, you agree to the Terms and Privacy".
-export const TERMS_VERSION = "2026-10-14";
+export const TERMS_VERSION = "2026-10-18";
 
 // Records that this account agreed to TERMS_VERSION, once per version (the first sign-in that showed it). Never stops a
 // sign-in: a failure only leaves the record out.
@@ -367,7 +388,8 @@ export async function findOrCreateUser(env, { email, googleSub, name }) {
 // Everything we hold about a user, deleted (or, for a record we must keep, stripped of the account) in one batch by
 // "Delete my account". A feature that stores per-user rows adds its CREATE TABLE to SETUP above (so the table exists
 // here) and a line here. `users` must stay last. A published voice whose owner is gone drops off the site
-// (lib/voices.js). What stays is listed on public/privacy.html.
+// (lib/voices.js). What stays is listed on public/privacy.html. Something Willo keeps about the player (a note, a
+// reminder, a goal...) also gets a keeper in lib/willo-keeps.js, so What Willo keeps shows it and can erase it.
 const USER_DATA = [
   ["DELETE FROM sessions WHERE user_id = ?", u => u.id],
   ["DELETE FROM terms_acceptances WHERE user_id = ?", u => u.id],
@@ -428,6 +450,9 @@ const USER_DATA = [
   ...REFERRAL_USER_DATA,
   // That we sent them a thank-you email (lib/email.js). An unsubscribed address's hash isn't the account's, so it stays.
   ...EMAIL_USER_DATA,
+  // Their notebook, every page (lib/willo-notebook.js).
+  ...NOTEBOOK_USER_DATA,
+  ["DELETE FROM apple_logins WHERE user_id = ?", u => u.id],
   ["DELETE FROM users WHERE id = ?", u => u.id],
 ];
 
@@ -457,6 +482,8 @@ export async function deleteUser(env, user) {
   try { await forgetFeedback(env, user.id); } catch (e) { /* none yet */ }
   // The answers kept for the nightly check (lib/answer-log.js makes its tables here if they aren't there yet).
   await forgetAnswerLog(env, user.id);
+  // What the page "What Willo keeps" changed, for the account's apps (lib/willo-keeps.js).
+  await forgetKeeps(env, user.id);
   // lib/willo-custom.js and lib/referrals.js make their tables the first time they're used: make sure they're there
   // for the batch.
   await setupWilloCustom(env);
@@ -503,6 +530,72 @@ export async function verifyGoogle(env, credential) {
   } catch (e) {
     return null;
   }
+}
+
+// ---- Sign in with Apple (the iPhone app; App Store rule 4.8 asks for it beside Google) ----
+
+const APPLE_KEYS = "https://appleid.apple.com/auth/keys";
+let appleKeys = { at: 0, keys: [] };
+// The apps whose Apple sign-ins count: the App Store app and the "Willo Dev" test build (mobile/app.config.js).
+export const APPLE_AUDIENCES = ["com.loreforeverwow.willo", "com.loreforeverwow.willo.dev"];
+
+async function appleKey(kid) {
+  if (Date.now() - appleKeys.at > 3600e3 || !appleKeys.keys.some(k => k.kid === kid)) {
+    const res = await fetch(APPLE_KEYS, { cf: { cacheTtl: 3600 } });
+    if (!res.ok) throw new Error("Couldn't fetch Apple's keys");
+    appleKeys = { at: Date.now(), keys: (await res.json()).keys || [] };
+  }
+  return appleKeys.keys.find(k => k.kid === kid);
+}
+
+// Checks an Apple identity token from the app (signature, issuer, audience, expiry). Returns {sub, email,
+// emailVerified, privateEmail} or null. Apple sends booleans as booleans or as "true"/"false" strings.
+export async function verifyApple(env, idToken) {
+  const parts = String(idToken || "").split(".");
+  if (parts.length !== 3) return null;
+  try {
+    const header = JSON.parse(new TextDecoder().decode(b64url(parts[0])));
+    const claims = JSON.parse(new TextDecoder().decode(b64url(parts[1])));
+    if (header.alg !== "RS256") return null;
+    const jwk = await appleKey(header.kid);
+    if (!jwk) return null;
+    const key = await crypto.subtle.importKey("jwk", jwk, { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" }, false, ["verify"]);
+    const ok = await crypto.subtle.verify("RSASSA-PKCS1-v1_5", key, b64url(parts[2]),
+                                          new TextEncoder().encode(parts[0] + "." + parts[1]));
+    const now = Date.now() / 1000;
+    const audiences = String(env.APPLE_AUDIENCES || APPLE_AUDIENCES.join(",")).split(",").map(a => a.trim());
+    if (!ok || !audiences.includes(claims.aud) || claims.exp < now || claims.iat > now + 300) return null;
+    if (claims.iss !== "https://appleid.apple.com" || !claims.sub) return null;
+    const yes = v => v === true || v === "true";
+    return { sub: String(claims.sub), email: claims.email ? String(claims.email).toLowerCase() : null,
+             emailVerified: yes(claims.email_verified), privateEmail: yes(claims.is_private_email) };
+  } catch (e) {
+    return null;
+  }
+}
+
+// The account behind an Apple ID: the one it signed in to before; else an existing account with the same email,
+// but only an address Apple has verified and that isn't Apple's private relay (so a Google account and an Apple ID
+// with one real email are one player); else a new account. name: Apple sends it only on the first sign-in.
+export async function findOrCreateAppleUser(env, { sub, email, emailVerified, privateEmail, name }) {
+  await setup(env);
+  const known = await env.DB.prepare("SELECT u.* FROM apple_logins a JOIN users u ON u.id = a.user_id WHERE a.sub = ?")
+    .bind(sub).first();
+  if (known) return known;
+  let user = null;
+  if (email && emailVerified && !privateEmail) {
+    user = await env.DB.prepare("SELECT * FROM users WHERE lower(email) = ?").bind(email).first();
+  }
+  if (!user) {
+    const taken = email && await env.DB.prepare("SELECT 1 FROM users WHERE lower(email) = ?").bind(email).first();
+    const id = crypto.randomUUID();
+    await env.DB.prepare("INSERT INTO users (id, email, display_name, created) VALUES (?, ?, ?, ?)")
+      .bind(id, taken ? null : email, (name || "").slice(0, 60) || null, new Date().toISOString()).run();
+    user = await env.DB.prepare("SELECT * FROM users WHERE id = ?").bind(id).first();
+  }
+  await env.DB.prepare("INSERT OR IGNORE INTO apple_logins (sub, user_id, created) VALUES (?, ?, ?)")
+    .bind(sub, user.id, new Date().toISOString()).run();
+  return user;
 }
 
 // ---- Voices owned by contributors ----

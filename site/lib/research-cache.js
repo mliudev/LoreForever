@@ -100,15 +100,19 @@ const HERE_AND_NOW = new RegExp([
   String.raw`\bwhat (?:is|was) this place\b|\bwhat place is this\b|\bwhat (?:do|can) you see\b|\bwhat am i (?:looking at|seeing|doing here)\b`,
   String.raw`\btell me (?:more )?about (?:this place|here|where (?:i am|i'm|we are|we're))\b`,
 ].join("|"), "i");
-const ASKS_SEARCH = /\b(?:search|google|look (?:it |that |this )?up|check online|(?:on|the) (?:internet|interwebs?|web))\b/i;
+// "look online", "verify", "confirm" too (LOR-652: "can you do a search online just to make sure?" was answered "I
+// cannot search the web").
+const ASKS_SEARCH = /\b(?:search|google|look (?:it |that |this )?(?:up|online)|check online|verify|confirm|fact[- ]check|(?:on|the) (?:internet|interwebs?|web))\b/i;
 // The player doubting the last answer (LOR-593, Mike's stream 10/15: Willo was wrong twice about Shoni's Disarming
 // Tool): that's a cue to look it up, not to say it again.
 const DOUBTS = /\b(?:are you sure|you sure|(?:double|can you|could you|please) check|i don'?t think so|i doubt (?:it|that)|(?:that|this|it) (?:doesn'?t|does not|can'?t|cannot) (?:sound|be) right)\b|^\W*really\W*$/i;
 // Words that carry no topic of their own in a request to search or a doubt ("can you search on the interwebs?", "are
-// you sure?"): what to look up is then what was asked before (searchesBefore).
+// you sure?"): what to look up is then what was asked before (searchesBefore). "Can you do a search online just to make
+// sure?" has no topic either (LOR-652: it was looked up as itself, and answered "I cannot search the web").
 const NO_TOPIC = new Set(`hey willow willo ok okay oh hmm uh um so well can could would will you please just go ahead and
 search google look it that this up for me on the internet interwebs interweb web webs online check again are sure really
-double i don't dont think doubt sounds sound right is does not doesnt doesn't that's thats can't cant be a of`.split(/\s+/));
+double i don't dont think doubt sounds sound right is does not doesnt doesn't that's thats can't cant be a of do to make
+quick quickly verify confirm fact see find out if what said there`.split(/\s+/));
 const PROFESSION = String.raw`(?:blacksmithing|alchemy|engineering|enchanting|leatherworking|tailoring|cooking|fishing|first aid|mining|herbalism|skinning)`;
 const PRACTICAL = new RegExp([
   String.raw`\b(?:nearest|closest|buy|sells?|sold|vendors?|merchants?|obtain|rewards?|recipes?|unlocks?|requirements?|materials?|reagents?|drops?|craft(?:ing)?|level(?:l)?ing|farming|trainers?|stance|repairs?|innkeeper|bank|auction ?house)\b`,
@@ -137,12 +141,18 @@ const PRACTICAL = new RegExp([
 // dates, server trouble and the weather somewhere named. Card models and prices go stale, so these look online too,
 // typed or spoken, with a look-up of their own (companion-answers.js lookUp). No "ram" alone (a dwarf's mount), no
 // "news" (from the front), and nothing about Willo herself: her own help answers that (lib/willo-help.js).
+// The game's own interface and settings (LOR-652: "why do my action bar icons turn red?" got two made-up settings,
+// one after the other). Willo's own settings are her help's (lib/willo-help.js), which is asked first.
+const GAME_UI = /\b(?:action ?bars?|interface (?:options|settings|menu)|key ?bind(?:ing)?s?|cooldown manager|nameplates?|(?:game(?:'s)?|sound|audio|combat|camera|chat) (?:settings|options|menu))\b/;
 const REAL_WORLD = new RegExp([
   String.raw`\b(?:graphics ?cards?|video ?cards?|gpus?|cpus?|processors?|rtx|gtx|radeon|geforce|nvidia|ryzen|laptops?|desktops?|computers?|pc|monitors?|ssds?|hard drives?|specs|system requirements)\b`,
   String.raw`\b(?:\d+ ?gb|more|much) (?:of )?(?:ram|memory)\b`,
   String.raw`\b(?:fps|frame ?rates?|lag(?:s|gy|ging)?|stutter(?:s|ing)?|latency|ping|performance|crash(?:es|ing)?|(?:graphics|video|display) settings)\b`,
   String.raw`\b(?:addons?|add-ons?|weakauras?|macros?)\b`,
-  String.raw`\b(?:prices?|how much (?:is|are|does|do)|on sale|release date|com(?:e|es|ing) out)\b`,
+  GAME_UI.source,
+  // "When does it come out?", not "lava coming out of the roof" (the gold set, 10/18: sent to the web as the player's
+  // own world, and told it was a graphics glitch).
+  String.raw`\b(?:prices?|how much (?:is|are|does|do)|on sale|release date|com(?:e|es|ing) out(?! of\b))\b`,
   String.raw`\b(?:servers?|realms?) (?:are |is )?(?:down|up|status|maintenance)\b|\bmaintenance\b`,
   String.raw`\bweather\b.*\b(?:in|at|for)\s+(?!my\b|me\b|here\b|the game\b)[a-z]`,
 ].join("|"), "i");
@@ -150,11 +160,15 @@ const REAL_WORLD = new RegExp([
 // which isn't looked up without one), but not thanks.
 const OWN_WEATHER = /\b(?:weather|forecast)\b/i;
 const THANKS = /^\W*(?:thanks?|thank you|ty|ok(?:ay)?|cool|nice|great|got it|awesome|cheers|perfect)\b/i;
-export function realWorld(question, previous = "") {
+// answered: her last answer, which may be what named the game's interface ("the red tint on your action bar...",
+// LOR-652); only that, since her help answers say "your PC" and their follow-ups are hers ("it isn't there").
+export function realWorld(question, previous = "", answered = "") {
   const q = String(question || "").replace(/’/g, "'"), before = String(previous || "").replace(/’/g, "'");
   if (REAL_WORLD.test(q)) return true;
-  return Boolean(before) && q.split(/\s+/).filter(Boolean).length <= 6 && !THANKS.test(q) &&
-    (REAL_WORLD.test(before) || OWN_WEATHER.test(before));
+  // Up to 8 words: "Is there any way to change that?" (7) after the action bar is still about it (LOR-652).
+  return q.split(/\s+/).filter(Boolean).length <= 8 && !THANKS.test(q) &&
+    ((Boolean(before) && (REAL_WORLD.test(before) || OWN_WEATHER.test(before))) ||
+     new RegExp(GAME_UI.source, "i").test(String(answered || "").slice(0, 400)));
 }
 export function wantsSearch(question, dispute, facts) {
   const q = String(question || "").replace(/’/g, "'");
@@ -176,6 +190,22 @@ export const pressedToLook = question => {
   const q = String(question || "").replace(/’/g, "'");
   return ASKS_SEARCH.test(q) || DOUBTS.test(q);
 };
+// What a quick look online found, without what only later versions of the game have (the 10/18 cause grid: "What
+// stats should a beast mastery hunter focus on?" was right with no look-up and wrong with one, which brought today's
+// game's Haste and critical strike rating). A sentence naming one of these is dropped before Willo reads the finding;
+// none left is no finding. The player's own world (their PC, the game's settings) is never filtered.
+// Only words that mean the later game: "monks" are also the Scarlet Crusade's, an "inscription" is also carved on a
+// stone and the Cataclysm is also an event, so those count only as the class, the profession and the expansion; and
+// Mastery and Haste are this era's names too (Beast Mastery, Elemental Mastery, Panther Mastery, Minor Haste), so
+// only as stats.
+const NAMED = String.raw`(?<!\b(?:beast|elemental|weapon|spell|panther|raptor|tiger|of|minor|lesser|greater) )`;
+const LATER = new RegExp(String.raw`\b(?:${NAMED}haste|${NAMED}mastery|versatility|(?:critical strike|crit|hit|haste|expertise|defense) rating|item level|ilvl|jewelcraft\w*|inscription (?:profession|trainers?|skill)|gem sockets?|socketed|monk class|demon hunters?|evokers?|pandaren|worgen|dracthyr|vulpera|mythic\+|mythic plus|dragonflight|shadowlands|battle for azeroth|mists of pandaria|cataclysm (?:expansion|patch)|(?:in|since|after|before) cataclysm|warlords of draenor|wrath of the lich king|the war within|the burning crusade|season of discovery)\b`, "i");
+export function ofThisEra(text) {
+  const sentences = String(text || "").split(/(?<=[.!?])\s+/);
+  const kept = sentences.filter(s => !LATER.test(s));
+  return kept.join(" ").trim();
+}
+
 // Asked to look, or doubted, and the look found nothing: no guess (LOR-593). In the world's terms, as every answer.
 const NOTHING = "Nothing more could be found just now: don't guess and don't repeat your last answer as certain. Say plainly, in the world's terms, that you couldn't find a sure answer, share only what's certain, and never give a number, rate or name you weren't given.";
 export const FOUND_NOTHING = `NOTHING FOUND: the player asked you to look into this, or doubted your last answer. ${NOTHING} Never mention searches or the web.`;

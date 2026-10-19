@@ -128,10 +128,22 @@ Type: filesandordirs; Name: "{#FemaleAllianceDir}"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{#FemaleHordeDir}"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MorePlaces"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MorePeople"; Check: VoiceChosen('female')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MoreItems"; Check: VoiceChosen('female')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MoreQuests1"; Check: VoiceChosen('female')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Female_MoreQuests2"; Check: VoiceChosen('female')
 
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_Quests"; Check: VoiceChosen('quests')
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MorePlaces"; Check: VoiceChosen('quests')
 Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MorePeople"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MoreItems"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MoreQuests1"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Default_MoreQuests2"; Check: VoiceChosen('quests')
+
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Original"; Check: VoiceChosen('original')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Original_Alliance"; Check: VoiceChosen('original')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Original_Horde"; Check: VoiceChosen('original')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Original_MorePlaces"; Check: VoiceChosen('original')
+Type: filesandordirs; Name: "{app}\_classic_beta_\Interface\AddOns\LoreForever_Voice_Original_MorePeople"; Check: VoiceChosen('original')
 
 #ifdef DownloadUninstallIss
   #include DownloadUninstallIss
@@ -156,20 +168,24 @@ var
 
 procedure InitVoices();
 begin
-  SetArrayLength(VoiceIds, 2);
-  SetArrayLength(VoiceNames, 2);
-  SetArrayLength(VoiceAssets, 2);
-  SetArrayLength(VoiceFolders, 2);
-  SetArrayLength(VoiceWanted, 2);
+  SetArrayLength(VoiceIds, 3);
+  SetArrayLength(VoiceNames, 3);
+  SetArrayLength(VoiceAssets, 3);
+  SetArrayLength(VoiceFolders, 3);
+  SetArrayLength(VoiceWanted, 3);
   VoiceIds[0] := 'female';
   // The same one-line descriptions as the pack cards on loreforeverwow.com/downloads (site/lib/packs.js, LOR-437).
-  VoiceNames[0] := 'Female narrator: the same stories in a second voice, with the Alliance and Horde lands, plus more places and people';
+  VoiceNames[0] := 'Female narrator: the same stories in a second voice, with the Alliance and Horde lands, plus more places and people, and item and quest stories';
   VoiceAssets[0] := 'LoreForever_Voice_Female-complete.zip';
   VoiceFolders[0] := 'LoreForever_Voice_Female;LoreForever_Voice_Female_Alliance;LoreForever_Voice_Female_Horde';
   VoiceIds[1] := 'quests';
-  VoiceNames[1] := 'Quest dialogue and more (male narrator): quest givers read their words aloud, plus more places and people';
+  VoiceNames[1] := 'Quest dialogue and more (male narrator): quest givers read their words aloud, plus more places and people, and item and quest stories';
   VoiceAssets[1] := 'LoreForever_Voice_Default_Quests.zip';
   VoiceFolders[1] := 'LoreForever_Voice_Default_Quests';
+  VoiceIds[2] := 'original';
+  VoiceNames[2] := 'Original male narrator: the stories in the voice Lore Forever started with, with the Alliance and Horde lands, plus more places and people';
+  VoiceAssets[2] := 'LoreForever_Voice_Original-complete.zip';
+  VoiceFolders[2] := 'LoreForever_Voice_Original;LoreForever_Voice_Original_Alliance;LoreForever_Voice_Original_Horde';
 #ifndef DownloadIss
   // Keep unavailable download choices hidden until exact release hashes are compiled.
   SetArrayLength(VoiceIds, 0);
@@ -426,6 +442,7 @@ end;
 function DownloadLabel(Asset: String): String;
 begin
   if Pos('LoreForever_Voice_Female', Asset) > 0 then Result := 'female narration'
+  else if Pos('LoreForever_Voice_Original', Asset) > 0 then Result := 'original male narration'
   else if (Pos('Default_Quests', Asset) > 0) or (Pos('Default_Answers', Asset) > 0) then Result := 'extra quest narration'
   else Result := 'included narration';
 end;

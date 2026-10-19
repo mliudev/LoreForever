@@ -120,12 +120,17 @@ const ICONS = {
 };
 const icon = k => `<span class="pk-ico" aria-hidden="true"><svg viewBox="0 0 24 24">${ICONS[k]}</svg></span>`;
 
-// The four English tiles, in this order; every pack in another language goes to "Your language".
+// The English tiles, in this order; every pack in another language goes to "Your language".
 const TILES = {
   female: {
     icon: "voice", title: "Female narrator", line: "The same stories in a second voice.",
     meta: f => `<strong>${n(f.recordings)}</strong> recordings`,
     hint: () => "Keep both narrators and choose who goes first, in Options.",
+  },
+  original: {
+    icon: "voice", title: "Original male narrator", line: "The voice Lore Forever started with.",
+    meta: f => `<strong>${n(f.recordings)}</strong> recordings`,
+    hint: () => "Once installed his stories play first. Move him down in Options to hear the new narrator again.",
   },
   answers: {
     icon: "answer", title: "Recorded answers", line: "Ask about anything and hear the answer.",

@@ -239,7 +239,10 @@ test("500 pictures per account: the next is refused, sending one already there s
   assert.equal((await upload({ ...META, cid: "one-too-many" }, jpeg(), { token: await connect(other) })).status, 200);
 });
 
-test("uploads are rate limited per account, with Retry-After", async () => {
+test("uploads are rate limited per account, with Retry-After", async (t) => {
+  // The limit is per clock minute (lib/ratelimit.js perMinute): a slow run that crossed a minute counted twice as many
+  // (the Mac gate, 10/18), so the clock stands still here.
+  t.mock.timers.enable({ apis: ["Date"], now: Date.parse("2026-10-18T12:00:10Z") });
   const me = await signIn("aelric");
   const token = await connect(me);
   for (let i = 0; i < PER_MINUTE; i++) await upload({ cid: `x-${i}`, caption: "a" }, null, { token });

@@ -6,7 +6,7 @@ import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { ANSWER_MODEL, ANSWER_RESERVATION_MICRO, LOOKUP_RESERVATION_MICRO } from "../lib/companion-answers.js";
-import { keepFinding, wantsSearch, realWorld, searchesBefore } from "../lib/research-cache.js";
+import { keepFinding, wantsSearch, realWorld, searchesBefore, ofThisEra } from "../lib/research-cache.js";
 import { helpBlock, helpQuestion } from "../lib/willo-help.js";
 import { d1 } from "./helpers.mjs";
 
@@ -100,8 +100,9 @@ test("only practical or current questions and corrections no fact covers look on
   assert.equal(wantsSearch("Hey Willow, what's the proc chance for Shoney's disarm?", null, []), true);
   for (const q of ["Are you sure?", "Hey Willow, can you search on the interwebs?"])
     assert.equal(wantsSearch(q, null, [{ asked: true }]), true, q);        // even when a fact seems to cover it
-  assert.deepEqual(["Hey Willow, can you search on the interwebs?", "Are you sure?", "Search for Shoni's Disarming Tool"]
-    .map(searchesBefore), [true, true, false]);
+  // The 10/18 log (LOR-652): "...just to make sure?" was looked up as itself, and answered "I cannot search the web".
+  assert.deepEqual(["Hey Willow, can you search on the interwebs?", "Are you sure?", "Search for Shoni's Disarming Tool",
+    "Can you do a search online just to make sure?"].map(searchesBefore), [true, true, false, true]);
 });
 
 test("the player's own world looks online, typed too, and Willo's own help never does (LOR-545)", async () => {
@@ -134,14 +135,18 @@ test("Willo's help answers questions about her and stays out of lore and the pla
     ["What do you keep about me?", /What you keep:/],
     // LOR-623: turning her off got the add-on's folder to delete; her window's character gate got "no need to pick".
     ["How do I turn you off?", /never hides or removes you[^]*tray icon › Quit/],
-    ["I don't see the option to pick a character but it says I have to pick a character", /Choose a character with a saved game account first" means/]])
+    ["I don't see the option to pick a character but it says I have to pick a character", /Choose a character with a saved game account first" means/],
+    // The 10/18 answer log: a guess about what she sees, and "close other programs" for her own slow answers.
+    ["Can you see the quiz I'm doing right now?", /Seeing the game:/],
+    ["You respond very slowly. Is that something we can improve?", /How fast you answer:[^]*doesn't depend on their computer/]])
     assert.match(helpBlock(q), topic, q);
   // A short follow-up to a question about her gets the same help, by the question or by her answer before it.
   assert.match(helpBlock(helpQuestion("it isnt there", "How do I turn you off?")), /tray icon › Quit/);
   assert.match(helpBlock(helpQuestion("what now", "it isnt there", "Right-click your tray icon › Quit.")), /tray icon › Quit/);
   assert.equal(helpBlock(helpQuestion("and the inn?", "Where is Goldshire?", "South of Northshire.")), "");
   for (const q of ["Tell me about King Magni.", "What does the Legend of Stalvan give?", "Who is Gryan Stoutmantle?",
-    "What city is that across the bay?", "What's the best graphics card for WoW?", "What do you see?"])
+    "What city is that across the bay?", "What's the best graphics card for WoW?", "What do you see?",
+    "Do you know why I lag in Stormwind?"])
     assert.equal(helpBlock(q), "", q);
   assert.equal(helpBlock("What does Legend add?", { plans: false }), "", "no plans for sale, no plans topic");
   // The "Willo and the game" card is only in the Willo builds that have it.
@@ -211,4 +216,22 @@ test("by default a Google finding is never kept or served to another player (gro
   const parts = { question: "Where can I buy Simple Flour?", zone: "Goldshire", faction: "Alliance" };
   assert.equal(await keepFinding(off, parts, "From the innkeeper.", [{ title: "Simple Flour", url: "https://example.com" }]), false);
   assert.equal(await cachedFinding(off, parts), null);
+});
+
+test("a look-up finding loses what only later versions of the game have, and keeps this era's lore (cause grid, 10/18)", () => {
+  // The finding behind "Critical Strike and Haste" for a beast mastery hunter: the later game's stats go, Agility stays.
+  assert.equal(ofThisEra("Beast Mastery hunters want Agility first. Prioritize Haste and Mastery after that. " +
+    "Critical strike rating is also strong."), "Beast Mastery hunters want Agility first.");
+  // Words that are also this era's: the Scarlet Crusade's monks, an inscription on a stone, the Cataclysm as a story.
+  const lore = "Scarlet monks guard the Library wing. An inscription on the stone names Uther.";
+  assert.equal(ofThisEra(lore), lore);
+});
+
+test("something coming out of the world is the game's, a release date is the player's own", async () => {
+  // The gold set, 10/18: "Why is there lava coming out of the roof?" was looked up online and told it was a glitch.
+  const { realWorld } = await import("../lib/research-cache.js");
+  assert.equal(realWorld("Why is there lava coming out of the roof?"), false);
+  assert.equal(realWorld("What is that smoke coming out of the chimney?"), false);
+  assert.equal(realWorld("When does the next phase come out?"), true);
+  assert.equal(realWorld("Is the new raid coming out soon?"), true);
 });
