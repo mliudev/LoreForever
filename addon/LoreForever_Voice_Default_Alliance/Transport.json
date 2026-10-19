@@ -679,9 +679,9 @@
     "npc:fandral-staghelm": {
       "1": [
         {
-          "duration": 125.46612244897959,
-          "file": "Audio/Transport/full_npc_fandral-staghelm-a90dca3a2c6a17c87cbc/1-0000.mp3",
-          "sha256": "233ad2b30d53836d53dca0acc0dc699bca02a3bb86e3d8539bd9136b56dbca5f",
+          "duration": 116.5061224489796,
+          "file": "Audio/Transport/full_npc_fandral-staghelm-1c4f23b75601b3c5221a/1-0000.mp3",
+          "sha256": "88e5a350e205f57f70d96e1af27006daa5bc149d32395a3523a09028d3eead35",
           "start": 0
         }
       ],
@@ -692,15 +692,15 @@
           "1"
         ]
       },
-      "fullHash": "b58c77",
-      "generation": "79a1fcddc4bfb42ea4e2",
+      "fullHash": "96682f",
+      "generation": "cbbfec09c08fc87b8857",
       "hash": "283e85",
       "source": {
-        "duration": 125.466122,
+        "duration": 116.532245,
         "file": null,
-        "sha256": "a90dca3a2c6a17c87cbc3df107b7e2c26d9744d222db83f09a50fdaae896d01b"
+        "sha256": "1c4f23b75601b3c5221a1dc2c819c3eb2d44adbd57fdf6dcff2bdb3261e9d2ce"
       },
-      "text": "Fandral Staghelm. Archdruid Fandral Staghelm leads the druids of the Cenarion Circle from the Cenarion Enclave in Darnassus. Stepping into power after Malfurion Stormrage vanished into the Emerald Dream, he championed the planting of the new World Tree, Teldrassil. Proud, abrasive, and relentlessly ambitious, Fandral advocates for an aggressive Kaldorei resurgence that frequently pits him against High Priestess Tyrande Whisperwind. Following the Third War and the sacrifice of Nordrassil atop Mount Hyjal, the night elves lost their immortality and their sacred sanctuary. While Malfurion Stormrage cautioned patience and warned against vanity, Fandral championed the bold creation of a new World Tree off the coast of Kalimdor. When Malfurion subsequently fell comatose within the Emerald Dream, Fandral seized the initiative and led the druids in raising Teldrassil. He envisioned the colossal bough as a monument to Kaldorei endurance and a vessel to restore their lost supremacy, even though the Dragon Aspects pointedly withheld their blessings from the unapproved endeavor. A millennium before the First War, Fandral served as the Kaldorei field commander in Silithus during the War of the Shifting Sands. Renowned among the insectoid qiraji as 'Kar'sis'—the Hand of Earth—he held the front lines alongside his beloved only son, Valstann. Exploiting Fandral's devotion, the qiraji General Rajaxx engineered a feint against Southwind Village and captured Valstann, ruthlessly executing him directly in front of the horrified Archdruid. The loss shattered Fandral's spirit, precipitating a devastating retreat and cementing an abiding, bitter hatred for the swarm that remains etched into his haughty demeanor. Within the marble boughs of Darnassus, Fandral governs Kaldorei affairs with a haughty, unyielding hand. Unlike High Priestess Tyrande Whisperwind, who favors spiritual preservation and cautious diplomacy, Fandral views military expansion and decisive strength as paramount to the survival of their people."
+      "text": "Fandral Staghelm. Archdruid Fandral Staghelm leads the druids of the Cenarion Circle from the Cenarion Enclave in Darnassus. Stepping into power after Malfurion Stormrage vanished into the Emerald Dream, he championed the planting of the new World Tree, Teldrassil. Proud, abrasive, and relentlessly ambitious, Fandral advocates for an aggressive Kaldorei resurgence that frequently pits him against High Priestess Tyrande Whisperwind. Following the Third War and the sacrifice of Nordrassil atop Mount Hyjal, the night elves lost their immortality and their sacred sanctuary. When Malfurion Stormrage vanished, Fandral took up leadership of the druids and convinced the Circle of Ancients that it was time for their people to rebuild and regain their immortality. With the Circle's approval, he led the druids in raising Teldrassil off the coast of Kalimdor. He envisioned the colossal bough as a monument to Kaldorei endurance and a vessel to restore their lost supremacy, even though the Dragon Aspects pointedly withheld their blessings from the unapproved endeavor. A millennium before the First War, Fandral served as the Kaldorei field commander in Silithus during the War of the Shifting Sands. Renowned among the insectoid qiraji as 'Kar'sis'—the Hand of Earth—he held the front lines alongside his beloved only son, Valstann. Exploiting Fandral's devotion, the qiraji General Rajaxx engineered a feint against Southwind Village and captured Valstann, ruthlessly executing him directly in front of the horrified Archdruid. The loss shattered Fandral's spirit, precipitating a devastating retreat and cementing an abiding, bitter hatred for the swarm that remains etched into his haughty demeanor. Within the marble boughs of Darnassus, Fandral governs Kaldorei affairs with a haughty, unyielding hand. Unlike High Priestess Tyrande Whisperwind, who favors spiritual preservation and cautious diplomacy, Fandral views military expansion and decisive strength as paramount to the survival of their people."
     },
     "npc:farthing": {
       "1": [
@@ -2287,6 +2287,32 @@
         "sha256": "2ba2d456479bc0b1d258798a988d0cc3ef84247e682a43e0ee675a2c13f3e3e7"
       },
       "text": "Tiza Battleforge. Tiza Battleforge is a veteran dwarven paladin of the Knights of the Silver Hand stationed within Ironforge's Hall of Mysteries. Renowned for her steadfast devotion and insight, she guides young dwarven paladins along the path of virtue, charity, and self-sacrifice. Through study of the sacred texts and trials in the field, she tests whether initiates are truly ready to wield the Light's gift of resurrection. Within the serene chambers of the Hall of Mysteries in Ironforge, Tiza Battleforge stands as one of the most respected dwarven paladins of the Knights of the Silver Hand. Initiates across the Alliance—directed by tutors such as Brandur Ironhammer in Ironforge, Azar Stronghammer in Dun Morogh, and Lord Grayson Shadowbreaker in Stormwind—are sent to her to advance their spiritual education. Tiza believes that the Holy Light demands more than martial skill; it requires humble service, compassion, and unwavering fortitude against the encroaching darkness of the Scourge and other threats."
+    },
+    "npc:tyrande-whisperwind": {
+      "1": [
+        {
+          "duration": 128.9142857142857,
+          "file": "Audio/Transport/full_npc_tyrande-whisperwind-60e2f66ce17bda83f078/1-0000.mp3",
+          "sha256": "c6f3f647e9dc299e82dc092ca8d01f2f44deffab5756734ece9d3c5a4780d2dd",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "47b303",
+      "generation": "01eba54461931e32e298",
+      "hash": "d7d5ff",
+      "source": {
+        "duration": 128.914286,
+        "file": null,
+        "sha256": "60e2f66ce17bda83f078c92104cece98392f8498bb614cf89ba81557d7dac559"
+      },
+      "text": "Tyrande Whisperwind. Tyrande Whisperwind is the High Priestess of Elune and the supreme leader of the night elves. Alongside her beloved, the Archdruid Malfurion Stormrage, she guided her people through the cataclysmic War of the Ancients and ten millennia of the Long Vigil. Now governing from the sacred boughs of Teldrassil, she commands the Sisterhood of Elune and directs the Sentinel army in defense of Kalimdor's sacred wilderness. Born in the ancient kaldorei empire, Tyrande grew up alongside the twin brothers Malfurion and Illidan Stormrage. While the brothers followed druidism and sorcery, Tyrande entered the service of Elune as a priestess. When the demonic Burning Legion first invaded Azeroth during the War of the Ancients, she stood against it at Malfurion's side. Blessed with direct favor from the Moon Goddess, Tyrande transformed the Sisterhood into a radiant fighting force, wielding both divine restoration and searing lunar wrath to deliver her people from the brink of total annihilation. Following the Great Sundering and the sealing of the Well of Eternity, Malfurion and the druids entered the Emerald Dream for deep, prolonged hibernations. Tyrande took upon herself the lonely burden of defending their recovering realm. She organized the Sentinels—an elite cadre of warrior-women who patrolled Kalimdor's forests for ten thousand years. Throughout this Long Vigil, she stood watchful guard over ancient evils and lingering demonic remnants, maintaining unbroken faith in Elune while she waited centuries between brief reunions with Malfurion. When the Burning Legion returned during the Third War, Tyrande acted decisively to wake the sleeping druids and face the catastrophic threat. Overcoming fierce mistrust toward the newly arrived orcs and humans, she helped forge the desperate coalition at Mount Hyjal, sacrificing the night elves' immortality atop Nordrassil to shatter Archimonde. With Mount Hyjal scarred and Malfurion once again occupied with safeguarding the Emerald Dream, Tyrande governs the kaldorei from the grand Temple of the Moon in Darnassus, watching cautiously over both Horde incursions and her people's new place in the Alliance."
     },
     "npc:verner-osgood": {
       "1": [
@@ -10270,19 +10296,6 @@
       2102,
       2337
     ],
-    "233ad2b30d53836d53dca0acc0dc699bca02a3bb86e3d8539bd9136b56dbca5f": [
-      344,
-      1100,
-      1422,
-      1777,
-      2090,
-      2550,
-      3180,
-      3664,
-      4049,
-      4314,
-      4575
-    ],
     "242b792c7c0355e51a30970bf7eb6068c86914652cfe33d404d48c0cb752ddea": [
       598,
       1178,
@@ -11104,6 +11117,16 @@
       1151,
       1870
     ],
+    "88e5a350e205f57f70d96e1af27006daa5bc149d32395a3523a09028d3eead35": [
+      255,
+      1304,
+      1725,
+      2188,
+      2646,
+      3405,
+      3784,
+      4020
+    ],
     "88f5a18f5f63590dbcef0d9a7ed0e51838b7a80be690d1b1b2090f0710378702": [
       498,
       1142,
@@ -11652,6 +11675,15 @@
       2406,
       2852
     ],
+    "c6f3f647e9dc299e82dc092ca8d01f2f44deffab5756734ece9d3c5a4780d2dd": [
+      613,
+      1456,
+      2265,
+      2636,
+      3107,
+      3593,
+      4367
+    ],
     "c719916053039a7bb5329c5adf1823eed7329b3acdf8b1c9fffba242262f0cac": [
       453,
       1057,
@@ -11798,12 +11830,6 @@
       265,
       1043,
       2126
-    ],
-    "d7c7a2da18a1e59c691d9b54857c2fd15005d67915cdf5b2b29ef39829d30e8b": [
-      957,
-      1530,
-      1876,
-      2131
     ],
     "d864bd2427a055865a84b04799be36fb84ad7823e10d736aba84c3ad6df384a4": [
       636,

@@ -7,11 +7,12 @@ local L = ns.L
 local function setBindingNames()
   BINDING_HEADER_LOREFOREVER = "Lore Forever"
   BINDING_NAME_LOREFOREVER_TOGGLE = L["Toggle Lore Forever panel"]
-  BINDING_NAME_LOREFOREVER_NARRATE = L["Play narration (what you hover, or where you are)"]
+  BINDING_NAME_LOREFOREVER_NARRATE = L["Play narration (what you hover or target, or where you are)"]
   BINDING_NAME_LOREFOREVER_PLAYLIST = L["Play/pause narration playlist"]
   BINDING_NAME_LOREFOREVER_PLAYLIST_NEXT = L["Next narration"]
   BINDING_NAME_LOREFOREVER_PICTURE = L["Take a journey picture"]
   BINDING_NAME_LOREFOREVER_ASKWILLO = L["Ask %s (hold: live game info shows meanwhile)"]:format(ns.COMPANION_NAME)
+  BINDING_NAME_LOREFOREVER_ASKTARGET = L["Ask who you're targeting (hold: live game info shows meanwhile)"]
 end
 setBindingNames()
 
@@ -23,12 +24,32 @@ local PREFIX = GOLD .. "Lore Forever:|r "
 local function say(msg) DEFAULT_CHAT_FRAME:AddMessage(PREFIX .. msg) end
 local function S() return LoreForeverDB.settings end
 
+-- The lore itself (Data\Data.xml, loaded ahead of all the code) is missing when an install or update stopped partway.
+-- Nothing works without it, so the add-on says so plainly at login and whenever it's called on, and otherwise stays out
+-- of the way, instead of a Lua error at login and at every zone (a player's 0.21.0 report, 10/18).
+local function dataMissing()
+  local db = ns.DB
+  -- (Index.lua alone, every zone file missing: no entries, and "0 lore entries ready" would be all it said.)
+  return not (type(db) == "table" and type(db.entries) == "table" and type(db.zones) == "table"
+    and next(db.entries) ~= nil)
+end
+local function sayDataMissing()
+  say(L["some of Lore Forever's files are missing, so its lore couldn't load. This usually means an update didn't finish. Reinstall Lore Forever from CurseForge or loreforeverwow.com, then type /reload."])
+end
+
 -- The entry for the NPC under the mouse, read when the key is pressed (not from when its tooltip was built, which
--- can be long before, or never with tooltip lore turned off).
+-- can be long before, or never with tooltip lore turned off). With no one there: the item whose tooltip shows, when it
+-- has a story of its own (Hooks.ItemKey).
 local function hoverKey()
   local name = ns.Context.NPCName("mouseover")
   local key = name and ns.engine and ns.engine:KeyForName(name)
-  return key and ns.DB.entries[key] and key or nil
+  if key and ns.DB.entries[key] then return key end
+  local tip = _G.GameTooltip
+  if tip and tip.IsShown and tip:IsShown() and tip.GetItem then
+    local ok, item = pcall(tip.GetItem, tip)
+    if ok then return ns.Hooks.ItemKey(item) end
+  end
+  return nil
 end
 
 -- The key binding and the panel toggle. Pressing the key while hovering an NPC with lore opens that NPC's entry;
@@ -37,6 +58,7 @@ end
 -- "target them, click the book" works; the click itself still only opens the panel.
 function LoreForever_Toggle()
   local UI = ns.UI
+  if ns.dataMissing then return sayDataMissing() end
   if not UI.frame then return end
   local key = hoverKey()
   if key and UI.engine.lastKey ~= key then return UI.Open(key, nil, "hover") end
@@ -74,14 +96,20 @@ function LoreForever_Picture()
   ns.Journey.TakePicture()
 end
 
--- The narration key: the NPC you're hovering if it has lore, otherwise the place you're in. Pressing it again while
--- it plays stops it. With the panel open the story also appears in the chat; closed, a chat line says what's playing,
--- or that it isn't narrated (only recordings play: the rest stays as text).
+-- The narration key: the NPC (or item) you're hovering if it has lore, else the one you've targeted (LOR-180: a
+-- player wanted to select an NPC and press one key, not open the panel and click Play), otherwise the place you're in.
+-- Pressing it again while it plays stops it. With the panel open the story also appears in the chat; closed, a chat
+-- line says what's playing, or that it isn't narrated (only recordings play: the rest stays as text).
 function LoreForever_Narrate()
   local UI = ns.UI
   if not UI.frame then return end
   UI.ctx = ns.Context.Snapshot()
   local key = hoverKey()
+  if not key then
+    local name = ns.Context.NPCName("target")
+    key = name and ns.engine:KeyForName(name)
+    if not ns.DB.entries[key or ""] then key = nil end
+  end
   local target = (key and UI.EntryTarget(key)) or UI.ZoneTarget()
   if not target then return say(L["there's no narration for this place yet."]) end
   if UI.speaking and UI.playingId == target.id then return UI.ListenTo(target) end
@@ -115,7 +143,7 @@ end
 -- the offered keys (Ask Willo, the picture key) are never saved: on a character WoW hadn't loaded yet, a save still
 -- wrote a set with nothing but our two keys, no movement and no camera (Mike's Húrin, 10/13). A binding set without
 -- saving lasts the session, and the offers run at every login, so the key is simply offered again.
-local OUR_ACTIONS = { LOREFOREVER_ASKWILLO = true, LOREFOREVER_PICTURE = true }
+local OUR_ACTIONS = { LOREFOREVER_ASKWILLO = true, LOREFOREVER_ASKTARGET = true, LOREFOREVER_PICTURE = true }
 
 -- Whether the player's bindings are really in: a set without even Move Forward isn't one anybody plays with.
 function ns.BindingsLoaded()
@@ -565,6 +593,7 @@ function ns.MinimapButton()
 end
 
 events:SetScript("OnEvent", function(_, event, arg1, ...)
+  if ns.dataMissing then return end   -- the lore didn't load: nothing here can work (dataMissing)
   if event == "ADDON_LOADED" and arg1 == addonName then
     ns.Log.Init()
     ns.Errors.Init()   -- the Lua errors kept while the add-on loaded go into LoreForeverDB.errors (Errors.lua)
@@ -572,6 +601,10 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Errors.OnBlocked(event, arg1, ...)
   elseif event == "PLAYER_LOGIN" then
     ns.Errors.OnLogin()   -- first: a Lua error later in login still gets its chat line
+    if dataMissing() then
+      ns.dataMissing = true
+      return sayDataMissing()
+    end
     ns.Lang.Init()   -- scans packs; the language pack, if any, goes in before the engine indexes the text
     setBindingNames()
     ns.engine = ns.Engine.new(ns.DB)
@@ -631,6 +664,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     refreshSoon()
   elseif event == "PLAYER_REGEN_DISABLED" then
     ns.Hooks.OnCombat()
+    ns.Voice.OnCombatStart()   -- in a group dungeon or raid, what started by itself waits for the next calm
   elseif event == "PLAYER_REGEN_ENABLED" then
     ns.Voice.OnCombatEnded()
     ns.Voice.OnCombatOver()
@@ -659,6 +693,8 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
         ns.Voice.OnTalkOver()
       end
     end)
+  elseif event == "GOSSIP_SHOW" then
+    ns.Voice.OnOtherVoice()   -- another add-on reading what they say: what started by itself makes way
   elseif event == "GOSSIP_CLOSED" then
     C_Timer.After(0.2, ns.Voice.OnTalkOver)
   elseif event == "ITEM_TEXT_READY" then
@@ -677,7 +713,7 @@ end)
 
 for _, e in ipairs({ "ADDON_LOADED", "PLAYER_LOGIN", "PLAYER_ENTERING_WORLD", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS",
   "ZONE_CHANGED_NEW_AREA", "QUEST_LOG_UPDATE", "BAG_UPDATE_DELAYED", "SKILL_LINES_CHANGED", "QUEST_DETAIL",
-  "QUEST_PROGRESS", "QUEST_COMPLETE", "QUEST_FINISHED", "GOSSIP_CLOSED", "ITEM_TEXT_READY", "ITEM_TEXT_CLOSED",
+  "QUEST_PROGRESS", "QUEST_COMPLETE", "QUEST_FINISHED", "GOSSIP_SHOW", "GOSSIP_CLOSED", "ITEM_TEXT_READY", "ITEM_TEXT_CLOSED",
   "PLAYER_TARGET_CHANGED", "PLAYER_CONTROL_LOST", "PLAYER_CONTROL_GAINED",
   "PLAYER_REGEN_DISABLED", "PLAYER_REGEN_ENABLED", "PLAYER_LOGOUT",
   "CINEMATIC_START", "CINEMATIC_STOP", "PLAY_MOVIE", "STOP_MOVIE", "TALKINGHEAD_REQUESTED", "TALKINGHEAD_CLOSE",
@@ -751,6 +787,7 @@ SLASH_LOREFOREVER3 = "/loreforever"   -- ours alone, for players whose /lore goe
 SlashCmdList.LOREFOREVER = function(msg)
   msg = (msg or ""):match("^%s*(.-)%s*$")
   local cmd = msg:lower()
+  if ns.dataMissing and not cmd:match("^errors") then return sayDataMissing() end
   if cmd == "" then
     LoreForever_Toggle()
   elseif cmd == "help" then

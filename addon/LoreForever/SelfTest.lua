@@ -24,7 +24,7 @@ ns.SelfTest = SelfTest
 local WAIT = 0.25         -- seconds between steps, so the client shows and lays out what the step before opened
 local JOURNEY_V = 2       -- LoreForeverDB.journey.v (Journey.lua)
 -- Our own packs, by name: they ship with every release, stamped with the core's version (scripts/release.sh).
-local OWN = { "LoreForever_Voice_Default", "LoreForever_Voice_Female", "LoreForever_Lang_" }
+local OWN = { "LoreForever_Voice_Default", "LoreForever_Voice_Female", "LoreForever_Voice_Original", "LoreForever_Lang_" }
 
 local run                 -- the run in progress: { results, ctx, state, errors, started, geometry, packs }
 
@@ -816,6 +816,23 @@ check("narration", {
       expect("narration: the player shows it", shown and title == c.target.label or false,
         string.format("%s player%s: %s", p == UI.mini and "floating" or "docked", shown and "" or " (hidden)",
           tostring(title)))
+    end
+    -- Subtitles (LOR-344): with the panel closed, the band at the bottom of the screen shows the words of what plays,
+    -- in pages that fit (the real client's line count, which the offline renderer only estimates).
+    local Sub = ns.Subtitles
+    if not Sub.On() then
+      skip("narration: subtitles show its words", "Subtitles are off in Options")
+    elseif UI.frame:IsShown() then
+      skip("narration: subtitles show its words", "the panel is open (its chat shows the words)")
+    else
+      Sub.Tick(0)   -- (it follows what plays every frame; look now)
+      local f, st = Sub.frame, Sub.story
+      local words = f and f.words and f.words:GetText() or ""
+      local ok = f and f:IsShown() and st and st.target == UI.activeTarget and words:find("%S") and true or false
+      local lines = f and f.words and f.words.GetNumLines and f.words:GetNumLines()
+      expect("narration: subtitles show its words", ok, ok and string.format("%d pages, %s lines now, %s timing, "
+        .. "%.0f x %.0f at %s", #st.pages, tostring(lines), st.transport and "exact" or (st.estimated and "estimated"
+        or "known-length"), f:GetWidth() or 0, f:GetHeight() or 0, tostring(Sub.Scale())) or "the band isn't showing")
     end
     -- What plays can be reported (LOR-232): the report box opens for it (from the player's right-click menu, or its
     -- cross when Options shows it), the cross follows that option, and the link carries the clip, its hash, the pack

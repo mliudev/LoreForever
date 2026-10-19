@@ -295,12 +295,12 @@ jobs:
       # {tmp} of its own and stages them in its own folder (.lf-download-stage), its log takes the next free name, and
       # /QA writes no registry, shortcut or uninstaller. A check that fails side by side runs again alone, into a fresh
       # folder, as all three ran before; only a failure there fails the release.
-      - name: Three independent first-install checks against this run's downloads
+      - name: Four independent first-install checks against this run's downloads
         shell: pwsh
         run: |
           $downloads = Get-Content dist\inputs\extra\transport-downloads.json -Raw | ConvertFrom-Json
           $server = Start-Process python -WindowStyle Hidden -PassThru -ArgumentList '-m','http.server','47864','--bind','127.0.0.1','--directory',"$PWD\dist\inputs\extra"
-          $smoke = [ordered]@{ base = $null; female = $null; quests = $null }
+          $smoke = [ordered]@{ base = $null; female = $null; quests = $null; original = $null }
           $check = {   # one first install and its check: Setup's and verify-install.py's exit codes, and its report
             param($selection, $wow, $root)
             $ErrorActionPreference = 'Stop'   # in its own runspace too: whatever goes wrong is this check's result
@@ -320,14 +320,14 @@ jobs:
           }
           try {
             Start-Sleep 1
-            $run = foreach ($selection in 'base','female','quests') {
+            $run = foreach ($selection in 'base','female','quests','original') {
               if ($selection -ne 'base' -and @($downloads.selections.$selection).Count -eq 0) {
                 "Unavailable optional selection: $selection; working base/text fallback remains" >> $env:GITHUB_STEP_SUMMARY
                 $smoke[$selection] = 'unavailable'
               } else { $selection }
             }
             $root = $PWD.Path; $code = $check.ToString()
-            $results = $run | ForEach-Object -ThrottleLimit 3 -Parallel {
+            $results = $run | ForEach-Object -ThrottleLimit 4 -Parallel {
               & ([scriptblock]::Create($using:code)) $_ "$env:RUNNER_TEMP\wow-$_" $using:root
             }
             foreach ($selection in $run) {
@@ -340,7 +340,7 @@ jobs:
               $alone.Report
               if ($alone.Setup -ne 0) { throw "Installer failed for $selection" }
               if ($alone.Verify -ne 0) { throw "Installed bytes/downloads differ for $selection" }
-              "::warning::The $selection first-install check failed side by side (Setup exit $($result.Setup ?? 'none'), verify exit $($result.Verify ?? 'none')) and passed alone. If that happens again, the installer doesn't take three installs at once: run these checks one after another."
+              "::warning::The $selection first-install check failed side by side (Setup exit $($result.Setup ?? 'none'), verify exit $($result.Verify ?? 'none')) and passed alone. If that happens again, the installer doesn't take four installs at once: run these checks one after another."
               $smoke[$selection] = 'passed'
             }
           } finally { Stop-Process -Id $server.Id -ErrorAction SilentlyContinue }

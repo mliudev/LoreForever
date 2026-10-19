@@ -4706,6 +4706,32 @@
       },
       "text": "Klaven's Tower. Klaven's Tower, also called the Defias Tower, is a fortified watchtower standing near the river in southeastern Westfall. Commanded by the rogue Klaven Mortwake, it serves as a critical waypoint for smuggling stolen goods across kingdom borders. Perched on the borderlands north of the Dagger Hills, Klaven's Tower is a vital hub for Defias Brotherhood operations in southern Westfall. Together with Jerod's Landing across the river in Elwynn Forest, the site acts as a receiving post and staging ground for contraband plundered from the Redridge Mountains. Its commanding vantage over the waterways allows the Brotherhood to slip supplies past Kingdom patrols, shielding their logistical network from the crown's eyes."
     },
+    "subzone:mystral-lake": {
+      "1": [
+        {
+          "duration": 51.2,
+          "file": "Audio/Transport/full_subzone_mystral-lake-5e7b2715ea916bc2c7b1/1-0000.mp3",
+          "sha256": "4bffd0f85cd656e0920396a65a795021ce8b8fb0ccdfc9d8b4a89ab8c130ff98",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "a74b6d",
+      "generation": "8725334bb610bf144a50",
+      "hash": "00b79a",
+      "source": {
+        "duration": 51.2,
+        "file": null,
+        "sha256": "5e7b2715ea916bc2c7b1bd3ae1d6ee6d1296ae289c4ab15d341d6ef2829147ce"
+      },
+      "text": "Mystral Lake. Mystral Lake is the largest body of water in Ashenvale, resting in the south-central forest just below Silverwind Refuge. Its deep waters draw travelers from both the Alliance and the Horde. Spanning a vast expanse south of Silverwind Refuge and east of Talondeep Vale, Mystral Lake is the largest lake in Ashenvale. The night elves keep watch over it from their outpost at Silverwind Refuge on its northern shore, and travelers from both the Horde and the Alliance frequently find their journeys pulling them to its banks. Mystral Lake draws attention across faction lines. Horde shaman traveling the path of elemental communion seek out its deep waters during their trials to understand the element of water. The raw primal resonance of the lake makes it an essential pilgrimage site for those learning to bind and respect the tidal spirits."
+    },
     "subzone:nightsong-woods": {
       "1": [
         {
@@ -7097,6 +7123,11 @@
       1729,
       2242
     ],
+    "4bffd0f85cd656e0920396a65a795021ce8b8fb0ccdfc9d8b4a89ab8c130ff98": [
+      761,
+      1212,
+      1658
+    ],
     "4d15556c8e8424376d33e6fcdd15184f5f5ca2c2915c8cfce3dafd0e16e103b4": [
       638,
       1728,
@@ -8544,11 +8575,6 @@
       1688,
       2081
     ],
-    "f6631d73aac9c4a09a026c0854c72aded29a96604fdfacdab62b888ebd44c9d1": [
-      330,
-      1159,
-      1606
-    ],
     "f6c8ecfd7e482097469518c1cadd8df1dad42d2463f7cfdb7d55f60717bc53bf": [
       1002,
       1353,
@@ -8669,211 +8695,5 @@
     ]
   },
   "pack": "LoreForever_Voice_Female_Alliance",
-  "retired": [
-    {
-      "file": "Audio/Transport/full_subzone_dagger-hills-3274259202bc418bb72f/1-0000.mp3",
-      "sha256": "7424cf56db5b6576fee98cca105542020b5218810adddd2689e53d03b3465639"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_highperch-cdc6497c01c8bc27221d/1-0000.mp3",
-      "sha256": "70328413d34bfa840e4243f3ca2036b8e597a8babe07e02ec6090fadcf42cfe0"
-    },
-    {
-      "file": "Audio/Transport/full_npc_sven-yorgen-07542dde73c2d2d46c23/1-0000.mp3",
-      "sha256": "b0249a7f63199b6404af2c458ced55c4e92895c82bbf7dd76498abe244149d29"
-    },
-    {
-      "file": "Audio/Transport/full_npc_alanndarian-nightsong-2f75d588ba77fcab4d36/1-0000.mp3",
-      "sha256": "56471755a6e2c9880c97cb3937ab4f64865d42e0d894f042b27450a2283d1063"
-    },
-    {
-      "file": "Audio/Transport/full_npc_calor-89093fe5be3495526a35/1-0000.mp3",
-      "sha256": "b1d230cacc8e696a7d8abf6c66443997bb2112f4c7e60cf2bfe4858a1f17fba9"
-    },
-    {
-      "file": "Audio/Transport/full_npc_collin-mauren-289d6b4f290c752b3439/1-0000.mp3",
-      "sha256": "800c51fb200355e9e28800255264f047f3bf8675c1d092c5dfa2c0880da7fbe9"
-    },
-    {
-      "file": "Audio/Transport/full_npc_duthorian-rall-de8c575b124dd7428647/1-0000.mp3",
-      "sha256": "c53b49576eb112701358f0e5350f50a7f8370b7f3e900f6039e3ed8ba74984f3"
-    },
-    {
-      "file": "Audio/Transport/full_npc_fandral-staghelm-a8656aaa3550ffd03c6a/1-0000.mp3",
-      "sha256": "0b06459acee3221941c3754f0b4969089339ee399fdf5bc12bc544b7fba49b7d"
-    },
-    {
-      "file": "Audio/Transport/full_npc_farthing-236e2087c1ffe3102433/1-0000.mp3",
-      "sha256": "3211535fb6cfa1a2b32e8ec0ef6908cff6233e37fba39f4040b0c21de210438b"
-    },
-    {
-      "file": "Audio/Transport/full_npc_foreman-oslow-205936cd66a93d6fa00b/1-0000.mp3",
-      "sha256": "9b8bc01b8d8cd7667aa537454a2829ef2c392cde4e396683c423bb53b7740b57"
-    },
-    {
-      "file": "Audio/Transport/full_npc_grelin-whitebeard-e2aa1ad1bb7cea921f26/1-0000.mp3",
-      "sha256": "b99e7f388b35191de6a958432c3d8065e0d99190c7df55f695701c291dd2f99c"
-    },
-    {
-      "file": "Audio/Transport/full_npc_gryan-stoutmantle-2e468f73020709ad71fc/1-0000.mp3",
-      "sha256": "22854f5ab08172d45ad7912832e39af19ff6dedf8642055c99380e92d7fe344d"
-    },
-    {
-      "file": "Audio/Transport/full_npc_high-priestess-laurena-bf2b3bc85145f2629220/1-0000.mp3",
-      "sha256": "e6f5f0ad8eb952b0a4c8e3dda355e57a861045219a3a7fb71a60d87e1defb859"
-    },
-    {
-      "file": "Audio/Transport/full_npc_kaela-shadowspear-398f7d2c25bbc629f717/1-0000.mp3",
-      "sha256": "507be33d1c26262f08cf1d3faab27e94605b345e10e1f494190ec0aeca749c92"
-    },
-    {
-      "file": "Audio/Transport/full_npc_madame-eva-8db6776eb54c5f62050b/1-0000.mp3",
-      "sha256": "ad4637e5738f14d2951495a2a2248053e1cbe6c3c9387387e2be9f666c8c3e85"
-    },
-    {
-      "file": "Audio/Transport/full_npc_magistrate-solomon-30bc9b3e007de00a6711/1-0000.mp3",
-      "sha256": "7685c4e2ff31f17817fb2ff6c0edaa44e939131b2f9c16d91b638c67e410e15a"
-    },
-    {
-      "file": "Audio/Transport/full_npc_magni-bronzebeard-a6b0bc0dccbc1f7ddfd0/1-0000.mp3",
-      "sha256": "92e7ec8fcac4226a2f0df9dac9722e236eccb6fa39f90aca95359883710c4802"
-    },
-    {
-      "file": "Audio/Transport/full_npc_mathrengyl-bearwalker-8efbb3d5287a84b314cb/1-0000.mp3",
-      "sha256": "b3edc671a72bff779fe48dbfd0470a50968bdc2ac0fd306783a4bddbcf78d9bb"
-    },
-    {
-      "file": "Audio/Transport/full_npc_ozzie-togglevolt-38fc0effa1136a6449de/1-0000.mp3",
-      "sha256": "6b81c26705ca619197cea2779edfe4543769869b246260bb36ed9093f89cf720"
-    },
-    {
-      "file": "Audio/Transport/full_npc_raene-wolfrunner-8b2ed0437d911ecaffd7/1-0000.mp3",
-      "sha256": "5489088f669ad302ccc6036cc83caf76687566a89971635143cfac712a4b1f31"
-    },
-    {
-      "file": "Audio/Transport/full_npc_tirion-fordring-0bf08f64bc2484e7f8b0/1-0000.mp3",
-      "sha256": "9407cccdd2536dfc679b84004077d9577a17e50d7a3adb3ba9b0e9dff13193b5"
-    },
-    {
-      "file": "Audio/Transport/full_npc_tyrande-whisperwind-204b5308e8ce8f7e97df/1-0000.mp3",
-      "sha256": "1e24598402423c8b422c236f58edac911d37437f106799d5f56d42588d07a4cf"
-    },
-    {
-      "file": "Audio/Transport/full_npc_william-pestle-b1a33ecb6486548263e3/1-0000.mp3",
-      "sha256": "1c4d08646449fa515890dead9e68b255ed82168ef1353befd6930f862ca66a46"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_anvilmar-1b44bd46fb93cbee2ec4/1-0000.mp3",
-      "sha256": "01ad7d2cae97e01db34329df41258739cd47e12b40e16dde0e65fe29ee37f472"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_astranaar-a16c528b1b604d85a1c5/1-0000.mp3",
-      "sha256": "9049d27524ef52de0a7f9500b10008baac46e85457de7938d989b63bd7040cfc"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_auberdine-b6f5637d5be20ea84320/1-0000.mp3",
-      "sha256": "b572b2ef1d957e079e52552c7d67c69b881bfe1c8a9b574500cf6e63763aec0f"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_azurelode-mine-a252ffd625c3843176c2/1-0000.mp3",
-      "sha256": "14c0d9cc811fa251d19796ffffafc98b4f5f7d9d722894e2a2889e79de4fb44a"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_beggar-s-haunt-88723c4a2d266d95fe47/1-0000.mp3",
-      "sha256": "108ca02fcf210a184d2b9b2ba30f7b60e69f7a25baa4864868c7078a626c9707"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_canals-stormwind-city-21e70c402d3c080162b9/1-0000.mp3",
-      "sha256": "a3a741deb656ce88595e704669c81c7b7d6a1f90ffe315e85c0935965e967a95"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_cathedral-of-light-771ac5c79b4a3366ad45/1-0000.mp3",
-      "sha256": "4be3d428637bae18d4848f0453923dcff1c4e066b4f0ab99f33f19b74de60b2b"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_commons-da2d9d77b3ff46c92a2f/1-0000.mp3",
-      "sha256": "90c5e150d3d2ce03e921fed4e2ef45611961fcd1c6bb072070eb5216a5606821"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_demont-s-place-f2b9c715d1255c510bb8/1-0000.mp3",
-      "sha256": "2f53c0b9c854560a7381c8997d16a25d3cf10205b882ede690daa8384c95cd43"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_dun-algaz-28755d81e3c50c77defd/1-0000.mp3",
-      "sha256": "958d22a679922dd451162d68fcbc3f98af9cba7d804843c5da166b3eea6191a3"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_dwarven-district-96419b108cdbff45457c/1-0000.mp3",
-      "sha256": "86cd5034c8b93dc132484767bd9db447d3d8c9974a86d0e439993a7d9fc0fb34"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_fargodeep-mine-83b49a428c6096b66e31/1-0000.mp3",
-      "sha256": "f616667bb7f9fbc49a6de8344c50804a23e3c4beb6133eaa41cd98847651f9e9"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_grand-vestibule-28804bb4460add2b68fe/1-0000.mp3",
-      "sha256": "149093d31953bbf99d72b66c004c18b93263556a51383c88648ab1fcfb2e81ae"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_hall-of-gears-030a0013914523bd4be9/1-0000.mp3",
-      "sha256": "53e88f60b591c2a16c9ea99124eb48dcb65e3f18ea93fbd9d9a41a9d09fb169a"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_jansen-stead-6cb96cdba3f0822a4f2d/1-0000.mp3",
-      "sha256": "f4b47e3b0403a34d7265c5eb79c5f7e97222dddc21f234c0e9a6c794b17d0b9e"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_lake-al-ameth-dd301012e0076d3d4d09/1-0000.mp3",
-      "sha256": "8693787b217e6d1edc828ef7101d8942ba4d6cb4ccd578d7681a56741da4c464"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_lake-everstill-6bd1bea31f769edc6234/1-0000.mp3",
-      "sha256": "19d16bf2404a137ae747a7dbb89172d107cf2466d9143258bd738dd86a1895cf"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_lordamere-lake-09f36570e4ab08963949/1-0000.mp3",
-      "sha256": "247177e0a667f3d1b4ec4633fe59ac88b932923e5e8b87c1d7a6083fa1bac173"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_menethil-harbor-1498201510a62dbb9b45/1-0000.mp3",
-      "sha256": "75add2310ce953f3aaa9b60567aa83970fd2e9f9d17ce2c8930ea3e09bb8758b"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_northshire-valley-b62fd91b19e11ce7975f/1-0000.mp3",
-      "sha256": "24fd908b584b99ac287b0dd0ece8cf858272fde536d858545e2e5a87153f3e70"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_raven-hill-200d61b3a5f931925b78/1-0000.mp3",
-      "sha256": "588946c25a74f0823c73b05bbd64172a8e76a1212f32f4b2c3a4ebd1cb259549"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_ravenholdt-manor-50453d0e518fc5442458/1-0000.mp3",
-      "sha256": "1c2052dd956a8d3fb3d3528d828ab6a2a2b57bac2ec06f2cc3b1b5bed3124bdc"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_ridgepoint-tower-8637cdd3b2f63cb03c28/1-0000.mp3",
-      "sha256": "3ca3e97fad4ae9bae8a58a8818e79f52bf0d10c7489d2cfc7b6698c9f040feea"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_royal-library-b2939700e359fc788cdf/1-0000.mp3",
-      "sha256": "30763b2166b561f86d02ced80ab5ffd6500b2521713401dea0bfa41dace26e3a"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_southshore-4bddb604417c36d7dff6/1-0000.mp3",
-      "sha256": "906d37e4c157b5e5992fa11bda4e797d0d27734947183040d4746a6052d3d0c3"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_stonewatch-be095c793ad47409e9d1/1-0000.mp3",
-      "sha256": "9935d3dde70ac540181cbbd5a91f6bdfd0eb4113564f62b8979ec4c6a65abda7"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_valley-of-kings-3ae1a9907b54fce6a7f3/1-0000.mp3",
-      "sha256": "8e052491b51deab3dba6497058e60d0d7da56c422811bc8bb9d64e2437bc7dc0"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_war-room-7273721a008de599511b/1-0000.mp3",
-      "sha256": "59dcbd000dd3de753140b739eabebe9b29d6e8184c2676c10f59eaf7b12d67eb"
-    }
-  ],
   "version": 1
 }

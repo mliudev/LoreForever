@@ -521,9 +521,11 @@ function Voice.InstalledPacks()
       end
     elseif data and (rec.kind == "lang" or rec.kind == "lang-overlay") then
       it.entries, it.strings = 0, 0
-      for _ in pairs(data.entries or {}) do it.entries = it.entries + 1 end
-      for _ in pairs(data.ui or {}) do it.strings = it.strings + 1 end
-      for _ in pairs(data.strings or {}) do it.strings = it.strings + 1 end
+      -- (a malformed pack's fields may be anything: Options lists it, counting what's a table)
+      local function each(t) return pairs(type(t) == "table" and t or {}) end
+      for _ in each(data.entries) do it.entries = it.entries + 1 end
+      for _ in each(data.ui) do it.strings = it.strings + 1 end
+      for _ in each(data.strings) do it.strings = it.strings + 1 end
     end
     out[#out + 1] = it
   end
@@ -902,6 +904,69 @@ local function noticeUnused()
   say(words)
 end
 
+-- Say once per add-on version when a voice pack in use is from an older version and OUTDATED_AT or more of its
+-- stories no longer match their words, so they show as text (the PM's pick, LOR-673). CurseForge updates only the main
+-- download, so packs from the site, or the CurseForge app's separate projects, fall behind without a word: the top
+-- complaint (6 players heard another voice, or nothing). A pack of this version whose few recordings wait for the
+-- nightly re-record says nothing. Only the packs already loaded for the voices in use are counted, 10 s after
+-- login (Voice.Init), so login isn't slower.
+local OUTDATED_AT = 10
+local function versionParts(v)
+  local out = {}
+  for d in tostring(v or ""):gmatch("%d+") do out[#out + 1] = tonumber(d) end
+  return out
+end
+local function olderThan(a, b)   -- "0.21.0" before "0.22.0"; a version that can't be read is never older
+  local x, y = versionParts(a), versionParts(b)
+  if #x == 0 or #y == 0 then return false end
+  for i = 1, math.max(#x, #y) do
+    if (x[i] or 0) ~= (y[i] or 0) then return (x[i] or 0) < (y[i] or 0) end
+  end
+  return false
+end
+local function versionOf(name)
+  local get = (_G.C_AddOns and C_AddOns.GetAddOnMetadata) or _G.GetAddOnMetadata
+  local ok, v = pcall(get, name, "Version")
+  return ok and type(v) == "string" and v or nil
+end
+-- A pack's recorded stories and quest pages whose words have changed since (as Options > Installed packs counts them).
+local function outdatedIn(name, data)
+  local n = 0
+  for id in pairs(data.clips or {}) do
+    if not id:find("#faq", 1, true) then
+      local quest = isQuestClip(id)
+      local expected
+      if quest then
+        if type(data.questVoice) ~= "table" then expected = ns.DB.questClip and ns.DB.questClip[id] end
+      else
+        expected = ns.DB.clipHash and ns.DB.clipHash[id]
+      end
+      if expected and expected ~= "" and not Voice.ClipCurrent(id, name, expected)
+          and not (not quest and Voice.Transport and Voice.Transport(id, name, true)) then
+        n = n + 1
+      end
+    end
+  end
+  return n
+end
+function Voice.NoticeOutdated()
+  local core = versionOf("LoreForever")
+  if not core or S().outdatedNoted == core then return end
+  local titles, count = {}, 0
+  for _, rec in ipairs(ns.Packs.registry) do
+    local data = ns.Packs.data[rec.name]
+    if rec.kind == "voice" and data and not rec.transportFor and sameLanguage(rec.locale, readingLocale())
+        and olderThan(versionOf(rec.name), core) then
+      local n = outdatedIn(rec.name, data)
+      if n >= OUTDATED_AT then titles[#titles + 1], count = rec.title or rec.name, count + n end
+    end
+  end
+  if #titles == 0 then return end
+  S().outdatedNoted = core
+  say(string.format(L["%d recorded stories show as text because %s is older than this version of Lore Forever. Update it in the CurseForge app (or at %s if you downloaded it there), then type /reload."],
+    count, table.concat(titles, ", "), Voice.DOWNLOADS))
+end
+
 -- At login: find the installed packs and load the chosen voice.
 function Voice.Init()
   if not next(ns.Packs.registry) then ns.Packs.Scan() end
@@ -914,8 +979,10 @@ function Voice.Init()
     noticeLanguage()
   end
   noticeUnused()
+  if C_Timer and C_Timer.After then C_Timer.After(10, function() pcall(Voice.NoticeOutdated) end) end
   Voice.CheckSpoken()
   Voice.CheckQuestVoices()
+  Voice.otherVoice = Voice.FindOtherVoice()
 end
 
 -- Combat ended: load the packs that had to wait, then relabel the panel.
@@ -1681,18 +1748,22 @@ end
 --   - Whatever you play yourself (a play button, Listen, the Narrate key, your playlist's Play or Next) replaces what
 --     plays. Adding to the playlist queues behind it.
 --   - A quest giver's page cuts off an arrival story or the last quest's page (Voice.OnQuestFrame). The game's own
---     cutscenes, movies and talking heads stop whatever started by itself (Voice.OnGameTalk).
+--     cutscenes, movies and talking heads stop whatever started by itself (Voice.OnGameTalk), and so does a fight in a
+--     group dungeon or raid (Voice.OnCombatStart, LOR-659).
 --   - An arrival story cuts off nothing. Neither does a book page or a flight's zone story (it joins the playlist).
 --   What waits
 --   - An arrival story waits its turn while anything else plays (or the playlist is between two stories), in combat,
---     while a quest giver's or gossip window is open, during the game's cutscenes and on a flight. One waits at a
---     time: arriving somewhere else replaces it, while a zone's story keeps its place as you cross the zone.
+--     (in a group dungeon or raid, while anyone in the group fights, and until all have been calm INSTANCE_SETTLE
+--     seconds), while a quest giver's or gossip window is open, during the game's cutscenes and on a flight. One
+--     waits at a time: arriving somewhere else replaces it, while a zone's story keeps its place as you cross the zone.
 --   - Its turn comes when that ends by itself: what played finishes, the fight ends, the window closes, the cutscene
 --     ends, you land (landing is arriving; the zones flown over aren't). Stopping narration yourself never starts it.
---   - Cut off by a quest giver or a cutscene, it waits again and gets one more go from the top, never a second.
+--   - Cut off by a quest giver, a cutscene or a dungeon fight, it waits again and goes on from the piece it stopped in
+--     (most stories ship in pieces; one in a single recording starts over), up to MAX_CUTS times; one 90% heard is
+--     done (the PM's pick B, LOR-673: Mike's streams kept losing stories to quest givers).
 --   What expires
 --   - When its turn comes, it's dropped if you've left its place (its zone, for a zone's story) or if more than
---     ARRIVAL_WAIT seconds have passed since you arrived.
+--     ARRIVAL_WAIT seconds have passed since you arrived (RESUME_WAIT since it was cut off).
 --   - One that never started can start later: dropped because you left, it plays when you come back; out of time,
 --     it doesn't start by itself again this session, but plays next session (it isn't kept as heard).
 --   Once
@@ -1706,12 +1777,44 @@ local AUTO_SETTLE = 3
 -- than that it's out of step with where you are: on stream Duskwood's story started two minutes after Mike landed in
 -- Darkshire, and he called it "very much desynced".
 local ARRIVAL_WAIT = 90
+-- One that was cut off goes on where it stopped, so it keeps longer: 5 minutes from the cut, while you stay put (the
+-- PM, 10/18: quest givers in a town take a while).
+local RESUME_WAIT, MAX_CUTS = 300, 3
 local TURN_GAP = 1.5   -- from the end of what played to a waiting arrival story (the playlist's gap between two)
 Voice.autoSession = {}   -- arrival stories that started by themselves (or ran out of time) this session
 
 local function inCombat()
   return (InCombatLockdown and InCombatLockdown()) or (UnitAffectingCombat and UnitAffectingCombat("player")) or false
 end
+
+-- In a group dungeon or raid a fight is anyone's in the group, and stories wait for a longer calm (LOR-659: on stream
+-- in Scarlet Monastery, the Vestibule's and the Chamber of Atonement's stories started mid-pull, and Mike turned
+-- arrival stories off to get through it). A pull that starts while one plays stops it (Voice.OnCombatStart).
+local INSTANCE_SETTLE = 8   -- seconds of calm after a dungeon fight before a story starts: pulls follow each other
+local function inGroupInstance()
+  if type(IsInInstance) ~= "function" then return false end
+  local ok, inside, kind = pcall(IsInInstance)
+  return (ok and inside and (kind == "party" or kind == "raid")) and true or false
+end
+
+local function groupInCombat()
+  if not (UnitAffectingCombat and GetNumGroupMembers) then return false end
+  local okRaid, raid = false, nil
+  if type(IsInRaid) == "function" then okRaid, raid = pcall(IsInRaid) end
+  local unit = (okRaid and raid) and "raid" or "party"
+  local okN, n = pcall(GetNumGroupMembers)
+  n = okN and type(n) == "number" and n or 0
+  for i = 1, unit == "raid" and n or n - 1 do   -- (party1 to partyN-1: you're the other one)
+    local ok, v = pcall(UnitAffectingCombat, unit .. i)
+    if ok and ns.Context.Usable(v) and v then return true end   -- (a secret answer doesn't count)
+  end
+  return false
+end
+
+local function fighting()
+  return inCombat() or (inGroupInstance() and groupInCombat())
+end
+local function settle() return inGroupInstance() and INSTANCE_SETTLE or AUTO_SETTLE end
 
 -- Talking to someone: a quest giver's or a gossip window is open. Arriving in a town usually means walking straight
 -- up to its quest givers, and the town's story shouldn't talk over them.
@@ -1797,8 +1900,8 @@ local function busy()
   return UI.IsBusy() or UI.pl.state == "waiting"
 end
 
--- Start the arrival story that waited (w: { key, at = when you arrived, again = it was cut off once }). Returns true
--- if it started.
+-- Start the arrival story that waited (w: { key, at = when you arrived or when it was cut off, cuts = how many times it
+-- was }). Returns true if it started.
 local function startArrival(w)
   local UI, key = ns.UI, w.key
   local target = UI.EntryTarget(key)
@@ -1808,7 +1911,7 @@ local function startArrival(w)
   if not (UI.speaking and UI.playingId == key) then return false end
   Voice.autoSession[key] = true
   -- It started by itself, so a quest giver may take over from it (Voice.OnQuestFrame).
-  Voice.autoPlaying = { key = key, token = UI.playToken, at = w.at, again = w.again }
+  Voice.autoPlaying = { key = key, token = UI.playToken, at = w.at, cuts = w.cuts }
   markAuto()
   if UI.frame:IsShown() then return true end
   local line = string.format(L["now playing: %s. %s"], target.label, ns.Hooks.Link(L["Read along"], "entry", key))
@@ -1835,7 +1938,7 @@ function Voice.ArrivalTurn()
     Voice.autoWaiting = nil
     return false
   end
-  if now() - w.at > ARRIVAL_WAIT then
+  if now() - w.at > (w.cuts and RESUME_WAIT or ARRIVAL_WAIT) then
     Voice.autoWaiting, Voice.autoSession[w.key] = nil, true
     return false
   end
@@ -1843,7 +1946,12 @@ function Voice.ArrivalTurn()
     Voice.autoWaiting = nil
     return false
   end
-  if inCombat() or talking() or Voice.GameTalking() or onTaxi() or busy() or willoAnswering() then return false end
+  if fighting() then
+    -- (in a dungeon the group's fight can end without one of yours: look again once it's had time to)
+    if not inCombat() then Voice.OnArrive() end
+    return false
+  end
+  if talking() or Voice.GameTalking() or onTaxi() or busy() or willoAnswering() then return false end
   Voice.autoWaiting = nil
   return startArrival(w)
 end
@@ -1868,21 +1976,35 @@ function Voice.OnArrive()
   if S().autoZone == false or Voice.OnDemand() then return end
   local token = {}
   Voice.autoToken = token
-  C_Timer.After(AUTO_SETTLE, function()
+  C_Timer.After(settle(), function()
     if Voice.autoToken == token then autoPlay() end
   end)
 end
 
--- Combat ended, or you stopped talking to someone: the waiting arrival story's turn (if you're still there). It settles
--- first, so walking from one quest giver to the next doesn't start it.
-function Voice.OnCombatOver()
+-- You stopped talking to someone, or a fight ended: the waiting arrival story's turn (if you're still there). It
+-- settles first, so walking from one quest giver to the next doesn't start it.
+function Voice.OnTalkOver()
   if Voice.autoWaiting then Voice.OnArrive() end
 end
-Voice.OnTalkOver = Voice.OnCombatOver
+
+-- In a group dungeon or raid the fight's time doesn't count against the story's wait (ARRIVAL_WAIT): pulls there run
+-- long, and you're usually still in the place it's about.
+function Voice.OnCombatOver()
+  local w = Voice.autoWaiting
+  if w and inGroupInstance() then w.at = now() end
+  Voice.OnTalkOver()
+end
 
 -- What played ended by itself (UI's watchPlayback): the waiting arrival story's turn, after the playlist's gap. The
 -- playlist going on to its next story keeps it waiting.
 function Voice.OnNarrationEnded()
+  Voice.questLeftover = nil
+  local w = Voice.questWaiting
+  if w then   -- a quest giver's page waited for the one that ended: its turn, ahead of an arrival story
+    Voice.questWaiting = nil
+    C_Timer.After(TURN_GAP, function() Voice.PlayWaitingQuestPage(w) end)
+    return
+  end
   if not Voice.autoWaiting then return end
   C_Timer.After(TURN_GAP, function() Voice.ArrivalTurn() end)
 end
@@ -1898,9 +2020,9 @@ end
 
 -- Quest dialogue (Options > Narrate quest dialogue): when a quest giver's window opens a page, the quest giver's
 -- recorded words play (Voice.QuestClip); a page no voice recorded stays as text. It plays each time the window opens
--- on the page, heard or not, and once per opening
--- (Voice.openPages). Closing the window or opening another quest stops it, and the play button beside the window's
--- Lore button (Hooks.questDialogPlay) plays it again or stops it.
+-- on the page, heard or not, and once per opening (Voice.openPages). Turning to the window's next page plays that one
+-- instead; accepting or closing lets it play on, and the next quest giver's page waits for it (Voice.OnQuestClosed).
+-- The play button beside the window's Lore button (Hooks.questDialogPlay) plays it again or stops it.
 local QUEST_PREFIX = "questtext:"
 
 local function isQuestText(id) return type(id) == "string" and id:sub(1, #QUEST_PREFIX) == QUEST_PREFIX end
@@ -2153,14 +2275,37 @@ local function arrivalPlaying()
   if a and UI.speaking and UI.playingId == a.key and UI.playToken == a.token then return a end
 end
 
--- An arrival's story makes way (for a quest giver, or the game's own cutscene). The first time it waits for its turn
--- again, its clock still running from when you arrived (unless a newer arrival already waits); cut off again, it's
--- dropped, never started over in a loop. It started, so it stays heard (and in Voice.autoSession): coming back to its
--- place never starts it again by itself (LOR-285; 0.8.0 forgot it here, so every return started it over).
+-- How much of the story playing now has been heard, 0 to 1, or nil when there's no telling: its place in the
+-- recording when it plays in pieces (Voice.Position), else the time since it started against its length (the pack's,
+-- or estimated from its words as UI's watchPlayback does, about 15 letters a second).
+local function heardShare(key)
+  local c = Voice.lastClip
+  if not (c and c.id == key) then return nil end
+  if Voice.transport then
+    local offset, duration = Voice.Position()
+    if finite(duration) and type(offset) == "number" then return offset / duration end
+  end
+  local t = ns.UI and ns.UI.activeTarget
+  local length = c.duration or (t and t.key == key and type(t.text) == "string" and #Voice.Plain(t.text) / 15)
+  if not (finite(length) and c.started) then return nil end
+  return (now() - c.started) / length
+end
+
+-- An arrival's story makes way (for a quest giver, or the game's own cutscene). It waits for its turn again (unless a
+-- newer arrival already waits), RESUME_WAIT from now: one recorded in pieces picks up at the piece it stopped in
+-- (UI.progress), one in a single recording starts over, since the game can't start a sound part-way. Cut off
+-- MAX_CUTS times it's dropped, never started over in a loop, and one 90% heard (the share the player's own Stop counts
+-- as done, UI.ResumeStopped) isn't played again at all. It started, so it stays heard (and in Voice.autoSession):
+-- coming back to its place never starts it again by itself (LOR-285; 0.8.0 forgot it here, so every return started it
+-- over).
+local NEARLY_DONE = 0.9
 local function yieldArrival(arrival)
   Voice.autoPlaying = nil
-  if not (arrival.again or Voice.autoWaiting) then
-    Voice.autoWaiting = { key = arrival.key, at = arrival.at or now(), again = true }
+  local share = heardShare(arrival.key)
+  if share and share >= NEARLY_DONE then return end
+  local cuts = (arrival.cuts or 0) + 1
+  if cuts <= MAX_CUTS and not Voice.autoWaiting then
+    Voice.autoWaiting = { key = arrival.key, at = now(), cuts = cuts }
   end
 end
 
@@ -2169,6 +2314,7 @@ end
 function Voice.OnQuestFrame(kind, recorded)
   Voice.questKind, Voice.questRecorded = kind, recorded
   local UI = ns.UI
+  if not Voice.QuestDialogue() and Voice.otherVoice then return Voice.OnOtherVoice() end
   if not Voice.QuestDialogue() or Voice.OnDemand() or not (UI and UI.frame) then return end
   local qid = openQuest()
   if not qid then return end
@@ -2179,7 +2325,9 @@ function Voice.OnQuestFrame(kind, recorded)
   if willoAnswering() then return end   -- it waits: its turn comes when Willo is done (willoDone)
   local target = not Voice.openPages[id] and not Voice.GameTalking() and questTarget(qid, kind, recorded) or nil
   if not target then
-    if ours then UI.StopAll() end   -- the last quest's page stops all the same
+    -- Another page of this window has no recording: this window's page stops all the same. One still playing from a
+    -- window you've closed plays on.
+    if ours and not Voice.questLeftover then UI.StopAll() end
     return
   end
   -- The place's story gives way to the quest giver, and waits to play again once you're done talking (once, and only
@@ -2187,6 +2335,11 @@ function Voice.OnQuestFrame(kind, recorded)
   if arrival then yieldArrival(arrival) end
   Voice.openPages[id] = true
   target.byItself = true   -- (LOR-420)
+  if ours and Voice.questLeftover then
+    Voice.questWaiting = target   -- after the one still playing, in place of any that waited (Voice.OnNarrationEnded)
+    return
+  end
+  Voice.questLeftover, Voice.questWaiting = nil, nil
   UI.ListenTo(target)
   markAuto()
 end
@@ -2198,6 +2351,21 @@ function Voice.OnGameTalk()
   if not (UI and UI.frame) or not autoPlayingNow() then return end
   local arrival = arrivalPlaying()
   if arrival then yieldArrival(arrival) end
+  Voice.autoStarted = nil
+  UI.StopAll()
+end
+
+-- A fight started (PLAYER_REGEN_DISABLED). In a group dungeon or raid, what started by itself stops, as for the game's
+-- own talking: an arrival story waits for the next calm and plays from the top then, once (LOR-659). Elsewhere a fight
+-- doesn't stop a story, and what you started yourself always plays on.
+function Voice.OnCombatStart()
+  local UI = ns.UI
+  if not (UI and UI.frame) or not inGroupInstance() or not autoPlayingNow() then return end
+  local arrival = arrivalPlaying()
+  if arrival then
+    yieldArrival(arrival)
+    if Voice.autoWaiting and Voice.autoWaiting.key == arrival.key then Voice.autoWaiting.at = now() end
+  end
   Voice.autoStarted = nil
   UI.StopAll()
 end
@@ -2236,7 +2404,7 @@ end
 
 -- It ended: the waiting arrival story's turn (after settling, as after combat), unless another one still shows.
 function Voice.OnGameTalkOver()
-  if not Voice.GameTalking() then Voice.OnCombatOver() end
+  if not Voice.GameTalking() then Voice.OnTalkOver() end
 end
 
 -- The quest window's play button requires the direct quest dialogue opt-in, including manual playback.
@@ -2264,11 +2432,6 @@ function Voice.QuestPageState()
   return "listen"
 end
 
-local function stopQuestPage()
-  local UI = ns.UI
-  if UI and UI.speaking and isQuestText(UI.playingId) then UI.StopAll() end
-end
-
 -- Turning direct quest dialogue off stops any quest page, including one started from the lore panel or playlist.
 function Voice.SetQuestDialogue(on)
   S().questDialogue = on and true or false
@@ -2280,11 +2443,26 @@ function Voice.SetQuestDialogue(on)
   return S().questDialogue
 end
 
--- The quest window closed: stop its page, and the next time it opens its pages play again (Voice.openPages).
+-- The quest window closed (accepted, turned in or closed): its page plays on to its end (LOR-667: three players asked;
+-- closing cut the quest giver off mid-sentence, so picking up quests in a row heard none of them through). Stop and the
+-- player's X still stop it. The next time the window opens its pages play again (Voice.openPages).
 function Voice.OnQuestClosed()
   closePages(QUEST_PREFIX)
   Voice.questKind, Voice.questRecorded = nil, nil
-  stopQuestPage()
+  local UI = ns.UI
+  if UI and UI.speaking and isQuestText(UI.playingId) then Voice.questLeftover = true end
+end
+
+-- A quest giver's page that waited (Voice.OnQuestFrame) plays, unless something else took the turn meanwhile.
+function Voice.PlayWaitingQuestPage(w)
+  local UI = ns.UI
+  if not (UI and UI.frame) or UI.IsBusy() or willoAnswering() or Voice.GameTalking() then return end
+  UI.ListenTo(w)
+  if not (UI.speaking and UI.playingId == w.id) then return end
+  markAuto()
+  -- Its window closed meanwhile (the usual case: you've moved on to the next quest giver): it plays on too.
+  local qid = openQuest()
+  Voice.questLeftover = not (qid and w.id == QUEST_PREFIX .. qid .. ":" .. Voice.questKind) or nil
 end
 
 -- Books, letters and plaques (LOR-49): a page a voice has recorded (a clip under its page id) plays as the book opens
@@ -2401,6 +2579,25 @@ local QUEST_VOICES = {
     folders = { voiceover_continued = true, ai_voiceover_continued = true } },
   { id = "chatty", title = "Chatty Little NPC", folders = { chattylittlenpc = true }, books = true },
 }
+
+-- Another add-on that reads quest givers or what they say aloud is loaded (any of QUEST_VOICES, or one of Spoken's
+-- modules): its title, found once at login (Voice.Init), else nil.
+function Voice.FindOtherVoice()
+  for _, v in ipairs(QUEST_VOICES) do
+    if addOnLoaded(function(name) return v.match and v.match(name) or v.folders and v.folders[name] end) then
+      return v.title
+    end
+  end
+  if addOnLoaded(function(name) return name:find("^spoken") end) then return "Spoken" end
+end
+
+-- A quest giver's or a gossip window opened while another add-on reads them aloud (Voice.otherVoice) and Lore
+-- Forever's own quest dialogue is off: what started by itself makes way, as for the game's own talking, and an arrival
+-- story waits for the window to close (a clip report, 10/18: "if the addon Spoken is playing, this one will be
+-- paused"). What the player started plays on.
+function Voice.OnOtherVoice()
+  if Voice.otherVoice and not Voice.QuestDialogue() then Voice.OnGameTalk() end
+end
 
 -- Players who run one of those would hear a quest page twice. The first time Lore Forever finds one loaded, it leaves
 -- quest dialogue to it and says how to turn that back on; after that the player's choice in Options stands. Each

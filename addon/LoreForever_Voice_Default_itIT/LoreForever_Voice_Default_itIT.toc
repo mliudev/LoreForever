@@ -1,13 +1,13 @@
 ## Interface: 16001
-## Title: Lore Forever: answers about zones and places (male narrator) - Español (España)
+## Title: Lore Forever male narrator - Italiano
 ## Notes: Recorded narration for Lore Forever.
 ## Author: Mike
-## Version: 0.18.0
+## Version: 0.22.0
 ## Dependencies: LoreForever
 ## LoadOnDemand: 1
 ## X-LoreForever-Pack: voice
-## X-LoreForever-Locale: esES
+## X-LoreForever-Locale: itIT
 ## X-LoreForever-Format: 1
 ## X-LoreForever-Gender: male
-## X-LoreForever-Extends: LoreForever_Voice_Default
+## X-LoreForever-Sample: zone:stormwind
 Clips.lua

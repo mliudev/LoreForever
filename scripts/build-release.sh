@@ -23,7 +23,8 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
     || [ "$(git -C "$ROOT" config --bool core.sparseCheckout 2>/dev/null)" != true ]; } \
   && [ "$(git -C "$ROOT" ls-files -t -- addon/LoreForever_Voice_Default/Audio/ 2>/dev/null | head -c 1)" != S ] \
   || { echo "${0##*/}: this checkout is sparse. In your own worktree, run 'git sparse-checkout disable' first; or make" \
-         "a full one: scripts/new-worktree.sh --pointers <path> (and 'git lfs pull' there for the recordings)" >&2; exit 1; }
+         "a full one: scripts/new-worktree.sh --pointers <path>" \
+         "(and 'python3 scripts/audio_store.py hydrate' there for the recordings)" >&2; exit 1; }
 # Packs in the asset store (LOR-440): their recordings into the gitignored Audio/ first, every clip checked against
 # its manifest. Only the packs this zip bundles (PACKS below): the rest ship as their own zips
 # (build-voice-packs.sh hydrates those). The public repo has no store (its workflow puts recordings back with
@@ -56,9 +57,11 @@ PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "Lor
 # givers' voices until their recordings land, and the narrators in the language packs' languages (LOR-177,
 # LoreForever_Voice_<Default|Female>_<locale>) and their quest dialogue in those languages (LOR-226,
 # LoreForever_Voice_<Default|Female>_Quests_<locale>) until they're recorded, and each narrator's more places and
-# more people (LoreForever_Voice_<Default|Female>_MorePlaces/_MorePeople, complete stories only) until
-# register_full_stories.py makes them with their first stories. The answers packs (LOR-227) are retired (LOR-561):
-# Willo reads the short answers aloud.
+# more people, item stories and quest stories (LoreForever_Voice_<Default|Female>_MorePlaces/_MorePeople/_MoreItems/
+# _MoreQuests1/_MoreQuests2, complete stories only) until register_full_stories.py makes them with their first stories. The answers packs (LOR-227) are retired (LOR-561):
+# Willo reads the short answers aloud. The original male narrator's packs (LoreForever_Voice_Original*) hold his
+# complete stories from before the Chronicler took over the default packs (Mike, 10/17: "the old male narrator a
+# separate pack").
 RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_Lang_frFR", "LoreForever_Lang_ptBR",
                  "LoreForever_Lang_ruRU", "LoreForever_Lang_ukUA", "LoreForever_Lang_itIT",
                  "LoreForever_Voice_Default_ukUA",
@@ -68,9 +71,16 @@ RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_
                  "LoreForever_Voice_Female_Quests", "LoreForever_Voice_QuestGivers",
                  "LoreForever_Voice_Default_MorePlaces", "LoreForever_Voice_Default_MorePeople",
                  "LoreForever_Voice_Female_MorePlaces", "LoreForever_Voice_Female_MorePeople",
+                 "LoreForever_Voice_Default_MoreItems", "LoreForever_Voice_Female_MoreItems",
+                 "LoreForever_Voice_Default_MoreQuests1", "LoreForever_Voice_Female_MoreQuests1",
+                 "LoreForever_Voice_Default_MoreQuests2", "LoreForever_Voice_Female_MoreQuests2",
+                 "LoreForever_Voice_Original", "LoreForever_Voice_Original_Alliance", "LoreForever_Voice_Original_Horde",
+                 "LoreForever_Voice_Original_MorePlaces", "LoreForever_Voice_Original_MorePeople",
+                 "LoreForever_Voice_Original_Quests",
                  "LoreForever_Voice_Default_deDE", "LoreForever_Voice_Female_deDE",
                  "LoreForever_Voice_Default_esES", "LoreForever_Voice_Female_esES",
                  "LoreForever_Voice_Default_frFR", "LoreForever_Voice_Female_frFR",
+                 "LoreForever_Voice_Default_itIT", "LoreForever_Voice_Female_itIT",
                  "LoreForever_Voice_Default_Quests_deDE", "LoreForever_Voice_Female_Quests_deDE",
                  "LoreForever_Voice_Default_Quests_esES", "LoreForever_Voice_Female_Quests_esES",
                  "LoreForever_Voice_Default_Quests_frFR", "LoreForever_Voice_Female_Quests_frFR",
@@ -205,7 +215,7 @@ for folder, files in ship.items():
         if not path.is_file():
             fail(f"missing {path.relative_to(root)}")
 
-# Add-on audio is stored with Git LFS. A checkout that never fetched it has small pointer files ("version
+# Add-on audio lived in Git LFS until 10/18: a checkout of an older commit has small pointer files ("version
 # https://git-lfs...") where the recordings should be, and a zip of those would play nothing.
 LFS_POINTER = b"version https://git-lfs"
 pointers = [path for files in ship.values() for path, _ in files
@@ -213,7 +223,7 @@ pointers = [path for files in ship.values() for path, _ in files
             and path.read_bytes().startswith(LFS_POINTER)]
 if pointers:
     fail(f"{len(pointers)} audio files are Git LFS pointers, not recordings (e.g. {pointers[0].relative_to(root)}). "
-         "Fetch them first: git -c lfs.fetchexclude= lfs pull")
+         "Fetch them first: python3 scripts/audio_store.py hydrate")
 text_files = [(path, f"{folder}/{arc}", folder) for folder, files in ship.items()
               for path, arc in files if path.suffix.lower() not in AUDIO | ART]
 

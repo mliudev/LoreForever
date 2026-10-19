@@ -102,6 +102,15 @@ local function bagLines(name, itemID, out)
   end
 end
 
+-- The lore entry of an item itself (its story: a letter, a relic, a quest item), by the name the game shows, or nil.
+-- Only an item's entry: an item never takes a name a place, person or quest has (compile_lua's name index).
+function Hooks.ItemKey(name)
+  local idx = type(name) == "string" and ns.DB and ns.DB.index and ns.DB.index.name
+  local key = idx and idx[ns.Engine.lower(name)]
+  local e = key and ns.DB.entries[key]
+  return e and e.t == "item" and key or nil
+end
+
 function Hooks.ItemLines(name, itemID)
   local out = {}
   if not name then return out end
@@ -136,6 +145,10 @@ function Hooks.ItemLines(name, itemID)
       end
     end
   end
+  -- Its own story's first line, as on a person's tooltip (Hooks.UnitLine), after why you'd keep it.
+  local key = Hooks.ItemKey(name)
+  local e = key and ns.DB.entries[key]
+  if e and #out < 2 then out[#out + 1] = { text = loreTag() .. (e.h or e.s), r = 0.85, g = 0.85, b = 0.85 } end
   while #out > 2 do table.remove(out) end
   return out
 end
@@ -188,6 +201,8 @@ local function onItemTooltip(tooltip)
   if not ns.Context.Usable(name) then return end
   local lines = Hooks.ItemLines(name, id)
   for _, l in ipairs(lines) do tooltip:AddLine(l.text, l.r, l.g, l.b, true) end
+  -- An item with a story of its own: the keys that open it and read it aloud, as for a person (only when asked).
+  if Hooks.ItemKey(name) then bindHint(tooltip) end
   if #lines > 0 then tooltip:Show() end
 end
 
@@ -1073,29 +1088,33 @@ function Hooks.KeyPrompt(which)
     if Hooks.keyFrame:IsShown() then Hooks.keyFrame.idle() end
     return Hooks.keyFrame
   end
-  local f = CreateFrame("Frame", "LoreForeverKeyPrompt", UIParent, BackdropTemplateMixin and "BackdropTemplate" or nil)
+  -- The floating player's look: solid, so a busy scene behind it never shows through the words (the game's dark
+  -- dialog background let 13% of it through), a gold rim, and themed buttons sized to their labels, which run longer
+  -- in other languages ("Choisissez une touche" spilled out of a fixed 120).
+  local T = ns.Theme
+  local f = CreateFrame("Frame", "LoreForeverKeyPrompt", UIParent, T.BACKDROP_TEMPLATE)
   f.which = which
   f:SetSize(380, 118)
   f:SetPoint("TOP", 0, -140)
   f:SetFrameStrata("DIALOG")
-  if f.SetBackdrop then
-    f:SetBackdrop({ bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
-      edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border", tile = true, tileSize = 32, edgeSize = 24,
-      insets = { left = 6, right = 6, top = 6, bottom = 6 } })
-  end
+  local bg = T.Area(f, "dock")
+  bg:SetPoint("TOPLEFT", 2, -2)
+  bg:SetPoint("BOTTOMRIGHT", -2, 2)
+  T.Backdrop(f, "dock")
   local text = f:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
   text:SetPoint("TOPLEFT", 18, -18)
   text:SetPoint("TOPRIGHT", -18, -18)
   text:SetJustifyH("LEFT")
   f.text = text
-  local choose = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
-  choose:SetSize(120, 22)
+  local function button(label, least)
+    local b = T.Button(f, label)
+    b:SetSize(math.max(least, (T.TextWidth(b:GetFontString()) or 0) + 24), 22)
+    return b
+  end
+  local choose = button(L["Choose a key"], 120)
   choose:SetPoint("BOTTOMLEFT", 18, 16)
-  choose:SetText(L["Choose a key"])
-  local later = CreateFrame("Button", nil, f, "UIPanelButtonTemplate")
-  later:SetSize(90, 22)
+  local later = button(L["Not now"], 90)
   later:SetPoint("BOTTOMRIGHT", -18, 16)
-  later:SetText(L["Not now"])
   f.choose, f.later = choose, later
 
   local function idle()
@@ -1177,7 +1196,9 @@ end
 function Hooks.Init()
   Hooks.RefreshQuests()
   Hooks.RefreshBags()
-  for _, fn in ipairs({ Hooks.Tooltips, Hooks.QuestFrames, Hooks.BookFrame, Hooks.ChatLinks }) do
+  -- Everything of ours on the game's windows is made here, at login, never as one opens (Capture.MakeButtons).
+  local capture = ns.Capture and ns.Capture.MakeButtons
+  for _, fn in ipairs({ Hooks.Tooltips, Hooks.QuestFrames, Hooks.BookFrame, Hooks.ChatLinks, capture }) do
     local ok, err = pcall(fn)
     if not ok and ns.debug then say("hook failed: " .. tostring(err)) end
   end

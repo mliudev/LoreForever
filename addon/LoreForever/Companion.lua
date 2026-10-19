@@ -45,6 +45,9 @@ function Companion.Payload(question, ctx)
     q = question, zone = ctx.zone, sub = ctx.subzone, target = ctx.targetName, race = ctx.raceName,
     class = ctx.className, level = ctx.level, faction = ctx.faction, quests = quests,
     char = ns.Journey and ns.Journey.CharKey() or nil, t = time(),
+    -- Where you stand on the map ("mapID:x:y", thousandths), for "pin this spot" (LOR-664); nil in a dungeon or on a
+    -- flight.
+    at = ns.Journey and ns.Journey.Here and ns.Journey.Here() or nil,
   })
 end
 

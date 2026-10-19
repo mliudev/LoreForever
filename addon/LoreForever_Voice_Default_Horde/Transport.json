@@ -133,9 +133,9 @@
     "npc:baine-bloodhoof": {
       "1": [
         {
-          "duration": 130.82122448979592,
-          "file": "Audio/Transport/full_npc_baine-bloodhoof-3e2c88e020f66661a757/1-0000.mp3",
-          "sha256": "c88c18800a22d915d2f5f4a88678432253be79eef350fecaf9afbb5d3b2d1aa4",
+          "duration": 118.43918367346939,
+          "file": "Audio/Transport/full_npc_baine-bloodhoof-3774fdbaae40ed954753/1-0000.mp3",
+          "sha256": "8649cd8d6a96ef6cef1c69120bdbe5b4a72962fb9c47a2a2c4e1e4e521e34e11",
           "start": 0
         }
       ],
@@ -146,15 +146,15 @@
           "1"
         ]
       },
-      "fullHash": "369bb3",
-      "generation": "a72e9e1527c835ac9646",
+      "fullHash": "a23dd3",
+      "generation": "0fcf897afc84fbf88957",
       "hash": "f3766e",
       "source": {
-        "duration": 130.821224,
+        "duration": 118.439184,
         "file": null,
-        "sha256": "3e2c88e020f66661a75706e62f2a4ac16a7850b0bd8134eb9ae1687ccc13b541"
+        "sha256": "3774fdbaae40ed9547538c76362e5e5eb55f613a876e09d2fe6b6692c81c3e54"
       },
-      "text": "Baine Bloodhoof. Baine Bloodhoof is the son of High Chieftain Cairne Bloodhoof and the acting protector of Bloodhoof Village in Mulgore. While his father governs the tribes from the towering heights of Thunder Bluff, Baine directly oversees local defense, investigating encroaching industrial exploitation and defending against feral predators. He serves as an essential bridge between youthful tauren braves and the ancestral wisdom of his clan. Born to Cairne and the late Tamaala, Baine spent his youth traveling alongside his nomadic people before they claimed the rich grasslands of Mulgore. His early life was marked by the ever-present threat of the centaur clans. Shortly after the Third War, a centaur warband under Khiragg captured young Baine, plunging Cairne into a grief-stricken stupor that nearly shattered the newly founded settlements. It was only through the courage of the champion Rexxar that Baine was liberated from captivity. That rescue restored Cairne's spirit, allowing the tauren to stand with Thrall's Horde against the invading Kul Tirans and secure their foothold on the continent. Rather than lingering in the relative comfort of the capital mesas, Baine chooses to reside among his kin in Bloodhoof Village. As Cairne advances in age, Baine carries an increasing burden of stewardship, representing the next generation of tauren leadership. He directs braves and visiting allies to combat the unruly Palemane gnolls who pester the borders, and keeps a watchful eye on suspicious outside influences threatening Mulgore's natural balance. Whenever Cairne departs the capital on state affairs, Baine steps forward as the acting leader for the united tribes. Beyond territorial border clashes, Baine faces modern encroachers unconcerned with spiritual balance. To the east, the goblin Venture Company cuts deep into the sacred landscape, while dwarven prospectors from Bael Modan dig into ancestral soil at the Bael'dun Digsite. Baine advocates for a firm yet measured response: attempting to warn the miners and destroy their destructive equipment rather than rushing into senseless bloodshed. He warns that the dwarves' violent digging is hurting the spirits of the earth, though the miners refuse to listen."
+      "text": "Baine Bloodhoof. Baine Bloodhoof is the son of High Chieftain Cairne Bloodhoof and the acting protector of Bloodhoof Village in Mulgore. While his father governs the tribes from the towering heights of Thunder Bluff, Baine directly oversees local defense, investigating encroaching industrial exploitation and defending against feral predators. He serves as an essential bridge between youthful tauren braves and the ancestral wisdom of his clan. Born to Cairne, Baine spent his youth traveling alongside his nomadic people before they claimed the rich grasslands of Mulgore. His early life was marked by the ever-present threat of the centaur clans. Shortly after the Third War, a centaur warband under Khiragg captured young Baine, plunging Cairne into a grief-stricken stupor that nearly shattered the newly founded settlements. It was only through the courage of the champion Rexxar that Baine was liberated from captivity. That rescue restored Cairne's spirit, allowing the tauren to stand with Thrall's Horde against the invading Kul Tirans and secure their foothold on the continent. Rather than lingering in the relative comfort of the capital mesas, Baine chooses to reside among his kin in Bloodhoof Village. As Cairne advances in age, Baine carries an increasing burden of stewardship, representing the next generation of tauren leadership. He directs braves and visiting allies to combat the unruly Palemane gnolls who pester the borders, and keeps a watchful eye on suspicious outside influences threatening Mulgore's natural balance. Beyond territorial border clashes, Baine faces modern encroachers unconcerned with spiritual balance. To the east, the goblin Venture Company cuts deep into the sacred landscape, while dwarven prospectors from Bael Modan dig into ancestral soil at the Bael'dun Digsite. Baine advocates for a firm yet measured response: attempting to warn the miners and destroy their destructive equipment rather than rushing into senseless bloodshed. He warns that the dwarves' violent digging is hurting the spirits of the earth, though the miners refuse to listen."
     },
     "npc:bethor-iceshard": {
       "1": [
@@ -6050,6 +6050,17 @@
       1368,
       1614
     ],
+    "8649cd8d6a96ef6cef1c69120bdbe5b4a72962fb9c47a2a2c4e1e4e521e34e11": [
+      259,
+      709,
+      1228,
+      1786,
+      2349,
+      2914,
+      3350,
+      3955,
+      4313
+    ],
     "892130c2bbd0d8f84840c748a7c3b00325fd1460e11834db33d7624e4028852a": [
       562,
       1154,
@@ -6360,19 +6371,6 @@
       354,
       999,
       1475
-    ],
-    "c88c18800a22d915d2f5f4a88678432253be79eef350fecaf9afbb5d3b2d1aa4": [
-      345,
-      818,
-      1385,
-      1958,
-      2538,
-      2826,
-      3116,
-      3541,
-      4028,
-      4400,
-      4761
     ],
     "c88d25ecc80db31982a29deb4bf41ef3dc481642e36f14723afeab155c1f91e4": [
       643,

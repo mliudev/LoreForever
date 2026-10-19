@@ -17,15 +17,15 @@ fi
 # Packs in the asset store (LOR-440): their recordings fetched into the gitignored Audio/ first.
 STORE="$ADDONS_SRC/../scripts/audio_store.py"
 [ ! -f "$STORE" ] || python3 "$STORE" hydrate --quiet $(printf -- '--pack %s ' "${FOLDERS[@]}")
-# Audio is stored with Git LFS. A checkout that never fetched it has small pointer files where the recordings should
-# be; installing those would leave the narration silent, so stop before copying anything.
+# Audio lived in Git LFS until 10/18. A checkout of an older commit has small pointer files where the recordings
+# should be; installing those would leave the narration silent, so stop before copying anything.
 for name in "${FOLDERS[@]}"; do
   [ -d "$ADDONS_SRC/$name/Audio" ] || continue
   n="$(find "$ADDONS_SRC/$name/Audio" -type f -size -1025c -print0 \
        | xargs -0 -r grep -l '^version https://git-lfs' | wc -l || true)"
   if [ "$n" -gt 0 ]; then
     echo "install-addon: $n files in addon/$name/Audio are Git LFS pointers, not recordings." >&2
-    echo "Fetch them first: git -c lfs.fetchexclude= lfs pull (CONTRIBUTING.md has the one-time setup)" >&2
+    echo "Fetch them first: python3 scripts/audio_store.py hydrate" >&2
     exit 1
   fi
 done
