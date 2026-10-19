@@ -126,7 +126,7 @@ P.transport["npc:devrak"] = {
   fullHash = "043b9e",
   text = "Devrak. Devrak is an orc wind rider master stationed at the Crossroads in the Barrens. Serving as the primary aerial conduit of central Kalimdor, he oversees the Horde's network of wyverns shuttling supplies and couriers between Durotar, Mulgore, and frontier outposts. He also ensures that crucial logistics, such as game meats and prepared hides, travel smoothly to the Horde's capitals. Positioned at the intersection of Kalimdor's major trade routes, Devrak tends the wyverns that keep the Horde unified across vast distances. The Crossroads sits exposed under the baking sun, vulnerable to quilboar, centaur, and Alliance scouts alike, making rapid aerial transit indispensable. Devrak handles both seasoned wayfarers and untested messengers, pairing riders with trained wind riders capable of crossing the savannah and reaching the mountain heights of Mulgore or the stone canyons of Durotar. Beyond ferrying travelers, Devrak plays a vital role in frontier logistics. The hunters of the Barrens harvest meat and pelts in abundance, which Devrak helps channel directly to the cooking fires of Orgrimmar and the tanners of Thunder Bluff. By introducing budding couriers to flight masters across the continents, he cements the aerial lifeline that feeds the Horde's heartlands. Flight masters in contested frontier territories cannot afford to be defenseless. Devrak is far more than a simple beast handler; when the Crossroads falls under attack, he calls upon enraged wyverns to tear into hostile intruders with venomous stingers and talons, making his roost a dangerous target for anyone bold enough to strike the settlement.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_devrak-aee0bbc5de1165f2ed9f/1-0000.mp3", duration = 101.198367, start = 0},
+    {file = "Audio/Transport/full_npc_devrak-ca759bc6adada1f82c84/1-0000.mp3", duration = 100.519184, start = 0},
   },
 }
 P.transport["npc:eitrigg"] = {
@@ -174,7 +174,7 @@ P.transport["npc:gornek"] = {
   fullHash = "aad15d",
   text = "Gornek. Gornek is an orc overseer stationed in the Valley of Trials in Durotar. He serves as the primary point of intake for fresh orc and Darkspear troll recruits preparing to prove their worth to the New Horde. Standing directly at the heart of the Valley of Trials, Gornek represents the initial test of discipline for aspiring Horde warriors, scouts, and spellcasters. Under Warchief Thrall's order, every youth and newcomer must earn their place through grit and perseverance rather than entitlement. Gornek assesses those stepping into the valley, reading their introductory orders and directing them to trainers throughout the compound. Whether an initiate carries an encrypted scrawl, a glyphic parchment, or a simple tablet, it is Gornek who receives their credentials and sets them upon their harsh path of survival. The arid canyons of the valley test more than battle prowess; they instill the communal ethos of the New Horde. Gornek ensures that novices do not linger aimlessly, pointing them toward the trials of the nearby scorpid burrows, the dens of feral boars, and the watchful eyes of veteran instructors. For those who survive the training grounds and slay the threats lurking in the red rock gullies, Gornek offers the final acknowledgment before dispatching them outward into the wider, perilous landscape of Durotar.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gornek-046fc54549a7edbb61d0/1-0000.mp3", duration = 81.2930612, start = 0},
+    {file = "Audio/Transport/full_npc_gornek-73db0054585eb9733356/1-0000.mp3", duration = 81.1885714, start = 0},
   },
 }
 P.transport["npc:gunther-arcanus"] = {
@@ -190,7 +190,7 @@ P.transport["npc:high-executor-hadrec"] = {
   fullHash = "84153f",
   text = "High Executor Hadrec. High Executor Hadrec is the military commander of the Forsaken garrison stationed at the Sepulcher in Silverpine Forest. From this central crypt, he oversees defense against regional threats including the gnolls of the Rot Hide clan and investigates the disappearance of scouts across the zone. He serves as the primary officer directing Horde operations throughout Silverpine. Stationed within the gloom of the Sepulcher, High Executor Hadrec directs Forsaken military operations across Silverpine Forest. While Tirisfal Glades is firmly secured by the Dark Lady's forces, Silverpine remains fraught with peril, bordered by hostile Dalaran mages, feral worgen, and encroaching gnolls. Hadrec bears the grim responsibility of consolidating Forsaken territory and stamping out anything that challenges Undercity authority south of the capital. Much of Hadrec's immediate concern revolves around the Rot Hide gnolls and Fenris Isle. These undead-tainted beasts have infested the Dead Fields and the shores of Lake Lordamere, posing an unpredictable and vicious threat to Forsaken patrols. Hadrec dispatches agents to scour the decrepit ferries and rotting farmsteads for clues, determine what empowers the beasts, and prepare an outright strike against their island stronghold.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_high-executor-hadrec-61305b0c6b781027efa6/1-0000.mp3", duration = 78.6546939, start = 0},
+    {file = "Audio/Transport/full_npc_high-executor-hadrec-93f489eb43b8b648c08e/1-0000.mp3", duration = 76.6432653, start = 0},
   },
 }
 P.transport["npc:islen-waterseer"] = {
@@ -206,7 +206,7 @@ P.transport["npc:kadrak"] = {
   fullHash = "63acf5",
   text = "Kadrak. Kadrak is a seasoned orc commander stationed at the Mor'shan Rampart on the border between the Barrens and Ashenvale. Tasked with safeguarding the northern frontier, he coordinates the flow of dispatches and reinforcements into the contested forest. For Horde adventurers pushing past the arid plains, Kadrak serves as the gateway to the ongoing struggle against the night elves. Standing atop the fortified timber barricades of the Mor'shan Rampart, Kadrak watches over the primary route connecting the Barrens to Ashenvale. The border is a precarious frontier: to the south lie the sun-scorched plains claimed by the Horde, while to the north loom the ancient woods guarded fiercely by the night elves. Kadrak ensures that the defensive perimeter remains unbroken against encroaching Sentinels and hostile woodland creatures. Beyond holding the line, Kadrak manages essential military intelligence between the Barrens and the forward logging camps deeper in the forest. He receives couriers bearing critical combat reports from the Warsong Outriders and coordinates the movement of supplies and fresh blood into outpost hubs like Splintertree Post. Those reporting to him are promptly directed into the heart of the territorial war.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_kadrak-4589c47a078d515ea0e3/1-0000.mp3", duration = 73.4040816, start = 0},
+    {file = "Audio/Transport/full_npc_kadrak-fc25b1d98bbbc07cd497/1-0000.mp3", duration = 73.9004082, start = 0},
   },
 }
 P.transport["npc:magatha-grimtotem"] = {
@@ -446,7 +446,7 @@ P.transport["subzone:bael-dun-digsite"] = {
   fullHash = "9f6fb8",
   text = "Bael'dun Digsite. The Bael'dun Digsite is a dwarven excavation carved deep into the mountains along the western edge of Mulgore. Established by Prospector Khazgorm's team out of Bael Modan, the quarry is viewed by the local tauren as a direct desecration of their ancestral homeland and an insult to the Earth Mother. Perched on the mountain slopes of western Mulgore, the Bael'dun Digsite represents the southernmost reach of the dwarven Explorers' League expedition based out of Bael Modan in the southern Barrens. Unconcerned with territorial borders or the spiritual traditions of the newly settled tribes, dwarven prospectors arrived with picks, shovels, and blasting powder to unearth ancient Titan relics buried beneath the plains. The Bloodhoof tribe viewed this invasive quarrying as an outright assault on the Earth Mother. Baine Bloodhoof initially urged caution and attempted to warn the interlopers away, but the dwarves flatly refused to abandon their trenches. Concluding that diplomacy had failed, the tauren resolved to break the expedition's tools and forcibly expel the miners before their destructive digging tears further into Mulgore's sacred earth.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bael-dun-digsite-016da0e1479610e69daf/1-0000.mp3", duration = 70.6612245, start = 0},
+    {file = "Audio/Transport/full_subzone_bael-dun-digsite-cbde2f351de3ec80f242/1-0000.mp3", duration = 67.6832653, start = 0},
   },
 }
 P.transport["subzone:bael-dun-keep"] = {
@@ -470,7 +470,7 @@ P.transport["subzone:bandarion-keep"] = {
   fullHash = "3bdf1f",
   text = "Bandarion Keep. Bandarion Keep is a fortified redoubt associated with Tyr's Watch, nestled in the western reaches of Tirisfal Glades near the Whispering Forest. Named in honor of Garek Bandarion, the outpost serves as an isolated bulwark amidst lingering threats across the woodland frontier. Its defenders contend with everything from hostile coastal murlocs to roving zealots and unstable undead. Situated near the secluded Whispering Forest in western Tirisfal Glades, Bandarion Keep stands as a solitary sentinel for the Forsaken. Named after Garek Bandarion, this stronghold is closely tied to Tyr's Watch. Quartermasters like Jorin Croge work diligently to keep the garrison supplied despite its remote and challenging position far from the bustling courtyards of the Undercity. Holding the keep is no quiet assignment. The outpost faces constant danger from Vile Fin murloc raids along nearby waters, probing skirmishes by the Scarlet Crusade, and stray, mindless Scourge thralls shambling through the gloom. Worse still are internal perils: certain paladins struggling to adjust to their unlife as Forsaken have succumbed to madness, turning their weapons against their own kindred.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bandarion-keep-5ec8bf307dc3c219742a/1-0000.mp3", duration = 74.004898, start = 0},
+    {file = "Audio/Transport/full_subzone_bandarion-keep-c78f2127410a6dc8d5d3/1-0000.mp3", duration = 74.475102, start = 0},
   },
 }
 P.transport["subzone:blackthorn-ridge"] = {
@@ -534,7 +534,7 @@ P.transport["subzone:burning-blade-coven"] = {
   fullHash = "62025a",
   text = "Burning Blade Coven. Tucked into the northern cliffs of the Valley of Trials, the Burning Blade Coven is an infested cave network threatening the Horde's newest recruits. Corrupted cultists and summoned demons lurk within, turning an old mineral cavern into a staging ground for dark magic right on Durotar's doorstep. The dusty red mountains rimming the Valley of Trials were once simply a testing wilderness for young orcs and Darkspear trolls taking their first steps in service to the Horde. In recent days, however, dark rituals have taken hold of the northern caves. Imps and lesser fiends spill from the cavern mouth, stirring chaos and threatening recruits. Led by the shadowy warlock Yarrog Baneshadow, the Burning Blade cult has entrenched itself deep inside, turning what was once a routine training ground into an active battleground against demonic corruption. Before the demons took root, the caves attracted the attention of local overseers hoping to harvest raw materials for the settlement. Foreman Thazz'ril ventured deep inside on a mineral survey, only to be driven out in haste, leaving valuable equipment behind as the cultists made their presence known. Now, driving back Baneshadow's coven serves as the ultimate proving trial for aspiring warriors, rogues, and spellcasters before they are deemed ready to venture out into greater Durotar.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_burning-blade-coven-9c812df18776655af882/1-0000.mp3", duration = 79.124898, start = 0},
+    {file = "Audio/Transport/full_subzone_burning-blade-coven-e62bd06882f271508809/1-0000.mp3", duration = 81.8155102, start = 0},
   },
 }
 P.transport["subzone:cleft-of-shadow"] = {
@@ -558,7 +558,7 @@ P.transport["subzone:crossroads"] = {
   fullHash = "d7e94a",
   text = "Crossroads. The Crossroads is the beating heart of Horde travel through central Kalimdor, situated where the north-south Gold Road intersects the path from Ratchet to the Stonetalon Mountains. It serves as a bustling trading outpost, military staging area, and transit hub for travelers journeying between Durotar, Mulgore, and northern frontlines. True to its name, the Crossroads sits squarely at the crossing of the Gold Road and the east-west route cutting from the goblin port of Ratchet into the Stonetalon Mountains. Despite having modest lodgings, the outpost functions as a bustling regional hub. Wind rider masters, merchants, blacksmiths, and trainers maintain permanent setups beneath its watchtowers. For young warriors traveling out from Durotar or Mulgore, the settlement is often the first place they witness the vast, multi-front logistics binding the new Horde together. Maintaining order at the Crossroads is a relentless struggle. Local wildlife—including plains raptors bold enough to plunder payroll silver from the guard towers—poses a persistent nuisance, while harpies, quilboar, and centaur tribes continually pressure the perimeter. Beyond the threats native to the Barrens, the settlement's proximity to neutral Ratchet and the contested forests of Ashenvale makes it a prime target for encroaching Alliance scouting parties, leading to frequent skirmishes just outside its defensive barricades.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_crossroads-a46a57a47db4e25ab002/1-0000.mp3", duration = 84.7934694, start = 0},
+    {file = "Audio/Transport/full_subzone_crossroads-a54a1d3871a3a6e7ff8b/1-0000.mp3", duration = 87.7191837, start = 0},
   },
 }
 P.transport["subzone:crusader-outpost"] = {
@@ -662,7 +662,7 @@ P.transport["subzone:field-of-giants"] = {
   fullHash = "13a801",
   text = "Field of Giants. The Field of Giants is an expansive plain covering the southern Barrens between Camp Taurajo and the marshes of Dustwallow. Named for the towering kodo, thunder lizards, and massive beasts that graze its arid scrub, the region has recently grown far more perilous due to an encroaching silithid infestation. Stretching along the southern span of the Gold Road, the Field of Giants is remote, rugged, and lightly defended compared to the Barrens to the north. While the road's wooden watchtowers stand largely abandoned, the land itself thrums with life. Tremendous herds of Kalimdor's megafauna wander the vast flats, drawing hunters and naturalists alike. However, safety is elusive here: dwarven excavators from Bael Modan dig aggressively to the south, and a far more sinister menace has begun burrowing beneath the earth. In recent times, insectoid silithid hives have erupted from the ground across the Field of Giants, marking the northernmost known sighting of these ravenous creatures in Kalimdor. These strange mounds and aggressive swarms have alarmed the Horde. Scouts such as the troll Korran from the Crossroads and tauren warriors like Ruga Ragetotem at Camp Taurajo urge adventurers to probe the hives, seeking to uncover what draws these subterranean horrors so far from the deep deserts.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_field-of-giants-c6c1f7926f517ccecae9/1-0000.mp3", duration = 81.2669388, start = 0},
+    {file = "Audio/Transport/full_subzone_field-of-giants-ea5234f7c13a29fe8aa7/1-0000.mp3", duration = 79.4122449, start = 0},
   },
 }
 P.transport["subzone:forgotten-pools"] = {
@@ -694,7 +694,7 @@ P.transport["subzone:garren-s-haunt"] = {
   fullHash = "b4c037",
   text = "Garren's Haunt. Garren's Haunt is an abandoned farmstead nestled in northern Tirisfal Glades. Once a prosperous human homestead, the farm fell to ruin when the Scourge wiped out the Garren family, leaving the overgrown grounds overrun by feral Rot Hide gnolls. Before the Third War, this farmstead supported a family and produced bountiful harvests under the Kingdom of Lordaeron. When the Plague of Undeath swept across the countryside, the Scourge descended upon the farm and slaughtered Garren and his kin. Today, the fields lie gray and withered, the farmhouse and barn decaying under the perpetual gloom of Tirisfal. Rather than standard Scourge patrols, Garren's Haunt has been claimed by the Rot Hide gnolls—a pack of undead-tainted scavengers led by the vicious Maggot Eye. These scavengers aggressively defend their reclaimed territory, picking clean whatever remains of the farm and savaging any travelers or Forsaken patrols passing along northern Tirisfal.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_garren-s-haunt-86619dab861ce8be04a5/1-0000.mp3", duration = 57.5216327, start = 0},
+    {file = "Audio/Transport/full_subzone_garren-s-haunt-8d296b7c97f69fc51b4a/1-0000.mp3", duration = 57.2081633, start = 0},
   },
 }
 P.transport["subzone:gates-of-orgrimmar"] = {
@@ -774,7 +774,7 @@ P.transport["subzone:kodo-rock"] = {
   fullHash = "79a932",
   text = "Kodo Rock. Kodo Rock is a natural stone monument located in the plains of Red Cloud Mesa, between Camp Narache and Brambleblade Ravine. Standing quietly amid the grasses of Mulgore, it serves as an early pilgrimage site for young tauren shamans learning to commune with the spirits of the earth. Because of its modest silhouette against the rolling landscape, travelers must keep a keen eye out to spot it. Situated roughly halfway along the path connecting Camp Narache to the hostile quilboar territory of Brambleblade Ravine, Kodo Rock is marked by a patch of worn earth at its base. While it lacks the sheer grandeur of the towering bluffs surrounding Red Cloud Mesa, its distinct profile resembles the revered kodo beasts that wander the grasslands. For wandering tribesfolk, it acts as a quiet natural beacon in the windswept plains of Mulgore. To the Shu'halo, natural formations often carry spiritual weight. Kodo Rock holds special reverence for young tauren shamans beginning their spiritual walk. Novices are directed here on early rites of passage, using the solitary stone monument as a sacred grounds to commune with elemental forces and honor the natural world before venturing into more perilous reaches of the continent.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_kodo-rock-05c7b7221a89601583bb/1-0000.mp3", duration = 76.6432653, start = 0},
+    {file = "Audio/Transport/full_subzone_kodo-rock-d165622d584e8f649802/1-0000.mp3", duration = 76.3820408, start = 0},
   },
 }
 P.transport["subzone:magic-quarter"] = {
@@ -830,7 +830,7 @@ P.transport["subzone:palemane-rock"] = {
   fullHash = "1c1260",
   text = "Palemane Rock. Palemane Rock is a cavern and campsite nestled into the western mountains of Mulgore. It serves as a primary stronghold for the aggressive Palemane gnoll tribe, posing a continual nuisance and threat to the nearby tauren of Bloodhoof Village. Situated along the western rim of the grassy plains of Mulgore, Palemane Rock consists of a sprawling open-air encampment fronting a deep, shadowed cavern carved into the mountainside. The Palemane gnolls have claimed both the cave interior and the immediate foothills outside as their territory. Hostile and territorial, these gnolls aggressively defend their den, attacking hunters, travelers, and scouts who wander too close to their rocky haven.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_palemane-rock-ead6a317a2b8cfc45d26/1-0000.mp3", duration = 43.6506122, start = 0},
+    {file = "Audio/Transport/full_subzone_palemane-rock-f5ccd67beefa7e90ccb6/1-0000.mp3", duration = 42.7363265, start = 0},
   },
 }
 P.transport["subzone:pools-of-vision"] = {
@@ -838,7 +838,7 @@ P.transport["subzone:pools-of-vision"] = {
   fullHash = "2db754",
   text = "Pools of Vision. The Pools of Vision are a subterranean cavern nestled beneath Spirit Rise in Thunder Bluff. Marked by still waters and dim caverns, this secluded subterranean space serves as the primary enclave for the Forsaken within the tauren capital. While the sunlit peaks of Thunder Bluff belong to the wind, earth, and sky, the Pools of Vision plunge directly beneath Spirit Rise into shadowy seclusion. Accessible from a discreet cave path off the bridge leading to the rise, this subterranean grotto offers subterranean respite quite unlike the open-air lodges above. Here, misty waters pool in the dark, creating an isolated atmosphere where Horde spellcasters gather far from the bustling central mesas. Within Thunder Bluff, the Pools of Vision function as the de facto base of operations for the Forsaken. Travelers from the eastern continent find kindred souls here: undead priests practicing their shadowed arts, mages conjuring arcane portals, and emissaries of the Defilers seeking recruits for their campaigns in the Arathi Highlands. Whether tucked away by tauren skepticism or by the Forsaken's own natural preference for the dark, this quiet refuge bridges Lordaeron's undead with their Kalimdor allies.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_pools-of-vision-c75873b1e6355a0f54c8/1-0000.mp3", duration = 77.9755102, start = 0},
+    {file = "Audio/Transport/full_subzone_pools-of-vision-8e26c6aec8d54665e02b/1-0000.mp3", duration = 75.0497959, start = 0},
   },
 }
 P.transport["subzone:pyrewood-village"] = {
@@ -854,7 +854,7 @@ P.transport["subzone:ratchet"] = {
   fullHash = "72e2db",
   text = "Ratchet. Ratchet is a bustling neutral port town run by the Steamwheedle Cartel on the eastern coast of the Barrens. Founded by chief engineer Gazlowe after he helped construct Orgrimmar, it serves as the primary maritime trade hub linking central Kalimdor to the Eastern Kingdoms. Perched on the arid coastline between Durotar and Dustwallow Marsh, Ratchet offers safe harbor to anyone carrying coin. Founded by the entrepreneurial engineer Gazlowe following the Third War, the port arose from smugglers, exiles, and daring traders looking to exploit Kalimdor's frontier. It operates beneath the banner of the Steamwheedle Cartel, maintaining strict neutrality between the Horde and the Alliance. Ships like The Maiden's Fancy regularly ply the waters across the Great Sea to Booty Bay, transporting goods, mercenaries, and raw materials between continents. Local bruisers keep a watchful eye on the docks, ruthlessly thrashing anyone foolish enough to start a brawl and disrupt commerce. Despite its outward appearance as a boisterous merchant town of docks, taverns, and workshops, Ratchet harbors darker dealings. Overlooking the harbor from the hills above sits a secluded tower occupied by an open coven of warlocks, including figures like Strahad Farsan and Menara Voidrender. While townsfolk and sailors busy themselves with cargo manifests and goblin engineering, practitioners of the dark arts gather here unmolested to commune with demonic forces, untroubled by the moral restrictions enforced in traditional faction capitals.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ratchet-085cd4ed3fcfb664046f/1-0000.mp3", duration = 92.395102, start = 0},
+    {file = "Audio/Transport/full_subzone_ratchet-72de5fd2fec9da431f7c/1-0000.mp3", duration = 93.9363265, start = 0},
   },
 }
 P.transport["subzone:razor-hill"] = {
@@ -878,7 +878,7 @@ P.transport["subzone:razorfen-downs-classic"] = {
   fullHash = "f89e16",
   text = "Razorfen Downs (Classic). Razorfen Downs is the ancestral burial ground and traditional capital city of the quilboar, nestled deep within giant thorny brambles in the southern Barrens. Recently, agents of the undead Scourge led by the lich Amnennar the Coldbringer seized control of the labyrinth, reanimating the quilboar dead and threatening to expand their dominion across central Kalimdor. Grown from the same towering, petrified vines as nearby Razorfen Kraul, Razorfen Downs rests where the ancient boar demigod Agamaggan fell during the War of the Ancients. For generations, the labyrinth of thorns served as the sacred necropolis and seat of power for the quilboar, guarded closely by the mystics of the Death's Head tribe. To the quilboar, the dense briars are holy ground, soaked in the blood of their divine progenitor. The sanctity of the Downs was shattered when agents of the Scourge infiltrated the brambles. Amnennar the Coldbringer, a powerful lich serving the Lich King, subjugated the resident Death's Head quilboar and turned the ancestral resting grounds into an undead redoubt. Reanimated skeletons, shambling corpses, and shrieking banshees now prowl the Spiral of Thorns. Both the Horde in the nearby Barrens and emissaries from the Cathedral of Light in Stormwind view this growing pocket of Scourge power as a grave threat to the continent.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_razorfen-downs-classic-6a67a5162126163117e1/1-0000.mp3", duration = 82.9126531, start = 0},
+    {file = "Audio/Transport/full_subzone_razorfen-downs-classic-1f29919cd46495370596/1-0000.mp3", duration = 82.442449, start = 0},
   },
 }
 P.transport["subzone:razorwind-canyon"] = {
@@ -894,7 +894,7 @@ P.transport["subzone:red-rocks"] = {
   fullHash = "3b205e",
   text = "Red Rocks. Red Rocks is a towering sandstone bluff in northeastern Mulgore that serves as a sacred ancestral burial ground for the tauren. Here, the most valiant fallen champions are laid to rest, and young braves travel to its quiet heights to seek the wisdom of their forebears. Rising high above the plains of northeastern Mulgore, the crimson formations of Red Rocks mark a sacred threshold between the living world and the next. Tauren tradition reserves this solemn ground for their most valiant heroes—chieftains, defenders, and champions who gave their lives founding and protecting Thunder Bluff. They are laid to rest here in honor, among the graves of their forebears. It is equally a place of spiritual beginning, where young tauren complete their rites of passage by honoring the ancestral graves and communing with the wind. The enduring peace of Red Rocks has been shattered by the Bristleback quilboar. Creeping out from their dens, these aggressive scavengers have infested the sandstone ledges and desecrated the ancestral graves with filth. This violation deeply affronts the spiritual traditions of Thunder Bluff. Shaman and lorekeepers now summon aid to cleanse the crags, driving out the Bristlebacks and reclaiming the sanctity of their resting dead.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_red-rocks-fb904f77d8f4241aef1f/1-0000.mp3", duration = 80.9795918, start = 0},
+    {file = "Audio/Transport/full_subzone_red-rocks-210e0050f38da64b2105/1-0000.mp3", duration = 73.2734694, start = 0},
   },
 }
 P.transport["subzone:rogues-quarter"] = {
@@ -982,7 +982,7 @@ P.transport["subzone:spirit-rise"] = {
   fullHash = "3c058b",
   text = "Spirit Rise. Spirit Rise is the northwest mesa of Thunder Bluff, serving as the tauren capital's premier sanctum for spiritual and shamanic study. Overseen by spiritual guides such as the Skychaser tribe, it features sacred training halls above and descends into the cavernous Pools of Vision below. Perched high upon the bluffs overlooking the plains of Mulgore, Spirit Rise is devoted to communion with the elements and ancestor spirits. Connected to the central mesa by rope bridges, it houses the Hall of Spirits and the Spiritual Healing pavilion, where young and veteran shaman gather to deepen their connection with the earth, air, fire, and water. The Skychaser tribe maintains a strong presence across the rise, guiding seekers through ancient traditions. Beneath the breezy huts and open-air totem shrines lies an entrance burrowing into the mesa itself: the steamy Pools of Vision, a sacred subterranean cavern where seers peer into spirit-touched waters.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_spirit-rise-2d0e4d212ca6887ed526/1-0000.mp3", duration = 60.0555102, start = 0},
+    {file = "Audio/Transport/full_subzone_spirit-rise-826f0bc616d5753f0cb0/1-0000.mp3", duration = 60.7869388, start = 0},
   },
 }
 P.transport["subzone:stagnant-oasis"] = {
@@ -1046,7 +1046,7 @@ P.transport["subzone:valley-of-spirits"] = {
   fullHash = "09b7b9",
   text = "Valley of Spirits. Tucked against the western cliffs of Orgrimmar, the Valley of Spirits serves as the long-standing seat of the Darkspear tribe within the Horde's capital. Filled with thatched lodges, tiki poles, and serene pools, it offers a stark contrast to the surrounding red stone and iron-clad orcish architecture. Branching westward off the bustling Valley of Strength, the Valley of Spirits is a lush and quiet enclave dedicated to the Darkspear trolls. When the tribe settled in Durotar alongside Thrall's orcs, this tranquil pocket among the crags became their urban gathering place. Trollish craftspeople, spiritualists, and practitioners gather around its wooden bridges and winding waters, practicing their arts away from the dry heat of the main thoroughfares. Beyond its dwellings and tranquil pools, the valley hosts practitioners of magic and wild crafts. Witch doctors, herbalists, and spellcasters congregate in lodges like the Spirit Lodge and Darkbriar Lodge. Tucked toward the back is the Talon Gate, which opens directly toward the open plains of the Barrens, offering quick passage for wanderers, hunters, and travelers roaming beyond the canyon walls.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_valley-of-spirits-dde90c651d311f17ba73/1-0000.mp3", duration = 68.2579592, start = 0},
+    {file = "Audio/Transport/full_subzone_valley-of-spirits-0f55ab7c1ca8d83f1125/1-0000.mp3", duration = 68.884898, start = 0},
   },
 }
 P.transport["subzone:valley-of-strength"] = {

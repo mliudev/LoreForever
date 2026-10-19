@@ -1,0 +1,100 @@
+{
+ "key": "quest:92880",
+ "type": "quest",
+ "name": "Return to Valanaar",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92880
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "The blessing invoking the four winds reflects the cultural and spiritual ties common among the defenders and leaders of Valanaar."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives return to valanaar",
+    "who sends you back to valanaar",
+    "yorna quest giver"
+   ],
+   "answer": "The quest is given by Yorna following a hard-fought defense against hostile attackers at an outpost, tasking you with delivering a status report back to leadership.",
+   "q": "Who sends you to Valanaar?"
+  },
+  {
+   "aliases": [
+    "who is valennia stormfist",
+    "where is valennia stormfist",
+    "hand in return to valanaar"
+   ],
+   "answer": "Valennia Stormfist is stationed in Valanaar and awaits word regarding the safety and operational status of the outlying defenders.",
+   "q": "Who do you report to in Valanaar?"
+  },
+  {
+   "aliases": [
+    "what is yornas report",
+    "what does yorna report say"
+   ],
+   "answer": "Yorna's Report contains an update confirming that the defenders have stabilized their position against the assault and are mopping up what remains of the attacking forces.",
+   "q": "What is Yorna's Report?"
+  },
+  {
+   "aliases": [
+    "what tower was attacked",
+    "which watchtower is yorna at"
+   ],
+   "answer": "The outpost defended by Yorna and her forces is the eastern watchtower, a critical defensive position watching over the approaches to Valanaar.",
+   "q": "Which watchtower was under attack?"
+  },
+  {
+   "aliases": [
+    "is the watchtower safe",
+    "did the defenders win"
+   ],
+   "answer": "While some mopping up remains to clear the lingering attackers, the defenders have secured the position and the situation at the watchtower is considered stable.",
+   "q": "What is the status of the eastern watchtower?"
+  },
+  {
+   "aliases": [
+    "four winds meaning",
+    "may the four winds bless you"
+   ],
+   "answer": "The phrase 'May the four winds bless you' and Valennia's exclamation 'Thank the winds' indicate a cultural reverence for the winds and elements held by the defenders of Valanaar.",
+   "q": "Why do the defenders speak of the four winds?"
+  }
+ ],
+ "keywords": [
+  "eastern watchtower",
+  "four winds",
+  "return to valanaar",
+  "valanaar",
+  "valennia stormfist",
+  "yorna",
+  "yorna's report"
+ ],
+ "related": [
+  "quest:92579"
+ ],
+ "sections": [
+  {
+   "body": "Following a fierce assault on the outpost, defender Yorna sends word back to the settlement of Valanaar. With the attacking force broken and the remaining hostiles being mopped up, an adventurer is dispatched with Yorna's Report to relieve the anxious leadership awaiting news in the town.",
+   "spoiler": 0,
+   "title": "Word from the Outpost"
+  },
+  {
+   "body": "The dispatch carries word directly to Valennia Stormfist in Valanaar regarding the condition of the eastern watchtower. Upon receiving confirmation that the tower has held and the perimeter is stabilized, Valennia expresses visible relief, offering thanks to the winds that their critical frontier remains secure.",
+   "spoiler": 0,
+   "title": "Relief in Valanaar"
+  }
+ ],
+ "summary": "Return to Valanaar is a quest where an adventurer delivers Yorna's report regarding the defense of the eastern watchtower back to Valennia Stormfist in Valanaar. The report confirms that the perimeter has been stabilized and the remaining attackers are being cleared out, bringing welcome relief to the settlement's leadership.",
+ "attribution": [
+  "In-game quest text: Return to Valanaar"
+ ]
+}

@@ -27,6 +27,8 @@
 //   topic       what it's about, by its words (lib/answer-signals.js topicOf), for the demand view
 //   ctx         who was asking, as the question said it (JSON: race, class, level, faction, target), for the review
 //               queue; say: what she said out loud when that wasn't the whole answer (speak short, show full)
+//   plan        the plan it was answered on, as lib/plan-usage.js planLabel names it ("free", "beta-hero", "hero",
+//               "legend-trialing"...): which features each plan really uses. Never anything about who.
 //
 // Old rows go three ways, so none outlives KEEP_DAYS by much even on a quiet day: with every new row (same batch),
 // before every read (answerLogReport), and with every companion's daily check-in (sweepAnswerLog). Reads also never
@@ -47,7 +49,7 @@ const SETUP = [
   "CREATE TABLE IF NOT EXISTS answer_log_salt (id INTEGER PRIMARY KEY CHECK (id = 1), salt TEXT NOT NULL)",
 ];
 // Columns added since the table was first made (10/18, the feedback loop): added once, where missing.
-const ADDED = ["ref TEXT", "signals TEXT", "topic TEXT", "ctx TEXT", "say TEXT"];
+const ADDED = ["ref TEXT", "signals TEXT", "topic TEXT", "ctx TEXT", "say TEXT", "plan TEXT"];
 const AFTER_ADDED = ["CREATE INDEX IF NOT EXISTS answer_log_ref ON answer_log (ref)"];
 export const OUTCOMES = ["answered", "unverified", "failed"];
 
@@ -189,8 +191,8 @@ export async function logAnswer(env, userId, entry = {}, { names = [], now = new
     const list = v => (Array.isArray(v) && v.length ? v : null);
     await env.DB.batch([
       env.DB.prepare("INSERT INTO answer_log (created, player, operation, npc, spoken, zone, sub, question, answer, " +
-        "action, model, model_ms, total_ms, looked_up, lookups, facts, feedback, outcome, error, ref, topic, ctx, say) " +
-        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)").bind(now.toISOString(),
+        "action, model, model_ms, total_ms, looked_up, lookups, facts, feedback, outcome, error, ref, topic, ctx, say, plan) " +
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)").bind(now.toISOString(),
         key, entry.operation === "character" ? "character" : "answer", clip(entry.npc, 80),
         entry.spoken ? 1 : 0, clip(entry.zone, 80), clip(entry.sub, 80), question,
         clip(scrubNames(entry.answer, names), 2000), clip(entry.action, 40), clip(entry.model, 60),
@@ -200,7 +202,7 @@ export async function logAnswer(env, userId, entry = {}, { names = [], now = new
         clip(entry.feedback, 16),
         entry.outcome, clip(entry.error, 200), ANSWER_ID.test(entry.ref || "") ? entry.ref : null,
         topicOf(entry.question, { operation: entry.operation, lookups: entry.lookups, action: entry.action }),
-        ctxOf(entry.ctx, names), clip(scrubNames(entry.say, names), 1000)),
+        ctxOf(entry.ctx, names), clip(scrubNames(entry.say, names), 1000), clip(entry.plan, 24)),
       env.DB.prepare("DELETE FROM answer_log WHERE created < ?").bind(cutoff(now)),
     ]);
     return true;
@@ -272,7 +274,7 @@ export async function sweepAnswerLog(env, now = new Date()) {
 // The nightly check and /admin (GET /api/admin/willo?answers=1): what was kept since `since` (default: all of it),
 // oldest first, `limit` rows after the row `after` (an id, for the next page), and the totals over the same rows:
 //   {keep_days, since, total, players, outcomes: {answered, ...}, operations: {...}, looked_up: {...},
-//    models: {...}, avg_total_ms, rows: [...], next}   next: the `after` for the next page, or null
+//    models: {...}, plans: {...}, avg_total_ms, rows: [...], next}   next: the `after` for the next page, or null
 export async function answerLogReport(env, { since = null, after = 0, limit = 200, now = new Date() } = {}) {
   await setupAnswerLog(env);
   const oldest = cutoff(now);
@@ -283,17 +285,17 @@ export async function answerLogReport(env, { since = null, after = 0, limit = 20
   const start = Math.max(Number.parseInt(after, 10) || 0, 0);
   const group = col => env.DB.prepare(`SELECT COALESCE(${col}, '') AS k, COUNT(*) AS n FROM answer_log ` +
     "WHERE created >= ? GROUP BY k").bind(from).all().then(r => Object.fromEntries(r.results.map(x => [x.k, x.n])));
-  const [totals, outcomes, operations, lookedUp, models, rows] = await Promise.all([
+  const [totals, outcomes, operations, lookedUp, models, plans, rows] = await Promise.all([
     env.DB.prepare("SELECT COUNT(*) AS total, COUNT(DISTINCT player) AS players, CAST(AVG(total_ms) AS INTEGER) AS avg_ms " +
       "FROM answer_log WHERE created >= ?").bind(from).first(),
-    group("outcome"), group("operation"), group("looked_up"), group("model"),
+    group("outcome"), group("operation"), group("looked_up"), group("model"), group("plan"),
     env.DB.prepare("SELECT id, created, player, operation, npc, spoken, zone, sub, question, answer, action, model, " +
-      "model_ms, total_ms, looked_up, lookups, facts, feedback, outcome, error, ref, signals, topic, ctx, say FROM answer_log " +
+      "model_ms, total_ms, looked_up, lookups, facts, feedback, outcome, error, ref, signals, topic, ctx, say, plan FROM answer_log " +
       "WHERE created >= ? AND id > ? ORDER BY id LIMIT ?").bind(from, start, n + 1).all(),
   ]);
   const page = rows.results.slice(0, n);
   return { keep_days: KEEP_DAYS, since: from, total: totals?.total || 0, players: totals?.players || 0, outcomes,
-    operations, looked_up: lookedUp, models, avg_total_ms: totals?.avg_ms ?? null,
+    operations, looked_up: lookedUp, models, plans, avg_total_ms: totals?.avg_ms ?? null,
     rows: page.map(r => ({ ...r, facts: r.facts ? JSON.parse(r.facts) : [], ctx: r.ctx ? JSON.parse(r.ctx) : null })),
     next: rows.results.length > n ? page.at(-1).id : null };
 }

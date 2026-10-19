@@ -1,0 +1,95 @@
+{
+ "key": "quest:98398",
+ "type": "quest",
+ "name": "The Oracle Tree",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98398
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druids naturally attune to sentient botanical life and the voices of ancient trees, making communion with the Oracle Tree an extension of their reverence for nature."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is oracle tree",
+    "oracle tree lore"
+   ],
+   "answer": "The Oracle Tree is an ancient, sentient tree capable of communicating telepathically with those nearby. When it wishes to impart a message or assign a task, it sheds a piece of its bark to draw the attention of worthy adventurers.",
+   "q": "What is the Oracle Tree?"
+  },
+  {
+   "aliases": [
+    "how does oracle tree speak",
+    "oracle tree communication"
+   ],
+   "answer": "Rather than speaking with an audible voice, the Oracle Tree conveys its thoughts telepathically. Anyone inspecting the fallen bark hears a calm, soothing voice entering their mind like a gentle breeze rustling through leaves.",
+   "q": "How does the Oracle Tree communicate?"
+  },
+  {
+   "aliases": [
+    "why find bark",
+    "fallen bark purpose"
+   ],
+   "answer": "The tree specifically sheds a piece of its bark when it has a purpose or duty that needs tending to. Inspecting the bark acts as the focal point for receiving the tree's telepathic guidance.",
+   "q": "Why do you need to find the Oracle Tree's bark?"
+  },
+  {
+   "aliases": [
+    "who sends you to oracle tree",
+    "quest giver oracle tree"
+   ],
+   "answer": "A local overseer or caretaker who has been observing your accomplishments recognizes that greater duties lie ahead of you. Noticing the freshly shed bark, they direct you to approach the tree to receive its guidance.",
+   "q": "Who directs you to the Oracle Tree?"
+  },
+  {
+   "aliases": [
+    "oracle tree quest goal",
+    "what does oracle tree want"
+   ],
+   "answer": "The quest initiates contact between an accomplished traveler and the tree itself. By seeking out the bark, you open your mind to hear the tree's message and learn what greater task it requires completed.",
+   "q": "What is the purpose of the quest The Oracle Tree?"
+  },
+  {
+   "aliases": [
+    "where find oracle bark",
+    "bark location"
+   ],
+   "answer": "The shed bark lies on the ground in the immediate vicinity of the Oracle Tree, waiting to be inspected by someone attuned enough to hear its message.",
+   "q": "Where is the Oracle Tree bark found?"
+  }
+ ],
+ "keywords": [
+  "oracle tree",
+  "oracle tree bark",
+  "sentient tree",
+  "shed bark",
+  "telepathy",
+  "the oracle tree"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "The Oracle Tree is a wise, sentient tree that watches over its surroundings and guides travelers who prove their mettle. When it requires an agent in the world, it deliberately sheds a fragment of its bark nearby. Those who take notice are beckoned to step forward, signaling that their preliminary tasks are finished and greater responsibilities await them.",
+   "spoiler": 0,
+   "title": "A Call to Greater Duties"
+  },
+  {
+   "body": "The Oracle Tree does not speak with an ordinary physical voice. Instead, examining the fallen piece of bark allows the tree to reach directly into the mind of the seeker. Its presence is calm and soothing, washing over the listener like a soft breeze moving through a canopy of leaves, transmitting thoughts and desires without uttering a single spoken word.",
+   "spoiler": 0,
+   "title": "Communion Through the Bark"
+  }
+ ],
+ "summary": "The Oracle Tree is a quest in which a promising adventurer is directed to commune with a sentient, ancient tree. By seeking out a piece of bark the tree has intentionally shed, travelers receive its soothing telepathic message and prepare for greater tasks ahead.",
+ "attribution": [
+  "In-game quest text: The Oracle Tree"
+ ]
+}

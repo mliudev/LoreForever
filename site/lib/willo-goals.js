@@ -780,8 +780,9 @@ export function goalsList(goals, stock, { current = null, live = null, race = nu
 }
 
 // Her sentences that say a goal was kept, changed or dropped ("Goal updated: riding at level 45", the blind check, case
-// 6), for an answer where nothing was written: only the site's own line may say so.
-const GOAL_CLAIM = /^\s*(?:your\s+)?goals?\s+(?:kept|changed|updated|dropped|set|added|saved|removed|noted)\b|\b(?:that|it|this)(?:'s|\s+is)\s+already\s+(?:one\s+of\s+)?(?:your|a)\s+goals?\b|\bgoals?\s+(?:has|have)\s+been\s+(?:kept|changed|updated|dropped|set|added|saved|removed)\b|\b(?:updated|changed|set|saved|added|kept)\s+(?:your|the|that|this)\s+(?:\w+\s+)?goals?\b/i;
+// 6; "That goal's gone: riding at level 40." after the site's "Goal dropped: ..." line, LOR-686), for an answer where
+// nothing was written: only the site's own line may say so.
+const GOAL_CLAIM = /\bgoal(?:'s|’s|\s+is|\s+has\s+been)\s+(?:now\s+)?(?:gone|removed|dropped|deleted|cleared|taken\s+off)\b|\bno\s+longer\s+(?:one\s+of\s+)?your\s+goals?\b|^\s*(?:your\s+)?goals?\s+(?:kept|changed|updated|dropped|set|added|saved|removed|noted)\b|\b(?:that|it|this)(?:'s|\s+is)\s+already\s+(?:one\s+of\s+)?(?:your|a)\s+goals?\b|\bgoals?\s+(?:has|have)\s+been\s+(?:kept|changed|updated|dropped|set|added|saved|removed)\b|\b(?:updated|changed|set|saved|added|kept)\s+(?:your|the|that|this)\s+(?:\w+\s+)?goals?\b/i;
 export function withoutGoalClaims(answer, fallback = "") {
   const sentences = String(answer || "").match(/[^.!?]+[.!?]*\s*/g) || [];
   const kept = sentences.filter(t => !GOAL_CLAIM.test(t) && !(CLAIMS.test(t) && /\bgoals?\b/i.test(t))).join("").trim();

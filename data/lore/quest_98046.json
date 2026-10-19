@@ -1,0 +1,118 @@
+{
+ "key": "quest:98046",
+ "type": "quest",
+ "name": "Crown of the Earth",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98046
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Fandral specifically addresses the adventurer as a fellow druid, treating the ritual's failure with curt impatience before dismissing them from his presence."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "The errand reveals the everyday strain within Darnassus, contrasting Fandral Staghelm's prickly authority with the patient devotion of the Sisterhood of Elune in the Temple of the Moon."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The quest illustrates the quiet leadership tensions within Darnassus, the primary Alliance capital on Kalimdor, while Malfurion Stormrage remains absent."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who starts crown of the earth",
+    "crown of the earth quest giver",
+    "fandral quest"
+   ],
+   "answer": "The quest is given by Arch Druid Fandral Staghelm in Darnassus. Fandral, currently overseeing the Cenarion Circle while Malfurion Stormrage is absent, assigns the task in an abrupt fit of frustration after an incantation involving sacred waters fails to produce the answers he sought.",
+   "q": "Who gives the quest Crown of the Earth?"
+  },
+  {
+   "aliases": [
+    "where to take drained vessel",
+    "drained vessel turn in",
+    "where is lariia"
+   ],
+   "answer": "You deliver the Drained Vessel to Priestess Lariia at the Temple of the Moon in southern Darnassus. Fandral orders you to hand it over so the priestesses of Elune can dispose of it, assuming the spent container is of no further use.",
+   "q": "Where do you take the Drained Vessel?"
+  },
+  {
+   "aliases": [
+    "why is fandral mad",
+    "fandral attitude",
+    "why is fandral impatient"
+   ],
+   "answer": "Arch Druid Fandral Staghelm is under significant strain leading the night elves and the Cenarion Circle while Malfurion Stormrage is away. When his magical incantation yields nothing, his irritation and pride cause him to lash out and quickly dismiss the adventurer rather than look deeper into the failure.",
+   "q": "Why is Fandral Staghelm so frustrated?"
+  },
+  {
+   "aliases": [
+    "why did the incantation fail",
+    "did fandral ritual work",
+    "failed incantation"
+   ],
+   "answer": "Fandral Staghelm assumes the water itself lacked any useful power, but Priestess Lariia notices a crucial detail when she takes the vessel. Several drops of water still cling to the inside, suggesting that the incantation might have failed simply because the vessel was not fully emptied during the rite.",
+   "q": "Why did Fandral's incantation fail?"
+  },
+  {
+   "aliases": [
+    "where is malfurion",
+    "why is malfurion absent",
+    "malfurion status"
+   ],
+   "answer": "Malfurion Stormrage is currently absent from Darnassus, leaving leadership of the Cenarion Circle and guiding authority over the night elves to Arch Druid Fandral Staghelm. This absence places a heavy mantle upon Fandral, contributing to his volatile temper and impatience with setbacks.",
+   "q": "Where is Malfurion during this quest?"
+  },
+  {
+   "aliases": [
+    "who is lariia",
+    "priestess lariia lore",
+    "lariia temple of the moon"
+   ],
+   "answer": "Priestess Lariia is a night elf servant of Elune stationed within the Temple of the Moon in Darnassus. She receives the vessel from the adventurer, showing compassion regarding Fandral's heavy responsibilities while astutely recognizing that the vessel still contains leftover water.",
+   "q": "Who is Priestess Lariia?"
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "crown of the earth",
+  "darnassus",
+  "drained vessel",
+  "elune",
+  "fandral staghelm",
+  "lariia",
+  "malfurion",
+  "temple of the moon"
+ ],
+ "related": [
+  "npc:fandral-staghelm",
+  "subzone:temple-of-the-moon",
+  "zone:darnassus",
+  "topic:druid",
+  "quest:2519"
+ ],
+ "sections": [
+  {
+   "body": "Within Darnassus, Arch Druid Fandral Staghelm carries the responsibility of guiding the night elves while Malfurion Stormrage remains absent. In his search for answers, Fandral attempts an incantation using sacred waters held within a phial. When the rite seemingly yields no results, the Arch Druid's temper flares. Convinced the waters are useless, he dismisses the adventurer with sharp words and instructs them to carry the drained vessel south to the Temple of the Moon so the priestesses may dispose of it.",
+   "spoiler": 0,
+   "title": "Fandral's Frustration"
+  },
+  {
+   "body": "Upon arriving at the Temple of the Moon, Priestess Lariia offers a gentler perspective, asking the adventurer not to mind Fandral's harsh demeanor given the heavy burden he carries. Yet as she inspects the phial, she notices something the Arch Druid missed in his haste: several drops of water still remain inside. This lingering residue raises the distinct possibility that Fandral's ritual did not fail due to flawed magic, but because the vessel had not been properly emptied.",
+   "spoiler": 1,
+   "title": "The Remaining Drops"
+  }
+ ],
+ "summary": "Crown of the Earth is a quest in Darnassus that begins when Arch Druid Fandral Staghelm abandons a failed incantation involving a phial of water. Dismissed by the frustrated Arch Druid, the adventurer is tasked with delivering the drained vessel to Priestess Lariia at the Temple of the Moon for disposal. However, upon examining the phial, the priestess notices that some water remains inside, casting doubt on why the ritual truly failed.",
+ "attribution": [
+  "In-game quest text: Crown of the Earth"
+ ]
+}

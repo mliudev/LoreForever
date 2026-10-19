@@ -742,6 +742,28 @@ local function subtitleSizeSection(c, anchor)
     end)
   end)
   btn.Update()
+  -- Move the subtitles... / Put them back, beside it (LOR-679): drag them off your character or your bars, with a plain
+  -- drag for 30 seconds (Subtitles.Move). Made here with the page at login, not when the window opens (LOR-481).
+  local move = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
+  move:SetSize(190, 24)
+  move:SetPoint("LEFT", btn, "RIGHT", 10, 0)
+  move:SetText(L["Move the subtitles..."])
+  fit(move, 190)
+  move:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(L["Move the subtitles..."])
+    T.Tip(L["Drag the subtitles anywhere on your screen for 30 seconds, for example off your character or your action bars. They stay where you drop them. Same as /lore subtitles."], "tipText", true)
+    GameTooltip:Show()
+  end)
+  move:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  move:SetScript("OnClick", function() ns.Subtitles.Move() end)
+  local back = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
+  back:SetSize(140, 24)
+  back:SetPoint("LEFT", move, "RIGHT", 10, 0)
+  back:SetText(L["Put them back"])
+  fit(back, 140)
+  back:SetScript("OnClick", function() ns.Subtitles.PutBack() end)
+  btn.move, btn.back = move, back
   return btn
 end
 
@@ -971,6 +993,7 @@ function Options.Create()
   p.updateWillo()
   local sizeBtn = sizeSection(c, willoEnd)
   local subtitleBtn = subtitleSizeSection(c, sizeBtn)
+  p.moveSubtitles, p.putSubtitlesBack = subtitleBtn.move, subtitleBtn.back
   p.updateSize = function() sizeBtn.Update(); subtitleBtn.Update() end
   local bottom
   p.voice, bottom = Options.VoiceSection(c, subtitleBtn)

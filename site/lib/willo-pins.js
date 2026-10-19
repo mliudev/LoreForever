@@ -11,6 +11,7 @@
 // pins nothing and says how she could. The model names the pin and says what to remember; this file writes the line.
 
 import { placeKey } from "./willo-notebook.js";
+import { battleground } from "./battlegrounds.js";
 
 export const PINS_HEADING = "Pins";
 // Her one pin tool, a notebook tool by its name (lib/willo-notebook.js isNotebookTool: done when called, with the
@@ -25,6 +26,9 @@ const SEP = " · ";
 // to rename or take out a pin, or about their pins. Kept in step with companion/lore_companion/recall.py PINS, which
 // leaves these questions to the notebook.
 const ADD = /\b(?:pin|mark|save|bookmark|remember)\s+(?:this|that|our|my|the)\s+(?:\w+\s+)?(?:spot|place|location|cave|camp|den|cove|room|corner|ledge|ridge)\b|\bpin\s+(?:it|this|that|here|where)\b|\bdrop\s+a\s+pin\b|\b(?:pin|mark)\s+(?:it\s+)?here\b/i;
+// Asking about a pin they made isn't making one: "Where did I pin the fishing spot?" (QA 10/19: it was read as "pin the
+// fishing spot", and she repeated why she couldn't pin).
+const RECALL = /\b(?:where|when|why|what|which|did|have|had)\s+(?:did\s+|have\s+|had\s+)?(?:i|we)\s+(?:already\s+)?(?:pin|mark|save|bookmark)(?:ned|ed)?\b/i;
 const MANAGE = /\b(?:rename|call|name|retitle|relabel)\b[^.?!]{0,60}\bpin\b|\b(?:remove|delete|drop(?!\s+a\s+pin)|clear|erase|forget|scrap|bin)\b[^.?!]{0,60}\bpins?\b|\bunpin\b/i;
 const READ = /\bpins?\b|\bpinned\b|\bmy\s+(?:marked\s+|saved\s+)?spots\b/i;
 // "What pins do I have?", "list my pins", "how many pins?": the list, built here from this character's pins and their
@@ -51,7 +55,7 @@ export function pinIntent(question) {
   const clearAll = CLEAR_ALL.test(q);
   const manage = !clearAll && MANAGE.test(q);
   const last = !manage && !clearAll && LAST_ANY.test(q);
-  const here = !manage && !clearAll && !last && ADD.test(q);
+  const here = !manage && !clearAll && !last && ADD.test(q) && !RECALL.test(q);
   const name = !manage && !clearAll && !last && !here ? NAMED.exec(q) : null;
   const add = here || last || Boolean(name);
   const list = !add && !manage && !clearAll && LIST.test(q);
@@ -118,12 +122,13 @@ export function dayOn(now, offset) {
 }
 
 // Where their last save left them: the newest moment of the journey Willo's app synced (lib/journey.js readJourney)
-// that names a place, as the profile's "Last seen" does. {place, x: null, y: null, day}, or null with none.
+// that names a place outside a battleground (LOR-685), as the profile's "Last seen" does. {place, x: null, y: null,
+// day}, or null with none.
 export function lastPlace(journey) {
   const moments = Array.isArray(journey?.moments) ? journey.moments : [];
   for (let i = moments.length - 1; i >= 0; i--) {
     const m = moments[i];
-    if (typeof m?.z !== "string" || !m.z) continue;
+    if (typeof m?.z !== "string" || !m.z || battleground(m.z)) continue;
     const place = m.s && placeKey(m.s) !== placeKey(m.z) ? `${m.s}, ${m.z}` : m.z;
     const tz = Number.isInteger(m.tz) ? m.tz : Number.isInteger(journey.tz) ? journey.tz : 0;
     return { place, x: null, y: null, day: dayOn(new Date(m.t * 1000), tz) };

@@ -1,0 +1,94 @@
+{
+ "key": "quest:98286",
+ "type": "quest",
+ "name": "Camping 101: Enchanting",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98286
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who teaches enchanted lute",
+    "who is nasalanna windsinger",
+    "where is nasalanna windsinger"
+   ],
+   "answer": "Nasalanna Windsinger is an instructor residing in Shen'dar Village. She teaches skilled practitioners how to craft special profession items for wilderness camps, specifically the Enchanted Lute for enchanters who demonstrate proficiency in their craft.",
+   "q": "Who is Nasalanna Windsinger?"
+  },
+  {
+   "aliases": [
+    "where is shendar village",
+    "how to find shendar village"
+   ],
+   "answer": "Shen'dar Village is the settlement where Nasalanna Windsinger resides. Adventurers seeking instruction on crafting camping equipment like the Enchanted Lute travel there once they have developed their core skills.",
+   "q": "Where is Shen'dar Village?"
+  },
+  {
+   "aliases": [
+    "what does enchanted lute do",
+    "why craft enchanted lute",
+    "camping lute"
+   ],
+   "answer": "The Enchanted Lute is a magical camping instrument crafted by enchanters. It provides entertainment and restorative morale during downtime around the campfire, helping travelers steel themselves and prepare to face the rigors of the wilderness ahead.",
+   "q": "What is an Enchanted Lute?"
+  },
+  {
+   "aliases": [
+    "requirements for camping 101 enchanting",
+    "when can i learn enchanted lute"
+   ],
+   "answer": "Before Nasalanna Windsinger will teach you how to craft an Enchanted Lute, you must first prove your proficiency in the magical art of enchanting. Only seasoned practitioners are trusted with crafting these camp utility enchantments.",
+   "q": "What are the requirements to learn the recipe?"
+  },
+  {
+   "aliases": [
+    "why do campers want enchanters",
+    "enchanters camping benefits"
+   ],
+   "answer": "Enchanters bring subtle utility and magical comforts to remote camps where mundane supplies often fall short. By infusing ordinary camp tools with magical enhancements, they help adventurers recover, stay entertained, and prepare for unexpected hazards on the trail.",
+   "q": "Why are enchanters valuable at wilderness campsites?"
+  },
+  {
+   "aliases": [
+    "are there other camping items",
+    "other profession camp crafts"
+   ],
+   "answer": "Yes, craftsmen and gatherers across various disciplines learn to construct dedicated campsite tools. For enchanters, this specialized craft takes the form of the Enchanted Lute taught by Nasalanna Windsinger in Shen'dar Village.",
+   "q": "Can other professions craft camping items?"
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping",
+  "camping 101",
+  "enchanted lute",
+  "enchanting",
+  "lute",
+  "nasalanna windsinger",
+  "shen'dar village"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Life on the open road demands more than just sharpened blades and rations; rest and morale are vital for enduring prolonged expeditions. Practitioners of enchanting bring unique magical comforts to camp life, using their mastery of ambient arcana to uplift travelers during their downtime. In wilderness camps across Azeroth, the presence of an enchanter ensures that weary adventurers can recover their strength and spirits before returning to perilous trails.",
+   "spoiler": 0,
+   "title": "Comforts of the Hearth"
+  },
+  {
+   "body": "To learn the subtle magic of campsite crafting, aspiring enchanters are directed toward Shen'dar Village. There, Nasalanna Windsinger instructs capable spell-weavers in the construction of an Enchanted Lute. Craftsmen must first prove their dedication and proficiency in enchanting before Nasalanna shares the secrets of fashioning an instrument capable of weaving restorative melodies under the stars.",
+   "spoiler": 0,
+   "title": "The Song of Shen'dar"
+  }
+ ],
+ "summary": "Camping 101: Enchanting directs practitioners of the arcane craft to Shen'dar Village to learn how to create specialized wilderness gear. By speaking with Nasalanna Windsinger, proven enchanters can learn to fashion an Enchanted Lute to entertain and bolster their companions around the campfire.",
+ "attribution": [
+  "In-game quest text: Camping 101: Enchanting"
+ ]
+}

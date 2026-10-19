@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "include": ["/", "/feedback", "/downloads", "/voices", "/voices/*", "/translate", "/translate/*", "/discord", "/willo", "/w/*", "/api/*", "/download/*", "/u/*",
+  "include": ["/", "/feedback", "/downloads", "/voices", "/voices/*", "/translate", "/translate/*", "/discord", "/willo", "/w/*", "/a/*", "/api/*", "/download/*", "/u/*",
               "/contributors", "/contribute/progress", "/contribute", "/contribute/r/*",
               "/lore", "/lore/*", "/guides", "/guides/*", "/audio/clip/*", "/audio/story/*", "/pictures/*", "/share/*",
               "/account", "/admin", "/admin/*", "/clip-report", "/faq", "/link", "/link/web", "/privacy", "/unsubscribe", "/whats-new"],
-  "exclude": ["/voices/clips.csv", "/voices/voices.json", "/voices/player.js", "/voices/lines.json", "/voices/studio.js", "/voices/studio.css",
+  "exclude": ["/voices/clips.csv", "/voices/voices.json", "/voices/player.js", "/voices/lines.json", "/voices/lines/*", "/voices/studio.js", "/voices/studio.css",
               "/voices/testpack.js", "/voices/crc32.js", "/voices/mp3.js", "/voices/vendor/*",
               "/voices/takecheck.js", "/voices/zone-list.js", "/voices/zone-claims.js", "/voices/lend.js", "/voices/lend.css",
               "/voices/lend-script.json",
               "/translate/languages.json", "/translate/packs.json", "/translate/fp.json",
               "/translate/data/*", "/translate/check.js", "/translate/blocklist.js",
               "/lore/data/*", "/lore/lore.js", "/lore/lore.css",
-              "/guides/articles/*", "/guides/guides.css"]
+              "/guides/articles/*", "/guides/guides.css", "/guides/editor.js", "/guides/editor.css"]
 }

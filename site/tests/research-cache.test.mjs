@@ -5,7 +5,7 @@ import assert from "node:assert/strict";
 import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { ANSWER_MODEL, ANSWER_RESERVATION_MICRO, LOOKUP_RESERVATION_MICRO } from "../lib/companion-answers.js";
+import { LITE_MODEL, ANSWER_RESERVATION_MICRO, LOOKUP_RESERVATION_MICRO } from "../lib/companion-answers.js";
 import { keepFinding, wantsSearch, realWorld, searchesBefore, ofThisEra } from "../lib/research-cache.js";
 import { helpBlock, helpQuestion } from "../lib/willo-help.js";
 import { d1 } from "./helpers.mjs";
@@ -56,7 +56,7 @@ test("a spoken practical question no fact covers is looked up first, and the nex
   const first = await ask(await linked(), "Where can I buy Simple Flour?");
   assert.equal(first.looked_up, "quick");
   assert.equal(calls.length, 2, "the look-up, then the answer");
-  assert.match(calls[0].url, new RegExp(`${ANSWER_MODEL}:generateContent$`));
+  assert.match(calls[0].url, new RegExp(`${LITE_MODEL}:generateContent$`));
   assert.deepEqual(calls[0].body.tools, [{ googleSearch: {} }]);
   assert.match(calls[0].system, /You look things up/);
   assert.equal(calls[0].user, "Question: Where can I buy Simple Flour?\nAsked in: Ironforge, by a Human Warrior level 45 Alliance.");

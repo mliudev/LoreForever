@@ -1,0 +1,111 @@
+{
+ "key": "quest:416",
+ "type": "quest",
+ "name": "Rat Catching",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   416
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As defenders of Khaz Modan, Dwarves have a direct stake in keeping the foothills around Thelsamar clean from vermin and subterranean encroachers."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Mountaineer Kadrell represents the local dwarven authorities of Loch Modan, offering bounties to any Alliance adventurer willing to safeguard their settlements."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives rat catching",
+    "where to get rat catching",
+    "kadrell quest"
+   ],
+   "answer": "Mountaineer Kadrell offers this bounty in Thelsamar. He asks travelers and adventurers to help cull the vermin encroaching upon the town from the nearby mountainside.",
+   "q": "Who gives the Rat Catching quest?"
+  },
+  {
+   "aliases": [
+    "what are tunnel rats",
+    "kobolds in loch modan",
+    "tunnel rat kobold"
+   ],
+   "answer": "Tunnel rats are a breed of kobolds that have dug dens and established themselves in the western foothills near Thelsamar, infesting the mountainside with filth.",
+   "q": "What are tunnel rat kobolds?"
+  },
+  {
+   "aliases": [
+    "where are the tunnel rats",
+    "rat catching location",
+    "dens west of thelsamar"
+   ],
+   "answer": "The tunnel rat kobolds and their dens are located directly west of Thelsamar, scattered along the rugged mountainside and foothills.",
+   "q": "Where can the tunnel rat kobolds be found?"
+  },
+  {
+   "aliases": [
+    "why collect ears",
+    "why does kadrell want ears",
+    "proof of kill loch modan"
+   ],
+   "answer": "Mountaineer Kadrell requires the ears of the tunnel rat kobolds as proof of the kill before he dispenses the town's bounty reward.",
+   "q": "Why does Kadrell ask for Tunnel Rat Ears?"
+  },
+  {
+   "aliases": [
+    "why clear tunnel rats",
+    "thelsamar rat problem",
+    "why kill kobolds in loch modan"
+   ],
+   "answer": "The kobolds have moved into the foothills right outside Thelsamar, setting up dens and fouling the surrounding dwarven lands with their filth. Kadrell wants them eliminated to secure the area.",
+   "q": "Why is the Mountaineer concerned about the kobold infestation?"
+  },
+  {
+   "aliases": [
+    "does rat catching have follow up",
+    "rat catching chain",
+    "quest after rat catching"
+   ],
+   "answer": "Rat Catching is a straightforward local bounty task aimed at clearing pests around Thelsamar, rather than an elaborate multi-part saga. Kadrell pays out the bounty once the ears are delivered.",
+   "q": "Does Rat Catching lead to a larger questline?"
+  }
+ ],
+ "keywords": [
+  "bounty",
+  "kobold",
+  "loch modan",
+  "mountaineer kadrell",
+  "rat catching",
+  "thelsamar",
+  "tunnel rat",
+  "tunnel rat ears"
+ ],
+ "related": [
+  "npc:mountaineer-kadrell",
+  "subzone:thelsamar",
+  "topic:kobold"
+ ],
+ "sections": [
+  {
+   "body": "To the west of Thelsamar, an infestation of tunnel rat kobolds has taken root in the foothills of Loch Modan. Digging dens along the mountainside and fouling the surrounding terrain with filth, these subterranean pests pose a constant nuisance to the dwarven settlement. Left unchecked, their warrens threaten the safety and hygiene of the roads leading into the town.",
+   "spoiler": 0,
+   "title": "Vermin in the Foothills"
+  },
+  {
+   "body": "To deal with the encroaching pests, Mountaineer Kadrell has taken matters into his own hands by placing a standing bounty on the creatures. Calling upon passing adventurers, Kadrell demands severed tunnel rat ears as proof of culling before handing over coin and compensation, even if the pungent trophies prove foul to inspect.",
+   "spoiler": 0,
+   "title": "A Mountaineer's Bounty"
+  }
+ ],
+ "summary": "Rat Catching is a local bounty quest in Loch Modan issued by Mountaineer Kadrell of Thelsamar. Tasked with driving back an infestation of tunnel rat kobolds encroaching upon the western foothills, adventurers must cull the pests and return with their ears to claim a reward.",
+ "attribution": [
+  "In-game quest text: Rat Catching"
+ ]
+}

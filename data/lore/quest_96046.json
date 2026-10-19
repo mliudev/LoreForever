@@ -1,0 +1,107 @@
+{
+ "key": "quest:96046",
+ "type": "quest",
+ "name": "Camping 101: Mining",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96046
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "Miners learn how to shape raw earth and mineral ore into a lodestone, an essential instrument for anchoring wilderness camps in the wild."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "Campcraft relies closely on basic culinary skills, as any viable shelter requires a proper campfire taught by cooking trainers."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "lodestone purpose",
+    "what is lodestone for",
+    "why craft lodestone"
+   ],
+   "answer": "A lodestone acts as a foundational tool used by wilderness survivalists to establish and anchor a personal campsite out in the wilds.",
+   "q": "What is a lodestone used for?"
+  },
+  {
+   "aliases": [
+    "can i camp in town",
+    "camping in city",
+    "camp inside settlement"
+   ],
+   "answer": "Townspeople and settlement authorities frown upon adventurers pitching tents and setting up camp in public squares or city streets, meaning you must venture out into the wild to establish one.",
+   "q": "Can I set up camp inside a town or city?"
+  },
+  {
+   "aliases": [
+    "do i need campfire",
+    "how to make camp",
+    "camp prerequisites"
+   ],
+   "answer": "Every camp requires a warm campfire to be considered complete. You cannot properly pitch your camp without one burning nearby.",
+   "q": "What is required before setting up a camp?"
+  },
+  {
+   "aliases": [
+    "where learn campfire",
+    "who teaches campfire",
+    "campfire trainer"
+   ],
+   "answer": "Basic fire-starting is an essential part of the culinary arts, taught readily by cooking instructors and chefs across Azeroth.",
+   "q": "Where do I learn how to build a campfire?"
+  },
+  {
+   "aliases": [
+    "why miners camp",
+    "mining lodestone connection",
+    "lodestone craft"
+   ],
+   "answer": "Miners possess the trade knowledge required to extract and work the natural minerals and stone needed to craft a lodestone.",
+   "q": "How does mining connect to crafting a lodestone?"
+  },
+  {
+   "aliases": [
+    "where to test camp",
+    "testing lodestone",
+    "camp outdoors"
+   ],
+   "answer": "You should head past the city gates and out into the open wilderness where there is plenty of open ground and no disapproving townsfolk.",
+   "q": "Where should I go to test my new camp?"
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping",
+  "camping 101: mining",
+  "campsite",
+  "cooking",
+  "lodestone",
+  "mining",
+  "wilderness"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Venturing out beyond the safety of guarded roads requires self-reliance and fieldcraft. Miners learn to apply their knowledge of minerals and stone to craft a lodestone, an anchor piece used to pitch a functional campsite out in the untamed world.",
+   "spoiler": 0,
+   "title": "Fieldcraft for Miners"
+  },
+  {
+   "body": "Settled folk take a dim view of travelers pitching shelters in the middle of town squares or bustling thoroughfares. Establishing a campsite demands heading out into the open wilds, away from town limits. Furthermore, no wilderness site is truly functional without a roaring campfire to stave off the night chill, making basic culinary firecraft an indispensable companion to mineral work.",
+   "spoiler": 0,
+   "title": "Rules of the Wild"
+  }
+ ],
+ "summary": "Camping 101: Mining instructs miners in crafting a lodestone to establish campsites out in the wilderness. It marks an essential step in survival training, emphasizing the reliance of wild camping on mineral crafting and basic fire-building.",
+ "attribution": [
+  "In-game quest text: Camping 101: Mining"
+ ]
+}

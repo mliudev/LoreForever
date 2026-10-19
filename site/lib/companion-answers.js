@@ -10,7 +10,7 @@ import { HELP_MAX_BYTES } from "./willo-help.js";
 import { ACTION_RULES, SPOKEN_ACTION_RULE } from "./willo-tools.js";
 import { NOTEBOOK_RULES, NOTEBOOK_MAX_BYTES, isNotebookTool } from "./willo-notebook.js";
 import { GOAL_RULES, GOALS_MAX_BYTES, isGoalTool } from "./willo-goals.js";
-import { OFF_ANSWERS, planFor, planAbove, plansOn, packsFor, companionFeatures, overTextCap, poolWindow }
+import { OFF_ANSWERS, planFor, planAbove, plansOn, packsFor, companionFeatures, capState, poolWindow }
   from "./billing.js";
 import { voiceAllowance } from "./companion-voice.js";
 import { tasteState } from "./best-first.js";
@@ -18,10 +18,30 @@ import { tasteState } from "./best-first.js";
 // The free answers a day while plans are switched off (lib/billing.js OFF_ANSWERS). A player's own limit comes from
 // their plan (lib/billing.js planFor).
 export const ANSWERS_PER_DAY = OFF_ANSWERS;
-// Ordinary answers, character replies, chat memory and quick look-ups use ANSWER_MODEL; required research, and a
-// Champion's answers and character replies (strong, lib/billing.js PLANS stronger), use RESEARCH_MODEL.
+// Which model writes what (modelFor). Mike, 10/19: "since we have margin let's use smarter, faster, better models".
+// The model bake-off (10/19, eval/willo/lab/models.mjs: six models on the gold set, 100 live questions and 32 of Mike's
+// asked with a picture of the game): 3.6 Flash was the most accurate that's about as quick to her first word (gold set
+// 87.1 -> 89.7%, pictures 51.6 -> 66.4%, live questions the same; 0.06 s later at p50, which Mike called not
+// noticeable: "it should be a balance"). 3.8 Flash and Claude Sonnet were more accurate still, but 0.5-1.3 s later.
+// Then (Mike, 10/19: "yes to both", the smarter model is Legend's only, from now): SMART_MODEL for a plan with
+// `smarter` (lib/billing.js PLANS: Legend) while plans are on, its pictures too; every other plan's on ANSWER_MODEL
+// and SIGHT_MODEL, Flash-Lite. Rolling one back or out is a line here or in PLANS.
 export const ANSWER_MODEL = "gemini-3.1-flash-lite";
+export const SIGHT_MODEL = "gemini-3.1-flash-lite";
+export const SMART_MODEL = "gemini-3.6-flash";
+export const LITE_MODEL = "gemini-3.1-flash-lite";
 export const RESEARCH_MODEL = "gemini-3.8-flash";
+// The Flash models, at Flash's prices (primaryPrices); every other model here is at Flash-Lite's.
+const FLASH_MODELS = new Set(["gemini-3.6-flash", "gemini-3.8-flash"]);
+// The model a call goes to (generate): required research, and a Champion's stronger answers and character replies
+// (strong, lib/billing.js PLANS stronger), on RESEARCH_MODEL; her own answers on SMART_MODEL for a smarter plan
+// (smarter), else ANSWER_MODEL, or SIGHT_MODEL when she sees a picture of the game (seesPicture); character replies,
+// chat memory and quick look-ups on LITE_MODEL, and so are her answers to a paying player whose month has passed its
+// text cap (lite: lib/billing.js capState "lite").
+export const modelFor = (operation, { grounded = false, strong = false, picture = false, lite = false,
+  smarter = false } = {}) =>
+  grounded || (strong && operation !== "compact") ? RESEARCH_MODEL
+  : operation !== "answer" || lite ? LITE_MODEL : smarter ? SMART_MODEL : picture ? SIGHT_MODEL : ANSWER_MODEL;
 export const COMPACTIONS_PER_DAY = 20;
 export const ANSWER_PROMPT_BYTES = 16_000;
 export const ANSWER_OUTPUT_TOKENS = 512;
@@ -192,6 +212,10 @@ export const styleOf = value => value === "spoken" ? "spoken" : null;
 export const ANSWER_IMAGE_CHARS = 200_000;
 export const imageOf = value => typeof value === "string" && value.length <= ANSWER_IMAGE_CHARS && value.length % 4 === 0 &&
   value.startsWith("/9j/") && /^[A-Za-z0-9+/]+={0,2}$/.test(value) ? value : null;
+// Whether her answer goes with the picture (writeAnswer), and so on SIGHT_MODEL: a spoken, unresearched answer with a
+// good one. The answer's reservation (reserveAnswer) asks the same, so what it holds is what writeAnswer settles.
+export const seesPicture = (operation, researchRequired, style, image) =>
+  operation === "answer" && !researchRequired && Boolean(styleOf(style)) && Boolean(imageOf(image));
 
 // The player is disputing the last answer or losing patience (lib/answer-feedback.js feedbackKind), said once more
 // right before they're answered: Flash-Lite otherwise defends what it said (LOR-446).
@@ -232,15 +256,14 @@ function systemPrompt(operation, grounded, persona, style, { picture = false, fa
   return (picture && !character ? `${spoken}\n\n${PICTURE_SYSTEM}` : spoken) + acts;
 }
 
-// Verified 2026-10-09: https://ai.google.dev/gemini-api/docs/pricing and /docs/google-search.
-// Gemini 3.8 Flash: $0.75/M input, $3.75/M output through 2026-12-31; $1.50/M and $7.50/M
-// from 2027-01-01. Output includes thinking. Ordinary replies and compaction use 3.1 Flash-Lite at $0.25/M and $1.50/M.
-// Search costs $0.014 per unique nonempty query. Retrieval tokens are excluded; no other tools are enabled.
+// Verified 2026-10-19: https://ai.google.dev/gemini-api/docs/pricing and /docs/google-search.
+// Gemini 3.6 and 3.8 Flash: $0.75/M input, $3.75/M output through 2026-12-31; $1.50/M and $7.50/M
+// from 2027-01-01. Output includes thinking. Character replies, compaction and look-ups use 3.1 Flash-Lite at $0.25/M
+// and $1.50/M. Search costs $0.014 per unique nonempty query. Retrieval tokens are excluded; no other tools are enabled.
 // Google documents no hard query cap. The prompt's three-query limit is guidance, not enforcement.
-// Research reserves 32 queries plus bounded input and output; ordinary replies and compaction reserve
-// only their bounded Flash-Lite input and output, and a Champion's answers on 3.8 Flash (strong) their bounded Flash
-// input and output. This is an estimated-spend admission gate, not a guaranteed provider invoice ceiling.
-// No free search quota or cache discount is assumed; measured excess is always counted in full.
+// Research reserves 32 queries plus bounded input and output; every other call its bounded input and output on its
+// model (modelFor), a Flash model's at the 2027 rates. This is an estimated-spend admission gate, not a guaranteed
+// provider invoice ceiling. No free search quota or cache discount is assumed; measured excess is always counted in full.
 export const ANSWER_GROUNDING_MICRO = 14_000;
 export const SEARCH_QUERY_RESERVATION = 32;
 const SEARCH_RESERVATION_MICRO = SEARCH_QUERY_RESERVATION * ANSWER_GROUNDING_MICRO;
@@ -270,24 +293,32 @@ const INPUT_BOUND = ANSWER_PROMPT_BYTES + Math.max(...["answer", "character", "c
       facts: LONGEST_FACTS, help: LONGEST_HELP, dispute: LONGEST_DISPUTE, custom: LONGEST_CUSTOM,
       longMemory: true, offered: true, noting: true, goaling: true })).length))))))
   + ACTIONS_BOUND + 2048;
-// A picture's ~530 input tokens fit inside this: bytes over-count text tokens about 4x, and reconcileAnswer settles on usage.
-export const ANSWER_RESERVATION_MICRO = Math.ceil(INPUT_BOUND * 0.25 + ANSWER_OUTPUT_TOKENS * 1.50);
-export const COMPACTION_RESERVATION_MICRO = Math.ceil(INPUT_BOUND * 0.25 + COMPACTION_OUTPUT_TOKENS * 1.50);
+// A call's bounded input and `output` tokens at its model's rates: a Flash model's announced higher 2027 ones in advance
+// of that transition. A picture's ~530 input tokens fit inside: bytes over-count text tokens about 4x, and
+// reconcileAnswer settles on usage.
+const bounded = (model, output) => FLASH_MODELS.has(model) ? Math.ceil(INPUT_BOUND * 1.50 + output * 7.50)
+  : Math.ceil(INPUT_BOUND * 0.25 + output * 1.50);
+// Her answer (ANSWER_MODEL), her answer to a picture (SIGHT_MODEL), and a character's reply (LITE_MODEL).
+export const ANSWER_RESERVATION_MICRO = bounded(ANSWER_MODEL, ANSWER_OUTPUT_TOKENS);
+export const SIGHT_RESERVATION_MICRO = bounded(SIGHT_MODEL, ANSWER_OUTPUT_TOKENS);
+export const LITE_RESERVATION_MICRO = bounded(LITE_MODEL, ANSWER_OUTPUT_TOKENS);
+export const COMPACTION_RESERVATION_MICRO = bounded(LITE_MODEL, COMPACTION_OUTPUT_TOKENS);
 // A longer chat memory (longMemory) has twice the room to write it.
-export const LONG_COMPACTION_RESERVATION_MICRO = Math.ceil(INPUT_BOUND * 0.25 + 2 * COMPACTION_OUTPUT_TOKENS * 1.50);
-// Reserve the announced higher 2027 research rates before that transition.
-export const RESEARCH_RESERVATION_MICRO = Math.ceil(INPUT_BOUND * 1.50 + RESEARCH_OUTPUT_TOKENS * 7.50) + SEARCH_RESERVATION_MICRO;
-// A Champion's answer or character reply on 3.8 Flash (strong): its rates, the higher 2027 ones in advance as for
-// research, without searches.
-export const STRONG_RESERVATION_MICRO = Math.ceil(INPUT_BOUND * 1.50 + ANSWER_OUTPUT_TOKENS * 7.50);
+export const LONG_COMPACTION_RESERVATION_MICRO = bounded(LITE_MODEL, 2 * COMPACTION_OUTPUT_TOKENS);
+export const RESEARCH_RESERVATION_MICRO = bounded(RESEARCH_MODEL, RESEARCH_OUTPUT_TOKENS) + SEARCH_RESERVATION_MICRO;
+// A Champion's answer or character reply on 3.8 Flash (strong), without searches.
+export const STRONG_RESERVATION_MICRO = bounded(RESEARCH_MODEL, ANSWER_OUTPUT_TOKENS);
 // lookup: the answer looks online first (lookUp), which settles its own part. strong and longMemory: a Champion's
 // stronger mind and longer memory (lib/billing.js PLANS stronger), for answers and character replies, and for chat
-// memory. Exported for a paid-for answer's hold on its cost cap (functions/api/companion/answer.js), which matches it.
+// memory. picture: she sees one (seesPicture); lite: past the text cap, on Flash-Lite (modelFor). Exported for a
+// paid-for answer's hold on its cost cap (functions/api/companion/answer.js), which matches it.
 export const answerReservation = (researchRequired, operation,
-  { lookup = false, strong = false, longMemory = false } = {}) =>
+  { lookup = false, strong = false, longMemory = false, picture = false, lite = false,
+  smarter = false } = {}) =>
   operation === "compact" ? (longMemory ? LONG_COMPACTION_RESERVATION_MICRO : COMPACTION_RESERVATION_MICRO)
   : researchRequired && operation === "answer" ? RESEARCH_RESERVATION_MICRO
-  : (strong ? STRONG_RESERVATION_MICRO : ANSWER_RESERVATION_MICRO) + (lookup && operation === "answer" ? LOOKUP_RESERVATION_MICRO : 0);
+  : bounded(modelFor(operation, { strong, picture, lite, smarter }), ANSWER_OUTPUT_TOKENS)
+    + (lookup && operation === "answer" ? LOOKUP_RESERVATION_MICRO : 0);
 const month = (now = new Date()) => now.toISOString().slice(0, 7);
 const day = (now = new Date()) => now.toISOString().slice(0, 10);
 // The knowledge an answer gets, within KNOWLEDGE_MAX_BYTES: each block keeps its own bound, so only a bug in one goes
@@ -356,8 +387,8 @@ export async function uncapped(env, userId) {
 
 // The player's answers left. Their plan (lib/billing.js planFor) sets today's, and while plans are on the month's too
 // (a paid plan's from its renewal day, poolWindow); period: which of the two runs out first ("day" or "month"), with
-// limit and resetsAt that one's. A paying player whose answers this calendar month have cost half their plan's net
-// (lib/billing.js costCapMicro, overTextCap) has no plan answers left until the next month starts (period "month",
+// limit and resetsAt that one's. A paying player whose answers and hosted voice this calendar month have cost their
+// plan's whole net (lib/billing.js totalCapMicro, capState) has no plan answers left until the next month starts (period "month",
 // resetsAt then): as when the month's pool is used, their answers come from the add-on's lore library, and nothing
 // says why. exempt: uncapped(env, userId) and plan, when the caller already has them. remaining counts a free player's
 // starter answers too, so the companion keeps asking once the day's are gone. upgrade: where the site shows the plans
@@ -373,12 +404,12 @@ export async function allowance(env, userId, now = new Date(), exempt = null, pl
   const pool = plansOn(env) && plan.answersPerMonth ? poolWindow(plan, now) : null;
   const monthBucket = `companion-month:${pool?.key || "-"}`;
   // The starter is the free plan's alone (functions/api/companion/answer.js); answers from friends (Share Willo) are
-  // any plan's, a paying player's while their month is under its text cap. All read at once: one round trip to D1,
+  // any plan's, a paying player's while their month is under its total cap. All read at once: one round trip to D1,
   // not four, before a live answer's reply can go (LOR-654).
   const [{ results }, capped, packs, paid, taste] = await Promise.all([
     exempt ? { results: [] } : env.DB.prepare("SELECT bucket, n FROM rate_limits WHERE user_id = ? AND bucket IN (?, ?)")
       .bind(userId, `companion-answer:${day(now)}`, monthBucket).all(),
-    plansOn(env) && !exempt && overTextCap(env, userId, plan, now),
+    plansOn(env) && !exempt && capState(env, userId, plan, now).then(state => state === "capped"),
     packsFor(env, userId, now),
     subscriber ? [0, 0] : Promise.all([answerBudgetUsed(env, now), otherPaidSpend(env, now)]),
     tasteState(env, userId, plan, now)]);
@@ -418,10 +449,12 @@ export async function allowance(env, userId, now = new Date(), exempt = null, pl
 // Profile stories and voice share this gate. A paid-for answer (paid: a paying player's) skips the gate, since the
 // plan pays for it, but its reservation is still recorded so /admin sees the whole month's spend;
 // what it cost is taken back out of the gate's count (FREE_ANSWER_SPEND), so it never uses up free players' budget.
-// strong and longMemory: as writeAnswer will be asked, so the reservation fits the call.
+// strong, longMemory, picture (seesPicture) and lite: as writeAnswer will be asked, so the reservation fits the call.
 export async function reserveAnswer(env, now = new Date(), researchRequired = false, operation = "answer", lookup = false,
-  { paid = false, strong = false, longMemory = false } = {}) {
-  const reserved = answerReservation(researchRequired, operation, { lookup, strong, longMemory });
+  { paid = false, strong = false, longMemory = false, picture = false, lite = false,
+  smarter = false } = {}) {
+  const reserved = answerReservation(researchRequired, operation, { lookup, strong, longMemory, picture, lite,
+    smarter });
   // One round trip for both, in order (LOR-654): the month's row, then the reservation while it fits.
   const [, held] = await env.DB.batch([
     env.DB.prepare("INSERT OR IGNORE INTO answer_spend (month, reserved_micro, actual_micro, calls) VALUES (?, 0, 0, 0)")
@@ -518,7 +551,9 @@ const geminiActions = offer => ({
 // lib/willo-tools.js actionsFor), given to Gemini as functionDeclarations; the answer's call comes back as `call`.
 // Her spoken words and the written answer from a two-layer reply (SAY_MAX_CHARS, LAYER_MARK): {say, text}. Without the
 // mark (the model wrote one answer), the written answer is all of it and she says its start, cut at a sentence.
-const LAYER_LINE = /^[ \t]*~{3,}[ \t]*$/m;
+// The mark on a line of its own, or glued to her last sentence (3.6 Flash, 1 in 96 of the vision check, 10/19:
+// "...Trade District.~~~That is Hurin...").
+const LAYER_LINE = /[ \t]*~{3,}[ \t]*/;
 const plainText = text => text.replace(/\[([^\]]+)\]\([^)]*\)/g, "$1").replace(/https?:\/\/[^\s<>]+/g, "").trim();
 export function splitLayers(content) {
   const at = LAYER_LINE.exec(content);
@@ -591,7 +626,7 @@ async function streamed(res, onSay) {
 
 async function generate(env, prompt, grounded, operation, persona, style, { picture = null, facts = "", help = "",
   dispute = null, custom = "", strong = false, longMemory = false, actions = null, now = new Date(), layered = false,
-  onSay = null } = {}) {
+  onSay = null, lite = false, smarter = false } = {}) {
   const compact = operation === "compact", character = operation === "character";
   const spoken = !compact && !grounded && styleOf(style);
   // Two layers: her answers only, spoken (SAY_MAX_CHARS); streamed when the caller takes her words early and there's no
@@ -599,7 +634,8 @@ async function generate(env, prompt, grounded, operation, persona, style, { pict
   layered = Boolean(layered) && spoken && !character;
   const thinks = !compact && !grounded && !character && Boolean(DISPUTE_SYSTEM[dispute]);
   const stronger = strong && !compact && !grounded;
-  const model = grounded || stronger ? RESEARCH_MODEL : ANSWER_MODEL;
+  const model = modelFor(operation, { grounded, strong: stronger, picture: Boolean(picture), lite,
+    smarter });
   const memoryBytes = longMemory ? 2 * MEMORY_BYTES : MEMORY_BYTES;
   const offer = !grounded && !compact && Array.isArray(actions) && actions.length ? actions : null;
   // The notebook's tools are done when called, the app's actions only offered: each with its own rule.
@@ -632,15 +668,15 @@ async function generate(env, prompt, grounded, operation, persona, style, { pict
   const result = stream ? await streamed(res, onSay) : await res.json();
   const candidate = result?.candidates?.[0];
   if (candidate?.finishReason && candidate.finishReason !== "STOP")
-    throw Object.assign(new Error(`Gemini ${candidate.finishReason}`), { result });
+    throw Object.assign(new Error(`Gemini ${candidate.finishReason}`), { result, model });
   // Grounded plain text retains provider citation metadata. JSON/schema mode can omit that evidence.
   const parts = Array.isArray(candidate?.content?.parts) ? candidate.content.parts : [];
   const content = parts.filter(p => !p?.thought && typeof p?.text === "string").map(p => p.text).join("");
   if (compact) {
     let parsed;
-    try { parsed = JSON.parse(content); } catch { throw Object.assign(new Error("Invalid chat memory"), { result }); }
+    try { parsed = JSON.parse(content); } catch { throw Object.assign(new Error("Invalid chat memory"), { result, model }); }
     if (typeof parsed?.summary !== "string" || !parsed.summary.trim())
-      throw Object.assign(new Error("Empty chat memory"), { result });
+      throw Object.assign(new Error("Empty chat memory"), { result, model });
     let summary = "", bytes = 0;
     const encoder = new TextEncoder();
     for (const char of parsed.summary.trim()) {
@@ -659,7 +695,7 @@ async function generate(env, prompt, grounded, operation, persona, style, { pict
   const written = typeof inCall === "string" && inCall.trim() ? inCall : content;
   const layers = layered ? splitLayers(written) : null;
   const answer = layers ? layers.text : plainText(written);
-  if (!answer && !call) throw Object.assign(new Error("Empty answer"), { result });
+  if (!answer && !call) throw Object.assign(new Error("Empty answer"), { result, model });
   return { result, candidate, answer, model, call, ...(layers?.say ? { say: layers.say } : {}) };
 }
 
@@ -694,8 +730,8 @@ function primaryPrices(now) {
     ? { input: 0.75, output: 3.75 } : { input: 1.50, output: 7.50 };
 }
 
-// flash: the call ran on RESEARCH_MODEL (research, or a Champion's answer), else on Flash-Lite.
-function measuredUsage(result, flash, now) {
+// model: the one the call ran on, at its prices: a Flash model's (FLASH_MODELS, primaryPrices), else Flash-Lite's.
+function measuredUsage(result, model, now) {
   const usage = result?.usageMetadata || {};
   const validCount = count => Number.isSafeInteger(count) && count >= 0;
   if (!validCount(usage.promptTokenCount) || !validCount(usage.candidatesTokenCount) ||
@@ -703,18 +739,19 @@ function measuredUsage(result, flash, now) {
   const input = usage.promptTokenCount;
   const output = usage.candidatesTokenCount + (usage.thoughtsTokenCount || 0);
   if (!validCount(output)) return null;
-  const prices = flash ? primaryPrices(now) : { input: 0.25, output: 1.50 };
+  const prices = FLASH_MODELS.has(model) ? primaryPrices(now) : { input: 0.25, output: 1.50 };
   return { input, output, cost: Math.ceil(input * prices.input + output * prices.output) };
 }
 
 // rejected: the answer failed, so it keeps at least its reservation. lookup: a quick look online (lookUp), Flash-Lite's
-// token prices plus its searches. strong: an answer on the stronger model, at its prices, without searches. Returns
-// {measured, counted}: counted is what the call cost by the budget's reckoning (micro-dollars), for a paid-for
-// answer's cost caps. later: takes the budget's write and keeps it going while the answer goes out (a request's
-// waitUntil), so nobody waits a round trip to D1 for it (LOR-654); without one it's waited for.
+// token prices plus its searches. model: the model an answer ran on (modelFor), at its prices; research is on
+// RESEARCH_MODEL. Returns {measured, counted}: counted is what the call cost by the budget's reckoning
+// (micro-dollars), for a paid-for answer's cost caps. later: takes the budget's write and keeps it going while the
+// answer goes out (a request's waitUntil), so nobody waits a round trip to D1 for it (LOR-654); without one it's
+// waited for.
 async function reconcileAnswer(env, result, grounded, reserved, now,
-  { rejected = false, lookup = false, strong = false, later = null } = {}) {
-  const measured = measuredUsage(result, grounded || strong, now);
+  { rejected = false, lookup = false, model = LITE_MODEL, later = null } = {}) {
+  const measured = measuredUsage(result, grounded ? RESEARCH_MODEL : model, now);
   const floor = lookup && !grounded ? LOOKUP_SEARCH_MICRO : SEARCH_RESERVATION_MICRO;
   const search = grounded || lookup ? searchCharges(result, floor) : { known: 0, estimated: 0 };
   const known = (measured?.cost || 0) + search.known;
@@ -748,7 +785,7 @@ export async function lookUp(env, parts, now = new Date(), { real = false, later
     (who ? `${place ? "," : "\nAsked"} by a ${who}` : "") + ".");
   let result;
   try {
-    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${ANSWER_MODEL}:generateContent`, {
+    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${LITE_MODEL}:generateContent`, {
       method: "POST", headers: { "Content-Type": "application/json", "x-goog-api-key": env.GEMINI_API_KEY },
       body: JSON.stringify({ systemInstruction: { parts: [{ text: real ? LOOKUP_REAL_SYSTEM.replace(TODAY, day(now))
         : LOOKUP_SYSTEM }] },
@@ -786,12 +823,14 @@ export async function lookUp(env, parts, now = new Date(), { real = false, later
 // tools.js actionsFor), at most ACTIONS_MAX_BYTES; its pick comes back as `call` ({name, args}, unchecked: the caller
 // checks it with actionOf), and the answer may then be "". strong: an answer or character reply on the stronger
 // model (RESEARCH_MODEL, minimal thinking); longMemory: chat memory keeps twice as much (both a Champion's, lib/billing.js
-// PLANS stronger, and reserved the same way by reserveAnswer). model_ms: time spent waiting on Gemini. counted: what the
-// call cost by the budget's reckoning (micro-dollars), for a paid-for answer's cost caps; on a thrown error it's on the
-// error. later: keeps the budget's write going while the answer goes out (reconcileAnswer).
+// PLANS stronger, and reserved the same way by reserveAnswer). lite: her answer on Flash-Lite, past the plan's text cap
+// (lib/billing.js capState). model_ms: time spent waiting on Gemini. counted: what the call cost by the budget's
+// reckoning (micro-dollars), for a paid-for answer's cost caps; on a thrown error it's on the error. later: keeps the
+// budget's write going while the answer goes out (reconcileAnswer).
 export async function writeAnswer(env, prompt, now = new Date(), researchRequired = false, operation = "answer",
   { persona = "sam", style = null, image = null, facts = "", help = "", dispute = null, custom = "", strong = false,
-    longMemory = false, actions = null, later = null, layered = false, onSay = null } = {}) {
+    longMemory = false, actions = null, later = null, layered = false, onSay = null, lite = false,
+    smarter = false } = {}) {
   if (typeof prompt !== "string" || !prompt.trim() || new TextEncoder().encode(prompt).length > ANSWER_PROMPT_BYTES)
     throw new Error("Invalid answer prompt");
   if (typeof custom !== "string" || new TextEncoder().encode(custom).length > CUSTOM_PROMPT_BYTES)
@@ -803,8 +842,9 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
   const grounded = operation === "answer" && researchRequired;
   strong =Boolean(strong) && !compact && !grounded;
   longMemory = Boolean(longMemory) && compact;
-  const picture = operation === "answer" && !researchRequired && styleOf(style) ? imageOf(image) : null;
-  const reserved = answerReservation(researchRequired, operation, { strong, longMemory });
+  const picture = seesPicture(operation, researchRequired, style, image) ? imageOf(image) : null;
+  const reserved = answerReservation(researchRequired, operation, { strong, longMemory, picture: Boolean(picture),
+    lite: Boolean(lite), smarter: Boolean(smarter) });
   let response;
   const started = Date.now();
   facts = typeof facts === "string" ? knowledgeWithin(facts) : "";
@@ -816,7 +856,7 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
   const sayOnce = typeof onSay === "function" ? say => { if (!said) { said = true; onSay(say); } } : null;
   const ask = (withPicture, actions = offer) => generate(env, prompt, grounded, operation, persona, style,
     { picture: withPicture, facts, help: compact ? "" : help, dispute, custom: compact ? "" : custom, strong, longMemory,
-      actions, now, layered, onSay: sayOnce });
+      lite, smarter, actions, now, layered, onSay: sayOnce });
   let offerCost = 0;
   try {
     // A picture Gemini refuses (HTTP 400, nothing to settle) never costs the question: it's asked again without one.
@@ -824,13 +864,14 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
       .catch(async error => {
         // An offer Gemini couldn't put into a call (MALFORMED_FUNCTION_CALL) is asked again without it, and counted.
         if (!offer || error?.result?.candidates?.[0]?.finishReason !== "MALFORMED_FUNCTION_CALL") throw error;
-        offerCost = (await reconcileAnswer(env, error.result, grounded, 0, now, { strong })).counted;
+        offerCost = (await reconcileAnswer(env, error.result, grounded, 0, now, { model: error.model })).counted;
         return ask(picture, null);
       });
   } catch (error) {
     // Failed calls keep their reservation; returned usage still counts known charges and research excess.
     const counted = error.result
-      ? (await reconcileAnswer(env, error.result, grounded, reserved, now, { rejected: true, strong })).counted : reserved;
+      ? (await reconcileAnswer(env, error.result, grounded, reserved, now, { rejected: true, model: error.model })).counted
+      : reserved;
     if (!grounded) throw Object.assign(error, { counted });
     return { answer: VERIFICATION_FAILED, sources: [], web_sources: [], web_search: {
       status: [400, 403, 404].includes(error?.status) ? "unavailable" : "failed", queries: [], suggestions_html: "" },
@@ -838,7 +879,7 @@ export async function writeAnswer(env, prompt, now = new Date(), researchRequire
   }
   const model_ms = Date.now() - started;
   const { measured, counted: answered } = await reconcileAnswer(env, response.result, grounded, reserved, now,
-    { strong, later });
+    { model: response.model, later });
   const counted = answered + offerCost;
   const usage = measured ? { in: measured.input, out: measured.output } : null;
   if (compact) return { summary: response.summary, model: response.model, usage, model_ms, counted };

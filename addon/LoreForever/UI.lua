@@ -4802,6 +4802,12 @@ end
 -- `key`: the entry it's about, for the "you" line under the heading; `subject`: the entry the text isn't to link to
 -- (defaults to key). Returns the text and the keys it links.
 local function narratedTag() return "  " .. GREY .. L["(narrated)"] .. "|r" end
+-- A story a recording is planned for but this player can't play: it isn't recorded yet, or its voice pack isn't
+-- installed (the add-on can't tell which), so the words say neither. Nothing when narration is off or none is planned.
+local function noRecordingTag(key)
+  if ns.Voice.HasAudio(key) or ns.Voice.Current() == "none" or not (ns.DB.clipHash or {})[key] then return "" end
+  return "  " .. GREY .. L["(no recording to play yet)"] .. "|r"
+end
 local function loreText(heading, text, angle, tag, key, subject)
   local link, linked = UI.Linker(subject or key)
   local out = heading and (GOLD .. esc(heading) .. "|r" .. (tag or "") .. "\n" .. youText(key)) or ""
@@ -4986,11 +4992,12 @@ function UI.ShowEntry(key, via, asked)
   end
   if asked then UI.AddMessage("user", WHITE .. esc(asked) .. "|r") end
   local target = UI.EntryTarget(key)
-  local narrated = ""   -- story headings have a labeled Listen action when narration is available
+  -- A recorded story has a labeled Listen action instead; one without a recording says so by its heading.
+  local noRecording = noRecordingTag(key)
   -- A quest in a storyline: where it sits, first (Storyline.Line; nothing for other quests).
   local story = e.t == "quest" and e.m and e.m.id and ns.Storyline.Line(e.m.id)
   story = story and (GOLD .. esc(story) .. "|r\n") or ""
-  local text = GOLD .. esc(e.n) .. "|r" .. narrated .. "\n" .. story .. youText(key) .. table.concat(parts, "\n\n")
+  local text = GOLD .. esc(e.n) .. "|r" .. noRecording .. "\n" .. story .. youText(key) .. table.concat(parts, "\n\n")
   UI.lastLog = ns.Log.Question("[open] " .. e.n, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "summary", title = e.n } }, via)
   UI.AddMessage("lore", text, target, nil, nil, UI.lastLog, key, linked, true)
   UI.SetNext(followUps(key, nil))

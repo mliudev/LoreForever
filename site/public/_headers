@@ -51,6 +51,9 @@
 /voices/lines.json
   Cache-Control: no-cache
 
+/voices/lines/*
+  Cache-Control: no-cache
+
 /lore/data/*
   X-Robots-Tag: noindex
   Cache-Control: no-cache

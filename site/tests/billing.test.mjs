@@ -15,7 +15,7 @@ import { onRequest as answer } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { setupBilling, planFor, companionFeatures, INTEGRATION_ID, PLANS } from "../lib/billing.js";
-import { allowance, ANSWER_MODEL, RESEARCH_MODEL } from "../lib/companion-answers.js";
+import { allowance, ANSWER_MODEL, LITE_MODEL, RESEARCH_MODEL, SMART_MODEL } from "../lib/companion-answers.js";
 import { optOut } from "../lib/email.js";
 
 import { d1 } from "./helpers.mjs";
@@ -381,7 +381,7 @@ test("checkout needs a signed-in player, refuses a plan that isn't for sale, and
   assert.deepEqual(await post("checkout", { plan: "hero", interval: "year" }, { cookie }),
     { status: 400, body: { ok: false, error: "Plans are monthly." } });
   assert.equal(stripeCalls.length, 0);
-  const res = await post("checkout", { plan: "hero" }, { cookie });
+  const res = await post("checkout", { plan: "hero", source: "willo-empty" }, { cookie });
   assert.equal(res.status, 200, JSON.stringify(res.body));
   assert.equal(res.body.url, "https://checkout.stripe.com/c/pay/cs_test_1");
   const session = stripeCalls.find(c => c.path === "checkout/sessions");
@@ -389,6 +389,8 @@ test("checkout needs a signed-in player, refuses a plan that isn't for sale, and
   assert.equal(session.body.get("mode"), "subscription");
   assert.equal(session.body.get("client_reference_id"), user.id);
   assert.equal(session.body.get("subscription_data[metadata][user_id]"), user.id);
+  assert.equal(session.body.get("subscription_data[metadata][source]"), "willo-empty",
+    "where the checkout started, for pricing (plan_log source)");
   assert.equal(session.body.get("line_items[0][price]"), "price_hero_m");
   assert.equal(session.body.get("customer"), "cus_1");
   assert.equal(session.body.get("integration_identifier"), INTEGRATION_ID);
@@ -418,7 +420,7 @@ test("checkout needs a signed-in player, refuses a plan that isn't for sale, and
   } finally { delete env.STRIPE_MANAGED_PAYMENTS; }
 });
 
-test("a paying player skips the shared budget; past half their plan's net a month, answers come from the lore library", async () => {
+test("a paying player skips the shared budget; past half their plan's net a month answers step down to Flash-Lite, past all of it the lore library", async () => {
   const user = await player("hero");
   const link = await startLink(env);
   assert.equal(await decideLink(env, link.user_code, user, true), true);
@@ -438,9 +440,17 @@ test("a paying player skips the shared budget; past half their plan's net a mont
     assert.equal(spent.calls, 1);
     assert.ok(spent.micro > 0);
 
-    // Hero's net is $4.37: its answers may cost $2.18 a month. Past that, none of the plan's until November, with
-    // Willo's words that only say when (the companion starts its lore-library answer with them), and nothing offered.
+    // Hero's net is $4.37: its answers may cost $2.18 a month on her own model. Past that they go on, on Flash-Lite and
+    // without looking online (the step-down, 10/19), rather than to the lore library earlier than before.
     env.DB.sqlite.prepare("UPDATE answer_user_spend SET micro = 2180000 WHERE user_id = ?").run(user.id);
+    const lite = await ask();
+    assert.equal(lite.status, 200);
+    assert.equal(lite.body.model, LITE_MODEL);
+    assert.match(gemini[1].url, new RegExp(`${LITE_MODEL}:generateContent$`));
+    assert.equal(gemini[1].body.tools, undefined, "past the text cap, no looking online");
+    // Once its answers and hosted voice have cost the whole net, none of the plan's until November, with Willo's words
+    // that only say when (the companion starts its lore-library answer with them), and nothing offered.
+    env.DB.sqlite.prepare("UPDATE answer_user_spend SET micro = 4370000, voice_micro = 1000000 WHERE user_id = ?").run(user.id);
     const capped = await ask();
     assert.equal(capped.status, 429);
     assert.equal(capped.body.error, "My light's spent for this month. The Moonwell refills it on November 1.");
@@ -448,10 +458,11 @@ test("a paying player skips the shared budget; past half their plan's net a mont
     assert.deepEqual([capped.body.allowance.remaining, capped.body.allowance.period, capped.body.allowance.resetsAt],
       [0, "month", "2026-11-01T00:00:00.000Z"]);
     assert.equal(capped.body.allowance.fair_use, undefined);
-    assert.equal(gemini.length, 1, "nothing reached the model");
-    // A hosted voice's cost counts toward the whole net, not this half: answers go on.
+    assert.equal(gemini.length, 2, "nothing reached the model");
+    // A hosted voice's cost counts toward the whole net, not the text cap: under both, answers go on as usual.
     env.DB.sqlite.prepare("UPDATE answer_user_spend SET micro = 4000000, voice_micro = 2000000 WHERE user_id = ?").run(user.id);
     assert.equal((await ask()).status, 200);
+    assert.deepEqual(gemini[2].body.tools, [{ googleSearch: {} }]);
   } finally { delete env.STORY_BUDGET_USD; }
 });
 
@@ -702,7 +713,7 @@ test("after their first 20, free answers stay with the lore: no looking online, 
   assert.equal(auto.status, 200);
   assert.equal(gemini.length, 2, "no quick look online before either");
   for (const { url, body } of gemini) {
-    assert.match(url, /gemini-3\.1-flash-lite:generateContent$/);
+    assert.match(url, new RegExp(`${ANSWER_MODEL}:generateContent$`));
     assert.equal(body.tools, undefined);
     assert.equal(body.contents[0].parts.length, 1, "the picture isn't sent");
     const system = body.systemInstruction.parts[0].text;
@@ -764,13 +775,30 @@ test("a paying player hears their plan; back on the free plan, the first answers
   assert.equal((await allowance(env, user.id)).taste.left, 20, "back on the free plan, the taste they never had");
 });
 
+test("Legend's answers are on the smarter model, pictures too, and on Flash-Lite past its text cap; Hero's on Flash-Lite", async () => {
+  const { user, ask } = await companionPlayer("legend-smart", { plan: "legend" });
+  const said = await ask();
+  assert.equal(said.status, 200, JSON.stringify(said.body));
+  assert.equal(said.body.model, SMART_MODEL);
+  assert.match(gemini[0].url, new RegExp(`/${SMART_MODEL}:generateContent$`));
+  assert.equal((await ask({ persona: "willo", style: "spoken", image: jpeg })).status, 200);
+  assert.match(gemini[1].url, new RegExp(`/${SMART_MODEL}:`));
+  // Legend's text cap is $9.20 a month: past it, Flash-Lite (lib/billing.js capState "lite").
+  env.DB.sqlite.prepare("UPDATE answer_user_spend SET micro = 9200000 WHERE user_id = ?").run(user.id);
+  assert.equal((await ask()).body.model, LITE_MODEL);
+  const hero = await companionPlayer("hero-lite", { plan: "hero" });
+  assert.equal((await hero.ask()).body.model, ANSWER_MODEL);
+  assert.equal(ANSWER_MODEL, LITE_MODEL, "every plan but a smarter one answers on Flash-Lite");
+});
+
 test("Champion answers on the ordinary model with a longer chat memory: no stronger mind at launch", async () => {
   const { ask } = await companionPlayer("champ", { plan: "champion" });
   const said = await ask();
   assert.equal(said.status, 200, JSON.stringify(said.body));
   assert.equal(said.body.model, ANSWER_MODEL);
-  assert.match(gemini[0].url, /gemini-3\.1-flash-lite:generateContent$/);
+  assert.match(gemini[0].url, new RegExp(`${ANSWER_MODEL}:generateContent$`));
   assert.equal((await ask({ operation: "compact", prompt: "PREVIOUS MEMORY\nPepper" })).status, 200);
+  assert.match(gemini[1].url, new RegExp(`${LITE_MODEL}:generateContent$`), "chat memory stays on Flash-Lite");
   assert.match(gemini[1].body.systemInstruction.parts[0].text, /at most 700 words and 4,800 UTF-8 bytes/);
   assert.equal(gemini[1].body.generationConfig.maxOutputTokens, 2048);
 });
@@ -803,8 +831,7 @@ test("a paid plan's answers and web look-ups are a month's pool from its renewal
 });
 
 // scripts/stripe-setup.mjs, run with fetch blocked: the key checks come before any call to Stripe.
-function stripeSetup(args, keys) {
-  const blocked = "data:text/javascript,globalThis.fetch=async()=>{throw new Error('no network in tests')}";
+function stripeSetup(args, keys, blocked = "data:text/javascript,globalThis.fetch=async()=>{throw new Error('no network in tests')}") {
   const script = fileURLToPath(new URL("../../scripts/stripe-setup.mjs", import.meta.url));
   const environment = { PATH: process.env.PATH, ...keys };
   return spawnSync(process.execPath, ["--import", blocked, script, ...args], { env: environment, encoding: "utf8" });
@@ -837,4 +864,22 @@ test("Delete my account cancels every subscription that could still charge, and 
   assert.deepEqual(stripeCalls.filter(c => c.method === "DELETE").map(c => c.path).sort(),
     ["subscriptions/sub_a", "subscriptions/sub_b"]);
   assert.equal(env.DB.sqlite.prepare("SELECT id FROM users WHERE id = ?").get(user.id), undefined);
+});
+
+test("stripe-setup --portal-only turns on the portal's cancellation question and changes nothing else", () => {
+  // A Stripe that has the script's portal settings and says what it was asked, one line a call.
+  const fake = "data:text/javascript," + encodeURIComponent(`globalThis.fetch = async (url, o = {}) => {
+    console.log("CALL " + (o.method || "GET") + " " + new URL(url).pathname + " " + decodeURIComponent(o.body || ""));
+    if (new URL(url).pathname === "/v1/billing_portal/configurations" && (o.method || "GET") === "GET")
+      return Response.json({ data: [{ id: "bpc_default", metadata: {} }, { id: "bpc_ours", metadata: { lore_forever: "plans" } }] });
+    return Response.json({ id: "bpc_ours" });
+  };`);
+  const run = stripeSetup(["--portal-only"], { STRIPE_SECRET_KEY: "sk_test_123" }, fake);
+  assert.equal(run.status, 0, run.stderr);
+  const calls = run.stdout.split("\n").filter(l => l.startsWith("CALL "));
+  assert.equal(calls.length, 2, run.stdout);
+  assert.match(calls[0], /^CALL GET \/v1\/billing_portal\/configurations /);
+  assert.match(calls[1], /^CALL POST \/v1\/billing_portal\/configurations\/bpc_ours features\[subscription_cancel\]\[cancellation_reason\]\[enabled\]=true&features\[subscription_cancel\]\[cancellation_reason\]\[options\]\[0\]=too_expensive&/);
+  assert.match(calls[1], /\[options\]\[7\]=other$/);
+  assert.match(run.stdout, /now ask why a player cancels \(8 reasons\); nothing else changed/);
 });

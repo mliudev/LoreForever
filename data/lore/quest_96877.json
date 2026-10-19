@@ -1,0 +1,105 @@
+{
+ "key": "quest:96877",
+ "type": "quest",
+ "name": "Halikor's Hoof",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96877
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Bringing proof of a mighty beast's defeat to Orgrimmar honors Horde traditions of strength and hunting prowess."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Taking down an enormous, formidable beast like Halikor exemplifies the tracker's craft and the thrill of the hunt."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is halikor",
+    "who is halikor",
+    "halikor lizard"
+   ],
+   "answer": "Halikor is a formidable and mighty lizard creature. Its immense size is demonstrated by the sheer scale of its severed hoof, which hunters claim as undeniable proof of its downfall.",
+   "q": "What is Halikor?"
+  },
+  {
+   "aliases": [
+    "why bring hoof to orgrimmar",
+    "halikor hoof deliver",
+    "where does the hoof go"
+   ],
+   "answer": "The hoof is taken to the Horde capital of Orgrimmar to serve as physical proof of the beast's defeat, showcasing the hunter's triumph to the city.",
+   "q": "Why must the hoof be delivered to Orgrimmar?"
+  },
+  {
+   "aliases": [
+    "how to get halikors hoof",
+    "halikor drop"
+   ],
+   "answer": "Halikor's Hoof is claimed directly from the body of Halikor after tracking down and slaying the massive lizard in combat.",
+   "q": "How is Halikor's Hoof obtained?"
+  },
+  {
+   "aliases": [
+    "does halikor have hooves",
+    "why does a lizard have hooves"
+   ],
+   "answer": "While most reptiles possess claws, certain heavy, armored, or thundering beasts in the wild develop massive, hardened hoof-like structures capable of supporting their enormous weight across rough terrain.",
+   "q": "Why does a lizard have a hoof?"
+  },
+  {
+   "aliases": [
+    "who accepts halikors hoof in orgrimmar",
+    "turn in halikor hoof orgrimmar"
+   ],
+   "answer": "The hoof is brought directly to authorities or interested parties within Orgrimmar who recognize trophies from great hunts across the wilderness.",
+   "q": "Who in Orgrimmar wants Halikor's Hoof?"
+  },
+  {
+   "aliases": [
+    "what is halikors hoof quest",
+    "halikors hoof story"
+   ],
+   "answer": "Halikor's Hoof is a quest centering on the defeat of the colossal lizard Halikor. Carrying its massive severed hoof to Orgrimmar demonstrates the hunter's martial prowess and brings word of the beast's demise to the Horde.",
+   "q": "What is the story behind the quest Halikor's Hoof?"
+  }
+ ],
+ "keywords": [
+  "halikor",
+  "halikor's hoof",
+  "horde",
+  "hunt",
+  "lizard",
+  "orgrimmar",
+  "trophy"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "quest:2380"
+ ],
+ "sections": [
+  {
+   "body": "Halikor's Hoof is a tangible trophy taken from the remains of Halikor, an extraordinarily massive lizard. Among hunters and warriors traversing wild frontiers, claiming a physical token from such a formidable creature is an ancient custom to verify the kill. The sheer size of the hoof leaves no doubt about the immense scale and power of the beast in life.",
+   "spoiler": 0,
+   "title": "Trophy of a Mighty Beast"
+  },
+  {
+   "body": "Carrying the heavy hoof back to the fortified gates of Orgrimmar serves to announce the beast's defeat to the Horde. In a warrior society that values raw strength and survival against the harsh predators of the land, presenting such a trophy brings honor to the hunter and reassures the capital that a dangerous creature has been felled.",
+   "spoiler": 0,
+   "title": "Proof for the Capital"
+  }
+ ],
+ "summary": "Halikor's Hoof is a quest centered on claiming physical proof after slaying the mighty lizard Halikor. Carrying the enormous severed hoof to the Horde capital of Orgrimmar honors the hunter's triumph over a formidable wilderness beast.",
+ "attribution": [
+  "In-game quest text: Halikor's Hoof"
+ ]
+}

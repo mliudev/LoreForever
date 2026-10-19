@@ -78,10 +78,13 @@ export function chapters(list, name = "", side = "") {
     fresh.forEach(k => seen.add(k));
 
     // The title: where most of it happened (a dungeon counts double, a capital less), and the next place when it's
-    // close behind.
-    const weight = l => l.n * (dungeon.has(l.key) || battle.has(l.key) ? 2 : 1) * (CAPITALS.has(l.key) ? 0.4 : 1);
-    const ranked = [...lands.values()].sort((a, b) => weight(b) - weight(a));
-    const title = !ranked.length ? (n === 1 ? "The journey begins" : "On the road")
+    // close behind. A battleground is never one: its battles have their own line (LOR-685: five chapters, a dungeon
+    // run among them, were all named for Darkspear Islands), unless the chapter was battles and nothing else.
+    const weight = l => l.n * (dungeon.has(l.key) ? 2 : 1) * (CAPITALS.has(l.key) ? 0.4 : 1);
+    const ranked = [...lands.values()].filter(l => !battle.has(l.key)).sort((a, b) => weight(b) - weight(a));
+    const fields = [...lands.values()].filter(l => battle.has(l.key));
+    const title = !ranked.length ? (fields.length ? `Battles at ${listOf(fields.map(l => lowerThe(l.name)))}`
+      : n === 1 ? "The journey begins" : "On the road")
       : ranked[1] && weight(ranked[1]) >= weight(ranked[0]) * 0.5 ? `${ranked[0].name} and ${lowerThe(ranked[1].name)}` : ranked[0].name;
 
     const of = k => ms.filter(m => m.k === k);

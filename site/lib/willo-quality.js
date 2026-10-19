@@ -20,7 +20,7 @@
 
 import { setupAnswerLog, KEEP_DAYS as LOG_DAYS } from "./answer-log.js";
 import { setupFeedback, REASONS, SAID_KINDS } from "./answer-feedback.js";
-import { MISSED, TOPICS } from "./answer-signals.js";
+import { MISSED, TOPICS, topicOf } from "./answer-signals.js";
 
 const like = tags => `(${tags.map(() => "signals LIKE ?").join(" OR ")})`;
 const likes = tags => tags.map(t => `%${t}%`);
@@ -29,6 +29,18 @@ const MISS = like(MISSED), MISS_OR_REPORT = like([...MISSED, "reported"]);
 // The app counts (lib/featureuse.js KEYS): failures by kind, and the counts beside them.
 export const INSTALL_METRICS = ["answer", "report", "like", "interrupt"];
 export const INSTALL_KINDS = ["afail", "vfail", "take"];
+
+// Rows of the answer log to one per topic: {topic, asked, players, missed, failed}.
+function byTopic(rows) {
+  const out = new Map();
+  for (const r of rows) {
+    const topic = r.topic || topicOf(r.question, { operation: r.operation, lookups: String(r.lookups || "").split(","),
+      action: r.action });
+    const t = out.get(topic) || out.set(topic, { topic, asked: 0, who: new Set(), missed: 0, failed: 0 }).get(topic);
+    t.asked++; t.who.add(r.player); t.missed += r.missed; t.failed += r.failed;
+  }
+  return [...out.values()].map(({ who, ...t }) => ({ ...t, players: who.size }));
+}
 
 export async function qualityReport(env, { days = 7, now = new Date() } = {}) {
   const span = Math.min(Math.max(Number.parseInt(days, 10) || 7, 1), LOG_DAYS);
@@ -49,10 +61,12 @@ export async function qualityReport(env, { days = 7, now = new Date() } = {}) {
       `SUM(CASE WHEN ${MISS} THEN 1 ELSE 0 END) AS missed, ` +
       "SUM(CASE WHEN outcome = 'failed' THEN 1 ELSE 0 END) AS failed " +
       "FROM answer_log WHERE created >= ? GROUP BY day ORDER BY day", ...likes(MISSED), from),
-    all("SELECT COALESCE(topic, 'other') AS topic, COUNT(*) AS asked, COUNT(DISTINCT player) AS players, " +
-      `SUM(CASE WHEN ${MISS_OR_REPORT} THEN 1 ELSE 0 END) AS missed, ` +
-      "SUM(CASE WHEN outcome = 'failed' THEN 1 ELSE 0 END) AS failed " +
-      "FROM answer_log WHERE created >= ? GROUP BY topic", ...likes([...MISSED, "reported"]), from),
+    // By topic, worked out from the question for what was kept before topics were (10/18: those 417 of 552 were
+    // "everything else", a second row beside the real one).
+    all("SELECT topic, question, operation, lookups, action, player, " +
+      `CASE WHEN ${MISS_OR_REPORT} THEN 1 ELSE 0 END AS missed, ` +
+      "CASE WHEN outcome = 'failed' THEN 1 ELSE 0 END AS failed " +
+      "FROM answer_log WHERE created >= ?", ...likes([...MISSED, "reported"]), from).then(byTopic),
     all("SELECT lower(trim(question, ' ?!.')) AS q, MIN(question) AS question, COUNT(*) AS asked, " +
       `COUNT(DISTINCT player) AS players, SUM(CASE WHEN ${MISS_OR_REPORT} THEN 1 ELSE 0 END) AS missed, ` +
       "MIN(COALESCE(topic, 'other')) AS topic FROM answer_log WHERE created >= ? AND operation = 'answer' " +

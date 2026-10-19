@@ -152,16 +152,36 @@ function updateLine(body, { target, text }) {
   return { body: tidy(lines.map(x => x.raw).join("\n")), changed: [l.text] };
 }
 
+// The headings Willo makes herself (lib/willo-goals.js GOALS_HEADING, lib/willo-pins.js PINS_HEADING): each goes with
+// its last line (LOR-686: "Forget my mount goal" left an empty "Goals" on the page).
+const OWN_HEADINGS = new Set(["Goals", "Pins"].map(headingKey));
+// The heading a line is under (its index), or -1.
+function headingOver(lines, i) {
+  while (--i >= 0) if (lines[i].kind === "heading") return i;
+  return -1;
+}
+// Whether a heading's section (to the next heading at its level or above) has anything in it.
+function sectionHas(lines, at) {
+  for (let i = at + 1; i < lines.length; i++) {
+    if (lines[i].kind === "heading" && lines[i].level <= lines[at].level) return false;
+    if (lines[i].kind !== "blank") return true;
+  }
+  return false;
+}
+
 function removeLines(body, { targets }) {
   let lines = linesOf(body);
-  const changed = [];
+  const changed = [], emptied = new Set();
   for (const t of targets) {
     const i = findLine(lines, t.raw);
     if (i < 0) continue;
     changed.push(lines[i].text);
+    const head = headingOver(lines, i);
+    if (head >= 0 && OWN_HEADINGS.has(headingKey(lines[head].text))) emptied.add(lines[head]);
     lines = lines.filter((_, j) => j !== i);
   }
-  // Its heading stays, empty: the player's lists keep their shape.
+  // Its heading stays, empty: the player's lists keep their shape. One of Willo's own goes with its last line.
+  lines = lines.filter((l, i) => !emptied.has(l) || sectionHas(lines, i));
   return { body: tidy(lines.map(l => l.raw).join("\n")), changed };
 }
 
@@ -207,6 +227,11 @@ export function applyOp(body, op) {
 // The question asks her to write in the notebook: remember, note, add to the list, tick off, cross off, mark done,
 // change or take off the list. Never "do you remember Arthas?" or "remind me who Hogger is" (questions, not notes).
 const LIST = String.raw`(?:list|to-?dos?|todo|notes?|notebook|checklist)`;
+// They ask for all of it to be cleared: "clear your notes", "wipe my notebook", "empty the list", "clear all my notes".
+// Not a line she could take off ("take Hogger off my list"): she has no clear-all, and the page What Willo keeps does it
+// (lib/willo-help.js says so; the stream, 10/18: "I have cleared your notes", with nothing cleared).
+export const CLEAR_ALL = new RegExp(String.raw`\b(?:clear|wipe|empty|erase|delete|reset)\s+(?:out\s+)?(?:all\s+(?:of\s+)?|everything\s+(?:in|on|from)\s+)?` +
+  String.raw`(?:your|my|our|the)\s+(?:shopping\s+)?(?:notes?|notebook|lists?|to-?dos?)\b`, "i");
 const WRITE = new RegExp([
   String.raw`(?<!\b(?:you|u|we|i)\s)(?<!\bask(?:ed)?\s+you\s+to\s)\bremember(?!\s+(?:when|who|what|how|where|why|which|if|whether|the\s+(?:time|day|name)|me\b))`,
   String.raw`\b(?:can|could|would|will)\s+(?:you\s+)?(?:please\s+)?remember\b(?!\s+(?:when|who|what|how|where|why|which|if|whether|me\b))`,
@@ -215,7 +240,8 @@ const WRITE = new RegExp([
   String.raw`\b(?:make|take|keep|leave)\s+(?:a\s+)?note\b`,
   String.raw`\bnote\s+(?:that|this|it|down|in)\b`,
   String.raw`(?:^|[.!?,]\s*)(?:please\s+)?note\b(?!\s+(?:how|why|what|the\s+way))`,
-  String.raw`\bjot\b`, String.raw`\bwrite\s+(?:that|this|it|them|down)\b`,
+  // Never "where did you write that down?" (a question about where, not an ask to write).
+  String.raw`\bjot\b`, String.raw`(?<!\b(?:did|do|does)\s+(?:you|u)\s)\bwrite\s+(?:that|this|it|them|down)\b`,
   String.raw`\b(?:add|put|stick|pop|throw)\b[^.?!]{0,80}\b(?:to|on|onto|in|into)\s+(?:my|the|our|your)\s+(?:\w+\s+){0,3}${LIST}\b`,
   String.raw`\b(?:tick|check|cross|strike|scratch)\b[^.?!]{0,60}\boff\b`,
   String.raw`\bmark\b[^.?!]{0,60}\b(?:as\s+)?(?:done|complete|completed|finished|undone)\b`,
@@ -239,7 +265,21 @@ const READ = new RegExp([
   String.raw`\bwhat\s+(?:did|have)\s+i\s+(?:note|noted|write|written|save|saved|ask(?:ed)?\s+you\s+to\s+remember)\b`,
   String.raw`\b(?:did|have)\s+(?:i|you)\s+(?:note|noted|write|written|save|saved)\b`,
   String.raw`\bwhat\s+(?:was|were)\s+i\s+(?:supposed|meant|going)\s+to\b`,
+  CLEAR_ALL.source,
 ].join("|"), "i");
+
+// How many, as they say it: "an hour", "15", "fifteen", "twenty-five", "a couple of", "half" (an hour), "a few". The one list
+// every place that reads a time they gave uses (the stream, 10/18: "in fifteen minutes" went on the list, for want of
+// "fifteen" in a short list of the numbers they type).
+const NUMBER_WORDS = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10, eleven: 11,
+  twelve: 12, thirteen: 13, fourteen: 14, fifteen: 15, sixteen: 16, seventeen: 17, eighteen: 18, nineteen: 19, twenty: 20,
+  thirty: 30, forty: 40, fifty: 50, sixty: 60, seventy: 70, eighty: 80, ninety: 90 };
+const wordsOf = test => Object.keys(NUMBER_WORDS).filter(w => test(NUMBER_WORDS[w])).join("|");
+const HOW_MANY = String.raw`(?:(?:about|around|roughly)\s+)?(?:(?:${wordsOf(n => n >= 20)})(?:[\s-]+(?:${wordsOf(n => n < 10)}))?` +
+  String.raw`|${wordsOf(n => n < 20)}|\d+(?:\.\d+)?|an?|half|a\s+few|a\s+couple(?:\s+of)?)`;
+// "In an hour", "in 20", "in half…", "in a few…" as they always were, and a number in words only with its unit: "in fifteen
+// minutes", never "in one sentence" or "in two words".
+const IN_TIME = String.raw`in\s+(?:an?|\d+|half|a\s+few)\b|in\s+${HOW_MANY}\s*(?:hours?|hrs?|minutes?|mins?)\b`;
 
 // The question asks for a reminder at a moment (LOR-663): "remind me when I reach Ironforge", "in an hour, remind me to
 // log off", "tell me when I hit 20", "set a reminder", or names their reminders ("cancel the Ironforge reminder", "what
@@ -248,8 +288,8 @@ const REMIND = new RegExp([
   String.raw`\bremind\s+me\b(?!\s+(?:who|what|how|where|why|which|of|again)\b)`,
   String.raw`\b(?:set|make|add|create)\s+(?:me\s+)?(?:an?\s+)?(?:reminder|alarm|timer)\b`,
   String.raw`\b(?:cancel|forget|drop|delete|remove|clear|stop|move|change|update|push|postpone|switch)\b[^.?!]{0,60}\breminders?\b`,
-  String.raw`\b(?:tell|ping|alert|nudge|warn|let)\s+me\b[^.?!]{0,60}\b(?:in\s+(?:an?|\d+|half|a\s+few)\b|at\s+\d|when\s+i|once\s+i|as\s+soon\s+as|tonight|tomorrow)`,
-  String.raw`\b(?:in\s+(?:an?|\d+|half|a\s+few)\b[^.?!]{0,20}\b(?:hours?|minutes?|mins?)|at\s+\d{1,2}(?::\d\d)?\s*(?:am|pm)?|when\s+i(?:'m|\s+am|\s+get|\s+reach|\s+hit)[^.?!]{0,40})[^.?!]{0,10},?\s*(?:tell|ping|warn|let|nudge|alert)\s+me\b`,
+  String.raw`\b(?:tell|ping|alert|nudge|warn|let)\s+me\b[^.?!]{0,60}\b(?:${IN_TIME}|at\s+\d|when\s+i|once\s+i|as\s+soon\s+as|tonight|tomorrow)`,
+  String.raw`\b(?:in\s+${HOW_MANY}\b[^.?!]{0,20}\b(?:hours?|hrs?|minutes?|mins?)|at\s+\d{1,2}(?::\d\d)?\s*(?:am|pm)?|when\s+i(?:'m|\s+am|\s+get|\s+reach|\s+hit)[^.?!]{0,40})[^.?!]{0,10},?\s*(?:tell|ping|warn|let|nudge|alert)\s+me\b`,
 ].join("|"), "i");
 
 // {write, read, remind}: whether her answer is offered the notebook's tools (write), reads the whole of it (read, or
@@ -262,15 +302,33 @@ const OFFERED = /\b(?:want|shall|should|like)\b[^.?!]{0,60}\b(?:list|notebook|no
 // model took two pins off, and she said she couldn't find them).
 const ADD_OFFER = /\b(?:note|add|write|jot|put|keep|save|remember)\b|\bon\s+(?:your|the)\s+(?:\w+\s+)?list\b/i;
 const TAKE_OFFER = /\b(?:tick|cross|remove|take|clear|delete|strike|untick|move|change)\b/i;
+// The moment they give right after she kept a reminder as a to-do for want of one (namedLines' "You didn't say when or
+// where" line): "I said in fifteen minutes", "make it at 9pm". The stream (10/18) got "I have set a reminder…" for it, with
+// nothing written. So it asks for the reminder again, on what she kept (its words from that line).
+const NO_MOMENT_LINE = /You didn't say when or where, so it's on your list: (.+?)\.?\s*$/s;
+export const lateMoment = (question, previous) => NO_MOMENT_LINE.test(String(previous || "")) &&
+  String(question || "").trim().split(/\s+/).length <= 12 && (DURATION.test(question) || CLOCK.test(question)
+    || minutesAsked(question) !== null);
+// A short ask with a time from now and no "remind me" is a reminder too (Mike, out loud, 10/19: "Check in 5 minutes." got "I
+// will keep watch and let you know when five minutes have passed", with nothing set). Never a question ("what can I do in
+// 5 minutes?") or their own plans ("I'll be back in 10 minutes").
+const NOT_ASKED = /^\s*(?:(?:hey|ok|okay|so|and|but|willo|willow)\b[,!]?\s+)*(?:what|how|where|who|why|when|which|whose|is|are|was|were|am|do|does|did|can|could|will|would|should|shall|may|might|i|i'm|i'll|i've|i'd|we|we're|we'll|brb|be\s+right\s+back)\b/i;
+export const timedAsk = question => {
+  const q = String(question || "").replace(/’/g, "'");
+  return (minutesAsked(q) !== null || DURATION.test(q)) && !/\?\s*$/.test(q) && !NOT_ASKED.test(q)
+    && q.trim().split(/\s+/).length <= 12;
+};
 export function notebookIntent(question, previous = "") {
   const q = String(question || "").replace(/’/g, "'");
   const move = MOVE.test(q);
-  const remind = REMIND.test(q);
+  const remind = REMIND.test(q) || lateMoment(q, previous) || timedAsk(q);
+  const clear = CLEAR_ALL.test(q);
   const offer = YES.test(q) && !move && !remind && !WRITE.test(q)
     ? (String(previous || "").match(/[^.!?]*[.!?]*/g) || []).filter(t => OFFERED.test(t)).at(-1) : null;
   const write = move || remind || WRITE.test(q) || Boolean(offer);
+  // clear: all of it asked to be cleared. Read, never written: she has no clear-all, so nothing she says may claim one.
   return { write, read: write || READ.test(q) || /\breminders?\b/i.test(q), remind, ...(move ? { move } : {}),
-    ...(offer && ADD_OFFER.test(offer) && !TAKE_OFFER.test(offer) ? { adding: true } : {}) };
+    ...(clear ? { clear } : {}), ...(offer && ADD_OFFER.test(offer) && !TAKE_OFFER.test(offer) ? { adding: true } : {}) };
 }
 
 // The words that tie a question to a line of the notebook: "linen" in "where's linen sold?" and "10 Linen Cloth".
@@ -666,7 +724,7 @@ export function reminderWhen(r, offset = null, now = new Date()) {
 }
 
 // A time they gave: "in an hour", "in 20 minutes", "at 9:30", "at 9pm", "tonight at 8".
-const DURATION = /\bin\s+(?:an?|one|two|three|four|five|ten|fifteen|twenty|thirty|forty|half|a\s+few|a\s+couple(?:\s+of)?|\d+)\b[^.?!]{0,20}\b(?:hours?|hrs?|minutes?|mins?)\b|\bin\s+half\s+an\s+hour\b/i;
+const DURATION = new RegExp(String.raw`\bin\s+${HOW_MANY}\b[^.?!]{0,20}\b(?:hours?|hrs?|minutes?|mins?)\b`, "i");
 const CLOCK = /\b(?:at|by|around)\s+(?:1[0-2]|0?\d|2[0-3])(?::[0-5]\d)?\b|\b\d{1,2}(?::[0-5]\d)?\s*(?:a\.?m|p\.?m)\b|\b(?:noon|midnight|tonight)\b/i;
 // The place their words name, for a reminder: "when I'm next in Ironforge", "when I reach Booty Bay", "visit Shattrath".
 const PLACE_ASKED = /\b(?:in|at|reach|reaching|get\s+to|arrive\s+(?:in|at)|visit(?:ing)?|enter(?:ing)?|to)\s+((?:the\s+)?[A-Z][\p{L}'’-]*(?:\s+(?:of\s+)?[A-Z][\p{L}'’-]*)*)/u;
@@ -697,10 +755,15 @@ const DAYPART = /\b(?:am|pm|a\.m|p\.m|morning|afternoon|evening|night|tonight|no
 // time that could be morning or night).
 // What to remind them of in their own words: "sell the cloth" from "when I'm next in Ironforge, remind me to sell the
 // cloth" (the blind check: "train" came back "Train your new paladin skills"), or "" when they put it otherwise.
-const ASKED_TEXT = /\b(?:remind|tell|ping|warn|nudge)\s+me\s+(?:to|that|about)\s+(.+?)(?=\s+(?:when|once|as\s+soon\s+as|at\s+(?:\d|noon|midnight)|in\s+(?:an?|\d+|half|a\s+few|the)\b|tonight|tomorrow|before|after|on\s+(?:my|all|every)|for\s+(?:all|every)|if)\b|[,.?!]|$)/i;
+// "if" ends what to remind them of ("remind me to train if I ding"), but not when it's what they'd find out: "remind
+// me to check if I have enough gold" kept only "check" (10/19).
+const IF_MOMENT = String.raw`(?<!\b(?:check|see|ask|find\s+out|know|look))\s+if\b`;
+// "check up on my auction" keeps "on my auction": only "on all my characters" (and its like) ends the words, as "for all my
+// characters" does. Their moment ("in fifteen minutes") is IN_TIME, from the shared HOW_MANY.
+const ASKED_TEXT = new RegExp(String.raw`\b(?:remind|tell|ping|warn|nudge)\s+me\s+(?:to|that|about)\s+(.+?)(?=\s+(?:when|once|as\s+soon\s+as|at\s+(?:\d|noon|midnight)|${IN_TIME}|in\s+the\b|tonight|tomorrow|before|after|on\s+(?:all|every|each)\b|on\s+my\s+(?:other\s+)?(?:characters?|toons?|alts?|chars?)\b|for\s+(?:all|every))\b|${IF_MOMENT}|[,.?!]|$)`, "i");
 const ASKED_AFTER = /\b(?:hit|reach|get\s+to|am\s+in|'m\s+in|arrive\s+(?:in|at))\s+[^,.?!]*?\bto\s+([^,.?!]+?)\s*[.?!]?$/i;
 // "remember to visit the bank sometime", "don't let me forget to repair": the thing, in their words.
-const ASKED_TODO = /\b(?:remember|don'?t\s+(?:let\s+me\s+)?forget|remind\s+me)\s+to\s+(.+?)(?=\s+(?:sometime|someday|later|soon|when|once|as\s+soon\s+as|at\s+(?:\d|noon|midnight)|in\s+(?:an?|\d+|half|a\s+few|the)\b|tonight|tomorrow|before|after|next|for\s+(?:all|every)|if)\b|[,.?!]|$)/i;
+const ASKED_TODO = new RegExp(String.raw`\b(?:remember|don'?t\s+(?:let\s+me\s+)?forget|remind\s+me)\s+to\s+(.+?)(?=\s+(?:sometime|someday|later|soon|when|once|as\s+soon\s+as|at\s+(?:\d|noon|midnight)|${IN_TIME}|in\s+the\b|tonight|tomorrow|before|after|next|for\s+(?:all|every))\b|${IF_MOMENT}|[,.?!]|$)`, "i");
 function askedTodo(question) {
   const m = ASKED_TODO.exec(String(question || "").replace(/’/g, "'"));
   const text = m ? cleanItem(m[1], REMIND_CHARS) : "";
@@ -729,9 +792,84 @@ export function noMoment(view, intent) {
   return { page: view.current || ACCOUNT_PAGE, op: { op: "add", kind: "todo", items: [text], heading: null, why: "no-moment" } };
 }
 
+// How long from now they asked for, in minutes, or null: "in 15 minutes", "in fifteen mins", "in an hour", "in half an hour",
+// "in an hour and a half", "in a couple of hours". Only a count the words give exactly ("in a few minutes" is the model's to
+// say), and never a place's "in an inn".
+export function minutesAsked(question) {
+  const q = String(question || "").toLowerCase().replace(/’/g, "'");
+  if (/\b(?:in|for)\s+(?:(?:about|around|roughly)\s+)?half\s+an?\s+hour\b/.test(q)) return 30;
+  // "in 5 minutes", "5 minutes from now", and "for 5 minutes" of a reminder or timer (Mike, out loud, 10/19: "set a
+  // reminder for 5 minutes" was kept as a to-do, "You didn't say when or where").
+  const unit = String.raw`\s*(hours?|hrs?|minutes?|mins?)\b(\s+and\s+a\s+half\b)?`;
+  const m = new RegExp(String.raw`\bin\s+(${HOW_MANY})${unit}`).exec(q)
+    || new RegExp(String.raw`\b(${HOW_MANY})${unit}\s+from\s+now\b`).exec(q)
+    || (/\b(?:remind|reminder|timer|alarm)\b/.test(q) ? new RegExp(String.raw`\bfor\s+(${HOW_MANY})${unit}`).exec(q) : null);
+  if (!m) return null;
+  const count = m[1].replace(/^(?:about|around|roughly)\s+/, "");
+  const n = /^\d/.test(count) ? Number(count) : /^an?$/.test(count) ? 1 : /^a\s+couple/.test(count) ? 2
+    : /^(?:half|a\s+few)$/.test(count) ? null : count.split(/[\s-]+/).reduce((sum, w) => sum + NUMBER_WORDS[w], 0);
+  const hours = /^h/.test(m[2]);
+  const minutes = Math.round(n * (hours ? 60 : 1) + (hours && m[3] ? 30 : 0));
+  return Number.isFinite(minutes) && minutes >= 1 && minutes <= 7 * 24 * 60 ? minutes : null;
+}
+// A moment their words leave open ("when I get to Ironforge", "once I hit 20"): a place or a level, which a time given
+// beside it never replaces.
+const EVENTUAL = /\b(?:when|whenever|once|as\s+soon\s+as|next\s+time)\b/i;
+
+// The reminder asked for after her no-moment line ("I said in fifteen minutes"), from the site, whatever the model called: the
+// words kept on their list, at the time they gave from now. Only with minutes (a time of day is the model's to read).
+export function lateReminder(view, intent) {
+  if (!view || !intent?.remind || !lateMoment(view.question, view.previous)) return null;
+  const minutes = minutesAsked(view.question);
+  const text = cleanItem(NO_MOMENT_LINE.exec(view.previous)?.[1], REMIND_CHARS);
+  return minutes && text ? remindCall({ text, when: "time", in_minutes: minutes }, view) : null;
+}
+
+// The words of a reminder asked with a time from now, in theirs: "Check in 5 minutes." is "Check", "In 5 minutes, check the
+// auction house" is "check the auction house"; none given ("remind me in 5 min", "set a reminder for 5 minutes"): "time's up".
+const TIMED = new RegExp(String.raw`\b(?:in|for)\s+(?:(?:about|around|roughly)\s+)?half\s+an?\s+hour\b|\b(?:in|for)\s+${HOW_MANY}\s*(?:hours?|hrs?|minutes?|mins?)\b(?:\s+and\s+a\s+half\b)?(?:\s+from\s+now\b)?|\b${HOW_MANY}\s*(?:hours?|hrs?|minutes?|mins?)\s+from\s+now\b`, "gi");
+export function timedText(question) {
+  const t = String(question || "").replace(/’/g, "'").replace(TIMED, " ")
+    .replace(/^\s*(?:(?:hey|ok|okay|willo|willow)\b[,!]?\s+)+/i, "")
+    .replace(/\b(?:please|can\s+you|could\s+you|would\s+you|will\s+you)\b/gi, " ")
+    .replace(/\b(?:remind|tell|ping|nudge|alert|warn)\s+me\b/gi, " ")
+    .replace(/\b(?:set|make|add|create|start)\s+(?:me\s+)?(?:an?\s+)?(?:reminder|alarm|timer)\b/gi, " ")
+    .replace(/\s+/g, " ").replace(/^[\s,.;:!-]+|[\s,.;:!?-]+$/g, "").replace(/^(?:to|that|about|for)\s+/i, "");
+  return cleanItem(t, REMIND_CHARS);
+}
+// A reminder at a time from now, from the site, whatever the model called (or promised): "Check in 5 minutes.", "remind me
+// in 5 min", "set a reminder for 5 minutes". Not beside an event they name ("when I get to Ironforge"), a time of day, a
+// change to one they have, or right after her no-moment line (lateReminder's).
+const CHANGES = /\b(?:cancel|forget|drop|delete|remove|clear|stop|move|change|update|push|postpone|switch|instead)\b/i;
+export function timedReminder(view, intent) {
+  if (!view || !intent?.remind) return null;
+  const q = String(view.question || "");
+  const minutes = minutesAsked(q);
+  if (!minutes || EVENTUAL.test(q) || CLOCK.test(q) || CHANGES.test(q) || lateMoment(q, view.previous)) return null;
+  return remindCall({ text: askedText(q) || timedText(q) || "time's up", when: "time", in_minutes: minutes }, view);
+}
+
+// A reminder is said to them, by her, when it's set and when its moment comes ("You asked me to remind you: sell your
+// cloth"), so their "my" and "I" become "your" and "you": taken as they said it, she said "I'll remind you: sell my
+// cloth" (the first-run trial's blind check, 10/19). A to-do stays in their words: it's a line of their own list.
+const YOURS = { "i am": "you are", "i'm": "you're", "i've": "you've", "i'll": "you'll", "i'd": "you'd", i: "you", me: "you",
+  my: "your", mine: "yours", myself: "yourself" };
+export const toYou = text => String(text).replace(/\b(?:i am|i['’](?:m|ve|ll|d)|myself|mine|my|me|i)\b/gi, (w, at) => {
+  const said = YOURS[w.toLowerCase().replace("’", "'")];
+  // "My pet" keeps its capital; "I" always has one, so "I need to log off" is "you need to log off", as her other lines say.
+  return at === 0 && /^[A-Z]/.test(w) && !/^i\b/i.test(w) ? said[0].toUpperCase() + said.slice(1) : said;
+});
+
 function remindCall(args, view) {
   const text = askedText(view.question) || cleanItem(args.text, REMIND_CHARS);
   if (!text) return null;
+  // "In fifteen minutes" is a time, whatever else the call says (the stream, 10/18: "check up on my auction in fifteen
+  // minutes" got a place or a level no one named, and so "You didn't say when or where"). Not when they name an event too
+  // ("when I get to Ironforge, remind me in an hour": theirs to read), and never over a time of day the call has.
+  const minutes = minutesAsked(view.question);
+  if (minutes && !EVENTUAL.test(view.question || "") && !(args.when === "time" && args.clock) &&
+    !(args.when === "time" && Number.isInteger(Number(args.in_minutes)) && Number(args.in_minutes) >= 1))
+    args = { ...args, when: "time", in_minutes: minutes };
   // The page for all their characters only when they say so: a reminder set on Húrin came back on it, and Brynn heard
   // it as hers (LOR-663's blind check, case 11).
   const page = (args.page === "account" && ALL_CHARACTERS.test(view.question || "")) || !view.current ? ACCOUNT_PAGE : view.current;
@@ -740,14 +878,14 @@ function remindCall(args, view) {
   const q = ` ${placeKey(view.question)} `;
   const named = { place: pl => Boolean(pl) && q.includes(` ${placeKey(pl)} `),
     level: lv => new RegExp(`\\b${Number(lv)}\\b`).test(view.question || ""),
-    time: () => DURATION.test(view.question || "") || CLOCK.test(view.question || "") };
+    time: () => DURATION.test(view.question || "") || CLOCK.test(view.question || "") || minutesAsked(view.question) !== null };
   const asked = placeAsked(view.question);
   if (args.when === "place" && !named.place(args.place) && !asked && !args.replaces)
     return { page, op: { op: "add", kind: "todo", items: [text], heading: null, why: "no-moment" } };
   if ((args.when === "level" && !named.level(args.level)) || (args.when === "time" && !named.time()))
     return { page, op: { op: "add", kind: "todo", items: [text], heading: null, why: "no-moment" } };
   const replaced = Number.isInteger(Number(args.replaces)) ? view.refs.get(Number(args.replaces))?.reminder : null;
-  const base = { id: replaced?.id || null, page: replaced?.page || page, text };
+  const base = { id: replaced?.id || null, page: replaced?.page || page, text: toYou(text) };
   const done = reminder => ({ page: base.page, op: { op: "remind", reminder, replaces: replaced?.id || null } });
   if (args.when === "place") {
     // The place they named: the model's, when it's in their words, else the one their words name ("visit Shattrath").
@@ -894,9 +1032,11 @@ export function alreadyLine(op) {
 // ("I have added that to the top of your list", "your notebook now shows that first": the blind check, case 3, came as a
 // plain answer with no tool called), and when nothing's left, a line that's true. Negated ones stay ("I haven't
 // added…").
-const CLAIMED = /\b(?:I(?:'ve|\s+have|\s+just)?|I'll|we've)\s+(?:just\s+|now\s+|also\s+|gone\s+ahead\s+and\s+)?(?:added|moved|put|placed|ticked|crossed|noted|updated|changed|removed|written|wrote|saved|marked|jotted|deleted|taken|bumped|listed|set)\b|\b(?:notebook|list|page|to-?do(?:\s+list)?)\s+(?:now\s+)?(?:shows|has|lists|reads)\b[^.?!]*\bnow\b|\bnow\s+(?:shows|has|lists|reads)\b|\bis\s+now\s+(?:first|at\s+the\s+(?:top|bottom)|on\s+your|in\s+your)\b|^\s*(?:done|noted|got\s+it|all\s+set|added|moved|sure|of\s+course|absolutely|certainly|happy\s+to|will\s+do|okay|ok)\b[^.?!]{0,20}[.!]?\s*$|\b(?:I'll|I\s+will|I\s+shall|I'm\s+going\s+to)\s+(?:\w+\s+){0,3}(?:remind|tell|ping|nudge|alert|let\s+you\s+know|call\s+(?:it|that)\s+out)\b/i;
+const CLAIMED = /\b(?:I(?:'ve|\s+have|\s+just)?|I'll|we've)\s+(?:just\s+|now\s+|also\s+|gone\s+ahead\s+and\s+)?(?:added|moved|put|placed|ticked|crossed|noted|updated|changed|removed|written|wrote|saved|marked|jotted|deleted|taken|bumped|listed|set|cleared|wiped|emptied|erased)\b|\b(?:notebook|list|page|to-?do(?:\s+list)?)\s+(?:now\s+)?(?:shows|has|lists|reads)\b[^.?!]*\bnow\b|\bnow\s+(?:shows|has|lists|reads)\b|\bis\s+now\s+(?:first|at\s+the\s+(?:top|bottom)|on\s+your|in\s+your)\b|^\s*(?:done|noted|got\s+it|all\s+set|added|moved|sure|of\s+course|absolutely|certainly|happy\s+to|will\s+do|okay|ok)\b[^.?!]{0,20}[.!]?\s*$|\b(?:I'll|I\s+will|I\s+shall|I'm\s+going\s+to)\s+(?:\w+\s+){0,3}(?:remind|tell|ping|nudge|alert|let\s+you\s+know|call\s+(?:it|that)\s+out)\b/i;
 export const NO_CHANGE_LINE = "I haven't changed your notebook yet. Tell me what to add, tick off or move.";
 export const NO_REMINDER_LINE = "I haven't set a reminder yet. Tell me where or when, and what to say.";
+// Asked to clear all of it: she can't, so never a line that says she did (the stream, 10/18: "I have cleared your notes").
+export const NO_CLEAR_LINE = "I can't clear your whole notebook myself. Tell me which lines to take off your list, and I will.";
 // reminding: the question asked for a reminder, so a promise of one goes too ("I will certainly remind you to log off in
 // an hour" with none set: LOR-663's blind check, case 6), and her true line is about reminders.
 // "Consider it done", "your map is clear of those pins now", "that's taken care of", "you're all set": claims too, with
@@ -924,10 +1064,13 @@ export const NOT_DONE_LINE = "I haven't done that yet. Tell me again what you'd 
 // is clear" is a claim; on a read it's true ("Is there anything left on my to-do?" "Your list is all clear: …": the
 // vision session, 10/18). plain: not about the notebook (only a yes to some other offer of hers), so her true line
 // says nothing of it.
-export function unclaimed(answer, { reminding = false, plain = false, changing = false } = {}) {
+export function unclaimed(answer, { reminding = false, plain = false, changing = false, clear = false } = {}) {
   const sentences = String(answer || "").match(/[^.!?]+[.!?]*\s*/g) || [];
-  const kept = sentences.filter(t => !CLAIMED.test(t) && !(changing && claimsDone(t))).join("").trim();
-  return kept || (sentences.length ? (reminding ? NO_REMINDER_LINE : plain ? NOT_DONE_LINE : NO_CHANGE_LINE) : String(answer || ""));
+  const left = sentences.filter(t => !CLAIMED.test(t) && !(changing && claimsDone(t)));
+  // Asked to clear all of it and she said she did: what's left of her words ("Everything is gone.") only echoes it.
+  if (clear && left.length < sentences.length) return NO_CLEAR_LINE;
+  const kept = left.join("").trim();
+  return kept || (sentences.length ? (clear ? NO_CLEAR_LINE : reminding ? NO_REMINDER_LINE : plain ? NOT_DONE_LINE : NO_CHANGE_LINE) : String(answer || ""));
 }
 
 // "What reminders do I have?": the answer built here, from what's waiting for this character and all of them, never the
@@ -998,7 +1141,9 @@ export function withRest(line, answer) {
 }
 // Her sentences about a reminder she set ("I'll tell you when you get there", "I'll be sure to tell you to log off in an
 // hour": 10/18, live): the site's line says it.
-const REMINDED = /\b(?:remind(?:er|ed|ing)?|(?:i'?ll|i\s+will|i'm\s+going\s+to)\s+(?:\w+\s+){0,3}(?:tell|let\s+you|ping|nudge|alert|call\s+(?:it|that)\s+out))\b/i;
+// And her watching the time for them ("I will keep watch and let you know when five minutes have passed", "I will be right
+// here waiting for you when you return in five minutes": Mike, out loud, 10/19).
+const REMINDED = /\b(?:remind(?:er|ed|ing)?|(?:i'?ll|i\s+will|i'm\s+going\s+to)\s+(?:\w+\s+){0,3}(?:tell|let\s+you|ping|nudge|alert|call\s+(?:it|that)\s+out|keep\s+(?:watch|an?\s+eye|track)|be\s+(?:right\s+)?(?:here|there)\s+waiting|wait\s+for\s+you))\b/i;
 
 // ---- The database ----
 

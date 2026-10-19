@@ -38,7 +38,7 @@ P.transport["npc:alyissia"] = {
   fullHash = "cb728a",
   text = "Alyissia. Alyissia is a kaldorei warrior trainer stationed inside the hollow boughs of Aldrassil in Shadowglen. She guides newly awakened night elf warriors in the fundamentals of martial combat, helping them harness raw strength and discipline to defend their nascent world tree. Standing within the sheltered sanctuary of Aldrassil, Alyissia instructs young night elves who feel drawn to the path of steel and shield rather than nature magic or the priesthood. While the kaldorei military is traditionally renowned for its Sentinels and stealthy archers, the perilous state of modern Kalimdor requires resolute frontline fighters. Alyissia teaches foundational techniques, ensuring that fresh recruits can direct their battle fury, master their stances, and withstand the aggressive wildlife and corrupted grells encroaching on Shadowglen.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_alyissia-fc0d3fbfa451e085b455/1-0000.mp3", duration = 45.4530612, start = 0},
+    {file = "Audio/Transport/full_npc_alyissia-24dbabf78104d4ceab43/1-0000.mp3", duration = 46.6546939, start = 0},
   },
 }
 P.transport["npc:amber-kearnen"] = {
@@ -94,7 +94,7 @@ P.transport["npc:archaeologist-hollee"] = {
   fullHash = "a72a30",
   text = "Archaeologist Hollee. Archaeologist Hollee is a dwarven researcher stationed in the coastal settlement of Auberdine. Working on behalf of dwarven excavation interests, she keeps tabs on archaeological findings and surveys throughout the ancient, fog-shrouded wilderness of Darkshore. She frequently coordinates with prospectors scouring the region for relics and geological anomalies. While Darkshore is predominantly guarded and settled by the night elves, the presence of dwarven scholars like Archaeologist Hollee reflects Ironforge's growing curiosity about Kalimdor. The Explorers' League sends representatives far across the seas to uncover traces of ancient history, and Darkshore's ruins offer tempting ground for study. Hollee makes her temporary base out of Auberdine, acting as a regional contact for wandering surveyors and expedition teams.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_archaeologist-hollee-fd0dd438b3f223b69fa3/1-0000.mp3", duration = 49.684898, start = 0},
+    {file = "Audio/Transport/full_npc_archaeologist-hollee-dbf9d8005e65f0e61bd5/1-0000.mp3", duration = 46.0277551, start = 0},
   },
 }
 P.transport["npc:archbishop-benedictus"] = {
@@ -110,7 +110,7 @@ P.transport["npc:archmage-ansirem-runeweaver"] = {
   fullHash = "c5c4d8",
   text = "Archmage Ansirem Runeweaver. Archmage Ansirem Runeweaver is a senior human wizard and a ruling member of Dalaran's Council of Six. Having survived the Scourge's destruction of Dalaran in the Third War, he oversees Kirin Tor operations from the Violet Citadel as Dalaran is rebuilt. Though dedicated to the rebuilding of his city, he also maintains discreet interests abroad—including a willful daughter who ran off to Booty Bay to become a pirate. A veteran mage who helped defend Dalaran across decades, Ansirem Runeweaver sits on the Council of Six, the ruling magocracy of the Kirin Tor. He survived the devastation when Arthas Menethil and the Scourge marched upon the city and Archimonde was summoned. In the wake of Dalaran's fall, Ansirem has aided the efforts to rebuild the arcane city, whose protective shield was lifted early, and now works from the Violet Citadel. Despite his scholarly duties and stern wizardly demeanor, Ansirem possesses personal ties far beyond the Alterac Mountains. His willful daughter, Catelyn, ran off to Booty Bay to become a pirate, taking with her an ancient troll dagger he had found while researching in Stranglethorn. He has also dealt with Baron Revilgaz there. He has also engaged in arcane studies involving troll antiquities and maintains diplomatic conduits across distant realms.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_archmage-ansirem-runeweaver-c5289992cf2cca232148/1-0000.mp3", duration = 76.7477551, start = 0},
+    {file = "Audio/Transport/full_npc_archmage-ansirem-runeweaver-db6aa14b472768576a4c/1-0000.mp3", duration = 76.6432653, start = 0},
   },
 }
 P.transport["npc:archmage-malin"] = {
@@ -174,7 +174,7 @@ P.transport["npc:ayessa-dawnsinger"] = {
   fullHash = "f4014d",
   text = "Ayessa Dawnsinger. Ayessa Dawnsinger is a Skyborne leader found in Valanaar on Zephras Isle. She leads the Windshapers, guiding the Skyborne aligned with the Horde through their trials and politics. Standing within the settlement of Valanaar on Zephras Isle, Ayessa Dawnsinger serves as the paramount guide for the Windshapers—the faction of Skyborne aligned with the Horde. From this vantage, she directs critical efforts across the island, managing external threats, internal fractures, and the overarching survival of her people as they navigate alliances in Kalimdor and beyond.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ayessa-dawnsinger-b44e668ed3f711becbfe/1-0000.mp3", duration = 32.6008163, start = 0},
+    {file = "Audio/Transport/full_npc_ayessa-dawnsinger-2564b1e39e8dcc1ab4dc/1-0000.mp3", duration = 32.7314286, start = 0},
   },
 }
 P.transport["npc:azar-stronghammer"] = {
@@ -238,7 +238,7 @@ P.transport["npc:baron-revilgaz"] = {
   fullHash = "ea8e86",
   text = "Baron Revilgaz. Baron Revilgaz is the cunning goblin leader of Booty Bay and the Blackwater Raiders, ruling the pirate haven on behalf of the Steamwheedle Cartel. Perched high on the balcony of the Salty Sailor Tavern, he balances fragile trade neutrality with ruthlessly pragmatic opportunism. He hires passing mercenaries to secure his investments, undermine rivals like the Bloodsail Buccaneers, and retrieve ancient relics of the jungle. From his vantage atop the Salty Sailor Tavern, Baron Revilgaz watches the bustling docks of Blackwater Cove through a custom enchanted spyglass. Flanked by his trusted advisor, the tauren Fleet Master Seahorn, Revilgaz exercises firm control over the town's cutpurses, merchants, and privateers. Originally a human settlement overwhelmed by trolls before the First War, the port was claimed and fortified by goblins, eventually evolving into the pirate-leaning commercial nexus of the Blackwater Raiders. Revilgaz ensures the port remains officially open to both Alliance and Horde travelers, strictly enforcing neutrality within harbor limits so that trade continues uninterrupted. Revilgaz's influence extends far past the harbor docks. When business stagnated following recent wars elsewhere in Azeroth, he seized upon the discovery of tastyfish to establish the Stranglethorn Fishing Extravaganza, drawing crowds back to his shores. Across Stranglethorn Vale, he keeps a sharp eye on competitors and potential threats: he commissions sabotage against the Venture Company at Lake Nazferiti, closely monitors Nesingwary's hunting expedition and rogue human military camps in the north, and maintains racing trade ties with Monte Gazlowe and Pozzik at the Mirage Raceway.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_baron-revilgaz-c45ee34b7ced8511a009/1-0000.mp3", duration = 98.9257143, start = 0},
+    {file = "Audio/Transport/full_npc_baron-revilgaz-a64868d0b77a572c5c1a/1-0000.mp3", duration = 101.146122, start = 0},
   },
 }
 P.transport["npc:bartleby"] = {
@@ -246,7 +246,7 @@ P.transport["npc:bartleby"] = {
   fullHash = "dcdb3a",
   text = "Bartleby. Bartleby is a bellicose drunkard loitering within the Pig and Whistle Tavern in Stormwind's Old Town. Known for his stubborn grip on his ale, he serves as an early martial test for aspiring warriors looking to prove their mettle in a good old-fashioned tavern brawl. Tucked away in the narrow, cobblestone alleys of Old Town, the Pig and Whistle Tavern draws a rougher, more weathered crowd than the pristine taprooms of the Cathedral Square. Bartleby is one of its most persistent fixtures. Clinging tightly to his favorite mug and fueled by cheap ale, he spends his days nursing grievances and picking fights with anyone unfortunate enough to disturb his drinking. While Bartleby looks like any other neighborhood drunk, Stormwind's warrior trainers see practical value in him. Harry Burlguard regularly directs fledgling fighters to track Bartleby down and relieve him of his mug. Taking the mug requires trading bare-knuckle blows with the intoxicated brawler, proving whether a novice warrior possesses the grit to handle an unruly opponent up close.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bartleby-977efb31f416787f15f1/1-0000.mp3", duration = 58.2791837, start = 0},
+    {file = "Audio/Transport/full_npc_bartleby-94b806b5f499855eaeb2/1-0000.mp3", duration = 58.8016327, start = 0},
   },
 }
 P.transport["npc:bashana-runetotem"] = {
@@ -470,7 +470,7 @@ P.transport["npc:captain-danuvin"] = {
   fullHash = "7f346e",
   text = "Captain Danuvin. Captain Danuvin is an officer stationed at Sentinel Hill in Westfall, serving as one of the leaders tasked with holding the frontier together. Working alongside the People's Militia, he directs volunteers and recruits to patrol the roads and push back against encroaching Gnolls and outlaws. His commands are vital to keeping the supply lines and farmlands from falling completely into hostile hands. Perched at the fortified tower of Sentinel Hill, Captain Danuvin coordinates ground patrols across Westfall. The region has spiraled into chaos with the withdrawal of regular Stormwind garrison troops, leaving local defenses severely depleted. Danuvin relies heavily on wandering adventurers, local farmhands, and volunteer fighters to maintain even a semblance of order across the grassy plains. Danuvin's immediate strategic concern is the security of the roadways and open lands around Sentinel Hill. With the Riverpaw Gnolls growing bolder and raiding close to central outposts, he organizes active patrols to cull their packs and secure the perimeter. His orders help prevent the encampment from being entirely surrounded by Westfall's opportunists and marauders.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_captain-danuvin-e37b0f12c337c64f9af1/1-0000.mp3", duration = 63.9477551, start = 0},
+    {file = "Audio/Transport/full_npc_captain-danuvin-b99c610cbf09cd495cba/1-0000.mp3", duration = 65.6457143, start = 0},
   },
 }
 P.transport["npc:captain-rugelfuss"] = {
@@ -606,7 +606,7 @@ P.transport["npc:colonel-kurzen"] = {
   fullHash = "c7237e",
   text = "Colonel Kurzen. Colonel Conrad Kurzen was once a decorated and noble officer of the Stormwind Army, sent to lead an expedition into northern Stranglethorn Vale. After descending into sudden madness and tyranny, he turned his force into a rogue jungle militia operating out of an armed compound. Today, his former subordinates at the nearby Rebel Camp actively seek his death to end his reign of terror. Before his downfall, Colonel Conrad Kurzen was regarded in Stormwind as an exceptionally capable and noble officer. Trusted by the kingdom's leadership, he was granted command of an expeditionary unit dispatched south into the dense jungles of Stranglethorn Vale. However, deep within the humid wilds, Kurzen began to exhibit erratic behavior and extreme megalomania, declaring absolute sovereignty over the surrounding wilderness and abandoning his allegiance to Stormwind. Kurzen's sudden transformation divided his ranks. While many soldiers succumbed to blind loyalty or twisted zealotry, others grew appalled by his madness and brutality—including his act of throwing Emerine Junis into the compound's prison simply for spurning his advances. Led by Lieutenant Doren, a group of conscience-stricken soldiers broke away to establish the Rebel Camp along the northern road. These loyalist defectors now wage a desperate war against Kurzen to stop his rampaging force.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_colonel-kurzen-93109bf0d30968419be8/1-0000.mp3", duration = 75.755102, start = 0},
+    {file = "Audio/Transport/full_npc_colonel-kurzen-a1f5f5d0f76cfadf9b0c/1-0000.mp3", duration = 80.7967347, start = 0},
   },
 }
 P.transport["npc:commander-mar-alith"] = {
@@ -638,7 +638,7 @@ P.transport["npc:crane-operator-bigglefuzz"] = {
   fullHash = "dca355",
   text = "Crane Operator Bigglefuzz. Crane Operator Bigglefuzz is a goblin dockhand working the heavy machinery at the port of Ratchet. After an overloaded crane mishap scattered cargo across the docks, he finds himself desperate to recover a valuable stolen bottle before his superiors notice. Like many goblin dockworkers, Crane Operator Bigglefuzz prioritized efficiency and haste over basic safety margins. While attempting to hoist an excessively heavy haul from a merchant vessel, his crane buckled, sending crates crashing down across the Ratchet wharves. In the ensuing chaos, opportunistic scoundrels swept in, leaving Bigglefuzz to scramble to clean up the mess and salvage the most precious goods before Gazlowe or the local port masters dock his pay. The worst casualty of the accident was not the broken wood, but a crate containing rare ninety-nine-year-old port. Before Bigglefuzz could secure the spill, an elusive vagrant named Mad Magglish snatched a bottle and fled into hiding, threatening to leave Bigglefuzz answering for an irreplaceable loss.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_crane-operator-bigglefuzz-6b26f648063ed27c643b/1-0000.mp3", duration = 59.0889796, start = 0},
+    {file = "Audio/Transport/full_npc_crane-operator-bigglefuzz-8f9b93af92e305343485/1-0000.mp3", duration = 59.5069388, start = 0},
   },
 }
 P.transport["npc:craven-drok"] = {
@@ -662,7 +662,7 @@ P.transport["npc:darcy-parker"] = {
   fullHash = "b69230",
   text = "Darcy. Darcy is a waitress serving drinks and warm meals at the Lakeshire Inn. Amid the constant threats looming over Redridge, she keeps her spirits up by looking after local defenders—particularly Guard Parker. Behind the busy counter of the Lakeshire Inn, Darcy works day and night to keep the town's weary militia fed and watered. Lakeshire sits under constant pressure from gnolls and Blackrock orcs, making the tavern one of the few places of warmth left in the settlement. Darcy takes a personal interest in the guards posted around town, frequently recruiting traveling adventurers to run hot meals and friendly errands out to those stationed along the borders. Darcy's warmth extends especially toward Guard Parker, who patrols the roads near Three Corners. Convinced he works too hard on an empty stomach, she regularly sends travelers out with lunch to keep him on his feet. Her affections have not gone unnoticed—Darcy keeps a watchful eye on Martie Jainrose, whom she considers a jealous rival for Parker's favor, turning the defense of Lakeshire into the backdrop for an earnest small-town romance.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_darcy-parker-ffc040c19f3cc9afa289/1-0000.mp3", duration = 62.2497959, start = 0},
+    {file = "Audio/Transport/full_npc_darcy-parker-b269654f3439aadd8572/1-0000.mp3", duration = 63.3469388, start = 0},
   },
 }
 P.transport["npc:dark-cleric-beryl"] = {
@@ -718,7 +718,7 @@ P.transport["npc:dawnwatcher-selgorm"] = {
   fullHash = "a3aff9",
   text = "Dawnwatcher Selgorm. Dawnwatcher Selgorm is a human representative of the Argent Dawn stationed upon the Craftsmen's Terrace in Darnassus. Acting as an observer and liaison in the night elven capital, he monitors reports of shadowy cult activity and dark threats stirring across northern Kalimdor. While the Argent Dawn focuses heavily on the undead scourge festering in the Eastern Plaguelands, their vigilance extends anywhere ancient evil takes root. Dawnwatcher Selgorm stands watch in Darnassus, bridging the gap between the insular night elves and the broader crusade against malevolence. From the Craftsmen's Terrace, he gathers intelligence on emerging threats in Kalimdor's wilderness, enlisting capable Alliance travelers to strike at cultists and dark powers before their influence can corrupt the realm.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dawnwatcher-selgorm-d73f78af59f51a79de7e/1-0000.mp3", duration = 44.7477551, start = 0},
+    {file = "Audio/Transport/full_npc_dawnwatcher-selgorm-ed6af22e85fe4365db74/1-0000.mp3", duration = 45.2179592, start = 0},
   },
 }
 P.transport["npc:dawnwatcher-shaedlass"] = {
@@ -814,7 +814,7 @@ P.transport["npc:deathstalker-vincent"] = {
   fullHash = "05abf8",
   text = "Deathstalker Vincent. Deathstalker Vincent was a Forsaken scout sent alongside Deathstalker Adamant to infiltrate Shadowfang Keep. Slain by the mad mage Arugal, his corpse remains inside the stronghold as a grim warning to any who challenge the feral worgen within. Before the Forsaken could launch a full-scale assault against the beasts holding Shadowfang Keep, intelligence on the fortress's interior was desperately needed. Two operatives from the Deathstalkers, the intelligence arm of the Forsaken, slipped past the barricades: Vincent and Adamant. Their mission ended in disaster. While Adamant was captured and locked away in a dungeon cell, Vincent was dragged directly before Shadowfang's master. Refusing to bend the knee or serve Arugal's dark designs, Vincent was executed on the spot, his body discarded on the stone floor to rot as a testament to the mage's fury.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathstalker-vincent-96393cdb67e3da2494bd/1-0000.mp3", duration = 50.6253061, start = 0},
+    {file = "Audio/Transport/full_npc_deathstalker-vincent-a0fc9b7841a7cdab73c5/1-0000.mp3", duration = 49.6065306, start = 0},
   },
 }
 P.transport["npc:deathwing"] = {
@@ -838,7 +838,7 @@ P.transport["npc:demisette-cloyce"] = {
   fullHash = "d21cf2",
   text = "Demisette Cloyce. Demisette Cloyce is a human warlock trainer sequestered in the subterranean crypts beneath the Slaughtered Lamb in Stormwind's Mage Quarter. Operating under cover of the city's underbelly, she instructs practitioners of the fel arts and directs promising acolytes toward deeper, more dangerous arcane mysteries. While Stormwind's authorities maintain an outward veneer of order and holy righteousness, practitioners of fel magic convene in the dank cellars beneath the Slaughtered Lamb in the Mage Quarter. Demisette Cloyce makes her residence down within these catacombs, tutoring warlocks willing to brave the forbidden arts. She holds little patience for the untrained or the uninitiated, advising her students that the dark energies corrupt only those lacking the discipline to master them. Demisette is far more than a simple spell tutor; she serves as an essential nexus for warlock operations across Azeroth. When an acolyte reaches sufficient mastery, she directs them far beyond the walls of Stormwind—connecting them to powerful summoners like Menara Voidrender in the Barrens to harness potent artifacts and bind formidable fel steeds.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_demisette-cloyce-4bdd5f78107098b57264/1-0000.mp3", duration = 65.0187755, start = 0},
+    {file = "Audio/Transport/full_npc_demisette-cloyce-030094f0ca3b562631c9/1-0000.mp3", duration = 65.28, start = 0},
   },
 }
 P.transport["npc:deputy-feldon"] = {
@@ -846,7 +846,7 @@ P.transport["npc:deputy-feldon"] = {
   fullHash = "f210e7",
   text = "Deputy Feldon. Deputy Feldon is a member of the Redridge town guard stationed just south of the Great Lakeshire Bridge. Tasked with watching the primary road into Lakeshire, he keeps a nervous vigil against the aggressive gnoll packs creeping toward the town perimeter. Standing watch near the southern approach to the Lakeshire bridge, Deputy Feldon represents an overextended town guard fighting to keep basic trade and travel routes open. With the Blackrock orcs pressing from the north and gnoll packs overrunning the southern hills, guardsmen like Feldon are stretched to their limits. Unable to leave his post without compromising the town's perimeter, he relies on passing adventurers to cull the gnolls encroaching on the roadway before they can cut Lakeshire off entirely.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deputy-feldon-3cdd78213e5c37ee1ac1/1-0000.mp3", duration = 39.7583673, start = 0},
+    {file = "Audio/Transport/full_npc_deputy-feldon-9f0838612e3ccea83f7f/1-0000.mp3", duration = 41.3518367, start = 0},
   },
 }
 P.transport["npc:deputy-rainer"] = {
@@ -854,7 +854,7 @@ P.transport["npc:deputy-rainer"] = {
   fullHash = "9075b0",
   text = "Deputy Rainer. Deputy Rainer is a Stormwind Army officer stationed outside Westbrook Garrison along Elwynn Forest's western boundary. Tasked with holding the line against encroaching gnoll packs and bandits bleeding over from Westfall, he coordinates local defense efforts when official military reinforcements fail to arrive. Westbrook Garrison serves as Elwynn Forest's westernmost bulwark, positioned just along the boundary road leading into Westfall. As political paralysis in Stormwind City keeps the bulk of the army stationed abroad or tied up in bureaucracy, border posts like Westbrook are left severely understaffed. Deputy Rainer stands outside the tower to organize what little defense the garrison can muster. With local roads constantly threatened by aggressive Riverpaw gnolls and wandering thieves, Rainer is forced to rely on passing travelers and mercenary adventurers rather than official crown regiments to keep the forest trails secure. Beyond managing the immediate threat of the Riverpaw pack and cautioning travelers against the infamous gnoll chieftain Hogger, Rainer serves as a vital communications link to the troubled lands beyond the river. Knowing that the chaos plaguing Elwynn's borders originates in the lawless farmlands to the west, he directs capable volunteers across the threshold into Westfall, pointing them toward Gryan Stoutmantle and the struggling People's Militia.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deputy-rainer-92b21e198dd5781921ba/1-0000.mp3", duration = 78.1844898, start = 0},
+    {file = "Audio/Transport/full_npc_deputy-rainer-f8d88bb36c05f549ac60/1-0000.mp3", duration = 77.8971429, start = 0},
   },
 }
 P.transport["npc:dirge-quikcleave"] = {
@@ -870,7 +870,7 @@ P.transport["npc:doan-karhan"] = {
   fullHash = "510702",
   text = "Doan Karhan. Doan Karhan is a human scholar and practitioner of the dark arts dwelling isolated in the southern Barrens. He has dedicated his life to researching the demonic artifacts of the Burning Legion, especially the enigmatic Orb of Soran'ruk. Tucked away in a solitary camp in the wild savannah of the southern Barrens, Doan Karhan lives far from the civilized bastions of the Alliance. Rather than seeking ordinary solitude, he retreated to the wilderness to study dangerous demonic relics unmolested. Doan holds deep lore concerning powerful fel vessels, possessing the Orb of Zargain and obsessing over the legendary Orb of Soran'ruk. Practicing warlocks often seek him out when delving into artifact crafting and dark rituals.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_doan-karhan-af4e84c1a0293d3630f0/1-0000.mp3", duration = 41.2473469, start = 0},
+    {file = "Audio/Transport/full_npc_doan-karhan-c51203773297aa4c732a/1-0000.mp3", duration = 43.52, start = 0},
   },
 }
 P.transport["npc:doctor-gregory-victor"] = {
@@ -886,7 +886,7 @@ P.transport["npc:doctor-gustaf-vanhowzen"] = {
   fullHash = "d5a3f6",
   text = "Doctor Gustaf VanHowzen. Doctor Gustaf VanHowzen serves as the trauma surgeon and chief physician of Alliance Trauma in Theramore Isle. Stationed within Foothold Citadel, he trains the island's healers and evaluates medics who wish to master the highest tiers of field triage and bandage work. Located on the ground floor of Foothold Citadel in Theramore Isle, Doctor Gustaf VanHowzen oversees the medical care of Lady Jaina Proudmoore's forces and trains the outpost's frontline healers. Facing harsh conditions in Dustwallow Marsh, VanHowzen insists on rigorous field competence, personally putting experienced medics through an intense triage test to ensure they can prioritize critical wounds under severe pressure.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_doctor-gustaf-vanhowzen-e12d844b3383eac69501/1-0000.mp3", duration = 39.3665306, start = 0},
+    {file = "Audio/Transport/full_npc_doctor-gustaf-vanhowzen-62f0ee42bc76944e8c5a/1-0000.mp3", duration = 40.8032653, start = 0},
   },
 }
 P.transport["npc:donova-snowden"] = {
@@ -1046,7 +1046,7 @@ P.transport["npc:elder-runetotem"] = {
   fullHash = "9bec5a",
   text = "Elder Runetotem. Elder Runetotem is an ancestral tauren spirit appearing outside Razor Hill in Durotar during the Lunar Festival. As one of the revered elders honored during the festival, she offers wisdom and her blessing to travelers who seek her out across the red canyons. Though ancestral tauren spirits are typically tied to the grassy plains and sacred burial grounds of Mulgore, Elder Runetotem lingers far from the pastures of her people. She manifests beside the dusty settlement of Razor Hill in Durotar. To young orcs and wandering adventurers, her ethereal presence serves as a bridge between the ancient traditions of the Shu'halo and the harsh new home the Horde has carved along the Great Sea. During the Lunar Festival, the spirits of great leaders, shamans, and heroes manifest throughout the world to commune with the living. Elder Runetotem represents the Runetotem line—a lineage known for deep reverence for the Earth Mother and spiritual communion. Travelers honoring her presence are granted ancestral tokens and her spiritual blessing.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_elder-runetotem-d06fd843fef1e511c6f7/1-0000.mp3", duration = 57.7044898, start = 0},
+    {file = "Audio/Transport/full_npc_elder-runetotem-c3b87771285621e1f252/1-0000.mp3", duration = 57.6783673, start = 0},
   },
 }
 P.transport["npc:elder-skyseer"] = {
@@ -1158,7 +1158,7 @@ P.transport["npc:felgur-twocuts"] = {
   fullHash = "d3e48a",
   text = "Felgur Twocuts. Felgur Twocuts is a blunt orc scout stationed at Ghost Walker Post in Desolace. He coordinates Horde efforts against the regional centaur clans. Standing watch amid the bleak expanse of Ghost Walker Post in central Desolace, Felgur Twocuts has little patience for pleasantries. As a forward scout for the Horde, he assesses the threats facing travelers and settlers venturing west through the mountains, particularly the local Kolkar centaur. Felgur directs Horde champions to cull the local centaur chieftains and collect bounties on the warring tribes who threaten to overrun the region. He is a central contact for anyone seeking to secure the Horde's foothold in Desolace.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_felgur-twocuts-1cdfc3228b78a75b3c26/1-0000.mp3", duration = 38.5306122, start = 0},
+    {file = "Audio/Transport/full_npc_felgur-twocuts-2f6d63260e3556824b33/1-0000.mp3", duration = 37.3028571, start = 0},
   },
 }
 P.transport["npc:felix-whindlebolt"] = {
@@ -1214,7 +1214,7 @@ P.transport["npc:foreman-stonebrow"] = {
   fullHash = "842e6b",
   text = "Foreman Stonebrow. Foreman Stonebrow is a dwarven overseer representing the Miners' League at Gol'Bolar Quarry in eastern Dun Morogh. After aggressive troggs erupted from the rock and overran the excavation site, he was forced to organize a defense and hire adventurers to clear the pits. Foreman Stonebrow was charged with directing operations at Gol'Bolar Quarry, a key dwarven excavation nestled in the mountains east of Kharanos. When deep digging broke into hidden trogg burrows, subterranean beasts swarmed the pits and drove the miners from their equipment. Refusing to abandon the site entirely, Stonebrow remains at the rim of the quarry to enlist any able-bodied travelers willing to push the troggs back.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_foreman-stonebrow-b8d1838ef27d25ee301d/1-0000.mp3", duration = 39.3926531, start = 0},
+    {file = "Audio/Transport/full_npc_foreman-stonebrow-69ce7487e9645864101b/1-0000.mp3", duration = 41.0644898, start = 0},
   },
 }
 P.transport["npc:foreman-thazz-ril"] = {
@@ -1270,7 +1270,7 @@ P.transport["npc:gar-thok"] = {
   fullHash = "d415c1",
   text = "Gar'Thok. Gar'Thok is a veteran orc warrior and outpost commander stationed at Razor Hill in Durotar. Having survived the initial Kul Tiras landings on Durotar's coast, he now coordinates local defense against human encroachers and native threats. He directs young Horde recruits stepping out of the Valley of Trials to secure the red wastes of the new homeland. Following the Third War, Gar'Thok marched to Durotar under Warchief Thrall and served as a lieutenant under Nazgrel during the earliest days of building the new homeland. When the half-ogre wanderer Rexxar first arrived in Durotar, it was Gar'Thok who alerted him to the aggressive quilboar raiding their perimeter, enlisting the beastmaster to safeguard the fragile new settlement. Gar'Thok's resolve was tested when Grand Admiral Daelin Proudmoore's Kul Tiras fleet landed along the eastern shores of Durotar. Stationed at an outlying watch post, Gar'Thok witnessed his garrison overwhelmed and brutally slaughtered by naval marines. Though his forces were decimated, Gar'Thok survived the onslaught. The memory of that surprise assault cemented his vigilance against the surviving marines who still occupy Tiragarde Keep and the coastal shipwrecks. Today, Gar'Thok oversees the martial defense of central Durotar from the barracks of Razor Hill. He wastes no time with pleasantries, immediately tasking emerging Horde warriors, shamans, and scouts with clearing out hostile Kul Tiran remnants, repossessing salvaged supplies, and recovering military orders left in the coastal ruins. To him, the safety of Durotar is far from guaranteed, requiring constant pressure against any who question the Horde's right to this soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gar-thok-627e4c8e98d439813152/1-0000.mp3", duration = 95.2946939, start = 0},
+    {file = "Audio/Transport/full_npc_gar-thok-954d80323a6bd9136725/1-0000.mp3", duration = 95.6604082, start = 0},
   },
 }
 P.transport["npc:gart-mistrunner"] = {
@@ -1310,7 +1310,7 @@ P.transport["npc:general-marcus-jonathan"] = {
   fullHash = "24bbff",
   text = "General Marcus Jonathan. General Marcus Jonathan is the High Commander of Stormwind Defense, stationed directly at the gates in the Valley of Heroes. A veteran of the Second War, he oversees the garrison protecting the capital and manages military requests from the kingdom's frontier settlements. Mounted atop his steed in the Valley of Heroes, General Marcus Jonathan stands as the first line of defense and the highest-ranking military officer overseeing the city gates. He fought in the Second War alongside renowned soldiers like Reginald Windsor under the command of General Turalyon. In this era of rising tension, Jonathan must balance the immediate security of the capital with the increasingly desperate calls for aid from frontier towns like Lakeshire.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_general-marcus-jonathan-70aec1f2f9143ccd8bb0/1-0000.mp3", duration = 40.4636735, start = 0},
+    {file = "Audio/Transport/full_npc_general-marcus-jonathan-f61df69e976a8f100ecc/1-0000.mp3", duration = 41.9265306, start = 0},
   },
 }
 P.transport["npc:gerard-tiller"] = {
@@ -1398,7 +1398,7 @@ P.transport["npc:gramma-stonefield"] = {
   fullHash = "961820",
   text = "Gramma Stonefield. Gramma Stonefield, whose given name is Mildred, is the elderly matriarch of the Stonefield family residing at their farm in Elwynn Forest. Unlike her bickering kin, she has grown weary of the bitter, generations-long feud with the neighboring Maclures. Quietly working behind her family's back, she does everything she can to help her grandson Tommy Joe pursue his forbidden romance with Maybell Maclure. As the oldest living member of the Stonefield clan, Mildred Stonefield has witnessed decades of petty squabbling between her household and the Maclures across the road. Rather than stoking the bad blood, she views the enduring rivalry as senseless and destructive. When her grandson Tommy Joe Stonefield falls in love with Maybell Maclure, Gramma chooses compassion over clan loyalty. Relying on an old friendship with William Pestle in Goldshire, she quietly plots to help the star-crossed sweethearts meet in secret, subverting the stubborn hostility dividing the two farms.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gramma-stonefield-ac9a9862c8dfe8f0c350/1-0000.mp3", duration = 58.4097959, start = 0},
+    {file = "Audio/Transport/full_npc_gramma-stonefield-e0f5ee53e36f8486492e/1-0000.mp3", duration = 58.6187755, start = 0},
   },
 }
 P.transport["npc:grand-mason-marblesten"] = {
@@ -1430,7 +1430,7 @@ P.transport["npc:greatfather-winter"] = {
   fullHash = "c70f31",
   text = "Greatfather Winter. Greatfather Winter is the legendary personification of the winter season and the central figure of the Feast of Winter Veil. While ancient legends revere him as a mythical being who blankets Azeroth in snow to allow the land to rest and renew, modern city-dwellers know him primarily through the commercial spectacle managed by the goblins of Smokywood Pastures. According to ancient lore, Greatfather Winter is an ethereal wanderer who walks the world late in the year, casting his billowing snowy cloak across the land so nature may slumber and be reborn. Dwarves view him as an embodiment or herald of the titans, pointing to the frosted crags of Dun Morogh as living proof of his favor. Other traditions, such as those of the tauren, respect his role in the season's turning while attributing the cold and storms to the elemental work of the Sun and Moon, giving the Earth Mother time to rest. Wherever the legend traveled, communities learned to gather and feast together against the cold, celebrating the promise of returning life. In major settlements like Ironforge and Orgrimmar, the ancient spirit has been thoroughly reshaped by the enterprising goblins of Smokywood Pastures. The trading cartel popularized the depiction of Greatfather Winter as a jolly, red-suited elder with a white beard who rides a flying sleigh and hands out holiday treats and toys. Smokywood Pastures hires local actors—a dwarf in Ironforge and an orc in Orgrimmar—to listen to children's wishlists, receive offerings of milk and gingerbread cookies, and advertise seasonal merchandise beneath lavishly decorated trees.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_greatfather-winter-a931b0a9a2fcf9a06605/1-0000.mp3", duration = 90.0963265, start = 0},
+    {file = "Audio/Transport/full_npc_greatfather-winter-2791ba5cc10044793553/1-0000.mp3", duration = 89.0253061, start = 0},
   },
 }
 P.transport["npc:greatmother-hawkwind"] = {
@@ -1462,7 +1462,7 @@ P.transport["npc:grish-longrunner"] = {
   fullHash = "a418f9",
   text = "Grish Longrunner. Grish Longrunner is a tauren scout and messenger stationed near the Great Lift, the vital mechanical crossing connecting the southern Barrens with the canyons of Thousand Needles. Serving the interests of the Horde along this bustling boundary, he keeps watch over travelers and coordinates military movement across the frontier. Positioned right beside the towering machinery of the Great Lift, Grish Longrunner stands watch over one of central Kalimdor's most precarious border crossings. The platform elevator is a lifeline connecting the arid wastes of the southern Barrens to the windswept mesas of Thousand Needles below. Between roving quilboar packs and competing territorial threats, travel along this vertical boundary is dangerous, making scouts like Grish essential for keeping the Horde informed and summoning reinforcements where they are sorely needed.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grish-longrunner-6e57263821a821b81f63/1-0000.mp3", duration = 46.6808163, start = 0},
+    {file = "Audio/Transport/full_npc_grish-longrunner-421a5005e51a4a18af1e/1-0000.mp3", duration = 46.9681633, start = 0},
   },
 }
 P.transport["npc:grub"] = {
@@ -1494,7 +1494,7 @@ P.transport["npc:grunt-logmar"] = {
   fullHash = "3f9daf",
   text = "Grunt Logmar. Grunt Logmar is an orc warrior of the Horde stationed in the southern Barrens at Camp Taurajo. Dutiful and vigilant, he monitors threats surrounding the camp and coordinates efforts to locate and aid missing Horde scouts in the region. Stationed among the tauren at Camp Taurajo, Grunt Logmar serves as a watchful orc guard on the southern Barrens frontier. The settlement sits close to hostile quilboar grounds and the mountain passes leading into Stonetalon and Mulgore, requiring constant vigilance. Logmar coordinates scouting reports and reaches out to capable Horde travelers when his comrades find themselves ambushed or captured by local hostiles.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grunt-logmar-f2dfa8592efc285b8067/1-0000.mp3", duration = 37.5640816, start = 0},
+    {file = "Audio/Transport/full_npc_grunt-logmar-63e0a9845cb9e01f85bc/1-0000.mp3", duration = 37.6163265, start = 0},
   },
 }
 P.transport["npc:grunth"] = {
@@ -1510,7 +1510,7 @@ P.transport["npc:guard-berton"] = {
   fullHash = "2cc8ac",
   text = "Guard Berton. Guard Berton is a human town guardsman stationed outside the Lakeshire Inn in Redridge Mountains. Frustrated by the bureaucratic delays of Stormwind's legal system, he seeks swift justice against Targorr the Dread, an imprisoned orc leader. While Redridge Mountains buckles under the threat of the Blackrock orc invasion, Guard Berton remains posted outside the Lakeshire Inn. Despite local defenses being pushed to the brink, Berton's attention is fixed on a captive enemy: Targorr the Dread. Targorr was captured and locked away deep within the Stormwind Stockade, sentenced to death for his crimes against the kingdom. Yet with Stormwind's execution postponed indefinitely, Berton refuses to let the brutal raider linger in a cell while Lakeshire bleeds. Taking matters into his own hands, he hires willing adventurers to bypass royal delays and execute the orc directly.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_guard-berton-d98e50476a910d8a54c1/1-0000.mp3", duration = 52.1404082, start = 0},
+    {file = "Audio/Transport/full_npc_guard-berton-bd269e50b2cf433972a6/1-0000.mp3", duration = 49.0579592, start = 0},
   },
 }
 P.transport["npc:guard-howe"] = {
@@ -1518,7 +1518,7 @@ P.transport["npc:guard-howe"] = {
   fullHash = "e13124",
   text = "Guard Howe. Guard Howe is a town guardsman stationed near the southern foot of the Lakeshire bridge in the Redridge Mountains. Driven by a personal vendetta against the Blackrock orcs encroaching on the valley, he offers bounties to any adventurer willing to cut down the invaders. Positioned just south of the large stone bridge spanning Lake Everstill, Guard Howe stands watch over the heart of Lakeshire. Like many in the beleaguered town, he sees the encroaching Blackrock orcs as an existential threat to Redridge. Harbouring a bitter desire for revenge against the clan, Howe actively recruits passing mercenaries to hunt orcs in the eastern hills, offering pay in exchange for tangible proof of their defeat.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_guard-howe-1a304c2c9bb63c59140f/1-0000.mp3", duration = 37.5118367, start = 0},
+    {file = "Audio/Transport/full_npc_guard-howe-18e6ac6560f0367d694e/1-0000.mp3", duration = 36.4930612, start = 0},
   },
 }
 P.transport["npc:gubber-blump"] = {
@@ -1718,7 +1718,7 @@ P.transport["npc:innkeeper-firebrew"] = {
   fullHash = "5baaf7",
   text = "Innkeeper Firebrew. Innkeeper Firebrew manages the Stonefire Tavern in the bustling Commons of Ironforge. A genial host to weary mountaineers and visiting dignitaries alike, he serves hearty dwarven staples and keeps travelers rested beneath the mountain. Situated in the central ring of the Commons, Innkeeper Firebrew's establishment is often the first sanctuary encountered by travelers entering through the Great Gates of Ironforge. Behind a counter laden with flagons of ale, skins of stout, and roasted joints of meat, Firebrew offers hospitality to adventurers bound for the snowy passes of Dun Morogh or deeper into the mountain kingdom. His tavern remains a lively crossroad where miners, riflemen, and emissaries gather to escape the drafty tunnels and exchange tales around the hearth.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_innkeeper-firebrew-7d3411e0a509ce8a3405/1-0000.mp3", duration = 46.8114286, start = 0},
+    {file = "Audio/Transport/full_npc_innkeeper-firebrew-00754e75bdd5514c8307/1-0000.mp3", duration = 46.4979592, start = 0},
   },
 }
 P.transport["npc:innkeeper-grosk"] = {
@@ -1838,7 +1838,7 @@ P.transport["npc:jorgen"] = {
   fullHash = "6ce232",
   text = "Jorgen. Jorgen is a discreet human informant residing in Stormwind City, tucked away by the water just inside the Valley of Heroes. Despite his modest and out-of-the-way perch, he is entangled in sensitive matters involving prominent figures in the capital, including Elling Trias and Bishop DeLavey. Positioned down near the water immediately to the right of Stormwind's monumental entryway, Jorgen maintains a low profile away from the bustling thoroughfares of the city. While the towering statues of heroes overlook the bridge above, Jorgen monitors comings and goings from the shadows below, serving as a quiet contact for those who need information kept off the record.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_jorgen-16e5b924a26254c9384f/1-0000.mp3", duration = 36.9632653, start = 0},
+    {file = "Audio/Transport/full_npc_jorgen-9d5ab932fbc40470c1ad/1-0000.mp3", duration = 37.2767347, start = 0},
   },
 }
 P.transport["npc:josef-gregorian"] = {
@@ -1918,7 +1918,7 @@ P.transport["npc:katie-hunter"] = {
   fullHash = "610215",
   text = "Katie Hunter. Katie Hunter is a horse breeder stationed at the stables in the Eastvale Logging Camp within eastern Elwynn Forest. She provides trained riding horses and steeds to citizens of Stormwind and trusted champions of the Alliance. Alongside Randal Hunter, she ensures travelers and soldiers have reliable mounts to navigate the kingdom's roads. Tucked away in the quiet, wooded clearings of the Eastvale Logging Camp, Katie Hunter manages the kingdom's primary horse stock for aspiring riders in Elwynn Forest. While the lumberjacks harvest timber for Stormwind's reconstruction, Katie tends to the stables, raising a variety of dependable breeds including pintos, mares, and swift steeds. Her stock represents the classic equestrian tradition of the kingdom, offering faithful companions capable of braving dangerous roads across southern Azeroth.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_katie-hunter-61de6b641afe5881ba10/1-0000.mp3", duration = 48.2481633, start = 0},
+    {file = "Audio/Transport/full_npc_katie-hunter-1cbe5eac5963356bc7b1/1-0000.mp3", duration = 47.9869388, start = 0},
   },
 }
 P.transport["npc:kaymard-copperpinch"] = {
@@ -1982,7 +1982,7 @@ P.transport["npc:kernobee"] = {
   fullHash = "e53a24",
   text = "Kernobee. Kernobee is a goblin engineer trapped deep within the ruined halls of Gnomeregan. After stumbling upon dangerous secrets involving Dark Iron dwarf sabotage, he was captured, beaten unconscious, and left to die among the troggs in the dormitory quarters. While conducting business or scavenging within the fallen gnome capital, Kernobee uncovered a grave secret: the Dark Iron dwarves were directly involved in the construction and operation of the massive super rig burrowing beneath the city. Realizing the immense value—and lethality—of this intelligence, he attempted to flee immediately to Ratchet to deliver word to his associate, Tinkerwiz. Unfortunately, the Dark Irons caught him before he could make his escape. Rather than killing him outright, his captors battered Kernobee unconscious and tossed him into a small room along the dormitory corridor, opposite the Clean Zone. Left stranded among feral troggs and radiation fallout, the battered goblin depends entirely on passing adventurers to revive him and shield him until he can reach safety.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_kernobee-d24bc4441940049387bf/1-0000.mp3", duration = 60.4734694, start = 0},
+    {file = "Audio/Transport/full_npc_kernobee-0d6ca5470e2d39a73aef/1-0000.mp3", duration = 60.6302041, start = 0},
   },
 }
 P.transport["npc:keryn-sylvius"] = {
@@ -2006,7 +2006,7 @@ P.transport["npc:kil-hala"] = {
   fullHash = "bb9ab9",
   text = "Kil'hala. Kil'hala is a jungle troll tailoring trainer stationed at the Crossroads in the Barrens. Skilled in working with both everyday cloth and exotic woven materials, he instructs Horde crafters looking to refine their needlework. Beyond common thread, he weaves nether-lace robes for young Horde mages who bring him locks of hair from the laughing sisters of Ashenvale. Positioned at the bustling hub of the Crossroads, Kil'hala offers his tailoring expertise to passing travelers and Horde recruits. While much of his craft involves common spun bolts and garments fit for dry plains life, his knowledge extends into rare magical textiles. As a favor to the mage Deino, he fashions nether-lace robes for young mages who bring him hair taken from the laughing sisters, dryads of Ashenvale's forests.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_kil-hala-b86608c28188bc059191/1-0000.mp3", duration = 45.7142857, start = 0},
+    {file = "Audio/Transport/full_npc_kil-hala-3513f47145bb13f534df/1-0000.mp3", duration = 45.2179592, start = 0},
   },
 }
 P.transport["npc:kin-weelay"] = {
@@ -2206,7 +2206,7 @@ P.transport["npc:loganaar"] = {
   fullHash = "f2552d",
   text = "Loganaar. Loganaar is a night elf druidic instructor residing in the haven of Nighthaven in Moonglade. Dedicated to guiding initiates from both the Alliance and the Horde, he instructs young druids as they attune to the wild and prepare for the call of the Emerald Dream. Situated amidst the serene boughs of Nighthaven, Loganaar serves as a primary mentor to newly initiated druids traveling to Moonglade. Regardless of whether an initiate hails from Darnassus or Thunder Bluff, Loganaar provides guidance in balance, shape-shifting, and reverence for nature. He reminds his students that even within cold stone and unfamiliar lands, true tranquility must be found within oneself. He also acts as a welcoming guide for those journeying deeper into the Cenarion Circle's affairs, sending promising students to wanderers like Torwa Pathfinder in Un'Goro Crater or deeper into ancient woodland rites. Beyond fundamental spellcraft, Loganaar prepares students for the ultimate destiny shared by Kalimdor's traditional protectors: the deep slumber of the Emerald Dream. He instructs initiates on the sacred connection between Azeroth's primal spirit realm and the waking world, reminding them that true mastery will one day require hibernating for centuries to walk among nature's purest, unblemished forms under the guidance of the demigods.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_loganaar-43e5c6e3a2effb39f157/1-0000.mp3", duration = 75.5461224, start = 0},
+    {file = "Audio/Transport/full_npc_loganaar-8edc14f29b4be8a8a1c9/1-0000.mp3", duration = 77.2702041, start = 0},
   },
 }
 P.transport["npc:lomac-gearstrip"] = {
@@ -2222,7 +2222,7 @@ P.transport["npc:longbraid-the-grim"] = {
   fullHash = "a2da55",
   text = "Longbraid the Grim. Longbraid the Grim is an Ironforge dwarf commander stationed just outside the fallen fortress of Dun Modr in the northern Wetlands. Mourning the loss of his brother and the overrun of the Thandol Span, he coordinates the surviving dwarf forces against the invading Dark Iron clan. Positioned within sight of the bridge to the Arathi Highlands, Longbraid the Grim rallies what remains of the dwarven garrison after the Dark Iron clan seized Dun Modr. The sudden assault devastated the regional defenders and resulted in the death of Longbraid's own brother during the siege of the Thandol Span. Burdened by grief and hatred, Longbraid refuses to abandon the northern boundary, directing travelers and surviving mountaineers in surgical strikes to curb the Dark Iron advance. Beyond defending the approach to the bridge, Longbraid oversees broader dwarven operations across the Wetlands. He dispatched vital soldiers to escort Prospector Whelgar into the marshlands and works relentlessly to reclaim the lost fortifications of Dun Modr, vowing retribution against the Dark Iron saboteurs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_longbraid-the-grim-14516af886e136d12e0a/1-0000.mp3", duration = 61.8840816, start = 0},
+    {file = "Audio/Transport/full_npc_longbraid-the-grim-490f45e7fe3f7f172930/1-0000.mp3", duration = 60.4734694, start = 0},
   },
 }
 P.transport["npc:loramus-thalipedes"] = {
@@ -2246,7 +2246,7 @@ P.transport["npc:lord-baurles-k-wishock"] = {
   fullHash = "588998",
   text = "Lord Baurles K. Wishock. Lord Baurles K. Wishock is a nobleman residing in Stormwind Keep's Petitioner's Chamber. Known among barkeeps for his unpaid tabs and fondness for strong drink, he stumbled upon darker dealings than mere drunkenness in the city's underbelly. Holding court among the petitioners and dignitaries within Stormwind Keep, Lord Baurles K. Wishock is a member of the influential House of Nobles. Despite his elevated station, Wishock developed a habit of frequenting the dive bars of the Mage Quarter, especially the Slaughtered Lamb, leaving behind substantial unpaid bills. While drinking there, however, he caught wind of the warlock coven practicing dark arts in the cellars beneath the floorboards. Determined to shut the tavern down, Wishock began petitioning fellow nobles for a formal investigation—unaware that uncovering demonic cabals in Stormwind rarely goes unpunished.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lord-baurles-k-wishock-aa16486e2d531dd1f48d/1-0000.mp3", duration = 51.6179592, start = 0},
+    {file = "Audio/Transport/full_npc_lord-baurles-k-wishock-6c93ffeeb1099724bfd2/1-0000.mp3", duration = 49.9461224, start = 0},
   },
 }
 P.transport["npc:lord-grayson-shadowbreaker"] = {
@@ -2254,7 +2254,7 @@ P.transport["npc:lord-grayson-shadowbreaker"] = {
   fullHash = "685f96",
   text = "Lord Grayson Shadowbreaker. Lord Grayson Shadowbreaker is a veteran paladin commander of the Knights of the Silver Hand stationed within Stormwind's Cathedral of Light. One of the Alliance's foremost paladins, he trains budding champions of the Light and oversees the sacred, arduous trials required for senior paladins to claim their holy chargers. Lord Grayson Shadowbreaker stands among the foremost defenders of the Alliance, anchoring the order's presence in Stormwind City. A veteran of the Silver Hand, Grayson does not merely instruct recruits in martial skill; he tests their spiritual conviction. When promising knights demonstrate their readiness, Grayson dispatches them north toward the contested front lines of the Western Plaguelands to aid Commander Ashlam Valorfist at Chillwind Camp.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lord-grayson-shadowbreaker-4459d59cce507cc91b45/1-0000.mp3", duration = 42.8669388, start = 0},
+    {file = "Audio/Transport/full_npc_lord-grayson-shadowbreaker-f1e484fe7f3c6c471ec8/1-0000.mp3", duration = 41.5346939, start = 0},
   },
 }
 P.transport["npc:lord-jorach-ravenholdt"] = {
@@ -2294,7 +2294,7 @@ P.transport["npc:loslor-rudge"] = {
   fullHash = "de7d37",
   text = "Loslor Rudge. Loslor Rudge is an enterprising dwarven engineering supplier stationed at Steelgrill's Depot in Dun Morogh. He provides mechanical parts, tools, and munitions to tinkerers across the snowy mountain ridges, keeping critical connections open with gunsmiths like Hegnar Rumbleshot. Operating out of Steelgrill's Depot just down the road from Kharanos, Loslor Rudge keeps a steady inventory of engineering essentials—ranging from copper modulators and bronze tubing to blasting powder and spanners. Dun Morogh's harsh weather and sprawling tinker operations mean practical parts are constantly in demand, and Loslor prides himself on keeping the local gearheads supplied. However, the wilderness between outposts is treacherous; when a courier taking a shortcut near the Grizzled Den was chased away by wendigos, an essential shipment of ammunition meant for his valued client, gunsmith Hegnar Rumbleshot, was left behind in the snow.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_loslor-rudge-2c8825a7fe4424bdd456/1-0000.mp3", duration = 57.6, start = 0},
+    {file = "Audio/Transport/full_npc_loslor-rudge-9637f2625eafd97bd613/1-0000.mp3", duration = 52.9763265, start = 0},
   },
 }
 P.transport["npc:lotwil-veriatus"] = {
@@ -2342,7 +2342,7 @@ P.transport["npc:magga"] = {
   fullHash = "ae4593",
   text = "Magga. Magga is an orc resident living in the Valley of Trials within Durotar. Stationed near the Den, she serves as a welcoming face for newly arrived Horde adventurers beginning their journey in the valley. The Valley of Trials is the first taste of the world for young orcs and darkspear trolls. Positioned near the Den, Magga greets new arrivals to the valley. While she keeps a low profile among the valley's busy trainers and recruits, she helps bind the small camp together.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_magga-0f63fa182f96af1e9154/1-0000.mp3", duration = 26.1746939, start = 0},
+    {file = "Audio/Transport/full_npc_magga-d826cc5e242fe1f9fe3a/1-0000.mp3", duration = 27.637551, start = 0},
   },
 }
 P.transport["npc:magis-sparkmantle"] = {
@@ -2558,7 +2558,7 @@ P.transport["npc:merissa-stilwell"] = {
   fullHash = "744f71",
   text = "Merissa Stilwell. Merissa Stilwell is a young human townsperson residing at Northshire Abbey within Elwynn Forest. Standing near the abbey, she offers a cheerful greeting and a helping hand to the newcomers training in Northshire Valley. Standing at Northshire Abbey, Merissa Stilwell greets the fresh recruits who arrive in Northshire Valley. For wandering novices, she offers simple hospitality and practical advice on resting up and getting oriented. Sharing a surname with notable craftsmen and homesteaders across the kingdom—such as the blacksmith Jordan Stilwell and the Westfall defender Daphne Stilwell—she remains a peaceful local face amidst the kingdom's rising tensions.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_merissa-stilwell-702e60fedab49ed6fe99/1-0000.mp3", duration = 36.7542857, start = 0},
+    {file = "Audio/Transport/full_npc_merissa-stilwell-671ff4fdf072fe91e8f8/1-0000.mp3", duration = 38.0865306, start = 0},
   },
 }
 P.transport["npc:merrin-rockweaver"] = {
@@ -2734,7 +2734,7 @@ P.transport["npc:nalpak"] = {
   fullHash = "935353",
   text = "Nalpak. Nalpak is a tauren druid disciple who watches over the troubled Wailing Caverns in the Barrens. Stationed in the high cliff-cave overlooking the cavern entrance, he enlists passing adventurers to help contain the nightmare twisting the subterranean ecosystem. Perched inside a hidden cavern directly above the mouth of the Wailing Caverns, Nalpak remains loyal to the vision of Naralex. While his master lies trapped in a corrupted slumber deep below, Nalpak works to keep the spreading corruption at bay. He asks adventurers to gather deviate hides for use as leather.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_nalpak-a4e79570bf2028b65d02/1-0000.mp3", duration = 31.0857143, start = 0},
+    {file = "Audio/Transport/full_npc_nalpak-b849ea78ff6458a4ac96/1-0000.mp3", duration = 32.1828571, start = 0},
   },
 }
 P.transport["npc:nara-meideros"] = {
@@ -2838,7 +2838,7 @@ P.transport["npc:ogtinc"] = {
   fullHash = "d9a7fc",
   text = "Ogtinc. Ogtinc is an independent furbolg hunter perched on a high ridge overlooking the Ruins of Eldarath in Azshara. Having parted ways with his tribe to serve the balance of nature, he acts as a trusted ally and mentor for the Cenarion Circle. Skilled hunters seeking to test their craft against the fiercest beasts of Kalimdor often seek out his guidance. While most furbolg in Kalimdor remain fiercely bound to their tribes—or have succumbed to corruption following the Third War—Ogtinc chose a distinct path. Departing from his kin, he dedicated his bow and survival lore to aiding the Cenarion Circle. He makes his camp high on a bluff southeast of Timbermaw Hold, vigilantly watching over the ancient, shattered lands of Azshara. Ogtinc is renowned among seasoned trackers for his intimate understanding of Kalimdor's wilderness. He tests hunters who have honed their skills across the continents, dispatching them to gather rare trophies—such as the antlers of courser beasts, the scale of wave-thrashed sea serpents, and parts from green dragonkin. Through these trials, he teaches that true hunting honors the natural world and preserves balance rather than mindlessly taking life.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ogtinc-ce03276fd8c22583661e/1-0000.mp3", duration = 67.6832653, start = 0},
+    {file = "Audio/Transport/full_npc_ogtinc-0e2ba36c3ea6b5858e13/1-0000.mp3", duration = 67.4220408, start = 0},
   },
 }
 P.transport["npc:ogunaro-wolfrunner"] = {
@@ -2886,7 +2886,7 @@ P.transport["npc:ormer-ironbraid"] = {
   fullHash = "7e097c",
   text = "Ormer Ironbraid. Ormer Ironbraid is a dwarven archaeologist stationed at Whelgar's Excavation Site in the southern Wetlands. His team's historical research has been violently interrupted by ravenous raptors that overran the dig. Ormer seeks adventurous allies to clear out the beasts and avenge the miners driven from the site. Ormer Ironbraid arrived in the Wetlands as part of the dwarven effort to uncover Titan relics and ancient history at Whelgar's Excavation Site. Unfortunately, uncovering ancient stones also unearthed—or at least provoked—packs of fierce Wetlands raptors. Rather than cataloging ancient earthenware and tablets, Ormer spends his days watching the beasts prowl among the ruins, nursing a fierce hatred for the creatures that disrupted their work. Ormer refuses to abandon the dig, but he lacks the raw muscle to purge the site alone. He directs his frustration into a systematic campaign of extermination, enlisting passing travelers to slay raptors of increasing size and ferocity. For Ormer, reclaiming the excavation is not just about the artifacts—it is a deeply personal matter of dwarven pride and vengeance against the local wildlife.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ormer-ironbraid-03a2a033f672461362c3/1-0000.mp3", duration = 66.5861224, start = 0},
+    {file = "Audio/Transport/full_npc_ormer-ironbraid-eeead151ce26e5bea9ed/1-0000.mp3", duration = 67.7616327, start = 0},
   },
 }
 P.transport["npc:orokk-omosh"] = {
@@ -2918,7 +2918,7 @@ P.transport["npc:osric-strang"] = {
   fullHash = "913de9",
   text = "Osric Strang. Osric Strang is a veteran armor merchant who operates Limited Immunity, a shop situated in Stormwind's Old Town. Specializing in heavy mail and plate, he supplies sturdy gear and shields to Alliance defenders and weary travelers passing through the capital. Tucked away in the weathered streets of Old Town, Osric Strang manages Limited Immunity, a shop catering to frontline fighters in need of heavy armor and shields. While his wares are suited for standard soldiers and traveling adventurers, he often assists incoming couriers who need a point of contact when arriving in the capital from nearby settlements like Westfall's Sentinel Hill.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_osric-strang-c8c76adcbb8308f00b7b/1-0000.mp3", duration = 36.4408163, start = 0},
+    {file = "Audio/Transport/full_npc_osric-strang-c032df601fc8582bd8d1/1-0000.mp3", duration = 33.9330612, start = 0},
   },
 }
 P.transport["npc:overlord-mok-morokk"] = {
@@ -2926,7 +2926,7 @@ P.transport["npc:overlord-mok-morokk"] = {
   fullHash = "72d0f6",
   text = "Overlord Mok'Morokk. Overlord Mok'Morokk is the brute chieftain of the Stonemaul ogres, presiding over Brackenwall Village in Dustwallow Marsh. Originally appointed by Rexxar for his strength, he has become a tyrannical and cowardly ruler who refuses to defend his clan against the black dragonflight. When Rexxar bested the previous chieftain Kor'gall and led the Stonemaul clan in defense of Durotar, he left Mok'Morokk in command, seeing promise in his sheer martial strength. That faith proved misplaced. Mok'Morokk quickly succumbed to the corrupting influence of absolute authority, ruling through intimidation and self-indulgence rather than stewardship. Instead of caring for his kin, he demands unearned tribute, lounges in Brackenwall Village, and bullies anyone who questions his command.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_overlord-mok-morokk-84a213b455ce00f85d92/1-0000.mp3", duration = 45.8710204, start = 0},
+    {file = "Audio/Transport/full_npc_overlord-mok-morokk-03920c5160731adba5c4/1-0000.mp3", duration = 44.8261224, start = 0},
   },
 }
 P.transport["npc:pao-ka-swiftmountain"] = {
@@ -2950,7 +2950,7 @@ P.transport["npc:pilot-bellowfiz"] = {
   fullHash = "faa812",
   text = "Pilot Bellowfiz. Pilot Bellowfiz, affectionately known as 'Fizzer,' is a dwarven driver stationed at Steelgrill's Depot in Dun Morogh. As a member of the Ironforge Siege Brigade, he is responsible for maintaining and fielding heavy dwarven war machines, specifically his own siege engine, Jetsteam. Stationed just outside the bustling halls of Ironforge at Steelgrill's Depot, Pilot Bellowfiz represents the mechanical backbone of the dwarven military. Piloting the powerful siege engine known as Jetsteam, Bellowfiz spends his days tuning components, procuring essential parts, and keeping his machine battle-ready. Alongside his comrade Pilot Stonegear, Bellowfiz is constantly discussing vehicular designs, armor plating, and engine output, ensuring that the mountain kingdom's mechanized firepower remains unmatched across Khaz Modan.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_pilot-bellowfiz-8436e1aa01b7733d31c5/1-0000.mp3", duration = 48.3526531, start = 0},
+    {file = "Audio/Transport/full_npc_pilot-bellowfiz-d8c4a8308ead9d651894/1-0000.mp3", duration = 50.2595918, start = 0},
   },
 }
 P.transport["npc:pilot-hammerfoot"] = {
@@ -3326,7 +3326,7 @@ P.transport["npc:scooty"] = {
   fullHash = "b5015b",
   text = "Scooty. Scooty is a goblin engineer operating out of the bustling pirate port of Booty Bay. Proclaiming himself a master of engineering, he maintains a delicate transponder setup linked directly to an experimental teleporter in the fallen city of Gnomeregan. His contraptions offer Horde operatives a direct, if perilous, technological bypass right into the heart of Dun Morogh. Operating amid the wharves and workshops of Booty Bay, Scooty holds court as one of the Steamwheedle Cartel's most ambitious tinkerers. While typical goblins obsess over gunpowder and explosives, Scooty turned his attention to instantaneous molecular transport. By calibrating complex transponder systems, he manages a direct operational link to a teleportation pad situated inside Gnomeregan. Horde forces looking to breach the subterranean gnome stronghold rely heavily on Scooty's tinkering to bypass treacherous Alliance territory altogether. Maintaining experimental goblin teleporters is rarely a dull enterprise. Scooty and his partner Sovik built the Transpolyporter 6000 after word reached them of a new gnomish rig in Gnomeregan, and by Scooty's own cheerful admission it has only exploded a dozen or so times. Despite the obvious physical perils involved in being dematerialized across continents, Scooty remains entirely confident in his genius, dismissing every catastrophic mechanical hiccup as merely a minor obstacle on the road to true innovation.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_scooty-bb931523a9fbbef8c3fa/1-0000.mp3", duration = 83.0432653, start = 0},
+    {file = "Audio/Transport/full_npc_scooty-9ba7fda0ff2a8594b27a/1-0000.mp3", duration = 83.0955102, start = 0},
   },
 }
 P.transport["npc:scout-riell"] = {
@@ -3446,7 +3446,7 @@ P.transport["npc:sentinel-thenysil"] = {
   fullHash = "9367b6",
   text = "Sentinel Thenysil. Sentinel Tara Thenysil is a night elf sentinel stationed in Astranaar within the ancient forest of Ashenvale. Vigilant over the surrounding wilderness, she keeps close tabs on military operations in the region and coordinates scouts watching neighboring territories. Her attention is particularly focused on allied movements pushing south into the contested Stonetalon Mountains. From her post in the fortified settlement of Astranaar, Sentinel Thenysil helps secure Ashenvale against growing hostility. Night elf holdings throughout the region face relentless encroachment, making communications between distant outposts vital. While much of the local garrison focuses directly on defending the forest road, Thenysil directs Alliance volunteers beyond Ashenvale's borders to ensure distant allies remain supported. Thenysil maintains a close personal and military friendship with Kaela Shadowspear, an operative deployed south into the crags of the Stonetalon Mountains. Learning that Kaela was dispatched alongside an eccentric gnome mage, Thenysil considered the unorthodox pairing an unmistakable sign of serious trouble brewing in the peaks. Wary of what dangers her comrade might face, she recruits capable adventurers to journey south, deliver support, and report on the unfolding mission.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sentinel-thenysil-e7e490b13c250626e1ba/1-0000.mp3", duration = 73.8742857, start = 0},
+    {file = "Audio/Transport/full_npc_sentinel-thenysil-aed4a9888ed722e4f392/1-0000.mp3", duration = 75.3632653, start = 0},
   },
 }
 P.transport["npc:sentinel-tysha-moonblade"] = {
@@ -3558,7 +3558,7 @@ P.transport["npc:skorn-whitecloud"] = {
   fullHash = "505afd",
   text = "Skorn Whitecloud. Skorn Whitecloud is an aging tauren hunter residing at Bloodhoof Village in the rolling plains of Mulgore. He guides young hunters in understanding their relationship with the land's predators and aids travelers who cross paths with Mulgore's lurking dangers. Living at Bloodhoof Village in Mulgore, Skorn Whitecloud is an old hunter who now serves as an instructor in the ways of the hunt. His primary role is instilling respect for the wild creatures of the plains. He tests aspiring hunters by sending them after the claws of Mulgore's cunning flatland prowlers, to be shown to Melor Stonehoof in Thunder Bluff, ensuring that those who take up the bow or spear understand the balance between predator and prey.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_skorn-whitecloud-83ef3848a53eecbd8d28/1-0000.mp3", duration = 38.6873469, start = 0},
+    {file = "Audio/Transport/full_npc_skorn-whitecloud-41313893d49f15e2da2a/1-0000.mp3", duration = 38.9746939, start = 0},
   },
 }
 P.transport["npc:skuerto"] = {
@@ -3566,7 +3566,7 @@ P.transport["npc:skuerto"] = {
   fullHash = "e46e3c",
   text = "Skuerto. Skuerto is a dwarven scout stationed at Refuge Pointe in the Arathi Highlands. Sent there by Archmage Malin alongside Apprentice Kryten, he aids the Alliance in the field, helping secure magical relics on Malin's behalf. Skuerto, a dwarf of Ironforge, works as a scout in the dangerous Arathi Highlands. Stationed alongside Apprentice Kryten at Refuge Pointe, he works under the direction of Archmage Malin to recover arcane reagents and potent magical artifacts that once belonged to Malin's old master, Archmage Trelane. Despite the harsh conditions of the Highlands, Skuerto takes considerable pride in his wilderness scouting and reacts poorly to anyone questioning his competence. His work regularly brushes up against regional perils, from the hostile Syndicate and Boulderfist ogres to dangerous ancient entities tied to the land.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_skuerto-b885be52da054acef082/1-0000.mp3", duration = 49.6587755, start = 0},
+    {file = "Audio/Transport/full_npc_skuerto-7d03ed0d969b14e3f22b/1-0000.mp3", duration = 49.7632653, start = 0},
   },
 }
 P.transport["npc:smith-argus"] = {
@@ -3590,7 +3590,7 @@ P.transport["npc:sprite-darter"] = {
   fullHash = "7d2f2a",
   text = "Sprite Darter. Sprite Darters are small, iridescent faerie dragons native to the lush canopy of Feralas. Revered for their innate spiritual and magical qualities, they flit gracefully among the ancient trees. Recently, these rare creatures have become targets for local Grimtotem tauren who seek to capture and exploit them. Sprite Darters are elusive, winged woodland beasts native to the ancient forests of Feralas. Characterized by their gleaming, iridescent wings and mysterious spiritual essence, they embody the whimsical yet fierce magical ecology of Kalimdor's deep forests. Though generally peaceful and shy, their innate resistance to magical forces and natural power make them significant to those attuned to the wilderness. In recent times, the reclusive Sprite Darters have faced an unprecedented threat. The aggressive Grimtotem tauren clan inhabiting Feralas has begun rounding up and caging large numbers of these rare creatures for enigmatic purposes. Concerned night elves like Kindal Moonweaver actively recruit allies to disrupt the cages and liberate the trapped hatchlings before the Grimtotem bend them to their will. Beyond night elf efforts to safeguard them, the darters have caught the eye of outside observers studying primal power. Witch Doctor Uzer'i, a troll spiritualist operating out of Camp Mojache, takes a keen interest in the natural energies and muisek contained within the Sprite Darters, seeking their essence to unravel the unique magic thriving throughout Feralas.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sprite-darter-9b01d7f3dbd874c4d628/1-0000.mp3", duration = 87.04, start = 0},
+    {file = "Audio/Transport/full_npc_sprite-darter-d9da9a01046a26c5508b/1-0000.mp3", duration = 88.1110204, start = 0},
   },
 }
 P.transport["npc:stitches"] = {
@@ -3662,7 +3662,7 @@ P.transport["npc:takar-the-seer"] = {
   fullHash = "5a2a5b",
   text = "Takar the Seer. Takar the Seer is an elusive human hermit encamped deep within the Barrens, east of Camp Taurajo. Despite sitting entirely within Horde-dominated territory, he maintains allegiance to the Alliance and assists certain travelers with esoteric occult knowledge. Dwelling alone beneath a simple tent east of Camp Taurajo, Takar the Seer seems out of place amid the dry plains of the Barrens. Surrounding lands are watched constantly by tauren braves and orc patrols, yet Takar remains undisturbed in his remote clearing. Hostile to curious Horde interlopers but rarely eager to initiate violence, he keeps a sharp eye on the horizon and prefers solitude. His isolated existence suggests deliberate seclusion, far from the bustling politics of Stormwind. Though solitary, Takar is not entirely detached from the wider world. Initiates of darker arts—particularly Alliance warlocks sent from the Eastern Kingdoms—seek his cryptic guidance when attempting to bind dangerous otherworldly entities. His deep understanding of unseen forces and soulcraft makes his remote camp a vital, if perilous, pilgrimage site for practitioners looking to bind and command demons.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_takar-the-seer-4e88d1616c357c486391/1-0000.mp3", duration = 68.0228571, start = 0},
+    {file = "Audio/Transport/full_npc_takar-the-seer-7e3f2585a8152eccf632/1-0000.mp3", duration = 69.1722449, start = 0},
   },
 }
 P.transport["npc:takata-steelblade"] = {
@@ -3854,7 +3854,7 @@ P.transport["npc:thorvald-deepforge"] = {
   fullHash = "14eff5",
   text = "Thorvald Deepforge. Thorvald Deepforge is a dwarven weapon merchant stationed near the border pass in the Valley of Kings. He helps arm travelers and defenders securing the critical pathway between Dun Morogh and Loch Modan. Positioned within the towering monument of the Valley of Kings, Thorvald Deepforge serves the Alliance as a reliable arms dealer. The mountain passes connecting Khaz Modan's interior to the outlying territories are plagued by trogg incursions and roving wildlife, making well-forged steel essential for any Mountaineer or recruit on the road. Thorvald ensures that those arriving from Dun Morogh or heading deeper into Loch Modan carry the blades and axes needed to defend dwarven lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thorvald-deepforge-9df3fa4ffacd6f90adf2/1-0000.mp3", duration = 38.0604082, start = 0},
+    {file = "Audio/Transport/full_npc_thorvald-deepforge-9fc87675cda87e472eb7/1-0000.mp3", duration = 40.0195918, start = 0},
   },
 }
 P.transport["npc:thran-khorman"] = {
@@ -3902,7 +3902,7 @@ P.transport["npc:treshala-fallowbrook"] = {
   fullHash = "ae05c6",
   text = "Treshala Fallowbrook. Treshala Fallowbrook is a night elf residing quietly on the upper level of the Tradesmen's Terrace in Darnassus. She is the wife of Heralath Fallowbrook, whose work has taken him far from home into the thorny depths of Razorfen Kraul in the Barrens. Treshala Fallowbrook keeps a modest vigil on the second floor of a workshop in Darnassus's Tradesmen's Terrace. Her husband, Heralath, journeyed to the brambled depths of Razorfen Kraul in the Barrens, and she waits at home for word of him. The two are joined by a pendant of bonding, a keepsake of their marriage that Heralath carried with him into the quilboar's warrens.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_treshala-fallowbrook-d3d086aec56fe8629df0/1-0000.mp3", duration = 35.5787755, start = 0},
+    {file = "Audio/Transport/full_npc_treshala-fallowbrook-c663f2194a97549a6840/1-0000.mp3", duration = 34.7428571, start = 0},
   },
 }
 P.transport["npc:tsunaman"] = {
@@ -3982,7 +3982,7 @@ P.transport["npc:vanndar-stormpike"] = {
   fullHash = "fef05e",
   text = "Vanndar Stormpike. Vanndar Stormpike is a fierce dwarf mountain king who commands the Stormpike Expedition from the northern fortress of Dun Baldar. Searching the frozen peaks of Alterac Valley for ancient relics and raw resources, he leads the Alliance's unyielding war against the Frostwolf orcs. A veteran mountain king of Ironforge, Vanndar Stormpike spearheads the dwarven excavation into Alterac Valley. Following the Third War, he marched the Stormpike Guard into the northern mountains seeking hidden mineral riches and long-lost titan artifacts. Settling into the fortified redoubt of Dun Baldar, Vanndar views the valley as an ancestral right and rightful Alliance territory. He directs military outposts, defensive bunkers, and frontline pushes with grim dwarven resolve, determined that no retreat will ever be sounded under his watch. Vanndar's relentless mining and prospecting encroached directly onto the home of the Frostwolf clan, sparking brutal mountain warfare. Despite orcish demands to withdraw, Vanndar refuses to yield an inch of ground, vowing that Alterac Valley will belong to the dwarves. From his throne room deep within Dun Baldar, flanked by his marshals and bodyguards, he personally oversees the defense against Frostwolf incursions while dispatching Alliance champions to break the enemy lines and claim the valley once and for all.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_vanndar-stormpike-d936dede356c4c6e690f/1-0000.mp3", duration = 77.9755102, start = 0},
+    {file = "Audio/Transport/full_npc_vanndar-stormpike-367140e00289ac9c899f/1-0000.mp3", duration = 77.4008163, start = 0},
   },
 }
 P.transport["npc:varok-saurfang"] = {
@@ -4038,7 +4038,7 @@ P.transport["npc:veronica-nials"] = {
   fullHash = "d35954",
   text = "Veronica Nials. Captain Veronica Nials is an officer of the Stromgarde military stationed at Refuge Pointe in the Arathi Highlands. Amid the kingdom's collapse, she coordinates defensive operations against the Syndicate and ogres that overrun the fallen capital. Following the Third War, the human kingdom of Stromgarde shattered, leaving its remnants struggling to survive against invading Boulderfist ogres and the treachery of the Syndicate. Captain Veronica Nials stands as one of the central commanders of the surviving Stromgarde defenders at Refuge Pointe. Tasked with holding the line, she directs Alliance champions against key Syndicate leadership, such as Lord Falconcrest and the warlock Marez Cowl, while striving to recover fallen soldiers' badges so their grieving families can find closure. Captain Nials's loyalties are strictly tied to her battered homeland. When Rhag Garmason and the dwarven defenders of Dun Modr begged for Stromgarde's assistance after Dark Iron saboteurs devastated the Thandol Span, Nials was forced to turn them away. Bound by honor and duty, her troops cannot spare a single blade beyond the Arathi Highlands while their own ancestral kingdom remains occupied.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_veronica-nials-dbf66f72b3f19e53517a/1-0000.mp3", duration = 66.56, start = 0},
+    {file = "Audio/Transport/full_npc_veronica-nials-e42914bb6bbb7ff56735/1-0000.mp3", duration = 67.7616327, start = 0},
   },
 }
 P.transport["npc:vesprystus"] = {
@@ -4150,7 +4150,7 @@ P.transport["npc:willem"] = {
   fullHash = "c641b8",
   text = "Willem. Deputy Willem is a human soldier of the Stormwind Army stationed directly outside Northshire Abbey. Serving under Marshal McBride, he acts as the primary field liaison directing new recruits to handle local threats in Northshire Valley. His immediate focus is suppressing the growing encroachment of the Defias Brotherhood. Standing just steps from the gates of Northshire Abbey, Deputy Willem represents the frontline presence of the Stormwind Army in the valley. With the kingdom's military stretched thin across multiple territories, local security falls heavily on small detachments like McBride's garrison. Willem evaluates incoming volunteers, assigning them immediate tasks to assist local residents and safeguard the valley's perimeter. Willem's most pressing concern is the brazen activity of the Defias Brotherhood. Bandits sporting red bandanas have pushed directly into Northshire, stealing supplies, menacing local farmers like Milly Osworth, and establishing footholds around the surrounding vineyards and hills. Willem coordinates bounties on known cutthroats such as Garrick Padfoot to break their leadership before they can seize the abbey grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_willem-2422936a027535e4c1cc/1-0000.mp3", duration = 64.0783673, start = 0},
+    {file = "Audio/Transport/full_npc_willem-db39169f55ef43692514/1-0000.mp3", duration = 66.1681633, start = 0},
   },
 }
 P.transport["npc:williden-marshal"] = {
@@ -4190,7 +4190,7 @@ P.transport["npc:witch-doctor-uzer-i"] = {
   fullHash = "027e42",
   text = "Witch Doctor Uzer'i. Witch Doctor Uzer'i is a jungle troll mystic residing at Camp Mojache in the primordial forests of Feralas. Dedicated to advancing the magical capabilities of the Horde, he researches techniques to trap and harness the muisek—the spiritual essence of powerful natural creatures. By capturing these ancient forest spirits, Uzer'i seeks to channel the raw primal energies traditionally favored by night elves directly into enchanted weapons. Rooted in traditional troll spiritualism, Witch Doctor Uzer'i has spent considerable effort studying the natural magic inherent to the untamed wilderness of Feralas. He argues that night elves have drawn upon the spirits of forest beasts for millennia, and believes the time has come for the Horde to seize those same primal forces. Central to his study is the concept of muisek: the vibrant spiritual essence that remains within a creature. To harness it, Uzer'i crafts specialized vessels capable of rapidly shrinking fallen beings before their escaping spirit disperses, allowing the essence to be stored and studied. Extracting muisek was merely the first phase of Uzer'i's broader ambition. Gathering resilient sinew, enchanted minerals, and petrified splintered logs from the very creatures whose spirits he trapped, the witch doctor fused physical materials with bound muisek. Through these rites, he learned to permanently bind ancient forest spirits into arms and armaments, providing the Horde with magically charged weapons. Beyond his ritual craftsmanship, Uzer'i maintains a deep curiosity regarding hidden places of power throughout Azeroth, actively tracking rumors of the ancient, submerged Sunken Temple.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_witch-doctor-uzer-i-0e501f07bc2897d29e43/1-0000.mp3", duration = 98.7689796, start = 0},
+    {file = "Audio/Transport/full_npc_witch-doctor-uzer-i-58c352394c38bd3a90a6/1-0000.mp3", duration = 96.7053061, start = 0},
   },
 }
 P.transport["npc:wizlo-bearingshiner"] = {
@@ -4318,7 +4318,7 @@ P.transport["npc:zarrin"] = {
   fullHash = "4e7b2b",
   text = "Zarrin. Zarrin is a night elf culinary mentor located in Dolanaar on the boughs of Teldrassil. Tending an open hearth behind the village inn, he instructs young night elves and visitors in traditional Kaldorei cooking techniques. Situated behind the Dolanaar inn away from the main thoroughfare, Zarrin tends an open fire where he shares the culinary arts of the Kaldorei. Survival in Teldrassil requires utilizing the native flora and fauna of the giant tree, and Zarrin serves as an instructor for those seeking to sustain themselves through foraging and home-cooked meals.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_zarrin-b0fb62b0474da36ae41c/1-0000.mp3", duration = 31.1379592, start = 0},
+    {file = "Audio/Transport/full_npc_zarrin-2bebe6e556de452120b8/1-0000.mp3", duration = 32.9665306, start = 0},
   },
 }
 P.transport["npc:zenn-foulhoof"] = {
@@ -4374,7 +4374,7 @@ P.transport["topic:alliance"] = {
   fullHash = "74ab08",
   text = "Alliance. The Alliance is a grand coalition of mortal races bound by shared ideals of honor, duty, and the defense of order across Azeroth. Born out of the ashes of the northern kingdom of Lordaeron, its current heart beats in Stormwind City, united alongside the dwarves of Ironforge, the exiled gnomes, and the night elves of Kalimdor. The modern Alliance descends from the original Alliance of Lordaeron, founded when Sir Anduin Lothar led Stormwind refugees north during the Second War to unite the Seven Kingdoms, dwarves, and high elves against the Old Horde. While the Scourge and the Third War decimated the north—leaving Lordaeron in ruins and driving the survivors into scattered resistance—the restored Kingdom of Stormwind rose to fill the void. Today, Stormwind stands as the preeminent seat of human leadership, carrying the banners of honor and faith into a fractured world. The faction's backbone in the Eastern Kingdoms relies on the steadfast bond between humans and the dwarves of Ironforge under King Magni Bronzebeard. Alongside the dwarves reside the gnomes, driven from Gnomeregan by a devastating trogg uprising. Guided by High Tinker Gelbin Mekkatorque, the exiled gnomes lend their brilliant engineering to the Alliance war effort, believing the coalition's survival is paramount to ever reclaiming their irradiated home. Across the Great Sea, the reclusive night elves abandoned millennia of isolation after the Battle of Mount Hyjal. Reeling from the loss of their immortality and engaged in bitter territorial clashes against the Horde over logging in Ashenvale, the kaldorei allied with their newfound mortal companions. Though cultural friction remains—and some traditionalists decry the presence of humans and dwarves in ancient forests—the Alliance provides vital military and diplomatic cooperation to safeguard Kalimdor against demonic remnants and Horde expansion. Despite its outward strength, the Alliance is beset by internal strain. King Varian Wrynn vanished under mysterious circumstances en route to a diplomatic summit, leaving his young son Anduin on the throne under Highlord Bolvar Fordragon's regency. Relations with former human allies are fractured: the maritime kingdom of Kul Tiras keeps its distance, while Sylvanas Windrunner's undead Forsaken now hold the ruins of Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_alliance-ce41e6210adc3346c4da/1-0000.mp3", duration = 134.791837, start = 0},
+    {file = "Audio/Transport/full_topic_alliance-600d537aef1cef14acba/1-0000.mp3", duration = 132.884898, start = 0},
   },
 }
 P.transport["topic:brotherhood-of-northshire"] = {
@@ -4390,7 +4390,7 @@ P.transport["topic:centaur"] = {
   fullHash = "39eea6",
   text = "Centaur. Centaur are a violent, horse-bodied humanoid race whose nomadic clans dominate the arid plains of central Kalimdor. Born from the tragic union between the demigod Zaetar and the earth princess Theradras, they spent centuries driving the tauren toward extinction before the newly arrived orcish Horde intervened. Centaur legend traces the race to the caverns of Maraudon beneath Desolace. There, Zaetar, one of the immortal sons of the demigod Cenarius, and Princess Theradras, daughter of the elemental lord Therazane, sired the first centaur. Upon their emergence, the barbaric offspring turned on their father and killed him. Grief-stricken, Theradras trapped Zaetar's spirit within the winding caverns of Maraudon, yet she shielded her vicious children, who swiftly multiplied across Kalimdor. Following their emergence, the centaur expanded outward from Desolace, waging a brutal war of attrition against Kalimdor's native populations. The nomadic tauren suffered the most: driven from their fertile ancestral homeland of Mulgore, they were chased relentlessly across the Barrens. Centaur warbands treated the tauren as prey, burning settlements and hunting them for sport. By the time of the Third War, centuries of relentless pursuit had brought the tauren to the precipice of extinction, leaving them desperately fleeing endless marauders across the savannah. Everything shifted when Warchief Thrall and the newly arrived orcish Horde landed upon Kalimdor. Thrall formed a pact with Cairne Bloodhoof, uniting orcish steel with tauren might. Together, they crushed the aggressive Kolkar warbands, broke their grip on the plains, and enabled the tauren to safely establish Thunder Bluff and reclaim Mulgore. This alliance ended the nomadic exile of the tauren and established a debt of blood and honor that permanently bound them into the Horde. Despite their staggering defeats, centaur remain an active threat across central Kalimdor. Their society is divided into warring clans—primarily the Kolkar, Gelkis, Magram, and Maraudine—each led by a khan and locked in perpetual blood feuds over territory and water. While their internal squabbles keep them from uniting into an unstoppable horde, aggressive raiding parties continue to strike at trade caravans and settlements across Durotar, the Barrens, Thousand Needles, and the borders of Mulgore.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_centaur-13a7ebf6d3ccb0ab931f/1-0000.mp3", duration = 138.213878, start = 0},
+    {file = "Audio/Transport/full_topic_centaur-ce582fc1850225e6c6af/1-0000.mp3", duration = 138.24, start = 0},
   },
 }
 P.transport["topic:defias-brotherhood"] = {
@@ -4486,7 +4486,7 @@ P.transport["topic:lich-king"] = {
   fullHash = "6bf416",
   text = "Lich King. The Lich King is the lord and psychic master of the undead Scourge, ruling from the Frozen Throne far to the north in Icecrown. Originally forged by the demon Kil'jaeden from the spirit of the orc shaman Ner'zhul, the entity eventually lured Prince Arthas Menethil into corruption, culminating in their fateful union atop Northrend's icy peaks. When the orc shaman Ner'zhul attempted to flee the dying world of Draenor, he fell directly into the clutches of Kil'jaeden the Deceiver. The demon lord tore Ner'zhul's body to shreds but bound his tormented soul into a block of diamond-hard ice cast out of the Twisting Nether. Flung into Azeroth, the glacial monolith struck the northern wastes of Northrend, forming the Frozen Throne. Kil'jaeden intended the Lich King to forge an unstoppable undead vanguard that would dismantle the mortal kingdoms without succumbing to the infighting that ruined the Orcish Horde. Instead, armed with immense telepathic power, Ner'zhul immediately began plotting his own bid for freedom. Watching dreadlords kept close vigil over the entity, forcing Ner'zhul to act in secret. Reaching out with his mind, he ensnared the exiled Kirin Tor archmage Kel'Thuzad, who established the Cult of the Damned in Lordaeron. Through cauldrons of tainted grain, the Scourge unleashed the Plague of Undeath across the northern kingdoms. The crisis drew in Prince Arthas Menethil, whose desperation to save his people led him into ruthless brutality, culminating in the infamous slaughter of Stratholme. Blinded by vengeance against the dreadlord Mal'Ganis, Arthas pursued his quarry into Northrend, where the cursed runeblade Frostmourne waited to steal his soul and turn him into the Scourge's premier death knight. Though forced to summon Archimonde and hand temporary command to the Burning Legion, the Lich King anticipated the demons' hubris. Arthas manipulated the demon hunter Illidan Stormrage into claiming the Skull of Gul'dan and slaying Tichondrius, ultimately contributing to Archimonde's ruin at Mount Hyjal. In the aftermath, a desperate Kil'jaeden tasked Illidan with destroying the Frozen Throne. As cracks in the icy spire weakened Ner'zhul's power—allowing Sylvanas Windrunner and her Forsaken to break free—the Lich King summoned his champion home. Arthas returned to Northrend, defeated Illidan at the foot of Icecrown, ascended the spire, and shattered the ice to merge with Ner'zhul into a single terrible consciousness.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_lich-king-dacc6c7447679f3cc61e/1-0000.mp3", duration = 142.654694, start = 0},
+    {file = "Audio/Transport/full_topic_lich-king-ff8b4abddbd0b78a6fbb/1-0000.mp3", duration = 143.856327, start = 0},
   },
 }
 P.transport["topic:light"] = {
@@ -4542,7 +4542,7 @@ P.transport["topic:priest"] = {
   fullHash = "e826f2",
   text = "Priest. Priests are spiritual guides and conduits of immense unseen power who shape belief, mend flesh, and guard souls. Channeling the radiant energies of faith or plumbing the terrifying depths of the Void, they serve as the vital heart of any war party. Across Azeroth, their traditions range from the Church of the Holy Light to the Moon Goddess's Sisterhood and shadowy Forsaken cults. Priests guide the spiritual destiny of their communities. While physical combatants test their mettle with steel, priests draw power directly from conviction. Through divine connection, they soothe grievous wounds, raise fallen companions from death's threshold, and weave mystic barriers to repel incoming harm. Their presence on the field often marks the difference between survival and annihilation. The priesthood is not solely an instrument of benevolence. Just as life holds both illumination and darkness, the priest walks a perilous line between divine restoration and mental devastation. Those who master the holy arts call down searing righteous vengeance to smite enemies, while practitioners of Shadow magic delve into the Void to dominate minds, twist willpower, and inflict agonizing pain from afar. No single faith defines Azeroth's priests. Among humans, dwarves and gnomes, the Church of the Holy Light codifies a philosophy of virtue, having adapted its fragile Clerics of Northshire into a hardened order after the First War. In Kalimdor, the night elven Sisterhood of Elune honors the Mother Moon with starlight and grace, while troll witch doctors beseech the primal Loa. Among the newly risen Forsaken, many have turned from former dogmas toward the Cult of the Forgotten Shadow, preaching that darkness and light must exist in delicate equilibrium.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_priest-cf1f4154e72cc5ba6849/1-0000.mp3", duration = 102.269388, start = 0},
+    {file = "Audio/Transport/full_topic_priest-78289effc06d72ab703f/1-0000.mp3", duration = 104.202449, start = 0},
   },
 }
 P.transport["topic:rogue"] = {
@@ -4550,7 +4550,7 @@ P.transport["topic:rogue"] = {
   fullHash = "b4ce5c",
   text = "Rogue. Rogues are masters of stealth, espionage, and sudden, lethal combat who dictate the terms of engagement from the shadows. Relying on light leather armor, dual-wielded blades, and brewed toxins, they strike unawares before vanishing back into the dark. Across Azeroth, they serve as scouts, assassins, pickpockets, and agents for factions and hidden syndicates alike. Rogues eschew the heavy plate and open confrontation of traditional frontline warriors. Clad in lightweight leather to remain completely silent and mobile, they stalk their quarry unseen. When they engage, they seize the opening moments through precision and surprise, aiming for vital organs or exposed joints. Utilizing an ever-flowing pool of energy and rapid weapon combinations, a rogue softens up an enemy with carefully chained strikes before unleashing a catastrophic finishing blow. A blade alone is rarely enough for a professional cutpurse or killer. Rogues are skilled alchemists of lethal concoctions, hand-crafting venomous coatings to numb limbs, slow escapes, or rapidly sap the vitality of their targets. Coupled with lockpicking tools, thrown weapons, and distracting trickery, they excel at slipping past fortified perimeters, disarming traps, and infiltrating vaults that would stump a company of soldiers. While many rogues operate as lone wolves, highwaymen, or street-level thugs, the finest operatives belong to organized intelligence networks and assassin guilds. Stormwind relies on the clandestine operatives of SI:7, and the Forsaken utilize the relentless Deathstalkers. In Orgrimmar, the shadowy remnants of the Shattered Hand serve the Warchief, while the elite, neutral League of Assassins answers to Lord Jorach Ravenholdt.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_rogue-e486822476af0645b044/1-0000.mp3", duration = 101.746939, start = 0},
+    {file = "Audio/Transport/full_topic_rogue-7e44d14ef5dc1fa51797/1-0000.mp3", duration = 103.262041, start = 0},
   },
 }
 P.transport["topic:scarlet-crusade"] = {

@@ -45,6 +45,7 @@ test("an answer is kept only while the switch is on, without names or the accoun
   assert.equal(row.answer, "Well met, {player}! Sentinel Hill is east.");
   assert.equal(row.zone, "Westfall");
   assert.equal(row.outcome, "answered");
+  assert.equal(row.plan, "free", "the plan it was answered on, for pricing (lib/plan-usage.js planLabel)");
   assert.ok(row.model && Number.isInteger(row.total_ms));
   assert.doesNotMatch(JSON.stringify(row), new RegExp(`${user.id}|hurin@example|Húrin`, "i"));
   await deleteUser(env, user);

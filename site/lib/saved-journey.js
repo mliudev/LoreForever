@@ -5,7 +5,7 @@
 import { profileOf } from "./profiles.js";
 import { pageOf } from "./willo-notebook.js";
 
-// {journey, name, theirs}: journey null when none was synced (or no profile); theirs false when the profile is another
+// {journey, name, theirs, level}: journey null when none was synced (or no profile); theirs false when the profile is another
 // character than the one asking (current: the notebook's page, "char:Húrin-ClassicBetaPvE"), whose journey isn't
 // theirs to tell. Never throws: a failed read is no journey.
 export async function savedJourney(env, userId, current = null) {
@@ -18,7 +18,9 @@ export async function savedJourney(env, userId, current = null) {
     // case aside in case a realm is ever written both ways.
     const same = (a, b) => a.replace(/\s+/g, "").toLowerCase() === b.replace(/\s+/g, "").toLowerCase();
     const theirs = !current || current === "account" || !page || same(page, current);
-    return { journey: p.journey?.moments?.length ? p.journey : null, name, theirs };
+    // level: the character's level as the profile last had it (for a level after the journey's last level-up).
+    const level = Number.isInteger(p.data?.level) ? p.data.level : null;
+    return { journey: p.journey?.moments?.length ? p.journey : null, name, theirs, level };
   } catch (e) {
     console.warn(`saved journey: ${e?.message || e}`);
     return { journey: null, name: "", theirs: true };

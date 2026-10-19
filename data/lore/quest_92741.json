@@ -1,0 +1,119 @@
+{
+ "key": "quest:92741",
+ "type": "quest",
+ "name": "Unwelcome Visitors",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92741
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "Hunters are well-suited to tracking and thinning the overpopulated shrieklings within Shadowgale Forest, stepping into the role of warden and trapper that the High Order openly disdains."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The sudden population explosion and territorial expansion of the shrieklings signals an ecological disturbance in Shadowgale Forest that demands swift intervention to restore natural balance."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives unwelcome visitors",
+    "unwelcome visitors quest giver",
+    "where to pick up unwelcome visitors"
+   ],
+   "answer": "Unwelcome Visitors is offered by Iaadaria Bitterwind, a researcher affiliated with the High Order stationed in Valanaar. She tasks capable travelers with hunting shrieklings in the nearby wilderness to gather materials for her alchemical studies.",
+   "q": "Who gives the quest Unwelcome Visitors?"
+  },
+  {
+   "aliases": [
+    "why does high order want talons",
+    "high order shrieklings",
+    "iaadaria bitterwind motive"
+   ],
+   "answer": "While the High Order generally considers trapping and pest control beneath their station, Iaadaria Bitterwind sees an opportunity for scholarly gain. Shriekling talons possess distinct alchemical properties, allowing the Order to study valuable reagents under the guise of providing community service to the region.",
+   "q": "What is the High Order's interest in the shrieklings?"
+  },
+  {
+   "aliases": [
+    "why kill shrieklings",
+    "shriekling threat",
+    "why are shrieklings a problem"
+   ],
+   "answer": "In recent months, the shrieklings residing in Shadowgale Forest have experienced a massive population explosion. As their numbers grew, the beasts began encroaching outside their normal woodland territory, posing a looming hazard to neighboring areas if their spread is not actively curtailed.",
+   "q": "Why must the shriekling population be culled?"
+  },
+  {
+   "aliases": [
+    "where is shadowgale forest",
+    "shadowgale forest location",
+    "how to get to shadowgale forest"
+   ],
+   "answer": "Shadowgale Forest is a treacherous woodland situated near Valanaar. The woods are known to be remarkably dangerous and are ordinarily declared off-limits to standard travelers and inexperienced adventurers due to the violent wildlife harbored within its borders.",
+   "q": "Where is Shadowgale Forest located?"
+  },
+  {
+   "aliases": [
+    "what is a shriekling",
+    "shriekling lore",
+    "what kind of beasts are shrieklings"
+   ],
+   "answer": "Shrieklings are vicious predatory beasts native to Shadowgale Forest. Equipped with sharp, alchemically potent talons, these creatures have multiplied rapidly in recent months, aggressive enough to push past the forest's perimeter and threaten lands beyond their usual habitat.",
+   "q": "What are shrieklings?"
+  },
+  {
+   "aliases": [
+    "unwelcome visitors objectives",
+    "what do i need for unwelcome visitors",
+    "shriekling talons needed"
+   ],
+   "answer": "Adventurers undertaking Unwelcome Visitors must venture into the hazardous depths of Shadowgale Forest, slay the rampant beasts, and recover eight Shriekling Talons. These trophies are delivered directly to Iaadaria Bitterwind in Valanaar to assist her scholarly and alchemical research.",
+   "q": "What items are required to complete Unwelcome Visitors?"
+  },
+  {
+   "aliases": [
+    "why is shadowgale off limits",
+    "shadowgale forest danger",
+    "can anyone enter shadowgale forest"
+   ],
+   "answer": "Shadowgale Forest is considered exceptionally hazardous and is officially off-limits to regular adventurers due to its lethal wildlife and treacherous environment. Only individuals prepared for severe danger, such as those contracted to cull the aggressive shriekling infestation, dare enter the woods.",
+   "q": "Why is Shadowgale Forest off-limits to normal adventurers?"
+  }
+ ],
+ "keywords": [
+  "alchemical properties",
+  "iaadaria bitterwind",
+  "shadowgale forest",
+  "shriekling",
+  "shriekling talons",
+  "the high order",
+  "unwelcome visitors",
+  "valanaar"
+ ],
+ "related": [
+  "quest:92596",
+  "quest:567"
+ ],
+ "sections": [
+  {
+   "body": "Shadowgale Forest has long held a reputation as a perilous realm off-limits to ordinary adventurers. Recently, however, that boundary has begun to fray. An unprecedented population boom among the forest's native shrieklings has pushed the creatures toward the perimeter, threatening to expand their hunting grounds beyond the canopy. Left unchecked, the predatory beasts risk encroaching upon settled lands and travel routes, turning a secluded menace into an active threat for the surrounding region.",
+   "spoiler": 0,
+   "title": "The Shriekling Surge"
+  },
+  {
+   "body": "In Valanaar, Iaadaria Bitterwind of the High Order recognizes both the danger and the scientific opportunity posed by the infestation. While the High Order typically refrains from mundane pest control or acting as simple trappers, the unique alchemical properties inherent to shriekling talons make an exception worthwhile. By contracting seasoned adventurers to venture into Shadowgale Forest and secure eight talons, the Order manages to provide essential community protection while acquiring rare biological reagents for their scholarly pursuits.",
+   "spoiler": 0,
+   "title": "Scholarly Culling"
+  }
+ ],
+ "summary": "Unwelcome Visitors is a quest in Valanaar given by Iaadaria Bitterwind on behalf of the High Order. A sudden surge in the shriekling population within the hazardous Shadowgale Forest threatens to spill into surrounding territories. Adventurers are tasked with entering the restricted woods to cull the beasts and harvest their talons for scholarly and alchemical research.",
+ "attribution": [
+  "In-game quest text: Unwelcome Visitors"
+ ]
+}

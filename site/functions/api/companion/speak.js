@@ -23,6 +23,7 @@ import { setup, fail, noStore } from "../../../lib/accounts.js";
 import { currentDevice } from "../../../lib/devices.js";
 import { perMinute } from "../../../lib/ratelimit.js";
 import { planFor, plansOn } from "../../../lib/billing.js";
+import { recordVoice } from "../../../lib/plan-usage.js";
 import { speakPiece, hostedSpellings, forgetReply, SPEAK_MAX_CHARS, MAX_PIECE, isVoiceKey, REPLY_ID, UNHEARD_SETTLE_MS }
   from "../../../lib/companion-voice.js";
 
@@ -82,6 +83,12 @@ export async function onRequest({ request, env, waitUntil }) {
     { text, voice: body.voice, reply: body.reply ?? crypto.randomUUID(), pick, piece: body.piece, line: body.line === true,
       reading: body.line === true && body.reading === true, spellings }, now,
     typeof waitUntil === "function" ? waitUntil : null);
+  // Which voice said it, or why the PC did, and the voice the player picked, by plan (lib/plan-usage.js): after the
+  // audio has gone back, so the first word never waits for it.
+  const noted = recordVoice(env, app.user.id, plan, { kind: body.line === true ? "line" : body.voice === "willo"
+    ? "willo" : "character", said: said.audio ? said.voice || "hosted" : `pc:${said.local}`, pick,
+    first: !body.piece, chars: text.length }, now);
+  if (typeof waitUntil === "function") waitUntil(noted); else await noted;
   if (!said.audio) return local(said.status, said.local);
   return new Response(said.audio, { headers: { ...noStore, "Content-Type": "audio/mpeg",
     ...(said.voice ? { "X-LF-Voice": said.voice } : {}) } });

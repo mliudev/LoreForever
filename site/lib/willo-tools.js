@@ -24,6 +24,7 @@ export const LOOKUPS = {
   web: { side: "site", what: "a quick look online for the player's own world (lib/companion-answers.js lookUp)" },
   help: { side: "site", what: "Willo's own help (lib/willo-help.js)" },
   answers_left: { side: "site", what: "their plan and the answers it has left (lib/companion-answers.js allowance)" },
+  sight: { side: "willo", what: "a picture of the game with a question asked out loud (talk/sight.py); logged, not asked for" },
 };
 
 // The site's look-ups for one of Willo's own answers. A question about her gets her help, her state and, about

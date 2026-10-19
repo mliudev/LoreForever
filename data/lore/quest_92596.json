@@ -1,0 +1,119 @@
+{
+ "key": "quest:92596",
+ "type": "quest",
+ "name": "The High Order",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92596
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Rathiril notes that even adventurers not formally trained as mages carry strong arcane auras, underscoring that their shared magic remains an innate heritage rather than merely a discipline of study."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "As descendants of the ancient Highborne of Eldre'Thalas, the shen'dorei must master their ancient arcane gifts to stand independently after the departure of their elemental patrons."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who are the high order",
+    "what is high order",
+    "high order purpose"
+   ],
+   "answer": "The High Order is an organization among the shen'dorei dedicated to the survival of their people. Founded by descendants of the Highborne of Eldre'Thalas, the order seeks to harness their ancient arcane gifts to ensure their society can defend itself and endure independently on Zephras.",
+   "q": "What is the High Order?"
+  },
+  {
+   "aliases": [
+    "who is rathiril",
+    "rathiril sunlance lore",
+    "sunlance"
+   ],
+   "answer": "Rathiril Sunlance is an elf associated with the High Order on Zephras. He educates newcomers on the nature of local arcane energies, the plight facing the shen'dorei, and the High Order's determination to survive without their former elemental patrons.",
+   "q": "Who is Rathiril Sunlance?"
+  },
+  {
+   "aliases": [
+    "where is the high order",
+    "what is zephras",
+    "zephras lore"
+   ],
+   "answer": "Zephras is the floating isle in Skywall where Rathiril Sunlance and his kin now live. It is a place permeated by arcane energies where the shen'dorei face both internal peril and external uncertainties regarding their security.",
+   "q": "What is Zephras?"
+  },
+  {
+   "aliases": [
+    "who are the shendorei",
+    "shen dorei",
+    "shendorei lore"
+   ],
+   "answer": "The shen'dorei are elf descendants of the Highborne from their ancestral home of Eldre'Thalas. Now dwelling on Zephras, they possess an inherent connection to arcane magic and strive to achieve self-reliance.",
+   "q": "Who are the shen'dorei?"
+  },
+  {
+   "aliases": [
+    "who are the elementals",
+    "elemental patrons",
+    "elemental benefactors"
+   ],
+   "answer": "The elemental benefactors were powerful elemental entities that previously aided and protected the shen'dorei. However, they are now gone, forcing the people of Zephras to rely entirely on their own magical prowess and resourcefulness.",
+   "q": "Who were the elemental benefactors?"
+  },
+  {
+   "aliases": [
+    "what is alaketh",
+    "al aketh threat",
+    "internal threats zephras"
+   ],
+   "answer": "The Al'Aketh are an internal faction or threat challenging the safety of the shen'dorei on Zephras. Dealing with such internal adversaries is one of the central concerns compelling the High Order to organize their defenses.",
+   "q": "What are the Al'Aketh?"
+  },
+  {
+   "aliases": [
+    "eldrethalas connection",
+    "are they from dire maul",
+    "highborne origins"
+   ],
+   "answer": "The ancestors of the shen'dorei originated in Eldre'Thalas, the ancient Highborne city located in Kalimdor (known to many in 25 ADP as Dire Maul). The High Order honors this ancestral heritage by maintaining and using their ancient arcane gifts.",
+   "q": "What is the connection between the High Order and Eldre'Thalas?"
+  }
+ ],
+ "keywords": [
+  "al'aketh",
+  "arcane",
+  "eldre'thalas",
+  "highborne",
+  "rathiril sunlance",
+  "shen'dorei",
+  "the high order",
+  "zephras"
+ ],
+ "related": [
+  "topic:highborne",
+  "topic:mage"
+ ],
+ "sections": [
+  {
+   "body": "The High Order represents a dedicated effort by the shen'dorei on Zephras to reclaim their strength and chart their own future. For a long time, their people relied upon the protection and grace of elemental benefactors. With those elemental patrons now gone, the people find themselves on their own, vulnerable to internal strife and surrounding perils. Leaders like Rathiril Sunlance seek out individuals gifted with arcane talent to join their mission of preservation and self-reliance.",
+   "spoiler": 0,
+   "title": "A People on Their Own"
+  },
+  {
+   "body": "Carrying the legacy of their ancestral home of Eldre'Thalas, the shen'dorei share an innate wellspring of arcane energy that surrounds even those not formally initiated into wizardry. The High Order considers it their collective destiny as Highborne descendants to wield these ancient magical boons. In doing so, they hope to counter internal menaces like the Al'Aketh and withstand the many security threats confronting their home on Zephras.",
+   "spoiler": 0,
+   "title": "Legacy of Eldre'Thalas"
+  }
+ ],
+ "summary": "The High Order is an introductory quest on Zephras wherein Rathiril Sunlance explains the plight of the shen'dorei. Having lost the aid of their elemental benefactors, these Highborne descendants of Eldre'Thalas must harness their ancient arcane magic to safeguard their survival.",
+ "attribution": [
+  "In-game quest text: The High Order"
+ ]
+}

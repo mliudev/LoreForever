@@ -1,0 +1,109 @@
+{
+ "key": "quest:92727",
+ "type": "quest",
+ "name": "The Missing Scholar",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92727
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Mages investigating the natural anomalies of Zephras share Flamebreeze's curiosity regarding the windborne arcane currents gathering in the highlands."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "The winds and atmospheric magic of Zephras are of paramount interest to the Skyborne, though the terrain's hidden dangers prove perilous even for scholars."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is fillion flamebreeze",
+    "fillion flamebreeze lore",
+    "who is the missing scholar"
+   ],
+   "answer": "Fillion Flamebreeze is a scholar affiliated with the High Order on Zephras. He was dispatched to survey the mysterious windborne magic congregating in the Shen'dar Highlands before mysteriously disappearing along the roadway.",
+   "q": "Who is Fillion Flamebreeze?"
+  },
+  {
+   "aliases": [
+    "what happened to fillion",
+    "did fillion die",
+    "fillion flamebreeze fate"
+   ],
+   "answer": "Fillion never reached his destination. Along the western road heading toward the Shen'dar Highlands, only his discarded satchel remains, bearing an embroidered name and ominous specks of dried blood that indicate he was ambushed or attacked.",
+   "q": "What happened to Fillion Flamebreeze?"
+  },
+  {
+   "aliases": [
+    "high order mandate",
+    "what does high order do",
+    "high order zephras"
+   ],
+   "answer": "The High Order is dedicated to the gathering and preservation of knowledge across Zephras. Despite their academic mandate, operating across the island has become increasingly perilous due to wild magical phenomena and roadside threats.",
+   "q": "What is the High Order?"
+  },
+  {
+   "aliases": [
+    "where was fillion going",
+    "wind magic shendar",
+    "why did he go to the highlands"
+   ],
+   "answer": "Flamebreeze was travelling to the Shen'dar Highlands to record and collect data on unusual windborne magic that pools and flows across certain parts of the elevated territory.",
+   "q": "Why was Fillion travelling to the Shen'dar Highlands?"
+  },
+  {
+   "aliases": [
+    "where is the satchel",
+    "fillion satchel location",
+    "road from valanaar"
+   ],
+   "answer": "The scholar's bloodstained satchel is located along the westward road departing from Valanaar as it ascends toward the Shen'dar Highlands.",
+   "q": "Where was Fillion Flamebreeze last seen?"
+  },
+  {
+   "aliases": [
+    "what is windborne magic zephras",
+    "wind magic highlands"
+   ],
+   "answer": "Windborne magic refers to atmospheric arcane currents that naturally congregate in specific high-elevation areas of Zephras, particularly within the Shen'dar Highlands, making them a primary subject of arcane research.",
+   "q": "What is the windborne magic of the Shen'dar Highlands?"
+  }
+ ],
+ "keywords": [
+  "bloodstained satchel",
+  "fillion flamebreeze",
+  "high order",
+  "shen'dar highlands",
+  "the missing scholar",
+  "valanaar",
+  "windborne magic",
+  "zephras"
+ ],
+ "related": [
+  "quest:92596",
+  "quest:567"
+ ],
+ "sections": [
+  {
+   "body": "Seeking knowledge is the central mandate of the scholarly High Order, but conducting academic field research across Zephras has grown fraught with peril. When scholar Fillion Flamebreeze set out toward the Shen'dar Highlands to study atmospheric arcane phenomena, he failed to report back, sparking concern from his peers that regional dangers had claimed him along the frontier roads.",
+   "spoiler": 0,
+   "title": "The High Order's Mission"
+  },
+  {
+   "body": "Flamebreeze departed westward from the settlement of Valanaar, venturing toward the craggy reaches of the Shen'dar Highlands to gather empirical data on windborne magic pooling within the peaks. He vanished without completing his journey. A search along the travel route uncovers only his personal satchel left behind in the dirt, stained with flecks of dried blood and leaving his ultimate survival in grave doubt.",
+   "spoiler": 1,
+   "title": "Traces on the Western Road"
+  }
+ ],
+ "summary": "The Missing Scholar concerns the disappearance of Fillion Flamebreeze, an academic from the High Order sent to research atmospheric magic on Zephras. Tracing his steps along the road between Valanaar and the Shen'dar Highlands reveals the dangerous nature of scholarly expedition across the island.",
+ "attribution": [
+  "In-game quest text: The Missing Scholar"
+ ]
+}

@@ -5,11 +5,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Creator program - Lore Forever</title>
-<meta name="description" content="Show Willo to your audience and earn 70% of the first month of every subscriber you bring.">
+<meta name="description" content="Show Willo to your audience and earn 60% of the first month of every subscriber you bring. Your audience gets 15% off.">
 <link rel="canonical" href="https://loreforeverwow.com/creators">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Lore Forever creator program">
-<meta property="og:description" content="Show Willo to your audience and earn 70% of the first month of every subscriber you bring.">
+<meta property="og:description" content="Show Willo to your audience and earn 60% of the first month of every subscriber you bring. Your audience gets 15% off.">
 <meta property="og:url" content="https://loreforeverwow.com/creators">
 <meta property="og:image" content="https://loreforeverwow.com/img/social-card.png">
 <link rel="icon" href="/img/logo.svg" type="image/svg+xml">
@@ -51,14 +51,17 @@
   <div class="h-wrap bw-in vp-page vp-doc">
   <h1>Bring your audience to Willo</h1>
   <p class="pitch">Play WoW Forever on stream or make videos about it, and like Willo? Show her to your audience.
-    Every viewer who starts a plan through your link earns you <strong data-rate>70%</strong> of their first month.
-    No sponsorship deal and no script: try her first, and join if you like her.</p>
+    Every viewer who starts a plan through your link or code earns you <strong data-rate>60%</strong> of their first
+    month<span data-perk>, and they get <strong data-off>15%</strong> off it</span>. No sponsorship deal and no script:
+    try her first, and join if you like her.</p>
 
   <!-- An approved creator's dashboard (creatorDashboard). -->
   <section id="cp-dash" data-cp hidden aria-labelledby="cp-dash-title">
     <h2 id="cp-dash-title">Your dashboard</h2>
     <p class="ac-share-link"><code id="cp-url"></code>
       <button class="btn-small" type="button" id="cp-copy">Copy link</button></p>
+    <p class="ac-share-link" id="cp-code-line" hidden>Your code: <code id="cp-code"></code>
+      <button class="btn-small btn-small-alt" type="button" id="cp-code-copy">Copy code</button></p>
     <p class="vp-note" id="cp-terms"></p>
     <ul class="cp-tiles" id="cp-tiles" aria-label="What your link brought"></ul>
     <div class="cp-box" aria-labelledby="cp-pay-title">
@@ -95,11 +98,13 @@
   <h2>How it works</h2>
   <ol class="cp-steps">
     <li><strong>Apply</strong> below with a link to your channel. We read every application ourselves.</li>
-    <li><strong>Get your link</strong>, like <code>loreforeverwow.com/w/yourname</code>, and a dashboard on this page
-      with your clicks, sign-ups and earnings.</li>
-    <li><strong>Earn <span data-rate>70%</span> of each subscriber's first month.</strong> When someone who came
-      through your link starts a plan, you get that share of what they pay for their first month, before tax. Later
-      months are ours.</li>
+    <li><strong>Get your link</strong>, like <code>loreforeverwow.com/w/yourname</code>, <span data-perk>your code,
+      like <code>YOURNAME</code>,</span> and a dashboard on this page with your clicks, sign-ups and earnings.</li>
+    <li data-perk><strong>Your audience saves <span data-off>15%</span></strong> on their first month. Your link takes
+      it off at checkout, and anyone can type your code there instead.</li>
+    <li><strong>Earn <span data-rate>60%</span> of each subscriber's first month.</strong> When someone who came
+      through your link<span data-perk> or your code</span> starts a plan, you get that share of what they pay for their
+      first month, before tax. Later months are ours.</li>
     <li><strong>Get paid monthly.</strong> A commission can be paid <span data-hold>30</span> days after the payment
       it comes from, once you're owed at least <span data-min>$10</span>.</li>
   </ol>
@@ -138,9 +143,13 @@
     <li><strong>Who can join.</strong> Creators we approve. We can say no, and we can end the program, or your part in
       it, at any time; we tell you first, and what you earned before that is still paid, unless it broke these terms.</li>
     <li><strong>What counts.</strong> Someone counts for you when they open your link, then make their Lore Forever
-      account or connect Willo for the first time within 30 days. People who already used Willo don't count, and
-      neither does anyone who came through another link first.</li>
-    <li><strong>What you earn.</strong> <span data-rate>70%</span> of what they pay for their first month of a plan,
+      account or connect Willo for the first time within 30 days<span data-perk>, or when they type your code at
+      checkout for their first plan</span>. People who already used Willo don't count, and neither does anyone who came
+      through another link first.</li>
+    <li data-perk><strong>What your audience gets.</strong> <span data-off>15%</span> off their first month of a plan,
+      once per account, with your link or your code. It doesn't add to other offers: while another offer is on, they
+      get that one instead, and you still earn on what they pay.</li>
+    <li><strong>What you earn.</strong> <span data-rate>60%</span> of what they pay for their first month of a plan,
       before tax: their first full month, and any days or upgrade they paid for before it ends. Later months, and
       anything else they buy, are ours.</li>
     <li><strong>Refunds and disputes.</strong> If a payment is refunded or disputed, its commission is taken back, from
@@ -177,14 +186,18 @@
   };
   // The program's numbers, from the site, wherever the page states them.
   function numbers(p, mine) {
-    const rate = mine?.sharePct ?? p.sharePct;
+    const rate = mine?.sharePct ?? p.sharePct, off = mine?.discount ?? p.discount ?? 0;
     document.querySelectorAll("[data-rate]").forEach(el => { el.textContent = `${rate}%`; });
+    document.querySelectorAll("[data-off]").forEach(el => { el.textContent = `${off}%`; });
+    document.querySelectorAll("[data-perk]").forEach(el => { el.hidden = !(off > 0); });
     document.querySelectorAll("[data-hold]").forEach(el => { el.textContent = String(p.holdDays); });
     document.querySelectorAll("[data-min]").forEach(el => { el.textContent = usd(p.minimum).replace(".00", ""); });
   }
   function dashboard(c, stripeOn) {
     $("cp-dash").hidden = false;
     $("cp-url").textContent = c.url;
+    $("cp-code-line").hidden = !c.promoCode;
+    $("cp-code").textContent = c.promoCode || "";
     const t = c.terms, perks = [t.discount && `${t.discount}% off their first month`, t.gift && `${n0(t.gift)} extra answers`].filter(Boolean);
     $("cp-terms").textContent = `You earn ${t.sharePct}% of each subscriber's first ${t.months === 1 ? "month" : `${t.months} months`}.` +
       (perks.length ? ` Your audience gets ${perks.join(" and ")}.` : "") + (c.retired ? " Your link is switched off." : "");
@@ -254,6 +267,12 @@
     const done = await window.lfShare({ url, text: "Meet Willo, a wisp you can talk to in WoW Forever" });
     say("cp-pay-status", done === "copied" ? "Link copied." : done === "failed" ? "Your link: " + url : "", true);
   });
+  $("cp-code-copy").addEventListener("click", async () => {
+    const code = $("cp-code").textContent;
+    let copied = false;
+    try { await navigator.clipboard.writeText(code); copied = true; } catch (e) {}
+    say("cp-pay-status", copied ? "Code copied." : "Your code: " + code, true);
+  });
   $("cp-connect-form").addEventListener("submit", async e => {
     e.preventDefault();
     const res = await post("/api/creators/payouts", { country: $("cp-country").value });
@@ -289,7 +308,7 @@
           <p class="signup-note" id="signup-note" hidden>Thanks, you're on the list.</p>
         </form>
       </div>
-      <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/lore">Lore library</a></li><li><a href="/whats-new">What's new</a></li></ul></nav>
+      <nav aria-label="The add-on"><h2>The add-on</h2><ul><li><a href="/downloads">Download</a></li><li><a href="/downloads#voices">Narrator voices</a></li><li><a href="/downloads#languages">Languages</a></li><li><a href="/lore">Lore library</a></li><li><a href="/guides">Guides</a></li><li><a href="/whats-new">What's new</a></li></ul></nav>
       <nav aria-label="Willo"><h2>Willo</h2><ul><li><a href="/willo">Meet Willo</a></li><li><a href="/plans">Plans</a></li><li><a href="/willo/style">Willo's style</a></li><li><a href="/faq">FAQ</a></li></ul></nav>
       <nav aria-label="Community"><h2>Community</h2><ul><li><a href="/discord?src=site">Discord</a></li><li><a href="https://www.twitch.tv/jiuthaimike">Twitch</a></li><li><a href="/voices/lend">Lend your voice</a></li><li><a href="/translate">Help translate</a></li><li><a href="/contributors">Contributors</a></li><li><a href="/creators">Creator program</a></li></ul></nav>
       <nav aria-label="About"><h2>About</h2><ul><li><a href="/feedback">Send feedback</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/refunds">Refunds</a></li><li><a href="https://github.com/mliudev/LoreForever">Source on GitHub</a></li></ul></nav>

@@ -42,7 +42,7 @@ test("a battleground is told as a battle, from older journeys and with the add-o
   const before = [...day(0, "Elwynn Forest", 12), ...day(1, "Ironforge", 10)];
   // A journey from before the battle capture: the entry and the falls, nothing about how it ended.
   let c = chapters(told([before, battle]), "Húrin", "Alliance")[1];
-  assert.equal(c.title, bg);
+  assert.equal(c.title, "Ironforge", "a battleground never names a chapter (LOR-685)");
   assert.equal(c.summary, "Húrin fought for the Alliance at Darkspear Islands and first saw Ironforge.");
   assert.deepEqual(c.hi.find(h => h.icon === "battle"), { icon: "battle", label: "Battle at Darkspear Islands",
     text: "for the Alliance against the Horde over the Darkspear trolls' sacred isles; fell 3 times and fought on" });
@@ -52,4 +52,22 @@ test("a battleground is told as a battle, from older journeys and with the add-o
   assert.match(c.summary, /fought for the Alliance at Darkspear Islands \(lost\)/);
   assert.match(c.hi.find(h => h.icon === "battle").text, /; lost; fell 3 times/);
   assert.match(chaptersSection([c]), /Fought at <span class="pf-thing">Darkspear Islands<\/span> <span class="pf-sub">lost<\/span>/);
+});
+
+test("a battleground never names a chapter: its dungeon or land does, and a day of only battles says so (LOR-685)", () => {
+  const bg = "Darkspear Islands", dig = "Excavation Site: Wetlands";
+  const fights = (t, n) => [{ k: "zone", t, z: bg, inst: 1, how: "instance", from: "Ironforge" },
+    ...Array.from({ length: n }, (_, i) => ({ k: "death", t: t + 60 * (i + 1), z: bg }))];
+  // Mike's chapter 14 (QA, 10/19): a dungeon run between battles, titled "Darkspear Islands".
+  const run = [{ k: "zone", t: T0 + 4000, z: dig, inst: 1, how: "instance", new: 1 },
+    { k: "boss", t: T0 + 4600, z: dig, n: "Foreman Grills" }];
+  let [c] = chapters(told([day(0, "Ironforge", 3), fights(T0 + 600, 8), run, fights(T0 + 5000, 8)]), "Húrin", "Alliance");
+  assert.equal(c.title, dig);
+  assert.equal(c.hi.find(h => h.icon === "battle").label, "Battle at Darkspear Islands", "the battles keep their line");
+  // A quest day in Ironforge between battles: Ironforge.
+  [c] = chapters(told([day(0, "Ironforge", 6), fights(T0 + 600, 12)]), "Húrin", "Alliance");
+  assert.equal(c.title, "Ironforge");
+  // Nothing but battles.
+  [c] = chapters(told([fights(T0, 12)]), "Húrin", "Alliance");
+  assert.equal(c.title, "Battles at Darkspear Islands");
 });

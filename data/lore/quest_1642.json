@@ -1,0 +1,127 @@
+{
+ "key": "quest:1642",
+ "type": "quest",
+ "name": "The Tome of Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1642
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The Tome of Divinity defines the moral core of a paladin's calling, establishing that compassion and patience are just as vital as combat readiness."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Stormwind's paladins form the spiritual and martial backbone of the Alliance, anchoring the realm's defense in moral integrity and humble service to ordinary citizens."
+  },
+  {
+   "target": "race:Human",
+   "text": "For the humans of Stormwind, studying the holy tome is a sacred rite of passage that reinforces civic duty and devotion to the Holy Light."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is tome of divinity",
+    "tome of divinity quest",
+    "paladin tome of divinity"
+   ],
+   "answer": "The Tome of Divinity is a sacred instructional text studied by paladins in Stormwind. It teaches that divinity is not about achieving godhood or seeking personal glory, but about reflecting the Holy Light through moral goodness, compassion, and patience in every action.",
+   "q": "What is the Tome of Divinity?"
+  },
+  {
+   "aliases": [
+    "who is duthorian rall",
+    "duthorian rall location",
+    "stormwind duthorian rall"
+   ],
+   "answer": "Duthorian Rall is a respected paladin leader located within Stormwind. He oversees the spiritual and martial trials of young paladins, guiding their study of the Tome of Divinity and testing their resolve through practical tasks that benefit the kingdom and its people.",
+   "q": "Who is Duthorian Rall?"
+  },
+  {
+   "aliases": [
+    "paladin virtues tome of divinity",
+    "what does the tome teach",
+    "virtues of the light"
+   ],
+   "answer": "The Tome of Divinity teaches that compassion, patience, and bravery are just as essential to a holy warrior as prowess in combat. While paladins must smite wickedness, their true nobility comes from selflessly aiding the vulnerable and reflecting the benevolence of the Light.",
+   "q": "What virtues does the Tome of Divinity emphasize?"
+  },
+  {
+   "aliases": [
+    "why does duthorian test paladins",
+    "duthorian rall trials",
+    "purpose of paladin trials"
+   ],
+   "answer": "Duthorian Rall tests initiates to ensure they have truly absorbed the teachings of the Tome of Divinity. A paladin must prove they are of sound mind and possess the patience to assist the less fortunate, demonstrating that their devotion is rooted in service rather than pride.",
+   "q": "Why does Duthorian Rall test aspiring paladins?"
+  },
+  {
+   "aliases": [
+    "do paladins seek godhood",
+    "strive for godhood paladin",
+    "meaning of divinity paladin"
+   ],
+   "answer": "No, the text explicitly rejects the pursuit of godhood. It instructs paladins that striving to be divine means striving to be good in all actions, using the strength granted by the Light to protect and support others rather than elevating oneself above fellow mortals.",
+   "q": "Does the Tome of Divinity teach paladins to seek godhood?"
+  },
+  {
+   "aliases": [
+    "where is the tome of divinity quest",
+    "tome of divinity stormwind location",
+    "where to turn in tome of divinity"
+   ],
+   "answer": "This quest takes place in the human kingdom of Stormwind. Initiates study the sacred teachings and report directly to Duthorian Rall in the city, preparing to undertake trials of charity, patience, and valor throughout the streets and surrounding lands of the realm.",
+   "q": "Where does this quest take place?"
+  },
+  {
+   "aliases": [
+    "why patience paladin",
+    "importance of patience light",
+    "paladin patience test"
+   ],
+   "answer": "Patience proves that a holy warrior is disciplined, humble, and of sound mind. True servants of the Light must often perform humble, difficult, or unglamorous tasks for the downtrodden, requiring emotional steadfastness and genuine empathy rather than relying solely on aggressive force in battle.",
+   "q": "Why is patience so important for a paladin of the Light?"
+  }
+ ],
+ "keywords": [
+  "cathedral of light",
+  "compassion",
+  "divinity",
+  "duthorian rall",
+  "holy light",
+  "paladin",
+  "patience",
+  "stormwind",
+  "the tome of divinity"
+ ],
+ "related": [
+  "npc:duthorian-rall",
+  "topic:light",
+  "quest:1641",
+  "quest:2997",
+  "topic:stormwind-kingdom"
+ ],
+ "sections": [
+  {
+   "body": "For an initiate walking the path of the paladin, divinity is often misunderstood. As the sacred texts of the Tome of Divinity explain, striving to be divine does not mean reaching for godhood or claiming dominion over others. Instead, the Light calls upon its champions to reflect its grace through pure intentions and goodness in every deed. While paladins are undeniably trained to smite evil and take up arms during perilous times, martial strength alone is meaningless without moral purpose. The scripture reminds knights that true distinction comes from how they treat the ordinary people of Azeroth, ensuring that power remains tethered to righteousness and humility.",
+   "spoiler": 0,
+   "title": "The Nature of Divinity"
+  },
+  {
+   "body": "Studying holy scripture is merely the prelude to true service. Once an initiate delves into the Tome of Divinity, Duthorian Rall in Stormwind tests whether the lessons have taken root in the candidate's heart and mind. The calling of the Light demands far more than slaying beasts; it requires enduring patience, steadfast bravery, and genuine understanding. Across the city and the surrounding lands, there are always citizens who suffer and tasks that offer no glory or acclaim. By going forth to aid the less fortunate and comfort those in despair, a paladin proves they possess the sound mind and selfless spirit required to wield the Light's blessings responsibly.",
+   "spoiler": 0,
+   "title": "Trials of Compassion and Patience"
+  }
+ ],
+ "summary": "The Tome of Divinity is a foundational step in the training of paladins devoted to the Holy Light. Bestowed to guide aspiring champions in Stormwind, the holy teachings emphasize that true divinity lies in humble virtue, compassion, and patience rather than raw martial power or a quest for godhood. Under the watchful eye of Duthorian Rall, initiates must embody these lessons through service to the needy and vulnerable across the kingdom.",
+ "attribution": [
+  "In-game quest text: The Tome of Divinity"
+ ]
+}

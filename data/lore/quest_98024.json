@@ -1,0 +1,109 @@
+{
+ "key": "quest:98024",
+ "type": "quest",
+ "name": "Journey to the Crossroads",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98024
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "This journey directs newly arrived champions to take up arms for the Horde, offering a trial by fire in Kalimdor's rugged frontier."
+  },
+  {
+   "target": "race:Skyborne",
+   "text": "Having arrived in Azeroth from the elemental plane, travelers are urged not to underestimate mortal conflicts and to prove their mettle in service to the Horde."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is thork",
+    "crossroads leader",
+    "where is thork"
+   ],
+   "answer": "Thork is a prominent Horde authority stationed at the Crossroads in the Barrens. He oversees local defense and directs adventurers to assist with the numerous threats confronting the settlement and surrounding territories.",
+   "q": "Who is Thork?"
+  },
+  {
+   "aliases": [
+    "what is the crossroads",
+    "crossroads barrens",
+    "why go to crossroads"
+   ],
+   "answer": "The Crossroads is a central Horde outpost and trading hub situated at the intersection of major trails in the Barrens. Surrounded by hostile wildlife, centaur tribes, and quilboar raiders, its defenders constantly require aid to keep vital supply lines secure.",
+   "q": "What is the Crossroads?"
+  },
+  {
+   "aliases": [
+    "where are the barrens",
+    "barrens location"
+   ],
+   "answer": "The Barrens is a vast, arid savannah located in central Kalimdor, southwest of Durotar. It serves as a vital expanse connecting Horde territories across the continent.",
+   "q": "Where are the Barrens located?"
+  },
+  {
+   "aliases": [
+    "elemental plane arrival",
+    "why elemental plane",
+    "journey from elemental plane"
+   ],
+   "answer": "The quest notes that the traveler has recently arrived from the elemental plane. Although otherworldly conflicts might seem vast, the perils threatening the mortal realm and the Horde are immediate and severe.",
+   "q": "Why does the quest mention the elemental plane?"
+  },
+  {
+   "aliases": [
+    "crossroads quest purpose",
+    "why send to crossroads"
+   ],
+   "answer": "The mission directs newcomers to report directly to Thork at the Crossroads, integrating them into the frontline efforts of the Horde and offering a path to grow formidable through honorable service.",
+   "q": "What is the purpose of Journey to the Crossroads?"
+  },
+  {
+   "aliases": [
+    "what dangers in barrens",
+    "barrens threats"
+   ],
+   "answer": "The Barrens faces continual aggression from native predators, roaming centaur, quilboar warbands, and Alliance encroachment, making every outpost a contested bastion in need of capable defenders.",
+   "q": "What dangers do the citizens of the Crossroads face?"
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "crossroads",
+  "elemental plane",
+  "horde",
+  "journey to the crossroads",
+  "the barrens",
+  "thork"
+ ],
+ "related": [
+  "subzone:crossroads",
+  "npc:thork",
+  "zone:barrens",
+  "topic:horde",
+  "topic:elemental-plane"
+ ],
+ "sections": [
+  {
+   "body": "Travelers arriving on Azeroth after journeying from the elemental plane are greeted with a sobering reality: mortal conflicts may seem modest by comparison, but the dangers facing the Horde are very real. Service on the front lines provides a vital proving ground for those seeking to grow formidable while aiding the realm.",
+   "spoiler": 0,
+   "title": "A Call to the Frontier"
+  },
+  {
+   "body": "To begin their service, adventurers are directed southwest into the vast, sun-baked plains of the Barrens. There lies the Crossroads, a pivotal junction and vital Horde outpost whose proud defenders remain perpetually pressed by surrounding perils. Reporting directly to Thork integrates newcomers into the settlement's defense.",
+   "spoiler": 0,
+   "title": "The Crossroads of Kalimdor"
+  }
+ ],
+ "summary": "Journey to the Crossroads directs newly arrived travelers from the elemental plane to the rugged savannah of the Barrens. Adventurers are tasked with reporting to Thork at the Crossroads to assist Horde forces contending with the harsh frontier. It serves as an essential introduction to the mortal perils facing the Horde in Kalimdor.",
+ "attribution": [
+  "In-game quest text: Journey to the Crossroads"
+ ]
+}

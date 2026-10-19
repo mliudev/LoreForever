@@ -6,7 +6,7 @@ P.transport["npc:anastasia-hartwell"] = {
   fullHash = "920d02",
   text = "Anastasia Hartwell. Anastasia Hartwell is a prominent Forsaken mage trainer residing in the Magic Quarter of the Undercity. She guides fledgling and developing spellcasters in mastering the arcane arts and oversees vital magical research and field missions across Lordaeron and beyond. Standing within the dark, echoing chambers of the Undercity's Magic Quarter, Anastasia Hartwell instructs Forsaken and Horde mages in channeling arcane energies. Though the kingdom of Lordaeron fell to ruin, former human practitioners like Anastasia have preserved their scholarly traditions in undeath. She maintains that magic demands strict discipline, warning any traveler she meets that careless incantations will quickly consume the untrained. Beyond fundamental spell instruction, Anastasia directs promising students toward vital field investigations. She sends mages to the Balnir Farmstead in eastern Tirisfal Glades to gather snapdragons that show how far the plague has spread, and into Algernon's alchemist shop in the Apothecarium to capture the invisible creatures of pure magic behind a strange disturbance. Through her tasks, practitioners learn that mastering magic means confronting its dangers directly, even within their own city. Anastasia's connections reach well beyond the borders of Tirisfal. As Horde spellcasters grow in proficiency, she coordinates with fellow trainers in distant lands, such as Deino in Orgrimmar, and directs advanced students toward solitary masters like Tabetha in the swamplands of Dustwallow Marsh. Her guidance ensures that Forsaken mages remain woven into the wider tapestry of the Horde's magical pursuits.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_anastasia-hartwell-acb43b281fb787c3964b/1-0000.mp3", duration = 94.6677551, start = 0},
+    {file = "Audio/Transport/full_npc_anastasia-hartwell-626df899b278aba8eba1/1-0000.mp3", duration = 92.1338776, start = 0},
   },
 }
 P.transport["npc:apothecary-johaan"] = {
@@ -22,7 +22,7 @@ P.transport["npc:apothecary-renferrel"] = {
   fullHash = "c766c8",
   text = "Apothecary Renferrel. Apothecary Renferrel is a prominent member of the Royal Apothecary Society stationed at the Sepulcher in Silverpine Forest. Tasked with advancing the Forsaken's alchemical endeavors, he coordinates extensive field research into the region's corrupted wildlife and undead threats. Travelers through Silverpine frequently assist him with gathering volatile reagents and investigating dangerous Scourge remnants. Operating out of the Sepulcher, Renferrel serves as one of the Royal Apothecary Society's chief field researchers in Silverpine Forest. While Undercity houses the grand laboratories and high leadership of the society, Renferrel handles the practical, muddy work of securing native biological specimens, refining potent concoctions, and analyzing the grim ecology of Lordaeron's western border.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_apothecary-renferrel-494c34f16eb70064a325/1-0000.mp3", duration = 44.0946939, start = 0},
+    {file = "Audio/Transport/full_npc_apothecary-renferrel-924fe151c15cb17e7de7/1-0000.mp3", duration = 46.2628571, start = 0},
   },
 }
 P.transport["npc:aramis-hammerhand"] = {
@@ -46,7 +46,7 @@ P.transport["npc:baine-bloodhoof"] = {
   fullHash = "a23dd3",
   text = "Baine Bloodhoof. Baine Bloodhoof is the son of High Chieftain Cairne Bloodhoof and the acting protector of Bloodhoof Village in Mulgore. While his father governs the tribes from the towering heights of Thunder Bluff, Baine directly oversees local defense, investigating encroaching industrial exploitation and defending against feral predators. He serves as an essential bridge between youthful tauren braves and the ancestral wisdom of his clan. Born to Cairne, Baine spent his youth traveling alongside his nomadic people before they claimed the rich grasslands of Mulgore. His early life was marked by the ever-present threat of the centaur clans. Shortly after the Third War, a centaur warband under Khiragg captured young Baine, plunging Cairne into a grief-stricken stupor that nearly shattered the newly founded settlements. It was only through the courage of the champion Rexxar that Baine was liberated from captivity. That rescue restored Cairne's spirit, allowing the tauren to stand with Thrall's Horde against the invading Kul Tirans and secure their foothold on the continent. Rather than lingering in the relative comfort of the capital mesas, Baine chooses to reside among his kin in Bloodhoof Village. As Cairne advances in age, Baine carries an increasing burden of stewardship, representing the next generation of tauren leadership. He directs braves and visiting allies to combat the unruly Palemane gnolls who pester the borders, and keeps a watchful eye on suspicious outside influences threatening Mulgore's natural balance. Beyond territorial border clashes, Baine faces modern encroachers unconcerned with spiritual balance. To the east, the goblin Venture Company cuts deep into the sacred landscape, while dwarven prospectors from Bael Modan dig into ancestral soil at the Bael'dun Digsite. Baine advocates for a firm yet measured response: attempting to warn the miners and destroy their destructive equipment rather than rushing into senseless bloodshed. He warns that the dwarves' violent digging is hurting the spirits of the earth, though the miners refuse to listen.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_baine-bloodhoof-3774fdbaae40ed954753/1-0000.mp3", duration = 118.439184, start = 0},
+    {file = "Audio/Transport/full_npc_baine-bloodhoof-599ceb882240c9680b53/1-0000.mp3", duration = 115.957551, start = 0},
   },
 }
 P.transport["npc:bethor-iceshard"] = {
@@ -110,7 +110,7 @@ P.transport["npc:coleman-farthing"] = {
   fullHash = "4f6f44",
   text = "Coleman Farthing. Coleman Farthing is a bitter Forsaken survivor residing in the Gallows' End Tavern in Brill. In life, he worked for the wealthy Agamand dynasty at their extensive flour mills in northern Tirisfal. Convinced to stay and defend the estate against the Scourge, he died alongside his fellow laborers, and now dedicates his undeath to exacting vengeance on his former masters. Before the Third War, Coleman Farthing earned an honest living as a laborer at the Agamand Mills, the largest milling and agricultural operation in Tirisfal Glades. When the Scourge poured across Lordaeron, the aristocratic Agamand family refused to flee their valuable lands. Instead, they urged their household and laborers to take up arms alongside them, promising they could hold the farmsteads against the undead horde. Coleman and his fellow workers stayed, believing their masters—a decision that cost every last one of them their lives. Raised into undeath only to break free under the banner of the Forsaken, Coleman harbors a burning hatred for the Agamands. Rather than blaming only the Scourge, he blames the sheer hubris and greed of his employers for tricking their staff into an impossible last stand. Now loitering in Brill's tavern, Coleman enlists Horde champions to march into the blighted mills, cut down the risen Agamand kin, and plunder the heirloom weapons housed within their family crypt so that the last of their honor is stripped away.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_coleman-farthing-538a215a9dc9208f8c74/1-0000.mp3", duration = 82.5208163, start = 0},
+    {file = "Audio/Transport/full_npc_coleman-farthing-8bee3d6dd7c15990381a/1-0000.mp3", duration = 83.5657143, start = 0},
   },
 }
 P.transport["npc:dalar-dawnweaver"] = {
@@ -150,7 +150,7 @@ P.transport["npc:devrak"] = {
   fullHash = "043b9e",
   text = "Devrak. Devrak is an orc wind rider master stationed at the Crossroads in the Barrens. Serving as the primary aerial conduit of central Kalimdor, he oversees the Horde's network of wyverns shuttling supplies and couriers between Durotar, Mulgore, and frontier outposts. He also ensures that crucial logistics, such as game meats and prepared hides, travel smoothly to the Horde's capitals. Positioned at the intersection of Kalimdor's major trade routes, Devrak tends the wyverns that keep the Horde unified across vast distances. The Crossroads sits exposed under the baking sun, vulnerable to quilboar, centaur, and Alliance scouts alike, making rapid aerial transit indispensable. Devrak handles both seasoned wayfarers and untested messengers, pairing riders with trained wind riders capable of crossing the savannah and reaching the mountain heights of Mulgore or the stone canyons of Durotar. Beyond ferrying travelers, Devrak plays a vital role in frontier logistics. The hunters of the Barrens harvest meat and pelts in abundance, which Devrak helps channel directly to the cooking fires of Orgrimmar and the tanners of Thunder Bluff. By introducing budding couriers to flight masters across the continents, he cements the aerial lifeline that feeds the Horde's heartlands. Flight masters in contested frontier territories cannot afford to be defenseless. Devrak is far more than a simple beast handler; when the Crossroads falls under attack, he calls upon enraged wyverns to tear into hostile intruders with venomous stingers and talons, making his roost a dangerous target for anyone bold enough to strike the settlement.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_devrak-6c98aa51298fbd8d5ca0/1-0000.mp3", duration = 100.806531, start = 0},
+    {file = "Audio/Transport/full_npc_devrak-97aaaf5fd913a4003910/1-0000.mp3", duration = 93.8840816, start = 0},
   },
 }
 P.transport["npc:eitrigg"] = {
@@ -238,7 +238,7 @@ P.transport["npc:kadrak"] = {
   fullHash = "63acf5",
   text = "Kadrak. Kadrak is a seasoned orc commander stationed at the Mor'shan Rampart on the border between the Barrens and Ashenvale. Tasked with safeguarding the northern frontier, he coordinates the flow of dispatches and reinforcements into the contested forest. For Horde adventurers pushing past the arid plains, Kadrak serves as the gateway to the ongoing struggle against the night elves. Standing atop the fortified timber barricades of the Mor'shan Rampart, Kadrak watches over the primary route connecting the Barrens to Ashenvale. The border is a precarious frontier: to the south lie the sun-scorched plains claimed by the Horde, while to the north loom the ancient woods guarded fiercely by the night elves. Kadrak ensures that the defensive perimeter remains unbroken against encroaching Sentinels and hostile woodland creatures. Beyond holding the line, Kadrak manages essential military intelligence between the Barrens and the forward logging camps deeper in the forest. He receives couriers bearing critical combat reports from the Warsong Outriders and coordinates the movement of supplies and fresh blood into outpost hubs like Splintertree Post. Those reporting to him are promptly directed into the heart of the territorial war.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_kadrak-426cd66499a9dae9d19f/1-0000.mp3", duration = 68.075102, start = 0},
+    {file = "Audio/Transport/full_npc_kadrak-9e126034b2715a0a8f58/1-0000.mp3", duration = 67.7616327, start = 0},
   },
 }
 P.transport["npc:magatha-grimtotem"] = {
@@ -254,7 +254,7 @@ P.transport["npc:magistrate-sevren"] = {
   fullHash = "5ad408",
   text = "Magistrate Sevren. Magistrate Sevren is the chief administrative official presiding over the settlement of Brill in Tirisfal Glades. Standing inside the town hall, he organizes early Forsaken defense and directs arriving champions to stabilize the territory around the Undercity. Operating from the town hall in Brill, Magistrate Sevren coordinates civil authority and strategic efforts in the lands just north of the Undercity. As new Forsaken step forth into Tirisfal Glades, Sevren assesses local crises and dispatches adventurers to restore order, secure ruined infrastructure, and suppress persistent threats lingering in the surrounding hills. Sevren's primary concerns center on the preservation and recovery of the Tirisfal dead. Local graverobbers, rot hides, and rogue undead disrupt burial grounds, threatening the emerging dominion of Sylvanas Windrunner. Sevren ensures that ancestral tombs—such as the Agamand Family Crypt—are reclaimed and that deserters or uncooperative forces do not subvert Forsaken authority in the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_magistrate-sevren-324d64635921173f53ab/1-0000.mp3", duration = 60.8914286, start = 0},
+    {file = "Audio/Transport/full_npc_magistrate-sevren-41d2a1f2ce1fe18e738e/1-0000.mp3", duration = 58.88, start = 0},
   },
 }
 P.transport["npc:mangletooth"] = {
@@ -334,7 +334,7 @@ P.transport["npc:shadow-priest-allister"] = {
   fullHash = "62aa61",
   text = "Shadow Priest Allister. Shadow Priest Allister is a Forsaken priest stationed at the Sepulcher in Silverpine Forest. Overseeing intelligence and tactical efforts in the region, he coordinates operations to monitor Dalaran's wizards and secure the borders of Lordaeron for the Dark Lady. Operating out of the Sepulcher, Shadow Priest Allister directs Forsaken reconnaissance throughout Silverpine Forest. From this central crypt settlement, he tracks nearby threats ranging from renegade humans and beastly incursions to the arcane machinations unfolding around Dalaran. Allister's chief concern lies with the surviving mages of Dalaran, particularly those occupying Ambermill and probing across the borders. Unwilling to let the Kirin Tor entrench themselves in Forsaken lands, he dispatches agents to intercept Dalaran messengers, decipher arcane runes, and determine the wizards' long-term ambitions. Beyond his duties as a field strategist, Allister is a cynical philosopher of the shadow. He is the author of 'Holy Bologna: What the Light Won't Tell You'—a scathing treatise criticizing traditional holy doctrine. The text explores the harsh realities of undeath and how the Holy Light fails those discarded by life, a work that has somehow circulated as far afield as the ruins of Dire Maul in Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shadow-priest-allister-0aa8d5b78fad0d47adb2/1-0000.mp3", duration = 76.8522449, start = 0},
+    {file = "Audio/Transport/full_npc_shadow-priest-allister-c341ea2a51e68dde6b1b/1-0000.mp3", duration = 76.5387755, start = 0},
   },
 }
 P.transport["npc:shadow-priest-sarvis"] = {
@@ -358,7 +358,7 @@ P.transport["npc:sputtervalve"] = {
   fullHash = "7f241e",
   text = "Sputtervalve. Sputtervalve is a stressed goblin engineer stationed in the port town of Ratchet. Serving the Tinkers' Union under Director Riddlevox, he oversees regional shredder research and development under crushing corporate deadlines. To keep his standing, he frequently hires adventurers to engage in industrial espionage against the rival Venture Company. Operating out of Ratchet, Sputtervalve answers to Director Riddlevox of the Tinkers' Union. Put in charge of shredder development, he quickly discovered that keeping pace with modern mechanization is brutal work. Facing fierce competition and an unforgiving deadline, Sputtervalve found himself with few working prototypes of his own. Rather than admit failure to the Union, he turned toward the classic goblin solution: stealing better designs from whoever built them first. Sputtervalve's primary target is the Venture Company's drilling operation at the Sludge Fen to the northwest. Their latest shredder models boast interchangeable hands, refined control grips, and advanced internal mechanisms like the elusive samophlange. Desperate to crack their secrets, Sputtervalve dispatched his associate Wizzlecrank into the Fen for 'field research,' only for the operative to get trapped, forcing Sputtervalve to hire wandering mercenaries to recover stolen technology and rescue his partner. Beyond his shredder dilemmas, Sputtervalve acts as a general point of contact for strange curiosities passing through the Barrens. When adventurers drag bizarre, corrupter-infused artifacts out of the Wailing Caverns—such as a glowing shard—Sputtervalve knows enough about the local landscape to direct them away from gadgetry and toward the isolated druids encamped above the caverns.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sputtervalve-bb4cd72d1a4c8b6f0e08/1-0000.mp3", duration = 97.2016327, start = 0},
+    {file = "Audio/Transport/full_npc_sputtervalve-20069ca03b1f603d878a/1-0000.mp3", duration = 97.9591837, start = 0},
   },
 }
 P.transport["npc:strahad-farsan"] = {
@@ -366,7 +366,7 @@ P.transport["npc:strahad-farsan"] = {
   fullHash = "5c1ec3",
   text = "Strahad Farsan. Strahad Farsan is a master human warlock who dwells in a secluded stone tower overlooking Ratchet in the Barrens. Renowned across faction lines, he operates outside conventional Alliance and Horde politics, training aspiring summoners in the dangerous arts of binding higher demons. Practitioners of fel magic from Stormwind, Orgrimmar, and the Undercity alike seek his severe guidance. Perched on the bluffs above the goblin port of Ratchet, Strahad Farsan's tower stands apart from the bustling trade docks below. Ratchet's neutrality offers Strahad the freedom to conduct perilous demonic summonings away from the prying eyes of Alliance magistrates or Horde shamans. Surrounded by his acolytes, he studies the deeper mysteries of the Twisting Nether in relative seclusion, unbothered by petty territorial squabbles. Strahad earned his formidable reputation through direct, deadly experience. When first binding a felhunter into service, he barely escaped with his life—an ordeal that left him both acutely cautious and unyielding in his expectations. Despite his human heritage, he has earned the respect of shadowy figures across Azeroth, including Gakin the Darkbinder in Stormwind and demonic scholars in the Undercity and Orgrimmar. Warlocks of any banner who wish to command creatures as volatile as felhunters or fiery steeds are inevitably directed to his doorstep.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_strahad-farsan-3de05ada35350377054c/1-0000.mp3", duration = 80.5355102, start = 0},
+    {file = "Audio/Transport/full_npc_strahad-farsan-6a3c253f7860e6fa0609/1-0000.mp3", duration = 80.5355102, start = 0},
   },
 }
 P.transport["npc:sylvanas-windrunner"] = {
@@ -398,7 +398,7 @@ P.transport["npc:thotar"] = {
   fullHash = "b2cb21",
   text = "Thotar. Thotar is a seasoned orc hunter trainer stationed in the settlement of Razor Hill in Durotar. He guides aspiring Horde scouts and marksmen in the ancient traditions of tracking, archery, and bonding with wild beasts. For young orcs and trolls taking their first steps outside the Valley of Trials, he provides the foundational rites needed to master Kalimdor's rugged fauna. Perched within the fortified hub of Razor Hill, Thotar serves as a veteran instructor for marksmen of the Horde. While new recruits learn the very basics in the Valley of Trials, it falls to Thotar to guide hunters as they face the harsher predatory wilderness of Durotar. Drawing upon traditions passed down through countless generations of orcs, he teaches not only marksmanship, but the deeper respect required to live alongside and direct Kalimdor's deadliest creatures. Thotar plays a crucial role in introducing young hunters to the ancient art of beast taming. Through a sequence of trials, he sends novices into the arid canyons to pacify and commune with native beasts, such as venomous scorpid, armored surf crawlers, and cunning boars. By guiding these young scouts through the sacred rites of taming, Thotar ensures the Horde's trackers build a loyal bond with nature rather than merely attempting to dominate it by force.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thotar-24e38352fa4229092651/1-0000.mp3", duration = 74.9453061, start = 0},
+    {file = "Audio/Transport/full_npc_thotar-e6eb7a346c211fae031b/1-0000.mp3", duration = 72.6465306, start = 0},
   },
 }
 P.transport["npc:thrall"] = {
@@ -446,7 +446,7 @@ P.transport["npc:yaw-sharpmane"] = {
   fullHash = "6da706",
   text = "Yaw Sharpmane. Yaw Sharpmane is an experienced tauren hunter trainer stationed in Bloodhoof Village in Mulgore. He guides young hunters venturing out from Camp Narache, helping them master the wild beasts of their ancestral plains. Positioned amidst the tents and fires of Bloodhoof Village, Yaw Sharpmane serves the Shu'halo as an instructor in the ways of marksmanship, tracking, and survival. Young hunters who have proven themselves in Red Cloud Mesa are directed to Yaw to hone their craft as they step onto the broader plains of Mulgore. Yaw's most essential role is guiding novice hunters through the ancient rite of taming wild beasts. He tasks initiates with bonding with the native fauna of Mulgore, testing their patience and respect for the natural balance before instructing them on how to properly care for and train a permanent companion.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_yaw-sharpmane-f95cc10a413bd443708d/1-0000.mp3", duration = 46.8897959, start = 0},
+    {file = "Audio/Transport/full_npc_yaw-sharpmane-9944d111805038cc6497/1-0000.mp3", duration = 47.124898, start = 0},
   },
 }
 P.transport["subzone:agama-gor"] = {
@@ -502,7 +502,7 @@ P.transport["subzone:bael-dun-keep"] = {
   fullHash = "6cfda8",
   text = "Bael'dun Keep. Bael'dun Keep is an imposing dwarven fortification overlooking the Bael Modan excavation in the southern Barrens. Under the command of General Twinbraid, this fortress anchors the Alliance's controversial presence in the region, bringing them into violent conflict with the surrounding Horde territories. Constructed according to designs by the dwarven architect Haggis Boatmurder, Bael'dun Keep serves as the fortified military heart of the Ironforge presence in the southern Barrens. Towering over the expansive excavation trenches of Bael Modan, the fortress protects the Prospectors and archaeologists searching for ancient titan artifacts. Heavily armed with ironworks and artillery, its garrison maintains a vigilant watch, securing dwarven supply lines and projecting Alliance martial power straight into Kalimdor's heartland. The construction of Bael'dun Keep and the adjoining digsite did not come peacefully; it displaced the local Stonespire tribe of tauren from their ancestral home. Now, Bael'dun sits as a simmering flashpoint in the Barrens. Nearby Horde outposts view the fortress as a flagrant military intrusion, while Gann Stonespire wages a personal war of vengeance against the invaders. Between aggrieved tauren, opportunistic scouts, and suspicious outposts like Camp Taurajo, the keep is constantly under threat of raid and sabotage.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bael-dun-keep-7300bfb44e3520f600b4/1-0000.mp3", duration = 81.8155102, start = 0},
+    {file = "Audio/Transport/full_subzone_bael-dun-keep-1ca35b77f4e5c0bde577/1-0000.mp3", duration = 77.4269388, start = 0},
   },
 }
 P.transport["subzone:bael-modan"] = {
@@ -518,7 +518,7 @@ P.transport["subzone:balnir-farmstead"] = {
   fullHash = "dc1bf8",
   text = "Balnir Farmstead. The Balnir Farmstead is a derelict estate in eastern Tirisfal Glades, northeast of the Ruins of Lordaeron. Once a working farm of the Balnir family, the lands now lie ruined and infested by wandering Scourge that slip past the Bulwark. For generations, the Balnir family worked their homestead in the rolling hills of eastern Tirisfal, and their garden of snapdragons still blooms among the ruins. When the Scourge swept through Lordaeron during the Third War, the farm was overrun and its people lost, leaving the buildings to rot. In the wake of the Third War, the ruins serve as a foothold for mindless Scourge slipping past the Bulwark. Forsaken deathguards watch the farm warily, while Undercity magi harvest surviving snapdragons from the garden to test how deeply plague corruption has crept into the soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_balnir-farmstead-c8ca5016c19f99ac360d/1-0000.mp3", duration = 48.3265306, start = 0},
+    {file = "Audio/Transport/full_subzone_balnir-farmstead-e24412efd3f31930fa0a/1-0000.mp3", duration = 47.5167347, start = 0},
   },
 }
 P.transport["subzone:bandarion-keep"] = {
@@ -526,7 +526,7 @@ P.transport["subzone:bandarion-keep"] = {
   fullHash = "3bdf1f",
   text = "Bandarion Keep. Bandarion Keep is a fortified redoubt associated with Tyr's Watch, nestled in the western reaches of Tirisfal Glades near the Whispering Forest. Named in honor of Garek Bandarion, the outpost serves as an isolated bulwark amidst lingering threats across the woodland frontier. Its defenders contend with everything from hostile coastal murlocs to roving zealots and unstable undead. Situated near the secluded Whispering Forest in western Tirisfal Glades, Bandarion Keep stands as a solitary sentinel for the Forsaken. Named after Garek Bandarion, this stronghold is closely tied to Tyr's Watch. Quartermasters like Jorin Croge work diligently to keep the garrison supplied despite its remote and challenging position far from the bustling courtyards of the Undercity. Holding the keep is no quiet assignment. The outpost faces constant danger from Vile Fin murloc raids along nearby waters, probing skirmishes by the Scarlet Crusade, and stray, mindless Scourge thralls shambling through the gloom. Worse still are internal perils: certain paladins struggling to adjust to their unlife as Forsaken have succumbed to madness, turning their weapons against their own kindred.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bandarion-keep-ad00a82a3d041a876a99/1-0000.mp3", duration = 68.9110204, start = 0},
+    {file = "Audio/Transport/full_subzone_bandarion-keep-68b80d985e6e1760eab6/1-0000.mp3", duration = 70.8702041, start = 0},
   },
 }
 P.transport["subzone:beren-s-peril"] = {
@@ -598,7 +598,7 @@ P.transport["subzone:brill"] = {
   fullHash = "9c997a",
   text = "Brill. Brill is the primary Forsaken settlement in the heart of Tirisfal Glades, situated just north of the Ruins of Lordaeron. Once a prosperous human town, it now serves as the administrative and military hub for newly awakened undead stepping beyond the confines of Deathknell. Before the Third War, Brill was a lively village under the sway of regional nobles such as the Barov and Agamand families. That prosperity ended when Kel'Thuzad chose the area for the Cult of the Damned's earliest experiments with the Plague of Undeath. The devastating blight swept through the population so quickly that local militia were driven out, leaving a sprawling mass graveyard in its wake.\n\nNow rebuilt by the Forsaken under the leadership of Magistrate Sevren, the town retains its weathered Lordaeron architecture beneath an atmosphere of grim purpose. Brill functions as the regional command center, coordinating defenses against Scarlet Crusade incursions, roaming Scourge remnants, and native beasts warped by necromantic decay. Beyond local defense, Brill is an essential crossroads linking Tirisfal Glades to the wider Horde. Overhead, the goblin-operated zeppelin tower provides transit south toward Durotar and deep into Stranglethorn Vale. Within the settlement, Gallows' End Tavern serves not only as a dark shelter for travelers, but also as a makeshift laboratory where captured Scarlet zealots are interrogated and subjected to apothecarial testing.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brill-bf9495e5ee662da9ad3c/1-0000.mp3", duration = 81.0318367, start = 0},
+    {file = "Audio/Transport/full_subzone_brill-fa7ad7f30f8d6a127dae/1-0000.mp3", duration = 83.3306122, start = 0},
   },
 }
 P.transport["subzone:brill-town-hall"] = {
@@ -606,7 +606,7 @@ P.transport["subzone:brill-town-hall"] = {
   fullHash = "6f3d1f",
   text = "Brill Town Hall. Brill Town Hall is the administrative heart of the settlement of Brill in central Tirisfal Glades. Standing as the most prominent structure in town, it serves as the civic headquarters from which the Forsaken govern their local holdings and coordinate the defense of the glades. While much of Lordaeron lies shattered and ruined, Brill Town Hall remains standing as a functioning civic center under undead rule. Inside, Magistrate Sevren directs town affairs from his podium, handing out vital commissions and directives to Forsaken adventurers. Aside from the Defiler's Den in the Arathi Highlands, it is one of the only recognized town halls in the known world actively run by the Forsaken, serving as a bleak parody and functional continuation of old Lordaeron's municipal bureaucracy.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brill-town-hall-2d9844272569d8af38fb/1-0000.mp3", duration = 44.0163265, start = 0},
+    {file = "Audio/Transport/full_subzone_brill-town-hall-4083d38d45c22ba8b619/1-0000.mp3", duration = 43.8595918, start = 0},
   },
 }
 P.transport["subzone:burning-blade-coven"] = {
@@ -638,7 +638,7 @@ P.transport["subzone:cavern-of-mists"] = {
   fullHash = "8bdf48",
   text = "Cavern of Mists. The Cavern of Mists is the expansive outer antechamber leading into the depths of the Wailing Caverns. Fed by subterranean geysers that erupt through the rock, its central pool and hanging fog harbor strange, mutated wildlife roaming just outside the portal threshold. Before descending into the true heart of the Wailing Caverns, travelers must navigate the Cavern of Mists. Thick, warm vapor hangs permanently in the air, fed by natural geysers erupting from the cavern floor into a deep central pool. Though it serves as an entryway, it is far from peaceful. Swarms of raptors, serpents, oozes, and semi-aquatic threshadons wander the ledges and waters, alongside notorious beasts like the hydra Trigore the Lasher. It provides adventurers an ominous preview of the unnatural growth festering deeper below.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_cavern-of-mists-9ec6d89684c37a5d13a6/1-0000.mp3", duration = 47.0204082, start = 0},
+    {file = "Audio/Transport/full_subzone_cavern-of-mists-24cb433f0457f5500938/1-0000.mp3", duration = 50.2595918, start = 0},
   },
 }
 P.transport["subzone:cleft-of-shadow"] = {
@@ -702,7 +702,7 @@ P.transport["subzone:dawning-isles"] = {
   fullHash = "8dc242",
   text = "Dawning Isles. The Dawning Isles are a cluster of low-lying islets situated within Lordamere Lake along the eastern edge of Silverpine Forest. Once idyllic retreats, they have succumbed to the blight of the Plague of Undeath and are overrun by aggressive murlocs. Before the Third War, the Dawning Isles were known as scenic keys resting on the calm, clear waters of Lordamere Lake. When the Plague of Undeath swept across Lordaeron, corruption seeped into the lake's shallows. The vegetation turned pallid and rotting, driving away idyllic peacefulness. Today, the Vile Fin murloc tribe dominates the muddy shores and tangled brush, aggressively defending their burgeoning colonies from anyone seeking to traverse the lake. Murlocs were not always the only danger on the isles. Bog beasts once prowled the blighted islets alongside them, but the bog beasts have since vanished. In their absence the Vile Fin population has swelled to the point that the murlocs now control the isles outright, turning what was once a quiet chain of keys into their stronghold on Lordamere Lake.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dawning-isles-d149063c7f6f2e8a904d/1-0000.mp3", duration = 61.7534694, start = 0},
+    {file = "Audio/Transport/full_subzone_dawning-isles-bc22302cb2654a6a94f3/1-0000.mp3", duration = 60.8653061, start = 0},
   },
 }
 P.transport["subzone:dead-field"] = {
@@ -742,7 +742,7 @@ P.transport["subzone:drag"] = {
   fullHash = "48f0c2",
   text = "Drag. The Drag is a bustling, shaded thoroughfare carved into the red rock of Orgrimmar, linking the Valley of Strength to the Valley of Honor and the Valley of Wisdom. Known throughout Durotar as the heart of the capital's commerce, its canyon walls are lined with crafters, traders, and artisans. It also conceals the cavernous descent into the notorious Cleft of Shadow. Tucked deep between the red canyon walls of Orgrimmar, the Drag serves as the commercial backbone of the Horde's capital. While the Valley of Strength focuses on military muster and administrative command, the Drag is where daily city life unfolds. Shaded under high cliffs and hides, the street is thick with the smells of tanning vats, bubbling alchemical cauldrons, and the clatter of tinkerers' gears. Craftsmen of almost every discipline gather here to practice their trades and teach aspiring adventurers, from leatherworking and tailoring to goblin-led engineering workshops like Nogg's Machine Shop. Beyond housing merchant storefronts and salvage houses, the Drag occupies an uneasy position within Orgrimmar's social geography. Nestled along its canyon face lies the guarded entrance to the subterranean Cleft of Shadow. This makes the Drag an inescapable crossroads where honest tradesmen, shaman on their way to the Valley of Wisdom, and secretive practitioners of dark arts brush shoulders beneath the dim, dusty overhangs of the canyon.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_drag-eb2847218b2ad61348b7/1-0000.mp3", duration = 80.9273469, start = 0},
+    {file = "Audio/Transport/full_subzone_drag-18a6fccd4981ae836321/1-0000.mp3", duration = 77.4269388, start = 0},
   },
 }
 P.transport["subzone:dreadmist-den"] = {
@@ -814,7 +814,7 @@ P.transport["subzone:faol-s-rest"] = {
   fullHash = "d5a0a5",
   text = "Faol's Rest. Faol's Rest is a quiet, neglected gravesite situated in eastern Tirisfal Glades, just southwest of the Scarlet Monastery. It was erected as the tomb of Archbishop Alonsus Faol, the revered spiritual patriarch who founded the Knights of the Silver Hand. Today, untended beneath the blighted canopy, it serves as a release graveyard for those who perish near the monastery. Before the Third War devastated Lordaeron, this secluded hollow was a place of solemn pilgrimage. It holds the stone tomb of Archbishop Alonsus Faol, who led the Church of the Holy Light through the dark days of the Second War and instituted the order of paladins to protect humanity. Faol passed away peacefully prior to the arrival of the Scourge, spared the mortal agony of seeing his kingdom fall. In those brighter years, mourners regularly journeyed up the road from Capital City to leave offerings and pay respects to the beloved patriarch. When the Plague of Undeath swept across Lordaeron, Tirisfal withered, and the pilgrims vanished. Today, the monument sits abandoned and cracked in the shadows beneath the Scarlet Monastery's high bluffs. The wild brush has reclaimed the pathways, and the tomb itself lies still amid the damp mist. For adventurers striving against the zealots of the Scarlet Crusade or the lingering terrors of Tirisfal, this forgotten resting place now serves primarily as a quiet threshold where fallen spirits briefly regroup before returning to the fray.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_faol-s-rest-7f0161bee7cc3e6b9143/1-0000.mp3", duration = 85.0808163, start = 0},
+    {file = "Audio/Transport/full_subzone_faol-s-rest-a237b01a0c49331cb757/1-0000.mp3", duration = 87.0922449, start = 0},
   },
 }
 P.transport["subzone:far-watch-post"] = {
@@ -958,7 +958,7 @@ P.transport["subzone:hidden-path"] = {
   fullHash = "786c14",
   text = "Hidden Path. The Hidden Path is a secluded mountain trail winding through the crags above the Valley of Trials in Durotar. It serves as a rite of passage for aspiring shaman seeking the sacred Spirit Rock, while offering an overlooked vantage overlooking the rugged borders of the Barrens. Carved into the red peaks bordering the Valley of Trials, the Hidden Path is intentionally difficult to spot from the canyon floor. Young shaman are directed here by their mentors to prove their awareness and discipline before communing with the spirits at Spirit Rock. Along the trail's highest reaches, travelers are treated to expansive panoramic views stretching westward toward the rolling savannas of the Barrens. Beyond its spiritual importance, the path cuts a precarious breach through the natural fortifications enclosing the valley. A low pass along the route provides a direct back door toward Ratchet and the road to Orgrimmar. Because it circumvents the standard canyon checkpoints, vigilant defenders fear that bold Alliance infiltrators could exploit this quiet trail to slip directly into the Horde's primary proving grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hidden-path-8f5fdd11119e362ffae0/1-0000.mp3", duration = 62.8767347, start = 0},
+    {file = "Audio/Transport/full_subzone_hidden-path-4e147a4d7bd281f9c870/1-0000.mp3", duration = 64.5485714, start = 0},
   },
 }
 P.transport["subzone:high-rise"] = {
@@ -982,7 +982,7 @@ P.transport["subzone:ivar-patch"] = {
   fullHash = "a329fb",
   text = "Ivar Patch. The Ivar Patch is a blighted pumpkin farm located in northern Silverpine Forest. Once a thriving agricultural homestead of Lordaeron, its residents were wiped out during the Third War and transformed into ravenous, mindlessly hostile ghouls. Before the Third War swept through Lordaeron, this pumpkin patch was a prosperous homestead owned by a farmer named Ivar, who employed a lively crew of farmhands and servants. When the Scourge unleashed the Plague of Undeath across the countryside, the farm was consumed completely. Rather than rising with their minds intact like the free-willed Forsaken, Ivar, his family, and his laborers were reduced to rotting, feral ghouls bound to prowl the ruined soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ivar-patch-1cd0c94a1bac8e56576f/1-0000.mp3", duration = 42.1616327, start = 0},
+    {file = "Audio/Transport/full_subzone_ivar-patch-dc0335aac809daebdbb0/1-0000.mp3", duration = 41.2995918, start = 0},
   },
 }
 P.transport["subzone:jaggedswine-farm"] = {
@@ -1038,7 +1038,7 @@ P.transport["subzone:merchant-coast"] = {
   fullHash = "7eeccd",
   text = "Merchant Coast. The Merchant Coast is the stretch of eastern shoreline in the Barrens bordering the Great Sea. Dominated by the bustling goblin port of Ratchet, the coast derives its name from lucrative sea trade, though it remains constantly contested by pirates. Running along the eastern edge of the Barrens, the Merchant Coast serves as a vital maritime artery connecting central Kalimdor to the Eastern Kingdoms and Theramore. Its name honors the industrious goblin traders of the Steamwheedle Cartel, whose neutral port of Ratchet handles cargo for anyone with coin. However, the open sea lanes attract more than merchant vessels: Southsea Freebooters prowl the sands and nearby waters, preying on merchant ships and setting up illicit operations along the beaches.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_merchant-coast-0cd588a2ab5edd711b02/1-0000.mp3", duration = 43.4677551, start = 0},
+    {file = "Audio/Transport/full_subzone_merchant-coast-1008ca862041dd5a2461/1-0000.mp3", duration = 44.6432653, start = 0},
   },
 }
 P.transport["subzone:night-web-s-hollow"] = {
@@ -1102,7 +1102,7 @@ P.transport["subzone:pools-of-vision"] = {
   fullHash = "2db754",
   text = "Pools of Vision. The Pools of Vision are a subterranean cavern nestled beneath Spirit Rise in Thunder Bluff. Marked by still waters and dim caverns, this secluded subterranean space serves as the primary enclave for the Forsaken within the tauren capital. While the sunlit peaks of Thunder Bluff belong to the wind, earth, and sky, the Pools of Vision plunge directly beneath Spirit Rise into shadowy seclusion. Accessible from a discreet cave path off the bridge leading to the rise, this subterranean grotto offers subterranean respite quite unlike the open-air lodges above. Here, misty waters pool in the dark, creating an isolated atmosphere where Horde spellcasters gather far from the bustling central mesas. Within Thunder Bluff, the Pools of Vision function as the de facto base of operations for the Forsaken. Travelers from the eastern continent find kindred souls here: undead priests practicing their shadowed arts, mages conjuring arcane portals, and emissaries of the Defilers seeking recruits for their campaigns in the Arathi Highlands. Whether tucked away by tauren skepticism or by the Forsaken's own natural preference for the dark, this quiet refuge bridges Lordaeron's undead with their Kalimdor allies.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_pools-of-vision-07a61382ea66230e0748/1-0000.mp3", duration = 69.3289796, start = 0},
+    {file = "Audio/Transport/full_subzone_pools-of-vision-fa1d4c9cebf44f835c76/1-0000.mp3", duration = 68.7804082, start = 0},
   },
 }
 P.transport["subzone:pyrewood-village"] = {
@@ -1110,7 +1110,7 @@ P.transport["subzone:pyrewood-village"] = {
   fullHash = "109325",
   text = "Pyrewood Village. Pyrewood Village is an isolated human settlement nestled in southern Silverpine Forest beneath Shadowfang Keep. Originally part of Gilneas before being stranded outside the Greymane Wall, its living residents harbor a horrific secret brought upon them by the mad archmage Arugal. Pyrewood was once a prosperous Gilnean settlement. When King Genn Greymane chose to isolate his kingdom behind the massive Greymane Wall following the Second War, Pyrewood was left on the northern side. Cut off from their homeland, the townsfolk were left entirely defenseless during the Third War as the Scourge marched across Lordaeron. Though they managed to survive the initial wave of the undead, their true nightmare began when the mage Arugal took refuge in the fortress above.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_pyrewood-village-609f7795041d2aac3297/1-0000.mp3", duration = 44.5910204, start = 0},
+    {file = "Audio/Transport/full_subzone_pyrewood-village-033552729c8f8db13ada/1-0000.mp3", duration = 43.5983673, start = 0},
   },
 }
 P.transport["subzone:ragefire-chasm-classic"] = {
@@ -1142,7 +1142,7 @@ P.transport["subzone:ravaged-caravan"] = {
   fullHash = "53b146",
   text = "Ravaged Caravan. The Ravaged Caravan is a smoldering wreck located on the northeastern shore of Stonebull Lake in Mulgore. Once a supply convoy bound for Supervisor Fizsprocket's mining operations, it was ambushed and destroyed by local tauren determined to halt goblin exploitation of their homeland. Perched on a rise above Stonebull Lake, the Ravaged Caravan marks an early clash between the tauren of Bloodhoof Village and the encroaching Venture Company. Sent to deliver mining supplies, blueprints, and equipment to Supervisor Fizsprocket's dig site, the caravan was cut off and wrecked by tauren defenders before it could reach its destination. Despite the devastation, stubborn Venture Co. survivors still cling to the ruined wagons and smoldering crates, jealously guarding what little cargo remains.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ravaged-caravan-26630d5553d4ec43f45d/1-0000.mp3", duration = 43.9118367, start = 0},
+    {file = "Audio/Transport/full_subzone_ravaged-caravan-ccc6391690a3959d1e44/1-0000.mp3", duration = 43.7812245, start = 0},
   },
 }
 P.transport["subzone:razor-hill"] = {
@@ -1246,7 +1246,7 @@ P.transport["subzone:screaming-gully"] = {
   fullHash = "1e60ff",
   text = "Screaming Gully. Screaming Gully is the first sprawling subterranean cavern encountered just beyond the entrance of the Wailing Caverns. Bathed in unnatural fungal glow and shallow waters, it serves as the outer redoubt for the corrupted Druids of the Fang and their mutated beasts. Stepping through the threshold of the Wailing Caverns leads directly into Screaming Gully, an echoing chasm where the wind groans through subterranean fissures. Far from the arid Barrens above, the gully is choked with damp overgrowth, humid mist, and aggressive wildlife twisted by the Emerald Nightmare. The Fanglord Lady Anacondra oversees the chamber, surrounded by acolytes of the Druids of the Fang and vicious deviate raptors, while ancient snapping turtles like Kresh patrol the shallow waterways below.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_screaming-gully-1a45c0b800f06d72cc09/1-0000.mp3", duration = 43.8857143, start = 0},
+    {file = "Audio/Transport/full_subzone_screaming-gully-4360655d19aa732693a8/1-0000.mp3", duration = 46.4195918, start = 0},
   },
 }
 P.transport["subzone:scuttle-coast"] = {
@@ -1318,7 +1318,7 @@ P.transport["subzone:skull-rock"] = {
   fullHash = "e26161",
   text = "Skull Rock. Skull Rock is a cavern tucked into the eastern coastal cliffs of Durotar, just east of Orgrimmar. It serves as a fortified coven for the demonic Burning Blade cult right under the capital's nose. Hidden beneath the crags of northeastern Durotar, Skull Rock is one of the most perilous strongholds of the Burning Blade cult in the region. Dark cultists, fel-worshipping orcs, and summoners gather deep within the winding tunnels to practice demonic arts and weave conspiracies against the nascent Horde. The cell is led by the dangerous warlock Gazz'uz, whose operations pose an imminent threat to the nearby gates of Orgrimmar and travelers traversing the eastern shoreline.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_skull-rock-48ff54cd7aab0a15e380/1-0000.mp3", duration = 38.5567347, start = 0},
+    {file = "Audio/Transport/full_subzone_skull-rock-7b862450792123842c17/1-0000.mp3", duration = 39.6016327, start = 0},
   },
 }
 P.transport["subzone:sludge-fen"] = {
@@ -1334,7 +1334,7 @@ P.transport["subzone:solliden-farmstead"] = {
   fullHash = "f848b9",
   text = "Solliden Farmstead. Solliden Farmstead is an active human pumpkin farm nestled in western Tirisfal Glades, just north of Deathknell. It represents a rare anomaly in northern Lordaeron: living native farmers who survived the Plague of Undeath and cling fiercely to their soil under the shadow of the Scarlet Crusade. While most of Lordaeron fell to ruin and rot, the fields of Solliden Farmstead still produce healthy crops. Today, these surviving human farmers live under the watchful shield of the Scarlet Crusade patrolling from a nearby tower. Traumatized and insular, they defend their homestead with unyielding hostility, striking at any outsiders who draw near—Horde and Alliance alike. To the Forsaken just emerging from Deathknell, Solliden is both a threat and a resource. The Royal Apothecary Society eyes the farm's pristine pumpkins as prime organic testing material for brewing their New Plague. Meanwhile, Forsaken officers like Deathguard Simmer send fledgling recruits to raid the fields, steal those pumpkins for Apothecary Johaan in Brill, and teach the living a lesson.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_solliden-farmstead-b0282d2bfce43d24604e/1-0000.mp3", duration = 64, start = 0},
+    {file = "Audio/Transport/full_subzone_solliden-farmstead-b62aff3ba9bcf0cd6a4b/1-0000.mp3", duration = 63.5036735, start = 0},
   },
 }
 P.transport["subzone:south-tide-s-run"] = {
@@ -1358,7 +1358,7 @@ P.transport["subzone:spirit-rise"] = {
   fullHash = "3c058b",
   text = "Spirit Rise. Spirit Rise is the northwest mesa of Thunder Bluff, serving as the tauren capital's premier sanctum for spiritual and shamanic study. Overseen by spiritual guides such as the Skychaser tribe, it features sacred training halls above and descends into the cavernous Pools of Vision below. Perched high upon the bluffs overlooking the plains of Mulgore, Spirit Rise is devoted to communion with the elements and ancestor spirits. Connected to the central mesa by rope bridges, it houses the Hall of Spirits and the Spiritual Healing pavilion, where young and veteran shaman gather to deepen their connection with the earth, air, fire, and water. The Skychaser tribe maintains a strong presence across the rise, guiding seekers through ancient traditions. Beneath the breezy huts and open-air totem shrines lies an entrance burrowing into the mesa itself: the steamy Pools of Vision, a sacred subterranean cavern where seers peer into spirit-touched waters.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_spirit-rise-4893cf06358955e53e2a/1-0000.mp3", duration = 55.9804082, start = 0},
+    {file = "Audio/Transport/full_subzone_spirit-rise-8e6bd2ee6c0e9fa0d224/1-0000.mp3", duration = 54.7787755, start = 0},
   },
 }
 P.transport["subzone:spirit-rock"] = {
@@ -1366,7 +1366,7 @@ P.transport["subzone:spirit-rock"] = {
   fullHash = "92be84",
   text = "Spirit Rock. Spirit Rock is a sacred crag perched in the rugged bluffs above the Valley of Trials in Durotar. Reached by a winding trail known as the Hidden Path, it serves as a secluded holy site where initiates commune directly with the elemental forces of the land. Overlooking the red canyon where young Horde warriors and scouts begin their training, Spirit Rock stands as an altar of communion. Isolated from the clatter of the Valley of Trials, it is approached only via the Hidden Path winding up the rocky ridgeline. Aspiring shaman make pilgrimages to this desolate outcrop to drink the traditional sapta, piercing the veil of the physical world to hear the rumblings and whisperings of the earth itself.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_spirit-rock-93b34b9660aa081e5c53/1-0000.mp3", duration = 39.6538776, start = 0},
+    {file = "Audio/Transport/full_subzone_spirit-rock-52069aadafe628626e07/1-0000.mp3", duration = 39.1314286, start = 0},
   },
 }
 P.transport["subzone:stagnant-oasis"] = {
@@ -1414,7 +1414,7 @@ P.transport["subzone:thunder-ridge"] = {
   fullHash = "0c26be",
   text = "Thunder Ridge. Thunder Ridge is a rugged canyon in western Durotar, situated just southwest of Orgrimmar along the banks of the Southfury River. Once a lush grove of ancient trees inhabited by herds of thunder lizards, the canyon has suffered severe deforestation from human lumber operations and dark sorcery. Today, the agitated beasts and lingering cultists pose an ongoing threat to nearby settlements. Not long ago, Thunder Ridge was a rare green haven in arid Durotar, sustained by ancient trees. Its tranquil balance shattered shortly after the Third War when human interlopers from Kul Tiras began felling its timber, driving the native thunder lizards into a frenzy. Later, fel sorcery wielded by the Burning Blade finished the destruction, stripping the canopy and leaving behind a barren, exposed gorge where angry lightning-spewing beasts now roam unrestrained.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thunder-ridge-e3ad3cacf77070887d16/1-0000.mp3", duration = 49.9983673, start = 0},
+    {file = "Audio/Transport/full_subzone_thunder-ridge-64f9ceb5ac2d93ffb2ea/1-0000.mp3", duration = 51.8530612, start = 0},
   },
 }
 P.transport["subzone:thunderhorn-water-well"] = {
@@ -1454,7 +1454,7 @@ P.transport["subzone:trade-quarter"] = {
   fullHash = "98a689",
   text = "Trade Quarter. The Trade Quarter forms the central core of the Undercity, resting directly beneath the lifts from the Ruins of Lordaeron. It functions as the beating economic heart of the Forsaken, housing their primary bank vaults, auction market, and essential civic services. From this concentric hub, vaulted corridors branch outward into the surrounding districts. Descending from the shattered surface of Lordaeron, travelers step off the lifts into the echoing stone expanse of the Trade Quarter. Designed around a tiered, circular layout, its central platform holds the city coffers and central bank, framed by bridges spanning noxious runoff canals. Surrounding terraces buzz with vendors, guild registries, and auctioneers bargaining amidst the eerie gloom. Even basic accommodations reflect Forsaken pragmatism: the local inn offers unlined wooden caskets rather than soft beds. From this central nexus, stone archways lead outward into the city's specialized quarters, making it the unavoidable crossroads for any business conducted within the capital.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_trade-quarter-9f6620740c8b27ce8c8d/1-0000.mp3", duration = 62.7722449, start = 0},
+    {file = "Audio/Transport/full_subzone_trade-quarter-6f72f0b8650d113513aa/1-0000.mp3", duration = 60.16, start = 0},
   },
 }
 P.transport["subzone:valgan-s-field"] = {

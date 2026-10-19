@@ -4,7 +4,7 @@ import { onRequest } from "../functions/api/companion/answer.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
 import { ANSWER_RESERVATION_MICRO, RESEARCH_RESERVATION_MICRO, COMPACTION_RESERVATION_MICRO, ANSWER_GROUNDING_MICRO,
-  ANSWER_MODEL, RESEARCH_MODEL, SEARCH_QUERY_RESERVATION, ANSWERS_PER_DAY, VERIFICATION_FAILED, paidBudgetMicro, reserveAnswer, reserveOtherPaid, writeAnswer } from "../lib/companion-answers.js";
+  ANSWER_MODEL, SIGHT_MODEL, RESEARCH_MODEL, SEARCH_QUERY_RESERVATION, ANSWERS_PER_DAY, VERIFICATION_FAILED, paidBudgetMicro, reserveAnswer, reserveOtherPaid, writeAnswer } from "../lib/companion-answers.js";
 import { storyBudgetLeft } from "../lib/profiles.js";
 import { d1 } from "./helpers.mjs";
 
@@ -168,7 +168,7 @@ test("linked account gets 20 short answers and the next one does not call Gemini
   assert.equal(calls[0].body.generationConfig.maxOutputTokens, 512);
   assert.deepEqual(calls[0].body.generationConfig.thinkingConfig, { thinkingLevel: "minimal" });
   assert.equal(calls[0].body.tools, undefined);
-  assert.match(calls[0].url, /gemini-3\.1-flash-lite:generateContent$/);
+  assert.match(calls[0].url, new RegExp(`${ANSWER_MODEL}:generateContent$`));
 });
 
 test("allowances belong to accounts; missing or revoked tokens cannot spend", async () => {
@@ -232,6 +232,11 @@ test("a spoken answer sends the player's picture to Gemini, and the allowance sa
   assert.deepEqual(parts(0), [{ inlineData: { mimeType: "image/jpeg", data: image } }, { text: prompt }]);
   assert.equal(calls[0].body.generationConfig.mediaResolution, "MEDIA_RESOLUTION_MEDIUM");
   assert.match(system(0), /Willo's words, .*anything after it\.\n\nA picture of the player's game window, .* interface numbers\.$/);
+  // On the sight model, at its prices, and what it held is what it settled.
+  assert.match(calls[0].url, new RegExp(`/${SIGHT_MODEL}:generateContent$`));
+  assert.equal(result.body.model, SIGHT_MODEL);
+  const spend = env.DB.sqlite.prepare("SELECT reserved_micro, actual_micro FROM answer_spend").get();
+  assert.deepEqual([spend.actual_micro, spend.reserved_micro], [125, 125], "200 tokens in at $0.25/M, 50 out at $1.50/M");
 });
 
 test("pictures outside spoken answers, or malformed ones, are ignored and the question is still answered", async () => {
@@ -256,6 +261,10 @@ test("pictures outside spoken answers, or malformed ones, are ignored and the qu
   const result = await ask(token, { style: "spoken", image });
   assert.deepEqual([result.status, result.body.answer, calls.length], [200, "A kobold.", 2]);
   assert.doesNotMatch(system(1), PICTURE);
+  // Asked again as text, it's an ordinary answer on the ordinary model.
+  assert.deepEqual([calls[0].url, calls[1].url].map(u => u.split("/models/")[1]),
+    [`${SIGHT_MODEL}:generateContent`, `${ANSWER_MODEL}:generateContent`]);
+  assert.equal(result.body.model, ANSWER_MODEL);
 });
 
 test("Mike's own and test accounts skip the daily cap but not the monthly budget", async () => {
@@ -426,7 +435,7 @@ test("ordinary replies and compaction reserve their own cheap costs, without an 
     const reply = await ask(token);
     assert.equal(reply.status, 200);
     assert.equal(calls.length, 1);
-    assert.match(calls[0].url, /gemini-3\.1-flash-lite:generateContent$/);
+    assert.match(calls[0].url, new RegExp(`${ANSWER_MODEL}:generateContent$`));
     assert.equal(calls[0].body.tools, undefined);
     assert.equal(reply.body.model, ANSWER_MODEL);
     assert.equal(reply.body.web_search.status, "not_needed");
@@ -558,7 +567,7 @@ test("truncated or empty research answers preserve known query excess without in
 });
 
 
-test("published January pricing changes research spend while ordinary Flash-Lite rates stay fixed", async () => {
+test("published January pricing changes Flash spend (research, a smarter plan's answers) while Flash-Lite rates stay fixed", async () => {
   for (const [stamp, researchCost] of [["2026-12-31T23:59:59.999Z", 14338], ["2027-01-01T00:00:00Z", 14675]]) {
     const now = new Date(stamp), month = stamp.slice(0, 7);
     globalThis.fetch = async () => Response.json({ candidates: [{ content: { parts: [{ text: "A result." }] },
@@ -574,6 +583,22 @@ test("published January pricing changes research spend while ordinary Flash-Lite
     const ordinary = env.DB.sqlite.prepare("SELECT actual_micro, reserved_micro FROM answer_spend WHERE month = ?").get(month);
     assert.equal(ordinary.actual_micro - research.actual_micro, 125);
     assert.equal(ordinary.reserved_micro - research.reserved_micro, 125, "ordinary replies release their own unused estimate");
+    // A smarter plan's answer (Legend's, on 3.6 Flash) is at research's token rates without the query, and so is its
+    // answer to a picture; nothing of their holds is left over.
+    assert.equal(await reserveAnswer(env, now, false, "answer", false, { smarter: true }), true);
+    await writeAnswer(env, "Who is VanCleef?", now, false, "answer", { smarter: true });
+    const smart = env.DB.sqlite.prepare("SELECT actual_micro, reserved_micro FROM answer_spend WHERE month = ?").get(month);
+    assert.deepEqual([smart.actual_micro - ordinary.actual_micro, smart.reserved_micro - ordinary.reserved_micro],
+      [researchCost - 14000, researchCost - 14000]);
+    assert.equal(await reserveAnswer(env, now, false, "answer", false, { picture: true, smarter: true }), true);
+    await writeAnswer(env, "What is this?", now, false, "answer", { style: "spoken", image: jpeg(3000), smarter: true });
+    const seen = env.DB.sqlite.prepare("SELECT actual_micro, reserved_micro FROM answer_spend WHERE month = ?").get(month);
+    assert.deepEqual([seen.actual_micro - smart.actual_micro, seen.reserved_micro - smart.reserved_micro],
+      [researchCost - 14000, researchCost - 14000]);
+    assert.equal(await reserveAnswer(env, now, false, "character"), true);
+    await writeAnswer(env, "Who are you?", now, false, "character", { smarter: true });
+    const character = env.DB.sqlite.prepare("SELECT actual_micro FROM answer_spend WHERE month = ?").get(month);
+    assert.equal(character.actual_micro - seen.actual_micro, 125, "a character's reply stays at Flash-Lite's rates");
   }
 });
 

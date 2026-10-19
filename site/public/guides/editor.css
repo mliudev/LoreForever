@@ -1,0 +1,42 @@
+/* The guides editor (/guides/edit, editor.js). Wider than the site's reading column: the form and the preview side by
+   side on a desktop, stacked on a phone. */
+.gde { width: min(1400px, calc(100vw - 32px)); position: relative; left: 50%; transform: translateX(-50%); }
+.gde h1 { margin-bottom: 8px; }
+.gde-msg { margin: 0 0 16px; }
+.gde-msg.gde-error, .gde-state { color: var(--gold-soft); }
+.gde-muted, .gde-hint, .gde-count { color: var(--muted); font-size: 0.92rem; }
+.gde-top { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+.gde-btn { display: inline-block; padding: 7px 14px; border: 1px solid var(--panel-line); border-radius: 6px; background: rgba(255, 255, 255, 0.06);
+  color: var(--text); font: inherit; text-decoration: none; cursor: pointer; }
+.gde-btn:hover { border-color: var(--gold-soft); color: var(--text); }
+.gde-primary { border-color: var(--gold-soft); background: rgba(255, 209, 0, 0.14); color: var(--gold); }
+.gde-danger { border-color: #8a3b30; color: #f0a596; }
+.gde-link { padding: 0; border: 0; background: none; color: var(--link); font: inherit; text-decoration: underline; cursor: pointer; }
+.gde-table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+.gde-table th, .gde-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.gde-table th { color: var(--muted); font-weight: 500; }
+.gde-pill { padding: 2px 8px; border-radius: 10px; font-size: 0.85rem; }
+.gde-pill.draft { background: rgba(255, 255, 255, 0.08); color: var(--muted); }
+.gde-pill.live { background: rgba(255, 209, 0, 0.15); color: var(--gold); }
+.gde-bar { position: sticky; top: 0; z-index: 2; display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; padding: 10px 0;
+  background: var(--bg); border-bottom: 1px solid var(--line); }
+.gde-cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; margin-top: 16px; }
+@media (max-width: 960px) { .gde-cols { grid-template-columns: minmax(0, 1fr); } }
+.gde-edit label { display: block; margin: 0 0 12px; color: var(--muted); font-size: 0.92rem; }
+.gde input, .gde select, .gde textarea { box-sizing: border-box; width: 100%; margin-top: 4px; padding: 7px 9px; border: 1px solid var(--panel-line);
+  border-radius: 6px; background: rgba(0, 0, 0, 0.35); color: var(--text); font: inherit; font-size: 1rem; }
+.gde-status select { width: auto; }
+.gde-slug { display: flex; align-items: baseline; gap: 2px; color: var(--muted); }
+.gde-slug input { flex: 1; min-width: 0; }
+.gde-slug input[readonly] { border-color: transparent; background: none; color: var(--text); }
+.gde-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.gde-tools { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 6px; }
+.gde-tools button { padding: 4px 10px; border: 1px solid var(--panel-line); border-radius: 5px; background: rgba(255, 255, 255, 0.05);
+  color: var(--text); font: inherit; font-size: 0.92rem; cursor: pointer; }
+.gde-tools button:hover { border-color: var(--gold-soft); }
+.gde-body { min-height: 75vh; font-family: ui-monospace, SFMono-Regular, Consolas, monospace !important; font-size: 0.95rem !important; line-height: 1.55; }
+.gde-revs { margin: 12px 0; color: var(--muted); }
+.gde-revs li { margin: 4px 0; }
+.gde-preview { min-width: 0; padding: 0 18px 18px; border: 1px solid var(--line); border-radius: 8px; }
+.gde-preview h1 { font-size: 1.9rem; }
+.gde-label { margin: 10px 0 0; color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; }

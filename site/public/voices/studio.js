@@ -17,7 +17,7 @@
 // .mp3 here before it goes up (mp3.js).
 // Each upload carries its CRC-32 for the test pack's zip.
 
-import { studioContext, editorLink, studioSignIn, refreshCatalog, scriptReviewNote } from "/voices/studio-workflow.js";
+import { studioContext, editorLink, studioSignIn, refreshCatalog, loadLocaleText, scriptReviewNote } from "/voices/studio-workflow.js";
 
 import { planPack, packFolder } from "/voices/testpack.js";
 import { crc32, crcHex } from "/voices/crc32.js";
@@ -100,6 +100,7 @@ async function load(voiceId) {
     mine = new Set(store.get(mineKey()) || []);
   }
   if (lines && !lines.languages.some(l => l.locale === browseLocale && l.lines > 0)) browseLocale = "enUS";
+  await loadLocaleText(fetch, lines, locale());
   buildItems();
   render();
   if (focusLine) {
@@ -137,6 +138,7 @@ async function refreshScript() {
   refreshing = true; render();
   const result = await refreshCatalog(fetch, lines);
   lines = result.data;
+  await loadLocaleText(fetch, lines, locale());
   catalogNote = result.fresh ? "Script refreshed from the current catalog. Your uploaded takes are kept; changed text is marked below."
     : "Couldn't refresh the catalog. The script already shown and your uploaded takes are kept. Try again later.";
   refreshing = false; buildItems();
@@ -790,7 +792,7 @@ function bindWorkspace() {
     say(res.error);
   });
   on("st-locale", "change", async e => {
-    browseLocale = e.target.value; store.set("lf-studio-locale", browseLocale); nextPos = 0; buildItems(); render();
+    browseLocale = e.target.value; store.set("lf-studio-locale", browseLocale); nextPos = 0; await loadLocaleText(fetch, lines, locale()); buildItems(); render();
     await loadReviewStatus();
     await loadZones(null, browseLocale);   // the zone list in that language
     render();

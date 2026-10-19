@@ -16,7 +16,7 @@
 <body data-page="dashboard" data-title="Dashboard">
 <!-- The header, tabs, sign-in and title bar are drawn by admin-shell.js, the same on every admin page (/admin,
      /admin/voices, /admin/edits). The tabs are the address's #: #overview, #growth, #players, #costs, #community, or a
-     section in one (#funnel, #curseforge, #willo-stats, #downloads, #companions; #profiles, #signins, #features, #usage;
+     section in one (#sources, #retention, #plans-usage, #funnel, #curseforge, #willo-stats, #downloads, #companions; #profiles, #signins, #features, #usage;
      #feedback, #voices, #willo, #clip-reports, #translations, #edits, #contributions, #contacts, #creators). Voice work
      is its own page, /admin/voices, in the same frame. Gold badges count what's waiting on you. The key is ADMIN_KEY (or
      FEEDBACK_KEY) from the Pages project; the API refuses everything without it. -->
@@ -48,6 +48,148 @@
 
   <!-- ===== Growth: the funnel, CurseForge, site and GitHub downloads, companion installs ===== -->
   <section class="ad-tab" id="tab-growth" data-tab="growth" hidden>
+    <!-- Growth's parts, one shown at a time like Community's, each with its own link (admin-page.js route). -->
+    <nav class="ad-subnav" id="growth-subnav" aria-label="Growth">
+      <a href="#sources" data-gsub="sources">Sources</a>
+      <a href="#retention" data-gsub="retention">Retention</a>
+      <a href="#plans-usage" data-gsub="plans-usage">Plans &amp; usage</a>
+      <a href="#funnel" data-gsub="main">Funnel &amp; installs</a>
+    </nav>
+    <div class="ad-gsub" data-gsub="sources" hidden>
+    <!-- Where visitors come from (lib/sources.js, admin-sources.js, functions/api/admin/sources.js): for each tracked
+         link, other site or search engine a visit started from, visits, first visits, downloads, sign-ups, first Willo
+         connects, paid plans and revenue, per day range, by landing page too, as a CSV; and the tracked-link maker. -->
+    <h2 id="sources">Sources</h2>
+    <div class="ad-panel">
+      <form id="src-range" class="ad-filters">
+        <label>From <input id="src-from" type="date"></label>
+        <label>To <input id="src-to" type="date"></label>
+        <label><input id="src-by" type="checkbox"> By landing page</label>
+        <button type="submit">Show</button>
+        <button type="button" id="src-csv">Download CSV</button>
+      </form>
+      <p class="ad-count" id="src-note"></p>
+      <div class="ad-table-wrap">
+        <table class="ad-usage"><thead><tr><th>Source</th><th id="src-landing-h" hidden>Landing page</th><th>Visits</th>
+          <th title="A browser's first visit from anywhere">First visits</th><th title="Add-on and Willo downloads from the site">Downloads</th>
+          <th title="Willo-Setup.exe from the site">Willo downloads</th><th>Sign-ups</th>
+          <th title="First time the account connected Willo">Willo connected</th><th>Paid plans</th>
+          <th title="What their payments came to, without tax">Revenue</th></tr></thead>
+          <tbody id="src-rows"></tbody><tfoot id="src-total"></tfoot></table>
+      </div>
+      <p class="fb-status" id="src-status" role="status" hidden></p>
+      <h3 style="margin-top:14px">Make a tracked link</h3>
+      <form id="src-link" class="ad-filters">
+        <input id="src-slug" placeholder="name, like pcgamer-forever" required pattern="[a-z0-9][a-z0-9_\-]{0,31}" aria-label="Link name">
+        <input id="src-label" placeholder="What it is: PC Gamer, WoW Forever guide" aria-label="What it is" style="min-width:18em">
+        <input id="src-target" placeholder="Page it opens: /willo" aria-label="Page it opens">
+        <button type="submit">Make link</button>
+      </form>
+      <p class="ad-count" id="src-made" hidden></p>
+      <div class="ad-table-wrap">
+        <table><thead><tr><th>Link</th><th>Opens</th><th>Page</th><th>Made</th><th></th></tr></thead><tbody id="src-links"></tbody></table>
+      </div>
+      <h3 style="margin-top:14px">From Google Search <span class="ad-count" id="sc-site"></span></h3>
+      <p class="ad-count" id="sc-note"></p>
+      <div class="ad-table-wrap" id="sc-wrap" hidden>
+        <table class="ad-usage"><thead><tr><th>Page</th><th title="Clicks from Google Search">Search clicks</th>
+          <th>Impressions</th><th title="Clicks per impression">Click rate</th><th title="Average position in the results">Position</th>
+          <th title="Visits that came from Google and landed here, counted by the site">Visits</th><th>Sign-ups</th>
+          <th>Paid plans</th><th>Top searches</th></tr></thead><tbody id="sc-rows"></tbody></table>
+      </div>
+      <p><button type="button" id="sc-csv" hidden>Download search CSV</button></p>
+      <p class="ad-count">Give each article its own link, so its visits count under it. A plain link from another site
+        counts as "Site: its address", since browsers send only the site, not the article. A step counts on the day it
+        happened, under where that browser's first visit came from (kept 30 days), and after a sign-up under the
+        account's, from any device.</p>
+    </div>
+    </div>
+    <div class="ad-gsub" data-gsub="retention" hidden>
+    <!-- How long Willo plans are kept (lib/retention.js, admin-retention.js, functions/api/admin/retention.js): plans
+         by the week they started, still on after 1, 2, 3... weeks, cancellations and the reasons given (lib/cancellations.js),
+         as CSVs too. Comped plans and team accounts are left out. -->
+    <h2 id="retention">Retention</h2>
+    <div class="ad-panel">
+      <p><strong id="ret-summary">Loading…</strong></p>
+      <div class="ad-filters">
+        <label><input id="ret-paid" type="checkbox"> Only plans that have paid</label>
+        <button type="button" id="ret-csv">Download CSV</button>
+        <button type="button" id="ret-csv-subs">Subscribers CSV</button>
+      </div>
+      <p class="ad-count" id="ret-note"></p>
+      <div class="ad-table-wrap">
+        <table class="ad-usage"><thead id="ret-head"></thead><tbody id="ret-rows"></tbody></table>
+      </div>
+      <p class="fb-status" id="ret-status" role="status" hidden></p>
+      <h3 style="margin-top:14px">Cancellations</h3>
+      <div class="ad-table-wrap">
+        <table><thead><tr><th>Day</th><th>What</th><th>Plan</th><th>Kept</th><th>Paid</th><th>Runs to</th><th>Reason</th>
+          <th>What they wrote</th><th>Ask why</th></tr></thead><tbody id="ret-log"></tbody></table>
+      </div>
+      <!-- A note to one player who cancelled (lib/winback.js): sent by the site from patrick@, so their address never
+           shows here. -->
+      <form id="ret-note-form" class="ad-panel" hidden style="margin-top:10px">
+        <h3 id="ret-note-title" style="margin-top:0">Write to the player</h3>
+        <p class="ad-count">Sent once, from patrick@loreforeverwow.com, and replies come back to that address. The site
+          looks up their email and sends it, so you never see it. {name} becomes their first name. An unsubscribe
+          line is added at the end.</p>
+        <label style="display:block">Subject <input id="ret-note-subject" maxlength="120" required style="width:100%"></label>
+        <label style="display:block;margin-top:8px">Message <textarea id="ret-note-text" rows="10" maxlength="3000" required
+          style="width:100%"></textarea></label>
+        <p><button type="submit">Send</button> <button type="button" id="ret-note-cancel">Cancel</button></p>
+        <p class="fb-status" id="ret-note-status" role="status" hidden></p>
+      </form>
+      <p class="ad-count">A plan counts as kept until the player cancels it (it still runs to the end of what they paid
+        for), or until it ends without a cancellation (failed payments). Weeks are whole weeks from the day it started;
+        a cell shows only plans old enough for it. Plans the beta moved to November 4 count from the day they started.
+        Each new cancellation is also posted to Slack, without who.</p>
+    </div>
+    </div>
+    <div class="ad-gsub" data-gsub="plans-usage" hidden>
+    <!-- What each plan's players use, for pricing (lib/plan-usage.js planUsageView, admin-plans.js,
+         functions/api/admin/plans-usage.js): answers out loud or typed, look-ups, sight and characters, limits that
+         turned answers away, which voice said the replies, voices picked, plans by checkout source. By plan, never who. -->
+    <h2 id="plans-usage">Plans &amp; usage</h2>
+    <div class="ad-panel">
+      <div class="ad-filters">
+        <label>Last <select id="pu-days"><option value="14">14 days</option><option value="30">30 days</option></select></label>
+        <button type="button" id="pu-csv">Download CSV</button>
+      </div>
+      <p class="ad-count" id="pu-note">Loading…</p>
+      <h3>Answers by plan</h3>
+      <div class="ad-table-wrap">
+        <table class="ad-usage"><thead><tr><th>Plan</th><th>Players</th><th>Answers</th><th>Asked out loud</th><th>Typed</th>
+          <th title="A quick look online, or required research">Looked online</th><th title="A picture of the game went with it">Sight</th>
+          <th title="A character answered in person">Characters</th></tr></thead><tbody id="pu-answers"></tbody></table>
+      </div>
+      <h3 style="margin-top:14px">Limits that turned answers away <span class="ad-count">players / times</span></h3>
+      <div class="ad-table-wrap">
+        <table class="ad-usage"><thead><tr><th>Plan</th><th>Daily answers</th><th>Month's answers</th>
+          <th title="A paying player's month cost its text cap">Month's cost cap</th><th title="The free plan's brake (free budget nearly used)">Free brake</th></tr></thead>
+          <tbody id="pu-limits"></tbody></table>
+      </div>
+      <h3 style="margin-top:14px">Who said the replies</h3>
+      <div class="ad-table-wrap">
+        <table class="ad-usage"><thead><tr><th>Plan</th><th>Reply</th><th>Voice</th><th>Players</th><th>Replies</th></tr></thead>
+          <tbody id="pu-voices"></tbody></table>
+      </div>
+      <h3 style="margin-top:14px">Willo voices picked</h3>
+      <div class="ad-table-wrap">
+        <table class="ad-usage"><thead><tr><th>Plan</th><th>Voice</th><th>Players</th><th>Replies</th></tr></thead>
+          <tbody id="pu-picks"></tbody></table>
+      </div>
+      <h3 style="margin-top:14px">Plans by where checkout started</h3>
+      <div class="ad-table-wrap">
+        <table class="ad-usage"><thead><tr><th>Started from</th><th>Hero</th><th>Champion</th><th>Legend</th><th>All</th></tr></thead>
+          <tbody id="pu-sources"></tbody></table>
+      </div>
+      <p class="fb-status" id="pu-status" role="status" hidden></p>
+      <p class="ad-count">"Stripe trial" is a Keep Hero trial, or a paid plan whose next charge moved to November 4.
+        Answers by plan come from players who leave "Help improve Willo's answers" on (most do), kept 14 days. Comped
+        plans are left out of the checkout table.</p>
+    </div>
+    </div>
+    <div class="ad-gsub" data-gsub="main" hidden>
     <!-- The funnel (LOR-10, lib/activity.js funnelReport, public/admin-funnel.js). A stage shows a share only when its
          people are part of the stage it's measured against. Visits aren't in D1: Cloudflare Web Analytics counts them
          (Pages project > Metrics). Weeks start on Monday, UTC. Admin and test accounts are left out. -->
@@ -172,6 +314,7 @@
           <th title="Installs seen in the last 7 days, by their latest check-in">Installs</th></tr></thead><tbody id="k-versions"></tbody></table></div>
         <p class="ad-empty" style="margin-top:10px" id="k-note"></p></div>
       <figure class="ad-panel ad-chart" id="c-companions" style="margin:0"><h3>Companion installs checked in per day, last 30 days</h3></figure>
+    </div>
     </div>
   </section>
 
@@ -533,16 +676,16 @@
         <input id="ct-name" placeholder="Name players see" aria-label="Name">
         <input id="ct-contact" placeholder="Contact (email, Discord)" aria-label="Contact">
         <input id="ct-account" placeholder="Their account's email (for the dashboard)" aria-label="Account email">
-        <label>Their share % <input id="ct-share_pct" type="number" min="0" max="100" placeholder="70" style="width:5em"></label>
+        <label>Their share % <input id="ct-share_pct" type="number" min="0" max="100" placeholder="60" style="width:5em"></label>
         <label>of months <input id="ct-months" type="number" min="1" max="36" placeholder="1" style="width:4em"></label>
-        <label>Fans: % off first month <input id="ct-discount" type="number" min="0" max="100" placeholder="0" style="width:5em"></label>
+        <label>Fans: % off first month <input id="ct-discount" type="number" min="0" max="100" placeholder="15" style="width:5em"></label>
         <label>Fans: answers on connecting <input id="ct-gift" type="number" min="0" max="1000" placeholder="0" style="width:5em"></label>
         <input id="ct-promo_id" placeholder="promo_... (only if made by hand)" aria-label="Stripe promotion code id">
         <button type="submit">Save</button>
       </form>
-      <p class="ad-count">Blank terms keep what they were (a new creator's: 70% of the first month, nothing extra for
-        their fans). A fan discount makes a Stripe code (their code in capitals, first payment only) they can type at
-        checkout too; if Stripe won't let the site make it, make it in Stripe's Dashboard and paste its id (promo_...).</p>
+      <p class="ad-count">Blank terms keep what they were (a new creator's: 60% of the first month, and 15% off their
+        fans' first month). A fan discount makes a Stripe code (their code in capitals, first payment only) they can type
+        at checkout too; if Stripe won't let the site make it, make it in Stripe's Dashboard and paste its id (promo_...).</p>
       <h3 style="margin-top:14px">Commissions <span class="ad-count">(the last 100)</span></h3>
       <div class="ad-table-wrap">
         <table><thead><tr><th>Paid</th><th>Creator</th><th>Invoice</th><th>Paid (no tax)</th><th>Share</th><th>State</th></tr></thead><tbody id="ct-ledger"></tbody></table>
@@ -562,6 +705,6 @@
 
 <!-- The page's script is a file: /admin's Content-Security-Policy (public/_headers) runs no inline script.
      Bump ?v= when admin-page.js changes, since browsers keep .js for 4 hours on loreforeverwow.com. -->
-<script type="module" src="/admin-page.js?v=20261018w"></script>
+<script type="module" src="/admin-page.js?v=20261019z"></script>
 </body>
 </html>

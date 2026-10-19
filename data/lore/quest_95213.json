@@ -1,0 +1,119 @@
+{
+ "key": "quest:95213",
+ "type": "quest",
+ "name": "Stolen Blasting Powder",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95213
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Gol'Bolar Quarry provides stone and resources vital to Ironforge, making the security of its mining explosives an urgent concern for any dwarf."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Blasting powder is a dangerous volatile material; engineers understand better than anyone the havoc troggs could cause with unauthorized explosives."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Quarry operations depend on controlled demolitions to extract stone, but missing powder kegs signal grave danger inside the excavation pits."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Securing Dun Morogh's supply lines and mining outposts from trogg incursions is essential for Alliance operations across Khaz Modan."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is stolen blasting powder",
+    "powder keg quest",
+    "empty powder keg lore"
+   ],
+   "answer": "Stolen Blasting Powder is a quest initiated upon discovering an empty blasting powder keg stamped with hazardous warnings in the hands of troggs near Gol'Bolar Quarry. It alerts Quarrymaster Thesten to the theft of volatile mining supplies.",
+   "q": "What is Stolen Blasting Powder?"
+  },
+  {
+   "aliases": [
+    "where to bring the keg",
+    "who is thesten",
+    "quarrymaster location"
+   ],
+   "answer": "The empty powder keg must be brought directly to Quarrymaster Thesten, who oversees operations at Gol'Bolar Quarry in Dun Morogh.",
+   "q": "Who should receive the empty powder keg?"
+  },
+  {
+   "aliases": [
+    "why is powder dangerous",
+    "troggs with explosives",
+    "why do troggs have powder"
+   ],
+   "answer": "The keg clearly bears quarrymaster authorization warnings and contained hazardous blasting powder. Troggs possessing or detonating heavy explosives threatens the entire quarry excavation and nearby settlements.",
+   "q": "Why is the stolen blasting powder dangerous?"
+  },
+  {
+   "aliases": [
+    "where is gol bolar",
+    "quarry location",
+    "golbolar dun morogh"
+   ],
+   "answer": "Gol'Bolar Quarry is a dwarven excavation site located in Dun Morogh, responsible for quarrying stone and minerals for Ironforge.",
+   "q": "What is Gol'Bolar Quarry?"
+  },
+  {
+   "aliases": [
+    "why thesten pale",
+    "thesten reaction",
+    "what does thesten say"
+   ],
+   "answer": "Upon seeing the empty keg, Quarrymaster Thesten turns visibly pale and asks where it was found, recognizing immediately that the dangerous contents have already fallen into hostile trogg hands.",
+   "q": "Why does Quarrymaster Thesten turn pale?"
+  },
+  {
+   "aliases": [
+    "are troggs in the quarry",
+    "trogg infestation dun morogh",
+    "why are troggs taking powder"
+   ],
+   "answer": "Troggs have infested the lower reaches and outskirts of Gol'Bolar Quarry, disrupting dwarven miners and scavenging equipment and explosive powder from the dig site.",
+   "q": "What are troggs doing near Gol'Bolar Quarry?"
+  }
+ ],
+ "keywords": [
+  "blasting powder",
+  "dun morogh",
+  "empty powder keg",
+  "gol'bolar quarry",
+  "powder keg",
+  "quarrymaster thesten",
+  "stolen blasting powder",
+  "thesten",
+  "troggs"
+ ],
+ "related": [
+  "subzone:gol-bolar-quarry",
+  "topic:trogg"
+ ],
+ "sections": [
+  {
+   "body": "An empty keg stamped with severe danger warnings reveals that hazardous blasting powder has slipped out of authorized hands at Gol'Bolar Quarry. Such explosives are strictly reserved for controlled quarrying under the direct authorization of the quarrymaster. Finding the keg among hostile troggs indicates that the dig site faces a far more volatile threat than routine labor disruptions.",
+   "spoiler": 0,
+   "title": "A Dangerous Discovery"
+  },
+  {
+   "body": "Returning the empty container to Quarrymaster Thesten confirms the worst fears of the dwarven overseers. Thesten turns pale upon seeing the barrel, realizing that the missing blasting powder has already been emptied and handled by the subterranean troggs swarming the area. The discovery leaves the quarry leadership scrambling to assess what the creatures intend to blast next.",
+   "spoiler": 1,
+   "title": "The Quarrymaster's Alarm"
+  }
+ ],
+ "summary": "Stolen Blasting Powder concerns an empty, hazardous explosive keg discovered among troggs near Gol'Bolar Quarry. Bringing the missing container to Quarrymaster Thesten exposes a perilous breach in the quarry's security and explosive stores.",
+ "attribution": [
+  "In-game quest text: Stolen Blasting Powder"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "key": "quest:94568",
+ "type": "quest",
+ "name": "The Cult's True Plans",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94568
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who died in the cults true plans",
+    "who is the dead turncoat",
+    "turncoat cult secrets"
+   ],
+   "answer": "A cult defector sought aid after becoming terrified of whatever the cult was plotting. Unfortunately, he was killed before he could reveal the details of their schemes, taking his valuable intelligence to the grave.",
+   "q": "Who was the turncoat mentioned in this quest?"
+  },
+  {
+   "aliases": [
+    "talaanis shadowsong role",
+    "who is talaanis shadowsong",
+    "speak with talaanis"
+   ],
+   "answer": "Talaanis Shadowsong is the key contact consulted to discuss how to proceed against the cult following the sudden death of the informant. You observe a strategic conversation with Talaanis to figure out the next course of action.",
+   "q": "Who is Talaanis Shadowsong?"
+  },
+  {
+   "aliases": [
+    "why not fight the cult",
+    "peacekeepers vs cult",
+    "direct assault cult"
+   ],
+   "answer": "Directly deploying peacekeepers into an open battle against the cult's forces is considered far too risky, as the peacekeepers are not expected to fare well in a frontal clash. A more subtle or alternative strategy is required instead.",
+   "q": "Why can't peacekeepers simply attack the cult directly?"
+  },
+  {
+   "aliases": [
+    "what is the cult planning",
+    "cult scheme",
+    "cult true plans meaning"
+   ],
+   "answer": "The exact nature of the cult's plans remains shrouded in mystery because the informant died before he could share what he knew. Whatever their objective is, it was terrifying enough to make a member defect in desperation.",
+   "q": "What are the cult's actual plans?"
+  },
+  {
+   "aliases": [
+    "what happens after the cults true plans",
+    "next steps cult quest"
+   ],
+   "answer": "After realizing an open battle is out of the question and their main source of intelligence is dead, the leadership must devise an alternative method to uncover and thwart the cult's machinations.",
+   "q": "What is the next step after speaking with Talaanis?"
+  },
+  {
+   "aliases": [
+    "the cults true plans quest summary",
+    "what do you do in the cults true plans"
+   ],
+   "answer": "You speak with Talaanis Shadowsong and observe a council on the situation. The discussion centers on the fallout of the informant's death and assessing why standard military force cannot be relied upon to stop the cult.",
+   "q": "What happens during The Cult's True Plans?"
+  }
+ ],
+ "keywords": [
+  "cult",
+  "defector",
+  "peacekeepers",
+  "talaanis shadowsong",
+  "the cult's true plans",
+  "turncoat"
+ ],
+ "related": [
+  "quest:92643"
+ ],
+ "sections": [
+  {
+   "body": "An insider defected from the cult after becoming terrified of its looming schemes, hoping to seek outside help. Tragically, the defector was killed before he could share what he knew, leaving behind ominous warnings but no concrete details about what the cult intends to unleash.",
+   "spoiler": 0,
+   "title": "A Silenced Defector"
+  },
+  {
+   "body": "With their primary informant dead, leadership must consult with Talaanis Shadowsong to reassess their strategy. Facing the cult in an open confrontation using peacekeepers is deemed a losing battle, forcing those investigating the threat to look for an alternative path forward.",
+   "spoiler": 1,
+   "title": "Rethinking the Approach"
+  }
+ ],
+ "summary": "The Cult's True Plans addresses the aftermath of a cult defector's untimely demise. With the informant dead and his secrets lost, investigators must consult with Talaanis Shadowsong to devise a new strategy against the cult.",
+ "attribution": [
+  "In-game quest text: The Cult's True Plans"
+ ]
+}

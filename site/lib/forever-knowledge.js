@@ -237,6 +237,14 @@ export const SEED_FACTS = [
     text: "Illidan Stormrage, freed in the Third War from ten thousand years in the Barrow Deeps beneath Mount Hyjal, " +
       "was beaten by Arthas at the Frozen Throne and withdrew to Outland, where no one from Azeroth can follow him in " +
       "this age." },
+  // "Who leads the Scarlet Crusade?" named Alexandros Mograine, the Ashbringer, 2 of 2 (the vision check, 10/19): the
+  // lore entry names him among its founders, and nothing said he's gone.
+  { id: "era-scarlet-leaders", title: "The Scarlet Crusade's commanders",
+    source: { title: "Warcraft Wiki: Scarlet Crusade", url: "https://warcraft.wiki.gg/wiki/Scarlet_Crusade" },
+    // Names only: everyday words ("first", "now", a zone's) pulled it into bronze bar and riding questions, and "leads"
+    // into the Defias and "leaded vial" (the vision check).
+    text: "Grand Crusader Saidan Dathrohan commands the Scarlet Crusade. Scarlet Commander Renault Mograine and High " +
+      "Inquisitor Sally Whitemane hold the Scarlet Monastery. Highlord Alexandros Mograine, the Ashbringer, is dead." },
   { id: "era-deathwing", title: "Deathwing and his children", source: WIKI,
     text: "Deathwing, the black dragonflight's fallen Aspect, hasn't been seen since his defeat at Grim Batol after the " +
       "Second War, and no one knows where he is. His children are active: Nefarian holds Blackwing Lair at the top of " +
@@ -388,7 +396,9 @@ export function promptParts(prompt) {
   const quests = [...context.matchAll(/^quest in their log: (.+) \(ID (\d+)\)$/gm)].map(m => ({ title: m[1], id: m[2] }));
   return { question: asked.trim(), zone: line("zone") || both[1] || "", sub: line("sub") || both[0] || "",
     faction: line("faction"), race: line("race"), class: line("class"), level: line("level"), previous: str(previous),
-    previousQuestion: str(previousQuestion), target: line("target"), quests };
+    previousQuestion: str(previousQuestion), target: line("target"), quests,
+    // Where they were last, given for the way or the nearest place with no live game info (answer.py saved_place).
+    savedPlace: line("saved place") };
 }
 
 const ready = new WeakMap();
@@ -667,8 +677,18 @@ export async function knowledgeFor(env, parts, { character = false, dataVersion 
     console.warn(`place facts: ${e?.message || e}`);
   }
   const local = [questBlock(quest), itemBlock(item), placeBlock(place)];
+  // The way worked out (TOWN AND ROAD FACTS: "The way to Orgrimmar"), from Forever's own ships, zeppelins, tram and
+  // flights: the lists of every ship and flight point beside it only tempt another leg (the vision check, 10/19: from
+  // Bloodhoof to Orgrimmar she added "the airship from Skywatcher Plateau to Zephras Isle", which the way doesn't take).
+  const routed = place.some(f => f.asked && /^The way to /.test(f.title || ""));
   try {
-    const facts = forPlayer(await searched, parts);
+    // ...unless the question asks about a ship or flight too and the fact names its place ("...and where do the boats
+    // from Auberdine go?": Ships from Auberdine, the vision check, 10/19).
+    const ride = /\b(?:boats?|ships?|zeppelins?|airships?|ferry|flights?|fly|tram)\b/i.test(parts.question);
+    const asked = (parts.question.match(/\b\p{Lu}[\p{L}'’-]{2,}(?: \p{Lu}[\p{L}'’-]+)*/gu) || []).map(w => w.toLowerCase())
+      .filter(w => !/^(?:the|how|what|where|which|when|who|why|can|could|does|willo|willow)$/.test(w));   // not "How" in "Theramore"
+    const named = f => ride && asked.some(w => String(f.title || "").toLowerCase().includes(w));
+    const facts = forPlayer(await searched, parts).filter(f => !routed || !/^(?:travel|flight)-/.test(f.id || "") || named(f));
     const block = factsBlock(facts, { character, olderData: olderData(dataVersion) });
     return { facts: [...quest, ...item, ...place, ...facts], block: [...local, block].filter(Boolean).join("\n\n") };
   } catch (e) {

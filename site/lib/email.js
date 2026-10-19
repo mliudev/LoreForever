@@ -127,8 +127,9 @@ export function senderOf(env) {
            postal: String(env?.EMAIL_POSTAL_ADDRESS || "").trim() || null };
 }
 
-// Sends `message` ({to, subject, text, html}) now, through the service set up here, with the sender's From and
-// Reply-To and a List-Unsubscribe header to /unsubscribe: {service, messageId}. Throws when no service is set up or
+// Sends `message` ({to, subject, text, html, from?, replyTo?}) now, through the service set up here, with the sender's
+// From and Reply-To (or the message's own, when they're @loreforeverwow.com addresses: a note from Patrick, lib/winback.js)
+// and a List-Unsubscribe header to /unsubscribe: {service, messageId}. Throws when no service is set up or
 // the send fails. key: an idempotency key, for services that take one. sendOnce is what features use; this is for
 // tests by hand (/api/admin "email-test").
 export async function sendEmail(env, message, key = null) {
@@ -137,7 +138,9 @@ export async function sendEmail(env, message, key = null) {
   const to = cleanAddress(message.to);
   if (!to) throw new Error("That isn't an email address.");
   const sender = senderOf(env);
-  const messageId = await SERVICES[service](env, { ...message, to, from: sender.from, replyTo: sender.replyTo,
+  const ours = address => typeof address === "string" && parseFrom(address).email.toLowerCase().endsWith(`@${DOMAIN}`);
+  const messageId = await SERVICES[service](env, { ...message, to, from: ours(message.from) ? message.from : sender.from,
+    replyTo: ours(message.replyTo) ? cleanAddress(message.replyTo) : sender.replyTo,
     headers: { "List-Unsubscribe": `<${UNSUBSCRIBE_URL}>`, ...message.headers } }, key);
   return { service, messageId };
 }

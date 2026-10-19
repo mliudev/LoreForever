@@ -1,0 +1,113 @@
+{
+ "key": "quest:97926",
+ "type": "quest",
+ "name": "Making Do",
+ "era": "forever",
+ "zone": "darkshore",
+ "meta": {
+  "ids": [
+   97926
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "This quest highlights the fragile cohesion within the Alliance, illustrating how geographic distance and internal strain leave outlying settlements like Auberdine to fend for themselves without financial backing from Stormwind."
+  },
+  {
+   "target": "race:NightElf",
+   "text": "For the night elves of Auberdine, the refusal from Stormwind underscores a growing realization that neither their human allies across the sea nor Darnassus nearby are stepping up to resolve their local struggles."
+  },
+  {
+   "target": "race:Human",
+   "text": "Alexston's letter reflects the stark reality facing the Kingdom of Stormwind, where drained coffers and widespread domestic hardship prevent the crown from funding overseas relief efforts."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is making do",
+    "making do quest",
+    "auberdine stormwind quest"
+   ],
+   "answer": "Making Do is a quest in which an adventurer delivers Baros Alexston's formal reply from Stormwind back to Elder Thundris Windweaver in Auberdine, bearing the disappointing news that Stormwind cannot afford to send aid to Darkshore.",
+   "q": "What is the quest Making Do?"
+  },
+  {
+   "aliases": [
+    "why did stormwind say no",
+    "stormwind coffers thin",
+    "why won't stormwind help auberdine"
+   ],
+   "answer": "Stormwind's representative explains that the kingdom's coffers are badly depleted and whatever resources remain are stretched thin across their own lands, leaving them unable to finance assistance for Auberdine.",
+   "q": "Why does Stormwind refuse to aid Auberdine?"
+  },
+  {
+   "aliases": [
+    "thundris reaction to stormwind",
+    "how does thundris react"
+   ],
+   "answer": "Thundris Windweaver receives the letter with sadness but accepts the reality, concluding that because neither Stormwind nor Darnassus will provide support, the people of Auberdine must take their fate into their own hands.",
+   "q": "How does Thundris Windweaver react to the news?"
+  },
+  {
+   "aliases": [
+    "who is alexston",
+    "alexstons reply sender"
+   ],
+   "answer": "Baros Alexston is Stormwind's city architect, who delivers the kingdom's response, expressing personal sympathy for Auberdine's plight while delivering the harsh truth about Stormwind's financial inability to help.",
+   "q": "Who sent Alexston's Reply?"
+  },
+  {
+   "aliases": [
+    "darnassus aid auberdine",
+    "why didn't darnassus help"
+   ],
+   "answer": "Upon reading Alexston's letter, Thundris Windweaver notes that neither Stormwind nor their nearby capital of Darnassus has stepped up to help, leaving the settlement of Auberdine isolated and self-reliant.",
+   "q": "Is Darnassus helping Auberdine?"
+  },
+  {
+   "aliases": [
+    "where does this quest end",
+    "making do turn in location"
+   ],
+   "answer": "The quest concludes at the port town of Auberdine along the coast of Darkshore, where Thundris Windweaver awaits the return of the messenger from Stormwind.",
+   "q": "Where is Alexston's Reply delivered?"
+  }
+ ],
+ "keywords": [
+  "alexston",
+  "alexston's reply",
+  "auberdine",
+  "coffers",
+  "darkshore",
+  "making do",
+  "stormwind",
+  "thundris windweaver"
+ ],
+ "related": [
+  "quest:4761",
+  "subzone:auberdine",
+  "zone:darkshore",
+  "topic:stormwind-kingdom",
+  "zone:darnassus"
+ ],
+ "sections": [
+  {
+   "body": "Making Do tasks a traveler with carrying Alexston's Reply across the sea to Elder Thundris Windweaver in Auberdine. Rather than carrying promises of relief or troop deployments, the letter bears an unfortunate refusal. Stormwind's representative laments that the kingdom's treasury is running low and what little wealth remains is already stretched thin across its own struggling territories.",
+   "spoiler": 0,
+   "title": "A Courier Across the Sea"
+  },
+  {
+   "body": "Upon receiving the reply, Thundris Windweaver laments the outcome but thanks the traveler for undertaking the long journey. With Stormwind unable to provide aid and Darnassus likewise absent, Thundris resigns himself and his people to self-reliance, remarking that Auberdine's fate rests entirely in their own hands.",
+   "spoiler": 1,
+   "title": "Left to Their Own Fate"
+  }
+ ],
+ "summary": "Making Do is an Alliance quest connecting the port of Auberdine in Darkshore with the distant kingdom of Stormwind. Tasked with delivering an official reply from Alexston to Elder Thundris Windweaver, an adventurer brings grim news: Stormwind's depleted coffers leave it unable to assist the troubled night elf settlement.",
+ "attribution": [
+  "In-game quest text: Making Do"
+ ]
+}

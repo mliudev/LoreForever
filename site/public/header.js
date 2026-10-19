@@ -16,7 +16,7 @@
 // "Looked at" is lf-seen in localStorage: the newest version you've seen the news of, set when you open What's new,
 // follow the strip or close it. A first visit gets no dot (everything is new); the strip shows until it's closed.
 (() => {
-  const LATEST = "0.22.0";   // changelog: the newest version in CHANGELOG.md (scripts/changelog.py site keeps it)
+  const LATEST = "0.23.0";   // changelog: the newest version in CHANGELOG.md (scripts/changelog.py site keeps it)
   const header = document.querySelector("header.top");
   const box = header && header.querySelector(".head-actions");
   if (!box) return;
@@ -329,6 +329,24 @@
       else known();
     })
     .catch(known);   // no account info: the links work the same (what was remembered stays)
+})();
+
+// Where a visit started (lib/sources.js, functions/api/visit.js): a page opened from another site, a tracked link
+// (/a/<slug>) or an address with ?src= is told to the site once per tab, so it counts the visit under that source and
+// the page it landed on. Never for a click inside the site or an address typed in (no referrer and no ?src=).
+(() => {
+  const asked = (new URLSearchParams(location.search).get("src") || "").toLowerCase();
+  let ref = "";
+  try { ref = document.referrer ? new URL(document.referrer).href : ""; } catch (e) { ref = ""; }
+  if (ref && new URL(ref).origin === location.origin) return;
+  if (!asked && !ref) return;
+  try {
+    if (sessionStorage.getItem("lf-visit")) return;
+    sessionStorage.setItem("lf-visit", "1");
+  } catch (e) { /* storage blocked: told on each such page */ }
+  fetch("/api/visit", { method: "POST", keepalive: true, credentials: "same-origin",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ src: asked, landing: location.pathname, ref }) }).catch(() => {});
 })();
 
 // Where a visit came from (LOR-413): a link like /downloads?src=lore marks the visit, and the site's own download links

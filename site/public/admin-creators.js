@@ -31,7 +31,7 @@ async function call(key, method, body) {
   return res;
 }
 
-// One line of terms, plain: "70% of 1 month; fans: nothing extra".
+// One line of terms, plain: "60% of 1 month; fans: 15% off the first month".
 export const termsLine = c => {
   const fans = [c.discount ? `${c.discount}% off the first month` : null, c.gift ? `${n0(c.gift)} answers on connecting` : null]
     .filter(Boolean);

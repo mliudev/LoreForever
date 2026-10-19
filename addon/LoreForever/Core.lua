@@ -613,6 +613,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     if not ok and geterrorhandler then geterrorhandler()(err) end
     ns.Voice.Init()
     ns.WhatsNew.Init()   -- the first login of a new version: what's new in it (WhatsNew.lua)
+    ns.Strip.SyncWillo()   -- Willo's newer Live game info choice beats an older one made here (Strip.lua, LOR-676)
     ns.UI.Create(ns.engine)
     ns.Hooks.Init()
     ns.Options.Create()
@@ -810,6 +811,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     if ns.Companion.Installed() or ns.Strip.On() then   -- (on without Willo: the way to turn it off, LOR-541)
       say(string.format(L["/lore live - live game info for %s on/off"], ns.COMPANION_NAME))
     end
+    say(L["/lore subtitles - drag the subtitles where you want them; /lore subtitles reset - put them back"])
     say(L["/lore options - settings (tooltips, hints, flight narration)"])
     say(L["/lore lang - choose the language: English, Deutsch, Español, Français or Português (Automatic follows your WoW client)"])
     say(L["/lore reset - bring back the panel, the floating player and the minimap button (keeps your journey and settings)"])
@@ -887,6 +889,10 @@ SlashCmdList.LOREFOREVER = function(msg)
   elseif cmd == "sky reset" or cmd == "sky back" then
     ns.Sky.PutBack()
     say(string.format(L["%s's sky is back on your minimap."], ns.COMPANION_NAME))
+  elseif cmd == "subtitles" or cmd == "subtitles move" then
+    ns.Subtitles.Move()   -- drag them where you want them (LOR-679)
+  elseif cmd == "subtitles reset" or cmd == "subtitles back" then
+    ns.Subtitles.PutBack()
   elseif cmd == "nudge" then
     toggleSetting("zoneNudge", L["zone hints"])
   elseif cmd == "tooltips" then

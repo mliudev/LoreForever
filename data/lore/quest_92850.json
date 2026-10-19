@@ -1,0 +1,102 @@
+{
+ "key": "quest:92850",
+ "type": "quest",
+ "name": "The Missing Scholar",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92850
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Fillion Flamebreeze relies on his own training in the arcane arts to recover and travel safely, showing mutual kinship with fellow practitioners of magic."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is fillion flamebreeze",
+    "who is the scholar",
+    "who gives the missing scholar"
+   ],
+   "answer": "Fillion Flamebreeze is a scholar skilled in the arcane arts who was out on an assignment near Valanaar before finding himself stranded near a nest of dangerous beasts.",
+   "q": "Who is Fillion Flamebreeze?"
+  },
+  {
+   "aliases": [
+    "what are shrieklings",
+    "where do shrieklings nest",
+    "shriekling threat"
+   ],
+   "answer": "Shrieklings are hostile beasts that have nested in a nearby den dangerously close to the settlement of Valanaar. Fillion Flamebreeze warns that their proximity makes them an active threat to anyone traveling in the area.",
+   "q": "What are shrieklings?"
+  },
+  {
+   "aliases": [
+    "who is the supreme magister",
+    "fillion report",
+    "who does fillion answer to"
+   ],
+   "answer": "The Supreme Magister is the regional authority in Valanaar to whom Fillion Flamebreeze must report regarding the events at the den and the status of his mission.",
+   "q": "Who is the Supreme Magister?"
+  },
+  {
+   "aliases": [
+    "what is valanaar",
+    "where is valanaar"
+   ],
+   "answer": "Valanaar is the nearby settlement or outpost that Fillion Flamebreeze is stationed out of, and where he returns once he recovers enough to travel on his own.",
+   "q": "What is Valanaar?"
+  },
+  {
+   "aliases": [
+    "shriekling matriarch target",
+    "who to kill in shriekling den"
+   ],
+   "answer": "The Shriekling Matriarch is the leader of the shrieklings nesting within the Shriekling Den. Fillion tasks adventurers with slaying her and bringing back her head to eliminate the immediate danger to Valanaar.",
+   "q": "What is the Shriekling Matriarch?"
+  },
+  {
+   "aliases": [
+    "why least of our troubles",
+    "greater danger valanaar"
+   ],
+   "answer": "While Fillion Flamebreeze considers the shrieklings an immediate danger to Valanaar due to their proximity, he ominously notes upon your return that they are ultimately the least of their troubles.",
+   "q": "Why does Fillion consider the shrieklings the least of their troubles?"
+  }
+ ],
+ "keywords": [
+  "fillion flamebreeze",
+  "shriekling",
+  "shriekling den",
+  "shriekling matriarch",
+  "supreme magister",
+  "the missing scholar",
+  "valanaar"
+ ],
+ "related": [
+  "quest:92699",
+  "quest:92579"
+ ],
+ "sections": [
+  {
+   "body": "After recovering from his ordeal near a den of predatory beasts, the scholar Fillion Flamebreeze finds himself able to travel back toward the safety of Valanaar. Yet the immediate threat cannot be ignored: a brood of shrieklings has established a nest uncomfortably close to the settlement. Rather than letting the beasts linger on the town's threshold, Flamebreeze asks able travelers to enter the Shriekling Den and slay the Shriekling Matriarch.",
+   "spoiler": 0,
+   "title": "A Perilous Nesting Ground"
+  },
+  {
+   "body": "Once the Matriarch is slain and her head delivered to Fillion back in Valanaar, the scholar offers his thanks, but notes with concern that the shrieklings are merely the least of their troubles. Before turning his attention to larger concerns, Flamebreeze prepares to deliver a full report on his mission and the surrounding area directly to the Supreme Magister.",
+   "spoiler": 1,
+   "title": "Reporting to the Magister"
+  }
+ ],
+ "summary": "The Missing Scholar is a quest in which adventurers assist the scholar Fillion Flamebreeze after locating him near a dangerous den. While Fillion returns safely to Valanaar, he tasks travelers with eliminating the nearby Shriekling Matriarch threatening the settlement.",
+ "attribution": [
+  "In-game quest text: The Missing Scholar"
+ ]
+}

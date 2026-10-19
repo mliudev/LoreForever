@@ -1,8 +1,9 @@
 // Inviting friends and the creator program (lib/referrals.js). The rules that guard money and abuse: a friend counts
 // only once Willo has given them a first real answer, once per Google account, never from the inviter's computer,
 // browser or card; the fifth friend gives bonus answers and the tenth a free month, each once (a Stripe credit for a
-// paying plan, a month on us for a free one), at most ten a month; a creator earns 70% of a subscriber's first paid
-// month without tax, payable after the hold, taken back on a refund, paid once. Stripe and Gemini are mocked through
+// paying plan, a month on us for a free one), at most ten a month; a creator earns 60% of a subscriber's first paid
+// month without tax, payable after the hold, taken back on a refund, paid once, and their audience gets 15% off its
+// first month with the creator's link or code. Stripe and Gemini are mocked through
 // fetch; D1 is node:sqlite (helpers.mjs). Run: node --test 'site/tests/*.test.mjs'
 
 import { test, beforeEach, afterEach } from "node:test";
@@ -18,7 +19,7 @@ import { startLink, claimToken } from "../lib/devices.js";
 import { setupBilling, planFor } from "../lib/billing.js";
 import { setupReferrals, shareCode, saveCreator, referralReport, shareSummary, noteJoin, noteBrowser, activateReferral,
   settleRewards, payoutList, payCreator, setStripePayouts, startConnect, refreshConnect, applyCreator, decideApplication,
-  creatorDashboard, REWARDS, PAYOUTS } from "../lib/referrals.js";
+  creatorDashboard, connectAccount, REWARDS, PAYOUTS } from "../lib/referrals.js";
 
 import { d1 } from "./helpers.mjs";
 
@@ -280,12 +281,23 @@ function payments(cards = {}) {
     Response.json({ id: pi, latest_charge: { payment_method_details: { card: { fingerprint: print } } } });
 }
 
-test("a creator earns 70% of a subscriber's first paid month, without tax; later months are ours; paid once, after the hold", async () => {
+// The creator's Stripe promotion code, as Stripe makes it.
+const promoCodes = () => { routes["POST promotion_codes"] = call =>
+  Response.json({ id: `promo_${call.body.get("code").toLowerCase()}`, code: call.body.get("code"), active: true }); };
+
+test("a creator earns 60% of a subscriber's first paid month, without tax; later months are ours; paid once, after the hold", async () => {
   const owner = await player("ziqo-owner", "ziqo@example.com");
+  promoCodes();
   const saved = await saveCreator(env, { code: "Ziqo", name: "Ziqo", account: "ziqo@example.com" });
   assert.deepEqual([saved.creator.code, saved.creator.share_pct, saved.creator.months, saved.creator.discount, saved.creator.gift,
-                    saved.creator.user_id], ["ziqo", 70, 1, 0, 0, owner.id], "Patrick's terms, no fan discount by default");
-  assert.equal(stripeCalls.filter(c => c.path === "promotion_codes").length, 0);
+                    saved.creator.user_id], ["ziqo", 60, 1, 15, 0, owner.id], "the 10/19 deal: 60% of the first month, 15% off for fans");
+  // Their code for the audience: 15% off a first month, once, first payment only.
+  const coupon = stripeCalls.find(c => c.method === "POST" && c.path === "coupons").body;
+  assert.deepEqual([coupon.get("id"), coupon.get("percent_off"), coupon.get("duration")], ["lore_forever_creator_15", "15", "once"]);
+  const promo = stripeCalls.find(c => c.path === "promotion_codes").body;
+  assert.deepEqual([promo.get("code"), promo.get("restrictions[first_time_transaction]"), promo.get("metadata[creator]")],
+    ["ZIQO", "true", "ziqo"]);
+  assert.equal(saved.creator.promo_id, "promo_ziqo");
 
   const { cookie } = await open("ziqo");
   const fan = await signUp("fan", cookie);
@@ -298,7 +310,7 @@ test("a creator earns 70% of a subscriber's first paid month, without tax; later
   assert.equal(res.status, 200);
   const checkout = stripeCalls.find(c => c.path === "checkout/sessions").body;
   assert.equal(checkout.get("subscription_data[metadata][creator]"), "ziqo");
-  assert.equal(checkout.get("allow_promotion_codes"), "true");
+  assert.equal(checkout.get("discounts[0][promotion_code]"), "promo_ziqo", "their link takes the 15% off");
 
   payments();
   const customer = env.DB.sqlite.prepare("SELECT customer_id FROM entitlements WHERE user_id = ?").get(fan.id).customer_id;
@@ -306,22 +318,22 @@ test("a creator earns 70% of a subscriber's first paid month, without tax; later
   await hook(paidInvoice("in_beta", customer, 0, 10, { amount: 250 }));
   await hook(paidInvoice("in_beta", customer, 0, 10, { amount: 250 }));
   // (October 26 to November 26: a calendar month, as Stripe's are.)
-  await hook(paidInvoice("in_m1", customer, 10, 41, { amount: 999, tax: 90 }));
+  await hook(paidInvoice("in_m1", customer, 10, 41, { amount: 1299, tax: 90 }));
   await hook(paidInvoice("in_up", customer, 20, 41, { amount: 300 }));
   await hook(paidInvoice("in_m2", customer, 41, 71, { amount: 999 }));
   const earned = env.DB.sqlite.prepare("SELECT invoice_id, paid_cents, share_cents FROM creator_earnings ORDER BY paid_at").all()
     .map(r => ({ ...r }));
-  assert.deepEqual(earned, [{ invoice_id: "in_beta", paid_cents: 250, share_cents: 175 },
-                            { invoice_id: "in_m1", paid_cents: 909, share_cents: 636 },
-                            { invoice_id: "in_up", paid_cents: 300, share_cents: 210 }]);
+  assert.deepEqual(earned, [{ invoice_id: "in_beta", paid_cents: 250, share_cents: 150 },
+                            { invoice_id: "in_m1", paid_cents: 1209, share_cents: 725 },
+                            { invoice_id: "in_up", paid_cents: 300, share_cents: 180 }]);
 
   // In the hold: nothing due yet. After it: one payout, once.
   assert.equal((await payoutList(env, new Date(NOW + 20 * DAY * 1000))).due.length, 0);
   const later = new Date(NOW + (20 + PAYOUTS.holdDays) * DAY * 1000);
   const list = await payoutList(env, later);
-  assert.deepEqual(list.due.map(d => [d.code, d.due, d.method]), [["ziqo", 1021, "manual"]]);
+  assert.deepEqual(list.due.map(d => [d.code, d.due, d.method]), [["ziqo", 1055, "manual"]]);
   const paid = await payCreator(env, "ziqo", { method: "manual", now: later });
-  assert.deepEqual([paid.payout.cents, paid.payout.items, paid.payout.status], [1021, 3, "paid"]);
+  assert.deepEqual([paid.payout.cents, paid.payout.items, paid.payout.status], [1055, 3, "paid"]);
   assert.match((await payCreator(env, "ziqo", { now: later })).error, /Nothing is due/);
 
   // A refund after the payout comes off the next one.
@@ -332,7 +344,23 @@ test("a creator earns 70% of a subscriber's first paid month, without tax; later
   assert.equal(after, undefined, "owed less than nothing: not on the list");
   const dash = await creatorDashboard(env, owner.id, ORIGIN, later);
   assert.deepEqual([dash.numbers.clicks, dash.numbers.signups, dash.numbers.activated, dash.numbers.paying,
-                    dash.numbers.earned, dash.numbers.paidOut, dash.numbers.reversed], [1, 1, 1, 1, 385, 1021, 636]);
+                    dash.numbers.earned, dash.numbers.paidOut, dash.numbers.reversed], [1, 1, 1, 1, 330, 1055, 725]);
+  assert.deepEqual([dash.promoCode, dash.terms.sharePct, dash.terms.discount], ["ZIQO", 60, 15], "the code to tell their audience");
+});
+
+test("anyone may type a creator's code at checkout: the subscriber is the creator's, and earns them 60%", async () => {
+  promoCodes();
+  await saveCreator(env, { code: "ziqo", name: "Ziqo" });
+  const viewer = await player("viewer");
+  await env.DB.prepare("INSERT INTO entitlements (user_id, customer_id, updated) VALUES (?, 'cus_viewer', ?)")
+    .bind(viewer.id, new Date(NOW).toISOString()).run();
+  payments();
+  routes["GET invoices/in_typed"] = () => Response.json({ id: "in_typed", discounts: [{ promotion_code: "promo_ziqo" }] });
+  // Hero at 15% off (499 - 75), as Stripe charges it.
+  await hook(paidInvoice("in_typed", "cus_viewer", 0, 31, { amount: 424, discounts: ["di_1"] }));
+  assert.deepEqual([row(viewer).creator, row(viewer).via], ["ziqo", "code"]);
+  const earned = env.DB.sqlite.prepare("SELECT creator, paid_cents, share_cents, pct FROM creator_earnings").get();
+  assert.deepEqual({ ...earned }, { creator: "ziqo", paid_cents: 424, share_cents: 254, pct: 60 });
 });
 
 test("a subscriber who pays with the creator's own card brings them nothing", async () => {
@@ -358,7 +386,7 @@ test("creators apply, /admin approves them, and Stripe payouts go by transfer on
   const { application } = await applyCreator(env, fan, { name: "Lore Nerd", channel: "https://youtube.com/@nerd", agree: true });
   assert.equal(application.status, "pending");
   const { creator } = await decideApplication(env, application.id, { approve: true });
-  assert.deepEqual([creator.code, creator.user_id, creator.share_pct], ["lore-nerd", fan.id, 70]);
+  assert.deepEqual([creator.code, creator.user_id, creator.share_pct, creator.discount], ["lore-nerd", fan.id, 60, 15]);
 
   // Payouts through Stripe wait for the switch, then an Express account the creator sets up.
   assert.match((await startConnect(env, creator, ORIGIN)).error, /aren't open yet/);
@@ -369,12 +397,22 @@ test("creators apply, /admin approves them, and Stripe payouts go by transfer on
   routes["DELETE accounts/acct_probe"] = () => Response.json({ id: "acct_probe", deleted: true });
   assert.deepEqual(await setStripePayouts(env, true), { on: true });
   assert.ok(stripeCalls.some(c => c.method === "DELETE" && c.path === "accounts/acct_probe"));
+  // The probe asks for the account startConnect does: a US Express account takes card payments with its transfers
+  // (transfers alone need Stripe's approval).
+  const probe = stripeCalls.filter(c => c.path === "accounts" && c.method === "POST").at(-1).body;
+  assert.deepEqual([probe.get("type"), probe.get("capabilities[card_payments][requested]"), probe.get("capabilities[transfers][requested]")],
+    ["express", "true", "true"]);
   stripeCalls.length = 0;
   routes["POST accounts"] = () => Response.json({ id: "acct_nerd" });
   routes["POST account_links"] = () => Response.json({ url: "https://connect.stripe.com/setup/e/acct_nerd" });
   assert.equal((await startConnect(env, creator, ORIGIN, { country: "us" })).url, "https://connect.stripe.com/setup/e/acct_nerd");
   const acct = stripeCalls.find(c => c.path === "accounts" && c.method === "POST").body;
-  assert.deepEqual([acct.get("type"), acct.get("country"), acct.get("capabilities[transfers][requested]")], ["express", "US", "true"]);
+  assert.deepEqual([acct.get("type"), acct.get("country"), acct.get("capabilities[card_payments][requested]"),
+    acct.get("capabilities[transfers][requested]"), acct.get("business_profile[url]"), acct.get("tos_acceptance[service_agreement]")],
+    ["express", "US", "true", "true", "https://youtube.com/@nerd", null]);
+  // Outside the US: transfers only, under the recipient agreement (cross-border payouts can't take card payments).
+  assert.deepEqual(connectAccount({ country: "GB", channel: "twitch.tv/x" }), { type: "express", country: "GB",
+    capabilities: { transfers: { requested: true } }, tos_acceptance: { service_agreement: "recipient" }, metadata: {} });
   routes["GET accounts/acct_nerd"] = () => Response.json({ id: "acct_nerd", payouts_enabled: true, capabilities: { transfers: "active" } });
   const row = env.DB.sqlite.prepare("SELECT * FROM creators WHERE code = 'lore-nerd'").get();
   assert.equal((await refreshConnect(env, row)).ready, true);

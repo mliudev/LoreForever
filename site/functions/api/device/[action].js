@@ -35,6 +35,7 @@ import { senderHash } from "../../../lib/form.js";
 import { historyEnabled } from "../../../lib/history.js";
 import { welcomeOnce } from "../../../lib/billing.js";
 import { noteConnect, machineOf, setupReferrals } from "../../../lib/referrals.js";
+import { noteWillo } from "../../../lib/sources.js";
 
 const ok = (body = {}, status = 200) => Response.json({ ok: true, ...body }, { status, headers: noStore });
 const COMPANION = /^companion\/[\w.-]{1,24}$/;
@@ -115,6 +116,8 @@ async function decide({ request, env }, input, user, approve) {
   // to Willo, connecting from a browser that opened a share link, joins as that link's friend. Before welcomeOnce,
   // which doesn't change what it reads. Connecting never fails on it.
   if (approve) await noteConnect(env, request, user).catch(e => console.warn(`device approve: share: ${e?.message || e}`));
+  // The account's first Willo connect counts under where it came from (lib/sources.js: never throws).
+  if (approve) await noteWillo(env, request, user);
   // The first time an account connects the companion, the site may send the page to the plans instead (lib/billing.js
   // welcomeOnce). Connecting never waits on it.
   const welcome = approve ? await welcomeOnce(env, user.id).catch(e => {

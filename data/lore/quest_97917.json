@@ -1,0 +1,101 @@
+{
+ "key": "quest:97917",
+ "type": "quest",
+ "name": "Camping 101: Enchanting",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97917
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Enchanters travelling through Alliance territory are directed into the heart of Stormwind to seek out Betty Quin for camping instruction."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is camping 101 enchanting",
+    "camping 101 enchanters",
+    "enchanting camp quest"
+   ],
+   "answer": "Camping 101: Enchanting directs practitioners of the enchanting arts to learn how to produce magical camp supplies. It sends developing enchanters to seek out Betty Quin in Stormwind once they have honed their craft.",
+   "q": "What is Camping 101: Enchanting?"
+  },
+  {
+   "aliases": [
+    "who is betty quin",
+    "stormwind enchanting trainer betty",
+    "where is betty quin"
+   ],
+   "answer": "Betty Quin is an instructor residing in Stormwind who teaches knowledgeable enchanters how to craft useful magical gear for survival and leisure on the road.",
+   "q": "Who is Betty Quin?"
+  },
+  {
+   "aliases": [
+    "what does enchanted lute do",
+    "why craft enchanted lute",
+    "enchanted lute purpose"
+   ],
+   "answer": "The Enchanted Lute is a musical instrument imbued with magic designed to provide entertainment and morale during camp downtime, helping adventurers face hardships when setting out on the trail.",
+   "q": "What is an Enchanted Lute?"
+  },
+  {
+   "aliases": [
+    "why enchanters in camp",
+    "enchanter camp usefulness"
+   ],
+   "answer": "Enchanters bring beneficial magic to a campsite, turning everyday downtime into moments of restoration, preparation, and recreation that help travelers endure harsh wilderness journeys.",
+   "q": "Why are enchanters valued at a campsite?"
+  },
+  {
+   "aliases": [
+    "where do i turn in camping 101 enchanting",
+    "betty quin location"
+   ],
+   "answer": "The quest directs you to find Betty Quin within the capital city of Stormwind, located in the kingdom of the same name.",
+   "q": "Where do I go to complete this task?"
+  },
+  {
+   "aliases": [
+    "camping 101 enchanting requirements",
+    "when can i learn enchanted lute"
+   ],
+   "answer": "You must demonstrate solid proficiency in enchanting before Betty Quin will instruct you in crafting camp items such as the Enchanted Lute.",
+   "q": "What skill is needed to learn camping enchanting recipes?"
+  }
+ ],
+ "keywords": [
+  "betty quin",
+  "camp",
+  "camping 101",
+  "camping 101: enchanting",
+  "enchanted lute",
+  "enchanting",
+  "stormwind"
+ ],
+ "related": [
+  "topic:stormwind-kingdom"
+ ],
+ "sections": [
+  {
+   "body": "Life on the road across Azeroth demands more than steel and rations; morale and comfort out in the wilds are just as vital to surviving long journeys. Enchanters bring magical flair to any campfire, using their esoteric craft to turn quiet downtime into restorative entertainment that prepares travelers for the trials of the trail.",
+   "spoiler": 0,
+   "title": "Magic on the Trail"
+  },
+  {
+   "body": "Enchanters seeking to craft specialty campsite items are directed to Betty Quin in Stormwind. Once a practitioner demonstrates sufficient skill in enchanting, she can share the knowledge necessary to construct an Enchanted Lute, an instrument woven with charms to lift spirits around the campfire.",
+   "spoiler": 0,
+   "title": "Seeking Betty Quin"
+  }
+ ],
+ "summary": "Camping 101: Enchanting directs enchanters to seek out Betty Quin in the city of Stormwind to learn specialized campcraft. By infusing leisure items like an Enchanted Lute with magic, enchanters help keep spirits high and bodies rested along the trail.",
+ "attribution": [
+  "In-game quest text: Camping 101: Enchanting"
+ ]
+}

@@ -299,11 +299,18 @@ local function clampPan(f, ox, oy)
   return ox, oy
 end
 
--- Markers out of view are hidden, so nothing clipped away takes the mouse.
+-- Markers out of view are hidden, so nothing clipped away takes the mouse (pins too: b.at, where placePins put
+-- it).
 local function markersInView(f)
   for _, b in ipairs(f.markers) do
     if b.cluster then
       local x, y = b.cluster.x - f.ox, b.cluster.y - f.oy
+      b:SetShown(x > -4 and x < f.w + 4 and y > -4 and y < f.h + 4)
+    end
+  end
+  for _, b in ipairs(f.pinMarkers or {}) do
+    if b.pin and b.at then
+      local x, y = b.at[1] - f.ox, b.at[2] - f.oy
       b:SetShown(x > -4 and x < f.w + 4 and y > -4 and y < f.h + 4)
     end
   end
@@ -693,12 +700,72 @@ local function placeFocus(f)
   hideFrom(f.links, n)
 end
 
+-- Spots pinned with Willo (LOR-672, Map.SetPins): a blue bead in a white ring each, over the moments, on the map shown
+-- (a pin on another zone waits until that zone, or the whole journey, is shown). The mouse names it; a click does
+-- nothing (a pin has no lore of its own).
+local PIN = 11
+local function pinMarker(f, i)
+  local b = f.pinMarkers[i]
+  if b then return b end
+  b = CreateFrame("Button", nil, f.pins)
+  b:SetSize(HIT, HIT)
+  b:SetFrameLevel((tonumber(f.pins:GetFrameLevel()) or 1) + 3)
+  b.ring = smooth(texture(b, "BACKGROUND", 0, DISC, WHITE))
+  b.ring:SetPoint("CENTER")
+  b.ring:SetSize(PIN + 4, PIN + 4)
+  b.ring:SetVertexColor(T.rgba(T.color.mapRing))
+  b.dot = smooth(texture(b, "ARTWORK", 0, DISC, WHITE))
+  b.dot:SetPoint("CENTER")
+  b.dot:SetSize(PIN, PIN)
+  b.dot:SetVertexColor(T.rgba(T.color.mapPin))
+  b:SetScript("OnEnter", function(self)
+    local pin = self.pin
+    if not pin then return end
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(pin.title or "")
+    if pin.sub and pin.sub ~= "" then T.Tip(pin.sub, "tipText", true) end
+    if pin.foot and pin.foot ~= "" then T.Tip(pin.foot, "tipDim", true) end
+    GameTooltip:Show()
+  end)
+  b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  f.pinMarkers[i] = b
+  return b
+end
+
+local function placePins(f)
+  local z, n = f.zoom or 1, 0
+  for _, pin in ipairs(f.pinList or {}) do
+    local x, y = onMap(f, pin.spot)
+    if x then
+      n = n + 1
+      local b = pinMarker(f, n)
+      b.pin, b.at = pin, { x * f.w * z, y * f.h * z }
+      b:ClearAllPoints()
+      b:SetPoint("CENTER", f.surface, "TOPLEFT", b.at[1], -b.at[2])
+      b:Show()
+    end
+  end
+  for i = n + 1, #f.pinMarkers do
+    f.pinMarkers[i].pin, f.pinMarkers[i].at = nil, nil
+    f.pinMarkers[i]:Hide()
+  end
+  f.pinsShown = n
+end
+
+-- The spots pinned with Willo for this map to show: { { spot = Map.Place(...), title, sub, foot }, ... } (Journey.lua).
+function Map.SetPins(f, pins)
+  if not f then return end
+  f.pinList = type(pins) == "table" and pins or {}
+  if f.w and f.target then placePins(f) end
+end
+
 local function layout(f)
   local z = f.zoom or 1
   local W, H = f.w * z, f.h * z
   f.surface:SetSize(W, H)
   if f.target then art(f, f.target, W, H) else noArt(f) end
   placeMarkers(f)
+  placePins(f)
   placeRoad(f)
   drawRoad(f)
   placeFocus(f)
@@ -939,6 +1006,7 @@ function Map.Create(parent, opts)
   pins:SetAllPoints()
   pins:SetFrameLevel(level + 4)
   f.fx, f.pins = fx, pins
+  f.pinMarkers, f.pinList = {}, {}
   f.zoom, f.ox, f.oy = 1, 0, 0
   f.cap = smooth(texture(surface, "ARTWORK", 4, DISC, WHITE))
   f.cap:SetSize(6, 6)

@@ -74,6 +74,11 @@ test("the player's day on their own clock; where their last save left them", () 
     { t: Date.parse("2026-10-18T23:00:00Z") / 1000, k: "lvl", lv: 9 },
   ] };
   assert.deepEqual(lastPlace(journey), { place: "Goldshire, Elwynn Forest", x: null, y: null, day: "October 18" });
+  // A battleground is never where they last were (LOR-685): the place before it.
+  const fought = { tz: -420, moments: [...journey.moments,
+    { t: Date.parse("2026-10-18T23:10:00Z") / 1000, k: "zone", z: "Darkspear Islands", inst: 1 },
+    { t: Date.parse("2026-10-18T23:20:00Z") / 1000, k: "death", z: "Darkspear Islands", s: "Ruins" }] };
+  assert.deepEqual(lastPlace(fought), { place: "Goldshire, Elwynn Forest", x: null, y: null, day: "October 18" });
   assert.equal(lastPlace({ moments: [] }), null);
   assert.equal(lastPlace(null), null);
 });

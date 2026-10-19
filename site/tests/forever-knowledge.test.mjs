@@ -3,7 +3,7 @@
 // In-process on node:sqlite (helpers.mjs); Gemini is a stub. Run: node --test 'site/tests/*.test.mjs'
 import { test, beforeEach, afterEach } from "node:test";
 import assert from "node:assert/strict";
-import { onRequest as answer } from "../functions/api/companion/answer.js";
+import { onRequest as answer, needsPlace } from "../functions/api/companion/answer.js";
 import { onRequestPost as flag } from "../functions/api/companion/feedback.js";
 import { onRequestGet as adminGet, onRequestPost as adminPost } from "../functions/api/admin/willo.js";
 import { findOrCreateUser, setup, deleteUser } from "../lib/accounts.js";
@@ -83,15 +83,21 @@ test("an older add-on's lore gives way to newer Forever facts; the current one a
   }
 });
 
-test("asking how to get somewhere brings Forever's boat and zeppelin network, even with no boat named", async () => {
+test("asking how to get somewhere brings the way, or Forever's boat and zeppelin network when there's no way to work out", async () => {
   const token = await linked();
   const body = await ask(token, "PLAYER CONTEXT\nzone: Ironforge\nsub: Military Ward\n\nSOURCES\n\nQUESTION\n" +
     "How do I get to Fray Island from here?", { style: "spoken", research: "auto" });
-  // Fray Island is a place of its own now (the gold set, 10/18): the way there first, the network with it.
+  // Fray Island is a place of its own now (the gold set, 10/18): the way there, worked out from Forever's ships,
+  // zeppelins, tram and flights; the lists of every ship and flight point beside it only tempted another leg (the
+  // vision check, 10/19: an airship from Skywatcher Plateau on the way from Bloodhoof to Orgrimmar).
   assert.equal(body.forever_facts[0], "The way to Fray Island");
-  assert.ok(body.forever_facts.includes("Every boat and zeppelin in WoW Forever"), body.forever_facts.join(", "));
-  assert.match(systems[0], /FOREVER FACTS[^]*Stormwind Harbor to Auberdine/);
-  assert.equal(body.looked_up, "no");   // the network covers it: no quick look online
+  assert.ok(!body.forever_facts.includes("Every boat and zeppelin in WoW Forever"), body.forever_facts.join(", "));
+  assert.equal(body.looked_up, "no");   // the way covers it: no quick look online
+  // From nowhere known, no way to work out: the network.
+  const anywhere = await ask(token, "PLAYER CONTEXT\n(none)\n\nSOURCES\n\nQUESTION\nHow do I get to Fray Island?",
+    { style: "spoken", research: "auto" });
+  assert.ok(anywhere.forever_facts.includes("Every boat and zeppelin in WoW Forever"), anywhere.forever_facts.join(", "));
+  assert.match(systems.at(-1), /FOREVER FACTS[^]*Stormwind Harbor to Auberdine/);
 });
 
 test("a flight path question gets Forever's flight network and the flight point it's about, from the client", async () => {
@@ -233,7 +239,7 @@ test("promptParts reads the question, place and last answer the companion sent, 
     conversation("Q1", "A1") + "\n\nQUESTION\nWhat city is that?\n\nRESEARCH FOCUS: something");
   assert.deepEqual(p, { question: "What city is that?", zone: "Wetlands", sub: "Baradin Bay", faction: "", race: "",
     class: "", level: "", previous: "A1", previousQuestion: "Q1", target: "",
-    quests: [{ title: "Apprentice's Duties", id: "471" }] });
+    quests: [{ title: "Apprentice's Duties", id: "471" }], savedPlace: "" });
   const c = promptParts("CHARACTER\n...\n\nTHE ADVENTURER\nrace: Human\nWhere you both are: Southshore, Hillsbrad Foothills\n\n" +
     "THE ADVENTURER SAYS\nWhere does the boat go?");
   assert.equal(c.question, "Where does the boat go?");
@@ -288,4 +294,42 @@ test("a quest done for an item's sake brings its chain", async () => {
   assert.match(k.block, /"Cyclonian".*Liferoot.*Bloodscalp Tusk.*Essence of the Exile/);
   assert.match(k.block, /"Essence of the Exile".*Thundering Charm/);
   assert.doesNotMatch(k.block, /Mastering the Elements/);
+});
+
+test("she's told she doesn't know where they are only when it matters and nothing else says it (the live check, 10/19)", () => {
+  const none = { zone: "", target: "" };
+  assert.equal(needsPlace("Where's the flightmaster?", none, null), true);
+  assert.equal(needsPlace("Is my current gear good for an arms warrior?", none, null), true);
+  assert.equal(needsPlace("Who's this in front of me?", none, null), true);
+  assert.equal(needsPlace("Who was Arthas?", none, null), false, "lore needs no place");
+  assert.equal(needsPlace("Where's the flightmaster?", { zone: "Elwynn Forest", target: "" }, null), false);
+  assert.equal(needsPlace("Who's this in front of me?", { zone: "", target: "Marshal Dughan" }, null), false);
+  assert.equal(needsPlace("Where's the flightmaster?", none, "data:image/jpeg;base64,AAAA"), false, "a picture shows it");
+  assert.equal(needsPlace("Where's the flight master?", none, null, [{ title: "flight master near Darnassus", asked: true }]),
+    false, "the site found the place the question names");
+  assert.equal(needsPlace("Where's the flight master?", none, null, [{ id: "flight-network", asked: true }]), true,
+    "a general fact doesn't say where they are");
+});
+
+test("Live game info is offered once, under an answer that needed where they are, with its consent button (10/19)", async () => {
+  const token = await linked();
+  const asked = (live, q = "Where's the flightmaster?") => ask(token, `WILLO STATE\nlive: ${live}\n\nPLAYER CONTEXT\n(none)\n\n` +
+    `SOURCES\n\nQUESTION\n${q}`, { style: "spoken" });
+  const first = await asked("off");
+  assert.match(systems.at(-1), /WHERE THEY ARE/, "and she's told she doesn't know where they are");
+  assert.equal(first.action?.id, "live_game_info", "its consent button, the same explained yes as its card");
+  assert.match(first.answer, /Live game info on.*Want to see how it works\?$/);
+  const again = await asked("off", "Where is the closest graveyard?");
+  assert.equal(again.action, undefined, "never again for this account");
+  assert.doesNotMatch(again.answer, /Live game info/);
+  const other = await linked();
+  const on = await ask(other, "WILLO STATE\nlive: on\n\nPLAYER CONTEXT\n(none)\n\nSOURCES\n\nQUESTION\nWhere's the flightmaster?",
+    { style: "spoken" });
+  assert.equal(on.action, undefined, "on already: nothing to offer");
+  const lore = await ask(other, "WILLO STATE\nlive: off\n\nPLAYER CONTEXT\n(none)\n\nSOURCES\n\nQUESTION\nWho was Arthas?",
+    { style: "spoken" });
+  assert.equal(lore.action, undefined, "a question that doesn't need where they are");
+  const gear = await ask(other, "WILLO STATE\nlive: off\n\nPLAYER CONTEXT\n(none)\n\nSOURCES\n\nQUESTION\nIs my gear good for my level?",
+    { style: "spoken" });
+  assert.equal(gear.action, undefined, "Live game info doesn't show their gear");
 });
