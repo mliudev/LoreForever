@@ -3,7 +3,7 @@
 
 local _, ns = ...
 ns.Notes = {
-  version = "0.24.1",
+  version = "0.24.2",
   released = "2026-10-21",
   items = {
     { "", "Fixed a Windows issue that could stop Willo from saving your journal and syncing character information.", "" },
