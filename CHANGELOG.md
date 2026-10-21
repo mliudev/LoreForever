@@ -7,7 +7,7 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
-## 0.24.1 (2026-10-21)
+## 0.24.2 (2026-10-21)
 
 - Fixed a Windows issue that could stop Willo from saving your journal and syncing character information.
 
