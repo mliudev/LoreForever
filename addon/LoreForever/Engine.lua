@@ -288,12 +288,14 @@ function Engine.DocTexts(e)
   return out
 end
 
-function Engine.BuildSearch(db)
+-- pause: called between entries (and every few hundred words at the end), so Engine:BuildLater can build it in steps.
+function Engine.BuildSearch(db, pause)
   local keys = {}
   for k in pairs(db.entries) do keys[#keys + 1] = k end
   table.sort(keys)
   local docs, entryDocs, lists, total, n = {}, {}, {}, 0, 0
   for ki, key in ipairs(keys) do
+    if pause then pause() end
     local first = n + 1
     for _, d in ipairs(Engine.DocTexts(db.entries[key])) do
       n = n + 1
@@ -310,19 +312,65 @@ function Engine.BuildSearch(db)
     end
     entryDocs[ki] = enc(first, 3) .. enc(n - first + 1, 1)
   end
-  local post = {}
-  for t, l in pairs(lists) do post[t] = table.concat(l) end
+  local post, words = {}, 0
+  for t, l in pairs(lists) do
+    post[t], words = table.concat(l), words + 1
+    if pause and words % 256 == 0 then pause() end
+  end
   return { keys = keys, docs = table.concat(docs), entryDocs = table.concat(entryDocs), post = post, N = n,
     avgLen = total / math.max(1, n) }
 end
 
-function Engine.new(db)
+-- Search with index s from now on (its doc numbers are its own, so the doc vectors kept for the old one go).
+function Engine:UseSearch(s)
+  self.search, self.post, self.N, self.avgLen, self.keyId, self.docVecs = s, s.post, s.N, s.avgLen, {}, nil
+  for i, k in ipairs(s.keys) do self.keyId[k] = i end
+end
+
+-- A language pack whose index can't be used (made for another version of Lore Forever, or a test pack's text) needs one
+-- built over the merged text. At login that ran past the game's script time limit on a big pack (10/19: "script ran
+-- too long", and the rest of login never ran, so nothing in the add-on worked). With english, the index the add-on
+-- ships, search uses it at once and this builds the pack's a few milliseconds a frame, then switches to it.
+local BUILD_MS = 8
+function Engine:BuildLater()
+  local clock, started = _G.debugprofilestop, 0
+  local co = coroutine.create(function()
+    return Engine.BuildSearch(self.db, function()
+      if clock and clock() - started > BUILD_MS then coroutine.yield() end
+    end)
+  end)
+  local done, ticker
+  local function stop(t)
+    if t or ticker then (t or ticker):Cancel() end
+  end
+  ticker = C_Timer.NewTicker(0, function(t)   -- (the game passes the ticker; ticker isn't set yet on the first call)
+    if done then return stop(t) end
+    started = clock and clock() or 0
+    local ok, built = coroutine.resume(co)
+    if not ok or coroutine.status(co) == "dead" then
+      done = true
+      stop(t)
+      if not ok then   -- the English index stays: search still works, in English words
+        if geterrorhandler then geterrorhandler()(built) end
+        return
+      end
+      self.db.search = built
+      self:UseSearch(built)
+    end
+  end)
+  if done and ticker then ticker:Cancel() end
+end
+
+function Engine.new(db, english)
   local self = setmetatable({ db = db, nameIndex = {}, titleIndex = {}, titleLen = {}, keyId = {}, lastKey = nil,
     asked = {} }, Engine)
-  db.search = db.search or Engine.BuildSearch(db)
-  local s = db.search
-  self.search, self.post, self.N, self.avgLen = s, s.post, s.N, s.avgLen
-  for i, k in ipairs(s.keys) do self.keyId[k] = i end
+  if not db.search and english and C_Timer and C_Timer.NewTicker then
+    self:UseSearch(english)
+    self:BuildLater()
+  else
+    db.search = db.search or Engine.BuildSearch(db)
+    self:UseSearch(db.search)
+  end
   for key, e in pairs(db.entries) do self:IndexNames(key, e) end
   -- Entries that share their name with one in another zone ("Canals (Stormwind City)", "Canals (Undercity)"), so Ask
   -- can tell them apart by zone. Zones themselves are left out: the city Undercity isn't a namesake of its entrance.

@@ -1,0 +1,108 @@
+{
+ "key": "quest:94003",
+ "type": "quest",
+ "name": "The Skybreaker Bulwark",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94003
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Warriors who value defensive mastery will find kindred purpose here, as recovering the ancestral shield rewards instruction in the Skybreaker Defense technique."
+  },
+  {
+   "target": "class:Paladin",
+   "text": "Shield-bearing defenders who revere sacred relics will appreciate reclaiming a blessed heirloom from the grasp of a corrupt cultist."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who are the skybreakers",
+    "skybreaker family"
+   ],
+   "answer": "The Skybreakers are an ancient lineage on Zephras Isle whose members have been almost entirely wiped out. The quest giver is the sole surviving member of this family line after the rest were slain by the Al'Aketh.",
+   "q": "Who are the Skybreakers?"
+  },
+  {
+   "aliases": [
+    "what is the skybreaker bulwark",
+    "the shield",
+    "skybreaker shield lore"
+   ],
+   "answer": "The Skybreaker Bulwark is an ancestral shield belonging to the Skybreaker line on Zephras Isle. According to family tradition and lore, no harm can befall anyone deemed a worthy wielder of the shield.",
+   "q": "What is the Skybreaker Bulwark?"
+  },
+  {
+   "aliases": [
+    "who killed the skybreakers",
+    "what are the alaketh",
+    "alaketh"
+   ],
+   "answer": "The Al'Aketh are the hostile force responsible for slaughtering the Skybreaker family on Zephras Isle, leaving only a solitary survivor to lament their loss.",
+   "q": "Who are the Al'Aketh?"
+  },
+  {
+   "aliases": [
+    "who has the shield",
+    "zaal",
+    "stormshield"
+   ],
+   "answer": "Zaal Stormshield is a cultist who stole the Skybreaker Bulwark following the demise of the Skybreaker family. He can be found carrying the heirloom at the Shrine of Akir on Zephras Isle.",
+   "q": "Who is Zaal Stormshield?"
+  },
+  {
+   "aliases": [
+    "where is zaal",
+    "shrine of akir location",
+    "where to find shield"
+   ],
+   "answer": "The Shrine of Akir is a site on Zephras Isle where the cultist Zaal Stormshield has taken refuge with the stolen Skybreaker Bulwark.",
+   "q": "Where is the Shrine of Akir?"
+  },
+  {
+   "aliases": [
+    "why recover shield",
+    "what is skybreaker defense",
+    "shield reward"
+   ],
+   "answer": "Recovering the heirloom rectifies the family's shame and removes the sacred relic from unworthy hands. In exchange for reclaiming it, the last Skybreaker imparts the knowledge of the Skybreaker Defense.",
+   "q": "Why must the Bulwark be reclaimed?"
+  }
+ ],
+ "keywords": [
+  "al'aketh",
+  "shrine of akir",
+  "skybreaker",
+  "skybreaker bulwark",
+  "skybreaker defense",
+  "the skybreaker bulwark",
+  "zaal stormshield",
+  "zephras isle"
+ ],
+ "related": [
+  "zone:zephras"
+ ],
+ "sections": [
+  {
+   "body": "On Zephras Isle, the ancestral lineage of the Skybreakers has met a tragic end at the hands of the Al'Aketh. The family was brutally murdered, leaving only a single survivor burdened by deep sorrow and the bitter shame of seeing their greatest family heirloom lost. This treasured relic, the Skybreaker Bulwark, was taken by a cultist named Zaal Stormshield, who currently lurks at the Shrine of Akir.",
+   "spoiler": 0,
+   "title": "A Fallen Lineage"
+  },
+  {
+   "body": "Family tradition holds that the Skybreaker Bulwark possesses a protective blessing: no harm may befall anyone who is truly worthy to wield it. Convinced that the cultist Zaal is unworthy of its divine favor, the last Skybreaker seeks an adventurer to travel to the Shrine of Akir, strike down the thief, and reclaim the ancestral shield in exchange for training in the Skybreaker Defense technique.",
+   "spoiler": 0,
+   "title": "The Sacred Shield"
+  }
+ ],
+ "summary": "The Skybreaker Bulwark is a quest on Zephras Isle concerning the tragic downfall of the Skybreaker lineage. Adventurers are tasked with traveling to the Shrine of Akir to reclaim a sacred ancestral shield from the cultist Zaal Stormshield.",
+ "attribution": [
+  "In-game quest text: The Skybreaker Bulwark"
+ ]
+}

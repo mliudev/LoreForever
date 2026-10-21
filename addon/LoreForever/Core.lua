@@ -428,6 +428,8 @@ local function buttonTooltip(self, anchor)
   if ns.WhatsNew.Pending("card") then
     T.Tip(string.format(L["New in %s: open Lore Forever to see what's new."], ns.WhatsNew.Version()), "tipGood")
   end
+  local newer = ns.Updates.TooltipLine()
+  if newer then T.Tip(newer, "gold") end
   if busy then
     local ours = pl.state == "playing" and cur
     T.Tip(ours and string.format(L["Now playing: %s (%d of %d)"], cur.label, pl.pos, n)
@@ -605,9 +607,11 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
       ns.dataMissing = true
       return sayDataMissing()
     end
+    local english = ns.DB.search   -- the index the add-on ships: search's while a language pack's own is built
     ns.Lang.Init()   -- scans packs; the language pack, if any, goes in before the engine indexes the text
     setBindingNames()
-    ns.engine = ns.Engine.new(ns.DB)
+    -- (an edition has entries of its own, which the English index doesn't fit)
+    ns.engine = ns.Engine.new(ns.DB, not (ns.lang and ns.lang.edition) and english or nil)
     -- The journey's errors are reported, never fatal to the rest.
     local ok, err = pcall(ns.Journey.Init)
     if not ok and geterrorhandler then geterrorhandler()(err) end
@@ -642,6 +646,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     C_Timer.After(6, ns.Hooks.MaybeOnboard)
     C_Timer.After(12, loginTip)   -- after the key prompt (6 s), once the login chat has settled
     ns.Log.SessionStart()   -- usage counts: a game session (not a /reload), the level range, voice and settings
+    ns.Updates.Init()   -- a newer version out? Once in chat, after the login tip (Updates.lua)
   elseif event == "UPDATE_BINDINGS" then
     bindingsReady()
   elseif event == "PLAYER_ENTERING_WORLD" or event == "ZONE_CHANGED_NEW_AREA" then
@@ -823,6 +828,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore report - tell us the last answer was wrong (or click the cross under any answer)"])
     say(L["/lore ctx | export | visits | stats - what Lore Forever sees, for bug reports and playtests"])
     say(L["/lore errors - copy Lore Forever's recent Lua errors for a bug report"])
+    say(L["/lore version - which version you have, and whether a newer one is out"])
     say(string.format(L["Questions, requests and bug reports: %s"], DISCORD_URL))
   elseif cmd == "key" or cmd == "key narrate" or cmd == "key willo" then
     ns.Hooks.KeyPrompt(cmd:match("^key (%a+)$") or "toggle"):Show()
@@ -931,6 +937,8 @@ SlashCmdList.LOREFOREVER = function(msg)
     end
     showExport((text:gsub("|", "||")))   -- a | would start an escape code in the box
     say(L["Press Ctrl+C to copy, then paste it at loreforeverwow.com/feedback (Something's broken) or in our Discord."])
+  elseif cmd == "version" then
+    ns.Updates.Describe(say)
   elseif cmd == "visits" then
     local rows = {}
     for zone, v in pairs(LoreForeverDB.visits) do rows[#rows + 1] = { zone = zone, v = v } end

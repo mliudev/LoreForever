@@ -665,7 +665,10 @@ check("Options", {
     local wrong, unknown = {}, {}
     for _, cb in ipairs(p.checks or {}) do
       if ns.Options.DEFAULTS[cb.key] == nil then unknown[#unknown + 1] = cb.key end
-      if (cb:GetChecked() and true or false) ~= (S()[cb.key] and true or false) then wrong[#wrong + 1] = cb.key end
+      local shown = S()[cb.key]
+      -- The live-info box shows the setting or Willo's yes (Strip.Always), as Options.lua's OnShow does
+      if cb.key == "liveStripAlways" and ns.Strip then shown = ns.Strip.Always() end
+      if (cb:GetChecked() and true or false) ~= (shown and true or false) then wrong[#wrong + 1] = cb.key end
     end
     expect("Options: tick boxes show the settings", #wrong == 0 and #unknown == 0 and #(p.checks or {}) > 0,
       (#wrong > 0 and ("wrong: " .. table.concat(wrong, ", ")) or "")

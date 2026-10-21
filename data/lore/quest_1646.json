@@ -1,0 +1,109 @@
+{
+ "key": "quest:1646",
+ "type": "quest",
+ "name": "The Tome of Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1646
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "The Tome of Divinity introduces young paladins to the foundational tenets of their calling, emphasizing that compassion and service are just as essential as martial skill."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven paladins in Ironforge receive this instruction through mentors like Tiza Battleforge to ensure their strength is guided by patience and virtue."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is the tome of divinity",
+    "tome of divinity paladin",
+    "what does the tome teach"
+   ],
+   "answer": "The Tome of Divinity is a core instructional text given to novice paladins. It teaches that being divine is not about seeking godhood, but striving to do good, aid the less fortunate, and embody compassion, patience, and bravery.",
+   "q": "What is the Tome of Divinity?"
+  },
+  {
+   "aliases": [
+    "who is tiza battleforge",
+    "tiza battleforge location",
+    "where is tiza"
+   ],
+   "answer": "Tiza Battleforge is a paladin mentor located in Ironforge who guides novices through their initial trials, ensuring they understand the balance between righteous combat and selfless service.",
+   "q": "Who is Tiza Battleforge?"
+  },
+  {
+   "aliases": [
+    "why read the tome",
+    "paladin virtues",
+    "why patience and compassion"
+   ],
+   "answer": "A paladin's power comes from reflecting the Light, which requires sound character and moral discipline. Strength in battle alone is insufficient without the patience and compassion needed to defend and uplift others.",
+   "q": "Why must paladins study patience and compassion?"
+  },
+  {
+   "aliases": [
+    "what happens after reading the tome",
+    "tome of divinity trials",
+    "next trial after reading"
+   ],
+   "answer": "After reading the text, paladins must demonstrate their virtues through practical tests. Mentors assign them tasks across the city and surrounding lands to assist the needy and prove their dedication to the Light.",
+   "q": "What tests follow reading the book?"
+  },
+  {
+   "aliases": [
+    "where is this quest turned in",
+    "ironforge paladin quest"
+   ],
+   "answer": "The quest directs paladins to return to Tiza Battleforge in the dwarven capital of Ironforge once they have studied the teachings of the tome.",
+   "q": "Where does this trial take place?"
+  },
+  {
+   "aliases": [
+    "what does striving for divinity mean",
+    "paladin godhood"
+   ],
+   "answer": "According to the text, striving to be divine does not mean aspiring to godhood. Instead, it means actively choosing to be good in all actions and using the Light to support and protect the people of Azeroth.",
+   "q": "What does it mean to strive for divinity?"
+  }
+ ],
+ "keywords": [
+  "compassion",
+  "holy light",
+  "ironforge",
+  "paladin",
+  "patience",
+  "the tome of divinity",
+  "tiza battleforge",
+  "tome of divinity"
+ ],
+ "related": [
+  "npc:tiza-battleforge",
+  "topic:light",
+  "zone:ironforge"
+ ],
+ "sections": [
+  {
+   "body": "The Tome of Divinity represents an essential milestone in the training of a paladin. Delivered through mentors such as Tiza Battleforge in Ironforge, the text grounds initiates in the spiritual purpose behind their martial prowess. Rather than glorifying dominion or godhood, the book teaches that true divinity lies in pursuing moral goodness and serving as a steady instrument of the Light.",
+   "spoiler": 0,
+   "title": "The Measure of Divinity"
+  },
+  {
+   "body": "While warriors of the Light are regularly called upon to smite evil across Azeroth, the tome stresses that martial strength alone does not define a paladin. Compassion, patience, and humility set them apart from common combatants. After studying the text, initiates are directed to undertake trials across Ironforge and nearby lands, performing acts of charity and service to demonstrate their sound mind and unwavering devotion.",
+   "spoiler": 0,
+   "title": "Trials of Service and Compassion"
+  }
+ ],
+ "summary": "The Tome of Divinity is a foundational paladin quest centered on the spiritual virtues that guide holy warriors. Presented by mentors like Tiza Battleforge in Ironforge, it instructs initiates that genuine devotion to the Light requires patience, compassion, and humble service to the needy alongside martial strength.",
+ "attribution": [
+  "In-game quest text: The Tome of Divinity"
+ ]
+}

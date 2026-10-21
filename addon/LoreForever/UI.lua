@@ -1279,11 +1279,12 @@ function UI.SavePlayback()
   end
   local edition = ns.lang and ns.lang.edition
   if edition and not edition.unavailable and (#UI.pl.items > 0 or UI.activeTarget) then any = true end
+  if UI.miniClosed and #UI.pl.items > 0 then any = true end   -- keep the queue behind a closed player
   if not any then store[who] = nil return end
   local target = UI.resumeTarget or (edition and UI.activeTarget)
   store[who] = { version = 1, edition = ns.Lang.EditionKey(), progress = progress, target = target and {
     id = target.id, key = target.key, label = target.label, story = target.story, text = target.text,
-    fromPlaylist = target.fromPlaylist }, items = UI.pl.items, pos = UI.pl.pos }
+    fromPlaylist = target.fromPlaylist }, items = UI.pl.items, pos = UI.pl.pos, closed = UI.miniClosed or nil }
 end
 
 function UI.RestorePlayback()
@@ -1291,6 +1292,7 @@ function UI.RestorePlayback()
   local saved = store and store[who]
   if type(saved) ~= "table" or saved.version ~= 1 or type(saved.progress) ~= "table" then return end
   if (saved.edition or "stock") ~= ns.Lang.EditionKey() then return end
+  UI.miniClosed = saved.closed == true or nil
   for key, p in pairs(saved.progress) do
     local qid, kind
     if type(key) == "string" then qid, kind = key:match("^quest:(%d+)#(%a+)$") end
@@ -3047,7 +3049,8 @@ local function itemTarget(it)
     if clip then
       it.page = p
       local e = it.key and UI.engine.db.entries[it.key]
-      return { id = it.id, key = clip, label = it.label, text = UI.QuestPageText(it.quest, it.pages[p]), story = it.key }
+      return { id = it.id, key = clip, label = ns.Voice.questTitles[clip] or it.label,   -- (its language's, Voice.QuestClip)
+        text = UI.QuestPageText(it.quest, it.pages[p]), story = it.key }
     end
   end
 end
@@ -3187,7 +3190,8 @@ local function newItem(key, idx)
   return { id = idx and (faqID(key, idx)) or key, key = key, idx = idx, label = idx and e.faq[idx].q or e.n }
 end
 
--- Add item `it` to the end. The first item normally starts now or after what's playing.
+-- Add item `it` to the end. The first item normally starts now or after what's playing; with a story paused outside the
+-- queue it waits under that one (UI.RefreshPlaylist), which Play picks up first (UI.ResumeStopped).
 -- deferStart keeps a stopped player paused when queuing from the composer. quiet omits the flash and note.
 local function addItem(it, quiet, deferStart)
   local pl = UI.pl
@@ -3202,7 +3206,7 @@ local function addItem(it, quiet, deferStart)
   if #pl.items == 1 then
     pl.pos = 1
     if UI.speaking then pl.state = "waiting"
-    elseif deferStart then pl.state = "paused"
+    elseif deferStart or UI.PlayerSolo() then pl.state = "paused"
     else return playCurrent() or true end
   end
   UI.UpdateListen()
@@ -3380,6 +3384,18 @@ function UI.PlaylistClear()
   UI.UpdateListen()
 end
 
+-- The queue's Clear all and the player's Clear playlist: the playlist empties, and a story played outside it, playing
+-- or paused, goes too (the queue shows it on top, UI.RefreshPlaylist). Nothing is left to come back after /reload
+-- (UI.SavePlayback), and Play doesn't pick a stopped one up again.
+function UI.QueueClearAll()
+  UI.PlaylistClear()   -- first: the playlist paused, a story ahead of it can't hand over to it
+  UI.PlayerClearStory()
+  local t = UI.resumeTarget   -- one the player can't show now (its voice turned off) goes too
+  if t and not UI.speaking then UI.progress[t.key], UI.resumeTarget = nil, nil end
+  UI.stoppedTarget = nil
+  UI.UpdateListen()
+end
+
 -- Take item i out. Removing the one that's playing moves on to the next.
 function UI.PlaylistRemove(i)
   local pl = UI.pl
@@ -3465,11 +3481,16 @@ function UI.CreatePlaylist(view)
   icon:SetSize(18, 18)
   icon:SetPoint("LEFT", 4, 0)
   icon:SetTexture("Interface\\Buttons\\UI-SpellbookIcon-NextPage-Up")
-  now:SetScript("OnClick", function() UI.PlaylistToggle() end)
+  -- A story outside the queue on top (UI.RefreshPlaylist): pause it or pick it up again, as the player's Play does.
+  now:SetScript("OnClick", function()
+    if UI.PlayerSolo() then UI.PlayerPlay() else UI.PlaylistToggle() end
+  end)
   now:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     T.Tip(self.full or "", "tipText", true)
-    T.Tip(UI.pl.state == "playing" and L["Click to pause"] or L["Click to play it from the start"], "tipDim")
+    local solo = UI.PlayerSolo()
+    T.Tip(solo and (UI.speaking and L["Click to pause"] or L["Resume starts at the previous audio segment."])
+      or (UI.pl.state == "playing" and L["Click to pause"] or L["Click to play it from the start"]), "tipDim")
     GameTooltip:Show()
   end)
   now:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -3482,7 +3503,7 @@ function UI.CreatePlaylist(view)
   local cw = clear.GetTextWidth and tonumber(clear:GetTextWidth())
   clear:SetWidth(math.max(66, math.min(120, (cw or 46) + 20)))   -- "Alles löschen" runs wider than the English
   clear:SetPoint("TOPRIGHT", view, "TOPLEFT", SIDE_W - 10, -126)
-  clear:SetScript("OnClick", function() UI.PlaylistClear() end)
+  clear:SetScript("OnClick", function() UI.QueueClearAll() end)
   clear:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     GameTooltip:AddLine(L["Empty the playlist"])
@@ -3582,7 +3603,10 @@ function UI.RefreshPlaylist()
   local P, pl = UI.plUI, UI.pl
   if not P then return end
   local n, cur = #pl.items, pl.items[pl.pos]
-  local list = n > 0
+  -- A story outside the queue, playing or paused, is on top as what plays (Mike, 2026-10-19: "show the current
+  -- narration in the queue and to be able to clear the queue"); the queue's own current item waits under Up next.
+  local solo = UI.PlayerSolo()
+  local list = n > 0 or solo ~= nil
   for _, w in ipairs({ P.head, P.head.rule, P.count, P.now, P.upHead, P.upHead.rule, P.clear, P.scroll }) do
     w:SetShown(list)
   end
@@ -3602,18 +3626,25 @@ function UI.RefreshPlaylist()
     for _, r in ipairs(P.rows) do r:Hide() end
     return
   end
-  local ours = pl.state == "playing" or pl.state == "waiting"
-  P.head:SetText(pl.state == "playing" and L["Now playing"] or (pl.state == "waiting" and L["Plays next"] or L["Paused"]))
-  P.count:SetText(string.format(L["%d of %d"], pl.pos, n))
-  P.now.full = cur.label
-  P.now.text:SetText((ours and GREEN or WHITE) .. esc(cur.label) .. "|r")
+  if solo then
+    P.head:SetText(UI.speaking and L["Now playing"] or L["Paused"])
+    P.count:SetText("")
+    P.now.full = solo.label
+    P.now.text:SetText((UI.speaking and GREEN or WHITE) .. esc(solo.label) .. "|r")
+  else
+    local ours = pl.state == "playing" or pl.state == "waiting"
+    P.head:SetText(pl.state == "playing" and L["Now playing"] or (pl.state == "waiting" and L["Plays next"] or L["Paused"]))
+    P.count:SetText(string.format(L["%d of %d"], pl.pos, n))
+    P.now.full = cur.label
+    P.now.text:SetText((ours and GREEN or WHITE) .. esc(cur.label) .. "|r")
+  end
 
   -- Up next (numbered, with reorder and remove), then the earlier ones, played or skipped (greyed; click to hear one).
   -- While searching, only matching items show (Earlier only if one of them matches), and the move arrows hide: moving
   -- past items you can't see would be guesswork.
   local function hit(i) return not searching or UI.SearchMatch(search.words, pl.items[i].label) end
   local specs = {}
-  for i = pl.pos + 1, n do
+  for i = math.max(1, solo and pl.pos or pl.pos + 1), n do
     if hit(i) then specs[#specs + 1] = { index = i } end
   end
   local earlier = {}
@@ -3625,7 +3656,9 @@ function UI.RefreshPlaylist()
     for _, s in ipairs(earlier) do specs[#specs + 1] = s end
   end
   if searching and #specs == 0 then specs[1] = { note = UI.NoMatchText(search) }
-  elseif not searching and pl.pos == n then table.insert(specs, 1, { note = L["Nothing after this one."] }) end
+  elseif not searching and (solo and n == 0 or not solo and pl.pos == n) then
+    table.insert(specs, 1, { note = L["Nothing after this one."] })
+  end
   local y = 0
   for r, s in ipairs(specs) do
     local row = playlistRow(r)
@@ -3821,7 +3854,7 @@ local function playerMenu(p)
       b:SetScript("OnClick", function() m:Hide(); onClick() end)
       return b
     end
-    m.clear = item(1, function() UI.PlaylistClear() end)
+    m.clear = item(1, function() UI.QueueClearAll() end)
     m.clear.text:SetText(L["Clear playlist"])
     m.story = item(2, function()
       if UI.PlayerClearStory() then return end
@@ -4240,12 +4273,16 @@ function UI.ShowQueue(show)
   if UI.dock then updatePlayer(UI.dock) end
 end
 
--- The floating player's X: stop whatever plays and put the player away. It comes back by itself when something plays
--- or joins the queue (UI.UpdateNowPlaying, addItem); the queue and a paused story's place stay, so Play picks up again.
+-- X forgets the current narration and closes the player across /reload. Queued stories stay for later;
+-- playing or adding a story opens the player again. Pause still keeps the current narration's place.
 function UI.ClosePlayer()
   UI.miniClosed = true
   UI.StopAll()
-  UI.UpdateNowPlaying()
+  local target = UI.resumeTarget or UI.activeTarget or UI.stoppedTarget
+  if target then UI.progress[target.key] = nil end
+  UI.activeTarget, UI.resumeTarget, UI.stoppedTarget = nil, nil, nil
+  UI.SavePlayback()
+  UI.UpdateListen()
 end
 
 -- Both players and the minimap button's ring: whenever something plays or the playlist changes. The floating

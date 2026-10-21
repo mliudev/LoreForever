@@ -1,0 +1,108 @@
+{
+ "key": "quest:79095",
+ "type": "quest",
+ "name": "The Apothecary's Metaphysical Primer",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79095
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance scholars and adventurers assist the Ironforge Library by recovering rare treatises to bolster the Grand Library's arcane repositories."
+  },
+  {
+   "target": "class:Mage",
+   "text": "Practitioners of the arcane value metaphysical primers for their deep insights into magical theory, alchemical interactions, and the foundational laws of spellcraft."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is the apothecaries metaphysical primer",
+    "metaphysical primer quest",
+    "what is this book"
+   ],
+   "answer": "The Apothecary's Metaphysical Primer is a rare scholarly text sought by curators to enrich their collection of magical literature and expand their understanding of metaphysical sciences.",
+   "q": "What is The Apothecary's Metaphysical Primer?"
+  },
+  {
+   "aliases": [
+    "who wants this book",
+    "where do i turn in the primer",
+    "who takes the primer"
+   ],
+   "answer": "The volume is brought to a scholar curating a library collection, who seeks out magical works and arcane treatises to preserve knowledge for researchers and spellcasters.",
+   "q": "Who wants this primer delivered to them?"
+  },
+  {
+   "aliases": [
+    "why library want primer",
+    "purpose of collecting primer",
+    "why collect magical books"
+   ],
+   "answer": "Libraries and archives gather metaphysical and magical works to systematically expand their repository of lore, aiding scholars, alchemists, and arcanists in studying arcane principles.",
+   "q": "Why does the library collect works like this?"
+  },
+  {
+   "aliases": [
+    "are there more books to turn in",
+    "can i bring other books",
+    "more library books"
+   ],
+   "answer": "Scholars tasked with cataloging magical literature welcome any further arcane and scholarly discoveries you uncover that can contribute to their archives.",
+   "q": "Can you bring more magical works to the library?"
+  },
+  {
+   "aliases": [
+    "what does metaphysical mean wotlk classic",
+    "metaphysics lore wow",
+    "what is apothecary metaphysics"
+   ],
+   "answer": "In magical scholarship, metaphysics deals with the fundamental nature of magical energies, the unseen forces governing reality, and how physical reagents interact with arcane forces.",
+   "q": "What kind of lore is contained in a metaphysical primer?"
+  },
+  {
+   "aliases": [
+    "who wrote apothecary primer",
+    "apothecary primer author",
+    "who is the apothecary"
+   ],
+   "answer": "The specific apothecary who penned the work remains unnamed in the records, but apothecaries and scholars often compile primers summarizing practical alchemy, herbal mixtures, and mystical formulas.",
+   "q": "Who wrote The Apothecary's Metaphysical Primer?"
+  }
+ ],
+ "keywords": [
+  "alchemy",
+  "apothecary",
+  "ironforge",
+  "library",
+  "magical works",
+  "metaphysical primer",
+  "tome"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "sections": [
+  {
+   "body": "The Apothecary's Metaphysical Primer is a scholarly text covering esoteric and magical principles. Curators seeking to broaden their archives welcome the delivery of such treatises, adding the primer directly to their working collection of magical reference materials.",
+   "spoiler": 0,
+   "title": "A Scholar's Acquisition"
+  },
+  {
+   "body": "Preserving specialized treatises is essential for institutions like the Grand Library of Ironforge. By turning over rare primers on arcane and alchemical theory, explorers help ensure that rare metaphysical insights are safely archived and accessible to researchers rather than lost to the wilderness.",
+   "spoiler": 0,
+   "title": "Expanding the Archives"
+  }
+ ],
+ "summary": "The Apothecary's Metaphysical Primer is a specialized magical text sought by curators to enrich scholarly archives. Turning it in helps preserve rare alchemical and arcane theory for researchers and spellcasters.",
+ "attribution": [
+  "In-game quest text: The Apothecary's Metaphysical Primer"
+ ]
+}

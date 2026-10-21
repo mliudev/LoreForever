@@ -1,0 +1,106 @@
+{
+ "key": "quest:91282",
+ "type": "quest",
+ "name": "A Second Home",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91282
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "Newly risen Forsaken often find themselves adrift after breaking free from the Scourge, making an order grounded in community and shared faith a rare opportunity to rebuild."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Strengthening Forsaken ties in Tirisfal Glades helps consolidate Horde presence in the northern reaches of the Eastern Kingdoms."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is a second home",
+    "quest a second home",
+    "a second home quest"
+   ],
+   "answer": "A Second Home is an invitation extended to newly risen Forsaken to join a newly established class order in Tirisfal Glades. It directs seekers to visit a secluded monastery where like-minded practitioners gather to foster fellowship and explore their shared potential.",
+   "q": "What is the quest A Second Home?"
+  },
+  {
+   "aliases": [
+    "where is bandarion keep",
+    "bandarion keep location",
+    "how to get to bandarion keep"
+   ],
+   "answer": "Bandarion Keep is located on the bluffs just northwest of the Solliden Farmstead in Tirisfal Glades, situated right along the edge of the Whispering Woods.",
+   "q": "Where can Bandarion Keep be found?"
+  },
+  {
+   "aliases": [
+    "who runs bandarion keep",
+    "who formed bandarion keep",
+    "bandarion keep order"
+   ],
+   "answer": "The keep serves as a monastery founded by Forsaken practitioners who are establishing a dedicated order in Tirisfal Glades, emphasizing community and shared faith for newly risen brethren.",
+   "q": "Who established the monastery at Bandarion Keep?"
+  },
+  {
+   "aliases": [
+    "why go to bandarion keep",
+    "bandarion keep purpose"
+   ],
+   "answer": "The founders believe that newly risen undead can only reach their full potential through community and shared purpose, offering Bandarion Keep as a sanctuary and learning ground for their order.",
+   "q": "Why are the Forsaken being invited to Bandarion Keep?"
+  },
+  {
+   "aliases": [
+    "where is solliden farmstead",
+    "solliden farmstead bandarion"
+   ],
+   "answer": "The Solliden Farmstead lies in western Tirisfal Glades, serving as the landmark just southeast of the bluffs where Bandarion Keep overlooks the edge of the Whispering Woods.",
+   "q": "What is the connection to the Solliden Farmstead?"
+  },
+  {
+   "aliases": [
+    "what order is at bandarion keep",
+    "bandarion keep class order"
+   ],
+   "answer": "The order at Bandarion Keep is a newly formed group organized by and for Forsaken practitioners of a specific calling, aiming to support their kin as they adjust to their new unlife.",
+   "q": "What kind of order is gathering at Bandarion Keep?"
+  }
+ ],
+ "keywords": [
+  "a second home",
+  "bandarion keep",
+  "forsaken order",
+  "monastery",
+  "solliden farmstead",
+  "tirisfal glades",
+  "whispering woods"
+ ],
+ "related": [
+  "subzone:bandarion-keep",
+  "subzone:solliden-farmstead"
+ ],
+ "sections": [
+  {
+   "body": "A Second Home is an introductory call directed toward newly risen Forsaken finding their footing in Tirisfal Glades. Rather than wandering alone through the grim reality of unlife, newly awakened individuals are encouraged to seek fellowship among their peers, relying on mutual faith and community to unlock their true potential.",
+   "spoiler": 0,
+   "title": "A Gathering of the Risen"
+  },
+  {
+   "body": "The invitation points travelers toward Bandarion Keep, a monastery positioned on the rugged bluffs northwest of the Solliden Farmstead. Perched beside the enigmatic Whispering Woods, this stronghold provides a refuge where members of the newly formed order can study, practice, and establish roots in the lands of Tirisfal.",
+   "spoiler": 0,
+   "title": "Sanctuary on the Bluffs"
+  }
+ ],
+ "summary": "A Second Home is an invitation directed to newly risen Forsaken to join a fledgling order in Tirisfal Glades. It points initiates to Bandarion Keep, a monastery nestled on the bluffs northwest of the Solliden Farmstead near the Whispering Woods. The initiative aims to provide community, shared faith, and mutual support for those carving out a place in their new unlife.",
+ "attribution": [
+  "In-game quest text: A Second Home"
+ ]
+}

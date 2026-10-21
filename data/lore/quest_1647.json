@@ -1,0 +1,114 @@
+{
+ "key": "quest:1647",
+ "type": "quest",
+ "name": "The Tome of Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1647
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This quest represents an essential trial in walking the path of the Light, teaching paladins that true devotion begins with selflessly assisting ordinary citizens in need."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Taking place in the dwarven capital of Ironforge, this trial tests local dwarven disciples of the Light within the halls of their own home city."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The quest emphasizes the virtues that bind the Alliance together\u2014compassion, charity, and caring for the vulnerable within cities like Ironforge."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is tome of divinity",
+    "tome of divinity purpose",
+    "what is this quest"
+   ],
+   "answer": "The Tome of Divinity is a sacred trial undertaken by aspiring servants of the Light in Ironforge. It tasks the initiate with seeking out and helping a person of pure heart and noble motive within the city before continuing their spiritual teachings.",
+   "q": "What is The Tome of Divinity quest?"
+  },
+  {
+   "aliases": [
+    "who is john turner",
+    "john turner ironforge",
+    "where is john turner"
+   ],
+   "answer": "John Turner is a hardworking man found in the outer ring of Ironforge. He works tirelessly away from his beloved wife to gather resources, striving to feed and clothe orphans in need.",
+   "q": "Who is John Turner?"
+  },
+  {
+   "aliases": [
+    "why find someone in need",
+    "purpose of helping john turner",
+    "why do this test"
+   ],
+   "answer": "The trial tests an initiate's understanding of compassion and service. Rather than fighting monsters, a servant of the Light must first learn to recognize noble intent, offer kindness, and guide those who labor quietly for the good of others.",
+   "q": "Why does the mentor send you to find someone in need?"
+  },
+  {
+   "aliases": [
+    "where to find john turner",
+    "john turner location",
+    "how to find john turner"
+   ],
+   "answer": "John Turner can be found walking along the outer ring of Ironforge, where he goes about his demanding daily work for the orphanage.",
+   "q": "Where is John Turner located in Ironforge?"
+  },
+  {
+   "aliases": [
+    "what happens after finding john turner",
+    "return to temple of the light",
+    "tome of divinity next step"
+   ],
+   "answer": "After locating John Turner and hearing his plight, you return to the mentor in the temple to reflect on what it truly means to follow the path of the Light and prepare for the next step of your calling.",
+   "q": "What happens once you speak with John Turner?"
+  },
+  {
+   "aliases": [
+    "what orphanage is john turner shouting about",
+    "stormwind orphanage ironforge",
+    "why did john turner shout"
+   ],
+   "answer": "When first approached, John Turner begins shouting about the Orphanage of Stormwind before catching himself and apologizing. His work is dedicated to supporting the orphaned children relying on charity for food and clothing.",
+   "q": "Why was John Turner shouting about an orphanage?"
+  }
+ ],
+ "keywords": [
+  "ironforge",
+  "john turner",
+  "light",
+  "orphanage",
+  "paladin",
+  "temple",
+  "the tome of divinity",
+  "tome of divinity"
+ ],
+ "related": [
+  "zone:ironforge",
+  "topic:light"
+ ],
+ "sections": [
+  {
+   "body": "The Tome of Divinity is a formative trial for initiates of the Light stationed in Ironforge. Rather than testing martial skill or demanding martial prowess against enemies, the initiate's mentor commands them to venture into the bustling dwarven city to locate an individual truly in need of aid. The task demands discernment: the initiate must find someone possessing a pure heart, noble intent, and a genuine reliance on the kindness of others, proving that humble service is the foundation of their holy calling.",
+   "spoiler": 0,
+   "title": "A Lesson in Compassion"
+  },
+  {
+   "body": "The search leads disciples to the outer ring of Ironforge, where a humble worker named John Turner plies his trade. Startled by visitors while calling out about the Orphanage of Stormwind, Turner reveals the quiet sacrifice behind his daily life. Separated from his beloved wife by endless toil, he endures long hours solely to ensure that orphaned children have clothes on their backs and food to eat. By aiding Turner, initiates discover the true weight of benevolence before returning to the temple to continue their journey in the Light.",
+   "spoiler": 0,
+   "title": "The Burden of John Turner"
+  }
+ ],
+ "summary": "The Tome of Divinity is an early sacred trial undertaken by initiates of the Light in Ironforge. Dispatched by a mentor in the city's temple, the aspirant must search the outer ring for a person of pure intent and genuine need. Finding the dedicated laborer John Turner, initiates learn that selfless service and compassion are central to walking the path of the Light.",
+ "attribution": [
+  "In-game quest text: The Tome of Divinity"
+ ]
+}

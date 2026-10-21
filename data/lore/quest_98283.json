@@ -1,0 +1,111 @@
+{
+ "key": "quest:98283",
+ "type": "quest",
+ "name": "Carnage",
+ "era": "forever",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   98283
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "Druids share Rethiel's grief over the broken natural balance in the Wetlands, where sickness has warped predators like Carnage into mindless terrors."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Hunters understand the danger posed when an alpha predator loses its natural instincts to plague-induced fury and preys upon its own kind."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is carnage",
+    "carnage raptor",
+    "what is carnage"
+   ],
+   "answer": "Carnage is the monstrous alpha of the Razormaw raptors in the Wetlands. Rather than leading its pack normally, the beast has been driven mad by disease and leaves only slaughter in its wake, terrifying even its fellow raptors.",
+   "q": "Who is Carnage?"
+  },
+  {
+   "aliases": [
+    "who gives carnage quest",
+    "where to turn in carnage",
+    "rethiel wetlands"
+   ],
+   "answer": "The quest is given by Rethiel the Greenwarden, a warden stationed in the Green Belt of the Wetlands dedicated to restoring the region's corrupted natural balance.",
+   "q": "Who gives the quest Carnage?"
+  },
+  {
+   "aliases": [
+    "why kill carnage",
+    "why does rethiel want carnage dead"
+   ],
+   "answer": "Rethiel seeks Carnage's death because the beast has been driven mad by an unnatural sickness, shattering the natural hierarchy of the Razormaw raptors and devastating the local ecology.",
+   "q": "Why must Carnage be destroyed?"
+  },
+  {
+   "aliases": [
+    "how to summon carnage",
+    "how to lure carnage",
+    "where is carnage cave"
+   ],
+   "answer": "Carnage is drawn out by baiting its cave lair with the malignant flesh and entrails of diseased bears found below Raptor Ridge, to the northeast.",
+   "q": "How is Carnage lured out?"
+  },
+  {
+   "aliases": [
+    "what are rotclaw bears",
+    "where do diseased bears come from"
+   ],
+   "answer": "The diseased bears are Rotclaws that migrated down from Loch Modan. Driven mad by the lingering corruption, their tainted flesh serves as potent bait to draw out the crazed raptor alpha.",
+   "q": "What are the diseased bears mentioned by Rethiel?"
+  },
+  {
+   "aliases": [
+    "what role do razormaw play",
+    "why raptors matter in wetlands"
+   ],
+   "answer": "Under normal circumstances, the Razormaw raptors maintain the ecological balance of the Wetlands by keeping natural plant and animal life from overgrowing. Carnage's madness disrupted this vital role.",
+   "q": "What role did the Razormaw raptors originally serve in the Wetlands?"
+  }
+ ],
+ "keywords": [
+  "carnage",
+  "loch modan",
+  "raptor ridge",
+  "razormaw",
+  "rethiel the greenwarden",
+  "rotclaw",
+  "the green belt",
+  "wetlands"
+ ],
+ "related": [
+  "npc:rethiel-the-greenwarden",
+  "subzone:green-belt",
+  "subzone:raptor-ridge",
+  "zone:wetlands",
+  "quest:463",
+  "zone:lochmodan"
+ ],
+ "sections": [
+  {
+   "body": "In the marshes of the Wetlands, the natural order has begun to fracture. The Razormaw raptors once fulfilled an essential ecological role, keeping the wilderness from wild overgrowth. Now, their pack hierarchy lies broken by their terrifying alpha, a bloodthirsty beast known only as Carnage. Rather than guiding the pack, Carnage has instilled terror in its own kind, slaughtering indiscriminately and throwing the local ecosystem into turmoil.",
+   "spoiler": 0,
+   "title": "A Broken Balance"
+  },
+  {
+   "body": "Rethiel the Greenwarden, watching over the Green Belt, believes Carnage has succumbed to the foul corruption that still plagues the region. To draw the frenzied beast from hiding, travelers must gather the malignant entrails of diseased Rotclaw bears that wandered down from Loch Modan. Placing this foul meat inside Carnage's cave lair below Raptor Ridge provokes the monster into attacking, allowing Rethiel to put an end to its suffering.",
+   "spoiler": 0,
+   "title": "Luring the Alpha"
+  }
+ ],
+ "summary": "Carnage is a quest in the Wetlands tasked by Rethiel the Greenwarden in the Green Belt. Rethiel asks travelers to lure out and slay Carnage, a mad Razormaw raptor alpha whose plague-induced frenzy has disrupted the natural order of the region.",
+ "attribution": [
+  "In-game quest text: Carnage"
+ ]
+}

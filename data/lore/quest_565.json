@@ -1,0 +1,110 @@
+{
+ "key": "quest:565",
+ "type": "quest",
+ "name": "Bartolo's Yeti Fur Cloak",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   565
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Bartolo boasts that his Yeti Fur Cloak is renowned throughout the Alliance, offering his tailoring services directly from the Alliance stronghold of Southshore."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Crafting the luxurious garment relies on core tailoring supplies, specifically a Bolt of Wool and Fine Thread, combined with exotic beast pelts."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is bartolo",
+    "bartolo ginsetti",
+    "who gives this quest"
+   ],
+   "answer": "Bartolo Ginsetti is an eccentric, boastful craftsman residing in Southshore in the Hillsbrad Foothills. He proudly proclaims himself to be the creator of an unrivaled, world-famous Yeti Fur Cloak.",
+   "q": "Who is Bartolo Ginsetti?"
+  },
+  {
+   "aliases": [
+    "cloak ingredients",
+    "what items for bartolo",
+    "yeti fur cloak materials"
+   ],
+   "answer": "To fashion his renowned cloak, Bartolo Ginsetti requires a Bolt of Wool, a Hillman's Cloak crafted by a leatherworker, a spool of Fine Thread, and ten clumps of thick Yeti Fur.",
+   "q": "What materials does Bartolo require to make the cloak?"
+  },
+  {
+   "aliases": [
+    "why southshore",
+    "where is southshore",
+    "where does this happen"
+   ],
+   "answer": "Southshore is a coastal human town and the primary Alliance hub in the Hillsbrad Foothills. Bartolo Ginsetti operates out of this settlement, welcoming adventurers traveling through the region.",
+   "q": "Where does Bartolo make his cloaks?"
+  },
+  {
+   "aliases": [
+    "where to get fur",
+    "which yetis",
+    "where do yeti furs drop"
+   ],
+   "answer": "Clumps of Yeti Fur are gathered from the wild yetis that inhabit the foothills and mountains of the Hillsbrad and Alterac region, prized for their dense and insulating coats.",
+   "q": "Where do adventurers obtain Yeti Fur in Hillsbrad?"
+  },
+  {
+   "aliases": [
+    "who makes hillmans cloak",
+    "hillmans cloak craft",
+    "leatherworking cloak"
+   ],
+   "answer": "The Hillman's Cloak serves as the foundational garment for Bartolo's creation. It is patterned and stitched by skilled leatherworkers before Bartolo layers it with fine thread, wool, and fur.",
+   "q": "How is the Hillman's Cloak acquired?"
+  },
+  {
+   "aliases": [
+    "why is the cloak famous",
+    "best cloak in the world",
+    "is bartolo's cloak good"
+   ],
+   "answer": "According to Bartolo himself, no finer cloak exists across the planet. He touts it as an Alliance-renowned garment that offers unmatched warmth, luxury, and prestige to whoever wears it.",
+   "q": "Why does Bartolo claim his cloak is world famous?"
+  }
+ ],
+ "keywords": [
+  "bartolo ginsetti",
+  "bolt of wool",
+  "fine thread",
+  "hillmans cloak",
+  "hillsbrad foothills",
+  "southshore",
+  "yeti fur",
+  "yeti fur cloak"
+ ],
+ "related": [
+  "subzone:southshore",
+  "topic:alliance"
+ ],
+ "sections": [
+  {
+   "body": "In the coastal haven of Southshore, an artisan named Bartolo Ginsetti offers travelers the opportunity to commission his self-proclaimed masterpiece: the world-famous Yeti Fur Cloak. Bartolo maintains a reputation of bombastic self-confidence, claiming that no finer garment exists across the entire planet. While his boastful demeanor turns heads, his craft relies on a blend of local wilderness harvesting and the refined work of allied trades.",
+   "spoiler": 0,
+   "title": "The Grand Tailor of Southshore"
+  },
+  {
+   "body": "Crafting the luxurious cloak is no simple matter of stitching a pelt together. Bartolo requires adventurers to assemble an array of specific goods: standard tailoring staples including a Bolt of Wool and Fine Thread, a durable leather base known as a Hillman's Cloak, and ten dense clumps of Yeti Fur harvested from the beasts roaming the foothills. Once assembled, Bartolo works the raw materials into his signature cold-weather mantle.",
+   "spoiler": 0,
+   "title": "Components of the Craft"
+  }
+ ],
+ "summary": "Bartolo's Yeti Fur Cloak is a task offered by the eccentric artisan Bartolo Ginsetti in Southshore. Bartolo claims to craft an Alliance-renowned mantle of peerless quality, requiring adventurers to collect tailoring staples, a leatherworker's cloak, and raw yeti pelts.",
+ "attribution": [
+  "In-game quest text: Bartolo's Yeti Fur Cloak"
+ ]
+}

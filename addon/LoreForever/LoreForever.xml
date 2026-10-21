@@ -33,6 +33,7 @@
   <Script file="Storyline.lua"/>
   <Script file="Notes.lua"/>
   <Script file="WhatsNew.lua"/>
+  <Script file="Updates.lua"/>
   <Script file="UI.lua"/>
   <Script file="ClipReport.lua"/>
   <Script file="Subtitles.lua"/>

@@ -1,0 +1,110 @@
+{
+ "key": "quest:1248",
+ "type": "quest",
+ "name": "The Missing Diplomat",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1248
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The investigation into the abducted diplomat directly touches high-level security matters within Stormwind and the reach of conspirators across Alliance territories."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Unraveling secret dockets, tracking down retired contacts, and discreetly interrogating suspects in crowded taverns plays directly into covert tradecraft."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is mikhail",
+    "mikhail wetlands",
+    "menethil bartender"
+   ],
+   "answer": "Mikhail is a former associate of Georgio Trias who left Stormwind several years ago to retire in Menethil Harbor, where he now works as a bartender. Trias points investigators to him as a trustworthy contact who can help identify a suspect named Slim.",
+   "q": "Who is Mikhail?"
+  },
+  {
+   "aliases": [
+    "who is slim",
+    "find slim",
+    "missing diplomat slim"
+   ],
+   "answer": "Slim is a figure in Menethil Harbor believed to possess critical information regarding the kidnapped diplomat. Mikhail is contacted specifically to help track Slim down and determine what he knows.",
+   "q": "Who is Slim and why are they looking for him?"
+  },
+  {
+   "aliases": [
+    "who was kidnapped",
+    "kidnapped diplomat identity",
+    "who is missing diplomat"
+   ],
+   "answer": "The diplomat's identity remains closely guarded and uncertain even to the investigators. The intercepted docket describes an abduction but omits both the diplomat's true identity and the conspirators' subsequent plans after capture.",
+   "q": "Who is the kidnapped diplomat?"
+  },
+  {
+   "aliases": [
+    "where is menethil harbor",
+    "why wetlands",
+    "why go to menethil"
+   ],
+   "answer": "Menethil Harbor is a major port town situated on the coast of the Wetlands. Investigators are directed there because Trias's retired contact Mikhail tends bar in town, and key leads concerning the abduction trail lead through the harbor.",
+   "q": "Why does the trail lead to Menethil Harbor?"
+  },
+  {
+   "aliases": [
+    "what docket",
+    "trias docket",
+    "what does the docket say"
+   ],
+   "answer": "The docket is an intercepted document outlining the diplomat's abduction. While it confirms the kidnapping, it contains glaring gaps, leaving out where the captive was taken and what the abductors intend to do next.",
+   "q": "What does the docket reveal about the plot?"
+  },
+  {
+   "aliases": [
+    "who sent us to mikhail",
+    "trias connection",
+    "why mention trias"
+   ],
+   "answer": "Georgio Trias is the contact in Stormwind directing the investigation. He sends agents to Mikhail because Mikhail was an old associate who promised to assist Trias on his word alone without drawing public attention.",
+   "q": "What is Trias's involvement in this mission?"
+  }
+ ],
+ "keywords": [
+  "docket",
+  "menethil harbor",
+  "mikhail",
+  "slim",
+  "stormwind",
+  "the missing diplomat",
+  "trias",
+  "wetlands"
+ ],
+ "related": [
+  "zone:wetlands",
+  "topic:stormwind-kingdom"
+ ],
+ "sections": [
+  {
+   "body": "The investigation into an abducted diplomat points beyond Stormwind's gates to the misty docks of Menethil Harbor in the Wetlands. An intercepted docket confirms that a diplomat was targeted and taken, but it leaves critical gaps: neither the diplomat's true identity nor the conspirators' ultimate destination are detailed in the recovered papers. To break the silence, investigators must look into the harbor's shifting crowds and clandestine dealings.",
+   "spoiler": 0,
+   "title": "A Trail to the Wetlands"
+  },
+  {
+   "body": "To pick up the trail in Menethil, agents are sent to Mikhail, a former associate of Georgio Trias who retired from Stormwind several years prior to run the local tavern taps. Mikhail serves as the vital bridge to locate a figure known only as Slim, who may know where the captive was taken or who arranged the abduction. In a crowded tavern, discretion is essential\u2014the mention of Trias's name is enough to urge immediate quiet before conspirators notice the inquiry.",
+   "spoiler": 1,
+   "title": "Discreet Contacts in Menethil"
+  }
+ ],
+ "summary": "The Missing Diplomat is an investigative mission tracking the abduction of an unnamed emissary from Stormwind. Following clues from an intercepted docket, agents travel to Menethil Harbor in the Wetlands to consult a retired contact and track down a suspect named Slim.",
+ "attribution": [
+  "In-game quest text: The Missing Diplomat"
+ ]
+}

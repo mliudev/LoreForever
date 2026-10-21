@@ -12,7 +12,9 @@
 --   A voice pack whose name ends in a locale (LoreForever_Voice_Female_deDE) is that voice in that language: it plays
 --   in its place while the add-on shows the language (see Voice.KeyOf, Voice.InLanguage). A quest dialogue pack in
 --   another language (LoreForever_Voice_Female_Quests_deDE) also writes P.questVoice: the fingerprints of the game's
---   own quest text in that language, which the add-on's data doesn't have (see Voice.QuestClip).
+--   own quest text in that language, which the add-on's data doesn't have (see Voice.QuestClip), and P.questText: the
+--   words each recording reads (["quest:176#detail"] = "..."), shown as subtitles when it plays over the game's
+--   English page, and P.questTitle: each quest's title in that language (["176"] = "..."), the subtitles' and player's.
 -- Add-ons can't discover files at runtime, so packs are found through the game's add-on list and load when chosen.
 -- A pack's only code is `local P = LoreForeverPacks.Begin(...)` followed by writes into P (e.g. P.clips[id] = hash).
 
