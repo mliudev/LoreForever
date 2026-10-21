@@ -25,7 +25,9 @@ const SEP = " · ";
 // The question asks to pin where they stand ("pin this spot", "mark this place", "remember this cave", "drop a pin"),
 // to rename or take out a pin, or about their pins. Kept in step with companion/lore_companion/recall.py PINS, which
 // leaves these questions to the notebook.
-const ADD = /\b(?:pin|mark|save|bookmark|remember)\s+(?:this|that|our|my|the)\s+(?:\w+\s+)?(?:spot|place|location|cave|camp|den|cove|room|corner|ledge|ridge)\b|\bpin\s+(?:it|this|that|here|where)\b|\bdrop\s+a\s+pin\b|\b(?:pin|mark)\s+(?:it\s+)?here\b/i;
+// "Mark this as a spot that's cool to look out from" too (Mike, 10/19: Willo said "I have marked the Gates of Ironforge in
+// your notes" and nothing was written).
+const ADD = /\b(?:pin|mark|save|bookmark|remember)\s+(?:this|that|our|my|the)\s+(?:\w+\s+)?(?:spot|place|location|cave|camp|den|cove|room|corner|ledge|ridge)\b|\bpin\s+(?:it|this|that|here|where)\b|\bdrop\s+a\s+pin\b|\b(?:pin|mark)\s+(?:it\s+)?here\b|\b(?:pin|mark|save|bookmark|remember)\s+(?:this|that|it|here)\s+(?:place\s+|spot\s+)?as\s+(?:a|an|my|the|our)?\s*(?:[\w'-]+\s+){0,3}(?:spot|place|location|lookout|view|vista|landmark|pin)\b/i;
 // Asking about a pin they made isn't making one: "Where did I pin the fishing spot?" (QA 10/19: it was read as "pin the
 // fishing spot", and she repeated why she couldn't pin).
 const RECALL = /\b(?:where|when|why|what|which|did|have|had)\s+(?:did\s+|have\s+|had\s+)?(?:i|we)\s+(?:already\s+)?(?:pin|mark|save|bookmark)(?:ned|ed)?\b/i;

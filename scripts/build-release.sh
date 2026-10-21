@@ -82,6 +82,7 @@ RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_
                  "LoreForever_Voice_Default_MorePeople_deDE", "LoreForever_Voice_Female_MorePeople_deDE",
                  "LoreForever_Voice_Default_MorePeople_esES", "LoreForever_Voice_Female_MorePeople_esES",
                  "LoreForever_Voice_Default_MorePeople_ptBR", "LoreForever_Voice_Female_MorePeople_ptBR",
+                 "LoreForever_Voice_Default_ptBR",   # back 10/19 with its recast narrator (LOR-567); female still paused
                  "LoreForever_Voice_Default_MorePeople_frFR", "LoreForever_Voice_Female_MorePeople_frFR",
                  "LoreForever_Voice_Default_frFR", "LoreForever_Voice_Female_frFR",
                  "LoreForever_Voice_Default_itIT", "LoreForever_Voice_Female_itIT",
@@ -96,7 +97,7 @@ RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_
 # Portuguese narrators (the "male" voice was a woman, both had a European accent). To bring one back with its new
 # recordings, take it out of here and put it back in RELEASE_PACKS; leave its WITHDRAWN entry, which keeps the old copies
 # silent (the release stamps a newer version into the new one).
-PAUSED_PACKS = ["LoreForever_Voice_Default_ptBR", "LoreForever_Voice_Female_ptBR"]
+PAUSED_PACKS = ["LoreForever_Voice_Female_ptBR"]
 if sys.argv[2:]:
     sys.exit(f"build-release: unknown arguments: {' '.join(sys.argv[2:])} (the one zip carries every bundled pack; "
              "there's no --complete build any more)")

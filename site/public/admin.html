@@ -147,8 +147,9 @@
     </div>
     <div class="ad-gsub" data-gsub="plans-usage" hidden>
     <!-- What each plan's players use, for pricing (lib/plan-usage.js planUsageView, admin-plans.js,
-         functions/api/admin/plans-usage.js): answers out loud or typed, look-ups, sight and characters, limits that
-         turned answers away, which voice said the replies, voices picked, plans by checkout source. By plan, never who. -->
+         functions/api/admin/plans-usage.js): answers out loud or typed, look-ups, sight and characters, the smarter
+         plan's (Legend's) answers on 3.6 Flash or stepped down to Flash-Lite, limits that turned answers away, which voice said the
+         replies, voices picked, plans by checkout source. By plan, never who. -->
     <h2 id="plans-usage">Plans &amp; usage</h2>
     <div class="ad-panel">
       <div class="ad-filters">
@@ -162,10 +163,17 @@
           <th title="A quick look online, or required research">Looked online</th><th title="A picture of the game went with it">Sight</th>
           <th title="A character answered in person">Characters</th></tr></thead><tbody id="pu-answers"></tbody></table>
       </div>
+      <h3 style="margin-top:14px">Smarter model <span class="ad-count">Legend (the only plan on 3.6 Flash), her answers since Oct 19, 3:20 pm PT</span></h3>
+      <div class="ad-table-wrap">
+        <table class="ad-usage"><thead><tr><th>Plan</th><th>On 3.6 Flash</th>
+          <th title="Past the plan's text cap (half its net) this month: Flash-Lite, not looking online">Stepped down to Flash-Lite</th>
+          <th title="Stepped down, of all her answers to that plan's players">Share</th></tr></thead>
+          <tbody id="pu-models"></tbody></table>
+      </div>
       <h3 style="margin-top:14px">Limits that turned answers away <span class="ad-count">players / times</span></h3>
       <div class="ad-table-wrap">
         <table class="ad-usage"><thead><tr><th>Plan</th><th>Daily answers</th><th>Month's answers</th>
-          <th title="A paying player's month cost its text cap">Month's cost cap</th><th title="The free plan's brake (free budget nearly used)">Free brake</th></tr></thead>
+          <th title="A paying player's answers and hosted voice cost the plan's whole net this month (before Oct 19, 3 pm PT: its text cap)">Month's full net</th><th title="The free plan's brake (free budget nearly used)">Free brake</th></tr></thead>
           <tbody id="pu-limits"></tbody></table>
       </div>
       <h3 style="margin-top:14px">Who said the replies</h3>
@@ -185,7 +193,8 @@
       </div>
       <p class="fb-status" id="pu-status" role="status" hidden></p>
       <p class="ad-count">"Stripe trial" is a Keep Hero trial, or a paid plan whose next charge moved to November 4.
-        Answers by plan come from players who leave "Help improve Willo's answers" on (most do), kept 14 days. Comped
+        Answers by plan and the smarter model's come from players who leave "Help improve Willo's answers" on (most do),
+        kept 14 days. Comped
         plans are left out of the checkout table.</p>
     </div>
     </div>
@@ -264,7 +273,7 @@
         <div class="ad-tile"><div class="ad-label">Paying</div><div class="ad-num" id="w-pay">-</div><div class="ad-sub" id="w-pay-sub"></div></div>
         <div class="ad-tile" title="Every account above Adventurer right now, each once: paid, Keep Hero trials, the beta's free Hero month, and comped or your own (lib/billing.js subscriptionReport onPlan)"><div class="ad-label">On a plan</div><div class="ad-num" id="w-plan">-</div><div class="ad-sub" id="w-plan-sub"></div></div>
         <div class="ad-tile"><div class="ad-label">Beta offers taken</div><div class="ad-num" id="w-claims">-</div><div class="ad-sub" id="w-claims-sub"></div></div>
-        <div class="ad-tile" title="New players' first 20 answers at Willo's best (lib/best-first.js): her finest voice, a look online"><div class="ad-label">First answers at her best</div><div class="ad-num" id="w-taste">-</div><div class="ad-sub" id="w-taste-sub"></div></div>
+        <div class="ad-tile" title="New players' first answers at Willo's best (lib/best-first.js): her finest voice, a look online"><div class="ad-label">First answers at her best</div><div class="ad-num" id="w-taste">-</div><div class="ad-sub" id="w-taste-sub"></div></div>
       </div>
         <p class="ad-empty" style="margin-top:10px" id="w-note"></p></div>
       <figure class="ad-panel ad-chart" id="c-willo-dau" style="margin:0"><h3>Players who asked Willo per day, last 30 days</h3></figure>
@@ -705,6 +714,6 @@
 
 <!-- The page's script is a file: /admin's Content-Security-Policy (public/_headers) runs no inline script.
      Bump ?v= when admin-page.js changes, since browsers keep .js for 4 hours on loreforeverwow.com. -->
-<script type="module" src="/admin-page.js?v=20261019z"></script>
+<script type="module" src="/admin-page.js?v=20261019zt"></script>
 </body>
 </html>

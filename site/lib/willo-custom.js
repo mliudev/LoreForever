@@ -22,6 +22,7 @@ import { plansOn } from "./billing.js";
 import { reserveOtherPaid, CUSTOM_PROMPT_BYTES } from "./companion-answers.js";
 import { perDay } from "./ratelimit.js";
 import { loadIndex, keyOf } from "./lore.js";
+import { TRIAL } from "./best-first.js";
 
 // The styles a plan can pick. text: what the answer's prompt gets (tone only; the rules and the length stay); blurb:
 // what /willo/style says about it. classic is today's Willo, with nothing added.
@@ -39,7 +40,8 @@ export const TALE_MAX = 500;       // characters of one tale
 export const TALES_MAX = 25;       // tales an account can keep
 export const SAVES_PER_DAY = 30;   // saves a day that need the check (lib/ratelimit.js, bucket "willo-custom")
 // What each plan can use. A plan that isn't here (the free one) uses nothing.
-export const ALLOWED = { hero: ["presets"], champion: ["presets", "words", "tales"], legend: ["presets", "words", "tales"] };
+// Option D (Mike, 2026-10-19): NPC tales are Legend's; Champion keeps its own words.
+export const ALLOWED = { hero: ["presets"], champion: ["presets", "words"], legend: ["presets", "words", "tales"] };
 // A character's lore key, as the companion and the lore pages name them (npc:auntie-bernice-stonefield).
 export const NPC_KEY = /^npc:[a-z0-9_-]{1,80}$/;
 
@@ -50,7 +52,12 @@ const CHECK_OUTPUT_TOKENS = 256;
 const UNAVAILABLE = "Saving customizations isn't available just now.";
 const TURNED_AWAY = `${NAME} can't use that. Try different words.`;
 
-export const allowedFor = plan => ALLOWED[plan?.id] || [];
+// trial: the account's first-run trial (lib/best-first.js trialOf): while its days last, Legend's (its own words and
+// tales, up to TRIAL.tales of them saved).
+export const allowedFor = (plan, trial = null) => trial?.on ? ALLOWED.legend : ALLOWED[plan?.id] || [];
+// How many tales the account may keep: its plan's TALES_MAX, or the trial's few on a plan without tales.
+export const talesMax = (plan, trial = null) => (ALLOWED[plan?.id] || []).includes("tales") || !trial?.on
+  ? TALES_MAX : TRIAL.tales;
 const iso = (ms = Date.now()) => new Date(ms).toISOString();
 const month = (now = new Date()) => now.toISOString().slice(0, 7);
 const chars = s => [...String(s ?? "")].length;
@@ -161,12 +168,12 @@ export async function check(env, text, kind) {
 // What the account has saved, and what its plan uses: {allowed, style: {preset, text, status, reason}, tales: [{npc,
 // text, status, reason, updated}]}, newest tale first. Everything saved is listed, whatever the plan (allowed says what
 // it uses), so a player who changed plans still sees their words.
-export async function getCustom(env, user, plan) {
+export async function getCustom(env, user, plan, trial = null) {
   await setupWilloCustom(env);
   const rows = await rowsOf(env, user.id);
   const style = rows.find(r => r.kind === "style");
   return {
-    allowed: allowedFor(plan),
+    allowed: allowedFor(plan, trial),
     style: { preset: PRESETS[style?.preset] ? style.preset : "classic", text: style?.text || "",
              status: style?.status || "ok", reason: style?.reason || null },
     tales: rows.filter(r => r.kind === "tale")
@@ -178,13 +185,15 @@ export async function getCustom(env, user, plan) {
 // or {status, error} in words the player reads. Text that changed goes through the check (SAVES_PER_DAY of those a
 // day); text it turns away is saved as rejected, with its reason, and that reason is the error (422). Unchanged text
 // keeps its verdict. A style without text keeps the words already saved (a plan without own words never clears them).
-export async function saveCustom(env, user, plan, { kind, target, preset, text } = {}) {
+// trial: the account's first-run trial (lib/best-first.js trialOf), which saves as Champion does while its days last,
+// up to TRIAL.tales tales.
+export async function saveCustom(env, user, plan, { kind, target, preset, text } = {}, trial = null) {
   await setupWilloCustom(env);
-  const allowed = allowedFor(plan);
+  const allowed = allowedFor(plan, trial), most = talesMax(plan, trial);
   if (kind !== "style" && kind !== "tale") return { status: 400, error: "That isn't something you can change here." };
   const style = kind === "style";
   if (!allowed.includes(style ? "presets" : "tales"))
-    return { status: 403, error: style ? `Choosing ${NAME}'s style comes with a plan.` : "Writing your own tales comes with Champion." };
+    return { status: 403, error: style ? `Choosing ${NAME}'s style comes with a plan.` : "Writing your own tales comes with Legend." };
   const max = style ? STYLE_MAX : TALE_MAX;
   target = style ? "" : String(target ?? "");
   if (!style && !NPC_KEY.test(target)) return { status: 400, error: "Pick a character first." };
@@ -200,7 +209,9 @@ export async function saveCustom(env, user, plan, { kind, target, preset, text }
     return { status: 403, error: `Writing ${NAME}'s style in your own words comes with Champion.` };
   if (!style && !row) {
     const n = await env.DB.prepare("SELECT COUNT(*) AS n FROM custom_prompts WHERE user_id = ? AND kind = 'tale'").bind(user.id).first("n");
-    if (n >= TALES_MAX) return { status: 400, error: `You have ${TALES_MAX} tales. Delete one to write another.` };
+    if (n >= most) return { status: 400, error: most < TALES_MAX
+      ? `While you're trying ${NAME}'s plans you can keep ${most} tales. Delete one to write another.`
+      : `You have ${most} tales. Delete one to write another.` };
   }
   let status = "ok", reason = null;
   if (words && words === row?.text) [status, reason] = [row.status, row.reason];
@@ -269,13 +280,30 @@ const NONE = { system: "", tale: false };
 export async function promptBlocks(env, userId, plan, { operation, npc } = {}) {
   const allowed = allowedFor(plan);
   if (!plansOn(env) || !allowed.length) return NONE;
+  if (operation === "character" && !allowed.includes("tales")) return NONE;
+  return blocksOf(await promptRow(env, userId, { operation, npc }), allowed, { operation });
+}
+// The saved row promptBlocks would use (Willo's style for "answer", the player's tale of the character for
+// "character"), read on its own: an answer reads it alongside the rest before it knows what its plan allows now (the
+// first-run trial's days, lib/best-first.js). null when there's none, or while plans are off.
+export async function promptRow(env, userId, { operation, npc } = {}) {
+  if (!plansOn(env)) return null;
   if (operation === "answer") {
     await setupWilloCustom(env);
-    return { system: styleBlock(await rowOf(env, userId, "style", ""), allowed), tale: false };
+    return rowOf(env, userId, "style", "");
   }
-  if (operation === "character" && NPC_KEY.test(npc || "") && allowed.includes("tales")) {
+  if (operation === "character" && NPC_KEY.test(npc || "")) {
     await setupWilloCustom(env);
-    const system = taleBlock(await rowOf(env, userId, "tale", npc));
+    return rowOf(env, userId, "tale", npc);
+  }
+  return null;
+}
+// What that row gives an answer's prompt, by what the plan allows (allowedFor): {system, tale}.
+export function blocksOf(row, allowed, { operation } = {}) {
+  if (!row || !allowed.length) return NONE;
+  if (operation === "answer") return { system: styleBlock(row, allowed), tale: false };
+  if (operation === "character" && allowed.includes("tales")) {
+    const system = taleBlock(row);
     return { system, tale: Boolean(system) };
   }
   return NONE;
@@ -283,8 +311,8 @@ export async function promptBlocks(env, userId, plan, { operation, npc } = {}) {
 
 // Every block the account's plan uses now, as promptBlocks would add them (LOR-448: a model on the player's own PC can
 // then follow the same rules): {willo: the PLAYER STYLE block or "", and from Champion up tales: [{npc, block}]}.
-export async function composedBlocks(env, userId, plan) {
-  const allowed = allowedFor(plan);
+export async function composedBlocks(env, userId, plan, trial = null) {
+  const allowed = allowedFor(plan, trial);
   if (!plansOn(env) || !allowed.length) return { willo: "" };
   await setupWilloCustom(env);
   const rows = await rowsOf(env, userId);

@@ -3,7 +3,6 @@ title: WoW Forever Release Date, Time and Launch Checklist
 description: WoW Forever launches November 4, 2026 at 3 PM PST. See launch times by region, what you need to buy, Skyborne access and a ten-step checklist.
 date: 2026-10-17
 kind: tutorial
-draft: true
 ---
 **World of Warcraft: Forever launches globally on Wednesday, November 4, 2026, at 3:00 p.m. Pacific Standard Time (PST).** Blizzard announced one global start time. That is 6:00 p.m. Eastern, 11:00 p.m. in London and 12:00 a.m. on November 5 in Paris and Berlin.
 

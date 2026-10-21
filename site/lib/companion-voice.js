@@ -48,8 +48,8 @@ import { plansOn, poolWindow, setupBilling, holdUserSpend, holdStatements, relea
 import { reserveFreeVoice, reserveFreeVoiceStatements, reservedFreeVoice, settleFreeVoice } from "./companion-answers.js";
 import { characterVoices, CHARACTER_KEY, CHARACTER_VOICES, voiceLabel, hasAzeroth } from "./character-voices.js";
 import { tasteFor, tasteState, tasteDayMicro, takeVoice, giveVoice, holdDay, holdDayStatements, heldDay, settleDay,
-  countDay, TASTE_PERIOD,
-  TASTE_REPLY_MICRO, TASTE_ANSWERS } from "./best-first.js";
+  countDay, TASTE_PERIOD, TASTE_REPLY_MICRO, TASTE_ANSWERS, trialOf, trialRow, tryOnce, untry, withTrial
+} from "./best-first.js";
 import { respell, loadRespell } from "./respell.js";
 
 export const PROVIDERS = {
@@ -309,13 +309,16 @@ const starterSaid = async (env, userId) => (await env.DB.prepare(
 export async function voiceAllowance(env, userId, plan, now = new Date(), taste = undefined) {
   if (!plansOn(env) || !plan?.voice) return null;
   if (taste === undefined) taste = await tasteState(env, userId, plan, now);
-  const own = await planVoice(env, userId, plan, now);
+  // The first-run trial (lib/best-first.js) picks her voice from all of hers while its days last.
+  const own = await planVoice(env, userId, withTrial(plan, taste?.trial), now);
   return taste?.on && readyFor(env, "willo").includes("inworld") ? { ...own, tier: "hosted", now: "finest" } : own;
 }
 async function planVoice(env, userId, plan, now) {
   const pv = plan.voice, choice = Boolean(pv.choice);
   const pc = { tier: "local", top: "everyday", now: "everyday", choice };
   if (plan.id === "free") {
+    if (pv.always) return readyFor(env, "willo").includes("deepinfra")
+      ? { tier: "hosted", top: "studio", now: "studio", choice, starterLeft: 0 } : { ...pc, starterLeft: 0 };
     if (!pv.starter) return { ...pc, starterLeft: 0 };
     await setupBilling(env);
     const starterLeft = Math.max(0, STARTER_ANSWERS - await starterSaid(env, userId));
@@ -459,18 +462,21 @@ export async function speakPiece(env, userId, plan, { text, voice, reply, pick, 
   if (line && reading) return { local: "reading", status: 402 };
   const pv = plan?.voice;
   const free = plan?.id === "free";
-  if (!plansOn(env) || !pv || (free && !pv.starter)) return { local: "plan", status: 402 };
+  if (!plansOn(env) || !pv || (free && !pv.starter && !pv.always)) return { local: "plan", status: 402 };
   if (line) return speakLine(env, userId, plan, { text, pick, spellings }, now, later);
   // A reply the account's best first earned is said in the finest voice (speakTaste); any other, the plan's way below.
   if (tasteFor(env, plan)) {
-    const tasted = await speakTaste(env, userId, plan, { text, voice, reply, pick, piece, spellings }, now, later);
+    const seen = {};
+    const tasted = await speakTaste(env, userId, plan, { text, voice, reply, pick, piece, spellings }, now, later, seen);
     if (tasted) return tasted;
+    // The first-run trial's days (lib/best-first.js): her voice picked from all of hers on the plan's own path too.
+    plan = withTrial(plan, seen.trial);
   }
   const hostedPlan = pv.voice !== "local";
   const character = voice !== "willo" ? characterVoices(env)[voice] : null;
   const ownInworld = character?.inworld && env[PROVIDERS.inworld.key] ? character.inworld : null;
   const ownFish = Boolean(character && env[FISH.key] && env.STUDIO);
-  const cast = Boolean(!free && character && (ownInworld || ownFish));
+  const cast = Boolean(!free && pv.characters && character && (ownInworld || ownFish));
   const ids = willoIds(env, plan, pick);
   const ready = readyFor(env, "willo");
   // Who says a reply's finest voice: the character's own (Inworld, then Fish) for a character in a voice of their
@@ -481,7 +487,7 @@ export async function speakPiece(env, userId, plan, { text, voice, reply, pick, 
   if (!ready.length && !cast) return { local: "unavailable", status: 503 };
   await setupBilling(env);
   // The free plan's spoken starter is counted for good (STARTER_PERIOD), a plan's replies by its plan month.
-  const period = free ? STARTER_PERIOD : poolWindow(plan, now).key;
+  const period = free && !pv.always ? STARTER_PERIOD : poolWindow(plan, now).key;
   // A new reply (one statement, so two said at once can't both take the month's last place, or the starter's last);
   // an older plan month's go first. best: Legend's finest replies say it (Willo's Inworld voice, or a character's own,
   // which shares them); npc: one of Champion's character replies.
@@ -500,8 +506,8 @@ export async function speakPiece(env, userId, plan, { text, voice, reply, pick, 
       `CASE WHEN (SELECT COALESCE(SUM(best), 0) ${mine}) < ? THEN 1 ELSE 0 END, ` +
       `CASE WHEN (SELECT COALESCE(SUM(npc), 0) ${mine}) < ? THEN 1 ELSE 0 END, ? ` +
       `WHERE ? = 0 OR (SELECT COUNT(*) ${mine}) < ? RETURNING best, npc`
-    ).bind(userId, reply, period, userId, period, best, userId, period, npc, now.toISOString(), free ? 1 : 0, userId,
-           period, STARTER_ANSWERS),
+    ).bind(userId, reply, period, userId, period, best, userId, period, npc, now.toISOString(),
+           free && !pv.always ? 1 : 0, userId, period, STARTER_ANSWERS),
     env.DB.prepare("SELECT 1 AS y FROM voice_replies WHERE user_id = ? AND reply = ?").bind(userId, reply),
     ...(packs ? [openPacksStatement(env, userId)] : []),
     ...countStatements(env, userId, reply, period, chars, piece, "best, npc, pack, chars"),
@@ -619,9 +625,11 @@ export async function forgetReply(env, userId, reply, now = new Date(), { settle
   if (settleMs > 0) await new Promise(done => setTimeout(done, settleMs));
   await setupBilling(env);
   const gone = await env.DB.prepare("DELETE FROM voice_replies WHERE user_id = ? AND reply = ? AND created >= ? " +
-    "RETURNING period, pack").bind(userId, reply, new Date(now.getTime() - UNHEARD_WITHIN_MS).toISOString()).first();
+    "RETURNING period, pack, best, npc").bind(userId, reply, new Date(now.getTime() - UNHEARD_WITHIN_MS).toISOString()).first();
   if (!gone) return false;
-  await Promise.all([gone.period === TASTE_PERIOD ? giveVoice(env, userId) : null,
+  // A taste reply's finest place, and a character's own voice the first-run trial gave it (lib/best-first.js TRIAL).
+  const taste = gone.period === TASTE_PERIOD;
+  await Promise.all([taste && gone.best ? giveVoice(env, userId) : null, taste && gone.npc ? untry(env, userId, "cast") : null,
     gone.pack ? env.DB.prepare("UPDATE answer_packs SET remaining = remaining + 1 WHERE id = ? AND status = 'active' AND " +
       "remaining < answers").bind(gone.pack).run() : null]);
   return true;
@@ -643,40 +651,64 @@ const settleTaste = (env, hold, micro, said, counts, now) => Promise.all([settle
 // this reply isn't the taste's, so the plan's own path says it. A new reply is the taste's when the account has a
 // finest reply its taste answers earned (best_first.voices, takeVoice) and the day's cap has room for a whole one (a
 // reply the cap turns away is counted, and keeps its place for later); it's kept in voice_replies under TASTE_PERIOD,
-// counted for good, never among the plan month's or the starter's. Willo in her finest voice (Inworld, Sprite's: the
-// free plan and the free Hero month have no pick), a character in their own (Inworld, then Fish), stepping down to
-// Willo's studio voice when those fail; one voice a reply, as speakPiece's (LOR-596). A reply nothing could say gives
-// its place back. tasteDone: accounts whose taste is all said, so their replies skip the look here (this isolate's).
-const tasteDone = new Set();
-async function speakTaste(env, userId, plan, { text, voice, reply, pick, piece, spellings }, now, later) {
+// counted for good, never among the plan month's or the starter's. Willo in her finest voice (Inworld), a character in
+// their own (Inworld, then Fish), stepping down to Willo's studio voice when those fail; one voice a reply, as
+// speakPiece's (LOR-596). A reply nothing could say gives its place back.
+// The first-run trial (lib/best-first.js TRIAL), while its days last: Willo in the voice they picked (withTrial), and
+// a character in their own voice only with one of the trial's (cast: voice_replies.npc), which a character's reply may
+// take after the taste's finest replies are gone too; without one, Willo's finest voice says a character's reply, as
+// on the plans without characters' voices. seen.trial: the trial as it read it, for speakPiece's own path.
+// tasteDone: accounts whose trial's days are over, so their replies skip the look here; tasteSaid: accounts whose
+// taste is all said, by when their trial's days end, so Willo's own replies skip it too and only take their pick from
+// it (this isolate's: the plan's own path waited a round trip to D1 for nothing, LOR-673).
+const tasteDone = new Set(), tasteSaid = new Map();
+async function speakTaste(env, userId, plan, { text, voice, reply, pick, piece, spellings }, now, later, seen = {}) {
   const character = voice !== "willo" ? characterVoices(env)[voice] : null;
   const ownInworld = character?.inworld && env[PROVIDERS.inworld.key] ? character.inworld : null;
   const ownFish = Boolean(character && env[FISH.key] && env.STUDIO);
-  const cast = Boolean(character && (ownInworld || ownFish));
+  const castable = Boolean(character && (ownInworld || ownFish));
   const ready = readyFor(env, "willo");
-  if ((!cast && !ready.includes("inworld")) || tasteDone.has(userId)) return null;
-  await setupBilling(env);
-  const [mine, owed, day] = await env.DB.batch([
-    env.DB.prepare("SELECT period FROM voice_replies WHERE user_id = ? AND reply = ?").bind(userId, reply),
-    env.DB.prepare("SELECT voices, used FROM best_first WHERE user_id = ?").bind(userId),
-    env.DB.prepare("SELECT reserved_micro FROM best_first_days WHERE day = ?").bind(now.toISOString().slice(0, 10)),
-  ]);
-  const period = mine.results?.[0]?.period, taste = owed.results?.[0];
-  if (period && period !== TASTE_PERIOD) return null;
-  if (!period) {
-    if (!(taste?.voices > 0)) {
-      if (taste?.used >= TASTE_ANSWERS) tasteDone.add(userId);
+  if ((!castable && !ready.includes("inworld")) || tasteDone.has(userId)) return null;
+  const said = tasteSaid.get(userId);
+  if (said && !castable) {
+    if (now.getTime() < said) {
+      seen.trial = { on: true };
       return null;
     }
+    tasteDone.add(userId);
+    return null;
+  }
+  await setupBilling(env);
+  const [mine, owed, day] = await env.DB.batch([
+    env.DB.prepare("SELECT period, best, npc FROM voice_replies WHERE user_id = ? AND reply = ?").bind(userId, reply),
+    trialRow(env, userId),
+    env.DB.prepare("SELECT reserved_micro FROM best_first_days WHERE day = ?").bind(now.toISOString().slice(0, 10)),
+  ]);
+  const given = mine.results?.[0], period = given?.period, taste = owed.results?.[0];
+  const trial = seen.trial = trialOf(env, plan, taste, now);
+  if (trial?.on && trial.until && taste.used >= TASTE_ANSWERS && !(taste.voices > 0)) tasteSaid.set(userId, Date.parse(trial.until));
+  if (period && period !== TASTE_PERIOD) return null;
+  // Whether the reply took one of the finest replies owed (best) and a character's own voice (cast).
+  let best = Boolean(given?.best), cast = castable && Boolean(given?.npc);
+  if (!period) {
+    if (!trial?.on) {
+      if (taste?.started) tasteDone.add(userId);
+      return null;
+    }
+    const owes = taste?.voices > 0, castOk = castable && Boolean(taste) && trial.left.cast > 0;
+    if (!owes && !castOk) return null;
     if ((day.results?.[0]?.reserved_micro || 0) + TASTE_REPLY_MICRO > tasteDayMicro(env)) {
       await countDay(env, now, "capped");
       return null;
     }
-    if (!(await takeVoice(env, userId))) return null;
-    const made = await env.DB.prepare("INSERT OR IGNORE INTO voice_replies (user_id, reply, period, best, created) " +
-      "VALUES (?, ?, ?, 1, ?)").bind(userId, reply, TASTE_PERIOD, now.toISOString()).run();
+    [cast, best] = await Promise.all([castOk && tryOnce(env, taste.claim, "cast", now), owes && takeVoice(env, userId)]);
+    cast = Boolean(cast);
+    best = Boolean(best);
+    if (!best && !cast) return null;
+    const made = await env.DB.prepare("INSERT OR IGNORE INTO voice_replies (user_id, reply, period, best, npc, created) " +
+      "VALUES (?, ?, ?, ?, ?, ?)").bind(userId, reply, TASTE_PERIOD, best ? 1 : 0, cast ? 1 : 0, now.toISOString()).run();
     if (!made.meta.changes) {
-      await giveVoice(env, userId);
+      await Promise.all([best ? giveVoice(env, userId) : null, cast ? untry(env, userId, "cast") : null]);
       return null;
     }
   }
@@ -685,7 +717,7 @@ async function speakTaste(env, userId, plan, { text, voice, reply, pick, piece, 
   if (!taken) return { local: "long", status: 413 };
   const first = !again && taken.chars === chars;
   const wholeMs = piece > 0 || (piece === undefined && taken.chars > chars) ? LATER_PIECE_MS : PROVIDER_MS;
-  const { ids, names } = willoVoice(env, plan, pick);
+  const { ids, names } = willoVoice(env, withTrial(plan, trial), pick);
   const spoken = respell(text, spellings);
   const input = cast && character.cue ? `${character.cue} ${spoken}` : spoken;
   const order = [...(cast
@@ -723,7 +755,8 @@ async function speakTaste(env, userId, plan, { text, voice, reply, pick, piece, 
     env.DB.prepare("DELETE FROM voice_replies WHERE user_id = ? AND reply = ? AND pieces <= 0 AND heard = 0")
       .bind(userId, reply),
   ])).at(-1);
-  await Promise.all([gone.meta.changes ? giveVoice(env, userId) : null, countDay(env, now, "unreachable")]);
+  await Promise.all([gone.meta.changes && best ? giveVoice(env, userId) : null,
+    gone.meta.changes && cast ? untry(env, userId, "cast") : null, countDay(env, now, "unreachable")]);
   return full ? { local: "spent", status: 402 } : { local: "unavailable", status: 503 };
 }
 
@@ -740,13 +773,15 @@ async function speakLine(env, userId, plan, { text, pick, spellings }, now, late
   if (!ready.length) return { local: "unavailable", status: 503 };
   await setupBilling(env);
   // While the account's best first is on (lib/best-first.js), her lines are in the voice its replies get: the finest,
-  // then the studio voice, both on the taste's budget (holdTaste).
-  const taste = tasteFor(env, plan) && ready.includes("inworld") && (await tasteState(env, userId, plan, now))?.on;
+  // then the studio voice, both on the taste's budget (holdTaste); in the voice they picked while the trial's days last.
+  const state = tasteFor(env, plan) ? await tasteState(env, userId, plan, now) : null;
+  plan = withTrial(plan, state?.trial);
+  const taste = ready.includes("inworld") && Boolean(state?.on);
   let steps;
   if (taste) {
     steps = [{ voice: "finest", provider: "inworld", model: LEGEND_BEST_MODEL, taste }, { voice: "studio", provider: "deepinfra", taste }];
   } else if (free) {
-    if (await starterSaid(env, userId) >= STARTER_ANSWERS) return { local: "spent", status: 402 };
+    if (!pv.always && await starterSaid(env, userId) >= STARTER_ANSWERS) return { local: "spent", status: 402 };
     steps = [{ voice: "studio", provider: "deepinfra" }];
   } else {
     if (pv.voice === "local" && !paying(plan)) return { local: "plan", status: 402 };

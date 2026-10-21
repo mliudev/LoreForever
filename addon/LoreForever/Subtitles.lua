@@ -159,7 +159,13 @@ function Sub.TextFor(target, clip)
     title = clip.title or title
   end
   local qkind = key:match("^quest:%d+#(%a+)$")
-  if not text and qkind then text = questText(target, qkind) end
+  if not text and qkind then
+    -- A recording in Lore Forever's language over the game's English page shows its own words (Voice.QuestClip);
+    -- false: an older pack without them, so no subtitles rather than English words that aren't the ones heard.
+    local own = ns.Voice.questWords and ns.Voice.questWords[key]
+    if own == false then return nil end
+    text = own or questText(target, qkind)
+  end
   if not text and base and e and e.faq then
     local f = e.faq[ns.Lang.FaqIndex(base, faq) or tonumber(faq)]
     if f then text = Sub.Spoken(trim(f.q)) .. "\n\n" .. Sub.Spoken(trim(f.a)) end

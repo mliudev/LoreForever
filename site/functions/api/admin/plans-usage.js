@@ -1,8 +1,8 @@
 // What each plan's players use, for /admin's Growth > Plans & usage (lib/plan-usage.js planUsageView,
 // public/admin-plans.js), for pricing decisions.
 //   GET /api/admin/plans-usage[?days=14|30] -> {ok, days, since, collectingSince, answers: [...], answersDays,
-//       allAnswers: {answers, players}, limits: [...], voices: [...], picks: [...], sources: [...]}: by plan label,
-//       never who.
+//       models: [...], modelsSince, allAnswers: {answers, players}, limits: [...], voices: [...], picks: [...],
+//       sources: [...]}: by plan label, never who.
 // Same key as /api/admin ("Authorization: Bearer <key>"), and a browser must send it from our own pages (Origin).
 
 import { authorized } from "../../../lib/auth.js";

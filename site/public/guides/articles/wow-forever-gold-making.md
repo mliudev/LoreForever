@@ -3,7 +3,6 @@ title: WoW Forever Gold Making Guide: 12 Beginner-Friendly Methods
 description: Twelve practical ways to earn and save gold in WoW Forever: looting, quests, gathering, the Auction House and professions, with no fake gold-per-hour claims.
 date: 2026-10-17
 kind: tutorial
-draft: true
 ---
 **The easiest gold strategy for a new WoW Forever player is to earn money while doing what you already need to do.** Finish quests, loot enemies, sell unwanted vendor items, gather useful materials near your route and spend carefully. Once you understand local prices, the Auction House and professions become extra sources of income.
 

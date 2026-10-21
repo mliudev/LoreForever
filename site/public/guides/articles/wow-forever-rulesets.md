@@ -3,7 +3,6 @@ title: WoW Forever Rulesets Explained: Normal, PvP, RP and Hardcore
 description: Which WoW Forever ruleset should you pick? Compare Normal, PvP, Roleplaying and Hardcore, including grouping with friends, factions and switching.
 date: 2026-10-17
 kind: tutorial
-draft: true
 ---
 **For most first-time WoW Forever players, choose the Normal ruleset.** It lets you learn quests, dungeons, professions and the world without a setting built around frequent open-world fights between players. Choose **PvP** for danger from the opposing faction, **Roleplaying** if you enjoy acting as your character, and **Hardcore** only once it arrives after launch and you accept lasting consequences for death.
 

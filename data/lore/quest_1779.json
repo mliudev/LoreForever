@@ -1,0 +1,106 @@
+{
+ "key": "quest:1779",
+ "type": "quest",
+ "name": "The Tome of Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1779
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This trial tests a young paladin's devotion, tasking them with carrying the Symbol of Life to comfort the wounded and prepare for the sacred duty of resurrection."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "Set in the heart of Ironforge, this trial reflects the close bonds among dwarven defenders who brave ambushes against hostile Dark Iron clans."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is this quest",
+    "tome of divinity purpose",
+    "what does this quest do"
+   ],
+   "answer": "The Tome of Divinity is a rite of passage for young paladins learning the ways of the Holy Light. In this stage of the trial, an initiate who has already proven charitable and patient is entrusted with an artifact called the Symbol of Life and directed to aid a wounded dwarf in Ironforge.",
+   "q": "What is The Tome of Divinity?"
+  },
+  {
+   "aliases": [
+    "what is symbol of life",
+    "symbol of life item"
+   ],
+   "answer": "The Symbol of Life is a sacred token entrusted to paladin initiates during their trials. It embodies the healing and restorative power of the Holy Light, intended to aid and revive those fallen in defense of their people.",
+   "q": "What is the Symbol of Life?"
+  },
+  {
+   "aliases": [
+    "who is muiredon battleforge",
+    "who is the wounded dwarf"
+   ],
+   "answer": "Muiredon Battleforge is a dwarven fighter who recently survived a brutal skirmish against Dark Iron dwarves. Though battered and coughing from his injuries, he is being tended to by a local priest in Ironforge while his wife sends promising paladins to hear his tale.",
+   "q": "Who is Muiredon Battleforge?"
+  },
+  {
+   "aliases": [
+    "who sends you to muiredon",
+    "who gives this quest"
+   ],
+   "answer": "The quest is given by Muiredon Battleforge's wife, a paladin mentor in Ironforge. Having watched you demonstrate charity and patience, she sends you with the Symbol of Life to test your power, combat readiness, and willingness to assist her wounded husband.",
+   "q": "Who gives you the Symbol of Life?"
+  },
+  {
+   "aliases": [
+    "who attacked muiredon",
+    "what happened to muiredon"
+   ],
+   "answer": "Muiredon and his companion Narm were ambushed by hostile Dark Iron dwarves. Muiredon barely escaped with his life and made his way back to Ironforge, bearing grievous injuries that require spiritual and physical mending.",
+   "q": "What happened to Muiredon Battleforge?"
+  },
+  {
+   "aliases": [
+    "who is narm",
+    "what happened to narm"
+   ],
+   "answer": "Narm is Muiredon Battleforge's best friend and a fellow paladin who accompanied him into battle. While Muiredon managed to escape their clash with the Dark Iron dwarves, Narm was not so fortunate, setting up the need for a paladin to intervene on his behalf.",
+   "q": "Who is Narm?"
+  }
+ ],
+ "keywords": [
+  "dark iron",
+  "holy light",
+  "ironforge",
+  "muiredon battleforge",
+  "narm",
+  "paladin",
+  "symbol of life",
+  "tome of divinity"
+ ],
+ "related": [
+  "zone:ironforge",
+  "topic:light",
+  "topic:priest"
+ ],
+ "sections": [
+  {
+   "body": "The Tome of Divinity represents an essential milestone in the training of a paladin within the mountain kingdom of Ironforge. Initiates who have already shown humility, patience, and charity are called upon to demonstrate their mastery over martial combat and holy power. Bestowed with a sacred relic known as the Symbol of Life, the initiate is sent into the halls of the city to assist those suffering from the bitter conflicts raging beyond the gates.",
+   "spoiler": 0,
+   "title": "A Trial of Faith and Power"
+  },
+  {
+   "body": "The immediate task directs the initiate to Muiredon Battleforge, a bruised dwarven fighter nursing grave injuries after a clash with hostile Dark Iron dwarves. While a priest tends to Muiredon's immediate wounds, the battered warrior prepares to recount the fate of his expedition and his companion Narm, challenging the aspiring paladin to rise to the occasion and wield the Light's gift of renewal.",
+   "spoiler": 0,
+   "title": "A Brother Fallen"
+  }
+ ],
+ "summary": "The Tome of Divinity is a sacred trial undertaken by paladin initiates in Ironforge to prove their mastery of holy power and martial devotion. Entrusted with the Symbol of Life, an aspiring paladin is sent to aid the wounded warrior Muiredon Battleforge after a deadly encounter with Dark Iron dwarves.",
+ "attribution": [
+  "In-game quest text: The Tome of Divinity"
+ ]
+}

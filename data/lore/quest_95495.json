@@ -1,0 +1,103 @@
+{
+ "key": "quest:95495",
+ "type": "quest",
+ "name": "The Hermit Tanner",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95495
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Travelers across the central savanna often assist local traders like Vrang in moving essential trade goods across the rugged terrain of the Barrens."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives hermit tanner",
+    "where start quest",
+    "vrang delivery"
+   ],
+   "answer": "A trader named Vrang arranges this task, asking a passing traveler to deliver a bundle of prepared hides to a business partner perched on the ridge above.",
+   "q": "Who sends you on this delivery?"
+  },
+  {
+   "aliases": [
+    "hermit tanner location",
+    "where is hermit tanner",
+    "ridge hermit"
+   ],
+   "answer": "The hermit tanner lives alone on a secluded homestead atop the high ridge overlooking the Dry Hills in the Barrens.",
+   "q": "Where does the hermit tanner live?"
+  },
+  {
+   "aliases": [
+    "hermit looks",
+    "why hermit scary",
+    "hermit appearance"
+   ],
+   "answer": "Vrang warns travelers beforehand not to be alarmed by the tanner's unusual or unsettling appearance, swearing that despite how he looks, the recluse poses no threat to visitors.",
+   "q": "Why does Vrang warn you about the tanner's appearance?"
+  },
+  {
+   "aliases": [
+    "why need delivery",
+    "why vrang cant go"
+   ],
+   "answer": "Vrang explains that making the steep climb up the rugged hillside is something he cannot easily manage on his own at the moment, prompting him to hire a courier instead.",
+   "q": "Why couldn't Vrang make the climb himself?"
+  },
+  {
+   "aliases": [
+    "what is bundle of hides",
+    "quest items delivered"
+   ],
+   "answer": "The delivery consists of a bundle of hides intended for the hermit's tanning trade, a craft the two figures regularly cooperate on.",
+   "q": "What items are being delivered to the ridge?"
+  },
+  {
+   "aliases": [
+    "what does tanner want with vrang",
+    "tanner business with vrang"
+   ],
+   "answer": "Upon receiving the delivery, the tanner expresses regret that Vrang could not make the climb in person, noting that there is a matter he needs to speak with Vrang about directly.",
+   "q": "What does the hermit tanner wish to discuss with Vrang?"
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "bundle of hides",
+  "dry hills",
+  "hermit tanner",
+  "ridge",
+  "tanner",
+  "vrang"
+ ],
+ "related": [
+  "item:bundle-of-hides",
+  "subzone:dry-hills",
+  "zone:barrens"
+ ],
+ "sections": [
+  {
+   "body": "The rugged savanna of the Barrens fosters trade between resilient folk, though not all craftsmen prefer the bustling atmosphere of crossroads or settlements. In the shadow of the Dry Hills, a trader named Vrang regularly exchanges goods with a reclusive tanner who has established a quiet homestead atop the overlooking ridge. Because the steep trek up the rocky hillside is too taxing for Vrang to undertake, he relies on passing adventurers to haul bundles of raw pelts up to his secluded partner.",
+   "spoiler": 0,
+   "title": "A Ridge in the Barrens"
+  },
+  {
+   "body": "Before sending travelers on their way, Vrang takes care to offer a pointed warning regarding the solitary craftsman. The hermit possesses an alarming and unusual appearance that might startle unsuspecting visitors, though Vrang insists the reclusive tanner poses no danger to guests. Upon receiving the leather goods at his ridge property, the hermit welcomes the courier warmly, though he laments that Vrang was unable to make the ascent, as there remains a matter he hoped to discuss with the trader in person.",
+   "spoiler": 0,
+   "title": "An Unconventional Craftsman"
+  }
+ ],
+ "summary": "The Hermit Tanner is a local delivery quest in the Barrens where adventurers carry a bundle of cured hides to a reclusive craftsman living atop a ridge overlooking the Dry Hills. The task highlights the remote working partnerships of the savanna and introduces an isolated, striking hermit who maintains regular trade despite his seclusion.",
+ "attribution": [
+  "In-game quest text: The Hermit Tanner"
+ ]
+}

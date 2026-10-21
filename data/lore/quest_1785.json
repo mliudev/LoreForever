@@ -1,0 +1,116 @@
+{
+ "key": "quest:1785",
+ "type": "quest",
+ "name": "The Tome of Divinity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1785
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "This quest marks a sacred rite of passage for dwarven paladins in Ironforge, culminating in the gift of resurrection through the Light."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "The trial takes place within Ironforge and earns the gratitude of the Battleforge family on behalf of the dwarven kingdom."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Champions trained in the Light are prepared to stand on the front lines against the Scourge and the Dark Iron clan."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is tome of divinity",
+    "tome of divinity quest",
+    "what does this quest do"
+   ],
+   "answer": "The Tome of Divinity is a sacred trial undertaken by holy champions in Ironforge. Completing the trial proves your spiritual maturity and grants you the ability to channel the Light to resurrect fallen companions.",
+   "q": "What is The Tome of Divinity?"
+  },
+  {
+   "aliases": [
+    "who is tiza battleforge",
+    "where is tiza battleforge",
+    "find tiza battleforge"
+   ],
+   "answer": "Tiza Battleforge is a prominent dwarven teacher of the Light located in the city of Ironforge. She presents the final blessing to champions who have proven themselves ready to wield the power of resurrection.",
+   "q": "Who is Tiza Battleforge?"
+  },
+  {
+   "aliases": [
+    "who gives this quest",
+    "tiza husband",
+    "who sent me to tiza"
+   ],
+   "answer": "You are directed to Tiza Battleforge by her husband after completing a previous trial in the field. He sends you back to Ironforge with words of pride and encouragement before you meet with his wife.",
+   "q": "Who sends you to Tiza Battleforge?"
+  },
+  {
+   "aliases": [
+    "what is symbol of life",
+    "symbol of life paladin",
+    "how does resurrection work"
+   ],
+   "answer": "The Symbol of Life is a holy item used during the paladin's trials. It only functions for a champion whose devotion makes them worthy of receiving one of the Light's greatest miracles: calling a fallen ally back from death.",
+   "q": "What is the Symbol of Life?"
+  },
+  {
+   "aliases": [
+    "what power do i learn",
+    "resurrect spell quest",
+    "paladin revive quest"
+   ],
+   "answer": "Upon presenting yourself to Tiza Battleforge, she blesses you with a sacred scroll that teaches you Redemption, the power to restore fallen allies to life.",
+   "q": "What ability do you learn from completing this quest?"
+  },
+  {
+   "aliases": [
+    "who are ironforge enemies",
+    "why fight dark irons and scourge",
+    "battlefield enemies"
+   ],
+   "answer": "Ironforge faces constant threats from both the treacherous Dark Iron dwarves and the undead monstrosities of the Scourge, making powerful healers and holy defenders essential to the defense of the realm.",
+   "q": "Why are champions of the Light needed by Ironforge?"
+  }
+ ],
+ "keywords": [
+  "ironforge",
+  "paladin",
+  "redemption",
+  "resurrection",
+  "symbol of life",
+  "the tome of divinity",
+  "tiza battleforge",
+  "tome of divinity"
+ ],
+ "related": [
+  "npc:tiza-battleforge",
+  "zone:ironforge",
+  "topic:light",
+  "topic:scourge"
+ ],
+ "sections": [
+  {
+   "body": "The Tome of Divinity represents one of the most critical milestones in a dwarven holy warrior's training. After undertaking trials across the kingdom, the champion is sent back to Ironforge to meet with Tiza Battleforge, a revered mentor of the holy arts. Her husband looks on with immense pride as you make your way to her, eager to see your readiness acknowledged before the dwarven people and the Holy Light.",
+   "spoiler": 0,
+   "title": "A Sacred Rite in Ironforge"
+  },
+  {
+   "body": "To earn the final blessing, a champion must demonstrate the spiritual resolve required to handle the Symbol of Life. As Tiza Battleforge explains, the relic only responds to a heart genuinely prepared to channel the Light's most profound gifts. Proving this worthiness allows Tiza to bestow a sacred scroll, granting the ability to call fallen comrades back from the brink of death. This power is entrusted to the champion to sustain Ironforge in its struggles against the Scourge and the Dark Iron clan.",
+   "spoiler": 0,
+   "title": "The Blessing of Resurrection"
+  }
+ ],
+ "summary": "The Tome of Divinity is a pivotal trial undertaken by holy champions in Ironforge, culminating in a meeting with Tiza Battleforge. Completing the trial demonstrates worthiness to wield the Symbol of Life and unlocks the sacred power to resurrect fallen allies.",
+ "attribution": [
+  "In-game quest text: The Tome of Divinity"
+ ]
+}

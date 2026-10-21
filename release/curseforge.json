@@ -422,15 +422,15 @@
     },
     {
       "key": "male-more-people-ptbr",
-      "name": "Lore Forever - Portuguese Narration: More People (Male Narrator)",
+      "name": "Lore Forever - Brazilian Portuguese Narration: More People (Male Narrator)",
       "about": "the male narrator in Brazilian Portuguese: the whole story of hundreds more characters, plus factions, peoples and lore topics",
       "from": "LoreForever_Voice_Default_MorePeople_ptBR.zip",
       "folders": ["LoreForever_Voice_Default_MorePeople_ptBR"],
       "file": "Lore Forever more people (male narrator), Portuguese {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1755323,
+      "slug": "lore-forever-brazilian-portuguese-narration-more",
       "live": false
     },
     {
@@ -484,6 +484,19 @@
       "id": 1727668,
       "slug": "lore-forever-portuguese-narration-male-narrator",
       "live": true
+    },
+    {
+      "key": "male-ptbr",
+      "name": "Lore Forever - Brazilian Portuguese Narration (Male Narrator)",
+      "about": "the male narrator in Brazilian Portuguese: zone stories and places",
+      "from": "LoreForever_Voice_Default_ptBR.zip",
+      "folders": ["LoreForever_Voice_Default_ptBR"],
+      "file": "Lore Forever male narrator, Brazilian Portuguese {v}",
+      "core": "optional",
+      "requires": [],
+      "id": 1755322,
+      "slug": "lore-forever-brazilian-portuguese-narration-male",
+      "live": false
     },
     {
       "key": "female-ptbr",

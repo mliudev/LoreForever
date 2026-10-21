@@ -14,6 +14,8 @@
 // Pages doesn't apply _headers to responses from Functions (the profile pages, /downloads, /translate, the API). A file
 // served through here keeps its own (/admin's stricter Content-Security-Policy).
 
+import { migratedAdminLocation } from '../lib/admin-location.js';
+
 const OLD_HOSTS = ["loreforever.mliu.io", "lore-forever.pages.dev"];
 const STAY = ["/api/billing/webhook", "/api/profile/voice/hook"];
 // The same Content-Security-Policy as /* in public/_headers (tests/hashes.test.mjs checks they match). Scripts only
@@ -35,6 +37,11 @@ export async function onRequest({ request, env, next }) {
     url.port = "";
     return Response.redirect(url.toString(), request.method === "GET" || request.method === "HEAD" ? 301 : 308);
   }
+  const adminLocation = migratedAdminLocation(request, env);
+  if (adminLocation) return new Response(null, { status: 302, headers: {
+    Location: adminLocation, 'Cache-Control': 'private, no-store',
+    'Referrer-Policy': 'no-referrer', 'X-Frame-Options': 'DENY',
+  } });
   // A response's headers can be read-only (a redirect, a file from ASSETS), so set them on a copy.
   const res = await next();
   const out = new Response(res.body, res);

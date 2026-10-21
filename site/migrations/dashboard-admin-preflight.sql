@@ -1,0 +1,71 @@
+-- Read-only deployment preflight, not a migration.
+-- Current schema columns for tables read by the dashboard bridge.
+-- Execute statements individually and report missing tables/columns.
+-- Fix missing schema explicitly from its owning setup; never via a GET.
+-- No rows or private data are returned.
+
+SELECT t."id", t."salt" FROM "billing_salt" AS t LIMIT 0;
+SELECT t."day", t."user_id", t."n" FROM "answer_days" AS t LIMIT 0;
+SELECT t."id", t."kind", t."said", t."question", t."answer", t."zone", t."sub", t."persona", t."spoken", t."user_hash", t."status", t."fact_id", t."note", t."created", t."updated", t."answer_ref", t."reasons", t."signals", t."source", t."topic", t."followup", t."class", t."gold_id", t."fixed_at", t."fixed_how", t."fixed_ref", t."told_at" FROM "answer_feedback" AS t LIMIT 0;
+SELECT t."id", t."created", t."player", t."operation", t."npc", t."spoken", t."zone", t."sub", t."question", t."answer", t."action", t."model", t."model_ms", t."total_ms", t."looked_up", t."lookups", t."facts", t."feedback", t."outcome", t."error", t."ref", t."signals", t."topic", t."ctx", t."say", t."plan" FROM "answer_log" AS t LIMIT 0;
+SELECT t."id", t."user_id", t."answers", t."remaining", t."spent_micro", t."payment_intent", t."status", t."created", t."kind" FROM "answer_packs" AS t LIMIT 0;
+SELECT t."month", t."reserved_micro", t."actual_micro", t."calls" FROM "answer_spend" AS t LIMIT 0;
+SELECT t."user_id", t."month", t."micro", t."calls", t."topup_micro", t."voice_micro", t."launch_micro" FROM "answer_user_spend" AS t LIMIT 0;
+SELECT t."claim", t."user_id", t."used", t."voices", t."lookups", t."started", t."finished", t."tries" FROM "best_first" AS t LIMIT 0;
+SELECT t."day", t."reserved_micro", t."spent_micro", t."answers", t."replies", t."lines", t."starts", t."capped", t."unreachable" FROM "best_first_days" AS t LIMIT 0;
+SELECT t."key", t."stamp", t."built", t."json" FROM "cached_results" AS t LIMIT 0;
+SELECT t."period", t."day", t."project", t."file", t."metric", t."value", t."updated" FROM "cf_author_stats" AS t LIMIT 0;
+SELECT t."day", t."n" FROM "clicks" AS t LIMIT 0;
+SELECT t."id", t."created", t."updated", t."clip", t."hash", t."voice", t."reason", t."name", t."say_as", t."note", t."version", t."locale", t."source", t."user_id", t."sender", t."uploader", t."country", t."status", t."resolved", t."fixed_in" FROM "clip_reports" AS t LIMIT 0;
+SELECT t."day", t."install", t."companion", t."addon" FROM "companion_days" AS t LIMIT 0;
+SELECT t."upload_id", t."user_id", t."nick", t."ip_hash", t."source", t."n_new", t."n_known", t."created_at", t."uploader", t."n_confirmed", t."n_invalid", t."version", t."build", t."locale", t."rejected" FROM "contrib_batches" AS t LIMIT 0;
+SELECT t."id", t."kind", t."ref_id", t."part", t."locale", t."build", t."text", t."text_hash", t."status", t."uploads", t."uploaders", t."found_by_user", t."found_by_nick", t."first_seen", t."updated_at", t."shipped_in", t."lkey", t."speaker", t."player", t."mode", t."corrects", t."flagged", t."picked", t."pick_reason" FROM "contrib_lines" AS t LIMIT 0;
+SELECT t."id", t."taken_at", t."json" FROM "cost_snapshots" AS t LIMIT 0;
+SELECT t."id", t."user_id", t."name", t."channel", t."audience", t."contact", t."note", t."status", t."code", t."created", t."decided" FROM "creator_applications" AS t LIMIT 0;
+SELECT t."invoice_id", t."creator", t."user_id", t."paid_cents", t."share_cents", t."pct", t."paid_at", t."recorded", t."paid_out", t."payable_at", t."reversed", t."reversed_why", t."payout_id", t."clawed" FROM "creator_earnings" AS t LIMIT 0;
+SELECT t."id", t."creator", t."month", t."cents", t."items", t."method", t."status", t."transfer_id", t."error", t."note", t."created", t."paid_at" FROM "creator_payouts" AS t LIMIT 0;
+SELECT t."code", t."name", t."contact", t."discount", t."share_pct", t."months", t."gift", t."promo_id", t."promo_code", t."stripe_error", t."created", t."retired", t."user_id", t."channel", t."connect_id", t."connect_ready", t."connect_country" FROM "creators" AS t LIMIT 0;
+SELECT t."id", t."token_hash", t."user_id", t."label", t."created", t."last_used", t."last_sync", t."machine" FROM "devices" AS t LIMIT 0;
+SELECT t."day", t."file", t."user_id", t."n" FROM "download_accounts" AS t LIMIT 0;
+SELECT t."day", t."file", t."src", t."n" FROM "download_sources" AS t LIMIT 0;
+SELECT t."day", t."file", t."n" FROM "downloads" AS t LIMIT 0;
+SELECT t."hash", t."created" FROM "email_optouts" AS t LIMIT 0;
+SELECT t."user_id", t."customer_id", t."subscription_id", t."plan", t."interval", t."status", t."current_period_end", t."cancel_at_period_end", t."updated", t."promo_champion_until", t."next_plan", t."next_plan_at", t."gap_from" FROM "entitlements" AS t LIMIT 0;
+SELECT t."user_id", t."reason", t."created" FROM "excluded_accounts" AS t LIMIT 0;
+SELECT t."id", t."created", t."kind", t."rating", t."message", t."code", t."email", t."name", t."quote_ok", t."country", t."sender", t."user_id", t."report", t."status", t."resolution", t."reason", t."resolved", t."fixed_in" FROM "feedback" AS t LIMIT 0;
+SELECT t."id", t."title", t."text", t."zone", t."source_title", t."source_url", t."origin", t."status", t."created", t."updated" FROM "forever_facts" AS t LIMIT 0;
+SELECT t."id", t."reporter", t."reported", t."messages", t."note", t."created", t."status" FROM "friend_reports" AS t LIMIT 0;
+SELECT t."install", t."day", t."counts", t."internal" FROM "install_usage" AS t LIMIT 0;
+SELECT t."user_id", t."day", t."kind", t."plan", t."n" FROM "limit_hits" AS t LIMIT 0;
+SELECT t."id", t."subscription_id", t."user_id", t."plan", t."kind", t."at", t."started", t."ends", t."days", t."paid_cents", t."trial", t."reason", t."feedback", t."comment", t."counted", t."created" FROM "plan_cancellations" AS t LIMIT 0;
+SELECT t."subscription_id", t."user_id", t."plan", t."status", t."started", t."canceled", t."ended", t."discounts", t."comp", t."updated", t."source" FROM "plan_log" AS t LIMIT 0;
+SELECT t."invoice_id", t."subscription_id", t."cents", t."paid" FROM "plan_payments" AS t LIMIT 0;
+SELECT t."subscription_id", t."read" FROM "plan_payments_read" AS t LIMIT 0;
+SELECT t."user_id", t."handle", t."public", t."spec", t."data", t."story", t."story_source", t."story_count", t."created", t."updated", t."story_at", t."story_basis", t."journey", t."card_sha", t."card_key" FROM "profiles" AS t LIMIT 0;
+SELECT t."claim", t."subscription_id", t."created" FROM "promo_claims" AS t LIMIT 0;
+SELECT t."id", t."user_id", t."kind", t."cycle", t."status", t."method", t."plan", t."answers", t."cents", t."stripe_id", t."starts", t."ends", t."error", t."created", t."tried", t."applied" FROM "referral_rewards" AS t LIMIT 0;
+SELECT t."key", t."value", t."updated" FROM "referral_settings" AS t LIMIT 0;
+SELECT t."user_id", t."code", t."kind", t."sharer_id", t."creator", t."sub_hash", t."answers", t."created", t."paid", t."via", t."connected", t."activated", t."counted", t."void", t."browser", t."machine", t."card", t."first_month" FROM "referrals" AS t LIMIT 0;
+SELECT t."code", t."user_id", t."kind", t."created", t."retired", t."clicks" FROM "share_codes" AS t LIMIT 0;
+SELECT t."user_id", t."day" FROM "signin_days" AS t LIMIT 0;
+SELECT t."day", t."metric", t."n" FROM "site_counts" AS t LIMIT 0;
+SELECT t."day", t."src", t."landing", t."kind", t."n", t."cents" FROM "source_events" AS t LIMIT 0;
+SELECT t."slug", t."label", t."target", t."created", t."retired", t."opens" FROM "source_links" AS t LIMIT 0;
+SELECT t."day", t."source", t."project", t."file", t."downloads", t."taken", t."first", t."first_taken" FROM "store_counts" AS t LIMIT 0;
+SELECT t."source", t."project", t."file", t."name", t."uploaded", t."downloads", t."day1", t."seen" FROM "store_files" AS t LIMIT 0;
+SELECT t."month", t."micro_usd", t."calls", t."stories", t."voice_micro_usd", t."reserved_micro" FROM "story_spend" AS t LIMIT 0;
+SELECT t."voice_id", t."line_id", t."owner", t."r2_key", t."file_name", t."ext", t."bytes", t."duration_ms", t."hash", t."checks", t."created" FROM "studio_takes" AS t LIMIT 0;
+SELECT t."email", t."source", t."created_at" FROM "subscribers" AS t LIMIT 0;
+SELECT t."id", t."user_id", t."locale", t."string_id", t."en", t."text", t."created", t."updated", t."status", t."reviewed", t."reason", t."outcome", t."pulled_at", t."shipped_in" FROM "translation_edits" AS t LIMIT 0;
+SELECT t."id", t."created", t."locale", t."code", t."place", t."wrong", t."better", t."email", t."name", t."country", t."sender", t."status", t."user_id", t."resolution", t."reason", t."resolved", t."fixed_in" FROM "translation_reports" AS t LIMIT 0;
+SELECT t."id", t."created", t."locale", t."language", t."credit", t."email", t."discord", t."link", t."fix", t."note", t."terms_version", t."country", t."sender", t."status", t."user_id" FROM "translation_submissions" AS t LIMIT 0;
+SELECT t."user_id", t."locale", t."created" FROM "translator_languages" AS t LIMIT 0;
+SELECT t."user_id", t."day", t."counts" FROM "usage_days" AS t LIMIT 0;
+SELECT t."day", t."metric", t."installs", t."n" FROM "usage_rollup" AS t LIMIT 0;
+SELECT t."id", t."email", t."google_sub", t."display_name", t."links", t."show_public", t."created", t."last_seen", t."welcomed_at" FROM "users" AS t LIMIT 0;
+SELECT t."user_id", t."day", t."kind", t."said", t."pick", t."plan", t."replies", t."pieces", t."chars" FROM "voice_days" AS t LIMIT 0;
+SELECT t."id", t."generated_at", t."received_at", t."body" FROM "voice_status" AS t LIMIT 0;
+SELECT t."generated_at", t."received_at", t."current_n", t."count_n", t."done_n", t."total_n" FROM "voice_status_history" AS t LIMIT 0;
+SELECT t."id", t."created", t."credit", t."email", t."discord", t."pack", t."link", t."clips", t."note", t."release_version", t."adult_or_guardian", t."signature", t."country", t."sender", t."status", t."user_id", t."voice_id", t."reason" FROM "voice_submissions" AS t LIMIT 0;
+SELECT t."id", t."owner", t."name", t."status", t."bio", t."created", t."updated" FROM "voices" AS t LIMIT 0;
+SELECT t."subscription_id", t."cancellation_id", t."subject", t."text", t."status", t."created" FROM "winback_notes" AS t LIMIT 0;

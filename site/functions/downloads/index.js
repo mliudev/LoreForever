@@ -12,6 +12,10 @@ import { loadPacks as loadPackFacts, loadSizes, comesSection, extrasSection } fr
 import { liveKeys } from "../../lib/lore.js";
 import { willoSection, willoPreview } from "../../lib/willo.js";
 
+// Arriving from /voices (functions/voices/index.js), the address voice actors were sent to record: the recorder first.
+const RECORDING = `<p class="dl-record"><b>Recording for Lore Forever?</b> <a class="h-btn h-sm" href="/voices/lend">` +
+  `Start here</a></p>`;
+
 export async function onRequestGet({ request, env }) {
   // A plain fetch of the page (no If-None-Match), so it never comes back as an empty 304.
   const page = await env.ASSETS.fetch(new URL("/downloads", request.url));
@@ -33,6 +37,7 @@ export async function onRequestGet({ request, env }) {
     .replace("<!-- dl-packs -->", () => extras)
     .replace(/<!-- dl-willo:[^>]*-->/, () => willoSection(sizes, willoTest))
     .replace(/<!-- dl-community:[^>]*-->/, () => communitySection(voices, likes))
-    .replace("<!-- dl-voices -->", () => voicesSection(voices, likes, packs));
+    .replace("<!-- dl-voices -->", () => voicesSection(voices, likes, packs))
+    .replace('<div class="h-head dl-head">', h => new URL(request.url).searchParams.get("from") === "voices" ? RECORDING + h : h);
   return new Response(out, { status: page.status, headers });
 }

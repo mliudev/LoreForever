@@ -234,6 +234,7 @@ export const SITE_NAV = `  <nav class="wrap nav" aria-label="Lore Forever">
       <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
       <a class="nl" id="nav-download" href="/downloads">Download</a>
       <a class="nl" id="nav-lore" href="/lore">Lore</a>
+      <a class="nl" id="nav-guides" href="/guides">Guides</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
       <a class="nl" id="nav-community" href="/feedback">Community</a>
     </div>

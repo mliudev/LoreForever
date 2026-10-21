@@ -1,9 +1,10 @@
 // What Willo's hosted voice counts and charges, step by step, held to a recording (LOR-673): the speak path's database
 // round trips were batched, and the PM's bar was that billing stays identical: the same counts, caps and plan checks.
-// One scripted run across the plans and paths (Hero, a finest-voice pack, Legend's finest and after, Champion, the free
-// starter and after it, a new player's best first and the day's cap on it, a provider down, the month's cap, a reply
-// past 600 letters, a piece asked again, Willo's own lines, a reply the app gave up on), each step's answer and the
-// billing tables after it, compared with site/tests/fixtures/speak-billing-guard.json.
+// One scripted run across the plans and paths (Hero's finest voice, a finest-voice pack after it, Legend's richer voice and
+// after, Champion, the free plan's studio voice and the old spoken starter's end, a new player's best first and the day's
+// cap on it, a provider down, the month's cap, a reply past 600 letters, a piece asked again, Willo's own lines, a reply
+// the app gave up on), each step's answer and the billing tables after it, compared with
+// site/tests/fixtures/speak-billing-guard.json.
 //
 // A change that should change billing records it again: RECORD=1 node --test site/tests/speak-billing-guard.test.mjs,
 // then read the diff of the fixture before committing it.
@@ -15,7 +16,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { onRequest as speakApi } from "../functions/api/companion/speak.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { setupBilling, planFor, poolWindow, LEGEND_BEST_PER_MONTH, STARTER_ANSWERS, PLANS } from "../lib/billing.js";
+import { setupBilling, planFor, poolWindow, LEGEND_BEST_PER_MONTH, STARTER_ANSWERS, PLANS, PLAN_VOICE } from "../lib/billing.js";
 import { d1, assets } from "./helpers.mjs";
 
 const FIXTURE = new URL("./fixtures/speak-billing-guard.json", import.meta.url);
@@ -113,7 +114,12 @@ test("the hosted voice counts and charges exactly as recorded, step by step", as
     await step("hero old app piece 2", hero, { text: "Victory or death.", reply: "hero-reply-2" });
     await step("hero past 600", hero, { text: "a".repeat(590), reply: "hero-reply-3", piece: 0 });
     await step("hero past 600 more", hero, { text: "And a little more.", reply: "hero-reply-3", piece: 1 });
-    // A finest-voice pack on Hero: its replies in the finest voice, one of the pack's each.
+    // A finest-voice pack on a Hero whose month's 1,500 finest replies are said: its replies in the finest voice, one of
+    // the pack's each (packs bought before they were retired).
+    const packedPeriod = poolWindow(await planFor(env, packed.user.id)).key;
+    const packedAdd = sql.prepare("INSERT INTO voice_replies (user_id, reply, period, pieces, heard, best, created) " +
+      "VALUES (?, ?, ?, 1, 1, 1, ?)");
+    for (let i = 0; i < 1500; i++) packedAdd.run(packed.user.id, `earlier-${i}`, packedPeriod, new Date(NOW).toISOString());
     sql.prepare("INSERT INTO answer_packs (id, user_id, kind, answers, remaining, spent_micro, status, created) VALUES " +
       "(?, ?, 'voice', 400, 400, 0, 'active', ?)").run("pack-1", packed.user.id, new Date(NOW - 864e5).toISOString());
     await step("pack reply", packed, { text: "Strength and honor.", reply: "pack-reply-1", piece: 0 });
@@ -127,17 +133,23 @@ test("the hosted voice counts and charges exactly as recorded, step by step", as
     await step("legend then studio", legend, { text: "The studio voice.", reply: "legend-reply-2", piece: 0 });
     await step("legend unheard", legend, { reply: "legend-reply-1", unheard: true });
     await step("legend finest again", legend, { text: "Finest once more.", reply: "legend-reply-3", piece: 0 });
-    // Champion: Chatterbox; down, the PC says it and nothing is kept.
+    // Champion: the finest voice; both providers down, the PC says it and nothing is kept.
     await step("champion reply", champion, { text: "Hail, champion.", reply: "champ-reply-1", piece: 0 });
+    failing.add("inworld");
     failing.add("deepinfra");
     await step("champion provider down", champion, { text: "Nobody hears this.", reply: "champ-reply-2", piece: 0 });
     failing.clear();
-    // The free plan's starter, and a free player whose starter is spoken for.
-    await step("free starter reply", free, { text: "Welcome, traveler.", reply: "free-reply-1", piece: 0 });
-    await step("free starter piece 2", free, { text: "The road is long.", reply: "free-reply-1", piece: 1 });
+    // The free plan: the studio voice on every spoken answer, counted by the calendar month.
+    await step("free reply", free, { text: "Welcome, traveler.", reply: "free-reply-1", piece: 0 });
+    await step("free reply piece 2", free, { text: "The road is long.", reply: "free-reply-1", piece: 1 });
+    // The free plan's old spoken starter (no plan has it now): a free player whose starter is spoken for gets text.
     const starter = sql.prepare("INSERT INTO voice_replies (user_id, reply, period, pieces, heard, created) VALUES (?, ?, 'starter', 1, 1, ?)");
     for (let i = 0; i < STARTER_ANSWERS; i++) starter.run(spentFree.user.id, `starter-${i}`, new Date(NOW).toISOString());
-    await step("free starter spent", spentFree, { text: "Text from here.", reply: "spent-reply-1", piece: 0 });
+    const alwaysSpoken = PLAN_VOICE.free;
+    PLAN_VOICE.free = { voice: "chatterbox", choice: false, starter: true };
+    try {
+      await step("free starter spent", spentFree, { text: "Text from here.", reply: "spent-reply-1", piece: 0 });
+    } finally { PLAN_VOICE.free = alwaysSpoken; }
     // A new player's best first: two finest replies earned, the second asked out on the day's cap.
     sql.prepare("INSERT INTO best_first (claim, user_id, used, voices) VALUES (?, ?, 2, 2)").run(`taste:${taste.user.id}`, taste.user.id);
     await step("taste finest", taste, { text: "Welcome, traveler.", reply: "taste-reply-1", piece: 0 });

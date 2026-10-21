@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // Results too costly to work out on every page view, kept in D1 (cached_results, lib/accounts.js). D1's free plan
 // allows 5M rows read a day; on 2026-10-10 the translator credits on /translate and /contributors read every saved
 // edit (~57k rows a view) and used 90% of it. Kept outside functions/ so Pages doesn't route it.
@@ -20,6 +21,7 @@ export async function cached(env, key, { stamp, minAge = 600, maxAge = 6 * 3600 
     if (age >= 0 && age < maxAge && (row.stamp === current || age < minAge)) return JSON.parse(row.json);
   }
   const value = await build(env);
+  if (isReportRead(env)) return value;
   try {
     await env.DB.prepare(
       "INSERT INTO cached_results (key, stamp, built, json) VALUES (?, ?, ?, ?) " +

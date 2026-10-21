@@ -1,3 +1,4 @@
+import { isReportRead } from "../../lib/report-read.js";
 // Data for Mike's private dashboard (/admin): sign-up emails, feedback reports, voice submissions, contributor
 // accounts and download counts.
 // Every request needs "Authorization: Bearer <key>", where the key is ADMIN_KEY, or FEEDBACK_KEY when ADMIN_KEY
@@ -132,11 +133,13 @@ async function addStatusColumn(db) {
 export async function onRequestGet({ request, env, waitUntil }) {
   if (!(await authorized(request, env))) return json({ error: "Needs the admin key." }, 401);
   if (!env.DB) return json({ error: "No D1 database bound as DB" }, 503);
+  // Legacy callers allow missing optional panels; dashboard reads must disclose failures.
+  const safe = query => isReportRead(env) ? query : query.catch(() => null);
   // A feedback burst that ended with nothing after it posts its digest to Slack now (lib/slack-feedback.js).
-  waitUntil?.(flushDigest(env, new URL(request.url).origin));
+  if (!isReportRead(env)) waitUntil?.(flushDigest(env, new URL(request.url).origin));
   const { time, header } = timings();
   const now = Date.now();
-  const schema = time("schema", () => Promise.all([addStatusColumn(env.DB), safe(setupAccounts(env)), safe(setupSubmissions(env)),
+  const schema = isReportRead(env) ? Promise.resolve() : time("schema", () => Promise.all([addStatusColumn(env.DB), safe(setupAccounts(env)), safe(setupSubmissions(env)),
     safe(setupReports(env))]));
   // Parts that read lib/accounts.js's tables (or feedback's columns) wait for the schema; the others, timed straight
   // away, read only tables of their own.
@@ -196,6 +199,7 @@ export async function onRequestGet({ request, env, waitUntil }) {
   // always already up to date, so the counts run meanwhile, and run again on the load that changed something: an
   // account newly left out, or the admin's first visit of the day (currentUser notes the sign-in day).
   const accountCounts = schema.then(async () => {
+    if (isReportRead(env)) return counts();
     const [stale, first] = await Promise.all([time("exclusions", async () => {
       const admin = await safe(currentUser(env, request));
       const changed = await safe(syncExclusions(env, admin));
@@ -238,7 +242,7 @@ export async function onRequestGet({ request, env, waitUntil }) {
     part("willo", () => safe(willoReport(env, now))),
     // Willo's best first (lib/best-first.js, LOR-602): what new players' first answers at her best cost, and whether
     // the players who had them pay and come back more than those before.
-    part("taste", () => safe(tasteReport(env, now))),
+    part("taste", () => safe(tasteReport(env, isReportRead(env) ? new Date(now) : now))),
     // What each plan's players use (lib/plan-usage.js): limits hit, voices that said their replies, picks.
     part("planUsage", () => safe(planUsageReport(env, { now }))),
   ]);

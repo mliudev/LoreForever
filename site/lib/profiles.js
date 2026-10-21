@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // Player profiles (LOR-181): a signed-in player pastes their journey record on /account (lib/journey.js reads it) and
 // gets a page at /u/<handle> with their character's stats, the road they took, the bosses they beat and their story.
 // Used by functions/api/profile/[action].js and functions/u/[handle].js. Kept outside functions/ so Pages doesn't
@@ -424,6 +425,7 @@ const MIGRATE = [
 ];
 const migrated = new WeakSet();
 export async function setupProfiles(env) {
+  if (isReportRead(env)) return;
   if (migrated.has(env.DB)) return;
   const { results } = await env.DB.prepare('PRAGMA table_info(profiles)').all();
   const columns = new Set(results.map(column => column.name));

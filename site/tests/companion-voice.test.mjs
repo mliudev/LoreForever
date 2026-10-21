@@ -1,6 +1,7 @@
 // Willo's spoken replies (lib/companion-voice.js, functions/api/companion/speak.js, LOR-490): which voice says each
-// plan's answers, a reply counted once across its pieces, Legend's finest voice for its first replies of the month,
-// the voice stepping down (finest, studio, the PC) before a month would cost more than the plan brings or when a
+// plan's answers (Free's studio voice, Hero's and Champion's finest, Legend's richer), a reply counted once across its
+// pieces, the finest voice for a plan month's replies, the voice stepping down (finest, studio, the PC) before a month
+// would cost more than the plan brings or when a
 // provider fails, a reply nothing could say given back, and the hosted voice's cost apart from the text cap. Gemini and
 // the voice providers are mocked through fetch; D1 is node:sqlite (helpers.mjs). Run: node --test 'site/tests/*.test.mjs'
 
@@ -11,10 +12,11 @@ import { readFileSync } from "node:fs";
 import { onRequest as speakApi } from "../functions/api/companion/speak.js";
 import { findOrCreateUser, setup } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { setupBilling, planFor, poolWindow, userSpend, capState, PLANS, LEGEND_BEST_PER_MONTH, LEGEND_BEST_MODEL,
-  STARTER_ANSWERS } from "../lib/billing.js";
+import { setupBilling, planFor, poolWindow, userSpend, capState, PLANS, PLAN_VOICE, LEGEND_BEST_PER_MONTH,
+  RICHER_MODEL, STARTER_ANSWERS } from "../lib/billing.js";
 import { allowance, answerBudgetUsed } from "../lib/companion-answers.js";
-import { willoPick, hostedSpellings, AZEROTH_STUDIO, AZEROTH_PICKS } from "../lib/companion-voice.js";
+import { willoPick, hostedSpellings, AZEROTH_STUDIO, AZEROTH_PICKS, WILLO_PICKS } from "../lib/companion-voice.js";
+import { TRIAL, TASTE_ANSWERS } from "../lib/best-first.js";
 import { CHARACTER_VOICES } from "../lib/character-voices.js";
 
 import { d1, assets } from "./helpers.mjs";
@@ -85,26 +87,46 @@ async function companionPlayer(sub, plan) {
   // What this calendar month cost so far: `text` of answers, `voice` of hosted voice.
   const spent = (text, voice = 0) => env.DB.sqlite.prepare("INSERT OR REPLACE INTO answer_user_spend " +
     "(user_id, month, micro, calls, voice_micro) VALUES (?, '2026-10', ?, 1, ?)").run(user.id, text + voice, voice);
-  // Their first answers at Willo's best (lib/best-first.js): `used` of the 20 answered, `voices` finest replies owed.
-  const tasted = (used = 20, voices = 0) => env.DB.sqlite.prepare("INSERT OR REPLACE INTO best_first (claim, user_id, " +
-    "used, voices) VALUES (?, ?, ?, ?)").run(`taste:test-${user.id}`, user.id, used, voices);
+  // Their first answers at Willo's best (lib/best-first.js): `used` of the 20 answered, `voices` finest replies owed,
+  // the first `daysAgo` (null: the first-run trial's days not started yet; past TRIAL_DAYS: over).
+  const tasted = (used = TASTE_ANSWERS, voices = 0, daysAgo = null) => env.DB.sqlite.prepare("INSERT OR REPLACE INTO best_first " +
+    "(claim, user_id, used, voices, started) VALUES (?, ?, ?, ?, ?)").run(`taste:test-${user.id}`, user.id, used, voices,
+    daysAgo === null ? null : new Date(NOW - daysAgo * 86400e3).toISOString());
   return { user, speak, voice, saidBest, spent, tasted };
 }
 
-test("who says each plan's answers: the studio voice for Free's first ones and Hero, Champion's choice, Legend's finest", async () => {
+// A Champion whose plan month's finest replies are all said: its Willo voice is the studio one until the renewal.
+async function tiredChampion(sub) {
+  const champion = await companionPlayer(sub, "champion");
+  await champion.saidBest(3000);
+  return champion;
+}
+
+// The free plan as it was before 10/19: a spoken starter of STARTER_ANSWERS replies, counted for good, then text
+// (PLAN_VOICE.free.starter). No plan has one now, but speakPiece, speakLine and voiceAllowance still do, so a test
+// that calls this runs with that voice config in place of the real free plan's (always: the studio voice on every
+// spoken answer), put back when it ends.
+function freeStarter(t) {
+  const real = PLAN_VOICE.free;
+  PLAN_VOICE.free = { voice: "chatterbox", choice: false, starter: true };
+  t.after(() => { PLAN_VOICE.free = real; });
+}
+
+test("who says each plan's answers: Free's studio voice, Hero's finest, Champion's finest by choice, Legend's richer", async () => {
   const free = await companionPlayer("free"), hero = await companionPlayer("hero", "hero");
   const champion = await companionPlayer("champ", "champion"), legend = await companionPlayer("legend", "legend");
   const studio = { tier: "hosted", top: "studio", now: "studio", choice: false };
-  assert.deepEqual(await free.voice(), { ...studio, now: "finest", starterLeft: STARTER_ANSWERS },
-    "its first answers at Willo's best (below)");
-  free.tasted();
-  assert.deepEqual(await free.voice(), { ...studio, starterLeft: STARTER_ANSWERS });
-  assert.deepEqual(await hero.voice(), studio);
-  assert.deepEqual(await champion.voice(), { tier: "hosted", top: "studio", now: "studio", choice: true });
-  assert.deepEqual(await legend.voice(), { tier: "hosted", top: "finest", now: "finest", choice: true,
-                                           bestLeft: LEGEND_BEST_PER_MONTH });
-  // The free plan: while its starter lasts it may ask out loud, and those questions are answered aloud (below);
-  // typed questions get text (Mike, 2026-10-14).
+  const finest = { tier: "hosted", top: "finest", now: "finest" };
+  assert.deepEqual(await free.voice(), { ...studio, now: "finest", choice: true, starterLeft: 0 },
+    "its first answers at Willo's best (below), her voice picked from all of hers in its first-run trial's days");
+  free.tasted(TASTE_ANSWERS, 0, 15);
+  assert.deepEqual(await free.voice(), { ...studio, starterLeft: 0 }, "the studio voice always: no starter to count down");
+  assert.deepEqual(await hero.voice(), { ...finest, choice: false, bestLeft: 1500 });
+  assert.deepEqual(await champion.voice(), { ...finest, choice: true, bestLeft: 3000 });
+  assert.deepEqual(await legend.voice(), { ...finest, choice: true, bestLeft: LEGEND_BEST_PER_MONTH });
+  assert.equal(LEGEND_BEST_PER_MONTH, 6000);
+  // The free plan asks out loud, and those questions are answered aloud (below) in the studio voice, at any time of
+  // the month; typed questions get text (Mike, 2026-10-14; always, Mike, 2026-10-19).
   const features = async () => (await allowance(env, free.user.id)).features;
   assert.deepEqual([(await features()).voices, (await features()).push_to_talk], ["default", true]);
   assert.deepEqual((await allowance(env, hero.user.id)).features.voices, "all", "Hero: Willo's voices on the PC stand in");
@@ -125,15 +147,42 @@ test("who says each plan's answers: the studio voice for Free's first ones and H
   assert.equal(calls.length, 0);
 });
 
+test("Hero's and Champion's finest voice is Inworld TTS 2 Flash, Legend's the richer TTS 2; past the month's finest replies, the studio voice", async () => {
+  const hero = await companionPlayer("hero", "hero"), champion = await companionPlayer("champ", "champion");
+  const legend = await companionPlayer("legend", "legend");
+  const text = "Strength and honor.";
+  for (const [player, model, perLetter] of [[hero, "inworld-tts-2-flash", 15], [champion, "inworld-tts-2-flash", 15],
+                                           [legend, RICHER_MODEL, 25]]) {
+    assert.equal((await player.speak({ text, reply: "reply-one", pick: "moonwell" })).status, 200);
+    assert.deepEqual([calls.at(-1).provider, calls.at(-1).body.modelId], ["inworld", model]);
+    assert.equal(await userSpend(env, player.user.id, new Date(), { total: true }), perLetter * text.length);
+  }
+  assert.equal(RICHER_MODEL, "inworld-tts-2");
+  assert.deepEqual(calls.map(c => c.body.voiceId), ["willo-finest", "humble-aspen-1573__design-voice-1a47e9a9",
+    "humble-aspen-1573__design-voice-1a47e9a9"], "Hero has no choice (Sprite); Champion and Legend: Moonwell's finest");
+  // Every Hero reply is the finest one, counted on the plan month: the 1,500th is the last, then the studio voice.
+  assert.equal((await hero.voice()).bestLeft, 1499);
+  await hero.saidBest(1498);
+  assert.equal((await hero.speak({ text, reply: "reply-last" })).status, 200);
+  assert.equal(calls.at(-1).provider, "inworld");
+  assert.equal((await hero.speak({ text, reply: "reply-after" })).status, 200);
+  assert.equal(calls.at(-1).provider, "deepinfra");
+  assert.deepEqual([(await hero.voice()).now, (await hero.voice()).bestLeft], ["studio", 0]);
+});
+
 test("Willo speaks as Sprite; Champion and Legend in the voice the player picks, Sprite for an unknown one", async () => {
   const champion = await companionPlayer("champ", "champion"), legend = await companionPlayer("legend", "legend");
+  const tired = await tiredChampion("tired");
   const idOf = async (player, pick) => {
     assert.equal((await player.speak({ text: "Lok'tar ogar.", ...(pick ? { pick } : {}) })).status, 200);
     return calls.at(-1).body.voice_id ?? calls.at(-1).body.voiceId;
   };
-  assert.equal(await idOf(champion), "willo-studio", "no pick: Sprite, the Pages variable's willo ids");
-  assert.equal(await idOf(champion, "moonwell"), "1lm6bxrwur1pipen43ce", "Moonwell's studio voice, the code's id");
-  assert.equal(await idOf(champion, "gloomshade"), "willo-studio");
+  assert.equal(await idOf(champion), "willo-finest", "no pick: Sprite, the Pages variable's willo ids");
+  assert.equal(await idOf(champion, "moonwell"), "humble-aspen-1573__design-voice-1a47e9a9", "Moonwell's finest voice");
+  // Once the month's finest replies are said, the studio voice in the same pick.
+  assert.equal(await idOf(tired), "willo-studio", "no pick: Sprite, the Pages variable's willo ids");
+  assert.equal(await idOf(tired, "moonwell"), "1lm6bxrwur1pipen43ce", "Moonwell's studio voice, the code's id");
+  assert.equal(await idOf(tired, "gloomshade"), "willo-studio");
   assert.equal(await idOf(legend, "fenlight"), "humble-aspen-1573__design-voice-22a59081", "Fenlight's finest voice");
   // A hosted voice on a plan without a choice is always Sprite.
   assert.equal(willoPick({ voice: { voice: "chatterbox", choice: false } }, "moonwell"), "sprite");
@@ -141,27 +190,32 @@ test("Willo speaks as Sprite; Champion and Legend in the voice the player picks,
 
 test("Voices of Azeroth (LOR-609): Champion and Legend may pick a people's voice as Willo's; NPCs keep their own", async () => {
   const champion = await companionPlayer("champ", "champion"), legend = await companionPlayer("legend", "legend");
-  const hero = await companionPlayer("hero", "hero");
+  const hero = await companionPlayer("hero", "hero"), tired = await tiredChampion("tired");
   const idOf = async (player, body) => {
     const said = await player.speak({ text: "Lok'tar ogar.", ...body });
     assert.equal(said.status, 200);
     return [calls.at(-1).provider, calls.at(-1).body.voice_id ?? calls.at(-1).body.voiceId, said.voice];
   };
   assert.equal(AZEROTH_PICKS.length, 22);
-  // Champion's studio voice: the slot's Chatterbox clone; Legend's finest: its Inworld clone, the same reference.
-  assert.deepEqual(await idOf(champion, { pick: "dwarf-male" }), ["deepinfra", AZEROTH_STUDIO["dwarf-male"], null]);
+  // The finest voice (Champion's, Legend's): the slot's Inworld clone. A Champion whose month's finest replies are said
+  // has the studio voice: the slot's Chatterbox clone, the same reference.
+  assert.deepEqual(await idOf(champion, { pick: "dwarf-male" }), ["inworld", CHARACTER_VOICES["dwarf-male"].inworld, null]);
+  assert.deepEqual(await idOf(tired, { pick: "dwarf-male" }), ["deepinfra", AZEROTH_STUDIO["dwarf-male"], null]);
   assert.deepEqual(await idOf(legend, { pick: "nightelf-female" }),
     ["inworld", CHARACTER_VOICES["nightelf-female"].inworld, null]);
   // Her own lines in the borrowed voice too, kept by the companion under its name.
-  assert.deepEqual(await idOf(champion, { pick: "orc-female", line: true, text: "Westfall was farmland once." }),
+  assert.deepEqual(await idOf(tired, { pick: "orc-female", line: true, text: "Westfall was farmland once." }),
     ["deepinfra", AZEROTH_STUDIO["orc-female"], "studio:orc-female"]);
+  assert.deepEqual(await idOf(champion, { pick: "orc-female", line: true, text: "Westfall was farmland once." }),
+    ["inworld", CHARACTER_VOICES["orc-female"].inworld, "finest:orc-female"]);
   // Her male partners (LOR-610) are her own picks too, in both voices.
-  assert.deepEqual((await idOf(champion, { pick: "puck" })).slice(0, 2), ["deepinfra", "rbo1dwi5xclqs2rgluhk"]);
+  assert.deepEqual((await idOf(tired, { pick: "puck" })).slice(0, 2), ["deepinfra", "rbo1dwi5xclqs2rgluhk"]);
   assert.deepEqual((await idOf(legend, { pick: "kestrel" })).slice(0, 2),
     ["inworld", "humble-aspen-1573__design-voice-b10f5442"]);
   // Hero has no choice, and a slot that isn't one of ours is no pick: Sprite.
-  assert.deepEqual((await idOf(hero, { pick: "dwarf-male" })).slice(0, 2), ["deepinfra", "willo-studio"]);
-  assert.deepEqual((await idOf(champion, { pick: "kobold-male" })).slice(0, 2), ["deepinfra", "willo-studio"]);
+  assert.deepEqual((await idOf(hero, { pick: "dwarf-male" })).slice(0, 2), ["inworld", "willo-finest"]);
+  assert.deepEqual((await idOf(tired, { pick: "kobold-male" })).slice(0, 2), ["deepinfra", "willo-studio"]);
+  assert.deepEqual((await idOf(champion, { pick: "kobold-male" })).slice(0, 2), ["inworld", "willo-finest"]);
   assert.equal(willoPick({ voice: { voice: "chatterbox", choice: true } }, "troll-male"), "troll-male");
   assert.equal(willoPick({ voice: { voice: "chatterbox", choice: false } }, "troll-male"), "sprite");
   // An orc who answers in person keeps an orc's own voice, whatever Willo borrows (LOR-477).
@@ -170,12 +224,14 @@ test("Voices of Azeroth (LOR-609): Champion and Legend may pick a people's voice
   // A slot whose rights aren't cleared any more is never said, for Willo either: Sprite instead.
   env.CHARACTER_VOICES = JSON.stringify({ "dwarf-male": { ...CHARACTER_VOICES["dwarf-male"], provenance: "a trailer" } });
   try {
-    assert.deepEqual((await idOf(champion, { pick: "dwarf-male" })).slice(0, 2), ["deepinfra", "willo-studio"]);
+    assert.deepEqual((await idOf(tired, { pick: "dwarf-male" })).slice(0, 2), ["deepinfra", "willo-studio"]);
+    assert.deepEqual((await idOf(champion, { pick: "dwarf-male" })).slice(0, 2), ["inworld", "willo-finest"]);
   } finally { delete env.CHARACTER_VOICES; }
 });
 
-test("Champion: every reply in Chatterbox, counted once across its pieces, its cost apart from the text cap", async () => {
-  const { user, speak } = await companionPlayer("champ", "champion");
+test("Champion past its month's finest replies: every reply in Chatterbox, counted once across its pieces, its cost apart from the text cap", async () => {
+  const { user, speak } = await tiredChampion("champ");
+  const earlier = "SELECT COUNT(*) AS n FROM voice_replies WHERE reply NOT LIKE 'earlier-%'";
   const pieces = ["Thrall leads the Horde,", "from his seat in Orgrimmar, beyond the gates of Durotar."];
   for (const text of pieces) {
     const res = await speak({ text, reply: "reply-0001" });
@@ -186,7 +242,7 @@ test("Champion: every reply in Chatterbox, counted once across its pieces, its c
   assert.deepEqual(calls.map(c => [c.provider, c.body.voice_id, c.body.text]), pieces.map(t => ["deepinfra", "willo-studio", t]));
   assert.equal(calls[0].headers.Authorization, "Bearer di-test");
   assert.deepEqual([calls[0].body.response_format, calls[0].body.exaggeration, calls[0].body.cfg], ["mp3", 0.5, 0.5]);
-  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM voice_replies").get().n, 1, "two pieces, one reply");
+  assert.equal(env.DB.sqlite.prepare(earlier).get().n, 1, "two pieces, one reply");
 
   // $1 a million letters, on the player's month as voice: the whole net counts it, the text half doesn't, and the
   // free players' budget doesn't move.
@@ -199,7 +255,7 @@ test("Champion: every reply in Chatterbox, counted once across its pieces, its c
   const down = await speak({ text: "Nobody hears this.", reply: "reply-lost" });
   assert.deepEqual([down.status, down.body.speak, down.body.reason], [503, "local", "unavailable"]);
   assert.deepEqual(calls.slice(2).map(c => c.provider), ["deepinfra"]);
-  assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM voice_replies").get().n, 1);
+  assert.equal(env.DB.sqlite.prepare(earlier).get().n, 1);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM answer_holds").get().n, 0, "its hold went back");
   failing.clear();
 
@@ -212,18 +268,18 @@ test("Champion: every reply in Chatterbox, counted once across its pieces, its c
   assert.equal((await speak({ text: "a".repeat(601) })).status, 400);
 });
 
-test("Legend: Inworld's finest voice for the first replies of its plan month, then Chatterbox until the renewal", async () => {
+test("Legend: Inworld's richer voice for the 6,000 replies of its plan month, then Chatterbox until the renewal", async () => {
   const { user, speak, voice, saidBest } = await companionPlayer("legend", "legend");
   await saidBest(LEGEND_BEST_PER_MONTH - 1);
   const finest = await speak({ text: "Strength and honor.", reply: "reply-best" });
   assert.equal(finest.status, 200);
   assert.deepEqual(finest.body, MP3, "Inworld's streamed chunks, joined");
   assert.deepEqual([calls[0].provider, calls[0].headers.Authorization, calls[0].body.voiceId, calls[0].body.modelId,
-                    calls[0].body.audioConfig], ["inworld", "Basic iw-test", "willo-finest", LEGEND_BEST_MODEL,
+                    calls[0].body.audioConfig], ["inworld", "Basic iw-test", "willo-finest", RICHER_MODEL,
                     { audioEncoding: "MP3" }]);
-  assert.equal(LEGEND_BEST_MODEL, "inworld-tts-2-flash");
-  assert.equal(await userSpend(env, user.id, new Date(), { total: true }), 15 * "Strength and honor.".length,
-    "TTS 2 Flash: $15 a million letters");
+  assert.equal(RICHER_MODEL, "inworld-tts-2");
+  assert.equal(await userSpend(env, user.id, new Date(), { total: true }), 25 * "Strength and honor.".length,
+    "TTS 2: $25 a million letters");
   assert.equal((await speak({ text: "The rest of it.", reply: "reply-best" })).status, 200);
   assert.equal(calls[1].provider, "inworld", "a reply keeps its voice");
   assert.deepEqual(await voice(), { tier: "hosted", top: "finest", now: "studio", back: "2026-10-31T12:00:00.000Z",
@@ -258,7 +314,7 @@ test("a reply stays in the voice that said its first piece, when room runs short
   const net = PLANS.legend.totalCapMicro;
   // Room for one whole finest reply and a little: its first piece takes some of it, and the rest of the reply,
   // which the room held from the start, is still Inworld's.
-  spent(9_000_000, net - 9_000_000 - 600 * 15 - 50);
+  spent(9_000_000, net - 9_000_000 - 600 * 25 - 50);
   for (const text of ["Strength.", "And honor, always."])
     assert.equal((await speak({ text, reply: "reply-tight" })).status, 200);
   assert.deepEqual(calls.map(c => c.provider), ["inworld", "inworld"]);
@@ -290,9 +346,48 @@ test("a reply stays in the voice that said its first piece, when room runs short
   assert.deepEqual(calls.map(c => c.provider), ["inworld", "inworld"], "never the studio voice");
 });
 
-test("the free plan's first replies in the studio voice, paid by the shared free budget; then its answers are text", async () => {
+test("the free plan's replies are all in the studio voice, counted by the calendar month and paid by the shared free budget: no starter to run out", async (t) => {
   const { user, speak, voice, tasted } = await companionPlayer("newcomer");
-  tasted();
+  tasted(TASTE_ANSWERS, 0, 15);
+  const plan = await planFor(env, user.id);
+  for (const text of ["Welcome, traveler.", "The rest of it."])
+    assert.equal((await speak({ text, reply: "free-reply-01" })).status, 200);
+  assert.deepEqual(calls.map(c => [c.provider, c.body.voice_id]), [["deepinfra", "willo-studio"], ["deepinfra", "willo-studio"]]);
+  const said = "Welcome, traveler.The rest of it.".length;
+  assert.equal(await answerBudgetUsed(env), said, "the free budget pays for it");
+  assert.equal(await userSpend(env, user.id, new Date(), { total: true }), 0);
+  const rows = () => env.DB.sqlite.prepare("SELECT reply, period, pieces FROM voice_replies WHERE user_id = ?").all(user.id)
+    .map(r => ({ ...r }));
+  assert.deepEqual(rows(), [{ reply: "free-reply-01", period: "2026-10-01", pieces: 2 }], "two pieces, one reply, on the calendar month");
+  assert.equal(poolWindow(plan).key, "2026-10-01");
+  // More than the old starter's 30, and still spoken; nothing counts down, and the PC is never asked to stand in.
+  for (let i = 2; i <= STARTER_ANSWERS + 2; i++) assert.equal((await speak({ text: "Again.", reply: `free-reply-${i}` })).status, 200);
+  assert.equal(rows().length, STARTER_ANSWERS + 2);
+  const after = await allowance(env, user.id);
+  assert.deepEqual([after.voice.starterLeft, after.voice.tier, after.features.voices, after.features.push_to_talk],
+    [0, "hosted", "default", true]);
+  // A reply nothing could say isn't kept, and its cost goes back.
+  const used = await answerBudgetUsed(env);
+  failing.add("deepinfra");
+  assert.equal((await speak({ text: "Nobody hears this.", reply: "free-reply-lost" })).status, 503);
+  failing.clear();
+  assert.deepEqual([rows().length, await answerBudgetUsed(env)], [STARTER_ANSWERS + 2, used]);
+  // The shared free budget spent: the PC says it, as it does for every free spoken answer then.
+  env.STORY_BUDGET_USD = "0";
+  try {
+    const spent = await speak({ text: "No budget left.", reply: "free-reply-spent" });
+    assert.deepEqual([spent.status, spent.body.reason], [402, "spent"]);
+  } finally { delete env.STORY_BUDGET_USD; }
+  // A new calendar month starts the count again; the old month's replies are gone.
+  t.mock.timers.setTime(Date.parse("2026-11-02T12:00:00Z"));
+  assert.equal((await speak({ text: "A new month.", reply: "free-reply-nov" })).status, 200);
+  assert.deepEqual(rows().map(r => [r.reply, r.period]), [["free-reply-nov", "2026-11-01"]]);
+});
+
+test("a free plan with a spoken starter (no plan has one now): its first replies in the studio voice, paid by the shared free budget; then text", async (t) => {
+  freeStarter(t);
+  const { user, speak, voice, tasted } = await companionPlayer("newcomer");
+  tasted(TASTE_ANSWERS, 0, 15);
   for (const text of ["Welcome, traveler.", "The rest of it."])
     assert.equal((await speak({ text, reply: "starter-01" })).status, 200);
   assert.deepEqual(calls.map(c => [c.provider, c.body.voice_id]), [["deepinfra", "willo-studio"], ["deepinfra", "willo-studio"]]);
@@ -322,7 +417,7 @@ test("the voice steps down, finest to studio to the PC, before a month would cos
   assert.deepEqual([PLANS.legend.costCapMicro, net, PLANS.champion.costCapMicro, PLANS.champion.totalCapMicro,
                     PLANS.hero.costCapMicro], [9_200_000, 18_410_000, 4_520_000, 9_050_000, 2_180_000],
     "answers may cost half the net, answers and voice the whole net");
-  // Room for a whole studio reply (600 letters at $1 a million) but not a finest one ($15): the studio voice, back
+  // Room for a whole studio reply (600 letters at $1 a million) but not a finest one ($25): the studio voice, back
   // when the calendar month turns.
   spent(9_000_000, net - 9_000_000 - 5_000);
   assert.deepEqual([(await voice()).now, (await voice()).back], ["studio", "2026-11-01T00:00:00.000Z"]);
@@ -342,20 +437,16 @@ test("the voice steps down, finest to studio to the PC, before a month would cos
 
 test("Willo's tips in the voice its replies get, costing what a reply would but never counted as one", async () => {
   const tip = "Westfall was farmland once, before the Defias came.";
-  // The free plan's starter: a tip in the studio voice on the shared free budget, never one of its 30. After it: text.
+  // The free plan: a tip in the studio voice on the shared free budget, never one of its replies.
   const free = await companionPlayer("newcomer");
   free.tasted();
   assert.equal((await free.speak({ text: tip, line: true })).voice, "studio:sprite");
-  assert.deepEqual([(await free.voice()).starterLeft, await answerBudgetUsed(env)], [STARTER_ANSWERS, tip.length]);
-  // A reading (the add-on's answer read aloud) during the starter: the PC's, the shared free budget untouched.
+  assert.deepEqual([(await free.voice()).starterLeft, await answerBudgetUsed(env),
+    env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM voice_replies WHERE user_id = ?").get(free.user.id).n], [0, tip.length, 0]);
+  // A reading (the add-on's answer read aloud): the PC's, the shared free budget untouched.
   const freeRead = await free.speak({ text: tip, line: true, reading: true });
   assert.deepEqual([freeRead.status, freeRead.body.reason, calls.length, await answerBudgetUsed(env)],
     [402, "reading", 1, tip.length]);
-  const add =env.DB.sqlite.prepare("INSERT INTO voice_replies (user_id, reply, period, pieces, heard, created) " +
-    "VALUES (?, ?, 'starter', 1, 1, ?)");
-  for (let i = 0; i < STARTER_ANSWERS; i++) add.run(free.user.id, `starter-${i}`, new Date(NOW).toISOString());
-  const after = await free.speak({ text: tip, line: true });
-  assert.deepEqual([after.status, after.body.reason, calls.length], [402, "spent", 1]);
 
   // Legend: the finest voice in the player's pick, on their month inside the total cap; the month's finest replies,
   // and its replies, don't move.
@@ -364,14 +455,14 @@ test("Willo's tips in the voice its replies get, costing what a reply would but 
   const said = await speak({ text: tip, line: true, pick: "moonwell" });
   assert.deepEqual([said.status, said.voice, calls[0].provider, calls[0].body.voiceId],
     [200, "finest:moonwell", "inworld", "humble-aspen-1573__design-voice-1a47e9a9"]);
-  assert.equal(await userSpend(env, user.id, new Date(), { total: true }), 15 * tip.length);
+  assert.equal(await userSpend(env, user.id, new Date(), { total: true }), 25 * tip.length);
   assert.equal(env.DB.sqlite.prepare("SELECT COUNT(*) AS n FROM voice_replies WHERE user_id = ?").get(user.id).n, 0);
   assert.equal((await voice()).bestLeft, LEGEND_BEST_PER_MONTH);
   // The add-on's short answer read aloud (LOR-547) is always the PC's (Mike, 10/15): no provider, nothing spent.
   const asked = calls.length;
   const read = await speak({ text: tip, line: true, reading: true, pick: "moonwell" });
   assert.deepEqual([read.status, read.body.reason, calls.length], [402, "reading", asked]);
-  assert.equal(await userSpend(env, user.id, new Date(), { total: true }), 15 * tip.length);
+  assert.equal(await userSpend(env, user.id, new Date(), { total: true }), 25 * tip.length);
   // It steps down with the replies: no room for a whole finest reply, the studio voice; none for a studio one, the PC.
   const net = PLANS.legend.totalCapMicro;
   spent(9_000_000, net - 9_000_000 - 5_000);
@@ -381,12 +472,26 @@ test("Willo's tips in the voice its replies get, costing what a reply would but 
   assert.deepEqual([out.status, out.body.reason, calls.length], [402, "spent", 2]);
 });
 
+test("a free plan with a spoken starter (no plan has one now): Willo's tips are studio on the free budget, never one of its replies, and text after it", async (t) => {
+  freeStarter(t);
+  const tip = "Westfall was farmland once, before the Defias came.";
+  const free = await companionPlayer("newcomer");
+  free.tasted();
+  assert.equal((await free.speak({ text: tip, line: true })).voice, "studio:sprite");
+  assert.deepEqual([(await free.voice()).starterLeft, await answerBudgetUsed(env)], [STARTER_ANSWERS, tip.length]);
+  const add = env.DB.sqlite.prepare("INSERT INTO voice_replies (user_id, reply, period, pieces, heard, created) " +
+    "VALUES (?, ?, 'starter', 1, 1, ?)");
+  for (let i = 0; i < STARTER_ANSWERS; i++) add.run(free.user.id, `starter-${i}`, new Date(NOW).toISOString());
+  const after = await free.speak({ text: tip, line: true });
+  assert.deepEqual([after.status, after.body.reason, calls.length], [402, "spent", 1]);
+});
+
 test("a free player's first answers asked out loud are said in Willo's finest voice, on the taste's day cap", async () => {
   const { user, speak, voice, tasted } = await companionPlayer("newcomer");
   const day = () => env.DB.sqlite.prepare("SELECT replies, lines, capped, unreachable, spent_micro FROM best_first_days").get();
   const owed = () => env.DB.sqlite.prepare("SELECT voices FROM best_first WHERE user_id = ?").get(user.id).voices;
   // One spoken taste answer earned one finest reply (site/tests/billing.test.mjs): both its pieces in Inworld's Sprite,
-  // paid from the shared free budget, never one of the starter's 30.
+  // paid from the shared free budget, never among the plan month's replies.
   tasted(1, 1);
   for (const text of ["Welcome, traveler.", "The rest of it."]) {
     const said = await speak({ text, reply: "taste-01" });
@@ -394,9 +499,10 @@ test("a free player's first answers asked out loud are said in Willo's finest vo
   }
   const letters = "Welcome, traveler.The rest of it.".length;
   assert.deepEqual(calls.map(c => [c.provider, c.body.voiceId]), [["inworld", "willo-finest"], ["inworld", "willo-finest"]]);
-  assert.deepEqual([owed(), (await voice()).starterLeft, await answerBudgetUsed(env)], [0, STARTER_ANSWERS, 15 * letters]);
+  assert.deepEqual([owed(), await answerBudgetUsed(env)], [0, 15 * letters]);
+  assert.deepEqual(env.DB.sqlite.prepare("SELECT DISTINCT period FROM voice_replies").all().map(r => r.period), ["taste"]);
   assert.deepEqual([day().replies, day().spent_micro], [1, 15 * letters]);
-  // A reply no taste answer earned: the plan's own (the free starter's studio voice).
+  // A reply no taste answer earned: the plan's own (the free plan's studio voice).
   assert.equal((await speak({ text: "Hello again.", reply: "plain-01" })).voice, null);
   assert.equal(calls.at(-1).provider, "deepinfra");
   // Inworld down: the studio voice says it, still the taste's; nothing can: its place goes back.
@@ -420,9 +526,52 @@ test("a free player's first answers asked out loud are said in Willo's finest vo
     assert.deepEqual([owed(), day().capped], [1, 1]);
   } finally { delete env.TASTE_DAY_USD; }
   // All 20 answered and said: the free plan's own voice from then on.
-  tasted(20, 0);
+  tasted(TASTE_ANSWERS, 0);
   assert.equal((await voice()).now, "studio");
   assert.equal((await speak({ text: "Westfall was farmland once.", line: true })).voice, "studio:sprite");
+});
+
+test("a new player's first-run trial: her voice from all of hers, and characters in their own voices a few times", async (t) => {
+  // Mike, 2026-10-19: "the best voice models and all the features that Willow has to offer for a limited time, like a
+  // limited number of uses for just about everything" (lib/best-first.js TRIAL).
+  const { user, speak, voice, tasted } = await companionPlayer("trier");
+  const tries = () => JSON.parse(env.DB.sqlite.prepare("SELECT tries FROM best_first WHERE user_id = ?").get(user.id).tries || "{}");
+  const owed = () => env.DB.sqlite.prepare("SELECT voices FROM best_first WHERE user_id = ?").get(user.id).voices;
+  const idOf = said => [said.status, calls.at(-1).provider, calls.at(-1).body.voiceId ?? calls.at(-1).body.voice_id, said.voice];
+  tasted(3, 3, 1);
+  assert.equal((await voice()).choice, true, "the companion offers all of her voices");
+  // Willo's finest reply in the voice they picked (Inworld's Moonwell), at the price of Sprite's.
+  assert.deepEqual(idOf(await speak({ text: "Welcome, traveler.", reply: "pick-001", pick: "moonwell" })),
+    [200, "inworld", WILLO_PICKS.moonwell.inworld, "finest:moonwell"]);
+  // A character who answers in person: their own voice, one of the trial's, and the finest reply it was owed.
+  assert.deepEqual(idOf(await speak({ text: "Lok'tar.", voice: "orc-male", reply: "orc-0001" })),
+    [200, "inworld", CHARACTER_VOICES["orc-male"].inworld, "finest:orc-male"]);
+  assert.deepEqual([tries(), owed()], [{ cast: 1 }, 1]);
+  // The trial's character voices used: Willo's finest voice says the character's reply, from what the taste owes.
+  env.DB.sqlite.prepare("UPDATE best_first SET tries = ? WHERE user_id = ?").run(JSON.stringify({ cast: TRIAL.cast }), user.id);
+  assert.deepEqual(idOf(await speak({ text: "Strength and honor.", voice: "orc-male", reply: "orc-0002" })),
+    [200, "inworld", "willo-finest", "finest:sprite"]);
+  assert.equal(owed(), 0);
+  // The taste's finest replies all said, one of the trial's still left: a character's own voice from it alone.
+  env.DB.sqlite.prepare("UPDATE best_first SET used = ?, tries = ? WHERE user_id = ?")
+    .run(TASTE_ANSWERS, JSON.stringify({ cast: TRIAL.cast - 1 }), user.id);
+  assert.deepEqual(idOf(await speak({ text: "For the Horde.", voice: "orc-male", reply: "orc-0003" })),
+    [200, "inworld", CHARACTER_VOICES["orc-male"].inworld, "finest:orc-male"]);
+  assert.deepEqual(tries(), { cast: TRIAL.cast });
+  // Nothing could say it: the trial's place goes back.
+  env.DB.sqlite.prepare("UPDATE best_first SET tries = ? WHERE user_id = ?").run(JSON.stringify({ cast: TRIAL.cast - 1 }), user.id);
+  failing.add("inworld"); failing.add("deepinfra");
+  assert.equal((await speak({ text: "Nobody hears this.", voice: "orc-male", reply: "orc-0004" })).status, 503);
+  failing.clear();
+  assert.deepEqual(tries(), { cast: TRIAL.cast - 1 });
+  // The plan's own path in the trial's days (the free plan's studio voice): still the voice they picked.
+  assert.deepEqual(idOf(await speak({ text: "Hello again.", reply: "plain-001", pick: "moonwell" })),
+    [200, "deepinfra", WILLO_PICKS.moonwell.deepinfra, null]);
+  // The trial's days over: Sprite, and characters in Willo's voice, as the free plan's.
+  t.mock.timers.setTime(NOW + 7 * 86400e3);
+  assert.equal((await voice()).choice, false);
+  assert.deepEqual(idOf(await speak({ text: "Hello once more.", reply: "plain-002", pick: "moonwell" })),
+    [200, "deepinfra", "willo-studio", null]);
 });
 
 test("a piece asked for again counts its letters once, and a later piece's voice gets the time the companion waits", async () => {
@@ -439,12 +588,12 @@ test("a piece asked for again counts its letters once, and a later piece's voice
   assert.equal(again.status, 200, JSON.stringify(again.body));
   assert.deepEqual({ ...row() }, { chars: first.length + rest.length, pieces: 2 });
   // Asked again and nothing can say it: the letters an earlier ask counted stay; the reply isn't given back.
-  failing.add("deepinfra");
+  failing.add("inworld"); failing.add("deepinfra");   // Hero's finest voice, then the studio voice
   assert.equal((await speak({ text: rest, reply: "long-reply", piece: 1 })).status, 503);
   failing.clear();
   assert.deepEqual({ ...row() }, { chars: first.length + rest.length, pieces: 2 });
   // A piece that couldn't be said the first time is counted when it's asked for again.
-  failing.add("deepinfra");
+  failing.add("inworld"); failing.add("deepinfra");
   assert.equal((await speak({ text: "And Durotar.", reply: "long-reply", piece: 2 })).status, 503);
   failing.clear();
   assert.equal((await speak({ text: "And Durotar.", reply: "long-reply", piece: 2 })).status, 200);
@@ -475,9 +624,11 @@ test("a piece asked for again counts its letters once, and a later piece's voice
   } finally { globalThis.fetch = slow; }
 });
 
-test("a reply the companion gave up on before its first piece came back gives back its place, not what it cost", async () => {
+test("a reply the companion gave up on before its first piece came back gives back its place, not what it cost", async (t) => {
   // LOR-673: the companion waits PIECE_WAIT for a reply's first piece, then says the whole reply in Willo's own voice on
   // the PC; the piece it gave up on was still said and counted here, so a player lost a finest reply they never heard.
+  // The free plan's spoken starter (a place also goes back to it) is no plan's now, so the free player below has it put back.
+  freeStarter(t);
   env.UNHEARD_SETTLE_MS = "0";
   try {
     const legend = await companionPlayer("legend-late", "legend");
@@ -522,9 +673,10 @@ test("names are sent to the providers respelled so they're said right (LOR-653);
     .replace("Teldrassil", HOSTED.Teldrassil);
   assert.notEqual(said, text);
 
-  // Chatterbox (a Champion's reply), Inworld (a Legend's finest), and one of Willo's own lines in that voice.
-  const champion = await companionPlayer("champ", "champion"), legend = await companionPlayer("legend", "legend");
-  assert.equal((await champion.speak({ text, reply: "reply-names" })).status, 200);
+  // Chatterbox (a free player's reply), Inworld (a Legend's finest), and one of Willo's own lines in that voice.
+  const free = await companionPlayer("free"), legend = await companionPlayer("legend", "legend");
+  free.tasted(TASTE_ANSWERS, 0, 15);
+  assert.equal((await free.speak({ text, reply: "reply-names" })).status, 200);
   assert.equal((await legend.speak({ text, reply: "reply-names" })).status, 200);
   assert.equal((await legend.speak({ text, line: true })).status, 200);
   assert.deepEqual(calls.map(c => [c.provider, c.body.text]), [["deepinfra", said], ["inworld", said], ["inworld", said]]);

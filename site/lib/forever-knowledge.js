@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // What WoW Forever changed (LOR-446). The answer model remembers the original game, so without help it tells players
 // the Menethil boat only goes to Theramore and that Dalaran hides under its dome. Every live answer gets the Forever
 // facts its question and zone match (FOREVER FACTS in its system prompt). What players say is wrong goes to
@@ -418,6 +419,7 @@ const factRow = (f, origin, now) => [f.id, f.title, f.text, f.zone || null, f.so
 // needs: it can't export virtual tables). One batch, a transaction on D1; once per database per isolate, and a failure
 // leaves it to try again on the next answer.
 export async function setupKnowledge(env) {
+  if (isReportRead(env)) return;
   if (ready.get(env.DB)) return;
   await env.DB.batch(SETUP.map(sql => env.DB.prepare(sql)));
   const state = await env.DB.prepare("SELECT (SELECT value FROM forever_meta WHERE key = 'seed') AS seed, " +

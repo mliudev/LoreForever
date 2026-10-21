@@ -1,0 +1,107 @@
+{
+ "key": "quest:88756",
+ "type": "quest",
+ "name": "Bring Back a Bang",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   88756
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "Dwarven builders and excavators understand the destructive potential of mining explosives all too well, especially when falling into the hands of their bitter Dark Iron kin."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Engineers know that blasting powder and volatile compounds demand respect and proper containment, making unsecured caches a disaster waiting to happen."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who stole explosives",
+    "who took the barrels",
+    "stolen powder"
+   ],
+   "answer": "Dark Iron dwarves raided a nearby construction site and carted off barrels of blasting powder to their tents east on Direforge Hill.",
+   "q": "Who stole the explosives?"
+  },
+  {
+   "aliases": [
+    "where are explosives",
+    "direforge hill camps",
+    "where is stolen powder"
+   ],
+   "answer": "The stolen powder barrels were hauled east to the Dark Iron dwarf camps established across Direforge Hill.",
+   "q": "Where did the Dark Irons take the barrels?"
+  },
+  {
+   "aliases": [
+    "what do barrels look like",
+    "how to identify powder",
+    "red marked barrels"
+   ],
+   "answer": "The stolen construction explosives are distinguishable from ordinary barrels by distinctive red markings painted across them.",
+   "q": "How can you identify the stolen explosives?"
+  },
+  {
+   "aliases": [
+    "why retrieve powder",
+    "what is dark iron threat",
+    "why stop dark irons"
+   ],
+   "answer": "Construction workers cannot spare the materials, and leaving powerful blasting powder with malicious Dark Iron dwarves poses a serious threat to everyone nearby.",
+   "q": "Why do the explosives need to be recovered?"
+  },
+  {
+   "aliases": [
+    "what is direforge hill",
+    "direforge hill lore"
+   ],
+   "answer": "Direforge Hill sits to the east of the local worksite and has become infested with hostile Dark Iron dwarf encampments.",
+   "q": "What is Direforge Hill?"
+  },
+  {
+   "aliases": [
+    "who are dark iron dwarves",
+    "why are dark irons hostile"
+   ],
+   "answer": "Dark Iron dwarves are a treacherous faction of dwarves infamous for their malice, dark sorcery, and perpetual hostility toward their kin and neighbors.",
+   "q": "Who are the Dark Iron dwarves?"
+  }
+ ],
+ "keywords": [
+  "blasting powder",
+  "bring back a bang",
+  "construction site",
+  "dark iron dwarf",
+  "direforge hill",
+  "stolen explosives"
+ ],
+ "related": [
+  "subzone:direforge-hill",
+  "topic:dark-iron-dwarf",
+  "topic:dwarf"
+ ],
+ "sections": [
+  {
+   "body": "Hostile Dark Iron dwarves have established encampments to the east on Direforge Hill. Taking advantage of the nearby building efforts, they raided a local construction site, making off with vital blasting powder and carting the stockpiles straight back to their tents.",
+   "spoiler": 0,
+   "title": "Theft at the Construction Site"
+  },
+  {
+   "body": "Blasting powder in the hands of malicious Dark Irons represents an imminent danger to the surrounding lands. The stolen barrels bear clear red markings to distinguish them from common supplies, and retrieving them before the Dark Irons put them to destructive use is an urgent priority.",
+   "spoiler": 0,
+   "title": "Volatile Hands"
+  }
+ ],
+ "summary": "Bring Back a Bang is a task to recover volatile blasting powder stolen from a local construction site. Hostile Dark Iron dwarves have hauled the marked barrels east to their camps on Direforge Hill, posing a grave threat to the area if left unchecked.",
+ "attribution": [
+  "In-game quest text: Bring Back a Bang"
+ ]
+}

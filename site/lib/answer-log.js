@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // Every live Willo answer, kept KEEP_DAYS and then deleted (Mike, 2026-10-16), so the nightly answer-quality check
 // (scheduled task "nightly-willo-feedback") sees every conversation, not only the ones players flag
 // (lib/answer-feedback.js). Only while the player leaves "Help improve Willo's answers" on in the companion app: the
@@ -58,6 +59,7 @@ const salts = new WeakMap();   // env.DB -> the salt
 const hex = buf => [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, "0")).join("");
 
 export async function setupAnswerLog(env) {
+  if (isReportRead(env)) return;
   if (ready.get(env.DB)) return;
   await env.DB.batch(SETUP.map(sql => env.DB.prepare(sql)));
   const have = new Set((await env.DB.prepare("PRAGMA table_info(answer_log)").all()).results.map(c => c.name));
@@ -278,7 +280,7 @@ export async function sweepAnswerLog(env, now = new Date()) {
 export async function answerLogReport(env, { since = null, after = 0, limit = 200, now = new Date() } = {}) {
   await setupAnswerLog(env);
   const oldest = cutoff(now);
-  await env.DB.prepare("DELETE FROM answer_log WHERE created < ?").bind(oldest).run();
+  if (!isReportRead(env)) await env.DB.prepare("DELETE FROM answer_log WHERE created < ?").bind(oldest).run();
   const from = typeof since === "string" && !Number.isNaN(Date.parse(since)) && new Date(since).toISOString() > oldest
     ? new Date(since).toISOString() : oldest;
   const n = Math.min(Math.max(Number.parseInt(limit, 10) || 200, 1), 1000);

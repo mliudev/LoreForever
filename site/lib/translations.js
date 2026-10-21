@@ -134,16 +134,24 @@ function percent(p) {
 export function languageCard(lang, likes, translators = [], pack = null) {
   const c = lang.coverage || {};
   const p = c.percent || 0;
-  const started = p > 0;
+  // Started once anything is translated: Latin American Spanish's 3% of the interface rounds to 0% overall.
+  const started = p > 0 || (c.entries?.[0] ?? 0) > 0 || (c.ui?.[0] ?? 0) > 0;
   const facts = [
     escape(lang.englishName),
-    started ? `${(c.entries?.[0] ?? 0).toLocaleString("en-US")} of ${(c.entries?.[1] ?? 0).toLocaleString("en-US")} entries` : "not started",
+    `${(c.entries?.[0] ?? 0).toLocaleString("en-US")} of ${(c.entries?.[1] ?? 0).toLocaleString("en-US")} entries`,
     c.ui && c.ui[0] ? `interface ${Math.floor(100 * c.ui[0] / c.ui[1])}%` : "",
   ].filter(Boolean).join(" &middot; ");
+  // A language nobody has started yet (no text, or nothing translated: the asked-for ones of 10/19) says so, so a
+  // player knows their first lines start it.
+  const fresh = started ? "" : `
+        <p class="tl-new" lang="en"><strong>New language:</strong> help start it. Your first translated lines get it going.</p>`;
+  const note = lang.note ? `
+        <p class="tl-note" lang="en">${escape(lang.note)}</p>` : "";
+  const dir = lang.dir === "rtl" ? ' dir="rtl"' : "";
   return `<article class="zone tl" id="lang-${escape(lang.locale)}" lang="${escape(lang.locale.slice(0, 2))}">
       <div class="zone-body">
-        <h3>${escape(lang.name)}</h3>
-        <p class="zone-where">${facts}</p>
+        <h3${dir}>${escape(lang.name)}</h3>
+        <p class="zone-where" lang="en">${facts}</p>${fresh}${note}
         <div class="tl-meter" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${p}"
           aria-label="${escape(lang.englishName)}: ${p}% translated"><span style="width:${Math.min(100, p)}%"></span></div>
         <p class="tl-percent"><strong>${percent(p)}</strong> translated</p>

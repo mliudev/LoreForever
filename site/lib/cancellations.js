@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // Willo plan cancellations (Patrick, 2026-10-19: "Can you log canceling?"): every change Stripe's webhook tells us of,
 // one row each, and one plain line in the team's Slack channel for each new one (lib/slack-feedback.js
 // "cancellation": the plan, how long they had it, what they paid and the reason when Stripe has one; never an email,
@@ -58,6 +59,7 @@ const SETUP = [
 ];
 const ready = new WeakMap();
 export function setupCancellations(env) {
+  if (isReportRead(env)) return;
   if (!ready.has(env.DB)) ready.set(env.DB, env.DB.batch(SETUP.map(s => env.DB.prepare(s)))
     .catch(e => { ready.delete(env.DB); throw e; }));
   return ready.get(env.DB);

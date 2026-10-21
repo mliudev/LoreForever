@@ -1,0 +1,98 @@
+{
+ "key": "quest:91900",
+ "type": "quest",
+ "name": "A Sealed Crate",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91900
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "what is in the crate",
+    "crate contents",
+    "whats inside a sealed crate"
+   ],
+   "answer": "The crate contains recovered trade goods that were intercepted or lost along trade routes. Merchants and recipients pay couriers and adventurers to retrieve and return them unopened rather than letting the contents fall into criminal hands.",
+   "q": "What is inside a sealed crate?"
+  },
+  {
+   "aliases": [
+    "why return crates",
+    "who wants sealed crates",
+    "crate delivery reason"
+   ],
+   "answer": "A recent uprising of bandits and thieves has disrupted active trade routes, leaving cargo scattered or stolen. Traders and local organizers offer bounties and compensation for anyone willing to recover and return these lost shipments.",
+   "q": "Why are people asking for sealed crates to be delivered?"
+  },
+  {
+   "aliases": [
+    "can i find more crates",
+    "where to get crates",
+    "more sealed crates"
+   ],
+   "answer": "Yes. Due to ongoing bandit raids on commercial routes, abandoned and stolen crates continue to turn up across troubled paths. Couriers are encouraged to bring any additional crates they discover back for further compensation.",
+   "q": "Can you turn in multiple sealed crates?"
+  },
+  {
+   "aliases": [
+    "who stole the crates",
+    "bandit uprising trade routes",
+    "who is attacking shipments"
+   ],
+   "answer": "Local thieves and bandits have increasingly targeted transport routes, ambushing caravans and intercepting commerce. While many different rogue outfits operate across the region, their common effect is leaving shipments discarded or seized along roads.",
+   "q": "Who is intercepting the trade routes?"
+  },
+  {
+   "aliases": [
+    "can i open the crate",
+    "open sealed crate",
+    "why keep crate sealed"
+   ],
+   "answer": "The crates are firmly secured and meant to be handed over intact. Handing them over sealed ensures the merchant receives their original cargo untouched, which guarantees you receive full payment for the delivery.",
+   "q": "Can you open a sealed crate yourself?"
+  },
+  {
+   "aliases": [
+    "who pays for the crates",
+    "who gives crate reward",
+    "crate compensation"
+   ],
+   "answer": "Local trade handlers and depot keepers receive the recovered cargo and provide compensation on the spot, managing the inventory and directing further retrieval efforts.",
+   "q": "Who pays for recovering these shipments?"
+  }
+ ],
+ "keywords": [
+  "bandits",
+  "cargo",
+  "compensation",
+  "delivery",
+  "sealed crate",
+  "shipment",
+  "thieves",
+  "trade routes"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Trade across the lands has grown increasingly dangerous due to a surge in banditry and roadside thefts. Caravans and couriers regularly face ambushes along established commercial highways, resulting in abandoned wagons and lost shipments scattered across the wilderness. To prevent these valuable goods from vanishing entirely, merchants and depot keepers rely on traveling adventurers to recover waylaid crates and return them safely.",
+   "spoiler": 0,
+   "title": "Disrupted Trade Routes"
+  },
+  {
+   "body": "Recovering a sealed crate and bringing it to designated receiving depots earns an immediate bounty. Handlers consolidate the retrieved freight and handle proper sorting and redistribution, keeping commerce flowing despite the constant threat posed by local brigands and thieves. As long as the roads remain contested, returning lost cargo remains vital work for any traveler passing through.",
+   "spoiler": 0,
+   "title": "Cargo Recovery"
+  }
+ ],
+ "summary": "A Sealed Crate represents trade cargo recovered from disrupted commercial routes. With bandits and thieves increasingly raiding roadways, local merchants rely on traveling adventurers to return abandoned shipments in exchange for payment.",
+ "attribution": [
+  "In-game quest text: A Sealed Crate"
+ ]
+}

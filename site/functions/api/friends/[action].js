@@ -9,7 +9,8 @@
 //   POST /api/friends/report   {id, note?}    keeps their latest messages to you for review, then blocks them
 //   POST /api/friends/share    {on}           share where you are with friends; off deletes what was shared
 //   POST /api/friends/send     {to, text, card?} -> {message}: card (LOR-674), a place, item, quest, character or story
-//                                            (lib/friends.js readCard); with one, text is optional
+//                                            (lib/friends.js readCard); with one, text is optional. The free plan
+//                                            sends FREE_MESSAGES_PER_DAY a day (429 past them), paid plans more
 //   POST /api/friends/unsend   {id}           takes back your message while it's unread, for UNSEND_MINUTES -> {removed}
 //   POST /api/friends/online   {show}         whether friends see when your Willo is on (on unless you turn it off)
 //   POST /api/friends/presence {character?, level?, zone?, sub?, quest?} -> {stored}: only kept while sharing is on
@@ -21,11 +22,12 @@ import { setup, currentUser, fail, noStore, sameOrigin } from "../../../lib/acco
 import { currentDevice } from "../../../lib/devices.js";
 import { forwardFeedback } from "../../../lib/slack-feedback.js";
 import { perMinute, perHour, perDay, slowDown } from "../../../lib/ratelimit.js";
+import { plansOn, planIdNow } from "../../../lib/billing.js";
 import {
   FriendError, friendsList, friendCounts, addFriend, answerRequest, removeFriend, blockPlayer, unblockPlayer, reportPlayer,
   passPlayer, setOnlineShown, unsendMessage,
   setSharing, sendMessage, conversation, readPresence, savePresence,
-  ASKS_PER_DAY, MESSAGES_PER_MINUTE, MESSAGES_PER_DAY, REPORTS_PER_DAY, PRESENCE_PER_HOUR,
+  ASKS_PER_DAY, MESSAGES_PER_MINUTE, MESSAGES_PER_DAY, FREE_MESSAGES_PER_DAY, REPORTS_PER_DAY, PRESENCE_PER_HOUR,
 } from "../../../lib/friends.js";
 
 const COMPANION = /^companion\/[\w.-]{1,24}$/;
@@ -79,6 +81,12 @@ const POSTS = {
     if (!(await perMinute(env, user.id, "friends-send", MESSAGES_PER_MINUTE))) return slowDown();
     if (!(await perDay(env, user.id, "friends-send-day", MESSAGES_PER_DAY))) {
       return tooMany("That's a lot of messages for one day. Try again tomorrow.");
+    }
+    // The free plan's few a day: counted apart, so a player who moves up isn't held to what they sent before.
+    if (plansOn(env) && await planIdNow(env, user.id) === "free"
+        && !(await perDay(env, user.id, "friends-send-free", FREE_MESSAGES_PER_DAY))) {
+      return tooMany(`That's today's ${FREE_MESSAGES_PER_DAY} messages on the free plan. More tomorrow, or as many ` +
+        "as you like from Hero up.");
     }
     return ok({ message: await sendMessage(env, user.id, id(input.to), input.text, Date.now(), input.card ?? null) });
   },

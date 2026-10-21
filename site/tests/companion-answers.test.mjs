@@ -193,10 +193,23 @@ test("persona willo swaps only the companion's introduction; anything else keeps
   assert.equal(system(1), system(0).replace(SAM_INTRO, WILLO_INTRO));
   for (const n of [2, 3, 4]) assert.equal(system(n), system(0), "unknown personas are ignored, not refused");
   await ask(token, { persona: "willo", operation: "character" });
-  assert.match(system(5), /Their companion Willo, a little wisp of light/);
+  // The people of the world know nothing of who travels with the adventurer (Mike, 10/19): never Willo, never "ask her".
+  assert.doesNotMatch(system(5), /\bWillo\b|suggest they ask|drifted aside/);
+  assert.match(system(5), /never mention a companion, a wisp or a light at their shoulder, and never tell them to ask one\./);
   // In step with answer.py CHARACTER_SYSTEM: no one hands out a quest the player hasn't taken up (Mike, 10/14).
   assert.match(system(5), /current only if THE ADVENTURER carries it now.*Never give, offer or assign a task\./);
   assert.doesNotMatch(system(5), /\bSam\b/);
+});
+
+test("a character's reply never sends the adventurer to their wisp (Mike, 10/19)", async () => {
+  const { token } = await linked();
+  globalThis.fetch = async (url, options) => {
+    calls.push({ url, body: JSON.parse(options.body) });
+    return Response.json({ candidates: [{ content: { parts: [{ text: "I do not know anyone by that name, traveler. " +
+      "Perhaps your little wisp of light knows more than I do. Lok'tar, keep your eyes on the road." }] } }] });
+  };
+  const result = await ask(token, { persona: "willo", operation: "character" });
+  assert.equal(result.body.answer, "I do not know anyone by that name, traveler. Lok'tar, keep your eyes on the road.");
 });
 
 test("spoken style shortens ordinary and character replies only", async () => {

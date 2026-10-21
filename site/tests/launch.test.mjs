@@ -3,9 +3,9 @@
 // us from its first look until the launch, apart from the free budget and up to the promo's brake, and its prices (a
 // plan bought then starts its months at the launch: Hero free and Champion and Legend half price until then, full price
 // from it); PROMO_NOW, a preview's clock for it, which Production ignores; the welcome page the
-// first companion connection goes to; and the finest-voice pack (VOICE_PACK), used after the plan's own finest replies and before the
-// voice steps down, never expiring, at most three bought a month. Stripe and the voice providers are mocked through
-// fetch; D1 is node:sqlite (helpers.mjs).
+// first companion connection goes to; and the finest-voice pack (VOICE_PACK), retired from sale on 10/19 (VOICE_PACK_SOLD)
+// but kept for those bought: used after the plan's own finest replies and before the voice steps down, never expiring,
+// at most three bought a month. Stripe and the voice providers are mocked through fetch; D1 is node:sqlite (helpers.mjs).
 // Run: node --test 'site/tests/*.test.mjs'
 
 import { test, beforeEach, afterEach } from "node:test";
@@ -17,8 +17,9 @@ import { onRequest as device } from "../functions/api/device/[action].js";
 import { onRequest as speakApi } from "../functions/api/companion/speak.js";
 import { findOrCreateUser, startSession, setup, deleteUser } from "../lib/accounts.js";
 import { startLink, decideLink, claimToken } from "../lib/devices.js";
-import { setupBilling, planFor, launchOffer, addUserSpend, userSpend, launchNow, previewDeploy, launchText,
-  LAUNCH_WEEK_BRAKE_MICRO, LEGEND_BEST_PER_MONTH, VOICE_PACK, VOICE_PACK_TEXT, TRIAL_MIN_SECONDS, poolWindow } from "../lib/billing.js";
+import { setupBilling, planFor, launchOffer, addUserSpend, userSpend, launchNow, previewDeploy, launchText, createVoicePack,
+  voicePackFor, LAUNCH_WEEK_BRAKE_MICRO, LEGEND_BEST_PER_MONTH, VOICE_PACK, VOICE_PACK_TEXT, TRIAL_MIN_SECONDS, poolWindow }
+  from "../lib/billing.js";
 import { allowance, answerBudgetUsed } from "../lib/companion-answers.js";
 
 import { d1 } from "./helpers.mjs";
@@ -130,14 +131,14 @@ test("the beta: Hero on us for every free account from its first look, until the
     const p = await planFor(e, who.id, new Date(ms));
     return [p.id, p.answersPerDay, p.launch];
   };
-  assert.deepEqual(await at(START - MINUTE), ["free", 20, undefined], "nothing before the release");
+  assert.deepEqual(await at(START - MINUTE), ["free", 30, undefined], "nothing before the release");
   assert.deepEqual(await at(START + HOUR), ["hero", 100, true], "its Hero starts at its first look in the beta");
   assert.deepEqual(await at(END - MINUTE), ["hero", 100, true], "and runs to the launch");
-  assert.deepEqual(await at(END), ["free", 20, undefined], "then back on Free by itself: full price from launch");
-  // Hero's plan until then: its answers a day and its 900 in one pool, its voices and push-to-talk.
+  assert.deepEqual(await at(END), ["free", 30, undefined], "then back on Free by itself: full price from launch");
+  // Hero's plan until then: its answers a day and its 1,500 in one pool, its voices and push-to-talk.
   const hero = await planFor(env, user.id, new Date(START + 2 * HOUR));
   assert.deepEqual([hero.since, hero.until, hero.ends, hero.answersPerMonth],
-    [new Date(START + HOUR).toISOString(), new Date(END).toISOString(), "November 4", 900]);
+    [new Date(START + HOUR).toISOString(), new Date(END).toISOString(), "November 4", 1500]);
   assert.equal(poolWindow(hero, new Date(START + 2 * HOUR)).resetsAt, hero.until, "one pool for it");
   assert.equal(poolWindow(hero, new Date(END - DAY)).resetsAt, hero.until);
   const left = await allowance(env, user.id, new Date(START + 2 * HOUR));
@@ -147,13 +148,13 @@ test("the beta: Hero on us for every free account from its first look, until the
   const { user: late } = await player("late"), { user: after } = await player("after");
   assert.deepEqual(await at(END - HOUR, env, late), ["hero", 100, true]);
   assert.equal((await planFor(env, late.id, new Date(END - MINUTE))).ends, "November 4");
-  assert.deepEqual(await at(END + MINUTE, env, after), ["free", 20, undefined], "joined after the launch");
+  assert.deepEqual(await at(END + MINUTE, env, after), ["free", 30, undefined], "joined after the launch");
   // Once per Google account: deleting it and signing in again keeps its start.
   await deleteUser(env, user);
   const { user: again } = await player("visitor");
   assert.notEqual(again.id, user.id);
   assert.equal((await planFor(env, again.id, new Date(END - HOUR))).since, hero.since, "the same one, not a new one");
-  assert.deepEqual(await at(END + DAY, env, again), ["free", 20, undefined]);
+  assert.deepEqual(await at(END + DAY, env, again), ["free", 30, undefined]);
 
   // The copy: the banner and the cards' prices during the beta (Mike, 2026-10-17).
   assert.equal(launchText(env), "Half price during the beta. Full price from launch, November 4.");
@@ -172,12 +173,12 @@ test("the beta: Hero on us for every free account from its first look, until the
   assert.match(launchText(early), /from launch, October 24\.$/);
   assert.equal(launchOffer(early, "champion", new Date(Date.parse("2026-10-25T08:00:00Z"))), null);
   const { user: newcomer } = await player("newcomer");
-  assert.deepEqual(await at(Date.parse("2026-10-25T08:00:00Z"), early, newcomer), ["free", 20, undefined]);
+  assert.deepEqual(await at(Date.parse("2026-10-25T08:00:00Z"), early, newcomer), ["free", 30, undefined]);
   assert.match(launchText({ ...env, BETA_END: "soon" }), /from launch, November 4\.$/);
   // Unset, or not a date-time with its zone: no promo, whenever it is.
   for (const set of [undefined, "", "next week", "2026-10-21"]) {
     const off = { ...env, LAUNCH_WEEK_START: set };
-    assert.deepEqual(await at(START + HOUR, off, newcomer), ["free", 20, undefined], `LAUNCH_WEEK_START ${set}`);
+    assert.deepEqual(await at(START + HOUR, off, newcomer), ["free", 30, undefined], `LAUNCH_WEEK_START ${set}`);
     assert.equal(launchText(off), "");
     assert.equal(launchOffer(off, "champion", new Date(START + HOUR)), null);
   }
@@ -235,13 +236,15 @@ test("the beta's checkout: the plan's months start at the launch; Hero free and 
   assert.deepEqual(fresh.plans.map(p => p.promo?.price ?? null), [null, 0, 499, 999], "signed out, the same");
   // The plans side by side, for /willo's table (planCompare), from the plans themselves.
   assert.deepEqual(fresh.compare.map(r => [r.label, Object.values(r.values).join(" | ")]), [
-    ["Answers a day", "20 | 100 | 200 | 300"],
-    ["Willo's voice: when you ask out loud", "Your first 30 answers | Studio | Pick from 32 | Finest"],
+    ["Answers a day", "30 | 100 | 200 | 300"],
+    ["Willo's voice: when you ask out loud", "Studio | Finest | Finest, pick from 32 | Richer, pick from 32"],
     ["Characters' own voices", "— | — | ✓ | ✓"],
     ["Willo sees your game", "— | ✓ | ✓ | ✓"],
     ["Checks the web when the lore runs out", "— | ✓ | ✓ | ✓"],
     ["Willo's style", "— | Presets | Presets or your own words | Presets or your own words"],
     ["Longer memory", "— | — | ✓ | ✓"],
+    ["Willo's smarter mind", "— | — | — | ✓"],
+    ["Rewrite NPCs as your own tale", "— | — | — | ✓"],
   ]);
   // The Voices of Azeroth in the plans' words, on since 0.21.0 shipped them (LOR-609).
   assert.match(fresh.plans.find(p => p.id === "legend").features.join("\n"),
@@ -249,7 +252,7 @@ test("the beta's checkout: the plan's months start at the launch; Hero free and 
   // With "azeroth" off, her own five again.
   const own = await (await billing({ env: { ...week, SITE_FEATURES: `${week.SITE_FEATURES || ""},-azeroth` },
     params: { action: "plans" }, request: new Request(ORIGIN + "/api/billing/plans") })).json();
-  assert.equal(own.compare[1].values.champion, "Pick from five");
+  assert.equal(own.compare[1].values.champion, "Finest, pick from five");
   assert.match(own.plans.find(p => p.id === "champion").features.join("\n"), /^Pick Willo's voice from 5$/m);
 });
 
@@ -267,7 +270,7 @@ test("the beta's free Hero is apart from the free budget, and past its brake fre
   assert.equal((await planFor(env, user.id, later)).launch, true, "still under it, in November");
   await addUserSpend(env, other.id, 1, later, null, true);
   const braked = await planFor(env, user.id, later);
-  assert.deepEqual([braked.id, braked.answersPerDay, braked.launch, braked.brake], ["free", 20, undefined, undefined],
+  assert.deepEqual([braked.id, braked.answersPerDay, braked.launch, braked.brake], ["free", 30, undefined, undefined],
     "Free's answers from then on, and nothing says why");
   assert.equal(await userSpend(env, other.id, at), 0, "a plan bought later doesn't count the free month's answers");
 });
@@ -338,11 +341,15 @@ test("a finest-voice pack is used after Legend's own finest replies, before the 
   assert.equal((await allowance(env, user.id)).remaining > 0, true, "it adds no answers, and takes none");
 });
 
-test("on a Hero, a pack's replies are in the finest voice, then the studio voice; it's spent only when Inworld says one", async () => {
+test("on a Hero past its month's finest replies, a pack's replies are in the finest voice, then the studio voice; it's spent only when Inworld says one", async () => {
   const { user, speak } = await player("hero");
   await entitle(user, "hero");
+  const period = poolWindow(await planFor(env, user.id)).key;
+  const add = env.DB.sqlite.prepare("INSERT INTO voice_replies (user_id, reply, period, pieces, heard, best, created) " +
+    "VALUES (?, ?, ?, 1, 1, 1, ?)");
+  for (let i = 0; i < 1500; i++) add.run(user.id, `earlier-${i}`, period, new Date(NOW).toISOString());
   assert.equal((await speak("No pack yet.")).status, 200);
-  assert.equal(voiceCalls.at(-1).provider, "deepinfra", "Hero's own: the studio voice");
+  assert.equal(voiceCalls.at(-1).provider, "deepinfra", "Hero's own finest replies said: the studio voice");
   await addVoicePack(user, "cs_1", { remaining: 1 });
   assert.deepEqual([(await allowance(env, user.id)).voice.tier, (await allowance(env, user.id)).voice.now], ["hosted", "finest"]);
   // Inworld down: the studio voice says it, all of it, and the reply goes back to its pack.
@@ -361,52 +368,70 @@ test("on a Hero, a pack's replies are in the finest voice, then the studio voice
   assert.deepEqual([(await allowance(env, user.id)).voice.tier, (await allowance(env, user.id)).voice.now], ["hosted", "studio"]);
 });
 
-test("/plans offers Legend the finest-voice pack only near its month's last finest replies, as more of them", async () => {
+test("the finest-voice pack is retired (Mike, 2026-10-19): /plans offers none to any plan and the buy endpoint says so", async () => {
+  const cookieOf = async user => (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
   const offered = async user => {
-    const cookie = (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
     const res = await billing({ env, params: { action: "plans" }, request: new Request(ORIGIN + "/api/billing/plans",
-      { headers: { Cookie: cookie } }) });
+      { headers: { Cookie: await cookieOf(user) } }) });
     return (await res.json()).voicePack;
   };
+  const buy = async user => {
+    const res = await billing({ env, params: { action: "voicepack" }, request: new Request(ORIGIN + "/api/billing/voicepack",
+      { method: "POST", headers: { Cookie: await cookieOf(user), Origin: ORIGIN, "Content-Type": "application/json" }, body: "{}" }) });
+    return { status: res.status, body: await res.json() };
+  };
+  const { user } = await player("buyer");
+  const signedOut = await billing({ env, params: { action: "plans" }, request: new Request(ORIGIN + "/api/billing/plans") });
+  assert.ok(!(await signedOut.json()).voicePack, "signed out: none");
+  for (const plan of [null, "hero", "champion", "legend"]) {
+    if (plan) await entitle(user, plan);
+    assert.ok(!(await offered(user)), `${plan || "free"}: no pack offered`);
+    const res = await buy(user);
+    assert.equal(res.status, 400, `${plan || "free"}: not sold`);
+    assert.match(res.body.error, /isn't sold anymore/);
+  }
+  assert.equal(stripeCalls.length, 0, "nothing reaches Stripe");
+  // Legend with only a few of its finest replies left is offered nothing either: every paid plan has the finest voice.
+  await entitle(user, "legend");
+  const period = poolWindow(await planFor(env, user.id)).key;
+  const add = env.DB.sqlite.prepare("INSERT INTO voice_replies (user_id, reply, period, pieces, heard, best, created) " +
+    "VALUES (?, ?, ?, 1, 1, 1, ?)");
+  for (let i = 0; i < LEGEND_BEST_PER_MONTH - 10; i++) add.run(user.id, `said-${i}`, period, new Date(NOW).toISOString());
+  assert.ok(!(await offered(user)), "10 of its finest left: still none");
+});
+
+test("voicePackFor (a pack is no longer sold) offers Legend more only near its month's last finest replies, the other plans the pack as it is", async () => {
   const { user: legend } = await player("legend");
   await entitle(legend, "legend");
-  const period = poolWindow(await planFor(env, legend.id)).key;
+  const plan = await planFor(env, legend.id);
+  const period = poolWindow(plan).key;
   let replies = 0;
   const said = n => { for (let i = 0; i < n; i++) env.DB.sqlite.prepare("INSERT INTO voice_replies (user_id, reply, " +
     "period, pieces, heard, best, created) VALUES (?, ?, ?, 1, 1, 1, ?)").run(legend.id, `said-${++replies}`, period,
     new Date(NOW).toISOString()); };
-  said(LEGEND_BEST_PER_MONTH - 191);
-  assert.equal(await offered(legend), null, "191 of its own left: nothing to sell");
+  said(LEGEND_BEST_PER_MONTH - 601);
+  assert.equal(await voicePackFor(env, legend.id, plan), null, "601 of its own left: nothing to sell");
   said(1);
-  const near = await offered(legend);
-  assert.equal(near.text, "400 more replies in Willo's finest voice, for after your monthly 1,900 (back on November 9). " +
-    "$2.99, yours until you use them.", "190 left: more of it, and when its own come back");
-  assert.equal(near.open, true);
+  const near = await voicePackFor(env, legend.id, plan);
+  assert.equal(near.text, "400 more replies in Willo's finest voice, for after your monthly 6,000 (back on November 9). " +
+    "$2.99, yours until you use them.", "600 left: more of it, and when its own come back");
   const { user: hero } = await player("herald");
   await entitle(hero, "hero");
-  const plain = await offered(hero);
-  assert.deepEqual([plain.text, plain.buy, plain.open], [VOICE_PACK_TEXT, undefined, true], "Hero's offer, as it is");
+  assert.deepEqual(await voicePackFor(env, hero.id, await planFor(env, hero.id)), { text: VOICE_PACK_TEXT }, "Hero's offer, as it is");
 });
 
-test("finest-voice packs: three a month, on a paid plan only", async () => {
+test("finest-voice packs bought earlier: three a month, on a paid plan only (createVoicePack; the endpoint no longer calls it)", async () => {
   const { user } = await player("buyer");
-  const cookie = (await startSession(env, new Request(ORIGIN), user.id)).split(";")[0];
-  const buy = async () => {
-    const res = await billing({ env, params: { action: "voicepack" }, request: new Request(ORIGIN + "/api/billing/voicepack",
-      { method: "POST", headers: { Cookie: cookie, Origin: ORIGIN, "Content-Type": "application/json" }, body: "{}" }) });
-    return { status: res.status, body: await res.json() };
-  };
-  assert.equal((await buy()).status, 400, "the free plan has no finest voice to buy");
+  assert.match((await createVoicePack(env, user, ORIGIN)).error, /comes with a plan/, "the free plan has no finest voice to buy");
   await entitle(user, "champion");
-  assert.equal((await buy()).status, 200);
+  assert.equal((await createVoicePack(env, user, ORIGIN)).url, "https://checkout.stripe.com/c/pay/cs_new");
   const session = stripeCalls.find(c => c.route === "POST checkout/sessions").body;
   assert.deepEqual([session.get("mode"), session.get("metadata[kind]"), session.get("line_items[0][price]")],
     ["payment", "voice", "price_voice"]);
   for (const id of ["cs_a", "cs_b", "cs_c"]) await addVoicePack(user, id);
   await addVoicePack(user, "cs_last_month", { daysAgo: 25 });
-  const full = await buy();
-  assert.equal(full.status, 400);
-  assert.match(full.body.error, /this month's 3/);
+  const full = await createVoicePack(env, user, ORIGIN);
+  assert.match(full.error, /this month's 3/);
 
   // The webhook credits a paid one once, as a pack of replies, not answers.
   sessions.cs_paid = { id: "cs_paid", object: "checkout.session", mode: "payment", customer: "cus_1",

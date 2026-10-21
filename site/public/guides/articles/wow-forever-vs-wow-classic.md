@@ -3,7 +3,6 @@ title: WoW Forever vs WoW Classic: 12 Key Differences (2026)
 description: WoW Forever vs Classic: how leveling, zones, Skyborne, classes, rulesets, dungeons, Legacy and Camping differ, and which version you should play.
 date: 2026-10-17
 kind: tutorial
-draft: true
 ---
 **WoW Classic lets you revisit older versions of World of Warcraft, while WoW Forever builds new, continuing adventures on the foundation of original Azeroth.** Forever keeps the level cap at 60 and the focus on travel, preparation and social play, and adds zones, quests, dungeons, class updates and account-wide progression.
 

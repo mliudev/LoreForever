@@ -16,7 +16,7 @@
 // "Looked at" is lf-seen in localStorage: the newest version you've seen the news of, set when you open What's new,
 // follow the strip or close it. A first visit gets no dot (everything is new); the strip shows until it's closed.
 (() => {
-  const LATEST = "0.23.0";   // changelog: the newest version in CHANGELOG.md (scripts/changelog.py site keeps it)
+  const LATEST = "0.24.0";   // changelog: the newest version in CHANGELOG.md (scripts/changelog.py site keeps it)
   const header = document.querySelector("header.top");
   const box = header && header.querySelector(".head-actions");
   if (!box) return;
@@ -40,6 +40,7 @@
     ["nav-willo", /^\/willo(\/.*)?$/],
     ["nav-download", new RegExp(`^/(downloads|voices)(/(?!(${VOICE_TOOLS})$)[^/]+)?$`)],
     ["nav-lore", /^\/lore(\/.*)?$/],
+    ["nav-guides", /^\/guides(\/.*)?$/],
     ["nav-new", /^\/whats-new$/],
     ["nav-profile", /^\/(account|u\/[^/]+)$/],
     ["nav-community", new RegExp(`^/(feedback|faq|translate(/.*)?|voices/(${VOICE_TOOLS})|contributors|contribute(/.*)?)$`)],

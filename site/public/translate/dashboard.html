@@ -26,6 +26,7 @@
       <a class="nl nl-willo" id="nav-willo" href="/willo">Willo</a>
       <a class="nl" id="nav-download" href="/downloads">Download</a>
       <a class="nl" id="nav-lore" href="/lore">Lore</a>
+      <a class="nl" id="nav-guides" href="/guides">Guides</a>
       <a class="nl" id="nav-new" href="/whats-new">What's new</a>
       <a class="nl" id="nav-community" href="/feedback">Community</a>
     </div>
@@ -228,6 +229,9 @@ const el = (tag, props = {}, ...kids) => {
   n.append(...kids.filter(k => k != null));
   return n;
 };
+// A language written right to left (languages.json "dir": Arabic) gets dir="rtl" on its translations; the English stays as
+// it is.
+const textDir = () => (state.lang && state.lang.dir === "rtl" ? { dir: "rtl" } : {});
 const remember = (k, v) => { try { localStorage.setItem("lf-td-" + k, v); } catch (e) {} };
 const recall = k => { try { return localStorage.getItem("lf-td-" + k); } catch (e) { return null; } };
 const fmt = n => n.toLocaleString("en-US");
@@ -532,7 +536,7 @@ function entryBlock(key, rows, { cat, report } = {}) {
 
 function stringRow(id, english, cat) {
   const rowLocale = state.locale;
-  const box = el("textarea", { rows: String(Math.min(12, Math.max(1, Math.ceil(english.length / 70)))), lang: rowLocale.slice(0, 2), spellcheck: "true", "aria-label": fieldLabel(id) + " translation" });
+  const box = el("textarea", { rows: String(Math.min(12, Math.max(1, Math.ceil(english.length / 70)))), lang: rowLocale.slice(0, 2), ...textDir(), spellcheck: "true", "aria-label": fieldLabel(id) + " translation" });
   box.value = current(id).text;
   // Grow with the text so every line shows in full without scrolling, on phones too (Sovex, 10/10).
   box.addEventListener("input", () => fitBox(box));
@@ -590,8 +594,8 @@ function stringRow(id, english, cat) {
     && (old.status === "rejected" || (old.status === "pulled" && ["unusable", "superseded"].includes(old.outcome)));
   const retained = old && ["new", "accepted"].includes(old.status) && !usableEdit(old, english) ?
     el("details", {}, el("summary", { text: "Your saved edit before the English changed" }),
-      el("p", { lang: "en", text: old.en || "The saved English could not be checked." }), el("p", { text: old.text }))
-    : unused ? el("details", {}, el("summary", { text: "Your edit that wasn't used" }), el("p", { text: old.text })) : null;
+      el("p", { lang: "en", text: old.en || "The saved English could not be checked." }), el("p", { ...textDir(), text: old.text }))
+    : unused ? el("details", {}, el("summary", { text: "Your edit that wasn't used" }), el("p", { ...textDir(), text: old.text })) : null;
   const narrated = linkContext && narrationFields(linkContext, state.recordingLine).has(id);
   return el("div", { class: "td-row" + (narrated ? " td-narrated" : ""), "data-string": id },
     el("div", { class: "td-en" }, el("span", { class: "td-label", text: fieldLabel(id) + (narrated ? " · In this recording" : "") }), el("p", { lang: "en", text: english })),

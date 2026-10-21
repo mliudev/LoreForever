@@ -153,7 +153,8 @@ export function goalOf(text) {
 // The level a riding goal is for: the one its words name ("at level 45", "by 45") when it's later than Forever's (a
 // player who'd rather ride at 45; never earlier, which Forever doesn't allow), else null (Forever's own).
 function atLevel(text, skill) {
-  const m = /\b(?:at|by|when\s+i(?:'m|\s+am|\s+hit|\s+reach)?)\s+(?:level\s+)?(\d{1,2})\b/i.exec(String(text || ""));
+  // "to level 42" too: "change my mount goal to level 42" kept riding's 40 (the vision check, 10/19).
+  const m = /\b(?:at|by|to|when\s+i(?:'m|\s+am|\s+hit|\s+reach)?)\s+(?:level\s+)?(\d{1,2})\b/i.exec(String(text || ""));
   const at = m ? +m[1] : null;
   return at && at > RIDING[skill].level && at <= 60 ? at : null;
 }
@@ -311,7 +312,10 @@ export function progressOf(goal, stock, { live = null, race = null, pace = paceO
     say(L, dings, have, short, T);
     // Short of the Honored price too, a sum she may say ("only 18 short once you're Honored").
     if (have !== null && !told && !honored) say(Math.max(0, Math.ceil(R.gold * (1 - RIDING_HONORED_OFF) - money / 10000 - EPS)));
-    const chose = T > R.level ? ` (riding opens at ${R.level}; they chose to ride at ${T})` : "";
+    // Their own later level is theirs, never riding's: "learn to ride at level forty-two" for a goal at 42, 3 of 3, when
+    // it opens at 40 (the vision check, 10/19).
+    const chose = T > R.level ? ` (riding opens at ${R.level}, so it can be learned from ${R.level}; ${T} is the level they ` +
+      `chose to ride at, never a level riding needs)` : "";
     facts.push(L === null ? `Level ${T} needed${chose}: ${unseen("level")}.`
       : dings > 0 ? `Level: ${L}${old} of ${T}, ${plural(dings, "level")} to go${chose}.`
       : `Level: ${L}${old}, old enough to learn it${chose}.`);

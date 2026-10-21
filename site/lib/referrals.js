@@ -1,3 +1,5 @@
+import { isReportRead } from "./report-read.js";
+import { actionIsUncertain } from "./dashboard-action.js";
 // Inviting friends and the creator program (Share Willo: LOR-253, LOR-503, CC-72; Patrick's spec, Coaching 74,
 // 2026-10-16, LOR-617). Two loops, kept apart: players invite friends and earn product (answers, a free month);
 // approved creators bring subscribers and earn cash.
@@ -164,6 +166,7 @@ const BACKFILL = [
 ];
 const ready = new WeakMap();
 export function setupReferrals(env) {
+  if (isReportRead(env)) return;
   if (!ready.has(env.DB)) ready.set(env.DB, (async () => {
     await setupBilling(env);
     await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
@@ -1014,7 +1017,7 @@ export async function payoutList(env, now = new Date()) {
 // transfer to their Express account (only with payouts on and their account ready; the payout's id is Stripe's
 // idempotency key; a failed transfer unties the earnings again); "manual": paid outside the site (a bank transfer,
 // PayPal), noted. {payout} or {error}.
-export async function payCreator(env, code, { method = "manual", note = "", now = new Date() } = {}) {
+export async function payCreator(env, code, { method = "manual", note = "", now = new Date(), expectedCents } = {}) {
   await setupReferrals(env);
   const creator = await creatorRow(env, code);
   if (!creator) return { error: "No such creator." };
@@ -1039,6 +1042,13 @@ export async function payCreator(env, code, { method = "manual", note = "", now 
     env.DB.prepare("UPDATE creator_earnings SET clawed = NULL WHERE clawed = ?").bind(id),
     env.DB.prepare("UPDATE creator_payouts SET status = 'failed', error = ? WHERE id = ?").bind(why, id),
   ]);
+  // The private dashboard binds the owner's review to the claimed total, not a
+  // previous report read. Legacy callers omit expectedCents and keep their behavior.
+  if (expectedCents !== undefined && cents !== expectedCents) {
+    const error = "The amount due changed. Refresh and review the payout before paying.";
+    await untie(error);
+    return { error, status: 409 };
+  }
   if (cents <= 0) { await untie("nothing due"); return { error: `Nothing is due to ${creator.name} now.` }; }
   let transfer = null;
   if (method === "stripe") {
@@ -1047,7 +1057,7 @@ export async function payCreator(env, code, { method = "manual", note = "", now 
         description: `Lore Forever creator payout, ${monthKey(now)}`, metadata: { creator: code, payout: id } },
         { idempotencyKey: `lf-payout-${id}` });
     } catch (e) {
-      await untie(String(e?.message || e).slice(0, 300));
+      if (!actionIsUncertain(env)) await untie(String(e?.message || e).slice(0, 300));
       return { error: `Stripe didn't send it: ${e.message}` };
     }
   }

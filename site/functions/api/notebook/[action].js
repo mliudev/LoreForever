@@ -28,6 +28,7 @@ import { pageOf, allPages, savePage, undoPage, deletePage, allReminders, fireRem
   readNotebook, notebookView, plannedChange, NotebookError, PAGE_BYTES } from "../../../lib/willo-notebook.js";
 import { stockOf, goalsOf, goalChecks } from "../../../lib/willo-goals.js";
 import { planFor, plansOn } from "../../../lib/billing.js";
+import { trialFor } from "../../../lib/best-first.js";
 
 const COMPANION = /^companion\/[\w.-]{1,24}$/;
 // A whole page, JSON-escaped: escaping can grow it, so twice the page and room for the rest.
@@ -75,7 +76,11 @@ const POSTS = {
   goals: async ({ env }, input, user) => {
     if (!(await perMinute(env, user.id, "notebook-goals", GOAL_CHECKS_PER_MINUTE))) return slowDown();
     const now = new Date();
-    if (plansOn(env) && (await planFor(env, user.id, now)).id === "free") return ok({ checks: [], pages: [] });
+    // Goals are Hero's and up, and the free plan's in its first-run trial's days (lib/best-first.js).
+    if (plansOn(env)) {
+      const plan = await planFor(env, user.id, now);
+      if (plan.id === "free" && !(await trialFor(env, user.id, plan, now))?.on) return ok({ checks: [], pages: [] });
+    }
     const stock = stockOf(input.stock);
     if (!stock) return fail(400, "Couldn't read that.");
     const current = pageOf(input.character);

@@ -14,8 +14,17 @@ import { notebookIntent, notebookView, notebookTools, notebookCall, applyOp, tid
   UNSAVED_LINE, placeKey, REMIND_RULES, REMIND_PLAN_RULE, namedLines, namedLine, reminderLines, reminderLine, toYou, withRest, noMoment, unclaimed, saidYes,
   NOTEBOOK_MAX_BYTES, NOT_FOUND_LINE, NOTEBOOK_RULES, ACCOUNT_PAGE, NO_CLEAR_LINE, minutesAsked, linesOf } from "../lib/willo-notebook.js";
 import { ACTIONS_MAX_BYTES } from "../lib/companion-answers.js";
+import { NOTHING_TO_UNDO, REMINDER_GONE_LINE, UNDO_ELSEWHERE } from "../lib/willo-notebook-manage.js";
 import { helpTopics, helpBlock, keepsAsked } from "../lib/willo-help.js";
+import { setupBilling } from "../lib/billing.js";
 import { d1 } from "./helpers.mjs";
+
+// A free account whose first-run trial (lib/best-first.js) is over: its 20 had and its days gone, so it's the free plan's own.
+async function trialOver(e, user) {
+  await setupBilling(e);
+  await e.DB.prepare("INSERT OR REPLACE INTO best_first (claim, user_id, used, started) VALUES (?, ?, 20, ?)")
+    .bind(`taste:test-${user.id}`, user.id, new Date(Date.now() - 15 * 86400e3).toISOString()).run();
+}
 
 // Her line for a change: one of her lines for it (namedLines, reminderLines: each names exactly what was written), then
 // whatever else she said that claims nothing.
@@ -29,7 +38,12 @@ const env = { DB: d1(), GEMINI_API_KEY: "test-key", ASSETS: { fetch: async reque
 const originalFetch = globalThis.fetch;
 let calls, reply;
 
-beforeEach(async () => {
+// The wall clock is frozen at midday (12:00 on the PDT clock the reminder tests give), so a reminder set "in 5 minutes"
+// never lands past the player's midnight and reads "12:04 AM tomorrow" when the suite runs at 23:55 Pacific.
+const NOW = new Date("2026-10-19T19:00:00Z");
+
+beforeEach(async (t) => {
+  t.mock.timers.enable({ apis: ["Date"], now: NOW });
   await setup(env);
   env.DB.sqlite.exec("DELETE FROM notebook_pages");
   calls = [];
@@ -40,7 +54,7 @@ beforeEach(async () => {
     return Response.json(reply(body));
   };
 });
-afterEach(() => { globalThis.fetch = originalFetch; });
+afterEach((t) => { globalThis.fetch = originalFetch; t.mock.timers.reset(); });
 
 let n = 0;
 async function linked() {
@@ -329,7 +343,7 @@ test("she knows her notebook: asked about it, her help says what she writes and 
   assert.match(helpBlock("do you have a notebook?", { client: "companion/0.22.0" }), /never write in it unasked[^]*Notebook tab/);
 });
 
-test("asked where her notes are, she points to the Notebook tab, never the Settings; asked to clear them, she can't, and says so (stream 10/18)", async () => {
+test("asked where her notes are, she points to the Notebook tab, never the Settings; asked to clear them, she asks first, and only the site says it's done (stream 10/18, Mike 10/19)", async () => {
   // "how do I … see" is the sight topic's words, which gave her the Settings and an app that opened them.
   for (const q of ["How do I see where you've written it down?", "Where are my notes?", "where can I find my list", "Where did you write that down?",
     "How do I see what you wrote?"])
@@ -338,7 +352,7 @@ test("asked where her notes are, she points to the Notebook tab, never the Setti
   assert.deepEqual(helpTopics("How do I see the game?"), ["sight"], "and seeing the game is still that topic's");
   const help = helpBlock("How do I see where you've written it down?", { client: "companion/0.22.0" });
   assert.match(help, /Notebook tab in the bar at the top of your window, right next to Chat\. It is never in Settings/);
-  assert.match(help, /no trash icons[^]*never say you cleared, emptied or wiped it/);
+  assert.match(help, /no trash icons[^]*asking first when it's more than one line[^]*never say you changed what you didn't/);
   assert.match(help, /press Edit on the page, delete the lines and press Save/);
   // "Clear your notes" is "clear my notes": her privacy help (what keeps them, the page that erases them) and the notebook's.
   for (const q of ["Now clear your notes.", "clear your list", "wipe your notebook", "clear my notes"]) {
@@ -348,19 +362,24 @@ test("asked where her notes are, she points to the Notebook tab, never the Setti
   }
   assert.equal(notebookIntent("take Hogger off my list").clear, undefined, "a line comes off by name");
   const { user, token } = await linked();
-  seed(user, "## To do\n- [ ] Linen cloth for bags\n");
-  // Her claim of it with nothing cleared never goes out, and the page that does it is offered with her words.
+  seed(user, "## To do\n- [ ] Linen cloth for bags\n- [ ] Copper bars\n");
+  // Mike, 10/19: "I also want Willow to be able to edit and delete the notes". Two lines or more: she asks first, the
+  // site's words, with no model call; her claims of it never go out.
   reply = () => said("I have cleared your notes.");
+  const before = calls.length;
   let out = await ask(token, "Now clear your notes.");
-  assert.equal(out.answer, NO_CLEAR_LINE);
-  assert.equal(out.action?.id, "open_keeps");
-  assert.match(calls[0].systemInstruction.parts[0].text, /Notebook tab in the bar at the top of your window/);
-  reply = () => said("Everything's gone. I've wiped your notebook.");
-  assert.equal((await ask(token, "wipe your notebook")).answer, NO_CLEAR_LINE);
-  // What she says truthfully stands.
-  reply = () => said("I can't clear it all myself. What Willo keeps can erase everything I keep.");
-  assert.equal((await ask(token, "Now clear your notes.")).answer, "I can't clear it all myself. What Willo keeps can erase everything I keep.");
-  assert.equal(page(user, `char:${HURIN}`).body, "## To do\n- [ ] Linen cloth for bags\n");
+  assert.equal(out.answer, "That's two lines on Húrin's page: Linen cloth for bags and Copper bars. Take both off? Say yes.");
+  assert.equal(calls.length, before, "the site asks, not the model");
+  assert.equal(page(user, `char:${HURIN}`).body, "## To do\n- [ ] Linen cloth for bags\n- [ ] Copper bars\n");
+  out = await ask(token, "Yes.", { prompt: `PLAYER CONTEXT\nzone: Elwynn Forest\nlevel: 9\n\nSOURCES\n\nRECENT CONVERSATION (oldest first)\n` +
+    `${JSON.stringify([{ player: "Now clear your notes.", willo: out.answer }])}\n\nQUESTION\nYes.` });
+  assert.equal(out.answer, "Taken off, two lines: Linen cloth for bags and Copper bars.");
+  assert.equal(page(user, `char:${HURIN}`).body, "## To do\n");
+  // "Undo that" puts them back, in the site's words: her own change, named in her last answer.
+  out = await ask(token, "Undo that.", { prompt: `PLAYER CONTEXT\nzone: Elwynn Forest\nlevel: 9\n\nSOURCES\n\nRECENT CONVERSATION ` +
+    `(oldest first)\n${JSON.stringify([{ player: "Yes.", willo: out.answer }])}\n\nQUESTION\nUndo that.` });
+  assert.equal(out.answer, "Undone: Linen cloth for bags and Copper bars are back.");
+  assert.equal(page(user, `char:${HURIN}`).body, "## To do\n- [ ] Linen cloth for bags\n- [ ] Copper bars\n");
   // Asked where it is, her help names the tab, not Settings.
   reply = () => said("In the Notebook tab, next to Chat.");
   out = await ask(token, "How do I see where you've written it down?");
@@ -763,7 +782,7 @@ test("reminders: by time, from now or at a time of day on their clock; \"at 9\" 
   let out = await ask(token, "in an hour, remind me to log off", { notebook: { character: HURIN, offset: PDT } });
   const at = Date.parse(reminders(user)[0].at);
   assert.ok(at >= before + 3600e3 - 1000 && at <= Date.now() + 3600e3 + 1000);
-  assert.match(out.answer, /^(At \d{1,2}:\d\d [AP]M I'll remind you|I'll tell you at \d{1,2}:\d\d [AP]M): log off\.$/);
+  assert.match(out.answer, /^(At \d{1,2}:\d\d [AP]M( tomorrow)? I'll remind you|I'll tell you at \d{1,2}:\d\d [AP]M( tomorrow)?): log off\.$/);
   // "at 9" with nothing to say which: she asks, and nothing's set.
   reply = () => called("notebook_remind", { answer: "Sure.", text: "check the auction house", when: "time", clock: "21:00" });
   out = await ask(token, "remind me at 9 to check the auction house", { notebook: { character: HURIN, offset: PDT } });
@@ -804,7 +823,7 @@ test("reminders: \"in fifteen minutes\" is a time, whatever the call said, and t
     assert.equal(row.text, "check up on your auction", JSON.stringify(call));
     assert.equal(row.kind, "time");
     assert.ok(Math.abs(Date.parse(row.at) - (before + 15 * 60e3)) < 5000, JSON.stringify(call));
-    assert.match(out.answer, /^(At \d{1,2}:\d\d [AP]M I'll remind you|I'll tell you at \d{1,2}:\d\d [AP]M): check up on your auction\.$/, JSON.stringify(call));
+    assert.match(out.answer, /^(At \d{1,2}:\d\d [AP]M( tomorrow)? I'll remind you|I'll tell you at \d{1,2}:\d\d [AP]M( tomorrow)?): check up on your auction\.$/, JSON.stringify(call));
     env.DB.sqlite.prepare("DELETE FROM notebook_reminders WHERE user_id = ?").run(user.id);
   }
 });
@@ -999,6 +1018,7 @@ test("reminders blind check, case 11: a character's reminder is never another's,
 test("reminders blind check, case 20: the free plan hears it plainly, with what went on their list", async () => {
   const { user, token } = await linked();
   env.SITE_FEATURES = "plans";
+  await trialOver(env, user);
   try {
     reply = () => called("notebook_add", { answer: "Noted: Sell cloth in Ironforge.", kind: "todo", items: ["Sell the cloth in Ironforge"] });
     let out = await ask(token, "When I'm next in Ironforge, remind me to sell the cloth.");
@@ -1169,4 +1189,161 @@ test("the claim guard: \"consider it done\", \"your map is clear\", \"all set\" 
   reply = () => said("Your list is all clear: you've ticked off the copper bars and the silver ore.");
   assert.equal((await ask(readerToken, "Is there anything left on my to-do?")).answer,
     "Your list is all clear: you've ticked off the copper bars and the silver ore.");
+});
+
+// Mike, 10/19: "I also want Willow to be able to edit and delete the notes and manage them for me."
+test("Willo manages the notebook: clears what's done, a list, said reminders; makes lines one; moves lines; undoes", async () => {
+  const { user, token } = await linked();
+  const char = `char:${HURIN}`;
+  seed(user, "## To do\n- [x] 10 Linen Cloth for bags\n- [x] Train at level 30\n- [ ] Sell the boar meat\n\n## Tailoring\n" +
+    "- [ ] Brown Linen Robe\n- [x] Linen Bag\n\n## Notes\n- Flight master in Sentinel Hill: Thor\n- Thor flies to Stormwind and " +
+    "Lakeshire\n- Hearthstone set to Goldshire\n");
+  seed(user, "## Notes\n- Guild bank tab 2 is for herbs\n", "account");
+  const nb = { notebook: { character: HURIN, offset: PDT } };
+  const turn = (q, earlier, said) => ({ ...nb, prompt: "PLAYER CONTEXT\nzone: Elwynn Forest\nlevel: 9\n\nSOURCES\n\nRECENT " +
+    `CONVERSATION (oldest first)\n${JSON.stringify([{ player: earlier, willo: said }])}\n\nQUESTION\n${q}` });
+  const numberOf = (body, text) => Number(new RegExp(`(\\d+)\\. (?:\\[[ x]\\] )?${text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}`)
+    .exec(JSON.stringify(body))?.[1]);
+  // One line by what it is is a write, never "I can't clear your whole notebook" (the vision check, 10/19).
+  assert.deepEqual([notebookIntent("Delete my note about the guild bank.").write, notebookIntent("Delete my note about the guild bank.").clear],
+    [true, undefined]);
+  // What's done: three, so she asks first, in the site's words, with no model call; a no keeps them, a yes takes them.
+  reply = () => said("I have cleared them all.");
+  const before = calls.length;
+  let out = await ask(token, "Clear my done items.", nb);
+  const asked = "That's three done items on Húrin's page: 10 Linen Cloth for bags, Train at level 30 and Linen Bag. Take them all off? Say yes.";
+  assert.equal(out.answer, asked);
+  assert.equal(calls.length, before);
+  assert.equal((await ask(token, "No.", turn("No.", "Clear my done items.", asked))).answer, "All right, I'll keep them.");
+  assert.match(page(user, char).body, /\[x\] Linen Bag/);
+  out = await ask(token, "Yes.", turn("Yes.", "Clear my done items.", asked));
+  assert.equal(out.answer, "Taken off, three done items: 10 Linen Cloth for bags, Train at level 30 and Linen Bag.");
+  assert.doesNotMatch(page(user, char).body, /\[x\]/);
+  assert.equal(out.notebook.change, "remove");
+  // "Undo that" puts them back; nothing changed since, nothing more to undo.
+  out = await ask(token, "Undo that.", turn("Undo that.", "Yes.", out.answer));
+  assert.equal(out.answer, "Undone: 10 Linen Cloth for bags, Train at level 30 and Linen Bag are back.");
+  assert.match(page(user, char).body, /\[x\] Linen Bag/);
+  // A named list with one line left in it goes at once.
+  env.DB.sqlite.prepare("UPDATE notebook_pages SET body = replace(body, '- [x] Linen Bag\n', '') WHERE user_id = ? AND page = ?").run(user.id, char);
+  out = await ask(token, "Clear the Tailoring list.", nb);
+  assert.equal(out.answer, "Taken off: Brown Linen Robe.");
+  assert.doesNotMatch(page(user, char).body, /Brown Linen Robe/);
+  // A list that isn't there is said so.
+  assert.equal((await ask(token, "Clear the Mining list.", nb)).answer, "There's no list called Mining on Húrin's page.");
+  // Two lines made one, the merged words the model's, every line named theirs.
+  let offered;
+  reply = body => {
+    offered = body.tools?.[0]?.functionDeclarations?.map(f => f.name) || [];
+    return called("notebook_merge", { items: [numberOf(body, "Flight master in Sentinel Hill: Thor"),
+      numberOf(body, "Thor flies to Stormwind and Lakeshire")], text: "Thor, flight master in Sentinel Hill, flies to Stormwind and Lakeshire" });
+  };
+  out = await ask(token, "Merge my two notes about Thor into one.", nb);
+  assert.ok(offered.includes("notebook_merge"), offered);
+  assert.match(out.answer, /^(Made one line|Merged into one): Thor, flight master in Sentinel Hill, flies to Stormwind and Lakeshire\.$/);
+  assert.match(page(user, char).body, /- Thor, flight master in Sentinel Hill, flies to Stormwind and Lakeshire\n- Hearthstone/);
+  assert.doesNotMatch(page(user, char).body, /Thor flies to/);
+  // A line moved to the page for all their characters: on that page first, then off this one.
+  reply = body => called("notebook_move", { items: [numberOf(body, "Hearthstone set to Goldshire")], page: "account" });
+  out = await ask(token, "Move my hearthstone note to the page for all my characters.", nb);
+  assert.equal(out.answer, "Moved to the page for all your characters: Hearthstone set to Goldshire.");
+  assert.deepEqual([out.notebook.change, out.notebook.did, out.notebook.page], ["move", "relocate", char], "as Willo's app knows it");
+  assert.match(page(user, "account").body, /## Notes\n- Guild bank tab 2 is for herbs\n- Hearthstone set to Goldshire\n/);
+  assert.doesNotMatch(page(user, char).body, /Hearthstone/);
+  // From another character's chat (a new one, or after switching), it's never undone: the QA run (10/19) undid only the
+  // shared page's half from Melkor's, and the note was on neither page.
+  const moved = out.answer;
+  const melkor = { notebook: { character: "Melkor-ClassicBetaPvE", offset: PDT } };
+  assert.equal((await ask(token, "Undo that.", melkor)).answer, NOTHING_TO_UNDO);
+  assert.equal((await ask(token, "Undo that.", { ...turn("Undo that.", "Move it.", moved), ...melkor })).answer, UNDO_ELSEWHERE);
+  assert.match(page(user, "account").body, /Hearthstone set to Goldshire/);
+  assert.doesNotMatch(page(user, char).body, /Hearthstone/);
+  // From its own chat, undo puts both pages back.
+  out = await ask(token, "Undo that.", turn("Undo that.", "Move my hearthstone note to the page for all my characters.", moved));
+  assert.match(page(user, char).body, /Hearthstone set to Goldshire/);
+  assert.doesNotMatch(page(user, "account").body, /Hearthstone/);
+  // Reminders said already: two, so she asks, and a yes takes them; one waiting stays.
+  const r = (id, text, fired) => env.DB.sqlite.prepare("INSERT INTO notebook_reminders (id, user_id, page, text, kind, level, " +
+    "created, fired) VALUES (?, ?, ?, ?, 'level', 30, ?, ?)").run(id, user.id, char, text, new Date().toISOString(), fired);
+  r("a", "train", new Date().toISOString());
+  r("b", "check your auction", new Date().toISOString());
+  r("c", "sell your cloth", null);
+  out = await ask(token, "Clear my done reminders.", nb);
+  assert.equal(out.answer, "That's two said reminders: train and check your auction. Take both off? Say yes.");
+  out = await ask(token, "Yes.", turn("Yes.", "Clear my done reminders.", out.answer));
+  assert.equal(out.answer, "Taken off, two said reminders: train and check your auction.");
+  assert.deepEqual(reminders(user).map(x => x.text), ["sell your cloth"]);
+});
+
+test("\"undo that\" never claims what it didn't do: a reminder set is taken off again, one taken off can't come back", async () => {
+  const { user, token } = await linked();
+  const nb = { notebook: { character: HURIN, offset: PDT } };
+  // Nothing changed lately: her line says so, whatever the model would have said (the vision check: "I have added the boar
+  // meat back onto your list" with nothing back).
+  reply = () => said("I have added the boar meat back onto your list for you.");
+  assert.equal((await ask(token, "Undo that.", nb)).answer, NOTHING_TO_UNDO);
+  // A reminder just set: undone, it's taken off.
+  env.DB.sqlite.prepare("INSERT INTO notebook_reminders (id, user_id, page, text, kind, level, created) VALUES ('r1', ?, ?, " +
+    "'train', 'level', 20, ?)").run(user.id, `char:${HURIN}`, new Date().toISOString());
+  const prompt = q => ({ ...nb, prompt: "PLAYER CONTEXT\nzone: Elwynn Forest\nlevel: 9\n\nSOURCES\n\nRECENT CONVERSATION (oldest " +
+    `first)\n${JSON.stringify([{ player: "remind me to train at 20", willo: q }])}\n\nQUESTION\nUndo that.` });
+  let out = await ask(token, "Undo that.", prompt("At level 20 I'll remind you: train."));
+  assert.match(out.answer, /^(?:Taken off|That reminder's gone): train\.$/);
+  assert.equal(reminders(user).length, 0);
+  // One taken off: she can't bring it back, and says so.
+  out = await ask(token, "Undo that.", prompt("Taken off: train."));
+  assert.equal(out.answer, REMINDER_GONE_LINE);
+});
+
+test("the vision check's misses (10/19): \"the linen one\" and \"the thing about Thor\" reach her tools, \"can you delete notes?\" her help, a merge says it once", async () => {
+  for (const q of ["Delete the linen one.", "Remove the thing about Thor."]) assert.equal(notebookIntent(q).write, true, q);
+  assert.ok(helpTopics("Can you delete notes for me?").includes("notebook"));
+  assert.deepEqual(helpTopics("Change my mount goal: I'll get it at level 45 instead."), [], "an ask to change one isn't a question about her");
+  assert.equal(withRest("Made one line: Thor flies to Stormwind.", "I've combined those for you: Thor the flight master flies to Stormwind."),
+    "Made one line: Thor flies to Stormwind.");
+  const { askedGoal } = await import("../lib/willo-goals.js");
+  assert.equal(askedGoal("Change my mount goal to level 42.").at, 42);
+});
+
+test("a rename matches the line on the words that name it, never the new words: two Thor notes, it asks which (10/19)", async () => {
+  const { user, token } = await linked();
+  seed(user, "## Notes\n- Flight master in Sentinel Hill: Thor\n- Thor flies to Stormwind and Lakeshire\n");
+  reply = body => called("notebook_update", { item: Number(/(\d+)\. Flight master in Sentinel Hill: Thor/.exec(JSON.stringify(body))[1]),
+    text: "Thor the gryphon master" });
+  const out = await ask(token, "Rename my Thor note to Thor the gryphon master.", { notebook: { character: HURIN, offset: PDT } });
+  assert.equal(out.answer, "Which one: Flight master in Sentinel Hill: Thor, or Thor flies to Stormwind and Lakeshire?");
+  assert.match(page(user, `char:${HURIN}`).body, /Flight master in Sentinel Hill: Thor/);
+});
+
+test("\"remember to … in five minutes / when I reach / at\" sets a reminder like \"remind me\"; a plain \"remember to\" is a line (Mike's recording, 10/19)", async () => {
+  const { user, token } = await linked();
+  const nb = { notebook: { character: HURIN, offset: PDT } };
+  // As it reached her out loud: "Written down for every character: Check on the auction house in 5 minutes", no reminder.
+  for (const q of ["Hey Willow. Remember to uh check on the auction house in five minutes.",
+    "Hey Willo, remember to check on the auction house in five minutes."]) {
+    reply = () => called("notebook_add", { kind: "todo", items: ["Check on the auction house in 5 minutes"], page: "account" });
+    const before = Date.now();
+    const out = await ask(token, q, nb);
+    const [row] = reminders(user);
+    assert.deepEqual([row?.text, row?.kind], ["check on the auction house", "time"], q);
+    assert.ok(Math.abs(Date.parse(row.at) - (before + 5 * 60e3)) < 5000, q);
+    assert.match(out.answer, /: check on the auction house\.$/, q);
+    env.DB.sqlite.prepare("DELETE FROM notebook_reminders WHERE user_id = ?").run(user.id);
+  }
+  // A place, a level, a time of day: the reminder tool is offered, in their words.
+  for (const [q, args, text] of [["Remember to sell my cloth when I reach Ironforge.", { when: "place", place: "Ironforge" }, "sell your cloth"],
+    ["Remember to train when I hit level 20.", { when: "level", level: 20 }, "train"]]) {
+    reply = body => {
+      assert.ok(offered(body).includes("notebook_remind"), q);
+      return called("notebook_remind", { text: "Something else", ...args });
+    };
+    await ask(token, q, nb);
+    assert.deepEqual(reminders(user).map(r => r.text), [text], q);
+    env.DB.sqlite.prepare("DELETE FROM notebook_reminders WHERE user_id = ?").run(user.id);
+  }
+  // No moment: a line of their list, never a reminder.
+  assert.equal(notebookIntent("Remember to buy linen.").remind, false);
+  reply = () => called("notebook_add", { kind: "todo", items: ["Buy linen"] });
+  await ask(token, "Remember to buy linen.", nb);
+  assert.equal(reminders(user).length, 0);
 });

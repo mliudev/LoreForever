@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // A note to a player who cancelled their Willo plan, asking why (Patrick, 2026-10-19: "send an email to the one who
 // cancelled to ask them about that was the issue and how we could improve"; Mike's go the same day). Written on /admin's
 // Growth > Retention, one player at a time, and sent by the site (lib/email.js, Cloudflare Email Sending) from
@@ -34,6 +35,7 @@ const SETUP = [
 ];
 const ready = new WeakMap();
 export function setupWinback(env) {
+  if (isReportRead(env)) return;
   if (!ready.has(env.DB)) ready.set(env.DB, (async () => {
     await setupCancellations(env);
     await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
@@ -81,7 +83,7 @@ export async function noteStates(env, ids) {
 
 // Sends the note for cancellation `id` (plan_cancellations.id): {status} (sent, off: no email service set up, opted_out,
 // no_address, seen: one was sent already, failed), or {error} for a note that can't go.
-export async function writeNote(env, { id, subject, text }) {
+async function prepareNote(env, { id, subject, text }) {
   await setupWinback(env);
   subject = plain(subject, SUBJECT_MAX).replace(/\n/g, " ");
   text = plain(text, TEXT_MAX);
@@ -97,11 +99,33 @@ export async function writeNote(env, { id, subject, text }) {
   const row = await env.DB.prepare("SELECT c.subscription_id, c.user_id, u.email, u.display_name FROM plan_cancellations c " +
     "JOIN users u ON u.id = c.user_id WHERE c.id = ?").bind(id).first();
   const message = { to: row.email, ...noteEmail({ subject, text, name: row.display_name }) };
+  return { row, subject, text, message };
+}
+
+const draftOf = message => ({ to: message.to.trim().toLowerCase(), from: message.from,
+  replyTo: message.replyTo, subject: message.subject, text: message.text });
+
+// The dashboard calls this through its read-only database boundary. It contains the
+// actual recipient and expanded message, including the footer, for owner approval.
+export async function previewNote(env, input) {
+  const out = await prepareNote(env, input);
+  return out.error ? out : { draft: draftOf(out.message) };
+}
+
+export async function writeNote(env, input, { reviewed } = {}) {
+  const prepared = await prepareNote(env, input);
+  if (prepared.error) return prepared;
+  const { row, subject, text, message } = prepared;
+  if (reviewed) {
+    const draft = draftOf(message);
+    if (Object.keys(draft).some(key => reviewed[key] !== draft[key]))
+      return { error: "The recipient or message changed. Preview and approve the current draft before sending.", status: 409 };
+  }
   const status = await sendOnce(env, { id: `winback:${row.subscription_id}`, kind: "winback", userId: row.user_id, message });
   if (status === "failed") return { error: "The email service didn't take it. Try again in a minute." };
   if (status !== "seen") {
     await env.DB.prepare("INSERT OR IGNORE INTO winback_notes (subscription_id, cancellation_id, subject, text, status, created) " +
-      "VALUES (?, ?, ?, ?, ?, ?)").bind(row.subscription_id, id, subject, text, status, new Date().toISOString()).run();
+      "VALUES (?, ?, ?, ?, ?, ?)").bind(row.subscription_id, input.id, subject, text, status, new Date().toISOString()).run();
   }
   return { status };
 }

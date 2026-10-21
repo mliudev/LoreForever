@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // Lore Forever accounts: users, sessions, their player profile (/u/<handle>, LOR-181) and what they contribute.
 // Contributors need one, and so does anyone sending feedback (/feedback, LOR-106) or making a profile; playing,
 // downloading, listening and liking don't. The page is /account. Kept outside functions/ so Pages doesn't route it.
@@ -178,6 +179,7 @@ const ready = new WeakMap();
 const preparing = new WeakMap();
 export const historyReady = env => ready.get(env.DB)?.history === true;
 export async function setup(env) {
+  if (isReportRead(env)) return;
   if (ready.has(env.DB)) return;
   if (preparing.has(env.DB)) return preparing.get(env.DB);
   const preparation = (async () => {
@@ -286,6 +288,7 @@ export async function setup(env) {
 // Explicit schema preparation for controlled migration and synthetic fixtures, never a request-path upgrade.
 // Production applies site/migrations/history-v3.sql before setting HISTORY_ARCHIVE_ENABLED.
 export async function setupHistory(env) {
+  if (isReportRead(env)) return;
   await setup(env);
   await env.DB.batch(HISTORY_SETUP.map(s => env.DB.prepare(s)));
   ready.set(env.DB, { history: true });

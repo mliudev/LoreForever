@@ -3,7 +3,6 @@ title: WoW Forever Lore Explained: Story, Timeline and Factions
 description: The story of WoW Forever before you play: the setting after Warcraft III, Lordaeron and the Forsaken, who leads the Alliance and Horde, and the Skyborne.
 date: 2026-10-17
 kind: lore
-draft: true
 ---
 **WoW Forever is set in the first year of World of Warcraft, a few years after the Third War and after the Warcraft III: Reforged Forsaken Kingdom campaign, and before Molten Core.** It follows its own timeline: it is not Classic and it does not replay later expansions. The world is recovering from war, old kingdoms have fallen, alliances are fragile and unexplored places are starting to matter again.
 

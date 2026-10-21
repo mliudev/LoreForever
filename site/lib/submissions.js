@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // Voice submissions (D1 table voice_submissions), shared by the folder-link form (functions/api/voices.js) and the
 // upload page (functions/api/studio/[action].js, whose submissions have the link "studio:<voice id>"). Kept outside
 // functions/ so Pages doesn't route it.
@@ -39,6 +40,7 @@ const MIGRATE = ["ALTER TABLE voice_submissions ADD COLUMN user_id TEXT", "ALTER
   "ALTER TABLE voice_submissions ADD COLUMN reason TEXT"];
 
 export async function setupSubmissions(env) {
+  if (isReportRead(env)) return;
   await env.DB.prepare(SETUP).run();
   for (const sql of MIGRATE) {
     try { await env.DB.prepare(sql).run(); } catch (e) {}

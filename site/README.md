@@ -23,6 +23,15 @@ other branches' Preview keys aren't on a public address: test a PR branch on dev
 dev`). Sign-in only works on develop, and no other preview address should be added to the OAuth client. develop holds one branch at a time: on release
 days the release coordinator hands it out. Never merge develop into anything.
 
+**Test players on develop** (`lib/test-players.js`, `functions/api/test/[action].js`, the panel `public/js/test-players.js`
+on /link and /account): Mira, Doran and Brann, made-up players for trying friends, messages and pins without a real
+friend. "Sign in as Mira" (no password, no real account), "Add the test friends" (the signed-in account, Mike's own
+too, befriends Mira and Doran; Doran writes to them), and "Brann accepts my request" after adding him by his name,
+`brann`. Mira and Doran are friends, share where they are (Westfall, Duskwood), Doran's Willo shows connected after each
+seed, and Mira's notebook has three pins. On only with the Pages variable `TEST_PLAYERS=1` in the Preview environment, on
+develop, preview or a local copy, and never with live Stripe: anywhere else `/api/test/*` answers 404 and the panel
+doesn't show (`site/tests/test-players.test.mjs` proves the live site refuses).
+
 A static landing page and feedback page (`public/`) plus small Cloudflare Pages Functions in `functions/`
 (download counts, sign-ups, stats, click counts and feedback). Hosted on Cloudflare Pages (free).
 `functions/_middleware.js` redirects old addresses once the site has its own domain; see [DOMAIN.md](DOMAIN.md).
@@ -994,8 +1003,9 @@ plan, when it renews, changes or ends, "Switch to <plan>" links that open the co
 - **Off by default:** without `STRIPE_SECRET_KEY` the section stays hidden, the API answers 503 (`plans` says
   `{on: false}`), and live answers use the free plan's limits.
 - /admin's **Plans** tile: paying players, the monthly revenue estimate (before Stripe's fees), accounts by plan and status, what paying players' answers cost this month, finest-voice packs sold this
-  month, their replies still unused and what their replies cost this month. Comped plans (a coupon in `COMP_COUPONS`,
-  such as Mike's `owner-legend-free`, or any 100%-off coupon past one invoice) and plans on admin or test accounts are
+  month, their replies still unused and what their replies cost this month. Comped plans (any 100%-off coupon, read from Stripe,
+  or one in `COMP_COUPONS` when only its id arrives: Mike's `owner-legend-free` and a creator's three free months of
+  Legend, `domino-games-free`) and plans on admin or test accounts are
   counted apart, never as revenue: `plan_log` keeps each subscription's dates and comp, written by the webhook, with
   its coupons read from Stripe (GET only) when /admin loads (`checkPlanLog`).
 - **Willo analytics** (LOR-524, `lib/willo-stats.js`; /admin > Growth > Willo, and the Overview tile): downloads

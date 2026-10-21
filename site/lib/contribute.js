@@ -1,3 +1,4 @@
+import { isReportRead } from "./report-read.js";
 // Community Forever text (LOR-235, LOR-236): what players share from the add-on's capture, how it's checked, and when
 // it's trusted enough to go into Lore Forever. The API is in functions/api/contribute.js (POST) and
 // functions/api/contribute/[action].js, the receipt page in functions/contribute/r/[id].js, the format and statuses
@@ -62,6 +63,7 @@ const SETUP = [
 
 let ready = false;
 export async function setup(env) {
+  if (isReportRead(env)) return;
   if (ready) return;
   await env.DB.batch(SETUP.map(s => env.DB.prepare(s)));
   // contrib_lines.picked and .pick_reason (LOR-621) on a table made before them. Another cold Worker may add one at the
