@@ -7,6 +7,10 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 0.24.1 (2026-10-21)
+
+- Fixed a Windows issue that could stop Willo from saving your journal and syncing character information.
+
 ## 0.24.0 (2026-10-20)
 
 - **Easier updates:** the new Windows Willo app downloads updates in the background and installs them when she next
